@@ -3850,7 +3850,7 @@ a proof that every admissible bundle there is flat. ★★★
 
 **ESCALATED(2026-10-29, S240: the lead-debt ratchet at 22 days)** — carried by name, not dormant: worked in S230–S233 (B1794: no rational hypercharge class on any closed member; B1800: the couplings as flux-mode overlaps, L251 as stated) and registered onward as P-403 (the flux design: name the U(1), compute the three sectors, then seal); B1804 adds that LR-invariant fluxes force at most curves in the split frame. Next action: P-403's design, in the queue's order; read at Review 72.
 
-## L251 — THE COUPLINGS AS OVERLAPS OF THE FIBRE'S ZERO MODES: ONE COMPUTATION THAT WOULD FIX THE HAND, THE OBJECT AND THE COEFFICIENTS TOGETHER (registered 2026-10-13, after B1640; source: two of the frame audit's three referee lenses, independently)
+## L251 — THE COUPLINGS AS OVERLAPS OF THE FIBRE'S ZERO MODES: ONE COMPUTATION THAT WOULD FIX THE HAND, THE OBJECT AND THE COEFFICIENTS TOGETHER (registered 2026-10-13, after B1640; source: two of the frame audit's three referee lenses, independently) — DISCHARGED by B1800 (S233, 2026-10-28; the heading marked at Review 74, 2026-11-04)
 
 **The observation.** The record reads the weave's couplings as vector-valued modular forms evaluated at a modulus τ
 (B1634–B1637), the Feruglio reading, while W45/W46 count the three by an index over M₁,₂, where τ is a coordinate that is
@@ -3885,6 +3885,8 @@ B674 (the tick's Γ(5) lift, trace φ), B685, B691, B694, B695, B699, B702, B705
 ruled branch, if the weave's representation reaches it, and compare B640's traces with the golden coupling's spectrum.
 **Status:** registered. Queue slot Q7 (docs/POINT_REGISTER.md).
 
+**ESCALATED(2026-11-04, Review 74):** swept the same day — no arc from B1640 on cites B640, B997, B248, B981 or P-033; B1750 and B1751 (GENESIS v1.56) name the ladder through Klein's (2, 3, N) triangle groups but compute nothing on it. The first computation stands as written and has never run: the weight-1 triplet of Γ(5)'s A₅′ on the ruled branch, if the weave's representation reaches it, against B640's traces and the golden coupling's spectrum. Carried on P-033, P-034, P-040, P-041 ([LEAD]); ranked with the review's other leads for the owner.
+
 ## L253 — THE SELECTIONS AS COORDINATES: ARE THE RECORD'S LOCATED CHOICES INDEPENDENT, OR ONE DATUM? (registered 2026-10-13, after B1640; source: the frame audit's patterns referee)
 
 **The observation.** "Forced to choose, not forced which" recurs: B413, B1083, B1225 (T-NO-CANONICAL-SELECTOR), B1251,
@@ -3899,6 +3901,8 @@ thread's axis.
 modulus and where the axes cross; test whether those points are where the ruled-branch couplings are golden or
 degenerate. If the list is finite and the points coincide, several selections collapse. Then reconcile B1409's 20 with
 B1635's 2 + Σ(2d − 1). **Status:** registered. Queue slot Q7.
+
+**ESCALATED(2026-11-04, Review 74):** partly answered. B1733 shows a thread fixes τ (its apex) and its own lines, so two of the located selections collapse into one datum on the thread; B1809 shows each of four frames keeps a continuous datum or an infinite menu nothing on record selects. Never run: the first computation (P-038) — every thread pair to length about 10 with tr[W₁, W₂] = −2, the generated torus's cusp modulus and where the axes cross, against the ruled-branch couplings' golden or degenerate loci — and the reconciliation of B1409's 20 with B1635's count. It bears directly on the goal's free-number count; ranked with the review's other leads for the owner.
 
 ## L254 — τ AS A FIELD: WHAT WOULD PUT IT ON THE DISCRIMINANT-5 LOCUS? (registered 2026-10-13, after B1640; source: the frame audit's dictionary and patterns referees)
 
@@ -3917,6 +3921,8 @@ SL(2, ℤ) one closed geodesic, in the fundamental domain the two arcs from i to
 up to Im τ = 4). In B1656's frame at the canonical end, no point of it, with any line of order 2–12, comes closer to the six
 ratios than a factor 147: the valley sits too low for the frame's hierarchy. The valley question is closed in that frame.
 The orbit-averaged mixing and the potential's minimum stay open (the completion map's C6 and C7).
+
+**ESCALATED(2026-11-04, Review 74):** the valley half is closed in B1656's frame (B1723, NEGATIVE as sealed). Open and never run: the completion map's C6 (the arclength average of the golden coupling's mixing on the tick's orbit, sealed before any comparison with data) and C7 (the minimum of a modular-invariant potential built from the weave's own forms). Ranked with the review's other leads for the owner.
 
 ## ⟳ VIEW REFRESH — 2026-10-07 (Review 60)
 

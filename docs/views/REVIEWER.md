@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1534** |
-| words of findings prose | **1,279,216** |
+| research arcs with findings | **1535** |
+| words of findings prose | **1,282,481** |
 | test lock files referenced | **932** |
-| arcs carrying an authored verdict | **1534** (100.0 %) |
+| arcs carrying an authored verdict | **1535** (100.0 %) |
 | recorded closures | **858** (691 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1046 |
+| PROVED | 1047 |
 | NEGATIVE | 382 |
 | OPEN | 94 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1830`** (1669 words, 1 locks)  
-THE REGISTER TRIAGED (the owner's ruling on P-587, 2026-11-03: 'yes'): every open row typed DEBT, LEAD or PROCESS, only debts age, every open debt on a ranked list by load (point_debt.py rule 6, with a planted test). Five readers typed the 250 open rows; main verified every proposed closure: DONE P-386, P-495, P-502, P-503, P-510, P-520, P-521, P-522; P-292 merged into P-337; P-485, P-487, P-218 kept open. 59 debts, 141 leads, 41 process; 15 aged debts escalated; the debts ranked -- first those bearing on the strip candidate (P-355's D first), the live prediction P10 and B1825's machinery, then foundation statements, then checks, then premises. 0 of 19. [S297, rechecked at the owner's word: P-154 and P-421 retyped DEBT; 20 stale LAW_MAP rows corrected (P-588, P-589); new debts P-589, P-590]  
-`B1830_the_register_triaged/FINDINGS.md`
+**PROVED — `B1831`** (764 words, 0 locks)  
+REVIEW 74 (the owner's 'do the decadal'; 38 merges, two short of the block): at the owner's mid-review ask the backlog was read in full for leads -- 84 open relays (72 BANKED, 7 DECLINED, 5 open with next actions), 276 SCHEDULED rows (none derives a parameter or hides a positive; about 146 handled elsewhere), 142 register leads and 77 open leads (39 stale; the tops ranked for the owner); the carry rule could not fire (E84, fixed); the seats harvested past S298 and theta-bar ruled off P-585's held-out list, the candidate's confirmation one target short (P-597); the sample's and main's own S298 errors corrected with instruments; P-592 declined, P-535 adjudicated, P-563/P-565 adopted; E95 new. 0 of 19.  
+`B1831_review_74_the_decadal_review/FINDINGS.md`
 
 **NEGATIVE — `B1825`** (1949 words, 0 locks)  
 THE NINE FROM ONE ADDRESS (THE FINAL ATTACK's Step B, P-495; sealed fa25925fc; NEGATIVE as sealed: NO SUPPORT): within the refined census's reach (266 lines of orders 1-12, twelve directions, both radii, eight readings, continuous tau with Im tau in [1, 4], c = 3) no rigid address of FR-FIB carries our world's ten (the six mass ratios, |V_us|, |V_cb|, |V_ub|, |J|): the least chi2_ten is 291.4 against 23.21 (a fresh evaluation 291.5; refereed by an independent scan of every stored node). The six alone are reached (least chi2_six 1.36) and the four alone are reached (0.35 at a node), never together: no address whose six lie near the best reaches the four (rigorous enclosures), and K's bits_CKM is -194 (knowing our six makes the frame's prediction of our mixing 2^194 times worse). The wall was seen on narrower menus (B1713: masses and mixing together a factor 3.59; B1720: they do not meet); this seals it on the whole menu at sigma resolution. NOT FOUND within the reach; nothing excluded beyond it. 0 of 19. [S298: the bar's grade is NOT FOUND (S not found, T consistent, no V cell); NEGATIVE is the kill graph's category; scope at H = I (B1822)]  

@@ -1,0 +1,31 @@
+{
+ "id": "B1831",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1823",
+  "B1825",
+  "B1826",
+  "B1809",
+  "B1821",
+  "B1822",
+  "B1824",
+  "B1828",
+  "B1830"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (a process arc: the review loop)",
+  "object": "the record's window 99d90d515..eb130f01f (38 merges, B1819-B1830), its review loop, gates, seats, relays, SCHEDULED rows and leads",
+  "reach": "general",
+  "hypotheses": "readers report and main verifies what it applies; the SCHEDULED and lead closures proposed by readers are listed, not applied; the fresh-clone suite at the window's last landing"
+ },
+ "claim_one_line": "REVIEW 74 (the owner's 'do the decadal'; 38 merges, two short of the block): at the owner's mid-review ask the backlog was read in full for leads -- 84 open relays (72 BANKED, 7 DECLINED, 5 open with next actions), 276 SCHEDULED rows (none derives a parameter or hides a positive; about 146 handled elsewhere), 142 register leads and 77 open leads (39 stale; the tops ranked for the owner); the carry rule could not fire (E84, fixed); the seats harvested past S298 and theta-bar ruled off P-585's held-out list, the candidate's confirmation one target short (P-597); the sample's and main's own S298 errors corrected with instruments; P-592 declined, P-535 adjudicated, P-563/P-565 adopted; E95 new. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}

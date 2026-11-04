@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.61) of 2026-11-03 |
-| arcs with a verdict | 1534: 1046 PROVED, 382 NEGATIVE, 94 OPEN, 12 RETRACTED |
-| points in the register | 593: 250 open (queued, leads, waiting for the owner), 343 closed |
-| the last review | Review 73 (2026-10-30), anchor `99d90d515` |
-| the last landing | S298 THE HARVEST: EVERY SEAT'S BRANCH READ TO ITS HEAD; THE WEB SEAT'S REVIEW VERIFIED AND APPLIED — B1825's BAR GRADE IS NOT FOUND, THE MIRROR RULE'… |
+| arcs with a verdict | 1535: 1047 PROVED, 382 NEGATIVE, 94 OPEN, 12 RETRACTED |
+| points in the register | 620: 266 open (queued, leads, waiting for the owner), 354 closed |
+| the last review | Review 74 (2026-11-04), anchor pending |
+| the last landing | S299 REVIEW 74, THE DECADAL REVIEW: THE BACKLOG READ IN FULL FOR LEADS; THE CANDIDATE'S CONFIRMATION ONE HELD-OUT TARGET SHORT (θ̄ RULED AN INPUT); T… |
 <!-- STATE:END -->
 
 ## Start here

@@ -184,3 +184,5 @@ statement about `SL(3)` to a statement about the whole ladder the corpus can rea
 
 Artifacts: `verification/b1409_budget.py`, `verification/b1409_budget.json`.
 Locks: `tests/test_b1409_tower_budget.py`.
+
+> *Dated note 2026-11-04 (Review 74, P-535):* the seal (`31cfd0325`) hashes the preregistration only; the instrument `verification/b1409_budget.py` was written after it against the sealed definitions and committed with its first outputs at `efa5fd465`, so git does not show its form before the run.*

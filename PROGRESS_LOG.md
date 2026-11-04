@@ -18321,3 +18321,7 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 - The owner's 'make sure … didn't miss anything load bearing': typings and closures stand (P-154, P-421 retyped debts);
   20 stale law-map rows corrected in place (P-588, P-589); the strip candidate is the small-cut end's, which fails the six
   at the exact norms (B1829 corrected); P-590 the negatives' scale scope; P-355's first item paid. 0 of 19.
+
+## 2026-11-04 — S299 Review 74, the decadal review
+
+- The backlog read in full for leads at the owner's word (84 relays, 276 SCHEDULED rows, 219 leads): no hidden derivation; the leads ranked for the owner; θ̄ ruled an input, so the candidate's confirmation is one held-out target short (P-597); the carry rule made to fire (E84); the sample's and main's own S298 errors corrected with instruments. 0 of 19.

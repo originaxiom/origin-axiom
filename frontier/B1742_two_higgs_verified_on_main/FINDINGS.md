@@ -91,3 +91,5 @@ Bearing on it: B1730 (the family), B1731, B1732, B1736 (the closed form), B1739,
 
 - `verification/repro.py` → `repro.json`, `repro_run.txt`; `verification/scan.py` → `scan_run.txt`.
 - The lock: `tests/test_b1742_two_higgs_verified_on_main.py`.
+
+> *Dated note 2026-11-04 (Review 74; the web seat's T-NORM relay of 2026-10-30, § 4, verified by main: this page carried no H = I scope):* every FR-FIB output here is computed with the generations' metric H = I, implicit in B1656's coupling: a CHOSEN input (B1822 — the flat structure leaves 8 real parameters per field after the scale, and the outputs move with H). Whether a conclusion holds at another H is not computed here.*

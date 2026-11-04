@@ -51,3 +51,5 @@ record could have made the board read 1 of 19 — a correct frame would have bee
 
 - Nothing is computed and nothing is compared with a measured value. No frame on record meets the rule; no identification
   changes status by this landing.
+
+> *Dated note 2026-11-04 (Review 74's seeded read):* GENESIS carries the v1.60 text as adopted; the companions landed with FL-20 besides those listed. "The rule uses V unchanged" is not literal: v1.60 lets a target be added to V "before any look" where THE_FINAL_ACTS_BAR fixes its list, and its gloss of the null omits the bar's no-menu fallback. Unlike v1.49–v1.59 the arc has no lock test.*

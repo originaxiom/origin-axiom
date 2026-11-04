@@ -10276,7 +10276,7 @@
     "B734"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 3,
+   "obstacle_conf": 4,
    "status": "banked",
    "domain": "topology"
   },
@@ -13438,25 +13438,28 @@
   "B1725": {
    "slug": "the two ingredients on main",
    "motifs": [
-    "coupling"
+    "coupling",
+    "z3_generation"
    ],
    "refs": [],
-   "obstacle": "cancellation",
-   "obstacle_conf": 1,
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
    "status": "banked",
    "domain": "physics"
   },
   "B1726": {
    "slug": "the two ingredients replicated",
    "motifs": [
+    "coupling",
     "figure_eight",
+    "z3_generation",
     "amphichiral_cp"
    ],
    "refs": [
     "S238"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 8,
+   "obstacle_conf": 9,
    "status": "banked",
    "domain": "topology"
   },
@@ -13553,7 +13556,9 @@
   "B1732": {
    "slug": "the two ingredients with the fixed higgs",
    "motifs": [
-    "figure_eight"
+    "coupling",
+    "figure_eight",
+    "z3_generation"
    ],
    "refs": [
     "L229",
@@ -13563,7 +13568,7 @@
    "obstacle": "measure",
    "obstacle_conf": 3,
    "status": "banked",
-   "domain": "topology"
+   "domain": "physics"
   },
   "B1733": {
    "slug": "the threads own lines",
@@ -13588,29 +13593,38 @@
   "B1734": {
    "slug": "the thread rule with the two ingredients",
    "motifs": [
+    "coupling",
+    "z3_generation",
     "amphichiral_cp"
    ],
    "refs": [
-    "S201"
+    "S201",
+    "S238",
+    "S297"
    ],
    "obstacle": "measure",
    "obstacle_conf": 3,
    "status": "banked",
-   "domain": "topology"
+   "domain": "physics"
   },
   "B1735": {
    "slug": "the precision bar on the two ingredient censuses",
-   "motifs": [],
+   "motifs": [
+    "coupling",
+    "z3_generation"
+   ],
    "refs": [
     "B1",
     "B3",
     "H3",
-    "S201"
+    "S201",
+    "S238",
+    "S297"
    ],
    "obstacle": "measure",
    "obstacle_conf": 3,
    "status": "banked",
-   "domain": "dynamics"
+   "domain": "physics"
   },
   "B1736": {
    "slug": "the family group is the frames own",
@@ -13730,6 +13744,8 @@
   "B1741": {
    "slug": "tau from the thread rule the line free",
    "motifs": [
+    "coupling",
+    "z3_generation",
     "amphichiral_cp"
    ],
    "refs": [
@@ -13745,18 +13761,19 @@
    "obstacle": "measure",
    "obstacle_conf": 5,
    "status": "banked",
-   "domain": "topology"
+   "domain": "physics"
   },
   "B1742": {
    "slug": "two higgs verified on main",
    "motifs": [
-    "coupling"
+    "coupling",
+    "z3_generation"
    ],
    "refs": [
     "H5"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 6,
+   "obstacle_conf": 7,
    "status": "banked",
    "domain": "physics"
   },
@@ -13766,12 +13783,13 @@
     "coupling",
     "figure_eight",
     "metallic",
+    "z3_generation",
     "amphichiral_cp",
     "wrt_quantum"
    ],
    "refs": [],
    "obstacle": "particle_dict",
-   "obstacle_conf": 2,
+   "obstacle_conf": 3,
    "status": "banked",
    "domain": "topology"
   },
@@ -13786,7 +13804,7 @@
     "L241"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 8,
+   "obstacle_conf": 9,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -13807,28 +13825,32 @@
     "K7"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 6,
+   "obstacle_conf": 7,
    "status": "banked",
    "domain": "physics"
   },
   "B1746": {
    "slug": "the cube groups forms as the higgs",
    "motifs": [
+    "coupling",
     "figure_eight",
+    "z3_generation",
     "torsion",
     "wrt_quantum"
    ],
    "refs": [],
    "obstacle": "particle_dict",
-   "obstacle_conf": 2,
+   "obstacle_conf": 3,
    "status": "banked",
-   "domain": "topology"
+   "domain": "arithmetic"
   },
   "B1747": {
    "slug": "the reading test verified on main",
    "motifs": [
+    "coupling",
     "figure_eight",
-    "kappa"
+    "kappa",
+    "z3_generation"
    ],
    "refs": [
     "S1",
@@ -13838,7 +13860,7 @@
    "obstacle": "measure",
    "obstacle_conf": 3,
    "status": "banked",
-   "domain": "topology"
+   "domain": "physics"
   },
   "B1748": {
    "slug": "the heavy generations from the geometry",
@@ -14230,7 +14252,8 @@
     "torsion"
    ],
    "refs": [
-    "S287"
+    "S287",
+    "S298"
    ],
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 8,
@@ -14979,7 +15002,7 @@
    ],
    "refs": [],
    "obstacle": "particle_dict",
-   "obstacle_conf": 2,
+   "obstacle_conf": 3,
    "status": "banked",
    "domain": "topology"
   },
@@ -15016,7 +15039,8 @@
     "B895",
     "B944",
     "B953",
-    "B978"
+    "B978",
+    "S299"
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 20,
@@ -15029,7 +15053,9 @@
     "measurement",
     "kappa"
    ],
-   "refs": [],
+   "refs": [
+    "S280"
+   ],
    "obstacle": "numerology",
    "obstacle_conf": 3,
    "status": "banked",
@@ -15041,14 +15067,16 @@
     "coupling",
     "figure_eight",
     "metallic",
+    "z3_generation",
     "wrt_quantum",
     "markov_cubic"
    ],
    "refs": [
-    "S287"
+    "S287",
+    "S298"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 32,
+   "obstacle_conf": 33,
    "status": "dead",
    "domain": "topology"
   },
@@ -15057,15 +15085,17 @@
    "motifs": [
     "closing",
     "eisenstein",
-    "golden"
+    "golden",
+    "amphichiral_cp"
    ],
    "refs": [
-    "S288"
+    "S288",
+    "S298"
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 9,
    "status": "banked",
-   "domain": "arithmetic"
+   "domain": "topology"
   },
   "B1827": {
    "slug": "the framing ledger",
@@ -15085,10 +15115,11 @@
     "S290",
     "S291",
     "S292",
-    "S294"
+    "S294",
+    "S298"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 13,
+   "obstacle_conf": 14,
    "status": "open",
    "domain": "topology"
   },
@@ -15105,15 +15136,21 @@
   },
   "B1829": {
    "slug": "genesis v1 61",
-   "motifs": [],
+   "motifs": [
+    "coupling",
+    "z3_generation"
+   ],
    "refs": [
+    "S238",
     "S294",
-    "S295"
+    "S295",
+    "S296",
+    "S297"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 5,
+   "obstacle_conf": 7,
    "status": "banked",
-   "domain": "dynamics"
+   "domain": "physics"
   },
   "B182": {
    "slug": "multiplicity selection",
@@ -15150,13 +15187,43 @@
    "slug": "the register triaged",
    "motifs": [
     "closing",
-    "figure_eight"
+    "figure_eight",
+    "metallic"
    ],
    "refs": [
-    "P10"
+    "B429",
+    "B713",
+    "B716",
+    "B726",
+    "B760",
+    "B959",
+    "B960",
+    "P10",
+    "S238",
+    "S250",
+    "S287",
+    "S294",
+    "S295",
+    "S297"
    ],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 5,
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B1831": {
+   "slug": "review 74 the decadal review",
+   "motifs": [
+    "closing",
+    "firewall"
+   ],
+   "refs": [
+    "L251",
+    "S298",
+    "S299"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
    "status": "banked",
    "domain": "topology"
   },
@@ -23066,6 +23133,7 @@
     "markov_cubic"
    ],
    "refs": [
+    "B493",
     "P014",
     "S062"
    ],

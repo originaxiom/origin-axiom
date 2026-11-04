@@ -81,3 +81,5 @@ B1728, B1736, B1645, B1731, B1743, P-295, P-324, L241. **Literature:** theta fun
 
 - `verification/the_twist.py` → `the_twist.json`, `the_twist_run.txt`; `verification/twisted_higgs.py` → `twisted_higgs_run.txt`.
 - The lock: `tests/test_b1744_the_higgs_own_twist.py`.
+
+> *Dated note 2026-11-04 (Review 74; the web seat's T-NORM relay of 2026-10-30, § 4):* every FR-FIB output here is computed with the generations' metric H = I, implicit in B1656's coupling: a CHOSEN input (B1822 — the flat structure leaves 8 real parameters per field after the scale, and the outputs move with H). Whether a conclusion holds at another H is not computed here; the web seat reads this arc's NEGATIVE for its question as holding for every H (not verified on main).*

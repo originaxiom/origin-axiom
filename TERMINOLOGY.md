@@ -1013,3 +1013,32 @@ referee's session; the rest are classical and cited. Use the classical name besi
 - **PASS WITH CORRECTIONS** (a referee's verdict): the claim stands once the listed corrections are applied; the arc
   records each, applied or declined with its reason.
 
+
+## Added at Review 74 (2026-11-04) — the window's load-bearing words without a gloss
+
+*The review tool's detector reads only claim lines and named one ("step b's"); main swept the window's synthesis surfaces for
+the rest. Each gloss points at its source; none adds content.*
+
+- **Step A, Step B** (THE FINAL ATTACK, `docs/THE_FINAL_ATTACK_2026-10-29.md`; the owner's approved order, P-495): Step A is
+  the data-free construction of a Higgs direction fixed by the interaction (B1823, NEGATIVE as a compression); Step B is the
+  sealed test of the nine values from one address of the frame (B1825; its grade under THE_FINAL_ACTS_BAR is NOT FOUND, S298).
+- **NOT FOUND** (a bar grade; THE_FINAL_ACTS_BAR, WORKING_RULES' rule of 2026-10-29 item 4): the search reached no support
+  within its stated reach and resolution, without an exclusion. It is distinct from **NEGATIVE (EXCLUDED)**, which needs an
+  exclusion claimed and shown (S EXCLUDED, X1 violated, T NEGATIVE under every clock, or a V cell NEGATIVE). An arc's verdict
+  field may still read NEGATIVE as the kill graph's category; its bar grade is stated beside it (B1825's dated note).
+- **CANDIDATE** (level 1 of the two-level bar, GENESIS v1.61, B1829): a fixed screen at p < 0.01 against the fully matched
+  null, every within-arc choice priced, no joint factor. A candidate is never a result; only a confirmation by held-out
+  prediction (level 2) makes one. **The two-level bar** is that pair.
+- **EARNED BY PREDICTION within a frame F** (GENESIS v1.60, B1828): an identification earned when six conditions hold —
+  fixed before, held out, passed, two at least, verified, scoped and revocable (GENESIS GAP1's v1.60 entry). A value matched
+  through it is graded PREDICTED, not a READING.
+- **the small-cut end, the exact end** (FR-FIB's end condition; the web seat's THE EXACT END, harvest row 1459; P-421): the
+  small-cut end is the channel norm 2πL + c_s at L = L_max(Im τ), B1726's compute(), a chosen formula without geometric
+  ground since S238; the exact end is the maximal horoball's exact norm, 35–38% lower there. "The canonical end" in the
+  frame's law-map rows means the small-cut end at the canonical heights (LAW_MAP's scope note, S297). THE SIX ON THE STRIP
+  is a candidate of the small-cut end; at the exact end the six fail.
+- **[DEBT], [LEAD], [PROCESS]** (the register's types, the owner's ruling on P-587, B1830): a DEBT is a used result owed a
+  check; a LEAD is an idea nothing rests on; a PROCESS row is bookkeeping. Only debts age; open debts are ranked under
+  "The debts, by load" in `docs/POINT_REGISTER.md`.
+- **the framing ledger** (`docs/FRAMING_LEDGER.md`, B1827): the inventory of what the programme excludes by how it is framed,
+  each row FORCED, CHOSEN, READING, UNEARNED or UNSTATED, with its source.

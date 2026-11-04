@@ -96,3 +96,5 @@ bearing on it are B1720, B1722, B1726, B1728, B1733 and the web seat's sealed al
 ## Dated note (2026-11-03, S297; the triage's recheck)
 
 This arc's rows come through B1726's compute(), so its L_max is the small-cut norm 2πL + c_s at L = L_max(Im τ), not the maximal horoball's exact norm, which lies 35–38% below it there; with the exact norms the six fail near the four families' rows (RETRACTIONS, the row of 2026-10-28; the web seat's THE EXACT END, reproduced on main at S238; P-421). That correction named B1726, B1741, B1749, B1753 and B1786 and missed this arc. Nothing else in this arc changes.
+
+> *Dated note 2026-11-04 (Review 74; the web seat's T-NORM relay of 2026-10-30, § 4, verified by main: this page carried no H = I scope):* every FR-FIB output here is computed with the generations' metric H = I, implicit in B1656's coupling: a CHOSEN input (B1822 — the flat structure leaves 8 real parameters per field after the scale, and the outputs move with H). Whether a conclusion holds at another H is not computed here.*

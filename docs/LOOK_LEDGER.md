@@ -111,6 +111,8 @@ verifications of W133. P-323's sealed test, THE STRONG ANGLE IN THE MASS FRAME (
 | W180 (row 1499) | one look (entered S298): the exact kernel norms' split, D∞ against the window | D | the frozen-norm frame not the true frame (H0 failed on 98 pairs); every D∞ withheld |
 | W181 (row 1541; rule b2f0de70b) | sealed, one look: the cusp limits on the 49 integer-λ lines in the exact norms, c = 1 | D | 17 distinct limits, none within 3σ of the window |
 | W182 (row 1542; rule bd4061f45) | sealed, one look (C4): the 90 centre lines at the cusp ladder and τ = i, c = 1 | D | no D in [10.25, 10.91]; at τ = i 42 values, 0.117–4.95 |
+| W183 (row 1546; rule 2a1653df5) | sealed, one look: RI-1's sector-odd singlet at τ = i on 261 lines, its size two ways | D, the coarse CKM corner facts | O4, O6, O8 failed: the corner fact 8% → 14%, as any odd singlet; two order-9 mirror pairs put D in [10.25, 10.91] under the bare singlet (10.265, 10.393), the split in the first generation only |
+| the agy lane's d9a04edd7 (row 1547) | unsealed, post hoc | D, measured m_b/m_t, and P-585's held-out targets | a det-1 operator fitted to D, a tuned singlet, a tan β from a strip ratio; values firewalled and unread by main; counted in m_V for P-585 |
 | W167, W169 (rows 1438, 1440) | the frame's one-loop potential on the line and on Re τ | no measured number compared | not looks (data enter only through the strip rows' heights) |
 | W168 (row 1439) | verification of the web seat's P-323 | — | not a new look |
 | W145, W89, W93, W96, W138, W141, W142 | verification | earlier arcs reproduced | not new looks |

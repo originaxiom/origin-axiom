@@ -124,3 +124,5 @@ read. cc (main), 2026-10-30.
 - **The literature.** The theta identities used are classical: Jacobi's θ₃⁴ = θ₂⁴ + θ₄⁴, the theta log-derivatives,
   E₄'s theta form and η³ = θ₂θ₃θ₄/2. The identity itself is a statement about the record's objects, and no novelty is
   claimed beyond the record.
+
+> *Dated note 2026-11-04 (Review 74's seeded read, verified by main):* "confirmed by main componentwise at three values of τ" matches no committed output: `verification/a0_identity_main.json` checks five τ values across its three parts, and B1823's `checks_extra.json` six. "Twelve distinct" (of B1810's thirteen) is not computed here; the review's reader found from B1810's table that only a₀/F₋₂ coincide among the 78 pairs (next closest 0.048; not re-run by main). The census confirmation is in B1825 (its a0/F₋₂ diagnostic: 2 184 pairs above the floor, differing by at most 3.3 × 10⁻⁵ in log10, the double-precision limit; S280).*

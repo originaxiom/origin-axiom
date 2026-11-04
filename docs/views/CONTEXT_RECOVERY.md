@@ -13,24 +13,25 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1534 |
-| … PROVED | 1046 |
+| arcs with a verdict file | 1535 |
+| … PROVED | 1047 |
 | … NEGATIVE | 382 |
 | … OPEN | 94 |
 | … RETRACTED | 12 |
-| register points | 593 |
-| … QUEUED | 235 |
-| … LEAD | 10 |
+| register points | 620 |
+| … QUEUED | 252 |
+| … LEAD | 9 |
 | … OWNER | 5 |
-| … DONE | 333 |
+| … DONE | 344 |
 | … DECLINED | 10 |
-| harvest rows (the last number) | 1543 |
+| harvest rows (the last number) | 1547 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1831 | PROVED | REVIEW 74 (the owner's 'do the decadal'; 38 merges, two short of the block): at the owner's mid-review ask the backlog was read in full for leads -- 84 open relays (72 BANKED, 7 DECLINED, 5 open with next actions), 276… |
 | B1830 | PROVED | THE REGISTER TRIAGED (the owner's ruling on P-587, 2026-11-03: 'yes'): every open row typed DEBT, LEAD or PROCESS, only debts age, every open debt on a ranked list by load (point_debt.py rule 6, with a planted test). Fi… |
 | B1829 | PROVED | GENESIS v1.61 (the owner's ruling on P-577, 2026-11-03, 'agreed' to the owner's own tiered-bar proposal as main assessed it): where the joint look count applies, level 1 is a fixed screen (THE_BAR at p < 0.01 with every… |
 | B1828 | PROVED | GENESIS v1.60 (the owner's ruling on P-580, 2026-11-03: YES): a frame may EARN its dictionary BY PREDICTION -- an identification is EARNED BY PREDICTION within a frame F when F is fixed on a sealed card before, at least… |
@@ -42,7 +43,6 @@
 | B1822 | PROVED | T-NORM ON THE FRAME'S MATTER (P-525; data-free; refereed hostile, PASS WITH CORRECTIONS): FR-FIB's matter zero modes (one quaternion-type doublet per field times the blocks QJ, QI, QK) give the generation Gram matrix G… |
 | B1821 | PROVED | THE FRAME'S MIRROR SYMMETRY ON THE CENSUS (B1790's mirror map, confirmed on every direction and line; Step B's census, P-521; data-free): FR-FIB's outputs at (-x+iy, line (a, -b)) equal those at (x+iy, (a, b)) row by ro… |
 | B1820 | PROVED | THE RIGID CENSUS'S CURVATURE ALONG Re TAU AND ITS REFINEMENT LIST (Step B's revision, P-521; aggregates and indices only; data-free): along Re tau the grid is the coarse one -- 7.75% of curvatures exceed 0.08 decades (I… |
-| B1819 | PROVED | THE RIGID CENSUS'S SMOOTHNESS IN TAU (Step B's revision, P-521; aggregates only; data-free): on B1726's grid the frame's outputs are smooth in Im tau almost everywhere -- median second difference 0.0008 decades, 99% bel… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -57,6 +57,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S299 REVIEW 74, THE DECADAL REVIEW: THE BACKLOG READ IN FULL FOR LEADS; THE CANDIDATE'S CONFIRMATION ONE HELD-OUT TARGET SHORT (θ̄ RULED AN INPUT); THE CARRY RULE MADE TO FIRE (2026-11-04)
 - S298 THE HARVEST: EVERY SEAT'S BRANCH READ TO ITS HEAD; THE WEB SEAT'S REVIEW VERIFIED AND APPLIED — B1825's BAR GRADE IS NOT FOUND, THE MIRROR RULE'S 'CLOSED' UNEARNED, B1788's (b) SCOPED (2026-11-0…
 - S297 THE TRIAGE RECHECKED AT THE OWNER'S WORD: 20 STALE LAW-MAP ROWS, THE CANDIDATE'S END, THE NEGATIVES' SCALE, P-355's FIRST ITEM (2026-11-03)
 - S296 THE REGISTER TRIAGED: EVERY OPEN ROW TYPED, ONLY DEBTS AGE, THE 59 DEBTS RANKED BY LOAD (THE OWNER'S RULING ON P-587) (2026-11-03)
@@ -64,11 +65,10 @@
 - S294 THE TWO-LEVEL BAR: GENESIS v1.61 — A FIXED SCREEN MAKES A CANDIDATE, ONLY A HELD-OUT CONFIRMATION MAKES A RESULT (THE OWNER'S RULING ON P-577) (2026-11-03)
 - S293 THE OWNER'S WORD ON B1814's BLIND RERUN, RELAYED TO THE SM SEAT (2026-11-03)
 - S292 THE EARNED DICTIONARY: GENESIS v1.60 — A FRAME MAY EARN ITS DICTIONARY BY HELD-OUT PREDICTION (THE OWNER'S RULING ON P-580) (2026-11-03)
-- S291 THE RECHECK AND THE RECOGNITION AUDIT: ONE S290 CLAIM RETRACTED; WOULD WE KNOW THE ANSWER? NOT AS THE TESTS ARE BUILT (2026-11-03)
 
 ## The latest campaign line
 
-LATEST (2026-11-03, S298: every parallel seat's work read to its latest commit and recorded. The web seat's review of main was right on every point checked: the attempt of 31 October is graded NOT FOUND rather than NEGATIVE, a 'closed' route for the quark mixing was never closed (three counter-examples, reproduced), and a formula's scope written yesterday was too wide on four lines. All corrected in place. Nothing a seat sent is banked without main's own check; what is not yet checked is listed as owed. 0 of 19.)
+LATEST (2026-11-04, S299: Review 74, the decadal review. At the owner's word everything handed to the review was read in full — every open relay, every old harvest row, every open lead — for load on main and for ideas nobody followed. Nothing hidden derives a Standard Model number; the leads that could change the direction are ranked for the owner. The strong angle θ̄ turns out not to be a prediction of the frame without a chosen rule, so it comes off the candidate's held-out list, and the candidate's confirmation is now one held-out target short of the two the rule requires (P-597). Main's own two unbacked claims of 3 November were corrected with committed instruments, and the review loop'…
 
 ## Completeness (nothing skipped silently)
 

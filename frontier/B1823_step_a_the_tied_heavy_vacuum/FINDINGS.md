@@ -363,3 +363,13 @@ couplings for the H_d sector; the completion is required and not computed".
     and Ratz, arXiv:1909.06910. It is the general form of § 6's Kähler gap and of § 4's normalisation freedom.
   - Vector-like lepton mass matrices and the Coleman–Weinberg supertrace with universal soft masses are standard.
   - No novelty is claimed for the directions found. The draft's "new" is withdrawn.
+
+> *Dated note 2026-11-04 (Review 74's protocol check, S299):* the hash table `verification/ARTIFACT_HASHES.txt` is staged
+> (the plan, each disclosed post-plan change, the crash fix, the final state); every path's last hash matches its file except
+> two, both accounted for. `DESIGN.md` is kept as `verification/DRAFT_DESIGN_AS_REFEREED.md` — the same sha256 (38b75500…),
+> renamed, which § 10's last line implies but does not say. `step_a_v2_run_D_crashed_overflow.txt` is kept only as its
+> path-redacted copy (§ 10), so its recorded hash can no longer be checked. The plan, the code and the results landed in one
+> commit (`eb41a8e4d`): the order "plan before the main runs" rests on the table's own timestamps, not on commit order. The
+> arc is data-free, so no value contact rests on that order.
+
+> *Dated note 2026-11-04 (Review 74's seeded read, verified by main against `verification/summary.txt`):* "every computed n = 3 and n = 4 vacuum lies on a line" (§ 1) is false for the committed grid: four converged, isolated, non-runaway vacua sit off every mirror line at λv = 1.0 in menu Z (n = 3 at μ² = 0.5 and 0.8; n = 4 at μ² = 0.5 and 0.8), and their convention-free rank was never computed. The sentence holds for the decoupling point and the referee's vacua. The NEGATIVE stands either way: rank 3 on a mirror line already exceeds τ's 2. The robust paragraph's "Y₃,₁ × Y₃,₂ … in every convention" holds while both copies are heavy; in the source's cusp and the Petersson-type conventions n = 2 has a light copy at the decoupling point and that vacuum is lost (the paragraph before it). `main/rerun_stableF/step_a_v2.json` still carries the discarded first arbiter's *_mp fields, unmarked; the tallies do not use them. The text names H_u ≡ H_d UNEARNED, with identifications [] (P-516).*

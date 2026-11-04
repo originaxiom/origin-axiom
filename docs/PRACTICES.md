@@ -1230,3 +1230,30 @@ Three practices came out of the field stage's last window. Each answers a slip t
    the run log's one runtime line carried an install path, redacted before any push and disclosed). MANUAL.
 6. **A mechanism claimed as new is swept in the record's own vocabulary for the object** (B1742's re-derivation of B1728's
    law, an E54 instance at Review 69): the sweep includes the equalities the mechanism states. MANUAL.
+
+
+## Review 74's practices: identities before a census, the framing ledger kept, a filter is a look, carries by lineage — MIXED (adopted 2026-11-04, Review 74, B1831)
+
+1. **A frame's proved identities are carried to every graded observable before a census is built on it** (P-563; the agy
+   lane's 'Gate 0', the one methodological point of its November work that holds). B1739 had locked both sectors' light
+   states to the Higgs's null vector before B1825's census was built, and the corner inversion that census found follows from
+   that locking by algebra (B1826). The same holds for a card: S295's relation D, which the candidate family's own six fix to
+   about 1%, was not on its card. Before a census or a card, list what the frame's identities force on each graded
+   observable (an equality, an inequality, an ordering, a fixed value); each forced outcome is a consistency cell, graded
+   first, and the census searches only what the identities leave open. MANUAL.
+2. **Every new frame card or sealed card adds its framing commitments to `docs/FRAMING_LEDGER.md` in the same landing**
+   (P-565; B1827): each commitment as an FL row with its status (FORCED, CHOSEN, READING, UNEARNED, UNSTATED), what it
+   excludes and what it costs; a card that adds none says so. MANUAL.
+3. **A filter that is a function of a graded target makes a scan a look** (E95). An exploration whose code reads no
+   measured number, but which keeps or ranks its points by ∣V_ub∣ < ∣V_td∣, ∣V_ud∣ > 0.9 or a second-generation split of
+   about 3 (the S289–S290 scans), has looked at those targets. Before a scan runs, its filters are listed against KIND_TABLE
+   and the disclosed facts; a filter of that kind enters the scan in LOOK_LEDGER, and the targets are not untouched for any
+   card it informs (GENESIS v1.61). MANUAL.
+4. **A carried review item ages by its lineage, whatever its key** (E84; the carry-age gate's counter follows "carried
+   from …", "before it …", "ex-…" and "carried to Review N as …"). GATED (`carry-age`, through `review_tools.action_loop`;
+   `tests/test_review_tools.py`).
+5. **An answer reaches the relay ledger the day it is harvested** (E53: the SM seat's relay §74 answered five of main's
+   relays of 2026-10-13 the next day, harvest row 1116, and the five rows stayed OPEN for 22 days). When a harvest row
+   records a seat's reply to main, the relays it answers move to BANKED in the same landing, with the row's number. MANUAL.
+6. **The pin moves with the rows** (P-541): a seat's pin is at or past every commit its harvest rows cite on its line.
+   GATED (`harvest-debt`, an integrity line; its selftest's sixth planted control).

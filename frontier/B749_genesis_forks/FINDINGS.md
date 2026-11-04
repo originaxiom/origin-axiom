@@ -80,3 +80,5 @@ S₁,₂ and S₀,₄. B1323's scope line is kept verbatim with only the number 
 carrier stays out of frame (A5b). **F9's depth-3 verdict stands exactly as banked and is not edited here;
 `RESULTS.json` is untouched.** Certificate: `outside_bench/certificates/require_and_test_cell5.py`; seal
 `outside_bench/seals/REQUIRE_AND_TEST_CELL5_PREREG.md`. Gate 5 untouched.
+
+> *Dated note 2026-11-04 (Review 74, P-535):* two files this arc hashes changed after its seal, adding text only: this FINDINGS.md (results seal `08e16340f`, sha256 d6de605b…) by the two dated F9 addenda above (`b9157703c`, `1c062b17a`), and the pinned `philosophy/P019_the_genesis_axiom_chain.md` (sealed sha256 9fab1ea1…) by a four-line pointer to GENESIS.md at `f655034b9`. The forks F1–F8, their verdicts and `RESULTS.json` are as sealed.*

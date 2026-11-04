@@ -88,3 +88,5 @@ Bearing on it: B1736, B1739, B1740, B1742, B1730, B1691. **Literature:** standar
 
 - `verification/target.py` → `target.json`, `target_run.txt`; `verification/pencils.py` → `pencils_run.txt`.
 - The lock: `tests/test_b1743_the_principled_pencils_and_the_nines_target.py`.
+
+> *Dated note 2026-11-04 (Review 74; the web seat's T-NORM relay of 2026-10-30, § 4, verified by main: this page carried no H = I scope):* every FR-FIB output here is computed with the generations' metric H = I, implicit in B1656's coupling: a CHOSEN input (B1822 — the flat structure leaves 8 real parameters per field after the scale, and the outputs move with H). Whether a conclusion holds at another H is not computed here.*

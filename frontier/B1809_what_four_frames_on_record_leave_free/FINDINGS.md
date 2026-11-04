@@ -251,3 +251,5 @@ GM5b (B1083's addendum).
 - **P-418:** f(d) per frame as a Jacobian rank.
 - **P-434:** reconcile I-18's row.
 - **B1697's claim line**, which still reads "m2/m3 → 1/2" (its FINDINGS was corrected by dated note, S245; P-435).
+
+> *Dated note 2026-11-04 (Review 74; the web seat's THE RELATIONS THE FRAME FORCES, fe2f972cd, checked by main with B1821's evaluator):* "Isotropic directions (R, η⁶R, t = −5/288): m₁ ≡ 0 at every L. m₂ ≡ 0 only at L = ∞" fails on two classes of lines. On the order-4 lines m₂/m₃ ≤ 4 × 10⁻¹⁴ in every sector; on the order-12 lines it is so in the lepton sector. Main checked both radii, the eight readings and τ = 0.13 + 2.2i and 0.3 + 1.5i, with the order-5 and order-8 controls of order one (2 × 10⁻³ to 0.8). Elsewhere the statement stands. This is B1728's table read on the isotropic directions (rank one on null matter).*

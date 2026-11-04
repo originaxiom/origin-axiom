@@ -16,6 +16,7 @@ Template sections covered (docs/progress/REVIEW_TEMPLATE.md):
   7  protocol integrity  seal_integrity     hashes unchanged, sealed before results, seal on every remote
   +  gates               gate_controls      every gate has a test that names it (a gate nobody tests can be inert)
   +  relays              relay_split        the open rows by direction (R55-3)
+  +  fresh-clone suite   fresh_clone_suite  the FULL suite in a fresh clone, a separate step: --fresh-clone-suite <log> [--head <c>] (R73-7)
 """
 import os, sys, re, json, hashlib, subprocess, pathlib, random, collections
 
@@ -83,15 +84,25 @@ def resolve_hashed(root, arc, rel):
         if f.resolve().exists(): return f.resolve()
     return None
 
-def seal_check(hash_text, read_file, seal_commit, verdict_commit, is_ancestor, remotes_have, disclosure_text="", sealed_copy=None):
+def seal_check(hash_text, read_file, seal_commit, verdict_commit, is_ancestor, remotes_have, disclosure_text="", sealed_copy=None, by_hash=None):
     """one arc: hashes against the files as they are now; the seal strictly before the verdict; the seal on every remote.
     R61-4: a file changed after the seal is DISCLOSED when the arc's own pages (`disclosure_text`: FINDINGS and addenda) name
     it AND the arc keeps its sealed run (`sealed_copy(rel)` true -- a sealed_run directory or file; the sealed instrument itself
     is in git at the seal commit) or the hash file records the file's sealed hash on a '# sealed at' line.  Disclosed changes are reported, not counted as defects; an undisclosed change is a defect as before."""
     good, bad = parse_hash_file(hash_text); changed, missing, ok = [], [], 0
-    for h, rel in good:
+    # S299 (Review 74): a STAGED table (B1823's: the plan, then each disclosed post-plan change re-hashed, then the final
+    # state) hashes one path several times; only its last hash is the file's claimed state, the earlier ones are superseded
+    # in the table itself.  A missing file whose hash another file of the arc carries was RENAMED (`by_hash`), not lost.
+    last = {}
+    for k, (h, rel) in enumerate(good): last[rel] = k
+    superseded = len(good) - len(last); renamed = []
+    for k, (h, rel) in enumerate(good):
+        if last[rel] != k: continue
         data = read_file(rel)
-        if data is None: missing.append(rel)
+        if data is None:
+            other = by_hash(h) if by_hash else None
+            if other: renamed.append("%s -> %s" % (rel, other)); ok += 1
+            else: missing.append(rel)
         elif hashlib.sha256(data).hexdigest() == h: ok += 1
         else: changed.append(rel)
     kept = sealed_hash_lines(hash_text)
@@ -111,15 +122,22 @@ def seal_check(hash_text, read_file, seal_commit, verdict_commit, is_ancestor, r
     if missing: defects.append("missing: " + ", ".join(missing))
     if order.isupper() or order.startswith("SEAL"): defects.append(order)
     if not remotes_have: defects.append("seal not on every remote")
-    return dict(ok=ok, lines=len(good), order=order, on_remotes=bool(remotes_have), defects=defects, changed_disclosed=changed_disclosed)
+    return dict(ok=ok, lines=len(good) - superseded, order=order, on_remotes=bool(remotes_have), defects=defects, changed_disclosed=changed_disclosed,
+                superseded_in_table=superseded, renamed=renamed)
 
-def provenance_hits(added_lines, phrases=PHRASES):
-    """added_lines: [(path, text)] lines added in the window; a hit is a phrase of external-verification pretense"""
+NEGATION = ("nothing here is", "nothing is", " not ", " no ", "never", "without", "has not", "have not", "is not", "are not")   # = gates.PRETENSE_NEGATION
+
+def provenance_hits(added_lines, phrases=PHRASES, negation=NEGATION):
+    """added_lines: [(path, text)] lines added in the window; a hit is a phrase of external-verification pretense.
+    S299 (Review 74): a phrase preceded within 48 characters by a negation is a DISCLAIMER, not a pretense -- the window
+    the gate `pretense-phrases` has used since B1464; without it Review 74's first run reported three disclaimers."""
     hits = []
     for path, text in added_lines:
         low = text.lower()
         for ph in phrases:
-            if ph in low: hits.append(dict(path=path, phrase=ph, text=text.strip()[:200])); break
+            k = low.find(ph)
+            while k >= 0 and any(n in low[max(0, k - 48):k] for n in negation): k = low.find(ph, k + 1)
+            if k >= 0: hits.append(dict(path=path, phrase=ph, text=text.strip()[:200])); break
     return hits
 
 def table_rows_added(diff_text):
@@ -146,26 +164,56 @@ def error_rows(diff_text, classes_at_anchor=()):
 def class_ids(ledger_text):
     return sorted(set("E" + m.group(1) for line in ledger_text.splitlines() if line.startswith("|") for m in [re.match(r"^\|\s*\**E(\d+)\b", line)] if m and "instance" not in line.split("|")[1].lower()))
 
+LINEAGE_RE = re.compile(r"(?:carried (?:from|to Review \d+ as|as)|before it|itself from|\bex-|restated as)\s*((?:R\d+-\d+[a-z]?(?:\s*(?:,|and|/)\s*)?)+)")
+
+def _lineage(line):
+    """the review keys a carried line names as its own lineage: written before the colon (Reviews 55-58's convention) or in
+    a carry phrase anywhere on the line ('carried from R72-3, before it R71-8', 'carried to Review 73 as R73-1', 'ex-R54-1')
+    -- the convention since about Review 62, which re-keys each carry and writes its lineage after the colon"""
+    ids = set(re.findall(r"R\d+-\d+[a-z]?", line.split(":")[0]))
+    for m in LINEAGE_RE.finditer(line): ids |= set(re.findall(r"R\d+-\d+[a-z]?", m.group(1)))
+    return ids
+
 def action_loop(reviews_text):
-    """the last review's action block, and for each carried item how many reviews it has been carried through"""
+    """the last review's action block, and for each carried item how many reviews it has been carried through.
+    S299 (Review 74): the age follows the item's LINEAGE across re-keyings (union of the keys its carry phrases name), counted
+    as the number of review blocks the lineage is CARRIED INTO (an earlier review's key, or a line naming its origin).  Counting only the keys before the colon -- the rule
+    as built at Review 58 -- restarted every re-keyed carry at 1, so the third-carry rule could never fire (R71-8 -> R72-3 ->
+    R73-1 read as carried once)."""
     blocks = [(int(m.group(1)), m.start()) for m in re.finditer(r"^### Action items \(Review (\d+)\)", reviews_text, re.M)]
     if not blocks: return dict(review=None, open=[], carried=[], superseded_open=[])
     blocks.sort(); spans = []
     for (n, a), nxt in zip(blocks, blocks[1:] + [(None, len(reviews_text))]):
         end = reviews_text.find("\n# ", a); end = nxt[1] if end < 0 or end > nxt[1] else end
         spans.append((n, reviews_text[a:end]))
-    carried_in = collections.Counter(); status = {}
+    parent = {}
+    def find(x):
+        parent.setdefault(x, x)
+        while parent[x] != x: parent[x] = parent[parent[x]]; x = parent[x]
+        return x
+    def union(a, b): parent[find(a)] = find(b)
+    status = {}; seen_in = []
+    FROM = re.compile(r"carried from|before it|itself from|\bex-R\d")
     for n, body in spans:
         for line in body.splitlines():
             m = ITEM_RE.match(line)
             if not m: continue
-            ids = [m.group(2)] + (re.findall(r"R\d+-\d+[a-z]?", line.split(":")[0]) if m.group(1) == ">" else [])
+            own = m.group(2)
+            ids = [own] + (sorted(set(re.findall(r"R\d+-\d+[a-z]?", line.split(":")[0])) - {own}) if m.group(1) == ">" else [])
             for i in set(ids):
                 status[(n, i)] = m.group(1)
-                if m.group(1) == ">": carried_in[i] += 1
+            for i in _lineage(line) | set(ids): union(own, i)
+            # a line CARRIES the item INTO block n when its key is an earlier review's, or it names where it came from;
+            # a line whose key is block n's own and that names no origin is where the item was raised (not a carry)
+            carried_in = int(re.match(r"R(\d+)-", own).group(1)) < n or bool(FROM.search(line))
+            seen_in.append((n, ids, carried_in))
+    blocks_of = collections.defaultdict(set)
+    for n, ids, carried_in in seen_in:
+        if carried_in:
+            for i in ids: blocks_of[find(i)].add(n)
     last_n, last_body = spans[-1]
     openi = [i for (n, i), s in status.items() if n == last_n and s == " "]
-    carried = sorted(((i, carried_in[i]) for (n, i), s in status.items() if n == last_n and s == ">"), key=lambda t: -t[1])
+    carried = sorted(((i, len(blocks_of[find(i)])) for (n, i), s in status.items() if n == last_n and s == ">"), key=lambda t: (-t[1], t[0]))
     superseded = [(n, i) for (n, i), s in status.items() if n != last_n and s == " "]
     return dict(review=last_n, open=sorted(openi), carried=carried, superseded_open=sorted(superseded))
 
@@ -229,6 +277,45 @@ def fresh_clone(root, head="HEAD", timeout=1800):
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
 
+def suite_summary(log_text):
+    """R73-7 (S299): a pytest log's summary -- the counts of its last summary line and the failing or erroring test ids"""
+    lines = re.findall(r"^=*\s*(\d+ (?:passed|failed).*?) in [\d.]+s", log_text, re.M)
+    counts = {}
+    if lines:
+        for n, k in re.findall(r"(\d+) (passed|failed|skipped|errors?|xfailed|xpassed|warnings?)", lines[-1]):
+            counts[{"error": "errors", "warning": "warnings"}.get(k, k)] = int(n)
+    failing = sorted(set(re.findall(r"^(?:FAILED|ERROR) (\S+)", log_text, re.M)))
+    return dict(counts=counts, failing=failing)
+
+def fresh_clone_suite(root, head="HEAD", log_path=None, workers=8, timeout=7200):
+    """R73-7 (S299): the FULL suite in a fresh clone of `root` at `head` -- what a reader with only the repository gets, at
+    the scale of every lock, not only the gates (P-511's run at Review 73 found E94's ignored outputs this way).  The clone
+    also receives root's remote-tracking refs, as a clone of the published repository would carry its branches (B1306's
+    slice D reads them).  Single-threaded BLAS per worker, `workers` processes (the CPU rule: at most 8 of 16), nice 10."""
+    import tempfile, subprocess, shutil
+    tmp = tempfile.mkdtemp(prefix="oa-fresh-suite-")
+    try:
+        subprocess.run(["git", "clone", "--quiet", "--no-local", str(root), tmp], check=True, capture_output=True, text=True, timeout=timeout)
+        subprocess.run(["git", "checkout", "--quiet", head], cwd=tmp, check=True, capture_output=True, text=True, timeout=timeout)
+        subprocess.run(["git", "fetch", "--quiet", str(root), "+refs/remotes/origin/*:refs/remotes/origin/*"], cwd=tmp, capture_output=True, text=True, timeout=timeout)
+        commit = subprocess.run(["git", "rev-parse", "--short", "HEAD"], cwd=tmp, capture_output=True, text=True).stdout.strip()
+        env = dict(os.environ, OMP_NUM_THREADS="1", OPENBLAS_NUM_THREADS="1", MKL_NUM_THREADS="1", VECLIB_MAXIMUM_THREADS="1")
+        r = subprocess.run(["nice", "-n", "10", sys.executable, "-m", "pytest", "-q", "-p", "no:randomly", "-p", "no:cacheprovider", "-n", str(workers)],
+                           cwd=tmp, capture_output=True, text=True, timeout=timeout, env=env)
+        log = r.stdout + r.stderr
+        if log_path: pathlib.Path(log_path).write_text(log + "\nSUITE_EXIT %d\n" % r.returncode, encoding="utf-8")
+        s = suite_summary(log)
+        return dict(status="PASS" if r.returncode == 0 else "FAIL", commit=commit, counts=s["counts"], failing=s["failing"])
+    except Exception as ex:
+        return dict(status="FAIL", commit="?", counts={}, failing=[], detail=("%s: %s" % (type(ex).__name__, ex))[:300])
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+def render_suite(s):
+    c = s.get("counts", {})
+    return "fresh-clone suite: %s @ %s (%s)%s" % (s.get("status"), s.get("commit"), ", ".join("%d %s" % (v, k) for k, v in c.items()) or s.get("detail", "no summary"),
+                                                  ("; failing: " + ", ".join(s["failing"])) if s.get("failing") else "")
+
 def relay_split(ledger_text):
     """the open rows of the relay ledger by direction (R55-3): outbound = from main (CC_TO_*), inbound = everything else"""
     out = dict(outbound=collections.Counter(), inbound=collections.Counter(), declined=0, banked=0)
@@ -280,14 +367,19 @@ def gather(anchor):
     seals = []
     for p in added:
         if not (p.startswith("frontier/") and p.endswith("ARTIFACT_HASHES.txt")): continue
-        arc = pathlib.Path(p).parent
+        hdir = pathlib.Path(p).parent
+        arc = pathlib.Path(*pathlib.Path(p).parts[:2])          # S299: frontier/B<n>_..., also when the table sits in verification/ (B1823)
         sc = git("log", "--diff-filter=A", "--format=%h", "--", p).split()[-1]
         vc = (git("log", "--diff-filter=A", "--format=%h", "--", str(arc / "arc_verdict.json")).split() or [None])[-1]
         anc = lambda a, b: subprocess.run(["git", "merge-base", "--is-ancestor", a, b], cwd=ROOT).returncode == 0
-        rd = lambda rel, arc=arc: (lambda f: f.read_bytes() if f is not None else None)(resolve_hashed(ROOT, arc, rel))
+        rd = lambda rel, arc=arc, hdir=hdir: (lambda f: f.read_bytes() if f is not None else None)(resolve_hashed(ROOT, hdir, rel) or resolve_hashed(ROOT, arc, rel))
+        def bh(h, arc=arc):
+            for f in sorted((ROOT / arc).rglob("*")):
+                if f.is_file() and f.stat().st_size < 50_000_000 and hashlib.sha256(f.read_bytes()).hexdigest() == h: return str(f.relative_to(ROOT / arc))
+            return None
         pages = "".join(f.read_text(errors="replace") for f in sorted((ROOT / arc).glob("*.md")) if f.name != "PREREGISTRATION.md")
         kept = lambda rel, arc=arc: any("sealed_run" in q.name for q in (ROOT / arc).rglob("*sealed_run*"))   # the arc keeps its sealed run (R61-4's wording); the sealed instrument is in git at the seal
-        c = seal_check((ROOT / p).read_text(), rd, sc, vc, anc, all(on_mirror(sc, r) for r in remotes), pages, kept)
+        c = seal_check((ROOT / p).read_text(), rd, sc, vc, anc, all(on_mirror(sc, r) for r in remotes), pages, kept, bh)
         c.update(arc=arc.name, seal=sc, verdict=vc); seals.append(c)
     R["seals"] = seals
     addl = []
@@ -337,7 +429,8 @@ def render(R):
     b = R["branches"]; L.append("branches: %d unmerged leaves; unregistered: %s; on one remote only: %s; remotes out of step: %s" % (len(b["rows"]), b["unregistered"] or "none", b["on_one_remote_only"] or "none", b["out_of_step"] or "none"))
     for d in b["rows"]: L.append("   %-40s +%d  tip %s  %s" % (d["leaf"], d["ahead_of_main"], d["tip_date"], "registered" if d["registered"] else "UNREGISTERED"))
     L.append("seals: %d in the window; with defects: %d" % (len(R["seals"]), sum(1 for s in R["seals"] if s["defects"])))
-    for s in R["seals"]: L.append("   %-52s %d/%d hashes, %s%s%s" % (s["arc"][:52], s["ok"], s["lines"], s["order"], ("  DEFECTS: " + "; ".join(s["defects"])) if s["defects"] else "", ("  disclosed post-seal: " + ", ".join(s.get("changed_disclosed", []))) if s.get("changed_disclosed") else ""))
+    for s in R["seals"]: L.append("   %-52s %d/%d hashes, %s%s%s%s%s" % (s["arc"][:52], s["ok"], s["lines"], s["order"], ("  DEFECTS: " + "; ".join(s["defects"])) if s["defects"] else "", ("  disclosed post-seal: " + ", ".join(s.get("changed_disclosed", []))) if s.get("changed_disclosed") else "",
+                                                                  ("  superseded in the table: %d" % s["superseded_in_table"]) if s.get("superseded_in_table") else "", ("  renamed: " + ", ".join(s["renamed"])) if s.get("renamed") else ""))
     p = R["provenance"]; L.append("provenance: %d added lines scanned, %d hits, %d in public-facing files" % (p["lines_scanned"], len(p["hits"]), sum(1 for h in p["hits"] if h["public_facing"])))
     for h in p["hits"]: L.append("   %s%s: %s" % ("" if h["public_facing"] else "(reader note) ", h["path"], h["text"][:120]))
     L.append("advancement: LAW_MAP +%d rows, THEOREM_REGISTRY +%d rows" % (len(R["law_map_rows_added"]), len(R["theorem_rows_added"])))
@@ -355,6 +448,12 @@ def render(R):
     return "\n".join(L)
 
 if __name__ == "__main__":
+    if "--fresh-clone-suite" in sys.argv:          # R73-7: `--fresh-clone-suite <log> [--head <commit>]`, a separate step (about 40 min at 8 workers)
+        log = sys.argv[sys.argv.index("--fresh-clone-suite") + 1]
+        hd = sys.argv[sys.argv.index("--head") + 1] if "--head" in sys.argv else "HEAD"
+        s = fresh_clone_suite(ROOT, hd, log); print(render_suite(s))
+        json.dump(s, open(log + ".json", "w"), indent=1)
+        sys.exit(0)
     a = sys.argv[sys.argv.index("--anchor") + 1] if "--anchor" in sys.argv else last_anchor()
     R = gather(a); print(render(R))
     if "--json" in sys.argv: json.dump(R, open(sys.argv[sys.argv.index("--json") + 1], "w"), indent=1, default=str)

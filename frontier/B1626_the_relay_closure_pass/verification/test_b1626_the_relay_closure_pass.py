@@ -23,6 +23,11 @@ def test_the_closure_is_on_the_ledger_and_parses():
     later += [l for l in t.splitlines() if l.startswith("| `CC_TO") and ("| BANKED |" in l or "| DECLINED |" in l)
               and "R62-5 (2026-10-09, B1626)" in l and "Review 72 (2026-10-29)" in l and "Review 66 (P-126)" not in l
               and "at Review 71" not in l and "(Review 69, R69-7)" not in l]
+    # Review 74 (2026-11-04) closed the remaining ones in its relay-closure pass, each with its evidence: counted here too
+    later += [l for l in t.splitlines() if l.startswith("| `CC_TO") and ("| BANKED |" in l or "| DECLINED |" in l)
+              and "R62-5 (2026-10-09, B1626)" in l and "Review 74 (2026-11-04)" in l and "Review 66 (P-126)" not in l
+              and "at Review 71" not in l and "(Review 69, R69-7)" not in l and "Review 72 (2026-10-29)" not in l]
+    closed = [l for l in closed if "Review 74 (2026-11-04)" not in l]
     assert len(closed) == 40 and len(still) + len(later) == 25
     assert not [l for l in t.splitlines() if l.startswith("| `CC_TO") and re.search(r"\| READ \|", l)]
     for n in ("CUSP_WARD_AND_FLAVOR_TENSOR", "COMPACT_BOUNDARY_INDEX", "SILVER_ANALYTIC_TRANSFER"):

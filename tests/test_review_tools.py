@@ -162,3 +162,54 @@ def test_r68_1_repository_relative_dependencies_resolve(tmp_path):
     assert c["ok"] == 1 and not c["defects"]
     bad = rt.seal_check("%s  frontier/B9998_dep/verification/lib.py\n" % ("0" * 64), read, "a", "b", lambda a, b: True, True)
     assert any("changed" in d for d in bad["defects"])
+
+
+def test_action_loop_follows_a_rekeyed_lineage_and_the_carry_age_gate_fires_on_it():
+    """S299 (Review 74): since about Review 62 each carry is re-keyed and its lineage written after the colon; the counter
+    read only the keys before the colon, so R71-8 -> R72-3 -> R73-1 aged 1 each review and the third-carry rule never fired"""
+    text = "\n".join([
+        "# Review 1", "### Action items (Review 1)", "- [>] R1-1: the mirror (owner: the owner) -- carried to Review 2 as R2-1", "",
+        "# Review 2", "### Action items (Review 2)", "- [>] R2-1: the mirror (carried from R1-1; owner: the owner)", "- [x] R2-2: done", "",
+        "# Review 3", "### Action items (Review 3)", "- [>] R3-1: the mirror (carried from R2-1, before it R1-1)", "- [ ] R3-2: new", "",
+        "# Review 4", "### Action items (Review 4)", "- [>] R4-1: the mirror (carried from R3-1)", "- [>] R4-2: once (carried from R3-2)", ""])
+    lp = rt.action_loop(text)
+    assert dict(lp["carried"]) == {"R4-1": 3, "R4-2": 1}, lp["carried"]
+    import importlib, sys as _s
+    _s.path.insert(0, str(rt.ROOT / "scripts" / "gates")); G = importlib.import_module("gates")
+    bad = G.carry_age_problems(text)
+    assert len(bad) == 1 and bad[0].startswith("R4-1 carried 3 times"), bad
+    assert G.carry_age_problems(text.replace("R4-1: the mirror", "R4-1: declined as a loop item, the owner's step on P-547: the mirror")) == []
+
+
+def test_suite_summary_reads_the_counts_and_the_failing_ids():
+    log = "\n".join(["....F..", "FAILED tests/test_a.py::test_x - AssertionError", "ERROR tests/test_b.py::test_y",
+                     "2 failed, 7891 passed, 70 skipped, 1 warning in 1637.41s (0:27:17)", "SUITE_EXIT 1"])
+    s = rt.suite_summary(log)
+    assert s["counts"] == {"failed": 2, "passed": 7891, "skipped": 70, "warnings": 1}, s
+    assert s["failing"] == ["tests/test_a.py::test_x", "tests/test_b.py::test_y"]
+    assert rt.suite_summary("no summary")["counts"] == {}
+
+
+def test_seal_check_reads_a_staged_table_by_each_paths_last_hash_and_knows_a_rename():
+    """S299 (Review 74): B1823's table hashes model.py three times (plan, a disclosed change, final) and its DESIGN.md is
+    kept under a new name; the tool reported both as defects"""
+    import hashlib
+    h = lambda b: hashlib.sha256(b).hexdigest()
+    files = {"model.py": b"v3", "DRAFT.md": b"design"}
+    table = "# plan\n%s  model.py\n# a disclosed change\n%s  model.py\n# final\n%s  model.py\n%s  DESIGN.md\n" % (h(b"v1"), h(b"v2"), h(b"v3"), h(b"design"))
+    anc = lambda a, b: True
+    s = rt.seal_check(table, files.get, "s1", "v1", anc, True, by_hash=lambda x: next((k for k, v in files.items() if h(v) == x), None))
+    assert s["defects"] == [] and s["ok"] == 2 and s["lines"] == 2 and s["superseded_in_table"] == 2 and s["renamed"] == ["DESIGN.md -> DRAFT.md"], s
+    files["model.py"] = b"v4"                                  # the final state changed: still a defect
+    assert rt.seal_check(table, files.get, "s1", "v1", anc, True)["defects"][0] == "changed: model.py"
+
+
+def test_provenance_hits_skip_a_disclaimer_as_the_gate_does():
+    """S299 (Review 74): 'Nothing here is externally verified' is a disclaimer; the gate's negation window, now the tool's"""
+    lines = [("README.md", 'Nothing here is externally verified or peer-reviewed. "Verified" means recomputed.'),
+             ("docs/X.md", "This result was externally verified by a referee.")]
+    hits = rt.provenance_hits(lines)
+    assert [h["path"] for h in hits] == ["docs/X.md"], hits
+    import importlib, sys as _s
+    _s.path.insert(0, str(rt.ROOT / "scripts" / "gates")); G = importlib.import_module("gates")
+    assert rt.NEGATION == G.PRETENSE_NEGATION, "the tool's window must stay the gate's"
