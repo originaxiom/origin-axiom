@@ -17,7 +17,8 @@ def test_the_page_is_current_and_the_selftest_catches_its_planted_defects():
 def test_the_headline_counts_are_the_checkers():
     line = _run().stdout
     assert "0 of 19 earned" in line and "identification price 13" in line
-    assert "10 rows claimed, 14 borrowed joints" in line and "23 rows claimed, 45 borrowed joints" in line
+    # 2026-11-04 (S301, B1836): B47's torsion verified on main (VERIFIED-BY-MAIN), frame B 45 -> 44
+    assert "10 rows claimed, 14 borrowed joints" in line and "23 rows claimed, 44 borrowed joints" in line
 
 
 def test_no_value_is_recorded():
@@ -29,10 +30,13 @@ def test_no_value_is_recorded():
         assert not decimals, (p.name, decimals[:5])
 
 
-def test_the_mirror_joint_is_verified_not_forced():
+def test_the_mirror_joint_is_proved_on_main():
+    """S300c: the reader cited a theorem row that did not exist, so F7 was typed VERIFIED-BY-MAIN; S301 (B1836) proved it:
+    T-FRAME-MIRROR, an existing registry row, so F7 is FORCED-BY-MAIN"""
     d = json.loads((ROOT / "docs" / "total_inputs_scoreboard.json").read_text(encoding="utf-8"))
     f7 = [j for j in d["frames"]["B"]["joints"] if j["id"] == "F7"][0]
-    assert f7["type"] == "VERIFIED-BY-MAIN" and "T-FRAME-MIRROR-MATRIX" not in f7["basis"].replace("does not exist", "")
+    assert f7["type"] == "FORCED-BY-MAIN" and "T-FRAME-MIRROR" in f7["basis"]
+    assert "| T-FRAME-MIRROR |" in (ROOT / "docs" / "THEOREM_REGISTRY.md").read_text(encoding="utf-8")
 
 
 def test_the_new_sealed_ranges_are_pinned():
