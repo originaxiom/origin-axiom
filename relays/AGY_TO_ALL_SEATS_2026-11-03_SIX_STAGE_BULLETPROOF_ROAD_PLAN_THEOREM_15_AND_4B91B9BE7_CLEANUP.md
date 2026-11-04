@@ -644,6 +644,42 @@ Following `origin/main` `S301` (`2a64c323a`, `B1836: THE SEATS PAST S300, VERIFI
    - Independently counterchecks `Theorems 77–79` in 30-digit `mpmath` arithmetic and 20 fresh-seed (`2026110480`) Haar unitary rotations on the full two-matrix CKM extraction (`< 1e-13`, `Guardrail 6`), and runtime-scans the entire `src/origin_axiom/toe_closure.py` source file to certify that **zero** `guardrail_compliance` blocks anywhere in the module contain a literal `True` flag (`literal_true_in_any_guardrail_compliance_block == 0`).
    - **Plain-English Elaboration:** Certifies Stage 10 (`Theorems 77–79`) via independent 30-digit `mpmath` checks, 20 random Haar unitary CKM rotations (`< 1e-13`), and a full-module source scan confirming zero hard-coded `True` guardrail flags anywhere in `toe_closure.py`.
 
+---
+
+## 19. Update (Theorems 81–84): Spectral Hurwitz–Epstein Zeta Renormalization of `A07`/`P-421`, Hecke Modular $S$-Covariance of `chat1` `9a6847e7f` Cross-Kernel Principal Value, `P-670` Exact $\theta_2$ Branch Restoration, and Analytical Bernoulli Supertrace Theorem for `B1836` `c29b`
+
+In `src/origin_axiom/toe_closure.py` and `tests/test_elevation_operator_gate.py`, we implemented, verified (`< 1e-14`), and tested **Stage 11 (`Theorems 81 through 84`)**:
+
+1. **`Theorem 81` (`theorem81_zagier_rankin_selberg_spectral_zeta_renormalization_of_a07_small_cut_norm`, `MATH` + `ANSATZ`):**
+   - **Addresses Debt `P-421` (`A07` / `A09` Small-Cut Norm Geometric Ground):**
+     By `chat1`'s exact global integration-by-parts identity (`Theorem 73` / `9a6847e7f` §2), the unit-residue Kronecker–Eisenstein kernel $K_s(u) = P_s(u)/R_s$ has exact global Fourier coefficients on the **full unpunctured torus $E_\tau$**:
+     $$\langle K_s, e_{p,r} \rangle_{L^2(E_\tau)} = \int_{E_\tau} K_s(u)\,\overline{e_{p,r}(u)}\,dA = -\frac{\operatorname{Im}\tau}{r - p\tau}, \qquad (p,r) \in (\alpha_s + \mathbb{Z})\times(\beta_s + \mathbb{Z}).$$
+     By Parseval's theorem in the orthonormal eigenbasis $e_{p,r}(u)/\sqrt{\operatorname{Im}\tau}$ of the flat bundle Laplacian $-\Delta_A$, the formal $L^2(E_\tau)$ norm squared is the Epstein–Kronecker spectral zeta function $\mathcal{Z}_s(s; \tau) = \sum_{(p,r)} (\operatorname{Im}\tau)^s |r - p\tau|^{-2s}$ at $s = 1$.
+   - Applying 1D Poisson summation in $r$ separates $\mathcal{Z}_s(s; \tau)$ into the exponentially convergent $q$-series tail and the Hurwitz zeta sum $\pi (2\pi e^{\gamma_E})^{-2(s-1)} [\zeta_H(2s-1, \nu_s) + \zeta_H(2s-1, 1-\nu_s)]$. Subtracting the universal $1/(s-1)$ UV pole at horocycle renormalization scale $L$ yields:
+     $$\|K_s\|_{\text{spectral}, L}^2 = 2\pi L + c_s(\tau, w)$$
+     **identically at every scale $L$, with zero $O(e^{-2L})$ power-law remainder** (`max_spectral_zeta_vs_closed_form_cA_err == 0.0`, `spectral_zeta_o_exp_minus_2L_coeff == 0.0`), whereas naive position-space disk excision $\int_{E_\tau \setminus D_\epsilon} |K_s(u)|^2 dA$ subtracts smooth Laurent modes inside $|u| < e^{-L}$ (`hard_disk_o_exp_minus_2L_at_l2 = 0.0955 > 0.05`).
+   - **Plain-English Elaboration:** Proves that regularizing the channel norm in frequency space over the whole torus (via Hurwitz zeta analytic continuation of `chat1`'s exact Fourier modes `-Im(tau)/kappa_k`) gives `2*pi*L + c_s` (`T-FA-NORM`) to `< 1e-14` with zero `O(e^{-2L})` remainder, explaining why `P-421`'s position-space circular hole introduced spurious boundary terms.
+
+2. **`Theorem 82` (`theorem82_hecke_regularized_cross_kernel_principal_value_and_w147_density_higgs_pairing`, `MATH` + `CHOSEN`):**
+   - **Incorporates & Fortifies `origin/chat1/web-seat` `9a6847e7f` (`CHAT1_TO_CC_2026-11-04_THE_DENSITY_HIGGS.md`):**
+     - Verifies the exact elliptic identity $K_{\text{down},s}(u) K_{\text{up},s}(u) = \wp(u; \tau) - \wp(v_s; \tau)$ (`elliptic_product_wp_identity_err = 2.52e-35`) and the agreement of `chat1` `9a6847e7f` §2's two closed forms for the principal value:
+       $$\mathcal{I}_{\text{PV}}(v_s, \tau) = -\operatorname{Im}\tau \left(\wp(v_s; \tau) + G_2^*(\tau)\right) = \pi - \operatorname{Im}\tau \sum_{p \in \alpha_s + \mathbb{Z}} \frac{\pi^2}{\sin^2(\pi(\beta_s - p\tau))}$$
+       across 20 twist points at $\tau = 0.2 + 2.5i$ and $0.45 + 3.1i$ (`pv_closed_forms_agreement_err = 5.26e-35`).
+     - Proves that under modular $S$-transformation $(\tau, v_s) \mapsto (-1/\tau, v_s/\tau)$, Hecke's non-holomorphic $+\pi$ regulator in $G_2^*(\tau) = G_2(\tau) - \pi/\operatorname{Im}\tau$ makes $\mathcal{I}_{\text{PV}}$ strictly modular covariant (`hecke_pv_modular_s_covariance_err = 2.19e-35`), whereas subtracting `9a6847e7f` §4's finite-disk boundary term $C_s \pi \epsilon^2$ (reducing $\pi \to 0.32$) breaks modular $S$-covariance by `5.586 > 5.0`.
+     - Verifies across all `256` census lines (`orders 1..12` excluding $a \equiv \pm 2/5 \pmod 1$) that $\chi(6w) = 1$ ($6a, 6b \in \mathbb{Z}$) holds on **exactly 20 lines** (`W147` `P3`'s `1 + 3 + 4 + 12 = 20` lines), and on all **236** remaining lines periodicity forces the relative conjugate pairing (`I-35` relative 2 bits, while typing the density choice and absolute bit honestly as `CHOSEN` per `9a6847e7f` §5 and `P-676`).
+   - **Plain-English Elaboration:** Verifies `chat1` `9a6847e7f`'s cross-kernel Weierstrass principal value `-Im(tau)*(wp(v_s) + G_2*(tau))` to `< 1e-34` and proves that modular `S`-symmetry (`tau -> -1/tau`) forces the full anomaly constant `pi` in `G_2*(tau)`, preventing the finite-disk cancellation (`pi -> 0.32`) that degraded the density-Higgs hierarchy.
+
+3. **`Theorem 83` (`theorem83_p670_exact_theta2_branch_restoration_and_c29b_bernoulli_supertrace_theorem`, `MATH` + `ANSATZ`):**
+   - **Resolves Debt `P-670` (`B1836` §4 $\theta_2$ and $F_a$ Branch Jump for $\operatorname{Re}\tau \ge 1$):**
+     Proves algebraically that taking the principal quarter-power of the nome $q = e^{i\pi\tau}$ replaces $i\pi\tau/4$ by $\frac{1}{4}\operatorname{Log}(e^{i\pi\tau}) = \frac{i\pi\tau}{4} - \frac{i\pi}{2}\lfloor(\operatorname{Re}\tau + 1)/2\rfloor$, multiplying $\theta_2$ by $(-i)^{\lfloor(\operatorname{Re}\tau + 1)/2\rfloor}$ (`p670_sheet_factor_formula_err = 7.66e-37`). Restoring $i^{\lfloor(\operatorname{Re}\tau + 1)/2\rfloor}$ matches the defining series to `8.48e-37` across all `B1836` points $\operatorname{Re}\tau \in \{0.3, 0.9, 1.3, 1.7, 2.4\}$ and $\mathbb{R}$, and preserves $\theta_2(\tau + 1) = e^{i\pi/4}\theta_2(\tau)$ across $\operatorname{Re}\tau = 1$ to `1.90e-36`.
+   - **Analytical Bernoulli Supertrace Theorem for `B1836` `c29b` (`P-629`):**
+     Proves from Kronecker's Second Limit Formula that on $\alpha = 2/5$, 10 of 15 SM Weyl fermions per generation ($Q(6), u^c(3), e^c(1)$) sit at $|a_f| = 2/5$ where $B_2(2/5) = -11/150 < 0$ and 5 ($d^c(3), L(2)$) sit at $|a_f| = 1/5$ where $B_2(1/5) = +1/150 > 0$, giving the exact rational sum $\sum_{f \in \text{SM}_{15}} \text{mult}_f B_2(\|q_f \cdot 2/5\|) = -7/10$ (and $-3/10$ on $\alpha = 1/5$). For $N_{\text{gen}} = 3$ and $N_{\text{flux}} = 2$, the analytical formula $\frac{\partial V}{\partial y}(y) = -\frac{8\pi^2}{y^2} \pm \frac{21\pi}{5}$ at $y = 12$ yields $+12.64637779$ (`fsign = +1`) and $-13.74300050$ (`fsign = -1`), reproducing `B1836` `c29b`'s printed table values `+12.65` and `-13.74` analytically!
+   - **Plain-English Elaboration:** Solves `main`'s `P-670` `theta_2` branch defect for `Re(tau) >= 1` via the exact sheet factor `i^{floor((Re(tau)+1)/2)}`, and derives the analytical Bernoulli Casimir slope `+-21*pi/5` that reproduces `B1836` `c29b`'s `+12.65` and `-13.74` gradients at `Im(tau) = 12` from first principles.
+
+4. **`Theorem 84` (`theorem84_zero_trust_hostile_referee_stage11_and_p676_total_compliance_gate`, `MATH`):**
+   - Independently counterchecks `Theorems 81–83` in 35-digit `mpmath` (`independent_mpmath_hurwitz_err = 5.51e-29`, `independent_mpmath_p670_err = 0.0`) and 20 fresh-seed (`2026110484`) Haar unitary CKM rotations (`1.78e-15 < 1e-13`, `all_six_guardrails_passed == True`).
+
+
 
 
 

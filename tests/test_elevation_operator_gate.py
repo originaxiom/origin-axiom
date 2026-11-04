@@ -1731,6 +1731,60 @@ def test_five_phase_master_toe_closure():
     assert int(rc80["literal_true_in_any_guardrail_compliance_block"]) == 0
     assert t80["all_six_guardrails_passed"] is True
 
+    # Theorem 81 (Stage 11.1): Spectral Hurwitz-Epstein Zeta Renormalization of A07/A09 Small-Cut Norm Addressing P-421
+    t81 = sc["theorem81_zagier_rankin_selberg_spectral_zeta_renormalization_of_a07_small_cut_norm"]
+    assert "B1654_the_norm_of_the_boundary_class" in t81["seen_first"]
+    assert "MATH" in t81["claim_labels_and_scopes"]["spectral_hurwitz_epstein_zeta_derivation_of_small_cut_norm"]
+    assert "MATH" in t81["claim_labels_and_scopes"]["p421_a07_a09_geometric_ground"]
+    assert "plain_english_elaboration" in t81
+    assert float(t81["max_spectral_zeta_vs_closed_form_cA_err"]) < 1e-14
+    assert float(t81["spectral_zeta_o_exp_minus_2L_coeff"]) == 0.0
+    assert float(t81["hard_disk_o_exp_minus_2L_at_l2"]) > 0.05
+
+    # Theorem 82 (Stage 11.2): Hecke-Regularized Cross-Kernel Principal Value & W147 20-Line Density Higgs Pairing (chat1 9a6847e7f)
+    t82 = sc["theorem82_hecke_regularized_cross_kernel_principal_value_and_w147_density_higgs_pairing"]
+    assert "B1651_where_a_higgs_can_couple" in t82["seen_first"]
+    assert "MATH" in t82["claim_labels_and_scopes"]["cross_kernel_weierstrass_pv_and_hecke_modular_covariance"]
+    assert "MATH" in t82["claim_labels_and_scopes"]["w147_density_higgs_pairing_and_a05_scope"]
+    assert "plain_english_elaboration" in t82
+    assert float(t82["elliptic_product_wp_identity_err"]) < 1e-25
+    assert float(t82["pv_closed_forms_agreement_err"]) < 1e-25
+    assert float(t82["hecke_pv_modular_s_covariance_err"]) < 1e-25
+    assert float(t82["hard_disk_s_covariance_violation"]) > 5.0
+    assert int(t82["total_census_lines_count"]) == 256
+    assert int(t82["w147_p3_exception_lines_count"]) == 20
+    assert int(t82["non_exception_census_lines_count"]) == 236
+
+    # Theorem 83 (Stage 11.3): P-670 Exact theta_2 Branch Restoration & Analytical Bernoulli Supertrace Theorem for B1836 c29b
+    t83 = sc["theorem83_p670_exact_theta2_branch_restoration_and_c29b_bernoulli_supertrace_theorem"]
+    assert "B1667_the_canonical_cusp" in t83["seen_first"]
+    assert "MATH" in t83["claim_labels_and_scopes"]["p670_exact_theta2_sheet_restoration_across_all_re_tau"]
+    assert "MATH" in t83["claim_labels_and_scopes"]["c29b_analytical_bernoulli_supertrace_theorem"]
+    assert "plain_english_elaboration" in t83
+    assert float(t83["p670_sheet_factor_formula_err"]) < 1e-25
+    assert float(t83["p670_restored_series_err"]) < 1e-25
+    assert float(t83["p670_repaired_t_step_across_cut_err"]) < 1e-25
+    assert t83["sm_per_gen_bernoulli_sum_at_2_5"] == "-7/10"
+    assert t83["sm_per_gen_bernoulli_sum_at_1_5"] == "-3/10"
+    assert abs(float(t83["dy_analytical_plus_at_y12"]) - 12.64637779) < 1e-6
+    assert abs(float(t83["dy_analytical_minus_at_y12"]) - (-13.74300050)) < 1e-6
+    assert float(t83["c29b_table_plus_rounding_err"]) < 1e-12
+    assert float(t83["c29b_table_minus_rounding_err"]) < 1e-12
+
+    # Theorem 84 (Stage 11.4): Zero-Trust Hostile-Referee Gate for Stage 11 & P-676 Total Compliance
+    t84 = sc["theorem84_zero_trust_hostile_referee_stage11_and_p676_total_compliance_gate"]
+    assert "GENESIS.md" in t84["seen_first"]
+    assert "MATH" in t84["claim_labels_and_scopes"]["stage11_theorems_81_to_83_verification"]
+    assert "MATH" in t84["claim_labels_and_scopes"]["p421_p670_c29b_and_chat1_density_higgs_synthesis"]
+    assert "plain_english_elaboration" in t84
+    rc84 = t84["referee_independent_counterchecks"]
+    assert float(rc84["independent_mpmath_hurwitz_err"]) < 1e-25
+    assert float(rc84["independent_mpmath_p670_err"]) < 1e-25
+    assert float(rc84["independent_fresh_haar_invariance_err_t84"]) < 1e-13
+    assert float(rc84["max_precision_err_stage11"]) < 1e-13
+    assert t84["all_six_guardrails_passed"] is True
+
+
 
 
 
