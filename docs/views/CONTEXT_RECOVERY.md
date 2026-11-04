@@ -18,11 +18,11 @@
 | … NEGATIVE | 382 |
 | … OPEN | 94 |
 | … RETRACTED | 12 |
-| register points | 660 |
-| … QUEUED | 278 |
+| register points | 662 |
+| … QUEUED | 279 |
 | … LEAD | 9 |
 | … OWNER | 9 |
-| … DONE | 354 |
+| … DONE | 355 |
 | … DECLINED | 10 |
 | harvest rows (the last number) | 1552 |
 | the Standard Model's 19 derived | 0 |
@@ -61,6 +61,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S300b THE OWNER'S LINE ON SEATS' STANDARDS (P-661): A LOOSER METHOD IS FINE IF EVERY UNEARNED JOINT IS NAMED; AGY'S LANE FAILS IT BY LABELLING BORROWED JOINTS FORCED; THE BORROWED-JOINTS SCAFFOLD REG…
 - S300 B1833 THE BRAINSTORMS RE-READ (P-628): THE LEADS ARE LOST AFTER THEY ARE WRITTEN DOWN; 65 WITH NO CARRIER RE-ROWED; THE CENTRAL DIRECTION GIVEN ONE ROW; U_e AND THE PMNS RECOVERED FOR P-597; THE…
 - S299b B1832 THE AGY LANES DIGESTED (P-621): FOUR THEOREMS AND THREE EXACT IDENTITIES BANKED; B1784 AND B1826 CORRECTED; THE SCORECARD STILL 0 OF 19 (2026-11-04)
 - S299 REVIEW 74, THE DECADAL REVIEW: THE BACKLOG READ IN FULL FOR LEADS; THE CANDIDATE'S CONFIRMATION ONE HELD-OUT TARGET SHORT (θ̄ RULED AN INPUT); THE CARRY RULE MADE TO FIRE (2026-11-04)
@@ -68,11 +69,10 @@
 - S297 THE TRIAGE RECHECKED AT THE OWNER'S WORD: 20 STALE LAW-MAP ROWS, THE CANDIDATE'S END, THE NEGATIVES' SCALE, P-355's FIRST ITEM (2026-11-03)
 - S296 THE REGISTER TRIAGED: EVERY OPEN ROW TYPED, ONLY DEBTS AGE, THE 59 DEBTS RANKED BY LOAD (THE OWNER'S RULING ON P-587) (2026-11-03)
 - S295 THE CANDIDATE FAMILY's OWN RELATION D, CREDITED; THE REGISTER's LOAD MEASURED (2026-11-03)
-- S294 THE TWO-LEVEL BAR: GENESIS v1.61 — A FIXED SCREEN MAKES A CANDIDATE, ONLY A HELD-OUT CONFIRMATION MAKES A RESULT (THE OWNER'S RULING ON P-577) (2026-11-03)
 
 ## The latest campaign line
 
-LATEST (2026-11-04, S300: the brainstorms re-read (B1833, P-628) — the leads are lost after they are written down (they never come due; reviews carry none; merged items die with their host; whole places are never read); 65 items with no carrier re-rowed (P-629–P-660), the central direction (what holds τ and selects the point) as one row; U_e and the PMNS recovered as a candidate second held-out quantity (P-638, for P-597); the mechanism (P-659) and the direction (P-660) put to the owner; the agy lanes' sealed exhibits' value-free mathematics banked in B1832 (P-624 step 1) and P-625 answered — the slope selection spends the held-out target. 0 of 19.)
+LATEST (2026-11-04, S300b: the owner's line — a looser method is fine if every unearned joint is named; agy's lane labels borrowed joints FORCED, and 14 of its 32 seen-first citations are mis-titled or nonexistent; P-661 the borrowed-joints scaffold registered as a debt: main relabels agy's complete picture, building P-418's total-inputs vector. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

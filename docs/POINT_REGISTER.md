@@ -53,89 +53,90 @@ frontier/B1830_the_register_triaged/). **Rechecked the same day at the owner's w
 4. P-586 — The re-grade REGRADE.md (B1829) and the candidate P-585 depend on these looks' grading.
 5. P-421 — The strip candidate's end is the small-cut norm at L_max's height, without geometric ground since S238; with the exact norms the six fail.
 6. P-597 — P-585's level-2 card, the only route off 0 of 19 for the strip candidate, has one clean held-out target after θ̄ was ruled an input (Review 74).
-7. P-595 — LAW_MAP's six candidate rows, P-421 and P-585 grade the candidate through a sealed look main never re-ran.
-8. P-446 — B1786, B1789, B1792 and B1814's census rest on c=3 chosen on the data and the down-lepton relation being part of the fit.
-9. P-517 — B1811 (cited as NEGATIVE) and the D = 9 figure feeding P-585's candidate-family relation D and P-355.
-10. P-157 — Reading of P10 and P10' (B1628) as Dirac neutrinos depends on B1620's tensor assignment.
-11. P-559 — B1788's exponents are cited by later flavour-line arcs and the agy lane's replacement claim.
-12. P-610 — C8 (B1796, B1797, GENESIS v1.59) uses the whole cusp unit where W134 says 17/24; P-302 closed while B1736 says K2 not re-derived.
-13. P-444 — B1785 FINDINGS section 1 'residual <= 0.07 everywhere' is false (585 of 15888 fits exceed); B1788 compares against B1785 medians.
-14. P-542 — B1821's and B1726's census outputs, and any test needing the census near Im tau = 1+k/4.
-15. P-524 — B1656's frame and Step B's channel kernels (B1825) use the b_x+b_y dependence on a relay's say-so.
-16. P-557 — B1825's null for the four (p2) and its sealed verdict use that definition.
-17. P-516 — IDENTIFICATION_LEDGER and the identification-completeness lock; B1825 depends on B1814 and B1810, which read singular values as masses.
-18. P-448 — P-432's DONE status and B1811's NEGATIVE (used by B1825 and the clock arcs) rest on a window the row says covers only n=1.
+7. P-661 — the owner's borrowed-joints scaffold: agy's complete picture relabelled joint by joint; the count is P-418's total-inputs vector, the restated goal's own number.
+8. P-595 — LAW_MAP's six candidate rows, P-421 and P-585 grade the candidate through a sealed look main never re-ran.
+9. P-446 — B1786, B1789, B1792 and B1814's census rest on c=3 chosen on the data and the down-lepton relation being part of the fit.
+10. P-517 — B1811 (cited as NEGATIVE) and the D = 9 figure feeding P-585's candidate-family relation D and P-355.
+11. P-157 — Reading of P10 and P10' (B1628) as Dirac neutrinos depends on B1620's tensor assignment.
+12. P-559 — B1788's exponents are cited by later flavour-line arcs and the agy lane's replacement claim.
+13. P-610 — C8 (B1796, B1797, GENESIS v1.59) uses the whole cusp unit where W134 says 17/24; P-302 closed while B1736 says K2 not re-derived.
+14. P-444 — B1785 FINDINGS section 1 'residual <= 0.07 everywhere' is false (585 of 15888 fits exceed); B1788 compares against B1785 medians.
+15. P-542 — B1821's and B1726's census outputs, and any test needing the census near Im tau = 1+k/4.
+16. P-524 — B1656's frame and Step B's channel kernels (B1825) use the b_x+b_y dependence on a relay's say-so.
+17. P-557 — B1825's null for the four (p2) and its sealed verdict use that definition.
+18. P-516 — IDENTIFICATION_LEDGER and the identification-completeness lock; B1825 depends on B1814 and B1810, which read singular values as masses.
+19. P-448 — P-432's DONE status and B1811's NEGATIVE (used by B1825 and the clock arcs) rest on a window the row says covers only n=1.
 
 *a false or stale statement in a foundation or front document:*
 
-19. P-589 — Corrections that reached their arcs but not the law map: 20 rows fixed at S297; owed the eight member-scope addenda and the same screen over GENESIS and THE_WEAVE (IDENTIFICATION_LEDGER and KIND_TABLE screened clean).
-20. P-606 — B298's degree-2 'never 3' is cited as prior by B1496 and four ledgers; false as an implication.
-21. P-618 — GENESIS l. 262 and LAW_MAP l. 236 (m = 4 has the door) and five arcs lag the 2026-10-23 sweep's answers.
-22. P-318 — THE_CLAIM section 1, GENESIS F-MC, LAW_MAP rows 236/419/427 and THEOREM_REGISTRY carry B997 uniqueness etc.
-23. P-427 — B723's PROVED verdict (after three clause retractions), CLAIMS.md C-cal (line 147) and paths/PATHS.md are cited records.
-24. P-374 — THE_CLAIM section 1 typed-data counts (two F2 bits, one scale, one trit) are what the 19-input accounting and GENESIS cite.
-25. P-579 — Front-document headline '0 of 19' in logs and the scoreboard, and WHAT_WOULD_COUNT's tiers.
-26. P-581 — The structural package grades (B862, B727 line) in GENESIS-level claims.
-27. P-604 — B1221's primitivity addendum's table is wrong (6k, not 6·gcd(k, 12)).
-28. P-320 — GENESIS FK3, FK5, F-MC, m000 row, GAP6, GM4 lag the record.
-29. P-321 — GENESIS GM4 and B1680's 'the remaining choice is the prime' are stated in the foundation; the row owes their update.
-30. P-138 — GENESIS GAP5 (line 378) still says 'no free dimensionless constant'; LAMBDA_POSITION line 26 unscoped.
-31. P-333 — GENESIS F-CI sentence rests on one of 16 companions computed.
-32. P-092 — docs/THE_CLAIM.md section 1's cubic carries no dated line on d/e spectrum; B1738 not cited there (grep empty).
-33. P-319 — Frozen paper P9 cites B1479 and B1656, superseded by B1662 and B1658.
-34. P-426 — docs/THE_FRAMEWORK.md line 558 'no canonical arrow' (contradicted by B1750/B1662) and four other living docs carry DECLARED_DEBT in doc_currency.py.
-35. P-528 — docs/IDENTIFICATION_LEDGER.md I-26 row, cited by the generation-count line.
-36. P-160 — Paper claim pool, SM specification ledger lines and kill-graph note still carry B1636-B1653 wording.
-37. P-145 — Memo 132 / COSMOLOGY_LEDGER row 4 / CATALOG update, still unchecked on main.
+20. P-589 — Corrections that reached their arcs but not the law map: 20 rows fixed at S297; owed the eight member-scope addenda and the same screen over GENESIS and THE_WEAVE (IDENTIFICATION_LEDGER and KIND_TABLE screened clean).
+21. P-606 — B298's degree-2 'never 3' is cited as prior by B1496 and four ledgers; false as an implication.
+22. P-618 — GENESIS l. 262 and LAW_MAP l. 236 (m = 4 has the door) and five arcs lag the 2026-10-23 sweep's answers.
+23. P-318 — THE_CLAIM section 1, GENESIS F-MC, LAW_MAP rows 236/419/427 and THEOREM_REGISTRY carry B997 uniqueness etc.
+24. P-427 — B723's PROVED verdict (after three clause retractions), CLAIMS.md C-cal (line 147) and paths/PATHS.md are cited records.
+25. P-374 — THE_CLAIM section 1 typed-data counts (two F2 bits, one scale, one trit) are what the 19-input accounting and GENESIS cite.
+26. P-579 — Front-document headline '0 of 19' in logs and the scoreboard, and WHAT_WOULD_COUNT's tiers.
+27. P-581 — The structural package grades (B862, B727 line) in GENESIS-level claims.
+28. P-604 — B1221's primitivity addendum's table is wrong (6k, not 6·gcd(k, 12)).
+29. P-320 — GENESIS FK3, FK5, F-MC, m000 row, GAP6, GM4 lag the record.
+30. P-321 — GENESIS GM4 and B1680's 'the remaining choice is the prime' are stated in the foundation; the row owes their update.
+31. P-138 — GENESIS GAP5 (line 378) still says 'no free dimensionless constant'; LAMBDA_POSITION line 26 unscoped.
+32. P-333 — GENESIS F-CI sentence rests on one of 16 companions computed.
+33. P-092 — docs/THE_CLAIM.md section 1's cubic carries no dated line on d/e spectrum; B1738 not cited there (grep empty).
+34. P-319 — Frozen paper P9 cites B1479 and B1656, superseded by B1662 and B1658.
+35. P-426 — docs/THE_FRAMEWORK.md line 558 'no canonical arrow' (contradicted by B1750/B1662) and four other living docs carry DECLARED_DEBT in doc_currency.py.
+36. P-528 — docs/IDENTIFICATION_LEDGER.md I-26 row, cited by the generation-count line.
+37. P-160 — Paper claim pool, SM specification ledger lines and kill-graph note still carry B1636-B1653 wording.
+38. P-145 — Memo 132 / COSMOLOGY_LEDGER row 4 / CATALOG update, still unchecked on main.
 
 *a check that cannot fail, an instrument or a seal claim under a banked result:*
 
-38. P-605 — GENESIS v1.12 (l. 481) and COSMOLOGY_LEDGER row 4 call checked work unchecked (B1208 LEG 4).
-39. P-603 — LAW_MAP's rank-obstruction row (l. 378) and B964's filing lag their own retraction and the Wilson-line closings.
-40. P-607 — B1195 stands PROVED with four cells failing their own lens; GC-25 and GC-22 are cited as proved, GC-22 in P3.
-41. P-608 — LAW_MAP row 478 unscoped since R48-2; RETRACTIONS row 13 says a fact was never computed that was.
-42. P-609 — OPEN_LEADS' ★★★★ L173 rests on a boundary-mode count the cloud seat called a one-ended artefact.
-43. P-317 — Checks that cannot fail guard B1137 PSLQ DISJOINT, B162, GENESIS citation gate, kill graph T-VALUE-REGULATOR.
-44. P-602 — B1225's reproduce.sh greps instead of computing; it backs T-NO-CANONICAL-SELECTOR, T-IDENTIFICATION-IS-AN-INPUT and FK12.
-45. P-590 — Sealed negatives graded at M_Z with tree outputs; B1660, B1748 and B1720's T2 are not covered by the scale bound.
-46. P-154 — The retraction sweep never reads RETRACTED_PHRASES' 2026-10-07 and 2026-10-08 tables (hand-swept clean at S297).
-47. P-239 — B805's attachment locks guard the forcing graph and fail at every landing (CHANGELOG 'standing').
-48. P-233 — Hypercharge-forcing theorems T-Y18, T-TWO-ORBITS, T-DEFLATION-P in the registry lack the independent reimplementation control.
-49. P-540 — B940's instrument is used by C10's seal on m004 (P-330).
-50. P-332 — B1121 banked 'inconclusive' on F4(Z) transitivity from a too-small search box.
+39. P-605 — GENESIS v1.12 (l. 481) and COSMOLOGY_LEDGER row 4 call checked work unchecked (B1208 LEG 4).
+40. P-603 — LAW_MAP's rank-obstruction row (l. 378) and B964's filing lag their own retraction and the Wilson-line closings.
+41. P-607 — B1195 stands PROVED with four cells failing their own lens; GC-25 and GC-22 are cited as proved, GC-22 in P3.
+42. P-608 — LAW_MAP row 478 unscoped since R48-2; RETRACTIONS row 13 says a fact was never computed that was.
+43. P-609 — OPEN_LEADS' ★★★★ L173 rests on a boundary-mode count the cloud seat called a one-ended artefact.
+44. P-317 — Checks that cannot fail guard B1137 PSLQ DISJOINT, B162, GENESIS citation gate, kill graph T-VALUE-REGULATOR.
+45. P-602 — B1225's reproduce.sh greps instead of computing; it backs T-NO-CANONICAL-SELECTOR, T-IDENTIFICATION-IS-AN-INPUT and FK12.
+46. P-590 — Sealed negatives graded at M_Z with tree outputs; B1660, B1748 and B1720's T2 are not covered by the scale bound.
+47. P-154 — The retraction sweep never reads RETRACTED_PHRASES' 2026-10-07 and 2026-10-08 tables (hand-swept clean at S297).
+48. P-239 — B805's attachment locks guard the forcing graph and fail at every landing (CHANGELOG 'standing').
+49. P-233 — Hypercharge-forcing theorems T-Y18, T-TWO-ORBITS, T-DEFLATION-P in the registry lack the independent reimplementation control.
+50. P-540 — B940's instrument is used by C10's seal on m004 (P-330).
+51. P-332 — B1121 banked 'inconclusive' on F4(Z) transitivity from a too-small search box.
 
 *an unverified premise or seat result under a banked structural result:*
 
-51. P-156 — B1606/B1652's D2 ±3 index rests on the end condition and dim Λ+ - 3.
-52. P-054 — GENESIS cites W24 and W30 (order-3 flux allowed, not forced).
-53. P-055 — W23/W27/W28 (two generations in E8 frames, qubit) are cited as results.
-54. P-056 — W47 (no forcing of cusp unit) underlies FK10's tagged-postulate status.
-55. P-057 — Fork lane's exact packets feed GM4 readings.
-56. P-263 — B1689 banked with W24 discrete-torsion, K3-K4 and W44 PMNS cells unchecked.
-57. P-135 — B1650's condensate test and Simpson table are cited conditionally on H-RES.
-58. P-155 — B1602/B1603 counts (16 of 42) are over candidate kernels, never identified.
-59. P-091 — B1814's census and the typicality cell rest on W57, whose own frame is unregenerated.
-60. P-107 — P-091's 'seed's own measure' premise and B1813/B1814 depend on measure choice.
-61. P-117 — PH2 1% match is cited from B1686; W154's analytic form under P-380 Stage B.
-62. P-430 — W74's CP-invariance of the surface frame rests on K5 (B1796) and possibly K4, the weight -1/2 count, unchecked.
-63. P-316 — B1732's 'incompatible' verdict and P-303's recommendation rest on the web seat's tests not yet re-run on main.
-64. P-158 — B1643's three-routes claim and its lock are cited in the record; the sin2theta12 near-match disclosure is owed.
-65. P-262 — B1701's 0:1:1 law and B1703's N∣3 zero are banked as computed laws used by later zero-law work (P-337, P-268).
-66. P-268 — The order-12 electron-zero law (B1712/B1716) is cited by zero-law rows P-292/P-337 and the lepton analysis.
-67. P-310 — B335's title/claim 'mass degeneracy is a theorem' (frontier/B335 FINDINGS line 1) is cited as a degeneracy argument.
-68. P-025 — Holomorphy/minimal-Kahler imports bear on the count underlying B1656's frame and the hierarchy readings.
-69. P-030 — The golden identity (MC10 arcs, B1638) cites classical input via secondary sources.
-70. P-031 — The claim 'special to discriminant 5' is used by golden-identity arcs and P10-adjacent readings.
-71. P-492 — B1088 (c = 3l/2G, c = 6 sigma) and B1034's bridge in the gravity line rest on a boundary assumption the row questions.
-72. P-527 — P-425, P-449 and P-494 rest on THE FINAL ATTACK's forced-CM comparison that the revised Step B dropped.
-73. P-571 — The value-kill census and walls cited in the record's negatives (FRAMING_LEDGER FL-02/03).
-74. P-334 — Stale OPEN verdicts and un-noted answered leads sit in tests and arcs (B1406, OPEN O1-O10).
+52. P-156 — B1606/B1652's D2 ±3 index rests on the end condition and dim Λ+ - 3.
+53. P-054 — GENESIS cites W24 and W30 (order-3 flux allowed, not forced).
+54. P-055 — W23/W27/W28 (two generations in E8 frames, qubit) are cited as results.
+55. P-056 — W47 (no forcing of cusp unit) underlies FK10's tagged-postulate status.
+56. P-057 — Fork lane's exact packets feed GM4 readings.
+57. P-263 — B1689 banked with W24 discrete-torsion, K3-K4 and W44 PMNS cells unchecked.
+58. P-135 — B1650's condensate test and Simpson table are cited conditionally on H-RES.
+59. P-155 — B1602/B1603 counts (16 of 42) are over candidate kernels, never identified.
+60. P-091 — B1814's census and the typicality cell rest on W57, whose own frame is unregenerated.
+61. P-107 — P-091's 'seed's own measure' premise and B1813/B1814 depend on measure choice.
+62. P-117 — PH2 1% match is cited from B1686; W154's analytic form under P-380 Stage B.
+63. P-430 — W74's CP-invariance of the surface frame rests on K5 (B1796) and possibly K4, the weight -1/2 count, unchecked.
+64. P-316 — B1732's 'incompatible' verdict and P-303's recommendation rest on the web seat's tests not yet re-run on main.
+65. P-158 — B1643's three-routes claim and its lock are cited in the record; the sin2theta12 near-match disclosure is owed.
+66. P-262 — B1701's 0:1:1 law and B1703's N∣3 zero are banked as computed laws used by later zero-law work (P-337, P-268).
+67. P-268 — The order-12 electron-zero law (B1712/B1716) is cited by zero-law rows P-292/P-337 and the lepton analysis.
+68. P-310 — B335's title/claim 'mass degeneracy is a theorem' (frontier/B335 FINDINGS line 1) is cited as a degeneracy argument.
+69. P-025 — Holomorphy/minimal-Kahler imports bear on the count underlying B1656's frame and the hierarchy readings.
+70. P-030 — The golden identity (MC10 arcs, B1638) cites classical input via secondary sources.
+71. P-031 — The claim 'special to discriminant 5' is used by golden-identity arcs and P10-adjacent readings.
+72. P-492 — B1088 (c = 3l/2G, c = 6 sigma) and B1034's bridge in the gravity line rest on a boundary assumption the row questions.
+73. P-527 — P-425, P-449 and P-494 rest on THE FINAL ATTACK's forced-CM comparison that the revised Step B dropped.
+74. P-571 — The value-kill census and walls cited in the record's negatives (FRAMING_LEDGER FL-02/03).
+75. P-334 — Stale OPEN verdicts and un-noted answered leads sit in tests and arcs (B1406, OPEN O1-O10).
 
 *added by B1833 (S300; the brainstorms re-read):*
 
-75. P-653 — GENESIS's foundation lock has never been tested as a whole (L240 (h)); its swept page of what the record lacks (g) dropped from the carry.
-76. P-643 — THE_FINAL_ATTACK states pre-registered successors (the towers on NO SUPPORT; the gauge couplings after the nine) the record did not take.
-77. P-646 — B1410 consumes P5 completeness, one of B1000's three bridge artifacts named and owed since 2026-08-09.
+76. P-653 — GENESIS's foundation lock has never been tested as a whole (L240 (h)); its swept page of what the record lacks (g) dropped from the carry.
+77. P-643 — THE_FINAL_ATTACK states pre-registered successors (the towers on NO SUPPORT; the gauge couplings after the nine) the record did not take.
+78. P-646 — B1410 consumes P5 completeness, one of B1000's three bridge artifacts named and owed since 2026-08-09.
 
 ## The queue (worked in this order)
 
@@ -823,3 +824,5 @@ patterns referee (the three lenses of 2026-10-13, summarised in `docs/THE_INTEGR
 | P-658 | 2026-11-04 | BS, SE | THE SEALED EXHIBITS' VALUE-FREE MATHEMATICS BANKED (P-624 step 1): the channel-exponent law (LAW_MAP); the a₀ table and the transposed-point identity Y_e(a₀, h) = λ·Y_d(−a₀, h)ᵀ (S297's scope corrected); the QI admixture at first order (the lane's O(∣h_i∣²) refuted); B1832 § 2's compensators only projective (Z₄ ⋊ Z₄ in SO(10), Q₈ in PSO(10)); the intertwiner as SU(2) covariance; T² not T at the residue level; P-625 answered | DONE | frontier/B1832_the_agy_lanes_digested/FINDINGS.md (S300 section; verification/sealed_mask/); docs/RETRACTIONS.md (+2); docs/LAW_MAP.md | 2026-11-04 |
 | P-659 | 2026-11-04 | BS, OW | THE MECHANISM, SO THAT A BRAINSTORM's CONCLUSIONS AGE AND ARE WORKED (P-628's ask; B1833 § 5): M1 direction leads age at 21 days (first step, dated decline, or put to the owner; point_debt rule 7); M2 one owner row per central question, unclosable while a child is open; M3 a merged item keeps its own acceptance cell; M4 every brainstorm, meditation, framing pass and review ends with a carry list rowed the same day, and a FINDINGS "owed / carried forward / not computed / next" line needs a row citing its arc; M5 a review's ranked leads become action items under carry-age; M6 OWNER rows printed in every report to the owner, and an audit-room draft cited by a row lands or is declined within seven days; M7 a retired frame's open ideas translated or declined, and a frame card whose free continuous data outnumber the object-fixed invariants graded fit-capacity up front, not the main line without the owner's word | OWNER | asked of the owner (S300): adopt M1–M7, some, or none; the rules change what is worked first, so they are the owner's; main's tool repairs proceed under P-657 | 2026-11-04 |
 | P-660 | 2026-11-04 | BS, OW | THE DIRECTION: WHICH RECOVERED LEAD FIRST (B1833 § 3's ranked list: P-629 the dynamics and selection, P-638 U_e and the PMNS, P-637 the loop lift, P-639 the mirror in matter, P-634 Angle A, P-636 deriving the 3, P-418 the scoreboard, P-635, P-640–P-642, P-643) | OWNER | asked of the owner (S300): main recommends P-638's data-free first step first (it decides P-597, the sixth debt and the candidate's only route off 0 of 19), with P-639 and P-637's one-loop pattern alongside (both data-free and cheap), then P-629's functional card | 2026-11-04 |
+| P-661 | 2026-11-04 | OW | THE OWNER's LINE ON SEATS' STANDARDS AND THE BORROWED-JOINTS SCAFFOLD (the owner, 2026-11-04: 'if its working intentionally with a looser standard while naming every unearned thing, im ok with that. this way we complete the picture with borrowed joints, and the final picture might help us earn them later, and anyways everything then goes through you … never give up until full parameter free toe from oa'): a seat is judged by whether its labels match what it did, not by its method's strictness; agy's lane fails that line (borrowed joints labelled FORCED, zero-bit, ToE — B1832 § 5), so main relabels its complete picture itself | QUEUED | [DEBT] Q1 (with P-418, P-579, P-624, P-660): THE BORROWED-JOINTS SCAFFOLD — agy's complete 19 + 4 picture with every joint relabelled by main from B1832's typed ledgers (FORCED by a banked theorem, CHOSEN, FITTED, MEASURED INPUT, ANSATZ, REFUTED), its values for P-585's held-out targets left sealed (P-624); the count of borrowed joints per observable is P-418's total-inputs vector, and each borrowed joint becomes a target to earn | 2026-11-04 |
+| P-662 | 2026-11-04 | SE | B1832 § 4's '9 of 12 cited arc names do not exist on main' (agy's seen-first provenance) misleads in kind: of 32 citations 15 exact, 3 on other seats' branches, 11 real arc numbers under invented titles (one its own), 3 files on no branch | DONE | frontier/B1832_the_agy_lanes_digested/FINDINGS.md (dated note); frontier/B1832_the_agy_lanes_digested/verification/agy_seen_first_provenance.py | 2026-11-04 |

@@ -18342,3 +18342,11 @@ where D fails. The mechanism (P-659) and the direction (P-660) are the owner's c
 sealed exhibits were read through a mask (P-624 step 1): six value-free results banked in B1832, S297's scope and B1832 § 2
 corrected (RETRACTIONS +2), P-625 answered — the slope selection spends the held-out target. The S299c harvest is logged
 here. 0 of 19.
+
+## 2026-11-04 — S300b: the owner's line on seats' standards; the borrowed-joints scaffold registered
+
+The owner asked whether agy fabricates or works to a looser standard, and drew the line: a looser method is acceptable if
+every unearned joint is named, so that a complete picture with borrowed joints can show which joints to earn. Main's
+answer: agy's mathematics is real where checked, but it labels borrowed joints as forced; its provenance cites real arc
+numbers under invented titles in 11 of 32 citations and three files that exist nowhere. P-661 registers the scaffold: main
+relabels agy's complete picture joint by joint, which builds the total-inputs vector (P-418). 0 of 19.
