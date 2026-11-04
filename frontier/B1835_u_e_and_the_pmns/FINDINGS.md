@@ -37,6 +37,29 @@ electron and the down quark (1, 2). Hence:
 `verification/planted_relations.py`, `_run.txt`. The candidate's address lies on order-10 lines, where none of these
 holds, so they are positive controls for the card's extraction, not predictions at the address.
 
+## 1c. The line's order and the sectors it identifies, with the neutrino (S303; data-free)
+
+B1728's law decides exactly when two sectors' matrices coincide on a line of order N. They are proportional when their
+charge pairs agree modulo N, up to an overall sign; they are transposed when the pairs agree with left and right swapped.
+`verification/order_dictionary.py` predicts this from the charges and checks it on the card's instrument, at two lines of
+exact order N and two τ, for N = 2, 3, 4, 5, 6, 8, 10, 12, 15, 20 and 30:
+- every predicted relation holds to ≤ 1.1 × 10⁻¹⁴;
+- every relation not predicted fails by ≥ 0.046;
+- no relation holds that was not predicted.
+
+| order | what is identified |
+|---|---|
+| 2 | up ∝ down ∝ lepton ∝ ν (one Yukawa for all) |
+| 3 | up ∝ down and lepton ∝ ν, every sector symmetric (left–right) |
+| 4 | ν ∝ up, lepton ∝ down (Pati–Salam) |
+| 5 | lepton ∝ downᵀ, up symmetric (minimal SU(5)) |
+| 6 | up ∝ down, lepton ∝ ν |
+| 8, 10, 12, 15, 20, 30 | none exactly; at 8 and 10, the half-lift with a Higgs flip (T-HALF-LIFT) |
+
+**Seen first.** The charged part is B1698's and B1703's (LAW_MAP's "WHICH LINES SPLIT THE CHARGED SECTORS": d = e at
+orders 4 and 5, u = d at N ∣ 6, u = e at N ∣ 2 or 7). New here are the neutrino rows and the self-transpose entries. The
+reading of the line's order as a unification pattern (P-682) is that row's own, extended.
+
 ## 2. The design (a reader's draft in the audit room; main verified what is stated here)
 
 - **The address** is frozen on the family's best sealed row, chosen by the already-seen six only: the lowest χ²_six among

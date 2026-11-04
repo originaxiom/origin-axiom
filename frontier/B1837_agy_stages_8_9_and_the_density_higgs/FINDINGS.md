@@ -130,3 +130,5 @@ so that main's public record does not carry the quantity further.
   re-checked by main without opening sealed lines.
 - What reached the readers' contexts (written nowhere): verdict words at listed lines.
 - The density post hoc's full re-run is pending (P-681).
+
+> *Dated note 2026-11-05 (S303, P-681):* the density Higgs's post hoc (227f45f26 → f271abe66) is reproduced on main at 88c577896, with one worker and Pool(4) → Pool(1) as the only edit: part (b) is identical in every line, and part (a) identical but for floating-point residuals (medians 1.5 against 1.7 × 10⁻¹³; 96-node maximum 1.4 against 1.3 × 10⁻¹¹) — `verification/density_posthoc_rerun_on_main.txt`, diffed by main.*

@@ -1,5 +1,11 @@
 # Changelog
 
+## S303 THE END IS THE DECIDER: THE EXACT-END FAILURE REPRODUCED ON MAIN (P-595, B1838); THE LINE'S ORDER AND THE NEUTRINO (P-682); THE DENSITY POST HOC REPRODUCED (P-681) (2026-11-05)
+
+- **The owner agreed** with main's reading that the end is the candidate's decider. **P-595 paid (B1838, OPEN):** the web seat's sealed exact-end look (rule 5215f337a, instrument 530f964a3) re-run on main's tree at 52dc780da with its own instrument, every row identical — χ²_six 2.4–4.9 at the small-cut end, 31–54 at the exact horoball norms, 26–36 with τ refitted; the down and lepton m₂/m₃ fall from about 0.019 to about 0.012. LAW_MAP's six brackets now cite the reproduction. No principled end on record passes the six; next, the agy lane's zeta-regularised end judged, then a sealed re-read with the end's scale free at its look-elsewhere cost.
+- **P-682 (B1835 § 1c):** on a line of order N the sectors are identified by their charges mod N — 2: all four; 3: up ∝ down and lepton ∝ ν, all symmetric; 4: ν ∝ up, lepton ∝ down (Pati–Salam); 5: lepton ∝ downᵀ, up symmetric (SU(5)); 6: up ∝ down, lepton ∝ ν; 8–30: none exactly — predicted from the charges and confirmed two-sided on the card's instrument at 11 orders (≤ 1.1 × 10⁻¹⁴ where predicted, ≥ 0.046 where not). The charged part is B1703's; the neutrino rows and the symmetric entries are new.
+- **P-681:** the density Higgs's post hoc reproduced on main (part (b) identical; part (a) identical but for floating-point residuals). FLOOR 682; 77 debts. 0 of 19.
+
 ## S302 B1837 THE AGY LANE'S STAGES 8-9 AND THE WEB SEAT'S DENSITY HIGGS VERIFIED: MAIN STANDS ON SIX OF THE SEVEN REBUTTALS; NO JOINT EARNED; MAIN'S OWN FIREWALL EXPOSURE RECORDED (2026-11-04)
 
 - **The owner: "fetch agy", "refetch".** The agy lane's Stage 8 (317c04b58, Theorems 65–70) and Stage 9 (b66bfdf42, Theorems 71–76, a rebuttal of seven of main's findings) through the mask; the web seat's density Higgs (to 9a6847e7f). Main re-ran every banked check; identical.

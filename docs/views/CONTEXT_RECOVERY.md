@@ -13,16 +13,16 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1541 |
+| arcs with a verdict file | 1542 |
 | … PROVED | 1052 |
 | … NEGATIVE | 382 |
-| … OPEN | 95 |
+| … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 681 |
-| … QUEUED | 285 |
+| register points | 682 |
+| … QUEUED | 283 |
 | … LEAD | 9 |
 | … OWNER | 4 |
-| … DONE | 372 |
+| … DONE | 375 |
 | … DECLINED | 11 |
 | harvest rows (the last number) | 1561 |
 | the Standard Model's 19 derived | 0 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1838 | OPEN | THE END (P-421, OPEN): the web seat's sealed exact-end look reproduced on main (P-595 paid) -- the candidate's six pass only with the small-cut end (chi2 2.4-4.9) and fail at the exact horoball norms (31-54; 26-36 with… |
 | B1837 | PROVED | THE AGY LANE'S STAGES 8-9 AND THE WEB SEAT'S DENSITY HIGGS VERIFIED: main stands on six of the lane's seven rebuttals (the seventh, the mirror, already proved) -- at one Higgs every generation's lepton/down relation and… |
 | B1836 | PROVED | THE SEATS PAST S300 VERIFIED (the owner's 'fetch and verify agy and other seats'): the F7 mirror identity PROVED (T-FRAME-MIRROR; the agy lane's Theorem 60 repaired); T a symmetry of the frame's outputs (8e-13; main's S… |
 | B1835 | OPEN | U_e AND THE PMNS (P-638, OPEN; the owner's ruling P-660): the control passes on main's code -- on all 24 order-5 lines Y_e = c Y_d^T and U_e^L = conj(U_d^R) to 1e-15, 0.33-0.40 off on the order-10 lines; the design: the… |
@@ -42,7 +43,6 @@
 | B1829 | PROVED | GENESIS v1.61 (the owner's ruling on P-577, 2026-11-03, 'agreed' to the owner's own tiered-bar proposal as main assessed it): where the joint look count applies, level 1 is a fixed screen (THE_BAR at p < 0.01 with every… |
 | B1828 | PROVED | GENESIS v1.60 (the owner's ruling on P-580, 2026-11-03: YES): a frame may EARN its dictionary BY PREDICTION -- an identification is EARNED BY PREDICTION within a frame F when F is fixed on a sealed card before, at least… |
 | B1827 | OPEN | THE FRAMING LEDGER (the owner's exercise, 2026-11-03; OPEN, an audit): eighteen framing commitments inventoried from five readers (docs/FRAMING_LEDGER.md), then the question itself and its recognition audited (S291, § G… |
-| B1826 | PROVED | THE AGY LANE'S NOVEMBER WORK, VERIFIED ON MAIN (agy/audit-2026-11-02, 16 commits from main's 64a2a3d4e; with the physical-bridge lane's source review and the independent audit lane's recomputation): three results kept,… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S303 THE END IS THE DECIDER: THE EXACT-END FAILURE REPRODUCED ON MAIN (P-595, B1838); THE LINE'S ORDER AND THE NEUTRINO (P-682); THE DENSITY POST HOC REPRODUCED (P-681) (2026-11-05)
 - S302 B1837 THE AGY LANE'S STAGES 8-9 AND THE WEB SEAT'S DENSITY HIGGS VERIFIED: MAIN STANDS ON SIX OF THE SEVEN REBUTTALS; NO JOINT EARNED; MAIN'S OWN FIREWALL EXPOSURE RECORDED (2026-11-04)
 - S301 B1836 THE SEATS PAST S300, FETCHED AND VERIFIED: THE F7 MIRROR IDENTITY PROVED; T A SYMMETRY OF THE OUTPUTS; THE SLOPE NEED NOT SPEND THE HELD-OUT TARGET; NO BORROWED JOINT EARNED BY THE AGY LAN…
 - S300f B1835: THE CARD'S INSTRUMENT AND ITS CONTROLS — U_e THROUGH B1726's OWN PATH; THE FRAME'S QUARK–LEPTON RELATION ∣U_PMNS∣ = ∣V_CKM†∣ ON THE ORDER-2 AND ORDER-4 LINES (2026-11-04)
@@ -63,11 +64,10 @@
 - S300d THE OWNER'S RULING ON P-660 (U_e AND THE PMNS FIRST): B1835 OPENED — THE CONTROL PASSES; ONLY THE NEUTRINO SPLITTING RATIO IS IN THE CANDIDATE'S SCOPE; TWO CALLS TO THE OWNER (2026-11-04)
 - S300c B1834 THE TOTAL-INPUTS SCOREBOARD (P-418, the owner's ruling of 2026-10-29) AND THE BORROWED-JOINTS SCAFFOLD (P-661): 0 OF 19 EARNED; THE CANDIDATE 10 ROWS ON 14 BORROWED JOINTS, AGY'S COMPLETE…
 - S300b THE OWNER'S LINE ON SEATS' STANDARDS (P-661): A LOOSER METHOD IS FINE IF EVERY UNEARNED JOINT IS NAMED; AGY'S LANE FAILS IT BY LABELLING BORROWED JOINTS FORCED; THE BORROWED-JOINTS SCAFFOLD REG…
-- S300 B1833 THE BRAINSTORMS RE-READ (P-628): THE LEADS ARE LOST AFTER THEY ARE WRITTEN DOWN; 65 WITH NO CARRIER RE-ROWED; THE CENTRAL DIRECTION GIVEN ONE ROW; U_e AND THE PMNS RECOVERED FOR P-597; THE…
 
 ## The latest campaign line
 
-LATEST (2026-11-04, S302: the agy lane's Stages 8–9 and the web seat's density Higgs verified (B1837) — main stands on six of the lane's seven rebuttals, the seventh already proved; no joint earned; the torsions of m004 at ω tabled; main's own firewall exposure through a pasted message recorded (P-679). 0 of 19.)
+LATEST (2026-11-05, S303: THE END IS THE DECIDER (B1838, OPEN) — the exact-end failure reproduced on main: the candidate's six pass only with the small-cut end (χ² 2.4–4.9) and fail at the exact horoball norms (26–54); no principled end on record passes them; next, the six re-read with the end's scale free in a sealed card. P-682: the line's order identifies the sectors (Pati–Salam at 4, SU(5) at 5, left–right at 3). 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

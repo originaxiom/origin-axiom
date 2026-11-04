@@ -1,0 +1,26 @@
+{
+ "id": "B1838",
+ "verdict": "OPEN",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1726",
+  "B1667",
+  "B1829",
+  "B1837"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "FR-FIB (B1726's compute), the candidate family's four rows",
+  "object": "the end: the small-cut norm at L_max against the exact horoball norm",
+  "reach": "general",
+  "hypotheses": "the web seat's sealed instrument re-run on main's tree; the six are seen data; no held-out quantity"
+ },
+ "claim_one_line": "THE END (P-421, OPEN): the web seat's sealed exact-end look reproduced on main (P-595 paid) -- the candidate's six pass only with the small-cut end (chi2 2.4-4.9) and fail at the exact horoball norms (31-54; 26-36 with tau refitted); no principled end on record passes them; next: the agy lane's zeta-regularised end judged, then the six re-read with the end's scale free at its look-elsewhere cost. 0 of 19.",
+ "weave_or_thread": "neither"
+}

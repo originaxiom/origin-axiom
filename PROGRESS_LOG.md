@@ -18398,3 +18398,11 @@ the seventh (the mirror) was already proved. Main's own chat concession on the d
 lane's torsion '4 − 2√3' is no torsion; m003 is amphicheiral; nothing it computed earns a joint. The web seat's density
 Higgs is a proved closed form that keeps the hierarchy only through the small-cut norm. One exposure was main's own: a
 pasted seat message carried a top/bottom construction into main's context; it is counted and kept out of the record. 0 of 19.
+
+## 2026-11-05 — S303: the end is the decider (B1838)
+
+The owner agreed that the end decides the candidate. Main reproduced the web seat's sealed exact-end look on its own tree:
+the candidate's six pass only with the small-cut end and fail at the exact horoball norm, and no principled end on record
+passes them. The line-order dictionary gained its neutrino rows (Pati–Salam at order 4; the left–right pattern at order
+3). The density Higgs's post hoc reproduced. Next: judge the agy lane's zeta-regularised end, then a sealed re-read of the
+six with the end's scale free. 0 of 19.

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1541** |
-| words of findings prose | **1,296,666** |
+| research arcs with findings | **1542** |
+| words of findings prose | **1,297,446** |
 | test lock files referenced | **932** |
-| arcs carrying an authored verdict | **1541** (100.0 %) |
+| arcs carrying an authored verdict | **1542** (100.0 %) |
 | recorded closures | **858** (691 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -35,7 +35,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 |---|---|
 | PROVED | 1052 |
 | NEGATIVE | 382 |
-| OPEN | 95 |
+| OPEN | 96 |
 | RETRACTED | 12 |
 
 ## How the doors were shut
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1837`** (1603 words, 0 locks)  
+**PROVED — `B1837`** (1667 words, 0 locks)  
 THE AGY LANE'S STAGES 8-9 AND THE WEB SEAT'S DENSITY HIGGS VERIFIED: main stands on six of the lane's seven rebuttals (the seventh, the mirror, already proved) -- at one Higgs every generation's lepton/down relation and |det| move at first order in h_I, only reflected forms match (main's chat concession corrected); the torsions of m004 at omega tabled (4/sqrt3; 2, 5, 6; 6 sqrt3; 3), none 4 - 2 sqrt3; m003 amphicheiral; spectral faithfulness selects nothing under B1788's exponents; the density Higgs's closed form proved but the cut not removed (A07 bears more load); no joint earned; exposures counted and 15 ranges sealed (90); main's own exposure through a pasted message recorded (P-679). 0 of 19.  
 `B1837_agy_stages_8_9_and_the_density_higgs/FINDINGS.md`
 

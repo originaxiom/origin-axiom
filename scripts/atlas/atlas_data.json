@@ -15326,6 +15326,7 @@
   "B1835": {
    "slug": "u e and the pmns",
    "motifs": [
+    "coupling",
     "figure_eight",
     "amphichiral_cp",
     "firewall"
@@ -15335,10 +15336,11 @@
     "B343",
     "L189",
     "P10",
-    "S300"
+    "S300",
+    "S303"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 12,
+   "obstacle_conf": 13,
    "status": "banked",
    "domain": "topology"
   },
@@ -15396,12 +15398,27 @@
     "L248",
     "S300",
     "S301",
-    "S302"
+    "S302",
+    "S303"
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 6,
    "status": "banked",
    "domain": "arithmetic"
+  },
+  "B1838": {
+   "slug": "the end",
+   "motifs": [
+    "figure_eight"
+   ],
+   "refs": [
+    "S238",
+    "S303"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
   },
   "B183": {
    "slug": "open collective arrow",
