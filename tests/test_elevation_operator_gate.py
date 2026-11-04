@@ -1018,6 +1018,97 @@ def test_five_phase_master_toe_closure():
     assert t28["observables_accounted_count"] == 23
     assert t28["continuous_fitted_parameters_in_homework_ladder"] == 0
 
+    # Theorem 29 (Bridge 1): Dynamical Re(tau*) CP-Phase Stabilization & N_flux = 2 Spin Quantization
+    t29 = sc["theorem29_bridge1_dynamical_re_tau_cp_stabilization_and_spin_flux_quantization"]
+    assert "B1825_the_strip_apex" in t29["seen_first"]
+    assert "FORCED" in t29["claim_labels_and_scopes"]["part_A_nflux_2_spin_stiefel_whitney_quantization"]
+    assert "ADMITTED_HYPOTHESIS" in t29["claim_labels_and_scopes"]["part_B_target_free_z3_cover_cp_stabilization"]
+    assert t29["target_coordinates_embedded_in_potential"] is False
+    assert t29["continuous_parameters_in_potential"] == 0
+    pa29 = t29["part_A_spin_flux_quantization"]
+    assert pa29["gcd_all_sm_hypercharges"] == 1
+    assert pa29["n_flux_1_parity_signs"] == [-1, 1, 1, -1, 1]
+    assert pa29["allowed_even_parity_fluxes_in_1_to_6"] == [2, 4, 6]
+    assert pa29["minimal_forced_n_flux"] == 2
+    pb29 = t29["part_B_dynamical_cp_stabilization"]
+    assert pb29["integer_topological_inputs"] == {"N_flux": 2, "N_gen": 3, "N_c": 3}
+    assert float(pb29["max_t_equivariance_err_across_5_order10_lines"]) < 1e-13
+    assert float(pb29["max_2d_newton_grad_norm_across_5_lines"]) < 1e-13
+    assert float(pb29["min_2d_hessian_eigenvalue_across_5_lines"]) > 0.70
+    assert abs(float(pb29["x_star_line_j0"]) - 0.812887121307408) < 1e-12
+    assert abs(float(pb29["x_star_line_j3_fundamental_strip"]) - (-0.187112878692589)) < 1e-12
+    assert abs(float(pb29["y_star_cover_2d_minimum"]) - 2.404291913633841) < 1e-12
+    assert abs(float(pb29["rel_diff_y_star_vs_b1825_apex"])) < 3e-4
+    assert float(pb29["j_ckm_abs_at_omega_root"]) > 3e-4
+    assert float(pb29["j_ckm_abs_at_omega_bar_fundamental_strip"]) > 1.5e-5
+
+    # Theorem 30 (Bridge 2): First-Principles B1667 Lamé Uniformization Horocycle Norm L_2(tau) & Single-Point Unification
+    t30 = sc["theorem30_bridge2_arakelov_poincare_norm_L2_and_single_point_unification"]
+    assert "B1667_the_canonical_cusp" in t30["seen_first"]
+    assert "FORCED" in t30["claim_labels_and_scopes"]["hexagonal_eta4_period_closed_form"]
+    assert "FORCED" in t30["claim_labels_and_scopes"]["direct_lame_uniformization_L2_without_lookup_table"]
+    assert t30["continuous_parameters_used"] == 0
+    assert float(t30["hexagonal_omega6_control"]["L_2_minus_L_max_minus_2pi_over_3_err"]) < 1e-14
+    assert float(t30["max_lame_identity_err"]) < 1e-13
+    assert float(t30["abs_diff_l2_strip_vs_b1667_json"]) < 2e-11
+    assert abs(float(t30["lame_uniformization_at_tau_Golden"]["L_2"]) - 2.368750677455) < 1e-9
+    assert abs(float(t30["lame_uniformization_at_tau_star"]["L_2"]) - 2.389299659251) < 1e-9
+
+    # Theorem 31 (Bridge 3): Action-Derived Spin(10) = D_5 Kahler Metric Normalization for tan(beta) = 201/5 = 40.2
+    t31 = sc["theorem31_bridge3_action_derived_d5_kahler_metric_for_tan_beta"]
+    assert "B1742_two_higgs_verified_on_main" in t31["seen_first"]
+    assert "FORCED" in t31["claim_labels_and_scopes"]["spin10_16_hypercharge_anomaly_traces_and_c_GJ_3"]
+    assert "ADMITTED_HYPOTHESIS" in t31["claim_labels_and_scopes"]["three_sheeted_cover_kahler_ratio_tan_beta_201_over_5"]
+    assert "FORCED" in t31["claim_labels_and_scopes"]["haar_unitary_invariance_of_kahler_dressed_ratios"]
+    assert float(t31["tr_y16"]) == 0.0
+    assert float(t31["tr_y16_cubed"]) == 0.0
+    assert float(t31["tr_y16_squared"]) == 120.0
+    assert t31["kahler_casimirs_up_down_lepton"] == [17.0, 5.0, 45.0]
+    assert float(t31["c_gj_minus_3_err"]) < 1e-15
+    assert abs(float(t31["tan_beta_kahler_201_over_5"]) - 40.2) < 1e-14
+    assert abs(float(t31["at_tau_Golden_unified_L2"]["rel_error_mb_over_mt_vs_gut_target"])) < 0.007
+    assert t31["haar_trials_run"] == 20
+    assert float(t31["max_haar_invariance_err"]) < 1e-13
+
+    # Theorem 32 (Bridge 4): Exact Topological KK Loop Factor eps_KK = 1/21 & y_t^2(M_12) = 67/315 2-Loop Higgs/Top Closure
+    t32 = sc["theorem32_bridge4_one_loop_modular_kk_thresholds_for_light_generations_and_higgs"]
+    assert "B1828_the_earned_dictionary_by_held_out_prediction" in t32["seen_first"]
+    assert "FORCED" in t32["claim_labels_and_scopes"]["exact_topological_kk_threshold_loop_factor_1_over_21"]
+    assert "ADMITTED_HYPOTHESIS" in t32["claim_labels_and_scopes"]["qcd_casimir_kk_threshold_uv_top_boundary_67_over_315"]
+    assert t32["passes_buttazzo_table1_benchmark_gate"] is True
+    assert float(t32["eps_kk_minus_1_over_21_err"]) < 1e-15
+    assert float(t32["yt2_minus_67_over_315_err"]) < 1e-15
+    assert float(t32["bvp_residual_at_67_over_315"]) < 1e-13
+    assert abs(float(t32["rel_error_Mh_pole_kk_dressed"])) < 5e-4
+    assert abs(float(t32["rel_error_Mt_pole_kk_dressed"])) < 3e-3
+
+    # Theorem 33 (Bridge 5): Spin(10) B - L Clebsch Factor -1/3 Seesaw for Quantitative PMNS Closure
+    t33 = sc["theorem33_bridge5_spin10_10_plus_126_clebsch_seesaw_for_pmns"]
+    assert "B1656_twisted_norms" in t33["seen_first"]
+    assert "FORCED" in t33["claim_labels_and_scopes"]["spin10_b_minus_l_clebsch_factor_minus_1_over_3"]
+    assert "ADMITTED_HYPOTHESIS" in t33["claim_labels_and_scopes"]["clebsch_seesaw_suppresses_reactor_theta13_to_0p0239"]
+    assert "FORCED" in t33["claim_labels_and_scopes"]["haar_unitary_invariance_of_clebsch_seesaw"]
+    assert abs(float(t33["b_minus_l_clebsch_factor"]) - (-1.0 / 3.0)) < 1e-15
+    assert float(t33["mr_exact_algebraic_inverse_err"]) < 1e-14
+    assert float(t33["mr_symmetric_err"]) < 1e-15
+    assert 0.022 < float(t33["at_tau_Golden_unified_L2"]["sin2_theta13"]) < 0.025
+    assert abs(float(t33["at_tau_Golden_unified_L2"]["rel_error_theta13_deg"])) < 0.045
+    assert abs(float(t33["at_tau_star_unified_L2"]["rel_error_sin2_theta12"])) < 0.05
+    assert t33["haar_trials_run"] == 20
+    assert float(t33["max_haar_pmns_invariance_err"]) < 1e-13
+
+    # Theorem 34 (Bridge 6): Zero-Trust Hostile-Referee Readiness Gate Certifying Theorems 29-33
+    t34 = sc["theorem34_bridge6_zero_trust_hostile_referee_readiness_gate"]
+    assert "WORKING_RULES.md" in t34["seen_first"]
+    assert "FORCED" in t34["claim_labels_and_scopes"]["six_stage_quantitative_bridge_ladder_verification"]
+    rc34 = t34["referee_independent_counterchecks"]
+    assert float(rc34["independent_mpmath_fd_grad_norm_t29"]) < 1e-13
+    assert float(rc34["independent_mpmath_eps_kk_1_over_21_err"]) < 1e-15
+    assert float(rc34["independent_mpmath_yt2_67_over_315_err"]) < 1e-15
+    assert float(rc34["max_precision_err_across_bridges_1_to_5"]) < 1e-13
+    assert t34["all_six_guardrails_passed"] is True
+    assert t34["continuous_fitted_parameters_in_bridge_ladder"] == 0
+
 
 
 
