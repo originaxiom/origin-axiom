@@ -2169,3 +2169,13 @@ design is unimplemented and awaits review. The earlier eight-control
 package stays unchanged and unrun. These new analytical proofs are
 UNREVIEWED. No execution acceptance, scientific pass or foundational-input
 payment is asserted. The full physical mission remains active.
+
+The later [index successor](QUATERNION_SECTOR_INDEX_AND_WEAK_CURRENT_DUTY.md)
+derives a candidate conditional zero net index for each surviving U3
+representation in the discrete block. The bounded-end comparison retains
+all four slots and is an analytical homotopy, not a selected physical
+flavour replacement. Its old trivial-flavour countercontrol survives.
+This surviving colour/electromagnetic index does not decide weak chirality.
+Kernel multiplicities and the actual projected weak-current/Higgs vertices
+remain the physical discriminator. A fifth prospective control is sealed
+before implementation; the new proof remains UNREVIEWED.

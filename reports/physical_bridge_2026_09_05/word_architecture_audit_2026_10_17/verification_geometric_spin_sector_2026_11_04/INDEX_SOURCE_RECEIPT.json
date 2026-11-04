@@ -1,0 +1,51 @@
+{
+  "record_type": "analytical_index_successor_review_receipt",
+  "base_commit": "a77fc3aa8ad66954c6e1873ee55f2fc6f885e77c",
+  "date": "2026-11-04",
+  "status": "UNREVIEWED; fifth control unimplemented; no scientific execution",
+  "files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/QUATERNION_SECTOR_INDEX_AND_WEAK_CURRENT_DUTY.md",
+      "sha256": "11ddfae1996036673dc2bc08ec9b1ef26f92a4a91df98da379d539a529f93fc6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_geometric_spin_sector_2026_11_04/DESIGN_ADDENDUM_INDEX.md",
+      "sha256": "e816e8b8a10b09729a28af86a3b4b7b64dc06cc625e9e7841aecf49af395f6da"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_geometric_spin_sector_2026_11_04/SOURCE_RECEIPT.json",
+      "sha256": "f7107e173b60709ed3befbf0905f5e4d9c02ec8f625e5e67af9a8a40a37ee271"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CONFINED_HALF_ROOT_SECTOR_AND_SURVIVING_CONTINUUM.md",
+      "sha256": "8436811ae3529f7fa78337a428f1e9c2d8af1414860fb2512db772a20879e4c4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COMBINED_SPIN_GAUGE_DESCENT_AND_RETAINED_SECTORS.md",
+      "sha256": "b5db69555bed0bfd457d733f79b6509dcc1c3088cd6792734ffc46a7901cfc2f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/PROOF.md",
+      "sha256": "7077598f1b2f9c08bbbf54ba57f7745f5c3532cfbb9c4cf26c2f5522bc22e24b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REDUCTION_CARD_06_GEOMETRIC_SPIN_AND_SECTOR_RESOLUTION.md",
+      "sha256": "fd6f31b52d55248e0c85b6299cc2098e35b0387bf47ddc4963ad2ace0f8e4cda"
+    }
+  ],
+  "primary_reading": {
+    "url": "https://pdg.lbl.gov/2025/reviews/rpp2025-rev-standard-model.pdf",
+    "access_date": "2026-11-04",
+    "personally_read_scope": "Introduction, symmetry breaking and equations 10.2 and 10.6 with surrounding text, printed pages 1-3",
+    "use": "Distinguish electromagnetic vector coupling and weak left-handed current",
+    "numerical_predictions_used": false,
+    "whole_paper_read_claimed": false
+  },
+  "artifact_history": {
+    "prior_source_receipt": "Preserved byte-faithfully from a77fc3aa8. It describes its own seal, including the earlier card. The card gained the explicitly dated index successor afterwards; its current bytes are pinned here. No earlier proof or prospective control was edited."
+  }
+}

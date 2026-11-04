@@ -25,3 +25,30 @@ Please scrutinize the based geometric exact-sequence identification, pullback sp
 The [reduction card](../word_architecture_audit_2026_10_17/REDUCTION_CARD_06_GEOMETRIC_SPIN_AND_SECTOR_RESOLUTION.md) records the conditional price, and a separate prospective four-control design identifies the unimplemented verification duties. The old eight-control package is unchanged. No execution authorization is inferred from this relay or from review of earlier packages.
 
 The constructive next physical calculation is the charged kernel of the actual new discrete block, with both conjugates and all retained lifts, plus a same-parent physical account of the interacting centralizer continuum. The full SM3/gravity mission remains active and no foundational input is certified paid.
+
+## Index successor and an important interpretation constraint
+
+After the geometric/sector seal `a77fc3aa8`,
+[QUATERNION_SECTOR_INDEX_AND_WEAK_CURRENT_DUTY.md](../word_architecture_audit_2026_10_17/QUATERNION_SECTOR_INDEX_AND_WEAK_CURRENT_DUTY.md)
+gives a candidate exact zero-index argument for each surviving-gauge
+representation in the discrete 128 block. The actual spin/flavour bundle
+B has periodic combined cusp frame and determinant K. A smooth unitary
+determinant-preserving comparison B -> O plus K can be fixed there with
+bounded induced connection difference. The full source index becomes
+chi(V tensor B)-chi(V)-chi(V tensor K)=0 along a Fredholm homotopy.
+This is an analytical comparison, not a holomorphic splitting, changed
+physical flat flavour field or path of stationary vacua.
+
+The old trivial-flavour cusp does not admit that bounded-end comparison;
+its already-derived beta=1 physical index +1 is retained as a countercontrol.
+The proof and a fifth prospective control are new UNREVIEWED scope.
+
+Crucially the surviving group here is colour/electromagnetic U3. A zero
+index in its representations cannot decide the Standard Model's weak
+left/right asymmetry. PDG equations 10.2 and 10.6 display the separate
+vector photon and left-handed weak currents. The physical successor must
+derive the charged spectrum and projected weak-current/Higgs vertices
+from this same parent. Please review that interpretation along with the
+bounded-end and full-domain index argument before drawing a chirality
+verdict. No finite kernel count, physical three or parameter prediction
+is asserted.

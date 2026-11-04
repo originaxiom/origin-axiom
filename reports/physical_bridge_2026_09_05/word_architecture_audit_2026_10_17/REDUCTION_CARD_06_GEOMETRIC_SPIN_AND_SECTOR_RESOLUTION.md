@@ -33,3 +33,19 @@ The full SM3/gravity mission remains active. Zero foundational-input rows and ze
 2. Seal source-complete controls for the physical mass-map covariance and the full 128 coercivity calculation, using the existing definitions. Admit scientific execution only after the prospective gate and main's exact acceptance.
 3. Compute finite charged kernels in the now-discrete block using the actual new bundle and complete domain. Keep both conjugates, every lift choice and non-Abelian interactions.
 4. Derive a physical end or dynamical account for the surviving continuum in that same parent, or test a differently generated carrier with all its changed dependencies visible. A compact cutoff or unselected cap is not itself a derivation.
+
+## Index successor after the geometric/sector seal
+
+The [new index proof](QUATERNION_SECTOR_INDEX_AND_WEAK_CURRENT_DUTY.md)
+derives a candidate conditional zero for the net index of each surviving
+gauge representation in the discrete block. It uses a bounded-end smooth
+bundle comparison and the actual four physical slots. It does not replace
+the supplied flavour bundle physically or assert that the kernels vanish.
+This is a new analytical result awaiting review and a separately designed
+fifth control.
+
+The group in this branch is colour/electromagnetic U3. Its net index is
+not the weak-current chirality of an unbroken-SM phase. The next spectrum
+calculation must retain the actual weak vector profiles and normalized
+left/right vertices, as well as Higgs masses and the continuum. No input
+or observed parameter is certified paid by the auxiliary index comparison.
