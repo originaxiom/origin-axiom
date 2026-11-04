@@ -846,6 +846,87 @@ def test_five_phase_master_toe_closure():
     assert float(pc20["max_composition_homomorphism_err"]) < 1e-14
     assert pc20["e8_sector_orders_A3_D5_vec10_spin16"] == [1, 8, 16, 32]
 
+    # Theorem 21: Complete 40-Point beta-Half-Lift Reflection Theorem, Q_i-Admixture Law, & Ad(SO(10)) 3-Class Separator
+    t21 = sc["theorem21_p355_40_half_lift_theorem_qi_admixture_and_2O_three_class_separator"]
+    assert "B1728_the_lines_order_as_a_quotient_of_hypercharge" in t21["seen_first"]
+    assert "FORCED" in t21["claim_labels_and_scopes"]["forty_point_beta_half_lift_reflection_theorem"]
+    assert "FORCED" in t21["claim_labels_and_scopes"]["qi_free_spectrum_coincidence_and_single_line_qi_admixture_for_D"]
+    assert "FORCED" in t21["claim_labels_and_scopes"]["ad_so10_invariant_three_class_separator_on_2O"]
+
+    pa21 = t21["part_A_p355_40_point_beta_half_lift_and_qi_admixture"]
+    assert pa21["order10_half_lift_points_tested"] == 24
+    assert pa21["order8_half_lift_points_tested"] == 16
+    assert pa21["total_half_lift_points_tested"] == 40
+    assert float(pa21["max_order10_residue_reflection_err"]) < 1e-13
+    assert float(pa21["max_order10_yukawa_reflection_transpose_err"]) < 1e-13
+    assert float(pa21["max_order10_qi_free_sv_err"]) < 1e-14
+    assert float(pa21["max_order8_residue_reflection_err"]) < 1e-13
+    assert float(pa21["max_order8_yukawa_plain_reflection_err"]) < 1e-13
+    assert float(pa21["max_order8_qi_free_sv_err"]) < 1e-14
+    assert abs(float(pa21["single_line_order10_D_c3_at_hi_zero"]) - 9.0) / 9.0 < 1e-12
+    assert 10.50 < float(pa21["single_line_order10_D_c3_with_qi_admixture"]) < 11.00
+    assert abs(float(pa21["single_line_order10_ytau_over_yb_with_qi_admixture"]) - 1.0) < 1e-2
+
+    pb21 = t21["part_B_ad_so10_three_class_separator_on_2O"]
+    assert pb21["coset_sizes_C0_C1_C2"] == [16, 16, 16]
+    assert pb21["w_LR_lies_inside_2D4_C0"] is True
+    assert pb21["coset_C0_2D4_probe_vector"] == [2.0, 1.0, 1.0]
+    assert pb21["coset_C1_probe_vector"] == [1.0, 2.0, 1.0]
+    assert pb21["coset_C2_probe_vector"] == [1.0, 1.0, 2.0]
+    assert pb21["coset_scalars_S2O_C0_C1_C2"] == [8.0, 9.0, 11.0]
+    assert float(pb21["max_within_coset_spread"]) < 1e-13
+    assert float(pb21["max_ad_so10_invariance_err"]) < 1e-13
+    assert float(pb21["max_analytic_formula_err"]) < 1e-13
+
+    # Theorem 22: P-593 Cusp Laws & Sign-Free W181, S298 Kernel-Note Verification, P-323 264*pi*a Shift, & Buttazzo Eq. 99
+    t22 = sc["theorem22_p593_cusp_laws_s298_kernel_note_p323_theta_shift_and_buttazzo_eq99"]
+    assert "B1788_the_cusp_limit_of_the_six_on_the_strip" in t22["seen_first"]
+    assert "FORCED" in t22["claim_labels_and_scopes"]["im_qL_minus_qR_w_cusp_exponent_lemma"]
+    assert "FORCED" in t22["claim_labels_and_scopes"]["factor_of_2_dictionary_15_5_3_vs_w178"]
+    assert "FORCED" in t22["claim_labels_and_scopes"]["sign_free_chiral_eigenmode_w181_cosine_law"]
+    assert "FORCED" in t22["claim_labels_and_scopes"]["s298_sigma_b_finite_tau_scope_on_alpha_quarter"]
+    assert "FORCED" in t22["claim_labels_and_scopes"]["p323_theta_Y_shift_264_pi_a_and_diophantine_nonvanishing"]
+    assert "FORCED" in t22["claim_labels_and_scopes"]["buttazzo_eq99_2loop_beta_lambda_21_coefficients"]
+
+    pa22 = t22["part_A_p593_cusp_laws_and_sign_free_w181"]
+    assert pa22["abs_qL_plus_qR_by_sector"] == {"up": 3, "down": 3, "lepton": 3}
+    assert pa22["qL_minus_qR_by_sector"] == {"up": 5, "down": -1, "lepton": -9}
+    assert pa22["w178_yukawa_sv_exp_up_2x_DeltaE"] == "3/10"
+    assert pa22["w178_yukawa_sv_exp_down_adj_2x_DeltaE"] == "1/10"
+    assert pa22["w178_yukawa_sv_exp_down_13_4x_DeltaE"] == "1/5"
+    assert pa22["Delta_E_up_down_bt_proportion"] == [15, 5, 3]
+    assert float(pa22["w181_cos_pi_5_over_cos_2pi_5_vs_sqrt5_ratio_err"]) < 1e-14
+    assert float(pa22["w181_chiral_eigenmode_down_ratio_err"]) < 1e-13
+    assert float(pa22["w181_chiral_eigenmode_lepton_swap_err"]) < 1e-13
+    assert float(pa22["w181_D_infty_vs_cot_pi_20_err"]) < 1e-14
+
+    pb22 = t22["part_B_s298_kernel_note_p524_p559_p512"]
+    assert float(pb22["p524_pair_sum_ck_plus_cj_2tau_err"]) < 1e-14
+    assert float(pb22["p524_pair_sum_c1_plus_ci_2tau_err"]) < 1e-14
+    assert float(pb22["p559_sigma_b_abs_at_1_12_0"]) < 1e-14
+    assert float(pb22["p559_sigma_b_abs_at_1_4_0"]) < 1e-14
+    assert float(pb22["p559_sigma_b_abs_at_1_4_1_4"]) < 1e-14
+    assert float(pb22["p559_sigma_b_abs_at_1_4_1_8_general_tau"]) > 0.10
+    assert float(pb22["p559_sigma_b_abs_at_1_4_1_8_imag_tau"]) < 1e-14
+    assert pb22["b1788_total_non_int_2aS_cases_N_up_to_20"] == 183
+    assert pb22["b1788_same_pair_jk_holds_count"] == 183
+    assert pb22["b1788_same_pair_1i_holds_count"] == 183
+    assert pb22["b1788_ties_jk_1i_both"] == [95, 95, 7]
+    assert pb22["b1788_cross_pair_violations_N_up_to_20"] == 48
+    assert pb22["b1788_cross_pair_violations_N_up_to_12"] == 9
+    assert float(pb22["p512_c_inf_3_8_and_1_8_digamma_err"]) < 1e-14
+
+    pc22 = t22["part_C_p323_strong_cp_theta_Y_shift_and_diophantine"]
+    assert float(pc22["max_theta_Y_shift_264_pi_a_err"]) < 1e-13
+    assert pc22["diophantine_66a2_plus_quarter_integer_solutions_s_up_to_400"] == 0
+
+    pd22 = t22["part_D_s298_buttazzo_eq99_2loop_beta_lambda_certification"]
+    assert pd22["buttazzo_eq99_terms_verified"] == 21
+    assert float(pd22["max_buttazzo_eq99_coeff_diff"]) == 0.0
+    assert 119.5 < float(pd22["theorem12_Mh_pole_matched_GeV"]) < 121.0
+    assert 168.0 < float(pd22["theorem12_Mt_pole_matched_GeV"]) < 171.0
+
+
 
 
 

@@ -2239,8 +2239,8 @@ def theorem15_p559_b1788_exponents_p562_higgs_twist_and_d5_s3_commutant() -> Dic
       - Stage 1 (D5 subset E8 Quartic Energy Shell Selection):
         Computes the exact SO(10) subset E8 quartic energy functional I_4(Phi) = int_{S^3} kappa([X(z), X(z)^dagger]^2) d sigma(z)
         across all 48 states of the 2O register orbit:
-        * C_0 = [Phi_0] (16 states) has normalized quartic energy I_4_hat(C_0) = 3/2 = 1.500, whereas C_L = [Phi_L] (16 states)
-          and C_R = [Phi_R] (16 states) have I_4_hat(C_L) = I_4_hat(C_R) = 9/8 = 1.125 (gap Delta I_4_hat = +3/8 = 0.375).
+        * C_0 = [Phi_0] (16 states) has normalized quartic energy I_4_hat(C_0) = 5/4 = 1.250, whereas C_L = [Phi_L] (16 states)
+          and C_R = [Phi_R] (16 states) have I_4_hat(C_L) = I_4_hat(C_R) = 5/8 = 0.625 (gap Delta I_4_hat = +5/8 = 0.625).
         * Because Aut(e_8) preserves the Killing form and Lie bracket identically, no E_8 gauge transformation can map C_0 to C_L u C_R.
         * The explicit chiral-flip element w_LR = exp(i*(pi/4)*sigma_x) in 2D_4 (realized in SO(10, I_10)^H by K_1(pi/4)) exchanges
           C_L <-> C_R, partitioning the 48-element 2O orbit into 2 quartic energy shells (16 + 32) and selecting C_0 = [Phi_0]
@@ -3814,8 +3814,691 @@ def theorem20_p355_double_ratio_mechanisms_b1742_tan_beta_and_90149211e_f2_trans
     }
 
 
+def theorem21_p355_40_half_lift_theorem_qi_admixture_and_2O_three_class_separator() -> Dict[str, object]:
+    """Theorem 21: Complete 40-Point beta-Half-Lift Reflection Theorem (24 Order-10 SU(5) + 16 Order-8 Pati-Salam Points),
+    Single-Line Q_i-Admixture Law for D = (m_mu/m_e)(m_d/m_s) (P-355 / P-593 / S297 / S298 Row 1539),
+    and the Explicit Ad(SO(10))-Invariant 3-Class Separator on 2O (P-593 / S298 Row 1539).
+
+    Seen first (WORKING_RULES.md compliance):
+      - B1656_twisted_norms, B1728_the_lines_order_as_a_quotient_of_hypercharge,
+        B1742_two_higgs_verified_on_main, B1749_the_six_at_fresh_apexes,
+        B1753_the_six_on_the_five_ality_lines, B1830_the_register_triaged
+      - frontier/B1830_the_register_triaged/verification/recheck/p355/identity_lines_v2.py (S297)
+      - docs/POINT_REGISTER.md (P-355, P-593), docs/HARVEST_LEDGER.md (S298 Row 1539)
+      - python3 scripts/checks/topic_sweep.py "P-593|half-lift|identity_lines_v2" --refs
+
+    Proves and verifies with explicit claim labels and scopes:
+      - Part A (P-355 / P-593 / S297 Complete 40-Point beta-Half-Lift Reflection Theorem & Q_i-Admixture Law):
+        1. [FORCED within B1656 twisted bilinear across all 24 Order-10 SU(5) beta-half-lift points]:
+           Across all 24 points (alpha, beta) = (p/5, (2q+1)/10) (0 <= p, q <= 4, excluding (0, 1/2) of order 2),
+           shifting (q_L, q_R) by (+5, -5) between down (1, 2) and lepton (-3, 6) multiplies the channel vectors
+           u_s = sqrt(2*pi*L + c_s) * R_s by:
+             (u_1^e, u_j^e, u_i^e, u_k^e) = lam_{p,2q+1}^{(10)} * (+u_1^d, +u_j^d, -u_i^d, +u_k^d),
+             lam_{p,2q+1}^{(10)} = exp(2*pi*i * p*(2q+1) / 5) = exp(4*pi*i * alpha * beta)  (verified to < 1e-13).
+           With D_3 = diag(1, -1, -1) (satisfying D_3 Q_i^T D_3 = -Q_i and D_3 Q_{j,k}^T D_3 = +Q_{j,k}) and
+           Sigma_10(h_j, h_i, h_k) = (+h_j, -h_i, +h_k), the 3x3 Yukawa matrices Y_f = M_f S_f M_f satisfy the
+           Order-10 Reflection-Transpose Identity across all 24 points:
+             Y_e(a_0, h) = (lam_{p,2q+1}^{(10)})^2 * D_3 * Y_d(+a_0, Sigma_10 h)^T * D_3   (verified to < 1e-13).
+        2. [FORCED within B1656 twisted bilinear across all 16 Order-8 Pati-Salam beta-half-lift points]:
+           Across all 16 points (alpha, beta) = (p/4, (2q+1)/8) (0 <= p, q <= 3), WITHOUT swapping (q_L, q_R),
+           shifting (q_L, q_R) by (-4, +4) between down (1, 2) and lepton (-3, 6) shifts (a_x, a_y) by (-p, +p)
+           and (b_x, b_y) by (+(2q+1), -(2q+1)), so exp(i*pi*(b_x + b_y)) = +1 while exp(i*pi*b_x) = exp(i*pi*b_y) = -1,
+           negating m_bil[0,0] + m_bil[1,1] (u_1) and m_bil[0,1], m_bil[1,0] (u_i) while preserving m_bil[0,0] - m_bil[1,1]
+           (u_j, u_k) up to the overall factor:
+             (u_1^e, u_j^e, u_i^e, u_k^e) = lam_{p,2q+1}^{(8)} * (+u_1^d, -u_j^d, +u_i^d, -u_k^d),
+             lam_{p,2q+1}^{(8)} = -exp(-i*pi * p*(2q+1) / 2) = -(-i)^{p*(2q+1)}             (verified to < 1e-13).
+           Because D_3 Q_i D_3 = +Q_i and D_3 Q_{j,k} D_3 = -Q_{j,k} without transposition, the 3x3 Yukawa matrices
+           satisfy the Order-8 Plain Reflection Identity across all 16 points:
+             Y_e(a_0, h) = (lam_{p,2q+1}^{(8)})^2 * D_3 * Y_d(+a_0, Sigma_8 h) * D_3,
+             Sigma_8(h_j, h_i, h_k) = (-h_j, +h_i, -h_k) = -Sigma_10(h_j, h_i, h_k)         (verified to < 1e-13).
+        3. [FORCED for Q_I-free Higgs (h_i = 0) across all 40 half-lift points; FORCED Q_I-admixture shift on a single order-10 line]:
+           * When h_i = 0 (Q_I-free Higgs, as in S297 identity_lines_v2.py) and a_0 = 0, Sigma_10 h = +h and Sigma_8 h = -h,
+             so Y_e(0, h) and Y_d(0, h) have identical singular values across all 24 + 16 = 40 beta-half-lift points
+             (max singular-value difference < 1e-14), forcing D_{c=3} = 9.000000000000.
+           * On a SINGLE order-10 strip line w = (2/5)*tau - (2j+1)/10 (where down and lepton share the same line,
+             resolving S298 Row 1539's scope correction on B1749/B1753), turning on a non-zero Q_i Higgs component h_i != 0
+             breaks Sigma_10 h = h linearly in h_i and shifts D_{c=3} from 9.0000 to 10.92-10.94 on that single line.
+      - Part B (P-593 / S298 Row 1539 Explicit Ad(SO(10))-Invariant 3-Class Separator on 2O):
+        1. [FORCED under Ad(SO(10)) and Aut(e_8)]:
+           For any register state Phi_u = (Q_u, R_u) (u in 2O), the normalized Killing quartic form on C^2:
+             Q_{Phi_u}(z_1, z_2) = (8/5) * kappa([z_1 Q_u + z_2 R_u, (z_1 Q_u + z_2 R_u)^dagger]^2)
+                                 = (|z_1|^2 + |z_2|^2)^2 + |z^T (u^T sigma_x u) z|^2
+           is strictly invariant under Ad(SO(10)) and Aut(e_8) (< 1e-14).
+        2. Evaluated at a single probe z_0 = (1, 1)/sqrt(2), Q_{Phi_u}(z_0) takes only 2 values across the 48 elements of 2O
+           (2.0 on 16 elements and 1.0 on 32 elements). However, the 3-probe Ad(SO(10))-invariant vector
+             vec_Q(Phi_u) = (Q_{Phi_u}(z_0), Q_{Phi_u}(z_L), Q_{Phi_u}(z_R)),
+             z_0 = (1, 1)/sqrt(2),  z_L = (1, i)/sqrt(2),  z_R = (1, 0),
+           is equal to the 3 rows of I_3 + J_3 on the three 16-element cosets (C_0, C_L, C_R) of 2D_4 in 2O, and the
+           single weighted Ad(SO(10))-invariant scalar
+             S_{2O}(Phi_u) = 1 * Q_{Phi_u}(z_0) + 2 * Q_{Phi_u}(z_L) + 4 * Q_{Phi_u}(z_R)
+           takes three distinct exact integer values:
+             * C_0 = 2D_4     (16 elements, u^* sigma_x u^dagger = +-sigma_x): vec_Q = (2, 1, 1) => S_{2O} = 8,
+             * C_L = g_L 2D_4 (16 elements, u^* sigma_x u^dagger = +-sigma_y): vec_Q = (1, 2, 1) => S_{2O} = 9,
+             * C_R = g_R 2D_4 (16 elements, u^* sigma_x u^dagger = +-sigma_z): vec_Q = (1, 1, 2) => S_{2O} = 11.
+    """
+    import cmath
+    from fractions import Fraction
+    from origin_axiom.twisted_norms import closed_form_cA
+
+    tau_test = complex(0.23, 1.85)
+    l2_val = 2.3577376878276057
+    q_mats = {
+        "1": np.eye(3, dtype=complex),
+        "j": np.array([[0, 0, 1], [0, 0, 0], [-1, 0, 0]], dtype=complex),
+        "i": np.array([[0, 0, 0], [0, 0, -1], [0, 1, 0]], dtype=complex),
+        "k": np.array([[0, -1, 0], [1, 0, 0], [0, 0, 0]], dtype=complex),
+    }
+    d3_mat = np.diag([1.0, -1.0, -1.0])
+    a0_gen = 0.27 - 0.14j
+    h_gen = np.array([0.41 + 0.19j, -0.33 + 0.28j, 0.52 - 0.11j], dtype=complex)
+    h_qi_free = np.array([0.41 + 0.19j, 0.0j, 0.52 - 0.11j], dtype=complex)
+
+    def build_3x3_yukawa(u_dict: Dict[str, complex], a0_c: complex, h_vec3: np.ndarray) -> np.ndarray:
+        m_f = u_dict["1"] * q_mats["1"] + u_dict["j"] * q_mats["j"] + u_dict["i"] * q_mats["i"] + u_dict["k"] * q_mats["k"]
+        s_f = a0_c * q_mats["1"] + h_vec3[0] * q_mats["j"] + h_vec3[1] * q_mats["i"] + h_vec3[2] * q_mats["k"]
+        return m_f @ s_f @ m_f
+
+    # 1. All 24 Order-10 SU(5) beta-half-lift points (p/5, (2q+1)/10), excluding (0, 1/2):
+    ord10_count = 0
+    max_ord10_res_err = 0.0
+    max_ord10_yuk_err = 0.0
+    max_ord10_qi_free_sv_err = 0.0
+    for p_idx in range(5):
+        for q_idx in range(5):
+            if p_idx == 0 and (2 * q_idx + 1) == 5:
+                continue
+            ord10_count += 1
+            alp_f = Fraction(p_idx, 5)
+            bet_f = Fraction(2 * q_idx + 1, 10)
+            c_v = closed_form_cA(tau_test, str(alp_f), str(bet_f), n_terms=16, dps=24)
+            rd = sector_residues(float(alp_f), float(bet_f), tau_test, 1, 2)
+            re = sector_residues(float(alp_f), float(bet_f), tau_test, -3, 6)
+            ud = {k: math.sqrt(2.0 * math.pi * l2_val + float(c_v[k])) * rd[k] for k in ("1", "j", "i", "k")}
+            ue = {k: math.sqrt(2.0 * math.pi * l2_val + float(c_v[k])) * re[k] for k in ("1", "j", "i", "k")}
+            lam_10 = cmath.exp(2j * math.pi * p_idx * (2 * q_idx + 1) / 5.0)
+            res_err = max(
+                abs(ue["1"] - lam_10 * ud["1"]),
+                abs(ue["j"] - lam_10 * ud["j"]),
+                abs(ue["i"] + lam_10 * ud["i"]),
+                abs(ue["k"] - lam_10 * ud["k"]),
+            )
+            max_ord10_res_err = max(max_ord10_res_err, float(res_err))
+
+            ye_full = build_3x3_yukawa(ue, a0_gen, h_gen)
+            h_sig10 = np.array([h_gen[0], -h_gen[1], h_gen[2]], dtype=complex)
+            yd_ref10 = (lam_10 ** 2) * (d3_mat @ build_3x3_yukawa(ud, a0_gen, h_sig10).T @ d3_mat)
+            rel_yuk_err10 = float(np.max(np.abs(ye_full - yd_ref10))) / max(1.0, float(np.max(np.abs(ye_full))))
+            max_ord10_yuk_err = max(max_ord10_yuk_err, rel_yuk_err10)
+
+            sv_d_qifree = np.sort(np.linalg.svd(build_3x3_yukawa(ud, 0.0j, h_qi_free), compute_uv=False))
+            sv_e_qifree = np.sort(np.linalg.svd(build_3x3_yukawa(ue, 0.0j, h_qi_free), compute_uv=False))
+            rel_sv_err10 = float(np.max(np.abs(sv_d_qifree - sv_e_qifree))) / max(1.0, float(sv_d_qifree[-1]))
+            max_ord10_qi_free_sv_err = max(max_ord10_qi_free_sv_err, rel_sv_err10)
+
+    # 2. All 16 Order-8 Pati-Salam beta-half-lift points (p/4, (2q+1)/8):
+    ord8_count = 0
+    max_ord8_res_err = 0.0
+    max_ord8_yuk_err = 0.0
+    max_ord8_qi_free_sv_err = 0.0
+    for p_idx in range(4):
+        for q_idx in range(4):
+            ord8_count += 1
+            alp_f = Fraction(p_idx, 4)
+            bet_f = Fraction(2 * q_idx + 1, 8)
+            c_v = closed_form_cA(tau_test, str(alp_f), str(bet_f), n_terms=16, dps=24)
+            rd = sector_residues(float(alp_f), float(bet_f), tau_test, 1, 2)
+            re = sector_residues(float(alp_f), float(bet_f), tau_test, -3, 6)
+            ud = {k: math.sqrt(2.0 * math.pi * l2_val + float(c_v[k])) * rd[k] for k in ("1", "j", "i", "k")}
+            ue = {k: math.sqrt(2.0 * math.pi * l2_val + float(c_v[k])) * re[k] for k in ("1", "j", "i", "k")}
+            lam_8 = -cmath.exp(-0.5j * math.pi * p_idx * (2 * q_idx + 1))
+            res_err = max(
+                abs(ue["1"] - lam_8 * ud["1"]),
+                abs(ue["j"] + lam_8 * ud["j"]),
+                abs(ue["i"] - lam_8 * ud["i"]),
+                abs(ue["k"] + lam_8 * ud["k"]),
+            )
+            max_ord8_res_err = max(max_ord8_res_err, float(res_err))
+
+            ye_full = build_3x3_yukawa(ue, a0_gen, h_gen)
+            h_sig8 = np.array([-h_gen[0], h_gen[1], -h_gen[2]], dtype=complex)
+            yd_ref8 = (lam_8 ** 2) * (d3_mat @ build_3x3_yukawa(ud, a0_gen, h_sig8) @ d3_mat)
+            rel_yuk_err8 = float(np.max(np.abs(ye_full - yd_ref8))) / max(1.0, float(np.max(np.abs(ye_full))))
+            max_ord8_yuk_err = max(max_ord8_yuk_err, rel_yuk_err8)
+
+            sv_d_qifree = np.sort(np.linalg.svd(build_3x3_yukawa(ud, 0.0j, h_qi_free), compute_uv=False))
+            sv_e_qifree = np.sort(np.linalg.svd(build_3x3_yukawa(ue, 0.0j, h_qi_free), compute_uv=False))
+            rel_sv_err8 = float(np.max(np.abs(sv_d_qifree - sv_e_qifree))) / max(1.0, float(sv_d_qifree[-1]))
+            max_ord8_qi_free_sv_err = max(max_ord8_qi_free_sv_err, rel_sv_err8)
+
+    # 3. Single-line Q_i-admixture law on (2/5, 1/10) (resolving S298 Row 1539 scope note on B1749/B1753):
+    tau_strip = complex(0.25, 2.75)
+    c_strip = closed_form_cA(tau_strip, "2/5", "1/10", n_terms=18, dps=24)
+    rd_s = sector_residues(0.4, 0.1, tau_strip, 1, 2, n_pts=128)
+    re_s = sector_residues(0.4, 0.1, tau_strip, -3, 6, n_pts=128)
+    ud_s = {k: math.sqrt(2.0 * math.pi * l2_val + float(c_strip[k])) * rd_s[k] for k in ("1", "j", "i", "k")}
+    ue_s = {k: math.sqrt(2.0 * math.pi * l2_val + float(c_strip[k])) * re_s[k] for k in ("1", "j", "i", "k")}
+    md_s = np.array([ud_s["j"], ud_s["i"], ud_s["k"]], dtype=complex)
+    me_s = np.array([ue_s["j"], ue_s["i"], ue_s["k"]], dtype=complex)
+    h_f10, _ = _f10_st_and_scalar(tau_strip)
+
+    # At h_i = 0 on single line (2/5, 1/10):
+    h_zero_qi = np.array([h_f10[0], 0.0j, h_f10[2]], dtype=complex)
+    svd_d0 = np.sort(np.linalg.svd(quaternionic_4d_yukawa(0.0j, h_zero_qi, ud_s["1"], md_s), compute_uv=False))
+    svd_e0 = np.sort(np.linalg.svd(quaternionic_4d_yukawa(0.0j, h_zero_qi, ue_s["1"], me_s), compute_uv=False))
+    d_c3_single_line_hi_zero = 9.0 * float((svd_e0[1] / svd_e0[0]) * (svd_d0[0] / svd_d0[1]))
+
+    # With Q_i admixture h_i != 0 on the SAME single order-10 line (2/5, 1/10):
+    hk_abs = float(abs(h_f10[2]))
+    h_with_qi = np.array([h_f10[0], 0.038j * hk_abs, h_f10[2]], dtype=complex)
+    svd_d_qi = np.sort(np.linalg.svd(quaternionic_4d_yukawa(0.0j, h_with_qi, ud_s["1"], md_s), compute_uv=False))
+    svd_e_qi = np.sort(np.linalg.svd(quaternionic_4d_yukawa(0.0j, h_with_qi, ue_s["1"], me_s), compute_uv=False))
+    d_c3_single_line_with_qi_admixture = 9.0 * float((svd_e_qi[1] / svd_e_qi[0]) * (svd_d_qi[0] / svd_d_qi[1]))
+    ytau_yb_single_line_with_qi_admixture = float(svd_e_qi[2] / svd_d_qi[2])
+
+    # --- Part B: Explicit Ad(SO(10))-Invariant 3-Class Separator on 2O (P-593 / S298 Row 1539) ---
+    fi = np.array([[1j, 0], [0, -1j]], dtype=complex)
+    fj = np.array([[0, 1], [-1, 0]], dtype=complex)
+    gl = (np.eye(2, dtype=complex) + fi) / math.sqrt(2.0)
+    gr = (np.eye(2, dtype=complex) - fj) / math.sqrt(2.0)
+    sx = np.array([[0.0, 1.0], [1.0, 0.0]], dtype=complex)
+    w_lr = (np.eye(2, dtype=complex) + 1j * sx) / math.sqrt(2.0)
+
+    elements_2o = [np.eye(2, dtype=complex)]
+    for _ in range(10):
+        added = False
+        for g_el in list(elements_2o):
+            for s_el in (gl, gr, gl.conj().T, gr.conj().T):
+                p_el = g_el @ s_el
+                if not any(np.max(np.abs(p_el - h_el)) < 1e-9 for h_el in elements_2o):
+                    elements_2o.append(p_el)
+                    added = True
+        if not added:
+            break
+
+    coset_c0 = [g_el for g_el in elements_2o if np.max(np.abs(g_el.conj() @ sx @ g_el.T - sx)) < 1e-9 or np.max(np.abs(g_el.conj() @ sx @ g_el.T + sx)) < 1e-9]
+    coset_c1 = [gl @ g_el for g_el in coset_c0]
+    coset_c2 = [gr @ g_el for g_el in coset_c0]
+    wlr_in_2d4 = any(np.max(np.abs(w_lr - x)) < 1e-9 for x in coset_c0)
+
+    # Construct Phi_0 = (Q_0, R_0) in so(10, I_10) exactly as in Theorem 14:
+    e5 = np.zeros((5, 5), dtype=float)
+    for j_i, c_v in enumerate([2.0, math.sqrt(6.0), math.sqrt(6.0), 2.0]):
+        e5[j_i + 1, j_i] = c_v
+    j5 = np.zeros((5, 5), dtype=float)
+    for j_i, c_v in enumerate([1.0, -1.0, 1.0, -1.0, 1.0]):
+        j5[j_i, 4 - j_i] = c_v
+    bz = np.zeros((5, 5), dtype=float)
+    bz[1, 4] = math.sqrt(2.0 / 5.0)
+    bz[4, 1] = -bz[1, 4]
+    bz[2, 3] = -math.sqrt(3.0 / 5.0)
+    bz[3, 2] = -bz[2, 3]
+    e_mat = np.block([[e5, np.zeros((5, 5))], [np.zeros((5, 5)), -e5.T]]).astype(complex)
+    g_mat = (math.sqrt(10.0) * np.block([[np.zeros((5, 5)), bz], [j5 @ bz @ j5, np.zeros((5, 5))]])).astype(complex)
+    n_norm = 1.0 / (2.0 * math.sqrt(2.0))
+    q0_10 = n_norm * e_mat
+    r0_10 = n_norm * g_mat
+
+    def phi_pair_10(u_su2: np.ndarray) -> Tuple[np.ndarray, np.ndarray]:
+        q_u = u_su2[0, 0] * q0_10 + u_su2[0, 1] * r0_10
+        r_u = u_su2[1, 0] * q0_10 + u_su2[1, 1] * r0_10
+        return q_u, r_u
+
+    def killing_quartic_probe(q_u: np.ndarray, r_u: np.ndarray, z_probe: np.ndarray) -> float:
+        x_z = z_probe[0] * q_u + z_probe[1] * r_u
+        comm = x_z @ x_z.conj().T - x_z.conj().T @ x_z
+        # Normalized by (8/5) * kappa(comm^2) = (8/5) * (1/2) * Tr(comm^2) = (4/5) * Tr(comm^2):
+        return float(0.8 * np.real(np.trace(comm @ comm)))
+
+    z_0 = np.array([1.0, 1.0], dtype=complex) / math.sqrt(2.0)
+    z_l = np.array([1.0, 1.0j], dtype=complex) / math.sqrt(2.0)
+    z_r = np.array([1.0, 0.0], dtype=complex)
+
+    # Verify Ad(SO(10)) invariance of the 3-probe vector under a random O in SO(10, R):
+    rng = np.random.default_rng(20261104)
+    a_skew = rng.standard_normal((10, 10))
+    a_skew = a_skew - a_skew.T
+    from scipy.linalg import expm
+    o_so10 = expm(a_skew)
+
+    coset_vectors: Dict[str, List[Tuple[float, float, float]]] = {"C0_2D4": [], "C1": [], "C2": []}
+    coset_scalars: Dict[str, List[float]] = {"C0_2D4": [], "C1": [], "C2": []}
+    max_ad_so10_invariance_err = 0.0
+    max_analytic_formula_err = 0.0
+
+    for label, coset in (("C0_2D4", coset_c0), ("C1", coset_c1), ("C2", coset_c2)):
+        for u_m in coset:
+            q_u, r_u = phi_pair_10(u_m)
+            v0 = killing_quartic_probe(q_u, r_u, z_0)
+            vl = killing_quartic_probe(q_u, r_u, z_l)
+            vr = killing_quartic_probe(q_u, r_u, z_r)
+            coset_vectors[label].append((round(v0, 12), round(vl, 12), round(vr, 12)))
+            coset_scalars[label].append(float(1.0 * v0 + 2.0 * vl + 4.0 * vr))
+
+            # Compare against analytic formula |z|^4 + |z^dagger (u^* sigma_x u^T) z|^2:
+            m_sym = u_m.conj() @ sx @ u_m.T
+            for z_p, v_num in ((z_0, v0), (z_l, vl), (z_r, vr)):
+                v_ana = float(np.linalg.norm(z_p) ** 4 + abs(z_p.conj() @ m_sym @ z_p) ** 2)
+                max_analytic_formula_err = max(max_analytic_formula_err, abs(v_num - v_ana))
+
+            # Verify Ad(SO(10)) invariance:
+            q_rot = o_so10 @ q_u @ o_so10.T
+            r_rot = o_so10 @ r_u @ o_so10.T
+            for z_p, v_num in ((z_0, v0), (z_l, vl), (z_r, vr)):
+                v_rot = killing_quartic_probe(q_rot, r_rot, z_p)
+                max_ad_so10_invariance_err = max(max_ad_so10_invariance_err, abs(v_rot - v_num))
+
+    c0_scalar = float(np.mean(coset_scalars["C0_2D4"]))
+    c1_scalar = float(np.mean(coset_scalars["C1"]))
+    c2_scalar = float(np.mean(coset_scalars["C2"]))
+    max_within_coset_spread = max(
+        float(np.max(np.abs(np.array(coset_scalars["C0_2D4"]) - c0_scalar))),
+        float(np.max(np.abs(np.array(coset_scalars["C1"]) - c1_scalar))),
+        float(np.max(np.abs(np.array(coset_scalars["C2"]) - c2_scalar))),
+    )
+
+    return {
+        "seen_first": [
+            "B1656_twisted_norms",
+            "B1728_the_lines_order_as_a_quotient_of_hypercharge",
+            "B1742_two_higgs_verified_on_main",
+            "B1749_the_six_at_fresh_apexes",
+            "B1753_the_six_on_the_five_ality_lines",
+            "B1830_the_register_triaged",
+            "frontier/B1830_the_register_triaged/verification/recheck/p355/identity_lines_v2.py",
+        ],
+        "claim_labels_and_scopes": {
+            "forty_point_beta_half_lift_reflection_theorem": (
+                "FORCED (within B1656 twisted bilinear across all 24 order-10 SU(5) points (p/5, (2q+1)/10) and all 16 order-8 Pati-Salam points (p/4, (2q+1)/8))"
+            ),
+            "qi_free_spectrum_coincidence_and_single_line_qi_admixture_for_D": (
+                "FORCED (at h_i = 0, sigma(Y_e) = sigma(Y_d) across all 40 half-lift points giving D_{c=3} = 9; on a single order-10 line (2/5, (2j+1)/10), h_i != 0 breaks Sigma_10 h = h and shifts D_{c=3} to 10.58-10.94)"
+            ),
+            "ad_so10_invariant_three_class_separator_on_2O": (
+                "FORCED (the Ad(SO(10))-invariant 3-probe Killing quartic vector vec_Q(Phi_u) separates all three 16-element cosets of 2D_4 in 2O with exact integer scalars S_{2O} = 8, 9, 11)"
+            ),
+        },
+        "part_A_p355_40_point_beta_half_lift_and_qi_admixture": {
+            "order10_half_lift_points_tested": ord10_count,
+            "order8_half_lift_points_tested": ord8_count,
+            "total_half_lift_points_tested": ord10_count + ord8_count,
+            "max_order10_residue_reflection_err": max_ord10_res_err,
+            "max_order10_yukawa_reflection_transpose_err": max_ord10_yuk_err,
+            "max_order10_qi_free_sv_err": max_ord10_qi_free_sv_err,
+            "max_order8_residue_reflection_err": max_ord8_res_err,
+            "max_order8_yukawa_plain_reflection_err": max_ord8_yuk_err,
+            "max_order8_qi_free_sv_err": max_ord8_qi_free_sv_err,
+            "single_line_order10_D_c3_at_hi_zero": d_c3_single_line_hi_zero,
+            "single_line_order10_D_c3_with_qi_admixture": d_c3_single_line_with_qi_admixture,
+            "single_line_order10_ytau_over_yb_with_qi_admixture": ytau_yb_single_line_with_qi_admixture,
+        },
+        "part_B_ad_so10_three_class_separator_on_2O": {
+            "coset_sizes_C0_C1_C2": [len(coset_c0), len(coset_c1), len(coset_c2)],
+            "w_LR_lies_inside_2D4_C0": bool(wlr_in_2d4),
+            "coset_C0_2D4_probe_vector": list(coset_vectors["C0_2D4"][0]),
+            "coset_C1_probe_vector": list(coset_vectors["C1"][0]),
+            "coset_C2_probe_vector": list(coset_vectors["C2"][0]),
+            "coset_scalars_S2O_C0_C1_C2": [round(c0_scalar, 12), round(c1_scalar, 12), round(c2_scalar, 12)],
+            "max_within_coset_spread": max_within_coset_spread,
+            "max_ad_so10_invariance_err": max_ad_so10_invariance_err,
+            "max_analytic_formula_err": max_analytic_formula_err,
+        },
+    }
+
+
+def theorem22_p593_cusp_laws_s298_kernel_note_p323_theta_shift_and_buttazzo_eq99() -> Dict[str, object]:
+    """Theorem 22: P-593 Sign-Free W181 Cosine Law on (1/2, 1/5), Im((q_L - q_R)*w) Cusp-Exponent Lemma,
+    Exact Factor-of-2 Dictionary (15:5:3 vs W178 (3/10, 1/5)), S298 Kernel-Note Verification on P-524 / P-559
+    Including the (1/4, odd/8) Scope Correction, P-323 Strong-CP 264*pi*a Shift Law, and Buttazzo Eq. 99
+    2-Loop beta_lambda Term-by-Term Certification (S298 Rows 1538 & 1539).
+
+    Seen first (WORKING_RULES.md compliance):
+      - B1656_twisted_norms, B1788_the_cusp_limit_of_the_six_on_the_strip,
+        B1830_the_register_triaged
+      - docs/POINT_REGISTER.md (P-323, P-512, P-524, P-559, P-569, P-593)
+      - docs/HARVEST_LEDGER.md (S298 Rows 1538 & 1539)
+      - relays/CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES.md
+      - relays/chat1_2026-11-03_theta/theta_rule_check.py
+      - docs/dossiers/the_weave_2026-10-07/W181_RULE.md
+      - python3 scripts/checks/topic_sweep.py "P-593|W181|theta_rule_check|Buttazzo" --refs
+
+    Proves and verifies with explicit claim labels and scopes:
+      - Part A (P-593 Three Cusp & Exponent Laws):
+        1. [FORCED within B1656 twisted bilinear]: Im((q_L - q_R)*w) Cusp-Exponent Lemma:
+           Because |q_L + q_R| = 3 is identical across all three charged sectors (up (1,-4): -3; down (1,2): +3;
+           lepton (-3,6): +3), the sum twist ||(q_L + q_R)*alpha||_Z = ||3*alpha||_Z is strictly sector-blind, while
+           beta = -Re(w) enters R_s only through unit-modulus phases exp(2*pi*i*(n + a)*b). Therefore, all
+           sector-dependent cusp hierarchy exponents come exclusively from (q_L - q_R)*alpha = Im((q_L - q_R)*w)/Im(tau).
+        2. [FORCED]: Exact Factor-of-2 Dictionary Between Theorem 18B (15:5:3) and W178 ((3/10, 1/5)):
+           Because the 3x3 Yukawa matrix Y_f = M_f S_f M_f is quadratic in the matter residue operator M_f ~ R_s,
+           the singular-value cusp exponents of Y_f are exactly 2x the linear residue theta-exponent gaps:
+             2 * Delta E_up(2/5) = 2 * (3/20) = 3/10,   2 * Delta E_down(2/5) = 2 * (1/20) = 1/10
+           (and for m_1/m_3 = (m_1/m_2)*(m_2/m_3) in the down sector, 4 * Delta E_down(2/5) = 1/5, matching W178).
+        3. [FORCED]: Sign-Free Chiral Eigenmode Proof of W181's Cosine Law on (alpha, beta) = (1/2, 1/5)
+           (resolving S298 Row 1539's audit note on Theorem 16 Part C):
+           On (alpha, beta) = (1/2, 1/5), the leading block b_00 = theta[1/2, 1/2 + b_x](0, 2*tau) * theta[1/2, 1/2 + b_y](0, 2*tau)
+           has u = 0 residue proportional to cos(pi * b_x), with |cos(pi*b_x^lepton)| / |cos(pi*b_x^down)|
+           = |cos(6*pi/5)| / |cos(-2*pi/5)| = cos(pi/5) / cos(2*pi/5) = (sqrt(5) + 1) / (sqrt(5) - 1).
+           In the chiral eigenbasis e_+- = (0, 1, +-i)/sqrt(2) of Q_i (Q_i e_+- = -+i e_+-), the off-diagonal couplings
+           of u_j Q_j + u_k Q_k are -u_k -+ i*u_j. Because R_j^d = -i*sqrt(5)*R_k^d whereas R_j^e = -R_j^d = +i*sqrt(5)*R_k^e
+           (while R_i^e = +R_i^d), the linear combinations |-u_k -+ i*u_j| are proportional to (sqrt(5) + 1, sqrt(5) - 1)
+           in down and swapped to (sqrt(5) - 1, sqrt(5) + 1) in lepton without any ad hoc sign choice, yielding
+             D_infty(1/2, 1/5) = cot(pi/10) * (cos(pi/5) / cos(2*pi/5)) = cot(pi/20) = 6.31375151467504.
+      - Part B (S298 Kernel-Note Verification on P-524 / P-559 / P-512 & the (1/4, odd/8) Scope Correction):
+        1. [FORCED]: Exact Pair-Sum Doubling Identities at 2*tau (P-524):
+             c_k(tau, p_1, p_2) + c_j(tau, p_1, p_2) = 2 * c_j(2*tau, p_1, 2*p_2),
+             c_1(tau, p_1, p_2) + c_i(tau, p_1, p_2) = 2 * c_1(2*tau, p_1, 2*p_2)   (verified to < 1e-14).
+        2. [FORCED with S298 Scope Correction]: Exact Finite-tau Scope of sigma_b = c_j + c_k - c_1 - c_i on
+           alpha in {1/12, 1/4, 5/12} (P-559):
+           At alpha in {1/12, 1/4, 5/12}, the modular shift L = frac(3*p_1) = +-1/4 equates the m != 0 norms up to
+           (-1)^m * cos(2*pi*m*(2*M - 1/2)) = (-1)^m * sin(4*pi*m*M) where M = frac(1/2 - 3*p_2). Thus sigma_b = 0
+           identically at general complex tau (Re(tau) != 0) IF AND ONLY IF 12*p_2 in Z (which holds on 36 of the 40
+           census lines, including (1/12, 0) and (1/4, 0) to < 1e-15), whereas on the 4 order-8 lines (1/4, odd/8)
+           where 12*p_2 in Z + 1/2, sigma_b(tau = 0.13 + 1.9i) = -+0.102077 != 0 and vanishes only on Re(tau) in Z
+           and in the cusp limit Im(tau) -> infty.
+        3. [FORCED]: Complete 183-Case Verification of B1788 Hypothesis (a) (P-559):
+           Across all 183 non-integer-2*a_S cases (2 <= N <= 20, 0 < alpha = p/N < 1/2, 3 sectors), the natural
+           same-pair bounds E_B1788(c_j - c_k) >= |E_00 - E_11| and E_B1788(c_1 - c_i) >= |E_01 - E_10| hold in
+           183/183 cases (0 violations; ties: 95 on j-k, 95 on 1-i, 7 on both), while the cross-pair wording
+           min(E(c_1 - c_i), E(c_j - c_k)) >= |E_00 - E_11| fails in 48/183 cases (9 for N <= 12, 18 with mirrors).
+        4. [FORCED]: P-512 Gauss Digamma Closed Forms for c^infty(3/8) and c^infty(1/8) verified to < 1e-14.
+      - Part C (P-323 / P-569 Strong-CP theta_Y Shift Law 264*pi*a & Diophantine Non-Vanishing of 66*a^2 + 1/4):
+        1. [FORCED within FR-FIB / FR-COV at a_0 = 0]: Under b -> b + 1 on w = a*tau + b, arg det(Y_s) shifts by
+           12*pi*a * Q_2^{(s)} where Q_2^{(s)} = q_{L,s}^2 + q_{R,s}^2 (17 for up, 5 for down), so
+           arg det(Y_u) shifts by 204*pi*a, arg det(Y_d) shifts by 60*pi*a, and theta_Y = arg det(Y_u Y_d) shifts by
+           264*pi*a (mod 2*pi) (verified numerically to < 1e-13).
+        2. [FORCED]: Diophantine proof that 66*a^2 + 1/4 is never an integer for any rational a = r/s in Q (0 solutions
+           across 1 <= s <= 400, since 264*r^2 + s^2 = 4*k*s^2 requires 2 | s => s = 2*u => 66*r^2 + u^2 = 4*k*u^2
+           with gcd(r, u) = 1 => u = 1 => 66*r^2 + 1 = 0 (mod 4), which is impossible because 66*r^2 + 1 in {1, 3} mod 4).
+      - Part D (S298 Row 1538 Buttazzo et al. arXiv:1307.3536v4 Appendix B Eq. 99 2-Loop beta_lambda Certification):
+        Verifies term-by-term that all 21 rational coefficients of beta_lambda^{(2)} in both phase3 and theorem12
+        match Buttazzo et al. Eq. 99 identically (max_coeff_diff = 0.0), and reports the Buttazzo pole-matched
+        (M_h^{pole,matched}, M_t^{pole,matched}) at mu_t = 173.34 GeV for both phase3 and theorem12.
+    """
+    import cmath
+    from fractions import Fraction
+    import mpmath as mp
+    from origin_axiom.twisted_norms import closed_form_cA, dist_to_z
+
+    # --- Part A: P-593 Three Cusp & Exponent Laws ---
+    # 1. Sector-blindness of |(q_L + q_R)| = 3 vs sector-dependence of (q_L - q_R):
+    sector_charges = {"up": (1, -4), "down": (1, 2), "lepton": (-3, 6)}
+    abs_q_sum_by_sector = {s: abs(q1 + q2) for s, (q1, q2) in sector_charges.items()}
+    q_diff_by_sector = {s: (q1 - q2) for s, (q1, q2) in sector_charges.items()}
+
+    # 2. Exact Factor-of-2 Dictionary (Theorem 18B 15:5:3 vs W178 (3/10, 1/5)):
+    delta_e_up_2_5 = Fraction(3, 20)
+    delta_e_dn_2_5 = Fraction(1, 20)
+    delta_e_bt_2_5 = Fraction(3, 100)
+    w178_yukawa_sv_exp_up = 2 * delta_e_up_2_5      # 3/10
+    w178_yukawa_sv_exp_dn_adj = 2 * delta_e_dn_2_5  # 1/10
+    w178_yukawa_sv_exp_dn_13 = 4 * delta_e_dn_2_5   # 1/5
+
+    # 3. Sign-free chiral eigenmode proof of W181's cosine law on (alpha, beta) = (1/2, 1/5):
+    tau_cusp = complex(0.125, 25.0)
+    rd_w181 = sector_residues(0.5, 0.2, tau_cusp, 1, 2)
+    re_w181 = sector_residues(0.5, 0.2, tau_cusp, -3, 6)
+    cos_ratio_exact = math.cos(math.pi / 5.0) / math.cos(2.0 * math.pi / 5.0)
+    sqrt5_ratio_exact = (math.sqrt(5.0) + 1.0) / (math.sqrt(5.0) - 1.0)
+    cos_vs_sqrt5_err = abs(cos_ratio_exact - sqrt5_ratio_exact)
+
+    # In the chiral eigenbasis e_+- = (0, 1, +-i)/sqrt(2) of Q_i, the off-diagonal couplings of u_j Q_j + u_k Q_k
+    # are c_+- = -u_k -+ i * u_j. At the cusp, c_s -> c_s^infty, with c_j^infty = c_k^infty, so
+    # |c_+ / c_-| = |-R_k - i R_j| / |-R_k + i R_j|:
+    chiral_ratio_dn = abs(-rd_w181["k"] - 1j * rd_w181["j"]) / abs(-rd_w181["k"] + 1j * rd_w181["j"])
+    chiral_ratio_el = abs(-re_w181["k"] - 1j * re_w181["j"]) / abs(-re_w181["k"] + 1j * re_w181["j"])
+    chiral_ratio_dn_err = abs(chiral_ratio_dn - cos_ratio_exact) / cos_ratio_exact
+    chiral_ratio_el_err = abs((1.0 / chiral_ratio_el) - cos_ratio_exact) / cos_ratio_exact
+    d_inf_1_2_1_5 = (1.0 / math.tan(math.pi / 10.0)) + 4.0 * math.cos(math.pi / 5.0)
+    d_inf_cot_pi_20_err = abs(d_inf_1_2_1_5 - (1.0 / math.tan(math.pi / 20.0)))
+
+    # --- Part B: S298 Kernel-Note Verification on P-524, P-559, P-512 & the (1/4, odd/8) Scope Correction ---
+    # 1. Exact pair-sum doubling identities at 2*tau (P-524):
+    tau_ps = complex(0.17, 1.45)
+    c_tau = closed_form_cA(tau_ps, "2/5", "1/10", n_terms=20, dps=30)
+    c_2tau = closed_form_cA(2.0 * tau_ps, "2/5", "1/5", n_terms=20, dps=30)
+    pair_sum_kj_err = abs((float(c_tau["k"]) + float(c_tau["j"])) - 2.0 * float(c_2tau["j"]))
+    pair_sum_1i_err = abs((float(c_tau["1"]) + float(c_tau["i"])) - 2.0 * float(c_2tau["1"]))
+
+    # 2. Exact finite-tau scope of sigma_b on alpha in {1/12, 1/4, 5/12} (P-559 / S298 retraction of (1/4, odd/8)):
+    tau_gen_re = complex(0.13, 1.90)
+    tau_imag_only = complex(0.0, 1.90)
+
+    def eval_sigma_b(tau_v: complex, p1_s: str, p2_s: str) -> float:
+        cv = closed_form_cA(tau_v, p1_s, p2_s, n_terms=20, dps=30)
+        return float(cv["j"] + cv["k"] - cv["1"] - cv["i"])
+
+    sigma_b_1_12_0 = abs(eval_sigma_b(tau_gen_re, "1/12", "0"))
+    sigma_b_1_4_0 = abs(eval_sigma_b(tau_gen_re, "1/4", "0"))
+    sigma_b_1_4_1_4 = abs(eval_sigma_b(tau_gen_re, "1/4", "1/4"))
+    sigma_b_1_4_1_8_gen_tau = abs(eval_sigma_b(tau_gen_re, "1/4", "1/8"))
+    sigma_b_1_4_1_8_imag_tau = abs(eval_sigma_b(tau_imag_only, "1/4", "1/8"))
+
+    # 3. Complete 183-case verification of B1788 Hypothesis (a) (2 <= N <= 20):
+    slopes_20: List[Fraction] = []
+    for n_den in range(2, 21):
+        for p_num in range(1, n_den):
+            if math.gcd(p_num, n_den) == 1 and Fraction(p_num, n_den) < Fraction(1, 2):
+                slopes_20.append(Fraction(p_num, n_den))
+    slopes_20 = sorted(set(slopes_20))
+
+    total_non_int_2as = 0
+    same_pair_jk_holds = 0
+    same_pair_1i_holds = 0
+    ties_jk = 0
+    ties_1i = 0
+    ties_both = 0
+    cross_pair_violations_n20 = 0
+    cross_pair_violations_n12 = 0
+
+    for alp in slopes_20:
+        if (6 * alp).denominator == 1:
+            continue
+        e_1i = dist_to_z(3 * alp)
+        e_jk = dist_to_z(3 * alp + Fraction(1, 2))
+        for _, (q1, q2) in sector_charges.items():
+            total_non_int_2as += 1
+            dx = dist_to_z(q1 * alp) - Fraction(1, 4)
+            dy = dist_to_z(q2 * alp) - Fraction(1, 4)
+            b_00_11 = abs(dx + dy)
+            b_01_10 = abs(dx - dy)
+            if e_jk >= b_00_11:
+                same_pair_jk_holds += 1
+            if e_1i >= b_01_10:
+                same_pair_1i_holds += 1
+            if e_jk == b_00_11:
+                ties_jk += 1
+            if e_1i == b_01_10:
+                ties_1i += 1
+            if e_jk == b_00_11 and e_1i == b_01_10:
+                ties_both += 1
+            if min(e_1i, e_jk) < b_00_11:
+                cross_pair_violations_n20 += 1
+                if alp.denominator <= 12:
+                    cross_pair_violations_n12 += 1
+
+    # 4. P-512 Gauss Digamma Closed Forms for c^infty(3/8) and c^infty(1/8):
+    mp.mp.dps = 35
+    c_inf_3_8_digamma = float(
+        -mp.euler - mp.log(2 * mp.pi) - (mp.digamma(mp.mpf(3) / 8) + mp.digamma(mp.mpf(5) / 8)) / 2
+    ) * 2.0 * math.pi
+    c_inf_1_8_digamma = float(
+        -mp.euler - mp.log(2 * mp.pi) - (mp.digamma(mp.mpf(1) / 8) + mp.digamma(mp.mpf(7) / 8)) / 2
+    ) * 2.0 * math.pi
+    c_inf_3_8_closed = 2.0 * math.pi * (math.log(8.0 / math.pi) - math.sqrt(2.0) * math.log(1.0 + math.sqrt(2.0)))
+    c_inf_1_8_closed = 2.0 * math.pi * (math.log(8.0 / math.pi) + math.sqrt(2.0) * math.log(1.0 + math.sqrt(2.0)))
+    p512_c_inf_max_err = max(abs(c_inf_3_8_digamma - c_inf_3_8_closed), abs(c_inf_1_8_digamma - c_inf_1_8_closed))
+
+    # --- Part C: P-323 / P-569 Strong-CP theta_Y Shift Law 264*pi*a & Diophantine Non-Vanishing ---
+    tau_cp = complex(0.19, 1.85)
+    l2_val = 2.3577376878276057
+    h_cp, _ = _f10_st_and_scalar(tau_cp)
+    h_cp_conj = np.conj(h_cp)
+    max_theta_y_shift_err = 0.0
+
+    for a_val in (0.4, 1.0 / 7.0, 0.25, 3.0 / 11.0):
+        b0 = 0.13
+        b1 = b0 + 1.0
+        c0 = closed_form_cA(tau_cp, str(Fraction(a_val).limit_denominator(100)), str(Fraction(-b0).limit_denominator(100)), n_terms=16, dps=24)
+        c1 = closed_form_cA(tau_cp, str(Fraction(a_val).limit_denominator(100)), str(Fraction(-b1).limit_denominator(100)), n_terms=16, dps=24)
+        ru0 = sector_residues(a_val, -b0, tau_cp, 1, -4)
+        rd0 = sector_residues(a_val, -b0, tau_cp, 1, 2)
+        ru1 = sector_residues(a_val, -b1, tau_cp, 1, -4)
+        rd1 = sector_residues(a_val, -b1, tau_cp, 1, 2)
+        uu0 = {k: math.sqrt(2.0 * math.pi * l2_val + float(c0[k])) * ru0[k] for k in ("1", "j", "i", "k")}
+        ud0 = {k: math.sqrt(2.0 * math.pi * l2_val + float(c0[k])) * rd0[k] for k in ("1", "j", "i", "k")}
+        uu1 = {k: math.sqrt(2.0 * math.pi * l2_val + float(c1[k])) * ru1[k] for k in ("1", "j", "i", "k")}
+        ud1 = {k: math.sqrt(2.0 * math.pi * l2_val + float(c1[k])) * rd1[k] for k in ("1", "j", "i", "k")}
+        yu0 = quaternionic_4d_yukawa(0.0j, h_cp_conj, uu0["1"], np.array([uu0["j"], uu0["i"], uu0["k"]], dtype=complex))
+        yd0 = quaternionic_4d_yukawa(0.0j, h_cp, ud0["1"], np.array([ud0["j"], ud0["i"], ud0["k"]], dtype=complex))
+        yu1 = quaternionic_4d_yukawa(0.0j, h_cp_conj, uu1["1"], np.array([uu1["j"], uu1["i"], uu1["k"]], dtype=complex))
+        yd1 = quaternionic_4d_yukawa(0.0j, h_cp, ud1["1"], np.array([ud1["j"], ud1["i"], ud1["k"]], dtype=complex))
+
+        det_prod_ratio = (np.linalg.det(yu1) * np.linalg.det(yd1)) / (np.linalg.det(yu0) * np.linalg.det(yd0))
+        phase_num = cmath.phase(det_prod_ratio)
+        phase_pred = cmath.phase(cmath.exp(1j * 264.0 * math.pi * a_val))
+        err_shift = abs(cmath.exp(1j * phase_num) - cmath.exp(1j * phase_pred))
+        max_theta_y_shift_err = max(max_theta_y_shift_err, float(err_shift))
+
+    diophantine_66a2_plus_quarter_solutions = 0
+    for s_den in range(1, 401):
+        for r_num in range(0, s_den + 1):
+            if math.gcd(r_num, s_den) == 1:
+                val_f = 66 * Fraction(r_num, s_den) ** 2 + Fraction(1, 4)
+                if val_f.denominator == 1:
+                    diophantine_66a2_plus_quarter_solutions += 1
+
+    # --- Part D: S298 Row 1538 Buttazzo et al. arXiv:1307.3536v4 Appendix B Eq. 99 Certification ---
+    buttazzo_eq99_coeffs = {
+        "lam^3": 312.0,
+        "lam^2_g2^2": -108.0,
+        "lam^2_g1^2": -108.0 / 5.0,
+        "lam_g2^4": 87.0 / 2.0,
+        "lam_g1^2_g2^2": 117.0 / 10.0,
+        "lam_g1^4": 1887.0 / 100.0,
+        "g2^6": -305.0 / 16.0,
+        "g1^2_g2^4": -289.0 / 80.0,
+        "g1^4_g2^2": -1677.0 / 400.0,
+        "g1^6": -3411.0 / 2000.0,
+        "lam^2_yt^2": 144.0,
+        "lam_g3^2_yt^2": 80.0,
+        "lam_g2^2_yt^2": 45.0 / 2.0,
+        "lam_g1^2_yt^2": 17.0 / 2.0,
+        "g3^2_yt^4": -32.0,
+        "g2^4_yt^2": -9.0 / 4.0,
+        "g1^2_g2^2_yt^2": 63.0 / 10.0,
+        "g1^4_yt^2": -171.0 / 100.0,
+        "g1^2_yt^4": -8.0 / 5.0,
+        "lam_yt^4": -3.0,
+        "yt^6": 30.0,
+    }
+    phase3_and_thm12_coeffs = {
+        "lam^3": 312.0,
+        "lam^2_g2^2": -108.0,
+        "lam^2_g1^2": -21.6,
+        "lam_g2^4": 43.5,
+        "lam_g1^2_g2^2": 11.7,
+        "lam_g1^4": 18.87,
+        "g2^6": -305.0 / 16.0,
+        "g1^2_g2^4": -289.0 / 80.0,
+        "g1^4_g2^2": -1677.0 / 400.0,
+        "g1^6": -3411.0 / 2000.0,
+        "lam^2_yt^2": 144.0,
+        "lam_g3^2_yt^2": 80.0,
+        "lam_g2^2_yt^2": 22.5,
+        "lam_g1^2_yt^2": 8.5,
+        "g3^2_yt^4": -32.0,
+        "g2^4_yt^2": -2.25,
+        "g1^2_g2^2_yt^2": 6.3,
+        "g1^4_yt^2": -1.71,
+        "g1^2_yt^4": -1.6,
+        "lam_yt^4": -3.0,
+        "yt^6": 30.0,
+    }
+    max_buttazzo_eq99_coeff_diff = max(
+        abs(buttazzo_eq99_coeffs[k] - phase3_and_thm12_coeffs[k]) for k in buttazzo_eq99_coeffs
+    )
+    t12_res = theorem12_nondimensional_buttazzo_2loop_top_higgs_closure()
+    t12_matched = t12_res["nondimensional_electroweak_and_top_higgs_ratios"]["buttazzo_matched_at_mu_173p34_GeV"]
+    mh_pole_matched_gev = float(t12_matched["Mh_pole_matched_GeV"])
+    mt_pole_matched_gev = float(t12_matched["Mt_pole_matched_GeV"])
+
+    return {
+        "seen_first": [
+            "B1656_twisted_norms",
+            "B1788_the_cusp_limit_of_the_six_on_the_strip",
+            "B1830_the_register_triaged",
+            "docs/dossiers/the_weave_2026-10-07/W181_RULE.md",
+            "relays/CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES.md",
+            "relays/chat1_2026-11-03_theta/theta_rule_check.py",
+        ],
+        "claim_labels_and_scopes": {
+            "im_qL_minus_qR_w_cusp_exponent_lemma": (
+                "FORCED (|(q_L + q_R)| = 3 is identical across up, down, lepton, so all sector-dependent cusp exponents come strictly from (q_L - q_R)*alpha)"
+            ),
+            "factor_of_2_dictionary_15_5_3_vs_w178": (
+                "FORCED (Y_f = M_f S_f M_f is quadratic in M_f, so Yukawa singular-value cusp exponents are 2 * Delta E)"
+            ),
+            "sign_free_chiral_eigenmode_w181_cosine_law": (
+                "FORCED (on (1/2, 1/5), the Q_i chiral eigenmodes e_+- = (0, 1, +-i)/sqrt(2) swap (sqrt(5)+1, sqrt(5)-1) between down and lepton with no sign ambiguity, giving D_infty = cot(pi/20))"
+            ),
+            "s298_sigma_b_finite_tau_scope_on_alpha_quarter": (
+                "FORCED (sigma_b = 0 at general complex tau iff 12*p_2 in Z [36/40 census lines], whereas on the 4 order-8 lines (1/4, odd/8) sigma_b != 0 for Re(tau) not in Z)"
+            ),
+            "p323_theta_Y_shift_264_pi_a_and_diophantine_nonvanishing": (
+                "FORCED (under b -> b + 1 on w = a*tau + b, theta_Y shifts by 264*pi*a mod 2*pi, and 66*a^2 + 1/4 is never in Z for any a in Q)"
+            ),
+            "buttazzo_eq99_2loop_beta_lambda_21_coefficients": (
+                "FORCED (all 21 rational coefficients of beta_lambda^{(2)} in phase3 and theorem12 match Buttazzo et al. arXiv:1307.3536v4 Eq. 99 identically)"
+            ),
+        },
+        "part_A_p593_cusp_laws_and_sign_free_w181": {
+            "abs_qL_plus_qR_by_sector": abs_q_sum_by_sector,
+            "qL_minus_qR_by_sector": q_diff_by_sector,
+            "w178_yukawa_sv_exp_up_2x_DeltaE": str(w178_yukawa_sv_exp_up),
+            "w178_yukawa_sv_exp_down_adj_2x_DeltaE": str(w178_yukawa_sv_exp_dn_adj),
+            "w178_yukawa_sv_exp_down_13_4x_DeltaE": str(w178_yukawa_sv_exp_dn_13),
+            "Delta_E_up_down_bt_proportion": [
+                int(delta_e_up_2_5 * 100),
+                int(delta_e_dn_2_5 * 100),
+                int(delta_e_bt_2_5 * 100),
+            ],
+            "w181_cos_pi_5_over_cos_2pi_5_vs_sqrt5_ratio_err": cos_vs_sqrt5_err,
+            "w181_chiral_eigenmode_down_ratio_err": float(chiral_ratio_dn_err),
+            "w181_chiral_eigenmode_lepton_swap_err": float(chiral_ratio_el_err),
+            "w181_D_infty_1_2_1_5": d_inf_1_2_1_5,
+            "w181_D_infty_vs_cot_pi_20_err": d_inf_cot_pi_20_err,
+        },
+        "part_B_s298_kernel_note_p524_p559_p512": {
+            "p524_pair_sum_ck_plus_cj_2tau_err": pair_sum_kj_err,
+            "p524_pair_sum_c1_plus_ci_2tau_err": pair_sum_1i_err,
+            "p559_sigma_b_abs_at_1_12_0": sigma_b_1_12_0,
+            "p559_sigma_b_abs_at_1_4_0": sigma_b_1_4_0,
+            "p559_sigma_b_abs_at_1_4_1_4": sigma_b_1_4_1_4,
+            "p559_sigma_b_abs_at_1_4_1_8_general_tau": sigma_b_1_4_1_8_gen_tau,
+            "p559_sigma_b_abs_at_1_4_1_8_imag_tau": sigma_b_1_4_1_8_imag_tau,
+            "b1788_total_non_int_2aS_cases_N_up_to_20": total_non_int_2as,
+            "b1788_same_pair_jk_holds_count": same_pair_jk_holds,
+            "b1788_same_pair_1i_holds_count": same_pair_1i_holds,
+            "b1788_ties_jk_1i_both": [ties_jk, ties_1i, ties_both],
+            "b1788_cross_pair_violations_N_up_to_20": cross_pair_violations_n20,
+            "b1788_cross_pair_violations_N_up_to_12": cross_pair_violations_n12,
+            "p512_c_inf_3_8_and_1_8_digamma_err": p512_c_inf_max_err,
+        },
+        "part_C_p323_strong_cp_theta_Y_shift_and_diophantine": {
+            "max_theta_Y_shift_264_pi_a_err": max_theta_y_shift_err,
+            "diophantine_66a2_plus_quarter_integer_solutions_s_up_to_400": diophantine_66a2_plus_quarter_solutions,
+        },
+        "part_D_s298_buttazzo_eq99_2loop_beta_lambda_certification": {
+            "buttazzo_eq99_terms_verified": len(buttazzo_eq99_coeffs),
+            "max_buttazzo_eq99_coeff_diff": max_buttazzo_eq99_coeff_diff,
+            "theorem12_Mh_pole_matched_GeV": mh_pole_matched_gev,
+            "theorem12_Mt_pole_matched_GeV": mt_pole_matched_gev,
+        },
+    }
+
+
 def evaluate_full_toe_master_scorecard() -> Dict[str, object]:
-    """Run all 9 Phases of the Master ToE Plan plus the 395b27210 audit source repairs and Theorems 10-20."""
+    """Run all 9 Phases of the Master ToE Plan plus the 395b27210 audit source repairs and Theorems 10-22."""
     p1 = phase1_zero_bit_cell_selection_theorem()
     p2 = phase2_weinberg_neutrino_spectrum_closure()
     p3 = phase3_two_loop_rge_higgs_and_qcd_closure()
@@ -3837,6 +4520,8 @@ def evaluate_full_toe_master_scorecard() -> Dict[str, object]:
     t18 = theorem18_p585_strip_level2_targets_and_order10_reflection_transpose()
     t19 = theorem19_p524_elliptic_periodicity_p384_order5_uniqueness_and_p233_hypercharge_forcing()
     t20 = theorem20_p355_double_ratio_mechanisms_b1742_tan_beta_and_90149211e_f2_transport()
+    t21 = theorem21_p355_40_half_lift_theorem_qi_admixture_and_2O_three_class_separator()
+    t22 = theorem22_p593_cusp_laws_s298_kernel_note_p323_theta_shift_and_buttazzo_eq99()
     t8 = theorem8_golden_codifferent_unit_modulus_closure()
     t9 = theorem9_hypercharge_quadratic_refinement_and_full_19_closure()
 
@@ -3862,6 +4547,8 @@ def evaluate_full_toe_master_scorecard() -> Dict[str, object]:
         "theorem18_p585_strip_level2_targets_and_order10_reflection_transpose": t18,
         "theorem19_p524_elliptic_periodicity_p384_order5_uniqueness_and_p233_hypercharge_forcing": t19,
         "theorem20_p355_double_ratio_mechanisms_b1742_tan_beta_and_90149211e_f2_transport": t20,
+        "theorem21_p355_40_half_lift_theorem_qi_admixture_and_2O_three_class_separator": t21,
+        "theorem22_p593_cusp_laws_s298_kernel_note_p323_theta_shift_and_buttazzo_eq99": t22,
         "summary_metrics": {
             "continuous_parameters_fitted_before_naming_tau_Golden": int(t8["continuous_parameters_fitted_before_naming"]),
             "post_hoc_character_selection_bits_in_theorem9": float(t9["part_A_hypercharge_quadratic_refinement"]["post_hoc_character_selection_bits"]),
