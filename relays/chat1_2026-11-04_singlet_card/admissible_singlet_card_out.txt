@@ -1,0 +1,36 @@
+THE ADMISSIBLE SINGLET OF SIZE |a0|, SCREENED: 266 census lines, 230 kept (6 order-4 as a read-out), 6 tau, 1380 points
+K0 the instrument (24 points; the six's largest change; |V| and J where both gaps exceed 1e-6, with the count; M with J -> -J):
+    none       A 9.4e-15/1.3e-13 (24)  P 3.1e-15/4.6e-14 (24)  N 7.1e-15/2.1e-13 (24)  T 1.2e-13/1.6e-12 (24)  M 3.8e-15/9.5e-14 (24)
+    candidate  A 5.4e-15/8.0e-15 (24)  P 4.1e-15/5.3e-15 (24)  N 2.8e-15/6.1e-15 (24)  T 1.2e-13/4.0e-13 (24)  M 2.8e-15/4.4e-15 (24)
+    K0 HOLDS
+the variants on the 230 lines, each on its own filtered points (rbar = 20.42):
+    none       points 1380  degenerate 0  filtered 35  joint 9  rate 0.2571  corner alone 0.3714  |V_ud|>0.9 alone 0.6857  |V_ub|/|V_td| quartiles 0.756, 1.84, 3.24  median |V_ud| 0.9668
+    candidate  points 1380  degenerate 0  filtered 0  joint 0  rate nan  corner alone nan  |V_ud|>0.9 alone nan  |V_ub|/|V_td| quartiles   median |V_ud| nan
+    even       points 1380  degenerate 0  filtered 0  joint 0  rate nan  corner alone nan  |V_ud|>0.9 alone nan  |V_ub|/|V_td| quartiles   median |V_ud| nan
+    up-only    points 1380  degenerate 0  filtered 1  joint 0  rate 0.0000  corner alone 0.0000  |V_ud|>0.9 alone 0.0000  |V_ub|/|V_td| quartiles 31.7, 31.7, 31.7  median |V_ud| 0.7517
+    real       points 1380  degenerate 0  filtered 0  joint 0  rate nan  corner alone nan  |V_ud|>0.9 alone nan  |V_ub|/|V_td| quartiles   median |V_ud| nan
+    SM         points 1380  degenerate 0  filtered 0  joint 0  rate nan  corner alone nan  |V_ud|>0.9 alone nan  |V_ub|/|V_td| quartiles   median |V_ud| nan
+    const      points 1380  degenerate 0  filtered 0  joint 0  rate nan  corner alone nan  |V_ud|>0.9 alone nan  |V_ub|/|V_td| quartiles   median |V_ud| nan
+K1 none's rate 0.2571 (on 35 filtered points) <= 0.10: FAILS
+    candidate  vs none: Delta +nan, Delta_both +nan on 0 common points, p 1.000e+00, p*2^7 1.280e+02, p*2^11.58 3.072e+03, passes K2's test: False
+    even       vs none: Delta +nan, Delta_both +nan on 0 common points, p 1.000e+00, p*2^7 1.280e+02, p*2^11.58 3.072e+03, passes K2's test: False
+    up-only    vs none: Delta -0.2571, Delta_both +0.0000 on 1 common points, p 1.000e+00, p*2^7 1.280e+02, p*2^11.58 3.072e+03, passes K2's test: False
+    real       vs none: Delta +nan, Delta_both +nan on 0 common points, p 1.000e+00, p*2^7 1.280e+02, p*2^11.58 3.072e+03, passes K2's test: False
+    SM         vs none: Delta +nan, Delta_both +nan on 0 common points, p 1.000e+00, p*2^7 1.280e+02, p*2^11.58 3.072e+03, passes K2's test: False
+    const      vs none: Delta +nan, Delta_both +nan on 0 common points, p 1.000e+00, p*2^7 1.280e+02, p*2^11.58 3.072e+03, passes K2's test: False
+K2 the screen (the candidate against none): FAILS
+K3 even does not pass K2's whole test: HOLDS
+K4 the candidate's filtered count 0 >= a quarter of none's 35: FAILS
+power (500 sets, full line clustering, q = r_both + 0.25 = -): -
+GRADE: UNDECIDED
+read-outs:
+    tau (0.11+2.2j)  none 3/1  candidate 0/0  even 0/0  up-only 0/0  real 0/0  SM 0/0  const 0/0
+    tau (0.11+2.6j)  none 5/1  candidate 0/0  even 0/0  up-only 0/0  real 0/0  SM 0/0  const 0/0
+    tau (0.11+3j)  none 13/3  candidate 0/0  even 0/0  up-only 1/0  real 0/0  SM 0/0  const 0/0
+    tau (0.37+2.2j)  none 2/1  candidate 0/0  even 0/0  up-only 0/0  real 0/0  SM 0/0  const 0/0
+    tau (0.37+2.6j)  none 3/1  candidate 0/0  even 0/0  up-only 0/0  real 0/0  SM 0/0  const 0/0
+    tau (0.37+3j)  none 9/2  candidate 0/0  even 0/0  up-only 0/0  real 0/0  SM 0/0  const 0/0
+    the order-4 lines (36 points): none 0/0  candidate 0/0  even 0/0  up-only 0/0  real 0/0  SM 0/0  const 0/0
+    the lines with a in {1/6, 1/2} (84 points): none 0/0  candidate 0/0  even 0/0  up-only 0/0  real 0/0  SM 0/0  const 0/0
+    2|a0|/|eta^3|: min 0.0126, quartiles 12.5, 20.4, 32.4, max 226
+    |a0|/|DR|: min 0.000957, quartiles 1.73, 2.93, 4.36, max 31.8
