@@ -18390,3 +18390,11 @@ the frame's outputs, which corrects main; a criterion that reads no held-out qua
 main's stated reason for the owner's decline (the slope stays borrowed); m004's group has no cuspidal cohomology at the
 lowest weights. Nothing in the agy lane's new work earns a borrowed joint; its looks at the held-out and PMNS targets are
 counted and sealed. 0 of 19.
+
+## 2026-11-04 — S302: the agy lane's Stages 8–9 and the density Higgs verified (B1837)
+
+The agy lane's rebuttal of seven of main's findings was checked through the mask on main's code: main stands on six and
+the seventh (the mirror) was already proved. Main's own chat concession on the determinant was wrong and is corrected. The
+lane's torsion '4 − 2√3' is no torsion; m003 is amphicheiral; nothing it computed earns a joint. The web seat's density
+Higgs is a proved closed form that keeps the hierarchy only through the small-cut norm. One exposure was main's own: a
+pasted seat message carried a top/bottom construction into main's context; it is counted and kept out of the record. 0 of 19.

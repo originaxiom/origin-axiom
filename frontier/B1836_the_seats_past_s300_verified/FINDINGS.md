@@ -168,3 +168,5 @@ identical to the reader's.
 - Reader D executed one agy slice (the compensator construction, B1832's c4 precedent) after the same firewall-word check.
 - The readers' checks that touch the lane stay in the audit room. Those on main's code alone are in `verification/`,
   re-run by main.
+
+> *Dated note 2026-11-04 (S302, B1837):* § 3 sharpened. 'Not all equal' picks only 2/5 for the CHANNEL-CLASS gaps. Under B1788's m₂/m₃ exponents (e_up = ½ − ‖3α‖, e_down = 1/5 on 5α ∈ ℤ) 1/5 and 2/5 both separate up from down, and only the up-steeper ORDER — an in-sample fact of the six — picks 2/5 (B1788 itself: 'no data-free condition here singles it out'). Either way no held-out quantity is read and the slope stays borrowed; the correction to P-625's reason stands.*

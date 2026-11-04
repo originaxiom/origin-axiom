@@ -1,0 +1,7 @@
+(a) Y_e(S) = lam D Y_d(Sigma10 S)^T D on 5 order-10 lines x 2 tau x 4 random S (a0 != 0): worst residual (incl. ||lam|-1|) 3.2e-15; D (up to sign) = [(np.int64(1), np.int64(-1), np.int64(1))]; control without Sigma10: min residual 0.05
+(b) doubling ratios f_k(2e)/f_k(e), f_k = s_k(Y_d(Sigma10 h)) - s_k(Y_d(h)), k = light, middle, heavy; (c) same for |det Y_d|
+   generation 1: 40 cases, doubling ratio min 2.0000 max 2.0000
+   generation 2: 40 cases, doubling ratio min 2.0000 max 2.0000
+   generation 3: 40 cases, doubling ratio min 2.0000 max 2.0000
+   |det|: vanishes identically in 0 of 40 cases; doubling ratio over the rest: min 2.0000 max 2.0000
+(d) Sigma10-symmetrised spectra and |det(Y(+)Y(-))|, lepton vs down: worst relative residuals 3.0e-15, 2.0e-13 (tautologies of (a))

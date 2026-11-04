@@ -1,0 +1,6 @@
+mod-5 charges: {'up': (1, 1), 'down': (1, 2), 'lep': (2, 1)} (up self-transpose; down, lepton a transpose pair)
+identity slopes in (0, 1/2]: ['1/5', '1/4', '2/5', '1/2']
+  1/5  (i) class gaps up 1/20 down 1/20 lep 1/20 -> faithful False | (ii) e_up 1/10 e_down 1/5 -> faithful True, up steeper False | (iii) e_up - e_down -1/10 (agrees with (ii): True)
+  1/4  (i) class gaps up 0 down 0 lep 0 -> faithful False
+  2/5  (i) class gaps up 3/20 down 1/20 lep 1/20 -> faithful True | (ii) e_up 3/10 e_down 1/5 -> faithful True, up steeper True | (iii) e_up - e_down 1/10 (agrees with (ii): True)
+  1/2  (i) class gaps up 1/4 down 1/4 lep 1/4 -> faithful False

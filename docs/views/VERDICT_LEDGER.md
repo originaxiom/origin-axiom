@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1540 of 1540 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1541 of 1541 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1051)
+## PROVED (1052)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1063,6 +1063,7 @@
 | `B1833` | THE BRAINSTORMS RE-READ (the owner's 'most important leads from brainstorms keeps getting forgotten'; 'check our chat history'): of about 530 distinct ideas across five sources about 340 were worked, 80 partly, 45 rowed and stalled, and 65 had no carrier -- each confirmed by main against the whole tracked record and now rowed (P-629-P-657); the losses come after the writing-down, by twelve mechanisms (leads never come due; reviews rank leads and carry none; merged items die with their host; places the register never reads; renamed ideas never joined); the central direction -- what holds tau and selects the point -- named in six vocabularies across eleven rows with no owner, now one row with four never-computed handles; U_e and the PMNS recovered as a candidate second held-out quantity (P-597) and a loop lift of the rank-2 Yukawa as a sector-dependent route at D's failure; L241 (b) and the PF4 'attempted' corrected; the mechanism (P-659) and the direction (P-660) put to the owner. 0 of 19. |  | 0 |
 | `B1834` | THE TOTAL-INPUTS SCOREBOARD (the owner's ruling of 2026-10-29, P-418) AND THE BORROWED-JOINTS SCAFFOLD (P-661): 0 of 19 earned, identification price 13; the record's candidate claims 10 rows on 14 borrowed joints (11 chosen, 2 ansatz, 1 fitted); the agy lane's complete picture claims 23 rows on 45 (18 chosen, 14 ansatz, 6 measured inputs, 3 refuted, 2 unknown, 1 fitted, 1 forced only by its word) -- about three borrowed joints per extra row, none earned; ten joints shared, so earning the core (tau, the slope and offset, the Higgs direction, the reading, H = I, the radius) earns it in both; printed by the gates beside 0 of 19 (inputs-scoreboard); a firewall path found and ten more ranges sealed (52). 0 of 19. | yes | 1 |
 | `B1836` | THE SEATS PAST S300 VERIFIED (the owner's 'fetch and verify agy and other seats'): the F7 mirror identity PROVED (T-FRAME-MIRROR; the agy lane's Theorem 60 repaired); T a symmetry of the frame's outputs (8e-13; main's S300 'T^2, not T' corrected); a criterion reading no held-out quantity picks the slope 2/5 (main's P-625 reason corrected; the slope stays borrowed); the F_a evaluator wrong by -i for Re tau >= 1 (P-670); P-634's first step: no cuspidal cohomology for m004's group at weights 0-3; B47 MATCH, B08 MISMATCH; P-639's mirror half NEGATIVE; the agy lane's Theorems 29-64 earn no borrowed joint, their looks at the held-out and PMNS targets counted, 23 ranges sealed; the web seat's singlet screen, steepness map and doublet index verified; the physical lane's E8 algebra verified with B = (kc_j)^-1. 0 of 19. |  | 0 |
+| `B1837` | THE AGY LANE'S STAGES 8-9 AND THE WEB SEAT'S DENSITY HIGGS VERIFIED: main stands on six of the lane's seven rebuttals (the seventh, the mirror, already proved) -- at one Higgs every generation's lepton/down relation and |det| move at first order in h_I, only reflected forms match (main's chat concession corrected); the torsions of m004 at omega tabled (4/sqrt3; 2, 5, 6; 6 sqrt3; 3), none 4 - 2 sqrt3; m003 amphicheiral; spectral faithfulness selects nothing under B1788's exponents; the density Higgs's closed form proved but the cut not removed (A07 bears more load); no joint earned; exposures counted and 15 ranges sealed (90); main's own exposure through a pasted message recorded (P-679). 0 of 19. |  | 0 |
 
 ## NEGATIVE (382)
 

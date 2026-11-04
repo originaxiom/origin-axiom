@@ -1,0 +1,28 @@
+{
+ "id": "B1837",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1836",
+  "B1832",
+  "B1834",
+  "B1835",
+  "B1788",
+  "B1654"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's four-channel frame and the seats' frames as read",
+  "object": "the agy lane's Stages 8-9 (317c04b58, b66bfdf42; through the mask) and the web seat's density Higgs (to 9a6847e7f)",
+  "reach": "general",
+  "hypotheses": "readers' checks on main's code re-run by main; the lane's Theorem 66 internals are the reader's masked reading; the density post hoc's full re-run pending"
+ },
+ "claim_one_line": "THE AGY LANE'S STAGES 8-9 AND THE WEB SEAT'S DENSITY HIGGS VERIFIED: main stands on six of the lane's seven rebuttals (the seventh, the mirror, already proved) -- at one Higgs every generation's lepton/down relation and |det| move at first order in h_I, only reflected forms match (main's chat concession corrected); the torsions of m004 at omega tabled (4/sqrt3; 2, 5, 6; 6 sqrt3; 3), none 4 - 2 sqrt3; m003 amphicheiral; spectral faithfulness selects nothing under B1788's exponents; the density Higgs's closed form proved but the cut not removed (A07 bears more load); no joint earned; exposures counted and 15 ranges sealed (90); main's own exposure through a pasted message recorded (P-679). 0 of 19.",
+ "weave_or_thread": "neither (a harvest arc)"
+}

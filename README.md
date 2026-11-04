@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.61) of 2026-11-03 |
-| arcs with a verdict | 1540: 1051 PROVED, 382 NEGATIVE, 95 OPEN, 12 RETRACTED |
-| points in the register | 676: 296 open (queued, leads, waiting for the owner), 380 closed |
+| arcs with a verdict | 1541: 1052 PROVED, 382 NEGATIVE, 95 OPEN, 12 RETRACTED |
+| points in the register | 681: 298 open (queued, leads, waiting for the owner), 383 closed |
 | the last review | Review 74 (2026-11-04), anchor `41420ae14` |
-| the last landing | S301 B1836 THE SEATS PAST S300, FETCHED AND VERIFIED: THE F7 MIRROR IDENTITY PROVED; T A SYMMETRY OF THE OUTPUTS; THE SLOPE NEED NOT SPEND THE HELD-O… |
+| the last landing | S302 B1837 THE AGY LANE'S STAGES 8-9 AND THE WEB SEAT'S DENSITY HIGGS VERIFIED: MAIN STANDS ON SIX OF THE SEVEN REBUTTALS; NO JOINT EARNED; MAIN'S OW… |
 <!-- STATE:END -->
 
 ## Start here

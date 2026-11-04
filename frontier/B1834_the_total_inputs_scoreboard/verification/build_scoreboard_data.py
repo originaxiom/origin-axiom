@@ -23,6 +23,8 @@ for x in J:
     if x["id"] == "F7":          # S300c: verified, not proved; S301: PROVED (B1836)
         t = "FORCED-BY-MAIN"
         basis = "T-FRAME-MIRROR (B1836, S301): the mirror identity proved, given a mirror-invariant radius and the Higgs condition S(-conj tau) = QI conj(S) QI"
+    if x["id"] == "B02":         # S302: the S300 reason (copied from the reader) corrected at B1836/B1837
+        basis = "P-625 as corrected (B1836 sec. 3, B1837): the lane's selections (Theorems 19 B, 23, 41, 67) are chosen after 2/5 was known; a criterion reading no held-out quantity picks 2/5 for the channel-class gaps, and only the in-sample up-steeper order does under B1788's exponents; the slope stays borrowed"
     if x["id"] == "B47":         # S301: the stated torsion value verified on main (B1836); its use as a threshold stays B24's ansatz
         t = "VERIFIED-BY-MAIN"
         basis = "LAW_MAP 'THE TORSION OF M004 AT THE MERIDIAN HOLONOMY' (B1836): |Delta(omega)/(omega - 1)| = 4/sqrt3, verified by hand and on SnapPy's presentation"

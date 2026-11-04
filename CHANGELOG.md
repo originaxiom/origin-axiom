@@ -1,5 +1,13 @@
 # Changelog
 
+## S302 B1837 THE AGY LANE'S STAGES 8-9 AND THE WEB SEAT'S DENSITY HIGGS VERIFIED: MAIN STANDS ON SIX OF THE SEVEN REBUTTALS; NO JOINT EARNED; MAIN'S OWN FIREWALL EXPOSURE RECORDED (2026-11-04)
+
+- **The owner: "fetch agy", "refetch".** The agy lane's Stage 8 (317c04b58, Theorems 65–70) and Stage 9 (b66bfdf42, Theorems 71–76, a rebuttal of seven of main's findings) through the mask; the web seat's density Higgs (to 9a6847e7f). Main re-ran every banked check; identical.
+- **The rebuttals:** MAIN STANDS on six — at one Higgs every generation's lepton/down relation and ∣det∣ move at first order in h_I, only Σ-reflected forms match (main's chat concession that the determinant is h_I-even was wrong, corrected); frame B (Stage 9 computes nothing new; '4 − 2√3' again no torsion); the single-Higgs fit (chosen factors, one number renamed); the slope (spectral faithfulness restates B1836 § 3 and selects nothing under B1788's exponents); 21 = 3·7 (0 joints); provenance and the reading. MOOT on F7 (already proved).
+- **Banked:** the torsions of m004 at ω (abelian 4/√3; twisted 2, 5, 6; adjoint-twisted 6√3; adjoint relative to the longitude 3; none is 4 − 2√3; SnapPy's lift sends the relator to −I); m003 amphicheiral; the census closed forms and the near-null class; the density closed form proved (the cut not removed: A07 bears more load); P-670 narrowed to the F_a path. B1836 § 3 sharpened (dated note); the scoreboard's B02 text corrected.
+- **Exposures:** the lane's Theorems 61 (missed at S301), 66 and Stage 9's ledger counted; Theorem 68 computes r at its own cell, unpublished; 15 ranges sealed (90 exhibits). **Main's own:** the owner's paste of the lane's message put a P-585-type construction into main's context; counted, the integers kept out of every tracked file (P-679).
+- Rows 1559–1561; pins chat1 9a6847e7, agyaudit b66bfdf4; P-677–P-681; FLOOR 681. 0 of 19.
+
 ## S301 B1836 THE SEATS PAST S300, FETCHED AND VERIFIED: THE F7 MIRROR IDENTITY PROVED; T A SYMMETRY OF THE OUTPUTS; THE SLOPE NEED NOT SPEND THE HELD-OUT TARGET; NO BORROWED JOINT EARNED BY THE AGY LANE (2026-11-04)
 
 - **The owner: "fetch and verify agy and other seats".** Moved: the agy lane's audit branch (18c607040 → c5c9236df, Theorems 29–64), the web seat (→ 1adfefe7d: the singlet screened, the steepness map, the doublet index), the physical-bridge lane (→ 646492da1). Four readers (three through the mask, extended today to the PMNS and neutrino quantities); main re-ran every check it banks — each output identical.

@@ -1,0 +1,11 @@
+SnapPy presentation: ['a', 'b'] aaabABBAb meridian ab longitude aBAbABab phi {'a': 0, 'b': 1}
+lift flipped on a so that rho(R) = I; tr rho(meridian) = 2.0 ; tr rho(longitude) = -2.0
+(A) |Delta(om)/(om-1)| (abelian/Milnor)                 2.3094010767585   equals 4-2sqrt3: False
+(A) |Delta(om)| = |W_A (om-1)|                          4.0   equals 4-2sqrt3: False
+(S) |W_SL2C(t->1)|                                      2.0   equals 4-2sqrt3: False
+(S) |W_SL2C(t=om)|                                      5.0   equals 4-2sqrt3: False
+(S) |W_SL2C(t=-1)|                                      6.0   equals 4-2sqrt3: False
+(D) |W_Ad(om)| (adjoint twisted Alexander at om)        10.3923048454133   equals 4-2sqrt3: False
+(D) |T_lambda| = |lim W_Ad(t)/(t-1)|, t->1              2.999999999994   equals 4-2sqrt3: False
+lane: |Delta(om)| - 2|om - 1|                           0.535898384862245   equals 4-2sqrt3: True
+4/sqrt3 = 2.3094010767585 ; 4 - 2 sqrt3 = 0.535898384862245 = (sqrt3 - 1)^2: True

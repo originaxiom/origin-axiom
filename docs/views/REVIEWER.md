@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1540** |
-| words of findings prose | **1,294,978** |
+| research arcs with findings | **1541** |
+| words of findings prose | **1,296,666** |
 | test lock files referenced | **932** |
-| arcs carrying an authored verdict | **1540** (100.0 %) |
+| arcs carrying an authored verdict | **1541** (100.0 %) |
 | recorded closures | **858** (691 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1051 |
+| PROVED | 1052 |
 | NEGATIVE | 382 |
 | OPEN | 95 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1836`** (2057 words, 0 locks)  
-THE SEATS PAST S300 VERIFIED (the owner's 'fetch and verify agy and other seats'): the F7 mirror identity PROVED (T-FRAME-MIRROR; the agy lane's Theorem 60 repaired); T a symmetry of the frame's outputs (8e-13; main's S300 'T^2, not T' corrected); a criterion reading no held-out quantity picks the slope 2/5 (main's P-625 reason corrected; the slope stays borrowed); the F_a evaluator wrong by -i for Re tau >= 1 (P-670); P-634's first step: no cuspidal cohomology for m004's group at weights 0-3; B47 MATCH, B08 MISMATCH; P-639's mirror half NEGATIVE; the agy lane's Theorems 29-64 earn no borrowed joint, their looks at the held-out and PMNS targets counted, 23 ranges sealed; the web seat's singlet screen, steepness map and doublet index verified; the physical lane's E8 algebra verified with B = (kc_j)^-1. 0 of 19.  
-`B1836_the_seats_past_s300_verified/FINDINGS.md`
+**PROVED — `B1837`** (1603 words, 0 locks)  
+THE AGY LANE'S STAGES 8-9 AND THE WEB SEAT'S DENSITY HIGGS VERIFIED: main stands on six of the lane's seven rebuttals (the seventh, the mirror, already proved) -- at one Higgs every generation's lepton/down relation and |det| move at first order in h_I, only reflected forms match (main's chat concession corrected); the torsions of m004 at omega tabled (4/sqrt3; 2, 5, 6; 6 sqrt3; 3), none 4 - 2 sqrt3; m003 amphicheiral; spectral faithfulness selects nothing under B1788's exponents; the density Higgs's closed form proved but the cut not removed (A07 bears more load); no joint earned; exposures counted and 15 ranges sealed (90); main's own exposure through a pasted message recorded (P-679). 0 of 19.  
+`B1837_agy_stages_8_9_and_the_density_higgs/FINDINGS.md`
 
 **NEGATIVE — `B1825`** (1949 words, 0 locks)  
 THE NINE FROM ONE ADDRESS (THE FINAL ATTACK's Step B, P-495; sealed fa25925fc; NEGATIVE as sealed: NO SUPPORT): within the refined census's reach (266 lines of orders 1-12, twelve directions, both radii, eight readings, continuous tau with Im tau in [1, 4], c = 3) no rigid address of FR-FIB carries our world's ten (the six mass ratios, |V_us|, |V_cb|, |V_ub|, |J|): the least chi2_ten is 291.4 against 23.21 (a fresh evaluation 291.5; refereed by an independent scan of every stored node). The six alone are reached (least chi2_six 1.36) and the four alone are reached (0.35 at a node), never together: no address whose six lie near the best reaches the four (rigorous enclosures), and K's bits_CKM is -194 (knowing our six makes the frame's prediction of our mixing 2^194 times worse). The wall was seen on narrower menus (B1713: masses and mixing together a factor 3.59; B1720: they do not meet); this seals it on the whole menu at sigma resolution. NOT FOUND within the reach; nothing excluded beyond it. 0 of 19. [S298: the bar's grade is NOT FOUND (S not found, T consistent, no V cell); NEGATIVE is the kill graph's category; scope at H = I (B1822)]  

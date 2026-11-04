@@ -1,0 +1,7 @@
+charges mod 5: {'up': (1, 1), 'down': (1, 2), 'lep': (2, 1)} ; up self-transpose: True ; down/lepton transposes: True
+charges mod 4 (for main's wider domain): {'up': (1, 0), 'down': (1, 2), 'lep': (1, 2)}
+channel-class gaps (LAW_MAP / B1836)   lane {1/5, 2/5}            values {'1/5': {'up': '1/20', 'down': '1/20', 'lep': '1/20'}, '2/5': {'up': '3/20', 'down': '1/20', 'lep': '1/20'}} -> 'faithful': ['2/5']
+channel-class gaps (LAW_MAP / B1836)   main N|4 or 5 in (0,1/2]   values {'1/2': {'up': '1/4', 'down': '1/4', 'lep': '1/4'}, '1/4': {'up': '0', 'down': '0', 'lep': '0'}, '1/5': {'up': '1/20', 'down': '1/20', 'lep': '1/20'}, '2/5': {'up': '3/20', 'down': '1/20', 'lep': '1/20'}} -> 'faithful': ['2/5']
+B1788 e(m2/m3) on DR                   lane {1/5, 2/5}            values {'1/5': {'up': '1/10', 'down': '1/5', 'lep': '1/5'}, '2/5': {'up': '3/10', 'down': '1/5', 'lep': '1/5'}} -> 'faithful': ['1/5', '2/5']
+B1788 e(m2/m3) on DR                   main N|4 or 5 in (0,1/2]   values {'1/2': {'up': '1/2', 'down': '1/2', 'lep': '1/2'}, '1/4': {'up': '1/4', 'down': '1/4', 'lep': '1/4'}, '1/5': {'up': '1/10', 'down': '1/5', 'lep': '1/5'}, '2/5': {'up': '3/10', 'down': '1/5', 'lep': '1/5'}} -> 'faithful': ['1/5', '2/5']
+slopes in (0,1/2), N<=60: 550 ; lemma failures: 0 ; B1788 identity failures: 0 ; max gap 1/4 at ['1/8', '3/8'] ; fraction with up steeper: 183/550

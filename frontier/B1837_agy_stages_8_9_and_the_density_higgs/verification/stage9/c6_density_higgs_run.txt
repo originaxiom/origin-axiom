@@ -1,0 +1,5 @@
+(a,b)=(0.20,0.35): multiplier errors 6.2e-16 1.2e-15, residue error 1.8e-06
+(a,b)=(0.40,0.10): multiplier errors 4.4e-16 6.5e-16, residue error 1.1e-06
+(a,b)=(0.00,0.25): multiplier errors 6.9e-16 4.6e-16, residue error 3.1e-06
+int P conj(e_k) dA = -Im tau / kappa_k: worst relative error 1.6e-14 over 3 tau x 4 twists x 4 modes
+int_{|u|>eps} |P|^2 dA: increments per decade of eps 14.4686, 14.4663 ; 2 pi ln 10 = 14.4676 (log divergence: the norm needs a cut)

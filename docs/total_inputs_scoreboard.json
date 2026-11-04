@@ -565,7 +565,7 @@
      "name": "the slope of the line, 2/5 (and with it the line's order N)",
      "type": "CHOSEN",
      "lane_label": "FORCED: phase 1A (unique order N), Theorem 23 step 1 / Theorem 19 Part B (unique slope)",
-     "basis": "P-625 (S300): not value-free -- the within-sector hierarchy holds on 1/5 as on 2/5; what singles out 2/5 is the bottom/top ordering, so adopting it spends P-585's last held-out target",
+     "basis": "P-625 as corrected (B1836 sec. 3, B1837): the lane's selections (Theorems 19 B, 23, 41, 67) are chosen after 2/5 was known; a criterion reading no held-out quantity picks 2/5 for the channel-class gaps, and only the in-sample up-steeper order does under B1788's exponents; the slope stays borrowed",
      "feeds": [
       1,
       2,
