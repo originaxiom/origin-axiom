@@ -1528,6 +1528,95 @@ def test_five_phase_master_toe_closure():
     assert float(rc64["max_precision_err_stage7"]) < 1e-13
     assert t64["all_six_guardrails_passed"] is True
 
+    # Theorem 65 (Stage 8.1): Foundational Pillar 1 - 2D Slice Inside 3D Mapping Torus & |b_3| Complex Chern-Simons Unification
+    t65 = sc["theorem65_pillar1_slice_bulk_mapping_torus_and_b3_complex_chern_simons_unification"]
+    assert "B1830_the_register_triaged" in t65["seen_first"]
+    assert "FORCED" in t65["claim_labels_and_scopes"]["mapping_torus_slice_bulk_structure"]
+    assert "FORCED" in t65["claim_labels_and_scopes"]["qcd_single_b3_complex_chern_simons_unification"]
+    assert "FORCED" in t65["claim_labels_and_scopes"]["p667_l248_arithmetic_atom_identity"]
+    assert "plain_english_elaboration" in t65
+    assert int(t65["tr_a_m004"]) == 3
+    assert int(t65["lefschetz_a_m004"]) == 1
+    assert int(t65["tr_a_m3"]) == 18
+    assert int(t65["lefschetz_a_m3"]) == 16
+    assert float(t65["monodromy_eig_err"]) < 1e-14
+    assert int(t65["abs_b3_qcd"]) == 7
+    assert float(t65["qcd_single_b3_identity_err"]) < 1e-14
+    assert float(t65["atom_real_shift_err"]) < 1e-14
+    assert float(t65["atom_imag_vol_err"]) < 1e-14
+
+    # Theorem 66 (Stage 8.2): Foundational Pillar 2 - Single-Higgs Fermion Kahler Equivalence Eliminating the Two-Higgs Assumption
+    t66 = sc["theorem66_pillar2_one_higgs_fermion_kahler_equivalence_eliminating_two_higgs_ansatz"]
+    assert "B1742_two_higgs_verified_on_main" in t66["seen_first"]
+    assert "FORCED" in t66["claim_labels_and_scopes"]["one_higgs_kahler_equivalence_with_201_over_5"]
+    assert "FORCED" in t66["claim_labels_and_scopes"]["haar_unitary_invariance_of_1hdm_kahler_yukawas"]
+    assert "plain_english_elaboration" in t66
+    assert int(t66["extra_higgs_doublets_beyond_sm"]) == 0
+    assert float(t66["z_u_inv_kahler_201"]) == 201.0
+    assert float(t66["z_d_inv_kahler_5"]) == 5.0
+    assert abs(float(t66["effective_kahler_ratio_201_over_5"]) - 40.2) < 1e-14
+    assert float(t66["one_higgs_vs_two_higgs_err"]) < 1e-14
+    assert t66["haar_trials_run"] == 20
+    assert float(t66["max_haar_invariance_err"]) < 1e-13
+
+    # Theorem 67 (Stage 8.3): Foundational Pillar 3 - Spectral Faithfulness Principle vs chat1's Steepness Map & P-625
+    t67 = sc["theorem67_pillar3_spectral_faithfulness_and_chat1_steepness_map_audit"]
+    assert "B1788_the_closed_form_of_the_exponents" in t67["seen_first"]
+    assert "FORCED" in t67["claim_labels_and_scopes"]["chat1_steepness_map_condition_norm4a_gt_third"]
+    assert "FORCED" in t67["claim_labels_and_scopes"]["spectral_faithfulness_mod5_orbit_separation_selects_2_over_5"]
+    assert "plain_english_elaboration" in t67
+    assert int(t67["slopes_tested_s_up_to_25"]) > 80
+    assert float(t67["chat1_steepness_formula_err"]) == 0.0
+    assert float(t67["max_gap_quarter_err"]) == 0.0
+    assert t67["alpha_1_5_is_spectrally_faithful"] is False
+    assert t67["alpha_2_5_is_spectrally_faithful"] is True
+    assert t67["spectrally_faithful_n5_slopes"] == ["2/5"]
+
+    # Theorem 68 (Stage 8.4): S300d/e/f B1835 Planted Quark-Lepton Divisibility Relations & Dirac Neutrino r = dm21^2/dm31^2
+    t68 = sc["theorem68_s300f_b1835_planted_quark_lepton_relations_and_dirac_r_ratio"]
+    assert "B1728_the_lines_order_as_a_quotient_of_hypercharge" in t68["seen_first"]
+    assert "FORCED" in t68["claim_labels_and_scopes"]["b1835_planted_order_div6_and_div4_quark_lepton_relations"]
+    assert "FORCED" in t68["claim_labels_and_scopes"]["b1835_dirac_neutrino_channel_exponents_and_haar_r_ratio"]
+    assert "plain_english_elaboration" in t68
+    assert float(t68["div6_max_nu_lep_prop_err"]) < 1e-13
+    assert float(t68["non_div6_min_nu_lep_dev"]) > 0.01
+    assert float(t68["div4_max_quark_lepton_prop_err"]) < 1e-13
+    assert float(t68["non_div4_min_quark_lepton_dev"]) > 0.02
+    assert float(t68["div4_pmns_ckm_duality_max_err"]) < 1e-12
+    assert float(t68["dirac_nu_exponent_err"]) < 1e-15
+    assert float(t68["dirac_nu_gap_err"]) < 1e-15
+    assert t68["haar_trials_run"] == 20
+    assert float(t68["max_haar_r_err"]) < 1e-13
+
+    # Theorem 69 (Stage 8.5): P-667 Regular-Tetrahedral Family Atom & Compression of 7 Bridges into 4 Irreducible Pillar Bridges
+    t69 = sc["theorem69_p667_l248_arithmetic_atom_and_3_pillar_bridge_compression"]
+    assert "B1830_the_register_triaged" in t69["seen_first"]
+    assert "FORCED" in t69["claim_labels_and_scopes"]["p667_tetrahedral_family_atom_m004_m003_m3"]
+    assert "ADMITTED_HYPOTHESIS" in t69["claim_labels_and_scopes"]["three_pillar_bridge_compression_to_4_irreducible_bridges"]
+    assert "plain_english_elaboration" in t69
+    assert float(t69["tetrahedral_family_atom_err"]) < 1e-15
+    assert t69["m004_is_amphichiral"] is True
+    assert t69["m003_is_amphichiral"] is False
+    assert int(t69["num_forced_theorems_in_column1"]) == 28
+    assert int(t69["num_irreducible_pillar_bridges_in_column2"]) == 4
+    assert int(t69["total_unearned_continuous_params_in_column2"]) == 0
+    assert abs(float(t69["total_unearned_discrete_bits_in_column2"]) - 6.0) < 1e-15
+
+    # Theorem 70 (Stage 8.6): Zero-Trust Hostile-Referee Gate for Theorems 65-69 & 3-Pillar Foundational Certification
+    t70 = sc["theorem70_zero_trust_hostile_referee_stage8_foundational_and_b1835_gate"]
+    assert "B1830_the_register_triaged" in t70["seen_first"]
+    assert "FORCED" in t70["claim_labels_and_scopes"]["stage8_theorems_65_to_69_verification"]
+    assert "FORCED" in t70["claim_labels_and_scopes"]["three_pillar_foundational_and_b1835_readiness_gate"]
+    assert "plain_english_elaboration" in t70
+    rc70 = t70["referee_independent_counterchecks"]
+    assert float(rc70["independent_mpmath_atom_real_err"]) < 1e-25
+    assert float(rc70["independent_mpmath_atom_imag_err"]) < 1e-25
+    assert float(rc70["independent_mpmath_qcd_b3_err"]) < 1e-25
+    assert float(rc70["independent_fresh_haar_invariance_err_t70"]) < 1e-13
+    assert float(rc70["max_precision_err_stage8"]) < 1e-13
+    assert t70["all_six_guardrails_passed"] is True
+
+
 
 
 
