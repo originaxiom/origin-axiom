@@ -1,0 +1,65 @@
+(0) the instrument
+    ('1/7', '2/7') at tau (0.2+2.5j): the point frame rebuilt against rows_at (DR, L_max, S~SS): largest relative difference 0.0e+00; DR.DR against eta^6/4: 1.1e-15
+    ('3/8', '1/8') at tau (0.45+3.1j): the point frame rebuilt against rows_at (DR, L_max, S~SS): largest relative difference 0.0e+00; DR.DR against eta^6/4: 4.8e-16
+(1) the characters: 256 census lines (of 266; the family's slope refused) x 2 tau
+    multipliers: largest spread over the four sample points 8.9e-14; largest ||m| - 1| 8.3e-14; channel-points whose pairing vanishes at every sample point: 204
+    channel i against channel 1, (alpha, beta) shift: (0.0, 0.5) on 1408 (largest off 2.1e-15)
+    channel j against channel 1, (alpha, beta) shift: (0.5, 0.0) on 1398 (largest off 4.1e-15)
+    channel k against channel 1, (alpha, beta) shift: (0.5, 0.5) on 1398 (largest off 3.8e-15)
+    up's character times down's, distance from trivial: largest 3.8e-15;  leptons' against down's: largest 5.2e-15 (1860 channel-points)
+    lines where up's four characters all have order <= 2 (chi(6w) = 1; charge selection fails): 20: (0, 0), (0, 1/6), (0, 1/3), (0, 1/2), (1/6, 0), (1/6, 1/6), (1/6, 1/3), (1/6, 1/2), (1/6, 2/3), (1/6, 5/6), (1/3, 0), (1/3, 1/6), (1/3, 1/3), (1/3, 1/2), (1/3, 2/3), (1/3, 5/6), (1/2, 0), (1/2, 1/6), (1/2, 1/3), (1/2, 1/2)
+    the order-2 lines are the same at both tau: True
+(2) the closed form int P_s conj(e_k) dA = -R_s Im tau/kappa_k: 2052 (line, tau, sector, channel, k) cases on 30 lines x 2 tau; largest relative difference 7.2e-14, median 5.8e-15
+(3) the ground state: |kappa_2|/|kappa_1| - 1 per channel (a trivial character, kappa = 0 in the coset, counted apart)
+    on the chi(6w) = 1 lines: 360 channel-points, tied (< 1e-9) 360, largest gap 4.9e-15; trivial characters 64
+    on the other lines: 5516 channel-points, tied (< 1e-9) 9; smallest gap 0, median 0.351; trivial characters 0
+(4) the density frame against the point frame: 1652 points (236 lines with chi(6w) != 1 x 7 Im tau at Re tau 0.2)
+    density S,S~,S~  Im tau 2.0: median m2/m3 up 0.359, down 0.348, leptons 0.258; median m1/m3 up 0.0338, down 0.0261, leptons 0.0298; hierarchical in both quark sectors 0.000
+    density S,S~,S~  Im tau 2.5: median m2/m3 up 0.325, down 0.306, leptons 0.215; median m1/m3 up 0.00651, down 0.00426, leptons 0.00533; hierarchical in both quark sectors 0.017
+    density S,S~,S~  Im tau 3.0: median m2/m3 up 0.295, down 0.266, leptons 0.183; median m1/m3 up 0.00122, down 0.00066, leptons 0.00095; hierarchical in both quark sectors 0.055
+    density S,S~,S~  Im tau 3.5: median m2/m3 up 0.258, down 0.236, leptons 0.158; median m1/m3 up 0.00023, down 0.000114, leptons 0.000171; hierarchical in both quark sectors 0.076
+    density S,S~,S~  Im tau 4.0: median m2/m3 up 0.239, down 0.212, leptons 0.14; median m1/m3 up 4.29e-05, down 2.07e-05, leptons 3.13e-05; hierarchical in both quark sectors 0.076
+    density S,S~,S~  Im tau 5.0: median m2/m3 up 0.182, down 0.173, leptons 0.109; median m1/m3 up 1.12e-06, down 7.35e-07, leptons 1.08e-06; hierarchical in both quark sectors 0.093
+    density S,S~,S~  Im tau 6.0: median m2/m3 up 0.152, down 0.138, leptons 0.093; median m1/m3 up 3.17e-08, down 2.73e-08, leptons 3.67e-08; hierarchical in both quark sectors 0.144
+    density S~,S,S   Im tau 2.0: median m2/m3 up 0.355, down 0.335, leptons 0.312; median m1/m3 up 0.0289, down 0.0387, leptons 0.0412; hierarchical in both quark sectors 0.000
+    density S~,S,S   Im tau 2.5: median m2/m3 up 0.297, down 0.295, leptons 0.263; median m1/m3 up 0.00503, down 0.00788, leptons 0.00707; hierarchical in both quark sectors 0.017
+    density S~,S,S   Im tau 3.0: median m2/m3 up 0.249, down 0.26, leptons 0.229; median m1/m3 up 0.000906, down 0.00157, leptons 0.00119; hierarchical in both quark sectors 0.055
+    density S~,S,S   Im tau 3.5: median m2/m3 up 0.214, down 0.218, leptons 0.189; median m1/m3 up 0.000159, down 0.000326, leptons 0.000194; hierarchical in both quark sectors 0.076
+    density S~,S,S   Im tau 4.0: median m2/m3 up 0.187, down 0.194, leptons 0.152; median m1/m3 up 2.6e-05, down 6.7e-05, leptons 3.2e-05; hierarchical in both quark sectors 0.076
+    density S~,S,S   Im tau 5.0: median m2/m3 up 0.15, down 0.15, leptons 0.118; median m1/m3 up 7e-07, down 2.65e-06, leptons 8.61e-07; hierarchical in both quark sectors 0.093
+    density S~,S,S   Im tau 6.0: median m2/m3 up 0.125, down 0.121, leptons 0.0939; median m1/m3 up 2.38e-08, down 9.92e-08, leptons 2.48e-08; hierarchical in both quark sectors 0.093
+    point S~,S,S     Im tau 2.0: median m2/m3 up 0.0967, down 0.0936, leptons 0.109; median m1/m3 up 0.0167, down 0.0223, leptons 0.0143; hierarchical in both quark sectors 0.089
+    point S~,S,S     Im tau 2.5: median m2/m3 up 0.0343, down 0.0355, leptons 0.0543; median m1/m3 up 0.00279, down 0.00454, leptons 0.00237; hierarchical in both quark sectors 0.462
+    point S~,S,S     Im tau 3.0: median m2/m3 up 0.0136, down 0.0184, leptons 0.0279; median m1/m3 up 0.000439, down 0.000742, leptons 0.000336; hierarchical in both quark sectors 0.746
+    point S~,S,S     Im tau 3.5: median m2/m3 up 0.00617, down 0.00966, leptons 0.014; median m1/m3 up 6.45e-05, down 0.00012, leptons 4.36e-05; hierarchical in both quark sectors 0.797
+    point S~,S,S     Im tau 4.0: median m2/m3 up 0.00283, down 0.00485, leptons 0.00751; median m1/m3 up 1.01e-05, down 2.04e-05, leptons 5.85e-06; hierarchical in both quark sectors 0.831
+    point S~,S,S     Im tau 5.0: median m2/m3 up 0.000586, down 0.00136, leptons 0.00209; median m1/m3 up 1.95e-07, down 5.47e-07, leptons 1.15e-07; hierarchical in both quark sectors 0.856
+    point S~,S,S     Im tau 6.0: median m2/m3 up 0.000123, down 0.000387, leptons 0.000513; median m1/m3 up 3.71e-09, down 1.42e-08, leptons 2.42e-09; hierarchical in both quark sectors 0.780
+    density S,S~,S~  the median m2/m3's effective exponent between Im tau 2.0 and 2.5: up 0.032, down 0.041, leptons 0.058
+    density S,S~,S~  the median m2/m3's effective exponent between Im tau 2.5 and 3.0: up 0.030, down 0.045, leptons 0.052
+    density S,S~,S~  the median m2/m3's effective exponent between Im tau 3.0 and 3.5: up 0.043, down 0.038, leptons 0.045
+    density S,S~,S~  the median m2/m3's effective exponent between Im tau 3.5 and 4.0: up 0.025, down 0.035, leptons 0.040
+    density S,S~,S~  the median m2/m3's effective exponent between Im tau 4.0 and 5.0: up 0.043, down 0.032, leptons 0.039
+    density S,S~,S~  the median m2/m3's effective exponent between Im tau 5.0 and 6.0: up 0.029, down 0.036, leptons 0.026
+    density S~,S,S   the median m2/m3's effective exponent between Im tau 2.0 and 2.5: up 0.057, down 0.040, leptons 0.055
+    density S~,S,S   the median m2/m3's effective exponent between Im tau 2.5 and 3.0: up 0.055, down 0.040, leptons 0.043
+    density S~,S,S   the median m2/m3's effective exponent between Im tau 3.0 and 3.5: up 0.049, down 0.055, leptons 0.061
+    density S~,S,S   the median m2/m3's effective exponent between Im tau 3.5 and 4.0: up 0.043, down 0.038, leptons 0.070
+    density S~,S,S   the median m2/m3's effective exponent between Im tau 4.0 and 5.0: up 0.035, down 0.041, leptons 0.041
+    density S~,S,S   the median m2/m3's effective exponent between Im tau 5.0 and 6.0: up 0.029, down 0.034, leptons 0.036
+    point S~,S,S     the median m2/m3's effective exponent between Im tau 2.0 and 2.5: up 0.329, down 0.308, leptons 0.221
+    point S~,S,S     the median m2/m3's effective exponent between Im tau 2.5 and 3.0: up 0.296, down 0.210, leptons 0.212
+    point S~,S,S     the median m2/m3's effective exponent between Im tau 3.0 and 3.5: up 0.251, down 0.204, leptons 0.219
+    point S~,S,S     the median m2/m3's effective exponent between Im tau 3.5 and 4.0: up 0.249, down 0.220, leptons 0.198
+    point S~,S,S     the median m2/m3's effective exponent between Im tau 4.0 and 5.0: up 0.250, down 0.202, leptons 0.203
+    point S~,S,S     the median m2/m3's effective exponent between Im tau 5.0 and 6.0: up 0.249, down 0.200, leptons 0.224
+    within-pair weight differences at Im tau 2.0 (median over 634 sector-points): density |W1 - Wi|/|W1| 1.34, |Wj - Wk|/|Wj| 1.31; point |W1 - Wi|/|W1| 0.164, |Wj - Wk|/|Wj| 0.198
+    within-pair weight differences at Im tau 2.5 (median over 634 sector-points): density |W1 - Wi|/|W1| 1.17, |Wj - Wk|/|Wj| 1.2; point |W1 - Wi|/|W1| 0.0576, |Wj - Wk|/|Wj| 0.0925
+    within-pair weight differences at Im tau 3.0 (median over 634 sector-points): density |W1 - Wi|/|W1| 1.01, |Wj - Wk|/|Wj| 1.15; point |W1 - Wi|/|W1| 0.0253, |Wj - Wk|/|Wj| 0.0427
+    within-pair weight differences at Im tau 3.5 (median over 634 sector-points): density |W1 - Wi|/|W1| 0.927, |Wj - Wk|/|Wj| 1.03; point |W1 - Wi|/|W1| 0.0115, |Wj - Wk|/|Wj| 0.0201
+    within-pair weight differences at Im tau 4.0 (median over 634 sector-points): density |W1 - Wi|/|W1| 0.848, |Wj - Wk|/|Wj| 0.947; point |W1 - Wi|/|W1| 0.00523, |Wj - Wk|/|Wj| 0.00953
+    within-pair weight differences at Im tau 5.0 (median over 634 sector-points): density |W1 - Wi|/|W1| 0.708, |Wj - Wk|/|Wj| 0.781; point |W1 - Wi|/|W1| 0.00108, |Wj - Wk|/|Wj| 0.00251
+    within-pair weight differences at Im tau 6.0 (median over 634 sector-points): density |W1 - Wi|/|W1| 0.599, |Wj - Wk|/|Wj| 0.655; point |W1 - Wi|/|W1| 0.000225, |Wj - Wk|/|Wj| 0.00065
+(5) the density frame's covariance (largest change: the six; |V| and J, M with J -> -J), 20 points
+    S,S~,S~   A 4.1e-15; 2.1e-13  P 5.8e-15; 5.2e-15  N 1.8e-15; 7.6e-14  T 1.0e-15; 3.3e-14  M 1.2e-15; 5.7e-14
+    S~,S,S    A 4.1e-15; 2.6e-13  P 3.7e-15; 4.9e-14  N 2.2e-15; 3.8e-14  T 2.1e-15; 1.3e-13  M 1.7e-15; 6.0e-14
