@@ -1384,6 +1384,15 @@ A prospective addendum to control eight was written before implementation.
 This successor remains analytically unreviewed and does not inherit a
 real-gap derivative formula or an earlier execution certificate.
 
+After seals 329a910e9 and 46ac498f7, the new transport/end source implements
+all eight intended controls, including the response addendum. Only source
+reading, AST method population and hashes were inspected. The controls
+remain UNRUN, NOT IMPORTED OR COLLECTED. Their proposed environment is
+unrevalidated and their inventory supplies review custody rather than a
+complete execution seal. Independent review, main acceptance and strict
+admission remain required. This makes the new claims reviewable without
+changing the full mission's completion condition.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

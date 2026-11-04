@@ -53,7 +53,7 @@ On the A3 gauge-centralizer coefficients, all Higgs commutators vanish. The new 
 
     M_spin(u,v)=(i partial_t v,-i partial_t u), measure dt.
 
-The normalized translated functions `u_L=L^-1/2 chi((t-L^2)/L)` have residual `||chi'||/L`. They give a direct escaping sequence at zero in the complete doubled operator. The quaternion complete-cusp candidate therefore has zero essential spectrum at the origin and does not inherit the old Fredholm/index claim. Compact-core changes, vanishing tail perturbations and pulled-back finite covers preserve this particular channel. A surviving parallel gauge generator gives the same restriction even when other background pieces vary.
+The normalized translated functions `u_L=L^-1/2 chi((t-L^2)/L)` have residual `||chi'||/L`. They give a direct escaping sequence at zero in the complete doubled operator. Zero therefore lies in the quaternion complete-cusp candidate's essential spectrum, and it does not inherit the old Fredholm/index claim. Compact-core changes, vanishing tail perturbations and pulled-back finite covers preserve this particular channel. A surviving parallel gauge generator gives the same restriction even when other background pieces vary.
 
 The coherent electromagnetic repair preserves the peripheral commutator, so it preserves that end duty. A positive control in the same Pin2 family uses commuting rotation holonomies. Its flavour peripheral is I2 and the unbroken gauge spin fields remain antiperiodic, avoiding this particular free channel. The global spectrum and selection of that control are separate duties.
 
@@ -70,3 +70,9 @@ After `329a910e9`, `GAPLESS_CUSP_RESPONSE_AND_GAUGE_COUPLING.md` derives the act
 The source covariant kinetic term gives normalized colour-adjoint profiles their ordinary g4 coupling independent of translating their support down the cusp. Thus there is a physical interaction to retain when assessing this continuum. A normalizable embedded core state would need zero trace into every free channel, a separate kernel duty. No blanket exclusion of all physical states follows.
 
 A prospective addendum extends the eighth intended control with the actual doubled symbol, complex spectral response, induced norm and source gauge overlap. It was written before implementation. The successor is new UNREVIEWED analytical scope and has no scientific execution certificate.
+
+## Eight-control implementation now available for review
+
+After design/proof seal `329a910e9` and response-addendum seal `46ac498f7`, the exact eight methods are implemented in `verification_transport_end_2026_11_04/checks.py`. Existing D5 and E8-root definitions are reused. The full vector-plus-spin carrier, complete five-branch E8 action, centre kernels, Pin2 correction, state/word covariance and source centralizer mass rows are explicit.
+
+Only author source reading and stdlib AST/hash metadata were inspected. All eight controls are UNRUN, NOT IMPORTED OR COLLECTED. The source-review inventory is not a complete execution closure. Please scrutinize both proofs and this source before supplying any exact independent verdict or main acceptance. Existing external runs of the earlier five controls do not cover this package.

@@ -1,0 +1,113 @@
+{
+  "created_utc": "2026-11-04T12:40:08.682571+00:00",
+  "status": "SOURCE_IMPLEMENTED_UNREVIEWED_UNRUN_UNIMPORTED_UNCOLLECTED",
+  "parent_commit": "46ac498f78b7eb4e06ee39190136063d9f275611",
+  "design_commit": "329a910e9",
+  "response_addendum_commit": "46ac498f7",
+  "ast_only": true,
+  "test_methods": [
+    "test_full_root_central_phases_and_electromagnetic_lattice",
+    "test_actual_clifford_lift_of_d5_compensators",
+    "test_faithful_compensator_group_and_quotient_kernels",
+    "test_full_pin2_correction_and_retained_gauge_sectors",
+    "test_continuous_stabilizer_and_phase_constraint",
+    "test_based_and_all_word_holonomy_covariance",
+    "test_stationary_gluing_and_full_peripheral_table",
+    "test_actual_centralizer_mass_and_escaping_channel"
+  ],
+  "test_method_count": 8,
+  "declared_import_syntax": [
+    "from collections import Counter",
+    "from fractions import Fraction",
+    "from functools import lru_cache",
+    "from importlib.util import module_from_spec, spec_from_file_location",
+    "from itertools import combinations",
+    "from pathlib import Path",
+    "import unittest",
+    "import sympy as sp"
+  ],
+  "dynamic_source_imports": [
+    "verification_register_flavour_joint_2026_11_03/checks.py",
+    "verification_neutral_full_kernel_2026_11_02/checks.py"
+  ],
+  "scientific_execution": false,
+  "scientific_imports": false,
+  "test_collection": false,
+  "source_complete_execution_seal": false,
+  "independent_review": "OUTSTANDING_FOR_NEW_SCOPE",
+  "main_exact_acceptance": "NOT_OBTAINED",
+  "runtime_validated": false,
+  "old_stage_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "inventory": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md",
+      "sha256": "6012816683f17ac83e7d3bdb4f6d8b987ec8155ee2caa09ce651dbf0b194ed4c",
+      "bytes": 11130
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_QUATERNION_STATIONARY_BUNDLE_AND_CUSP_LAW.md",
+      "sha256": "221a7cd2dce2ff7dec0b135c348b7bb52e15bc27e5563d420756fbe31f9978a1",
+      "bytes": 16627
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PIN2_COMPENSATOR_COHERENCE_AND_ELECTROMAGNETIC_PHASE.md",
+      "sha256": "fc67d4446b11f54c731b7e7aac56b496e501d5fa397040363de6c8074909a3b9",
+      "bytes": 8892
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GAPLESS_CUSP_RESPONSE_AND_GAUGE_COUPLING.md",
+      "sha256": "e89a6b108bfa6bc0bc80f093b4e35aa24d04f9013842ef9ad90b9bcc61e2da50",
+      "bytes": 6639
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REDUCTION_CARD_05_COMPENSATOR_PHASE_AND_END_PRICE.md",
+      "sha256": "989f76dd135db24e9bad7bf387a5850f329f59c3f7d2ffbad3a40a9521e686fd",
+      "bytes": 4399
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_end_2026_11_04/DESIGN.md",
+      "sha256": "a0271816cf09305b0f0b1c1ea0ffe7bbe90e56783bdd112a904f219f3fadc7d4",
+      "bytes": 7076
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_end_2026_11_04/DESIGN_ADDENDUM_RESPONSE.md",
+      "sha256": "749f8539a0bf8cc2ebe2f3c3cdb4679b0c8960b1ebb4cc86a0bcc666cb46d755",
+      "bytes": 1688
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_end_2026_11_04/ENVIRONMENT.json",
+      "sha256": "51a0b8556f7e75fa5e1996224f2604c743c70c7e959890270e9d9d70ea9b7444",
+      "bytes": 467
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_end_2026_11_04/REVIEW_STATUS.md",
+      "sha256": "f1b67d4072ce9850aa47735222fdc1cde8a2d862bd57893043d4a3138f9d44b2",
+      "bytes": 1807
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_end_2026_11_04/SOURCE_INVENTORY.json",
+      "sha256": "22ce4f72e9a14c02bb11072989affae004fd0d14d343acb5b5140a5fd5da8224",
+      "bytes": 10580
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_end_2026_11_04/RESPONSE_SOURCE_RECEIPT.json",
+      "sha256": "1c46cc095b3fd8f140118cca8bb69a73d3ff095951179832b8840578feea6fcb",
+      "bytes": 1057
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_end_2026_11_04/checks.py",
+      "sha256": "f48fe7e06502ec915cfc48fe7a2dfde2b03b658b468fd93e45b3965fbdfe9d2a",
+      "bytes": 22081
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_register_flavour_joint_2026_11_03/checks.py",
+      "sha256": "d8eead96ab24a14087ef773d4dc20093f0ad9d84887a3446cd6fd711b0867bb3",
+      "bytes": 10166
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_neutral_full_kernel_2026_11_02/checks.py",
+      "sha256": "33cb0be8f8381e50faa672aa4da2e22b6b7478ed0d74b9d46b4cfbfda86271d5",
+      "bytes": 19244
+    }
+  ]
+}
