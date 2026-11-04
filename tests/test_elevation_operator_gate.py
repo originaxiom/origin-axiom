@@ -1282,6 +1282,91 @@ def test_five_phase_master_toe_closure():
     assert float(rc46["max_precision_err_stage4"]) < 1e-13
     assert t46["all_six_guardrails_passed"] is True
 
+    # Theorem 47 (Stage 5.1): Zero-Continuous-Parameter Rational Q_i Admixture (1/42 and 1/45) for HYP-05
+    t47 = sc["theorem47_hyp05_zero_continuous_param_kk_casimir_qi_admixture"]
+    assert "B1832_the_agy_lanes_digested" in t47["seen_first"]
+    assert "FORCED" in t47["claim_labels_and_scopes"]["exact_rational_kk_and_casimir_qi_scales"]
+    assert "ADMITTED_HYPOTHESIS" in t47["claim_labels_and_scopes"]["parameter_free_rational_d_and_btau_closure"]
+    assert t47["continuous_parameters_used"] == 0
+    assert float(t47["rational_identity_err"]) == 0.0
+    assert abs(float(t47["at_delta_i_kk_1_over_42"]["delta_i"]) - (1.0 / 42.0)) < 1e-15
+    assert abs(float(t47["at_delta_i_kk_1_over_42"]["rel_error_D_vs_10p58"])) < 0.006
+    assert float(t47["at_delta_i_kk_1_over_42"]["half_lift_qi_flipped_det_ratio_minus_1_err"]) < 1e-13
+    assert abs(float(t47["at_delta_i_casimir_1_over_45"]["delta_i"]) - (1.0 / 45.0)) < 1e-15
+    assert abs(float(t47["at_delta_i_casimir_1_over_45"]["rel_error_D_vs_10p58"])) < 0.006
+    assert float(t47["at_delta_i_casimir_1_over_45"]["half_lift_qi_flipped_det_ratio_minus_1_err"]) < 1e-13
+    assert abs(float(t47["at_delta_i_midpoint_29_over_1260"]["rel_error_D_vs_10p58"])) < 1e-4
+    assert t47["haar_trials_run"] == 20
+    assert float(t47["max_haar_invariance_err"]) < 1e-13
+
+    # Theorem 48 (Stage 5.2): Z_3 Galois Character Projectors & 18D Hypercharge Trace 201/5 = 40.2 for HYP-01 & HYP-02
+    t48 = sc["theorem48_hyp01_hyp02_galois_z3_character_projector_and_kahler_trace"]
+    assert "B1832_the_agy_lanes_digested" in t48["seen_first"]
+    assert "FORCED" in t48["claim_labels_and_scopes"]["z3_galois_character_projectors_on_m3"]
+    assert "FORCED" in t48["claim_labels_and_scopes"]["three_sheeted_bilinear_hypercharge_trace_201_over_5"]
+    assert float(t48["z3_projector_err"]) < 1e-15
+    assert float(t48["rho_branch_trace_err"]) < 1e-15
+    assert float(t48["rho_branch_eigs_err"]) < 1e-15
+    assert float(t48["tr_y16_squared"]) == 120.0
+    assert float(t48["tr_total_18"]) == 201.0
+    assert float(t48["tr_down_single_sheet"]) == 5.0
+    assert abs(float(t48["tan_beta_from_18d_trace"]) - 40.2) < 1e-15
+    assert float(t48["tan_beta_201_over_5_err"]) < 1e-15
+    assert t48["haar_trials_run"] == 20
+    assert float(t48["max_haar_invariance_err"]) < 1e-13
+
+    # Theorem 49 (Stage 5.3): Explicit SU(3)_c Gell-Mann Casimir 4/3 & su(4)_C Pati-Salam B-L Ratio -1/3 for HYP-03 & HYP-04
+    t49 = sc["theorem49_hyp03_hyp04_kk_casimir_matching_and_spin10_126_clebsch_algebra"]
+    assert "B1832_the_agy_lanes_digested" in t49["seen_first"]
+    assert "FORCED" in t49["claim_labels_and_scopes"]["su3_gell_mann_casimir_and_kk_quadrature_67_over_315"]
+    assert "FORCED" in t49["claim_labels_and_scopes"]["su4_pati_salam_b_minus_l_clebsch_minus_third"]
+    assert float(t49["su3_casimir_matrix_err"]) < 1e-15
+    assert float(t49["su3_killing_orth_err"]) < 1e-15
+    assert float(t49["yt2_quad_minus_67_over_315_err"]) < 1e-15
+    assert float(t49["tr_b_minus_l_err"]) < 1e-15
+    assert float(t49["clebsch_minus_third_err"]) < 1e-15
+    assert t49["haar_trials_run"] == 20
+    assert float(t49["max_haar_invariance_err"]) < 1e-13
+
+    # Theorem 50 (Stage 5.4): Quillen Anomaly C_QCD = 66 => 264*pi & First-Principles Clausen/Trigamma Vol(m004) for HYP-06 & HYP-07
+    t50 = sc["theorem50_hyp06_hyp07_aps_eta_strong_cp_counterterm_and_m004_clausen_gravity"]
+    assert "B1832_the_agy_lanes_digested" in t50["seen_first"]
+    assert "FORCED" in t50["claim_labels_and_scopes"]["quillen_determinant_line_anomaly_264_pi_and_132_pi"]
+    assert "FORCED" in t50["claim_labels_and_scopes"]["first_principles_clausen_trigamma_volume_of_m004"]
+    assert t50["c_qcd_anomaly_66"] == 66
+    assert t50["coeff_a_shift_264"] == 264
+    assert t50["coeff_t_shift_132"] == 132
+    assert float(t50["quillen_coeff_err"]) == 0.0
+    assert abs(float(t50["vol_m004_from_polylog"]) - 2.0298832128193072) < 1e-15
+    assert abs(float(t50["vol_m004_from_trigamma"]) - 2.0298832128193072) < 1e-15
+    assert float(t50["vol_m004_clausen_err"]) < 1e-15
+    assert float(t50["vol_m004_trigamma_err"]) < 1e-15
+
+    # Theorem 51 (Stage 5.5): Updated Two-Column Ledger with 16 FORCED Theorems and ZERO Continuous Parameters
+    t51 = sc["theorem51_updated_two_column_ledger_zero_continuous_parameters"]
+    assert "B1832_the_agy_lanes_digested" in t51["seen_first"]
+    assert t51["main_official_scorecard"] == "0 of 19"
+    assert t51["imported_dimensionful_anchors_beyond_v_EW"] == []
+    assert t51["total_observables_in_scorecard"] == 23
+    ul51 = t51["unearned_inputs_ledger"]
+    assert ul51["num_forced_theorems"] == 16
+    assert ul51["num_admitted_hypothesis_bridges"] == 7
+    assert float(ul51["total_unearned_discrete_bits_in_column1"]) == 0.0
+    assert int(ul51["total_unearned_continuous_params_in_column1"]) == 0
+    assert int(ul51["total_unearned_continuous_params_in_column2"]) == 0
+
+    # Theorem 52 (Stage 5.6): Zero-Trust Hostile-Referee Gate for Theorems 47-51
+    t52 = sc["theorem52_zero_trust_hostile_referee_bridge_promotion_gate"]
+    assert "B1832_the_agy_lanes_digested" in t52["seen_first"]
+    assert "FORCED" in t52["claim_labels_and_scopes"]["stage5_theorems_47_to_51_verification"]
+    assert "FORCED" in t52["claim_labels_and_scopes"]["zero_continuous_parameter_two_column_gate"]
+    rc52 = t52["referee_independent_counterchecks"]
+    assert float(rc52["independent_mpmath_vol_m004_err"]) < 1e-15
+    assert float(rc52["independent_mpmath_z3_orth_err"]) < 1e-15
+    assert float(rc52["independent_fresh_haar_invariance_err_t52"]) < 1e-13
+    assert float(rc52["max_precision_err_stage5"]) < 1e-13
+    assert t52["all_six_guardrails_passed"] is True
+
 
 
 
