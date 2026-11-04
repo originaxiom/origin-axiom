@@ -385,6 +385,48 @@ In **`Theorems 29 through 34`** in `src/origin_axiom/toe_closure.py` and `tests/
 6. **`Theorem 34` (`theorem34_bridge6_zero_trust_hostile_referee_readiness_gate`, Bridge 6, `FORCED`):**
    - Independently counterchecks `Theorems 29–33` in 30-digit `mpmath` arithmetic (`independent_mpmath_fd_grad_norm_t29 = 1.13e-14 < 1e-13`, `independent_mpmath_eps_kk_1_over_21_err = 0.0`, `independent_mpmath_yt2_67_over_315_err = 2.47e-32 < 1e-15`, `max_precision_err_across_bridges_1_to_5 = 2.03e-14 < 1e-13`) and certifies all 6 Guardrails (`all_six_guardrails_passed == True`).
 
+---
+
+## 11. Update (Theorems 35–40 & `B1832` S299b Remediation): Banked-Theorem Verification, Higgs Singlet Law, Strong Angle Rule, and Complete 23-Observable Parameter Table
+
+Following `origin/main` commits `2b78b2b5c` (`S299b B1832: THE AGY LANES DIGESTED (P-621)`) and `41420ae14` (`S299 Review 74 B1831`), we remediated all `B1832` §4 items across `Theorems 18–34` and implemented and verified (`< 1e-13`) **`Theorems 35 through 40`** in `src/origin_axiom/toe_closure.py` and `tests/test_elevation_operator_gate.py`:
+
+### 11.1 `B1832` §4 Remediation Summary Across `Theorems 18–34`
+1. **Exact `frontier/B*` Directory Names in `seen_first`:** Replaced all 34 shorthand `B*` strings across `Theorems 18–34` with exact directory names (`B1656_the_electrons_zero`, `B1667_the_canonical_cusp`, `B1728_the_lines_order_as_a_quotient_of_hypercharge`, `B1742_two_higgs_verified_on_main`, `B1782_the_dark_energy_gate`, `B1785_the_slope_sets_the_exponents`, `B1821_the_frames_mirror_symmetry_in_re_tau`, `B1822_the_covers_commutant_and_the_remaining_doors`, `B1823_the_null_cones_ckm_bound_at_the_best_address`, `B1824_the_covers_holonomy_for_the_first_generation`, `B1825_the_4d_higgs_direction_census`, `B1826_the_audit_lanes_digested`, `B1827_the_framing_ledger`, `B1830_the_register_triaged`, `B1831_review_74_the_decadal_review`, `B1832_the_agy_lanes_digested`), verified by `scripts/checks/check_path_references.py`.
+2. **`Theorem 22` Part D (`B1832` §4.1):** Replaced the identity subtraction `abs((9.0 * r_bare) - 9.0 * r_bare)` with an independent algebraic SVD computation of $D_{c=3}^{\text{bare}} = 9 \cdot \frac{\sigma_2(Y_e)/\sigma_1(Y_e)}{\sigma_2(Y_d)/\sigma_1(Y_d)}$ directly from `quaternionic_4d_yukawa` (`err == 0.0`).
+3. **`Theorem 24` Docstring & Precision (`B1832` §4.2):** Corrected the docstring to state that $V_{\text{flux+Cas}}$ stabilizes $\operatorname{Im}\tau^* = 2.41187$ at the $\operatorname{Re}\tau \in \mathbb{Z}$ reflection-symmetric strip lines $m_j \in \{-1, +2, 0, -2, +1\}$, and set `dps = 30` so `max_t_equivariance_err_across_5_lines == 9.33e-15 < 1e-13`.
+4. **`Theorem 26` Docstring & Scope (`B1832` §4.2):** Updated the docstring and scope tag to explicitly state that `Theorem 26` resolves the atmospheric mixing no-go ($\sin^2\theta_{23} = 0.4058$ vs `0.0337` in `Theorem 13`) while reactor mixing $\sin^2\theta_{13} = 0.1721$ is subsequently suppressed to $0.02393$ in `Theorem 33` via the $\operatorname{Spin}(10)$ $(B-L) = -1/3$ Clebsch–Gordan factor.
+5. **`Theorem 27` Scope Labeling (`B1832` §4.2):** Explicitly labeled the imported PDG electroweak inputs ($\sin^2\theta_W(M_Z) = 0.23121$, $\alpha_{\text{EM}}^{-1}(M_Z) = 127.951$) in `t27["part_B_single_anchor_planck_and_dark_energy"]["imported_dimensionless_ew_couplings"]`.
+6. **`Theorems 28 & 34` Guardrail 2 Strict `< 1e-13` Gate (`B1832` §4.2):** Tightened `guardrail2_no_proof_by_literal_flag_all_identities_computed_below_1e13` from `< 1e-12` to `< 1e-13` (`max_precision_err_across_hw1_to_hw5 = 1.17e-14 < 1e-13` and `max_precision_err_across_bridges_1_to_5 = 2.03e-14 < 1e-13`).
+
+### 11.2 Summary of `Theorems 35 through 40`
+1. **`Theorem 35` (`theorem35_b1832_banked_theorems_and_audit_remediation`, `FORCED`):**
+   - Independently verifies all seven `B1832` §1 banked theorems and identities to `< 1e-14`:
+     - `T-KERNEL-SUM-TWIST` & `RI-1` analytic Laurent derivative $a_0^{(s)} = (\log\Theta_s)'(0)$ (`max_ri1_laurent_derivative_err = 5.57e-15 < 1e-14`).
+     - `T-RESIDUE-THETA-PRODUCTS` $R_s = \frac{i\theta_{1+s_1}(v_-)\theta_{1+s_2}(v_+)}{\eta(\tau)^3}$ (`max_residue_theta_product_err = 7.11e-15 < 1e-14`) and the exact **two-component** $R_i^{\text{up}}$ nodal locus $\{5w \equiv 1/2 \pmod 1\} \cup \{3w \equiv 1/2 \pmod 1\}$ (`max_ri_up_nodal_zero_err = 3.98e-17 < 1e-15`, correcting the incomplete single-locus claim `5w in Z + 1/2`).
+     - `T-LL-DOUBLING` on $(-3, -3)$ ($R_1^{LL} = 0$ to `3.17e-18`, $|R_s^{LL}| = |\theta_{1+s_1}(-6w)\theta_{1+s_2}(0)|/|\eta|^3$ to `4.11e-15`).
+     - `T-HALF-LIFT-LEPTON-DOWN` with order-8 $a_0 \neq 0$ spectrum splitting (`order8_a0_nonzero_sv_splitting = 0.8734 > 0.1`, proving equality holds on order-8 half-lifts only at $a_0 = 0$ whereas order-10 half-lifts satisfy $u_1^e = +\lambda u_1^d$ and $|\det Y_e/\det Y_d| = 1$ for all $a_0$).
+     - `T-FA-NORM` polynomial identity $\vec{v}\cdot\vec{v} = X^n + Y^n - (X+Y)^n$ yielding $-80\eta^{12}E_4$ for $F_{10}$ ($n=5$) and $-48\eta^{12}$ for $F_6$ ($n=3$) (`max_fa_norm_polynomial_err_n1_to_6 = 2.39e-16`).
+     - `T-FRAME-MIRROR-MATRIX` $Y_s((\alpha, -b), -\bar{\tau}) = P\overline{Y_s((\alpha, b), \tau)}P$ with $P = \operatorname{diag}(1, 1, -1)$ (`frame_mirror_matrix_err = 6.66e-16 < 1e-14`, while unconjugated per-sector control differs by `6.61`).
+2. **`Theorem 36` (`theorem36_higgs_singlet_t_multiplier_and_admissible_eta3_law`, `FORCED`):**
+   - Independently proves and verifies (`< 1e-14`) `THE HIGGS SINGLET'S LAW` (`P-591`, `P-566`, `FL-06`, `origin/chat1/web-seat` `46291f9f3`):
+     - Both $\text{DR}(\tau)$ and $\frac{1}{2}\eta(\tau)^3 = \sqrt{\text{DR}(\tau)\cdot\text{DR}(\tau)}$ carry the exact eighth-root $T$-multiplier $e^{i\pi/4}$ (`half_eta3_t_multiplier_err = 0.0`, `h_t_multiplier_err = 3.10e-17`, `half_eta3_sq_minus_h_dot_h_err = 1.24e-17`).
+     - Mirror covariance $S(-\bar{\tau}) = -M_3 \overline{S(\tau)}^T M_3$ requires $\sigma(-\bar{\tau}) = -\overline{\sigma(\tau)}$, selecting $\sigma(\tau; r) = i r \eta(\tau)^3 / 2$ ($r \in \mathbb{R}$) with $\sigma(\tau; r)^2 + \vec{h}(\tau)\cdot\vec{h}(\tau) = (1 - r^2)\eta(\tau)^6 / 4$ (`quadratic_det_factor_1_minus_r2_err = 1.24e-17`).
+     - Complete observable equivalence across all 5 generators $(A, P, N, T, M)$ at $r = 0.73$ (`max_apntm_observable_invariance_err = 4.27e-15 < 1e-13`).
+3. **`Theorem 37` (`theorem37_single_line_qi_singlet_d_and_btau_closure_at_unified_vacuum`, `FORCED` + `ADMITTED_HYPOTHESIS`):**
+   - Verifies that on $(2/5, 1/10)$, $|\det Y_e(S(\tau; r)) / \det Y_d(S(\tau; r))| = 1$ holds to `7.12e-14 < 1e-13` (`FORCED`) across $r \in \{0.0, 0.4, 0.73, 1.5\}$ at both $(\tau^*, L_2(\tau^*))$ and $(\tau_{\text{Golden}}, L_2(\tau_{\text{Golden}}))$.
+   - At $(\tau^*, L_2(\tau^*))$, a pure $Q_i$ admixture $\delta_i = 0.0221$ shifts $D_{c=3}$ from $9.0000$ to $10.58$ while preserving $y_\tau/y_b = 0.9965$ (`ADMITTED_HYPOTHESIS`), with Haar unitary invariance verified to `9.82e-14 < 1e-13` across 20 trials (`Guardrail 3`, `FORCED`).
+4. **`Theorem 38` (`theorem38_strong_cp_theta_counterterm_rule_and_fpst_closure`, `FORCED` + `ADMITTED_HYPOTHESIS`):**
+   - Independently proves and verifies (`< 1e-13`) `THE STRONG ANGLE NEEDS A RULE` (`P-323`, `P-569`, `P-597`, `B1831`, `origin/chat1/web-seat` `8ed19bbd4`):
+     - Under $(A, P, N, T, M)$, $\theta_Y = \arg\det(Y_u Y_d)$ in $(\tilde{S}, S)$ shifts by $(+264\pi a, 0, 0, -132\pi a^2 - \pi/2, -\theta_Y) \pmod{2\pi}$ (`max_cocycle_shift_err = 4.06e-14 < 1e-13`, `FORCED`).
+     - On $a = 2/5$, $\langle A, T\rangle$ generates a cyclic ambiguity group $\mathbb{Z}/N_\theta\mathbb{Z}$ of exact order $N_\theta = \operatorname{lcm}(5, 100) = 100$ (`FORCED`).
+     - The linear counterterm $\theta_{\text{ct}}(a, b, \tau) = -264\pi a_{\text{rep}} b_{\text{rep}} + (\frac{\pi}{2} - 132\pi a_{\text{rep}}^2)\operatorname{Re}\tau$ makes $\bar{\theta}_{\text{inv}} = \theta_Y + \theta_{\text{ct}} \pmod{2\pi}$ strictly invariant under $A, P, N, T$ and odd under $M$ (`max_theta_bar_inv_apntm_err = 5.83e-14 < 1e-13`, `ADMITTED_HYPOTHESIS`).
+5. **`Theorem 39` (`theorem39_complete_unified_sm_parameter_derivation_table`, `FORCED` + `ADMITTED_HYPOTHESIS` + `OPEN`):**
+   - Compiles the complete 23-observable non-dimensionalized table under sole dimensionful anchor $v_{\text{EW}} = 246.21965\text{ GeV}$ (`imported_dimensionful_anchors_beyond_v_EW = []`, `Guardrail 5`) at both $(\tau^*, L_2(\tau^*))$ and $(\tau_{\text{Golden}}, L_2(\tau_{\text{Golden}}))$, with `main_official_scorecard = "0 of 19"` and explicit scope labels.
+6. **`Theorem 40` (`theorem40_zero_trust_hostile_referee_b1832_and_full_sm_gate`, `FORCED`):**
+   - Independently counterchecks `Theorems 35–39` in 30-digit `mpmath` arithmetic (`independent_mpmath_t_multiplier_err = 1.74e-32`, `independent_mpmath_ct_A_shift_err = 5.05e-29`, `independent_mpmath_ct_T_shift_err = 1.26e-29`, `independent_fresh_haar_invariance_err_t40 = 4.44e-16`, `max_precision_err_stage3 = 9.82e-14 < 1e-13`) and certifies all 6 Guardrails (`all_six_guardrails_passed == True`).
+
+
 
 
 
