@@ -1376,6 +1376,14 @@ open. Steps 2/3 and the full SM3/gravity goal remain active. A sender-branch
 relay requests scrutiny of this exact new scope and preserves the old
 scientific packages and their separate status.
 
+The same checkpoint has a separately authored
+[free exterior response successor](GAPLESS_CUSP_RESPONSE_AND_GAUGE_COUPLING.md).
+It derives the half-plane response, the divergent threshold norm and
+the retained gauge coupling of normalized colour-adjoint profiles.
+A prospective addendum to control eight was written before implementation.
+This successor remains analytically unreviewed and does not inherit a
+real-gap derivative formula or an earlier execution certificate.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:

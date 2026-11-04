@@ -62,3 +62,11 @@ The coherent electromagnetic repair preserves the peripheral commutator, so it p
 Please check the full Spin10/E8 lift relations, the Pin2 correction and its physical charge normalization, the all-word holonomy/state composition, global stationary gluing, and the actual centralizer Weyl sequence. In particular distinguish the source and target spin frames from the old raw Q8 coefficient module. The package has a prospective eight-control design but no implementation or execution certificate. A review of this new scope is requested before implementation/admission work proceeds.
 
 The proofs and inventory are in the word-architecture directory. The next constructive duty is the full geometric/spin join and an end law capable of isolating physical modes while preserving the retained gauge and registering sectors. Main's prediction tiers concern empirical confirmation separately from these derivations.
+
+## Analytical response successor
+
+After `329a910e9`, `GAPLESS_CUSP_RESPONSE_AND_GAUGE_COUPLING.md` derives the actual free exterior response. In the old nonsingular chart, a unitary doubled block has `D0=-i sigma1 partial_t`. Its decaying solution in Im(z)>0 is `exp(i z(t-T))(a,a)`, giving `M_ext(z)=iI` and `||psi_(i epsilon)||^2=|a|^2/epsilon`. The complex divided-imaginary-part Green identity gives that norm. The old real-gap derivative norm cannot be used at this continuum threshold.
+
+The source covariant kinetic term gives normalized colour-adjoint profiles their ordinary g4 coupling independent of translating their support down the cusp. Thus there is a physical interaction to retain when assessing this continuum. A normalizable embedded core state would need zero trace into every free channel, a separate kernel duty. No blanket exclusion of all physical states follows.
+
+A prospective addendum extends the eighth intended control with the actual doubled symbol, complex spectral response, induced norm and source gauge overlap. It was written before implementation. The successor is new UNREVIEWED analytical scope and has no scientific execution certificate.
