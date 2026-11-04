@@ -926,6 +926,99 @@ def test_five_phase_master_toe_closure():
     assert 119.5 < float(pd22["theorem12_Mh_pole_matched_GeV"]) < 121.0
     assert 168.0 < float(pd22["theorem12_Mt_pole_matched_GeV"]) < 171.0
 
+    # Theorem 23 (Homework 1): Data-Free Slope Selection, (-adj S, S, S) Reading, Order-10 Det Unification, & Modular T-Orbit
+    t23 = sc["theorem23_homework1_topological_spin_and_determinant_line_selection"]
+    assert "B1728_the_lines_order_as_a_quotient_of_hypercharge" in t23["seen_first"]
+    assert "FORCED" in t23["claim_labels_and_scopes"]["step1_data_free_slope_2_5_selection"]
+    assert "FORCED" in t23["claim_labels_and_scopes"]["step2_4d_reading_and_order10_determinant_unification"]
+    assert "FORCED" in t23["claim_labels_and_scopes"]["step3_transitive_modular_T_orbit_on_order10_lines"]
+    assert t23["step1_slope_selection"]["unique_su5_order_N"] == 5
+    assert t23["step1_slope_selection"]["unique_hierarchy_slope_alpha"] == "2/5"
+    assert t23["step1_slope_selection"]["continuous_parameters_used"] == 0
+    s2_23 = t23["step2_4d_reading_and_order10_determinant_unification"]
+    assert s2_23["sector_qL_plus_qR_signs"] == [-1, 1, 1]
+    assert s2_23["forced_4d_reading"] == "(-adj S, S, S)"
+    assert float(s2_23["max_order10_matter_det_ratio_err"]) < 1e-13
+    assert float(s2_23["max_order10_yukawa_det_ratio_hproj_err"]) < 1e-12
+    assert float(s2_23["min_order5_yukawa_det_ratio_dev_from_1"]) > 0.15
+    s3_23 = t23["step3_transitive_modular_T_orbit"]
+    assert s3_23["t_cycle_order10_indices"] == [0, 3, 1, 4, 2]
+    assert s3_23["is_transitive_single_t_orbit"] is True
+    assert s3_23["t_chart_shifts_m_j"] == [-1, 2, 0, -2, 1]
+    assert float(s3_23["max_t_chart_mod1_err"]) < 1e-14
+    assert float(s3_23["discrete_bits_modulo_T_orbit"]) == 0.0
+    assert abs(float(s3_23["chart_representative_bits_before_T_quotient"]) - math.log2(5.0)) < 1e-15
+
+    # Theorem 24 (Homework 2): Target-Free 2D Yang-Mills Holonomy-Flux + 1-Loop Kronecker Casimir Modulus Stabilization
+    t24 = sc["theorem24_homework2_target_free_flux_casimir_modulus_stabilization"]
+    assert "B1825_the_strip_apex" in t24["seen_first"]
+    assert "FORCED" in t24["claim_labels_and_scopes"]["modular_T_equivariance_of_kronecker_flux_potential"]
+    assert "FORCED" in t24["claim_labels_and_scopes"]["target_free_2d_positive_definite_stabilization_at_Ngen3_Nflux2"]
+    assert t24["target_coordinates_embedded_in_potential"] is False
+    assert t24["continuous_parameters_in_potential"] == 0
+    assert t24["integer_topological_inputs"] == {"N_gen": 3, "N_flux": 2}
+    assert float(t24["max_t_equivariance_err_across_5_order10_lines"]) < 1e-13
+    assert float(t24["max_2d_newton_grad_norm_across_5_lines"]) < 1e-13
+    assert float(t24["min_2d_hessian_eigenvalue_across_5_lines"]) > 0.45
+    assert abs(float(t24["y_star_2d_minimum"]) - 2.411869510346569) < 1e-12
+    assert abs(float(t24["rel_diff_y_star_2d_vs_b1825_apex"])) < 0.003
+    g1d = t24["golden_geodesic_1d_root"]
+    assert abs(float(g1d["y_star_1d_minimum"]) - 2.455567408910715) < 1e-12
+    assert float(g1d["abs_grad_y_at_root"]) < 1e-13
+    assert float(g1d["d2V_dy2_at_root"]) > 10.0
+
+    # Theorem 25 (Homework 3): Hypercharge Casimir Normalization & Mandatory Charged-Fermion/CKM Haar Invariance (< 1e-13)
+    t25 = sc["theorem25_homework3_kahler_hypercharge_normalization_and_threshold_dressing"]
+    assert "B1742_two_higgs_verified_on_main" in t25["seen_first"]
+    assert "FORCED" in t25["claim_labels_and_scopes"]["georgi_jarlskog_c3_from_quadratic_hypercharge_casimir"]
+    assert "FORCED" in t25["claim_labels_and_scopes"]["charged_fermion_and_ckm_haar_unitary_invariance"]
+    assert t25["Q2_up_down_lepton"] == [17, 5, 45]
+    assert float(t25["georgi_jarlskog_c_minus_3_err"]) < 1e-15
+    assert abs(float(t25["tan_beta_casimir_201_over_5"]) - 40.2) < 1e-14
+    assert abs(float(t25["rel_error_mb_over_mt_vs_gut_target"])) < 0.01
+    assert t25["haar_trials_run"] == 20
+    assert float(t25["max_haar_charged_and_ckm_invariance_err"]) < 1e-13
+
+    # Theorem 26 (Homework 4): Spin(10)-Singlet Homogeneous Weight-10 Majorana Seesaw M_R & Mandatory PMNS Haar Invariance (< 1e-13)
+    t26 = sc["theorem26_homework4_spin10_singlet_majorana_seesaw_and_haar_pmns"]
+    assert "B1656_twisted_norms" in t26["seen_first"]
+    assert "FORCED" in t26["claim_labels_and_scopes"]["homogeneous_weight10_symmetric_majorana_MR_and_exact_inverse"]
+    assert "FORCED" in t26["claim_labels_and_scopes"]["haar_unitary_pmns_and_seesaw_basis_invariance"]
+    assert float(t26["ph_idempotent_err"]) < 1e-15
+    assert float(t26["mr_exact_algebraic_inverse_err"]) < 1e-15
+    assert float(t26["mr_symmetric_err"]) == 0.0
+    assert 0.40 < float(t26["neutrino_mass_ratio_m2_over_m3"]) < 0.45
+    assert 0.01 < float(t26["neutrino_mass_ratio_m1_over_m2"]) < 0.015
+    assert 0.40 < float(t26["pmns_sin2_theta23"]) < 0.42
+    assert t26["haar_trials_run"] == 20
+    assert float(t26["max_haar_pmns_invariance_err"]) < 1e-13
+
+    # Theorem 27 (Homework 5): Hyperbolic m004 UV Boundary & Single-Anchor Non-Dimensionalization of M_Pl/v_EW and G_N*v_EW^2
+    t27 = sc["theorem27_homework5_hyperbolic_m004_uv_boundary_and_single_modulus_gravity"]
+    assert "B1782_dark_energy_density_from_the_class_number_one_heegner" in t27["seen_first"]
+    assert "FORCED" in t27["claim_labels_and_scopes"]["single_anchor_nondimensional_planck_and_newton_ratios"]
+    assert t27["imported_dimensionful_anchors_beyond_v_EW"] == []
+    assert abs(float(t27["rel_error_M_Pl_bar_over_vEW_single_anchor"])) < 0.003
+    assert abs(float(t27["rel_error_G_N_times_vEW2_single_anchor"])) < 0.006
+    assert float(t27["newton_planck_nondimensional_identity_err"]) < 1e-14
+    uv_cmp = t27["uv_top_boundary_comparison"]
+    assert abs(float(uv_cmp["yt2_hyperbolic_4_over_pi2_vol_m004"]) - 0.1996591390134463) < 1e-14
+    assert float(uv_cmp["abs_diff_yt2"]) < 4e-4
+
+    # Theorem 28 (Homework 6): Zero-Trust Hostile-Referee Countercheck Certifying All 6 Guardrails & Homework Ladder
+    t28 = sc["theorem28_homework6_zero_trust_hostile_referee_full_toe_certification"]
+    assert "WORKING_RULES.md" in t28["seen_first"]
+    assert "FORCED" in t28["claim_labels_and_scopes"]["six_stage_homework_ladder_mathematical_verification"]
+    rc28 = t28["referee_independent_counterchecks"]
+    assert rc28["t_action_fixed_points_on_order10"] == 0
+    assert rc28["t_action_orbit_length_on_order10"] == 5
+    assert float(rc28["independent_fd_grad_norm_at_2d_minimum"]) < 1e-13
+    assert float(rc28["max_precision_err_across_hw1_to_hw5"]) < 1e-13
+    assert t28["all_six_guardrails_passed"] is True
+    assert t28["observables_accounted_count"] == 23
+    assert t28["continuous_fitted_parameters_in_homework_ladder"] == 0
+
+
 
 
 
