@@ -15248,10 +15248,11 @@
     "S297",
     "S299",
     "S300",
+    "S301",
     "V2"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 6,
+   "obstacle_conf": 7,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -15340,6 +15341,36 @@
    "obstacle_conf": 12,
    "status": "banked",
    "domain": "topology"
+  },
+  "B1836": {
+   "slug": "the seats past s300 verified",
+   "motifs": [
+    "arrow",
+    "closing",
+    "choice",
+    "coupling",
+    "action",
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B03",
+    "B08",
+    "B47",
+    "K0",
+    "K1",
+    "S300",
+    "S301"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 8,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B183": {
    "slug": "open collective arrow",

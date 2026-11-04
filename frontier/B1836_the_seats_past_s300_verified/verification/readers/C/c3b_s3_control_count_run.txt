@@ -1,0 +1,1 @@
+S3 control (b NOT flipped): parity holds on 2 of 42 sector-lines: [('lepton', 0.333, 0.167)]

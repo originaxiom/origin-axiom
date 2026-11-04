@@ -414,5 +414,189 @@
   "lines": "236-238",
   "sha256": "3ad1ec5b878926bcdc17736a2dce3d49e0d70ac374b9d6d8a622c64307ebbcbe",
   "bytes": 363
+ },
+ {
+  "what": "toe_closure.py 120-150 at c5c9236df (S301 readers: a firewalled or P-638-blinded quantity, its verdict word, or an output computed from one)",
+  "rev": "c5c9236df",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "120-150",
+  "sha256": "3248d7609798e3f5bb621a2cfe667e94ebe52bb32d8a53c2d9af7e7823d06514",
+  "bytes": 1500
+ },
+ {
+  "what": "toe_closure.py 504-522 at c5c9236df (S301 readers: a firewalled or P-638-blinded quantity, its verdict word, or an output computed from one)",
+  "rev": "c5c9236df",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "504-522",
+  "sha256": "b8d4be2c3651343771fad4809ecd4f87dbdfe7a9c465cf8d8d442ab747f4631b",
+  "bytes": 890
+ },
+ {
+  "what": "toe_closure.py 5184-5186 at c5c9236df (S301 readers: a firewalled or P-638-blinded quantity, its verdict word, or an output computed from one)",
+  "rev": "c5c9236df",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "5184-5186",
+  "sha256": "b033077e11b36bab261cd6d0c8e92fde2255cc319d909a530f5fad1059cfddac",
+  "bytes": 267
+ },
+ {
+  "what": "toe_closure.py 6001-6029 at c5c9236df (S301 readers: a firewalled or P-638-blinded quantity, its verdict word, or an output computed from one)",
+  "rev": "c5c9236df",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "6001-6029",
+  "sha256": "77fcc53cc11679d190162a320a50529c2f7c4884f6aec8c6840df0ca74a07757",
+  "bytes": 1848
+ },
+ {
+  "what": "toe_closure.py 6103-6103 at c5c9236df (S301 readers: a firewalled or P-638-blinded quantity, its verdict word, or an output computed from one)",
+  "rev": "c5c9236df",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "6103-6103",
+  "sha256": "3ca8bd54d8fcb3240c55e6573feb828883270ec5cf20459134988af77cfcc94c",
+  "bytes": 218
+ },
+ {
+  "what": "toe_closure.py 6350-6498 at c5c9236df (S301 readers: a firewalled or P-638-blinded quantity, its verdict word, or an output computed from one)",
+  "rev": "c5c9236df",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "6350-6498",
+  "sha256": "432a514ad63f139449474f09dce153f59da6508b10ba1bf9ca90178d18393d4c",
+  "bytes": 7597
+ },
+ {
+  "what": "toe_closure.py 7099-7102 at c5c9236df (S301 readers: a firewalled or P-638-blinded quantity, its verdict word, or an output computed from one)",
+  "rev": "c5c9236df",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "7099-7102",
+  "sha256": "9d01b93346aba03f80c5ef86720efb538713a7f8eea31cbb68244a5e893c1a53",
+  "bytes": 374
+ },
+ {
+  "what": "toe_closure.py 7204-7204 at c5c9236df (S301 readers: a firewalled or P-638-blinded quantity, its verdict word, or an output computed from one)",
+  "rev": "c5c9236df",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "7204-7204",
+  "sha256": "f6c83aca56d96e9d6224a71af7ef2cf4b94f3200d387b4f0f2dd4b85f408e898",
+  "bytes": 200
+ },
+ {
+  "what": "toe_closure.py 7705-7821 at c5c9236df (S301 readers: a firewalled or P-638-blinded quantity, its verdict word, or an output computed from one)",
+  "rev": "c5c9236df",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "7705-7821",
+  "sha256": "b8456469790671b4f4f88417ce3839229779a0d7f4846ca4589b2604dd7fa165",
+  "bytes": 6246
+ },
+ {
+  "what": "toe_closure.py 8307-8422 at c5c9236df (S301 readers: a firewalled or P-638-blinded quantity, its verdict word, or an output computed from one)",
+  "rev": "c5c9236df",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "8307-8422",
+  "sha256": "a3ac2eb61fa0ff41df38acb3519f074954bd161d56e3b26df054580205df6a6a",
+  "bytes": 5716
+ },
+ {
+  "what": "toe_closure.py 8571-8673 at c5c9236df (S301 readers: a firewalled or P-638-blinded quantity, its verdict word, or an output computed from one)",
+  "rev": "c5c9236df",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "8571-8673",
+  "sha256": "50cd622e278a6e285ce7209e4fa715deb7f69de7c45127c8144b0dd764c79947",
+  "bytes": 6009
+ },
+ {
+  "what": "toe_closure.py 8853-8982 at c5c9236df (S301 readers: a firewalled or P-638-blinded quantity, its verdict word, or an output computed from one)",
+  "rev": "c5c9236df",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "8853-8982",
+  "sha256": "38cec3d63ffc312618b44a9cbbebc52a10ef74c914768c3f6914197c1dc1834b",
+  "bytes": 6415
+ },
+ {
+  "what": "toe_closure.py 9001-9101 at c5c9236df (S301 readers: a firewalled or P-638-blinded quantity, its verdict word, or an output computed from one)",
+  "rev": "c5c9236df",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "9001-9101",
+  "sha256": "af9ae69cf9f660623f73d7092706a84956c950008f9f6c04586fef9df141e679",
+  "bytes": 5301
+ },
+ {
+  "what": "toe_closure.py 9339-9340 at c5c9236df (S301 readers: a firewalled or P-638-blinded quantity, its verdict word, or an output computed from one)",
+  "rev": "c5c9236df",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "9339-9340",
+  "sha256": "ef9ba519d40a3e6fc33f93bf1c156522d4fafdfb471959c1e41ccc0a0c5f2f89",
+  "bytes": 297
+ },
+ {
+  "what": "toe_closure.py 9484-9484 at c5c9236df (S301 readers: a firewalled or P-638-blinded quantity, its verdict word, or an output computed from one)",
+  "rev": "c5c9236df",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "9484-9484",
+  "sha256": "7caa345e6d035cd87caaed5be3f188a8506fd7332aa6aa3496ed1b0c05c7d252",
+  "bytes": 46
+ },
+ {
+  "what": "toe_closure.py 9635-9668 at c5c9236df (S301 readers: a firewalled or P-638-blinded quantity, its verdict word, or an output computed from one)",
+  "rev": "c5c9236df",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "9635-9668",
+  "sha256": "11ece0520d8f3c671f8335c33976f9ee66e946df9113737d9ed177fd02e62f36",
+  "bytes": 2423
+ },
+ {
+  "what": "toe_closure.py 9720-9872 at c5c9236df (S301 readers: a firewalled or P-638-blinded quantity, its verdict word, or an output computed from one)",
+  "rev": "c5c9236df",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "9720-9872",
+  "sha256": "4e263a5307bf40bfbcc9147ed9ddbfacf0099513579d1980d8bdfd240b7633d7",
+  "bytes": 8507
+ },
+ {
+  "what": "toe_closure.py 10098-10164 at c5c9236df (S301 readers: a firewalled or P-638-blinded quantity, its verdict word, or an output computed from one)",
+  "rev": "c5c9236df",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "10098-10164",
+  "sha256": "de99e9c334f3d5526a3687247aa3917c86424ceac40234f456e003a7235a8f40",
+  "bytes": 3736
+ },
+ {
+  "what": "toe_closure.py 10785-10845 at c5c9236df (S301 readers: a firewalled or P-638-blinded quantity, its verdict word, or an output computed from one)",
+  "rev": "c5c9236df",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "10785-10845",
+  "sha256": "5677cea3afda28d1f2dbb615ca63c653b4d10ba934a870aeb777340000fc3761",
+  "bytes": 3818
+ },
+ {
+  "what": "toe_closure.py 11063-11063 at c5c9236df (S301 readers: a firewalled or P-638-blinded quantity, its verdict word, or an output computed from one)",
+  "rev": "c5c9236df",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "11063-11063",
+  "sha256": "8d2666f60c3a79543a6567c6aebfff8019f492c2a33bca2fb9e0397efc57032e",
+  "bytes": 97
+ },
+ {
+  "what": "toe_closure.py 11413-11422 at c5c9236df (S301 readers: a firewalled or P-638-blinded quantity, its verdict word, or an output computed from one)",
+  "rev": "c5c9236df",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "11413-11422",
+  "sha256": "dcd3f975f84f084d7e8f90d61b92a2717fb2f9e2123abeeee5fbd4a1be9b7901",
+  "bytes": 955
+ },
+ {
+  "what": "AGY_TO_ALL_SEATS_2026-11-03_SIX_STAGE_BULLETPROOF_ROAD_PLAN_THEOREM_15_AND_4B91B9BE7_CLEANUP.md 374-520 at c5c9236df (S301 readers: a firewalled or P-638-blinded quantity, its verdict word, or an output computed from one)",
+  "rev": "c5c9236df",
+  "path": "relays/AGY_TO_ALL_SEATS_2026-11-03_SIX_STAGE_BULLETPROOF_ROAD_PLAN_THEOREM_15_AND_4B91B9BE7_CLEANUP.md",
+  "lines": "374-520",
+  "sha256": "e973750b5fd47ae5fd451aa11d00adc71b75f2e7c60ccf1ed879d11a2ea91573",
+  "bytes": 29825
+ },
+ {
+  "what": "test_elevation_operator_gate.py 1401-1427 at c5c9236df (S301 readers: a firewalled or P-638-blinded quantity, its verdict word, or an output computed from one)",
+  "rev": "c5c9236df",
+  "path": "tests/test_elevation_operator_gate.py",
+  "lines": "1401-1427",
+  "sha256": "5706f86378484c0e8aad8a17447b4ffd030d75e308f7420641d60093e6eca20f",
+  "bytes": 1877
  }
 ]

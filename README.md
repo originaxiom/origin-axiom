@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.61) of 2026-11-03 |
-| arcs with a verdict | 1539: 1050 PROVED, 382 NEGATIVE, 95 OPEN, 12 RETRACTED |
-| points in the register | 667: 292 open (queued, leads, waiting for the owner), 375 closed |
+| arcs with a verdict | 1540: 1051 PROVED, 382 NEGATIVE, 95 OPEN, 12 RETRACTED |
+| points in the register | 675: 296 open (queued, leads, waiting for the owner), 379 closed |
 | the last review | Review 74 (2026-11-04), anchor `41420ae14` |
-| the last landing | S300f B1835: THE CARD'S INSTRUMENT AND ITS CONTROLS — U_e THROUGH B1726's OWN PATH; THE FRAME'S QUARK–LEPTON RELATION ∣U_PMNS∣ = ∣V_CKM†∣ ON THE ORDE… |
+| the last landing | S301 B1836 THE SEATS PAST S300, FETCHED AND VERIFIED: THE F7 MIRROR IDENTITY PROVED; T A SYMMETRY OF THE OUTPUTS; THE SLOPE NEED NOT SPEND THE HELD-O… |
 <!-- STATE:END -->
 
 ## Start here

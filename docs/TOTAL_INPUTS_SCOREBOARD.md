@@ -4,7 +4,7 @@
 
 **The rule.** the owner's ruling of 2026-10-29 (P-418): a total-inputs scoreboard beside '0 of 19' -- the 19, the identification price, and each frame's counted choices; progress = the totals falling. The owner, 2026-11-04 (P-661): a complete picture with its borrowed joints named, so the joints can be earned later.
 
-**Headline.** 0 of 19 earned | identification price 13 | frame A (the record's candidate): 10 rows claimed, 14 borrowed joints [11 chosen, 2 ansatz, 1 fitted] | frame B (the agy lane's complete picture): 23 rows claimed, 45 borrowed joints [18 chosen, 14 ansatz, 6 measured-input, 3 refuted, 2 unknown, 1 fitted, 1 forced-claimed]
+**Headline.** 0 of 19 earned | identification price 13 | frame A (the record's candidate): 10 rows claimed, 14 borrowed joints [11 chosen, 2 ansatz, 1 fitted] | frame B (the agy lane's complete picture): 23 rows claimed, 44 borrowed joints [18 chosen, 14 ansatz, 6 measured-input, 3 refuted, 2 unknown, 1 fitted]
 
 A joint is EARNED only if a banked theorem or law on main supplies it (FORCED-BY-MAIN, or VERIFIED-BY-MAIN for an exact identity checked but not proved); every other joint is BORROWED: CHOSEN, FITTED, MEASURED-INPUT, ANSATZ, FORCED-CLAIMED (a seat's word), REFUTED or UNKNOWN. A joint counts once however many rows it feeds. Progress means the borrowed totals fall.
 
@@ -31,10 +31,10 @@ No frame: y_t, g_1, g_2, g_3, m_H, v.
 | id | joint | type | rows fed | same as | register | basis |
 |---|---|---|---|---|---|---|
 | A01 | the modulus tau (Re tau, Im tau) on the strip, Im tau near 3 | FITTED | 10 | B01 | P-629 | FL-04; B1829's REGRADE: the strip was found by sealed looks at the data (P-585's look count) |
-| A02 | the slope 2/5 of the line class | CHOSEN | 10 | B02 | P-384, P-625 | P-384 (the referee: mostly a pick); P-625: the slope selection is not value-free |
-| A03 | the offset odd/10 within the class | CHOSEN | 10 | B03 | P-384 | P-384 |
+| A02 | the slope 2/5 of the line class | CHOSEN | 10 | B02 | P-384, P-625 | P-384 (the referee: mostly a pick); P-625 as corrected at S301 (B1836): a criterion reading no held-out quantity picks 2/5 (within-sector gaps not all equal among lines with B1728's identity; B1788 sec. 4's up-steeper order), but it is chosen after the fact or fitted to the seen six, so the slope st |
+| A03 | the line's order 10 (an odd/10 offset; the five odd offsets are one T-orbit, so which one is the sheet of Re tau, A01) | CHOSEN | 10 | B03 | P-384 | P-384; S301 (B1836): T is a symmetry of the outputs, (tau, (a, b)) -> (tau + 1, (a, b - a)) |
 | A04 | the Higgs direction DR, the Serre derivative of the theta triplet R (a weight-3/2 covariant section; B1691), as every look of the family runs it (B1726 compute) | CHOSEN | 10 | B04 | P-366 | one section of a menu (R, DR, D2R and their combinations; B1691, B1726); corrected S300d — first written as a census theta-power direction |
-| A05 | the reading (S~, S, S) at a0 = 0 | CHOSEN | 10 | B05 | P-295 | FL-09; B1744 (the reading is not forced); B1832's S300 section (FR-FIB at a0 = 0 against FR-COV) |
+| A05 | the up-conjugate reading (S~, S, S) at a0 = 0 | CHOSEN | 10 | B05 | P-295 | FL-09; B1744 (the reading is not forced); B1832's S300 section (FR-FIB at a0 = 0 against FR-COV); S301: the web seat's doublet index EXCLUDES a twist-read Higgs as its source within FR-FIB as ruled (B1836) |
 | A06 | the horocycle L_max (over L_2) | CHOSEN | 10 | B07 | P-402 | P-402: selected by the data, not absorbed by tau (the web seat's sealed H2) |
 | A07 | the end: the small-cut norm | CHOSEN | 10 | | P-421 | P-421: no geometric ground since S238; at the exact norms the six fail (B1829, S297) |
 | A08 | the generations' metric H = I | CHOSEN | 10 | B09 | P-531 | B1822; FL-11 |
@@ -45,7 +45,7 @@ No frame: y_t, g_1, g_2, g_3, m_H, v.
 
 Borrowed joints per claimed row (shared block included): m_u/m_c 13; m_c/m_t 13; m_d/m_s 13; m_s/m_b 13; m_e/m_mu 14; m_mu/m_tau 14; |V_us| 13; |V_cb| 13; |V_ub| 13; J (or delta_CP) 13.
 
-**The joints to earn first (by rows released):** A01 the modulus tau (Re tau, Im tau) on the strip, Im tau near 3 (fitted, 10 rows); A02 the slope 2/5 of the line class (chosen, 10 rows); A03 the offset odd/10 within the class (chosen, 10 rows); A04 the Higgs direction DR, the Serre derivative of the theta triplet R (a weight-3/2 covariant section; B1691), as every look of the family runs it (B1726 compute) (chosen, 10 rows); A05 the reading (S~, S, S) at a0 = 0 (chosen, 10 rows); A06 the horocycle L_max (over L_2) (chosen, 10 rows); A07 the end: the small-cut norm (chosen, 10 rows); A08 the generations' metric H = I (chosen, 10 rows).
+**The joints to earn first (by rows released):** A01 the modulus tau (Re tau, Im tau) on the strip, Im tau near 3 (fitted, 10 rows); A02 the slope 2/5 of the line class (chosen, 10 rows); A03 the line's order 10 (an odd/10 offset; the five odd offsets are one T-orbit, so which one is the sheet of Re tau, A01) (chosen, 10 rows); A04 the Higgs direction DR, the Serre derivative of the theta triplet R (a weight-3/2 covariant section; B1691), as every look of the family runs it (B1726 compute) (chosen, 10 rows); A05 the up-conjugate reading (S~, S, S) at a0 = 0 (chosen, 10 rows); A06 the horocycle L_max (over L_2) (chosen, 10 rows); A07 the end: the small-cut norm (chosen, 10 rows); A08 the generations' metric H = I (chosen, 10 rows).
 
 ## Frame B — the agy lane's complete picture: its master scorecard, Route A, at 18c607040
 
@@ -53,7 +53,7 @@ Borrowed joints per claimed row (shared block included): m_u/m_c 13; m_c/m_t 13;
 
 Rows claimed: m_u/m_c, m_c/m_t, m_d/m_s, m_s/m_b, m_e/m_mu, m_mu/m_tau, |V_us|, |V_cb|, |V_ub|, J (or delta_CP), m_b/m_t (firewalled), m_tau/m_b (firewalled), y_t, g_1, g_2, g_3, theta-bar, m_H, v, M_Pl/v, rho_DE/v^4, eta_B, Omega_DM/Omega_b.
 
-**Borrowed joints: 45** (18 CHOSEN, 14 ANSATZ, 6 MEASURED-INPUT, 3 REFUTED, 2 UNKNOWN, 1 FITTED, 1 FORCED-CLAIMED), the shared block included.
+**Borrowed joints: 44** (18 CHOSEN, 14 ANSATZ, 6 MEASURED-INPUT, 3 REFUTED, 2 UNKNOWN, 1 FITTED), the shared block included.
 
 | id | joint | type | rows fed | same as | register | basis |
 |---|---|---|---|---|---|---|
@@ -63,7 +63,7 @@ Rows claimed: m_u/m_c, m_c/m_t, m_d/m_s, m_s/m_b, m_e/m_mu, m_mu/m_tau, |V_us|, 
 | F4 | L_2 as a function of tau (the horocycle of length 2) | FORCED-BY-MAIN | 16 | |  | THEOREM_REGISTRY T-THE-CANONICAL-CUSP (B1667) |
 | F5 | Vol(m004) as a number | FORCED-BY-MAIN | 8 | |  | LAW_MAP 'THE VOLUME IS THE BEING-CHARACTER L-VALUE'; B980 row |
 | F6 | the GUT normalisation of hypercharge (the tree weak angle at unification) | FORCED-BY-MAIN | 5 | |  | LAW_MAP 'THE FRAME-ARC LAWS' (B909, B919) |
-| F7 | the mirror relation Y((a,-b), -conj tau) = P conj(Y) P (theta-bar -> -theta-bar) | VERIFIED-BY-MAIN | 1 | |  | LAW_MAP 'THE LL PAIR AT THE DOUBLED LINE, THE MIRROR AS A MATRIX' (B1832): exact to 10^-15 on main's code, verified, not proved (the reader cited a theorem row that does not exist) |
+| F7 | the mirror relation Y((a,-b), -conj tau) = P conj(Y) P (theta-bar -> -theta-bar) | FORCED-BY-MAIN | 1 | |  | T-FRAME-MIRROR (B1836, S301): the mirror identity proved, given a mirror-invariant radius and the Higgs condition S(-conj tau) = QI conj(S) QI |
 | B01 | tau_Golden (the modulus) | FITTED | 17 | A01 | P-629 | B1832 sec. 5: tau fitted then named; the lane's own literals: continuous parameters fitted before naming, zero-bit modulus derivation not established; phase 8's potential embeds the target by hand (lane's flag); Theorem 24 trades tau for a chosen flux integer (B1832 sec. 2, P-625) |
 | B02 | the slope of the line, 2/5 (and with it the line's order N) | CHOSEN | 17 | A02 | P-625, P-384 | P-625 (S300): not value-free -- the within-sector hierarchy holds on 1/5 as on 2/5; what singles out 2/5 is the bottom/top ordering, so adopting it spends P-585's last held-out target |
 | B03 | the offset of the line within the slope (the line (2/5, 0)) | CHOSEN | 16 | A03 | P-384 | the lane's own note: selected post-inspection; B1832 sec. 4: Theorem 10 selects nothing (the five lines coincide after tau -> tau + 8m); Theorem 10's own literal: T8 a relabelling, not a selector |
@@ -89,7 +89,7 @@ Rows claimed: m_u/m_c, m_c/m_t, m_d/m_s, m_s/m_b, m_e/m_mu, m_mu/m_tau, |V_us|, 
 | B23 | ln(M_12/M_Z)/(2 pi) = (integer) x Vol(m004) (the unification scale; also phase 2's M_GUT) | ANSATZ | 6 | |  | B1832 sec. 5 |
 | B24 | the alpha_3 threshold Delta(alpha_3^-1) = b_3 ln∣tau_RS∣ | ANSATZ | 3 | |  | B1832 sec. 5: a threshold for alpha_s |
 | B25 | the menu pick of which torsion feeds the threshold (m004 at the meridian holonomy omega, applied to alpha_3 alone) | CHOSEN | 3 | |  | B1832 sec. 5: 'menu-picked' |
-| B47 | the torsion value ∣tau_RS(m004, omega)∣ as stated | FORCED-CLAIMED | 3 | | P-663 | not verified on main |
+| B47 | the torsion value ∣tau_RS(m004, omega)∣ as stated | VERIFIED-BY-MAIN | 3 | | P-663 | LAW_MAP 'THE TORSION OF M004 AT THE MERIDIAN HOLONOMY' (B1836): ∣Delta(omega)/(omega - 1)∣ = 4/sqrt3, verified by hand and on SnapPy's presentation |
 | B26 | UV criticality lambda(M_12) = 0 | ANSATZ | 1 | |  | a posited boundary condition |
 | B27 | the legacy half-rate running factor behind the scorecard's second m_H key (and phase 7's I_t) | REFUTED | 1 | |  | B1832 sec. 4: the half-rate Higgs mass refuted |
 | B28 | the Planck/KK formula M_Pl = (Vol/pi) x M_Z x exp(integer x pi x Vol(M_3)) | ANSATZ | 3 | |  | the non-dimensionalisation is algebra; the formula is posited |
@@ -113,6 +113,6 @@ Rows claimed: m_u/m_c, m_c/m_t, m_d/m_s, m_s/m_b, m_e/m_mu, m_mu/m_tau, |V_us|, 
 | B46 | the Buttazzo pole-matching formulae linearised about measured central values (and the matching-scale literals) | MEASURED-INPUT | 0 | |  | measured anchors inside the matching |
 | B48 | Omega_b h^2 entered as a number | MEASURED-INPUT | 0 | |  | B1832 sec. 5 |
 
-Borrowed joints per claimed row (shared block included): m_u/m_c 12; m_c/m_t 12; m_d/m_s 12; m_s/m_b 12; m_e/m_mu 13; m_mu/m_tau 13; |V_us| 12; |V_cb| 12; |V_ub| 12; J (or delta_CP) 12; m_b/m_t (firewalled) 16; m_tau/m_b (firewalled) 17; y_t 27; g_1 5; g_2 5; g_3 8; theta-bar 12; m_H 29; v 3; M_Pl/v 6; rho_DE/v^4 8; eta_B 25; Omega_DM/Omega_b 5.
+Borrowed joints per claimed row (shared block included): m_u/m_c 12; m_c/m_t 12; m_d/m_s 12; m_s/m_b 12; m_e/m_mu 13; m_mu/m_tau 13; |V_us| 12; |V_cb| 12; |V_ub| 12; J (or delta_CP) 12; m_b/m_t (firewalled) 16; m_tau/m_b (firewalled) 17; y_t 26; g_1 5; g_2 5; g_3 7; theta-bar 12; m_H 28; v 3; M_Pl/v 6; rho_DE/v^4 8; eta_B 25; Omega_DM/Omega_b 5.
 
 **The joints to earn first (by rows released):** B01 tau_Golden (the modulus) (fitted, 17 rows); B02 the slope of the line, 2/5 (and with it the line's order N) (chosen, 17 rows); B03 the offset of the line within the slope (the line (2/5, 0)) (chosen, 16 rows); B04 the Higgs direction F_10 (theta-power weight) (chosen, 16 rows); B05 the reading S~S~S~ (one reading for all three sectors) (chosen, 16 rows); B06 the scalar-channel characters (c_u, c_d, c_e), with the square-root branch (chosen, 16 rows); B07 the radius pick L_2 (over L_max) (chosen, 16 rows); B08 the L_2 number actually used at the cell (unknown, 16 rows).

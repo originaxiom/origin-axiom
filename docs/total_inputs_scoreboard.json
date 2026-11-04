@@ -104,7 +104,7 @@
      "id": "A02",
      "name": "the slope 2/5 of the line class",
      "type": "CHOSEN",
-     "basis": "P-384 (the referee: mostly a pick); P-625: the slope selection is not value-free",
+     "basis": "P-384 (the referee: mostly a pick); P-625 as corrected at S301 (B1836): a criterion reading no held-out quantity picks 2/5 (within-sector gaps not all equal among lines with B1728's identity; B1788 sec. 4's up-steeper order), but it is chosen after the fact or fitted to the seen six, so the slope stays borrowed",
      "feeds": [
       1,
       2,
@@ -125,9 +125,9 @@
     },
     {
      "id": "A03",
-     "name": "the offset odd/10 within the class",
+     "name": "the line's order 10 (an odd/10 offset; the five odd offsets are one T-orbit, so which one is the sheet of Re tau, A01)",
      "type": "CHOSEN",
-     "basis": "P-384",
+     "basis": "P-384; S301 (B1836): T is a symmetry of the outputs, (tau, (a, b)) -> (tau + 1, (a, b - a))",
      "feeds": [
       1,
       2,
@@ -171,9 +171,9 @@
     },
     {
      "id": "A05",
-     "name": "the reading (S~, S, S) at a0 = 0",
+     "name": "the up-conjugate reading (S~, S, S) at a0 = 0",
      "type": "CHOSEN",
-     "basis": "FL-09; B1744 (the reading is not forced); B1832's S300 section (FR-FIB at a0 = 0 against FR-COV)",
+     "basis": "FL-09; B1744 (the reading is not forced); B1832's S300 section (FR-FIB at a0 = 0 against FR-COV); S301: the web seat's doublet index EXCLUDES a twist-read Higgs as its source within FR-FIB as ruled (B1836)",
      "feeds": [
       1,
       2,
@@ -523,9 +523,9 @@
     {
      "id": "F7",
      "name": "the mirror relation Y((a,-b), -conj tau) = P conj(Y) P (theta-bar -> -theta-bar)",
-     "type": "VERIFIED-BY-MAIN",
+     "type": "FORCED-BY-MAIN",
      "lane_label": "Theorem 11 'amphichiral conjugation'",
-     "basis": "LAW_MAP 'THE LL PAIR AT THE DOUBLED LINE, THE MIRROR AS A MATRIX' (B1832): exact to 10^-15 on main's code, verified, not proved (the reader cited a theorem row that does not exist)",
+     "basis": "T-FRAME-MIRROR (B1836, S301): the mirror identity proved, given a mirror-invariant radius and the Higgs condition S(-conj tau) = QI conj(S) QI",
      "feeds": [
       17
      ],
@@ -1026,9 +1026,9 @@
     {
      "id": "B47",
      "name": "the torsion value |tau_RS(m004, omega)| as stated",
-     "type": "FORCED-CLAIMED",
+     "type": "VERIFIED-BY-MAIN",
      "lane_label": "'Exact Ray-Singer analytic torsion of m004 at meridian holonomy omega'",
-     "basis": "not verified on main",
+     "basis": "LAW_MAP 'THE TORSION OF M004 AT THE MERIDIAN HOLONOMY' (B1836): |Delta(omega)/(omega - 1)| = 4/sqrt3, verified by hand and on SnapPy's presentation",
      "feeds": [
       13,
       16,

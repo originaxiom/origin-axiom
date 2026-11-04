@@ -1,0 +1,5 @@
+Re tau 0.3: relative deviation 8.1e-32 ; ratio (1.0 - 2.326e-32j)
+Re tau 0.9: relative deviation 5.6e-32 ; ratio (1.0 - 2.045e-32j)
+Re tau 1.3: relative deviation 1.4e+00 ; ratio (-1.219e-32 - 1.0j)
+Re tau 1.7: relative deviation 1.4e+00 ; ratio (-1.51e-31 - 1.0j)
+Re tau 2.4: relative deviation 1.4e+00 ; ratio (-5.349e-32 - 1.0j)

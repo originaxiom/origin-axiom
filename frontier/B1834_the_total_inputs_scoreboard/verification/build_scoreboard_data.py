@@ -20,18 +20,21 @@ for x in J:
         basis = "main's frame as banked: LAW_MAP 'A HIGGS IN M: ONE GENERATION EXACTLY MASSLESS' (B1644), the four-channel coupling with 'given Λ, the dictionary' (B1656), 'THE FAMILY GROUP IS THE FRAME' (B1736), and T-KERNEL-SUM-TWIST (B1832) -- conditional on the frame's own givens (the shared block and frame A's joints)"
     if x["id"] == "F2":
         basis = "main's hypercharge dictionary as banked with the frame: LAW_MAP 'given Λ, the dictionary' (B1656's row)"
-    if x["id"] == "F7":          # main's correction (S300c): no theorem row; the mirror is verified, not proved
+    if x["id"] == "F7":          # S300c: verified, not proved; S301: PROVED (B1836)
+        t = "FORCED-BY-MAIN"
+        basis = "T-FRAME-MIRROR (B1836, S301): the mirror identity proved, given a mirror-invariant radius and the Higgs condition S(-conj tau) = QI conj(S) QI"
+    if x["id"] == "B47":         # S301: the stated torsion value verified on main (B1836); its use as a threshold stays B24's ansatz
         t = "VERIFIED-BY-MAIN"
-        basis = "LAW_MAP 'THE LL PAIR AT THE DOUBLED LINE, THE MIRROR AS A MATRIX' (B1832): exact to 10^-15 on main's code, verified, not proved (the reader cited a theorem row that does not exist)"
+        basis = "LAW_MAP 'THE TORSION OF M004 AT THE MERIDIAN HOLONOMY' (B1836): |Delta(omega)/(omega - 1)| = 4/sqrt3, verified by hand and on SnapPy's presentation"
     B.append({"id": x["id"], "name": x["name"], "type": t, "lane_label": x.get("lane_claim", ""), "basis": basis,
               "feeds": feeds, "register": REGISTER.get(x["id"], ""), "same_as": SAME.get(x["id"], "")})
 TEN = list(range(1, 11)); OUTS = TEN + [11, 12, 17]
 A = [
  ("A01", "the modulus tau (Re tau, Im tau) on the strip, Im tau near 3", "FITTED", "FL-04; B1829's REGRADE: the strip was found by sealed looks at the data (P-585's look count)", OUTS, "P-629"),
- ("A02", "the slope 2/5 of the line class", "CHOSEN", "P-384 (the referee: mostly a pick); P-625: the slope selection is not value-free", OUTS, "P-384, P-625"),
- ("A03", "the offset odd/10 within the class", "CHOSEN", "P-384", OUTS, "P-384"),
+ ("A02", "the slope 2/5 of the line class", "CHOSEN", "P-384 (the referee: mostly a pick); P-625 as corrected at S301 (B1836): a criterion reading no held-out quantity picks 2/5 (within-sector gaps not all equal among lines with B1728's identity; B1788 sec. 4's up-steeper order), but it is chosen after the fact or fitted to the seen six, so the slope stays borrowed", OUTS, "P-384, P-625"),
+ ("A03", "the line's order 10 (an odd/10 offset; the five odd offsets are one T-orbit, so which one is the sheet of Re tau, A01)", "CHOSEN", "P-384; S301 (B1836): T is a symmetry of the outputs, (tau, (a, b)) -> (tau + 1, (a, b - a))", OUTS, "P-384"),
  ("A04", "the Higgs direction DR, the Serre derivative of the theta triplet R (a weight-3/2 covariant section; B1691), as every look of the family runs it (B1726 compute)", "CHOSEN", "one section of a menu (R, DR, D2R and their combinations; B1691, B1726); corrected S300d — first written as a census theta-power direction", OUTS, "P-366"),
- ("A05", "the reading (S~, S, S) at a0 = 0", "CHOSEN", "FL-09; B1744 (the reading is not forced); B1832's S300 section (FR-FIB at a0 = 0 against FR-COV)", OUTS, "P-295"),
+ ("A05", "the up-conjugate reading (S~, S, S) at a0 = 0", "CHOSEN", "FL-09; B1744 (the reading is not forced); B1832's S300 section (FR-FIB at a0 = 0 against FR-COV); S301: the web seat's doublet index EXCLUDES a twist-read Higgs as its source within FR-FIB as ruled (B1836)", OUTS, "P-295"),
  ("A06", "the horocycle L_max (over L_2)", "CHOSEN", "P-402: selected by the data, not absorbed by tau (the web seat's sealed H2)", OUTS, "P-402"),
  ("A07", "the end: the small-cut norm", "CHOSEN", "P-421: no geometric ground since S238; at the exact norms the six fail (B1829, S297)", OUTS, "P-421"),
  ("A08", "the generations' metric H = I", "CHOSEN", "B1822; FL-11", OUTS, "P-531"),

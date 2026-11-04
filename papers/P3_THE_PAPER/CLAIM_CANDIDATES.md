@@ -586,6 +586,7 @@ could not see). **Disposition** stays empty — **IN** / **SUP** / **OUT** is an
 | `B1815` | PROVED | L | | THE RECORD'S WALK HAS MINKOWSKI'S EXIT LAW, EXACTLY: for i.i.d. letters L, R at (1−p)/2 and L⁻¹, R⁻¹ at p/2 the endpoint law is (1−p)·M + p·F₊M at every p, singular to area, P(ξ > 0) = 1 − p; with the arclength placement its averages are the move clock's; the clock stays CHOSEN |
 | `B1816` | PROVED | L | | THE CANONICAL END'S ACCESSORY PARAMETER IS A WEIL–PETERSSON PRIMITIVE: on its uniformising branch ∂C/∂τ̄ = i·h_WP(τ), C = 2c; the volume π²/12; WP volume stands beside hyperbolic area as a frame-native clock; nothing ranks them |
 | `B1832` | PROVED | L | | THE AGY LANES DIGESTED: every channel kernel of B1656's frame is a Kronecker kernel of the summed twist (the sectors' norms coincide; the kernel's constant is odd between up and down); on the 40 β-half-lifts the lepton Yukawa is the down Yukawa flipped, for every Higgs; F₁₀'s v·v = −80η¹²E₄; θ_Y steps by 264πa and 66a² + ¼ is never an integer. Not values: 0 of 19 |
+| `B1836` | PROVED | L | | THE SEATS PAST S300 VERIFIED: the frame's mirror is a matrix identity, Y((p₁, −p₂), −τ̄) = P·conj(Y)·P, PROVED given a mirror-invariant radius and the Higgs condition; τ → τ + 1 with the line shifted is a symmetry of every output; m004's group has no cuspidal cohomology at weights 0–3; the slope 2/5 is the only lepton–down-identity slope whose within-sector gaps are not all equal. Not values: 0 of 19 |
 
 ## The exhibit that forced the rebuild
 

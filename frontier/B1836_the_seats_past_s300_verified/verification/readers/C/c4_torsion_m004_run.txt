@@ -1,0 +1,10 @@
+(1) SnapPy relator aaabABBAb; exponent sums (a, b) = (1, 0); Fox d/da abelianised = -(t**2 - 3*t + 1)/t
+    equals t^2 - 3t + 1 up to a unit +-t^k: True
+    |Delta(omega)/(omega - 1)| = 4*sqrt(3)/3  (lane: 4/sqrt3 -> difference 0)
+(2) Riley's rep x -> [[1,1],[0,1]], y -> [[1,0],[-z,1]] satisfies the lane's relator for z = -1/2 - sqrt(3)*I/2
+    lane word, Fox d/dx abelianised = -(t**2 - 3*t + 1)/t ; d/dy = (t**2 - 3*t + 1)/t
+(3) twisted torsion T(t) = det Phi(dR/dx) / det(t rho(y) - 1) = 1 - 4/t + t**(-2)
+    |T| at t = 1 = 2
+    |T| at t = omega = 5
+    |T| at t = -1 = 6
+    lane's 'adjoint torsion' 4 - 2 sqrt3 = (sqrt3 - 1)^2 = 0.535898 is |Delta(omega)| - 2|omega - 1| in its code (no representation enters)

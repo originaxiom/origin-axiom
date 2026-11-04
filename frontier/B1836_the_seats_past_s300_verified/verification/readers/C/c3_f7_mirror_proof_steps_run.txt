@@ -1,0 +1,8 @@
+S1 thc term conjugation: worst 0.0e+00 ; th1 odd-conjugation: worst 0.0e+00
+S2 bil entry parities E = [[-1,+1],[+1,-1]]: worst 0.0e+00 ; control (no signs) min-over-draws of worst: 11.53
+S3 residue parities (-,+,+,-) on (1,i,j,k): worst 3.1e-16 over 42 sector-lines; control (b not flipped) smallest worst 7.63e-17
+S4 channel norms mirror-invariant: worst relative 7.7e-14 (quadrature-limited)
+S5 Higgs hypothesis S(-conj t) = QI conj(S(t)) QI on all 13 directions: worst relative 0.0e+00 ; failing: []
+S6 exact algebra: basis pairs violating the identity 0 of 16 ; reading S~ commutes with the mirror: violations 0 of 4 ; control (no channel signs) violations 8 of 16
+S7 full identity, relative worst: a0 = 0: 2.7e-15 ; a0 = i(1/2)eta^3: 2.7e-15  (4 lines x 2 tau x 3 sectors x DR,F_10 x 2 readings)
+S7 controls (smallest relative failure; must be >> 0): per-sector (b kept) 3.77e-01; direction x e^{0.3i} 5.91e-01; r = 1+0.5i 6.38e-02

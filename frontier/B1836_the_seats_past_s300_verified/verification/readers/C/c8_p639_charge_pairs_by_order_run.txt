@@ -1,0 +1,9 @@
+sum q_L + q_R: {'up': -3, 'down': 3, 'lepton': 3}
+N= 2 mod-pairs {'up': (1, 0), 'down': (1, 0), 'lepton': (1, 0)} | equal [('down', 'up'), ('down', 'lepton'), ('lepton', 'up')] | transposed [] | self-transposed []
+N= 3 mod-pairs {'up': (1, 2), 'down': (1, 2), 'lepton': (0, 0)} | equal [('down', 'up')] | transposed [] | self-transposed ['lepton']
+N= 4 mod-pairs {'up': (1, 0), 'down': (1, 2), 'lepton': (1, 2)} | equal [('down', 'lepton')] | transposed [] | self-transposed []
+N= 5 mod-pairs {'up': (1, 1), 'down': (1, 2), 'lepton': (2, 1)} | equal [] | transposed [('down', 'lepton')] | self-transposed ['up']
+N= 6 mod-pairs {'up': (1, 2), 'down': (1, 2), 'lepton': (3, 0)} | equal [('down', 'up')] | transposed [] | self-transposed []
+N= 8 mod-pairs {'up': (1, 4), 'down': (1, 2), 'lepton': (5, 6)} | equal [] | transposed [] | self-transposed []
+N=10 mod-pairs {'up': (1, 6), 'down': (1, 2), 'lepton': (7, 6)} | equal [] | transposed [] | self-transposed []
+N=12 mod-pairs {'up': (1, 8), 'down': (1, 2), 'lepton': (9, 6)} | equal [] | transposed [] | self-transposed []

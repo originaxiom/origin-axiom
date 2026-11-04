@@ -1,0 +1,8 @@
+c30: L_2 and L_max on B1667's own solver
+  (c) omega control (B1667's disclosed eta^4 constants): L_2 - L_max - 2pi/3 = -3.2e-12
+  instrument: at 0.25 + 2.50i re-run vs stored: L_max 2.3e-13, L_2 4.0e-14 (residual 1e-13)
+  instrument: at 0.25 + 3.00i re-run vs stored: L_max 3.6e-13, L_2 1.3e-13 (residual 7e-14)
+  at tau = i (stored): L_2 - L_max - 2pi/3 = -0.064  (the 2pi/3 is omega's, not a general identity)
+  tau_Golden = 1/sqrt5 + i phi^2: B1667 L_max = 0.6497290281, L_2 = 2.3687506775 (accessory residual 5e-15)
+      the Re tau = 1/4 column read (np.interp, as B1726/cm_zero_line do): L_max 0.649783, L_2 2.369302 -> off by 5.44e-05, 5.51e-04
+      B1667 at 0.25 + i Im tau exactly: L_max 0.649729, L_2 2.368751 -> Re-tau dependence 6.65e-08, 6.60e-08; interpolation error 5.4e-05, 5.5e-04

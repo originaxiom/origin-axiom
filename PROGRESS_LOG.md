@@ -18381,3 +18381,12 @@ The card's instrument is B1726's own computation returning its matrices, with th
 through it. Three structural relations re-derived from the frame's charge rule hold exactly where they should and fail
 elsewhere — on the order-2 and order-4 lines the frame gives ∣U_PMNS∣ = ∣V_CKM†∣ — and serve as the card's positive
 controls. The card itself waits on the owner's two calls (P-665). 0 of 19.
+
+## 2026-11-04 — S301: the seats past S300 fetched and verified (B1836)
+
+The agy lane's Theorems 29–64, three web-seat relays and the physical lane's two relays were read by four firewalled readers
+and checked on main's code. The frame's mirror is now a proved theorem (the agy lane's idea, repaired); T is a symmetry of
+the frame's outputs, which corrects main; a criterion that reads no held-out quantity picks the slope 2/5, which corrects
+main's stated reason for the owner's decline (the slope stays borrowed); m004's group has no cuspidal cohomology at the
+lowest weights. Nothing in the agy lane's new work earns a borrowed joint; its looks at the held-out and PMNS targets are
+counted and sealed. 0 of 19.

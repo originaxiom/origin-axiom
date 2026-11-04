@@ -1,0 +1,1 @@
+T: compute(tau,(a,b)) vs compute(tau+1,(a,b-a)) over 80 keys: max |difference| = 8.0e-13

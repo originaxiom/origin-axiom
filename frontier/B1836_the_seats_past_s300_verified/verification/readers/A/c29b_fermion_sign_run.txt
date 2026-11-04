@@ -1,0 +1,4 @@
+c29b lane's sign (+log det)        : dV/dy > 0 on 1280 of 2120 grid points, < 0 on 840; cells where both components change sign: 2
+      dV/dy range by row (min, max): Im tau 0.4: (-533.33, -445.06); 2.4: (-0.87, -0.04); 6.0: (11.00, 11.01); 12: (12.65, 12.65)
+c29b fermion-loop sign (-log det)  : dV/dy > 0 on 0 of 2120 grid points, < 0 on 2120; cells where both components change sign: 0
+      dV/dy range by row (min, max): Im tau 0.4: (-541.90, -453.63); 2.4: (-27.37, -26.54); 6.0: (-15.39, -15.38); 12: (-13.74, -13.74)
