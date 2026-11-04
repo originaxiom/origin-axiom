@@ -22,9 +22,9 @@ nothing in this block is typed by hand.*
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.61) of 2026-11-03 |
 | arcs with a verdict | 1542: 1052 PROVED, 382 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 682: 296 open (queued, leads, waiting for the owner), 386 closed |
+| points in the register | 684: 297 open (queued, leads, waiting for the owner), 387 closed |
 | the last review | Review 74 (2026-11-04), anchor `41420ae14` |
-| the last landing | S303 THE END IS THE DECIDER: THE EXACT-END FAILURE REPRODUCED ON MAIN (P-595, B1838); THE LINE'S ORDER AND THE NEUTRINO (P-682); THE DENSITY POST HOC… |
+| the last landing | S304 THE CANDIDATE'S END IS THE NORM OF NO GEOMETRIC CUT (B1838): e^-L_max ABOVE THE CELL'S INRADIUS; NO SINGLE HOROCYCLE REPRODUCES ITS WEIGHTS; A07… |
 <!-- STATE:END -->
 
 ## Start here

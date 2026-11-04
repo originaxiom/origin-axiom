@@ -4,7 +4,7 @@
 
 **The rule.** the owner's ruling of 2026-10-29 (P-418): a total-inputs scoreboard beside '0 of 19' -- the 19, the identification price, and each frame's counted choices; progress = the totals falling. The owner, 2026-11-04 (P-661): a complete picture with its borrowed joints named, so the joints can be earned later.
 
-**Headline.** 0 of 19 earned | identification price 13 | frame A (the record's candidate): 10 rows claimed, 14 borrowed joints [11 chosen, 2 ansatz, 1 fitted] | frame B (the agy lane's complete picture): 23 rows claimed, 44 borrowed joints [18 chosen, 14 ansatz, 6 measured-input, 3 refuted, 2 unknown, 1 fitted]
+**Headline.** 0 of 19 earned | identification price 13 | frame A (the record's candidate): 10 rows claimed, 14 borrowed joints [10 chosen, 3 ansatz, 1 fitted] | frame B (the agy lane's complete picture): 23 rows claimed, 44 borrowed joints [18 chosen, 14 ansatz, 6 measured-input, 3 refuted, 2 unknown, 1 fitted]
 
 A joint is EARNED only if a banked theorem or law on main supplies it (FORCED-BY-MAIN, or VERIFIED-BY-MAIN for an exact identity checked but not proved); every other joint is BORROWED: CHOSEN, FITTED, MEASURED-INPUT, ANSATZ, FORCED-CLAIMED (a seat's word), REFUTED or UNKNOWN. A joint counts once however many rows it feeds. Progress means the borrowed totals fall.
 
@@ -26,7 +26,7 @@ Held out (sealed): m_b/m_t (firewalled), m_tau/m_b (firewalled).
 Graded an input: theta-bar.
 No frame: y_t, g_1, g_2, g_3, m_H, v.
 
-**Borrowed joints: 14** (11 CHOSEN, 2 ANSATZ, 1 FITTED), the shared block included.
+**Borrowed joints: 14** (10 CHOSEN, 3 ANSATZ, 1 FITTED), the shared block included.
 
 | id | joint | type | rows fed | same as | register | basis |
 |---|---|---|---|---|---|---|
@@ -36,7 +36,7 @@ No frame: y_t, g_1, g_2, g_3, m_H, v.
 | A04 | the Higgs direction DR, the Serre derivative of the theta triplet R (a weight-3/2 covariant section; B1691), as every look of the family runs it (B1726 compute) | CHOSEN | 10 | B04 | P-366 | one section of a menu (R, DR, D2R and their combinations; B1691, B1726); corrected S300d — first written as a census theta-power direction |
 | A05 | the up-conjugate reading (S~, S, S) at a0 = 0 | CHOSEN | 10 | B05 | P-295 | FL-09; B1744 (the reading is not forced); B1832's S300 section (FR-FIB at a0 = 0 against FR-COV); S301: the web seat's doublet index EXCLUDES a twist-read Higgs as its source within FR-FIB as ruled (B1836) |
 | A06 | the horocycle L_max (over L_2) | CHOSEN | 10 | B07 | P-402 | P-402: selected by the data, not absorbed by tau (the web seat's sealed H2) |
-| A07 | the end: the small-cut norm | CHOSEN | 10 | | P-421 | P-421: no geometric ground since S238; at the exact norms the six fail (B1829, S297) |
+| A07 | the end: the small-cut norm 2 pi L + c_s at L_max | ANSATZ | 10 | | P-421 | P-421; B1838: at the exact norms the six fail (reproduced on main); e^-L_max > 1/2 at every B1667 point, so the small-disc expansion is used where no disc fits; no single horocycle reproduces its channel weights (the levels differ between the channel pairs, B1838 sec. 2b) -- the norm of no geometric |
 | A08 | the generations' metric H = I | CHOSEN | 10 | B09 | P-531 | B1822; FL-11 |
 | A09 | the channel weights sqrt(2 pi L + c_s), a flat norm and cut with a hyperbolic radius | ANSATZ | 10 | |  | FL-11 (UNSTATED) |
 | A10 | the lepton factor c = 3 | CHOSEN | 2 | B11 | P-446 | FL-12 (inserted by hand); B1789, B1793, B1817 (not derived) |
@@ -45,7 +45,7 @@ No frame: y_t, g_1, g_2, g_3, m_H, v.
 
 Borrowed joints per claimed row (shared block included): m_u/m_c 13; m_c/m_t 13; m_d/m_s 13; m_s/m_b 13; m_e/m_mu 14; m_mu/m_tau 14; |V_us| 13; |V_cb| 13; |V_ub| 13; J (or delta_CP) 13.
 
-**The joints to earn first (by rows released):** A01 the modulus tau (Re tau, Im tau) on the strip, Im tau near 3 (fitted, 10 rows); A02 the slope 2/5 of the line class (chosen, 10 rows); A03 the line's order 10 (an odd/10 offset; the five odd offsets are one T-orbit, so which one is the sheet of Re tau, A01) (chosen, 10 rows); A04 the Higgs direction DR, the Serre derivative of the theta triplet R (a weight-3/2 covariant section; B1691), as every look of the family runs it (B1726 compute) (chosen, 10 rows); A05 the up-conjugate reading (S~, S, S) at a0 = 0 (chosen, 10 rows); A06 the horocycle L_max (over L_2) (chosen, 10 rows); A07 the end: the small-cut norm (chosen, 10 rows); A08 the generations' metric H = I (chosen, 10 rows).
+**The joints to earn first (by rows released):** A01 the modulus tau (Re tau, Im tau) on the strip, Im tau near 3 (fitted, 10 rows); A02 the slope 2/5 of the line class (chosen, 10 rows); A03 the line's order 10 (an odd/10 offset; the five odd offsets are one T-orbit, so which one is the sheet of Re tau, A01) (chosen, 10 rows); A04 the Higgs direction DR, the Serre derivative of the theta triplet R (a weight-3/2 covariant section; B1691), as every look of the family runs it (B1726 compute) (chosen, 10 rows); A05 the up-conjugate reading (S~, S, S) at a0 = 0 (chosen, 10 rows); A06 the horocycle L_max (over L_2) (chosen, 10 rows); A07 the end: the small-cut norm 2 pi L + c_s at L_max (ansatz, 10 rows); A08 the generations' metric H = I (chosen, 10 rows).
 
 ## Frame B — the agy lane's complete picture: its master scorecard, Route A, at 18c607040
 

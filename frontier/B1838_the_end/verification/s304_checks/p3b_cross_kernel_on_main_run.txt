@@ -1,0 +1,1 @@
+K_down,s K_up,s = wp(u) - wp(A tau - B) on main's kernels: max relative dev 1.3e-14 over 72 (tau, line, channel, u) cases

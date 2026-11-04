@@ -38,7 +38,7 @@ A = [
  ("A04", "the Higgs direction DR, the Serre derivative of the theta triplet R (a weight-3/2 covariant section; B1691), as every look of the family runs it (B1726 compute)", "CHOSEN", "one section of a menu (R, DR, D2R and their combinations; B1691, B1726); corrected S300d — first written as a census theta-power direction", OUTS, "P-366"),
  ("A05", "the up-conjugate reading (S~, S, S) at a0 = 0", "CHOSEN", "FL-09; B1744 (the reading is not forced); B1832's S300 section (FR-FIB at a0 = 0 against FR-COV); S301: the web seat's doublet index EXCLUDES a twist-read Higgs as its source within FR-FIB as ruled (B1836)", OUTS, "P-295"),
  ("A06", "the horocycle L_max (over L_2)", "CHOSEN", "P-402: selected by the data, not absorbed by tau (the web seat's sealed H2)", OUTS, "P-402"),
- ("A07", "the end: the small-cut norm", "CHOSEN", "P-421: no geometric ground since S238; at the exact norms the six fail (B1829, S297)", OUTS, "P-421"),
+ ("A07", "the end: the small-cut norm 2 pi L + c_s at L_max", "ANSATZ", "P-421; B1838: at the exact norms the six fail (reproduced on main); e^-L_max > 1/2 at every B1667 point, so the small-disc expansion is used where no disc fits; no single horocycle reproduces its channel weights (the levels differ between the channel pairs, B1838 sec. 2b) -- the norm of no geometric cut (re-typed CHOSEN -> ANSATZ at S304)", OUTS, "P-421"),
  ("A08", "the generations' metric H = I", "CHOSEN", "B1822; FL-11", OUTS, "P-531"),
  ("A09", "the channel weights sqrt(2 pi L + c_s), a flat norm and cut with a hyperbolic radius", "ANSATZ", "FL-11 (UNSTATED)", OUTS, ""),
  ("A10", "the lepton factor c = 3", "CHOSEN", "FL-12 (inserted by hand); B1789, B1793, B1817 (not derived)", [5, 6, 12], "P-446"),

@@ -217,9 +217,9 @@
     },
     {
      "id": "A07",
-     "name": "the end: the small-cut norm",
-     "type": "CHOSEN",
-     "basis": "P-421: no geometric ground since S238; at the exact norms the six fail (B1829, S297)",
+     "name": "the end: the small-cut norm 2 pi L + c_s at L_max",
+     "type": "ANSATZ",
+     "basis": "P-421; B1838: at the exact norms the six fail (reproduced on main); e^-L_max > 1/2 at every B1667 point, so the small-disc expansion is used where no disc fits; no single horocycle reproduces its channel weights (the levels differ between the channel pairs, B1838 sec. 2b) -- the norm of no geometric cut (re-typed CHOSEN -> ANSATZ at S304)",
      "feeds": [
       1,
       2,

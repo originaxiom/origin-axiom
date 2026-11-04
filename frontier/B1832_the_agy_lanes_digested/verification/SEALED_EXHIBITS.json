@@ -718,5 +718,197 @@
   "lines": "586-613",
   "sha256": "b6b52ac19c961dfde4173b3c4d0171cda4db9e2bdd5edbaba510fd1d6dedad53",
   "bytes": 4686
+ },
+ {
+  "what": "toe_closure.py 10361-10372 at 9b4d4e016 (S304 reader: a held-out target named, bounded or judged; Stages 10-11)",
+  "rev": "9b4d4e016",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "10361-10372",
+  "sha256": "ea7459a72ab01021d2f8ea0bcf3a3f799dcfc04b444720cb1ab74c61c034db74",
+  "bytes": 853
+ },
+ {
+  "what": "toe_closure.py 10461-10572 at 9b4d4e016 (S304 reader: a held-out target named, bounded or judged; Stages 10-11)",
+  "rev": "9b4d4e016",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "10461-10572",
+  "sha256": "2cf2d372fd817d3e323096933ffeca120c8698f06f5b3212cf0a1a9d3184ef53",
+  "bytes": 6686
+ },
+ {
+  "what": "toe_closure.py 10983-11097 at 9b4d4e016 (S304 reader: a held-out target named, bounded or judged; Stages 10-11)",
+  "rev": "9b4d4e016",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "10983-11097",
+  "sha256": "df68d96d40482e5c9b255ba135741ce6c89f6a6301bf827a160e07480acfde2b",
+  "bytes": 6248
+ },
+ {
+  "what": "toe_closure.py 13029-13707 at 9b4d4e016 (S304 reader: a held-out target named, bounded or judged; Stages 10-11)",
+  "rev": "9b4d4e016",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "13029-13707",
+  "sha256": "90ec788e17c9ef113e9dcfc5c9ff89607dd3edfc7d410a570d7baac2dc3bc3d7",
+  "bytes": 40173
+ },
+ {
+  "what": "toe_closure.py 13708-14314 at 55431c8c7 (S304 reader: a held-out target named, bounded or judged; Stages 10-11)",
+  "rev": "55431c8c7",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "13708-14314",
+  "sha256": "1cf406db9cca109f15cc9634fcd08753b9ec65f07dcca2ba82db2ed19e5a1b83",
+  "bytes": 34883
+ },
+ {
+  "what": "toe_closure.py 14400-14403 at 55431c8c7 (S304 reader: a held-out target named, bounded or judged; Stages 10-11)",
+  "rev": "55431c8c7",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "14400-14403",
+  "sha256": "7de4c48f9352bea7517493007bfaf5a1554926fd595d18f4dc6f82fae184caab",
+  "bytes": 393
+ },
+ {
+  "what": "toe_closure.py 14489-14492 at 55431c8c7 (S304 reader: a held-out target named, bounded or judged; Stages 10-11)",
+  "rev": "55431c8c7",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "14489-14492",
+  "sha256": "33bca0fe5b65dd40dfc06d4f90a200fe96c9ad36bac148538983c667e910a012",
+  "bytes": 396
+ },
+ {
+  "what": "AGY_TO_ALL_SEATS_2026-11-03_SIX_STAGE_BULLETPROOF_ROAD_PLAN_THEOREM_15_AND_4B91B9BE7_CLEANUP.md 94-94 at 9b4d4e016 (S304 reader: a held-out target named, bounded or judged; Stages 10-11)",
+  "rev": "9b4d4e016",
+  "path": "relays/AGY_TO_ALL_SEATS_2026-11-03_SIX_STAGE_BULLETPROOF_ROAD_PLAN_THEOREM_15_AND_4B91B9BE7_CLEANUP.md",
+  "lines": "94-94",
+  "sha256": "cfeb69798426a7fcc1fba8d6a6341b7aa7f93f5e14fab5123d7e62ea56e15156",
+  "bytes": 430
+ },
+ {
+  "what": "AGY_TO_ALL_SEATS_2026-11-03_SIX_STAGE_BULLETPROOF_ROAD_PLAN_THEOREM_15_AND_4B91B9BE7_CLEANUP.md 94-94 at 55431c8c7 (S304 reader: a held-out target named, bounded or judged; Stages 10-11)",
+  "rev": "55431c8c7",
+  "path": "relays/AGY_TO_ALL_SEATS_2026-11-03_SIX_STAGE_BULLETPROOF_ROAD_PLAN_THEOREM_15_AND_4B91B9BE7_CLEANUP.md",
+  "lines": "94-94",
+  "sha256": "cfeb69798426a7fcc1fba8d6a6341b7aa7f93f5e14fab5123d7e62ea56e15156",
+  "bytes": 430
+ },
+ {
+  "what": "test_elevation_operator_gate.py 161-167 at 55431c8c7 (S304 reader: a held-out target named, bounded or judged; Stages 10-11)",
+  "rev": "55431c8c7",
+  "path": "tests/test_elevation_operator_gate.py",
+  "lines": "161-167",
+  "sha256": "f9782710b21cbbd0870625a5bc850af04c35d45745fcf8a014a22d9f98533f05",
+  "bytes": 257
+ },
+ {
+  "what": "test_elevation_operator_gate.py 295-297 at 55431c8c7 (S304 reader: a held-out target named, bounded or judged; Stages 10-11)",
+  "rev": "55431c8c7",
+  "path": "tests/test_elevation_operator_gate.py",
+  "lines": "295-297",
+  "sha256": "381189b6d2e410b51b03babb09f82902b248d498484601f7671fd24f8ee83c8b",
+  "bytes": 181
+ },
+ {
+  "what": "test_elevation_operator_gate.py 341-399 at 55431c8c7 (S304 reader: a held-out target named, bounded or judged; Stages 10-11)",
+  "rev": "55431c8c7",
+  "path": "tests/test_elevation_operator_gate.py",
+  "lines": "341-399",
+  "sha256": "932dd4dc8131f70a423464d7e3f8e225c8ca440c47b601ed22acc28752511ce2",
+  "bytes": 2971
+ },
+ {
+  "what": "test_elevation_operator_gate.py 426-426 at 55431c8c7 (S304 reader: a held-out target named, bounded or judged; Stages 10-11)",
+  "rev": "55431c8c7",
+  "path": "tests/test_elevation_operator_gate.py",
+  "lines": "426-426",
+  "sha256": "2fcffccd4f2fe53b81dbab696585bc71ffa4fc649dc5f67c7172042ccf62e424",
+  "bytes": 71
+ },
+ {
+  "what": "test_elevation_operator_gate.py 609-617 at 55431c8c7 (S304 reader: a held-out target named, bounded or judged; Stages 10-11)",
+  "rev": "55431c8c7",
+  "path": "tests/test_elevation_operator_gate.py",
+  "lines": "609-617",
+  "sha256": "aa204c0e10aba615d763089e7594c24de516446edc0816761f92aaf4dc940a5f",
+  "bytes": 650
+ },
+ {
+  "what": "test_elevation_operator_gate.py 732-762 at 55431c8c7 (S304 reader: a held-out target named, bounded or judged; Stages 10-11)",
+  "rev": "55431c8c7",
+  "path": "tests/test_elevation_operator_gate.py",
+  "lines": "732-762",
+  "sha256": "9bbe1124521722ac39ba428eda4cec149e80b1e65bfc50ede1f1572f53ced3bf",
+  "bytes": 1927
+ },
+ {
+  "what": "test_elevation_operator_gate.py 818-860 at 55431c8c7 (S304 reader: a held-out target named, bounded or judged; Stages 10-11)",
+  "rev": "55431c8c7",
+  "path": "tests/test_elevation_operator_gate.py",
+  "lines": "818-860",
+  "sha256": "288b827007a8ba573111d566db4edf0c0fb9c393a43a80984007acda5ed0f4c0",
+  "bytes": 2929
+ },
+ {
+  "what": "test_elevation_operator_gate.py 975-984 at 55431c8c7 (S304 reader: a held-out target named, bounded or judged; Stages 10-11)",
+  "rev": "55431c8c7",
+  "path": "tests/test_elevation_operator_gate.py",
+  "lines": "975-984",
+  "sha256": "979716e89263236ed29e0e8f2496b3c1525cc45e9655196fc605aef3fa373aee",
+  "bytes": 684
+ },
+ {
+  "what": "test_elevation_operator_gate.py 1052-1052 at 55431c8c7 (S304 reader: a held-out target named, bounded or judged; Stages 10-11)",
+  "rev": "55431c8c7",
+  "path": "tests/test_elevation_operator_gate.py",
+  "lines": "1052-1052",
+  "sha256": "1ee72e03345d7fe10c2223fefea12d61b845acb30f4ded322062108e29ef44bd",
+  "bytes": 122
+ },
+ {
+  "what": "test_elevation_operator_gate.py 1078-1138 at 55431c8c7 (S304 reader: a held-out target named, bounded or judged; Stages 10-11)",
+  "rev": "55431c8c7",
+  "path": "tests/test_elevation_operator_gate.py",
+  "lines": "1078-1138",
+  "sha256": "a714ed017c4478bd601fe41450d89a8a345cbedcc9c98ac02472dfd6f0ffb197",
+  "bytes": 4330
+ },
+ {
+  "what": "test_elevation_operator_gate.py 1177-1177 at 55431c8c7 (S304 reader: a held-out target named, bounded or judged; Stages 10-11)",
+  "rev": "55431c8c7",
+  "path": "tests/test_elevation_operator_gate.py",
+  "lines": "1177-1177",
+  "sha256": "8ab54daa8c0a119f6743780589487e4d0e54883ce3c59b1da3b2f0d88a9df58a",
+  "bytes": 55
+ },
+ {
+  "what": "test_elevation_operator_gate.py 1239-1299 at 55431c8c7 (S304 reader: a held-out target named, bounded or judged; Stages 10-11)",
+  "rev": "55431c8c7",
+  "path": "tests/test_elevation_operator_gate.py",
+  "lines": "1239-1299",
+  "sha256": "2d696e3091c73c9948d14094bcd3701f79bb86d44a4a7221f53a455817d00335",
+  "bytes": 4183
+ },
+ {
+  "what": "test_elevation_operator_gate.py 1370-1370 at 55431c8c7 (S304 reader: a held-out target named, bounded or judged; Stages 10-11)",
+  "rev": "55431c8c7",
+  "path": "tests/test_elevation_operator_gate.py",
+  "lines": "1370-1370",
+  "sha256": "ad58cd82cb91617f3d158e66b5319023b9a1d76a2b0ba12a3c143da2ee039752",
+  "bytes": 110
+ },
+ {
+  "what": "test_elevation_operator_gate.py 1438-1438 at 55431c8c7 (S304 reader: a held-out target named, bounded or judged; Stages 10-11)",
+  "rev": "55431c8c7",
+  "path": "tests/test_elevation_operator_gate.py",
+  "lines": "1438-1438",
+  "sha256": "cde76fa5b796cfe9c2dd128dbc1e995c93fb3cc994d431977028de944cd6913b",
+  "bytes": 67
+ },
+ {
+  "what": "test_elevation_operator_gate.py 1542-1570 at 55431c8c7 (S304 reader: a held-out target named, bounded or judged; Stages 10-11)",
+  "rev": "55431c8c7",
+  "path": "tests/test_elevation_operator_gate.py",
+  "lines": "1542-1570",
+  "sha256": "9ed22278ac34ae9e6fa0edcaf0303e40733303fba28215e09da96481869ae392",
+  "bytes": 1998
  }
 ]

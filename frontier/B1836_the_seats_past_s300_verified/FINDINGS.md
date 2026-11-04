@@ -170,3 +170,5 @@ identical to the reader's.
   re-run by main.
 
 > *Dated note 2026-11-04 (S302, B1837):* § 3 sharpened. 'Not all equal' picks only 2/5 for the CHANNEL-CLASS gaps. Under B1788's m₂/m₃ exponents (e_up = ½ − ‖3α‖, e_down = 1/5 on 5α ∈ ℤ) 1/5 and 2/5 both separate up from down, and only the up-steeper ORDER — an in-sample fact of the six — picks 2/5 (B1788 itself: 'no data-free condition here singles it out'). Either way no held-out quantity is read and the slope stays borrowed; the correction to P-625's reason stands.*
+
+> *Dated note 2026-11-05 (S304):* § 4's "off by a factor −i for Re τ ≥ 1" is exact only on 1 < Re τ < 3. The sheet law is mpmath = (−i)^⌊(Re τ + 1)/2⌋ × the series off the cut lines (3 × 10⁻³¹): factor 1 on (−1, 1), −i on (1, 3), −1 on (3, 5), i on (−3, −1); on Re τ ∈ 1 + 2ℤ the branch depends on rounding. The robust fix is an explicit e^{iπτ/4} (P-670).*

@@ -18406,3 +18406,11 @@ the candidate's six pass only with the small-cut end and fail at the exact horob
 passes them. The line-order dictionary gained its neutrino rows (Pati–Salam at order 4; the left–right pattern at order
 3). The density Higgs's post hoc reproduced. Next: judge the agy lane's zeta-regularised end, then a sealed re-read of the
 six with the end's scale free. 0 of 19.
+
+## 2026-11-05 — S304: the candidate's end is the norm of no geometric cut (B1838)
+
+The small-cut formula the candidate's six need is an expansion in a small disc radius, evaluated at L_max where the disc no
+longer fits in the cell; and no single geometric horocycle reproduces its channel weights — matching them needs a different
+cut depth per channel pair. So the end is an ansatz, not a choice among geometric ends. The agy lane's zeta-regularised end
+does not rescue it (its scale stays free), though its closed form for the channel norms is banked with credit. Next: one
+sealed card, the six at the exact horoball norm with one free cut level, decides whether the candidate survives. 0 of 19.

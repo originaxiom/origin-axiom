@@ -18,13 +18,13 @@
 | … NEGATIVE | 382 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 682 |
+| register points | 684 |
 | … QUEUED | 283 |
 | … LEAD | 9 |
-| … OWNER | 4 |
-| … DONE | 375 |
+| … OWNER | 5 |
+| … DONE | 376 |
 | … DECLINED | 11 |
-| harvest rows (the last number) | 1561 |
+| harvest rows (the last number) | 1562 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -50,12 +50,14 @@
 - ** P-082** — a second outside reader, later, approached in his own context (relating to his videos), after the first correspondence → *later, at the owner's word; nothing prepared until then [2026-11-04, the owner confirmed: paused until a result passes a level-2 confirmation]*
 - ** P-253** — the chain gap's top entries (Review 67's R66-3, declined there because the chain is the frozen paper's spine): B1098, B959, B1100, B952, B1086, B1000, B1484, B1070 (coverage_candidates.py --chain-gap) — adjudicate each… → *asked of the owner: whether and when to open a draft after p9-draft9; until then the chain-gap list stays recorded here and nothing is due (S231) [earlier: Q3…*
 - ** P-665** — P-638's TWO CALLS FOR THE OWNER (B1835 § 2): D2 — which identification the PMNS card earns: the mass half only (the target is r = Δm²₂₁/Δm²₃₁; the angles stay out, since the mixing half already fails for the quarks at t… → *asked of the owner (S300d): main recommends D2 = the mass half only, and D11 = no data-touching existence scan for a held-out target*
+- ** P-684** — A COMPLIANCE FOLLOW-UP TO THE AGY LANE (S304): its Stages 10–11 kept the relay's rule for new work, but one pushed relay line still states a verdict on P-638's targets, 58 older test assertions name held-out targets (45… → *asked of the owner (S304): send a short follow-up naming the line, the assertions and the certificate, asking they be withdrawn or committed unread — main reco…*
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
 
 ## The last landings (CHANGELOG)
 
+- S304 THE CANDIDATE'S END IS THE NORM OF NO GEOMETRIC CUT (B1838): e^-L_max ABOVE THE CELL'S INRADIUS; NO SINGLE HOROCYCLE REPRODUCES ITS WEIGHTS; A07 RE-TYPED ANSATZ; THE AGY LANE'S STAGES 10-11 VERI…
 - S303 THE END IS THE DECIDER: THE EXACT-END FAILURE REPRODUCED ON MAIN (P-595, B1838); THE LINE'S ORDER AND THE NEUTRINO (P-682); THE DENSITY POST HOC REPRODUCED (P-681) (2026-11-05)
 - S302 B1837 THE AGY LANE'S STAGES 8-9 AND THE WEB SEAT'S DENSITY HIGGS VERIFIED: MAIN STANDS ON SIX OF THE SEVEN REBUTTALS; NO JOINT EARNED; MAIN'S OWN FIREWALL EXPOSURE RECORDED (2026-11-04)
 - S301 B1836 THE SEATS PAST S300, FETCHED AND VERIFIED: THE F7 MIRROR IDENTITY PROVED; T A SYMMETRY OF THE OUTPUTS; THE SLOPE NEED NOT SPEND THE HELD-OUT TARGET; NO BORROWED JOINT EARNED BY THE AGY LAN…
@@ -63,11 +65,10 @@
 - S300e THE OWNER RULES ALL OF MAIN'S RECOMMENDATIONS ("i aprove all your recomendations"): THE BRAINSTORM RULES ADOPTED AND GATED; THE SLOPE SELECTION DECLINED; PF1-W SCOPED; L178, L86, L87 RETIRED; L…
 - S300d THE OWNER'S RULING ON P-660 (U_e AND THE PMNS FIRST): B1835 OPENED — THE CONTROL PASSES; ONLY THE NEUTRINO SPLITTING RATIO IS IN THE CANDIDATE'S SCOPE; TWO CALLS TO THE OWNER (2026-11-04)
 - S300c B1834 THE TOTAL-INPUTS SCOREBOARD (P-418, the owner's ruling of 2026-10-29) AND THE BORROWED-JOINTS SCAFFOLD (P-661): 0 OF 19 EARNED; THE CANDIDATE 10 ROWS ON 14 BORROWED JOINTS, AGY'S COMPLETE…
-- S300b THE OWNER'S LINE ON SEATS' STANDARDS (P-661): A LOOSER METHOD IS FINE IF EVERY UNEARNED JOINT IS NAMED; AGY'S LANE FAILS IT BY LABELLING BORROWED JOINTS FORCED; THE BORROWED-JOINTS SCAFFOLD REG…
 
 ## The latest campaign line
 
-LATEST (2026-11-05, S303: THE END IS THE DECIDER (B1838, OPEN) — the exact-end failure reproduced on main: the candidate's six pass only with the small-cut end (χ² 2.4–4.9) and fail at the exact horoball norms (26–54); no principled end on record passes them; next, the six re-read with the end's scale free in a sealed card. P-682: the line's order identifies the sectors (Pati–Salam at 4, SU(5) at 5, left–right at 3). 0 of 19.)
+LATEST (2026-11-05, S304: the candidate's end is the norm of no geometric cut (B1838) — e^{−L_max} above the cell's inradius; no single horocycle reproduces its channel weights (spread 0.135); A07 re-typed ANSATZ; the agy lane's zeta end not principled; next, the deciding sealed card at the exact norm with one free cut level. Compliance follow-up to the agy lane asked of the owner (P-684). 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

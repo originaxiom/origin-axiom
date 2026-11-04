@@ -15368,7 +15368,8 @@
     "K1",
     "S300",
     "S301",
-    "S302"
+    "S302",
+    "S304"
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 8,
@@ -15413,9 +15414,10 @@
    ],
    "refs": [
     "S238",
-    "S303"
+    "S303",
+    "S304"
    ],
-   "obstacle": "particle_dict",
+   "obstacle": "units_scale",
    "obstacle_conf": 2,
    "status": "banked",
    "domain": "topology"
