@@ -40,7 +40,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[2]
 LEADS = ROOT / "docs" / "OPEN_LEADS.md"
 STALE_DAYS = 21
 # the ratchet: frozen 2026-10-01 at the counts the gate found on the day it was written. LOWER them when debt is paid.
-LEAD_STALE_BASELINE = 43
+LEAD_STALE_BASELINE = 42
 ARC_STALE_BASELINE = 77                       # lowered 2026-10-24 (S205): 77 stale OPEN arcs, the ratchet holds the gain
 
 ESCALATED_RE = re.compile(r"ESCALATED\(\s*[0-9]{4}-[0-9]{2}-[0-9]{2}")

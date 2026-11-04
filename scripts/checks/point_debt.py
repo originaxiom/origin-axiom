@@ -25,6 +25,19 @@ THE RULE (checked here)
    not done; nothing current rests on it) or [PROCESS] (tooling, documents, harvests, governance). Only debts age. Every
    open DEBT row is named in the register's ranked list (the section headed "## The debts, by load"), and that list names
    only open DEBT rows: debts are worked in that order.
+7. DIRECTION LEADS AGE (the owner's ruling of 2026-11-04 on P-659, M1): a [LEAD] row that comes from the owner (source OW),
+   from the brainstorms re-read or a brainstorm (BS), a meditation, the framing ledger (FL-nn) or a review (R7n) ages like a
+   debt: unmoved for STALE_DAYS it fails unless ESCALATED -- its first step run, a dated decline, or put to the owner.
+   Phase-in: the clock starts at M1_START for rows older than it.
+8. A HOST CANNOT CLOSE OVER ITS CHILDREN (M2, M3): a row that says "joined under P-H" or "merged into P-H" keeps its own
+   disposition, and P-H cannot be DONE while it is open; an umbrella row listing "children P-..." cannot be DONE while a
+   listed child is open.
+9. AUDIT-ROOM DRAFTS LAND OR ARE DECLINED (M6): an open row citing a gitignored audit/ path fails once its moved date is
+   more than DRAFT_DAYS old (STALE_DAYS for rows older than M1_START, the phase-in), unless its where carries
+   DRAFT-DECLINED(YYYY-MM-DD: reason) -- land the draft (cite the tracked path) or decline it.
+Every run also prints the open OWNER rows (M6: every report to the owner lists them) and, report-only until CARRY_FROM,
+the carry scan (M4): a FINDINGS line of an arc from B1833 on saying "owed", "carried forward", "not computed" or "never
+computed" whose arc no register row cites.
 The clock is the real date; OA_POINT_TODAY=YYYY-MM-DD overrides it for tests. OA_POINT_REGISTER overrides the file.
 """
 from __future__ import annotations
@@ -38,8 +51,16 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 REGISTER = ROOT / "docs" / "POINT_REGISTER.md"
 LEADS = ROOT / "docs" / "OPEN_LEADS.md"
-FLOOR = 664
+FLOOR = 667
 STALE_DAYS = 21
+M1_START = datetime.date(2026, 11, 4)   # the owner's ruling on P-659: direction leads and drafts age from here
+DRAFT_DAYS = 7
+CARRY_FROM = datetime.date(2026, 11, 18)   # M4 report-only before this date, failing from it
+DIRECTION_SRC = re.compile(r"\b(OW|BS)\b|^R7\d")
+DIRECTION_POINT = re.compile(r"\bFL-\d+|Meditation")
+LINK_RE = re.compile(r"(?:joined under|merged into) (P-\d{3})")
+CHILDREN_RE = re.compile(r"children ((?:P-\d{3}(?:, | and |,)?)+)")
+DRAFT_DECLINED = re.compile(r"DRAFT-DECLINED\((\d{4}-\d{2}-\d{2})")
 DISPOSITIONS = {"DONE", "QUEUED", "LEAD", "OWNER", "DECLINED"}
 ROW_RE = re.compile(r"^\|\s*(P-\d{3})\s*\|(.*)\|\s*$")
 SLOT_RE = re.compile(r"^\|\s*(Q\d+)\s*\|")
@@ -142,7 +163,28 @@ def check(text: str, root: pathlib.Path = ROOT, leads_text: str | None = None, t
             age = (today - d).days if d else None
             if typ == "DEBT" and (age is None or age > STALE_DAYS) and not fresh_esc:
                 fails.append(f"{pid}: {disp} DEBT unmoved {age if age is not None else '?'} days (> {STALE_DAYS}) without ESCALATED")
+            clock = (today - max(d, M1_START)).days if d else None
+            if typ == "LEAD" and (DIRECTION_SRC.search(_src) or DIRECTION_POINT.search(point)) and not fresh_esc \
+                    and (clock is None or clock > STALE_DAYS):
+                fails.append(f"{pid}: a direction lead unmoved {clock if clock is not None else '?'} days (> {STALE_DAYS}) -- run its first step, decline it with a date, or put it to the owner (rule 7, M1)")
+            if "audit/" in point + where and not DRAFT_DECLINED.search(where) and d:
+                limit = DRAFT_DAYS if d >= M1_START else STALE_DAYS
+                if clock is not None and clock > limit:
+                    fails.append(f"{pid}: cites an audit-room draft unmoved {clock} days (> {limit}) -- land it at a tracked path or mark DRAFT-DECLINED (rule 9, M6)")
             open_rows.append((pid, sorted(named)[0] if named else "?", age, typ))
+    disp_of = {pid: cells[3] for pid, cells in rows if len(cells) == 6}
+    open_ids = {pid for pid, dd in disp_of.items() if dd in ("QUEUED", "LEAD", "OWNER")}
+    for pid, cells in rows:
+        if len(cells) != 6:
+            continue
+        for host in LINK_RE.findall(cells[2] + " " + cells[4]):
+            if pid in open_ids and disp_of.get(host) == "DONE":
+                fails.append(f"{host}: DONE while {pid}, joined or merged into it, is open (rule 8, M3)")
+        if cells[3] == "DONE":
+            for grp in CHILDREN_RE.findall(cells[2]):
+                for child in re.findall(r"P-\d{3}", grp):
+                    if child in open_ids:
+                        fails.append(f"{pid}: an umbrella DONE while its child {child} is open (rule 8, M2)")
     rank = ranked(text)
     debts = {pid for pid, _, _, t in open_rows if t == "DEBT"}
     for pid in sorted(debts - set(rank)):
@@ -167,9 +209,36 @@ def main(argv=None) -> int:
     print(f"point-debt: {len(rows)} points, {len(open_rows)} open -- {len(by['DEBT'])} debts (oldest {oldest} days), "
           f"{len(by['LEAD'])} leads, {len(by['PROCESS'])} process" + (f", {len(by['?'])} untyped" if by['?'] else "")
           + f"; next debt {rank[0] if rank else 'none'}")
+    owner = [pid for pid, cells in rows if len(cells) == 6 and cells[3] == "OWNER"]
+    print(f"  owner calls open ({len(owner)}): " + ", ".join(owner))
+    carry = carry_scan(text)
+    today = _today()
+    if carry:
+        tag = "FAIL" if today >= CARRY_FROM else "carry-scan (report-only until %s)" % CARRY_FROM
+        for c in carry[:8]:
+            print("  " + tag, c)
+        if today >= CARRY_FROM:
+            fails = fails + carry
     for f in fails:
         print("  FAIL", f)
     return 1 if fails else 0
+
+
+def carry_scan(text: str, root: pathlib.Path = ROOT, first: int = 1833):
+    """M4: every 'owed / carried forward / not computed' line in an arc's FINDINGS (from B1833 on) has a register row citing the arc"""
+    out = []
+    fr = root / "frontier"
+    if not fr.exists():
+        return out
+    for dd in sorted(fr.iterdir()):
+        mm = re.match(r"B(\d+)_", dd.name)
+        if not mm or int(mm.group(1)) < first or not (dd / "FINDINGS.md").exists():
+            continue
+        body = (dd / "FINDINGS.md").read_text(encoding="utf-8", errors="replace")
+        if re.search(r"\b(owed|carried forward|not computed|never computed)\b", body, flags=re.I) and \
+                not re.search(r"\bB%s\b" % mm.group(1), text):
+            out.append(f"B{mm.group(1)}: its FINDINGS name owed or uncomputed work and no register row cites the arc (M4)")
+    return out
 
 
 if __name__ == "__main__":

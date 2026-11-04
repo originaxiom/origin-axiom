@@ -1,0 +1,29 @@
+{
+ "id": "B1835",
+ "verdict": "OPEN",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1728",
+  "B1799",
+  "B1726",
+  "B1749",
+  "B1753",
+  "B1829",
+  "B1832"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's four-channel frame (FR-FIB), the record's candidate's address",
+  "object": "U_e and the Dirac neutrino sector (-3, 0) on the strip's order-10 lines; the control on all 24 order-5 lines",
+  "reach": "general",
+  "hypotheses": "a0 = 0; the down/lepton reading S; Dirac pairing; no neutrino output computed or read; the card not yet written"
+ },
+ "claim_one_line": "U_e AND THE PMNS (P-638, OPEN; the owner's ruling P-660): the control passes on main's code -- on all 24 order-5 lines Y_e = c Y_d^T and U_e^L = conj(U_d^R) to 1e-15, 0.33-0.40 off on the order-10 lines; the design: the PMNS angles run through I-33's mixing half, which already fails for the quarks at the candidate's address, so only r = dm21^2/dm31^2 is in the candidate's scope -- independent of y_b/y_t by structure, but at leading order tied to the lepton hierarchy (the neutrino's within-sector gap is 1/20 on slope 2/5), its information in the prefactors; the owner's D2 and D11 owed (P-665). No neutrino output computed. 0 of 19.",
+ "weave_or_thread": "neither (a held-out design arc)"
+}

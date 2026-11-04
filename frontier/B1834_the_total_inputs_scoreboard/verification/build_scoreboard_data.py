@@ -30,7 +30,7 @@ A = [
  ("A01", "the modulus tau (Re tau, Im tau) on the strip, Im tau near 3", "FITTED", "FL-04; B1829's REGRADE: the strip was found by sealed looks at the data (P-585's look count)", OUTS, "P-629"),
  ("A02", "the slope 2/5 of the line class", "CHOSEN", "P-384 (the referee: mostly a pick); P-625: the slope selection is not value-free", OUTS, "P-384, P-625"),
  ("A03", "the offset odd/10 within the class", "CHOSEN", "P-384", OUTS, "P-384"),
- ("A04", "the Higgs direction (a census theta-power direction)", "CHOSEN", "B1829's candidate rows; FL-09's menu", OUTS, "P-366"),
+ ("A04", "the Higgs direction DR, the Serre derivative of the theta triplet R (a weight-3/2 covariant section; B1691), as every look of the family runs it (B1726 compute)", "CHOSEN", "one section of a menu (R, DR, D2R and their combinations; B1691, B1726); corrected S300d — first written as a census theta-power direction", OUTS, "P-366"),
  ("A05", "the reading (S~, S, S) at a0 = 0", "CHOSEN", "FL-09; B1744 (the reading is not forced); B1832's S300 section (FR-FIB at a0 = 0 against FR-COV)", OUTS, "P-295"),
  ("A06", "the horocycle L_max (over L_2)", "CHOSEN", "P-402: selected by the data, not absorbed by tau (the web seat's sealed H2)", OUTS, "P-402"),
  ("A07", "the end: the small-cut norm", "CHOSEN", "P-421: no geometric ground since S238; at the exact norms the six fail (B1829, S297)", OUTS, "P-421"),

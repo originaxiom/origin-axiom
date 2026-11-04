@@ -33,7 +33,7 @@ No frame: y_t, g_1, g_2, g_3, m_H, v.
 | A01 | the modulus tau (Re tau, Im tau) on the strip, Im tau near 3 | FITTED | 10 | B01 | P-629 | FL-04; B1829's REGRADE: the strip was found by sealed looks at the data (P-585's look count) |
 | A02 | the slope 2/5 of the line class | CHOSEN | 10 | B02 | P-384, P-625 | P-384 (the referee: mostly a pick); P-625: the slope selection is not value-free |
 | A03 | the offset odd/10 within the class | CHOSEN | 10 | B03 | P-384 | P-384 |
-| A04 | the Higgs direction (a census theta-power direction) | CHOSEN | 10 | B04 | P-366 | B1829's candidate rows; FL-09's menu |
+| A04 | the Higgs direction DR, the Serre derivative of the theta triplet R (a weight-3/2 covariant section; B1691), as every look of the family runs it (B1726 compute) | CHOSEN | 10 | B04 | P-366 | one section of a menu (R, DR, D2R and their combinations; B1691, B1726); corrected S300d — first written as a census theta-power direction |
 | A05 | the reading (S~, S, S) at a0 = 0 | CHOSEN | 10 | B05 | P-295 | FL-09; B1744 (the reading is not forced); B1832's S300 section (FR-FIB at a0 = 0 against FR-COV) |
 | A06 | the horocycle L_max (over L_2) | CHOSEN | 10 | B07 | P-402 | P-402: selected by the data, not absorbed by tau (the web seat's sealed H2) |
 | A07 | the end: the small-cut norm | CHOSEN | 10 | | P-421 | P-421: no geometric ground since S238; at the exact norms the six fail (B1829, S297) |
@@ -45,7 +45,7 @@ No frame: y_t, g_1, g_2, g_3, m_H, v.
 
 Borrowed joints per claimed row (shared block included): m_u/m_c 13; m_c/m_t 13; m_d/m_s 13; m_s/m_b 13; m_e/m_mu 14; m_mu/m_tau 14; |V_us| 13; |V_cb| 13; |V_ub| 13; J (or delta_CP) 13.
 
-**The joints to earn first (by rows released):** A01 the modulus tau (Re tau, Im tau) on the strip, Im tau near 3 (fitted, 10 rows); A02 the slope 2/5 of the line class (chosen, 10 rows); A03 the offset odd/10 within the class (chosen, 10 rows); A04 the Higgs direction (a census theta-power direction) (chosen, 10 rows); A05 the reading (S~, S, S) at a0 = 0 (chosen, 10 rows); A06 the horocycle L_max (over L_2) (chosen, 10 rows); A07 the end: the small-cut norm (chosen, 10 rows); A08 the generations' metric H = I (chosen, 10 rows).
+**The joints to earn first (by rows released):** A01 the modulus tau (Re tau, Im tau) on the strip, Im tau near 3 (fitted, 10 rows); A02 the slope 2/5 of the line class (chosen, 10 rows); A03 the offset odd/10 within the class (chosen, 10 rows); A04 the Higgs direction DR, the Serre derivative of the theta triplet R (a weight-3/2 covariant section; B1691), as every look of the family runs it (B1726 compute) (chosen, 10 rows); A05 the reading (S~, S, S) at a0 = 0 (chosen, 10 rows); A06 the horocycle L_max (over L_2) (chosen, 10 rows); A07 the end: the small-cut norm (chosen, 10 rows); A08 the generations' metric H = I (chosen, 10 rows).
 
 ## Frame B — the agy lane's complete picture: its master scorecard, Route A, at 18c607040
 

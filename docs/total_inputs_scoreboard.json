@@ -148,9 +148,9 @@
     },
     {
      "id": "A04",
-     "name": "the Higgs direction (a census theta-power direction)",
+     "name": "the Higgs direction DR, the Serre derivative of the theta triplet R (a weight-3/2 covariant section; B1691), as every look of the family runs it (B1726 compute)",
      "type": "CHOSEN",
-     "basis": "B1829's candidate rows; FL-09's menu",
+     "basis": "one section of a menu (R, DR, D2R and their combinations; B1691, B1726); corrected S300d — first written as a census theta-power direction",
      "feeds": [
       1,
       2,

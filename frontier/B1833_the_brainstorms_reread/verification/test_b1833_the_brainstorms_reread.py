@@ -44,8 +44,10 @@ def test_the_new_rows_run_without_gaps_and_are_typed():
         if c[4] == "QUEUED":
             assert len(re.findall(r"\[(DEBT|LEAD|PROCESS)\]", c[5])) == 1, n
     assert _row("P-628")[4] == "DONE" and "B1833" in _row("P-628")[5]
-    for pid in ("P-652", "P-659", "P-660", "P-625"):
-        assert _row(pid)[4] == "OWNER", pid
+    for pid in ("P-652", "P-659", "P-660", "P-625"):     # put to the owner at S300; ruled the same day (S300e)
+        assert _row(pid)[4] in {"OWNER", "DONE", "DECLINED"}, pid
+        if _row(pid)[4] != "OWNER":
+            assert "owner" in _row(pid)[5].lower(), "%s closed without the owner's ruling named" % pid
 
 
 def test_the_corrections_are_on_the_record():

@@ -99,3 +99,27 @@ def test_typing_rule_6(tmp_path):
     r = _run(text.replace(rank_line, rank_line.replace(debt_id, lead_id, 1)), tmp_path)
     assert r.returncode == 1 and "which is not an open DEBT row" in r.stdout
 
+
+
+def test_the_brainstorm_rules_fire_on_planted_copies(tmp_path):
+    """P-659 (the owner's ruling, 2026-11-04): rule 7 (direction leads age after the phase-in), rule 8 (a host cannot
+    close over an open child), rule 9 (audit-room drafts land or are declined); and the owner line is printed"""
+    text = REGISTER.read_text(encoding="utf-8")
+    r = _run(text, tmp_path, today="2026-11-05")
+    assert r.returncode == 0 and "owner calls open" in r.stdout, r.stdout
+    late = _run(text, tmp_path, today="2026-11-26")
+    assert "rule 7, M1" in late.stdout and "rule 9, M6" in late.stdout, late.stdout[:600]
+    umb = next(l for l in text.splitlines() if l.startswith("| P-629 |"))
+    planted = text.replace(umb, umb.replace("| QUEUED |", "| DONE |", 1))
+    r8 = _run(planted, tmp_path, today="2026-11-05")
+    assert r8.returncode == 1 and "rule 8" in r8.stdout, r8.stdout[:600]
+    one = next(l for l in text.splitlines() if l.startswith("| P-") and "audit/" in l and "| QUEUED |" in l)
+    pid = one.split(" | ")[0].strip("| ").strip()
+    cells = one.split(" | ")
+    cells[5] = cells[5] + " DRAFT-DECLINED(2026-11-20: planted)"
+    marked = text.replace(one, " | ".join(cells))
+    before = [x for x in late.stdout.splitlines() if x.strip().startswith("FAIL " + pid + ":") and "rule 9" in x]
+    after = _run(marked, tmp_path, today="2026-11-26")
+    assert before, "the planted row did not fail rule 9 to begin with"
+    assert not [x for x in after.stdout.splitlines() if x.strip().startswith("FAIL " + pid + ":") and "rule 9" in x], \
+        "a DRAFT-DECLINED row still fails rule 9"

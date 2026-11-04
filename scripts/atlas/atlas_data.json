@@ -15322,6 +15322,25 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1835": {
+   "slug": "u e and the pmns",
+   "motifs": [
+    "figure_eight",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "B342",
+    "B343",
+    "L189",
+    "P10",
+    "S300"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 11,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B183": {
    "slug": "open collective arrow",
    "motifs": [

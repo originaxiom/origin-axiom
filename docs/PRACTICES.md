@@ -736,6 +736,17 @@ choices were added after B1600 against two removed. And the owner, 2026-11-04 (P
 standard if it names every unearned joint, so that a complete picture with its borrowed joints can show which joints to
 earn; main relabels each joint itself (B1834).
 
+## The brainstorm rules: direction leads age, hosts cannot close over children, drafts land, owner calls listed — MIXED (adopted 2026-11-04, the owner's ruling on P-659, B1833)
+
+**The rule.** WORKING_RULES' THE BRAINSTORM RULES: M1 direction leads age at 21 days (point-debt rule 7); M2 and M3 a host
+cannot close over an open child or merged row (rule 8); M4 the carry scan (report-only until 2026-11-18); M5 a review's
+ranked leads become action items (the review template); M6 every open OWNER row printed at every run and audit-room drafts
+land or are declined within 7 days (rule 9); M7 a retired frame's ideas translated or declined, and a fit-capacity frame
+card needs the owner's word to become the main line (MANUAL).
+
+**Why it exists.** The owner, 2026-11-04: "i feel like most important leads from brainstorms keeps getting forgotten".
+B1833 measured about 65 ideas with no carrier and twelve mechanisms of loss; the owner adopted all seven rules.
+
 ## Every open lead and every arc left OPEN is aged, on a ratchet — GATED (`lead-debt`)
 
 **The rule.** `scripts/checks/lead_debt.py` reads `docs/OPEN_LEADS.md` and every `frontier/*/arc_verdict.json`. A lead (a

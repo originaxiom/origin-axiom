@@ -18358,3 +18358,19 @@ borrowed-joints scaffold of today. Two frames: the record's candidate claims 10 
 complete picture claims 23 rows on 45 (traced through the mask by a firewalled reader, verified by main where a basis was
 claimed; one correction). None earned. Ten joints are shared, so the core — τ, the line, the Higgs direction, the reading,
 H = I, the radius — is the common target. A firewall path found while tracing was sealed (52 exhibits). 0 of 19.
+
+## 2026-11-04 — S300d: U_e and the PMNS opened (B1835), at the owner's ruling on P-660
+
+The owner ruled main's recommendation: U_e and the PMNS first. The control passes on main's code (U_e^L = conj(U_d^R) on
+every order-5 line to 10⁻¹⁵, failing where it should). The card's design narrows the question: the PMNS angles go through
+the mixing half of the read-out, which already fails for the quarks at the candidate's address, so only the neutrino
+splitting ratio r is in the candidate's scope, and at leading order r is tied to the lepton hierarchy — its information
+sits in the prefactors, to be measured before it counts. Two calls went to the owner (P-665). 0 of 19.
+
+## 2026-11-04 — S300e: the owner rules every recommendation; the brainstorm rules gated
+
+The owner approved all of main's recommendations on the open calls. The mechanism against lost leads is now in the
+register gate: direction leads age at 21 days, a host cannot close over an open child, audit-room drafts land or are
+declined within a week, and every run lists the owner's open calls (phased in to 2026-11-25 for the existing rows).
+agy's slope selection is declined (it would spend the held-out target and stay borrowed); PF1-W is scoped off the current
+frame; L178, L86 and L87 are retired; L248 § 8, the arithmetic atom across the family, is kept with a first step. 0 of 19.

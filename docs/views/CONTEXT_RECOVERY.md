@@ -13,17 +13,17 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1538 |
+| arcs with a verdict file | 1539 |
 | … PROVED | 1050 |
 | … NEGATIVE | 382 |
-| … OPEN | 94 |
+| … OPEN | 95 |
 | … RETRACTED | 12 |
-| register points | 664 |
-| … QUEUED | 278 |
+| register points | 667 |
+| … QUEUED | 279 |
 | … LEAD | 9 |
-| … OWNER | 9 |
-| … DONE | 358 |
-| … DECLINED | 10 |
+| … OWNER | 4 |
+| … DONE | 364 |
+| … DECLINED | 11 |
 | harvest rows (the last number) | 1552 |
 | the Standard Model's 19 derived | 0 |
 
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1835 | OPEN | U_e AND THE PMNS (P-638, OPEN; the owner's ruling P-660): the control passes on main's code -- on all 24 order-5 lines Y_e = c Y_d^T and U_e^L = conj(U_d^R) to 1e-15, 0.33-0.40 off on the order-10 lines; the design: the… |
 | B1834 | PROVED | THE TOTAL-INPUTS SCOREBOARD (the owner's ruling of 2026-10-29, P-418) AND THE BORROWED-JOINTS SCAFFOLD (P-661): 0 of 19 earned, identification price 13; the record's candidate claims 10 rows on 14 borrowed joints (11 ch… |
 | B1833 | PROVED | THE BRAINSTORMS RE-READ (the owner's 'most important leads from brainstorms keeps getting forgotten'; 'check our chat history'): of about 530 distinct ideas across five sources about 340 were worked, 80 partly, 45 rowed… |
 | B1832 | PROVED | THE AGY LANES DIGESTED (P-621; the owner's 'verify and digest bank all the work from agy'): every claim of both agy branches and the independent lane typed and dispositioned, every data-free one checked on main's code (… |
@@ -42,37 +43,31 @@
 | B1826 | PROVED | THE AGY LANE'S NOVEMBER WORK, VERIFIED ON MAIN (agy/audit-2026-11-02, 16 commits from main's 64a2a3d4e; with the physical-bridge lane's source review and the independent audit lane's recomputation): three results kept,… |
 | B1825 | NEGATIVE | THE NINE FROM ONE ADDRESS (THE FINAL ATTACK's Step B, P-495; sealed fa25925fc; NEGATIVE as sealed: NO SUPPORT): within the refined census's reach (266 lines of orders 1-12, twelve directions, both radii, eight readings,… |
 | B1824 | PROVED | TWO OF B1810'S THIRTEEN DECLARED HIGGS DIRECTIONS ARE ONE (data-free; proved by hand, exact in B1691's q-series to q^25, re-derived by main in sympy and to 2e-40 numerically): a0 = D^2 R - E4 R/48 = (1/48)(th2 th3^3 th4… |
-| B1823 | NEGATIVE | STEP A v2, THE TIED HEAVY SECTOR'S ONE-LOOP VACUUM (P-518, P-519; data-free; refereed hostile, FAIL as drafted, the three blocking findings verified by main and applied): NEGATIVE as a compression. Under the plan's seal… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
 - ** P-081** — the reply to the outside reader, approached carefully so the contact is not lost: in his own context (one of his videos as the opening), short, honest about shapes-not-sizes and the missing field, the corrected PDF atta… → *a draft prepared outside the tree for the owner's edit (it opens from his 2021 explainer of the Standard Model's equation); the edit and the send are the owner…*
-- ** P-082** — a second outside reader, later, approached in his own context (relating to his videos), after the first correspondence → *later, at the owner's word; nothing prepared until then*
+- ** P-082** — a second outside reader, later, approached in his own context (relating to his videos), after the first correspondence → *later, at the owner's word; nothing prepared until then [2026-11-04, the owner confirmed: paused until a result passes a level-2 confirmation]*
 - ** P-253** — the chain gap's top entries (Review 67's R66-3, declined there because the chain is the frozen paper's spine): B1098, B959, B1100, B952, B1086, B1000, B1484, B1070 (coverage_candidates.py --chain-gap) — adjudicate each… → *asked of the owner: whether and when to open a draft after p9-draft9; until then the chain-gap list stays recorded here and nothing is due (S231) [earlier: Q3…*
-- ** P-303** — PF1-W read on each Higgs field or on each sector's mass determinant? (the web seat's W133 check §5–§6, row 1316). On a parity-diagonal coupling the two are the same condition; but no combination of two or more zero-free… → *asked of the owner: which reading of PF1-W (each Higgs field, or each sector's determinant) the record adopts; main's recommendation to follow with P-300's ver…*
-- ** P-335** — the owner's calls the sweep surfaced: L178 (the tone crossing) — retire by the math?; L248 §8 (retire, or the L240 reader's probe later); COMPUTE_THE_PROGRAM — rewrite for the weave or freeze; L161's realisation — commi… → *asked of the owner with the next report **[S300, B1833: omitted from main's 2026-10-24 list of everything waiting on the owner; L248 § 8 here is the arithmetic…*
-- ** P-625** — IS THE AGY LANE SHARPENING THE PARAMETER-FREE PROGRAMME? (the owner, 2026-11-04: 'is agy sharpening the parameter free program genuinely? lets not put it under carpet as it affects our goal'). Main's answer from B1832:… → ***ANSWERED (S300; B1832's S300 section; the channel-exponent law verified on main):** (1) the value-free conditions do not single out 2/5 — the within-sector h…*
-- ** P-652** — THE OWNER's DEFERRED STRUCTURAL CALLS: the repository split into a lab repository and a clean-argument repository (2026-08-13, "we need to discuss it", never discussed); a CLI or API (2026-07-16, 07-29, deferred, never… → *asked of the owner (S300, B1833): discuss the split; keep or drop the CLI; retire L86/L87 as superseded or reopen*
-- ** P-659** — THE MECHANISM, SO THAT A BRAINSTORM's CONCLUSIONS AGE AND ARE WORKED (P-628's ask; B1833 § 5): M1 direction leads age at 21 days (first step, dated decline, or put to the owner; point_debt rule 7); M2 one owner row per… → *asked of the owner (S300): adopt M1–M7, some, or none; the rules change what is worked first, so they are the owner's; main's tool repairs proceed under P-657*
-- ** P-660** — THE DIRECTION: WHICH RECOVERED LEAD FIRST (B1833 § 3's ranked list: P-629 the dynamics and selection, P-638 U_e and the PMNS, P-637 the loop lift, P-639 the mirror in matter, P-634 Angle A, P-636 deriving the 3, P-418 t… → *asked of the owner (S300): main recommends P-638's data-free first step first (it decides P-597, the sixth debt and the candidate's only route off 0 of 19), wi…*
+- ** P-665** — P-638's TWO CALLS FOR THE OWNER (B1835 § 2): D2 — which identification the PMNS card earns: the mass half only (the target is r = Δm²₂₁/Δm²₃₁; the angles stay out, since the mixing half already fails for the quarks at t… → *asked of the owner (S300d): main recommends D2 = the mass half only, and D11 = no data-touching existence scan for a held-out target*
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
 
 ## The last landings (CHANGELOG)
 
+- S300e THE OWNER RULES ALL OF MAIN'S RECOMMENDATIONS ("i aprove all your recomendations"): THE BRAINSTORM RULES ADOPTED AND GATED; THE SLOPE SELECTION DECLINED; PF1-W SCOPED; L178, L86, L87 RETIRED; L…
+- S300d THE OWNER'S RULING ON P-660 (U_e AND THE PMNS FIRST): B1835 OPENED — THE CONTROL PASSES; ONLY THE NEUTRINO SPLITTING RATIO IS IN THE CANDIDATE'S SCOPE; TWO CALLS TO THE OWNER (2026-11-04)
 - S300c B1834 THE TOTAL-INPUTS SCOREBOARD (P-418, the owner's ruling of 2026-10-29) AND THE BORROWED-JOINTS SCAFFOLD (P-661): 0 OF 19 EARNED; THE CANDIDATE 10 ROWS ON 14 BORROWED JOINTS, AGY'S COMPLETE…
 - S300b THE OWNER'S LINE ON SEATS' STANDARDS (P-661): A LOOSER METHOD IS FINE IF EVERY UNEARNED JOINT IS NAMED; AGY'S LANE FAILS IT BY LABELLING BORROWED JOINTS FORCED; THE BORROWED-JOINTS SCAFFOLD REG…
 - S300 B1833 THE BRAINSTORMS RE-READ (P-628): THE LEADS ARE LOST AFTER THEY ARE WRITTEN DOWN; 65 WITH NO CARRIER RE-ROWED; THE CENTRAL DIRECTION GIVEN ONE ROW; U_e AND THE PMNS RECOVERED FOR P-597; THE…
 - S299b B1832 THE AGY LANES DIGESTED (P-621): FOUR THEOREMS AND THREE EXACT IDENTITIES BANKED; B1784 AND B1826 CORRECTED; THE SCORECARD STILL 0 OF 19 (2026-11-04)
 - S299 REVIEW 74, THE DECADAL REVIEW: THE BACKLOG READ IN FULL FOR LEADS; THE CANDIDATE'S CONFIRMATION ONE HELD-OUT TARGET SHORT (θ̄ RULED AN INPUT); THE CARRY RULE MADE TO FIRE (2026-11-04)
 - S298 THE HARVEST: EVERY SEAT'S BRANCH READ TO ITS HEAD; THE WEB SEAT'S REVIEW VERIFIED AND APPLIED — B1825's BAR GRADE IS NOT FOUND, THE MIRROR RULE'S 'CLOSED' UNEARNED, B1788's (b) SCOPED (2026-11-0…
-- S297 THE TRIAGE RECHECKED AT THE OWNER'S WORD: 20 STALE LAW-MAP ROWS, THE CANDIDATE'S END, THE NEGATIVES' SCALE, P-355's FIRST ITEM (2026-11-03)
-- S296 THE REGISTER TRIAGED: EVERY OPEN ROW TYPED, ONLY DEBTS AGE, THE 59 DEBTS RANKED BY LOAD (THE OWNER'S RULING ON P-587) (2026-11-03)
 
 ## The latest campaign line
 
-LATEST (2026-11-04, S300c: THE TOTAL-INPUTS SCOREBOARD (B1834; the owner's ruling of 2026-10-29, P-418; the borrowed-joints scaffold, P-661) — printed by the gates beside 0 of 19: 0 earned, identification price 13; the record's candidate 10 rows on 14 borrowed joints; the agy lane's complete picture 23 rows on 45; ten joints shared, so the core (τ, the line, the Higgs direction, the reading, H = I, the radius) is the common target. 0 of 19.)
+LATEST (2026-11-04, S300e: the owner ruled all of main's recommendations — the brainstorm rules adopted and gated (direction leads age, hosts cannot close over open children, drafts land, owner calls listed at every run); the slope selection declined; PF1-W scoped; L178, L86, L87 retired; L248 § 8 kept with a first step (P-667). 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
