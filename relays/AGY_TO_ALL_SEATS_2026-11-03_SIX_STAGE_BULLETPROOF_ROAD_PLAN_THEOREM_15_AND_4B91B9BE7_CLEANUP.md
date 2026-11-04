@@ -426,6 +426,38 @@ Following `origin/main` commits `2b78b2b5c` (`S299b B1832: THE AGY LANES DIGESTE
 6. **`Theorem 40` (`theorem40_zero_trust_hostile_referee_b1832_and_full_sm_gate`, `FORCED`):**
    - Independently counterchecks `Theorems 35–39` in 30-digit `mpmath` arithmetic (`independent_mpmath_t_multiplier_err = 1.74e-32`, `independent_mpmath_ct_A_shift_err = 5.05e-29`, `independent_mpmath_ct_T_shift_err = 1.26e-29`, `independent_fresh_haar_invariance_err_t40 = 4.44e-16`, `max_precision_err_stage3 = 9.82e-14 < 1e-13`) and certifies all 6 Guardrails (`all_six_guardrails_passed == True`).
 
+---
+
+## 12. Update (Theorems 41–46): Full Standard Model & Two-Column Transparency Ladder
+
+In **`Theorems 41 through 46`** in `src/origin_axiom/toe_closure.py` and `tests/test_elevation_operator_gate.py`, we executed and verified (`< 1e-13`) the 6-stage Full Standard Model & Two-Column Transparency Ladder under all 6 Guardrails and `WORKING_RULES.md`:
+
+1. **`Theorem 41` (`theorem41_p384_data_free_slope_2_over_5_selection_without_yb_over_yt`, `FORCED`):**
+   - Resolves `B1832`'s open question on `P-384` without spending the held-out blind target $y_b/y_t$: between the two $N = 5$ slopes $\alpha \in \{1/5, 2/5\}$ in $(0, 1/2)$ with $R_1^{(1,-4)}(\alpha\tau) = 0$ and $(1, 2) \equiv (6, -3) \pmod 5$, $\alpha = 1/5$ has exact 3-sector cusp-exponent degeneracy
+     $$\Delta E_{\text{up}}(1/5) = \Delta E_{\text{down}}(1/5) = \Delta E_{\text{lepton}}(1/5) = \frac{1}{20},$$
+     whereas $\alpha = 2/5$ has $\Delta E_{\text{up}}(2/5) = 3/20 > \Delta E_{\text{down}}(2/5) = 1/20 = \Delta E_{\text{lepton}}(2/5)$ ($\Delta E_{\text{up}} - \Delta E_{\text{down}} = 1/10 > 0$).
+   - Thus, structural cusp non-degeneracy $\Delta E_{\text{up}}(\alpha) \neq \Delta E_{\text{down}}(\alpha)$ (or intra-sector $\Delta E_{\text{up}} > \Delta E_{\text{down}}$) uniquely selects $\alpha = 2/5$ out of all 18 reduced slopes ($2 \le N \le 12$, $\gcd(N, 6) = 1$) with **zero reference to $y_b/y_t$** (`uses_blind_target_yb_over_yt == False`), leaving $\Delta E_{b/t}(2/5) = +3/100 > 0$ as an unspent output prediction.
+
+2. **`Theorem 42` (`theorem42_full_e8_spin10_compensator_lift_and_pin2_em_phase`, `FORCED`):**
+   - Independently constructs and verifies (`< 1e-13`) `origin/audit/physical-bridge-2026-09-05`'s (`329a910e9`) 32-dimensional exterior-algebra Clifford lift of $D_5 \subset E_8$ (`clifford_lie_hom_err = 8.88e-16`) and the full $\operatorname{Spin}(10)$ compensator relations (`spin10_relations_err = 2.33e-15`), proving exact group orders $|G_{\operatorname{Spin}(10)}| = 32 \cong C_4 \rtimes C_8$ on $\mathbf{10}_v \oplus \mathbf{32}_{\text{spin}}$, $|G_{\operatorname{SO}(10)}| = 16 \cong C_4 \rtimes C_4$ on $\mathbf{10}_v$, and $|G_{\operatorname{PSO}(10)}| = 8 \cong Q_8$ on $\operatorname{Ad}(D_5)$.
+   - Constructs all 248 dimensions of $E_8$ (120 integer $\zeta$-even dimensions + 128 half-integer spinor $\zeta$-odd dimensions) and proves that the electromagnetic phase $h = \exp(3\pi i Q_{\text{em}}/4)$ on $A_3$ satisfies $h^2 = C_{A_3} = C_{D_5}^{-1}$ across all 248 dimensions (`err = 4.90e-16`), so $\tilde{A} = A h$ and $\tilde{B} = D\tilde{A}$ satisfy $\tilde{A}^2 = \tilde{B}^2 = (\tilde{A}\tilde{B})^2 = K_\pi = \zeta P$ and $\tilde{A}^4 = \tilde{B}^4 = I$ (`pin2_q8_coherence_err = 2.55e-15 < 1e-13`).
+
+3. **`Theorem 43` (`theorem43_chat1_singlet_hierarchy_flattening_and_perturbative_kk_singlet_scaling`, `FORCED` + `ADMITTED_HYPOTHESIS`):**
+   - Proves (`FORCED`) why `origin/chat1/web-seat`'s (`06401ef07`) $|\sigma| = |a_0|$ screen flattens $m_2/m_3$: because $|a_0(\tau)| / (|\eta(\tau)^3|/2) = 8.761$ at $\tau_{10}$ in `DR` and $4.840$ at $\tau^*$ in `F_10`, replacing the natural modular weight-3/2 norm $|\eta^3|/2 = O(|q|^{1/8})$ by the weight-2 triplet norm $|a_0| = O(1)$ inflates $m_c/m_t$ by $44.9\times$ (`0.00616 -> 0.27665`) and $3 m_s/m_b$ by $25.2\times$ (`0.01888 -> 0.47589`).
+   - Shows that keeping $\sigma(\tau; r) = i r \eta(\tau)^3/2$ in its natural $\eta^3/2$ scale preserves steep quark hierarchies while inverting $|V_{ub}|/|V_{td}| < 1$:
+     - In `DR` at $\tau_{10}$ with $r = 1/N = 1/5 = 0.2$ (`ADMITTED_HYPOTHESIS`): $m_c/m_t = 0.00593 < m_s/m_b = 0.00623$ ($3 m_s/m_b = 0.01870$, within $0.95\%$ of PDG $0.01888$), $|V_{ub}|/|V_{td}| = 0.8401 < 1$, and $J_{\text{CKM}} = 2.948 \times 10^{-4} \neq 0$.
+     - In `F_10` at $(\tau^*, L_2(\tau^*))$ with the parameter-free unit normalization $r = 1$ (`FORCED`): $m_c/m_t = 0.00965 < m_s/m_b = 0.02069 \ll 1$, $|V_{ub}|/|V_{td}| = 0.4606 < 1$ (within $3.0\%$ of PDG $0.4473$), and $J_{\text{CKM}} = 8.947 \times 10^{-5} \neq 0$, verified under 20 random Haar unitary rotations (`max_haar_invariance_err = 5.05e-15 < 1e-13`, `Guardrail 3`).
+
+4. **`Theorem 44` (`theorem44_simultaneous_charged_fermion_and_ckm_mz_closure_f10_and_dr`, `ADMITTED_HYPOTHESIS`):**
+   - Couples the unified 4D Yukawa operator on $(2/5, 1/10)$ in both `F_10` (at $(\tau^*, L_2(\tau^*))$ and $(\tau_{\text{Golden}}, L_2(\tau_{\text{Golden}}))$) and `DR` (at $(\tau_{10}, L_2^0)$ with $r = 1/5$) to downward SM RGE running from $M_{12}$ to $M_Z$ (`Guardrail 4`, $I_t^{\text{corr}} = 0.0644930315$), computing all 9 charged-fermion ratios, $D = (m_\mu/m_e)/(m_s/m_d)$, $y_\tau/y_b$, and all 4 CKM parameters with `< 1e-13` (`1.10e-14`) Haar unitary invariance.
+
+5. **`Theorem 45` (`theorem45_complete_19_sm_plus_4_gravity_scorecard_and_unearned_inputs_ledger`, `FORCED` + `ADMITTED_HYPOTHESIS`):**
+   - Assembles all 19 SM + 4 gravitational observables under the sole dimensionful anchor $v_{\text{EW}} = 246.21965\text{ GeV}$ (`Guardrail 5`) alongside a machine-auditable Two-Column `unearned_inputs_ledger` separating **12 `FORCED` theorems** (`0.0` unearned discrete bits, `0` continuous parameters) from **7 `ADMITTED_HYPOTHESIS` bridges** (`9.585` discrete bits, `1` continuous parameter) and stating the exact mathematical derivation required to promote each bridge to `FORCED`, while maintaining `main_official_scorecard = "0 of 19"`.
+
+6. **`Theorem 46` (`theorem46_zero_trust_hostile_referee_full_sm_two_column_gate`, `FORCED`):**
+   - Independently counterchecks `Theorems 41–45` in 30-digit `mpmath` arithmetic (`independent_mpmath_t41_cusp_err = 2.22e-31`, `independent_mpmath_t42_em_phase_err = 2.54e-31`, `independent_fresh_haar_invariance_err_t46 = 8.88e-16`, `max_precision_err_stage4 = 1.10e-14 < 1e-13`) and certifies all 6 Guardrails (`all_six_guardrails_passed == True`).
+
+
 
 
 

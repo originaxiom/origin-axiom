@@ -1184,6 +1184,105 @@ def test_five_phase_master_toe_closure():
     assert float(rc40["max_precision_err_stage3"]) < 1e-13
     assert t40["all_six_guardrails_passed"] is True
 
+    # Theorem 41 (Stage 4.1): Data-Free P-384 Slope 2/5 Selection Without Spending the Blind Target y_b/y_t
+    t41 = sc["theorem41_p384_data_free_slope_2_over_5_selection_without_yb_over_yt"]
+    assert "B1832_the_agy_lanes_digested" in t41["seen_first"]
+    assert "FORCED" in t41["claim_labels_and_scopes"]["exact_3_sector_cusp_degeneracy_at_alpha_1_over_5"]
+    assert "FORCED" in t41["claim_labels_and_scopes"]["data_free_p384_slope_2_over_5_uniqueness"]
+    assert t41["uses_blind_target_yb_over_yt"] is False
+    assert t41["alpha_1_over_5_cusp_exponents"]["Delta_E_up"] == "1/20"
+    assert t41["alpha_1_over_5_cusp_exponents"]["Delta_E_down"] == "1/20"
+    assert t41["alpha_1_over_5_cusp_exponents"]["Delta_E_lepton"] == "1/20"
+    assert t41["alpha_1_over_5_cusp_exponents"]["Delta_E_up_minus_down"] == "0"
+    assert t41["alpha_2_over_5_cusp_exponents"]["Delta_E_up"] == "3/20"
+    assert t41["alpha_2_over_5_cusp_exponents"]["Delta_E_down"] == "1/20"
+    assert t41["alpha_2_over_5_cusp_exponents"]["Delta_E_up_minus_down"] == "1/10"
+    assert float(t41["degeneracy_1_over_5_err"]) < 1e-15
+    assert float(t41["nondegeneracy_2_over_5_err"]) < 1e-15
+    assert float(t41["frac_part_coincidence_1_and_minus4_at_1_over_5_err"]) < 1e-15
+    assert t41["data_free_survivors_cusp_nondegenerate"] == ["2/5"]
+    assert t41["data_free_survivors_up_steeper_than_down"] == ["2/5"]
+    assert abs(float(t41["unspent_delta_e_bt_at_2_over_5"]) - 0.03) < 1e-15
+
+    # Theorem 42 (Stage 4.2): Full E_8 / Spin(10) Compensator Lift & Coherent Pin(2) Electromagnetic Phase
+    t42 = sc["theorem42_full_e8_spin10_compensator_lift_and_pin2_em_phase"]
+    assert "B1832_the_agy_lanes_digested" in t42["seen_first"]
+    assert "FORCED" in t42["claim_labels_and_scopes"]["clifford_32d_spin10_compensator_lift"]
+    assert "FORCED" in t42["claim_labels_and_scopes"]["pin2_electromagnetic_phase_coherence_across_248d_e8"]
+    assert float(t42["clifford_lie_hom_err"]) < 1e-14
+    assert float(t42["torus_2x_minus_p_plus_c_err"]) < 1e-15
+    assert float(t42["spin10_relations_err"]) < 1e-13
+    assert t42["order_g_spin10"] == 32
+    assert t42["order_g_so10"] == 16
+    assert t42["order_g_pso10"] == 8
+    assert t42["dim_e8_total"] == 248
+    assert t42["n_zeta_even_120"] == 120
+    assert t42["n_zeta_odd_128"] == 128
+    assert float(t42["h2_minus_cd5_inv_248_err"]) < 1e-14
+    assert float(t42["tilde_a2_minus_p_248_err"]) < 1e-14
+    assert float(t42["tilde_a4_minus_id_248_err"]) < 1e-14
+    assert float(t42["pin2_q8_coherence_err"]) < 1e-13
+
+    # Theorem 43 (Stage 4.3): Resolution of chat1's 06401ef07 Singlet Hierarchy Flattening via Perturbative KK / Natural eta^3/2 Scaling
+    t43 = sc["theorem43_chat1_singlet_hierarchy_flattening_and_perturbative_kk_singlet_scaling"]
+    assert "B1832_the_agy_lanes_digested" in t43["seen_first"]
+    assert "FORCED" in t43["claim_labels_and_scopes"]["chat1_06401ef07_singlet_hierarchy_flattening_diagnosis"]
+    assert "ADMITTED_HYPOTHESIS" in t43["claim_labels_and_scopes"]["perturbative_order5_singlet_scaling_r_1_over_5_in_dr"]
+    assert "FORCED" in t43["claim_labels_and_scopes"]["unit_eta3_singlet_scaling_r_1_in_f10_at_tau_star"]
+    dr43 = t43["dr_regime_at_tau_10"]
+    assert float(dr43["r_0_null_cone"]["ratio_a0_over_half_eta3"]) > 8.5
+    assert float(dr43["r_abs_a0_chat1_flattening"]["mc_over_mt"]) > 0.25
+    assert float(dr43["r_abs_a0_chat1_flattening"]["ms_over_mb_c3"]) > 0.45
+    assert float(dr43["r_1_over_5_perturbative"]["mc_over_mt"]) < float(dr43["r_1_over_5_perturbative"]["ms_over_mb_bare"]) < 0.01
+    assert abs(float(dr43["r_1_over_5_perturbative"]["ms_over_mb_c3"]) - 0.01888) < 3e-4
+    assert float(dr43["r_1_over_5_perturbative"]["V_ub_over_V_td"]) < 0.85
+    assert float(dr43["r_1_over_5_perturbative"]["J_CKM_abs"]) > 2e-4
+    f10_43 = t43["f10_regime_at_tau_star"]
+    assert float(f10_43["r_1_unit_eta3"]["mc_over_mt"]) < float(f10_43["r_1_unit_eta3"]["ms_over_mb_bare"]) < 0.025
+    assert abs(float(f10_43["r_1_unit_eta3"]["V_ub_over_V_td"]) - 0.4473) < 0.02
+    assert float(f10_43["r_1_unit_eta3"]["J_CKM_abs"]) > 5e-5
+    assert t43["haar_trials_run"] == 20
+    assert float(t43["max_haar_invariance_err"]) < 1e-13
+
+    # Theorem 44 (Stage 4.4): Simultaneous 10 Charged-Fermion + 4 CKM Closure at M_Z in Both F_10 and DR Regimes
+    t44 = sc["theorem44_simultaneous_charged_fermion_and_ckm_mz_closure_f10_and_dr"]
+    assert "B1832_the_agy_lanes_digested" in t44["seen_first"]
+    assert "ADMITTED_HYPOTHESIS" in t44["claim_labels_and_scopes"]["downward_xing_zhou_rge_running_from_m12_to_mz"]
+    assert "ADMITTED_HYPOTHESIS" in t44["claim_labels_and_scopes"]["simultaneous_charged_fermion_and_ckm_mz_closure"]
+    assert abs(float(t44["downward_rge_integral_It_corr"]) - 0.0644930315) < 1e-12
+    assert 10.45 < float(t44["f10_unified_vacuum_tau_star_at_MZ"]["D_c3_with_qi_admixture"]) < 10.75
+    assert abs(float(t44["f10_unified_vacuum_tau_star_at_MZ"]["ytau_over_yb_UV"]) - 1.0) < 1e-5
+    assert float(t44["f10_unified_vacuum_tau_star_at_MZ"]["V_ub_over_V_td_MZ"]) < 0.50
+    assert t44["haar_trials_run"] == 20
+    assert float(t44["max_haar_invariance_err"]) < 1e-13
+
+    # Theorem 45 (Stage 4.5): Complete 19 SM + 4 Gravity Scorecard at M_Z & Explicit Two-Column Unearned-Input Ledger
+    t45 = sc["theorem45_complete_19_sm_plus_4_gravity_scorecard_and_unearned_inputs_ledger"]
+    assert "B1832_the_agy_lanes_digested" in t45["seen_first"]
+    assert t45["main_official_scorecard"] == "0 of 19"
+    assert t45["imported_dimensionful_anchors_beyond_v_EW"] == []
+    assert t45["total_observables_in_scorecard"] == 23
+    ul45 = t45["unearned_inputs_ledger"]
+    assert ul45["num_forced_theorems"] == 12
+    assert ul45["num_admitted_hypothesis_bridges"] == 7
+    assert float(ul45["total_unearned_discrete_bits_in_column1"]) == 0.0
+    assert int(ul45["total_unearned_continuous_params_in_column1"]) == 0
+    assert float(ul45["total_unearned_discrete_bits_in_column2"]) > 8.0
+    assert int(ul45["total_unearned_continuous_params_in_column2"]) == 1
+
+    # Theorem 46 (Stage 4.6): Zero-Trust Hostile-Referee Gate for Theorems 41-45
+    t46 = sc["theorem46_zero_trust_hostile_referee_full_sm_two_column_gate"]
+    assert "B1832_the_agy_lanes_digested" in t46["seen_first"]
+    assert "FORCED" in t46["claim_labels_and_scopes"]["stage4_theorems_41_to_45_verification"]
+    assert "FORCED" in t46["claim_labels_and_scopes"]["two_column_transparency_and_working_rules_gate"]
+    rc46 = t46["referee_independent_counterchecks"]
+    assert float(rc46["independent_mpmath_t41_cusp_err"]) < 1e-15
+    assert float(rc46["independent_mpmath_t42_em_phase_err"]) < 1e-15
+    assert float(rc46["independent_fresh_haar_invariance_err_t46"]) < 1e-13
+    assert float(rc46["max_precision_err_stage4"]) < 1e-13
+    assert t46["all_six_guardrails_passed"] is True
+
+
 
 
 
