@@ -18350,3 +18350,11 @@ every unearned joint is named, so that a complete picture with borrowed joints c
 answer: agy's mathematics is real where checked, but it labels borrowed joints as forced; its provenance cites real arc
 numbers under invented titles in 11 of 32 citations and three files that exist nowhere. P-661 registers the scaffold: main
 relabels agy's complete picture joint by joint, which builds the total-inputs vector (P-418). 0 of 19.
+
+## 2026-11-04 — S300c: the total-inputs scoreboard and the borrowed-joints scaffold (B1834)
+
+The owner's scoreboard of 2026-10-29 is built and printed by the gates beside "0 of 19", and it carries the owner's
+borrowed-joints scaffold of today. Two frames: the record's candidate claims 10 rows on 14 borrowed joints; the agy lane's
+complete picture claims 23 rows on 45 (traced through the mask by a firewalled reader, verified by main where a basis was
+claimed; one correction). None earned. Ten joints are shared, so the core — τ, the line, the Higgs direction, the reading,
+H = I, the radius — is the common target. A firewall path found while tracing was sealed (52 exhibits). 0 of 19.

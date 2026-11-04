@@ -1,0 +1,28 @@
+{
+ "id": "B1834",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1832",
+  "B1829",
+  "B1827",
+  "B1266",
+  "B1822",
+  "B1667"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (a process arc: the record's input accounting)",
+  "object": "two frames' claims on the 19 (+4): the record's candidate (FR-FIB, the six on the strip) and the agy lane's master scorecard at 18c607040 (Route A)",
+  "reach": "general",
+  "hypotheses": "frame B's joints traced through the mask by a firewalled reader (names and types only) and verified by main where a basis is claimed; frame A from main's ledgers; the identification price 13 as the owner's ruling fixed it; Route A only"
+ },
+ "claim_one_line": "THE TOTAL-INPUTS SCOREBOARD (the owner's ruling of 2026-10-29, P-418) AND THE BORROWED-JOINTS SCAFFOLD (P-661): 0 of 19 earned, identification price 13; the record's candidate claims 10 rows on 14 borrowed joints (11 chosen, 2 ansatz, 1 fitted); the agy lane's complete picture claims 23 rows on 45 (18 chosen, 14 ansatz, 6 measured inputs, 3 refuted, 2 unknown, 1 fitted, 1 forced only by its word) -- about three borrowed joints per extra row, none earned; ten joints shared, so earning the core (tau, the slope and offset, the Higgs direction, the reading, H = I, the radius) earns it in both; printed by the gates beside 0 of 19 (inputs-scoreboard); a firewall path found and ten more ranges sealed (52). 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}

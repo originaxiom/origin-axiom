@@ -1161,6 +1161,17 @@ def gate_lead_debt():
     return True, "ok"
 
 
+def gate_inputs_scoreboard():
+    """2026-10-29, the owner's ruling (P-418): a total-inputs scoreboard beside '0 of 19' -- each frame's borrowed joints
+    counted, the identification price, progress = the totals falling; 2026-11-04 (P-661): a complete picture with its
+    borrowed joints named. Fails if the data is malformed (an earned joint without an existing basis) or the page is stale."""
+    import subprocess
+    r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "inputs_scoreboard.py"), "--check"],
+                       capture_output=True, text=True, timeout=120)
+    out = (r.stdout + r.stderr).strip()
+    return r.returncode == 0, (out.splitlines()[-1] if out else "no output")
+
+
 def gate_point_debt():
     """2026-10-13 -- the owner: "we clarify the picture, but fail to address all the points we made, and get lost to one
     of the multiple things we have to deal with." Every point a review raises has a row in docs/POINT_REGISTER.md with a
@@ -1753,6 +1764,7 @@ GATES = {
     "harvest-debt": gate_harvest_debt,
     "lead-debt": gate_lead_debt,
     "point-debt": gate_point_debt,
+    "inputs-scoreboard": gate_inputs_scoreboard,
     "seen-first": gate_seen_first,
     "genesis-cited": gate_genesis_cited,
     "log-changelog-paired": gate_log_changelog_paired,
@@ -1807,4 +1819,9 @@ if __name__ == "__main__":
                         capture_output=True, text=True, timeout=300)
     if pr.stdout.strip():
         print("  " + pr.stdout.strip().splitlines()[0] + " (docs/POINT_REGISTER.md)")
+    # the owner's ruling of 2026-10-29 (P-418): the total-inputs scoreboard is printed beside '0 of 19' on every run
+    sb = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "inputs_scoreboard.py")],
+                        capture_output=True, text=True, timeout=120)
+    if sb.stdout.strip():
+        print("  " + sb.stdout.strip().splitlines()[-1] + " (docs/TOTAL_INPUTS_SCOREBOARD.md)")
     sys.exit(worst)

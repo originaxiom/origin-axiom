@@ -24,10 +24,13 @@ def _row(pid):
     return [c.strip() for c in rows[0].strip().strip("|").split(" | ")]
 
 
-def test_the_items_without_a_row_before_now_have_one():
+def test_the_items_without_a_row_before_now_have_one(tmp_path):
+    import os
     before = json.loads((HERE / "verify_forgotten_before_rows.json").read_text(encoding="utf-8"))
-    subprocess.run([sys.executable, str(HERE / "verify_forgotten.py")], cwd=ROOT, capture_output=True, check=True, timeout=600)
-    after = json.loads((HERE / "verify_forgotten_after_rows.json").read_text(encoding="utf-8"))
+    out = tmp_path / "after.json"   # re-run into a temporary file: the committed after-rows file is the landing's record
+    subprocess.run([sys.executable, str(HERE / "verify_forgotten.py")], cwd=ROOT, capture_output=True, check=True, timeout=600,
+                   env=dict(os.environ, VERIFY_FORGOTTEN_OUT=str(out)))
+    after = json.loads(out.read_text(encoding="utf-8"))
     unrowed = [k for k, v in before.items() if not v["register"]]
     assert len(unrowed) >= 40, "the evidence no longer shows the gap it records"
     still = {k for k in unrowed if not after[k]["register"]}

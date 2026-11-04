@@ -722,6 +722,20 @@ picture, but fail to address all the points we made, and get lost to one of the 
 then over and over." Relays, seat items and leads were aged; a point raised in a review or audit was not, and survived
 only as prose. Opened with the 72 points of the 2026-10-13 frame audit and intake.
 
+## The total-inputs scoreboard beside "0 of 19" — GATED (`inputs-scoreboard`)
+
+**The rule.** `scripts/checks/inputs_scoreboard.py` reads `docs/total_inputs_scoreboard.json` and renders
+`docs/TOTAL_INPUTS_SCOREBOARD.md`. Each frame that claims rows of the 19 (and beyond) lists every joint it stands on, typed
+FORCED-BY-MAIN or VERIFIED-BY-MAIN (earned only if the basis names a THEOREM_REGISTRY or LAW_MAP row that exists) or
+BORROWED (CHOSEN, FITTED, MEASURED-INPUT, ANSATZ, FORCED-CLAIMED, REFUTED, UNKNOWN); a joint counts once however many
+rows it feeds; the identification price is printed with them. Every gate run prints the headline; the gate fails if an
+earned joint names no existing row or the page is stale. Progress means the borrowed totals fall.
+
+**Why it exists.** The owner's ruling of 2026-10-29 (P-418): "0 of 19" alone hid the drift — about thirteen discrete
+choices were added after B1600 against two removed. And the owner, 2026-11-04 (P-661): a seat may work to a looser
+standard if it names every unearned joint, so that a complete picture with its borrowed joints can show which joints to
+earn; main relabels each joint itself (B1834).
+
 ## Every open lead and every arc left OPEN is aged, on a ratchet — GATED (`lead-debt`)
 
 **The rule.** `scripts/checks/lead_debt.py` reads `docs/OPEN_LEADS.md` and every `frontier/*/arc_verdict.json`. A lead (a

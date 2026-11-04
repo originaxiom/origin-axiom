@@ -16,7 +16,7 @@
   "bytes": 13627
  },
  {
-  "what": "six-stage relay from \u00a7 6.2",
+  "what": "six-stage relay from § 6.2",
   "rev": "18c607040",
   "path": "relays/AGY_TO_ALL_SEATS_2026-11-03_SIX_STAGE_BULLETPROOF_ROAD_PLAN_THEOREM_15_AND_4B91B9BE7_CLEANUP.md",
   "lines": "200-360",
@@ -334,5 +334,85 @@
   "lines": "all",
   "sha256": "c2b1653f4fcb529185db83ee5eb1580f22703fe448895dd42fb518ba200141a1",
   "bytes": 6676
+ },
+ {
+  "what": "toe_closure.py 223-227 (S300b scaffold reader: a firewalled ratio or its verdict word, or an output computed from one)",
+  "rev": "18c607040",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "223-227",
+  "sha256": "6d9a1458b7c0102736e0a75116e78e6049d71a640a360af34f7be30914bfcc6e",
+  "bytes": 257
+ },
+ {
+  "what": "toe_closure.py 554-556 (S300b scaffold reader: a firewalled ratio or its verdict word, or an output computed from one)",
+  "rev": "18c607040",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "554-556",
+  "sha256": "628fa848045124582b42a15c9d172bbbda082ad3a2593c319dfa853e8fa2546e",
+  "bytes": 168
+ },
+ {
+  "what": "toe_closure.py 1419-1420 (S300b scaffold reader: a firewalled ratio or its verdict word, or an output computed from one)",
+  "rev": "18c607040",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "1419-1420",
+  "sha256": "e22dca2eae0075ee11ced66f3019fc471116ffcc27be9949b659af7e5faef309",
+  "bytes": 215
+ },
+ {
+  "what": "toe_closure.py 1618-1621 (S300b scaffold reader: a firewalled ratio or its verdict word, or an output computed from one)",
+  "rev": "18c607040",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "1618-1621",
+  "sha256": "254b46423e42756e2cc2b3e6555eb1d6a825f15c96d13828d592d2ddc4715967",
+  "bytes": 307
+ },
+ {
+  "what": "toe_closure.py 4517-4526 (S300b scaffold reader: a firewalled ratio or its verdict word, or an output computed from one)",
+  "rev": "18c607040",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "4517-4526",
+  "sha256": "1c5e8551f2b340cad41c8585672a483a14e5ef6a7e1fc2246c12da2a97a25be4",
+  "bytes": 1011
+ },
+ {
+  "what": "toe_closure.py 4867-4875 (S300b scaffold reader: a firewalled ratio or its verdict word, or an output computed from one)",
+  "rev": "18c607040",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "4867-4875",
+  "sha256": "599062f5f14bf2832045b0b866f464c8017a27cfd8eeadedd7a0b3e7f64a5d4e",
+  "bytes": 925
+ },
+ {
+  "what": "toe_closure.py 4968-4969 (S300b scaffold reader: a firewalled ratio or its verdict word, or an output computed from one)",
+  "rev": "18c607040",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "4968-4969",
+  "sha256": "9bd1f65d341d67b08ecb020cf17906bcbb5292bc679929aa03d18fe8cbdb8b31",
+  "bytes": 274
+ },
+ {
+  "what": "toe_closure.py 5473-5485 (S300b scaffold reader: a firewalled ratio or its verdict word, or an output computed from one)",
+  "rev": "18c607040",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "5473-5485",
+  "sha256": "262d74ff2cbed66f38d6c03e0615a1e06d1642dbfb940cf9776c325c05644278",
+  "bytes": 1178
+ },
+ {
+  "what": "parameter_ledger.py 212-213 (S300b scaffold reader: a firewalled ratio or its verdict word, or an output computed from one)",
+  "rev": "18c607040",
+  "path": "src/origin_axiom/parameter_ledger.py",
+  "lines": "212-213",
+  "sha256": "fc4c8cf84573ccee9bebd29b7e363c5aa7c8139543943a0ab2baa0e51b349f9b",
+  "bytes": 212
+ },
+ {
+  "what": "parameter_ledger.py 236-238 (S300b scaffold reader: a firewalled ratio or its verdict word, or an output computed from one)",
+  "rev": "18c607040",
+  "path": "src/origin_axiom/parameter_ledger.py",
+  "lines": "236-238",
+  "sha256": "3ad1ec5b878926bcdc17736a2dce3d49e0d70ac374b9d6d8a622c64307ebbcbe",
+  "bytes": 363
  }
 ]

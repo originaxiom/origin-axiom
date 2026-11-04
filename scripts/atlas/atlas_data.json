@@ -15241,6 +15241,7 @@
     "z3_generation",
     "amphichiral_cp",
     "torsion",
+    "wrt_quantum",
     "firewall"
    ],
    "refs": [
@@ -15249,8 +15250,8 @@
     "S300",
     "V2"
    ],
-   "obstacle": "units_scale",
-   "obstacle_conf": 5,
+   "obstacle": "particle_dict",
+   "obstacle_conf": 6,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -15292,6 +15293,34 @@
    "obstacle_conf": 11,
    "status": "dead",
    "domain": "arithmetic"
+  },
+  "B1834": {
+   "slug": "the total inputs scoreboard",
+   "motifs": [
+    "measurement",
+    "closing",
+    "coupling",
+    "figure_eight",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "firewall"
+   ],
+   "refs": [
+    "B01",
+    "B02",
+    "B03",
+    "B08",
+    "B09",
+    "B47",
+    "L253",
+    "S300"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 8,
+   "status": "dead",
+   "domain": "topology"
   },
   "B183": {
    "slug": "open collective arrow",

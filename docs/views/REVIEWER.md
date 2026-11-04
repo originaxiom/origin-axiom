@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1537** |
-| words of findings prose | **1,290,385** |
+| research arcs with findings | **1538** |
+| words of findings prose | **1,291,513** |
 | test lock files referenced | **932** |
-| arcs carrying an authored verdict | **1537** (100.0 %) |
+| arcs carrying an authored verdict | **1538** (100.0 %) |
 | recorded closures | **858** (691 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1049 |
+| PROVED | 1050 |
 | NEGATIVE | 382 |
 | OPEN | 94 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1833`** (3153 words, 0 locks)  
-THE BRAINSTORMS RE-READ (the owner's 'most important leads from brainstorms keeps getting forgotten'; 'check our chat history'): of about 530 distinct ideas across five sources about 340 were worked, 80 partly, 45 rowed and stalled, and 65 had no carrier -- each confirmed by main against the whole tracked record and now rowed (P-629-P-657); the losses come after the writing-down, by twelve mechanisms (leads never come due; reviews rank leads and carry none; merged items die with their host; places the register never reads; renamed ideas never joined); the central direction -- what holds tau and selects the point -- named in six vocabularies across eleven rows with no owner, now one row with four never-computed handles; U_e and the PMNS recovered as a candidate second held-out quantity (P-597) and a loop lift of the rank-2 Yukawa as a sector-dependent route at D's failure; L241 (b) and the PF4 'attempted' corrected; the mechanism (P-659) and the direction (P-660) put to the owner. 0 of 19.  
-`B1833_the_brainstorms_reread/FINDINGS.md`
+**PROVED — `B1834`** (1076 words, 1 locks)  
+THE TOTAL-INPUTS SCOREBOARD (the owner's ruling of 2026-10-29, P-418) AND THE BORROWED-JOINTS SCAFFOLD (P-661): 0 of 19 earned, identification price 13; the record's candidate claims 10 rows on 14 borrowed joints (11 chosen, 2 ansatz, 1 fitted); the agy lane's complete picture claims 23 rows on 45 (18 chosen, 14 ansatz, 6 measured inputs, 3 refuted, 2 unknown, 1 fitted, 1 forced only by its word) -- about three borrowed joints per extra row, none earned; ten joints shared, so earning the core (tau, the slope and offset, the Higgs direction, the reading, H = I, the radius) earns it in both; printed by the gates beside 0 of 19 (inputs-scoreboard); a firewall path found and ten more ranges sealed (52). 0 of 19.  
+`B1834_the_total_inputs_scoreboard/FINDINGS.md`
 
 **NEGATIVE — `B1825`** (1949 words, 0 locks)  
 THE NINE FROM ONE ADDRESS (THE FINAL ATTACK's Step B, P-495; sealed fa25925fc; NEGATIVE as sealed: NO SUPPORT): within the refined census's reach (266 lines of orders 1-12, twelve directions, both radii, eight readings, continuous tau with Im tau in [1, 4], c = 3) no rigid address of FR-FIB carries our world's ten (the six mass ratios, |V_us|, |V_cb|, |V_ub|, |J|): the least chi2_ten is 291.4 against 23.21 (a fresh evaluation 291.5; refereed by an independent scan of every stored node). The six alone are reached (least chi2_six 1.36) and the four alone are reached (0.35 at a node), never together: no address whose six lie near the best reaches the four (rigorous enclosures), and K's bits_CKM is -194 (knowing our six makes the frame's prediction of our mixing 2^194 times worse). The wall was seen on narrower menus (B1713: masses and mixing together a factor 3.59; B1720: they do not meet); this seals it on the whole menu at sigma resolution. NOT FOUND within the reach; nothing excluded beyond it. 0 of 19. [S298: the bar's grade is NOT FOUND (S not found, T consistent, no V cell); NEGATIVE is the kill graph's category; scope at H = I (B1822)]  

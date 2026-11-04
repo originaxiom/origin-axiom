@@ -329,3 +329,23 @@ def test_arc_data_fails_on_a_dependency_on_nothing(tmp_path, monkeypatch):
     (d / "arc_verdict.json").write_text('{"id": "B99990", "depends_on": ["B99991"]}', encoding="utf-8")
     monkeypatch.setattr(gates, "ROOT", str(tmp_path))
     ok, why = gates.gate_arc_data(); assert ok is False and "B99991" in why
+
+
+def test_inputs_scoreboard_fails_on_an_earned_joint_with_no_basis(tmp_path, monkeypatch):
+    """P-418/P-661: a joint typed FORCED-BY-MAIN must name an existing registry or law-map row; the page must be current"""
+    import shutil
+    (tmp_path / "scripts" / "checks").mkdir(parents=True); (tmp_path / "docs").mkdir()
+    shutil.copy(os.path.join(ROOT, "scripts", "checks", "inputs_scoreboard.py"), tmp_path / "scripts" / "checks")
+    (tmp_path / "docs" / "THEOREM_REGISTRY.md").write_text("| T-REAL-ONE | x |\n")
+    (tmp_path / "docs" / "LAW_MAP.md").write_text("| **A REAL LAW** | x | y |\n")
+    data = {"rule": "r", "observables": ["o1", "o2"], "identification_price": {"count": 1, "basis": "b"}, "earned": 0,
+            "shared_block": [], "frames": {"A": {"name": "a frame: x", "claims": [1, 2], "status": "s", "joints": [
+                {"id": "A1", "name": "j", "type": "FORCED-BY-MAIN", "basis": "T-NO-SUCH-ROW", "feeds": [1, 2]}]}}}
+    (tmp_path / "docs" / "total_inputs_scoreboard.json").write_text(json.dumps(data))
+    monkeypatch.setattr(gates, "ROOT", str(tmp_path))
+    ok, why = gates.gate_inputs_scoreboard(); assert ok is False, why
+    data["frames"]["A"]["joints"][0]["basis"] = "T-REAL-ONE"
+    (tmp_path / "docs" / "total_inputs_scoreboard.json").write_text(json.dumps(data))
+    import subprocess
+    subprocess.run([sys.executable, str(tmp_path / "scripts" / "checks" / "inputs_scoreboard.py"), "--write"], check=True, capture_output=True)
+    ok, why = gates.gate_inputs_scoreboard(); assert ok is True, why

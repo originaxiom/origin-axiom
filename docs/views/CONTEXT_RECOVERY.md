@@ -13,16 +13,16 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1537 |
-| … PROVED | 1049 |
+| arcs with a verdict file | 1538 |
+| … PROVED | 1050 |
 | … NEGATIVE | 382 |
 | … OPEN | 94 |
 | … RETRACTED | 12 |
-| register points | 662 |
-| … QUEUED | 279 |
+| register points | 664 |
+| … QUEUED | 278 |
 | … LEAD | 9 |
 | … OWNER | 9 |
-| … DONE | 355 |
+| … DONE | 358 |
 | … DECLINED | 10 |
 | harvest rows (the last number) | 1552 |
 | the Standard Model's 19 derived | 0 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1834 | PROVED | THE TOTAL-INPUTS SCOREBOARD (the owner's ruling of 2026-10-29, P-418) AND THE BORROWED-JOINTS SCAFFOLD (P-661): 0 of 19 earned, identification price 13; the record's candidate claims 10 rows on 14 borrowed joints (11 ch… |
 | B1833 | PROVED | THE BRAINSTORMS RE-READ (the owner's 'most important leads from brainstorms keeps getting forgotten'; 'check our chat history'): of about 530 distinct ideas across five sources about 340 were worked, 80 partly, 45 rowed… |
 | B1832 | PROVED | THE AGY LANES DIGESTED (P-621; the owner's 'verify and digest bank all the work from agy'): every claim of both agy branches and the independent lane typed and dispositioned, every data-free one checked on main's code (… |
 | B1831 | PROVED | REVIEW 74 (the owner's 'do the decadal'; 38 merges, two short of the block): at the owner's mid-review ask the backlog was read in full for leads -- 84 open relays (72 BANKED, 7 DECLINED, 5 open with next actions), 276… |
@@ -42,7 +43,6 @@
 | B1825 | NEGATIVE | THE NINE FROM ONE ADDRESS (THE FINAL ATTACK's Step B, P-495; sealed fa25925fc; NEGATIVE as sealed: NO SUPPORT): within the refined census's reach (266 lines of orders 1-12, twelve directions, both radii, eight readings,… |
 | B1824 | PROVED | TWO OF B1810'S THIRTEEN DECLARED HIGGS DIRECTIONS ARE ONE (data-free; proved by hand, exact in B1691's q-series to q^25, re-derived by main in sympy and to 2e-40 numerically): a0 = D^2 R - E4 R/48 = (1/48)(th2 th3^3 th4… |
 | B1823 | NEGATIVE | STEP A v2, THE TIED HEAVY SECTOR'S ONE-LOOP VACUUM (P-518, P-519; data-free; refereed hostile, FAIL as drafted, the three blocking findings verified by main and applied): NEGATIVE as a compression. Under the plan's seal… |
-| B1822 | PROVED | T-NORM ON THE FRAME'S MATTER (P-525; data-free; refereed hostile, PASS WITH CORRECTIONS): FR-FIB's matter zero modes (one quaternion-type doublet per field times the blocks QJ, QI, QK) give the generation Gram matrix G… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -61,6 +61,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S300c B1834 THE TOTAL-INPUTS SCOREBOARD (P-418, the owner's ruling of 2026-10-29) AND THE BORROWED-JOINTS SCAFFOLD (P-661): 0 OF 19 EARNED; THE CANDIDATE 10 ROWS ON 14 BORROWED JOINTS, AGY'S COMPLETE…
 - S300b THE OWNER'S LINE ON SEATS' STANDARDS (P-661): A LOOSER METHOD IS FINE IF EVERY UNEARNED JOINT IS NAMED; AGY'S LANE FAILS IT BY LABELLING BORROWED JOINTS FORCED; THE BORROWED-JOINTS SCAFFOLD REG…
 - S300 B1833 THE BRAINSTORMS RE-READ (P-628): THE LEADS ARE LOST AFTER THEY ARE WRITTEN DOWN; 65 WITH NO CARRIER RE-ROWED; THE CENTRAL DIRECTION GIVEN ONE ROW; U_e AND THE PMNS RECOVERED FOR P-597; THE…
 - S299b B1832 THE AGY LANES DIGESTED (P-621): FOUR THEOREMS AND THREE EXACT IDENTITIES BANKED; B1784 AND B1826 CORRECTED; THE SCORECARD STILL 0 OF 19 (2026-11-04)
@@ -68,17 +69,16 @@
 - S298 THE HARVEST: EVERY SEAT'S BRANCH READ TO ITS HEAD; THE WEB SEAT'S REVIEW VERIFIED AND APPLIED — B1825's BAR GRADE IS NOT FOUND, THE MIRROR RULE'S 'CLOSED' UNEARNED, B1788's (b) SCOPED (2026-11-0…
 - S297 THE TRIAGE RECHECKED AT THE OWNER'S WORD: 20 STALE LAW-MAP ROWS, THE CANDIDATE'S END, THE NEGATIVES' SCALE, P-355's FIRST ITEM (2026-11-03)
 - S296 THE REGISTER TRIAGED: EVERY OPEN ROW TYPED, ONLY DEBTS AGE, THE 59 DEBTS RANKED BY LOAD (THE OWNER'S RULING ON P-587) (2026-11-03)
-- S295 THE CANDIDATE FAMILY's OWN RELATION D, CREDITED; THE REGISTER's LOAD MEASURED (2026-11-03)
 
 ## The latest campaign line
 
-LATEST (2026-11-04, S300b: the owner's line — a looser method is fine if every unearned joint is named; agy's lane labels borrowed joints FORCED, and 14 of its 32 seen-first citations are mis-titled or nonexistent; P-661 the borrowed-joints scaffold registered as a debt: main relabels agy's complete picture, building P-418's total-inputs vector. 0 of 19.)
+LATEST (2026-11-04, S300c: THE TOTAL-INPUTS SCOREBOARD (B1834; the owner's ruling of 2026-10-29, P-418; the borrowed-joints scaffold, P-661) — printed by the gates beside 0 of 19: 0 earned, identification price 13; the record's candidate 10 rows on 14 borrowed joints; the agy lane's complete picture 23 rows on 45; ten joints shared, so the core (τ, the line, the Higgs direction, the reading, H = I, the radius) is the common target. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
 | check | count | first items |
 |---|---|---|
 | arc folders without a verdict file (scripts/checks/arc_data.py classifies them; its resolved R-classes are not defects) | 39 | B263_t41_cs_levels, B452_ethogram_dictionary, B473_criticality_program, B501_universe_word, B502_parity_signature, B503_external_contact |
-| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 154 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
+| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 156 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
 | register rows not in the 7-cell form | 0 | — |
 

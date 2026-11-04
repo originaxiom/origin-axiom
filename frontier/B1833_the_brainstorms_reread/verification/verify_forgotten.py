@@ -90,4 +90,4 @@ for k, pats in ITEMS.items():
     out[k] = rec
     print("%-10s reg=%-3d OL=%-3d  %s" % (k, len(rec["register"]), len(rec["open_leads"]),
           "; ".join("%s:%d" % (p[:22], n) for p, (n, _) in rec["files"].items())))
-(pathlib.Path(__file__).parent / "verify_forgotten_after_rows.json").write_text(json.dumps(out, indent=1, ensure_ascii=False))
+pathlib.Path(__import__("os").environ.get("VERIFY_FORGOTTEN_OUT", str(pathlib.Path(__file__).parent / "verify_forgotten_after_rows.json"))).write_text(json.dumps(out, indent=1, ensure_ascii=False))
