@@ -429,6 +429,21 @@ readings, mapped the Higgs's three regimes, and stated exactly what the quark mi
 - **Open:** P-357 (what fixes the invariant); the web seat's sealed READING TEST (P-360); Review 69's items R69-1–R69-7.
   **0 of 19.**
 
+## ⟳ VIEW REFRESH — 2026-11-04 (Review 74)
+
+Touched at the Review 74 anchor (`41420ae14`). **The window (B1819–B1830; S264b–S298) ran THE FINAL ATTACK to its end and audited
+the record's own grading; the review then read the whole backlog for leads at the owner's word.**
+
+- **THE FINAL ATTACK:** Step A NEGATIVE as a compression (B1823); Step B, the nine from one address, NOT FOUND under its bar
+  (B1825). The frame's matter metric is CHOSEN (B1822, H = I).
+- **The bar in two levels** (GENESIS v1.60, v1.61): a fixed screen makes a CANDIDATE; only a held-out prediction makes a
+  result. One candidate family, THE SIX ON THE STRIP: it rests on the small-cut end and sits about 3σ from the relation D.
+- **This review:** every open relay, every old harvest row and every open lead read in full — nothing hidden derives a
+  number; the leads that could change the direction are ranked for the owner (REVIEWS, Review 74 § 3). θ̄ is not a
+  prediction of the frame without a chosen rule, so **the candidate's confirmation is one held-out target short (P-597)**.
+  The review loop's carry rule, which could not fire, now does; main's own unbacked claims of 3 November carry instruments.
+- **0 of 19.**
+
 ## ⟳ VIEW REFRESH — 2026-10-30 (Review 73)
 
 Touched at the Review 73 anchor (`99d90d515`). **The window (B1806–B1817; S244–S263) asked whether symmetry, inversion or the

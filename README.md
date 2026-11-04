@@ -23,7 +23,7 @@ nothing in this block is typed by hand.*
 | the foundations | `GENESIS.md` (v1.61) of 2026-11-03 |
 | arcs with a verdict | 1535: 1047 PROVED, 382 NEGATIVE, 94 OPEN, 12 RETRACTED |
 | points in the register | 620: 266 open (queued, leads, waiting for the owner), 354 closed |
-| the last review | Review 74 (2026-11-04), anchor pending |
+| the last review | Review 74 (2026-11-04), anchor `41420ae14` |
 | the last landing | S299 REVIEW 74, THE DECADAL REVIEW: THE BACKLOG READ IN FULL FOR LEADS; THE CANDIDATE'S CONFIRMATION ONE HELD-OUT TARGET SHORT (θ̄ RULED AN INPUT); T… |
 <!-- STATE:END -->
 

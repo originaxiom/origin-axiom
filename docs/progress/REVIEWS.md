@@ -7908,8 +7908,8 @@ nobody followed. The process arc is B1831; its readers' reports, scrubbed of loc
     touched arcs' tests. Fixed: the paper's count and its generator (an erratum, S258's precedent), the lock's words.
   - Not certified: the seats' trees beyond the commits their rows name.
 
-fresh-clone: PASS @ FRESHCLONE (gates all PASS; belt ok; the review's landing, before this line)
-fresh-clone suite: FAIL @ eb130f01f (8008 passed, 7 failed, 70 skipped; diagnosed above)
+fresh-clone: PASS @ 41420ae14 (gates all PASS; belt ok) (the review's landing, before its anchor line)
+fresh-clone suite: FAIL @ eb130f01f (8008 passed, 7 failed, 70 skipped; diagnosed above); and at the review's first landing 5ad939055: 8019 passed, 5 failed — B805's two (standing), the path-refs gate twice over (a reader's copy cited a file never created) and B1461's planted carry test, which showed this review's first lineage counter undercounting an item whose origin review is absent; both fixed in 41420ae14, whose gates and belt pass in a fresh clone
 sample seed: 99d90d515; read in full: B1821, B1822, B1823, B1824, B1828
 gate controls: 47 registered failing-path tests; unregistered: none
 
@@ -7992,3 +7992,5 @@ None promoted. 0 of 19. THE SIX ON THE STRIP is a CANDIDATE (level 1), and its c
 - [ ] R74-8: P-616 and P-617 — the backlog's and the leads' proposed closures, merges and retypes confirmed one by one (owner: cc)
 - [ ] R74-9: P-601 — the 79 'order unshown' as a list that may only shrink; the tools' order and ledger defects (owner: cc)
 - [ ] R74-10: the owner's choice among the ranked leads of § 3 for the next work (owner: the owner)
+
+**anchor-commit: `41420ae14`**
