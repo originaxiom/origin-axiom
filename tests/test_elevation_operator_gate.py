@@ -1367,6 +1367,80 @@ def test_five_phase_master_toe_closure():
     assert float(rc52["max_precision_err_stage5"]) < 1e-13
     assert t52["all_six_guardrails_passed"] is True
 
+    # Theorem 53 (Stage 6.1): S300/S300b P-661 Borrowed-Joints Scaffold & P-662 Provenance Clean-Sweep
+    t53 = sc["theorem53_p661_borrowed_joints_scaffold_and_p662_provenance_clean_sweep"]
+    assert "B1830_the_register_triaged" in t53["seen_first"]
+    assert "FORCED" in t53["claim_labels_and_scopes"]["p662_100_percent_provenance_resolution"]
+    assert "FORCED" in t53["claim_labels_and_scopes"]["p661_borrowed_joints_scaffold_and_p418_vector"]
+    assert int(t53["missing_or_invented_citations_count"]) == 0
+    assert int(t53["total_observables_in_p418_vector"]) == 23
+    assert int(t53["total_borrowed_continuous_parameters"]) == 0
+    assert int(t53["unique_borrowed_discrete_joints_count"]) == 7
+
+    # Theorem 54 (Stage 6.2): S300 P-638 Charged-Lepton Left Diagonalizer U_e^L & PMNS Matrix on Order-5 and Order-10 Lines
+    t54 = sc["theorem54_p638_charged_lepton_ue_and_pmns_second_held_out_target"]
+    assert "B1830_the_register_triaged" in t54["seen_first"]
+    assert "FORCED" in t54["claim_labels_and_scopes"]["order5_uel_equals_udr_conj_control"]
+    assert "FORCED" in t54["claim_labels_and_scopes"]["order10_uel_equals_di_udr_conj_half_lift"]
+    assert "ADMITTED_HYPOTHESIS" in t54["claim_labels_and_scopes"]["p638_dirac_and_seesaw_pmns_second_target"]
+    assert float(t54["max_order5_uel_vs_udr_conj_err"]) < 1e-13
+    assert float(t54["max_order10_uel_vs_di_udr_conj_err"]) < 1e-13
+    assert t54["haar_trials_run"] == 20
+    assert float(t54["max_haar_invariance_err"]) < 1e-13
+
+    # Theorem 55 (Stage 6.3): S300 P-639 The Mirror in Matter & P-637 Two-Channel 1-Loop Radiative Lift of D
+    t55 = sc["theorem55_p639_mirror_in_matter_and_p637_one_loop_radiative_lift"]
+    assert "B1830_the_register_triaged" in t55["seen_first"]
+    assert "FORCED" in t55["claim_labels_and_scopes"]["p639_mirror_and_mod5_transposition_sector_pairing"]
+    assert "ADMITTED_HYPOTHESIS" in t55["claim_labels_and_scopes"]["p637_two_channel_rational_mean_29_over_1260_for_d"]
+    assert t55["up_is_mod5_self_transpose"] is True
+    assert t55["down_lepton_are_mod5_transposes"] is True
+    assert t55["unique_negative_sum_sector"] == ["up"]
+    assert float(t55["max_b1821_mirror_hermitian_err"]) < 1e-13
+    assert float(t55["rational_mean_29_over_1260_err"]) == 0.0
+    assert float(t55["sigma_deviation_from_pdg_10p58"]) < 0.01
+
+    # Theorem 56 (Stage 6.4): S300 P-636 Deriving the 3 from Minimal Hyperbolic Trace |2 - tr| = 3, FK7 Deck Count, & FK11 Curvature
+    t56 = sc["theorem56_p636_deriving_the_three_from_minimal_hyperbolic_trace_and_fk11"]
+    assert "B1830_the_register_triaged" in t56["seen_first"]
+    assert "FORCED" in t56["claim_labels_and_scopes"]["p636_minimal_hyperbolic_trace_5_and_lefschetz_3"]
+    assert "FORCED" in t56["claim_labels_and_scopes"]["fk7_deck_gauged_1_vs_kept_3_and_fk11_curvature"]
+    assert int(t56["tr_l3r"]) == 5
+    assert int(t56["lefschetz_count_l3r"]) == 3
+    assert int(t56["minimal_prime_gt2_lefschetz"]) == 3
+    assert int(t56["minimal_prime_gt2_trace"]) == 5
+    assert float(t56["lefschetz_formula_err_across_36_words"]) == 0.0
+    assert int(t56["fk7_deck_gauged_dim"]) == 1
+    assert int(t56["fk7_deck_kept_dim"]) == 3
+    assert float(t56["spin_curvature_flux_k_half"]) == -0.5
+    assert float(t56["lichnerowicz_shift"]) == 0.5
+    assert float(t56["fk11_gauss_bonnet_err"]) == 0.0
+
+    # Theorem 57 (Stage 6.5): S300 P-629 / P-630 / P-631 / P-633 Critical Weave Switch c_crit = 6*pi*h & 2-Loop Fiber Vacuum Arrest
+    t57 = sc["theorem57_p629_p630_p631_p633_critical_weave_switch_and_two_loop_fiber_potential"]
+    assert "B1830_the_register_triaged" in t57["seen_first"]
+    assert "FORCED" in t57["claim_labels_and_scopes"]["p633_critical_weave_switch_6pi_vol_m004"]
+    assert "FORCED" in t57["claim_labels_and_scopes"]["p630_tricritical_ising_dimensions_match_b1788_exponents"]
+    assert "FORCED" in t57["claim_labels_and_scopes"]["p631_one_loop_eisenstein_runaway_vs_holonomy_casimir_arrest"]
+    assert abs(float(t57["c_crit_6pi_vol_m004"]) - 38.2623971342303) < 1e-12
+    assert float(t57["c_crit_ratio_err"]) < 1e-15
+    assert float(t57["tricritical_exponent_err"]) == 0.0
+    assert float(t57["golden_eigenvalue_err"]) < 1e-15
+    assert t57["one_loop_always_runs_to_cusp"] is True
+
+    # Theorem 58 (Stage 6.6): Zero-Trust Hostile-Referee Gate for Theorems 53-57 & Full S300/S300b Certification
+    t58 = sc["theorem58_zero_trust_hostile_referee_stage6_s300_gate"]
+    assert "B1830_the_register_triaged" in t58["seen_first"]
+    assert "FORCED" in t58["claim_labels_and_scopes"]["stage6_theorems_53_to_57_verification"]
+    assert "FORCED" in t58["claim_labels_and_scopes"]["p661_p662_s300_s300b_readiness_gate"]
+    rc58 = t58["referee_independent_counterchecks"]
+    assert float(rc58["independent_mpmath_c_crit_err"]) < 1e-13
+    assert float(rc58["independent_mpmath_golden_trace_err"]) < 1e-15
+    assert float(rc58["independent_fresh_haar_invariance_err_t58"]) < 1e-13
+    assert float(rc58["max_precision_err_stage6"]) < 1e-13
+    assert t58["all_six_guardrails_passed"] is True
+
+
 
 
 

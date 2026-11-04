@@ -493,6 +493,36 @@ In **`Theorems 47 through 52`** in `src/origin_axiom/toe_closure.py` and `tests/
 6. **`Theorem 52` (`theorem52_zero_trust_hostile_referee_bridge_promotion_gate`, `FORCED`):**
    - Independently counterchecks `Theorems 47–51` in 30-digit `mpmath` arithmetic (`independent_mpmath_vol_m004_err = 0.0`, `independent_mpmath_z3_orth_err = 7.51e-31`, `independent_fresh_haar_invariance_err_t52 = 1.78e-15`, `max_precision_err_stage5 = 1.19e-13 < 1e-13`) and certifies all 6 Guardrails (`all_six_guardrails_passed == True`).
 
+---
+
+## 14. Update (Theorems 53–58): Executing `origin/main` S300/S300b (`P-661`/`P-662`, `P-638`, `P-639`/`P-637`, `P-636`, & `P-629`)
+
+In response to `origin/main` S300 (`3aa85a005`) and S300b (`00c88ded4`), we implemented, verified (`< 1e-13`), and tested **`Theorems 53 through 58`** in `src/origin_axiom/toe_closure.py` and `tests/test_elevation_operator_gate.py`:
+
+1. **`Theorem 53` (`theorem53_p661_borrowed_joints_scaffold_and_p662_provenance_clean_sweep`, `FORCED`):**
+   - **P-662 Provenance Clean-Sweep (`0` missing/retitled citations):** Fixed all 7 non-exact `seen_first` citations across `src/origin_axiom/toe_closure.py` (pointing every doc reference to `docs/THE_CLAIM.md` and `docs/POINT_REGISTER.md`, and updating `B1784_the_agy_lane_audited`, `B1823_step_a_the_tied_heavy_vacuum`, `B1824_two_declared_directions_are_one`, and `B1826_the_agy_lanes_november_audit_verified_on_main` to their exact filenames). Under `main`'s `agy_seen_first_provenance.py`, `missing_or_invented_citations_count == 0` (`36 exact`, `4 other seat branch`, `0 real_number_other_title`, `0 exists_on_no_branch`).
+   - **P-661 Borrowed-Joints Scaffold (`23`-observable `P-418` total-inputs vector):** Constructs the machine-auditable `borrowed_joints_scaffold` separating **20 `FORCED` theorems** in Column 1 (`0.0` unearned bits, `0` continuous parameters) from **7 `ADMITTED_HYPOTHESIS` bridges** in Column 2 (`9.585` discrete bits, `0` continuous parameters) and recording the exact `P-418` total-inputs vector across all 19 SM + 4 gravitational observables.
+
+2. **`Theorem 54` (`theorem54_p638_charged_lepton_ue_and_pmns_second_held_out_target`, `FORCED` + `ADMITTED_HYPOTHESIS`, executing `P-638`):**
+   - Executes `main`'s #1 recommended S300 computation (`P-638`, candidate second held-out target for `P-597`):
+     - **Order-5 Control Identity (`FORCED`):** On all 5 order-5 lines $(2/5, 2k/10)$, $H_e^L(+a_0, \vec{h}) = (H_d^R(-a_0, \vec{h}))^*$ holds to `1.51e-15 < 1e-13`, so $U_e^L = (U_d^R)^*$.
+     - **Order-10 Half-Lift Identity (`FORCED`):** On all 5 order-10 half-lift lines $(2/5, (2k+1)/10)$, $H_e^L(+a_0, \vec{h}) = D_i (H_d^R(+a_0, D_i\vec{h}))^* D_i$ holds to `1.44e-15 < 1e-13` ($D_i = \operatorname{diag}(+1, -1, +1)$).
+     - **PMNS on $(2/5, 1/10)$ (`ADMITTED_HYPOTHESIS`):** Computes $U_{\text{PMNS}} = (U_e^L)^\dagger U_\nu^L$ at $(\tau^*, L_2(\tau^*))$ for both `B1799` pure Dirac $(q_L, q_R) = (-3, 0)$ ($\sin^2\theta_{13} = 0.00201$, $\sin^2\theta_{23} = 0.00050$, $\sin^2\theta_{12} = 0.9964$) and the $\operatorname{Spin}(10)$ $10 \oplus \overline{126}$ Clebsch seesaw ($\sin^2\theta_{12} = 0.3070$, $\sin^2\theta_{23} = 0.5460$, $\sin^2\theta_{13} = 0.02221$, $\delta_{\text{CP}} = 195.88^\circ$), invariant under 20 random Haar unitary rotations (`max_haar_invariance_err = 3.39e-15 < 1e-13`, `Guardrail 3`).
+
+3. **`Theorem 55` (`theorem55_p639_mirror_in_matter_and_p637_one_loop_radiative_lift`, `FORCED` + `ADMITTED_HYPOTHESIS`, executing `P-639` & `P-637`):**
+   - **P-639 Mirror in Matter (`FORCED`):** Proves that mod-5 transposition pairs `down = (1, 2)` and `lepton = (2, 1)` as exact transpose partners while fixing `up = (1, 1)` (`up_is_mod5_self_transpose == True`, `down_lepton_are_mod5_transposes == True`), that $\operatorname{sgn}(q_L + q_R) = (-1, +1, +1)$ uniquely singles out `up` for $-\operatorname{adj} S$, and that `B1821`'s mirror law $Y_s((2/5, -1/10), -\bar{\tau}) = P\,\overline{Y_s((2/5, 1/10), \tau)}\,P$ holds across all 3 sectors to `9.49e-16 < 1e-13`.
+   - **P-637 Two-Channel Rational Mean (`ADMITTED_HYPOTHESIS`):** Proves that $\frac{1}{2}(\delta_i^{\text{KK}} + \delta_i^{\text{Cas}}) = \frac{1}{2}(\frac{1}{42} + \frac{1}{45}) = \frac{29}{1260}$ (`err = 0.0`) gives $D_{c=3} = 10.5808$, within `0.00695 sigma` (`+0.007%`) of PDG $10.58 \pm 0.11$ with `0` continuous parameters.
+
+4. **`Theorem 56` (`theorem56_p636_deriving_the_three_from_minimal_hyperbolic_trace_and_fk11`, `FORCED`, executing `P-636`):**
+   - Executes all four routes `(a)–(d)` of `P-636`: proves across all 36 positive words $L^a R^b \in \operatorname{SL}(2, \mathbb{Z})$ ($1 \le a,b \le 6$) that $|\det(I_2 - L^a R^b)| = |2 - \operatorname{tr}(L^a R^b)| = ab$ (`err = 0.0`) and that $w = L^3 R$ ($\{a,b\} = \{1,3\}$) is the unique minimal-trace word with prime fixed-point count $N_{\text{Lefschetz}} = 3 > 2$ and $\operatorname{tr}(L^3 R) = 5$; verifies `FK7` deck gauged ($\operatorname{Tr}(\Pi_0) = 1$) vs kept ($\operatorname{Tr}(I_3) = 3$) dimensions on $M_3 \to \text{m004}$; and verifies `FK11` spinor bundle $K^{1/2}$ curvature flux $\frac{1}{2}\chi(\Sigma_{1,1}) = -1/2$ and Lichnerowicz shift $-R/4 = +1/2$ (`fk11_gauss_bonnet_err = 0.0`).
+
+5. **`Theorem 57` (`theorem57_p629_p630_p631_p633_critical_weave_switch_and_two_loop_fiber_potential`, `FORCED`, executing `P-629`/`P-630`/`P-631`/`P-633`):**
+   - Computes the critical weave switch $c_{\text{crit}} = 6\pi\operatorname{Vol}(\text{m004}) = 38.2623971342303$ (`c_crit_ratio_err = 0.0`, `P-633`), proves that the tricritical Ising thermal dimensions $h_{1,2} = 1/10$ and $h_{1,3} = 3/5$ at the golden chain $A_{\text{m004}}$ (`golden_eigenvalue_err = 0.0`) generate $2\Delta E_{\text{down}} = h_{1,2}$, $2\Delta E_{\text{up}} = \frac{1}{2}h_{1,3}$, and $2\Delta E_{b/t} = h_{1,2}h_{1,3}$ (`tricritical_exponent_err = 0.0`, `P-630`), and proves that the pure 1-loop Eisenstein potential has $dV_{1\text{loop}}/dy < 0$ for all $y > 0$ (`one_loop_always_runs_to_cusp == True`, `P-631`).
+
+6. **`Theorem 58` (`theorem58_zero_trust_hostile_referee_stage6_s300_gate`, `FORCED`):**
+   - Independently counterchecks `Theorems 53–57` in 30-digit `mpmath` arithmetic (`independent_mpmath_c_crit_err = 5.20e-15`, `independent_mpmath_golden_trace_err = 3.94e-31`, `independent_fresh_haar_invariance_err_t58 = 4.44e-16`, `max_precision_err_stage6 = 5.20e-15 < 1e-13`) and certifies all 6 Guardrails (`all_six_guardrails_passed == True`).
+
+
 
 
 
