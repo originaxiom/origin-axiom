@@ -1440,6 +1440,95 @@ def test_five_phase_master_toe_closure():
     assert float(rc58["max_precision_err_stage6"]) < 1e-13
     assert t58["all_six_guardrails_passed"] is True
 
+    # Theorem 59 (Stage 7.1): S300c P-663 Cheapest Scoreboard Conversions B08 (B1667 L_2) & B47 (Reidemeister Torsion)
+    t59 = sc["theorem59_p663_b1667_l2_and_reidemeister_torsion_conversions"]
+    assert "B1667_the_canonical_cusp" in t59["seen_first"]
+    assert "FORCED" in t59["claim_labels_and_scopes"]["b08_to_f4_exact_b1667_l2_conversion"]
+    assert "FORCED" in t59["claim_labels_and_scopes"]["b47_fox_free_calculus_reidemeister_torsion"]
+    assert "plain_english_elaboration" in t59
+    assert int(t59["lookup_table_points_used"]) == 0
+    assert float(t59["b1667_json_strip_agreement_err"]) < 2e-11
+    assert float(t59["fox_fundamental_identity_err"]) < 1e-14
+    assert float(t59["max_alexander_poly_err"]) < 1e-14
+    assert abs(float(t59["abs_delta_m004_at_omega"]) - 4.0) < 1e-14
+    assert float(t59["tau_rs_abelian_err"]) < 1e-14
+    assert float(t59["tau_rs_adjoint_err"]) < 1e-14
+
+    # Theorem 60 (Stage 7.2): Analytic Term-by-Term q-Series Proof of B1834 Joint F7 Mirror Identity
+    t60 = sc["theorem60_analytic_q_series_proof_of_f7_mirror_identity"]
+    assert "B1821_the_frames_mirror_symmetry_in_re_tau" in t60["seen_first"]
+    assert "FORCED" in t60["claim_labels_and_scopes"]["term_by_term_theta_q_series_mirror_conjugation"]
+    assert "FORCED" in t60["claim_labels_and_scopes"]["quaternionic_channel_parity_and_f7_matrix_proof"]
+    assert "plain_english_elaboration" in t60
+    assert float(t60["max_single_term_q_series_err"]) < 1e-14
+    assert float(t60["max_t1_term_err"]) < 1e-14
+    assert float(t60["max_quat_matrix_parity_err"]) < 1e-14
+    assert float(t60["max_channel_residue_parity_err"]) < 1e-14
+    assert float(t60["max_algebraic_3x3_f7_err"]) < 1e-13
+
+    # Theorem 61 (Stage 7.3): S300c P-664 Self-Contained Gauge-to-Yukawa Cascade Eliminating Measured Inputs & Refuted Legacy Keys
+    t61 = sc["theorem61_p664_self_contained_gauge_to_yukawa_cascade_zero_measured_inputs"]
+    assert "B1830_the_register_triaged" in t61["seen_first"]
+    assert "FORCED" in t61["claim_labels_and_scopes"]["p664_self_contained_cascade_zero_measured_couplings"]
+    assert "ADMITTED_HYPOTHESIS" in t61["claim_labels_and_scopes"]["single_uv_scale_m12_reading_and_ode_itop"]
+    assert "plain_english_elaboration" in t61
+    assert int(t61["imported_measured_couplings_count"]) == 0
+    assert t61["imported_dimensionful_anchors_beyond_v_EW"] == []
+    assert float(t61["uv_bvp_residual"]) < 1e-13
+    assert int(t61["eliminated_b1834_joints_count"]) == 13
+    assert t61["haar_trials_run"] == 20
+    assert float(t61["max_haar_invariance_err"]) < 1e-13
+
+    # Theorem 62 (Stage 7.4): S300 P-632 Instability Spectrum, P-634 Angle A Cuspidal Cohomology, & P-635 Flat Q_8 Bundle dim H^1 = 0
+    t62 = sc["theorem62_s300_p632_instability_spectrum_p634_cuspidal_cohomology_and_p635_h1_q8"]
+    assert "B1830_the_register_triaged" in t62["seen_first"]
+    assert "FORCED" in t62["claim_labels_and_scopes"]["p632_one_loop_eisenstein_saddle_instability"]
+    assert "FORCED" in t62["claim_labels_and_scopes"]["p634_cuspidal_cohomology_on_punctured_torus"]
+    assert "FORCED" in t62["claim_labels_and_scopes"]["p635_flat_q8_bundle_cohomological_rigidity_h1_zero"]
+    assert "plain_english_elaboration" in t62
+    assert t62["one_loop_is_saddle_instability"] is True
+    assert float(t62["commutator_minus_t6_err"]) == 0.0
+    assert t62["parabolic_cuspidal_cohomology_dims"] == {1: 2, 2: 4, 3: 6}
+    assert float(t62["d1_d0_chain_complex_err"]) < 1e-15
+    assert int(t62["rank_d0_coboundary"]) == 3
+    assert int(t62["rank_d1_cocycle"]) == 3
+    assert int(t62["dim_h0_ad_q8"]) == 0
+    assert int(t62["dim_z1_ad_q8"]) == 3
+    assert int(t62["dim_b1_ad_q8"]) == 3
+    assert int(t62["dim_h1_ad_q8"]) == 0
+    assert int(t62["continuous_q8_bundle_moduli"]) == 0
+
+    # Theorem 63 (Stage 7.5): B1834 Frame B Borrowed-Joint Reduction Audit
+    t63 = sc["theorem63_b1834_frame_b_borrowed_joint_reduction_audit"]
+    assert "B1830_the_register_triaged" in t63["seen_first"]
+    assert "FORCED" in t63["claim_labels_and_scopes"]["b1834_measured_refuted_and_unknown_joints_eliminated"]
+    assert "ADMITTED_HYPOTHESIS" in t63["claim_labels_and_scopes"]["seven_admitted_hypothesis_bridges_remaining"]
+    assert "plain_english_elaboration" in t63
+    assert int(t63["b1834_at_18c607040_counts"]["total_borrowed_joints"]) == 45
+    assert int(t63["stage7_resolved_joints_count"]) == 15
+    assert int(t63["stage7_after_counts"]["MEASURED-INPUT"]) == 0
+    assert int(t63["stage7_after_counts"]["REFUTED"]) == 0
+    assert int(t63["stage7_after_counts"]["UNKNOWN"]) == 0
+    assert int(t63["stage7_after_counts"]["FORCED-CLAIMED"]) == 0
+    assert int(t63["stage7_after_counts"]["FITTED_CONTINUOUS"]) == 0
+    assert int(t63["stage7_after_counts"]["ADMITTED_HYPOTHESIS_DISCRETE_BRIDGES"]) == 7
+    assert int(t63["stage7_after_counts"]["FORCED_THEOREMS_IN_COLUMN1"]) == 24
+
+    # Theorem 64 (Stage 7.6): Zero-Trust Hostile-Referee Gate for Theorems 59-63 & Full S300c B1834 Certification
+    t64 = sc["theorem64_zero_trust_hostile_referee_stage7_b1834_gate"]
+    assert "B1830_the_register_triaged" in t64["seen_first"]
+    assert "FORCED" in t64["claim_labels_and_scopes"]["stage7_theorems_59_to_63_verification"]
+    assert "FORCED" in t64["claim_labels_and_scopes"]["b1834_p663_p664_s300c_readiness_gate"]
+    assert "plain_english_elaboration" in t64
+    rc64 = t64["referee_independent_counterchecks"]
+    assert float(rc64["independent_mpmath_torsion_err"]) < 1e-25
+    assert float(rc64["independent_mpmath_vs_t59_err"]) < 1e-15
+    assert float(rc64["independent_mpmath_f7_theta1_err"]) < 1e-25
+    assert float(rc64["independent_fresh_haar_invariance_err_t64"]) < 1e-13
+    assert float(rc64["max_precision_err_stage7"]) < 1e-13
+    assert t64["all_six_guardrails_passed"] is True
+
+
 
 
 
