@@ -2144,3 +2144,28 @@ The formal full-matrix classification remains valid. Weighted/profile/
 geometric alternatives keep their actual hypotheses, and the operator,
 field and physical-vacuum dictionary is not thereby discharged.
 The frozen verification sources are unchanged and no input is marked paid.
+
+## November 4. Systematic steps 2 and 3, geometric and sector successors
+
+The [geometric/spin join](GEOMETRIC_SPIN_JOIN_AND_FULL_CURVE_OPERATOR.md)
+recovers the full based universal-family geometry and uses the register's
+existing metaplectic cover for the declared odd-spin physical candidate.
+It supplies explicit transformations of the full mass map, its trace-dual
+target, all kinetic weights, interactions, stationary bundle and complete
+domain. The primitive in a rewritten superpotential is accounted for
+together with its bulk expression. Physical parent/spin/flavour assignments,
+global sign alternatives and the measuring-sector duty remain visible.
+
+The [128-sector successor](CONFINED_HALF_ROOT_SECTOR_AND_SURVIVING_CONTINUUM.md)
+derives an all-slot coercive tail estimate and compact resolvent on that
+globally reducing subspace. It preserves a discrete physical kernel problem
+alongside the centralizer continuum already exhibited in this same model.
+No charged kernel or three-generation count is inferred, and cover cusp
+degrees keep their own parity duty.
+
+[Reduction card 06](REDUCTION_CARD_06_GEOMETRIC_SPIN_AND_SECTOR_RESOLUTION.md)
+records the before-and-after prices. A separate prospective four-control
+design is unimplemented and awaits review. The earlier eight-control
+package stays unchanged and unrun. These new analytical proofs are
+UNREVIEWED. No execution acceptance, scientific pass or foundational-input
+payment is asserted. The full physical mission remains active.

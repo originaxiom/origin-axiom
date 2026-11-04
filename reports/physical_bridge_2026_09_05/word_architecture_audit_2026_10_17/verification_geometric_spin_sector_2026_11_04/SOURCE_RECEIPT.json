@@ -1,0 +1,114 @@
+{
+  "record_type": "review_source_receipt_only",
+  "date": "2026-11-04",
+  "base_commit": "ee8c600669dca12b3eb50b65db04ff3a23c55455",
+  "status": "UNREVIEWED analytical successor; no scientific execution",
+  "implementation": "Four prospective successor controls are not implemented. The earlier eight-control implementation remains unrun and unchanged.",
+  "files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GEOMETRIC_SPIN_JOIN_AND_FULL_CURVE_OPERATOR.md",
+      "sha256": "8a534fc3a4f1aea110c9a4f2c121393c7b273f7f1ce1eeac34bf3e9edb356ad8",
+      "bytes": 13755
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CONFINED_HALF_ROOT_SECTOR_AND_SURVIVING_CONTINUUM.md",
+      "sha256": "8436811ae3529f7fa78337a428f1e9c2d8af1414860fb2512db772a20879e4c4",
+      "bytes": 8622
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REDUCTION_CARD_06_GEOMETRIC_SPIN_AND_SECTOR_RESOLUTION.md",
+      "sha256": "c255eb2aac66e06b229362e44165bf3ab3adb37474c1c76717fff4603ed816d6",
+      "bytes": 4529
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_geometric_spin_sector_2026_11_04/DESIGN.md",
+      "sha256": "1785117ef909f55b7c36114e7e624d591022ac7435a2843ab59ca76765dea332",
+      "bytes": 4831
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GEOMETRIC_THETA_REGISTER.md",
+      "sha256": "59268072937a02e17e48794ecaa3b9f64fc7870e2de14d85ff7efbcbe3ca9c69",
+      "bytes": 11103
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REGISTER_QUADRATIC_FORM_TO_ODD_SPIN_AND_PHYSICAL_JOIN.md",
+      "sha256": "04830b9aea811c090ff4316fece10f7e95810106a52fe6665443718d372c6ee7",
+      "bytes": 9351
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SPIN_FLAVOUR_FACTORISATION_AND_PHYSICAL_TWIST_PRICE.md",
+      "sha256": "308eeb1745d36cd8c86e35d25f0ede9fbd9e1d5f43d235cfa908307ece45887f",
+      "bytes": 12732
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md",
+      "sha256": "6012816683f17ac83e7d3bdb4f6d8b987ec8155ee2caa09ce651dbf0b194ed4c",
+      "bytes": 11130
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_QUATERNION_STATIONARY_BUNDLE_AND_CUSP_LAW.md",
+      "sha256": "221a7cd2dce2ff7dec0b135c348b7bb52e15bc27e5563d420756fbe31f9978a1",
+      "bytes": 16627
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PIN2_COMPENSATOR_COHERENCE_AND_ELECTROMAGNETIC_PHASE.md",
+      "sha256": "fc67d4446b11f54c731b7e7aac56b496e501d5fa397040363de6c8074909a3b9",
+      "bytes": 8892
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GAPLESS_CUSP_RESPONSE_AND_GAUGE_COUPLING.md",
+      "sha256": "e89a6b108bfa6bc0bc80f093b4e35aa24d04f9013842ef9ad90b9bcc61e2da50",
+      "bytes": 6639
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_FLAT_FAMILY_METRIC_AND_DISCONNECTED_CENTRALIZER.md",
+      "sha256": "df538ad48d13a0cec5c5bb8ac7f8fcca73adbb1deb549902332ac992d0e076fc",
+      "bytes": 15421
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "bytes": 13228
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "bytes": 11351
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_end_2026_11_04/checks.py",
+      "sha256": "f48fe7e06502ec915cfc48fe7a2dfde2b03b658b468fd93e45b3965fbdfe9d2a",
+      "bytes": 22081
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_end_2026_11_04/SOURCE_REVIEW_INVENTORY.json",
+      "sha256": "ed790d0e3decfb7975fe32b1b9477cfc9b2312e3d521a55185a6927f7b24671c",
+      "bytes": 5302
+    }
+  ],
+  "primary_reading": [
+    {
+      "author": "Richard Hain",
+      "url": "https://arxiv.org/html/1309.0580v5",
+      "access_date": "2026-11-04",
+      "read_scope": "Section 1.1 through Proposition 1.9, and the M_(1,2) identification at the beginning of section 10",
+      "use": "Universal punctured elliptic family, exact sequence and based conjugation action",
+      "whole_paper_read_claimed": false
+    },
+    {
+      "author": "Stefano Vidussi",
+      "url": "https://arxiv.org/html/2311.05118v3",
+      "access_date": "2026-11-04",
+      "read_scope": "Relevant opening of section 2; equation (19), Corollary 4.3 and proof in section 4",
+      "use": "Aut+(F2) as pure mapping class group and identity of the point-pushing kernel",
+      "whole_paper_read_claimed": false
+    },
+    {
+      "author": "Christian Baer",
+      "url": "https://arxiv.org/pdf/math/0010233",
+      "read_scope": "Previously personally read sections 2 and 3, reused with their earlier intake scope",
+      "use": "Comparison for complete cusp, singular sequence and discrete-spectrum arguments",
+      "new_full_paper_read_claimed": false
+    }
+  ]
+}
