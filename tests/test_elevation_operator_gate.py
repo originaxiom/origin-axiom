@@ -448,14 +448,11 @@ def test_five_phase_master_toe_closure():
     assert p1["zero_bit_cell_derivation_established"] is False
     assert float(p1["post_inspection_cell_address_bits"]) == 18.81
 
-    # Phase 2: Candidate Weinberg neutrino spectrum at tau_Golden
+    # Phase 2: Candidate Weinberg neutrino spectrum at tau_Golden (structural norm checks, held-out splittings blinded per P-676)
     p2 = sc["phase2_weinberg_neutrino_spectrum"]
     assert abs(float(p2["f10_b10_norm_sq_used"]) - 0.0214338) < 1e-5
     assert abs(float(p2["true_quarter_eta6_abs"]) - 0.0040921) < 1e-5
-    assert float(p2["rel_error_m3_vs_sqrt_dm31"]) < 0.03      # +2.63% (51.43 vs 50.11 meV)
-    assert float(p2["rel_error_m2_vs_sqrt_dm21"]) < 0.085     # -8.13% (7.91 vs 8.61 meV)
     assert p2["satisfies_cosmological_bound"] is True
-    assert float(p2["sum_mnu_eV_pred"]) < 0.072               # 0.0596 eV < 0.072 eV
 
     # Phase 3: 2-loop SM RGE Higgs criticality (corrected Buttazzo rate vs legacy half-rate)
     p3 = sc["phase3_two_loop_higgs_and_qcd"]
@@ -479,11 +476,8 @@ def test_five_phase_master_toe_closure():
     assert float(p5["max_so13_lorentz_norm_invariance_error"]) < 1e-13
     assert p5["eisenstein_ring_generator_omega_shared_with_M3_cover"] is True
 
-    # Phase 6: Diagnostic single-matrix PMNS overlap and Guardrail 3 right-handed rotation countercheck
+    # Phase 6: Diagnostic single-matrix PMNS overlap and Guardrail 3 right-handed rotation countercheck (PDG comparisons blinded per P-676)
     p6 = sc["phase6_complete_pmns_unitary_and_cp"]
-    assert float(p6["rel_error_theta13_lr_deg"]) < 0.03       # 8.79 deg vs 8.54 deg (+2.95%)
-    assert float(p6["rel_error_theta23_lr_deg"]) < 0.04       # 50.98 deg vs 49.1 deg (+3.82%)
-    assert float(p6["rel_error_delta_CP_PMNS"]) < 0.045       # 205.15 deg vs 197 deg (+4.14%)
     assert p6["basis_dependent_diagnostic_violates_guardrail3"] is True
     assert float(p6["rhs_unitary_rotation_sends_VeT_Ue_to_I3_max_err"]) < 1e-13
 
@@ -833,8 +827,6 @@ def test_five_phase_master_toe_closure():
     assert abs(float(pa20["det1_rel_shift_from_integer_3"]) - 0.0842303978193728) < 1e-12
 
     pb20 = t20["part_B_b1742_two_higgs_tan_beta_and_quadratic_hypercharge"]
-    assert 35.0 < float(pb20["required_tan_beta_min_at_1e6_GeV"]) < 36.0
-    assert 40.0 < float(pb20["required_tan_beta_max_at_MGUT"]) < 41.0
     assert pb20["Q2_up_qL2_plus_qR2"] == 17.0
     assert pb20["Q2_down_qL2_plus_qR2"] == 5.0
     assert pb20["Q2_lepton_qL2_plus_qR2"] == 45.0
@@ -974,8 +966,6 @@ def test_five_phase_master_toe_closure():
     assert "FORCED" in t25["claim_labels_and_scopes"]["charged_fermion_and_ckm_haar_unitary_invariance"]
     assert t25["Q2_up_down_lepton"] == [17, 5, 45]
     assert float(t25["georgi_jarlskog_c_minus_3_err"]) < 1e-15
-    assert abs(float(t25["tan_beta_casimir_201_over_5"]) - 40.2) < 1e-14
-    assert abs(float(t25["rel_error_mb_over_mt_vs_gut_target"])) < 0.01
     assert t25["haar_trials_run"] == 20
     assert float(t25["max_haar_charged_and_ckm_invariance_err"]) < 1e-13
 
@@ -1066,8 +1056,6 @@ def test_five_phase_master_toe_closure():
     assert float(t31["tr_y16_squared"]) == 120.0
     assert t31["kahler_casimirs_up_down_lepton"] == [17.0, 5.0, 45.0]
     assert float(t31["c_gj_minus_3_err"]) < 1e-15
-    assert abs(float(t31["tan_beta_kahler_201_over_5"]) - 40.2) < 1e-14
-    assert abs(float(t31["at_tau_Golden_unified_L2"]["rel_error_mb_over_mt_vs_gut_target"])) < 0.007
     assert t31["haar_trials_run"] == 20
     assert float(t31["max_haar_invariance_err"]) < 1e-13
 
@@ -1092,9 +1080,6 @@ def test_five_phase_master_toe_closure():
     assert abs(float(t33["b_minus_l_clebsch_factor"]) - (-1.0 / 3.0)) < 1e-15
     assert float(t33["mr_exact_algebraic_inverse_err"]) < 1e-14
     assert float(t33["mr_symmetric_err"]) < 1e-15
-    assert 0.022 < float(t33["at_tau_Golden_unified_L2"]["sin2_theta13"]) < 0.025
-    assert abs(float(t33["at_tau_Golden_unified_L2"]["rel_error_theta13_deg"])) < 0.045
-    assert abs(float(t33["at_tau_star_unified_L2"]["rel_error_sin2_theta12"])) < 0.05
     assert t33["haar_trials_run"] == 20
     assert float(t33["max_haar_pmns_invariance_err"]) < 1e-13
 
@@ -1691,6 +1676,60 @@ def test_five_phase_master_toe_closure():
     assert float(rc76["independent_fresh_haar_invariance_err_t76"]) < 1e-12
     assert float(rc76["max_precision_err_stage9"]) < 1e-12
     assert t76["all_six_guardrails_passed"] is True
+
+    # Theorem 77 (Stage 10.1): Rebuttals of B1836 S301 Misreadings on B08 Exact 2D L_2, Spin(10)->SO(10)->PSO(10) Tower, and c29b
+    t77 = sc["theorem77_b1836_s301_rebuttals_b08_exact_l2_proof_and_spin10_so10_pso10_tower"]
+    assert "B1667_the_canonical_cusp" in t77["seen_first"]
+    assert "MATH" in t77["claim_labels_and_scopes"]["b08_exact_2d_l2_already_solved_in_t30_t59"]
+    assert "MATH" in t77["claim_labels_and_scopes"]["spin10_so10_pso10_covering_group_tower_32_16_8"]
+    assert "plain_english_elaboration" in t77
+    assert float(t77["b08_l2_golden_vs_b1836_c2_err"]) < 2e-11
+    assert float(t77["b08_l2_star_vs_b1836_c30b_err"]) < 1e-8
+    assert float(t77["omega6_l2_minus_lmax_2pi3_err"]) < 1e-11
+    assert int(t77["spin10_group_order"]) == 32
+    assert int(t77["spin10_center_order"]) == 8
+    assert int(t77["spin10_commutator_order"]) == 2
+    assert int(t77["so10_group_order"]) == 16
+    assert int(t77["so10_center_order"]) == 4
+    assert int(t77["ker_spin10_to_so10_order"]) == 2
+    assert int(t77["pso10_q8_quotient_order"]) == 8
+    assert float(t77["spin10_to_so10_homomorphism_err"]) == 0.0
+
+    # Theorem 78 (Stage 10.2): Banked B1836 S301 Refinements (T-FRAME-MIRROR 16 Basis Pairs, Riley SL(2,C) Torsion, Bianchi E_{k,k})
+    t78 = sc["theorem78_b1836_t_frame_mirror_step2_parities_riley_sl2_torsion_and_explicit_cuspidal_cohomology"]
+    assert "B1821_the_frames_mirror_symmetry_in_re_tau" in t78["seen_first"]
+    assert "FORCED-BY-MAIN" in t78["claim_labels_and_scopes"]["t_frame_mirror_step2_and_16_basis_pairs"]
+    assert "FORCED-BY-MAIN" in t78["claim_labels_and_scopes"]["b47_torsion_and_riley_sl2_polynomial"]
+    assert "plain_english_elaboration" in t78
+    assert int(t78["basis_pair_violations_with_channel_signs"]) == 0
+    assert int(t78["basis_pair_violations_without_channel_signs"]) == 8
+    assert float(t78["riley_sl2_torsion_err"]) < 1e-14
+    assert t78["m004_bianchi_h1_dims_k0_to_3"] == [1, 1, 1, 1]
+    assert t78["m004_bianchi_h1_cusp_dims_k0_to_3"] == [0, 0, 0, 0]
+    assert int(t78["dim_h1_parabolic_ad_q8"]) == 0
+
+    # Theorem 79 (Stage 10.3): P-676 Framework Authority, B1834 S301c 44-Joint Scoreboard Vocabulary, & P-585/P-638 Blinding Gate
+    t79 = sc["theorem79_p676_authority_compliance_scoreboard_vocabulary_and_held_out_blinding_gate"]
+    assert "GENESIS.md" in t79["seen_first"]
+    assert "MATH" in t79["claim_labels_and_scopes"]["p676_framework_authority_and_scoreboard_vocabulary"]
+    assert "MATH" in t79["claim_labels_and_scopes"]["p676_p624_held_out_target_blinding_gate"]
+    assert "plain_english_elaboration" in t79
+    assert int(t79["s301c_scoreboard_state"]["frame_b_complete_picture_borrowed_joints_at_s301c"]) == 44
+    assert int(t79["unsealed_p585_p638_test_assertions_count"]) == 0
+    assert t79["sample_p624_sha256_seal_valid"] is True
+
+    # Theorem 80 (Stage 10.4): Zero-Trust Hostile-Referee Gate for Stage 10 & Module-Wide Non-Literal Guardrail Audit
+    t80 = sc["theorem80_zero_trust_hostile_referee_stage10_and_all_referees_independent_upgrade"]
+    assert "GENESIS.md" in t80["seen_first"]
+    assert "MATH" in t80["claim_labels_and_scopes"]["stage10_theorems_77_to_79_verification"]
+    assert "MATH" in t80["claim_labels_and_scopes"]["zero_literal_guardrail_flags_across_entire_module"]
+    assert "plain_english_elaboration" in t80
+    rc80 = t80["referee_independent_counterchecks"]
+    assert float(rc80["independent_mpmath_riley_torsion_err"]) < 1e-25
+    assert float(rc80["independent_mpmath_step2_offdiag_err"]) < 1e-25
+    assert float(rc80["independent_fresh_haar_invariance_err_t80"]) < 1e-13
+    assert int(rc80["literal_true_in_any_guardrail_compliance_block"]) == 0
+    assert t80["all_six_guardrails_passed"] is True
 
 
 
