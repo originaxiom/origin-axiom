@@ -21634,3 +21634,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   main's answers stay unread until this seat's are saved.
   0 of 19.
 
+## 2026-11-04 — main's measured-world test, repeated independently: the same answers
+
+- **What was done:** this seat redid main's test from its sealed plan, with its own code and its own random draws,
+  without looking at main's answers until its own were saved.
+- **What came out:** the same three verdicts as main and the web seat. The measured world is not unusual among the
+  worlds the theory makes when nothing is forced, with or without the two hand-picked ingredients. But the test
+  cannot tell the two ways of counting apart, and with the quark mixings included the hand-picked version is unusual.
+- **The honest weight:** the test is weak. It would wave through almost any world of the right general kind, so
+  "not unusual" here is not evidence for the theory. One borderline number flips between the three repeats.
+  0 of 19.
+

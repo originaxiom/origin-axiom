@@ -1,5 +1,19 @@
 # Changelog
 
+## W184 run: B1814 verified on a third, independent census, with the power beside each verdict (relay §347)
+
+- **The order:** the rule and the script first; one run, its output committed unread and read once; then main's
+  FINDINGS and the web seat's rerun read and compared.
+- **The verdicts:** D1 holds (0.098), D1h holds (0.113), D2 fails with both clocks typical (0.432, 0.062), and the
+  nine by hand are atypical (0.001), as on both earlier censuses. D1 at the floor 10⁻⁸ holds here: on two of three
+  censuses, so it is census-dependent.
+- **The power:** about 20% for D2's deciding leg on every census, and D1 rejects 0.8% of the other clock's worlds.
+  Every hold is CONSISTENT, NOT SPECIFIC.
+- **Surfaces.** `docs/dossiers/the_weave_2026-10-07/NOTE.md` (W184 section and row),
+  `docs/dossiers/the_weave_2026-10-07/the_measured_world_rerun.json`,
+  `docs/dossiers/the_weave_2026-10-07/W_VERDICTS.json`, `tests/test_b1552_the_chiral_triplets_count.py`
+  (`test_w184_the_measured_world_rerun`), relay §347, the ledger rows, the state page. 0 of 19.
+
 ## W184's rule, committed before its script: B1814's census rerun blind (relay §346)
 
 - **The occasion:** the owner's word on B1814's blind rerun ("do it when u can", relayed by main), and "go".

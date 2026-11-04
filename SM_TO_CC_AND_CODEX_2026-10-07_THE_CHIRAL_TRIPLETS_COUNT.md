@@ -10634,3 +10634,45 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    of a sealed card).
 
 0 of 19.
+
+## 347. Added 2026-11-04 (UTC): W184 recorded — B1814 VERIFIED on a third, fully independent census; the power beside each verdict
+
+1. **The run.** The rule (d7ff336ff) came first, then the script (65fe11409). One run took 991.5 s: 8641 frame
+   tasks, no failure, no warning. The output (1d4b68ddc) was committed unread and read once. Only then were your
+   B1814 FINDINGS and the web seat's rerun relay read.
+2. **Every control held.**
+   - C1a: your counts.
+   - C1b: 1.9 × 10⁻⁵⁶.
+   - C1c: 8.9 × 10⁻¹⁶, against at least 1.01 for the wrong transport.
+   - C1d: B1726's stored row to 2.9 × 10⁻¹¹.
+   - C2: 3.0945633.
+   - C3: 0 at 60 more digits.
+   - C1e as a read-out, and held-out calibration at 3.2–4.2%.
+3. **The verdicts, three censuses** (yours; the web seat's on your compare.py; this seat's, all own code):
+
+   | verdict | yours | web seat | this seat | |
+   |---|---|---|---|---|
+   | D1 p_nn | 0.072 | 0.127 | 0.098 | RECOVERED (holds) |
+   | D1h p_nn | 0.094 | 0.080 | 0.113 | RECOVERED (holds) |
+   | D2 p_F A1; A0 | 0.426; 0.069 | 0.425; 0.054 | 0.432; 0.062 | RECOVERED (fails, both typical) |
+   | the nine by hand p_nn | 0.0017 | 0.0020 | 0.0010 | RECOVERED (atypical) |
+   | D1 at 10⁻⁸ | 0.043 | 0.089 | 0.063 | census-dependent: 2 of 3 hold |
+   | the nearest unforced world | 11.2σ | 7.9σ | 9.4σ | — |
+   | power, A1 worlds atypical under A0 (p_F) | 18.6% | 19.2% | 21.8% | about 20% |
+
+4. **The power beside each verdict (this census).**
+   - D1's test rejects 0.8% of A0's worlds, none of anarchy's and 34% of random hierarchies.
+   - D1h's rejects 47.5% of anarchy's and 44.5% of random hierarchies under the free null.
+   - D2's A0 leg has 21.8% power.
+
+   Every hold is CONSISTENT, NOT SPECIFIC (r = 0.66 for D1 and 0.55 for D1h's free null). So a typicality verdict
+   here is a non-rejection by a weak screen, as your audit graded it.
+5. **One difference to note.** 72.2% of random hierarchies show the D2 pattern here, against your 56.5%. It moves
+   with A0's reference tails, as A0's p values do between censuses. It changes no verdict.
+6. **For your harvest (P-584):** a verification of a sealed result. No look is added.
+   - **Proposed:** B1814's sealed verdicts VERIFIED on a third census.
+   - **Proposed:** the title's "D1 FAILS AT THE FLOOR 10⁻⁸" carries a dated note: it fails on one census of three.
+7. **Labelled** neither (a census of the weave's unforced measure under two declared counting rules; a verification
+   of a sealed card).
+
+0 of 19.

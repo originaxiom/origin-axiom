@@ -7726,6 +7726,110 @@ characteristic pair. Which thread carries them is chat1's design.
 **Status.** COMPUTED (the rule first; one run; four cells as predicted; U5 failed as worded, its cause found post hoc
 and labelled). An exact deliverable for chat1, with no data. 0 of 19.
 
+## W184. B1814's census rerun blind, on this seat's own code: the three verdicts recovered — D1 holds (p_nn 0.098), D1h holds (0.113), D2 fails with both clocks typical (p_F 0.43 and 0.062); the mixings' verdict recovered (the by-hand world atypical on the nine, p_nn 0.001); D1 at the floor 10⁻⁸ holds here (0.063), so on three censuses it holds on two and fails on one; the power stays near 20% (`the_measured_world_rerun.py`; `W184_RULE.md`)
+
+**Why.** At the owner's word, "do it when u can", relayed by main, and "go". Main asked for a blind rerun of B1814's
+census from its sealed card, on this seat's own code, with the power beside each verdict. Main's recognition audit
+graded B1814's typicality cell a screen with about 19% power.
+
+**The order.**
+- The rule (`W184_RULE.md`, d7ff336ff) was committed and pushed before the script.
+  - The card's class counts were checked first, data-free.
+  - So were two covariance checks (residuals only).
+- The script (65fe11409) was committed before its run. A timing call and a synthetic dry run with stubbed data, both
+  after the rule's push, are disclosed in its docstring.
+- **One run**, 991.5 s on four workers, 8641 frame tasks, exit 0, no warnings, no failed task. Its output (1d4b68ddc)
+  was committed unread, then read once.
+- Only then were main's B1814 FINDINGS and the web seat's rerun relay read.
+
+**The census (this seat's own code and seeds).**
+- Both clocks were enumerated here, and the card's counts match: 8 798, 2 536, and 29, 60, 96, 151 and 14 690.
+- The draws:
+  - weighted by length, the point uniform in arclength, reduced exactly;
+  - each thread's own lines by brute force, transported by γ⁻¹;
+  - W178's exact frame with the record's residue cut.
+- 4 000 draws per arm. 44 A1 draws were capped above Im τ 60, against main's 41.
+- Resolved: A0 3 592, A1 3 035 and A1 by hand 2 986, against main's 3 585, 3 060 and 3 023.
+- The move clock's height P(Im τ > 3) is 0.035, against B1813's limit 0.0346.
+
+**The controls (C held).**
+- C1a holds: the counts above.
+- C1b holds: the reduction is exact to 1.9 × 10⁻⁵⁶.
+- C1c holds: the transport and radius law to 8.9 × 10⁻¹⁶. The wrong transport gives at least 1.01.
+- C1d holds: B1726's stored row at (0.35 + 3.05i, line 149) is reproduced to 2.9 × 10⁻¹¹.
+- C2 holds: 3.0945633.
+- C3 holds: 153 draws at 60 more digits differ by 0.
+- C1e holds as a read-out: no ratio above 10⁻¹² at Im τ 60.
+- The held-out calibration is 3.2–4.2% at p ≤ 0.05.
+
+**The comparison: three censuses** (main's sealed census; the web seat's rerun on main's compare.py; this seat's, all
+own code).
+
+| verdict or number | main (B1814) | the web seat | this seat (W184) | |
+|---|---|---|---|---|
+| D1: p_nn, A1 unforced | 0.072, holds | 0.127, holds | 0.098, holds | RECOVERED |
+| D1h: p_nn, A1 by hand | 0.094, holds | 0.080, holds | 0.113, holds | RECOVERED |
+| D2: p_F A1; p_F A0 | 0.426; 0.069, fails | 0.425; 0.054, fails | 0.432; 0.062, fails (both typical) | RECOVERED |
+| the mixings: the nine by hand, p_nn | 0.0017 | 0.0020 | 0.0010 | RECOVERED (atypical) |
+| the nine unforced, p_nn | 0.085 | 0.079 | 0.223 | same side |
+| D1 at the floor 10⁻⁸ | 0.043, fails | 0.089, holds | 0.063, holds | census-dependent: 2 of 3 hold |
+| D2 at 10⁻⁸: p_F A0 | 0.054 | 0.051 | 0.055 | fails on all three |
+| the nearest unforced world | 11.2σ | 7.9σ | 9.4σ | — |
+| A0 unforced: p_nn, p_F | 0.034, 0.069 | 0.017, 0.054 | 0.020, 0.062 | same side |
+| r, D1 | 0.73 | — | 0.66 | CONSISTENT, NOT SPECIFIC |
+| r, D1h (the free null) | 0.45 | 0.61 | 0.55 | CONSISTENT, NOT SPECIFIC |
+| random hierarchies with the D2 pattern | 56.5% | — | 72.2% | — |
+| power: A1 worlds atypical under A0 (p_F) | 18.6% | 19.2% | 21.8% | about 20% |
+| power: A0 worlds atypical under A1 (p_F; p_nn) | 0.4%; 1.6% | — | 1.8%; 0.8% | near none |
+
+**The power beside each verdict (this census).**
+- **D1** (p_nn under A1, unforced):
+  - it rejects 0.8% of A0's worlds and none of anarchy's;
+  - it rejects 34% of random hierarchies.
+
+  So D1 holding says almost nothing. Anarchy's O(1) ratios sit among A1's many shallow worlds.
+- **D1h** (by hand): it rejects 0.8% of A0's worlds, 47.5% of anarchy's, and 44.5% of random hierarchies under the
+  free null (90.7% at the fixed configuration).
+- **D2:**
+  - the A0 leg calls 21.8% of A1's own worlds atypical, so a world truly from the critical clock fails D2 about 78% of
+    the time;
+  - A1 calls 1.8% of A0's worlds atypical;
+  - anarchy is atypical under A1 at 12.4%, and under A0 at 6.3%.
+
+  So D2 could not have decided the clock on any of the three censuses.
+
+**Other read-outs.**
+- **Unconditioned:** A1 p_nn 0.23 and p_F 0.78; A0 p_nn 0.036 and p_F 0.115.
+- **Anarchy as the model:** p = 0, by this seat's estimator; main's floors at 1/4 000.
+- **The floors:**
+  - at 10⁻¹⁶, D1 is 0.113 and D1h 0.129;
+  - at 10⁻⁸, D1 is 0.063 and D1h 0.085.
+- **Resolution:** D1h's q95 (8.2σ) is finer than the lepton shift log 3/s6 = 11.0σ. But D1's q95 (12.8σ) is coarser
+  than the shift, so, as main found, nothing about c follows from comparing D1 with D1h.
+
+**What it shows (a READING on the computed facts).**
+- **B1814's sealed verdicts stand on a third, fully independent census.** D1 holds, D1h holds and D2 fails with both
+  clocks typical. The mixings make the by-hand world atypical. Each lands on the same side of its line on all three
+  censuses.
+- **The one census-dependent number is D1 at the floor 10⁻⁸.** It reads 0.043, 0.089 and 0.063. Two of three hold, and
+  all three sit within 0.04 of the line. The floor's failure in B1814's title is its census's, as the web seat found.
+- **The power is the finding.**
+  - D1's test rejects almost nothing: 0.8% of the other clock's worlds and none of anarchy's.
+  - D2's deciding leg has about 20% power on every census.
+  - A typicality verdict here is a non-rejection by a weak screen, as main's audit said. It is not evidence for the
+    weave's measure.
+- **Where the censuses differ beyond chance:** the share of random hierarchies with the D2 pattern, 56.5% against
+  72.2%. It moves with A0's reference tails, as the A0 p's do (by factors of 2–3 between censuses, as the web seat
+  noted). It changes no verdict.
+
+**Weave or thread.** neither (a census of the weave's unforced measure under two declared counting rules, through
+B1656's frame, verifying a sealed card). The threads are every class of each clock, none picked.
+
+**For the look ledger:** none added. Per main's rule, a verification of a sealed result is not a new look.
+
+**Status.** COMPUTED (the rule first; one run; every control held; the card's three cells as B1814 found them, read
+after this seat's output was committed). B1814 VERIFIED on a third census, with the power stated. 0 of 19.
+
 ## W183. The kernel's Laurent constant as the Higgs's singlet (RI-1; main's P-566, Q1): the parity is the object's own, but at τ = i the identification lifts nature's corner order only from 8% to 14% (O4 and O6 failed), its phase is not special, and the even singlet does nothing. Under the bare singlet four order-9 lines put D in the data's window (O8 failed), with the split all in the first generation (r₂ ≈ 1), not the Georgi–Jarlskog shape (`the_laurent_singlet.py`; `W183_RULE.md`)
 
 **Why.** At the owner's "yes please" to item 1 of §343: RI-1 of the retrieval sweep. The web seat proved the identity
@@ -15663,6 +15767,7 @@ is building: an end on the weave's own action that gaps the cusp.
 | W94 | COMPUTED (the rule first, with a pre-run correction; one run; L1 and L2 as predicted; L3 failed as worded); a fibre-frame result at one τ, a frozen piece | the order-3-symmetric null Higgs at ω: k_lep = 2 exactly (S₀) or ½ (S̄₀) on every line; quark k ∈ {0.775, 0.828, 1.174} in a 3-cycle; (m_μ/m_τ)/(m_s/m_b) predicted 2.58, 2.42, 1.70 against 3.14 ± 0.27 (z = 1.49 and 1.99 with a = 0.10; 2.26 and 3.02 without); the up sector not described. A candidate relation, not a derivation. 0 of 19 |
 | W96 | COMPUTED (the rule first; one run; every cell as predicted; blind to main's output, not to its preregistration); identities of the frame, and a frozen piece at ω | main's B1659 on this seat's own code: J1 det Y = 4 det S det M tr(εSMᵀ) and J2 adj Y = det S·A(M) + det M·P A(S) exact (sympy), J2b, J2c, the corollaries (geometric at N = S to 10⁻¹⁴), the sector matter at ω under P4′ (all null, J1 and J2 to 10⁻⁴¹), and three controls that bite |
 | W97 | COMPUTED (the rule first; one run; every cell as predicted; blind to chat1's output); a thread-frame check on a stated set | chat1's sealed low-thread comparison, per-field C1, the Standard Model, all 90 T-low configurations: the enumeration identical, closure 2.6 × 10⁻³⁸, convergence 5 × 10⁻³⁰, no zero mass; after both outputs, chat1's singular values reproduced to 3.6 × 10⁻¹⁵ on 270 values (56 on another rotation); no S-mass pass in C1 |
+| W184 | COMPUTED (the rule first; one run; every control held; B1814's three cells recovered, read after this seat's output was committed); a census of the weave's unforced measure under two declared counting rules, a verification of a sealed card | B1814's census rerun blind on this seat's own code and seeds: the clocks enumerated here (the card's counts match), the exact frame with the record's cut; D1 holds (p_nn 0.098), D1h holds (0.113), D2 fails with both clocks typical (p_F 0.43, 0.062), the nine by hand atypical (0.001), as on main's census and the web seat's; D1 at the floor 10⁻⁸ holds here (0.063): two of three censuses hold, census-dependent; the power about 20% for D2's A0 leg, and D1 rejects 0.8% of A0's worlds and none of anarchy's; every hold CONSISTENT, NOT SPECIFIC |
 | W183 | COMPUTED (the rule first; one run; O0–O3, O5 and O7 as predicted; O4, O6 and O8 failed); a frame census over every census line with an identity kernel, at τ = i, under one fixed definition | RI-1, main's P-566 Q1: the identity kernel's Laurent constant a₀ as the Higgs's singlet, read alike by every sector: the parity a₀(up) = −a₀(down) = −a₀(lepton) holds on this seat's code to 10⁻⁶⁰ (O1), and a₀ = 0 on the 15 half-period lines; at τ = i the joint coarse fact (nature's corner order and ∣V_ud∣ > 0.9) rises from 8% to 14% under the natural and the bare sizes (O4, O6 failed: 10 points predicted); a₀'s phase inside the twelve fixed phases' 0–16% (O5); the even singlet does nothing (O3); no point at τ = i is hierarchical; under the bare singlet (4/9, 1/3) and (4/9, 4/9) and their mirrors give D = 10.27 and 10.39 in the window (O8 failed), with r₂ ≈ 1, the split in the first generation only: a sealed target; no Georgi–Jarlskog shape (O7) |
 | W182 | COMPUTED (the rule first; one run; C0, C1, C3 and C4 as predicted; C2 failed as worded on the rule's hand expectation); a frame census over the centre lines P-567 names | main's P-567, Q1 in B1656's frame at c = 1, on the 90 lines (2/5 + j/3, k/30): the 10 census lines tie the record (C0); order 5 ties everywhere and every new line splits at τ = i (C1); at the cusp the 60 new lines with a = 1/15, 11/15 run, but the 20 with a = 2/5 tie (C2 failed: only a reaches the cusp exponents); no Georgi–Jarlskog shape within 1.25 of (1/3, 3) (C3; nearest (0.559, 1.887)); no D in the window (C4; at τ = i 42 values, 0.117–4.95); single factors near 1/3 or 3 occur, never the pattern: no centre line gives the 3 |
 | W181 | COMPUTED (the rule first; one run; every cell as predicted; one labelled post hoc); a frame census over every census line with an integer-λ kernel, in the exact norms | B1656's frame with W177's exact norms and only their linear part B_s Im τ moved to a scale Y: the limit in Im τ at fixed Y (reached to 10⁻¹³), then in Y^{−1/2} by Neville's extrapolation (to 2 × 10⁻⁹); all 62 agreeing pairs accepted, 17 distinct D∞, none within 3σ (K7); nearest (0, 2/7) at 11.345, 7σ above; the G2 lines 6.3138 (K8), post hoc cot(π/20); 24 ties; only (0, 1/6) depends on Re τ; post hoc, every r∞ but (0, 1/6)'s a cosine ratio of the line's order or ¼; with W179 all 110 finite cusp pairs determined, no cusp D in the window on any census line |

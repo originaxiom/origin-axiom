@@ -5847,6 +5847,53 @@ def test_w183_the_laurent_singlet():
     assert not math.isnan(d["seconds"])
 
 
+def test_w184_the_measured_world_rerun():
+    """W184: B1814's census rerun blind on own code: every control held, D1 and D1h hold, D2 fails with both clocks
+    typical, the nine by hand atypical; in process, the trace-bounded class count and the Smith rule for one thread"""
+    import math
+    here = ROOT / "docs" / "dossiers" / "the_weave_2026-10-07"
+    d = json.loads((here / "the_measured_world_rerun.json").read_text(encoding="utf-8"))
+    assert d["cells"] == {"D1": True, "D1h": True, "D2": False, "C": True}
+    assert d["tasks"] == 8641 and d["failed tasks"] == [] and d["warnings"] == [] and "run_failed" not in d
+    assert d["C1a"]["A1 by trace <= 12, 18, 24, 30, 400"] == [29, 60, 96, 151, 14690] and d["C1a"]["A0"] == 8798
+    assert d["C2"]["holds"] and abs(d["C2"]["value"] - 3.0945633) < 1e-6 and d["C1d"]["max |log| deviation"] < 1e-9
+    assert 0.05 < d["D1"]["p_nn"] < 0.15 and 0.05 < d["D1h"]["p_nn"] < 0.15
+    assert d["D2"]["p_F A1"] > 0.05 and d["D2"]["p_F A0"] > 0.05
+    assert d["read-outs"]["the nine"]["A1 byhand"]["p_nn"] < 0.01
+    assert d["read-outs"]["floors"]["1e-08"]["A1 unforced"]["p_nn"] > 0.05
+    assert 0.1 < d["power"]["D2 (p_F)"]["A1 worlds under A0"] < 0.3
+    L, R = (1, 0, 1, 1), (1, 1, 0, 1)
+
+    def mul(A, B):
+        return (A[0] * B[0] + A[1] * B[2], A[0] * B[1] + A[1] * B[3], A[2] * B[0] + A[3] * B[2],
+                A[2] * B[1] + A[3] * B[3])
+    count = [0]
+
+    def rec(w, M, p, hasR, T):
+        n = len(w)
+        if hasR and p == n:
+            count[0] += 1
+        for x in (0, 1):
+            if x < w[n - p]:
+                continue
+            M2 = mul(M, R if x else L)
+            h2 = hasR or x == 1
+            if (h2 and M2[0] + M2[3] > T) or (not h2 and n + 3 > T):
+                continue
+            w.append(x)
+            rec(w, M2, p if x == w[n - p] else n + 1, h2, T)
+            w.pop()
+    rec([0], L, 1, False, 30)
+    assert count[0] == 151
+    A = mul(mul(L, L), R)                          # LLR, trace 4: fixed lines up to sign of order N iff N | 2 or N | 6
+    a, b, c, dd = A
+    orders = sorted({N for N in range(1, 13) for i in range(N) for j in range(N) if math.gcd(math.gcd(i, j), N) == 1
+                     and ((i * a + j * c) % N, (i * b + j * dd) % N) in ((i, j), ((-i) % N, (-j) % N))})
+    assert orders == [1, 2, 3, 6]
+    note = (here / "NOTE.md").read_text(encoding="utf-8")
+    assert "## W184. B1814's census rerun blind, on this seat's own code" in note
+
+
 def test_the_retrieval_sweep_keeps_its_open_list():
     """The owner's question of 2026-11-03 ('so we dont forget again'): the sweep's open list RI-1 to RI-8 stays on the
     page, every row with a status, and the standing rule stays in WORKING_RULES.md. A row may change status when an arc
