@@ -1,0 +1,5 @@
+order 2 (6 line-points): (1) M_nu∝M_e holds, max dev 3.0e-15 ; (2) M_nu∝M_u, M_e∝M_d holds, max dev 5.9e-15 ; (3) |U_PMNS| = |V_CKM^†| holds, max dev 5.2e-13
+order 3 (16 line-points): (1) M_nu∝M_e holds, max dev 8.5e-15 ; (2) M_nu∝M_u, M_e∝M_d breaks as it should, min dev 0.09 ; (3) |U_PMNS| = |V_CKM^†| n/a
+order 4 (24 line-points): (1) M_nu∝M_e breaks as it should, min dev 0.18 ; (2) M_nu∝M_u, M_e∝M_d holds, max dev 4.8e-15 ; (3) |U_PMNS| = |V_CKM^†| holds, max dev 1.9e-12
+order 5 (48 line-points): (1) M_nu∝M_e breaks as it should, min dev 0.10 ; (2) M_nu∝M_u, M_e∝M_d breaks as it should, min dev 0.10 ; (3) |U_PMNS| = |V_CKM^†| n/a
+order 6 (48 line-points): (1) M_nu∝M_e holds, max dev 1.1e-14 ; (2) M_nu∝M_u, M_e∝M_d breaks as it should, min dev 0.09 ; (3) |U_PMNS| = |V_CKM^†| n/a

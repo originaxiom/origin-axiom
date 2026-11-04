@@ -18374,3 +18374,10 @@ register gate: direction leads age at 21 days, a host cannot close over an open 
 declined within a week, and every run lists the owner's open calls (phased in to 2026-11-25 for the existing rows).
 agy's slope selection is declined (it would spend the held-out target and stay borrowed); PF1-W is scoped off the current
 frame; L178, L86 and L87 are retired; L248 § 8, the arithmetic atom across the family, is kept with a first step. 0 of 19.
+
+## 2026-11-04 — S300f: the PMNS card's instrument and controls (B1835)
+
+The card's instrument is B1726's own computation returning its matrices, with the neutrino added; the U_e control passes
+through it. Three structural relations re-derived from the frame's charge rule hold exactly where they should and fail
+elsewhere — on the order-2 and order-4 lines the frame gives ∣U_PMNS∣ = ∣V_CKM†∣ — and serve as the card's positive
+controls. The card itself waits on the owner's two calls (P-665). 0 of 19.

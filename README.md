@@ -24,7 +24,7 @@ nothing in this block is typed by hand.*
 | arcs with a verdict | 1539: 1050 PROVED, 382 NEGATIVE, 95 OPEN, 12 RETRACTED |
 | points in the register | 667: 292 open (queued, leads, waiting for the owner), 375 closed |
 | the last review | Review 74 (2026-11-04), anchor `41420ae14` |
-| the last landing | S300e THE OWNER RULES ALL OF MAIN'S RECOMMENDATIONS ("i aprove all your recomendations"): THE BRAINSTORM RULES ADOPTED AND GATED; THE SLOPE SELECTION… |
+| the last landing | S300f B1835: THE CARD'S INSTRUMENT AND ITS CONTROLS — U_e THROUGH B1726's OWN PATH; THE FRAME'S QUARK–LEPTON RELATION ∣U_PMNS∣ = ∣V_CKM†∣ ON THE ORDE… |
 <!-- STATE:END -->
 
 ## Start here

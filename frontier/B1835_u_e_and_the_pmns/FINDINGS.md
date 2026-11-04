@@ -13,8 +13,29 @@ second?
 B1728's order-5 law Y_e = Y_dᵀ implies U_e^L = conj(U_d^R) up to a phase per column. On all 24 order-5 lines, at two τ,
 two seeds and two radii (a₀ = 0, the down and lepton reading S): Y_e = c·Y_dᵀ to ≤ 7 × 10⁻¹⁵ and U_e^L = conj(U_d^R) to
 ≤ 9 × 10⁻¹⁶. On the order-10 lines (2/5, odd/10), where no such law is claimed, the same comparison differs by 0.33–0.40
-(the negative control). `verification/control_ue_order5.py`, `_run.txt`. It ran through B1827's module. The card's own
-instrument, B1726's compute(), must repeat it.
+(the negative control). `verification/control_ue_order5.py`, `_run.txt`, through B1827's module.
+
+**Repeated through the card's own instrument** (`verification/card_instrument.py`: B1726's compute() Yukawa construction line
+for line, with its DR direction, its readings and its radius column, returning the matrices; it reproduces compute()'s
+outputs exactly, difference 0.0). On the 24 order-5 lines, at two τ and both horocycles, Y_e = c·Y_dᵀ to ≤ 7 × 10⁻¹⁵ and
+U_e^L = conj(U_d^R) to ≤ 1.1 × 10⁻¹⁵. On the order-10 lines the deviation is 0.06–0.12: smaller than with a random Higgs,
+since DR is fixed, and clearly nonzero. `verification/control_via_b1726.py`, `_run.txt`.
+
+## 1b. The planted relations (re-derived by main from B1728's charge-shift law; verified, two-sided)
+
+A charge shift by a multiple of the line's order N changes a sector's matrices only by a phase. The neutrino (−3, 0) and
+the electron (−3, 6) differ by 6 in the right charge; the neutrino and the up quark (1, −4) differ by 4 in both; so do the
+electron and the down quark (1, 2). Hence:
+
+- M_ν ∝ M_e on every line whose order divides 6 (holds on the orders 2, 3, 6 to ≤ 1.1 × 10⁻¹⁴; breaks on 4 and 5 by
+  ≥ 0.10);
+- M_ν ∝ M_u and M_e ∝ M_d on every line whose order divides 4 (holds on the orders 2, 4 to ≤ 6 × 10⁻¹⁵; breaks on 3, 5
+  and 6 by ≥ 0.09);
+- so, with the neutrino read like the up quark (I-35), ∣U_PMNS∣ = ∣V_CKM†∣ on the order-2 and order-4 lines (to ≤ 2 ×
+  10⁻¹²) — the frame's quark–lepton relation there.
+
+`verification/planted_relations.py`, `_run.txt`. The candidate's address lies on order-10 lines, where none of these
+holds, so they are positive controls for the card's extraction, not predictions at the address.
 
 ## 2. The design (a reader's draft in the audit room; main verified what is stated here)
 
@@ -57,10 +78,8 @@ instrument, B1726's compute(), must repeat it.
 
 ## 3. Next
 
-1. Repeat the control through B1726's compute().
-2. Re-derive the draft's planted relations on main: M_ν ∝ M_e on lines of order dividing 6; M_ν ∝ M_u on order dividing
-   4; U_PMNS = V_CKM† on order-4 lines under I-35.
-3. After the owner's D2 and D11: write the card, compute r (and, if D2 allows, the angles) unread with a hash pin, then
+1. (done) The control through B1726's compute(); the planted relations re-derived and verified (§ 1b).
+2. After the owner's D2 and D11: write the card, compute r (and, if D2 allows, the angles) unread with a hash pin, then
    run the budget and the matched null, seal, and compare.
 
 ## Seen first

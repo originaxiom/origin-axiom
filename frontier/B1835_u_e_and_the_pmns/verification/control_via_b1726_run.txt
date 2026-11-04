@@ -1,0 +1,5 @@
+the wrapper against compute(): max |ratio difference| = 0.0e+00
+tau 0.31+2.90i L_max: order-5 max|Y_e - c Y_d^T| = 5.6e-15, max(1 - |<U_e^L, conj U_d^R>|) = 5.6e-16; order-10 control min = 0.07
+tau 0.31+2.90i L_2: order-5 max|Y_e - c Y_d^T| = 1.8e-15, max(1 - |<U_e^L, conj U_d^R>|) = 6.7e-16; order-10 control min = 0.12
+tau 0.12+3.20i L_max: order-5 max|Y_e - c Y_d^T| = 7.2e-15, max(1 - |<U_e^L, conj U_d^R>|) = 1.1e-15; order-10 control min = 0.06
+tau 0.12+3.20i L_2: order-5 max|Y_e - c Y_d^T| = 6.1e-15, max(1 - |<U_e^L, conj U_d^R>|) = 1.1e-15; order-10 control min = 0.10
