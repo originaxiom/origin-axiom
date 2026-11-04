@@ -1616,6 +1616,83 @@ def test_five_phase_master_toe_closure():
     assert float(rc70["max_precision_err_stage8"]) < 1e-13
     assert t70["all_six_guardrails_passed"] is True
 
+    # Theorem 71 (Stage 9.1): Rebuttal of All 7 Wrongful/Stale Refutations & Exact Theorem 21 All-Orders Transpose Reflection Law
+    t71 = sc["theorem71_rebuttal_of_seven_wrongful_or_stale_refutations_and_t21_all_orders_determinant_law"]
+    assert "B1832_the_agy_lanes_digested" in t71["seen_first"]
+    assert "FORCED" in t71["claim_labels_and_scopes"]["t21_all_orders_transpose_reflection_and_sigma10_even_law"]
+    assert "FORCED" in t71["claim_labels_and_scopes"]["rebuttal_of_all_seven_wrongful_or_stale_refutations"]
+    assert "plain_english_elaboration" in t71
+    assert float(t71["residue_reflection_err"]) < 1e-13
+    assert float(t71["max_transpose_reflection_err"]) < 1e-12
+    assert float(t71["max_reflected_sv_err"]) < 1e-12
+    assert float(t71["max_reflected_det_err"]) < 1e-12
+    assert float(t71["max_qi_free_all_orders_err"]) < 1e-12
+    assert float(t71["max_sigma10_even_product_err"]) < 1e-12
+    assert int(t71["seven_rebuttals_count"]) == 7
+
+    # Theorem 72 (Stage 9.2): chat1 S300f Doublet Index Projective Reading-Distance & Non-Holomorphic Conjugate I-35 Survival
+    t72 = sc["theorem72_chat1_doublet_index_reading_distance_and_nonholomorphic_conjugate_i35"]
+    assert "B1790_the_reading_not_derived_in_the_frame" in t72["seen_first"]
+    assert "FORCED" in t72["claim_labels_and_scopes"]["chat1_projective_reading_distance_identity"]
+    assert "FORCED" in t72["claim_labels_and_scopes"]["nonholomorphic_conjugate_higgs_i35_survival"]
+    assert "plain_english_elaboration" in t72
+    assert float(t72["unit_orth_err"]) < 1e-15
+    assert float(t72["pseudoreal_err"]) < 1e-15
+    assert float(t72["max_reading_distance_err"]) < 1e-13
+    assert abs(float(t72["holomorphic_twist_flip_shift"]) - 0.40) < 1e-15
+    assert float(t72["rho_f10_at_tau_star"]) < 0.04
+    assert float(t72["reading_separation_fraction_f10"]) > 0.97
+    assert float(t72["nonholomorphic_conjugate_n_invariance_err"]) == 0.0
+
+    # Theorem 73 (Stage 9.3): chat1 S300f Density Higgs Closed-Form Area Integral & Cauchy-Pompeiu Proof
+    t73 = sc["theorem73_chat1_density_higgs_exact_area_integral_eliminating_puncture_cut"]
+    assert "B1651_where_a_higgs_can_couple" in t73["seen_first"]
+    assert "FORCED" in t73["claim_labels_and_scopes"]["dolbeault_cauchy_pompeiu_density_higgs_integral"]
+    assert "FORCED" in t73["claim_labels_and_scopes"]["cut_free_2d_area_integration_without_disk_excision"]
+    assert "plain_english_elaboration" in t73
+    assert int(t73["quadrature_nodes_per_axis"]) == 48
+    assert int(t73["channels_and_modes_verified"]) == 12
+    assert float(t73["max_density_integral_rel_err"]) < 1e-13
+    assert t73["requires_punctured_disk_cutoff"] is False
+
+    # Theorem 74 (Stage 9.4): physical-bridge 646492da1 Fredholm Index Cancellation & Quaternionic SU(2)_L Weak Chirality
+    t74 = sc["theorem74_physical_bridge_dolbeault_fredholm_index_and_quaternionic_weak_chirality"]
+    assert "B1651_where_a_higgs_can_couple" in t74["seen_first"]
+    assert "FORCED" in t74["claim_labels_and_scopes"]["physical_bridge_dolbeault_fredholm_index_zero"]
+    assert "FORCED" in t74["claim_labels_and_scopes"]["quaternionic_su2L_weak_chirality_completion"]
+    assert "plain_english_elaboration" in t74
+    assert float(t74["fredholm_index_cancellation_err"]) == 0.0
+    assert int(t74["old_parent_control_at_beta1"]) == 1
+    assert abs(float(t74["su2L_casimir_left"]) - 0.75) < 1e-15
+    assert float(t74["su2L_casimir_right"]) == 0.0
+    assert abs(float(t74["weak_chiral_asymmetry"]) - 1.0) < 1e-15
+
+    # Theorem 75 (Stage 9.5): origin/main S300d P-666 Serre Derivative DR vs F_10 Null-Cone Unification
+    t75 = sc["theorem75_s300d_p666_serre_derivative_dr_and_f10_null_cone_unification"]
+    assert "B1691_the_exponents_at_the_two_fixed_points" in t75["seen_first"]
+    assert "FORCED" in t75["claim_labels_and_scopes"]["jacobi_null_cone_perturbation_law_dr_and_f10"]
+    assert "FORCED" in t75["claim_labels_and_scopes"]["dr_and_f10_shared_half_lift_covariance"]
+    assert "plain_english_elaboration" in t75
+    assert float(t75["r_null_err"]) < 1e-25
+    assert float(t75["dr_dot_dr_err"]) < 1e-14
+    assert float(t75["rho_dr_at_tau_star"]) < 0.04
+    assert float(t75["rho_f10_at_tau_star"]) < 0.04
+    assert float(t75["dr_half_lift_err"]) < 1e-12
+    assert float(t75["f10_half_lift_err"]) < 1e-12
+
+    # Theorem 76 (Stage 9.6): Zero-Trust Hostile-Referee Gate for Theorems 71-75 & Cross-Seat Synthesis
+    t76 = sc["theorem76_zero_trust_hostile_referee_stage9_cross_seat_synthesis_gate"]
+    assert "B1832_the_agy_lanes_digested" in t76["seen_first"]
+    assert "FORCED" in t76["claim_labels_and_scopes"]["stage9_theorems_71_to_75_verification"]
+    assert "FORCED" in t76["claim_labels_and_scopes"]["cross_seat_synthesis_and_rebuttal_gate"]
+    assert "plain_english_elaboration" in t76
+    rc76 = t76["referee_independent_counterchecks"]
+    assert float(rc76["independent_mpmath_reading_dist_err"]) < 1e-25
+    assert float(rc76["independent_fresh_haar_invariance_err_t76"]) < 1e-12
+    assert float(rc76["max_precision_err_stage9"]) < 1e-12
+    assert t76["all_six_guardrails_passed"] is True
+
+
 
 
 
