@@ -1353,6 +1353,29 @@ is marked paid. The full registered physical bundle and end law remain
 the constructive priority, retaining the inverse-character route rather
 than extending a rank-one failure into an architectural exclusion.
 
+## November 4 transport and end checkpoint
+
+The owner approved systematic work on global transport and the stationary
+fields/end law. The [committed work order](TRANSPORT_AND_END_WORK_ORDER_2026_11_03.md)
+is followed by [the full E8 lift](FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md),
+[stationary gluing and cusp analysis](COUPLED_QUATERNION_STATIONARY_BUNDLE_AND_CUSP_LAW.md)
+and [the Pin2 coherence correction](PIN2_COMPENSATOR_COHERENCE_AND_ELECTROMAGNETIC_PHASE.md).
+These authored hand proofs retain every E8 sector, expose the extra bare
+Spin10 lift sign, construct a complementary electromagnetic correction,
+and conditionally constrain its angle. They also derive a free radial
+centralizer channel for the quaternion complete-cusp candidate, with a
+commuting-rotation control of different peripheral transport. The
+[dependency card](REDUCTION_CARD_05_COMPENSATOR_PHASE_AND_END_PRICE.md)
+prices the supplied parent, field assignment, state, spin and geometry.
+
+The prospective eight-control design was written before implementation.
+All new proofs remain UNREVIEWED and no new scientific source was
+imported, collected or run. The geometric E/spin lift, physical end
+mechanism, complete spectrum and source-complete review/admission remain
+open. Steps 2/3 and the full SM3/gravity goal remain active. A sender-branch
+relay requests scrutiny of this exact new scope and preserves the old
+scientific packages and their separate status.
+
 ## Core mission adopted October 19 (preserved session wording)
 
 The owner's active session goal now reads:
