@@ -1,14 +1,18 @@
-# THE DOUBLET INDEX (A DATA-FREE DESIGN STUDY): A HIGGS READ AT EACH SECTOR'S OWN TWIST CAN GIVE THE SPLIT READING ONLY BY GIVING EACH LINE'S NEGATIVE THE GLOBAL FLIP, WHICH IS PHYSICAL (B1790), SO WHILE w → −w IS A RELABELLING THAT ROUTE IS EXCLUDED; THE TWO READINGS DIFFER BY 2‖S‖²(1 − ρ), ρ = ∣det S∣/‖S‖², FARTHEST APART FOR THE NULL HIGGS THAT MAKES THE HIERARCHY; A DERIVATION BY ANY ROUTE WOULD EARN I-35, NOT EXTRA BITS
+# THE DOUBLET INDEX (A DATA-FREE DESIGN STUDY): A HIGGS READ AT EACH SECTOR'S OWN TWIST GIVES EACH LINE'S NEGATIVE THE GLOBAL FLIP OF ITS READING, AND FOR THE CANDIDATE'S READING THE FLIP CHANGES THE LEADING EXPONENTS ON 2/5, SO WHILE w → −w IS A RELABELLING NO SUCH HIGGS GIVES THE CANDIDATE'S READING (EXCLUDED; FOR OTHER SPLITS, GENERICALLY); THE STANDARD MODEL'S OWN MECHANISM, ONE FIELD AND ITS CONJUGATE, IS NOT REACHED; THE TWO READINGS DIFFER BY 2‖S‖²(1 − ρ), ρ = ∣det S∣/‖S‖²; A DERIVATION BY ANY ROUTE WOULD EARN I-35, NOT EXTRA BITS
 
 **From:** the web seat (chat1), 2026-11-04. **To:** cc (main).
 **On:** the owner's go-ahead for the design study proposed after THE STEEPNESS MAP ("fetch other branches first and then
 do it"): what an electroweak doublet index in B1656's frame would need, and whether anything native could fix the reading
 (B1834's A05).
-**Kind:** data-free. No measured value is read. The arguments are exact given the results cited; the check re-verifies
-their inputs on main's code.
+**Kind:** data-free. No measured value is read.
+- § 2's proposition and § 4's identity are exact.
+- The grade is exact for the candidate's reading, at leading order and given B1788's hypotheses. For other splits it is
+  generic (§ 2).
+- The checks re-verify the inputs on main's code.
 **Checks:** `relays/chat1_2026-11-04_doublet/doublet_index_check.py` (2b636e652), run once against main at ac987e34b,
 output in 65a58d2c3 (exit 0, empty stderr). A smoke run of a reduced copy preceded the commit, outside the tree. The
-referee's rerun is byte-identical.
+referee's rerun is byte-identical. POST HOC, after the second referee: `flip_slopes_posthoc.py` (7e1a79593 →
+cb2d04eba).
 
 **Sweep** (at ac987e34b): `VERDICT topic-sweep /doublet index|reading rule|conjugate Higgs|Higgs.s own twist|own
 hypercharge twist|non-point|overlap coupling|fibre integral|fiber integral|Hermitian pairing|antiholomorphic Higgs|elliptic
@@ -20,7 +24,8 @@ OPEN 3, PROVED 38); 19 register rows match (DONE 12, QUEUED 7)`. Bearing on it:
 - **B1728 Step 3:** negating both twists leaves the residues, M and Y unchanged and sends a₀ → −a₀ (PROVED).
 - **B1744:** the Higgs at its own twist, T0(z) = T0(−z), is even. Its § 1 writes the pairing "Q u H; Q d H̃ and L e H̃".
   Forcing the reading "would need a different frame (a triple overlap of three twisted sections, magnetised-torus style)".
-- **B1651:** couplings sit at points only; the puncture is a choice.
+- **B1651:** no flat or harmonic Higgs couples the zero modes in the bulk. A point or density Higgs is not forced to the
+  puncture; a (0, 1) Higgs is (its Szegő addendum; B1655's scope).
 - **B1739, B1740, B1658, B1660:** the Higgs is nearly null; for a < 0 the F_a are nearly real and lose the hierarchy;
   m₂/m₃ = k_s∣d_S∣; and ∣det S∣/‖S‖² as a read-out.
 - **P-394's row-1431 note:** "the direction left: a coupling odd in 3w".
@@ -75,13 +80,22 @@ flip of the reading at w.
 - At −w the matter is the same (B1728). Up reads H(−3w) ≅ S̃, and down and leptons read H(3w) = S. So at −w the
   reading is (S̃, S, S) in the same S. ∎
 
-**So, while N is a relabelling, the route is EXCLUDED.**
-- B1790 § 2 shows the global flip is physical: the eight assignments are distinct, with same-point differences of
-  0.074–7.7 in ln.
-- So a Higgs in the class gives different physics at w and −w, unless S̃ ≅ S. That is ρ = 1 (§ 4), where the two
-  readings coincide and there is nothing to derive.
-- **EXCLUDED, for the class "one Higgs section read at each sector's own twist, giving the split reading", in FR-FIB as
-  ruled** (P-626's relabelling, the coupling at the puncture).
+**So, while N is a relabelling, no such Higgs gives the candidate's reading.**
+- **For the candidate's own reading the flip changes the leading exponents on 2/5**, given B1788's hypotheses ((c) for
+  m₁/m₃; up's ½ and 4/5 confirmed at 40 digits, B1790 § 3).
+  - (S̃, S, S) gives the m₁/m₃ exponents up 4/5, down and leptons 11/20.
+  - The flip (S, S̃, S̃) gives up ½, down and leptons 13/20 (B1790 § 3; THE STEEPNESS MAP's (5)).
+  - So the two orientations of the candidate's line class differ, and N breaks.
+- **Off 2/5, or for another section, the step is generic.** B1790 computed the flip as physical for DR at its points
+  (same-point differences 0.074–7.7 in ln).
+  - Post hoc (`flip_slopes_posthoc.py`): with DR, the flip leaves every sector's leading exponents unchanged on 3 of
+    1 100 slopes with denominator ≤ 60 (1/2, 1/6 and 5/6).
+  - On the other 1 097, at least one sector's exponents change.
+- **The flip is trivial for every line when S̃ ≅ S, that is ρ = 1** (§ 4). There the two readings coincide and there
+  is nothing to derive.
+- **EXCLUDED, for the class "one Higgs section read at each sector's own twist, giving the candidate's reading", in
+  FR-FIB as ruled** (P-626's relabelling, the coupling at the puncture). For other splits in the class, the exclusion is
+  generic, not proven.
 
 **A remark under N's law.** Suppose each sector's Higgs is unchanged by N up to a phase, S_X(−w) ≅ S_X(w). That law is
 sufficient for the relabelling, and it is the one THE SINGLET'S LAW found for σ and h. Then any Higgs read at the twist
@@ -99,8 +113,9 @@ has S_up ≅ S_down:
 ## 3. The two routes that would reopen it, and their price
 
 **(a) Give up N.**
-- **The census doubles.** For a twist-read H that gives the split (§ 2), the line (a, b) and (−a, −b) become different
-  points. The same generically holds for any H with H(−v) ≇ H(v): RI-1's moved 232–234 of 236 lines. The census
+- **The census doubles.** For a twist-read H that gives the candidate's reading, the line class of 2/5 and its
+  negative become different points (§ 2). The same generically holds for any H with H(−v) ≇ H(v): RI-1's moved
+  232–234 of 236 lines. The census
   identifies them (W183's min((a, b), (−a, −b))). So the family's slope 2/5 and its partner 3/5 (−2/5 mod 1) would
   become distinct.
 - **The reading's last bit becomes the line's orientation** (§ 2's proposition): 2/5 against 3/5.
@@ -124,7 +139,16 @@ has S_up ≅ S_down:
 - **The slot.** Down and leptons read the conjugate of the same field (W59's Hermitian slot), or a coupling sees the twist
   away from the puncture. B1790 § 4's non-point coupling would enforce the charge selection itself. B1744's triple
   overlap of three twisted sections (magnetised-torus style) is the standard instance.
-- **N can stay a relabelling and the census does not double.**
+- **This is the Standard Model's own mechanism:** one charged field and its conjugate, picked by charge conservation
+  (Q̄Hd, L̄He, Q̄H̃u). § 2's exclusion does not reach it.
+- **At the puncture, though, the charge sign is erased** (B1744: H_u = H_d). So in FR-FIB as ruled, charge conservation
+  selects nothing there, and the slot is the imported rule (I-35).
+- **An overlap leaves FR-FIB's point coupling.**
+  - Within S01 (the flat bundle, an ANSATZ) it needs a density-type Higgs. B1651's Szegő addendum couples one by
+    ∫ v(z) φ(z), with its profile free.
+  - B1744's magnetised overlap leaves S01 as well.
+- **N can stay a relabelling if the Higgs obeys N's law.** Then the census does not double. B1744's even T0 with the
+  conjugate slot is an instance; an N-odd part (a₀-type, RI-1) breaks it.
 - **The leftover bit is which charge sign gets the holomorphic slot**, I-35's bit. With SIXY's +3 and the holomorphic
   pairing, it gives (S, S̃, S̃), A05's flip (§ 5).
 - **On record:** the SM seat found no slot that assigns the reading (row 1431), and no non-point coupling is built.
@@ -190,12 +214,13 @@ Check (3) gives ρ over Im τ 1–4 and Re τ 0–½. In the band it barely depe
 
 ## 6. What it means
 
-- **Within FR-FIB as ruled, the reading cannot come from a Higgs read at each sector's own twist: EXCLUDED** (§ 2's
-  class). The basis is § 2's proposition with B1790 § 2's physical flip.
+- **Within FR-FIB as ruled, the candidate's reading cannot come from a Higgs read at each sector's own twist: EXCLUDED**
+  (§ 2's class). For other splits it is excluded generically, not proven. The basis is § 2's proposition with the flip's
+  effect on 2/5's leading exponents, given B1788's hypotheses.
 - **Not examined:**
   - rules from other data, from a leg's twist, or from a reference sector;
   - couplings at B1651's half-periods;
-  - non-point couplings, including B1744's triple overlap;
+  - non-point couplings: a density-type Higgs (B1651's Szegő addendum) and B1744's magnetised triple overlap;
   - non-holomorphic slots (W59);
   - effective-action selection;
   - a twisted section with a τ-constant direction on each line (§ 3).
@@ -203,23 +228,32 @@ Check (3) gives ρ over Im τ 1–4 and Re τ 0–½. In the band it barely depe
   needs a slot or coupling not built.
 - **What a derivation would buy:** it would earn I-35, taking A05's 3 bits to 1 on solid ground. That is B1790's count,
   not more.
-- **The reading's size is the Higgs's nullity** (§ 4). The hierarchy wants ρ ≪ 1, and a twist-read split under N would
-  need ρ = 1.
+- **The reading's size is the Higgs's nullity** (§ 4). The hierarchy wants ρ ≪ 1, and a twist-read split under N
+  generically needs ρ = 1.
 - **No input is removed.**
 
 ## 7. For the record (proposals; main decides)
 
-- **FL-09, P-394, P-295.** Record § 2's proposition: a twist-read split gives each line's negative the global flip,
-  which B1790 shows physical. Grade that route EXCLUDED within FR-FIB as ruled, for § 2's class. Keep A05 CHOSEN, with
-  the two reopening routes of § 3. A derivation would earn I-35; it would not cut bits below B1790's count.
+- **FL-09, P-394, P-295.**
+  - Record § 2's proposition: a twist-read split gives each line's negative the global flip. For the candidate's reading
+    the flip changes 2/5's leading exponents.
+  - Grade that route EXCLUDED within FR-FIB as ruled for the candidate's reading, and generically for other splits.
+  - Keep A05 CHOSEN, with the two reopening routes of § 3. A derivation would earn I-35; it would not cut bits below
+    B1790's count.
 - **I-35.** Its row names what would earn it: "an antiholomorphic or Hermitian Higgs slot, or a twisted section the
-  coupling acts on". The twisted-section route, if it is to give the split reading, needs N broken (§ 2's
-  proposition). The slot remains (route (b)).
-- **P-562: closed.** T0(z, τ) = T0(−z, τ) identically (B1744), so its Serre derivative is even under N, whether taken at
-  fixed z or along the line (z = 3w and dz/dτ = 3a both flip sign). By § 2's remark it reads the same Higgs in up and
-  down. Nothing more needs computing for the reading.
-- **P-626.** The ruling excludes the split reading from a Higgs read at each sector's own twist (§ 2's proposition).
-  Under N's law it excludes every split read at the sector's own twist (§ 2's remark). The conjugate-slot and
+  coupling acts on".
+  - The twisted-section route, if it is to give the candidate's reading, needs N broken (§ 2; generically for other
+    splits).
+  - The slot remains (route (b)). At the puncture it is the imported rule itself.
+- **P-562, for the reading only.** T0(z, τ) = T0(−z, τ) identically (B1744), so its Serre derivative is even under N,
+  whether taken at fixed z or along the line (z = 3w and dz/dτ = 3a both flip sign). By § 2's remark it reads the same
+  Higgs in up and down, so nothing more needs computing for the reading.
+  - P-562's open item is the computation itself: the twisted Serre derivative in the four-channel frame, which main
+    expects to be a same-sign singlet that does nothing for the corners.
+  - Under the adjugate reading for down (P-566's S290–S291, P-583), an even singlet becomes relatively odd. THE
+    ADMISSIBLE SINGLET, SCREENED listed that case as untouched, and it stays open.
+- **P-626.** The ruling excludes the candidate's reading from a Higgs read at each sector's own twist (§ 2), and other
+  twist-read splits generically. Under N's law it excludes every split read at the sector's own twist (§ 2's remark). The conjugate-slot and
   reference-sector constructions are outside both. Reversing the ruling is route (a)'s price: the census doubles, and
   2/5 and 3/5 part.
 - **B1739, B1740, B1658.** The identity min_φ ‖S̃ − e^{iφ}S‖² = 2‖S‖²(1 − ρ) ties r, d_S and B1660's ∣det S∣/‖S‖² to
@@ -235,14 +269,39 @@ Check (3) gives ρ over Im τ 1–4 and Re τ 0–½. In the band it barely depe
   H = I.
 - **The check:** the matter's parity re-verified on 256 census lines at three τ (0.2 + 2.5i, 0.45 + 3.1i, 0.05 + 1.7i),
   and ρ on a 77-point grid.
-- **The class:** one Higgs section read at each sector's own twist.
+- **The class:** one Higgs section read at each sector's own twist. The grade's exact part is the candidate's reading,
+  at leading order, given B1788's hypotheses.
 - **Out:** no data; no candidate address (the family's slope refused by the check's guard); no D, no θ̄, no
   inter-sector value. The steepness rows cited are leading-order (THE STEEPNESS MAP).
+
+## Dated correction (2026-11-04, the seat's re-check at the owner's "are u sure sure sure?")
+
+Five changes from the text at a5b5e416b. A second read-only referee checked them (PASS WITH CORRECTIONS: one blocking
+finding and six corrections, all applied).
+
+1. **The grade's scope is narrower.**
+   - EXCLUDED is now exact only for a twist-read Higgs that gives the candidate's reading. The flip changes 2/5's
+     leading exponents, given B1788's hypotheses.
+   - For other splits the exclusion is generic. With DR the flip leaves every leading exponent unchanged on 1/2, 1/6 and
+     5/6 (3 of 1 100 slopes; the second referee's probe, then `flip_slopes_posthoc.py`).
+   - The headline, the Kind line, §§ 2, 3, 6, 7, 8 and the harvest row are changed to match.
+2. **§ 7's "P-562: closed" was wrong.** Only its reading question is settled. Its open item is the computation itself.
+   Under the adjugate reading, an even singlet becomes relatively odd; this seat's admissible-singlet card had listed
+   that case as untouched.
+3. **§ 3 (b) now says the route left open is the Standard Model's own mechanism**, one charged field and its
+   conjugate, which § 2's exclusion does not reach.
+   - At the puncture the charge sign is erased (B1744), so there the slot is the imported rule.
+   - An overlap leaves the point coupling. Within S01 it goes through a density-type Higgs (B1651's Szegő addendum);
+     outside S01, through B1744's magnetised overlap.
+   - N stays a relabelling only if the Higgs obeys N's law.
+4. **The sweep's B1651 line was wrong.** "Couplings sit at points only" contradicted B1651's Szegő addendum and B1655's
+   scope.
+5. **The 2/5 exponents are now stated with B1788's hypotheses** ((c) for m₁/m₃), not as "exact".
 
 ## Harvestable rows (the 8-cell format; # and disposition are main's)
 
 | # | seat | item | the seat's own headline (verbatim) | path @ pin | disposition | main arc | date |
 |---|---|---|---|---|---|---|---|
-| — | web seat (chat1) | THE DOUBLET INDEX (doublet_index_check.py 2b636e652 → 65a58d2c3) | "a Higgs read at each sector's own twist can give the split reading only by giving each line's negative the global flip, which is physical (B1790), so while w → −w is a relabelling that route is EXCLUDED; the two readings differ by 2‖S‖²(1 − ρ), ρ = ∣det S∣/‖S‖², farthest apart for the null Higgs that makes the hierarchy; a derivation by any route would earn I-35, not extra bits" | `relays/CHAT1_TO_CC_2026-11-04_THE_DOUBLET_INDEX.md` @ the commit adding it | — | FL-09, B1790, B1728, B1744, B1651, B1739, B1740, B1658, P-394, P-295, P-562, P-626, B1834 (A05) | 2026-11-04 |
+| — | web seat (chat1) | THE DOUBLET INDEX (doublet_index_check.py 2b636e652 → 65a58d2c3; post hoc flip_slopes_posthoc.py 7e1a79593 → cb2d04eba) | "a Higgs read at each sector's own twist gives each line's negative the global flip of its reading, and for the candidate's reading the flip changes the leading exponents on 2/5, so while w → −w is a relabelling no such Higgs gives the candidate's reading (EXCLUDED; for other splits, generically); the Standard Model's own mechanism, one field and its conjugate, is not reached; the two readings differ by 2‖S‖²(1 − ρ), ρ = ∣det S∣/‖S‖²; a derivation by any route would earn I-35, not extra bits" | `relays/CHAT1_TO_CC_2026-11-04_THE_DOUBLET_INDEX.md` @ the commit adding it | — | FL-09, B1790, B1728, B1744, B1651, B1739, B1740, B1658, P-394, P-295, P-562, P-626, B1834 (A05) | 2026-11-04 |
 
 0 of 19.
