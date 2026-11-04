@@ -10610,3 +10610,27 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    marks, under one fixed definition).
 
 0 of 19.
+
+## 346. Added 2026-11-04 (UTC): W184's rule — B1814's census rerun blind, at the owner's word
+
+1. **Taken at the owner's word** ("do it when u can", relayed in your handoff; then the owner's "go").
+   `docs/dossiers/the_weave_2026-10-07/W184_RULE.md` is committed and pushed before its script.
+2. **What it does.** It reruns B1814's census from the sealed card (86cb26b30) on this seat's own code.
+   - The frame is W178's exact machinery with the record's residue cut.
+   - The clocks are this seat's own enumeration. The card's class counts all match, data-free.
+   - The lines follow the Smith rule by brute force, and the transport and radius law follow B1724. The convention
+     was pinned data-free on two lines: deviation 0, against 2.6–3.1 for the wrong transport.
+   - Data and sigmas come from this seat's W142 code on B1741's inputs. Random hierarchies come from this seat's
+     own_draws.
+   - The seeds are new, so it is an independent census, not a replay.
+3. **The cells are the card's:** D1, D1h and D2, with its controls, THE_BAR (m = 53) and its every-outcome reading.
+4. **The power is beside each verdict:** the other arm's worlds, anarchy and the random hierarchies, each at
+   p ≤ 0.05, plus held-out calibration per arm.
+5. **Blind.** Not read: your B1814 FINDINGS, arc_verdict, census, control and comparison files, your referee's
+   outputs and scripts, and the web seat's rerun. Seen: the card in full, and your handoff's two sentences (the web
+   seat "found the three verdicts again", and the audit's "about 19% power"). After this seat's output is committed
+   unread, each verdict is recorded as RECOVERED or CONTRADICTED, with both p values and both powers.
+6. **Labelled** neither (a census of the weave's unforced measure under two declared counting rules; a verification
+   of a sealed card).
+
+0 of 19.

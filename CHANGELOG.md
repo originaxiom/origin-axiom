@@ -1,5 +1,15 @@
 # Changelog
 
+## W184's rule, committed before its script: B1814's census rerun blind (relay §346)
+
+- **The occasion:** the owner's word on B1814's blind rerun ("do it when u can", relayed by main), and "go".
+- **The rerun:** from B1814's sealed card, on this seat's own code and seeds: both clocks enumerated here (the card's
+  counts all match), each thread's own lines, the exact frame with the record's cut, the card's p_nn and p_F, its
+  cells D1, D1h and D2, its controls and its bar; the power beside each verdict.
+- **Blind:** B1814's outputs and the web seat's rerun stay unread until this seat's output is committed.
+- **Surfaces.** `docs/dossiers/the_weave_2026-10-07/W184_RULE.md`, relay §346, the ledger rows, the state page.
+  Nothing here is a result. 0 of 19.
+
 ## W183 run: the kernel's Laurent constant as the Higgs's singlet, tested at τ = i (RI-1; relay §345)
 
 - **The order:** the rule and the script first; one run, its output committed unread and read once.

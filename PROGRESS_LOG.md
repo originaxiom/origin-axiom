@@ -21625,3 +21625,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   The more telling test is at the points where the frame looks most like nature, and that needs a rule from main
   first. 0 of 19.
 
+## 2026-11-04 — repeating main's measured-world test independently
+
+- **Why:** the owner asked this seat to redo, on its own code and without looking at the answer, main's test of
+  whether the measured world looks like a typical draw from what the theory produces when nothing is forced.
+- **What was done:** the plan was written down and published first: how the theory's worlds are drawn, how
+  typicality is scored, and how strong each test is (its power). Nothing has been computed against data yet, and
+  main's answers stay unread until this seat's are saved.
+  0 of 19.
+
