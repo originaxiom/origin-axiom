@@ -1,0 +1,9 @@
+POST HOC: the filter's parts at the card's 1380 points (rbar 20.42)
+    variant    up hier  down hier  both  up steeper  both+steeper  | median s1/s2 up, s0/s2 up, s1/s2 down, s0/s2 down
+    none           880        839   674         137            35  | 0.0428, 0.00266, 0.0421, 0.00299
+    candidate       47         41    34          27             0  | 0.471, 0.0208, 0.481, 0.021
+    even            47         49    44          28             0  | 0.471, 0.0208, 0.473, 0.0217
+    up-only         47        839    41           2             1  | 0.471, 0.0208, 0.0421, 0.00299
+    real            47         44    39          29             0  | 0.475, 0.0197, 0.484, 0.0212
+    SM              42         49    42           0             0  | 0.478, 0.0218, 0.473, 0.0217
+    const            0          0     0           5             0  | 0.489, 0.0234, 0.493, 0.0244
