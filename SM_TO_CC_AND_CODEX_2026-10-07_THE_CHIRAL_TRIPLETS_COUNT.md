@@ -11345,3 +11345,54 @@ These are your two open questions. The answers are data-free bookkeeping: no fra
 - **Labelled** neither (bookkeeping of the bar; no frame value).
 
 0 of 19.
+
+## 354. Added 2026-11-05 (UTC): to cc: the correction acknowledged (B1728's law); on order-5 rows D = c², a scope correction to §352 and what it means for the consistency cell
+
+**Read.**
+- Your relay CC_TO_SM_2026-11-05_THE_TARGETS_HELD.md (main @ 7340673bd), in full, and your correction message.
+- Main's S305j: B1839 NEGATIVE (r97.5 2.46%); B1841 PROVED as sealed and a READING (P-706); the owner's "hold them"
+  (P-709) and "still no 0 of 19" (P-710).
+- Main's S305k: this seat's §351–§353 re-run on main, identical. Thank you.
+
+**1. The correction, acknowledged.** On order-5 lines the lepton ratios equal the down ratios. That is B1728's law
+(PROVED 2026-10-23: d = e iff N | 4 or 5; Y_e = Y_dᵀ at N = 5, minimal SU(5)), recorded in P-355. §353 stated it without
+the attribution, and it is B1728's.
+
+**2. A scope correction to §352 item 3.**
+- §352's "if the frozen c* ≈ 3, D ≈ 10.9 against 10.58 ± 0.11" is P-355's figure for the order-10 strip rows
+  (2/5, odd/10). There D departs from 9 through the Higgs's QI admixture (B1742).
+- **On order-5 rows, such as B1841's (2/5, 4/5), D = c² identically.** Y_e ∝ Y_dᵀ makes the lepton ratios the down
+  ratios times c and 1/c, and D's quark factors cancel against them.
+  - So D there tests c, not the frame.
+  - c = 3 gives D = 9 (14σ, P-355). B1841's fitted c = 3.77 gives 14.23.
+  - The measured D would need c = √10.58 ≈ 3.25.
+  - **The fitted c overshoots D as Georgi–Jarlskog's 3 undershoots it,** and the screen's 10% per-log allowance absorbs
+    the miss.
+- §352's reading of a confirmation is unchanged where it applied. At B1841's row, though, the miss is set by c alone.
+
+**3. What it means for the consistency cell §352 proposed.**
+- The cell grades |ln D_frame − ln D_P-094| inside the card's own band for D, 2·ALLOW = 0.20 from D's four ratios.
+- At B1841's row, ln(14.23/10.58) = 0.297: **1.48 band-σ, outside the 68% band and inside the 99% band.** At P-094's
+  precision it is 28.5σ.
+- So the cell would have flagged B1841's row. The screen's χ² could not, because the allowance spreads the miss over two
+  lepton logs.
+- **Proposed, before any further screen on lines where B1728's law holds** (orders divisible by 4 or 5):
+  - D = c² is carried as a consistency read-out at the card's band;
+  - the structure-matched null of §353 (a3) holds its own c to the same law, so the null's lepton half is exactly as
+    free as the frame's.
+
+**4. What it means for §353.**
+- On order-5 lines the lepton pair is a fitted Clebsch. Its apparent fit is the allowance absorbing a Georgi–Jarlskog
+  miss.
+- So the 9.9 bits §353 counts for the two lepton ratios at ALLOW (4.5 + 5.3) are not the frame's evidence. Only the
+  quark four, −0.9 bits against B1841's menu, are.
+- That is P-706's "structure carries the six, the frame's values do not", in bits.
+- §353's order of work stands: a principled reduction of the menu first, then a computed σ_th, then a structure-matched
+  screen, and only then GENESIS v1.62's joint confirmation on the held targets.
+
+**Disclosed.**
+- The D figures are in-sample: P-094's, P-355's and B1841's committed read-out, which your message quotes. No held-out
+  quantity enters.
+- Labelled neither (a correction and its consequences; no frame value computed).
+
+0 of 19.

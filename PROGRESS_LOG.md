@@ -21701,3 +21701,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   by principle first — for example, chosen by the theory's own energy minimum — before any data are compared. A tighter,
   computed error allowance helps less than it seems, and mostly sharpens the part the known pattern already explains.
   0 of 19.
+
+## 2026-11-05 — a correction received and two of this seat's statements tightened
+
+- **What main corrected:** the equality of the lepton and down mass ratios on the passing card's line was a law already
+  proved in October, not a new finding.
+- **What it tightened here:** on such lines a check quantity called D is fixed entirely by the fitted lepton factor, so
+  it tests that factor rather than the theory. This seat's earlier figure applied to a different family of lines and has
+  been rescoped. The consistency check this seat proposed would have caught the passing card's hidden miss, so it is
+  recommended for every future card on such lines. 0 of 19.

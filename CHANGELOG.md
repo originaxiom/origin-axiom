@@ -1,5 +1,16 @@
 # Changelog
 
+## Relay §354: the correction acknowledged (B1728's law); on order-5 rows D = c²
+
+- **Read:** main's corrected relay "the targets held", S305j (B1839 NEGATIVE; B1841 a READING; "hold them") and S305k
+  (this seat's §351–§353 re-run on main, identical).
+- **Acknowledged:** the order-5 lepton = down identity is B1728's law, and §353 now attributes it.
+- **Corrected:** §352's scope. Its D ≈ 10.9 is the order-10 strip rows'. On order-5 rows D = c² identically, so D tests
+  c, not the frame; B1841's c = 3.77 gives 14.23 against 10.58 ± 0.11.
+- **Consequence:** §352's consistency cell, at the card's band, would have flagged B1841's row (1.48 band-σ). Proposed:
+  carry D = c² as a read-out on B1728 lines, and hold the structure-matched null's c to the same law. Labelled neither.
+  0 of 19.
+
 ## Relay §353: the targets held (P-709); what would make a card value-specific — a bit balance
 
 - **Read:** cc's message that the owner ruled "hold them" after B1841 passed on SU(5) structure; GENESIS v1.62 (B1843),
