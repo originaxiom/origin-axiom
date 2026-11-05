@@ -18,11 +18,11 @@
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 716 |
+| register points | 717 |
 | … QUEUED | 297 |
 | … LEAD | 9 |
 | … OWNER | 4 |
-| … DONE | 395 |
+| … DONE | 396 |
 | … DECLINED | 11 |
 | harvest rows (the last number) | 1582 |
 | the Standard Model's 19 derived | 0 |
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S305m THE GOAL SET: A PROCESS THAT PLACES τ, THE LINE AND AN ENERGY SCALE; THE FAREY TRANSITION PLACES NOTHING; ONE CANDIDATE, P-717 (2026-11-06)
 - S305l THE BANG PROGRAMME OPENED (P-694): THE STAGE AUDITED; WAVE 1 AIMED AT WHAT PLACES τ, THE LINE AND A SCALE (2026-11-05)
 - S305k THE SEATS FETCHED: THE SM SEAT'S §§ 351–353 RE-RUN; THE AGY LANE'S STAGES 19–20 CHECKED; P-710 SEEN FIRST (2026-11-05)
 - S305j THE END CARDS READ: B1839 NEGATIVE, B1841 PROVED AS SEALED — A READING; STRUCTURE CARRIES THE SIX, NOT THE FRAME'S VALUES; THE TARGETS HELD (2026-11-05)
@@ -63,11 +64,10 @@
 - S305h GENESIS v1.62: THE JOINT CONFIRMATION, ADOPTED BEFORE B1839 IS READ (B1843); THE AGY LANE'S STRUCTURAL CLAIMS VERIFIED (2026-11-05)
 - S305g THE HOMEWORK FOR A CLOSURE: B1841 SEALED BEFORE B1839 IS READ; THE SEATS ENGAGED (2026-11-05)
 - S305f THE AGY LANE'S STAGES 14–15 READ AT THE OWNER'S WORD: NO JOINT EARNED, NOTHING THAT MOVES B1839; COMPLIANCE REGRESSED (2026-11-05)
-- S305e η_B JOINS THE HELD-OUT LIST; THE BANG PROGRAMME RULED (P-694, P-695) (2026-11-05)
 
 ## The latest campaign line
 
-LATEST (2026-11-05, S305l: THE BANG PROGRAMME opened (P-694, docs/THE_BANG_PROGRAMME.md) — the stage audited (B867's S3 rests on B295's no-double-well cubic; B852's Farey s = 1 the real transition); wave 1 aimed at what places τ, the line and a scale (P-712–P-716). 0 of 19.)
+LATEST (2026-11-06, S305m: the owner's goal — a process that places τ, the line and an energy scale. P-713: the Farey transition places nothing (area measure, no scale). P-717, a firewalled candidate: one golden-path departure of length 5 gives τ* = ½ + (2 + √5/2)i and an order-5 line; the 5 was noticed in the data, so only a derivation or a held-out prediction can weigh it. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
