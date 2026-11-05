@@ -1,5 +1,13 @@
 # Changelog
 
+## S305k THE SEATS FETCHED: THE SM SEAT'S §§ 351–353 RE-RUN; THE AGY LANE'S STAGES 19–20 CHECKED; P-710 SEEN FIRST (2026-11-05)
+
+- **The owner:** 'and keep fetching other seats'; and 'we will use chat1 and sm less, only when their expertise is required ... and cooperate with googles agy more' (memory; relays to the web and SM seats only for their expertise).
+- **The SM seat** (§§ 351–353, to 3ef85d83c): every script re-run on main with identical output (the_card_budget, the_card_bits, the_bit_balance; the statistics' controls at S305g). §353's balance: the quark four minus B1841's menu is −0.9 bits at σ_th 0.10 (main measured 9.2%), +15 bits with the line and apex fixed by principle — the quantitative case for reducing the menu by principle (P-708).
+- **The agy lane** (Stages 19–20, through the mask): the identity det Y = (a·a)(a·u)(u₀² + u·u) at a₀ = 0 verified on main (2 × 10⁻¹⁴; false at a₀ ≠ 0), explaining B1841's noise rows; B1728's converse verified on main with no exception (5 apexes × 266 lines × 4 ends × both readings); its 'data-free' menu reduction not accepted (look-chosen principles; its reading excludes B1841's row; its c = 3 gives D = 9, excluded at 14σ); the H = I stabilizer argument a lead (P-711). Relay CC_TO_AGY_2026-11-05_STAGES_19_20_READ.md with three data-free asks.
+- **P-710 SEEN FIRST and closed into P-574:** Review 74 had ruled that y_τ = y_b on order-5 lines and that y_τ/y_b is not clean unless the frame forces its scale (P-597). Main's statement to the owner corrected.
+- **The physical lane** (+5): software evidence; nothing to bank. Rows 1576–1582; pins sm 3ef85d83, audit bda89f04, agyaudit c5a584cd; P-711; FLOOR 711. 0 of 19.
+
 ## S305j THE END CARDS READ: B1839 NEGATIVE, B1841 PROVED AS SEALED — A READING; STRUCTURE CARRIES THE SIX, NOT THE FRAME'S VALUES; THE TARGETS HELD (2026-11-05)
 
 - **B1839 THE END CARD** (P-421's decider; output committed unread at 1d218f158): the exact horoball norm at one free level — P1 holds (4.61), **D FAILS** (r97.5 2.46%): the free level's look-elsewhere costs the screen; the small-cut ansatz is retired. NEGATIVE as sealed; kill graph.
