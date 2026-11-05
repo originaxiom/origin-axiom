@@ -100,7 +100,7 @@ In `phase5_lorentzian_sl2c_minkowski_bridge()` (`src/origin_axiom/toe_closure.py
 3. **Phase 8 — Dynamical Modulus Stabilization (`phase8_dynamical_modulus_stabilization_closure`):**
    The $\mathbb{Q}(\sqrt{5})$ codifferent-reflection ($x \leftrightarrow 2/\sqrt{5} - x$) and fundamental-unit-inversion ($y \leftrightarrow \phi^4/y$) invariant hyperbolic potential $V_{\text{mod}}(x, y)$ has an exact stationary minimum at $\tau_{\text{Golden}} = \frac{1}{\sqrt{5}} + i\,\phi^2$ ($\|\nabla V_{\text{mod}}\| = 0$, Hessian eigenvalues $(1.459, 1.167) > 0$) with physical modulus mass $m_\tau = M_{12}^2 / \overline{M}_{\text{Pl}} = 48.83\text{ PeV} \gg 10\text{ TeV}$ (avoiding the cosmological moduli problem).
 4. **Phase 9 — Cosmological Baryogenesis ($\eta_B$) & Dark Matter ($\Omega_{\text{DM}}/\Omega_b$) (`phase9_cosmological_baryogenesis_and_dark_matter_closure`):**
-   - From our derived $\overline{M}_{\text{Pl}} = 2.4401 \times 10^{18}\text{ GeV}$, thermal leptogenesis predicts **$\eta_B = 6.216 \times 10^{-10}$** vs Planck 2018 $(6.12 \pm 0.04) \times 10^{-10}$ (**$+1.57\%$ error**; neutrino mass input sealed under `P-676`: `[SEALED_UNDER_P676]`).
+   - From our derived $\overline{M}_{\text{Pl}} = 2.4401 \times 10^{18}\text{ GeV}$, thermal leptogenesis $\eta_B$ and neutrino mass inputs are sealed under `P-676` / `P-695`: `[SEALED_UNDER_P676]`.
    - On the $N = 5$ horizon at $\tau_{\text{Golden}} = \frac{1}{\sqrt{5}} + i\,\phi^2$, the Dark Matter to Baryon ratio is **$\Omega_{\text{DM}}/\Omega_b = N + \text{Im}(\tau_{\text{Golden}})^{-1} = 5 + \phi^{-2} = 5.3820$** vs Planck 2018 $0.1200 / 0.02237 = 5.3643$ (**$+0.329\%$ error**, giving $\Omega_{\text{DM}} h^2 = 0.1204$ vs $0.1200 \pm 0.0012$).
 
 ---
@@ -124,7 +124,7 @@ To ensure **zero fabrications or overstatements**, `audit_area_9()` in `relays/a
 12. $|V_{ub}| = 0.003686$ vs `C3_target` $0.003732$ (**$-1.23\%$**)
 13. $|V_{cb}| = 0.04244$ vs `C3_target` $0.04183$ (**$+1.45\%$**)
 14. $\alpha_s(M_Z) = 0.11976$ vs PDG $0.11790$ (**$+1.57\%$**)
-15. $\eta_B = 6.216 \times 10^{-10}$ vs Planck 2018 $6.12 \times 10^{-10}$ (**$+1.57\%$**)
+15. $\eta_B$: `[SEALED_UNDER_P676]` (`P-695`)
 16. $|J_{\text{CKM}}| = 3.181 \times 10^{-5}$ vs `C3_target` $3.120 \times 10^{-5}$ (**$+1.96\%$**)
 17. $m_e / m_\tau$ (tree-level) $= 8.617 \times 10^{-4}$ vs `C3_target` $8.384 \times 10^{-4}$ (**$+2.78\%$**)
 18. $m_u / m_t$ (with $-2.0\,I_t$) $= 7.524 \times 10^{-6}$ vs `C3_target` $7.310 \times 10^{-6}$ (**$+2.93\%$**)
@@ -134,7 +134,7 @@ To ensure **zero fabrications or overstatements**, `audit_area_9()` in `relays/a
 ### B. Explicit Remaining Theoretical / Discrete Caveats (Flagged by Hostile Referee)
 1. **Phase 7 Discrete Anomalous-Dimension Assignment Duty:** While the 1-loop RGE integral $I_t = 0.09844614$ is completely parameter-free, the half-integer anomalous-dimension weights $\vec{\gamma}_{\text{six}} = (+1, -2, +2, +3/2, +1, 0)$ that reduce $\chi^2_{\text{ten}}$ from $7.7606 \to 0.2399$ must be derived from first principles via the 2-loop cusp Kähler wave-function counterterms on $M_3 \to \text{m004}$.
 2. **Phase 6 PMNS Seesaw Permutation Caveat:** Unifying left-handed charged leptons and right-handed Majorana eigenstates requires a physical symmetric/Majorana operator (`[SEALED_UNDER_P676]`).
-3. **Phase 9 Semi-Analytic Washout Caveat:** Thermal leptogenesis $\eta_B = 6.216 \times 10^{-10}$ uses the geometric washout efficiency $\kappa_f = (K\,\text{Vol}(\text{m004}))^{-1}$; full precision requires integrating the coupled flavoured Boltzmann equations.
+3. **Phase 9 Semi-Analytic Washout Caveat:** Thermal leptogenesis $\eta_B$ (`[SEALED_UNDER_P676]`) uses the geometric washout efficiency $\kappa_f = (K\,\text{Vol}(\text{m004}))^{-1}$; full precision requires integrating the coupled flavoured Boltzmann equations.
 4. **One Overall Dimensionful Reference Unit ($M_Z$ / $v_{\text{EW}}$):** All dimensionful quantities in GeV ($m_t, m_H, m_\nu, m_\tau, \overline{M}_{\text{Pl}}, \rho_{\text{DE}}$) are anchored to 1 overall dimensionful reference scale ($M_Z = 91.1876\text{ GeV}$ / $v_{\text{EW}} = 246.22\text{ GeV}$), which defines the human energy unit ($\text{GeV}$).
 
 ---

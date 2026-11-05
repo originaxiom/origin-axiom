@@ -662,9 +662,9 @@ def phase8_dynamical_modulus_stabilization_closure() -> Dict[str, object]:
 
 def phase9_cosmological_baryogenesis_and_dark_matter_closure() -> Dict[str, object]:
     """Phase 9: Evaluate candidate thermal leptogenesis and dark-matter-to-baryon ratios at tau_Golden.
-    Guardrail 3 & 5 Scope Note (Findings 8 & 9 of 395b27210):
-    - Reports both |b_10(tau_Golden)|^2 = 0.02143382 (gives eta_B = 6.216e-10) and the true Dedekind eta invariant
-      |(1/4) eta(tau_Golden)^6| = 0.00409212 (gives eta_B = 1.187e-10).
+    Guardrail 3 & 5 Scope Note (Findings 8 & 9 of 395b27210) & S305e P-695 Blinding:
+    - Reports both |b_10(tau_Golden)|^2 = 0.02143382 and the true Dedekind eta invariant
+      |(1/4) eta(tau_Golden)^6| = 0.00409212; all eta_B numerical values and comparisons are sealed under P-695 / P-676.
     - Notes that sin(delta_CP^PMNS) is imported from Phase 6's frame-dependent overlap and Omega_b h^2 = 0.02237
       is imported from PDG/Planck to convert Omega_DM / Omega_b into Omega_DM h^2.
     """
@@ -701,12 +701,12 @@ def phase9_cosmological_baryogenesis_and_dark_matter_closure() -> Dict[str, obje
     eps_1_true_eta6 = (3.0 / (16.0 * math.pi)) * true_quarter_eta6 * m1_over_m3_rh * sin_delta_pmns
     eps_1_ir = eps_1_uv * math.exp(-i_top)
 
-    # 3. Washout efficiency kappa_f = 1 / (K * Vol(m004)) and sphaleron/photon conversion (28/79) * (1/27.39):
+    # 3. Washout efficiency kappa_f = 1 / (K * Vol(m004)) and sphaleron/photon conversion (28/79) * (1/27.39)
+    #    (sealed under S305e P-695 / P-676 since eta_B joined the held-out list V):
     kappa_f = 1.0 / (k_washout * vol_m004)
     eta_b_pred = (28.0 / 79.0) * (1.0 / 27.39) * eps_1_uv * kappa_f
     eta_b_true_eta6 = (28.0 / 79.0) * (1.0 / 27.39) * eps_1_true_eta6 * kappa_f
     eta_b_ir_dressed = (28.0 / 79.0) * (1.0 / 27.39) * eps_1_ir * kappa_f
-    eta_b_pdg = 6.12e-10
 
     # 4. Dark Matter to Baryon ratio Omega_DM / Omega_b = N + 1 / Im(tau_Golden) = 5 + phi^-2:
     omega_dm_over_b_pred = 5.0 + 1.0 / (phi * phi)
@@ -724,11 +724,11 @@ def phase9_cosmological_baryogenesis_and_dark_matter_closure() -> Dict[str, obje
         "cp_asymmetry_epsilon_1_true_quarter_eta6": eps_1_true_eta6,
         "cp_asymmetry_epsilon_1_ir": eps_1_ir,
         "washout_efficiency_kappa_f": kappa_f,
-        "eta_B_pred": eta_b_pred,
-        "eta_B_pred_with_true_quarter_eta6": eta_b_true_eta6,
-        "eta_B_ir_dressed": eta_b_ir_dressed,
-        "eta_B_pdg": eta_b_pdg,
-        "rel_error_eta_B": abs(eta_b_pred - eta_b_pdg) / eta_b_pdg,
+        "eta_B_pred": seal_held_out_value_p676(eta_b_pred),
+        "eta_B_pred_with_true_quarter_eta6": seal_held_out_value_p676(eta_b_true_eta6),
+        "eta_B_ir_dressed": seal_held_out_value_p676(eta_b_ir_dressed),
+        "eta_B_pdg": "[SEALED_UNDER_P676]",
+        "rel_error_eta_B": "[SEALED_UNDER_P676]",
         "uses_frame_dependent_phase6_sin_delta": True,
         "Omega_DM_over_Omega_b_pred": omega_dm_over_b_pred,
         "Omega_DM_over_Omega_b_pdg": omega_dm_over_b_pdg,
@@ -16545,6 +16545,11 @@ def theorem96_zero_trust_stage14_referee_and_ast_semantic_p684_blinding_gate(
         "delta_cp_pmns_deg",
         "j_pmns",
         "m3_meV_pred",
+        "eta_B_pred",
+        "eta_B_pred_with_true_quarter_eta6",
+        "eta_B_ir_dressed",
+        "eta_B_pdg",
+        "rel_error_eta_B",
     }
 
     def _ast_scan_source_for_held_out_numeric_asserts(src_code: str) -> List[int]:
@@ -17478,6 +17483,11 @@ def theorem102_zero_trust_stage15_referee_and_full_repo_ast_openable_commitment_
         "delta_cp_pmns_deg",
         "j_pmns",
         "m3_meV_pred",
+        "eta_B_pred",
+        "eta_B_pred_with_true_quarter_eta6",
+        "eta_B_ir_dressed",
+        "eta_B_pdg",
+        "rel_error_eta_B",
     }
 
     def _ast_scan_code(src_code: str) -> List[int]:
@@ -17939,7 +17949,7 @@ def evaluate_full_toe_master_scorecard() -> Dict[str, object]:
             "rel_error_delta_CP_PMNS": "[SEALED_UNDER_P676]",
             "rel_error_M_Pl_reduced": float(p4["rel_error_M_Pl_reduced"]),
             "rel_error_rho_DE": float(p4["rel_error_rho_DE"]),
-            "rel_error_eta_B": float(p9["rel_error_eta_B"]),
+            "rel_error_eta_B": "[SEALED_UNDER_P676]",
             "rel_error_Omega_DM_over_Omega_b": float(p9["rel_error_Omega_DM_over_Omega_b"]),
         },
     }

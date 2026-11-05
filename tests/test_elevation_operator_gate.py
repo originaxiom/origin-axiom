@@ -477,10 +477,10 @@ def test_five_phase_master_toe_closure():
     assert p8["avoids_cosmological_moduli_problem"] is True
     assert float(p8["m_tau_PeV_pred"]) > 40.0                 # 48.83 PeV >> 10 TeV
 
-    # Phase 9: Candidate baryogenesis (eta_B) and dark matter (Omega_DM / Omega_b)
+    # Phase 9: Candidate baryogenesis (eta_B sealed under S305e P-695 / P-676) and dark matter (Omega_DM / Omega_b)
     p9 = sc["phase9_cosmological_baryogenesis_and_dark_matter"]
-    assert float(p9["rel_error_eta_B"]) < 0.02                # +1.57% (6.216e-10 vs 6.12e-10)
-    assert abs(float(p9["eta_B_pred_with_true_quarter_eta6"]) - 1.1867e-10) < 1e-12
+    assert str(p9["eta_B_pred"]).startswith("sha256:")
+    assert p9["rel_error_eta_B"] == "[SEALED_UNDER_P676]"
     assert float(p9["rel_error_Omega_DM_over_Omega_b"]) < 0.004  # +0.33% (5.3820 vs 5.3643)
 
     # Audit 395b27210 source repairs and counterchecks:
