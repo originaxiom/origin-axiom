@@ -1,0 +1,11 @@
+(a) L3, the evenness of the Frobenius series (five of B1667's points)
+    tau 1j: largest odd-order coefficient 0.0e+00; largest |g(-z) - g(z)| at the samples 0.0e+00
+    tau (0.15+2j): largest odd-order coefficient 0.0e+00; largest |g(-z) - g(z)| at the samples 0.0e+00
+    tau (0.25+3j): largest odd-order coefficient 0.0e+00; largest |g(-z) - g(z)| at the samples 0.0e+00
+    tau (0.35+3j): largest odd-order coefficient 0.0e+00; largest |g(-z) - g(z)| at the samples 0.0e+00
+    tau (0.4500000000000001+0.9526279441628824j): largest odd-order coefficient 0.0e+00; largest |g(-z) - g(z)| at the samples 0.0e+00
+(b), (c) on 12 census lines with chi(6w) != 1 x 2 tau, 96 live channel-points, 6 sample points each:
+    L1, leptons against down (summed twist +3w both): largest relative difference 6.9e-15
+    L2, up against -K_down(-z) (summed twist -3w): largest relative difference 1.1e-14
+    the class: (a + 1/3, b) and (a, b + 1/3) against (a, b): largest relative difference 9.7e-15
+    the sign: (-a, -b) against -K_down(-z) of (a, b): largest relative difference 1.3e-14
