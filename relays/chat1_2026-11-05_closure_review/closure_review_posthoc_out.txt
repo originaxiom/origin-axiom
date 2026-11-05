@@ -1,0 +1,6 @@
+(C2') lattice translations of the twist point, with a fitted global phase (delta 0.3)
+  largest: {'w+1 residual': '1.8e-15', 'w+1 sv': '2.8e-16', 'w+tau residual': '4.2e-15', 'w+tau sv': '5.6e-16'}
+  smallest scaled singular value of Y(w): 1.8e-17-7.4e-03; below 1e-10 (rank 2) at 8 of 32 (tau, line, sector, reading): [('+0.31+2.90i', '(1/3, 1/4)', 'lep', 'S'), ('+0.31+2.90i', '(1/3, 1/4)', 'lep', 'St'), ('+0.31+2.90i', '(1/3, 1/4)', 'nu', 'S'), ('+0.31+2.90i', '(1/3, 1/4)', 'nu', 'St'), ('-0.12+3.20i', '(1/3, 1/4)', 'lep', 'S'), ('-0.12+3.20i', '(1/3, 1/4)', 'lep', 'St'), ('-0.12+3.20i', '(1/3, 1/4)', 'nu', 'S'), ('-0.12+3.20i', '(1/3, 1/4)', 'nu', 'St')]
+(D') C-MIR with a fitted global phase (delta 0.3)
+  P conj(Y1) P, largest residual 5.3e-13 | P Y1 P, residual 8.5e-02-2.0e+00 | conj(Y1), residual 1.2e-01-2.0e+00 | smallest scaled singular value of Y1 2.8e-06-4.7e-03
+closure_review_posthoc exit 0
