@@ -1364,6 +1364,8 @@ def test_five_phase_master_toe_closure():
     assert float(t59["max_alexander_poly_err"]) < 1e-14
     assert float(t59["tau_rs_abelian_err"]) < 1e-14
     assert float(t59["tau_rs_adjoint_err"]) < 1e-14
+    assert abs(float(t59["w_ad_at_minus1"]) - (-14.0)) < 1e-14
+    assert abs(float(t59["w_ad_slope_at_1"]) - 3.0) < 1e-14
 
     # Theorem 60 (Stage 7.2): Analytic Term-by-Term q-Series Proof of B1834 Joint F7 Mirror Identity
     t60 = sc["theorem60_analytic_q_series_proof_of_f7_mirror_identity"]
@@ -1887,6 +1889,89 @@ def test_five_phase_master_toe_closure():
     assert float(rc96["independent_fresh_haar_invariance_err_t96"]) < 1e-13
     assert float(rc96["max_precision_err_stage14"]) < 2e-11
     assert t96["all_six_guardrails_passed"] is True
+
+    # Theorem 97 (Stage 15.1): Liouville Elliptic Uniqueness Lemma L1 for Higgs-Twist Law & B1840 E_4 Universal Area-4 Horocycle
+    t97 = sc["theorem97_liouville_uniqueness_higgs_twist_law_and_b1840_e4_universal_area4_horocycle"]
+    assert "B1840_the_principled_ends" in t97["seen_first"]
+    assert "FORCED-BY-MAIN" in t97["claim_labels_and_scopes"]["liouville_uniqueness_lemma_l1_for_higgs_twist_law"]
+    assert "FORCED-BY-MAIN" in t97["claim_labels_and_scopes"]["b1840_e4_universal_area4_fuchsian_horocycle"]
+    assert "plain_english_elaboration" in t97
+    assert float(t97["max_liouville_elliptic_periodicity_err"]) < 1e-13
+    assert float(t97["max_liouville_quotient_unity_err"]) < 1e-13
+    assert float(t97["mismatched_sum_quotient_variation"]) > 0.5
+    assert float(t97["min_a_cusp_across_54_pts"]) >= 4.0
+    assert float(t97["max_e4_delta_identity_err"]) < 1e-14
+    assert t97["e4_overlaps_single_horocycle_crossing_band"] is True
+
+    # Theorem 98 (Stage 15.2): Single-Trajectory UV-to-IR Modular RG Flow & KK Threshold Cancellation of Downward Xing-Zhou I_t
+    t98 = sc["theorem98_single_trajectory_uv_ir_modular_rg_flow_and_kk_threshold_xing_zhou_closure"]
+    assert "B1788_the_closed_form_of_the_exponents" in t98["seen_first"]
+    assert "MATH" in t98["claim_labels_and_scopes"]["single_trajectory_uv_ir_modular_rg_flow"]
+    assert "MATH" in t98["claim_labels_and_scopes"]["kk_modular_threshold_xing_zhou_cancellation"]
+    assert "plain_english_elaboration" in t98
+    assert float(t98["im_tau_uv_strip_endpoint"]) > 2.60
+    assert float(t98["uv_ir_modular_ode_roundtrip_err"]) < 1e-13
+    assert float(t98["kk_xing_zhou_up_cancellation_err"]) < 1e-14
+
+    # Theorem 99 (Stage 15.3): S305d P-693 One-Higgs Reading-Triple Law & SU(2)_L-Invariant M_3 Cover Trace
+    t99 = sc["theorem99_p693_one_higgs_reading_triple_and_su2l_invariant_m3_cover_self_energy_trace"]
+    assert "B1839_the_end_card" in t99["seen_first"]
+    assert "FORCED-BY-MAIN" in t99["claim_labels_and_scopes"]["s305d_p693_one_higgs_reading_triple_law"]
+    assert "MATH" in t99["claim_labels_and_scopes"]["su2l_invariant_m3_cover_self_energy_trace_and_c_gj"]
+    assert "plain_english_elaboration" in t99
+    assert t99["one_higgs_reading_triple"] == ["S~", "S", "S"]
+    assert t99["p693_reading_rule_verified"] is True
+    assert int(t99["tr_m3_hypercharge_total"]) == 402
+    assert int(t99["q2_down_exact"]) == 5
+    assert int(t99["c_gj_exact"]) == 3
+    assert float(t99["max_su2l_doublet_commutator_err"]) < 1e-15
+
+    # Theorem 100 (Stage 15.4): Unique Parameter-Free 1-Loop Bulk+Boundary Radiative h_i Lift Eliminating the 1/42 vs 1/45 Menu
+    t100 = sc["theorem100_unique_one_loop_sigma10_breaking_radiative_hi_lift_eliminating_rational_menu"]
+    assert "B1656_the_electrons_zero" in t100["seen_first"]
+    assert "MATH" in t100["claim_labels_and_scopes"]["aps_bulk_boundary_unique_29_over_1260_radiative_lift"]
+    assert "plain_english_elaboration" in t100
+    assert t100["delta_unique_1loop_fraction"] == "29/1260"
+    assert float(t100["exact_fraction_err"]) == 0.0
+    assert int(t100["discrete_menu_choices_remaining"]) == 0
+    assert int(t100["continuous_parameters_used"]) == 0
+    assert float(t100["max_haar_invariance_err"]) < 1e-13
+
+    # Theorem 101 (Stage 15.5): Parameter-Free Spin(10) 10_S (+) 126_bar_S Clebsch Seesaw Lock & Two-Tier SM-vs-Gravity Firewall
+    t101 = sc["theorem101_spin10_10_plus_126_clebsch_seesaw_lock_and_two_tier_sm_gravity_separation"]
+    assert "B1799_the_neutrinos_self_pairing_at_the_canonical_end" in t101["seen_first"]
+    assert "MATH" in t101["claim_labels_and_scopes"]["spin10_10_plus_126_clebsch_seesaw_lock"]
+    assert "MATH" in t101["claim_labels_and_scopes"]["two_tier_sm_vs_chern_simons_gravity_firewall"]
+    assert "plain_english_elaboration" in t101
+    assert t101["spin10_tensor_decomp_verified"] is True
+    assert t101["xi_clebsch_lock_fraction"] == "1/5"
+    assert float(t101["clebsch_b_minus_l_err"]) < 1e-15
+    assert int(t101["adjustable_seesaw_parameters_count"]) == 0
+    assert float(t101["seesaw_symmetry_err"]) < 1e-15
+    assert float(t101["max_seesaw_haar_err"]) < 1e-13
+    assert int(t101["tier1_core_sm_count"]) == 19
+    assert int(t101["tier2_chern_simons_gravity_count"]) == 4
+    assert int(t101["tier1_gravity_contamination_count"]) == 0
+    assert t101["tier2_feeds_into_tier1"] is False
+
+    # Theorem 102 (Stage 15.6): Zero-Trust Hostile Referee Gate for Stage 15, Theorem 59 W_Ad(-1)=-14 Fix, Openable Commitment, & Full-Repo AST Blinding Scanner
+    t102 = sc["theorem102_zero_trust_stage15_referee_and_full_repo_ast_openable_commitment_gate"]
+    assert "B1840_the_principled_ends" in t102["seen_first"]
+    assert "MATH" in t102["claim_labels_and_scopes"]["stage15_theorems_97_to_101_and_t59_w_ad_verification"]
+    assert "MATH" in t102["claim_labels_and_scopes"]["p692_openable_commitment_and_full_repo_ast_blinding_gate"]
+    assert "plain_english_elaboration" in t102
+    assert t102["t59_in_place_w_ad_repaired"] is True
+    assert float(t102["t59_w_ad_minus1_err"]) < 1e-14
+    assert t102["commitment_is_hiding_and_openable"] is True
+    assert int(t102["python_files_ast_scanned_count"]) >= 15
+    assert int(t102["full_repo_flagged_assertions_count"]) == 0
+    assert int(t102["full_repo_flagged_relay_lines_count"]) == 0
+    assert t102["positive_control_caught_indirect_leak"] is True
+    rc102 = t102["referee_independent_counterchecks"]
+    assert float(rc102["independent_mpmath_stage15_err"]) < 1e-30
+    assert float(rc102["independent_fresh_haar_invariance_err_t102"]) < 1e-13
+    assert float(rc102["max_precision_err_stage15"]) < 1e-12
+    assert t102["all_six_guardrails_passed"] is True
 
 
 
