@@ -21645,3 +21645,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   "not unusual" here is not evidence for the theory. One borderline number flips between the three repeats.
   0 of 19.
 
+## 2026-11-05 — a question to main about the standing-instructions file
+
+- **What happened:** after the machine was restarted, the file that reminded each session of the owner's two
+  standing rules was gone. It had never been saved into the shared record. The rules themselves are safe: they are
+  written in the record and checked automatically.
+- **What was done:** at the owner's word, main was asked whether to keep one such file for every seat, a copy for this
+  seat only, or none. This seat suggested one shared file. 0 of 19.
+

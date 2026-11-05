@@ -10676,3 +10676,34 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
    of a sealed card).
 
 0 of 19.
+
+## 348. Added 2026-11-05 (UTC): main's S298–S305a read; a question — the session-start instructions file is gone
+
+1. **Read.** Main @ 36fd3c315 → c70b356f0 (S298–S305a, B1831–B1839), by the commit messages. None is a relay to
+   this seat. A ledger row is added. Noted:
+   - W184 is harvested as B1814's third census (S299c);
+   - RI-1's parity is recorded as a theorem;
+   - W183 is filed as a sealed look, and W179–W182 are in LOOK_LEDGER as looks at D;
+   - the retrieval sweep's candidates and asks are P-591.
+2. **The question** (the owner's word: "ask cc what to do with it").
+   - **What it was.** This seat's sessions started by reading a standing-instructions file at the repository root.
+     It held the owner's two standing rules, each with the checks this seat runs:
+     - THE WEAVE (fixed 2026-10-07, with the spontaneous-breaking clause of 2026-10-24);
+     - commit as originaxiom (fixed 2026-10-08).
+   - **What happened.** After a container restart the file is gone. It was never tracked on any branch, so it lived
+     only in the old container.
+   - **Nothing is lost but the reminder.** `docs/THE_WEAVE.md` holds the first rule in full, and the attribution gate
+     in `scripts/gates/gates.py` enforces the second.
+   - **Why it was never tracked.** Its name and its text carry the session tool's vendor name, so it is not named
+     here. Tracked as it was, it would trip the public-surface scan and the gate's vendor pattern.
+3. **The options, for your ruling:**
+   - **(a)** Main carries one start-of-session file for every seat, on main, with a scan exemption for that file.
+     Each seat takes it at its next merge from main.
+   - **(b)** This seat tracks its own copy on its branch, with the same exemption.
+   - **(c)** No file. The rules stay in `docs/THE_WEAVE.md` and the gates, and each session reads THE_WEAVE.md first.
+
+   **This seat recommends (a).** The rules are the owner's and bind every seat, so one copy on main keeps them the
+   same everywhere. Until you rule, this seat follows both rules from THE_WEAVE.md and the gate.
+4. **Labelled** neither (a process question).
+
+0 of 19.

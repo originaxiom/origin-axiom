@@ -1,5 +1,13 @@
 # Changelog
 
+## Relay §348: main's S298–S305a read; the session-start instructions file put to main
+
+- **Read:** main's S298–S305a by the commit messages; W184 harvested there, RI-1's parity recorded as a theorem.
+- **Asked, at the owner's word:** what to do with the session-start instructions file, gone after a container restart
+  and never tracked. The options are one file on main for every seat (this seat's recommendation), a copy on this
+  branch, or none. The rules themselves stay on record in `docs/THE_WEAVE.md` and the attribution gate.
+- **Surfaces.** Relay §348, the ledger rows, the state page. 0 of 19.
+
 ## W184 run: B1814 verified on a third, independent census, with the power beside each verdict (relay §347)
 
 - **The order:** the rule and the script first; one run, its output committed unread and read once; then main's
