@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S305n P-717'S CONTROL AND P-715'S WALL (2026-11-06)
 - S305m THE GOAL SET: A PROCESS THAT PLACES τ, THE LINE AND AN ENERGY SCALE; THE FAREY TRANSITION PLACES NOTHING; ONE CANDIDATE, P-717 (2026-11-06)
 - S305l THE BANG PROGRAMME OPENED (P-694): THE STAGE AUDITED; WAVE 1 AIMED AT WHAT PLACES τ, THE LINE AND A SCALE (2026-11-05)
 - S305k THE SEATS FETCHED: THE SM SEAT'S §§ 351–353 RE-RUN; THE AGY LANE'S STAGES 19–20 CHECKED; P-710 SEEN FIRST (2026-11-05)
@@ -63,11 +64,10 @@
 - S305i BEFORE EITHER LOOK IS READ: B1841'S PRE-READ NOTE; THE CENSUS'S THIRD OPINION; THE SEATS REFETCHED (2026-11-05)
 - S305h GENESIS v1.62: THE JOINT CONFIRMATION, ADOPTED BEFORE B1839 IS READ (B1843); THE AGY LANE'S STRUCTURAL CLAIMS VERIFIED (2026-11-05)
 - S305g THE HOMEWORK FOR A CLOSURE: B1841 SEALED BEFORE B1839 IS READ; THE SEATS ENGAGED (2026-11-05)
-- S305f THE AGY LANE'S STAGES 14–15 READ AT THE OWNER'S WORD: NO JOINT EARNED, NOTHING THAT MOVES B1839; COMPLIANCE REGRESSED (2026-11-05)
 
 ## The latest campaign line
 
-LATEST (2026-11-06, S305m: the owner's goal — a process that places τ, the line and an energy scale. P-713: the Farey transition places nothing (area measure, no scale). P-717, a firewalled candidate: one golden-path departure of length 5 gives τ* = ½ + (2 + √5/2)i and an order-5 line; the 5 was noticed in the data, so only a derivation or a held-out prediction can weigh it. 0 of 19.)
+LATEST (2026-11-06, S305n: P-717's control — the closed approximants converge to τ* = ½ + (2 + √5/2)i, Re ½ exact at every k (an output); P-715 — the object is scale-free (B151, B660, B719), so the target is a dimensionless scale ratio. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
