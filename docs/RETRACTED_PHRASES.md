@@ -286,3 +286,16 @@ No living surface repeats them. No row added.
 
 **Currency correction, 2026-11-03 (S297, the triage's recheck; P-588, P-589).** The S250 read above wrote "No living surface repeats them". LAW_MAP did: B1739's row stated "∣V_ud∣ ∝ r^½" as PROVED (the web seat's audit had made it the median's slope only), and the rows for B1726, B1734, B1735 and B1741 carried no trace of THE EXACT END. The read had swept phrases, not the corrected arcs' rows on the synthesis surfaces. All are now scoped in place, with 15 more rows the recheck's screens found and one scope note on 'the canonical end' (B1667's row) (P-589). No phrase row added: each correction is a scope, carried by dated notes and the rows' brackets.
 
+
+**Currency (verified 2026-11-05, S305g, through B1842).** The window B1810–B1842 produced no new live-claim retraction
+row. Three overstatements were corrected in place, each by its own instrument:
+- **B1838 § 2b's "the norm of no geometric cut"** was sharpened to "no single horoball level reproduces the weights": three
+  depths, tested at two rows (the web seat's 1a7861df3 § 2; B1838's S305c dated note). The wider wording survives in
+  B1839's sealed PREREGISTRATION ("Why") and in S304's log entry. Both are frozen, and both are corrected — by B1839's
+  PRE_RUN_NOTE.md and the dated note — rather than registered here, since registering would mark sealed text as a live use.
+  The scoreboard's A07 basis carries the sharpened wording.
+- **P-682's "8–30: none exactly"** was an overreach. Orders 7 and 9 were added (B1835's S305c dated note).
+- **Main's answer to the owner** that main had never looked at η_B was wrong. B285 is an early look, counted in V's block of
+  THE_FINAL_ACTS_BAR (S305e).
+
+No living surface repeats them as live claims. No row added.

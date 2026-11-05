@@ -1,5 +1,11 @@
 # Changelog
 
+## S305g THE HOMEWORK FOR A CLOSURE: B1841 SEALED BEFORE B1839 IS READ; THE SEATS ENGAGED (2026-11-05)
+
+- **The owner:** 'what else can we do to make sure all our homework is done, so we raise chances for right values', then 'hire other seats to help u prepare 100%'. Main's answer: homework cannot make the frame right; it can make sure a true value is detected, a false one is not banked, and the next attempt is derived. **B1841 THE PRINCIPLED-ENDS CARD** sealed before B1839's look is read (B1839's per-level profile would nearly reveal these entries): the six at B1840's four principled ends under B1839's matched null, K = 4 priced; its census dry-run on two apexes (finite; E1 > E4 > E2 > E3 as the geometry requires).
+- **The seats engaged** (P-699): the web seat — a hostile referee's read of B1841, its census third opinion, a geometry review of the frozen-row instrument; the SM seat — the instrument's physics, the y_b/y_t extraction under its N1–N6, the joint p_V of the pair (its C4b, after its S3: exact independence, a leading-order tie through Im τ), the location-free budgets, P-355. **B1842** holds the closure instruments as unrun drafts for their review.
+- B1839's census at 165 of 223 apexes, slowed by the machine's load; the verdict tonight. P-699; FLOOR 699. 0 of 19.
+
 ## S305f THE AGY LANE'S STAGES 14–15 READ AT THE OWNER'S WORD: NO JOINT EARNED, NOTHING THAT MOVES B1839; COMPLIANCE REGRESSED (2026-11-05)
 
 - **The owner:** 'refetch agy and see if its results strengthen our weakneses for sure and wether they have implications on the task youre dealing with'. Stages 14–15 (881538c8e, 2b6add031; Theorems 93–102) through the mask: **no joint earned** — B08 one step short (main can convert it at the lane's τ*, P-698); the GAP1 independence 'proof' differentiates in two knobs outside the frame, not a proof; the 'unique' lift is the old midpoint keyed to a PDG comparison; c = 3 not forced (nothing selects a 126); the reading triple and the Higgs-twist law's Liouville lemma restate main and the web seat (earlier by commit time); **Theorem 59 repaired**. **Nothing changes B1839's cells, B1840's list or the confirmation's scope:** the lane's two further ends (the area-π horocycle, a member of the area family; the horoball through ±i/2, not canonical) not entered, recorded before the look is read.

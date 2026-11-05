@@ -18,8 +18,8 @@
 | … NEGATIVE | 382 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 698 |
-| … QUEUED | 289 |
+| register points | 699 |
+| … QUEUED | 290 |
 | … LEAD | 9 |
 | … OWNER | 4 |
 | … DONE | 385 |
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S305g THE HOMEWORK FOR A CLOSURE: B1841 SEALED BEFORE B1839 IS READ; THE SEATS ENGAGED (2026-11-05)
 - S305f THE AGY LANE'S STAGES 14–15 READ AT THE OWNER'S WORD: NO JOINT EARNED, NOTHING THAT MOVES B1839; COMPLIANCE REGRESSED (2026-11-05)
 - S305e η_B JOINS THE HELD-OUT LIST; THE BANG PROGRAMME RULED (P-694, P-695) (2026-11-05)
 - S305d THE CONFIRMATION'S SCOPE FIXED BEFORE B1839 IS READ (THE SM SEAT'S S1–S4); THE AGY LANE'S STAGE 13 VERIFIED (2026-11-05)
@@ -63,17 +64,16 @@
 - S305b THE CLOSURE PREPARED: THE PRINCIPLED ENDS DECLARED BEFORE B1839 IS READ (B1840); THE WEB SEAT AND THE SM SEAT ENGAGED; THE AGY LANE'S STAGE 12 AND THE WEB SEAT'S POST HOC 2 VERIFIED; P-670'S SW…
 - S305a THE OWNER'S TWO CALLS RULED (P-665, P-684): THE PMNS CARD'S ONE TARGET IS r; NO DATA-TOUCHING EXISTENCE SCAN FOR A HELD-OUT TARGET; THE COMPLIANCE FOLLOW-UP SENT TO THE AGY LANE (2026-11-05)
 - S304 THE CANDIDATE'S END IS THE NORM OF NO GEOMETRIC CUT (B1838): e^-L_max ABOVE THE CELL'S INRADIUS; NO SINGLE HOROCYCLE REPRODUCES ITS WEIGHTS; A07 RE-TYPED ANSATZ; THE AGY LANE'S STAGES 10-11 VERI…
-- S303 THE END IS THE DECIDER: THE EXACT-END FAILURE REPRODUCED ON MAIN (P-595, B1838); THE LINE'S ORDER AND THE NEUTRINO (P-682); THE DENSITY POST HOC REPRODUCED (P-681) (2026-11-05)
 
 ## The latest campaign line
 
-LATEST (2026-11-05, S305f: the agy lane's Stages 14–15 — no joint, nothing that moves B1839; compliance regressed, a second note asked of the owner (P-697); the physical lane's review read. B1839's census running. 0 of 19.)
+LATEST (2026-11-05, S305g: B1841 THE PRINCIPLED-ENDS CARD sealed before B1839 is read; the web seat and the SM seat engaged to referee it and to specify the confirmation's statistics (P-699); B1839's census near done, slowed by load. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
 | check | count | first items |
 |---|---|---|
-| arc folders without a verdict file (scripts/checks/arc_data.py classifies them; its resolved R-classes are not defects) | 41 | B1839_the_end_card, B1840_the_principled_ends, B263_t41_cs_levels, B452_ethogram_dictionary, B473_criticality_program, B501_universe_word |
-| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 158 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
+| arc folders without a verdict file (scripts/checks/arc_data.py classifies them; its resolved R-classes are not defects) | 43 | B1839_the_end_card, B1840_the_principled_ends, B1841_the_principled_ends_card, B1842_the_closure_instruments, B263_t41_cs_levels, B452_ethogram_dictionary |
+| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 161 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
 | register rows not in the 7-cell form | 0 | — |
 
