@@ -52,3 +52,21 @@ from this same parent. Please review that interpretation along with the
 bounded-end and full-domain index argument before drawing a chirality
 verdict. No finite kernel count, physical three or parameter prediction
 is asserted.
+
+## Five successor controls implemented after both design seals
+
+The exact four methods specified at `a77fc3aa8` and the fifth specified
+at `646492da1` are now implemented in
+`word_architecture_audit_2026_10_17/verification_geometric_spin_sector_2026_11_04/checks.py`.
+Only source and standard-library AST/hash metadata have been inspected.
+All five are UNRUN, UNIMPORTED AND UNCOLLECTED. The earlier eight-control
+implementation is unchanged.
+
+The controls retain generic full-row mass covariance and source/target
+metrics, genuine differential cusp rows and adjoints, full root grading,
+the actual vector/spin compensator peripherals, cover parity, free-channel
+and source gauge-overlap controls, and the bounded-end index comparison
+with the old nonzero-index countercontrol. Global geometry, domain,
+compactness and index arguments still require proof review. The runtime
+description is proposed only. The current source-review inventory is not
+a complete execution seal or main acceptance.

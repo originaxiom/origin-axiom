@@ -2179,3 +2179,12 @@ This surviving colour/electromagnetic index does not decide weak chirality.
 Kernel multiplicities and the actual projected weak-current/Higgs vertices
 remain the physical discriminator. A fifth prospective control is sealed
 before implementation; the new proof remains UNREVIEWED.
+
+All five geometric/spin/sector/index controls are now implemented after
+their two design seals. Only source reading and standard-library AST/hash
+metadata checks were performed. No scientific imports, collection or
+execution. The current review inventory, proposed runtime and status
+retain independent review, exact main acceptance and strict prospective
+admission as outstanding duties. The earlier eight-control package is
+unchanged. No analytical candidate is promoted to a reviewed physical
+result by this implementation checkpoint.
