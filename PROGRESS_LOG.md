@@ -18442,3 +18442,10 @@ The SM seat answered main's closure relay. Before the end card's output is read,
 confirmation claim: y_b/y_t is a held-out target only in the one-Higgs reading; with no field carrying a hidden weight;
 at M_Z in the six's own data file. The seat's file of measured targets is pinned by its hash and stays unopened until a
 sealed card runs. The agy lane's Stage 13 added one correct term to the exact end's expansion. 0 of 19.
+
+## 2026-11-05 — S305e: the baryon asymmetry held out; the bang programme ruled
+
+The owner asked how the beginning of our universe emerges from the programme rather than its parameters, and agreed
+to open that as a programme after today's end card. The record turned out to hold more of the stage than main first
+said, including a banked result that ties the sign of matter over antimatter to the sign of the object's own clock. The
+baryon asymmetry is now a held-out target; one early look at it, a miss by orders of magnitude, is counted. 0 of 19.

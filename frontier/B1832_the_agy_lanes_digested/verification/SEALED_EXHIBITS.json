@@ -1006,5 +1006,45 @@
   "lines": "1775-1833",
   "sha256": "15532c2ed47a4a12c1be7c1ab24c9be7232754c61d3da21a11f3362a54e7c447",
   "bytes": 3929
+ },
+ {
+  "what": "toe_closure.py 660-735 at 79b09046a (S305e: η_B, now on V's held-out list — a computation, mention or assertion; unread)",
+  "rev": "79b09046a",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "660-735",
+  "sha256": "28dbb22d19d08d8eaf25e7aa9da9bdae0e197ecf13f2b839f902b49800df8020",
+  "bytes": 3752
+ },
+ {
+  "what": "toe_closure.py 15887-15887 at 79b09046a (S305e: η_B, now on V's held-out list — a computation, mention or assertion; unread)",
+  "rev": "79b09046a",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "15887-15887",
+  "sha256": "aab9a12091bfac40bf3cde438f73069fef0d60aa4a1ee0183809d43edde95e44",
+  "bytes": 67
+ },
+ {
+  "what": "toe_closure.py 15986-15986 at 79b09046a (S305e: η_B, now on V's held-out list — a computation, mention or assertion; unread)",
+  "rev": "79b09046a",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "15986-15986",
+  "sha256": "5299681c04444161731cadcd7901fcb29b407317718123e90f360f713d71009a",
+  "bytes": 63
+ },
+ {
+  "what": "toe_closure.py 16094-16094 at 79b09046a (S305e: η_B, now on V's held-out list — a computation, mention or assertion; unread)",
+  "rev": "79b09046a",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "16094-16094",
+  "sha256": "ce39062d84dddae6424ebb32e772f145ddc2c050b651ae3f10ed469ebe80cdf2",
+  "bytes": 60
+ },
+ {
+  "what": "test_elevation_operator_gate.py 478-484 at 79b09046a (S305e: η_B, now on V's held-out list — a computation, mention or assertion; unread)",
+  "rev": "79b09046a",
+  "path": "tests/test_elevation_operator_gate.py",
+  "lines": "478-484",
+  "sha256": "3bea935d5c2bf5d3e4ca8bae7a5d6c2fc98d46de73d5acb4a808f7e42b95d97d",
+  "bytes": 503
  }
 ]
