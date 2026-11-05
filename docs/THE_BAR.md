@@ -64,12 +64,21 @@ A **positive** reads: frame F, on state s (at level k, with end condition e), sh
      a changed target statistic chosen after seeing results may be; a finite Monte Carlo is an estimate and keeps its
      stated uncertainty.
 5. **The gate.** The positive counts only if p < 0.01: B614's G3, the record's standing threshold, not a prior (PRACTICES).
+6. **[2026-11-03, the owner's ruling on P-577: "agreed"; GENESIS v1.61, B1829] The two levels, where the joint look count
+   applies (docs/LOOK_LEDGER.md).**
+   - *Level 1, the screen:* steps 1–5 with every within-arc choice priced — the matched null re-makes every choice read from
+     the data (the lepton factor, the line class, the reading; any binary choice read from data doubles p) — at p < 0.01, with
+     **no** factor for the joint count. A look that holds its support cell and passes is a **CANDIDATE** (the grade below).
+   - *Level 2, the confirmation:* the frozen candidate predicts held-out quantities under GENESIS GAP1's v1.60 rule (each at
+     p_V < 0.01/m_V, two at least). Only then do its values count, as PREDICTED.
+   - The ledger reports beside every candidate the number expected by chance: 0.01 per screen.
 
 **The grades** (WHAT_WOULD_COUNT §3's REPRODUCED and FITTED, PASSED as the screen for its DERIVED, and UNJUDGED):
 
 | grade | when | credit |
 |---|---|---|
 | **PASSED** | s chosen by a fixed rule, and p < 0.01 | full credit as a rarity screen; a candidate for WHAT_WOULD_COUNT's DERIVED, never sufficient for it, never a physical admission |
+| **CANDIDATE** | level 1 (step 6): a sealed look holds its support cell and passes p < 0.01 against the fully matched null, with no joint-count factor | none as a result: frozen, never cited as support, owed a level-2 confirmation by held-out prediction (B1829) |
 | **REPRODUCED** | comparable objects show X at a rate that makes it unremarkable (p ≥ 0.01) | zero, and labelled |
 | **FITTED** | s found by scanning, and p ≥ 0.01 after the scan's trials | negative: it spends look-elsewhere budget |
 | **UNJUDGED** | F has no population run, so no base rate exists | none until the run |

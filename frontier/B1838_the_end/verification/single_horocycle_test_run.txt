@@ -1,0 +1,8 @@
+R1 up   L_max 0.6469 ; level where exact = small-cut, per channel: {'1': 0.9136, 'i': 0.9464, 'j': 0.813, 'k': 0.8115}
+R1 down L_max 0.6469 ; level where exact = small-cut, per channel: {'1': 0.9136, 'i': 0.9464, 'j': 0.813, 'k': 0.8115}
+R1 lep  L_max 0.6469 ; level where exact = small-cut, per channel: {'1': 0.9136, 'i': 0.9464, 'j': 0.813, 'k': 0.8115}
+R1: over every channel and sector, the solved levels span 0.8115 .. 0.9464 (spread 0.1349); quadrature relative error at L_max 1.9e-14
+R3 up   L_max 0.6469 ; level where exact = small-cut, per channel: {'1': 0.9123, 'j': 0.8134, 'k': 0.8112}
+R3 down L_max 0.6469 ; level where exact = small-cut, per channel: {'1': 0.9123, 'i': 0.9477, 'j': 0.8134, 'k': 0.8112}
+R3 lep  L_max 0.6469 ; level where exact = small-cut, per channel: {'1': 0.9123, 'i': 0.9477, 'j': 0.8134, 'k': 0.8112}
+R3: over every channel and sector, the solved levels span 0.8112 .. 0.9477 (spread 0.1365); quadrature relative error at L_max 1.9e-14

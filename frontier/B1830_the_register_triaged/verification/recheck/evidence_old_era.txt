@@ -1,0 +1,204 @@
+
+====================================================================================================
+LAW_MAP line 50:
+| **THE TOTIENT ROOT OF B685 (why the object generates being not hearing)** | the being/hearing asymmetry reduces to prime-vs-composite TOTIENT: 3 (the object's own prime, ℚ(√−3)) has φ(3)=2 PRIME → Gal ℤ/2 with no proper subgroup → the ζ₃ orbit is an irreducibly MINIMAL self-conjugate doublet = the figure-eight's own shape roots (z²−z+1=0), no hierarchy possible; 5 has φ(5)=4 COMPOSITE → Gal ℤ/4 ⊃ ℤ/2 → golden-related Gaussian periods (t²+t−1) → the hearing's rich hierarchy (tones, RR streams). The object contains 3 not 5, so it generates a minimal being-doublet but NOT the composite-totient hearing-richness | THEOREM-grade structural fact (exact totient/Galois; EXPLAINS the B685 no-go at its arithmetic root) | B691 (cc2 E-2b + main-seat verify) | the level-15 handshake — **E-3a CLOSED (B694): a_(5)=+1 both routes; BEING FORCED — base change of a rational newform has Hecke field ℚ, so φ∈ℚ(√5) is a priori unreachable; the avatar structurally CANNOT carry the golden. Three routes now agree (geometry/B685, totient/B691, Hecke/B694). E-3b (interfere/decouple + chirality) running** | 
+
+
+--- headline arc B685; signals ['F:withdrawn']
+FINDINGS B685_generation_terminal:37: signal; there is a pure-3 fact. Corrected; the "being × hearing survives symmetrisation" reading is withdrawn. 
+
+====================================================================================================
+LAW_MAP line 59:
+| **THE FIGURE-EIGHT'S ELLIPTIC CURVE = 15A8 (conductor = the congruence level)** [B692/B693 + B743; the trifocal synthesis B674/B698 — the earlier [B509/B510] bracket was STALE: those arcs are the 40a3/40a1 square-time pair, the exact 40a1≠15A8 species this row guards; caught by B1068's f2 lens, fixed 2026-08-18] [B1238, 2026-09-02: the pair is one curve — the character variety is 40a3 itself and 40a1 its σ-quotient; the guard stands: conductor 40 ≠ 15 either way] | the figure-eight A-polynomial (quadratic in L) has elliptic model y² = (m²−3m+1)(m²+m+1) in m = M² with j = −1/15 = j(15A8); conductor 15 = 3·5 = being prime × hearing prime = the banked congruence level; THE BRANCH LOCUS IS BIFOCAL: branch points m = φ², φ^{−2} (golden pair) and m = ω, ω̄ (Eisenstein pair) | THEOREM-grade + ISOGENY-CLASS CONFIRMED (two seats, two independent elliptic models — cc2's palindromic quotient Y²=(t+1)(t−2)(t+2)(t−3) and cc's discriminant curve Y²=(m²−3m+1)(m²+m+1); DIFFERENT j (13997521/225 vs −1/15 — isogenous not isomorphic) but IDENTICAL a_p = [0,−4,−2,2,4,0,−2,0,−10,10,4,8] at all 12 good primes p=7..47, recomputed on the main seat; c₄=1, c₆=−161, Δ=−15; class 15a; prior art Borot–Eynard/Kyoto NEEDS-SPECIALIST, program novelty = conductor 15) | the web seat's lit pointer + main-seat verification — computed in frontier/B692_level15_literature + frontier/B693_loop_e3_inert5; cc re-verification of j=−1/15 in frontier/B743_rung1_widened | the 15A8 twist check; L(E₁₅,s) special values vs banked data | 
+
+
+--- headline arc B1238; signals ['F:unearned']
+FINDINGS B1238_seat_harvest_40a3_bronze_octic:47:  - **B211** — verdict claim prefixed with the correction; addendum; `charvar_zeta.py` and `test_b211` untouched (the point-count relation is true and isogeny-invariant; a comment records that). **B213** note (the 40a3 label now derived, not cited). **B509/B510** — addenda + notes: the flag resolves *upward* (identity of curves, not Jacobian-of-a-cover; 40a1 = the σ-quotient); B510's claim is prefixed (its cover/base roles are inverted). **`docs/IDENTIFICATION_LEDGER.md` I-12 EARNED** (UNEARNED count unchanged at 5; baseline `total_rows` 12). - **B362** — `superseded_by: "B367"`, claim prefixed, addendum (E53 #16).
+
+====================================================================================================
+LAW_MAP line 62:
+| **THE 5-ADIC EXCLUSION (two instances)** [B683/B685] | objects with algebraic-INTEGER coefficient rings cannot match the banked target streams, whose reduced coefficients carry unboundedly growing 5-power denominators (v₅ = 1, 12, 49, 99, 146 at n = 1, 10, 40, 80, 119): instance 1 = W33's ladder exclusion; instance 2 = the W2 Molien kill (ANY finite-order operator's Molien/twisted character is algebraic-integral — the whole class dies at once, decided at n ≤ 1) | LAW (2 instances, exact; kill #8 of the generation leg) | W33 + W2 step (iii) — the W-cells live in frontier/B674_generation_leg/ (PREREG_W2.md, PREREG_W3_RUN.md); terminal close frontier/B685_generation_terminal | does the exclusion force the leg's terminal no-go, or does a NON-finite-order / non-integral construction evade it (the close-out adjudication) |
+
+
+--- headline arc B685; signals ['F:withdrawn']
+FINDINGS B685_generation_terminal:37: signal; there is a pure-3 fact. Corrected; the "being × hearing survives symmetrisation" reading is withdrawn. 
+
+====================================================================================================
+LAW_MAP line 63:
+| **THE EXPONENTIATION LAW (the generation leg's two-route design theorem)** [B685] | flat modular spaces (Riemann–Roch: graded growth bounded-by-cusps or linear-in-weight) and flat skein modules (polynomial multicurve growth) are excluded TOGETHER against partition-like targets — any generating functor lives on a Sym/Fock object; and the exponentiated candidate is UNIQUE (no skein-side finite-order graded W exists — the weld is hyperbolic on slopes; only the weight-1/5 multiplier makes it finite-order) ⇒ the design space is ONE POINT: the modular-side Fock space with the order-10 lift | design THEOREM (two exact growth arguments + the finite-order obstruction; derived independently on both seats, adversarially cross-checked) | W2 design exchange (the Γ(5) note 7c91973a + cc2 cross-check 450608c5) — frontier/B674_generation_leg/ (W2_DESIGN_NOTE_GAMMA5.md, CROSSCHECK_W2_CC2.md, PREREG_W2.md) | the sealed Molien cell (PREREG_W2 b4c9a6bb) |
+
+
+--- headline arc B685; signals ['F:withdrawn']
+FINDINGS B685_generation_terminal:37: signal; there is a pure-3 fact. Corrected; the "being × hearing survives symmetrisation" reading is withdrawn. 
+
+====================================================================================================
+LAW_MAP line 68:
+| **THE CYCLIC-COVER RANK LAW (B489)** | the figure-eight cyclic-cover tower has DGG rank = 2n−1 for ALL n (layered triangulation: N=2n tetrahedra, mapping torus c=1 cusp) and torsion = \|L(2n)−2\| = (φⁿ−φ⁻ⁿ)² ≥ 5 for n≥2 (blocks Gang–Yonekura) — Binet-exact | **THEOREM** (structural, all n) | B489; cc-reproduced B785/H2 (SnapPy n=1..16, Binet exact) | — (done; Binet identity) |
+
+
+--- headline arc B489; signals ['F:unearned']
+FINDINGS B489_self_interaction_tower:51:   test of 4a: the **level-16 Weil-rep lock count** — if it is 16, that would be a genuine bridge;   until computed, treat the coincidence as unearned. 
+
+====================================================================================================
+LAW_MAP line 140:
+| **MEASUREMENT = FIBER FUNCTOR (B700 cell 1, the golden torsor)** | the object's golden hearing (B640, ρ_hear→2I) selects one of the TWO 2-dim golden irreps of 2I=SL(2,5); they have character field EXACTLY ℚ(√5) and are swapped SIMPLY-TRANSITIVELY by Gal(ℚ(√5)/ℚ)=ℤ/2 (τ:ζ₅↦ζ₅², no Galois-fixed irrep). So {golden measurements} is a ℤ/2-TORSOR = the fiber-functor ambiguity: measurement = choice of fiber functor, ambiguity = Galois ambiguity, concretely (not analogy). Upgrades the K020-in-ear PLACEMENT (B642) toward a theorem. **cell 2: the three measurement-ambiguity ℤ/2's (golden Gal(ℚ(√5)/ℚ), being σ*/Gal(ℚ(√−3)/ℚ), meeting h(ℚ(√−15))) are the THREE INVOLUTIONS of V₄=Gal(ℚ(√−3,√5)/ℚ), with the group law being·hearing=meeting (√−3·√5=√−15) — the genus residue IS the Galois group law.** | **cell 4: STAGE-UNIFORM — the E₆ level-2 stage (PSL(2,7), D=3) has EXACTLY two 3-dim irreps, field EXACTLY ℚ(√−7), simply-transitive ℤ/2 torsor — identical structure. The fiber-functor field is the QUADRATIC SUBFIELD of ℚ(ζ_p), p=the stage's shadow prime (golden 5→ℚ(√5); E₆ 7→ℚ(√−7)) — stage-uniform, NOT golden-special ⇒ upgrades K020-in-ear PLACEMENT toward a THEOREM; ℚ(√−7) answers S041/H32.** **cell 5 (general): STAGE-UNIFORM for ALL prime stages — SL(2,p) has exactly two (p−1)/2-dim irreps, field ℚ(√p*), simply-transitive (p=5,7,11,13; classical Gauss-sum characters). cell 3 (cc2): the golden stage is TWO-SIDED — one σ realizes the torsor on the modular data (Coste–Gannon), the irreps (cell 1), AND the weld (cell 3a, W^k↦W^{3k}). K020-in-ear PLACEMENT → THEOREM-grade for the TORSOR STRUCTURE; the CANONICAL torsor-iso (are the irrep/MTC/weld/V₄ bits ONE bit or merely same-σ?) is the NAMED remaining gap (phase-2), not over-read as canonical.** **PHASE 2 (B701) — RESOLVED: the canonical torsor-iso is OBSTRUCTED. The two golden irreps of 2I are genuinely symmetric (FS=−1 both, self-conjugate — no canonical basepoint), while the MTC torsor is unitarity-POINTED (Fibonacci φ>0 vs Yang–Lee −1/φ<0); a ℤ/2-iso would transport the basepoint back, contradiction ⇒ NO canonical iso. 'Measurement = fiber functor' is same-σ, NOT canonical — and the OBSTRUCTION IS the observer-coupling thesis: the object gives the AMBIGUITY (torsor) but not the VALUE (basepoint); a canonical iso would manufacture a forced value, contradicting B685. The bridge is built to its honest ceiling.** THEOREM-grade (exact character table + independent ℚ(ζ₅) recompute; base-rate-gated: exactly-two + simply-transitive + field-ℚ(√5), not the trivial 'value is quadratic'; prereg 1bbdb15b) | B700 cell 1; B640/B642; K020 | the fiber-functor program: cell 2 (is this ℤ/2 = the being σ* and the meeting residue?), cell 3 (Coste–Gannon modular-data action), cell 4 (a second stage ⇒ stage-uniform) |
+
+
+--- headline arc B700; signals ['F:not a law']
+FINDINGS B700_fiber_functor:169:  HINT (not a law): the realizing power is 3, the being prime. Base-rate caveat: 3 also generates (ℤ/10)*, so "3 = being prime" is a HINT, not
+
+====================================================================================================
+LAW_MAP line 146:
+| **TUROK: INVERTED, NOT MARRIED (B709)** | the object has TWO ℤ/2's — amphichirality (K=K̄, CS=0, CANONICAL) and the fiber-functor torsor (√5→−√5, NON-canonical, B701); Turok's CPT (fixes the bang, canonical) MATCHES the first and INVERTS the second; the genuine relation is complementarity of KINDS (discrete vs continuous, B706), not identity | PLACEMENT | B709/B707 | the two-ℤ/2 partition |
+
+
+--- headline arc B709; signals ['F:withdrawn']
+FINDINGS B709_turok_marriage_adjudication:94:   > cannot fill a functional slot). This phrasing seeded a nine-file overclaim on the audit   > branch (withdrawn 2026-08-10); fenced so it cannot seed another. The same fence reads onto   > `PREREGISTRATION.md:72`.
+
+====================================================================================================
+LAW_MAP line 150:
+| **CHIRALITY IS THE OBSERVER'S, NOT THE OBJECT'S (B713)** | the θ-symmetric (amphichiral) object is robustly VECTOR-LIKE (σ_ω(4₁)=0 on the whole circle, forced by amphichirality; N–N-rigid, B565); the triality/multiplicity route is GAUGE-ONLY (no ℤ/3 acts — Isom(4₁)=D₄ order 8; two-seat w/ cc2); 'which chirality' is a non-canonical ℤ/2 Galois torsor bit (fiber y²−3y+3, disc −3, simply-transitive; same V₄ as the fiber functor) = the observer's fiber-functor choice. Chirality enters through the COUPLING, not the object | PLACEMENT (Frontier 1/4: the physics of the object) | B713 (+ cc2 triality-matter M1–M4; B565/B307/B711/B701) | the c-breaking of measurement |
+
+
+--- headline arc B713; signals ['RETR x1', 'F:retracted']
+RETRACTIONS row: | B790's Maass-adjudication first pass: the "ordinary noise" null verdict + three supporting readings | frontier/B790_maass_adjudication/FINDINGS.md (first pass) | FOUR CORRECTIONS CONCEDED (Chat-1's challenges, all four) — the reported null was never the pre-registered one AND the "Weyl-matched" null was miscoded (e^ℓ for e^{2ℓ}); L3 re-verdicted MISS-earned; tests 1–3 vacuous; the B713–B716 scope reading corrected | the B790 ADDENDUM (2026-07-28, in-FINDINGS); ERROR_LEDGER E29 |
+FINDINGS B713_chirality:42: On the object-intrinsic instrument (the Tristram–Levine signature σ_ω, after a lattice-index first attempt was correctly retracted as a boundary/parity artifact): **σ_ω(4₁)=0 on the ENTIRE unit circle, FORCED by amphichirality** (σ_ω(mK)=−σ_ω(K),
+
+====================================================================================================
+LAW_MAP line 154:
+| **TIME IS THE OBSERVER'S, NOT THE OBJECT'S (B716)** | the object is TIMELESS Euclidean 3d being: its only intrinsic time is the no-arrow Anosov suspension flow (entropy log φ², amphichiral time-reversal, compact S¹ — a Connes–Rovelli thermal/modular time, not external cosmological ℝ-time); NO canonical 4d (Ω₃^SO=0, no object invariant is 4-manifold-valued); NO canonical Wick rotation (H³ isotropic ⇒ no invariant time axis). Time/4d/Lorentzian-signature enter through the COUPLING, like chirality (B713) + values (B685/B706) | PLACEMENT (Frontier 4/4) | B716 (+ B710) | the object supplies no becoming |
+
+
+--- headline arc B716; signals ['RETR x1', 'F:unearned']
+RETRACTIONS row: | B790's Maass-adjudication first pass: the "ordinary noise" null verdict + three supporting readings | frontier/B790_maass_adjudication/FINDINGS.md (first pass) | FOUR CORRECTIONS CONCEDED (Chat-1's challenges, all four) — the reported null was never the pre-registered one AND the "Weyl-matched" null was miscoded (e^ℓ for e^{2ℓ}); L3 re-verdicted MISS-earned; tests 1–3 vacuous; the B713–B716 scope reading corrected | the B790 ADDENDUM (2026-07-28, in-FINDINGS); ERROR_LEDGER E29 |
+FINDINGS B716_time_gap:18: > bank it as physics. What the holonomy does not fix stays the observer's or a choice: the vacuum (Λ's sign), the nappe, the > unit, and the identification with physical spacetime, which remains UNEARNED.* 
+
+====================================================================================================
+LAW_MAP line 155:
+| **HOW 4d REALITY EMERGES — observer's closings of the object's incompletenesses (B716+child)** | reality = the observer's CLOSINGS of the object's INCOMPLETENESSES: SPACE = a Dehn-filling slope ∈ ℚ∪{∞} on the cusp → the child 3-manifold (and the being washes out: 4₁(5,1)≅5₂(5,1)=m003(−2,3), a non-arithmetic being gives the identical child — cc2, cc-verified); TIME = the temporal continuation on the no-arrow Anosov flow. The object supplies the boundaries (cusp + flow); the observer supplies every closing | PLACEMENT | B716 + cc2 child-fusion (F3 cc-verified) | reality's structure itself is the observer's (deepens B685/B706) |
+
+
+--- headline arc B716; signals ['RETR x1', 'F:unearned']
+RETRACTIONS row: | B790's Maass-adjudication first pass: the "ordinary noise" null verdict + three supporting readings | frontier/B790_maass_adjudication/FINDINGS.md (first pass) | FOUR CORRECTIONS CONCEDED (Chat-1's challenges, all four) — the reported null was never the pre-registered one AND the "Weyl-matched" null was miscoded (e^ℓ for e^{2ℓ}); L3 re-verdicted MISS-earned; tests 1–3 vacuous; the B713–B716 scope reading corrected | the B790 ADDENDUM (2026-07-28, in-FINDINGS); ERROR_LEDGER E29 |
+FINDINGS B716_time_gap:18: > bank it as physics. What the holonomy does not fix stays the observer's or a choice: the vacuum (Λ's sign), the nappe, the > unit, and the identification with physical spacetime, which remains UNEARNED.* 
+
+====================================================================================================
+LAW_MAP line 157:
+| **THE CHILD LEDGER — reality is arithmetically GENERIC + authors NO skeleton (B718)** | beyond H₁=ℤ/p (the surgery coefficient) the child inherits NOTHING structured from the object: no field law (sister m003 same ℚ(√−3), different degree law), NO own charged skeleton (child ramified prime 283→full generic SL(2,283); SL(2,p) is McKay only at p=3→E₆/p=5→E₈, and the OBJECT sits at the special 3), golden slope generic (5=⌈2√6⌉, √(12+p²) cusp length, no √5). ONE positive: exactly 3 arithmetic children {5,6,8}, all integral. DECISIVE for the SM riddle: the SM structure does NOT migrate to the closing; reality carries only a generic transformed being + ℤ/p | PLACEMENT | B718 (+ cc2 child-integration: being survives/hearing dies) | the object's E₆ is inseparable from its special prime 3 |
+
+
+--- headline arc B718; signals ['F:retracted']
+FINDINGS B718_child_program:24: (0/10 agreement). Same disc, different law ⇒ the parent's arithmetic does not control the child's. (An earlier "parent disc controls the child" claim was RETRACTED.) 
+
+====================================================================================================
+LAW_MAP line 164:
+| **THE BORN CONTENT IS ARITHMETICALLY STRATIFIED — the hearing owns the WEIGHTS (B726)** | owner's hypothesis (the hearing face supplies the Born content the diagonal being lacks, B725), tested base-rate-gated. The Born rule's ingredients have DISTINCT arithmetic owners (minpolys in-sandbox): **FORM** (order-2 \|·\|² conjugation-norm) = the BEING ℚ(√−3)=ℚ(ζ₃); **NON-UNIFORM WEIGHTS** d_a²/D²=1:φ² (5x²−5x+1, deg 2) = the bare HEARING ℚ(√5) — this half GENUINELY closes (owner vindicated on the weights); but **AMPLITUDES** (1/D, φ/D; 5x⁴−5x²+1, deg 4) need a real QUARTIC ℚ(√φ), and the **INTERFERENCE PHASE** (twist ζ₅², complex) needs ℚ(ζ₅) — the golden MTC's cyclotomic UPGRADE (real subfield ℚ(√5) = the B700 fiber-functor) — owned by NEITHER bare quadratic face. So the two BARE faces do NOT close the gap (OUTCOME B); the full content lives in ℚ(ζ₅). Probe1: being diagonal ([ρ,H]=0) vs Fibonacci-MTC off-diagonal/unitary is genuine but RELOCATED off the cat map A (A Anosov, not unitary). TWO hooks REJECTED at base-rate: A²=M~\|ψ\|² (golden norm N(φ)=−1 ≠ square φ²) and "ℚ(√5) supplies the complex content" (ℚ(√5) totally real) | PLACEMENT (Frontier/observer: the Born-content stratification) | B726 (+ cc2 naivety-review discipline; Fibonacci MTC modular data WebFetch-verified) | the deeper un-run test: resum the trans-series w/ its Stokes connection (B722-rigid) — cc2 |
+
+
+--- headline arc B726; signals ['F:does not hold']
+FINDINGS B726_hearing_born_content:62: quantum content" is right for the WEIGHTS and needs the cyclotomic upgrade for the PHASE. The clean "two bare faces = the two halves of QM" does NOT hold; there is real content in ℚ(ζ₅) beyond both trace fields. The seductive A²=M/amplitude-square hook is dead. **Nothing to CLAIMS; no SM value.**
+
+====================================================================================================
+LAW_MAP line 172:
+| **THE OBJECT'S EMITTANCE (heartbeat/voice) — a real third face, same walls (B735)** | the spectral/emitted face, previously ignored (cc2 Track 2, cc-verified): HEARTBEAT = the length-spectrum traces are Eisenstein integers ℤ[ω]=ℚ(√−3) (verified (3±√−3)/2, 1±√−3) with TRANSCENDENTAL realized lengths (dense) — a THIRD kind of data, neither the finite 𝔽₂ observer-menu nor a continuum (a countable ℤ[ω]-family); VOICE = the cusp, open→continuous Laplacian spectrum [1/4,∞), closed→discrete ("closing silences the voice" literal — m004 1 cusp vs m004(5,1) 0 unfilled, ties B718); the being's automorphic spectrum embeds in the object's voice (degree-12 cover of the Bianchi orbifold, B734). SAME WALLS: the spectral facts are GENERIC (every cusped hyperbolic 3-mfd; m003 shares); the "cusp=B723 observer-site" over-claim CAUGHT (B723 is field-level; the object-level observer is unbuilt); values=look-elsewhere | PLACEMENT (a real new face, honestly bounded) | B735 (cc2 track; snappy-verified) | the OBJECT-LEVEL observer (m004's own Bianchi KMS/Galois + cusp) — pointed at from two sides |
+
+
+--- headline arc B735; signals ['F:retracted']
+FINDINGS B735_emittance:31:   m004/…); the OBJECT-level observer (KMS/Galois on m004's OWN Bianchi arithmetic + cusp) is the   UNBUILT next door. An open door was reported as closed; retracted. - The track stalls at "structure exists" (no Maass eigenvalue computed — Sage unavailable), so it
+
+====================================================================================================
+LAW_MAP line 222:
+| **BOTH OBSERVER CLAUSES WERE ONE LEVEL TOO HIGH (B942 + B957)** | B723 placed **chirality** and **values** in Gal(K^ab/K); chirality actually lives in **Gal(K/ℚ)** (B942) and values in a **quadratic Galois ℤ/2** (B700/B957) — **both of order 2, neither profinite**. B700's torsor vs CMR's is a category mismatch (2 vs infinite) over **mutually blind** fields (5 inert in ℚ(√−3), 3 inert in ℚ(√5)). The *structure* — measurement = fiber-functor choice with Galois ambiguity — survives; the group assignment does not | `frontier/B957_l124_torsor` · `tests/test_b957_l124.py` · B957 B942 B700 B723 |
+
+
+--- headline arc B942; signals ['F:retracted,unearned']
+FINDINGS B942_l113_bc_falsifier:136:  **RETRACTED** (B723, and anything downstream that leans on it): 
+FINDINGS B942_l113_bc_falsifier:165: > i.e. is its structure group Gal(K^ab/K)?** Until computed, the values clause is > **UNEARNED, not refuted.** Treating "the surviving half" as established would repeat > this arc's error one clause over.
+FINDINGS B942_l113_bc_falsifier:219: observer construction, fired, and hit.** The chirality-as-Galois-label identification is retracted; the values clause is demoted from assumed to open; the sheet is relocated to Gal(K/ℚ), where it is arithmetic rather than thermal.
+
+--- headline arc B957; signals ['F:unearned']
+FINDINGS B957_l124_torsor:5: **Discharges:** the debt B942 left open when it demoted the values/torsor clause to **UNEARNED** and forbade anything leaning on it. 
+FINDINGS B957_l124_torsor:33: idèle class group of ℚ(√−3). The identification B723 relied on is therefore **refuted, not merely unearned.** 
+
+====================================================================================================
+LAW_MAP line 234:
+| **NO CANONICAL VEV — EXCEPT ARITHMETICALLY (B962)** | 𝕆P² = F₄/Spin(9), and F₄ is transitive on **triples** of orthogonal primitive idempotents, so even the **two-VEV configuration** is homogeneous: a canonical point of a homogeneous space exists only if the space is a point. **Over ℤ or a number field homogeneity FAILS** — Kato–Yukie classify rational orbits of **pairs of 27s by CUBIC ÉTALE ALGEBRAS**, pointing at this programme's own cubics (μ, κ, K = ℚ[ρ]/μ). **Unworked: L138** | `frontier/B962_vev_scout` · `tests/test_b962_vev.py` · B962 |
+
+
+--- headline arc B962; signals ['F:retracted,withdrawn']
+FINDINGS B962_vev_scout:3:  *(Original title asserted two claims B964 later retracted — see the banner below.)* 
+FINDINGS B962_vev_scout:5:  > ## ⚠ PARTIALLY RETRACTED BY B964 (2026-08-08) — read before quoting anything below >
+FINDINGS B962_vev_scout:7: > > Two claims in this arc were withdrawn the same day, and **the retraction sweep (L139) > found this file still asserting them**:
+FINDINGS B962_vev_scout:32:  ## 1. THE ANSWER THAT CHANGES OUR SELF-ASSESSMENT  ⚠ *(partially retracted — see banner)* 
+FINDINGS B962_vev_scout:40: supplies one.** ~~*(As originally written this read "the object does not supply a VEV" — that phrasing is **retracted by B964**: the object DOES supply the adjoint VEVs, which are the measurement cascade. What it lacks is the rank-reducing **27** VEV.)*~~ B952/B959/B960 recorded the missing VEV as *the* gap between the
+FINDINGS B962_vev_scout:59: **So 27-only breaking delivers rank 4 and chirality, and then stops.** ~~*(As originally written this said "the VEV route provably stops one step short" — a **scope error retracted by B964**: the 78 contains a 24, so the standard chain completes.)*~~ B955's "the group theory is not the obstruction" **must be amended**: it is not an
+
+====================================================================================================
+LAW_MAP line 250:
+| **THE SLOPE LAW (B1438, with B1434 and B1435)** | on a level of any signed word state, the index of a Standard-Model-frame sector module and the cubic couplings of its zero modes are read off one function on the fibre's torsion characters: s(χ), the meridian value of the class of H¹(M; χ) normalised on the longitude (the cusp shape of the affine representation). Firing: I = [s(α) = s(ℓ)] − [s(β⁻¹) = s(ℓ)], so one count per background is a theorem. Couplings: s(ℓ) − s(η) in the longitude normalisation; diagonal across backgrounds with different extension characters and equal along a deck orbit — the frame cannot split generations. s is a sum over the letters of the word, real, a cotangent sum on + states. The architecture census (68 levels, 942 268 modules) is reproduced from s alone in twenty seconds; the interaction census (8 800 backgrounds, 140 448 values) is s(ℓ) − s(η) throughout. **Fence:** main's class index on non-semisimple backgrounds; the normalisation is the frame's, not a kinetic one; no value of the Standard Model | `frontier/B1438_the_slope_law`, `frontier/B1435_the_interaction_census` · `tests/test_b1438_slope_law.py`, `tests/test_b1435_interaction_census.py` · B1438 B1435 B1434 B1432 |
+
+
+--- headline arc B1435; signals ['F:withdrawn']
+FINDINGS B1435_the_interaction_census:110:   own level. Whether that is a hierarchy or an obstruction depends on a physics reading this arc does not have. - **The web seat's withdrawn pattern is real on a proper chain** — on the own-level states of the architecture. It   is not the pattern of the root's tower: on s961 everything couples.
+
+====================================================================================================
+LAW_MAP line 252:
+| **THE PERIODIC CURVE (B1444)** | every background of the Standard-Model frame is the reducible end of a curve of flat PSL(2) connections of its level — a twisted-periodic curve of the trace map through the torsion point of the extension character on κ = 2. The slope s(ℓ) is the cusp shape at that end; the torsion of a sector is (s(α) − s(ℓ))(s(β) − s(ℓ))·e + O(e²), so the banked coupling is a first-order torsion and the firing condition is its vanishing; the class index is zero off the end. Sealed and held on 27 untouched levels (1 223 of 1 223 unmatched sectors; 146 of 146 backgrounds). Backgrounds are of two kinds: on 38 of 202 the matched sectors' torsion vanishes identically, exactly where the curve lies in a Dehn filling. On the root's three-fold cover κ − 2 = w(w − 1), m + 1/m − 2 = −w(w² − w + 4), with the sister's backgrounds at the other end and a complete cusp in ℚ(√−3, √5). **Fence:** main's class index; torsion is not a mass; one direction of the background; the members of a deck orbit are not distinguished; no value of the Standard Model | `frontier/B1444_the_backgrounds_are_ends_of_periodic_curves` · `tests/test_b1444_periodic_curves.py` · B1444 B1438 B1297 B448 |
+
+
+--- headline arc B1444; signals ['F:not a law']
+FINDINGS B1444_the_backgrounds_are_ends_of_periodic_curves:115: guess happens to hold — 346 singly matched sectors of order two, 34 doubly matched of order three, 131 identically zero — and it is still not a law. 
+
+====================================================================================================
+LAW_MAP line 254:
+| **A COUNT IS ODD UNDER DUALISING, NOT UNDER THE MIRROR (B1297, B1455)** | the class index is unchanged by pulling a module back along any symmetry of the manifold, orientation-reversing ones included, and changes sign when the module is exchanged with its dual; so a module isomorphic to the dual of its own pullback counts zero. On every cyclic cover of the root the fibre's period-2 involution does this to the reducible configurations (B1297: the tower is vector-like). On Ballas' harmonic family the dual of the vacuum at q is the vacuum at 1/q and the knot's inversion does the same, so inversion-then-dual fixes every vacuum for every q > 0 and every central twist, and every reductive module of the family counts zero — a proof, by two routes with no shared code, and independently by the SM seat (B1455; sm:B1520). The eight symmetries act on the family through one bit, whether the longitude is inverted, and that bit is dualising. A counted non-split configuration is conjugate to its own mirror image and still counts −1. In the class-index frame the same sign is the order of the two pieces (B1438). **Fence:** a criterion for vanishing, not a classification — it does not exclude a count on a module no such symmetry fixes; one cusp; main's class index; unsourced; that the minima of the action are the reductive points is the audit lane's R76, not re-derived; no physics reading | `frontier/B1455_the_selection_rule_and_the_deciding_test`, `frontier/B1297_the_spectral_cover_index` · `tests/test_b1455_selection_rule.py` · B1455 B1297 B1438 B1453 |
+
+
+--- headline arc B1297; signals ['F:unearned']
+FINDINGS B1297_the_spectral_cover_index:178:   harvest queue (sm:B1280–B1283), never by trust. - I-26 (`h¹` ↔ 4d chiral generations) is the conditional every count here rests on and stays UNEARNED;   this arc adds NO identification row (its only "X is Y" is the E₆ block structure, a theorem in E₆).
+
+--- headline arc B1455; signals ['RETR x1', 'F:retracted']
+RETRACTIONS row: | one sentence of B1455's addendum and GENESIS FK12 (ii) on which symmetry dualises Ballas' family | B1455 addendum; GENESIS FK12 (ii) as it stood before v1.7 | CORRECTED — P is the swap and fixes the family; the dualising symmetry is the strong inversion (sm:B1521 C1, re-derived) | B1462; GENESIS v1.7 |
+FINDINGS B1455_the_selection_rule_and_the_deciding_test:14:   one|invariant selector|plenitude|totalitarian" --refs`: *VERDICT topic-sweep: 62 of 1326 arcs on main match   (NEGATIVE 11, OPEN 6, PROVED 44, RETRACTED 1); 6 other lanes match.* Read at verdict-line level: B128, B295, B849,   B853, B1204, B1222, B1225, B1227, B1327. The rule is on the record (B1227, B1225, B849, B1327); the test was not.
+
+====================================================================================================
+LAW_MAP line 256:
+| **THE COUNT IS THE ORDER, AND THE COUNT IS A BIT (B1466)** | at the counted point of m004's Ballas family (q₀ = 17 ± 12√2, μ = −1) the two stacking orders of the pieces A and 1 count −1 and +1, and they are each other's dual seen through the inversion (W* ≅ ι*W′), so the opposite counts follow from B1297's L1–L2; the mixed direction is unobstructed (the cup product's class in H² is zero, as B270/B273/B352's were) and leads to an irreducible module — the pieces fused — that counts 0, as the direct sum does. The flat configurations are richer than a bit; the count is a bit: ±1 on the orders, 0 side by side, 0 fused. A source along one line does not choose; a source on both lines drives into the count-zero region unless the potential's mixing quartic returns it to an axis (not on the record) | F-HE / F-CI; reach single (one object, two points; the duality theorem general); `frontier/B1466_the_two_orders_and_the_register_bit/` |
+
+
+--- headline arc B1466; signals ['RETR x1', 'F:retracted']
+RETRACTIONS row: | GAP6: "a flat bundle has ch = rk: no index built on it can tell 27 from 27̄ … a statement about curvature … that no flat frame carries", without hypotheses | GENESIS v1.9 (B1466) | NARROWED to its closed-bulk, characteristic-class hypotheses (v1.11, B1476; the audit lane's R89 and the web seat); v1.11's own "cannot reach continuous values" then CORRECTED to "continuous moduli" — a rigid flat point fixes numbers (v1.12, B1478; the web seat's A2) | GENESIS v1.11, v1.12 |
+FINDINGS B1466_the_two_orders_and_the_register_bit:14: count is the order|both orders|source term|R76|R77"` — *VERDICT topic-sweep: 115 of 1337 arcs on main match (NEGATIVE 22, OPEN 6, PROVED 85, RETRACTED 2)*; narrowed to the obstruction vocabulary: B270, B273, B352, B370 (the quadratic cup product at ρ_prin, zero to third order for the E₆ directions) — C3's method is theirs at the split module; B1453
+
+====================================================================================================
+LAW_MAP line 258:
+| **AT CS = ¼ NO SPIN STRUCTURE SURVIVES THE MIRROR (B1474, B1475, B1476; T-QUARTER-FORCES-SWAP)** | on every amphichiral cusped manifold read at Chern–Simons class ¼ (mod ½) — the ℚ(√−3) family's seven (m003, m207, s955, s957, s960, t12838, o10_150695) and six outside it — no spin structure is fixed by any orientation-reversing isometry: none has a real odd torsion, a certificate that enumerates no isometry (the audit lane's R92 is why it exists). At class 0 every rank-one member read has a torsion-real spin structure (12 of 12) and the family's six have exhibited invariant ones — m004, the member A5 selected, keeps both. The geometric lift's own fate is not a function of CS (swapped at 0 on m136, s880, s883 and on 14 closed manifolds). D_s(t) = Im R₁^{(s)}(t) is the continuous orientation-odd quantity the swap carries (in √3·ℚ at t = 2 on the seven). The family's phase lies on (1/24)ℤ (112 of 112). **A census law, conjectural beyond the manifolds tested; what decides it is B1477's sealed question (the mirror's shear on the cusp)** | F-CI; reach class; `frontier/B1476_the_spin_swap_phase_1c_the_quarter_law_the_pin_bit_and_what_a5_chose/` · `tests/test_b1476_spin_swap_1c.py` |
+
+
+--- headline arc B1474; signals ['RETR x1']
+RETRACTIONS row: | "the mirror genuinely swaps the geometric spin structure iff 1 ∉ η₀K", K the span of the preserving isometries' sign characters found by a bounded search — stated as a law | B1474 §3 | WITHDRAWN AS A LAW — isometries act on spin structures affinely, a span is not an orbit and a bounded search is not coverage (the audit lane's R92). The seven SWAP verdicts stand on other routes: no real odd torsion (B1476 §2b) and Theorem A (B1477) | B1474 addendum 2026-10-07 |
+
+--- headline arc B1475; signals ['RETR x1']
+RETRACTIONS row: | "s961: 4 of 8" (and o10_150707: 4 of 8) mirror-invariant spin structures, read as counts | B1475; B1476 C1 | SHARPENED — lower bounds from exhibited witnesses; all 8 (resp. 4) are torsion-real; the exact numbers are not on the record | B1475 addendum 2026-10-07 |
+
+--- headline arc B1476; signals ['RETR x3']
+RETRACTIONS row: | "the mirror genuinely swaps the geometric spin structure iff 1 ∉ η₀K", K the span of the preserving isometries' sign characters found by a bounded search — stated as a law | B1474 §3 | WITHDRAWN AS A LAW — isometries act on spin structures affinely, a span is not an orbit and a bounded search is not coverage (the audit lane's R92). The seven SWAP verdicts stand on other routes: no real odd torsion (B1476 §2b) and Theorem A (B1477) | B1474 addendum 2026-10-07 |
+RETRACTIONS row: | "s961: 4 of 8" (and o10_150707: 4 of 8) mirror-invariant spin structures, read as counts | B1475; B1476 C1 | SHARPENED — lower bounds from exhibited witnesses; all 8 (resp. 4) are torsion-real; the exact numbers are not on the record | B1475 addendum 2026-10-07 |
+RETRACTIONS row: | GAP6: "a flat bundle has ch = rk: no index built on it can tell 27 from 27̄ … a statement about curvature … that no flat frame carries", without hypotheses | GENESIS v1.9 (B1466) | NARROWED to its closed-bulk, characteristic-class hypotheses (v1.11, B1476; the audit lane's R89 and the web seat); v1.11's own "cannot reach continuous values" then CORRECTED to "continuous moduli" — a rigid flat point fixes numbers (v1.12, B1478; the web seat's A2) | GENESIS v1.11, v1.12 |
+
+====================================================================================================
+LAW_MAP line 259:
+| **WHAT DECIDES THE SWAP IS THE MIRROR'S SHEAR ON THE CUSP (B1477; T-PERIPHERAL-SIGN, T-QUARTER-IS-RHOMBIC, T-ROTATION-PI)** | **Theorem A (proved):** an isometry of a cusped hyperbolic 3-manifold that preserves a cusp and fixes a spin structure s preserves the peripheral sign character σ_s = tr ρ_s/2; a mirror acts on an invariant cusp's lattice by an involution of determinant −1, rectangular (the identity mod 2) or rhombic (fixing one non-zero class w mod 2), and if it is rhombic and tr ρ_s(w) = −2 it does not fix s. **Theorem B (proved):** an odd number of rotation-π geodesics at some length forbids every mirror-invariant spin structure (sufficient, not necessary). **The shear law (census, orbit form):** CS ≡ ¼ · #{odd cusp-orbits of the mirror on which its return map is rhombic} (mod ½) — the one-cusped form on 181 of 181, the orbit form on 283 of 283 census amphichiral manifolds and 922 of 922 amphichiral link exteriors; the first sealed sentence (invariant cusps only) failed on o10_150729, one of whose mirrors fixes no cusp, and is reported as failed. Killed as sealed: "a mirror-invariant spin structure exists ⟺ CS ≡ 0" (v3103 among cusped manifolds, m082(1,3) among closed). Residue: three manifolds certified none with no mechanism identified to length 3.8 (t10425, o10_085947, v1222(−5,1); addendum of 2026-10-07) | F-CI; theorems general, the shear law reach class; `frontier/B1477_what_decides_the_swap_the_mirrors_shear_on_the_cusp/` · `tests/test_b1477_what_decides_the_swap.py` |
+
+
+--- headline arc B1477; signals ['RETR x2']
+RETRACTIONS row: | "the mirror genuinely swaps the geometric spin structure iff 1 ∉ η₀K", K the span of the preserving isometries' sign characters found by a bounded search — stated as a law | B1474 §3 | WITHDRAWN AS A LAW — isometries act on spin structures affinely, a span is not an orbit and a bounded search is not coverage (the audit lane's R92). The seven SWAP verdicts stand on other routes: no real odd torsion (B1476 §2b) and Theorem A (B1477) | B1474 addendum 2026-10-07 |
+RETRACTIONS row: | "Cusped manifolds whose reversing isometry fixes no cusp: ¼ is excluded" (the swap corollary) | B1239 §3 | FALSE AS STATED — the proof fills cusps in swapped pairs; a mirror can fix no cusp and still move some in an odd cycle (o10_150729: a 2-cycle and a 3-cycle, CS = ¼). True when there is no odd cusp-orbit | B1239 addendum 2026-10-06; B1477 (the orbit form) |
+
+====================================================================================================
+LAW_MAP line 264:
+| **A SPIN STRUCTURE PUTS AN ELLIPTIC CURVE AT THE CUSP (B1483; T-END-CURVE)** | **lemma (proved):** the cusp end of the frame space X_s = Γ_s\SL(2,ℂ) of a spin structure s is a principal bundle with fibre the elliptic curve E_s = ℂ/ker σ_s — over ℂ² − 0 with the cusp's own curve when σ_s is trivial there, over (ℂ² − 0)/±1 with a curve two-isogenous to it otherwise; with z the cusp shape, (σ(L), σ(Mu)) = (+,+), (−,+), (−,−), (+,−) give τ = z, z/2, (z+1)/2, 2z. On the 68 amphichiral word states to length 12: every + state has only real end curves, every − state exactly two classes of spin structures with complex-conjugate curves (34 of 34 each), not isomorphic on 32 of 34 (exceptions: the golden and silver words, j = 54,000 and 287,496, complex multiplication). Beyond one cusp: o10_150729 (five cusps, CS ¼) has no mirror-invariant spin structure (one member); on N₄₅ Theorem A excludes every mirror for 8 of 128 spin structures and the other 120 are undecided | F-CI; the lemma general, the census reach class, the covers single; `frontier/B1483_the_end_of_the_frame_space/` · `tests/test_b1483_the_end_of_the_frame_space.py` |
+
+
+--- headline arc B1483; signals ['F:not a law']
+FINDINGS B1483_the_end_of_the_frame_space:73: conjugation-symmetric, so the asymmetry is the signs'. **"At CS = ¼ no spin structure survives the mirror" now holds on a manifold with five cusps where the cusp theorem alone could not prove it** — one member, not a law. 

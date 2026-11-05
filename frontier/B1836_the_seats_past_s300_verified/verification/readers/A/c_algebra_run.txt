@@ -1,0 +1,14 @@
+c_algebra
+  T31: Tr Y16 = 0, Tr Y16^3 = 0, Tr Y16^2 = 120 (6Y units; textbook anomaly cancellation, gcd of charges 1)
+  T31: (q_L, q_R)_lepton = 3 (q_L, q_R)_down = 3(-1, 2) up to sign, so K_lepton/K_down = 9 and c_GJ = sqrt = 3
+  T32: eps_KK = B/(2*A) for every Vol (posited alpha^-1 = A Vol, ln(M3/M12) = B pi Vol); C_F(SU(3)) = 4/3
+  T33: Sherman-Morrison inverse: max dev 2.2e-15 (200 random h); P^2 = alpha P: 2.5e-16; for real h, |alpha - 1| = 1.1e-16 and det(I - P) = 3.3e-17 (I - P singular there, the inverse formula divides by zero; for h = e^{i phi} r, P^2 = e^{2 i phi} P: not a projector)
+       on main's F_10 direction at tau = (0.45+1.2j): |alpha_h| = 7.89e-01 (T-FA-NORM: h.h ~ eta^12, so M_R -> b (I - P) with P nearly nilpotent)
+       on main's F_10 direction at tau = (0.4472+2.618j): |alpha_h| = 1.07e-02 (T-FA-NORM: h.h ~ eta^12, so M_R -> b (I - P) with P nearly nilpotent)
+       on main's F_10 direction at tau = (0.3+3j): |alpha_h| = 3.23e-03 (T-FA-NORM: h.h ~ eta^12, so M_R -> b (I - P) with P nearly nilpotent)
+  T33: seesaw basis covariance m -> U_L m U_L^T under the lane's own transformation rules: 1.8e-14 (an identity of the rules, not a check of the physics)
+  T33: B - L = diag(1/3, 1/3, 1/3, -1): trace 0, quark/lepton -1/3 (textbook Pati-Salam)
+  T34/T40: singular values of a RANDOM matrix under unitary rotations: 1.8e-15 (true of every matrix; the check cannot fail)
+  T38: Delta_A theta_ct = -264*pi*a (cancels +264 pi a); Delta_T theta_ct = 132*pi*a**2 + pi/2 (cancels -132 pi a^2 - pi/2); theta_ct(M) + theta_ct = 0
+  T38: affine counterterms c1 b + c2 Re tau + c0 obeying A, T and M-oddness: [{c0: 0, c1: -264*pi*a, c2: -132*pi*a**2 + pi/2}] (unique in that class; any invariant odd function can be added outside it)
+  T38: N_theta = lcm(ord A-step, ord T-step) equals the generated subgroup's order on all 45 reduced slopes with s <= 12: yes; N_theta(2/5) = 100

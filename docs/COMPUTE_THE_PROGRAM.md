@@ -1,5 +1,7 @@
 # COMPUTE THE ENTIRE PROGRAM — the defined term, and the protocol before any important probe
 
+> **FROZEN 2026-11-04 (the owner's ruling of 2026-11-04 ('i aprove all your recomendations'), P-335).** Kept as written. Its principle — compute over the object as full relations, never a single manifold — now lives in docs/THE_WEAVE.md and the never-freeze-the-weave rule; a rewrite would duplicate them.
+
 **Standing and binding. Owner directive, 2026-08-09:** *"always when I say 'we should compute
 the entire program' we know what we're talking about — the interactions and relations. Read the
 atlas and understand the toolset and the whole protocol before computing any important probe,

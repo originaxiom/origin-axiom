@@ -1,0 +1,3 @@
+SM   (normalised to m_c/m_t = -3): m_c/m_t -3.00, m_u/m_t -3.00, m_s/m_b +2.88, m_d/m_b +2.90, |V_us| +0.33, |V_cb| +2.93, |V_ub| +2.93, |J| +5.81
+MSSM (normalised to m_c/m_t = -3): m_c/m_t -3.00, m_u/m_t -3.00, m_s/m_b -0.93, m_d/m_b -0.92, |V_us| +0.77, |V_cb| -0.95, |V_ub| -0.95, |J| -1.84
+claimed (SEVEN_PILLARS s5):              m_c/m_t -3, m_u/m_t -3, m_s/m_b +1, m_d/m_b +1, |V_us| +0, |V_cb| -1, |V_ub| -1, |J| -2

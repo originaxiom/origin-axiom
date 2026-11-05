@@ -1,0 +1,58 @@
+L240gh     reg=4   OL=2    L240 \(g\):2; L240 \(h\):1; fresh reader with only:3; Stage 6:10
+Ue         reg=4   OL=4    \bU_e\b:14; charged-lepton diagona:1; left diagonaliser of Y:0; U_PMNS:9
+deviation  reg=2   OL=0    spectrum of deviations:0; deviation spectrum:2; away from criticality:1; linearis\w+ (the )?tra:1
+BlumeCapel reg=1   OL=0    Blume:1; multicritical:0; tricritical .{0,40}pha:0
+B477       reg=2   OL=1    B477:33; sterile (obstruction ):10
+B1000art   reg=3   OL=0    bridge artifact:7; filling slope.{0,80}ow:0; P5 completeness:5
+B853trans  reg=2   OL=1    B853:95; transcendental spectra:1
+kkappa     reg=1   OL=0    \(k, ?κ\) plane:1; \(k,κ\):0
+WHY_II2    reg=3   OL=0    termination-WHY:1; II-2:11; why the cascade stops:4
+L81c       reg=3   OL=0    L81 ?\(c\):3; L81c:1; sister-difference:2; sister.{0,20}trace −3:1
+posdim     reg=2   OL=0    positive-dimensional c:1; dim H¹\(fib:1; only continuous degree:1
+L159       reg=1   OL=5    L159:20; gerbe:17
+L151       reg=3   OL=3    L151:19; anchor budget:9
+AngleA     reg=5   OL=2    cuspidal cohomology:1; rigid (object|route).{:8; Angle A:1; overlap integrals:9
+doorC_deg  reg=2   OL=0    canonical degree:3; door \(c\):1
+FK11curv   reg=4   OL=0    FK11.{0,80}curvature:1; K\^\{?[±+-]?½:6; curvature cell:1
+seedreuse  reg=3   OL=0    seed reuse:1; fresh seeds.{0,40}wron:1; seeds overlap:3; correlated calibration:0
+tauvocab   reg=1   OL=0    τ.{0,10} used for (thr:1; three (different )?thi:0; τ's two roles:0
+WEAVE927   reg=2   OL=0    no effective action:2; effective action of th:1
+FA106      reg=1   OL=0    towers.{0,40}next fram:3; on NO SUPPORT.{0,80}to:0
+FA137      reg=1   OL=0    until the nine are dec:1; gauge couplings.{0,60}:0
+FLGtrig    reg=1   OL=0    §G trigger:0; FRAMING_LEDGER.{0,40}t:0; triggers? that would r:2
+Med3I5     reg=3   OL=0    identity left the (val:3; 26% to 2%:1; object's identity:3
+FL27       reg=1   OL=0    FL-27:3
+FL04       reg=2   OL=0    FL-04:3
+clockC     reg=5   OL=0    door C:8; initial law:3
+angle8     reg=1   OL=0    hyperbolic measure.{0,:0; measure over \(τ:1
+angle14    reg=2   OL=0    compact hyperbolic int:1; volume ≫ diameter:1; volume >> diameter:0
+H06        reg=2   OL=1    H-06:3; index under the mirror:61
+H08        reg=3   OL=0    H-08:3; flux potential.{0,30}τ:2; non-perturbative.{0,40:1
+ccrit      reg=4   OL=1    c_crit:0; 6π·?h:1; critical c:62
+eventrace  reg=2   OL=2    even-trace thread:70; even trace thread:0
+PF4        reg=3   OL=0    PF4:21; what exists is read:25
+L241b      reg=3   OL=4    L241.{0,10}\(b\):5; marking-keeping instru:0; instrument that keeps :6
+L246ph2    reg=2   OL=4    L246.{0,30}Phase 2:66; Phase 2.{0,20}η:1; Phase 3.{0,40}chiral:2
+nonsplit   reg=2   OL=2    sourced non-split:15; non-split configuratio:79
+FK7        reg=3   OL=0    FK7:71; deck (is )?gauged:2
+codexmap   reg=3   OL=2    question map:7; minimal description do:2
+S3hands    reg=2   OL=0    S3 on the ends:0; three fixed points:39; selects tr ?= ?5:1; L3R:0
+level5     reg=3   OL=1    McKay ladder:24; level 5.{0,40}icosahed:1; icosahedral read:0
+goldconv   reg=0   OL=0    golden converse:0; metallic family of law:0
+nearfixed  reg=0   OL=0    near-fixed-point hiera:1; near fixed point hiera:0
+abandoned  reg=3   OL=1    abandoned.{0,10}never :0; E15:48; E16:34; Bell test:3
+orbindex   reg=2   OL=0    orbifold holomorphic i:1; holomorphic index of T:1
+S2E6       reg=2   OL=0    two-loop:54; S₂ of E₆:0; next order.{0,40}vacuu:0
+DiracLap   reg=0   OL=0    Dirac eigenvalues? .{0:0; Dirac.{0,20}Laplace co:0
+classS     reg=2   OL=0    class[- ]S.{0,40}(leg|:2; 4d bulk with T\[:1
+E6lvl3     reg=1   OL=0    level-3 TQFT:1; 20×20 pair:0; E₆ level 3:0
+selfcopy   reg=4   OL=0    adversarial seat.{0,60:1; near, not at:2
+P070       reg=2   OL=0    P-070:6
+twopoint   reg=3   OL=0    two-point term:7; two-point alternative:0
+radiative  reg=1   OL=0    radiative (flavour|fla:1; loop[- ]level lift:0; one loop.{0,40}(null d:0; first generation at tw:0
+fastmode   reg=3   OL=0    fastest[- ]growing:1; Turing:2; instability spectrum:2; linear[- ]stability sp:1
+min3stab   reg=2   OL=0    minimal n .{0,40}self-:1; structurally stable.{0:0; self-reference is stru:1
+launder    reg=1   OL=0    laundering group:4; H114:17
+vMpl       reg=1   OL=0    v/M_Pl:2; exponent of order 40:0; transmutation exponent:0
+coldinst   reg=2   OL=0    cold instance:1; fresh[- ]instance:3; from-zero test:0
+collision  reg=2   OL=6    4₁\(5, ?1\):46; 5₂\(5, ?1\):37; filling collision:1

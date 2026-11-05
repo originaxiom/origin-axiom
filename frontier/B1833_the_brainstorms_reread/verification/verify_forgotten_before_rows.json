@@ -1,0 +1,1418 @@
+{
+ "L240gh": {
+  "register": [],
+  "open_leads": [
+   "fresh reader with only GENESIS",
+   "Stage 6"
+  ],
+  "files": {
+   "L240 \\(g\\)": [
+    1,
+    [
+     "frontier/B1831_review_74_the_decadal_review/verification/readers/leads_OPEN_LEADS_READ.md"
+    ]
+   ],
+   "L240 \\(h\\)": [
+    0,
+    []
+   ],
+   "fresh reader with only GENESIS": [
+    2,
+    [
+     "docs/OPEN_LEADS.md",
+     "frontier/B1831_review_74_the_decadal_review/verification/readers/leads_OPEN_LEADS_READ.md"
+    ]
+   ],
+   "Stage 6": [
+    9,
+    [
+     "CHANGELOG.md",
+     "PROGRESS_LOG.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/OPEN_LEADS.md",
+     "docs/THE_FOUNDATION_LOCK_PLAN.md",
+     "docs/progress/REVIEWS.md"
+    ]
+   ]
+  }
+ },
+ "Ue": {
+  "register": [],
+  "open_leads": [
+   "U_e",
+   "U_e",
+   "charged-lepton diagonali"
+  ],
+  "files": {
+   "\\bU_e\\b": [
+    13,
+    [
+     "CHANGELOG.md",
+     "PROGRESS_LOG.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/OPEN_LEADS.md",
+     "docs/THE_REMAINING_MATH.md",
+     "docs/views/VERDICT_LEDGER.md"
+    ]
+   ],
+   "charged-lepton diagonali": [
+    1,
+    [
+     "docs/OPEN_LEADS.md"
+    ]
+   ],
+   "left diagonaliser of Y_e": [
+    0,
+    []
+   ],
+   "U_PMNS": [
+    8,
+    [
+     "frontier/B630_matrix_comparison_design/COMPARISON_DESIGN.md",
+     "frontier/B631_matrix_comparison/FINDINGS.md",
+     "frontier/B631_matrix_comparison/MB13_RETRO_SWEEP.md",
+     "frontier/B631_matrix_comparison/b631_controls.py",
+     "frontier/B631_matrix_comparison/b631_run.py",
+     "frontier/B631_matrix_comparison/controls_output.txt"
+    ]
+   ]
+  }
+ },
+ "deviation": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "spectrum of deviations": [
+    0,
+    []
+   ],
+   "deviation spectrum": [
+    2,
+    [
+     "frontier/B344_deviation_symplectic_pairing/FINDINGS.md",
+     "frontier/B344_deviation_symplectic_pairing/deviation_symplectic_pairing.py"
+    ]
+   ],
+   "away from criticality": [
+    0,
+    []
+   ],
+   "linearis\\w+ (the )?trace map at": [
+    0,
+    []
+   ]
+  }
+ },
+ "BlumeCapel": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "Blume": [
+    0,
+    []
+   ],
+   "multicritical": [
+    0,
+    []
+   ],
+   "tricritical .{0,40}phase diagram": [
+    0,
+    []
+   ]
+  }
+ },
+ "B477": {
+  "register": [],
+  "open_leads": [
+   "B477"
+  ],
+  "files": {
+   "B477": [
+    32,
+    [
+     "docs/EARLY_RECORD_INDEX.md",
+     "docs/OPEN_LEADS.md",
+     "docs/views/VERDICT_LEDGER.md",
+     "frontier/B1425_the_flaky_lock_and_the_hollow_green/verification/receipt_failure_sweep.json",
+     "frontier/B1449_the_silent_receipts_read/FINDINGS.md",
+     "frontier/B1449_the_silent_receipts_read/arc_verdict.json"
+    ]
+   ],
+   "sterile (obstruction )?class": [
+    9,
+    [
+     "frontier/B1473_the_three_kinds_cover_a_third_at_most/verification/readers/batch_0.json",
+     "frontier/B477_sterile_classes/FINDINGS.md",
+     "frontier/B477_sterile_classes/sterile_scan.py",
+     "frontier/B738_pathfinder_compiler/SHORTLIST.md",
+     "frontier/B738_pathfinder_compiler/kill_graph.json",
+     "frontier/B742_negatives_hunt_p1/inputs/dead_probes.json"
+    ]
+   ]
+  }
+ },
+ "B1000art": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "bridge artifact": [
+    6,
+    [
+     "CHANGELOG.md",
+     "PROGRESS_LOG.md",
+     "docs/LAW_MAP.md",
+     "frontier/B1000_input_count/FINDINGS.md",
+     "frontier/B1000_input_count/PREREGISTRATION.md",
+     "outside_bench/THE_SECOND_HALF.md"
+    ]
+   ],
+   "filling slope.{0,80}owed": [
+    0,
+    []
+   ],
+   "P5 completeness": [
+    4,
+    [
+     "frontier/B1000_input_count/FINDINGS.md",
+     "frontier/B1000_input_count/PREREGISTRATION.md",
+     "frontier/B1468_the_frozen_seals_re_audited/verification/readers_raw.json",
+     "frontier/B1468_the_frozen_seals_re_audited/verification/readers_verified.json"
+    ]
+   ]
+  }
+ },
+ "B853trans": {
+  "register": [],
+  "open_leads": [
+   "B853"
+  ],
+  "files": {
+   "B853": [
+    94,
+    [
+     "CHANGELOG.md",
+     "GENESIS.md",
+     "PROGRESS_LOG.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/COSMOLOGY_LEDGER.md",
+     "docs/ERROR_LEDGER.md"
+    ]
+   ],
+   "transcendental spectral ratio": [
+    0,
+    []
+   ]
+  }
+ },
+ "kkappa": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "\\(k, ?κ\\) plane": [
+    0,
+    []
+   ],
+   "\\(k,κ\\)": [
+    0,
+    []
+   ]
+  }
+ },
+ "WHY_II2": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "termination-WHY": [
+    1,
+    [
+     "docs/THE_WHY_CAMPAIGN.md"
+    ]
+   ],
+   "II-2": [
+    10,
+    [
+     "CHANGELOG.md",
+     "PROGRESS_LOG.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/THE_PATTERN_MEDITATION_2.md",
+     "docs/THE_WHY_CAMPAIGN.md",
+     "docs/THE_WITHHOLDING_TAXONOMY.md"
+    ]
+   ],
+   "why the cascade stops": [
+    3,
+    [
+     "CHANGELOG.md",
+     "frontier/B863_termination/termination.py",
+     "outside_bench/THE_OWNER_REGISTER.md"
+    ]
+   ]
+  }
+ },
+ "L81c": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "L81 ?\\(c\\)": [
+    2,
+    [
+     "docs/THE_CAMPAIGN.md",
+     "docs/THE_LADDER.md"
+    ]
+   ],
+   "L81c": [
+    1,
+    [
+     "docs/THE_WHY_CAMPAIGN.md"
+    ]
+   ],
+   "sister-difference": [
+    1,
+    [
+     "docs/THE_LADDER.md"
+    ]
+   ],
+   "sister.{0,20}trace −3": [
+    1,
+    [
+     "docs/THE_WHY_CAMPAIGN.md"
+    ]
+   ]
+  }
+ },
+ "posdim": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "positive-dimensional class": [
+    1,
+    [
+     "frontier/B461_relation_r2_borromean/FINDINGS.md"
+    ]
+   ],
+   "dim H¹\\(fib": [
+    0,
+    []
+   ],
+   "only continuous degrees of freedom": [
+    0,
+    []
+   ]
+  }
+ },
+ "L159": {
+  "register": [],
+  "open_leads": [
+   "L159",
+   "L159",
+   "gerbe",
+   "gerbe",
+   "gerbe"
+  ],
+  "files": {
+   "L159": [
+    19,
+    [
+     "CHANGELOG.md",
+     "PROGRESS_LOG.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/CLOUD_ALIAS_TABLE.md",
+     "docs/LEAD_REGISTER.md",
+     "docs/OPEN_LEADS.md"
+    ]
+   ],
+   "gerbe": [
+    17,
+    [
+     "CHANGELOG.md",
+     "PROGRESS_LOG.md",
+     "ROADMAP.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/CLOUD_ALIAS_TABLE.md",
+     "docs/LEAD_REGISTER.md"
+    ]
+   ]
+  }
+ },
+ "L151": {
+  "register": [
+   "L151"
+  ],
+  "open_leads": [
+   "L151",
+   "anchor budget",
+   "anchor budget"
+  ],
+  "files": {
+   "L151": [
+    19,
+    [
+     "CHANGELOG.md",
+     "PROGRESS_LOG.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/OPEN_LEADS.md",
+     "docs/POINT_REGISTER.md",
+     "docs/SEAL_LEDGER.md"
+    ]
+   ],
+   "anchor budget": [
+    8,
+    [
+     "PROGRESS_LOG.md",
+     "docs/OPEN_LEADS.md",
+     "docs/views/VERDICT_LEDGER.md",
+     "frontier/B1014_proof_form/FINDINGS.md",
+     "frontier/B1014_proof_form/arc_verdict.json",
+     "frontier/B1022_functor_phase1/PHASE1_CORPUS.md"
+    ]
+   ]
+  }
+ },
+ "AngleA": {
+  "register": [
+   "overlap integrals"
+  ],
+  "open_leads": [
+   "rigid route** (m004's fillings as the 3-cycle of a G₂ compactification",
+   "overlap integrals"
+  ],
+  "files": {
+   "cuspidal cohomology": [
+    0,
+    []
+   ],
+   "rigid (object|route).{0,60}compactification": [
+    8,
+    [
+     "ROADMAP.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/LEAD_REGISTER.md",
+     "docs/MASTERPLAN.md",
+     "docs/OPEN_LEADS.md",
+     "docs/OPEN_PROBLEMS.md"
+    ]
+   ],
+   "Angle A": [
+    0,
+    []
+   ],
+   "overlap integrals": [
+    9,
+    [
+     "docs/OPEN_LEADS.md",
+     "docs/POINT_REGISTER.md",
+     "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-13_THE_FRAME_AUDIT_AND_THE_POINT_REGISTER.md",
+     "frontier/B1800_the_couplings_as_overlaps_of_the_fibres_zero_modes/FINDINGS.md",
+     "frontier/B1800_the_couplings_as_overlaps_of_the_fibres_zero_modes/arc_verdict.json",
+     "frontier/B1830_the_register_triaged/verification/batch_1.md"
+    ]
+   ]
+  }
+ },
+ "doorC_deg": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "canonical degree": [
+    2,
+    [
+     "frontier/README.md",
+     "papers/candidates/PC12_sl3_metallic_trace_maps/DRAFT_NOTE.md"
+    ]
+   ],
+   "door \\(c\\)": [
+    0,
+    []
+   ]
+  }
+ },
+ "FK11curv": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "FK11.{0,80}curvature": [
+    0,
+    []
+   ],
+   "K\\^\\{?[±+-]?½": [
+    5,
+    [
+     "docs/handoffs/CC_TO_ALL_SEATS_2026-10-15_THE_HARVEST_AND_THE_HIGGSS_END.md",
+     "frontier/B1651_where_a_higgs_can_couple/ADDENDUM_2026-10-14_the_szego_reading.md",
+     "frontier/B1653_the_rank_of_a_point_coupling/FINDINGS.md",
+     "frontier/B1672_discharging_triplet_index_gauge_frontier/FINDINGS.md",
+     "frontier/B1796_the_cusp_unit_from_the_field_checked_on_main/FINDINGS.md"
+    ]
+   ],
+   "curvature cell": [
+    0,
+    []
+   ]
+  }
+ },
+ "seedreuse": {
+  "register": [
+   "seeds overlap"
+  ],
+  "open_leads": [],
+  "files": {
+   "seed reuse": [
+    0,
+    []
+   ],
+   "fresh seeds.{0,40}wrong": [
+    0,
+    []
+   ],
+   "seeds overlap": [
+    3,
+    [
+     "CHANGELOG.md",
+     "docs/HARVEST_LEDGER.md",
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "correlated calibration": [
+    0,
+    []
+   ]
+  }
+ },
+ "tauvocab": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "τ.{0,10} used for (three|several)": [
+    0,
+    []
+   ],
+   "three (different )?things.{0,30}τ": [
+    0,
+    []
+   ],
+   "τ's two roles": [
+    0,
+    []
+   ]
+  }
+ },
+ "WEAVE927": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "no effective action": [
+    1,
+    [
+     "docs/THE_WEAVE.md"
+    ]
+   ],
+   "effective action of the joint": [
+    0,
+    []
+   ]
+  }
+ },
+ "FA106": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "towers.{0,40}next frame": [
+    2,
+    [
+     "docs/THE_FINAL_ATTACK_2026-10-29.md",
+     "docs/THE_PROGRAMME_SO_FAR.md"
+    ]
+   ],
+   "on NO SUPPORT.{0,80}tower": [
+    0,
+    []
+   ]
+  }
+ },
+ "FA137": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "until the nine are decided": [
+    0,
+    []
+   ],
+   "gauge couplings.{0,60}deferred": [
+    0,
+    []
+   ]
+  }
+ },
+ "FLGtrig": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "§G trigger": [
+    0,
+    []
+   ],
+   "FRAMING_LEDGER.{0,40}trigger": [
+    0,
+    []
+   ],
+   "triggers? that would reshape": [
+    1,
+    [
+     "frontier/B1827_the_framing_ledger/FINDINGS.md"
+    ]
+   ]
+  }
+ },
+ "Med3I5": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "identity left the (value|physics)": [
+    2,
+    [
+     "CHANGELOG.md",
+     "docs/THE_PATTERN_MEDITATION_3.md"
+    ]
+   ],
+   "26% to 2%": [
+    0,
+    []
+   ],
+   "object's identity": [
+    2,
+    [
+     "CHANGELOG.md",
+     "docs/THE_PATTERN_MEDITATION_3.md"
+    ]
+   ]
+  }
+ },
+ "FL27": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "FL-27": [
+    2,
+    [
+     "CHANGELOG.md",
+     "docs/FRAMING_LEDGER.md"
+    ]
+   ]
+  }
+ },
+ "FL04": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "FL-04": [
+    2,
+    [
+     "docs/FRAMING_LEDGER.md",
+     "frontier/B1831_review_74_the_decadal_review/verification/readers/leads_REGISTER_LEADS.md"
+    ]
+   ]
+  }
+ },
+ "clockC": {
+  "register": [
+   "initial law"
+  ],
+  "open_leads": [],
+  "files": {
+   "door C": [
+    7,
+    [
+     "CHANGELOG.md",
+     "docs/SEAL_LEDGER.md",
+     "docs/THEOREM_LEDGER.md",
+     "frontier/B1831_review_74_the_decadal_review/verification/readers/leads_REGISTER_LEADS.md",
+     "frontier/B579_session_handoff/FINDINGS.md",
+     "outside_bench/outputs/the_chain_right_now.txt"
+    ]
+   ],
+   "initial law": [
+    3,
+    [
+     "docs/POINT_REGISTER.md",
+     "docs/THE_CLOCK_AND_THE_NEXT_ATTACK_2026-10-29.md",
+     "frontier/B1830_the_register_triaged/verification/batch_3.md"
+    ]
+   ]
+  }
+ },
+ "angle8": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "hyperbolic measure.{0,40}\\(τ, ?line\\)": [
+    0,
+    []
+   ],
+   "measure over \\(τ": [
+    0,
+    []
+   ]
+  }
+ },
+ "angle14": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "compact hyperbolic internal": [
+    0,
+    []
+   ],
+   "volume ≫ diameter": [
+    0,
+    []
+   ],
+   "volume >> diameter": [
+    0,
+    []
+   ]
+  }
+ },
+ "H06": {
+  "register": [],
+  "open_leads": [
+   "index under the mirror's swap"
+  ],
+  "files": {
+   "H-06": [
+    2,
+    [
+     "docs/FRAMING_LEDGER.md",
+     "frontier/B1827_the_framing_ledger/verification/readers/A4_walls_to_commitments.md"
+    ]
+   ],
+   "index under the mirror's swap": [
+    60,
+    [
+     "CHANGELOG.md",
+     "GENESIS.md",
+     "PROGRESS_LOG.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/LAW_MAP.md",
+     "docs/OPEN_LEADS.md"
+    ]
+   ]
+  }
+ },
+ "H08": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "H-08": [
+    2,
+    [
+     "docs/FRAMING_LEDGER.md",
+     "frontier/B1827_the_framing_ledger/verification/readers/A4_walls_to_commitments.md"
+    ]
+   ],
+   "flux potential.{0,30}τ": [
+    1,
+    [
+     "frontier/B1832_the_agy_lanes_digested/FINDINGS.md"
+    ]
+   ],
+   "non-perturbative.{0,40}τ": [
+    0,
+    []
+   ]
+  }
+ },
+ "ccrit": {
+  "register": [
+   "critical c"
+  ],
+  "open_leads": [
+   "critical c"
+  ],
+  "files": {
+   "c_crit": [
+    0,
+    []
+   ],
+   "6π·?h": [
+    0,
+    []
+   ],
+   "critical c": [
+    62,
+    [
+     "TERMINOLOGY.md",
+     "docs/OPEN_LEADS.md",
+     "docs/POINT_REGISTER.md",
+     "docs/THE_CLOCK_AND_THE_NEXT_ATTACK_2026-10-29.md",
+     "docs/handoffs/CC_TO_ALL_SEATS_2026-10-16_THE_FIVE_STEPS.md",
+     "docs/handoffs/CC_TO_AUDIT_LANE_2026-10-16_REORIENTATION.md"
+    ]
+   ]
+  }
+ },
+ "eventrace": {
+  "register": [
+   "even-trace thread"
+  ],
+  "open_leads": [
+   "even-trace thread",
+   "even-trace thread"
+  ],
+  "files": {
+   "even-trace thread": [
+    70,
+    [
+     "CHANGELOG.md",
+     "GENESIS.md",
+     "PROGRESS_LOG.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/HARVEST_LEDGER.md",
+     "docs/LAW_MAP.md"
+    ]
+   ],
+   "even trace thread": [
+    0,
+    []
+   ]
+  }
+ },
+ "PF4": {
+  "register": [
+   "what exists is read"
+  ],
+  "open_leads": [],
+  "files": {
+   "PF4": [
+    20,
+    [
+     "GENESIS.md",
+     "frontier/B1651_where_a_higgs_can_couple/adoption/amend.py",
+     "frontier/B1655_main_audits_its_negatives/received/GENESIS_v1_45_main.md",
+     "frontier/B1658_the_twisted_half_bound/received/GENESIS_v1_46_main.md",
+     "frontier/B1662_the_pull_back_acts_on_the_records/received/GENESIS_v1_47_main.md",
+     "frontier/B1681_genesis_v1_49_two_records_derived/received/GENESIS_v1_48_main.md"
+    ]
+   ],
+   "what exists is read": [
+    25,
+    [
+     "CHANGELOG.md",
+     "GENESIS.md",
+     "docs/POINT_REGISTER.md",
+     "docs/handoffs/CC_TO_ALL_SEATS_2026-10-14_THE_FIELD_BY_FRAME.md",
+     "docs/handoffs/CC_TO_ALL_SEATS_2026-10-15_THE_PAPER_CONSULTATION.md",
+     "frontier/B1651_where_a_higgs_can_couple/adoption/amend.py"
+    ]
+   ]
+  }
+ },
+ "L241b": {
+  "register": [
+   "L241 (b)"
+  ],
+  "open_leads": [
+   "L241 (b)",
+   "instrument that keeps the marking",
+   "instrument that keeps the marking"
+  ],
+  "files": {
+   "L241.{0,10}\\(b\\)": [
+    5,
+    [
+     "docs/OPEN_LEADS.md",
+     "docs/POINT_REGISTER.md",
+     "frontier/B1744_the_higgs_own_twist/FINDINGS.md",
+     "frontier/B1831_review_74_the_decadal_review/verification/readers/leads_OPEN_LEADS_READ.md",
+     "frontier/B738_pathfinder_compiler/kill_graph.json"
+    ]
+   ],
+   "marking-keeping instrument": [
+    0,
+    []
+   ],
+   "instrument that keeps the marking": [
+    5,
+    [
+     "CHANGELOG.md",
+     "PROGRESS_LOG.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/OPEN_LEADS.md",
+     "docs/handoffs/CC_TO_SM_2026-10-02_GENESIS_V1_3_AND_YOUR_FOUR_ARCS.md"
+    ]
+   ]
+  }
+ },
+ "L246ph2": {
+  "register": [],
+  "open_leads": [
+   "L246 Phase 2",
+   "L246 Phase 2",
+   "L246 Phase 2",
+   "Phase 3 — the continuous carrier on chiral"
+  ],
+  "files": {
+   "L246.{0,30}Phase 2": [
+    65,
+    [
+     "CHANGELOG.md",
+     "GENESIS.md",
+     "PROGRESS_LOG.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/OPEN_LEADS.md",
+     "docs/SM_SPECIFICATION_LEDGER.md"
+    ]
+   ],
+   "Phase 2.{0,20}η": [
+    0,
+    []
+   ],
+   "Phase 3.{0,40}chiral": [
+    2,
+    [
+     "docs/FRESH_EYES_2026-09.md",
+     "docs/OPEN_LEADS.md"
+    ]
+   ]
+  }
+ },
+ "nonsplit": {
+  "register": [],
+  "open_leads": [
+   "sourced non-split",
+   "non-split configuration"
+  ],
+  "files": {
+   "sourced non-split": [
+    14,
+    [
+     "CHANGELOG.md",
+     "PROGRESS_LOG.md",
+     "ROADMAP.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/LEAD_REGISTER.md",
+     "docs/MASTERPLAN.md"
+    ]
+   ],
+   "non-split configuration": [
+    78,
+    [
+     "CHANGELOG.md",
+     "GENESIS.md",
+     "PROGRESS_LOG.md",
+     "ROADMAP.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/LAW_MAP.md"
+    ]
+   ]
+  }
+ },
+ "FK7": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "FK7": [
+    70,
+    [
+     "CHANGELOG.md",
+     "GENESIS.md",
+     "PROGRESS_LOG.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/HARVEST_LEDGER.md",
+     "docs/RELAY_LEDGER.md"
+    ]
+   ],
+   "deck (is )?gauged": [
+    1,
+    [
+     "frontier/B1432_the_three_fold_cover_fires_off_the_lift/FINDINGS.md"
+    ]
+   ]
+  }
+ },
+ "codexmap": {
+  "register": [],
+  "open_leads": [
+   "question map",
+   "minimal description does not select"
+  ],
+  "files": {
+   "question map": [
+    6,
+    [
+     "docs/OPEN_LEADS.md",
+     "docs/RELAY_LEDGER.md",
+     "frontier/B1306_the_older_debt/inputs/fc_codex_hostile_inventory.md",
+     "frontier/B1412_the_relay_backlog/FINDINGS.md",
+     "frontier/B1412_the_relay_backlog/verification/relay_triage.json",
+     "frontier/B1831_review_74_the_decadal_review/verification/readers/scheduled_RETIRED_SEATS.md"
+    ]
+   ],
+   "minimal description does not select": [
+    1,
+    [
+     "docs/OPEN_LEADS.md"
+    ]
+   ]
+  }
+ },
+ "S3hands": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "S3 on the ends": [
+    0,
+    []
+   ],
+   "three fixed points": [
+    38,
+    [
+     "CHANGELOG.md",
+     "PROGRESS_LOG.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/HARVEST_LEDGER.md",
+     "docs/HINT_LEDGER.md",
+     "docs/THREE_GENERATIONS_RESEARCHED.md"
+    ]
+   ],
+   "selects tr ?= ?5": [
+    0,
+    []
+   ],
+   "L3R": [
+    0,
+    []
+   ]
+  }
+ },
+ "level5": {
+  "register": [
+   "McKay ladder",
+   "McKay ladder",
+   "McKay ladder"
+  ],
+  "open_leads": [
+   "level 5 (A₅, the icosahedral"
+  ],
+  "files": {
+   "McKay ladder": [
+    24,
+    [
+     "CHANGELOG.md",
+     "docs/POINT_REGISTER.md",
+     "docs/views/CLOSED_DOORS.md",
+     "docs/views/THE_SPINE.md",
+     "docs/views/VERDICT_LEDGER.md",
+     "frontier/B1211_declaration_gap/deep_sweep.json"
+    ]
+   ],
+   "level 5.{0,40}icosahedral": [
+    1,
+    [
+     "docs/OPEN_LEADS.md"
+    ]
+   ],
+   "icosahedral read": [
+    0,
+    []
+   ]
+  }
+ },
+ "goldconv": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "golden converse": [
+    0,
+    []
+   ],
+   "metallic family of laws": [
+    0,
+    []
+   ]
+  }
+ },
+ "nearfixed": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "near-fixed-point hierarch": [
+    1,
+    [
+     "frontier/B1807_the_first_generation_at_the_special_points/FINDINGS.md"
+    ]
+   ],
+   "near fixed point hierarch": [
+    0,
+    []
+   ]
+  }
+ },
+ "abandoned": {
+  "register": [],
+  "open_leads": [
+   "E15"
+  ],
+  "files": {
+   "abandoned.{0,10}never refuted": [
+    0,
+    []
+   ],
+   "E15": [
+    47,
+    [
+     "CHANGELOG.md",
+     "CLAIMS.md",
+     "GOVERNANCE.md",
+     "PROGRESS_LOG.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/CLOSURE_2026-07-05.md"
+    ]
+   ],
+   "E16": [
+    33,
+    [
+     "CLAIMS.md",
+     "PROGRESS_LOG.md",
+     "docs/COMMS_PROTOCOL.md",
+     "docs/ERROR_LEDGER.md",
+     "docs/RECONTEXT_AUDIT_AND_MASTERPLAN_2026-07.md",
+     "docs/THE_REREAD_2026-10-06.md"
+    ]
+   ],
+   "Bell test": [
+    2,
+    [
+     "docs/THE_CROSSING_2026-10-07.md",
+     "docs/THE_REREAD_2026-10-06.md"
+    ]
+   ]
+  }
+ },
+ "orbindex": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "orbifold holomorphic index": [
+    0,
+    []
+   ],
+   "holomorphic index of T": [
+    0,
+    []
+   ]
+  }
+ },
+ "S2E6": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "two-loop": [
+    53,
+    [
+     "CHANGELOG.md",
+     "PROGRESS_LOG.md",
+     "docs/HARVEST_LEDGER.md",
+     "docs/THEOREM_LEDGER.md",
+     "docs/THE_END_TO_END_CHAIN.md",
+     "docs/THE_TOOLS_AND_THE_DESK_2026-10-29.md"
+    ]
+   ],
+   "S₂ of E₆": [
+    0,
+    []
+   ],
+   "next order.{0,40}vacuum": [
+    0,
+    []
+   ]
+  }
+ },
+ "DiracLap": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "Dirac eigenvalues? .{0,40}Laplac": [
+    0,
+    []
+   ],
+   "Dirac.{0,20}Laplace coincidence": [
+    0,
+    []
+   ]
+  }
+ },
+ "classS": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "class[- ]S.{0,40}(leg|bulk)": [
+    1,
+    [
+     "papers/CANDIDATES.md"
+    ]
+   ],
+   "4d bulk with T\\[": [
+    0,
+    []
+   ]
+  }
+ },
+ "E6lvl3": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "level-3 TQFT": [
+    0,
+    []
+   ],
+   "20×20 pair": [
+    0,
+    []
+   ],
+   "E₆ level 3": [
+    0,
+    []
+   ]
+  }
+ },
+ "selfcopy": {
+  "register": [
+   "near, not at",
+   "near, not at"
+  ],
+  "open_leads": [],
+  "files": {
+   "adversarial seat.{0,60}kill test": [
+    0,
+    []
+   ],
+   "near, not at": [
+    2,
+    [
+     "docs/POINT_REGISTER.md",
+     "docs/handoffs/CC_TO_ALL_SEATS_2026-10-14_THE_FIELD_BY_FRAME.md"
+    ]
+   ]
+  }
+ },
+ "P070": {
+  "register": [
+   "P-070",
+   "P-070"
+  ],
+  "open_leads": [],
+  "files": {
+   "P-070": [
+    6,
+    [
+     "docs/POINT_REGISTER.md",
+     "frontier/B1830_the_register_triaged/verification/all_proposals.json",
+     "frontier/B1830_the_register_triaged/verification/batch_1.md",
+     "frontier/B1830_the_register_triaged/verification/proposals_1.json",
+     "frontier/B1830_the_register_triaged/verification/recheck/unflagged.txt",
+     "frontier/B1831_review_74_the_decadal_review/verification/readers/leads_REGISTER_LEADS.md"
+    ]
+   ]
+  }
+ },
+ "twopoint": {
+  "register": [
+   "two-point term",
+   "two-point term"
+  ],
+  "open_leads": [],
+  "files": {
+   "two-point term": [
+    7,
+    [
+     "docs/HARVEST_LEDGER.md",
+     "docs/POINT_REGISTER.md",
+     "docs/RELAY_LEDGER.md",
+     "docs/THE_WEAVE.md",
+     "frontier/B1658_the_twisted_half_bound/FINDINGS.md",
+     "frontier/B1658_the_twisted_half_bound/PREREGISTRATION.md"
+    ]
+   ],
+   "two-point alternative": [
+    0,
+    []
+   ]
+  }
+ },
+ "radiative": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "radiative (flavour|flavor|mass)": [
+    0,
+    []
+   ],
+   "loop[- ]level lift": [
+    0,
+    []
+   ],
+   "one loop.{0,40}(null direction|massless (left )?state)": [
+    0,
+    []
+   ],
+   "first generation at two loops": [
+    0,
+    []
+   ]
+  }
+ },
+ "fastmode": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "fastest[- ]growing": [
+    0,
+    []
+   ],
+   "Turing": [
+    2,
+    [
+     "outside_bench/THE_SUFFICIENCY_QUESTION.md",
+     "philosophy/P014_the_aware_decision.md"
+    ]
+   ],
+   "instability spectrum": [
+    2,
+    [
+     "outside_bench/THE_FULL_ACCOUNTING.md",
+     "speculations/archive/COSMOGONY_FROM_THE_VOID.md"
+    ]
+   ],
+   "linear[- ]stability spectrum": [
+    0,
+    []
+   ]
+  }
+ },
+ "min3stab": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "minimal n .{0,40}self-reference": [
+    0,
+    []
+   ],
+   "structurally stable.{0,40}3": [
+    0,
+    []
+   ],
+   "self-reference is structurally stable": [
+    0,
+    []
+   ]
+  }
+ },
+ "launder": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "laundering group": [
+    4,
+    [
+     "docs/HINT_LEDGER.md",
+     "frontier/B473_criticality_program/PREREGISTRATION.md",
+     "frontier/B771_phase1_wave1/cells/W2-188/proposed_patches.md",
+     "frontier/B771_phase1_wave1/wave2_results.json"
+    ]
+   ],
+   "H114": [
+    16,
+    [
+     "CHANGELOG.md",
+     "docs/HINT_LEDGER.md",
+     "docs/SEAL_LEDGER.md",
+     "frontier/B472_quantum_commutator/FINDINGS.md",
+     "frontier/B770_closure_census/CENSUS.md",
+     "frontier/B770_closure_census/census.json"
+    ]
+   ]
+  }
+ },
+ "vMpl": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "v/M_Pl": [
+    1,
+    [
+     "docs/THE_COMPLETION_MAP.md"
+    ]
+   ],
+   "exponent of order 40": [
+    0,
+    []
+   ],
+   "transmutation exponent": [
+    0,
+    []
+   ]
+  }
+ },
+ "coldinst": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "cold instance": [
+    0,
+    []
+   ],
+   "fresh[- ]instance": [
+    2,
+    [
+     "docs/GRAND_COMPUTATION_v0.md",
+     "docs/progress/REVIEWS.md"
+    ]
+   ],
+   "from-zero test": [
+    0,
+    []
+   ]
+  }
+ },
+ "collision": {
+  "register": [],
+  "open_leads": [
+   "4₁(5,1)",
+   "4₁(5,1)",
+   "4₁(5,1)",
+   "5₂(5,1)",
+   "5₂(5,1)",
+   "5₂(5,1)"
+  ],
+  "files": {
+   "4₁\\(5, ?1\\)": [
+    45,
+    [
+     "CHANGELOG.md",
+     "PROGRESS_LOG.md",
+     "TERMINOLOGY.md",
+     "docs/AUDIT_2026-07-05.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/CLOSURE_2026-07-05.md"
+    ]
+   ],
+   "5₂\\(5, ?1\\)": [
+    36,
+    [
+     "CHANGELOG.md",
+     "PROGRESS_LOG.md",
+     "TERMINOLOGY.md",
+     "docs/AUDIT_2026-07-05.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/LAW_MAP.md"
+    ]
+   ],
+   "filling collision": [
+    1,
+    [
+     "frontier/B738_pathfinder_compiler/kill_graph.json"
+    ]
+   ]
+  }
+ }
+}

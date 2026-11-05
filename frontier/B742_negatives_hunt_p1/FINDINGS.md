@@ -135,3 +135,5 @@ is meaningful). Fact-basis disagreement 6/155 (3.9%), substantive: B146, B272, B
 B516 (B738=computed vs B742=asserted) — queued for re-adjudication (B437 is load-bearing for
 B741's B435 resolution). The two censuses overlap only 71%/73% — the combined unique corpus is
 ≈275; each hunt covered ground the other missed. Full diff method: cc seat, this date.
+
+> *Dated note 2026-11-04 (Review 74, P-535):* this FINDINGS.md was hashed at banking (`4860553a8`, sha256 a905b9fe…) and changed twice the same day, adding text only: the kill-graph diff section at `318133e46` and the B745 resolution of the revivals' status line (struck through, kept) at `eeef58ae4`. No verdict, target or criterion changed.*

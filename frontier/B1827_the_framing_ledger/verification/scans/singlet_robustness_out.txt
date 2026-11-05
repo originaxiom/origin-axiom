@@ -1,0 +1,16 @@
+opp_lam0.25 c 0                  n  356  |V_ub|<|V_td| 0.03  |V_ud|>0.9 0.78  both 0.022  median ratio 21.2
+opp_lam0.25 c exp(2 pi i 0/12)   n  332  |V_ub|<|V_td| 0.41  |V_ud|>0.9 0.77  both 0.322  median ratio 1.11
+opp_lam0.25 c exp(2 pi i 2/12)   n  355  |V_ub|<|V_td| 0.46  |V_ud|>0.9 0.79  both 0.375  median ratio 1.03
+opp_lam0.25 c exp(2 pi i 5/12)   n  342  |V_ub|<|V_td| 0.39  |V_ud|>0.9 0.75  both 0.292  median ratio 1.11
+opp_lam0.25 c exp(2 pi i 8/12)   n  343  |V_ub|<|V_td| 0.41  |V_ud|>0.9 0.80  both 0.324  median ratio 1.07
+opp_lam1.0 c 0                  n  356  |V_ub|<|V_td| 0.03  |V_ud|>0.9 0.78  both 0.022  median ratio 21.2
+opp_lam1.0 c exp(2 pi i 0/12)   n  306  |V_ub|<|V_td| 0.55  |V_ud|>0.9 0.69  both 0.366  median ratio 0.961
+opp_lam1.0 c exp(2 pi i 2/12)   n  344  |V_ub|<|V_td| 0.65  |V_ud|>0.9 0.74  both 0.477  median ratio 0.914
+opp_lam1.0 c exp(2 pi i 5/12)   n  325  |V_ub|<|V_td| 0.47  |V_ud|>0.9 0.71  both 0.335  median ratio 1.02
+opp_lam1.0 c exp(2 pi i 8/12)   n  334  |V_ub|<|V_td| 0.54  |V_ud|>0.9 0.78  both 0.407  median ratio 0.967
+opp_lam4.0 c 0                  n  356  |V_ub|<|V_td| 0.03  |V_ud|>0.9 0.78  both 0.022  median ratio 21.2
+opp_lam4.0 c exp(2 pi i 0/12)   n  249  |V_ub|<|V_td| 0.59  |V_ud|>0.9 0.61  both 0.361  median ratio 0.837
+opp_lam4.0 c exp(2 pi i 2/12)   n  270  |V_ub|<|V_td| 0.66  |V_ud|>0.9 0.65  both 0.415  median ratio 0.828
+opp_lam4.0 c exp(2 pi i 5/12)   n  246  |V_ub|<|V_td| 0.56  |V_ud|>0.9 0.65  both 0.325  median ratio 0.929
+opp_lam4.0 c exp(2 pi i 8/12)   n  255  |V_ub|<|V_td| 0.62  |V_ud|>0.9 0.65  both 0.380  median ratio 0.825
+exit 0

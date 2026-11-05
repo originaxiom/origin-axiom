@@ -1,0 +1,30 @@
+{
+ "id": "B1836",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1832",
+  "B1834",
+  "B1835",
+  "B1726",
+  "B1788",
+  "B1728",
+  "B1667",
+  "B1821"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's four-channel frame (FR-FIB) and the seats' frames as read",
+  "object": "the agy lane's Theorems 29-64 (c5c9236df, through the mask), the web seat's three relays (to 1adfefe7d), the physical-bridge lane's two relays (to 646492da1)",
+  "reach": "general",
+  "hypotheses": "the mirror proved given a mirror-invariant radius and the Higgs condition S(-conj tau) = QI conj(S) QI; T's symmetry checked on B1726's compute at four points; the slope criterion by exact arithmetic from the channel-exponent law; the cohomology for m004's group with Riley's holonomy and E_{k,k}, k <= 3; readers' checks on main's code re-run by main"
+ },
+ "claim_one_line": "THE SEATS PAST S300 VERIFIED (the owner's 'fetch and verify agy and other seats'): the F7 mirror identity PROVED (T-FRAME-MIRROR; the agy lane's Theorem 60 repaired); T a symmetry of the frame's outputs (8e-13; main's S300 'T^2, not T' corrected); a criterion reading no held-out quantity picks the slope 2/5 (main's P-625 reason corrected; the slope stays borrowed); the F_a evaluator wrong by -i for Re tau >= 1 (P-670); P-634's first step: no cuspidal cohomology for m004's group at weights 0-3; B47 MATCH, B08 MISMATCH; P-639's mirror half NEGATIVE; the agy lane's Theorems 29-64 earn no borrowed joint, their looks at the held-out and PMNS targets counted, 23 ranges sealed; the web seat's singlet screen, steepness map and doublet index verified; the physical lane's E8 algebra verified with B = (kc_j)^-1. 0 of 19.",
+ "weave_or_thread": "neither (a harvest arc)"
+}

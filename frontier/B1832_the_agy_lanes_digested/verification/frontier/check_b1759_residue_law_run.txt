@@ -1,0 +1,7 @@
+1. K_s = P_s/R_s at equal sums X+Y, generic complex twists: max rel dev 1.86e-14 over 144 channel comparisons
+   control, sum shifted by 0.137+0.091i: min rel dev 0.010 (must be O(1))
+2. tau=-0.095+2.081i: c_s spread within sum +3 (5 pairs) 2.8e-12, within -3 (3 pairs) 2.7e-12, across +-3 2.8e-12; control sum 3 vs 1: 62.098
+2. tau=-0.133+1.577i: c_s spread within sum +3 (5 pairs) 3.2e-12, within -3 (3 pairs) 3.2e-12, across +-3 3.2e-12; control sum 3 vs 1: 20.578
+2. tau=-0.442+1.590i: c_s spread within sum +3 (5 pairs) 1.4e-12, within -3 (3 pairs) 1.4e-12, across +-3 1.4e-12; control sum 3 vs 1: 45.614
+3. |K_s(-u; -S)| vs |K_s(u; S)|: max rel dev 2.20e-15
+exit 0

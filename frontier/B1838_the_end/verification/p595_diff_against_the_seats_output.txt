@@ -1,0 +1,5 @@
+18c18,19
+< exact_end_look exit 0 (1784 s)
+---
+> exact_end_look exit 0 (891 s)
+> exit 0

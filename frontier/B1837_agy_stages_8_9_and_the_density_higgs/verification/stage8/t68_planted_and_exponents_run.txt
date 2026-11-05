@@ -1,0 +1,11 @@
+tau=(0.31,2.9) N=2: (1) nu~e holds 4e-17 ; (2) nu~u, e~d holds 4e-17 ; (3) ||U_PMNS| - |V_CKM^dag|| max 7e-16
+tau=(0.31,2.9) N=3: (1) nu~e holds 0e+00 ; (2) nu~u, e~d breaks 0.13
+tau=(0.31,2.9) N=4: (1) nu~e breaks 0.26 ; (2) nu~u, e~d holds 7e-17 ; (3) ||U_PMNS| - |V_CKM^dag|| max 5e-16
+tau=(0.31,2.9) N=5: (1) nu~e breaks 0.14 ; (2) nu~u, e~d breaks 0.15
+tau=(0.31,2.9) N=6: (1) nu~e holds 1e-17 ; (2) nu~u, e~d breaks 0.13
+tau=(0.12,3.2) N=2: (1) nu~e holds 5e-17 ; (2) nu~u, e~d holds 4e-17 ; (3) ||U_PMNS| - |V_CKM^dag|| max 3e-15
+tau=(0.12,3.2) N=3: (1) nu~e holds 5e-17 ; (2) nu~u, e~d breaks 0.09
+tau=(0.12,3.2) N=4: (1) nu~e breaks 0.18 ; (2) nu~u, e~d holds 2e-16 ; (3) ||U_PMNS| - |V_CKM^dag|| max 3e-14
+tau=(0.12,3.2) N=5: (1) nu~e breaks 0.10 ; (2) nu~u, e~d breaks 0.10
+tau=(0.12,3.2) N=6: (1) nu~e holds 6e-17 ; (2) nu~u, e~d breaks 0.09
+Dirac nu (-3,0) on 2/5: e00 -0.085 e11 0.215 e01 0.165 e10 -0.035 ; channel-class gap 1/20

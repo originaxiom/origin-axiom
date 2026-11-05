@@ -20,11 +20,11 @@ nothing in this block is typed by hand.*
 | | |
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
-| the foundations | `GENESIS.md` (v1.59) of 2026-10-28 |
-| arcs with a verdict | 1528: 1042 PROVED, 381 NEGATIVE, 93 OPEN, 12 RETRACTED |
-| points in the register | 554: 226 open (queued, leads, waiting for the owner), 328 closed |
-| the last review | Review 73 (2026-10-30), anchor `99d90d515` |
-| the last landing | S285 THE PASS SIDE ON B1741's BOX: POWER AT AN ADDRESS, LITTLE A SIGMA AWAY; THE SIX DO NOT COMPRESS; DETERMINISM PASSES (2026-10-31) |
+| the foundations | `GENESIS.md` (v1.61) of 2026-11-03 |
+| arcs with a verdict | 1542: 1052 PROVED, 382 NEGATIVE, 96 OPEN, 12 RETRACTED |
+| points in the register | 684: 297 open (queued, leads, waiting for the owner), 387 closed |
+| the last review | Review 74 (2026-11-04), anchor `41420ae14` |
+| the last landing | S304 THE CANDIDATE'S END IS THE NORM OF NO GEOMETRIC CUT (B1838): e^-L_max ABOVE THE CELL'S INRADIUS; NO SINGLE HOROCYCLE REPRODUCES ITS WEIGHTS; A07… |
 <!-- STATE:END -->
 
 ## Start here

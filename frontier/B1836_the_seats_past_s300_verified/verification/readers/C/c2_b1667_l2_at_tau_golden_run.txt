@@ -1,0 +1,5 @@
+control (0.25, 2.50): |L2 - committed| = 3.95e-14 (residual 1.2e-13)
+control (0.45, 2.75): |L2 - committed| = 1.31e-13 (residual 1.7e-14)
+tau_Golden exact B1667 L_2 = 2.368750677468 (accessory residual 4.5e-15)
+main's radii() column interpolation = 2.369301986989 ; five-node [2.0..3.0] interpolation = 2.369301986989 ; identical: True
+exact - interpolation = -5.513e-04 ; exact - 2.3577376878276057 = 1.101e-02

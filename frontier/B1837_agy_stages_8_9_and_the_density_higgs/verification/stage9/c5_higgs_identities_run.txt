@@ -1,0 +1,19 @@
+(A) units orthonormal (dev 0.0e+00), pseudoreal under eps (dev 0.0e+00); reading distance identity worst 1.4e-14 over 400 S (min attained at phi* = -arg det S); rho in [0.087, 0.991] within [0, 1]
+(B) R.R/||R||^2                                                  worst 5.6e-17
+(B) DR.DR vs eta^6/4                                             worst 1.7e-14
+(B) R vs F_2/(2 pi eta^3) (ratio spread)                         worst 2.8e-16
+(B) F_6.F_6 vs closed form                                       worst 4.0e-14
+(B) F_10.F_10 vs closed form                                     worst 4.9e-14
+(B) F_a.F_a = x^n+y^n-(x+y)^n, a in {-10,-6,-2,14,18,22,26}      worst 1.3e-14
+    (eta^12 = xy(x+y)/16 with x = th2^4, y = th4^4; x^n + y^n - (x+y)^n vanishes on x = 0, y = 0, x = -y for odd n, so
+     every POSITIVE-weight census F_a (a = 6..26) is off the null cone by eta^12 times a holomorphic modular form; the
+     negative-weight F_a are not near-null (c5b): near-nullness is shared by DR and F_6..F_26, not a DR/F_10 property)
+(C) rho = |h.h|/||h||^2 for the 13 census directions, Re tau = 0.25:
+   Im tau 1.6: median 4.47e-01, max 1.00e+00 (F_-10)
+   Im tau 2.4: median 3.83e-02, max 1.00e+00 (F_-10)
+   Im tau 3.2: median 3.10e-03, max 1.00e+00 (F_-10)
+   Im tau 4.5: median 5.22e-05, max 1.00e+00 (F_-10)
+   Im tau 6.0: median 4.69e-07, max 1.00e+00 (F_-10)
+(D) order-10 reflection Y_e(h) = lam D Y_d(Sigma10 h)^T D for 3 random h, DR and F_10: worst 2.8e-15 (holds for every Higgs)
+    order-5 Y_e(h) = c Y_d(h)^T on 4 order-5 lines for the same h: worst 3.7e-15 (every 3-D Higgs; B1827 V3)
+    DR's QI share |h_I|/||h|| at the two tau: 0.095, 0.275 (nonzero: DR is not QI-free)

@@ -457,3 +457,28 @@ none had answered.
 **Enforced by:** the gate `doc-facts` (rule 5's key facts; S241). Rules 1–4, and rule 5's classification and declared
 surfaces, are MANUAL until P-417's steps 1, 2, 4 and 5 build their gates. They are registered in `docs/PRACTICES.md`.
 
+## THE BRAINSTORM RULES (the owner's ruling of 2026-11-04 on P-659, after B1833: "i aprove all your recomendations")
+
+B1833 measured that leads are lost after they are written down: they never come due, reviews rank them and carry none,
+merged items die with their host, drafts stay in the audit room, and retired frames strand their ideas. Seven rules:
+
+1. **M1 (gated, point-debt rule 7).** A direction lead — from the owner, a brainstorm, a meditation, the framing ledger or a
+   review — ages at 21 days: its first step is run, it is declined with a date, or it is put to the owner. The rows that
+   existed on 2026-11-04 come due on 2026-11-25.
+2. **M2, M3 (gated, rule 8).** One owner row per central question (P-629 the first); an umbrella cannot close while a listed
+   child is open, and a row joined under or merged into a host keeps its own disposition, so the host cannot close over it.
+3. **M4 (gated, the carry scan; report-only until 2026-11-18).** Every brainstorm, meditation, framing pass and review ends
+   with a carry list rowed the same day; a FINDINGS line saying "owed", "carried forward", "not computed" or "never
+   computed" needs a register row citing its arc.
+4. **M5 (the review template).** A review's ranked leads are entered as action items with their first steps, or declined
+   in the same block.
+5. **M6 (gated, rule 9, and the owner line).** Every report to the owner lists all open OWNER rows (the gate prints them);
+   an audit-room draft cited by a row lands at a tracked path or is marked DRAFT-DECLINED within 7 days (rows older than
+   2026-11-04: by 2026-11-25).
+6. **M7 (manual).** When a frame is retired, its open ideas are listed and each is translated into the new frame or
+   declined with a date. A frame card whose free continuous data outnumber the object-fixed invariants that could fix them
+   is graded FIT-CAPACITY up front, and it does not become the main line without the owner's word.
+
+**Enforced by:** `point-debt` (rules 7–9, the owner line, the carry scan); the review template (M5); M7 is MANUAL. They are
+registered in `docs/PRACTICES.md`.
+

@@ -111,3 +111,5 @@ not — now visible in the interaction itself).
 (singular-continuous) as a mixed-spectrum construction — the more physics-natural notion of interaction,
 still UNRUN (blocking lit-gate: combined Fibonacci–Thue–Morse aperiodic systems). Q2 (the defect
 dictionary) also remains. Firewalled; nothing to CLAIMS.md.
+
+> *Dated note 2026-11-04 (Review 74, P-535):* PREREGISTRATION.md changed after this record in one line only, its title's id B493 → B496, at `88f293a41` (the renumber begun at `fbdbcaa36`); no statement, question or criterion changed, and the text as banked is at `baa49e6bd`. The preregistration and this record were committed together (the early practice), so git does not show which was written first.*

@@ -1,0 +1,12 @@
+c36b: main's F_10 evaluator vs the analytic F_10, and T with the analytic one
+  tau = (0.37+3.05j): |main - analytic| / |F| per component (I, J, K): 5.3e-23 2.2e-16 2.2e-16
+  tau = (0.21+2.3j): |main - analytic| / |F| per component (I, J, K): 1.4e-20 3.3e-16 6.6e-16
+  tau = (1.37+3.05j): |main - analytic| / |F| per component (I, J, K): 8.1e-08 2.2e-16 2.2e-16
+  tau = (1.21+2.3j): |main - analytic| / |F| per component (I, J, K): 2.9e-05 6.6e-16 3.3e-16
+  analytic F_10(tau+1) vs i (h_I, h_K, -h_J): 1.7e-18  (and eta^6(tau+1) = i eta^6)
+  analytic F_10, FR-FIB, a0 = 0.0 eta^6: T (tau+1, p2+p1) worst relative output deviation 1.2e-12
+  analytic F_10, FR-FIB, a0 = 0.3 eta^6: T (tau+1, p2+p1) worst relative output deviation 2.9e-12
+  analytic F_10, FR-FIB, a0 = 1.1 eta^6: T (tau+1, p2+p1) worst relative output deviation 1.4e-11
+  analytic F_10, FR-COV, a0 = 0.0 eta^6: T (tau+1, p2+p1) worst relative output deviation 2.4e-11
+  analytic F_10, FR-COV, a0 = 0.3 eta^6: T (tau+1, p2+p1) worst relative output deviation 9.2e-13
+  analytic F_10, FR-COV, a0 = 1.1 eta^6: T (tau+1, p2+p1) worst relative output deviation 1.1e-12

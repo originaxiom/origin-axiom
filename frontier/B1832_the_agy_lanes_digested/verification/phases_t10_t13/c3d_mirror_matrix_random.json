@@ -1,0 +1,123 @@
+{
+ "seed 1790 configurations": [
+  {
+   "line": [
+    "1/3",
+    "2/3"
+   ],
+   "tau": "(0.361+3.323j)",
+   "F_a": 6,
+   "reading": "S",
+   "control (same line at -conj tau), least over sectors": 2.8057614067226388e-14,
+   "line self-mirror (b == -b mod 1)?": false
+  },
+  {
+   "line": [
+    "1/8",
+    "1/8"
+   ],
+   "tau": "(0.295+2.691j)",
+   "F_a": -2,
+   "reading": "S~",
+   "control (same line at -conj tau), least over sectors": 0.39002424088695764,
+   "line self-mirror (b == -b mod 1)?": false
+  },
+  {
+   "line": [
+    "1/3",
+    "2/3"
+   ],
+   "tau": "(0.144+1.956j)",
+   "F_a": -2,
+   "reading": "S~",
+   "control (same line at -conj tau), least over sectors": 2.7956084411838997e-14,
+   "line self-mirror (b == -b mod 1)?": false
+  },
+  {
+   "line": [
+    "2/3",
+    "2/3"
+   ],
+   "tau": "(0.209+3.089j)",
+   "F_a": 14,
+   "reading": "S~",
+   "control (same line at -conj tau), least over sectors": 5.5847599010146335e-14,
+   "line self-mirror (b == -b mod 1)?": false
+  }
+ ],
+ "seed 1790 worst relative |Y((a,-b), -conj tau) - P conj(Y) P| over 12 sector-rows": 1.9437776274606735e-15,
+ "seed 1790 control (same line at -conj tau): least relative deviation": 2.7956084411838997e-14,
+ "seed 1821 configurations": [
+  {
+   "line": [
+    "5/6",
+    "1/2"
+   ],
+   "tau": "(0.196+2.183j)",
+   "F_a": 6,
+   "reading": "S~",
+   "control (same line at -conj tau), least over sectors": 3.708549265228119e-16,
+   "line self-mirror (b == -b mod 1)?": true
+  },
+  {
+   "line": [
+    "1/6",
+    "1/3"
+   ],
+   "tau": "(0.225+2.354j)",
+   "F_a": 6,
+   "reading": "S",
+   "control (same line at -conj tau), least over sectors": 8.975176755382095e-16,
+   "line self-mirror (b == -b mod 1)?": false
+  },
+  {
+   "line": [
+    "5/8",
+    "3/4"
+   ],
+   "tau": "(0.343+2.949j)",
+   "F_a": 6,
+   "reading": "S~",
+   "control (same line at -conj tau), least over sectors": 0.76539473331219,
+   "line self-mirror (b == -b mod 1)?": false
+  },
+  {
+   "line": [
+    "1/3",
+    "2/3"
+   ],
+   "tau": "(0.047+2.907j)",
+   "F_a": -2,
+   "reading": "S~",
+   "control (same line at -conj tau), least over sectors": 8.764144237987381e-16,
+   "line self-mirror (b == -b mod 1)?": false
+  }
+ ],
+ "seed 1821 worst relative |Y((a,-b), -conj tau) - P conj(Y) P| over 12 sector-rows": 1.0299390471970962e-15,
+ "seed 1821 control (same line at -conj tau): least relative deviation": 3.708549265228119e-16,
+ "P2c LL singular values at tau* (twist-3 norms, a0 = -b, L = 2.369206)": [
+  0.05551,
+  0.19118,
+  3.72661
+ ],
+ "P2c LL singular values at tau* (twist-3 norms, a0 = -b, L = 2.370188)": [
+  0.05552,
+  0.19114,
+  3.72733
+ ],
+ "P2c tau_G: main's (s1/s3, s2/s3) vs the relay's": [
+  [
+   0.014463763342006766,
+   0.0512614713232091
+  ],
+  [
+   0.014523755252806855,
+   0.0512539523901367
+  ]
+ ],
+ "P2c tau_G: relay / main per singular value (a common normalisation?)": [
+  0.9212353591886823,
+  0.9172955320078598,
+  0.9174300988732652
+ ]
+}

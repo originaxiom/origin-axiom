@@ -1,0 +1,5 @@
+cases per kappa: {1: 2592, -3: 2592, 3: 2592, -1: 2592}
+kappa +1 (code k -1): D2 median 1  [1, 1]  frac(2<D2<4.5) 0.00 | D1 median 1  [1, 1]  frac(1/4.5<D1<1/2) 0.00 | both 0.000
+kappa -1 (code k +1): D2 median 1  [0.964, 1.04]  frac(2<D2<4.5) 0.00 | D1 median 1  [0.688, 1.41]  frac(1/4.5<D1<1/2) 0.11 | both 0.000
+kappa -3 (code k +3): D2 median 2.02  [1.27, 3.28]  frac(2<D2<4.5) 0.39 | D1 median 3.29  [1.47, 6.04]  frac(1/4.5<D1<1/2) 0.03 | both 0.011
+kappa +3 (code k -3): D2 median 2.1  [1.26, 3.16]  frac(2<D2<4.5) 0.45 | D1 median 3.08  [1.61, 5.81]  frac(1/4.5<D1<1/2) 0.01 | both 0.005

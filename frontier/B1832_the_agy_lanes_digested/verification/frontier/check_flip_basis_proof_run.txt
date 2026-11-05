@@ -1,0 +1,3 @@
+12 basis pairs; entries rational with denominators <= 8 (max rounding residual 0.0e+00); exact mismatches: []
+control (no transpose, no D): 5 of 12 basis pairs differ
+exit 0

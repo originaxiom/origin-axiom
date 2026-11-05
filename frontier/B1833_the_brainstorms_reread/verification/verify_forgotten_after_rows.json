@@ -1,0 +1,1682 @@
+{
+ "L240gh": {
+  "register": [
+   "L240 (g)",
+   "L240 (h)",
+   "fresh reader with only GENESIS",
+   "Stage 6"
+  ],
+  "open_leads": [
+   "fresh reader with only GENESIS",
+   "Stage 6"
+  ],
+  "files": {
+   "L240 \\(g\\)": [
+    3,
+    [
+     "CHANGELOG.md",
+     "docs/POINT_REGISTER.md",
+     "frontier/B1831_review_74_the_decadal_review/verification/readers/leads_OPEN_LEADS_READ.md"
+    ]
+   ],
+   "L240 \\(h\\)": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "fresh reader with only GENESIS": [
+    3,
+    [
+     "docs/OPEN_LEADS.md",
+     "docs/POINT_REGISTER.md",
+     "frontier/B1831_review_74_the_decadal_review/verification/readers/leads_OPEN_LEADS_READ.md"
+    ]
+   ],
+   "Stage 6": [
+    10,
+    [
+     "CHANGELOG.md",
+     "PROGRESS_LOG.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/OPEN_LEADS.md",
+     "docs/POINT_REGISTER.md",
+     "docs/THE_FOUNDATION_LOCK_PLAN.md"
+    ]
+   ]
+  }
+ },
+ "Ue": {
+  "register": [
+   "U_e",
+   "U_e",
+   "U_e",
+   "U_PMNS"
+  ],
+  "open_leads": [
+   "U_e",
+   "U_e",
+   "U_e",
+   "charged-lepton diagonali"
+  ],
+  "files": {
+   "\\bU_e\\b": [
+    16,
+    [
+     "CHANGELOG.md",
+     "PROGRESS_LOG.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/OPEN_LEADS.md",
+     "docs/POINT_REGISTER.md",
+     "docs/THE_REMAINING_MATH.md"
+    ]
+   ],
+   "charged-lepton diagonali": [
+    1,
+    [
+     "docs/OPEN_LEADS.md"
+    ]
+   ],
+   "left diagonaliser of Y_e": [
+    0,
+    []
+   ],
+   "U_PMNS": [
+    9,
+    [
+     "docs/POINT_REGISTER.md",
+     "frontier/B630_matrix_comparison_design/COMPARISON_DESIGN.md",
+     "frontier/B631_matrix_comparison/FINDINGS.md",
+     "frontier/B631_matrix_comparison/MB13_RETRO_SWEEP.md",
+     "frontier/B631_matrix_comparison/b631_controls.py",
+     "frontier/B631_matrix_comparison/b631_run.py"
+    ]
+   ]
+  }
+ },
+ "deviation": {
+  "register": [
+   "away from criticality",
+   "linearise the trace map at"
+  ],
+  "open_leads": [],
+  "files": {
+   "spectrum of deviations": [
+    0,
+    []
+   ],
+   "deviation spectrum": [
+    3,
+    [
+     "CHANGELOG.md",
+     "frontier/B344_deviation_symplectic_pairing/FINDINGS.md",
+     "frontier/B344_deviation_symplectic_pairing/deviation_symplectic_pairing.py"
+    ]
+   ],
+   "away from criticality": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "linearis\\w+ (the )?trace map at": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ]
+  }
+ },
+ "BlumeCapel": {
+  "register": [
+   "Blume"
+  ],
+  "open_leads": [],
+  "files": {
+   "Blume": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "multicritical": [
+    0,
+    []
+   ],
+   "tricritical .{0,40}phase diagram": [
+    0,
+    []
+   ]
+  }
+ },
+ "B477": {
+  "register": [
+   "B477",
+   "sterile obstruction class"
+  ],
+  "open_leads": [
+   "B477"
+  ],
+  "files": {
+   "B477": [
+    33,
+    [
+     "docs/EARLY_RECORD_INDEX.md",
+     "docs/OPEN_LEADS.md",
+     "docs/POINT_REGISTER.md",
+     "docs/views/VERDICT_LEDGER.md",
+     "frontier/B1425_the_flaky_lock_and_the_hollow_green/verification/receipt_failure_sweep.json",
+     "frontier/B1449_the_silent_receipts_read/FINDINGS.md"
+    ]
+   ],
+   "sterile (obstruction )?class": [
+    10,
+    [
+     "docs/POINT_REGISTER.md",
+     "frontier/B1473_the_three_kinds_cover_a_third_at_most/verification/readers/batch_0.json",
+     "frontier/B477_sterile_classes/FINDINGS.md",
+     "frontier/B477_sterile_classes/sterile_scan.py",
+     "frontier/B738_pathfinder_compiler/SHORTLIST.md",
+     "frontier/B738_pathfinder_compiler/kill_graph.json"
+    ]
+   ]
+  }
+ },
+ "B1000art": {
+  "register": [
+   "bridge artifact",
+   "P5 completeness",
+   "P5 completeness"
+  ],
+  "open_leads": [],
+  "files": {
+   "bridge artifact": [
+    7,
+    [
+     "CHANGELOG.md",
+     "PROGRESS_LOG.md",
+     "docs/LAW_MAP.md",
+     "docs/POINT_REGISTER.md",
+     "frontier/B1000_input_count/FINDINGS.md",
+     "frontier/B1000_input_count/PREREGISTRATION.md"
+    ]
+   ],
+   "filling slope.{0,80}owed": [
+    0,
+    []
+   ],
+   "P5 completeness": [
+    5,
+    [
+     "docs/POINT_REGISTER.md",
+     "frontier/B1000_input_count/FINDINGS.md",
+     "frontier/B1000_input_count/PREREGISTRATION.md",
+     "frontier/B1468_the_frozen_seals_re_audited/verification/readers_raw.json",
+     "frontier/B1468_the_frozen_seals_re_audited/verification/readers_verified.json"
+    ]
+   ]
+  }
+ },
+ "B853trans": {
+  "register": [
+   "B853",
+   "transcendental spectral ratio"
+  ],
+  "open_leads": [
+   "B853"
+  ],
+  "files": {
+   "B853": [
+    95,
+    [
+     "CHANGELOG.md",
+     "GENESIS.md",
+     "PROGRESS_LOG.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/COSMOLOGY_LEDGER.md",
+     "docs/ERROR_LEDGER.md"
+    ]
+   ],
+   "transcendental spectral ratio": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ]
+  }
+ },
+ "kkappa": {
+  "register": [
+   "(k, κ) plane"
+  ],
+  "open_leads": [],
+  "files": {
+   "\\(k, ?κ\\) plane": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "\\(k,κ\\)": [
+    0,
+    []
+   ]
+  }
+ },
+ "WHY_II2": {
+  "register": [
+   "II-2",
+   "II-2",
+   "why the cascade stops"
+  ],
+  "open_leads": [],
+  "files": {
+   "termination-WHY": [
+    1,
+    [
+     "docs/THE_WHY_CAMPAIGN.md"
+    ]
+   ],
+   "II-2": [
+    11,
+    [
+     "CHANGELOG.md",
+     "PROGRESS_LOG.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/POINT_REGISTER.md",
+     "docs/THE_PATTERN_MEDITATION_2.md",
+     "docs/THE_WHY_CAMPAIGN.md"
+    ]
+   ],
+   "why the cascade stops": [
+    4,
+    [
+     "CHANGELOG.md",
+     "docs/POINT_REGISTER.md",
+     "frontier/B863_termination/termination.py",
+     "outside_bench/THE_OWNER_REGISTER.md"
+    ]
+   ]
+  }
+ },
+ "L81c": {
+  "register": [
+   "L81(c)",
+   "L81(c)",
+   "sister-difference"
+  ],
+  "open_leads": [],
+  "files": {
+   "L81 ?\\(c\\)": [
+    3,
+    [
+     "docs/POINT_REGISTER.md",
+     "docs/THE_CAMPAIGN.md",
+     "docs/THE_LADDER.md"
+    ]
+   ],
+   "L81c": [
+    1,
+    [
+     "docs/THE_WHY_CAMPAIGN.md"
+    ]
+   ],
+   "sister-difference": [
+    2,
+    [
+     "docs/POINT_REGISTER.md",
+     "docs/THE_LADDER.md"
+    ]
+   ],
+   "sister.{0,20}trace −3": [
+    1,
+    [
+     "docs/THE_WHY_CAMPAIGN.md"
+    ]
+   ]
+  }
+ },
+ "posdim": {
+  "register": [
+   "dim H¹(fib",
+   "only continuous degrees of freedom"
+  ],
+  "open_leads": [],
+  "files": {
+   "positive-dimensional class": [
+    1,
+    [
+     "frontier/B461_relation_r2_borromean/FINDINGS.md"
+    ]
+   ],
+   "dim H¹\\(fib": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "only continuous degrees of freedom": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ]
+  }
+ },
+ "L159": {
+  "register": [
+   "L159"
+  ],
+  "open_leads": [
+   "L159",
+   "L159",
+   "gerbe",
+   "gerbe",
+   "gerbe"
+  ],
+  "files": {
+   "L159": [
+    20,
+    [
+     "CHANGELOG.md",
+     "PROGRESS_LOG.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/CLOUD_ALIAS_TABLE.md",
+     "docs/LEAD_REGISTER.md",
+     "docs/OPEN_LEADS.md"
+    ]
+   ],
+   "gerbe": [
+    17,
+    [
+     "CHANGELOG.md",
+     "PROGRESS_LOG.md",
+     "ROADMAP.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/CLOUD_ALIAS_TABLE.md",
+     "docs/LEAD_REGISTER.md"
+    ]
+   ]
+  }
+ },
+ "L151": {
+  "register": [
+   "L151",
+   "L151",
+   "anchor budget"
+  ],
+  "open_leads": [
+   "L151",
+   "anchor budget",
+   "anchor budget"
+  ],
+  "files": {
+   "L151": [
+    19,
+    [
+     "CHANGELOG.md",
+     "PROGRESS_LOG.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/OPEN_LEADS.md",
+     "docs/POINT_REGISTER.md",
+     "docs/SEAL_LEDGER.md"
+    ]
+   ],
+   "anchor budget": [
+    9,
+    [
+     "PROGRESS_LOG.md",
+     "docs/OPEN_LEADS.md",
+     "docs/POINT_REGISTER.md",
+     "docs/views/VERDICT_LEDGER.md",
+     "frontier/B1014_proof_form/FINDINGS.md",
+     "frontier/B1014_proof_form/arc_verdict.json"
+    ]
+   ]
+  }
+ },
+ "AngleA": {
+  "register": [
+   "cuspidal cohomology",
+   "cuspidal cohomology",
+   "Angle A",
+   "overlap integrals",
+   "overlap integrals"
+  ],
+  "open_leads": [
+   "rigid route** (m004's fillings as the 3-cycle of a G₂ compactification",
+   "overlap integrals"
+  ],
+  "files": {
+   "cuspidal cohomology": [
+    2,
+    [
+     "CHANGELOG.md",
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "rigid (object|route).{0,60}compactification": [
+    8,
+    [
+     "ROADMAP.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/LEAD_REGISTER.md",
+     "docs/MASTERPLAN.md",
+     "docs/OPEN_LEADS.md",
+     "docs/OPEN_PROBLEMS.md"
+    ]
+   ],
+   "Angle A": [
+    3,
+    [
+     "CHANGELOG.md",
+     "docs/POINT_REGISTER.md",
+     "docs/views/CONTEXT_RECOVERY.md"
+    ]
+   ],
+   "overlap integrals": [
+    9,
+    [
+     "docs/OPEN_LEADS.md",
+     "docs/POINT_REGISTER.md",
+     "docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-13_THE_FRAME_AUDIT_AND_THE_POINT_REGISTER.md",
+     "frontier/B1800_the_couplings_as_overlaps_of_the_fibres_zero_modes/FINDINGS.md",
+     "frontier/B1800_the_couplings_as_overlaps_of_the_fibres_zero_modes/arc_verdict.json",
+     "frontier/B1830_the_register_triaged/verification/batch_1.md"
+    ]
+   ]
+  }
+ },
+ "doorC_deg": {
+  "register": [
+   "canonical degree",
+   "door (c)"
+  ],
+  "open_leads": [],
+  "files": {
+   "canonical degree": [
+    3,
+    [
+     "docs/POINT_REGISTER.md",
+     "frontier/README.md",
+     "papers/candidates/PC12_sl3_metallic_trace_maps/DRAFT_NOTE.md"
+    ]
+   ],
+   "door \\(c\\)": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ]
+  }
+ },
+ "FK11curv": {
+  "register": [
+   "FK11 curvature cell — doublets as K^{±½} sections feel the fibre's curvature",
+   "FK11 curvature",
+   "K^{±½",
+   "curvature cell"
+  ],
+  "open_leads": [],
+  "files": {
+   "FK11.{0,80}curvature": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "K\\^\\{?[±+-]?½": [
+    6,
+    [
+     "docs/POINT_REGISTER.md",
+     "docs/handoffs/CC_TO_ALL_SEATS_2026-10-15_THE_HARVEST_AND_THE_HIGGSS_END.md",
+     "frontier/B1651_where_a_higgs_can_couple/ADDENDUM_2026-10-14_the_szego_reading.md",
+     "frontier/B1653_the_rank_of_a_point_coupling/FINDINGS.md",
+     "frontier/B1672_discharging_triplet_index_gauge_frontier/FINDINGS.md",
+     "frontier/B1796_the_cusp_unit_from_the_field_checked_on_main/FINDINGS.md"
+    ]
+   ],
+   "curvature cell": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ]
+  }
+ },
+ "seedreuse": {
+  "register": [
+   "seed reuse",
+   "fresh seeds' was wrong",
+   "seeds overlap"
+  ],
+  "open_leads": [],
+  "files": {
+   "seed reuse": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "fresh seeds.{0,40}wrong": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "seeds overlap": [
+    3,
+    [
+     "CHANGELOG.md",
+     "docs/HARVEST_LEDGER.md",
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "correlated calibration": [
+    0,
+    []
+   ]
+  }
+ },
+ "tauvocab": {
+  "register": [
+   "τ is used for three"
+  ],
+  "open_leads": [],
+  "files": {
+   "τ.{0,10} used for (three|several)": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "three (different )?things.{0,30}τ": [
+    0,
+    []
+   ],
+   "τ's two roles": [
+    0,
+    []
+   ]
+  }
+ },
+ "WEAVE927": {
+  "register": [
+   "no effective action",
+   "effective action of the joint"
+  ],
+  "open_leads": [],
+  "files": {
+   "no effective action": [
+    2,
+    [
+     "docs/POINT_REGISTER.md",
+     "docs/THE_WEAVE.md"
+    ]
+   ],
+   "effective action of the joint": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ]
+  }
+ },
+ "FA106": {
+  "register": [
+   "towers' meeting the next frame"
+  ],
+  "open_leads": [],
+  "files": {
+   "towers.{0,40}next frame": [
+    3,
+    [
+     "docs/POINT_REGISTER.md",
+     "docs/THE_FINAL_ATTACK_2026-10-29.md",
+     "docs/THE_PROGRAMME_SO_FAR.md"
+    ]
+   ],
+   "on NO SUPPORT.{0,80}tower": [
+    0,
+    []
+   ]
+  }
+ },
+ "FA137": {
+  "register": [
+   "until the nine are decided"
+  ],
+  "open_leads": [],
+  "files": {
+   "until the nine are decided": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "gauge couplings.{0,60}deferred": [
+    0,
+    []
+   ]
+  }
+ },
+ "FLGtrig": {
+  "register": [
+   "triggers that would reshape"
+  ],
+  "open_leads": [],
+  "files": {
+   "§G trigger": [
+    0,
+    []
+   ],
+   "FRAMING_LEDGER.{0,40}trigger": [
+    0,
+    []
+   ],
+   "triggers? that would reshape": [
+    2,
+    [
+     "docs/POINT_REGISTER.md",
+     "frontier/B1827_the_framing_ledger/FINDINGS.md"
+    ]
+   ]
+  }
+ },
+ "Med3I5": {
+  "register": [
+   "identity left the value",
+   "26% to 2%",
+   "object's identity"
+  ],
+  "open_leads": [],
+  "files": {
+   "identity left the (value|physics)": [
+    3,
+    [
+     "CHANGELOG.md",
+     "docs/POINT_REGISTER.md",
+     "docs/THE_PATTERN_MEDITATION_3.md"
+    ]
+   ],
+   "26% to 2%": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "object's identity": [
+    3,
+    [
+     "CHANGELOG.md",
+     "docs/POINT_REGISTER.md",
+     "docs/THE_PATTERN_MEDITATION_3.md"
+    ]
+   ]
+  }
+ },
+ "FL27": {
+  "register": [
+   "FL-27"
+  ],
+  "open_leads": [],
+  "files": {
+   "FL-27": [
+    3,
+    [
+     "CHANGELOG.md",
+     "docs/FRAMING_LEDGER.md",
+     "docs/POINT_REGISTER.md"
+    ]
+   ]
+  }
+ },
+ "FL04": {
+  "register": [
+   "FL-04",
+   "FL-04"
+  ],
+  "open_leads": [],
+  "files": {
+   "FL-04": [
+    3,
+    [
+     "docs/FRAMING_LEDGER.md",
+     "docs/POINT_REGISTER.md",
+     "frontier/B1831_review_74_the_decadal_review/verification/readers/leads_REGISTER_LEADS.md"
+    ]
+   ]
+  }
+ },
+ "clockC": {
+  "register": [
+   "door C",
+   "door C",
+   "initial law",
+   "initial law",
+   "initial law"
+  ],
+  "open_leads": [],
+  "files": {
+   "door C": [
+    8,
+    [
+     "CHANGELOG.md",
+     "docs/POINT_REGISTER.md",
+     "docs/SEAL_LEDGER.md",
+     "docs/THEOREM_LEDGER.md",
+     "frontier/B1831_review_74_the_decadal_review/verification/readers/leads_REGISTER_LEADS.md",
+     "frontier/B579_session_handoff/FINDINGS.md"
+    ]
+   ],
+   "initial law": [
+    3,
+    [
+     "docs/POINT_REGISTER.md",
+     "docs/THE_CLOCK_AND_THE_NEXT_ATTACK_2026-10-29.md",
+     "frontier/B1830_the_register_triaged/verification/batch_3.md"
+    ]
+   ]
+  }
+ },
+ "angle8": {
+  "register": [
+   "measure over (τ"
+  ],
+  "open_leads": [],
+  "files": {
+   "hyperbolic measure.{0,40}\\(τ, ?line\\)": [
+    0,
+    []
+   ],
+   "measure over \\(τ": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ]
+  }
+ },
+ "angle14": {
+  "register": [
+   "compact hyperbolic internal",
+   "volume ≫ diameter"
+  ],
+  "open_leads": [],
+  "files": {
+   "compact hyperbolic internal": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "volume ≫ diameter": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "volume >> diameter": [
+    0,
+    []
+   ]
+  }
+ },
+ "H06": {
+  "register": [
+   "H-06",
+   "index under the mirror's swap"
+  ],
+  "open_leads": [
+   "index under the mirror's swap"
+  ],
+  "files": {
+   "H-06": [
+    3,
+    [
+     "docs/FRAMING_LEDGER.md",
+     "docs/POINT_REGISTER.md",
+     "frontier/B1827_the_framing_ledger/verification/readers/A4_walls_to_commitments.md"
+    ]
+   ],
+   "index under the mirror's swap": [
+    61,
+    [
+     "CHANGELOG.md",
+     "GENESIS.md",
+     "PROGRESS_LOG.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/LAW_MAP.md",
+     "docs/OPEN_LEADS.md"
+    ]
+   ]
+  }
+ },
+ "H08": {
+  "register": [
+   "H-08",
+   "flux potentials for τ",
+   "non-perturbative or flux potentials for τ"
+  ],
+  "open_leads": [],
+  "files": {
+   "H-08": [
+    3,
+    [
+     "docs/FRAMING_LEDGER.md",
+     "docs/POINT_REGISTER.md",
+     "frontier/B1827_the_framing_ledger/verification/readers/A4_walls_to_commitments.md"
+    ]
+   ],
+   "flux potential.{0,30}τ": [
+    2,
+    [
+     "docs/POINT_REGISTER.md",
+     "frontier/B1832_the_agy_lanes_digested/FINDINGS.md"
+    ]
+   ],
+   "non-perturbative.{0,40}τ": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ]
+  }
+ },
+ "ccrit": {
+  "register": [
+   "6πh",
+   "critical c",
+   "critical c",
+   "critical c"
+  ],
+  "open_leads": [
+   "critical c"
+  ],
+  "files": {
+   "c_crit": [
+    1,
+    [
+     "CHANGELOG.md"
+    ]
+   ],
+   "6π·?h": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "critical c": [
+    62,
+    [
+     "TERMINOLOGY.md",
+     "docs/OPEN_LEADS.md",
+     "docs/POINT_REGISTER.md",
+     "docs/THE_CLOCK_AND_THE_NEXT_ATTACK_2026-10-29.md",
+     "docs/handoffs/CC_TO_ALL_SEATS_2026-10-16_THE_FIVE_STEPS.md",
+     "docs/handoffs/CC_TO_AUDIT_LANE_2026-10-16_REORIENTATION.md"
+    ]
+   ]
+  }
+ },
+ "eventrace": {
+  "register": [
+   "even-trace thread",
+   "even-trace thread"
+  ],
+  "open_leads": [
+   "even-trace thread",
+   "even-trace thread"
+  ],
+  "files": {
+   "even-trace thread": [
+    70,
+    [
+     "CHANGELOG.md",
+     "GENESIS.md",
+     "PROGRESS_LOG.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/HARVEST_LEDGER.md",
+     "docs/LAW_MAP.md"
+    ]
+   ],
+   "even trace thread": [
+    0,
+    []
+   ]
+  }
+ },
+ "PF4": {
+  "register": [
+   "PF4",
+   "what exists is read",
+   "what exists is read"
+  ],
+  "open_leads": [],
+  "files": {
+   "PF4": [
+    23,
+    [
+     "GENESIS.md",
+     "docs/POINT_REGISTER.md",
+     "docs/views/REVIEWER.md",
+     "docs/views/VERDICT_LEDGER.md",
+     "frontier/B1651_where_a_higgs_can_couple/adoption/amend.py",
+     "frontier/B1655_main_audits_its_negatives/received/GENESIS_v1_45_main.md"
+    ]
+   ],
+   "what exists is read": [
+    25,
+    [
+     "CHANGELOG.md",
+     "GENESIS.md",
+     "docs/POINT_REGISTER.md",
+     "docs/handoffs/CC_TO_ALL_SEATS_2026-10-14_THE_FIELD_BY_FRAME.md",
+     "docs/handoffs/CC_TO_ALL_SEATS_2026-10-15_THE_PAPER_CONSULTATION.md",
+     "frontier/B1651_where_a_higgs_can_couple/adoption/amend.py"
+    ]
+   ]
+  }
+ },
+ "L241b": {
+  "register": [
+   "L241 (b)",
+   "L241's item (b)",
+   "instrument that keeps the marking"
+  ],
+  "open_leads": [
+   "L241 (b)",
+   "instrument that keeps the marking",
+   "instrument that keeps the marking",
+   "instrument that keeps the marking"
+  ],
+  "files": {
+   "L241.{0,10}\\(b\\)": [
+    7,
+    [
+     "docs/OPEN_LEADS.md",
+     "docs/POINT_REGISTER.md",
+     "docs/views/REVIEWER.md",
+     "docs/views/VERDICT_LEDGER.md",
+     "frontier/B1744_the_higgs_own_twist/FINDINGS.md",
+     "frontier/B1831_review_74_the_decadal_review/verification/readers/leads_OPEN_LEADS_READ.md"
+    ]
+   ],
+   "marking-keeping instrument": [
+    0,
+    []
+   ],
+   "instrument that keeps the marking": [
+    6,
+    [
+     "CHANGELOG.md",
+     "PROGRESS_LOG.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/OPEN_LEADS.md",
+     "docs/POINT_REGISTER.md",
+     "docs/handoffs/CC_TO_SM_2026-10-02_GENESIS_V1_3_AND_YOUR_FOUR_ARCS.md"
+    ]
+   ]
+  }
+ },
+ "L246ph2": {
+  "register": [
+   "L246): Phase 2",
+   "Phase 2's η"
+  ],
+  "open_leads": [
+   "L246 Phase 2",
+   "L246 Phase 2",
+   "L246 Phase 2",
+   "Phase 3 — the continuous carrier on chiral"
+  ],
+  "files": {
+   "L246.{0,30}Phase 2": [
+    66,
+    [
+     "CHANGELOG.md",
+     "GENESIS.md",
+     "PROGRESS_LOG.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/OPEN_LEADS.md",
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "Phase 2.{0,20}η": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "Phase 3.{0,40}chiral": [
+    2,
+    [
+     "docs/FRESH_EYES_2026-09.md",
+     "docs/OPEN_LEADS.md"
+    ]
+   ]
+  }
+ },
+ "nonsplit": {
+  "register": [
+   "sourced non-split",
+   "non-split configuration"
+  ],
+  "open_leads": [
+   "sourced non-split",
+   "non-split configuration"
+  ],
+  "files": {
+   "sourced non-split": [
+    15,
+    [
+     "CHANGELOG.md",
+     "PROGRESS_LOG.md",
+     "ROADMAP.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/LEAD_REGISTER.md",
+     "docs/MASTERPLAN.md"
+    ]
+   ],
+   "non-split configuration": [
+    79,
+    [
+     "CHANGELOG.md",
+     "GENESIS.md",
+     "PROGRESS_LOG.md",
+     "ROADMAP.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/LAW_MAP.md"
+    ]
+   ]
+  }
+ },
+ "FK7": {
+  "register": [
+   "FK7",
+   "FK7",
+   "deck gauged"
+  ],
+  "open_leads": [],
+  "files": {
+   "FK7": [
+    71,
+    [
+     "CHANGELOG.md",
+     "GENESIS.md",
+     "PROGRESS_LOG.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/HARVEST_LEDGER.md",
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "deck (is )?gauged": [
+    2,
+    [
+     "docs/POINT_REGISTER.md",
+     "frontier/B1432_the_three_fold_cover_fires_off_the_lift/FINDINGS.md"
+    ]
+   ]
+  }
+ },
+ "codexmap": {
+  "register": [
+   "question map",
+   "question map",
+   "minimal description does not select"
+  ],
+  "open_leads": [
+   "question map",
+   "minimal description does not select"
+  ],
+  "files": {
+   "question map": [
+    7,
+    [
+     "docs/OPEN_LEADS.md",
+     "docs/POINT_REGISTER.md",
+     "docs/RELAY_LEDGER.md",
+     "frontier/B1306_the_older_debt/inputs/fc_codex_hostile_inventory.md",
+     "frontier/B1412_the_relay_backlog/FINDINGS.md",
+     "frontier/B1412_the_relay_backlog/verification/relay_triage.json"
+    ]
+   ],
+   "minimal description does not select": [
+    2,
+    [
+     "docs/OPEN_LEADS.md",
+     "docs/POINT_REGISTER.md"
+    ]
+   ]
+  }
+ },
+ "S3hands": {
+  "register": [
+   "three fixed points",
+   "selects tr = 5"
+  ],
+  "open_leads": [],
+  "files": {
+   "S3 on the ends": [
+    0,
+    []
+   ],
+   "three fixed points": [
+    39,
+    [
+     "CHANGELOG.md",
+     "PROGRESS_LOG.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/HARVEST_LEDGER.md",
+     "docs/HINT_LEDGER.md",
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "selects tr ?= ?5": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "L3R": [
+    0,
+    []
+   ]
+  }
+ },
+ "level5": {
+  "register": [
+   "McKay ladder",
+   "McKay ladder",
+   "McKay ladder"
+  ],
+  "open_leads": [
+   "level 5 (A₅, the icosahedral"
+  ],
+  "files": {
+   "McKay ladder": [
+    24,
+    [
+     "CHANGELOG.md",
+     "docs/POINT_REGISTER.md",
+     "docs/views/CLOSED_DOORS.md",
+     "docs/views/THE_SPINE.md",
+     "docs/views/VERDICT_LEDGER.md",
+     "frontier/B1211_declaration_gap/deep_sweep.json"
+    ]
+   ],
+   "level 5.{0,40}icosahedral": [
+    1,
+    [
+     "docs/OPEN_LEADS.md"
+    ]
+   ],
+   "icosahedral read": [
+    0,
+    []
+   ]
+  }
+ },
+ "goldconv": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "golden converse": [
+    0,
+    []
+   ],
+   "metallic family of laws": [
+    0,
+    []
+   ]
+  }
+ },
+ "nearfixed": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "near-fixed-point hierarch": [
+    1,
+    [
+     "frontier/B1807_the_first_generation_at_the_special_points/FINDINGS.md"
+    ]
+   ],
+   "near fixed point hierarch": [
+    0,
+    []
+   ]
+  }
+ },
+ "abandoned": {
+  "register": [
+   "E15",
+   "E16",
+   "Bell test"
+  ],
+  "open_leads": [
+   "E15"
+  ],
+  "files": {
+   "abandoned.{0,10}never refuted": [
+    0,
+    []
+   ],
+   "E15": [
+    48,
+    [
+     "CHANGELOG.md",
+     "CLAIMS.md",
+     "GOVERNANCE.md",
+     "PROGRESS_LOG.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/CLOSURE_2026-07-05.md"
+    ]
+   ],
+   "E16": [
+    34,
+    [
+     "CLAIMS.md",
+     "PROGRESS_LOG.md",
+     "docs/COMMS_PROTOCOL.md",
+     "docs/ERROR_LEDGER.md",
+     "docs/POINT_REGISTER.md",
+     "docs/RECONTEXT_AUDIT_AND_MASTERPLAN_2026-07.md"
+    ]
+   ],
+   "Bell test": [
+    3,
+    [
+     "docs/POINT_REGISTER.md",
+     "docs/THE_CROSSING_2026-10-07.md",
+     "docs/THE_REREAD_2026-10-06.md"
+    ]
+   ]
+  }
+ },
+ "orbindex": {
+  "register": [
+   "orbifold holomorphic index",
+   "holomorphic index of T"
+  ],
+  "open_leads": [],
+  "files": {
+   "orbifold holomorphic index": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "holomorphic index of T": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ]
+  }
+ },
+ "S2E6": {
+  "register": [
+   "two-loop",
+   "two-loop"
+  ],
+  "open_leads": [],
+  "files": {
+   "two-loop": [
+    54,
+    [
+     "CHANGELOG.md",
+     "PROGRESS_LOG.md",
+     "docs/HARVEST_LEDGER.md",
+     "docs/POINT_REGISTER.md",
+     "docs/THEOREM_LEDGER.md",
+     "docs/THE_END_TO_END_CHAIN.md"
+    ]
+   ],
+   "S₂ of E₆": [
+    0,
+    []
+   ],
+   "next order.{0,40}vacuum": [
+    0,
+    []
+   ]
+  }
+ },
+ "DiracLap": {
+  "register": [],
+  "open_leads": [],
+  "files": {
+   "Dirac eigenvalues? .{0,40}Laplac": [
+    0,
+    []
+   ],
+   "Dirac.{0,20}Laplace coincidence": [
+    0,
+    []
+   ]
+  }
+ },
+ "classS": {
+  "register": [
+   "class-S second leg (a 4d bulk",
+   "4d bulk with T["
+  ],
+  "open_leads": [],
+  "files": {
+   "class[- ]S.{0,40}(leg|bulk)": [
+    2,
+    [
+     "docs/POINT_REGISTER.md",
+     "papers/CANDIDATES.md"
+    ]
+   ],
+   "4d bulk with T\\[": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ]
+  }
+ },
+ "E6lvl3": {
+  "register": [
+   "level-3 TQFT"
+  ],
+  "open_leads": [],
+  "files": {
+   "level-3 TQFT": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "20×20 pair": [
+    0,
+    []
+   ],
+   "E₆ level 3": [
+    0,
+    []
+   ]
+  }
+ },
+ "selfcopy": {
+  "register": [
+   "adversarial seat's selection-functional kill test",
+   "near, not at",
+   "near, not at",
+   "near, not at"
+  ],
+  "open_leads": [],
+  "files": {
+   "adversarial seat.{0,60}kill test": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "near, not at": [
+    2,
+    [
+     "docs/POINT_REGISTER.md",
+     "docs/handoffs/CC_TO_ALL_SEATS_2026-10-14_THE_FIELD_BY_FRAME.md"
+    ]
+   ]
+  }
+ },
+ "P070": {
+  "register": [
+   "P-070",
+   "P-070"
+  ],
+  "open_leads": [],
+  "files": {
+   "P-070": [
+    6,
+    [
+     "docs/POINT_REGISTER.md",
+     "frontier/B1830_the_register_triaged/verification/all_proposals.json",
+     "frontier/B1830_the_register_triaged/verification/batch_1.md",
+     "frontier/B1830_the_register_triaged/verification/proposals_1.json",
+     "frontier/B1830_the_register_triaged/verification/recheck/unflagged.txt",
+     "frontier/B1831_review_74_the_decadal_review/verification/readers/leads_REGISTER_LEADS.md"
+    ]
+   ]
+  }
+ },
+ "twopoint": {
+  "register": [
+   "two-point term",
+   "two-point term",
+   "two-point term"
+  ],
+  "open_leads": [],
+  "files": {
+   "two-point term": [
+    7,
+    [
+     "docs/HARVEST_LEDGER.md",
+     "docs/POINT_REGISTER.md",
+     "docs/RELAY_LEDGER.md",
+     "docs/THE_WEAVE.md",
+     "frontier/B1658_the_twisted_half_bound/FINDINGS.md",
+     "frontier/B1658_the_twisted_half_bound/PREREGISTRATION.md"
+    ]
+   ],
+   "two-point alternative": [
+    0,
+    []
+   ]
+  }
+ },
+ "radiative": {
+  "register": [
+   "radiative flavour"
+  ],
+  "open_leads": [],
+  "files": {
+   "radiative (flavour|flavor|mass)": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "loop[- ]level lift": [
+    0,
+    []
+   ],
+   "one loop.{0,40}(null direction|massless (left )?state)": [
+    0,
+    []
+   ],
+   "first generation at two loops": [
+    0,
+    []
+   ]
+  }
+ },
+ "fastmode": {
+  "register": [
+   "fastest-growing",
+   "fastest-growing",
+   "linear-stability spectrum"
+  ],
+  "open_leads": [],
+  "files": {
+   "fastest[- ]growing": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "Turing": [
+    2,
+    [
+     "outside_bench/THE_SUFFICIENCY_QUESTION.md",
+     "philosophy/P014_the_aware_decision.md"
+    ]
+   ],
+   "instability spectrum": [
+    3,
+    [
+     "CHANGELOG.md",
+     "outside_bench/THE_FULL_ACCOUNTING.md",
+     "speculations/archive/COSMOGONY_FROM_THE_VOID.md"
+    ]
+   ],
+   "linear[- ]stability spectrum": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ]
+  }
+ },
+ "min3stab": {
+  "register": [
+   "minimal n at which self-reference",
+   "self-reference is structurally stable"
+  ],
+  "open_leads": [],
+  "files": {
+   "minimal n .{0,40}self-reference": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "structurally stable.{0,40}3": [
+    0,
+    []
+   ],
+   "self-reference is structurally stable": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ]
+  }
+ },
+ "launder": {
+  "register": [
+   "H114"
+  ],
+  "open_leads": [],
+  "files": {
+   "laundering group": [
+    4,
+    [
+     "docs/HINT_LEDGER.md",
+     "frontier/B473_criticality_program/PREREGISTRATION.md",
+     "frontier/B771_phase1_wave1/cells/W2-188/proposed_patches.md",
+     "frontier/B771_phase1_wave1/wave2_results.json"
+    ]
+   ],
+   "H114": [
+    17,
+    [
+     "CHANGELOG.md",
+     "docs/HINT_LEDGER.md",
+     "docs/POINT_REGISTER.md",
+     "docs/SEAL_LEDGER.md",
+     "frontier/B472_quantum_commutator/FINDINGS.md",
+     "frontier/B770_closure_census/CENSUS.md"
+    ]
+   ]
+  }
+ },
+ "vMpl": {
+  "register": [
+   "v/M_Pl"
+  ],
+  "open_leads": [],
+  "files": {
+   "v/M_Pl": [
+    2,
+    [
+     "docs/POINT_REGISTER.md",
+     "docs/THE_COMPLETION_MAP.md"
+    ]
+   ],
+   "exponent of order 40": [
+    0,
+    []
+   ],
+   "transmutation exponent": [
+    0,
+    []
+   ]
+  }
+ },
+ "coldinst": {
+  "register": [
+   "cold instance",
+   "fresh-instance"
+  ],
+  "open_leads": [],
+  "files": {
+   "cold instance": [
+    1,
+    [
+     "docs/POINT_REGISTER.md"
+    ]
+   ],
+   "fresh[- ]instance": [
+    3,
+    [
+     "docs/GRAND_COMPUTATION_v0.md",
+     "docs/POINT_REGISTER.md",
+     "docs/progress/REVIEWS.md"
+    ]
+   ],
+   "from-zero test": [
+    0,
+    []
+   ]
+  }
+ },
+ "collision": {
+  "register": [
+   "4₁(5,1)",
+   "5₂(5,1)"
+  ],
+  "open_leads": [
+   "4₁(5,1)",
+   "4₁(5,1)",
+   "4₁(5,1)",
+   "5₂(5,1)",
+   "5₂(5,1)",
+   "5₂(5,1)"
+  ],
+  "files": {
+   "4₁\\(5, ?1\\)": [
+    46,
+    [
+     "CHANGELOG.md",
+     "PROGRESS_LOG.md",
+     "TERMINOLOGY.md",
+     "docs/AUDIT_2026-07-05.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/CLOSURE_2026-07-05.md"
+    ]
+   ],
+   "5₂\\(5, ?1\\)": [
+    37,
+    [
+     "CHANGELOG.md",
+     "PROGRESS_LOG.md",
+     "TERMINOLOGY.md",
+     "docs/AUDIT_2026-07-05.md",
+     "docs/CAMPAIGN_STATUS.md",
+     "docs/LAW_MAP.md"
+    ]
+   ],
+   "filling collision": [
+    1,
+    [
+     "frontier/B738_pathfinder_compiler/kill_graph.json"
+    ]
+   ]
+  }
+ }
+}

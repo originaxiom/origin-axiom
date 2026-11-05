@@ -1,0 +1,33 @@
+exact                      B1102_exact_hypercharge_solve
+exact                      B1109_selection_cluster
+exact                      B1110_spectral_cluster
+exact                      B1118_deflation
+real number, other title   B1636_golden_name_locate  (main: B1636_the_golden_spectrum_on_the_ticks_geodesic)
+real number, other title   B1638_modular_forms_at_golden  (main: B1638_the_golden_identity)
+real number, other title   B1656_twisted_norms  (main: B1656_the_electrons_zero)
+real number, other title   B1703_the_six_on_the_strip  (main: B1703_the_line_census)
+exact                      B1728_the_lines_order_as_a_quotient_of_hypercharge
+exact                      B1742_two_higgs_verified_on_main
+exact                      B1749_the_six_at_fresh_apexes
+exact                      B1753_the_six_on_the_five_ality_lines
+real number, other title   B1782_dark_energy_density_from_the_class_number_one_heegner  (agy: B1782_cosmological_constant_and_unimodular_gravity)
+exact                      B1785
+exact                      B1786
+exact                      B1788
+real number, other title   B1788_the_cusp_limit_of_the_six_on_the_strip  (main: B1788_the_closed_form_of_the_exponents)
+real number, other title   B1825_the_strip_apex  (main: B1825_step_b_the_nine_from_one_address)
+real number, other title   B1826_the_two_readings_of_the_cell  (main: B1826_the_agy_lanes_november_audit_verified_on_main)
+real number, other title   B1827_two_readings_one_dictionary  (main: B1827_the_framing_ledger)
+real number, other title   B1828_the_earned_dictionary_by_held_out_prediction  (main: B1828_genesis_v1_60)
+real number, other title   B1829_the_two_level_bar  (main: B1829_genesis_v1_61)
+exact                      B1830_the_register_triaged
+exists on no branch        TRANSPORT_AND_END_WORK_ORDER_2026_11_03.md
+exact                      WORKING_RULES.md
+exists on no branch        docs/CLAIMS.md
+exists on no branch        docs/REGISTER.md
+other seat's branch        docs/dossiers/the_weave_2026-10-07/W181_RULE.md
+exact                      frontier/B1830_the_register_triaged/verification/recheck/p355/identity_lines_v2.py
+other seat's branch        relays/CHAT1_TO_CC_2026-11-03_THE_CHANNEL_NORMS_PAIR_SUMS_AND_B1788S_HYPOTHESES.md
+other seat's branch        relays/chat1_2026-11-03_theta/theta_rule_check.py
+exact                      scripts/checks/topic_sweep.py
+11 seen_first lists, 32 distinct citations: {'exact': 15, "other seat's branch": 3, 'real number, other title': 11, 'exists on no branch': 3}

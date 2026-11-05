@@ -103,3 +103,12 @@ def test_r68_2_no_seat_reads_a_disabled_remote():
     m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
     assert m.disabled_remotes_named(m.SEATS) == []
     assert m.disabled_remotes_named([{"key": "planted", "remotes": ("origin", "codeberg")}, {"key": "ok", "remotes": ("origin",)}]) == ["planted"]
+
+
+def test_p541_a_pin_behind_its_rows_is_reported():
+    """P-541 (Review 74): a seat's pin must be at or past every commit its rows cite on the seat's line"""
+    H = _mod()
+    after = {"ba8bb3f5e" + "1" * 31}                       # S270's case: rows at ba8bb3f5e, the pin left before it
+    assert H.pin_lag(["ba8bb3f5e", "4bfc7ab46"], after) == ["ba8bb3f5e"]
+    assert H.pin_lag(["ba8bb3f5e"], set()) == []           # the pin at the head: nothing after it
+    assert H.CITED_RE.findall("relays/X.md @ `ba8bb3f5e` and the seat's branch @ 2d3ea1842") == ["ba8bb3f5e", "2d3ea1842"]

@@ -1,0 +1,29 @@
+{
+ "id": "B1829",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1828",
+  "B1751",
+  "B1798",
+  "B1749",
+  "B1753",
+  "B1786",
+  "B1827"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the foundation document and THE_BAR's use of the joint look count",
+  "object": "GENESIS v1.60 -> v1.61: FK9 gains the two-level bar; the 53 looks re-graded at level 1",
+  "reach": "general",
+  "hypotheses": "the owner's ruling of 2026-11-03 on P-577 ('agreed'); the 1% screen is main's, from THE_BAR's standing gate"
+ },
+ "claim_one_line": "GENESIS v1.61 (the owner's ruling on P-577, 2026-11-03, 'agreed' to the owner's own tiered-bar proposal as main assessed it): where the joint look count applies, level 1 is a fixed screen (THE_BAR at p < 0.01 with every within-arc choice priced, no joint factor) that makes a CANDIDATE -- frozen, never cited as support, not a result -- and level 2, a confirmation by held-out prediction under GAP1's v1.60 rule, makes a result (PREDICTED); the ledger stays as the count of screens. Re-graded from the record: B1749 and B1753 are candidates (r 0.1-0.25% under B1798's null re-choosing c and the class); B1726, B1734, B1755, B1786 and three web-seat looks UNSETTLED (no fully matched null); all one family, THE SIX ON THE STRIP, about 0.5 false candidates expected by chance over 53 looks; the family already fails the mixing; its level 2 (P-585): y_b/y_t, theta-bar; y_tau/y_b not clean (scale-set). Nothing computed or compared. 0 of 19. [S297: the candidate is FR-FIB's with the small-cut end; at the exact norms the six fail (THE EXACT END, 25.87 against 16.75; P-421)]",
+ "weave_or_thread": "weave (the foundation's selection, FK9)"
+}

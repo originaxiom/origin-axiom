@@ -184,3 +184,5 @@ R. That is the shape a parameter-free answer would have. It is not yet a derivat
 | 5 | the joint potential V(τ, a): W62's τ potential plus the zero modes' loop in the Higgs's direction (B1646 D5). Does the minimum run to (the cusp, the isotropic eigenline), and how does it approach? | computable; the SM seat's W64 is half of it |
 | 5 | forbids 1 and 2: the exponents of m₂/m₃ and V_cb in \|q\| near the cusp, for a Higgs with each character | computable once Step 5's direction is fixed |
 | 3 | forbid 3: the Wilson line's texture along R (P-128) | after Step 5 |
+
+> *Dated note 2026-11-04 (B1833, P-655):* the table's "derivation attempted" (and § 108's "is attempted in parallel") describe a plan, not work done: no derivation of "what exists is read" from PF1 and PF2 exists on the record. The attempt stays owed in P-130 (joined under P-629).*

@@ -1,0 +1,3 @@
+3 sheets x sum over all sectors of q_L^2 + q_R^2 = 201 ; down sector, one sheet = 5
+200 random pairs: max rel. deviation one-Higgs vs two-Higgs ratio 3.5e-16 ; max |V_CKM| change 2.8e-15
+doublet-consistent factor equals the lane's factor: False (the lane's both-sides rescaling needs u_L and d_L to carry different metrics)

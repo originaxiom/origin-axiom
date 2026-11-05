@@ -1,0 +1,129 @@
+{
+ "order_G": 48,
+ "G_element_orders": {
+  "1": 1,
+  "2": 1,
+  "3": 8,
+  "4": 18,
+  "6": 8,
+  "8": 12
+ },
+ "order_St": 16,
+ "St_element_orders": {
+  "1": 1,
+  "2": 1,
+  "4": 10,
+  "8": 4
+ },
+ "St_is_subgroup": true,
+ "order_core": 8,
+ "core_element_orders": {
+  "1": 1,
+  "2": 1,
+  "4": 6
+ },
+ "n_cosets": 3,
+ "image_of_G_on_cosets": [
+  [
+   0,
+   1,
+   2
+  ],
+  [
+   0,
+   2,
+   1
+  ],
+  [
+   1,
+   0,
+   2
+  ],
+  [
+   1,
+   2,
+   0
+  ],
+  [
+   2,
+   0,
+   1
+  ],
+  [
+   2,
+   1,
+   0
+  ]
+ ],
+ "image_order": 6,
+ "gL_gR_in_which_coset": [
+  0,
+  1,
+  2
+ ],
+ "d5_structure": {
+  "so10_I10_E_G_H": 0.0,
+  "[E+,E-]": 4.440892098500626e-16,
+  "[E+,E-dag]": 4.440892098500626e-16,
+  "kappa(H+^2), kappa(H-^2), kappa(H+H-)": [
+   "(20+0j)",
+   "(20+0j)",
+   "0j"
+  ],
+  "Hp+Hm-H": 0.0
+ },
+ "quartic_formula_max_rel_err": 2.6103029586718463e-15,
+ "fixed_probe_vectors_by_coset": {
+  "0": [
+   [
+    2.0,
+    1.0,
+    1.0
+   ]
+  ],
+  "1": [
+   [
+    1.0,
+    2.0,
+    1.0
+   ]
+  ],
+  "2": [
+   [
+    1.0,
+    1.0,
+    2.0
+   ]
+  ]
+ },
+ "S2O_by_coset": {
+  "0": [
+   8.0
+  ],
+  "1": [
+   9.0
+  ],
+  "2": [
+   11.0
+  ]
+ },
+ "co_moving_probe_values": [
+  2.0
+ ],
+ "single_probe_z0_distribution": {
+  "2.0": 16,
+  "1.0": 32
+ },
+ "T15_I4hat_distribution(U^dag sx U)": {
+  "1.25": 16,
+  "0.625": 32
+ },
+ "relay_sec2_item6_distribution": {
+  "1.875": 32,
+  "1.25": 16
+ },
+ "St_realised_count": 16,
+ "St_realisation_max_err": 3.3726193735610864e-16,
+ "K_unitary_SO10I10_commute_H_max_err": 1.7763568394002505e-15,
+ "realised_set_equals_St": true
+}

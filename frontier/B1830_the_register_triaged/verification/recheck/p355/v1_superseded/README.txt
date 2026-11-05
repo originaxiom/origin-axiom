@@ -1,0 +1,1 @@
+SUPERSEDED (S297): this first scan compared the two spectra by their ratio se/sd, which is noise where both sectors carry an exact zero (B1716's zeros at orders 4 and 12), so it reported order 4 as split, against B1703's d = e on order 4. Its "order" column is the larger denominator, not the order (lcm). Kept for disclosure; the result is ../identity_lines_v2.py at two tau.

@@ -18267,3 +18267,150 @@ tick, the cusp, the tick's point and the word. None fixes one. The values need a
 
 - In box: the frame's mass 4.74%; at chi2 = 0 all three legs pass on 7 of 10 planted worlds, with noise at sigma on 1 of 10; unrelated and anarchy CKMs pass the CKM leg on 0 of 10 each; C_six's 90th percentile negative in every section. Determinism: 0 of 487692 values beyond the storage bound. The card filled. Verification: the runs' own logs and the valve's (no limit hit), the gates. 0 of 19.
 
+## 2026-10-31 — S286 B1825 NEGATIVE as sealed: no support
+
+- Least χ²_ten 291.4 (threshold 23.21); the six alone 1.36, the four alone 0.35, never together; K's bits_CKM −194. Verification: the fresh evaluation at the address, the referee's independent node scan, the gates. 0 of 19.
+
+## 2026-11-03 — S287 the seats fetched; the agy lane's November work verified (B1826)
+
+- Two new lanes registered; three of the agy lane's results kept after main's own recomputation; its late claims declined. Verification: main_checks.py and cusp_b_check.py (B1826/verification), the lane's git history, the gates. 0 of 19.
+
+## 2026-11-03 — S288 the agy lane's framing ruled; the mirror rule closed for the CKM
+
+- Every agy relay read in full; the framing ruled point by point (P-562-P-564); the mirror rule cannot lift the corner inversion (0 of 303 nature-like points). Verification: the exploration scripts in audit/drafts/p555/, the gates. 0 of 19.
+
+## 2026-11-03 — S289 the framing ledger (B1827)
+
+- Eighteen framing commitments inventoried and ranked (docs/FRAMING_LEDGER.md); the corner inversion lifted by a sector-odd singlet Higgs (data-free); order-5 lines = minimal SU(5). Verification: the readers' citations sampled, the scans in B1827/verification/scans, the gates. 0 of 19.
+
+## 2026-11-03 — S290 the adjugate reading; the 45-like singlet
+
+- The SM reading with a singlet fails (∣V_ud∣ scrambled); the adjugate reading is the relation that lifts the corners; the 45's Clebsch splits the second generation by about 3. Verification: B1827/verification/scans (sm_reading_singlet_scan, gj45_probe), the gates. 0 of 19.
+
+## 2026-11-03 — S291 the recheck and the recognition audit
+
+- Every S289/S290 claim re-derived (B1827 verification/recheck/): the identities hold; Y_e = λY_dᵀ with λ⁵ = 1 on the order-5 lines and Y_e(S) = −λY_d(adj S)ᵀ exactly; the 45-like split RETRACTED (mislabelled). The question and its recognition (docs/FRAMING_LEDGER.md § G): a blind reader verified by main, and R1 (a theory exact at the unification scale pays 8.5 bits on K at M_Z). P-574–P-583. 0 of 19.
+
+## 2026-11-03 — S292 the earned dictionary (GENESIS v1.60)
+
+- The owner ruled YES on P-580: a frame may earn its dictionary by held-out prediction (B1828; six conditions under GAP1; a value so matched is PREDICTED). P-577 elaborated (the look ledger's options; its 0.01/m rule spends up to 4.6% in all at m = 53). 0 of 19.
+
+## 2026-11-03 — S293 B1814's blind rerun: the owner's word relayed
+
+- The SM seat may rerun B1814's census blind (the owner: "do it when u can"); relayed; P-584. 0 of 19.
+
+## 2026-11-03 — S294 the two-level bar (GENESIS v1.61)
+
+- The owner's tiered-bar proposal, assessed and ruled 'agreed' (B1829): a fixed screen makes a CANDIDATE, a held-out confirmation a result. Re-grade: one candidate family, THE SIX ON THE STRIP (B1749, B1753; seven UNSETTLED). P-585, P-586. 0 of 19.
+
+## 2026-11-03 — S295 the candidate's own D; the register's load
+
+- The strip family sits ~3σ from P-094's D at its best rows (14σ where lepton = down): credited on P-585. The owner's register question measured (P-587). 0 of 19.
+
+## 2026-11-03 — S296 the register triaged
+
+- Every open row typed; only debts age; 59 debts ranked by load, P-355 first (B1830). 0 of 19.
+
+## 2026-11-03 — S298 the harvest
+
+- Every seat's branch read to its head (rows 1515–1543); the web seat's review verified and applied: B1825's bar grade NOT
+  FOUND, the mirror rule's 'closed' unearned, B1788's (b) scoped on four order-8 lines; four SM looks entered; P-591–P-593. 0 of 19.
+
+## 2026-11-03 — S297 the triage rechecked
+
+- The owner's 'make sure … didn't miss anything load bearing': typings and closures stand (P-154, P-421 retyped debts);
+  20 stale law-map rows corrected in place (P-588, P-589); the strip candidate is the small-cut end's, which fails the six
+  at the exact norms (B1829 corrected); P-590 the negatives' scale scope; P-355's first item paid. 0 of 19.
+
+## 2026-11-04 — S299 Review 74, the decadal review
+
+- The backlog read in full for leads at the owner's word (84 relays, 276 SCHEDULED rows, 219 leads): no hidden derivation; the leads ranked for the owner; θ̄ ruled an input, so the candidate's confirmation is one held-out target short (P-597); the carry rule made to fire (E84); the sample's and main's own S298 errors corrected with instruments. 0 of 19.
+
+## 2026-11-04 — S299b the agy lanes digested (B1832)
+
+- Every agy claim typed and checked on main's code; four theorems banked (P-524's kernel lemma derived, RI-1 a theorem, the lepton–down law on the 40 half-lifts proved, F₁₀'s norm, the θ_Y b-step); B1784 and B1826 corrected; the scorecard 0 of 19; the y_b/y_t parts unread. 0 of 19.
+
+## 2026-11-04 — S300: the brainstorms re-read (B1833) and the sealed exhibits' mathematics banked
+
+The owner asked whether the most important leads from brainstorms keep getting forgotten, then to check the chat history.
+Eight readers covered five sources; main verified every "forgotten" grade against the whole tracked record. Answer: they
+are lost after being written down, not before — leads never come due, reviews carry none, merged items die with their
+host, whole places are never read, renamed ideas are never joined. 65 items had no carrier; all are rowed (P-629–P-660),
+the central direction (what holds τ and selects the point) as one row with four never-computed handles. U_e and the PMNS
+come back as a candidate second held-out quantity for P-597; a loop lift of the rank-≤2 Yukawa as a sector-dependent route
+where D fails. The mechanism (P-659) and the direction (P-660) are the owner's calls. In the same landing the agy lanes'
+sealed exhibits were read through a mask (P-624 step 1): six value-free results banked in B1832, S297's scope and B1832 § 2
+corrected (RETRACTIONS +2), P-625 answered — the slope selection spends the held-out target. The S299c harvest is logged
+here. 0 of 19.
+
+## 2026-11-04 — S300b: the owner's line on seats' standards; the borrowed-joints scaffold registered
+
+The owner asked whether agy fabricates or works to a looser standard, and drew the line: a looser method is acceptable if
+every unearned joint is named, so that a complete picture with borrowed joints can show which joints to earn. Main's
+answer: agy's mathematics is real where checked, but it labels borrowed joints as forced; its provenance cites real arc
+numbers under invented titles in 11 of 32 citations and three files that exist nowhere. P-661 registers the scaffold: main
+relabels agy's complete picture joint by joint, which builds the total-inputs vector (P-418). 0 of 19.
+
+## 2026-11-04 — S300c: the total-inputs scoreboard and the borrowed-joints scaffold (B1834)
+
+The owner's scoreboard of 2026-10-29 is built and printed by the gates beside "0 of 19", and it carries the owner's
+borrowed-joints scaffold of today. Two frames: the record's candidate claims 10 rows on 14 borrowed joints; the agy lane's
+complete picture claims 23 rows on 45 (traced through the mask by a firewalled reader, verified by main where a basis was
+claimed; one correction). None earned. Ten joints are shared, so the core — τ, the line, the Higgs direction, the reading,
+H = I, the radius — is the common target. A firewall path found while tracing was sealed (52 exhibits). 0 of 19.
+
+## 2026-11-04 — S300d: U_e and the PMNS opened (B1835), at the owner's ruling on P-660
+
+The owner ruled main's recommendation: U_e and the PMNS first. The control passes on main's code (U_e^L = conj(U_d^R) on
+every order-5 line to 10⁻¹⁵, failing where it should). The card's design narrows the question: the PMNS angles go through
+the mixing half of the read-out, which already fails for the quarks at the candidate's address, so only the neutrino
+splitting ratio r is in the candidate's scope, and at leading order r is tied to the lepton hierarchy — its information
+sits in the prefactors, to be measured before it counts. Two calls went to the owner (P-665). 0 of 19.
+
+## 2026-11-04 — S300e: the owner rules every recommendation; the brainstorm rules gated
+
+The owner approved all of main's recommendations on the open calls. The mechanism against lost leads is now in the
+register gate: direction leads age at 21 days, a host cannot close over an open child, audit-room drafts land or are
+declined within a week, and every run lists the owner's open calls (phased in to 2026-11-25 for the existing rows).
+agy's slope selection is declined (it would spend the held-out target and stay borrowed); PF1-W is scoped off the current
+frame; L178, L86 and L87 are retired; L248 § 8, the arithmetic atom across the family, is kept with a first step. 0 of 19.
+
+## 2026-11-04 — S300f: the PMNS card's instrument and controls (B1835)
+
+The card's instrument is B1726's own computation returning its matrices, with the neutrino added; the U_e control passes
+through it. Three structural relations re-derived from the frame's charge rule hold exactly where they should and fail
+elsewhere — on the order-2 and order-4 lines the frame gives ∣U_PMNS∣ = ∣V_CKM†∣ — and serve as the card's positive
+controls. The card itself waits on the owner's two calls (P-665). 0 of 19.
+
+## 2026-11-04 — S301: the seats past S300 fetched and verified (B1836)
+
+The agy lane's Theorems 29–64, three web-seat relays and the physical lane's two relays were read by four firewalled readers
+and checked on main's code. The frame's mirror is now a proved theorem (the agy lane's idea, repaired); T is a symmetry of
+the frame's outputs, which corrects main; a criterion that reads no held-out quantity picks the slope 2/5, which corrects
+main's stated reason for the owner's decline (the slope stays borrowed); m004's group has no cuspidal cohomology at the
+lowest weights. Nothing in the agy lane's new work earns a borrowed joint; its looks at the held-out and PMNS targets are
+counted and sealed. 0 of 19.
+
+## 2026-11-04 — S302: the agy lane's Stages 8–9 and the density Higgs verified (B1837)
+
+The agy lane's rebuttal of seven of main's findings was checked through the mask on main's code: main stands on six and
+the seventh (the mirror) was already proved. Main's own chat concession on the determinant was wrong and is corrected. The
+lane's torsion '4 − 2√3' is no torsion; m003 is amphicheiral; nothing it computed earns a joint. The web seat's density
+Higgs is a proved closed form that keeps the hierarchy only through the small-cut norm. One exposure was main's own: a
+pasted seat message carried a top/bottom construction into main's context; it is counted and kept out of the record. 0 of 19.
+
+## 2026-11-05 — S303: the end is the decider (B1838)
+
+The owner agreed that the end decides the candidate. Main reproduced the web seat's sealed exact-end look on its own tree:
+the candidate's six pass only with the small-cut end and fail at the exact horoball norm, and no principled end on record
+passes them. The line-order dictionary gained its neutrino rows (Pati–Salam at order 4; the left–right pattern at order
+3). The density Higgs's post hoc reproduced. Next: judge the agy lane's zeta-regularised end, then a sealed re-read of the
+six with the end's scale free. 0 of 19.
+
+## 2026-11-05 — S304: the candidate's end is the norm of no geometric cut (B1838)
+
+The small-cut formula the candidate's six need is an expansion in a small disc radius, evaluated at L_max where the disc no
+longer fits in the cell; and no single geometric horocycle reproduces its channel weights — matching them needs a different
+cut depth per channel pair. So the end is an ansatz, not a choice among geometric ends. The agy lane's zeta-regularised end
+does not rescue it (its scale stays free), though its closed form for the channel norms is banked with credit. Next: one
+sealed card, the six at the exact horoball norm with one free cut level, decides whether the candidate survives. 0 of 19.

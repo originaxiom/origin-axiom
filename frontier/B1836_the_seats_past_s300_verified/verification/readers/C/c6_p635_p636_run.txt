@@ -1,0 +1,8 @@
+P-635: Ad(Q_I) = diag(1, -1, -1), Ad(Q_J) = diag(-1, 1, -1) ; Q_I Q_J Q_I^-1 Q_J^-1 = [[-1, 0], [0, -1]]
+  (a) closed torus Z^2: dim H^0 = 0, dim Z^1 = 3, dim B^1 = 3, dim H^1 = 0
+  (b) once-punctured torus F_2: dim H^0 = 0, dim Z^1 = 6, dim H^1 = 3
+  (c) relative to the boundary (Ad(c) = 1, so u_c must vanish): rank of (u_a, u_b) -> u_c = 3, dim H^1_par = 0
+P-636: positive hyperbolic classes up to length 10: 241 ; minimal trace 3, its classes ['LR'], fixed-point count |2 - tr| = 1
+  classes with |2 - tr| = 3 (trace 5): ['LLLR', 'LRRR']
+  traces 3..7 and their classes: {3: ['LR'], 4: ['LLR', 'LRR'], 5: ['LLLR', 'LRRR'], 6: ['LLRR', 'LLLLR', 'LRRRR'], 7: ['LRLR', 'LLLLLR', 'LRRRRR']}
+  the lane's rule (prime, > 2, a != b) -> (3, 1, 3) ; without 'a != b' -> (3, 1, 3) ; without '> 2' -> (2, 1, 2) (count 2, L^2 R)

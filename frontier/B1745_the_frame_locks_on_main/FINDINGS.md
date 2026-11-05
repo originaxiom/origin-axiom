@@ -53,3 +53,5 @@ out of reach on the record's points (the seat's pre-scan, to be sealed).
 - `verification/frame_locks.py` → `frame_locks.json`, `frame_locks_run.txt` (first run in the audit room,
   `audit/verify_p358/`, and rerun here).
 - The lock: `tests/test_b1745_the_frame_locks_on_main.py`.
+
+> *Dated note 2026-11-04 (Review 74; the web seat's T-NORM relay of 2026-10-30, § 4, verified by main: this page carried no H = I scope):* every FR-FIB output here is computed with the generations' metric H = I, implicit in B1656's coupling: a CHOSEN input (B1822 — the flat structure leaves 8 real parameters per field after the scale, and the outputs move with H). Whether a conclusion holds at another H is not computed here.*

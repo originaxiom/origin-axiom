@@ -1,0 +1,3 @@
+(1) RR: chi(V x B) = chi(V) + chi(V x K) = 2d fails in 0 of 246 (g, d) cases; the lane's sum is identically 0
+(2) su(2) relations (up to the orientation of the units) dev 0.0e+00; tr(T^a T^b) - delta/2 dev 0.0e+00; C_2 = [0.75 0.75]
+(3) one-Higgs Kahler ratio vs two-Higgs with tan beta := k_u/k_d, 200 random (Y_u, Y_d, k_u, k_d): worst 1.0e-14

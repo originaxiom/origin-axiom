@@ -83,3 +83,5 @@ Bearing on it: B1340 (M_d = M_eᵀ is the SU(5) 5̄'s relation, one matrix equat
 - `verification/reproduce.py` → `reproduce.json` (§1).
 - `verification/recalibrate.py` → `recalibrate.json`, `recalibrate_run.txt` (§2).
 - The lock: `tests/test_b1725_the_two_ingredients_on_main.py`.
+
+> *Dated note 2026-11-04 (Review 74; the web seat's T-NORM relay of 2026-10-30, § 4, verified by main: this page carried no H = I scope):* every FR-FIB output here is computed with the generations' metric H = I, implicit in B1656's coupling: a CHOSEN input (B1822 — the flat structure leaves 8 real parameters per field after the scale, and the outputs move with H). Whether a conclusion holds at another H is not computed here.*

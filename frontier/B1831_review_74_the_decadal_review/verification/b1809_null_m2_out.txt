@@ -1,0 +1,4 @@
+order 4            up m2/m3 max 3.0e-14 min 2.3e-17  down m2/m3 max 3.6e-14 min 4.4e-17  lepton m2/m3 max 3.5e-14 min 2.3e-17
+order 12           up m2/m3 max 8.0e-01 min 2.2e-03  down m2/m3 max 6.2e-01 min 2.2e-03  lepton m2/m3 max 3.5e-14 min 9.4e-17
+order 5 (control)  up m2/m3 max 4.7e-01 min 3.0e-03  down m2/m3 max 3.1e-01 min 1.1e-03  lepton m2/m3 max 3.1e-01 min 1.1e-03
+order 8 (control)  up m2/m3 max 2.6e-01 min 4.1e-03  down m2/m3 max 2.9e-01 min 2.2e-02  lepton m2/m3 max 2.4e-01 min 2.0e-02

@@ -1,0 +1,38 @@
+{
+ "id": "B1827",
+ "verdict": "OPEN",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1825",
+  "B1826",
+  "B1739",
+  "B1744",
+  "B1653",
+  "B1694",
+  "B1713",
+  "B1720",
+  "B1790",
+  "B1822",
+  "B1728",
+  "B1659",
+  "B1786",
+  "B1798",
+  "B1637",
+  "B862"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the programme's framing (foundations, FR-FIB's construction, the sealed tests' conventions); the scans in FR-FIB with a 4D Higgs S = a0 I + a.Q",
+  "object": "the record's own commitments (five readers' inventories); the CKM's corner order at the frame's hierarchical points",
+  "reach": "single",
+  "hypotheses": "the scans use two coarse facts of the measured world (the hierarchy; up steeper than down), disclosed; exploration tier, no measured value compared"
+ },
+ "claim_one_line": "THE FRAMING LEDGER (the owner's exercise, 2026-11-03; OPEN, an audit): eighteen framing commitments inventoried from five readers (docs/FRAMING_LEDGER.md), then the question itself and its recognition audited (S291, § G: a blind sixth reader verified citation by citation, and main's control R1). Computed data-free (two coarse facts disclosed): the CKM's corner inversion is a construction choice -- the mirror rule cannot lift it, a same-sign singlet Higgs does nothing, an opposite-sign singlet (exactly the ADJUGATE reading adj(S) = eps S^T eps^T) balances the corners at all ten non-null phases (33-47% against 2%; median |V_ub|/|V_td| about 0.9, not nature's 0.43); on all 24 order-5 lines the frame is minimal SU(5) (Y_u symmetric, Y_e = lam Y_d^T with lam^5 = 1) and the leptons read the down sector through the adjugate, Y_e(S) = -lam Y_d(adj S)^T; c = 3 is the Georgi-Jarlskog factor by hand; the 45-like singlet does NOT give Georgi-Jarlskog's pattern (S290's claim retracted: mislabelled). Recognition: a theory exact at 2e16 GeV scores chi2_ten 11.8 at M_Z and pays 8.5 bits on K (one loop; B1825's address leaves 3.6); the headline counts a tier the record retired, and no outcome of any current test can move it. Six of the 19 have no frame; three are unexamined outputs. Claims no parameter. 0 of 19.",
+ "weave_or_thread": "weave (the programme's framing)"
+}

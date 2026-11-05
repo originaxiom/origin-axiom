@@ -1,0 +1,9 @@
+monodromy facts: {'tr A': 3, '|det(I-A)|': 1, 'A^3': [[13, 8], [8, 5]], 'tr A^3': 18, '|det(I-A^3)|': 16}
+m004 isometric to b++LR: True
+number of 3-fold cyclic covers of m004: 1
+cyclic 3-cover isometric to b++LRLRLR (bundle of A^3): True ; tetrahedra: 6 ; H1: Z/4 + Z/4 + Z
+|b3| = 11 - (2/3)*n_f, n_f = 6: 7 ; = 11 - (4/3)*N_gen at N_gen = 3: 7
+lhs - rhs = V*(a - b*k - b)  -> identity iff a = b*(k + 1)
+with b3 = 7 the allowed (B22 integer a, B23 integer k): [(7, 0), (14, 1), (21, 2), (28, 3), (35, 4)]
+the lane's pair (21, 2) is one of them: 21 = 7*(2+1): True
+deviations > 1e-9: none ; max dev 4.440892098500626e-16

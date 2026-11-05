@@ -64,3 +64,5 @@ member at ε = 0.02, 0.005; 0.16, 0.031, 0.0077 on its second); on m135 Gauss–
 - The numerical twin now asserts that what it counts is a representation (relator residual < 10⁻²⁵) — added after
   the sealed run.
 - Numerical throughout; the obstruction class is read on the presentation complex; no claim beyond the four members.
+
+> *Dated note 2026-11-04 (Review 74, P-535):* the guard of § 3's second and third bullets is in `verification/fused.py`, changed at `82f0ccb27` (`relator_residual` and one assertion in `index`; five lines added, none removed; sealed sha256 2831b9f2… at `385c6891e`). It refuses to count a non-representation and changes no count on a representation; the sealed run is kept in `sealed_run/`. Separately: B3's sealed 'converges at ε = 0.1 and 0.02' held for 7 of the 8 sealed seeds (m136's first member at ε = 0.1 did not), which the grade cell's 'at every step that converged' covers but does not count.*

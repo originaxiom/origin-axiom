@@ -1,0 +1,9 @@
+tau=0.137+1.310i channel 1: best (a, b) = (1, 1), rel spread 1.0e-15, constant 0.445533
+tau=0.137+1.310i channel i: best (a, b) = (2, 2), rel spread 2.1e-15, constant 0.445533
+tau=0.137+1.310i channel j: best (a, b) = (4, 4), rel spread 2.6e-15, constant 0.445533
+tau=0.137+1.310i channel k: best (a, b) = (3, 3), rel spread 1.0e-15, constant 0.445533
+tau=-0.271+1.830i channel 1: best (a, b) = (1, 1), rel spread 1.7e-15, constant 0.669916
+tau=-0.271+1.830i channel i: best (a, b) = (2, 2), rel spread 1.3e-15, constant 0.669916
+tau=-0.271+1.830i channel j: best (a, b) = (4, 4), rel spread 5.0e-16, constant 0.669916
+tau=-0.271+1.830i channel k: best (a, b) = (3, 3), rel spread 1.7e-15, constant 0.669916
+exit 0

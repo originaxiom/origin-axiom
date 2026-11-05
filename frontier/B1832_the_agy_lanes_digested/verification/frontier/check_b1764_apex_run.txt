@@ -1,0 +1,3 @@
+B1720 convention: mat(LLLLLRRLRLLR) = [[97, 70], [18, 13]], trace 110; height Lagrange/2 = 3.0550504633 ; sqrt(84)/3 = 3.0550504633
+A's axis apex: center 3.333333 (= 1/3 mod 1), height 3.0550504633; X M X^-1 = A for X in SL(2,Z) (entries <= 12): 2 found, e.g. [[[-1, -1], [0, -1]], [[1, 1], [0, 1]]]
+exit 0

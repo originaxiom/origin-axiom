@@ -1,0 +1,68 @@
+32 rows
+ 155 B716
+      > *Sharpened 2026-10-29 (the web seat's THE CONE AND THE SIGN, REPRODUCED by main's verifier; main's ruling): the Lorentzian > signature is not the observer's. 
+ 279 B1634
+      > *Dated note, 2026-10-20 (P-207; B1678's sign audit).* The audit confirms this arc's own P6 disclosure. Its sealed > half-turns move under the multiplicative l
+ 280 B1634
+      > *Dated note, 2026-10-20 (P-207; B1678's sign audit).* The audit confirms this arc's own P6 disclosure. Its sealed > half-turns move under the multiplicative l
+ 283 B1641
+      > *Dated note, 2026-10-20 (P-207; B1678's sign audit).* "The record's uniform lift acts on Δ⁴ by −1" is the lift of > the automorphism Δ⁴, which the word lift o
+ 288 B1649
+      > *Sharpened 2026-10-17 (Review 65, R64-3). The findings' "the five zeros are fixed by Jacobi's identity" is superseded by B1653: at a point the residue is rank
+ 292 B1653
+      > *Scoped 2026-10-21 (P-214).* The rank result (rank one at a point, for every flat line and every Higgs) does not use > W59's lines and is unaffected. The U7 r
+ 294 B1654
+      > *Sharpened 2026-10-16 (S141). The cusp law in §2 holds as written on Re τ = 0 and its integer translates. That is where its cells test it (τ = 4i, 5i). For τ 
+ 294 B1656
+      > *Scoped 2026-10-21 (P-214).* This arc names τ = ω and W59's lines as stated inputs. W59's mathematics is now verified on main (B1684): at τ = ω the eighteen l
+ 296 B1656
+      > *Scoped 2026-10-21 (P-214).* This arc names τ = ω and W59's lines as stated inputs. W59's mathematics is now verified on main (B1684): at τ = ω the eighteen l
+ 296 B1658
+      > *Sharpened 2026-10-17 (Review 65, R64-3). "Cannot spread … by more than a factor 4, exactly" is exact in t + 1/t. In t itself it holds to first order for a ne
+      > *Scoped 2026-10-21 (P-214, completed at Review 66).* T3 is a read-out on W59's lines at ω. W59's mathematics is now verified on main (B1684): at τ = ω the eig
+ 297 B1656
+      > *Scoped 2026-10-21 (P-214).* This arc names τ = ω and W59's lines as stated inputs. W59's mathematics is now verified on main (B1684): at τ = ω the eighteen l
+ 297 B1659
+      > *Scoped 2026-10-21 (P-214, completed at Review 66).* J3 is evaluated on W59's eighteen lines at ω. W59's mathematics is now verified on main (B1684): at τ = ω
+ 303 B1717
+      > *Dated note 2026-10-22 (the math referee's audit, S188).* §2's "irreducible with scalar commutant" inferred > irreducibility from the commutant. That step nee
+ 307 B1679
+      > *Sharpened 2026-10-21.* The claim line's "two records follows from a non-trivial common character in SL(2, ℂ)" is an implication that runs both ways: for n ≥ 
+ 309 B1682
+      > *Sharpened 2026-10-21.* "At n = 2 the classes kept by the record's R and L are the powers of [a, b], whose trace is PF1's κ": joined through κ, the link to PF
+ 311 B1691
+      > *Correction 2026-10-21 (S164; found by main, targeted).* **"m₁ = 0 without a ∂²R component" (above, the table's second > row, the first addendum's "m₁ = 0" fo
+ 315 B1656
+      > *Scoped 2026-10-21 (P-214).* This arc names τ = ω and W59's lines as stated inputs. W59's mathematics is now verified on main (B1684): at τ = ω the eighteen l
+ 317 B1656
+      > *Scoped 2026-10-21 (P-214).* This arc names τ = ω and W59's lines as stated inputs. W59's mathematics is now verified on main (B1684): at τ = ω the eighteen l
+ 317 B1713
+      > *Dated note 2026-10-22 (the core-code audit, S187).* > - **Why J vanishes on the order-4 lines.** §2 says "because both quark sectors' first generation is mas
+ 318 B1656
+      > *Scoped 2026-10-21 (P-214).* This arc names τ = ω and W59's lines as stated inputs. W59's mathematics is now verified on main (B1684): at τ = ω the eighteen l
+ 320 B1656
+      > *Scoped 2026-10-21 (P-214).* This arc names τ = ω and W59's lines as stated inputs. W59's mathematics is now verified on main (B1684): at τ = ω the eighteen l
+ 321 B1656
+      > *Scoped 2026-10-21 (P-214).* This arc names τ = ω and W59's lines as stated inputs. W59's mathematics is now verified on main (B1684): at τ = ω the eighteen l
+ 321 B1660
+      > *Scoped 2026-10-21 (P-214).* This scoreboard's scope already names its frame: τ = ω on W59's eighteen lines. W59's mathematics is now verified on main (B1684)
+ 321 B1724
+      > *Dated note 2026-10-23 (Review 68's premise audit).* "The mechanism exact" is T's action, ρ(T) = e^{iπ/4}(1 ⊕ R₋₉₀°). > The covariance under S is tested numer
+ 323 B1656
+      > *Scoped 2026-10-21 (P-214).* This arc names τ = ω and W59's lines as stated inputs. W59's mathematics is now verified on main (B1684): at τ = ω the eighteen l
+ 324 B1656
+      > *Scoped 2026-10-21 (P-214).* This arc names τ = ω and W59's lines as stated inputs. W59's mathematics is now verified on main (B1684): at τ = ω the eighteen l
+ 326 B1656
+      > *Scoped 2026-10-21 (P-214).* This arc names τ = ω and W59's lines as stated inputs. W59's mathematics is now verified on main (B1684): at τ = ω the eighteen l
+ 327 B1656
+      > *Scoped 2026-10-21 (P-214).* This arc names τ = ω and W59's lines as stated inputs. W59's mathematics is now verified on main (B1684): at τ = ω the eighteen l
+ 331 B1656
+      > *Scoped 2026-10-21 (P-214).* This arc names τ = ω and W59's lines as stated inputs. W59's mathematics is now verified on main (B1684): at τ = ω the eighteen l
+ 337 B1742
+      > *Corrected 2026-10-24 (Review 69, an E54 instance). The order-5 case above (k even: the lepton spectrum is the down > spectrum for every Higgs) is not new: it
+ 346 B1799
+       **Dated note (2026-10-28, S233, at B1800's referee):** § Seen first's "the retired ruled-branch weave" is unsupported — the record retires τ = ω on the ruled b
+ 349 B1663
+      > *Sharpened again 2026-10-17 (Review 65, from its sample read).* > - *The sha256 1ce96661 printed beside "Sealed 9c3f74238" is the preregistration's. The instr
+      > *Sharpened 2026-10-17 (S142, after an outside referee's report on the paper). The escape rate of T3 is the instrument's (1/n) log‖X_n‖_F at the first n at whi
+      > *Corrected 2026-10-29 (S258, B1815):* > - *The exit law is now known in closed form: ν_p = (1−p)·M + p·F₊M at every p. So this arc's T2 (P(ξ > 0) = 1 − p) and

@@ -39,7 +39,7 @@ cannot be checked, mark MANUAL and name the mechanism that surfaces it at the de
 | No forbidden artifacts tracked (archives, CI config, surname-bearing files, loose relays) | **GATED** | `tracked-forbidden` |
 | No AI labels, seat labels, or the owner's surname in public docs | **TESTED** | `tests/test_public_surface_scan.py` |
 | The workdesk is generated from the record at a named commit, loads nothing external, and is never hand-edited (P-420) | **TESTED** | `tests/test_workdesk_builds.py` |
-| Two tiers (the owner, 2026-10-29: 'loosening sometimes allow us to understand things when we hit walls or negatives, and we can always make sure the final claim respect the required bar'): claims are gated as they stand; exploration below the gates is allowed — loosened and labelled (unsealed, post hoc, data-free), graded nothing, not a look when data-free, counted for the test it informs when it touches seen data; the final claim returns through a fresh seal. The order: data-free first, then observables nobody has looked at, then the seen data when the look is worth its price (P-509) | **MANUAL** | — |
+| Two tiers (the owner, 2026-10-29: 'loosening sometimes allow us to understand things when we hit walls or negatives, and we can always make sure the final claim respect the required bar'): claims are gated as they stand; exploration below the gates is allowed — loosened and labelled (unsealed, post hoc, data-free), graded nothing, not a look when data-free, counted for the test it informs when it touches seen data; the final claim returns through a fresh seal. The order: data-free first, then observables nobody has looked at, then the seen data when the look is worth its price (P-509) **[2026-11-03, GENESIS v1.61, B1829: three levels where the joint look count applies — exploration (this lower tier, no look), a fixed screen at p < 0.01 that makes a CANDIDATE (never a result), and a confirmation by held-out prediction (GAP1's v1.60 rule) that makes a result]** | **MANUAL** | — |
 | Commits as `originaxiom`; no AI trailer | **GATED** | `attribution` |
 | No new frontier arc may reuse a B-number | **GATED** | `id-collisions` |
 | The arcs' machine-readable data does not contradict itself (P-420 phase 0, the owner's GO 2026-10-29): no duplicated id beyond the grandfathered, no folder whose number is not its id, no dependency on nothing, on a folder with FINDINGS but no verdict, or on a non-arc id (a seat id goes in `rests_on_seat` or `cites_seat`), and no one-sided supersession in either direction; resolved cases and prose-only candidates are reported by scripts/checks/arc_data.py, not gated | **GATED** | `arc-data` |
@@ -722,6 +722,31 @@ picture, but fail to address all the points we made, and get lost to one of the 
 then over and over." Relays, seat items and leads were aged; a point raised in a review or audit was not, and survived
 only as prose. Opened with the 72 points of the 2026-10-13 frame audit and intake.
 
+## The total-inputs scoreboard beside "0 of 19" — GATED (`inputs-scoreboard`)
+
+**The rule.** `scripts/checks/inputs_scoreboard.py` reads `docs/total_inputs_scoreboard.json` and renders
+`docs/TOTAL_INPUTS_SCOREBOARD.md`. Each frame that claims rows of the 19 (and beyond) lists every joint it stands on, typed
+FORCED-BY-MAIN or VERIFIED-BY-MAIN (earned only if the basis names a THEOREM_REGISTRY or LAW_MAP row that exists) or
+BORROWED (CHOSEN, FITTED, MEASURED-INPUT, ANSATZ, FORCED-CLAIMED, REFUTED, UNKNOWN); a joint counts once however many
+rows it feeds; the identification price is printed with them. Every gate run prints the headline; the gate fails if an
+earned joint names no existing row or the page is stale. Progress means the borrowed totals fall.
+
+**Why it exists.** The owner's ruling of 2026-10-29 (P-418): "0 of 19" alone hid the drift — about thirteen discrete
+choices were added after B1600 against two removed. And the owner, 2026-11-04 (P-661): a seat may work to a looser
+standard if it names every unearned joint, so that a complete picture with its borrowed joints can show which joints to
+earn; main relabels each joint itself (B1834).
+
+## The brainstorm rules: direction leads age, hosts cannot close over children, drafts land, owner calls listed — MIXED (adopted 2026-11-04, the owner's ruling on P-659, B1833)
+
+**The rule.** WORKING_RULES' THE BRAINSTORM RULES: M1 direction leads age at 21 days (point-debt rule 7); M2 and M3 a host
+cannot close over an open child or merged row (rule 8); M4 the carry scan (report-only until 2026-11-18); M5 a review's
+ranked leads become action items (the review template); M6 every open OWNER row printed at every run and audit-room drafts
+land or are declined within 7 days (rule 9); M7 a retired frame's ideas translated or declined, and a fit-capacity frame
+card needs the owner's word to become the main line (MANUAL).
+
+**Why it exists.** The owner, 2026-11-04: "i feel like most important leads from brainstorms keeps getting forgotten".
+B1833 measured about 65 ideas with no carrier and twelve mechanisms of loss; the owner adopted all seven rules.
+
 ## Every open lead and every arc left OPEN is aged, on a ratchet — GATED (`lead-debt`)
 
 **The rule.** `scripts/checks/lead_debt.py` reads `docs/OPEN_LEADS.md` and every `frontier/*/arc_verdict.json`. A lead (a
@@ -1230,3 +1255,30 @@ Three practices came out of the field stage's last window. Each answers a slip t
    the run log's one runtime line carried an install path, redacted before any push and disclosed). MANUAL.
 6. **A mechanism claimed as new is swept in the record's own vocabulary for the object** (B1742's re-derivation of B1728's
    law, an E54 instance at Review 69): the sweep includes the equalities the mechanism states. MANUAL.
+
+
+## Review 74's practices: identities before a census, the framing ledger kept, a filter is a look, carries by lineage — MIXED (adopted 2026-11-04, Review 74, B1831)
+
+1. **A frame's proved identities are carried to every graded observable before a census is built on it** (P-563; the agy
+   lane's 'Gate 0', the one methodological point of its November work that holds). B1739 had locked both sectors' light
+   states to the Higgs's null vector before B1825's census was built, and the corner inversion that census found follows from
+   that locking by algebra (B1826). The same holds for a card: S295's relation D, which the candidate family's own six fix to
+   about 1%, was not on its card. Before a census or a card, list what the frame's identities force on each graded
+   observable (an equality, an inequality, an ordering, a fixed value); each forced outcome is a consistency cell, graded
+   first, and the census searches only what the identities leave open. MANUAL.
+2. **Every new frame card or sealed card adds its framing commitments to `docs/FRAMING_LEDGER.md` in the same landing**
+   (P-565; B1827): each commitment as an FL row with its status (FORCED, CHOSEN, READING, UNEARNED, UNSTATED), what it
+   excludes and what it costs; a card that adds none says so. MANUAL.
+3. **A filter that is a function of a graded target makes a scan a look** (E95). An exploration whose code reads no
+   measured number, but which keeps or ranks its points by ∣V_ub∣ < ∣V_td∣, ∣V_ud∣ > 0.9 or a second-generation split of
+   about 3 (the S289–S290 scans), has looked at those targets. Before a scan runs, its filters are listed against KIND_TABLE
+   and the disclosed facts; a filter of that kind enters the scan in LOOK_LEDGER, and the targets are not untouched for any
+   card it informs (GENESIS v1.61). MANUAL.
+4. **A carried review item ages by its lineage, whatever its key** (E84; the carry-age gate's counter follows "carried
+   from …", "before it …", "ex-…" and "carried to Review N as …"). GATED (`carry-age`, through `review_tools.action_loop`;
+   `tests/test_review_tools.py`).
+5. **An answer reaches the relay ledger the day it is harvested** (E53: the SM seat's relay §74 answered five of main's
+   relays of 2026-10-13 the next day, harvest row 1116, and the five rows stayed OPEN for 22 days). When a harvest row
+   records a seat's reply to main, the relays it answers move to BANKED in the same landing, with the row's number. MANUAL.
+6. **The pin moves with the rows** (P-541): a seat's pin is at or past every commit its harvest rows cite on its line.
+   GATED (`harvest-debt`, an integrity line; its selftest's sixth planted control).

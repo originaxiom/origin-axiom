@@ -1,0 +1,18 @@
+(1) max |V(tau + m_j; beta_j) - V(tau; 1/2)| over 3 points x 5 lines = 4.44e-17
+(2) max |V(x,y;1/2) - V(-x,y;1/2)| = 0.00e+00  (so d_x V(0, y; 1/2) = 0 exactly)
+    y* (N_flux 2, N_gen 3) = 2.411869510346775 ; lane: 2.411869510346569 ; |diff| = 2.1e-13
+    Hessian eigenvalues at (0, y*): ['0.4915755', '10.76376'] ; lane: [0.491575, 10.763756]
+(3) line j=0 (beta 1/10): 2D Newton -> (-1.0, 2.41186951035); expected (m_0, y*) = (-1, 2.41186951035)
+(4) Re tau = 1/sqrt5, beta = 1/10: d_y V = 0 at y = 2.45556740891092 (lane 2.455567408910715), d2V/dy2 = 10.812655 (lane +10.812655)
+(5) y* on beta = 1/2, x = 0, as the chosen integers vary (large-y slope of the Casimir part: 7 pi/5 per generation; estimate y* ~ N_flux * sqrt(10 pi / (7 N_gen))):
+    N_gen=1: N_flux=1: 2.07265; N_flux=2: 4.23102; N_flux=3: 6.35484; N_flux=4: 8.47389
+    N_gen=2: N_flux=1: 1.42047; N_flux=2: 2.97542; N_flux=3: 4.48943; N_flux=4: 5.99107
+    N_gen=3: N_flux=1: 1.11766; N_flux=2: 2.41187; N_flux=3: 3.65871; N_flux=4: 4.88943
+    flux coefficient c in c*N_flux^2/Im tau (lane: c = 2 pi^2), N_flux 2, N_gen 3:
+      c = 9.8696: y* = 1.66626
+      c = 19.7392: y* = 2.41187
+      c = 39.4784: y* = 3.44639
+      c = 6.28319: y* = 1.2931
+(6) Re tau = 1/sqrt5, Im tau = 1.0: sum_p |theta_p/eta|^4 = 7.691587242
+(6) Re tau = 1/sqrt5, Im tau = 2.618034: sum_p |theta_p/eta|^4 = 31.09003706
+(6) Re tau = 1/sqrt5, Im tau = 4.0: sum_p |theta_p/eta|^4 = 131.8896099

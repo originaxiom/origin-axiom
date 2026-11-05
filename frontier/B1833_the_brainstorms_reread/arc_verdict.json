@@ -1,0 +1,28 @@
+{
+ "id": "B1833",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1830",
+  "B1831",
+  "B1832",
+  "B1827",
+  "B1466",
+  "B1825"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (a process arc: the record's memory of its own ideas)",
+  "object": "the chat history (the working session 2026-09-09 to 2026-11-04, the terminal session 2026-06-08 to 2026-08-19, the two web-era programme chats in the gitignored chronicle archive) and the brainstorm documents, against the tracked record",
+  "reach": "general",
+  "hypotheses": "readers grade and main verifies every FORGOTTEN grade that became a row (verification/verify_forgotten.py, two to four vocabularies per item over the register, OPEN_LEADS and every tracked text file); counts are approximate; the web-era chats stay private (topics only); the mechanism is put to the owner, not adopted"
+ },
+ "claim_one_line": "THE BRAINSTORMS RE-READ (the owner's 'most important leads from brainstorms keeps getting forgotten'; 'check our chat history'): of about 530 distinct ideas across five sources about 340 were worked, 80 partly, 45 rowed and stalled, and 65 had no carrier -- each confirmed by main against the whole tracked record and now rowed (P-629-P-657); the losses come after the writing-down, by twelve mechanisms (leads never come due; reviews rank leads and carry none; merged items die with their host; places the register never reads; renamed ideas never joined); the central direction -- what holds tau and selects the point -- named in six vocabularies across eleven rows with no owner, now one row with four never-computed handles; U_e and the PMNS recovered as a candidate second held-out quantity (P-597) and a loop lift of the rank-2 Yukawa as a sector-dependent route at D's failure; L241 (b) and the PF4 'attempted' corrected; the mechanism (P-659) and the direction (P-660) put to the owner. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}

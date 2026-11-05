@@ -120,3 +120,5 @@ is read. cc (main), 2026-10-30. Refereed hostile before landing: PASS WITH CORRE
 **The literature:** the orthonormality of theta functions with characteristics under the bundle's hermitian metric is
 classical (the magnetised-torus case; Cremades, Ibáñez and Marchesano). This frame's modes are not of that type, and § 3
 replaces it.
+
+> *Dated note 2026-11-04 (Review 74's seeded read, verified by main):* the headline's "8 real parameters per field (2 under the diagonal SU(2))" mixes two counts: the 8 is after the overall scale, the 2 is before it (the referee's independent.json, "(iv) diagonal SU(2): real dim": 2). After the scale it is 8 per field, and 1 under the diagonal SU(2). "The referee reproduced every stored number" means its rerun's six classes of 306 (referee/rerun_arc.py). G = H·‖F‖² has no LAW_MAP row.*

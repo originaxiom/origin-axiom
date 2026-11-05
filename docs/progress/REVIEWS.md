@@ -7812,15 +7812,185 @@ Step B is the window's only route to a promotion, and it is sealed first.
   rigid census is pinned by its hash in THE FINAL ATTACK § 5.
 
 ### Action items (Review 73)
-- [>] R73-1: push the owner's mirror when the drive is reconnected (carried from R72-3, before it R71-8; owner: the owner, then cc)
-- [>] R73-2: main's review of the audit lane's analytic proofs, now four notes on P-396's rows (carried from R72-4, before it R71-9; owner: cc)
-- [>] R73-3: P-394 and P-398, main's plan's remaining steps (carried from R72-5, before it R71-10; P-397 advanced by B1817; owner: cc)
-- [>] R73-4: P-426–P-430 worked in the queue's order (carried from R72-6; owner: cc)
-- [>] R73-5: P-417's remaining steps and P-421 (carried from R72-7; owner: cc)
-- [ ] R73-6: THE FINAL ATTACK in the owner's approved order — Step A's design note next; P-510's KIND_TABLE ruling before the seal (owner: cc)
-- [ ] R73-7: the full suite on a fresh clone made a standing step of every review, carried by the review tool (P-511's run; owner: cc)
-- [ ] R73-8: P-507 (the completeness lists classified) and P-512 (the quarter relation) (owner: cc)
-- [ ] R73-9: P-516 — the window's identifications declared in its verdict files, with a lock (owner: cc)
-- [ ] R73-10: P-517 — B1811's referee-stage numbers committed and locked (owner: cc)
+- [x] R73-1: push the owner's mirror when the drive is reconnected (carried from R72-3, before it R71-8; owner: the owner, then cc) — declined from the review loop at Review 74, its third carry: the step is the owner's (P-547, the drive's access); main pushes the mirror the day it mounts, by standing rule
+- [x] R73-2: main's review of the audit lane's analytic proofs, now four notes on P-396's rows (carried from R72-4, before it R71-9; owner: cc) — declined from the review loop at Review 74, its third carry: nothing on main rests on the proofs, and the review fires when the route yields a value (P-396, [PROCESS]); P-592's six packages decided at this review
+- [x] R73-3: P-394 and P-398, main's plan's remaining steps (carried from R72-5, before it R71-10; P-397 advanced by B1817; owner: cc) — declined from the review loop at Review 74, its third carry: both are [LEAD] rows since S296 (ideas nothing rests on), read with every lead at this review (P-617)
+- [>] R73-4: P-426–P-430 worked in the queue's order (carried from R72-6; owner: cc) — carried to Review 74 as R74-1
+- [>] R73-5: P-417's remaining steps and P-421 (carried from R72-7; owner: cc) — carried to Review 74 as R74-2
+- [x] R73-6: THE FINAL ATTACK in the owner's approved order — Step A's design note next; P-510's KIND_TABLE ruling before the seal (owner: cc) — RESOLVED: Step A NEGATIVE as a compression (B1823), Step B NOT FOUND under THE_FINAL_ACTS_BAR (B1825, S298), P-510 DONE
+- [x] R73-7: the full suite on a fresh clone made a standing step of every review, carried by the review tool (P-511's run; owner: cc) — RESOLVED at Review 74: `review_tools.py --fresh-clone-suite <log>` (eight workers, the seat branches fetched), run at eb130f01f
+- [>] R73-8: P-507 (the completeness lists classified) and P-512 (the quarter relation) (owner: cc) — P-512 DONE; P-507 carried to Review 74 as R74-3
+- [>] R73-9: P-516 — the window's identifications declared in its verdict files, with a lock (owner: cc) — carried to Review 74 as R74-4
+- [>] R73-10: P-517 — B1811's referee-stage numbers committed and locked (owner: cc) — carried to Review 74 as R74-5
 
 **anchor-commit: `99d90d515`**
+
+# Review 74 (2026-11-04) — the backlog read for leads, the candidate's confirmation one target short, the carry rule made to fire
+
+38 commits since Review 73 (`99d90d515..eb130f01f`, all on the first-parent line, S264b–S298), two short of the block at
+forty, and 12 arcs with a verdict (B1819–B1830). Run by main at the owner's "do the decadal". Mid-review the owner asked
+whether relays and old rows handed to the review were being taken seriously — "they could contain game changing leads" — so
+the review read every open relay, every SCHEDULED harvest row and every open lead in full, for load on main and for leads
+nobody followed. The process arc is B1831; its readers' reports, scrubbed of local paths, are in its `verification/readers/`.
+
+**What the window did:**
+- **THE FINAL ATTACK ran to its end.** Step A is NEGATIVE as a compression (B1823). Step B's census was refined and
+  certified (B1819–B1821, B1824), sealed and run: NOT FOUND under THE_FINAL_ACTS_BAR, NEGATIVE as the kill graph's category
+  (B1825; its grade corrected at S298 from the web seat's review).
+- **The frame's matter metric is CHOSEN** (B1822: H = I; the outputs move with H).
+- **Foundations:** GENESIS v1.60 (a dictionary may be earned by prediction, B1828) and v1.61 (the two-level bar: a fixed
+  screen makes a CANDIDATE, a held-out confirmation a result, B1829).
+- **The record audited itself:** the framing ledger (B1827); the 53 looks re-graded into one candidate family, THE SIX ON
+  THE STRIP, which fails the lepton–down relation D at about 3σ and rests on the small-cut end (S294–S297); the register
+  typed and its debts ranked (B1830); 20 stale law-map rows corrected (S297); every seat harvested to its head (S298).
+- **Still 0 of 19.**
+
+## 1. The loop (Review 73's block)
+
+- **The carry rule could not fire (E84, found by this review).** `carry-age` counted only the keys before an item's colon;
+  since about Review 62 each carry is re-keyed with its lineage after the colon, so R71-8 → R72-3 → R73-1 read as carried
+  once at every review. The counter now follows the lineage (`review_tools.action_loop`, a planted re-keyed control). R73-1,
+  R73-2 and R73-3 were at their true third carry:
+  - **R73-1 declined from the loop:** the step is the owner's (P-547); the mirror is pushed the day the drive mounts.
+  - **R73-2 declined:** nothing on main rests on the audit lane's proofs; it fires when P-396 yields a value.
+  - **R73-3 declined:** P-394 and P-398 are [LEAD] rows, read with every lead below.
+- **R73-4 and R73-5 carried a second time** as R74-1 and R74-2 (P-421 is now debt 4).
+- **R73-6 RESOLVED** (Step A, Step B, P-510). **R73-7 RESOLVED** (`--fresh-clone-suite`, run here). **R73-8:** P-512 DONE,
+  P-507 carried as R74-3. **R73-9, R73-10** carried as R74-4, R74-5.
+
+## 1b. The branch inventory and the seats
+
+- 15 unmerged leaves, every one registered; every one on one remote only, because the owner's mirror is unmounted (P-547).
+- **Three seats moved after S298's harvest** and were harvested here (rows 1544–1547; pins chat1 8ed19bbd, sm 886dc3a3,
+  agyaudit d9a04edd), by a reader under P-585's firewall; main did not open the agy commit's subject, its relay's § 6.2–7 or
+  the reader's sealed part.
+  - **The web seat's THE STRONG ANGLE NEEDS A RULE** (re-run on main's tree): θ_Y moves under the frame's own relabellings,
+    so it is defined only modulo 2π/N (N = 100 on slope 2/5); an invariant CP-odd rule pins θ̄ only on the mirror's fixed
+    set, where J = 0. **Main's ruling: θ̄ is off P-585's held-out list** (an input of FR-FIB as typed; its θ_Y already
+    stands at seven of the family's addresses on main's record). **Consequence (P-597): the candidate's level-2 card has
+    one clean held-out target, one short of GAP1 v1.60's two.**
+  - **The web seat's THE RELATIONS THE FRAME FORCES:** τ the only continuous input on a branch, f(d) = 2 (eight relations
+    among the ten), reproduced with the seat's code; B1809's "m₂ ≡ 0 only at L = ∞" corrected by main's own check.
+  - **The SM seat's W183,** sealed by commit order: RI-1 tested at τ = i, not earned (LOOK_LEDGER).
+  - **The agy lane's d9a04edd7:** a second unsealed seat computation of a P-585 target, counted in m_V; P-524, P-233, P-384
+    not paid.
+- **Relays: all 84 OPEN rows read** (two readers; main checked every cited row and read the load-bearing ones at source):
+  72 BANKED and 7 DECLINED with their evidence, 5 open with dated next actions. Five of main's relays of 2026-10-13 had
+  been answered the next day (the SM seat's §74, row 1116) and sat OPEN 22 days (E53); a request to cc3 of 2026-08-10 had
+  been answered in the relay file itself (`4ff7fc234`). P-549 DONE.
+- **P-592 decided: the physical-bridge lane's six control packages are declined for admission.** None tests a result main
+  relies on; main verified at source that three are vacuous or circular (a scalar Z; counts that encode their premises;
+  "three" as one state under three fixed references).
+
+## 2. The declared modulus
+
+- **The window:** 38 commits, S264b–S298.
+- **Read in full, drawn by the anchor's seed:** B1821, B1822, B1823, B1824, B1828, by a reader
+  (`B1831/verification/readers/reader_READ_IN_FULL.md`); all hold, four with notes. Every re-run reproduced. Main
+  verified each correction at source before applying it as a dated note:
+  - **B1823:** "every computed n = 3 and n = 4 vacuum lies on a line" is false — four converged, isolated vacua at λv = 1.0
+    sit off every mirror line (summary.txt); the NEGATIVE stands.
+  - **B1821:** "confirmed on every direction and line" ran on 154 of 266 lines; two earlier rows recorded 22 of 26 groups,
+    undisclosed.
+  - **B1822:** "8 real parameters per field (2 under the diagonal SU(2))" mixes counts before and after the scale (1 after).
+  - **B1824:** "three values of τ" matches no committed output (five and six are committed). **B1828** holds.
+- **P-086's checklist, items (b)–(d), by a reader:** 13 of 18 verification claims confirmed, 36 of 36 DONE rows. Flagged and
+  corrected: **two of main's own S298 claims had no instrument** — σ_b on the four order-8 lines and the LL pair. Both
+  instruments are now committed (B1826 `verification/review74/`; main's runs identical to the reader's). The LL pair's
+  "differs by order 10" was the wrong shape: 14–30 on three lines, a channel permutation on (1/3, 1/6). LAW_MAP's six rows
+  grading the candidate through the exact-end failure now say it is the web seat's sealed look, not re-run on main (P-595).
+- **The H = I scope** the web seat flagged on 2026-10-30 had no row and reached no arc: thirteen FR-FIB arcs and eleven
+  law-map rows now carry it (P-594).
+- **The locks:** a full suite on a fresh clone of eb130f01f, eight workers: 8 008 passed, 7 failed, 70 skipped.
+  - Four fail on today's date: the stale relays and leads this review closes (B1626's lock, B1172's runner, two gate tests).
+  - B805's two attachment locks (P-239, standing).
+  - **One is S298's own: B1425's retraction-count lock** — S298 took RETRACTIONS from 64 to 67 rows and ran only the
+    touched arcs' tests. Fixed: the paper's count and its generator (an erratum, S258's precedent), the lock's words.
+  - Not certified: the seats' trees beyond the commits their rows name.
+
+fresh-clone: PASS @ 41420ae14 (gates all PASS; belt ok) (the review's landing, before its anchor line)
+fresh-clone suite: FAIL @ eb130f01f (8008 passed, 7 failed, 70 skipped; diagnosed above); and at the review's first landing 5ad939055: 8019 passed, 5 failed — B805's two (standing), the path-refs gate twice over (a reader's copy cited a file never created) and B1461's planted carry test, which showed this review's first lineage counter undercounting an item whose origin review is absent; both fixed in 41420ae14, whose gates and belt pass in a fresh clone
+sample seed: 99d90d515; read in full: B1821, B1822, B1823, B1824, B1828
+gate controls: 47 registered failing-path tests; unregistered: none
+
+## 3. Advancement, and the leads read
+
+- **The tables:** LAW_MAP +1 row (B1827's adjugate reading); the other 21 rows the tool counts were sharpened in place
+  (S297) or scoped here. THEOREM_REGISTRY +0. Nothing moved up a strength class; several narrowed.
+- **The backlog read in full (the owner's concern).** Three readers read all 276 SCHEDULED harvest rows from September;
+  two read all 142 [LEAD] rows of the register and the 77 other open leads of OPEN_LEADS.
+  - **No row derives an SM parameter or hides a suppressed positive.** About 146 of the 276 were handled by later arcs the
+    rows never point to (the slice-D generator matched strings the harvest arcs did not write); about 94 bear no load and
+    hold no lead. 39 register leads are stale — the work on record, the row never moved (L251/B1800 the named case).
+  - **New rows:** debts P-602–P-610 (among them B298's "never 3" false as an implication, cited by B1496; B1195 PROVED with
+    four failing cells; B1225's reproduction that only greps; W134 against C8), leads P-611–P-615; every proposed closure
+    is listed for main to confirm one by one (P-616, P-617) — no lead was closed on a reader's word.
+- **The leads that could change the direction, ranked by main from the readers' independent tops** (data-free first steps
+  unless stated; none run yet):
+  1. **What forces the corner-lifting reading** — the adjugate (L241, P-566, P-583, RI-1): both lead readers' first. W183
+     tested RI-1 at τ = i only; the cell P-583 owes comes first.
+  2. **A rule for the line class** — P-411/P-422 (gauging −I selects (2/5, odd/10)) and L233 (the channel norms as
+     Kronecker-limit logs); either pays debt P-384, on which the candidate rests.
+  3. **Re τ as a CP bit** — L151/P-328: at Re τ ∈ {0, ½} J vanishes exactly when CP fixes the line, leaving Im τ the one
+     licensed anchor; never re-derived on main.
+  4. **Can the candidate be confirmed at all?** P-611, the per-target information budget (cc3's B8072): from each held-out
+     target's precision alone, the best p_V an exact hit could reach — before any target is spent; with P-597.
+  5. **The honest count of free inputs** — P-612 (count the image of each choice, not the rows; codex's R031D) and L253's
+     untried first computation (P-038).
+  6. **The lepton factor behind D** — P-460: twist only the doublet legs, hours.
+  7. **Where the towers meet** — P-613 (on the object's real data both routes into E₆ reach SO(10) and skip SU(5)) with
+     P-614 (the discrete symmetry surviving 27 → SM; Dirac against Majorana).
+  8. **P-487, the exclusion half** — never run; the only test that could falsify the frame on structure rather than fit.
+  9. **P-058** — the audit lane's charged three on a double cover, unverified on main for three weeks.
+  10. **P-373** — what fixes Im τ, after P-421.
+
+## 4. Error-class recurrence
+
+- **New class E95, exploration graded by seen data:** the S289–S290 scans kept points by functions of the graded four.
+- **Instances:** E53 (S297's 20 law-map rows; five relays answered and left OPEN; L251's heading); E54 (S289–S295's
+  seen-first misses); E9 ×4 (B1825's grade, P-555's "closed", B1826's finite-τ scope, main's S297 bracket); E14 (P-355's
+  first ratio metric); **E84** (the carry rule that could not fire); **E52** ×2 (the review tool's seal and provenance
+  misreadings, caught before any finding was written); E85 and E82 (Step B's duplicate check and void calibration legs,
+  S279–S284); **E11** (main's own S298 "verified on main" without an instrument; P-619).
+- **Near-misses again, caught by locks:** nine-character harvest pins (S298, a third time), raw pipes in harvest rows.
+- **An operations incident without a class:** the machine panicked under the pre-seal jobs (S281); heavy jobs now run one
+  at a time, sized against free disk (P-550).
+- **The rules that would have caught them** are adopted in PRACTICES' "Review 74's practices" (identities before a census,
+  P-563; the framing ledger kept, P-565; a filter is a look; carries by lineage; an answer reaches the relay ledger the day
+  it is harvested; the pin moves with the rows, P-541, now a gate).
+
+## 5. The provenance spot-sweep
+
+- **Pretense:** 9 747 added lines, 0 hits. The tool's first run reported three — disclaimers ("Nothing here is externally
+  verified") — because its scan lacked the gate's negation window; fixed (E52).
+- **Vocabulary:** the tool named "step b's"; main swept the window's load-bearing words and glossed eight in TERMINOLOGY.md.
+
+## 6. The promotion sweep
+
+None promoted. 0 of 19. THE SIX ON THE STRIP is a CANDIDATE (level 1), and its confirmation is one held-out target short.
+
+## 7. Protocol integrity
+
+- **The window's two seals:** B1825, 57 of 57 hashes, sealed before results. B1823's table is staged (plan, disclosed
+  changes, crash fix, final); every path's last hash matches but two, both accounted for (a rename, a path-redacted crash
+  log); its plan and results landed in one commit — order by the table's timestamps only, data-free. The tool's first
+  reading of both was wrong in three ways and is fixed (E52).
+- **P-535 adjudicated** (the Lab's seal-order findings, main verifying every diff): no criterion, threshold or target
+  changed after a seal in B496, B742, B749, B1486 or B1490 (its five lines lie outside C1–C4); dated notes on each and on
+  the prose seals B1409, B1455; `# sealed at` lines on B742 and B749; B1670 removed from the "order unshown" class (its order
+  shows on the kept referee branch). The class of 79 and the tools' defects are P-601.
+- **"Not on every remote"** because the mirror is unmounted.
+
+### Action items (Review 74)
+- [>] R74-1: P-426–P-430 worked in the queue's order (carried from R73-4, before it R72-6; owner: cc)
+- [>] R74-2: P-417's remaining steps and P-421, now debt 4 (carried from R73-5, before it R72-7; owner: cc)
+- [>] R74-3: P-507, the completeness lists classified (carried from R73-8; owner: cc)
+- [>] R74-4: P-516, the identifications declared, with a lock — three more instances in this sample (carried from R73-9; owner: cc)
+- [>] R74-5: P-517, B1811's referee-stage numbers committed and locked (carried from R73-10; owner: cc)
+- [ ] R74-6: P-597 and P-611 — whether a second clean held-out target exists, and the per-target information budget, before any level-2 card is sealed (owner: cc; reported to the owner)
+- [ ] R74-7: P-595 — main's rerun of the web seat's sealed exact-norm look (owner: cc)
+- [ ] R74-8: P-616 and P-617 — the backlog's and the leads' proposed closures, merges and retypes confirmed one by one (owner: cc)
+- [ ] R74-9: P-601 — the 79 'order unshown' as a list that may only shrink; the tools' order and ledger defects (owner: cc)
+- [ ] R74-10: the owner's choice among the ranked leads of § 3 for the next work (owner: the owner)
+
+**anchor-commit: `41420ae14`**

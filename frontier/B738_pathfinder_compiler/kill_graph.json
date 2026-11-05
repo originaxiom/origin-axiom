@@ -12408,5 +12408,32 @@
    "hypotheses": "data-free; the heavy content, menus, tie, normalisation convention, zeroed invariant couplings and counterterm parts, minimal Kahler, H_d only, charge-preserving vevs and |v| fixed are CHOSEN"
   },
   "weave_or_thread": "frame (no thread selected)"
+ },
+ {
+  "id": "B1825",
+  "claim_killed": "That one rigid address of the frame (FR-FIB: a line of order <= 12, one of twelve directions, one radius, one reading, continuous tau with Im tau in [1, 4], c = 3) carries our world's ten -- the six mass ratios, the three CKM moduli and |J| -- within chi2_10's 0.99 quantile (THE FINAL ATTACK's Step B).",
+  "kill_form": "Sealed (fa25925fc) and run once (64a2a3d4e): least chi2_ten 291.4 against 23.21 (fresh 291.5; an independent scan of every stored node agrees); the six alone reach 1.36 and the four alone 0.35, never together (the CKM clause fails rigorously); K's C_ten -197 (bits_CKM -194). NOT FOUND within the census's reach; nothing excluded beyond it.",
+  "hatch": "the mixing as the meeting of two addresses: the up and down sectors' diagonalisations at different loci, the CKM their relative rotation (P-555; P-415's towers); a larger reach (orders above 12, Im tau above 4, other c)",
+  "priority": "high",
+  "routed_from": "main, at banking (2026-10-31), for tests/test_b833_negative_routing.py",
+  "note": "Robust and kept: each half of the SM's flavour numbers is made by the frame (the six at 1.36, the four at 0.35); the obstruction is their joint placement, seen before on narrower menus (B1713, B1720) and now sealed on the whole menu. The six do not compress even at an address (C_six < 0; P-554). X2 had failed before the seal (p2 = 3/2000).",
+  "evidence_consulted": [
+   "B1741",
+   "B1726",
+   "B1786",
+   "B1814",
+   "B1653",
+   "B1713",
+   "B1720"
+  ],
+  "faces_consulted": [],
+  "fact_computed": "the refined census (263 606 configurations, 5.0e7 rows) by B1821's evaluator; branch-and-bound on biquadratic enclosures over continuous tau; K's windowed quadrature; the referee's brute-force scan of every stored node and fresh evaluations at the address",
+  "scope": {
+   "frame": "FR-FIB at one rigid address, the refined census's reach",
+   "object": "our world's ten at c = 3 (B1741; J from the PDG 2024 CKM review)",
+   "reach": "single",
+   "hypotheses": "reach, c = 3, threshold and floor CHOSEN; sealed fa25925fc"
+  },
+  "weave_or_thread": "thread"
  }
 ]

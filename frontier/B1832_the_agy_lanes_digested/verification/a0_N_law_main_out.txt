@@ -1,0 +1,1 @@
+28 channel values; {'up+down': '1.4e-14', 'down-lep': '9.2e-15', 'up(w)-down(-w)': '5.8e-15', 'down(w)+down(-w)': '1.8e-14'}

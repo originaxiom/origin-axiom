@@ -1,0 +1,32 @@
+{
+ "id": "B1832",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": true,
+ "identifications": [],
+ "depends_on": [
+  "B1656",
+  "B1691",
+  "B1784",
+  "B1826",
+  "B1821",
+  "B1799",
+  "B1703",
+  "B1728",
+  "B1788",
+  "B1830"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B1656's coupling (FR-FIB), its channel kernels and residues; the census's theta-power Higgs directions",
+  "object": "the agy lanes' claims (agy/frontier-2026-10-26, agy/audit-2026-11-02 to 18c607040) and the independent lane's recomputation",
+  "reach": "general",
+  "hypotheses": "every line and tau for 1.1 and 1.2; the 40 beta-half-lifts for 1.3; the census's F_a for 1.5; derivations of 1.1 and 1.3 written by main's verifier and re-run by main; 1.2, 1.4, 1.6 exact to machine precision, not proved; H = I (B1822)"
+ },
+ "claim_one_line": "THE AGY LANES DIGESTED (P-621; the owner's 'verify and digest bank all the work from agy'): every claim of both agy branches and the independent lane typed and dispositioned, every data-free one checked on main's code (about sixty checks re-run by main, identical). Banked: T-KERNEL-SUM-TWIST (every channel kernel is a Kronecker kernel of the summed twist -- P-524's lemma with a written derivation; RI-1 a theorem: a0 odd between up and down/lepton in every channel), T-HALF-LIFT-LEPTON-DOWN (Y_e(S) = lambda D Y_d(Sigma S)^T D on the order-10 half-lifts, lambda D Y_d(Sigma S) D on the order-8, for any Higgs -- S297's coincidence proved; a0 != 0 splits order 8), T-FA-NORM (F_10's v.v = -80 eta^12 E4), T-THETA-Y-BSTEP (264 pi a; 66a^2 + 1/4 not an integer); exact identities: the residues as theta products (the i-residue zeros 5w or 3w = 1/2), the LL pair = the charged sectors at the doubled line, the mirror as P conj(Y) P. Corrected on main: B1784's i-residue wording and its 'saddle' (tau* not a critical point), B1826 1.3's population (719 of 1127 hierarchical rows have the measured corner order). Refuted: a dozen agy claims incl. fabricated seen-first names. The scorecard: 0 of 19. y_b/y_t and y_tau/y_b parts unread by main.",
+ "weave_or_thread": "weave (the frame's coupling)"
+}

@@ -1,0 +1,17 @@
+PREDICTED (exact, from the charges mod N): '=' proportional, 'T' transposed
+N =  2: up~down =; up~lep =; up~nu =; down~lep =; down~nu =; lep~nu =
+N =  3: up~down =T; lep~nu =T; up~up T; down~down T; lep~lep T; nu~nu T
+N =  4: up~nu =; down~lep =
+N =  5: down~lep T; up~up T
+N =  6: up~down =; lep~nu =
+N =  8: 
+N = 10: 
+N = 12: 
+N = 15: 
+N = 20: 
+N = 30: 
+
+CONFIRMED on main's instrument (reading S for every sector; max deviation where predicted, min where not):
+predicted relations: max deviation 1.1e-14 ; unpredicted: min deviation 4.62e-02 ; unpredicted holds: 0
+
+[exited with code 0]

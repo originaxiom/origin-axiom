@@ -751,3 +751,17 @@ reading and c chosen; the mixing needs a Higgs ingredient the record does not ha
 **What this does not supply.** Any of the nineteen. The lepton factor 3 is the linchpin: any effect linear in one leg's
 hypercharge gives exactly 3, by anomaly cancellation. The flux frame (P-403), where a sector's coupling depends on its legs'
 Wilson-line difference, is where a data-free derivation would have to come from.
+
+## Currency note — 2026-11-04, through B1832 (THE FINAL ATTACK run; the bar in two levels; the agy lanes digested)
+
+- **Still none of the nineteen.** THE FINAL ATTACK's Step A is NEGATIVE as a compression (B1823) and Step B, the nine from one
+  address, NOT FOUND under its bar (B1825). The generations' metric is a CHOSEN input (B1822: H = I; the outputs move with H).
+- **One candidate, not a result** (GENESIS v1.61, B1829): THE SIX ON THE STRIP, on the small-cut end, about 3σ from the
+  relation D among its own six (P-094). Its confirmation needs two clean held-out targets; θ̄ is not a prediction of the frame
+  without a chosen rule (Review 74: θ_Y is defined only modulo 2π/N on the frame's points), so one remains (P-597).
+- **Structure the frame supplies, now proved** (B1832): every channel kernel depends on the line only through the summed
+  twist, so the sectors' channel norms coincide and the kernel's constant is odd between up and down; on the 40 β-half-lift
+  lines the lepton Yukawa is the down Yukawa flipped, for every Higgs — a Georgi–Jarlskog-type relation the frame forces on
+  those lines, not a value. The strong-CP phase θ_Y steps by 264πa under the frame's relabellings.
+- **What this does not supply.** Any of the nineteen, still; the lepton factor c = 3 is chosen on the data (B1726), and τ is
+  not selected (the clock CHOSEN, B1814).

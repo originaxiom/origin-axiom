@@ -75,3 +75,5 @@ unchanged.
 - Not blind: LP01's table was read before the seal. The seat's exact representations are inputs, checked (determinant
   one, relators ±I, trace squares against SnapPy's holonomy). The cusp-count instrument is rewritten here on B1418's
   definition; the door is not computed (the covers have 7–8 generators).
+
+> *Dated note 2026-11-04 (Review 74, P-535):* the in-place amendment of PREREGISTRATION.md (`4e617453e`, sealed 93b5777e → 7fe522c0) is three bracketed notes and two unbracketed rewordings of the group's name in § 2, not two notes. It touches § 2 and the last sentence of the reading rules only — C1–C4, their priors and 'VERIFIED iff C1 and C2 hold' are as sealed (main's diff of the span, empty) — and the generated seal ledger shows it only as a second commit; the sealed hash 93b5777e is recorded here and in the claim line. The verdict does rest on the disclosed post-seal fix of `common_cover_main.py`, with the sealed run kept.*

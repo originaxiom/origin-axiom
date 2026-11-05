@@ -1,0 +1,13 @@
+(1) 2x - p + c = [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+    A^2 = C^-1 P on all 32 weights: True ; phases of A^4 (as fractions of 2 pi): {Fraction(1, 2)} (1/2 => -I) ; phases of P^2: {Fraction(0, 1)} ; C's phase by chirality parity: {(1, Fraction(3, 4)): 16, (0, Fraction(1, 4)): 16}
+
+    E8 roots: 240 + 8 Cartan = 248
+(2) Q_em on the 4 (even # of minus signs) with Q = (2/3)(e1+e2+e3): ['-1/3', '-1/3', '-1/3', '1'] ; h^2 phase (fractions of 2 pi): {'3/4'} (3/4 => -i, 1/4 => +i)
+(2) Q_em on the 4bar (odd) with Q = (2/3)(e1+e2+e3): ['-1', '1/3', '1/3', '1/3'] ; h^2 phase (fractions of 2 pi): {'1/4'} (3/4 => -i, 1/4 => +i)
+    h^2 has torus log 2h = cA3: True
+    C_A3 C_D5 trivial on all 240 roots: True
+(3) tilde_A^2 = K_pi on all roots: True ; tilde_A^4 = I: True ; K_pi^2 = I: True ; roots where K_pi != 1: 112
+    control: A (no h) satisfies A^2 = K_pi on all roots: False
+
+(4) <a, d | a^8, d^4, ada^-1 = d^-1>: order, element orders, |center|, |[G,G]| = (32, {1: 1, 4: 12, 2: 3, 8: 16}, 8, 2)
+    <a, d | a^4, d^4, ada^-1 = d^-1>  : order, element orders, |center|, |[G,G]| = (16, {1: 1, 4: 12, 2: 3}, 4, 2)  (main's c4 for <K_i, K_j>: orders {1:1, 2:3, 4:12}, |center| 4)

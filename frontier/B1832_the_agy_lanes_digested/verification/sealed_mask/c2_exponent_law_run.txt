@@ -1,0 +1,62 @@
+alpha=2/5 p2=0.0 up     
+      rule rel(1,i,j,k)=(3/20,3/20,0,0) num rel=(zero,0.15,0.0,0.0)  within-sector gap Delta E = 3/20  dominant block = diag (j,k)  abs-match PASS  num-minus-rule per channel {'1': 'zero', 'i': 0.0, 'j': -0.0, 'k': 0.0}
+alpha=2/5 p2=0.0 down   
+      rule rel(1,i,j,k)=(0,0,1/20,1/20) num rel=(0.0,0.0,0.05,0.05)  within-sector gap Delta E = 1/20  dominant block = offdiag (1,i)  abs-match PASS  num-minus-rule per channel {'1': -0.0, 'i': 0.0, 'j': -0.0, 'k': 0.0}
+alpha=2/5 p2=0.0 lepton 
+      rule rel(1,i,j,k)=(0,0,1/20,1/20) num rel=(0.0,0.0,0.05,0.05)  within-sector gap Delta E = 1/20  dominant block = offdiag (1,i)  abs-match PASS  num-minus-rule per channel {'1': -0.0, 'i': 0.0, 'j': -0.0, 'k': 0.0}
+alpha=2/5 p2=0.1 up     
+      rule rel(1,i,j,k)=(3/20,3/20,0,0) num rel=(0.15,zero,0.0,0.0)  within-sector gap Delta E = 3/20  dominant block = diag (j,k)  abs-match PASS  num-minus-rule per channel {'1': 0.0, 'i': 'zero', 'j': 0.0, 'k': -0.0}
+alpha=2/5 p2=0.1 down   
+      rule rel(1,i,j,k)=(0,0,1/20,1/20) num rel=(0.0,0.0,0.05,0.05)  within-sector gap Delta E = 1/20  dominant block = offdiag (1,i)  abs-match PASS  num-minus-rule per channel {'1': 0.0, 'i': -0.0, 'j': -0.0, 'k': 0.0}
+alpha=2/5 p2=0.1 lepton 
+      rule rel(1,i,j,k)=(0,0,1/20,1/20) num rel=(0.0,0.0,0.05,0.05)  within-sector gap Delta E = 1/20  dominant block = offdiag (1,i)  abs-match PASS  num-minus-rule per channel {'1': 0.0, 'i': -0.0, 'j': -0.0, 'k': 0.0}
+alpha=2/5 p2=0.2 up     
+      rule rel(1,i,j,k)=(3/20,3/20,0,0) num rel=(zero,0.15,0.0,0.0)  within-sector gap Delta E = 3/20  dominant block = diag (j,k)  abs-match PASS  num-minus-rule per channel {'1': 'zero', 'i': -0.0, 'j': 0.0, 'k': -0.0}
+alpha=2/5 p2=0.2 down   
+      rule rel(1,i,j,k)=(0,0,1/20,1/20) num rel=(0.0,0.0,0.05,0.05)  within-sector gap Delta E = 1/20  dominant block = offdiag (1,i)  abs-match PASS  num-minus-rule per channel {'1': 0.0, 'i': -0.0, 'j': -0.0, 'k': 0.0}
+alpha=2/5 p2=0.2 lepton 
+      rule rel(1,i,j,k)=(0,0,1/20,1/20) num rel=(0.0,0.0,0.05,0.05)  within-sector gap Delta E = 1/20  dominant block = offdiag (1,i)  abs-match PASS  num-minus-rule per channel {'1': 0.0, 'i': -0.0, 'j': -0.0, 'k': 0.0}
+alpha=2/5 p2=0.3 up     
+      rule rel(1,i,j,k)=(3/20,3/20,0,0) num rel=(0.15,zero,0.0,0.0)  within-sector gap Delta E = 3/20  dominant block = diag (j,k)  abs-match PASS  num-minus-rule per channel {'1': -0.0, 'i': 'zero', 'j': -0.0, 'k': 0.0}
+alpha=2/5 p2=0.3 down   
+      rule rel(1,i,j,k)=(0,0,1/20,1/20) num rel=(0.0,0.0,0.05,0.05)  within-sector gap Delta E = 1/20  dominant block = offdiag (1,i)  abs-match PASS  num-minus-rule per channel {'1': -0.0, 'i': 0.0, 'j': 0.0, 'k': -0.0}
+alpha=2/5 p2=0.3 lepton 
+      rule rel(1,i,j,k)=(0,0,1/20,1/20) num rel=(0.0,0.0,0.05,0.05)  within-sector gap Delta E = 1/20  dominant block = offdiag (1,i)  abs-match PASS  num-minus-rule per channel {'1': -0.0, 'i': 0.0, 'j': 0.0, 'k': -0.0}
+alpha=2/5 p2=0.137 up     
+      rule rel(1,i,j,k)=(3/20,3/20,0,0) num rel=(0.15,0.15,0.0,0.0)  within-sector gap Delta E = 3/20  dominant block = diag (j,k)  abs-match PASS  num-minus-rule per channel {'1': 0.0, 'i': -0.0, 'j': 0.0, 'k': -0.0}
+alpha=2/5 p2=0.137 down   
+      rule rel(1,i,j,k)=(0,0,1/20,1/20) num rel=(0.0,0.0,0.05,0.05)  within-sector gap Delta E = 1/20  dominant block = offdiag (1,i)  abs-match PASS  num-minus-rule per channel {'1': 0.0, 'i': -0.0, 'j': -0.0, 'k': 0.0}
+alpha=2/5 p2=0.137 lepton 
+      rule rel(1,i,j,k)=(0,0,1/20,1/20) num rel=(0.0,0.0,0.05,0.05)  within-sector gap Delta E = 1/20  dominant block = offdiag (1,i)  abs-match PASS  num-minus-rule per channel {'1': 0.0, 'i': -0.0, 'j': -0.0, 'k': 0.0}
+alpha=1/5 p2=0.0 up     
+      rule rel(1,i,j,k)=(1/20,1/20,0,0) num rel=(zero,0.05,0.0,0.0)  within-sector gap Delta E = 1/20  dominant block = diag (j,k)  abs-match PASS  num-minus-rule per channel {'1': 'zero', 'i': -0.0, 'j': -0.0, 'k': 0.0}
+alpha=1/5 p2=0.0 down   
+      rule rel(1,i,j,k)=(0,0,1/20,1/20) num rel=(0.0,0.0,0.05,0.05)  within-sector gap Delta E = 1/20  dominant block = offdiag (1,i)  abs-match PASS  num-minus-rule per channel {'1': -0.0, 'i': 0.0, 'j': -0.0, 'k': 0.0}
+alpha=1/5 p2=0.0 lepton 
+      rule rel(1,i,j,k)=(0,0,1/20,1/20) num rel=(0.0,0.0,0.05,0.05)  within-sector gap Delta E = 1/20  dominant block = offdiag (1,i)  abs-match PASS  num-minus-rule per channel {'1': -0.0, 'i': 0.0, 'j': -0.0, 'k': 0.0}
+alpha=1/5 p2=0.1 up     
+      rule rel(1,i,j,k)=(1/20,1/20,0,0) num rel=(0.05,zero,0.0,0.0)  within-sector gap Delta E = 1/20  dominant block = diag (j,k)  abs-match PASS  num-minus-rule per channel {'1': -0.0, 'i': 'zero', 'j': 0.0, 'k': -0.0}
+alpha=1/5 p2=0.1 down   
+      rule rel(1,i,j,k)=(0,0,1/20,1/20) num rel=(0.0,0.0,0.05,0.05)  within-sector gap Delta E = 1/20  dominant block = offdiag (1,i)  abs-match PASS  num-minus-rule per channel {'1': -0.0, 'i': 0.0, 'j': 0.0, 'k': -0.0}
+alpha=1/5 p2=0.1 lepton 
+      rule rel(1,i,j,k)=(0,0,1/20,1/20) num rel=(0.0,0.0,0.05,0.05)  within-sector gap Delta E = 1/20  dominant block = offdiag (1,i)  abs-match PASS  num-minus-rule per channel {'1': -0.0, 'i': 0.0, 'j': 0.0, 'k': -0.0}
+alpha=1/5 p2=0.2 up     
+      rule rel(1,i,j,k)=(1/20,1/20,0,0) num rel=(zero,0.05,0.0,0.0)  within-sector gap Delta E = 1/20  dominant block = diag (j,k)  abs-match PASS  num-minus-rule per channel {'1': 'zero', 'i': -0.0, 'j': 0.0, 'k': -0.0}
+alpha=1/5 p2=0.2 down   
+      rule rel(1,i,j,k)=(0,0,1/20,1/20) num rel=(0.0,0.0,0.05,0.05)  within-sector gap Delta E = 1/20  dominant block = offdiag (1,i)  abs-match PASS  num-minus-rule per channel {'1': -0.0, 'i': 0.0, 'j': 0.0, 'k': -0.0}
+alpha=1/5 p2=0.2 lepton 
+      rule rel(1,i,j,k)=(0,0,1/20,1/20) num rel=(0.0,0.0,0.05,0.05)  within-sector gap Delta E = 1/20  dominant block = offdiag (1,i)  abs-match PASS  num-minus-rule per channel {'1': -0.0, 'i': 0.0, 'j': 0.0, 'k': -0.0}
+alpha=1/5 p2=0.3 up     
+      rule rel(1,i,j,k)=(1/20,1/20,0,0) num rel=(0.05,zero,0.0,0.0)  within-sector gap Delta E = 1/20  dominant block = diag (j,k)  abs-match PASS  num-minus-rule per channel {'1': -0.0, 'i': 'zero', 'j': -0.0, 'k': 0.0}
+alpha=1/5 p2=0.3 down   
+      rule rel(1,i,j,k)=(0,0,1/20,1/20) num rel=(0.0,0.0,0.05,0.05)  within-sector gap Delta E = 1/20  dominant block = offdiag (1,i)  abs-match PASS  num-minus-rule per channel {'1': 0.0, 'i': -0.0, 'j': -0.0, 'k': 0.0}
+alpha=1/5 p2=0.3 lepton 
+      rule rel(1,i,j,k)=(0,0,1/20,1/20) num rel=(0.0,0.0,0.05,0.05)  within-sector gap Delta E = 1/20  dominant block = offdiag (1,i)  abs-match PASS  num-minus-rule per channel {'1': 0.0, 'i': -0.0, 'j': -0.0, 'k': 0.0}
+alpha=1/5 p2=0.137 up     
+      rule rel(1,i,j,k)=(1/20,1/20,0,0) num rel=(0.05,0.05,0.0,0.0)  within-sector gap Delta E = 1/20  dominant block = diag (j,k)  abs-match PASS  num-minus-rule per channel {'1': -0.0, 'i': -0.0, 'j': 0.0, 'k': -0.0}
+alpha=1/5 p2=0.137 down   
+      rule rel(1,i,j,k)=(0,0,1/20,1/20) num rel=(0.0,0.0,0.05,0.05)  within-sector gap Delta E = 1/20  dominant block = offdiag (1,i)  abs-match PASS  num-minus-rule per channel {'1': -0.0, 'i': 0.0, 'j': 0.0, 'k': -0.0}
+alpha=1/5 p2=0.137 lepton 
+      rule rel(1,i,j,k)=(0,0,1/20,1/20) num rel=(0.0,0.0,0.05,0.05)  within-sector gap Delta E = 1/20  dominant block = offdiag (1,i)  abs-match PASS  num-minus-rule per channel {'1': 0.0, 'i': -0.0, 'j': 0.0, 'k': -0.0}
+rows 60  absolute exponents rule vs numeric: worst |dev| = 0.0  (values not printed)
+FAIL rows (absolute exponent off by > 2e-3): none

@@ -123,3 +123,5 @@ lifted for the weave's results generally. Every contact still goes through this 
 admissible pairing by kind (above), a prediction sealed before any data is read, the data's currency checked (B1063),
 the imported expectation stated separately, and the grade under THE_BAR — a match resting on the unearned dictionary
 (GENESIS FK11) or on a stated selection is a READING, not a derivation. Recorded at S90 (B1611's landing).
+
+> *2026-11-03 (S292; the owner's ruling on P-580; GENESIS v1.60, B1828): a match through an identification EARNED BY PREDICTION within its frame (GAP1's six conditions: fixed before, held out, PASSED by V, two at least, verified on main, scoped and revocable) is graded PREDICTED, not a READING. A match through an UNEARNED identification stays a READING.*

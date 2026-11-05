@@ -5,3 +5,4 @@
 b027f5de74d4bb86036afba8246d73966374118b4595f58d2fd080535274abef  frontier/B742_negatives_hunt_p1/PREREGISTRATION.md
 a905b9fe000c812bab1eb7d5145ab8c9117d0ff907baa6eab18118b73657eabc  frontier/B742_negatives_hunt_p1/FINDINGS.md
 86204be5c7ce6e81caea5e9bb13ab16d18ac7c17266952d6b9364d00a2309fd4  frontier/B742_negatives_hunt_p1/CAMPAIGN_LEDGER.md
+# sealed at 4860553a8: a905b9fe000c812bab1eb7d5145ab8c9117d0ff907baa6eab18118b73657eabc  frontier/B742_negatives_hunt_p1/FINDINGS.md (changed after banking at 318133e46 and eeef58ae4, text added only; FINDINGS.md's dated note of 2026-11-04)

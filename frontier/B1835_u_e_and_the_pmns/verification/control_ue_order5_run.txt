@@ -1,0 +1,8 @@
+seed 638 tau (0.31+2.9j) L 2.37: order-5 (24 lines) max|Y_e - c Y_d^T|/|Y_e| = 2.9e-15 ; max(1 - |<U_e^L, conj U_d^R>|) = 6.7e-16 ; order-10 control min = 3.81e-01
+seed 638 tau (0.31+2.9j) L 3.10: order-5 (24 lines) max|Y_e - c Y_d^T|/|Y_e| = 2.9e-15 ; max(1 - |<U_e^L, conj U_d^R>|) = 7.8e-16 ; order-10 control min = 4.04e-01
+seed 638 tau (0.12+3.2j) L 2.37: order-5 (24 lines) max|Y_e - c Y_d^T|/|Y_e| = 5.8e-15 ; max(1 - |<U_e^L, conj U_d^R>|) = 7.8e-16 ; order-10 control min = 3.32e-01
+seed 638 tau (0.12+3.2j) L 3.10: order-5 (24 lines) max|Y_e - c Y_d^T|/|Y_e| = 5.8e-15 ; max(1 - |<U_e^L, conj U_d^R>|) = 8.9e-16 ; order-10 control min = 3.46e-01
+seed 6380 tau (0.31+2.9j) L 2.37: order-5 (24 lines) max|Y_e - c Y_d^T|/|Y_e| = 2.5e-15 ; max(1 - |<U_e^L, conj U_d^R>|) = 7.8e-16 ; order-10 control min = 3.84e-01
+seed 6380 tau (0.31+2.9j) L 3.10: order-5 (24 lines) max|Y_e - c Y_d^T|/|Y_e| = 3.6e-15 ; max(1 - |<U_e^L, conj U_d^R>|) = 6.7e-16 ; order-10 control min = 4.01e-01
+seed 6380 tau (0.12+3.2j) L 2.37: order-5 (24 lines) max|Y_e - c Y_d^T|/|Y_e| = 6.9e-15 ; max(1 - |<U_e^L, conj U_d^R>|) = 6.7e-16 ; order-10 control min = 3.32e-01
+seed 6380 tau (0.12+3.2j) L 3.10: order-5 (24 lines) max|Y_e - c Y_d^T|/|Y_e| = 5.9e-15 ; max(1 - |<U_e^L, conj U_d^R>|) = 8.9e-16 ; order-10 control min = 3.46e-01

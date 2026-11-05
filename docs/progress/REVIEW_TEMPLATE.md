@@ -62,6 +62,10 @@ findings that way. The tools do not judge; everything below still has to be read
    - [>] RN-2: <carried item, restated> (carried from R(N-1)-4)
    ```
 
+   **The ranked leads become action items (the owner's ruling of 2026-11-04 on P-659, M5).** Every direction-changing
+   lead the review ranks for the owner is entered here as an action item with its first step, so the carry-age rule fires
+   on it; a lead the review ranks but does not carry is declined in the same block with its reason.
+
 ## OPTIONAL enrichments (any subset; declare which ran)
 
 - **Methodology delta** — a standing-rule proposal distilled from the

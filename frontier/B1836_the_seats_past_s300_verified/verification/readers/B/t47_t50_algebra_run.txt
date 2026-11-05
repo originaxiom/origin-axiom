@@ -1,0 +1,12 @@
+T47  Q2(lepton) = (-3)^2 + 6^2 = 45 ; 1/Q2 = 1/45
+     midpoint (1/42 + 1/45)/2 = 29/1260  (the lane's unmasked l. 8891: 29/1260)
+     eps_KK = (alpha_12/4pi) ln(M_x^2/M_12^2) with alpha_12^-1 = N Vol, ln(M/M_Z) = k pi Vol:  eps = (-k_12 + k_x)/(2*N)  -> Vol cancels for ANY integers; eps is a ratio of the chosen integers
+
+T48  Z3 projectors idempotent (err 4.1e-16), sum = I (err 3.9e-16); rho = a Pi_0 + b Pi_1 has eigenvalues {0, a, b} for random a, b: max err 3.3e-16 -> the 'weighting' returned is the weighting typed in
+
+T49  C_F I_3 = sum (lambda/2)^2: C_F = 1.333333333333333 (4/3); Gauss-Legendre of a constant integrand is exact for any node count (trivial); B-L: (Tr(Pi_q T)/3)/Tr(Pi_l T) = -1/3 (textbook 126 Clebsch -3, inverted)
+
+T50  Vol(m004): 2 Cl2(pi/3) = 2.029883212819307250042405 ; trigamma form - it = 4.6e-41; 3 Cl2(2pi/3) - it = 0.0e+00
+     C_QCD = 3 (17 + 5) = 66 ; 4 pi C = 264 pi ; 2 pi C = 132 pi
+     main's T-THETA-Y-BSTEP: arg det Y_s steps by 12 pi p1 Q2 (Q2 = 17 up, 5 down) -> theta_Y by 264 pi p1 ; P-323's T-step -132 pi a^2 - pi/2: the same numbers (4 pi C = 12 pi (17+5), 2 pi C = 132)
+     FORCED-09's eta^3 T-multiplier: eta(t+1)^3 / eta(t)^3 = e^{i pi/4}: err 4.1e-41

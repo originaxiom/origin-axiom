@@ -54,3 +54,5 @@ B1741 (the Standard Model's reading at value level for the six). **Literature:**
 - `verification/sm_reading_check.py` → `sm_reading_check.json`, `sm_reading_check_run.txt` (first run in the audit room,
   `audit/verify_p360/`, and rerun here byte-identically).
 - The lock: `tests/test_b1747_the_reading_test_verified_on_main.py`.
+
+> *Dated note 2026-11-04 (Review 74; the web seat's T-NORM relay of 2026-10-30, § 4, verified by main: this page carried no H = I scope):* every FR-FIB output here is computed with the generations' metric H = I, implicit in B1656's coupling: a CHOSEN input (B1822 — the flat structure leaves 8 real parameters per field after the scale, and the outputs move with H). Whether a conclusion holds at another H is not computed here.*

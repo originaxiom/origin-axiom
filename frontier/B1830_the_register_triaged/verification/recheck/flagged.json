@@ -1,0 +1,425 @@
+{
+ "P-477": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load550"
+  ],
+  "text": "THERMAL CLOCKS (reader A, unverified): each measure's own modular flow is its counting rule — Minkowski's measure scales by exactly ½ per move (a candidate type III_½ flow), Lebesgue measure's flow is geometric length (type III₁); this would tie the clock to B716, B721, B723 and B850's thermal-time lineage",
+  "where": "[LEAD] Q7 (with P-439): verify at source (Connes–Rovelli; the type classification of the boundary actions) before any use"
+ },
+ "P-291": {
+  "type": "PROCESS",
+  "disp": "QUEUED",
+  "flags": [
+   "load426",
+   "found+key"
+  ],
+  "text": "the owner's ask of 2026-10-22: a math-integrity maintenance check, in the family of the gates and reviews — load-bearing math preserved and bug-free, every newest arc covered, no load-bearing result excluded. The cases of 2026-10-22 that no gate caught: B1703's protection read beyond its leading order (B1711, B1712), HARVEST_LEDGER row 1273 overstating B1678's checks, B1701's law computed and not derived, B805's lock fragile. Designed after the targeted sweep of B1720's chain (three audits: the frame's core code, the day's math, the reliance chain); built as an arc with a gate, a failing-path test and a GATE_CONTROLS row [S188, what the targeted sweep found: B1720's draft control would have failed spuriously (an end radius read at the wrong scale, a q-series past its range, noise ratios); the forcing builder's B\\d{2,3} blind spot; B1712, B1713, B1716's \"nowhere else\" claims checked on a whole-grid or generic-τ criterion that hid a Re τ = 0 family (RETRACTIONS row 44); B1717's irreducibility inferred from a commutant on a non-semisimple action; B1718's coverage scale a grid artefact; GENESIS v1.53's three overreaches. Lessons for the design: claims of absence need the per-point criterion; checks must sample the special loci (CP lines, symmetric points); a referee pass on each day's claims caught what the locks could not]",
+  "where": "[PROCESS] Q3 (after P-284)"
+ },
+ "P-415": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load416"
+  ],
+  "text": "the owner (2026-10-28): \"is it possible that the reality finally emerges as the interaction of what's allowed on all towers, instead of the thread going through one of them … they provide each other with what they lack when alone\". The WEAVE rule carried across the gauge chain SU(5) ⊂ SO(10) ⊂ E₆: in geometric unification the group lives on Q, matter where the singularity enhances (SU(6): 5; SO(10): 10; Acharya–Witten's conical points), Yukawas where it enhances further (E₆: up-type; SO(12): down-type), and SO(10)'s centre can give matter parity (P-414); a single enhancement point gives a rank-one Yukawa, the same wall as B1653's rank ≤ 2 at a point, lifted there by several points and the corrections around them (Heckman–Vafa's ε ~ √α_GUT, to be read at source). A breakthrough only if the object fixes where and how the towers meet (the E₆ cascade B727, the fillings' four fixed points B1803, the cusp); otherwise a bigger menu. Order: count the frame's free data first (P-407 (1)); P-414; then whether forced meeting points give a hierarchy tied to an invariant",
+  "where": "[LEAD] Q1 (with P-414, P-406, P-403) [2026-10-28 (S237): a correction to this row — B727 is NEGATIVE: 'E₆ across three faces' is forced by the ADE classification, so it is generic, not the object's; only π₁(m004) ↠ 2T is object-specific. The towers' meeting places are therefore not yet supplied by the object; the row's test stands] [2026-10-28 (S238, harvest row 1464): THE TWO W's — B1802's W runs along the base and leaves the frame's fibre line trivial; no flat SU(5) bundle on the figure-eight complement gives the frame's SU(5)-breaking fibre line; the counted class's b-holonomy (centre × diag(1,1,1,−1,−1)) and B1802's W are the same parity in form but on different cycles. P-424] [2026-10-29 (S240, B1805): the first worked test of the towers question fails in Witten's G₂ frame — SU(5) keeps the mechanism and lacks the parity, Spin(10) has the parity (above the U(1)_X scale) and loses the mechanism; the question stays open in other frames] [2026-10-29 (S253): B1812 (NEGATIVE in F-theory's 7-brane frame): the genesis word's class is DHIZ's E_10, whose nested subconfigurations carry the whole chain su(3)⊕su(2) ⊂ … ⊂ E₈ ⊂ E₁₀, but su(3)⊕su(2) and su(5) are hyperbolic of negative trace and cannot collapse — not gauge symmetries at a point; only so(10)–E₈ can be towers meeting at loci; the object fixes the total class, not the positions. Open: a global model with the SM inside a collapsible subcluster broken by flux] [2026-10-29 (S256): the SM seat's desk draws the towers as rungs against frames with verdicts copied from B727, B1805, B1812 (harvest row 1474), and offers a frame × rung × verdict table in this row as a format: adopted as the form P-415's verdicts take when it next moves] [2026-10-30 (S264, Review 73): B1812 narrowed (its reader's finding; main's own check, committed in the arc). Inside the object's class configuration A⁹BCC, A⁵ ⊂ A⁵BC ⊂ A⁵BCC collapse (I₅ ⊂ I₁* ⊂ IV*): SU(5) ⊂ SO(10) ⊂ E₆ CAN meet at a point in the 7-brane frame, and the SM's algebra can sit at points as A-brane stacks, so the open item 'the SM inside a collapsible subcluster' is realised inside the object's class. The object allows the meeting and does not select it (positions are moduli): by this row's criterion a bigger menu, not a breakthrough; the dynamics that would select it is P-466's]"
+ },
+ "P-425": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load412"
+  ],
+  "text": "CM BY THE OBJECT'S OWN COMPOSITUM? (B1804's holomorphic frame, SPECULATION until computed): LR acting holomorphically on abelian surfaces with real multiplication by ℤ[φ] (a Hilbert modular surface for ℚ(√5)) has LR-invariant (1,1) fluxes forcing isolated quartic CM points, chosen by flux integers; one has CM by K = ℚ(√5, √−3), the compositum of the record's forced quadratic fields (B730). Does requiring CM by K (or its maximal order) cut the flux freedom to a finite, class-number-sized set? Then: (a) count those CM points (PARI: class group of K, CM types); (b) which LR-invariant flux pairs force them (r7 extended); (c) the Kähler obstruction (no LR-invariant Kähler class in this frame: a non-flat or non-Kähler frame?); (d) what couplings would live there. Frame card and count first (P-407 (1)); values at CM points are arithmetic (Chowla–Selberg), so seal before any comparison. FIRST COMPUTATION (S239, cypari, audit/drafts/s239_p419/): K = ℚ(√5, √−3) = ℚ(√−3, √−15) has class number 1 (polredabs x⁴ − x³ + 2x² + x + 1, disc 225); biquadratic, so every CM type is induced from ℚ(√−3) or ℚ(√−15) and an abelian surface with CM by O_K is isogenous to E × E — E with CM by ℤ[ω] (τ = ω, retired as a value) or of discriminant −15 (τ = (1 + √−15)/2 or (1 + √−15)/4, Im τ ≈ 1.94, 0.97; h(−15) = 2 and j ∈ ℚ(√5), since ℚ(√−15)'s Hilbert class field is K). CORRECTED BEFORE LANDING (the seen-first sweep, run late): that ℚ(√−15)'s Hilbert class field is ℚ(√5, √−3) is BANKED (B334), and B336 (NEGATIVE) finds √−15 unreachable by the monodromy and commensurator routes; so requiring CM by K is itself a CHOICE unless something forces it — the first reading's 'a finite set of points with no free integers' is withdrawn (it trades the flux integers for the choice of K). The live question: does B1804's flux route reach √−15 where B336's routes did not, and does any condition force d = 3 among the CM fields it produces? Seen first: B333, B334, B336, B401, B414, B420, B730; to verify (the CM-type claim, the point count) and to seal before any value is read",
+  "where": "[LEAD] Q1 (with P-419, P-415, P-406) [2026-10-29 (S250): B1808's referee: B1804's ℚ(√5, √−3) point (NS = A₂(−1)) lies on the three-generation curves (A₂(−1) holds three pairs of norm −6 vectors) — one of infinitely many such points, not a selection] [2026-10-29 (S256): the web seat's THE INTEGERS (harvest row 1472): the shortest route to an integer-fixed τ is this frame; the seat offers to write the sealed comparison at the points if the CM condition makes them finite, the Higgs direction ranged over in the null, before any value is computed — offer recorded, to be taken up when the menu is fixed] [2026-10-29 (S256): the web seat's TWO THREE-GENERATION FLUXES (harvest row 1473, VERIFIED by main's recount): in B1804's frame, two classes with ∣χ∣ = 3 leave five NS classes in four CM fields ℚ(√5, √−d), d = 2, 3, 7, 11; the flux route reaches √−15 only at A₂(−1); no condition on record forces d = 3]"
+ },
+ "P-331": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load408"
+  ],
+  "text": "L161 Phase 1b (the owner's aperiodic crossing campaign): on one order-5 line, does B1656's coupling carry the θ-odd 2I doublet that carries the tones (B665)? A silver line the control; data-free, minutes. The golden thread's own lines are exactly the order-5 lines, but order 5 is not golden-specific (B997's handle into P-312's seal as control cells) (the parked-items sweep, P-313; audit/drafts/leads_reeval/, merged in QUEUE.md)",
+  "where": "[LEAD] Q3"
+ },
+ "P-322": {
+  "type": "PROCESS",
+  "disp": "QUEUED",
+  "flags": [
+   "load408",
+   "found+key",
+   "integrity"
+  ],
+  "text": "tooling and record debts the sweep found: the atlas guesses status from keywords (578 of 1458 disagree with the verdicts) — make it read arc_verdict.json; `query.py card` ignores its argument; the verdict gate misses 18 digest-read arcs; a REVIVABLE view over the kill graph's ~214 unwalked hatches (L195); a homonym table in topic_sweep (L214); collection 28 s → ~8 s (L184); already_banked.py does not read the paper; the slow lane has not run in 12 reviews and no gate checks it (B1207); CANNOT_RUN is 189 of 398, not 139 (vendor the codex certificates R020–R022); B841's 167 untriaged negatives (re-run its rubric and store the output); LEAD_REGISTER's table to a generated view; the five living documents (L232); the chain rule lapsed since B1454 (B758); B1177's four dangling B792 paths; 39 directories with no findings document (the parked-items sweep, P-313; audit/drafts/leads_reeval/, merged in QUEUE.md)",
+  "where": "[PROCESS] Q3 **Done in S196:** B1725's received census (sha256 f379a4b8; read by B1725's lock and B1726's and B1732's controls) was gitignored and failed on a fresh clone; now tracked through a one-file exception."
+ },
+ "P-177": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load395"
+  ],
+  "text": "the owner's view (2026-10-15, \"pay attention to what i said\"): \"pure existence is only laws and structure, reality we observe is not pure exisfence, is exisfence dependent on time\"; the structure beneath the quantum world is \"either forced, chosen, selected by relations or when binary choices, both can be true if both are allowed to happen, then our reality is either one of the sides, or both's interactions\"; and the question whether the field pushes back on the seed, \"trying to preserve momentum\", back and forth, to give rise to reality. Main's reading (firewalled): the field-stage negatives are static snapshots (structure without time); B990 with B1657 says a static selection sits on the symmetric point with zero defects, so the sizes may be set by motion, not rest — the thread frame is the frame where τ moves; FK12's ordered word is existence in time, the manifold forgets it. The owner agreed the speculation-to-calculation table: (1) the up quarks see the other side of one Higgs (H̃, as in the SM), the joint census with S̃ or S̄ for up; (2) CP from both isotropic vacua's interaction, aS₀ + bS̄₀, under P4 (under P4′ every first generation is massless and J = 0 identically); (3) the field pushes back, the joint potential in τ and the Higgs (P-132); (4) sizes from motion, the thread frame with the per-field units (W92); (5) both undecided moves allowed, W1–W4 on the enlarged thread set. [2026-10-15, main's exploration of (5), unsealed: every odd-trace word to length 6 carries 2T with or without one swap and with or without the sign (380 words); the triplet is robust to both binaries, A₄ stays A₄ (main's hand expectation of S₄ refuted by the computation); the even-trace words without τ in 2T reach 2O with image Q₁₆] [2026-10-15, later the same evening, the owner's further passages (verbatim in speculations/S_THE_PUSH_BACK.md §0): \"maybe every step of our forced principle is existence trying to exist, while inexistence pushes back trying not to. the interaction is the reality\"; \"basically the principle of a ab ba existence … should hapen in relationship, against the oposing force which tries to suck that step back, but the principle itself once started it cant land to perfect balance ever\"; \"for the first time i feel like i havent left smth out since program start\"; the owner agreed (\"agreed\") to record them and to draft them as one firewalled passage, a candidate for FK15's \"which\": speculations/S_THE_PUSH_BACK.md (the pull-back = the inverse moves; ω fixed by L⁻¹R, a step and its pull-back, where D vanishes; every positive word hyperbolic; the symmetric walk transient by non-amenability; a reading agent's zero/lift table corrected main: the forced core is structure, each lift costs one datum)] [2026-10-16, item (3) answered from the record: the static push-back (W67, verified for R) lands on ω or runs to the cusp, the two zeros of f(τ), with no hierarchy — what the owner's \"never lands in balance\" predicts for a static rule (a reading); the sizes must come from motion or from beyond the minimal reading]",
+  "where": "[LEAD] Q3 (with P-168; items in the order of the table) ESCALATED(2026-10-28: items 1, 3, 4 answered (B1660, the row's 2026-10-16 note, B1720, B1722, B1734); open: item 2 (CP from the two vacua; fold into P-277/C7) and item 5 (seal the enlarged-thread-set census or decline it with a dated reason))"
+ },
+ "P-139": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load395",
+   "found+key"
+  ],
+  "text": "the selection principle (GENESIS FK9, \"Selection: what makes a state physical\", OPEN), named by main at the owner's question (\"do we still miss any crucial conceptual ingredient, or is it all about sewing it together\"): every \"which\" on the record comes out free (τ, the Higgs direction B1646, the Higgs location B1651, the vacuum), and by B990's law an invariant construction picks only its symmetric points [scoped since, GENESIS v1.46: B990's law concerns the orbit of one point; B1655's minima are an exception, with chosen coefficients], none of which gives a hierarchy (τ = ω, the cusp, the democratic direction, the real locus); so the parent needs a dynamics that lands at a computable non-symmetric point. Secondary gaps: the electroweak group's origin in the parent (P-140), a physical normalisation and scale (P-134). The owner assigned the selection principle to the web seat (2026-10-14: \"so it serves us as insight when time to deal with it comes\"); main does not duplicate it, harvests it as insight and verifies before banking. Main's recommendation: selection as an explicit demand of the parent, first tested at Step 5 (P-132), the action-weighted measure e^{−c·Vol/6π} (the web seat's root-share check) as the first candidate, sealed first [2026-10-14, chat1's report (CHAT1_TO_CC_2026-10-14_THE_SELECTION_PRINCIPLE): not found; relocated to 'which thread'. Under H-thread the hierarchy is fixed within a vacuum, but the action selects only at large c, where it picks the root, which has no hierarchy; the one-number Lagrange law is withdrawn beyond length 8; the weave cannot choose a CP sign (word reversal). Main's Step 5 (P-132) inherits 'which thread' (B1652's F5)]",
+  "where": "[LEAD] Q3 (after THE FRAME TRIBUNAL; the web seat's insight harvested first)"
+ },
+ "P-143": {
+  "type": "PROCESS",
+  "disp": "QUEUED",
+  "flags": [
+   "load357"
+  ],
+  "text": "the full suite's runtime has grown to about 4 hours (S124: 3 h 59 min for 7310 tests; once about 27 minutes), which delays every landing and every relay by that long; check which tests dominate and whether the suite is safe to run in parallel (tests that write tracked files, the lane survey), then decide (owner's priorities) [2026-10-15, S126's --durations=40: the slowest are B618's conductor test 590 s (a subprocess with a 1 h timeout), B532's period-3 slopes 266 s, B1293's harvest reproduction 138 s, B371 119 s, review_tools 111 s; the full suite 1 h 43 min for 7383 tests] [2026-10-15, the owner: \"are these suites necessary this often? arenthey slowing the progres unnecesarly?\" — main's answer with data: the last three suite failures were governance or ledger checks a 10–13 min targeted run catches; the 40 slowest tests take 52 of 103 min and re-verify unchanged arcs; the repo already has the qualified parallel runner (B1018; to re-qualify on 16 cores), --changed and the slow lane. Proposed: a landing suite (gates, governance and the changed tests, about 15 min, labelled as such) at each landing; the full suite at reviews, before outside sends and on shared-code or environment changes; the slowest re-verifications to the slow lane. Awaiting the owner's decision] [2026-10-15, S130: the owner's ruling, \"YES\" to main's proposal: each landing runs the landing suite (the gates, the governance and claim tests, and the changed arcs' tests, about 15 minutes), labelled as such in the logs; the full suite runs at reviews, before outside sends, and on shared-code or environment changes. Open: re-qualify the parallel runner on this machine, and move the slowest re-verification tests to the slow lane] [2026-10-15, S132-S133: the parallel runner re-qualified at the owner's approval: the 148-file landing set, serial 2195 passed, 0 failed, 5 skipped in 29:33; with -n 8 the same 2195/0/5 in 19:44; landings now run it with -n 8. Open: the slowest re-verifications (lane-history scans dominate the tail) to the slow lane or a cache, a shared-code change left for Review 64]",
+  "where": "[PROCESS] Q5"
+ },
+ "P-330": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load314"
+  ],
+  "text": "C10 on m004 (L177, L174): B940 recorded a Dirac kernel candidate of dimension exactly 2 that its seal excluded (open obligation O2); seal O2 with B940's instrument (about 50 min per run), then the ρ_T twist — a non-zero kernel would be the first count read on a physical 4d spacetime; L174's 3+1 Milne completion (verify W126; the line census on the cusped threads) (the parked-items sweep, P-313; audit/drafts/leads_reeval/, merged in QUEUE.md)",
+  "where": "[LEAD] Q3 [2026-10-30 (S274): C10's limit (P-289's S274 line) applies. B940's instrument's ± check rested on B933 § 5a, which is not a theorem: J commutes with D (Kramers doubling, not λ ↔ −λ; dated notes on B933 and B940). The ± pairing's source is P-540, to be settled before this seal]"
+ },
+ "P-464": {
+  "type": "PROCESS",
+  "disp": "QUEUED",
+  "flags": [
+   "load297"
+  ],
+  "text": "Phase 0's D7 (P-420): 171 relations recorded only in prose in 96 arcs' claim lines (retract, refute, supersede, correct or withdraw, naming another arc with no field linking them; B288 ← B1419 among them)",
+  "where": "[PROCESS] Q2 (with P-420): read each; where the relation is real add the field (supersedes, superseded_by) or a dated note; record the false positives so the validator stops listing them"
+ },
+ "P-428": {
+  "type": "PROCESS",
+  "disp": "QUEUED",
+  "flags": [
+   "load236",
+   "found+key"
+  ],
+  "text": "R71-5's CELLS (its third carry, moved here by Review 72), with main's own drafts of 2026-10-23 (audit/drafts/leads_reeval/) as proposals TO CONFIRM, not accepted: L240 (f) proposed ANSWERED (GENESIS no longer cites R58; B1457, B1459, B1619); L242's two counts (B1447's sixteen zeros; m202's '12 up to Aut') proposed RETIRED (B1604 demotes the class index; nothing depends); L243 (d) proposed RETIRED as a route to three (the excision argument, to be written into the lead); L240 (c) proposed merged into P-092. Open as rows: L239 (c) (sm:B1384's two theorems — naturality on a free orbit, generated closure); L243 (c) (the audit lane's R79, read by main); R77's join (answer or decline in the relay ledger). L239 (a) is P-321",
+  "where": "[PROCESS] Q2 (with P-321, P-092)"
+ },
+ "P-326": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load178"
+  ],
+  "text": "ν^c's Majorana mass as a modular form (L221 (d)): B1674 requires ν^c and B1616 forbids a constant mass; such forms exist only at odd weights, the weight-3 form unique up to scale in one hand; then the seesaw's cusp exponents (any oscillation comparison sealed) (the parked-items sweep, P-313; audit/drafts/leads_reeval/, merged in QUEUE.md)",
+  "where": "[LEAD] Q3"
+ },
+ "P-549": {
+  "type": "PROCESS",
+  "disp": "QUEUED",
+  "flags": [
+   "load169"
+  ],
+  "text": "EIGHT RELAYS OF 2026-10-09 TO THE SM SEAT AND CODEX WENT STALE AT MIDNIGHT (the relay-debt gate's 21 days; found by S277's suite): B1625, B1626, B1628, B1629, B1630-B1631, B1632, B1634 and B1635-B1636's relays, several with asks no harvested reply has matched; each row now carries ESCALATED(2026-10-31) with this action; one row's note carried raw pipes (an absolute value) that hid its marker from the gate, set as ∣",
+  "where": "[PROCESS] Q1: main's next relay to the SM seat lists the eight relays' asks and asks which stand; Review 74 closes or declines each"
+ },
+ "P-562": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load128"
+  ],
+  "text": "THE HIGGS's OWN HYPERCHARGE TWIST (the agy lane's framing, its full-audit and elevation relays read in full, S288): FR-FIB's Higgs directions are modular forms of tau alone, with no identity channel, while the Higgs carries 6Y = 3; the lane argues the Higgs section should carry its twist, which would give a nonzero identity component theta_1-type at the twist with no free number and break the lock of B1739/B1826. The record's own 4D statements (B1649, B1659: every S in span(1, i, j, k)) and B1644's choice of the adjoint are the context; whether the internal direction should be twisted is undecided",
+  "where": "[LEAD] Q1: decide from B1656's and B1642's construction whether the Higgs's internal direction carries the line's twist; if it does, compute the twisted direction and test the lock data-free before any card **S289, CORRECTED:** largely answered before it was raised -- B1744 (THE HIGGS'S OWN TWIST, P-324) computed the residue quaternion at the Higgs's twist: EVEN (H_u = H_d), null in four dimensions (det Y = 0 with the scalar kept), chi2_nine >= 493 as a Higgs; main's expectation of opposite signs (theta_1 odd) was wrong (the identity channel is part of a bilinear in which both legs carry the twist). Untested: the twisted Serre derivative in the four-channel frame (even, so a same-sign singlet, a class that does nothing for the corners). The sector-odd class is P-566"
+ },
+ "P-422": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load121"
+  ],
+  "text": "GAUGE THE FIBRE'S INVOLUTION ON THE LINES? (the web seat's selector, harvest row 1460): the one rule that would select the counted class — each holonomy's square central (10a, 10b ∈ ℤ) with SU(5) broken admits on slope 2/5 exactly the odd tenths, the b-holonomy a central element times diag(1,1,1,−1,−1) (Kawamura's orbifold parity); the record has no such rule (B1651's P1 is a parity premise on the Higgs, not on the line). Is there a reason, in the object or the field, to gauge it? A design question first; the SM seat's W176: no condition the weave forces on the line selects a class within an order",
+  "where": "[LEAD] Q2 (with P-411, P-406)"
+ },
+ "P-337": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load113"
+  ],
+  "text": "the zero law (L242, with P-292, P-268, P-262): B1656's four channels are the fibre's four spin structures, c_s = c(3w + h_s); every exact zero is isotropy plus the involution or the rectangular mirror, D = (A − B)(R_p² + R_q²); prove with B1716's instrument (under one arc). P-292's wording needs 'and 12β odd' (16 zero lines, not 32) (the parked-items sweep, P-313; audit/drafts/leads_reeval/, merged in QUEUE.md)",
+  "where": "[LEAD] Q3"
+ },
+ "P-402": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load104"
+  ],
+  "text": "the horocycle is a counted discrete input with no row (the register sweep, S230): the six's best rows sit on L_max and the nine's one-Higgs optimum on L₂ (MAINS_PLAN step 5, \"named, not yet planned\"); B1667 fixes L at order one but \"does not prove that a physical end selects either rule\" (the audit lane's end-law scope, rows 1255 and 1273); W75's residue norm e^(−d)/(4π) at depth d names no depth; P-266 (a third radius) was declined. Main's task: state what, in the object or the field, could select L_max or L₂ (the end's own geometry; FK10's unit; the APS end term of B1794), or record the horocycle as an input in the ledger with its fitting work disclosed",
+  "where": "[LEAD] Q1 (with P-401's end route: the end is where any integer or radius rule must come from) [2026-10-28 (S232; row 1444): the web seat sealed THE HOROCYCLE AND THE HEIGHT (rule 1dd36cfba, script 5832fde1d; main's plan step 5, at the owner's word) — its decisive H2 asks whether a shift of τ absorbs the L_max-to-L₂ switch; run pending; P-323's H2 (the horocycle enters θ̄ on 95.2% of pairs) and W168 (the horocycle moves θ_H) point the same way] [2026-10-28 (S236, harvest row 1455): the web seat's result — selected by the data, not absorbed by τ: within the window no shift of τ turns L₂'s six into L_max's (H2 NOT ABSORBED); least χ²_six 2.41 at L_max against 30.6 at L₂ on the 30 lines of orders 25 and 30; in the down and lepton sectors it acts on m₁/m₂ against m₂/m₃; what could select a horocycle stays this row's question] [2026-10-28 (S238, harvest row 1459): the end's scale is now P-421 — L_max's geometric ground is lost (the small-cut formula at its height)]"
+ },
+ "P-465": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load101"
+  ],
+  "text": "THE PRINCIPLE AS THE SELECTION (the owner, 2026-10-29: could the selection principle that chooses our world be the initial a → ab, b → a principle itself?): iterated as a history, the principle is the golden thread — every run 1 or 2 (pure LR every run 1), Markov's minimum, apex at Im τ = √5/2, never above Im τ ≈ 2 — so the principle followed literally never reaches the cusp, where the frame's deep hierarchies live; a reading: the principle sets the ground path (the symmetric phase, L244) and a world's hierarchies measure how far its history departs from it (every run longer than 1 is a departure), so the question becomes what drives the departures. (Main's first answer quoted m₂/m₃ ≈ 0.6 on the golden path by extrapolating B1691's cusp law below its validity, Im τ ≥ 2: withdrawn; the frame's values there are to be computed)",
+  "where": "[LEAD] Q1 (with P-437, P-438): the frame along the principle's own history, data-free; the departure statistics (runs longer than 1) of the two clocks' histories [2026-10-29 (S257, the briefing): computed (audit room, data-free): along LR's axis in today's frame m₂/m₃ is 0.5–0.8 (the zero line: all sectors alike; LR's own order-5 pair: up split from down, down = leptons, the pair identical along the path); B1636 had the golden spectrum exactly in its frame: the principle followed literally gives no hierarchy in either frame]"
+ },
+ "P-269": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load89"
+  ],
+  "text": "the SM seat's gravity line (its relays 202–205, the owner's task of 2026-10-22 as the seat reports it): verify W122 on main (the least closed universe filled from the record's threads is the Weeks manifold, m003(−3, 1), from −LR; Meyerhoff next, from ±LR; 3024 fillings, 2668 certified) by re-running its script; read the gravity page's READING of the hand (holomorphic 4d gravity needs a choice of which move is a string; the mirror exchanges the choices) against the owner's ruling that the hand is a naming convention; read W123 (the Higgs route to the cusp's unit: per-line end data, the least that makes room for a Higgs, and its chiral count; it bears on FK10 and B1700) and W124 (the graviton spectrum on Weeks and Meyerhoff) when their runs land",
+  "where": "[LEAD] Q8 — W122 verified on main (B1719, S185); the gravity page's hand READING read against the owner's ruling (agrees: the hand a naming convention); W123 and W124 owed when their runs land"
+ },
+ "P-523": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load64"
+  ],
+  "text": "THE VACUITY CALIBRATION AND THE CONTROLS (the pre-seal review, B2 and its controls): on the real census with the record's allowances, every criterion must be shown able to fail given support; the decisive positive control is planted worlds off the grid, stratified by reading; also the CKM leg's size on worlds where the CKM is unrelated to the six's address, a held-out calibration of the null, E20 negative controls (FN populations, permuted frames, anarchy), the DR slice reproducing B1726's census, the c-choosing null's calibration, area against WP, range sensitivity",
+  "where": "[LEAD] Q1 (with P-495, before the seal): data-free runs through committed scripts that output aggregates only, disclosed on the card"
+ },
+ "P-345": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load64"
+  ],
+  "text": "what gives the nine (B1739's consequence): with the record's Higgs nearly null at hierarchy τ, the Standard Model's reading makes ∣V_ud∣ ∝ r^½ ≈ 0.1. Two routes: (a) a Higgs led at the cusp by ρ(T)'s non-null eigenline e_i (the θ₂-type component), which no Higgs on record is — does PF1-W, H-cov or any zero-free condition admit one, and does it keep the six's hierarchy?; (b) a reading rule other than S̃/S that still gives the six (P-295) with aligned light states. Data-free first (the reality and the light-state overlaps); any data comparison sealed with the precision cells (P-341) [2026-10-23, post hoc on B1726's committed rows (B1735's instruments), labelled: two basins on the same line (2/5, 1/10). (A) the Standard Model's reading S̃/S/S at L_max, Im τ 3.05: χ²_six 3.1 but ∣V_ud∣ 0.11; (B) the uniform reading S̃/S̃/S̃ at L₂, 0.55 + 2.65i: χ²_six 22.4 (the six within 0.81–1.43), ∣V_ud∣ 0.99, the CKM moduli within a factor 2 (0.54, 0.49, 0.87 of the data), χ²_nine 110, J 15 times small. The uniform reading is what two doublets give when H_d's direction is the conjugate of H_u's (cf. the web seat's sealed TWO_HIGGS, unread under B1740's pledge); (B) on a finer τ near L₂'s Im τ ≈ 2.65–2.7 is the place to seal next] [2026-10-23, the trade-off frontier on B1726's committed rows (labelled, post hoc): every row with χ²_six < 16.75 has the Standard Model's reading and a CKM wrong by about 24 times (the best: (2/5, 1/10), 0.2 + 2.95i, χ²_six 16.6, χ²_CKM 1 194); loosening to χ²_six < 25 the best mixing is the uniform reading at L₂ (0.55 + 2.65i, χ²_six 22.4, CKM within a factor 2.03, χ²_CKM 87). With ∂R no row has both: the nine need another Higgs (B1740's F₋₂, sealed) or another reading rule. Structurally (B1736, B1739): holomorphic sections at the band all lead with the null eigenline (0, 1, i), so a second holomorphic direction alone cannot align conj(h) with h; a non-null direction or a uniform reading can] [2026-10-23, S202: route (a) answered NEGATIVE by B1740 (sealed): F₋₂, led by e₁, aligns the light generation (median ∣V_ud∣ 0.996) but loses the hierarchy (the best six off by 132): the dichotomy is sealed. Route (b)'s two-doublet form, TWO_HIGGS (verified on main, B1742), keeps hierarchy and alignment with the mixing too small (∣V_us∣ 0.19 of measured). The free-direction optimum between the two eigenlines is P-352]",
+  "where": "[LEAD] Q3 (with P-295, P-303, P-316) [2026-10-28 (S236, harvest row 1456): the split reading's cyclic V confirmed on B1786's 60 out-of-sample rows] [2026-10-29 (S242, B1739's dated note): '∝ r^½' is the median's slope only (quantile slopes 1.24, 1.14, 0.52, 0.22) — unearned as a law]"
+ },
+ "P-329": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load64"
+  ],
+  "text": "B1726 at the unification scale (the OPEN O4 reader): its seal names no scale and the Georgi–Jarlskog 3 belongs at the GUT scale; re-run its comparison on its existing census against GUT-scale ratios (needs a seal; one transcription); before P-294 (the parked-items sweep, P-313; audit/drafts/leads_reeval/, merged in QUEUE.md)",
+  "where": "[LEAD] Q3"
+ },
+ "P-323": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load64"
+  ],
+  "text": "θ̄ in the mass frame (L192): in B1726's six-row reading the Higgs part of arg det(Y_u Y_d) cancels exactly but the total is not CP-even (0.177π at the best row, varying with Re τ); which (reading, Higgs, line) makes it identically 0 or π with J ≠ 0? Data-free; feeds P-277, P-267, I-18 (the parked-items sweep, P-313; audit/drafts/leads_reeval/, merged in QUEUE.md)",
+  "where": "[LEAD] Q3 [2026-10-27 (row 1411): the web seat's e20 (data-free): the Higgs phase cancels in the split reading; P-323's number at B1726's best six-row; the T-law's shift of arg det(Y_u Y_d) on the (2/5, k/10) lines] [2026-10-27 (row 1414): handed to the web seat at its offer, as its own reduction path beside main's plan (main's plan defers θ; the owner may override); the seat's e20–e20d facts: the Higgs's phase cancels in θ_Y (S̃ = S(h̄) exactly); θ_Y = +0.1774π at B1726's best six-row reproduced; θ_Y is not a function of the physical point — the T-step moves it by exactly 19π/50 on the ten (2/5, k/10) lines and b → b ± 1 by ∓2π/5 (= 264πα mod 2π from thc(a, β + n) = e^{2πian} thc), with the masses and J unchanged — so 'identically 0 or π' can be asked only of a θ̄ whose θ term carries compensating phases under both relabellings, or of a stated representative; J vanishes exactly where kα ≡ −2b (mod 1) at half-integer Re τ (P-328's rule)] [2026-10-28 (row 1430): the web seat sealed its rule (f53115e19) and committed its script (3a9da0dab): whether θ_Y = arg det Y_u + arg det Y_d is harmonic in τ along the lines, the necessary condition for a τ-holomorphic counterterm to hold θ̄ constant; data-free; result awaited] [2026-10-28 (S232; rows 1439, 1443): the web seat's sealed THE STRONG ANGLE IN THE MASS FRAME — H1 does not hold as sealed (1.98% undetermined; the power control failed, so its first clause is untested); 10 859 of 11 078 combinations, and all 800 slope-2/5 combinations in the Standard Model's reading, NOT HARMONIC; θ̄ stays an input in the frame as built; the residue is 54 lines (twelve with θ_M harmonic) and the Higgs directions F₋₁₀ and F₋₆; the SM seat's W168 reproduces it on its own instrument; main's own check (a sample) owed]"
+ },
+ "P-357": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load60"
+  ],
+  "text": "what fixes the Higgs's invariant (B1743): every form on record is nearly null with ∣h·h∣/∣h∣² falling exponentially in Im τ (B1739), while the nine's target has it nearly constant, 0.015–0.019, with an e₁ admixture about 0.3. Candidates to examine data-free first: a Higgs with a weight or multiplier that leaves the cusp's null line at order one (not exponentially); a normalisation in which ∣h·h∣ is a fixed number (a condition like h·h = c·(h, h̄) imposed by a principle — PF1-W's determinant reading, P-303?); the Higgs as a vev of a field whose potential fixes h·h (the frame's dynamics, P-327). Any candidate then a sealed test on fresh points, counting the six as four on α = 2/5 lines (P-355) [2026-10-23, S204, post hoc (labelled; audit/verify_p357/): (1) the target tracked continuously on a dense τ grid of (2/5, 3/5) and its mirror (2/5, 0), L₂ (56 points each): χ²_nine down to 16.74; on the 29–31 rows below 30 the invariant ∣h·h∣/∣h∣² stays 0.017–0.020, and the e₁ admixture μ = δ/√2 tracks a fixed multiple of θ₂(τ)/θ₃(τ) — 0.585·e^{0.99i}, spread 3.9% in modulus and 0.07 rad in phase, the mirror line giving the same constant through the mirror law — with a systematic drift in Im τ that no holomorphic quotient has (θ₂/θ₄ and q^{1/8} are indistinguishable at the band). A description, not a reduction: the on-cone constant and the off-cone invariant are still four reals. Main noticed the constant lies within its spread of e^{iπ/3}/√3 and does not count it (numerology). (2) An exactly null Higgs on that law (any constant, including 1, which is R at τ/2 by Landen's identities) gives m_u = m_d = m_e = 0 and V_us = V_ub = 0 (χ²_nine about 3 × 10⁵; det Y ≡ 0, B1731): the off-cone invariant carries the whole first generation and the Cabibbo angle. So P-357 is: what sets the first generation and the Cabibbo angle — a Higgs's departure from the null cone fixed at about 0.018, where every form on record departs by an amount falling like e^{−π Im τ}. (3) The record's forms at a rescaled modulus (F_a for a ∈ {−10, …, 22}, R and ∂R at τ/2 and at 2τ, each as is and conjugated: 44 items, chosen after seeing the target) reach χ²_nine 964.7 at best on B1742's grid (F₆(τ/2)), ten times worse than at τ itself (RECORD PAIRS 96.3): the halved modulus the on-cone description suggests is not the Higgs] [2026-10-24, S205: B1744 §2 D, verified symbolically: det Y = (h₀² + h·h)(w² + u·u)(h₀w + u·h), so m₁m₂m₃ is the Higgs's four-dimensional norm times the channels' times their pairing — the target's fixed invariant is the first generation's own number; a Higgs null in four dimensions (the twisted residue quaternion with its scalar channel) gives det Y ≡ 0] [2026-10-24, B1746 (post hoc; the web seat's step 3 (c)): the frame's family group Γ₄'s own forms up to weight 8 — ρ′ generators e₁-led (far from null); ρ′ ⊗ sgn gives R (weight 4) and ∂R (weight 6, exactly: the census Higgs is the family group's weight-6 form); the weight-6 ρ′ space is span{F₆, F₋₆}; the three two-dimensional spaces as pencils reach 41.9, 42.7, 47.5 — none reaches the target] [2026-10-24, B1747: the web seat's sealed reading test, verified on main's sample — the Standard Model's one-Higgs reading carries the nine on no line; what remains is a second doublet with equal readings or one Higgs read the same way in every sector, the structures this point asks a Higgs for] [2026-10-24, S212, step 1 (post hoc, audit/verify_p357/hd_fixed.py): the down Higgs fixed to ∂R (the family group's weight-6 form), the up Higgs free in ℂP², both read S, on B1742's grid — the nine reach the bar on two mirror rows only, χ²_nine 20.26 at (2/5, 3/10), 0.0625 + 2.6i and 0.9375 + 2.6i, L₂, with H_d = ∂R̄ (with H_d = ∂R nothing below 60); the required H_u is nearly null, e₁ admixture 0.080, invariant 0.0089 (∂R there: 0.095, 0.020), and the fit moves from 20 to 136 for a 0.008 rad change of H_u, so a candidate must match the target to about 10⁻³; step 1b (lambda_stability.py): H_u in the pencils {F₆, F₋₆} and {F₂₂, F₋₂} with H_d = ∂R̄ reaches 34.2 and 82.5 at best — no constant-ratio member of the record's two-form families is the target. Four free reals against seven numbers: a target, not evidence] [2026-10-24, S213, step 1c (post hoc, audit/verify_p357/cube_two_doublet.py): with H_d = ∂R̄ and H_u in the family group's two-dimensional form spaces — ρ′ ⊗ sgn at weight 8, ρ′ at weight 8, ρ′ ⊗ sgn at weight 10 (= span{R, ∂R}, the module being generated at weights 4, 6, 8) — the best are 46.2, 46.3 and 53.2, none below 21.67. Data-free: Γ₄'s twisted forms are generated by R, ∂R and one octic, the untwisted by Y₂, Q₄ and one sextic, so from weight 12 every direction is a form direction with free constants — a form of the family group cannot by itself fix H_u. The form route on main is exhausted; what remains is the web seat's sealed holomorphic reading test (P-361) and a principle that fixes the constants or the Higgs's invariant (the dynamics, P-327)] [2026-10-24, S214, step 3a (post hoc, audit/verify_p357/energy_higgs.py): a parameter-free rule — the Higgs direction extremising the frame's own Yukawa energy ∥Y∥² (an eigenvector of its Gram form; one Higgs, or H_u and H_d per sector) — fails: on B1742's grid the best χ²_nine is 99.4 (one Higgs, the maximum), its e₁ admixture is about 0 on these lines, and at B1743's ten target rows its invariant is 0.037–0.060 against the target's 0.015–0.019 (2.5–3.5 times). Unlike every holomorphic form its invariant is nearly constant in τ, as the target's is; the ratio target/minimum is 0.38–0.45 at five independent rows — noted, not counted]",
+  "where": "[LEAD] Q1 (with P-352) [2026-10-24: sharpened as P-366 — the target lies outside every single holomorphic section (W146, W149); one Higgs read everywhere leaves the up quark 2–7× too heavy (P-364)] [2026-10-29 (S248): B1807's identity a·a = ¼η⁶g (g = f₁² − 2f₀f₂ − (5/144)E₄f₂² ∈ M₄ₙ₋₄) puts the invariant of every single covariant section of ρ_R in closed form, I = ∣η∣⁶∣g∣/(4∣a∣²): W146/W149's trichotomy (exactly null when g ≡ 0; I falling like e^{−π Im τ} at the cusp, η⁶'s factor against ∣a∣²) is this formula; it does not open the route P-366 asks for (a second object or a non-holomorphic section)]"
+ },
+ "P-585": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load42"
+  ],
+  "text": "THE CANDIDATE FAMILY'S CONFIRMATION (B1829's re-grade): THE SIX ON THE STRIP (FR-FIB on the order-10 lines (2/5, b), Im τ ≈ 3.0, (S̃, S, S), c = 3; candidates B1749, B1753) — about 0.5 false candidates expected by chance over 53 looks; the frame already fails the mixing (B1749's nine 191.8; B1825), so at most a scoped mass dictionary is at stake. Held-out targets: y_b/y_t (never computed, the cleanest), θ̄ (one prior look, P-323); y_τ/y_b NOT clean (y_τ = y_b on order-5 lines; R1's data-only table: nature's m_b/m_τ crosses 1 near 10⁶ GeV) unless the frame forces its scale",
+  "where": "[LEAD] Q1: a level-2 card frozen on the family's best sealed card, its scale forced or priced (P-574), its theory error declared (P-575), its searched bits charged (P-576); sealed before any comparison; two passes needed **S295:** already in ~3σ tension with its own in-sample relation D = 10.58 ± 0.11 (P-094): 10.92 (B1753), 10.94 (B1749), up to 4.3σ (B1741); 9 at 14σ where lepton = down (P-355) — the card carries D at measured precision as a consistency cell first"
+ },
+ "P-377": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load42"
+  ],
+  "text": "step 2 of the plan after B1749 — the mixing at the six's strip (post hoc, labelled; audit/verify_sweet/): at the strip (L_max, Im τ 2.95–3.10 on (2/5, 1/10)) one Higgs read everywhere reaches χ²_nine 47 at best (the masses held, ∣V_us∣ 31% low, ∣V_cb∣ 24% low, ∣V_ub∣ 54% high); pairs of record forms ≥ 382 (the first generation far too light: the forms are nearly exactly null there); H_d = DR fixed with H_u free ≥ 146; harmonic pairs F̄ + κF (W146) ≥ 55 (∣κ_u∣ 0.006, ∣κ_d∣ 0.015; V_us too small); two FREE doublets reach the bar (2.75 at Im τ 2.95, 4.05 at B1749's apex, 19.1 at the six's optimum; 8 reals for 9 numbers — reachability, not evidence): both nearly null, 0.13–0.14 rad apart, H_u nearer null (invariant 0.010–0.014) than H_d (0.018–0.026), H_d within 0.04–0.07 rad of R̄. So the strip is not excluded for the mixing, but no structured candidate on record supplies the two doublets' departures; a sealed mixing test waits for a principled second object (line A: a section with a constant departure; line B: a minimised vev, P-132)",
+  "where": "[LEAD] Q1 (with P-366, P-371, P-373; the design input for the sealed mixing test) [2026-10-24, post hoc: two free doublets with c = 1 fail at the strip (47–52) — the second doublet replaces the reading rule, not the lepton factor; c continuous flat (2.4–4); the fair calibration (the data's six with 64 random CKMs): 34% as low as the data's, 66% below the bar — the mixing reachability is not specific; audit/verify_sweet/NOTES.md] [2026-10-24: step 2's free doublets rerun with their vectors written (B1757, exact reproduction, post hoc data): both doublets within about 0.1 of the null line (0, 1, i)/√2, each with its own e₁ admixture — the reference for the SM seat's named-pair test W158] [2026-10-27 (row 1409): the SM seat's W158 — H_u and H_d on the 26 special lines — NEGATIVE: every special line is a pure state's square, so det Y = 0 and a massless generation appears in every sector; W159 (H_u, H_d as the 24-element group's images of DR, no free number) ruled; B1757 committed the step-2 vectors it asked for] [2026-10-27 (row 1410): W159 NEGATIVE — DR carried by the forced 24-element group cannot carry the nine (χ²_nine 315 at best): the weave's forced moves cannot supply the second Higgs's relative orientation; an object outside the forced orbit is needed, none on record]"
+ },
+ "P-373": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load42"
+  ],
+  "text": "what fixes Im τ ≈ 3.03 (B1749 and its referee): the six's specificity lives on one strip, Im τ 2.96–3.11 across Re τ 0.12–0.86, on the T-orbit of the order-10 line (2/5, 1/10), with c = 3 and the seat's reading; the frame's continuous optimum there is 0.3145 + 3.0345i (χ²_six 2.66; post hoc, audit/verify_sweet/), Re τ nearly flat, Im τ sharp (±0.1 moves χ² to 34). The thread rule does not select it (P-350; random 125-point sets pass P2 99.7%). Leads (firewalled): every sweet-spot apex belongs to a thread with a run of five letters, on lines of order 10 with α = 2/5, and the moves' finite ladder ends at N = 5 (W153); W150's one-loop holder gives Im τ 2.66 at μ = M̃, one free ratio. Next: the mixing at the strip (step 2), then a principle for Im τ stated before its check and priced for every candidate",
+  "where": "[LEAD] Q1 (step 1 of the plan after B1749; with P-350, P-327, P-139) [2026-10-24: the SM seat's W154 (row 1388) — at one loop every admissible content gives V = −(A E(τ, 3) + B E(τ, 2)); the band needs a content ratio t ∈ [3.205, 4.624], a 13% window (the six's strip at t ≈ 4.3); every record content and E₈'s 248 run to the cusp — under the adopted rule a free number (P-380)] [2026-10-24, data-free (audit/verify_tau_threshold/): no channel threshold or crossing marks Im τ ≈ 3.03 — on (2/5, 1/10) for Im τ 2.6–3.4 every channel's 2πL + c_s is positive and smooth, no two channel magnitudes cross; the strip is where the frame's smoothly growing ratios meet the data's hierarchy, so Im τ is a genuine free number in the frame (with P-382)] [2026-10-27 (B1784): the agy lane's τ* = (1 + i√84)/3 is B1749's best data row, not a selection; its closed form for t(y) (agy:B1774) with main's auditor's sweep gives a clean negative — V = E₃ − t E₂ holds every Im τ at its own t, so it selects no Im τ unless t is chosen; τ* is a saddle without a flux term] [2026-10-27 (row 1419): the SM seat's W162 (its census window, one run, read once): on its instrument the 2/5 lines pass χ²_six < 16.75 only at Im τ 3.0–3.1 over Im τ 1.2–12 (the 12 order-10 lines with 5w ≡ ½), the class's least rising without return to 2 × 10⁵ at Im τ 12, and nothing passes on any of the 266 lines at nine heights outside the old window — post hoc, counted as a look; the strip is the six's, not the census window's] [2026-10-28 (S227): B1791 — Im τ not found forced in B1656's frame; the one line-independent height is the ρ′ Higgs's Petersson peak at 2.8406, set by the η-power convention and outside the strip (P-398); the audit lane's relative thresholds (P-396) do not involve τ as written; Im τ stays a counted continuous input] ESCALATED(2026-10-28: B1791 closed the special points, cusp shapes, apexes and strength functionals; open: P-380 Stage B (W154 verified on main), P-327 and P-343 (the potential on the fit's lines), P-398's convention, non-perturbative and flux potentials) [2026-10-28 (S236, harvest rows 1449, 1452, 1453): the frame's one-loop potential has dV/dy > 0 everywhere on the slope-2/5 classes, every least on the domain's lower edge (W175); the six's rows are points chosen on a continuum (W173); the SM seat's closing page names a forced holder for the height (FK11) as the missing piece] [2026-10-29 (S259): the owner's challenge (2026-10-29, 'are we sure sure sure in our expectations?'): the strip is a fit conditional on three choices (the 2/5 line class, the reading, c = 3 read from the data); every typicality statement about 'our depth' inherits them, so under P-485 the first question is support, not depth]"
+ },
+ "P-390": {
+  "type": "PROCESS",
+  "disp": "QUEUED",
+  "flags": [
+   "load39"
+  ],
+  "text": "a new lane found by the lane survey, `agy/frontier-2026-10-26` (another session in its own worktree, forked at the B1755 seal 2d6681208, 2026-10-26 19:58 to 2026-10-27 12:35; registered on sight, S223a): it committed B1755's census and comparison and read them on its branch, carried main's uncommitted B1756 and B1757 drafts, and wrote arcs numbered B1758–B1782 (rows P-390–P-409 on its branch, colliding with main's numbers) climbing from a C25 certification (agy:B1758), a class-choosing null (agy:B1760) and a line-selection theorem (agy:B1761) through a 'data-free' τ* = (1 + i√84)/3 (agy:B1764) to '19 of 19' (agy:B1777, agy:B1781) and the cosmological constant (agy:B1782); an earlier commit on the branch had retracted its own overclaims and restored 0 of 19. The owner (2026-10-27): \"[the agy seat] cheated maybe, but our goal is to learn from it, and do our own parameter free derivation of 19s\". Main's disposition: integrate, don't merge — every value claim unverified until main's audit (four read-only auditors, S223), each genuine computation re-derived and re-banked under main's numbers, every fit presented as a derivation named",
+  "where": "[PROCESS] Q1 (the reusable items re-derived on main: the residue law's proof, the 5w ≡ ½ residue fact with P-384; gates of P-391) [2026-10-27, B1784: the audit done — one arc sound and re-banked (B1758, C25 certified exactly), agy:B1759's residue law and agy:B1761's 5w ≡ ½ residue fact genuine (to re-derive on main), agy:B1760 partly sound, agy:B1762–B1764 post hoc fits presented as selections, agy:B1765–B1782's '19 of 19' literal tables (4 inputs, 11 set to targets, 3 ratio × input scale, θ̄ not computed); 0 of 19 stands]"
+ },
+ "P-438": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load27"
+  ],
+  "text": "FOLLOWED OR COUNTED (P-437's theory side; the owner's question 'what do you mean by coin-flip word'): a candidate answer to why the weave would sit at its critical point — counting closed threads word by word gives the coding's maximal-entropy measure (Minkowski's; Geometric(½) runs; the thick phase), while one thread FOLLOWED from a typical start samples Liouville measure, i.e. hyperbolic area, the critical point (ergodicity; Gauss–Kuzmin runs with infinite mean, so deep cusp excursions and deep hierarchies are typical); in move time a typical trajectory has no normalisable measure (the Farey map's infinite dx/x), which is B1813's transition at s = 1. B1663 already found the program's own walk gives the counted measure. So: is the weave's history fair-coin letters or a generic number's digits?",
+  "where": "[LEAD] Q1 (with P-437): the data-free table in the weave's own terms — B1662/B1663's walk, random words, Lebesgue-random geodesics, closed threads by trace: each one's run law and height tail; then whether anything in the record forces 'followed' (the note is in the audit room, THEORY_NOTE_followed_or_counted.md) [2026-10-29 (S256): the first table computed in the audit room (data-free, not refereed): coin-flip histories against a random real's digits — runs of 10 or more 0.18% against 13.8%; flow time above Im τ = 3 3.5% against 32% (B1813's Minkowski value and hyperbolic area, recovered); the deepest height reached by flow time 10⁵ about 9 against about 590 000; the flow time per run 2 log x sums exactly to each closed thread's length] [2026-10-29 (S257, the briefing): reader A: 'followed from a typical start' smuggles in the geometric clock (Lebesgue is that clock's uniform measure, as fair coins are the move clock's); the real fork is where 'no preference' sits — on the discrete letters or on the continuum] [2026-10-29 (S259): the records (row 1476): coin histories reach about (log₂ n)/2 over n runs; generic ones follow Sullivan's logarithm law, lim sup log Im τ/log t = 1]"
+ },
+ "P-417": {
+  "type": "PROCESS",
+  "disp": "QUEUED",
+  "flags": [
+   "load21",
+   "found+key"
+  ],
+  "text": "the owner (2026-10-28): \"how do we make sure all the documentation, all md docs gets updated and reflect the most recent state of the repo, whenever the math and progress affect them? like readme and all other related docs?\" Measured the same day: of 136 tracked .md at the root and in docs/, 19 are watched by doc-currency, 1 frozen, 117 neither (README, ROADMAP, MAIN_GOAL B1484, INDEX B1123, ARCHITECTURE, IDENTIFICATION_LEDGER, KIND_TABLE, LOOK_LEDGER among them); the gate measures recency, not truth — README cites B1792 but its banner says 'State — 2026-10-07 (B1484). GENESIS.md is at v1.14' (now v1.59). Build: (1) classify every doc LIVING / RECORD (frozen) / GENERATED, failing on unclassified; (2) a dated state banner whose own arc must be current; (3) a facts check — GENESIS version, 0 of 19, FLOOR, newest arc, retraction and identification counts generated from source and checked in every doc that states them; (4) a 'surfaces' field in arc_verdict.json checked at landing; (5) a RETRACTIONS row triggers a grep of living docs for the old statement; (6) catch-up of README, MAIN_GOAL, INDEX, ROADMAP fronts. Each new gate with a failing-path test and a GATE_CONTROLS row; a WORKING_RULES line is the owner's call. The owner's follow-up (same day: delegate to the decadal review to save time and credits): the split adopted — (1)–(5) are scripts built once (S238) and run free in every suite, flagging only; per landing the only AI step is a one-line banner/fact fix when an arc changes a front-page fact; prose rewrites, truth-reads of living docs and the classification of the unclassified are batched to each decadal review, tolerances set near the review interval; (6) the catch-up is Review 72's (due within a landing or two)",
+  "where": "[PROCESS] Q1 (S238 the gates; Review 72 the catch-up) [2026-10-29 (S241): step (3) begun — the doc-facts gate (the GENESIS version first; extend with FLOOR, the newest arc, the counts); the README's banner fixed; steps (1), (2), (4), (5) and the prose catch-up remain] [2026-10-29 (S249), THE OWNER'S RULING: the rule line adopted (WORKING_RULES, the 2026-10-29 rule, item 5); steps 1, 2, 4, 5 (the classification gate, banners, declared surfaces, the retraction grep) still owed]"
+ },
+ "P-564": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load18"
+  ],
+  "text": "THE COVER FRAMING (the agy lane): the generations as the three sheets of m004's 3-fold cover, and the colour centre's Z3 Wilson line (B1801) separating quarks from leptons where the fibre's 6Y cannot; as stated it is not a frame with outputs: on the cover the symmetric commutant is 2-dimensional (H = aI + bJ; democratic mixing allowed; the lane's own referee), so H = I is not forced, and the Wilson line's torsion (∣Delta(omega)∣ = 4) enters no Yukawa yet",
+  "where": "[LEAD] Q3: a frame with outputs first (where the sheets enter the coupling), then its forced inputs counted"
+ },
+ "P-391": {
+  "type": "PROCESS",
+  "disp": "QUEUED",
+  "flags": [
+   "load18"
+  ],
+  "text": "gates against fabrication, from the agy lane's audit (B1784): a value 'prediction' in a ledger or verdict that is a literal rather than computed; a prediction equal to its target to five digits or more; outputs that move one-for-one when a measured input is shifted (an input returned as an output); pulls of exactly ±1.000; error bars or σ that change between arcs for the same observable. Each would have caught the lane's '19 of 19' (typed tables, target-minus-model shifts, widened errors). New gates need a failing-path test and a GATE_CONTROLS row",
+  "where": "[PROCESS] Q1 (moved up at the web seat's proposal, 2026-10-27: each gate would have caught the agy lane's '19 of 19'; design the checks on the record's own ledgers first; then the gates with planted failures)"
+ },
+ "P-451": {
+  "type": "PROCESS",
+  "disp": "QUEUED",
+  "flags": [
+   "load17",
+   "found+key"
+  ],
+  "text": "A CLAIMS INDEX: absence errors recurred in the window (the meditation's 'hatch never opened', B1800's 'L251 never computed', Review 71's, P-406's title already on record); the proposal of 2026-10-28 — an index of the record's 'never / no arc / not found' statements that the sweep consults automatically before any such sentence — has no row (P-417 builds facts and gates only)",
+  "where": "[PROCESS] Q2 (with P-417): build it into topic_sweep or the absence sweep; a gate on new 'never/no arc' sentences without a VERDICT line"
+ },
+ "P-327": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load17"
+  ],
+  "text": "the one-loop potential on the fit's lines (L254 (d); C6, C7): B1704's potential on the order-5 and order-10 lines at Im τ 2.55–3.25; a minimum would fix τ by dynamics. Data-free, minutes. Also C5's mechanism cannot act on those lines (S fixes only order 1, 2; ST only 1, 3) (the parked-items sweep, P-313; audit/drafts/leads_reeval/, merged in QUEUE.md)",
+  "where": "[LEAD] Q3 [2026-10-24: the web seat's e17 and e18 (row 1401, data-free): on every flat line every record content runs to a cusp at one loop; on the ten α = 2/5 lines the cusp above the band pushes the contents without gauge fields down (matter −0.32, with the Higgs −1.68, ζ(6) units); input, not re-run on main] ESCALATED(2026-10-28: the web seat's e17/e18 say every record content runs to a cusp on every flat line; re-run B1704's potential on the ten α = 2/5 lines on main (data-free) or accept the seat's result with a dated note)"
+ },
+ "P-420": {
+  "type": "PROCESS",
+  "disp": "QUEUED",
+  "flags": [
+   "load16",
+   "found+key"
+  ],
+  "text": "the owner (2026-10-28): a front end of the programme with the repository as its data and back end — a visual, mapped state of the repo (nodes and edges between arcs and batches, Kanban-like boards, other classifications) to understand the repo and the work; and the same for the mathematics, as reproducible figures of each step of the construction (the rule, the threads, the field, the object, the fillings, the towers), interactive in 3D where the geometry allows. The owner's constraint, the same day: 'it all should be scientific representations, not for entertaining approach or purposes'. So: every element computed by a repo script, with its arc, script and commit; status, scope and forced/admitted/chosen labels on everything; paper-figure conventions (models named, axes, exact numbers); interaction for inspection only. Data exists: arc_verdict.json (verdicts, depends_on, scope), the point register (a Kanban already), the ledgers, the kill graph, the atlas. Order: (1) the repo map (graph, register board, identification matrix, scoreboard with P-418), generated at each landing; (2) one figure plate as a pilot (m004's fillings with the three axes and B1803's four fixed points); then the rest",
+  "where": "[PROCESS] Q2 (after S238; with P-417, P-418) [2026-10-29 (S249), THE OWNER'S RULING: 'lets entertain the proposal from other seats first' — the workdesk waits for the seats' proposals (the relay of 2026-10-29, OPEN); no build until then] [2026-10-29 (S254): THE OWNER'S RULING, after both seats' proposals (HARVEST_LEDGER rows 1468, 1471): GO — phase 0 first (the arc data repaired, all three seats' defect lists merged: main's dangling targets and folderless IDs, the web seat's further 7 targets, B89 twice, B288's prose-only retraction, references to non-arcs; the SM seat's one identity per arc across branches), then the static generated desk starting from the SM seat's prototype (docs/workdesk/ on its branch)] [2026-10-29 (S256): PHASE 0 LANDED (the owner's GO): scripts/checks/arc_data.py merges the three seats' defect lists into classes D1-D8 and R1-R5, and the gate `arc-data` holds D1-D6 empty. Found and fixed: gate_id_collisions read folders with a lower-case suffix only, so B89T_tower_route (\"id\": \"B89\") collided unseen (pattern widened; B89 grandfathered beside B58); four SM-seat arcs cited as bare numbers moved to rests_on_seat (sm:B1283, sm:B1355, sm:B1374, VERIFIED) or cites_seat (sm:B1268, REGISTERED only); B1235 supersedes B1181, B367 supersedes B361 and B362 (the back-links were one-sided); B970-B974 were marked superseded by B978, which banks them — the field cleared. Resolved, not defects: B792, B796 (harvested copies inside B921), B829, B844, B846, B999 (banked as CHANGELOG sections), B506, B511, B578, B580, B659, B666, B913 (preregistration and campaign folders), K002, PC12 (documents). Left for readers: D7, 171 prose-only relation candidates in 96 arcs (B288 <- B1419 among them); D8, 10 numbers naming different folders on the SM seat's branch (the alias table's), the seat counts 18 (asked). Next: the desk from the SM seat's prototype (its stages 4-5 now built, harvest row 1474)] [2026-10-29 (S262): PHASE 1 LANDED: the desk from the SM seat's prototype, adapted to main's record (docs/workdesk/: build_index.py, extract_desk_data.py, build_page.py, the template, README; tests/test_workdesk_builds.py, 12 locks, six seeded defects caught; 23 of 23 spot-checks; no external load, a CSP); main's rulings: D1 the generated page is not committed (built on demand and at deploy), D2 view E's hand-copied table kept with its computed freshness check, D3 the seat's views off by default, D4 the register board, identification matrix and scoreboard go to phase 2, D6 the seat's Weave Lab reviewed before any port; the deployment design docs/workdesk/DEPLOY.md (P-496); phase 2, the panel to the owner's standard (P-497), in build]"
+ },
+ "P-437": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load9"
+  ],
+  "text": "the owner's whole-existence computation, unforced (2026-10-29: 'see what program produces when not forced'; 'count in both ways and see whether both ways interact'): stage 1 landed as B1813 (the measure depends on the counting rule; the geometric count is the move family's critical point); stage 2a computed in the audit room (audit/drafts/weave_measure/stage2a_typical_world.py: at the zero line with DR, a typical world has a mild hierarchy in the thick phase and a deep one at the critical point — not refereed, not landed); stage 3, the sealed typicality comparison with the threads' own lines and the readings, owed; the open question: why the weave would sit at its critical point",
+  "where": "[LEAD] Q1 (the owner's main line, with P-419) [2026-10-29 (S256): the owner's no-lead-lost sweep registered the line's sub-leads as P-438–P-443 (followed or counted; the clock; the pure move clock; the critical line; B1813's limits; the inherited assumptions)] [2026-10-29 (S256): stage 3 landed as B1814 (sealed 86cb26b30): NEGATIVE as sealed for D2 — the six do not separate the clocks (p_F(A0) 0.069), and the test was underpowered (about 19%); the six are not atypical of the geometric clock's resolved worlds at the 5% level (p_nn 0.072 unforced, 0.094 by hand), not specific (r 0.73, 0.45), failing at the floor 1e-8, and the model does not come close (11 sigma); the clock goes to the theory side (P-438-P-440)] [2026-10-30 (S264, Review 73): B1814's 'D1 fails at the floor 1e-8' and '11 sigma' are census-dependent: on the web seat's second census D1 holds at 1e-8 (p_nn 0.089) and the nearest unforced world is 7.9σ; the sealed verdict (D2 fails) holds on both]"
+ },
+ "P-210": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load8",
+   "found+key"
+  ],
+  "text": "the audit lane's lead (its COVARIANT_END_DOMAIN_SCOPE, verified in B1678), step 4 of main's plan: a state-dependent rank-3 boundary family (index 0) is covariant on the open set where the Higgs datum S breaks the symmetry, and dies at the symmetric state, where the Q₈ stabiliser allows only even ranks 0, 2, 4, 6, so the index there is ±1 or ±3, never 0. Which index the end takes needs a joining law, the boundary dynamics derived from the action, which no one has yet. The question for a seal: given the paper's coupling and its fields transported together (B1678), does the boundary response at the symmetric state select a domain?",
+  "where": "[LEAD] Q3 (the audit lane's executable successor, as it listed: the actual state action, the projector identities, the intertwining frames, a frozen-state negative control and the Q₈ stabiliser countercontrol; main verifies) [2026-10-24: the audit lane's P210 execution package sealed for review (39ce620a8; ten checks unrun) and six analytical successors, each asking main's scrutiny before transfer — P-386] [2026-10-30 (S263): the audit lane's P210 package, accepted by main for execution (B1787, 2026-10-27), ran once on 2026-10-29: ten of ten bounded finite checks, reproduced by main's reader (row of S263) — P-210 sharpened, not answered: which of ±1, ±3 still needs a joining law]"
+ },
+ "P-487": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load7"
+  ],
+  "text": "THE SUPPORT TEST (main's design from P-485, at the owner's 'lets attack… the final act'): defined on the whole interaction — the fibre frame × the weave's sums × the towers — with c supplied by the interaction, never set (P-488); asks whether any allowed configuration reproduces the measured pattern (support) and which patterns no configuration reaches (exclusion), with a specificity null that chooses as freely as the test does (B1798's lesson) and the look ledger's count; sealed before any comparison",
+  "where": "[LEAD] Q1: after strand A's design (P-397) and strand B's verification (P-371); the instrument and null sealed first [2026-10-30 (S263): the bar's cells adopted for grading (S support with reach and resolution, K compression, X exclusion and specificity, T typicality as a screen, V held-out values, I inputs)] (S296: a proposed closure declined by main -- run only as B1825's restriction (FR-FIB, one address, c = 3 set); the whole-interaction test with c supplied by it, and the exclusion half, are unrun)"
+ },
+ "P-485": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load6"
+  ],
+  "text": "THE PLENITUDE REFRAMING (the owner, 2026-10-29: 'if all worlds in our framework are allowed to happen… they will happen, so our own'): if every world the framework allows is realised, deriving the SM is three questions in order — (a) is our world in the support (some allowed configuration reproduces it), (b) does the support forbid things (structure the framework excludes), (c) only then typicality under a measure; B1814's negative is a statement about (c) under one chosen clock, not about (a) or (b)",
+  "where": "[LEAD] Q1: THE SUPPORT TEST (P-487) is (a) and (b) as one sealed test (S296: a proposed closure declined by main -- its (b), what the support forbids, was never run (B1825: 'X1 (exclusion): none claimed'); (c) is B1814's)"
+ },
+ "P-575": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load5"
+  ],
+  "text": "A DECLARED THEORY ERROR (FL-22, A6 R3/R6): the flat 10% allowance discards 29.7 bits of measured information against a 12.37-bit gate, and K's power for a correct frame a σ away is 1 in 10 (B1825's calibration)",
+  "where": "[LEAD] Q1: the card names the frame's theory error (tree, one loop, thresholds) and pays for it; a calibration at that error"
+ },
+ "P-555": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "load5"
+  ],
+  "text": "THE MASSES AND THE MIXING AT DIFFERENT ADDRESSES (B1825): the frame reaches our six alone (least chi2_six 1.36) and our four alone (0.35 at a node), never at one rigid address (least chi2_ten 291.4; the clause fails rigorously; bits_CKM -194). The hatch: the CKM as the relative rotation of the up and down sectors' diagonalisations at two loci (P-415's towers meeting), priced by what the second address costs; firewalled until a design is written",
+  "where": "[LEAD] Q1: a design note (what a two-address frame is, what it costs in bits, what it can fail), data-free first. **S287:** the budget from B1825's run (a read-out): the four carry at most 19.08 bits against the frame's marginal, so a FREE second address (15.64 bits before tau) leaves C_ten <= 0.36 -- dead; a second address fixed by a 0-bit rule leaves 3.63 bits (chi2_4 <= 5.03, or one of 12 rules). The mirror rule (down at -conj(tau), line (alpha, -b); B1821) keeps the six exactly and changes only phases (abs U equal entrywise, 36 of 36), giving nonzero CP-violating mixing on lines where the frame's own V is the identity (audit/drafts/p555/). The corner inversion (B1826) is what a second address must undo. Read the web seat's door D (row 1513) first **S288:** the mirror rule CLOSED for the CKM: it keeps the six and r = ∣h.h∣/∣h∣^2 exactly (every direction), and where up is steeper than down (303 of 1 456 hierarchical frame points) nature's corner order with ∣V_ud∣ > 0.9 occurs at 1.7% of points for the frame alone and 0 of 303 under the rule (median ∣V_ub∣/∣V_td∣ 2.66 and 2.64). The requirement, from B1739 and B1826: the down sector's Higgs farther from the null cone than the up's by about the hierarchy ratio; next, the singlet Higgs at its natural magnitude (P-562) and a second direction for the down sector (B1742). Design note: audit/drafts/p555/DESIGN_NOTE.md (exploration tier; two coarse facts of the measured world disclosed)"
+ },
+ "P-560": {
+  "type": "PROCESS",
+  "disp": "QUEUED",
+  "flags": [
+   "load4"
+  ],
+  "text": "THE PHYSICAL-BRIDGE LANE's 25 COMMITS SINCE ITS PIN (4227859a to e19aa4dd, 2026-11-01 to 11-03) AND ITS 21 UNROWED RELAYS (among them the source review of the agy lane, 395b27210, whose conclusions agree with B1826): unharvested",
+  "where": "[PROCESS] Q2: harvest in full (rows, pin) before the relays age past 21 days"
+ },
+ "P-267": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "found+key"
+  ],
+  "text": "PF1-W, registered as a READING at the owner's ruling of 2026-10-22 (relayed by the web seat, 7e01601a8; not first-hand to main): on the weave the law's holomorphic invariants have their zeros and poles only at the end (the cusp). It rests on two named identifications (a zero is cancellation completed; the end is where a record cancels) and on the weave premise (GENESIS §3, NOT DERIVED). It accounts on record for W113's θ̄ classes, the cusp unit's \"no zeros on the open surface\" (only 1/Δ among W48's dressings) and the listed frames' failures with interior mass zeros. Tested: its lepton consequence is not supported (the web seat's family-wide null, p_global = 0.125, e9eb945e1, under its assumption A-W); θ̄ a post-hoc candidate only (given H-θ and GM5c); W115's two predictive couplings are the ones it forbids, so a W115 success counts against it. Prior art: Feruglio, Marrone, Strumia and Titov (arXiv:2505.20395)",
+  "where": "[LEAD] Q3 (a reading, firewalled; promoted only by a test whose outcome is not known in advance)"
+ },
+ "P-440": {
+  "type": "LEAD",
+  "disp": "QUEUED",
+  "flags": [
+   "integrity"
+  ],
+  "text": "THE PURE MOVE CLOCK: a clock that ticks once per Farey crossing, both between and along threads, puts every sampled τ on Re τ = 0 (every Farey edge reduces to the imaginary axis); B1813's A0 counts by moves but places points by arclength, so the pure clock is a third measure, not run in B1814",
+  "where": "[LEAD] Q1 (with P-437): confirm τ ∈ iℝ₊ at every tick; its height law; the frame's ratios and J on Re τ = 0 by line (data-free); whether the CP-fixed line is then forced rather than chosen (cf. P-404) [2026-10-29 (S257, the briefing): computed (audit room, data-free): every Farey crossing reduces exactly to Re τ = 0; there J ≠ 0 on 178 of 266 lines (∣J∣ up to 0.06–0.09), zero only on the 88 lines the reflection fixes: the line breaks CP even when τ does not]"
+ },
+ "P-541": {
+  "type": "PROCESS",
+  "disp": "QUEUED",
+  "flags": [
+   "integrity"
+  ],
+  "text": "THE HARVEST PIN CAN LAG ITS ROWS (found at S274; the Pocock retro's 'automated checks' category): S270 harvested the web seat's rows 1502-1504 at ba8bb3f5e without moving the chat1 pin (it stayed at 4bfc7ab46), and harvest_debt.py, which counts unrowed items since the pin, passed silently because the items were rowed; a check is owed that each seat's pin is at or past the newest commit its harvest rows cite (git merge-base --is-ancestor), with a planted control that must fail",
+  "where": "[PROCESS] Q2: the check and its control in scripts/checks/harvest_debt.py, at Review 74 or before"
+ }
+}

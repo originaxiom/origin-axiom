@@ -2,6 +2,50 @@
 
 > **Currency — Review 56 (2026-09-09, anchor `eb9db7fa`).** Refreshed against the 21-merge window `be6f4cab`→`eb9db7fa` (B1294–B1307: MASTERPLAN v3 Phases 0–1 and v3.1's seven harvest arcs). **Review 56's headline is a number, not a repair:** the harvest gate's first strict report — 494 seat-index ids on nine branches, **428 without a ledger row, 348 seat-branch relays without a relay row**, two seats already past main's pins — escalated by name as R56-1 with a payment order (B1306 slices B–D, newest first). 32/32 gates; LAW_MAP's second zero-advancement window (R56-2); CLAIMS.md's 129-arc lag escalated (R56-3); two E53 repairs in living surfaces (THE_SM_VERDICT, MAIN_GOAL JOIN 3); E71 minted. Full detail: `docs/progress/REVIEWS.md` (Review 56).
 
+**LATEST (2026-11-05, S304: the candidate's end is the norm of no geometric cut (B1838) — e^{−L_max} above the cell's inradius; no single horocycle reproduces its channel weights (spread 0.135); A07 re-typed ANSATZ; the agy lane's zeta end not principled; next, the deciding sealed card at the exact norm with one free cut level. Compliance follow-up to the agy lane asked of the owner (P-684). 0 of 19.)**
+
+**LATEST (2026-11-05, S303: THE END IS THE DECIDER (B1838, OPEN) — the exact-end failure reproduced on main: the candidate's six pass only with the small-cut end (χ² 2.4–4.9) and fail at the exact horoball norms (26–54); no principled end on record passes them; next, the six re-read with the end's scale free in a sealed card. P-682: the line's order identifies the sectors (Pati–Salam at 4, SU(5) at 5, left–right at 3). 0 of 19.)**
+
+**LATEST (2026-11-04, S302: the agy lane's Stages 8–9 and the web seat's density Higgs verified (B1837) — main stands on six of the lane's seven rebuttals, the seventh already proved; no joint earned; the torsions of m004 at ω tabled; main's own firewall exposure through a pasted message recorded (P-679). 0 of 19.)**
+
+**LATEST (2026-11-04, S301: the seats past S300 verified (B1836) — the F7 mirror identity PROVED (T-FRAME-MIRROR); T a symmetry of the outputs (main's S300 corrected); the slope 2/5 picked by a criterion reading no held-out quantity (P-625's reason corrected; still borrowed); no cuspidal cohomology for m004 at weights 0–3; the agy lane's Theorems 29–64 earn no joint; frame B 44 borrowed. 0 of 19.)**
+
+**LATEST (2026-11-04, S300e: the owner ruled all of main's recommendations — the brainstorm rules adopted and gated (direction leads age, hosts cannot close over open children, drafts land, owner calls listed at every run); the slope selection declined; PF1-W scoped; L178, L86, L87 retired; L248 § 8 kept with a first step (P-667). 0 of 19.)**
+
+**LATEST (2026-11-04, S300d: U_e and the PMNS opened at the owner's ruling (B1835, OPEN) — the control passes; only the neutrino splitting ratio r is in the candidate's mass-dictionary scope, tied at leading order to the lepton hierarchy; the owner's D2 and D11 asked (P-665). 0 of 19.)**
+
+**LATEST (2026-11-04, S300c: THE TOTAL-INPUTS SCOREBOARD (B1834; the owner's ruling of 2026-10-29, P-418; the borrowed-joints scaffold, P-661) — printed by the gates beside 0 of 19: 0 earned, identification price 13; the record's candidate 10 rows on 14 borrowed joints; the agy lane's complete picture 23 rows on 45; ten joints shared, so the core (τ, the line, the Higgs direction, the reading, H = I, the radius) is the common target. 0 of 19.)**
+
+**LATEST (2026-11-04, S300b: the owner's line — a looser method is fine if every unearned joint is named; agy's lane labels borrowed joints FORCED, and 14 of its 32 seen-first citations are mis-titled or nonexistent; P-661 the borrowed-joints scaffold registered as a debt: main relabels agy's complete picture, building P-418's total-inputs vector. 0 of 19.)**
+
+**LATEST (2026-11-04, S300: the brainstorms re-read (B1833, P-628) — the leads are lost after they are written down (they never come due; reviews carry none; merged items die with their host; whole places are never read); 65 items with no carrier re-rowed (P-629–P-660), the central direction (what holds τ and selects the point) as one row; U_e and the PMNS recovered as a candidate second held-out quantity (P-638, for P-597); the mechanism (P-659) and the direction (P-660) put to the owner; the agy lanes' sealed exhibits' value-free mathematics banked in B1832 (P-624 step 1) and P-625 answered — the slope selection spends the held-out target. 0 of 19.)**
+
+**LATEST (2026-11-04, S299b: the agy lanes' work verified and banked at the owner's word (B1832). Every claim was checked on main's own code. What holds is mathematics about the frame, not Standard Model numbers: the kernel lemma the record owed now has a derivation, the lepton–down relation on the 40 half-lift lines is proved for every Higgs, and three more identities are exact. Two of main's own statements were corrected (B1784, B1826). The lane's 'full ToE' scorecard is 0 of 19 by its own code. The parts that compute the candidate's last blind target were not read. 0 of 19.)**
+
+**LATEST (2026-11-04, S299: Review 74, the decadal review. At the owner's word everything handed to the review was read in full — every open relay, every old harvest row, every open lead — for load on main and for ideas nobody followed. Nothing hidden derives a Standard Model number; the leads that could change the direction are ranked for the owner. The strong angle θ̄ turns out not to be a prediction of the frame without a chosen rule, so it comes off the candidate's held-out list, and the candidate's confirmation is now one held-out target short of the two the rule requires (P-597). Main's own two unbacked claims of 3 November were corrected with committed instruments, and the review loop's rule for aging carried items, which could not fire, was fixed. 0 of 19.)**
+
+**LATEST (2026-11-03, S298: every parallel seat's work read to its latest commit and recorded. The web seat's review of main was right on every point checked: the attempt of 31 October is graded NOT FOUND rather than NEGATIVE, a 'closed' route for the quark mixing was never closed (three counter-examples, reproduced), and a formula's scope written yesterday was too wide on four lines. All corrected in place. Nothing a seat sent is banked without main's own check; what is not yet checked is listed as owed. 0 of 19.)**
+
+**LATEST (2026-11-03, S297: the triage re-checked at the owner's word. Every typing and every closure stood, except two points marked as ideas or housekeeping that are in fact owed checks; both are debts now. The re-check also found what a register cannot show: twenty rows of the law map still stated results that later work had corrected. The most important is that the candidate found at S294 holds only with an approximate formula for the boundary; with the exact one, the six masses fail. All twenty are corrected in place, the candidate is recorded as weaker, and the habit that let the corrections stall is written down (P-589). 0 of 19.)**
+
+**LATEST (2026-11-03, S296: the register of open points, triaged at the owner's word (B1830). Each of its 241 open points is now marked as a debt (something the record uses is owed a check), an idea, or housekeeping; only debts carry deadlines, and the 59 debts are worked in order of what rests on them — first the one that bears on today's candidate. Nine points were found already paid and closed, each checked. 0 of 19.)**
+
+**LATEST (2026-11-03, S294: on the owner's own proposal, the bar no longer rises with every attempt. A first, fixed level flags a candidate; only a second level — predicting numbers never used — makes a result (foundation document version 1.61, B1829). Re-grading all 53 past attempts finds one candidate: the framework's fit of the six mass ratios on one strip of its parameter space. Chance alone would give about half a candidate, and the same framework already fails the quark mixing, so it is a lead to test on untouched numbers, not a result. 0 of 19.)**
+
+**LATEST (2026-11-03, S292: the owner ruled that a framework may earn its link to physics by predicting numbers it never used — the foundation document now says so (version 1.60, B1828). Until now even a correct framework could only ever be recorded as a reading; from now on, two independent held-out predictions that pass, verified, turn its matches into predictions that count. The rule is strict and revocable. Nothing meets it yet. 0 of 19.)**
+
+**LATEST (2026-11-03, S291: every claim of the last two landings re-derived from the code. One is withdrawn: the SU(5)-style "45" ingredient does not produce the needed lepton/quark mass pattern — its probe had mislabelled factors, and with the right ones the lightest generation goes the wrong way. The rest holds exactly, and one new exact fact appeared: the framework's leptons already see the down quarks through the same mirror (the adjugate) that fixes the quark-mixing corners. Then the owner's deeper question — are we asking the right question, and would we recognise the answer? A blind reader and a calculation say: not as the tests are built. The headline counts a goal the record itself retired; a theory exactly right at the unification scale would fail our information test from running alone; and no outcome of any current test can move the scoreboard. The fixes, mostly data-free, are registered. 0 of 19.)**
+
+**LATEST (2026-11-03, S290 [its 45 claim RETRACTED by S291: mislabelled]: the ingredient that lifts the quark-mixing wall is pinned down: the Higgs needs a singlet part that one quark type sees mirrored — a relation the framework could not even express before. The same ingredient, weighted the way SU(5) weights its 45-dimensional Higgs, also splits the second-generation lepton and down-quark masses by about the needed factor of three. A candidate structure, not a result: its cost in free choices comes next. 0 of 19.)**
+
+**LATEST (2026-11-03, S289: the programme's own framing, inventoried for the first time (B1827, docs/FRAMING_LEDGER.md): eighteen choices that shape what it can find. The quark-mixing wall turns out to be one of them — a choice in how the Higgs is built — and a calculation shows the wall disappears when the Higgs gains one ingredient with opposite signs for the two quark types. About nine of the nineteen numbers have no framework at all yet. 0 of 19.)**
+
+**LATEST (2026-11-03, S288: the other lane's reasoning about why our framework fails on the quark mixing holds: one Higgs, pushed by the mass hierarchy toward a special direction, drags both quark types' lightest states with it (B1826, building on B1739). The obvious symmetry fix does not help; a second ingredient of the Higgs is the next thing to test. 0 of 19.)**
+
+**LATEST (2026-11-03, S287: every seat fetched. Another lane's overnight claim to have derived the Standard Model and more does not survive: its fits were chosen after seeing the data, as two independent audits and its own retraction show. Three of its mathematical results hold on our own code, one of which explains why the last test failed: the frame puts the quark mixing's smallest element in the wrong corner (B1826). 0 of 19.)**
+
+**LATEST (2026-10-31, S286: the final attack's sealed test of one address is NEGATIVE (B1825). The frame can produce our six mass ratios, and separately our quark mixing, but no single point of it produces both: the closest it comes is far outside the measured errors. The next question is whether the mixing comes from two points meeting. 0 of 19.)**
+
 **LATEST (2026-10-31, S285: the test's controls are measured. If our world sat exactly at one of the frame's addresses, the test would detect it seven times in ten; a measurement error's width away, about once in ten. Unrelated mixing matrices never pass. The six mass ratios on their own never compress: whatever the frame can show lies in the mixing matrix. 0 of 19.)**
 
 **LATEST (2026-10-31, S284: a rehearsal of the test's controls found that its planted worlds, drawn from the frame, all fell outside the range where the compression leg is defined, so that part of the rehearsal measured nothing; it is now redone on worlds inside that range. A precision check that failed was found to ask for more digits than the census stores. 0 of 19.)**
@@ -3501,6 +3545,21 @@ readings, mapped the Higgs's three regimes, and stated exactly what the quark mi
   the invariant sets the first generation (P-357). The frame's mixing structure stands on two codes (B1745).
 - **Open:** P-357 (what fixes the invariant); the web seat's sealed READING TEST (P-360); Review 69's items R69-1–R69-7.
   **0 of 19.**
+
+## ⟳ VIEW REFRESH — 2026-11-04 (Review 74)
+
+Touched at the Review 74 anchor (`41420ae14`). **The window (B1819–B1830; S264b–S298) ran THE FINAL ATTACK to its end and audited
+the record's own grading; the review then read the whole backlog for leads at the owner's word.**
+
+- **THE FINAL ATTACK:** Step A NEGATIVE as a compression (B1823); Step B, the nine from one address, NOT FOUND under its bar
+  (B1825). The frame's matter metric is CHOSEN (B1822, H = I).
+- **The bar in two levels** (GENESIS v1.60, v1.61): a fixed screen makes a CANDIDATE; only a held-out prediction makes a
+  result. One candidate family, THE SIX ON THE STRIP: it rests on the small-cut end and sits about 3σ from the relation D.
+- **This review:** every open relay, every old harvest row and every open lead read in full — nothing hidden derives a
+  number; the leads that could change the direction are ranked for the owner (REVIEWS, Review 74 § 3). θ̄ is not a
+  prediction of the frame without a chosen rule, so **the candidate's confirmation is one held-out target short (P-597)**.
+  The review loop's carry rule, which could not fire, now does; main's own unbacked claims of 3 November carry instruments.
+- **0 of 19.**
 
 ## ⟳ VIEW REFRESH — 2026-10-30 (Review 73)
 

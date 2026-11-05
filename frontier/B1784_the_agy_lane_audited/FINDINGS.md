@@ -50,3 +50,5 @@ the register's P-390. **Literature:** none.
 
 `A_B1758.md`, `B_B1759_B1761.md`, `C_B1762_B1764.md`, `D_B1765_B1782.md` (the auditors' reports). The lock:
 `tests/test_b1784_the_agy_lane_audited.py`.
+
+> *Dated note 2026-11-04 (B1832, the agy lanes digested, P-621):* two corrections, verified on main's code. (i) The up sector's i-residue vanishes identically on {5w ≡ ½} ∪ {3w ≡ ½}, not "exactly when 5w ≡ ½" (all 1 190 torsion points of order ≤ 20 at two τ, 0 mismatches; the 3w-only points (0, 1/6), (1/3, 1/6), (1/3, 1/2), (1/3, 5/6)); the agy C1 set stays the ten lines (1/5, odd/10) and (2/5, odd/10). (ii) τ* is not a critical point of E3 − tE2: ∂ₓV = 2.80 × 10⁻⁶ (non-zero analytically), ∂ₓ²V = −1.02 × 10⁻⁵, ∂ₓᵧV = −1.76 × 10⁻⁵, the Hessian indefinite — not "a saddle without flux"; t(y) is strictly increasing on [1, 20], so the negative (no Im τ selected) stands. agy:B1759's residue law and agy:B1761's fact are re-derived (B1832 § 1.1–1.2).*

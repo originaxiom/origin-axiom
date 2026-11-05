@@ -158,6 +158,14 @@ SEATS = [
     # every value claim as unverified until main's verification (P-390).
     dict(key="agy", label="the agy lane (frontier-2026-10-26)", branch="frontier-2026-10-26",
          remotes=("origin",), cell=("agy lane",)),
+    # ADDED 2026-11-03 (S287), on the owner's word to fetch every seat: the agy lane's second branch `agy/audit-2026-11-02`
+    # (forked from main at 64a2a3d4e, B1825's output committed unread; 16 commits to 951998a73) and an independent audit lane
+    # `audit/independent-2026-11-03` (forked at the same commit; its recomputed audit of the first). Registered so they are
+    # watched, pinned at their heads (rows 1510-1512, B1826).
+    dict(key="agyaudit", label="the agy lane (audit-2026-11-02)", branch="audit-2026-11-02",
+         remotes=("origin",), cell=("agy lane",)),
+    dict(key="independent", label="the independent audit lane (2026-11-03)", branch="independent-2026-11-03",
+         remotes=("origin",), cell=("independent audit lane",)),
     # ADDED 2026-10-03 (B1461), found by the lane survey in S44's suite: a one-commit branch pushed to both remotes
     # at 01:18 UTC that day, an illustration under art/ with no programme content and an author field that is not
     # the repository's. Not a seat; registered so that it is watched, pinned at its head so it carries no items;
@@ -273,6 +281,18 @@ def relay_ledger_names(text):
         first = line.strip().strip("|").split("|")[0]
         out.update(re.findall(r"([A-Za-z0-9_.\-]+\.md)", first))
     return out
+
+
+CITED_RE = re.compile(r"@\s*`?([0-9a-f]{7,40})\b")
+
+
+def pin_lag(cited, after_pin):
+    """P-541 (Review 74, S299): the commits a seat's harvest rows cite that lie on the seat's line AFTER its pin
+    (`after_pin`: the full hashes of `git rev-list pin..head`), matched by prefix -- rows the pin is not at or past.  S270
+    rowed the web seat's 1502-1504 at ba8bb3f5e and left the pin at 4bfc7ab46; this gate, which counts unrowed items since
+    the pin, then passed silently because the items were rowed.  A commit off the seat's line (main's, another seat's, or
+    one at or before the pin) is not in pin..head and is never reported.  One rev-list per seat keeps the gate fast."""
+    return sorted(c for c in set(cited) if any(f.startswith(c) for f in after_pin))
 
 
 def rows_for(seat, rows):
@@ -544,6 +564,12 @@ def selftest():
     pins = read_pins("# x\n\n## Pins\n\n| seat | branch | pin | pinned at | by arc |\n|---|---|---|---|---|\n| sm | b | `0dffacd4` | 2026-09-09 | B1306 |\n\n## Next\n")
     if pins != {"sm": "0dffacd4"}:
         fails.append(f"pins table not read: {pins}")
+    # P-541's planted control: a line a <- b <- c (head c); rows cite b; a pin at a lags, a pin at b or c does not; a commit
+    # off the line (x) is never the pin's business
+    if pin_lag(["bbbbbbb1", "1234abcd"], {"bbbbbbb1" + "0" * 32, "cccccccc" + "0" * 32}) != ["bbbbbbb1"]:
+        fails.append("P-541: a pin behind its rows' cited commit not reported")
+    if pin_lag(["bbbbbbb1", "1234abcd"], {"cccccccc" + "0" * 32}) or pin_lag(["bbbbbbb1"], set()):
+        fails.append("P-541: a pin at or past its rows' commits reported as lagging")
     return fails
 
 
@@ -666,6 +692,13 @@ def run(fetch=False, strict=False):
             elif not RELAY_FILE_RE.fullmatch(pathlib.Path(p).name):
                 unmapped.append(p)
         rec = reconcile(set(idx), rows_ids, new_age)
+        # P-541: the pin is at or past every commit the seat's rows cite on its line
+        rc, after = _git("rev-list", f"{pin}..{head}")
+        lag = pin_lag([c for r in srows for c in CITED_RE.findall(r["path"])], set(after.split()) if rc == 0 else set())
+        s["pin_lag"] = [c[:9] for c in lag]
+        if lag:
+            report["integrity"].append(f"{k}: pin {pin[:8]} lags its rows -- they cite {len(lag)} later commit(s) on the seat's line "
+                                       f"({', '.join(c[:9] for c in lag[:4])}); move the pin when the rows are written (P-541)")
         # B1306 D: a SCHEDULED row is a debt with a name, not a disposition -- counted and reported so it cannot hide behind the row
         scheduled = [r["n"] for r in srows if "SCHEDULED" in r["disp"]]
         s.update(index_size=len(idx), rows=len(srows), changed_paths=len(age_by_path), unmapped_changed=sorted(unmapped)[:12],
@@ -737,7 +770,7 @@ def main():
     a = ap.parse_args()
     if a.selftest:
         fails = selftest()
-        print("  harvest-debt selftest: " + ("PASS (5 planted controls + grammars)" if not fails else "FAIL"))
+        print("  harvest-debt selftest: " + ("PASS (6 planted controls + grammars)" if not fails else "FAIL"))
         for f in fails:
             print(f"    {f}")
         return 1 if fails else 0

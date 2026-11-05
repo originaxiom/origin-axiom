@@ -1,0 +1,15 @@
+(0.3333333333333333, 0.6666666666666666) up identity 1.2e-15 control 1.3e+00
+(0.3333333333333333, 0.6666666666666666) down identity 3.1e-16 control 2.0e+00
+(0.3333333333333333, 0.6666666666666666) lepton identity 5.7e-16 control 5.7e-16
+(0.16666666666666666, 0.3333333333333333) up identity 6.3e-16 control 8.4e-01
+(0.16666666666666666, 0.3333333333333333) down identity 1.6e-16 control 1.3e+00
+(0.16666666666666666, 0.3333333333333333) lepton identity 3.1e-16 control 6.0e-16
+(0.6666666666666666, 0.6666666666666666) up identity 3.6e-16 control 1.3e+00
+(0.6666666666666666, 0.6666666666666666) down identity 7.0e-16 control 2.0e+00
+(0.6666666666666666, 0.6666666666666666) lepton identity 4.1e-17 control 5.6e-14
+(0.125, 0.125) up identity 1.0e-15 control 3.9e-01
+(0.125, 0.125) down identity 6.9e-16 control 1.7e+00
+(0.125, 0.125) lepton identity 5.1e-16 control 1.8e+00
+(0.3, 0.2) up identity 2.9e-16 control 2.0e+00
+(0.3, 0.2) down identity 1.4e-15 control 1.7e+00
+(0.3, 0.2) lepton identity 4.6e-16 control 1.2e+00

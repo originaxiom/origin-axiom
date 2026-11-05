@@ -1,0 +1,20 @@
+SnapPy m004: generators ['a', 'b'] relators ['aaabABBAb']
+exponent sums of the relator: {'a': 1, 'b': 0}
+abelianisation phi: {'a': 0, 'b': -1} (H1 = Z)
+SnapPy's SL2C lift: rho(relator) = - I (deviation 4.5e-15)
+  fixed by rho(a) -> -rho(a); now rho(relator) = I to 4.5e-15
+  traces of the generators: {'a': (1.4999999999999991-0.8660254037844389j), 'b': (0.9999999999999997-1.7320508075688763j)}
+  trivial (Delta/(t-1))  t = 1  : |W| via (dr/da, b) = invalid (det Phi(x - 1) = 0) ; via (dr/db, a) = invalid (det Phi(x - 1) = 0)
+  trivial (Delta/(t-1))  t = w  : |W| via (dr/da, b) = 2.309401076759 ; via (dr/db, a) = invalid (det Phi(x - 1) = 0)
+  trivial (Delta/(t-1))  t = -1 : |W| via (dr/da, b) = 2.500000000000 ; via (dr/db, a) = invalid (det Phi(x - 1) = 0)
+  SL(2,C) holonomy       t = 1  : |W| via (dr/da, b) = 2.000000000000 ; via (dr/db, a) = 2.000000000000
+  SL(2,C) holonomy       t = w  : |W| via (dr/da, b) = 5.000000000000 ; via (dr/db, a) = 5.000000000000
+  SL(2,C) holonomy       t = -1 : |W| via (dr/da, b) = 6.000000000000 ; via (dr/db, a) = 6.000000000000
+  adjoint                t = 1  : |W| via (dr/da, b) = invalid (det Phi(x - 1) = 0) ; via (dr/db, a) = invalid (det Phi(x - 1) = 0)
+  adjoint                t = w  : |W| via (dr/da, b) = 10.392304845413 ; via (dr/db, a) = invalid (det Phi(x - 1) = 0)
+  adjoint                t = -1 : |W| via (dr/da, b) = 14.000000000000 ; via (dr/db, a) = invalid (det Phi(x - 1) = 0)
+|Delta(w)| = 4.000000000000 ; |w - 1| = 1.732050807569 ; |Delta(w)/(w-1)| = 2.309401076759 ; 4/sqrt3 = 2.309401076759
+lane's 4 - 2 sqrt3 = 0.535898384862 ; |Delta(w)| - 2|w - 1| = 0.535898384862
+  Kitano/B1836 closed form |t^-1(t - 4 + t^-1)| at t = 1: 2.000000000000
+  Kitano/B1836 closed form |t^-1(t - 4 + t^-1)| at t = w: 5.000000000000
+  Kitano/B1836 closed form |t^-1(t - 4 + t^-1)| at t = -1: 6.000000000000

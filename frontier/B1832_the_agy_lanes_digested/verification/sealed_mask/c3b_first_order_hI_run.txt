@@ -1,0 +1,10 @@
+(i) doubling ratios f(2e)/f(e), random h with random phase of h_I (2 = linear in h_I)
+  tau=(0.3+2.6j) line (2/5,0.1): 2.000 2.000 2.000
+  tau=(0.3+2.6j) line (2/5,0.3): 2.000 2.000 2.000
+  tau=(0.3+2.6j) line (2/5,0.5): 2.000 2.000 2.000
+  tau=(0.18+1.7j) line (2/5,0.1): 2.000 2.000 2.000
+  tau=(0.18+1.7j) line (2/5,0.3): 2.000 2.000 2.000
+  tau=(0.18+1.7j) line (2/5,0.5): 2.000 2.000 2.000
+(ii) census directions (main's Z.direction): cos(arg h_I + arg z3) at h_I -> 0, readings S and S~
+  cases: 312 ; smallest |cos|: ['2.50e-03 F_22 S~ (0.1+1.6j) 0.1', '1.65e-02 DR S (0.25+1.6j) 0.3', '1.78e-02 t=-5/288 S~ (0.4+2.4j) 0.1', '2.20e-02 F_-10 S~ (0.25+2.4j) 0.5'] ; median |cos|: 0.676
+  fraction with |cos| < 1e-6: 0.0

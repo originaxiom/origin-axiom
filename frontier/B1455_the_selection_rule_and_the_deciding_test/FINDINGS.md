@@ -156,3 +156,5 @@ Whether L3 accounts for the zeros already on the record: B1451's 188 doubly para
 non-self-dual modules with index zero (is each fixed by some Θ_σ?) — which would turn R58-6's vanishing statement into
 a proof on those populations. The same test on the levels M₃ to M₆, where the seats count on covers. The handoff's
 "12 up to Aut".
+
+> *Dated note 2026-11-04 (Review 74, P-535):* the seal (`12ed66bd8`) is the preregistration's text alone; the instruments under `verification/` were written after it and committed with their first outputs and this record at `7d65bf05a`, so git does not show their form before the run.*

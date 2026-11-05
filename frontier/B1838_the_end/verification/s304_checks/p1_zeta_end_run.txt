@@ -1,0 +1,38 @@
+S304 P1 -- the zeta-regularised end, on main's b1656_funcs (Hadamard cA) and first principles
+
+Q1  main's cA (Hadamard, flat disc) vs the Fourier/Hurwitz closed form with scale 2 pi e^gamma:
+    72 channel cases (3 tau x 3 lines x up/down x 4 channels, nu = A not in Z); multiplier unimodularity max dev 6.3e+00
+    max |c_F - cA| = 2.53e-12   (with B -> -B instead: max 9.14e+00, i.e. the sign convention is discriminated)
+    nu values seen: [np.float64(0.071429), np.float64(0.166667), np.float64(0.25), np.float64(0.333333), np.float64(0.428571), np.float64(0.571429), np.float64(0.666667), np.float64(0.75), np.float64(0.833333), np.float64(0.928571)]
+
+Q2/Q3  honest analytic continuation (Chowla-Selberg, Gamma factors kept), on 6 cases:
+    tau=(0.13+1.3j) ch=1 nu=0.4286: FP Z_s - cA = +9.995061 (pred +9.995061) ; FP Laplacian - cA = -0.728419 (pred -0.728419)
+    tau=(0.13+1.3j) ch=i nu=0.6667: FP Z_s - cA = +9.995061 (pred +9.995061) ; FP Laplacian - cA = -0.728419 (pred -0.728419)
+    tau=(0.31+2.05j) ch=j nu=0.0714: FP Z_s - cA = +8.564143 (pred +8.564143) ; FP Laplacian - cA = -0.728419 (pred -0.728419)
+    tau=(0.31+2.05j) ch=i nu=0.2500: FP Z_s - cA = +8.564143 (pred +8.564143) ; FP Laplacian - cA = -0.728419 (pred -0.728419)
+    tau=(0.42+2.85j) ch=1 nu=0.3333: FP Z_s - cA = +7.529053 (pred +7.529053) ; FP Laplacian - cA = -0.728419 (pred -0.728419)
+    tau=(0.42+2.85j) ch=k nu=0.2500: FP Z_s - cA = +7.529053 (pred +7.529053) ; FP Laplacian - cA = -0.728419 (pred -0.728419)
+    max |FP Z_s - prediction| = 3.6e-10 ; max |FP Laplacian - prediction| = 4.4e-12
+    => the lane's own Z_s, minimally subtracted, differs from c_s by 2 pi (gamma + log pi) - pi log Im tau (tau-DEPENDENT);
+       the factor (2 pi e^gamma)^(-2(s-1)) of its code is not what Poisson summation of Z_s gives
+       (Poisson gives sqrt(pi) Gamma(s-1/2)/Gamma(s) * Im tau^(1-s)); it is the factor that reproduces the flat-disc Hadamard c_s.
+
+Q4  the end L each scheme implies (FP = 2 pi L + c_s), against B1667 (Re tau = 1/4 column):
+    Im tau   L_max     L_2      L[Epstein Z_s, MS]   L[flat Laplacian, mu=1]   L[lane's 2 pi e^gamma scheme]
+     1.00   0.6867   2.7176        1.7219                 -0.1159                 free (any L, by construction)
+     1.25   0.6745   2.6143        1.6104                 -0.1159                 free (any L, by construction)
+     1.50   0.6663   2.5394        1.5192                 -0.1159                 free (any L, by construction)
+     1.75   0.6606   2.4834        1.4421                 -0.1159                 free (any L, by construction)
+     2.00   0.6564   2.4404        1.3754                 -0.1159                 free (any L, by construction)
+     2.25   0.6532   2.4066        1.3165                 -0.1159                 free (any L, by construction)
+     2.50   0.6507   2.3796        1.2638                 -0.1159                 free (any L, by construction)
+     2.75   0.6487   2.3577        1.2161                 -0.1159                 free (any L, by construction)
+     3.00   0.6471   2.3397        1.1726                 -0.1159                 free (any L, by construction)
+     3.25   0.6458   2.3247        1.1326                 -0.1159                 free (any L, by construction)
+     3.50   0.6447   2.3121        1.0956                 -0.1159                 free (any L, by construction)
+     3.75   0.6438   2.3014        1.0611                 -0.1159                 free (any L, by construction)
+     4.00   0.6431   2.2923        1.0288                 -0.1159                 free (any L, by construction)
+
+GEO  B1667's 54 points: e^{-L_max} in [0.5005, 0.5257]; the lattice Z + tau Z has min length 1 (|tau| >= 1), so the Dirichlet cell's inradius is 1/2: the flat disc of radius e^{-L_max} is NOT embedded at any point (min - 1/2 = +0.0005).
+     e^{-L_2} in [0.0616, 0.1010] (embedded).
+     identity L_2 - L_max = pi (1 - 2 / A_cusp) (A_cusp = lam * min|c|): max dev 4.4e-16 over 54 points (omega: A = 6 -> 2 pi/3; i: A = 4 sqrt2).
