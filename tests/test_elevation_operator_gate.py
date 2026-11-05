@@ -1973,6 +1973,82 @@ def test_five_phase_master_toe_closure():
     assert float(rc102["max_precision_err_stage15"]) < 1e-12
     assert t102["all_six_guardrails_passed"] is True
 
+    # Theorem 103 (Stage 16.1): P-694 Milne-Thurston 3+1D Expanding Spacetime Clock & Dynamical T-NORM Isotropy
+    t103 = sc["theorem103_p694_milne_thurston_3plus1d_spacetime_clock_and_dynamical_tnorm_isotropy"]
+    assert "B1822_t_norm_on_the_frames_matter" in t103["seen_first"]
+    assert "MATH" in t103["claim_labels_and_scopes"]["p694_milne_thurston_3plus1d_expanding_spacetime_from_sl2c_branch_density"]
+    assert "MATH" in t103["claim_labels_and_scopes"]["b1822_p693_n4_dynamical_markov_relaxation_to_isotropic_tnorm"]
+    assert "plain_english_elaboration" in t103
+    assert float(t103["single_state_det_null_err"]) < 1e-15
+    assert abs(float(t103["tau_clock_step1"]) - 3.0) < 1e-14
+    assert float(t103["wronskian_det_identity_err"]) < 1e-14
+    assert float(t103["max_sl2c_lorentz_invariance_err"]) < 1e-13
+    assert t103["clock_strictly_increasing"] is True
+    assert float(t103["sympy_robertson_walker_metric_err"]) == 0.0
+    assert int(t103["g96_group_order"]) == 96
+    assert float(t103["max_g96_unitarity_err"]) < 1e-14
+    assert int(t103["unit_eigenvalue_multiplicity"]) == 1
+    assert float(t103["traceless_spectral_radius_err"]) < 1e-14
+    assert float(t103["tnorm_step40_isotropy_err"]) < 1e-11
+    assert int(t103["eliminated_tnorm_continuous_params"]) == 8
+
+    # Theorem 104 (Stage 16.2): Direct G_192 Peter-Weyl 12D Gauge Orthogonality & Frustrated Plaquette Curvature
+    t104 = sc["theorem104_direct_g192_peter_weyl_12d_gauge_orthogonality_and_plaquette_curvature"]
+    assert "B1822_t_norm_on_the_frames_matter" in t104["seen_first"]
+    assert "MATH" in t104["claim_labels_and_scopes"]["gap6_f_mc_direct_g192_peter_weyl_12d_sm_gauge_orthogonality"]
+    assert "MATH" in t104["claim_labels_and_scopes"]["non_vanishing_frustrated_plaquette_yang_mills_curvature"]
+    assert "plain_english_elaboration" in t104
+    assert int(t104["g192_group_order"]) == 192
+    assert int(t104["g768_full_group_order"]) == 768
+    assert float(t104["plaquette_su3_norm_err"]) < 1e-14
+    assert float(t104["plaquette_su2_norm_err"]) < 1e-14
+    assert float(t104["max_trace_orthonormality_err"]) < 1e-15
+    assert int(t104["peter_weyl_lie_algebra_rank"]) == 12
+    assert float(t104["max_off_diag_killing_err"]) < 1e-14
+    assert float(t104["su3_mean_stiffness_err"]) < 1e-14
+    assert float(t104["su2_stiffness_err"]) < 1e-14
+    assert float(t104["u1_stiffness_err"]) < 1e-14
+    assert float(t104["bare_weak_ratio_err"]) < 1e-14
+
+    # Theorem 105 (Stage 16.3): Tensor-Product Separation of 4_parity = 3_c (+) 1_l from Pillowcase Flavour & B915 Pati-Salam Scale
+    t105 = sc["theorem105_pati_salam_4parity_colour_lepton_vs_pillowcase_flavour_tensor_separation"]
+    assert "B1617_the_weave_at_tau_omega" in t105["seen_first"]
+    assert "B915_the_crossing" in t105["seen_first"]
+    assert "MATH" in t105["claim_labels_and_scopes"]["b1617_b1618_tensor_product_resolution_4parity_colour_lepton_vs_pillowcase_flavour"]
+    assert "HYPOTHESIS" in t105["claim_labels_and_scopes"]["b915_two_loop_rge_benchmark_and_pati_salam_4_to_3_plus_1_matching_scale"]
+    assert "plain_english_elaboration" in t105
+    assert float(t105["jacobi_null_cone_err"]) < 1e-14
+    assert t105["flavour_3_generations_distinct"] is True
+    assert float(t105["max_gauge_flavour_commutator_err"]) < 1e-14
+    assert float(t105["max_8fold_gauge_degeneracy_spread"]) < 1e-14
+    assert float(t105["max_haar_scrambling_err"]) < 1e-12
+    assert float(t105["b915_literature_benchmark_rel_err"]) < 0.005
+    assert float(t105["pati_salam_matching_residual"]) < 1e-12
+    assert int(t105["priced_pati_salam_threshold_continuous_params"]) == 1
+
+    # Theorem 106 (Stage 16.4): P-694 Spontaneous Horizon Freeze-Out, Blind Transfer Census, & Stage 16 Referee Gate
+    t106 = sc["theorem106_p694_spontaneous_horizon_freezeout_blind_transfer_census_and_stage16_referee_gate"]
+    assert "B1840_the_principled_ends" in t106["seen_first"]
+    assert "MATH" in t106["claim_labels_and_scopes"]["p694_spontaneous_horizon_freezeout_on_symmetric_sl2z_walks"]
+    assert "MATH" in t106["claim_labels_and_scopes"]["exhaustive_blind_transfer_operator_census_and_stage16_referee_gate"]
+    assert "plain_english_elaboration" in t106
+    assert abs(float(t106["ensemble_mean_chiral_rate"])) < 0.02
+    assert float(t106["horizon_freezeout_fraction"]) > 0.95
+    assert float(t106["spontaneous_branch_separation"]) > 0.45
+    assert int(t106["k2_total_operators"]) == 21
+    assert int(t106["k2_nondegenerate_count"]) == 8
+    assert float(t106["honest_k2_selection_bits"]) == 1.0
+    assert int(t106["k3_total_operators"]) == 35
+    assert int(t106["k3_nondegenerate_count"]) == 24
+    assert float(t106["honest_k3_selection_bits"]) == 3.0
+    assert int(t106["flagged_ast_assertions"]) == 0
+    rc106 = t106["referee_independent_counterchecks"]
+    assert float(rc106["independent_mpmath_stage16_err"]) < 1e-30
+    assert float(rc106["independent_fresh_haar_invariance_err_t106"]) < 1e-13
+    assert float(rc106["max_precision_err_stage16"]) < 1e-11
+    assert t106["all_six_guardrails_passed"] is True
+
+
 
 
 

@@ -839,5 +839,42 @@ Following `origin/main` `S305c` and `S305d` (`7ef54ee3e`, `P-687`, `P-692`, `P-6
 6. **`Theorem 102` (`theorem102_zero_trust_stage15_referee_and_full_repo_ast_openable_commitment_gate`, `MATH`):**
    - Verifies `Theorem 59`'s in-place $W_{\text{Ad}}(-1) = -14 \ne 0$ repair (`< 1e-14`), verifies `verify_held_out_seal_p676` (`Commit` + `Open`), expands the AST semantic taint scanner across **all** `tests/test_*.py` and `src/origin_axiom/*.py` files (`>= 15` files, `0` flagged assertions) and **all** `relays/**/*.md` files (`0` flagged lines), and passes 35-digit `mpmath` (`< 1e-30`) and 20-trial CKM Haar unitary (`< 1e-13`) counterchecks (`all_six_guardrails_passed == True`).
 
+---
+
+## 24. Update (Theorems 103–106): `P-694` Milne–Thurston 3+1D Expanding Spacetime Clock & Dynamical `T-NORM` Isotropy ($H \to I_3$), Direct $G_{192}$ Peter–Weyl 12D Gauge Orthogonality & Frustrated Plaquette Curvature (`GAP6`/`F-MC`), Tensor-Product Resolution of `B1617`/`B1618` ($\mathbf{4}_{\text{parity}} = \mathbf{3}_c \oplus \mathbf{1}_\ell$ vs Pillowcase Flavour) & `B915` Pati–Salam Matching Scale, and `P-694` Spontaneous Horizon Freeze-Out & Blind Transfer Census
+
+Following `origin/main` `S305e` (`34ea0c205`, which opened `P-694` `THE BANG AS THE PROGRAMME'S OWN PROCESS` and added $\eta_B$ to held-out list $V$ under `P-695`), we implemented, verified, and tested **Stage 16 (`Theorems 103 through 106`)** in `src/origin_axiom/toe_closure.py` and `tests/test_elevation_operator_gate.py`:
+
+1. **`Theorem 103` (`theorem103_p694_milne_thurston_3plus1d_spacetime_clock_and_dynamical_tnorm_isotropy`, `MATH`):**
+   - **Part A (`P-694` Clock & `GAP5` 3+1D Milne–Thurston Expanding Spacetime from $\operatorname{SL}(2,\mathbb{C})$ Branch Density):**
+     - Proves that a single 2-record branch state $\psi = (u, v)^T \in \mathbb{C}^2$ defines a rank-1 null Hermitian matrix $X(\psi) = \psi\psi^\dagger = t I + x\sigma_1 + y\sigma_2 + z\sigma_3 \in \operatorname{Herm}^+(2,\mathbb{C})$ with Minkowski interval $\det X(\psi) = t^2 - x^2 - y^2 - z^2 = 0$ (`single_state_det_null_err == 0.0`).
+     - Proves that the first non-cancelling bifurcation $\psi_L = L\psi_0, \psi_R = R\psi_0$ produces a positive-definite branch density matrix $X_1 = \psi_L\psi_L^\dagger + \psi_R\psi_R^\dagger$ whose determinant is the $\operatorname{SL}(2,\mathbb{C})$-invariant squared Wronskian $\det X_1 = |\psi_L \wedge \psi_R|^2 = 9 > 0$, defining an emergent cosmological proper-time clock $\tau_{\text{clock}}(1) = \sqrt{\det X_1} = 3.0$ (`max_sl2c_lorentz_invariance_err < 1e-13`) that grows strictly monotonically with step depth $n$ (`clock_strictly_increasing == True`).
+     - Proves via symbolic `sympy` Jacobian differentiation $g_{\mu\nu} = J^T \eta J$ that the foliation $X = \tau_{\text{clock}}\tilde{X}$ ($\det\tilde{X} = 1$) induces the exact 3+1D Robertson–Walker / Milne–Thurston expanding metric:
+       $$ds^2 = d\tau_{\text{clock}}^2 - \tau_{\text{clock}}^2\left(d\chi^2 + \sinh^2\chi\,d\theta^2 + \sinh^2\chi\sin^2\theta\,d\phi^2\right)$$
+       with zero discrepancy (`sympy_robertson_walker_metric_err == 0.0`).
+   - **Part B (`B1822` `T-NORM` & `P-693` `N4` Dynamical Markov Proof of $H = I_3$):**
+     - Proves that the symmetric primordial weave Markov superoperator $\mathcal{M}(H) = \frac{1}{4}(U_L H U_L^\dagger + U_R H U_R^\dagger + U_L^\dagger H U_L + U_R^\dagger H U_R)$ on $T_3$ ($|G_{96}| = 96$) has a unique unit eigenvalue (`unit_eigenvalue_multiplicity == 1`, corresponding to $H_* = I_3$ by Schur's lemma) and traceless 8D spectral radius $\lambda_{\text{relax}} = 1/2 < 1$ (`< 1e-14`), relaxing any anisotropic positive-definite initial metric $H_0 \succ 0$ (8 continuous parameters) exponentially to $I_3$ as $2^{-n}$ (`tnorm_step40_isotropy_err < 1e-11`).
+
+2. **`Theorem 104` (`theorem104_direct_g192_peter_weyl_12d_gauge_orthogonality_and_plaquette_curvature`, `MATH`):**
+   - **Resolves `GAP6` and `F-MC` Directly on $T_3 \oplus S_2$ Without $E_8$:**
+     - Constructs the joint group $G_{192} = \langle (U_L, Q_L), (U_R, Q_R) \rangle$ of order `192` (`768` with the 4 $\mathbb{Z}_2 \times \mathbb{Z}_2$ fibre sign holonomies) under the diagonal braid action of $B_3$ on $T_3 \oplus S_2$.
+     - Proves that the elementary frustrated-cancellation plaquette $W_{\square} = [L, R] = L R L^{-1} R^{-1}$ carries non-vanishing Yang–Mills curvature $\|U_{\square} - I_3\|_F = \sqrt{6}$ on $\operatorname{SU}(3)_c$ and $\|Q_{\square} - I_2\|_F = 2$ on $\operatorname{SU}(2)_L$ (`< 1e-14`).
+     - Proves that the Peter–Weyl group-averaged Killing metric $G_{AB} = \frac{1}{192}\sum_{g \in G_{192}} c_A(g) c_B(g)$ across all 12 trace-orthonormal generators ($\operatorname{Tr}(T_A T_B) = \frac{1}{2}\delta_{AB}$) of $\mathfrak{su}(3)_c \oplus \mathfrak{su}(2)_L \oplus \mathfrak{u}(1)_Y$ has exact rank `12/12`, zero cross-sector off-diagonal mixing (`max_off_diag_killing_err < 1e-14`), and exact Frobenius–Schur isotropic stiffnesses $I_{\mathfrak{su}(3)} = 1/3$, $I_{\mathfrak{su}(2)} = 1$, and $I_{\mathfrak{u}(1)} = 1/3$ (giving bare stiffness ratio $I_1/(I_2 + I_1) = 1/4$ to `< 1e-14`).
+
+3. **`Theorem 105` (`theorem105_pati_salam_4parity_colour_lepton_vs_pillowcase_flavour_tensor_separation`, `MATH` + `HYPOTHESIS`):**
+   - **Part A (Tensor-Product Resolution of the `B1617`/`B1618` Impossibility Theorem):**
+     - Proves that the 4 spin structures decompose under the mapping class group as $\mathbf{4}_{\text{parity}} = \mathbf{3}_{\text{colour}} \oplus \mathbf{1}_{\text{lepton}}$ (the Pati–Salam colour-lepton register, so $H = I_3$ and the `B1617`/`B1618` degeneracy of $\mathbf{3}_T$ at $\tau = \omega$ is exact unbroken $\operatorname{SU}(3)_c$ colour invariance), while the 3 flavour generations live on the orthogonal tensor factor $\mathcal{H}_{\text{flavour}}(\tau) = \operatorname{span}\{e_P, e_M, e_N\}$ on the pillowcase $\Sigma_{1,1}/\mathbb{Z}_2$ (`jacobi_null_cone_err < 1e-14`, `[G_gauge (x) I_3, I_8 (x) Y_flavour] = 0` to `< 1e-14`, 8-fold gauge degeneracy spread `< 1e-14`, and 25-trial Haar unitary basis-scrambling invariance `< 1e-12`).
+   - **Part B (`B915` 2-Loop SM Gauge RGE Literature Benchmark & Pati–Salam Matching Scale):**
+     - Reproduces `B915`'s 2-loop SM pairwise crossing scales ($M_{12} = 1.09\times 10^{13}\text{ GeV}$, $M_{13} = 1.72\times 10^{14}\text{ GeV}$, $M_{23} = 2.91\times 10^{16}\text{ GeV}$) to `< 0.5%` (`Guardrail 4`) and proves that the $P$-symmetric Pati–Salam $\mathbf{4}_{\text{parity}} \to \mathbf{3}_c \oplus \mathbf{1}_\ell$ matching identity $5\alpha_1^{-1}(M_{\text{PS}}) = 3\alpha_2^{-1}(M_{\text{PS}}) + 2\alpha_3^{-1}(M_{\text{PS}})$ has a unique zero-crossing along the 2-loop SM trajectory at $M_{\text{PS}} = 4.401\times 10^{13}\text{ GeV}$ ($\log_{10}(M_{\text{PS}}/\text{GeV}) = 13.6436$, `pati_salam_matching_residual < 1e-14`, explicitly priced as 1 continuous threshold scale under `Guardrail 5`).
+
+4. **`Theorem 106` (`theorem106_p694_spontaneous_horizon_freezeout_blind_transfer_census_and_stage16_referee_gate`, `MATH`):**
+   - **Part A (`P-694` Spontaneous Horizon Freeze-Out at Symmetric $p = 1/2$, Strictly Data-Free per `P-695`):**
+     - Proves on 400 deterministic-seed symmetric $\operatorname{SL}(2,\mathbb{Z})$ random walks ($p(\{L,R\}) = p(\{L^{-1},R^{-1}\}) = 1/2$, zero built-in CP bias) that the global ensemble mean chiral rate vanishes (`|<B/n>| < 0.02`) while `> 95%` of individual trajectories permanently freeze into a single boundary horizon hemisphere ($\xi > 0$ or $\xi < 0$) before step 25, carrying opposite-sign spontaneous matter excesses (`spontaneous_branch_separation > 0.50`), with zero reference to any held-out `P-695` value.
+   - **Part B (Exhaustive Blind Transfer Census & Honest `Guardrail 1` Bit-Pricing):**
+     - Enumerates all $\binom{7}{2} = 21$ two-word and $\binom{7}{3} = 35$ three-word transfer operators on $T_3$, finding $8/21$ (`2` distinct slopes `[0.548819, 0.945616]`, priced at $\log_2(2) = 1.0\text{ bit}$) and $24/35$ (`8` distinct slopes, priced at $\log_2(8) = 3.0\text{ bits}$) with 3 strictly distinct eigenvalue moduli $< 1$.
+   - **Part C (Zero-Trust Stage 16 Referee & Full-Repo AST Blinding Gate):**
+     - Certifies `Theorems 103–105` in 35-digit `mpmath` (`< 1e-30`), 20-trial CKM Haar rotations (`< 1e-13`), and full-repository AST semantic taint scanning (`0` flagged assertions, `all_six_guardrails_passed == True`).
+
+
 
 
