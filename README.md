@@ -22,9 +22,9 @@ nothing in this block is typed by hand.*
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.61) of 2026-11-03 |
 | arcs with a verdict | 1542: 1052 PROVED, 382 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 698: 302 open (queued, leads, waiting for the owner), 396 closed |
+| points in the register | 699: 303 open (queued, leads, waiting for the owner), 396 closed |
 | the last review | Review 74 (2026-11-04), anchor `41420ae14` |
-| the last landing | S305f THE AGY LANE'S STAGES 14–15 READ AT THE OWNER'S WORD: NO JOINT EARNED, NOTHING THAT MOVES B1839; COMPLIANCE REGRESSED (2026-11-05) |
+| the last landing | S305g THE HOMEWORK FOR A CLOSURE: B1841 SEALED BEFORE B1839 IS READ; THE SEATS ENGAGED (2026-11-05) |
 <!-- STATE:END -->
 
 ## Start here
