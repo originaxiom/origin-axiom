@@ -72,3 +72,10 @@ the screen's own 10% theory allowance, a correct frame almost never meets that.
   - LOOK_LEDGER.
 - `VERDICT topic-sweep /joint p|joint test|per-target|Fisher|combined p/`: the record's prior combination is THE_BAR's per-cell
   Bonferroni; no joint p_V rule existed.
+- **Literature.**
+  - Fisher's method of combining independent p-values (Fisher 1932). Its product statistic is used here, but calibrated by
+    rank among the null's own worlds rather than by a χ² law, so correlated targets need no correction.
+  - Rank-product statistics (Breitling et al. 2004).
+  - Exact permutation (Monte Carlo) p-values that count the data among the null draws (Phipson and Smyth 2010).
+  - The Clopper–Pearson interval for a Monte Carlo p.
+  - Main's calibration run checks the construction, rather than relying on these sources.
