@@ -1,0 +1,18 @@
+row (apex 22, line 10 ('1/4', '1/4'), end 1) lep St ratio#1: sealed ln -36.934 indep ln -36.949  |d| 1.56e-02  ratio size 9.0e-17
+row (apex 211, line 255 ('5/12', '1/4'), end 3) lep S ratio#1: sealed ln -36.436 indep ln -37.486  |d| 1.05e+00  ratio size 5.3e-17
+row (apex 211, line 255 ('5/12', '1/4'), end 3) lep St ratio#1: sealed ln -41.023 indep ln -38.114  |d| 2.91e+00  ratio size 1.5e-18
+row (apex 116, line 242 ('1/4', '7/12'), end 3) lep S ratio#1: sealed ln -37.027 indep ln -37.344  |d| 3.16e-01  ratio size 6.1e-17
+row (apex 116, line 242 ('1/4', '7/12'), end 3) lep St ratio#1: sealed ln -36.894 indep ln -37.809  |d| 9.15e-01  ratio size 3.8e-17
+row (apex 82, line 251 ('1/3', '11/12'), end 0) lep S ratio#1: sealed ln -38.669 indep ln -38.084  |d| 5.85e-01  ratio size 1.6e-17
+row (apex 82, line 251 ('1/3', '11/12'), end 0) lep St ratio#1: sealed ln -36.234 indep ln -38.032  |d| 1.80e+00  ratio size 3.0e-17
+row (apex 197, line 224 ('1/12', '1/3'), end 3) lep S ratio#1: sealed ln -39.175 indep ln -37.396  |d| 1.78e+00  ratio size 9.7e-18
+row (apex 197, line 224 ('1/12', '1/3'), end 3) lep St ratio#1: sealed ln -37.874 indep ln -37.848  |d| 2.58e-02  ratio size 3.6e-17
+row (apex 220, line 225 ('1/12', '5/12'), end 3) lep S ratio#1: sealed ln -38.064 indep ln -37.456  |d| 6.08e-01  ratio size 2.9e-17
+row (apex 220, line 225 ('1/12', '5/12'), end 3) lep St ratio#1: sealed ln -37.512 indep ln -37.448  |d| 6.41e-02  ratio size 5.1e-17
+row (apex 48, line 238 ('1/4', '1/12'), end 0) lep S ratio#1: sealed ln -37.582 indep ln -36.360  |d| 1.22e+00  ratio size 4.8e-17
+row (apex 48, line 238 ('1/4', '1/12'), end 0) lep St ratio#1: sealed ln -36.973 indep ln -37.860  |d| 8.87e-01  ratio size 3.6e-17
+row (apex 30, line 220 ('1/12', '0'), end 2) lep S ratio#1: sealed ln -36.189 indep ln -36.448  |d| 2.59e-01  ratio size 1.5e-16
+row (apex 30, line 220 ('1/12', '0'), end 2) lep St ratio#1: sealed ln -37.805 indep ln -36.609  |d| 1.20e+00  ratio size 3.8e-17
+discrepancies > 1e-8: 20 of 360 values; worst among ratios > 1e-10: 0.00e+00
+
+[exited with code 0]

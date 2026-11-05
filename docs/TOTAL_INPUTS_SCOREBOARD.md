@@ -4,7 +4,7 @@
 
 **The rule.** the owner's ruling of 2026-10-29 (P-418): a total-inputs scoreboard beside '0 of 19' -- the 19, the identification price, and each frame's counted choices; progress = the totals falling. The owner, 2026-11-04 (P-661): a complete picture with its borrowed joints named, so the joints can be earned later.
 
-**Headline.** 0 of 19 earned | identification price 13 | frame A (the record's candidate): 10 rows claimed, 14 borrowed joints [10 chosen, 3 ansatz, 1 fitted] | frame B (the agy lane's complete picture): 23 rows claimed, 44 borrowed joints [18 chosen, 14 ansatz, 6 measured-input, 3 refuted, 2 unknown, 1 fitted]
+**Headline.** 0 of 19 earned | identification price 13 | frame A (the record's candidate): 6 rows claimed, 14 borrowed joints [11 chosen, 2 fitted, 1 ansatz] | frame B (the agy lane's complete picture): 23 rows claimed, 44 borrowed joints [18 chosen, 14 ansatz, 6 measured-input, 3 refuted, 2 unknown, 1 fitted]
 
 A joint is EARNED only if a banked theorem or law on main supplies it (FORCED-BY-MAIN, or VERIFIED-BY-MAIN for an exact identity checked but not proved); every other joint is BORROWED: CHOSEN, FITTED, MEASURED-INPUT, ANSATZ, FORCED-CLAIMED (a seat's word), REFUTED or UNKNOWN. A joint counts once however many rows it feeds. Progress means the borrowed totals fall.
 
@@ -17,35 +17,35 @@ A joint is EARNED only if a banked theorem or law on main supplies it (FORCED-BY
 | S01 | a flat bundle on the fibre (no curvature, flux or continuous moduli from the geometry) | ANSATZ | FL-02 (OPEN, GAP6); 107 of 173 value-kills sit on flat premises (P-571) | P-571 |
 | S02 | the orientation: the orientable, amphichiral member (SE2) | CHOSEN | FL-03; GENESIS SE2 | |
 
-## Frame A — the record's candidate: THE SIX ON THE STRIP (FR-FIB at the small-cut end; B1829, P-585)
+## Frame A — the record's candidate: THE SIX AT THE AREA-4 HOROCYCLE (FR-FIB at B1841's E4 row; B1841, P-706)
 
-*Status:* a CANDIDATE at level 1 (screen); its level-2 confirmation is one held-out target short (P-597).
+*Status:* a level-1 READING (B1841 PROVED as sealed; B1839 NEGATIVE): the six reach chi2 4.73 at E4, but on its order-5 line the leptons are the down sector (Y_e ∝ Y_d^T) and the frame's quark four alone are not specific (9.2%; P-706); the CKM four are not claimed at this row (untested there, and never at one address with the six, P-555); the held-out targets are HELD by the owner (P-709).
 
-Rows claimed: m_u/m_c, m_c/m_t, m_d/m_s, m_s/m_b, m_e/m_mu, m_mu/m_tau, |V_us|, |V_cb|, |V_ub|, J (or delta_CP).
+Rows claimed: m_u/m_c, m_c/m_t, m_d/m_s, m_s/m_b, m_e/m_mu, m_mu/m_tau.
 Held out (sealed): m_b/m_t (firewalled), m_tau/m_b (firewalled).
 Graded an input: theta-bar.
 No frame: y_t, g_1, g_2, g_3, m_H, v.
 
-**Borrowed joints: 14** (10 CHOSEN, 3 ANSATZ, 1 FITTED), the shared block included.
+**Borrowed joints: 14** (11 CHOSEN, 2 FITTED, 1 ANSATZ), the shared block included.
 
 | id | joint | type | rows fed | same as | register | basis |
 |---|---|---|---|---|---|---|
-| A01 | the modulus tau (Re tau, Im tau) on the strip, Im tau near 3 | FITTED | 10 | B01 | P-629 | FL-04; B1829's REGRADE: the strip was found by sealed looks at the data (P-585's look count) |
-| A02 | the slope 2/5 of the line class | CHOSEN | 10 | B02 | P-384, P-625 | P-384 (the referee: mostly a pick); P-625 as corrected at S301 (B1836): a criterion reading no held-out quantity picks 2/5 (within-sector gaps not all equal among lines with B1728's identity; B1788 sec. 4's up-steeper order), but it is chosen after the fact or fitted to the seen six, so the slope st |
-| A03 | the line's order 10 (an odd/10 offset; the five odd offsets are one T-orbit, so which one is the sheet of Re tau, A01) | CHOSEN | 10 | B03 | P-384 | P-384; S301 (B1836): T is a symmetry of the outputs, (tau, (a, b)) -> (tau + 1, (a, b - a)) |
-| A04 | the Higgs direction DR, the Serre derivative of the theta triplet R (a weight-3/2 covariant section; B1691), as every look of the family runs it (B1726 compute) | CHOSEN | 10 | B04 | P-366 | one section of a menu (R, DR, D2R and their combinations; B1691, B1726); corrected S300d — first written as a census theta-power direction |
-| A05 | the up-conjugate reading (S~, S, S) at a0 = 0 | CHOSEN | 10 | B05 | P-295 | FL-09; B1744 (the reading is not forced); B1832's S300 section (FR-FIB at a0 = 0 against FR-COV); S301: the web seat's doublet index EXCLUDES a twist-read Higgs as its source within FR-FIB as ruled (B1836) |
-| A06 | the horocycle L_max (over L_2) | CHOSEN | 10 | B07 | P-402 | P-402: selected by the data, not absorbed by tau (the web seat's sealed H2) |
-| A07 | the end: the small-cut norm 2 pi L + c_s at L_max | ANSATZ | 10 | | P-421 | P-421; B1838: at the exact norms the six fail (reproduced on main); e^-L_max > 1/2 at every B1667 point, so the small-disc expansion is used where no disc fits; no single horoball level reproduces its channel weights (three depths -- channels j and k together, 1, and i -- tested at two rows; B1838 s |
-| A08 | the generations' metric H = I | CHOSEN | 10 | B09 | P-531 | B1822; FL-11 |
-| A09 | the channel weights sqrt(2 pi L + c_s), a flat norm and cut with a hyperbolic radius | ANSATZ | 10 | |  | FL-11 (UNSTATED) |
-| A10 | the lepton factor c = 3 | CHOSEN | 2 | B11 | P-446 | FL-12 (inserted by hand); B1789, B1793, B1817 (not derived) |
-| A11 | one address: one tau, one line, one point coupling for all sectors | CHOSEN | 10 | B12 | P-555 | FL-07 (UNSTATED in code) |
-| A12 | the scale: tree level at M_Z, no running | CHOSEN | 10 | B10 | P-570 | FL-13, FL-21; P-570, P-590 |
+| A01 | the modulus tau (Re tau, Im tau) on the strip, Im tau near 3 | FITTED | 6 | B01 | P-629 | FL-04; B1829's REGRADE: the strip was found by sealed looks at the data (P-585's look count) |
+| A02 | the slope 2/5 of the line class | CHOSEN | 6 | B02 | P-384, P-625 | P-384 (the referee: mostly a pick); P-625 as corrected at S301 (B1836): a criterion reading no held-out quantity picks 2/5 (within-sector gaps not all equal among lines with B1728's identity; B1788 sec. 4's up-steeper order), but it is chosen after the fact or fitted to the seen six, so the slope st |
+| A03 | the line's offset: (2/5, 4/5), order 5, at B1841's row (an odd/10 offset, order 10, at the retired small-cut end; the five odd offsets are one T-orbit) | CHOSEN | 6 | B03 | P-384, P-707 | P-384; S301 (B1836): T is a symmetry of the outputs, (tau, (a, b)) -> (tau + 1, (a, b - a)); B1841 (S305j): the six's best row at the principled end E4 is on the order-5 line (2/5, 4/5), where the lepton ratios equal the down ratios (P-706); the offset moved with the end (P-707) |
+| A04 | the Higgs direction DR, the Serre derivative of the theta triplet R (a weight-3/2 covariant section; B1691), as every look of the family runs it (B1726 compute) | CHOSEN | 6 | B04 | P-366 | one section of a menu (R, DR, D2R and their combinations; B1691, B1726); corrected S300d — first written as a census theta-power direction |
+| A05 | the up-conjugate reading (S~, S, S) at a0 = 0 | CHOSEN | 6 | B05 | P-295 | FL-09; B1744 (the reading is not forced); B1832's S300 section (FR-FIB at a0 = 0 against FR-COV); S301: the web seat's doublet index EXCLUDES a twist-read Higgs as its source within FR-FIB as ruled (B1836) |
+| A06 | the end's level among B1840's four (E4 = L2 - pi/2, the area-4 horocycle; was the horocycle L_max over L_2 at the small-cut end) | CHOSEN | 6 | B07 | P-402, P-707 | P-402 (L_max over L_2 at the small-cut end); B1841: the level is E4, one of four principled entries priced in its null; whether A06 and A07 now name one choice is Review 75's (P-707) |
+| A07 | the end: the exact horoball norm at B1841's principled entry E4 (was the small-cut norm 2 pi L + c_s at L_max) | CHOSEN | 6 | | P-421, P-706 | B1841 (sealed; D holds, r97.5 0.885%, the entry priced among K = 4): a discrete principled end, nothing fitted; B1839 (D fails, r97.5 2.46%): a free level does not carry the six; the small-cut ansatz retired (re-typed ANSATZ -> CHOSEN at S305j by B1841's sealed reading; earlier: CHOSEN -> ANSATZ at  |
+| A08 | the generations' metric H = I | CHOSEN | 6 | B09 | P-531, P-705 | B1822; FL-11; S305j (P-705): H = I is P-259's minimal-Kähler hypothesis -- B1736's family group acts by the irreducible cube rotations rho', so by Schur any tau-independent invariant metric is a multiple of I; non-minimal Kähler terms (covariant, with coefficients of their own; Chen, Ramos-Sanchez a |
+| A09 | the channel weights: the exact horoball norms at the end (was sqrt(2 pi L + c_s), a flat norm cut with a hyperbolic radius) | CHOSEN | 6 | | P-421 | FL-11; B1838's closed form at finite height ('THE CHANNEL NORMS IN CLOSED FORM AT FINITE HEIGHT') replaces the small-disc expansion; that a channel's weight IS its norm at a cut stays a choice (re-typed ANSATZ -> CHOSEN at S305j with A07) |
+| A10 | the lepton factor c (3.77 at B1841's row, continuous and fitted; c = 3 at the small-cut end) | FITTED | 2 | B11 | P-446, P-706 | FL-12; B1839 and B1841 price c continuous in [1/3, 5]; on order-5 lines c is the Georgi-Jarlskog factor between the down and lepton ratios (P-706, P-355) (re-typed CHOSEN -> FITTED at S305j) |
+| A11 | one address: one tau, one line, one point coupling for all sectors | CHOSEN | 6 | B12 | P-555 | FL-07 (UNSTATED in code) |
+| A12 | the scale: tree level at M_Z, no running | CHOSEN | 6 | B10 | P-570 | FL-13, FL-21; P-570, P-590 |
 
-Borrowed joints per claimed row (shared block included): m_u/m_c 13; m_c/m_t 13; m_d/m_s 13; m_s/m_b 13; m_e/m_mu 14; m_mu/m_tau 14; |V_us| 13; |V_cb| 13; |V_ub| 13; J (or delta_CP) 13.
+Borrowed joints per claimed row (shared block included): m_u/m_c 13; m_c/m_t 13; m_d/m_s 13; m_s/m_b 13; m_e/m_mu 14; m_mu/m_tau 14.
 
-**The joints to earn first (by rows released):** A01 the modulus tau (Re tau, Im tau) on the strip, Im tau near 3 (fitted, 10 rows); A02 the slope 2/5 of the line class (chosen, 10 rows); A03 the line's order 10 (an odd/10 offset; the five odd offsets are one T-orbit, so which one is the sheet of Re tau, A01) (chosen, 10 rows); A04 the Higgs direction DR, the Serre derivative of the theta triplet R (a weight-3/2 covariant section; B1691), as every look of the family runs it (B1726 compute) (chosen, 10 rows); A05 the up-conjugate reading (S~, S, S) at a0 = 0 (chosen, 10 rows); A06 the horocycle L_max (over L_2) (chosen, 10 rows); A07 the end: the small-cut norm 2 pi L + c_s at L_max (ansatz, 10 rows); A08 the generations' metric H = I (chosen, 10 rows).
+**The joints to earn first (by rows released):** A01 the modulus tau (Re tau, Im tau) on the strip, Im tau near 3 (fitted, 6 rows); A02 the slope 2/5 of the line class (chosen, 6 rows); A03 the line's offset: (2/5, 4/5), order 5, at B1841's row (an odd/10 offset, order 10, at the retired small-cut end; the five odd offsets are one T-orbit) (chosen, 6 rows); A04 the Higgs direction DR, the Serre derivative of the theta triplet R (a weight-3/2 covariant section; B1691), as every look of the family runs it (B1726 compute) (chosen, 6 rows); A05 the up-conjugate reading (S~, S, S) at a0 = 0 (chosen, 6 rows); A06 the end's level among B1840's four (E4 = L2 - pi/2, the area-4 horocycle; was the horocycle L_max over L_2 at the small-cut end) (chosen, 6 rows); A07 the end: the exact horoball norm at B1841's principled entry E4 (was the small-cut norm 2 pi L + c_s at L_max) (chosen, 6 rows); A08 the generations' metric H = I (chosen, 6 rows).
 
 ## Frame B — the agy lane's complete picture: its master scorecard, Route A, at 18c607040
 

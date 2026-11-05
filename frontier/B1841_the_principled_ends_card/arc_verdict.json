@@ -1,0 +1,34 @@
+{
+ "id": "B1841",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1840",
+  "B1839",
+  "B1838",
+  "B1798",
+  "B1753",
+  "B1741",
+  "B1728",
+  "B1742",
+  "B1667",
+  "B1656"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the web seat's E4 (B1840) and its hostile referee of the card (CHAT1_TO_CC_2026-11-05_B1841_AND_B1842_REFEREED.md)"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "FR-FIB: B1656's coupling at the exact horoball norm of every channel at one of B1840's four principled levels (E1 L_2, E2 ln 2, E3 L_max, E4 L_2 - pi/2), the Higgs DR, B1741's seat menu of readings, the lepton factor c continuous in [1/3, 5]; B1839's sealed instruments imported unchanged",
+  "object": "the six charged-fermion mass ratios at M_Z against B1741's random hierarchies (the matched null, the entry priced among K = 4)",
+  "reach": "class",
+  "hypotheses": "B1753's 223 apexes x all 266 lines x 4 entries (237 272 rows); seeds 51001-51250; D at r97.5 < 0.01 named in advance; read with B1839 by the joint rule fixed in B1841's PRE_RUN_NOTE before either look"
+ },
+ "claim_one_line": "THE PRINCIPLED-ENDS CARD (sealed 29b0e5b39; output committed unread at aba2bddd6): at B1840's principled entry E4 = L_2 - pi/2 (the area-4 horocycle) the six reach chi2_six 4.727 (best row apex 162, tau0 = (1/2, 2.9496), line (2/5, 4/5), (S~, S, S), c 3.77) with 0.87% of random hierarchies as low once the entry is priced among four (r97.5 0.885% < 1%; E4 alone 0.34%, E2 0.91%, E3 2.36%, E1 9.56%): PROVED as sealed; with B1839 failing (the free level), A07 is re-typed CHOSEN at this row. Main's third opinion (brute-force minima and null exact; an independent per-sector instrument equal above 1e-10) and its post-hoc read-out make it a READING (P-706): the row is on an order-5 line where the lepton spectrum is the down spectrum (B1728's law), the frame's quark four alone are not specific (9.2% at E4, 17.5% over the four ends), and D_frame = c^2 = 14.23 against P-094's 10.58 +- 0.11 -- structure carries the six, the frame's values do not; the held-out targets are held by the owner (P-709). 0 of 19.",
+ "weave_or_thread": "weave (the frame's coupling at every apex, line and principled level)"
+}

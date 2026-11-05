@@ -1,0 +1,8 @@
+features (237272, 2, 2) (352 s)
+seat menu's (up, down) reading pairs: [(1, 0), (1, 1)]
+all_ends  quark-four minimum chi2 3.748192; null hits 175085 / 1000000 = 1.7508e-01 (r97.5 1.7583e-01) (373 s)
+end_0     quark-four minimum chi2 3.748192; null hits 95169 / 1000000 = 9.5169e-02 (r97.5 9.5746e-02) (389 s)
+end_1     quark-four minimum chi2 5.842836; null hits 131097 / 1000000 = 1.3110e-01 (r97.5 1.3176e-01) (404 s)
+end_2     quark-four minimum chi2 10.136992; null hits 206934 / 1000000 = 2.0693e-01 (r97.5 2.0773e-01) (419 s)
+end_3     quark-four minimum chi2 3.989068; null hits 91724 / 1000000 = 9.1724e-02 (r97.5 9.2291e-02) (434 s)
+quark_only exit 0 (434 s)

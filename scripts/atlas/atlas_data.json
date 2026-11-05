@@ -15428,6 +15428,17 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1839": {
+   "slug": "the end card",
+   "motifs": [],
+   "refs": [
+    "P1"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B183": {
    "slug": "open collective arrow",
    "motifs": [
@@ -15459,6 +15470,19 @@
    "obstacle_conf": 22,
    "status": "dormant",
    "domain": "arithmetic"
+  },
+  "B1841": {
+   "slug": "the principled ends card",
+   "motifs": [
+    "figure_eight"
+   ],
+   "refs": [
+    "P1"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
   },
   "B1843": {
    "slug": "genesis v1 62",
