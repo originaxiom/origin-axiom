@@ -1772,6 +1772,65 @@ def test_five_phase_master_toe_closure():
     assert float(rc88["max_precision_err_stage12"]) < 1e-6
     assert t88["all_six_guardrails_passed"] is True
 
+    # Theorem 89 (Stage 13.1): Analytic Proof of B1839's Control C1 Higgs-Twist Norm Law & 170-Class Partition of 266 Lines
+    t89 = sc["theorem89_b1839_higgs_twist_norm_law_and_170_class_partition_theorem"]
+    assert "B1839_the_end_card" in t89["seen_first"]
+    assert "FORCED-BY-MAIN" in t89["claim_labels_and_scopes"]["b1839_c1_four_sector_horoball_norm_identity"]
+    assert "MATH" in t89["claim_labels_and_scopes"]["b1713_266_lines_to_170_higgs_twist_classes_theorem"]
+    assert "plain_english_elaboration" in t89
+    assert int(t89["total_lines_count"]) == 266
+    assert int(t89["higgs_twist_classes_count"]) == 170
+    assert t89["class_size_distribution"] == {1: 156, 5: 4, 9: 10}
+    assert t89["t_shift_bijection_verified"] is True
+    assert float(t89["frobenius_al2_be2_err"]) < 1e-14
+    assert float(t89["frobenius_odd_max_err"]) < 1e-14
+    assert float(t89["max_horocycle_inversion_err"]) < 1e-12
+    assert float(t89["max_four_sector_horoball_norm_err"]) < 1e-12
+    assert float(t89["within_class_rel_err"]) < 1e-12
+    assert float(t89["between_class_abs_diff"]) > 0.5
+
+    # Theorem 90 (Stage 13.2): Liouville Second-Laurent Identity & Completed-Square Horoball Asymptotics to O(e^{-6 L_h})
+    t90 = sc["theorem90_b1839_completed_square_horoball_asymptotics_and_lame_accessory_coupling"]
+    assert "B1839_the_end_card" in t90["seen_first"]
+    assert "MATH" in t90["claim_labels_and_scopes"]["liouville_second_laurent_identity_a1_from_a0_and_wp"]
+    assert "MATH" in t90["claim_labels_and_scopes"]["completed_square_horoball_norm_asymptotics_to_o_exp_minus_6Lh"]
+    assert "plain_english_elaboration" in t90
+    assert float(t90["liouville_a1_identity_err"]) < 1e-11
+    assert float(t90["rem_o4_at_delta_3"]) < 1e-9
+    assert float(t90["rem_o4_at_delta_4"]) < 5e-11
+    assert float(t90["o4_improvement_factor_at_delta_3"]) > 400.0
+    assert float(t90["min_crossing_delta"]) > 0.14
+    assert float(t90["max_crossing_delta"]) < 0.32
+
+    # Theorem 91 (Stage 13.3): S305a P-665 Data-Free Takagi Basis Invariance & 3-Fold Cover M_3 -> m004 Wada Factorization
+    t91 = sc["theorem91_s305a_p665_basis_invariant_seesaw_spectrum_and_m3_cover_wada_factorization"]
+    assert "B1837_agy_stages_8_9_and_the_density_higgs" in t91["seen_first"]
+    assert "FORCED-BY-MAIN" in t91["claim_labels_and_scopes"]["s305a_p665_data_free_takagi_invariance_vs_rhs_overlap"]
+    assert "MATH" in t91["claim_labels_and_scopes"]["m3_cover_wada_polynomial_chebyshev_factorization"]
+    assert "plain_english_elaboration" in t91
+    assert float(t91["max_takagi_sv_haar_err"]) < 1e-13
+    assert float(t91["max_lr_overlap_rhs_variation"]) > 0.1
+    assert float(t91["max_m3_w_ad_factorization_err"]) < 1e-12
+    assert float(t91["max_m3_w_sl2_factorization_err"]) < 1e-12
+    assert abs(float(t91["m3_ad_nontrivial_sheet_prod_108"]) - 108.0) < 1e-12
+    assert abs(float(t91["m3_ad_full_three_sheet_prod_324"]) - 324.0) < 1e-12
+    assert abs(float(t91["m3_sl2_prod_at_t1_50"]) - 50.0) < 1e-12
+    assert abs(float(t91["m3_sl2_prod_at_tminus1_54"]) - 54.0) < 1e-12
+
+    # Theorem 92 (Stage 13.4): Zero-Trust Hostile-Referee Gate for Stage 13, B1839 Horoball Laws, and P-684 Salted Seal
+    t92 = sc["theorem92_zero_trust_hostile_referee_stage13_b1839_and_s305a_gate"]
+    assert "B1839_the_end_card" in t92["seen_first"]
+    assert "MATH" in t92["claim_labels_and_scopes"]["stage13_theorems_89_to_91_verification"]
+    assert "MATH" in t92["claim_labels_and_scopes"]["p684_salted_hiding_and_binding_seal_verification"]
+    assert "plain_english_elaboration" in t92
+    assert t92["seal_is_salted_and_hiding"] is True
+    rc92 = t92["referee_independent_counterchecks"]
+    assert float(rc92["independent_mpmath_m3_wada_err"]) < 1e-30
+    assert float(rc92["independent_fresh_haar_invariance_err_t92"]) < 1e-13
+    assert float(rc92["max_precision_err_stage13"]) < 1e-9
+    assert t92["all_six_guardrails_passed"] is True
+
+
 
 
 
