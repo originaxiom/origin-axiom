@@ -182,7 +182,7 @@ hash-first status.*
 | frontier/B1814_the_measured_world_as_a_draw_from_the_weaves_own_measure/PREREGISTRATION.md | fe4ef1ac | 86cb26b30 | 1 | yes |
 | frontier/B1825_step_b_the_nine_from_one_address/PREREGISTRATION.md | f84ceaf7 | fa25925fc | 1 | yes |
 | frontier/B1839_the_end_card/PREREGISTRATION.md | dc05a5c4 | c70b356f0 | 1 | yes |
-| frontier/B1840_the_principled_ends/DECLARATION.md | 662b2665 | untracked | 0 | NO |
+| frontier/B1840_the_principled_ends/DECLARATION.md | d36d9124 | 83c52cb0c | 1 | NO |
 | frontier/B367_value_map/PREREGISTRATION.md | 0023d02d | 4492f4771 | 1 | yes |
 | frontier/B370_massey_depth2/PREREGISTRATION.md | c32c2166 | d49cd33c1 | 1 | yes |
 | frontier/B372_level45_sweeper/PREREGISTRATION.md | 5cff9321 | e0082c8cf | 1 | yes |
@@ -445,6 +445,7 @@ hash-first status.*
 *Totals: 431 sealed documents; 1 unrecorded with single-commit provenance (content = banked content); 0 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
 
 ## Reservation & verdict rows (APPEND-ONLY — the collision protocol; preserved by the generator)
+
 
 
 

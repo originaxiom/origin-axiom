@@ -17,8 +17,8 @@ Entries it commits before main reads B1839's look join this list as E4 onward, w
 
 | entry | L_h(τ) | the principle |
 |---|---|---|
-| E1 | L₂(τ), B1667's `geometry()` | B1667's canonical cusp: the end radius the fibre's geometry fixes at order one (LAW_MAP, "THE CANONICAL CUSP"). The web seat is asked to confirm or refute reading it as the collar lemma's length-2 horocycle. |
-| E2 | ln 2 | The largest round disc about the puncture that the Dirichlet cell holds: its inradius is ½ (B1838 § 2b). This is the deepest end at which the small-cut expansion's own disc is embedded. Since L_max < ln 2 at every apex (0.6445–0.6562 in B1839's census), the horoball there is embedded too. |
+| E1 | L₂(τ), B1667's `geometry()` | B1667's canonical cusp: the collar lemma's length-2 horocycle, one of the fibre's two canonical cusp neighbourhoods (P-266's reason, on record; LAW_MAP, "THE CANONICAL CUSP"). |
+| E2 | ln 2 | The largest round disc about the puncture that the Dirichlet cell holds: its inradius is ½ (B1838 § 2b). This is the shallowest end at which the small-cut expansion's own disc is embedded. It is entered under P-266's reopening clause, with this rule stated. Since L_max < ln 2 at every apex (0.6445–0.6562 in B1839's census), the horoball there is embedded too. |
 | E3 | L_max(τ) | The maximal embedded horoball (δ = 0). It is already B1839's read-out 2 and is listed so that the family is complete. |
 
 **Not entered, with the reason:**
@@ -38,6 +38,11 @@ Entries it commits before main reads B1839's look join this list as E4 onward, w
 
 ## Seen first
 
+- `VERDICT topic-sweep /principled end|canonical end|cut level|collar|inradius|length.2 horocycle|derived end/ (full text): 21 of 1586 arcs on main match (NEGATIVE 6, OPEN 1, PROVED 14); 24 register rows match (DECLINED 1, DONE 19, QUEUED 4)`.
+  It turned up P-266 (DECLINED). Its reason states that the fibre's canonical cusp neighbourhoods are the maximal embedded
+  horoball and the collar lemma's length-2 horocycle (E3 and E1). It declines B486's 2√3, the 3-manifold's longitude and
+  not a horocycle of the fibre, and reopens only for a rule that names a third canonical end. E2 is entered with its rule.
+  It also turned up P-433 (B1691's ω table at the canonical end radius) and P-481 (B1816's Weil–Petersson clock).
 - B1838 (§ 2b: the inradius; L₂ − L_max = π(1 − 2/A_cusp); the zeta end);
 - B1667 (L_max, L₂);
 - B1839 (the card; its δ grid);
