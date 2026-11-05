@@ -18421,3 +18421,11 @@ The owner said yes to both of main's recommendations. The PMNS card, when it is 
 splitting ratio r; the mixing angles stay out because the mixing half of the identification already fails for the quarks
 at the candidate's address. No held-out target may be scanned against data before its own sealed card. The compliance
 follow-up went to the agy lane, naming its remaining exposures by line number only. 0 of 19.
+
+## 2026-11-05 — S305b: the closure prepared
+
+The owner asked what else could be done to prepare for a closure, and to divide the work with the SM seat and the web
+seat. The levels of the end that will count as derived are now fixed in writing before the end card's output is read, so
+that its profile cannot steer them. The web seat is asked for its own list, a third opinion of the census and a proof of
+the Higgs-twist law; the SM seat for the physics of the two confirmation cards and a sealed data file. The agy lane's
+Stage 12 and the web seat's second post hoc were verified; neither earns a joint. 0 of 19.

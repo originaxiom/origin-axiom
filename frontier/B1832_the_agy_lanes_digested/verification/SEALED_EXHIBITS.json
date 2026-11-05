@@ -910,5 +910,69 @@
   "lines": "1542-1570",
   "sha256": "9ed22278ac34ae9e6fa0edcaf0303e40733303fba28215e09da96481869ae392",
   "bytes": 1998
+ },
+ {
+  "what": "toe_closure.py 133-134 at 0b58e5eac (S305 reader: Stage 12's P-638 call sites and edited closures, the gate's held-out patterns, the sealed summary keys, or a seesaw-scale assertion sealed as a precaution)",
+  "rev": "0b58e5eac",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "133-134",
+  "sha256": "564a6af5e5399da0ce4115da8368f3876910a3bf194c3e1f7718de2270a04a0d",
+  "bytes": 123
+ },
+ {
+  "what": "toe_closure.py 171-171 at 0b58e5eac (S305 reader: Stage 12's P-638 call sites and edited closures, the gate's held-out patterns, the sealed summary keys, or a seesaw-scale assertion sealed as a precaution)",
+  "rev": "0b58e5eac",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "171-171",
+  "sha256": "991561bbcba222bd0d888b772aa17f9ef3747feca634ecc075e96b47be570591",
+  "bytes": 44
+ },
+ {
+  "what": "toe_closure.py 445-446 at 0b58e5eac (S305 reader: Stage 12's P-638 call sites and edited closures, the gate's held-out patterns, the sealed summary keys, or a seesaw-scale assertion sealed as a precaution)",
+  "rev": "0b58e5eac",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "445-446",
+  "sha256": "564a6af5e5399da0ce4115da8368f3876910a3bf194c3e1f7718de2270a04a0d",
+  "bytes": 123
+ },
+ {
+  "what": "toe_closure.py 516-516 at 0b58e5eac (S305 reader: Stage 12's P-638 call sites and edited closures, the gate's held-out patterns, the sealed summary keys, or a seesaw-scale assertion sealed as a precaution)",
+  "rev": "0b58e5eac",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "516-516",
+  "sha256": "991561bbcba222bd0d888b772aa17f9ef3747feca634ecc075e96b47be570591",
+  "bytes": 44
+ },
+ {
+  "what": "toe_closure.py 13469-13536 at 0b58e5eac (S305 reader: Stage 12's P-638 call sites and edited closures, the gate's held-out patterns, the sealed summary keys, or a seesaw-scale assertion sealed as a precaution)",
+  "rev": "0b58e5eac",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "13469-13536",
+  "sha256": "cbd0afbcafae24d94c4e679397989c743bea9eacb9fa756b49e85c66c7ebb2de",
+  "bytes": 3059
+ },
+ {
+  "what": "toe_closure.py 14373-15203 at 0b58e5eac (S305 reader: Stage 12's P-638 call sites and edited closures, the gate's held-out patterns, the sealed summary keys, or a seesaw-scale assertion sealed as a precaution)",
+  "rev": "0b58e5eac",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "14373-15203",
+  "sha256": "dfc89aca4841f0ee3c556d64a1920d285e0f23dbd14bab33afc86fa58cdab97e",
+  "bytes": 47971
+ },
+ {
+  "what": "toe_closure.py 15386-15410 at 0b58e5eac (S305 reader: Stage 12's P-638 call sites and edited closures, the gate's held-out patterns, the sealed summary keys, or a seesaw-scale assertion sealed as a precaution)",
+  "rev": "0b58e5eac",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "15386-15410",
+  "sha256": "a376eda3194f0467ae9f9647bb8d671f4eb9171617ff634a5d6ac79d274e8fa8",
+  "bytes": 2147
+ },
+ {
+  "what": "test_elevation_operator_gate.py 589-589 at 0b58e5eac (S305 reader: Stage 12's P-638 call sites and edited closures, the gate's held-out patterns, the sealed summary keys, or a seesaw-scale assertion sealed as a precaution)",
+  "rev": "0b58e5eac",
+  "path": "tests/test_elevation_operator_gate.py",
+  "lines": "589-589",
+  "sha256": "7455a46032e8ae74caa333e26d260223857caa731f88c1a2a099bea66bea4974",
+  "bytes": 116
  }
 ]

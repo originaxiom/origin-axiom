@@ -18,13 +18,13 @@
 | … NEGATIVE | 382 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 684 |
-| … QUEUED | 283 |
+| register points | 690 |
+| … QUEUED | 287 |
 | … LEAD | 9 |
 | … OWNER | 3 |
-| … DONE | 378 |
+| … DONE | 380 |
 | … DECLINED | 11 |
-| harvest rows (the last number) | 1562 |
+| harvest rows (the last number) | 1564 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -55,6 +55,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S305b THE CLOSURE PREPARED: THE PRINCIPLED ENDS DECLARED BEFORE B1839 IS READ (B1840); THE WEB SEAT AND THE SM SEAT ENGAGED; THE AGY LANE'S STAGE 12 AND THE WEB SEAT'S POST HOC 2 VERIFIED; P-670'S SW…
 - S305a THE OWNER'S TWO CALLS RULED (P-665, P-684): THE PMNS CARD'S ONE TARGET IS r; NO DATA-TOUCHING EXISTENCE SCAN FOR A HELD-OUT TARGET; THE COMPLIANCE FOLLOW-UP SENT TO THE AGY LANE (2026-11-05)
 - S304 THE CANDIDATE'S END IS THE NORM OF NO GEOMETRIC CUT (B1838): e^-L_max ABOVE THE CELL'S INRADIUS; NO SINGLE HOROCYCLE REPRODUCES ITS WEIGHTS; A07 RE-TYPED ANSATZ; THE AGY LANE'S STAGES 10-11 VERI…
 - S303 THE END IS THE DECIDER: THE EXACT-END FAILURE REPRODUCED ON MAIN (P-595, B1838); THE LINE'S ORDER AND THE NEUTRINO (P-682); THE DENSITY POST HOC REPRODUCED (P-681) (2026-11-05)
@@ -62,17 +63,16 @@
 - S301 B1836 THE SEATS PAST S300, FETCHED AND VERIFIED: THE F7 MIRROR IDENTITY PROVED; T A SYMMETRY OF THE OUTPUTS; THE SLOPE NEED NOT SPEND THE HELD-OUT TARGET; NO BORROWED JOINT EARNED BY THE AGY LAN…
 - S300f B1835: THE CARD'S INSTRUMENT AND ITS CONTROLS — U_e THROUGH B1726's OWN PATH; THE FRAME'S QUARK–LEPTON RELATION ∣U_PMNS∣ = ∣V_CKM†∣ ON THE ORDER-2 AND ORDER-4 LINES (2026-11-04)
 - S300e THE OWNER RULES ALL OF MAIN'S RECOMMENDATIONS ("i aprove all your recomendations"): THE BRAINSTORM RULES ADOPTED AND GATED; THE SLOPE SELECTION DECLINED; PF1-W SCOPED; L178, L86, L87 RETIRED; L…
-- S300d THE OWNER'S RULING ON P-660 (U_e AND THE PMNS FIRST): B1835 OPENED — THE CONTROL PASSES; ONLY THE NEUTRINO SPLITTING RATIO IS IN THE CANDIDATE'S SCOPE; TWO CALLS TO THE OWNER (2026-11-04)
 
 ## The latest campaign line
 
-LATEST (2026-11-05, S305a: the owner ruled P-665 — the PMNS card's one target is r, no data-touching existence scan for a held-out target before its card — and P-684: the compliance follow-up sent to the agy lane (line 94, 58 assertion lines, two gates that cannot fail). Next: the deciding sealed card for the end (P-421, B1838). 0 of 19.)
+LATEST (2026-11-05, S305b: the closure prepared — B1840 fixes the principled ends before B1839's look is read; the web seat engaged for the ends, a census third opinion and the Higgs-twist law; the SM seat for the confirmation cards' physics and a sealed data file; main builds the frozen-row instrument and the PMNS card's controls. The agy lane's Stage 12 and the web seat's POST HOC 2 verified, no joint. B1839's census running. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
 | check | count | first items |
 |---|---|---|
-| arc folders without a verdict file (scripts/checks/arc_data.py classifies them; its resolved R-classes are not defects) | 40 | B1839_the_end_card, B263_t41_cs_levels, B452_ethogram_dictionary, B473_criticality_program, B501_universe_word, B502_parity_signature |
+| arc folders without a verdict file (scripts/checks/arc_data.py classifies them; its resolved R-classes are not defects) | 41 | B1839_the_end_card, B1840_the_principled_ends, B263_t41_cs_levels, B452_ethogram_dictionary, B473_criticality_program, B501_universe_word |
 | verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 158 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
 | register rows not in the 7-cell form | 0 | — |
 

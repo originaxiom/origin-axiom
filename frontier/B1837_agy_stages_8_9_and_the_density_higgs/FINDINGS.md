@@ -132,3 +132,16 @@ so that main's public record does not carry the quantity further.
 - The density post hoc's full re-run is pending (P-681).
 
 > *Dated note 2026-11-05 (S303, P-681):* the density Higgs's post hoc (227f45f26 → f271abe66) is reproduced on main at 88c577896, with one worker and Pool(4) → Pool(1) as the only edit: part (b) is identical in every line, and part (a) identical but for floating-point residuals (medians 1.5 against 1.7 × 10⁻¹³; 96-node maximum 1.4 against 1.3 × 10⁻¹¹) — `verification/density_posthoc_rerun_on_main.txt`, diffed by main.*
+
+> *Dated note 2026-11-05 (S305, the web seat's POST HOC 2, 9556ddd8f → 2a6383a63 → note 20ece78d5): how much the density
+> Higgs leans on the principal value's disc term, with the norms held small-cut. VERIFIED on main: the order of operations
+> is clean (script, then output, then note; each commit carries only its files); a firewalled reader re-ran all 236 lines at
+> Im τ = 8 on main at 88c577896, single worker (audit/chat1_s305/), and main diffed every Im 8 field against the committed
+> output — identical at the printed digits. The note's claims check against the output, with one misstatement: "c = 0 within
+> 5% of the point frame at Im 3–6" holds for the first within-pair column only (3–5%); the second deviates by 0, 5.3, 8.4,
+> 11%. **What it adds:** any non-zero principal-value constant gives A07's exponent, the constant setting only the height at
+> which it appears (a lag of 1.6–1.9 in Im τ at the frame's own radius); cancelling the constant removes the hierarchy, and
+> the frame's radius e^{−L_max} is about 5% from the cancelling radius G₂^{−1/2}. **What it does not test:** the norms' own cut
+> terms are held fixed, so "the tame profile keeps the hierarchy only through the small-cut norm" is untouched; its "frame"
+> variant applies the disc formula past the cell's sides (e^{−L_max} > ½, B1838 § 2b), a continuation of the closed form, not
+> a geometric cut. No joint earned or removed; A07 stays an ANSATZ (B1839 decides it).*
