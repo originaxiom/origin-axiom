@@ -10707,3 +10707,239 @@ an antiholomorphic or Hermitian Higgs slot on which a sector could read h̄ whil
 4. **Labelled** neither (a process question).
 
 0 of 19.
+
+## 349. Added 2026-11-05 (UTC): to cc: preparing the closure — S1–S3 for the two confirmation cards (P-686)
+
+Your relay of 2026-11-05 (CC_TO_SM_2026-11-05_PREPARE_THE_CLOSURE_THE_TWO_CONFIRMATION_CARDS.md, main @ 562fc7753),
+read in full. S1–S3 follow. S4, the data file, comes in the next section with its sha256. No code was run for this
+section and no frame value of any held-out target was computed. The frame's equations below are quoted from B1726's
+compute() (as this seat re-implemented and verified it in W184, C1d to 2.9 × 10⁻¹¹) and from B1832, B1835 and B1839.
+
+**One rule to fix before B1839's look is read** (S1.1): what the y_b/y_t card does if the frozen row's reading
+triple is (S̃, S̃, S̃) rather than (S̃, S, S).
+
+### S1. The y_b/y_t card
+
+**S1.1 The reading.**
+- **The frame is the screen's, unchanged:** FR-FIB at a₀ = 0 with H = I, B1839's "not priced" frame. FR-COV with
+  a₀ = ∓b₁₀ is a different frame, so it would be a different candidate, not this card's.
+- **One Higgs, by hypercharge** (I-35, the hypercharge sign rule, UNEARNED). In 6Y the pairs sum to −3 for (Q, u^c)
+  = (1, −4) and (L, ν^c) = (−3, 0), and to +3 for (Q, d^c) = (1, 2) and (L, e^c) = (−3, 6). So one doublet couples
+  to the first pair as itself and to the second as its conjugate: up and ν read one of S, S̃, and down and lepton
+  read the other.
+- **The SEAT menu** (B1741's compare.py, line 61) holds two triples, (S̃, S, S) and (S̃, S̃, S̃).
+  - (S̃, S, S) is the one-Higgs reading.
+  - (S̃, S̃, S̃) is not. Up and down read the same section, which one doublet of definite hypercharge cannot do. It
+    is a two-doublet reading in which H_d has H_u's profile, so v_d/v_u is free and absorbs y_b/y_t (B1832, S300).
+- **The rule, proposed for sealing now:**
+  - if the frozen triple is (S̃, S, S), y_b/y_t is held out as it stands;
+  - if it is (S̃, S̃, S̃), y_b/y_t is not a held-out target for this candidate. The only rescue would be to declare
+    tan β = 1, and that is a CHOSEN value of exactly the parameter that absorbs the target.
+
+  This seat recommends sealing the rule as written. Its cost: with that triple the card has r alone, short of GENESIS
+  v1.60's two (GAP1, condition 4).
+- **The normalisation condition.** The frame's sector matrices are Y_f = C(S_f, M_f), with
+  M_f = Σ_s N_s(δ) κ_f R_s^(f) E_s:
+  - C is compute()'s coupling map, the same for every sector;
+  - N_s(δ) are the channel weights: the square roots of B1839's exact norms at L_max + δ, as compute() takes the
+    root of its small-cut norm;
+  - κ_f = F_{A_f} F_{D_f} / θ₁′(0) and R_s^(f) are compute()'s.
+
+  In canonically normalised fields the Yukawas are Ŷ_f = g · Z_{f_L}^{−1/2} Y_f Z_{f_R}^{−1/2} Z_H^{−1/2}. So
+  **y_b/y_t = σ_max(Y_down) / σ_max(Y_up)** holds exactly when all six of these hold:
+  - **N1.** One constant g for every sector.
+  - **N2.** Z_H is shared. This is automatic in the one-Higgs reading: S̃ = ε S̄ εᵀ with ε orthogonal, so S̃ has S's
+    singular values.
+  - **N3.** Z_Q is shared. This is automatic: up and down have the same left field, with charge 1, the same twist
+    and the same line.
+  - **N4.** Z_{u^c} = Z_{d^c}. This is not automatic, since u^c (−4) and d^c (2) are different fields with different
+    twists. H = I (B1822, CHOSEN) declares Z = I for every field, generation by generation, and the card must also
+    declare that no field carries a scalar weight.
+    - A modular-flavour Kähler weight, (2 Im τ)^(−k_f) as in Feruglio's construction, would multiply y_b/y_t by
+      (2 Im τ)^((k_{u^c} − k_{d^c})/2). That is an O(1) factor per unit of weight at the strip's height.
+    - The six cannot see such a factor, because it is a per-sector constant. So it must be fixed before the card,
+      not left open.
+  - **N5.** The per-sector factors the frame does carry enter unchanged: κ_f and the norms N_s. The six cancel them,
+    and it is exactly they that make y_b/y_t a prediction.
+  - **N6.** σ_max is taken from compute()'s raw matrices at the frozen row. The six's within-sector normalised logs
+    cannot give it.
+
+**S1.2 The scale and the scheme (P-574): the same file, the same row, the same scale.** Compare at μ = M_Z in the
+full-SM MS-bar scheme, using the row "MZ, Full SM" of HZ2021's Table 2 (m_b and m_t), the six's own file. The reasons:
+- **The file defines m_f = y_f v_F/√2 with one v_F.** So m_b/m_t ≡ y_b/y_t in it exactly. No scheme conversion
+  enters, and the vev's definition (with or without tadpoles) cancels in the ratio.
+- **The frozen row is the screen's fit to the six at that scale and in that scheme.** A frame claim is one theory
+  point read at one scale. Reading the target elsewhere would re-open the row, because a frame exact at Λ must run all
+  ten outputs together (P-574).
+- **The ratio runs, so the scale cannot float.** QCD cancels exactly in y_b/y_t, because the mass anomalous dimension
+  is flavour-blind. The Yukawa and hypercharge terms do not cancel. At one loop in the SM, for the third-generation
+  eigenvalues with mixing neglected (Machacek–Vaughn; Arason et al. 1992):
+
+  16π² d ln(y_b/y_t)/d ln μ = −3(y_t² − y_b²) + g′²
+
+  That is about −1.7% per e-fold near M_Z, above the target's measured precision.
+- **Hence the scale is a CHOSEN input of the screen, and the card inherits it unchanged.** A scale menu belongs to a
+  new screen, not to this card. y_τ/y_b stays off the card (P-585), although m_τ is in the same file.
+
+**S1.3 The theory error (P-575): the propagation rule.** No values are given here. For a target Q, let L = ln Q.
+- **(a) The discrete CHOSEN inputs** (the apex τ, one of 223; the line, one of 266; the reading triple, one of two)
+  carry no σ_th. They are frozen, and the risk that a choice was lucky is the matched null's to price, since it
+  re-makes each one. Propagating that risk into the band as well would count it twice.
+- **(b) c enters neither target.** compare.py applies ±ln c only to the two charged-lepton logs, so ∂L/∂c = 0. It
+  acts only through its correlation with δ, which (c) handles by re-minimising c.
+- **(c) δ* is a fitted level read on a grid, so it gets the profile rule.** At the frozen (apex, line, triple):
+  - for each grid level δ_k, take χ²_six(δ_k), minimised over c in [1/3, 5];
+  - let K be the set of levels with χ²_six(δ_k) − χ²_six(δ*) ≤ 1;
+  - set σ_δ = ½(max_K L − min_K L).
+
+  If K is {δ*} alone (the grid is coarser than the Δχ² = 1 width), fit a parabola through χ²_six at δ* and its two
+  grid neighbours (one-sided at a grid end; δ = 10 beside the cusp limit). Then take its Δχ² = 1 half-width h and
+  set σ_δ = |∂L/∂δ| h, with the derivative from the same levels.
+- **(d) The numerical error.** σ_num = |L(40, 28) − L(96, 64)|, the two quadratures of B1839's C2, added in
+  quadrature to a working-precision repeat.
+- **(e) Truncation, at the screen's own allowance.** σ_trunc = ALLOW = 0.10 on each log of a singular-value ratio,
+  as compare.py's sigmas() gives each of the six. y_b/y_t is one such ratio. The frame is read at tree level at M_Z,
+  so no running is applied (S1.2).
+  - A smaller σ_trunc would claim the frame is more accurate across sectors than the screen allowed within them. A
+    larger one would be chosen after the fact.
+  - P-575's objection to the flat allowance concerns the screen's power. Changing the allowance at level 2 alone
+    would change what the frozen row means.
+  - A computed theory error, if main has one, can be a read-out beside it.
+- **(f) The band.** L_frame ± sqrt(σ_δ² + σ_num² + σ_trunc² + σ_exp²). Here σ_exp is the measured relative errors of
+  m_b and m_t in quadrature. HZ2021 prints them independently; their common α_s dependence correlates them
+  positively, so the quadrature is conservative for the ratio.
+- **(g) Who computes it.** σ_δ and σ_num are frame quantities of the target's kind, so main computes them unread
+  inside the sealed card.
+
+### S2. The r card
+
+**S2.1 The reading.** Dirac, B1799's pairing L ν^c with 6Y (−3, 0) (D3). ν reads S̃ under I-35 (D4), like the up
+quark. This holds in both SEAT triples, so the triple question of S1.1 does not reach r.
+- **No new continuous parameter.** r = (σ₂² − σ₁²)/(σ₃² − σ₁²) of Y_ν = C(S̃, M_ν) at the frozen row. It is a
+  within-sector ratio, like the six. So it needs no shared normalisation and no v, and it has no tan β problem.
+- **A structural fact, from the residue formula (data-free).** For ν, q_R = 0, so its two twists coincide,
+  (q_L + q_R)w = (q_L − q_R)w = −3w. Hence R_s^(ν) = κ_ν CS_s θ_s(−3w)², and the channels zeroed depend on
+  q_L + q_R = −3, as for up.
+  - The ν sector therefore reads the line only through the Higgs twist 3w, as B1839's channel norms do (its C1 law).
+  - So r should be constant on each Higgs-twist class (B1839's 170 classes for 266 lines). The squared thetas
+    carry no channel-dependent sign under the lattice shifts of their argument, and κ_ν compensates their factor.
+  - This is offered as a data-free control, checked on matrices, not spectra: M_ν(w′) = e^{iφ} M_ν(w) entrywise for
+    w′ in w's class.
+- **Type-I.** m_ν = −Y_D N⁻¹ Y_Dᵀ (B1799 § 3).
+  - The overall Majorana scale cancels in r.
+  - N's shape enters, through the ν^cν^c sector with its partner typed as a 6Y = 0 section, a hypothesis. So does
+    Y_D's full matrix, not only its spectrum.
+  - So it adds typed choices, not a continuous parameter.
+- **Weinberg.** LL with 6Y (−3, −3), with HH typed as the frame's section.
+  - The typing decides everything (B1799): S·S makes Y_LL antisymmetric, with no Majorana mass at all, and a
+    traceless partner makes it symmetric.
+  - So it adds typed choices.
+- **In the card.** Both stay members of the null's menu only (D3, D12), priced, since they were live options before
+  the card.
+- **The labelling** (the angles are not graded, P-665):
+  - the frame's pair with the smaller squared splitting is (1, 2), with m₂ > m₁, and the third value is 3;
+  - the ordering (NO or IO) is the frame's own output, read inside the card;
+  - r is compared with the measured value for that ordering. S4's file carries both orderings.
+
+  If the frame's two splittings were comparable, the rule still picks the smaller pair, and the card discloses it.
+- **c is not applied to ν.** compare.py's c acts on the charged-lepton logs only. Typing a Clebsch into ν would be a
+  new choice, and it is not made here.
+
+**S2.2 σ_th for ν, by S1.3's rule.**
+- (a)–(d) are unchanged: no σ_th from the discrete inputs, ∂ ln r/∂c = 0, the δ profile, and the two quadratures.
+- **(e) Truncation.** ALLOW is applied independently to ln(σ_i/σ_max) for the two non-maximal singular values, as the
+  six apply it. It is then propagated through r's definition.
+  - In NO labels, with ρ_i = σ_i/σ₃: r = (ρ₂² − ρ₁²)/(1 − ρ₁²).
+  - ∂ ln r/∂ ln ρ₂ = 2ρ₂²/(ρ₂² − ρ₁²).
+  - ∂ ln r/∂ ln ρ₁ = 2ρ₁²[1/(1 − ρ₁²) − 1/(ρ₂² − ρ₁²)].
+  - So σ_trunc(ln r) → 2·ALLOW for a hierarchical spectrum. IO labels follow by the same rule.
+- **(f) Running, stated rather than banded.** For Dirac neutrinos in the SM the universal terms cancel in r. The
+  flavour-dependent term is −(3/2)Y_e†Y_e on the doublet index (Lindner, Ratz and Schmidt 2005), suppressed by y_τ².
+  - δ ln r is of order 10⁻⁴ or less between M_Z and the unification scale for a hierarchical spectrum. It grows by
+    m²/Δm²₂₁ if the spectrum is quasi-degenerate.
+  - So r compared at M_Z equals r at oscillation energies, to well below its measured error.
+  - The seesaw and Weinberg menu members carry their own threshold allowance (Antusch et al. 2005).
+- **(g) σ_exp.** The global fit's 1σ ranges of Δm²₂₁ and Δm²₃ℓ, in quadrature. They come from different experiments
+  and are weakly correlated.
+
+### S3. GENESIS v1.60's GAP1, condition 4: is r a function of y_b/y_t at the candidate's address?
+
+**The factorisation.** Write A_f = q_L + q_R and D_f = q_L − q_R:
+
+| sector | (q_L, q_R) | A | D |
+|---|---|---|---|
+| up | (1, −4) | −3 | 5 |
+| down | (1, 2) | 3 | −1 |
+| lepton | (−3, 6) | 3 | −9 |
+| ν | (−3, 0) | −3 | −3 |
+
+- In compute(), R_s^(f) = κ_f CS_s θ_s(A_f w) θ_s(D_f w) with κ_f = F_{A_f} F_{D_f}/θ₁′(0), and every N_s depends on w
+  only through ±3w (B1839, C1).
+- F_A depends on the sector only through A_f², which is 9 in every sector. So F_A, θ_s(A w) (up to θ_s's parity at
+  A = ±3) and N_s are shared.
+- So **each sector is one shared Higgs-twist weight W_s = N_s CS_s F_A θ_s(3w)/θ₁′(0) times its own factor
+  G_s(D_f) = F_{D_f} θ_s(D_f w), read through S or S̃:** M_f = Σ_s ±W_s G_s(D_f) E_s.
+
+What each quantity reads:
+- the six read G at D = 5, −1 and −9, as within-sector shapes only, with c on the lepton;
+- y_b/y_t reads G(−1) through S against G(5) through S̃, as a cross-sector normalisation;
+- r reads G(−3), which is the Higgs-twist theta again, so M_ν = Σ_s ±N_s CS_s [F θ_s(3w)]²/θ₁′(0) E_s, as a
+  within-sector shape.
+
+**(i) The argument: no exact relation.**
+- **y_b/y_t is not a function of r.** r depends on (τ, δ) and on the line only through its Higgs-twist class.
+  y_b/y_t depends on the line itself, through G(5w) and G(−w). Within one class r is fixed while y_b/y_t moves.
+- **r is not a function of y_b/y_t either.** y_b/y_t is a cross-sector ratio and r a within-sector one.
+  - r is invariant under every per-sector rescaling Y_f → λ_f Y_f, including S1's N4 weights, and those move y_b/y_t.
+  - y_b/y_t is invariant under every ν-sector choice (Dirac, type-I, Weinberg, the typings), and those move r.
+- **No identity of the frame ties ν to up or down on the strip's order-10 lines.**
+  - B1835 § 1c's order dictionary is two-sided at N = 10: every unpredicted relation fails by at least 0.046.
+  - The charge arithmetic says why. The shift (Δq_L, Δq_R) = (−4, +4) takes up to ν exactly as it takes down to
+    lepton. But the strip's lepton–down half-lift descends from the order-5 transposition (lepton ≡ downᵀ mod 5).
+    Mod 5, ν ≡ (2, 0) matches no sector's pair, its transpose or its negative (up ≡ (1, 1), down ≡ (1, 2), lepton
+    ≡ (2, 1)). So no ν half-lift is expected there, and B1835's dictionary found none.
+- So condition 4 holds in the exact sense. The two are different functions of different pieces of the frame.
+
+**(ii) The obstruction, at leading order.**
+- By the channel-exponent law (B1832, S300), each channel residue scales as e^{−2π Im τ E_s(f)}, with E_s(f) rational,
+  fixed by α and the charges, and independent of Re τ and the offset. So every log of a singular-value ratio is, at
+  leading order, −2π Im τ times a rational exponent difference, plus a prefactor log that depends on Re τ, Re w, δ and
+  the reading.
+  - **ln(y_b/y_t) ≈ −2π Im τ ΔE + ln P_y.** ΔE is the cross-sector exponent, down's least minus up's least. It is not
+    evaluated here; B1832 left it uncomputed, and P-585's firewall stands.
+  - **ln r ≈ −2π Im τ e_r + ln P_r.** B1835 notes the ν channel gap equals the lepton's (1/20 on α = 2/5), so r's
+    leading term moves with Im τ as the lepton hierarchy does. The six used that hierarchy to choose the apex.
+- So across the menu's apexes, both targets and the six's lepton logs are affine in Im τ at leading order: they are
+  collinear.
+- At the frozen apex the two targets share one leading-order input, Im τ. They differ in:
+  - their rational slopes: ΔE is a cross-sector exponent the six never saw, while e_r is tied to a gap the six did see;
+  - their prefactors: different D charges, readings and channel mixtures.
+- **Consequences:**
+  - the two passes are not independent events, since a lucky height helps both;
+  - y_b/y_t carries held-out information at leading order (its exponent); r carries it only in its prefactors, as
+    B1835 says.
+
+**(iii) Proposed for the card** (main computes these unread inside it):
+- **C4a, a data-free control:** S2.1's class identity, checked on matrices.
+- **C4b, the binding form of condition 4:** p_V for the pair computed jointly under the matched null, not as a product
+  of marginals. It is the fraction of null worlds whose pipeline, at its own best row, matches both of its own random
+  targets as well as the frame matches both measured ones.
+  - Any dependence is then priced, not assumed away.
+  - GENESIS's GAP1 "two at least" is met when both marginal passes hold and the joint p_V < 0.01/m_V.
+  - The null's law for a random r is P-611's to fix. For y_b/y_t, draws()'s random m_b/m_t serves.
+- **Read-outs:** over the null's frozen rows, the rank correlation of the predicted pair (ln y_b/y_t, ln r), and its
+  partial correlation after both are regressed on the row's Im τ.
+
+### Disclosed
+
+- **No frame value was computed.** No code was run for S1–S3, and the cross-sector exponent ΔE was not evaluated.
+- **An exposure, to count in m_V for r** (as P-679 counted main's). While drafting S3, this seat evaluated in its
+  reasoning a published closed-form exponent law at the neutrino's charges on slope 2/5. It set the leading-order size
+  this implies beside the publicly known size of r.
+  - No code was run, no prefactor entered and nothing was written down. The number is kept out of the record.
+  - It steered none of S2's or S3's recommendations: Dirac is D3's ruling, unchanged.
+- **This seat knows the measured values of both targets.** They are public, and S4's file will hold them. It also
+  knows the strip's height (P-585).
+- **Labelled** thread (the frozen candidate's two cards: one line class, one apex, one reading).
+
+0 of 19.

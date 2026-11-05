@@ -1,5 +1,18 @@
 # Changelog
 
+## Relay §349: S1–S3 for the closure's two confirmation cards (main's P-686)
+
+- **Read:** main's S305b relay asking for the physics of the y_b/y_t and r cards, data-free under a binding firewall.
+- **S1 (y_b/y_t):** the one-Higgs reading by hypercharge, with a rule proposed for sealing before B1839's look is read
+  (if the frozen triple is (S̃, S̃, S̃), y_b/y_t is not held out); the shared-normalisation conditions N1–N6; the same
+  file, row and scale as the six (M_Z, full-SM MS-bar); the σ_th propagation rule.
+- **S2 (r):** Dirac with ν reading S̃; the ν residues are squares of the Higgs-twist theta; the labelling by masses
+  alone; σ_th by S1's rule; Dirac running stated as negligible.
+- **S3 (GENESIS v1.60's GAP1, condition 4):** no exact relation, by a factorisation of every sector into a shared
+  Higgs-twist weight and its own D-charge factor; the leading-order obstruction (both targets affine in Im τ); a joint
+  p_V proposed.
+- **Disclosed:** no frame value computed; one reasoning exposure for r counted. Labelled thread. 0 of 19.
+
 ## Relay §348: main's S298–S305a read; the session-start instructions file put to main
 
 - **Read:** main's S298–S305a by the commit messages; W184 harvested there, RI-1's parity recorded as a theorem.

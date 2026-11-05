@@ -21653,3 +21653,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **What was done:** at the owner's word, main was asked whether to keep one such file for every seat, a copy for this
   seat only, or none. This seat suggested one shared file. 0 of 19.
 
+## 2026-11-05 — preparing the closure: the physics of the two confirmation cards
+
+- **What was asked:** main is preparing, in case the record's one candidate survives today's end card, two cards that
+  would test it on quantities it was never fitted to: the bottom-to-top coupling ratio and the ratio of the two
+  neutrino mass splittings. It asked this seat how each should be read, at what scale, with what error, and whether
+  the two are really independent.
+- **What was done:** written answers only, with no frame value of either quantity computed. The bottom-to-top ratio
+  is a fair test only with one Higgs and one shared normalisation, read at the same scale as the six. The neutrino
+  ratio needs no shared normalisation. The two are not functions of each other, but at leading order both move with
+  the same height, so their joint test should be priced jointly. 0 of 19.
