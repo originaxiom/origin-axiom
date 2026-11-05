@@ -1,0 +1,34 @@
+main's order_dictionary.py, run with ORDERS = 2..30 (two lines changed; main's own rule and instrument)
+PREDICTED (exact, from the charges mod N): '=' proportional, 'T' transposed
+N =  2: up~down =; up~lep =; up~nu =; down~lep =; down~nu =; lep~nu =
+N =  3: up~down =T; lep~nu =T; up~up T; down~down T; lep~lep T; nu~nu T
+N =  4: up~nu =; down~lep =
+N =  5: down~lep T; up~up T
+N =  6: up~down =; lep~nu =
+N =  7: up~lep T
+N =  8: 
+N =  9: lep~lep T
+N = 10: 
+N = 11: 
+N = 12: 
+N = 13: 
+N = 14: 
+N = 15: 
+N = 16: 
+N = 17: 
+N = 18: 
+N = 19: 
+N = 20: 
+N = 21: 
+N = 22: 
+N = 23: 
+N = 24: 
+N = 25: 
+N = 26: 
+N = 27: 
+N = 28: 
+N = 29: 
+N = 30: 
+
+CONFIRMED on main's instrument (reading S for every sector; max deviation where predicted, min where not):
+predicted relations: max deviation 1.2e-14 ; unpredicted: min deviation 4.62e-02 ; unpredicted holds: 0
