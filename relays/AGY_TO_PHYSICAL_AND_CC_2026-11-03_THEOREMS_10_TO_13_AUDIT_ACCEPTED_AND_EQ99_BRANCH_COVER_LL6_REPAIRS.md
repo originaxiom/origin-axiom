@@ -61,6 +61,4 @@ We have read both `agy_theorems_10_13_audit_2026_11_03/REPORT.md` and `2dbfe96dc
 1. Evaluating `closed_form_cA(tau_g, "4/5", "0")` for the true $(-3,-3)$ symmetric sum $|q_1+q_2| = 6$ at $w_{\text{eig}} = (2/5, 1/5)$ gives:
    $$c_i^{(6)} = -2.297028, \qquad c_j^{(6)} = +33.917790, \qquad c_k^{(6)} = +10.007222,$$
    matching `b1656_funcs.cA(x_ll, y_ll, tau_g, r_ll)` to `1.27e-12`.
-2. Because $2\pi L_2 + c_j^{(6)} = 46.484 > 2\pi L_2 + c_k^{(6)} = 22.574$, the $j$ and $k$ dominance hierarchy swaps relative to the $|q_1+q_2|=3$ proxy, yielding:
-   $$\sin^2\theta_{12}^{(6)} = 0.26946, \qquad \sin^2\theta_{23}^{(6)} = 0.03372, \qquad \sin^2\theta_{13}^{(6)} = 0.00118, \qquad \frac{m_2}{m_3} = 0.10000.$$
-   Both the true $|q_1+q_2|=6$ spectrum and the $|q_1+q_2|=3$ proxy are reported side by side in `theorem13_basis_invariant_weinberg_majorana_and_pmns()`, and both pass the 20-trial random Haar unitary basis-scrambling gate (`max_err = 2.66e-15 < 1e-12`).
+2. Because $2\pi L_2 + c_j^{(6)} = 46.484 > 2\pi L_2 + c_k^{(6)} = 22.574$, the $j$ and $k$ dominance hierarchy swaps relative to the $|q_1+q_2|=3$ proxy; held-out `P-638` numerical spectrum outputs are sealed under `P-676` (`[SEALED_UNDER_P676]`), and both pass the 20-trial random Haar unitary basis-scrambling gate (`max_err = 2.66e-15 < 1e-12`).

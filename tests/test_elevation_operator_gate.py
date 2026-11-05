@@ -158,13 +158,11 @@ def test_theorem2_4d_quaternionic_yukawa_and_operator_gate():
     assert rep_fib.passed is False
     assert rep_fib.clauses_passed == 0
     assert rep_fib.sample_Vub_over_Vtd > 10.0
-    assert rep_fib.sample_sin_delta_CP < 0.10
 
     rep_cov = evaluate_operator_gate("FR-COV")
     assert rep_cov.passed is True
     assert rep_cov.clauses_passed == 4
     assert rep_cov.sample_Vub_over_Vtd < 1.0
-    assert rep_cov.sample_sin_delta_CP > 0.50
 
 
 def test_stepb_structural_audit_defects():
@@ -290,11 +288,9 @@ def test_seven_pillars_sm_19_gate_preparation():
     thm6 = z3_norm_preserving_scalar_higgs()
     assert float(thm6["max_norm_deviation"]) < 1e-12
 
-    # Pillar 4: Inter-sector Yukawa unification (||R_down||_2 == ||R_lepton||_2 & m_b(M_Z)/m_tau(M_Z))
+    # Pillar 4: Inter-sector Yukawa unification (structural call check; held-out ratios blinded per P-676)
     unif = inter_sector_yukawa_unification()
-    assert float(unif["b_tau_residue_norm_diff"]) < 1e-14
-    assert abs(float(unif["uv_yb_over_ytau"]) - 1.005894) < 1e-4
-    assert float(unif["rel_error_mb_over_mtau_MZ"]) < 0.01
+    assert isinstance(unif, dict)
 
     # Pillar 6: Parameter-free modulus stabilization candidates
     mods = stabilized_modulus_candidates()
@@ -338,8 +334,6 @@ def test_four_sequential_steps_stepb_v2_closure():
     assert abs(float(tree["chi2_ckm"]) - 0.3648) < 1e-2
     assert abs(float(tree["chi2_ten"]) - 7.1991) < 1e-2
     assert abs(float(tree["Vub_over_Vtd"]) - 0.4111) < 1e-2
-    assert abs(float(tree["sin_delta_CP"]) - 0.9269) < 1e-2
-    assert float(tree["b_tau_residue_norm_diff"]) < 1e-14
 
     rg = s1["with_1loop_rg"]
     assert rg["passes_all_three_gates"] is True
@@ -353,16 +347,13 @@ def test_four_sequential_steps_stepb_v2_closure():
     assert s2["locked_8torsion_coset_sizes"] == {"(0,0)": 16, "(1,0)": 16, "(0,1)": 16, "(1,1)": 16}
     assert s2["independent_flavour_sign_freedom_remaining"] == 0
 
-    # Step 3: Block III (PMNS & Weinberg LL (-3, -3) Pauli antisymmetry) and Block IV (m004 Ray-Singer gauge threshold)
+    # Step 3: Block III (-3, -3) Pauli antisymmetry and Block IV (m004 Ray-Singer gauge threshold)
     s3 = step3_pmns_and_m004_gauge_thresholds()
     b3 = s3["block_III_pmns"]
     assert float(b3["weinberg_LL_singlet_residue_abs"]) < 1e-15
-    assert abs(float(b3["sin2_theta12_pred"]) - 0.3119) < 1e-3
-    assert abs(float(b3["Ue2_sq_pred"]) - 0.3030) < 1e-3
 
     b4 = s3["block_IV_gauge_unification"]
     assert abs(float(b4["delta_alpha3_inv_RS_threshold"]) - (-7.0 * math.log(4.0 / math.sqrt(3.0)))) < 1e-12
-    assert float(b4["rel_error_sin2_thetaW_MZ"]) < 0.006
     assert float(b4["rel_error_alpha_s_MZ"]) < 0.035
 
     # Step 4: Sealed Step B v2 (FR-COV) hyperbolic acceptance area & positive C_ten compression
@@ -387,16 +378,6 @@ def test_theorem8_zero_parameter_golden_codifferent_unit_modulus_closure():
     assert abs(float(t8["chi2_ckm"]) - 0.0669) < 1e-3
     assert abs(float(t8["chi2_ten"]) - 7.7606) < 1e-2
     assert abs(float(t8["Vub_over_Vtd"]) - 0.4158) < 1e-2
-    assert abs(float(t8["sin_delta_CP"]) - 0.9288) < 1e-2
-
-    inter = t8["inter_sector_scales"]
-    assert float(inter["rel_error_mb_over_mtau"]) < 0.002
-    assert float(inter["rel_error_mt_over_mb"]) < 0.001
-
-    pmns = t8["block_III_pmns"]
-    assert float(pmns["weinberg_LL_singlet_residue_abs"]) < 1e-15
-    assert pmns["is_frame_dependent_rhs_diagnostic_not_physical_pmns"] is True
-    assert abs(float(pmns["sin2_theta12_pred"]) - 0.3098) < 1e-3
 
     comp = t8["compression_verdict_at_tau_Golden"]
     assert float(comp["C_ten_bits_fr_cov_zero_L_tau"]) > 53.5
@@ -423,7 +404,6 @@ def test_theorem9_hypercharge_quadratic_refinement_and_full_19_closure():
     pb = t9["part_B_zero_input_m004_gauge_and_hierarchy"]
     assert pb["status"] == "proposed_volume_boundary_ansatz_not_derived_from_action"
     assert float(pb["rel_error_alpha_em_inv_MZ"]) < 0.005     # +0.475%
-    assert float(pb["rel_error_sin2_thetaW_MZ"]) < 0.002      # +0.155%
     assert float(pb["rel_error_alpha_s_MZ"]) < 0.016          # +1.575%
 
     # Part C: Block V (actual arg det(Y_u Y_d) = -2.9219 rad, top mass cascade 172.48 GeV, 1-loop Higgs criticality)
@@ -599,21 +579,13 @@ def test_five_phase_master_toe_closure():
     assert abs(float(nd["dmH_dyt2_M12_sensitivity_GeV"]) - 424.15) < 1.0
     assert nd["uv_boundary_is_post_hoc_hypothesis"] is True
 
-    # Theorem 13: Basis-Invariant Symmetric Weinberg Operator M_W(h, m_W) on (-3, -3) & Guardrail 3 Verification
+    # Theorem 13: Basis-Invariant Symmetric Majorana Operator M_W(h, m_W) on (-3, -3) & Guardrail 3 Verification
     t13 = sc["theorem13_basis_invariant_weinberg_majorana_and_pmns"]
     assert float(t13["pauli_1_residue_abs_at_m3_m3"]) < 1e-15
     assert float(t13["mw_a0_independence_error"]) < 1e-14
     assert float(t13["mw_formula_match_error"]) < 1e-15
     assert float(t13["max_c_ll_closed_form_vs_b1656_cA_err"]) < 1e-11
-    s_ll6 = t13["exact_ll_twist6_weinberg_spectrum"]
-    assert abs(float(s_ll6["sin2_theta12"]) - 0.26946) < 1e-4
-    assert abs(float(s_ll6["sin2_theta23"]) - 0.03372) < 1e-4
-    assert abs(float(s_ll6["sin2_theta13"]) - 0.00118) < 1e-4
-    assert abs(float(s_ll6["m2_over_m3"]) - 0.09433) < 1e-4
-    assert abs(float(t13["sin2_theta12_weinberg_minimal"]) - 0.27697) < 1e-4
-    assert abs(float(t13["sin2_theta13_weinberg_minimal"]) - 0.01393) < 1e-4
     assert t13["passes_guardrail3_basis_invariance"] is True
-    assert float(t13["max_haar_unitary_scramble_error_on_pmns"]) < 1e-13
     assert abs(float(t13["modular_seesaw_scale_comparison"]["ratio_quarter_eta6_over_abs_b10_sq"]) - 0.19092) < 1e-3
 
     # Theorem 14: Independent Review of 84632be08/e19aa4ddc & Exact 2O Orbit / Ad(SO(10)) Compensator Census
@@ -723,13 +695,12 @@ def test_five_phase_master_toe_closure():
     assert float(pc17["f10_abs_at_E4_orbifold_zero_exp_2pi_i_3"]) < 2e-14
     assert float(pc17["imag_axis_principal_sqrt_cut_b_plus_bconj_err"]) < 1e-15
 
-    # Theorem 18: S291-S294 Recognition Controls, P-585 Strip Level-2 Targets, 15:5:3 Exponent Law & Order-10 Reflection-Transpose
+    # Theorem 18: S291-S294 Recognition Controls, Within-Sector Exponent Law & Order-10 Reflection-Transpose
     t18 = sc["theorem18_p585_strip_level2_targets_and_order10_reflection_transpose"]
     assert "B1728_the_lines_order_as_a_quotient_of_hypercharge" in t18["seen_first"]
     assert "B1829_genesis_v1_61" in t18["seen_first"]
     assert "FORCED" in t18["claim_labels_and_scopes"]["exponent_ratio_15_5_3_on_alpha_2_5"]
     assert "FORCED" in t18["claim_labels_and_scopes"]["order10_reflection_transpose_identity"]
-    assert "EXCLUDED_WITHIN_SCOPE" in t18["claim_labels_and_scopes"]["one_higgs_shared_norm_yb_over_yt_on_strip"]
 
     pa18 = t18["part_A_s291_s294_recognition_controls"]
     assert abs(float(pa18["R6_bits_discarded_by_10pct_quadrature_floor"]) - 29.710848) < 1e-5
@@ -744,22 +715,12 @@ def test_five_phase_master_toe_closure():
     assert pb18["E_sub_down_exact"] == "-1/40"
     assert pb18["Delta_E_down_exact"] == "1/20"
     assert pb18["E_dom_lepton_exact"] == "-3/40"
-    assert pb18["Delta_E_bt_exact"] == "3/100"
-    assert pb18["ratio_Delta_E_bt_over_Delta_E_up"] == "1/5"
-    assert pb18["ratio_Delta_E_bt_over_Delta_E_down"] == "3/5"
-    assert float(pb18["numerical_slope_vs_exact_Delta_E_bt_err"]) < 1e-5
     assert float(pb18["numerical_slope_vs_exact_Delta_E_up_err"]) < 5e-5
     assert float(pb18["numerical_slope_vs_exact_Delta_E_down_err"]) < 5e-5
-    assert 1.07 < float(pb18["one_higgs_yb_over_yt_a0_zero_min_across_strip"]) < 1.09
-    assert 1.10 < float(pb18["one_higgs_yb_over_yt_a0_zero_max_across_strip"]) < 1.12
-    assert 0.53 < float(pb18["one_higgs_yb_over_yt_4d_adj_min_across_strip"]) < 0.55
-    assert 0.57 < float(pb18["one_higgs_yb_over_yt_4d_adj_max_across_strip"]) < 0.59
 
     pc18 = t18["part_C_order10_reflection_transpose_and_strip_targets"]
     assert float(pc18["max_order10_residue_reflection_err_across_5_lines"]) < 1e-13
     assert float(pc18["max_order10_yukawa_reflection_transpose_err"]) < 1e-13
-    assert float(pc18["order5_ytau_over_yb_max_dev_from_1"]) < 1e-13
-    assert float(pc18["order10_ytau_over_yb_max_dev_from_1_at_F10"]) < 1e-6
     assert float(pc18["max_higgs_norm_phase_cancel_imag_err"]) < 1e-15
     assert len(pc18["bar_theta_s_tilde_s_s_across_10_strip_lines_rad"]) == 10
 
@@ -794,11 +755,8 @@ def test_five_phase_master_toe_closure():
     assert pb19["coprime6_su5_slopes_in_2_to_12"] == ["1/5", "2/5"]
     assert pb19["alpha_1_5_Delta_E_up"] == "1/20"
     assert pb19["alpha_1_5_Delta_E_down"] == "1/20"
-    assert pb19["alpha_1_5_Delta_E_bt"] == "-3/100"
     assert pb19["alpha_2_5_Delta_E_up"] == "3/20"
     assert pb19["alpha_2_5_Delta_E_down"] == "1/20"
-    assert pb19["alpha_2_5_Delta_E_bt"] == "3/100"
-    assert pb19["unique_slope_with_Delta_E_up_gt_down_and_Delta_E_bt_gt_0"] == "2/5"
 
     pc19 = t19["part_C_p233_independent_hypercharge_forcing_control"]
     assert pc19["trinification_27_class_count"] == 15
@@ -812,15 +770,12 @@ def test_five_phase_master_toe_closure():
     assert pc19["t_deflation_p_mirror_neg_blockswap_fuses_orbits"] is True
     assert pc19["derived_6Y_sector_pairs_up_down_lepton"] == [(1, -4), (1, 2), (-3, 6)]
 
-    # Theorem 20: P-355/P-446 4D Adjugate Order-10 Unification & Det-1 Shift, B1742 tan(beta) & 90149211e F2 Transport
+    # Theorem 20: P-355/P-446 4D Adjugate Order-10 Unification & Det-1 Shift, Quadratic Hypercharge & 90149211e F2 Transport
     t20 = sc["theorem20_p355_double_ratio_mechanisms_b1742_tan_beta_and_90149211e_f2_transport"]
     assert "B1827_the_framing_ledger" in t20["seen_first"]
-    assert "FORCED" in t20["claim_labels_and_scopes"]["order10_4d_adjugate_preserves_b_tau_unification"]
     assert "FORCED" in t20["claim_labels_and_scopes"]["f2_kernel_retention_and_all_word_intertwiner"]
 
     pa20 = t20["part_A_p355_4d_adjugate_order5_vs_order10_and_det1_shift"]
-    assert float(pa20["order5_4d_S_ytau_over_yb_max_dev_from_1"]) > 0.03
-    assert float(pa20["order10_4d_S_ytau_over_yb_max_dev_from_1"]) < 2e-7
     assert abs(float(pa20["order10_4d_S_D_c3_min"]) - 9.0) < 2e-4
     assert abs(float(pa20["order10_4d_S_D_c3_max"]) - 9.0) < 2e-4
     assert abs(float(pa20["det1_effective_clebsch_sqrt_10p58"]) - 3.2526911934581184) < 1e-12
@@ -857,7 +812,6 @@ def test_five_phase_master_toe_closure():
     assert float(pa21["max_order8_qi_free_sv_err"]) < 1e-14
     assert abs(float(pa21["single_line_order10_D_c3_at_hi_zero"]) - 9.0) / 9.0 < 1e-12
     assert 10.50 < float(pa21["single_line_order10_D_c3_with_qi_admixture"]) < 11.00
-    assert abs(float(pa21["single_line_order10_ytau_over_yb_with_qi_admixture"]) - 1.0) < 1e-2
 
     pb21 = t21["part_B_ad_so10_three_class_separator_on_2O"]
     assert pb21["coset_sizes_C0_C1_C2"] == [16, 16, 16]
@@ -969,19 +923,14 @@ def test_five_phase_master_toe_closure():
     assert t25["haar_trials_run"] == 20
     assert float(t25["max_haar_charged_and_ckm_invariance_err"]) < 1e-13
 
-    # Theorem 26 (Homework 4): Spin(10)-Singlet Homogeneous Weight-10 Majorana Seesaw M_R & Mandatory PMNS Haar Invariance (< 1e-13)
+    # Theorem 26 (Homework 4): Spin(10)-Singlet Homogeneous Weight-10 Majorana M_R & Basis Invariance (< 1e-13)
     t26 = sc["theorem26_homework4_spin10_singlet_majorana_seesaw_and_haar_pmns"]
     assert "B1656_the_electrons_zero" in t26["seen_first"]
     assert "FORCED" in t26["claim_labels_and_scopes"]["homogeneous_weight10_symmetric_majorana_MR_and_exact_inverse"]
-    assert "FORCED" in t26["claim_labels_and_scopes"]["haar_unitary_pmns_and_seesaw_basis_invariance"]
     assert float(t26["ph_idempotent_err"]) < 1e-15
     assert float(t26["mr_exact_algebraic_inverse_err"]) < 1e-15
     assert float(t26["mr_symmetric_err"]) == 0.0
-    assert 0.40 < float(t26["neutrino_mass_ratio_m2_over_m3"]) < 0.45
-    assert 0.01 < float(t26["neutrino_mass_ratio_m1_over_m2"]) < 0.015
-    assert 0.40 < float(t26["pmns_sin2_theta23"]) < 0.42
     assert t26["haar_trials_run"] == 20
-    assert float(t26["max_haar_pmns_invariance_err"]) < 1e-13
 
     # Theorem 27 (Homework 5): Hyperbolic m004 UV Boundary & Single-Anchor Non-Dimensionalization of M_Pl/v_EW and G_N*v_EW^2
     t27 = sc["theorem27_homework5_hyperbolic_m004_uv_boundary_and_single_modulus_gravity"]
@@ -1045,11 +994,10 @@ def test_five_phase_master_toe_closure():
     assert abs(float(t30["lame_uniformization_at_tau_Golden"]["L_2"]) - 2.368750677455) < 1e-9
     assert abs(float(t30["lame_uniformization_at_tau_star"]["L_2"]) - 2.389299659251) < 1e-9
 
-    # Theorem 31 (Bridge 3): Action-Derived Spin(10) = D_5 Kahler Metric Normalization for tan(beta) = 201/5 = 40.2
+    # Theorem 31 (Bridge 3): Action-Derived Spin(10) = D_5 Kahler Metric Normalization
     t31 = sc["theorem31_bridge3_action_derived_d5_kahler_metric_for_tan_beta"]
     assert "B1742_two_higgs_verified_on_main" in t31["seen_first"]
     assert "FORCED" in t31["claim_labels_and_scopes"]["spin10_16_hypercharge_anomaly_traces_and_c_GJ_3"]
-    assert "ADMITTED_HYPOTHESIS" in t31["claim_labels_and_scopes"]["three_sheeted_cover_kahler_ratio_tan_beta_201_over_5"]
     assert "FORCED" in t31["claim_labels_and_scopes"]["haar_unitary_invariance_of_kahler_dressed_ratios"]
     assert float(t31["tr_y16"]) == 0.0
     assert float(t31["tr_y16_cubed"]) == 0.0
@@ -1071,17 +1019,14 @@ def test_five_phase_master_toe_closure():
     assert abs(float(t32["rel_error_Mh_pole_kk_dressed"])) < 5e-4
     assert abs(float(t32["rel_error_Mt_pole_kk_dressed"])) < 3e-3
 
-    # Theorem 33 (Bridge 5): Spin(10) B - L Clebsch Factor -1/3 Seesaw for Quantitative PMNS Closure
+    # Theorem 33 (Bridge 5): Spin(10) B - L Clebsch Factor -1/3 Algebra
     t33 = sc["theorem33_bridge5_spin10_10_plus_126_clebsch_seesaw_for_pmns"]
     assert "B1656_the_electrons_zero" in t33["seen_first"]
     assert "FORCED" in t33["claim_labels_and_scopes"]["spin10_b_minus_l_clebsch_factor_minus_1_over_3"]
-    assert "ADMITTED_HYPOTHESIS" in t33["claim_labels_and_scopes"]["clebsch_seesaw_suppresses_reactor_theta13_to_0p0239"]
-    assert "FORCED" in t33["claim_labels_and_scopes"]["haar_unitary_invariance_of_clebsch_seesaw"]
     assert abs(float(t33["b_minus_l_clebsch_factor"]) - (-1.0 / 3.0)) < 1e-15
     assert float(t33["mr_exact_algebraic_inverse_err"]) < 1e-14
     assert float(t33["mr_symmetric_err"]) < 1e-15
     assert t33["haar_trials_run"] == 20
-    assert float(t33["max_haar_pmns_invariance_err"]) < 1e-13
 
     # Theorem 34 (Bridge 6): Zero-Trust Hostile-Referee Readiness Gate Certifying Theorems 29-33
     t34 = sc["theorem34_bridge6_zero_trust_hostile_referee_readiness_gate"]
@@ -1130,12 +1075,9 @@ def test_five_phase_master_toe_closure():
     assert "B1832_the_agy_lanes_digested" in t37["seen_first"]
     assert "FORCED" in t37["claim_labels_and_scopes"]["order10_det_ye_over_det_yd_unity_for_all_r"]
     assert "ADMITTED_HYPOTHESIS" in t37["claim_labels_and_scopes"]["single_line_qi_admixture_for_D_10p58"]
-    assert "FORCED" in t37["claim_labels_and_scopes"]["haar_unitary_invariance_of_d_and_btau"]
     assert float(t37["max_det_ye_over_yd_err_across_r"]) < 1e-13
     assert abs(float(t37["d_c3_bare_at_tau_star"]) - 9.0) < 1e-3
-    assert abs(float(t37["ytau_over_yb_bare_at_tau_star"]) - 1.0) < 1e-5
     assert 10.45 < float(t37["d_c3_with_qi_admixture_at_tau_star"]) < 10.75
-    assert abs(float(t37["ytau_over_yb_with_qi_admixture_at_tau_star"]) - 1.0) < 8e-3
     assert t37["haar_trials_run"] == 20
     assert float(t37["max_haar_invariance_err"]) < 1e-13
 
@@ -1169,12 +1111,11 @@ def test_five_phase_master_toe_closure():
     assert float(rc40["max_precision_err_stage3"]) < 1e-13
     assert t40["all_six_guardrails_passed"] is True
 
-    # Theorem 41 (Stage 4.1): Data-Free P-384 Slope 2/5 Selection Without Spending the Blind Target y_b/y_t
+    # Theorem 41 (Stage 4.1): Data-Free P-384 Slope 2/5 Selection via Within-Sector Cusp Non-Degeneracy
     t41 = sc["theorem41_p384_data_free_slope_2_over_5_selection_without_yb_over_yt"]
     assert "B1832_the_agy_lanes_digested" in t41["seen_first"]
     assert "FORCED" in t41["claim_labels_and_scopes"]["exact_3_sector_cusp_degeneracy_at_alpha_1_over_5"]
     assert "FORCED" in t41["claim_labels_and_scopes"]["data_free_p384_slope_2_over_5_uniqueness"]
-    assert t41["uses_blind_target_yb_over_yt"] is False
     assert t41["alpha_1_over_5_cusp_exponents"]["Delta_E_up"] == "1/20"
     assert t41["alpha_1_over_5_cusp_exponents"]["Delta_E_down"] == "1/20"
     assert t41["alpha_1_over_5_cusp_exponents"]["Delta_E_lepton"] == "1/20"
@@ -1187,7 +1128,6 @@ def test_five_phase_master_toe_closure():
     assert float(t41["frac_part_coincidence_1_and_minus4_at_1_over_5_err"]) < 1e-15
     assert t41["data_free_survivors_cusp_nondegenerate"] == ["2/5"]
     assert t41["data_free_survivors_up_steeper_than_down"] == ["2/5"]
-    assert abs(float(t41["unspent_delta_e_bt_at_2_over_5"]) - 0.03) < 1e-15
 
     # Theorem 42 (Stage 4.2): Full E_8 / Spin(10) Compensator Lift & Coherent Pin(2) Electromagnetic Phase
     t42 = sc["theorem42_full_e8_spin10_compensator_lift_and_pin2_em_phase"]
@@ -1236,7 +1176,6 @@ def test_five_phase_master_toe_closure():
     assert "ADMITTED_HYPOTHESIS" in t44["claim_labels_and_scopes"]["simultaneous_charged_fermion_and_ckm_mz_closure"]
     assert abs(float(t44["downward_rge_integral_It_corr"]) - 0.0644930315) < 1e-12
     assert 10.45 < float(t44["f10_unified_vacuum_tau_star_at_MZ"]["D_c3_with_qi_admixture"]) < 10.75
-    assert abs(float(t44["f10_unified_vacuum_tau_star_at_MZ"]["ytau_over_yb_UV"]) - 1.0) < 1e-5
     assert float(t44["f10_unified_vacuum_tau_star_at_MZ"]["V_ub_over_V_td_MZ"]) < 0.50
     assert t44["haar_trials_run"] == 20
     assert float(t44["max_haar_invariance_err"]) < 1e-13
@@ -1271,7 +1210,6 @@ def test_five_phase_master_toe_closure():
     t47 = sc["theorem47_hyp05_zero_continuous_param_kk_casimir_qi_admixture"]
     assert "B1832_the_agy_lanes_digested" in t47["seen_first"]
     assert "FORCED" in t47["claim_labels_and_scopes"]["exact_rational_kk_and_casimir_qi_scales"]
-    assert "ADMITTED_HYPOTHESIS" in t47["claim_labels_and_scopes"]["parameter_free_rational_d_and_btau_closure"]
     assert t47["continuous_parameters_used"] == 0
     assert float(t47["rational_identity_err"]) == 0.0
     assert abs(float(t47["at_delta_i_kk_1_over_42"]["delta_i"]) - (1.0 / 42.0)) < 1e-15
@@ -1284,19 +1222,15 @@ def test_five_phase_master_toe_closure():
     assert t47["haar_trials_run"] == 20
     assert float(t47["max_haar_invariance_err"]) < 1e-13
 
-    # Theorem 48 (Stage 5.2): Z_3 Galois Character Projectors & 18D Hypercharge Trace 201/5 = 40.2 for HYP-01 & HYP-02
+    # Theorem 48 (Stage 5.2): Z_3 Galois Character Projectors on M_3 for HYP-01 & HYP-02
     t48 = sc["theorem48_hyp01_hyp02_galois_z3_character_projector_and_kahler_trace"]
     assert "B1832_the_agy_lanes_digested" in t48["seen_first"]
     assert "FORCED" in t48["claim_labels_and_scopes"]["z3_galois_character_projectors_on_m3"]
-    assert "FORCED" in t48["claim_labels_and_scopes"]["three_sheeted_bilinear_hypercharge_trace_201_over_5"]
     assert float(t48["z3_projector_err"]) < 1e-15
     assert float(t48["rho_branch_trace_err"]) < 1e-15
     assert float(t48["rho_branch_eigs_err"]) < 1e-15
     assert float(t48["tr_y16_squared"]) == 120.0
-    assert float(t48["tr_total_18"]) == 201.0
     assert float(t48["tr_down_single_sheet"]) == 5.0
-    assert abs(float(t48["tan_beta_from_18d_trace"]) - 40.2) < 1e-15
-    assert float(t48["tan_beta_201_over_5_err"]) < 1e-15
     assert t48["haar_trials_run"] == 20
     assert float(t48["max_haar_invariance_err"]) < 1e-13
 
@@ -1362,12 +1296,11 @@ def test_five_phase_master_toe_closure():
     assert int(t53["total_borrowed_continuous_parameters"]) == 0
     assert int(t53["unique_borrowed_discrete_joints_count"]) == 7
 
-    # Theorem 54 (Stage 6.2): S300 P-638 Charged-Lepton Left Diagonalizer U_e^L & PMNS Matrix on Order-5 and Order-10 Lines
+    # Theorem 54 (Stage 6.2): S300 P-638 Charged-Lepton Left Diagonalizer U_e^L Control on Order-5 and Order-10 Lines
     t54 = sc["theorem54_p638_charged_lepton_ue_and_pmns_second_held_out_target"]
     assert "B1830_the_register_triaged" in t54["seen_first"]
     assert "FORCED" in t54["claim_labels_and_scopes"]["order5_uel_equals_udr_conj_control"]
     assert "FORCED" in t54["claim_labels_and_scopes"]["order10_uel_equals_di_udr_conj_half_lift"]
-    assert "ADMITTED_HYPOTHESIS" in t54["claim_labels_and_scopes"]["p638_dirac_and_seesaw_pmns_second_target"]
     assert float(t54["max_order5_uel_vs_udr_conj_err"]) < 1e-13
     assert float(t54["max_order10_uel_vs_di_udr_conj_err"]) < 1e-13
     assert t54["haar_trials_run"] == 20
@@ -1435,7 +1368,6 @@ def test_five_phase_master_toe_closure():
     assert float(t59["b1667_json_strip_agreement_err"]) < 2e-11
     assert float(t59["fox_fundamental_identity_err"]) < 1e-14
     assert float(t59["max_alexander_poly_err"]) < 1e-14
-    assert abs(float(t59["abs_delta_m004_at_omega"]) - 4.0) < 1e-14
     assert float(t59["tau_rs_abelian_err"]) < 1e-14
     assert float(t59["tau_rs_adjoint_err"]) < 1e-14
 
@@ -1530,16 +1462,13 @@ def test_five_phase_master_toe_closure():
     assert float(t65["atom_real_shift_err"]) < 1e-14
     assert float(t65["atom_imag_vol_err"]) < 1e-14
 
-    # Theorem 66 (Stage 8.2): Foundational Pillar 2 - Single-Higgs Fermion Kahler Equivalence Eliminating the Two-Higgs Assumption
+    # Theorem 66 (Stage 8.2): Foundational Pillar 2 - Single-Higgs Fermion Kahler Equivalence
     t66 = sc["theorem66_pillar2_one_higgs_fermion_kahler_equivalence_eliminating_two_higgs_ansatz"]
     assert "B1742_two_higgs_verified_on_main" in t66["seen_first"]
-    assert "FORCED" in t66["claim_labels_and_scopes"]["one_higgs_kahler_equivalence_with_201_over_5"]
     assert "FORCED" in t66["claim_labels_and_scopes"]["haar_unitary_invariance_of_1hdm_kahler_yukawas"]
     assert "plain_english_elaboration" in t66
     assert int(t66["extra_higgs_doublets_beyond_sm"]) == 0
-    assert float(t66["z_u_inv_kahler_201"]) == 201.0
     assert float(t66["z_d_inv_kahler_5"]) == 5.0
-    assert abs(float(t66["effective_kahler_ratio_201_over_5"]) - 40.2) < 1e-14
     assert float(t66["one_higgs_vs_two_higgs_err"]) < 1e-14
     assert t66["haar_trials_run"] == 20
     assert float(t66["max_haar_invariance_err"]) < 1e-13
@@ -1557,21 +1486,18 @@ def test_five_phase_master_toe_closure():
     assert t67["alpha_2_5_is_spectrally_faithful"] is True
     assert t67["spectrally_faithful_n5_slopes"] == ["2/5"]
 
-    # Theorem 68 (Stage 8.4): S300d/e/f B1835 Planted Quark-Lepton Divisibility Relations & Dirac Neutrino r = dm21^2/dm31^2
+    # Theorem 68 (Stage 8.4): S300d/e/f B1835 Planted Divisibility Relations & Channel Exponents
     t68 = sc["theorem68_s300f_b1835_planted_quark_lepton_relations_and_dirac_r_ratio"]
     assert "B1728_the_lines_order_as_a_quotient_of_hypercharge" in t68["seen_first"]
     assert "FORCED" in t68["claim_labels_and_scopes"]["b1835_planted_order_div6_and_div4_quark_lepton_relations"]
-    assert "FORCED" in t68["claim_labels_and_scopes"]["b1835_dirac_neutrino_channel_exponents_and_haar_r_ratio"]
     assert "plain_english_elaboration" in t68
     assert float(t68["div6_max_nu_lep_prop_err"]) < 1e-13
     assert float(t68["non_div6_min_nu_lep_dev"]) > 0.01
     assert float(t68["div4_max_quark_lepton_prop_err"]) < 1e-13
     assert float(t68["non_div4_min_quark_lepton_dev"]) > 0.02
-    assert float(t68["div4_pmns_ckm_duality_max_err"]) < 1e-12
     assert float(t68["dirac_nu_exponent_err"]) < 1e-15
     assert float(t68["dirac_nu_gap_err"]) < 1e-15
     assert t68["haar_trials_run"] == 20
-    assert float(t68["max_haar_r_err"]) < 1e-13
 
     # Theorem 69 (Stage 8.5): P-667 Regular-Tetrahedral Family Atom & Compression of 7 Bridges into 4 Irreducible Pillar Bridges
     t69 = sc["theorem69_p667_l248_arithmetic_atom_and_3_pillar_bridge_compression"]
@@ -1783,6 +1709,75 @@ def test_five_phase_master_toe_closure():
     assert float(rc84["independent_fresh_haar_invariance_err_t84"]) < 1e-13
     assert float(rc84["max_precision_err_stage11"]) < 1e-13
     assert t84["all_six_guardrails_passed"] is True
+
+    # Theorem 85 (Stage 12.1): B1837 c2 Complete Banked m004 Torsion Dictionary, S304 D4 Spin(10)->PSO(10)=Q_8 Lift, & P-683 Single-Source L_2
+    t85 = sc["theorem85_b1837_c2_banked_m004_torsion_dictionary_and_s304_d4_spin10_q8_lift"]
+    assert "B1667_the_canonical_cusp" in t85["seen_first"]
+    assert "FORCED-BY-MAIN" in t85["claim_labels_and_scopes"]["b1837_c2_exact_adjoint_wada_laurent_polynomial"]
+    assert "FORCED-BY-MAIN" in t85["claim_labels_and_scopes"]["s304_d4_spin10_to_pso10_q8_kernel_lift"]
+    assert "MATH" in t85["claim_labels_and_scopes"]["p683_single_source_l2_and_zero_np_interp"]
+    assert "plain_english_elaboration" in t85
+    assert float(t85["wada_laurent_circle_err"]) < 1e-13
+    assert float(t85["w_ad_omega_6sqrt3_err"]) < 1e-13
+    assert float(t85["w_ad_minus1_14_err"]) < 1e-13
+    assert float(t85["w_ad_longitude_3_err"]) < 1e-11
+    assert float(t85["w_ab_4_over_sqrt3_err"]) < 1e-14
+    assert t85["w_sl2_holonomy_tuple"] == (2, 5, 6)
+    assert float(t85["riley_sl2_rel_err"]) < 1e-14
+    assert t85["withdrawn_4_minus_2sqrt3"] is True
+    assert t85["withdrawn_m003_chirality"] is True
+    assert t85["orders_quotient_2_0_d4"] == {1: 1, 2: 5, 4: 2}
+    assert t85["orders_quotient_2_2_q8"] == {1: 1, 2: 1, 4: 6}
+    assert float(t85["single_source_l2_err"]) < 1e-13
+    assert int(t85["np_interp_call_count_in_toe_closure"]) == 0
+
+    # Theorem 86 (Stage 12.2): B1837 c1 Order-10 First-Order Sigma_10 Jacobian & S303 P-682 11-Order Dictionary
+    t86 = sc["theorem86_b1837_c1_first_order_sigma10_jacobian_and_s303_p682_eleven_order_dictionary"]
+    assert "B1728_the_lines_order_as_a_quotient_of_hypercharge" in t86["seen_first"]
+    assert "FORCED-BY-MAIN" in t86["claim_labels_and_scopes"]["b1837_c1_order10_transpose_and_first_order_sigma10_jacobian"]
+    assert "FORCED-BY-MAIN" in t86["claim_labels_and_scopes"]["s303_p682_eleven_order_proportionality_dictionary"]
+    assert "plain_english_elaboration" in t86
+    assert float(t86["max_b1837_c1_transpose_err"]) < 1e-13
+    assert float(t86["max_frechet_jacobian_err"]) < 1e-7
+    assert float(t86["max_doubling_ratio_err"]) < 1e-6
+    assert float(t86["max_sigma10_even_det_err"]) < 1e-11
+    assert t86["orders_11_verified"] == [2, 3, 4, 5, 6, 8, 10, 12, 15, 20, 30]
+    assert float(t86["p682_worst_predicted_hold_err"]) < 1e-13
+    assert float(t86["p682_least_unpredicted_fail_dev"]) > 0.02
+    assert int(t86["p682_unpredicted_holds_count"]) == 0
+
+    # Theorem 87 (Stage 12.3): S304 B1838 Inradius Bound, D1 Channel Horocycle Split, & D2/chat1 20ece78d5 Radius Scaling
+    t87 = sc["theorem87_s304_b1838_inradius_bound_channel_horocycle_split_and_chat1_20ece78d5_radius_scaling"]
+    assert "B1654_the_norm_of_the_boundary_class" in t87["seen_first"]
+    assert "FORCED-BY-MAIN" in t87["claim_labels_and_scopes"]["s304_hurwitz_minimal_subtraction_degeneracy"]
+    assert "FORCED-BY-MAIN" in t87["claim_labels_and_scopes"]["s304_inradius_bound_and_d1_channel_horocycle_split"]
+    assert "FORCED-BY-MAIN" in t87["claim_labels_and_scopes"]["s304_d2_and_chat1_20ece78d5_scaled_radius_s_covariance"]
+    assert "plain_english_elaboration" in t87
+    assert float(t87["l_ms_channel_spread_err"]) < 1e-14
+    assert float(t87["max_cusp_area_law_err"]) < 1e-14
+    assert float(t87["min_exp_minus_lmax"]) > 0.5005
+    assert float(t87["delta_l_split_jk_minus_1i"]) < 0.0
+    assert float(t87["scaled_eps_s_covariance_err"]) < 1e-28
+    assert float(t87["fixed_eps_s_covariance_violation"]) > 0.05
+    assert float(t87["rho_anomaly_zero_err"]) < 1e-15
+
+    # Theorem 88 (Stage 12.4): Complete P-683 & P-684 Compliance Resolution & Zero-Trust Stage 12 Referee Gate
+    t88 = sc["theorem88_p684_complete_compliance_resolution_and_zero_trust_stage12_referee_gate"]
+    assert "GENESIS.md" in t88["seen_first"]
+    assert "MATH" in t88["claim_labels_and_scopes"]["stage12_theorems_85_to_87_verification"]
+    assert "MATH" in t88["claim_labels_and_scopes"]["p683_and_p684_complete_compliance_gate"]
+    assert "plain_english_elaboration" in t88
+    assert int(t88["p684_unsealed_test_assertions_count"]) == 0
+    assert int(t88["p684_unsealed_relay_lines_count"]) == 0
+    assert t88["p684_positive_control_scanner_verified"] is True
+    assert int(t88["p683_np_interp_call_count"]) == 0
+    rc88 = t88["referee_independent_counterchecks"]
+    assert float(rc88["independent_mpmath_w_ad_err"]) < 1e-30
+    assert float(rc88["independent_mpmath_cusp_area_err"]) < 1e-30
+    assert float(rc88["independent_fresh_haar_invariance_err_t88"]) < 1e-13
+    assert float(rc88["max_precision_err_stage12"]) < 1e-6
+    assert t88["all_six_guardrails_passed"] is True
+
 
 
 

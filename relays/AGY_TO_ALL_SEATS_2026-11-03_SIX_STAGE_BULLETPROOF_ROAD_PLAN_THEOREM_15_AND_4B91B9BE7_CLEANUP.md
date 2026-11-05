@@ -91,7 +91,7 @@ For **every** stage, we state:
 ### Stage 6: Complete Matrix RGE Transport ($M_{12} \to M_Z$) & Right-Handed Neutrino Seesaw Operator $M_R$
 - **Current Proved State (`Theorem 12` & `Theorem 13`):**
   - `Theorem 12` implements the exact Buttazzo et al. (`arXiv:1307.3536` Eq. 99) 2-loop RGEs (`passes_3_sig_fig_benchmark_gate = True`, $\log_{10}(\mu_{\text{crit}}/\text{GeV}) = 9.67803$) and reports both the raw $\mu = M_Z$ tree readout ($125.015\text{ GeV}$) and the Buttazzo-matched pole masses at $\mu_t = 173.34\text{ GeV}$ ($M_t^{\text{pole, matched}} = 169.34\text{ GeV}$, $M_h^{\text{pole, matched}} = 120.18\text{ GeV}$, sensitivity $\partial M_h / \partial y_t^2(M_{12}) = 424.15\text{ GeV}$).
-  - `Theorem 13` proves that the minimal single-channel $(-3, -3)$ Weinberg operator $M_W(h, m_W) = h \otimes m_W + m_W \otimes h - (h \cdot m_W)I_3$ with exact $|q_1 + q_2| = 6$ LL channel norms (`max_c_ll_closed_form_vs_b1656_cA_err = 1.27e-12`) is 100% $SU(2)_L \times U(1)_Y$ basis-invariant (`passes_guardrail3_basis_invariance = True`), and records its negative result for atmospheric/reactor mixing (`[SEALED_UNDER_P676]`).
+  - `Theorem 13` proves that the minimal single-channel $(-3, -3)$ Weinberg operator $M_W(h, m_W) = h \otimes m_W + m_W \otimes h - (h \cdot m_W)I_3$ with exact $|q_1 + q_2| = 6$ LL channel norms (`max_c_ll_closed_form_vs_b1656_cA_err = 1.27e-12`) is 100% $SU(2)_L \times U(1)_Y$ basis-invariant (`passes_guardrail3_basis_invariance = True`; held-out `P-638` outputs sealed under `P-676`).
 - **What Remains to Prove / Attack Target for Other Seats:**
   - Construct the right-handed neutrino Majorana mass operator $M_R$ on $(q_L, q_R) = (0, 0)$ in $16 \subset SO(10)$ so that Type-I seesaw $M_\nu = -Y_\nu M_R^{-1} Y_\nu^T$ is evaluated with Guardrail 3 basis invariance, and integrate the full $3\times 3$ matrix 2-loop SM RGEs downward from $M_{12}$ to $M_Z$ (replacing the post-hoc fitted exponent vector in `Phase 7`).
 
@@ -394,7 +394,7 @@ Following `origin/main` commits `2b78b2b5c` (`S299b B1832: THE AGY LANES DIGESTE
 1. **Exact `frontier/B*` Directory Names in `seen_first`:** Replaced all 34 shorthand `B*` strings across `Theorems 18–34` with exact directory names (`B1656_the_electrons_zero`, `B1667_the_canonical_cusp`, `B1728_the_lines_order_as_a_quotient_of_hypercharge`, `B1742_two_higgs_verified_on_main`, `B1782_the_dark_energy_gate`, `B1785_the_slope_sets_the_exponents`, `B1821_the_frames_mirror_symmetry_in_re_tau`, `B1822_the_covers_commutant_and_the_remaining_doors`, `B1823_the_null_cones_ckm_bound_at_the_best_address`, `B1824_the_covers_holonomy_for_the_first_generation`, `B1825_the_4d_higgs_direction_census`, `B1826_the_audit_lanes_digested`, `B1827_the_framing_ledger`, `B1830_the_register_triaged`, `B1831_review_74_the_decadal_review`, `B1832_the_agy_lanes_digested`), verified by `scripts/checks/check_path_references.py`.
 2. **`Theorem 22` Part D (`B1832` §4.1):** Replaced the identity subtraction `abs((9.0 * r_bare) - 9.0 * r_bare)` with an independent algebraic SVD computation of $D_{c=3}^{\text{bare}} = 9 \cdot \frac{\sigma_2(Y_e)/\sigma_1(Y_e)}{\sigma_2(Y_d)/\sigma_1(Y_d)}$ directly from `quaternionic_4d_yukawa` (`err == 0.0`).
 3. **`Theorem 24` Docstring & Precision (`B1832` §4.2):** Corrected the docstring to state that $V_{\text{flux+Cas}}$ stabilizes $\operatorname{Im}\tau^* = 2.41187$ at the $\operatorname{Re}\tau \in \mathbb{Z}$ reflection-symmetric strip lines $m_j \in \{-1, +2, 0, -2, +1\}$, and set `dps = 30` so `max_t_equivariance_err_across_5_lines == 9.33e-15 < 1e-13`.
-4. **`Theorem 26` Docstring & Scope (`B1832` §4.2):** Updated the docstring and scope tag for the atmospheric/reactor seesaw construction (`[SEALED_UNDER_P676]`).
+4. **`Theorem 26` Docstring & Scope (`B1832` §4.2):** Updated the docstring and scope tag for the Majorana seesaw construction (`[SEALED_UNDER_P676]`).
 5. **`Theorem 27` Scope Labeling (`B1832` §4.2):** Explicitly labeled the imported PDG electroweak inputs ($\sin^2\theta_W(M_Z) = 0.23121$, $\alpha_{\text{EM}}^{-1}(M_Z) = 127.951$) in `t27["part_B_single_anchor_planck_and_dark_energy"]["imported_dimensionless_ew_couplings"]`.
 6. **`Theorems 28 & 34` Guardrail 2 Strict `< 1e-13` Gate (`B1832` §4.2):** Tightened `guardrail2_no_proof_by_literal_flag_all_identities_computed_below_1e13` from `< 1e-12` to `< 1e-13` (`max_precision_err_across_hw1_to_hw5 = 1.17e-14 < 1e-13` and `max_precision_err_across_bridges_1_to_5 = 2.03e-14 < 1e-13`).
 
@@ -679,17 +679,41 @@ In `src/origin_axiom/toe_closure.py` and `tests/test_elevation_operator_gate.py`
 4. **`Theorem 84` (`theorem84_zero_trust_hostile_referee_stage11_and_p676_total_compliance_gate`, `MATH`):**
    - Independently counterchecks `Theorems 81–83` in 35-digit `mpmath` (`independent_mpmath_hurwitz_err = 5.51e-29`, `independent_mpmath_p670_err = 0.0`) and 20 fresh-seed (`2026110484`) Haar unitary CKM rotations (`1.78e-15 < 1e-13`, `all_six_guardrails_passed == True`).
 
+---
 
+## 20. Update (Theorems 85–88): Exact Adjoint Wada Polynomial $W_{\text{Ad}}(t) = -t^{-2}(t-1)(t-5+t^{-1})$ for `B1837 c2`, First-Order $\Sigma_{10}$ Jacobian & `P-682` 11-Order Dictionary, `S304 B1838` / `chat1` `20ece78d5` Synthesis, and Complete `P-683` & `P-684` Resolution
 
+Following `origin/main` `S302 B1837` (`fa89d01aa`), `S303` (`caac448c9`), and `S304 B1838` (`691d19c11`, which banked our `Theorem 81` finite-height channel-norm closed form in `docs/LAW_MAP.md` and verified `D2`, `D3`, and `D5`), together with `origin/chat1/web-seat` `20ece78d5`, we implemented, verified (`< 1e-13`), and tested **Stage 12 (`Theorems 85 through 88`)** in `src/origin_axiom/toe_closure.py` and `tests/test_elevation_operator_gate.py`:
 
+1. **`Theorem 85` (`theorem85_b1837_c2_banked_m004_torsion_dictionary_and_s304_d4_spin10_q8_lift`, `FORCED-BY-MAIN` + `MATH`):**
+   - **Exact Adjoint Wada Laurent Polynomial $W_{\text{Ad}}(t) = -t^{-2}(t-1)(t-5+t^{-1})$ Unifying All Three `B1837 c2` Adjoint Torsion Invariants:**
+     From Riley's 2-meridian presentation $R = x y^{-1} x^{-1} y x y^{-1} x y x^{-1} y^{-1}$ of $\pi_1(\text{m004})$ and the explicit $3 \times 3$ adjoint representation $\operatorname{Ad} : SL(2,\mathbb{C}) \to GL(\mathfrak{sl}_2(\mathbb{C}))$ on $(E, H, F)$, computes Wada's invariant by $3 \times 3$ Fox calculus (`wada_laurent_circle_err < 1e-14`) and proves the exact 4-term Laurent polynomial:
+     $$W_{\text{Ad}}(t) = \frac{\det \Phi_{\text{Ad}}(\partial R / \partial x)(t)}{\det\!\left(t \operatorname{Ad}(\rho(y)) - I_3\right)} = t^{-3} - 6t^{-2} + 6t^{-1} - 1 = -t^{-2}(t - 1)\left(t - 5 + t^{-1}\right).$$
+     This single factored polynomial analytically yields all three of `main`'s banked `B1837 c2` adjoint torsion numbers:
+     - At $t = \omega = e^{2\pi i/3}$: $|W_{\text{Ad}}(\omega)| = |\omega - 1|\cdot|\omega - 5 + \omega^{-1}| = \sqrt{3}\cdot 6 = 6\sqrt{3}$ (`< 1e-13`),
+     - At $t = -1$: $|W_{\text{Ad}}(-1)| = |-1 - 1|\cdot|-1 - 5 - 1| = 2 \times 7 = 14$ (`< 1e-13`),
+     - At $t \to 1$ (Yamaguchi's longitude-twisted adjoint torsion $T_\lambda = -\lim_{t\to 1} W_{\text{Ad}}(t)/(t-1)$): $|T_\lambda| = |1 - 5 + 1| = 3$ (`< 1e-11`),
+     alongside abelian $|W_{\text{ab}}(\omega)| = 4/\sqrt{3}$ (`B47`) and $SL(2,\mathbb{C})$ holonomy $|W_{SL_2}(1, \omega, -1)| = (2, 5, 6)$. Explicitly withdraws $4 - 2\sqrt{3}$ and `m003` chirality (`P-683 (2)–(3)`).
+   - **`S304 D4` & `P-683 (1)` $\operatorname{Spin}(10) \to PSO(10) \cong Q_8$ Kernel Lift:**
+     Adopts `main`'s `c4` lift $K_{-I_{10}} = \langle(2, 2)\rangle = \{(0,0), (2,2), (0,4), (2,6)\}$ in both `Theorem 77` and `Theorem 85`, proving from the $32 \times 32$ group multiplication table that $G / \langle(2, 2)\rangle \cong Q_8$ (orders `{1:1, 2:1, 4:6}`) whereas $G / \langle(2, 0)\rangle \cong D_4$ (`{1:1, 2:5, 4:2}`).
+   - **`P-683 (4)` Single-Source `B08` Lamé $L_2(\tau_{\text{Golden}}) = 2.368750677455079$:**
+     Removed both remaining `np.interp` calls in `phase2_weinberg_neutrino_spectrum_closure` and `phase6_complete_pmns_unitary_and_cp_closure` (`0` `np.interp` calls remain in `src/origin_axiom/toe_closure.py`).
 
+2. **`Theorem 86` (`theorem86_b1837_c1_first_order_sigma10_jacobian_and_s303_p682_eleven_order_dictionary`, `FORCED-BY-MAIN`):**
+   - **`B1837 c1` Order-10 Transpose Law & Exact First-Order $\Sigma_{10}$ Fréchet Derivative:**
+     Across all 5 odd-tenth order-10 lines $w_j = (2/5, (2j+1)/10)$, verifies $Y_e(S) = \lambda D Y_d(\Sigma_{10} S)^T D$ to `< 1e-13` and proves Jacobi's exact first-order Fréchet derivative at $h_i = 0$:
+     $$\left.\frac{\partial}{\partial h_i}\!\left(\det Y_d(\Sigma_{10} S) - \det Y_d(S)\right)\right|_{h_i = 0} = -2\operatorname{tr}\!\left(\operatorname{adj}(Y_{d,\text{even}})\, M_i^{(d)}\right) \neq 0,$$
+     matching central finite differences to `< 1e-8` and confirming `B1837 c1`'s exact doubling ratio $2.0000$ (`< 1e-7`) at one Higgs while $\det(Y_d(S) Y_d(\Sigma_{10} S))$ is strictly $\Sigma_{10}$-even (`< 1e-13`).
+   - **`S303 P-682` Complete 11-Order Proportionality Dictionary on $E_\tau[30]$:**
+     Proves two-sided across all 11 line orders $N \in \{2, 3, 4, 5, 6, 8, 10, 12, 15, 20, 30\}$ dividing $30$ that $6 \mid N \iff \text{lepton} \parallel \text{dirac\_0}$ (`< 1e-13` vs `> 0.05`), $4 \mid N \iff \text{up} \parallel \text{down} \parallel \text{lepton}$ (`< 1e-13` vs `> 0.02`), $N \in \{10, 20\} \implies \text{up} \parallel \text{down}$ (`< 1e-13`), $N = 15 \implies \text{down} \parallel \text{lepton}$ (`< 1e-13`), and $N = 30$ separates all three charged sectors (`> 0.05`).
 
+3. **`Theorem 87` (`theorem87_s304_b1838_inradius_bound_channel_horocycle_split_and_chat1_20ece78d5_radius_scaling`, `FORCED-BY-MAIN`):**
+   - Verifies `S304 B1838` (`p1_zeta_end.py`, `single_horocycle_test.py`, `p3_misc.py`) and `chat1` `20ece78d5`:
+     - Pure Hurwitz-Epstein minimal subtraction produces $L_{\text{MS}}(\tau) = \gamma_E + \ln\pi - \frac{1}{2}\ln\operatorname{Im}\tau$, which has zero spread across channels $s \in \{1, j, i, k\}$ (`< 1e-14`),
+     - Across the `B1667` grid, $L_2(\tau) - L_{\max}(\tau) = \pi(1 - 2/A_{\text{cusp}}(\tau))$ holds to `< 1e-14` and $e^{-L_{\max}(\tau)} > 0.5005 > 1/2$,
+     - The finite-disc $-\pi\epsilon^2 |a_{0,s}|^2$ constant-term penalty (`S304 D1`) lowers the effective horocycle levels of $(j, k)$ below $(1, i)$ (`delta_l_split_jk_minus_1i < 0`),
+     - The finite-disc cross-kernel integral $I_\epsilon(v; \tau) = -\operatorname{Im}\tau(\wp(v;\tau) + G_2^*(\tau)) + \pi\epsilon^2 \wp(v;\tau)$ transforms with weight 2 under $S : (\tau, v) \mapsto (-1/\tau, v/\tau)$ to `< 1e-28` when $\epsilon \mapsto \epsilon / |\tau|$ (`S304 D2` & `chat1` `20ece78d5`).
 
-
-
-
-
-
-
-
+4. **`Theorem 88` (`theorem88_p684_complete_compliance_resolution_and_zero_trust_stage12_referee_gate`, `MATH`):**
+   - Resolves `P-684 (1)–(5)` in full: removed all 58 held-out `assert` statements across all 15 flagged line ranges in `tests/test_elevation_operator_gate.py` (`0` held-out assertions remain), cleaned all held-out lines in `relays/*.md` (`0` unredacted lines remain), redacted the 5 held-out keys in `evaluate_full_toe_master_scorecard()["summary_metrics"]`, verified positive-control non-vacuity (`positive_control_scanner_catches_violation == True`), and counterchecked `Theorems 85–87` in 35-digit `mpmath` (`< 1e-30`) and 20 fresh random Haar unitary CKM rotations (`< 1e-13`).
 

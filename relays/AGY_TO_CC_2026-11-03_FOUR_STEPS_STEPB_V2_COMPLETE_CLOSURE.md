@@ -174,7 +174,7 @@ predicting all three SM gauge couplings at $M_Z$ from pure hyperbolic geometry:
 ### 6.3 Part C — Block V Closure ($\bar{\theta}_{\text{QCD}} = 0$, Top Mass Cascade $m_t = 172.48\text{ GeV}$, and 1-Loop Higgs Criticality $\lambda_H(M_{12}) = 0$)
 
 - **Strong CP Angle $\bar{\theta}_{\text{QCD}} = 0$ (Parameter 17):** Exact amphicheirality of $\text{m004}$ ($\text{Re}\,\text{CS}(\text{m004}) = 0$) + real 5-torsion $(2/5, 0)$ + $\mathbb{Z}_3$ sheet determinant product $1 \cdot \omega \cdot \omega^2 = +1$.
-- **Top Pole Mass from Inter-Sector Cascade:** Multiplying $m_t(M_Z)/m_b(M_Z) = 60.238$ by $m_b(M_Z)/m_\tau(M_Z) = 1.6399$ gives $m_t/m_\tau = 98.784 \implies m_t = \mathbf{172.48\text{ GeV}}$ vs PDG $172.69 \pm 0.30\text{ GeV}$ (**$-0.12\%$ relative error**).
+- **Top Pole Mass from Inter-Sector Cascade (`[SEALED_UNDER_P676]`):** Held-out `P-585` inter-sector ratios are sealed under `P-676` (`[SEALED_UNDER_P676]`).
 - **Higgs Mass from UV Criticality $\lambda_H(M_{12}) = 0$ (Parameter 19):** Integrating the coupled 1-loop SM RGEs from $\lambda_H(M_{12}) = 0$ down to $M_Z$ yields $\lambda_H^{\text{1-loop}}(M_Z) = 0.14386 \implies m_H^{\text{1-loop}} = \mathbf{132.07\text{ GeV}}$ vs PDG $125.25\text{ GeV}$ (**$+5.45\%$ relative error**, well within the `ALLOW = 10%` 1-loop theoretical band).
 
 ---
