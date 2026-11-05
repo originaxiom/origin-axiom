@@ -56,3 +56,26 @@ Entries it commits before main reads B1839's look join this list as E4 onward, w
   outcome, decides entry.
 - **Not computed and not read:** no χ²_six at any exact end other than the web seat's reproduced E2 rows. Nothing of
   B1839's look.
+
+> *Dated note 2026-11-05 (S305c): the list closes. The web seat's list was committed before B1839's look ran
+> (`relays/chat1_2026-11-05_ends/principled_levels.py` 4e22173b2 → output 8fec64340 → relay 046946dfc, on
+> `origin/chat1/web-seat`), re-run by main on its tree to every printed digit (residuals at 10⁻¹¹–10⁻¹³ aside;
+> `audit/chat1_s305b/`). It confirms E1–E3 and adds:*
+> - ***E4: L₄ = L₂ − π/2, the area-4 horocycle*** *— the largest cusp neighbourhood every torsion-free Fuchsian group embeds:
+>   the traces of Tⁿγ step by λ∣c∣ and must miss (−2, 2), so λ∣c∣ ≥ 4 and the horoball of area 4 (h = λ/4) is embedded; the
+>   thrice-punctured sphere attains it. Main re-derived the bound by hand and the formula from B1667's convention
+>   L = (2π/λ)(h − Im B): δ₄ = L₄ − L_max = π(½ − 2/A_cusp) ≥ 0 exactly because A_cusp ≥ 4. Entered as E4.*
+> - *E3 read anew: the maximal horoball's boundary passes through a half-period (the rotation by π about it swaps the two
+>   tangent horoballs), so L_max = ln 2 − Re g(½) where ½ is the contact (to 1.7 × 10⁻¹¹ at B1667's 54 points; ½ is the
+>   contact at 53, (τ − 1)/2 ties at ω) — E2 and E3 are one principle, the cut through the nearest half-period, flat and
+>   hyperbolic.*
+> - *A correction to main's relay: the cancelling radius is 0.525–0.564 at B1667's points (0.551 is its large-Im τ limit
+>   √3/π); L_c < L_max at all 54, so the exclusion stands.*
+> - *Excluded by the seat, as here: the zeta end; the per-channel equality levels (three depths matched to the ansatz);
+>   any one-loop stationary level (none on record with its scale fixed by the geometry).*
+>
+> ***Disclosed for E4:*** *at B1839's 223 apexes (its census's accessory geometry, data-free) δ₁ = 1.665–1.782, δ₂ =
+> 0.037–0.049, δ₄ = 0.094–0.211. δ₄'s range overlaps where B1838 § 2b's per-channel equality levels put a single cut
+> (about 0.16–0.30 above L_max), which was computable before this list; E4 is admitted on its theorem, not its place. The
+> list is closed at four entries (K = 4); main reads B1839's look only after this note is on origin.*
+

@@ -18429,3 +18429,16 @@ seat. The levels of the end that will count as derived are now fixed in writing 
 that its profile cannot steer them. The web seat is asked for its own list, a third opinion of the census and a proof of
 the Higgs-twist law; the SM seat for the physics of the two confirmation cards and a sealed data file. The agy lane's
 Stage 12 and the web seat's second post hoc were verified; neither earns a joint. 0 of 19.
+
+## 2026-11-05 — S305c: the principled ends closed at four
+
+The web seat answered main's ask within the hour, before the end card's look ran: main's three canonical cut levels
+confirmed, and a fourth added — the area-4 horocycle, which every hyperbolic surface's cusp embeds. Main re-ran and
+re-derived it. The list of levels that will count as derived is now closed, so the end card's output can be read. 0 of 19.
+
+## 2026-11-05 — S305d: the confirmation's scope fixed before the end card is read
+
+The SM seat answered main's closure relay. Before the end card's output is read, main fixed what a pass would let the
+confirmation claim: y_b/y_t is a held-out target only in the one-Higgs reading; with no field carrying a hidden weight;
+at M_Z in the six's own data file. The seat's file of measured targets is pinned by its hash and stays unopened until a
+sealed card runs. The agy lane's Stage 13 added one correct term to the exact end's expansion. 0 of 19.
