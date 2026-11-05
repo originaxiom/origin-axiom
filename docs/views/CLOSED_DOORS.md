@@ -5,7 +5,7 @@
 
 # The closed-door map (generated)
 
-**858 recorded closures — of which 691 are CLASSIFIED by mechanism and
+**859 recorded closures — of which 692 are CLASSIFIED by mechanism and
 167 are merely ROUTED**, carrying an authored NEGATIVE verdict but no read of the
 arc yet: their `kill_form`, `fact_computed` and revival fields are deliberately UNSET
 rather than guessed (B836). Indexed by the mechanism that shut them rather than by arc
@@ -141,6 +141,7 @@ number. A programme whose firewall works is mostly negatives; this is the shape 
 | `Computed (B1817, exploratory, data-free): on the 31 slopes of order <= 30 with equal down/lepton second-generation exponents, every converged, offset- and Re tau-independent limit of R2 is 1, 4 or 1/4 (by reading) or a non-integer line constant (3.43 on 1/8); rerun with the anomaly-fixed charges of N_c = 2, 4, 5 the same 4 and 1/4 recur unchanged (equal to N_c only at N_c = 4, by coincidence), so no limit tracks N_c and none is 3 at N_c = 3; on torsion-degenerate slopes R2 is a function of the offset b and passes through 3 on a continuum (a tuned value).` | 1 |  |
 | `Computed and refereed (B1823; FAIL as drafted, the three blocking findings verified by main): under the plan's sealed reading n = 1-3 fail and n = 4-8 pass only in a CHOSEN normalisation convention for the forms (3n - 2 continuous ratios) with the invariant cross-copy couplings and non-universal counterterms set to zero, and there the plan's free-number measure is 3 (numerically weak); with the convention free the vacuum's rank is 3 on a mirror line and 6 off one for n >= 3 (computed at n = 5, 6, 8); the cusp and a Petersson-type convention lose the small-n heavy regime; the supersymmetric reading needs an H_u whose direction nothing fixes.` | 1 |  |
 | `Sealed (fa25925fc) and run once (64a2a3d4e): least chi2_ten 291.4 against 23.21 (fresh 291.5; an independent scan of every stored node agrees); the six alone reach 1.36 and the four alone 0.35, never together (the CKM clause fails rigorously); K's C_ten -197 (bits_CKM -194). NOT FOUND within the census's reach; nothing excluded beyond it.` | 1 |  |
+| `Sealed (c70b356f0) and run once (output committed unread at 1d218f158): P1 holds (least chi2_six 4.61 at delta 0.15, apex 162, (2/5, 4/5)), but 2.43% of 10^6 random hierarchies are as low once apex, line, reading, c and the level are re-made per target (r97.5 2.46% > 1%); D FAILS -- the 23 levels' look-elsewhere costs the screen. NEGATIVE as sealed; the small-cut ansatz end retired.` | 1 |  |
 
 ## Closures whose discriminating fact was not computed (529)
 
