@@ -1,5 +1,17 @@
 # Changelog
 
+## Relay §351: the closure cards' information budget (P-611); a correction to §349
+
+- **Added:** `docs/closure/the_card_budget.py` with its JSON and run table. This is data-free arithmetic of the bar,
+  with no central value and no frame value: the power of the y_b/y_t and r cards for a correct frame, under the bar's
+  log-uniform reference law, over W, m_V and the frame's true error.
+- **Found:** under GENESIS v1.60's GAP1 condition 3 as written (each target at p_V < 0.01/m_V), at this card's m_V of
+  about 12–19, even an exact frame passes both targets about 1% of the time, and a frame as accurate as on the six
+  about 0.02%. A joint p_V over the card's targets is far more powerful, but it is the owner's rule to change, and
+  best fixed before B1839's look is read.
+- **Corrected:** §349's C4b. p_V randomises the pipeline's prediction, not the target, so no random-target law is needed
+  for either quantity. B1741's draws() has no cross-sector draw. Labelled neither. 0 of 19.
+
 ## Relay §350: S4, the closure's target data file, hash-pinned (main's P-686)
 
 - **Added:** `docs/closure/THE_TWO_TARGETS_2026-11-05.json`, with sha256

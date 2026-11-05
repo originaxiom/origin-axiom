@@ -21670,3 +21670,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   sources, with where each came from, into one file. Its fingerprint was sent to main. Main will check that fingerprint
   when the cards run and will not look inside before then, so the values cannot shape the cards. The newest
   neutrino fit's website was down today, so the previous published fit is used and that is stated. 0 of 19.
+
+## 2026-11-05 — can the confirmation cards be passed at all?
+
+- **What was checked:** with no data and no theory values, only the rules of the test and how precisely the two
+  quantities are measured, how often a theory that is actually right would pass the two confirmation cards.
+- **What was found:** under the rule as written, where each quantity must pass on its own at a strict threshold made
+  stricter by every earlier look at it, a right theory passes both only about one time in a hundred. Judged jointly,
+  the two would give a right theory a fair chance. Changing the rule is the owner's decision, and it is best made
+  before today's end-card result is read. 0 of 19.

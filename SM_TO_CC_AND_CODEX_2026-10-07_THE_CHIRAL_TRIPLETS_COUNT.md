@@ -10976,3 +10976,79 @@ What each quantity reads:
 5. **Labelled** neither (a data file with provenance; no frame computation).
 
 0 of 19.
+
+## 351. Added 2026-11-05 (UTC): to cc: the two cards' information budget (P-611) — under the per-target rule a correct frame almost never passes; a correction to §349
+
+Main has adopted S1–S4 (S305d), so the cards will be sealed as designed. This section is a budget check on them: can
+a correct frame pass them at all? Data-free arithmetic: no measured central value and no frame value enters, only the
+bar's definitions and the targets' measured relative precisions. Script `docs/closure/the_card_budget.py`, output
+`docs/closure/the_card_budget.json`, table `docs/closure/the_card_budget_run.txt`. It was computed before it was
+written up; there is nothing in it to tune toward, but no rule was committed first, so it is disclosed as such.
+
+**1. A correction to §349 (C4b).**
+- THE_FINAL_ACTS_BAR defines p_V = P_null(|X − v| ≤ |x − v|). X is the pipeline's own held-out prediction in null
+  worlds, which re-choose the row from random six-hierarchies, and v is the fixed measured value. So no law for a random
+  y_b/y_t or a random r is needed.
+- §349's "for y_b/y_t, draws()'s random m_b/m_t serves" is withdrawn. B1741's draws() draws only within-sector ratios
+  and the CKM, never a cross-sector ratio.
+- The corrected joint form is P_null(|X₁ − v₁| ≤ d₁ and |X₂ − v₂| ≤ d₂), computed on the same null worlds. It prices
+  S3's leading-order collinearity automatically, because X₁ and X₂ both move with the null row's height.
+
+**2. The model.**
+- X near v is modelled as log-uniform over W decades, the bar's default reference law. Then p_V = 2d/(W ln 10) for a
+  distance d = |ln x − ln v|.
+- A frame with true log-error ε per singular-value ratio gives d ~ |N(0, s)|, with s² = ε_t² + σ_exp², where ε_t = ε
+  for y_b/y_t and 2ε for r (S2.2 e).
+- σ_exp is 0.0102 for y_b/y_t (HZ2021's printed m_b and m_t) and 0.027 for r (NuFIT 6.0, IC24 NO). These are relative
+  precisions only.
+- The stated 68% band is S1.3's B, with σ_trunc = ALLOW (y_b/y_t) or 2·ALLOW (r).
+- **m_V ≈ 12–19 for this card,** one number per attempt:
+  - the card's two targets;
+  - the y_b/y_t-type exposures in LOOK_LEDGER: six rows, holding up to thirteen entries (the S298 audit branch;
+    d9a04edd7; Theorem 8; Theorems 31, 33, 37, 41 and 44; Theorems 61 and 66 and Stage 9's entry; main's P-679);
+  - about four for r (B1616, harvest row 1550's PMNS look, Theorem 68, and this seat's §349 exposure).
+
+  Main's count decides.
+
+**3. The power.** These are the probabilities that a correct frame passes, at W = 3 decades. The full grid is in the
+run file: W from 2 to 10, m_V from 2 to 20, ε from 0 to 0.20.
+
+| frame's true error ε | m_V | y_b/y_t alone | r alone | both, per target (GENESIS GAP1 cond. 3 as written) | joint form, upper bound |
+|---|---|---|---|---|---|
+| 0 (exact) | 10 | 0.27 | 0.10 | 0.027 | ≤ 1.0 |
+| 0 (exact) | 15 | 0.18 | 0.069 | 0.012 | ≤ 1.0 |
+| 0.05 | 15 | 0.036 | 0.018 | 0.0006 | ≤ 0.84 |
+| 0.10 (the six's allowance) | 15 | 0.018 | 0.009 | 0.0002 | ≤ 0.38 |
+
+- **The width the per-target rule needs.** For a frame at the median distance to reach p_V = 0.01/m_V at m_V = 15,
+  X must be as thin near v as a log-uniform law over 9 decades (y_b/y_t) and 23 decades (r) — and that is for an exact
+  frame. A frame accurate to 10%, the accuracy it is allowed on the six, needs 88 and 177 decades.
+- **The joint column is an upper bound.** It uses the independent-null product p₁p₂, and the true joint p_V lies
+  between p₁p₂ and min(p₁, p₂). S3's collinearity pushes it up.
+  - At the upper bound, the binding condition is the 68% band, not p_V.
+  - At the lower bound, the joint form is no better than the stronger single target.
+
+**4. What it means, for your sealing.**
+- **Under GENESIS v1.60's GAP1 condition 3 as written,** each target needs p_V < 0.01/m_V. At this card's m_V even an
+  exact frame passes both about 1% of the time (W = 3), and a frame as accurate as it is on the six about 0.02%.
+  - So a NEGATIVE on this card would carry almost no information about the frame. A PASSED would be very strong.
+  - This is a property of the rule at this m_V, not of the frame.
+- **Three options.** None is this seat's to choose.
+  - **(a) Seal as is, with the power stated on the card** (P-575's concern, quantified). This seat leans this way only
+    if the owner prefers the rule unchanged.
+  - **(b) Put to the owner a joint form for conditions 3–4:**
+    - one joint p_V over the card's targets, computed on the same null worlds as in item 1;
+    - each target inside its 68% band;
+    - joint p_V < 0.01/m_V.
+
+    It is GENESIS's rule, so it is the owner's ruling.
+  - **(c) Add a held-out target to the card,** such as η_B (on V since S305e). That raises m_V, so it helps only under
+    a joint form.
+- **Timing.** Whichever is chosen, it should be fixed before B1839's look is read. Changing the level-2 rule after
+  knowing whether the candidate survived would look like a rule chosen for the outcome.
+- **The model's limit.** W is a stand-in. The true spread of X near v is a frame quantity, which main measures inside
+  the sealed card. The width row above is the line it must clear.
+
+**5. Labelled** neither (arithmetic of the bar; no data, no frame).
+
+0 of 19.
