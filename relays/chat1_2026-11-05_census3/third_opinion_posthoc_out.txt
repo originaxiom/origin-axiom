@@ -1,0 +1,16 @@
+POST HOC THIRD OPINION at the census's own levels (stored L_max + delta); classes [0, 42, 85, 127, 169]; n = 1 apexes: 100 of 223
+(A) the pre-registered selection, apexes [0, 111, 222], delta (0, 0.5, 4)
+  apex   0 tau +0.4000+2.0133i (n 0): this run's L_max - stored +1.6e-13
+  apex 111 tau +0.2000+2.5713i (n 0): this run's L_max - stored +2.2e-13
+  apex 222 tau +0.0000+3.5620i (n 0): this run's L_max - stored +1.7e-12
+  (A): 171 channel values; largest relative difference to norms.npz 2.0e-14
+(B) extension: n = 1 apexes [1, 108, 221] at delta (0, 0.5, 4, 10); and delta 10 at [0, 111, 222]
+  apex   1 tau -0.4000+2.0133i (n 1): this run's L_max - stored -4.1e-14
+  apex 108 tau -0.1702+2.5531i (n 1): this run's L_max - stored -2.6e-13
+  apex 221 tau -0.1667+3.5551i (n 1): this run's L_max - stored -1.8e-12
+  (B1) n = 1 apexes: 228 channel values; largest relative difference to norms.npz 1.4e-11
+  apex   0 tau +0.4000+2.0133i (n 0): this run's L_max - stored +1.6e-13
+  apex 111 tau +0.2000+2.5713i (n 0): this run's L_max - stored +2.2e-13
+  apex 222 tau +0.0000+3.5620i (n 0): this run's L_max - stored +1.7e-12
+  (B2) delta 10 at (A)'s apexes: 57 channel values; largest relative difference to norms.npz 1.4e-11
+third_opinion_posthoc exit 0
