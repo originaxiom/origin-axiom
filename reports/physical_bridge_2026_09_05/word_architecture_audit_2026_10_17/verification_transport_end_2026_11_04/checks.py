@@ -464,9 +464,20 @@ class TransportEndChecks(unittest.TestCase):
         omega = sp.Symbol("Omega", positive=True)
         pbar, pz = sp.symbols("pbar pz")
         probe_q, probe_r = sp.Matrix([[0, 1], [2, 0]]), sp.diag(1, -1)
-        probe_blocks = physical_mass_blocks(OLD.ad2(probe_q), OLD.ad2(probe_r), omega, pbar, pz)
+        carrier_isometry = sp.diag(1, 1, sp.sqrt(2))
+        source_basis = (sp.Matrix([[0, 1], [0, 0]]), sp.Matrix([[0, 0], [1, 0]]), sp.diag(1, -1))
+        source_gram = sp.Matrix(3, 3, lambda i, j: sp.trace(OLD.dagger(source_basis[i])*source_basis[j]))
+        self.assert_zero(OLD.dagger(carrier_isometry)*carrier_isometry-source_gram)
+        slot_isometry = sp.diag(*(carrier_isometry for _ in range(4)))
+        probe_q_operator = carrier_isometry*OLD.ad2(probe_q)*carrier_isometry.inv()
+        probe_r_operator = carrier_isometry*OLD.ad2(probe_r)*carrier_isometry.inv()
+        self.assert_zero(OLD.dagger(probe_q_operator)
+                         -carrier_isometry*OLD.ad2(OLD.dagger(probe_q))*carrier_isometry.inv())
+        self.assertNotEqual(OLD.dagger(OLD.ad2(probe_q)), OLD.ad2(OLD.dagger(probe_q)))
+        probe_blocks = physical_mass_blocks(probe_q_operator, probe_r_operator, omega, pbar, pz)
         probe_matrix = sp.Matrix.vstack(*(sp.Matrix.hstack(*row) for row in probe_blocks))
-        self.assert_zero(probe_matrix-OLD.physical_mass(probe_q, probe_r, omega, pbar, pz))
+        source_matrix = OLD.physical_mass(probe_q, probe_r, omega, pbar, pz)
+        self.assert_zero(probe_matrix-slot_isometry*source_matrix*slot_isometry.inv())
 
         for corrected in (False, True):
             modules = full_parent_modules(corrected)
@@ -547,8 +558,8 @@ class TransportEndChecks(unittest.TestCase):
         for coefficient,_,rows in records:
             for row,scalar in zip(rows,expected_scalars):
                 self.assert_zero(row-scalar*coefficient)
-        norm,projected_rows=centralizer_projection(records)
-        self.assertEqual(norm,1)
+        coefficient_norm,projected_rows=centralizer_projection(records)
+        self.assertEqual(coefficient_norm,1)
         self.assert_zero(projected_rows-sp.Matrix(expected_scalars))
         projected=projected_rows[2:4,:].subs({ll:0,aa0:0,dz_l:0,dz_a:0,
                                              bar_u:sp.I*omega*sp.diff(u,t),
@@ -565,10 +576,10 @@ class TransportEndChecks(unittest.TestCase):
         s=sp.Symbol("s",real=True)
         length,epsilon=sp.symbols("L epsilon",positive=True)
         bump=s**2*(1-s)**2
-        norm=sp.integrate(bump**2,(s,0,1))
+        bump_norm=sp.integrate(bump**2,(s,0,1))
         derivative=sp.integrate(sp.diff(bump,s)**2,(s,0,1))
-        normalized_norm=sp.simplify(length*(1/length)*norm/norm)
-        residual_squared=sp.simplify(derivative/(length**2*norm))
+        normalized_norm=sp.simplify(length*(1/length)*bump_norm/bump_norm)
+        residual_squared=sp.simplify(derivative/(length**2*bump_norm))
         self.assertEqual(normalized_norm,1)
         self.assertEqual(sp.limit(residual_squared,length,sp.oo),0)
         self.assertGreater(derivative,0)
@@ -591,10 +602,11 @@ class TransportEndChecks(unittest.TestCase):
         self.assertEqual(sp.im(sp.I)/sp.im(z),1/epsilon)
         self.assertEqual(sp.limit(sp.exp(2*epsilon*t),t,sp.oo),sp.oo)
         charge=sp.simplify(sum(sp.trace(OLD.dagger(coefficient)*OLD.bracket(cartan,coefficient))
-                               for coefficient,cartan,_ in records)/(60*norm))
+                               for coefficient,cartan,_ in records)/(60*coefficient_norm))
         self.assertEqual(charge,2)
+        self.assertNotEqual(coefficient_norm,bump_norm)
         g6,area=sp.symbols("g6 area",positive=True)
-        physical_overlap=sp.integrate((length/length)*(bump**2/norm)*charge,(s,0,1))
+        physical_overlap=sp.integrate((length/length)*(bump**2/bump_norm)*charge,(s,0,1))
         canonical_vertex=sp.simplify((g6**2/g6**2)*(g6/sp.sqrt(area))*physical_overlap)
         self.assertEqual(canonical_vertex,2*g6/sp.sqrt(area))
 
