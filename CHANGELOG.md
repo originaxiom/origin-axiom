@@ -1,5 +1,11 @@
 # Changelog
 
+## S305a THE OWNER'S TWO CALLS RULED (P-665, P-684): THE PMNS CARD'S ONE TARGET IS r; NO DATA-TOUCHING EXISTENCE SCAN FOR A HELD-OUT TARGET; THE COMPLIANCE FOLLOW-UP SENT TO THE AGY LANE (2026-11-05)
+
+- **The owner: "yes to both".** P-665 ruled: D2, the PMNS card (P-638) earns I-33's mass half only; its one target is r = Δm²₂₁/Δm²₃₁, and the angles and the phase are not graded. D11, no data-touching existence scan for a held-out target before its card; the data-free budget (P-611) and the controls replace it. Recorded in docs/PRACTICES.md (the claims-and-firewall table); P-582 and P-638 carry dated notes.
+- **P-684 sent:** docs/handoffs/CC_TO_AGY_2026-11-05_COMPLIANCE_FOLLOW_UP.md, re-derived on main through the mask (line numbers and keyword classes only) at 55431c8c7. It names the road-plan relay's line 94 (a P-638 value beside a comparison word), 58 assertion lines in the lane's test file naming held-out targets (26 P-585, 34 P-638, 2 both; 45 with a numeric bound, 4 naming data) and the lane's two compliance gates: Theorem 79's reads only the test file and matches ten fixed names, Theorem 84's checks identities, not the rule. It asks for removal or unread commits and a gate with a positive control, and suggests a salt for the seal. RELAY_LEDGER OPEN.
+- Owner calls open: P-081, P-082, P-253. 0 of 19.
+
 ## S304 THE CANDIDATE'S END IS THE NORM OF NO GEOMETRIC CUT (B1838): e^-L_max ABOVE THE CELL'S INRADIUS; NO SINGLE HOROCYCLE REPRODUCES ITS WEIGHTS; A07 RE-TYPED ANSATZ; THE AGY LANE'S STAGES 10-11 VERIFIED (2026-11-05)
 
 - **The end (P-421):** at every one of B1667's 54 points e^{−L_max} is 0.5005–0.5257, above the cell's inradius ½, so the small-cut expansion 2πL + c_s is used where no disc fits (at L₂, embedded, it is 0.6% accurate); L₂ − L_max = π(1 − 2/A_cusp) exactly. **No single horocycle reproduces the candidate's channel weights:** the level at which each channel's exact horoball norm equals 2πL_max + c_s is 0.81 for channels j, k and 0.91–0.95 for 1, i in every sector (spread 0.135 against a quadrature error 2 × 10⁻¹⁴; the web seat's instrument, byte-faithful in B1838). The end is the norm of no geometric cut: the scoreboard's A07 re-typed CHOSEN → ANSATZ (totals unchanged). Next: the deciding sealed card — the six with the exact horoball norm at one free cut level.

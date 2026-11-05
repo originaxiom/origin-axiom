@@ -74,6 +74,7 @@ cannot be checked, mark MANUAL and name the mechanism that surfaces it at the de
 | **A frame card before a frame** (the owner's ruling on P-407, 2026-10-29): free data counted against the object's rigid invariants, the null fixed in advance, the derivation chained backwards, the source read (WORKING_RULES, the 2026-10-29 rule, items 1–3) | **MANUAL** | the hostile referee at landing reads the card |
 | **FORCED / ADMITTED / CHOSEN on every claim** (the owner's ruling on P-407, 2026-10-29; item 4), with E20's comparable-object rule for FORCED | **MANUAL** | the hostile referee; a verdict-file field to gate later |
 | **Every document watched or frozen; each arc declares its surfaces** (the owner's ruling on P-417, 2026-10-29; item 5): key facts checked | **GATED** (key facts) / **MANUAL** (classification, surfaces) | `doc-facts`; P-417 steps 1, 2, 4, 5 owed |
+| **No data-touching existence scan for a held-out target before its card** (the owner's ruling on P-665 D11, 2026-11-05: "yes"): a quantity on V's held-out list (THE_FINAL_ACTS_BAR; P-585, P-638) is never compared with data, scanned for existence against data, or bounded by data before its sealed card. The data-free information budget (P-611) and the card's controls replace any such scan; P-582's existence scan stays open only for quantities off the list, or data-free. The same ruling (D2) fixes the PMNS card's scope: I-33's mass half only, one target r = Δm²₂₁/Δm²₃₁ | **MANUAL** | the card's own order of operations; LOOK_LEDGER counts any breach |
 
 ### Verification
 
