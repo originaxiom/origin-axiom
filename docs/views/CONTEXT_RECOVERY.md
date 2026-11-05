@@ -72,7 +72,7 @@ LATEST (2026-11-05, S305a: the owner ruled P-665 — the PMNS card's one target 
 
 | check | count | first items |
 |---|---|---|
-| arc folders without a verdict file (scripts/checks/arc_data.py classifies them; its resolved R-classes are not defects) | 39 | B263_t41_cs_levels, B452_ethogram_dictionary, B473_criticality_program, B501_universe_word, B502_parity_signature, B503_external_contact |
-| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 156 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
+| arc folders without a verdict file (scripts/checks/arc_data.py classifies them; its resolved R-classes are not defects) | 40 | B1839_the_end_card, B263_t41_cs_levels, B452_ethogram_dictionary, B473_criticality_program, B501_universe_word, B502_parity_signature |
+| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 158 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
 | register rows not in the 7-cell form | 0 | — |
 
