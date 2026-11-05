@@ -18455,3 +18455,10 @@ baryon asymmetry is now a held-out target; one early look at it, a miss by order
 At the owner's word the agy lane's two newest stages were read for anything that earns a joint or bears on the end card.
 Nothing does: its additions restate main or the web seat, or rest on choices it labels as such; one old error is fixed. Its
 compliance slipped back — its relay now publishes values of the held-out class — so a second note is proposed. 0 of 19.
+
+## 2026-11-05 — S305g: the homework for a closure
+
+The owner asked what else could be done so that the right values have their best chance, and to bring in the other
+seats. The card that tests the four principled cut levels was sealed before the end card's output is read, so neither
+card can steer the other. The web seat will referee it and recompute the census independently; the SM seat will specify
+the confirmation's statistics. The frozen-row instruments are on main as drafts for their review. 0 of 19.
