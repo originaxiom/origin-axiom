@@ -74,6 +74,6 @@ LATEST (2026-11-05, S305g: B1841 THE PRINCIPLED-ENDS CARD sealed before B1839 is
 | check | count | first items |
 |---|---|---|
 | arc folders without a verdict file (scripts/checks/arc_data.py classifies them; its resolved R-classes are not defects) | 43 | B1839_the_end_card, B1840_the_principled_ends, B1841_the_principled_ends_card, B1842_the_closure_instruments, B263_t41_cs_levels, B452_ethogram_dictionary |
-| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 163 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
+| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 161 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
 | register rows not in the 7-cell form | 0 | — |
 
