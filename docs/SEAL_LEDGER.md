@@ -9330,3 +9330,10 @@ ledger rows are added AFTER execution, not backdated. Failed runs kept.
 | date | stage | source | sha256 | scope |
 |---|---|---|---|---|
 | 2026-10-26 | BEFORE successor implementation/import/collection/run; AFTER source review R1/R2 | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_radial_flow_v2/DESIGN.md` | `1b5b2fcbbea3cf90a0e09fe1ea3605b10a170524680b73bebefc57897a061ec6` | Preserve original ten unrun controls and add physical normalization/trace-dual R and scalar first-order orientation discrimination in a separately reviewed successor. No runtime-complete specification, review acceptance, admission or science pass. |
+
+Joint transport and geometric/index execution packet.
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-11-05 | BEFORE joint scientific import/collection/run; AFTER code and independent source repairs | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_joint_2026_11_05/DESIGN.md` | `43e10214237e2645c527f1084527cf0791636e985ae732ffe496fcd650938df5` | Post-derivation joint design before this lane scientific import/collection/run; thirteen bounded methods; no physical-input payment. |
+| 2026-11-05 | BEFORE joint scientific import/collection/run; AFTER code and independent source repairs | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_joint_2026_11_05/SPECIFICATION.json` | `f5390767ebc04f68ee5ce0f1a5e854a9dcdea131586ae1812557fd3f9c3a4238` | Exact source/test/input/runtime/command/output binding before scientific execution; independent source-complete review and main acceptance remain required. |

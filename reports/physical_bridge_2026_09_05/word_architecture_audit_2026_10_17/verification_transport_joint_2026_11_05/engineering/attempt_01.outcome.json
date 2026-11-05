@@ -1,0 +1,31 @@
+{
+  "kind": "synthetic_stdlib_engineering_outcome",
+  "source_seal": "3f5d2ea51",
+  "command": [
+    "python3.12",
+    "-I",
+    "-B",
+    "-S",
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_joint_2026_11_05/engineering_checks.py"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 0.532433074,
+  "fixture_population": [
+    "8"
+  ],
+  "all_eight_fixtures_passed": true,
+  "source_unchanged": true,
+  "scientific_modules_imported": false,
+  "scientific_tests_collected": false,
+  "scientific_tests_executed": false,
+  "captures": {
+    "attempt_01.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "attempt_01.stderr.txt": {
+      "bytes": 1234,
+      "sha256": "bef76dc2f5bd2f9d252be6646506fd9e5849615495a40cf2cbd12a28173a2b9c"
+    }
+  }
+}

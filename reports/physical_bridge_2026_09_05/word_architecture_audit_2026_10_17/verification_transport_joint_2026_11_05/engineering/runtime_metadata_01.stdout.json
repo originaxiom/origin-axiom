@@ -1,0 +1,1 @@
+{"implementation": "CPython", "inspection": "stdlib and distribution metadata only, site startup disabled", "packages": {"mpmath": "1.3.0", "sympy": "1.14.0"}, "python": "3.12.1", "scientific_modules_loaded": []}
