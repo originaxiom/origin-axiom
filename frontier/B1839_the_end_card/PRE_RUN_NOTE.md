@@ -56,7 +56,7 @@ undefined and no target becomes a candidate.
 
 ## Addendum (S305d, still before `look.py` runs): what a pass would let the confirmation claim, fixed now
 
-Credit: the SM seat's §349 (65bdcb637, on `origin/claude/standard-model-derivation-0qt6ao`), read by main and adopted,
+Credit: the SM seat's §349 (65bdcb637, on the SM seat's own branch), read by main and adopted,
 because the math settles each point. These fix the scope of the level-2 cards before the frozen row is known; they change
 nothing in B1839's cells.
 
