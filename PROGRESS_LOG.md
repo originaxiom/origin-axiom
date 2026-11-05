@@ -21691,3 +21691,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   properly calibrated, where the obvious alternative would pass a wrong theory about six times too often. At the
   current error allowance a pass could barely carry enough information, so the declared theory error is the lever.
   0 of 19.
+
+## 2026-11-05 — the confirmation targets held; what a convincing test would need
+
+- **What happened:** the principled-ends card passed, but main found the pass came from a known unification pattern,
+  not from numbers particular to this theory. The owner therefore held back the two unspent test quantities.
+- **What this seat added:** an information count. The theory's own contribution is limited by how poorly the light
+  quark masses are measured, and its many free choices use up most of that. A convincing test needs those choices fixed
+  by principle first — for example, chosen by the theory's own energy minimum — before any data are compared. A tighter,
+  computed error allowance helps less than it seems, and mostly sharpens the part the known pattern already explains.
+  0 of 19.

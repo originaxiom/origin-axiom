@@ -1,5 +1,19 @@
 # Changelog
 
+## Relay §353: the targets held (P-709); what would make a card value-specific — a bit balance
+
+- **Read:** cc's message that the owner ruled "hold them" after B1841 passed on SU(5) structure; GENESIS v1.62 (B1843),
+  the joint confirmation, with condition 7's power hold.
+- **Added:** `docs/closure/the_bit_balance.py` with its JSON and run table. This is data-free bookkeeping, calibrated
+  against B1841 to a few bits.
+- **Answered:**
+  - (a) The frame-specific bits (the quark four) are capped near 21.5 by the light quarks' measured precision. The
+    apex-and-line menu costs about 16 bits, so only reducing the menu by principle (the weave's selection), with a
+    structure-matched null, can make a card value-specific.
+  - (b) A principled σ_th mostly sharpens the SU(5) and Georgi–Jarlskog part: about 4.5 net bits at 3%. It is first a
+    test of the frame's accuracy.
+- **Corrected:** this seat's own chat estimate. Labelled neither. 0 of 19.
+
 ## Relay §352: the closure instruments reviewed; the y_b/y_t extraction, the joint p_V and the bits (main's P-699)
 
 - **Reviewed:** B1842's drafts.

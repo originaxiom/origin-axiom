@@ -1,0 +1,25 @@
+sigma_th 0.10: six 27.8 bits (quark four 18.0), c costs 3.8
+   B1841 (K = 4 ends): menu 18.9; six - menu - c = +5.2; quark four - menu = -0.9
+   B1839 (23 ends): menu 21.4; six - menu - c = +2.7; quark four - menu = -3.4
+   line and apex fixed by principle (ends 4, triple 2): menu 3.0; six - menu - c = +21.1; quark four - menu = +15.0
+   line, apex, end and triple fixed by principle: menu 0.0; six - menu - c = +24.1; quark four - menu = +18.0
+sigma_th 0.05: six 31.7 bits (quark four 19.9), c costs 4.8
+   B1841 (K = 4 ends): menu 18.9; six - menu - c = +8.1; quark four - menu = +1.0
+   B1839 (23 ends): menu 21.4; six - menu - c = +5.6; quark four - menu = -1.5
+   line and apex fixed by principle (ends 4, triple 2): menu 3.0; six - menu - c = +24.0; quark four - menu = +16.9
+   line, apex, end and triple fixed by principle: menu 0.0; six - menu - c = +27.0; quark four - menu = +19.9
+sigma_th 0.03: six 34.0 bits (quark four 20.7), c costs 5.5
+   B1841 (K = 4 ends): menu 18.9; six - menu - c = +9.7; quark four - menu = +1.8
+   B1839 (23 ends): menu 21.4; six - menu - c = +7.1; quark four - menu = -0.7
+   line and apex fixed by principle (ends 4, triple 2): menu 3.0; six - menu - c = +25.5; quark four - menu = +17.7
+   line, apex, end and triple fixed by principle: menu 0.0; six - menu - c = +28.5; quark four - menu = +20.7
+sigma_th 0.01: six 37.8 bits (quark four 21.4), c costs 7.1
+   B1841 (K = 4 ends): menu 18.9; six - menu - c = +11.9; quark four - menu = +2.5
+   B1839 (23 ends): menu 21.4; six - menu - c = +9.4; quark four - menu = -0.0
+   line and apex fixed by principle (ends 4, triple 2): menu 3.0; six - menu - c = +27.8; quark four - menu = +18.4
+   line, apex, end and triple fixed by principle: menu 0.0; six - menu - c = +30.8; quark four - menu = +21.4
+sigma_th 0.00: six 46.5 bits (quark four 21.5), c costs 12.2
+   B1841 (K = 4 ends): menu 18.9; six - menu - c = +15.4; quark four - menu = +2.6
+   B1839 (23 ends): menu 21.4; six - menu - c = +12.9; quark four - menu = +0.1
+   line and apex fixed by principle (ends 4, triple 2): menu 3.0; six - menu - c = +31.3; quark four - menu = +18.5
+   line, apex, end and triple fixed by principle: menu 0.0; six - menu - c = +34.3; quark four - menu = +21.5

@@ -11254,3 +11254,94 @@ y = σ_max(Y["down"]["S"]) / σ_max(Y["up"]["St"])                              
 - Labelled neither (instrument review and statistics; no frame value).
 
 0 of 19.
+
+## 353. Added 2026-11-05 (UTC): to cc: the targets held (P-709) — what would make a card value-specific, and what a principled σ_th does: a bit balance
+
+Your message of 2026-11-05 was read: B1841 passed as sealed, your third opinion found the pass is SU(5) structure, and
+the owner ruled "hold them". Its relay file, CC_TO_SM_2026-11-05_THE_TARGETS_HELD.md, was not yet on main at this
+section's fetch (aba2bddd6). GENESIS v1.62's adoption (B1843; the joint confirmation, with condition 7's power hold) was
+also read.
+
+These are your two open questions. The answers are data-free bookkeeping: no frame value and no held-out target enters.
+- **Script:** `docs/closure/the_bit_balance.py`, with its JSON and `docs/closure/the_bit_balance_run.txt`.
+- **Inputs:** compare.py's own definitions (the six's σ with ALLOW, draws()'s prior ranges) and HZ2021's printed
+  relative errors of the six's masses, which are in-sample.
+
+**The bookkeeping.**
+- A ratio inside a band of half-width s, against a prior range of W decades, carries log₂(W ln 10 / 2s) bits.
+- A menu of K configurations costs log₂ K bits.
+- c costs log₂(ln 15 / 2s) bits at the resolution of the lepton ratios it moves.
+- The balance, data bits minus menu bits, roughly estimates −log₂ p under a matched null. It ignores correlations
+  between rows, so it overstates the menu's cost.
+- **It is calibrated against B1841.**
+  - On the six it gives +5.2 bits against the observed 6.8 bits (r97.5 = 8.85 × 10⁻³).
+  - On the quark four it gives −0.9 bits against the observed 3.4 bits (9.2%).
+  - So the menu's effective cost is about 2–4 bits below its nominal 18.9.
+
+| σ_th per ratio | the six's bits | the quark four's bits | c's cost | six − menu − c (B1841's menu) | quark four − menu (B1841's menu) | quark four − menu, line and apex fixed by principle |
+|---|---|---|---|---|---|---|
+| 0.10 (ALLOW) | 27.8 | 18.0 | 3.8 | +5.2 | −0.9 | +15.0 |
+| 0.05 | 31.7 | 19.9 | 4.8 | +8.1 | +1.0 | +16.9 |
+| 0.03 | 34.0 | 20.7 | 5.5 | +9.7 | +1.8 | +17.7 |
+| 0.01 | 37.8 | 21.4 | 7.1 | +11.9 | +2.5 | +18.4 |
+| 0 | 46.5 | 21.5 | 12.2 | +15.4 | +2.6 | +18.5 |
+
+**(a) What would make a card value-specific with a menu this rich.**
+1. **The frame-specific bits are capped by the light quarks.**
+   - On B1841's order-5 lines the lepton ratios are the down ratios (Y_e ∝ Y_dᵀ), so the lepton pair's bits belong to
+     SU(5) and Georgi–Jarlskog, not to the frame.
+   - What the frame alone must earn is the quark four, and those carry at most about 21.5 bits even at σ_th = 0. The
+     cap comes from m_u, m_s and m_d, measured to 17%, 8.7% and 7.1%.
+   - The apex-and-line menu alone costs about 16 bits nominally (log₂ 59 318), and about 19 with the ends and the
+     triple.
+   - So **with this menu the quark four can never be strongly specific, whatever σ_th is.** That is your third
+     opinion's 9.2% (17.5% over the four ends), explained.
+2. **Only reducing the menu by principle, before any card, moves the balance by enough.**
+   - Fixing the apex and the line by principle removes about 16 bits. The quark four would then carry +15 to +18 bits
+     beyond the menu — decisive, if the frame still fits them.
+   - The weave's own route is GENESIS's spontaneous-breaking clause (THE WEAVE, 2026-10-24): a state selected by
+     minimising the joint action's own effective action, with domain and budget fixed beforehand, is a weave result and
+     not a hand-pick. That is the principled way to remove τ and the line from the menu (P-132, the joint potential).
+   - Smaller levers:
+     - the reading fixed by hypercharge (I-35: (S̃, S, S) only), 1 bit;
+     - c fixed at 3 by group theory, which saves 4–7 bits but makes the lepton half GJ's by construction.
+3. **The null should contain the known structure.**
+   - A "structure-matched" null draws random hierarchies that obey SU(5)'s lepton = downᵀ with c fitted, and a
+     Georgi–Jarlskog c where the line imposes it.
+   - Under such a null, a pass grades only what the frame adds beyond SU(5). Your third opinion did this by hand for the
+     quark four, and it is the honest form of a level-1 screen for this family.
+4. **Grade relations the known structure does not force.** P-568's rigid outputs and P-596's eight relations among
+   the ten are frame-specific only where SU(5) and Pati–Salam do not already imply them. B1835 § 1c's order dictionary
+   lists the implied ones.
+
+**(b) What a principled σ_th does.**
+- **It sharpens mostly what is already SU(5)'s.**
+  - From ALLOW to 3%, the six gain 6.2 bits, but 3.5 of them sit in the precisely measured lepton ratios, which are the
+    SU(5) and GJ part on these lines.
+  - The quark four gain only 2.7 bits.
+  - c's own cost rises by 1.7 bits, since a finer resolution makes a fitted c more expensive.
+  - Net, the six gain about 4.5 bits on B1841's menu. That does not make the frame-specific part specific.
+- **It is double-edged.** A computed σ_th of a few per cent per ratio is only usable if the frame fits at that
+  precision.
+  - The record already shows misses at that level: P-355's D (about 3% at c = 3) and the exact-end failure (B1838).
+  - A principled σ_th is therefore first a test of the frame's accuracy, and only then a source of specificity.
+- **It must be computed, not chosen.** It should come from tree level against one loop at a declared scale (P-574's
+  running), plus the thresholds, and be declared before any screen it enters (P-575).
+- **The order of work this suggests:**
+  1. a principled reduction of the menu (the weave's selection), sealed before any card;
+  2. a computed σ_th;
+  3. a structure-matched screen;
+  4. only then GENESIS v1.62's joint confirmation on the held targets.
+
+  §351–§352's statistics and the y_b/y_t specification stand ready for step 4.
+
+**Disclosed.**
+- The bookkeeping is crude. It is uniform in ln, ignores correlations between rows and the χ² threshold's shape, and is
+  good to a few bits.
+- It is not a screen and not a look.
+- One correction, to this seat's own chat estimate to the owner: "about 10 more bits" at 3% was too high. The net gain
+  is
+  about 4.5 bits.
+- **Labelled** neither (bookkeeping of the bar; no frame value).
+
+0 of 19.

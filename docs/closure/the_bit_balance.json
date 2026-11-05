@@ -1,0 +1,184 @@
+{
+ "rows": [
+  {
+   "sigma_th": 0.1,
+   "bits_per_ratio": {
+    "c/t": 4.471560304979062,
+    "u/t": 4.347677949544332,
+    "s/b": 4.117226202698032,
+    "d/b": 5.032984939145724,
+    "mu/tau": 4.5251769902276475,
+    "e/tau": 5.332473003372667
+   },
+   "six_bits": 27.82709938996746,
+   "quark_four_bits": 17.96944939636715,
+   "c_bits": 3.759177000979205,
+   "balance": {
+    "B1841 (K = 4 ends)": {
+     "menu_bits_without_c": 18.856182335421494,
+     "six_minus_menu_and_c": 5.211740053566762,
+     "quark_four_minus_menu": -0.8867329390543439
+    },
+    "B1839 (23 ends)": {
+     "menu_bits_without_c": 21.379744291478506,
+     "six_minus_menu_and_c": 2.6881780975097507,
+     "quark_four_minus_menu": -3.410294895111356
+    },
+    "line and apex fixed by principle (ends 4, triple 2)": {
+     "menu_bits_without_c": 3.0,
+     "six_minus_menu_and_c": 21.067922388988258,
+     "quark_four_minus_menu": 14.96944939636715
+    },
+    "line, apex, end and triple fixed by principle": {
+     "menu_bits_without_c": 0.0,
+     "six_minus_menu_and_c": 24.067922388988258,
+     "quark_four_minus_menu": 17.96944939636715
+    }
+   }
+  },
+  {
+   "sigma_th": 0.05,
+   "bits_per_ratio": {
+    "c/t": 5.331128736443327,
+    "u/t": 4.500997638003121,
+    "s/b": 4.517711060658651,
+    "d/b": 5.525982285885932,
+    "mu/tau": 5.525160258408073,
+    "e/tau": 6.332279579138647
+   },
+   "six_bits": 31.73325955853775,
+   "quark_four_bits": 19.875819720991032,
+   "c_bits": 4.759160269159631,
+   "balance": {
+    "B1841 (K = 4 ends)": {
+     "menu_bits_without_c": 18.856182335421494,
+     "six_minus_menu_and_c": 8.117916953956625,
+     "quark_four_minus_menu": 1.0196373855695384
+    },
+    "B1839 (23 ends)": {
+     "menu_bits_without_c": 21.379744291478506,
+     "six_minus_menu_and_c": 5.594354997899613,
+     "quark_four_minus_menu": -1.5039245704874737
+    },
+    "line and apex fixed by principle (ends 4, triple 2)": {
+     "menu_bits_without_c": 3.0,
+     "six_minus_menu_and_c": 23.974099289378117,
+     "quark_four_minus_menu": 16.875819720991032
+    },
+    "line, apex, end and triple fixed by principle": {
+     "menu_bits_without_c": 0.0,
+     "six_minus_menu_and_c": 26.974099289378117,
+     "quark_four_minus_menu": 19.875819720991032
+    }
+   }
+  },
+  {
+   "sigma_th": 0.03,
+   "bits_per_ratio": {
+    "c/t": 5.815493238947384,
+    "u/t": 4.538394626478791,
+    "s/b": 4.642066032444723,
+    "d/b": 5.695300300750303,
+    "mu/tau": 6.262086193515113,
+    "e/tau": 7.068786893302154
+   },
+   "six_bits": 34.02212728543847,
+   "quark_four_bits": 20.691254198621202,
+   "c_bits": 5.496086204266671,
+   "balance": {
+    "B1841 (K = 4 ends)": {
+     "menu_bits_without_c": 18.856182335421494,
+     "six_minus_menu_and_c": 9.669858745750307,
+     "quark_four_minus_menu": 1.8350718631997083
+    },
+    "B1839 (23 ends)": {
+     "menu_bits_without_c": 21.379744291478506,
+     "six_minus_menu_and_c": 7.146296789693295,
+     "quark_four_minus_menu": -0.6884900928573039
+    },
+    "line and apex fixed by principle (ends 4, triple 2)": {
+     "menu_bits_without_c": 3.0,
+     "six_minus_menu_and_c": 25.5260410811718,
+     "quark_four_minus_menu": 17.691254198621202
+    },
+    "line, apex, end and triple fixed by principle": {
+     "menu_bits_without_c": 0.0,
+     "six_minus_menu_and_c": 28.5260410811718,
+     "quark_four_minus_menu": 20.691254198621202
+    }
+   }
+  },
+  {
+   "sigma_th": 0.01,
+   "bits_per_ratio": {
+    "c/t": 6.285203643986349,
+    "u/t": 4.557846222472597,
+    "s/b": 4.713331963288724,
+    "d/b": 5.797649753548791,
+    "mu/tau": 7.846553139882066,
+    "e/tau": 8.648045325369647
+   },
+   "six_bits": 37.84863004854817,
+   "quark_four_bits": 21.35403158329646,
+   "c_bits": 7.080553150633624,
+   "balance": {
+    "B1841 (K = 4 ends)": {
+     "menu_bits_without_c": 18.856182335421494,
+     "six_minus_menu_and_c": 11.911894562493057,
+     "quark_four_minus_menu": 2.497849247874967
+    },
+    "B1839 (23 ends)": {
+     "menu_bits_without_c": 21.379744291478506,
+     "six_minus_menu_and_c": 9.388332606436045,
+     "quark_four_minus_menu": -0.025712708182044963
+    },
+    "line and apex fixed by principle (ends 4, triple 2)": {
+     "menu_bits_without_c": 3.0,
+     "six_minus_menu_and_c": 27.76807689791455,
+     "quark_four_minus_menu": 18.35403158329646
+    },
+    "line, apex, end and triple fixed by principle": {
+     "menu_bits_without_c": 0.0,
+     "six_minus_menu_and_c": 30.76807689791455,
+     "quark_four_minus_menu": 21.35403158329646
+    }
+   }
+  },
+  {
+   "sigma_th": 0.0,
+   "bits_per_ratio": {
+    "c/t": 6.373100590947042,
+    "u/t": 4.560314971154803,
+    "s/b": 4.722756406854754,
+    "d/b": 5.811528209847044,
+    "mu/tau": 13.015556125335902,
+    "e/tau": 12.057212635385868
+   },
+   "six_bits": 46.54046893952541,
+   "quark_four_bits": 21.467700178803643,
+   "c_bits": 12.24955613608746,
+   "balance": {
+    "B1841 (K = 4 ends)": {
+     "menu_bits_without_c": 18.856182335421494,
+     "six_minus_menu_and_c": 15.434730468016458,
+     "quark_four_minus_menu": 2.611517843382149
+    },
+    "B1839 (23 ends)": {
+     "menu_bits_without_c": 21.379744291478506,
+     "six_minus_menu_and_c": 12.911168511959445,
+     "quark_four_minus_menu": 0.08795588732513693
+    },
+    "line and apex fixed by principle (ends 4, triple 2)": {
+     "menu_bits_without_c": 3.0,
+     "six_minus_menu_and_c": 31.29091280343795,
+     "quark_four_minus_menu": 18.467700178803643
+    },
+    "line, apex, end and triple fixed by principle": {
+     "menu_bits_without_c": 0.0,
+     "six_minus_menu_and_c": 34.29091280343795,
+     "quark_four_minus_menu": 21.467700178803643
+    }
+   }
+  }
+ ]
+}
