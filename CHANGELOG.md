@@ -1,5 +1,11 @@
 # Changelog
 
+## S305f THE AGY LANE'S STAGES 14–15 READ AT THE OWNER'S WORD: NO JOINT EARNED, NOTHING THAT MOVES B1839; COMPLIANCE REGRESSED (2026-11-05)
+
+- **The owner:** 'refetch agy and see if its results strengthen our weakneses for sure and wether they have implications on the task youre dealing with'. Stages 14–15 (881538c8e, 2b6add031; Theorems 93–102) through the mask: **no joint earned** — B08 one step short (main can convert it at the lane's τ*, P-698); the GAP1 independence 'proof' differentiates in two knobs outside the frame, not a proof; the 'unique' lift is the old midpoint keyed to a PDG comparison; c = 3 not forced (nothing selects a 126); the reading triple and the Higgs-twist law's Liouville lemma restate main and the web seat (earlier by commit time); **Theorem 59 repaired**. **Nothing changes B1839's cells, B1840's list or the confirmation's scope:** the lane's two further ends (the area-π horocycle, a member of the area family; the horoball through ±i/2, not canonical) not entered, recorded before the look is read.
+- **Compliance regressed:** the relay's lines 819–831 publish P-585-class values; Theorem 102 carries held-out-class literals; the 'openable' salt sits in a temporary file. 14 ranges sealed (145); the published exposures counted in LOOK_LEDGER; a second follow-up asked of the owner (P-697).
+- **The physical lane's** independent review read: no refutation, both packages REVISION REQUIRED, nothing to bank. Rows 1571–1572; pins agyaudit 2b6add03, audit fca1ce32; P-696–P-698; FLOOR 698. 0 of 19.
+
 ## S305e η_B JOINS THE HELD-OUT LIST; THE BANG PROGRAMME RULED (P-694, P-695) (2026-11-05)
 
 - **The owner** asked how what we call the big bang emerges from the programme — the dance should create reality, not account for parameters — and agreed to open it as a programme after today's end card (P-694; draft plan in the audit room). Main's answer: the record has the stage, not the play — GENESIS's seed, B286's seam, **B303's 'the CP sign IS the sign of the CS clock'** (matter over antimatter = the internal arrow of time, conditional on two named leaps), B867's Sakharov gate, L244's symmetric phase with its Hagedorn point β_c = 2 log φ, the record's clocks; FL-05 names the gap (no action, no dynamics, no scale).

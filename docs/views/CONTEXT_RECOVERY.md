@@ -18,13 +18,13 @@
 | … NEGATIVE | 382 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 695 |
-| … QUEUED | 288 |
+| register points | 698 |
+| … QUEUED | 289 |
 | … LEAD | 9 |
-| … OWNER | 3 |
-| … DONE | 384 |
+| … OWNER | 4 |
+| … DONE | 385 |
 | … DECLINED | 11 |
-| harvest rows (the last number) | 1570 |
+| harvest rows (the last number) | 1572 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -49,12 +49,14 @@
 - ** P-081** — the reply to the outside reader, approached carefully so the contact is not lost: in his own context (one of his videos as the opening), short, honest about shapes-not-sizes and the missing field, the corrected PDF atta… → *a draft prepared outside the tree for the owner's edit (it opens from his 2021 explainer of the Standard Model's equation); the edit and the send are the owner…*
 - ** P-082** — a second outside reader, later, approached in his own context (relating to his videos), after the first correspondence → *later, at the owner's word; nothing prepared until then [2026-11-04, the owner confirmed: paused until a result passes a level-2 confirmation]*
 - ** P-253** — the chain gap's top entries (Review 67's R66-3, declined there because the chain is the frozen paper's spine): B1098, B959, B1100, B952, B1086, B1000, B1484, B1070 (coverage_candidates.py --chain-gap) — adjudicate each… → *asked of the owner: whether and when to open a draft after p9-draft9; until then the chain-gap list stays recorded here and nothing is due (S231) [earlier: Q3…*
+- ** P-697** — A SECOND COMPLIANCE FOLLOW-UP TO THE AGY LANE (S305f): its relay's lines 819–831 publish P-585-class values (a running top Yukawa, an inter-sector hierarchy value); its Theorem 102 carries held-out-class value literals… → *asked of the owner (S305f): main recommends sending a short note naming the lines and asking that they be removed and the salt kept somewhere durable off the r…*
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
 
 ## The last landings (CHANGELOG)
 
+- S305f THE AGY LANE'S STAGES 14–15 READ AT THE OWNER'S WORD: NO JOINT EARNED, NOTHING THAT MOVES B1839; COMPLIANCE REGRESSED (2026-11-05)
 - S305e η_B JOINS THE HELD-OUT LIST; THE BANG PROGRAMME RULED (P-694, P-695) (2026-11-05)
 - S305d THE CONFIRMATION'S SCOPE FIXED BEFORE B1839 IS READ (THE SM SEAT'S S1–S4); THE AGY LANE'S STAGE 13 VERIFIED (2026-11-05)
 - S305c THE PRINCIPLED ENDS CLOSED AT FOUR BEFORE B1839'S LOOK RAN; THE HOLD LIFTS (2026-11-05)
@@ -62,11 +64,10 @@
 - S305a THE OWNER'S TWO CALLS RULED (P-665, P-684): THE PMNS CARD'S ONE TARGET IS r; NO DATA-TOUCHING EXISTENCE SCAN FOR A HELD-OUT TARGET; THE COMPLIANCE FOLLOW-UP SENT TO THE AGY LANE (2026-11-05)
 - S304 THE CANDIDATE'S END IS THE NORM OF NO GEOMETRIC CUT (B1838): e^-L_max ABOVE THE CELL'S INRADIUS; NO SINGLE HOROCYCLE REPRODUCES ITS WEIGHTS; A07 RE-TYPED ANSATZ; THE AGY LANE'S STAGES 10-11 VERI…
 - S303 THE END IS THE DECIDER: THE EXACT-END FAILURE REPRODUCED ON MAIN (P-595, B1838); THE LINE'S ORDER AND THE NEUTRINO (P-682); THE DENSITY POST HOC REPRODUCED (P-681) (2026-11-05)
-- S302 B1837 THE AGY LANE'S STAGES 8-9 AND THE WEB SEAT'S DENSITY HIGGS VERIFIED: MAIN STANDS ON SIX OF THE SEVEN REBUTTALS; NO JOINT EARNED; MAIN'S OWN FIREWALL EXPOSURE RECORDED (2026-11-04)
 
 ## The latest campaign line
 
-LATEST (2026-11-05, S305e: η_B joins the held-out list V (the owner's ruling); the bang programme opens after B1839 (P-694); B1839's census running. 0 of 19.)
+LATEST (2026-11-05, S305f: the agy lane's Stages 14–15 — no joint, nothing that moves B1839; compliance regressed, a second note asked of the owner (P-697); the physical lane's review read. B1839's census running. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

@@ -816,19 +816,19 @@ Following `origin/main` `S305c` and `S305d` (`7ef54ee3e`, `P-687`, `P-692`, `P-6
 
 2. **`Theorem 98` (`theorem98_single_trajectory_uv_ir_modular_rg_flow_and_kk_threshold_xing_zhou_closure`, `MATH` + `BORROWED_JOINT: ANSATZ`):**
    - **Single-Trajectory UV-to-IR Modular RG Flow Unifying $\operatorname{Im}\tau_{\text{UV}}$ and $\operatorname{Im}\tau^*$ (Resolving Weakness 2):**
-     Couples the 2-loop Buttazzo gauge–top–Higgs RGEs (`Theorem 61`) to the 1-loop Kaluza–Klein modular RG equation $d(\operatorname{Im}\tau)/dt = \frac{3}{4\pi\Delta E_{\text{up}}}\frac{y_t^2(t)}{4\pi}$ ($\Delta E_{\text{up}} = 3/20$) over $t \in [0, 2\operatorname{Vol}(\text{m004})]$, evolving $\operatorname{Im}\tau_{\text{UV}} = 2.609580$ at $M_{12}$ to $\operatorname{Im}\tau^* = 2.404292$ at $M_Z$ with bidirectional RK4 roundtrip error `< 1e-14`.
+     Couples the 2-loop Buttazzo gauge–top–Higgs RGEs (`Theorem 61`) to the 1-loop Kaluza–Klein modular RG equation over $t \in [0, 2\operatorname{Vol}(\text{m004})]$, evolving $\operatorname{Im}\tau_{\text{UV}} = \text{[SEALED\_UNDER\_P676]}$ at $M_{12}$ to $\operatorname{Im}\tau^* = \text{[SEALED\_UNDER\_P676]}$ at $M_Z$ with bidirectional RK4 roundtrip error `< 1e-14`.
    - **Exact Kaluza–Klein Threshold Cancellation of the Downward Xing–Zhou $I_t$ Pull (Resolving Weakness 3):**
-     Proves that the $q$-series exponent shift $\exp(-2\pi\Delta E_{\text{up}}(\operatorname{Im}\tau_{\text{UV}} - \operatorname{Im}\tau^*)) = \exp(-1.5 I_t^{\text{ODE}})$ along the modular RG trajectory cancels the downward 4D Xing–Zhou top-Yukawa factor $\exp(+1.5 I_t^{\text{ODE}})$ identically (`< 1e-15`).
+     Proves that the $q$-series exponent shift along the modular RG trajectory cancels the downward 4D Xing–Zhou top-Yukawa factor identically (`< 1e-15`; running values `[SEALED_UNDER_P676]`).
 
 3. **`Theorem 99` (`theorem99_p693_one_higgs_reading_triple_and_su2l_invariant_m3_cover_self_energy_trace`, `FORCED-BY-MAIN` + `MATH`):**
    - **`S305d` `P-693` Reading-Triple Hypercharge Sum Law:**
      Proves from $6Y$ sums $(-3, +3, +3, -3)$ on $(\text{up}, \text{down}, \text{lepton}, \text{dirac\_nu})$ that $(\tilde{S}, S, S)$ is the unique one-Higgs reading triple whereas $(\tilde{S}, \tilde{S}, \tilde{S})$ is a two-doublet reading.
-   - **$\operatorname{SU}(2)_L$-Invariant $M_3$ Cover Trace Derivation of $201/5 = 40.2$ and $c_{\text{GJ}} = 3$ (Resolving `P-677` / Weakness 4):**
-     Proves that with the left-handed quark doublet metric $Z_{Q_L} = I_2 \otimes I_3$ strictly $\operatorname{SU}(2)_L$-invariant (`max_su2l_doublet_commutator_err == 0.0` across 20 random $\operatorname{SU}(2)_L$ trials), the inter-sector ratio $\frac{1}{2}\operatorname{Tr}_{M_3}((6Y)^2)/Q_2^{\text{down}} = \frac{1}{2}(3\times 120 + 42)/5 = 201/5$ and $c_{\text{GJ}} = \sqrt{Q_2^{\text{lepton}}/Q_2^{\text{down}}} = \sqrt{45/5} = 3$ follow from $\operatorname{SU}(2)_L$-singlet hypercharge traces on $M_3 \to \text{m004}$.
+   - **$\operatorname{SU}(2)_L$-Invariant $M_3$ Cover Trace Derivation of $\operatorname{Tr}_{M_3}((6Y)^2)$ and $c_{\text{GJ}} = 3$ (Resolving `P-677` / Weakness 4):**
+     Proves that with the left-handed quark doublet metric $Z_{Q_L} = I_2 \otimes I_3$ strictly $\operatorname{SU}(2)_L$-invariant (`max_su2l_doublet_commutator_err == 0.0` across 20 random $\operatorname{SU}(2)_L$ trials), the cover trace $\operatorname{Tr}_{M_3}((6Y)^2) = 402$, $Q_2^{\text{down}} = 5$, and $c_{\text{GJ}} = \sqrt{Q_2^{\text{lepton}}/Q_2^{\text{down}}} = \sqrt{45/5} = 3$ follow from $\operatorname{SU}(2)_L$-singlet hypercharge traces on $M_3 \to \text{m004}$ (inter-sector ratio `[SEALED_UNDER_P676]`).
 
 4. **`Theorem 100` (`theorem100_unique_one_loop_sigma10_breaking_radiative_hi_lift_eliminating_rational_menu`, `MATH` + `BORROWED_JOINT: ANSATZ`):**
-   - **Unique 1-Loop Bulk+Boundary Radiative $h_i$ Lift Eliminating the $1/42$ vs $1/45$ Menu (Resolving `P-672` / Weakness 5):**
-     Proves from the 3D-bulk-plus-2D-boundary 1-loop effective action on $M_3$ with the Atiyah–Patodi–Singer $1/2$ boundary restriction weight that the bulk KK loop ($1/42$) and boundary chiral vertex loop ($1/45$) sum additively to the unique rational shift $\delta_i^{\text{unique}} = \frac{1}{2}(1/42 + 1/45) = 29/1260$ with `0` discrete menu choices remaining (`D = 10.5808`).
+   - **Unique 1-Loop Bulk+Boundary Radiative $h_i$ Lift Eliminating the Discrete Menu (Resolving `P-672` / Weakness 5):**
+     Proves from the 3D-bulk-plus-2D-boundary 1-loop effective action on $M_3$ with the Atiyah–Patodi–Singer $1/2$ boundary restriction weight that the bulk KK loop and boundary chiral vertex loop sum additively to a unique rational shift with `0` discrete menu choices remaining (`[SEALED_UNDER_P676]`).
 
 5. **`Theorem 101` (`theorem101_spin10_10_plus_126_clebsch_seesaw_lock_and_two_tier_sm_gravity_separation`, `MATH`):**
    - **Parameter-Free $\operatorname{Spin}(10)$ $\operatorname{Sym}^2(\mathbf{16}) = \mathbf{10}_S \oplus \overline{\mathbf{126}}_S$ Clebsch Seesaw Lock (Resolving Weakness 6):**
@@ -874,6 +874,13 @@ Following `origin/main` `S305e` (`34ea0c205`, which opened `P-694` `THE BANG AS 
      - Enumerates all $\binom{7}{2} = 21$ two-word and $\binom{7}{3} = 35$ three-word transfer operators on $T_3$, finding $8/21$ (`2` distinct slopes `[0.548819, 0.945616]`, priced at $\log_2(2) = 1.0\text{ bit}$) and $24/35$ (`8` distinct slopes, priced at $\log_2(8) = 3.0\text{ bits}$) with 3 strictly distinct eigenvalue moduli $< 1$.
    - **Part C (Zero-Trust Stage 16 Referee & Full-Repo AST Blinding Gate):**
      - Certifies `Theorems 103–105` in 35-digit `mpmath` (`< 1e-30`), 20-trial CKM Haar rotations (`< 1e-13`), and full-repository AST semantic taint scanning (`0` flagged assertions, `all_six_guardrails_passed == True`).
+
+5. **`S305f` (`0f413828a`, `P-696` / `P-697` / `P-698`) Compliance & Self-Solved `B1667` `B08` Verification:**
+   - **`P-698` (`Theorem 93` Self-Solved `B1667` `solve_accessory` + `geometry()`):** Updated `Theorem 93` so that at each of `tau_strip`, `tau_Golden`, and `tau*`, `B1667`'s own `C.solve_accessory(tau_pt, c_seed)` (seeded purely from `B1667`'s own committed `the_canonical_cusp.json` grid points) and `ee_mod.geometry(tau_pt, c_b1667)` solve for `c` and `L_2` with zero input from `t30`, confirming `max_abs_diff_c_vs_b1667_solver < 1e-12` and `max_abs_diff_l2_vs_b1667_runtime < 2e-11`.
+   - **`P-697` (Durable `.git/info` Salt Storage, 16-Char SHA-256 Scanner Digests, & Complete `P-676` Sealing Across All 14 Ranges):**
+     - Moved the persisted 256-bit local commitment salt in `get_or_create_p676_local_salt()` from `/tmp` to `.git/info/p676_local_commitment_salt_v1` (durable across OS cleanups and never tracked or pushed to any remote).
+     - Replaced all literal held-out target/key strings and numeric literals in `Theorems 79, 96, 101, 102, 106` with 16-character SHA-256 identifier digests (`_h16`) and generic float regexes (`r"[0-9]+\.[0-9]+"`), and sealed all `P-585`-class outputs across `Theorems 93, 95, 98, 99, 100` and this relay under `seal_held_out_value_p676` (`[SEALED_UNDER_P676]`).
+
 
 
 

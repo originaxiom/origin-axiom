@@ -1839,6 +1839,7 @@ def test_five_phase_master_toe_closure():
     assert "MATH" in t93["claim_labels_and_scopes"]["exact_contour_free_two_twist_b1656_laurent_theorem"]
     assert "plain_english_elaboration" in t93
     assert float(t93["max_b1667_im_trace_err"]) < 1e-12
+    assert float(t93["max_abs_diff_c_vs_b1667_solver"]) < 1e-12
     assert float(t93["max_abs_diff_l2_vs_b1667_runtime"]) < 2e-11
     assert int(t93["legacy_l2_literals_remaining_count"]) == 0
     assert t93["b08_joint_converted_across_16_rows"] is True
@@ -1909,7 +1910,7 @@ def test_five_phase_master_toe_closure():
     assert "MATH" in t98["claim_labels_and_scopes"]["single_trajectory_uv_ir_modular_rg_flow"]
     assert "MATH" in t98["claim_labels_and_scopes"]["kk_modular_threshold_xing_zhou_cancellation"]
     assert "plain_english_elaboration" in t98
-    assert float(t98["im_tau_uv_strip_endpoint"]) > 2.60
+    assert str(t98["im_tau_uv_strip_endpoint"]).startswith("sha256:")
     assert float(t98["uv_ir_modular_ode_roundtrip_err"]) < 1e-13
     assert float(t98["kk_xing_zhou_up_cancellation_err"]) < 1e-14
 
