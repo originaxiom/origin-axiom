@@ -2188,3 +2188,20 @@ retain independent review, exact main acceptance and strict prospective
 admission as outstanding duties. The earlier eight-control package is
 unchanged. No analytical candidate is promoted to a reviewed physical
 result by this implementation checkpoint.
+
+## Independent review and pre-execution source repairs
+
+The independent report against `bfcff0e80`, preserved at `dc4f2ba56`,
+supports the seven conditional hand proofs and requires revisions in both
+executable packages. Its R1-R3 findings cover assigned index cancellation,
+frozen-symbol/surface coverage, and proxy/full-representation scope.
+The original report and historical receipts remain intact.
+
+The [repair record](verification_geometric_spin_sector_2026_11_04/REPAIRS_AFTER_INDEPENDENT_REVIEW.md)
+describes the revised source. It derives the endpoint weighted adjoints
+and Hessian, uses variable fields/metric and the actual surface identity,
+and retains all five E8 summands in word/operator and actual colour-cusp
+checks. The V2 inventory awaits exact follow-up review. All thirteen
+methods remain unrun, unimported and uncollected. The reviewed conditional
+mathematics does not provide runtime, exact main acceptance, a physical
+input payment, kernel counts or weak-current results. The goal stays active.

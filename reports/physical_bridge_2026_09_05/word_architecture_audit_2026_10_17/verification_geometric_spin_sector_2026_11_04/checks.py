@@ -174,6 +174,55 @@ class GeometricSpinSectorChecks(unittest.TestCase):
         qp, rp = OLD.rotate(OLD.units()[1], (sp.diag(1, -1), 2*sp.diag(1, -1)))
         self.assertNotEqual(sp.trace(qp*rp), sp.trace(sp.diag(1, -1)*2*sp.diag(1, -1)))
 
+        # General vertical fields and metric, with actual derivatives before substitution.
+        xc, yc = sp.symbols("x_coord y_coord", real=True)
+        variable_omega = sp.Function("Omega", positive=True)(xc, yc)
+        variable_fields = tuple(sp.Matrix([sp.Function(f"field_{slot}_{axis}")(xc, yc)
+                                          for axis in range(3)]) for slot in range(4))
+        qf = [sp.Function(f"Q{axis}")(xc, yc) for axis in range(3)]
+        rf = [sp.Function(f"R{axis}")(xc, yc) for axis in range(3)]
+        variable_q = sp.Matrix([[qf[0], qf[1]], [qf[2], -qf[0]]])
+        variable_r = sp.Matrix([[rf[0], rf[1]], [rf[2], -rf[0]]])
+        dbar = lambda f: f.diff(xc) + sp.I*f.diff(yc)
+        dz = lambda f: f.diff(xc) - sp.I*f.diff(yc)
+        raw = mass_rows(variable_fields, variable_q, variable_r, variable_omega, dbar, dz)
+        moved_flat = uin*sp.Matrix.vstack(*variable_fields)
+        moved_fields = tuple(moved_flat[3*slot:3*slot+3, :] for slot in range(4))
+        moved_pair = tuple(root*z for z in OLD.rotate(flavour, (variable_q, variable_r)))
+        moved_rows = mass_rows(moved_fields, *moved_pair, scale*variable_omega,
+                               lambda f: sp.conjugate(jacobian)*dbar(f), lambda f: jacobian*dz(f))
+        self.assertTrue(is_zero(sp.Matrix.vstack(*moved_rows)-uout*sp.Matrix.vstack(*raw)))
+
+        lam, a, u, v = variable_fields
+        sigma = sp.I*variable_omega**2*lam/sp.sqrt(2)
+        qdag, rdag = OLD.ad2(OLD.dagger(variable_q)), OLD.ad2(OLD.dagger(variable_r))
+        p1 = dbar(u) + sp.I*OLD.ad2(variable_q)*a
+        p2 = dbar(v) + sp.I*OLD.ad2(variable_r)*a
+        wedge = OLD.ad2(variable_q)*v - OLD.ad2(variable_r)*u
+        d2_adjoint = (2*rdag*sigma/variable_omega, -2*qdag*sigma/variable_omega,
+                      -dz(variable_omega**-2*sigma))
+        from_complex = (raw[0], 2*sp.I*(wedge+d2_adjoint[2]),
+                        (p2+d2_adjoint[1])/variable_omega,
+                        -(p1+d2_adjoint[0])/variable_omega)
+        self.assert_zero(sp.Matrix.vstack(*from_complex)-sp.Matrix.vstack(*raw))
+        omitted_metric_derivative = -dz(sigma)/variable_omega**2
+        self.assertNotEqual(simplify(omitted_metric_derivative-d2_adjoint[2]), sp.zeros(3, 1))
+
+        def bulk_and_primitive(qfield, rfield, derivative):
+            bulk = sp.trace(qfield*derivative(rfield))
+            primitive_density = -derivative(sp.trace(qfield*rfield))/2
+            antisymmetric = sp.trace(qfield*derivative(rfield)-rfield*derivative(qfield))/2
+            return bulk, primitive_density, antisymmetric
+
+        old_bulk, old_primitive, old_antisymmetric = bulk_and_primitive(variable_q, variable_r, dbar)
+        new_bulk, new_primitive, new_antisymmetric = bulk_and_primitive(
+            *moved_pair, lambda f: sp.conjugate(jacobian)*dbar(f))
+        self.assertEqual(sp.simplify(old_bulk+old_primitive-old_antisymmetric), 0)
+        self.assertEqual(sp.simplify(new_bulk+new_primitive-new_antisymmetric), 0)
+        self.assertEqual(reduced(new_antisymmetric/scale**2-old_antisymmetric), 0)
+        self.assertEqual(reduced((new_bulk+new_primitive)/scale**2-old_bulk-old_primitive), 0)
+        self.assertNotEqual(reduced(new_bulk/scale**2+old_primitive-old_antisymmetric), 0)
+
     def test_all_slot_half_root_coercivity(self):
         t, k = sp.symbols("t k", real=True)
         radius = sp.Symbol("radius", positive=True)
@@ -242,6 +291,12 @@ class GeometricSpinSectorChecks(unittest.TestCase):
         self.assert_zero(periodic[1])
         self.assertEqual(sp.simplify(periodic[2][0]-sp.I*v.diff(t)), 0)
         self.assertEqual(sp.simplify(periodic[3][0]+sp.I*u.diff(t)), 0)
+        omega, ell = sp.symbols("Omega ell", positive=True)
+        actual_records = TRANSPORT.actual_centralizer_rows(
+            omega, ell, (0, 0, u, v), 0, 0, sp.I*omega*u.diff(t), sp.I*omega*v.diff(t))
+        actual_norm, actual_rows = TRANSPORT.centralizer_projection(actual_records)
+        self.assertEqual(actual_norm, 1)
+        self.assert_zero(actual_rows-sp.Matrix([0, 0, periodic[2][0], periodic[3][0]]))
         k = sp.Symbol("k", real=True)
         self.assertEqual((k**2*sp.exp(2*t)).subs(k, 0), 0)
         self.assertNotEqual((k**2*sp.exp(2*t)).subs(k, 0), sp.pi**2*sp.exp(2*t))
@@ -269,14 +324,18 @@ class GeometricSpinSectorChecks(unittest.TestCase):
         self.assertIn(colour_root, roots)
         self.assertIn(charged_adjoint, roots)
         self.assertIn(tuple(a+b for a, b in zip(colour_root, charged_adjoint)), roots)
+        self.assertEqual(ROOTS.dot(ROOTS.QY, colour_root), 0)
+        charge = sp.simplify(sum(sp.trace(OLD.dagger(coefficient)*OLD.bracket(cartan, coefficient))
+                                 for coefficient, cartan, _ in actual_records)/(60*actual_norm))
+        self.assertEqual(charge, 2)
         area, g6 = sp.symbols("area g6", positive=True)
         gauge_norm = area/g6**2
         spin_norm = sp.integrate(bump**2/g6**2, (s, 0, 1))
         translated_norm = sp.integrate(length*(bump/sp.sqrt(length))**2/g6**2, (s, 0, 1))
         self.assertEqual(sp.simplify(translated_norm-spin_norm), 0)
-        bare_vertex = sp.integrate(length*(bump/sp.sqrt(length))**2/g6**2, (s, 0, 1))
+        bare_vertex = sp.integrate(length*(bump/sp.sqrt(length))**2*charge/g6**2, (s, 0, 1))
         canonical_vertex = bare_vertex/(translated_norm*sp.sqrt(gauge_norm))
-        self.assertEqual(sp.simplify(canonical_vertex-g6/sp.sqrt(area)), 0)
+        self.assertEqual(sp.simplify(canonical_vertex-2*g6/sp.sqrt(area)), 0)
 
     def test_bounded_end_split_and_four_slot_index_cancellation(self):
         y = sp.Symbol("y", positive=True)
@@ -288,6 +347,16 @@ class GeometricSpinSectorChecks(unittest.TestCase):
         self.assert_zero(OLD.dagger(split)*metric_split*split-metric_b)
         self.assertEqual(sp.simplify(split.det()), 1)
         self.assert_zero(y*split.diff(y)*split.inv()-sp.diag(sp.Rational(1, 2), -sp.Rational(1, 2)))
+        b_connection_x = -sp.I*sp.eye(2)/(2*y)
+        b_connection_y = sp.eye(2)/(2*y)
+        split_connection_x = sp.diag(0, -sp.I/y)
+        split_connection_y = sp.diag(0, 1/y)
+        difference_x = simplify(split*b_connection_x*split.inv()-split_connection_x)
+        difference_y = simplify(split*b_connection_y*split.inv()-split.diff(y)*split.inv()-split_connection_y)
+        self.assert_zero(y*difference_x-sp.diag(-sp.I/2, sp.I/2))
+        self.assert_zero(difference_y)
+        self.assert_zero(OLD.dagger(difference_x)+difference_x)
+        self.assertEqual(sp.simplify(sp.trace(difference_x)), 0)
         winding = sp.diag(sp.exp(sp.I*sp.pi*x), sp.exp(-sp.I*sp.pi*x))
         winding_derivative = simplify(y*winding.diff(x)*winding.inv())
         self.assertEqual(sp.limit(sp.Abs(winding_derivative[0, 0]), y, sp.oo), sp.oo)
@@ -296,11 +365,65 @@ class GeometricSpinSectorChecks(unittest.TestCase):
         dz = lambda f: -sp.I*sp.diff(f, y)
         actual_c3_adjoint = -dz(omega**-2*sigma)
         self.assertEqual(sp.simplify(2*sp.I*actual_c3_adjoint-sp.sqrt(2)*dz(lam)), 0)
-        chi_v, chi_vk = sp.symbols("chi_V chi_VK", integer=True)
-        scalar_form_contribution = -chi_v-chi_vk
-        split_spin_contribution = chi_v+chi_vk
-        self.assertEqual(sp.expand(scalar_form_contribution+split_spin_contribution), 0)
-        # Global splitting and index continuity are separately reviewed proof duties.
+        # Recover the endpoint operators and their weighted adjoints before inferring indices.
+        omega_xy = sp.Function("Omega_xy", positive=True)(x, y)
+        def hermitian_connection(name):
+            entries = [sp.Function(f"{name}_{i}", real=True)(x, y) for i in range(4)]
+            return sp.Matrix([[entries[0], entries[1]+sp.I*entries[2]],
+                              [entries[1]-sp.I*entries[2], entries[3]]])
+
+        ax, ay = hermitian_connection("A_x"), hermitian_connection("A_y")
+        dbar_xy = lambda f: f.diff(x)+sp.I*f.diff(y)-sp.I*(ax+sp.I*ay)*f
+        dz_xy = lambda f: f.diff(x)-sp.I*f.diff(y)-sp.I*(ax-sp.I*ay)*f
+        lam_xy, a_xy, u_xy, v_xy = tuple(
+            sp.Matrix([sp.Function(f"{name}_{i}")(x, y) for i in range(2)])
+            for name in ("lam", "a", "U", "V"))
+        self.assertNotEqual(OLD.bracket(ax, ay), sp.zeros(2))
+
+        def weighted_adjoint(expression, source_function, target_function, source_metric, target_metric):
+            expanded = sp.expand(expression)
+            coefficient_x = expanded.coeff(source_function.diff(x))
+            coefficient_y = expanded.coeff(source_function.diff(y))
+            coefficient_0 = expanded.coeff(source_function)
+            return sp.simplify((
+                -(sp.conjugate(coefficient_x)*target_metric*target_function).diff(x)
+                -(sp.conjugate(coefficient_y)*target_metric*target_function).diff(y)
+                +sp.conjugate(coefficient_0)*target_metric*target_function)/source_metric)
+
+        sf_lambda_from_a = -dz_xy(a_xy)/(sp.sqrt(2)*omega_xy**2)
+        sf_a_from_lambda = sp.sqrt(2)*dz_xy(lam_xy)
+        adjoint_a_from_lambda = sp.Matrix([
+            sum(weighted_adjoint(sf_lambda_from_a[j], a_xy[i], u_xy[j],
+                                 sp.Rational(1, 2), omega_xy**2) for j in range(2)) for i in range(2)])
+        adjoint_lambda_from_a = sp.Matrix([
+            sum(weighted_adjoint(sf_a_from_lambda[j], lam_xy[i], sp.sqrt(2)*v_xy[j],
+                                 omega_xy**2, sp.Rational(1, 2)) for j in range(2)) for i in range(2)])
+        # O plus K source densities are Omega^2,1. J=diag(1,sqrt(2)) is unitary
+        # into the scalar/form ADJOINT source, with the transported trace-dual target.
+        slot_map = sp.kronecker_product(sp.diag(1, sp.sqrt(2)), sp.eye(2))
+        sf_metric = sp.diag(omega_xy**2*sp.eye(2), sp.eye(2)/2)
+        self.assert_zero(OLD.dagger(slot_map)*sf_metric*slot_map-sp.diag(omega_xy**2*sp.eye(2), sp.eye(2)))
+        u_dual, v_dual = tuple(sp.Matrix([sp.Function(f"{name}_{i}")(x, y) for i in range(2)])
+                               for name in ("U_dual", "V_dual"))
+        dbar_dual = lambda f: f.diff(x)+sp.I*f.diff(y)+sp.I*(ax+sp.I*ay).T*f
+        w2 = ((u_dual.T*dbar_xy(v_xy))[0]-(v_xy.T*dbar_dual(u_dual))[0]
+              +(u_xy.T*dbar_dual(v_dual))[0]-(v_dual.T*dbar_xy(u_xy))[0])/2
+
+        def variational_derivative(density, field):
+            return sp.simplify(sp.diff(density, field)
+                               -sp.diff(sp.diff(density, field.diff(x)), x)
+                               -sp.diff(sp.diff(density, field.diff(y)), y))
+
+        split_hessian = (sp.Matrix([variational_derivative(w2, f) for f in u_dual]),
+                         sp.Matrix([variational_derivative(w2, f) for f in v_dual]))
+        self.assert_zero(split_hessian[0]-dbar_xy(v_xy))
+        self.assert_zero(split_hessian[1]+dbar_xy(u_xy))
+        split_mass = (split_hessian[0]/omega_xy**2, split_hessian[1])
+        from_sf_adjoint = (-adjoint_lambda_from_a, -adjoint_a_from_lambda/sp.sqrt(2))
+        for actual, expected in zip(split_mass, from_sf_adjoint):
+            self.assert_zero(actual-expected)
+        self.assertNotEqual(simplify(split_mass[1]+from_sf_adjoint[1]), sp.zeros(2, 1))
+        # Global splitting, graph adjoints and index continuity remain proof-review duties.
         def old_index(a):
             return ROOTS.h0(a, ROOTS.ZERO)-ROOTS.h1(a, ROOTS.ZERO)
         self.assertEqual(2*old_index(0)-old_index(-1)-old_index(1), 1)

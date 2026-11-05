@@ -63,6 +63,33 @@ def exterior_square(matrix):
                      - matrix[pairs[i][0], pairs[j][1]] * matrix[pairs[i][1], pairs[j][0]])
 
 
+def exterior_lie(matrix):
+    """Differentiate the actual exterior-square representation at the identity."""
+    pairs = tuple(combinations(range(matrix.rows), 2))
+    delta = lambda i, j: sp.Integer(i == j)
+    return sp.SparseMatrix(len(pairs), len(pairs), lambda row, col:
+        matrix[pairs[row][0], pairs[col][0]] * delta(pairs[row][1], pairs[col][1])
+        + delta(pairs[row][0], pairs[col][0]) * matrix[pairs[row][1], pairs[col][1]]
+        - matrix[pairs[row][0], pairs[col][1]] * delta(pairs[row][1], pairs[col][0])
+        - delta(pairs[row][0], pairs[col][1]) * matrix[pairs[row][1], pairs[col][0]])
+
+
+def a3_adjoint(matrix):
+    """A3 adjoint in a trace-orthonormal basis, preserving the compact dagger."""
+    basis = []
+    for i in range(4):
+        for j in range(4):
+            if i != j:
+                element = sp.zeros(4)
+                element[i, j] = 1
+                basis.append(element)
+    basis.extend((sp.diag(1, -1, 0, 0)/sp.sqrt(2),
+                  sp.diag(1, 1, -2, 0)/sp.sqrt(6),
+                  sp.diag(1, 1, 1, -3)/sp.sqrt(12)))
+    return sp.SparseMatrix(15, 15, lambda i, j:
+        sp.trace(OLD.dagger(basis[i])*OLD.bracket(matrix, basis[j])))
+
+
 def creators():
     out = []
     for axis in range(5):
@@ -120,6 +147,100 @@ def carriers():
     return dict(e=e, g=g, h=h, ep=ep, em=em, hp=hp, hm=hm,
                 creation=creation, av=a_vector, dv=d_vector,
                 asp=a_spin, dsp=d_spin, psp=p_spin, csp=c_spin)
+
+
+@lru_cache(maxsize=2)
+def full_parent_modules(corrected=False):
+    """Actual five E8 summands with D5 Lie/group and colour-adjoint actions."""
+    data = carriers()
+    spin_e = spin_lie(data["e"], data["creation"])
+    spin_g = spin_lie(data["g"], data["creation"])
+    spin_h = spin_lie(data["h"], data["creation"])
+    colour_t = sp.zeros(4)
+    colour_t[1, 2] = 1
+    colour_x = sp.diag(0, 1, -1, 0)
+    modules = [
+        dict(name="45,1", e=exterior_lie(data["e"]), g=exterior_lie(data["g"]),
+             h=exterior_lie(data["h"]), a=exterior_square(data["av"]),
+             d=exterior_square(data["dv"]), t=sp.zeros(45), x=sp.zeros(45)),
+        dict(name="1,15", e=sp.zeros(15), g=sp.zeros(15), h=sp.zeros(15),
+             a=sp.eye(15), d=sp.eye(15), t=a3_adjoint(colour_t), x=a3_adjoint(colour_x)),
+        dict(name="10,6", e=sp.kronecker_product(data["e"], sp.eye(6)),
+             g=sp.kronecker_product(data["g"], sp.eye(6)), h=sp.kronecker_product(data["h"], sp.eye(6)),
+             a=sp.kronecker_product(data["av"], sp.eye(6)), d=sp.kronecker_product(data["dv"], sp.eye(6)),
+             t=sp.kronecker_product(sp.eye(10), exterior_lie(colour_t)),
+             x=sp.kronecker_product(sp.eye(10), exterior_lie(colour_x))),
+    ]
+    for parity, name, colour_action, colour_cartan in (
+            (1, "16,4", colour_t, colour_x),
+            (0, "bar16,bar4", -colour_t.T, -colour_x.T)):
+        indices = [i for i in range(32) if i.bit_count() % 2 == parity]
+        tensor = lambda value: sp.kronecker_product(value.extract(indices, indices), sp.eye(4))
+        modules.append(dict(name=name, e=tensor(spin_e), g=tensor(spin_g), h=tensor(spin_h),
+                            a=tensor(data["asp"]), d=tensor(data["dsp"]),
+                            t=sp.kronecker_product(sp.eye(16), colour_action),
+                            x=sp.kronecker_product(sp.eye(16), colour_cartan)))
+    if corrected:
+        h4 = sp.diag(phase(sp.Rational(3, 8)), *(phase(-sp.Rational(1, 8)) for _ in range(3)))
+        h15 = sp.diag(*(sp.simplify(h4[i, i]/h4[j, j])
+                        for i in range(4) for j in range(4) if i != j), 1, 1, 1)
+        corrections = (sp.eye(45), h15, sp.kronecker_product(sp.eye(10), exterior_square(h4)),
+                       sp.kronecker_product(sp.eye(16), h4),
+                       sp.kronecker_product(sp.eye(16), h4.conjugate()))
+        for module, correction in zip(modules, corrections):
+            module["a"] = module["a"]*correction
+    return tuple({key: sp.SparseMatrix(value) if key != "name" else value
+                  for key, value in module.items()} for module in modules)
+
+
+def physical_mass_blocks(q, r, omega, pbar, pz):
+    """Full source mass formula on a retained coefficient representation."""
+    eye, zero, rt = sp.eye(q.rows), sp.zeros(q.rows), sp.sqrt(2)
+    qdag, rdag = OLD.dagger(q), OLD.dagger(r)
+    return (
+        (zero, -pz*eye/(rt*omega**2), rt*sp.I*qdag/omega, rt*sp.I*rdag/omega),
+        (rt*pz*eye, zero, -2*sp.I*r, 2*sp.I*q),
+        (-rt*sp.I*qdag, sp.I*r/omega, zero, pbar*eye/omega),
+        (-rt*sp.I*rdag, -sp.I*q/omega, -pbar*eye/omega, zero),
+    )
+
+
+def physical_transition_blocks(flavour, gauge, conjugate_flavour=False):
+    zero = sp.zeros(gauge.rows)
+    f = flavour.conjugate() if conjugate_flavour else flavour
+    return ((gauge, zero, zero, zero), (zero, gauge, zero, zero),
+            (zero, zero, f[0, 0]*gauge, f[0, 1]*gauge),
+            (zero, zero, f[1, 0]*gauge, f[1, 1]*gauge))
+
+
+def actual_centralizer_rows(omega, ell, scalars, dz_lambda, dz_a, dbar_u, dbar_v):
+    """The source mass rows on the actual colour root in the faithful E8 adjoint."""
+    results = []
+    for module in full_parent_modules():
+        q = sp.sqrt(omega)*module["e"]/(2*sp.sqrt(2)*ell)
+        r = sp.sqrt(omega)*module["g"]/(2*sp.sqrt(2)*ell)
+        t = module["t"]
+        lam, a, u, v = (scalar*t for scalar in scalars)
+        p1 = dbar_u*t + sp.I*OLD.bracket(q, a)
+        p2 = dbar_v*t + sp.I*OLD.bracket(r, a)
+        wedge = OLD.bracket(q, v)-OLD.bracket(r, u)
+        rows = (
+            -(dz_a*t-2*sp.I*omega*(OLD.bracket(OLD.dagger(q), u)
+                                  +OLD.bracket(OLD.dagger(r), v)))/(sp.sqrt(2)*omega**2),
+            2*sp.I*wedge+sp.sqrt(2)*dz_lambda*t,
+            p2/omega-sp.sqrt(2)*sp.I*OLD.bracket(OLD.dagger(q), lam),
+            -p1/omega-sp.sqrt(2)*sp.I*OLD.bracket(OLD.dagger(r), lam),
+        )
+        results.append((t, module["x"], rows))
+    return tuple(results)
+
+
+def centralizer_projection(records):
+    """Use kappa=Tr_ad(E8)/60 in the source root normalization."""
+    norm = sp.simplify(sum(sp.trace(OLD.dagger(t)*t) for t, _, _ in records)/60)
+    rows = sp.Matrix([sp.simplify(sum(sp.trace(OLD.dagger(t)*values[slot])
+                                     for t, _, values in records)/(60*norm)) for slot in range(4)])
+    return norm, rows
 
 
 def free_inverse(word):
@@ -239,20 +360,9 @@ class TransportEndChecks(unittest.TestCase):
 
     def test_full_pin2_correction_and_retained_gauge_sectors(self):
         data = carriers()
-        av, dv, asp, dsp = (data[k] for k in ("av", "dv", "asp", "dsp"))
+        av, dv = data["av"], data["dv"]
         h4 = sp.diag(phase(sp.Rational(3, 8)), *(phase(-sp.Rational(1, 8)) for _ in range(3)))
-        h6 = exterior_square(h4)
-        a3_pairs = [(i,j) for i in range(4) for j in range(4) if i != j]
-        h15 = sp.diag(*(sp.simplify(h4[i,i]/h4[j,j]) for i,j in a3_pairs), 1, 1, 1)
-        odd = [i for i in range(32) if i.bit_count() % 2]
-        even = [i for i in range(32) if i.bit_count() % 2 == 0]
-        modules = (
-            (exterior_square(av), exterior_square(dv)),
-            (h15, sp.eye(15)),
-            (sp.kronecker_product(av,h6), sp.kronecker_product(dv,sp.eye(6))),
-            (sp.kronecker_product(asp.extract(odd,odd),h4), sp.kronecker_product(dsp.extract(odd,odd),sp.eye(4))),
-            (sp.kronecker_product(asp.extract(even,even),h4.conjugate()), sp.kronecker_product(dsp.extract(even,even),sp.eye(4))),
-        )
+        modules = tuple((module["a"], module["d"]) for module in full_parent_modules(corrected=True))
         self.assertEqual(sum(a.rows for a, _ in modules), 248)
         for a, d in modules:
             eye = sp.eye(a.rows)
@@ -350,6 +460,38 @@ class TransportEndChecks(unittest.TestCase):
         self.assert_zero(evaluate_word((1,1,1,1),flavour)-sp.eye(2))
         self.assertNotEqual(carriers()["asp"]**4,sp.eye(32))
 
+        # Bind the representation-valued helper to the declared source formula.
+        omega = sp.Symbol("Omega", positive=True)
+        pbar, pz = sp.symbols("pbar pz")
+        probe_q, probe_r = sp.Matrix([[0, 1], [2, 0]]), sp.diag(1, -1)
+        probe_blocks = physical_mass_blocks(OLD.ad2(probe_q), OLD.ad2(probe_r), omega, pbar, pz)
+        probe_matrix = sp.Matrix.vstack(*(sp.Matrix.hstack(*row) for row in probe_blocks))
+        self.assert_zero(probe_matrix-OLD.physical_mass(probe_q, probe_r, omega, pbar, pz))
+
+        for corrected in (False, True):
+            modules = full_parent_modules(corrected)
+            self.assertEqual(sum(module["a"].rows for module in modules), 248)
+            for module in modules:
+                size = module["a"].rows
+                centre = -1 if not corrected and module["name"] in ("16,4", "bar16,bar4") else 1
+                self.assert_zero(module["a"]**4-centre*sp.eye(size))
+                generators = {1: module["a"], 2: clean(module["d"]*module["a"])}
+                for _, inverse, lift in moves:
+                    moved_q, moved_r = OLD.rotate(lift, (module["e"], module["g"]))
+                    mass = physical_mass_blocks(moved_q, moved_r, omega, pbar, pz)
+                    for word in words:
+                        fword = evaluate_word(word, flavour)
+                        kword = evaluate_word(free_substitute(word, inverse), generators)
+                        incoming = physical_transition_blocks(fword, kword)
+                        outgoing = physical_transition_blocks(fword, kword, conjugate_flavour=True)
+                        # Retain all four source slots and the trace-dual target on
+                        # every E8 summand, for both bare and corrected compensators.
+                        for row in range(4):
+                            for col in range(4):
+                                left = sum((mass[row][i]*incoming[i][col] for i in range(4)), sp.zeros(size))
+                                right = sum((outgoing[row][i]*mass[i][col] for i in range(4)), sp.zeros(size))
+                                self.assert_zero(left-right)
+
     def test_stationary_gluing_and_full_peripheral_table(self):
         data=carriers()
         ell=sp.Symbol("ell",positive=True)
@@ -384,36 +526,33 @@ class TransportEndChecks(unittest.TestCase):
     def test_actual_centralizer_mass_and_escaping_channel(self):
         t,y=sp.symbols("t y",real=True,positive=True)
         u,v=sp.Function("u")(t),sp.Function("v")(t)
-        # A nonzero background acts on the first two coordinates. T commutes with
-        # that entire block, while another coefficient retains interactions.
-        q=sp.Matrix([[0,1,0],[0,0,0],[0,0,0]])
-        r=2*q
-        central=sp.diag(1,1,-2)
-        for x in (q,r,OLD.dagger(q),OLD.dagger(r)):
-            self.assert_zero(OLD.bracket(x,central))
-        self.assertNotEqual(OLD.bracket(q,OLD.dagger(q)),sp.zeros(3))
         omega=sp.Symbol("Omega",positive=True)
+        ell=sp.Symbol("ell",positive=True)
         ll,aa0,uu,vv,dz_l,dz_a,bar_u,bar_v=sp.symbols("lambda0 a0 u0 v0 dz_l dz_a bar_u bar_v")
-        lm,am,um,vm=(value*central for value in (ll,aa0,uu,vv))
-        p1=bar_u*central+sp.I*OLD.bracket(q,am)
-        p2=bar_v*central+sp.I*OLD.bracket(r,am)
-        wedge=OLD.bracket(q,vm)-OLD.bracket(r,um)
-        source_rows=(
-            -(dz_a*central-2*sp.I*omega*(OLD.bracket(OLD.dagger(q),um)
-                                       +OLD.bracket(OLD.dagger(r),vm)))/(sp.sqrt(2)*omega**2),
-            2*sp.I*wedge+sp.sqrt(2)*dz_l*central,
-            p2/omega-sp.sqrt(2)*sp.I*OLD.bracket(OLD.dagger(q),lm),
-            -p1/omega-sp.sqrt(2)*sp.I*OLD.bracket(OLD.dagger(r),lm),
-        )
+        modules=full_parent_modules()
+        self.assertEqual(sum(module["a"].rows for module in modules),248)
+        background_norm=0
+        for module in modules:
+            for generator in (module["e"],module["g"],module["h"],
+                              OLD.dagger(module["e"]),OLD.dagger(module["g"]),
+                              module["a"],module["d"]):
+                self.assert_zero(OLD.bracket(generator,module["t"]))
+            background_norm+=sp.trace(OLD.dagger(module["e"])*module["e"])/60
+        for module in full_parent_modules(corrected=True):
+            self.assert_zero(OLD.bracket(module["a"],module["t"]))
+            self.assert_zero(OLD.bracket(module["d"],module["t"]))
+        self.assertEqual(sp.simplify(background_norm),20)
+        records=actual_centralizer_rows(omega,ell,(ll,aa0,uu,vv),dz_l,dz_a,bar_u,bar_v)
         expected_scalars=(-dz_a/(sp.sqrt(2)*omega**2),sp.sqrt(2)*dz_l,bar_v/omega,-bar_u/omega)
-        for row,scalar in zip(source_rows,expected_scalars):
-            self.assert_zero(row-scalar*central)
-        radial_rows=[row.subs({ll:0,aa0:0,dz_l:0,dz_a:0,
-                              bar_u:sp.I*omega*sp.diff(u,t),
-                              bar_v:sp.I*omega*sp.diff(v,t)}) for row in source_rows]
-        self.assert_zero(radial_rows[0])
-        self.assert_zero(radial_rows[1])
-        projected=sp.Matrix([radial_rows[2][0,0],radial_rows[3][0,0]])
+        for coefficient,_,rows in records:
+            for row,scalar in zip(rows,expected_scalars):
+                self.assert_zero(row-scalar*coefficient)
+        norm,projected_rows=centralizer_projection(records)
+        self.assertEqual(norm,1)
+        self.assert_zero(projected_rows-sp.Matrix(expected_scalars))
+        projected=projected_rows[2:4,:].subs({ll:0,aa0:0,dz_l:0,dz_a:0,
+                                             bar_u:sp.I*omega*sp.diff(u,t),
+                                             bar_v:sp.I*omega*sp.diff(v,t)})
         sigma2=sp.Matrix([[0,-sp.I],[sp.I,0]])
         self.assert_zero(projected+sigma2*sp.Matrix([sp.diff(u,t),sp.diff(v,t)]))
         tau2=sigma2
@@ -451,10 +590,8 @@ class TransportEndChecks(unittest.TestCase):
         self.assertNotEqual(sp.simplify(exterior_norm),0)
         self.assertEqual(sp.im(sp.I)/sp.im(z),1/epsilon)
         self.assertEqual(sp.limit(sp.exp(2*epsilon*t),t,sp.oo),sp.oo)
-        colour_x=sp.diag(1,-1)
-        colour_t=sp.Matrix([[0,1],[0,0]])
-        coefficient_norm=OLD.kappa(OLD.dagger(colour_t)*colour_t)
-        charge=OLD.kappa(OLD.dagger(colour_t)*OLD.bracket(colour_x,colour_t))/coefficient_norm
+        charge=sp.simplify(sum(sp.trace(OLD.dagger(coefficient)*OLD.bracket(cartan,coefficient))
+                               for coefficient,cartan,_ in records)/(60*norm))
         self.assertEqual(charge,2)
         g6,area=sp.symbols("g6 area",positive=True)
         physical_overlap=sp.integrate((length/length)*(bump**2/norm)*charge,(s,0,1))
