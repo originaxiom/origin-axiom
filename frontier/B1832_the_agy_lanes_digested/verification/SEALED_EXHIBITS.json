@@ -1046,5 +1046,117 @@
   "lines": "478-484",
   "sha256": "3bea935d5c2bf5d3e4ca8bae7a5d6c2fc98d46de73d5acb4a808f7e42b95d97d",
   "bytes": 503
+ },
+ {
+  "what": "toe_closure.py 16337-16388 at 2b6add031 (S305f reader: T95: an inter-sector ratio and a neutrino splitting ratio at a synthetic probe (P-585, P-638 classes))",
+  "rev": "2b6add031",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "16337-16388",
+  "sha256": "08b52f3916bd8393e33f5a6a6891f69223e8fd96456659acffdef27d14928181",
+  "bytes": 2576
+ },
+ {
+  "what": "toe_closure.py 16925-17058 at 2b6add031 (S305f reader: T98: a running top Yukawa and a modular RG (P-585 class, data-adjacent))",
+  "rev": "2b6add031",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "16925-17058",
+  "sha256": "06b04510a512560ab4ac4f55b402da6c1a474b906002b994111c6fa22d9496cc",
+  "bytes": 8814
+ },
+ {
+  "what": "toe_closure.py 17076-17091 at 2b6add031 (S305f reader: T99 part 2: an inter-sector hierarchy value (P-585 class))",
+  "rev": "2b6add031",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "17076-17091",
+  "sha256": "56c52b2a85d3c702a8a32781cda6846e11b658a902637bd1d8ae4889197a1f35",
+  "bytes": 1644
+ },
+ {
+  "what": "toe_closure.py 17124-17133 at 2b6add031 (S305f reader: T99 part 2 (P-585 class))",
+  "rev": "2b6add031",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "17124-17133",
+  "sha256": "e9dbe916df0aea2b9d22beaf009106366ed64259913a985bc7403fd7b1940930",
+  "bytes": 563
+ },
+ {
+  "what": "toe_closure.py 17155-17173 at 2b6add031 (S305f reader: T99 part 2 (P-585 class))",
+  "rev": "2b6add031",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "17155-17173",
+  "sha256": "89579112930049f8032bfad8722e8be092560c0af4389a93e9668b9a4713d153",
+  "bytes": 1430
+ },
+ {
+  "what": "toe_closure.py 17182-17247 at 2b6add031 (S305f reader: T100: a lift keyed to a PDG comparison)",
+  "rev": "2b6add031",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "17182-17247",
+  "sha256": "ba6d9f7b634fb5dbe9404fc139621416889522e2950a8b19ff46dafe38536719",
+  "bytes": 4481
+ },
+ {
+  "what": "toe_closure.py 17534-17539 at 2b6add031 (S305f reader: T102: regex literals holding held-out-class values (P-585, P-638 classes))",
+  "rev": "2b6add031",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "17534-17539",
+  "sha256": "783674ad5519fe8144177353c7aebd18aa1eca1310a97d3fb6fadcafee59fadf",
+  "bytes": 230
+ },
+ {
+  "what": "toe_closure.py 16526-16548 at 2b6add031 (S305f reader: held-out key-name markers)",
+  "rev": "2b6add031",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "16526-16548",
+  "sha256": "15178915359f21f24d900568a61c2f758d05a29492b6453d342ee108564f096a",
+  "bytes": 762
+ },
+ {
+  "what": "toe_closure.py 17460-17481 at 2b6add031 (S305f reader: held-out key-name markers)",
+  "rev": "2b6add031",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "17460-17481",
+  "sha256": "8e9c94fb9c157ce323afa6a95930ce97e56d4a333f30b27afb05c0a69adcfaff",
+  "bytes": 655
+ },
+ {
+  "what": "toe_closure.py 17326-17338 at 2b6add031 (S305f reader: tier lists naming P-585 targets and eta_B)",
+  "rev": "2b6add031",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "17326-17338",
+  "sha256": "85b1cf0316240798591c2727902e44abefab08bc46358195255533e4070c8ef2",
+  "bytes": 528
+ },
+ {
+  "what": "toe_closure.py 17273-17275 at 2b6add031 (S305f reader: tier list naming eta_B)",
+  "rev": "2b6add031",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "17273-17275",
+  "sha256": "37aa3b036916d3c90db0164ee74a9291e47dc6232a2b7bda3c969a2a4fc0db7d",
+  "bytes": 377
+ },
+ {
+  "what": "AGY_TO_ALL_SEATS_2026-11-03_SIX_STAGE_BULLETPROOF_ROAD_PLAN_THEOREM_15_AND_4B91B9BE7_CLEANUP.md 819-821 at 2b6add031 (S305f reader: relay copy: T98's running and endpoints (P-585 class))",
+  "rev": "2b6add031",
+  "path": "relays/AGY_TO_ALL_SEATS_2026-11-03_SIX_STAGE_BULLETPROOF_ROAD_PLAN_THEOREM_15_AND_4B91B9BE7_CLEANUP.md",
+  "lines": "819-821",
+  "sha256": "75211fc36d57fd10f91a002a105c301170733a5839514b84d8fc397240c25637",
+  "bytes": 889
+ },
+ {
+  "what": "AGY_TO_ALL_SEATS_2026-11-03_SIX_STAGE_BULLETPROOF_ROAD_PLAN_THEOREM_15_AND_4B91B9BE7_CLEANUP.md 826-827 at 2b6add031 (S305f reader: relay copy: T99's inter-sector hierarchy value (P-585 class), published)",
+  "rev": "2b6add031",
+  "path": "relays/AGY_TO_ALL_SEATS_2026-11-03_SIX_STAGE_BULLETPROOF_ROAD_PLAN_THEOREM_15_AND_4B91B9BE7_CLEANUP.md",
+  "lines": "826-827",
+  "sha256": "eeab1068f9242ec6f1af5079ce7fafc95a9a447de9615de49ee027a71bd16fc4",
+  "bytes": 675
+ },
+ {
+  "what": "AGY_TO_ALL_SEATS_2026-11-03_SIX_STAGE_BULLETPROOF_ROAD_PLAN_THEOREM_15_AND_4B91B9BE7_CLEANUP.md 830-831 at 2b6add031 (S305f reader: relay copy: T100's rational and its PDG-keyed comparison)",
+  "rev": "2b6add031",
+  "path": "relays/AGY_TO_ALL_SEATS_2026-11-03_SIX_STAGE_BULLETPROOF_ROAD_PLAN_THEOREM_15_AND_4B91B9BE7_CLEANUP.md",
+  "lines": "830-831",
+  "sha256": "c20a2dc66da07299c1a9e121a2754246c44e531666b237bb3f93473703e5fb21",
+  "bytes": 514
  }
 ]

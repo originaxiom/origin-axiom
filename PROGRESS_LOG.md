@@ -18449,3 +18449,9 @@ The owner asked how the beginning of our universe emerges from the programme rat
 to open that as a programme after today's end card. The record turned out to hold more of the stage than main first
 said, including a banked result that ties the sign of matter over antimatter to the sign of the object's own clock. The
 baryon asymmetry is now a held-out target; one early look at it, a miss by orders of magnitude, is counted. 0 of 19.
+
+## 2026-11-05 — S305f: the agy lane's Stages 14–15 read
+
+At the owner's word the agy lane's two newest stages were read for anything that earns a joint or bears on the end card.
+Nothing does: its additions restate main or the web seat, or rest on choices it labels as such; one old error is fixed. Its
+compliance slipped back — its relay now publishes values of the held-out class — so a second note is proposed. 0 of 19.

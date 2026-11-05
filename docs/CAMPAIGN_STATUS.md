@@ -2,6 +2,8 @@
 
 > **Currency — Review 56 (2026-09-09, anchor `eb9db7fa`).** Refreshed against the 21-merge window `be6f4cab`→`eb9db7fa` (B1294–B1307: MASTERPLAN v3 Phases 0–1 and v3.1's seven harvest arcs). **Review 56's headline is a number, not a repair:** the harvest gate's first strict report — 494 seat-index ids on nine branches, **428 without a ledger row, 348 seat-branch relays without a relay row**, two seats already past main's pins — escalated by name as R56-1 with a payment order (B1306 slices B–D, newest first). 32/32 gates; LAW_MAP's second zero-advancement window (R56-2); CLAIMS.md's 129-arc lag escalated (R56-3); two E53 repairs in living surfaces (THE_SM_VERDICT, MAIN_GOAL JOIN 3); E71 minted. Full detail: `docs/progress/REVIEWS.md` (Review 56).
 
+**LATEST (2026-11-05, S305f: the agy lane's Stages 14–15 — no joint, nothing that moves B1839; compliance regressed, a second note asked of the owner (P-697); the physical lane's review read. B1839's census running. 0 of 19.)**
+
 **LATEST (2026-11-05, S305e: η_B joins the held-out list V (the owner's ruling); the bang programme opens after B1839 (P-694); B1839's census running. 0 of 19.)**
 
 **LATEST (2026-11-05, S305d: the confirmation's scope fixed before B1839 is read — the SM seat's reading-triple rule, normalisation and scale adopted; its target file hash-pinned, unopened; the agy lane's Stage 13 verified (one e^{−4L} term banked). B1839's census running. 0 of 19.)**
