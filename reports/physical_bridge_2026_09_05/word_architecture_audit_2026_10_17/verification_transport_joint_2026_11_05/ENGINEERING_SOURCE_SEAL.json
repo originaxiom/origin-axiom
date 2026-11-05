@@ -1,0 +1,47 @@
+{
+  "record_type": "PRE_RUN_ENGINEERING_SOURCE_SEAL",
+  "base_commit": "eadef20a203c50ced1e0fb68d4846f5ebaa0ce73",
+  "design_seal": "1f11431e7",
+  "scope": "Eight synthetic stdlib fixtures; scientific sources are AST-only population inputs",
+  "fixture_execution": false,
+  "scientific_execution": false,
+  "runtime_requirement": {
+    "python": "3.12.1",
+    "implementation": "CPython",
+    "flags": [
+      "-I",
+      "-B",
+      "-S"
+    ]
+  },
+  "files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_joint_2026_11_05/ENGINEERING_DESIGN.md",
+      "sha256": "507b6c3fb3e19d93426ee415ab6062996100be42ce3952f5d438c123f0b41f0f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_joint_2026_11_05/run_checks.py",
+      "sha256": "7432863d9fa84add0d80eb01b88dc9a0f270e876780bba2ae10ebe41952b53eb"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_joint_2026_11_05/checks.py",
+      "sha256": "1186ba01f9e57c967b2862be93d8c5e32c7fab3b30f5f9469b1427f250148ebe"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_joint_2026_11_05/engineering_checks.py",
+      "sha256": "48a9156c39ae1dc3e12a475c05590fddefd44a1bff91a6ff627b5ae864ac625d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/run_checks.py",
+      "sha256": "1cc1c9e299be3f85df41d066b2673c2c62b33e83ad978603f769cf04fd8adbf0"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_end_2026_11_04/checks.py",
+      "sha256": "cb3d46f2a51c101f064116bd6d63998e6a8bc1c5e99e73ae1cb5bbf12f7d1e9b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_geometric_spin_sector_2026_11_04/checks.py",
+      "sha256": "2288372d83739026e1e38d57982cbb96e1cbe53199179bd9dd43443087b91dad"
+    }
+  ]
+}
