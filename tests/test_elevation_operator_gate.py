@@ -2181,6 +2181,95 @@ def test_five_phase_master_toe_closure():
     assert float(t114["haar_err_114"]) < 1e-13
     assert t114["all_six_guardrails_passed"] is True
 
+    # Theorem 115 (Stage 19.1): Closed-Form Yukawa Determinant Factorization, B1841 Rank-2 Null-Cone Resolution, & E4 Winner Certification
+    t115 = sc["theorem115_exact_yukawa_determinant_null_cone_factorization_and_b1841_random_row_diagnosis"]
+    assert "B1841_the_principled_ends_card" in t115["seen_first"]
+    assert "MATH" in t115["claim_labels_and_scopes"]["exact_yukawa_determinant_three_factor_null_cone_identity"]
+    assert "FORCED-BY-MAIN" in t115["claim_labels_and_scopes"]["b1841_random_row_machine_noise_null_cone_diagnosis"]
+    assert "plain_english_elaboration" in t115
+    assert t115["symbolic_det_factorization_exact"] is True
+    assert float(t115["max_det_factorization_err"]) < 1e-13
+    assert int(t115["rank2_matrix_count"]) == 132
+    assert int(t115["rank2_line_sector_pairs_per_apex"]) == 66
+    assert float(t115["max_null_cone_factor_on_rank2_rows"]) < 1e-13
+    assert float(t115["max_full_rank_unitary_svd_diff"]) < 1e-9
+    assert t115["b1841_d_holds"] is True
+    assert "E4_L2_minus_half_pi" in str(t115["b1841_winning_entry"])
+    assert float(t115["b1841_winning_chi2_bounded"]) < 4.75
+    assert float(t115["b1841_winning_r975_bounded"]) < 0.05
+    assert int(t115["selection_bits"]) == 0
+
+    # Theorem 116 (Stage 19.2): Odd-Order (N=5) Stabilizer S4 Surjection Forcing H = I_3, Direct P-702 Answer, & SU(5) c Pricing
+    t116 = sc["theorem116_workstream1_earning_h_identity_via_level4_s4_commutant_p702_gamma3_and_order5_c_audit"]
+    assert "B1841_the_principled_ends_card" in t116["seen_first"]
+    assert "MATH" in t116["claim_labels_and_scopes"]["order5_line_s4_stabilizer_commutant_theorem_for_h_identity"]
+    assert "FORCED-BY-MAIN" in t116["claim_labels_and_scopes"]["p702_gamma3_action_on_blocks_and_a4_tetrahedral_triplet"]
+    assert "CHOSEN" in t116["claim_labels_and_scopes"]["order5_su5_tree_lep_down_equality_and_c_pricing"]
+    assert "plain_english_elaboration" in t116
+    assert int(t116["sl2_z20_order"]) == 5760
+    assert int(t116["order5_stabilizer_s4_order"]) == 24
+    assert int(t116["order10_stabilizer_s4_order"]) == 8
+    assert int(t116["order4_stabilizer_s4_order"]) == 4
+    assert int(t116["order5_commutant_dim"]) == 1
+    assert int(t116["order10_commutant_dim"]) == 2
+    assert int(t116["order4_commutant_dim"]) == 3
+    assert int(t116["gamma3_image_order"]) == 24
+    assert t116["factors_through_level3"] is False
+    assert t116["a4_st_eigenvalues_verified"] is True
+    assert float(t116["tree_order5_lep_down_ratio_err"]) < 1e-12
+    assert abs(float(t116["c_set9_bits_priced"]) - math.log2(9.0)) < 1e-12
+    assert int(t116["selection_bits"]) == 0
+
+    # Theorem 117 (Stage 19.3): P-694 / P-704 Two-Clock Farey Bang Dynamics, Area-4 Horocycle, & Honest Guardrail-1 tau Audit
+    t117 = sc["theorem117_workstream2_p694_p704_two_clock_farey_crossing_and_e4_area4_horizon_dynamics"]
+    assert "B1841_the_principled_ends_card" in t117["seen_first"]
+    assert "MATH" in t117["claim_labels_and_scopes"]["p704_farey_move_vs_geometric_clock_identity_and_e4_area4_law"]
+    assert "CHOSEN" in t117["claim_labels_and_scopes"]["fl05_honest_scope_check_on_tau_apex_162_trapping"]
+    assert "plain_english_elaboration" in t117
+    assert float(t117["farey_identity_err"]) < 1e-15
+    assert float(t117["max_e4_area_minus_4_err"]) < 1e-13
+    assert t117["re_tau_on_mirror_boundary"] is True
+    assert t117["tau_dynamically_trapped_by_norm_sum_alone"] is False
+    assert abs(float(t117["tau_apex_bits_priced"]) - math.log2(223.0)) < 1e-12
+    assert int(t117["selection_bits"]) == 0
+
+    # Theorem 118 (Stage 19.4): GENESIS v1.62 Power Valve sigma_th Gate & Order-5 Structural CKM 3-Cycle Permutation Diagnosis
+    t118 = sc["theorem118_workstream3_and_4_v162_power_valve_sigma_th_and_structural_ckm_at_order5"]
+    assert "B1843_genesis_v1_62" in t118["seen_first"]
+    assert "FORCED-BY-MAIN" in t118["claim_labels_and_scopes"]["genesis_v162_power_valve_and_sigma_quad_bound"]
+    assert "MATH" in t118["claim_labels_and_scopes"]["order5_ckm_qi_axis_eigenstate_swap_under_st_reading"]
+    assert "plain_english_elaboration" in t118
+    assert float(t118["bits_shortfall_at_10pct"]) > 0.30
+    assert 0.085 < float(t118["required_sigma_th_max"]) < 0.090
+    assert float(t118["sigma_quad_rel"]) < 1e-11
+    assert float(t118["v_ud_ss"]) > 0.975
+    assert float(t118["v_tb_ss"]) > 0.995
+    assert 0.15 < float(t118["v_us_ss"]) < 0.23
+    assert 0.04 < float(t118["v_cb_ss"]) < 0.09
+    assert float(t118["qi_weight_m3_up_s"]) > 0.985
+    assert float(t118["qi_weight_m3_down_s"]) > 0.990
+    assert float(t118["qi_weight_m2_up_st"]) > 0.985
+    assert float(t118["v_cb_sts_raw"]) > 0.995
+    assert float(t118["v_us_sts_raw"]) > 0.970
+    assert float(t118["v_td_sts_raw"]) > 0.970
+    assert float(t118["v_unshift_diag_min"]) > 0.975
+    assert int(t118["selection_bits"]) == 0
+
+    # Theorem 119 (Stage 19.5): Calibrated 2026-10-08 SM Structure vs Free Numbers Ledger for Review 75 & Stage 19 Referee Gate
+    t119 = sc["theorem119_workstream5_calibrated_2026_10_08_parameter_ledger_and_stage19_gate"]
+    assert "B1841_the_principled_ends_card" in t119["seen_first"]
+    assert "FORCED-BY-MAIN" in t119["claim_labels_and_scopes"]["calibrated_2026_10_08_sm_structure_and_free_inputs_ledger"]
+    assert "MATH" in t119["claim_labels_and_scopes"]["stage19_zero_trust_hostile_referee_gate"]
+    assert "plain_english_elaboration" in t119
+    assert int(t119["proved_zero_bit_structural_theorems_count"]) == 6
+    assert abs(float(t119["total_discrete_bits_set9"]) - math.log2(223 * 266 * 8 * 9 * 4)) < 1e-12
+    assert int(t119["continuous_fitted_parameters_in_b1841_set9"]) == 0
+    assert int(t119["continuous_fitted_parameters_in_b1841_bounded"]) == 1
+    assert int(t119["confirmed_sm_parameters"]) == 0
+    assert float(t119["haar_err_119"]) < 1e-13
+    assert t119["all_six_guardrails_passed"] is True
+
+
 
 
 
