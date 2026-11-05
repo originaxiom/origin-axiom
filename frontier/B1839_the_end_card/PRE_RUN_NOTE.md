@@ -53,3 +53,24 @@ undefined and no target becomes a candidate.
 - **B1838 § 2b's "the norm of no geometric cut" overstates what was shown.** Single horoball levels were tested at two
   rows, so "no single horoball level reproduces the weights" is the result. B1838's dated note corrects it, and this card's
   "Why" inherits that wording.
+
+## Addendum (S305d, still before `look.py` runs): what a pass would let the confirmation claim, fixed now
+
+Credit: the SM seat's §349 (65bdcb637, on `origin/claude/standard-model-derivation-0qt6ao`), read by main and adopted,
+because the math settles each point. These fix the scope of the level-2 cards before the frozen row is known; they change
+nothing in B1839's cells.
+
+- **The reading triple decides whether y_b/y_t is held out.**
+  - With one Higgs doublet of definite hypercharge (I-35, UNEARNED), the pairs whose 6Y sums are −3, (Q, u^c) and (L, ν^c),
+    read one section, and the pairs whose sums are +3, (Q, d^c) and (L, e^c), read the other.
+  - So **(S̃, S, S)** is the one-Higgs reading: if the frozen row has it, y_b/y_t is a held-out target of the candidate.
+  - **(S̃, S̃, S̃)** has up and down reading the same section, which no single doublet can do. It is a two-doublet reading
+    whose free v_d/v_u absorbs y_b/y_t (B1832, S300). If the frozen row has it, y_b/y_t is **not** a held-out target, and
+    declaring tan β = 1 to rescue it would choose the very parameter that absorbs the target.
+  - The card would then have r alone, short of GAP1's two (v1.60), and the candidate's confirmation would stay one target
+    short (P-597).
+- **The y_b/y_t card's normalisation:** H = I for every field, generation by generation (B1822, CHOSEN), and no field
+  carries a scalar or Kähler weight. In particular there is no modular weight (2 Im τ)^(−k_f). Such a factor multiplies
+  y_b/y_t by a per-sector constant that the six cannot see, so it is fixed now, not left to the card.
+- **The scale and the scheme:** μ = M_Z, full-SM MS-bar, the six's own file (HZ2021, the row "MZ, Full SM"). In it
+  m_b/m_t ≡ y_b/y_t exactly, and the frozen row is the screen's fit at that scale. No running is applied.

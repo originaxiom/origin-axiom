@@ -974,5 +974,37 @@
   "lines": "589-589",
   "sha256": "7455a46032e8ae74caa333e26d260223857caa731f88c1a2a099bea66bea4974",
   "bytes": 116
+ },
+ {
+  "what": "toe_closure.py 15606-15651 at 79b09046a (S305d reader: a synthetic Takagi/Haar test of the neutrino-mass operator class (P-638 class))",
+  "rev": "79b09046a",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "15606-15651",
+  "sha256": "2f2d65de323158d24aa9c0577b86946c72e046fbf1a6eb4fd5e01b23452beb46",
+  "bytes": 1912
+ },
+ {
+  "what": "toe_closure.py 15739-15749 at 79b09046a (S305d reader: the seal's salt probe)",
+  "rev": "79b09046a",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "15739-15749",
+  "sha256": "a601e842df08c141fba2bf5552e9e46e03536707adc35068286f9119ed9a9b23",
+  "bytes": 638
+ },
+ {
+  "what": "toe_closure.py 15756-15793 at 79b09046a (S305d reader: a referee building up and down Yukawa matrices at a tau (P-585-adjacent))",
+  "rev": "79b09046a",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "15756-15793",
+  "sha256": "de50321892812f93ef43f92592d5c8faf6e0d8dfd3c292c40ea651dbe31fe012",
+  "bytes": 1908
+ },
+ {
+  "what": "test_elevation_operator_gate.py 1775-1833 at 79b09046a (S305d reader: Stage 13's assertions on P-638-class operator quantities (sealed as a precaution))",
+  "rev": "79b09046a",
+  "path": "tests/test_elevation_operator_gate.py",
+  "lines": "1775-1833",
+  "sha256": "15532c2ed47a4a12c1be7c1ab24c9be7232754c61d3da21a11f3362a54e7c447",
+  "bytes": 3929
  }
 ]
