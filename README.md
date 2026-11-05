@@ -22,9 +22,9 @@ nothing in this block is typed by hand.*
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.61) of 2026-11-03 |
 | arcs with a verdict | 1542: 1052 PROVED, 382 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 690: 299 open (queued, leads, waiting for the owner), 391 closed |
+| points in the register | 691: 299 open (queued, leads, waiting for the owner), 392 closed |
 | the last review | Review 74 (2026-11-04), anchor `41420ae14` |
-| the last landing | S305b THE CLOSURE PREPARED: THE PRINCIPLED ENDS DECLARED BEFORE B1839 IS READ (B1840); THE WEB SEAT AND THE SM SEAT ENGAGED; THE AGY LANE'S STAGE 12… |
+| the last landing | S305c THE PRINCIPLED ENDS CLOSED AT FOUR BEFORE B1839'S LOOK RAN; THE HOLD LIFTS (2026-11-05) |
 <!-- STATE:END -->
 
 ## Start here
