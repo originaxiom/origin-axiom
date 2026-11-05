@@ -13,16 +13,16 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1542 |
-| … PROVED | 1052 |
+| arcs with a verdict file | 1543 |
+| … PROVED | 1053 |
 | … NEGATIVE | 382 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 699 |
-| … QUEUED | 290 |
+| register points | 702 |
+| … QUEUED | 291 |
 | … LEAD | 9 |
 | … OWNER | 4 |
-| … DONE | 385 |
+| … DONE | 387 |
 | … DECLINED | 11 |
 | harvest rows (the last number) | 1572 |
 | the Standard Model's 19 derived | 0 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1843 | PROVED | GENESIS v1.62 (the owner's ruling, 2026-11-05: 'if you also agree with sm about the rule, i aprove it'): GAP1's held-out targets are graded jointly -- each inside its 68% band and the joint p_V (the product of marginal… |
 | B1838 | OPEN | THE END (P-421, OPEN): the web seat's sealed exact-end look reproduced on main (P-595 paid) -- the candidate's six pass only with the small-cut end (chi2 2.4-4.9) and fail at the exact horoball norms (31-54; 26-36 with… |
 | B1837 | PROVED | THE AGY LANE'S STAGES 8-9 AND THE WEB SEAT'S DENSITY HIGGS VERIFIED: main stands on six of the lane's seven rebuttals (the seventh, the mirror, already proved) -- at one Higgs every generation's lepton/down relation and… |
 | B1836 | PROVED | THE SEATS PAST S300 VERIFIED (the owner's 'fetch and verify agy and other seats'): the F7 mirror identity PROVED (T-FRAME-MIRROR; the agy lane's Theorem 60 repaired); T a symmetry of the frame's outputs (8e-13; main's S… |
@@ -42,7 +43,6 @@
 | B1830 | PROVED | THE REGISTER TRIAGED (the owner's ruling on P-587, 2026-11-03: 'yes'): every open row typed DEBT, LEAD or PROCESS, only debts age, every open debt on a ranked list by load (point_debt.py rule 6, with a planted test). Fi… |
 | B1829 | PROVED | GENESIS v1.61 (the owner's ruling on P-577, 2026-11-03, 'agreed' to the owner's own tiered-bar proposal as main assessed it): where the joint look count applies, level 1 is a fixed screen (THE_BAR at p < 0.01 with every… |
 | B1828 | PROVED | GENESIS v1.60 (the owner's ruling on P-580, 2026-11-03: YES): a frame may EARN its dictionary BY PREDICTION -- an identification is EARNED BY PREDICTION within a frame F when F is fixed on a sealed card before, at least… |
-| B1827 | OPEN | THE FRAMING LEDGER (the owner's exercise, 2026-11-03; OPEN, an audit): eighteen framing commitments inventoried from five readers (docs/FRAMING_LEDGER.md), then the question itself and its recognition audited (S291, § G… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S305h GENESIS v1.62: THE JOINT CONFIRMATION, ADOPTED BEFORE B1839 IS READ (B1843); THE AGY LANE'S STRUCTURAL CLAIMS VERIFIED (2026-11-05)
 - S305g THE HOMEWORK FOR A CLOSURE: B1841 SEALED BEFORE B1839 IS READ; THE SEATS ENGAGED (2026-11-05)
 - S305f THE AGY LANE'S STAGES 14–15 READ AT THE OWNER'S WORD: NO JOINT EARNED, NOTHING THAT MOVES B1839; COMPLIANCE REGRESSED (2026-11-05)
 - S305e η_B JOINS THE HELD-OUT LIST; THE BANG PROGRAMME RULED (P-694, P-695) (2026-11-05)
@@ -63,11 +64,10 @@
 - S305c THE PRINCIPLED ENDS CLOSED AT FOUR BEFORE B1839'S LOOK RAN; THE HOLD LIFTS (2026-11-05)
 - S305b THE CLOSURE PREPARED: THE PRINCIPLED ENDS DECLARED BEFORE B1839 IS READ (B1840); THE WEB SEAT AND THE SM SEAT ENGAGED; THE AGY LANE'S STAGE 12 AND THE WEB SEAT'S POST HOC 2 VERIFIED; P-670'S SW…
 - S305a THE OWNER'S TWO CALLS RULED (P-665, P-684): THE PMNS CARD'S ONE TARGET IS r; NO DATA-TOUCHING EXISTENCE SCAN FOR A HELD-OUT TARGET; THE COMPLIANCE FOLLOW-UP SENT TO THE AGY LANE (2026-11-05)
-- S304 THE CANDIDATE'S END IS THE NORM OF NO GEOMETRIC CUT (B1838): e^-L_max ABOVE THE CELL'S INRADIUS; NO SINGLE HOROCYCLE REPRODUCES ITS WEIGHTS; A07 RE-TYPED ANSATZ; THE AGY LANE'S STAGES 10-11 VERI…
 
 ## The latest campaign line
 
-LATEST (2026-11-05, S305g: B1841 THE PRINCIPLED-ENDS CARD sealed before B1839 is read; the web seat and the SM seat engaged to referee it and to specify the confirmation's statistics (P-699); B1839's census near done, slowed by load. 0 of 19.)
+LATEST (2026-11-05, S305h: GENESIS v1.62 — the held-out targets graded jointly, with a power valve; adopted before B1839 is read (B1843). B1839's look ran, output committed unread next. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
