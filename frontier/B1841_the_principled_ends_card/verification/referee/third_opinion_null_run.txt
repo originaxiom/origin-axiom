@@ -1,0 +1,17 @@
+features rebuilt (sealed code) 290 s
+(a) 30 random rows, independent per-sector instrument vs sealed features: max |delta ln ratio| 2.91e+00
+(b) brute-force data minima {'bounded': 4.726887, 'set9': 5.410482, 'seat': 11.977974} (B1841: bounded 4.726887, set9 5.410482, seat 11.977974)
+   seed 51001 done (1740 s)
+   seed 51002 done (2569 s)
+   seed 51003 done (3179 s)
+   seed 51004 done (3857 s)
+   seed 51005 done (4475 s)
+   seed 51006 done (5125 s)
+   seed 51007 done (5724 s)
+   seed 51008 done (6301 s)
+   seed 51009 done (6810 s)
+   seed 51010 done (7323 s)
+(b) bounded brute-force hits 345 / 40000  vs  sealed KD null 345 -> AGREE
+(b) set9    brute-force hits 248 / 40000  vs  sealed KD null 248 -> AGREE
+(b) seat    brute-force hits 409 / 40000  vs  sealed KD null 409 -> AGREE
+third opinion (2) exit 0 (7323 s)

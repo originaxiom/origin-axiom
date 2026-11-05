@@ -1,0 +1,25 @@
+apex 162 order  5 (12 lines): max |ln lep - ln down| per (lep reading, down reading) {'S/S': '1.57e-10', 'S/St': '6.37e+00', 'St/S': '6.37e+00', 'St/St': '8.94e-12'}
+apex 162 order 10 (36 lines): max |ln lep - ln down| per (lep reading, down reading) {'S/S': '5.76e+00', 'S/St': '8.58e+00', 'St/S': '8.49e+00', 'St/St': '5.69e+00'}
+apex 162 order  3 ( 4 lines): max |ln lep - ln down| per (lep reading, down reading) {'S/S': '9.27e+00', 'S/St': '6.41e+00', 'St/S': '7.91e+00', 'St/St': '3.80e+00'}
+apex 162 order  4 ( 6 lines): max |ln lep - ln down| per (lep reading, down reading) {}
+apex   0 order  5 (12 lines): max |ln lep - ln down| per (lep reading, down reading) {'S/S': '5.88e-13', 'S/St': '3.55e+00', 'St/S': '3.55e+00', 'St/St': '4.09e-14'}
+apex   0 order 10 (36 lines): max |ln lep - ln down| per (lep reading, down reading) {'S/S': '3.98e+00', 'S/St': '5.89e+00', 'St/S': '7.37e+00', 'St/St': '3.43e+00'}
+apex   0 order  3 ( 4 lines): max |ln lep - ln down| per (lep reading, down reading) {'S/S': '7.36e+00', 'S/St': '5.24e+00', 'St/S': '4.77e+00', 'St/St': '1.77e+00'}
+apex   0 order  4 ( 6 lines): max |ln lep - ln down| per (lep reading, down reading) {}
+apex  41 order  5 (12 lines): max |ln lep - ln down| per (lep reading, down reading) {'S/S': '7.59e-13', 'S/St': '4.03e+00', 'St/S': '4.03e+00', 'St/St': '2.70e-13'}
+apex  41 order 10 (36 lines): max |ln lep - ln down| per (lep reading, down reading) {'S/S': '4.26e+00', 'S/St': '5.79e+00', 'St/S': '7.18e+00', 'St/St': '3.82e+00'}
+apex  41 order  3 ( 4 lines): max |ln lep - ln down| per (lep reading, down reading) {'S/S': '7.62e+00', 'S/St': '5.20e+00', 'St/S': '5.39e+00', 'St/St': '2.17e+00'}
+apex  41 order  4 ( 6 lines): max |ln lep - ln down| per (lep reading, down reading) {}
+apex 100 order  5 (12 lines): max |ln lep - ln down| per (lep reading, down reading) {'S/S': '2.85e-12', 'S/St': '5.08e+00', 'St/S': '5.08e+00', 'St/St': '2.36e-13'}
+apex 100 order 10 (36 lines): max |ln lep - ln down| per (lep reading, down reading) {'S/S': '6.09e+00', 'S/St': '6.83e+00', 'St/S': '7.49e+00', 'St/St': '5.11e+00'}
+apex 100 order  3 ( 4 lines): max |ln lep - ln down| per (lep reading, down reading) {'S/S': '8.32e+00', 'S/St': '5.74e+00', 'St/S': '6.17e+00', 'St/St': '3.65e+00'}
+apex 100 order  4 ( 6 lines): max |ln lep - ln down| per (lep reading, down reading) {}
+apex 150 order  5 (12 lines): max |ln lep - ln down| per (lep reading, down reading) {'S/S': '2.20e-11', 'S/St': '6.00e+00', 'St/S': '6.00e+00', 'St/St': '9.09e-13'}
+apex 150 order 10 (36 lines): max |ln lep - ln down| per (lep reading, down reading) {'S/S': '5.87e+00', 'S/St': '8.10e+00', 'St/S': '8.21e+00', 'St/St': '5.73e+00'}
+apex 150 order  3 ( 4 lines): max |ln lep - ln down| per (lep reading, down reading) {'S/S': '8.99e+00', 'S/St': '6.09e+00', 'St/S': '7.51e+00', 'St/St': '3.69e+00'}
+apex 150 order  4 ( 6 lines): max |ln lep - ln down| per (lep reading, down reading) {}
+apex 222 order  5 (12 lines): max |ln lep - ln down| per (lep reading, down reading) {'S/S': '4.97e-09', 'S/St': '8.23e+00', 'St/S': '8.23e+00', 'St/St': '2.16e-11'}
+apex 222 order 10 (36 lines): max |ln lep - ln down| per (lep reading, down reading) {'S/S': '7.26e+00', 'S/St': '1.07e+01', 'St/S': '1.00e+01', 'St/St': '7.26e+00'}
+apex 222 order  3 ( 4 lines): max |ln lep - ln down| per (lep reading, down reading) {'S/S': '1.08e+01', 'S/St': '8.55e+00', 'St/S': '9.54e+00', 'St/St': '9.28e+00'}
+apex 222 order  4 ( 6 lines): max |ln lep - ln down| per (lep reading, down reading) {}
+best row (apex 162, line (2/5, 4/5), E4): ln lep S [-4.11868553 -6.81329295] St [ -4.18426861 -10.93877676] | ln down S [-4.11868553 -6.81329295] St [ -4.18426861 -10.93877676]

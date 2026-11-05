@@ -12435,5 +12435,33 @@
    "hypotheses": "reach, c = 3, threshold and floor CHOSEN; sealed fa25925fc"
   },
   "weave_or_thread": "thread"
+ },
+ {
+  "id": "B1839",
+  "claim_killed": "That the six charged-fermion ratios single out the frame at the exact horoball norm with the end's level free and priced (P-421's decider: THE SIX ON THE STRIP kept as a candidate with a geometric end, one FITTED number).",
+  "evidence_consulted": [
+   "B1838",
+   "B1798",
+   "B1753",
+   "B1741",
+   "B1726",
+   "B1667",
+   "B1656",
+   "B1841"
+  ],
+  "faces_consulted": [],
+  "fact_computed": "the exact horoball norms of every channel at 23 levels (the census: 223 apexes x 170 twist classes, split quadrature, C1/C2 exact; the web seat's independent third opinion to 2e-14); the six's least chi2 over 1 364 314 rows and the matched null over 10^6 random hierarchies (B1841's referee checked the same null code by brute force, exact)",
+  "hatch": "a level derived, not fitted: B1841's principled entry E4 = L_2 - pi/2 passes (r97.5 0.885%), a READING carried by the order-5 lines' SU(5) structure (P-706); a forcing process for the end (P-694)",
+  "kill_form": "Sealed (c70b356f0) and run once (output committed unread at 1d218f158): P1 holds (least chi2_six 4.61 at delta 0.15, apex 162, (2/5, 4/5)), but 2.43% of 10^6 random hierarchies are as low once apex, line, reading, c and the level are re-made per target (r97.5 2.46% > 1%); D FAILS -- the 23 levels' look-elsewhere costs the screen. NEGATIVE as sealed; the small-cut ansatz end retired.",
+  "note": "Robust and kept: the exact horoball norms (the census, third-opinioned by the web seat to 2e-14); the best row coincides with B1841's (E4 lies at delta 0.125 there, 0.025 from the free optimum).",
+  "priority": "medium",
+  "routed_from": "main, at banking (2026-11-05), for tests/test_b833_negative_routing.py",
+  "scope": {
+   "frame": "FR-FIB at the exact horoball norm, one level L_max + delta free over 23 values",
+   "object": "the six charged-fermion ratios at M_Z (B1741's data and random hierarchies)",
+   "reach": "class",
+   "hypotheses": "B1753's 223 apexes, all 266 lines, B1741's seat menu, c continuous in [1/3, 5]; sealed c70b356f0"
+  },
+  "weave_or_thread": "weave"
  }
 ]

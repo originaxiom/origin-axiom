@@ -18475,3 +18475,11 @@ unspent when a test could not succeed. It was adopted before the end card's outp
 The web seat recomputed the end card's census independently and found it right, and refereed the principled-ends card
 and found it correctly posed. Its two clarifications of how a result would be read were written down before either
 card's output is opened. Both looks are running. 0 of 19.
+
+## 2026-11-05 — S305j: the end cards read
+
+The end card failed: letting the cut's level float gave the frame too much freedom. The principled-ends card passed at
+the area-4 horocycle, a level fixed by geometry. Main's own checks confirmed every number, and then showed what the pass
+is made of: on that row the leptons are the down quarks by structure (minimal SU(5)), and the frame's quark numbers alone
+match random worlds as often as ours. The structure carries the six; the frame's values do not. The owner held the two
+held-out targets unspent. 0 of 19.

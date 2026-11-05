@@ -48,18 +48,14 @@
  ],
  "frames": {
   "A": {
-   "name": "the record's candidate: THE SIX ON THE STRIP (FR-FIB at the small-cut end; B1829, P-585)",
+   "name": "the record's candidate: THE SIX AT THE AREA-4 HOROCYCLE (FR-FIB at B1841's E4 row; B1841, P-706)",
    "claims": [
     1,
     2,
     3,
     4,
     5,
-    6,
-    7,
-    8,
-    9,
-    10
+    6
    ],
    "held_out": [
     11,
@@ -125,9 +121,9 @@
     },
     {
      "id": "A03",
-     "name": "the line's order 10 (an odd/10 offset; the five odd offsets are one T-orbit, so which one is the sheet of Re tau, A01)",
+     "name": "the line's offset: (2/5, 4/5), order 5, at B1841's row (an odd/10 offset, order 10, at the retired small-cut end; the five odd offsets are one T-orbit)",
      "type": "CHOSEN",
-     "basis": "P-384; S301 (B1836): T is a symmetry of the outputs, (tau, (a, b)) -> (tau + 1, (a, b - a))",
+     "basis": "P-384; S301 (B1836): T is a symmetry of the outputs, (tau, (a, b)) -> (tau + 1, (a, b - a)); B1841 (S305j): the six's best row at the principled end E4 is on the order-5 line (2/5, 4/5), where the lepton ratios equal the down ratios (P-706); the offset moved with the end (P-707)",
      "feeds": [
       1,
       2,
@@ -143,7 +139,7 @@
       12,
       17
      ],
-     "register": "P-384",
+     "register": "P-384, P-707",
      "same_as": "B03"
     },
     {
@@ -194,9 +190,9 @@
     },
     {
      "id": "A06",
-     "name": "the horocycle L_max (over L_2)",
+     "name": "the end's level among B1840's four (E4 = L2 - pi/2, the area-4 horocycle; was the horocycle L_max over L_2 at the small-cut end)",
      "type": "CHOSEN",
-     "basis": "P-402: selected by the data, not absorbed by tau (the web seat's sealed H2)",
+     "basis": "P-402 (L_max over L_2 at the small-cut end); B1841: the level is E4, one of four principled entries priced in its null; whether A06 and A07 now name one choice is Review 75's (P-707)",
      "feeds": [
       1,
       2,
@@ -212,14 +208,60 @@
       12,
       17
      ],
-     "register": "P-402",
+     "register": "P-402, P-707",
      "same_as": "B07"
     },
     {
      "id": "A07",
-     "name": "the end: the small-cut norm 2 pi L + c_s at L_max",
-     "type": "ANSATZ",
-     "basis": "P-421; B1838: at the exact norms the six fail (reproduced on main); e^-L_max > 1/2 at every B1667 point, so the small-disc expansion is used where no disc fits; no single horoball level reproduces its channel weights (three depths -- channels j and k together, 1, and i -- tested at two rows; B1838 sec. 2b, sharpened at S305c from 'the norm of no geometric cut') (re-typed CHOSEN -> ANSATZ at S304; B1839 decides it)",
+     "name": "the end: the exact horoball norm at B1841's principled entry E4 (was the small-cut norm 2 pi L + c_s at L_max)",
+     "type": "CHOSEN",
+     "basis": "B1841 (sealed; D holds, r97.5 0.885%, the entry priced among K = 4): a discrete principled end, nothing fitted; B1839 (D fails, r97.5 2.46%): a free level does not carry the six; the small-cut ansatz retired (re-typed ANSATZ -> CHOSEN at S305j by B1841's sealed reading; earlier: CHOSEN -> ANSATZ at S304, B1838)",
+     "feeds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      17
+     ],
+     "register": "P-421, P-706",
+     "same_as": ""
+    },
+    {
+     "id": "A08",
+     "name": "the generations' metric H = I",
+     "type": "CHOSEN",
+     "basis": "B1822; FL-11; S305j (P-705): H = I is P-259's minimal-Kähler hypothesis -- B1736's family group acts by the irreducible cube rotations rho', so by Schur any tau-independent invariant metric is a multiple of I; non-minimal Kähler terms (covariant, with coefficients of their own; Chen, Ramos-Sanchez and Ratz, arXiv:1909.06910) escape it, so the hypothesis is the choice",
+     "feeds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      17
+     ],
+     "register": "P-531, P-705",
+     "same_as": "B09"
+    },
+    {
+     "id": "A09",
+     "name": "the channel weights: the exact horoball norms at the end (was sqrt(2 pi L + c_s), a flat norm cut with a hyperbolic radius)",
+     "type": "CHOSEN",
+     "basis": "FL-11; B1838's closed form at finite height ('THE CHANNEL NORMS IN CLOSED FORM AT FINITE HEIGHT') replaces the small-disc expansion; that a channel's weight IS its norm at a cut stays a choice (re-typed ANSATZ -> CHOSEN at S305j with A07)",
      "feeds": [
       1,
       2,
@@ -239,62 +281,16 @@
      "same_as": ""
     },
     {
-     "id": "A08",
-     "name": "the generations' metric H = I",
-     "type": "CHOSEN",
-     "basis": "B1822; FL-11",
-     "feeds": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      17
-     ],
-     "register": "P-531",
-     "same_as": "B09"
-    },
-    {
-     "id": "A09",
-     "name": "the channel weights sqrt(2 pi L + c_s), a flat norm and cut with a hyperbolic radius",
-     "type": "ANSATZ",
-     "basis": "FL-11 (UNSTATED)",
-     "feeds": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      17
-     ],
-     "register": "",
-     "same_as": ""
-    },
-    {
      "id": "A10",
-     "name": "the lepton factor c = 3",
-     "type": "CHOSEN",
-     "basis": "FL-12 (inserted by hand); B1789, B1793, B1817 (not derived)",
+     "name": "the lepton factor c (3.77 at B1841's row, continuous and fitted; c = 3 at the small-cut end)",
+     "type": "FITTED",
+     "basis": "FL-12; B1839 and B1841 price c continuous in [1/3, 5]; on order-5 lines c is the Georgi-Jarlskog factor between the down and lepton ratios (P-706, P-355) (re-typed CHOSEN -> FITTED at S305j)",
      "feeds": [
       5,
       6,
       12
      ],
-     "register": "P-446",
+     "register": "P-446, P-706",
      "same_as": "B11"
     },
     {
@@ -344,7 +340,7 @@
      "same_as": "B10"
     }
    ],
-   "status": "a CANDIDATE at level 1 (screen); its level-2 confirmation is one held-out target short (P-597)"
+   "status": "a level-1 READING (B1841 PROVED as sealed; B1839 NEGATIVE): the six reach chi2 4.73 at E4, but on its order-5 line the leptons are the down sector (Y_e ∝ Y_d^T) and the frame's quark four alone are not specific (9.2%; P-706); the CKM four are not claimed at this row (untested there, and never at one address with the six, P-555); the held-out targets are HELD by the owner (P-709)"
   },
   "B": {
    "name": "the agy lane's complete picture: its master scorecard, Route A, at 18c607040",
