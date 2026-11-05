@@ -1,5 +1,11 @@
 # Changelog
 
+## S305h GENESIS v1.62: THE JOINT CONFIRMATION, ADOPTED BEFORE B1839 IS READ (B1843); THE AGY LANE'S STRUCTURAL CLAIMS VERIFIED (2026-11-05)
+
+- **The owner:** 'if you also agree with sm about the rule, i aprove it' (the SM seat's §§ 351–352: under v1.60's per-target rule a correct frame at the 10% allowance almost never passes). **GENESIS v1.62** (B1843, through its amend.py): GAP1's targets graded jointly — each inside its 68% band and the joint p_V (the product of marginal rank p's under the matched null, ranked among the null's worlds) below 0.01/m_V in its 97.5% upper end; m_V counts every recorded prior look, sealed or not (≈ 12–13 for the y_b/y_t-and-r card); the claim 'jointly confirmed, each within its band'; a new condition 7 holds the targets unspent when the card's location-free power for a 5%-accurate frame is below 10%. Main verified the statistic's calibration with its own implementation (1.02%, 0.97%, 0.83% at α = 0.01) and the budget (5.5 + 4.5 bits against 10.3 needed: the valve will likely hold). THE_BAR's level 2 and THE_FINAL_ACTS_BAR's V updated.
+- **The agy lane's three structural claims** (pasted by the owner) verified: the CRT split SL(2, ℤ/6) ≅ SL(2, 𝔽₂) × SL(2, 𝔽₃) true and textbook (computed), its colour/flavour assignment a reading built on a withdrawn claim and a wrong electron-zero order; the 'electroweak depths' refuted (B1838's levels are absolute; j and k differ by a median 3% over the census); one lead kept (P-702).
+- P-700–P-702; FLOOR 702. B1839's look ran; its output is committed unread next. 0 of 19.
+
 ## S305g THE HOMEWORK FOR A CLOSURE: B1841 SEALED BEFORE B1839 IS READ; THE SEATS ENGAGED (2026-11-05)
 
 - **The owner:** 'what else can we do to make sure all our homework is done, so we raise chances for right values', then 'hire other seats to help u prepare 100%'. Main's answer: homework cannot make the frame right; it can make sure a true value is detected, a false one is not banked, and the next attempt is derived. **B1841 THE PRINCIPLED-ENDS CARD** sealed before B1839's look is read (B1839's per-level profile would nearly reveal these entries): the six at B1840's four principled ends under B1839's matched null, K = 4 priced; its census dry-run on two apexes (finite; E1 > E4 > E2 > E3 as the geometry requires).

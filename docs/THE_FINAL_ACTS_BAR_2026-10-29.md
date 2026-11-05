@@ -667,3 +667,21 @@ The gates above bind claims. Understanding may run below them:
   or tuning that attempt; neither B285 nor the agy lane's look enters a main attempt, so η_B stays held out for main's.
 
 0 of 19.
+
+## Appended 2026-11-05 (S305h; GENESIS v1.62, B1843, the owner's ruling): V's PASSED graded jointly
+
+- **The PASSED line of V above** ("v lies inside the prediction's 68% band, and p_V < 0.01/m_V", per target) now applies
+  jointly:
+  - each held-out target's v lies inside its own 68% band;
+  - the joint p_V — the product of the targets' marginal rank p-values under the matched null, ranked among the null's
+    worlds (leave-one-out ranks, ties against the frame, the data counted in the null) — is below 0.01/m_V in its exact
+    97.5% upper end.
+- **m_V** counts the attempt's held-out targets and every prior look at each of them recorded in docs/LOOK_LEDGER.md, sealed
+  or unsealed, across seats.
+- **Worth spending:** before any measured value is opened, the card's location-free power for a frame whose true error is
+  5% is computed from the null's predictions alone; below 10%, the targets are held and the card is not run.
+- **Unchanged and still per target:** KIND_TABLE's admission (R5), CROSSING_REQUIREMENTS R1–R12, each target's band and
+  its prior-look list.
+- **The claim's wording:** "jointly confirmed, each within its band".
+
+0 of 19.
