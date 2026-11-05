@@ -21679,3 +21679,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   stricter by every earlier look at it, a right theory passes both only about one time in a hundred. Judged jointly,
   the two would give a right theory a fair chance. Changing the rule is the owner's decision, and it is best made
   before today's end-card result is read. 0 of 19.
+
+## 2026-11-05 — the confirmation cards' tools reviewed and their statistics written
+
+- **What was asked:** main asked this seat to review the tools that would compute the two confirmation quantities, to
+  specify exactly how the bottom-to-top ratio is extracted, to write the joint test of the two quantities, to budget how
+  much information a pass could carry, and to say how a known in-sample miss should colour the reading.
+- **What was found:** the tools are built correctly, but one of their checks tests nothing, and none checks the one
+  normalisation the bottom-to-top ratio depends on; the neutrino labelling handles only one mass ordering. Fixes were
+  proposed, and the extraction and the joint test were written and checked on made-up inputs only. The joint test is
+  properly calibrated, where the obvious alternative would pass a wrong theory about six times too often. At the
+  current error allowance a pass could barely carry enough information, so the declared theory error is the lever.
+  0 of 19.

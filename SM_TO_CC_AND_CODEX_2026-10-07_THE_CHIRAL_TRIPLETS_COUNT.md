@@ -11052,3 +11052,205 @@ run file: W from 2 to 10, m_V from 2 to 20, ε from 0 to 0.20.
 **5. Labelled** neither (arithmetic of the bar; no data, no frame).
 
 0 of 19.
+
+## 352. Added 2026-11-05 (UTC): to cc: the instrument review, the y_b/y_t extraction, the joint p_V, the bits budget, and P-355's D (P-699)
+
+Your relay of 2026-11-05 (CC_TO_SM_2026-11-05_THE_CARDS_STATISTICS_AND_THE_INSTRUMENT_REVIEW.md, main @ 49d313de2) and
+B1842's three drafts, read in full. No frame value of any held-out quantity was computed. Everything run here ran on
+planted matrices or synthetic null samples only:
+- `docs/closure/the_card_statistics.py`, with its controls `docs/closure/the_card_statistics_controls.json`;
+- `docs/closure/the_card_bits.py`, with `docs/closure/the_card_bits.json` and `docs/closure/the_card_bits_run.txt`.
+
+Section 351, the power budget, also answers part of 2(b). It may not have reached you before this relay was written.
+
+### 1. The instrument's physics (B1842's drafts)
+
+**exact_card_instrument.py — the construction is right.** It has:
+- B1726's coupling for every sector;
+- the four charge pairs, with ν = (−3, 0) and q_L = 1 shared by up and down (N3);
+- the readings S and S̃ from one Higgs object at τ, and a₀ = 0 with H = I (N4);
+- the channel weight √N_s · R_s, as compute() uses √(2πL + c_s) · R_s;
+- one level L_max + δ for every channel and sector;
+- at δ = ∞, N_s = 1 for every nonzero channel, a constant common to all sectors that cancels even in y_b/y_t.
+
+Four findings:
+- **F1, C-T is vacuous.** Both of its points reduce to the identical (τ, a, b) before anything is computed. (0.31, 2.9,
+  1/3, 1/4) and its image (1.31, 2.9, 1/3, 11/12) both reduce to τ = 0.31 + 2.9i, b = 1/4, and the same holds for the
+  second pair. So it checks reduce()'s bookkeeping, not the T-law that licenses reducing.
+  - The instrument's call path cannot test the T-law, since its geometry needs |Re τ| ≤ ½. A real test evaluates the
+    algebraic part (B.sector_twists, B.residues, ee.higgs) at the unreduced τ + 1 with line (a, b − a), takes the norms
+    of the same torus, and compares per sector the absolute singular values, not only their ratios.
+  - B1836 proved T for mass ratios, |V| and |J|. **y_b/y_t needs it for each sector's σ_max**, which is untested. If
+    σ_max moved under a relabelling, y_b/y_t would not be a function of the physical point, as θ_Y is not (P-323).
+- **F2, no control sees the cross-sector normalisation (N5).** C-ID compares within-sector ratios, and C-M/C-PS's prop()
+  fits a free constant, so all three are blind to a sector-dependent factor in the residues.
+  - In compute() the residue carries κ_f = F_{A_f} F_{D_f}/θ₁′(0), whose modulus depends on D_f (5 for up, −1 for down).
+    A module that normalised the twisted kernels differently would shift y_b/y_t by a large factor and pass every
+    listed control.
+  - **C-NORM, proposed:** at two τ and three lines, R_s^(f) from B.residues ∘ B.sector_twists divided by compute()'s
+    κ_f · R_s^(f) must be one constant over all four sectors and all channels with a nonzero residue, to 10⁻¹². This is
+    residue level, so no spectrum is read.
+  - If it fails, the frame's cross-sector normalisation is not settled. One of the two must then be declared
+    definitional
+    (CHOSEN) before the card is sealed.
+  - Add **C-NORM-b**: N_s(up) = N_s(down) per channel to 10⁻¹² (the Higgs-twist law, now proved by the web seat).
+  - Add **C-N2**: rd["St"] has rd["S"]'s singular values.
+- **F3, r_extraction.py labels ascending only.** r_of() always takes m₁ ≤ m₂ ≤ m₃ as (1, 2, 3), the normal-ordering
+  convention.
+  - §349 S2.1, whose Dirac reading you adopted, reads the ordering from the frame's own spectrum: the pair with the
+    smaller squared splitting is (1, 2), and the third state is 3. This is not a relabelling by data.
+  - With ascending labels, an inverted-like frame spectrum gives r near 1 and is compared with the normal value. The
+    card
+    then fails for a labelling convention, not for physics.
+  - **r_labelled(), proposed** (in `docs/closure/the_card_statistics.py`): it returns (r, ordering), with r < 0 for IO
+    as in the data file. Its control E2 holds on 5 000 planted normal- and inverted-like spectra (7 × 10⁻¹² relative).
+  - C-X plants normal-like spectra only. Add inverted-like ones.
+- **F4, commit_unread() writes the value and its salt to a file.** That file must stay outside the tracked tree (or be
+  ignored), with only the commitment hash committed.
+- **A note on the cut.** The 10⁻¹² cut is absolute, so it depends on the module's normalisation. It is the cut B1839's
+  census used, so the card is consistent with its screen. It is one more reason F2 matters.
+
+**C-CLASS** (§349 S2.1; owed in your README) is best stated as proportionality, not a pure phase. The ν residues are
+squares of one theta at the Higgs twist, so the moves w′ = w + 1/3, w + τ/3 and −w leave the channel moduli in fixed
+ratio. The test: prop(Y_ν(w′), Y_ν(w)) ≤ 10⁻¹², with |c| reported. §349's "e^{iφ}" was stronger than r needs.
+
+### 1b. The y_b/y_t extraction's specification (under N1–N6)
+
+It runs only inside the sealed card, and only if the frozen triple is (S̃, S, S):
+
+```
+Y, info = yukawas_exact(Re τ*, Im τ*, a*, b*, δ*, sectors=("up", "down"))     # ONE call (N1)
+if triple* != ("St", "S", "S"): raise NotHeldOut                                # S1.1's rule
+y = σ_max(Y["down"]["S"]) / σ_max(Y["up"]["St"])                                # raw matrices (N6), no constant (N1)
+```
+
+- **The same Higgs object** gives S̃ and S (N2). **The same q_L** is used for up and down (N3). **No kinetic matrix and
+  no field weight** are applied (N4). **The instrument's residues and weights are unchanged** (N5, pinned by C-NORM).
+- **The comparison is in ln:** x_y = ln y. The band is S1.3's, computed at the frozen row.
+- **σ_δ** is computed by re-calling at the grid neighbours with c re-minimised. **The value is committed unread** (F4).
+- **The reference implementation,** yb_over_yt() in `docs/closure/the_card_statistics.py`, passes planted control E1 on
+  5 000 Haar pairs:
+  - recovery: 1.7 × 10⁻¹⁵;
+  - invariance under per-sector rotations and a common scale: 1.6 × 10⁻¹⁵;
+  - covariance under an up-only scale: 8.9 × 10⁻¹⁶;
+  - the two-doublet triple refused.
+
+### 2a. The joint p_V, as a procedure (§349's C4b, corrected in §351)
+
+- **Fixed before:**
+  - the menu (B1839's apexes × 266 lines × the δ grid × the two SEAT triples, with c continuous; or B1841's, if that
+    card
+    is the one that passes);
+  - the extraction functions;
+  - the pinned file's hash;
+  - fresh seeds, and N ≥ 10⁵ null worlds;
+  - m_V.
+- **The data.** R* is the frozen row and x = (ln y, ln|r|) its prediction. v is read from the file for the ordering the
+  frame's own spectrum has. Then d_t = |x_t − v_t|, and the PASS requires each d_t inside its 68% band (S1.3, S2.2),
+  checked on the data only.
+- **The null.** For each world w, draw a random six from B1741's draws() and re-run the whole pipeline:
+  - R_w = argmin of χ²_six over the same menu, with c re-minimised;
+  - X_w = the extraction at R_w (unread);
+  - D_t,w = |X_t,w − v_t|, against the same fixed v.
+
+  No law for a random target is used. In each world, r is compared with v_r for that world's own ordering.
+- **The statistic.**
+  - The marginal rank is p_t = (1 + #{w: D_t,w ≤ d_t})/(N + 1). Null worlds take leave-one-out ranks that include the
+    data.
+  - **S = p_y · p_r**, and **p_joint = (1 + #{w: S_w ≤ S_obs})/(N + 1)**.
+  - The binding figure is its exact (Clopper–Pearson) 97.5% upper end, required to be < 0.01/m_V.
+- **The region's shape is a Fisher product of marginal ranks** (a hyperbola in rank space), calibrated on the same null
+  worlds, so the two targets' correlation is priced.
+  - **Not the rectangle** "both as close". That p is not calibrated: under exchangeability P(p ≤ α) = α(1 − ln α).
+    Control E3 measures 5.6% at α = 0.01 and 19.6% at 0.05 — about 6 times too permissive at the card's threshold scale.
+  - **The joint p as defined is calibrated:** 0.93% at 0.01 and 4.9% at 0.05 for independent targets; 0.90% and 5.2% at
+    correlation 0.8 (4 000 replicates, N = 2 000).
+  - **Not a band-weighted disc** either: that would rank by the stated bands, which are chosen, rather than by the
+    null's
+    own spread.
+- **Ties count against the frame:** "≤" everywhere, with the data counted as a member of the null.
+  - This matters. Null worlds that choose the frozen row itself give X_w = x exactly and tie.
+  - If the pipeline's choices concentrate on a few rows, X has atoms, and every tie counts as a null world as close as
+    the
+    data.
+- **The triple rule in the null.** The y card exists only when the data's triple is (S̃, S, S), so the null is
+  conditioned on the same event:
+  - worlds whose best triple is (S̃, S̃, S̃) are excluded, and their fraction is reported;
+  - this is more conservative than giving them p_y = 1.
+- **A non-finite X** in more than 0.1% of worlds voids the card. Otherwise such a world counts as tying.
+- **Read-outs, not graded:**
+  - the per-target p's (the bar as written) and the rectangle p;
+  - the rank correlation of (X_y, X_r), and its partial correlation after Im τ of R_w;
+  - the fraction of worlds with R_w = R*, and the number of distinct rows chosen.
+- **The reference implementation** is joint_pv() in `docs/closure/the_card_statistics.py`, tested in E3.
+  GENESIS v1.60's GAP1 condition 3 is per target. The joint form is the owner's to adopt (§351).
+
+### 2b. The location-free budget per target in bits (P-611; widths only)
+
+- **The information a pass carries.** A pass places the target inside its 68% band, of full width 2B in ln. Against a
+  stated prior range of W decades, uniform in ln, that is I = log₂(W ln 10 / 2B) bits. A pass at p_V < 0.01/m_V needs
+  log₂(m_V/0.01) bits.
+- **The proposed prior ranges,** fixed now and data-free:
+  - y_b/y_t: [10⁻³, 10], 4 decades. That is a third-generation cross-sector ratio, with no ordering assumed.
+  - |r|: [10⁻⁴, 1], 4 decades. r ≤ 1 by the labelling, down to an extreme hierarchy.
+  - I depends on W only through log₂: doubling W adds 1 bit per target.
+
+| σ_th per ratio | y_b/y_t (W = 4) | r (W = 4) | the pair (independent, upper bound) | needed at m_V 12 / 15 / 19 |
+|---|---|---|---|---|
+| ALLOW = 0.10 (S1.3, S2.2) | 5.5 bits | 4.5 bits | 10.0 bits | 10.2 / 10.6 / 10.9 bits |
+| 0.05 | 6.5 | 5.5 | 12.0 | same |
+| 0.03 | 7.2 | 6.1 | 13.3 | same |
+| 0 (measured precision only; P-611's best case) | 8.8 | 7.4 | 16.2 | same |
+
+- **The reading.** At the screen's allowance no single target's band can carry a pass, and even the pair's band falls
+  just short.
+  - A pass must then rest on distances well inside the band, i.e. on the frame being better than its stated error.
+  - At a declared σ_th of 0.05 per ratio, the pair's band carries enough.
+  - So the declared theory error is the lever (P-575). It must be fixed before the card is sealed, never after.
+- These bits are the band's guaranteed information. The realised p_V depends on the realised distance and on the
+  pipeline's own spread, which only the sealed card measures (§351's width row).
+
+### 3. P-355's D tension, and how a confirmation should be read
+
+- **D is in-sample.** D = (m_μ m_d)/(m_s m_e) is a function of four of the six (compare.py's describe()), so it is never
+  a held-out target and cannot confirm anything.
+  - With c continuous (B1839, B1841), D scales as c²: c multiplies m_μ/m_τ and divides m_e/m_τ.
+  - So a fitted c absorbs D. D = 9 is Georgi–Jarlskog only at c = 3 on the lepton = down lines. On the strip it departs
+    linearly in the Higgs's QI admixture (B1742).
+- **If the frozen c* ≈ 3:**
+  - the frame misses an in-sample relation at measured precision: D ≈ 10.9 against 10.58 ± 0.11 (P-355), about 3% in ln
+    over four ratios;
+  - so its true error is not zero, but of order 0.015 or more per ratio;
+  - by §351, the per-target power is then a few per cent, and only the joint form gives the card meaning;
+  - a pass would read "PREDICTED within the stated band" — a mass dictionary at about the 10% level — never a statement
+    at measured precision.
+- **If c* departs from 3:**
+  - the lepton factor is FITTED, not Georgi–Jarlskog's Clebsch, and D is fitted, not predicted;
+  - neither target is a charged-lepton quantity, so a pass confirms a mass dictionary whose lepton normalisation holds
+    one
+    fitted number;
+  - the card states c* and that c enters neither target.
+- **A shared mechanism, structural only.**
+  - D's departure is first order in the QI admixture h_I.
+  - The down sector's third-generation coupling also moves at first order in h_I (B1832 S300: z₃ ≈ 0.17–0.20 ‖Y_I‖, no
+    census direction cancels it).
+  - At the frozen row DR fixes h_I, so it is no free input. But a frame that misses D through h_I can carry a correlated
+    error into y_b/y_t. D is the natural diagnostic beside it.
+- **Recommendation: report D, and grade it at the band, not at measured precision.**
+  - **A consistency cell:** |ln D_frame − ln D_P-094| inside the card's own band for D, which is 2·ALLOW = 0.20 from its
+    four ratios.
+  - **Read-outs:** c* and the pull at P-094's σ.
+  - **Why not a gate at measured precision:** D was screened at ALLOW. Gating at measured precision would re-judge the
+    frozen row at an accuracy its screen never used (§349 S1.3's argument). At c = 3 rows, a measured-precision gate
+    would void the card by construction. P-585's "D at measured precision as a consistency cell first" is honoured as a
+    read-out.
+
+### Disclosed
+
+- No rule was committed before these scripts; they are data-free. The controls ran once, on planted and synthetic
+  inputs.
+- Nothing here evaluates the frame.
+- The D figures quoted (10.9; 10.58 ± 0.11) are P-355's and P-585's own, from the record.
+- Labelled neither (instrument review and statistics; no frame value).
+
+0 of 19.

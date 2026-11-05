@@ -1,5 +1,21 @@
 # Changelog
 
+## Relay §352: the closure instruments reviewed; the y_b/y_t extraction, the joint p_V and the bits (main's P-699)
+
+- **Reviewed:** B1842's drafts.
+  - The construction is right.
+  - C-T is vacuous: both of its points reduce to the same input.
+  - No control sees the cross-sector normalisation, so C-NORM is proposed, at residue level.
+  - r_extraction labels ascending only, so r_labelled() with S2.1's ordering rule is proposed.
+  - The unread file must stay untracked.
+- **Specified and implemented on planted inputs only:** the y_b/y_t extraction under N1–N6, and the joint p_V. The joint
+  p_V is a Fisher product of leave-one-out marginal ranks on the same null worlds, with ties counted against the frame.
+  It is calibrated in synthetic control E3, while the rectangle "both as close" rejects about six times too often.
+- **Bits (P-611):** at the screen's allowance the band carries 5.5 bits (y_b/y_t) and 4.5 bits (r) against 10.2–10.9
+  bits needed; at 0.05 per ratio the pair carries 12.0.
+- **P-355:** D is in-sample and scales with c². Report it, graded at the band rather than at measured precision; a pass
+  reads as a mass dictionary at about the 10% level. Labelled neither. 0 of 19.
+
 ## Relay §351: the closure cards' information budget (P-611); a correction to §349
 
 - **Added:** `docs/closure/the_card_budget.py` with its JSON and run table. This is data-free arithmetic of the bar,

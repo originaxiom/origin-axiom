@@ -1,0 +1,31 @@
+{
+ "E1_planted": {
+  "max_rel_dev": 1.6653345369377348e-15,
+  "rotation_and_common_scale_invariance": 1.5543122344752192e-15,
+  "up_scale_covariance": 8.881784197001252e-16,
+  "two_doublet_triple_refused": true,
+  "holds": true
+ },
+ "E2_labelling": {
+  "NO_max_rel_dev": 1.2848833108591862e-11,
+  "IO_max_rel_dev": 7.0924377482128875e-12,
+  "ordering_recovered": true,
+  "holds": true
+ },
+ "E3_calibration_independent": {
+  "joint_rate_at_0.01": 0.00925,
+  "joint_rate_at_0.05": 0.0485,
+  "rectangle_rate_at_0.01": 0.056,
+  "rectangle_rate_at_0.05": 0.19625,
+  "replicates": 4000,
+  "N_null": 2000
+ },
+ "E3_calibration_correlated_0.8": {
+  "joint_rate_at_0.01": 0.009,
+  "joint_rate_at_0.05": 0.05175,
+  "rectangle_rate_at_0.01": 0.051,
+  "rectangle_rate_at_0.05": 0.182,
+  "replicates": 4000,
+  "N_null": 2000
+ }
+}
