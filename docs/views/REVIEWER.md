@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1543** |
-| words of findings prose | **1,300,261** |
+| words of findings prose | **1,300,346** |
 | test lock files referenced | **932** |
 | arcs carrying an authored verdict | **1543** (100.0 %) |
 | recorded closures | **858** (691 classified, 167 routed-only) |
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1843`** (672 words, 0 locks)  
+**PROVED — `B1843`** (757 words, 0 locks)  
 GENESIS v1.62 (the owner's ruling, 2026-11-05: 'if you also agree with sm about the rule, i aprove it'): GAP1's held-out targets are graded jointly -- each inside its 68% band and the joint p_V (the product of marginal rank p's under the matched null, ranked among the null worlds) below 0.01/m_V, m_V counting every recorded prior look -- and a seventh condition holds the targets unspent when the card's location-free power for a 5%-accurate frame is below 10%; adopted before B1839's look was read; the statistic's calibration verified by main (1.02%, 0.97%, 0.83% at alpha = 0.01).  
 `B1843_genesis_v1_62/FINDINGS.md`
 
