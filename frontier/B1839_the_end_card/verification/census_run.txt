@@ -1,0 +1,29 @@
+accessory: 223 apexes; max residual 7.9e-13; L_max 0.6445 .. 0.6562; L_2 2.3096 .. 2.4384
+census: 223 apexes to do (0 done), 170 classes x 22 levels each, 8 workers
+  10 / 223 apexes (1096 s; last apex 566 s)
+  20 / 223 apexes (1664 s; last apex 564 s)
+  30 / 223 apexes (2221 s; last apex 556 s)
+  40 / 223 apexes (2743 s; last apex 510 s)
+  50 / 223 apexes (4244 s; last apex 1041 s)
+  60 / 223 apexes (5286 s; last apex 1021 s)
+  70 / 223 apexes (6381 s; last apex 1072 s)
+  80 / 223 apexes (6948 s; last apex 556 s)
+  90 / 223 apexes (7737 s; last apex 638 s)
+  100 / 223 apexes (11076 s; last apex 2789 s)
+  110 / 223 apexes (12551 s; last apex 1431 s)
+  120 / 223 apexes (13203 s; last apex 634 s)
+  130 / 223 apexes (15725 s; last apex 2073 s)
+  140 / 223 apexes (16861 s; last apex 1103 s)
+  150 / 223 apexes (17785 s; last apex 575 s)
+  160 / 223 apexes (18880 s; last apex 1008 s)
+  170 / 223 apexes (21033 s; last apex 2070 s)
+  180 / 223 apexes (21761 s; last apex 561 s)
+  190 / 223 apexes (23198 s; last apex 454 s)
+  200 / 223 apexes (23793 s; last apex 580 s)
+  210 / 223 apexes (24489 s; last apex 696 s)
+  220 / 223 apexes (25056 s; last apex 363 s)
+  223 / 223 apexes (25137 s; last apex 297 s)
+norms: shape (223, 170, 22, 4), sha256 of the array bytes 1f791635f45b9506c0b416b6363c0013af191d41c01b27fef7811ba14c6acc91; min horoball margin to the cell 3.534e-04; all finite True
+C1 (the class cache = the instrument, per sector, 120 cases): max rel {'up': '7.9e-15', 'down': '1.4e-14', 'lep': '3.5e-14'} -> HOLDS
+C2 (24 cases incl. delta 6, 10): split vs instrument at (40,28) 0.0e+00; (40,28) vs (96,64) 4.9e-12 -> HOLDS
+census exit 0 (26060 s)
