@@ -1,0 +1,373 @@
+{
+  "record_type": "INDEPENDENT_READ_ONLY_SOURCE_AND_HASH_RECEIPT",
+  "date": "2026-11-05",
+  "review_seal": "bfcff0e8099bed5289637c1b5b9cde24f20e88f4",
+  "status": "NO_SCIENTIFIC_IMPORT_COLLECTION_OR_EXECUTION",
+  "new_scientific_method_count_ast_only": 13,
+  "runtime_validation": false,
+  "test_collection": false,
+  "scientific_execution": false,
+  "main_acceptance": false,
+  "execution_authorization": false,
+  "staged_path_count_before_report": 49,
+  "staged_binary_diff_sha256_before_report": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "source_records": [
+    {
+      "path": "GOVERNANCE.md",
+      "sha256": "832d1642aeb28bfc639928a72275e10000d2f7056713e5ac976746edc97d9e5e",
+      "bytes": 21867,
+      "matches_review_seal": true
+    },
+    {
+      "path": "WORKING_RULES.md",
+      "sha256": "b096a241ffbbe366a619119f0e9e8f2a0f0f2876bdbd2e9a8540fa377e4e10ff",
+      "bytes": 20665,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_2026-10-16_APPROVED_GOVERNANCE_POLICY.md",
+      "sha256": "22e017e40fddf2fda10ffa5401dba67b97090450bd540063f9ecc0ca8de705f5",
+      "bytes": 2693,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "bytes": 13228,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "bytes": 11351,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/PROOF.md",
+      "sha256": "7077598f1b2f9c08bbbf54ba57f7745f5c3532cfbb9c4cf26c2f5522bc22e24b",
+      "bytes": 12292,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CONFINED_HALF_ROOT_SECTOR_AND_SURVIVING_CONTINUUM.md",
+      "sha256": "8436811ae3529f7fa78337a428f1e9c2d8af1414860fb2512db772a20879e4c4",
+      "bytes": 8622,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_QUATERNION_STATIONARY_BUNDLE_AND_CUSP_LAW.md",
+      "sha256": "221a7cd2dce2ff7dec0b135c348b7bb52e15bc27e5563d420756fbe31f9978a1",
+      "bytes": 16627,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md",
+      "sha256": "871529dd81603e1a70126f6ee518ae5c2758c107cf7e9fff62ae96f646a0813f",
+      "bytes": 15858,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md",
+      "sha256": "6012816683f17ac83e7d3bdb4f6d8b987ec8155ee2caa09ce651dbf0b194ed4c",
+      "bytes": 11130,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GAPLESS_CUSP_RESPONSE_AND_GAUGE_COUPLING.md",
+      "sha256": "e89a6b108bfa6bc0bc80f093b4e35aa24d04f9013842ef9ad90b9bcc61e2da50",
+      "bytes": 6639,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GEOMETRIC_SPIN_JOIN_AND_FULL_CURVE_OPERATOR.md",
+      "sha256": "8a534fc3a4f1aea110c9a4f2c121393c7b273f7f1ce1eeac34bf3e9edb356ad8",
+      "bytes": 13755,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GEOMETRIC_THETA_REGISTER.md",
+      "sha256": "59268072937a02e17e48794ecaa3b9f64fc7870e2de14d85ff7efbcbe3ca9c69",
+      "bytes": 11103,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PIN2_COMPENSATOR_COHERENCE_AND_ELECTROMAGNETIC_PHASE.md",
+      "sha256": "fc67d4446b11f54c731b7e7aac56b496e501d5fa397040363de6c8074909a3b9",
+      "bytes": 8892,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/QUATERNION_SECTOR_INDEX_AND_WEAK_CURRENT_DUTY.md",
+      "sha256": "11ddfae1996036673dc2bc08ec9b1ef26f92a4a91df98da379d539a529f93fc6",
+      "bytes": 9587,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/TRANSPORT_AND_END_WORK_ORDER_2026_11_03.md",
+      "sha256": "1aeeed5380b0dcf7369536ec5d1b39540e0204bb544188ca7f068e40809bb49d",
+      "bytes": 4753,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_geometric_spin_sector_2026_11_04/DESIGN.md",
+      "sha256": "1785117ef909f55b7c36114e7e624d591022ac7435a2843ab59ca76765dea332",
+      "bytes": 4831,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_geometric_spin_sector_2026_11_04/DESIGN_ADDENDUM_INDEX.md",
+      "sha256": "e816e8b8a10b09729a28af86a3b4b7b64dc06cc625e9e7841aecf49af395f6da",
+      "bytes": 2514,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_geometric_spin_sector_2026_11_04/ENVIRONMENT.json",
+      "sha256": "8fd5b31242c48864e3a5b1b4e3dce96596a8670413360814b6883723e42daeea",
+      "bytes": 492,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_geometric_spin_sector_2026_11_04/INDEX_SOURCE_RECEIPT.json",
+      "sha256": "edb38b6ac43a3a7207d583be970818731a151be08a030796182fff46e01ad545",
+      "bytes": 2820,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_geometric_spin_sector_2026_11_04/REVIEW_STATUS.md",
+      "sha256": "7a333f5adee2c3e2d87024c57aea6efd5214daded861007459abed1e29793b22",
+      "bytes": 2901,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_geometric_spin_sector_2026_11_04/SOURCE_RECEIPT.json",
+      "sha256": "f7107e173b60709ed3befbf0905f5e4d9c02ec8f625e5e67af9a8a40a37ee271",
+      "bytes": 5522,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_geometric_spin_sector_2026_11_04/SOURCE_REVIEW_INVENTORY.json",
+      "sha256": "a27fced1ca9e9df5a5bdddc40740924072e819d79f505d65a5554349560eb350",
+      "bytes": 7495,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_geometric_spin_sector_2026_11_04/checks.py",
+      "sha256": "4991e487de77442ae51e6351d32a915575a3c3ea37eef59a2aaae39421b3375f",
+      "bytes": 16645,
+      "matches_review_seal": true,
+      "test_methods_ast_only": [
+        {
+          "name": "test_geometric_spin_pullback_and_based_group_scope",
+          "line": 90
+        },
+        {
+          "name": "test_complete_curve_mass_and_action_transport",
+          "line": 126
+        },
+        {
+          "name": "test_all_slot_half_root_coercivity",
+          "line": 177
+        },
+        {
+          "name": "test_periodic_and_cover_parity_controls",
+          "line": 235
+        },
+        {
+          "name": "test_bounded_end_split_and_four_slot_index_cancellation",
+          "line": 281
+        }
+      ],
+      "import_syntax_ast_only": [
+        "from pathlib import Path",
+        "from importlib.util import module_from_spec, spec_from_file_location",
+        "import unittest",
+        "import sympy as sp"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_neutral_full_kernel_2026_11_02/checks.py",
+      "sha256": "33cb0be8f8381e50faa672aa4da2e22b6b7478ed0d74b9d46b4cfbfda86271d5",
+      "bytes": 19244,
+      "matches_review_seal": true,
+      "test_methods_ast_only": [
+        {
+          "name": "test_shifted_Jordan_elimination_without_scalar_inverse",
+          "line": 183
+        },
+        {
+          "name": "test_tensor_reduction_total_spin_and_Koszul_signs",
+          "line": 210
+        },
+        {
+          "name": "test_pole_duality_and_long_exact_sequence_rank_accounting",
+          "line": 267
+        },
+        {
+          "name": "test_complete_charged_roster_all_neutral_strata",
+          "line": 303
+        },
+        {
+          "name": "test_fourth_order_transfer_and_exact_survivor_controls",
+          "line": 373
+        }
+      ],
+      "import_syntax_ast_only": [
+        "from collections import Counter, defaultdict",
+        "from fractions import Fraction",
+        "from itertools import combinations, product",
+        "import unittest",
+        "import sympy as s"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_register_flavour_joint_2026_11_03/checks.py",
+      "sha256": "d8eead96ab24a14087ef773d4dc20093f0ad9d84887a3446cd6fd711b0867bb3",
+      "bytes": 10166,
+      "matches_review_seal": true,
+      "test_methods_ast_only": [
+        {
+          "name": "test_actual_two_triples_and_quartic_polynomial",
+          "line": 115
+        },
+        {
+          "name": "test_complete_mass_map_flavour_intertwiner",
+          "line": 143
+        },
+        {
+          "name": "test_irreducible_holonomy_gram_constraint",
+          "line": 169
+        },
+        {
+          "name": "test_three_same_parent_stationary_states_and_readouts",
+          "line": 194
+        },
+        {
+          "name": "test_covariant_reference_and_register_composition_controls",
+          "line": 221
+        }
+      ],
+      "import_syntax_ast_only": [
+        "from __future__ import annotations",
+        "import unittest",
+        "import sympy as sp"
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_end_2026_11_04/DESIGN.md",
+      "sha256": "a0271816cf09305b0f0b1c1ea0ffe7bbe90e56783bdd112a904f219f3fadc7d4",
+      "bytes": 7076,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_end_2026_11_04/DESIGN_ADDENDUM_RESPONSE.md",
+      "sha256": "749f8539a0bf8cc2ebe2f3c3cdb4679b0c8960b1ebb4cc86a0bcc666cb46d755",
+      "bytes": 1688,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_end_2026_11_04/ENVIRONMENT.json",
+      "sha256": "51a0b8556f7e75fa5e1996224f2604c743c70c7e959890270e9d9d70ea9b7444",
+      "bytes": 467,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_end_2026_11_04/RESPONSE_SOURCE_RECEIPT.json",
+      "sha256": "1c46cc095b3fd8f140118cca8bb69a73d3ff095951179832b8840578feea6fcb",
+      "bytes": 1057,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_end_2026_11_04/REVIEW_STATUS.md",
+      "sha256": "f1b67d4072ce9850aa47735222fdc1cde8a2d862bd57893043d4a3138f9d44b2",
+      "bytes": 1807,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_end_2026_11_04/SOURCE_INVENTORY.json",
+      "sha256": "22ce4f72e9a14c02bb11072989affae004fd0d14d343acb5b5140a5fd5da8224",
+      "bytes": 10580,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_end_2026_11_04/SOURCE_REVIEW_INVENTORY.json",
+      "sha256": "ed790d0e3decfb7975fe32b1b9477cfc9b2312e3d521a55185a6927f7b24671c",
+      "bytes": 5302,
+      "matches_review_seal": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_end_2026_11_04/checks.py",
+      "sha256": "f48fe7e06502ec915cfc48fe7a2dfde2b03b658b468fd93e45b3965fbdfe9d2a",
+      "bytes": 22081,
+      "matches_review_seal": true,
+      "test_methods_ast_only": [
+        {
+          "name": "test_full_root_central_phases_and_electromagnetic_lattice",
+          "line": 153
+        },
+        {
+          "name": "test_actual_clifford_lift_of_d5_compensators",
+          "line": 171
+        },
+        {
+          "name": "test_faithful_compensator_group_and_quotient_kernels",
+          "line": 199
+        },
+        {
+          "name": "test_full_pin2_correction_and_retained_gauge_sectors",
+          "line": 240
+        },
+        {
+          "name": "test_continuous_stabilizer_and_phase_constraint",
+          "line": 295
+        },
+        {
+          "name": "test_based_and_all_word_holonomy_covariance",
+          "line": 319
+        },
+        {
+          "name": "test_stationary_gluing_and_full_peripheral_table",
+          "line": 353
+        },
+        {
+          "name": "test_actual_centralizer_mass_and_escaping_channel",
+          "line": 384
+        }
+      ],
+      "import_syntax_ast_only": [
+        "from collections import Counter",
+        "from fractions import Fraction",
+        "from functools import lru_cache",
+        "from importlib.util import module_from_spec, spec_from_file_location",
+        "from itertools import combinations",
+        "from pathlib import Path",
+        "import unittest",
+        "import sympy as sp"
+      ]
+    }
+  ],
+  "inspection_scope_note": "Hashing an inventory entry is not certification of every claim in that file. Report states which arguments and source ranges were read. No received independent review or held-out numerical targets were opened or used.",
+  "staged_binary_diff_sha256_after_report": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "inherited_staged_state_unchanged": true,
+  "review_report": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_geometric_spin_sector_2026_11_04/review/INDEPENDENT_PROOF_CODE_REVIEW_2026_11_05.md",
+    "sha256": "a1dfab01549bb36f60f09d07db24073da89dcb68d3daec9f3afc84424a429b0d",
+    "bytes": 25516
+  },
+  "primary_lookup_scope": [
+    {
+      "url": "https://arxiv.org/html/1309.0580v5",
+      "access_date": "2026-11-05",
+      "read_scope": "Proposition 1.4, Corollary 1.5 and proofs in section 1.1"
+    },
+    {
+      "url": "https://arxiv.org/html/2311.05118v3",
+      "access_date": "2026-11-05",
+      "read_scope": "passage around equation (19) and Corollary 4.3 in section 4"
+    },
+    {
+      "url": "https://pdg.lbl.gov/2025/reviews/rpp2025-rev-standard-model.pdf",
+      "access_date": "2026-11-05",
+      "read_scope": "introductory representations and equations 10.2 and 10.6, printed pages 1\u20133; rendered pages 2 and 3 checked; no numerical targets used"
+    }
+  ]
+}
