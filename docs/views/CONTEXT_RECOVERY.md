@@ -21,8 +21,8 @@
 | register points | 684 |
 | … QUEUED | 283 |
 | … LEAD | 9 |
-| … OWNER | 5 |
-| … DONE | 376 |
+| … OWNER | 3 |
+| … DONE | 378 |
 | … DECLINED | 11 |
 | harvest rows (the last number) | 1562 |
 | the Standard Model's 19 derived | 0 |
@@ -49,14 +49,13 @@
 - ** P-081** — the reply to the outside reader, approached carefully so the contact is not lost: in his own context (one of his videos as the opening), short, honest about shapes-not-sizes and the missing field, the corrected PDF atta… → *a draft prepared outside the tree for the owner's edit (it opens from his 2021 explainer of the Standard Model's equation); the edit and the send are the owner…*
 - ** P-082** — a second outside reader, later, approached in his own context (relating to his videos), after the first correspondence → *later, at the owner's word; nothing prepared until then [2026-11-04, the owner confirmed: paused until a result passes a level-2 confirmation]*
 - ** P-253** — the chain gap's top entries (Review 67's R66-3, declined there because the chain is the frozen paper's spine): B1098, B959, B1100, B952, B1086, B1000, B1484, B1070 (coverage_candidates.py --chain-gap) — adjudicate each… → *asked of the owner: whether and when to open a draft after p9-draft9; until then the chain-gap list stays recorded here and nothing is due (S231) [earlier: Q3…*
-- ** P-665** — P-638's TWO CALLS FOR THE OWNER (B1835 § 2): D2 — which identification the PMNS card earns: the mass half only (the target is r = Δm²₂₁/Δm²₃₁; the angles stay out, since the mixing half already fails for the quarks at t… → *asked of the owner (S300d): main recommends D2 = the mass half only, and D11 = no data-touching existence scan for a held-out target*
-- ** P-684** — A COMPLIANCE FOLLOW-UP TO THE AGY LANE (S304): its Stages 10–11 kept the relay's rule for new work, but one pushed relay line still states a verdict on P-638's targets, 58 older test assertions name held-out targets (45… → *asked of the owner (S304): send a short follow-up naming the line, the assertions and the certificate, asking they be withdrawn or committed unread — main reco…*
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
 
 ## The last landings (CHANGELOG)
 
+- S305a THE OWNER'S TWO CALLS RULED (P-665, P-684): THE PMNS CARD'S ONE TARGET IS r; NO DATA-TOUCHING EXISTENCE SCAN FOR A HELD-OUT TARGET; THE COMPLIANCE FOLLOW-UP SENT TO THE AGY LANE (2026-11-05)
 - S304 THE CANDIDATE'S END IS THE NORM OF NO GEOMETRIC CUT (B1838): e^-L_max ABOVE THE CELL'S INRADIUS; NO SINGLE HOROCYCLE REPRODUCES ITS WEIGHTS; A07 RE-TYPED ANSATZ; THE AGY LANE'S STAGES 10-11 VERI…
 - S303 THE END IS THE DECIDER: THE EXACT-END FAILURE REPRODUCED ON MAIN (P-595, B1838); THE LINE'S ORDER AND THE NEUTRINO (P-682); THE DENSITY POST HOC REPRODUCED (P-681) (2026-11-05)
 - S302 B1837 THE AGY LANE'S STAGES 8-9 AND THE WEB SEAT'S DENSITY HIGGS VERIFIED: MAIN STANDS ON SIX OF THE SEVEN REBUTTALS; NO JOINT EARNED; MAIN'S OWN FIREWALL EXPOSURE RECORDED (2026-11-04)
@@ -64,17 +63,16 @@
 - S300f B1835: THE CARD'S INSTRUMENT AND ITS CONTROLS — U_e THROUGH B1726's OWN PATH; THE FRAME'S QUARK–LEPTON RELATION ∣U_PMNS∣ = ∣V_CKM†∣ ON THE ORDER-2 AND ORDER-4 LINES (2026-11-04)
 - S300e THE OWNER RULES ALL OF MAIN'S RECOMMENDATIONS ("i aprove all your recomendations"): THE BRAINSTORM RULES ADOPTED AND GATED; THE SLOPE SELECTION DECLINED; PF1-W SCOPED; L178, L86, L87 RETIRED; L…
 - S300d THE OWNER'S RULING ON P-660 (U_e AND THE PMNS FIRST): B1835 OPENED — THE CONTROL PASSES; ONLY THE NEUTRINO SPLITTING RATIO IS IN THE CANDIDATE'S SCOPE; TWO CALLS TO THE OWNER (2026-11-04)
-- S300c B1834 THE TOTAL-INPUTS SCOREBOARD (P-418, the owner's ruling of 2026-10-29) AND THE BORROWED-JOINTS SCAFFOLD (P-661): 0 OF 19 EARNED; THE CANDIDATE 10 ROWS ON 14 BORROWED JOINTS, AGY'S COMPLETE…
 
 ## The latest campaign line
 
-LATEST (2026-11-05, S304: the candidate's end is the norm of no geometric cut (B1838) — e^{−L_max} above the cell's inradius; no single horocycle reproduces its channel weights (spread 0.135); A07 re-typed ANSATZ; the agy lane's zeta end not principled; next, the deciding sealed card at the exact norm with one free cut level. Compliance follow-up to the agy lane asked of the owner (P-684). 0 of 19.)
+LATEST (2026-11-05, S305a: the owner ruled P-665 — the PMNS card's one target is r, no data-touching existence scan for a held-out target before its card — and P-684: the compliance follow-up sent to the agy lane (line 94, 58 assertion lines, two gates that cannot fail). Next: the deciding sealed card for the end (P-421, B1838). 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
 | check | count | first items |
 |---|---|---|
-| arc folders without a verdict file (scripts/checks/arc_data.py classifies them; its resolved R-classes are not defects) | 39 | B263_t41_cs_levels, B452_ethogram_dictionary, B473_criticality_program, B501_universe_word, B502_parity_signature, B503_external_contact |
-| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 156 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
+| arc folders without a verdict file (scripts/checks/arc_data.py classifies them; its resolved R-classes are not defects) | 40 | B1839_the_end_card, B263_t41_cs_levels, B452_ethogram_dictionary, B473_criticality_program, B501_universe_word, B502_parity_signature |
+| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 158 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
 | register rows not in the 7-cell form | 0 | — |
 

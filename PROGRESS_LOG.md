@@ -18414,3 +18414,10 @@ longer fits in the cell; and no single geometric horocycle reproduces its channe
 cut depth per channel pair. So the end is an ansatz, not a choice among geometric ends. The agy lane's zeta-regularised end
 does not rescue it (its scale stays free), though its closed form for the channel norms is banked with credit. Next: one
 sealed card, the six at the exact horoball norm with one free cut level, decides whether the candidate survives. 0 of 19.
+
+## 2026-11-05 — S305a: the owner's two calls ruled
+
+The owner said yes to both of main's recommendations. The PMNS card, when it is written, has one target, the neutrino
+splitting ratio r; the mixing angles stay out because the mixing half of the identification already fails for the quarks
+at the candidate's address. No held-out target may be scanned against data before its own sealed card. The compliance
+follow-up went to the agy lane, naming its remaining exposures by line number only. 0 of 19.
