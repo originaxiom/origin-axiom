@@ -1,5 +1,11 @@
 # Changelog
 
+## S305l THE BANG PROGRAMME OPENED (P-694): THE STAGE AUDITED; WAVE 1 AIMED AT WHAT PLACES τ, THE LINE AND A SCALE (2026-11-05)
+
+- **The owner:** 'lets go for that programe then'. **docs/THE_BANG_PROGRAMME.md:** the programme's practical job, from tonight's end cards — a process that places τ, the line and a scale (the menu costs ~19 bits; the SM seat's §353: +15 bits with the line and apex fixed by principle; y_τ = y_b a prediction only with a forced scale, P-597).
+- **The stage audited (P-712):** B867's S3 rests on B6's cubic, which B295 had shown unbounded below with one minimum and one maximum — no double well; its 'barrier' (5√5 − 7)/12 is the cubic's maximum and the motion −1/φ → φ a roll; B853 left its free-energy role unverified; B1341 puts its stationary points at the action-free half-step. B867 dated note; COSMOLOGY_LEDGER row 6 noted. The record's one genuine transition is B852's Farey s = 1; B1341's action is linear at LR; no clock forced (B721 NEGATIVE, B723's SSB clause retracted).
+- **Wave 1:** P-713 the Farey transition, P-714 what places τ (principles stated first, random-subset control, never judged by the six), P-715 the scale (with P-574), P-716 the CP-odd source. Relay CC_TO_AGY_2026-11-05_THE_BANG_PROGRAMME_WAVE_1.md. P-712–P-716; FLOOR 716. 0 of 19.
+
 ## S305k THE SEATS FETCHED: THE SM SEAT'S §§ 351–353 RE-RUN; THE AGY LANE'S STAGES 19–20 CHECKED; P-710 SEEN FIRST (2026-11-05)
 
 - **The owner:** 'and keep fetching other seats'; and 'we will use chat1 and sm less, only when their expertise is required ... and cooperate with googles agy more' (memory; relays to the web and SM seats only for their expertise).

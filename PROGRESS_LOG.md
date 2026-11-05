@@ -18491,3 +18491,11 @@ values become testable only when the line and the apex are fixed by principle. T
 confirmed with its own code (a determinant identity, and the converse of the law that says which sectors share a
 spectrum); its proposed shortcut through the choices was not accepted, because the choices were taken from the results.
 Main's idea of a new test turned out to be already ruled by Review 74. 0 of 19.
+
+## 2026-11-05 — S305l: the bang programme opened
+
+At the owner's word the programme on the object's own process is open. Its job is the gap tonight exposed: something
+that places τ, the line and a scale, so the frame's numbers mean something. Before building on the record's "stage", main
+audited it: the potential once read as a transition is a cubic with no second vacuum (shown long ago, B295), so the one
+real transition on record is the Farey map's at s = 1. Wave 1 asks what that transition singles out, which principle
+could place τ without looking at the masses, and which of the object's scales could be an energy. 0 of 19.
