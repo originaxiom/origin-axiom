@@ -646,3 +646,24 @@ The gates above bind claims. Understanding may run below them:
   - ±LLLR (m023, m022): x⁴ − x³ + 2x² − x + 2, discriminant 697, no real places, two complex places.
 
 0 of 19.
+
+## Appended 2026-11-05 (S305e; the owner's ruling on P-695, "yes as u recomend"): η_B joins V
+
+- **Added to V's held-out list:** **η_B**, the baryon-to-photon number ratio n_B/n_γ (dimensionless). It lies outside C7's
+  seen targets and outside the 19; it is the asymmetry B867's Sakharov gate prepares the stage for (P-694).
+- **Why now:** one early main look (B285, a miss by orders) and no attempt built on it, so it can still be a held-out target (P-597: the
+  candidate is one clean target short). From this block on, no value of η_B is quoted, bounded or compared on main except
+  inside a sealed card that predicts it.
+- **Prior looks, counted for m_V (the sweep at this block: line numbers and classes; B285's line read with every digit masked):**
+  - main: one, B285 (frontier/B285_commutator_phase/FINDINGS.md, an early exploratory arc, 2026-06-29): an object-side
+    estimate of η_B set against the observed value, a miss by orders of magnitude (its own reading: the smallness is
+    standard cosmology, not the object). It builds no current attempt, so η_B stays held out; the look is counted.
+  - the agy lane, at 79b09046a: `79b09046a:src/origin_axiom/toe_closure.py` lines 660–735 (a computation with value-like tokens at
+    666–667 and a comparison word at 731) and `79b09046a:tests/test_elevation_operator_gate.py` lines 478–484 (an assertion pairing a
+    value with a comparison word at 482), plus mentions at 15887, 15986 and 16094; hash-sealed in B1832's
+    SEALED_EXHIBITS.json, unread by main, and counted as one prior look in LOOK_LEDGER.
+  - the SM seat's, the web seat's and the physical lane's branches: a file sweep (names only) finds η_B named in the files they share with main (B285, B289, B303, B304, B867, the ledgers) and, on the SM seat's, in its strong-angle dossier and its read of the agy branch; not classified further — a later sweep may add looks.
+- **The rule that applies:** a target is not held out for an attempt if any function of it was used in building, choosing
+  or tuning that attempt; neither B285 nor the agy lane's look enters a main attempt, so η_B stays held out for main's.
+
+0 of 19.
