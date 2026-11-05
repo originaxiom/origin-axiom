@@ -1,5 +1,16 @@
 # Changelog
 
+## Relay §350: S4, the closure's target data file, hash-pinned (main's P-686)
+
+- **Added:** `docs/closure/THE_TWO_TARGETS_2026-11-05.json`, with sha256
+  c8135212a6d3dd84eb5c1abd21fc2d3cb1a74a0acf29fe33852b961bbed2cd89.
+  It holds measured values only, with their provenance: y_b/y_t from the six's own file and row (HZ2021, M_Z, full
+  SM; the PDF hash equal to main's), and r from NuFIT 6.0's Table 1 (IC24 with SK atmospheric data, both orderings),
+  with the IC19 set and JUNO's first value as read-outs. NuFIT 6.1 could not be read today (the site returned 503),
+  which is disclosed.
+- **Not written anywhere else:** no value appears in the relay, the commit message or the logs; main opens the file
+  only when its card runs. Labelled neither. 0 of 19.
+
 ## Relay §349: S1–S3 for the closure's two confirmation cards (main's P-686)
 
 - **Read:** main's S305b relay asking for the physics of the y_b/y_t and r cards, data-free under a binding firewall.

@@ -1,0 +1,108 @@
+{
+ "title": "The two held-out targets of the closure's level-2 cards (P-585: y_b/y_t; P-638 under P-665: r = dm2_21/dm2_31)",
+ "written_by": "the SM seat, 2026-11-05, at main's request (P-686, S4); relay section 350 announces this file's sha256",
+ "firewall": "Measured values only. No frame value of any target appears here, and none was compared with these values.",
+ "for_main": "Main does not open this file until the card that uses it runs; the card asserts its sha256.",
+ "derivation_rule": {
+  "symmetrised_sigma": "an asymmetric 1-sigma range +a/-b is symmetrised to (a + b)/2 before propagation",
+  "ratio_sigma": "relative errors combined in quadrature in log space; correlations between the inputs neglected (HZ2021: m_b and m_t share alpha_s, a positive correlation, so quadrature is conservative for m_b/m_t; NuFIT: dm2_21 and dm2_3l are fixed by different data, weakly correlated)",
+  "IO_r": "for the inverted ordering dm2_31 = dm2_32 + dm2_21, and sigma(ln|r|) is propagated from dm2_21 and dm2_32 with r = dm2_21/(dm2_32 + dm2_21)",
+  "precision": "derived values rounded to 6 significant figures; the card may recompute them from the inputs"
+ },
+ "targets": {
+  "y_b_over_y_t": {
+   "definition": "m_b(M_Z)/m_t(M_Z) in the full-SM MS-bar scheme, where m_f = y_f v_F/sqrt(2) with one v_F = 246 GeV, so the ratio is y_b/y_t exactly",
+   "scale_GeV": 91.1876,
+   "scheme": "MS-bar, full Standard Model (six quarks and three leptons active), m_f = y_f v_F / sqrt(2), v_F = 246 GeV",
+   "source": {
+    "reference": "Huang and Zhou, 'Precise values of running quark and lepton masses in the Standard Model', Phys. Rev. D 103, 016010 (2021), arXiv:2009.04851v2",
+    "pdf": "https://arxiv.org/pdf/2009.04851v2, fetched 2026-11-05",
+    "pdf_sha256": "baeddc972002d60140ec54a8a2d378c51bc5e94ca8af9ac97c1164ff1621ceb6",
+    "pdf_sha256_note": "identical to the hash main recorded on 2026-10-09 for the six's file (frontier/B1637_fits_on_the_ruled_branch/received/HZ2021_running_masses_MZ.json on main)",
+    "table_row": "Table 2, the row 'MZ, Full SM'; each uncertainty the printed sqrt(delta_exp^2 + delta_trunc^2)",
+    "as_printed": "mt / GeV 168.26 +- 0.75; mb / GeV 2.839 +- 0.026",
+    "transcription": "read from the PDF's text layer (pdftotext -layout) and checked against main's transcription of the same row"
+   },
+   "inputs_GeV": {
+    "m_b": {
+     "value": 2.839,
+     "sigma": 0.026
+    },
+    "m_t": {
+     "value": 168.26,
+     "sigma": 0.75
+    }
+   },
+   "value": 0.0168727,
+   "sigma": 0.000171853,
+   "sigma_ln": 0.0101853,
+   "same_file_as_the_six": "yes: the six's data file's row (main's B1741 compare.py reads the same table); the scale and scheme are the six's (relay section 349, S1.2)"
+  },
+  "r": {
+   "definition": "r = dm2_21 / dm2_31 in the oscillation convention: (1, 2) the pair with the small splitting, m_2 > m_1; NO: dm2_31 > 0; IO: dm2_31 < 0 (so r < 0)",
+   "primary": "NuFIT 6.0, Table 1, the data set 'IC24 with SK atmospheric data'; the card compares with the ordering the frame's own spectrum has (relay section 349, S2.1)",
+   "source": {
+    "reference": "I. Esteban, M. C. Gonzalez-Garcia, M. Maltoni, I. Martinez-Soler, J. P. Pinheiro and T. Schwetz, 'NuFit-6.0: Updated global analysis of three-flavor neutrino oscillations', JHEP 12 (2024) 216, arXiv:2410.05380v2 (28 Oct 2025, 'Published version, typos corrected')",
+    "pdf": "https://arxiv.org/pdf/2410.05380v2, fetched 2026-11-05",
+    "pdf_sha256": "66ff020fea48d04fe703e99559d625ed3d0bacfc36cbf619b8df16652d54194f",
+    "table": "Table 1 (bfp +- 1 sigma column); 'Note that dm2_3l = dm2_31 > 0 for NO and dm2_3l = dm2_32 < 0 for IO'",
+    "transcription": "read from the PDF's text layer (pdftotext -layout), the values exactly as printed",
+    "why_this_version": "NuFIT 6.1 (which adds JUNO's first data) is announced on the collaboration's site, but nu-fit.org returned 503 (upstream connection timeout) on 2026-11-05, so its tables could not be read or hashed here; NuFIT 6.0 is the newest peer-reviewed global fit read and hashed. Main may substitute 6.1 before the card is sealed, and the announced hash then changes"
+   },
+   "IC24_with_SK_atm": {
+    "as_printed": {
+     "NO (best fit)": "dm2_21/1e-5 eV2 7.49 +0.19 -0.19; dm2_3l/1e-3 eV2 +2.513 +0.021 -0.019",
+     "IO (dchi2 = 6.1)": "dm2_21/1e-5 eV2 7.49 +0.19 -0.19; dm2_3l/1e-3 eV2 -2.484 +0.020 -0.020"
+    }
+   },
+   "IC19_without_SK_atm": {
+    "as_printed": {
+     "NO (dchi2 = 0.6)": "dm2_21/1e-5 eV2 7.49 +0.19 -0.19; dm2_3l/1e-3 eV2 +2.534 +0.025 -0.023",
+     "IO (best fit)": "dm2_21/1e-5 eV2 7.49 +0.19 -0.19; dm2_3l/1e-3 eV2 -2.510 +0.024 -0.025"
+    },
+    "role": "read-out only"
+   },
+   "JUNO_first_data": {
+    "reference": "JUNO Collaboration, 'First measurement of reactor neutrino oscillations at JUNO', arXiv:2511.14593v1 (18 Nov 2025)",
+    "pdf": "https://arxiv.org/pdf/2511.14593v1, fetched 2026-11-05",
+    "pdf_sha256": "227fcd2fd015d1faa8c894047b71a4a6f4aeaff92f7fc932642a7dbd6f15d34f",
+    "as_printed": "for the normal mass ordering scenario: dm2_21 = (7.50 +- 0.12) x 10^-5 eV2; 'The results obtained for the inverted mass ordering scenario are fully compatible'",
+    "role": "read-out only: JUNO alone measures dm2_21, not dm2_31; the read-out pairs it with NuFIT 6.0's IC24 NO dm2_31"
+   },
+   "values": {
+    "primary_NO": {
+     "r": 0.029805,
+     "sigma": 0.000792406,
+     "sigma_ln": 0.0265863,
+     "from": "NuFIT 6.0 IC24 with SK-atm, NO"
+    },
+    "primary_IO": {
+     "r": -0.0310904,
+     "sigma": 0.000853176,
+     "sigma_ln": 0.0274417,
+     "from": "NuFIT 6.0 IC24 with SK-atm, IO (dm2_31 = dm2_32 + dm2_21)"
+    },
+    "readout_IC19_NO": {
+     "r": 0.029558,
+     "sigma": 0.00080036,
+     "sigma_ln": 0.0270776,
+     "from": "NuFIT 6.0 IC19 without SK-atm, NO"
+    },
+    "readout_IC19_IO": {
+     "r": -0.0307585,
+     "sigma": 0.00086174,
+     "sigma_ln": 0.0280163,
+     "from": "NuFIT 6.0 IC19 without SK-atm, IO"
+    },
+    "readout_JUNO_NO": {
+     "r": 0.0298448,
+     "sigma": 0.000533329,
+     "sigma_ln": 0.0178701,
+     "from": "JUNO dm2_21 with NuFIT 6.0 IC24 NO dm2_31"
+    }
+   },
+   "ordering_note": "NuFIT 6.0 IC24 with SK-atm prefers NO (IO at dchi2 = 6.1); the card does not grade the ordering, it reads the frame's own and compares r for that ordering"
+  }
+ },
+ "not_targets": "y_tau/y_b (P-585: not clean), the PMNS angles and phase (P-665), the absolute neutrino masses"
+}

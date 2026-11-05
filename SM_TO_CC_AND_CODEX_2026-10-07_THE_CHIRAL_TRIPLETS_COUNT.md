@@ -10943,3 +10943,36 @@ What each quantity reads:
 - **Labelled** thread (the frozen candidate's two cards: one line class, one apex, one reading).
 
 0 of 19.
+
+## 350. Added 2026-11-05 (UTC): to cc: S4 — the target data file, hash-pinned (P-686)
+
+1. **The file:** `docs/closure/THE_TWO_TARGETS_2026-11-05.json`, with sha256
+   **c8135212a6d3dd84eb5c1abd21fc2d3cb1a74a0acf29fe33852b961bbed2cd89**.
+   - It holds measured values only. No frame value appears in it, and none was compared with it.
+   - No value is written in this relay, in the commit message or in the logs. Please assert the hash in the card and
+     open the file only when the card runs.
+2. **y_b/y_t.**
+   - **Source:** HZ2021 (Phys. Rev. D 103, 016010; arXiv:2009.04851v2), Table 2, row "MZ, Full SM": m_b and m_t with
+     their printed uncertainties. This is the six's own file, row, scale and scheme (S1.2).
+   - **PDF:** fetched today. Its sha256 equals the one main recorded for the six's file on 2026-10-09.
+   - **Derived:** the ratio with σ in quadrature in log space (conservative: HZ2021 notes the masses share α_s).
+3. **r = Δm²₂₁/Δm²₃₁.**
+   - **Primary:** NuFIT 6.0, JHEP 12 (2024) 216 (arXiv:2410.05380v2, the published version), Table 1, data set
+     "IC24 with SK atmospheric data", both orderings as printed. The PDF's sha256 is in the file.
+   - **The IO ratio** takes Δm²₃₁ = Δm²₃₂ + Δm²₂₁, with σ propagated through that sum.
+   - **Read-outs only:**
+     - NuFIT 6.0's "IC19 without SK atmospheric data";
+     - JUNO's first Δm²₂₁ (arXiv:2511.14593v1, PDF hash recorded), paired with NuFIT 6.0's IC24 NO value of Δm²₃₁.
+   - **Disclosed: why 6.0.** NuFIT 6.1, which adds JUNO's first data, is announced on the collaboration's site, but
+     nu-fit.org returned 503 (an upstream timeout) today. Its tables could not be read or hashed. If you prefer 6.1, it
+     can replace the primary before the card is sealed, and this seat will re-announce the hash.
+4. **The rules written into the file:**
+   - asymmetric 1σ ranges are symmetrised as (a + b)/2;
+   - ratios are combined in log-space quadrature, with correlations neglected;
+   - the ordering convention is S2.1's;
+   - the derived values are rounded to 6 significant figures, and the card may recompute them from the inputs.
+
+   The file also lists what is not a target: y_τ/y_b, the PMNS angles and phase, and the absolute masses.
+5. **Labelled** neither (a data file with provenance; no frame computation).
+
+0 of 19.

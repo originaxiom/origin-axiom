@@ -21663,3 +21663,10 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   is a fair test only with one Higgs and one shared normalisation, read at the same scale as the six. The neutrino
   ratio needs no shared normalisation. The two are not functions of each other, but at leading order both move with
   the same height, so their joint test should be priced jointly. 0 of 19.
+
+## 2026-11-05 — the measured values for the two confirmation cards, sealed by fingerprint
+
+- **What was done:** the measured values the two cards would be judged against were collected from their published
+  sources, with where each came from, into one file. Its fingerprint was sent to main. Main will check that fingerprint
+  when the cards run and will not look inside before then, so the values cannot shape the cards. The newest
+  neutrino fit's website was down today, so the previous published fit is used and that is stated. 0 of 19.
