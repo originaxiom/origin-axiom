@@ -2111,6 +2111,77 @@ def test_five_phase_master_toe_closure():
     assert float(t110["haar_err_110"]) < 1e-13
     assert t110["all_six_guardrails_passed"] is True
 
+    # Theorem 111 (Stage 18.1): Closed-Form SL(2, Z) 3x3 Generation Covariance, Level-4 S_4 Homomorphism, & Order-12 CRT Split
+    t111 = sc["theorem111_closed_form_sl2z_generation_covariance_level4_s4_and_order12_crt_split"]
+    assert "B1724_the_readings_covariance" in t111["seen_first"]
+    assert "MATH" in t111["claim_labels_and_scopes"]["closed_form_sl2z_3x3_generation_covariance_theorem"]
+    assert "MATH" in t111["claim_labels_and_scopes"]["level4_psl2_z4_s4_generation_group_and_order12_crt_independence"]
+    assert "plain_english_elaboration" in t111
+    assert float(t111["bilinear_tensor_identity_err"]) < 1e-14
+    assert float(t111["max_entrywise_t_err"]) < 1e-12
+    assert float(t111["max_entrywise_s_err"]) < 1e-12
+    assert float(t111["max_s_weight_one_scale_err"]) < 1e-12
+    assert float(t111["max_pseudoscalar_s_sign_err"]) < 1e-13
+    assert int(t111["sl2_z6_order"]) == 144
+    assert int(t111["sl2_z12_order"]) == 1152
+    assert t111["crt_6_bijection"] is True
+    assert t111["crt_12_bijection"] is True
+    assert t111["level4_s4_homomorphism_verified"] is True
+    assert int(t111["s4_group_order"]) == 24
+    assert int(t111["selection_bits"]) == 0
+
+    # Theorem 112 (Stage 18.2): Exact j vs k Theta-Block Interference Law, T-Duality Swap N_j <-> N_k, & B1839 norms.npz Audit
+    t112 = sc["theorem112_exact_j_k_theta_interference_law_t_duality_swap_and_b1839_norms_audit"]
+    assert "B1839_the_end_card" in t112["seen_first"]
+    assert "MATH" in t112["claim_labels_and_scopes"]["exact_jk_theta_block_interference_and_t_duality_swap_law"]
+    assert "FORCED-BY-MAIN" in t112["claim_labels_and_scopes"]["b1838_absolute_level_offsets_and_b1839_norms_npz_verification"]
+    assert "plain_english_elaboration" in t112
+    assert t112["offsets_recorded_correctly"] is True
+    assert float(t112["rk_over_rj_minus_i_err"]) < 1e-13
+    assert float(t112["cross_term_formula_err"]) < 1e-12
+    assert float(t112["t_duality_jk_swap_rel_err"]) < 1e-11
+    assert float(t112["generic_line_jk_rel_split"]) > 1e-3
+    assert float(t112["symmetric_line_jk_rel_split"]) < 1e-12
+    assert list(t112["b1839_norms_shape"]) == [223, 170, 22, 4]
+    assert t112["b1839_norms_sha_verified"] is True
+    assert int(t112["selection_bits"]) == 0
+
+    # Theorem 113 (Stage 18.3): P-699 Hostile Referee Audit of B1841 & Independent Third-Opinion Check of B1839 norms.npz
+    t113 = sc["theorem113_p699_hostile_referee_audit_of_b1841_and_b1839_independent_third_opinion"]
+    assert "B1841_the_principled_ends_card" in t113["seen_first"]
+    assert "FORCED-BY-MAIN" in t113["claim_labels_and_scopes"]["p699_pre_run_hostile_referee_audit_of_b1841"]
+    assert "FORCED-BY-MAIN" in t113["claim_labels_and_scopes"]["independent_third_opinion_verification_of_b1839_norms_npz"]
+    assert "plain_english_elaboration" in t113
+    assert int(t113["apex_count_audited"]) == 223
+    assert t113["strict_ordering_all_223"] is True
+    assert float(t113["min_gap_e1_e4"]) > 1.0
+    assert float(t113["min_gap_e4_e2"]) > 0.04
+    assert float(t113["min_gap_e2_e3"]) > 0.035
+    assert t113["all_b1841_hashes_verified"] is True
+    assert int(t113["b1841_total_priced_rows"]) == 237272
+    assert float(t113["max_third_opinion_rel_err"]) < 1e-12
+    assert t113["b1839_c1_holds"] is True
+    assert t113["b1839_c2_holds"] is True
+    assert int(t113["selection_bits"]) == 0
+
+    # Theorem 114 (Stage 18.4): P-688/P-699 Audit of B1842 Closure Instruments, C-T Vacuity Defect Fix, Owed nu Control, & Stage 18 Gate
+    t114 = sc["theorem114_p688_p699_b1842_closure_instruments_audit_ct_defect_fix_and_stage18_gate"]
+    assert "B1842_the_closure_instruments" in t114["seen_first"]
+    assert "FORCED-BY-MAIN" in t114["claim_labels_and_scopes"]["b1842_controls_exact_ct_vacuity_defect_and_r_gen_t_fix"]
+    assert "FORCED-BY-MAIN" in t114["claim_labels_and_scopes"]["p688_dirac_neutrino_higgs_twist_class_constancy_and_p611_budgets"]
+    assert "plain_english_elaboration" in t114
+    assert t114["ct_interior_points_collapse_to_same_tau"] is True
+    assert float(t114["unpermuted_ct_boundary_rel_err"]) > 0.20
+    assert float(t114["permuted_ct_boundary_rel_err"]) < 1e-11
+    assert float(t114["nu_higgs_twist_class_constancy_err"]) < 1e-12
+    assert float(t114["cx_max_rel_err"]) < 1e-9
+    assert float(t114["cx_max_inv_err"]) < 1e-11
+    assert float(t114["p611_budget_nats_ybyt"]) > 4.0
+    assert float(t114["p611_budget_nats_r"]) > 3.5
+    assert float(t114["haar_err_114"]) < 1e-13
+    assert t114["all_six_guardrails_passed"] is True
+
+
 
 
 
