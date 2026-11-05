@@ -13020,11 +13020,20 @@ def theorem76_zero_trust_hostile_referee_stage9_cross_seat_synthesis_gate(
     }
 
 
-def seal_held_out_value_p676(val: object) -> str:
-    """Compute P-624 / P-676 unread SHA-256 digest for held-out P-585 and P-638 quantities."""
-    import hashlib
+_P676_PROCESS_SALT: str | None = None
 
-    return "sha256:" + hashlib.sha256(repr(val).encode("utf-8")).hexdigest()
+
+def seal_held_out_value_p676(val: object) -> str:
+    """Compute P-624 / P-676 salted hiding-and-binding SHA-256 digest for held-out P-585 and P-638 quantities."""
+    import hashlib
+    import os
+    import secrets
+
+    global _P676_PROCESS_SALT
+    if _P676_PROCESS_SALT is None:
+        _P676_PROCESS_SALT = os.environ.get("AGY_P676_LOCAL_SALT") or secrets.token_hex(32)
+    payload = f"{_P676_PROCESS_SALT}:{repr(val)}".encode("utf-8")
+    return "sha256:" + hashlib.sha256(payload).hexdigest()
 
 
 def theorem77_b1836_s301_rebuttals_b08_exact_l2_proof_and_spin10_so10_pso10_tower(
@@ -13494,6 +13503,10 @@ def theorem79_p676_authority_compliance_scoreboard_vocabulary_and_held_out_blind
         ("delta_", "CP"),
         ("sin_delta", "_CP"),
         ("delta_", "m"),
+        ("weinberg_", "LL"),
+        ("seesaw_", "scale"),
+        ("majorana_", "MR"),
+        ("sv_", "splitting"),
     ]
     held_out_assert_pat = re.compile("|".join(a + b for a, b in token_pairs), re.IGNORECASE)
 

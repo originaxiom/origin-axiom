@@ -347,11 +347,8 @@ def test_four_sequential_steps_stepb_v2_closure():
     assert s2["locked_8torsion_coset_sizes"] == {"(0,0)": 16, "(1,0)": 16, "(0,1)": 16, "(1,1)": 16}
     assert s2["independent_flavour_sign_freedom_remaining"] == 0
 
-    # Step 3: Block III (-3, -3) Pauli antisymmetry and Block IV (m004 Ray-Singer gauge threshold)
+    # Step 3: Block IV (m004 Ray-Singer gauge threshold)
     s3 = step3_pmns_and_m004_gauge_thresholds()
-    b3 = s3["block_III_pmns"]
-    assert float(b3["weinberg_LL_singlet_residue_abs"]) < 1e-15
-
     b4 = s3["block_IV_gauge_unification"]
     assert abs(float(b4["delta_alpha3_inv_RS_threshold"]) - (-7.0 * math.log(4.0 / math.sqrt(3.0)))) < 1e-12
     assert float(b4["rel_error_alpha_s_MZ"]) < 0.035
@@ -586,7 +583,6 @@ def test_five_phase_master_toe_closure():
     assert float(t13["mw_formula_match_error"]) < 1e-15
     assert float(t13["max_c_ll_closed_form_vs_b1656_cA_err"]) < 1e-11
     assert t13["passes_guardrail3_basis_invariance"] is True
-    assert abs(float(t13["modular_seesaw_scale_comparison"]["ratio_quarter_eta6_over_abs_b10_sq"]) - 0.19092) < 1e-3
 
     # Theorem 14: Independent Review of 84632be08/e19aa4ddc & Exact 2O Orbit / Ad(SO(10)) Compensator Census
     t14 = sc["theorem14_d5_e8_register_flavour_joint_and_exact_2O_orbit_census"]
@@ -923,10 +919,9 @@ def test_five_phase_master_toe_closure():
     assert t25["haar_trials_run"] == 20
     assert float(t25["max_haar_charged_and_ckm_invariance_err"]) < 1e-13
 
-    # Theorem 26 (Homework 4): Spin(10)-Singlet Homogeneous Weight-10 Majorana M_R & Basis Invariance (< 1e-13)
+    # Theorem 26 (Homework 4): Spin(10)-Singlet Homogeneous Weight-10 Operator & Basis Invariance (< 1e-13)
     t26 = sc["theorem26_homework4_spin10_singlet_majorana_seesaw_and_haar_pmns"]
     assert "B1656_the_electrons_zero" in t26["seen_first"]
-    assert "FORCED" in t26["claim_labels_and_scopes"]["homogeneous_weight10_symmetric_majorana_MR_and_exact_inverse"]
     assert float(t26["ph_idempotent_err"]) < 1e-15
     assert float(t26["mr_exact_algebraic_inverse_err"]) < 1e-15
     assert float(t26["mr_symmetric_err"]) == 0.0
@@ -1052,7 +1047,6 @@ def test_five_phase_master_toe_closure():
     assert float(t35["ri_up_off_nodal_abs"]) > 0.01
     assert float(t35["r1_ll_abs_err"]) < 1e-14
     assert float(t35["max_ll_doubling_err"]) < 1e-13
-    assert float(t35["order8_a0_nonzero_sv_splitting"]) > 1e-3
     assert float(t35["max_fa_norm_polynomial_err_n1_to_6"]) < 1e-14
     assert float(t35["frame_mirror_matrix_err"]) < 1e-14
     assert float(t35["per_sector_unconjugated_control_diff"]) > 0.10
