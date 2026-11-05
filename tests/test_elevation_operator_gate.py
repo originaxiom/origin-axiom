@@ -1830,6 +1830,65 @@ def test_five_phase_master_toe_closure():
     assert float(rc92["max_precision_err_stage13"]) < 1e-9
     assert t92["all_six_guardrails_passed"] is True
 
+    # Theorem 93 (Stage 14.1): P-663 / P-689 Direct B1667 L_2 Conversion B08 & Exact Contour-Free Two-Twist B1656 Laurent Theorem
+    t93 = sc["theorem93_p663_b08_direct_b1667_l2_conversion_and_exact_two_twist_b1656_laurent_theorem"]
+    assert "B1840_the_principled_ends" in t93["seen_first"]
+    assert "FORCED-BY-MAIN" in t93["claim_labels_and_scopes"]["p663_p689_b08_direct_b1667_runtime_l2_conversion"]
+    assert "MATH" in t93["claim_labels_and_scopes"]["exact_contour_free_two_twist_b1656_laurent_theorem"]
+    assert "plain_english_elaboration" in t93
+    assert float(t93["max_b1667_im_trace_err"]) < 1e-12
+    assert float(t93["max_abs_diff_l2_vs_b1667_runtime"]) < 2e-11
+    assert int(t93["legacy_l2_literals_remaining_count"]) == 0
+    assert t93["b08_joint_converted_across_16_rows"] is True
+    assert float(t93["max_two_twist_R_err"]) < 1e-14
+    assert float(t93["max_two_twist_a0_err"]) < 1e-12
+    assert float(t93["max_two_twist_a1_err"]) < 1e-12
+
+    # Theorem 94 (Stage 14.2): B1840 Principled Ends E_1..E_5 Registration & B1667 Weierstrass Half-Period O(e^{-4 L_h}) Law
+    t94 = sc["theorem94_b1840_principled_ends_e1_to_e5_and_b1667_weierstrass_half_period_o4_law"]
+    assert "B1840_the_principled_ends" in t94["seen_first"]
+    assert "MATH" in t94["claim_labels_and_scopes"]["b1840_principled_ends_e1_to_e5_registration"]
+    assert "MATH" in t94["claim_labels_and_scopes"]["b1667_weierstrass_half_period_o4_horoball_law"]
+    assert "plain_english_elaboration" in t94
+    assert len(t94["principled_ends_table"]) == 5
+    assert float(t94["e4_incircle_tangency_err"]) < 1e-12
+    assert t94["e4_strictly_inside_incircle_at_zero"] is True
+    assert float(t94["weierstrass_sum_zero_err"]) < 1e-14
+    assert float(t94["max_b1667_a1_half_period_err"]) < 1e-12
+    assert float(t94["rel_o4_errs_by_r"][2]) < 1e-8
+
+    # Theorem 95 (Stage 14.3): P-686 S3 GAP1 Functional Independence Proof & Complete 13-Order Unification Dictionary
+    t95 = sc["theorem95_p686_s3_gap1_independence_proof_and_complete_13_order_unification_dictionary"]
+    assert "B1840_the_principled_ends" in t95["seen_first"]
+    assert "MATH" in t95["claim_labels_and_scopes"]["p686_s3_gap1_condition4_functional_independence"]
+    assert "FORCED-BY-MAIN" in t95["claim_labels_and_scopes"]["complete_13_order_two_sided_unification_dictionary"]
+    assert "plain_english_elaboration" in t95
+    assert t95["disjoint_hypercharge_and_colour_sectors"] is True
+    assert int(t95["jacobian_rank"]) == 2
+    assert float(t95["abs_det_jacobian"]) > 0.1
+    assert float(t95["off_diagonal_decoupling_err"]) < 1e-12
+    assert t95["orders_13_tested"] == [2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 20, 30]
+    assert float(t95["n7_lep_up_transpose_err"]) < 1e-14
+    assert float(t95["n9_lep_symmetric_err"]) < 1e-14
+    assert float(t95["worst_predicted_hold_err"]) < 1e-14
+    assert float(t95["least_unpredicted_fail_dev"]) > 0.02
+    assert int(t95["unpredicted_holds_count"]) == 0
+
+    # Theorem 96 (Stage 14.4): Zero-Trust Hostile-Referee Gate for Stage 14 & Semantic AST Data-Flow P-684 Blinding Scanner
+    t96 = sc["theorem96_zero_trust_stage14_referee_and_ast_semantic_p684_blinding_gate"]
+    assert "B1840_the_principled_ends" in t96["seen_first"]
+    assert "MATH" in t96["claim_labels_and_scopes"]["stage14_theorems_93_to_95_verification"]
+    assert "MATH" in t96["claim_labels_and_scopes"]["ast_semantic_p684_blinding_gate_with_positive_control"]
+    assert "plain_english_elaboration" in t96
+    assert int(t96["ast_semantic_flagged_assertions_count"]) == 0
+    assert t96["positive_control_caught_indirect_leak"] is True
+    rc96 = t96["referee_independent_counterchecks"]
+    assert float(rc96["independent_mpmath_stage14_err"]) < 1e-30
+    assert float(rc96["independent_fresh_haar_invariance_err_t96"]) < 1e-13
+    assert float(rc96["max_precision_err_stage14"]) < 2e-11
+    assert t96["all_six_guardrails_passed"] is True
+
+
 
 
 

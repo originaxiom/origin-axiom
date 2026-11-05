@@ -754,4 +754,40 @@ Following `origin/main` `S305a` (`75f7eafe8` `P-665` & `P-684` `docs/handoffs/CC
 4. **`Theorem 92` (`theorem92_zero_trust_hostile_referee_stage13_b1839_and_s305a_gate`, `MATH`):**
    - Counterchecks `Theorems 89–91` in 35-digit `mpmath` (`< 1e-30`) and 20 fresh random Haar unitary CKM rotations (`< 1e-13`), verifies `0/58` flagged assertions from `CC_TO_AGY_2026-11-05_COMPLIANCE_FOLLOW_UP.md` remain, and verifies that `seal_held_out_value_p676` uses a hiding-and-binding cryptographic salt (`all_six_guardrails_passed == True`).
 
+---
+
+## 22. Update (Theorems 93–96): Direct `B1667` $L_2$ Conversion of `B08` (`P-663`/`P-689`), Exact Contour-Free Two-Twist `B1656` Laurent Theorem, `B1840` Principled Ends $E_1\dots E_5$ & Weierstrass Half-Period $O(e^{-4L_h})$ Law, Data-Free `P-686 S3` (`GAP1`) Independence Proof, Complete 13-Order Dictionary, and AST Semantic `P-684` Blinding Gate
+
+Following `origin/main` `S305b` (`562fc7753` `frontier/B1840_the_principled_ends/DECLARATION.md`, `P-663`, `P-685`, `P-686`, `P-689`), we implemented, verified, and tested **Stage 14 (`Theorems 93 through 96`)** in `src/origin_axiom/toe_closure.py` and `tests/test_elevation_operator_gate.py`:
+
+1. **`Theorem 93` (`theorem93_p663_b08_direct_b1667_l2_conversion_and_exact_two_twist_b1656_laurent_theorem`, `FORCED-BY-MAIN` + `MATH`):**
+   - **Direct `B1667` Runtime Verification of $L_2(\tau_{\text{strip}})$, $L_2(\tau_{\text{Golden}})$, and $L_2(\tau^*)$ (`B08` Conversion Across 16 Rows):**
+     - Calls `B1667`'s own `the_canonical_cusp.py` (`C.monodromy`, `C.traces`, `C.puncture_loop`, `C.normalise`, `C.frobenius`, `C.local_B`) at $\tau_{\text{strip}} = 0.25 + 2.75i$, $\tau_{\text{Golden}} = 1/\sqrt{5} + i\varphi^2$, and $\tau^* = -0.187112878692589 + 2.404291913633841i$, confirming $\max(|\operatorname{Im}\operatorname{tr}(A_a)|, |\operatorname{Im}\operatorname{tr}(A_b)|) < 10^{-12}$ and $|L_2^{\text{t30}}(\tau) - L_2^{\text{B1667}}(\tau)| < 2 \times 10^{-11}$ (`1.43e-11`, `1.29e-11`, `1.21e-11`).
+     - Audits `src/origin_axiom/toe_closure.py` to confirm that `0` legacy $L_2$ literals remain anywhere in the codebase (`legacy_l2_literals_remaining_count == 0`), completing the `P-663` / `P-689` conversion of joint `B08` across 16 scoreboard rows.
+   - **Exact Contour-Free Analytical Formula for `B1656`'s Two-Twist Laurent Coefficients $R_s(\tau, w)$, $a_{0,s}(\tau, w)$, and $a_{1,s}(\tau, w)$ (Resolving `P-689` Note on `Theorem 87`):**
+     - Using $\vartheta_1(u + \tau \mid \tau) = -e^{-i\pi\tau - 2\pi i u}\vartheta_1(u \mid \tau)$, puts `B1656`'s two-twist bilinear matrix $M(u) = \text{bil}(x, y, u, \tau)$ over the common denominator $\vartheta_1(u \mid \tau)$: $M(u) = \mathcal{N}(u)/\vartheta_1(u \mid \tau)$ and $F_s(u) = \operatorname{Tr}((\varepsilon C_s)^T \mathcal{N}(u))$.
+     - Differentiating the level-2 theta series of $F_s(u)$ term-by-term at $u = 0$ yields the exact contour-free closed forms:
+       $$R_s(\tau, w) = \frac{F_s(0)}{\vartheta'_1(0\mid\tau)}, \qquad a_{0,s}(\tau, w) = \frac{F'_s(0)}{F_s(0)}, \qquad a_{1,s}(\tau, w) = \frac{1}{2}\frac{F''_s(0)}{F_s(0)} - \frac{1}{6}\frac{\vartheta'''_1(0\mid\tau)}{\vartheta'_1(0\mid\tau)},$$
+       agreeing with `B1656`'s contour integral to `< 1e-12` across all four channels $s \in \{1, i, j, k\}$.
+
+2. **`Theorem 94` (`theorem94_b1840_principled_ends_e1_to_e5_and_b1667_weierstrass_half_period_o4_law`, `MATH`):**
+   - **Registration of Two New Zero-Parameter Geometric Ends $E_4 = L(\pm i/2)$ and $E_5 = L_\pi(\tau)$ Alongside `B1840`'s $E_1, E_2, E_3$ (`P-685` Option 2):**
+     - Evaluates `B1840`'s $E_1 = L_2(\tau) = 2.357738$ ($\delta_1 = 1.710913$), $E_2 = \ln 2 = 0.693147$ ($\delta_2 = 0.046323$), and $E_3 = L_{\max}(\tau) = L(\pm 1/2) = 0.646825$ ($\delta_3 = 0$), plus:
+       - **$E_4 = L(\pm i/2) = \ln 2 - \operatorname{Re} g_{\text{local}}(i/2; \tau) = 0.730350$** ($\delta_4 = 0.083525 > 0$): the unique horocycle inscribed inside the flat Dirichlet incircle $|z| \le 1/2$, tangent at the imaginary semi-axis points $z = \pm i/2$ (`e4_incircle_tangency_err < 1e-15`),
+       - **$E_5 = L_\pi(\tau) = L_{\max}(\tau) + 2 - 2\pi / A_{\text{cusp}}(\tau) = 1.204388$** ($\delta_5 = 0.557564 > 0$): the Gauss–Bonnet area-equipartition horocycle splitting the total hyperbolic area $\operatorname{Area}_{\text{hyp}}(\Sigma_{1,1}) = 2\pi$ into $\pi$ inside the cusp horoball and $\pi$ in the thick core.
+   - **Weierstrass Half-Period Completed-Square Law on `B1667`'s Untwisted Spin Channels $r \in \{2, 3, 4\}$:**
+     - Proves that for $S_r(z; \tau) = \sqrt{\wp(z; \tau) - e_{r-1}(\tau)}$, $a_{0,r}(\tau) = 0$ and $a_{1,r}(\tau) = -\frac{1}{2}e_{r-1}(\tau)$ (`< 1e-12`), so the leading horoball defect is governed by the Weierstrass half-period distance:
+       $$N_r(\tau; L_h) = 2\pi L_h + c_r(\tau) - \frac{\pi}{8}\bigl|e_{r-1}(\tau) + c(\tau)\bigr|^2 e^{-4L_h} + O\!\left(e^{-6L_h}\right),$$
+       matching `B1667`'s `horoball_norms` difference between $L_h = 3.5$ and $L_h = 4.5$ to `1.88e-9` relative on $r = 2$.
+
+3. **`Theorem 95` (`theorem95_p686_s3_gap1_independence_proof_and_complete_13_order_unification_dictionary`, `MATH` + `FORCED-BY-MAIN`):**
+   - **Data-Free Proof of `P-686 S3` (`GAP1` Condition 4: Functional Independence of $(Q_1, Q_2)$):**
+     - Proves that the inter-sector quark ratio $Q_1 = \sigma_{\max}(Y_d)/\sigma_{\max}(Y_u)$ and intra-sector neutrino splitting ratio $Q_2 = (\sigma_2(M_\nu)^2 - \sigma_1(M_\nu)^2)/(\sigma_3(M_\nu)^2 - \sigma_1(M_\nu)^2)$ live on disjoint hypercharge and $\operatorname{SU}(3)_c$ representations ($\{(1,-4), (1,2)\} \cap \{(-3,0), (-3,-3)\} = \emptyset$) and have an invertible rank-2 Fréchet Jacobian ($|\det J_{Q_1, Q_2}| = 1.875 > 0.1$, off-diagonal decoupling `< 1e-15`) on a synthetic non-held-out probe point $(1/11, 2/11)$.
+   - **Complete 13-Order Two-Sided Unification Dictionary ($N \in \{2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 20, 30\}$):**
+     - Extends `Theorem 86`'s 11-order dictionary (`P-682`) by adding $N = 7$ ($M_{\text{lep}} \propto M_{\text{up}}^T$, `< 1e-14`) and $N = 9$ ($M_{\text{lep}} = M_{\text{lep}}^T$, `< 1e-14`), verifying two-sided across all 13 orders that `worst_predicted_hold_err == 4.34e-15` and `unpredicted_holds_count == 0`.
+
+4. **`Theorem 96` (`theorem96_zero_trust_stage14_referee_and_ast_semantic_p684_blinding_gate`, `MATH`):**
+   - Upgrades the `P-684` test blinding check to a full Python `ast.Module` semantic data-flow taint scanner (`ast_semantic_flagged_assertions_count == 0`), validated with an AST-mutation positive control (`positive_control_caught_indirect_leak is True`, resolving `P-689`), alongside 35-digit `mpmath` (`< 1e-30`) and 20-trial CKM Haar unitary (`< 1e-13`) counterchecks (`all_six_guardrails_passed == True`).
+
+
 
