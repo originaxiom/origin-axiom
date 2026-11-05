@@ -1,5 +1,12 @@
 # Changelog
 
+## S305m THE GOAL SET: A PROCESS THAT PLACES τ, THE LINE AND AN ENERGY SCALE; THE FAREY TRANSITION PLACES NOTHING; ONE CANDIDATE, P-717 (2026-11-06)
+
+- **The owner's goal:** 'Find a process in the object that places τ, the line and an energy scale, so we stop choosing them.'
+- **P-713 DONE, NEGATIVE for placing τ:** s = 1 is PSL(2, ℤ)'s critical exponent; its measure is hyperbolic area (B1813), whose cusp tail 3/(πY) has no scale (seen first: B1813, P-438; the Farey pressure's form cited from Prellberg and Slawny 1992).
+- **Swept first:** the cusp shapes, special points, thread apexes, Petersson peak and one-loop potential are closed on record (B1696, B1702, B1791); P-465 had the golden ground path (apex √5/2, no hierarchy); B1629, that nothing the principle forces visits the cusp.
+- **P-717 (firewalled speculation):** the golden path departs once, by the run the last finite rung cannot see (T⁵ trivial in Γ/⟨⟨T⁵⟩⟩ ≅ A₅, GENESIS v1.57) — τ* = ½ + (2 + √5/2)i exactly, the line of order 5 (12 lines, 4 T-classes at fixed τ, counted from the census's list); the menu 223 × 266 → 1 × 4; three choices named; DISCLOSED: the 5 was noticed in the data (P-373) and main compared τ* with the six's strip in its reasoning, so the six cannot validate it. Relay CC_TO_AGY_2026-11-06_P717_ONE_DEPARTURE.md. P-717; FLOOR 717. 0 of 19.
+
 ## S305l THE BANG PROGRAMME OPENED (P-694): THE STAGE AUDITED; WAVE 1 AIMED AT WHAT PLACES τ, THE LINE AND A SCALE (2026-11-05)
 
 - **The owner:** 'lets go for that programe then'. **docs/THE_BANG_PROGRAMME.md:** the programme's practical job, from tonight's end cards — a process that places τ, the line and a scale (the menu costs ~19 bits; the SM seat's §353: +15 bits with the line and apex fixed by principle; y_τ = y_b a prediction only with a forced scale, P-597).

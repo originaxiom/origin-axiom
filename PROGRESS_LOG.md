@@ -18499,3 +18499,11 @@ that places τ, the line and a scale, so the frame's numbers mean something. Bef
 audited it: the potential once read as a transition is a cubic with no second vacuum (shown long ago, B295), so the one
 real transition on record is the Farey map's at s = 1. Wave 1 asks what that transition singles out, which principle
 could place τ without looking at the masses, and which of the object's scales could be an energy. 0 of 19.
+
+## 2026-11-06 — S305m: the goal set
+
+The owner set the goal: find the process that places τ, the line and an energy scale. The one real transition on record,
+the Farey map's, turned out to place nothing: its measure has no preferred height. One candidate was written down before
+any test: the object's golden path departing once, by the longest run the last finite symmetry cannot see, which puts τ
+at an exact point and the line at order five. Its "five" was first noticed in the data, so the masses cannot confirm it;
+a derivation or a held-out prediction must. 0 of 19.
