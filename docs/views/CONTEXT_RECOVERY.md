@@ -18,13 +18,13 @@
 | … NEGATIVE | 382 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 702 |
-| … QUEUED | 291 |
+| register points | 704 |
+| … QUEUED | 292 |
 | … LEAD | 9 |
 | … OWNER | 4 |
-| … DONE | 387 |
+| … DONE | 388 |
 | … DECLINED | 11 |
-| harvest rows (the last number) | 1572 |
+| harvest rows (the last number) | 1575 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S305i BEFORE EITHER LOOK IS READ: B1841'S PRE-READ NOTE; THE CENSUS'S THIRD OPINION; THE SEATS REFETCHED (2026-11-05)
 - S305h GENESIS v1.62: THE JOINT CONFIRMATION, ADOPTED BEFORE B1839 IS READ (B1843); THE AGY LANE'S STRUCTURAL CLAIMS VERIFIED (2026-11-05)
 - S305g THE HOMEWORK FOR A CLOSURE: B1841 SEALED BEFORE B1839 IS READ; THE SEATS ENGAGED (2026-11-05)
 - S305f THE AGY LANE'S STAGES 14–15 READ AT THE OWNER'S WORD: NO JOINT EARNED, NOTHING THAT MOVES B1839; COMPLIANCE REGRESSED (2026-11-05)
@@ -63,17 +64,16 @@
 - S305d THE CONFIRMATION'S SCOPE FIXED BEFORE B1839 IS READ (THE SM SEAT'S S1–S4); THE AGY LANE'S STAGE 13 VERIFIED (2026-11-05)
 - S305c THE PRINCIPLED ENDS CLOSED AT FOUR BEFORE B1839'S LOOK RAN; THE HOLD LIFTS (2026-11-05)
 - S305b THE CLOSURE PREPARED: THE PRINCIPLED ENDS DECLARED BEFORE B1839 IS READ (B1840); THE WEB SEAT AND THE SM SEAT ENGAGED; THE AGY LANE'S STAGE 12 AND THE WEB SEAT'S POST HOC 2 VERIFIED; P-670'S SW…
-- S305a THE OWNER'S TWO CALLS RULED (P-665, P-684): THE PMNS CARD'S ONE TARGET IS r; NO DATA-TOUCHING EXISTENCE SCAN FOR A HELD-OUT TARGET; THE COMPLIANCE FOLLOW-UP SENT TO THE AGY LANE (2026-11-05)
 
 ## The latest campaign line
 
-LATEST (2026-11-05, S305h: GENESIS v1.62 — the held-out targets graded jointly, with a power valve; adopted before B1839 is read (B1843). B1839's look ran, output committed unread next. 0 of 19.)
+LATEST (2026-11-05, S305i: B1839's census confirmed by the web seat's third opinion; B1841 refereed and its reading clarified before either look is read; both looks running. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
 | check | count | first items |
 |---|---|---|
 | arc folders without a verdict file (scripts/checks/arc_data.py classifies them; its resolved R-classes are not defects) | 43 | B1839_the_end_card, B1840_the_principled_ends, B1841_the_principled_ends_card, B1842_the_closure_instruments, B263_t41_cs_levels, B452_ethogram_dictionary |
-| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 161 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
+| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 159 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
 | register rows not in the 7-cell form | 0 | — |
 

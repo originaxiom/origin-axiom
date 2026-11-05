@@ -22,9 +22,9 @@ nothing in this block is typed by hand.*
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.62) of 2026-11-05 |
 | arcs with a verdict | 1543: 1053 PROVED, 382 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 702: 304 open (queued, leads, waiting for the owner), 398 closed |
+| points in the register | 704: 305 open (queued, leads, waiting for the owner), 399 closed |
 | the last review | Review 74 (2026-11-04), anchor `41420ae14` |
-| the last landing | S305h GENESIS v1.62: THE JOINT CONFIRMATION, ADOPTED BEFORE B1839 IS READ (B1843); THE AGY LANE'S STRUCTURAL CLAIMS VERIFIED (2026-11-05) |
+| the last landing | S305i BEFORE EITHER LOOK IS READ: B1841'S PRE-READ NOTE; THE CENSUS'S THIRD OPINION; THE SEATS REFETCHED (2026-11-05) |
 <!-- STATE:END -->
 
 ## Start here
