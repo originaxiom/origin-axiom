@@ -18507,3 +18507,9 @@ the Farey map's, turned out to place nothing: its measure has no preferred heigh
 any test: the object's golden path departing once, by the longest run the last finite symmetry cannot see, which puts τ
 at an exact point and the line at order five. Its "five" was first noticed in the data, so the masses cannot confirm it;
 a derivation or a held-out prediction must. 0 of 19.
+
+## 2026-11-06 — S305n: the candidate's control, and the scale's wall
+
+The candidate excursion was checked two ways: the family's closed threads that approach it converge to its exact height,
+and every one sits exactly at Re τ = ½, so that half of τ comes out by symmetry rather than choice. On the energy scale
+the record already holds a wall: the object has no units, so it can fix at most a ratio between scales. 0 of 19.

@@ -1,5 +1,10 @@
 # Changelog
 
+## S305n P-717'S CONTROL AND P-715'S WALL (2026-11-06)
+
+- **P-717's control, data-free:** the closed threads L⁵R(LR)^k have highest apexes converging to Im 2 + √5/2 (the gap shrinking by φ⁻⁴ per golden period), and Re τ = ½ exactly at every k. The excursion is palindromic, so Re τ* = ½ is an output, not a choice. Two methods agree to 10⁻¹² (audit/drafts/p717/). Main's first run of the control omitted the S-conjugates and returned the golden apex; the second method caught it.
+- **P-715, swept first:** the object is scale-free (B151, B660, B719, B811, B980). No process in it can supply an absolute energy; the reachable target is a dimensionless ratio to one physical unit. A contamination guard is recorded, because main has read P-597's datum. 0 of 19.
+
 ## S305m THE GOAL SET: A PROCESS THAT PLACES τ, THE LINE AND AN ENERGY SCALE; THE FAREY TRANSITION PLACES NOTHING; ONE CANDIDATE, P-717 (2026-11-06)
 
 - **The owner's goal:** 'Find a process in the object that places τ, the line and an energy scale, so we stop choosing them.'
