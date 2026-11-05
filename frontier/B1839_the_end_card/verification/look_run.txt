@@ -1,0 +1,46 @@
+norms.npz: shape (223, 170, 22, 4), sha256 of the array bytes 1f791635f45b9506c0b416b6363c0013af191d41c01b27fef7811ba14c6acc91 (as census_run.txt)
+  features: 25 / 223 apexes (60 s)
+  features: 50 / 223 apexes (95 s)
+  features: 75 / 223 apexes (127 s)
+  features: 100 / 223 apexes (158 s)
+  features: 125 / 223 apexes (190 s)
+  features: 150 / 223 apexes (221 s)
+  features: 175 / 223 apexes (250 s)
+  features: 200 / 223 apexes (288 s)
+features: 1364314 rows (223 apexes x 266 lines x 23 ends); all finite True; sha256 0046a6759fdc1139c46c1bb09435edd0c1f79998e36494107f6dfa468ac815ed
+C0 (the web seat's E2 through this path): {'A': 30.664372, 'B': 39.148931, 'C': 53.700282, 'D': 40.830656}; max rel dev 8.2e-12 -> HOLDS
+C3: B1798's small-cut census, 59318 pairs, 118636 rows; data obs bounded 2.608931264 (ref 2.608931264), seat 2.739034461 (ref 2.739034461)
+  C3 [5001-5010] c bounded obs 2.608931  targets 40000  hits 82  frac 2.0500e-03  r97.5 2.5440e-03
+  C3 [5001-5010] c set9    obs 2.739034  targets 40000  hits 37  frac 9.2500e-04  r97.5 1.2748e-03
+  C3 [5001-5010] c seat    obs 2.739034  targets 40000  hits 11  frac 2.7500e-04  r97.5 4.9200e-04
+  C3: 128 candidates, 419 (target, row) pairs evaluated, 0 s
+C3 (the referee's hits reproduced: bounded 82 vs 82, seat 11 vs 11) -> HOLDS
+P1: the data's minimum chi2_six, c continuous 4.613885 (nine values 5.372228, {1,3} 11.360492) -> HOLDS
+  D [31001-31250] c bounded obs 4.613885  targets 1000000  hits 24252  frac 2.4252e-02  r97.5 2.4555e-02
+  D [31001-31250] c set9    obs 5.372228  targets 1000000  hits 20870  frac 2.0870e-02  r97.5 2.1152e-02
+  D [31001-31250] c seat    obs 11.360492  targets 1000000  hits 25186  frac 2.5186e-02  r97.5 2.5495e-02
+  D: 101648 candidates, 4131283 (target, row) pairs evaluated, 27 s
+D (THE DECISIVE CELL): r97.5 2.4555e-02 (c continuous) -> FAILS
+read-out 6, delta among D's hits: {'0.0': 1711, '0.05': 1048, '0.1': 886, '0.15': 713, '0.2': 556, '0.25': 523, '0.3': 450, '0.35': 460, '0.4': 540, '0.5': 674, '0.6': 642, '0.7': 666, '0.8': 845, '1.0': 1087, '1.25': 1079, '1.5': 1245, '2.0': 1443, '2.5': 1303, '3.0': 1372, '4.0': 1883, '6.0': 2347, '10.0': 2779, 'inf': 0}
+read-out delta_0_alone: 59318 rows; data obs {'bounded': 14.7535, 'set9': 15.054854, 'seat': 27.720922}
+  delta_0_alone [31001-31050] c bounded obs 14.753500  targets 200000  hits 4592  frac 2.2960e-02  r97.5 2.3626e-02
+  delta_0_alone [31001-31050] c set9    obs 15.054854  targets 200000  hits 3947  frac 1.9735e-02  r97.5 2.0354e-02
+  delta_0_alone [31001-31050] c seat    obs 27.720922  targets 200000  hits 4704  frac 2.3520e-02  r97.5 2.4194e-02
+  delta_0_alone: 16047 candidates, 279937 (target, row) pairs evaluated, 2 s
+read-out delta_inf_alone: 59318 rows; data obs {'bounded': 137596.742048, 'set9': 137596.742048, 'seat': 143299.236006}
+  delta_inf_alone [31001-31050] c bounded obs 137596.742048  targets 200000  hits 170233  frac 8.5116e-01  r97.5 8.5272e-01
+  delta_inf_alone [31001-31050] c set9    obs 137596.742048  targets 200000  hits 170233  frac 8.5116e-01  r97.5 8.5272e-01
+  delta_inf_alone [31001-31050] c seat    obs 143299.236006  targets 200000  hits 169271  frac 8.4635e-01  r97.5 8.4793e-01
+  delta_inf_alone: 200000 candidates, 23394221750 (target, row) pairs evaluated, 15276 s
+read-out five_ality_lines_alone: 246192 rows; data obs {'bounded': 4.613885, 'set9': 5.372228, 'seat': 11.360492}
+  five_ality_lines_alone [31001-31050] c bounded obs 4.613885  targets 200000  hits 1496  frac 7.4800e-03  r97.5 7.8673e-03
+  five_ality_lines_alone [31001-31050] c set9    obs 5.372228  targets 200000  hits 1284  frac 6.4200e-03  r97.5 6.7798e-03
+  five_ality_lines_alone [31001-31050] c seat    obs 11.360492  targets 200000  hits 1542  frac 7.7100e-03  r97.5 8.1031e-03
+  five_ality_lines_alone: 7146 candidates, 196840 (target, row) pairs evaluated, 3 s
+read-out 5, the data's minimum per end (c continuous): [('0.0', 14.754), ('0.05', 7.911), ('0.1', 5.192), ('0.15', 4.614), ('0.2', 5.003), ('0.25', 5.907), ('0.3', 7.063), ('0.35', 8.334), ('0.4', 9.648), ('0.5', 12.284), ('0.6', 12.601), ('0.7', 13.319), ('0.8', 14.592), ('1.0', 18.572), ('1.25', 25.774), ('1.5', 31.4), ('2.0', 42.83), ('2.5', 44.508), ('3.0', 47.694), ('4.0', 52.363), ('6.0', 75.71), ('10.0', 37.023), ('inf', 137596.742)]
+read-out 5/7, best row (bounded): chi2 4.6139 at apex 162 tau0 [0.5, 2.949576240750525] line (2/5, 4/5) delta 0.15 seat (1, 0, 0) c 3.7611; model/measured ['0.996', '1.247', '0.885', '1.183', '1.059', '1.059']
+read-out 5/7, best row (set9): chi2 5.3722 at apex 162 tau0 [0.5, 2.949576240750525] line (2/5, 4/5) delta 0.15 seat (1, 0, 0) c 4.0000; model/measured ['0.996', '1.247', '0.885', '1.183', '1.126', '0.996']
+read-out 5/7, best row (seat): chi2 11.3605 at apex 171 tau0 [0.413793103, 2.999801816680213] line (2/5, 4/5) delta 0.15 seat (1, 0, 0) c 3.0000; model/measured ['0.863', '1.003', '0.826', '1.010', '0.788', '1.133']
+read-out 8 (C1's per-sector maximum, census): {'up': 7.882583474838611e-15, 'down': 1.4099832412739488e-14, 'lep': 3.47499806707674e-14}
+cells: C0 HOLDS | C1 HOLDS | C2 HOLDS | C3 HOLDS | P1 HOLDS | D FAILS
+look exit 0 (15713 s)
