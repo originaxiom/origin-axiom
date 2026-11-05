@@ -1,0 +1,28 @@
+{
+ "id": "B1843",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1828",
+  "B1829",
+  "B1798",
+  "B1839"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the SM seat's §§ 349–352"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the foundation document's GAP1 (the dictionary earned by prediction) and THE_FINAL_ACTS_BAR's V",
+  "object": "GENESIS v1.61 -> v1.62: the held-out targets graded jointly; a power valve before a target is spent",
+  "reach": "general",
+  "hypotheses": "the owner's ruling of 2026-11-05 on the SM seat's §§ 351–352; the joint statistic's calibration under exchangeability (checked)"
+ },
+ "claim_one_line": "GENESIS v1.62 (the owner's ruling, 2026-11-05: 'if you also agree with sm about the rule, i aprove it'): GAP1's held-out targets are graded jointly -- each inside its 68% band and the joint p_V (the product of marginal rank p's under the matched null, ranked among the null worlds) below 0.01/m_V, m_V counting every recorded prior look -- and a seventh condition holds the targets unspent when the card's location-free power for a 5%-accurate frame is below 10%; adopted before B1839's look was read; the statistic's calibration verified by main (1.02%, 0.97%, 0.83% at alpha = 0.01).",
+ "weave_or_thread": "weave (the foundation's dictionary rule, GAP1)"
+}

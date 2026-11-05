@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1542 of 1542 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1543 of 1543 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1052)
+## PROVED (1053)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1064,6 +1064,7 @@
 | `B1834` | THE TOTAL-INPUTS SCOREBOARD (the owner's ruling of 2026-10-29, P-418) AND THE BORROWED-JOINTS SCAFFOLD (P-661): 0 of 19 earned, identification price 13; the record's candidate claims 10 rows on 14 borrowed joints (11 chosen, 2 ansatz, 1 fitted); the agy lane's complete picture claims 23 rows on 45 (18 chosen, 14 ansatz, 6 measured inputs, 3 refuted, 2 unknown, 1 fitted, 1 forced only by its word) -- about three borrowed joints per extra row, none earned; ten joints shared, so earning the core (tau, the slope and offset, the Higgs direction, the reading, H = I, the radius) earns it in both; printed by the gates beside 0 of 19 (inputs-scoreboard); a firewall path found and ten more ranges sealed (52). 0 of 19. | yes | 1 |
 | `B1836` | THE SEATS PAST S300 VERIFIED (the owner's 'fetch and verify agy and other seats'): the F7 mirror identity PROVED (T-FRAME-MIRROR; the agy lane's Theorem 60 repaired); T a symmetry of the frame's outputs (8e-13; main's S300 'T^2, not T' corrected); a criterion reading no held-out quantity picks the slope 2/5 (main's P-625 reason corrected; the slope stays borrowed); the F_a evaluator wrong by -i for Re tau >= 1 (P-670); P-634's first step: no cuspidal cohomology for m004's group at weights 0-3; B47 MATCH, B08 MISMATCH; P-639's mirror half NEGATIVE; the agy lane's Theorems 29-64 earn no borrowed joint, their looks at the held-out and PMNS targets counted, 23 ranges sealed; the web seat's singlet screen, steepness map and doublet index verified; the physical lane's E8 algebra verified with B = (kc_j)^-1. 0 of 19. |  | 0 |
 | `B1837` | THE AGY LANE'S STAGES 8-9 AND THE WEB SEAT'S DENSITY HIGGS VERIFIED: main stands on six of the lane's seven rebuttals (the seventh, the mirror, already proved) -- at one Higgs every generation's lepton/down relation and |det| move at first order in h_I, only reflected forms match (main's chat concession corrected); the torsions of m004 at omega tabled (4/sqrt3; 2, 5, 6; 6 sqrt3; 3), none 4 - 2 sqrt3; m003 amphicheiral; spectral faithfulness selects nothing under B1788's exponents; the density Higgs's closed form proved but the cut not removed (A07 bears more load); no joint earned; exposures counted and 15 ranges sealed (90); main's own exposure through a pasted message recorded (P-679). 0 of 19. |  | 0 |
+| `B1843` | GENESIS v1.62 (the owner's ruling, 2026-11-05: 'if you also agree with sm about the rule, i aprove it'): GAP1's held-out targets are graded jointly -- each inside its 68% band and the joint p_V (the product of marginal rank p's under the matched null, ranked among the null worlds) below 0.01/m_V, m_V counting every recorded prior look -- and a seventh condition holds the targets unspent when the card's location-free power for a 5%-accurate frame is below 10%; adopted before B1839's look was read; the statistic's calibration verified by main (1.02%, 0.97%, 0.83% at alpha = 0.01). |  | 0 |
 
 ## NEGATIVE (382)
 

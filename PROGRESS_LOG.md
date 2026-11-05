@@ -18462,3 +18462,16 @@ The owner asked what else could be done so that the right values have their best
 seats. The card that tests the four principled cut levels was sealed before the end card's output is read, so neither
 card can steer the other. The web seat will referee it and recompute the census independently; the SM seat will specify
 the confirmation's statistics. The frozen-row instruments are on main as drafts for their review. 0 of 19.
+
+## 2026-11-05 — S305h: the joint confirmation
+
+The SM seat showed that the foundation's rule for confirming a candidate, one target at a time, almost never lets even
+a correct frame pass, so a fail would spend the cleanest held-out target for nothing. At the owner's word, and with main's
+own check of the statistics, the rule now grades the targets together, each still inside its own band, and holds them
+unspent when a test could not succeed. It was adopted before the end card's output was read. 0 of 19.
+
+## 2026-11-05 — S305i: before either look is read
+
+The web seat recomputed the end card's census independently and found it right, and refereed the principled-ends card
+and found it correctly posed. Its two clarifications of how a result would be read were written down before either
+card's output is opened. Both looks are running. 0 of 19.

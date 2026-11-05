@@ -2,6 +2,10 @@
 
 > **Currency — Review 56 (2026-09-09, anchor `eb9db7fa`).** Refreshed against the 21-merge window `be6f4cab`→`eb9db7fa` (B1294–B1307: MASTERPLAN v3 Phases 0–1 and v3.1's seven harvest arcs). **Review 56's headline is a number, not a repair:** the harvest gate's first strict report — 494 seat-index ids on nine branches, **428 without a ledger row, 348 seat-branch relays without a relay row**, two seats already past main's pins — escalated by name as R56-1 with a payment order (B1306 slices B–D, newest first). 32/32 gates; LAW_MAP's second zero-advancement window (R56-2); CLAIMS.md's 129-arc lag escalated (R56-3); two E53 repairs in living surfaces (THE_SM_VERDICT, MAIN_GOAL JOIN 3); E71 minted. Full detail: `docs/progress/REVIEWS.md` (Review 56).
 
+**LATEST (2026-11-05, S305i: B1839's census confirmed by the web seat's third opinion; B1841 refereed and its reading clarified before either look is read; both looks running. 0 of 19.)**
+
+**LATEST (2026-11-05, S305h: GENESIS v1.62 — the held-out targets graded jointly, with a power valve; adopted before B1839 is read (B1843). B1839's look ran, output committed unread next. 0 of 19.)**
+
 **LATEST (2026-11-05, S305g: B1841 THE PRINCIPLED-ENDS CARD sealed before B1839 is read; the web seat and the SM seat engaged to referee it and to specify the confirmation's statistics (P-699); B1839's census near done, slowed by load. 0 of 19.)**
 
 **LATEST (2026-11-05, S305f: the agy lane's Stages 14–15 — no joint, nothing that moves B1839; compliance regressed, a second note asked of the owner (P-697); the physical lane's review read. B1839's census running. 0 of 19.)**

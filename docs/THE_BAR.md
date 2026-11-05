@@ -69,8 +69,12 @@ A **positive** reads: frame F, on state s (at level k, with end condition e), sh
    - *Level 1, the screen:* steps 1–5 with every within-arc choice priced — the matched null re-makes every choice read from
      the data (the lepton factor, the line class, the reading; any binary choice read from data doubles p) — at p < 0.01, with
      **no** factor for the joint count. A look that holds its support cell and passes is a **CANDIDATE** (the grade below).
-   - *Level 2, the confirmation:* the frozen candidate predicts held-out quantities under GENESIS GAP1's v1.60 rule (each at
-     p_V < 0.01/m_V, two at least). Only then do its values count, as PREDICTED.
+   - *Level 2, the confirmation:* the frozen candidate predicts held-out quantities under GENESIS GAP1's rule — **since v1.62
+     (B1843, the owner's ruling of 2026-11-05) graded jointly**: each target inside its 68% band and the joint p_V (the
+     product of the targets' marginal rank p-values, ranked among the matched null's worlds) below 0.01/m_V, two at least,
+     with m_V counting every recorded prior look; the targets are held unspent when the card's location-free power for a
+     5%-accurate frame is below 10% (v1.60 graded each target alone at p_V < 0.01/m_V). Only then do its values count, as
+     PREDICTED, worded "jointly confirmed, each within its band".
    - The ledger reports beside every candidate the number expected by chance: 0.01 per screen.
 
 **The grades** (WHAT_WOULD_COUNT §3's REPRODUCED and FITTED, PASSED as the screen for its DERIVED, and UNJUDGED):

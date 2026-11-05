@@ -15400,25 +15400,31 @@
     "S300",
     "S301",
     "S302",
-    "S303"
+    "S303",
+    "S305"
    ],
    "obstacle": "particle_dict",
-   "obstacle_conf": 6,
+   "obstacle_conf": 8,
    "status": "banked",
    "domain": "arithmetic"
   },
   "B1838": {
    "slug": "the end",
    "motifs": [
-    "figure_eight"
+    "closing",
+    "figure_eight",
+    "eisenstein",
+    "firewall"
    ],
    "refs": [
+    "B08",
     "S238",
     "S303",
-    "S304"
+    "S304",
+    "S305"
    ],
-   "obstacle": "units_scale",
-   "obstacle_conf": 2,
+   "obstacle": "particle_dict",
+   "obstacle_conf": 6,
    "status": "banked",
    "domain": "topology"
   },
@@ -15453,6 +15459,15 @@
    "obstacle_conf": 22,
    "status": "dormant",
    "domain": "arithmetic"
+  },
+  "B1843": {
+   "slug": "genesis v1 62",
+   "motifs": [],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 5,
+   "status": "open",
+   "domain": "dynamics"
   },
   "B184": {
    "slug": "symmetry gauge door",
