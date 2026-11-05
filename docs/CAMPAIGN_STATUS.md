@@ -2,6 +2,10 @@
 
 > **Currency — Review 56 (2026-09-09, anchor `eb9db7fa`).** Refreshed against the 21-merge window `be6f4cab`→`eb9db7fa` (B1294–B1307: MASTERPLAN v3 Phases 0–1 and v3.1's seven harvest arcs). **Review 56's headline is a number, not a repair:** the harvest gate's first strict report — 494 seat-index ids on nine branches, **428 without a ledger row, 348 seat-branch relays without a relay row**, two seats already past main's pins — escalated by name as R56-1 with a payment order (B1306 slices B–D, newest first). 32/32 gates; LAW_MAP's second zero-advancement window (R56-2); CLAIMS.md's 129-arc lag escalated (R56-3); two E53 repairs in living surfaces (THE_SM_VERDICT, MAIN_GOAL JOIN 3); E71 minted. Full detail: `docs/progress/REVIEWS.md` (Review 56).
 
+**LATEST (2026-11-05, S305l: THE BANG PROGRAMME opened (P-694, docs/THE_BANG_PROGRAMME.md) — the stage audited (B867's S3 rests on B295's no-double-well cubic; B852's Farey s = 1 the real transition); wave 1 aimed at what places τ, the line and a scale (P-712–P-716). 0 of 19.)**
+
+**LATEST (2026-11-05, S305k: the seats fetched — the SM seat's §§ 351–353 re-run identically (the menu must be reduced by principle: +15 bits); the agy lane's determinant identity and B1728's converse verified on main, its menu reduction not accepted; P-710 seen first (P-597) and closed into P-574. 0 of 19.)**
+
 **LATEST (2026-11-05, S305j: B1839 NEGATIVE (a free level fails the six's screen); B1841 PROVED as sealed at E4 = L₂ − π/2 — a READING: on its order-5 line the leptons are the down sector and the frame's quark four alone are not specific (9.2%; P-706); the owner holds y_b/y_t and r unspent (P-709). 0 of 19.)**
 
 **LATEST (2026-11-05, S305i: B1839's census confirmed by the web seat's third opinion; B1841 refereed and its reading clarified before either look is read; both looks running. 0 of 19.)**

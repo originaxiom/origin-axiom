@@ -18483,3 +18483,19 @@ the area-4 horocycle, a level fixed by geometry. Main's own checks confirmed eve
 is made of: on that row the leptons are the down quarks by structure (minimal SU(5)), and the frame's quark numbers alone
 match random worlds as often as ours. The structure carries the six; the frame's values do not. The owner held the two
 held-out targets unspent. 0 of 19.
+
+## 2026-11-05 — S305k: the seats fetched
+
+The SM seat's three relays were re-run on main and agree; its bit balance puts a number on tonight's lesson: the frame's
+values become testable only when the line and the apex are fixed by principle. The agy lane proved two things main
+confirmed with its own code (a determinant identity, and the converse of the law that says which sectors share a
+spectrum); its proposed shortcut through the choices was not accepted, because the choices were taken from the results.
+Main's idea of a new test turned out to be already ruled by Review 74. 0 of 19.
+
+## 2026-11-05 — S305l: the bang programme opened
+
+At the owner's word the programme on the object's own process is open. Its job is the gap tonight exposed: something
+that places τ, the line and a scale, so the frame's numbers mean something. Before building on the record's "stage", main
+audited it: the potential once read as a transition is a cubic with no second vacuum (shown long ago, B295), so the one
+real transition on record is the Farey map's at s = 1. Wave 1 asks what that transition singles out, which principle
+could place τ without looking at the masses, and which of the object's scales could be an energy. 0 of 19.

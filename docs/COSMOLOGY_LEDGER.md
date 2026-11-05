@@ -295,6 +295,9 @@ present, exactly:
 - **S3 (departure from equilibrium):** V(φ)/κ = −(7+5√5)/12 < 0, with an exact barrier height
   (5√5−7)/12 > 0 — Galois conjugates of the same algebraic pair (B6/B853); the mechanism
   self-consumes (B737-P2/B852: no re-equilibration channel).
+  **[2026-11-05, S305l, P-712: S3 sharpened (B867's addendum).** B6's cubic is unbounded below with one minimum and one
+  maximum (B295): (5√5−7)/12 is the cubic's maximum, not a barrier between vacua, and the motion −1/φ → φ is a roll; S3 is
+  present only through B852's Farey transition at s = 1. See docs/THE_BANG_PROGRAMME.md.**]
 
 **Explicit self-disclaimer, verbatim from the arc:** "NOT a computation of the asymmetry… no rate,
 no temperature, no asymmetry number… whether the play runs is a dynamics question the corpus does

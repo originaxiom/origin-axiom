@@ -18,13 +18,13 @@
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 710 |
-| … QUEUED | 293 |
+| register points | 716 |
+| … QUEUED | 297 |
 | … LEAD | 9 |
 | … OWNER | 4 |
-| … DONE | 393 |
+| … DONE | 395 |
 | … DECLINED | 11 |
-| harvest rows (the last number) | 1575 |
+| harvest rows (the last number) | 1582 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -56,18 +56,18 @@
 
 ## The last landings (CHANGELOG)
 
+- S305l THE BANG PROGRAMME OPENED (P-694): THE STAGE AUDITED; WAVE 1 AIMED AT WHAT PLACES τ, THE LINE AND A SCALE (2026-11-05)
+- S305k THE SEATS FETCHED: THE SM SEAT'S §§ 351–353 RE-RUN; THE AGY LANE'S STAGES 19–20 CHECKED; P-710 SEEN FIRST (2026-11-05)
 - S305j THE END CARDS READ: B1839 NEGATIVE, B1841 PROVED AS SEALED — A READING; STRUCTURE CARRIES THE SIX, NOT THE FRAME'S VALUES; THE TARGETS HELD (2026-11-05)
 - S305i BEFORE EITHER LOOK IS READ: B1841'S PRE-READ NOTE; THE CENSUS'S THIRD OPINION; THE SEATS REFETCHED (2026-11-05)
 - S305h GENESIS v1.62: THE JOINT CONFIRMATION, ADOPTED BEFORE B1839 IS READ (B1843); THE AGY LANE'S STRUCTURAL CLAIMS VERIFIED (2026-11-05)
 - S305g THE HOMEWORK FOR A CLOSURE: B1841 SEALED BEFORE B1839 IS READ; THE SEATS ENGAGED (2026-11-05)
 - S305f THE AGY LANE'S STAGES 14–15 READ AT THE OWNER'S WORD: NO JOINT EARNED, NOTHING THAT MOVES B1839; COMPLIANCE REGRESSED (2026-11-05)
 - S305e η_B JOINS THE HELD-OUT LIST; THE BANG PROGRAMME RULED (P-694, P-695) (2026-11-05)
-- S305d THE CONFIRMATION'S SCOPE FIXED BEFORE B1839 IS READ (THE SM SEAT'S S1–S4); THE AGY LANE'S STAGE 13 VERIFIED (2026-11-05)
-- S305c THE PRINCIPLED ENDS CLOSED AT FOUR BEFORE B1839'S LOOK RAN; THE HOLD LIFTS (2026-11-05)
 
 ## The latest campaign line
 
-LATEST (2026-11-05, S305j: B1839 NEGATIVE (a free level fails the six's screen); B1841 PROVED as sealed at E4 = L₂ − π/2 — a READING: on its order-5 line the leptons are the down sector and the frame's quark four alone are not specific (9.2%; P-706); the owner holds y_b/y_t and r unspent (P-709). 0 of 19.)
+LATEST (2026-11-05, S305l: THE BANG PROGRAMME opened (P-694, docs/THE_BANG_PROGRAMME.md) — the stage audited (B867's S3 rests on B295's no-double-well cubic; B852's Farey s = 1 the real transition); wave 1 aimed at what places τ, the line and a scale (P-712–P-716). 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
