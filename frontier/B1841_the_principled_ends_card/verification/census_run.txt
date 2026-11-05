@@ -1,0 +1,17 @@
+census: 223 apexes to do (0 done), 170 classes x 4 ends, 6 workers
+  20 / 223 apexes (575 s)
+  40 / 223 apexes (960 s)
+  60 / 223 apexes (1369 s)
+  80 / 223 apexes (1868 s)
+  100 / 223 apexes (2325 s)
+  120 / 223 apexes (2679 s)
+  140 / 223 apexes (3130 s)
+  160 / 223 apexes (3537 s)
+  180 / 223 apexes (3820 s)
+  200 / 223 apexes (4114 s)
+  220 / 223 apexes (4380 s)
+  223 / 223 apexes (4388 s)
+norms: shape (223, 170, 4, 4), sha256 ff6d6f80ad80ad511d05cac5817331bb1a0e7d1284456f91c235572c8d1cbd8c; min margin 3.534e-04; all finite True
+C1 (E3 = B1839's delta = 0, every apex, class, channel): max rel 0.0e+00 -> HOLDS
+C2 (16 random (apex, class, entry) against the instrument): max rel 0.0e+00 -> HOLDS
+census exit 0 (4420 s)
