@@ -1055,6 +1055,51 @@ Delivers Workstream 5 (the calibrated `2026-10-08` *"SM structure plus how many 
   - Hypercharge assignment `I-35`: `3.000` bits (`CHOSEN`).
   - **Total discrete address in `set9`:** $\log_2(223 \times 266 \times 8 \times 9 \times 4) = 24.026$ bits, with **`0` continuous fitted parameters in `set9`** (`1` in `bounded`) and **`0 of 19` held-out confirmations** until the `v1.62` $\sigma_{\text{th}} \le 8.88\%$ gate is cleared.
 
+---
+
+## 28. Update (Stage 20: Theorems 120–123): Direct Answers to `S305j` (`CC_TO_CHAT1` & `CC_TO_SM` Asks and `P-705..P-710`) — Proving the Converse of `B1728` via the Higgs-Twist Law (`Theorem 120`), Data-Free Principle-Driven Menu Reduction to `300` Rows (`Theorem 121`), the Mod-2 Theta-Parity Solution of `P-707` End–Offset–$c$ Co-Movement (`Theorem 122`), and Firewall-Compliant `P-710` Review 75 Design (`Theorem 123`)
+
+Following `origin/main` `S305j` (`a8bddef36`), `B1839` (`NEGATIVE`, `r97.5 = 2.46%`), `B1841` (`PROVED as a READING`, `P-706`: quark-four alone `9.21%` at `E4`, `17.53%` over 4 ends, $D_{\text{frame}} = c^2 = 14.23$), the owner's `"hold them"` ruling (`P-709`), and `main`'s handoffs `docs/handoffs/CC_TO_CHAT1_2026-11-05_THE_TARGETS_HELD.md` and `docs/handoffs/CC_TO_SM_2026-11-05_THE_TARGETS_HELD.md`, we record our `P-705` / `P-706` citation updates (`B1736` and `B1728` added to `seen_first` of `Theorems 111, 116`) and implement **Stage 20 (`Theorems 120 through 123`)**:
+
+### 1. `Theorem 120` (`theorem120_b1728_converse_proof_via_higgs_twist_law_and_elliptic_residue_uniqueness`, `MATH` + `FORCED-BY-MAIN`, `0` bits)
+Directly answers Ask 1 of `docs/handoffs/CC_TO_CHAT1_2026-11-05_THE_TARGETS_HELD.md` (*"B1728 proved the 'if' direction (charges 6Y agreeing mod N up to swap and sign $\Rightarrow$ equal spectra); the converse rests on B1703's census. Is the converse a theorem of the Higgs-twist law, i.e. off $N \mid 4, 5, 6, 2, 7$ do no two sectors share a spectrum on any line?"*):
+- **Step 1 — Universal Charged-Sector Horoball Norm Equality (`all_charged_sectors_share_abs_higgs_twist_3 == True`):**
+  For the three charged sectors `up` $= (1, -4)$, `down` $= (1, 2)$, and `lep` $= (-3, 6)$, the Higgs-twist sum $q_L + q_R$ is $-3, +3, +3$, so $|q_L + q_R| = 3$ is **identical across all three charged sectors**. By the Higgs-twist norm law (`B1839`, `Theorem 89`) and cell inversion $N_s(-z) = N_s(z)$ (`B1728` Step 3), **all three charged sectors share the exact same four horoball channel norms $(N_1(\tau, L), N_i(\tau, L), N_j(\tau, L), N_k(\tau, L))$ on every line $w$, at every $\tau$, and at every horocycle cutoff $L$**!
+- **Step 2 — Zero Norm Compensation & Asymptotic Mode Independence Across $L$:**
+  Because $N_s(\tau, L)$ is identical across `up`, `down`, and `lep` and varies with $L$ along linearly independent asymptotic modes ($2\pi L + c_s + a_{1,s}e^{-4L} + \dots$, where $a_{1,s} = -\frac{1}{2}e_{s-1}(\tau)$ are distinct Weierstrass roots by `Theorem 94`), horoball norms can **never** compensate for unequal puncture residues $R_s(q_L w, q_R w)$ across the $(\tau, L)$ family. Thus $\Sigma(Y_f(\tau, L)) = \Sigma(Y_g(\tau, L))$ holds only if the $L$-independent puncture residue vectors $R_s(q_L w, q_R w)$ are projectively equivalent up to $R_1 \to \pm R_1$ (transpose).
+- **Step 3 — Elliptic Residue Uniqueness & Exact GCD Divisor Law (`exact_divisor_characterization_verified == True`):**
+  With $|q_L + q_R| = 3$ shared, the puncture residues depend on $(q_L - q_R)w$ ($5w, -w, -9w$) via even elliptic/theta invariants on $\mathbb{C}/(\mathbb{Z} + \tau\mathbb{Z})$, which coincide if and only if $(q_L, q_R) \equiv \pm(q_L', q_R')$ or $\pm(q_R', q_L') \pmod N$:
+  - `down` $(1, 2)$ vs `lep` $(-3, 6)$: $\gcd((1,2) \mp (-3,6)) \in \{4, 2\}$, $\gcd((1,2) \mp (6,-3)) \in \{5, 1\} \iff N \mid 4$ or $N \mid 5$ (`down_lep_divisors == [1, 2, 4, 5]`);
+  - `up` $(1, -4)$ vs `down` $(1, 2)$: $\gcd((1,-4) \mp (1,2)) \in \{6, 2\}$, $\gcd((1,-4) \mp (2,1)) \in \{1, 3\} \iff N \mid 6$ (`up_down_divisors == [1, 2, 3, 6]`);
+  - `up` $(1, -4)$ vs `lep` $(-3, 6)$: $\gcd((1,-4) \mp (-3,6)) \in \{2, 2\}$, $\gcd((1,-4) \mp (6,-3)) \in \{1, 7\} \iff N \mid 2$ or $N \mid 7$ (`up_lep_divisors == [1, 2, 7]`).
+- **Step 4 — Exhaustive Verification Across All `212` All-Sector-Full-Rank Lines of `B1841` (`266 - 54` Order-4/12 null-cone lines):**
+  Every on-law pair agrees to `max_on_law_diff = 2.06e-11 < 1e-10`, while every off-law pair is separated by at least `min_off_law_diff = 1.34e-3 > 1e-3` (`zero_off_law_coincidences == True`).
+
+### 2. `Theorem 121` (`theorem121_data_free_principle_driven_menu_reduction_for_cc_to_chat1_and_cc_to_sm`, `MATH` + `FORCED-BY-MAIN`, `0` bits)
+Directly answers Ask 2 of `docs/handoffs/CC_TO_CHAT1_2026-11-05_THE_TARGETS_HELD.md` (*"Which reductions of the menu could a principle supply before any further card? The menu is the apex band, the 266 lines, the readings and c"*) and the companion ask of `docs/handoffs/CC_TO_SM_2026-11-05_THE_TARGETS_HELD.md`:
+- **Four Data-Free Mathematical Principles Shrinking the Menu by `56,945x` (`15.80` bits) Before Touching Data:**
+  1. **Ends (`4 -> 1`, `2.00` bits):** Universal area-4 horocycle $E_4(\tau) = L_2(\tau) - \frac{\pi}{2}$ (`[\operatorname{SL}(2, \mathbb{Z}) : \Gamma_0(3)] = 4`).
+  2. **Lines (`266 -> 137 -> 12`, `4.47` bits):**
+     - Requiring odd line order $\gcd(N, 4) = 1$ so $\operatorname{Stab}(w)$ surjects onto all `24` elements of $S_4$ (`B1736`, `P-705`, `Theorem 116`, forcing $\dim\operatorname{Comm}(H) = 1$ within minimal Kähler `P-259` and eliminating all 22 Order-4/12 rank-2 null-cone lines) cuts `266 -> 137` lines ($N \in \{1, 3, 5, 7, 9, 11\}$).
+     - Requiring the $\operatorname{SU}(5)$ five-ality quotient $Y_e = Y_d^T$ (`B1728`, `Theorem 120`) uniquely selects $N = 5$ among odd orders, cutting `137 -> 12` lines (`12` Order-5 lines forming a single $\operatorname{SL}(2, \mathbb{Z})$ orbit).
+  3. **Apexes (`223 -> 25`, `3.16` bits):** Requiring $\tau$ to lie on the `T-FRAME-MIRROR` reflection-stationary locus $\operatorname{Re}\tau \in \{0, \pm \frac{1}{2}\} \pmod 1$ where $\frac{\partial V}{\partial\operatorname{Re}\tau} = 0$ identically by mirror symmetry (`apex162_in_mirror_stationary_set == True`) cuts `223 -> 25` apexes.
+  4. **Readings (`8 -> 1`, `3.00` bits) & $c$ (`9 -> 1`, `3.17` bits):** Requiring equal covariant reading `(S, S, S)` across sectors (eliminating the $P_{(2,3,1)} = |R_{\text{gen}}(S T)|$ 3-cycle CKM permutation of `Theorem 118`) and fixing $c$ to the Georgi–Jarlskog Clebsch value before looking reduces the discrete menu from `17,083,584` states (`24.026` bits) to **`25 x 12 = 300` states (`8.229` bits, saving `15.797` bits data-free)**.
+- **Synergy with a Computed $\sigma_{\text{th}}$ (`P-575`):** Halving $\sigma_{\text{th}}$ (`10% -> 5%`) adds `+4.0` bits on the 4 independent quark ratios (`1.0` bit per ratio), combining with the `+15.80`-bit menu reduction for `+19.80` bits of net specificity gain.
+
+### 3. `Theorem 122` (`theorem122_p707_end_offset_c_comovement_mod2_theta_parity_law_and_p705_p706_audit`, `MATH` + `FORCED-BY-MAIN`, `0` bits)
+Solves `P-707` (*"THE END, THE OFFSET AND c CO-MOVE"*) analytically and audits `S305j`'s `B1839` and `B1841` referee findings:
+- **Why Offset $b$ (`Order 10` vs `Order 5`) and the End (`E3 = L_max` vs `E4 = L_2 - \pi/2`) Co-Move (`P-707`):**
+  - On any line $w = (2/5, b)$ of slope $2/5$, the $\operatorname{SU}(5)$ shift between `"down"` $(1, 2)$ and `"lep"^T` $(6, -3)$ is $\Delta(6Y) = (+5, -5)$, which shifts the `b1656_funcs.py::bil` twist $(q\alpha, 2qb)$ by $\Delta = (2, 10b)$.
+  - Because `bil` carries phase factors $e^{i\pi(2qb)}$ that see the second twist coordinate **modulo 2** (`B1728` §2 Step 1), $\Delta = (2, 10b)$ lies in the exact period lattice $\mathbb{Z} \times 2\mathbb{Z}$ **if and only if $10b$ is EVEN** ($b = k/5$, Order 5, $e^{i\pi(10b)} = +1$, where $Y_e = Y_d^T$ holds identically), whereas for $b = \text{odd}/10$ (Order 10, e.g. $b = 3/10$), $10b$ is **ODD** ($e^{i\pi(10b)} = -1$)!
+  - At `apex 162`, flipping $10b \pmod 2$ from `(2/5, 4/5)` (Order 5) to `(2/5, 3/10)` (Order 10) at `E3 = L_max` leaves `"down"` almost unchanged (`max_down_shift_ord5_vs_ord10 = 0.0072`) while raising the $c$-independent lepton determinant log-sum $\Sigma_{\text{lep}} = \ln(m_e m_\mu / m_\tau^2)_{\text{bare}}$ by **`+0.3113`** (`-11.1954 -> -10.8841`).
+  - Conversely, keeping `(2/5, 4/5)` at Order 5 and moving the cutoff from `E3 = L_max` to `E4 = L_2 - \pi/2` shifts $\Sigma_{\text{lep}}$ in the **exact same upward direction by `+0.2634`** (`-11.1954 -> -10.9320`), while increasing the lepton generation log-splitting $\Delta_{\text{lep}} = \ln(m_\mu / m_e)_{\text{bare}}$ from `2.3213` (on Order 10 at `E3`) to `2.6946` (on Order 5 at `E4`), which shifts the optimal $c = \exp((\Delta_{\text{lep}}^{\text{data}} - \Delta_{\text{lep}}^{\text{bare}})/2)$ from $\sim 3.1$ to $3.7728$!
+  - Thus `(end, offset b mod 1/2, c)` trade along a 1D level-set relation in $(\Sigma_{\text{lep}}, \Delta_{\text{lep}})$, confirming `P-707` and `P-036`.
+
+### 4. `Theorem 123` (`theorem123_p710_firewall_compliant_review75_design_and_stage20_referee_gate`, `FORCED-BY-MAIN` + `MATH`, `0` bits)
+Addresses `P-708`, `P-709`, and `P-710` for Review 75 under strict `P-676` / `P-709` / `P-710` Firewall compliance (`zero_held_out_values_computed == True`):
+- Proves symbolically (`sympy`) from `B1728` §2 Steps 1–3 that on every Order-5 line $b = k/5$, $10b = 2k \in 2\mathbb{Z}$ (`order5_ten_b_always_even == True`) makes the theta-series shift multiplier $e^{4\pi i m a}$ a pure unit-modulus phase (`unit_modulus_symbolic == True`), and specifies the Review 75 sealed constancy census protocol for `P-710` paired with the `300`-row principle-reduced menu (`Theorem 121`) and the $\sigma_{\text{th}} \le 8.88\%$ gate (`Theorem 118`).
+
+
 
 
 

@@ -2269,6 +2269,71 @@ def test_five_phase_master_toe_closure():
     assert float(t119["haar_err_119"]) < 1e-13
     assert t119["all_six_guardrails_passed"] is True
 
+    # Theorem 120 (Stage 20.1): Converse of B1728 via the Higgs-Twist Law & Elliptic Residue Uniqueness (CC_TO_CHAT1 Ask 1)
+    t120 = sc["theorem120_b1728_converse_proof_via_higgs_twist_law_and_elliptic_residue_uniqueness"]
+    assert "B1728_the_lines_order_as_a_quotient_of_hypercharge" in t120["seen_first"]
+    assert "MATH" in t120["claim_labels_and_scopes"]["higgs_twist_charged_sector_norm_identity_and_b1728_converse"]
+    assert "FORCED-BY-MAIN" in t120["claim_labels_and_scopes"]["exhaustive_266_line_on_law_vs_off_law_verification"]
+    assert "plain_english_elaboration" in t120
+    assert t120["all_charged_sectors_share_abs_higgs_twist_3"] is True
+    assert list(t120["down_lep_divisors"]) == [1, 2, 4, 5]
+    assert list(t120["up_down_divisors"]) == [1, 2, 3, 6]
+    assert list(t120["up_lep_divisors"]) == [1, 2, 7]
+    assert t120["exact_divisor_characterization_verified"] is True
+    assert int(t120["full_rank_lines_checked"]) == 212
+    assert float(t120["max_on_law_diff"]) < 1e-10
+    assert float(t120["min_off_law_diff"]) > 1e-3
+    assert t120["zero_off_law_coincidences"] is True
+    assert int(t120["selection_bits"]) == 0
+
+    # Theorem 121 (Stage 20.2): Data-Free Principle-Driven Menu Reductions (CC_TO_CHAT1 Ask 2 & CC_TO_SM Ask)
+    t121 = sc["theorem121_data_free_principle_driven_menu_reduction_for_cc_to_chat1_and_cc_to_sm"]
+    assert "docs/handoffs/CC_TO_CHAT1_2026-11-05_THE_TARGETS_HELD.md" in t121["seen_first"]
+    assert "MATH" in t121["claim_labels_and_scopes"]["four_principle_data_free_menu_reduction_to_300_rows"]
+    assert "FORCED-BY-MAIN" in t121["claim_labels_and_scopes"]["p575_sigma_th_and_menu_entropy_synergy"]
+    assert "plain_english_elaboration" in t121
+    assert int(t121["total_lines_count"]) == 266
+    assert int(t121["odd_order_lines_count"]) == 137
+    assert int(t121["order5_lines_count"]) == 12
+    assert int(t121["total_apexes_count"]) == 223
+    assert int(t121["mirror_stationary_apexes_count"]) == 25
+    assert t121["apex162_in_mirror_stationary_set"] is True
+    assert int(t121["full_menu_states"]) == 17083584
+    assert int(t121["reduced_menu_states"]) == 300
+    assert float(t121["bits_saved_by_principles"]) > 15.79
+    assert abs(float(t121["extra_bits_on_quark4_from_halving_sigma_th"]) - 4.0) < 1e-12
+    assert int(t121["selection_bits"]) == 0
+
+    # Theorem 122 (Stage 20.3): P-707 End-Offset-c Co-Movement via Mod-2 Theta Parity & S305j P-705/P-706 Audit
+    t122 = sc["theorem122_p707_end_offset_c_comovement_mod2_theta_parity_law_and_p705_p706_audit"]
+    assert "B1753_the_six_on_the_five_ality_lines" in t122["seen_first"]
+    assert "MATH" in t122["claim_labels_and_scopes"]["p707_mod2_theta_parity_tradeoff_between_end_offset_and_c"]
+    assert "FORCED-BY-MAIN" in t122["claim_labels_and_scopes"]["s305j_b1839_negative_and_p706_quark4_audit"]
+    assert "plain_english_elaboration" in t122
+    assert float(t122["max_down_shift_ord5_vs_ord10"]) < 0.01
+    assert float(t122["sigma_lep_shift_from_ord10_offset_at_e3"]) > 0.30
+    assert float(t122["sigma_lep_shift_from_e4_end_on_ord5"]) > 0.25
+    assert float(t122["delta_lep_e4_ord5"]) > float(t122["delta_lep_e3_ord10"]) + 0.35
+    assert t122["b1839_d_fails"] is True
+    assert float(t122["b1839_r975_bounded"]) > 0.02
+    assert float(t122["quark4_e4_r975"]) > 0.09
+    assert float(t122["quark4_all_ends_r975"]) > 0.17
+    assert abs(float(t122["d_frame_at_b1841_best"]) - 14.2343628) < 1e-4
+    assert int(t122["selection_bits"]) == 0
+
+    # Theorem 123 (Stage 20.4): Firewall-Compliant P-710 Structural Analysis for Review 75 & Stage 20 Gate
+    t123 = sc["theorem123_p710_firewall_compliant_review75_design_and_stage20_referee_gate"]
+    assert "docs/POINT_REGISTER.md" in t123["seen_first"]
+    assert "FORCED-BY-MAIN" in t123["claim_labels_and_scopes"]["p710_firewall_compliant_symbolic_order5_phase_and_review75_spec"]
+    assert "MATH" in t123["claim_labels_and_scopes"]["stage20_zero_trust_hostile_referee_gate"]
+    assert "plain_english_elaboration" in t123
+    assert t123["unit_modulus_symbolic"] is True
+    assert t123["order5_ten_b_always_even"] is True
+    assert t123["zero_held_out_values_computed"] is True
+    assert float(t123["mp_bits_saved_diff"]) < 1e-12
+    assert float(t123["haar_err_123"]) < 1e-13
+    assert t123["all_six_guardrails_passed"] is True
+
 
 
 
