@@ -1870,6 +1870,8 @@ def test_five_phase_master_toe_closure():
     assert int(t95["jacobian_rank"]) == 2
     assert float(t95["abs_det_jacobian"]) > 0.1
     assert float(t95["off_diagonal_decoupling_err"]) < 1e-12
+    assert int(t95["shared_tau_jacobian_rank"]) == 2
+    assert float(t95["shared_tau_abs_det_jacobian"]) > 4.0
     assert t95["orders_13_tested"] == [2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 20, 30]
     assert float(t95["n7_lep_up_transpose_err"]) < 1e-14
     assert float(t95["n9_lep_symmetric_err"]) < 1e-14
@@ -2048,6 +2050,67 @@ def test_five_phase_master_toe_closure():
     assert float(rc106["independent_fresh_haar_invariance_err_t106"]) < 1e-13
     assert float(rc106["max_precision_err_stage16"]) < 1e-11
     assert t106["all_six_guardrails_passed"] is True
+
+    # Theorem 107 (Stage 17.1): 1-Loop Modular pi-Cancellation Theorem & Algebraic Q(sqrt(3)) RG Shifts
+    t107 = sc["theorem107_loop_modular_pi_cancellation_and_exact_algebraic_rg_shifts"]
+    assert "B1696_tau_is_the_cusp_shape" in t107["seen_first"]
+    assert "MATH" in t107["claim_labels_and_scopes"]["one_loop_modular_pi_cancellation_theorem"]
+    assert "MATH" in t107["claim_labels_and_scopes"]["root_field_q_sqrt3_algebraicity_of_1loop_shifts"]
+    assert "plain_english_elaboration" in t107
+    assert float(t107["sympy_1loop_pi_cancellation_residual"]) == 0.0
+    assert t107["pi_absent_at_1loop"] is True
+    assert t107["two_loop_retains_one_inverse_pi"] is True
+    assert float(t107["cusp_quarter_equals_im_omega_err"]) == 0.0
+    assert t107["algebraic_shifts_verified"] is True
+    assert float(t107["max_num_vs_sym_err"]) < 1e-14
+    assert int(t107["selection_bits"]) == 0
+
+    # Theorem 108 (Stage 17.2): Exact Electroweak Scale Cancellation in alpha_EM^{-1}(IR) - alpha_3^{-1}(mu_EW)
+    t108 = sc["theorem108_exact_electroweak_scale_cancellation_in_em_minus_qcd_running"]
+    assert "B1684_w59_on_main" in t108["seen_first"]
+    assert "MATH" in t108["claim_labels_and_scopes"]["exact_bosonic_ew_and_qcd_beta_equality_at_ng3"]
+    assert "MATH" in t108["claim_labels_and_scopes"]["exact_ln_mu_ew_cancellation_in_em_minus_qcd_running"]
+    assert "plain_english_elaboration" in t108
+    assert t108["unique_to_three_generations_for_nh1"] is True
+    assert float(t108["bosonic_equals_qcd_at_ng3_err"]) == 0.0
+    assert float(t108["em_minus_qcd_equals_qed_err"]) == 0.0
+    assert float(t108["ln_mu_ew_derivative_err"]) == 0.0
+    assert t108["ln_mu_ew_completely_cancelled"] is True
+    assert float(t108["symbolic_formula_match_err"]) == 0.0
+    assert int(t108["selection_bits"]) == 0
+
+    # Theorem 109 (Stage 17.3): Exact Fermion & Higgs Cancellation in Pati-Salam 5*b_1 - 3*b_2 - 2*b_3 = 44
+    t109 = sc["theorem109_exact_fermion_and_higgs_cancellation_in_pati_salam_beta_combination"]
+    assert "B1601_the_common_point_is_the_geometry_mod_3" in t109["seen_first"]
+    assert "MATH" in t109["claim_labels_and_scopes"]["exact_fermion_and_higgs_cancellation_in_pati_salam_beta"]
+    assert "MATH" in t109["claim_labels_and_scopes"]["algebraic_1loop_pati_salam_invariant"]
+    assert "plain_english_elaboration" in t109
+    assert float(t109["fermion_coeff"]) == 0.0
+    assert float(t109["higgs_coeff"]) == 0.0
+    assert float(t109["su2_ym_contribution"]) == 22.0
+    assert float(t109["su3_ym_contribution"]) == 22.0
+    assert float(t109["b_ps_exact_value"]) == 44.0
+    assert float(t109["pure_ym_equipartition_err"]) == 0.0
+    assert float(t109["l_ps_pi_cancellation_err"]) == 0.0
+    assert int(t109["selection_bits"]) == 0
+
+    # Theorem 110 (Stage 17.4): Direct Pushback on S305f, Shared-Parameter GAP1 Proof, Unmasked RGE Proof, & Stage 17 Gate
+    t110 = sc["theorem110_s305f_pushback_shared_parameter_gap1_proof_and_stage17_referee_gate"]
+    assert "B1684_w59_on_main" in t110["seen_first"]
+    assert "MATH" in t110["claim_labels_and_scopes"]["s305f_pushback1_shared_parameter_gap1_jacobian_proof"]
+    assert "MATH" in t110["claim_labels_and_scopes"]["s305f_pushback2_unstructured_random_matrix_1loop_sm_yt_cancellation"]
+    assert "FORCED-BY-MAIN" in t110["claim_labels_and_scopes"]["s305f_pushback3_p697_p698_and_law_map_verification"]
+    assert "plain_english_elaboration" in t110
+    assert int(t110["shared_tau_jacobian_rank"]) == 2
+    assert float(t110["shared_tau_abs_det_jacobian"]) > 4.0
+    assert float(t110["mpmath_shared_tau_det_agreement_err"]) < 1e-5
+    assert float(t110["unstructured_random_matrix_yt_ratio_invariance_err"]) < 1e-8
+    assert t110["durable_git_info_salt_present"] is True
+    assert t110["p698_b08_solver_independent_closed"] is True
+    assert int(t110["orders_13_count"]) == 13
+    assert float(t110["haar_err_110"]) < 1e-13
+    assert t110["all_six_guardrails_passed"] is True
+
 
 
 
