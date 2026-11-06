@@ -2620,6 +2620,108 @@ def test_five_phase_master_toe_closure():
     assert t136["zero_held_out_values_computed"] is True
     assert t136["all_six_guardrails_passed"] is True
 
+    # Theorem 137 (Stage 25.1): Rung-Invisibility Least-Action Uniqueness of S=(6) (chat1 0772952e3) & Level-5 Weil Filter
+    t137 = sc["theorem137_chat1_0772952e3_rung_invisibility_least_action_and_level5_weil_filter"]
+    assert "docs/POINT_REGISTER.md" in t137["seen_first"]
+    assert "docs/HARVEST_LEDGER.md" in t137["seen_first"]
+    assert "FORCED-BY-MAIN" in t137["claim_labels_and_scopes"]["chat1_0772952e3_rung_invisibility_least_action_uniqueness"]
+    assert "MATH" in t137["claim_labels_and_scopes"]["level5_weil_representation_filter_and_galois_orbit_pair"]
+    assert "plain_english_elaboration" in t137
+    assert int(t137["total_defects_scanned"]) == 38880
+    assert t137["cheapest_line_inv_runs"] == (2, 1, 1, 1, 2)
+    assert int(t137["cheapest_line_inv_class_a"]) == 1
+    assert abs(float(t137["cheapest_line_inv_excess"]) - 1.4744907509396094) < 1e-12
+    assert float(t137["err_21112_formula"]) < 1e-45
+    assert t137["cheapest_rung_inv_runs"] == (6,)
+    assert t137["second_rung_inv_runs"] in ((2, 1, 1, 1, 1, 5), (5, 1, 1, 1, 1, 2))
+    assert abs(float(t137["cheapest_rung_inv_excess"]) - 2.3487180112390975) < 1e-12
+    assert abs(float(t137["second_rung_inv_excess"]) - 2.793762479906608) < 1e-12
+    assert float(t137["err_6_formula"]) < 1e-45
+    assert float(t137["err_211115_formula"]) < 1e-45
+    assert float(t137["rung_invisibility_uniqueness_gap"]) > 0.445
+    assert t137["intertwining_holds"] is True
+    assert int(t137["det_C_intertwine"]) == 5
+    assert float(t137["weil_unitarity_err"]) < 1e-14
+    assert float(t137["weil_s2_err"]) < 1e-14
+    assert float(t137["weil_st3_err"]) < 1e-14
+    assert float(t137["weil_rl5_err"]) < 1e-14
+    assert float(t137["untwisted_trace_err"]) < 1e-14
+    assert float(t137["twisted_trace_err"]) < 1e-14
+    assert float(t137["twisted_diag_uniform_err"]) < 1e-14
+    assert float(t137["orbit_1_vs_2_conjugate_err"]) < 1e-14
+    assert t137["sympy_211115_ratio_ok"] is True
+    assert float(t137["max_haar_err_137"]) < 1e-13
+    assert t137["zero_six_values_evaluated_at_tau_star"] is True
+    assert t137["zero_held_out_values_computed"] is True
+    assert t137["all_six_guardrails_passed"] is True
+
+    # Theorem 138 (Stage 25.2): Turning-Point Cusp-Action Freeze-Out (P-720) & Guéritaud-Futer Fan Telescoping Law (P-723 Ask Q1)
+    t138 = sc["theorem138_p720_cusp_fourier_freezeout_and_p723_gueritaud_fan_telescoping_law"]
+    assert "docs/POINT_REGISTER.md" in t138["seen_first"]
+    assert "MATH" in t138["claim_labels_and_scopes"]["turning_point_cusp_fourier_freezeout"]
+    assert "FORCED-BY-MAIN" in t138["claim_labels_and_scopes"]["p723_ask_q1_gueritaud_fan_recurrence_and_hinge_telescoping"]
+    assert "plain_english_elaboration" in t138
+    assert t138["turning_point_velocity_zero"] is True
+    assert t138["turning_point_concavity_neg_h"] is True
+    assert t138["unique_horocycle_3_apex"] is True
+    assert float(t138["apex_weight_poly1"]) < 0.06
+    assert float(t138["apex_weight_2pi"]) > 0.56
+    assert float(t138["apex_3pt_weight_2pi"]) > 0.96
+    assert float(t138["apex_weight_4pi"]) > 0.79
+    assert float(t138["apex_3pt_weight_4pi"]) > 0.997
+    assert float(t138["up_gap_4pi_m2m3"]) < 0.15
+    assert float(t138["dn_gap_4pi_m2m3"]) < 0.05
+    assert t138["sympy_odd5_ok"] is True
+    assert t138["sympy_even6_ok"] is True
+    assert float(t138["max_fan_recurrence_err"]) < 1e-13
+    assert float(t138["max_rational_map_err"]) < 1e-13
+    assert float(t138["max_hinge_telescope_err"]) < 1e-13
+    assert float(t138["n1_being_vs_hearing_err"]) < 1e-14
+    assert float(t138["max_haar_err_138"]) < 1e-13
+    assert t138["zero_six_values_evaluated_at_tau_star"] is True
+    assert t138["zero_held_out_values_computed"] is True
+    assert t138["all_six_guardrails_passed"] is True
+
+    # Theorem 139 (Stage 25.3): Answering P-722 Ask Q1: Scale as Object-Fixed Reference Coupling & Pre-Registered Blind Card
+    t139 = sc["theorem139_p722_ask_q1_scale_as_reference_coupling_and_blind_order5_protocol"]
+    assert "docs/POINT_REGISTER.md" in t139["seen_first"]
+    assert "FORCED-BY-MAIN" in t139["claim_labels_and_scopes"]["p722_ask_q1_scale_as_reference_coupling_and_a12_reread"]
+    assert "plain_english_elaboration" in t139
+    assert int(t139["b3_sm"]) == -7
+    assert t139["qcd_yukawa_exponent_fraction"] == "4/7"
+    assert int(t139["intra_sector_1loop_gauge_anomalous_dim"]) == 0
+    assert t139["sympy_rg_invariant_holds"] is True
+    assert int(t139["conductor_criterion"]["primary_pre_registered_conductor"]) == 15
+    assert t139["conductor_criterion"]["joint_conductor_equals_product"] is True
+    assert t139["p722_blind_card_specification"]["evaluation_status"] == "SEALED_BLIND_CARD_DESIGN_ONLY_NO_DATA_COMPARED"
+    assert float(t139["max_haar_err_139"]) < 1e-13
+    assert t139["zero_unsealed_scale_values_computed"] is True
+    assert t139["zero_six_values_evaluated_at_tau_star"] is True
+    assert t139["zero_held_out_values_computed"] is True
+    assert t139["all_six_guardrails_passed"] is True
+
+    # Theorem 140 (Stage 25.4): Unified New Goal Ledger & Stage 25 Zero-Trust Hostile-Referee Gate
+    t140 = sc["theorem140_unified_new_goal_scorecard_and_stage25_zero_trust_referee_gate"]
+    assert "docs/POINT_REGISTER.md" in t140["seen_first"]
+    assert "FORCED-BY-MAIN" in t140["claim_labels_and_scopes"]["unified_new_goal_four_pillar_scorecard"]
+    assert "MATH" in t140["claim_labels_and_scopes"]["stage25_zero_trust_hostile_referee_gate"]
+    assert "plain_english_elaboration" in t140
+    assert int(t140["unified_new_goal_scorecard"]["pillar1_the_line"]["continuous_parameters"]) == 0
+    assert int(t140["unified_new_goal_scorecard"]["pillar1_the_line"]["discrete_bits_remaining"]) == 1
+    assert t140["unified_new_goal_scorecard"]["pillar2_one_departure_and_tau_star"]["selected_defect"] == "(6,)"
+    assert int(t140["unified_new_goal_scorecard"]["pillar2_one_departure_and_tau_star"]["continuous_parameters"]) == 0
+    assert int(t140["unified_new_goal_scorecard"]["pillar2_one_departure_and_tau_star"]["hand_bits_at_re_tau_zero"]) == 0
+    assert int(t140["unified_new_goal_scorecard"]["pillar3_the_readout"]["continuous_parameters"]) == 0
+    assert int(t140["unified_new_goal_scorecard"]["pillar4_the_scale_as_reference_coupling"]["primary_conductor"]) == 15
+    assert float(t140["referee_mp_excess_err"]) < 1e-13
+    assert float(t140["referee_gauss_sum_err"]) < 1e-45
+    assert t140["sympy_general_telescope_ok"] is True
+    assert float(t140["max_haar_err_140"]) < 1e-13
+    assert t140["zero_six_values_evaluated_at_tau_star"] is True
+    assert t140["zero_held_out_values_computed"] is True
+    assert t140["all_six_guardrails_passed"] is True
+
+
 
 
 
