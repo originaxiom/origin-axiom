@@ -18,8 +18,8 @@
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 718 |
-| … QUEUED | 295 |
+| register points | 719 |
+| … QUEUED | 296 |
 | … LEAD | 9 |
 | … OWNER | 4 |
 | … DONE | 399 |
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S305p THE SCALE WALL TESTED (R75-7, P-719; the owner: 'Test the wall') (2026-11-06)
 - S305o THE LINE IS THE OBJECT'S OWN; THE EXCURSION INHERITS IT (P-717, P-718; 2026-11-06)
 - S305n P-717'S CONTROL AND P-715'S WALL (2026-11-06)
 - S305m THE GOAL SET: A PROCESS THAT PLACES τ, THE LINE AND AN ENERGY SCALE; THE FAREY TRANSITION PLACES NOTHING; ONE CANDIDATE, P-717 (2026-11-06)
@@ -63,11 +64,10 @@
 - S305k THE SEATS FETCHED: THE SM SEAT'S §§ 351–353 RE-RUN; THE AGY LANE'S STAGES 19–20 CHECKED; P-710 SEEN FIRST (2026-11-05)
 - S305j THE END CARDS READ: B1839 NEGATIVE, B1841 PROVED AS SEALED — A READING; STRUCTURE CARRIES THE SIX, NOT THE FRAME'S VALUES; THE TARGETS HELD (2026-11-05)
 - S305i BEFORE EITHER LOOK IS READ: B1841'S PRE-READ NOTE; THE CENSUS'S THIRD OPINION; THE SEATS REFETCHED (2026-11-05)
-- S305h GENESIS v1.62: THE JOINT CONFIRMATION, ADOPTED BEFORE B1839 IS READ (B1843); THE AGY LANE'S STRUCTURAL CLAIMS VERIFIED (2026-11-05)
 
 ## The latest campaign line
 
-LATEST (2026-11-06, REVIEW 75 (B1844): the sample read in full holds (three dated notes); Review 74's loop closed; the Stage 16–18 ranges sealed; P-707 (frame A 13 joints), P-708 (the six retired as a decisive cell) ruled; THE COUNT adopted; next R75-6 (P-717's read-out) and R75-7 (the scale wall re-audited). 0 of 19.)
+LATEST (2026-11-06, S305p: the scale wall tested (P-719) — absolute energy impossible (units); a dimensionless scale ratio not excluded (B151 sharpened, B660 scoped); missing: a principle fixing the level, candidate 5 (P-718), firewalled. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
