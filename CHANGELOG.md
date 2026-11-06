@@ -1,5 +1,10 @@
 # Changelog
 
+## S305u THE HYPERBOLIC METRIC'S OWN READ-OUT (P-723; 2026-11-06)
+
+- **The excursion's layered tetrahedra converge to canonical shapes:** run 5, height 2.146; run 6, height 2.459 (SnapPy, data-free).
+- **They do not coincide with the Teichmüller apex τ*.** The object's 3D geometry reads the excursion at a different, lower point: a second object-native candidate for τ, with its own read-out choice. No data compared. P-723; FLOOR 723. 0 of 19.
+
 ## S305t THE SEATS FETCHED AGAIN; THE CANDIDATE REFEREED; THE SCALE QUESTION (2026-11-06)
 
 - **The owner:** 'fetch all pther seats'.

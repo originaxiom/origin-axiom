@@ -18566,3 +18566,9 @@ cheapest departure is a shallow one, so the deep excursion is still chosen, not 
 were measured and are too small to fix the read-out. On the owner's question about the scale: an absolute energy was
 never a fair ask; a scale is really a coupling read through running; and comparing a unification-type structure at the Z
 mass may itself have been the wrong expectation. 0 of 19.
+
+## 2026-11-06 — S305u: the geometry's own reading
+
+The object's hyperbolic structure gives every step of the excursion a definite shape, and those shapes settle down. But
+the deepest one sits lower than the point the frame reads, so the geometry does not confirm that reading; it offers its
+own, with its own choice of which step to read. 0 of 19.
