@@ -1,5 +1,12 @@
 # Changelog
 
+## S306a THE SEATS FETCHED: THE READ-OUT THE HISTORY'S SYMMETRY FORCES (2026-11-06)
+
+- **The owner:** 'fetch other seats'.
+- **The web seat's read-out check, re-run on main** (identical; rounding only at 1e-59). The one-departure history's only symmetry fixes exactly one point, the apex. With a point read-out and no arrow, P-717's read-out is forced. A departure seen at all needs a point read-out, since the average is blind to it.
+- **Also from the web seat:** 'the zero line is where the knot is' (the nonzero line restated) and 'the level is the line's own' (coker(LR + I) = ℤ/5; a rationale for 5, not a removal). All seven of its scripts in the directory reproduce on main.
+- **The agy lane's Stages 26–27,** through the mask (the twins' claims owed main's check). Rows 1593–1596; pins chat1 1f770e82, agyaudit 315a00e5. 0 of 19.
+
 ## S305z THE PLEATED LAYERS READ; EVERY CHOICE AT ONCE; BOTH TWINS (P-723, P-724, P-725; 2026-11-06)
 
 - **The pleated-layer build is complete for the excursion member L⁶RLR, data-free, every stage checked:**
