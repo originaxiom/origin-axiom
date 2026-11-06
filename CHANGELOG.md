@@ -1,5 +1,18 @@
 # Changelog
 
+## S306g REVIEW 76'S ITEMS WORKED: THE TUBE'S OWN MODULUS (B1847 § 8; P-727 DONE), DOOR C'S C5, R2'S FORM (2026-11-06)
+
+- **The owner:** 'lets do them'.
+- **R76-5, the tube.** The level surface meshed inside the FULL group's Ford domain (`stage_e_gamma.py`).
+  - **The method:** complete, volume-validated faces (5.5805 ± 0.0172 against 5.5864); a doubly periodic grid; sheets lifted by T₂⁻ⁿ; every identification's period through the monodromy cocycle.
+  - **The controls pass:** s = ¼ and ½.
+  - **The tube level is regular** (|dθ| = 0.042 on the core). At s = 0 exactly the meshers degenerate, because the core lies on a domain face.
+  - **So its modulus is the limit of τ(s): Im τ(Σ₀) = 6.15 ± 0.15.** It is far thinner than all three of the record's readings at the tube: apex 3.65, pleated 2.87, tetrahedron 2.58. P-727 is DONE.
+- **R76-6, door C's C5:** the metric's weight lifted to the loop is a weight within one history, not a law over histories. Door C stays one declared choice.
+- **R76-7, R2's form, by a rule written first:** under the chiral premise, the exact level-5 block (46 + 2√5), never the asymptotic. Three steps still chosen; not sealable; no scale computed.
+- **R76-8:** answered by the web seat's two readings (Theorem 155 fails on its own code).
+- 0 of 19.
+
 ## S306f THE LACIE SYNCED WHOLE; THE SEATS FETCHED AFTER REVIEW 76 (2026-11-06)
 
 - **The owner:** 'lacie is on', then 'can we sync lacie wirh the whole repo'.

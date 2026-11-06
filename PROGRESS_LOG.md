@@ -18640,3 +18640,11 @@ The external drive now holds the whole record, every branch and tag, checked com
 review's correction. One of them showed that a claimed source of matter–antimatter asymmetry from the agy lane was
 built into its own inputs, so it is set aside. 0 of 19.
 
+## 2026-11-06 — S306g: the fibre's own shape at the tube
+
+The new instrument, rebuilt on the complete set of the manifold's own faces, read the fibre's shape at the excursion's
+thinnest point. The surface there touches a face of the domain, so the value was taken as the limit from the levels just
+beside it, from both sides and with two methods. The fibre comes out about 1.7 times thinner than the thinnest of the
+record's three earlier readings. The first candidate for the history's initial law turned out to be a weight within one
+history, not a law, so that law stays a declared choice. 0 of 19.
+

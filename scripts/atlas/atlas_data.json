@@ -15551,6 +15551,7 @@
    "slug": "the level surfaces own modulus",
    "motifs": [
     "closing",
+    "choice",
     "coupling",
     "figure_eight",
     "trace_map",
@@ -15562,18 +15563,20 @@
    ],
    "refs": [],
    "obstacle": "units_scale",
-   "obstacle_conf": 4,
+   "obstacle_conf": 5,
    "status": "banked",
    "domain": "topology"
   },
   "B1848": {
    "slug": "review 76 the decadal review",
-   "motifs": [],
+   "motifs": [
+    "figure_eight"
+   ],
    "refs": [],
    "obstacle": "measure",
    "obstacle_conf": 1,
    "status": "banked",
-   "domain": "dynamics"
+   "domain": "topology"
   },
   "B184": {
    "slug": "symmetry gauge door",

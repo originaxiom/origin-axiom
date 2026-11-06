@@ -113,3 +113,23 @@ def test_the_single_block_at_level_five_is_not_the_leading_exponential():
     assert ex / lead > 9                                                     # R2's form drops a factor ~10 at N = 5
     full = lambda N: 3 ** mp.mpf(-0.25) * N ** 1.5 * mp.e ** (N * KB.VOL / (2 * mp.pi))
     assert abs(KB.kashaev(80) / full(80) - 1) < 0.01                         # the asymptotic holds at large N
+
+
+def test_the_tube_by_the_full_groups_ford_domain():
+    rows = []
+    for l in (HERE / "gamma_tube_table.txt").read_text().splitlines()[1:]:
+        f = l.split()
+        rows.append((float(f[0]), int(f[1]), float(f[2]), float(f[3]), float(f[4])))
+    get = lambda s, g: [r for r in rows if abs(r[0] - s) < 1e-9 and r[1] == g][0]
+    c25 = get(0.25, 80); c50 = get(0.5, 80)
+    assert abs(complex(c25[2], c25[3]) - complex(-0.37218, 1.00851)) < 1e-3 and abs(c25[4]) < 1e-3      # the controls
+    assert abs(abs(c50[2]) - 0.5) < 3e-3 and abs(c50[3] - 1.5904) < 2e-3
+    near = [r for r in rows if 0 < abs(r[0]) <= 0.002 or r[0] == 0.0]
+    assert all(6.0 < r[3] < 6.3 for r in near)                                    # the limit cluster: 6.15 +- 0.15
+    lim = sorted(r[3] for r in rows if 0 < r[0] <= 0.02 and r[1] == 120)
+    assert lim == sorted(lim)                                                     # Im tau rises toward the tube (monotone in s)
+    assert abs(get(0.005, 80)[3] - get(0.005, 120)[3]) < 2e-3                    # two grids agree (1.7e-3)
+    g = (HERE / "core_gradient_run.txt").read_text()
+    assert "min 4.19" in g                                                        # the tube level is regular
+    for x in (3.65, 2.87, 2.58):
+        assert 6.0 - x > 2.0                                                      # far from every record reading
