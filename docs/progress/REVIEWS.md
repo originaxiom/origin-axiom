@@ -8081,7 +8081,7 @@ had waived it through 60 merges ("yes record the waiver until tomorrow"). The wi
     every later window below 60. A waiver now covers only the window it was granted in: it is read only if dated on or
     after the last anchor (gates.py; a planted control).
 
-fresh-clone: run on the anchor commit, recorded with it below
+fresh-clone: PASS @ 47d35d27e (gates all PASS; belt ok) (after the anchor line, the view refresh and the views; the review's landing is 264fa6d98)
 fresh-clone suite: FAIL @ f84f2bc88 (8048 passed, 9 failed, 70 skipped; diagnosed above: four clear with this landing, two standing, three fixed here)
 sample seed: 41420ae14; read in full: B1834, B1836, B1838, B1839, B1841
 gate controls: 48 registered failing-path tests; unregistered: none
