@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1546 of 1546 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1547 of 1547 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1055)
+## PROVED (1056)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1067,6 +1067,7 @@
 | `B1841` | THE PRINCIPLED-ENDS CARD (sealed 29b0e5b39; output committed unread at aba2bddd6): at B1840's principled entry E4 = L_2 - pi/2 (the area-4 horocycle) the six reach chi2_six 4.727 (best row apex 162, tau0 = (1/2, 2.9496), line (2/5, 4/5), (S~, S, S), c 3.77) with 0.87% of random hierarchies as low once the entry is priced among four (r97.5 0.885% < 1%; E4 alone 0.34%, E2 0.91%, E3 2.36%, E1 9.56%): PROVED as sealed; with B1839 failing (the free level), A07 is re-typed CHOSEN at this row. Main's third opinion (brute-force minima and null exact; an independent per-sector instrument equal above 1e-10) and its post-hoc read-out make it a READING (P-706): the row is on an order-5 line where the lepton spectrum is the down spectrum (B1728's law), the frame's quark four alone are not specific (9.2% at E4, 17.5% over the four ends), and D_frame = c^2 = 14.23 against P-094's 10.58 +- 0.11 -- structure carries the six, the frame's values do not; the held-out targets are held by the owner (P-709). 0 of 19. |  | 0 |
 | `B1843` | GENESIS v1.62 (the owner's ruling, 2026-11-05: 'if you also agree with sm about the rule, i aprove it'): GAP1's held-out targets are graded jointly -- each inside its 68% band and the joint p_V (the product of marginal rank p's under the matched null, ranked among the null worlds) below 0.01/m_V, m_V counting every recorded prior look -- and a seventh condition holds the targets unspent when the card's location-free power for a 5%-accurate frame is below 10%; adopted before B1839's look was read; the statistic's calibration verified by main (1.02%, 0.97%, 0.83% at alpha = 0.01). |  | 0 |
 | `B1844` | REVIEW 75 (the owner's 'Run it now'; 60 merges, at the waiver's limit): the window's five-arc sample read in full (B1834, B1836, B1838 by a reader, B1839 and B1841 by main) -- all hold, three with notes applied as dated notes (B1836's unfilled section 2 filled from harvest row 1557; B1834's moved counts; B1838's stale 'next'); Review 74's loop closed (four resolved, one declined at its third carry, five carried as R75-1..R75-5); the seals re-checked (B1839's corrected pin, its promised input-hash re-check done here, unchanged); the Stage 16-18 ranges sealed by hash (145 -> 160); P-707 ruled (A06 merged into A07, frame A 14 -> 13 borrowed joints, a double count removed), P-708 ruled (the six retired as a decisive cell), P-611 DONE, THE COUNT adopted; five practices adopted, the first extending the seen-first sweep to chat (E54 x4). None promoted. 0 of 19. |  | 0 |
+| `B1845` | THE OBJECT'S OWN LINE AND THE EXCURSION READ OUT (P-717, P-718, P-455; data-free exploration, toward the owner's goal): level 5 is the object's own (LR's discriminant 5, LR = -(unipotent) mod 5, order 5 in A5); RL fixes exactly the order-5 lines (1/5, 2/5) and (2/5, 4/5) (B1733's rule), the order-5 classes are X1(5)'s cusps, and the diamond <2> is not a frame symmetry at fixed tau -- at a placed tau the line is the hand plus one binary choice (B1841's best line is RL's own, post hoc); P-717's excursion threads L^5 R (LR)^k converge to tau* = 1/2 + (2 + sqrt5/2)i with Re 1/2 exact, and for k = 0 mod 5 are = +-RL mod 5, carrying RL's line; P-455's period average along the k = 5 thread washes the hierarchy out (arclength mean ln ratios about -1 to -4 against the apex's -4 to -12.5; 17% of the period above Im 2) -- the apex read-out is load-bearing and its derivation needs a kinetic structure along the circle (FL-05). tau not placed; the line placed up to two bits. 0 of 19. |  | 0 |
 
 ## NEGATIVE (383)
 

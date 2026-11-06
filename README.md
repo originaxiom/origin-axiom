@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.62) of 2026-11-05 |
-| arcs with a verdict | 1546: 1055 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
+| arcs with a verdict | 1547: 1056 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
 | points in the register | 719: 309 open (queued, leads, waiting for the owner), 410 closed |
 | the last review | Review 75 (2026-11-06), anchor `264fa6d98` |
-| the last landing | S305p THE SCALE WALL TESTED (R75-7, P-719; the owner: 'Test the wall') (2026-11-06) |
+| the last landing | S305q B1845 THE OBJECT'S OWN LINE AND THE EXCURSION READ OUT (P-717, P-718, P-455; 2026-11-06) |
 <!-- STATE:END -->
 
 ## Start here
