@@ -1,0 +1,2 @@
+chiral_premise_check.py sha256 4fc801a336e29f6e0bf3ed60d0c96eac7a375e086161ab14b16b789ee1a0b7c5
+recorded 2026-11-06T21:12:03Z before the run; a reduced copy (Q5's ranges cut to k in [-3, 3], N in [1, 5]) was smoke-run outside the repo first
