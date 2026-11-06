@@ -11396,3 +11396,102 @@ the attribution, and it is B1728's.
 - Labelled neither (a correction and its consequences; no frame value computed).
 
 0 of 19.
+
+## 355. Added 2026-11-06 (UTC): to cc: the scale riddle (P-715, P-719, P-721) — a level-fixing criterion stated before any value: the least level at which the couplings' sector has no Chern–Simons phase, which is 5
+
+At the owner's word ("fetch other seats, i think you can figure out the 'scale' riddle").
+
+**Read.**
+- Main @ 1d54b14d3, by the commit messages and the register rows P-712–P-721: S305l–S305s, Review 75 (B1844),
+  B1845, P-717's excursion, P-718's eigenline, P-719's scale wall and P-721's three levels.
+- The web seat's branch @ 0e861a147: the departure the line cannot see, and the least-action departure. These concern τ
+  and the line, not the scale.
+- The agy lane's stages 21–23: commit messages only. Its code was not opened, because of its compliance record (P-697).
+
+**The riddle as main left it** (P-719, P-721):
+- An absolute energy cannot come from the object. A dimensionless ratio can, through B151's own reading,
+  Z ∼ exp(i·Vol_ℂ/ℏ), once the level k (ℏ ↔ k) is fixed.
+- The record offers three levels: 5 (the hearing face, ℚ(√5)), 3 (the being face, ℚ(√−3)) and 15 (their handshake).
+- What is missing is a criterion choosing among them, stated before any value.
+
+**1. The facts the criterion uses** (data-free, all on record or standard topology):
+- **The hyperbolic end has CS = 0 exactly.** Amphichirality forces it (THE_FRAMEWORK, B250).
+- **The spherical end has CS = π²/5.** That is 1/5 of the period, at the cone-angle-π orbifold whose double cover is
+  L(5, 2) (B248, B250).
+- **The line is a character of an order-5 torsion group.** It is the twisted fixed points v ≡ −Av, numbering
+  det(A + I) = 5 (P-721), equivalently the characters of the torsion ℤ/5 of the mirror-twisted carrier
+  (B591: H₁ = ℤ ⊕ ℤ/5) and of |H₁(L(5, 2))| = 5 = Δ(−1).
+  - The flat connections on the line's points have Chern–Simons values given by a nondegenerate quadratic linking form
+    on ℤ/5. They are rationals of denominator 5. The standard lens-space formula for L(5, 2) gives 2/5 and 3/5.
+- **By the Chinese remainder theorem,** the level-15 finite dynamics is the product of the level-3 and level-5 dynamics
+  (B355's multiplicativity; B391's L-A).
+
+**2. CRITERION K (proposed, and sealed by this commit before any value).**
+- **The rule:** the level is the least k ≥ 1 at which every Chern–Simons phase of the sector the 4D couplings are read
+  on
+  is trivial: e^{2πi·k·CS(ρ)} = 1 for the line's flat connections and for the two ends the object carries.
+- **The application:**
+  - the hyperbolic end imposes nothing, since its CS is 0;
+  - the spherical end requires 5 | k;
+  - the line's two points require 5 | k.
+
+  **So k = 5.**
+- **Why this criterion:**
+  - **The input is the object's own.** CS invariants are topological, so nothing is chosen.
+  - **It is a coherence condition.** It is the level at which the partition function's line sector carries no residual
+    phase, so the ratio is heard at the couplings' level without one. It is LAW_MAP's "measurement is passage through
+    the finite", made exact.
+  - **It extends P-721.** P-721's "the level at which the quantized dynamics holds the line" gives 5 but leaves 3 and 15
+    open. Criterion K decides both:
+    - **3 is excluded.** The being face carries no nonzero CS phase in this sector: the hyperbolic end's CS is exactly
+      0,
+      level-blind. The line is not a state at level 3 either, since gcd(3, 5) = 1 leaves no twisted fixed point mod 3.
+    - **15 is not minimal.** No CS phase of the sector demands its 3-part. Its finite dynamics is level 3 times level 5,
+      so it adds the being face's finite structure, which the couplings do not read.
+- **Scope and caveats:**
+  - **(a) The sector.** "The sector the couplings are read on" is the line and the two ends. If every flat connection of
+    the object were included — finite-image representations of π₁(m004) toward the McKay ends 2T and 2I — their CS
+    denominators could add a 3, or a 2, and force 15 or a multiple. That is the only way 15 could be forced, and it can
+    be checked.
+    - **Owed (data-free):** list the object's flat SU(2) connections with finite image and their CS denominators, and
+      say
+      which belong to the couplings' sector.
+  - **(b) Odd levels only.** The half-characteristics carry the spin structure, a factor of 2, which is fixed
+    separately.
+    The strip's order-10 lines are the spin lift of order 5. The odd part of the least k, 5, does not depend on the CS
+    normalisation. The 2-part does.
+
+**3. What the ratio still needs besides k.** These must be fixed by rule before any value. None is computed here.
+- **(i) ℏ's normalisation:** 2π/k, SU(2)'s shifted 2π/(k + 2), or SL(2, ℂ)'s (k, σ).
+- **(ii) The reference:** the hyperbolic contribution relative to the line's (two sectors of one partition function),
+  or relative to the trivial connection.
+- **(iii) The one-loop factor:** the torsion, included or not.
+- **(iv) The physical unit** the ratio is read in (M_Pl, v, or the frame's own Kaluza–Klein scale). This identification
+  is itself an ANSATZ that GENESIS's GAP1 rule would have to earn.
+
+This seat does not choose among these (see Disclosed). It recommends that main fix them in one sealed rule, then commit
+the implied ratio unread, as P-719 and P-715's guard require.
+
+**4. A side finding, structural: the line's two points are a chiral pair.**
+- On ℤ/5 any quadratic form satisfies q(2v) = 4q(v) ≡ −q(v), since 4 ≡ −1 mod 5. So the eigenline's two points v and 2v
+  (P-718's (1/5, 2/5) and (2/5, 4/5)) carry opposite Chern–Simons values.
+  - At level 5 they are CS-degenerate: at the line's own level, the line cannot tell its two points apart.
+  - At levels prime to 5 their phases are complex conjugates — the CS sign that B303 reads as the CP sign.
+- **Bearing on P-718:** the binary choice of point may be the hand itself, not a second bit.
+  - The frame's mirror maps RL's eigenline points to LR's, (1/5, 2/5) → (1/5, 3/5) and (2/5, 4/5) → (2/5, 1/5).
+  - CS then pairs (2/5, 4/5) with (1/5, 3/5), and (1/5, 2/5) with (2/5, 1/5).
+  - To be checked by main on the frame's mirror law (data-free).
+- **Bearing on P-716:** where the CS sign could become an amount. This is structural only, and no phase value is given.
+
+**Disclosed.**
+- **No scale ratio was computed or written,** and none was compared with data.
+- **An exposure, to count under P-715's guard.** While reading B151's reading, this seat estimated in its reasoning the
+  size of e^{k·Vol/2π} at the three levels and set it beside a physical hierarchy.
+  - Criterion K uses CS phases, not magnitudes, so the exposure did not enter it.
+  - It does disqualify this seat from choosing the ratio's form in item 3.
+- **What is post hoc.** The 5 entered the record through the data (P-717's disclosure), so "the level is 5" cannot be
+  validated by the six. Criterion K's weight must come from its own derivation and the owed check (2a), or from a
+  held-out prediction under the owner's hold (P-709).
+- **Labelled** neither (a criterion for a level, from topological invariants; no frame value; no data).
+
+0 of 19.

@@ -21710,3 +21710,14 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   it tests that factor rather than the theory. This seat's earlier figure applied to a different family of lines and has
   been rescoped. The consistency check this seat proposed would have caught the passing card's hidden miss, so it is
   recommended for every future card on such lines. 0 of 19.
+
+## 2026-11-06 — the scale riddle: which level sets the theory's own scale ratio
+
+- **The riddle:** the object can set a ratio of energy scales, but only once a whole number called the level is fixed,
+  and the record offered three candidates (5, 3 and 15) with no rule to choose among them.
+- **What this seat proposed:** a rule that uses only the object's own fixed phases. Its geometric side has no phase at
+  all, so it cannot fix a level. The side carrying the couplings has phases in fifths, so the least level at which all
+  of them come out whole is 5. The rule is written down before any ratio is computed, none was computed, and one check
+  that could change the answer to 15 is listed as owed.
+- **Also noticed:** the line's two possible points behave as mirror images of each other. That may reduce two open
+  choices to one, the handedness. 0 of 19.

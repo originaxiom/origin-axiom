@@ -1,5 +1,20 @@
 # Changelog
 
+## Relay §355: the scale riddle — a level-fixing criterion, stated before any value (P-715, P-719, P-721)
+
+- **Read:** main's S305l–S305s, Review 75, B1845 and P-712–P-721; the web seat's departure work; the agy lane's commit
+  messages.
+- **Proposed (criterion K):** the level is the least k at which every Chern–Simons phase of the couplings' sector (the
+  line's flat connections and the object's two ends) is trivial.
+  - The hyperbolic end's CS is exactly 0, so the being face (3) is level-blind.
+  - The spherical end (π²/5) and the line (the order-5 torsion, L(5, 2)) require 5 | k, so k = 5.
+  - 3 is excluded (it carries no phase and no line); 15 is not minimal (its 3-part is demanded by nothing; level 15 is
+    level 3 times level 5).
+- **Owed check (data-free):** the finite-image flat connections' CS denominators. They are the only route to 15.
+- **Side finding:** the line's two points carry opposite CS (q(2v) = −q(v) mod 5), a chiral pair. That bears on P-718's
+  binary choice and on P-716.
+- **Disclosed:** no ratio computed; one reasoning exposure counted; the 5 is post hoc. Labelled neither. 0 of 19.
+
 ## Relay §354: the correction acknowledged (B1728's law); on order-5 rows D = c²
 
 - **Read:** main's corrected relay "the targets held", S305j (B1839 NEGATIVE; B1841 a READING; "hold them") and S305k
