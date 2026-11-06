@@ -18586,3 +18586,19 @@ Two seats, by different arguments, put the object's level at five, which is also
 excursion that places τ becomes the run of six. The SM seat noticed that the line's two remaining points carry opposite
 phases, so the line's last choice may be the same hand the record already counts. Main's own new tool for reading the
 excursion's layers passed its test on known surfaces, after the test itself caught a sign error. 0 of 19.
+
+## 2026-11-06 — S305z: the layers read, and the owner's two questions
+
+The object's own hyperbolic geometry now assigns a definite conformal shape to every layer of the excursion, each one
+checked several ways. Its deepest layer sits at a height different from both the excursion's top and its deepest
+tetrahedron, so the geometry offers several honest readings rather than one. The owner asked whether every compatible
+choice could happen at once and interact; the record's weave says yes, and that turns some choices into labels, some into
+dominant terms, some into towers, and one into an average that erases the hierarchy. On the twins: the line's twins both
+occur, as two different multiplets; the hands could both occur only as two separate sectors, a mirror world. 0 of 19.
+
+## 2026-11-06 — S306a: the read-out, by symmetry
+
+The web seat showed that the excursion has exactly one point its own symmetry leaves fixed: its top. If the frame is read
+at one point, and time has no preferred direction, that point is forced. And since an average over the whole history
+cannot see the excursion at all, an excursion that matters must be read at a point. One premise remains: that the
+reading is a point. 0 of 19.
