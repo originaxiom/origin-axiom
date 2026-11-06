@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1549 |
-| … PROVED | 1058 |
+| arcs with a verdict file | 1550 |
+| … PROVED | 1059 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1848 | PROVED | REVIEW 76 (the owner: 'lets do the decadal first right moment'; 36 commits, S305p-S306d): the loop closed (R75-1..3 declined at their third carry, rows kept; R75-6, R75-7 and R75-9's P-718 half resolved; four carried);… |
 | B1847 | PROVED | THE LEVEL SURFACE'S OWN MODULUS (P-727; data-free): an instrument reading the conformal modulus of a harmonic level surface from its 3D shape and its fibre group alone -- validated on a Fuchsian control of known tau (re… |
 | B1846 | PROVED | THE METRIC'S READ-OUT (the owner's goal of 2026-11-06, FL-05; data-free): the hyperbolic metric fixes, with no choice, a clock on the fibration circle -- harmonic time theta (the harmonic map in the fibre class; B1295's… |
 | B1845 | PROVED | THE OBJECT'S OWN LINE AND THE EXCURSION READ OUT (P-717, P-718, P-455; data-free exploration, toward the owner's goal): level 5 is the object's own (LR's discriminant 5, LR = -(unipotent) mod 5, order 5 in A5); RL fixes… |
@@ -42,7 +43,6 @@
 | B1837 | PROVED | THE AGY LANE'S STAGES 8-9 AND THE WEB SEAT'S DENSITY HIGGS VERIFIED: main stands on six of the lane's seven rebuttals (the seventh, the mirror, already proved) -- at one Higgs every generation's lepton/down relation and… |
 | B1836 | PROVED | THE SEATS PAST S300 VERIFIED (the owner's 'fetch and verify agy and other seats'): the F7 mirror identity PROVED (T-FRAME-MIRROR; the agy lane's Theorem 60 repaired); T a symmetry of the frame's outputs (8e-13; main's S… |
 | B1835 | OPEN | U_e AND THE PMNS (P-638, OPEN; the owner's ruling P-660): the control passes on main's code -- on all 24 order-5 lines Y_e = c Y_d^T and U_e^L = conj(U_d^R) to 1e-15, 0.33-0.40 off on the order-10 lines; the design: the… |
-| B1834 | PROVED | THE TOTAL-INPUTS SCOREBOARD (the owner's ruling of 2026-10-29, P-418) AND THE BORROWED-JOINTS SCAFFOLD (P-661): 0 of 19 earned, identification price 13; the record's candidate claims 10 rows on 14 borrowed joints (11 ch… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -67,7 +67,7 @@
 
 ## The latest campaign line
 
-LATEST (2026-11-06, S306d: B1847, the level surface's own modulus — a fourth object-native reading of the fibre (m004's loop forced and closed; the excursion's anti-apex 1/2 + 1.5904i, 16% above Teichmuller; the tube level not computed: the surface folds, both instruments fail their checks); the seats fetched (rows 1601–1604); main's ruling on B1012: R2 stays CHOSEN. 0 of 19.)
+LATEST (2026-11-06, REVIEW 76 (B1848): the reader holds B1845–B1847 with notes; B1846's 'no point is forced' corrected — the metric's systole is a canonical point at the tube, with the volume weight's peak; the suite's four window failures fixed; P-727's preliminary tube value withdrawn (failed on the finer grid). 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
