@@ -24,7 +24,7 @@ nothing in this block is typed by hand.*
 | arcs with a verdict | 1547: 1056 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
 | points in the register | 725: 314 open (queued, leads, waiting for the owner), 411 closed |
 | the last review | Review 75 (2026-11-06), anchor `264fa6d98` |
-| the last landing | S305z THE PLEATED LAYERS READ; EVERY CHOICE AT ONCE; BOTH TWINS (P-723, P-724, P-725; 2026-11-06) |
+| the last landing | S306a THE SEATS FETCHED: THE READ-OUT THE HISTORY'S SYMMETRY FORCES (2026-11-06) |
 <!-- STATE:END -->
 
 ## Start here

@@ -24,7 +24,7 @@
 | … OWNER | 4 |
 | … DONE | 400 |
 | … DECLINED | 11 |
-| harvest rows (the last number) | 1592 |
+| harvest rows (the last number) | 1596 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306a THE SEATS FETCHED: THE READ-OUT THE HISTORY'S SYMMETRY FORCES (2026-11-06)
 - S305z THE PLEATED LAYERS READ; EVERY CHOICE AT ONCE; BOTH TWINS (P-723, P-724, P-725; 2026-11-06)
 - S305y THE REPO FETCHED; ONE LEVEL FROM TWO SEATS; THE LINE'S LAST BIT A CHIRAL PAIR; STAGE C VALIDATED (2026-11-06)
 - S305v THE SEATS REFETCHED; LEAST ACTION UNDER THE RUNG'S INVISIBILITY (2026-11-06)
@@ -63,11 +64,10 @@
 - S305t THE SEATS FETCHED AGAIN; THE CANDIDATE REFEREED; THE SCALE QUESTION (2026-11-06)
 - S305s THE OBJECT-NATIVE LEVEL (P-721; the owner: 'Seek object-native') (2026-11-06)
 - S305r THE READ-OUT MAY BE THE RECORD'S OWN KÄHLER WEIGHT (P-720; 2026-11-06)
-- S305q B1845 THE OBJECT'S OWN LINE AND THE EXCURSION READ OUT (P-717, P-718, P-455; 2026-11-06)
 
 ## The latest campaign line
 
-LATEST (2026-11-06, S305z: the pleated-layer build complete for L⁶RLR — each layer's τ, the deepest 0.0507 + 2.8736i; three object-native readings disagree (apex 3.65, pleated 2.87, tetrahedron 2.58); P-724 (every choice at once: convention, saddle, tower, average) and P-725 (both twins: the line's yes, the hands as a mirror sector). 0 of 19.)
+LATEST (2026-11-06, S306a: the web seat's read-out check verified — the history's symmetry fixes exactly the apex, so P-717's read-out is forced given a point read-out with no arrow; the nonzero line and the level restated as rationales. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
