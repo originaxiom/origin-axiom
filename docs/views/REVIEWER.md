@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1545** |
-| words of findings prose | **1,302,599** |
+| research arcs with findings | **1546** |
+| words of findings prose | **1,303,519** |
 | test lock files referenced | **932** |
-| arcs carrying an authored verdict | **1545** (100.0 %) |
+| arcs carrying an authored verdict | **1546** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1054 |
+| PROVED | 1055 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1843`** (757 words, 0 locks)  
-GENESIS v1.62 (the owner's ruling, 2026-11-05: 'if you also agree with sm about the rule, i aprove it'): GAP1's held-out targets are graded jointly -- each inside its 68% band and the joint p_V (the product of marginal rank p's under the matched null, ranked among the null worlds) below 0.01/m_V, m_V counting every recorded prior look -- and a seventh condition holds the targets unspent when the card's location-free power for a 5%-accurate frame is below 10%; adopted before B1839's look was read; the statistic's calibration verified by main (1.02%, 0.97%, 0.83% at alpha = 0.01).  
-`B1843_genesis_v1_62/FINDINGS.md`
+**PROVED — `B1844`** (522 words, 0 locks)  
+REVIEW 75 (the owner's 'Run it now'; 60 merges, at the waiver's limit): the window's five-arc sample read in full (B1834, B1836, B1838 by a reader, B1839 and B1841 by main) -- all hold, three with notes applied as dated notes (B1836's unfilled section 2 filled from harvest row 1557; B1834's moved counts; B1838's stale 'next'); Review 74's loop closed (four resolved, one declined at its third carry, five carried as R75-1..R75-5); the seals re-checked (B1839's corrected pin, its promised input-hash re-check done here, unchanged); the Stage 16-18 ranges sealed by hash (145 -> 160); P-707 ruled (A06 merged into A07, frame A 14 -> 13 borrowed joints, a double count removed), P-708 ruled (the six retired as a decisive cell), P-611 DONE, THE COUNT adopted; five practices adopted, the first extending the seen-first sweep to chat (E54 x4). None promoted. 0 of 19.  
+`B1844_review_75_the_decadal_review/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  
