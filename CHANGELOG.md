@@ -1,5 +1,20 @@
 # Changelog
 
+## S306i THE LEADS CONFIRMED ONE BY ONE (B1849; R76-1, the register half of P-617) (2026-11-06)
+
+- **The owner:** 'lets do them'.
+- **What was checked.** Review 74's reader proposed closures, merges and retypes for the register's 142 lead-typed rows. Main checked every one at the pointer it names (92 rows; 90 acted on).
+  - **30 closed:** 19 answered, 6 superseded, P-069 in parts, P-039 and P-476 after main's own checks, and debt P-527 paid with P-494.
+  - **47 merged into 19 hosts.** Each host names what it carries. One target was corrected: P-567 goes to P-294.
+  - **2 retyped as process rows:** P-063 and P-574, the bar amendment's host.
+  - **11 not confirmed,** kept open with dated reasons.
+  - **Open rows 311 → 234; leads 186 → 108.**
+- **P-039.** B345's anti-diagonal texture is the order-3 cyclic structure (B1736's family group) in its charge basis: the off-texture entries are ≤ 8.4 × 10⁻¹⁶ on 200 random covariant couplings.
+- **P-476.** vol(LᵃR) rises to the Whitehead link's 3.66386 (SnapPy; gap about 18/a² at a = 55). So B1722's action weight concentrates on short threads only through B1720's cutoff, and the scope sentence is added to B1722, LAW_MAP and THE_WEAVE.
+- **P-527.** B1825 ran without THE FINAL ATTACK's CM arm and did not say so. Its dated note now discloses that, and main's CM sighting (P-494). The verdict is unchanged.
+- **Left:** the OPEN_LEADS half of P-617 (77 leads), and P-616, the scheduled backlog.
+- 0 of 19.
+
 ## S306h REVIEW 76'S ITEMS WORKED: B1842'S CONTROLS RUN (C-T CORRECTED), THE SEAL-ORDER LIST FROZEN, THE LINE STABILIZERS (2026-11-06)
 
 - **The owner:** 'lets do them'.

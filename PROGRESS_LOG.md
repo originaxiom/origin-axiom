@@ -18656,3 +18656,13 @@ matrices among themselves, contrary to what the old check claimed. The instrumen
 all hold. The 79 early sealed tests whose order git cannot show are now a list that a gate allows only to shrink.
 The level-4 symmetry of the object's order-5 lines is the full group S₄, which leaves no freedom in the generation metric
 there. 0 of 19.
+
+## 2026-11-06 — S306i: the open leads checked one by one
+
+An earlier review's reader had proposed closing or merging about ninety of the register's open leads. Main checked each
+proposal against the place it points to before applying it. Most held. Eleven did not, and those rows stay open with the
+reason written down. The register's open rows fell from 311 to 234. Two small computations closed two leads: one
+texture turned out to be the familiar cyclic symmetry seen in another basis, and a family of thread volumes was shown
+to approach a known limit, which narrows what an older negative result means. One sealed test had dropped a planned
+comparison without saying so, and that is now disclosed. 0 of 19.
+

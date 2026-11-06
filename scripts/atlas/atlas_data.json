@@ -13393,7 +13393,7 @@
     "L154"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 21,
+   "obstacle_conf": 22,
    "status": "open",
    "domain": "dynamics"
   },
@@ -15068,6 +15068,7 @@
     "coupling",
     "figure_eight",
     "metallic",
+    "eisenstein",
     "z3_generation",
     "wrt_quantum",
     "markov_cubic"
@@ -15079,7 +15080,7 @@
    "obstacle": "particle_dict",
    "obstacle_conf": 33,
    "status": "dead",
-   "domain": "topology"
+   "domain": "arithmetic"
   },
   "B1826": {
    "slug": "the agy lanes november audit verified on main",
@@ -15513,9 +15514,11 @@
    "slug": "the objects own line and the excursion",
    "motifs": [
     "closing",
+    "coupling",
     "figure_eight",
     "trace_map",
     "golden",
+    "z3_generation",
     "amphichiral_cp",
     "torsion",
     "firewall",
@@ -15524,8 +15527,8 @@
    "refs": [
     "B6"
    ],
-   "obstacle": "units_scale",
-   "obstacle_conf": 3,
+   "obstacle": "particle_dict",
+   "obstacle_conf": 5,
    "status": "banked",
    "domain": "topology"
   },
@@ -15577,6 +15580,40 @@
    "obstacle_conf": 1,
    "status": "banked",
    "domain": "topology"
+  },
+  "B1849": {
+   "slug": "the leads confirmed one by one",
+   "motifs": [
+    "closing",
+    "choice",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "symplectic"
+   ],
+   "refs": [
+    "B345",
+    "B705",
+    "B707",
+    "B708",
+    "L154",
+    "L161",
+    "L250",
+    "L251",
+    "L252",
+    "L253",
+    "S296",
+    "S301"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B184": {
    "slug": "symmetry gauge door",

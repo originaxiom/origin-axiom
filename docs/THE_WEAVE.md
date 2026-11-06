@@ -855,6 +855,8 @@ found with B1635's sealed instrument.
   - A thread drawn from the weave's uniform measure, or from the action weight at c = 6, fits the six ratios no better
     than random hierarchies.
   - Both measures favour short threads, whose apexes sit too low for a hierarchy.
+    *Scoped 2026-11-06 (P-476, B1849):* the action weight favours them only through B1720's length cutoff. vol(LᵃR)
+    stays below the Whitehead link's 3.664, so e^(−Vol/π) does not decay along that family.
   - The selection needs something not on record: a measure weighting high-run threads, a dynamics (the walk's limit
     point, C4), or a principle (P-139).
 - **The golden valley is too low (B1723, sealed, NEGATIVE).**

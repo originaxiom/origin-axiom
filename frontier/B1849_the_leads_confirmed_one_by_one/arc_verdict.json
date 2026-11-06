@@ -1,0 +1,29 @@
+{
+ "id": "B1849",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1831",
+  "B1825",
+  "B1722",
+  "B345",
+  "B1736"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "Review 74's reader (frontier/B1831_review_74_the_decadal_review/verification/readers/leads_REGISTER_LEADS.md)"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the point register's lead-typed rows and Review 74's reader's proposals for them",
+  "object": "92 register rows (90 acted on), their pointers in the record, and two data-free checks (a 3-cycle's charge basis; vol(L^a R) by SnapPy)",
+  "reach": "general",
+  "hypotheses": "process arc; each proposal checked at the pointer it names; a merge closes a row as DONE 'merged into P-H' (the register's rule 8); data-free"
+ },
+ "claim_one_line": "THE LEADS CONFIRMED ONE BY ONE (Review 76's R76-1, the register half of P-617): every proposal of Review 74's reader for the register's lead-typed rows checked by main at its pointer -- 30 rows closed (19 answered, 6 superseded, P-039 and P-476 after main's own checks, debt P-527 paid with P-494 by a dated disclosure on B1825 that its CM arm was dropped unsaid, P-069 in parts), 47 merged into 19 hosts (one target corrected: P-567 into P-294), P-063 and P-574 retyped as process rows, 11 not confirmed and kept open with dated reasons; P-039: B345's anti-diagonal texture is the order-3 cyclic structure in its charge basis (off-texture entries <= 8.4e-16); P-476: vol(L^a R) rises to the Whitehead link's 3.66386 (gap ~ 18/a^2 at a = 55), so B1722's action weight concentrates on short threads only through B1720's cutoff (scoped in B1722, LAW_MAP, THE_WEAVE); open rows 311 -> 234, leads 186 -> 108; the OPEN_LEADS half and P-616 stay open. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}

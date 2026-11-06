@@ -79,3 +79,14 @@ C4 asked for a rule that reads a thread from the pull-back walk's limit point (B
 - `verification/which_thread.py` → `which_thread.json`, `which_thread_run.txt`.
 - After the read (labelled): `verification/after_the_read/walk_digits.py` → `walk_digits.json`.
 - The lock: `tests/test_b1722_which_thread.py`.
+
+## Dated note (2026-11-06, S306i; P-476, B1849): the action weight's concentration is the cutoff's
+
+- **The headline says both measures concentrate on short threads.** For μ_A this is a property of B1720's census
+  cutoff, not of the weight.
+- **The family LᵃR:** its volumes rise to the Whitehead link's 3.66386 from below, with the gap about 18/a² at a = 55
+  (`frontier/B1849_the_leads_confirmed_one_by_one/verification/p476_whitehead_volumes_run.txt`, SnapPy).
+- **So e^(−Vol/π) stays above e^(−3.664/π) ≈ 0.31 along the whole family.** On an uncut set of threads the weight is
+  not normalisable, and its preference for short threads comes from the length cutoff.
+- **What it changes:** nothing in the verdict. W2 fails as sealed on the census as cut. The scope sentence is added to
+  LAW_MAP's row and to `docs/THE_WEAVE.md`.
