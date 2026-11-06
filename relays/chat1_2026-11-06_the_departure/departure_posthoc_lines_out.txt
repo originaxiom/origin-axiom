@@ -1,0 +1,65 @@
+POST HOC: the lines in the excursion's own curves (the web seat, 2026-11-06)
+
+(1) PER LINE, the excursion ...1,1,n,1,1...: periods of the two ends; out-lift = in-lift's closed geodesic
+  n =  1: return to the primitive (period-1) lift for ['(1/5, 2/5)', '(2/5, 4/5)']; oriented return for 12 of 12 lines (all); unoriented for 12
+  n =  2: return to the primitive (period-1) lift for no line; oriented return for 4 of 12 lines ['(0/5, 1/5)', '(0/5, 2/5)', '(1/5, 0/5)', '(2/5, 0/5)']; unoriented for 8
+  n =  3: return to the primitive (period-1) lift for no line; oriented return for 4 of 12 lines ['(0/5, 1/5)', '(0/5, 2/5)', '(1/5, 2/5)', '(2/5, 4/5)']; unoriented for 8
+  n =  4: return to the primitive (period-1) lift for no line; oriented return for 4 of 12 lines ['(0/5, 1/5)', '(0/5, 2/5)', '(1/5, 0/5)', '(2/5, 0/5)']; unoriented for 8
+  n =  5: return to the primitive (period-1) lift for no line; oriented return for 4 of 12 lines ['(0/5, 1/5)', '(0/5, 2/5)', '(1/5, 2/5)', '(2/5, 4/5)']; unoriented for 8
+      line (0/5, 1/5) (apex marking): periods in/out 5/5, oriented return True, unoriented True
+      line (0/5, 2/5) (apex marking): periods in/out 5/5, oriented return True, unoriented True
+      line (1/5, 2/5) (apex marking): periods in/out 5/5, oriented return True, unoriented True
+      line (1/5, 3/5) (apex marking): periods in/out 5/5, oriented return False, unoriented True
+      line (1/5, 4/5) (apex marking): periods in/out 1/5, oriented return False, unoriented False
+      line (1/5, 0/5) (apex marking): periods in/out 5/1, oriented return False, unoriented False
+      line (1/5, 1/5) (apex marking): periods in/out 5/5, oriented return False, unoriented True
+      line (2/5, 4/5) (apex marking): periods in/out 5/5, oriented return True, unoriented True
+      line (2/5, 0/5) (apex marking): periods in/out 5/1, oriented return False, unoriented False
+      line (2/5, 1/5) (apex marking): periods in/out 5/5, oriented return False, unoriented True
+      line (2/5, 2/5) (apex marking): periods in/out 5/5, oriented return False, unoriented True
+      line (2/5, 3/5) (apex marking): periods in/out 1/5, oriented return False, unoriented False
+  n =  6: return to the primitive (period-1) lift for ['(1/5, 0/5)', '(2/5, 0/5)']; oriented return for 12 of 12 lines (all); unoriented for 12
+      line (0/5, 1/5) (apex marking): periods in/out 5/5, oriented return True, unoriented True
+      line (0/5, 2/5) (apex marking): periods in/out 5/5, oriented return True, unoriented True
+      line (1/5, 3/5) (apex marking): periods in/out 5/5, oriented return True, unoriented True
+      line (1/5, 4/5) (apex marking): periods in/out 5/5, oriented return True, unoriented True
+      line (1/5, 0/5) (apex marking): periods in/out 1/1, oriented return True, unoriented True
+      line (1/5, 1/5) (apex marking): periods in/out 5/5, oriented return True, unoriented True
+      line (1/5, 2/5) (apex marking): periods in/out 5/5, oriented return True, unoriented True
+      line (2/5, 1/5) (apex marking): periods in/out 5/5, oriented return True, unoriented True
+      line (2/5, 2/5) (apex marking): periods in/out 5/5, oriented return True, unoriented True
+      line (2/5, 3/5) (apex marking): periods in/out 5/5, oriented return True, unoriented True
+      line (2/5, 4/5) (apex marking): periods in/out 5/5, oriented return True, unoriented True
+      line (2/5, 0/5) (apex marking): periods in/out 1/1, oriented return True, unoriented True
+  n =  7: return to the primitive (period-1) lift for no line; oriented return for 4 of 12 lines ['(0/5, 1/5)', '(0/5, 2/5)', '(1/5, 2/5)', '(2/5, 4/5)']; unoriented for 8
+  n =  8: return to the primitive (period-1) lift for no line; oriented return for 4 of 12 lines ['(0/5, 1/5)', '(0/5, 2/5)', '(1/5, 0/5)', '(2/5, 0/5)']; unoriented for 8
+  n =  9: return to the primitive (period-1) lift for no line; oriented return for 4 of 12 lines ['(0/5, 1/5)', '(0/5, 2/5)', '(1/5, 2/5)', '(2/5, 4/5)']; unoriented for 8
+  n = 10: return to the primitive (period-1) lift for no line; oriented return for 4 of 12 lines ['(0/5, 1/5)', '(0/5, 2/5)', '(1/5, 0/5)', '(2/5, 0/5)']; unoriented for 8
+  n = 11: return to the primitive (period-1) lift for ['(1/5, 2/5)', '(2/5, 4/5)']; oriented return for 12 of 12 lines (all); unoriented for 12
+  n = 12: return to the primitive (period-1) lift for no line; oriented return for 4 of 12 lines ['(0/5, 1/5)', '(0/5, 2/5)', '(1/5, 0/5)', '(2/5, 0/5)']; unoriented for 8
+
+(2) THE GOLDEN AXIS'S STABILISER
+  S RL S^-1 = RL^-1: True; F^2 = RL: True; det F = -1
+  S maps RL's pair: (1/5, 2/5) -> (2/5, 4/5), (2/5, 4/5) -> (1/5, 2/5)
+  F maps RL's pair: (1/5, 2/5) -> (2/5, 4/5), (2/5, 4/5) -> (1/5, 2/5)
+
+(3) THE PALINDROME'S REFLECTION r = T^(2c) J0 IN THE APEX MARKING: the lines it fixes
+  n =  1 (Re tau = 1/2): ['(0/5, 1/5)', '(0/5, 2/5)', '(1/5, 2/5)', '(2/5, 4/5)']
+  n =  2 (Re tau = 0): ['(0/5, 1/5)', '(0/5, 2/5)', '(1/5, 0/5)', '(2/5, 0/5)']
+  n =  3 (Re tau = 1/2): ['(0/5, 1/5)', '(0/5, 2/5)', '(1/5, 2/5)', '(2/5, 4/5)']
+  n =  4 (Re tau = 0): ['(0/5, 1/5)', '(0/5, 2/5)', '(1/5, 0/5)', '(2/5, 0/5)']
+  n =  5 (Re tau = 1/2): ['(0/5, 1/5)', '(0/5, 2/5)', '(1/5, 2/5)', '(2/5, 4/5)']
+  n =  6 (Re tau = 0): ['(0/5, 1/5)', '(0/5, 2/5)', '(1/5, 0/5)', '(2/5, 0/5)']
+  n =  7 (Re tau = 1/2): ['(0/5, 1/5)', '(0/5, 2/5)', '(1/5, 2/5)', '(2/5, 4/5)']
+  n =  8 (Re tau = 0): ['(0/5, 1/5)', '(0/5, 2/5)', '(1/5, 0/5)', '(2/5, 0/5)']
+  n =  9 (Re tau = 1/2): ['(0/5, 1/5)', '(0/5, 2/5)', '(1/5, 2/5)', '(2/5, 4/5)']
+  n = 10 (Re tau = 0): ['(0/5, 1/5)', '(0/5, 2/5)', '(1/5, 0/5)', '(2/5, 0/5)']
+  n = 11 (Re tau = 1/2): ['(0/5, 1/5)', '(0/5, 2/5)', '(1/5, 2/5)', '(2/5, 4/5)']
+  n = 12 (Re tau = 0): ['(0/5, 1/5)', '(0/5, 2/5)', '(1/5, 0/5)', '(2/5, 0/5)']
+
+(4) THE MIRROR ABOUT Re tau = 1/2 (r = T J0) ON THE TWELVE LINES
+  fixed: ['(0/5, 1/5)', '(0/5, 2/5)', '(1/5, 2/5)', '(2/5, 4/5)']; paired: [('(1/5, 0/5)', '(1/5, 4/5)'), ('(1/5, 1/5)', '(1/5, 3/5)'), ('(2/5, 0/5)', '(2/5, 3/5)'), ('(2/5, 1/5)', '(2/5, 2/5)')]; distinct outcomes 8
+
+(5) THE FIGURE-EIGHT GROUP TO D5 (z -> e z + t on Z/5, e = +-1)
+  homomorphisms 30; surjective 20; surjective up to conjugacy 2
+departure_posthoc_lines exit 0
