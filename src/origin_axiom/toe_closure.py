@@ -23146,6 +23146,75 @@ def theorem133_chat1_b79bb6d95_e073bf6b1_n6_vs_n5_reconciliation_and_sqrt5_fibon
         fl_m = _fixed_lines_mod5(B_pow)
         block_m_fixes_rl_pair[m_blk] = ( rl_pair[0] in fl_m and rl_pair[1] in fl_m )
 
+    # Check chat1's departure_posthoc_lines.py (180e5a040):
+    # (A) Mirror reflection r = T^(2c) J_0 on the 12 order-5 lines at Re tau = 1/2 (2c = 1) vs Re tau = 0 (2c = 0):
+    # Under tau -> 1 - conj(tau), (a, b) -> +-(a, -b - a) mod 5. For non-cusp lines (a != 0 mod 5) of slope s = b/a,
+    # -s - 1 == s (mod 5) <=> 2 s == -1 == 4 (mod 5) <=> s == 2 (mod 5), uniquely selecting {(1/5, 2/5), (2/5, 4/5)}
+    # (RL's eigenline) over {(1/5, 3/5), (2/5, 1/5)} (LR's eigenline, s = 3 -> 1 mod 5).
+    all_12_lines = sorted(
+        {min(((a, b), ((-a) % 5, (-b) % 5))) for a in range(5) for b in range(5) if (a, b) != (0, 0)}
+    )
+    mirror_half_fixed_lines: List[Tuple[int, int]] = []
+    mirror_zero_fixed_lines: List[Tuple[int, int]] = []
+    for a, b in all_12_lines:
+        rep_half = min(((a, (-b - a) % 5), ((-a) % 5, (b + a) % 5)))
+        if rep_half == (a, b):
+            mirror_half_fixed_lines.append((a, b))
+        rep_zero = min(((a, (-b) % 5), ((-a) % 5, b % 5)))
+        if rep_zero == (a, b):
+            mirror_zero_fixed_lines.append((a, b))
+
+    noncusp_mirror_half_fixed = [w for w in mirror_half_fixed_lines if w[0] != 0]
+    noncusp_mirror_zero_fixed = [w for w in mirror_zero_fixed_lines if w[0] != 0]
+    palindrome_mirror_selects_rl_over_lr_at_re_half = (
+        noncusp_mirror_half_fixed == [(1, 2), (2, 4)]
+        and (1, 3) not in mirror_half_fixed_lines
+    )
+
+    # (B) Golden axis stabilizer: S = [[0, -1], [1, 0]] and glide F = [[1, 1], [1, 0]] with F^2 = RL, det(F) = -1
+    S_mat = np.array([[0, -1], [1, 0]], dtype=int)
+    F_glide = np.array([[1, 1], [1, 0]], dtype=int)
+    RL_std = np.array([[2, 1], [1, 1]], dtype=int)
+    RL_std_inv = np.array([[1, -1], [-1, 2]], dtype=int)
+    s_conjugates_rl_to_inv = np.array_equal(S_mat @ RL_std @ (-S_mat), RL_std_inv)
+    f_sq_equals_rl = np.array_equal(F_glide @ F_glide, RL_std) and int(round(float(np.linalg.det(F_glide)))) == -1
+    # Action of S^{-1} and F^{-1} on (1, 2):
+    s_maps_12_to_24 = min((((1 * 0 + 2 * (-1)) % 5, (1 * 1 + 2 * 0) % 5), ((2) % 5, (-1) % 5))) == (2, 4)
+    f_inv = np.array([[0, 1], [1, -1]], dtype=int)
+    f_maps_12_to_24 = min((((1 * f_inv[0, 0] + 2 * f_inv[1, 0]) % 5, (1 * f_inv[0, 1] + 2 * f_inv[1, 1]) % 5), (3, 1))) == (2, 4)
+    axis_stabilizer_swaps_eigenline_pair = bool(s_conjugates_rl_to_inv and f_sq_equals_rl and s_maps_12_to_24 and f_maps_12_to_24)
+
+    # (C) Figure-eight knot group pi_1(m004) = <x, y | y x^-1 y x y^-1 = x^-1 y x y^-1 x> -> D_5 Fox 5-coloring census
+    d5_elems = [(e, t) for e in (1, -1) for t in range(5)]
+
+    def _d5_mul(g: Tuple[int, int], h: Tuple[int, int]) -> Tuple[int, int]:
+        return (g[0] * h[0], (g[0] * h[1] + g[1]) % 5)
+
+    def _d5_inv(g: Tuple[int, int]) -> Tuple[int, int]:
+        return (g[0], (-g[0] * g[1]) % 5)
+
+    def _d5_word(*gs: Tuple[int, int]) -> Tuple[int, int]:
+        acc = (1, 0)
+        for g in gs:
+            acc = _d5_mul(acc, g)
+        return acc
+
+    d5_homs = [
+        (x, y)
+        for x in d5_elems
+        for y in d5_elems
+        if _d5_word(y, _d5_inv(x), y, x, _d5_inv(y)) == _d5_word(_d5_inv(x), y, x, _d5_inv(y), x)
+    ]
+    d5_surj = []
+    for x, y in d5_homs:
+        # Surjective onto D_5 iff at least one generator has e = -1 and they do not commute (don't share fixed point)
+        if (x[0] == -1 or y[0] == -1) and x != y and _d5_mul(x, y) != _d5_mul(y, x):
+            d5_surj.append((x, y))
+    d5_conj_classes = {
+        min((_d5_mul(_d5_mul(g, x), _d5_inv(g)), _d5_mul(_d5_mul(g, y), _d5_inv(g))) for g in d5_elems)
+        for x, y in d5_surj
+    }
+
     # Symbolic SymPy verification of D_{6, k} = D_{5, k} L and L_{2k+3}^2 - 1 == 5 F_{2k+2} F_{2k+4}
     f2k2_s, f2k1_s = sp.symbols("F2k2 F2k1")
     d5_sym = sp.Matrix([[3 * f2k2_s + f2k1_s, 7 * f2k2_s + 4 * f2k1_s], [f2k2_s, 2 * f2k2_s + f2k1_s]])
@@ -23195,6 +23264,11 @@ def theorem133_chat1_b79bb6d95_e073bf6b1_n6_vs_n5_reconciliation_and_sqrt5_fibon
         ),
         "guardrail_5_strict_nondimensionalization_and_p715_scale_wall": bool(
             homoclinic_in_equals_out_ns == [1, 6, 11]
+            and palindrome_mirror_selects_rl_over_lr_at_re_half is True
+            and axis_stabilizer_swaps_eigenline_pair is True
+            and len(d5_homs) == 30
+            and len(d5_surj) == 20
+            and len(d5_conj_classes) == 2
         ),
         "guardrail_6_zero_trust_independent_sympy_and_mpmath_counterchecks": bool(
             sympy_d6_diag_equal is True
@@ -23237,6 +23311,15 @@ def theorem133_chat1_b79bb6d95_e073bf6b1_n6_vs_n5_reconciliation_and_sqrt5_fibon
         "n6_homoclinic_in_equals_out_mod5": 6 in homoclinic_in_equals_out_ns,
         "block_m_fixes_rl_pair": block_m_fixes_rl_pair,
         "five_run2_blocks_fix_pair": bool(block_m_fixes_rl_pair[5] and not any(block_m_fixes_rl_pair[m] for m in range(1, 5))),
+        "mirror_half_fixed_lines": mirror_half_fixed_lines,
+        "mirror_zero_fixed_lines": mirror_zero_fixed_lines,
+        "noncusp_mirror_half_fixed": noncusp_mirror_half_fixed,
+        "noncusp_mirror_zero_fixed": noncusp_mirror_zero_fixed,
+        "palindrome_mirror_selects_rl_over_lr_at_re_half": palindrome_mirror_selects_rl_over_lr_at_re_half,
+        "axis_stabilizer_swaps_eigenline_pair": axis_stabilizer_swaps_eigenline_pair,
+        "d5_homomorphisms_count": len(d5_homs),
+        "d5_surjective_count": len(d5_surj),
+        "d5_conjugacy_classes_count": len(d5_conj_classes),
         "sympy_d6_diag_equal": bool(sympy_d6_diag_equal),
         "sympy_d6_topright_div5": bool(sympy_d6_topright_div5),
         "mp_n6_k20_diff": float(mp_n6_k20_diff),

@@ -2532,6 +2532,13 @@ def test_five_phase_master_toe_closure():
     assert t133["n5_homoclinic_in_equals_out_mod5"] is False
     assert t133["n6_homoclinic_in_equals_out_mod5"] is True
     assert t133["five_run2_blocks_fix_pair"] is True
+    assert t133["noncusp_mirror_half_fixed"] == [(1, 2), (2, 4)]
+    assert t133["noncusp_mirror_zero_fixed"] == [(1, 0), (2, 0)]
+    assert t133["palindrome_mirror_selects_rl_over_lr_at_re_half"] is True
+    assert t133["axis_stabilizer_swaps_eigenline_pair"] is True
+    assert int(t133["d5_homomorphisms_count"]) == 30
+    assert int(t133["d5_surjective_count"]) == 20
+    assert int(t133["d5_conjugacy_classes_count"]) == 2
     assert t133["sympy_d6_diag_equal"] is True
     assert t133["sympy_d6_topright_div5"] is True
     assert float(t133["mp_n6_k20_diff"]) < 1e-17
