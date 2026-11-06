@@ -2,6 +2,8 @@
 
 > **Currency — Review 56 (2026-09-09, anchor `eb9db7fa`).** Refreshed against the 21-merge window `be6f4cab`→`eb9db7fa` (B1294–B1307: MASTERPLAN v3 Phases 0–1 and v3.1's seven harvest arcs). **Review 56's headline is a number, not a repair:** the harvest gate's first strict report — 494 seat-index ids on nine branches, **428 without a ledger row, 348 seat-branch relays without a relay row**, two seats already past main's pins — escalated by name as R56-1 with a payment order (B1306 slices B–D, newest first). 32/32 gates; LAW_MAP's second zero-advancement window (R56-2); CLAIMS.md's 129-arc lag escalated (R56-3); two E53 repairs in living surfaces (THE_SM_VERDICT, MAIN_GOAL JOIN 3); E71 minted. Full detail: `docs/progress/REVIEWS.md` (Review 56).
 
+**LATEST (2026-11-06, S305s: P-721 — the line is a minimal periodic orbit of the object's own dynamics (5 twisted fixed points); the record's 'heard mod the conductor' principle offers levels 3, 5, 15 for the scale; a criterion among them owed, firewalled. 0 of 19.)**
+
 **LATEST (2026-11-06, S305r: P-720 — the read-out is one weight; under P-259's minimal Kähler the fields' modular weights may supply it, making P-717's apex read-out derived; the weights and the proper integral owed (agy asked). 0 of 19.)**
 
 **LATEST (2026-11-06, S305q: B1845 — the line is the object's own (RL's level-5 eigenline; the hand + one bit at a placed τ); P-717's excursion read out by P-455's period average loses the hierarchy, so its apex read-out is load-bearing (FL-05). τ not placed. 0 of 19.)**

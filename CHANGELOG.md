@@ -1,5 +1,11 @@
 # Changelog
 
+## S305s THE OBJECT-NATIVE LEVEL (P-721; the owner: 'Seek object-native') (2026-11-06)
+
+- **The line is a minimal periodic orbit of the object's own dynamics** on the fibre torus. It is a twisted fixed point of the monodromy, and those number det(A + I) = 5 (P-718).
+- **The level that holds them is 5.** SEEN FIRST: the quantized golden cat map (B376, B204, B355, B381, B391), and LAW_MAP's principle "measurement is passage through the finite".
+- **The record's own principle offers three levels:** 5 (the hearing face), 3 (the being face) and 15 (their handshake). The scale's missing piece narrows to a criterion choosing among them. Firewalled: no ratio computed. P-721; FLOOR 721. 0 of 19.
+
 ## S305r THE READ-OUT MAY BE THE RECORD'S OWN KÄHLER WEIGHT (P-720; 2026-11-06)
 
 - **One number governs the read-out.** On B1845's committed loop values, a Petersson weight (Im τ)^w moves P-455's period average from the loop's mild values (w = 0) to the apex's (w ≥ 8).

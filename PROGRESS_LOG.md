@@ -18550,3 +18550,10 @@ Whether the candidate's hierarchy survives being read around its loop turns out 
 record's own assumption about how fields are normalised may already supply it. If the fields' weights, read from the
 record, are large enough, the top-of-the-loop reading would follow instead of being chosen. That is the next computation,
 and the agy lane has been asked for it. 0 of 19.
+
+## 2026-11-06 — S305s: the level, from the object's own dynamics
+
+The object's own motion on the fibre has exactly five fixed points up to sign, and the line sits on them. The record had
+already built the quantum version of that motion and its principle that the dynamics is heard through finite levels. That
+principle offers three levels, five, three and fifteen, rather than one. Choosing among them, by a rule stated before any
+value, is what the scale still needs. 0 of 19.
