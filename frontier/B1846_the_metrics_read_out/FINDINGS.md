@@ -18,7 +18,7 @@ held-out quantity is computed, and nothing is compared with data. 0 of 19.*
   - χ from the relator exponent sums, tracked exactly on words;
   - the Ford domain's isometric spheres from a word search over SnapPy's simplified and original generators;
   - φ = φ_lin + Σ c_μ t K₁(2π|μ|t) e^{2πi⟨μ,z⟩}, solved from φ(γP) = φ(P) + χ(γ) at pulled-back points.
-- **The checks, on every member** (`step3_*.out`, `step3_*.json`):
+- **The checks, on every member** (`step3_*_run.txt`, `step3_*.json`):
 
 | check | m004 (control) | excursion member L⁶RLR | run of 10, L¹⁰RLR |
 |---|---|---|---|
@@ -45,17 +45,26 @@ held-out quantity is computed, and nothing is compared with data. 0 of 19.*
   - The volume pushed to the circle has density ρ(s) = ∫_{Σ_s} dA/|dθ|.
   - θ is harmonic, hence real-analytic, and not constant, so each level set has zero volume.
   - In 3D, a nondegenerate critical point leaves ρ continuous.
-  - **So no measure the metric supplies on the circle is a point.**
-- **Consequence.** A point read-out is not forced by the metric on any member. What the metric fixes is:
+  - **So no measure absolutely continuous to volume is a point:** neither the energy weight nor the volume weight.
+  - [Review 76, CORRECTED (the reader): this line first read "no measure the metric supplies on the circle is a
+    point". That overstated T2. The metric also supplies lower-dimensional canonical objects. Its systole, the shortest
+    closed geodesic aaBa, unique, has θ constant along it to 1.7 × 10⁻¹¹, so its length measure pushes forward to a
+    point mass at the tube's θ.]
+- **Consequence.** Neither of the metric's weights is a point on any member. What the metric fixes is: [Review 76: the
+  first sentence read "A point read-out is not forced by the metric on any member". It is corrected because of the
+  systole, below.]
   - a clock: harmonic time;
   - two weights: the energy weight, which is uniform, and the volume weight ρ;
-  - the points those weights single out: their symmetry centres and the mode of ρ.
+  - the points those weights single out: their symmetry centres and the mode of ρ;
+  - **a canonical point of its own, where the systole is unique:** the systole's θ. On L⁶RLR it is the tube, σ's fixed
+    level, the same place as ρ's mode (Review 76).
 
 ## 3. The excursion member (P-717's run of 6, W₁(6) = L⁶RLR)
 
 - **Its thin part is the run's tube.** Its shortest geodesic is the word aaBa, of complex length 0.184870 − 0.802102i
-  (SnapPy's length spectrum agrees). χ = 0 on it: it is a fibre curve, the curve the L-run twists. The run of 10
-  shortens it to 0.080 (`step1_group.py`, SnapPy).
+  (SnapPy's length spectrum agrees; `step5_exc_run.txt`, `tube_lengths_run.txt`). χ = 0 on it: it is a fibre curve,
+  the curve the L-run twists. The run of 10 shortens it to 0.080 (`step5_run10_run.txt`). [Review 76: the citations
+  corrected; `step1_group.py` computes neither.]
 - **A symmetry.** The word is a cyclic palindrome: its reversal RLRLLLLLL is its rotation by 6. Reversal equals
   conjugation by diag(−1, 1) composed with inversion. So M has an isometry σ (by Mostow) that reverses both the fibre
   and the circle. By uniqueness, θ∘σ = −θ + c, so ρ(s) = ρ(c − s).
@@ -63,7 +72,8 @@ held-out quantity is computed, and nothing is compared with data. 0 of 19.*
   - ρ/mean runs from a maximum of 1.75 down to a minimum of 0.81 (Rcut 10: 1.74 and 0.78);
   - it is symmetric about s = 0: the reflection's χ² is 19.4 on 20 degrees of freedom;
   - **θ ≡ 0 on the tube's core.** Over 96 points of aaBa's axis, θ = 1.2 × 10⁻¹⁰ with spread 1.7 × 10⁻¹¹
-    (`step5_exc_run.txt`; on the run of 10, spread 1.4 × 10⁻¹⁰). The core lies in σ's fixed set, so there θ = −θ, which forces θ ∈ {0, ½}.
+    (`step5_exc_run.txt`; on the run of 10, spread 1.4 × 10⁻¹⁰). If the core lies in σ's fixed set, as the exact constancy indicates (inferred, not computed), then θ = c − θ there,
+    which puts θ at σ's fixed level c/2 (c = 0 in this normalisation).
 - **The second method agrees: sampling through SnapPy's own nine ideal tetrahedra.** This uses SnapPy's developed
   tetrahedra in place of the Ford domain (`step5_tets.py`):
   - each tetrahedron's volume matches its Bloch–Wigner value; the nine sum to 5.574, against 5.586;
@@ -107,15 +117,22 @@ held-out quantity is computed, and nothing is compared with data. 0 of 19.*
   2.53 1.47 1.21 … 1.39 2.29.
 - **Harmonic time stalls harder.** The middle layers (volumes 0.090, 0.079, 0.090) sit at θ = 0.005, 0.000 and −0.005:
   steps of 0.005 per layer, against 0.03 for the run of 6.
-- **The golden part dilutes the tube.** Along L⁶R(LR)^k, SnapPy's volume grows by 2.21 and then 2.07 per period (toward
-  m004's 2.03), while the tube stays at 0.185 (`tet_volumes_run.txt`). So the tube's share of the volume falls like
+- **The golden part dilutes the tube.** Along L⁶R(LR)^k, SnapPy's volume grows by 2.209, 2.065, 2.037, 2.031 and 2.030 per
+  period, toward m004's 2.0299, while the tube holds at 0.1852 from k = 2 on (`tube_lengths_run.txt`). [Review 76:
+  the citation corrected; `tet_volumes_run.txt` carries no lengths.] So the tube's share of the volume falls like
   1/k. In the one-departure limit, the metric's average is blind to the departure, as S306a found for the arclength
   average.
 
 ## 6. What this decides, and what it does not
 
-- **Decided: no point is forced.** By T1 and T2, the metric's own measures on the circle are atomless on every member.
-  A point read-out is not something the metric produces; it would be a reading.
+- **Decided: neither metric weight is a point.** By T1 and T2, the energy and volume weights are atomless on every
+  member.
+  - [Review 76, CORRECTED: this item first read "no point is forced … the metric's own measures on the circle are
+    atomless … A point read-out is not something the metric produces".]
+  - The metric does produce a canonical point, the systole's θ. On L⁶RLR it sits exactly at the tube, where ρ peaks.
+  - **So the metric supplies both a point (the systole) and a weight (ρ), and both sit at the tube.** Which of the two
+    the read-out uses, a geodesic or a volume-type average, is the remaining choice. Either way, the location is the
+    tube.
 - **Decided: if a point is read, the metric says which.**
   - The only points it singles out are σ's two fixed points, the tube (s = 0) and the middle of R L R (s = ½).
   - The volume weight's mode is the tube, the middle of the run. That is where P-717 places the apex.
@@ -134,7 +151,8 @@ held-out quantity is computed, and nothing is compared with data. 0 of 19.*
   - The three object-native readings at the run's middle still disagree: the apex 3.65 (√(40/3)), the deepest pleated
     layer 2.87, and the tetrahedron 2.58 (P-723).
   - The metric-native fourth reading would be the conformal structure of the level surface Σ₀ through the tube. σ acts on
-    it anticonformally, so Re τ is fixed and one real number is owed. This instrument is not built.
+    it anticonformally, so τ lies on a reflection locus (Re τ ∈ {0, ½} or |τ| = 1), and one real number is owed (Review 76).
+    This instrument is not built; P-727 and B1847 build it.
 - **The clock (P-439, B1815).** Harmonic time is a clock the metric fixes on the circle with no choice. The clocks on
   record (move count, Teichmüller area, Weil–Petersson) are clocks on moduli space. The bridge between the two is the
   level-surface modulus map s ↦ τ(Σ_s), not yet built. So B1815's "the clock stays CHOSEN" stands for clocks over

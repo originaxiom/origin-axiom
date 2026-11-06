@@ -1,0 +1,36 @@
+b++LLLLLLRLR s=0.25: fibre group x=a, y=Ab, [x,y] = translation 3.502678-0.000000j; surface table t >= 0.300, min |dphi/dv| 9.974e-03; 136s
+   F spheres 3819 (translates 11457); floor 0.7869..0.9112; faces 14: xxxYX[-1.751,-1.644], xxYxyXY[-1.642,-1.460], x[-1.458,-1.119], xyxYX[-1.116,-0.891], xxyXY[-0.889,-0.685], yX[-0.683,-0.396], yXyxYX[-0.394,-0.328], yXX[-0.326,+0.291], yXY[+0.293,+0.304], XyxYX[+0.306,+0.869], yXYxyXY[+0.871,+1.066], xxYX[+1.068,+1.292] ...
+   spline spot check on the domain (60 points, t >= floor): max |phi - s| 5.98e-09
+      face          yXY [+0.2933,+0.3043]: pairing off-surface 4.4e-08 off-floor 4.4e-04
+      face            x [-1.4580,-1.1187]: pairing off-surface 4.9e-08 off-floor 4.4e-04
+      face        xxxYX [+1.4252,+1.7513]: pairing off-surface 1.2e-08 off-floor 2.6e-04
+      face          yXX [-0.3262,+0.2912]: pairing off-surface 9.4e-09 off-floor 2.6e-04
+      face         xxYX [+1.0683,+1.2916]: pairing off-surface 2.1e-08 off-floor 7.3e-05
+      face           yX [-0.6830,-0.3962]: pairing off-surface 1.1e-08 off-floor 7.3e-05
+      face      yXYxyXY [+0.8713,+1.0661]: pairing off-surface 1.8e-08 off-floor 3.7e-06
+      face        xxyXY [-0.8888,-0.6852]: pairing off-surface 3.1e-08 off-floor 3.6e-06
+   res (60,40): tau +1.627761+1.006845i  reduced -0.372239+1.006845i  detE-1 +3.64e-03  bad cycles 0  pairing off-surface 4.9e-08 off-floor 4.4e-04  193s
+b++LLLLLLRLR s=0.25: fibre group x=a, y=Ab, [x,y] = translation 3.502678-0.000000j; surface table t >= 0.300, min |dphi/dv| 9.974e-03; 0s
+   F spheres 3819 (translates 11457); floor 0.7869..0.9112; faces 14: xxxYX[-1.751,-1.644], xxYxyXY[-1.642,-1.460], x[-1.458,-1.119], xyxYX[-1.116,-0.891], xxyXY[-0.889,-0.685], yX[-0.683,-0.396], yXyxYX[-0.394,-0.328], yXX[-0.326,+0.291], yXY[+0.293,+0.304], XyxYX[+0.306,+0.869], yXYxyXY[+0.871,+1.066], xxYX[+1.068,+1.292] ...
+   spline spot check on the domain (60 points, t >= floor): max |phi - s| 5.98e-09
+      face          yXY [+0.2933,+0.3043]: pairing off-surface 4.4e-08 off-floor 4.4e-04
+      face            x [-1.4580,-1.1187]: pairing off-surface 7.0e-08 off-floor 4.4e-04
+      face        xxxYX [+1.4252,+1.7513]: pairing off-surface 1.2e-08 off-floor 2.6e-04
+      face          yXX [-0.3262,+0.2912]: pairing off-surface 9.7e-09 off-floor 2.6e-04
+      face         xxYX [+1.0683,+1.2916]: pairing off-surface 2.9e-08 off-floor 7.3e-05
+      face           yX [-0.6830,-0.3962]: pairing off-surface 2.5e-08 off-floor 7.3e-05
+      face      yXYxyXY [+0.8713,+1.0661]: pairing off-surface 6.6e-08 off-floor 4.5e-06
+      face        xxyXY [-0.8888,-0.6852]: pairing off-surface 6.7e-08 off-floor 3.6e-06
+   res (120,80): tau +1.627797+1.008077i  reduced -0.372203+1.008077i  detE-1 +8.96e-04  bad cycles 0  pairing off-surface 7.2e-08 off-floor 4.4e-04  28s
+b++LLLLLLRLR s=0.25: fibre group x=a, y=Ab, [x,y] = translation 3.502678-0.000000j; surface table t >= 0.300, min |dphi/dv| 9.974e-03; 0s
+   F spheres 3819 (translates 11457); floor 0.7869..0.9112; faces 14: xxxYX[-1.751,-1.644], xxYxyXY[-1.642,-1.460], x[-1.458,-1.119], xyxYX[-1.116,-0.891], xxyXY[-0.889,-0.685], yX[-0.683,-0.396], yXyxYX[-0.394,-0.328], yXX[-0.326,+0.291], yXY[+0.293,+0.304], XyxYX[+0.306,+0.869], yXYxyXY[+0.871,+1.066], xxYX[+1.068,+1.292] ...
+   spline spot check on the domain (60 points, t >= floor): max |phi - s| 5.98e-09
+      face          yXY [+0.2933,+0.3043]: pairing off-surface 4.4e-08 off-floor 4.4e-04
+      face            x [-1.4580,-1.1187]: pairing off-surface 7.5e-08 off-floor 4.4e-04
+      face        xxxYX [+1.4252,+1.7513]: pairing off-surface 1.0e-08 off-floor 2.6e-04
+      face          yXX [-0.3262,+0.2912]: pairing off-surface 1.1e-08 off-floor 2.6e-04
+      face         xxYX [+1.0683,+1.2916]: pairing off-surface 4.4e-08 off-floor 7.3e-05
+      face           yX [-0.6830,-0.3962]: pairing off-surface 4.3e-08 off-floor 7.3e-05
+      face      yXYxyXY [+0.8713,+1.0661]: pairing off-surface 6.6e-08 off-floor 5.3e-06
+      face        xxyXY [-0.8888,-0.6852]: pairing off-surface 6.7e-08 off-floor 5.0e-06
+   res (240,160): tau +1.627815+1.008403i  reduced -0.372185+1.008403i  detE-1 +2.23e-04  bad cycles 0  pairing off-surface 7.6e-08 off-floor 4.4e-04  44s

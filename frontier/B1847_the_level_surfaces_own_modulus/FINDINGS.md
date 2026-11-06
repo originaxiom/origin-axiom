@@ -35,18 +35,21 @@ read, no held-out quantity is computed, and nothing is compared with data. 0 of 
 ## 3. m004: the metric's loop of shapes (`stage_b_modulus.py`, `stage_b_m004_run.txt`)
 
 - **The surface.** The level surface is a graph v(u, t) over the strip. It is tabulated by Newton continuation, with φ
-  evaluated by exact pullback, and spot-checks to |φ − s| ≤ 2.4 × 10⁻⁹ on the domain. It never folds there
+  evaluated by exact pullback, and spot-checks to |φ − s| ≤ 3.5 × 10⁻⁹ on the domain (the maximum over the levels; Review 76). It never folds there
   (|∂φ/∂v| ≥ 0.47).
-- **The pairings.** They land on the surface to 10⁻⁸ and on the floor to 10⁻⁵. No vertex cycle is inconsistent.
+- **The pairings.** On m004 they land on the surface to 1.8 × 10⁻⁸ and on the floor to 10⁻⁵. No vertex cycle is
+  inconsistent. [Review 76: on the excursion they land on the floor's interpolant to 4.4–6.5 × 10⁻⁴ at the narrowest
+  faces, at both resolutions, because the check reads an interpolated floor. The paired nodes themselves sit at exact
+  heights.]
 - **Reduced τ, Richardson from (120, 80) and (240, 160):**
 
 | s | τ(Σ_s) | the check |
 |---|---|---|
 | 0 | −0.5000 + 1.12438i | σ-fixed level: Re τ = ½, forced |
-| ¼ | i (0.0003 + 1.0000i) | two symmetries: the square torus, forced |
+| ¼ | i (0.0003 + 1.0000i) | two symmetries: the square torus, forced (asserted; it holds numerically to about 10⁻⁵, and no script exhibits the isometries; Review 76) |
 | ½ | +0.5000 + 1.12439i | the half-shift: the same point as s = 0 |
 | ¾ | i | forced |
-| 1 | the s = 0 point (−0.4995 + 1.12438i, at (120, 80)) | the loop closes in moduli space |
+| 1 | the s = 0 point (−0.4995 + 1.12438i, at (120, 80)) | the loop closes in moduli space: a consistency check, since Σ₁ = Σ₀ in M (Review 76) |
 
 - **The new number.** The golden Teichmüller axis passes exactly through i and has its apex at ½ + (√5/2)i = ½ + 1.11803i.
   The metric's loop also passes through i, but its symmetric level sits at Im τ = 1.12438, **0.57 % above the Teichmüller
@@ -62,22 +65,23 @@ read, no held-out quantity is computed, and nothing is compared with data. 0 of 
     helicoid, and a graph v(u, t) cannot describe it.
   - The graph method's first run at s = 0 failed its own checks (det E − 1 = 0.19; pairings 5 × 10⁻² off the floor),
     localised to the fold windows by a per-face diagnostic. **No number from it is used.**
-  - At s = ¼ no line ever folds. At s = ½ two lines fold marginally below t = 0.40, beneath that level's floor (≥ 0.757).
+  - At s = ¼ no line ever folds. At s = ½ two lines fold marginally below t = 0.40, beneath that level's floor (≥ 0.757; `exc_s0.5_full_run.txt`).
 - **A second instrument, for folded surfaces** (`stage_c_general.py`):
   - marching tetrahedra on the exact level, in a grid periodic in u;
   - vertices projected onto the exact level, to ≤ 10⁻¹³;
   - the floor clipped and projected onto the exact sphere intersections;
   - pairings imposed node-to-segment through a KKT system.
 - **It is validated two ways:**
-  - on m004 at three grids, it converges to the graph method's −½ + 1.12438i (−0.49986 + 1.12444i at the finest;
+  - on m004 at three grids (`gen_m004_40_run.txt`, `gen_m004_80_run.txt`, `gen_m004_120_run.txt`), it converges to the graph method's −½ + 1.12438i (−0.49986 + 1.12444i at the finest;
     det E − 1 = 2.0 × 10⁻⁴);
-  - on the excursion at s = ¼, it agrees with the graph method to about 10⁻⁴ (−0.372174 + 1.008394i against the
+  - on the excursion at s = ¼, it agrees with the graph method to about 10⁻⁴. These are two meshings, not two independent
+    methods: they share φ, the fibre group's face list, the cotangent energy and the τ formula (Review 76). (−0.372174 + 1.008394i against the
     Richardson −0.37218 + 1.00851i).
 - **The readings that hold** (reduced τ):
 
 | level | the metric's τ(Σ_s) | the Teichmüller reading at the same symmetric point | the gap |
 |---|---|---|---|
-| s = ½, the anti-apex (the middle of R L R) | ½ + 1.5904i (Re ½ to 4 × 10⁻⁶, forced; det E − 1 = 2.9 × 10⁻⁴) | ½ + 1.3693i (√(15/8)) | +16 % |
+| s = ½, the anti-apex (the middle of R L R) | ½ + 1.5904i (Re ½ to 6 × 10⁻⁶ at the finest mesh and 7 × 10⁻⁷ after Richardson, forced; det E − 1 = 2.8 × 10⁻⁴; one method) | ½ + 1.3693i (√(15/8)) | +16 % |
 | s = ¼ | −0.3722 + 1.0085i (two methods) | — | — |
 | s = 0, the tube (the apex) | **not yet computed** (§ 5) | 3.6515i (√(40/3)) | — |
 
@@ -94,10 +98,13 @@ read, no held-out quantity is computed, and nothing is compared with data. 0 of 
 - **Not decided: the value at the tube.**
   - At s = 0 the level surface twists around the tube's core like a helicoid.
   - The core lies on a face of the fibre group's fundamental piece: its axis points sit on an F-sphere, to a
-    penetration of 8 × 10⁻¹⁴, under both sphere searches (`sphere_complete.py`).
+    penetration of 8 × 10⁻¹⁴, under both sphere searches (`sphere_complete.py`, `sphere_complete_run.txt`).
   - So the piece near the tube is a thin, twisted strip pressed against a face.
-  - Both instruments fail their own checks there (det E far from 1), so no number is reported. The general mesher's
-    tube runs are disclosed in `gen_exc_s0_80_run.txt`. **P-727 stays open for this one value.**
+  - Both instruments fail their own checks there, so no number is reported.
+  - The general mesher's tube runs are disclosed in `gen_exc_s0_80_run.txt` (det E = 7.1) and
+    `gen_exc_s0_deepgrid_UNTRUSTED_run.txt` (det E − 1 = 3.1 × 10⁻²). The latter's settings fail the s = ¼ control
+    (`gen_exc_s025_deepgrid_FAILED_run.txt`, det E = 2.44), so it is not used. [Review 76: the two logs were left
+    uncommitted at the landing; they are committed now.] **P-727 stays open for this one value.**
 - **Not decided: whether this reading is the frame's.** The level surface's modulus is metric-native given harmonic
   time. Which modulus the frame's couplings take is a reading (P-723), and this arc adds a fourth to the menu without
   ranking the four.
@@ -112,7 +119,9 @@ read, no held-out quantity is computed, and nothing is compared with data. 0 of 
   - a fold-test window centred on the wrong sheet;
   - a graph parametrization used where the surface folds.
 - **A grid extended below a level's floor exposes missing small spheres.** The general mesher therefore keeps only the
-  component connected to the cusp. Its s = ¼ result was taken at a grid bottom (0.33) above that level's floor (0.787).
+  component connected to the cusp. Its s = ¼ result was taken with the grid bottom at 0.33. That is below that level's floor (0.787;
+  `exc_s0.25_full_run.txt`), but above the heights where the missing small faces matter. [Review 76: the sentence
+  first said "above", which contradicted itself.]
 - **The graph method's floor nodes now sit at exact heights.** The readings moved by at most 10⁻⁶.
 
 ## Seen first

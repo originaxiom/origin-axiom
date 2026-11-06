@@ -45,7 +45,7 @@ its committed output. No measured number is read by any script. 0 of 19.*
 | down, S (= lepton, S) | −4.35, −7.36 | −1.14, −3.10 |
 | down, S̃ (= lepton, S̃) | −4.41, −10.95 | −1.29, −3.61 |
 
-- Only 17 % of the period's arclength lies above Im τ = 2. The loop average sits near the golden loop's mild values.
+- Only 14.9 % of the period's arclength lies above Im τ = 2: exactly 2·acosh(h/2)/ℓ, with h the apex height. The loop average sits near the golden loop's mild values. [Review 76, corrected: the 41-point sample read 7/41 = 17 %; the exact fraction is 14.9 %. The conclusion is unchanged.]
 - **So the hierarchy exists only when the frame is read at a point near the apex.** P-717's apex read-out is
   load-bearing.
 - Deriving it — for example the zero modes' localization along the circle — needs a kinetic structure on the circle.

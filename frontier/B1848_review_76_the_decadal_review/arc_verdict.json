@@ -1,0 +1,27 @@
+{
+ "id": "B1848",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1845",
+  "B1846",
+  "B1847"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the review's reader (verification/readers/)"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the record's own arcs, ledgers and rules over Review 76's window (264fa6d98..d10b05652)",
+  "object": "the window's three arcs (B1845-B1847), the loop of Review 75's block, the seats' harvest, the tables",
+  "reach": "general",
+  "hypotheses": "the review template's required core; the seeded sample read in full by an independent reader; the fresh-clone gates and suite"
+ },
+ "claim_one_line": "REVIEW 76 (the owner: 'lets do the decadal first right moment'; 36 commits, S305p-S306d): the loop closed (R75-1..3 declined at their third carry, rows kept; R75-6, R75-7 and R75-9's P-718 half resolved; four carried); every seat at its head; the seeded arcs B1845, B1846, B1847 read in full by an independent reader -- all HOLD WITH NOTES, every must-fix verified at source and applied as a dated note; the substantive one: B1846's 'no point read-out is forced by the metric' overstated T2 -- the metric's systole is a canonical point at the tube, where its volume weight also peaks (P-726 corrected); B1846's two laws entered in LAW_MAP; no new error class (E52, E82, E29, E93 instances; Review 76's practices); fresh-clone gates PASS @ d10b05652. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}

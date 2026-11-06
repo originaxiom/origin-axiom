@@ -8156,14 +8156,198 @@ None promoted. 0 of 19.
 - **"Not on every remote"** because the mirror is unmounted.
 
 ### Action items (Review 75)
-- [>] R75-1: P-507, the completeness lists classified (carried from R74-3, before it R73-8; owner: cc)
-- [>] R75-2: P-516, the identifications declared, with a lock (carried from R74-4, before it R73-9; owner: cc)
-- [>] R75-3: P-517, B1811's referee-stage numbers committed and locked (carried from R74-5, before it R73-10; owner: cc)
-- [>] R75-4: P-616 and P-617, the backlog's and the leads' proposed closures confirmed one by one (carried from R74-8; owner: cc)
-- [>] R75-5: P-601, the 79 'order unshown' as a list that may only shrink (carried from R74-9; owner: cc)
-- [ ] R75-6: P-717's remaining choices — P-455's period average on L⁵R(LR)^{5m} first, data-free; then 'one excursion' derived or refuted (owner: cc)
-- [ ] R75-7: the dimensionful no-go (B151, B660) re-audited at the owner's 'Test the wall' — its scope for dimensionless ratios of scales (owner: cc)
-- [ ] R75-8: B1842's C-T tautology fixed before B1842 is used (owner: cc)
-- [ ] R75-9: P-718's binary choice and P-711's stabilizer images (the agy lane asked; main verifies) (owner: cc)
+- [x] R75-1: P-507, the completeness lists classified (carried from R74-3, before it R73-8; owner: cc) — declined from the review loop at its third carry: P-507 stays on the register as a [PROCESS] row with its first step (classify both lists against arc_data.py's classes); no window since Review 73 touched it
+- [x] R75-2: P-516, the identifications declared, with a lock (carried from R74-4, before it R73-9; owner: cc) — declined from the review loop at its third carry: P-516 stays on the register for the older windows (B1806–B1823); Review 76's three arcs identify nothing, so declare none, correctly
+- [x] R75-3: P-517, B1811's referee-stage numbers committed and locked (carried from R74-5, before it R73-10; owner: cc) — declined from the review loop at its third carry: P-517 stays on the register as a [DEBT] row with its decode-script step; B1811 was not built on in the window
+- [>] R75-4: P-616 and P-617, the backlog's and the leads' proposed closures confirmed one by one (carried from R74-8; owner: cc) — carried to Review 76 as R76-1
+- [>] R75-5: P-601, the 79 'order unshown' as a list that may only shrink (carried from R74-9; owner: cc) — carried to Review 76 as R76-2
+- [x] R75-6: P-717's remaining choices — P-455's period average on L⁵R(LR)^{5m} first, data-free; then 'one excursion' derived or refuted (owner: cc) — RESOLVED: the period average was run (B1845 § 4: it washes the hierarchy out); 'one excursion' has a rationale, least action among rung-invisible departures (S305v), not a derivation; the read-out premise was narrowed by S306a, B1846 (no point is forced by the metric; its weight ranks the apex) and harvest row 1601
+- [x] R75-7: the dimensionful no-go (B151, B660) re-audited at the owner's 'Test the wall' — its scope for dimensionless ratios of scales (owner: cc) — RESOLVED: P-719 (S305p) — an absolute energy cannot come from the object; B151 SHARPENED (a ratio needs a level), B660 SCOPED
+- [>] R75-8: B1842's C-T tautology fixed before B1842 is used (owner: cc) — carried to Review 76 as R76-3 (not triggered in the window: B1847 uses B1842's module only for B1667's accessory parameter, not the Yukawa path C-T tests)
+- [>] R75-9: P-718's binary choice and P-711's stabilizer images (the agy lane asked; main verifies) (owner: cc) — the P-718 half RESOLVED (both points occupied, by the 10 and the 5̄, P-725; a chiral pair, S305y); the P-711 half carried to Review 76 as R76-4
 
 **anchor-commit: `264fa6d98`**
+
+# Review 76 (2026-11-06) — the read-out and the metric: a clock without a point, the fibre's own shape, the scale's formula ruled
+
+36 commits since Review 75 (`264fa6d98..d10b05652`, all on the first-parent line, S305p–S306d), past the due notice (30).
+The window has 3 arcs with a verdict (B1845–B1847). Run by main at the owner's "lets do the decadal first right
+moment", at a clean stop of P-727's tube. The process arc is B1848; its reader's report is in its
+`verification/readers/`.
+
+**What the window did:**
+- **The scale wall tested** (S305p, P-719, R75-7).
+  - An absolute energy cannot come from the object: its invariants carry no unit.
+  - B151 is SHARPENED: a ratio needs a level. B660 is SCOPED.
+- **The excursion and the line** (B1845; P-717, P-718).
+  - Level 5 is the object's own.
+  - RL fixes exactly the order-5 lines (1/5, 2/5) and (2/5, 4/5).
+  - P-455's period average washes the hierarchy out, so the apex read-out is load-bearing.
+- **The read-out, the level and the scale card.**
+  - **P-720 negative:** the coupling's modular weight is exactly 1, so minimal Kähler localises nothing.
+  - **P-721:** level 5 by minimality, and by the web seat's criterion K.
+  - **P-722:** the scale card designed. R1 is derived given minimality; R3 merged into R2; R2 and R4 chosen; not sealable.
+- **The pleated layers** (P-723, the S305u–S305z builds): each layer's τ. Three object-native readings at the run's
+  middle disagree: apex 3.65, pleated 2.87, tetrahedron 2.58.
+- **The owner's questions, each rowed:**
+  - P-724, every choice at once;
+  - P-725, both twins;
+  - P-728, declared choices: the argument needs compression;
+  - P-729, the bang: only its initial law, door C.
+- **B1846, the metric's read-out.** Harmonic time is the metric's own clock.
+  - **T1:** the energy is uniform in it.
+  - **T2:** the volume weight has no atom.
+  - So neither metric weight is a point. The metric's systole is a canonical point, at the tube; that is Review 76's
+    reader's correction of B1846's "no point is forced".
+  - The volume weight's hump sits exactly on the excursion's tube, the closed thread's apex. Two methods agree; m004 is
+    flat; the hump dilutes like 1/k.
+- **B1847, the level surface's own modulus, a fourth reading.**
+  - m004's loop is forced and closes, 0.57 % above the golden Teichmüller apex.
+  - The excursion's anti-apex reads ½ + 1.5904i, 16 % above the Teichmüller ½ + √(15/8)i.
+  - The tube is owed.
+- **Main's ruling on B1012** (the owner: "Main rules on B1012 first"). The single block and the full complex theory are
+  pieces of one theory, and a premise chooses between them. R2's leading exponential is not the level-5 block: the
+  Kashaev invariant is 46 + 2√5 against 5.03. **R2 stays CHOSEN.**
+- **The seats harvested to their heads,** six times in the window: rows 1583–1604.
+  - The web seat's scripts re-run identically.
+  - The agy lane's Stages 21–29 read through the mask. Its identities were checked by hand or by SnapPy, and its
+    overclaims typed.
+- **Still 0 of 19.**
+
+## 1. The loop (Review 75's block)
+
+- **Three items at their third carry, declined from the review loop with their reasons.** Their rows stay on the
+  register, typed [PROCESS] or [DEBT]:
+  - **R75-1 (P-507), the completeness lists:** process debt that no physics in the window touched. The row keeps its
+    first step.
+  - **R75-2 (P-516), the identifications declared:** the window's three arcs declare none, correctly: they identify
+    nothing. The row stays for the older windows.
+  - **R75-3 (P-517), B1811's referee numbers locked:** a debt on an arc not built on in this window. The row keeps its
+    decode-script step.
+- **Three resolved.**
+  - **R75-6:** P-455's period average was run (B1845 § 4: it washes out). "One excursion" now has a rationale, not a
+    derivation: least action among rung-invisible departures (S305v). The read-out premise was narrowed by S306a, B1846
+    and row 1601.
+  - **R75-7:** the scale wall was tested (P-719, S305p).
+  - **R75-9's P-718 half:** the line's binary choice dissolved. Both points are occupied, by the 10 and the 5̄ (P-725,
+    S305z), and they form a chiral pair (S305y).
+- **Carried:**
+  - **R75-4** (P-616, P-617) and **R75-5** (P-601), each for the third time; the next review resolves or declines them.
+  - **R75-8**, the C-T tautology. It is untouched, and not triggered by B1847: B1847 uses B1842's module only for B1667's
+    accessory parameter, not for the Yukawa path the C-T control tests.
+  - **R75-9's P-711 half.**
+
+## 1b. The branch inventory and the seats
+
+- **15 unmerged leaves, every one registered.** All are on one remote only, because the owner's mirror is unmounted
+  (the backup push is owed).
+- **Every seat harvested to its head at S306d:** rows 1597–1604; pins chat1 c609cf9a, agyaudit 4bbaa659. Every other
+  live seat is at its pin; the 4 retired seats are archived by tag; the lane survey finds no unwatched branch.
+- **Relays open:** outbound 15 (AUDIT_LANE 1, ALL_SEATS 1, SM 3, AGY 6, CHAT1 4), inbound 2 (CODEX 2).
+
+## 2. The declared modulus
+
+- **The window:** 36 commits, S305p–S306d.
+- **Read in full, drawn by the anchor's seed:** B1845, B1846 and B1847, by a reader
+  (`B1848/verification/readers/reader_READ_IN_FULL.md`). All three HOLD WITH NOTES. B1846 and B1847 are main's own arcs
+  of this session, so the reader's independence is the point. Main verified every must-fix note at source and applied
+  it as a dated note.
+  - **B1846's T2 consequence was overstated, and this is the substantive one.**
+    - The arc said "no point read-out is forced by the metric". T1 and T2 cover only volume-type measures.
+    - The metric's systole, aaBa, is unique, and θ is constant along it to 1.7 × 10⁻¹¹. So its length measure is an
+      atom at the tube's θ.
+    - **Corrected:** the metric supplies both a canonical point (the systole) and a canonical weight (ρ), and on L⁶RLR
+      both sit at the tube. Which one the read-out uses is the remaining choice; the location is not.
+    - P-726, B1846's verdict, the LAW_MAP row and main's memory are corrected with dated notes.
+  - **B1846's other slips:**
+    - its verdict quoted the Rcut-10 hump (1.74 / 0.78) against the body's Rcut 12 (1.75 / 0.81);
+    - "2.21 and then 2.07 per period" and "the tube stays at 0.185" cited a file without them. `tube_lengths.py` is now
+      committed: steps 2.209, 2.065, 2.037, 2.031, 2.030; the tube 0.1852 from k = 2;
+    - its "two collocation heights" lock compared two identical arrays. It now reads the run's |φ_Y − φ_0.9Y|.
+  - **B1847's gaps:**
+    - two deep-grid logs, a third m004 grid, `sphere_complete.py`'s output and the floor values were uncommitted;
+    - a floor sentence contradicted itself.
+    - All are committed or fixed now. The scripts that read a cache rebuild it from a clean checkout.
+  - **B1845's arclength fraction:** 17 % (a 41-point sample) corrected to the exact 14.9 %.
+- **The locks:** a full suite on a fresh clone of d10b05652 at six workers (two tube runs held the other two of the
+  eight cores): 8 076 passed, 6 failed, 70 skipped.
+  - **Two are standing:** B805's two attachment locks (P-239).
+  - **Four are the window's own, fixed here.** In each, a gated rule was met only when the full suite ran (E11):
+    - **B1847's verdict** carried `reach: member`, outside GENESIS § 6's schema. It is now `class`.
+    - **B1846, a law-creating arc, was absent from P3's claim pool.** The pool is regenerated with B1213's script, its
+      generator; B1210's older generator was tried first and reverted.
+    - **B1264's census lock read Review 75's reader file,** whose "8 measured" counts the agy lane's measured-input
+      joints. A dated note is added on that line.
+    - **The early-record index page was stale** after R75-7 sharpened B151. It is regenerated.
+
+fresh-clone: PASS @ d10b05652 (gates all PASS; belt ok)
+fresh-clone suite: FAIL @ d10b05652 (8076 passed, 6 failed, 70 skipped; diagnosed above: two standing, four fixed here)
+sample seed: 264fa6d98; read in full: B1845, B1846, B1847
+gate controls: 48 registered failing-path tests; unregistered: none
+
+## 3. Advancement, and the leads
+
+- **The tables.**
+  - THEOREM_REGISTRY gained 2 rows in the window (B1846's T1 and T2).
+  - LAW_MAP gained 0 in the window; the review adds B1846's two laws. T1 is a THEOREM. T2's atom part is a THEOREM, and
+    its hump is a LAW on three members.
+  - Nothing moved up a strength class.
+- **The rulings, by the math:** B1012 (above). P-722's chosen steps itemise to five, six with the coupling's level.
+- **The leads that could change the direction, ranked** (data-free first steps):
+  1. **P-727's tube value, still open.**
+     - On one grid (80 × 120 × 80) with the full group's χ = 0 faces, a preliminary Im τ ≈ 6.15 passed every check.
+     - The convergence run (120 × 180 × 120) failed them: det E − 1 = −2.0 %, and Re τ = −0.06 against the forced 0.
+     - **The preliminary is withdrawn.** The robust route is to mesh inside the full group's own Ford domain, whose face
+       set is complete and volume-validated, with the sheets glued by its face pairings.
+  2. **P-729, door C:** the initial law, the premise B1846 and the web seat's row 1597 leave missing. The design is
+     drafted (audit/drafts/doorC/DESIGN.md); C5, the metric's own weight lifted to histories, comes first.
+  3. **R2's form under the chiral premise:** the exact block or the asymptotic, decided by a rule written first (the
+     ruling's open step).
+  4. **P-716:** the agy lane's two-flank CP claim (Theorem 155), checked on main.
+  5. **P-711:** the line stabilizers' images.
+
+## 4. Error-class recurrence
+
+- **E52, a control instrument wrong but self-caught, many times; every one caught by a check before any reading.**
+  - In B1846: a loxodromic test that rejected complex traces with |tr| < 2; a Monte Carlo floor taken from about ten
+    points; a generator check waiting on points that cannot exist; a shadowed variable that recorded the wrong tube θ
+    while printing the right one.
+  - In B1847: a circle-translate sign; a mesh with holes; a table reaching below the domain; a scan window on the wrong
+    sheet; a fold met with a graph parametrization; incomplete faces at low heights.
+- **E82's shape:** the loxodromic test is a criterion valid for real traces, applied to complex ones. It returned a
+  wrong answer silently, and only the comparison with SnapPy's spectrum caught it.
+- **E29, disclosed:** B1846's symmetry test's tolerance was replaced after a 0.0002 miss. The replacement is a χ² from
+  the stated errors; it passes at 19.4 on 20 degrees of freedom on both members.
+- **E93, found by the ruling:** P-722's R2 reads the leading asymptotic exp(N·Vol/2π) as the level-5 block's value,
+  where it is off by a factor of 10.
+- **E11, a gated rule not met, caught only by the full suite:** B1847 landed with `reach: member`, which GENESIS § 6's
+  schema does not allow. The push gates do not run the schema test. It is fixed here: B1847's reach is now `class`.
+- **No new class.** The rules are in PRACTICES, "Review 76's practices":
+  - an instrument runs on a known answer before any reading;
+  - a level surface is scanned for folds before it is read as a graph;
+  - a grid that reaches below a domain's floor is checked on a control at the same settings;
+  - an asymptotic used at small N is checked against the exact value there.
+
+## 5. The provenance spot-sweep
+
+- **Pretense:** 938 added lines, 0 hits.
+- **Vocabulary:** no unglossed pairs.
+
+## 6. The promotion sweep
+
+None promoted. 0 of 19.
+
+## 7. Protocol integrity
+
+No seals in the window, so there is no hash to check. Held-out targets: none computed or compared, and the owner's hold
+(P-709) stands.
+
+### Action items (Review 76)
+- [>] R76-1: P-616 and P-617, the backlog's and the leads' proposed closures confirmed one by one (carried from R75-4, before it R74-8; owner: cc)
+- [>] R76-2: P-601, the 79 'order unshown' as a list that may only shrink (carried from R75-5, before it R74-9; owner: cc)
+- [>] R76-3: B1842's C-T tautology fixed before B1842's Yukawa path is used (carried from R75-8; owner: cc)
+- [>] R76-4: P-711, the line stabilizers' images (carried from R75-9's second half; owner: cc)
+- [ ] R76-5: P-727's tube value — the mesher inside the full group's own Ford domain (complete faces, sheets glued by its pairings, periods via the monodromy on H_1); the 80-grid's 6.15 withdrawn after the 120-grid failed its checks (owner: cc)
+- [ ] R76-6: P-729, door C — the candidate initial laws stated in object terms, C5 first (owner: cc)
+- [ ] R76-7: R2's form under the chiral premise — the exact level-5 block or the asymptotic, by a rule written first (the B1012 ruling's open step; owner: cc)
+- [ ] R76-8: P-716 — the agy lane's Theorem 155 CP claim checked with main's own code (owner: cc)

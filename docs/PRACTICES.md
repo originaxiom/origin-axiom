@@ -1302,3 +1302,22 @@ Three practices came out of the field stage's last window. Each answers a slip t
    the golden apex; the continued-fraction formula caught it. MANUAL.
 5. **A check a pre-run note promises for the landing is a line of the landing's checklist** (B1839's PRE_RUN_NOTE:
    "the landing re-checks" the measured inputs' hashes; skipped at S305j, done at Review 75, unchanged). MANUAL.
+
+## Review 76's practices: an instrument on a known answer first, folds scanned, a deep grid controlled, an asymptotic checked where used — MANUAL (adopted 2026-11-06, Review 76, B1848)
+
+1. **A new instrument is run on a case with a known answer before it reads anything** (E52, many times in B1846–B1847,
+   every one caught this way). B1846's solver reproduced B1295's |c₍₀,₂₎| = 4.260982635. B1847's modulus solver recovered
+   a Fuchsian group's τ to < 2 × 10⁻⁴, and a 3D-inverted curved copy agreed. A reading from an instrument that has not
+   passed its known answer is not reported. MANUAL.
+2. **A level set is scanned for folds before it is parametrized as a graph** (B1847). The excursion's tube level folds into
+   a helicoid about the core, the graph method's checks failed there, and `fold_scan.py` showed why. Count the crossings
+   of each line of fixed (u, t) first. MANUAL.
+3. **A grid that reaches below a domain's floor is controlled at the same settings** (B1847). Extending the grid exposed
+   missing small faces. The s = ¼ control, valid at t ≥ 0.25, failed at t ≥ 0.15, so no tube value from the deeper grid is
+   used. A setting change is validated on a control before it reads the target. MANUAL.
+4. **An asymptotic formula used at a small parameter is checked against the exact value there** (E93, the B1012 ruling).
+   R2's exp(N·Vol/2π) is the figure-eight block's leading asymptotic. At N = 5 the exact block is 46 + 2√5, a factor of
+   10 larger. MANUAL.
+5. **A test's tolerance comes from the stated errors, not from the first value seen** (E29, disclosed in B1846). The
+   symmetry test's fixed 0.12 was replaced by a χ² on 20 degrees of freedom after a 0.0002 miss. The replacement is
+   principled and passes; the order of events is disclosed. MANUAL.
