@@ -19,10 +19,10 @@
 | … OPEN | 96 |
 | … RETRACTED | 12 |
 | register points | 729 |
-| … QUEUED | 303 |
+| … QUEUED | 302 |
 | … LEAD | 9 |
 | … OWNER | 4 |
-| … DONE | 402 |
+| … DONE | 403 |
 | … DECLINED | 11 |
 | harvest rows (the last number) | 1608 |
 | the Standard Model's 19 derived | 0 |
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306g REVIEW 76'S ITEMS WORKED: THE TUBE'S OWN MODULUS (B1847 § 8; P-727 DONE), DOOR C'S C5, R2'S FORM (2026-11-06)
 - S306f THE LACIE SYNCED WHOLE; THE SEATS FETCHED AFTER REVIEW 76 (2026-11-06)
 - S306d THE LEVEL SURFACE'S OWN MODULUS (B1847; P-727) + THE SEATS FETCHED + MAIN'S RULING ON B1012 (2026-11-06)
 - S306c THE OWNER'S TWO QUESTIONS ROWED; P-727 IN PROGRESS (P-728, P-729; 2026-11-06)
@@ -63,11 +64,10 @@
 - S306a THE SEATS FETCHED: THE READ-OUT THE HISTORY'S SYMMETRY FORCES (2026-11-06)
 - S305z THE PLEATED LAYERS READ; EVERY CHOICE AT ONCE; BOTH TWINS (P-723, P-724, P-725; 2026-11-06)
 - S305y THE REPO FETCHED; ONE LEVEL FROM TWO SEATS; THE LINE'S LAST BIT A CHIRAL PAIR; STAGE C VALIDATED (2026-11-06)
-- S305v THE SEATS REFETCHED; LEAST ACTION UNDER THE RUNG'S INVISIBILITY (2026-11-06)
 
 ## The latest campaign line
 
-LATEST (2026-11-06, S306f: the LaCie mirror synced with the whole repository (73 refs, fsck clean); the seats fetched after Review 76 — rows 1605–1608; Theorem 155's CP claim fails on its own code (the web seat); door C stays one declared choice. 0 of 19.)
+LATEST (2026-11-06, S306g: Review 76's items worked — the tube's own modulus Im τ(Σ₀) = 6.15 ± 0.15 by the full group's Ford-domain mesher (P-727 DONE; far above the record's three readings 3.65, 2.87, 2.58); door C's C5 is a weight, not a law; R2's form fixed as the exact block. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

@@ -22,9 +22,9 @@ nothing in this block is typed by hand.*
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.62) of 2026-11-05 |
 | arcs with a verdict | 1550: 1059 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 729: 316 open (queued, leads, waiting for the owner), 413 closed |
+| points in the register | 729: 315 open (queued, leads, waiting for the owner), 414 closed |
 | the last review | Review 76 (2026-11-06), anchor `1eb535ecd` |
-| the last landing | S306f THE LACIE SYNCED WHOLE; THE SEATS FETCHED AFTER REVIEW 76 (2026-11-06) |
+| the last landing | S306g REVIEW 76'S ITEMS WORKED: THE TUBE'S OWN MODULUS (B1847 § 8; P-727 DONE), DOOR C'S C5, R2'S FORM (2026-11-06) |
 <!-- STATE:END -->
 
 ## Start here
