@@ -1,0 +1,7 @@
+sympy 1.14.0
+U1 PASS
+U2 PASS
+U3 PASS
+U4 PASS
+U5 PASS
+all as predicted: True
