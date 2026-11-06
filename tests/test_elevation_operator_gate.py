@@ -2547,6 +2547,80 @@ def test_five_phase_master_toe_closure():
     assert t133["zero_held_out_values_computed"] is True
     assert t133["all_six_guardrails_passed"] is True
 
+    # Theorem 134 (Stage 24.1): P-720 Ask 1 Exact Modular Weights in FR-FIB & Minimal-Kähler Insufficiency
+    t134 = sc["theorem134_p720_ask1_exact_fr_fib_modular_weights_and_minimal_kahler_insufficiency"]
+    assert "docs/handoffs/CC_TO_AGY_2026-11-06_P720_THE_READ_OUT_WEIGHT.md" in t134["seen_first"]
+    assert "frontier/B1736_the_family_group_is_the_frames_own/FINDINGS.md" in t134["seen_first"]
+    assert "MATH" in t134["claim_labels_and_scopes"]["p720_ask1_exact_fr_fib_modular_weights"]
+    assert "FORCED-BY-MAIN" in t134["claim_labels_and_scopes"]["p720_minimal_kahler_weight_insufficiency"]
+    assert "plain_english_elaboration" in t134
+    assert float(t134["k_residue"]) == -0.5
+    assert float(t134["k_u"]) == -0.5
+    assert float(t134["k_higgs_dr"]) == 1.5
+    assert float(t134["k_yukawa_net"]) == 1.0
+    assert float(t134["w_minimal_kahler_amp"]) == 0.5
+    assert float(t134["w_minimal_kahler_pet"]) == 1.0
+    assert t134["minimal_kahler_reaches_p720_threshold"] is False
+    assert float(t134["max_t_u_abs_err"]) < 1e-12
+    assert float(t134["max_s_u_weight_minus_half_err"]) < 5e-13
+    assert float(t134["max_s_invariant_norm_err"]) < 5e-13
+    assert float(t134["max_s_relative_sign_err"]) < 1e-12
+    assert float(t134["mp_max_u1_err"]) < 3e-13
+    assert float(t134["max_haar_err_134"]) < 1e-13
+    assert t134["zero_six_values_evaluated_at_tau_star"] is True
+    assert t134["zero_held_out_values_computed"] is True
+    assert t134["all_six_guardrails_passed"] is True
+
+    # Theorem 135 (Stage 24.2): P-720 Ask 2 & Ask 3 Basis-Covariant Effective Yukawa & Level-4 Holonomy Law
+    t135 = sc["theorem135_p720_ask2_ask3_basis_covariant_effective_yukawa_and_level4_holonomy_law"]
+    assert "docs/handoffs/CC_TO_AGY_2026-11-06_P720_THE_READ_OUT_WEIGHT.md" in t135["seen_first"]
+    assert "frontier/B1845_the_objects_own_line_and_the_excursion/verification/period_average.py" in t135["seen_first"]
+    assert "MATH" in t135["claim_labels_and_scopes"]["level4_generation_holonomy_compatibility_law"]
+    assert "FORCED-BY-MAIN" in t135["claim_labels_and_scopes"]["p720_ask2_ask3_basis_covariant_effective_yukawa_verdict"]
+    assert "plain_english_elaboration" in t135
+    assert t135["gamma4_iff_k_mod3_eq_2"] is True
+    assert t135["joint_iff_k_mod15_eq_5"] is True
+    assert t135["joint_level5_and_gamma4_ks_below_30"] == [5, 20]
+    assert t135["d5_5_mod4"] == [[1, 0], [0, 1]]
+    assert int(t135["n_period_points"]) == 41
+    assert int(t135["distinct_s4_rotations_visited_count"]) >= 4
+    assert float(t135["max_reduction_tau_err"]) < 1e-9
+    assert float(t135["max_s4_orthogonality_err"]) < 1e-14
+    assert float(t135["max_order5_down_lep_diff"]) < 1e-12
+    assert float(t135["w1_up_proxy_gap"]) > 5.0
+    assert float(t135["w1_up_gram_gap"]) > 5.0
+    assert float(t135["w1_up_coh_gap"]) > 2.5
+    assert t135["minimal_kahler_washed_out_by_bulk"] is True
+    assert float(t135["max_haar_err_135"]) < 1e-13
+    assert t135["zero_six_values_evaluated_at_tau_star"] is True
+    assert t135["zero_held_out_values_computed"] is True
+    assert t135["all_six_guardrails_passed"] is True
+
+    # Theorem 136 (Stage 24.3): P-719 & P-721 Object-Native Conductors {3, 5, 15} Audit & Stage 24 Referee Gate
+    t136 = sc["theorem136_p719_p721_scale_wall_sharpening_three_conductors_and_stage24_referee_gate"]
+    assert "docs/POINT_REGISTER.md" in t136["seen_first"]
+    assert "docs/THE_COUNT_2026-11-06.md" in t136["seen_first"]
+    assert "FORCED-BY-MAIN" in t136["claim_labels_and_scopes"]["p719_p721_scale_wall_and_three_conductors_audit"]
+    assert "MATH" in t136["claim_labels_and_scopes"]["stage24_zero_trust_hostile_referee_gate"]
+    assert "plain_english_elaboration" in t136
+    assert t136["all_cat_map_det_laws_hold"] is True
+    assert int(t136["twisted_fixed_pts_mod5_count"]) == 5
+    assert t136["nonzero_twisted_pairs"] == [(1, 2), (2, 4)]
+    assert t136["twisted_fixed_points_match_p718_eigenline"] is True
+    assert t136["three_object_native_conductors"]["N_3_being_cusp_and_gamma4_pisano_period"] == 3
+    assert t136["three_object_native_conductors"]["N_5_hearing_monodromy_discriminant_and_twisted_fixed_points"] == 5
+    assert t136["three_object_native_conductors"]["N_15_handshake_and_joint_d5k_compatibility_period"] == 15
+    assert t136["sympy_lucas_even_id"] is True
+    assert t136["sympy_lucas_odd_id"] is True
+    assert float(t136["mp_ell_err"]) < 1e-14
+    assert float(t136["mp_h5_err"]) < 1e-12
+    assert float(t136["max_haar_err_136"]) < 1e-13
+    assert t136["zero_scale_ratios_evaluated"] is True
+    assert t136["zero_six_values_evaluated_at_tau_star"] is True
+    assert t136["zero_held_out_values_computed"] is True
+    assert t136["all_six_guardrails_passed"] is True
+
+
 
 
 
