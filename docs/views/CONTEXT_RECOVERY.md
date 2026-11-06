@@ -24,7 +24,7 @@
 | … OWNER | 4 |
 | … DONE | 402 |
 | … DECLINED | 11 |
-| harvest rows (the last number) | 1604 |
+| harvest rows (the last number) | 1608 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306f THE LACIE SYNCED WHOLE; THE SEATS FETCHED AFTER REVIEW 76 (2026-11-06)
 - S306d THE LEVEL SURFACE'S OWN MODULUS (B1847; P-727) + THE SEATS FETCHED + MAIN'S RULING ON B1012 (2026-11-06)
 - S306c THE OWNER'S TWO QUESTIONS ROWED; P-727 IN PROGRESS (P-728, P-729; 2026-11-06)
 - S306b THE METRIC'S READ-OUT: HARMONIC TIME (B1846; P-726, P-727; 2026-11-06)
@@ -63,11 +64,10 @@
 - S305z THE PLEATED LAYERS READ; EVERY CHOICE AT ONCE; BOTH TWINS (P-723, P-724, P-725; 2026-11-06)
 - S305y THE REPO FETCHED; ONE LEVEL FROM TWO SEATS; THE LINE'S LAST BIT A CHIRAL PAIR; STAGE C VALIDATED (2026-11-06)
 - S305v THE SEATS REFETCHED; LEAST ACTION UNDER THE RUNG'S INVISIBILITY (2026-11-06)
-- S305u THE HYPERBOLIC METRIC'S OWN READ-OUT (P-723; 2026-11-06)
 
 ## The latest campaign line
 
-LATEST (2026-11-06, REVIEW 76 (B1848): the reader holds B1845–B1847 with notes; B1846's 'no point is forced' corrected — the metric's systole is a canonical point at the tube, with the volume weight's peak; the suite's four window failures fixed; P-727's preliminary tube value withdrawn (failed on the finer grid). 0 of 19.)
+LATEST (2026-11-06, S306f: the LaCie mirror synced with the whole repository (73 refs, fsck clean); the seats fetched after Review 76 — rows 1605–1608; Theorem 155's CP claim fails on its own code (the web seat); door C stays one declared choice. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
