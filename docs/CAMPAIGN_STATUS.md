@@ -2,6 +2,8 @@
 
 > **Currency — Review 56 (2026-09-09, anchor `eb9db7fa`).** Refreshed against the 21-merge window `be6f4cab`→`eb9db7fa` (B1294–B1307: MASTERPLAN v3 Phases 0–1 and v3.1's seven harvest arcs). **Review 56's headline is a number, not a repair:** the harvest gate's first strict report — 494 seat-index ids on nine branches, **428 without a ledger row, 348 seat-branch relays without a relay row**, two seats already past main's pins — escalated by name as R56-1 with a payment order (B1306 slices B–D, newest first). 32/32 gates; LAW_MAP's second zero-advancement window (R56-2); CLAIMS.md's 129-arc lag escalated (R56-3); two E53 repairs in living surfaces (THE_SM_VERDICT, MAIN_GOAL JOIN 3); E71 minted. Full detail: `docs/progress/REVIEWS.md` (Review 56).
 
+**LATEST (2026-11-06, S305q: B1845 — the line is the object's own (RL's level-5 eigenline; the hand + one bit at a placed τ); P-717's excursion read out by P-455's period average loses the hierarchy, so its apex read-out is load-bearing (FL-05). τ not placed. 0 of 19.)**
+
 **LATEST (2026-11-06, S305p: the scale wall tested (P-719) — absolute energy impossible (units); a dimensionless scale ratio not excluded (B151 sharpened, B660 scoped); missing: a principle fixing the level, candidate 5 (P-718), firewalled. 0 of 19.)**
 
 **LATEST (2026-11-06, REVIEW 75 (B1844): the sample read in full holds (three dated notes); Review 74's loop closed; the Stage 16–18 ranges sealed; P-707 (frame A 13 joints), P-708 (the six retired as a decisive cell) ruled; THE COUNT adopted; next R75-6 (P-717's read-out) and R75-7 (the scale wall re-audited). 0 of 19.)**

@@ -62,6 +62,7 @@ sector is listed with its target.
 | B1839 | sealed | the six at the exact horoball norm at one free level L_max + δ (22 levels and the cusp limit), every line, the matched null with c continuous and δ priced (P-421's decider) | NEGATIVE as sealed: P1 holds (4.61), D fails (r97.5 2.46%); read with B1841 by the joint rule fixed before either look |
 | B1841 | sealed | the six at B1840's four principled ends (E1 L₂, E2 ln 2, E3 L_max, E4 L₂ − π/2), every line, the matched null with c continuous and the entry priced among K = 4 | PROVED as sealed (P1 4.727, D r97.5 0.885%; best E4, apex 162, (2/5, 4/5), (S̃, S, S), c 3.77); a READING by main's third opinion (P-706) |
 | B1841's quark four | post hoc (main's third opinion; audit/b1841_third/quark_only.py, now in B1841's referee/) | four of the six (ln c/t, u/t, s/b, d/b) over B1841's same rows and readings, against the same random hierarchies | not specific: 3.748 over the four ends, 17.5% as low (E4 alone 3.989, 9.2%); the six's specificity at E4 is the lepton half, the SU(5) relation on order-5 lines meeting nature's Georgi–Jarlskog pattern (P-706) |
+| P-717's τ* (main, S305p) | post hoc (printed while timing P-455's period-average instrument, audit/drafts/p455/) | the frame's up and down sector ratios at τ* = ½ + (2 + √5/2)i on (2/5, 4/5) at E4 — frame values only, but main knows the measured six | an exposure, not a test: no comparison is recorded; P-717 cannot be validated on the six (already disclosed) |
 
 ## The web seat (chat1)
 

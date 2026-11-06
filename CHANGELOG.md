@@ -1,5 +1,14 @@
 # Changelog
 
+## S305q B1845 THE OBJECT'S OWN LINE AND THE EXCURSION READ OUT (P-717, P-718, P-455; 2026-11-06)
+
+- Tonight's data-free computations committed with their scripts and locks.
+- **Level 5 is the object's own:** LR has order 5 mod 5.
+- **The line:** RL fixes exactly the order-5 lines (1/5, 2/5) and (2/5, 4/5); the order-5 classes are X₁(5)'s cusps; ⟨2⟩ is not a frame symmetry at fixed τ. At a placed τ the line is the hand plus one binary choice.
+- **The excursion:** its threads converge to τ* = ½ + (2 + √5/2)i with Re ½ exact, and for k ≡ 0 mod 5 they carry RL's line.
+- **The read-out:** P-455's period average along the excursion washes the hierarchy out (apex ln ratios −4 to −12.5; loop mean −1 to −4). The apex read-out is load-bearing, and its derivation needs a kinetic structure along the circle (FL-05).
+- **Disclosed:** main printed the frame's ratios at τ* while timing the instrument (LOOK_LEDGER, post hoc). 0 of 19.
+
 ## S305p THE SCALE WALL TESTED (R75-7, P-719; the owner: 'Test the wall') (2026-11-06)
 
 - **B151 and B660 re-read in full.** An absolute energy cannot come from the object, since its invariants carry no units: that holds.

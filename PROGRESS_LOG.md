@@ -18535,3 +18535,11 @@ At the owner's choice the record's wall against an energy scale was re-read, not
 energies: the object has no units, and no theory gets its unit from mathematics alone. It does not hold for a ratio of
 scales: the record's own reading shows how an invariant of the object sets such a ratio once a level is fixed, and the
 object has a level of its own candidate, five. Nothing was computed from it; the rule comes first. 0 of 19.
+
+## 2026-11-06 — S305q: the candidate read out
+
+The object's own symmetry, read at its own prime, places the line up to two binary choices, and that is now committed
+with its checks. The candidate for τ was tested the way the geometry itself would read it, averaged around its loop: the
+hierarchy disappears, and survives only if the frame is read at the loop's highest point. So the candidate still borrows
+two choices, and the reason to read at the top would need dynamics along the circle that the record does not have.
+0 of 19.

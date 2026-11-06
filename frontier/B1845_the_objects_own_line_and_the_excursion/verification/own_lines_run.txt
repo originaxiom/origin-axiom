@@ -1,0 +1,15 @@
+LR             tr    3  Smith(A-I)      1  Smith(A+I)      5  order-5 lines fixed (up to sign): {'(1/5, 3/5)': ('-1', 'slope 1/5 (width 5)'), '(2/5, 1/5)': ('-1', 'slope 2/5 (width 5)')}
+RL             tr    3  Smith(A-I)      1  Smith(A+I)      5  order-5 lines fixed (up to sign): {'(1/5, 2/5)': ('-1', 'slope 1/5 (width 5)'), '(2/5, 4/5)': ('-1', 'slope 2/5 (width 5)')}
+L^5R(LR)^0     tr    7  Smith(A-I)      5  Smith(A+I)      9  order-5 lines fixed (up to sign): {'(0/5, 1/5)': ('+1', 'a=0 (width 1)'), '(0/5, 2/5)': ('+1', 'a=0 (width 1)')}
+L^5R(LR)^1     tr   19  Smith(A-I)     17  Smith(A+I)     21  order-5 lines fixed (up to sign): none
+L^5R(LR)^2     tr   50  Smith(A-I)     12  Smith(A+I)     26  order-5 lines fixed (up to sign): none
+L^5R(LR)^3     tr  131  Smith(A-I)    129  Smith(A+I)    133  order-5 lines fixed (up to sign): none
+L^5R(LR)^4     tr  343  Smith(A-I)    341  Smith(A+I)    345  order-5 lines fixed (up to sign): {'(1/5, 0/5)': ('-1', 'slope 1/5 (width 5)'), '(2/5, 0/5)': ('-1', 'slope 2/5 (width 5)')}
+L^5R(LR)^5     tr  898  Smith(A-I)    224  Smith(A+I)    450  order-5 lines fixed (up to sign): {'(0/5, 1/5)': ('-1', 'a=0 (width 1)'), '(0/5, 2/5)': ('-1', 'a=0 (width 1)')}
+L^5R(LR)^6     tr 2351  Smith(A-I)   2349  Smith(A+I)   2353  order-5 lines fixed (up to sign): none
+L^5R(LR)^7     tr 6155  Smith(A-I)   6153  Smith(A+I)   6157  order-5 lines fixed (up to sign): none
+L^5R(LR)^8     tr 16114  Smith(A-I)   4028  Smith(A+I)   8058  order-5 lines fixed (up to sign): none
+L^5R(LR)^9     tr 42187  Smith(A-I)  42185  Smith(A+I)  42189  order-5 lines fixed (up to sign): {'(1/5, 0/5)': ('+1', 'slope 1/5 (width 5)'), '(2/5, 0/5)': ('+1', 'slope 2/5 (width 5)')}
+L^5R(LR)^10    tr 110447  Smith(A-I) 110445  Smith(A+I) 110449  order-5 lines fixed (up to sign): {'(0/5, 1/5)': ('+1', 'a=0 (width 1)'), '(0/5, 2/5)': ('+1', 'a=0 (width 1)')}
+L^5R(LR)^11    tr 289154  Smith(A-I)  72288  Smith(A+I) 144578  order-5 lines fixed (up to sign): none
+L^5R(LR)^12    tr 757015  Smith(A-I) 757013  Smith(A+I) 757017  order-5 lines fixed (up to sign): none

@@ -1,0 +1,13 @@
+k= 0  highest apex (orbit incl. S) Re 0.500000 Im 3.354101966250 | CF formula 3.354101966250 | Im - (2+sqrt5/2) = +2.36e-01
+k= 1  highest apex (orbit incl. S) Re 0.500000 Im 3.149073937949 | CF formula 3.149073937949 | Im - (2+sqrt5/2) = +3.10e-02
+k= 2  highest apex (orbit incl. S) Re 0.500000 Im 3.122498999199 | CF formula 3.122498999199 | Im - (2+sqrt5/2) = +4.47e-03
+k= 3  highest apex (orbit incl. S) Re 0.500000 Im 3.118684093683 | CF formula 3.118684093683 | Im - (2+sqrt5/2) = +6.50e-04
+k= 4  highest apex (orbit incl. S) Re 0.500000 Im 3.118128809515 | CF formula 3.118128809515 | Im - (2+sqrt5/2) = +9.48e-05
+k= 5  highest apex (orbit incl. S) Re 0.500000 Im 3.118047822312 | CF formula 3.118047822312 | Im - (2+sqrt5/2) = +1.38e-05
+k= 6  highest apex (orbit incl. S) Re 0.500000 Im 3.118036007027 | CF formula 3.118036007027 | Im - (2+sqrt5/2) = +2.02e-06
+k= 7  highest apex (orbit incl. S) Re 0.500000 Im 3.118034283212 | CF formula 3.118034283212 | Im - (2+sqrt5/2) = +2.94e-07
+k= 8  highest apex (orbit incl. S) Re 0.500000 Im 3.118034031711 | CF formula 3.118034031711 | Im - (2+sqrt5/2) = +4.30e-08
+k= 9  highest apex (orbit incl. S) Re 0.500000 Im 3.118033995018 | CF formula 3.118033995018 | Im - (2+sqrt5/2) = +6.27e-09
+k=10  highest apex (orbit incl. S) Re 0.500000 Im 3.118033989664 | CF formula 3.118033989664 | Im - (2+sqrt5/2) = +9.14e-10
+k=11  highest apex (orbit incl. S) Re 0.500000 Im 3.118033988883 | CF formula 3.118033988883 | Im - (2+sqrt5/2) = +1.33e-10
+k=12  highest apex (orbit incl. S) Re 0.500000 Im 3.118033988769 | CF formula 3.118033988769 | Im - (2+sqrt5/2) = +1.95e-11

@@ -10539,7 +10539,7 @@
     "V140"
    ],
    "obstacle": "units_scale",
-   "obstacle_conf": 24,
+   "obstacle_conf": 30,
    "status": "banked",
    "domain": "topology"
   },
@@ -15506,6 +15506,26 @@
    "refs": [],
    "obstacle": "measure",
    "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B1845": {
+   "slug": "the objects own line and the excursion",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "firewall",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B6"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 3,
    "status": "banked",
    "domain": "topology"
   },
@@ -26914,7 +26934,7 @@
     "S4"
    ],
    "obstacle": "units_scale",
-   "obstacle_conf": 6,
+   "obstacle_conf": 10,
    "status": "banked",
    "domain": "arithmetic"
   },
