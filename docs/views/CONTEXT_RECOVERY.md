@@ -18,8 +18,8 @@
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 719 |
-| … QUEUED | 296 |
+| register points | 720 |
+| … QUEUED | 297 |
 | … LEAD | 9 |
 | … OWNER | 4 |
 | … DONE | 399 |
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S305r THE READ-OUT MAY BE THE RECORD'S OWN KÄHLER WEIGHT (P-720; 2026-11-06)
 - S305q B1845 THE OBJECT'S OWN LINE AND THE EXCURSION READ OUT (P-717, P-718, P-455; 2026-11-06)
 - S305p THE SCALE WALL TESTED (R75-7, P-719; the owner: 'Test the wall') (2026-11-06)
 - S305o THE LINE IS THE OBJECT'S OWN; THE EXCURSION INHERITS IT (P-717, P-718; 2026-11-06)
@@ -63,11 +64,10 @@
 - S305m THE GOAL SET: A PROCESS THAT PLACES τ, THE LINE AND AN ENERGY SCALE; THE FAREY TRANSITION PLACES NOTHING; ONE CANDIDATE, P-717 (2026-11-06)
 - S305l THE BANG PROGRAMME OPENED (P-694): THE STAGE AUDITED; WAVE 1 AIMED AT WHAT PLACES τ, THE LINE AND A SCALE (2026-11-05)
 - S305k THE SEATS FETCHED: THE SM SEAT'S §§ 351–353 RE-RUN; THE AGY LANE'S STAGES 19–20 CHECKED; P-710 SEEN FIRST (2026-11-05)
-- S305j THE END CARDS READ: B1839 NEGATIVE, B1841 PROVED AS SEALED — A READING; STRUCTURE CARRIES THE SIX, NOT THE FRAME'S VALUES; THE TARGETS HELD (2026-11-05)
 
 ## The latest campaign line
 
-LATEST (2026-11-06, S305q: B1845 — the line is the object's own (RL's level-5 eigenline; the hand + one bit at a placed τ); P-717's excursion read out by P-455's period average loses the hierarchy, so its apex read-out is load-bearing (FL-05). τ not placed. 0 of 19.)
+LATEST (2026-11-06, S305r: P-720 — the read-out is one weight; under P-259's minimal Kähler the fields' modular weights may supply it, making P-717's apex read-out derived; the weights and the proper integral owed (agy asked). 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
