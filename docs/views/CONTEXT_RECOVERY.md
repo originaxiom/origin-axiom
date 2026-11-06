@@ -18,11 +18,11 @@
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 716 |
-| … QUEUED | 297 |
+| register points | 718 |
+| … QUEUED | 298 |
 | … LEAD | 9 |
 | … OWNER | 4 |
-| … DONE | 395 |
+| … DONE | 396 |
 | … DECLINED | 11 |
 | harvest rows (the last number) | 1582 |
 | the Standard Model's 19 derived | 0 |
@@ -56,18 +56,18 @@
 
 ## The last landings (CHANGELOG)
 
+- S305o THE LINE IS THE OBJECT'S OWN; THE EXCURSION INHERITS IT (P-717, P-718; 2026-11-06)
+- S305n P-717'S CONTROL AND P-715'S WALL (2026-11-06)
+- S305m THE GOAL SET: A PROCESS THAT PLACES τ, THE LINE AND AN ENERGY SCALE; THE FAREY TRANSITION PLACES NOTHING; ONE CANDIDATE, P-717 (2026-11-06)
 - S305l THE BANG PROGRAMME OPENED (P-694): THE STAGE AUDITED; WAVE 1 AIMED AT WHAT PLACES τ, THE LINE AND A SCALE (2026-11-05)
 - S305k THE SEATS FETCHED: THE SM SEAT'S §§ 351–353 RE-RUN; THE AGY LANE'S STAGES 19–20 CHECKED; P-710 SEEN FIRST (2026-11-05)
 - S305j THE END CARDS READ: B1839 NEGATIVE, B1841 PROVED AS SEALED — A READING; STRUCTURE CARRIES THE SIX, NOT THE FRAME'S VALUES; THE TARGETS HELD (2026-11-05)
 - S305i BEFORE EITHER LOOK IS READ: B1841'S PRE-READ NOTE; THE CENSUS'S THIRD OPINION; THE SEATS REFETCHED (2026-11-05)
 - S305h GENESIS v1.62: THE JOINT CONFIRMATION, ADOPTED BEFORE B1839 IS READ (B1843); THE AGY LANE'S STRUCTURAL CLAIMS VERIFIED (2026-11-05)
-- S305g THE HOMEWORK FOR A CLOSURE: B1841 SEALED BEFORE B1839 IS READ; THE SEATS ENGAGED (2026-11-05)
-- S305f THE AGY LANE'S STAGES 14–15 READ AT THE OWNER'S WORD: NO JOINT EARNED, NOTHING THAT MOVES B1839; COMPLIANCE REGRESSED (2026-11-05)
-- S305e η_B JOINS THE HELD-OUT LIST; THE BANG PROGRAMME RULED (P-694, P-695) (2026-11-05)
 
 ## The latest campaign line
 
-LATEST (2026-11-05, S305l: THE BANG PROGRAMME opened (P-694, docs/THE_BANG_PROGRAMME.md) — the stage audited (B867's S3 rests on B295's no-double-well cubic; B852's Farey s = 1 the real transition); wave 1 aimed at what places τ, the line and a scale (P-712–P-716). 0 of 19.)
+LATEST (2026-11-06, S305o: the line is the object's own level-5 eigenline (P-718: RL fixes exactly (1/5, 2/5), (2/5, 4/5); B1841's best line is one of them, post hoc); P-717's excursion L⁵R(LR)^{5m} inherits the object's (apex, line) pair, lifted toward ½ + (2 + √5/2)i; choices left: one excursion, the apex, the hand; the scale walled. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

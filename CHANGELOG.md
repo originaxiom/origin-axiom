@@ -1,5 +1,23 @@
 # Changelog
 
+## S305o THE LINE IS THE OBJECT'S OWN; THE EXCURSION INHERITS IT (P-717, P-718; 2026-11-06)
+
+- **Level 5 is the object's own:** LR's discriminant is 3² − 4 = 5, so LR ≡ −(unipotent) mod 5, of order 5 in A₅ (computed). The ladder's end and the monodromy's ramified prime coincide. P-717's wording is corrected: the whole run L⁵ is one primitive cusp loop of Γ(5).
+- **P-718: the line is the object's own level-5 eigenline.** RL fixes exactly (1/5, 2/5) and (2/5, 4/5) (B1733's rule; LR's are (1/5, 3/5) and (2/5, 1/5)). **B1841's best line, (2/5, 4/5), is RL's own fixed line** (post hoc; the thread rule predates it: B1733, B1734). The strip's order-10 lines are not fixed by RL. The order-5 line classes are X₁(5)'s cusps (sizes 1, 1, 5, 5). The diamond ⟨2⟩ is not a frame symmetry at fixed τ (features differ by 2–6). So at a placed τ, 266 lines become 4: two eigenline points × the hand.
+- **The compatibility (P-717):** in apex coordinates the approximant L⁵R(LR)^k fixes RL's eigenline iff k ≡ 0 (mod 5), and is then ≡ ±RL (mod 5). The family L⁵R(LR)^{5m} carries RL's own (apex, line) pair, lifted toward ½ + (2 + √5/2)i. Choices left: one excursion, the apex read-out, the limit or m, the hand. The energy scale stays walled (P-715). Scripts in audit/drafts/p717/, p718/. P-718; FLOOR 718. 0 of 19.
+
+## S305n P-717'S CONTROL AND P-715'S WALL (2026-11-06)
+
+- **P-717's control, data-free:** the closed threads L⁵R(LR)^k have highest apexes converging to Im 2 + √5/2 (the gap shrinking by φ⁻⁴ per golden period), and Re τ = ½ exactly at every k. The excursion is palindromic, so Re τ* = ½ is an output, not a choice. Two methods agree to 10⁻¹² (audit/drafts/p717/). Main's first run of the control omitted the S-conjugates and returned the golden apex; the second method caught it.
+- **P-715, swept first:** the object is scale-free (B151, B660, B719, B811, B980). No process in it can supply an absolute energy; the reachable target is a dimensionless ratio to one physical unit. A contamination guard is recorded, because main has read P-597's datum. 0 of 19.
+
+## S305m THE GOAL SET: A PROCESS THAT PLACES τ, THE LINE AND AN ENERGY SCALE; THE FAREY TRANSITION PLACES NOTHING; ONE CANDIDATE, P-717 (2026-11-06)
+
+- **The owner's goal:** 'Find a process in the object that places τ, the line and an energy scale, so we stop choosing them.'
+- **P-713 DONE, NEGATIVE for placing τ:** s = 1 is PSL(2, ℤ)'s critical exponent; its measure is hyperbolic area (B1813), whose cusp tail 3/(πY) has no scale (seen first: B1813, P-438; the Farey pressure's form cited from Prellberg and Slawny 1992).
+- **Swept first:** the cusp shapes, special points, thread apexes, Petersson peak and one-loop potential are closed on record (B1696, B1702, B1791); P-465 had the golden ground path (apex √5/2, no hierarchy); B1629, that nothing the principle forces visits the cusp.
+- **P-717 (firewalled speculation):** the golden path departs once, by the run the last finite rung cannot see (T⁵ trivial in Γ/⟨⟨T⁵⟩⟩ ≅ A₅, GENESIS v1.57) — τ* = ½ + (2 + √5/2)i exactly, the line of order 5 (12 lines, 4 T-classes at fixed τ, counted from the census's list); the menu 223 × 266 → 1 × 4; three choices named; DISCLOSED: the 5 was noticed in the data (P-373) and main compared τ* with the six's strip in its reasoning, so the six cannot validate it. Relay CC_TO_AGY_2026-11-06_P717_ONE_DEPARTURE.md. P-717; FLOOR 717. 0 of 19.
+
 ## S305l THE BANG PROGRAMME OPENED (P-694): THE STAGE AUDITED; WAVE 1 AIMED AT WHAT PLACES τ, THE LINE AND A SCALE (2026-11-05)
 
 - **The owner:** 'lets go for that programe then'. **docs/THE_BANG_PROGRAMME.md:** the programme's practical job, from tonight's end cards — a process that places τ, the line and a scale (the menu costs ~19 bits; the SM seat's §353: +15 bits with the line and apex fixed by principle; y_τ = y_b a prediction only with a forced scale, P-597).

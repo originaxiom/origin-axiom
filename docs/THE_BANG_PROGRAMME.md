@@ -55,6 +55,19 @@ them.** That is FL-05's gap (no action, no dynamics, no scale), and the owner's 
 5. **The CP-odd source (P-716).** Where, at the level of representations, the CS sign becomes an amount. Or a proof that
    nothing does; a negative is equally prized.
 
+## Wave 1's state (2026-11-06; the owner's goal: 'Find a process in the object that places τ, the line and an energy scale, so we stop choosing them.')
+
+- **P-713 DONE, NEGATIVE for placing τ:** s = 1 is PSL(2, ℤ)'s critical exponent δ = 1. Its measure is hyperbolic area,
+  whose cusp tail 3/(πY) has no scale. The transition exists but places nothing.
+- **P-714 → P-717, a candidate (firewalled speculation).** The golden ground path departs once, by the run the last
+  finite rung cannot see (T⁵ ∈ ⟨⟨T⁵⟩⟩, A₅).
+  - It gives τ* = ½ + (2 + √5/2)i exactly, and an order-5 line (4 T-classes).
+  - The menu drops from 223 × 266 to 1 × 4.
+  - Three choices are named: one departure, the container's level, the apex.
+  - Disclosed: the 5 was noticed in the data, so only a derivation or a held-out prediction can give it weight.
+  - The agy lane was asked to derive or refute the three choices.
+- **P-715 (the scale) and P-716 (the CP source):** open.
+
 ## Guards
 
 - **No SM value enters wave 1.**
