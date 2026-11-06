@@ -1015,6 +1015,106 @@ def gate_seal_ledger_current():
     return True, "ok (%d sealed files listed)" % len(listed)
 
 
+# R76-2 (P-601; Review 74's R74-9): the sealed tests whose order git cannot show -- the rule (PREREGISTRATION.md) and the
+# record (FINDINGS.md) first committed in one commit, the early practice -- frozen as a CEILING that may only shrink.
+# docs/SEAL_ORDER_UNSHOWN.md lists them with each one's commit; the gate recomputes the class from git on every run.
+# B1670 is in the class on main, but its order is shown on the kept referee branch: its seal ad3dd5d44 is a strict
+# ancestor of its record fecdd63bd (Review 74, P-535). The class is the Lab panel's 'rule-before-record: same commit'.
+SEAL_ORDER_UNSHOWN_CEILING = frozenset((
+    "P3", "B425", "B435", "B480", "B496", "B497", "B498", "B507", "B508", "B531", "B533", "B535", "B539",
+    "B540", "B548", "B549", "B575", "B584", "B585", "B586", "B587", "B588", "B592", "B593", "B594", "B595",
+    "B596", "B632", "B640", "B641", "B642", "B643", "B644", "B649", "B654", "B655", "B658", "B709", "B742",
+    "B746", "B747", "B748", "B749", "B750", "B751", "B752", "B753", "B754", "B755", "B757", "B758", "B759",
+    "B760", "B761", "B762", "B764", "B765", "B766", "B767", "B768", "B769", "B771", "B780", "B781", "B782",
+    "B790", "B821", "B822", "B824", "B825", "B830", "B839", "B849", "B850", "B936", "B1065", "B1066", "B1102",
+    "B1104",
+))
+SEAL_ORDER_SHOWN_OFF_MAIN = {"B1670": ("ad3dd5d44", "fecdd63bd")}
+SEAL_ORDER_DOC = "docs/SEAL_ORDER_UNSHOWN.md"
+
+
+def seal_order_class(rev="HEAD"):
+    """every sealed test on `rev` (an arc folder under frontier/ holding PREREGISTRATION.md) whose rule and record were
+    first committed in one commit: arc id -> that commit. A rename keeps the file's first commit (the panel's rule in
+    export_panel_data.frontier_events); --full-history keeps a side branch's commits where they were made."""
+    rc, raw = _git("log", "--full-history", "--no-merges", "--topo-order", "--reverse", "-M", "--name-status",
+                   "--diff-filter=AR", "--format=%x1e%H", rev, "--", "frontier/*/PREREGISTRATION.md", "frontier/*/FINDINGS.md")
+    rc2, tree = _git("ls-tree", "-r", "--name-only", rev, "frontier/")
+    if rc != 0 or rc2 != 0:
+        return None
+    origin = {}
+    for chunk in raw.split("\x1e"):
+        if not chunk.strip():
+            continue
+        head, _, body = chunk.partition("\n")
+        sha = head.strip()
+        for ln in body.splitlines():
+            f = ln.split("\t")
+            if f[0].startswith("R") and len(f) == 3:
+                origin[f[2]] = origin.get(f[1], sha)
+            elif f[0] == "A" and len(f) == 2:
+                origin.setdefault(f[1], sha)
+    out = {}
+    for path in tree.splitlines():
+        m = re.fullmatch(r"frontier/([^/]+)/PREREGISTRATION\.md", path)
+        if not m:
+            continue
+        rule, record = origin.get(path), origin.get("frontier/%s/FINDINGS.md" % m.group(1))
+        if rule and record and rule == record:
+            out[m.group(1).split("_")[0]] = rule
+    return out
+
+
+def seal_order_listed(text):
+    """the list's rows: arc id -> the short commit it names"""
+    return {m.group(1): m.group(2) for m in re.finditer(r"^\| (B\d+|P\d+) \| [^|\n]* \| `([0-9a-f]{7,40})` \|", text, re.M)}
+
+
+def _strict_ancestor(a, b):
+    if a == b:
+        return False
+    try:
+        r = subprocess.run(["git", "-C", ROOT, "merge-base", "--is-ancestor", a, b], capture_output=True, timeout=30)
+        return r.returncode == 0
+    except Exception:
+        return False
+
+
+def seal_order_problems(computed, listed, ceiling=SEAL_ORDER_UNSHOWN_CEILING, off_main=SEAL_ORDER_SHOWN_OFF_MAIN,
+                        strict_ancestor=_strict_ancestor):
+    problems = []
+    for a in sorted(set(computed) - set(listed) - set(off_main)):
+        problems.append("%s: rule and record first committed together (%s) and not on the list -- seal the rule in its "
+                        "own commit before the results" % (a, computed[a][:9]))
+    for a in sorted(set(listed) - set(ceiling)):
+        problems.append("%s: added to the list, which may only shrink" % a)
+    for a in sorted(set(listed) - set(computed)):
+        problems.append("%s: listed, but its order now shows on main -- remove its row" % a)
+    for a in sorted(set(listed) & set(computed)):
+        if not computed[a].startswith(listed[a]):
+            problems.append("%s: the list names %s, git %s" % (a, listed[a], computed[a][:9]))
+    for a, (seal, record) in sorted(off_main.items()):
+        if a in computed and not strict_ancestor(seal, record):
+            problems.append("%s: its off-main order (%s before %s) is not shown in this clone" % (a, seal, record))
+    return problems
+
+
+def gate_seal_order_unshown():
+    """R76-2 (P-601): the sealed tests whose rule and record git shows only as one commit are a frozen list that may only
+    shrink. A new test sealed with its results fails, an entry added beyond the ceiling fails, a listed test whose order
+    now shows must leave the list, and B1670's off-main order must still be shown."""
+    computed = seal_order_class()
+    if computed is None:
+        return False, "git log failed -- the class cannot be recomputed"
+    if not os.path.isfile(os.path.join(ROOT, SEAL_ORDER_DOC)):
+        return False, SEAL_ORDER_DOC + " missing -- the list is gone"
+    listed = seal_order_listed(_read(SEAL_ORDER_DOC))
+    bad = seal_order_problems(computed, listed)
+    if bad:
+        return False, "; ".join(bad[:4])
+    return True, "ok (%d listed, at most %d; B1670's order shown off main)" % (len(listed), len(SEAL_ORDER_UNSHOWN_CEILING))
+
+
 def gate_seal_digests():
     """Two digest-corruption routes in two days (E47: retyped at seal; E48: a bulk
     identifier remap rewriting hex inside a digest — see docs/ERROR_LEDGER.md for both
@@ -1791,6 +1891,7 @@ GATES = {
     "gate-controls": gate_gate_controls,
     "review-core": gate_review_core,
     "seal-ledger-current": gate_seal_ledger_current,
+    "seal-order-unshown": gate_seal_order_unshown,
     "pretense-phrases": gate_pretense_phrases,
     "member-scope": gate_member_scope,
     "seat-positive-verified": gate_seat_positive_verified,

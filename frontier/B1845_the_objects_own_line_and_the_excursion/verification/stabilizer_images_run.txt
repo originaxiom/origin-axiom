@@ -1,0 +1,7 @@
+B1841's row line, order 5        v = (2/5, 4/5): image in PSL(2, Z/4) of order 24 (element orders [1, 2, 3, 4]); commutant on the 3 = 1
+RL's other fixed line, order 5   v = (1/5, 2/5): image in PSL(2, Z/4) of order 24 (element orders [1, 2, 3, 4]); commutant on the 3 = 1
+LR's line, order 5               v = (1/5, 3/5): image in PSL(2, Z/4) of order 24 (element orders [1, 2, 3, 4]); commutant on the 3 = 1
+an order-10 line                 v = (1/10, 3/10): image in PSL(2, Z/4) of order  8 (element orders [1, 2, 4]); commutant on the 3 = 2
+an order-10 line                 v = (3/10, 1/2): image in PSL(2, Z/4) of order  8 (element orders [1, 2, 4]); commutant on the 3 = 2
+an order-10 line                 v = (1/10, 1/5): image in PSL(2, Z/4) of order  8 (element orders [1, 2, 4]); commutant on the 3 = 2
+an order-2 line                  v = (1/2, 0): image in PSL(2, Z/4) of order  8 (element orders [1, 2, 4]); commutant on the 3 = 2

@@ -84,3 +84,22 @@ its committed output. No measured number is read by any script. 0 of 19.*
   (E52).
 - **§ 4 uses B1842's draft instrument, which is unrun on any held-out quantity.** It computes no held-out quantity here:
   only within-sector ratios.
+
+## Addendum, 2026-11-06 (Review 76's R76-4; P-711's lead): the line stabilizers' images at level 4
+
+- **The computation.** A brute force over SL(2, ℤ/20), which maps onto both levels by the Chinese remainder theorem
+  (`stabilizer_images.py`, `stabilizer_images_run.txt`): the stabilizer of the line ±v reduced to PSL(2, ℤ/4) ≅ S₄.
+  - The commutant dimension on a 3-dimensional irreducible of S₄ is computed as (1/|K|) Σ χ₃(k)².
+  - Each element's S₄ cycle type is read from its order and from whether it is ±I mod 2.
+  - The checks: |PSL(2, ℤ/4)| = 24, and Σ χ₃² = 24.
+- **Order-5 lines:** B1841's row line (2/5, 4/5), RL's (1/5, 2/5) and LR's (1/5, 3/5). The image is all of S₄, and the
+  commutant is 1.
+- **Order-10 lines,** and an order-2 control: the image is a D₄ (order 8, element orders 1, 2, 4), and the commutant is 2.
+- **The reason is elementary.** gcd(5, 4) = 1, so a level-5 stabilizer surjects mod 4; an order-10 line's 2-part pins the
+  image mod 2.
+- **So the agy lane's claim is verified** (P-711; harvest rows 1581–1582).
+- **What it does and does not give.** If the generation metric must commute with the line's stabilizer (P-259's minimal
+  Kähler, a premise), then H = I is forced on order-5 lines, B1841's row among them, and is not forced on order-10
+  lines. Whether the generation block carries a 3-dimensional irreducible of S₄ is the frame's reading, as P-711 states
+  it.
+- No coupling computed; nothing compared with data.

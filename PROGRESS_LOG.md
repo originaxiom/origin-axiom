@@ -18648,3 +18648,11 @@ beside it, from both sides and with two methods. The fibre comes out about 1.7 t
 record's three earlier readings. The first candidate for the history's initial law turned out to be a weight within one
 history, not a law, so that law stays a declared choice. 0 of 19.
 
+## 2026-11-06 — S306h: a check that could not fail, and a list that can only shrink
+
+One of the instruments' checks had been comparing a calculation with itself, so it could never fail. Its replacement
+shows that a shift of the torus's modulus by one leaves the generations' mass spectrum unchanged, but rotates the
+matrices among themselves, contrary to what the old check claimed. The instruments' other checks, run for the first time,
+all hold. The 79 early sealed tests whose order git cannot show are now a list that a gate allows only to shrink.
+The level-4 symmetry of the object's order-5 lines is the full group S₄, which leaves no freedom in the generation metric
+there. 0 of 19.

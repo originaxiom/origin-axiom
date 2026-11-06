@@ -1,5 +1,26 @@
 # Changelog
 
+## S306h REVIEW 76'S ITEMS WORKED: B1842'S CONTROLS RUN (C-T CORRECTED), THE SEAL-ORDER LIST FROZEN, THE LINE STABILIZERS (2026-11-06)
+
+- **The owner:** 'lets do them'.
+- **R76-3, B1842's C-T.** The first C-T compared two calls that `yukawas_exact` reduces to identical inputs: a tautology at 7.5 × 10⁻¹⁶.
+  - **Its claim was false.** It said the matrices agree up to phases. `t_law.py` runs the theta machinery at the unreduced τ + 1 (δ = ∞). The singular values agree to 6.6 × 10⁻¹⁶, but ∣Y∣ entrywise differs by 7.9 × 10⁻². T acts on the generations by a non-diagonal unitary.
+  - **B1842's controls run for the first time** (data-free; deviations only):
+    - C-ID: 0.
+    - C-M/C-PS at δ = 0.3 and ∞: hold where the order divides 6 or 4, and break elsewhere; order 5 breaks both.
+    - C-T: corrected, as above.
+    - C-MIR: 2.0 × 10⁻¹².
+  - P-688's first owed item is paid.
+- **R76-2, P-601.** The 79 sealed tests whose rule and record git shows only as one commit are listed in `docs/SEAL_ORDER_UNSHOWN.md`, a list that may only shrink.
+  - The Lab panel's 80 were recomputed independently from git, less B1670. B1670's order is shown on the kept referee branch.
+  - **GATED** by the new gate `seal-order-unshown` (49 gates), with a planted failing-path test.
+- **R76-4, P-711.** The line stabilizers' images at level 4 (B1845's addendum, brute force over SL(2, ℤ/20)).
+  - **Order-5 lines:** image all of S₄, commutant 1.
+  - **Order-10 lines:** a D₄, commutant 2.
+  - The agy lane's lead is verified. The result is locked by a new B1845 test.
+- **Left:** R76-1 (P-616 and P-617's closures, one by one).
+- 0 of 19.
+
 ## S306g REVIEW 76'S ITEMS WORKED: THE TUBE'S OWN MODULUS (B1847 § 8; P-727 DONE), DOOR C'S C5, R2'S FORM (2026-11-06)
 
 - **The owner:** 'lets do them'.

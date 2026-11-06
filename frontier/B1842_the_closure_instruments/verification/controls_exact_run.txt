@@ -1,0 +1,15 @@
+C-ID: max rel dev 0.0e+00 -> HOLDS
+C-M/C-PS delta 0.3 order 2 (6 line-points): (1) holds 2.0e-16 (2) holds 2.6e-16 (3) holds 4.6e-14
+C-M/C-PS delta 0.3 order 3 (16 line-points): (1) holds 2.0e-16 (2) breaks 0.06 (3) n/a
+C-M/C-PS delta 0.3 order 4 (24 line-points): (1) breaks 0.11 (2) holds 3.1e-15 (3) holds 4.3e-14
+C-M/C-PS delta 0.3 order 5 (48 line-points): (1) breaks 0.06 (2) breaks 0.06 (3) n/a
+C-M/C-PS delta 0.3 order 6 (48 line-points): (1) holds 4.0e-16 (2) breaks 0.06 (3) n/a
+C-M/C-PS delta inf order 2 (6 line-points): (1) holds 5.7e-17 (2) holds 2.2e-16 (3) holds 3.9e-15
+C-M/C-PS delta inf order 3 (16 line-points): (1) holds 1.5e-16 (2) breaks 0.02 (3) n/a
+C-M/C-PS delta inf order 4 (24 line-points): (1) breaks 0.03 (2) holds 2.0e-15 (3) holds 3.3e-14
+C-M/C-PS delta inf order 5 (48 line-points): (1) breaks 0.01 (2) breaks 0.01 (3) n/a
+C-M/C-PS delta inf order 6 (48 line-points): (1) holds 3.5e-16 (2) breaks 0.02 (3) n/a
+C-M/C-PS -> HOLD
+C-T: singular values 6.6e-16 -> HOLDS (|Y| entrywise 7.9e-02: a unitary, not phases; the old tautology 7.5e-16)
+C-MIR (moduli): max rel dev 2.0e-12 -> HOLDS
+controls_exact exit 0

@@ -2,6 +2,8 @@
 
 > **Currency — Review 56 (2026-09-09, anchor `eb9db7fa`).** Refreshed against the 21-merge window `be6f4cab`→`eb9db7fa` (B1294–B1307: MASTERPLAN v3 Phases 0–1 and v3.1's seven harvest arcs). **Review 56's headline is a number, not a repair:** the harvest gate's first strict report — 494 seat-index ids on nine branches, **428 without a ledger row, 348 seat-branch relays without a relay row**, two seats already past main's pins — escalated by name as R56-1 with a payment order (B1306 slices B–D, newest first). 32/32 gates; LAW_MAP's second zero-advancement window (R56-2); CLAIMS.md's 129-arc lag escalated (R56-3); two E53 repairs in living surfaces (THE_SM_VERDICT, MAIN_GOAL JOIN 3); E71 minted. Full detail: `docs/progress/REVIEWS.md` (Review 56).
 
+**LATEST (2026-11-06, S306h: Review 76's items worked — B1842's controls run, C-T corrected (the old one a tautology; the spectra are T-invariant, the matrices only up to a unitary); the 79 order-unshown sealed tests a list that may only shrink, GATED (`seal-order-unshown`); the order-5 lines' level-4 stabilizer is all of S₄ (P-711 verified). 0 of 19.)**
+
 **LATEST (2026-11-06, S306g: Review 76's items worked — the tube's own modulus Im τ(Σ₀) = 6.15 ± 0.15 by the full group's Ford-domain mesher (P-727 DONE; far above the record's three readings 3.65, 2.87, 2.58); door C's C5 is a weight, not a law; R2's form fixed as the exact block. 0 of 19.)**
 
 **LATEST (2026-11-06, S306f: the LaCie mirror synced with the whole repository (73 refs, fsck clean); the seats fetched after Review 76 — rows 1605–1608; Theorem 155's CP claim fails on its own code (the web seat); door C stays one declared choice. 0 of 19.)**

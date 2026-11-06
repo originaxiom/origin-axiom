@@ -4,7 +4,10 @@ a slope-2/5 line, no cross-sector ratio):
  C-M    planted: M_nu ∝ M_e where the line's order divides 6; M_nu ∝ M_u and M_e ∝ M_d where it divides 4 (B1835 § 1b),
         at the exact end, delta = 0.3 and delta = inf; order-5 lines must break them.
  C-PS   |U_PMNS| = |V_CKM^dagger| on order-4 lines (with nu read like up), at the exact end.
- C-T    the T-law: (tau, (a, b)) and (tau + 1, (a, b - a)) give the same matrices up to phases (|Y| entrywise, singular values).
+ C-T    the T-law (Review 76, R76-3, corrected 2026-11-06): the theta machinery run at the UNREDUCED tau + 1 with line
+        (a, b - a) gives the same singular values as at (tau, (a, b)), delta = inf (t_law.py). The first version compared
+        two calls that reduce to identical inputs -- a tautology -- and claimed equality 'up to phases'; that is false:
+        |Y| entrywise differs by about 8 %, T acting on the generations by a non-diagonal unitary.
  C-MIR  Y((a, -b), -conj tau) = P conj(Y) P with P = diag(1, 1, -1) (T-FRAME-MIRROR) at the exact end, on lines off 2/5.
 Run: python3 -B controls_exact.py"""
 import sys, math, pathlib
@@ -56,15 +59,11 @@ def main():
               ("holds %.1e" % e[0]) if 6 % n == 0 else ("breaks %.2f" % e[3]), ("holds %.1e" % e[1]) if 4 % n == 0 else ("breaks %.2f" % e[4]),
               ("holds %.1e" % e[2]) if 4 % n == 0 else "n/a"), flush=True)
     print("C-M/C-PS -> %s" % ("HOLD" if ok else "FAIL"), flush=True)
-    # C-T: an unreduced point and its T-image (both reduce to the same tau, with consistent lines)
-    worst = 0.0
-    for (re_t, im_t, a, b) in ((0.31, 2.9, F(1, 3), F(1, 4)), (-0.2, 3.1, F(2, 5), F(3, 10))):
-        Y1, _ = X.yukawas_exact(re_t, im_t, a, b, 0.3); Y2, _ = X.yukawas_exact(re_t + 1, im_t, a, (b - a) % 1, 0.3)
-        for sec in X.CHARGES:
-            for rn in ("S", "St"):
-                s1 = np.linalg.svd(Y1[sec][rn], compute_uv=False); s2 = np.linalg.svd(Y2[sec][rn], compute_uv=False)
-                worst = max(worst, float(np.max(np.abs(s1 - s2) / s1[0])), float(np.max(np.abs(np.abs(Y1[sec][rn]) - np.abs(Y2[sec][rn])))) / float(np.max(np.abs(Y1[sec][rn]))))
-    print("C-T: max rel dev %.1e -> %s" % (worst, "HOLDS" if worst < 1e-10 else "FAILS"), flush=True)
+    # C-T (corrected at Review 76): the genuine T-law, spectra only; the old block compared identical inputs
+    import t_law as TL
+    sv, ent, taut = TL.t_law()
+    print("C-T: singular values %.1e -> %s (|Y| entrywise %.1e: a unitary, not phases; the old tautology %.1e)" % (
+          sv, "HOLDS" if sv < 1e-10 else "FAILS", ent, taut), flush=True)
     # C-MIR, off the 2/5 class
     Pm = np.diag([1, 1, -1]); worst = 0.0
     for (re_t, im_t, a, b) in ((0.27, 2.95, F(1, 3), F(1, 7)), (0.13, 3.05, F(1, 4), F(2, 9))):

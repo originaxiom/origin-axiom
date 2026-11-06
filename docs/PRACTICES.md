@@ -1321,3 +1321,14 @@ Three practices came out of the field stage's last window. Each answers a slip t
 5. **A test's tolerance comes from the stated errors, not from the first value seen** (E29, disclosed in B1846). The
    symmetry test's fixed 0.12 was replaced by a χ² on 20 degrees of freedom after a 0.0002 miss. The replacement is
    principled and passes; the order of events is disclosed. MANUAL.
+
+## Review 76's items worked: a control that can fail, the seal-order class frozen — MIXED (adopted 2026-11-06, S306h)
+
+1. **A control is shown able to fail before its pass is read** (R76-3, B1842's C-T). The first C-T compared two calls
+   that the instrument reduces to identical inputs, so it passed at 7.5 × 10⁻¹⁶ whatever the law. Its claim, the same
+   matrices up to phases, was also false: ∣Y∣ differs by 7.9 %. A control that compares two evaluations checks that
+   they differ after every normalisation the code applies. MANUAL.
+2. **The sealed tests whose order git cannot show are a list that may only shrink** (R76-2, P-601). There are 79 of
+   them, with rule and record in one commit, listed in `docs/SEAL_ORDER_UNSHOWN.md`. The gate recomputes the class from
+   git and fails on a new member, on a row beyond the frozen ceiling, on a listed test whose order now shows, and on
+   B1670's off-main order. GATED (`seal-order-unshown`).
