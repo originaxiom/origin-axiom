@@ -15529,6 +15529,24 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1846": {
+   "slug": "the metrics read out",
+   "motifs": [
+    "closing",
+    "coupling",
+    "action",
+    "figure_eight",
+    "golden",
+    "symplectic"
+   ],
+   "refs": [
+    "B6"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B184": {
    "slug": "symmetry gauge door",
    "motifs": [

@@ -1,0 +1,13 @@
+b++LLLLLLRLR: lattice w1 3.502678-0.000000j w2 1.047723+2.018085j chi (0,1); sphere translates kept 1402 of 3547; 158.0s
+   domain floor (min pulled-back height of a 30x30 grid at t = 0.005): 0.42899
+   solve at Y: {"n_eq": 6724, "n_unknown": 2214, "rank": 2214, "sv_min": 0.4868112932695714, "sv_max": 1.4862582406530163, "resid_rms": 1.0377492275074858e-09, "resid_max": 5.080595347206618e-09, "tstar_min": 0.3820848401837745, "n_low": 6724} 166.8s
+   solve at 0.9 Y: {"n_eq": 6724, "n_unknown": 2214, "rank": 2214, "sv_min": 0.585549950962741, "sv_max": 1.3876717717582494, "resid_rms": 8.15098930706265e-09, "resid_max": 4.385021840080938e-08, "tstar_min": 0.3820148086432811, "n_low": 6724}
+   generator relations max |phi(gP) - phi(P) - chi(g)|: {'a': '7.87e-10', 'b': '4.83e-10', 'c': '1.41e-09'}
+   domain volume 5.6294 +- 0.0248  (SnapPy 5.586362)
+   lowest accepted sample height 0.38163 (sampling from tlo = 0.30000; must sit clearly above tlo)
+   |phi_Y - phi_0.9Y| over the sample: max 5.94e-10, rms 4.25e-11
+   E(s)/mean over 40 bins: min 0.849 max 1.167  (theorem: flat; MC noise ~ 0.031 x spread)
+   rho(s)/mean over 40 bins: min 0.778 max 1.739 at s = 0.988;  second height: max 1.739 at 0.988
+   rho profile: 1.73 1.43 1.23 1.12 1.12 1.00 0.95 0.94 0.91 0.87 0.92 0.87 0.87 0.85 0.87 0.84 0.83 0.86 0.87 0.84 0.87 0.79 0.81 0.91 0.87 0.90 0.86 0.78 0.91 0.95 0.88 0.96 0.93 1.03 0.99 1.05 1.14 1.27 1.43 1.74
+   E profile:   0.97 0.96 1.02 0.97 0.97 0.97 0.94 1.06 0.94 0.95 1.09 0.96 1.04 0.99 1.02 0.97 1.01 1.02 0.98 1.07 0.95 0.90 0.92 1.05 1.08 1.06 1.00 0.85 1.05 1.17 0.96 0.98 1.03 1.02 0.98 1.02 1.00 1.05 1.05 0.99
+   done 224.7s

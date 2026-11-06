@@ -1,5 +1,25 @@
 # Changelog
 
+## S306b THE METRIC'S READ-OUT: HARMONIC TIME (B1846; P-726, P-727; 2026-11-06)
+
+- **The owner:** 'how strong is our foundation now, and whars our weakest points worth attacking?', then 'lets craft a goal around your last message and not stop until its either achieved or proven unavhiavable'. The goal: using only the Mostow-rigid hyperbolic metric (no chosen kinetic term), is the read-out a point of the fibration circle or an average?
+- **The instrument:** harmonic time, the harmonic map θ: M → ℝ/ℤ in the fibre class. B1295's collocation is generalised to any SnapPy holonomy. It reproduces B1295's |c₍₀,₂₎| = 4.260982635 exactly. Equivariance holds to 10⁻⁹–10⁻¹¹, and the Ford-domain volumes match SnapPy's.
+- **Two theorems, on every member.** **T1:** the energy is uniform in harmonic time (coarea + Stokes; m004 χ² 38.6 on 39 dof). **T2:** the volume weight has no atom (θ is real-analytic). **So no point read-out is forced by the metric.**
+- **What the metric does fix.** On the excursion member L⁶RLR the volume weight is a single hump, max/mean 1.75, centred exactly on the run's Margulis tube. The tube's core is the shortest geodesic aaBa, 0.184870 − 0.802102i, χ = 0, and θ ≡ 0 on it: the core lies in the fixed set of the cyclic palindrome's isometry.
+  - **Second method:** SnapPy's nine ideal tetrahedra, with Bloch–Wigner volumes, agree.
+  - **The golden control m004:** flat (0.98–1.03).
+  - **The run of 10:** 2.53.
+  - **Dilution:** the tube's share falls like 1/k with golden periods, so the weight is blind in the one-departure limit.
+  - **The ranking:** of the closed thread's apex and anti-apex, the metric ranks the apex.
+  - **Not decided:** the value of τ at the tube (P-727, the level surface's own modulus).
+- **The seats fetched.**
+  - **The web seat:** the clock attacked from the read-out (not forced; the clock over histories stays CHOSEN); P-724's Q1 (no dominant term; with Π2 the run of 6 leads); Π2 a rationale. Its three check scripts re-run identical on main.
+  - **The agy lane's Stage 28,** through the mask: its identities check by hand, and Theorem 150's 'portal' is owed main's check.
+  - Rows 1597–1600; pins chat1 1e01e8a3, agyaudit 1d8d20c1.
+  - **All other seats, at the owner's 'please harveat all other seats so we lock a common ground before we decide how to proceed':** after a fetch of every remote, all 16 live seats sit at their pins (+0 commits); the 4 retired seats are archived by tag; the lane survey finds no unwatched branch. The harvest checker reads NEW 0, BACKLOG 0, STALE 0, relays without a row 0. Its five-item web-seat backlog was a naming gap: rows 1590, 1591 and 1593–1595 now name their relay files.
+- **Integrity:** five instrument errors were caught by checks and fixed before landing (§ 7 of B1846).
+- **Rows:** THEOREM_REGISTRY T-HARMONIC-TIME-ENERGY and T-HARMONIC-TIME-VOLUME; FLOOR 727. 0 of 19.
+
 ## S306a THE SEATS FETCHED: THE READ-OUT THE HISTORY'S SYMMETRY FORCES (2026-11-06)
 
 - **The owner:** 'fetch other seats'.

@@ -18602,3 +18602,12 @@ The web seat showed that the excursion has exactly one point its own symmetry le
 at one point, and time has no preferred direction, that point is forced. And since an average over the whole history
 cannot see the excursion at all, an excursion that matters must be read at a point. One premise remains: that the
 reading is a point. 0 of 19.
+
+## 2026-11-06 — S306b: the metric's own clock
+
+The object's hyperbolic shape, which nothing can deform, defines a clock around its circle with no choice made, and
+along that clock its energy is spread perfectly evenly. So the shape alone never singles out one moment to read the
+couplings at. Its volume does gather where the excursion goes deepest, and more so the deeper it goes. That is the same
+place the record had found by symmetry, now ranked above its rival. Whether that moment carries the value we need, the
+shape does not yet say. 0 of 19.
+
