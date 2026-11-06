@@ -1,5 +1,22 @@
 # Changelog
 
+## S305u THE HYPERBOLIC METRIC'S OWN READ-OUT (P-723; 2026-11-06)
+
+- **The excursion's layered tetrahedra converge to canonical shapes:** run 5, height 2.146; run 6, height 2.459 (SnapPy, data-free).
+- **They do not coincide with the Teichmüller apex τ*.** The object's 3D geometry reads the excursion at a different, lower point: a second object-native candidate for τ, with its own read-out choice. No data compared. P-723; FLOOR 723. 0 of 19.
+
+## S305t THE SEATS FETCHED AGAIN; THE CANDIDATE REFEREED; THE SCALE QUESTION (2026-11-06)
+
+- **The owner:** 'fetch all pther seats'.
+- **The web seat** refereed P-717 and P-718 for the goal, data-free and pre-registered. Its arithmetic was verified with main's own code, and its least-action check re-run identically:
+  - P-717's run-5 line is chosen by the subsequence (the homoclinic ends disagree).
+  - Reading (ii), the departure invisible at level 5, gives τ* = i(5 + √5)/2 = i√5·φ and the line {±(1/5, 0), ±(2/5, 0)} at every k and at both ends. It is adopted as the cleaner candidate.
+  - Least action does NOT select it (the cheapest line-invisible defect is (2, 1, 1, 1, 2)), so 'one departure' stays a choice.
+  - The line comes to one bit, B1733's v ↔ 2v: which SU(5) multiplet sits where. The hand is absorbed.
+- **The agy lane:** Stages 21–22.5 read through the mask; its claims beyond the web seat's are owed main's check. **The SM seat:** §354, an attribution.
+- **P-720 DONE, NEGATIVE:** the frame's coupling has modular weight exactly k = 1 (measured from S-covariance), so minimal Kähler cannot localize the read-out.
+- **The owner:** 'is there somwthing wrong with ournunderatanding and expectations abou the scale?' — P-722: yes, in three ways. An absolute energy was a category error. A scale ratio comes from a coupling through running. Comparing a unification-type relation at M_Z at tree level may be the wrong expectation. The reframed target is designed blind. Rows 1583–1586; pins sm 3865b643, chat1 0e861a14, agyaudit f183117d; P-722; FLOOR 722. 0 of 19.
+
 ## S305s THE OBJECT-NATIVE LEVEL (P-721; the owner: 'Seek object-native') (2026-11-06)
 
 - **The line is a minimal periodic orbit of the object's own dynamics** on the fibre torus. It is a twisted fixed point of the monodromy, and those number det(A + I) = 5 (P-718).

@@ -22,9 +22,9 @@ nothing in this block is typed by hand.*
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.62) of 2026-11-05 |
 | arcs with a verdict | 1547: 1056 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 721: 311 open (queued, leads, waiting for the owner), 410 closed |
+| points in the register | 723: 312 open (queued, leads, waiting for the owner), 411 closed |
 | the last review | Review 75 (2026-11-06), anchor `264fa6d98` |
-| the last landing | S305s THE OBJECT-NATIVE LEVEL (P-721; the owner: 'Seek object-native') (2026-11-06) |
+| the last landing | S305u THE HYPERBOLIC METRIC'S OWN READ-OUT (P-723; 2026-11-06) |
 <!-- STATE:END -->
 
 ## Start here

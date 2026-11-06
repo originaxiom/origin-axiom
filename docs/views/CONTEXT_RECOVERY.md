@@ -18,13 +18,13 @@
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 721 |
-| … QUEUED | 298 |
+| register points | 723 |
+| … QUEUED | 299 |
 | … LEAD | 9 |
 | … OWNER | 4 |
-| … DONE | 399 |
+| … DONE | 400 |
 | … DECLINED | 11 |
-| harvest rows (the last number) | 1582 |
+| harvest rows (the last number) | 1586 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -56,18 +56,18 @@
 
 ## The last landings (CHANGELOG)
 
+- S305u THE HYPERBOLIC METRIC'S OWN READ-OUT (P-723; 2026-11-06)
+- S305t THE SEATS FETCHED AGAIN; THE CANDIDATE REFEREED; THE SCALE QUESTION (2026-11-06)
 - S305s THE OBJECT-NATIVE LEVEL (P-721; the owner: 'Seek object-native') (2026-11-06)
 - S305r THE READ-OUT MAY BE THE RECORD'S OWN KÄHLER WEIGHT (P-720; 2026-11-06)
 - S305q B1845 THE OBJECT'S OWN LINE AND THE EXCURSION READ OUT (P-717, P-718, P-455; 2026-11-06)
 - S305p THE SCALE WALL TESTED (R75-7, P-719; the owner: 'Test the wall') (2026-11-06)
 - S305o THE LINE IS THE OBJECT'S OWN; THE EXCURSION INHERITS IT (P-717, P-718; 2026-11-06)
 - S305n P-717'S CONTROL AND P-715'S WALL (2026-11-06)
-- S305m THE GOAL SET: A PROCESS THAT PLACES τ, THE LINE AND AN ENERGY SCALE; THE FAREY TRANSITION PLACES NOTHING; ONE CANDIDATE, P-717 (2026-11-06)
-- S305l THE BANG PROGRAMME OPENED (P-694): THE STAGE AUDITED; WAVE 1 AIMED AT WHAT PLACES τ, THE LINE AND A SCALE (2026-11-05)
 
 ## The latest campaign line
 
-LATEST (2026-11-06, S305s: P-721 — the line is a minimal periodic orbit of the object's own dynamics (5 twisted fixed points); the record's 'heard mod the conductor' principle offers levels 3, 5, 15 for the scale; a criterion among them owed, firewalled. 0 of 19.)
+LATEST (2026-11-06, S305u: P-723 — the excursion's layered tetrahedra converge to canonical shapes (heights 2.146, 2.459) that do not coincide with the apex τ*; a second object-native τ candidate with its own read-out choice. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

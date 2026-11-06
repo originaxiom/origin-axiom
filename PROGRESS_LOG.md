@@ -18557,3 +18557,18 @@ The object's own motion on the fibre has exactly five fixed points up to sign, a
 already built the quantum version of that motion and its principle that the dynamics is heard through finite levels. That
 principle offers three levels, five, three and fifteen, rather than one. Choosing among them, by a rule stated before any
 value, is what the scale still needs. 0 of 19.
+
+## 2026-11-06 — S305t: the candidate refereed, and the scale question
+
+The web seat checked last night's candidate and found its line depended on a hidden choice; its cleaner reading, which
+main verified, puts τ at i·√5·φ with a line that holds at both ends. Its own test of a least-action principle failed: the
+cheapest departure is a shallow one, so the deep excursion is still chosen, not selected. The record's own field weights
+were measured and are too small to fix the read-out. On the owner's question about the scale: an absolute energy was
+never a fair ask; a scale is really a coupling read through running; and comparing a unification-type structure at the Z
+mass may itself have been the wrong expectation. 0 of 19.
+
+## 2026-11-06 — S305u: the geometry's own reading
+
+The object's hyperbolic structure gives every step of the excursion a definite shape, and those shapes settle down. But
+the deepest one sits lower than the point the frame reads, so the geometry does not confirm that reading; it offers its
+own, with its own choice of which step to read. 0 of 19.
