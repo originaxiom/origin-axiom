@@ -24,7 +24,7 @@
 | … OWNER | 4 |
 | … DONE | 400 |
 | … DECLINED | 11 |
-| harvest rows (the last number) | 1586 |
+| harvest rows (the last number) | 1588 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S305v THE SEATS REFETCHED; LEAST ACTION UNDER THE RUNG'S INVISIBILITY (2026-11-06)
 - S305u THE HYPERBOLIC METRIC'S OWN READ-OUT (P-723; 2026-11-06)
 - S305t THE SEATS FETCHED AGAIN; THE CANDIDATE REFEREED; THE SCALE QUESTION (2026-11-06)
 - S305s THE OBJECT-NATIVE LEVEL (P-721; the owner: 'Seek object-native') (2026-11-06)
@@ -63,11 +64,10 @@
 - S305q B1845 THE OBJECT'S OWN LINE AND THE EXCURSION READ OUT (P-717, P-718, P-455; 2026-11-06)
 - S305p THE SCALE WALL TESTED (R75-7, P-719; the owner: 'Test the wall') (2026-11-06)
 - S305o THE LINE IS THE OBJECT'S OWN; THE EXCURSION INHERITS IT (P-717, P-718; 2026-11-06)
-- S305n P-717'S CONTROL AND P-715'S WALL (2026-11-06)
 
 ## The latest campaign line
 
-LATEST (2026-11-06, S305u: P-723 — the excursion's layered tetrahedra converge to canonical shapes (heights 2.146, 2.459) that do not coincide with the apex τ*; a second object-native τ candidate with its own read-out choice. 0 of 19.)
+LATEST (2026-11-06, S305v: least action among departures invisible to the last finite rung selects the single run of 6 uniquely (the web seat, re-run on main; post hoc) — P-717's 'one departure' and depth from one principle, τ* = i√5·φ; the agy lane concurs with P-720's negative. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
