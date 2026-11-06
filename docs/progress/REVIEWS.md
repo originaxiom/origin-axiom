@@ -8165,3 +8165,5 @@ None promoted. 0 of 19.
 - [ ] R75-7: the dimensionful no-go (B151, B660) re-audited at the owner's 'Test the wall' — its scope for dimensionless ratios of scales (owner: cc)
 - [ ] R75-8: B1842's C-T tautology fixed before B1842 is used (owner: cc)
 - [ ] R75-9: P-718's binary choice and P-711's stabilizer images (the agy lane asked; main verifies) (owner: cc)
+
+**anchor-commit: `264fa6d98`**
