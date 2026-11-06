@@ -1,5 +1,17 @@
 # Changelog
 
+## S305z THE PLEATED LAYERS READ; EVERY CHOICE AT ONCE; BOTH TWINS (P-723, P-724, P-725; 2026-11-06)
+
+- **The pleated-layer build is complete for the excursion member L⁶RLR, data-free, every stage checked:**
+  - **A.** τ ↔ the Fricke traces, round trip to 1e-12.
+  - **B.** The fibre character as the trace map's fixed point, validated on the figure-eight.
+  - **C.** The shears, with the cusp condition and one fixed convention.
+  - **D.** The geometric character identified by matching SnapPy's tetrahedra on all layers; each layer's τ to residual ≤ 7e-12, with the hexagonal control.
+- **What it shows.** The deepest pleated layer is 0.0507 + 2.8736i. Three object-native readings of one member disagree: Teichmüller apex 3.65, pleated 2.87, tetrahedron 2.58.
+- **The owner, P-724: 'what it all choosable is allowed to simultaneously happen and crossinteract when compatible?'** The weave's reading. Each remaining choice becomes a convention (the line's bit), a saddle (the departures), a tower (the levels: the Habiro ring) or an average (the read-out, which loses the hierarchy).
+- **The owner, P-725: 'Can Both Twins Happen Simultaneously in Our Universe?'** The line's twins: yes, a 10 and a 5̄. The hands: as two sectors, a mirror twin (the mirror-world class). Seen first: B1349, B1408, P-639.
+- P-724, P-725; FLOOR 725. 0 of 19.
+
 ## S305y THE REPO FETCHED; ONE LEVEL FROM TWO SEATS; THE LINE'S LAST BIT A CHIRAL PAIR; STAGE C VALIDATED (2026-11-06)
 
 - **The owner:** 'fetch the repo and always verify integrity of your comoutations' (a standing rule, saved).
