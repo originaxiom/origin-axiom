@@ -1,0 +1,19 @@
+THE PRINCIPLE'S LEADING EXCITATION -- data-free check (the web seat, 2026-11-06)
+  D_2 = 0.2231435513
+  D_3 = 0.6470142623
+  D_4 = 1.185567201
+  D_5 = 1.798432809
+  D_6 = 2.463400239
+  D_7 = 3.166933727
+  D_11 = 6.22489845
+  D_16 = 10.35178434
+  D_21 = 14.65447961
+  D_26 = 19.06094492
+  D_n positive for 2 <= n <= 60: True; increasing: True
+  the leading departure overall: run 2; in the line sector: run 6
+  |s| = 0.25: the run of 6's share of the sector 0.62481259
+  |s| = 0.5: the run of 6's share of the sector 0.85151745
+  |s| = 1.0: the run of 6's share of the sector 0.97691635
+  |s| = 2.0: the run of 6's share of the sector 0.99945964
+  departures per golden position fall to 0.1 at |s| = 10.373894; there the run of 6 is 7.97227e-11 of all departures
+leading_excitation_check exit 0
