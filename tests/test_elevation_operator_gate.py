@@ -2721,6 +2721,86 @@ def test_five_phase_master_toe_closure():
     assert t140["zero_held_out_values_computed"] is True
     assert t140["all_six_guardrails_passed"] is True
 
+    # Theorem 141 (Stage 26.1): One-Process One-Level Principle (K) (chat1 21cfbc3c2) & CRITERION K (claude/sm 47228ae85)
+    t141 = sc["theorem141_chat1_21cfbc3c2_one_process_one_level_k5_and_claude_sm_criterion_k"]
+    assert "docs/POINT_REGISTER.md" in t141["seen_first"][0]
+    assert "FORCED-BY-MAIN" in t141["claim_labels_and_scopes"]["one_process_one_level_k5_uniqueness"]
+    assert "MATH" in t141["claim_labels_and_scopes"]["claude_sm_47228ae85_criterion_k_and_linking_reversal"]
+    assert "plain_english_elaboration" in t141
+    assert t141["snf_diag_exact"] is True
+    assert t141["snf_unimodular"] is True
+    assert t141["unique_finite_line_levels"] == [5]
+    assert int(t141["level_table"][3]["nonzero_twisted_fixed_points"]) == 0
+    assert int(t141["level_table"][5]["nonzero_twisted_fixed_points"]) == 4
+    assert int(t141["level_table"][5]["min_rung_invisible_run_n"]) == 6
+    assert int(t141["level_table"][5]["triangle_quotient_order"]) == 60
+    assert int(t141["min_k_criterion_k"]) == 5
+    assert t141["linking_reversal_holds"] is True
+    assert t141["joint_k_candidates"] == [5, 20]
+    assert float(t141["max_haar_err_141"]) < 1e-13
+    assert t141["zero_six_values_evaluated_at_tau_star"] is True
+    assert t141["zero_held_out_values_computed"] is True
+    assert t141["all_six_guardrails_passed"] is True
+
+    # Theorem 142 (Stage 26.2): Answering S305x P-723 Stages A-D (Pleated-Surface Shears, Markov Traces & Intrinsic tau)
+    t142 = sc["theorem142_s305x_p723_stages_a_to_d_pleated_surface_shears_markov_traces_and_intrinsic_tau"]
+    assert "docs/POINT_REGISTER.md" in t142["seen_first"][0]
+    assert "FORCED-BY-MAIN" in t142["claim_labels_and_scopes"]["s305x_stage_b_and_c_markov_traces_and_complex_shears"]
+    assert "FORCED-BY-MAIN" in t142["claim_labels_and_scopes"]["s305x_stage_a_and_d_intrinsic_pleated_surface_tau"]
+    assert "plain_english_elaboration" in t142
+    assert float(t142["fig8_markov_err"]) < 1e-14
+    assert float(t142["fig8_fixed_err"]) < 1e-14
+    assert float(t142["r5_markov_fixed_err"]) < 1e-13
+    assert float(t142["max_stage_c_cross_ratio_reconstruction_err"]) < 1e-13
+    assert float(t142["max_intrinsic_markov_err"]) < 1e-13
+    assert float(t142["max_inversion_err"]) < 1e-11
+    assert abs(float(t142["pleated_m004"]["tau_intr_re"]) - 0.5) < 1e-12
+    assert abs(float(t142["pleated_m004"]["tau_intr_im"]) - 0.8660254037844386) < 1e-12
+    assert abs(float(t142["pleated_run5_lim"]["tau_intr_re"]) - 0.5) < 1e-12
+    assert abs(float(t142["pleated_run5_lim"]["tau_intr_im"]) - 2.483510299074) < 1e-6
+    assert abs(float(t142["pleated_run6_lim"]["tau_intr_re"]) - 0.049223324820) < 1e-6
+    assert abs(float(t142["pleated_run6_lim"]["tau_intr_im"]) - 2.809027538360) < 1e-6
+    assert float(t142["pleated_run6_lim"]["pleating_collar_widening"]) > 0.34
+    assert float(t142["max_haar_err_142"]) < 1e-13
+    assert t142["zero_six_values_evaluated_at_tau_star"] is True
+    assert t142["zero_held_out_values_computed"] is True
+    assert t142["all_six_guardrails_passed"] is True
+
+    # Theorem 143 (Stage 26.3): S305w P-722 WRT Invariant, Level-Rank Duality & hbar = 2*pi/5 Structural Audit
+    t143 = sc["theorem143_s305w_p722_wrt_invariant_level_rank_duality_and_hbar_2pi_over_5_audit"]
+    assert "docs/POINT_REGISTER.md" in t143["seen_first"][0]
+    assert "FORCED-BY-MAIN" in t143["claim_labels_and_scopes"]["level5_weil_even_odd_wrt_traces_and_b238_level_rank"]
+    assert "FORCED-BY-MAIN" in t143["claim_labels_and_scopes"]["run6_wrt_excursion_indistinguishability_and_s305w_audit"]
+    assert "plain_english_elaboration" in t143
+    assert float(t143["wrt_even_trace_err"]) < 1e-14
+    assert float(t143["wrt_odd_trace_err"]) < 1e-14
+    assert float(t143["kashaev_n5_err"]) < 1e-13
+    assert float(t143["l5_defect_err"]) < 1e-14
+    assert float(t143["max_run6_wrt_diff"]) < 1e-14
+    assert float(t143["max_run5_wrt_diff"]) > 3.6
+    assert int(t143["s305w_card_steps"]["chosen_steps_remaining_count"]) == 2
+    assert t143["s305w_card_steps"]["seal_recommendation"] == "DO_NOT_SEAL_UNTIL_AT_MOST_ONE_STEP_IS_CHOSEN"
+    assert float(t143["max_haar_err_143"]) < 1e-13
+    assert t143["zero_unsealed_scale_values_computed"] is True
+    assert t143["zero_six_values_evaluated_at_tau_star"] is True
+    assert t143["zero_held_out_values_computed"] is True
+    assert t143["all_six_guardrails_passed"] is True
+
+    # Theorem 144 (Stage 26.4): Complete Unified /goal Synthesis & Stage 26 Zero-Trust Hostile-Referee Gate
+    t144 = sc["theorem144_complete_goal_closure_synthesis_and_stage26_zero_trust_referee_gate"]
+    assert "docs/POINT_REGISTER.md" in t144["seen_first"][0]
+    assert "FORCED-BY-MAIN" in t144["claim_labels_and_scopes"]["complete_cross_seat_goal_synthesis"]
+    assert "MATH" in t144["claim_labels_and_scopes"]["stage26_zero_trust_hostile_referee_gate"]
+    assert "plain_english_elaboration" in t144
+    assert t144["complete_goal_synthesis"]["one_level_process_N_equals_k_equals_5"]["snf_LR_plus_I"] == (1, 5)
+    assert int(t144["complete_goal_synthesis"]["one_level_process_N_equals_k_equals_5"]["criterion_k_chern_simons_level"]) == 5
+    assert float(t144["referee_mp_kashaev_err"]) < 1e-45
+    assert t144["sympy_stage_c_markov_identity_ok"] is True
+    assert float(t144["max_haar_err_144"]) < 1e-13
+    assert t144["zero_six_values_evaluated_at_tau_star"] is True
+    assert t144["zero_held_out_values_computed"] is True
+    assert t144["all_six_guardrails_passed"] is True
+
 
 
 
