@@ -1,0 +1,2 @@
+chiral_units_check.py sha256 c3cdbafa3435a693f2cf76a05876b0dac43f92a4e3f6d096d7f77a04d0be55c0
+recorded 2026-11-06T22:06:32Z before the run; a copy was compiled (py_compile) outside the repo, not run
