@@ -562,3 +562,17 @@ held the targets, and turned to the process that would place the frame's choices
   - P-717: a firewalled candidate for τ.
   - P-715: the scale wall, to be re-audited (R75-7).
 - **Next:** R75-6 to R75-9 (docs/progress/REVIEWS.md). 0 of 19.
+
+## ⟳ VIEW REFRESH — 2026-11-06 (Review 76)
+
+Touched at Review 76 (the landing `1eb535ecd`, its anchor). **The window (B1845–B1848; S305p–S306e) found the metric's
+own read-out and read the fibre's own shape.**
+- **B1846:** harmonic time is the metric's clock.
+  - Its energy is uniform (T1) and its volume weight atomless (T2).
+  - Corrected at Review 76: the metric's systole is a canonical point. It sits at the tube, with the volume weight's peak.
+- **B1847:** the level surface's own modulus, a fourth reading.
+  - The excursion's anti-apex reads ½ + 1.5904i, 16 % above Teichmüller.
+  - The tube value is owed (R76-5).
+- **Main's ruling on B1012:** R2 stays CHOSEN. The owner's questions are rowed: P-728 (compression) and P-729 (door C).
+- **Next:** R76-1 to R76-8 (docs/progress/REVIEWS.md): the tube in the full group's Ford domain, door C, R2's form,
+  P-716. 0 of 19.
