@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1548** |
-| words of findings prose | **1,307,003** |
+| research arcs with findings | **1549** |
+| words of findings prose | **1,308,803** |
 | test lock files referenced | **932** |
-| arcs carrying an authored verdict | **1548** (100.0 %) |
+| arcs carrying an authored verdict | **1549** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1057 |
+| PROVED | 1058 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1846`** (2338 words, 0 locks)  
-THE METRIC'S READ-OUT (the owner's goal of 2026-11-06, FL-05; data-free): the hyperbolic metric fixes, with no choice, a clock on the fibration circle -- harmonic time theta (the harmonic map in the fibre class; B1295's collocation generalised to any SnapPy holonomy, reproducing B1295's |c_(0,2)| = 4.260982635 exactly) -- and two weights on it: T1 the energy is UNIFORM in harmonic time on every member (coarea + Stokes; m004 chi2 38.6/39), T2 the volume weight rho has NO ATOM (theta real-analytic) -- so no point read-out is forced by the metric on any member. On the excursion member L^6RLR the volume weight is one hump (max/mean 1.74, min 0.78) centred exactly on the run's Margulis tube (shortest geodesic aaBa, 0.184870 - 0.802102i, chi = 0; theta == 0 on its core, the fixed set of the cyclic palindrome's isometry), confirmed by a second method through SnapPy's nine ideal tetrahedra (Bloch-Wigner volumes); flat on the golden m004 (0.98-1.03); sharper on L^10RLR (2.53). If a point is read, the metric ranks the closed thread's apex (the tube) over its anti-apex; if an average, it fixes the weight. The value of tau at the tube (apex 3.65, pleated 2.87, tetrahedron 2.58, or the level surface's own modulus) is NOT decided. 0 of 19.  
-`B1846_the_metrics_read_out/FINDINGS.md`
+**PROVED — `B1847`** (1800 words, 0 locks)  
+THE LEVEL SURFACE'S OWN MODULUS (P-727; data-free): an instrument reading the conformal modulus of a harmonic level surface from its 3D shape and its fibre group alone -- validated on a Fuchsian control of known tau (recovered to < 2e-4 after Richardson; second order; a curved 3D-inverted copy agrees) -- gives the metric's own, fourth reading of the fibre's shape. On m004 the loop is forced at its symmetric levels (s = 0, 1/2: -1/2 + 1.12438i; s = 1/4, 3/4: i) and closes; it sits 0.57% above the golden Teichmuller apex 1/2 + (sqrt5/2)i. On the excursion member L^6RLR: the anti-apex s = 1/2 reads 1/2 + 1.5904i (Re 1/2 forced), 16% above the Teichmuller anti-apex 1/2 + sqrt(15/8) i; s = 1/4 reads -0.3722 + 1.0085i by two independent meshings. The tube level s = 0 is NOT computed: the surface folds there (a helicoid about the tube's core, which lies on a face of the fibre group's fundamental piece) and both instruments fail their own checks -- P-727 stays open for that value. 0 of 19.  
+`B1847_the_level_surfaces_own_modulus/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  

@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1548 |
-| … PROVED | 1057 |
+| arcs with a verdict file | 1549 |
+| … PROVED | 1058 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
@@ -24,13 +24,14 @@
 | … OWNER | 4 |
 | … DONE | 402 |
 | … DECLINED | 11 |
-| harvest rows (the last number) | 1600 |
+| harvest rows (the last number) | 1604 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1847 | PROVED | THE LEVEL SURFACE'S OWN MODULUS (P-727; data-free): an instrument reading the conformal modulus of a harmonic level surface from its 3D shape and its fibre group alone -- validated on a Fuchsian control of known tau (re… |
 | B1846 | PROVED | THE METRIC'S READ-OUT (the owner's goal of 2026-11-06, FL-05; data-free): the hyperbolic metric fixes, with no choice, a clock on the fibration circle -- harmonic time theta (the harmonic map in the fibre class; B1295's… |
 | B1845 | PROVED | THE OBJECT'S OWN LINE AND THE EXCURSION READ OUT (P-717, P-718, P-455; data-free exploration, toward the owner's goal): level 5 is the object's own (LR's discriminant 5, LR = -(unipotent) mod 5, order 5 in A5); RL fixes… |
 | B1844 | PROVED | REVIEW 75 (the owner's 'Run it now'; 60 merges, at the waiver's limit): the window's five-arc sample read in full (B1834, B1836, B1838 by a reader, B1839 and B1841 by main) -- all hold, three with notes applied as dated… |
@@ -42,7 +43,6 @@
 | B1836 | PROVED | THE SEATS PAST S300 VERIFIED (the owner's 'fetch and verify agy and other seats'): the F7 mirror identity PROVED (T-FRAME-MIRROR; the agy lane's Theorem 60 repaired); T a symmetry of the frame's outputs (8e-13; main's S… |
 | B1835 | OPEN | U_e AND THE PMNS (P-638, OPEN; the owner's ruling P-660): the control passes on main's code -- on all 24 order-5 lines Y_e = c Y_d^T and U_e^L = conj(U_d^R) to 1e-15, 0.33-0.40 off on the order-10 lines; the design: the… |
 | B1834 | PROVED | THE TOTAL-INPUTS SCOREBOARD (the owner's ruling of 2026-10-29, P-418) AND THE BORROWED-JOINTS SCAFFOLD (P-661): 0 of 19 earned, identification price 13; the record's candidate claims 10 rows on 14 borrowed joints (11 ch… |
-| B1833 | PROVED | THE BRAINSTORMS RE-READ (the owner's 'most important leads from brainstorms keeps getting forgotten'; 'check our chat history'): of about 530 distinct ideas across five sources about 340 were worked, 80 partly, 45 rowed… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306d THE LEVEL SURFACE'S OWN MODULUS (B1847; P-727) + THE SEATS FETCHED + MAIN'S RULING ON B1012 (2026-11-06)
 - S306c THE OWNER'S TWO QUESTIONS ROWED; P-727 IN PROGRESS (P-728, P-729; 2026-11-06)
 - S306b THE METRIC'S READ-OUT: HARMONIC TIME (B1846; P-726, P-727; 2026-11-06)
 - S306a THE SEATS FETCHED: THE READ-OUT THE HISTORY'S SYMMETRY FORCES (2026-11-06)
@@ -63,11 +64,10 @@
 - S305y THE REPO FETCHED; ONE LEVEL FROM TWO SEATS; THE LINE'S LAST BIT A CHIRAL PAIR; STAGE C VALIDATED (2026-11-06)
 - S305v THE SEATS REFETCHED; LEAST ACTION UNDER THE RUNG'S INVISIBILITY (2026-11-06)
 - S305u THE HYPERBOLIC METRIC'S OWN READ-OUT (P-723; 2026-11-06)
-- S305t THE SEATS FETCHED AGAIN; THE CANDIDATE REFEREED; THE SCALE QUESTION (2026-11-06)
 
 ## The latest campaign line
 
-LATEST (2026-11-06, S306c: P-728 (declared choices: the argument needs compression, not yet earned) and P-729 (the bang: only its initial law is needed, door C next) rowed; P-727's instrument passes its control and m004's loop, fails its own checks on the excursion's tube — no number banked. 0 of 19.)
+LATEST (2026-11-06, S306d: B1847, the level surface's own modulus — a fourth object-native reading of the fibre (m004's loop forced and closed; the excursion's anti-apex 1/2 + 1.5904i, 16% above Teichmuller; the tube level not computed: the surface folds, both instruments fail their checks); the seats fetched (rows 1601–1604); main's ruling on B1012: R2 stays CHOSEN. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
