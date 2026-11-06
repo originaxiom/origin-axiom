@@ -8280,7 +8280,7 @@ moment", at a clean stop of P-727's tube. The process arc is B1848; its reader's
       joints. A dated note is added on that line.
     - **The early-record index page was stale** after R75-7 sharpened B151. It is regenerated.
 
-fresh-clone: PASS @ d10b05652 (gates all PASS; belt ok)
+fresh-clone: PASS @ d10b05652 (gates all PASS; belt ok); again PASS @ ec2f97a3d after the anchor line, the view refresh and the views (the review's landing is 1eb535ecd)
 fresh-clone suite: FAIL @ d10b05652 (8076 passed, 6 failed, 70 skipped; diagnosed above: two standing, four fixed here)
 sample seed: 264fa6d98; read in full: B1845, B1846, B1847
 gate controls: 48 registered failing-path tests; unregistered: none
