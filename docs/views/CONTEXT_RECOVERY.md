@@ -18,8 +18,8 @@
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 720 |
-| … QUEUED | 297 |
+| register points | 721 |
+| … QUEUED | 298 |
 | … LEAD | 9 |
 | … OWNER | 4 |
 | … DONE | 399 |
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S305s THE OBJECT-NATIVE LEVEL (P-721; the owner: 'Seek object-native') (2026-11-06)
 - S305r THE READ-OUT MAY BE THE RECORD'S OWN KÄHLER WEIGHT (P-720; 2026-11-06)
 - S305q B1845 THE OBJECT'S OWN LINE AND THE EXCURSION READ OUT (P-717, P-718, P-455; 2026-11-06)
 - S305p THE SCALE WALL TESTED (R75-7, P-719; the owner: 'Test the wall') (2026-11-06)
@@ -63,11 +64,10 @@
 - S305n P-717'S CONTROL AND P-715'S WALL (2026-11-06)
 - S305m THE GOAL SET: A PROCESS THAT PLACES τ, THE LINE AND AN ENERGY SCALE; THE FAREY TRANSITION PLACES NOTHING; ONE CANDIDATE, P-717 (2026-11-06)
 - S305l THE BANG PROGRAMME OPENED (P-694): THE STAGE AUDITED; WAVE 1 AIMED AT WHAT PLACES τ, THE LINE AND A SCALE (2026-11-05)
-- S305k THE SEATS FETCHED: THE SM SEAT'S §§ 351–353 RE-RUN; THE AGY LANE'S STAGES 19–20 CHECKED; P-710 SEEN FIRST (2026-11-05)
 
 ## The latest campaign line
 
-LATEST (2026-11-06, S305r: P-720 — the read-out is one weight; under P-259's minimal Kähler the fields' modular weights may supply it, making P-717's apex read-out derived; the weights and the proper integral owed (agy asked). 0 of 19.)
+LATEST (2026-11-06, S305s: P-721 — the line is a minimal periodic orbit of the object's own dynamics (5 twisted fixed points); the record's 'heard mod the conductor' principle offers levels 3, 5, 15 for the scale; a criterion among them owed, firewalled. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
