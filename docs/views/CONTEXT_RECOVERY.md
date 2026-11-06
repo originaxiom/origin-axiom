@@ -18,11 +18,11 @@
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 727 |
-| … QUEUED | 302 |
+| register points | 729 |
+| … QUEUED | 303 |
 | … LEAD | 9 |
 | … OWNER | 4 |
-| … DONE | 401 |
+| … DONE | 402 |
 | … DECLINED | 11 |
 | harvest rows (the last number) | 1600 |
 | the Standard Model's 19 derived | 0 |
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306c THE OWNER'S TWO QUESTIONS ROWED; P-727 IN PROGRESS (P-728, P-729; 2026-11-06)
 - S306b THE METRIC'S READ-OUT: HARMONIC TIME (B1846; P-726, P-727; 2026-11-06)
 - S306a THE SEATS FETCHED: THE READ-OUT THE HISTORY'S SYMMETRY FORCES (2026-11-06)
 - S305z THE PLEATED LAYERS READ; EVERY CHOICE AT ONCE; BOTH TWINS (P-723, P-724, P-725; 2026-11-06)
@@ -63,11 +64,10 @@
 - S305v THE SEATS REFETCHED; LEAST ACTION UNDER THE RUNG'S INVISIBILITY (2026-11-06)
 - S305u THE HYPERBOLIC METRIC'S OWN READ-OUT (P-723; 2026-11-06)
 - S305t THE SEATS FETCHED AGAIN; THE CANDIDATE REFEREED; THE SCALE QUESTION (2026-11-06)
-- S305s THE OBJECT-NATIVE LEVEL (P-721; the owner: 'Seek object-native') (2026-11-06)
 
 ## The latest campaign line
 
-LATEST (2026-11-06, S306b: THE METRIC'S READ-OUT (B1846) — harmonic time is the metric's own clock: the energy is uniform in it (T1) and the volume weight has no atom (T2), so no point read-out is forced by the metric; the volume weight's single hump sits exactly on the excursion's tube, the closed thread's apex (two methods; flat on m004; sharper at the run of 10; blind in the one-departure limit); the value of τ there owed (P-727). 0 of 19.)
+LATEST (2026-11-06, S306c: P-728 (declared choices: the argument needs compression, not yet earned) and P-729 (the bang: only its initial law is needed, door C next) rowed; P-727's instrument passes its control and m004's loop, fails its own checks on the excursion's tube — no number banked. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
