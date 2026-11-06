@@ -24,7 +24,7 @@ nothing in this block is typed by hand.*
 | arcs with a verdict | 1547: 1056 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
 | points in the register | 723: 312 open (queued, leads, waiting for the owner), 411 closed |
 | the last review | Review 75 (2026-11-06), anchor `264fa6d98` |
-| the last landing | S305v THE SEATS REFETCHED; LEAST ACTION UNDER THE RUNG'S INVISIBILITY (2026-11-06) |
+| the last landing | S305y THE REPO FETCHED; ONE LEVEL FROM TWO SEATS; THE LINE'S LAST BIT A CHIRAL PAIR; STAGE C VALIDATED (2026-11-06) |
 <!-- STATE:END -->
 
 ## Start here
