@@ -13,16 +13,16 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1551 |
-| … PROVED | 1060 |
+| arcs with a verdict file | 1552 |
+| … PROVED | 1061 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 729 |
+| register points | 730 |
 | … QUEUED | 230 |
 | … LEAD | 4 |
 | … OWNER | 4 |
-| … DONE | 480 |
+| … DONE | 481 |
 | … DECLINED | 11 |
 | harvest rows (the last number) | 1608 |
 | the Standard Model's 19 derived | 0 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1850 | PROVED | THE OPEN LEADS AND THE BACKLOG CONFIRMED ONE BY ONE (Review 76's R76-1: the rest of P-617, and P-616): every proposal of Review 74's readers checked at its pointer, each decision backed by a quote found verbatim (313 of… |
 | B1849 | PROVED | THE LEADS CONFIRMED ONE BY ONE (Review 76's R76-1, the register half of P-617): every proposal of Review 74's reader for the register's lead-typed rows checked by main at its pointer -- 30 rows closed (19 answered, 6 su… |
 | B1848 | PROVED | REVIEW 76 (the owner: 'lets do the decadal first right moment'; 36 commits, S305p-S306d): the loop closed (R75-1..3 declined at their third carry, rows kept; R75-6, R75-7 and R75-9's P-718 half resolved; four carried);… |
 | B1847 | PROVED | THE LEVEL SURFACE'S OWN MODULUS (P-727; data-free): an instrument reading the conformal modulus of a harmonic level surface from its 3D shape and its fibre group alone -- validated on a Fuchsian control of known tau (re… |
@@ -42,7 +43,6 @@
 | B1839 | NEGATIVE | THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/… |
 | B1838 | OPEN | THE END (P-421, OPEN): the web seat's sealed exact-end look reproduced on main (P-595 paid) -- the candidate's six pass only with the small-cut end (chi2 2.4-4.9) and fail at the exact horoball norms (31-54; 26-36 with… |
 | B1837 | PROVED | THE AGY LANE'S STAGES 8-9 AND THE WEB SEAT'S DENSITY HIGGS VERIFIED: main stands on six of the lane's seven rebuttals (the seventh, the mirror, already proved) -- at one Higgs every generation's lepton/down relation and… |
-| B1836 | PROVED | THE SEATS PAST S300 VERIFIED (the owner's 'fetch and verify agy and other seats'): the F7 mirror identity PROVED (T-FRAME-MIRROR; the agy lane's Theorem 60 repaired); T a symmetry of the frame's outputs (8e-13; main's S… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306j THE OPEN LEADS AND THE BACKLOG CONFIRMED ONE BY ONE (B1850; R76-1's second half: P-617 DONE, P-616 narrowed) (2026-11-07)
 - S306i THE LEADS CONFIRMED ONE BY ONE (B1849; R76-1, the register half of P-617) (2026-11-06)
 - S306h REVIEW 76'S ITEMS WORKED: B1842'S CONTROLS RUN (C-T CORRECTED), THE SEAL-ORDER LIST FROZEN, THE LINE STABILIZERS (2026-11-06)
 - S306g REVIEW 76'S ITEMS WORKED: THE TUBE'S OWN MODULUS (B1847 § 8; P-727 DONE), DOOR C'S C5, R2'S FORM (2026-11-06)
@@ -63,11 +64,10 @@
 - S306d THE LEVEL SURFACE'S OWN MODULUS (B1847; P-727) + THE SEATS FETCHED + MAIN'S RULING ON B1012 (2026-11-06)
 - S306c THE OWNER'S TWO QUESTIONS ROWED; P-727 IN PROGRESS (P-728, P-729; 2026-11-06)
 - S306b THE METRIC'S READ-OUT: HARMONIC TIME (B1846; P-726, P-727; 2026-11-06)
-- S306a THE SEATS FETCHED: THE READ-OUT THE HISTORY'S SYMMETRY FORCES (2026-11-06)
 
 ## The latest campaign line
 
-LATEST (2026-11-06, S306i: B1849 — the leads confirmed one by one (R76-1's register half): 30 closed, 47 merged into 19 hosts, 11 kept with reasons; open rows 311 → 234; B1825's dropped CM arm disclosed (P-527 paid); B1722's action-weight headline scoped (vol(LᵃR) → the Whitehead link's 3.664). 0 of 19.)
+LATEST (2026-11-07, S306j: B1850 — the open leads and the backlog confirmed one by one: 24 of 73 lead closures held (open leads 79 → 55; 48 kept with notes), 216 of 240 SCHEDULED rows closed (ledger-wide 272 → 46; 10 re-pointed to open rows); the counter's substring bug fixed; P-617 DONE; P-730 new (GENESIS's row-189 pointer). 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

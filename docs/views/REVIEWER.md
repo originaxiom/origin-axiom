@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1551** |
-| words of findings prose | **1,313,952** |
-| test lock files referenced | **932** |
-| arcs carrying an authored verdict | **1551** (100.0 %) |
+| research arcs with findings | **1552** |
+| words of findings prose | **1,314,853** |
+| test lock files referenced | **933** |
+| arcs carrying an authored verdict | **1552** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1060 |
+| PROVED | 1061 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1849`** (3100 words, 0 locks)  
-THE LEADS CONFIRMED ONE BY ONE (Review 76's R76-1, the register half of P-617): every proposal of Review 74's reader for the register's lead-typed rows checked by main at its pointer -- 30 rows closed (19 answered, 6 superseded, P-039 and P-476 after main's own checks, debt P-527 paid with P-494 by a dated disclosure on B1825 that its CM arm was dropped unsaid, P-069 in parts), 47 merged into 19 hosts (one target corrected: P-567 into P-294), P-063 and P-574 retyped as process rows, 11 not confirmed and kept open with dated reasons; P-039: B345's anti-diagonal texture is the order-3 cyclic structure in its charge basis (off-texture entries <= 8.4e-16); P-476: vol(L^a R) rises to the Whitehead link's 3.66386 (gap ~ 18/a^2 at a = 55), so B1722's action weight concentrates on short threads only through B1720's cutoff (scoped in B1722, LAW_MAP, THE_WEAVE); open rows 311 -> 234, leads 186 -> 108; the OPEN_LEADS half and P-616 stay open. 0 of 19.  
-`B1849_the_leads_confirmed_one_by_one/FINDINGS.md`
+**PROVED — `B1850`** (901 words, 1 locks)  
+THE OPEN LEADS AND THE BACKLOG CONFIRMED ONE BY ONE (Review 76's R76-1: the rest of P-617, and P-616): every proposal of Review 74's readers checked at its pointer, each decision backed by a quote found verbatim (313 of 313) -- open leads: 24 of 73 closed (16 answered, 8 carried in full; the reader's 'carried in full by register rows' held for 9 of 32), 48 kept open with dated notes naming what is answered and what is not, open leads 79 -> 55; backlog: 216 of 240 rows closed (CLOSED-HANDLED or CLOSED-NO-LOAD-NO-LEAD, history kept), 10 re-pointed to the open rows that carry them, 10 kept SCHEDULED with reasons, ledger-wide SCHEDULED 272 -> 46; the counter's substring bug fixed (is_scheduled) and both ratchets lowered; L206 closed by main's own check (the pair (ABABB, a) generates pi_1(m003): w = b to 8.5e-15 in the faithful holonomy); a new point P-730 (GENESIS's pointer to harvest row 189 names the wrong seat's R57). P-617 DONE; P-616 narrowed to its 36 lead and debt rows. 0 of 19.  
+`B1850_the_open_leads_and_the_backlog_confirmed/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  
