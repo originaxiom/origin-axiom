@@ -1,0 +1,11 @@
+THE CLOCK AND THE LINE SECTOR -- data-free check (the web seat, 2026-11-06)
+  moves (fair coin, 2^-(n-1))    share of the run of 6 in the sector 0.96875; the sector's share of all departures 0.0322581
+                                 next sector members: run 11 0.0302734, run 16 0.000946045
+  length, s = 1 (e^(-dS_n))      share of the run of 6 in the sector 0.48690172; the sector's share of all departures 0.108476
+                                 next sector members: run 11 0.17028, run 16 0.0858164
+  length, s = 2 (e^(-2 dS_n))    share of the run of 6 in the sector 0.8500359; the sector's share of all departures 0.0280551
+                                 next sector members: run 11 0.103963, run 16 0.0264055
+  Gauss-Kuzmin (Liouville)       share of the run of 6 in the sector 0.49974069; the sector's share of all departures 0.10176
+                                 next sector members: run 11 0.168897, run 16 0.084009
+  exact check: moves share = 31/32 = 0.96875
+clock_check exit 0
