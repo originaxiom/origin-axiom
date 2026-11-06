@@ -1,0 +1,10 @@
+sympy 1.14.0
+Q1 PASS
+Q2 PASS
+Q3 PASS
+Q4 PASS
+Q5 PASS
+Q6 PASS
+Q7 PASS
+Q8 PASS
+all as predicted: True
