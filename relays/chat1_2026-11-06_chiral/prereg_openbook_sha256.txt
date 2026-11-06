@@ -1,0 +1,2 @@
+open_book_check.py sha256 aaa6fa481423712366ec4e729c0fbbcec3f63ebb3510e5e1fcd7fbd47fb469b0
+recorded 2026-11-06T22:52:45Z before the run; the file was compiled (py_compile) and the sympy and SnapPy calls were exercised on unrelated inputs (m003, an unrelated matrix) outside the repo; the registered claims were not run
