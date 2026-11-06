@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1546** |
-| words of findings prose | **1,303,519** |
+| words of findings prose | **1,303,520** |
 | test lock files referenced | **932** |
 | arcs carrying an authored verdict | **1546** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1844`** (522 words, 0 locks)  
+**PROVED — `B1844`** (523 words, 0 locks)  
 REVIEW 75 (the owner's 'Run it now'; 60 merges, at the waiver's limit): the window's five-arc sample read in full (B1834, B1836, B1838 by a reader, B1839 and B1841 by main) -- all hold, three with notes applied as dated notes (B1836's unfilled section 2 filled from harvest row 1557; B1834's moved counts; B1838's stale 'next'); Review 74's loop closed (four resolved, one declined at its third carry, five carried as R75-1..R75-5); the seals re-checked (B1839's corrected pin, its promised input-hash re-check done here, unchanged); the Stage 16-18 ranges sealed by hash (145 -> 160); P-707 ruled (A06 merged into A07, frame A 14 -> 13 borrowed joints, a double count removed), P-708 ruled (the six retired as a decisive cell), P-611 DONE, THE COUNT adopted; five practices adopted, the first extending the seen-first sweep to chat (E54 x4). None promoted. 0 of 19.  
 `B1844_review_75_the_decadal_review/FINDINGS.md`
 
