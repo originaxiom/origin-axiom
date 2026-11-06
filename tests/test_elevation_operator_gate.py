@@ -2967,6 +2967,79 @@ def test_five_phase_master_toe_closure():
     assert t152["zero_held_out_values_computed"] is True
     assert t152["all_six_guardrails_passed"] is True
 
+    # Theorem 153 (Stage 29.1): B1012 vs B598 Amphichiral Sector Split & Instanton Transmutation
+    t153 = sc["theorem153_p722_p725_b1012_vs_b598_amphichiral_sector_split_and_instanton_transmutation"]
+    assert "docs/POINT_REGISTER.md" in t153["seen_first"][0]
+    assert "FORCED-BY-MAIN" in t153["claim_labels_and_scopes"]["b1012_vs_b598_amphichiral_sector_split"]
+    assert "MATH" in t153["claim_labels_and_scopes"]["instanton_transmutation_r2_r3_r4_equivalence"]
+    assert "plain_english_elaboration" in t153
+    assert float(t153["max_b1012_err"]) < 1e-14
+    assert int(t153["n_order"]) == 5
+    assert float(t153["err_wkb_hbar"]) < 1e-14
+    assert float(t153["max_r2_r3_r4_err"]) < 1e-14
+    assert len(t153["transmutation_rows"]) == 3
+    assert float(t153["max_haar_err_153"]) < 1e-13
+    assert t153["zero_unsealed_scale_values_computed"] is True
+    assert t153["zero_six_values_evaluated_at_tau_star"] is True
+    assert t153["zero_held_out_values_computed"] is True
+    assert t153["all_six_guardrails_passed"] is True
+
+    # Theorem 154 (Stage 29.2): Margulis Tube z_3 = coth^2(L_tube/2) Identity, Level Surface Modulus, & Cusp Collar
+    t154 = sc["theorem154_p726_p727_b1846_margulis_tube_coth2_identity_level_surface_modulus_and_cusp_collar"]
+    assert "frontier/B1846_the_metrics_read_out/FINDINGS.md" in t154["seen_first"][0]
+    assert "MATH" in t154["claim_labels_and_scopes"]["margulis_tube_coth2_operator_identity"]
+    assert "FORCED-BY-MAIN" in t154["claim_labels_and_scopes"]["p726_p727_non_diluting_tube_and_level_surface_bridge"]
+    assert "plain_english_elaboration" in t154
+    assert float(t154["poly_resid_k1"]) < 1e-11
+    assert float(t154["max_gluing_err_k1"]) < 1e-12
+    assert float(t154["err_telescope_z7"]) < 1e-12
+    assert float(t154["max_coth2_identity_err"]) < 1e-12
+    assert float(t154["err_k1_root_vs_snappy"]) < 1e-12
+    assert float(t154["err_sigma_anticonformal_k1"]) < 1e-15
+    assert len(t154["tube_progression_table"]) == 5
+    assert float(t154["max_haar_err_154"]) < 1e-12
+    assert t154["zero_unsealed_scale_values_computed"] is True
+    assert t154["zero_six_values_evaluated_at_tau_star"] is True
+    assert t154["zero_held_out_values_computed"] is True
+    assert t154["all_six_guardrails_passed"] is True
+
+    # Theorem 155 (Stage 29.3): Two-Flank Margulis Tube Transition (S286 / B1826 / P-716)
+    t155 = sc["theorem155_s286_b1826_p716_two_flank_margulis_tube_transition_ckm_unblocking_and_cp_invariance"]
+    assert "docs/POINT_REGISTER.md" in t155["seen_first"][0]
+    assert "MATH" in t155["claim_labels_and_scopes"]["two_flank_margulis_tube_ckm_and_cp_mechanism"]
+    assert "plain_english_elaboration" in t155
+    assert float(t155["case1_single_flank"]["abs_j_cp"]) < 1e-24
+    assert float(t155["case2_no_shear_phase"]["abs_j_cp"]) < 1e-24
+    assert float(t155["case3_two_flank_k1"]["svd_diff"]) < 1e-14
+    assert float(t155["case3_two_flank_inf"]["svd_diff"]) < 1e-14
+    assert t155["case3_two_flank_k1"]["smallest_in_13_corner"] is True
+    assert t155["case3_two_flank_inf"]["smallest_in_13_corner"] is True
+    assert float(t155["case3_two_flank_k1"]["abs_j_cp"]) > 1e-15
+    assert float(t155["case3_two_flank_inf"]["abs_j_cp"]) > 1e-15
+    assert float(t155["max_haar_err_155"]) < 1e-13
+    assert t155["zero_unsealed_scale_values_computed"] is True
+    assert t155["zero_six_values_evaluated_at_tau_star"] is True
+    assert t155["zero_held_out_values_computed"] is True
+    assert t155["all_six_guardrails_passed"] is True
+
+    # Theorem 156 (Stage 29.4): Complete 7-Joint Data-Free Closure Ledger & Stage 29 Referee Gate
+    t156 = sc["theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage29_referee_gate"]
+    assert "docs/POINT_REGISTER.md" in t156["seen_first"][0]
+    assert "FORCED-BY-MAIN" in t156["claim_labels_and_scopes"]["complete_7joint_data_free_closure_ledger"]
+    assert "MATH" in t156["claim_labels_and_scopes"]["stage29_zero_trust_hostile_referee_gate"]
+    assert "plain_english_elaboration" in t156
+    assert float(t156["mp_poly_resid"]) < 1e-40
+    assert float(t156["mp_coth2_err"]) < 1e-45
+    assert float(t156["mp_rlr_closure_err"]) < 1e-40
+    assert float(t156["mp_transmutation_err"]) < 1e-45
+    assert t156["sympy_proof_ok"] is True
+    assert len(t156["seven_joint_closure_ledger"]) == 7
+    assert float(t156["max_haar_err_156"]) < 1e-13
+    assert t156["zero_unsealed_scale_values_computed"] is True
+    assert t156["zero_six_values_evaluated_at_tau_star"] is True
+    assert t156["zero_held_out_values_computed"] is True
+    assert t156["all_six_guardrails_passed"] is True
+
 
 
 
