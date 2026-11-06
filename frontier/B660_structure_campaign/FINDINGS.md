@@ -89,3 +89,5 @@ L103 (persist the golden σ*-matrix + basis-matched Y cross-check),
 L104 (the S2 decisive cell). HINT_LEDGER: the weight-5 coincidence.
 Locks: tests/test_b660_structure.py. Privacy patches + originals'
 hashes in ORIGINALS_MANIFEST.txt.
+
+> *Dated note 2026-11-06 (R75-7; P-719): SCOPED, not changed. S3 is a typing wall of the B650 type system: its licensed comparisons are 'exact dimensionless algebraic data'. It excludes dimensionful quantities as values, and it excludes non-algebraic numbers by that era's typing rule, not by a theorem about the object. The current frames (FR-FIB) compare transcendental values (theta ratios at τ). So a dimensionless ratio of scales is outside B660's licensed class only under B650's typing, not by the object.*

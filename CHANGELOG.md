@@ -1,5 +1,12 @@
 # Changelog
 
+## S305p THE SCALE WALL TESTED (R75-7, P-719; the owner: 'Test the wall') (2026-11-06)
+
+- **B151 and B660 re-read in full.** An absolute energy cannot come from the object, since its invariants carry no units: that holds.
+- **B151 SHARPENED.** Its verdict ('no invariant can source a physical scale (energy density / mass / coupling)') is not shown for dimensionless ratios or couplings. Its own reading, Z ∼ exp(i·Vol_ℂ/ℏ), is how an invariant sets a ratio once the level k is fixed.
+- **B660 SCOPED.** Its S3 is the B650 type system's wall (licensed: exact dimensionless algebraic data), not a theorem about the object.
+- **So the goal's scale clause, read as a dimensionless ratio, is not excluded.** What is missing is a principle that fixes the level. The record's candidate is the object's own prime 5 (P-718). Firewalled: no ratio computed. Dated notes on B151, B660 and LAW_MAP's wall 10. P-719; FLOOR 719. 0 of 19.
+
 ## REVIEW 75 (B1844): THE END CARDS READ AND DECOMPOSED, THE TARGETS HELD, THE BANG PROGRAMME OPENED, A PROCESS SOUGHT (2026-11-06)
 
 - **The owner:** 'Run it now' (60 merges, the waiver's limit). The block is in docs/progress/REVIEWS.md; the process arc is B1844.

@@ -1,7 +1,7 @@
 {
  "id": "B151",
  "verdict": "NEGATIVE",
- "claim_one_line": "The firewall holds: primary sources place all dimensionful content in hbar/k and squashing, so no kappa- or volume-type invariant can source a physical scale.",
+ "claim_one_line": "The firewall holds: primary sources place all dimensionful content in hbar/k and squashing, so no kappa- or volume-type invariant can source a physical scale. [SHARPENED 2026-11-06 (R75-7, P-719): holds for units (no absolute scale from the object); for dimensionless scale ratios and couplings the reading shows the invariant enters as exp(i Vol_C / hbar), so a ratio is fixed by the invariant together with the level k, which the invariant does not fix -- not excluded.]",
  "instrument": false,
  "depends_on": [],
  "supersedes": null,

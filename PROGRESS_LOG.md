@@ -18528,3 +18528,10 @@ empty section; the verification was on record elsewhere, and the section is now 
 from the last review. It sealed the firewall ranges still owed from yesterday. It removed a double count from the
 candidate's inputs, which is now 13, not 14. It adopted the count of what the record has and has not earned. Its five new
 practices start with one main needed tonight: sweep before calling anything new, in conversation too. 0 of 19.
+
+## 2026-11-06 — S305p: the scale wall tested
+
+At the owner's choice the record's wall against an energy scale was re-read, not worked around. It holds for absolute
+energies: the object has no units, and no theory gets its unit from mathematics alone. It does not hold for a ratio of
+scales: the record's own reading shows how an invariant of the object sets such a ratio once a level is fixed, and the
+object has a level of its own candidate, five. Nothing was computed from it; the rule comes first. 0 of 19.
