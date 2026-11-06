@@ -22,9 +22,9 @@ nothing in this block is typed by hand.*
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.62) of 2026-11-05 |
 | arcs with a verdict | 1545: 1054 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 717: 310 open (queued, leads, waiting for the owner), 407 closed |
+| points in the register | 718: 311 open (queued, leads, waiting for the owner), 407 closed |
 | the last review | Review 74 (2026-11-04), anchor `41420ae14` |
-| the last landing | S305n P-717'S CONTROL AND P-715'S WALL (2026-11-06) |
+| the last landing | S305o THE LINE IS THE OBJECT'S OWN; THE EXCURSION INHERITS IT (P-717, P-718; 2026-11-06) |
 <!-- STATE:END -->
 
 ## Start here
