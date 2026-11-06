@@ -1,0 +1,17 @@
+snappy 3.3.2
+k=1 word=LLLLLLRLR tets=9 solution=all tetrahedra positively oriented
+  shortest geodesic L = 0.184869804512 -0.802102442240i  (|Im L| in degrees 45.957085)
+  best |coth^2(L/2) - shape param| = 5.021e-12 at tet 3, param -4.651753368978 +2.578910896294i
+k=2 word=LLLLLLRLRLR tets=11 solution=all tetrahedra positively oriented
+  shortest geodesic L = 0.185199632234 -0.813318669954i  (|Im L| in degrees 46.599727)
+  best |coth^2(L/2) - shape param| = 1.325e-11 at tet 3, param -4.526095646282 +2.483803825740i
+k=3 word=LLLLLLRLRLRLR tets=13 solution=all tetrahedra positively oriented
+  shortest geodesic L = 0.185217659360 -0.815658262928i  (|Im L| in degrees 46.733776)
+  best |coth^2(L/2) - shape param| = 6.095e-11 at tet 3, param -4.500849545274 +2.464016703513i
+
+z_2 (k=1) = -3.6517533690 +2.5789108963i
+C1 coth^2 identity at k=1,2,3: PASS  (max residual 6.095e-11)
+C2 exactly 45 degrees: FAIL  (|Im L| = 0.802102442 rad = 45.957085 deg; pi/4 = 0.785398163)
+C3 (-Re z_2)/sqrt2 = Im z_2: FAIL  (2.582180 vs 2.578911; 3.6518/sqrt2 = 2.582213)
+C4 sqrt(40/3) = -Re z_2: FAIL  (3.651483717 vs 3.651753369; difference -2.697e-04)
+C5 equal shadows (45-degree tilt of z_2): FAIL  (angle of z_2 above the negative real axis 35.2302 deg)
