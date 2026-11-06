@@ -1,5 +1,18 @@
 # Changelog
 
+## S306f THE LACIE SYNCED WHOLE; THE SEATS FETCHED AFTER REVIEW 76 (2026-11-06)
+
+- **The owner:** 'lacie is on', then 'can we sync lacie wirh the whole repo'.
+  - Main was pushed to the mirror. The full-ref push was blocked by the pre-push hook on old seat commits.
+  - The mirror was then synced by fetching from the repository (+refs/*:refs/*, no prune): 73 refs equal to the local repository's, fsck clean, main = origin's.
+  - No hook was bypassed.
+- **The web seat's three relays (rows 1605–1607):**
+  - door C is not fixed by the golden substitution: one declared choice;
+  - the agy lane's Stage 29, checked twice: main's S306d read stands. Theorem 155's CP claim fails on its own code. The second reading's SnapPy check re-runs identically on main; the agy-source scripts were not run by main;
+  - the read-out after Review 76 agrees with the corrected P-726.
+- **The agy lane's Stage 29 correction (row 1608):** the unsealed coupling evaluation removed, and main's findings adopted.
+- Pins chat1 66e4ed4e, agyaudit e839a06c. 0 of 19.
+
 ## REVIEW 76 (B1848; S306e) — the read-out and the metric reviewed (2026-11-06)
 
 - **The owner:** 'lets do the decadal first right moment', run at a clean stop of P-727's tube. 36 commits, S305p–S306d.

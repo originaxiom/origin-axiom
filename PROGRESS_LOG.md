@@ -18634,3 +18634,9 @@ shortest loop, which sits exactly where the volume gathers. That strengthens the
 claim is corrected everywhere. A first value for the fibre's shape at the thin tube looked good on one grid and failed on
 a finer one, so it was withdrawn. 0 of 19.
 
+## 2026-11-06 — S306f: the backup whole, the seats again
+
+The external drive now holds the whole record, every branch and tag, checked complete. The other seats agree with the
+review's correction. One of them showed that a claimed source of matter–antimatter asymmetry from the agy lane was
+built into its own inputs, so it is set aside. 0 of 19.
+
