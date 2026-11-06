@@ -18513,3 +18513,10 @@ a derivation or a held-out prediction must. 0 of 19.
 The candidate excursion was checked two ways: the family's closed threads that approach it converge to its exact height,
 and every one sits exactly at Re τ = ½, so that half of τ comes out by symmetry rather than choice. On the energy scale
 the record already holds a wall: the object has no units, so it can fix at most a ratio between scales. 0 of 19.
+
+## 2026-11-06 — S305o: the line placed by the object
+
+The object's own monodromy, read at its own prime 5, fixes exactly two lines, and the line the masses chose yesterday at
+the principled end is one of them. The candidate excursion, made to agree with the object at that level, keeps the
+object's line and its Re τ and only rises in height. What is still chosen: that there is one excursion, that the frame is
+read at its top, and which hand. The energy scale is still out of reach: the object has no units. 0 of 19.

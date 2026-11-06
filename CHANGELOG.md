@@ -1,5 +1,11 @@
 # Changelog
 
+## S305o THE LINE IS THE OBJECT'S OWN; THE EXCURSION INHERITS IT (P-717, P-718; 2026-11-06)
+
+- **Level 5 is the object's own:** LR's discriminant is 3² − 4 = 5, so LR ≡ −(unipotent) mod 5, of order 5 in A₅ (computed). The ladder's end and the monodromy's ramified prime coincide. P-717's wording is corrected: the whole run L⁵ is one primitive cusp loop of Γ(5).
+- **P-718: the line is the object's own level-5 eigenline.** RL fixes exactly (1/5, 2/5) and (2/5, 4/5) (B1733's rule; LR's are (1/5, 3/5) and (2/5, 1/5)). **B1841's best line, (2/5, 4/5), is RL's own fixed line** (post hoc; the thread rule predates it: B1733, B1734). The strip's order-10 lines are not fixed by RL. The order-5 line classes are X₁(5)'s cusps (sizes 1, 1, 5, 5). The diamond ⟨2⟩ is not a frame symmetry at fixed τ (features differ by 2–6). So at a placed τ, 266 lines become 4: two eigenline points × the hand.
+- **The compatibility (P-717):** in apex coordinates the approximant L⁵R(LR)^k fixes RL's eigenline iff k ≡ 0 (mod 5), and is then ≡ ±RL (mod 5). The family L⁵R(LR)^{5m} carries RL's own (apex, line) pair, lifted toward ½ + (2 + √5/2)i. Choices left: one excursion, the apex read-out, the limit or m, the hand. The energy scale stays walled (P-715). Scripts in audit/drafts/p717/, p718/. P-718; FLOOR 718. 0 of 19.
+
 ## S305n P-717'S CONTROL AND P-715'S WALL (2026-11-06)
 
 - **P-717's control, data-free:** the closed threads L⁵R(LR)^k have highest apexes converging to Im 2 + √5/2 (the gap shrinking by φ⁻⁴ per golden period), and Re τ = ½ exactly at every k. The excursion is palindromic, so Re τ* = ½ is an output, not a choice. Two methods agree to 10⁻¹² (audit/drafts/p717/). Main's first run of the control omitted the S-conjugates and returned the golden apex; the second method caught it.
