@@ -1,0 +1,3 @@
+LR: translation length 1.924847; reduced path max Im 1.118034, min Im 1.000000; local maxima (Re, Im) [(-0.5, np.float64(1.118034))]
+LLLLLLRLR: translation length 6.177940; reduced path max Im 3.651484, min Im 0.888786; local maxima (Re, Im) [(2e-05, np.float64(3.651484)), (-0.49999, np.float64(1.369306))]
+sqrt5/2 = 1.118034; sqrt(40/3) = 3.651484; sqrt(15/8) = 1.369306

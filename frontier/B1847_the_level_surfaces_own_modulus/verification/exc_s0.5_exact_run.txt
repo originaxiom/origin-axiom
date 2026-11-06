@@ -1,0 +1,2 @@
+   res (120,80): tau +0.499978+1.589243i  reduced +0.499978+1.589243i  detE-1 +1.10e-03  bad cycles 0  pairing off-surface 2.4e-08 off-floor 6.5e-04  22s
+   res (240,160): tau +0.499994+1.590110i  reduced +0.499994+1.590110i  detE-1 +2.83e-04  bad cycles 0  pairing off-surface 2.4e-08 off-floor 6.5e-04  33s

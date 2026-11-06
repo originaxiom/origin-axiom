@@ -1,0 +1,4 @@
+b++LLLLLLRLR s=0.25: grid 80x120x60 phi in 310s; v-window +-3.027 around 0.505
+   marching: 24576 vertices, 48656 triangles; on the exact level to 3.2e-14; 484s
+   clip: 442 floor vertices projected to 4.4e-16; pairing images to the nearest floor edge <= 4.8e-03; constraints 249 of 442; v-wall vertices 0; stray boundary edges 0; 497s
+   tau +1.627826+1.008394i  reduced -0.372174+1.008394i  detE-1 +4.44e-04  constraint residual 9.8e-14  {'detE': 1.0004437211264512, 'constraint_res': 9.814371537686384e-14, 'vertices': 13492, 'triangles': 26382, 'negative_cot': 5920}  506s
