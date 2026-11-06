@@ -2871,6 +2871,103 @@ def test_five_phase_master_toe_closure():
     assert t148["zero_held_out_values_computed"] is True
     assert t148["all_six_guardrails_passed"] is True
 
+    # Theorem 149 (Stage 28.1): P-724 Q1 Action-Weighted Saddle Sum, Action (A) vs. Action (B), and Per-Run Line Condition Pi_2
+    t149 = sc["theorem149_p724_q1_action_weighted_saddle_sum_action_a_vs_b_and_pi2_per_run_line_conservation"]
+    assert "docs/POINT_REGISTER.md" in t149["seen_first"][0]
+    assert "FORCED-BY-MAIN" in t149["claim_labels_and_scopes"]["pi2_per_run_line_conservation_equivalence"]
+    assert "FORCED-BY-MAIN" in t149["claim_labels_and_scopes"]["p724_q1_action_a_vs_b_and_saddle_shares"]
+    assert "plain_english_elaboration" in t149
+    assert t149["rl_eig_ok"] is True
+    assert t149["lr_eig_ok"] is True
+    assert t149["pi2_equivalence_all_a"] is True
+    assert t149["pi2_accepted_a_up_to_25"] == [6, 11, 16, 21]
+    assert float(t149["d2_formula_err"]) < 1e-15
+    assert float(t149["d6_formula_err"]) < 1e-15
+    assert abs(float(t149["delta_ell_6"]) - 2.3487180112390975) < 1e-13
+    assert abs(float(t149["gap_a_11_vs_6"]) - 1.051261791473729) < 1e-13
+    assert abs(float(t149["d6_val"]) - 2.4633722938492876) < 1e-13
+    assert float(t149["gap_b_66_vs_6"]) > 2.128
+    assert t149["short_cluster_beats_d6_without_pi2"] is True
+    assert abs(float(t149["share_a_single_n6"]) - 0.486901721753) < 1e-9
+    assert float(t149["share_b_single_n6"]) > 0.976
+    assert float(t149["share_b_multi_n6"]) > 0.81
+    assert abs(float(t149["share_move_2n_exact"]) - 0.96875) < 1e-15
+    assert float(t149["err_move_2n"]) < 1e-15
+    assert abs(float(t149["share_gk_n6"]) - 0.499679) < 1e-5
+    assert float(t149["max_haar_err_149"]) < 1e-13
+    assert t149["zero_six_values_evaluated_at_tau_star"] is True
+    assert t149["zero_held_out_values_computed"] is True
+    assert t149["all_six_guardrails_passed"] is True
+
+    # Theorem 150 (Stage 28.2): P-725 Q1 Amphichiral Mirror-Twin Sector Coupling & Weil Portal Invariance
+    t150 = sc["theorem150_p725_q1_amphichiral_mirror_twin_sector_coupling_and_weil_portal_invariance"]
+    assert "docs/POINT_REGISTER.md" in t150["seen_first"][0]
+    assert "FORCED-BY-MAIN" in t150["claim_labels_and_scopes"]["p725_amphichiral_involution_and_line_twins"]
+    assert "FORCED-BY-MAIN" in t150["claim_labels_and_scopes"]["p725_q1_two_sector_mirror_lift_and_weil_portal"]
+    assert "plain_english_elaboration" in t150
+    assert t150["monodromy_conjugation_exact"] is True
+    assert float(t150["markov_cubic_roots_err"]) < 1e-14
+    assert t150["eigenline_swap_exact"] is True
+    assert float(t150["unitarity_odd_err"]) < 1e-14
+    assert abs(float(t150["p_portal"]) - 0.723606797750) < 1e-11
+    assert abs(float(t150["p_surv"]) - 0.276393202250) < 1e-11
+    assert float(t150["p_portal_err"]) < 1e-14
+    assert float(t150["p_surv_err"]) < 1e-14
+    assert float(t150["p_unitarity_sum_err"]) < 1e-14
+    assert abs(float(t150["portal_to_survival_ratio"]) - 2.618033988750) < 1e-11
+    assert float(t150["portal_to_survival_err"]) < 1e-14
+    assert float(t150["intra_sector_modulus_diff"]) < 1e-15
+    assert float(t150["inter_sector_phase_sum"]) < 1e-15
+    assert float(t150["single_sector_coherent_im_part"]) < 1e-15
+    assert float(t150["max_haar_err_150"]) < 1e-13
+    assert t150["zero_six_values_evaluated_at_tau_star"] is True
+    assert t150["zero_held_out_values_computed"] is True
+    assert t150["all_six_guardrails_passed"] is True
+
+    # Theorem 151 (Stage 28.3): P-723 S305z Complete 9-Layer L^6 R L R Profile, Flanking-Pair Conjugacy & k -> infty Limit
+    t151 = sc["theorem151_p723_s305z_complete_9layer_l6rlr_profile_flanking_pair_conjugacy_and_homoclinic_limit"]
+    assert "docs/POINT_REGISTER.md" in t151["seen_first"][0]
+    assert "FORCED-BY-MAIN" in t151["claim_labels_and_scopes"]["s305z_complete_9layer_l6rlr_profile_and_flanking_pair_conjugacy"]
+    assert "FORCED-BY-MAIN" in t151["claim_labels_and_scopes"]["p723_homoclinic_limit_of_three_object_native_readings"]
+    assert "plain_english_elaboration" in t151
+    assert t151["apex_formula_all_exact"] is True
+    assert abs(float(t151["teichmuller_apex_table"][1]) - 3.6514837167011076) < 1e-14
+    assert abs(float(t151["vol_k1"]) - 5.586362) < 1e-5
+    assert abs(float(t151["deepest_tet_im_k1"]) - 2.57891125) < 1e-6
+    assert len(t151["layers_k1"]) == 9
+    assert float(t151["max_k1_residual"]) < 1e-11
+    assert float(t151["max_flanking_conjugacy_err"]) < 1e-11
+    assert abs(float(t151["layers_k1"][3]["tau_re"]) - 0.050707635847) < 1e-9
+    assert abs(float(t151["layers_k1"][3]["tau_im"]) - 2.873586894296) < 1e-9
+    assert t151["three_readings_strictly_ordered"] is True
+    assert abs(float(t151["homoclinic_table"][8]["im_tau_teichmuller_apex"]) - 3.61803399) < 1e-7
+    assert abs(float(t151["homoclinic_table"][8]["im_tau_pleated_deepest"]) - 2.80902754) < 1e-5
+    assert abs(float(t151["homoclinic_table"][8]["im_z_tetrahedron_deepest"]) - 2.458780) < 1e-5
+    assert float(t151["max_haar_err_151"]) < 1e-13
+    assert t151["zero_six_values_evaluated_at_tau_star"] is True
+    assert t151["zero_held_out_values_computed"] is True
+    assert t151["all_six_guardrails_passed"] is True
+
+    # Theorem 152 (Stage 28.4): P-722 / P-724 (3) Habiro-WRT Convention Sharpening & Stage 28 Referee Gate
+    t152 = sc["theorem152_p722_habiro_wrt_convention_sharpening_and_stage28_zero_trust_referee_gate"]
+    assert "docs/POINT_REGISTER.md" in t152["seen_first"][0]
+    assert "FORCED-BY-MAIN" in t152["claim_labels_and_scopes"]["p722_p724_habiro_tower_and_alpha_vs_beta_convention"]
+    assert "MATH" in t152["claim_labels_and_scopes"]["stage28_zero_trust_hostile_referee_gate"]
+    assert "plain_english_elaboration" in t152
+    assert float(t152["err_j_n3"]) < 1e-14
+    assert float(t152["err_j_n5"]) < 1e-13
+    assert float(t152["referee_mp_trigamma_share_err"]) < 1e-11
+    assert float(t152["mp_d2_err"]) < 1e-45
+    assert float(t152["mp_d6_err"]) < 1e-45
+    assert t152["sympy_apex_proof_ok"] is True
+    assert len(t152["goal_four_step_closure_summary"]) == 4
+    assert float(t152["max_haar_err_152"]) < 1e-13
+    assert t152["zero_unsealed_scale_values_computed"] is True
+    assert t152["zero_six_values_evaluated_at_tau_star"] is True
+    assert t152["zero_held_out_values_computed"] is True
+    assert t152["all_six_guardrails_passed"] is True
+
+
 
 
 
