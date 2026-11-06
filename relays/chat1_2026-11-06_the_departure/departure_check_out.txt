@@ -1,0 +1,120 @@
+THE DEPARTURE THE LINE CANNOT SEE -- data-free check (the web seat, 2026-11-06)
+
+A. THE GOLDEN PAIR (P1)
+  RL = ((2, 1), (1, 1)), tr 3, det(M - I) -1, det(M + I) 5; lines fixed: +w none; -w {+-(1/5, 2/5), +-(2/5, 4/5)}; -M unipotent mod 5 (-M != I, (-M - I)^2 = 0): True
+  LR = ((1, 1), (1, 2)), tr 3, det(M - I) -1, det(M + I) 5; lines fixed: +w none; -w {+-(1/5, 3/5), +-(2/5, 1/5)}; -M unipotent mod 5 (-M != I, (-M - I)^2 = 0): True
+  the figure-eight's determinant |Delta(-1)|, Delta(t) = t^2 - 3t + 1: 5
+  RL's pair against LR's: LR = L (RL) L^-1, and own(LR) = own(RL) L^-1: True
+
+B. LEVEL-5 VISIBILITY (P2): L^n R (LR)^k against (LR)^(k+1) mod 5, k = 0..19
+  n =  1 (n mod 5 = 1): equal mod 5 at every k; conjugate in SL(2, F5) at every k
+  n =  2 (n mod 5 = 2): equal mod 5 at no k; conjugate in SL(2, F5) at no k
+  n =  3 (n mod 5 = 3): equal mod 5 at no k; conjugate in SL(2, F5) at no k
+  n =  4 (n mod 5 = 4): equal mod 5 at no k; conjugate in SL(2, F5) at no k
+  n =  5 (n mod 5 = 0): equal mod 5 at no k; conjugate in SL(2, F5) at no k
+  n =  6 (n mod 5 = 1): equal mod 5 at every k; conjugate in SL(2, F5) at every k
+  n =  7 (n mod 5 = 2): equal mod 5 at no k; conjugate in SL(2, F5) at no k
+  n =  8 (n mod 5 = 3): equal mod 5 at no k; conjugate in SL(2, F5) at no k
+  n =  9 (n mod 5 = 4): equal mod 5 at no k; conjugate in SL(2, F5) at no k
+  n = 10 (n mod 5 = 0): equal mod 5 at no k; conjugate in SL(2, F5) at no k
+  n = 11 (n mod 5 = 1): equal mod 5 at every k; conjugate in SL(2, F5) at every k
+  n = 12 (n mod 5 = 2): equal mod 5 at no k; conjugate in SL(2, F5) at no k
+  the word with T^5 inserted after its first L: L^5 L R (LR)^k = L^6 R (LR)^k; and L^5 = I mod 5: True
+
+C. HIGHEST APEXES (P3): matrix orbit with S-conjugates | continued fractions | homoclinic limit
+  n = 5: homoclinic limit Re 0.5, Im (n - 1 + sqrt5)/2 = 3.11803398874989
+    k =  0: Im 3.35410196624968 | 3.35410196624968, Re 0.5 | 0.5; Im - limit 0.23607
+    k =  1: Im 3.14907393794853 | 3.14907393794853, Re 0.5 | 0.5; Im - limit 0.03104
+    k =  2: Im 3.1224989991992 | 3.1224989991992, Re 0.5 | 0.5; Im - limit 0.004465
+    k =  3: Im 3.11868409368286 | 3.11868409368286, Re 0.5 | 0.5; Im - limit 0.0006501
+    k =  4: Im 3.11812880951497 | 3.11812880951497, Re 0.5 | 0.5; Im - limit 9.4821e-5
+    k =  5: Im 3.11804782231162 | 3.11804782231162, Re 0.5 | 0.5; Im - limit 1.3834e-5
+    k = 10: Im 3.11803398966438 | 3.11803398966438, Re 0.5 | 0.5; Im - limit 9.1449e-10
+    k = 15: Im 3.11803398874996 | 3.11803398874996, Re 0.5 | 0.5; Im - limit 6.0454e-14
+    k = 20: Im 3.11803398874989 | 3.11803398874989, Re 0.5 | 0.5; Im - limit 3.9964e-18
+    the two methods differ by at most 6.22e-61 (Im and Re, k = 0..20)
+  n = 6: homoclinic limit Re 0.0, Im (n - 1 + sqrt5)/2 = 3.61803398874989
+    k =  0: Im 3.87298334620742 | 3.87298334620742, Re 0.0 | 0.0; Im - limit 0.25495
+    k =  1: Im 3.65148371670111 | 3.65148371670111, Re -3.11150763893057e-61 | 0.0; Im - limit 0.03345
+    k =  2: Im 3.62284418654736 | 3.62284418654736, Re 0.0 | 0.0; Im - limit 0.0048102
+    k =  3: Im 3.61873432227873 | 3.61873432227873, Re 3.11150763893057e-61 | 0.0; Im - limit 0.00070033
+    k =  4: Im 3.61813613493316 | 3.61813613493316, Re 0.0 | 0.0; Im - limit 0.00010215
+    k =  5: Im 3.6180488910154 | 3.6180488910154, Re 0.0 | 0.0; Im - limit 1.4902e-5
+    k = 10: Im 3.61803398973503 | 3.61803398973503, Re 0.0 | 0.0; Im - limit 9.8514e-10
+    k = 15: Im 3.61803398874996 | 3.61803398874996, Re 0.0 | 0.0; Im - limit 6.5124e-14
+    k = 20: Im 3.61803398874989 | 3.61803398874989, Re 0.0 | 0.0; Im - limit 4.3052e-18
+    the two methods differ by at most 6.22e-61 (Im and Re, k = 0..20)
+
+D. EACH APPROXIMANT'S OWN ORDER-5 LINES AT ITS HIGHEST APEX (P4; B1733's rule, Re tau in [0, 1))
+  n = 5, k =  0: tr 7 (mod 5: 2), Re 0.5, own order-5 lines {+-(1/5, 2/5), +-(2/5, 4/5)}
+  n = 5, k =  1: tr 19 (mod 5: 4), Re 0.5, own order-5 lines none
+  n = 5, k =  2: tr 50 (mod 5: 0), Re 0.5, own order-5 lines none
+  n = 5, k =  3: tr 131 (mod 5: 1), Re 0.5, own order-5 lines none
+  n = 5, k =  4: tr 343 (mod 5: 3), Re 0.5, own order-5 lines {+-(0/5, 1/5), +-(0/5, 2/5)}
+  n = 5, k =  5: tr 898 (mod 5: 3), Re 0.5, own order-5 lines {+-(1/5, 2/5), +-(2/5, 4/5)}
+  n = 5, k =  6: tr 2351 (mod 5: 1), Re 0.5, own order-5 lines none
+  n = 5, k =  7: tr 6155 (mod 5: 0), Re 0.5, own order-5 lines none
+  n = 5, k =  8: tr 16114 (mod 5: 4), Re 0.5, own order-5 lines none
+  n = 5, k =  9: tr 42187 (mod 5: 2), Re 0.5, own order-5 lines {+-(0/5, 1/5), +-(0/5, 2/5)}
+  n = 5, k = 10: tr 110447 (mod 5: 2), Re 0.5, own order-5 lines {+-(1/5, 2/5), +-(2/5, 4/5)}
+  n = 5, k = 11: tr 289154 (mod 5: 4), Re 0.5, own order-5 lines none
+  n = 5, k = 12: tr 757015 (mod 5: 0), Re 0.5, own order-5 lines none
+  n = 5, k = 13: tr 1981891 (mod 5: 1), Re 0.5, own order-5 lines none
+  n = 5, k = 14: tr 5188658 (mod 5: 3), Re 0.5, own order-5 lines {+-(0/5, 1/5), +-(0/5, 2/5)}
+  n = 5, k = 15: tr 13584083 (mod 5: 3), Re 0.5, own order-5 lines {+-(1/5, 2/5), +-(2/5, 4/5)}
+  n = 5, k = 16: tr 35563591 (mod 5: 1), Re 0.5, own order-5 lines none
+  n = 5, k = 17: tr 93106690 (mod 5: 0), Re 0.5, own order-5 lines none
+  n = 5, k = 18: tr 243756479 (mod 5: 4), Re 0.5, own order-5 lines none
+  n = 5, k = 19: tr 638162747 (mod 5: 2), Re 0.5, own order-5 lines {+-(0/5, 1/5), +-(0/5, 2/5)}
+  n = 5, k = 20: tr 1670731762 (mod 5: 2), Re 0.5, own order-5 lines {+-(1/5, 2/5), +-(2/5, 4/5)}
+  n = 5 summary: {+-(1/5, 2/5), +-(2/5, 4/5)} at k = [0, 5, 10, 15, 20]; none at k = [1, 2, 3, 6, 7, 8, 11, 12, 13, 16, 17, 18]; {+-(0/5, 1/5), +-(0/5, 2/5)} at k = [4, 9, 14, 19]
+  n = 6, k =  0: tr 8 (mod 5: 3), Re 0.0, own order-5 lines {+-(1/5, 0/5), +-(2/5, 0/5)}
+  n = 6, k =  1: tr 22 (mod 5: 2), Re -3.11151e-61, own order-5 lines {+-(1/5, 0/5), +-(2/5, 0/5)}
+  n = 6, k =  2: tr 58 (mod 5: 3), Re 0.0, own order-5 lines {+-(1/5, 0/5), +-(2/5, 0/5)}
+  n = 6, k =  3: tr 152 (mod 5: 2), Re 3.11151e-61, own order-5 lines {+-(1/5, 0/5), +-(2/5, 0/5)}
+  n = 6, k =  4: tr 398 (mod 5: 3), Re 0.0, own order-5 lines all twelve
+  n = 6, k =  5: tr 1042 (mod 5: 2), Re 0.0, own order-5 lines {+-(1/5, 0/5), +-(2/5, 0/5)}
+  n = 6, k =  6: tr 2728 (mod 5: 3), Re 0.0, own order-5 lines {+-(1/5, 0/5), +-(2/5, 0/5)}
+  n = 6, k =  7: tr 7142 (mod 5: 2), Re 0.0, own order-5 lines {+-(1/5, 0/5), +-(2/5, 0/5)}
+  n = 6, k =  8: tr 18698 (mod 5: 3), Re 3.11151e-61, own order-5 lines {+-(1/5, 0/5), +-(2/5, 0/5)}
+  n = 6, k =  9: tr 48952 (mod 5: 2), Re 0.0, own order-5 lines all twelve
+  n = 6, k = 10: tr 128158 (mod 5: 3), Re 0.0, own order-5 lines {+-(1/5, 0/5), +-(2/5, 0/5)}
+  n = 6, k = 11: tr 335522 (mod 5: 2), Re 3.11151e-61, own order-5 lines {+-(1/5, 0/5), +-(2/5, 0/5)}
+  n = 6, k = 12: tr 878408 (mod 5: 3), Re 0.0, own order-5 lines {+-(1/5, 0/5), +-(2/5, 0/5)}
+  n = 6, k = 13: tr 2299702 (mod 5: 2), Re 0.0, own order-5 lines {+-(1/5, 0/5), +-(2/5, 0/5)}
+  n = 6, k = 14: tr 6020698 (mod 5: 3), Re 0.0, own order-5 lines all twelve
+  n = 6, k = 15: tr 15762392 (mod 5: 2), Re 0.0, own order-5 lines {+-(1/5, 0/5), +-(2/5, 0/5)}
+  n = 6, k = 16: tr 41266478 (mod 5: 3), Re 0.0, own order-5 lines {+-(1/5, 0/5), +-(2/5, 0/5)}
+  n = 6, k = 17: tr 108037042 (mod 5: 2), Re 0.0, own order-5 lines {+-(1/5, 0/5), +-(2/5, 0/5)}
+  n = 6, k = 18: tr 282844648 (mod 5: 3), Re 0.0, own order-5 lines {+-(1/5, 0/5), +-(2/5, 0/5)}
+  n = 6, k = 19: tr 740496902 (mod 5: 2), Re 0.0, own order-5 lines all twelve
+  n = 6, k = 20: tr 1938646058 (mod 5: 3), Re 0.0, own order-5 lines {+-(1/5, 0/5), +-(2/5, 0/5)}
+  n = 6 summary: {+-(1/5, 0/5), +-(2/5, 0/5)} at k = [0, 1, 2, 3, 5, 6, 7, 8, 10, 11, 12, 13, 15, 16, 17, 18, 20]; all twelve at k = [4, 9, 14, 19]
+
+E. THE HOMOCLINIC HISTORY ...1,1,n,1,1... (P5): x- = -1/phi, x+ = n + 1/phi
+  n =  1: cf(x+) [1, 1, 1, 1, 1, 1], cf(-x-) [0, 1, 1, 1, 1, 1], lifts fix the ends to 1.56e-61; apex 0.5 + 1.11803398874989i; in {+-(1/5, 2/5), +-(2/5, 4/5)}, out {+-(1/5, 2/5), +-(2/5, 4/5)}, equal True; T^(n-1) in the line's stabiliser True; reflection maps in -> out True, out -> in True, r Gin r^-1 = Gout^+-1 True, fixes the in pair True
+  n =  2: cf(x+) [2, 1, 1, 1, 1, 1], cf(-x-) [0, 1, 1, 1, 1, 1], lifts fix the ends to 1.56e-61; apex 0.0 + 1.61803398874989i; in {+-(1/5, 3/5), +-(2/5, 1/5)}, out {+-(1/5, 2/5), +-(2/5, 4/5)}, equal False; T^(n-1) in the line's stabiliser False; reflection maps in -> out True, out -> in True, r Gin r^-1 = Gout^+-1 True, fixes the in pair False
+  n =  3: cf(x+) [3, 1, 1, 1, 1, 1], cf(-x-) [0, 1, 1, 1, 1, 1], lifts fix the ends to 1.56e-61; apex 0.5 + 2.11803398874989i; in {+-(1/5, 3/5), +-(2/5, 1/5)}, out {+-(1/5, 1/5), +-(2/5, 2/5)}, equal False; T^(n-1) in the line's stabiliser False; reflection maps in -> out True, out -> in True, r Gin r^-1 = Gout^+-1 True, fixes the in pair False
+  n =  4: cf(x+) [4, 1, 1, 1, 1, 1], cf(-x-) [0, 1, 1, 1, 1, 1], lifts fix the ends to 1.56e-61; apex -1.56e-61 + 2.61803398874989i; in {+-(1/5, 4/5), +-(2/5, 3/5)}, out {+-(1/5, 1/5), +-(2/5, 2/5)}, equal False; T^(n-1) in the line's stabiliser False; reflection maps in -> out True, out -> in True, r Gin r^-1 = Gout^+-1 True, fixes the in pair False
+  n =  5: cf(x+) [5, 1, 1, 1, 1, 1], cf(-x-) [0, 1, 1, 1, 1, 1], lifts fix the ends to 1.56e-61; apex 0.5 + 3.11803398874989i; in {+-(1/5, 4/5), +-(2/5, 3/5)}, out {+-(1/5, 0/5), +-(2/5, 0/5)}, equal False; T^(n-1) in the line's stabiliser False; reflection maps in -> out True, out -> in True, r Gin r^-1 = Gout^+-1 True, fixes the in pair False
+  n =  6: cf(x+) [6, 1, 1, 1, 1, 1], cf(-x-) [0, 1, 1, 1, 1, 1], lifts fix the ends to 1.56e-61; apex 0.0 + 3.61803398874989i; in {+-(1/5, 0/5), +-(2/5, 0/5)}, out {+-(1/5, 0/5), +-(2/5, 0/5)}, equal True; T^(n-1) in the line's stabiliser True; reflection maps in -> out True, out -> in True, r Gin r^-1 = Gout^+-1 True, fixes the in pair True
+  n =  7: cf(x+) [7, 1, 1, 1, 1, 1], cf(-x-) [0, 1, 1, 1, 1, 1], lifts fix the ends to 1.56e-61; apex 0.5 + 4.11803398874989i; in {+-(1/5, 0/5), +-(2/5, 0/5)}, out {+-(1/5, 4/5), +-(2/5, 3/5)}, equal False; T^(n-1) in the line's stabiliser False; reflection maps in -> out True, out -> in True, r Gin r^-1 = Gout^+-1 True, fixes the in pair False
+  n =  8: cf(x+) [8, 1, 1, 1, 1, 1], cf(-x-) [0, 1, 1, 1, 1, 1], lifts fix the ends to 2.49e-60; apex 0.0 + 4.61803398874989i; in {+-(1/5, 1/5), +-(2/5, 2/5)}, out {+-(1/5, 4/5), +-(2/5, 3/5)}, equal False; T^(n-1) in the line's stabiliser False; reflection maps in -> out True, out -> in True, r Gin r^-1 = Gout^+-1 True, fixes the in pair False
+  n =  9: cf(x+) [9, 1, 1, 1, 1, 1], cf(-x-) [0, 1, 1, 1, 1, 1], lifts fix the ends to 1.56e-61; apex 0.5 + 5.11803398874989i; in {+-(1/5, 1/5), +-(2/5, 2/5)}, out {+-(1/5, 3/5), +-(2/5, 1/5)}, equal False; T^(n-1) in the line's stabiliser False; reflection maps in -> out True, out -> in True, r Gin r^-1 = Gout^+-1 True, fixes the in pair False
+  n = 10: cf(x+) [10, 1, 1, 1, 1, 1], cf(-x-) [0, 1, 1, 1, 1, 1], lifts fix the ends to 1.24e-60; apex 0.0 + 5.61803398874989i; in {+-(1/5, 2/5), +-(2/5, 4/5)}, out {+-(1/5, 3/5), +-(2/5, 1/5)}, equal False; T^(n-1) in the line's stabiliser False; reflection maps in -> out True, out -> in True, r Gin r^-1 = Gout^+-1 True, fixes the in pair False
+  n = 11: cf(x+) [11, 1, 1, 1, 1, 1], cf(-x-) [0, 1, 1, 1, 1, 1], lifts fix the ends to 1.56e-61; apex 0.5 + 6.11803398874989i; in {+-(1/5, 2/5), +-(2/5, 4/5)}, out {+-(1/5, 2/5), +-(2/5, 4/5)}, equal True; T^(n-1) in the line's stabiliser True; reflection maps in -> out True, out -> in True, r Gin r^-1 = Gout^+-1 True, fixes the in pair True
+  n = 12: cf(x+) [12, 1, 1, 1, 1, 1], cf(-x-) [0, 1, 1, 1, 1, 1], lifts fix the ends to 2.49e-60; apex 0.0 + 6.61803398874989i; in {+-(1/5, 3/5), +-(2/5, 1/5)}, out {+-(1/5, 2/5), +-(2/5, 4/5)}, equal False; T^(n-1) in the line's stabiliser False; reflection maps in -> out True, out -> in True, r Gin r^-1 = Gout^+-1 True, fixes the in pair False
+
+F. THE DEPARTURE'S EXCESS LENGTH (P6): l(L^n R (LR)^k) - l((LR)^(k+1)) against 2 log((n - 1 + sqrt5)/sqrt5)
+  n = 5, k =  0: 1.92484730023841; target 2.05126179147373; difference -0.126
+  n = 5, k =  5: 2.05125385502288; target 2.05126179147373; difference -7.94e-6
+  n = 5, k = 10: 2.05126179094908; target 2.05126179147373; difference -5.25e-10
+  n = 5, k = 20: 2.05126179147373; target 2.05126179147373; difference -2.29e-18
+  n = 5, k = 30: 2.05126179147373; target 2.05126179147373; difference -1.0e-26
+  n = 6, k =  0: 2.20202683755271; target 2.3487180112391; difference -0.147
+  n = 6, k =  5: 2.34870880117268; target 2.3487180112391; difference -9.21e-6
+  n = 6, k = 10: 2.34871801063025; target 2.3487180112391; difference -6.09e-10
+  n = 6, k = 20: 2.3487180112391; target 2.3487180112391; difference -2.66e-18
+  n = 6, k = 30: 2.3487180112391; target 2.3487180112391; difference -1.16e-26
+
+departure_check exit 0
