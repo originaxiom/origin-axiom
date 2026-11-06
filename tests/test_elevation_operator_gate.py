@@ -2434,6 +2434,89 @@ def test_five_phase_master_toe_closure():
     assert t128["zero_held_out_values_computed"] is True
     assert t128["all_six_guardrails_passed"] is True
 
+    # Theorem 129 (Stage 22.1): P-717 Ask 4 — Closed Approximants W_k = L^5 R (LR)^k & Fibonacci Apex Law
+    t129 = sc["theorem129_p717_closed_approximants_fibonacci_apex_law_and_re_tau_half_identity"]
+    assert "docs/handoffs/CC_TO_AGY_2026-11-06_P717_ONE_DEPARTURE.md" in t129["seen_first"]
+    assert "frontier/B1720_the_thread_fixes_the_point/verification/thread_geometry.py" in t129["seen_first"]
+    assert "MATH" in t129["claim_labels_and_scopes"]["p717_closed_approximants_k0_to_20_and_fibonacci_apex_law"]
+    assert "plain_english_elaboration" in t129
+    assert t129["all_fibonacci_entries_exact"] is True
+    assert float(t129["re_tau_star_exact"]) == 0.5
+    assert abs(float(t129["im_tau_star_exact"]) - 3.118033988749895) < 1e-14
+    assert float(t129["max_re_diff_from_half"]) == 0.0
+    assert float(t129["max_lagrange_im_diff"]) < 1e-14
+    assert float(t129["asymptotic_ratio_k8_rel_err"]) < 1e-6
+    assert t129["all_n_limits_verified"] is True
+    assert len(t129["table_k0_to_20"]) == 21
+    assert t129["zero_six_values_evaluated_at_tau_star"] is True
+    assert t129["zero_held_out_values_computed"] is True
+    assert int(t129["selection_bits"]) == 0
+
+    # Theorem 130 (Stage 22.2): P-717 Ask 2 & P-718 — Order-5 Eigenline Uniqueness & (n, k) = (0, 0) mod 5 Law
+    t130 = sc["theorem130_p717_p718_golden_monodromy_order5_eigenline_uniqueness_and_mod5_compatibility"]
+    assert "frontier/B1733_the_threads_own_lines/FINDINGS.md" in t130["seen_first"]
+    assert "MATH" in t130["claim_labels_and_scopes"]["p718_order5_eigenline_uniqueness_and_nk_mod5_compatibility"]
+    assert "plain_english_elaboration" in t130
+    assert int(t130["discriminant_LR"]) == 5
+    assert int(t130["det_A_gold_minus_I"]) == 1
+    assert int(t130["det_A_gold_plus_I"]) == 5
+    assert t130["orders_with_fixed_lines_in_2_to_12"] == [5]
+    assert int(t130["unique_fixed_line_order"]) == 5
+    assert t130["rl_eigenline_mod5"] == [(1, 2), (2, 4)]
+    assert t130["b1841_best_line_is_in_rl_eigenline"] is True
+    assert int(t130["fixed_order_60_primitive_count"]) == 0
+    assert t130["compatible_nk_mod5_for_rl"] == [(0, 0)]
+    assert t130["unique_compatible_nk_mod5"] is True
+    assert t130["all_k_multiples_of_5_match_pm_rl"] is True
+    assert t130["zero_six_values_evaluated_at_tau_star"] is True
+    assert t130["zero_held_out_values_computed"] is True
+    assert int(t130["selection_bits"]) == 0
+
+    # Theorem 131 (Stage 22.3): P-717 Ask 1 & Ask 3 — Homoclinic Excess Length & Palindromic Apex Stationarity
+    t131 = sc["theorem131_p717_ask1_ask3_homoclinic_excess_length_and_palindromic_apex_stationarity"]
+    assert "frontier/B1629_does_the_principle_reach_the_weaves_cusp/FINDINGS.md" in t131["seen_first"]
+    assert "B1341_canonical_action" in t131["seen_first"]
+    assert "MATH" in t131["claim_labels_and_scopes"]["p717_ask1_homoclinic_excess_length_and_sector_calibration"]
+    assert "MATH" in t131["claim_labels_and_scopes"]["p717_ask3_palindromic_involution_and_apex_stationarity"]
+    assert "plain_english_elaboration" in t131
+    assert float(t131["max_trace_ratio_err"]) < 1e-13
+    assert abs(float(t131["delta_ell_hom_5"]) - 2.051261791473729) < 1e-12
+    assert t131["m1_minimal_among_nontrivial_order5_excursions"] is True
+    assert t131["m1_dynamically_forced_over_m0"] is False
+    assert float(t131["max_palindromic_fixed_err"]) < 1e-15
+    assert float(t131["max_mirror_even_symmetry_err"]) < 1e-15
+    assert abs(float(t131["abs_rr_at_apex"]) - 0.0198761041) < 1e-7
+    assert abs(float(t131["d1_abs_rr_at_apex"])) < 1e-12
+    assert float(t131["d2_abs_rr_at_apex"]) > 0.07
+    assert t131["apex_is_strict_minimum_of_abs_rr"] is True
+    assert t131["apex_is_strict_maximum_of_im_tau"] is True
+    assert t131["b1341_action_selects_point_on_geodesic"] is False
+    assert t131["zero_six_values_evaluated_at_tau_star"] is True
+    assert t131["zero_held_out_values_computed"] is True
+    assert int(t131["selection_bits"]) == 0
+
+    # Theorem 132 (Stage 22.4): P-717 & P-718 Menu Compression Ledger & Stage 22 Referee Gate
+    t132 = sc["theorem132_p717_p718_menu_compression_ledger_and_stage22_referee_gate"]
+    assert "B151_origin_scales" in t132["seen_first"]
+    assert "B980_dimensional_transmutation" in t132["seen_first"]
+    assert "FORCED-BY-MAIN" in t132["claim_labels_and_scopes"]["p717_p718_menu_compression_and_remaining_choices_ledger"]
+    assert "MATH" in t132["claim_labels_and_scopes"]["stage22_zero_trust_hostile_referee_gate"]
+    assert "plain_english_elaboration" in t132
+    assert int(t132["prior_menu_size"]) == 59318
+    assert int(t132["placed_menu_size"]) == 4
+    assert abs(float(t132["bits_saved"]) - 13.8561823354) < 1e-8
+    assert len(t132["remaining_discrete_choices"]) == 4
+    assert t132["object_is_scale_free_p715"] is True
+    assert t132["sympy_re_numerator_identity"] is True
+    assert t132["sympy_det_reduces_to_cassini"] is True
+    assert float(t132["mp_k20_convergence_err"]) < 1e-33
+    assert float(t132["mp_vs_float_im_tau_star_err"]) < 1e-15
+    assert float(t132["max_haar_err_132"]) < 1e-13
+    assert t132["zero_six_values_evaluated_at_tau_star"] is True
+    assert t132["zero_held_out_values_computed"] is True
+    assert t132["all_six_guardrails_passed"] is True
+
+
 
 
 

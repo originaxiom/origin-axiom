@@ -1164,6 +1164,33 @@ Directly answers `P-716` (Wave 1 item 5) and executes the Stage 21 Zero-Trust Ho
   3. is invariant under independent Haar gauge rotations $U_L, U_{R,u}, U_{R,d}$ (`max_haar_cp_inv_err = 9.01e-16 < 1e-13`) and is generically non-zero (`min_generic_broken_mirror_cp_inv = 2.89e-6 > 1e-6`) whenever $N \nmid 6$ and self-mirror reality is broken.
 - Independently verifies `B867` S3 / `P-712` B6's cubic $V(\tau)/\kappa = \tau^3/3 - \tau^2/2 - \tau$ in 35-digit `mpmath` (`v_phi_err = 0.0`, `cubic_unbounded_below == True`) and certifies `all_six_guardrails_passed == True`.
 
+---
+
+## 30. Stage 22 (`Theorems 129–132`): Answering `CC_TO_AGY_2026-11-06_P717_ONE_DEPARTURE.md` (`P-717`, `P-718`, and `P-715`)
+
+Following `S305m`–`S305o` (`e2d17cad3` on `origin/main`), Stage 22 (`Theorems 129–132` in `src/origin_axiom/toe_closure.py`, tested in `tests/test_elevation_operator_gate.py`) answers all four asks of `docs/handoffs/CC_TO_AGY_2026-11-06_P717_ONE_DEPARTURE.md` and synthesizes the `P-717` + `P-718` + `P-715` ledger under strict Firewall compliance (`zero_six_values_evaluated_at_tau_star == True`, `zero_held_out_values_computed == True`):
+
+### 1. `Theorem 129` (`theorem129_p717_closed_approximants_fibonacci_apex_law_and_re_tau_half_identity`, `MATH` + `FORCED-BY-MAIN`, `0` bits)
+Directly answers Ask 4 of `docs/handoffs/CC_TO_AGY_2026-11-06_P717_ONE_DEPARTURE.md`:
+- Conjugating the excursion word $M_k = L^5 R (LR)^k$ by $L^2 = \begin{pmatrix} 1 & 2 \\ 0 & 1 \end{pmatrix}$ yields the closed-form Fibonacci–Lucas apex matrix:
+  $$D_k = L^{-2} M_k L^2 = L^3 R (LR)^k L^2 = \begin{pmatrix} L_{2k+3} & L_{2k+5} \\ F_{2k+2} & F_{2k+4} \end{pmatrix} = \begin{pmatrix} 3 F_{2k+2} + F_{2k+1} & 7 F_{2k+2} + 4 F_{2k+1} \\ F_{2k+2} & 2 F_{2k+2} + F_{2k+1} \end{pmatrix}.$$
+- Because $a_k - d_k = L_{2k+3} - F_{2k+4} = F_{2k+2} = c_k$ identically, the geodesic semicircle apex real part is $\operatorname{Re}\tau_k = \frac{a_k - d_k}{2 c_k} = \frac{1}{2}$ (`max_re_diff_from_half = 0.0`) for every $k \ge 0$.
+- The exact apex height $\operatorname{Im}\tau_k = \frac{\sqrt{(5 F_{2k+2} + 2 F_{2k+1})^2 - 4}}{2 F_{2k+2}}$ agrees with `frontier/B1720_the_thread_fixes_the_point/verification/thread_geometry.py`'s `lagrange(W_k) / 2` to `4.44e-16` across $k = 0 \dots 20$ and converges to $\operatorname{Im}\tau^* = 2 + \frac{\sqrt{5}}{2} \approx 3.118033988749895$ with asymptotic tail $\operatorname{Im}\tau_k - \operatorname{Im}\tau^* \sim \frac{4\sqrt{5}(4-\sqrt{5})}{11}\phi^{-(4k+4)}$.
+
+### 2. `Theorem 130` (`theorem130_p717_p718_golden_monodromy_order5_eigenline_uniqueness_and_mod5_compatibility`, `MATH` + `FORCED-BY-MAIN`, `0` bits)
+Directly answers Ask 2 of `docs/handoffs/CC_TO_AGY_2026-11-06_P717_ONE_DEPARTURE.md` and `P-718`:
+- By `frontier/B1733_the_threads_own_lines/FINDINGS.md` ($|\det(A_{\text{gold}} - I)| = 1$, $|\det(A_{\text{gold}} + I)| = 5$, $\Delta = 3^2 - 4 = 5$), $N = 5$ is the unique primitive order in $\{2, \dots, 12\}$ (and at $N = 60 = \operatorname{lcm}(2, 3, 4, 5)$, where `fixed_order_60_primitive_count == 0`) at which the golden monodromy fixes a flat line up to sign, selecting $\left\{\left(\frac{1}{5}, \frac{2}{5}\right),\, \left(\frac{2}{5}, \frac{4}{5}\right)\right\}$.
+- Across all $25$ residue pairs $(n \bmod 5, k \bmod 5) \in (\mathbb{Z}/5\mathbb{Z})^2$, the apex-conjugated excursion matrix $D_{n, k} = L^{n-2} R (LR)^k L^2$ fixes the ground path's eigenline $\{(1/5, 2/5), (2/5, 4/5)\}$ **if and only if $(n \bmod 5, k \bmod 5) = (0, 0)$**, where $D_{5, k}^{-1} \equiv (-1)^{k+1} A_{\text{gold}} \pmod 5$.
+
+### 3. `Theorem 131` (`theorem131_p717_ask1_ask3_homoclinic_excess_length_and_palindromic_apex_stationarity`, `MATH` + `FORCED-BY-MAIN`, `0` bits)
+Directly answers Ask 1 and Ask 3 of `docs/handoffs/CC_TO_AGY_2026-11-06_P717_ONE_DEPARTURE.md`:
+- **Ask 1 ("One departure"):** Proves $\lim_{k\to\infty} \frac{\operatorname{tr}(L^n R (LR)^k)}{\operatorname{tr}((LR)^{k+1})} = 1 + \frac{n - 1}{\sqrt{5}}$ (`max_trace_ratio_err = 8.88e-16`), so each length-5 departure costs excess hyperbolic length $\Delta\ell_{\text{hom}}(5) = 2\ln(1 + 4/\sqrt{5}) \approx 2.051262 > 0$. Thus $m = 1$ is the unique minimal-action non-trivial order-5 homoclinic sector, while no potential dynamically forces $m = 1$ over $m = 0$ (`m1_dynamically_forced_over_m0 == False`).
+- **Ask 3 ("The read-out point"):** Along $\gamma_5(\theta) = \frac{1}{2} - R\sin\theta + i\,R\cos\theta$, palindromic time-reversal $\mathcal{T}(\tau) = 1 - \bar{\tau}$ maps $\gamma_5(\theta) \mapsto \gamma_5(-\theta)$ with unique fixed point $\theta = 0$ ($\tau^*$). Both $\operatorname{Im}\tau(\theta)$ (global max) and the level-5 Rogers–Ramanujan continued-fraction modulus $|R_{\text{RR}}(\gamma_5(\theta))|$ (global min `0.0198761041`, $d^2|R_{\text{RR}}|/d\theta^2 = +0.0779 > 0$) are stationary and extremal at $\theta = 0$, whereas `B1341`'s class action does not vary along a single geodesic (`b1341_action_selects_point_on_geodesic == False`).
+
+### 4. `Theorem 132` (`theorem132_p717_p718_menu_compression_ledger_and_stage22_referee_gate`, `MATH` + `FORCED-BY-MAIN`, `0` bits)
+Audits the menu compression $223 \times 266 = 59,318 \to 1 \times 4 = 4$ (`15.856` bits $\to$ `2.0` bits, saving `13.856208` bits before touching the six mass ratios), records the `4` remaining discrete choices plus `P-715`'s scale-free wall (`B151`, `B660`, `B719`, `B811`, `B980`), and executes the Stage 22 Zero-Trust Referee Gate via SymPy symbolic Fibonacci/Cassini reduction, 50-digit `mpmath` asymptotic verification at $k = 20$ (`mp_k20_convergence_err = 8.57e-36 < 1e-33`), and 20-trial Haar unitary scrambling (`< 1e-13`).
+
+
 
 
 
