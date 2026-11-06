@@ -1435,12 +1435,26 @@ REVIEW_HARD = 2 * REVIEW_EVERY                      # past twice its period the 
 REVIEW_WAIVER = "docs/progress/REVIEW_WAIVER.md"    # unless the owner has waived it by date, in that file
 
 
-def review_waiver_covers(n, text):
-    """a waiver is one line '- waived <YYYY-MM-DD> by the owner through <N> merges: <reason>'; it covers while n < N"""
+def review_waiver_covers(n, text, since=None):
+    """a waiver is one line '- waived <YYYY-MM-DD> by the owner through <N> merges: <reason>'; it covers while n < N.
+    Review 75 (B1844): a waiver covers only the window it was granted in -- with `since` (the last anchor's date,
+    YYYY-MM-DD), a waiver dated before it has expired; without it every line is read (the old behaviour)."""
     best = 0
-    for m in re.finditer(r"^- waived \d{4}-\d{2}-\d{2} by the owner through (\d+) merges", text or "", re.M):
-        best = max(best, int(m.group(1)))
+    for m in re.finditer(r"^- waived (\d{4}-\d{2}-\d{2}) by the owner through (\d+) merges", text or "", re.M):
+        if since and m.group(1) < since:
+            continue
+        best = max(best, int(m.group(2)))
     return n < best
+
+
+def review_anchor_date():
+    """the commit date (YYYY-MM-DD) of the last review's anchor-commit, or None"""
+    text = _read(REVIEWS) if os.path.exists(os.path.join(ROOT, REVIEWS)) else ""
+    anchors = re.findall(r"anchor-commit: `?([0-9a-f]{7,40})`?", text)
+    if not anchors:
+        return None
+    rc, out = _git("log", "-1", "--format=%cs", anchors[-1])
+    return out.strip() if rc == 0 and out.strip() else None
 
 
 def gate_review_fires():
@@ -1454,7 +1468,7 @@ def gate_review_fires():
         return True, "no review anchor yet"
     if n >= REVIEW_HARD:
         wpath = os.path.join(ROOT, REVIEW_WAIVER)
-        if review_waiver_covers(n, _read(REVIEW_WAIVER) if os.path.isfile(wpath) else ""):
+        if review_waiver_covers(n, _read(REVIEW_WAIVER) if os.path.isfile(wpath) else "", since=review_anchor_date()):
             return True, f"{n} merges since the last review; waived by the owner ({REVIEW_WAIVER})"
         return False, (f"{n} merges since the last review (>= {REVIEW_HARD}): the review FIRES -- run it "
                        f"(scripts/review/review_tools.py), or the owner waives it by date in {REVIEW_WAIVER}")

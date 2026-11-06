@@ -94,3 +94,5 @@ The complete picture costs about three borrowed joints per extra row, and no row
   reconciliation is still owed.
 - The reader reports qualitative verdict words about firewalled quantities that reached its context at listed lines. They
   are written nowhere, and main has read none of them.
+
+> *Dated note 2026-11-06 (Review 75's reader, checked by main): the counts above were right when written. They have since moved. Frame B is 44 borrowed joints, after B47 was verified at B1836. Frame A claims the six only, with 13 borrowed joints, after S305j and Review 75's merge of A06 into A07. F7 is now FORCED-BY-MAIN (B1836's T-FRAME-MIRROR, PROVED). `build_scoreboard_data.py` reads the gitignored audit/scaffold/agy_joints.json, as its docstring says, so it does not re-run from a clean checkout; the checker and docs/total_inputs_scoreboard.json do.*

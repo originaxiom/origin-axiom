@@ -100,7 +100,7 @@
      "id": "A02",
      "name": "the slope 2/5 of the line class",
      "type": "CHOSEN",
-     "basis": "P-384 (the referee: mostly a pick); P-625 as corrected at S301 (B1836): a criterion reading no held-out quantity picks 2/5 (within-sector gaps not all equal among lines with B1728's identity; B1788 sec. 4's up-steeper order), but it is chosen after the fact or fitted to the seen six, so the slope stays borrowed",
+     "basis": "P-384 (the referee: mostly a pick); P-625 as corrected at S301 (B1836): a criterion reading no held-out quantity picks 2/5 (within-sector gaps not all equal among lines with B1728's identity; B1788 sec. 4's up-steeper order), but it is chosen after the fact or fitted to the seen six, so the slope stays borrowed; S305o (P-718): B1841's line (2/5, 4/5) is the object's own level-5 eigenline point (RL fixes exactly (1/5, 2/5), (2/5, 4/5); post hoc) -- at a placed tau the line is the hand plus one binary choice",
      "feeds": [
       1,
       2,
@@ -116,14 +116,14 @@
       12,
       17
      ],
-     "register": "P-384, P-625",
+     "register": "P-384, P-625, P-718",
      "same_as": "B02"
     },
     {
      "id": "A03",
      "name": "the line's offset: (2/5, 4/5), order 5, at B1841's row (an odd/10 offset, order 10, at the retired small-cut end; the five odd offsets are one T-orbit)",
      "type": "CHOSEN",
-     "basis": "P-384; S301 (B1836): T is a symmetry of the outputs, (tau, (a, b)) -> (tau + 1, (a, b - a)); B1841 (S305j): the six's best row at the principled end E4 is on the order-5 line (2/5, 4/5), where the lepton ratios equal the down ratios (P-706); the offset moved with the end (P-707)",
+     "basis": "P-384; S301 (B1836): T is a symmetry of the outputs, (tau, (a, b)) -> (tau + 1, (a, b - a)); B1841 (S305j): the six's best row at the principled end E4 is on the order-5 line (2/5, 4/5), where the lepton ratios equal the down ratios (P-706); the offset moved with the end (P-707); S305o (P-718): B1841's line (2/5, 4/5) is the object's own level-5 eigenline point (RL fixes exactly (1/5, 2/5), (2/5, 4/5); post hoc) -- at a placed tau the line is the hand plus one binary choice",
      "feeds": [
       1,
       2,
@@ -139,7 +139,7 @@
       12,
       17
      ],
-     "register": "P-384, P-707",
+     "register": "P-384, P-707, P-718",
      "same_as": "B03"
     },
     {
@@ -189,33 +189,10 @@
      "same_as": "B05"
     },
     {
-     "id": "A06",
-     "name": "the end's level among B1840's four (E4 = L2 - pi/2, the area-4 horocycle; was the horocycle L_max over L_2 at the small-cut end)",
-     "type": "CHOSEN",
-     "basis": "P-402 (L_max over L_2 at the small-cut end); B1841: the level is E4, one of four principled entries priced in its null; whether A06 and A07 now name one choice is Review 75's (P-707)",
-     "feeds": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      17
-     ],
-     "register": "P-402, P-707",
-     "same_as": "B07"
-    },
-    {
      "id": "A07",
      "name": "the end: the exact horoball norm at B1841's principled entry E4 (was the small-cut norm 2 pi L + c_s at L_max)",
      "type": "CHOSEN",
-     "basis": "B1841 (sealed; D holds, r97.5 0.885%, the entry priced among K = 4): a discrete principled end, nothing fitted; B1839 (D fails, r97.5 2.46%): a free level does not carry the six; the small-cut ansatz retired (re-typed ANSATZ -> CHOSEN at S305j by B1841's sealed reading; earlier: CHOSEN -> ANSATZ at S304, B1838)",
+     "basis": "B1841 (sealed; D holds below the 1% screen, the entry priced among K = 4): a discrete principled end, nothing fitted; B1839 (D fails at the screen): a free level does not carry the six; the small-cut ansatz retired (re-typed ANSATZ -> CHOSEN at S305j by B1841's sealed reading; earlier: CHOSEN -> ANSATZ at S304, B1838); Review 75 (P-707): A06 (the end's level) merged here -- with the norm exact, the end is one choice, the entry E4 among four; a double count removed, not a choice earned",
      "feeds": [
       1,
       2,
@@ -231,14 +208,14 @@
       12,
       17
      ],
-     "register": "P-421, P-706",
+     "register": "P-421, P-706, P-707",
      "same_as": ""
     },
     {
      "id": "A08",
      "name": "the generations' metric H = I",
      "type": "CHOSEN",
-     "basis": "B1822; FL-11; S305j (P-705): H = I is P-259's minimal-Kähler hypothesis -- B1736's family group acts by the irreducible cube rotations rho', so by Schur any tau-independent invariant metric is a multiple of I; non-minimal Kähler terms (covariant, with coefficients of their own; Chen, Ramos-Sanchez and Ratz, arXiv:1909.06910) escape it, so the hypothesis is the choice",
+     "basis": "B1822; FL-11; S305j (P-705): H = I is P-259's minimal-Kähler hypothesis -- B1736's family group acts by the irreducible cube rotations rho', so by Schur any tau-independent invariant metric is a multiple of I; non-minimal Kähler terms (covariant, with coefficients of their own; Chen, Ramos-Sanchez and Ratz 2019, P-259) escape it, so the hypothesis is the choice",
      "feeds": [
       1,
       2,
@@ -282,7 +259,7 @@
     },
     {
      "id": "A10",
-     "name": "the lepton factor c (3.77 at B1841's row, continuous and fitted; c = 3 at the small-cut end)",
+     "name": "the lepton factor c (continuous and fitted at B1841's row; c = 3 at the small-cut end)",
      "type": "FITTED",
      "basis": "FL-12; B1839 and B1841 price c continuous in [1/3, 5]; on order-5 lines c is the Georgi-Jarlskog factor between the down and lepton ratios (P-706, P-355) (re-typed CHOSEN -> FITTED at S305j)",
      "feeds": [
@@ -340,7 +317,7 @@
      "same_as": "B10"
     }
    ],
-   "status": "a level-1 READING (B1841 PROVED as sealed; B1839 NEGATIVE): the six reach chi2 4.73 at E4, but on its order-5 line the leptons are the down sector (Y_e ∝ Y_d^T) and the frame's quark four alone are not specific (9.2%; P-706); the CKM four are not claimed at this row (untested there, and never at one address with the six, P-555); the held-out targets are HELD by the owner (P-709)"
+   "status": "a level-1 READING (B1841 PROVED as sealed; B1839 NEGATIVE): the six pass the screen at E4, but on its order-5 line the leptons are the down sector (Y_e ∝ Y_d^T) and the frame's quark four alone are not specific (about a tenth of random hierarchies do as well; P-706); the CKM four are not claimed at this row (untested there, and never at one address with the six, P-555); the held-out targets are HELD by the owner (P-709)"
   },
   "B": {
    "name": "the agy lane's complete picture: its master scorecard, Route A, at 18c607040",
@@ -717,7 +694,7 @@
       22
      ],
      "register": "P-402",
-     "same_as": "A06"
+     "same_as": "A07"
     },
     {
      "id": "B08",

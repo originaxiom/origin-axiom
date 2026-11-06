@@ -106,4 +106,13 @@ def test_review_tools_render_carries_the_core_lines():
 def test_the_waiver_file_exists_with_the_grammar_and_no_live_waiver():
     w = open(os.path.join(ROOT, gates.REVIEW_WAIVER)).read()
     assert "- waived <YYYY-MM-DD> by the owner through <N> merges: <reason>" in w
-    assert gates.review_waiver_covers(40, w) is False
+    assert gates.review_waiver_covers(40, w, since=gates.review_anchor_date()) is False
+
+
+def test_a_waiver_covers_only_its_own_window():
+    # Review 75 (B1844): a waiver dated before the last anchor has expired; one dated on or after it covers
+    w = "- waived 2026-11-05 by the owner through 60 merges: planted\n"
+    assert gates.review_waiver_covers(40, w) is True
+    assert gates.review_waiver_covers(40, w, since="2026-11-06") is False
+    assert gates.review_waiver_covers(40, w, since="2026-11-05") is True
+    assert gates.review_waiver_covers(60, w, since="2026-11-05") is False

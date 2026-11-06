@@ -18520,3 +18520,11 @@ The object's own monodromy, read at its own prime 5, fixes exactly two lines, an
 the principled end is one of them. The candidate excursion, made to agree with the object at that level, keeps the
 object's line and its Re τ and only rises in height. What is still chosen: that there is one excursion, that the frame is
 read at its top, and which hand. The energy scale is still out of reach: the object has no units. 0 of 19.
+
+## 2026-11-06 — Review 75: the decadal review
+
+The review read five of the window's arcs in full and found them sound, with three notes. One said "verified" over an
+empty section; the verification was on record elsewhere, and the section is now filled. It closed or carried every item
+from the last review. It sealed the firewall ranges still owed from yesterday. It removed a double count from the
+candidate's inputs, which is now 13, not 14. It adopted the count of what the record has and has not earned. Its five new
+practices start with one main needed tonight: sweep before calling anything new, in conversation too. 0 of 19.

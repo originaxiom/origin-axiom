@@ -1158,5 +1158,125 @@
   "lines": "830-831",
   "sha256": "c20a2dc66da07299c1a9e121a2754246c44e531666b237bb3f93473703e5fb21",
   "bytes": 514
+ },
+ {
+  "what": "toe_closure.py 18129-18217 at 08e98b516 (S305f-S305i readers' list: Stages 16-18, held-out-class literals; sealed at Review 75)",
+  "rev": "08e98b516",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "18129-18217",
+  "sha256": "2b230d7bf93655be57890a0b30184cfe9bfc09e57e3df04924d32b6327b06b4d",
+  "bytes": 3647
+ },
+ {
+  "what": "toe_closure.py 18233-18246 at 08e98b516 (S305f-S305i readers' list: Stages 16-18, held-out-class literals; sealed at Review 75)",
+  "rev": "08e98b516",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "18233-18246",
+  "sha256": "4652f0997dccaf3a909447b68fdbb82300280f8a193576702261978021d847a9",
+  "bytes": 1495
+ },
+ {
+  "what": "toe_closure.py 18632-18885 at 08e98b516 (S305f-S305i readers' list: Stages 16-18, held-out-class literals; sealed at Review 75)",
+  "rev": "08e98b516",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "18632-18885",
+  "sha256": "7fda71497683287dc2f26f8dee355ec84096c5c239f8cef005bb43006520f61d",
+  "bytes": 15189
+ },
+ {
+  "what": "toe_closure.py 19898-19903 at 08e98b516 (S305f-S305i readers' list: Stages 16-18, held-out-class literals; sealed at Review 75)",
+  "rev": "08e98b516",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "19898-19903",
+  "sha256": "6d0afe7395f1fa123c29f1ec63ed31f32e0068d97c8e8ab9fc4c4cc8cea81931",
+  "bytes": 334
+ },
+ {
+  "what": "toe_closure.py 17998-18001 at 08e98b516 (S305f-S305i readers' list: Stages 16-18, held-out-class literals; sealed at Review 75)",
+  "rev": "08e98b516",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "17998-18001",
+  "sha256": "5aadd70b88c7c77d3fc1240e75e9beac7a5cb4a0e0cb94a81dd5d4504c4bcc3c",
+  "bytes": 235
+ },
+ {
+  "what": "toe_closure.py 18039-18042 at 08e98b516 (S305f-S305i readers' list: Stages 16-18, held-out-class literals; sealed at Review 75)",
+  "rev": "08e98b516",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "18039-18042",
+  "sha256": "9525cb5a82765f6cbeb350b7294749daf8e8026858ccbf688702a056d6be86a2",
+  "bytes": 223
+ },
+ {
+  "what": "toe_closure.py 18902-18909 at 08e98b516 (S305f-S305i readers' list: Stages 16-18, held-out-class literals; sealed at Review 75)",
+  "rev": "08e98b516",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "18902-18909",
+  "sha256": "7a1d542557713d1814a7d6ba99f98de0b6a1a74b27b824e20c0aa7c378e2fa17",
+  "bytes": 942
+ },
+ {
+  "what": "toe_closure.py 18980-19001 at 08e98b516 (S305f-S305i readers' list: Stages 16-18, held-out-class literals; sealed at Review 75)",
+  "rev": "08e98b516",
+  "path": "src/origin_axiom/toe_closure.py",
+  "lines": "18980-19001",
+  "sha256": "f4c32b44b08002e64b3b4206786a9fa1fd72a6ea844017b6c04875f3b65c8e05",
+  "bytes": 1102
+ },
+ {
+  "what": "test_elevation_operator_gate.py 1915-1915 at 08e98b516 (S305f-S305i readers' list: Stages 16-18, held-out-class literals; sealed at Review 75)",
+  "rev": "08e98b516",
+  "path": "tests/test_elevation_operator_gate.py",
+  "lines": "1915-1915",
+  "sha256": "429c481d9566eece02194b7342518f848781224e3b1889e45ac34b4b250a2558",
+  "bytes": 69
+ },
+ {
+  "what": "test_elevation_operator_gate.py 2101-2101 at 08e98b516 (S305f-S305i readers' list: Stages 16-18, held-out-class literals; sealed at Review 75)",
+  "rev": "08e98b516",
+  "path": "tests/test_elevation_operator_gate.py",
+  "lines": "2101-2101",
+  "sha256": "40c267a44c04cf1f9067a627f13fc8616e9f0c1c1cdce015da3f7be0901d99a0",
+  "bytes": 123
+ },
+ {
+  "what": "test_elevation_operator_gate.py 2107-2107 at 08e98b516 (S305f-S305i readers' list: Stages 16-18, held-out-class literals; sealed at Review 75)",
+  "rev": "08e98b516",
+  "path": "tests/test_elevation_operator_gate.py",
+  "lines": "2107-2107",
+  "sha256": "ce8f7568ecb0f103f3a73042b260d61e98b10b3a8d9e61fdd01abbeb5006115b",
+  "bytes": 83
+ },
+ {
+  "what": "test_elevation_operator_gate.py 2167-2167 at 08e98b516 (S305f-S305i readers' list: Stages 16-18, held-out-class literals; sealed at Review 75)",
+  "rev": "08e98b516",
+  "path": "tests/test_elevation_operator_gate.py",
+  "lines": "2167-2167",
+  "sha256": "c13c6cd88675877900c4ceae34e7744fe8ee6c74e377f8c36558f69d77f79175",
+  "bytes": 136
+ },
+ {
+  "what": "test_elevation_operator_gate.py 2171-2171 at 08e98b516 (S305f-S305i readers' list: Stages 16-18, held-out-class literals; sealed at Review 75)",
+  "rev": "08e98b516",
+  "path": "tests/test_elevation_operator_gate.py",
+  "lines": "2171-2171",
+  "sha256": "4e4e88a033c8361f0aea5fa454fe4c9105d2127ea5c97edc04ce34bcd098d26c",
+  "bytes": 130
+ },
+ {
+  "what": "test_elevation_operator_gate.py 2179-2179 at 08e98b516 (S305f-S305i readers' list: Stages 16-18, held-out-class literals; sealed at Review 75)",
+  "rev": "08e98b516",
+  "path": "tests/test_elevation_operator_gate.py",
+  "lines": "2179-2179",
+  "sha256": "ba495984ce17360b7f0f6b3256fcd40e78b7f48f9f87474f887c6e366a522846",
+  "bytes": 53
+ },
+ {
+  "what": "AGY_TO_ALL_SEATS_2026-11-03_SIX_STAGE_BULLETPROOF_ROAD_PLAN_THEOREM_15_AND_4B91B9BE7_CLEANUP.md 842-984 at 08e98b516 (S305f-S305i readers' list: Stages 16-18, held-out-class literals; sealed at Review 75)",
+  "rev": "08e98b516",
+  "path": "relays/AGY_TO_ALL_SEATS_2026-11-03_SIX_STAGE_BULLETPROOF_ROAD_PLAN_THEOREM_15_AND_4B91B9BE7_CLEANUP.md",
+  "lines": "842-984",
+  "sha256": "ba538042cc53a4c61c401df91059d1f5c882ab9104e5b2b22fd004faecc6a603",
+  "bytes": 29497
  }
 ]

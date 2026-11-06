@@ -1,5 +1,14 @@
 # Changelog
 
+## REVIEW 75 (B1844): THE END CARDS READ AND DECOMPOSED, THE TARGETS HELD, THE BANG PROGRAMME OPENED, A PROCESS SOUGHT (2026-11-06)
+
+- **The owner:** 'Run it now' (60 merges, the waiver's limit). The block is in docs/progress/REVIEWS.md; the process arc is B1844.
+- **Read in full, seeded by 41420ae14:** B1834, B1836, B1838 by a reader, and B1839, B1841 by main. All hold. Three notes were verified at source and applied as dated notes: B1836's unfilled § 2 (the doublet index), filled from harvest row 1557; B1834's moved counts; B1838's stale 'next'.
+- **The loop:** four of Review 74's items resolved, one declined at its third carry, five carried (R75-1 to R75-5).
+- **The seals:** B1839's corrected E2 pin re-confirmed (f4cb6a98…). Its promised input-hash re-check was done here, unchanged. The Stage 16–18 held-out-class ranges were sealed by hash (145 → 160).
+- **The rulings:** P-707 (A06 merged into A07; frame A 14 → 13 borrowed joints, a double count removed); P-708 (the order adopted; the six retired as a decisive cell); P-611 DONE; THE COUNT adopted (docs/THE_COUNT_2026-11-06.md). Five practices adopted, the first extending the seen-first sweep to chat (E54 ×4).
+- **Next:** R75-6 (P-717's read-out, P-455's period average first), R75-7 (the scale wall re-audited, the owner's 'Test the wall'), R75-8, R75-9. None promoted. 0 of 19.
+
 ## S305o THE LINE IS THE OBJECT'S OWN; THE EXCURSION INHERITS IT (P-717, P-718; 2026-11-06)
 
 - **Level 5 is the object's own:** LR's discriminant is 3² − 4 = 5, so LR ≡ −(unipotent) mod 5, of order 5 in A₅ (computed). The ladder's end and the monodromy's ramified prime coincide. P-717's wording is corrected: the whole run L⁵ is one primitive cusp loop of Γ(5).

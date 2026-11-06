@@ -18,7 +18,9 @@ def test_the_headline_counts_are_the_checkers():
     line = _run().stdout
     assert "0 of 19 earned" in line and "identification price 13" in line
     # 2026-11-04 (S301, B1836): B47's torsion verified on main (VERIFIED-BY-MAIN), frame B 45 -> 44
-    assert "10 rows claimed, 14 borrowed joints" in line and "23 rows claimed, 44 borrowed joints" in line
+    # 2026-11-06 (Review 75, B1844): frame A re-read at B1841's row -- it claims the six only (S305j: the CKM four untested
+    # there) and A06 merged into A07 (P-707: a double count removed), so 10 -> 6 rows and 14 -> 13 joints
+    assert "6 rows claimed, 13 borrowed joints" in line and "23 rows claimed, 44 borrowed joints" in line
 
 
 def test_no_value_is_recorded():

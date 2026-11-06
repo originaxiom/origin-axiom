@@ -15362,6 +15362,7 @@
    ],
    "refs": [
     "B03",
+    "B05",
     "B08",
     "B47",
     "K0",
@@ -15430,14 +15431,17 @@
   },
   "B1839": {
    "slug": "the end card",
-   "motifs": [],
+   "motifs": [
+    "figure_eight",
+    "wrt_quantum"
+   ],
    "refs": [
     "P1"
    ],
    "obstacle": "measure",
    "obstacle_conf": 2,
    "status": "banked",
-   "domain": "dynamics"
+   "domain": "topology"
   },
   "B183": {
    "slug": "open collective arrow",
@@ -15480,7 +15484,7 @@
     "P1"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 1,
+   "obstacle_conf": 2,
    "status": "banked",
    "domain": "topology"
   },
@@ -15492,6 +15496,18 @@
    "obstacle_conf": 5,
    "status": "open",
    "domain": "dynamics"
+  },
+  "B1844": {
+   "slug": "review 75 the decadal review",
+   "motifs": [
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
   },
   "B184": {
    "slug": "symmetry gauge door",
