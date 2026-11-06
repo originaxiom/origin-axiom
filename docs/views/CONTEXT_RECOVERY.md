@@ -18,8 +18,8 @@
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 722 |
-| … QUEUED | 298 |
+| register points | 723 |
+| … QUEUED | 299 |
 | … LEAD | 9 |
 | … OWNER | 4 |
 | … DONE | 400 |
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S305u THE HYPERBOLIC METRIC'S OWN READ-OUT (P-723; 2026-11-06)
 - S305t THE SEATS FETCHED AGAIN; THE CANDIDATE REFEREED; THE SCALE QUESTION (2026-11-06)
 - S305s THE OBJECT-NATIVE LEVEL (P-721; the owner: 'Seek object-native') (2026-11-06)
 - S305r THE READ-OUT MAY BE THE RECORD'S OWN KÄHLER WEIGHT (P-720; 2026-11-06)
@@ -63,11 +64,10 @@
 - S305p THE SCALE WALL TESTED (R75-7, P-719; the owner: 'Test the wall') (2026-11-06)
 - S305o THE LINE IS THE OBJECT'S OWN; THE EXCURSION INHERITS IT (P-717, P-718; 2026-11-06)
 - S305n P-717'S CONTROL AND P-715'S WALL (2026-11-06)
-- S305m THE GOAL SET: A PROCESS THAT PLACES τ, THE LINE AND AN ENERGY SCALE; THE FAREY TRANSITION PLACES NOTHING; ONE CANDIDATE, P-717 (2026-11-06)
 
 ## The latest campaign line
 
-LATEST (2026-11-06, S305t: the web seat's referee verified — P-717's cleaner reading τ* = i√5·φ with the line {±(1/5,0), ±(2/5,0)}; least action does not select it; the line is one bit; P-720 negative (coupling weight 1); P-722 — the scale is a coupling read through running, the M_Z expectation questioned. 0 of 19.)
+LATEST (2026-11-06, S305u: P-723 — the excursion's layered tetrahedra converge to canonical shapes (heights 2.146, 2.459) that do not coincide with the apex τ*; a second object-native τ candidate with its own read-out choice. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
