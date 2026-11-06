@@ -18579,3 +18579,10 @@ The web seat found the principle its first test missed. If a departure must be i
 not only to the line, then the cheapest one is exactly the single deep excursion, and it is unique. So one rule now
 supplies both "one departure" and how deep it goes. The rule was found after a first test failed, and choosing the
 symmetry over the line is itself a choice, so it is recorded as post hoc. 0 of 19.
+
+## 2026-11-06 — S305y: one level, two routes
+
+Two seats, by different arguments, put the object's level at five, which is also where its line lives and where the
+excursion that places τ becomes the run of six. The SM seat noticed that the line's two remaining points carry opposite
+phases, so the line's last choice may be the same hand the record already counts. Main's own new tool for reading the
+excursion's layers passed its test on known surfaces, after the test itself caught a sign error. 0 of 19.
