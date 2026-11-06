@@ -1,5 +1,16 @@
 # Changelog
 
+## S305y THE REPO FETCHED; ONE LEVEL FROM TWO SEATS; THE LINE'S LAST BIT A CHIRAL PAIR; STAGE C VALIDATED (2026-11-06)
+
+- **The owner:** 'fetch the repo and always verify integrity of your comoutations' (a standing rule, saved).
+- **The web seat's 'one process, one level', re-run on main identically.** Twisted fixed points exist only for 5 ∣ N, and the minimal level-N-invisible run is N + 1. Minimality gives N = 5, hence the run of 6 and τ* = i√5·φ.
+- **The SM seat's §355.** Criterion K, sealed before any value, also gives k = 5. Its side finding was verified by main: the line's two points carry opposite CS (q(2v) = −q(v) mod 5), so the line's last bit may be the record's chirality bit.
+- **The agy lane's Stage 25,** read through the mask.
+- **The pleated-layer build's stage C, validated on two Fuchsian tori:**
+  - The shears satisfy the cusp condition (sum 3e-14) once the diagonal is oriented with the sides; the first run's search had 'matched' while violating it.
+  - One fixed convention rebuilds the traces to 1e-13 in both cases.
+- Rows 1589–1592; pins sm 47228ae8, chat1 21cfbc3c, agyaudit b9618ad9. 0 of 19.
+
 ## S305v THE SEATS REFETCHED; LEAST ACTION UNDER THE RUNG'S INVISIBILITY (2026-11-06)
 
 - **The owner:** 'continue, refetch' (the goal cleared by the owner).

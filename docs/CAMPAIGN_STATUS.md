@@ -2,6 +2,8 @@
 
 > **Currency — Review 56 (2026-09-09, anchor `eb9db7fa`).** Refreshed against the 21-merge window `be6f4cab`→`eb9db7fa` (B1294–B1307: MASTERPLAN v3 Phases 0–1 and v3.1's seven harvest arcs). **Review 56's headline is a number, not a repair:** the harvest gate's first strict report — 494 seat-index ids on nine branches, **428 without a ledger row, 348 seat-branch relays without a relay row**, two seats already past main's pins — escalated by name as R56-1 with a payment order (B1306 slices B–D, newest first). 32/32 gates; LAW_MAP's second zero-advancement window (R56-2); CLAIMS.md's 129-arc lag escalated (R56-3); two E53 repairs in living surfaces (THE_SM_VERDICT, MAIN_GOAL JOIN 3); E71 minted. Full detail: `docs/progress/REVIEWS.md` (Review 56).
 
+**LATEST (2026-11-06, S305y: one level from two seats (k = 5: minimality; criterion K); the line's two points a chiral pair (q(2v) = −q(v) mod 5) — its last bit possibly the record's hand; the pleated-layer build's stage C validated on Fuchsian tori. 0 of 19.)**
+
 **LATEST (2026-11-06, S305v: least action among departures invisible to the last finite rung selects the single run of 6 uniquely (the web seat, re-run on main; post hoc) — P-717's 'one departure' and depth from one principle, τ* = i√5·φ; the agy lane concurs with P-720's negative. 0 of 19.)**
 
 **LATEST (2026-11-06, S305u: P-723 — the excursion's layered tetrahedra converge to canonical shapes (heights 2.146, 2.459) that do not coincide with the apex τ*; a second object-native τ candidate with its own read-out choice. 0 of 19.)**
