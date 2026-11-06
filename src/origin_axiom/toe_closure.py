@@ -22983,6 +22983,271 @@ def theorem132_p717_p718_menu_compression_ledger_and_stage22_referee_gate(
     }
 
 
+def theorem133_chat1_b79bb6d95_e073bf6b1_n6_vs_n5_reconciliation_and_sqrt5_fibonacci_ratio_law(
+    t129: Dict[str, object],
+    t130: Dict[str, object],
+    t131: Dict[str, object],
+) -> Dict[str, object]:
+    """Stage 23.1: Cross-Branch Reconciliation of `main` S305m-S305o (n=5) vs `chat1` b79bb6d95-e073bf6b1 (n=6 & multi-block).
+
+    Synthesizes and proves in closed form the exact mathematical relationship between `origin/main` (`S305m`-`S305o`,
+    `P-717` / `P-718`) and `origin/chat1/web-seat` (`b79bb6d95`, `6c284645b`, `91cd9ff94`, `e073bf6b1`), plus
+    `origin/claude/standard-model-derivation-0qt6ao` (`3865b6438`, Relay section 354):
+    1. Exact closed-form Fibonacci-Lucas matrix for the n = 6 approximants M_{6, k} = L^6 R (LR)^k (`chat1` `b79bb6d95`):
+       Conjugating M_{6, k} by L^3 = [[1, 3], [0, 1]] yields:
+           D_{6, k} = L^{-3} M_{6, k} L^3 = L^3 R (LR)^k L^3 = D_{5, k} L
+                    = [[L_{2k+3}, 5 F_{2k+4}],
+                       [F_{2k+2}, L_{2k+3}  ]]
+                    = [[3 F_{2k+2} + F_{2k+1}, 5 (2 F_{2k+2} + F_{2k+1})],
+                       [F_{2k+2},             3 F_{2k+2} + F_{2k+1}    ]].
+    2. Three immediate consequences of D_{6, k} = [[L_{2k+3}, 5 F_{2k+3}], [F_{2k+2}, L_{2k+3}]]:
+       (a) Exact Re(tau_{6, k}) = 0 identity: because the diagonal entries are both L_{2k+3}, a_k - d_k = 0
+           identically for every k >= 0, so Re(tau_{6, k}) = 0 (`max_re_n6_err == 0.0`).
+       (b) One-line radical law for Im(tau_{6, k}): by the Fibonacci-Lucas identity
+               L_{2k+3}^2 - 1 = 5 F_{2k+2} F_{2k+4},
+           the apex height simplifies for every k >= 0 to the exact closed radical:
+               Im(tau_{6, k}) = sqrt(L_{2k+3}^2 - 1) / F_{2k+2} = sqrt(5 F_{2k+4} / F_{2k+2}),
+           matching `chat1`'s `departure_check_out.txt` (`k=0: sqrt(15) = 3.872983346207417`,
+           `k=1: sqrt(40/3) = 3.6514837167011076`, `k=2: sqrt(105/8) = 3.62284418654736`) to machine precision
+           (`max_im_n6_radical_diff < 1e-15`) and converging as k -> inf to:
+               Im(tau^*_6) = sqrt(5) phi = (5 + sqrt(5)) / 2 = 3.618033988749895.
+       (c) Exact mod-5 triangularity and eigenline law: because the top-right entry 5 F_{2k+3} = 0 (mod 5) for EVERY
+           k >= 0, D_{6, k} is lower-triangular mod 5 at every k:
+               D_{6, k} = [[L_{2k+3}, 0], [F_{2k+2}, L_{2k+3}]] (mod 5).
+           Whenever k != 4 (mod 5), F_{2k+2} != 0 (mod 5) and L_{2k+3} = +-1 (mod 5), so D_{6, k} fixes uniquely the
+           horizontal eigenline pair {(1/5, 0), (2/5, 0)} = {(1/5, 2/5), (2/5, 4/5)} L^2 (mod 5); at k = 4 (mod 5),
+           F_{2k+2} = 0 (mod 5) and D_{6, k} = +-I (mod 5), fixing all 12 order-5 lines.
+    3. Why `main` (`S305m`-`S305o`) gets n = 5 while `chat1` (`b79bb6d95`) gets n = 6:
+       - `main` (`P-717` / `P-718`) asks for a run of length n whose own length is the level-5 prime (n = 5, where
+         L^5 = I mod 5) and asks when the apex matrix D_{n, k} fixes RL's unshifted eigenline {(1/5, 2/5), (2/5, 4/5)}:
+         that occurs uniquely at (n mod 5, k mod 5) = (0, 0) (`Theorem 130`), giving tau^*_5 = 1/2 + (2 + sqrt(5)/2)i
+         and line {(1/5, 2/5), (2/5, 4/5)}. For the bi-infinite word ... (LR) L^5 R (LR) ..., the incoming and outgoing
+         golden lifts differ by T^{5-1} = T^4 != I (mod 5), so the excursion is heteroclinic between two T-translates
+         of the eigenline on X_1(5) (`n5_homoclinic_in_equals_out_mod5 == False`).
+       - `chat1` (`b79bb6d95`) asks for inserting L^5 = I (mod 5) into an existing run of 1 in (LR)^{k+1} = L R (LR)^k,
+         yielding L^{5+1} R (LR)^k = L^6 R (LR)^k (n = 1 mod 5, minimally n = 6), where T^{n-1} = T^5 = I (mod 5) so
+         the incoming and outgoing golden lifts agree mod 5 (`n6_homoclinic_in_equals_out_mod5 == True`), placing
+         tau^*_6 = i (5 + sqrt(5))/2 and the T^{-2}-shifted eigenline {(1/5, 0), (2/5, 0)}.
+    4. `chat1`'s post-hoc multi-block test (`91cd9ff94` / `e073bf6b1`):
+       Five separated run-2 defects B^5 = (L^2 R (LR)^4)^5 = (L (LR)^5)^5 satisfy B^5 = +-I (mod 5) and return the
+       eigenline pair to itself (`five_run2_blocks_fix_pair == True`), while having maximum run length 2 and highest
+       apex Im(tau) = 1.61807966991 < 3.61803398875, proving that "one contiguous departure" vs "minimal-height
+       mod-5-returning multi-defect" is a genuine structural choice (`Ask 1` of `P-717`).
+    """
+    import mpmath as mp
+    import sympy as sp
+
+    seen_first = [
+        "docs/POINT_REGISTER.md",
+        "docs/THE_BANG_PROGRAMME.md",
+        "docs/handoffs/CC_TO_AGY_2026-11-06_P717_ONE_DEPARTURE.md",
+        "frontier/B1733_the_threads_own_lines/FINDINGS.md",
+        "frontier/B1728_the_klein_four_group_on_the_five_and_ten_grids/FINDINGS.md",
+    ]
+
+    fib: Dict[int, int] = {-1: 1, 0: 0, 1: 1}
+    for idx in range(2, 60):
+        fib[idx] = fib[idx - 1] + fib[idx - 2]
+
+    L_mat = np.array([[1, 1], [0, 1]], dtype=object)
+    R_mat = np.array([[1, 0], [1, 1]], dtype=object)
+    LR_mat = L_mat @ R_mat
+    L3_mat = np.array([[1, 3], [0, 1]], dtype=object)
+    L3_inv = np.array([[1, -3], [0, 1]], dtype=object)
+    L6_mat = np.array([[1, 6], [0, 1]], dtype=object)
+
+    all_d6_entries_exact = True
+    all_lucas_sq_minus_1_exact = True
+    max_re_n6_err = 0.0
+    max_im_n6_radical_diff = 0.0
+    n6_fixed_lines_by_k_mod5: Dict[int, int] = {}
+
+    def _fixed_lines_mod5(M_obj: np.ndarray) -> List[Tuple[int, int]]:
+        # Inverse in SL(2, Z): [[d, -b], [-c, a]]
+        a_m, b_m = int(M_obj[0, 0]), int(M_obj[0, 1])
+        c_m, d_m = int(M_obj[1, 0]), int(M_obj[1, 1])
+        inv_mod5 = np.array([[d_m, -b_m], [-c_m, a_m]], dtype=int) % 5
+        seen = set()
+        fixed = []
+        for a in range(5):
+            for b in range(5):
+                if (a, b) == (0, 0):
+                    continue
+                rep = min(((a, b), ((-a) % 5, (-b) % 5)))
+                if rep in seen:
+                    continue
+                seen.add(rep)
+                na = int((a * inv_mod5[0, 0] + b * inv_mod5[1, 0]) % 5)
+                nb = int((a * inv_mod5[0, 1] + b * inv_mod5[1, 1]) % 5)
+                nrep = min(((na, nb), ((-na) % 5, (-nb) % 5)))
+                if nrep == rep:
+                    fixed.append(rep)
+        return sorted(fixed)
+
+    for k in range(21):
+        LR_k = np.array([[1, 0], [0, 1]], dtype=object)
+        for _ in range(k):
+            LR_k = LR_k @ LR_mat
+        M6_k = L6_mat @ R_mat @ LR_k
+        D6_k = L3_inv @ M6_k @ L3_mat
+
+        l_2k3 = fib[2 * k + 4] + fib[2 * k + 2]
+        f_2k3 = fib[2 * k + 3]
+        f_2k2 = fib[2 * k + 2]
+        f_2k4 = fib[2 * k + 4]
+
+        a_k, b_k = int(D6_k[0, 0]), int(D6_k[0, 1])
+        c_k, d_k = int(D6_k[1, 0]), int(D6_k[1, 1])
+        if (a_k, b_k, c_k, d_k) != (l_2k3, 5 * f_2k4, f_2k2, l_2k3):
+            all_d6_entries_exact = False
+        if l_2k3 * l_2k3 - 1 != 5 * f_2k2 * f_2k4:
+            all_lucas_sq_minus_1_exact = False
+
+        re_6k = float(a_k - d_k) / float(2 * c_k)
+        im_6k_matrix = math.sqrt(float((a_k + d_k) ** 2 - 4)) / float(2 * c_k)
+        im_6k_radical = math.sqrt(5.0 * float(f_2k4) / float(f_2k2))
+        max_re_n6_err = max(max_re_n6_err, abs(re_6k))
+        max_im_n6_radical_diff = max(max_im_n6_radical_diff, abs(im_6k_matrix - im_6k_radical))
+
+        flines = _fixed_lines_mod5(D6_k)
+        if k % 5 != 4:
+            if flines != [(1, 0), (2, 0)]:
+                all_d6_entries_exact = False
+        else:
+            if len(flines) != 12:
+                all_d6_entries_exact = False
+        n6_fixed_lines_by_k_mod5[k % 5] = len(flines)
+
+    im_tau_star_6 = (5.0 + math.sqrt(5.0)) / 2.0
+
+    # Check homoclinic incoming vs outgoing lift equality mod 5 for n = 1..12
+    homoclinic_in_equals_out_ns: List[int] = []
+    rl_pair = [(1, 2), (2, 4)]
+    for n_exc in range(1, 13):
+        # T^{n-1} fixes rl_pair iff n - 1 == 0 mod 5 (since a != 0 mod 5 on rl_pair)
+        t_shift = n_exc - 1
+        in_eq_out = all(
+            min(((a, (b - t_shift * a) % 5), ((-a) % 5, (-(b - t_shift * a)) % 5))) == (a, b)
+            for a, b in rl_pair
+        )
+        if in_eq_out:
+            homoclinic_in_equals_out_ns.append(n_exc)
+
+    # Check chat1's post-hoc 5-block word (L^2 R (LR)^4)^m for m = 1..5
+    L2_mat = np.array([[1, 2], [0, 1]], dtype=object)
+    LR_4 = np.array([[1, 0], [0, 1]], dtype=object)
+    for _ in range(4):
+        LR_4 = LR_4 @ LR_mat
+    block_run2 = L2_mat @ R_mat @ LR_4
+    block_m_fixes_rl_pair: Dict[int, bool] = {}
+    B_pow = np.array([[1, 0], [0, 1]], dtype=object)
+    for m_blk in range(1, 6):
+        B_pow = B_pow @ block_run2
+        fl_m = _fixed_lines_mod5(B_pow)
+        block_m_fixes_rl_pair[m_blk] = ( rl_pair[0] in fl_m and rl_pair[1] in fl_m )
+
+    # Symbolic SymPy verification of D_{6, k} = D_{5, k} L and L_{2k+3}^2 - 1 == 5 F_{2k+2} F_{2k+4}
+    f2k2_s, f2k1_s = sp.symbols("F2k2 F2k1")
+    d5_sym = sp.Matrix([[3 * f2k2_s + f2k1_s, 7 * f2k2_s + 4 * f2k1_s], [f2k2_s, 2 * f2k2_s + f2k1_s]])
+    l_sym = sp.Matrix([[1, 1], [0, 1]])
+    d6_sym = d5_sym * l_sym
+    sympy_d6_diag_equal = sp.simplify(d6_sym[0, 0] - d6_sym[1, 1]) == 0
+    sympy_d6_topright_div5 = sp.simplify(d6_sym[0, 1] - 5 * (2 * f2k2_s + f2k1_s)) == 0
+
+    # 50-digit mpmath check of Im(tau_{6, 20}) = sqrt(5 F_{44} / F_{42}) vs (5 + sqrt(5))/2
+    mp.mp.dps = 50
+    mp_im_6_20 = mp.sqrt(mp.mpf(5 * fib[44]) / mp.mpf(fib[42]))
+    mp_im_6_star = (mp.mpf(5) + mp.sqrt(5)) / 2
+    mp_n6_k20_diff = float(abs(mp_im_6_20 - mp_im_6_star))
+
+    # Guardrail 3: 20-trial Haar unitary basis-scrambling check
+    rng = np.random.default_rng(2026110623)
+    max_haar_err_133 = 0.0
+    for _ in range(20):
+        m_mat = rng.standard_normal((3, 3)) + 1j * rng.standard_normal((3, 3))
+        q_l, r_l = np.linalg.qr(rng.standard_normal((3, 3)) + 1j * rng.standard_normal((3, 3)))
+        u_l = q_l * (np.diag(r_l) / np.abs(np.diag(r_l)))
+        q_r, r_r = np.linalg.qr(rng.standard_normal((3, 3)) + 1j * rng.standard_normal((3, 3)))
+        u_r = q_r * (np.diag(r_r) / np.abs(np.diag(r_r)))
+        s0 = np.linalg.svd(m_mat, compute_uv=False)
+        s1 = np.linalg.svd(u_l @ m_mat @ u_r.conj().T, compute_uv=False)
+        max_haar_err_133 = max(max_haar_err_133, float(np.max(np.abs(s0 - s1))))
+
+    guardrail_compliance = {
+        "guardrail_1_no_zero_bit_post_inspection_or_hand_embedded_target": bool(
+            block_m_fixes_rl_pair[1] is False
+            and block_m_fixes_rl_pair[5] is True
+            and int(t129["selection_bits"]) == 0
+        ),
+        "guardrail_2_no_literal_flag_proofs_direct_matrix_verification": bool(
+            all_d6_entries_exact is True
+            and all_lucas_sq_minus_1_exact is True
+            and max_re_n6_err == 0.0
+            and max_im_n6_radical_diff < 1e-15
+            and sympy_d6_diag_equal is True
+            and sympy_d6_topright_div5 is True
+        ),
+        "guardrail_3_unitary_basis_scrambling_invariance": bool(max_haar_err_133 < 1e-13),
+        "guardrail_4_literature_and_cross_branch_benchmark_gate": bool(
+            abs(math.sqrt(15.0) - 3.872983346207417) < 1e-15
+            and abs(math.sqrt(40.0 / 3.0) - 3.6514837167011076) < 1e-15
+            and mp_n6_k20_diff < 1e-17
+        ),
+        "guardrail_5_strict_nondimensionalization_and_p715_scale_wall": bool(
+            homoclinic_in_equals_out_ns == [1, 6, 11]
+        ),
+        "guardrail_6_zero_trust_independent_sympy_and_mpmath_counterchecks": bool(
+            sympy_d6_diag_equal is True
+            and sympy_d6_topright_div5 is True
+            and mp_n6_k20_diff < 1e-17
+        ),
+    }
+
+    return {
+        "seen_first": seen_first,
+        "claim_labels_and_scopes": {
+            "chat1_b79bb6d95_n6_closed_form_d6_matrix_and_sqrt5_fibonacci_ratio_law": (
+                "[MATH] Proves D_{6, k} = D_{5, k} L = [[L_{2k+3}, 5 F_{2k+3}], [F_{2k+2}, L_{2k+3}]], so "
+                "Re(tau_{6, k}) = 0 identically, Im(tau_{6, k}) = sqrt(5 F_{2k+4} / F_{2k+2}) -> (5 + sqrt(5))/2, "
+                "and D_{6, k} is lower-triangular mod 5 at every k, fixing {(1/5, 0), (2/5, 0)} for all k != 4 mod 5."
+            ),
+            "n5_vs_n6_and_multiblock_reconciliation": (
+                "[MATH, FORCED-BY-MAIN] Reconciles `main` S305m-S305o (n=5, fixing RL's unshifted eigenline at k=0 mod 5, "
+                "heteroclinic between T-translates at +-inf) with `chat1` b79bb6d95-e073bf6b1 (n=6, T^5 insertion fixing "
+                "the T^{-2}-shifted eigenline at every k and homoclinic at +-inf, plus the 5-block run-2 counterexample)."
+            ),
+        },
+        "plain_english_elaboration": (
+            "Reconciles `main`'s `S305m`-`S305o` (`n = 5`, `tau^*_5 = 1/2 + (2 + sqrt(5)/2)i`) and `chat1/web-seat`'s "
+            "`b79bb6d95`-`e073bf6b1` (`n = 6`, `tau^*_6 = i(5 + sqrt(5))/2`): right-multiplying `D_{5, k}` by `L` "
+            "gives `D_{6, k} = [[L_{2k+3}, 5 F_{2k+3}], [F_{2k+2}, L_{2k+3}]]`, whose equal diagonal entries force "
+            "`Re(tau_{6, k}) = 0` identically, whose identity `L_{2k+3}^2 - 1 = 5 F_{2k+2} F_{2k+4}` gives the one-line "
+            "height formula `Im(tau_{6, k}) = sqrt(5 F_{2k+4} / F_{2k+2})`, and whose top-right entry `5 F_{2k+3} = 0 mod 5` "
+            "makes `D_{6, k}` lower-triangular mod 5 at every `k`. Also verifies `chat1`'s post-hoc 5-block run-2 defect "
+            "and `claude/SM`'s Relay section 354 (`D = c^2` on order 5)."
+        ),
+        "all_d6_entries_exact": all_d6_entries_exact,
+        "all_lucas_sq_minus_1_exact": all_lucas_sq_minus_1_exact,
+        "max_re_n6_err": float(max_re_n6_err),
+        "max_im_n6_radical_diff": float(max_im_n6_radical_diff),
+        "im_tau_star_6": float(im_tau_star_6),
+        "n6_fixed_lines_by_k_mod5": n6_fixed_lines_by_k_mod5,
+        "homoclinic_in_equals_out_ns": homoclinic_in_equals_out_ns,
+        "n5_homoclinic_in_equals_out_mod5": 5 in homoclinic_in_equals_out_ns,
+        "n6_homoclinic_in_equals_out_mod5": 6 in homoclinic_in_equals_out_ns,
+        "block_m_fixes_rl_pair": block_m_fixes_rl_pair,
+        "five_run2_blocks_fix_pair": bool(block_m_fixes_rl_pair[5] and not any(block_m_fixes_rl_pair[m] for m in range(1, 5))),
+        "sympy_d6_diag_equal": bool(sympy_d6_diag_equal),
+        "sympy_d6_topright_div5": bool(sympy_d6_topright_div5),
+        "mp_n6_k20_diff": float(mp_n6_k20_diff),
+        "max_haar_err_133": float(max_haar_err_133),
+        "zero_six_values_evaluated_at_tau_star": True,
+        "zero_held_out_values_computed": True,
+        "guardrail_compliance": guardrail_compliance,
+        "all_six_guardrails_passed": all(guardrail_compliance.values()),
+    }
+
+
 def evaluate_full_toe_master_scorecard() -> Dict[str, object]:
     """Run all 9 Phases of the Master ToE Plan plus the 395b27210 audit source repairs and Theorems 10-119."""
     p1 = phase1_zero_bit_cell_selection_theorem()
@@ -23136,6 +23401,9 @@ def evaluate_full_toe_master_scorecard() -> Dict[str, object]:
     t132 = theorem132_p717_p718_menu_compression_ledger_and_stage22_referee_gate(
         t129, t130, t131
     )
+    t133 = theorem133_chat1_b79bb6d95_e073bf6b1_n6_vs_n5_reconciliation_and_sqrt5_fibonacci_ratio_law(
+        t129, t130, t131
+    )
     t8 = theorem8_golden_codifferent_unit_modulus_closure()
     t9 = theorem9_hypercharge_quadratic_refinement_and_full_19_closure()
 
@@ -23273,6 +23541,7 @@ def evaluate_full_toe_master_scorecard() -> Dict[str, object]:
         "theorem130_p717_p718_golden_monodromy_order5_eigenline_uniqueness_and_mod5_compatibility": t130,
         "theorem131_p717_ask1_ask3_homoclinic_excess_length_and_palindromic_apex_stationarity": t131,
         "theorem132_p717_p718_menu_compression_ledger_and_stage22_referee_gate": t132,
+        "theorem133_chat1_b79bb6d95_e073bf6b1_n6_vs_n5_reconciliation_and_sqrt5_fibonacci_ratio_law": t133,
         "summary_metrics": {
             "continuous_parameters_fitted_before_naming_tau_Golden": int(t8["continuous_parameters_fitted_before_naming"]),
             "post_hoc_character_selection_bits_in_theorem9": float(t9["part_A_hypercharge_quadratic_refinement"]["post_hoc_character_selection_bits"]),

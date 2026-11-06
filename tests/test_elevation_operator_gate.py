@@ -2516,6 +2516,31 @@ def test_five_phase_master_toe_closure():
     assert t132["zero_held_out_values_computed"] is True
     assert t132["all_six_guardrails_passed"] is True
 
+    # Theorem 133 (Stage 23.1): Cross-Branch Reconciliation of main (n=5) vs chat1 (n=6 & multi-block)
+    t133 = sc["theorem133_chat1_b79bb6d95_e073bf6b1_n6_vs_n5_reconciliation_and_sqrt5_fibonacci_ratio_law"]
+    assert "frontier/B1733_the_threads_own_lines/FINDINGS.md" in t133["seen_first"]
+    assert "frontier/B1728_the_klein_four_group_on_the_five_and_ten_grids/FINDINGS.md" in t133["seen_first"]
+    assert "MATH" in t133["claim_labels_and_scopes"]["chat1_b79bb6d95_n6_closed_form_d6_matrix_and_sqrt5_fibonacci_ratio_law"]
+    assert "FORCED-BY-MAIN" in t133["claim_labels_and_scopes"]["n5_vs_n6_and_multiblock_reconciliation"]
+    assert "plain_english_elaboration" in t133
+    assert t133["all_d6_entries_exact"] is True
+    assert t133["all_lucas_sq_minus_1_exact"] is True
+    assert float(t133["max_re_n6_err"]) == 0.0
+    assert float(t133["max_im_n6_radical_diff"]) < 1e-15
+    assert abs(float(t133["im_tau_star_6"]) - 3.618033988749895) < 1e-14
+    assert t133["homoclinic_in_equals_out_ns"] == [1, 6, 11]
+    assert t133["n5_homoclinic_in_equals_out_mod5"] is False
+    assert t133["n6_homoclinic_in_equals_out_mod5"] is True
+    assert t133["five_run2_blocks_fix_pair"] is True
+    assert t133["sympy_d6_diag_equal"] is True
+    assert t133["sympy_d6_topright_div5"] is True
+    assert float(t133["mp_n6_k20_diff"]) < 1e-17
+    assert float(t133["max_haar_err_133"]) < 1e-13
+    assert t133["zero_six_values_evaluated_at_tau_star"] is True
+    assert t133["zero_held_out_values_computed"] is True
+    assert t133["all_six_guardrails_passed"] is True
+
+
 
 
 

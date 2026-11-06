@@ -1188,7 +1188,26 @@ Directly answers Ask 1 and Ask 3 of `docs/handoffs/CC_TO_AGY_2026-11-06_P717_ONE
 - **Ask 3 ("The read-out point"):** Along $\gamma_5(\theta) = \frac{1}{2} - R\sin\theta + i\,R\cos\theta$, palindromic time-reversal $\mathcal{T}(\tau) = 1 - \bar{\tau}$ maps $\gamma_5(\theta) \mapsto \gamma_5(-\theta)$ with unique fixed point $\theta = 0$ ($\tau^*$). Both $\operatorname{Im}\tau(\theta)$ (global max) and the level-5 Rogers–Ramanujan continued-fraction modulus $|R_{\text{RR}}(\gamma_5(\theta))|$ (global min `0.0198761041`, $d^2|R_{\text{RR}}|/d\theta^2 = +0.0779 > 0$) are stationary and extremal at $\theta = 0$, whereas `B1341`'s class action does not vary along a single geodesic (`b1341_action_selects_point_on_geodesic == False`).
 
 ### 4. `Theorem 132` (`theorem132_p717_p718_menu_compression_ledger_and_stage22_referee_gate`, `MATH` + `FORCED-BY-MAIN`, `0` bits)
-Audits the menu compression $223 \times 266 = 59,318 \to 1 \times 4 = 4$ (`15.856` bits $\to$ `2.0` bits, saving `13.856208` bits before touching the six mass ratios), records the `4` remaining discrete choices plus `P-715`'s scale-free wall (`B151`, `B660`, `B719`, `B811`, `B980`), and executes the Stage 22 Zero-Trust Referee Gate via SymPy symbolic Fibonacci/Cassini reduction, 50-digit `mpmath` asymptotic verification at $k = 20$ (`mp_k20_convergence_err = 8.57e-36 < 1e-33`), and 20-trial Haar unitary scrambling (`< 1e-13`).
+Audits the menu compression $223 \times 266 = 59,318 \to 1 \times 4 = 4$ (`15.856` bits $\to$ `2.0` bits, saving `13.856182` bits before touching the six mass ratios), records the `4` remaining discrete choices plus `P-715`'s scale-free wall (`B151`, `B660`, `B719`, `B811`, `B980`), and executes the Stage 22 Zero-Trust Referee Gate via SymPy symbolic Fibonacci/Cassini reduction, 50-digit `mpmath` asymptotic verification at $k = 20$ (`mp_k20_convergence_err = 8.57e-36 < 1e-33`), and 20-trial Haar unitary scrambling (`< 1e-13`).
+
+---
+
+## 31. Stage 23 (`Theorem 133`): Cross-Branch Reconciliation of `main` (`S305m–S305o`, $n=5$) vs `chat1/web-seat` (`b79bb6d95–e073bf6b1`, $n=6$ & Multi-Block)
+
+Following the fetch of `origin/chat1/web-seat` (`b79bb6d95`, `6c284645b`, `91cd9ff94`, `e073bf6b1`) and `origin/claude/standard-model-derivation-0qt6ao` (`3865b6438`, Relay §354), `Theorem 133` (`theorem133_chat1_b79bb6d95_e073bf6b1_n6_vs_n5_reconciliation_and_sqrt5_fibonacci_ratio_law`) proves in closed form why the two seats land on $n = 5$ vs $n = 6$ and how their apex matrices are related by a single right-multiplication by $L = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$:
+
+1. **Exact Closed-Form Fibonacci–Lucas Matrix for $n = 6$ ($M_{6, k} = L^6 R (LR)^k$, conjugated by $L^3$):**
+   $$D_{6, k} = L^{-3} M_{6, k} L^3 = L^3 R (LR)^k L^3 = D_{5, k}\,L = \begin{pmatrix} L_{2k+3} & 5 F_{2k+4} \\ F_{2k+2} & L_{2k+3} \end{pmatrix}.$$
+   - Because the two diagonal entries are identically equal ($a_k = d_k = L_{2k+3}$), $\operatorname{Re}\tau_{6, k} = 0$ identically for all $k \ge 0$ (`max_re_n6_err = 0.0`).
+   - By the exact identity $L_{2k+3}^2 - 1 = 5 F_{2k+2} F_{2k+4}$, the apex height simplifies for every $k \ge 0$ to the one-line radical:
+     $$\operatorname{Im}\tau_{6, k} = \frac{\sqrt{L_{2k+3}^2 - 1}}{F_{2k+2}} = \sqrt{5\,\frac{F_{2k+4}}{F_{2k+2}}} \underset{k\to\infty}{\longrightarrow} \sqrt{5}\,\phi = \frac{5 + \sqrt{5}}{2} \approx 3.618033988749895,$$
+     reproducing `chat1`'s `departure_check_out.txt` values (`k=0: \sqrt{15}`, `k=1: \sqrt{40/3}`, `k=2: \sqrt{105/8}`) to `4.44e-16`.
+   - Because the top-right entry $5 F_{2k+4} \equiv 0 \pmod 5$ for **every** $k \ge 0$, $D_{6, k} \equiv \begin{pmatrix} L_{2k+3} & 0 \\ F_{2k+2} & L_{2k+3} \end{pmatrix} \pmod 5$ is lower-triangular mod 5 at every $k$, fixing uniquely the $T^{-2}$-shifted eigenline pair $\{(1/5, 0), (2/5, 0)\}$ for all $k \not\equiv 4 \pmod 5$ (and all 12 lines at $k \equiv 4 \pmod 5$).
+2. **Exact Reconciliation of $n = 5$ (`main` `P-717`/`P-718`) vs $n = 6$ (`chat1` `b79bb6d95`):**
+   - **$n = 5$ (`main` `S305m–S305o`):** Replaces one $L$ in $(LR)^{k+1}$ by a run of length $5$ ($L^5 = I \pmod 5$, adding $n - 1 = 4$ extra $L$'s). In the $\operatorname{Re}\tau = 1/2$ apex frame, $D_{n, k}$ fixes $RL$'s unshifted eigenline $\{(1/5, 2/5), (2/5, 4/5)\}$ uniquely at $(n \bmod 5, k \bmod 5) = (0, 0)$, while on the bi-infinite path the incoming and outgoing lifts at $\mp\infty$ differ by $T^4 \not\equiv I \pmod 5$ (`n5_homoclinic_in_equals_out_mod5 == False`, heteroclinic between two $T$-translates on $X_1(5)$).
+   - **$n = 6$ (`chat1` `b79bb6d95`):** Inserts $L^5 = I \pmod 5$ *into* an existing run of $1$ in $(LR)^{k+1} = L R (LR)^k$, yielding $L^{5+1} R (LR)^k = L^6 R (LR)^k$ ($n \equiv 1 \pmod 5$), so $T^{n-1} = T^5 \equiv I \pmod 5$ and the incoming and outgoing lifts at $\mp\infty$ agree mod 5 (`n6_homoclinic_in_equals_out_mod5 == True`, `homoclinic_in_equals_out_ns == [1, 6, 11]`).
+   - **Multi-block run-2 test (`chat1` `91cd9ff94`/`e073bf6b1`):** Five separated run-2 blocks $(L^2 R (LR)^4)^5 = (L (LR)^5)^5$ also return the eigenline pair to itself mod 5 (`five_run2_blocks_fix_pair == True`) with lower apex $\operatorname{Im}\tau \approx 1.61808$, confirming that "one contiguous excursion" vs "multi-defect return" is an explicit process choice (`Ask 1` of `P-717`).
+
 
 
 
