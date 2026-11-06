@@ -1,5 +1,15 @@
 # Changelog
 
+## S306c THE OWNER'S TWO QUESTIONS ROWED; P-727 IN PROGRESS (P-728, P-729; 2026-11-06)
+
+- **P-728** (the owner: declared choices and the argument). Main's answer: partly. Declared choices do not disqualify the programme, but a fit with them proves the argument only if it compresses: more precise numbers than choices, sealed before the data are read. Today it does not: B1834's scoreboard has 6 rows against 13 borrowed joints, and P-554 finds the six do not compress. "The most logical explanation of the universe" is not a status one result can confer.
+- **P-729** (the owner: whether the big bang must be computed to get the missing dynamics). Not the whole cosmological process, which would add choices. But one part, yes: door C, the initial law, the missing premise after B1846. It is the bang programme's next item after P-727.
+- **P-727's instrument, a dated note.**
+  - **Stage A (a Fuchsian control):** passed. Known τ is recovered to < 2 × 10⁻⁴.
+  - **Stage B (m004's loop):** passed its forced checks. The symmetric level sits 0.57% above the golden Teichmüller apex.
+  - **Stage C (the excursion's tube):** failed its own checks. No number is banked; diagnosis continues.
+- FLOOR 729. 0 of 19.
+
 ## S306b THE METRIC'S READ-OUT: HARMONIC TIME (B1846; P-726, P-727; 2026-11-06)
 
 - **The owner:** 'how strong is our foundation now, and whars our weakest points worth attacking?', then 'lets craft a goal around your last message and not stop until its either achieved or proven unavhiavable'. The goal: using only the Mostow-rigid hyperbolic metric (no chosen kinetic term), is the read-out a point of the fibration circle or an average?

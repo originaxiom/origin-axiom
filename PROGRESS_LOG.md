@@ -18611,3 +18611,10 @@ couplings at. Its volume does gather where the excursion goes deepest, and more 
 place the record had found by symmetry, now ranked above its rival. Whether that moment carries the value we need, the
 shape does not yet say. 0 of 19.
 
+## 2026-11-06 — S306c: two questions, and an instrument tested
+
+The owner asked whether a theory with declared choices could still prove its point. Yes, if it predicts more than it
+assumes, and sealed in advance; it does not yet. Asked whether the big bang must be computed, main's answer was no, only
+its first law. A new instrument reads the metric's own shape of the fibre. It passed a known case and its symmetry tests
+on the golden member, and failed its own checks on the excursion, so that number waits. 0 of 19.
+
