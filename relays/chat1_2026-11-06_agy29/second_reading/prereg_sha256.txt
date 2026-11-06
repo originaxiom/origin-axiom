@@ -1,0 +1,9 @@
+f9361a0317fe1c339676ecec0a85cc4cd17dac376385490f95ecd3cd3f11e4e8  check_geometry.py
+0ad144d1d0c6ac3fbc00362485e98e85c3c35e62382b6409d44612a66bbf66ba  check_algebra.py
+recorded 2026-11-06T17:54:00Z before any run
+AMENDMENT 1 (after smoke run 1 crashed in G8 on PARI's t_VEC; header, predictions and pass rules unchanged; only the matker call wrapped in Mat()):
+3274d5af765e131c9ee6d6f99e39500bb80ec84484d7e3283ba9e29445531aed  check_geometry.py
+recorded 2026-11-06T17:54:20Z before the full run
+AMENDMENT 2 (check_algebra.py smoke hit a SyntaxError: a hyphen in a keyword name; renamed only; header, predictions and pass rules unchanged):
+721481882dbc10cb4a3e5add28892aa4818a06f2bcab316d0b8fd4aff621397d  check_algebra.py
+recorded 2026-11-06T17:57:57Z before the full run

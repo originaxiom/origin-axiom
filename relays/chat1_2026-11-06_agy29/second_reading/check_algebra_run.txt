@@ -1,0 +1,60 @@
+{
+ "A1": {
+  "max_rel_err_S_vs_minus_kC_minus_sV": 0.0,
+  "identity_holds": true,
+  "per_hand_volume_parts_cancel_max": 0.0,
+  "per_hand_cs_parts_add_to_minus_C_err": 0.0
+ },
+ "A2": {
+  "docstring_form_k_dependence_max": 1.4211288389453755e-14,
+  "k_independent_for_any_C": true,
+  "min_abs_Sprime_minus_S_when_absC_gt_1em3": 0.002177562610970994,
+  "cminus_prime_equals_minus_cplus": true
+ },
+ "A3": {
+  "GENESIS L=[[1,1],[0,1]]": {
+   "identity_at": [
+    5,
+    10
+   ],
+   "L6_mod5": [
+    [
+     1,
+     1
+    ],
+    [
+     0,
+     1
+    ]
+   ],
+   "L6_equals_L": true,
+   "L6_equals_I": false
+  },
+  "transposed [[1,0],[1,1]]": {
+   "identity_at": [
+    5,
+    10
+   ],
+   "L6_mod5": [
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     1
+    ]
+   ],
+   "L6_equals_L": true,
+   "L6_equals_I": false
+  }
+ },
+ "A4": {
+  "max_rel_err_over_random_z": 1.1307380500193993e-15,
+  "tautology": true
+ },
+ "A5": {
+  "max_rel_err": 4.909207626584872e-13,
+  "tautology": true
+ }
+}
