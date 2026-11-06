@@ -1,0 +1,7 @@
+k=0 LLLLLLR            volume 3.377597  shortest geodesic 0.179631-0.746046i
+k=1 LLLLLLRLR          volume 5.586362  shortest geodesic 0.184870-0.802102i  volume step 2.208764
+k=2 LLLLLLRLRLR        volume 7.651807  shortest geodesic 0.185200-0.813319i  volume step 2.065445
+k=3 LLLLLLRLRLRLR      volume 9.689043  shortest geodesic 0.185218-0.815658i  volume step 2.037236
+k=4 LLLLLLRLRLRLRLR    volume 11.720458  shortest geodesic 0.185218-0.816147i  volume step 2.031415
+k=5 LLLLLLRLRLRLRLRLR  volume 13.750661  shortest geodesic 0.185218-0.816250i  volume step 2.030203
+m004 volume 2.029883212819307

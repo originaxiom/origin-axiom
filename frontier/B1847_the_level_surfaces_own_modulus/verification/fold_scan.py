@@ -5,7 +5,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(HERE, "..", "..", "B1846_the_metrics_read_out", "verification"))
 from fastpull import pullback_batch
 name, s = sys.argv[1], float(sys.argv[2])
-G, H, info = pickle.load(open(os.path.join(HERE, "cache", sys.argv[3]), "rb"))
+from stage_b_surface import setup
+G, H, info, _wf = (setup("m004", 6, 0.55, 900, 6) if name == "m004" else setup(name, 12, 0.33, 9604, 7))   # rebuilds and caches if absent
 lat = G.lat
 wf = lat.w1 if lat.c1 == 0 else lat.w2
 L = abs(wf); e = wf / L; nu = 1j * e

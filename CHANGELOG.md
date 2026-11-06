@@ -1,5 +1,22 @@
 # Changelog
 
+## REVIEW 76 (B1848; S306e) — the read-out and the metric reviewed (2026-11-06)
+
+- **The owner:** 'lets do the decadal first right moment', run at a clean stop of P-727's tube. 36 commits, S305p–S306d.
+- **The loop.** R75-1, R75-2 and R75-3 were declined at their third carry; their rows stay. R75-6, R75-7 and R75-9's P-718 half were resolved. Four items are carried as R76-1 to R76-4.
+- **Every seat at its head.**
+- **The seeded arcs B1845, B1846 and B1847 were read in full by an independent reader.** All HOLD WITH NOTES; every must-fix note was verified at source and applied as a dated note.
+  - **The substantive one:** B1846's "no point read-out is forced by the metric" overstated T2. The metric's systole is a canonical point, at the tube, where its volume weight also peaks. P-726, B1846's verdict, the LAW_MAP row and the memory are corrected.
+  - **Other fixes:** B1846's Rcut-12 numbers in its verdict; `tube_lengths.py` committed; B1847's uncommitted logs, its third grid, the sphere search's output and the floor values committed; B1845's 17 % corrected to 14.9 %.
+- **Fresh-clone gates PASS at d10b05652.** The fresh-clone suite: 8 076 passed, 6 failed. Two failures are standing (B805). Four are fixed here: B1847's schema reach; the claim pool regenerated with B1213's script; B1264's census lock; the early-record index.
+- **The tables:** B1846's two laws entered in LAW_MAP.
+- **Practices:** "Review 76's practices". Errors E52, E82, E29, E93 and E11; no new class.
+- **P-727's tube.**
+  - **The method:** the fibre group's faces built from the full group, with periods computed through the monodromy, M = [[−1, −3], [8, 23]].
+  - **The result:** a preliminary −0.0015 + 6.153i passed on one grid, then failed on the convergence grid, so it is withdrawn.
+  - **Next:** the full group's own Ford domain (R76-5).
+- 0 of 19.
+
 ## S306d THE LEVEL SURFACE'S OWN MODULUS (B1847; P-727) + THE SEATS FETCHED + MAIN'S RULING ON B1012 (2026-11-06)
 
 - **B1847 (P-727, the owner's choice).** A new instrument reads the conformal modulus of a harmonic level surface from its 3D shape and its fibre group alone: three Dirichlet energies, with det E = 1 as the check.

@@ -21,9 +21,9 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.62) of 2026-11-05 |
-| arcs with a verdict | 1549: 1058 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
+| arcs with a verdict | 1550: 1059 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
 | points in the register | 729: 316 open (queued, leads, waiting for the owner), 413 closed |
-| the last review | Review 75 (2026-11-06), anchor `264fa6d98` |
+| the last review | Review 76 (2026-11-06), anchor `1eb535ecd` |
 | the last landing | S306d THE LEVEL SURFACE'S OWN MODULUS (B1847; P-727) + THE SEATS FETCHED + MAIN'S RULING ON B1012 (2026-11-06) |
 <!-- STATE:END -->
 

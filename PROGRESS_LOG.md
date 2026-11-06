@@ -18626,3 +18626,11 @@ the excursion's high point the surface twists around the thin tube and both inst
 that number is still owed. Asked to rule on which theory sets the scale, main found that they are two halves of one
 theory, and that the scale's formula, as written, is not what that theory gives at level five. 0 of 19.
 
+## 2026-11-06 — Review 76: the reader catches the big claim
+
+The decadal review sent today's three arcs to an independent reader. All three hold, and the reader caught one claim
+that went too far. Main had said the metric singles out no moment along the circle. It does single one out: its
+shortest loop, which sits exactly where the volume gathers. That strengthens the location the record had found, and the
+claim is corrected everywhere. A first value for the fibre's shape at the thin tube looked good on one grid and failed on
+a finer one, so it was withdrawn. 0 of 19.
+

@@ -41,7 +41,9 @@ def test_the_excursion_member_has_one_hump_on_its_tube():
     se = np.array(d["rho_se_rel"]) * rho                            # sigma: rho(s) = rho(-s), a chi2 on 20 dof
     chi2_sym = float(np.sum((rho[:20] - rho[::-1][:20]) ** 2 / (se[:20] ** 2 + se[::-1][:20] ** 2)))
     assert chi2_sym < 20 + 4 * math.sqrt(2 * 20)
-    assert np.abs(np.array(d["rho"]) - np.array(d["rho2"])).max() < 0.02   # two collocation heights
+    import re as _re                                                # two collocation heights (Review 76: the rho2 check was vacuous)
+    m = _re.search(r"\|phi_Y - phi_0.9Y\| over the sample: max ([0-9.e+-]+)", (HERE / "step3_exc_R12_run.txt").read_text())
+    assert m and float(m.group(1)) < 1e-8
     t = _j("step5_b++LLLLLLRLR.json")
     assert abs(((t["tube_theta"] + 0.5) % 1) - 0.5) < 1e-3 and t["tube_spread"] < 1e-3   # theta == 0 on the core
     vol = sum(r["vol_bw"] for r in t["rows"]); assert abs(vol - 5.586362) < 1e-3

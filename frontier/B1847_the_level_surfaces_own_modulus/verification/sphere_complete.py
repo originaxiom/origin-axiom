@@ -2,8 +2,8 @@
 word searches (depth 8, radius > 0.08 vs depth 10, radius > 0.03); also the axis points' own heights."""
 import sys, os, math, pickle, numpy as np
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(HERE, "..", "..", "B1846_the_metrics_read_out", "verification"))
-G, H, info = pickle.load(open(os.path.join(HERE, "cache", "setup_b++LLLLLLRLR_12_0.33_9604_7.pkl"), "rb"))
-from stage_b_surface import fibre_generators
+from stage_b_surface import fibre_generators, setup
+G, H, info, _wf = setup("b++LLLLLLRLR", 12, 0.33, 9604, 7)          # rebuilds and caches if no cache is present
 from step4_tube import shortest_loxodromic, axis_points
 lat = G.lat; wf = lat.w1 if lat.c1 == 0 else lat.w2
 x, y, Kt = fibre_generators(G, wf)

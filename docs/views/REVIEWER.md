@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1549** |
-| words of findings prose | **1,308,803** |
+| research arcs with findings | **1550** |
+| words of findings prose | **1,309,703** |
 | test lock files referenced | **932** |
-| arcs carrying an authored verdict | **1549** (100.0 %) |
+| arcs carrying an authored verdict | **1550** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1058 |
+| PROVED | 1059 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1847`** (1800 words, 0 locks)  
-THE LEVEL SURFACE'S OWN MODULUS (P-727; data-free): an instrument reading the conformal modulus of a harmonic level surface from its 3D shape and its fibre group alone -- validated on a Fuchsian control of known tau (recovered to < 2e-4 after Richardson; second order; a curved 3D-inverted copy agrees) -- gives the metric's own, fourth reading of the fibre's shape. On m004 the loop is forced at its symmetric levels (s = 0, 1/2: -1/2 + 1.12438i; s = 1/4, 3/4: i) and closes; it sits 0.57% above the golden Teichmuller apex 1/2 + (sqrt5/2)i. On the excursion member L^6RLR: the anti-apex s = 1/2 reads 1/2 + 1.5904i (Re 1/2 forced), 16% above the Teichmuller anti-apex 1/2 + sqrt(15/8) i; s = 1/4 reads -0.3722 + 1.0085i by two independent meshings. The tube level s = 0 is NOT computed: the surface folds there (a helicoid about the tube's core, which lies on a face of the fibre group's fundamental piece) and both instruments fail their own checks -- P-727 stays open for that value. 0 of 19.  
-`B1847_the_level_surfaces_own_modulus/FINDINGS.md`
+**PROVED — `B1848`** (417 words, 0 locks)  
+REVIEW 76 (the owner: 'lets do the decadal first right moment'; 36 commits, S305p-S306d): the loop closed (R75-1..3 declined at their third carry, rows kept; R75-6, R75-7 and R75-9's P-718 half resolved; four carried); every seat at its head; the seeded arcs B1845, B1846, B1847 read in full by an independent reader -- all HOLD WITH NOTES, every must-fix verified at source and applied as a dated note; the substantive one: B1846's 'no point read-out is forced by the metric' overstated T2 -- the metric's systole is a canonical point at the tube, where its volume weight also peaks (P-726 corrected); B1846's two laws entered in LAW_MAP; no new error class (E52, E82, E29, E93 instances; Review 76's practices); fresh-clone gates PASS @ d10b05652. 0 of 19.  
+`B1848_review_76_the_decadal_review/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  

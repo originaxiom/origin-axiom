@@ -15543,7 +15543,7 @@
     "B6"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 4,
+   "obstacle_conf": 6,
    "status": "banked",
    "domain": "topology"
   },
@@ -15565,6 +15565,15 @@
    "obstacle_conf": 4,
    "status": "banked",
    "domain": "topology"
+  },
+  "B1848": {
+   "slug": "review 76 the decadal review",
+   "motifs": [],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
   },
   "B184": {
    "slug": "symmetry gauge door",
