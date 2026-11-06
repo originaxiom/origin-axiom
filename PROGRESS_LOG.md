@@ -18572,3 +18572,10 @@ mass may itself have been the wrong expectation. 0 of 19.
 The object's hyperbolic structure gives every step of the excursion a definite shape, and those shapes settle down. But
 the deepest one sits lower than the point the frame reads, so the geometry does not confirm that reading; it offers its
 own, with its own choice of which step to read. 0 of 19.
+
+## 2026-11-06 — S305v: least action, read the right way
+
+The web seat found the principle its first test missed. If a departure must be invisible to the last finite symmetry,
+not only to the line, then the cheapest one is exactly the single deep excursion, and it is unique. So one rule now
+supplies both "one departure" and how deep it goes. The rule was found after a first test failed, and choosing the
+symmetry over the line is itself a choice, so it is recorded as post hoc. 0 of 19.

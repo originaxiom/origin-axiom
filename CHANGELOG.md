@@ -1,5 +1,11 @@
 # Changelog
 
+## S305v THE SEATS REFETCHED; LEAST ACTION UNDER THE RUNG'S INVISIBILITY (2026-11-06)
+
+- **The owner:** 'continue, refetch' (the goal cleared by the owner).
+- **The web seat's least-action addendum, re-run on main identically:** among departures invisible to the last finite rung (E ≡ ±I mod 5), least action selects the single run of 6 uniquely. Among line-invisible ones the shallow (2, 1, 1, 1, 2) wins. One principle thus supplies P-717's 'one departure' and its depth (τ* = i√5·φ). It is post hoc, and the choice of rung- over line-invisibility is named.
+- **The agy lane's Stage 24 (Theorems 134–136), through the mask:** it concurs with P-720's negative; the rest is owed main's check. Rows 1587–1588; pins chat1 0772952e, agyaudit a4cb3625. 0 of 19.
+
 ## S305u THE HYPERBOLIC METRIC'S OWN READ-OUT (P-723; 2026-11-06)
 
 - **The excursion's layered tetrahedra converge to canonical shapes:** run 5, height 2.146; run 6, height 2.459 (SnapPy, data-free).
