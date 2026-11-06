@@ -2324,15 +2324,116 @@ def test_five_phase_master_toe_closure():
     # Theorem 123 (Stage 20.4): Firewall-Compliant P-710 Structural Analysis for Review 75 & Stage 20 Gate
     t123 = sc["theorem123_p710_firewall_compliant_review75_design_and_stage20_referee_gate"]
     assert "docs/POINT_REGISTER.md" in t123["seen_first"]
+    assert "docs/handoffs/CC_TO_AGY_2026-11-05_STAGES_19_20_READ.md" in t123["seen_first"]
     assert "FORCED-BY-MAIN" in t123["claim_labels_and_scopes"]["p710_firewall_compliant_symbolic_order5_phase_and_review75_spec"]
     assert "MATH" in t123["claim_labels_and_scopes"]["stage20_zero_trust_hostile_referee_gate"]
     assert "plain_english_elaboration" in t123
     assert t123["unit_modulus_symbolic"] is True
     assert t123["order5_ten_b_always_even"] is True
+    assert t123["p710_closed_into_p574"] is True
     assert t123["zero_held_out_values_computed"] is True
     assert float(t123["mp_bits_saved_diff"]) < 1e-12
     assert float(t123["haar_err_123"]) < 1e-13
     assert t123["all_six_guardrails_passed"] is True
+
+    # Verify S305k updates on Theorems 115, 117, 122
+    assert t115["scope"] == "a0 == 0"
+    assert t115["a0_nonzero_control_fails"] is True
+    assert float(t115["min_a0_nonzero_rel_diff"]) > 0.04
+    assert "P. Levy (1936)" in t117["levy_1936_citation"]
+    assert t122["b1742_two_higgs_verified_on_main"] is True
+
+    # Theorem 124 (Stage 21.1): P-711 Complete 266-Line Stabilizer Census in SL(2, Z/4Z) & B1736 S4 Commutants + S305k Ask 2
+    t124 = sc["theorem124_p711_complete_266_line_stabilizer_census_in_sl2z4_and_b1736_s4_commutants"]
+    assert "B1736_the_family_group_is_the_frames_own" in t124["seen_first"]
+    assert "docs/total_inputs_scoreboard.json" in t124["seen_first"]
+    assert "MATH" in t124["claim_labels_and_scopes"]["p711_complete_266_line_stabilizer_and_s4_commutant_theorem"]
+    assert "FORCED-BY-MAIN" in t124["claim_labels_and_scopes"]["scoreboard_23_observable_free_number_and_joint_accounting"]
+    assert "plain_english_elaboration" in t124
+    assert int(t124["total_lines_checked"]) == 266
+    assert int(t124["max_svd_vs_character_diff"]) == 0
+    assert t124["two_adic_stabilizer_law_verified"] is True
+    assert int(t124["odd_order_lines_count"]) == 137
+    assert int(t124["mod2_even_lines_count"]) == 51
+    assert int(t124["mod4_even_lines_count"]) == 78
+    assert int(t124["table_by_order"]["5"]["commutant_dim"]) == 1
+    assert int(t124["table_by_order"]["10"]["commutant_dim"]) == 2
+    assert int(t124["table_by_order"]["12"]["commutant_dim"]) == 3
+    assert int(t124["observables_total_count"]) == 23
+    assert int(t124["frame_a_joints_count"]) == 12
+    assert int(t124["selection_bits"]) == 0
+
+    # Theorem 125 (Stage 21.2): P-713 Farey Phase Transition Order, Critical Exponents & Cusp Measure
+    t125 = sc["theorem125_p713_farey_phase_transition_order_critical_exponents_and_cusp_measure"]
+    assert "B852_parabolic_pressure" in t125["seen_first"]
+    assert "B1813_the_weaves_own_measure_depends_on_how_its_threads_are_counted" in t125["seen_first"]
+    assert "MATH" in t125["claim_labels_and_scopes"]["p713_farey_s1_marginal_second_order_transition_and_critical_scaling"]
+    assert "FORCED-BY-MAIN" in t125["claim_labels_and_scopes"]["p713_critical_measure_cusp_tail_and_non_selection_of_point"]
+    assert "plain_english_elaboration" in t125
+    assert "second_order_marginal_logarithmic" in t125["transition_order"]
+    assert abs(float(t125["beta_critical_exponent"]) - 1.0) < 1e-12
+    assert float(t125["doubling_max_err"]) < 1e-14
+    assert float(t125["lyapunov_integral_err"]) < 1e-14
+    assert float(t125["harmonic_tail_identity_err"]) < 1e-14
+    assert float(t125["hyp_tail_y3"]) > 0.318
+    assert abs(float(t125["scaling_ratio_at_1m6"]) - 1.0) < 1e-4
+    assert t125["selects_unique_height"] is False
+    assert t125["selects_unique_line_order"] is False
+    assert int(t125["selection_bits"]) == 0
+
+    # Theorem 126 (Stage 21.3): P-714 & S305k Ask 3 Principles for Placing tau, Line, and Reading Priced by Random-Subset Control
+    t126 = sc["theorem126_p714_principles_for_placing_tau_and_menu_priced_by_random_subset_control"]
+    assert "B1341_the_action_of_the_object" in t126["seen_first"]
+    assert "B1720_the_thread_fixes_the_point" in t126["seen_first"]
+    assert "MATH" in t126["claim_labels_and_scopes"]["p714_object_native_tau_principles_and_smooth_functional_monotonicity"]
+    assert "FORCED-BY-MAIN" in t126["claim_labels_and_scopes"]["s305k_ask3_random_subset_priced_menu_reductions"]
+    assert "plain_english_elaboration" in t126
+    assert abs(float(t126["tau_star_lr"][0]) - 0.5) < 1e-12
+    assert float(t126["lr_height_exact_err"]) < 1e-14
+    assert t126["c_strictly_increasing_in_strip"] is True
+    assert t126["l2_strictly_decreasing_in_strip"] is True
+    assert int(t126["interior_stationary_points_in_strip"]) == 0
+    assert int(t126["mirror_apexes_count"]) == 25
+    assert t126["min_runs_mirror_apexes"] == [56, 146, 162, 201, 209]
+    assert int(t126["min_trace_overall_mirror_apex"]) == 201
+    assert int(t126["min_trace_overall_mirror_val"]) == 98
+    assert int(t126["min_trace_re_half_mirror_apex"]) == 162
+    assert int(t126["min_trace_re_half_mirror_val"]) == 118
+    assert t126["zero_six_values_evaluated"] is True
+    assert int(t126["selection_bits"]) == 0
+
+    # Theorem 127 (Stage 21.4): P-715 & P-574 Audit of Object-Native Scales
+    t127 = sc["theorem127_p715_p574_object_native_scales_audit_and_dimensionless_rg_matching_laws"]
+    assert "B286_the_seam" in t127["seen_first"]
+    assert "B1840_the_principled_ends" in t127["seen_first"]
+    assert "MATH" in t127["claim_labels_and_scopes"]["e4_minus_e3_cusp_area_identity"]
+    assert "FORCED-BY-MAIN" in t127["claim_labels_and_scopes"]["p715_p574_object_scales_and_nondimensionalization_audit"]
+    assert "plain_english_elaboration" in t127
+    assert float(t127["max_e4_minus_e3_identity_err"]) < 1e-14
+    assert int(t127["dimensionful_anchors_required_for_gev"]) == 1
+    assert t127["any_candidate_fixes_gev_without_anchor"] is False
+    assert t127["any_o1_constant_fixes_rg_hierarchy_without_bridge"] is False
+    assert len(t127["scales_catalog"]) == 5
+    assert int(t127["selection_bits"]) == 0
+
+    # Theorem 128 (Stage 21.5): P-716 Representation-Level CP-Odd Source Audit & Stage 21 Referee Gate
+    t128 = sc["theorem128_p716_representation_level_cp_odd_source_audit_and_stage21_referee_gate"]
+    assert "B303_clock_is_the_cp_sign" in t128["seen_first"]
+    assert "B1029_invariant_ring" in t128["seen_first"]
+    assert "MATH" in t128["claim_labels_and_scopes"]["p716_representation_level_cp_odd_mirror_and_collinearity_laws"]
+    assert "FORCED-BY-MAIN" in t128["claim_labels_and_scopes"]["stage21_zero_trust_hostile_referee_gate"]
+    assert "plain_english_elaboration" in t128
+    assert float(t128["max_collinear_cp_inv"]) < 1e-14
+    assert float(t128["max_self_mirror_real_cp_inv"]) < 1e-14
+    assert float(t128["max_mirror_antisymmetry_err"]) < 1e-14
+    assert float(t128["max_haar_cp_inv_err"]) < 1e-13
+    assert float(t128["min_generic_broken_mirror_cp_inv"]) > 1e-6
+    assert float(t128["v_phi_err"]) < 1e-30
+    assert float(t128["v_mphi_inv_err"]) < 1e-30
+    assert t128["cubic_unbounded_below"] is True
+    assert t128["zero_held_out_values_computed"] is True
+    assert t128["all_six_guardrails_passed"] is True
+
 
 
 
