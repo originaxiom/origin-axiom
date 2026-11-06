@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.62) of 2026-11-05 |
-| arcs with a verdict | 1547: 1056 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 725: 314 open (queued, leads, waiting for the owner), 411 closed |
+| arcs with a verdict | 1548: 1057 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
+| points in the register | 727: 315 open (queued, leads, waiting for the owner), 412 closed |
 | the last review | Review 75 (2026-11-06), anchor `264fa6d98` |
-| the last landing | S306a THE SEATS FETCHED: THE READ-OUT THE HISTORY'S SYMMETRY FORCES (2026-11-06) |
+| the last landing | S306b THE METRIC'S READ-OUT: HARMONIC TIME (B1846; P-726, P-727; 2026-11-06) |
 <!-- STATE:END -->
 
 ## Start here

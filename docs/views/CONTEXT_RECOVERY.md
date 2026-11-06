@@ -13,24 +13,25 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1547 |
-| … PROVED | 1056 |
+| arcs with a verdict file | 1548 |
+| … PROVED | 1057 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 725 |
-| … QUEUED | 301 |
+| register points | 727 |
+| … QUEUED | 302 |
 | … LEAD | 9 |
 | … OWNER | 4 |
-| … DONE | 400 |
+| … DONE | 401 |
 | … DECLINED | 11 |
-| harvest rows (the last number) | 1596 |
+| harvest rows (the last number) | 1600 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1846 | PROVED | THE METRIC'S READ-OUT (the owner's goal of 2026-11-06, FL-05; data-free): the hyperbolic metric fixes, with no choice, a clock on the fibration circle -- harmonic time theta (the harmonic map in the fibre class; B1295's… |
 | B1845 | PROVED | THE OBJECT'S OWN LINE AND THE EXCURSION READ OUT (P-717, P-718, P-455; data-free exploration, toward the owner's goal): level 5 is the object's own (LR's discriminant 5, LR = -(unipotent) mod 5, order 5 in A5); RL fixes… |
 | B1844 | PROVED | REVIEW 75 (the owner's 'Run it now'; 60 merges, at the waiver's limit): the window's five-arc sample read in full (B1834, B1836, B1838 by a reader, B1839 and B1841 by main) -- all hold, three with notes applied as dated… |
 | B1843 | PROVED | GENESIS v1.62 (the owner's ruling, 2026-11-05: 'if you also agree with sm about the rule, i aprove it'): GAP1's held-out targets are graded jointly -- each inside its 68% band and the joint p_V (the product of marginal… |
@@ -42,7 +43,6 @@
 | B1835 | OPEN | U_e AND THE PMNS (P-638, OPEN; the owner's ruling P-660): the control passes on main's code -- on all 24 order-5 lines Y_e = c Y_d^T and U_e^L = conj(U_d^R) to 1e-15, 0.33-0.40 off on the order-10 lines; the design: the… |
 | B1834 | PROVED | THE TOTAL-INPUTS SCOREBOARD (the owner's ruling of 2026-10-29, P-418) AND THE BORROWED-JOINTS SCAFFOLD (P-661): 0 of 19 earned, identification price 13; the record's candidate claims 10 rows on 14 borrowed joints (11 ch… |
 | B1833 | PROVED | THE BRAINSTORMS RE-READ (the owner's 'most important leads from brainstorms keeps getting forgotten'; 'check our chat history'): of about 530 distinct ideas across five sources about 340 were worked, 80 partly, 45 rowed… |
-| B1832 | PROVED | THE AGY LANES DIGESTED (P-621; the owner's 'verify and digest bank all the work from agy'): every claim of both agy branches and the independent lane typed and dispositioned, every data-free one checked on main's code (… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306b THE METRIC'S READ-OUT: HARMONIC TIME (B1846; P-726, P-727; 2026-11-06)
 - S306a THE SEATS FETCHED: THE READ-OUT THE HISTORY'S SYMMETRY FORCES (2026-11-06)
 - S305z THE PLEATED LAYERS READ; EVERY CHOICE AT ONCE; BOTH TWINS (P-723, P-724, P-725; 2026-11-06)
 - S305y THE REPO FETCHED; ONE LEVEL FROM TWO SEATS; THE LINE'S LAST BIT A CHIRAL PAIR; STAGE C VALIDATED (2026-11-06)
@@ -63,11 +64,10 @@
 - S305u THE HYPERBOLIC METRIC'S OWN READ-OUT (P-723; 2026-11-06)
 - S305t THE SEATS FETCHED AGAIN; THE CANDIDATE REFEREED; THE SCALE QUESTION (2026-11-06)
 - S305s THE OBJECT-NATIVE LEVEL (P-721; the owner: 'Seek object-native') (2026-11-06)
-- S305r THE READ-OUT MAY BE THE RECORD'S OWN KÄHLER WEIGHT (P-720; 2026-11-06)
 
 ## The latest campaign line
 
-LATEST (2026-11-06, S306a: the web seat's read-out check verified — the history's symmetry fixes exactly the apex, so P-717's read-out is forced given a point read-out with no arrow; the nonzero line and the level restated as rationales. 0 of 19.)
+LATEST (2026-11-06, S306b: THE METRIC'S READ-OUT (B1846) — harmonic time is the metric's own clock: the energy is uniform in it (T1) and the volume weight has no atom (T2), so no point read-out is forced by the metric; the volume weight's single hump sits exactly on the excursion's tube, the closed thread's apex (two methods; flat on m004; sharper at the run of 10; blind in the one-departure limit); the value of τ there owed (P-727). 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
