@@ -1,0 +1,19 @@
+POST HOC: departures that return the line only together (the web seat, 2026-11-06)
+  G = LR; its own order-5 pair in G's marking: {+-(1/5, 3/5), +-(2/5, 1/5)}
+(1) single-run defects L^n R: fixes the pair iff n = 1 mod 5
+    n=1 True, n=2 False, n=3 False, n=4 False, n=5 False, n=6 True, n=7 False, n=8 False, n=9 False, n=10 False, n=11 True, n=12 False
+(2) the block L^2 R (LR)^4: mod 5 ((4, 0), (4, 4)); = L (LR)^5: True; (LR)^5 mod 5 ((4, 0), (0, 4)); fixes the pair alone: False
+    1 blocks: fixes the pair False
+    2 blocks: fixes the pair False
+    3 blocks: fixes the pair False
+    4 blocks: fixes the pair False
+    5 blocks: fixes the pair True
+(3) the periodic history (five blocks)(LR)^k, its highest apex | single run 6 (5 + sqrt5)/2 = 3.61803398875 | phi = 1.61803398875
+    k =  0: runs [2, 1, 1, 1, 1, 1, 1, 1]...; max run 2; Im 1.61807966991 (cf) | 1.61807966991 (matrix); fixes the pair True
+    k =  2: runs [2, 1, 1, 1, 1, 1, 1, 1]...; max run 2; Im 1.61807966991 (cf) | 1.61807966991 (matrix); fixes the pair True
+    k =  4: runs [2, 1, 1, 1, 1, 1, 1, 1]...; max run 2; Im 1.61807966991 (cf) | 1.61807966991 (matrix); fixes the pair True
+    k =  6: runs [2, 1, 1, 1, 1, 1, 1, 1]...; max run 2; Im 1.61807966991 (cf) | 1.61807966991 (matrix); fixes the pair True
+    k =  8: runs [2, 1, 1, 1, 1, 1, 1, 1]...; max run 2; Im 1.61807966991 (cf) | 1.61807966991 (matrix); fixes the pair True
+    k = 10: runs [2, 1, 1, 1, 1, 1, 1, 1]...; max run 2; Im 1.61807966991 (cf) | 1.61807966991 (matrix); fixes the pair True
+    k = 12: runs [2, 1, 1, 1, 1, 1, 1, 1]...; max run 2; Im 1.61807966991 (cf) | 1.61807966991 (matrix); fixes the pair True
+departure_posthoc_small exit 0
