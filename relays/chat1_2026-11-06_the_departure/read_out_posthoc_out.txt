@@ -1,0 +1,60 @@
+POST HOC to read_out_check (the web seat, 2026-11-06; written after reading its outputs)
+(a) every direction-reversing element of either determinant (free entries bounded by 300)
+   LR             minimal translation 0.9624236501; 2 classes:
+      at 0.48121182506: determinants [1], 26 elements found, reduced |Re| 3.422658403e-60, Im 1.0
+      at 0.962423650119: determinants [-1], 26 elements found, reduced |Re| 0.5, Im 1.11803398875
+   LLLLLR         minimal translation 3.8496946; 2 classes:
+      at 1.12014275002e-59: determinants [-1], 6 elements found, reduced |Re| 0.2857142857, Im 0.9583148475
+      at 1.92484730024: determinants [-1], 8 elements found, reduced |Re| 0.5, Im 3.35410196625
+   LLLLLRLR       minimal translation 5.883314629; 2 classes:
+      at 2.16370026974: determinants [-1], 4 elements found, reduced |Re| 0.5, Im 3.14907393795
+      at 5.10535758439: determinants [-1], 4 elements found, reduced |Re| 0.5, Im 1.34960311626
+   LLLLLRLRLR     minimal translation 7.82324553; 2 classes:
+      at 2.20078948521: determinants [-1], 4 elements found, reduced |Re| 0.5, Im 3.1224989992
+      at 6.11241225042: determinants [-1], 4 elements found, reduced |Re| 0.5, Im 1.04083299973
+   LLLLLLR        minimal translation 4.126874138; 2 classes:
+      at 2.0634370689: determinants [-1], 4 elements found, reduced |Re| 1.866904583e-60, Im 3.87298334621
+      at 4.12687413779: determinants [-1], 6 elements found, reduced |Re| 0.25, Im 0.968245836552
+   LLLLLLRLR      minimal translation 6.17793981; 2 classes:
+      at 2.32334282136: determinants [-1], 4 elements found, reduced |Re| 1.459297083e-58, Im 3.6514837167
+      at 5.4123127262: determinants [-1], 4 elements found, reduced |Re| 0.5, Im 1.36930639376
+   LLLLLLRLRLR    minimal translation 8.120291225; 2 classes:
+      at 2.36398380644: determinants [-1], 4 elements found, reduced |Re| 6.774996733e-57, Im 3.62284418655
+      at 6.42412941919: determinants [-1], 2 elements found, reduced |Re| 0.5, Im 1.03509833901
+    S = [[0, -1], [1, 0]] and LR: S LR S^-1 = (LR)^-1: True; i on LR's axis: True
+(b) the run's shapes
+   n = 5, k = 12, the run's tetrahedra 0..5 and the next two:
+       0: shape (1.121181417 + 1.187429996j), highest orbit member (1.12118141698 + 1.18742999556j), height (reduced Im) 1.18742999556
+       1: shape (-1.063071411 + 2.03642124j), highest orbit member (-1.06307141129 + 2.03642124036j), height (reduced Im) 2.03642124036
+       2: shape (-2.865326203 + 2.1462191j), highest orbit member (-2.86532620261 + 2.14621909998j), height (reduced Im) 2.14621909998
+       3: shape (-2.865326203 + 2.1462191j), highest orbit member (-2.86532620261 + 2.14621909998j), height (reduced Im) 2.14621909998
+       4: shape (-1.063071411 + 2.03642124j), highest orbit member (-1.06307141129 + 2.03642124036j), height (reduced Im) 2.03642124036
+       5: shape (1.121181417 + 1.187429996j), highest orbit member (1.12118141698 + 1.18742999556j), height (reduced Im) 1.18742999556
+       6: shape (0.2327265254 + 1.046124445j), highest orbit member (0.232726525417 + 1.04612444544j), height (reduced Im) 1.04612444544
+       7: shape (0.5899898607 + 0.9739091468j), highest orbit member (0.589989860746 + 0.973909146798j), height (reduced Im) 0.973909146798
+       0 ->  1: nearest integer translation between the orbits 1, residual 0.383
+       1 ->  2: nearest integer translation between the orbits 1, residual 0.078
+       2 ->  3: nearest integer translation between the orbits 0, residual 1.62e-60
+       3 ->  4: nearest integer translation between the orbits -1, residual 0.078
+       4 ->  5: nearest integer translation between the orbits -1, residual 0.383
+       5 ->  6: nearest integer translation between the orbits 1, residual 0.141
+       6 ->  7: nearest integer translation between the orbits 0, residual 0.157
+   n = 6, k = 12, the run's tetrahedra 0..6 and the next two:
+       0: shape (1.160641345 + 1.159397101j), highest orbit member (1.16064134527 + 1.15939710052j), height (reduced Im) 1.15939710052
+       1: shape (-1.100799916 + 2.187332153j), highest orbit member (-1.10079991649 + 2.18733215295j), height (reduced Im) 2.18733215295
+       2: shape (-3.494242347 + 2.458778233j), highest orbit member (-3.49424234666 + 2.45877823339j), height (reduced Im) 2.45877823339
+       3: shape (-4.494242347 + 2.458778233j), highest orbit member (-4.49424234666 + 2.45877823339j), height (reduced Im) 2.45877823339
+       4: shape (-3.494242347 + 2.458778233j), highest orbit member (-3.49424234666 + 2.45877823339j), height (reduced Im) 2.45877823339
+       5: shape (-1.100799916 + 2.187332153j), highest orbit member (-1.10079991649 + 2.18733215295j), height (reduced Im) 2.18733215295
+       6: shape (1.160641345 + 1.159397101j), highest orbit member (1.16064134527 + 1.15939710052j), height (reduced Im) 1.15939710052
+       7: shape (0.2243993506 + 1.06685814j), highest orbit member (0.224399350552 + 1.06685813955j), height (reduced Im) 1.06685813955
+       8: shape (0.5991351068 + 0.9755620805j), highest orbit member (0.599135106814 + 0.975562080463j), height (reduced Im) 0.975562080463
+       0 ->  1: nearest integer translation between the orbits 1, residual 0.391
+       1 ->  2: nearest integer translation between the orbits 1, residual 0.11
+       2 ->  3: nearest integer translation between the orbits 1, residual 1.94e-62
+       3 ->  4: nearest integer translation between the orbits -1, residual 2.17e-60
+       4 ->  5: nearest integer translation between the orbits -1, residual 0.11
+       5 ->  6: nearest integer translation between the orbits -1, residual 0.391
+       6 ->  7: nearest integer translation between the orbits 1, residual 0.0881
+       7 ->  8: nearest integer translation between the orbits 0, residual 0.163
+read_out_posthoc exit 0
