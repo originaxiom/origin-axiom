@@ -1,0 +1,17 @@
+b++LLLLLLLLLLRLR: solve resid_rms 7.62e-10 rank 4250/4250  145s
+   shortest geodesic: length 0.080226+5.745213i chi 0;  theta on its axis: circular mean 1.0000, max deviation 1.45e-10 over 96 points
+   frame check (engine vs SL2C on 7 original generators): max deviation 5.96e-14
+   tet 0: volume MC 0.8617 +- 0.0075  (Bloch-Wigner 0.8514);  theta circular mean 0.2286, concentration |<e^(2 pi i theta)>| 0.828   171s
+   tet 1: volume MC 0.5675 +- 0.0067  (Bloch-Wigner 0.5665);  theta circular mean 0.1123, concentration |<e^(2 pi i theta)>| 0.925   174s
+   tet 2: volume MC 0.2477 +- 0.0040  (Bloch-Wigner 0.2446);  theta circular mean 0.0370, concentration |<e^(2 pi i theta)>| 0.992   178s
+   tet 3: volume MC 0.1307 +- 0.0025  (Bloch-Wigner 0.1314);  theta circular mean 0.0136, concentration |<e^(2 pi i theta)>| 0.999   182s
+   tet 4: volume MC 0.0933 +- 0.0020  (Bloch-Wigner 0.0902);  theta circular mean 0.0049, concentration |<e^(2 pi i theta)>| 1.000   186s
+   tet 5: volume MC 0.0766 +- 0.0018  (Bloch-Wigner 0.0794);  theta circular mean 0.9999, concentration |<e^(2 pi i theta)>| 1.000   189s
+   tet 6: volume MC 0.0908 +- 0.0020  (Bloch-Wigner 0.0902);  theta circular mean 0.9950, concentration |<e^(2 pi i theta)>| 1.000   192s
+   tet 7: volume MC 0.1368 +- 0.0027  (Bloch-Wigner 0.1314);  theta circular mean 0.9864, concentration |<e^(2 pi i theta)>| 0.999   196s
+   tet 8: volume MC 0.2462 +- 0.0041  (Bloch-Wigner 0.2446);  theta circular mean 0.9629, concentration |<e^(2 pi i theta)>| 0.992   199s
+   tet 9: volume MC 0.5613 +- 0.0067  (Bloch-Wigner 0.5665);  theta circular mean 0.8860, concentration |<e^(2 pi i theta)>| 0.919   202s
+   tet 10: volume MC 0.8512 +- 0.0074  (Bloch-Wigner 0.8514);  theta circular mean 0.7704, concentration |<e^(2 pi i theta)>| 0.824   205s
+   tet 11: volume MC 0.9396 +- 0.0083  (Bloch-Wigner 0.9513);  theta circular mean 0.6172, concentration |<e^(2 pi i theta)>| 0.727   208s
+   tet 12: volume MC 0.9505 +- 0.0081  (Bloch-Wigner 0.9513);  theta circular mean 0.3843, concentration |<e^(2 pi i theta)>| 0.720   211s
+   rho via tetrahedra: 2.32 1.52 1.22 1.10 1.06 1.02 1.04 0.92 0.86 0.92 0.87 0.81 0.83 0.72 0.78 0.83 0.80 0.80 0.76 0.84 0.76 0.79 0.88 0.83 0.80 0.75 0.76 0.86 0.87 0.88 0.85 0.97 0.81 0.94 0.99 1.06 1.11 1.21 1.45 2.38
