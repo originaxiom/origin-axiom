@@ -44,7 +44,7 @@ changed. 0 of 19.*
 
 ## Disclosed
 
-- **One reader, not the three or four of earlier reviews.** The owner had asked that Claude usage be spared; main read
+- **One reader, not the three or four of earlier reviews.** The owner had asked that the seats' usage be spared; main read
   the two cards of the sample itself.
 - **Two of the reader's re-runs were cut short at its time cap,** B1836's c2 and B1838's single_horocycle_test. Their
   committed outputs were read instead.

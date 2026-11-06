@@ -15,7 +15,8 @@ def test_review_fires_past_twice_the_period_unless_waived(monkeypatch):
     monkeypatch.setenv("OA_REVIEW_MERGES", "40")
     monkeypatch.setattr(gates, "_read", lambda rel: "" if rel == gates.REVIEW_WAIVER else open(os.path.join(ROOT, rel)).read())
     ok, why = gates.gate_review_fires(); assert ok is False and "FIRES" in why
-    monkeypatch.setattr(gates, "_read", lambda rel: "- waived 2026-10-03 by the owner through 60 merges: reason\n" if rel == gates.REVIEW_WAIVER else open(os.path.join(ROOT, rel)).read())
+    live = gates.review_anchor_date() or "2026-10-03"   # Review 75: a planted waiver must be dated inside the live window
+    monkeypatch.setattr(gates, "_read", lambda rel: ("- waived %s by the owner through 60 merges: reason\n" % live) if rel == gates.REVIEW_WAIVER else open(os.path.join(ROOT, rel)).read())
     monkeypatch.setattr(os.path, "isfile", lambda p: True)
     ok, why = gates.gate_review_fires(); assert ok is True and "waived" in why
     monkeypatch.setenv("OA_REVIEW_MERGES", "61"); assert gates.gate_review_fires()[0] is False   # the waiver expired
