@@ -2801,6 +2801,76 @@ def test_five_phase_master_toe_closure():
     assert t144["zero_held_out_values_computed"] is True
     assert t144["all_six_guardrails_passed"] is True
 
+    # Theorem 145 (Stage 27.1): Simultaneous Coexistence of Both Twin Orbits {v, 2v}, Inter-Twin Residue Invariance & Punctured-Fibre Orbit Law
+    t145 = sc["theorem145_simultaneous_twin_coexistence_sixy_mod5_inter_twin_residue_invariance_and_punctured_fibre_orbit"]
+    assert "docs/POINT_REGISTER.md" in t145["seen_first"][0]
+    assert "FORCED-BY-MAIN" in t145["claim_labels_and_scopes"]["punctured_fibre_minimal_orbit_theorem"]
+    assert "FORCED-BY-MAIN" in t145["claim_labels_and_scopes"]["simultaneous_twin_coexistence_sixy_mod5"]
+    assert "plain_english_elaboration" in t145
+    assert int(t145["punctured_fibre_orbit_census"]["punctured_fibre_period1_count"]) == 0
+    assert int(t145["punctured_fibre_orbit_census"]["punctured_fibre_minimal_orbits_count"]) == 2
+    assert int(t145["punctured_fibre_orbit_census"]["surjective_d5_representations"]) == 20
+    assert t145["both_twins_simultaneously_occupied"] is True
+    assert float(t145["err_down_v2_vs_lep_v1"]) < 1e-13
+    assert float(t145["err_lep_v2_vs_down_v1"]) < 1e-13
+    assert float(t145["err_inter_twin_triplet_invariance"]) < 1e-14
+    assert float(t145["err_inter_twin_singlet_sign_flip"]) < 1e-14
+    assert float(t145["err_m_transpose_swap"]) < 1e-13
+    assert float(t145["max_haar_err_145"]) < 1e-13
+    assert t145["zero_six_values_evaluated_at_tau_star"] is True
+    assert t145["zero_held_out_values_computed"] is True
+    assert t145["all_six_guardrails_passed"] is True
+
+    # Theorem 146 (Stage 27.2): Twin-Orbit Weil Interaction Matrix, Pentagon Chord Ratio phi, and S-Dual Tunneling Scaling
+    t146 = sc["theorem146_twin_orbit_weil_interaction_pentagon_chord_ratio_and_s_dual_tunneling_scaling"]
+    assert "docs/POINT_REGISTER.md" in t146["seen_first"][0]
+    assert "FORCED-BY-MAIN" in t146["claim_labels_and_scopes"]["level5_weil_twin_interaction_matrix"]
+    assert "MATH" in t146["claim_labels_and_scopes"]["pentagon_chord_and_s_dual_scaling_at_tau_star"]
+    assert "plain_english_elaboration" in t146
+    assert float(t146["det_t_twins_err"]) < 1e-14
+    assert float(t146["cs_phase_conjugate_err"]) < 1e-14
+    assert float(t146["off_diag_amp_err"]) < 1e-14
+    assert abs(float(t146["off_diag_rl_amp"]) - 0.723606797750) < 1e-11
+    assert float(t146["diag_ratio_s_err"]) < 1e-14
+    assert float(t146["off_over_diag_ratio_s_err"]) < 1e-14
+    assert float(t146["amp_partition_of_unity_err"]) < 1e-14
+    assert float(t146["pentagon_chord_phi_deviation"]) < 1e-9
+    assert float(t146["analytic_pentagon_ratio_err"]) < 1e-15
+    assert abs(float(t146["b1788_exponent_gaps"]["w_equals_v2_2_over_5"]["up_over_down_gap_ratio"]) - 3.0) < 1e-14
+    assert float(t146["max_haar_err_146"]) < 1e-13
+    assert t146["zero_six_values_evaluated_at_tau_star"] is True
+    assert t146["zero_held_out_values_computed"] is True
+    assert t146["all_six_guardrails_passed"] is True
+
+    # Theorem 147 (Stage 27.3): chat1 c6b813450 Reflection Stabilizer Uniqueness & Complete Program Reduction Ledger
+    t147 = sc["theorem147_chat1_c6b813450_reflection_stabilizer_uniqueness_and_program_reduction_ledger"]
+    assert "CHAT1_TO_CC_2026-11-06_THE_READ_OUT_THE_SYMMETRY_FORCES.md" in t147["seen_first"][0]
+    assert "FORCED-BY-MAIN" in t147["claim_labels_and_scopes"]["pgl2z_reflection_stabilizer_uniqueness"]
+    assert "FORCED-BY-MAIN" in t147["claim_labels_and_scopes"]["complete_program_reduction_ledger"]
+    assert "plain_english_elaboration" in t147
+    assert t147["all_n_ge_2_unique_reflection"] is True
+    assert float(t147["max_apex_fixed_err"]) < 1e-14
+    assert abs(float(t147["frac_n5_k5"]) - 0.14903) < 1e-4
+    assert abs(float(t147["frac_n6_k5"]) - 0.17253) < 1e-4
+    assert len(t147["program_reduction_ledger"]["what_still_remains_priced_in_the_program"]) == 4
+    assert float(t147["max_haar_err_147"]) < 1e-13
+    assert t147["zero_six_values_evaluated_at_tau_star"] is True
+    assert t147["zero_held_out_values_computed"] is True
+    assert t147["all_six_guardrails_passed"] is True
+
+    # Theorem 148 (Stage 27.4): Stage 27 Zero-Trust Hostile-Referee Gate
+    t148 = sc["theorem148_stage27_zero_trust_hostile_referee_gate"]
+    assert "docs/POINT_REGISTER.md" in t148["seen_first"][0]
+    assert "MATH" in t148["claim_labels_and_scopes"]["stage27_zero_trust_hostile_referee_gate"]
+    assert "plain_english_elaboration" in t148
+    assert float(t148["referee_mp_weil_amp_err"]) < 1e-45
+    assert float(t148["referee_mp_theta1_consistency_err"]) < 1e-14
+    assert t148["sympy_pgl2z_proof_ok"] is True
+    assert float(t148["max_haar_err_148"]) < 1e-13
+    assert t148["zero_six_values_evaluated_at_tau_star"] is True
+    assert t148["zero_held_out_values_computed"] is True
+    assert t148["all_six_guardrails_passed"] is True
+
 
 
 
