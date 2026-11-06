@@ -8351,3 +8351,5 @@ No seals in the window, so there is no hash to check. Held-out targets: none com
 - [ ] R76-6: P-729, door C — the candidate initial laws stated in object terms, C5 first (owner: cc)
 - [ ] R76-7: R2's form under the chiral premise — the exact level-5 block or the asymptotic, by a rule written first (the B1012 ruling's open step; owner: cc)
 - [ ] R76-8: P-716 — the agy lane's Theorem 155 CP claim checked with main's own code (owner: cc)
+
+**anchor-commit: `1eb535ecd`**
