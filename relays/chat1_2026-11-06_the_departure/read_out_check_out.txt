@@ -1,0 +1,162 @@
+THE READ-OUT THE HISTORY'S SYMMETRY FORCES -- data-free check (the web seat, 2026-11-06)
+A. THE ONE-DEPARTURE HISTORY'S STABILISER IN PGL(2, Z), solved exactly over Q(sqrt5)
+   (the history is the geodesic from -1/phi to n + 1/phi; g = [[p, q], [r, s]] acts on its ends by
+   x -> (p x + q)/(r x + s); 'swap' exchanges the ends, 'fix' fixes both; rank = dimension of the solutions)
+   n =  1: swap rank 2, fix rank 2
+   n =  2: swap rank 1, fix rank 1; swap basis (-1, 2, 0, 1), det -1; fix basis (1, 0, 0, 1), det 1; the swap fixes the apex 1.0 + 1.61803398875i: True; the apex is on the history: True
+   n =  3: swap rank 1, fix rank 1; swap basis (-1, 3, 0, 1), det -1; fix basis (1, 0, 0, 1), det 1; the swap fixes the apex 1.5 + 2.11803398875i: True; the apex is on the history: True
+   n =  4: swap rank 1, fix rank 1; swap basis (-1, 4, 0, 1), det -1; fix basis (1, 0, 0, 1), det 1; the swap fixes the apex 2.0 + 2.61803398875i: True; the apex is on the history: True
+   n =  5: swap rank 1, fix rank 1; swap basis (-1, 5, 0, 1), det -1; fix basis (1, 0, 0, 1), det 1; the swap fixes the apex 2.5 + 3.11803398875i: True; the apex is on the history: True
+   n =  6: swap rank 1, fix rank 1; swap basis (-1, 6, 0, 1), det -1; fix basis (1, 0, 0, 1), det 1; the swap fixes the apex 3.0 + 3.61803398875i: True; the apex is on the history: True
+   n =  7: swap rank 1, fix rank 1; swap basis (-1, 7, 0, 1), det -1; fix basis (1, 0, 0, 1), det 1; the swap fixes the apex 3.5 + 4.11803398875i: True; the apex is on the history: True
+   n =  8: swap rank 1, fix rank 1; swap basis (-1, 8, 0, 1), det -1; fix basis (1, 0, 0, 1), det 1; the swap fixes the apex 4.0 + 4.61803398875i: True; the apex is on the history: True
+   n =  9: swap rank 1, fix rank 1; swap basis (-1, 9, 0, 1), det -1; fix basis (1, 0, 0, 1), det 1; the swap fixes the apex 4.5 + 5.11803398875i: True; the apex is on the history: True
+   n = 10: swap rank 1, fix rank 1; swap basis (-1, 10, 0, 1), det -1; fix basis (1, 0, 0, 1), det 1; the swap fixes the apex 5.0 + 5.61803398875i: True; the apex is on the history: True
+   n = 11: swap rank 1, fix rank 1; swap basis (-1, 11, 0, 1), det -1; fix basis (1, 0, 0, 1), det 1; the swap fixes the apex 5.5 + 6.11803398875i: True; the apex is on the history: True
+   n = 12: swap rank 1, fix rank 1; swap basis (-1, 12, 0, 1), det -1; fix basis (1, 0, 0, 1), det 1; the swap fixes the apex 6.0 + 6.61803398875i: True; the apex is on the history: True
+B. SYMMETRIC POINTS ON CLOSED AXES (fixed points of the direction-reversing reflections P J0 built from the
+   palindromic factorisations of the cyclic word), counted modulo the axis's minimal translation
+   golden loop      tr 3, length 1.9248473, root: glide (det -1), minimal translation 0.9624236501, 2 reflections found, 1 classes
+      class at 1.55575381947e-61 mod 0.96242365: reduced to F |Re| 0.5, Im 1.11803398875 (members 2)
+   L^5 R (LR)^0     tr 7, length 3.8496946, root: None, minimal translation 3.8496946, 6 reflections found, 2 classes
+      class at 1.92484730024 mod 3.8496946: reduced to F |Re| 0.5, Im 3.35410196625 (members 3)
+      class at 1.12014275002e-59 mod 3.8496946: reduced to F |Re| 0.285714285714, Im 0.9583148475 (members 3)
+      separation of the two classes 1.92484730023841; half the minimal translation 1.92484730023841
+   L^5 R (LR)^1     tr 19, length 5.883314629, root: None, minimal translation 5.883314629, 8 reflections found, 2 classes
+      class at 2.16370026974 mod 5.8833146: reduced to F |Re| 0.5, Im 3.14907393795 (members 4)
+      class at 5.10535758439 mod 5.8833146: reduced to F |Re| 0.5, Im 1.34960311626 (members 4)
+      separation of the two classes 2.94165731465119; half the minimal translation 2.94165731465119
+   L^5 R (LR)^2     tr 50, length 7.82324553, root: None, minimal translation 7.82324553, 10 reflections found, 2 classes
+      class at 2.20078948521 mod 7.8232455: reduced to F |Re| 0.5, Im 3.1224989992 (members 5)
+      class at 6.11241225042 mod 7.8232455: reduced to F |Re| 0.5, Im 1.04083299973 (members 5)
+      separation of the two classes 3.91162276521459; half the minimal translation 3.91162276521459
+   L^5 R (LR)^3     tr 131, length 9.750278093, root: None, minimal translation 9.750278093, 12 reflections found, 2 classes
+      class at 2.20625797549 mod 9.7502781: reduced to F |Re| 0.5, Im 3.11868409368 (members 6)
+      class at 7.08139702193 mod 9.7502781: reduced to F |Re| 0.5, Im 1.14898887662 (members 6)
+      separation of the two classes 4.87513904644462; half the minimal translation 4.87513904644462
+   L^5 R (LR)^4     tr 343, length 11.67544389, root: None, minimal translation 11.67544389, 14 reflections found, 2 classes
+      class at 2.20705707003 mod 11.675444: reduced to F |Re| 0.5, Im 3.11812880951 (members 7)
+      class at 8.04477901723 mod 11.675444: reduced to F |Re| 0.5, Im 1.10643280338 (members 7)
+      separation of the two classes 5.83772194719781; half the minimal translation 5.83772194719781
+   L^5 R (LR)^5     tr 898, length 13.60033766, root: None, minimal translation 13.60033766, 16 reflections found, 2 classes
+      class at 2.20717368312 mod 13.600338: reduced to F |Re| 0.5, Im 3.11804782231 (members 8)
+      class at 9.00734251135 mod 13.600338: reduced to F |Re| 0.5, Im 1.12249721603 (members 8)
+      separation of the two classes 6.80016882822668; half the minimal translation 6.80016882822668
+   L^5 R (LR)^6     tr 2351, length 15.52519174, root: None, minimal translation 15.52519174, 18 reflections found, 2 classes
+      class at 2.20719069731 mod 15.525192: reduced to F |Re| 0.5, Im 3.11803600703 (members 9)
+      class at 9.96978656493 mod 15.525192: reduced to F |Re| 0.5, Im 1.11633387906 (members 9)
+      separation of the two classes 7.76259586761662; half the minimal translation 7.76259586761662
+   L^6 R (LR)^0     tr 8, length 4.126874138, root: None, minimal translation 4.126874138, 8 reflections found, 2 classes
+      class at 2.0634370689 mod 4.1268741: reduced to F |Re| 1.86690458336e-60, Im 3.87298334621 (members 4)
+      class at 4.12687413779 mod 4.1268741: reduced to F |Re| 0.25, Im 0.968245836552 (members 4)
+      separation of the two classes 2.06343706889556; half the minimal translation 2.06343706889556
+   L^6 R (LR)^1     tr 22, length 6.17793981, root: None, minimal translation 6.17793981, 10 reflections found, 2 classes
+      class at 2.32334282136 mod 6.1779398: reduced to F |Re| 9.0233721529e-60, Im 3.6514837167 (members 5)
+      class at 5.4123127262 mod 6.1779398: reduced to F |Re| 0.5, Im 1.36930639376 (members 5)
+      separation of the two classes 3.0889699048446; half the minimal translation 3.0889699048446
+   L^6 R (LR)^2     tr 58, length 8.120291225, root: None, minimal translation 8.120291225, 12 reflections found, 2 classes
+      class at 2.36398380644 mod 8.1202912: reduced to F |Re| 1.86690458336e-60, Im 3.62284418655 (members 6)
+      class at 6.42412941919 mod 8.1202912: reduced to F |Re| 0.5, Im 1.03509833901 (members 6)
+      separation of the two classes 4.0601456127484; half the minimal translation 4.0601456127484
+   L^6 R (LR)^3     tr 152, length 10.04767447, root: None, minimal translation 10.04767447, 14 reflections found, 2 classes
+      class at 2.36998346483 mod 10.047674: reduced to F |Re| 2.17805534725e-60, Im 3.61873432228 (members 7)
+      class at 7.39382070032 mod 10.047674: reduced to F |Re| 0.5, Im 1.15141546618 (members 7)
+      separation of the two classes 5.02383723548746; half the minimal translation 5.02383723548746
+   L^6 R (LR)^4     tr 398, length 11.97289138, root: None, minimal translation 11.97289138, 16 reflections found, 2 classes
+      class at 2.37086034241 mod 11.972891: reduced to F |Re| 2.80035687504e-60, Im 3.61813613493 (members 8)
+      class at 8.35730603466 mod 11.972891: reduced to F |Re| 0.5, Im 1.10554159679 (members 8)
+      separation of the two classes 5.98644569225276; half the minimal translation 5.98644569225276
+   L^6 R (LR)^5     tr 1042, length 13.8977926, root: None, minimal translation 13.8977926, 18 reflections found, 2 classes
+      class at 2.37098831003 mod 13.897793: reduced to F |Re| 2.17805534725e-60, Im 3.61804889102 (members 9)
+      class at 9.31988461133 mod 13.897793: reduced to F |Re| 0.5, Im 1.12284275928 (members 9)
+      separation of the two classes 6.94889630130158; half the minimal translation 6.94889630130158
+   L^6 R (LR)^6     tr 2728, length 15.82264777, root: None, minimal translation 15.82264777, 20 reflections found, 2 classes
+      class at 2.37100698096 mod 15.822648: reduced to F |Re| 3.42265840282e-60, Im 3.61803616295 (members 10)
+      class at 10.2823308655 mod 15.822648: reduced to F |Re| 0.5, Im 1.11620264602 (members 10)
+      separation of the two classes 7.91132388459056; half the minimal translation 7.91132388459056
+C. WHERE THE APEX SITS IN THE FAREY TESSELLATION (the mirror Re tau = n/2 of the run's fan of n triangles)
+   n =  2: apex Re 1, on the Farey edge (1, oo): the symmetric object is a flip (a tetrahedron)
+   n =  3: apex Re 3/2, inside the Farey triangle (1, 2, oo): the symmetric object is a triangulation (a surface)
+   n =  4: apex Re 2, on the Farey edge (2, oo): the symmetric object is a flip (a tetrahedron)
+   n =  5: apex Re 5/2, inside the Farey triangle (2, 3, oo): the symmetric object is a triangulation (a surface)
+   n =  6: apex Re 3, on the Farey edge (3, oo): the symmetric object is a flip (a tetrahedron)
+   n =  7: apex Re 7/2, inside the Farey triangle (3, 4, oo): the symmetric object is a triangulation (a surface)
+   n =  8: apex Re 4, on the Farey edge (4, oo): the symmetric object is a flip (a tetrahedron)
+   n =  9: apex Re 9/2, inside the Farey triangle (4, 5, oo): the symmetric object is a triangulation (a surface)
+   n = 10: apex Re 5, on the Farey edge (5, oo): the symmetric object is a flip (a tetrahedron)
+   n = 11: apex Re 11/2, inside the Farey triangle (5, 6, oo): the symmetric object is a triangulation (a surface)
+   n = 12: apex Re 6, on the Farey edge (6, oo): the symmetric object is a flip (a tetrahedron)
+D. THE DEPARTURE'S SHARE OF A CLOSED THREAD'S PERIOD
+   the golden loop's length l(LR) = 1.92484730023841 (= 4 log phi: 1.92484730023841)
+   n = 5: the one-departure arc above Im 2 has length A_n = 2 acosh(r_n / 2) = 2.02688303 (r_n = 3.118033989)
+      k =  0: l = 3.84969460048, l - k l(LR) = 3.84969460048, A_n / l = 0.526505
+      k =  1: l = 5.8833146293, l - k l(LR) = 3.95846732906, A_n / l = 0.344514
+      k =  2: l = 7.82324553043, l - k l(LR) = 3.97355092995, A_n / l = 0.259085
+      k =  5: l = 13.6003376565, l - k l(LR) = 3.97610115526, A_n / l = 0.149032
+      k = 10: l = 23.2245820936, l - k l(LR) = 3.97610909119, A_n / l = 0.0872732
+      k = 20: l = 42.4730550965, l - k l(LR) = 3.97610909171, A_n / l = 0.0477216
+      k = 40: l = 80.9700011012, l - k l(LR) = 3.97610909171, A_n / l = 0.0250325
+   n = 6: the one-departure arc above Im 2 has length A_n = 2 acosh(r_n / 2) = 2.397827515 (r_n = 3.618033989)
+      k =  0: l = 4.12687413779, l - k l(LR) = 4.12687413779, A_n / l = 0.581028
+      k =  1: l = 6.17793980969, l - k l(LR) = 4.25309250945, A_n / l = 0.388127
+      k =  2: l = 8.1202912255, l - k l(LR) = 4.27059662502, A_n / l = 0.295288
+      k =  5: l = 13.8977926026, l - k l(LR) = 4.27355610141, A_n / l = 0.172533
+      k = 10: l = 23.5220383133, l - k l(LR) = 4.27356531087, A_n / l = 0.10194
+      k = 20: l = 42.7705113162, l - k l(LR) = 4.27356531148, A_n / l = 0.0560626
+      k = 40: l = 81.267457321, l - k l(LR) = 4.27356531148, A_n / l = 0.0295054
+   sampled (4000 points, uniform in arclength over one period): L^5 R (LR)^5 fraction above Im 2 = 0.149; A_n / l = 0.149032
+   sampled (4000 points, uniform in arclength over one period): L^6 R (LR)^5 fraction above Im 2 = 0.1725; A_n / l = 0.172533
+   sampled (4000 points, uniform in arclength over one period): L^5 R (LR)^20 fraction above Im 2 = 0.04775; A_n / l = 0.0477216
+   sampled (4000 points, uniform in arclength over one period): L^6 R (LR)^20 fraction above Im 2 = 0.056; A_n / l = 0.0560626
+E. SNAPPY 3.3.2: THE LAYERED TRIANGULATION b++ L^n R (LR)^k
+   n = 5, k =  8: 22 letters, 22 tetrahedra, all tetrahedra positively oriented
+      reflections i -> t - i (mod 22) preserving the shapes as Z/3 orbits: [5]; the next best fails by 1.806
+      the highest tetrahedra (height = Im of the shape reduced to F): [2, 3], height 2.14622080276
+      t = 5: centres ['5/2', '27/2'] (an integer centre is a tetrahedron fixed by the reflection)
+         centre 5/2, in the run (letters 0..4); the three nearest pairs:
+            pair (2, 3): same-orbit distance 6.38e-59, conjugate-orbit distance 3.30067
+            pair (1, 4): same-orbit distance 0.0, conjugate-orbit distance 1.86189
+            pair (0, 5): same-orbit distance 0.0, conjugate-orbit distance 0.355797
+         centre 27/2, in the alternating block; the three nearest pairs:
+            pair (13, 14): same-orbit distance 4.09e-60, conjugate-orbit distance 0.000452552
+            pair (12, 15): same-orbit distance 4.08e-60, conjugate-orbit distance 0.000911437
+            pair (11, 16): same-orbit distance 0.0, conjugate-orbit distance 0.00538981
+   n = 5, k = 12: 30 letters, 30 tetrahedra, all tetrahedra positively oriented
+      reflections i -> t - i (mod 30) preserving the shapes as Z/3 orbits: [5]; the next best fails by 1.806
+      the highest tetrahedra (height = Im of the shape reduced to F): [2, 3], height 2.14621909998
+      t = 5: centres ['5/2', '35/2'] (an integer centre is a tetrahedron fixed by the reflection)
+         centre 5/2, in the run (letters 0..4); the three nearest pairs:
+            pair (2, 3): same-orbit distance 3.18e-59, conjugate-orbit distance 3.30066
+            pair (1, 4): same-orbit distance 0.0, conjugate-orbit distance 1.86189
+            pair (0, 5): same-orbit distance 0.0, conjugate-orbit distance 0.355794
+         centre 35/2, in the alternating block; the three nearest pairs:
+            pair (17, 18): same-orbit distance 0.0, conjugate-orbit distance 1.96843e-5
+            pair (16, 19): same-orbit distance 0.0, conjugate-orbit distance 3.93807e-5
+            pair (15, 20): same-orbit distance 0.0, conjugate-orbit distance 0.000235428
+   n = 6, k =  8: 23 letters, 23 tetrahedra, all tetrahedra positively oriented
+      reflections i -> t - i (mod 23) preserving the shapes as Z/3 orbits: [6]; the next best fails by 2.409
+      the highest tetrahedra (height = Im of the shape reduced to F): [2, 3, 4], height 2.45878030805
+      t = 6: centres ['3', '29/2'] (an integer centre is a tetrahedron fixed by the reflection)
+         centre 3, in the run (letters 0..5); the three nearest pairs:
+            pair (2, 4): same-orbit distance 3.62e-59, conjugate-orbit distance 4.03858
+            pair (1, 5): same-orbit distance 0.0, conjugate-orbit distance 2.04034
+            pair (0, 6): same-orbit distance 0.0, conjugate-orbit distance 0.316121
+         central tetrahedron 3: shape (-4.49424495451 + 2.45878030805j), highest orbit member (-4.49424495451 + 2.45878030805j), reduced to F (-0.494244954513 + 2.45878030805j); distance of Re from the mirrors 0.00575505; conjugate-orbit self-distance 4.92767
+         centre 29/2, in the alternating block; the three nearest pairs:
+            pair (14, 15): same-orbit distance 0.0, conjugate-orbit distance 0.000573269
+            pair (13, 16): same-orbit distance 0.0, conjugate-orbit distance 0.00115365
+            pair (12, 17): same-orbit distance 0.0, conjugate-orbit distance 0.00529648
+   n = 6, k = 12: 31 letters, 31 tetrahedra, all tetrahedra positively oriented
+      reflections i -> t - i (mod 31) preserving the shapes as Z/3 orbits: [6]; the next best fails by 2.409
+      the highest tetrahedra (height = Im of the shape reduced to F): [2, 3, 4], height 2.45877823339
+      t = 6: centres ['3', '37/2'] (an integer centre is a tetrahedron fixed by the reflection)
+         centre 3, in the run (letters 0..5); the three nearest pairs:
+            pair (2, 4): same-orbit distance 5.65e-59, conjugate-orbit distance 4.03858
+            pair (1, 5): same-orbit distance 6.39e-59, conjugate-orbit distance 2.04033
+            pair (0, 6): same-orbit distance 2.23e-59, conjugate-orbit distance 0.316118
+         central tetrahedron 3: shape (-4.49424234666 + 2.45877823339j), highest orbit member (-4.49424234666 + 2.45877823339j), reduced to F (-0.494242346661 + 2.45877823339j); distance of Re from the mirrors 0.00575765; conjugate-orbit self-distance 4.92767
+         centre 37/2, in the alternating block; the three nearest pairs:
+            pair (18, 19): same-orbit distance 0.0, conjugate-orbit distance 2.49363e-5
+            pair (17, 20): same-orbit distance 0.0, conjugate-orbit distance 4.98861e-5
+            pair (16, 21): same-orbit distance 0.0, conjugate-orbit distance 0.00023146
+read_out_check exit 0
