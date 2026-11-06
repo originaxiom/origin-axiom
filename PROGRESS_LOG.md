@@ -18666,3 +18666,12 @@ texture turned out to be the familiar cyclic symmetry seen in another basis, and
 to approach a known limit, which narrows what an older negative result means. One sealed test had dropped a planned
 comparison without saying so, and that is now disclosed. 0 of 19.
 
+## 2026-11-07 — S306j: the rest of the old proposals, checked
+
+The remaining proposals from the earlier review were checked the same way: about seventy open leads and two hundred and
+forty old items received from the other seats. Each check came with an exact quotation from the record, and every
+quotation was found where it was said to be. A third of the lead closures held up; for the rest, what is still open is
+now written next to each lead. Nine in ten of the old seat items were indeed already handled or carry no weight, and
+they are closed; the others stay open with reasons, or are pointed at the open question they feed. One small group
+computation settled a lead by itself. A wrong pointer in the foundation document was found and registered. 0 of 19.
+

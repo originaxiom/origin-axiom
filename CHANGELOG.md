@@ -1,5 +1,24 @@
 # Changelog
 
+## S306j THE OPEN LEADS AND THE BACKLOG CONFIRMED ONE BY ONE (B1850; R76-1's second half: P-617 DONE, P-616 narrowed) (2026-11-07)
+
+- **The owner:** 'lets do them'.
+- **What was checked.** Review 74's readers had proposed closing 73 open leads and 240 SCHEDULED harvest rows.
+  - Six read-only checkers each returned a verdict with a verbatim quote. Main found all 313 quotes at their paths (`quote_check.py`), read every decision, and applied only confirmed closures.
+- **The open leads: 24 closed.** 16 were answered and 8 carried in full by register rows.
+  - **48 kept open,** each with a dated note saying what is answered or carried and what is not.
+  - The reader's "carried in full by register rows" held for 9 of 32 leads.
+  - **Open leads 79 → 55; stale 42 → 26.** The baselines are lowered.
+- **L206, closed by main's own check.** (ABABB, a) generates π₁(m003): w = b to 8.5 × 10⁻¹⁵ in the faithful holonomy.
+- **The backlog: 216 rows closed,** with the old disposition kept in [was: …].
+  - **10 re-pointed** to the open rows that carry them: P-613, P-615, P-528, P-492 and P-606.
+  - **10 kept SCHEDULED** with dated reasons.
+  - **The counter's substring bug is fixed** (`is_scheduled`, with a planted test).
+  - **SCHEDULED, ledger-wide:** 272 → 46, and the baseline 282 → 46.
+- **New point P-730.** GENESIS's pointer to harvest row 189 names the wrong seat's R57. The correction waits for GENESIS's next amendment.
+- **The register:** P-617 is DONE. P-616 is narrowed to its 36 lead and debt rows, the 10 kept rows, and rows 383–396's memo numbers.
+- 0 of 19.
+
 ## S306i THE LEADS CONFIRMED ONE BY ONE (B1849; R76-1, the register half of P-617) (2026-11-06)
 
 - **The owner:** 'lets do them'.

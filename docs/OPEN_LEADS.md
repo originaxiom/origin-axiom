@@ -1080,6 +1080,8 @@ clause, not the whole normalisation.
 
 ## L144 — is B167's door-map still standing after the cascade campaign? (registered 2026-08-08, B979 prior-art read)
 
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. B1096 shuts door 5 (the anomaly layer vanishes identically). Doors 1–4 are untouched. The lead stays open.*
+
 > **CLOSED 2026-08-20 (B1096, L170a) — banner added 2026-09-14 at R57-3, three weeks and five
 > days late, by the open-claim sweep.** The closure was banked on **three** surfaces at the time —
 > `docs/THE_LADDER.md` rung X30, `docs/THEOREM_LEDGER.md:395`, `docs/SM_SPECIFICATION_LEDGER.md:275`
@@ -1192,6 +1194,8 @@ OVER-WIDE must not be counted as closed.**
 
 ## L145 — THE REVIVAL RESERVOIR: an indexed lead structure no register can be queried against (registered 2026-08-09, B986, from cc3's unexplored-leads sweep; verified on this bench)
 
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. P-322 carries the REVIVABLE view. Not carried: L145a's B500 reopen (35 unchecked words) and its score correction, and L145c's composite-id hazard. The lead stays open.*
+
 **The finding is not that leads are lost — it is that a whole lead structure exists that no ledger
 indexes, so its top items surface only by accident.**
 
@@ -1257,6 +1261,8 @@ unremarkable.** The finding is the *unindexed structure*, not anomalous loss.
 ---
 
 ## L146 — IS m004 SPECIAL AMONG ONCE-PUNCTURED-TORUS BUNDLES? (registered 2026-08-09, from the owner's "same base" question)
+
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. B1600 and B1601 answer the hypothesis on its false side (2T on every odd trace). Still open: what singles out ±LR. The own-conductor test for m ≥ 4 is not run. The lead stays open.*
 
 **The reframing B995 needed and did not have.** B995 asked *"is m004 special among all 3-manifolds"*
 and its instrument could not answer: rarity implies separation against a small set, so the
@@ -1348,6 +1354,8 @@ frequency.
 
 ## L147 — THE PRECISION BOTTLENECK, AND THE FIRST SPECTRAL TEST WITH POWER (registered 2026-08-09, sealed as B1006)
 
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. B1021 itself says the ask (λ₂ to 50 digits) is not discharged. The lead stays open.*
+
 **The value layer's bottleneck is named and quantified, and it is PRECISION.**
 
 **B798** established the law: PSLQ exclusion power needs **N ≈ 1.43·d·log₁₀(H)** digits. The
@@ -1424,6 +1432,8 @@ sensible intermediate target, and it is now a **scheduling** decision rather tha
 
 ## L148 — RE-GROUND THE ATLAS LEXICON, OR STATE THAT IT IS HISTORICAL (registered 2026-08-09, from B1008)
 
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. Neither P-322 nor P-291 carries the widen-or-declare decision or the B806/B1008 re-derivation. The lead stays open.*
+
 **The finding.** The atlas's 19-word lexicon is frozen on `knowledge/K001..K022` — the **early**
 knowledge base — and its descriptive power is **epoch-specific**: top-3 coverage **0.995 in
 B201–400**, **0.629 in B801–900**, with **motif density halving (5.95 → 2.98)**. Over the **183 arcs
@@ -1452,7 +1462,7 @@ owed is the decision and its re-derivation.
 
 ---
 
-## L149 — RUN THE CASCADE ON A NON-GOLDEN GRAMMAR (registered 2026-08-10, from B1009)
+## L149 — RUN THE CASCADE ON A NON-GOLDEN GRAMMAR (registered 2026-08-10, from B1009) — CLOSED 2026-11-06 (R76-1, B1850: answered by B1019 (DIVERGES: the siblings have no door))
 
 **Why it exists.** Review 42 concluded *"matching the SM could never have confirmed the axioms."*
 **B1009 withdrew that as a scope overreach.** B996 and B993 establish that the **E₆ WAYPOINT** is
@@ -1525,7 +1535,7 @@ recomputation re-derived ℚ(√3129) from the raw pencil charpoly.
 
 ---
 
-## L151 — THE ANCHOR BUDGET AS A STRUCTURAL PREDICTION (registered 2026-08-10, from the owner's bridge principle, B1014)
+## L151 — THE ANCHOR BUDGET AS A STRUCTURAL PREDICTION (registered 2026-08-10, from the owner's bridge principle, B1014) — CLOSED 2026-11-06 (R76-1, B1850: carried in full by P-328 (its MATCH/MISMATCH test, after the e20c J rule is verified on main))
 
 **The idea.** The framework's counted input list (B1000/S4: two 𝔽₂ bits, one scale, one Lie type)
 should *predict its own anchor budget*: the bits and the Lie type are discrete (no continuous
@@ -1545,6 +1555,8 @@ kind-admissible before any SM contact.
 ---
 
 ## L152 — RELAYS ARE NOT GATED FOR CONTENT (registered 2026-08-10; B999's structural residue, named by the audit seat during its own θ withdrawal)
+
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. P-291 is a math-integrity check and states no relay-content gate; no row carries this lead. The lead stays open.*
 
 **The gap, in the finder's words:** *"`relay_debt.py` verifies that every relay has a disposition.
 It has nothing to say about whether a relay's CONTENT contradicts main. A relay asserting against
@@ -1584,7 +1596,7 @@ unconditional; reversal's zero-choice construction (bare τ-lift via B644's func
 alternative (would give d = 3) is priced in the arc. The input list does NOT undercount;
 `THE_CLAIM` stands.
 
-## L154 — IS THE GRAVITATIONAL σ THE STAGE's σ? (registered 2026-08-10; the audit seat's Blocker 2 + the construction seat's derivation; JOINT — the run's first two-seat finding)
+## L154 — IS THE GRAVITATIONAL σ THE STAGE's σ? (registered 2026-08-10; the audit seat's Blocker 2 + the construction seat's derivation; JOINT — the run's first two-seat finding) — CLOSED 2026-11-06 (R76-1, B1850: carried in full by P-137 (the bridge posed on the weave's sector), with P-138 and P-318)
 
 **The tension, exact:** c((E₆)₁) = 78/13 = **6** = B254's banked conformal-embedding split
 (16/5 + 14/5), and the B1012 closure forces **c = 6σ** — so **if the stage CFT's c is the
@@ -1632,6 +1644,8 @@ Clifford probe's arc).
 
 ## L157 — THE INTERACTION HOOKS (the seed–field frame's three computables; registered 2026-08-12)
 
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. Hooks 1, 2 and 4 are computed (B1039, B1042, B1043), and hook 3 is L154. Forbid 1 (seam-locality) is recorded as untested. The lead stays open.*
+
 From `speculations/S_SEED_FIELD_COSMOGONY.md` (firewalled; the frame is under the audit
 seat's adversarial odyssey — Task C — and these hooks stand on banked substrate
 regardless of the frame's fate):
@@ -1667,7 +1681,7 @@ criterion independent of the computing method. L157-4's assembly is PINNED to th
 cyclic three-copy weld (the "3-fold cover" struck — different object); yield = the MV
 connecting-map contribution, benchmark 2 per seam, triple total ≥ 6 forbidden below.
 
-## L158 — THE V-OWNER RECONCILIATION (the Field Ladder's FL-1/FL-5/FL-6; registered 2026-08-12)
+## L158 — THE V-OWNER RECONCILIATION (the Field Ladder's FL-1/FL-5/FL-6; registered 2026-08-12) — CLOSED 2026-11-06 (R76-1, B1850: answered by B1040 (the field owns V's structure, the object its instantiation) and B1041; a one-line TERMINOLOGY note remains)
 
 Who owns the seam space V — the object or the field? Three textual collisions, none
 reconciled by any arc: **FL-1** — S069 assigns V to the object ("I am a vector space…")
@@ -1682,6 +1696,8 @@ fact — the four h=1 sisters do not share ω's ℤ/3, so the battery genuinely
 discriminates ω-consumption from ℤ/2-only consumption, B733's bit).
 
 ## L159 — THE GERBE QUESTION (X7's cite-don't-rediscover; READING-GATED; registered 2026-08-12)
+
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. B1248 and B125 do not address the gerbe, and the Deligne–Milne gate never ran. The lead stays open.*
 
 The programme's central structure has a classical name: a category of representations,
 canonically determined, with **no canonical fiber functor over the base = a NON-NEUTRAL
@@ -1719,6 +1735,8 @@ FL-4-adjacent, distinct (deletion/sisters vs morphism).
 
 
 ## L161 — THE APERIODIC CROSSING CAMPAIGN (OWNER-ELECTED 2026-08-13: "GO!"; Phase 0 is CONTROL-FIRST and cheap by design)
+
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. P0-0, the genericity control, lives only here. P-335 declined an experiment and kept L161 at P0-0; Phase 1b is P-331, under P-033. The lead stays open.*
 
 **Dated note 2026-11-04 (the owner's ruling of 2026-11-04 ('i aprove all your recomendations'), P-335):** no experiment is commissioned. The lead stays open at P0-0: the genericity control is designed and sealed first; no route from it reaches the 19.
 
@@ -1775,6 +1793,8 @@ work-queue, not the claim.
 
 ## L162 — THE F₄-TRANSITIVITY VERIFICATION (a web seat's handoff 2026-08-10, received 2026-08-13; KRUTELEVICH-GATED)
 
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. P-332 carries the transitivity proof route. Not carried: the THE_CLAIM input-#5 and B962 Q4 amendments it gates. The lead stays open.*
+
 The web seat (exploratory, unsealed): **F₄(ℤ) is transitive on rank-1
 idempotents of the SPLIT integral Albert algebra** — closing B962 Q4's "one live
 opening" and moving input #5 (the rank-closing VEV direction) to PROVED IRREDUCIBLE
@@ -1805,13 +1825,15 @@ and the B962 Q4 amendment. If verified: the FIFTH arrival at the window's shape.
 
 ## L163 — THE μ-PENCIL INDEPENDENT DERIVATION (a NOT-RUN unmasked; from the blocker scrutiny §2)
 
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. B866 and B978 rebuild the pencil. Still open: char-0 exactification over K. L142's re-pose was closed only by a reading. The lead stays open.*
+
 L142's "blocked on L135" label corrected: B961 §5's own text offers the route that
 needs nobody's definitions — **derive the orthogonal charge frame from banked
 structure, independently**. "A separate cell" is a not-run, not an obstruction; the
 label propagated without its reason (species #14). The cell: the derivation, then
 L142's three-sites question re-poses with the μ-pencil live.
 
-## L165 — F4(ℤ) ON ORTHOGONAL PAIRS of rank-1 idempotents in the split integral Albert algebra (registered 2026-08-14; the web seat's successor question; ≠ their qL165 — the alias table disambiguates)
+## L165 — F4(ℤ) ON ORTHOGONAL PAIRS of rank-1 idempotents in the split integral Albert algebra (registered 2026-08-14; the web seat's successor question; ≠ their qL165 — the alias table disambiguates) — CLOSED 2026-11-06 (R76-1, B1850: a duplicate of L176, both carried by P-332)
 
 **The frontier**: rank-6 → rank-4 needs TWO orthogonal VEVs; B990's obstruction was
 rescoped to PAIR-orbits (B1025 I5 — the single-VEV line was never its subject). The
@@ -1874,7 +1896,7 @@ r_i), so the off-diagonal condition couples b+c = 1 — a transplant to
 (1,2) manufactures a false contradiction (the E1 species, caught live
 between two seats and settled by the full product check).**
 
-## L166 — THE LISTENER MAP, posed (registered 2026-08-18; the W5 cell; the crossing door)
+## L166 — THE LISTENER MAP, posed (registered 2026-08-18; the W5 cell; the crossing door) — CLOSED 2026-11-06 (R76-1, B1850: answered by B1070 and B1071 (Λ constructed), with B1072 and B1073; the spec's gaps G5–G9 lie outside the lead's closing criterion)
 
 **The problem**: a classification rule Λ : (field-side data of the B593/B1011 instrument) →
 (admissible unit directions u), never a guessed vector, never a fit. Full spec, licensing
@@ -1923,7 +1945,7 @@ prereg (CROSSING_REQUIREMENTS R1–R11 + the twelve as rows; the location clause
 | **L172 — the golden-gate dictionary** | The figure-eight braid as the golden gate: verify Jones(4₁; e^{2πi/5}) = 1−√5 in-sandbox; then type the torsor→device dictionary — which gates and which asymmetries a Fibonacci-anyon device can natively realize (forced vs free as universality/magic-state statements). Ties to the banked κ-quasicrystal bridge and the golden TQFT family. | The Jones value is exact; each dictionary row is a theorem-or-counterexample. | ★★ (cheap first arc) |
 | **L173 — the edge-prediction prereg SPEC** **SEALED 2026-08-21 (B1106; docs/EDGE_PREREG_SPEC.md; digest in SEAL_LEDGER; C-GEN run+passed pre-seal; the owner's D-2/D-3 executed — the aperiodic unseal RESOLVED: two crossings, one apparatus; the tone lane is L178).** *(DISCIPLINE ADDED 2026-08-20, the audit seat's warning adopted + B1095's computation: the prereg's FIRST paragraph must state what gap labeling + bulk–boundary already force for the same configuration and where we differ, BEFORE any comparison — B724 transposed to the experimental lane; the differential's computed content: the cross-hand mirror-isospectral split, not the counts)* | B1085's ρ-scan as a preregistered laboratory prediction for photonic/polariton Fibonacci chains (topological pumping scans the cut phase ρ directly): the prediction is the FUNCTION ρ ↦ edge content, gap-labeled (IDS values in the Fibonacci gaps), two hands = the two sides of one cut. ~~SPEC ONLY until the aperiodic design's owner-pending unseal resolves whether this and the trace-map-RG channel (Kohmoto exact RG; critical exponents menu-shaped, kind-correct) are the same crossing.~~ **[SUPERSEDED IN PLACE 2026-09-12 — outside-bench memos 206/208/210/211/213/214/215; certificates `the_triage_was_already_done.py`, `the_seal_already_happened.py`. Struck text kept for provenance, not deleted.]** **SUPERSEDED — contradicts this row's OWN header.** The unseal was RESOLVED and the spec was **SEALED 2026-08-21** (`SEAL_LEDGER`; B1106; the owner's D-2/D-3 executed; `EDGE_PREREG_SPEC.md` reads *"Status at landing: SEALED"*). **Status 2026-09-16 (B1414, outside bench memo 196 addendum 1, certificate re-run here):** the three sealed edge-prediction clauses are exact word identities (H_L ≡ J·H_R·J), not three independent kill conditions — the SPEC's pass/fail count must be read as one condition, not three. | Each (ρ, gap) cell predicts a definite edge count/energy; a chain measurement decides it. | ~~★★★★ (the laboratory road; GATED on the owner's aperiodic unseal for the seal step)~~ **[SUPERSEDED IN PLACE 2026-09-12 — outside-bench memos 206/208/210/211/213/214/215; certificates `the_triage_was_already_done.py`, `the_seal_already_happened.py`. Struck text kept for provenance, not deleted.]** **★★★★ — NOT gated on the owner; the seal step is DONE.** Outstanding is an **experimental run nobody has commissioned** (R6′: count boundary-capable modes in a labelled Fibonacci gap on a chain long enough to separate 5 from 6). And the price of passing is priced: outside-bench memo 197 shows the sealed alternation is the **modal** behaviour of a random phase (19.77% of 3000; one phase in five reproduces it over nine windows), so observing it at ρ = α does **not** identify α — the lane is slope-specific, not phase-specific. **· PRECISION COLUMN RE-POSED 2026-08-27 (B1171, from cc3's B8146 NEGATIVE):** the banked prediction is a **COUNT** (ρ ↦ edge content, 5-vs-6 at ρ=α), not an energy — so "what energy resolution is standard" was mis-posed; the anchor (arXiv 1403.7124: 13–28 waveguides, ~π/6 phason steps, no error bars, qualitative mode-ID) is *"a demonstration paper, not metrology."* **The program supplies the KNOB (the phason = our intercept), not the READOUT.** The spec's §4 R6 is re-posed by addendum-beside (`docs/EDGE_PREREG_SPEC_ADDENDUM_B8146.md`): commission a **mode-count observable in a labelled gap** (enough sites to separate 5 from 6), not a resolution threshold. |
 
-## L174 — THE 3D COMPLETION CAMPAIGN (registered 2026-08-19 at the owner's election; full treatment and exploration)
+## L174 — THE 3D COMPLETION CAMPAIGN (registered 2026-08-19 at the owner's election; full treatment and exploration) — CLOSED 2026-11-06 (R76-1, B1850: answered: C1–C4 banked as B1088–B1091, C5 NEGATIVE in B1108)
 
 **THE PRIZE, STATED FIRST (the evidence grades follow — they grade the evidence, not the
 ambition): a complete, parameter-free 2+1-dimensional quantum gravity + matter theory.
@@ -1950,7 +1972,7 @@ fresh (B1084's cone). The cells:
 *Path 2's residues live in B1084's hatch + B1087's cut-side reading. Paths 1/5 converge
 in L173. This campaign is the assembly frame for all of them.* | PHYSICS | ★★★★★ | ~~OPEN — C1 first~~ **[SUPERSEDED IN PLACE 2026-09-12 — outside-bench memos 206/208/210/211/213/214/215; certificates `the_triage_was_already_done.py`, `the_seal_already_happened.py`. Struck text kept for provenance, not deleted.]** **SUPERSEDED — C1 through C4 are all BANKED**, eight lines above this row: C1 (B1088), C2 (B1090), C3 (B1089), C4 (B1091). Only **C5** remains — see its own correction. |
 
-## L175 — the h = 0 locus of the being gate (registered 2026-08-21, B1103's first follow-up)
+## L175 — the h = 0 locus of the being gate (registered 2026-08-21, B1103's first follow-up) — CLOSED 2026-11-06 (R76-1, B1850: answered by B1110's F5 (the h = 0 locus is a word property))
 
 The vanishing count of B1103's coupling was channel-independent in every channel the
 outside session tested (26 in all three; 28 on the free-group census — the count is
@@ -1970,7 +1992,7 @@ item in the family; typed OPEN.
 > ≥0.30 for every other word — fifteen orders of separation). The "coincidence needs
 > explaining" branch did not fire.
 
-## L176 — F₄(ℤ) on orthogonal PAIRS of rank-1 idempotents (registered 2026-08-21; the outside session's machinery pointed at Route A)
+## L176 — F₄(ℤ) on orthogonal PAIRS of rank-1 idempotents (registered 2026-08-21; the outside session's machinery pointed at Route A) — CLOSED 2026-11-06 (R76-1, B1850: carried in full by P-332 (the Eichler route, the explicit automorphisms, B1121's search box))
 
 B1025 records B990's obstruction as concerning PAIR-orbits (the Kato–Yukie setting),
 and rank 6 → rank 4 needs a pair; B1094 proved "the pair is the object" from two
@@ -1982,7 +2004,7 @@ recorded in the package (Krutelevich by scope; Kato–Yukie wrong group). Typed 
 differential vs B1099's counter question stated at registration: this is the ORBIT
 side, not the counting side.
 
-## L177 — the 4d suspension selection question (registered 2026-08-21, owner-elected; RUN TO THE END SAME DAY → B1104)
+## L177 — the 4d suspension selection question (registered 2026-08-21, owner-elected; RUN TO THE END SAME DAY → B1104) — CLOSED 2026-11-06 (R76-1, B1850: answered by B1104 (NO-SECTION))
 
 *"Can the observer math embed one more layer up — is the dimension we lack
 nameable?"* (the owner's question, typed at B1103's bank). Registered and CLOSED the
@@ -2036,6 +2058,8 @@ the "debt" framing on 449ece8 is cleared. cc3 credited. ★★ (hygiene/provenan
 
 ## L182 — THE THREE SEAMS: the make-or-break crossings, sealed and named (registered 2026-08-26; source `frontier/B1146_seam_b/THREE_SEAMS_PREREG.md`, sha e699ebc79c06a823)
 
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. SEAM-B and SEAM-Y are resolved (B1146, B1154). SEAM-A is open in B1156, and B1159 calls it a wall only in substance. The lead stays open.*
+
 **STATUS UPDATE (2026-08-26) — all three seams now WALKED:** SEAM-B **DISCHARGED** (B1146, the −I on 27 & 78). SEAM-Y **RESOLVED = MISMATCH** (B1154: codex's up-Yukawa=0 is a cohomological emptiness, ours an arithmetic non-overlap — two independent walls, both confirming structure-not-values). SEAM-A (the prize) **INDETERMINATE = OPEN** (B1155: Gate 1 met, **Gate 2 — the full arithmetic-CS action of m004 — the missing gate**; the √3 hinge banked). **The one live crossing is SEAM-A.** Provenance debt flagged: codex's primary derivations are off-branch/unversioned.
 
 **SHARPENED (2026-08-26, B1156 — WF-1 adversarial workflow, 10 agents):** SEAM-A Gate 2 is now a **precise FLOOR**, and B1155's "leaning MISMATCH" is **withdrawn**. The a-priori MISMATCH — "arith-CS is torsion-valued (1/n)ℤ/ℤ, so it cannot reach the real transcendental Vol" — was **refuted (2 of 3 lenses)**: it is a theorem about the **finite μ_n-coefficient truncation only** (Artin–Verdier), secured solely by *defining* arith-CS to be that truncation. The **full/Arakelov-compactified** arithmetic CS over the closed Spec O_F=ℤ[√−3] (∞-place included) carries a **real archimedean summand = the Borel regulator of ξ=[e^{iπ/3}]∈K₃(ℚ(√−3)) = Vol** — the codomain contains ℝ; the wall is truncation-dependent (this *echoes* B1108, re-verified). MATCH is not sealable either (no map finite-phase→Vol is constructed). Category correction: arith-CS is a functional of a **field + Galois rep**, not "of m004"; the one class ξ has three completions (archimedean→Vol, finite→torsion, p-adic→GSWZ), and **B800 is the p-adic one, not the finite Kim action**. **The one open bar** is now named exactly: extend **Andersen–Hansen**'s proved root-of-unity↔Vol crossing from closed Dehn surgeries on 4₁ to the **cusped** m004, and decide whether the archimedean summand gives a genuine map sending codex's finite order-6 phase to Vol vs merely relabeling Vol as the regulator — two specialist sub-bars: (i) object side (a stationary-phase/CS bridge with content when CS=0 by amphichirality, B1108's unwalked door); (ii) codex side (the marked H³ basis/period/Ω normalization OA-C1045/C1053 record as ABSENT). Still NEEDS-SPECIALIST — but a sharp bar, not a leaning negative.
@@ -2066,6 +2090,8 @@ reading- and derivation-gated; nothing here promotes to CLAIMS.
 
 ## L183 — THE REPRODUCER SWEEP: arcs banked as results with no code in the tree (registered 2026-08-26; cc3's cross-band suggestion, c1dc81c3)
 
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. P-322 does not carry the census of arcs banked without a runnable reproducer, and no other row does. The lead stays open.*
+
 cc3, drafting the paper series, found **B8129 and B8130 banked as `results.json` with no
 reproducer in the tree** — a numerical claim that would have shipped with no script. They
 wrote one independently from the banked method description, promoted the bite control to an
@@ -2079,7 +2105,7 @@ re-derivation task. ★★★ (reproducibility hygiene; the paper lane makes it 
 this seat's recent band (B1143–B1148) ships reproducers — B1148 8/8, B1146 `seam_b.py`, B1145
 `sp2_independent.py` — so the sweep's yield is expected in older arcs.
 
-## L184 — THE SUITE COLLECTION LAZY-FY: make even the FULL suite collect fast (registered 2026-08-26, B1152; the root fix behind the fast-lane remedy)
+## L184 — THE SUITE COLLECTION LAZY-FY: make even the FULL suite collect fast (registered 2026-08-26, B1152; the root fix behind the fast-lane remedy) — CLOSED 2026-11-06 (R76-1, B1850: answered by B1178 (collection 178 s to 15 s); the later regression is P-322's)
 
 B1152 gave the inner loop a changed-file fast lane, but the **root** cost stands: pytest imports every
 test module before running any test, so module-level computation in test files runs at **collection**,
@@ -2133,7 +2159,7 @@ B189's "indistinguishable" clause REVERSED — 11σ at L10 → L190); **B685 ext
 refuted** (the mod-2 étale census: the 2-inert signature is abundant from depth 5; depth-4 zero;
 kill stays PROVISIONAL; the B502 field-level witness → L191).
 
-## L188 — THE SELECTION-COCHAIN SIX-CLAIM VERIFICATION (registered 2026-08-27, B1172; source: the B879 packet, 24-day debt escalated)
+## L188 — THE SELECTION-COCHAIN SIX-CLAIM VERIFICATION (registered 2026-08-27, B1172; source: the B879 packet, 24-day debt escalated) — CLOSED 2026-11-06 (R76-1, B1850: answered by B1199's GC-31)
 
 cc3's first originated campaign (sealed prereg, 13 test locks, byte-identical rerun) delivered six claims
 that have sat unverified since 2026-07-17 — **the packet's own reconciliation addendum (2026-08-03) is the
@@ -2148,6 +2174,8 @@ The cell: verify-don't-trust each claim per its addendum disposition, bank under
 
 ## L185 — THE QOR5UP UNPORTED RESIDUE (umbrella; registered 2026-08-27, B1173 at the digest partial-close; owner-directed O4)
 
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. The disposition table is only in a gitignored audit draft, and the row it promises does not exist. The lead stays open.*
+
 The B1060 digest closed PARTIAL with **13 NOT-REACHED rows**, all readable at the frozen qor5up branch via
 `docs/CLOUD_ALIAS_TABLE.md`: lanes 3.1–3.5 (the law-siblings gate; the supersession gate; E37/E38 →
 ERROR_LEDGER; verdict_drop.py), 4.1–4.7 (the B408/B426 Galois restoration; B564-closed-B141; the
@@ -2160,6 +2188,8 @@ R47-3/R48-5 discharged). ★★ (a queue pointer, not a computation; the two-κ 
 likeliest early reopens).
 
 ## L189 — THE GENESIS-CHAT HARVEST CANDIDATES, OWNED (registered 2026-08-27, B1176/R50-4; source: the gitignored local triage list `chronicle_raw/HARVEST_CANDIDATES.md` — private by the LEAK-NOTHING rule; only the mathematical TOPICS are named here)
+
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. The eight dispositions are only in the audit room (P-656). Item (1) is P-638, still open. The lead stays open.*
 
 The genesis-era chat export's triage extracted **eight candidate-unbanked mathematical claims** that no
 tracked surface owned until now (the completeness critic's highest-value gap): (1) **U_e** — the
@@ -2175,6 +2205,8 @@ physics-adjacent gaps in the record). Private source stays untracked; this row i
 
 ## L190 — THE Ω-DAG'S STRUCTURED NON-GENERICITY (registered 2026-08-28, B1187; source: the per-level matched-null test)
 
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. B1188 corrects only the direction word. The reach-deficit law and its richer null are not computed. The lead stays open.*
+
 B189's C3 called the Ω class-poset "indistinguishable from a matched random graded DAG" at 30 seeds.
 At 100 seeds per level the clause REVERSES: z(L=6..10) = (−2.2, −2.8, −2.3, +0.6, **+11.2**) — the
 full poset has a significant DEFICIT of transitive reach (d_MM 3.936 ABOVE null 3.782 ± 0.014 — higher d_MM = lower ordering fraction = more tree-like; direction corrected at B1188), and the
@@ -2184,7 +2216,7 @@ The lead: WHAT is the Ω-DAG's reach-DEFICIT structure (more tree-like than its 
 which combinatorial law?), and does it carry object content? Bounded first cell: reach-profile
 statistics vs richer nulls (degree-preserving rewiring). ★★
 
-## L191 — THE B502 FIELD-LEVEL WITNESS (registered 2026-08-28, B1187; source: the mod-2 étale census)
+## L191 — THE B502 FIELD-LEVEL WITNESS (registered 2026-08-28, B1187; source: the mod-2 étale census) — CLOSED 2026-11-06 (R76-1, B1850: carried in full by P-334 (B502 dead at depth 4))
 
 B502's parity conjecture ("every interaction-born field has 2 | d_K"; kill = ONE odd-disc witness)
 was preregistered but never run. The B1187 census refutes its exclusion power at the signature
@@ -2194,6 +2226,8 @@ compute d_K of a quartic factor — one odd d_K kills B502 clean; all-even acros
 revive it as a live conjecture with the census as its foil. **B398 airlock armed** (a d_K = −283 or
 field-iso hit = STOP, convene). ★★
 ## L192 — THE TYPE-MATCHED QUESTION IN THE β-ODD BOX (registered 2026-08-31, B1226; source: the SM-parameter typing)
+
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. P-323 carries the θ̄ question. Not carried: the same CP bit for δ_CKM and δ_PMNS, and the link to B303. The lead stays open.*
 
 B1226 typed the SM's 28 parameters by our own law (B1168) into four boxes. Box A (β-even, pure) is
 **closed by proof** — B1225: the object cannot select. Boxes B and C are the reader's by the scale
@@ -2221,6 +2255,8 @@ side must be computed before any measured value is named. ★★★
 
 ## L193 — THE CS-SILENT CHIRAL HALF OF THE FAMILY (registered 2026-09-02, B1235; source: fab5cloud D9, recomputed)
 
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. P-334's answer is on 1490 word states, not on the 112-family. The finer invariant is not carried. The lead stays open.*
+
 The 112-family is 38 amphichiral / 74 chiral, and **38 of the 74 chiral members are CS-silent** (CS ∈ {0, ¼} mod ½)
 — o10_150700 is the loud one (CS = −1/12). B1224's law is one-way: amphichiral ⇒ CS ∈ {0, ¼}. The converse was
 silently assumed in three places and is false 38 times. **Lead:** what distinguishes the 38 CS-silent chiral members
@@ -2229,6 +2265,8 @@ action on the cusp shape, the symmetry-group's orientation character). Whatever 
 family-wide amphichirality story must be rebuilt on. ★★★ (harvested from the seat; the 38/74 split is banked.)
 
 ## L194 — DOES A FREE ORIENTATION-REVERSING DECK FORCE CS ≡ 0 (mod ½)? (registered 2026-09-02, B1235; source: codex R036's gap, computed)
+
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. B1477 makes it a census law on 1,205 manifolds, 'not a proof'. The proof obligation stands. The lead stays open.*
 
 Amphichirality forces CS ∈ {0, ¼}; A6's orientation double covers land at **0 in 40 of 40**, while ¼ occurs at
 36 % (16/44) among amphichiral manifolds in general. P ≈ 0.64⁴⁰ ≈ 2 × 10⁻⁸ by amphichirality alone. `already_banked`
@@ -2275,7 +2313,7 @@ remembered. B738's SHORTLIST (2026-07-21) is that view for 217 of today's 774. *
 existing loaders; MB12 controls = a planted unwalked hatch must appear, a walked one must not. ★★ (instrument, not
 physics; cheap; the reservoir is the program's own negatives read as SPECIFICATIONS.)
 
-## L196 — B1–B5 HAVE NO `arc_verdict.json` (registered 2026-09-02, B1235 addendum; source: cc3's HARVEST_MANIFEST #2 and FRAMEWORK_DELTA Δ6, 2026-08-09)
+## L196 — B1–B5 HAVE NO `arc_verdict.json` (registered 2026-09-02, B1235 addendum; source: cc3's HARVEST_MANIFEST #2 and FRAMEWORK_DELTA Δ6, 2026-08-09) — CLOSED 2026-11-06 (R76-1, B1850: answered in B1235's addendum (the five verdicts written))
 
 `frontier/B1_gluing_chern_simons` … `frontier/B5_wheeler_dewitt` are ingested by the digest (B984/B985 closed the
 filename hole) but carry no verdict, so every verdict-reading instrument (views, kill graph, identification audit,
@@ -2290,6 +2328,8 @@ weight 0; Λ weight −2; R = ℓ_P inserted by hand; same family as B259 wall #
 Lock: `tests/test_b1235_nine_relays_read.py::test_l196_b1_b5_carry_verdicts`. ★★ → CLOSED (archival; the digest's oldest blind spot).
 
 ## L197 — THE SUPERSESSION SWEEP + THE BELT'S TWO NON-RECOMPUTING FAMILIES (registered 2026-09-02, B1237; source: the physics-seat evaluation branch's W-D synthesis @ d415423a, findings verified here)
+
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. P-319 (the P9 and GENESIS tier) and P-589 (LAW_MAP) carry parts. Not carried: the corpus-wide walk of the superseded_by candidates, and REVIEWER.md's lock_kind column. The lead stays open.*
 
 **(a) Supersession.** The seat digested 605 arcs and tallied `SUPERSEDED_UNMARKED` 48 [2026-09-02 B1240] the seat's full synthesis tallies **128** (128 distinct arcs; column-parsed, fc `SUMMARY.md` agrees); the candidate list ships as `frontier/B1240_belt_closure_and_fc_harvest/verification/superseded_unmarked_candidates.tsv` — candidates, never verdicts], `RETRACTION_NOT_PROPAGATED` 25,
 `LOG_DRIFT` 24: a later arc corrects an earlier one in the log and the earlier arc's `arc_verdict.json` still says
@@ -2312,6 +2352,8 @@ this makes its coverage visible). ★★ (record hygiene; nothing physical rides
 
 
 ## L198 — SHIP THE GENERATOR: the CANNOT_RUN class at corpus scale (registered 2026-09-02, B1240; source: the physics-seat evaluation branch's Phase C/D synthesis, verified here)
+
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. P-322 carries the CANNOT_RUN count and the vendoring of R020–R022. Not carried: the fc R46 certificates, the six PINS-TEXT runners and the reproduce_belt walk. The lead stays open.*
 
 B1240 vendored the reproduction closure of five arcs whose runners pointed at a seat branch; the same shape
 recurs wherever a record says "reproduces" and the code that produced it is not on main. Phase C's PARTIAL shape 1
@@ -2339,6 +2381,8 @@ I-13. ★★ (each closes a row; I-13 stays the programme's).
 
 ## L200 — THE DIVISOR LAW OF THE HARMONIC GENERATOR: prove it as an Eisenstein expansion, and identify `c₀` (registered 2026-09-07, B1295; source: this bench, found while computing the SM seat's `c₍±2,0₎`)
 
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. P-318 lists only B1295's PSLQ domain. The proof and c₀ are not derived. The lead stays open.*
+
 B1295 solved the harmonic generator of `H¹(m004; ℝ)` on the cusp to residual 1.6e−12 and found, with **zero
 fitted parameters**, that every θ-odd cusp coefficient obeys `c(ν) = c₀ · S(ν)` for `ν = a + b√−3 ∈ ℤ[√−3]`
 (`a = m₂/2`, `b = −m₁`), `S(ν) = (1/|ν|) Σ_{d·e=ν} w(d, e)`, `w = Re(d ē)` on odd–odd pairs, `±Im(d ē)/√3` on
@@ -2361,6 +2405,8 @@ need the exact coefficients. ★★ (an exact object where there was a number; n
 
 ## L201 — CAN A CLOSING ABSORB THE SU(3) CUBIC ANOMALY OF THE F₄ CHAMBER'S CHIRAL FACES? (registered 2026-09-07, B1296; source: this bench, found while classifying the θ-even chamber)
 
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. B1641 and B1674 compute neither the F₄ chamber faces' SU(3)³ anomaly nor any closing. The lead stays open.*
+
 B1296 proved that a θ-equivariant charge locus on Fix(θ) lands the Higgs direction on the F₄ chamber, whose four
 chiral faces (`ω₄^∨`, `ω₃^∨+ω₅^∨`, `ω₂^∨+ω₄^∨`, `ω₁^∨+ω₆^∨+ω₃^∨+ω₅^∨`) all carry a non-zero SU(3) cubic anomaly in
 the left-handed content (normalised to the fundamental: 78-sector −3 and 27-sector +1 per A₂ on the two
@@ -2376,7 +2422,7 @@ do not cancel. **FIREWALL:** the 1 : 3 is a ratio between two frames and a repre
 `E₆ ⊃ SU(3)² × SU(2) × U(1)`; it is NOT a generation count and nothing is built on it (H-B1296-RATIO). Not on
 the MASTERPLAN v3 door path — recorded, not chased; it becomes a door only if D2 lands on the F₄ chamber. ★.
 
-## L202 — WHERE A SPECTRAL COVER ON m004 COULD STILL BE CHIRAL: the sectors the period-2 symmetry does not dualise (registered 2026-09-08, B1297; source: this bench, found while closing D2's (2+1)-reducible family)
+## L202 — WHERE A SPECTRAL COVER ON m004 COULD STILL BE CHIRAL: the sectors the period-2 symmetry does not dualise (registered 2026-09-08, B1297; source: this bench, found while closing D2's (2+1)-reducible family) — CLOSED 2026-11-06 (R76-1, B1850: answered by B1413 (zero on every geometric sector, by theorem) and B1324; (a) superseded by B1604)
 
 *L202 note (2026-09-09, B1320 — Phase 2 Arc 0): PW's LOCALIZED count on the cyclic descent is computed: on C₃ and C₄ every orientation-preserving cusp-fixing isometry has |det(A − I)| ∈ {0, 4} — never 3 or 6 — with m202 as the live positive control (its order-3 rotation gives 3 on the same code path). The localized half of D2 is closed on the cyclic tower in PW's own frame; Arc A (the bulk index beyond the tower) and Arc B (a non-amphichiral cover or a priced partial filling) remain.*
 
@@ -2417,7 +2463,7 @@ exact clauses (the ramified prime 5; the half-deck's global sign; + at even leve
 approach to the SM's field content the object has produced" — vector-like, one light generation, massless at tree level, SM × U(1)². The
 object-native selector for this lead is now a finite arithmetic menu.*
 
-## L204 — THE SUBREGULAR POINT'S ONE UNPAIRED DIRECTION (registered 2026-09-08, B1299; mirrors the SM-derivation seat's sm:L207 of 2026-09-06; the exact half done by B1298)
+## L204 — THE SUBREGULAR POINT'S ONE UNPAIRED DIRECTION (registered 2026-09-08, B1299; mirrors the SM-derivation seat's sm:L207 of 2026-09-06; the exact half done by B1298) — CLOSED 2026-11-06 (R76-1, B1850: answered by B1322 (N(27) = 0 on every direction))
 
 *L204 status 2026-09-09 (B1322): **CLOSED — VERIFIED on two benches.** The SM-derivation seat's sm:B1350 (@ 7484ad01) integrated the V₁₀ classes to genuine non-self-dual E₆ representations (Newton to 10⁻⁶⁸) and found h¹(M; 27) = h¹(M; 27̄) = 0, no cusp-fixed vector, N(27) = 0 on class 1, class 2, their sum and difference; main re-read the four banked 100-digit points with its own Fox calculus and agrees at every entry. The θ-odd frame is closed on every sl₂ germ; the 15 % prior resolves to 0. Credit: the seat, by pin.*
 sm:B1280 Theorem 2 makes the θ-odd E₆ germ at the geometric (principal) point vector-like by symmetry: the inversion acts as the
@@ -2433,6 +2479,8 @@ programme's first symmetry-unprotected chiral direction on the flat sector — a
 chirality, not only for typing. Prior 15 %. ★★. *Note 2026-09-09 (B1306 slice A): the SM-derivation seat has begun this computation as sm:B1350 (@ 0dffacd4): stages 0–3 exact — the subregular point's h¹ = 3 for 27 and 27̄ with N = 0, the two V₁₀ classes each with h¹ = 1, neither cusp-trivial (restriction rank 2), both trace-flat at first order; stage 4 (the 400-bit Newton deformations and N(27)) pending on the seat. Main's arc for this lead verifies sm:B1350 when its stage 4 lands, with credit by pin. *Slice B (2026-09-09): the seat's exact obstruction calculus (stages 5a–5c) re-run here — rank d¹ = 70, both V₁₀ classes and both combinations formally integrable through order 6 (the V₈ control stops at 5; one-sided method), so the Newton stall is numerical, not geometric; stage 4 still pending.*
 
 ## L203 — SELECTION AMONG THE CLOSINGS: Y₉'s 19 624 vacua AND Y₁₂'s 34 752 lines (registered 2026-09-08, B1303; the lead v3 §3 cited as "L206" and never registered — an E53 of the plan itself, closed here)
+
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. (i) is generalised by B1733, and B1722 is negative. (ii) on Y12's order-16 lines is not computed. The selection is open (P-139, P-373). The lead stays open.*
 
 *L203 note (2026-09-09, B1306 slice B): the tower law's positive half is now a THEOREM on two benches — a Ψ-eigencharacter carries a class whenever u or −u has odd order mod m (sm:B1304 addendum; main's own Fox calculus, n ≤ 13, 1 037 pairs) — so the odd-level half of the menu is proved; the converse (both orders even ⇒ nothing) is exact to level 30 and reduced to the single statement N₀ ≠ I.*
 The record now has TWO Standard-Model closings on the object's own tower: Y₉ (sm:B1278/B1279, re-run B1294: 706 464 SM lines in
@@ -2453,6 +2501,8 @@ unique selection without a new closer's choice: 10 %. ★★.
 
 ## L205 — THE SIBLING'S LOCALIZED COUNT (registered 2026-09-08, B1303; the owner's decision on MASTERPLAN v3's D3, taken 2026-09-08 after B1302 priced the case)
 
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. Answered FAIL (B1321, B1414), and P-333 carries the weave-level successor. Not carried: the golden test of the eleven ten-tetrahedra members. The lead stays open.*
+
 *L205 status 2026-09-09 (B1321): **PRICED, the bounded arc done.** m202's order-3 rotation gives PW's localized count 3 on both cusps with the signs forced (I-30, one row); the three-line class of the census to nine tetrahedra has six members (m202, s959, v3461, v3551, o9_40999, o9_43931) and none keeps the golden face. Reopens only beyond nine tetrahedra or by construction.*
 
 *L205 status 2026-09-16 (B1414, E81): **the three-line class to nine tetrahedra has NINE members**, not six — t10829, t12582 and o9_42897 were missed because B1321 enumerated isometries on the census triangulations as given (an uncanonized list undercounts on 853 of the first 4 000); B1321's own golden test on all nine: 0 of 48 for each, so the FAIL branch and "the count of three costs the face" stand. Twenty members in the census to ten tetrahedra; the eleven at ten tetrahedra are listed in B1321's addendum, not golden-tested.*
@@ -2468,7 +2518,7 @@ B1302's `d2multi.py`, expected 0 by the same conjugation). PASS = a 3 that survi
 3 costs the golden face on every member of the class, in which case D3 is closed as drift by computation and the sibling stays
 a control. Prior for PASS: 10 %. Sequenced after B1304–B1307 (v3.1 §3), before Phase 2 Arc A. ★★.
 
-## L206 — DOES A PARABOLIC PAIR GENERATE π₁(m003)? (registered 2026-09-13, B1401 addendum 1; source: this bench's own unproved step)
+## L206 — DOES A PARABOLIC PAIR GENERATE π₁(m003)? (registered 2026-09-13, B1401 addendum 1; source: this bench's own unproved step) — CLOSED 2026-11-06 (R76-1, B1850: answered by main's check (B1850's l206_generating_pair.py: w = b to 8.5e-15 in the faithful holonomy, so (ABABB, a) generates π₁(m003)); P-334's dated note on B1401 still owed)
 
 **The one open case of five.** B1401 establishes `J ≤ |κ−2|` for m004, m009, v2873 and m202 by
 exhibiting a **parabolic generating pair** — the meridian word `ab` for the first three, the
@@ -2486,6 +2536,8 @@ Or a direct proof that `⟨ABABB, a⟩ = π₁(m003)`. **Then `J(m003) ≤ 4` jo
 **ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name, unmoved since 2026-09-13: three search methods failed diagnosably and the possibility that no parabolic pair generates π₁(m003) is live. Owed: a refutation through a proper finite-index subgroup containing both words, or a proof past Nielsen distance 12. Owner: cc.
 
 ## L207 — IS κ CONSTANT OVER *ALL* GENERATING PAIRS, OR ONLY THE NIELSEN CLASS? (registered 2026-09-13, B1401; E72's hazard, stated as a lead rather than assumed)
+
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. P-334 carries the depth-one result. Not carried: Nielsen-inequivalent pairs at depth two and beyond (m009, for one). The lead stays open.*
 
 **This is the premise the whole lower bound rests on**, and it is unproved for every manifold except
 m004. `J(G) = inf` over generating pairs of `(|tr²A−4| + |κ−2|)`, so `J ≥ |κ−2|` **only if** `κ` is
@@ -2656,6 +2708,8 @@ that ran, and stands for B675 until L238 is paid.
 
 ## L211 — THE STRATUM LAW: does the 2-generator/3-generator split survive more than three census slices? (registered 2026-09-13, B1400) — **POPULATION NAMED 2026-09-17 (B1424): the decline is on the FULL orientable cusped census; on the one-cusped census the same blocks give 33.00 / 33.88 / 31.38, i.e. flat. Recomputed two ways; the paper is corrected.**
 
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. P-318 carries the dated corrections. Not stated anywhere: the stratum-law question itself, or its retirement as defined by the instrument. The lead stays open.*
+
 B1400 refines a forwarded census-bias finding: the depth decline in the `π₁ ↠ SL(2,3)` rate lives
 **entirely in the 2-generator stratum** (`34.23 → 15.36 %`, `z = +7.56`) while 3-generator groups are
 **flat** (`z = +0.26`), and the growing 3-gen share (`6.9 → 33.2 %`) props the aggregate up.
@@ -2669,6 +2723,8 @@ the aggregate hides both the size of the effect and the fact that one stratum ha
 **ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name: the population was named (B1424) and the paper corrected; the stratum law over more than three slices has not been posed on its own arc. Owner: cc.
 
 ## L212 — WHERE DOES THE BRONZE'S DEAFNESS LIVE IN MINSKY'S COORDINATES? (registered 2026-09-14, B1404)
+
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. B1702 does not test the cusp field against the end invariant, and the probe is not run. The lead stays open.*
 
 B1404 puts the metallic ladder in the classification's coordinates: the end invariant of `RᵐLᵐ`
 is the m-th metallic mean `μ_m`, root of `z² − mz − 1`, discriminant the shadow modulus `m²+4`,
@@ -2692,6 +2748,8 @@ check whether any two rungs share an end-invariant orbit while differing in cusp
 
 ## L213 — WHICH BANKED RESULTS ASSUME CANONICITY, AND WHICH ONLY USE SnapPy'S TRIANGULATION? (registered 2026-09-14, B1404)
 
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. No row carries the canonicity classification of the banked triangulation uses. The lead stays open.*
+
 B1404's audit found **Epstein–Penner absent from the corpus under that name** while its *object* —
 the canonical ideal decomposition — is used throughout, and Lackenby's theorem (the Floyd–Hatcher
 monodromy triangulation **is** the Epstein–Penner decomposition) is the bridge the corpus holds one
@@ -2707,6 +2765,8 @@ where canonicity is proved. Bounded; no new mathematics.
 **ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name, not run: the sweep of banked uses of a triangulation is bounded and was not run. Owner: cc.
 
 ## L214 — RE-RUN THE LITERATURE AUDITS WITH A HOMONYM FILTER (registered 2026-09-14, B1404)
+
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. P-322 carries only the homonym table. Not carried: re-running NOVELTY_AUDIT and the NEEDS-LIT rows through it. The lead stays open.*
 
 Two of the six genuine absences B1404 found were **invisible to a bare grep**: this corpus contains
 an unrelated Epstein (the **zeta function**, all 15 lines read and none of them Epstein–Penner) and
@@ -2724,6 +2784,8 @@ the novelty claims stop depending on spelling.
 
 
 ## L215 — THE CLOSED FORM OF THE GRADED TRACE (registered 2026-09-14, B1406)
+
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. B1406 still says observed, not derived, and P-334's note has not landed. The lead stays open.*
 
 `str(m) = tr(C·RᵐLᵐ)` takes exactly **six** values over the period, and every one is exactly
 `2cos(jπ/15)` with `j ∈ {0, 5, 6, 9, 10, 15}` — arguments running over the **divisors** of the period
@@ -2766,7 +2828,7 @@ the exact computation is cheaper than the one already done.
 **Prerequisite:** L209's fork (B1405) should be answered first, because it decides what a row on
 *either* sector is allowed to claim.
 
-## L217 — THE PARAMETER BUDGET AS A DESIGN CONSTRAINT (registered 2026-09-14, B1406)
+## L217 — THE PARAMETER BUDGET AS A DESIGN CONSTRAINT (registered 2026-09-14, B1406) — CLOSED 2026-11-06 (R76-1, B1850: answered by B1409 (all three rows); the residue is P-328)
 
 > **THE TOWER ROW IS CLOSED (B1409, same day) — POSITIVE, AND SHARPER THAN ASKED.** Computed exactly over `ℚ(ζ₁₂)` at the geometric holonomy, on covers selected **by property** and never by list index: `dim_ℂ H¹(π₁, sl₂) = k` and `dim_ℂ H¹(π₁, sl₃) = k(n−1) = 2k`, verified for **`k = 2, 3, 4, 5`** across every chiral multi-cusped degree-10 cover, with the `m004` positive control returning `k = 1`. At the tower's ceiling — the chiral 5-cusped **L14n63694** — that is **10 complex = 20 real**, the first count in the corpus to clear ~19. **Menal-Ferrer–Porti's `k(n−1)`, which B1406 cited as explicitly unverified, is now verified as a two-parameter law on this object's own covers.** **AND THE STRUCTURE, which was not asked for:** the restriction `H¹(M) → H¹(∂M)` is **injective on every row** (`n = a₁ − r₁ = 0`), with `dim H¹(∂M) = 2 dim H¹(M)` exactly — half-lives-half-dies, image Lagrangian. **Every parameter in the tower is cusp data; there are zero interior moduli anywhere.** So the room is real, sufficient in count, and made entirely of boundary choices — structurally the same unpriced free input as a Dehn slope (**B432**, *"slope selection stays free input"*; **B322** tested filling invariants against SM parameters at chance level). **AND THE RANK ROW CLOSES TOO (B1409 addendum):** the ladder runs `k(n−1)` at **`n = 2, 3, 4`** on both the control and the ceiling — m004 gives `1, 2, 3`, the 5-cusped cover gives `5, 10, 15` — with `a₀ = 0` and **zero interior moduli at every rank**. So raising the rank buys `k` more complex parameters per step and **every one is still cusp data**. **The filling row needs no computation:** B1406 typed it **discrete** (`ℤ²` per cusp), so its contribution to a *continuous* budget is structurally **zero**, and B322 already tested filling invariants against SM parameters at chance level. **L217 IS CLOSED, all three rows:** tower `k(n−1)` and growing, rank `k` per step, filling discrete — **and the whole of it boundary data with no selector** (L219).
 
@@ -2790,6 +2852,8 @@ it would tell the programme where it is allowed to look.**
 
 
 ## L218 — THE INDEX CHANNEL: build the contact row out of something DISCRETE (registered 2026-09-14, B1408)
+
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. No row carries the enumeration of the object's integer invariants. The lead stays open.*
 
 B1408 replaced an asserted obstruction with a measured one. Counting height-bounded `(p+q√5)/r` in a
 window of relative half-width `ε`:
@@ -2818,6 +2882,8 @@ answered.
 **ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name, not run: the enumeration of the object's integer-valued invariants against the two questions has not been made. Owner: cc.
 
 ## L219 — WHAT SELECTS A POINT IN THE TOWER'S ROOM? (registered 2026-09-14, B1409)
+
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. B1410 reframes it. Whether the boundary-unipotent selector applies in the tower's room is not computed. The lead stays open.*
 
 B1409 closed L217's tower row positive: the room is real, it is `k(n−1)` complex, and at the ceiling
 that is 20 real parameters. **And it is entirely boundary data** — `H¹(M) → H¹(∂M)` injective on every
@@ -2860,7 +2926,7 @@ manifold" to "which boundary data", which is a relocation, not a derivation.
 
 **ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name with the run above. Owner: cc.
 
-## L220 — FINISH THE OPEN-CLAIM SWEEP'S ADJUDICATION (registered 2026-09-14, B1409 audit pass)
+## L220 — FINISH THE OPEN-CLAIM SWEEP'S ADJUDICATION (registered 2026-09-14, B1409 audit pass) — CLOSED 2026-11-06 (R76-1, B1850: answered: R57-3, 12 of 12 adjudicated)
 
 `scripts/checks/open_claim_sweep.py` — the instrument built at B1201–B1218 for exactly this failure —
 was re-run 2026-09-14 (selftest green: positive 5/5, negative PASS). It returned **54 open claims with
@@ -2942,18 +3008,22 @@ and ledgers, not walls**, and it is days old rather than months.
 **ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name: ten candidates of the open-claim sweep remain unadjudicated; Review 58's own sweep added one of the same class (B1325's three debts, paid before they were declared — E54). Owed: the ten reads. Owner: cc.
 
 ## L223 — THE LEVEL MISMATCH, harvested [renumbered 2026-09-17, S14: registered as a second L220, colliding with the open-claim sweep's L220; an E71 instance] (registered on main 2026-09-16, B1415; the SM seat's sm:L214, registered there 2026-09-15)
+
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. B1700 and B1795 (P-325) pay the split. The closing's own existence has no pointer. The lead stays open.*
 A deck orbit of apexes has the deck's order, so a triple of chiral 27s exists only on Y₃ (sm:B1356), and Y₃ was believed to carry no Standard-Model Wilson line (sm:B1277, sm:B1300) while the record's SM lines live on Y₉ and Y₁₂ (sm:B1283, sm:B1302). **The seat's own status, verified on main:** (i) the descent's abelian lines are negative — H₁(S³(4₁; 2π/3)) = ℤ/3 and none of Kac's order-3 inner classes of E₆ (five of exact order 3 plus the identity; recomputed here with the full S₃ diagram symmetry) has the Standard Model as fixed algebra (sm:B1363); (ii) RESOLVED AS DESIGN — the Standard Model's centraliser in E₆ is su(2)_β ⊕ u(1)² (the SM-singlet roots are exactly ±β; 30 roots orthogonal to β; 8 of them SM), a Q₈ ⊂ SU(2)_β (one of the 24 surjections F(2,6) ↠ Q₈) times an order-4 character of H₁ = (ℤ/4)² (12 order-4 torus elements, exactly 4 leaving only the SM roots of su(6), all squaring to one involution — recomputed on main's own E₆ root system) leaves SU(3) × SU(2) × U(1)_Y × U(1)′ (sm:B1364); (iii) the line's bulk: three neutral flat moduli and one vector-like (3,1)_{−1/3} pair, never a doublet (sm:B1365, its script re-run here). **What it still owes** (the seat's words): the 5 + 5̄ masses, the doublet–triplet splitting, and the closing's own existence. Items (ii)/(iii) of the seat's original list (a non-flat breaking; three apexes on Y₉/Y₁₂ as a non-deck orbit) are superseded by the resolution. Harvest arc `frontier/B1415_the_sm_seats_closing_arcs_harvested`.
 
 **ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name: the SM seat's item; still owed on its lane are the 5 + 5̄ masses, the doublet–triplet splitting and the closing's own existence. Recorded here for that seat: its Q₈ ⊂ SU(2)_β line on Y₃ is the quaternion point of main's periodic line for an extension character of order two, a curve of filling type (meridian trivial), which is why it descends to the closed manifold (B1444 §10, B1446 §1). Owner: the SM seat.
 
 ## L221 — THE 27̄ SECTOR AND THE SEESAW (registered on main 2026-09-16, B1415; the SM seat's sm:L215, registered there 2026-09-15 by sm:B1365)
+
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. P-326 carries only (d). The 27̄ remedy and its pairing spectrum are carried by no row. The lead stays open.*
 The U(1)′ left by the Y₃ line is the Cartan direction γ ⊥ (SM, Y, β) — **exactly the η direction, γ ∥ √(3/8)·Q_χ − √(5/8)·Q_ψ, recomputed on main** — family-universal, m_{Z′_η} > 4.5 TeV (ATLAS, cited). Both E₆-charged Standard-Model singlets of the 27 (N and ν^c) carry the same γ charge (recomputed: the 27 splits into eleven (Y, γ, β) charge classes and the two Y = 0 charged singlets share γ), so the U(1)_η D-term vanishes on singlet VEVs only at the origin, U(1)_η is exact above the soft scale, the Majorana mass is forbidden and there is no seesaw; with the E₆ cubic's one coupling (sm:B1276, cited) the neutrinos are Dirac at the up-quark masses — **the three-apex design is excluded as it stands** (sm:B1365, NEGATIVE, its script re-run here). **The seat's remedy:** a 27̄ sector — anti-apexes (nine apexes, the deck being free) or the tower's h¹ pairs on an E₇/E₈ locus — with its own analysis that the 27̄s must be anti-apexes and that the instanton pairing spectrum of the apexes decides whether a Majorana scale near 10¹⁴–10¹⁵ GeV is reachable against a computed cap of ~10¹⁰–10¹¹ GeV. **Grade on main:** the charges and the direction are theorems of the root system; the exclusion is conditional on sm:B1276's coupling and on the three-apex design itself (THE CLOSING §6 item 8); nothing here is a prediction. No instrument for the pairing spectrum exists on any bench.
 
 **ESCALATED(2026-10-02, B1448)** (Review 58) — carried by name: the SM seat's lead, on its lane; main holds the recomputed charges and no instrument for the pairing spectrum. Owner: the SM seat.
 
 **S232 (2026-10-28): the neutrino's self-pairing at B1667's canonical end — B1799 (P-283; data-free).** In B1656's frame a self-pairing has R₁ = 0 identically and, with a traceless partner, an exactly symmetric coupling. On B1795's 286 lines at three points neither Majorana pairing's det M vanishes (m₁ ≠ 0), but the Weinberg pair's does on CP lines (P-404). The Dirac L ν^c follows B1716's law on all 858 rows, so a pure type-I seesaw's lightest neutrino is massless on that census exactly where the electron is, and on no slope-2/5 line. The 27̄ sector's own question (this lead) is not touched; P-326's weight-3 form is the next neutrino computation.
 
-## L222 — THE FAMILY AS THE OBJECT: the class carries the chirality index where the member does not (registered 2026-09-16, B1418; the owner's direction "maybe it's about the family, not just the object")
+## L222 — THE FAMILY AS THE OBJECT: the class carries the chirality index where the member does not (registered 2026-09-16, B1418; the owner's direction "maybe it's about the family, not just the object") — CLOSED 2026-11-06 (R76-1, B1850: answered by B1438, B1444, B1470, B1441 and B1442, with FK13 in GENESIS)
 **The facts (B1418, DESIGN sealed f2f8686c).** The one-cusped index I = t₀ − r₁ (B1297) fires in characteristic zero on reducible non-split modules of five members of the figure-eight's commensurability class — s958, v2873, t12833, t12835, o10_150701 (I = ±1, t12835 ±2; semisimplification 0 always; four of the five are B1330's targets, on whose geometric holonomy the index was zero) — and (post-seal, labelled) on m004's own degree-4 cyclic cover t12839 (104 nonzero of 2 385; the degree-3 cover s961 gives 0) — and gives 0 on m004's only reducible locus (the golden one) in 235 modules. The class census: chirality and the count of three vary within the class and the door determines neither; m202, s959, o10_150726 (two-cusped, not covers of m004) score all four measured requirements. **The questions this registers:** (i) the rule — which members fire and why (torsion in H₁ and cusp-trivial characters are present on the firing members, but o10_150697 and s956 have loci that never fire); (ii) whether a non-semisimple flat SL(2)-module (a unipotent Wilson line in the E₆ language) is an admissible background in the closing's M-theory reading, and what I counts there (I-26 is UNEARNED); (iii) the unrun modules (t12833, t12835 at larger m) and the members not in the run (the other one-cusped members with torsion, the two-cusped members with the three — m202, s959 — whose index needs B1333's several-cusp form); (iv) **the programme-level decision, the owner's:** whether the object of the chain is the commensurability class (the arithmetic face is a class invariant, B803) with the member as the observer's choice — the chirality bit would then be a choice of member, priced like a closing. **What would settle (i):** the same run on all 60 one-cusped members and the two-cusped ones with B1333's index; **(ii)** is a physics reading and needs the closing (L221).
   **Run 2026-10-01 (B1441):** the class index on non-split modules over several cusps — m202 and s959 carry none on any module tried; seventeen covers of m009 and m010 carry a rank-two module of index two; see L234.
 
@@ -3005,6 +3075,8 @@ carries it, so B893's exactness is part of this lead.
 
 ## L229 — THE ARCHITECTURE CENSUS'S RESIDUE (registered 2026-10-01, B1434)
 
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. P-309 retires (i)–(ii) and answers (iii). (iv) is open (FK9), and (v) is carried nowhere. The lead stays open.*
+
 (i) **The own-level law.** Two of 23 generated states to length six carry a generation-shaped background at their own
 level (m369, s639). Which states do, beyond length six, and by what criterion in the fibre torsion? (ii) **The two
 silent three-fold levels.** Ten of twelve three-fold levels carry orbits of three; (−, LLR) = m010 and (+, LLRR) carry
@@ -3054,6 +3126,8 @@ digests in the gitignored audit room). The SM lane had adopted the corrective on
 
 ## L231 — WHAT THE SWEEP OF 2026-10-01 FOUND BURIED OR STALE (registered 2026-10-01, B1434)
 
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. P-427, P-317 (b), P-318 and P-289 carry most items. Not carried: the withdrawn 16σ phrase, the sealed-crossings count, and B1141/B1145's 'no Dirac operator'. The lead stays open.*
+
 A seven-part read of main and every lane against four absence statements (the statements were wrong or too strong in
 three cases; record in the gitignored audit room). **Unharvested windows:** the SM lane's B1366–B1399 and B1500–B1506
 (79 arcs past the pin; includes the generated-state-space convention, the states together, the Eisenstein cusp chain,
@@ -3072,7 +3146,7 @@ power at measured precision. Each is a row to pay, not a finding to file.
 
 **REVIEW 70 (2026-10-24), R69-4: narrowed, dated.** The unharvested windows were harvested since (B1453, B1457, B1690; harvest rows 711–712). The stale surfaces that remain sit in L232's declared-debt documents (the withdrawn "16σ" in THE_FRAMEWORK and THE_SM_VERDICT; THE_FRAMEWORK's "no canonical arrow"; THE_LADDER's is gone) and are paid with their reads. The rest — B940 against B1141 and B1145, B1182 on B1083's corrected identification, B723's verdict, CLAIMS C-cal against B653, B1137's "last door", `paths/PATHS.md` — is read and corrected or declined by Review 71 (R70-4).
 
-## L232 — FIVE LIVING DOCUMENTS OWED A READ (registered 2026-10-01, B1437)
+## L232 — FIVE LIVING DOCUMENTS OWED A READ (registered 2026-10-01, B1437) — CLOSED 2026-11-06 (R76-1, B1850: carried in full by P-426 (the five living documents))
 
 Unmasked when the doc-currency gate stopped counting another seat's arc numbers as citations. Lags on the day:
 `docs/COMPUTE_THE_PROGRAM.md` 202 arcs (newest own citation B1153), `docs/THE_FRAMEWORK.md` 120 (B1235),
@@ -3088,6 +3162,8 @@ strategy only where the document states strategy; the factual rows do not wait.
 **REVIEW 70 (2026-10-24), R69-4: dated.** All five are still declared debts in `scripts/checks/doc_currency.py`. Order: THE_FRAMEWORK and THE_SM_VERDICT first (they carry L231's stale sentences), then THE_LADDER and WORKING_RULES; COMPUTE_THE_PROGRAM may instead be declared frozen, as R56 did for the TOOLBOX. Due by Review 71 (R70-4).
 
 ## L233 — THE SLOPE: what it is, and what it does not yet say (registered 2026-10-01, B1438)
+
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. Closed: (a) and (f) (B1438, B1440), and (b) (B1737); (d) is retired. (c)'s cocycle is owed (B1737 § 3), and (e) is carried nowhere. The lead stays open.*
 
 B1438 reduced the frame's index and couplings to s(χ), the cusp shape of the affine representation of a torsion
 character. Open, in the order they would be worked:
@@ -3124,7 +3200,7 @@ character. Open, in the order they would be worked:
 
 **Dated note (2026-10-23, S200; the parked-items sweep, P-311):** (b) is answered on main by **B1737**: the slope is the χ-twisted Shintani zeta value at s = 0 of ℤ² modulo the monodromy (Sczech's Eisenstein cocycle), less ½·#(−I), on all 601 characters at 16 levels (2.5 × 10⁻¹³ against the exact slopes); the trivial character gives −Ψ/12 (Rademacher). B1623 corrected. The follow-on — the channel norms as Kronecker-limit logs of the same L-function, a candidate line rule — is in B1737 §4.
 
-## L234 — THREE IN ONE BACKGROUND: the several-cusped search (registered 2026-10-01, B1441)
+## L234 — THREE IN ONE BACKGROUND: the several-cusped search (registered 2026-10-01, B1441) — CLOSED 2026-11-06 (R76-1, B1850: answered by B1442 ((a) NEGATIVE) and P-309 ((e) answered, (b)–(d) retired))
 
 B1440 bounds the count of one rank-two background by one on a one-cusped bundle; B1441 found it reach **two** on
 seventeen manifolds with several cusps (covers of degree four and six of m009 and m010), exactly, and never three
@@ -3146,6 +3222,8 @@ to degree six. Open, in order:
 **ESCALATED(2026-10-23, S191)** (the lead-debt ratchet at the S191 register commit; to Review 68, now due) — carried by name: (a) closed (B1442, NEGATIVE); not run: (b) three live cusps (covers of degree seven and eight), (c) the root's law, (d) the slope law for several cusps, which would make (b) and (c) cheap, (e) m202 and s959. Owed: (d) first. Owner: cc.
 
 ## L235 — WHAT FIXES THE HIGGS VALUES: the deck-invariant functions of an orbit's Higgs classes (registered 2026-10-01, B1443)
+
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. (a) is closed (B1444), (b) goes into P-294, and (c) is answered. The core question and (d) remain. The lead stays open.*
 
 B1443: each member of a deck orbit couples to its own Higgs class, with one strength for the orbit, so a mass matrix
 is y·diag(v_k) and the pattern of masses is the pattern of the v_k. No invariant singles out a member; but the
@@ -3171,6 +3249,8 @@ impossible). Open, in order:
 **ESCALATED(2026-10-23, S191)** (the lead-debt ratchet at the S191 register commit; to Review 68, now due) — carried by name: (a) closed (B1444: the cubic has no group to live in), and the lead restated as L236 (f), what selects a point of the periodic curve; (b) and (c) (the E₆ tensor; the other invariant functions, live because (a) is zero) not run; the 2026-10-15 currency note read it against the field stage. Owed: Review 68 merges what remains into L236 (f) or carries (b), (c) by name. Owner: cc.
 
 ## L236 — WHAT THE PERIODIC CURVE LEAVES OPEN (registered 2026-10-01, B1444)
+
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. Answered: (b) and (g) (B1445, B1444); (d) is withdrawn; (a), (c) and (f) are retired by P-309. (e), the complete-cusp point's volume and CS, is not computed. The lead stays open.*
 
 B1444: every background is the reducible end of a curve of flat PSL(2) connections of its level; the slope is the
 cusp shape at the end and the coupling the first-order torsion of the sector along it; the index lives at the end.
@@ -3200,6 +3280,8 @@ Open, in order of what would move the frame most:
 **ESCALATED(2026-10-23, S191)** (the lead-debt ratchet at the S191 register commit; to Review 68, now due) — carried by name: (b) run (B1445), (d) withdrawn, (g) answered; not run: (a) a formula for the second-order coefficients, (c) P4's proof and the filled manifolds, (e) the complete-cusp point's volume and Chern–Simons invariant (coordinates on sixteen levels, B1451), (f) what selects a point of the curve. Owner: cc.
 
 ## L237 — WHAT TELLS THE MEMBERS OF AN ORBIT APART: the branch off one member's Higgs curve (registered 2026-10-01, B1446)
+
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. (a) and (b) are answered (B1447, B1736), and (c), (d) and (f) retired. (e)'s leftovers are open (B1451). The lead stays open.*
 
 B1446: on the root's three-fold cover the positions on the curves stop being free at the parabolic points, where the
 torsions are exact (−√5 ± √−3 for the generation's sectors; (√5 ± √−3)² for the up coupling, 16 for the others) and
@@ -3252,6 +3334,8 @@ ordering, make the script run on the current libraries or pin the versions it ne
 
 ## L239 — THE SM SEAT'S "FOR MAIN" ITEMS NOT YET SETTLED ON MAIN (registered 2026-10-02, B1453)
 
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. P-321 carries (a) and P-428 carries (c). (b) and (d)–(g) are carried by no row. The lead stays open.*
+
 **ESCALATED(2026-10-24: items (a)–(g) in the decadal review's intake, P-359, with the Foundation Lock's stages).**
 
 The harvest of the SM seat's 47 arcs (B1453) applied three of its "for main" items (the Sol verdict, B1418's two
@@ -3286,6 +3370,8 @@ puncture as CONDITIONAL, and a sweep of main's verdict lines found no arc derivi
 **REVIEW 70 (2026-10-24), R69-7:** (a) and (c) ride with the foundation lock's live stages (P-321 records GM4 derived; GENESIS §3's convention) — a dated next action by Review 71 (R70-5); (b) and (d)–(g) stay the seat's, unverified on main, with no live dependent ((d) is paper wording, and the paper is frozen: errata only).
 
 ## L240 — THE FOUNDATION LOCK'S REMAINDER (registered 2026-10-02, B1454)
+
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. P-428 carries (c) and (f), and P-092 the THE_CLAIM line. (a), (d), (e) and (g)–(i) are not carried by name. The lead stays open.*
 
 **ESCALATED(2026-10-24: the remainder (a), (c)–(i) in the decadal review's intake, P-359).**
 
@@ -3389,6 +3475,8 @@ acting nature among them) as sources of *questions*, each turned into a computat
 
 ## L242 — DO THE THREE LINES ACCOUNT FOR THE ZEROS ALREADY ON THE RECORD (registered 2026-10-02, B1455)
 
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. P-428 names both counts as proposed RETIRED, not yet confirmed. The ε-sign formula is in no row. The lead stays open.*
+
 **ESCALATED(2026-10-24: (a)–(c) in the decadal review's intake, P-359).**
 
 B1455's criterion: a module with V* ≅ σ*V for a symmetry σ of the manifold has class index zero. **Owed:** (a) B1451's
@@ -3436,6 +3524,8 @@ hypotheses. (d) The handoff's "12 up to Aut" for m202.
 **REVIEW 70 (2026-10-24), R69-7:** (a), (b), (c) and (e) paid (B1459, B1462, B1465). Open, dated by Review 71 (R70-5): B1447's sixteen non-self-dual zeros, and (d) the count for m202 up to automorphisms.
 
 ## L243 — FROM THE SEATS, NOT YET CHECKED ON MAIN (registered 2026-10-02, B1456, B1457)
+
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. P-428 carries (c) and (d). Not carried: (e), R69's −3, and (f), the child lane's decisions. The lead stays open.*
 
 **ESCALATED(2026-10-24: its open items in the decadal review's intake, P-359).**
 
@@ -3523,6 +3613,8 @@ its own last paragraph names.
 **ESCALATED(2026-10-27, S223)** (the lead-debt ratchet at 21 days; to Review 71) — carried by name: the owner's standing reading ("treat it seriously"); its census done (B1473) and β_c = 2 log φ verified; GAP6's flatness named, not computed — read with the foundations at Review 71.
 
 ## L245 — THE SEP16 LANE'S CLAIMS ABOUT MAIN, TO VERIFY (registered 2026-10-04, B1469; Review 59's R59-3)
+
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. B1469–B1472 decide about a dozen claims. The rest are checked only in the audit room, and xB014's B207 note is unrowed. The lead stays open.*
 
 The sep16 seat (xb; an adversarial/review seat, never merged) made 31 arcs between 2026-09-16 and 09-29 (xB003–xB034). B1469 rowed
 them at headline level, read by readers at the pin `3205984b` with every claim about main's record quoted. Those claims are
@@ -3652,6 +3744,8 @@ itself (xB013 by its addendum, xB014 by xB015, xB019 by xB020) are read as the l
 
 ## L246 — THE SPIN SWAP: an execution plan (owner-approved 2026-10-04; registered with S55, B1472)
 
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. Phase 1 and Phase 2's first cell are paid (B1474–B1481). Not carried: Phase 3, Phase 2's number-field question, and the unexplained residue. The lead stays open.*
+
 **Progress (every landing records it).** S56 (2026-10-04): **Phase 1a ADVANCED and PAID — B1474.** By the matrix route, independent of the torsion: GENUINE SWAP on m003, m207, s955, s957, s960, t12838, o10_150695 (all non-knots: no orientation-reversing isometry fixes the geometric spin structure); FIX on m004, m206, s961, t12839, o10_150696, o10_150707; every chiral member mirror-less; the swap is defined modulo the orientation-preserving isometries' character group K (order 2 on s957, 4 on s960; equal to the η-set on s961) and is genuine iff 1 ∉ η₀K; the two routes agree on all thirteen. **Next: Phase 1b** (the τ-odd, spin-dependent invariant on the seven; kill: it vanishes for every spin structure), then 1c and the owner's decision on A5. **S57 (2026-10-04): Phase 1b ADVANCED and PAID — B1475.** On every one of the seven swap members NO spin structure is mirror-invariant (m003 by hand; the others on every spin structure and every reversing isometry found) — amphichiral manifolds none of whose spin structures is amphichiral — while m004 keeps both, t12839 both, s961 four of eight; D_s(t) = Im R₁^{(s)}(t) is a continuous orientation-odd invariant of (M, s), nonzero on all seven (every value in √3·ℚ at t = 2) and zero on the controls — B849's 2-torsion argument needs τ·s = s and so does not bind here; the index cell reached only t12839 (I = 0), the m003 index on its geometric lift owed. **Next: Phase 1c** — the theorem (three classes of amphichiral member by the mirror's action on Spin(M): all / some / none invariant), A5's role (knot ⟹ all, B279), sm:B1382's Pin-type fact verified on main as the same bit (L243 (b)), and the owner's decision on relaxing A5. Also owed to L246 from the lanes: the terminal codex seat's coverage/guard/numerics points (taken in B1474 §4b), the app seat's conjugate-subtraction note (taken in B1475's design). **S58 (computed 2026-10-04, landed 2026-10-06): Phase 1c ADVANCED and PAID — B1476.** At CS = ¼ no spin structure survives the mirror on every amphichiral manifold tested (13 of 13, inside and outside the family; certified by the odd torsion's non-realness on every spin structure, a route that enumerates no isometry — the audit lane's R92 answered); at CS = 0 the family's six zero members keep one, and outside the family the *geometric lift* is fixed on 4 and swapped on 3 cusped and 14 closed — its fate is not a function of CS, and whether some other spin structure survives there was not tested (m136: four of eight torsion-real) (T-QUARTER-FORCES-SWAP, conjectural beyond the manifolds tested); the whole family's phase on the 1/24 lattice (112 of 112; L248); m004's spin lift is the parent's Pin type by the matrix route and the referee's exact script (sm:B1382 verified on main; L243 (b) paid); the three classes all / some / none; GENESIS v1.11 (GAP6 narrowed, FK12's bit located, the owner's rule on the page); the `member-scope` gate. **The gate at 1c is answered by the owner's rule: the family is the object and A5 selected a member — nothing to relax.** **Next: Phase 2** — B279's unbanked link, from the swap to a physical count (the boundary's η per spin structure on m003; the sign-refined torsion / one-loop phase), preceded by one sealed arc on the question 1c leaves open — *does an amphichiral manifold have a mirror-invariant spin structure exactly when CS ≡ 0?* (kill: a zero member with every spin structure certified non-invariant).
 
 **S59 (2026-10-06): the question 1c left is answered in three parts — B1477.** (i) *What forbids a survivor:* Theorem A (a rhombic mirror fixes no spin structure whose longitude has trace −2; proved) covers every one-cusped amphichiral census manifold at ¼ — 75 of 75, 292 of 292 spin structures — so the ¼ law is a theorem there; Theorem B (post-seal, proved: an odd number of rotation-π geodesics at some length forbids every survivor) covers 11 of the 15 closed cases. (ii) *What ¼ is:* the rhombic class — the shear law, killed in its first sealed sentence by o10_150729 and holding in its orbit form on 283 of 283 census members and 922 of 922 link exteriors (a census law; L194 sharpened, B1239's swap corollary corrected). (iii) *Whether zero protects a survivor:* no — seven zero-class one-cusped members and 15 closed manifolds have none. The family: seven rhombic, six rectangular; A5 selected a rectangular one. **Next: Phase 2**, first cell = the named residue (v3103, t10425, o10_085947, o10_149515, m078(5,1): certified none, mechanism unidentified), then B279's unbanked link from the bit to a count.
@@ -3775,6 +3869,8 @@ itself (xB013 by its addendum, xB014 by xB015, xB019 by xB020) are read as the l
 
 ## L247 — THE WALL IS THE FRAME, AND THE WALL WAS A MEMBER'S (the web seat's reading and the owner's rule, 2026-10-04; registered S58, B1476)
 
+> *2026-11-06 (R76-1, B1850): Review 74's reader proposed closing this lead; main's check did not confirm it. P-571 and P-589 (a) carry parts. Not carried: the other 31 member-scope kills, and CLOSED_DOORS's member-scope column. The lead stays open.*
+
 **The reading, in its own words (uninflated):** the programme's central limit — the object cannot fix physical values because they are moduli — rests on a theorem about FLAT structures (the paper's "flat sl₃ deformations are pure cusp data, no interior modulus") plus an axiom ("values are choices", link 18 of the chain); physical chirality and generation number require curvature; so the limit, as stated, does not reach physics. Second half: the choices sort — Pin type fixed by consistency (B1383), generations narrowed to {3, 4, 5} by consistency (CP floor, asymptotic-freedom ceiling), orientation a convention, the chirality sign a genuine random outcome, continuous values open. Graded by the seat itself: a turning point in what to attempt, not new mathematics or physics; its fragile joint: "the check it needs is that no framing quietly puts physical values back in the flat sector."
 
 **Swept and placed on main (2026-10-04):**
@@ -3788,7 +3884,7 @@ itself (xB013 by its addendum, xB014 by xB015, xB019 by xB020) are read as the l
 
 **ESCALATED(2026-10-27, S223)** (the lead-debt ratchet at 21 days; to Review 71) — carried by name: the web seat's reading that the wall is the frame (with HANDOFF_ROBUSTNESS); graded S57; read against the record at Review 71 (R70-5).
 
-## L248 — THE ARITHMETIC ATOM (the web seat's second handoff, 2026-10-04; registered S58, B1476)
+## L248 — THE ARITHMETIC ATOM (the web seat's second handoff, 2026-10-04; registered S58, B1476) — CLOSED 2026-11-06 (R76-1, B1850: § 8 carried in full by P-667; the rest answered (P-335))
 
 - §0 receipt: the web seat accepts the Step-B correction and computes the mechanism (S¹ Dirac, flat holonomy e^{2πia}: η(a) = 1 − 2a, odd under conjugation) — ROWED as the seat's confirmation.
 - §1 the Kashaev series at the rigid point (vol, C = 3^{−1/4}, a₁ = 11π/(36√3)): **ALREADY ON MAIN in substance** — B598 (growth Vol/2π, one-loop 3^{−1/4}), B722 (Vol = 2 Im Li₂(e^{iπ/3}); the trans-series arithmetically rigid over ℚ(√−3), not a free coupling), B261; a₁ is Andersen–Hansen's known coefficient, not on main — rowed as the seat's fit (11 and 7 digits), a B598 addendum line if wanted. The reading "the rigid geometric point is not a modulus and determines the partition function" is B722's in other words — confirmation from a fresh reader.
@@ -3800,7 +3896,7 @@ itself (xB013 by its addendum, xB014 by xB015, xB019 by xB020) are read as the l
 
 **ESCALATED(2026-10-27, S223)** (the lead-debt ratchet at 21 days; to Review 71) — carried by name: the web seat's arithmetic atom (with HANDOFF_THE_ARITHMETIC_ATOM; a₁ = 11π/(36√3) new); read against the record at Review 71 (R70-5).
 
-## L249 — THE REGISTER AT THE DOOR, AND WHAT THE WEB SEAT LEFT OPEN (registered 2026-10-06, B1478; source: the web seat's relays on its own branch)
+## L249 — THE REGISTER AT THE DOOR, AND WHAT THE WEB SEAT LEFT OPEN (registered 2026-10-06, B1478; source: the web seat's relays on its own branch) — CLOSED 2026-11-06 (R76-1, B1850: carried in full by P-429 (its six cells))
 
 The web seat's register test (m000 against m004 on the 2T door; reproduced on main, B1478) leaves, by its own list and
 main's reading: **(a)** m000's odd levels — non-orientable, torsion 1, 4, 11, 29 — in the class-index frame, never

@@ -15646,6 +15646,43 @@
    "status": "dormant",
    "domain": "arithmetic"
   },
+  "B1850": {
+   "slug": "the open leads and the backlog confirmed",
+   "motifs": [
+    "closing"
+   ],
+   "refs": [
+    "L149",
+    "L151",
+    "L154",
+    "L158",
+    "L165",
+    "L166",
+    "L174",
+    "L175",
+    "L176",
+    "L177",
+    "L178",
+    "L184",
+    "L188",
+    "L191",
+    "L196",
+    "L202",
+    "L204",
+    "L206",
+    "L217",
+    "L220",
+    "L222",
+    "L232",
+    "L234",
+    "L248",
+    "L249"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B185": {
    "slug": "constraint selection",
    "motifs": [

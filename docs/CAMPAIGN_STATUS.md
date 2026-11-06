@@ -2,6 +2,8 @@
 
 > **Currency — Review 56 (2026-09-09, anchor `eb9db7fa`).** Refreshed against the 21-merge window `be6f4cab`→`eb9db7fa` (B1294–B1307: MASTERPLAN v3 Phases 0–1 and v3.1's seven harvest arcs). **Review 56's headline is a number, not a repair:** the harvest gate's first strict report — 494 seat-index ids on nine branches, **428 without a ledger row, 348 seat-branch relays without a relay row**, two seats already past main's pins — escalated by name as R56-1 with a payment order (B1306 slices B–D, newest first). 32/32 gates; LAW_MAP's second zero-advancement window (R56-2); CLAIMS.md's 129-arc lag escalated (R56-3); two E53 repairs in living surfaces (THE_SM_VERDICT, MAIN_GOAL JOIN 3); E71 minted. Full detail: `docs/progress/REVIEWS.md` (Review 56).
 
+**LATEST (2026-11-07, S306j: B1850 — the open leads and the backlog confirmed one by one: 24 of 73 lead closures held (open leads 79 → 55; 48 kept with notes), 216 of 240 SCHEDULED rows closed (ledger-wide 272 → 46; 10 re-pointed to open rows); the counter's substring bug fixed; P-617 DONE; P-730 new (GENESIS's row-189 pointer). 0 of 19.)**
+
 **LATEST (2026-11-06, S306i: B1849 — the leads confirmed one by one (R76-1's register half): 30 closed, 47 merged into 19 hosts, 11 kept with reasons; open rows 311 → 234; B1825's dropped CM arm disclosed (P-527 paid); B1722's action-weight headline scoped (vol(LᵃR) → the Whitehead link's 3.664). 0 of 19.)**
 
 **LATEST (2026-11-06, S306h: Review 76's items worked — B1842's controls run, C-T corrected (the old one a tautology; the spectra are T-invariant, the matrices only up to a unitary); the 79 order-unshown sealed tests a list that may only shrink, GATED (`seal-order-unshown`); the order-5 lines' level-4 stabilizer is all of S₄ (P-711 verified). 0 of 19.)**

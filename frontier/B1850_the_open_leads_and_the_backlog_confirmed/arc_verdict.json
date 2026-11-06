@@ -1,0 +1,27 @@
+{
+ "id": "B1850",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1831",
+  "B1849",
+  "B1457"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "Review 74's readers (frontier/B1831_review_74_the_decadal_review/verification/readers/)"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "docs/OPEN_LEADS.md's open leads and docs/HARVEST_LEDGER.md's SCHEDULED rows, against Review 74's readers' proposals",
+  "object": "73 lead proposals and 240 backlog proposals, their pointers in the record, and one data-free group computation (m003's generating pair, SnapPy)",
+  "reach": "general",
+  "hypotheses": "process arc; read-only checkers returned verbatim quotes, all 313 found at their paths by main's script; only confirmed closures applied; data-free"
+ },
+ "claim_one_line": "THE OPEN LEADS AND THE BACKLOG CONFIRMED ONE BY ONE (Review 76's R76-1: the rest of P-617, and P-616): every proposal of Review 74's readers checked at its pointer, each decision backed by a quote found verbatim (313 of 313) -- open leads: 24 of 73 closed (16 answered, 8 carried in full; the reader's 'carried in full by register rows' held for 9 of 32), 48 kept open with dated notes naming what is answered and what is not, open leads 79 -> 55; backlog: 216 of 240 rows closed (CLOSED-HANDLED or CLOSED-NO-LOAD-NO-LEAD, history kept), 10 re-pointed to the open rows that carry them, 10 kept SCHEDULED with reasons, ledger-wide SCHEDULED 272 -> 46; the counter's substring bug fixed (is_scheduled) and both ratchets lowered; L206 closed by main's own check (the pair (ABABB, a) generates pi_1(m003): w = b to 8.5e-15 in the faithful holonomy); a new point P-730 (GENESIS's pointer to harvest row 189 names the wrong seat's R57). P-617 DONE; P-616 narrowed to its 36 lead and debt rows. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}
