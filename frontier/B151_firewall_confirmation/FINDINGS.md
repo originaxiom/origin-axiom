@@ -73,3 +73,5 @@ themselves — cited prose is the honest boundary of a reading task.
 (κ-fork / finiteness), `knowledge/K006` (the borrowed 3d-3d dictionary), `docs/STRATEGIC_SYNTHESIS.md` §8 (the dimensional
 firewall). External: Garoufalidis–Thurston–Zickert arXiv:1111.2828; Dimofte arXiv:1409.0857; Córdova–Jafferis
 arXiv:1305.2891.
+
+> *Dated note 2026-11-06 (R75-7, the owner's 'Test the wall'; P-719): SHARPENED, the reading kept. The reading shows that the invariant enters only as a dimensionless exponent, so no invariant carries UNITS, and an absolute energy cannot come from the object. That holds. The verdict's wider sentence, 'no κ- or volume-type invariant can source a physical scale (energy density / mass / coupling)', is not shown for dimensionless RATIOS of scales or for couplings. Z ∼ exp(i·Vol_ℂ/ℏ), the form this reading quotes, is exactly how a dimensionless invariant sets a ratio once ℏ ↔ k is fixed. What the reading establishes is that the ratio needs the level k, which the invariant does not fix.*

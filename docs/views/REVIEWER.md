@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1545** |
-| words of findings prose | **1,302,599** |
+| research arcs with findings | **1547** |
+| words of findings prose | **1,304,665** |
 | test lock files referenced | **932** |
-| arcs carrying an authored verdict | **1545** (100.0 %) |
+| arcs carrying an authored verdict | **1547** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1054 |
+| PROVED | 1056 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1843`** (757 words, 0 locks)  
-GENESIS v1.62 (the owner's ruling, 2026-11-05: 'if you also agree with sm about the rule, i aprove it'): GAP1's held-out targets are graded jointly -- each inside its 68% band and the joint p_V (the product of marginal rank p's under the matched null, ranked among the null worlds) below 0.01/m_V, m_V counting every recorded prior look -- and a seventh condition holds the targets unspent when the card's location-free power for a 5%-accurate frame is below 10%; adopted before B1839's look was read; the statistic's calibration verified by main (1.02%, 0.97%, 0.83% at alpha = 0.01).  
-`B1843_genesis_v1_62/FINDINGS.md`
+**PROVED — `B1845`** (950 words, 0 locks)  
+THE OBJECT'S OWN LINE AND THE EXCURSION READ OUT (P-717, P-718, P-455; data-free exploration, toward the owner's goal): level 5 is the object's own (LR's discriminant 5, LR = -(unipotent) mod 5, order 5 in A5); RL fixes exactly the order-5 lines (1/5, 2/5) and (2/5, 4/5) (B1733's rule), the order-5 classes are X1(5)'s cusps, and the diamond <2> is not a frame symmetry at fixed tau -- at a placed tau the line is the hand plus one binary choice (B1841's best line is RL's own, post hoc); P-717's excursion threads L^5 R (LR)^k converge to tau* = 1/2 + (2 + sqrt5/2)i with Re 1/2 exact, and for k = 0 mod 5 are = +-RL mod 5, carrying RL's line; P-455's period average along the k = 5 thread washes the hierarchy out (arclength mean ln ratios about -1 to -4 against the apex's -4 to -12.5; 17% of the period above Im 2) -- the apex read-out is load-bearing and its derivation needs a kinetic structure along the circle (FL-05). tau not placed; the line placed up to two bits. 0 of 19.  
+`B1845_the_objects_own_line_and_the_excursion/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  

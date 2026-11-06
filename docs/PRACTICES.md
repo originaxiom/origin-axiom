@@ -1283,3 +1283,22 @@ Three practices came out of the field stage's last window. Each answers a slip t
    records a seat's reply to main, the relays it answers move to BANKED in the same landing, with the row's number. MANUAL.
 6. **The pin moves with the rows** (P-541): a seat's pin is at or past every commit its harvest rows cite on its line.
    GATED (`harvest-debt`, an integrity line; its selftest's sixth planted control).
+
+## Review 75's practices: novelty swept in chat too, the six retired as a decisive cell, a pass decomposed, an orbit covered — MANUAL (adopted 2026-11-06, Review 75, B1844)
+
+1. **A claim that something is new is swept first, in chat as in the record** (E54 ×4 in this window): main told the owner
+   that the level-4 covariance (B1736), the order-5 lepton = down identity (B1728), a structurally fixed y_τ/y_b (P-597)
+   and B867's transition (B295) were new. Each was on record. Before "found", "new" or "verified today" is said of a
+   structural fact, `topic_sweep.py --full` and the register are swept; a fact on record is presented as "re-checked, on
+   record as Bnnnn". MANUAL.
+2. **The six are retired as a decisive cell** (P-708): no card whose decisive cell is the six alone is sealed unless it
+   removes an input. They have carried more than 55 screens, and at B1841's row their specificity is structure (P-706).
+   MANUAL.
+3. **A pass on the six is decomposed before it is read as value evidence** (P-706): the quark-four read-out and the
+   structural identities on its best row (the order dictionary's relations, D = c² on lepton = down rows), each as a
+   labelled post-hoc read-out counted as a look. MANUAL.
+4. **A control of a geometric search covers the whole orbit it claims, and is checked by a second method** (E52, P-717):
+   the approximants' apex search over cyclic shifts alone (conjugation by L and R) missed the S-conjugates and returned
+   the golden apex; the continued-fraction formula caught it. MANUAL.
+5. **A check a pre-run note promises for the landing is a line of the landing's checklist** (B1839's PRE_RUN_NOTE:
+   "the landing re-checks" the measured inputs' hashes; skipped at S305j, done at Review 75, unchanged). MANUAL.

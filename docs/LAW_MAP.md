@@ -411,7 +411,7 @@ non-empty.**
    congruence shadow; Sylvester T = 0 exact) — the correspondence is
    GROUP-functorial (mod-conductor ∘ golden character = B644) + typed
    (B650), never module-linear (B650 wave 2).
-10. THE DIMENSIONFUL NO-GO (theorem-by-assembly, B660/S3): no
+10. THE DIMENSIONFUL NO-GO (theorem-by-assembly, B660/S3): no [2026-11-06 (R75-7, P-719): holds for dimensionful values (no absolute scale from the object, by units); a DIMENSIONLESS ratio of scales is not excluded by the object — B151's reading shows an invariant sets one through exp(i Vol_ℂ/ℏ) once the level k is fixed, and S3's 'algebraic' clause is B650's typing rule]
    observable carrying nontrivial mass dimension is typeable (R5's
    dimensionless requirement + GATE B's N = 1 discrete + B652's
    no-scale wall + the equivariance wall's finite-shadow mechanism) —

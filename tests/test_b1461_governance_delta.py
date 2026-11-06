@@ -15,7 +15,8 @@ def test_review_fires_past_twice_the_period_unless_waived(monkeypatch):
     monkeypatch.setenv("OA_REVIEW_MERGES", "40")
     monkeypatch.setattr(gates, "_read", lambda rel: "" if rel == gates.REVIEW_WAIVER else open(os.path.join(ROOT, rel)).read())
     ok, why = gates.gate_review_fires(); assert ok is False and "FIRES" in why
-    monkeypatch.setattr(gates, "_read", lambda rel: "- waived 2026-10-03 by the owner through 60 merges: reason\n" if rel == gates.REVIEW_WAIVER else open(os.path.join(ROOT, rel)).read())
+    live = gates.review_anchor_date() or "2026-10-03"   # Review 75: a planted waiver must be dated inside the live window
+    monkeypatch.setattr(gates, "_read", lambda rel: ("- waived %s by the owner through 60 merges: reason\n" % live) if rel == gates.REVIEW_WAIVER else open(os.path.join(ROOT, rel)).read())
     monkeypatch.setattr(os.path, "isfile", lambda p: True)
     ok, why = gates.gate_review_fires(); assert ok is True and "waived" in why
     monkeypatch.setenv("OA_REVIEW_MERGES", "61"); assert gates.gate_review_fires()[0] is False   # the waiver expired
@@ -106,4 +107,13 @@ def test_review_tools_render_carries_the_core_lines():
 def test_the_waiver_file_exists_with_the_grammar_and_no_live_waiver():
     w = open(os.path.join(ROOT, gates.REVIEW_WAIVER)).read()
     assert "- waived <YYYY-MM-DD> by the owner through <N> merges: <reason>" in w
-    assert gates.review_waiver_covers(40, w) is False
+    assert gates.review_waiver_covers(40, w, since=gates.review_anchor_date()) is False
+
+
+def test_a_waiver_covers_only_its_own_window():
+    # Review 75 (B1844): a waiver dated before the last anchor has expired; one dated on or after it covers
+    w = "- waived 2026-11-05 by the owner through 60 merges: planted\n"
+    assert gates.review_waiver_covers(40, w) is True
+    assert gates.review_waiver_covers(40, w, since="2026-11-06") is False
+    assert gates.review_waiver_covers(40, w, since="2026-11-05") is True
+    assert gates.review_waiver_covers(60, w, since="2026-11-05") is False

@@ -18520,3 +18520,40 @@ The object's own monodromy, read at its own prime 5, fixes exactly two lines, an
 the principled end is one of them. The candidate excursion, made to agree with the object at that level, keeps the
 object's line and its Re τ and only rises in height. What is still chosen: that there is one excursion, that the frame is
 read at its top, and which hand. The energy scale is still out of reach: the object has no units. 0 of 19.
+
+## 2026-11-06 — Review 75: the decadal review
+
+The review read five of the window's arcs in full and found them sound, with three notes. One said "verified" over an
+empty section; the verification was on record elsewhere, and the section is now filled. It closed or carried every item
+from the last review. It sealed the firewall ranges still owed from yesterday. It removed a double count from the
+candidate's inputs, which is now 13, not 14. It adopted the count of what the record has and has not earned. Its five new
+practices start with one main needed tonight: sweep before calling anything new, in conversation too. 0 of 19.
+
+## 2026-11-06 — S305p: the scale wall tested
+
+At the owner's choice the record's wall against an energy scale was re-read, not worked around. It holds for absolute
+energies: the object has no units, and no theory gets its unit from mathematics alone. It does not hold for a ratio of
+scales: the record's own reading shows how an invariant of the object sets such a ratio once a level is fixed, and the
+object has a level of its own candidate, five. Nothing was computed from it; the rule comes first. 0 of 19.
+
+## 2026-11-06 — S305q: the candidate read out
+
+The object's own symmetry, read at its own prime, places the line up to two binary choices, and that is now committed
+with its checks. The candidate for τ was tested the way the geometry itself would read it, averaged around its loop: the
+hierarchy disappears, and survives only if the frame is read at the loop's highest point. So the candidate still borrows
+two choices, and the reason to read at the top would need dynamics along the circle that the record does not have.
+0 of 19.
+
+## 2026-11-06 — S305r: the read-out reduced to one number
+
+Whether the candidate's hierarchy survives being read around its loop turns out to depend on a single weight, and the
+record's own assumption about how fields are normalised may already supply it. If the fields' weights, read from the
+record, are large enough, the top-of-the-loop reading would follow instead of being chosen. That is the next computation,
+and the agy lane has been asked for it. 0 of 19.
+
+## 2026-11-06 — S305s: the level, from the object's own dynamics
+
+The object's own motion on the fibre has exactly five fixed points up to sign, and the line sits on them. The record had
+already built the quantum version of that motion and its principle that the dynamics is heard through finite levels. That
+principle offers three levels, five, three and fifteen, rather than one. Choosing among them, by a rule stated before any
+value, is what the scale still needs. 0 of 19.

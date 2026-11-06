@@ -4299,3 +4299,40 @@ stage in the twisted frame and tested it once against data.**
      bundle (P-401, P-403).
   3. The scoreboard's generator (P-418), and the four typings to reconcile (P-489).
 - **0 of 19.**
+
+## ⟳ CURRENCY NOTE — 2026-11-06 (S298–S305o and Review 75: B1832–B1844)
+
+**The window read the end cards, held the targets, and turned to the process that would place the choices.**
+- **The end cards:**
+  - B1839: a free cut level fails the six's screen (NEGATIVE).
+  - B1841: PROVED as sealed at the area-4 horocycle, a READING (P-706). On its order-5 line the leptons are the down
+    sector (B1728); the frame's quark four alone are not specific.
+  - GENESIS v1.62 (B1843) grades held-out targets jointly. The owner holds both unspent (P-709).
+- **The seats:** the agy lane's Stages 12–20 read through the mask; B1832–B1838 digest and verify; the SM seat's §§
+  351–353 re-run. The owner moved cooperation toward the agy lane.
+- **The bang programme** (P-694; docs/THE_BANG_PROGRAMME.md), and the owner's goal of 2026-11-06: a process that places
+  τ, the line and an energy scale.
+- **Review 75** (B1844): THE COUNT adopted (docs/THE_COUNT_2026-11-06.md); frame A at 13 borrowed joints; the six retired
+  as a decisive cell.
+- **Open leads, in order:**
+  1. **P-717's read-out:** P-455's period average along L⁵R(LR)^{5m}, data-free. Then whether one excursion is derived
+     (R75-6).
+  2. **The dimensionful no-go (B151, B660) re-audited** at the owner's "Test the wall": its scope for dimensionless
+     scale ratios (R75-7, P-715).
+  3. **P-718's binary choice and P-711's stabilizer images** (R75-9; the agy lane asked).
+  4. **B1842's C-T tautology,** fixed before B1842 is used (R75-8).
+  5. **P-575 (σ_th)** and **P-716 (the CP-odd source).**
+- **0 of 19.**
+
+## ⟳ VIEW REFRESH — 2026-11-06 (Review 75)
+
+Touched at Review 75 (the landing `264fa6d98`, its anchor). **The window (B1832–B1844; S298–S305o) read the end cards,
+held the targets, and turned to the process that would place the frame's choices.**
+- **The end cards:** B1839 NEGATIVE (a free cut level); B1841 PROVED as sealed at the area-4 horocycle, a READING (P-706:
+  structure carries the six, not the frame's values). The owner holds the held-out targets unspent (P-709).
+- **Foundations:** GENESIS v1.62, the joint confirmation (B1843). THE COUNT adopted (docs/THE_COUNT_2026-11-06.md).
+- **The bang programme** (P-694) and the owner's goal: a process that places τ, the line and an energy scale.
+  - P-718: the line is the object's own level-5 eigenline.
+  - P-717: a firewalled candidate for τ.
+  - P-715: the scale wall, to be re-audited (R75-7).
+- **Next:** R75-6 to R75-9 (docs/progress/REVIEWS.md). 0 of 19.

@@ -677,3 +677,16 @@ stage in the twisted frame and tested it once against data.**
 - Review 64 found a lock stale since S133 (B1421) that the selective landing suites had missed, and two failures that
   occur only in parallel (R64-10, R64-11).
 - The price is 4 + 9 = 13. **0 of 19.**
+
+## ⟳ VIEW REFRESH — 2026-11-06 (Review 75)
+
+Touched at Review 75 (the landing `264fa6d98`, its anchor). **The window (B1832–B1844; S298–S305o) read the end cards,
+held the targets, and turned to the process that would place the frame's choices.**
+- **The end cards:** B1839 NEGATIVE (a free cut level); B1841 PROVED as sealed at the area-4 horocycle, a READING (P-706:
+  structure carries the six, not the frame's values). The owner holds the held-out targets unspent (P-709).
+- **Foundations:** GENESIS v1.62, the joint confirmation (B1843). THE COUNT adopted (docs/THE_COUNT_2026-11-06.md).
+- **The bang programme** (P-694) and the owner's goal: a process that places τ, the line and an energy scale.
+  - P-718: the line is the object's own level-5 eigenline.
+  - P-717: a firewalled candidate for τ.
+  - P-715: the scale wall, to be re-audited (R75-7).
+- **Next:** R75-6 to R75-9 (docs/progress/REVIEWS.md). 0 of 19.

@@ -19,9 +19,27 @@ def offenders(preregs):
     return bad
 
 
+def _with_dated_ledger(p):
+    """the sealed preregistration plus any dated addendum that fills the ledger after the seal (Review 75: sealed text is
+    not edited, so an omitted ledger is recorded by a dated ADDENDUM_*_INPUT_COMPLETENESS.md beside it)"""
+    text = p.read_text(encoding="utf-8")
+    for a in sorted(p.parent.glob("ADDENDUM_*_INPUT_COMPLETENESS.md")):
+        text += "\n" + a.read_text(encoding="utf-8")
+    return text
+
+
 def test_every_new_seal_fills_the_ledger():
-    pre = [(p.parent.name, p.read_text(encoding="utf-8")) for p in (ROOT / "frontier").glob("B*/PREREGISTRATION.md") if re.match(r"B\d+_", p.parent.name)]
+    pre = [(p.parent.name, _with_dated_ledger(p)) for p in (ROOT / "frontier").glob("B*/PREREGISTRATION.md") if re.match(r"B\d+_", p.parent.name)]
     assert offenders(pre) == []
+
+
+def test_a_dated_addendum_counts_only_with_the_heading(tmp_path):
+    arc = tmp_path / "B1999_x"; arc.mkdir()
+    (arc / "PREREGISTRATION.md").write_text("# a seal\nagainst the measured six\n", encoding="utf-8")
+    (arc / "ADDENDUM_2026-11-06_INPUT_COMPLETENESS.md").write_text("# a note without the ledger\n", encoding="utf-8")
+    assert offenders([(arc.name, _with_dated_ledger(arc / "PREREGISTRATION.md"))]) == ["B1999_x"]
+    (arc / "ADDENDUM_2026-11-06_INPUT_COMPLETENESS.md").write_text("# a note\n" + HEAD + "\n", encoding="utf-8")
+    assert offenders([(arc.name, _with_dated_ledger(arc / "PREREGISTRATION.md"))]) == []
 
 
 def test_the_check_can_fail():

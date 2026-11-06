@@ -141,7 +141,19 @@ identical to the reader's.
 
 ## 2. The web seat's doublet index
 
-*(filled at landing from its reader's report)*
+*Filled at Review 75 (B1844) from harvest row 1557. The landing had left this section's placeholder unfilled while the
+verdict line said the index was verified (E53).*
+
+- **The check:** the web seat's `doublet_index_check.py` (2b636e652 → 65a58d2c3) was re-run once on main at ac987e34b with
+  one worker. It was identical but for floating-point residuals. The post hoc `flip_slopes_posthoc.py` (7e1a79593 →
+  cb2d04eba) was byte-identical at 88c577896.
+- **The facts re-checked:**
+  - DR·DR = η⁶/4 to 8.8 × 10⁻¹⁴;
+  - v_up = 3w and v_down = v_lep = −3w, from the charges;
+  - the 2/5 flip exponents, recomputed on B1788's predictor.
+- **The reading:** EXCLUDED is exact for the candidate's reading at leading order, given B1788's hypotheses, and generic
+  otherwise. A05 and B05 stay CHOSEN; I-35 is UNEARNED; P-627 is not reached. Data-free, no look.
+- **Disclosed:** the re-run's output was not committed in this arc. The record of it is row 1557's disposition.
 
 ## Seen first
 
@@ -172,3 +184,5 @@ identical to the reader's.
 > *Dated note 2026-11-04 (S302, B1837):* § 3 sharpened. 'Not all equal' picks only 2/5 for the CHANNEL-CLASS gaps. Under B1788's m₂/m₃ exponents (e_up = ½ − ‖3α‖, e_down = 1/5 on 5α ∈ ℤ) 1/5 and 2/5 both separate up from down, and only the up-steeper ORDER — an in-sample fact of the six — picks 2/5 (B1788 itself: 'no data-free condition here singles it out'). Either way no held-out quantity is read and the slope stays borrowed; the correction to P-625's reason stands.*
 
 > *Dated note 2026-11-05 (S304):* § 4's "off by a factor −i for Re τ ≥ 1" is exact only on 1 < Re τ < 3. The sheet law is mpmath = (−i)^⌊(Re τ + 1)/2⌋ × the series off the cut lines (3 × 10⁻³¹): factor 1 on (−1, 1), −i on (1, 3), −1 on (3, 5), i on (−3, −1); on Re τ ∈ 1 + 2ℤ the branch depends on rounding. The robust fix is an explicit e^{iπτ/4} (P-670).*
+
+> *Dated note 2026-11-06 (Review 75's reader, each item checked by main): § 2 was an unfilled placeholder, now filled from harvest row 1557. Four claims in this arc have no committed instrument here: the web seat's singlet re-run (1.5 × 10⁻¹²), the byte-identical steepness scripts, the physical lane's checks, and a reader D slice (there is no `readers/D`). They rest on the harvest rows' dispositions. Every number the reader compared with a committed output matches.*

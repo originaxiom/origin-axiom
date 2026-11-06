@@ -1,0 +1,30 @@
+{
+ "id": "B1845",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1733",
+  "B1734",
+  "B1728",
+  "B1736",
+  "B1841",
+  "B1842",
+  "B1667",
+  "B1656"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "FR-FIB at the exact horoball norm (B1842's draft instrument), the thread rule (B1733), the order-5 lines",
+  "object": "the object's own level-5 line, P-717's excursion threads L^5 R (LR)^k, and P-455's period average along one of them",
+  "reach": "class",
+  "hypotheses": "data-free; exploration tier, labelled; the apex coordinates of each thread from the full SL(2,Z) orbit"
+ },
+ "claim_one_line": "THE OBJECT'S OWN LINE AND THE EXCURSION READ OUT (P-717, P-718, P-455; data-free exploration, toward the owner's goal): level 5 is the object's own (LR's discriminant 5, LR = -(unipotent) mod 5, order 5 in A5); RL fixes exactly the order-5 lines (1/5, 2/5) and (2/5, 4/5) (B1733's rule), the order-5 classes are X1(5)'s cusps, and the diamond <2> is not a frame symmetry at fixed tau -- at a placed tau the line is the hand plus one binary choice (B1841's best line is RL's own, post hoc); P-717's excursion threads L^5 R (LR)^k converge to tau* = 1/2 + (2 + sqrt5/2)i with Re 1/2 exact, and for k = 0 mod 5 are = +-RL mod 5, carrying RL's line; P-455's period average along the k = 5 thread washes the hierarchy out (arclength mean ln ratios about -1 to -4 against the apex's -4 to -12.5; 17% of the period above Im 2) -- the apex read-out is load-bearing and its derivation needs a kinetic structure along the circle (FL-05). tau not placed; the line placed up to two bits. 0 of 19.",
+ "weave_or_thread": "thread (the object's monodromy and the excursion threads)"
+}

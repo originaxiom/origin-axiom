@@ -1,5 +1,42 @@
 # Changelog
 
+## S305s THE OBJECT-NATIVE LEVEL (P-721; the owner: 'Seek object-native') (2026-11-06)
+
+- **The line is a minimal periodic orbit of the object's own dynamics** on the fibre torus. It is a twisted fixed point of the monodromy, and those number det(A + I) = 5 (P-718).
+- **The level that holds them is 5.** SEEN FIRST: the quantized golden cat map (B376, B204, B355, B381, B391), and LAW_MAP's principle "measurement is passage through the finite".
+- **The record's own principle offers three levels:** 5 (the hearing face), 3 (the being face) and 15 (their handshake). The scale's missing piece narrows to a criterion choosing among them. Firewalled: no ratio computed. P-721; FLOOR 721. 0 of 19.
+
+## S305r THE READ-OUT MAY BE THE RECORD'S OWN KÄHLER WEIGHT (P-720; 2026-11-06)
+
+- **One number governs the read-out.** On B1845's committed loop values, a Petersson weight (Im τ)^w moves P-455's period average from the loop's mild values (w = 0) to the apex's (w ≥ 8).
+- **The record may already fix that number.** Under P-259's minimal Kähler (A08), the canonically normalised couplings carry the fields' total modular weight along the circle, not a new choice. If that total is large, P-717's apex read-out is derived rather than chosen.
+- **Owed:** the fields' weights from the record, and the proper effective-Yukawa integral (the basis rotating along the loop). Data-free; the agy lane asked (CC_TO_AGY_2026-11-06_P720_THE_READ_OUT_WEIGHT.md). Stuck wait loops stopped (they matched their own command line). P-720; FLOOR 720. 0 of 19.
+
+## S305q B1845 THE OBJECT'S OWN LINE AND THE EXCURSION READ OUT (P-717, P-718, P-455; 2026-11-06)
+
+- Tonight's data-free computations committed with their scripts and locks.
+- **Level 5 is the object's own:** LR has order 5 mod 5.
+- **The line:** RL fixes exactly the order-5 lines (1/5, 2/5) and (2/5, 4/5); the order-5 classes are X₁(5)'s cusps; ⟨2⟩ is not a frame symmetry at fixed τ. At a placed τ the line is the hand plus one binary choice.
+- **The excursion:** its threads converge to τ* = ½ + (2 + √5/2)i with Re ½ exact, and for k ≡ 0 mod 5 they carry RL's line.
+- **The read-out:** P-455's period average along the excursion washes the hierarchy out (apex ln ratios −4 to −12.5; loop mean −1 to −4). The apex read-out is load-bearing, and its derivation needs a kinetic structure along the circle (FL-05).
+- **Disclosed:** main printed the frame's ratios at τ* while timing the instrument (LOOK_LEDGER, post hoc). 0 of 19.
+
+## S305p THE SCALE WALL TESTED (R75-7, P-719; the owner: 'Test the wall') (2026-11-06)
+
+- **B151 and B660 re-read in full.** An absolute energy cannot come from the object, since its invariants carry no units: that holds.
+- **B151 SHARPENED.** Its verdict ('no invariant can source a physical scale (energy density / mass / coupling)') is not shown for dimensionless ratios or couplings. Its own reading, Z ∼ exp(i·Vol_ℂ/ℏ), is how an invariant sets a ratio once the level k is fixed.
+- **B660 SCOPED.** Its S3 is the B650 type system's wall (licensed: exact dimensionless algebraic data), not a theorem about the object.
+- **So the goal's scale clause, read as a dimensionless ratio, is not excluded.** What is missing is a principle that fixes the level. The record's candidate is the object's own prime 5 (P-718). Firewalled: no ratio computed. Dated notes on B151, B660 and LAW_MAP's wall 10. P-719; FLOOR 719. 0 of 19.
+
+## REVIEW 75 (B1844): THE END CARDS READ AND DECOMPOSED, THE TARGETS HELD, THE BANG PROGRAMME OPENED, A PROCESS SOUGHT (2026-11-06)
+
+- **The owner:** 'Run it now' (60 merges, the waiver's limit). The block is in docs/progress/REVIEWS.md; the process arc is B1844.
+- **Read in full, seeded by 41420ae14:** B1834, B1836, B1838 by a reader, and B1839, B1841 by main. All hold. Three notes were verified at source and applied as dated notes: B1836's unfilled § 2 (the doublet index), filled from harvest row 1557; B1834's moved counts; B1838's stale 'next'.
+- **The loop:** four of Review 74's items resolved, one declined at its third carry, five carried (R75-1 to R75-5).
+- **The seals:** B1839's corrected E2 pin re-confirmed (f4cb6a98…). Its promised input-hash re-check was done here, unchanged. The Stage 16–18 held-out-class ranges were sealed by hash (145 → 160).
+- **The rulings:** P-707 (A06 merged into A07; frame A 14 → 13 borrowed joints, a double count removed); P-708 (the order adopted; the six retired as a decisive cell); P-611 DONE; THE COUNT adopted (docs/THE_COUNT_2026-11-06.md). Five practices adopted, the first extending the seen-first sweep to chat (E54 ×4).
+- **Next:** R75-6 (P-717's read-out, P-455's period average first), R75-7 (the scale wall re-audited, the owner's 'Test the wall'), R75-8, R75-9. None promoted. 0 of 19.
+
 ## S305o THE LINE IS THE OBJECT'S OWN; THE EXCURSION INHERITS IT (P-717, P-718; 2026-11-06)
 
 - **Level 5 is the object's own:** LR's discriminant is 3² − 4 = 5, so LR ≡ −(unipotent) mod 5, of order 5 in A₅ (computed). The ladder's end and the monodromy's ramified prime coincide. P-717's wording is corrected: the whole run L⁵ is one primitive cusp loop of Γ(5).

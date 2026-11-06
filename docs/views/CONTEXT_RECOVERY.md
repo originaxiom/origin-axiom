@@ -13,16 +13,16 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1545 |
-| … PROVED | 1054 |
+| arcs with a verdict file | 1547 |
+| … PROVED | 1056 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 718 |
+| register points | 721 |
 | … QUEUED | 298 |
 | … LEAD | 9 |
 | … OWNER | 4 |
-| … DONE | 396 |
+| … DONE | 399 |
 | … DECLINED | 11 |
 | harvest rows (the last number) | 1582 |
 | the Standard Model's 19 derived | 0 |
@@ -31,6 +31,8 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1845 | PROVED | THE OBJECT'S OWN LINE AND THE EXCURSION READ OUT (P-717, P-718, P-455; data-free exploration, toward the owner's goal): level 5 is the object's own (LR's discriminant 5, LR = -(unipotent) mod 5, order 5 in A5); RL fixes… |
+| B1844 | PROVED | REVIEW 75 (the owner's 'Run it now'; 60 merges, at the waiver's limit): the window's five-arc sample read in full (B1834, B1836, B1838 by a reader, B1839 and B1841 by main) -- all hold, three with notes applied as dated… |
 | B1843 | PROVED | GENESIS v1.62 (the owner's ruling, 2026-11-05: 'if you also agree with sm about the rule, i aprove it'): GAP1's held-out targets are graded jointly -- each inside its 68% band and the joint p_V (the product of marginal… |
 | B1841 | PROVED | THE PRINCIPLED-ENDS CARD (sealed 29b0e5b39; output committed unread at aba2bddd6): at B1840's principled entry E4 = L_2 - pi/2 (the area-4 horocycle) the six reach chi2_six 4.727 (best row apex 162, tau0 = (1/2, 2.9496)… |
 | B1839 | NEGATIVE | THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/… |
@@ -41,8 +43,6 @@
 | B1834 | PROVED | THE TOTAL-INPUTS SCOREBOARD (the owner's ruling of 2026-10-29, P-418) AND THE BORROWED-JOINTS SCAFFOLD (P-661): 0 of 19 earned, identification price 13; the record's candidate claims 10 rows on 14 borrowed joints (11 ch… |
 | B1833 | PROVED | THE BRAINSTORMS RE-READ (the owner's 'most important leads from brainstorms keeps getting forgotten'; 'check our chat history'): of about 530 distinct ideas across five sources about 340 were worked, 80 partly, 45 rowed… |
 | B1832 | PROVED | THE AGY LANES DIGESTED (P-621; the owner's 'verify and digest bank all the work from agy'): every claim of both agy branches and the independent lane typed and dispositioned, every data-free one checked on main's code (… |
-| B1831 | PROVED | REVIEW 74 (the owner's 'do the decadal'; 38 merges, two short of the block): at the owner's mid-review ask the backlog was read in full for leads -- 84 open relays (72 BANKED, 7 DECLINED, 5 open with next actions), 276… |
-| B1830 | PROVED | THE REGISTER TRIAGED (the owner's ruling on P-587, 2026-11-03: 'yes'): every open row typed DEBT, LEAD or PROCESS, only debts age, every open debt on a ranked list by load (point_debt.py rule 6, with a planted test). Fi… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -56,18 +56,18 @@
 
 ## The last landings (CHANGELOG)
 
+- S305s THE OBJECT-NATIVE LEVEL (P-721; the owner: 'Seek object-native') (2026-11-06)
+- S305r THE READ-OUT MAY BE THE RECORD'S OWN KÄHLER WEIGHT (P-720; 2026-11-06)
+- S305q B1845 THE OBJECT'S OWN LINE AND THE EXCURSION READ OUT (P-717, P-718, P-455; 2026-11-06)
+- S305p THE SCALE WALL TESTED (R75-7, P-719; the owner: 'Test the wall') (2026-11-06)
 - S305o THE LINE IS THE OBJECT'S OWN; THE EXCURSION INHERITS IT (P-717, P-718; 2026-11-06)
 - S305n P-717'S CONTROL AND P-715'S WALL (2026-11-06)
 - S305m THE GOAL SET: A PROCESS THAT PLACES τ, THE LINE AND AN ENERGY SCALE; THE FAREY TRANSITION PLACES NOTHING; ONE CANDIDATE, P-717 (2026-11-06)
 - S305l THE BANG PROGRAMME OPENED (P-694): THE STAGE AUDITED; WAVE 1 AIMED AT WHAT PLACES τ, THE LINE AND A SCALE (2026-11-05)
-- S305k THE SEATS FETCHED: THE SM SEAT'S §§ 351–353 RE-RUN; THE AGY LANE'S STAGES 19–20 CHECKED; P-710 SEEN FIRST (2026-11-05)
-- S305j THE END CARDS READ: B1839 NEGATIVE, B1841 PROVED AS SEALED — A READING; STRUCTURE CARRIES THE SIX, NOT THE FRAME'S VALUES; THE TARGETS HELD (2026-11-05)
-- S305i BEFORE EITHER LOOK IS READ: B1841'S PRE-READ NOTE; THE CENSUS'S THIRD OPINION; THE SEATS REFETCHED (2026-11-05)
-- S305h GENESIS v1.62: THE JOINT CONFIRMATION, ADOPTED BEFORE B1839 IS READ (B1843); THE AGY LANE'S STRUCTURAL CLAIMS VERIFIED (2026-11-05)
 
 ## The latest campaign line
 
-LATEST (2026-11-06, S305o: the line is the object's own level-5 eigenline (P-718: RL fixes exactly (1/5, 2/5), (2/5, 4/5); B1841's best line is one of them, post hoc); P-717's excursion L⁵R(LR)^{5m} inherits the object's (apex, line) pair, lifted toward ½ + (2 + √5/2)i; choices left: one excursion, the apex, the hand; the scale walled. 0 of 19.)
+LATEST (2026-11-06, S305s: P-721 — the line is a minimal periodic orbit of the object's own dynamics (5 twisted fixed points); the record's 'heard mod the conductor' principle offers levels 3, 5, 15 for the scale; a criterion among them owed, firewalled. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

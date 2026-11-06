@@ -1042,3 +1042,4 @@ the rest. Each gloss points at its source; none adds content.*
   "The debts, by load" in `docs/POINT_REGISTER.md`.
 - **the framing ledger** (`docs/FRAMING_LEDGER.md`, B1827): the inventory of what the programme excludes by how it is framed,
   each row FORCED, CHOSEN, READING, UNEARNED or UNSTATED, with its source.
+- **ranges sealed** (`frontier/B1832_the_agy_lanes_digested/verification/SEALED_EXHIBITS.json`; P-679, P-684; Review 75's gloss): line ranges of a seat's files that carry held-out-class literals, pinned by the sha256 of their newline-joined lines at a stated revision so that main's mask never prints them and a change is detected; counted in LOOK_LEDGER when a reader saw them (160 at Review 75).

@@ -1,7 +1,7 @@
 {
  "id": "B660",
  "verdict": "NEGATIVE",
- "claim_one_line": "Verification of cc2's four cells banks the dimensionful no-go as a wall and an exactly zero v₀-mediated trilinear, closing the last class-level mass-shape route.",
+ "claim_one_line": "Verification of cc2's four cells banks the dimensionful no-go as a wall and an exactly zero v₀-mediated trilinear, closing the last class-level mass-shape route. [SCOPED 2026-11-06 (R75-7, P-719): S3 is the B650 type system's wall (licensed = exact dimensionless algebraic data); it excludes dimensionful values, and non-algebraic numbers only by that typing rule, not by the object.]",
  "instrument": false,
  "depends_on": [],
  "supersedes": null,

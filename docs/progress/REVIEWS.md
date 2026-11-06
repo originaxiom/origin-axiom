@@ -7982,15 +7982,188 @@ None promoted. 0 of 19. THE SIX ON THE STRIP is a CANDIDATE (level 1), and its c
 - **"Not on every remote"** because the mirror is unmounted.
 
 ### Action items (Review 74)
-- [>] R74-1: P-426–P-430 worked in the queue's order (carried from R73-4, before it R72-6; owner: cc)
-- [>] R74-2: P-417's remaining steps and P-421, now debt 4 (carried from R73-5, before it R72-7; owner: cc)
-- [>] R74-3: P-507, the completeness lists classified (carried from R73-8; owner: cc)
-- [>] R74-4: P-516, the identifications declared, with a lock — three more instances in this sample (carried from R73-9; owner: cc)
-- [>] R74-5: P-517, B1811's referee-stage numbers committed and locked (carried from R73-10; owner: cc)
-- [ ] R74-6: P-597 and P-611 — whether a second clean held-out target exists, and the per-target information budget, before any level-2 card is sealed (owner: cc; reported to the owner)
-- [ ] R74-7: P-595 — main's rerun of the web seat's sealed exact-norm look (owner: cc)
-- [ ] R74-8: P-616 and P-617 — the backlog's and the leads' proposed closures, merges and retypes confirmed one by one (owner: cc)
-- [ ] R74-9: P-601 — the 79 'order unshown' as a list that may only shrink; the tools' order and ledger defects (owner: cc)
-- [ ] R74-10: the owner's choice among the ranked leads of § 3 for the next work (owner: the owner)
+- [x] R74-1: P-426–P-430 worked in the queue's order (carried from R73-4, before it R72-6; owner: cc) — declined from the review loop at its third carry: the five rows stay on the register, P-426, P-427 and P-430 as ranked debts, P-428 and P-429 as process rows
+- [x] R74-2: P-417's remaining steps and P-421, now debt 4 (carried from R73-5, before it R72-7; owner: cc) — RESOLVED for P-421 (B1839 NEGATIVE, B1841 PROVED as sealed, a READING; P-421 DONE); P-417's remaining steps declined from the review loop at their third carry, carried by the row
+- [>] R74-3: P-507, the completeness lists classified (carried from R73-8; owner: cc) — carried to Review 75 as R75-1
+- [>] R74-4: P-516, the identifications declared, with a lock — three more instances in this sample (carried from R73-9; owner: cc) — carried to Review 75 as R75-2
+- [>] R74-5: P-517, B1811's referee-stage numbers committed and locked (carried from R73-10; owner: cc) — carried to Review 75 as R75-3
+- [x] R74-6: P-597 and P-611 — whether a second clean held-out target exists, and the per-target information budget, before any level-2 card is sealed (owner: cc; reported to the owner) — RESOLVED: the budget computed and adopted in GENESIS v1.62 with its power valve (B1843; P-611 DONE); r taken as the second target (P-665); the owner held both unspent (P-709); y_τ/y_b's cleanliness routes to P-574
+- [x] R74-7: P-595 — main's rerun of the web seat's sealed exact-norm look (owner: cc) — RESOLVED: B1838 § 1 re-ran it on main's tree, every row identical, and B1839's C0 reproduces its E2 rows through main's own path to 8.2 × 10⁻¹²
+- [>] R74-8: P-616 and P-617 — the backlog's and the leads' proposed closures, merges and retypes confirmed one by one (owner: cc) — carried to Review 75 as R75-4
+- [>] R74-9: P-601 — the 79 'order unshown' as a list that may only shrink; the tools' order and ledger defects (owner: cc) — carried to Review 75 as R75-5
+- [x] R74-10: the owner's choice among the ranked leads of § 3 for the next work (owner: the owner) — RESOLVED: the owner chose the end card (lead 10's P-421 first, B1839 and B1841), then the bang programme (P-694) and, on 2026-11-06, the goal of a process that places τ, the line and an energy scale
 
 **anchor-commit: `41420ae14`**
+
+# Review 75 (2026-11-06) — the end cards read and decomposed, the targets held, the bang programme opened, a process sought
+
+60 commits since Review 74 (`41420ae14..f84f2bc88`, all on the first-parent line, S298–S305o), at the block: the owner
+had waived it through 60 merges ("yes record the waiver until tomorrow"). The window has 10 arcs with a verdict
+(B1832–B1843). Run by main at the owner's "Run it now". The process arc is B1844; its reader's report is in its
+`verification/readers/`.
+
+**What the window did:**
+- **The end cards.**
+  - B1839 is NEGATIVE: a free cut level fails the six's screen, r97.5 2.46 %.
+  - B1841 is PROVED as sealed at the area-4 horocycle E4: r97.5 0.885 %; best row apex 162, (2/5, 4/5), (S̃, S, S),
+    c 3.77.
+  - Main's third opinion makes B1841 a READING (P-706). On the row's order-5 line the lepton spectrum is the down
+    spectrum (B1728). The frame's quark four alone are not specific (9.2 % at E4). D_frame = c² = 14.23, against
+    P-094's 10.58 ± 0.11.
+  - **The owner held both held-out targets unspent (P-709).**
+- **Foundations:**
+  - GENESIS v1.62, the joint confirmation with its power valve (B1843), adopted before either look was read;
+  - B1840, the principled ends;
+  - B1842, the closure instruments (C-T a tautology, to fix).
+- **The seats, harvested to their heads.**
+  - SM §§ 351–353, each re-run identically. §353's bit balance: the menu must be reduced by principle.
+  - The agy lane's Stages 12–20, through the mask. A determinant identity and B1728's converse were verified on main.
+  - The owner moved cooperation toward the agy lane.
+- **The bang programme opened** (P-694; docs/THE_BANG_PROGRAMME.md), and on 2026-11-06 the owner's goal: a process that
+  places τ, the line and an energy scale.
+  - B867's S3 is sharpened (B295: its cubic has no double well).
+  - The Farey transition places nothing (P-713).
+  - P-718: the line is the object's own level-5 eigenline. RL fixes exactly (1/5, 2/5) and (2/5, 4/5), and B1841's best
+    line is one of them (post hoc).
+  - P-717: a firewalled candidate excursion inherits it, rising toward τ* = ½ + (2 + √5/2)i.
+- **THE COUNT adopted** (docs/THE_COUNT_2026-11-06.md).
+- **Still 0 of 19.**
+
+## 1. The loop (Review 74's block)
+
+- **Two items at their third carry.**
+  - R74-1 (P-426–P-430) is declined from the loop. The five rows stay on the register, ranked by type.
+  - R74-2: its P-421 half is RESOLVED by B1839 and B1841; its P-417 half is declined to its row.
+- **Three items resolved by the window.**
+  - R74-6: the budget is in v1.62; r is the second target; both are held.
+  - R74-7: B1838 § 1 re-ran the sealed look on main, and B1839's C0 reproduces it to 8.2 × 10⁻¹².
+  - R74-10: the owner chose the end card, then the bang programme and the goal.
+- **Five items carried a second time:** R74-3, R74-4, R74-5, R74-8 and R74-9, as R75-1 to R75-5. None was worked in a
+  window spent on the end cards.
+
+## 1b. The branch inventory and the seats
+
+- **15 unmerged leaves, every one registered.** All are on one remote only, because the owner's mirror is unmounted (the
+  backup push is owed when it mounts).
+- **Every seat harvested to its head at S305k:** rows 1576–1582; pins sm 3ef85d83, audit bda89f04, agyaudit c5a584cd,
+  chat1 006b6497.
+- **Relays open:** outbound 13 (AUDIT_LANE 1, ALL_SEATS 1, SM 3, AGY 5, CHAT1 3), inbound 2 (CODEX 2).
+- **The owner's seat rule (2026-11-05):** relays to the web and SM seats only for their expertise; cooperate with the agy
+  lane more.
+- **The Stage 16–18 held-out-class ranges** the S305f–S305i readers listed are now sealed by hash (145 → 160 ranges;
+  none printed).
+
+## 2. The declared modulus
+
+- **The window:** 60 commits, S298–S305o.
+- **Read in full, drawn by the anchor's seed.**
+  - B1834, B1836 and B1838, by a reader (`B1844/verification/readers/reader_READ_IN_FULL.md`). All HOLD WITH NOTES, and
+    no number was wrong when written. Main verified each note at source and applied it as a dated note:
+    - **B1836's § 2** (the web seat's doublet index) was an unfilled placeholder while its verdict line said "verified".
+      It is filled from harvest row 1557, and the re-run's uncommitted output is disclosed (E53).
+    - **B1834's counts** moved after it was written; it now points to the live scoreboard.
+    - **B1838's verdict line** named two "next" steps that are done.
+  - B1839 and B1841, by main: every cell, control and read-out checked against look_run.txt and look.json. They hold;
+    main's third opinion is in B1841's `verification/referee/`.
+- **B1839's promised landing check, done here** (its PRE_RUN_NOTE: "the landing re-checks" the measured inputs'
+  hashes): both data files equal compare.py's constants and are unchanged since B1637.
+- **The locks:** a full suite on a fresh clone of f84f2bc88 at eight workers: 8 048 passed, 9 failed, 70 skipped.
+  - **Four fail only because the review fires:** the two all-gates suites and B1461's two governance locks. They clear
+    with this landing.
+  - **Two are standing:** B805's two attachment locks (P-239).
+  - **Three are the window's own, fixed here.**
+    - B1834's two locks: S305j had written decimals into the scoreboard's text and moved its headline counts. The
+      decimals are removed; the headline lock is updated with a dated comment.
+    - The input-completeness lock: B1839 and B1841 were sealed without P-436's ledger. The ledger is filled by dated
+      ADDENDUM_*_INPUT_COMPLETENESS.md files, and the lock reads a dated addendum only when it carries the heading (a
+      planted control).
+  - **A defect found by B1461's waiver lock:** a waiver line never expired, so "through 60 merges" would have covered
+    every later window below 60. A waiver now covers only the window it was granted in: it is read only if dated on or
+    after the last anchor (gates.py; a planted control).
+
+fresh-clone: PASS @ 47d35d27e (gates all PASS; belt ok) (after the anchor line, the view refresh and the views; the review's landing is 264fa6d98)
+fresh-clone suite: FAIL @ f84f2bc88 (8048 passed, 9 failed, 70 skipped; diagnosed above: four clear with this landing, two standing, three fixed here)
+sample seed: 41420ae14; read in full: B1834, B1836, B1838, B1839, B1841
+gate controls: 48 registered failing-path tests; unregistered: none
+
+## 3. Advancement, and the leads
+
+- **The tables:** LAW_MAP +13 rows, THEOREM_REGISTRY +5 (the window's arcs, the agy lane's verified identities, the
+  web seat's Higgs-twist law). Nothing moved up a strength class.
+- **The rulings, by the math:**
+  - **P-707:** A06 merged into A07. Once the norm is exact the end is one choice, so frame A goes from 14 to 13 borrowed
+    joints: a double count removed, not a choice earned.
+  - **P-708:** the plan's order is adopted as revised by the window, and the six are retired as a decisive cell.
+  - **P-611:** DONE.
+  - **THE COUNT:** adopted.
+- **The leads that could change the direction, ranked** (data-free first steps):
+  1. **P-717's two remaining choices:** one excursion, and the read-out. P-455's period average, run on L⁵R(LR)^{5m}, comes
+     first; it may wash the hierarchy toward the golden loop's.
+  2. **The dimensionful no-go (B151, B660), re-audited at the owner's "Test the wall".** An absolute energy is impossible
+     by units. Whether a dimensionless ratio of scales is also excluded is B151's scope, to be checked.
+  3. **P-718's binary choice** (the eigenline's two points, after the hand), by a compatibility condition.
+  4. **P-711:** the line stabilizers' S₄ images (the agy lane asked).
+  5. **P-575:** a computed σ_th.
+  6. **P-716:** the CP-odd source.
+
+## 4. Error-class recurrence
+
+- **E54, four times: seen-first misses in chat, a new shape.** Main told the owner that facts on record were new:
+  - the level-4 covariance (B1736);
+  - the order-5 lepton = down identity (B1728);
+  - a structurally fixed y_τ/y_b (P-597);
+  - B867's transition (B295).
+  Each was corrected in the register and the relays the same evening. A practice now extends the sweep to chat.
+- **E95: exploration graded by seen data.** Main compared P-717's τ* with the six's strip while reasoning. It is
+  disclosed, and the candidate cannot be validated on the six.
+- **E52: a control instrument wrong, self-caught.** P-717's approximant search over cyclic shifts omitted the
+  S-conjugates and returned the golden apex. The continued-fraction formula caught it.
+- **E53:** B1836's § 2 placeholder, and B1839's promised landing check skipped at S305j.
+- **E84's shape again: a rule whose lifetime was never bounded.** The review waiver never expired. It is fixed in the gate
+  with a planted control.
+- **E11 / a gated rule not met:**
+  - B1839 and B1841 were sealed without P-436's input-completeness ledger;
+  - S305j wrote decimals into a no-value scoreboard.
+  Both were caught only by the full suite, because the push gates do not run it.
+- **No new class.** The rules are in PRACTICES, "Review 75's practices":
+  - novelty swept in chat too;
+  - the six retired as a decisive cell;
+  - a pass decomposed before it is read as value evidence;
+  - an orbit covered and checked twice;
+  - a pre-run note's promise is a landing line.
+
+## 5. The provenance spot-sweep
+
+- **Pretense:** 4 657 added lines, 0 hits.
+- **Vocabulary:** the tool named "ranges sealed", now glossed in TERMINOLOGY.md.
+
+## 6. The promotion sweep
+
+None promoted. 0 of 19.
+- B1841 is a level-1 READING, and its confirmation is held by the owner.
+- THE SIX ON THE STRIP stopped being a candidate (B1839's reading); the record's candidate is the six at B1841's row.
+- Frame A borrows 13 joints.
+
+## 7. Protocol integrity
+
+- **The window's two seals:**
+  - B1839: 16 of 17 hashes, sealed before results. The 17th is the web seat's E2 pin, whose provenance was corrected in
+    the PRE_RUN_NOTE before the look. The sealed file's own hash, f4cb6a98…, was re-confirmed here from
+    `git show 4aa66ca45`, and no cell is affected.
+  - B1841: 21 of 21 hashes, sealed before results. Its PRE_RUN_NOTE fixed the joint reading before either look.
+- **Both looks were committed unread before they were read.** Main's two paste exposures (P-679, P-703) and its
+  post-hoc looks (B1841's quark four; P-717's strip comparison; P-347's 5-run apexes) are counted and disclosed.
+- **"Not on every remote"** because the mirror is unmounted.
+
+### Action items (Review 75)
+- [>] R75-1: P-507, the completeness lists classified (carried from R74-3, before it R73-8; owner: cc)
+- [>] R75-2: P-516, the identifications declared, with a lock (carried from R74-4, before it R73-9; owner: cc)
+- [>] R75-3: P-517, B1811's referee-stage numbers committed and locked (carried from R74-5, before it R73-10; owner: cc)
+- [>] R75-4: P-616 and P-617, the backlog's and the leads' proposed closures confirmed one by one (carried from R74-8; owner: cc)
+- [>] R75-5: P-601, the 79 'order unshown' as a list that may only shrink (carried from R74-9; owner: cc)
+- [ ] R75-6: P-717's remaining choices — P-455's period average on L⁵R(LR)^{5m} first, data-free; then 'one excursion' derived or refuted (owner: cc)
+- [ ] R75-7: the dimensionful no-go (B151, B660) re-audited at the owner's 'Test the wall' — its scope for dimensionless ratios of scales (owner: cc)
+- [ ] R75-8: B1842's C-T tautology fixed before B1842 is used (owner: cc)
+- [ ] R75-9: P-718's binary choice and P-711's stabilizer images (the agy lane asked; main verifies) (owner: cc)
+
+**anchor-commit: `264fa6d98`**

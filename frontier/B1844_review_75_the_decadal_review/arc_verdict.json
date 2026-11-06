@@ -1,0 +1,37 @@
+{
+ "id": "B1844",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1831",
+  "B1832",
+  "B1833",
+  "B1834",
+  "B1835",
+  "B1836",
+  "B1837",
+  "B1838",
+  "B1839",
+  "B1840",
+  "B1841",
+  "B1842",
+  "B1843"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the review's reader (verification/readers/)"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the record's own arcs, ledgers and rules over Review 75's window (41420ae14..f84f2bc88)",
+  "object": "the decadal review: the loop, the seals, the read-in-full sample, the locks, the rulings",
+  "reach": "general",
+  "hypotheses": "the review tool's report; one reader; main verified every finding at source"
+ },
+ "claim_one_line": "REVIEW 75 (the owner's 'Run it now'; 60 merges, at the waiver's limit): the window's five-arc sample read in full (B1834, B1836, B1838 by a reader, B1839 and B1841 by main) -- all hold, three with notes applied as dated notes (B1836's unfilled section 2 filled from harvest row 1557; B1834's moved counts; B1838's stale 'next'); Review 74's loop closed (four resolved, one declined at its third carry, five carried as R75-1..R75-5); the seals re-checked (B1839's corrected pin, its promised input-hash re-check done here, unchanged); the Stage 16-18 ranges sealed by hash (145 -> 160); P-707 ruled (A06 merged into A07, frame A 14 -> 13 borrowed joints, a double count removed), P-708 ruled (the six retired as a decisive cell), P-611 DONE, THE COUNT adopted; five practices adopted, the first extending the seen-first sweep to chat (E54 x4). None promoted. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}

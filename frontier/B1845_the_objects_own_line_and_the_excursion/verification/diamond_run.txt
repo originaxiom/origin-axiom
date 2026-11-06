@@ -1,0 +1,2 @@
+('1/5', '2/5') <-> ('2/5', '4/5'): best-matching (any sector permutation, reading swap) max |d ln ratio| over 8 apexes x 4 ends: min 2.425e+00, median 3.241e+00, max 6.359e+00
+('1/5', '3/5') <-> ('2/5', '1/5'): best-matching (any sector permutation, reading swap) max |d ln ratio| over 8 apexes x 4 ends: min 2.110e+00, median 2.995e+00, max 4.411e+00

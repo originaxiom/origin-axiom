@@ -1,0 +1,13 @@
+k=0  apex Re 0.500000 Im 3.354101966  fixed order-5 lines ['(1/5, 2/5)', '(2/5, 4/5)'] -> RL's eigenline
+k=4  apex Re 0.500000 Im 3.118128810  fixed order-5 lines ['(0/5, 1/5)', '(0/5, 2/5)'] -> neither
+k=5  apex Re 0.500000 Im 3.118047822  fixed order-5 lines ['(1/5, 2/5)', '(2/5, 4/5)'] -> RL's eigenline
+k=9  apex Re 0.500000 Im 3.118033995  fixed order-5 lines ['(0/5, 1/5)', '(0/5, 2/5)'] -> neither
+--- congruence mod 5 of the apex-coordinate thread with powers of RL ---
+k= 0  A' mod 5 = [[3, 4], [4, 4]]  equals (RL)^j mod 5 for j in [6, ('-', 1)]
+k= 1  A' mod 5 = [[3, 1], [2, 1]]  equals (RL)^j mod 5 for j in none
+k= 2  A' mod 5 = [[1, 4], [2, 4]]  equals (RL)^j mod 5 for j in none
+k= 3  A' mod 5 = [[0, 1], [4, 1]]  equals (RL)^j mod 5 for j in none
+k= 4  A' mod 5 = [[4, 4], [0, 4]]  equals (RL)^j mod 5 for j in none
+k= 5  A' mod 5 = [[2, 1], [1, 1]]  equals (RL)^j mod 5 for j in [1, ('-', 6)]
+k= 9  A' mod 5 = [[1, 1], [0, 1]]  equals (RL)^j mod 5 for j in none
+k=10  A' mod 5 = [[3, 4], [4, 4]]  equals (RL)^j mod 5 for j in [6, ('-', 1)]
