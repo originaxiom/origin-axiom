@@ -1,0 +1,30 @@
+[s=0.0]    F spheres 4011 (translates 12033); floor 0.8660..1.0000; faces 17: xYxyXY[-1.732,-1.301], xYXyxYX[-1.299,-1.212], xYX[-1.210,-1.210], xYXyxYX[-1.208,-1.208], xYX[-1.206,-1.171], YxyXY[-1.169,-0.868], XyxYX[-0.866,-0.691], yXY[-0.688,-0.602], yXYxyXY[-0.600,-0.433], yXyxYX[-0.431,-0.171], yyXYxyXY[-0.169,+0.431], yyxYX[+0.433,+0.743] ...
+[s=0.0]    res (120,80): tau +0.669727+0.742261i  reduced -0.499610+1.124584i  detE-1 +9.98e-04  bad cycles 0  pairing off-surface 1.0e-08 off-floor 2.8e-06  76s
+[s=0.0]    res (240,160): tau +0.669784+0.742473i  reduced -0.499906+1.124433i  detE-1 +2.39e-04  bad cycles 0  pairing off-surface 1.0e-08 off-floor 3.0e-06  107s
+[s=0.0]    spline spot check on the domain (60 points, t >= floor): max |phi - s| 2.41e-09
+[s=0.0] m004 s=0.0: fibre group x=a, y=baB, [x,y] = translation 0.000000-3.464102j; surface table t >= 0.600, min |dphi/dv| 4.710e-01; 42s
+[s=0.0] m004 s=0.0: fibre group x=a, y=baB, [x,y] = translation 0.000000-3.464102j; surface table t >= 0.600, min |dphi/dv| 4.710e-01; 54s
+[s=0.25]    F spheres 4011 (translates 12033); floor 0.8175..0.9783; faces 8: xxYXyxYX[-1.732,-1.444], xYXyxYX[-1.442,-1.072], YxyXY[-1.070,-0.578], yXyxYX[-0.576,+0.009], yyXY[+0.011,+0.288], yyxYX[+0.290,+0.760], xyyXY[+0.762,+1.154], xxYXyxYX[+1.156,+1.732]
+[s=0.25]    res (120,80): tau +0.499990+0.499744i  reduced -0.000512+1.000019i  detE-1 +1.03e-03  bad cycles 0  pairing off-surface 1.7e-08 off-floor 6.7e-06  57s
+[s=0.25]    res (240,160): tau +0.500001+0.499937i  reduced +0.000125+1.000002i  detE-1 +2.50e-04  bad cycles 0  pairing off-surface 1.8e-08 off-floor 1.2e-05  80s
+[s=0.25]    spline spot check on the domain (60 points, t >= floor): max |phi - s| 2.76e-09
+[s=0.25] m004 s=0.25: fibre group x=a, y=baB, [x,y] = translation 0.000000-3.464102j; surface table t >= 0.600, min |dphi/dv| 5.220e-01; 23s
+[s=0.25] m004 s=0.25: fibre group x=a, y=baB, [x,y] = translation 0.000000-3.464102j; surface table t >= 0.600, min |dphi/dv| 5.220e-01; 29s
+[s=0.5]    F spheres 4011 (translates 12033); floor 0.8660..1.0000; faces 14: xYYxyXY[-1.732,-1.299], xYXyxYX[-1.297,-0.961], YxyXY[-0.959,-0.435], yXyxYX[-0.433,-0.002], yyyXY[-0.000,+0.433], yyxYX[+0.435,+0.543], y[+0.546,+0.546], yyxYX[+0.548,+0.548], y[+0.550,+0.552], yyxYX[+0.554,+0.554], y[+0.556,+0.799], xyyXY[+0.801,+1.297] ...
+[s=0.5]    res (120,80): tau +0.426850+0.319792i  reduced +0.499479+1.124175i  detE-1 +9.33e-04  bad cycles 0  pairing off-surface 9.1e-09 off-floor 3.7e-06  104s
+[s=0.5]    res (240,160): tau +0.426838+0.319914i  reduced +0.499877+1.124338i  detE-1 +2.23e-04  bad cycles 0  pairing off-surface 9.1e-09 off-floor 3.2e-06  105s
+[s=0.5]    spline spot check on the domain (60 points, t >= floor): max |phi - s| 1.54e-09
+[s=0.5] m004 s=0.5: fibre group x=a, y=baB, [x,y] = translation 0.000000-3.464102j; surface table t >= 0.600, min |dphi/dv| 4.709e-01; 64s
+[s=0.5] m004 s=0.5: fibre group x=a, y=baB, [x,y] = translation 0.000000-3.464102j; surface table t >= 0.600, min |dphi/dv| 4.709e-01; 68s
+[s=0.75]    F spheres 4011 (translates 12033); floor 0.8175..0.9783; faces 10: xYYxyXY[-1.732,-1.156], xYXyxYX[-1.154,-0.886], Y[-0.883,-0.840], YxyXY[-0.838,-0.290], yyX[-0.288,-0.104], yyyXY[-0.102,+0.576], y[+0.578,+0.853], xyyXY[+0.855,+1.442], xYxYX[+1.444,+1.557], xYYxyXY[+1.559,+1.732]
+[s=0.75]    res (120,80): tau +0.399997+0.199893i  reduced +0.000440+1.000309i  detE-1 +1.12e-03  bad cycles 0  pairing off-surface 1.8e-08 off-floor 6.9e-06  70s
+[s=0.75]    res (240,160): tau +0.400000+0.199975i  reduced +0.000102+1.000077i  detE-1 +2.54e-04  bad cycles 0  pairing off-surface 1.8e-08 off-floor 1.2e-05  68s
+[s=0.75]    spline spot check on the domain (60 points, t >= floor): max |phi - s| 3.50e-09
+[s=0.75] m004 s=0.75: fibre group x=a, y=baB, [x,y] = translation 0.000000-3.464102j; surface table t >= 0.600, min |dphi/dv| 5.220e-01; 28s
+[s=0.75] m004 s=0.75: fibre group x=a, y=baB, [x,y] = translation 0.000000-3.464102j; surface table t >= 0.600, min |dphi/dv| 5.220e-01; 31s
+[s=1.0]    F spheres 4011 (translates 12033); floor 0.8660..1.0000; faces 20: xYYxyXY[-1.732,-1.301], xYYxYX[-1.299,-1.048], xYYYxyXY[-1.046,-0.868], xYXyxYX[-0.866,-0.831], Y[-0.829,-0.717], YxyXY[-0.714,-0.433], yyX[-0.431,-0.191], yyyXY[-0.188,+0.431], yyyX[+0.433,+0.704], yyyXyxYX[+0.706,+0.708], yyyX[+0.710,+0.714], yyyXyxYX[+0.717,+0.788] ...
+[s=1.0]    res (120,80): tau +0.389581+0.124095i  reduced -0.499536+1.124377i  detE-1 +8.17e-04  bad cycles 0  pairing off-surface 1.0e-08 off-floor 3.7e-06  85s
+[s=1.0]    res (120,80): tau +0.389581+0.124095i  reduced -0.499536+1.124377i  detE-1 +8.17e-04  bad cycles 0  pairing off-surface 1.0e-08 off-floor 3.7e-06  92s
+[s=1.0]    spline spot check on the domain (60 points, t >= floor): max |phi - s| 2.41e-09
+[s=1.0] m004 s=1.0: fibre group x=a, y=baB, [x,y] = translation 0.000000-3.464102j; surface table t >= 0.600, min |dphi/dv| 4.710e-01; 41s
+[s=1.0] m004 s=1.0: fibre group x=a, y=baB, [x,y] = translation 0.000000-3.464102j; surface table t >= 0.600, min |dphi/dv| 4.710e-01; 53s

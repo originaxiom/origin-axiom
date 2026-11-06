@@ -15547,6 +15547,25 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1847": {
+   "slug": "the level surfaces own modulus",
+   "motifs": [
+    "closing",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "kappa",
+    "golden",
+    "amphichiral_cp",
+    "quasicrystal",
+    "firewall"
+   ],
+   "refs": [],
+   "obstacle": "units_scale",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B184": {
    "slug": "symmetry gauge door",
    "motifs": [

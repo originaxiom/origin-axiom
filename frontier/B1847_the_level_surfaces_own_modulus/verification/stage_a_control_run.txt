@@ -1,0 +1,12 @@
+tau0 (0.23+1.41j) flat   arc  60 lev  40: tau +0.2309920+1.3990535i |err| 1.10e-02 detE-1 +1.34e-02 cols 143 bad 0 2s
+tau0 (0.23+1.41j) curved arc  60 lev  40: tau +0.2300898+1.4051074i |err| 4.89e-03 detE-1 +6.51e-03 cols 143 bad 0 2s
+tau0 (0.23+1.41j) flat   arc 120 lev  80: tau +0.2303213+1.4068873i |err| 3.13e-03 detE-1 +3.58e-03 cols 263 bad 0 9s
+tau0 (0.23+1.41j) curved arc 120 lev  80: tau +0.2300878+1.4085952i |err| 1.41e-03 detE-1 +1.75e-03 cols 263 bad 0 9s
+tau0 (0.23+1.41j) flat   arc 240 lev 160: tau +0.2300806+1.4092506i |err| 7.54e-04 detE-1 +8.70e-04 cols 501 bad 0 41s
+tau0 (0.23+1.41j) curved arc 240 lev 160: tau +0.2300214+1.4096643i |err| 3.36e-04 detE-1 +4.25e-04 cols 501 bad 0 42s
+tau0 (-0.31+1.07j) flat   arc  60 lev  40: tau -0.3103281+1.0629335i |err| 7.07e-03 detE-1 +1.16e-02 cols 295 bad 0 5s
+tau0 (-0.31+1.07j) curved arc  60 lev  40: tau -0.3103943+1.0664956i |err| 3.53e-03 detE-1 +5.59e-03 cols 295 bad 0 5s
+tau0 (-0.31+1.07j) flat   arc 120 lev  80: tau -0.3100832+1.0682454i |err| 1.76e-03 detE-1 +2.83e-03 cols 411 bad 0 14s
+tau0 (-0.31+1.07j) curved arc 120 lev  80: tau -0.3100976+1.0691286i |err| 8.77e-04 detE-1 +1.37e-03 cols 411 bad 0 15s
+tau0 (-0.31+1.07j) flat   arc 240 lev 160: tau -0.3100087+1.0695652i |err| 4.35e-04 detE-1 +7.05e-04 cols 631 bad 0 52s
+tau0 (-0.31+1.07j) curved arc 240 lev 160: tau -0.3100167+1.0697858i |err| 2.15e-04 detE-1 +3.41e-04 cols 631 bad 0 55s

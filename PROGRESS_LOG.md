@@ -18611,3 +18611,18 @@ couplings at. Its volume does gather where the excursion goes deepest, and more 
 place the record had found by symmetry, now ranked above its rival. Whether that moment carries the value we need, the
 shape does not yet say. 0 of 19.
 
+## 2026-11-06 — S306c: two questions, and an instrument tested
+
+The owner asked whether a theory with declared choices could still prove its point. Yes, if it predicts more than it
+assumes, and sealed in advance; it does not yet. Asked whether the big bang must be computed, main's answer was no, only
+its first law. A new instrument reads the metric's own shape of the fibre. It passed a known case and its symmetry tests
+on the golden member, and failed its own checks on the excursion, so that number waits. 0 of 19.
+
+## 2026-11-06 — S306d: the fibre's own shape, where it can be read
+
+The new instrument read the fibre's shape on the golden member all the way around its circle, and on the excursion at
+two places. There the shape sits clearly away from the record's usual reading, by 16 % at the excursion's low point. At
+the excursion's high point the surface twists around the thin tube and both instruments refuse to give an answer, so
+that number is still owed. Asked to rule on which theory sets the scale, main found that they are two halves of one
+theory, and that the scale's formula, as written, is not what that theory gives at level five. 0 of 19.
+

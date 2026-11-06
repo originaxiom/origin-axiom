@@ -1,5 +1,29 @@
 # Changelog
 
+## S306d THE LEVEL SURFACE'S OWN MODULUS (B1847; P-727) + THE SEATS FETCHED + MAIN'S RULING ON B1012 (2026-11-06)
+
+- **B1847 (P-727, the owner's choice).** A new instrument reads the conformal modulus of a harmonic level surface from its 3D shape and its fibre group alone: three Dirichlet energies, with det E = 1 as the check.
+  - **Control.** A Fuchsian group of known τ is recovered to < 2 × 10⁻⁴, at second order; a 3D-inverted curved copy agrees.
+  - **m004.** The loop is forced at its symmetric levels (−½ + 1.12438i; i) and closes. Its symmetric level sits 0.57 % above the golden Teichmüller apex.
+  - **The excursion member L⁶RLR.** The anti-apex reads ½ + 1.5904i, 16 % above the Teichmüller anti-apex ½ + √(15/8)i. The level s = ¼ reads −0.3722 + 1.0085i, by two independent meshings.
+  - **The tube level s = 0 is NOT computed.** The surface folds there into a helicoid about the core, which lies on a face of the fibre group's fundamental piece. Both instruments fail their own checks, so P-727 stays open for that one value.
+- **The seats fetched again** (the owner: 'did u fetch all other seats').
+  - **The web seat:** three relays. The point read-out is narrowed: every fixed weight is blind on the one-departure history, consistent with B1846. R2 and R4 are attacked: neither is derived. And main is asked to rule on B1012 first.
+  - **The agy lane's Stage 29,** through the mask. Theorem 154's identity is verified by main: the middle tetrahedron's shape equals coth²(L_tube/2), to 2.6 × 10⁻¹³. Its 'level surface modulus' is a different object. Its coupling identification is not evaluated (firewall). Its CKM claim is owed. Its 'zero parameters' is an overclaim.
+  - Rows 1601–1604; pins chat1 c609cf9a, agyaudit 4bbaa659.
+- **Main's ruling on B1012** (the owner: 'Main rules on B1012 first'), relayed to the web seat. The single block and the full complex theory are pieces of one structure; a premise chooses between them. Under the chiral premise, R2's leading exponential is not the level-5 block: the exact Kashaev invariant is 46 + 2√5 = 50.47 against 5.03. **R2 stays CHOSEN.**
+- **The agy lane's Theorem 150 'portal'** checked with main's Weil representation: its numbers agree for character c = 1 and swap for c = 2, so the value rests on a convention (P-725). 0 of 19.
+
+## S306c THE OWNER'S TWO QUESTIONS ROWED; P-727 IN PROGRESS (P-728, P-729; 2026-11-06)
+
+- **P-728** (the owner: declared choices and the argument). Main's answer: partly. Declared choices do not disqualify the programme, but a fit with them proves the argument only if it compresses: more precise numbers than choices, sealed before the data are read. Today it does not: B1834's scoreboard has 6 rows against 13 borrowed joints, and P-554 finds the six do not compress. "The most logical explanation of the universe" is not a status one result can confer.
+- **P-729** (the owner: whether the big bang must be computed to get the missing dynamics). Not the whole cosmological process, which would add choices. But one part, yes: door C, the initial law, the missing premise after B1846. It is the bang programme's next item after P-727.
+- **P-727's instrument, a dated note.**
+  - **Stage A (a Fuchsian control):** passed. Known τ is recovered to < 2 × 10⁻⁴.
+  - **Stage B (m004's loop):** passed its forced checks. The symmetric level sits 0.57% above the golden Teichmüller apex.
+  - **Stage C (the excursion's tube):** failed its own checks. No number is banked; diagnosis continues.
+- FLOOR 729. 0 of 19.
+
 ## S306b THE METRIC'S READ-OUT: HARMONIC TIME (B1846; P-726, P-727; 2026-11-06)
 
 - **The owner:** 'how strong is our foundation now, and whars our weakest points worth attacking?', then 'lets craft a goal around your last message and not stop until its either achieved or proven unavhiavable'. The goal: using only the Mostow-rigid hyperbolic metric (no chosen kinetic term), is the read-out a point of the fibration circle or an average?

@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.62) of 2026-11-05 |
-| arcs with a verdict | 1548: 1057 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 727: 315 open (queued, leads, waiting for the owner), 412 closed |
+| arcs with a verdict | 1549: 1058 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
+| points in the register | 729: 316 open (queued, leads, waiting for the owner), 413 closed |
 | the last review | Review 75 (2026-11-06), anchor `264fa6d98` |
-| the last landing | S306b THE METRIC'S READ-OUT: HARMONIC TIME (B1846; P-726, P-727; 2026-11-06) |
+| the last landing | S306d THE LEVEL SURFACE'S OWN MODULUS (B1847; P-727) + THE SEATS FETCHED + MAIN'S RULING ON B1012 (2026-11-06) |
 <!-- STATE:END -->
 
 ## Start here

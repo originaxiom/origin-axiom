@@ -1,0 +1,4 @@
+b++LLLLLLRLR s=0.0: fibre group x=a, y=Ab, [x,y] = translation 3.502678-0.000000j; surface table t >= 0.250, min |dphi/dv| 3.263e-03; 1963s
+   F spheres 3819 (translates 11457); floor 0.3724..0.9464; faces 11: xxxYX[-1.751,-1.366], xxYxyXY[-1.364,-0.887], yXyXXyXX[-0.884,-0.871], yXX[-0.869,+0.361], yXXyxYX[+0.363,+0.363], yXX[+0.366,+0.377], yXXyxYX[+0.379,+0.711], yXyXY[+0.714,+0.865], xxYxxYxY[+0.867,+0.880], xxY[+0.882,+1.167], xxxYX[+1.169,+1.751]
+   spline spot check on the domain (60 points, t >= floor): max |phi - s| 2.11e-09
+   res (240,160): tau +1.932514+0.116488i  reduced -0.276387+6.427373i  detE-1 +1.91e-01  bad cycles 0  pairing off-surface 4.8e-03 off-floor 4.7e-02  2117s
