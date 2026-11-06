@@ -1,5 +1,11 @@
 # Changelog
 
+## S305r THE READ-OUT MAY BE THE RECORD'S OWN KÄHLER WEIGHT (P-720; 2026-11-06)
+
+- **One number governs the read-out.** On B1845's committed loop values, a Petersson weight (Im τ)^w moves P-455's period average from the loop's mild values (w = 0) to the apex's (w ≥ 8).
+- **The record may already fix that number.** Under P-259's minimal Kähler (A08), the canonically normalised couplings carry the fields' total modular weight along the circle, not a new choice. If that total is large, P-717's apex read-out is derived rather than chosen.
+- **Owed:** the fields' weights from the record, and the proper effective-Yukawa integral (the basis rotating along the loop). Data-free; the agy lane asked (CC_TO_AGY_2026-11-06_P720_THE_READ_OUT_WEIGHT.md). Stuck wait loops stopped (they matched their own command line). P-720; FLOOR 720. 0 of 19.
+
 ## S305q B1845 THE OBJECT'S OWN LINE AND THE EXCURSION READ OUT (P-717, P-718, P-455; 2026-11-06)
 
 - Tonight's data-free computations committed with their scripts and locks.

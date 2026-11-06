@@ -18543,3 +18543,10 @@ with its checks. The candidate for τ was tested the way the geometry itself wou
 hierarchy disappears, and survives only if the frame is read at the loop's highest point. So the candidate still borrows
 two choices, and the reason to read at the top would need dynamics along the circle that the record does not have.
 0 of 19.
+
+## 2026-11-06 — S305r: the read-out reduced to one number
+
+Whether the candidate's hierarchy survives being read around its loop turns out to depend on a single weight, and the
+record's own assumption about how fields are normalised may already supply it. If the fields' weights, read from the
+record, are large enough, the top-of-the-loop reading would follow instead of being chosen. That is the next computation,
+and the agy lane has been asked for it. 0 of 19.
