@@ -1,0 +1,10 @@
+sympy 1.14.0 snappy 3.3.2
+O1 True
+O2 True
+O3 True
+O4 True
+O5 True
+O6 True
+O7 True
+O8 True
+all as predicted: True
