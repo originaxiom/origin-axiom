@@ -1,0 +1,116 @@
+{
+  "record_type": "AUTHOR_ANALYTICAL_PROOF_SOURCE_RECEIPT_NOT_EXECUTION_SEAL",
+  "date": "2026-11-07",
+  "proof": {
+    "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/FIXED_SECTOR_REQUIREMENT_AND_RANK.md",
+    "sha256": "ea4a062ffbd8c476f6ff40014effa8d84cd616bb17a6f02e4f01f6ebc532bebc",
+    "bytes": 22406
+  },
+  "scientific_imports": false,
+  "test_collection": false,
+  "scientific_execution": false,
+  "independent_review": "NOT_YET_REVIEWED",
+  "main_acceptance": false,
+  "source_reads": [
+    {
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "GENESIS.md",
+      "sha256": "ec8c3dba05a5c947416a18952bc40f99a32af5135c87987c6f7e6236bc34bad4",
+      "bytes": 170129
+    },
+    {
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "frontier/B1679_the_common_point_for_every_n_verified/verification/received/W109_PROOF.md",
+      "sha256": "6552243fd070337eb0a8ac7ba8f19b96314b541bcd7671efc516d0a5eeaff019",
+      "bytes": 10886
+    },
+    {
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "frontier/B1680_the_common_point_in_higher_targets/FINDINGS.md",
+      "sha256": "59dbea2b25bc751dd455e6c95a5a36e013c506f5848845ba58e1140ed1e42ecd",
+      "bytes": 4096
+    },
+    {
+      "commit": "d47f7d79f3eaea6db62aa286e84c7769c9a418fa",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FAITHFUL_LIFTED_REGISTER_TOWER.md",
+      "sha256": "31c8126d379401b0bd1660d9881bacdf3f85df5020307e196b445bb43b287223",
+      "bytes": 10265
+    },
+    {
+      "commit": "d47f7d79f3eaea6db62aa286e84c7769c9a418fa",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FOUR_WORDINGS_PROPOSAL_AUDIT.md",
+      "sha256": "8e39a0dcaf6d2c27ada5019312a9284d09fdc7d0c91f1b689ab8646f22eab4eb",
+      "bytes": 12209
+    },
+    {
+      "commit": "d47f7d79f3eaea6db62aa286e84c7769c9a418fa",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SELECTION_REQUIREMENT_EARNING_AND_CONTEXTUAL_REGISTRATION.md",
+      "sha256": "db0a48686d1c4e6c473c7974628bfdb55cb17ce02b586125c2c33919a57852ba",
+      "bytes": 13839
+    }
+  ],
+  "primary_literature_sections_personally_inspected": [
+    {
+      "url": "https://arxiv.org/html/1411.2267v1",
+      "section": "6.1 underlying left-right linear irreducibility observation; separate affine/amenability theorem not applied"
+    },
+    {
+      "url": "https://arxiv.org/html/1109.0155v1",
+      "section": "1 and 6.4: action on all epimorphism kernels and characteristic products; no global claims about all surveyed conjectures"
+    },
+    {
+      "url": "https://arxiv.org/html/2212.11857v2",
+      "section": "1 and 8: characteristic representations and distinct simple-quotient conjecture"
+    }
+  ],
+  "claims": [
+    "A1-A5 explicit models at every free rank n>=2",
+    "SL2 fixed-character predicate independent of A1-A5 by n=2 and n=3 models",
+    "faithful joined irreducible regular representation for enlarged Nielsen group; restricted two-move countercontrol",
+    "finite-image irreducible Aut-invariant character from all A5 quotient kernels at every n>=2",
+    "determinant-one condition follows from ordinary fixed finite-dimensional character and all Nielsen moves",
+    "minimum local fixed-sector dimension selects rank two only conditional on that specific objective"
+  ],
+  "not_claimed": [
+    "formal independence of all informal PF1-PF3 wordings",
+    "independent originality",
+    "scientific runtime verification",
+    "foundational physical-input payment",
+    "derived finite dimension or complex linearity",
+    "physical Hilbert space or tensor law",
+    "SM3 or gravity"
+  ],
+  "inherited_staged_binary_diff_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "agy_new_reply_intake": {
+    "commit": "0e84764561db409a8fed6a769d4a9020b452052f",
+    "relay": "relays/AGY_TO_PHYSICAL_AND_MAIN_2026-11-07_SUCCESSOR_REPAIRS_AND_WEAVE_CRYSTALLIZATION.md",
+    "scope": "relay and Codex-join source block read; claimed repairs and other new code not fully audited in this package",
+    "source_pins": [
+      {
+        "commit": "0e84764561db409a8fed6a769d4a9020b452052f",
+        "path": "relays/AGY_TO_PHYSICAL_AND_MAIN_2026-11-07_SUCCESSOR_REPAIRS_AND_WEAVE_CRYSTALLIZATION.md",
+        "sha256": "6203c907ca9016f1e43387ce7bf98518d7c2d80936dbe4275822c8d721db3f96",
+        "bytes": 14490,
+        "read_scope": "whole relay; Codex-join source section only, not blanket audit of all new theorems"
+      },
+      {
+        "commit": "0e84764561db409a8fed6a769d4a9020b452052f",
+        "path": "src/origin_axiom/weave_unification_bridge.py",
+        "sha256": "c823a8ba3942acdc16e2bb88208262a7e36294c4f9cbf6f300460ed857e360d2",
+        "bytes": 49458,
+        "read_scope": "whole relay; Codex-join source section only, not blanket audit of all new theorems"
+      }
+    ]
+  },
+  "next_earning_duty": {
+    "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/NEXT_EARNING_DUTY.md",
+    "sha256": "b88d95ec5b24221977fcc614d65fb8b7cdbac7d58fab12a94ffec33bcc44e5c3",
+    "bytes": 4822
+  },
+  "relay": {
+    "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_MAIN_AND_GENESIS_2026-11-07_FIXED_SECTOR_VERDICT_AND_ALL_RANK_POSITIVES.md",
+    "sha256": "b32292af6a4f5e4037212df134355fcae251842b5182019f9d9624970a662128",
+    "bytes": 4586
+  },
+  "validation": "hash/source/whitespace metadata only; no proof checker or scientific test executed"
+}
