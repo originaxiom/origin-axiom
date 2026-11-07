@@ -1,0 +1,140 @@
+{
+  "record_type": "AUTHOR_ANALYTICAL_SOURCE_AUDIT_RECEIPT_NOT_EXECUTION_SEAL",
+  "date": "2026-11-08",
+  "status": "UNREVIEWED_CHECKPOINT",
+  "author_report": {
+    "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/CARRIER_REGISTER_AND_MINIMALITY_EARNING_2026_11_08.md",
+    "sha256": "8499f849a1a1abe83e85864523c700b3bfd86f6b8034fbcbb13134da1a48a865",
+    "bytes": 19401
+  },
+  "relay": {
+    "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_MAIN_AND_GENESIS_2026-11-08_CARRIER_TESTS_AND_SELECTOR_MATRIX.md",
+    "sha256": "3d1d1762636415da35e3b21488e7d91ee420774de3ad93d48d101d172a2a4d5d",
+    "bytes": 7477
+  },
+  "source_reads": [
+    {
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/positive_carrier/PROOF.md",
+      "sha256": "97e48617c47b858f91f91e36fcdd28f405445fa132c33441354a3663e5e79dc7",
+      "bytes": 6317,
+      "personally_read_scope": "whole proof"
+    },
+    {
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/positive_carrier/SOURCE_SCOPE.md",
+      "sha256": "ba169a4bb6cce0b8135f03c17b6b5f80e55c98225633613e769aed10ad74e511",
+      "bytes": 4145,
+      "personally_read_scope": "whole source-scope note"
+    },
+    {
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/cohomology_carrier/PROOF.md",
+      "sha256": "6193c07eaeccdbb33ef1bc4d54522e62d2c2b9922367ce6b2fe60c6af6a916a4",
+      "bytes": 7140,
+      "personally_read_scope": "whole proof"
+    },
+    {
+      "commit": "195e8f1bdd7207970645c4fbd5847d238efb4d9c",
+      "path": "relays/chat1_2026-10-21_ingredients/THE_INGREDIENTS_MAP.md",
+      "sha256": "299e5e5c68c6e2f277ac9b8416db8e4c88c827d767d9bde155ef5eddb868597c",
+      "bytes": 40817,
+      "personally_read_scope": "ingredient L1 pointers; no blanket acceptance of the complete ingredient map"
+    },
+    {
+      "commit": "82d9d14afac32854373d937583790b7fde85247a",
+      "path": "relays/AGY_TO_PHYSICAL_AND_MAIN_2026-11-07_SUCCESSOR_REPAIRS_AND_WEAVE_CRYSTALLIZATION.md",
+      "sha256": "2e34c3970a70f6e6eefde434729ebcc3a1fc00503e7691883648dfa658446f6d",
+      "bytes": 19085,
+      "personally_read_scope": "whole relay; source verification limited to the scopes separately specified"
+    },
+    {
+      "commit": "82d9d14afac32854373d937583790b7fde85247a",
+      "path": "relays/AGY_TO_PHYSICAL_AND_MAIN_2026-11-07_F1_TO_F6_REPAIRS_AND_COUNTERCONTROLS.md",
+      "sha256": "5bdde02991898a7e52b7811e8a89ddc9394e7d12b4b797fcb928a5ce1b7171dd",
+      "bytes": 14193,
+      "personally_read_scope": "whole relay, not a fresh execution or blanket verification of all repairs"
+    },
+    {
+      "commit": "82d9d14afac32854373d937583790b7fde85247a",
+      "path": "src/origin_axiom/p000_pure_logic_bridge.py",
+      "sha256": "6308878095f52eaa831d43c9d4fe478812caa39daedfb0465060fe2460ca8823",
+      "bytes": 57136,
+      "personally_read_scope": "selector function lines 916-1245; original Heisenberg/Sanov and prime-witness blocks; no scientific import"
+    },
+    {
+      "commit": "82d9d14afac32854373d937583790b7fde85247a",
+      "path": "tests/test_p000_pure_logic_bridge.py",
+      "sha256": "4936f4cfbad39724457cc792ce925fa1bfda65fefd6e8441d0136c79dfe441b9",
+      "bytes": 7801,
+      "personally_read_scope": "selector test and relevant Heisenberg/prime-witness expectations; source read only"
+    },
+    {
+      "commit": "82d9d14afac32854373d937583790b7fde85247a",
+      "path": "src/origin_axiom/weave_unification_bridge.py",
+      "sha256": "62c636580a90faecd7ad471596ac6960132e245cf53405d3436de52f07c45126",
+      "bytes": 90142,
+      "personally_read_scope": "Codex join lines 763-913; closed-form triplets and localization/sector normalization blocks lines 1642-1746; source read only"
+    },
+    {
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "docs/POINT_REGISTER.md",
+      "sha256": "ce254b92882d1f321853a9ef43668a409fb59c815ff1fde3a2f596a957af0525",
+      "bytes": 781024,
+      "personally_read_scope": "P-744 and adjacent source-identity duties; not full point-register audit"
+    }
+  ],
+  "remote_refs_after_refetch": {
+    "origin/HEAD": "217e37c4f37bd80998f3c3e10cad358023f58114",
+    "origin/agy/audit-2026-11-02": "82d9d14afac32854373d937583790b7fde85247a",
+    "origin/agy/frontier-2026-10-26": "05e6caabf7113244702aa473c6d6786d94b7cf4b",
+    "origin/audit/fork-2026-09-20": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+    "origin/audit/independent-2026-11-03": "4b91b9be7db39cc78935c06b47bbd44095c52426",
+    "origin/audit/physical-bridge-2026-09-05": "b75bc8f76fa843725f541c37c086312c4cd86f4e",
+    "origin/chat1/web-seat": "195e8f1bdd7207970645c4fbd5847d238efb4d9c",
+    "origin/chatgpt/weave-physics-archive-2026-10-11": "efadcdeaa5375cf0ac76d954dbf34abd070430cd",
+    "origin/claude/kind-hypatia-uk0vv9": "6a537f899c9c1882930475144a30ae76aa2966d8",
+    "origin/claude/outside-bench": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+    "origin/claude/paper-review-verification-kaz3f5": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+    "origin/claude/project-thread-hctlox": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+    "origin/claude/standard-model-derivation-0qt6ao": "47228ae85cb813ea1bcad3daba8b9446f64ff8d4",
+    "origin/explore/2026-11-05": "af81fb6ef45f3544a5113a118599c16f185225a2",
+    "origin/main": "217e37c4f37bd80998f3c3e10cad358023f58114",
+    "origin/referee/B1668_the_price_of_the_nineteen": "0c781663f4fb0505fb8814e261b8cf9e0231d94f",
+    "origin/referee/landing": "806dfd6002773bf1d1eba273f432fb626f27b302",
+    "origin/sep16-branch": "3205984b48d1b98a80042cdc70916878973980f5"
+  },
+  "scientific_imports": false,
+  "test_collection": false,
+  "scientific_execution": false,
+  "independent_review": "NOT_YET_REVIEWED",
+  "main_acceptance": false,
+  "metadata_checks": [
+    "source blobs and report hashes",
+    "explicit read scopes",
+    "whitespace inspection",
+    "inherited staged diff unchanged"
+  ],
+  "claims": [
+    "self-contained proof that F2/F2-double-derived has nonzero lower-central layers at every depth",
+    "personal hand recheck and reuse of old fork carrier/cohomology proofs",
+    "scoped selector-table type and quantifier findings",
+    "registration-preserving-map and universal-completion conditional arguments"
+  ],
+  "not_claimed": [
+    "new mathematical originality",
+    "runtime failure of AGY tests",
+    "complete audit of all AGY work packages",
+    "logical independence of every informal PF wording",
+    "foundational physical-input payment",
+    "physical SM3 or gravity"
+  ],
+  "primary_literature_sections_personally_inspected": [
+    {
+      "url": "https://arxiv.org/html/1301.5533v2",
+      "scope": "sections 1.2, 2.5, 3.1 and 9.1; classical metabelian/module/wreath context; no telescope theorem applied"
+    }
+  ],
+  "inherited_staged_binary_diff_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "prior_checkpoint": "b75bc8f76fa843725f541c37c086312c4cd86f4e"
+}
