@@ -15735,6 +15735,18 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1855": {
+   "slug": "the charge law settled",
+   "motifs": [
+    "action",
+    "golden"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B185": {
    "slug": "constraint selection",
    "motifs": [

@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.62) of 2026-11-05 |
-| arcs with a verdict | 1555: 1064 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 740: 244 open (queued, leads, waiting for the owner), 496 closed |
+| arcs with a verdict | 1556: 1065 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
+| points in the register | 741: 244 open (queued, leads, waiting for the owner), 497 closed |
 | the last review | Review 76 (2026-11-06), anchor `1eb535ecd` |
-| the last landing | S306m THE τ READ-OUT RULE (P-714's construction ruled); B1852's PER-CENTRE RULE (P-740 sharpened); P-739 RUNNING (2026-11-07) |
+| the last landing | S306m (continued) THE CHARGE LAW SETTLED (B1855; P-737 DONE): REFUTED FROM lcm(S) = 12, PROVED BELOW BY THE EXPLORE SEAT (2026-11-07) |
 <!-- STATE:END -->
 
 ## Start here
