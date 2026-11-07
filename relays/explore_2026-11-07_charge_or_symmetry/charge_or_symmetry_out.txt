@@ -1,0 +1,30 @@
+CHARGE OR SYMMETRY AT THE RAMIFIED PRIME -- data-free check (the explore seat, 2026-11-07)
+
+G. HG -- the object's own level-5 group
+  |H| = 10; conjugate to +-{[[1,b],[0,1]]} (the image of +-Gamma1(5)): True (20 conjugators); ord(LR) in PSL(2,F5) = 5
+
+Q0. the Weil representation is projective
+  elements reached: 120 of 120; repeated arrivals checked: 121; clashes (not proportional): 0
+  rho(S)^2 proportional to parity: True; rho(-I) proportional to parity: True
+
+Q1. scalars
+  scalar on C^5: [((1, 0), (0, 1))]
+  scalar on the even sector (dim 3): [((1, 0), (0, 1)), ((4, 0), (0, 4))]
+  scalar on the odd sector (dim 2): [((1, 0), (0, 1)), ((4, 0), (0, 4))]
+  HQ1 (C^5: only I; each sector: exactly +-I): True
+
+Q2. the commutant of rho(LR)
+  |{E : rho(E) rho(LR) rho(E)^-1 ~ rho(LR)}| = 10; equals +-<LR>: True
+
+Q3. the tick on each sector
+  even sector: eigenvalue angles (turns) ['0.4000', '0.6000', '1.0000']; distinct: True; ratios as 5th-root exponents [(2, np.True_), (3, np.True_), (1, np.True_)]; all primitive: True
+     rho((LR)^a) scalar on this sector for a in 0..9: [0, 5]
+  odd sector: eigenvalue angles (turns) ['0.1000', '0.9000']; distinct: True; ratios as 5th-root exponents [(1, np.True_)]; all primitive: True
+     rho((LR)^a) scalar on this sector for a in 0..9: [0, 5]
+  HQ3 (distinct, every ratio a primitive 5th root, in every sector): True
+
+Q4. the two least-action candidates
+  (6,)             E mod 5 = ((1, 0), (0, 1)); golden phase a = 0; scalar on C^5: True; on even: True; on odd: True; a phase on every eigenvector of rho(LR): True
+  (2, 1, 1, 1, 2)  E mod 5 = ((1, 1), (1, 2)); golden phase a = 1; scalar on C^5: False; on even: False; on odd: False; a phase on every eigenvector of rho(LR): True
+
+charge_or_symmetry_check exit 0
