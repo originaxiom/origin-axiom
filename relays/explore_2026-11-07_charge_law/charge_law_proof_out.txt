@@ -1,0 +1,66 @@
+THE CHARGE LAW (P-737) -- the proof's computations (the explore seat, 2026-11-07)
+
+A. Lemma A on all of R1: |2 log Q(E) - excess| (excess = the web seat's, k = 20)
+  42768 defects; max |difference| 1.226e-13; Lemma A holds: True
+
+B. Lemma B (the Fibonacci expansion) against Lemma A
+  R1: max relative difference 6.117e-14; R2 sample of 4000: 6.642e-15; Lemma B holds: True
+
+C. Lemma C: w(d) = F_d / phi^d against phi^-2, d = 1..300
+  min over d: 0.381966011250105 at d = 2; phi^-2 = 0.381966011250105; w(d) > phi^-2 for every d != 2: True
+
+D. Lemma D: single runs
+  L^s = +-I mod N iff N | s (N = 2..5, s = 1..120): True
+  apex law (n - 1)/2 + sqrt5/2 for n = 2..80: max |difference| 0.000e+00; holds: True
+
+E. the exhaustive search, every nonempty S of {2,3,4,5}
+  S = (2,)           L =  2  period   6  generators   3  moves     3  |SL(2,Z/L)|      6  iters  2  (0 s)
+      HP: True -- least multi-run B-cost 0.647014 vs theta 0.567545, margin +0.079469, path [(1, np.int64(1)), (1, 1)]; states at or under theta: 0
+      sigma: fewest extra letters (multi-run) 2 vs L = 2, path [(1, np.int64(1)), (1, 1)]
+  S = (3,)           L =  3  period   8  generators   4  moves     8  |SL(2,Z/L)|     24  iters  2  (0 s)
+      HP: True -- least multi-run B-cost 0.891053 vs theta 0.763558, margin +0.127494, path [(1, np.int64(1)), (1, 2)]; states at or under theta: 0
+      sigma: fewest extra letters (multi-run) 3 vs L = 3, path [(1, np.int64(1)), (1, 2)]
+  S = (4,)           L =  4  period   6  generators   6  moves    15  |SL(2,Z/L)|     48  iters  2  (0 s)
+      HP: True -- least multi-run B-cost 1.087065 vs theta 0.927375, margin +0.159691, path [(1, np.int64(1)), (1, 3)]; states at or under theta: 0
+      sigma: fewest extra letters (multi-run) 4 vs L = 4, path [(1, np.int64(1)), (1, 3)]
+  S = (5,)           L =  5  period  20  generators   5  moves    20  |SL(2,Z/L)|    120  iters  3  (0 s)
+      HP: True -- least multi-run B-cost 1.250882 vs theta 1.068095, margin +0.182787, path [(1, np.int64(1)), (1, 4)]; states at or under theta: 0
+      sigma: fewest extra letters (multi-run) 5 vs L = 5, path [(1, np.int64(1)), (1, 4)]
+  S = (2, 3)         L =  6  period  24  generators  12  moves    35  |SL(2,Z/L)|    144  iters  3  (0 s)
+      HP: True -- least multi-run B-cost 1.214560 vs theta 1.191433, margin +0.023126, path [(1, np.int64(2)), (8, 1), (2, 1)]; states at or under theta: 0
+      sigma: fewest extra letters (multi-run) 4 vs L = 6, path [(1, np.int64(1)), (6, 1), (3, 1), (4, 1)]
+  S = (2, 4)         L =  4  period   6  generators   6  moves    15  |SL(2,Z/L)|     48  iters  2  (0 s)
+      HP: True -- least multi-run B-cost 1.087065 vs theta 0.927375, margin +0.159691, path [(1, np.int64(1)), (1, 3)]; states at or under theta: 0
+      sigma: fewest extra letters (multi-run) 4 vs L = 4, path [(1, np.int64(1)), (1, 3)]
+  S = (2, 5)         L = 10  period  60  generators  15  moves    83  |SL(2,Z/L)|    720  iters  4  (0 s)
+      HP: True -- least multi-run B-cost 1.574389 vs theta 1.572703, margin +0.001686, path [(1, np.int64(4)), (13, 1), (4, 1)]; states at or under theta: 0
+      sigma: fewest extra letters (multi-run) 6 vs L = 10, path [(1, np.int64(2)), (2, 2), (15, 1), (3, 1)]
+  S = (3, 4)         L = 12  period  24  generators  12  moves    95  |SL(2,Z/L)|   1152  iters  4  (0 s)
+      HP: False -- least multi-run B-cost 1.214560 vs theta 1.719832, margin -0.505273, path [(1, np.int64(1)), (4, 2), (7, 1)]; states at or under theta: 3
+      sigma: fewest extra letters (multi-run) 4 vs L = 12, path [(1, np.int64(1)), (10, 1), (7, 1), (4, 1)]
+  S = (3, 5)         L = 15  period  40  generators  20  moves   188  |SL(2,Z/L)|   2880  iters  4  (0 s)
+      HP: False -- least multi-run B-cost 1.458598 vs theta 1.906499, margin -0.447901, path [(1, np.int64(2)), (6, 1), (11, 2)]; states at or under theta: 4
+      sigma: fewest extra letters (multi-run) 5 vs L = 15, path [(1, np.int64(2)), (11, 1), (1, 1), (6, 1)]
+  S = (4, 5)         L = 20  period  60  generators  30  moves   335  |SL(2,Z/L)|   5760  iters  4  (1 s)
+      HP: False -- least multi-run B-cost 1.734080 vs theta 2.156324, margin -0.422244, path [(1, np.int64(1)), (17, 1), (4, 3), (9, 1)]; states at or under theta: 4
+      sigma: fewest extra letters (multi-run) 6 vs L = 20, path [(1, np.int64(2)), (2, 2), (30, 1), (3, 1)]
+  S = (2, 3, 4)      L = 12  period  24  generators  12  moves    95  |SL(2,Z/L)|   1152  iters  4  (0 s)
+      HP: False -- least multi-run B-cost 1.214560 vs theta 1.719832, margin -0.505273, path [(1, np.int64(1)), (4, 2), (7, 1)]; states at or under theta: 3
+      sigma: fewest extra letters (multi-run) 4 vs L = 12, path [(1, np.int64(1)), (10, 1), (7, 1), (4, 1)]
+  S = (2, 3, 5)      L = 30  period 120  generators  60  moves   755  |SL(2,Z/L)|  17280  iters  4  (4 s)
+      HP: False -- least multi-run B-cost 1.574389 vs theta 2.522442, margin -0.948053, path [(1, np.int64(4)), (33, 1), (9, 1)]; states at or under theta: 4
+      sigma: fewest extra letters (multi-run) 6 vs L = 30, path [(1, np.int64(2)), (2, 2), (60, 1), (3, 1)]
+  S = (2, 4, 5)      L = 20  period  60  generators  30  moves   335  |SL(2,Z/L)|   5760  iters  4  (1 s)
+      HP: False -- least multi-run B-cost 1.734080 vs theta 2.156324, margin -0.422244, path [(1, np.int64(1)), (17, 1), (4, 3), (9, 1)]; states at or under theta: 4
+      sigma: fewest extra letters (multi-run) 6 vs L = 20, path [(1, np.int64(2)), (2, 2), (30, 1), (3, 1)]
+  S = (3, 4, 5)      L = 60  period 120  generators  60  moves  2015  |SL(2,Z/L)| 138240  iters  5  (135 s)
+      HP: False -- least multi-run B-cost 1.734080 vs theta 3.174630, margin -1.440550, path [(1, np.int64(1)), (17, 1), (19, 3), (9, 1)]; states at or under theta: 8
+      sigma: fewest extra letters (multi-run) 6 vs L = 60, path [(1, np.int64(2)), (2, 2), (60, 1), (3, 1)]
+  S = (2, 3, 4, 5)   L = 60  period 120  generators  60  moves  2015  |SL(2,Z/L)| 138240  iters  5  (132 s)
+      HP: False -- least multi-run B-cost 1.734080 vs theta 3.174630, margin -1.440550, path [(1, np.int64(1)), (17, 1), (19, 3), (9, 1)]; states at or under theta: 8
+      sigma: fewest extra letters (multi-run) 6 vs L = 60, path [(1, np.int64(2)), (2, 2), (60, 1), (3, 1)]
+
+  HP for every S: False
+
+runtime 298.2 s
+charge_law_proof exit 0
