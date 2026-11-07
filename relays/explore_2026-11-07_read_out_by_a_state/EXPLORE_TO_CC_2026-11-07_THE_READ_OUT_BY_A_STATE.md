@@ -130,6 +130,22 @@ succeeded after 2 and 3 triangulation randomizations (P5).
 - **P-738:** under the length action the state's uniqueness does not reconcile the two level-5 readings (HS6 FALSE).
   Under the volume action, post hoc, it does, and that is owed a pre-registered test.
 
+## Dated note (2026-11-07, after main's B1857): a seen-first miss, and the scope
+
+**The miss.** This test's seen-first sweep missed `docs/THE_TAU_READOUT_RULE.md` (main, S306m, B1854). The document was
+in the swept snapshot at bb5bcd616, but none of the sweep's patterns matched it. The pre-registration's "Seen first"
+section should have cited it.
+
+**The scope that follows, as main recorded it at B1857:**
+- Main's rule reads τ as the conformal modulus of the level set Σ_s on the hyperbolic metric's own harmonic clock.
+- The Teichmüller clock is CHOSEN (B1815). The Teichmüller apex is the record's (N2) alternative, which the rule excludes.
+- The state here lives on the flat-fibre model's Sol (Teichmüller) clock. It therefore reads the Teichmüller apex
+  (H_k = 3.6515 at k = 1), not the rule's τ(Σ₀) = 6.149i at k = 1.
+- The rule leaves "point or weight" CHOSEN. What this relay offers that choice holds only in the model. Whether it
+  survives the rule is P-744: the read-out by a state on the hyperbolic metric's own slicing.
+- HS7, the systole multiplicities, is the one piece already computed in the hyperbolic metric. It is a winding-tower
+  count, not that slicing's state.
+
 ## Suggested rows (main's to assign)
 
 - **P-726 / P-717:** a dated note.
