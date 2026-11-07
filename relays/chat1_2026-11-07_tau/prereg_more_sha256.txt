@@ -1,0 +1,15 @@
+tauinst_a3.py sha256 7421cb71bb116eea46f0827c8fc7c92efae306e034aff850f09ae3e61a111471
+tau_k_more.py sha256 77aedbeda7e7c82c26810e1ee2efe0990080936592a55fb1aaa7910df7f3bb34
+run_chain_more.sh sha256 1cfcdab30bfbd004a3cbddcea239605df6ca4dd06fb8fc2ce25379c5bb4e6118
+recorded 2026-11-07T09:56:32Z before any run of tau_k_more.py. Tested outside the repository before this record, as the
+script's header lists: the floor's vectorisation against tauinst_a2.py on m004 and k = 1..5 (floors, closed sphere sets
+and Ford volumes identical); k = 6's closure under both floors (to round 2 under tauinst_a2.py's; complete under the
+vectorised one, with and without Shimizu's cut); the double-precision and 212-bit polyhedra's generators and peripheral
+words for m004 and k = 1..8; for m004 and k = 1..8 under tauinst_a3.py, the closed sphere sets, Ford volumes, floor
+minima, systoles against SnapPy's length_spectrum_alt, and the meshes' horoball-radius agreement, with times and
+memory; SnapPy's length_spectrum at k = 6, stopped after fifteen minutes; the mode counts of k = 5..8; numpy's lstsq on
+a random matrix of k = 6's collocation size, for memory; a smoke copy on L^7 R L R, which stopped at its mesh; a smoke
+copy on k = 1 at s = 0.3 to n = 5, printing only sizes, times and memory; and the summary's code on copies of the
+sealed outputs. Not computed before this record: any harmonic time, level or surface of k = 6, 7 or 8, and the fifth
+subdivision of any tube. To be run as run_chain_more.sh m004 k=1 k=6 k=7, then run_chain_more.sh k=8 summary, one member at a time (numpy 2.5.3,
+scipy 1.18.1, numba 0.68.1, SnapPy 3.3.2, Python 3.13.18).
