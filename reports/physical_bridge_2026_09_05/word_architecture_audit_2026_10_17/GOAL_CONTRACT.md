@@ -2272,3 +2272,17 @@ LR mapping-torus descent; only its punctured-curve stationary construction
 and covariant data family are exhibited. No carrier identification,
 SM3 spectrum or foundational input is paid. Actual new kernels and weak
 currents must be derived on this bundle, not copied from n=2.
+
+
+The [level-five full-kernel successor](LEVEL_FIVE_TRANSPORT_COMPLETE_KERNEL_CANDIDATE.md)
+uses the component double cover and actual weighted compact extensions
+to derive a candidate whole-248 zero roster, including every integer
+companion. At odd spin, up/down multiplicities are five/two, while the
+charged singlet count is two or three according to the primitive point.
+This is not SM3 or the observed massive spectrum; it preserves the next
+physical duty rather than selecting a three-mode subset. Six controls
+are designed, unimplemented and unrun. The extension duality/degree,
+class continuation, exact cusp endpoints and complete Hodge/physical
+mass-map transfer need independent review. No earlier test package
+certifies this successor. The carrier and physical flavour/state maps
+remain visible inputs, and the LR descent limitation is unchanged.

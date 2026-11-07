@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "status": "unreviewed_hand_full_kernel_and_prior_control_design",
+  "date": "2026-11-07",
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/LEVEL_FIVE_TRANSPORT_COMPLETE_KERNEL_CANDIDATE.md",
+      "sha256": "74ebfae9a6486bb4ea1a981d1f022d19a63354cc46ac475ae64fa4862659f13b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_level_five_kernel_2026_11_07/DESIGN.md",
+      "sha256": "4b983e6cc2721ed23e08efa0da2b2b670314224abb6256dd948a907f803280fa"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PIN2_TRANSPORT_FAMILY_AND_LEVEL_FIVE_FREDHOLM_CANDIDATE.md",
+      "sha256": "6ca28bfaddce9ee874daa727b80c5acb541b2611f02cabf816c5c6e7146f61ce"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md",
+      "sha256": "871529dd81603e1a70126f6ee518ae5c2758c107cf7e9fff62ae96f646a0813f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_HALF_ROOT_KERNEL_AND_CORE_LIFT_SENSITIVITY.md",
+      "sha256": "789adf7544bf5c679305aa8b9ba7525b6375155b026c839e01c34c281be23875"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PIN2_COMPENSATOR_COHERENCE_AND_ELECTROMAGNETIC_PHASE.md",
+      "sha256": "fc67d4446b11f54c731b7e7aac56b496e501d5fa397040363de6c8074909a3b9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    }
+  ],
+  "control_population": 6,
+  "implementation": false,
+  "scientific_import_collection_execution": false,
+  "independent_review_of_full_kernel": false,
+  "scope": "Full classical zero roster in specified complete Dic_5 elliptic parent; changed physical holonomy and fixed-LR descent remain supplied/missing as stated; no physical selection, SM3 or paid input"
+}

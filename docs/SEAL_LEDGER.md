@@ -9377,3 +9377,11 @@ Finite Pin2 transport family and line-normalizer candidate, before implementatio
 |---|---|---|---|---|
 | 2026-11-07 | AFTER hand argument; BEFORE family-control implementation/import/collection/run | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PIN2_TRANSPORT_FAMILY_AND_LEVEL_FIVE_FREDHOLM_CANDIDATE.md` | `6ca28bfaddce9ee874daa727b80c5acb541b2611f02cabf816c5c6e7146f61ce` | Conditional same-action finite Pin2 family and candidate Fredholm end at five; six controls unimplemented; changed physical holonomy and fixed-carrier descent duties explicit. |
 | 2026-11-07 | AFTER hand argument; BEFORE family-control implementation/import/collection/run | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_pin2_transport_family_2026_11_07/DESIGN.md` | `e2103a387997f11c36b005d89c9f79869bb386cf63055091ef8301fc0c6ae5f6` | Conditional same-action finite Pin2 family and candidate Fredholm end at five; six controls unimplemented; changed physical holonomy and fixed-carrier descent duties explicit. |
+
+
+Level-five complete-kernel successor, before implementation.
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-11-07 | AFTER hand argument; BEFORE full-kernel-control implementation/import/collection/run | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/LEVEL_FIVE_TRANSPORT_COMPLETE_KERNEL_CANDIDATE.md` | `74ebfae9a6486bb4ea1a981d1f022d19a63354cc46ac475ae64fa4862659f13b` | Candidate full Dic_5 kernel with all 248 companions and actual spin/Wilson/primitive-point dependence; six controls unimplemented; independent complete-domain and character review owed. |
+| 2026-11-07 | AFTER hand argument; BEFORE full-kernel-control implementation/import/collection/run | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_level_five_kernel_2026_11_07/DESIGN.md` | `4b983e6cc2721ed23e08efa0da2b2b670314224abb6256dd948a907f803280fa` | Candidate full Dic_5 kernel with all 248 companions and actual spin/Wilson/primitive-point dependence; six controls unimplemented; independent complete-domain and character review owed. |
