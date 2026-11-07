@@ -1,0 +1,118 @@
+{
+  "schema": 1,
+  "status": "exact_source_review_inventory_not_execution_specification",
+  "authors": [
+    "physical-bridge-seat"
+  ],
+  "design_seals": [
+    "7584cf4e6",
+    "e9bb0bcc5"
+  ],
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/checks.py",
+      "sha256": "e72063d7b2a6b3ac8a6f83db4df693e79fec5d3a0f5b91fdf4931496567276f0"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/DESIGN.md",
+      "sha256": "8ba1253846751f58c4762ccfd80f1832f88e581809476786fd063f65302aa68c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/DESIGN_ADDENDUM_WEAK_CURRENT.md",
+      "sha256": "6cff45e8e0b3e1c08f1b1c386d389d839099ab860a3657afbe1dcd1d07b48d28"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/DESIGN_ADDENDUM_CENTRALIZER.md",
+      "sha256": "305433c9895f676a9801fe33965a3a95bd16fbff1f1b49364c82dc71274c8d31"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/REVIEW_STATUS.md",
+      "sha256": "d73bcb67f32da8da0420ddbddc75f33acd2d817b60fa18e4058430179898998c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/SOURCE_RECEIPT.json",
+      "sha256": "4f663aefca1816480c216fa70851b292086b0dfce1922fb260dc54acfe3a78d1"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/WEAK_SOURCE_RECEIPT.json",
+      "sha256": "81e9faeed8fe5dfde06f3eecbac94579bc2ebe31ef6d42b0b7a697b957e5f589"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/CENTRALIZER_SOURCE_RECEIPT.json",
+      "sha256": "d87a9bbe45a437943a97ba1ecab139fb162aa529fc704af54a2ea91072d7ed6d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_HALF_ROOT_KERNEL_AND_CORE_LIFT_SENSITIVITY.md",
+      "sha256": "789adf7544bf5c679305aa8b9ba7525b6375155b026c839e01c34c281be23875"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/WEAK_CURRENT_GRADING_AND_DISCRETE_CHARGED_VECTORS.md",
+      "sha256": "7ac2e6cc08a82d3c4ab34fbae52596da3b6171c48985b7c22729802e5f65db8e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CENTRALIZER_KERNEL_WITH_THRESHOLD_CONTINUUM.md",
+      "sha256": "a19e2c6c6b4faa0db3bbe16402499314f259a8db0ce590b0bcaf3ac4130970f5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_end_2026_11_04/checks.py",
+      "sha256": "cb3d46f2a51c101f064116bd6d63998e6a8bc1c5e99e73ae1cb5bbf12f7d1e9b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_register_flavour_joint_2026_11_03/checks.py",
+      "sha256": "d8eead96ab24a14087ef773d4dc20093f0ad9d84887a3446cd6fd711b0867bb3"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_neutral_full_kernel_2026_11_02/checks.py",
+      "sha256": "33cb0be8f8381e50faa672aa4da2e22b6b7478ed0d74b9d46b4cfbfda86271d5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md",
+      "sha256": "871529dd81603e1a70126f6ee518ae5c2758c107cf7e9fff62ae96f646a0813f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/QUATERNION_SECTOR_INDEX_AND_WEAK_CURRENT_DUTY.md",
+      "sha256": "11ddfae1996036673dc2bc08ec9b1ef26f92a4a91df98da379d539a529f93fc6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CONFINED_HALF_ROOT_SECTOR_AND_SURVIVING_CONTINUUM.md",
+      "sha256": "8436811ae3529f7fa78337a428f1e9c2d8af1414860fb2512db772a20879e4c4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_ACTION_REAL_GAUGE_FIXING_AND_ONE_LOOP_WEIGHTS.md",
+      "sha256": "18a7f1362ed866f909465139205895916ae5728da6c56896fb03e9f6c77f4cce"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PIN2_COMPENSATOR_COHERENCE_AND_ELECTROMAGNETIC_PHASE.md",
+      "sha256": "fc67d4446b11f54c731b7e7aac56b496e501d5fa397040363de6c8074909a3b9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md",
+      "sha256": "6012816683f17ac83e7d3bdb4f6d8b987ec8155ee2caa09ce651dbf0b194ed4c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_QUATERNION_STATIONARY_BUNDLE_AND_CUSP_LAW.md",
+      "sha256": "221a7cd2dce2ff7dec0b135c348b7bb52e15bc27e5563d420756fbe31f9978a1"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c"
+    }
+  ],
+  "methods_from_static_AST": [
+    "CoupledHalfRootKernelChecks.test_actual_spinor_koszul_cohomology_and_all_degree_actions",
+    "CoupledHalfRootKernelChecks.test_equivariant_retraction_and_spin_line_degrees",
+    "CoupledHalfRootKernelChecks.test_bare_and_corrected_core_characters_on_full_mixed_sectors",
+    "CoupledHalfRootKernelChecks.test_actual_wilson_and_spin_line_triviality_population",
+    "CoupledHalfRootKernelChecks.test_exact_cusp_pole_endpoints_and_complete_four_slot_counts",
+    "CoupledHalfRootKernelChecks.test_core_phase_changes_kernel_without_changing_cusp_or_index",
+    "CoupledHalfRootKernelChecks.test_full_charge_grading_and_actual_cubic_selection",
+    "CoupledHalfRootKernelChecks.test_actual_compact_centralizer_and_vector_block_duties",
+    "CoupledHalfRootKernelChecks.test_centralizer_spin_norm_endpoint_and_untwisted_countercontrol"
+  ],
+  "scientific_import_collection_execution": false,
+  "scope": "Full actual module/cohomology finite controls supplement three candidate analytical successors; no physical realization or input payment"
+}
