@@ -1,0 +1,1187 @@
+{
+  "record_type": "SOURCE_AND_HAND_AUDIT_NOT_SCIENTIFIC_EXECUTION",
+  "date": "2026-11-07",
+  "audited_target": "1010fce5e66c56b7d7513deca92ffc2428bdf58a",
+  "comparison_base": "1bd310f38fdcf4a9f70d468c8bf914ed27d83f08",
+  "main_evidence_commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+  "files_changed": [
+    {
+      "path": "relays/AGY_TO_MAIN_AND_SEATS_2026-11-07_FIVE_PURE_LOGIC_DEBT_CLOSURES_P355_P606_P618_P318_P604_P262_P268.md",
+      "sha256": "2a0b0ebb8c96e7034c4734fd7a53383af1eb8e1c60f0d31461e8593e56d98775",
+      "bytes": 11202
+    },
+    {
+      "path": "relays/AGY_TO_MAIN_AND_SEATS_2026-11-07_P000_PURE_LOGIC_BRIDGE_P221_P211_P321_R57.md",
+      "sha256": "27e39879126c3620bd8e6f0e88c212a00348db5c09faa38c20530861166511b3",
+      "bytes": 17016
+    },
+    {
+      "path": "relays/AGY_TO_PHYSICAL_AND_MAIN_2026-11-07_F1_TO_F6_REPAIRS_AND_COUNTERCONTROLS.md",
+      "sha256": "f3f3088e1adc7efca9f55e48cbe0161f3e2eca3fbc08f81d826055a502fd9c1d",
+      "bytes": 13646
+    },
+    {
+      "path": "src/origin_axiom/p000_pure_logic_bridge.py",
+      "sha256": "5659cc3134210f0e39060c3e67bcc70e8522979f2a807a1bd59c4c4897161ae2",
+      "bytes": 30465,
+      "ast_parse": "PASS_METADATA_ONLY",
+      "top_level_functions": [
+        {
+          "name": "reduce_linear",
+          "line": 32,
+          "end_line": 39
+        },
+        {
+          "name": "invert_word",
+          "line": 42,
+          "end_line": 43
+        },
+        {
+          "name": "commutator_word",
+          "line": 46,
+          "end_line": 47
+        },
+        {
+          "name": "reduce_cyclic",
+          "line": 50,
+          "end_line": 55
+        },
+        {
+          "name": "canonical_conjugacy_rep",
+          "line": 58,
+          "end_line": 63
+        },
+        {
+          "name": "canonical_unoriented_conj_rep",
+          "line": 66,
+          "end_line": 67
+        },
+        {
+          "name": "apply_homomorphism",
+          "line": 70,
+          "end_line": 79
+        },
+        {
+          "name": "verify_step1_freeness_vs_relaxations",
+          "line": 82,
+          "end_line": 201
+        },
+        {
+          "name": "verify_step2a_word_side_w110",
+          "line": 204,
+          "end_line": 339
+        },
+        {
+          "name": "verify_step2b_character_and_p321_prime",
+          "line": 342,
+          "end_line": 470
+        },
+        {
+          "name": "verify_step2c_p211_genus2_surface",
+          "line": 473,
+          "end_line": 634
+        },
+        {
+          "name": "verify_step3_and_4_carrier_and_forks",
+          "line": 637,
+          "end_line": 765
+        },
+        {
+          "name": "run_all_p000_bridge_verifications",
+          "line": 768,
+          "end_line": 786
+        }
+      ]
+    },
+    {
+      "path": "src/origin_axiom/pure_logic_debt_closures.py",
+      "sha256": "3f27cc74f16094d7b7109c0d958f5bbedc0b01383dff00da19c4c38aa7f9ede0",
+      "bytes": 41353,
+      "ast_parse": "PASS_METADATA_ONLY",
+      "top_level_functions": [
+        {
+          "name": "_generate_sl2_mod_n",
+          "line": 63,
+          "end_line": 90
+        },
+        {
+          "name": "verify_debt_p318_and_p618_metallic_mckay_and_wzw_c6",
+          "line": 93,
+          "end_line": 214
+        },
+        {
+          "name": "verify_debt_p604_hypercharge_primitivity_kernel",
+          "line": 221,
+          "end_line": 283
+        },
+        {
+          "name": "verify_debt_p606_degree2_trace_field_vs_multiplicity3",
+          "line": 290,
+          "end_line": 344
+        },
+        {
+          "name": "verify_debt_p355_lepton_down_coincidence_locus",
+          "line": 352,
+          "end_line": 525
+        },
+        {
+          "name": "_thc",
+          "line": 533,
+          "end_line": 535
+        },
+        {
+          "name": "_th1_prime0",
+          "line": 538,
+          "end_line": 541
+        },
+        {
+          "name": "_b1656_contour_residues",
+          "line": 544,
+          "end_line": 583
+        },
+        {
+          "name": "_duplication_factored_residues",
+          "line": 586,
+          "end_line": 607
+        },
+        {
+          "name": "verify_debt_p262_and_p268_duplication_and_zeros",
+          "line": 610,
+          "end_line": 793
+        },
+        {
+          "name": "run_all_pure_logic_debt_closures",
+          "line": 796,
+          "end_line": 804
+        }
+      ]
+    },
+    {
+      "path": "src/origin_axiom/toe_closure.py",
+      "sha256": "01d67b12d552ec3005f3deab22d2ac1f25a4bb6d2a88db6c23efecb2a8396e99",
+      "bytes": 1723164,
+      "ast_parse": "PASS_METADATA_ONLY",
+      "top_level_functions": [
+        {
+          "name": "phase1_zero_bit_cell_selection_theorem",
+          "line": 70,
+          "end_line": 122
+        },
+        {
+          "name": "phase2_weinberg_neutrino_spectrum_closure",
+          "line": 125,
+          "end_line": 192
+        },
+        {
+          "name": "phase3_two_loop_rge_higgs_and_qcd_closure",
+          "line": 195,
+          "end_line": 334
+        },
+        {
+          "name": "phase4_planck_and_cosmological_constant_closure",
+          "line": 337,
+          "end_line": 376
+        },
+        {
+          "name": "phase5_lorentzian_sl2c_minkowski_bridge",
+          "line": 379,
+          "end_line": 431
+        },
+        {
+          "name": "phase6_complete_pmns_unitary_and_cp_closure",
+          "line": 434,
+          "end_line": 517
+        },
+        {
+          "name": "phase7_exact_it_rge_light_generation_closure",
+          "line": 520,
+          "end_line": 618
+        },
+        {
+          "name": "phase8_dynamical_modulus_stabilization_closure",
+          "line": 621,
+          "end_line": 660
+        },
+        {
+          "name": "phase9_cosmological_baryogenesis_and_dark_matter_closure",
+          "line": 663,
+          "end_line": 739
+        },
+        {
+          "name": "audit_395b27210_source_repairs_and_scope_corrections",
+          "line": 742,
+          "end_line": 1000
+        },
+        {
+          "name": "cmath_exp_pi_q4",
+          "line": 1003,
+          "end_line": 1004
+        },
+        {
+          "name": "theorem10_amphichiral_a3_involution_and_t8_cusp_equivalence",
+          "line": 1007,
+          "end_line": 1209
+        },
+        {
+          "name": "theorem11_amphichiral_conjugation_and_strong_cp_reality",
+          "line": 1212,
+          "end_line": 1386
+        },
+        {
+          "name": "theorem12_nondimensional_buttazzo_2loop_top_higgs_closure",
+          "line": 1389,
+          "end_line": 1666
+        },
+        {
+          "name": "theorem13_basis_invariant_weinberg_majorana_and_pmns",
+          "line": 1669,
+          "end_line": 1854
+        },
+        {
+          "name": "theorem14_d5_e8_register_flavour_joint_and_exact_2O_orbit_census",
+          "line": 1857,
+          "end_line": 2195
+        },
+        {
+          "name": "theorem15_p559_b1788_exponents_p562_higgs_twist_and_d5_s3_commutant",
+          "line": 2198,
+          "end_line": 2515
+        },
+        {
+          "name": "theorem16_cross_branch_verification_s289_s290_and_w181_cusp_trigonometry",
+          "line": 2518,
+          "end_line": 2677
+        },
+        {
+          "name": "theorem17_stage3_p566_determinant_nogo_and_stage4_casimir_monotonicity",
+          "line": 2680,
+          "end_line": 2891
+        },
+        {
+          "name": "theorem18_p585_strip_level2_targets_and_order10_reflection_transpose",
+          "line": 2894,
+          "end_line": 3303
+        },
+        {
+          "name": "theorem19_p524_elliptic_periodicity_p384_order5_uniqueness_and_p233_hypercharge_forcing",
+          "line": 3306,
+          "end_line": 3578
+        },
+        {
+          "name": "theorem20_p355_double_ratio_mechanisms_b1742_tan_beta_and_90149211e_f2_transport",
+          "line": 3581,
+          "end_line": 3806
+        },
+        {
+          "name": "theorem21_p355_40_half_lift_theorem_qi_admixture_and_2O_three_class_separator",
+          "line": 3809,
+          "end_line": 4137
+        },
+        {
+          "name": "theorem22_p593_cusp_laws_s298_kernel_note_p323_theta_shift_and_buttazzo_eq99",
+          "line": 4140,
+          "end_line": 4501
+        },
+        {
+          "name": "theorem23_homework1_topological_spin_and_determinant_line_selection",
+          "line": 4504,
+          "end_line": 4639
+        },
+        {
+          "name": "theorem24_homework2_target_free_flux_casimir_modulus_stabilization",
+          "line": 4642,
+          "end_line": 4868
+        },
+        {
+          "name": "theorem25_homework3_kahler_hypercharge_normalization_and_threshold_dressing",
+          "line": 4871,
+          "end_line": 5002
+        },
+        {
+          "name": "theorem26_homework4_spin10_singlet_majorana_seesaw_and_haar_pmns",
+          "line": 5005,
+          "end_line": 5157
+        },
+        {
+          "name": "theorem27_homework5_hyperbolic_m004_uv_boundary_and_single_modulus_gravity",
+          "line": 5160,
+          "end_line": 5271
+        },
+        {
+          "name": "theorem28_homework6_zero_trust_hostile_referee_full_toe_certification",
+          "line": 5274,
+          "end_line": 5460
+        },
+        {
+          "name": "theorem29_bridge1_dynamical_re_tau_cp_stabilization_and_spin_flux_quantization",
+          "line": 5463,
+          "end_line": 5711
+        },
+        {
+          "name": "theorem30_bridge2_arakelov_poincare_norm_L2_and_single_point_unification",
+          "line": 5714,
+          "end_line": 5987
+        },
+        {
+          "name": "theorem31_bridge3_action_derived_d5_kahler_metric_for_tan_beta",
+          "line": 5990,
+          "end_line": 6127
+        },
+        {
+          "name": "theorem32_bridge4_one_loop_modular_kk_thresholds_for_light_generations_and_higgs",
+          "line": 6130,
+          "end_line": 6331
+        },
+        {
+          "name": "theorem33_bridge5_spin10_10_plus_126_clebsch_seesaw_for_pmns",
+          "line": 6334,
+          "end_line": 6502
+        },
+        {
+          "name": "theorem34_bridge6_zero_trust_hostile_referee_readiness_gate",
+          "line": 6505,
+          "end_line": 6701
+        },
+        {
+          "name": "theorem35_b1832_banked_theorems_and_audit_remediation",
+          "line": 6704,
+          "end_line": 6919
+        },
+        {
+          "name": "theorem36_higgs_singlet_t_multiplier_and_admissible_eta3_law",
+          "line": 6922,
+          "end_line": 7078
+        },
+        {
+          "name": "theorem37_single_line_qi_singlet_d_and_btau_closure_at_unified_vacuum",
+          "line": 7081,
+          "end_line": 7213
+        },
+        {
+          "name": "theorem38_strong_cp_theta_counterterm_rule_and_fpst_closure",
+          "line": 7216,
+          "end_line": 7371
+        },
+        {
+          "name": "theorem39_complete_unified_sm_parameter_derivation_table",
+          "line": 7374,
+          "end_line": 7523
+        },
+        {
+          "name": "theorem40_zero_trust_hostile_referee_b1832_and_full_sm_gate",
+          "line": 7526,
+          "end_line": 7678
+        },
+        {
+          "name": "theorem41_p384_data_free_slope_2_over_5_selection_without_yb_over_yt",
+          "line": 7681,
+          "end_line": 7819
+        },
+        {
+          "name": "theorem42_full_e8_spin10_compensator_lift_and_pin2_em_phase",
+          "line": 7822,
+          "end_line": 8076
+        },
+        {
+          "name": "theorem43_chat1_singlet_hierarchy_flattening_and_perturbative_kk_singlet_scaling",
+          "line": 8079,
+          "end_line": 8259
+        },
+        {
+          "name": "theorem44_simultaneous_charged_fermion_and_ckm_mz_closure_f10_and_dr",
+          "line": 8262,
+          "end_line": 8423
+        },
+        {
+          "name": "theorem45_complete_19_sm_plus_4_gravity_scorecard_and_unearned_inputs_ledger",
+          "line": 8426,
+          "end_line": 8674
+        },
+        {
+          "name": "theorem46_zero_trust_hostile_referee_full_sm_two_column_gate",
+          "line": 8677,
+          "end_line": 8835
+        },
+        {
+          "name": "theorem47_hyp05_zero_continuous_param_kk_casimir_qi_admixture",
+          "line": 8838,
+          "end_line": 8985
+        },
+        {
+          "name": "theorem48_hyp01_hyp02_galois_z3_character_projector_and_kahler_trace",
+          "line": 8988,
+          "end_line": 9104
+        },
+        {
+          "name": "theorem49_hyp03_hyp04_kk_casimir_matching_and_spin10_126_clebsch_algebra",
+          "line": 9107,
+          "end_line": 9208
+        },
+        {
+          "name": "theorem50_hyp06_hyp07_aps_eta_strong_cp_counterterm_and_m004_clausen_gravity",
+          "line": 9211,
+          "end_line": 9292
+        },
+        {
+          "name": "theorem51_updated_two_column_ledger_zero_continuous_parameters",
+          "line": 9295,
+          "end_line": 9407
+        },
+        {
+          "name": "theorem52_zero_trust_hostile_referee_bridge_promotion_gate",
+          "line": 9410,
+          "end_line": 9556
+        },
+        {
+          "name": "theorem53_p661_borrowed_joints_scaffold_and_p662_provenance_clean_sweep",
+          "line": 9559,
+          "end_line": 9719
+        },
+        {
+          "name": "theorem54_p638_charged_lepton_ue_and_pmns_second_held_out_target",
+          "line": 9722,
+          "end_line": 9874
+        },
+        {
+          "name": "theorem55_p639_mirror_in_matter_and_p637_one_loop_radiative_lift",
+          "line": 9877,
+          "end_line": 9984
+        },
+        {
+          "name": "theorem56_p636_deriving_the_three_from_minimal_hyperbolic_trace_and_fk11",
+          "line": 9987,
+          "end_line": 10083
+        },
+        {
+          "name": "theorem57_p629_p630_p631_p633_critical_weave_switch_and_two_loop_fiber_potential",
+          "line": 10086,
+          "end_line": 10179
+        },
+        {
+          "name": "theorem58_zero_trust_hostile_referee_stage6_s300_gate",
+          "line": 10182,
+          "end_line": 10306
+        },
+        {
+          "name": "theorem59_p663_b1667_l2_and_reidemeister_torsion_conversions",
+          "line": 10309,
+          "end_line": 10565
+        },
+        {
+          "name": "theorem60_analytic_q_series_proof_of_f7_mirror_identity",
+          "line": 10568,
+          "end_line": 10708
+        },
+        {
+          "name": "theorem61_p664_self_contained_gauge_to_yukawa_cascade_zero_measured_inputs",
+          "line": 10711,
+          "end_line": 10921
+        },
+        {
+          "name": "theorem62_s300_p632_instability_spectrum_p634_cuspidal_cohomology_and_p635_h1_q8",
+          "line": 10924,
+          "end_line": 11114
+        },
+        {
+          "name": "theorem63_b1834_frame_b_borrowed_joint_reduction_audit",
+          "line": 11117,
+          "end_line": 11226
+        },
+        {
+          "name": "theorem64_zero_trust_hostile_referee_stage7_b1834_gate",
+          "line": 11229,
+          "end_line": 11382
+        },
+        {
+          "name": "theorem65_pillar1_slice_bulk_mapping_torus_and_b3_complex_chern_simons_unification",
+          "line": 11385,
+          "end_line": 11499
+        },
+        {
+          "name": "theorem66_pillar2_one_higgs_fermion_kahler_equivalence_eliminating_two_higgs_ansatz",
+          "line": 11502,
+          "end_line": 11627
+        },
+        {
+          "name": "theorem67_pillar3_spectral_faithfulness_and_chat1_steepness_map_audit",
+          "line": 11630,
+          "end_line": 11746
+        },
+        {
+          "name": "theorem68_s300f_b1835_planted_quark_lepton_relations_and_dirac_r_ratio",
+          "line": 11749,
+          "end_line": 11921
+        },
+        {
+          "name": "theorem69_p667_l248_arithmetic_atom_and_3_pillar_bridge_compression",
+          "line": 11924,
+          "end_line": 12054
+        },
+        {
+          "name": "theorem70_zero_trust_hostile_referee_stage8_foundational_and_b1835_gate",
+          "line": 12057,
+          "end_line": 12204
+        },
+        {
+          "name": "theorem71_rebuttal_of_seven_wrongful_or_stale_refutations_and_t21_all_orders_determinant_law",
+          "line": 12207,
+          "end_line": 12400
+        },
+        {
+          "name": "theorem72_chat1_doublet_index_reading_distance_and_nonholomorphic_conjugate_i35",
+          "line": 12403,
+          "end_line": 12510
+        },
+        {
+          "name": "theorem73_chat1_density_higgs_exact_area_integral_eliminating_puncture_cut",
+          "line": 12513,
+          "end_line": 12672
+        },
+        {
+          "name": "theorem74_physical_bridge_dolbeault_fredholm_index_and_quaternionic_weak_chirality",
+          "line": 12675,
+          "end_line": 12762
+        },
+        {
+          "name": "theorem75_s300d_p666_serre_derivative_dr_and_f10_null_cone_unification",
+          "line": 12765,
+          "end_line": 12889
+        },
+        {
+          "name": "theorem76_zero_trust_hostile_referee_stage9_cross_seat_synthesis_gate",
+          "line": 12892,
+          "end_line": 13045
+        },
+        {
+          "name": "_resolve_p676_durable_salt_file",
+          "line": 13051,
+          "end_line": 13068
+        },
+        {
+          "name": "get_or_create_p676_local_salt",
+          "line": 13071,
+          "end_line": 13096
+        },
+        {
+          "name": "_canonical_p676_value_repr",
+          "line": 13099,
+          "end_line": 13102
+        },
+        {
+          "name": "seal_held_out_value_p676",
+          "line": 13105,
+          "end_line": 13111
+        },
+        {
+          "name": "verify_held_out_seal_p676",
+          "line": 13114,
+          "end_line": 13119
+        },
+        {
+          "name": "theorem77_b1836_s301_rebuttals_b08_exact_l2_proof_and_spin10_so10_pso10_tower",
+          "line": 13122,
+          "end_line": 13317
+        },
+        {
+          "name": "theorem78_b1836_t_frame_mirror_step2_parities_riley_sl2_torsion_and_explicit_cuspidal_cohomology",
+          "line": 13320,
+          "end_line": 13519
+        },
+        {
+          "name": "theorem79_p676_authority_compliance_scoreboard_vocabulary_and_held_out_blinding_gate",
+          "line": 13522,
+          "end_line": 13690
+        },
+        {
+          "name": "theorem80_zero_trust_hostile_referee_stage10_and_all_referees_independent_upgrade",
+          "line": 13693,
+          "end_line": 13854
+        },
+        {
+          "name": "theorem81_zagier_rankin_selberg_spectral_zeta_renormalization_of_a07_small_cut_norm",
+          "line": 13857,
+          "end_line": 13980
+        },
+        {
+          "name": "theorem82_hecke_regularized_cross_kernel_principal_value_and_w147_density_higgs_pairing",
+          "line": 13983,
+          "end_line": 14144
+        },
+        {
+          "name": "theorem83_p670_exact_theta2_branch_restoration_and_c29b_bernoulli_supertrace_theorem",
+          "line": 14147,
+          "end_line": 14291
+        },
+        {
+          "name": "theorem84_zero_trust_hostile_referee_stage11_and_p676_total_compliance_gate",
+          "line": 14294,
+          "end_line": 14471
+        },
+        {
+          "name": "theorem85_b1837_c2_banked_m004_torsion_dictionary_and_s304_d4_spin10_q8_lift",
+          "line": 14474,
+          "end_line": 14720
+        },
+        {
+          "name": "theorem86_b1837_c1_first_order_sigma10_jacobian_and_s303_p682_eleven_order_dictionary",
+          "line": 14723,
+          "end_line": 14923
+        },
+        {
+          "name": "theorem87_s304_b1838_inradius_bound_channel_horocycle_split_and_chat1_20ece78d5_radius_scaling",
+          "line": 14926,
+          "end_line": 15104
+        },
+        {
+          "name": "theorem88_p684_complete_compliance_resolution_and_zero_trust_stage12_referee_gate",
+          "line": 15107,
+          "end_line": 15304
+        },
+        {
+          "name": "theorem89_b1839_higgs_twist_norm_law_and_170_class_partition_theorem",
+          "line": 15307,
+          "end_line": 15497
+        },
+        {
+          "name": "theorem90_b1839_completed_square_horoball_asymptotics_and_lame_accessory_coupling",
+          "line": 15500,
+          "end_line": 15654
+        },
+        {
+          "name": "theorem91_s305a_p665_basis_invariant_seesaw_spectrum_and_m3_cover_wada_factorization",
+          "line": 15657,
+          "end_line": 15794
+        },
+        {
+          "name": "theorem92_zero_trust_hostile_referee_stage13_b1839_and_s305a_gate",
+          "line": 15797,
+          "end_line": 15965
+        },
+        {
+          "name": "theorem93_p663_b08_direct_b1667_l2_conversion_and_exact_two_twist_b1656_laurent_theorem",
+          "line": 15968,
+          "end_line": 16210
+        },
+        {
+          "name": "theorem94_b1840_principled_ends_e1_to_e5_and_b1667_weierstrass_half_period_o4_law",
+          "line": 16213,
+          "end_line": 16353
+        },
+        {
+          "name": "theorem95_p686_s3_gap1_independence_proof_and_complete_13_order_unification_dictionary",
+          "line": 16356,
+          "end_line": 16558
+        },
+        {
+          "name": "theorem96_zero_trust_stage14_referee_and_ast_semantic_p684_blinding_gate",
+          "line": 16561,
+          "end_line": 16820
+        },
+        {
+          "name": "theorem97_liouville_uniqueness_higgs_twist_law_and_b1840_e4_universal_area4_horocycle",
+          "line": 16823,
+          "end_line": 16998
+        },
+        {
+          "name": "theorem98_single_trajectory_uv_ir_modular_rg_flow_and_kk_threshold_xing_zhou_closure",
+          "line": 17001,
+          "end_line": 17101
+        },
+        {
+          "name": "theorem99_p693_one_higgs_reading_triple_and_su2l_invariant_m3_cover_self_energy_trace",
+          "line": 17104,
+          "end_line": 17216
+        },
+        {
+          "name": "theorem100_unique_one_loop_sigma10_breaking_radiative_hi_lift_eliminating_rational_menu",
+          "line": 17219,
+          "end_line": 17285
+        },
+        {
+          "name": "theorem101_spin10_10_plus_126_clebsch_seesaw_lock_and_two_tier_sm_gravity_separation",
+          "line": 17288,
+          "end_line": 17397
+        },
+        {
+          "name": "theorem102_zero_trust_stage15_referee_and_full_repo_ast_openable_commitment_gate",
+          "line": 17400,
+          "end_line": 17723
+        },
+        {
+          "name": "theorem103_p694_milne_thurston_3plus1d_spacetime_clock_and_dynamical_tnorm_isotropy",
+          "line": 17726,
+          "end_line": 17892
+        },
+        {
+          "name": "theorem104_direct_g192_peter_weyl_12d_gauge_orthogonality_and_plaquette_curvature",
+          "line": 17895,
+          "end_line": 18043
+        },
+        {
+          "name": "theorem105_pati_salam_4parity_colour_lepton_vs_pillowcase_flavour_tensor_separation",
+          "line": 18046,
+          "end_line": 18260
+        },
+        {
+          "name": "theorem106_p694_spontaneous_horizon_freezeout_blind_transfer_census_and_stage16_referee_gate",
+          "line": 18263,
+          "end_line": 18629
+        },
+        {
+          "name": "theorem107_loop_modular_pi_cancellation_and_exact_algebraic_rg_shifts",
+          "line": 18632,
+          "end_line": 18717
+        },
+        {
+          "name": "theorem108_exact_electroweak_scale_cancellation_in_em_minus_qcd_running",
+          "line": 18720,
+          "end_line": 18813
+        },
+        {
+          "name": "theorem109_exact_fermion_and_higgs_cancellation_in_pati_salam_beta_combination",
+          "line": 18816,
+          "end_line": 18882
+        },
+        {
+          "name": "theorem110_s305f_pushback_shared_parameter_gap1_proof_and_stage17_referee_gate",
+          "line": 18885,
+          "end_line": 19111
+        },
+        {
+          "name": "theorem111_closed_form_sl2z_generation_covariance_level4_s4_and_order12_crt_split",
+          "line": 19114,
+          "end_line": 19362
+        },
+        {
+          "name": "theorem112_exact_j_k_theta_interference_law_t_duality_swap_and_b1839_norms_audit",
+          "line": 19365,
+          "end_line": 19548
+        },
+        {
+          "name": "theorem113_p699_hostile_referee_audit_of_b1841_and_b1839_independent_third_opinion",
+          "line": 19551,
+          "end_line": 19722
+        },
+        {
+          "name": "theorem114_p688_p699_b1842_closure_instruments_audit_ct_defect_fix_and_stage18_gate",
+          "line": 19725,
+          "end_line": 20005
+        },
+        {
+          "name": "theorem115_exact_yukawa_determinant_null_cone_factorization_and_b1841_random_row_diagnosis",
+          "line": 20008,
+          "end_line": 20163
+        },
+        {
+          "name": "theorem116_workstream1_earning_h_identity_via_level4_s4_commutant_p702_gamma3_and_order5_c_audit",
+          "line": 20166,
+          "end_line": 20352
+        },
+        {
+          "name": "theorem117_workstream2_p694_p704_two_clock_farey_crossing_and_e4_area4_horizon_dynamics",
+          "line": 20355,
+          "end_line": 20445
+        },
+        {
+          "name": "theorem118_workstream3_and_4_v162_power_valve_sigma_th_and_structural_ckm_at_order5",
+          "line": 20448,
+          "end_line": 20596
+        },
+        {
+          "name": "theorem119_workstream5_calibrated_2026_10_08_parameter_ledger_and_stage19_gate",
+          "line": 20599,
+          "end_line": 20744
+        },
+        {
+          "name": "theorem120_b1728_converse_proof_via_higgs_twist_law_and_elliptic_residue_uniqueness",
+          "line": 20747,
+          "end_line": 20903
+        },
+        {
+          "name": "theorem121_data_free_principle_driven_menu_reduction_for_cc_to_chat1_and_cc_to_sm",
+          "line": 20906,
+          "end_line": 21007
+        },
+        {
+          "name": "theorem122_p707_end_offset_c_comovement_mod2_theta_parity_law_and_p705_p706_audit",
+          "line": 21010,
+          "end_line": 21138
+        },
+        {
+          "name": "theorem123_p710_firewall_compliant_review75_design_and_stage20_referee_gate",
+          "line": 21141,
+          "end_line": 21272
+        },
+        {
+          "name": "theorem124_p711_complete_266_line_stabilizer_census_in_sl2z4_and_b1736_s4_commutants",
+          "line": 21275,
+          "end_line": 21554
+        },
+        {
+          "name": "theorem125_p713_farey_phase_transition_order_critical_exponents_and_cusp_measure",
+          "line": 21557,
+          "end_line": 21699
+        },
+        {
+          "name": "theorem126_p714_principles_for_placing_tau_and_menu_priced_by_random_subset_control",
+          "line": 21702,
+          "end_line": 21934
+        },
+        {
+          "name": "theorem127_p715_p574_object_native_scales_audit_and_dimensionless_rg_matching_laws",
+          "line": 21937,
+          "end_line": 22072
+        },
+        {
+          "name": "theorem128_p716_representation_level_cp_odd_source_audit_and_stage21_referee_gate",
+          "line": 22075,
+          "end_line": 22267
+        },
+        {
+          "name": "theorem129_p717_closed_approximants_fibonacci_apex_law_and_re_tau_half_identity",
+          "line": 22270,
+          "end_line": 22443
+        },
+        {
+          "name": "theorem130_p717_p718_golden_monodromy_order5_eigenline_uniqueness_and_mod5_compatibility",
+          "line": 22446,
+          "end_line": 22604
+        },
+        {
+          "name": "theorem131_p717_ask1_ask3_homoclinic_excess_length_and_palindromic_apex_stationarity",
+          "line": 22607,
+          "end_line": 22787
+        },
+        {
+          "name": "theorem132_p717_p718_menu_compression_ledger_and_stage22_referee_gate",
+          "line": 22790,
+          "end_line": 22983
+        },
+        {
+          "name": "theorem133_chat1_b79bb6d95_e073bf6b1_n6_vs_n5_reconciliation_and_sqrt5_fibonacci_ratio_law",
+          "line": 22986,
+          "end_line": 23331
+        },
+        {
+          "name": "theorem134_p720_ask1_exact_fr_fib_modular_weights_and_minimal_kahler_insufficiency",
+          "line": 23334,
+          "end_line": 23556
+        },
+        {
+          "name": "theorem135_p720_ask2_ask3_basis_covariant_effective_yukawa_and_level4_holonomy_law",
+          "line": 23559,
+          "end_line": 23916
+        },
+        {
+          "name": "theorem136_p719_p721_scale_wall_sharpening_three_conductors_and_stage24_referee_gate",
+          "line": 23919,
+          "end_line": 24120
+        },
+        {
+          "name": "theorem137_chat1_0772952e3_rung_invisibility_least_action_and_level5_weil_filter",
+          "line": 24123,
+          "end_line": 24425
+        },
+        {
+          "name": "theorem138_p720_cusp_fourier_freezeout_and_p723_gueritaud_fan_telescoping_law",
+          "line": 24428,
+          "end_line": 24706
+        },
+        {
+          "name": "theorem139_p722_ask_q1_scale_as_reference_coupling_and_blind_order5_protocol",
+          "line": 24709,
+          "end_line": 24902
+        },
+        {
+          "name": "theorem140_unified_new_goal_scorecard_and_stage25_zero_trust_referee_gate",
+          "line": 24905,
+          "end_line": 25097
+        },
+        {
+          "name": "theorem141_chat1_21cfbc3c2_one_process_one_level_k5_and_claude_sm_criterion_k",
+          "line": 25100,
+          "end_line": 25324
+        },
+        {
+          "name": "theorem142_s305x_p723_stages_a_to_d_pleated_surface_shears_markov_traces_and_intrinsic_tau",
+          "line": 25327,
+          "end_line": 25675
+        },
+        {
+          "name": "theorem143_s305w_p722_wrt_invariant_level_rank_duality_and_hbar_2pi_over_5_audit",
+          "line": 25678,
+          "end_line": 25865
+        },
+        {
+          "name": "theorem144_complete_goal_closure_synthesis_and_stage26_zero_trust_referee_gate",
+          "line": 25868,
+          "end_line": 26031
+        },
+        {
+          "name": "theorem145_simultaneous_twin_coexistence_sixy_mod5_inter_twin_residue_invariance_and_punctured_fibre_orbit",
+          "line": 26034,
+          "end_line": 26411
+        },
+        {
+          "name": "theorem146_twin_orbit_weil_interaction_pentagon_chord_ratio_and_s_dual_tunneling_scaling",
+          "line": 26414,
+          "end_line": 26606
+        },
+        {
+          "name": "theorem147_chat1_c6b813450_reflection_stabilizer_uniqueness_and_program_reduction_ledger",
+          "line": 26609,
+          "end_line": 26873
+        },
+        {
+          "name": "theorem148_stage27_zero_trust_hostile_referee_gate",
+          "line": 26876,
+          "end_line": 27002
+        },
+        {
+          "name": "theorem149_p724_q1_action_weighted_saddle_sum_action_a_vs_b_and_pi2_per_run_line_conservation",
+          "line": 27005,
+          "end_line": 27330
+        },
+        {
+          "name": "theorem150_p725_q1_amphichiral_mirror_twin_sector_coupling_and_weil_portal_invariance",
+          "line": 27333,
+          "end_line": 27534
+        },
+        {
+          "name": "theorem151_p723_s305z_complete_9layer_l6rlr_profile_flanking_pair_conjugacy_and_homoclinic_limit",
+          "line": 27537,
+          "end_line": 27901
+        },
+        {
+          "name": "theorem152_p722_habiro_wrt_convention_sharpening_and_stage28_zero_trust_referee_gate",
+          "line": 27904,
+          "end_line": 28094
+        },
+        {
+          "name": "theorem153_p722_p725_b1012_vs_b598_amphichiral_sector_split_and_instanton_transmutation",
+          "line": 28097,
+          "end_line": 28398
+        },
+        {
+          "name": "theorem154_p726_p727_b1846_margulis_tube_coth2_identity_level_surface_modulus_and_cusp_collar",
+          "line": 28401,
+          "end_line": 28841
+        },
+        {
+          "name": "theorem155_s286_b1826_p716_two_flank_margulis_tube_transition_ckm_unblocking_and_cp_invariance",
+          "line": 28844,
+          "end_line": 29130
+        },
+        {
+          "name": "theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage29_referee_gate",
+          "line": 29133,
+          "end_line": 29472
+        },
+        {
+          "name": "evaluate_full_toe_master_scorecard",
+          "line": 29475,
+          "end_line": 29883
+        }
+      ]
+    },
+    {
+      "path": "tests/test_elevation_operator_gate.py",
+      "sha256": "ca130db7bb5d1c9a6749bd556ae999f8b1eec6ba9a1a914f78d8961de8638f60",
+      "bytes": 204243,
+      "ast_parse": "PASS_METADATA_ONLY",
+      "top_level_functions": [
+        {
+          "name": "test_theorem1_sector_independence_and_closed_form_c",
+          "line": 70,
+          "end_line": 118
+        },
+        {
+          "name": "test_theorem2_4d_quaternionic_yukawa_and_operator_gate",
+          "line": 121,
+          "end_line": 165
+        },
+        {
+          "name": "test_stepb_structural_audit_defects",
+          "line": 168,
+          "end_line": 201
+        },
+        {
+          "name": "test_theorem3_theorem4_and_19_parameter_ledger",
+          "line": 204,
+          "end_line": 246
+        },
+        {
+          "name": "test_seven_pillars_sm_19_gate_preparation",
+          "line": 249,
+          "end_line": 321
+        },
+        {
+          "name": "test_four_sequential_steps_stepb_v2_closure",
+          "line": 324,
+          "end_line": 362
+        },
+        {
+          "name": "test_theorem8_zero_parameter_golden_codifferent_unit_modulus_closure",
+          "line": 365,
+          "end_line": 382
+        },
+        {
+          "name": "test_theorem9_hypercharge_quadratic_refinement_and_full_19_closure",
+          "line": 385,
+          "end_line": 411
+        },
+        {
+          "name": "test_five_phase_master_toe_closure",
+          "line": 414,
+          "end_line": 3094
+        },
+        {
+          "name": "test_codex_f1_to_f6_repairs_and_discriminating_countercontrols",
+          "line": 3097,
+          "end_line": 3165
+        }
+      ]
+    },
+    {
+      "path": "tests/test_p000_pure_logic_bridge.py",
+      "sha256": "8d2c47588bab92365de0295e41f556bea7aa7d05bcdcaf9fe72a2d4bacc5e6a7",
+      "bytes": 5197,
+      "ast_parse": "PASS_METADATA_ONLY",
+      "top_level_functions": [
+        {
+          "name": "test_step1_freeness_vs_relaxations",
+          "line": 25,
+          "end_line": 39
+        },
+        {
+          "name": "test_step2a_word_side_w110",
+          "line": 42,
+          "end_line": 50
+        },
+        {
+          "name": "test_step2b_character_and_p321_prime_selection",
+          "line": 53,
+          "end_line": 72
+        },
+        {
+          "name": "test_step2c_p211_genus2_surface",
+          "line": 75,
+          "end_line": 87
+        },
+        {
+          "name": "test_step3_and_4_carrier_and_countercontrols",
+          "line": 90,
+          "end_line": 118
+        }
+      ]
+    },
+    {
+      "path": "tests/test_pure_logic_debt_closures.py",
+      "sha256": "c068b19583f5f7080975f4ac791f4f0780170206535b9da4009cee004eb0f75e",
+      "bytes": 6030,
+      "ast_parse": "PASS_METADATA_ONLY",
+      "top_level_functions": [
+        {
+          "name": "test_theorem_a_p318_p618_metallic_mckay_and_wzw_c6",
+          "line": 31,
+          "end_line": 40
+        },
+        {
+          "name": "test_theorem_b_p604_hypercharge_primitivity_kernel",
+          "line": 43,
+          "end_line": 48
+        },
+        {
+          "name": "test_theorem_c_p606_degree2_trace_field_vs_multiplicity3",
+          "line": 51,
+          "end_line": 59
+        },
+        {
+          "name": "test_theorem_d_p355_lepton_down_coincidence_locus",
+          "line": 62,
+          "end_line": 80
+        },
+        {
+          "name": "test_theorem_e_p262_p268_p292_duplication_and_zeros",
+          "line": 83,
+          "end_line": 95
+        },
+        {
+          "name": "test_planted_mutations_rejected",
+          "line": 98,
+          "end_line": 118
+        }
+      ]
+    }
+  ],
+  "recovered_upstream_sources": [
+    {
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "GENESIS.md",
+      "sha256": "ec8c3dba05a5c947416a18952bc40f99a32af5135c87987c6f7e6236bc34bad4",
+      "bytes": 170129,
+      "scope": "selected load-bearing sections hand read; not certification of all claims in file"
+    },
+    {
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "docs/POINT_REGISTER.md",
+      "sha256": "ce254b92882d1f321853a9ef43668a409fb59c815ff1fde3a2f596a957af0525",
+      "bytes": 781024,
+      "scope": "selected load-bearing sections hand read; not certification of all claims in file"
+    },
+    {
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "frontier/B997_golden_conductor_uniqueness/ADDENDUM_2026-08-31_N4_is_an_order_coincidence.md",
+      "sha256": "d80c58e625923abc7a63ace58932e59dca43440828aacd51769ee66c2336e29c",
+      "bytes": 2639,
+      "scope": "selected load-bearing sections hand read; not certification of all claims in file"
+    },
+    {
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "frontier/B1221_global_form_path_independence/ADDENDUM_2026-08-31_the_Z6_needs_primitivity.md",
+      "sha256": "c81f84d3a0ddccec5f57fd0b74d33e620bb19d58eac5b848bd89c904f12c5fa9",
+      "bytes": 2782,
+      "scope": "selected load-bearing sections hand read; not certification of all claims in file"
+    },
+    {
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "frontier/B1832_the_agy_lanes_digested/FINDINGS.md",
+      "sha256": "9d79874cecca7cbc177501b41917e51df0f910d5a96544845197a77ed0361e5d",
+      "bytes": 26935,
+      "scope": "selected load-bearing sections hand read; not certification of all claims in file"
+    }
+  ],
+  "literal_true_mutation_fields_ast_only": [
+    {
+      "key": "mutation4_independent_left_right_scrambling_trace_rejected",
+      "line": 728,
+      "value": true
+    },
+    {
+      "key": "mutation5_n3_traceless_character_fixed_rejected",
+      "line": 729,
+      "value": true
+    },
+    {
+      "key": "mutation7_g2_fixes_2group_character_rejected",
+      "line": 734,
+      "value": true
+    },
+    {
+      "key": "mutation8_dinf_admits_transvection_rejected",
+      "line": 735,
+      "value": true
+    }
+  ],
+  "scientific_import": false,
+  "test_collection": false,
+  "scientific_execution": false,
+  "claimed_upstream_runtime_results_reproduced_here": false,
+  "scope": "three new relays, two new modules and tests, load-bearing toe_closure successor changes; not all historical theorem bodies",
+  "audit_report": {
+    "path": "reports/physical_bridge_2026_09_05/agy_successor_source_audit_2026_11_07/REPORT.md",
+    "sha256": "047dda143c8263154d81f333032da08156ac2195b23fff54bf4eeb205c7bbadb",
+    "bytes": 18830
+  },
+  "inherited_staged_binary_diff_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}
