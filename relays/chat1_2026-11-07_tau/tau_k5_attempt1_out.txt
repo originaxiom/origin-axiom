@@ -1,0 +1,4 @@
+k=5 (b++LLLLLLRLRLRLRLRLR); versions {'numpy': '2.5.3', 'scipy': '1.18.1', 'numba': '0.68.1', 'snappy': '3.3.2', 'python': '3.13.18'}
+  exact: 2 reversing involutions; the two fibres in opposite classes for every one: True; both != I mod 2 for every one: False
+  17 tetrahedra; cusp |p1| 3.465295, |p2| 6.125523; Ford volume 13.750654 against SnapPy 13.750661; floor minimum 0.38185; 191 spheres
+  harmonic time: 3615 Fourier-Bessel modes (7230 unknowns), rms residual 3.20e-11, paired-face check 1.22e-11 (192s)

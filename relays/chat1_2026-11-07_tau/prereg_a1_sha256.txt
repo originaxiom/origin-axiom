@@ -1,0 +1,8 @@
+tau_k_limit_a1.py sha256 7ef2734dcad6d9da223e48ae8ccd1579b6ff62a729b667a8155be0f91c534716
+run_chain_a1.sh sha256 c7872640ab1e6df7c1976802ab186c2db2152b81119ceffb98c841bccfaf7ebf
+recorded 2026-11-07T04:35:16Z, after the sealed run of tau_k_limit.py stopped for k = 4 and k = 5 at C3's SnapPy check ("The Dirichlet
+construction failed"; tau_k4_attempt1_*.txt and tau_k5_attempt1_*.txt, kept as they were written) and before either
+member's surfaces were computed. Amendment 1 changes only that check (the spectrum from isometric copies with randomized
+triangulations when SnapPy's Dirichlet construction fails); the sealed driver, its pass rules, predictions and summary
+stand. The fallback was tested outside the repository on SnapPy alone (k = 1..5; no harmonic time, no surface). To be
+run as run_chain_a1.sh k=4 k=5, alongside the sealed chain's m004, k = 1, 2, 3.

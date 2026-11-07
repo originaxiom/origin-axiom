@@ -1,0 +1,12 @@
+/usr/local/lib/python3.13/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+Traceback (most recent call last):
+  File "tau_k_limit.py", line 296, in <module>
+    run(sys.argv[1])
+    ~~~^^^^^^^^^^^^^
+  File "tau_k_limit.py", line 192, in run
+    spec = g.M.length_spectrum(float(Lc.real) + 0.25)
+  File "cython/core/manifold.pyx", line 1496, in SnapPy.Manifold.length_spectrum
+  File "cython/core/manifold.pyx", line 383, in SnapPy.Manifold.dirichlet_domain
+  File "cython/core/dirichlet.pyx", line 166, in SnapPy.CDirichletDomain.__cinit__
+RuntimeError: The Dirichlet construction failed.
