@@ -18726,3 +18726,12 @@ all. Hiding the shallow one would need a rule against superpositions that would 
 Under ordinary quantum mechanics, and if that level-5 space is physical, the deep departure is the invisible one. Main
 rebuilt the representation and confirmed every number. 0 of 19.
 
+## 2026-11-07 — S306m (continued): main's own check of the tube's shape, one step further
+
+Main reran its own instrument on the next member of the excursion family. It agrees with the web seat's independent
+value to about one part in six hundred, though not to the seat's finer precision. The control run showed that the
+corrected formula gives the same answer in two different coordinate choices, where the old formula had not. That also
+cleared up a wobble in the real part that an earlier study had left unresolved. The member after that was out of reach
+for main's instrument as written. So the long-history value stays the seat's to its last digit, and is confirmed to the
+second decimal. 0 of 19.
+

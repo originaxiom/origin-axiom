@@ -2,6 +2,8 @@
 
 > **Currency — Review 56 (2026-09-09, anchor `eb9db7fa`).** Refreshed against the 21-merge window `be6f4cab`→`eb9db7fa` (B1294–B1307: MASTERPLAN v3 Phases 0–1 and v3.1's seven harvest arcs). **Review 56's headline is a number, not a repair:** the harvest gate's first strict report — 494 seat-index ids on nine branches, **428 without a ledger row, 348 seat-branch relays without a relay row**, two seats already past main's pins — escalated by name as R56-1 with a payment order (B1306 slices B–D, newest first). 32/32 gates; LAW_MAP's second zero-advancement window (R56-2); CLAIMS.md's 129-arc lag escalated (R56-3); two E53 repairs in living surfaces (THE_SM_VERDICT, MAIN_GOAL JOIN 3); E71 minted. Full detail: `docs/progress/REVIEWS.md` (Review 56).
 
+**LATEST (2026-11-07, S306m (continued): B1854 — the tube's τ at k = 2 on main: 6.070 ± 0.010 (the seat's 6.08186); the covariant root basis-invariant; k = 3 not reached; τ_∞ = 6.06 ± 0.01 at main's resolution (the seat's 6.06526 at the 4th digit). 0 of 19.)**
+
 **LATEST (2026-11-07, S306m (continued): B1856 — charge or symmetry at five: in the object's level-5 Weil space only the charge reading is invisible, so (under standard QM and a physical level-5 space) the run of 6 is the departure; P-738 answered conditionally. 0 of 19.)**
 
 **LATEST (2026-11-07, S306m (continued): B1855 — the charge law settled: refuted for lcm(S) ≥ 12 (counterexamples verified on main), proved for lcm(S) ≤ 10 by the explore seat (cited; S = {5}'s run of 6 corroborated); B1853's (21)/(61) rows were range artifacts. 0 of 19.)**
