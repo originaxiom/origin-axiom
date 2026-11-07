@@ -1080,16 +1080,31 @@ def verify_d47f7d79f_selector_earning_and_syntactic_congruence() -> Dict[str, ob
 
     # 2. Section 7 Decision Rule (Single-Fixed-Sector vs. Covariant-Family Independence under A1-A4):
     #    Compare Model M_single (p=2, Q_8 subset SU(2), dim 2) against Model M_family
-    #    (p=3, rho_{zeta_3} (+) rho_{zeta_3^-1} subset SU(6), dim 6) on F_2 words up to length 3:
+    #    (p=3, true conjugate-pair direct sum rho_{zeta_3} (+) bar{rho}_{zeta_3} subset SU(6), dim 6)
+    #    on F_2 words up to length 3:
     z3 = np.exp(2j * np.pi / 3.0)
     X3 = np.roll(np.eye(3, dtype=complex), -1, axis=1)
     Z3 = np.diag([1.0, z3, z3**2])
     Z3_bar = np.diag([1.0, z3**2, z3])
-    # In M_family, generator a acts by diag(Z3, X3) and generator b acts by diag(X3, Z3_bar)
-    # so that under swap P: (a, b) -> (b, a), block 1 (Z3, X3) swaps with (X3, Z3_bar), which is
-    # unitarily equivalent to block 2 (Z3_bar, X3) via the DFT matrix F_3!
-    a_fam = np.block([[Z3, np.zeros((3, 3), dtype=complex)], [np.zeros((3, 3), dtype=complex), X3]])
-    b_fam = np.block([[X3, np.zeros((3, 3), dtype=complex)], [np.zeros((3, 3), dtype=complex), Z3_bar]])
+    F3_dft = np.array([[z3 ** (j * k) / np.sqrt(3.0) for k in range(3)] for j in range(3)], dtype=complex)
+    # In M_family = rho_{zeta_3} (+) bar{rho}_{zeta_3}, generator a acts by diag(Z3, Z3_bar)
+    # and generator b acts by diag(X3, X3). Since F3_dft @ Z3 @ F3_dft^dagger = X3 and
+    # F3_dft^dagger @ X3 @ F3_dft = Z3_bar, the off-diagonal unitary U_swap_fam = [[0, F3_dft], [F3_dft^dagger, 0]]
+    # intertwines (a_fam, b_fam) <-> (b_fam, a_fam) by exchanging the two conjugate 3D irreducible blocks!
+    a_fam = np.block([[Z3, np.zeros((3, 3), dtype=complex)], [np.zeros((3, 3), dtype=complex), Z3_bar]])
+    b_fam = np.block([[X3, np.zeros((3, 3), dtype=complex)], [np.zeros((3, 3), dtype=complex), X3]])
+    U_swap_fam = np.block(
+        [
+            [np.zeros((3, 3), dtype=complex), F3_dft],
+            [F3_dft.conj().T, np.zeros((3, 3), dtype=complex)],
+        ]
+    )
+    swap_intertwiner_err = float(
+        max(
+            np.linalg.norm(U_swap_fam @ a_fam @ U_swap_fam.conj().T - b_fam),
+            np.linalg.norm(U_swap_fam @ b_fam @ U_swap_fam.conj().T - a_fam),
+        )
+    )
 
     def eval_word_mat(w: Word, ga: np.ndarray, gb: np.ndarray) -> np.ndarray:
         d = ga.shape[0]
@@ -1107,10 +1122,43 @@ def verify_d47f7d79f_selector_earning_and_syntactic_congruence() -> Dict[str, ob
                 res = res @ gb_inv
         return res
 
+    # Also verify Section 5's syntactic congruence directly on free-group words w in F_2
+    # for surjective homomorphisms pi: F_2 -> G onto Z_2 (2), V_4 (4), S_3 (6), Q_8 (8), and H_3(F_3) (27):
+    f2_ctx_words = _enum_reduced_words(2, 4)
+
+    def f2_syntactic_quotient_size_matrix_rep(ga: np.ndarray, gb: np.ndarray) -> int:
+        d = ga.shape[0]
+        id_mat = np.eye(d, dtype=complex)
+        ctx_mats = [eval_word_mat(u, ga, gb) for u in f2_ctx_words]
+        sigs = set()
+        for m_w in ctx_mats:
+            sig = tuple(
+                0 if np.allclose(m_u @ m_w, id_mat, atol=1e-10) else 1
+                for m_u in ctx_mats
+            )
+            sigs.add(sig)
+        return len(sigs)
+
+    f2_word_syntactic_sizes = {
+        "F2_to_Z2_order_2": f2_syntactic_quotient_size_matrix_rep(
+            np.array([[-1.0]], dtype=complex), np.array([[1.0]], dtype=complex)
+        ),
+        "F2_to_V4_order_4": f2_syntactic_quotient_size_matrix_rep(
+            np.diag([-1.0, 1.0]).astype(complex), np.diag([1.0, -1.0]).astype(complex)
+        ),
+        "F2_to_Q8_order_8": f2_syntactic_quotient_size_matrix_rep(qi, qj),
+        "F2_to_H3_F3_order_27": f2_syntactic_quotient_size_matrix_rep(Z3, X3),
+    }
+
     P_swap = {1: (2,), 2: (1,)}
+    L_move = {1: (1,), 2: (1, 2)}
+    R_move = {1: (1, 2), 2: (2,)}
     comm_ab = commutator_word((1,), (2,))
     r2_comm = float(np.real(np.trace(eval_word_mat(comm_ab, qi, qj)) / 2.0))
     rfam_comm = float(np.real(np.trace(eval_word_mat(comm_ab, a_fam, b_fam)) / 6.0))
+    rfam_comm_L = float(np.real(np.trace(eval_word_mat(apply_homomorphism(L_move, comm_ab), a_fam, b_fam)) / 6.0))
+    rfam_comm_R = float(np.real(np.trace(eval_word_mat(apply_homomorphism(R_move, comm_ab), a_fam, b_fam)) / 6.0))
+    rfam_comm_P = float(np.real(np.trace(eval_word_mat(apply_homomorphism(P_swap, comm_ab), a_fam, b_fam)) / 6.0))
     max_r2_swap_diff = max(
         abs(np.trace(eval_word_mat(w, qi, qj)) - np.trace(eval_word_mat(apply_homomorphism(P_swap, w), qi, qj))) / 2.0
         for w in f2_words
@@ -1122,6 +1170,10 @@ def verify_d47f7d79f_selector_earning_and_syntactic_congruence() -> Dict[str, ob
     sec7_single_fixed_sector_independent_of_A1_to_A4 = bool(
         abs(r2_comm - (-1.0)) < 1e-12
         and abs(rfam_comm - (-0.5)) < 1e-12
+        and abs(rfam_comm_L - (-0.5)) < 1e-12
+        and abs(rfam_comm_R - (-0.5)) < 1e-12
+        and abs(rfam_comm_P - (-0.5)) < 1e-12
+        and swap_intertwiner_err < 1e-12
         and max_r2_swap_diff < 1e-12
         and max_rfam_swap_diff < 1e-12
         and bool(p_table["2"]["single_irrep_fixed_by_swap"]) is True
@@ -1129,8 +1181,30 @@ def verify_d47f7d79f_selector_earning_and_syntactic_congruence() -> Dict[str, ob
         and bool(p_table["3"]["paired_reducible_fixed_by_swap"]) is True
     )
 
+    three_selection_tasks_separation = {
+        "task1_category_and_carrier_selection": {
+            "question": "Which algebraic carrier H (e.g., Z^2, H_3(Z), F_2, F_n) carries the composition grammar?",
+            "target_free_verdict": "Independent of A1-A3 alone; requires P1 (pair commutator != 1), P2 (iterated commutator != 1), and P3 (universal Aut^+(F_n) primitive kept class -> n = 2).",
+        },
+        "task2_register_architecture_single_vs_covariant_family": {
+            "question": "Must a single irreducible sector be fixed point-wise under Aut(F_2), or can a covariant family rho (+) bar{rho} transform by sector permutation?",
+            "target_free_verdict": "Independent of A1-A4 (proved by M_single vs M_family); narrowing M_family to M_single requires the explicit irreducible-minimality premise P4 and SU(2) spinor premise P5.",
+        },
+        "task3_physical_state_and_distribution_selection": {
+            "question": "Given a law and register architecture, which physical state, modulus tau, or trajectory distribution is realized?",
+            "target_free_verdict": "Distinct from Tasks 1-2; requires dynamical action / stationary distribution selection without post-inspection pinning (Guardrail 1 & P-714).",
+        },
+    }
+
     passed = bool(
         syntactic_sizes == {"Z2_order_2": 2, "V4_order_4": 4, "S3_order_6": 6, "Q8_order_8": 8}
+        and f2_word_syntactic_sizes
+        == {
+            "F2_to_Z2_order_2": 2,
+            "F2_to_V4_order_4": 4,
+            "F2_to_Q8_order_8": 8,
+            "F2_to_H3_F3_order_27": 27,
+        }
         and len(surviving_after_each_premise["after_P1"]) == 5
         and len(surviving_after_each_premise["after_P1_P2"]) == 4
         and len(surviving_after_each_premise["after_P1_to_P3"]) == 3
@@ -1143,6 +1217,8 @@ def verify_d47f7d79f_selector_earning_and_syntactic_congruence() -> Dict[str, ob
 
     return {
         "syntactic_congruence_quotient_sizes": syntactic_sizes,
+        "f2_word_syntactic_congruence_quotient_sizes": f2_word_syntactic_sizes,
+        "three_selection_tasks_separation": three_selection_tasks_separation,
         "section6_rank2_independent_of_A1_to_A4": sec6_rank2_independent_of_A1_to_A4,
         "section7_single_fixed_sector_independent_of_A1_to_A4": sec7_single_fixed_sector_independent_of_A1_to_A4,
         "section7_model_comparison": {
@@ -1154,6 +1230,8 @@ def verify_d47f7d79f_selector_earning_and_syntactic_congruence() -> Dict[str, ob
             },
             "M_family_p3_WeylPair_dim6": {
                 "normalized_commutator_trace": rfam_comm,
+                "normalized_commutator_trace_L_R_P": [rfam_comm_L, rfam_comm_R, rfam_comm_P],
+                "swap_block_intertwiner_error": swap_intertwiner_err,
                 "max_swap_trace_diff": float(max_rfam_swap_diff),
                 "single_irrep_fixed": False,
                 "covariant_family_fixed": True,

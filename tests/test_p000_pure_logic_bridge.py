@@ -153,5 +153,15 @@ def test_step3_and_4_carrier_and_countercontrols() -> None:
         "S3_order_6": 6,
         "Q8_order_8": 8,
     }
+    assert d47["f2_word_syntactic_congruence_quotient_sizes"] == {
+        "F2_to_Z2_order_2": 2,
+        "F2_to_V4_order_4": 4,
+        "F2_to_Q8_order_8": 8,
+        "F2_to_H3_F3_order_27": 27,
+    }
+    assert len(d47["three_selection_tasks_separation"]) == 3
+    fam = d47["section7_model_comparison"]["M_family_p3_WeylPair_dim6"]
+    assert fam["swap_block_intertwiner_error"] < 1e-12
+    assert all(abs(x - (-0.5)) < 1e-12 for x in fam["normalized_commutator_trace_L_R_P"])
     assert d47["unique_survivor_after_P1_to_P5"] == ["M6_Quaternion_Spinor_Q8_SU2"]
     assert len(d47["models_matrix"]) == 6
