@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "status": "unreviewed_hand_successor_and_prior_additional_control_design",
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/WEAK_CURRENT_GRADING_AND_DISCRETE_CHARGED_VECTORS.md",
+      "sha256": "7ac2e6cc08a82d3c4ab34fbae52596da3b6171c48985b7c22729802e5f65db8e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/DESIGN_ADDENDUM_WEAK_CURRENT.md",
+      "sha256": "6cff45e8e0b3e1c08f1b1c386d389d839099ab860a3657afbe1dcd1d07b48d28"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_ACTION_REAL_GAUGE_FIXING_AND_ONE_LOOP_WEIGHTS.md",
+      "sha256": "18a7f1362ed866f909465139205895916ae5728da6c56896fb03e9f6c77f4cce"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c"
+    }
+  ],
+  "scientific_import_collection_execution": false,
+  "new_methods_implemented": false,
+  "physical_W_identification_or_mass_claim": false,
+  "independent_review_of_successor": false,
+  "scope": "Same-action vector block, actual E8 charge/parity and cross-block current; not a normalized overlap or chiral SM spectrum"
+}

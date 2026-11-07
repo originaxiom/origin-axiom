@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "status": "unreviewed_hand_kernel_argument_and_prior_control_design",
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CENTRALIZER_KERNEL_WITH_THRESHOLD_CONTINUUM.md",
+      "sha256": "a19e2c6c6b4faa0db3bbe16402499314f259a8db0ce590b0bcaf3ac4130970f5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/DESIGN_ADDENDUM_CENTRALIZER.md",
+      "sha256": "305433c9895f676a9801fe33965a3a95bd16fbff1f1b49364c82dc71274c8d31"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_QUATERNION_STATIONARY_BUNDLE_AND_CUSP_LAW.md",
+      "sha256": "221a7cd2dce2ff7dec0b135c348b7bb52e15bc27e5563d420756fbe31f9978a1"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    }
+  ],
+  "scientific_import_collection_execution": false,
+  "new_control_implemented": false,
+  "total_new_control_population": 9,
+  "scope": "A3 centralizer kernel only in specified complete elliptic coupled bundle; continuum retained; not whole 120 or physical SM"
+}

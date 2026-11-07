@@ -9345,3 +9345,19 @@ Coupled half-root kernel successor: candidate proof and prior control design.
 |---|---|---|---|---|
 | 2026-11-07 | AFTER hand derivation; BEFORE successor implementation/import/collection/run | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_HALF_ROOT_KERNEL_AND_CORE_LIFT_SENSITIVITY.md` | `789adf7544bf5c679305aa8b9ba7525b6375155b026c839e01c34c281be23875` | Candidate full 128 kernel and core-lift sensitivity; six controls unimplemented; independent analytical/source review and exact admission remain owed. |
 | 2026-11-07 | AFTER hand derivation; BEFORE successor implementation/import/collection/run | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/DESIGN.md` | `8ba1253846751f58c4762ccfd80f1832f88e581809476786fd063f65302aa68c` | Candidate full 128 kernel and core-lift sensitivity; six controls unimplemented; independent analytical/source review and exact admission remain owed. |
+
+
+Weak-current and charged-vector successor, before implementation.
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-11-07 | AFTER hand argument; BEFORE successor implementation/import/collection/run | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/WEAK_CURRENT_GRADING_AND_DISCRETE_CHARGED_VECTORS.md` | `7ac2e6cc08a82d3c4ab34fbae52596da3b6171c48985b7c22729802e5f65db8e` | Conditional current-grading and same-action charged-vector spectral duty; two additional controls unimplemented; independent review and exact admission owed. |
+| 2026-11-07 | AFTER hand argument; BEFORE successor implementation/import/collection/run | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/DESIGN_ADDENDUM_WEAK_CURRENT.md` | `6cff45e8e0b3e1c08f1b1c386d389d839099ab860a3657afbe1dcd1d07b48d28` | Conditional current-grading and same-action charged-vector spectral duty; two additional controls unimplemented; independent review and exact admission owed. |
+
+
+Centralizer normalizable-kernel successor, before implementation.
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-11-07 | AFTER hand argument; BEFORE successor implementation/import/collection/run | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CENTRALIZER_KERNEL_WITH_THRESHOLD_CONTINUUM.md` | `a19e2c6c6b4faa0db3bbe16402499314f259a8db0ce590b0bcaf3ac4130970f5` | Candidate A3 spin-kernel vanishing with retained scalar/form zeros and threshold continuum; ninth control unimplemented; independent review and exact admission owed. |
+| 2026-11-07 | AFTER hand argument; BEFORE successor implementation/import/collection/run | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/DESIGN_ADDENDUM_CENTRALIZER.md` | `305433c9895f676a9801fe33965a3a95bd16fbff1f1b49364c82dc71274c8d31` | Candidate A3 spin-kernel vanishing with retained scalar/form zeros and threshold continuum; ninth control unimplemented; independent review and exact admission owed. |

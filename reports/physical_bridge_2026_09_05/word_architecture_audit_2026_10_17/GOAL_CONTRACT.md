@@ -2233,3 +2233,15 @@ remains unrun: its independent source-completeness reviewer encountered
 a service usage limit, and exact main acceptance is still absent.
 The goal remains active; source/hand work continues without treating
 those pending reviews as scientific passes.
+
+
+The same-day [weak-current successor](WEAK_CURRENT_GRADING_AND_DISCRETE_CHARGED_VECTORS.md)
+uses the actual Q/Zeta grading and source Pv block identity to identify
+a discrete massive charge-one vector problem and opposite-grading
+fermion current. The [centralizer kernel note](CENTRALIZER_KERNEL_WITH_THRESHOLD_CONTINUUM.md)
+separately derives candidate absence of normalizable A3 spin zeros
+while retaining nine gaugino plus nine form modes and the spin continuum.
+Both are UNREVIEWED hand arguments. They add three prospective controls
+to the prior six, for nine unimplemented methods. No weak-current
+overlap, observed W, global physical register identification or SM3
+claim follows. Exact graph/domain, norm and field-map duties remain.
