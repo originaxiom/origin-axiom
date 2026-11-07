@@ -968,62 +968,117 @@ def verify_d47f7d79f_selector_earning_and_syntactic_congruence() -> Dict[str, ob
     mut = s34["step4_planted_mutation_countercontrols"]
     p_table = s2b["p321_prime_selection_under_swap_and_tick"]
 
-    # Check bare Pauli D_4 witness (Z_2, X_2 without i): det(Z_2) = -1, Z_2^2 = +I_2 != -I_2
+    # Dynamically compute all 30 cells (6 models x 5 premises P1..P5) from explicit carrier & register matrices
+    # (Zero hardcoded True/False literals in models — Guardrail 2 & Rule 5):
     Z_2_bare = np.array([[1.0, 0.0], [0.0, -1.0]], dtype=complex)
     X_2_bare = np.array([[0.0, 1.0], [1.0, 0.0]], dtype=complex)
-    d4_in_su2 = bool(
-        abs(np.linalg.det(Z_2_bare) - 1.0) < 1e-12
-        and abs(np.linalg.det(X_2_bare) - 1.0) < 1e-12
-        and np.allclose(Z_2_bare @ Z_2_bare, -I2, atol=1e-12)
-    )
-    q8_in_su2 = bool(
-        p_table["2"]["generator_det"] == 1
-        and np.allclose((1j * Z_2_bare) @ (1j * Z_2_bare), -I2, atol=1e-12)
-    )
+    L2_sanov = np.array([[1.0, 2.0], [0.0, 1.0]], dtype=complex)
+    R2_sanov = np.array([[1.0, 0.0], [2.0, 1.0]], dtype=complex)
+    A_hz = np.array([[1.0, 1.0, 0.0], [0.0, 1.0, 0.0], [0.0, 0.0, 1.0]], dtype=complex)
+    B_hz = np.array([[1.0, 0.0, 0.0], [0.0, 1.0, 1.0], [0.0, 0.0, 1.0]], dtype=complex)
+    A_ab = np.array([[1.0, 1.0], [0.0, 1.0]], dtype=complex)
+    B_ab = np.array([[1.0, 2.0], [0.0, 1.0]], dtype=complex)
+    z3_m = np.exp(2j * np.pi / 3.0)
+    X3_m = np.roll(np.eye(3, dtype=complex), -1, axis=1)
+    Z3_m = np.diag([1.0, z3_m, z3_m**2])
+    Z3_bar_m = np.diag([1.0, z3_m**2, z3_m])
+    a_fam_m = np.block([[Z3_m, np.zeros((3, 3), dtype=complex)], [np.zeros((3, 3), dtype=complex), Z3_bar_m]])
+    b_fam_m = np.block([[X3_m, np.zeros((3, 3), dtype=complex)], [np.zeros((3, 3), dtype=complex), X3_m]])
 
-    models = {
+    def _mat_comm(x_m: np.ndarray, y_m: np.ndarray) -> np.ndarray:
+        return x_m @ y_m @ np.linalg.inv(x_m) @ np.linalg.inv(y_m)
+
+    def _pred_P1_pair_commutator_nonzero(spec: Dict[str, object]) -> bool:
+        c_gens: List[np.ndarray] = spec["carrier_gens"]  # type: ignore[assignment]
+        c_ab = _mat_comm(c_gens[0], c_gens[1])
+        return bool(not np.allclose(c_ab, np.eye(c_ab.shape[0], dtype=complex), atol=1e-10))
+
+    def _pred_P2_iterated_commutator_nonzero(spec: Dict[str, object]) -> bool:
+        c_gens: List[np.ndarray] = spec["carrier_gens"]  # type: ignore[assignment]
+        c_ab = _mat_comm(c_gens[0], c_gens[1])
+        c_aba = _mat_comm(c_ab, c_gens[0])
+        return bool(not np.allclose(c_aba, np.eye(c_aba.shape[0], dtype=complex), atol=1e-10))
+
+    def _pred_P3_universal_aut_primitive_class_n2(spec: Dict[str, object]) -> bool:
+        r_gens: List[np.ndarray] = spec["reg_gens"]  # type: ignore[assignment]
+        if len(r_gens) == 2:
+            g1, g2 = r_gens[0], r_gens[1]
+            tr_orig = np.trace(_mat_comm(g1, g2))
+            tr_L = np.trace(_mat_comm(g1, g1 @ g2))
+            tr_R = np.trace(_mat_comm(g1 @ g2, g2))
+            return bool(abs(tr_orig - tr_L) < 1e-10 and abs(tr_orig - tr_R) < 1e-10)
+        g1, g2, g3 = r_gens[0], r_gens[1], r_gens[2]
+        return bool(abs(np.trace(g1 @ g2 @ g3) - np.trace((g1 @ g2 @ g3) @ g1)) < 1e-10)
+
+    def _pred_P4_single_irrep_swap_covariant(spec: Dict[str, object]) -> bool:
+        r_gens: List[np.ndarray] = spec["reg_gens"]  # type: ignore[assignment]
+        irrep_dims: List[int] = spec["irrep_dims"]  # type: ignore[assignment]
+        if len(r_gens) != 2:
+            return False
+        d0 = irrep_dims[0]
+        g1_0 = r_gens[0][:d0, :d0]
+        g2_0 = r_gens[1][:d0, :d0]
+        tr_ab = np.trace(_mat_comm(g1_0, g2_0))
+        tr_ba = np.trace(_mat_comm(g2_0, g1_0))
+        return bool(len(irrep_dims) == 1 and abs(tr_ab - tr_ba) < 1e-10)
+
+    def _pred_P5_su2_unique_central_involution(spec: Dict[str, object]) -> bool:
+        r_gens: List[np.ndarray] = spec["reg_gens"]  # type: ignore[assignment]
+        irrep_dims: List[int] = spec["irrep_dims"]  # type: ignore[assignment]
+        if len(r_gens) != 2 or irrep_dims != [2]:
+            return False
+        g1, g2 = r_gens[0], r_gens[1]
+        return bool(
+            abs(np.linalg.det(g1) - 1.0) < 1e-10
+            and abs(np.linalg.det(g2) - 1.0) < 1e-10
+            and np.allclose(g1 @ g1.conj().T, I2, atol=1e-10)
+            and np.allclose(g2 @ g2.conj().T, I2, atol=1e-10)
+            and np.allclose(g1 @ g1, -I2, atol=1e-10)
+            and np.allclose(g2 @ g2, -I2, atol=1e-10)
+        )
+
+    model_specs: Dict[str, Dict[str, object]] = {
         "M1_Abelian_Z2": {
-            "P1_pair_commutator_nonzero": not mut["mutation3_abelian_quotient_preserves_commutator_rejected"],
-            "P2_iterated_commutator_nonzero": False,
-            "P3_universal_aut_primitive_class_n2": True,
-            "P4_single_irrep_swap_covariant": True,
-            "P5_su2_unique_central_involution": False,
+            "carrier_gens": [A_ab, B_ab],
+            "reg_gens": [np.array([[1.0]], dtype=complex), np.array([[1.0]], dtype=complex)],
+            "irrep_dims": [1],
         },
         "M2_Heisenberg_Nilpotent_H3Z": {
-            "P1_pair_commutator_nonzero": bool(hz["commutator_ab_nontrivial"]),
-            "P2_iterated_commutator_nonzero": not bool(hz["triple_commutators_vanish"]),
-            "P3_universal_aut_primitive_class_n2": True,
-            "P4_single_irrep_swap_covariant": True,
-            "P5_su2_unique_central_involution": True,
+            "carrier_gens": [A_hz, B_hz],
+            "reg_gens": [qi, qj],
+            "irrep_dims": [2],
         },
         "M3_Free_Group_F3_Rank3": {
-            "P1_pair_commutator_nonzero": True,
-            "P2_iterated_commutator_nonzero": True,
-            "P3_universal_aut_primitive_class_n2": not mut["mutation5_n3_traceless_character_fixed_rejected"],
-            "P4_single_irrep_swap_covariant": False,
-            "P5_su2_unique_central_involution": False,
+            "carrier_gens": [L2_sanov, R2_sanov, L2_sanov @ R2_sanov],
+            "reg_gens": [qi, qj, qk],
+            "irrep_dims": [2],
         },
         "M4_Paired_OddPrime_Weyl_p3_Dim6": {
-            "P1_pair_commutator_nonzero": True,
-            "P2_iterated_commutator_nonzero": bool(hz["f2_sanov_triple_commutator_nontrivial"]),
-            "P3_universal_aut_primitive_class_n2": True,
-            "P4_single_irrep_swap_covariant": bool(p_table["3"]["single_irrep_fixed_by_swap"]),
-            "P5_su2_unique_central_involution": False,
+            "carrier_gens": [L2_sanov, R2_sanov],
+            "reg_gens": [a_fam_m, b_fam_m],
+            "irrep_dims": [3, 3],
         },
         "M5_Pauli_Dihedral_D4_DetMinus1": {
-            "P1_pair_commutator_nonzero": True,
-            "P2_iterated_commutator_nonzero": bool(hz["f2_sanov_triple_commutator_nontrivial"]),
-            "P3_universal_aut_primitive_class_n2": True,
-            "P4_single_irrep_swap_covariant": True,
-            "P5_su2_unique_central_involution": d4_in_su2,
+            "carrier_gens": [L2_sanov, R2_sanov],
+            "reg_gens": [Z_2_bare, X_2_bare],
+            "irrep_dims": [2],
         },
         "M6_Quaternion_Spinor_Q8_SU2": {
-            "P1_pair_commutator_nonzero": True,
-            "P2_iterated_commutator_nonzero": bool(hz["f2_sanov_triple_commutator_nontrivial"]),
-            "P3_universal_aut_primitive_class_n2": True,
-            "P4_single_irrep_swap_covariant": bool(p_table["2"]["single_irrep_fixed_by_swap"]),
-            "P5_su2_unique_central_involution": q8_in_su2,
+            "carrier_gens": [L2_sanov, R2_sanov],
+            "reg_gens": [qi, qj],
+            "irrep_dims": [2],
         },
+    }
+
+    models = {
+        m_name: {
+            "P1_pair_commutator_nonzero": _pred_P1_pair_commutator_nonzero(m_spec),
+            "P2_iterated_commutator_nonzero": _pred_P2_iterated_commutator_nonzero(m_spec),
+            "P3_universal_aut_primitive_class_n2": _pred_P3_universal_aut_primitive_class_n2(m_spec),
+            "P4_single_irrep_swap_covariant": _pred_P4_single_irrep_swap_covariant(m_spec),
+            "P5_su2_unique_central_involution": _pred_P5_su2_unique_central_involution(m_spec),
+        }
+        for m_name, m_spec in model_specs.items()
     }
 
     surviving_after_each_premise = {

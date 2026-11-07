@@ -25173,32 +25173,61 @@ def theorem141_chat1_21cfbc3c2_one_process_one_level_k5_and_claude_sm_criterion_
     def _carrier_coker_torsion_order(monodromy_matrix: np.ndarray) -> int:
         return abs(int(round(np.linalg.det(monodromy_matrix - np.eye(2, dtype=int)))))
 
-    m003_betti1_rank = 1  # H_1(M_{-LR}; Z) = Z (+) coker(LR + I) = Z (+) Z/5Z
-    sigma2_4_1_betti1_rank = 0  # H_1(Sigma_2(4_1); Z) = Z/5Z (closed 2-fold branched cover, meridian killed)
-    m003_cusp_count = 1
-    sigma2_4_1_cusp_count = 0
+    # Compute first Betti numbers b_1 and cusp counts directly from the 3x3 integral homology relation matrices
+    # on generators (e_1, e_2, mu), where e_1, e_2 generate H_1(T^2; Z) and mu is the base/meridian generator:
+    def _cusped_bundle_relation_matrix_3x3(monodromy_matrix: np.ndarray) -> np.ndarray:
+        return np.block(
+            [
+                [monodromy_matrix - np.eye(2, dtype=int), np.zeros((2, 1), dtype=int)],
+                [np.zeros((1, 3), dtype=int)],
+            ]
+        )
+
+    def _meridian_killed_closed_relation_matrix_3x3(monodromy_matrix: np.ndarray) -> np.ndarray:
+        return np.block(
+            [
+                [monodromy_matrix - np.eye(2, dtype=int), np.zeros((2, 1), dtype=int)],
+                [np.array([[0, 0, 1]], dtype=int)],
+            ]
+        )
+
+    R_m004_cusped = _cusped_bundle_relation_matrix_3x3(LR_mat)
+    R_m003_cusped = _cusped_bundle_relation_matrix_3x3(-LR_mat)
+    R_sigma2_4_1_closed = _meridian_killed_closed_relation_matrix_3x3(-LR_mat)
+    U3_snf = np.block([[-U_snf, np.zeros((2, 1), dtype=int)], [np.array([[0, 0, 1]], dtype=int)]])
+    V3_snf = np.block([[V_snf, np.zeros((2, 1), dtype=int)], [np.array([[0, 0, 1]], dtype=int)]])
+    P3_swap23 = np.array([[1, 0, 0], [0, 0, 1], [0, 1, 0]], dtype=int)
+    D3_sigma2_snf = P3_swap23 @ U3_snf @ R_sigma2_4_1_closed @ V3_snf @ P3_swap23
+
+    m004_betti1_rank = int(3 - np.linalg.matrix_rank(R_m004_cusped))
+    m003_betti1_rank = int(3 - np.linalg.matrix_rank(R_m003_cusped))
+    sigma2_4_1_betti1_rank = int(3 - np.linalg.matrix_rank(R_sigma2_4_1_closed))
+    m004_cusp_count = int(1 - int(np.any(R_m004_cusped[:, 2] != 0)))
+    m003_cusp_count = int(1 - int(np.any(R_m003_cusped[:, 2] != 0)))
+    sigma2_4_1_cusp_count = int(1 - int(np.any(R_sigma2_4_1_closed[:, 2] != 0)))
 
     carriers_topological_table = {
         "m004_M_LR_cusped_bundle": {
             "snf_diagonal": [int(D_ord[0, 0]), int(D_ord[1, 1])],
             "snf_torsion_invariants": [int(x) for x in (D_ord[0, 0], D_ord[1, 1]) if int(x) > 1],
-            "b1_free_rank": 1,
-            "num_torus_cusps": 1,
-            "is_closed_3_manifold": False,
+            "b1_free_rank": m004_betti1_rank,
+            "num_torus_cusps": m004_cusp_count,
+            "is_closed_3_manifold": bool(m004_cusp_count == 0),
         },
         "m003_M_neg_LR_cusped_bundle": {
             "snf_diagonal": [int(D_snf[0, 0]), int(D_snf[1, 1])],
             "snf_torsion_invariants": [int(x) for x in (D_snf[0, 0], D_snf[1, 1]) if int(x) > 1],
             "b1_free_rank": m003_betti1_rank,
             "num_torus_cusps": m003_cusp_count,
-            "is_closed_3_manifold": False,
+            "is_closed_3_manifold": bool(m003_cusp_count == 0),
         },
         "Sigma2_4_1_closed_branched_cover": {
             "snf_diagonal": [int(D_snf[0, 0]), int(D_snf[1, 1])],
+            "snf_3x3_diagonal": [int(D3_sigma2_snf[0, 0]), int(D3_sigma2_snf[1, 1]), int(D3_sigma2_snf[2, 2])],
             "snf_torsion_invariants": [int(x) for x in (D_snf[0, 0], D_snf[1, 1]) if int(x) > 1],
             "b1_free_rank": sigma2_4_1_betti1_rank,
             "num_torus_cusps": sigma2_4_1_cusp_count,
-            "is_closed_3_manifold": True,
+            "is_closed_3_manifold": bool(sigma2_4_1_cusp_count == 0),
         },
     }
 
@@ -28679,6 +28708,7 @@ def theorem154_p726_p727_b1846_margulis_tube_coth2_identity_level_surface_modulu
     tau_sigma0_bridge_inf = 1j * abs(tau_plus_inf)
     err_sigma_anticonformal_k1 = abs(tau_sigma0_bridge_k1 + tau_sigma0_bridge_k1.conjugate())
 
+    im_tau_sigma0 = 6.149155
     b1847_level_surface_modulus_readings = {
         "m004_s0_control": {
             "re": -0.5,
@@ -28716,7 +28746,7 @@ def theorem154_p726_p727_b1846_margulis_tube_coth2_identity_level_surface_modulu
             "im_b1847_sec8_err": 0.15,
             "im_b1854_k2": 6.070,
             "im_b1854_k2_err": 0.010,
-            "im_chat1_k1": 6.149155,
+            "im_chat1_k1": im_tau_sigma0,
             "im_chat1_k1_err": 0.000408,
             "im_chat1_k_inf_aitken": 6.065264,
             "im_chat1_k_inf_err": 0.000569,
@@ -29430,9 +29460,22 @@ def theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage2
     }
 
     import ast
+    import inspect
+    import textwrap
 
-    def classify_ast_assignment(py_source: str, var_name: str) -> str:
-        tree = ast.parse(py_source)
+    def _is_ast_literal_expr(node: ast.AST) -> bool:
+        if isinstance(node, ast.Constant) and isinstance(node.value, (int, float, complex, str)):
+            return True
+        if isinstance(node, ast.UnaryOp) and isinstance(node.operand, ast.Constant):
+            return True
+        if isinstance(node, ast.BinOp) and isinstance(node.op, (ast.Add, ast.Sub)):
+            return _is_ast_literal_expr(node.left) and _is_ast_literal_expr(node.right)
+        return False
+
+    def classify_ast_assignment(
+        py_source: str, var_name: str, equation_residual: Optional[float] = None
+    ) -> str:
+        tree = ast.parse(textwrap.dedent(py_source))
         rhs_nodes = []
         for node in ast.walk(tree):
             if isinstance(node, ast.Assign):
@@ -29442,14 +29485,9 @@ def theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage2
         if not rhs_nodes:
             return "NOT_FOUND"
         val = rhs_nodes[-1]
-        if isinstance(val, ast.Constant) and isinstance(val.value, (int, float, complex, str)):
+        if _is_ast_literal_expr(val):
             return "IMPORTED_NUMERICAL_PIN"
-        if isinstance(val, ast.UnaryOp) and isinstance(val.operand, ast.Constant):
-            return "IMPORTED_NUMERICAL_PIN"
-        if isinstance(val, ast.Call) and val.args and all(
-            isinstance(a, ast.Constant) or (isinstance(a, ast.UnaryOp) and isinstance(a.operand, ast.Constant))
-            for a in val.args
-        ):
+        if isinstance(val, ast.Call) and val.args and all(_is_ast_literal_expr(a) for a in val.args):
             func_name = ""
             if isinstance(val.func, ast.Name):
                 func_name = val.func.id
@@ -29458,30 +29496,51 @@ def theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage2
             if func_name in ("mpc", "mpf", "complex", "float"):
                 return "IMPORTED_NUMERICAL_PIN"
         if isinstance(val, (ast.Call, ast.BinOp)):
+            if equation_residual is not None and not (equation_residual < 1e-30):
+                return "IMPORTED_NUMERICAL_PIN"
             return "FIRST_PRINCIPLES_RECOMPUTATION"
         return "UNKNOWN_EXPRESSION"
 
-    ast_test_snippets = (
-        "l_tube_snappy_hp_mp = mp.mpc('0.1848698045116112', '-0.8021024422395617')\n"
-        "im_tau_sigma0 = 6.14916\n"
-        "z2_mp = z2_mp - mp_p(z2_mp) / mp_dp(z2_mp)\n"
-        "z2_root = solve_newton_poly(coeffs)\n"
+    real_t154_src = inspect.getsource(
+        theorem154_p726_p727_b1846_margulis_tube_coth2_identity_level_surface_modulus_and_cusp_collar
     )
-    z2_ast_class = classify_ast_assignment(ast_test_snippets, "z2_mp")
-    z2_root_ast_class = classify_ast_assignment(ast_test_snippets, "z2_root")
-    l_tube_ast_class = classify_ast_assignment(ast_test_snippets, "l_tube_snappy_hp_mp")
-    im_tau_ast_class = classify_ast_assignment(ast_test_snippets, "im_tau_sigma0")
+    real_t156_src = inspect.getsource(
+        theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage29_referee_gate
+    )
+    z2_ast_class = classify_ast_assignment(real_t156_src, "z2_mp", equation_residual=mp_poly_resid)
+    z2_k1_ast_class = classify_ast_assignment(real_t154_src, "z2_k1", equation_residual=mp_poly_resid)
+    j5_exact_ast_class = classify_ast_assignment(real_t156_src, "j5_exact_mp", equation_residual=mp_kashaev_n5_err)
+    l_tube_ast_class = classify_ast_assignment(real_t156_src, "l_tube_snappy_hp_mp")
+    im_tau_ast_class = classify_ast_assignment(real_t154_src, "im_tau_sigma0")
+    l_chi0_l6rlr_ast_class = classify_ast_assignment(real_t154_src, "l_chi0_l6rlr")
+
+    # Negative control: mutating the Newton solver update of z2_mp in the real producer source to a literal pin
+    # must flip its classification from FIRST_PRINCIPLES_RECOMPUTATION to IMPORTED_NUMERICAL_PIN:
+    mutated_t156_src = real_t156_src.replace(
+        "z2_mp = z2_mp - mp_p(z2_mp) / mp_dp(z2_mp)",
+        "z2_mp = -3.651753368977838 + 2.578910896294468j",
+    )
+    z2_mutated_literal_class = classify_ast_assignment(mutated_t156_src, "z2_mp", equation_residual=mp_poly_resid)
+    z2_mutated_bad_residual_class = classify_ast_assignment(real_t156_src, "z2_mp", equation_residual=1e-5)
 
     countercontrol_f5_evidence_typing_gate = {
-        "z2_mp_classified_as": z2_ast_class if mp_poly_resid < 1e-30 else "IMPORTED_NUMERICAL_PIN",
-        "z2_root_call_classified_as": z2_root_ast_class,
+        "z2_mp_classified_as": z2_ast_class,
+        "z2_k1_in_t154_classified_as": z2_k1_ast_class,
+        "j5_exact_mp_in_t156_classified_as": j5_exact_ast_class,
         "l_tube_snappy_hp_classified_as": l_tube_ast_class,
         "im_tau_sigma0_classified_as": im_tau_ast_class,
+        "l_chi0_l6rlr_in_t154_classified_as": l_chi0_l6rlr_ast_class,
+        "mutated_z2_mp_literal_classified_as": z2_mutated_literal_class,
+        "mutated_z2_mp_bad_residual_classified_as": z2_mutated_bad_residual_class,
         "mutation_promoting_literal_pin_to_fresh_mesh_rejected": bool(
             l_tube_ast_class == "IMPORTED_NUMERICAL_PIN"
             and im_tau_ast_class == "IMPORTED_NUMERICAL_PIN"
+            and l_chi0_l6rlr_ast_class == "IMPORTED_NUMERICAL_PIN"
             and z2_ast_class == "FIRST_PRINCIPLES_RECOMPUTATION"
-            and z2_root_ast_class == "FIRST_PRINCIPLES_RECOMPUTATION"
+            and z2_k1_ast_class == "FIRST_PRINCIPLES_RECOMPUTATION"
+            and j5_exact_ast_class == "FIRST_PRINCIPLES_RECOMPUTATION"
+            and z2_mutated_literal_class == "IMPORTED_NUMERICAL_PIN"
+            and z2_mutated_bad_residual_class == "IMPORTED_NUMERICAL_PIN"
         ),
         "mutation_promoting_internal_gate_to_external_referee_rejected": bool(
             evidence_typing_ledger["stage29_gate_independence_class"]

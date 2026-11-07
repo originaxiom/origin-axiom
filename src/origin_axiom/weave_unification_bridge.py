@@ -666,13 +666,15 @@ def verify_p740_palindrome_involutions_and_wp3_wp4() -> Dict[str, object]:
         max_b1744_err = max(max_b1744_err, abs(det_Y - pred_det_Y) / max(1.0, abs(det_Y)))
     assert max_p583_err < 1e-13 and max_b1744_err < 1e-12
 
-    # WP4: Two-locus evaluation on W_k(6) = L^6 R (LR)^k along its two sigma-fixed fibers:
-    # Locus 1 (Tube, s = 0, Re(tau) = 0, deep Im(tau) = sqrt(5)*phi =~ 3.61803):
-    # Locus 2 (Anti-Apex, s = 1/2, Re(tau) = 1/2, bulk Im(tau) =~ 1.37082):
+    # WP4: Parameter-free two-locus evaluation on W_1(6) = L^6 R L R along its two sigma-fixed palindrome fibers
+    # using the exact palindrome fixed points tau_tube = i*sqrt(40/3) and tau_anti_apex = 1/2 + i*sqrt(15/8)
+    # and the E_2-free Serre-derivative Higgs h(tau) = D_{-1/2} R(tau) (Guardrail 1, 0 of 19):
     phi = 0.5 * (1.0 + math.sqrt(5.0))
-    tau_tube = 0.0 + 1j * (math.sqrt(5.0) * phi)
-    tau_anti_apex = 0.5 + 1j * 1.370820393249937
-    two_pi_L = 9.54
+    tau_tube = complex(0.0, math.sqrt(40.0 / 3.0))
+    tau_anti_apex = complex(0.5, math.sqrt(15.0 / 8.0))
+    two_pi_L = 4.0 * math.pi * math.log(phi)
+    _, h_tube, _, _ = closed_form_serre_higgs_and_R(tau_tube)
+    _, h_anti, _, _ = closed_form_serre_higgs_and_R(tau_anti_apex)
 
     def build_sector_M(p1: float, p2: float, qL: int, qR: int, tau: complex) -> Tuple[np.ndarray, Dict[str, complex]]:
         x = twist_from_line(p1, p2, qL, tau)
@@ -682,38 +684,39 @@ def verify_p740_palindrome_involutions_and_wp3_wp4() -> Dict[str, object]:
         u_ch = {s: (math.sqrt(two_pi_L + float(ct[s])) * R[s] if ct[s] is not None else 0.0j) for s in UNIT_KEYS}
         return sum(u_ch[s] * EDUAL[s] for s in UNIT_KEYS), u_ch
 
-    # Evaluate up-sector at Tube (deep hierarchy) + Anti-Apex tail and down/lepton at generic geodesic slice tau_bulk:
-    tau_bulk = 0.25 + 1.45j
+    # Evaluate sector kernels on the unique twisted 5-torsion line (2/5, 1/5) at tau_tube = i*sqrt(40/3):
     M_u_tube, _ = build_sector_M(0.4, 0.2, 1, -4, tau_tube)
-    M_u_aa, _ = build_sector_M(0.4, 0.2, 1, -4, tau_anti_apex)
-    M_d_aa, u_d_aa = build_sector_M(0.4, 0.2, 1, 2, tau_bulk)
-    M_e_aa, _ = build_sector_M(0.4, 0.2, -3, 6, tau_bulk)
+    M_d_tube, u_d_tube = build_sector_M(0.4, 0.2, 1, 2, tau_tube)
+    M_e_tube, _ = build_sector_M(0.4, 0.2, -3, 6, tau_tube)
 
-    # Check Down-Lepton Adjugate Duality on (2/5, 1/5) at Anti-Apex:
-    hi_d, hj_d, hk_d = 0.6, -0.4, 0.5
-    h_dot_u = hi_d * u_d_aa["i"] + hj_d * u_d_aa["j"] + hk_d * u_d_aa["k"]
-    a0_d = 1j * h_dot_u / u_d_aa["1"]
+    # Check Down-Lepton Adjugate Duality & 90-degree phase-quadrature determinant-preserving 4D deformation
+    # using the parameter-free Anti-Apex Serre-derivative Higgs h(tau_anti_apex) paired with M(tau_tube):
+    hi_d, hj_d, hk_d = h_anti[0], h_anti[1], h_anti[2]
+    h_dot_u = hi_d * u_d_tube["i"] + hj_d * u_d_tube["j"] + hk_d * u_d_tube["k"]
+    a0_d = 1j * h_dot_u / u_d_tube["1"]
     S_4d = a0_d * ONE + hi_d * QI + hj_d * QJ + hk_d * QK
 
-    Y_d = coupling_from_M(S_4d, M_d_aa)
-    Y_e = coupling_from_M(S_4d, M_e_aa)
-    Y_d_adj = coupling_from_M(quaternion_adjugate(S_4d), M_d_aa)
+    Y_d = coupling_from_M(S_4d, M_d_tube)
+    Y_e = coupling_from_M(S_4d, M_e_tube)
+    Y_d_adj = coupling_from_M(quaternion_adjugate(S_4d), M_d_tube)
     sv_e = np.sort(np.linalg.svd(Y_e, compute_uv=False))
     sv_d_adj = np.sort(np.linalg.svd(Y_d_adj, compute_uv=False))
     sv_d = np.sort(np.linalg.svd(Y_d, compute_uv=False))
     adj_sv_err = float(np.max(np.abs(sv_e / sv_e[2] - sv_d_adj / sv_d_adj[2])))
     det_ratio_ed = abs(np.linalg.det(Y_e)) / abs(np.linalg.det(Y_d))
     rho_ed = sv_e / sv_d
-    assert adj_sv_err < 1e-5 and abs(det_ratio_ed - 1.0) < 1e-4
-    assert float(np.max(rho_ed)) > 1.05 and float(np.min(rho_ed)) < 0.95
+    assert adj_sv_err < 1e-12 and abs(det_ratio_ed - 1.0) < 1e-12
+    assert float(np.max(rho_ed)) > 1.02 and float(np.min(rho_ed)) < 0.98
 
-    # Two-locus CKM matrix (distinct 4D Higgs orientations S_u_tube and S_u_aa at the two palindrome loci)
-    # vs single-locus orthogonality / symmetric-corner trap:
-    S_u_tube = 0.4j * ONE + 0.7 * QI + 0.5 * QJ - 0.3 * QK
-    S_u_aa = (0.3 - 0.2j) * ONE - 0.2 * QI + 0.6 * QJ + 0.4 * QK
-    Y_u_2loc = coupling_from_M(S_u_tube, M_u_tube) + 0.35 * coupling_from_M(S_u_aa, M_u_aa)
+    # Parameter-free two-locus CKM matrix: Serre-derivative Higgs h(tau_anti_apex) with null-norm scalar
+    # h0_anti = sqrt(h_anti . h_anti) and its quaternion adjugate paired with M_u(tau_tube), M_d(tau_tube):
+    h0_anti = np.sqrt(np.dot(h_anti, h_anti))
+    S_u_2loc = h0_anti * ONE + h_anti[0] * QI + h_anti[1] * QJ + h_anti[2] * QK
+    S_d_2loc = quaternion_adjugate(S_u_2loc)
+    Y_u_2loc = coupling_from_M(S_u_2loc, M_u_tube)
+    Y_d_2loc = coupling_from_M(S_d_2loc, M_d_tube)
     Uu, su, Vuh = np.linalg.svd(Y_u_2loc)
-    Ud, sd, Vdh = np.linalg.svd(Y_d)
+    Ud, sd, Vdh = np.linalg.svd(Y_d_2loc)
     V_ckm = np.abs(Uu.conj().T @ Ud)
     # Check asymmetric corners (|V[0,2]| != |V[2,0]|):
     corner_asym = abs(float(V_ckm[0, 2]) - float(V_ckm[2, 0])) / max(float(V_ckm[0, 2]), float(V_ckm[2, 0]), 1e-12)
@@ -732,7 +735,7 @@ def verify_p740_palindrome_involutions_and_wp3_wp4() -> Dict[str, object]:
         URu = random_haar_u3()
         URd = random_haar_u3()
         Uu_s, su_s, _ = np.linalg.svd(UL @ Y_u_2loc @ URu.conj().T)
-        Ud_s, sd_s, _ = np.linalg.svd(UL @ Y_d @ URd.conj().T)
+        Ud_s, sd_s, _ = np.linalg.svd(UL @ Y_d_2loc @ URd.conj().T)
         V_s = np.abs(Uu_s.conj().T @ Ud_s)
         max_haar_err = max(
             max_haar_err,

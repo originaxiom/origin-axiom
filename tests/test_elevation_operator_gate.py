@@ -3118,6 +3118,7 @@ def test_codex_f1_to_f6_repairs_and_discriminating_countercontrols() -> None:
     assert cc_f1["cusped_m003_and_closed_sigma2_4_1_are_distinct_3manifolds"] is True
     assert cc_f1["carriers"]["m003_M_neg_LR_cusped_bundle"]["b1_free_rank"] == 1
     assert cc_f1["carriers"]["Sigma2_4_1_closed_branched_cover"]["b1_free_rank"] == 0
+    assert cc_f1["carriers"]["Sigma2_4_1_closed_branched_cover"]["snf_3x3_diagonal"] == [1, 1, 5]
 
     # F2: Witness verification, explicit marking join B = [[1,0],[-2,1]], natural eigenline residue invariance, and SIXY scope
     t145 = theorem145_simultaneous_twin_coexistence_sixy_mod5_inter_twin_residue_invariance_and_punctured_fibre_orbit(t141)
@@ -3164,8 +3165,12 @@ def test_codex_f1_to_f6_repairs_and_discriminating_countercontrols() -> None:
     )
     cc_f5 = t156["countercontrol_f5_evidence_typing_gate"]
     assert cc_f5["z2_mp_classified_as"] == "FIRST_PRINCIPLES_RECOMPUTATION"
+    assert cc_f5["z2_k1_in_t154_classified_as"] == "FIRST_PRINCIPLES_RECOMPUTATION"
+    assert cc_f5["j5_exact_mp_in_t156_classified_as"] == "FIRST_PRINCIPLES_RECOMPUTATION"
     assert cc_f5["l_tube_snappy_hp_classified_as"] == "IMPORTED_NUMERICAL_PIN"
     assert cc_f5["im_tau_sigma0_classified_as"] == "IMPORTED_NUMERICAL_PIN"
+    assert cc_f5["mutated_z2_mp_literal_classified_as"] == "IMPORTED_NUMERICAL_PIN"
+    assert cc_f5["mutated_z2_mp_bad_residual_classified_as"] == "IMPORTED_NUMERICAL_PIN"
     assert cc_f5["mutation_promoting_literal_pin_to_fresh_mesh_rejected"] is True
     assert cc_f5["mutation_promoting_internal_gate_to_external_referee_rejected"] is True
     assert cc_f5["provenance_classifier_scope"] == "STDLIB_AST_ASSIGNMENT_INSPECTOR_AND_RESIDUAL_DISCRIMINATOR"
