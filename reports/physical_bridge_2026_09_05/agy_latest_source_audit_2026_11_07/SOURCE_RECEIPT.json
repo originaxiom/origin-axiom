@@ -1,0 +1,181 @@
+{
+  "schema": 1,
+  "status": "non_authoring_source_hand_review_not_scientific_execution_or_main_acceptance",
+  "date": "2026-11-07",
+  "refs": {
+    "agy": "1bd310f38fdcf4a9f70d468c8bf914ed27d83f08",
+    "main": "217e37c4f37bd80998f3c3e10cad358023f58114",
+    "sm": "47228ae85cb813ea1bcad3daba8b9446f64ff8d4",
+    "chat1": "195e8f1bdd7207970645c4fbd5847d238efb4d9c",
+    "explore": "af81fb6ef45f3544a5113a118599c16f185225a2"
+  },
+  "sources": [
+    {
+      "seat": "agy",
+      "commit": "1bd310f38fdcf4a9f70d468c8bf914ed27d83f08",
+      "path": "src/origin_axiom/toe_closure.py",
+      "sha256": "71cd944db8e1263a01d2084fc0d60abcc7c728fff9404238e6ea298070f7f6b3",
+      "bytes": 1696270
+    },
+    {
+      "seat": "agy",
+      "commit": "1bd310f38fdcf4a9f70d468c8bf914ed27d83f08",
+      "path": "tests/test_elevation_operator_gate.py",
+      "sha256": "0449d8e671c891ab2212b896d63bbe88e3d99f13a05c70ed5fe2f461c5a5d053",
+      "bytes": 196626
+    },
+    {
+      "seat": "agy",
+      "commit": "1bd310f38fdcf4a9f70d468c8bf914ed27d83f08",
+      "path": "src/origin_axiom/sm_19_gate.py",
+      "sha256": "b04723370e5b1960d9a5ad8421a409c0a12df96600feeeac868c6276e96ce0ff",
+      "bytes": 45431
+    },
+    {
+      "seat": "sm",
+      "commit": "47228ae85cb813ea1bcad3daba8b9446f64ff8d4",
+      "path": "SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md",
+      "sha256": "9896bfd17f66781e0a3c6cb29b47f5faec57183925d87bd8def25087d25e6120",
+      "bytes": 861972
+    },
+    {
+      "seat": "main",
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "docs/THE_TAU_READOUT_RULE.md",
+      "sha256": "461ead931f039e8924c6922e803434529445b8a2cf9296d531ecf99487773fcd",
+      "bytes": 3972
+    },
+    {
+      "seat": "main",
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "docs/THE_COUNT_2026-11-06.md",
+      "sha256": "c90aae644e89ddeec19f7d7800bee839815427db059a40b1af9ab767da309f2f",
+      "bytes": 8181
+    },
+    {
+      "seat": "main",
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "frontier/B1851_the_chiral_premise_relocated_verified/FINDINGS.md",
+      "sha256": "915249061fa12eb05dde9f6c65af5eb81ea971400c31e9f0950ac0e31b67b91f",
+      "bytes": 5204
+    },
+    {
+      "seat": "main",
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "frontier/B1852_the_tubes_real_part_by_topology/FINDINGS.md",
+      "sha256": "809f4360f5156ac5927a5250314d871aa8080213476d85915ecf5c8e17e66bdf",
+      "bytes": 5726
+    },
+    {
+      "seat": "main",
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "frontier/B1853_the_departures_depth_premises_verified/FINDINGS.md",
+      "sha256": "342bea01c0b3deeb4e87e662c5064d847430da9932b196d45863d629de16d30b",
+      "bytes": 5744
+    },
+    {
+      "seat": "main",
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "frontier/B1855_the_charge_law_settled/FINDINGS.md",
+      "sha256": "1fd19fed687d6c5a6bce14b5d699f3a48e548c74df6dc72f61332b580f241e31",
+      "bytes": 4498
+    },
+    {
+      "seat": "main",
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "frontier/B1856_charge_or_symmetry_at_five_verified/FINDINGS.md",
+      "sha256": "418742322938a6a34dbba507cf3a6228c69d535fc82f8d029d3e4aae5360af6f",
+      "bytes": 4103
+    },
+    {
+      "seat": "main",
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "frontier/B1857_the_read_out_by_a_state_checked/FINDINGS.md",
+      "sha256": "fec2359970bb368e26e083f422ff661e335af54f96613b0eec1aef01a3f5330c",
+      "bytes": 4763
+    },
+    {
+      "seat": "chat1",
+      "commit": "195e8f1bdd7207970645c4fbd5847d238efb4d9c",
+      "path": "relays/CHAT1_TO_CC_2026-11-06_PI2_IS_A_RATIONALE_NOT_A_DERIVATION.md",
+      "sha256": "c1bb570aef7c62b41ca553eebb712df523809d7999c1d43d32d0fcb93c523f71",
+      "bytes": 19442
+    },
+    {
+      "seat": "explore",
+      "commit": "af81fb6ef45f3544a5113a118599c16f185225a2",
+      "path": "relays/explore_2026-11-07_charge_law/PROOF.md",
+      "sha256": "982af88e5315fde256451771c23e9d72f5fa54d5420d3b58ad91e8fbe9dafac5",
+      "bytes": 5886
+    }
+  ],
+  "directly_scoped_AGY_functions": [
+    {
+      "function": "theorem141_chat1_21cfbc3c2_one_process_one_level_k5_and_claude_sm_criterion_k",
+      "first_line": 25091,
+      "last_line": 25275
+    },
+    {
+      "function": "theorem145_simultaneous_twin_coexistence_sixy_mod5_inter_twin_residue_invariance_and_punctured_fibre_orbit",
+      "first_line": 25985,
+      "last_line": 26244
+    },
+    {
+      "function": "theorem147_chat1_c6b813450_reflection_stabilizer_uniqueness_and_program_reduction_ledger",
+      "first_line": 26442,
+      "last_line": 26680
+    },
+    {
+      "function": "theorem149_p724_q1_action_weighted_saddle_sum_action_a_vs_b_and_pi2_per_run_line_conservation",
+      "first_line": 26812,
+      "last_line": 27080
+    },
+    {
+      "function": "theorem150_p725_q1_amphichiral_mirror_twin_sector_coupling_and_weil_portal_invariance",
+      "first_line": 27083,
+      "last_line": 27284
+    },
+    {
+      "function": "theorem153_p722_p725_b1012_vs_b598_amphichiral_sector_split_and_instanton_transmutation",
+      "first_line": 27847,
+      "last_line": 28148
+    },
+    {
+      "function": "theorem154_p726_p727_b1846_margulis_tube_coth2_identity_level_surface_modulus_and_cusp_collar",
+      "first_line": 28151,
+      "last_line": 28570
+    },
+    {
+      "function": "theorem155_s286_b1826_p716_two_flank_margulis_tube_transition_ckm_unblocking_and_cp_invariance",
+      "first_line": 28573,
+      "last_line": 28782
+    },
+    {
+      "function": "theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage29_referee_gate",
+      "first_line": 28785,
+      "last_line": 29084
+    }
+  ],
+  "full_theorem_population_certified": false,
+  "source_inspection": "Git bytes, standard-library AST and SHA256; elementary hand derivations in REPORT.md",
+  "scientific_modules_imported": false,
+  "scientific_tests_collected": false,
+  "scientific_tests_executed": false,
+  "held_out_predictions_or_new_empirical_comparisons": false,
+  "proof_searches_or_meshes_rerun": false,
+  "primary_sources_consulted": [
+    {
+      "url": "https://arxiv.org/pdf/math/0008027",
+      "scope": "printed pages 3-4, figure-eight finite product sum; not a claim to have read the whole paper",
+      "access_date": "2026-11-07"
+    },
+    {
+      "url": "https://snappy.computop.org/triangulation.html#snappy.Triangulation.homology",
+      "scope": "official homology API definition and m003 Z/5+Z control; m004 result derived by abelianization in report",
+      "access_date": "2026-11-07"
+    }
+  ],
+  "inherited_staging_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "proposed_enforcement_not_yet_implemented": true,
+  "independent_transport_packet_review": "pending; reviewer service usage limit; no execution admission"
+}
