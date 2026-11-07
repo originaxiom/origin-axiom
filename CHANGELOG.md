@@ -1,5 +1,31 @@
 # Changelog
 
+## S306m (continued) THE TUBE'S τ AT k = 2, ON MAIN (B1854; P-739 in part) (2026-11-07)
+
+- **What ran.** B1847's own full-group mesher, driven with one Hejhal setup per member, and the covariant root.
+- **k = 2:** Im τ(Σ₀) = 6.070 ± 0.010, against the web seat's 6.08186(42).
+  - The d → 0 extrapolation is calibrated on k = 1: 6.1491 against the seat's 6.14916.
+  - The core levels (0.534940, 0.755893) and |dθ| match the seat exactly.
+- **The control.** One level surface in two cycle bases agrees to 8 × 10⁻⁵ under the covariant root, and differs by 0.08 under B1847's formula. So the covariant root is basis-invariant.
+  - Under it, the near-tube mirror pairs are symmetric about Re 0. B1847's "unresolved Re" was the basis effect.
+- **k = 3 was not reached:** every run stopped at a mesher assertion after a 94-minute setup.
+- **So the seat's tube values are confirmed to ±0.01 through k = 2.** Its k → ∞ limit 6.06526(57) stays its own at the 4th digit, 6.06 ± 0.01 at main's resolution.
+- **Disclosed:** a first driver skipped the energy step, and those runs were repeated.
+- 0 of 19.
+
+## S306m (continued) CHARGE OR SYMMETRY AT FIVE (B1856; P-738 answered, conditionally) (2026-11-07)
+
+- **The explore seat's test** (row 1616), re-derived with main's own construction of the level-5 Weil representation:
+  - it is projectively consistent on all 120 elements;
+  - only ±I act as scalars on both parity sectors (the charge is invisibility to every state);
+  - the commutant of ρ(LR) is ±⟨LR⟩ (the symmetry);
+  - ρ(LR) is a ℤ/5 clock on every sector, with traces 1 − φ and φ;
+  - the line-invisible departure is (LR)¹ mod 5, visible on superpositions, while the run of 6 is E ≡ I.
+- **So the symmetry reading needs a superselection rule that would stop the level-5 clock.** The charge reading, and with it the run of 6, is the invisible one.
+  - This is conditional on a physical level-5 Weil space (P-721) and on standard quantum mechanics.
+- P-738 is DONE, with a dated note on P-717.
+- 0 of 19.
+
 ## S306m (continued) THE CHARGE LAW SETTLED (B1855; P-737 DONE): REFUTED FROM lcm(S) = 12, PROVED BELOW BY THE EXPLORE SEAT (2026-11-07)
 
 - **The explore seat settled P-737 both ways** (row 1615; pin 91119a38).

@@ -1,0 +1,26 @@
+{
+ "id": "B1854",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1847",
+  "B1852"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the web seat's tube instrument (harvest row 1614; relay 991d7e2ac) -- its k = 1..5 values and sealed k -> infinity estimate, compared, not built on"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the conformal modulus of the harmonic level surface through the systole of L^6R(LR)^k, by B1847's full-group Ford-domain mesher with the covariant root",
+  "object": "the excursion family's members k = 1 (control), 2 (computed), 3 (not reached)",
+  "reach": "single",
+  "hypotheses": "data-free; one Hejhal setup per member (B1847's parameters); the d -> 0 extrapolation (I0 - a d^2 - b d^4) calibrated on k = 1 only; main's near-core scatter about 0.01"
+ },
+ "claim_one_line": "THE TUBE'S TAU AT k = 2, ON MAIN (P-739, in part): B1847's own mesher, driven with one setup per member, gives Im tau(Sigma_0) = 6.070 +- 0.010 on L^6R(LR)^2 (the extrapolation calibrated on k = 1 to the web seat's 6.14916), consistent with the seat's 6.08186(42) at main's resolution; the core levels (0.534940, 0.755893) and |d theta| match the seat's table exactly; the control shows the covariant root basis-invariant (two cycle bases of one level surface agree to 8e-5 under it, 0.08 apart under B1847's formula) and the near-tube mirror pairs symmetric about Re 0 under it; k = 3 not reached (the mesher's assertion after a 5613 s setup). The seat's tube values confirmed to +-0.01 through k = 2; its k -> infinity limit 6.06526(57) rests on its k = 3..5, main's resolution placing it in 6.06 +- 0.01. Nothing compared with data. 0 of 19.",
+ "weave_or_thread": "thread (one member's own fibre at its tube)"
+}

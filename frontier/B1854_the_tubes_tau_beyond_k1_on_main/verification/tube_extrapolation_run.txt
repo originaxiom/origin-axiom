@@ -1,0 +1,15 @@
+k = 1 (B1847's runs)
+   d = -0.0010: covariant +0.380341+6.170006i   (old formula +0.322290+6.149421i; det E - 1 -1.98e-02)
+   d = +0.0005: covariant -0.182228+6.153053i   (old formula -0.199265+6.144579i; det E - 1 -6.17e-03)
+   d = +0.0010: covariant -0.378681+6.147254i   (old formula -0.416184+6.126320i; det E - 1 -1.39e-02)
+   d = +0.0020: covariant +0.261282+6.088121i   (old formula +0.246769+6.078437i; det E - 1 -5.72e-03)
+   d = +0.0030: covariant -0.053095+5.951293i   (old formula -0.054764+5.950021i; det E - 1 -7.05e-04)
+   limit d -> 0: two-point 6.1512, three-point 6.1491; the web seat's sealed value 6.14916
+k = 2 (this arc's runs)
+   d = -0.0020: covariant -0.118457+5.854628i   (old formula -0.124973+5.848554i; det E - 1 -3.04e-03)
+   d = -0.0010: covariant +0.389992+6.048099i   (old formula +0.365350+6.029870i; det E - 1 -1.01e-02)
+   d = +0.0005: covariant +0.290890+6.065342i   (old formula +0.290798+6.065301i; det E - 1 -3.34e-05)
+   d = +0.0010: covariant -0.403721+6.042515i   (old formula -0.427983+6.033824i; det E - 1 -8.50e-03)
+   d = +0.0020: covariant +0.105938+5.862384i   (old formula +0.106236+5.862446i; det E - 1 +1.04e-04)
+   d = +0.0050: covariant +0.188307+5.120625i   (old formula +0.178618+5.121918i; det E - 1 -3.81e-03)
+   limit d -> 0: two-point 6.0720, three-point 6.0696; the web seat's sealed value 6.08186

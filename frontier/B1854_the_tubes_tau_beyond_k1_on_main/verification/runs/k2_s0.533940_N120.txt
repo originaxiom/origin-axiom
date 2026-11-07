@@ -1,0 +1,6 @@
+b++LLLLLLRLRLR s=0.53394: full-group spheres 800 (radius > 0.27; translates 2217); M = [[15, -28], [-23, 43]]; T1 (0, (0, 0)), T2 (1, (33, -50)); 3s
+   grid 120x90x90: phi in 200s; range -1.247..+0.158
+   marching: 63068 vertices, 124888 triangles, sheets [-1, 0]; 214s
+   tau -0.340729+0.014708i  reduced +0.365355+6.029989i  detE-1 -1.01e-02  {'vertices': 31438, 'triangles': 61790, 'floor': 846, 'proj': 1.1102230246251565e-15, 'pair_dist': np.float64(0.00552911760185807), 'cons': 423, 'rows': 846, 'stray': 0, 'ties': 0, 'detE': 0.9898889988290875, 'cres': 1.6298074001497298e-13, 'seconds': 263.6005129814148}
+   covariant root: reduced +0.390024+6.048239i
+   [run 264s]

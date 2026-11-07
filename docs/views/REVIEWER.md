@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1556** |
-| words of findings prose | **1,319,175** |
+| research arcs with findings | **1558** |
+| words of findings prose | **1,320,610** |
 | test lock files referenced | **933** |
-| arcs carrying an authored verdict | **1556** (100.0 %) |
+| arcs carrying an authored verdict | **1558** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1065 |
+| PROVED | 1067 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1855`** (812 words, 0 locks)  
-THE CHARGE LAW SETTLED (P-737): main's own result -- the law FAILS for every lcm(S) >= 12: six explicit gapped counterexamples of the explore seat satisfy the charge premise exactly with less excess than the single run lcm(S) + 1 (checked in exact integers and 80 digits on main's code, e.g. {4,5}: 3.9224 < 4.5940; {2,3,4,5}: 3.8672 < 6.6524), so B1853's (21) and (61) rows were range artifacts and the depth does not rise without bound with the conserved levels; the seat's PROOF that the single run lcm(S) + 1 is the unique least-excess departure over all defects for lcm(S) <= 10 -- at S = {5} the run of 6, depth sqrt5*phi -- is cited: its Lemma A verified on main to 7e-18 (3000 R1 defects), S = {5} corroborated by main's brute force (no gapped two- or three-run defect below the run of 6 among 3516), its exhaustive shortest-path search not re-run (P-741). Nothing compared with data. 0 of 19.  
-`B1855_the_charge_law_settled/FINDINGS.md`
+**PROVED — `B1856`** (649 words, 0 locks)  
+CHARGE OR SYMMETRY AT FIVE (P-738, answered conditionally; the explore seat's test re-derived on main): in B355's level-5 Weil representation (projectively consistent on all 120 elements of SL(2,F5)), only +-I act as a scalar on both parity sectors (the charge premise = invisibility to every state), the projective commutant of rho(LR) is +-<LR> (the symmetry premise), rho(LR) is a Z/5 clock on every sector (eigenvalue angles 0, .4, .6 | +-.1 turns; traces 1 - phi and phi), the run of 6 has E = I (invisible to every state) while the line-invisible (2,1,1,1,2) has E = (LR)^1 (visible on superpositions of quasi-energy states) -- so the symmetry reading needs a superselection rule that would stop the level-5 clock, and under standard quantum mechanics and a physical level-5 Weil space the charge reading, and with it the run of 6, is the invisible one. 0 of 19.  
+`B1856_charge_or_symmetry_at_five_verified/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  

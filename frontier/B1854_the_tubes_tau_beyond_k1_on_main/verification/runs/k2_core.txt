@@ -1,0 +1,1 @@
+b++LLLLLLRLRLR: setup 59s; core length 0.18519963; s0 = 0.534940 (spread 6.1e-13); |d theta| on the core 0.026549..0.026549

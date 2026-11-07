@@ -1,0 +1,27 @@
+{
+ "id": "B1856",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B355",
+  "B1853",
+  "B1855"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the explore seat's charge-or-symmetry test (harvest row 1616; relays/explore_2026-11-07_charge_or_symmetry/ @ d776ac06) and its reading"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "B355's level-5 Weil representation of SL(2, F5) on C^5 (the quantized golden cat map), its parity sectors and the departures' E mod 5",
+  "object": "the golden thread's tick LR at level 5; the departures (6) and (2,1,1,1,2)",
+  "reach": "single",
+  "hypotheses": "data-free; the representation theory re-derived on main's own code; the reading conditional on (1) the level-5 Weil space being physical (P-721) and (2) standard quantum mechanics"
+ },
+ "claim_one_line": "CHARGE OR SYMMETRY AT FIVE (P-738, answered conditionally; the explore seat's test re-derived on main): in B355's level-5 Weil representation (projectively consistent on all 120 elements of SL(2,F5)), only +-I act as a scalar on both parity sectors (the charge premise = invisibility to every state), the projective commutant of rho(LR) is +-<LR> (the symmetry premise), rho(LR) is a Z/5 clock on every sector (eigenvalue angles 0, .4, .6 | +-.1 turns; traces 1 - phi and phi), the run of 6 has E = I (invisible to every state) while the line-invisible (2,1,1,1,2) has E = (LR)^1 (visible on superpositions of quasi-energy states) -- so the symmetry reading needs a superselection rule that would stop the level-5 clock, and under standard quantum mechanics and a physical level-5 Weil space the charge reading, and with it the run of 6, is the invisible one. 0 of 19.",
+ "weave_or_thread": "thread (the golden thread's tick at level 5)"
+}
