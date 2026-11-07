@@ -1,0 +1,12 @@
+/usr/local/lib/python3.13/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+Traceback (most recent call last):
+  File "tau_k_limit_a1.py", line 322, in <module>
+    run(sys.argv[1])
+    ~~~^^^^^^^^^^^^^
+  File "tau_k_limit_a1.py", line 236, in run
+    Ms = T.Mesh(g, HTR, RREF, verbose=False)
+  File "tauinst.py", line 595, in __init__
+    assert min(abs(k2[0] - key[0]) % 1, 1 - abs(k2[0] - key[0]) % 1) < 1e-5, ("cusp point not found", xi)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('cusp point not found', np.complex128(0.1052832752569712-0.7524026535985772j))

@@ -1,0 +1,12 @@
+tauinst_a2.py sha256 12573d11f4f65f23a78d63978e052c811317b98f57bddb5afc025eda76ab6d9e
+tau_k_limit_a2.py sha256 cbf2871e79db9e60de680f0d324561ea2975f860db40e34616e6cbeb120a8de1
+run_chain_a2.sh sha256 c041036814b6d2a136ff7ecf650307aef448d58ea8d916cc3347f71b7a65ed9d
+recorded 2026-11-07T04:44:09Z, after the sealed run stopped k = 3 at the mesh ("cusp point not found"; tau_k3_attempt1_*.txt) and
+amendment 1's run stopped k = 4 there (tau_k4_attempt2_*.txt), both before any surface, and before any tau of k = 3 or
+4 was computed. Amendment 2 changes only how the mesh gets the horoball radius at each developed vertex: carried across
+the fundamental polyhedron's face pairings from the vertices the word-search lookup finds, with every vertex reached
+twice (or found and reached) agreeing to 1e-9. Tested outside the repository on the meshes alone (no harmonic time, no
+surface): on k = 1, 2 and 5 the amended mesh is bitwise identical to tauinst.py's; on k = 3, 4 it completes with the
+radii agreeing to 4e-13 and the faces matching to 1.3e-11 (a topology check at the unregistered level s = 0.37 was
+started on k = 3 and stopped before its surface). k = 5's result comes from amendment 1's run and is not
+rerun. To be run as run_chain_a2.sh k=3 k=4.
