@@ -132,7 +132,7 @@ succeeded after 2 and 3 triangulation randomizations (P5).
 
 ## Dated note (2026-11-07, after main's B1857): a seen-first miss, and the scope
 
-**The miss.** This test's seen-first sweep missed `docs/THE_TAU_READOUT_RULE.md` (main, S306m, B1854). The document was
+**The miss.** This test's seen-first sweep missed main's THE_TAU_READOUT_RULE document (in main's docs folder, landed after this branch's base; S306m, B1854). The document was
 in the swept snapshot at bb5bcd616, but none of the sweep's patterns matched it. The pre-registration's "Seen first"
 section should have cited it.
 
