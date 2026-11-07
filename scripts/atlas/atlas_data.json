@@ -15735,6 +15735,20 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1854": {
+   "slug": "the tubes tau beyond k1 on main",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B1855": {
    "slug": "the charge law settled",
    "motifs": [
