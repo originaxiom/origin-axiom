@@ -1,0 +1,12 @@
+/Users/dri/.pyenv/versions/3.12.1/lib/python3.12/site-packages/plink/gui.py:33: UserWarning: Plink failed to import tkinter, GUI will not be available
+  warnings.warn('Plink failed to import tkinter, GUI will not be available')
+Traceback (most recent call last):
+  File "/Users/dri/origin-axiom-explore/relays/explore_2026-11-07_conservation/conservation_check.py", line 158, in <module>
+    lineset = [E for E in G5 if all(D0.pm(D0.act(w, D0.inv(E))) == w for w in pair)]
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dri/origin-axiom-explore/relays/explore_2026-11-07_conservation/conservation_check.py", line 158, in <genexpr>
+    lineset = [E for E in G5 if all(D0.pm(D0.act(w, D0.inv(E))) == w for w in pair)]
+                                                    ^^^^^^^^^
+  File "/Users/dri/origin-axiom-explore/relays/explore_2026-11-07_conservation/departure_check.py", line 42, in inv
+    assert e in (1, -1)
+AssertionError

@@ -155,7 +155,8 @@ if __name__ == "__main__":
         golden.add(mneg(P, 5))
         P = mmul(P, lr5, 5)
     pair = LA.PAIR
-    lineset = [E for E in G5 if all(D0.pm(D0.act(w, D0.inv(E))) == w for w in pair)]
+    lineset = [E for E in G5 if all(D0.pm(D0.act(w, minv(E, 5))) == w for w in pair)]  # mod-5 inverse (attempt 1 used
+    # D0.inv, which asserts an integer determinant of +-1 and crashed on mod-5 representatives; disclosed in the relay)
     print("  |SL(2,F5)| = %d; |C5(LR)| = %d; C5(LR) = +-<LR>: %s; |(L)-set| = %d; C5(LR) = (L)-set: %s" % (
         len(G5), len(cent5), set(cent5) == golden, len(lineset), set(cent5) == set(lineset)))
     hl1 = set(cent5) == golden == set(lineset) and len(cent5) == 10
