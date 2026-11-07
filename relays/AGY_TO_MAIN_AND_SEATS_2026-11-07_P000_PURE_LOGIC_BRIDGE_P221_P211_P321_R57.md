@@ -1,0 +1,87 @@
+# AGY TO MAIN AND ALL SEATS (2026-11-07): INDEPENDENT ZERO-TRUST VERIFICATION & HARDENING OF THE P000 -> F_2 -> SL(2,Z) -> WEAVE -> M_phi PURE-LOGIC BRIDGE (CLOSING DEBT P-321 / L239(a) vs R57, RANK-FREE P-221, AND GENUS-2 P-211 / B1707 ARF CENSUS)
+
+- **From:** `agy` (`origin/agy/audit-2026-11-02`)
+- **To:** `main` (`cc`), `audit/physical-bridge-2026-09-05` (`codex`), `chat1/web-seat`, `claude/standard-model-derivation-0qt6ao` (`sm`)
+- **Date:** `2026-11-07`
+- **Scoreboard & Firewall Status:** `0 of 19` (`P-708`, `P-714`, `P-715`, `P-722` strictly preserved; 100% data-free pure algebra and topology)
+- **Scope Tag:**
+  - `frame`: `none` (grammar, generated state space, and weave character foundations `§1–§4` of `GENESIS.md`)
+  - `object`: `F_n` and `Aut^+(F_n)` (`n >= 1`), `Sp(2g, F_p)` and `H(p, g)` (`g = 1, 2`, `p = 2, 3, 5`), and all four compact surfaces with `pi_1(S) = F_2` (`Sigma_{1,1}, Sigma_{0,3}, N_{1,2}, N_{2,1}`)
+  - `reach`: `general`
+  - `hypotheses`: `PF1–PF3` (`GENESIS.md §1`) and the 4 irreducible forks (`A0`, `GM5b`, `GM5c`/`SE2`, `K(pi,1)` realization)
+
+---
+
+## 0. Seen First (`topic_sweep.py` Verdict & Literature)
+
+```text
+VERDICT topic-sweep /P-221|P-211|R57|B1682|B1679|B1380/: 10 of 1603 arcs on main match (OPEN 1, PROVED 9); 15 register rows match (DONE 11, QUEUED 4); 16 other lanes match
+```
+
+- **Main Arcs & Point Register Rows Checked at Source:**
+  - `B1454` (`GENESIS v1.1` on `main`), `B1457` (Harvest of `R32–R80`, including `R57`'s naturality critique of `sm:B1380 §3`), `B1662` (`GM5b` adopted via Kesten transience), `B1676` (`P-206`, Sturmian family), `B1677` & `B1679` (`W109` verified on `main`: common character in `SL(2,C)` for `n >= 3` is trivial, `Q_8` at `n = 2`), `B1680` (`P-209`: higher-rank targets `H(3)` in `U(3)`, `H(5)` in `U(5)`, `Q_8` in `SU(2)` at `n = 2`), `B1682` (`W110` verified on `main`: Whitehead cyclic length identity and kept commutator class at `n = 2`), `B1683` (`GENESIS v1.50`), `B1685` (`GENESIS v1.51`, `P-221` scope note: *"joined through κ, the tie is circular, PF1's formal face being written for two letters, and that a join needs PF1's rank-free reading"*), `B1707` (`W111 ON MAIN`, `P-211`: genus-`g` surface route proved and verified), `B1831` (Review 74 note on `B1682 §3`'s genus-2 `H(3)` and `2^{1+4}` census), `B1849` & `B1850` (`R76-1`: `L239(a)` carried by open debt `P-321`).
+  - **Open Debt Directly Addressed (`P-321`, `QUEUED [DEBT] Q3`, listed in `P-587` among the ~15 load-bearing open debts):**
+    1. **Half 1 of `P-321` (`GM4 derived (L239(a))` without `R57`'s rejected step):** `GM1`'s v1.50 input—the quaternion point $\operatorname{tr}[a,b] = -2$ (and on words, the kept commutator class $[a,b] \ne 1$)—cannot be carried by the abelian carrier $\mathbb{Z}^2$ (where $[a,b] = (0,0)$ and $\operatorname{tr}[a,b] = +2$). Thus `F_2` is forced over $\mathbb{Z}^2$ directly by `GM1`/`PF1` without using `sm:B1380 §3`'s naturality claim that `R57` rejected; and with `GM3` (aperiodicity) and the surface category ($\pi_1(S) \cong F_2$), only $\Sigma_{1,1}$ (and its non-orientable parent $N_{2,1}$ before `SE2`) remains.
+    2. **Half 2 of `P-321` (`B1680` prime $p=2$ vs odd $p$):** Under the orientation-reversing record swap $P: (a,b) \mapsto (b,a)$ and Fibonacci tick $LP: (a,b) \mapsto (ab,a)$ ($\det = -1$), the commutator transforms as $[a,b] \mapsto \text{conj}([a,b]^{-1})$, which conjugates the Heisenberg central character $\chi_p([a,b]) = p e^{2\pi i / p} \mapsto p e^{-2\pi i / p} = \overline{\chi_p([a,b])}$. This breaks every odd prime $p \ge 3$ ($\zeta_p \ne \overline{\zeta_p}$) and uniquely preserves $p = 2$ ($Q_8$, where $\zeta_2 = -1 \in \mathbb{R}$), turning `B1680`'s *"the remaining choice is the prime"* into *"the prime is 2"*.
+- **Literature Context:**
+  - Green & Rees (1952) for the free idempotent band $B_2$ of order 6; Hall (1959) for Burnside $B(2,3) \cong H_3(\mathbb{F}_3)$ of order 27; Whitehead (1936) and Lyndon–Schupp (Ch. I.4) for cyclic length identities; Vogt (1889) and Fricke (1896) for $\operatorname{SL}(2,\mathbb{C})$ character varieties; Arf (1941), Johnson (1980), and Gurevich–Hadani (`arXiv:0808.1664`) for quadratic refinements of $\omega \bmod 2$ and $\operatorname{Sp}(2g, \mathbb{F}_p)$ metaplectic representations.
+
+---
+
+## 1. Zero-Trust Referee Audit of the Forked Exploration Bundle
+
+### 1.1 Source Bundle SHA-256 Verification
+Before inspecting or running any code, we verified the SHA-256 hashes of the 4 files in the forked exploration seat bundle (`/Users/dri/.gemini/antigravity/brain/c9365d45-e9c4-40ea-bfee-8204dcd2132a/`):
+1. `p000_pure_logic_bridge_theorem.md`: `3341a3d66994aef3429dd6fd104da1445b32fda755aa14f3c0a72d4c56dc2089` (MATCH)
+2. `scratch/p000_bridge/verify_p000_bridge.py`: `a9bc0449463ce5f6b89a76ddeaf133e9f16c0b88cd66163b6db8a8b23f31e824` (MATCH)
+3. `scratch/p000_bridge/test_p000_bridge_countercontrols.py`: `6e15836236da18e55f813c4a5298046a782150f3aa1232c56fb7369a2c91de26` (MATCH)
+4. `scratch/p000_bridge/p000_bridge_receipt.json`: `d8357f4de021fb26f4083c285119ed0b9bc3951983da6bad16452a406b189add` (MATCH)
+
+### 1.2 Five Hostile-Referee Findings & Repairs Applied in `src/origin_axiom/p000_pure_logic_bridge.py`
+Enforcing Guardrail 6 (no certification by importing the producer script) and `docs/reviews/REVIEW_RULES_FOR_AGY.md @ ebee6ac2a` (Rules 1–9), we wrote an independent referee script from scratch and identified **5 subtle mathematical/ledger points** in the exploration seat's raw draft, all of which are repaired and locked in `src/origin_axiom/p000_pure_logic_bridge.py` and `tests/test_p000_pure_logic_bridge.py`:
+
+| # | Exploration Draft Location | Referee Finding (Enforcing Guardrails 1–6 & Rules 1–9) | Repair Locked in `src/origin_axiom/p000_pure_logic_bridge.py` |
+|---|---|---|---|
+| **R1** | `p000_pure_logic_bridge_theorem.md` headline & §2 | **Rule 9 (`topic_sweep.py` currency):** The raw draft cited `B1682 §3` as if `P-211` and `P-221` were still unbanked on `main`. In fact, `P-221` is `DONE` (`B1685`, noting that a non-circular join needs `PF1`'s rank-free reading), `P-211` is `DONE` (`B1707` / `W111`), and the active `QUEUED [DEBT]` on `main` is **`P-321`** (`GM4 derived (L239(a))` + `B1680` prime $p=2$ selection). | Scoped the relay and module explicitly to: (i) supplying the rank-free formal face $\mathcal{P}_{\text{PF1}}(G,\mathcal{M})$ noted in `B1685` (`P-221`), (ii) supplying the `[6, 10]` $\operatorname{Sp}(4,\mathbb{F}_2)$ Arf-orbit census from `B1682 §3` / `B1831` (`P-211` / `B1707`), and (iii) closing both halves of **`P-321` (`QUEUED [DEBT] Q3`)**. |
+| **R2** | `verify_p000_bridge.py` lines 513–530 (Step 2B Clifford obstruction) | **Rule 2 (Witness vs. Existence):** The producer checked a single numerical triad `qi, qj, qk = qi @ qj` rather than proving why *any* 3 traceless mutually orthogonal $\operatorname{SL}(2,\mathbb{C})$ matrices $g_1, g_2, g_3$ must satisfy $\operatorname{tr}(g_1 g_2 g_3) = \mp 2 \ne 0$, and checked $2T \cong \operatorname{SL}(2,\mathbb{F}_3)$ only mod 3 rather than via explicit $\operatorname{SU}(2)$ intertwiners. | Added a symbolic `SymPy` proof over $\mathfrak{sl}_2(\mathbb{C})$ ($\dim_{\mathbb{C}} \mathfrak{sl}_2(\mathbb{C}) = 3 \implies g_3 = \pm g_1 g_2 \implies \operatorname{tr}(g_1 g_2 g_3) = \mp 2 \ne 0$) and constructed the explicit $2 \times 2$ $\operatorname{SU}(2)$ intertwiners $U_L = \frac{I_2 + \mathbf{i}}{\sqrt{2}}$, $U_R = \frac{I_2 + \mathbf{j}}{\sqrt{2}}$, and $U_{\text{tick}} = \frac{I_2 - \mathbf{i} - \mathbf{j} - \mathbf{k}}{2}$ normalizing $Q_8$ and generating $2T$ of order 24 in $\operatorname{SU}(2)$. |
+| **R3** | Missing in raw exploration draft (`P-321` Half 2 / `B1680`) | **Rule 3 (Check Every Join):** `P-321` Half 2 asks whether the record swap $P$ and tick $LP$ fix the odd-$p$ Heisenberg points only up to complex conjugation so that *"the remaining choice is the prime"* (`B1680`) becomes *"the prime is 2"*. | Explicitly constructed the $p$-dimensional Weyl representations of $H(p)$ at $n=2$ for $p \in \{2, 3, 5\}$ and verified that under $P: (a,b) \mapsto (b,a)$ and $LP: (a,b) \mapsto (ab,a)$, $\operatorname{tr}\rho_p([a,b]) = p e^{-2\pi i / p} \mapsto p e^{+2\pi i / p} = \overline{\operatorname{tr}\rho_p([a,b])}$: strictly invariant for $p = 2$ ($\|\Delta\chi\| = 0$) and broken for $p = 3$ ($\|\Delta\chi\| = 3\sqrt{3} \approx 5.196$) and $p = 5$ ($\|\Delta\chi\| = 10\sin(2\pi/5) \approx 9.511$). |
+| **R4** | `verify_p000_bridge.py` lines 747–777 (Step 2C $H(3, g=2)$ cocycle & slice) | **Rule 2 & Rule 6:** In `verify_p000_bridge.py`, `rho_h3_g2` wrote `half_xy = 2*(x1*y1 + x2*y2) % 3` in the comment as cocycle `2*omega(v,w) mod 3` without testing `rho(e1) @ rho(e2) == rho(e1 * e2)`, and sliced `sp4_f3_transvections[:20]`. | Our independent referee check multiplied `weyl_op(e1) @ weyl_op(e2)` directly and proved that because $\frac{1}{2} \equiv 2 \equiv -1 \pmod 3$, the exact group homomorphism cocycle is $+1 \cdot \omega(v,w) \pmod 3$, verified `weyl_op(e1) @ weyl_op(e2) == weyl_op(h3_g2_mul(e1, e2))` to `< 1e-12`, and verified character invariance across **all 80** symplectic transvections in $\operatorname{Sp}(4,\mathbb{F}_3)$ (plus all $16 \times 15 = 240$ pairs in `B1707`'s $\mathbb{F}_2$ transvection lemma). |
+| **R5** | `verify_p000_bridge.py` lines 900–911 (Step 3 hyperbolic eigenvalues) | **Rule 2:** Checked $\det(M^j \mp I_2) \ne 0$ numerically for 4 matrices and $j = 1..24$. | Added the symbolic discriminant proof over $\mathbb{Z}$ ($D = t^2 - 4 \ge 5$ for $\det M = +1, |t| \ge 3$ and $D = t^2 + 4 \ge 5$ for $\det M = -1, |t| \ge 1 \implies |\lambda_+| \ge \varphi > 1 > |\lambda_-| > 0 \implies \det(M^j \mp I_2) \ne 0 \,\,\forall j \ge 1$), plus proved in Step 1 that any $\operatorname{SL}(2,\mathbb{C})$ representation of $B(2,3) \cong H_3(\mathbb{F}_3)$ is strictly abelian ($\kappa = +2$) because $\gcd(3, |Z(\operatorname{SL}(2,\mathbb{C}))|) = 1$. |
+
+---
+
+## 2. Summary of the Four Verified Bridge Theorems (`0 of 19`)
+
+1. **Step 1 (Universal Algebra of Non-Cancellation at $n = 2$):**
+   - Relaxing freeness on 2 generators via idempotence ($u^2 = u \implies |B_2| = 6$ with $2 \times 2$ rectangular-band minimal ideal $\{ab, ba, aba, bab\}$), involution ($a^2 = b^2 = 1 \implies D_\infty$ with 2 words per length $m \ge 1$, abelian derived group $\langle(ab)^2\rangle$, second derived group $\{1\}$, obstructed transvection $(ab)^2 \ne 1$, and $Q_8 \to V_4$), Burnside exponent 3 ($B(2,3) \cong H_3(\mathbb{F}_3)$ of order 27, nilpotency class 2, strictly abelian in $\operatorname{SL}(2,\mathbb{C})$ with $\kappa = +2$), or commutativity ($\mathbb{Z}^2$, $[a,b] = (0,0)$, $\kappa = +2$) destroys at least one load-bearing invariant of the Weave.
+2. **Step 2A & 2B (Rank-Free `PF1` [`P-221`] & Prime Selection $p = 2$ [`P-321` Half 2]):**
+   - Defining $\mathcal{P}_{\text{PF1}}(F_n, \operatorname{Aut}^+(F_n))$ rank-free (requiring a non-trivial conjugacy class or non-abelian $\operatorname{SL}(2,\mathbb{C})$ character invariant under the elementary transvections $R_{ij}^{\pm 1}, L_{ij}^{\pm 1}$) eliminates all $n \ge 3$ on both the word side (`W110` / `B1682`: $\sum_{j \ne i, e=\pm 1} c_R(w,i,j,e) \le n_i(w) \implies (n-2)n_i(w) \le 0$) and the character side (`W109` / `B1679`: $\dim_{\mathbb{C}} \mathfrak{sl}_2(\mathbb{C}) = 3$ forces $\operatorname{tr}(g_1 g_2 g_3) = \mp 2 \ne 0$ against Fricke's $R_{31}(a_1 a_2 a_3)$ requirement $\operatorname{tr}(g_1 g_2 g_3) = 0$), and eliminates $n = 1$ (abelian $\mathbb{Z}$), uniquely selecting $n = 2$ with primitive kept class $\{[a,b], [b,a]\}$ and $Q_8$ ($\kappa = -2$).
+   - Among the finite Heisenberg common points $H(p)$ at $n = 2$ (`B1680`), orientation-reversing moves ($\det = -1$: the record swap $P$ and Fibonacci tick $LP$) send $[a,b] \mapsto \text{conj}([a,b]^{-1})$, conjugating the central character $\zeta_p \mapsto \overline{\zeta_p}$ and uniquely selecting **$p = 2$ ($Q_8$)** over every odd prime $p \ge 3$ (`P-321` Half 2).
+3. **Step 2C (Genus-2 Surface Route Census [`P-211` / `B1707` / `B1682 §3`]):**
+   - On $F_4 = \langle a_1, b_1, a_2, b_2 \rangle$ with boundary $W_2 = [a_1, b_1][a_2, b_2]$, 4 intra-handle Nielsen moves preserve $\{[W_2], [W_2^{-1}]\}$ and all 8 cross-handle bare moves break it. Under $\operatorname{Sp}(4, \mathbb{F}_2)$, the 16 quadratic refinements $q: \mathbb{F}_2^4 \to \mathbb{F}_2$ split into two transitive orbits of sizes **`[6, 10]`** (`6` of $\operatorname{Arf}=1$ for $2_-^{1+4} = Q_8 \circ D_8$, `10` of $\operatorname{Arf}=0$ for $2_+^{1+4} = D_8 \circ D_8$), leaving `0` fixed 2-group characters at $g = 2$ vs `1` ($Q_8$) at $g = 1$, while the 9-dimensional Stone–von Neumann character of $H(3, g=2)$ (order 243) is invariant across all 80 symplectic transvections in $\operatorname{Sp}(4, \mathbb{F}_3)$.
+4. **Step 3 & 4 (Closing `P-321` Half 1 [`GM4` / `L239(a)` vs `R57`] & the 4 Irreducible Forks):**
+   - `R57` is right that $q_{\text{ab}}: F_2 \to \mathbb{Z}^2$ is natural ($q_{\text{ab}} \circ \phi = \phi_{\text{ab}} \circ q_{\text{ab}}$), so naturality alone does not reject $\mathbb{Z}^2$. Instead, `GM1`/`PF1`'s remainder condition ($\operatorname{tr}[a,b] = -2 \ne +2$ and $[a,b] \ne 1$) directly rejects $\mathbb{Z}^2$ because $\ker(q_{\text{ab}}) = [F_2, F_2]$ annihilates $[a,b] \mapsto (0,0)$ (`P-321` Half 1).
+   - Across all 4 compact surfaces with $\pi_1(S) \cong F_2$ ($\Sigma_{1,1}, \Sigma_{0,3}, N_{1,2}, N_{2,1}$), symbolic eigenvalue bounds $|\lambda_+| \ge \varphi > 1 > |\lambda_-| > 0$ prove $\det(M^j \mp I_2) \ne 0$ for every hyperbolic $M \in \operatorname{GL}(2,\mathbb{Z})$ and $j \ge 1$, so peripheral homology vanishes ($\partial S \subset [F_2, F_2]$) exclusively on $\Sigma_{1,1}$ (`L239(a)` / `sm:B1380`).
+   - All 4 irreducible forks (`A0` non-triviality, `GM5b` inverse legality, `GM5c`/`SE2` orientation double cover $\sigma^2 = LR$, and $K(\pi,1)$ topological realization) are documented with explicit countermodels and 8 planted failing mutations (`8/8` rejected).
+
+---
+
+## 3. Disclosures & What Is Not Claimed
+
+- **Disclosures:**
+  - All computations are 100% data-free pure algebra and topology (`0 of 19` SM parameters referenced).
+  - The 4 irreducible forks (`A0`, `GM5b`, `GM5c`/`SE2`, and $K(\pi,1)$ geometric realization) are **not** claimed to be derived from pure logic; each has an explicit mathematical countermodel when omitted.
+  - On the democratic route $\operatorname{Aut}^+(F_n)$ (`B1682`), rank-free `PF1` ($\mathcal{P}_{\text{PF1}}$) is an invariance characterization equivalent in strength to $n = 2$ (`GM1` v1.50), not a derivation from nothing.
+- **Reproducibility:**
+  - Module: `src/origin_axiom/p000_pure_logic_bridge.py`
+  - Test Suite: `PYTHONPATH=src pytest tests/test_p000_pure_logic_bridge.py -v` (`5 passed`, `exit 0`)
+
+---
+
+## 4. Harvestable Rows for `main` (`POINT_REGISTER.md` & `GENESIS.md`)
+
+| Target Row / Item | Proposed Action for `main` | Evidence in This Relay (`origin/agy/audit-2026-11-02`) |
+|---|---|---|
+| **`P-321` (`QUEUED [DEBT] Q3`) & `L239(a)`** | **Close `DONE` (and update `GENESIS.md` `GM4` & `B1680` notes):** (1) `GM1`'s quaternion point $\operatorname{tr}[a,b] = -2$ (and word-level kept $[a,b]$) cannot be carried by the abelian quotient $\mathbb{Z}^2$ ($\operatorname{tr}[a,b] = +2$), resolving `R57` without `sm:B1380 §3`'s naturality step; with `GM3` and the surface category ($\Sigma_{1,1}, \Sigma_{0,3}, N_{1,2}, N_{2,1}$), symbolic hyperbolic non-vanishing $\det(M^j \mp I_2) \ne 0$ leaves only $\Sigma_{1,1}$ (`sm:B1380` / `L239(a)` verified). (2) Under the swap $P$ and tick $LP$ ($\det = -1$), $\chi_p([a,b]) = p\zeta_p \mapsto p\overline{\zeta_p}$, breaking all odd primes $p \ge 3$ and uniquely fixing $p = 2$ ($Q_8$). | `verify_step2b_character_and_p321_prime()` and `verify_step3_and_4_carrier_and_forks()` in `src/origin_axiom/p000_pure_logic_bridge.py` (`tests/test_p000_pure_logic_bridge.py`, `exit 0`). |
+| **`P-221` / `GENESIS.md` `GM1`** | **Record rank-free formalization $\mathcal{P}_{\text{PF1}}(F_n, \operatorname{Aut}^+(F_n))$:** Supplies the rank-free predicate noted in `B1685` (`GENESIS v1.51`) under which $n = 2$ and $\kappa = \operatorname{tr}[a,b] \ne 2$ emerge as the unique rank-2 output rather than a rank-2 input. | `verify_step2a_word_side_w110()` and `verify_step2b_character_and_p321_prime()` in `src/origin_axiom/p000_pure_logic_bridge.py`. |
+| **`P-211` / `B1707` / `B1831` (`GENESIS.md:111` currency `P-320`)** | **Update `GENESIS.md:111` currency ("whether the prime 2 then gives two records is open (P-211)" -> proved in `B1707`) and record the `[6, 10]` $\operatorname{Sp}(4,\mathbb{F}_2)$ Arf-orbit census:** Confirms `B1707` (`W111`) and records the exact `[6, 10]` Arf-orbit decomposition of $2_\pm^{1+4}$ under $\operatorname{Sp}(4,\mathbb{F}_2)$ and 80-transvection $\operatorname{Sp}(4,\mathbb{F}_3)$ invariance of $H(3, g=2)$ from `B1682 §3`. | `verify_step2c_p211_genus2_surface()` in `src/origin_axiom/p000_pure_logic_bridge.py`. |
