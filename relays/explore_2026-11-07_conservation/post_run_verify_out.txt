@@ -1,0 +1,11 @@
+(a) apexes: highest_cf (the run's) against highest_matrix (second instrument) and the closed form
+  (2,)             highest_cf Im 1.61803398874989; highest_matrix 1.61803398874989; closed form 1.61803398874989
+  (2, 1, 1, 1, 2)  highest_cf Im 1.6254368974193; highest_matrix 1.6254368974193; closed form -
+  (6,)             highest_cf Im 3.61803398874989; highest_matrix 3.61803398874989; closed form 3.61803398874989
+  (21,)            highest_cf Im 11.1180339887499; highest_matrix 11.1180339887499; closed form 11.1180339887499
+  (61,)            highest_cf Im 31.1180339887499; highest_matrix 31.1180339887499; closed form 31.1180339887499
+(b) excess volume of the long single runs by Bloch-Wigner (k = 10)
+  (21,): dV 1.82788500371 (all tetrahedra positively oriented)
+  (41,): dV 1.850962604583 (all tetrahedra positively oriented)
+  (61,): dV 1.855764374684 (all tetrahedra positively oriented)
+post_run_verify exit 0
