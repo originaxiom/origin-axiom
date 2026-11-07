@@ -1,0 +1,77 @@
+THE LEVEL PREMISE AS A CONSERVATION LAW -- data-free check (the explore seat, 2026-11-07)
+
+1. HL1 -- the symmetry reading at level 5
+  |SL(2,F5)| = 120; |C5(LR)| = 10; C5(LR) = +-<LR>: True; |(L)-set| = 10; C5(LR) = (L)-set: True
+  HL1: True
+
+2. HL2 -- the charge reading with locality, N = 2..5
+  N = 2: |SL(2,Z/2)| = 6; ord(LR) = 3; conserving every golden background's class: [((1, 0), (0, 1))]; = +-I: True
+  N = 3: |SL(2,Z/3)| = 24; ord(LR) = 4; conserving every golden background's class: [((1, 0), (0, 1)), ((2, 0), (0, 2))]; = +-I: True
+  N = 4: |SL(2,Z/4)| = 48; ord(LR) = 3; conserving every golden background's class: [((1, 0), (0, 1)), ((3, 0), (0, 3))]; = +-I: True
+  N = 5: |SL(2,Z/5)| = 120; ord(LR) = 10; conserving every golden background's class: [((1, 0), (0, 1)), ((4, 0), (0, 4))]; = +-I: True
+  HL2: True
+
+3. the premises (R1 = the web seat's range; R2 = extended)
+  defects in R1 u R2: 680040
+
+  P0  none: 42768 invisible defects
+    (2,)                   dS 0.7392800988  dV 0.7050239551
+    (3,)                   dS 1.2778330379  dV 1.1024308950
+    (2, 1, 2)              dS 1.4505002295  dV 1.3483600615
+    (2, 1, 1, 1, 2)        dS 1.4744907509  dV 1.3972182951
+    (2, 1, 1, 1, 1, 1, 2)  dS 1.4779669890  dV 1.4073694818
+    least by length: (2,) (unique: True; next gap 5.386e-01); least by volume among these five: (2,); same: True
+    selected departure's highest apex: Im 1.618033989  Re 0.0
+
+  P1  symmetry at 5 (line): 61280 invisible defects
+    (2, 1, 1, 1, 2)        dS 1.4744907509  dV 1.3972182951
+    (2, 1, 2, 1, 2)        dS 2.1597231147  dV 1.9857615009
+    (2, 1, 1, 1, 1, 1, 2, 2) dS 2.2890015958  dV 2.2515055227
+    (2, 2, 1, 1, 1, 1, 1, 2) dS 2.2890015958  dV 2.2515055227
+    (2, 2, 2)              dS 2.3487180112  dV 2.3592482846
+    least by length: (2, 1, 1, 1, 2) (unique: True; next gap 6.852e-01); least by volume among these five: (2, 1, 1, 1, 2); same: True
+    selected departure's highest apex: Im 1.625436897  Re 0.00740291
+
+  P1+ symmetry at 2,3,4,5: 1452 invisible defects
+    (3, 1, 1, 2, 2, 1, 1, 3) dS 4.1326977363  dV 3.8220179332
+    (3, 2, 1, 1, 1, 1, 2, 3) dS 4.2519900493  dV 4.0420241586
+    (6, 1, 1, 1, 1, 6)     dS 4.7051850413  dV 3.1703938651
+    (2, 2, 2, 1, 1, 2, 2, 2) dS 4.7051850413  dV 4.7379561388
+    (4, 2, 1, 1, 2, 4)     dS 5.1486859546  dV 4.5939080992
+    least by length: (3, 1, 1, 2, 2, 1, 1, 3) (unique: True; next gap 1.193e-01); least by volume among these five: (6, 1, 1, 1, 1, 6); same: False
+    selected departure's highest apex: Im 2.102261855  Re 0.484228
+
+  P2  charge at 5 (rung): 10216 invisible defects
+    (6,)                   dS 2.3487180112  dV 1.5714462325
+    (2, 1, 1, 1, 1, 5)     dS 2.7937624799  dV 2.1955011599
+    (5, 1, 1, 1, 1, 2)     dS 2.7937624799  dV 2.1955011599
+    (3, 1, 1, 1, 1, 4)     dS 2.9839307811  dV 2.4547962521
+    (4, 1, 1, 1, 1, 3)     dS 2.9839307811  dV 2.4547962521
+    least by length: (6,) (unique: True; next gap 4.450e-01); least by volume among these five: (6,); same: True
+    selected departure's highest apex: Im 3.618033989  Re 0.0
+
+  P3a charge at 4,5: 377 invisible defects
+    (21,)                  dS 4.5939933959  dV 1.8278850037
+    (2, 1, 2, 4, 4)        dS 5.2215954334  dV 4.7481926725
+    (4, 4, 2, 1, 2)        dS 5.2215954334  dV 4.7481926725
+    (2, 1, 3, 2, 2, 3, 1, 2) dS 5.6878075672  dV 5.3329747003
+    (41,)                  dS 5.8771111824  dV 1.8509626046
+    least by length: (21,) (unique: True; next gap 6.276e-01); least by volume among these five: (21,); same: True
+    selected departure's highest apex: Im 11.11803399  Re 0.5
+
+  P3b charge at 2,3,4,5: 31 invisible defects
+    (61,)                  dS 6.6524314930  dV 1.8557643747
+    (2, 1, 6, 3, 4, 2)     dS 7.2753357665  dV 6.3064856446
+    (2, 4, 3, 6, 1, 2)     dS 7.2753357665  dV 6.3064856446
+    (2, 3, 3, 6, 5)        dS 8.4777022678  dV 7.4499790341
+    (5, 6, 3, 3, 2)        dS 8.4777022678  dV 7.4499790341
+    least by length: (61,) (unique: True; next gap 6.229e-01); least by volume among these five: (61,); same: True
+    selected departure's highest apex: Im 31.11803399  Re 0.5
+
+4. HL3 / HL4
+  depths along P0 -> P1 -> P2 -> P3a -> P3b: 1.618034, 1.625437, 3.618034, 11.118034, 31.118034
+  HL3 (strictly rising, P2 selects (6)): True
+  P1+ (symmetry at every rung) selects (3, 1, 1, 2, 2, 1, 1, 3), apex Im 2.102262
+
+runtime 20.7 s
+conservation_check exit 0
