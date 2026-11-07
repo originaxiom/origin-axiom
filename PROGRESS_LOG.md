@@ -18735,3 +18735,11 @@ cleared up a wobble in the real part that an earlier study had left unresolved. 
 for main's instrument as written. So the long-history value stays the seat's to its last digit, and is confirmed to the
 second decimal. 0 of 19.
 
+## 2026-11-07 — S306m (continued): a state instead of an average
+
+The exploring seat asked whether the read-out could be made by the history's lightest state rather than by an average.
+In a simple model of the history, that state sits exactly at the deepest point. It is a single point only when the
+deepest point occurs once. Main checked the parts that can be computed, and they hold. The model, though, runs on a clock
+the record counts as chosen, so it lands on the older moduli reading of the deepest point, not on the metric's own. The
+same question on the metric's own clock is now registered. 0 of 19.
+

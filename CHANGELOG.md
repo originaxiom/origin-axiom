@@ -1,5 +1,17 @@
 # Changelog
 
+## S306m (continued) THE READ-OUT BY A STATE (B1857; the explore seat, row 1617) (2026-11-07)
+
+- **The principle.** The read-out is made by the history's lightest massive state, not by a weight. Checked on main's code:
+  - the cosh law of the separated wells holds to 4.7 × 10⁻³⁸ (in Sol time);
+  - the state sits at the apex, by Hellmann–Feynman;
+  - its uniqueness is the apex's multiplicity: (6) and (2,1,2,1,2) unique, (2,1,1,1,2) and (2,1⁸,2) mirror-degenerate.
+- **By length,** the unique-state line-invisible selection is (2,1,2,1,2), not (6): HS6 false as pre-registered.
+- **By volume (post hoc),** the two cheaper line-invisible departures are exactly the degenerate ones, so (6) is selected under both level-5 readings.
+- **Scoped.** The state lives on the flat-fibre model's Sol clock, which is CHOSEN (B1815). So it reads the Teichmüller apex, not the τ read-out rule's hyperbolic level surface.
+- **New rows:** P-742 (a pre-registered volume rerun), P-743 (what fixes the fibre area A) and P-744 (the hyperbolic analogue). Notes on P-726 and P-717.
+- 0 of 19.
+
 ## S306m (continued) THE TUBE'S τ AT k = 2, ON MAIN (B1854; P-739 in part) (2026-11-07)
 
 - **What ran.** B1847's own full-group mesher, driven with one Hejhal setup per member, and the covariant root.
