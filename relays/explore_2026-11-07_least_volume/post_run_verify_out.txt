@@ -1,0 +1,6 @@
+m004: Bloch-Wigner 2.02988321281930725; SnapPy 2.029883212819307; 2 tets; all tetrahedra positively oriented
+(6,)                 randomized 27 tets (all tetrahedra positively oriented): dV by Bloch-Wigner 1.571446232450158; by SnapPy 1.571446232450; difference 1.6e-15
+(5, 1, 1, 1, 1, 2)   randomized 31 tets (all tetrahedra positively oriented): dV by Bloch-Wigner 2.195501159889885; by SnapPy 2.195501159890; difference 2.2e-15
+(2, 2, 2)            randomized 27 tets (all tetrahedra positively oriented): dV by Bloch-Wigner 2.359248284550554; by SnapPy 2.359248284551; difference 4.4e-15
+gap (5,1,1,1,1,2) - (6) by Bloch-Wigner: 0.6240549274397266
+post_run_verify exit 0
