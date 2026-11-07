@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1558** |
-| words of findings prose | **1,320,610** |
+| research arcs with findings | **1559** |
+| words of findings prose | **1,321,354** |
 | test lock files referenced | **933** |
-| arcs carrying an authored verdict | **1558** (100.0 %) |
+| arcs carrying an authored verdict | **1559** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1067 |
+| PROVED | 1068 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1856`** (649 words, 0 locks)  
-CHARGE OR SYMMETRY AT FIVE (P-738, answered conditionally; the explore seat's test re-derived on main): in B355's level-5 Weil representation (projectively consistent on all 120 elements of SL(2,F5)), only +-I act as a scalar on both parity sectors (the charge premise = invisibility to every state), the projective commutant of rho(LR) is +-<LR> (the symmetry premise), rho(LR) is a Z/5 clock on every sector (eigenvalue angles 0, .4, .6 | +-.1 turns; traces 1 - phi and phi), the run of 6 has E = I (invisible to every state) while the line-invisible (2,1,1,1,2) has E = (LR)^1 (visible on superpositions of quasi-energy states) -- so the symmetry reading needs a superselection rule that would stop the level-5 clock, and under standard quantum mechanics and a physical level-5 Weil space the charge reading, and with it the run of 6, is the invisible one. 0 of 19.  
-`B1856_charge_or_symmetry_at_five_verified/FINDINGS.md`
+**PROVED — `B1857`** (744 words, 0 locks)  
+THE READ-OUT BY A STATE (the explore seat's test, checked on main; P-726, P-717): in the flat-fibre (Sol) bundle over the history the separated wells follow the cosh law exactly (4.7e-38 on seven classes; cosh 2(s - s_c) in Sol time) and, by Hellmann-Feynman, the lightest state sits at the greatest height -- the apex; its uniqueness is the apex's multiplicity: (6) and (2,1,2,1,2) unique, (2,1,1,1,2) and (2,1^8,2) mirror-degenerate; so by length the unique-state line-invisible selection is (2,1,2,1,2) (2.1597 < (6)'s 2.3487; HS6 false as pre-registered), while by volume the two cheaper line-invisible departures (1.3972, 1.4103) are exactly the degenerate ones and (6) (1.5714) is selected under both level-5 readings (post hoc). The state reads the Teichmuller apex of a chosen clock, not the tau read-out rule's hyperbolic level surface; its hyperbolic analogue, the fibre area A and a pre-registered volume rerun are owed (P-742-P-744). 0 of 19.  
+`B1857_the_read_out_by_a_state_checked/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  

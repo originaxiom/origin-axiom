@@ -13,24 +13,25 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1558 |
-| … PROVED | 1067 |
+| arcs with a verdict file | 1559 |
+| … PROVED | 1068 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 741 |
-| … QUEUED | 235 |
+| register points | 744 |
+| … QUEUED | 238 |
 | … LEAD | 4 |
 | … OWNER | 4 |
 | … DONE | 487 |
 | … DECLINED | 11 |
-| harvest rows (the last number) | 1616 |
+| harvest rows (the last number) | 1617 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1857 | PROVED | THE READ-OUT BY A STATE (the explore seat's test, checked on main; P-726, P-717): in the flat-fibre (Sol) bundle over the history the separated wells follow the cosh law exactly (4.7e-38 on seven classes; cosh 2(s - s_c… |
 | B1856 | PROVED | CHARGE OR SYMMETRY AT FIVE (P-738, answered conditionally; the explore seat's test re-derived on main): in B355's level-5 Weil representation (projectively consistent on all 120 elements of SL(2,F5)), only +-I act as a… |
 | B1855 | PROVED | THE CHARGE LAW SETTLED (P-737): main's own result -- the law FAILS for every lcm(S) >= 12: six explicit gapped counterexamples of the explore seat satisfy the charge premise exactly with less excess than the single run… |
 | B1854 | PROVED | THE TUBE'S TAU AT k = 2, ON MAIN (P-739, in part): B1847's own mesher, driven with one setup per member, gives Im tau(Sigma_0) = 6.070 +- 0.010 on L^6R(LR)^2 (the extrapolation calibrated on k = 1 to the web seat's 6.14… |
@@ -42,7 +43,6 @@
 | B1848 | PROVED | REVIEW 76 (the owner: 'lets do the decadal first right moment'; 36 commits, S305p-S306d): the loop closed (R75-1..3 declined at their third carry, rows kept; R75-6, R75-7 and R75-9's P-718 half resolved; four carried);… |
 | B1847 | PROVED | THE LEVEL SURFACE'S OWN MODULUS (P-727; data-free): an instrument reading the conformal modulus of a harmonic level surface from its 3D shape and its fibre group alone -- validated on a Fuchsian control of known tau (re… |
 | B1846 | PROVED | THE METRIC'S READ-OUT (the owner's goal of 2026-11-06, FL-05; data-free): the hyperbolic metric fixes, with no choice, a clock on the fibration circle -- harmonic time theta (the harmonic map in the fibre class; B1295's… |
-| B1845 | PROVED | THE OBJECT'S OWN LINE AND THE EXCURSION READ OUT (P-717, P-718, P-455; data-free exploration, toward the owner's goal): level 5 is the object's own (LR's discriminant 5, LR = -(unipotent) mod 5, order 5 in A5); RL fixes… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306m (continued) THE READ-OUT BY A STATE (B1857; the explore seat, row 1617) (2026-11-07)
 - S306m (continued) THE TUBE'S τ AT k = 2, ON MAIN (B1854; P-739 in part) (2026-11-07)
 - S306m (continued) CHARGE OR SYMMETRY AT FIVE (B1856; P-738 answered, conditionally) (2026-11-07)
 - S306m (continued) THE CHARGE LAW SETTLED (B1855; P-737 DONE): REFUTED FROM lcm(S) = 12, PROVED BELOW BY THE EXPLORE SEAT (2026-11-07)
@@ -63,11 +64,10 @@
 - S306l TWO SEATS HARVESTED: THE DEPARTURE'S DEPTH IS A CHARGE PREMISE (B1853; the explore seat, registered); THE TUBE'S τ TOWARD k → ∞ (the web seat) (2026-11-07)
 - S306k (continued) THE TUBE'S REAL PART, BY TOPOLOGY (B1852): THE METRIC'S OWN τ AT THE TUBE IS 0 + 6.15(15) i (2026-11-07)
 - S306k THE SEATS FETCHED: THE CHIRAL PREMISE RELOCATED, VERIFIED; THE OPEN-BOOK SCALE CARD RULED NOT SEALABLE (B1851; rows 1609–1611) (2026-11-07)
-- S306j THE OPEN LEADS AND THE BACKLOG CONFIRMED ONE BY ONE (B1850; R76-1's second half: P-617 DONE, P-616 narrowed) (2026-11-07)
 
 ## The latest campaign line
 
-LATEST (2026-11-07, S306m (continued): B1854 — the tube's τ at k = 2 on main: 6.070 ± 0.010 (the seat's 6.08186); the covariant root basis-invariant; k = 3 not reached; τ_∞ = 6.06 ± 0.01 at main's resolution (the seat's 6.06526 at the 4th digit). 0 of 19.)
+LATEST (2026-11-07, S306m (continued): B1857 — the read-out by a state (the explore seat): the lightest state sits at the apex in the flat-fibre (Sol) model; by length (2,1,2,1,2), by volume with uniqueness (6) (post hoc); on a chosen clock, so its hyperbolic analogue is owed (P-744). 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

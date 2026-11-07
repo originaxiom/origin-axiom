@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1558 of 1558 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1559 of 1559 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1067)
+## PROVED (1068)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1079,6 +1079,7 @@
 | `B1854` | THE TUBE'S TAU AT k = 2, ON MAIN (P-739, in part): B1847's own mesher, driven with one setup per member, gives Im tau(Sigma_0) = 6.070 +- 0.010 on L^6R(LR)^2 (the extrapolation calibrated on k = 1 to the web seat's 6.14916), consistent with the seat's 6.08186(42) at main's resolution; the core levels (0.534940, 0.755893) and |d theta| match the seat's table exactly; the control shows the covariant root basis-invariant (two cycle bases of one level surface agree to 8e-5 under it, 0.08 apart under B1847's formula) and the near-tube mirror pairs symmetric about Re 0 under it; k = 3 not reached (the mesher's assertion after a 5613 s setup). The seat's tube values confirmed to +-0.01 through k = 2; its k -> infinity limit 6.06526(57) rests on its k = 3..5, main's resolution placing it in 6.06 +- 0.01. Nothing compared with data. 0 of 19. |  | 0 |
 | `B1855` | THE CHARGE LAW SETTLED (P-737): main's own result -- the law FAILS for every lcm(S) >= 12: six explicit gapped counterexamples of the explore seat satisfy the charge premise exactly with less excess than the single run lcm(S) + 1 (checked in exact integers and 80 digits on main's code, e.g. {4,5}: 3.9224 < 4.5940; {2,3,4,5}: 3.8672 < 6.6524), so B1853's (21) and (61) rows were range artifacts and the depth does not rise without bound with the conserved levels; the seat's PROOF that the single run lcm(S) + 1 is the unique least-excess departure over all defects for lcm(S) <= 10 -- at S = {5} the run of 6, depth sqrt5*phi -- is cited: its Lemma A verified on main to 7e-18 (3000 R1 defects), S = {5} corroborated by main's brute force (no gapped two- or three-run defect below the run of 6 among 3516), its exhaustive shortest-path search not re-run (P-741). Nothing compared with data. 0 of 19. |  | 0 |
 | `B1856` | CHARGE OR SYMMETRY AT FIVE (P-738, answered conditionally; the explore seat's test re-derived on main): in B355's level-5 Weil representation (projectively consistent on all 120 elements of SL(2,F5)), only +-I act as a scalar on both parity sectors (the charge premise = invisibility to every state), the projective commutant of rho(LR) is +-<LR> (the symmetry premise), rho(LR) is a Z/5 clock on every sector (eigenvalue angles 0, .4, .6 | +-.1 turns; traces 1 - phi and phi), the run of 6 has E = I (invisible to every state) while the line-invisible (2,1,1,1,2) has E = (LR)^1 (visible on superpositions of quasi-energy states) -- so the symmetry reading needs a superselection rule that would stop the level-5 clock, and under standard quantum mechanics and a physical level-5 Weil space the charge reading, and with it the run of 6, is the invisible one. 0 of 19. |  | 0 |
+| `B1857` | THE READ-OUT BY A STATE (the explore seat's test, checked on main; P-726, P-717): in the flat-fibre (Sol) bundle over the history the separated wells follow the cosh law exactly (4.7e-38 on seven classes; cosh 2(s - s_c) in Sol time) and, by Hellmann-Feynman, the lightest state sits at the greatest height -- the apex; its uniqueness is the apex's multiplicity: (6) and (2,1,2,1,2) unique, (2,1,1,1,2) and (2,1^8,2) mirror-degenerate; so by length the unique-state line-invisible selection is (2,1,2,1,2) (2.1597 < (6)'s 2.3487; HS6 false as pre-registered), while by volume the two cheaper line-invisible departures (1.3972, 1.4103) are exactly the degenerate ones and (6) (1.5714) is selected under both level-5 readings (post hoc). The state reads the Teichmuller apex of a chosen clock, not the tau read-out rule's hyperbolic level surface; its hyperbolic analogue, the fibre area A and a pre-registered volume rerun are owed (P-742-P-744). 0 of 19. |  | 0 |
 
 ## NEGATIVE (383)
 
