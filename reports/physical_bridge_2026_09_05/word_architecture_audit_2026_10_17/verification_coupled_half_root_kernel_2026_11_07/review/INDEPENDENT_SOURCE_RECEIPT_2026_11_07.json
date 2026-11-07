@@ -1,0 +1,489 @@
+{
+  "record_type": "INDEPENDENT_THREE_PROOF_NINE_METHOD_REVIEW_RECEIPT_NOT_EXECUTION_SEAL",
+  "date": "2026-11-07",
+  "reviewer": "independent-transport-end-proof-code-reviewer",
+  "nonauthoring": true,
+  "review_seal": "3e58425f1e6560d9f078f306e724ed264d41884f",
+  "observed_current_head": "ae5e481844af66f1df0a607700259ea80595a8c2",
+  "excluded_later_packages": [
+    "68bbb463f",
+    "c0d19629f",
+    "ae5e48184"
+  ],
+  "inventory_entry_count": 23,
+  "source_record_count_with_inventory": 24,
+  "scientific_methods_from_stdlib_AST_only": [
+    "CoupledHalfRootKernelChecks.test_actual_spinor_koszul_cohomology_and_all_degree_actions",
+    "CoupledHalfRootKernelChecks.test_equivariant_retraction_and_spin_line_degrees",
+    "CoupledHalfRootKernelChecks.test_bare_and_corrected_core_characters_on_full_mixed_sectors",
+    "CoupledHalfRootKernelChecks.test_actual_wilson_and_spin_line_triviality_population",
+    "CoupledHalfRootKernelChecks.test_exact_cusp_pole_endpoints_and_complete_four_slot_counts",
+    "CoupledHalfRootKernelChecks.test_core_phase_changes_kernel_without_changing_cusp_or_index",
+    "CoupledHalfRootKernelChecks.test_full_charge_grading_and_actual_cubic_selection",
+    "CoupledHalfRootKernelChecks.test_actual_compact_centralizer_and_vector_block_duties",
+    "CoupledHalfRootKernelChecks.test_centralizer_spin_norm_endpoint_and_untwisted_countercontrol"
+  ],
+  "scientific_method_count": 9,
+  "scientific_imports": false,
+  "scientific_test_collection": false,
+  "scientific_execution": false,
+  "CAS_or_numerical_execution": false,
+  "production_gate_run": false,
+  "new_agent_or_literature_survey": false,
+  "execution_authorized": false,
+  "main_acceptance_created": false,
+  "admission_created": false,
+  "proof_dispositions": {
+    "COUPLED_HALF_ROOT_KERNEL_AND_CORE_LIFT_SENSITIVITY.md": "SUPPORTED_CONDITIONALLY_BY_HAND_REVIEW",
+    "WEAK_CURRENT_GRADING_AND_DISCRETE_CHARGED_VECTORS.md": "SUPPORTED_CONDITIONALLY_BY_HAND_REVIEW",
+    "CENTRALIZER_KERNEL_WITH_THRESHOLD_CONTINUUM.md": "SUPPORTED_CONDITIONALLY_BY_HAND_REVIEW"
+  },
+  "source_verdict": "REVISION_REQUIRED_UNRUN_NOT_ADMITTED",
+  "unresolved": [
+    {
+      "id": "V1",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/checks.py",
+      "start_line": 417,
+      "end_line": 435,
+      "finding": "Constructed finite Koszul Dirac square does not bind actual physical source M-dagger-M gauge block/metric/derivative-curvature identity required by weak-current design control 8."
+    }
+  ],
+  "review_report": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/review/INDEPENDENT_PROOF_CODE_REVIEW_2026_11_07.md",
+    "sha256": "00fba6daf441dea71f9be642ac5e049e6b27de1f20ac25729a94d556631a2f4c",
+    "bytes": 24067
+  },
+  "staged_path_count": 49,
+  "staged_binary_diff_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "inherited_staged_state_unchanged": true,
+  "source_records": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/checks.py",
+      "sha256": "e72063d7b2a6b3ac8a6f83db4df693e79fec5d3a0f5b91fdf4931496567276f0",
+      "bytes": 23483,
+      "matches_sealed_blob": true,
+      "matches_current_bytes": true,
+      "classes_and_methods_AST_only": [
+        {
+          "class": "CoupledHalfRootKernelChecks",
+          "methods": [
+            {
+              "name": "test_actual_spinor_koszul_cohomology_and_all_degree_actions",
+              "line": 193
+            },
+            {
+              "name": "test_equivariant_retraction_and_spin_line_degrees",
+              "line": 215
+            },
+            {
+              "name": "test_bare_and_corrected_core_characters_on_full_mixed_sectors",
+              "line": 257
+            },
+            {
+              "name": "test_actual_wilson_and_spin_line_triviality_population",
+              "line": 281
+            },
+            {
+              "name": "test_exact_cusp_pole_endpoints_and_complete_four_slot_counts",
+              "line": 310
+            },
+            {
+              "name": "test_core_phase_changes_kernel_without_changing_cusp_or_index",
+              "line": 331
+            },
+            {
+              "name": "test_full_charge_grading_and_actual_cubic_selection",
+              "line": 353
+            },
+            {
+              "name": "test_actual_compact_centralizer_and_vector_block_duties",
+              "line": 401
+            },
+            {
+              "name": "test_centralizer_spin_norm_endpoint_and_untwisted_countercontrol",
+              "line": 437
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/DESIGN.md",
+      "sha256": "8ba1253846751f58c4762ccfd80f1832f88e581809476786fd063f65302aa68c",
+      "bytes": 5494,
+      "matches_sealed_blob": true,
+      "matches_current_bytes": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/DESIGN_ADDENDUM_WEAK_CURRENT.md",
+      "sha256": "6cff45e8e0b3e1c08f1b1c386d389d839099ab860a3657afbe1dcd1d07b48d28",
+      "bytes": 2674,
+      "matches_sealed_blob": true,
+      "matches_current_bytes": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/DESIGN_ADDENDUM_CENTRALIZER.md",
+      "sha256": "305433c9895f676a9801fe33965a3a95bd16fbff1f1b49364c82dc71274c8d31",
+      "bytes": 1922,
+      "matches_sealed_blob": true,
+      "matches_current_bytes": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/REVIEW_STATUS.md",
+      "sha256": "d73bcb67f32da8da0420ddbddc75f33acd2d817b60fa18e4058430179898998c",
+      "bytes": 2820,
+      "matches_sealed_blob": true,
+      "matches_current_bytes": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/SOURCE_RECEIPT.json",
+      "sha256": "4f663aefca1816480c216fa70851b292086b0dfce1922fb260dc54acfe3a78d1",
+      "bytes": 3089,
+      "matches_sealed_blob": true,
+      "matches_current_bytes": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/WEAK_SOURCE_RECEIPT.json",
+      "sha256": "81e9faeed8fe5dfde06f3eecbac94579bc2ebe31ef6d42b0b7a697b957e5f589",
+      "bytes": 1356,
+      "matches_sealed_blob": true,
+      "matches_current_bytes": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/CENTRALIZER_SOURCE_RECEIPT.json",
+      "sha256": "d87a9bbe45a437943a97ba1ecab139fb162aa529fc704af54a2ea91072d7ed6d",
+      "bytes": 1287,
+      "matches_sealed_blob": true,
+      "matches_current_bytes": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_HALF_ROOT_KERNEL_AND_CORE_LIFT_SENSITIVITY.md",
+      "sha256": "789adf7544bf5c679305aa8b9ba7525b6375155b026c839e01c34c281be23875",
+      "bytes": 12276,
+      "matches_sealed_blob": true,
+      "matches_current_bytes": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/WEAK_CURRENT_GRADING_AND_DISCRETE_CHARGED_VECTORS.md",
+      "sha256": "7ac2e6cc08a82d3c4ab34fbae52596da3b6171c48985b7c22729802e5f65db8e",
+      "bytes": 8618,
+      "matches_sealed_blob": true,
+      "matches_current_bytes": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CENTRALIZER_KERNEL_WITH_THRESHOLD_CONTINUUM.md",
+      "sha256": "a19e2c6c6b4faa0db3bbe16402499314f259a8db0ce590b0bcaf3ac4130970f5",
+      "bytes": 6149,
+      "matches_sealed_blob": true,
+      "matches_current_bytes": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_end_2026_11_04/checks.py",
+      "sha256": "cb3d46f2a51c101f064116bd6d63998e6a8bc1c5e99e73ae1cb5bbf12f7d1e9b",
+      "bytes": 30538,
+      "matches_sealed_blob": true,
+      "matches_current_bytes": true,
+      "classes_and_methods_AST_only": [
+        {
+          "class": "TransportEndChecks",
+          "methods": [
+            {
+              "name": "test_full_root_central_phases_and_electromagnetic_lattice",
+              "line": 274
+            },
+            {
+              "name": "test_actual_clifford_lift_of_d5_compensators",
+              "line": 292
+            },
+            {
+              "name": "test_faithful_compensator_group_and_quotient_kernels",
+              "line": 320
+            },
+            {
+              "name": "test_full_pin2_correction_and_retained_gauge_sectors",
+              "line": 361
+            },
+            {
+              "name": "test_continuous_stabilizer_and_phase_constraint",
+              "line": 405
+            },
+            {
+              "name": "test_based_and_all_word_holonomy_covariance",
+              "line": 429
+            },
+            {
+              "name": "test_stationary_gluing_and_full_peripheral_table",
+              "line": 506
+            },
+            {
+              "name": "test_actual_centralizer_mass_and_escaping_channel",
+              "line": 537
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_register_flavour_joint_2026_11_03/checks.py",
+      "sha256": "d8eead96ab24a14087ef773d4dc20093f0ad9d84887a3446cd6fd711b0867bb3",
+      "bytes": 10166,
+      "matches_sealed_blob": true,
+      "matches_current_bytes": true,
+      "classes_and_methods_AST_only": [
+        {
+          "class": "RegisterFlavourJointChecks",
+          "methods": [
+            {
+              "name": "test_actual_two_triples_and_quartic_polynomial",
+              "line": 115
+            },
+            {
+              "name": "test_complete_mass_map_flavour_intertwiner",
+              "line": 143
+            },
+            {
+              "name": "test_irreducible_holonomy_gram_constraint",
+              "line": 169
+            },
+            {
+              "name": "test_three_same_parent_stationary_states_and_readouts",
+              "line": 194
+            },
+            {
+              "name": "test_covariant_reference_and_register_composition_controls",
+              "line": 221
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_neutral_full_kernel_2026_11_02/checks.py",
+      "sha256": "33cb0be8f8381e50faa672aa4da2e22b6b7478ed0d74b9d46b4cfbfda86271d5",
+      "bytes": 19244,
+      "matches_sealed_blob": true,
+      "matches_current_bytes": true,
+      "classes_and_methods_AST_only": [
+        {
+          "class": "NeutralFullKernelChecks",
+          "methods": [
+            {
+              "name": "test_shifted_Jordan_elimination_without_scalar_inverse",
+              "line": 183
+            },
+            {
+              "name": "test_tensor_reduction_total_spin_and_Koszul_signs",
+              "line": 210
+            },
+            {
+              "name": "test_pole_duality_and_long_exact_sequence_rank_accounting",
+              "line": 267
+            },
+            {
+              "name": "test_complete_charged_roster_all_neutral_strata",
+              "line": 303
+            },
+            {
+              "name": "test_fourth_order_transfer_and_exact_survivor_controls",
+              "line": 373
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md",
+      "sha256": "871529dd81603e1a70126f6ee518ae5c2758c107cf7e9fff62ae96f646a0813f",
+      "bytes": 15858,
+      "matches_sealed_blob": true,
+      "matches_current_bytes": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/QUATERNION_SECTOR_INDEX_AND_WEAK_CURRENT_DUTY.md",
+      "sha256": "11ddfae1996036673dc2bc08ec9b1ef26f92a4a91df98da379d539a529f93fc6",
+      "bytes": 9587,
+      "matches_sealed_blob": true,
+      "matches_current_bytes": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CONFINED_HALF_ROOT_SECTOR_AND_SURVIVING_CONTINUUM.md",
+      "sha256": "8436811ae3529f7fa78337a428f1e9c2d8af1414860fb2512db772a20879e4c4",
+      "bytes": 8622,
+      "matches_sealed_blob": true,
+      "matches_current_bytes": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_ACTION_REAL_GAUGE_FIXING_AND_ONE_LOOP_WEIGHTS.md",
+      "sha256": "18a7f1362ed866f909465139205895916ae5728da6c56896fb03e9f6c77f4cce",
+      "bytes": 16197,
+      "matches_sealed_blob": true,
+      "matches_current_bytes": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PIN2_COMPENSATOR_COHERENCE_AND_ELECTROMAGNETIC_PHASE.md",
+      "sha256": "fc67d4446b11f54c731b7e7aac56b496e501d5fa397040363de6c8074909a3b9",
+      "bytes": 8892,
+      "matches_sealed_blob": true,
+      "matches_current_bytes": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md",
+      "sha256": "6012816683f17ac83e7d3bdb4f6d8b987ec8155ee2caa09ce651dbf0b194ed4c",
+      "bytes": 11130,
+      "matches_sealed_blob": true,
+      "matches_current_bytes": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_QUATERNION_STATIONARY_BUNDLE_AND_CUSP_LAW.md",
+      "sha256": "221a7cd2dce2ff7dec0b135c348b7bb52e15bc27e5563d420756fbe31f9978a1",
+      "bytes": 16627,
+      "matches_sealed_blob": true,
+      "matches_current_bytes": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "bytes": 11351,
+      "matches_sealed_blob": true,
+      "matches_current_bytes": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_sm_parallel_2026_10_08/PROOF.md",
+      "sha256": "99442d5a50d19ba99abed1d9f733cf085d56cdf80acbbee904bed8061f561f6c",
+      "bytes": 14021,
+      "matches_sealed_blob": true,
+      "matches_current_bytes": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/SOURCE_REVIEW_INVENTORY.json",
+      "sha256": "34653d9b96912a6f2c80931c0aaae5ca3679d1ffedd67f9cb70f3637571d022d",
+      "bytes": 6747,
+      "matches_sealed_blob": true,
+      "matches_current_bytes": true,
+      "role_note": "exact review inventory itself"
+    }
+  ],
+  "additional_dependency_reads": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PARALLEL_PHASE_CHIRAL_KERNEL_AND_LIGHT_RUNNING.md",
+      "sha256": "ea283724f7c5435e0ac503a25c23df4281813a1e6dd9497f871d67cde449218c",
+      "bytes": 14328,
+      "current_bytes_match_seal": true,
+      "scope_note": "Earlier source inspected for bounded line maps, weighted complex or elliptic pole/Hodge inputs; no new scientific execution."
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_two_neutral_index_2026_10_08/PROOF.md",
+      "sha256": "7077598f1b2f9c08bbbf54ba57f7745f5c3532cfbb9c4cf26c2f5522bc22e24b",
+      "bytes": 12292,
+      "current_bytes_match_seal": true,
+      "scope_note": "Earlier source inspected for bounded line maps, weighted complex or elliptic pole/Hodge inputs; no new scientific execution."
+    }
+  ],
+  "python_import_syntax_AST_only": {
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/checks.py": [
+      {
+        "line": 8,
+        "syntax": "from collections import Counter, defaultdict"
+      },
+      {
+        "line": 9,
+        "syntax": "from fractions import Fraction"
+      },
+      {
+        "line": 10,
+        "syntax": "from functools import lru_cache"
+      },
+      {
+        "line": 11,
+        "syntax": "from importlib.util import module_from_spec, spec_from_file_location"
+      },
+      {
+        "line": 12,
+        "syntax": "from itertools import product"
+      },
+      {
+        "line": 13,
+        "syntax": "from pathlib import Path"
+      },
+      {
+        "line": 14,
+        "syntax": "import unittest"
+      },
+      {
+        "line": 16,
+        "syntax": "import sympy as sp"
+      }
+    ],
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_end_2026_11_04/checks.py": [
+      {
+        "line": 8,
+        "syntax": "from collections import Counter"
+      },
+      {
+        "line": 9,
+        "syntax": "from fractions import Fraction"
+      },
+      {
+        "line": 10,
+        "syntax": "from functools import lru_cache"
+      },
+      {
+        "line": 11,
+        "syntax": "from importlib.util import module_from_spec, spec_from_file_location"
+      },
+      {
+        "line": 12,
+        "syntax": "from itertools import combinations"
+      },
+      {
+        "line": 13,
+        "syntax": "from pathlib import Path"
+      },
+      {
+        "line": 14,
+        "syntax": "import unittest"
+      },
+      {
+        "line": 16,
+        "syntax": "import sympy as sp"
+      }
+    ],
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_register_flavour_joint_2026_11_03/checks.py": [
+      {
+        "line": 7,
+        "syntax": "from __future__ import annotations"
+      },
+      {
+        "line": 9,
+        "syntax": "import unittest"
+      },
+      {
+        "line": 10,
+        "syntax": "import sympy as sp"
+      }
+    ],
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_neutral_full_kernel_2026_11_02/checks.py": [
+      {
+        "line": 8,
+        "syntax": "from collections import Counter, defaultdict"
+      },
+      {
+        "line": 9,
+        "syntax": "from fractions import Fraction"
+      },
+      {
+        "line": 10,
+        "syntax": "from itertools import combinations, product"
+      },
+      {
+        "line": 11,
+        "syntax": "import unittest"
+      },
+      {
+        "line": 13,
+        "syntax": "import sympy as s"
+      }
+    ]
+  },
+  "scope_note": "All three target proofs and all nine method bodies were read at the exact seal. Prior conditional source proofs remain assumptions where stated, with specified contraction/Hodge/real-gauge source sections hand reviewed. Hashing a dependency does not certify every other claim in it. No later excluded package was opened or used."
+}
