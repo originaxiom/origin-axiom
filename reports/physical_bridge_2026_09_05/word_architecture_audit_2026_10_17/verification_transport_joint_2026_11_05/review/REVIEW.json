@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "experiment_id": "physical-transport-geometric-spin-and-sector-index-v1",
+  "sealed_commit": "bda89f04a94d09217551cef96056f375b21c260b",
+  "specification": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_joint_2026_11_05/SPECIFICATION.json",
+    "sha256": "f5390767ebc04f68ee5ce0f1a5e854a9dcdea131586ae1812557fd3f9c3a4238"
+  },
+  "reviewer": "independent-transport-end-proof-code-reviewer",
+  "nonauthoring": true,
+  "source_complete": true,
+  "decision": "APPROVE_EXECUTION",
+  "unresolved": [],
+  "scope": "Non-authoring source-completeness and execution-readiness review dated 2026-11-07 of the exact sealed 62-artifact joint specification, design, complete local import/invocation closure, shared two-class thirteen-method bridge, guarded wrapper, runtime declaration, fresh outputs, ledger seals and recorded eight synthetic software fixtures; prior independent seven-proof and R1-R3/F1-F2 dispositions retained at their exact seals. Conditional scientific scope only. No scientific import, collection, CAS/numerical execution, test execution or production gate run performed by this review. New November 7 kernel/weak-current successors excluded. Main separate acceptance and a real strict gate pass in a clean isolated quiescent checkout remain required."
+}
