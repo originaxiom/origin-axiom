@@ -1,0 +1,14 @@
+m004: checks {'C8': True, 'C2': True, 'C1': True, 'C4': True, 'C5': True, 'C9': True}; k = 1: checks {'C8': True, 'C2': True, 'C3': True, 'C7': True, 'C4': True, 'C9': True}; C1, C5 and C9 PASS
+k = 1: checks {'C8': True, 'C2': True, 'C3': True, 'C7': True, 'C4': True, 'C9': True} -> used; core level +7.594e-14; tube (n <= 4) Im 6.149155064 +- 0.0004076, |Re| -1.65e-12 +- 4.28e-11
+k = 6: checks {'C2': True, 'C3': True, 'C4': True} -> used; core level +1.620e-01; tube (n <= 4) Im 6.065294109 +- 0.0004212, |Re| 7.70e-12 +- 9.85e-12; Q2 classes True, Q2 real part True
+k = 7: checks {'C2': True, 'C3': True, 'C4': True} -> used; core level +8.285e-01; tube (n <= 4) Im 6.065269634 +- 0.0004212, |Re| 1.39e-06 +- 2.30e-09; Q2 classes True, Q2 real part True
+k = 8: checks {'C2': True, 'C3': True, 'C4': True} -> used; core level +9.611e-01; tube (n <= 4) Im 6.065264525 +- 0.0004212, |Re| 1.20e-07 +- 3.01e-10; Q2 classes True, Q2 real part True
+sealed: Im tau at k = 3, 4, 5 6.068679601, 6.065973881, 6.065411398; Aitken 6.065263777
+k-steps (n <= 4): D5 -1.1729e-04, D6 -2.4475e-05, D7 -5.1086e-06; ratios 0.20867, 0.20872; Q1 True
+Q2 (k = 6, 7, 8: |Re tau| at the tube and the exact classes) True
+Aitken on k = 6, 7, 8 (n <= 4): 6.065263178; minus the sealed -5.99e-07; Q3 True
+k = 1, fifth subdivision: Im tau at n = 3, 4, 5 6.1414324, 6.1472244, 6.1487034; rho5 3.9160; R4(n <= 5) 6.149196468 +- 0.0000556 (A3 6.149210667); delta +4.140e-05; Q4 True
+k = 8, fifth subdivision: Im tau at n = 3, 4, 5 6.0575280, 6.0633304, 6.0648123; rho5 3.9155; R4(n <= 5) 6.065306276 +- 0.0000561 (A3 6.065320597); delta +4.175e-05; Q4 True
+delta_8 - delta_1 +3.47e-07; Q5 True
+firmed: Im tau_inf = 6.0653049 +- 0.0000574 (Aitken 6.065263178 + delta_8 +4.175e-05; k part 1.35e-06, n part 5.61e-05); cross-check with delta_1: 6.0653046; Q6 True
+real part: |Re tau| at the tube, k = 6, 7, 8: 7.70e-12 +- 9.85e-12, 1.39e-06 +- 2.30e-09, 1.20e-07 +- 3.01e-10

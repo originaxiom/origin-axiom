@@ -1,0 +1,16 @@
+k=8 (b++LLLLLLRLRLRLRLRLRLRLRLR); versions {'numpy': '2.5.3', 'scipy': '1.18.1', 'numba': '0.68.1', 'snappy': '3.3.2', 'python': '3.13.18'}
+  exact: 2 reversing involutions; the two fibres in opposite classes for every one: True; both != I mod 2 for every one: False
+  polyhedron from 212-bit shapes (double against 212-bit generators: None)
+  23 tetrahedra; cusp |p1| 3.465214, |p2| 9.092129; Ford volume 19.840399 against SnapPy 19.840394; floor minimum 0.38219; 261 spheres
+  harmonic time: 5415 Fourier-Bessel modes (10830 unknowns), rms residual 6.08e-11, paired-face check 6.07e-10 (677s)
+  systole c (chi 0): complex length 0.18521826 -0.81627625i, SnapPy 0.18521826 -0.81627625i; h on its axis -0.038872918451 (spread 3.8e-12); |d theta| there 0.008526
+  mesh and node values (700s)
+    level 0.9611270815487742: {'chi': -1, 'boundary': 32, 'loops': 1, 'nonmanifold': 0, 'inconsistent': 0, 'V': 355, 'F': 680}, snapped 91, residual 8.5e-14
+      n=0: F 680 det E - 1 +3.51e-02 cup +1.0000 reduced tau +0.0000001 +5.7772388i
+      n=1: F 2720 det E - 1 +9.48e-03 cup +1.0000 reduced tau +0.0000001 +5.9607221i
+      n=2: F 10880 det E - 1 +2.53e-03 cup -1.0000 reduced tau +0.0000001 +6.0352529i
+      n=3: F 43520 det E - 1 +7.16e-04 cup +1.0000 reduced tau +0.0000001 +6.0575280i
+      n=4: F 174080 det E - 1 +2.20e-04 cup +1.0000 reduced tau +0.0000001 +6.0633304i
+      n=5: F 696320 det E - 1 +5.88e-05 cup +1.0000 reduced tau +0.0000001 +6.0648123i
+  level core (s = 0.961127081549): Im tau = 6.0653063 +- 0.0000561 (finest 6.0648123, A3 6.0653206); |Re tau| = 1.20e-07 +- 2.33e-11; C4 PASS (4554s)
+  checks: {'C2': True, 'C3': True, 'C4': True}; total 5255s

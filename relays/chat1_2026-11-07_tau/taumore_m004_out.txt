@@ -1,0 +1,20 @@
+m004 (m004); versions {'numpy': '2.5.3', 'scipy': '1.18.1', 'numba': '0.68.1', 'snappy': '3.3.2', 'python': '3.13.18'}
+  exact: 12 reversing involutions; the two fibres in opposite classes for every one: False; both != I mod 2 for every one: True
+  polyhedron from double-precision shapes (double against 212-bit generators: 8.671119018262734e-16)
+  2 tetrahedra; cusp |p1| 3.464102, |p2| 1.000000; Ford volume 2.029882 against SnapPy 2.029883; floor minimum 0.81752; 8 spheres
+  harmonic time: 600 Fourier-Bessel modes (1200 unknowns), rms residual 3.04e-12, paired-face check 9.01e-13 (3s)
+  C1: B1295's coefficient reproduced as 4.2609826349
+  mesh and node values (3s)
+    level 0.25: {'chi': -1, 'boundary': 48, 'loops': 1, 'nonmanifold': 0, 'inconsistent': 0, 'V': 795, 'F': 1544}, snapped 37, residual 5.0e-14
+      n=0: F 1544 det E - 1 +1.17e-02 cup +1.0000 reduced tau +0.0000000 +1.0000000i
+      n=1: F 6176 det E - 1 +3.19e-03 cup +1.0000 reduced tau -0.0000000 +1.0000000i
+      n=2: F 24704 det E - 1 +9.01e-04 cup +1.0000 reduced tau -0.0000000 +1.0000000i
+      n=3: F 98816 det E - 1 +2.39e-04 cup -1.0000 reduced tau -0.0000000 +1.0000000i
+  level 0.25 (s = 0.250000000000): Im tau = 1.0000000 +- 0.0000000 (finest 1.0000000, A3 1.0000000); |Re tau| = 7.17e-14 +- 2.21e-14; C4 PASS (44s)
+    level 0.0: {'chi': -1, 'boundary': 32, 'loops': 1, 'nonmanifold': 0, 'inconsistent': 0, 'V': 503, 'F': 976}, snapped 89, residual 2.7e-15
+      n=0: F 976 det E - 1 +1.96e-02 cup +1.0000 reduced tau +0.5000000 +1.1213688i
+      n=1: F 3904 det E - 1 +4.94e-03 cup +1.0000 reduced tau +0.5000000 +1.1235777i
+      n=2: F 15616 det E - 1 +1.31e-03 cup +1.0000 reduced tau +0.5000000 +1.1241962i
+      n=3: F 62464 det E - 1 +3.48e-04 cup +1.0000 reduced tau +0.5000000 +1.1243350i
+  level 0.0 (s = 0.000000000000): Im tau = 1.1243813 +- 0.0000272 (finest 1.1243350, A3 1.1243752); |Re tau| = 5.00e-01 +- 9.46e-14; C4 PASS (28s)
+  checks: {'C8': True, 'C2': True, 'C1': True, 'C4': True, 'C5': True, 'C9': True}; total 75s
