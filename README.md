@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.62) of 2026-11-05 |
-| arcs with a verdict | 1553: 1062 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
+| arcs with a verdict | 1554: 1063 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
 | points in the register | 734: 240 open (queued, leads, waiting for the owner), 494 closed |
 | the last review | Review 76 (2026-11-06), anchor `1eb535ecd` |
-| the last landing | S306k THE SEATS FETCHED: THE CHIRAL PREMISE RELOCATED, VERIFIED; THE OPEN-BOOK SCALE CARD RULED NOT SEALABLE (B1851; rows 1609–1611) (2026-11-07) |
+| the last landing | S306k (continued) THE TUBE'S REAL PART, BY TOPOLOGY (B1852): THE METRIC'S OWN τ AT THE TUBE IS 0 + 6.15(15) i (2026-11-07) |
 <!-- STATE:END -->
 
 ## Start here

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1553** |
-| words of findings prose | **1,316,163** |
+| research arcs with findings | **1554** |
+| words of findings prose | **1,316,924** |
 | test lock files referenced | **933** |
-| arcs carrying an authored verdict | **1553** (100.0 %) |
+| arcs carrying an authored verdict | **1554** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1062 |
+| PROVED | 1063 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1851`** (861 words, 0 locks)  
-THE CHIRAL PREMISE RELOCATED, VERIFIED; THE OPEN-BOOK SCALE CARD RULED NOT SEALABLE (the web seat's three relays, harvest rows 1609-1611): re-derived on main -- in DGLZ's t = k +- sigma the product's exponent is sigma*Vol/2pi + i*k*CS/2pi (modulus sigma's, phase k's), the hand is k -> -k, one factor alone is sigma = k (t = 2k), and B1012's t = k + i*sigma display gives a pure phase; L and R are Dehn twists of opposite hand, S L S^-1 = R^-1, det(phi - I) = 2 - tr phi, so LR's open book is a homology sphere and, among positive words with both letters (to length 12), only LR and RL have trace 3, while the 27 excursion members' open books have |H_1| = tr - 2 > 1; 4_1 = b++LR and 4_1(1,0) is simply connected (the knot reading's S^3 is the object's own open-book closing); B132's same-handed convention makes its m = 1 word the trace-1 periodic class (debt P-733); the one-loop B-test ratio is free of alpha(mu*), of L and of a common shift. Main's rulings: R2's theory option the open-book reading (account: the continued block on S^3), still CHOSEN; the itemized count in bits binds, and the scale card fails P-728's count either way -- not sealable (P-732). Dated notes on B1012, B287, B1034, TERMINOLOGY; P-722's draft landed. 0 of 19.  
-`B1851_the_chiral_premise_relocated_verified/FINDINGS.md`
+**PROVED — `B1852`** (761 words, 0 locks)  
+THE TUBE'S REAL PART, BY TOPOLOGY (the real number Review 76 owed): sigma's two fixed fibres carry orientation-reversing involutions whose GL(2,Z) class mod 2 decides the reduced Re tau (= I mod 2: Re 0; otherwise Re 1/2 or |tau| = 1); on L^6RLR the two fixed fibres are in opposite classes (exact), and B1847's anti-apex at Re 1/2 (7e-7) is the second, so the tube's level surface has Re tau = 0 exactly -- the metric's own tau at the tube is 0 + 6.15(15) i, differing from the Teichmuller apex (1/2 + 3.65i) in its real part as well as its height; m004 the control (both fixed levels at Re 1/2, as B1847 measured); the even-run pattern observed in four words, not proved. No coupling, scale or ratio; nothing compared with data. 0 of 19.  
+`B1852_the_tubes_real_part_by_topology/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  
