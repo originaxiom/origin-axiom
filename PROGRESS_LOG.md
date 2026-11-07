@@ -18710,3 +18710,11 @@ or are not the shape of a fibre at all. What remains chosen is still named: a po
 picks the departure. The mirror rule for the fibre's real part also became sharper, and a prediction it made held
 exactly. 0 of 19.
 
+## 2026-11-07 — S306m (continued): the charge law, settled
+
+The exploring seat proved the law where it holds and broke it where it does not. If the conserved level is 5, the
+ramified one, the run of 6 is the cheapest departure of all, not just within a searched range. Once the conserved
+levels' common multiple reaches 12, cheaper departures with gaps exist, so conserving more does not make the departure
+deeper. Main confirmed every counterexample exactly and corroborated the case at 5. The seat's full search is cited
+until main repeats it. 0 of 19.
+

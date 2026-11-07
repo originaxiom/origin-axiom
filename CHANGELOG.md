@@ -1,5 +1,17 @@
 # Changelog
 
+## S306m (continued) THE CHARGE LAW SETTLED (B1855; P-737 DONE): REFUTED FROM lcm(S) = 12, PROVED BELOW BY THE EXPLORE SEAT (2026-11-07)
+
+- **The explore seat settled P-737 both ways** (row 1615; pin 91119a38).
+- **Main's own result, the refutation.** Six gapped counterexamples satisfy the charge premise with less excess than the single run lcm(S) + 1. All were checked exactly on main's code: for example {4, 5} at 3.9224 against 4.5940, and {2, 3, 4, 5} at 3.8672 against 6.6524.
+  - So B1853's (21) and (61) rows were range artifacts, and the depth does not rise without bound with the conserved levels. B1853 has a dated note.
+- **The seat's proof for lcm(S) ≤ 10,** including S = {5}'s run of 6, is cited.
+  - Lemma A is verified to 7 × 10⁻¹⁸.
+  - S = {5} is corroborated by main's brute force: no gapped two- or three-run defect lies below the run of 6.
+  - The exhaustive search is not re-run on main (P-741, then a LAW_MAP row).
+- **Main's slip, disclosed:** a first Lemma A check used the seat's eigenvector in GENESIS's letters. With GENESIS's L and R the leading eigenvector is (φ, 1).
+- 0 of 19.
+
 ## S306m THE τ READ-OUT RULE (P-714's construction ruled); B1852's PER-CENTRE RULE (P-740 sharpened); P-739 RUNNING (2026-11-07)
 
 - **The owner:** 'continue'.
