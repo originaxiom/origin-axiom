@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/dri/origin-axiom-explore/relays/explore_2026-11-07_charge_law/post_run_counterexamples.py", line 47, in <module>
+    exA = 2 * math.log(CP.Q_E(E))
+              ^^^^^^^^^^^^^^^^^^^
+ValueError: math domain error

@@ -1,0 +1,29 @@
+S = (3, 4)         L = 12  search path (phase, s) [(1, 1), (4, 2), (7, 1)]
+   defect: 7 runs; nontrivial runs (position, run) [(1, 2), (4, 3), (7, 2)]
+   premise E = +-I mod (3, 4): True;  excess 2.78862158996 (Lemma A: 2.7886215900)  vs single run 13: 3.70211957292;  below it: True
+   highest apex Im 2.080178728  Re 0.5  (single run 13: 7.118033989)
+S = (3, 5)         L = 15  search path (phase, s) [(1, 2), (6, 1), (11, 2)]
+   defect: 11 runs; nontrivial runs (position, run) [(1, 3), (6, 2), (11, 3)]
+   premise E = +-I mod (3, 5): True;  excess 3.29967428929 (Lemma A: 3.2996742893)  vs single run 16: 4.08457041491;  below it: True
+   highest apex Im 2.115248527  Re 0.497215  (single run 16: 8.618033989)
+S = (4, 5)         L = 20  search path (phase, s) [(1, 1), (17, 1), (4, 3), (9, 1)]
+   defect: 69 runs; nontrivial runs (position, run) [(1, 2), (17, 2), (64, 4), (69, 2)]
+   premise E = +-I mod (4, 5): True;  excess 3.92242100395 (Lemma A: 3.9224210039)  vs single run 21: 4.59399339592;  below it: True
+   highest apex Im 2.615231969  Re 0.997198  (single run 21: 11.11803399)
+S = (2, 3, 5)      L = 30  search path (phase, s) [(1, 4), (33, 1), (9, 1)]
+   defect: 129 runs; nontrivial runs (position, run) [(1, 5), (33, 2), (129, 2)]
+   premise E = +-I mod (2, 3, 5): True;  excess 3.52982198908 (Lemma A: 3.5298219891)  vs single run 31: 5.33673398598;  below it: True
+   highest apex Im 3.118033989  Re 0.5  (single run 31: 16.11803399)
+S = (3, 4, 5)      L = 60  search path (phase, s) [(1, 1), (17, 1), (19, 3), (9, 1)]
+   defect: 129 runs; nontrivial runs (position, run) [(1, 2), (17, 2), (19, 4), (129, 2)]
+   premise E = +-I mod (3, 4, 5): True;  excess 3.86720224141 (Lemma A: 3.8672022414)  vs single run 61: 6.65243149298;  below it: True
+   highest apex Im 2.670820399  Re 0.947214  (single run 61: 31.11803399)
+S = (2, 3, 4, 5)   L = 60  search path (phase, s) [(1, 1), (17, 1), (19, 3), (9, 1)]
+   defect: 129 runs; nontrivial runs (position, run) [(1, 2), (17, 2), (19, 4), (129, 2)]
+   premise E = +-I mod (2, 3, 4, 5): True;  excess 3.86720224141 (Lemma A: 3.8672022414)  vs single run 61: 6.65243149298;  below it: True
+   highest apex Im 2.670820399  Re 0.947214  (single run 61: 31.11803399)
+S = (5,)           L =  5  search path (phase, s) [(1, 1), (1, 4)]
+   defect: 21 runs; nontrivial runs (position, run) [(1, 2), (21, 5)]
+   premise E = +-I mod (5,): True;  excess 2.79054188855 (Lemma A: 2.7905418885)  vs single run 6: 2.34871801124;  below it: False
+   highest apex Im 3.11803399  Re 0.5  (single run 6: 3.618033989)
+post_run_counterexamples exit 0
