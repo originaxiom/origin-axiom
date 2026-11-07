@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.62) of 2026-11-05 |
-| arcs with a verdict | 1552: 1061 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 730: 238 open (queued, leads, waiting for the owner), 492 closed |
+| arcs with a verdict | 1554: 1063 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
+| points in the register | 734: 240 open (queued, leads, waiting for the owner), 494 closed |
 | the last review | Review 76 (2026-11-06), anchor `1eb535ecd` |
-| the last landing | S306j THE OPEN LEADS AND THE BACKLOG CONFIRMED ONE BY ONE (B1850; R76-1's second half: P-617 DONE, P-616 narrowed) (2026-11-07) |
+| the last landing | S306k (continued) THE TUBE'S REAL PART, BY TOPOLOGY (B1852): THE METRIC'S OWN τ AT THE TUBE IS 0 + 6.15(15) i (2026-11-07) |
 <!-- STATE:END -->
 
 ## Start here

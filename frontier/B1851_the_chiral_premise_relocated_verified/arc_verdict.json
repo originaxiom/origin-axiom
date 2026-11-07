@@ -1,0 +1,29 @@
+{
+ "id": "B1851",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1012",
+  "B287",
+  "B1034",
+  "B132",
+  "B1847"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the web seat's relays f823dd25f, 85d65b7f5 and ca92036c (harvest rows 1609-1611)"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the complex Chern-Simons product in DGLZ's form; the once-punctured-torus bundle of LR as an open book; the one-loop running of three couplings from one",
+  "object": "the figure-eight 4_1 = b++LR (m004), its meridian filling, the excursion members' words, B132's convention",
+  "reach": "class",
+  "hypotheses": "data-free; symbols, integer matrices and SnapPy topology; the cited theorems (DGLZ, Witten's (2.30), Gordon-Luecke, genus-one fibered knots, Baldwin's Lemma 2.1, Sol's zero simplicial volume) named, not re-derived; no held-out value, scale, coupling or block value computed"
+ },
+ "claim_one_line": "THE CHIRAL PREMISE RELOCATED, VERIFIED; THE OPEN-BOOK SCALE CARD RULED NOT SEALABLE (the web seat's three relays, harvest rows 1609-1611): re-derived on main -- in DGLZ's t = k +- sigma the product's exponent is sigma*Vol/2pi + i*k*CS/2pi (modulus sigma's, phase k's), the hand is k -> -k, one factor alone is sigma = k (t = 2k), and B1012's t = k + i*sigma display gives a pure phase; L and R are Dehn twists of opposite hand, S L S^-1 = R^-1, det(phi - I) = 2 - tr phi, so LR's open book is a homology sphere and, among positive words with both letters (to length 12), only LR and RL have trace 3, while the 27 excursion members' open books have |H_1| = tr - 2 > 1; 4_1 = b++LR and 4_1(1,0) is simply connected (the knot reading's S^3 is the object's own open-book closing); B132's same-handed convention makes its m = 1 word the trace-1 periodic class (debt P-733); the one-loop B-test ratio is free of alpha(mu*), of L and of a common shift. Main's rulings: R2's theory option the open-book reading (account: the continued block on S^3), still CHOSEN; the itemized count in bits binds, and the scale card fails P-728's count either way -- not sealable (P-732). Dated notes on B1012, B287, B1034, TERMINOLOGY; P-722's draft landed. 0 of 19.",
+ "weave_or_thread": "thread (the base word LR and its open book)"
+}
