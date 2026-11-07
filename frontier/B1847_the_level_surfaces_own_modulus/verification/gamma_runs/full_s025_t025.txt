@@ -1,0 +1,5 @@
+   fibre faces from the full group: 5430 spheres (elements seen 271628, class conflicts 0)
+b++LLLLLLRLR s=0.25: grid 80x120x80 phi in 406s; v-window +-3.027 around 0.505
+   marching: 37828 vertices, 74860 triangles; on the exact level to 1.7e-12; 703s
+   clip: 452 floor vertices projected to 4.4e-16; pairing images to the nearest floor edge <= 4.4e-03; constraints 226 of 452; v-wall vertices 0; stray boundary edges 0 (heights None; grid bottom 0.250); islands dropped 204; 718s
+   tau +1.627814+1.008526i  reduced -0.372186+1.008526i  detE-1 -6.41e-04  constraint residual 3.7e-14  {'detE': 0.9993592664991726, 'constraint_res': 3.68594044175552e-14, 'vertices': 16218, 'triangles': 31824, 'negative_cot': 7112}  724s

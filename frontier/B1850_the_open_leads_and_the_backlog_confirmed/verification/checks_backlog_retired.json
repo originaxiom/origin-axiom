@@ -1,0 +1,698 @@
+[
+{
+"row": 246,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/CLOUD_ALIAS_TABLE.md",
+"quote": "| B8069 | conformal selection | — (not yet ported) |",
+"reason": "No B1600+ arc or open register row names B8069, conformal_selection or B527; never ported; the B527 metric lane is dormant."
+},
+{
+"row": 248,
+"proposed": "CLOSED-HANDLED",
+"verdict": "NOT_CONFIRMED",
+"path": "docs/POINT_REGISTER.md",
+"quote": "cc3's B8068 cells 3, 4, AXIS0 with B8071, B8073, B8077; codex R013",
+"reason": "B1098 reaches A2 by its own enumeration and never engages B8071's real-form compactness; B8071 is named in open lead P-613 (QUEUED)."
+},
+{
+"row": 250,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "NOT_CONFIRMED",
+"path": "docs/POINT_REGISTER.md",
+"quote": "cc3's B8068 cells 3, 4, AXIS0 with B8071, B8073, B8077; codex R013",
+"reason": "B8073 is named in open lead P-613 (QUEUED [LEAD], the SO(10)/SU(5) routes); cannot close as no-lead."
+},
+{
+"row": 252,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "frontier/B1140_the_64_organized/FINDINGS.md",
+"quote": "a rung in cc3's B8078 proved-tight set",
+"reason": "No late arc or open row names B8075; its sampled spectrum is superseded by B8078's tight set, which main cites."
+},
+{
+"row": 253,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "frontier/B1416_the_relay_residue_closed/FINDINGS.md",
+"quote": "the chain's C6 is the object's own count (J(m004) = 1, 48 surjections)",
+"reason": "No late arc or open row names B8076 or paper_closure; item 6's count is main's own C6; the campaign is paper-internal."
+},
+{
+"row": 254,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "NOT_CONFIRMED",
+"path": "docs/POINT_REGISTER.md",
+"quote": "cc3's B8068 cells 3, 4, AXIS0 with B8071, B8073, B8077; codex R013",
+"reason": "B8077 is named in open lead P-613 (QUEUED [LEAD]) as part of its evidence."
+},
+{
+"row": 256,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "NOT_CONFIRMED",
+"path": "docs/POINT_REGISTER.md",
+"quote": "the incidence poset of the 109 enhancement flats with reality",
+"reason": "B8079's exact 109-flat arrangement (same lattice as codex R013) is the input to open lead P-613's first computation."
+},
+{
+"row": 257,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "main's entrance argument (B266's arithmetic chain) never relied on it",
+"reason": "B1416 read the RULING_BANDS relay and registered B8080's refutation as row 626; main never relied on it."
+},
+{
+"row": 258,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "docs/RELAY_LEDGER.md",
+"quote": "B1075 clean at claim level; kill graph clean; NO NEGATIVE BIAS FOUND",
+"reason": "RELAY_LEDGER banked the owner-routed cold audit's trail and relayed the CLEAN verdict to the owner."
+},
+{
+"row": 259,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1093_route_a_arithmetic/FINDINGS.md",
+"quote": "(the audit seat cited it banked; this bench proved it)",
+"reason": "B1093 re-proved B8085's Route A arithmetic (h = h⁺ = 1) on main's bench and names the audit seat's citation."
+},
+{
+"row": 261,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "B8087's own script re-run here, rc 0, all checks PASS",
+"reason": "B1416 re-ran B8087's script and graded it VERIFIED-EARLIER as B1092 (row 623)."
+},
+{
+"row": 264,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1076_coboundary_sweep/FINDINGS.md",
+"quote": "(phrasing corrected 2026-08-19, the cold audit's finding",
+"reason": "B1076's FINDINGS carries the corrected kernel phrasing, dated and credited to the cold audit's finding 1 (B8090)."
+},
+{
+"row": 266,
+"proposed": "CLOSED-HANDLED",
+"verdict": "NOT_CONFIRMED",
+"path": "docs/RELAY_LEDGER.md",
+"quote": "its substance is the seat arcs it reports, B8092, each with a HARVEST_LEDGER row",
+"reason": "No main arc engaged B8092's findings: RELAY_LEDGER only rowed it, B8096 is cc3's own, B1829 never names it. Fits NO-LOAD instead."
+},
+{
+"row": 269,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "B8095 — L-package lane 6: the paper's related-work armor, five differentiators",
+"reason": "No late arc or open register row names B8095 or related_work_armor; paper positioning only."
+},
+{
+"row": 270,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "B8096 — the residue hunt re-run with the guard relaxed:",
+"reason": "No late arc or open row names B8096 or relaxed_residue; it is cc3's own strengthened negative on a closed lane."
+},
+{
+"row": 271,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "docs/OPEN_PROBLEMS.md",
+"quote": "The buried-results ledger (B8097, 2026-08-20) — results banked too NARROW",
+"reason": "OPEN_PROBLEMS §7 (Review 47) brings B8097's catalogue into the doc by name; its PENDING rows remain bookkeeping debt."
+},
+{
+"row": 272,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "papers/P3_THE_PAPER/sweep_s10/w6.items.json",
+"quote": "superseded by a stronger, later argument: m004 is the unique orientable solution of a Jorgensen-number minimization",
+"reason": "The P3 sweep graded B8097's item L1, which B8098 verifies, superseded by the Jørgensen selection; the family reframe also supersedes it."
+},
+{
+"row": 276,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "B8103 — the specialist register revisited:",
+"reason": "No late arc or open register row names B8103 or specialist_revisit; relays only rowed it; no live lead."
+},
+{
+"row": 278,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "CHANGELOG.md",
+"quote": "The audit seat's R48 phase-1 verified finding (the registry's same-PR",
+"reason": "CHANGELOG records R48-F1's response to B8105: 28 rows backfilled and the creates_law gate added."
+},
+{
+"row": 279,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "CHANGELOG.md",
+"quote": "The audit seat's phase-2 finding accepted as filed: the requirements",
+"reason": "CHANGELOG records B8106's R48-F2 finding accepted as filed, with the correction landed."
+},
+{
+"row": 280,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "CHANGELOG.md",
+"quote": "creates_law true. RIDING THIS BANK: R48-F4's one-line fix",
+"reason": "B8107's R48-F4 was fixed in BANKING_PROTOCOL as part of B1104's bank; harvest row 628 registers B8107."
+},
+{
+"row": 281,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "docs/CAMPAIGN_STATUS.md",
+"quote": "R48 CLOSED (4 findings, 0 new in phases 3–4)",
+"reason": "R48 recorded closed with zero new findings in phases 3–4: B8108 graded at verdict level only."
+},
+{
+"row": 287,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "B8114 — the paper's related-work armor: five differentiators, each ending in a NON-claim",
+"reason": "No late arc or open register row names B8114; a duplicate related-work armor, paper positioning only."
+},
+{
+"row": 293,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1416_the_relay_residue_closed/FINDINGS.md",
+"quote": "59 have a surjection onto SL(2,3), 35 have none",
+"reason": "B1416 answered B8120's F1 theorem ask (ℚ(√−3) ⟹ 2T) negatively by a family count; its M4 is registered at row 627."
+},
+{
+"row": 294,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "main's paper never carried that theorem — nothing to port",
+"reason": "B1416 registered B8121's BMR repair as row 627: it belongs to cc3's paper only."
+},
+{
+"row": 295,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "`frontier/B8122_constructive_items` @ a31456d2",
+"reason": "No late arc or open register row names B8122 or constructive_items; paper-internal items."
+},
+{
+"row": 296,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "m13's fix concerns cc3's paper only; R48-F4 is on main in BANKING_PROTOCOL",
+"reason": "B1416 re-read B8123 and registered it at row 628."
+},
+{
+"row": 304,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "`frontier/B8131_brief_triage` @ a31456d2",
+"reason": "No late arc or open register row names B8131 or brief_triage; a specialist-gate triage holding no live lead."
+},
+{
+"row": 306,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "`frontier/B8133_residue2_reframed` @ a31456d2",
+"reason": "No late arc or open row names B8133 or its Ruelle/Fried content; late 'Fried' hits are homonyms (Friedmann, Friedrichs)."
+},
+{
+"row": 307,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/RELAY_LEDGER.md",
+"quote": "Correction to my last relay: the codex seat is mid-work. My characterization was wrong.",
+"reason": "No late arc or open row names B8134; cc3 itself withdrew the characterization."
+},
+{
+"row": 308,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/RELAY_LEDGER.md",
+"quote": "cc3's bank; venue/order/arXiv endorsement are the owner's",
+"reason": "No late arc or open row names cc3's B8135 (GENESIS's 'B8135' is codex's homonym); the series relay was declined."
+},
+{
+"row": 309,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "NOT_CONFIRMED",
+"path": "docs/POINT_REGISTER.md",
+"quote": "the incidence poset of the 109 enhancement flats with reality",
+"reason": "Paper II writes up the 109-flat lattice and 'C forced'; open lead P-613 rests on that same lattice (via codex R013)."
+},
+{
+"row": 310,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/RELAY_LEDGER.md",
+"quote": "cc3's bank; venue/order/arXiv endorsement are the owner's",
+"reason": "No late arc or open row names B8137 or paper3_drafted; the series relay was declined and is owner-gated."
+},
+{
+"row": 321,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "REFUTED on main: the narrow class group of discriminant 148 has order 3",
+"reason": "B1416 refuted B8148's m = 12 count by its own recount (row 625)."
+},
+{
+"row": 322,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "NOT_CONFIRMED",
+"path": "docs/RELAY_LEDGER.md",
+"quote": "R013 uptake: I cannot read your closure, so I narrowed the residue instead",
+"reason": "B8149 is cc3's uptake of codex R013 (Paper II's ℚ̄ residue, including the 26 value); open lead P-613 rests on R013's flats."
+},
+{
+"row": 323,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/RELAY_LEDGER.md",
+"quote": "R011 Paper-III Ruelle fenced — corroborates B1157",
+"reason": "No late arc or open row names B8150; codex's fence of Paper III corroborates B1157; nothing current rests on it."
+},
+{
+"row": 326,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1187_depth_closure/ADDENDUM_b8153_nine_words.md",
+"quote": "ADDENDUM (2026-08-28, cc3's B8153 verified) — the B500 partition corrected",
+"reason": "B1187's addendum verifies B8153 by name: the B500 partition corrected and the mod-p route recorded as vacuous."
+},
+{
+"row": 623,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "row 261's SCHEDULED is superseded",
+"reason": "Row 623 already reads VERIFIED-EARLIER (B1416 re-ran B8087's script); it matched only on the word SCHEDULED."
+},
+{
+"row": 489,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "frontier/B777_braver_questions/CC_GATE_NOTE.md",
+"quote": "cc3 merges nothing; this is the gated fold.",
+"reason": "Main's B777 gated the fold; no late arc or open row names braver B775 (P-617's B775 is main's homonym)."
+},
+{
+"row": 490,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B802_cc3_b783_harvest/FINDINGS.md",
+"quote": "cc3's B783 (observer ground-zero) harvested, its headline negative INDEPENDENTLY CONFIRMED",
+"reason": "B802 harvested B783 and independently confirmed its headline negative."
+},
+{
+"row": 491,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "docs/ERROR_LEDGER.md",
+"quote": "After the B784 audit, every session lock was swept for the class two ways",
+"reason": "Main audited B784 (θ-bridge vacuous on the character variety) and ran the E27 sweep; LAW_MAP row 70 carries the lemma."
+},
+{
+"row": 492,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B795_eigenvalue_verification/FINDINGS.md",
+"quote": "cc3's m004 Maass eigenvalues INDEPENDENTLY VERIFIED (7/7)",
+"reason": "B795 re-derived B792's eigenvalues with independent code; B797 harvested them."
+},
+{
+"row": 494,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.02 | qB1025 | ACCEPTED-WEAK | RUN | the suite-collection repair",
+"reason": "B1060 digest row 1.02 grades qB1025 ACCEPTED-WEAK/RUN."
+},
+{
+"row": 495,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.03 | qB1026 | ACCEPTED-WEAK + FLAG | RUN | ONE INVOLUTION SIX NAMES",
+"reason": "Digest row 1.03 grades qB1026 ACCEPTED-WEAK; flag resolved by full read."
+},
+{
+"row": 496,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.04 | qB1027 | ACCEPTED-WEAK | RUN | κ = 2 IS THE FREE CHAIN",
+"reason": "Digest row 1.04 grades qB1027 ACCEPTED-WEAK/RUN."
+},
+{
+"row": 497,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.05 | qB1028 | ACCEPTED-WEAK | RUN | κ absolutely conserved",
+"reason": "Digest row 1.05 grades qB1028 ACCEPTED-WEAK/RUN."
+},
+{
+"row": 498,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.06 | qB1029 | ACCEPTED | REBUILT | the seam is not a third face",
+"reason": "Digest row 1.06: qB1029 ACCEPTED, rebuilt on main's bench."
+},
+{
+"row": 499,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.07 | qB1030 | ACCEPTED-WEAK | RUN | the input audit",
+"reason": "Digest row 1.07 grades qB1030 ACCEPTED-WEAK, cross-referenced to THE_FRAMEWORK's count discipline."
+},
+{
+"row": 500,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.08 | qB1031 | ACCEPTED-WEAK | RUN | three generations STRUCTURAL-not-derived",
+"reason": "Digest row 1.08 grades qB1031 ACCEPTED-WEAK/RUN."
+},
+{
+"row": 501,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.09 | qB1032 | ACCEPTED-WEAK | RUN | the across-breakings route",
+"reason": "Digest row 1.09 grades qB1032 ACCEPTED-WEAK/RUN (the reader's weak L4 note is separate)."
+},
+{
+"row": 502,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.10 | qB1033 | ACCEPTED-WEAK | RUN | the second debt register",
+"reason": "Digest row 1.10 grades qB1033's surviving scoped claim ACCEPTED-WEAK."
+},
+{
+"row": 503,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.11 | qB1034 | ACCEPTED | RUN+CONSUMED | two κ's (constant vs function-with-locus)",
+"reason": "Digest row 1.11: qB1034 ACCEPTED and consumed (TERMINOLOGY)."
+},
+{
+"row": 504,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.12 | qB1035 | ACCEPTED-WEAK | RUN | the shadow-library correction",
+"reason": "Digest row 1.12 grades qB1035 ACCEPTED-WEAK/RUN."
+},
+{
+"row": 505,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.13 | qB1036 | ACCEPTED-WEAK | RUN | the knowledge room",
+"reason": "Digest row 1.13 grades qB1036 ACCEPTED-WEAK/RUN."
+},
+{
+"row": 506,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.14 | qB1037 | ACCEPTED-WEAK | RUN | the B100–B199 band dispositioned",
+"reason": "Digest row 1.14 grades qB1037 ACCEPTED-WEAK/RUN."
+},
+{
+"row": 507,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.15 | qB1038 | ACCEPTED-WEAK | RUN | the tower cluster restored",
+"reason": "Digest row 1.15 grades qB1038 ACCEPTED-WEAK/RUN."
+},
+{
+"row": 508,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.16 | qB1039 | CORRECTED | REBUILT | the restoration re-verify that caught B141's false mechanism",
+"reason": "Digest row 1.16: qB1039 CORRECTED, rebuilt on main's bench; addendum landed."
+},
+{
+"row": 509,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.17 | qB1040 | ACCEPTED-WEAK | RUN | the isomonodromy cluster restored",
+"reason": "Digest row 1.17 grades qB1040 ACCEPTED-WEAK/RUN."
+},
+{
+"row": 510,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.18 | qB1041 the_red_locks | ACCEPTED-WEAK | RUN | the process findings",
+"reason": "Digest row 1.18 grades qB1041 ACCEPTED-WEAK; 3 of 10 checks are environment-bound."
+},
+{
+"row": 511,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.19 | qB1042 | ACCEPTED-WEAK | RUN | the lessons-vs-register audit",
+"reason": "Digest row 1.19 grades qB1042 ACCEPTED-WEAK; main repaired the register."
+},
+{
+"row": 512,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.20 | qB1043 | ACCEPTED-WEAK | RUN | band-is-the-wrong-unit",
+"reason": "Digest row 1.20 grades qB1043 ACCEPTED-WEAK/RUN."
+},
+{
+"row": 513,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.21 | qB1044 | ACCEPTED-WEAK | RUN | the topic search made mechanical",
+"reason": "Digest row 1.21 grades qB1044 ACCEPTED-WEAK/RUN."
+},
+{
+"row": 514,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.22 | qB1045 | ACCEPTED-WEAK | RUN | the instrument's first measured miss",
+"reason": "Digest row 1.22 grades qB1045 ACCEPTED-WEAK/RUN."
+},
+{
+"row": 515,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.23 | qB1046 | ACCEPTED-WEAK | RUN | the supersession graph is one-way",
+"reason": "Digest row 1.23 grades qB1046 ACCEPTED-WEAK/RUN."
+},
+{
+"row": 516,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.24 | qB1047 | ACCEPTED-WEAK | RUN | the seam cluster from the bodies",
+"reason": "Digest row 1.24 grades qB1047 ACCEPTED-WEAK/RUN."
+},
+{
+"row": 517,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.25 | qB1048 | ACCEPTED | REBUILT | seam cluster CLOSED",
+"reason": "Digest row 1.25: qB1048 ACCEPTED, its boundary rebuilt on main's bench (B426 addendum)."
+},
+{
+"row": 518,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.26 | qB1049 | ACCEPTED-WEAK | RUN | the full suite found five red locks",
+"reason": "Digest row 1.26 grades qB1049 ACCEPTED-WEAK/RUN."
+},
+{
+"row": 519,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.27 | qB1050 | ACCEPTED-WEAK | RUN | the projective quotient fully natural",
+"reason": "Digest row 1.27 grades qB1050 ACCEPTED-WEAK/RUN."
+},
+{
+"row": 520,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.28 | qB1051 | ACCEPTED-WEAK | RUN | B0–B99 closed (the fixed line is Dickson",
+"reason": "Digest row 1.28 grades qB1051 ACCEPTED-WEAK/RUN."
+},
+{
+"row": 521,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.29 | qB1052 | ACCEPTED-WEAK | RUN | the exit manual",
+"reason": "Digest row 1.29 grades qB1052 ACCEPTED-WEAK; verify.py re-run 70/72."
+},
+{
+"row": 522,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 1.30 | qB1053 | ACCEPTED-WEAK | RUN | the unread-handoffs self-audit",
+"reason": "Digest row 1.30 grades qB1053 ACCEPTED-WEAK/RUN."
+},
+{
+"row": 523,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1060_digest_ledger/DIGEST_LEDGER.md",
+"quote": "| 4.8 | their Review 1 (qB1054, DELIVERED at 8a4d70b4) | ACCEPTED-WEAK | RUN",
+"reason": "Digest row 4.8 grades qB1054 (the seat's Review 1) ACCEPTED-WEAK; 70/72 re-run."
+},
+{
+"row": 202,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "frontier/B1155_seam_a/FINDINGS.md",
+"quote": "the heterotic axiom does not (on the banked evidence) collapse into the ∞-place",
+"reason": "No late arc or open register row names R001, its file or height-308; the heterotic frame was walled (B1155) and retired."
+},
+{
+"row": 203,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "documents/codex-seat-r002-masterplan.md",
+"reason": "No late arc or open register row names R002 or its masterplan; it is a campaign plan in a retired frame."
+},
+{
+"row": 205,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1153_peripheral_and_superposition/FINDINGS.md",
+"quote": "Codex Wave-3 corrections adopted (into B1148/B1149; the banked math is unchanged)",
+"reason": "B1153 adopted the wave-3 map's corrections and closed OA-C1083; the other live rows are taken up in B1201, B1208, B1147 and B1171."
+},
+{
+"row": 206,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1147_clane_harvest/ADDENDUM_2026-09-02_B1240.md",
+"quote": "the cited run record `reproduce.log` is gitignored. This is the E57 shape",
+"reason": "B1147's B1240 addendum fixes exactly R005's defect: the lock read an untracked reproduce.log."
+},
+{
+"row": 207,
+"proposed": "CLOSED-HANDLED",
+"verdict": "NOT_CONFIRMED",
+"path": "frontier/B1147_clane_harvest/verification/VENDORED_FROM.txt",
+"quote": "origin/outside-bench @ dc937010: outside_bench/certificates/jordan_beat.py",
+"reason": "B1147 predates R006 and takes rows 32/35 from the cloud's certificate; no main arc read codex R006. Content is on main; fits NO-LOAD."
+},
+{
+"row": 208,
+"proposed": "CLOSED-HANDLED",
+"verdict": "NOT_CONFIRMED",
+"path": "frontier/B1147_clane_harvest/FINDINGS.md",
+"quote": "⟨ω₁,H⟩ even for EVERY even-labeled coroot-lattice element of E₆",
+"reason": "B1147 row 34 (cloud memo A5) predates R007; no main text names R007 or OA-C1070. Content is on main; fits NO-LOAD."
+},
+{
+"row": 209,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1153_peripheral_and_superposition/FINDINGS.md",
+"quote": "Closes codex OA-C1082/OA-C1083; completes memo 43.",
+"reason": "B1153 row 54 independently derives R008's identity (defect x²−4 off the parabolic divisor) and closes codex OA-C1082/OA-C1083."
+},
+{
+"row": 217,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1158_cloud_wave2_harvest/ADDENDUM_fence_note_R016.md",
+"quote": "B1158 addendum — fence note (2026-08-27, B1171; adopting codex R016's scope)",
+"reason": "B1171 adopted R016's fence as a B1158 addendum that credits R016's computation."
+},
+{
+"row": 223,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1201_lee_verified_and_harvest/FINDINGS.md",
+"quote": "codex R020/R021/R022: 3/3 reproduce byte-identically, none contradicts main",
+"reason": "B1201 reproduced R022 and adopted it as already absorbed into B1182's C4′ resolution."
+},
+{
+"row": 230,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "docs/progress/REVIEWS.md",
+"quote": "Adjudication carried into this review — codex R029 (OA-C1169)",
+"reason": "Review 53 §8 verified R029's OA-C1169 as an independent corroboration of B1095."
+},
+{
+"row": 231,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "docs/RELAY_LEDGER.md",
+"quote": "A CORRECTION TO THIS BENCH, ADOPTED**: per B632's own `REPAIR_ADJUDICATION.md`",
+"reason": "RELAY_LEDGER banked the wave-8 hostile read: B1218 reproduced and the h¹ = 3 correction adopted."
+},
+{
+"row": 233,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "memos/YUKAWA_SPARSE_TORIC_TRACE_308.md",
+"reason": "No late arc or open register row names R031, its certificate or memo; retired heterotic flavour frame, never verified on main."
+},
+{
+"row": 234,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1232_codex_r031_verified_and_three_columns/FINDINGS.md",
+"quote": "`r031a`, re-run here: `B_0 generator exponents = (0,0,0,0)`",
+"reason": "B1232 re-ran codex's r031a certificate and retracted main's claim accordingly (retraction 3)."
+},
+{
+"row": 235,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1232_codex_r031_verified_and_three_columns/FINDINGS.md",
+"quote": "Codex's `r031b` cert, re-run here:",
+"reason": "B1232 re-ran codex's r031b certificate and adopted its RCFT-scope retractions."
+},
+{
+"row": 236,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1416_the_relay_residue_closed/FINDINGS.md",
+"quote": "CODEX 2026-09-01 WAVE9_QUESTION_MAP | nine rows OA-C1176–C1184",
+"reason": "B1416 reconciled the wave-9 map row by row (row 630): eight rows on main, OA-C1184 registered open."
+}
+]

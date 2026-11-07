@@ -113,3 +113,17 @@
 - **The headline, as run:** the six alone (1.36) and the four alone (0.35) were reached at different fitted addresses, with c = 3 by hand; the run did not vary the number of addresses. It reads: NOT FOUND for FR-FIB as typed — no address within the census's reach carries the ten.
 - **The scope adds H = I** (the generations' metric, a CHOSEN input on the card, B1822: "the census stands, for FR-FIB with H = I"); B1822 is added to depends_on. The web seat's local search at the address finds no near-identity metric that rescues it (its h_near_identity.py; not re-run on main). The reach also omits Im τ < 1, the fundamental domain's sliver below 1.
 - **What stands:** χ²_ten exceeds 291 at every point of the reach; by the triangle inequality no shift of the targets under about 12σ in norm reaches the gate, and running is about 3.4σ (R1; P-590).
+
+## Dated note (2026-11-06, S306i, Review 76's R76-1; P-527 and P-494): what the card did not carry
+
+- **The CM arm was dropped and not disclosed.** THE FINAL ATTACK named a forced-CM-against-control comparison. The
+  revised Step B design, which this card ran, has none (the second pre-seal review's NB14, P-527). The card carries no
+  CM read-out, and its Disclosed section did not say so. It is disclosed here.
+- **Main's CM sighting, recorded by hand on 2026-10-29 before any CM table (P-494), did not reach § 7 Disclosed.**
+  - τ = 3i (ℚ(i), D = −36) and τ = (1 + 7√3 i)/4 = 0.25 + 3.031i (ℚ(√−3), D = −588) lie in the fitted strip
+    (Im τ 2.96–3.11).
+  - Such a sighting is expected by density: with ∣D∣ ≤ 800, twelve CM points of the table's ten fields lie in
+    Im τ ∈ [2.9, 3.15]. It is not evidence.
+- **What it changes:** nothing in the verdict. The card is NEGATIVE as sealed, and the miss (χ²_ten above 291 at every
+  point of the reach) does not depend on CM.
+- **Where the CM leads went:** P-425 and P-449 now live under P-419 (selection by inversion), and no card has read them.

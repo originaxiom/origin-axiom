@@ -51,3 +51,16 @@ def test_the_excursion_apexes_and_the_period_average_output():
         A = np.array([r["lnratios"][key] for r in rows])
         assert apex["lnratios"][key][1] < A.mean(0)[1] - 3.0, key      # the apex is far more hierarchical than the loop
     assert np.mean([r["reduced"][1] > 2 for r in rows]) < 0.25
+
+
+def test_the_line_stabilizers_images_at_level_four():
+    """Review 76's R76-4 (P-711): order-5 lines have image S4 (commutant 1 on the 3); order-10 lines a D4 (commutant 2)"""
+    import subprocess, sys
+    out = subprocess.run([sys.executable, "-B", str(HERE / "stabilizer_images.py")], capture_output=True, text=True,
+                         check=True, timeout=120).stdout
+    assert out == (HERE / "stabilizer_images_run.txt").read_text(encoding="utf-8")
+    lines = out.strip().splitlines(); assert len(lines) == 7
+    for ln in lines[:3]:
+        assert "of order 24" in ln and ln.endswith("commutant on the 3 = 1")
+    for ln in lines[3:]:
+        assert "of order  8" in ln and "[1, 2, 4]" in ln and ln.endswith("commutant on the 3 = 2")

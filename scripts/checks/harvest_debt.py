@@ -49,7 +49,7 @@ LEDGER = ROOT / "docs" / "HARVEST_LEDGER.md"
 # backlog would block every landing until 282 rows are read, which is not a gate but a stop; failing
 # on GROWTH is the instrument that fits: the backlog may shrink freely and may not grow silently.
 # Lower this number when rows are discharged. Never raise it without an owner's decision recorded.
-SCHEDULED_BASELINE = 282
+SCHEDULED_BASELINE = 46    # R76-1 (P-616, B1850): 282 -> 272 (four counted only in their history) -> 46 (216 closed at their pointers, 10 re-pointed to open rows)
 RELAY_LEDGER = ROOT / "docs" / "RELAY_LEDGER.md"
 STALE_DAYS = 21
 MAIN_REF = "origin/main"
@@ -270,6 +270,15 @@ def read_rows(text):
         rows.append(dict(n=int(cells[0]), seat=cells[1], item=cells[2], path=cells[4] if len(cells) > 4 else "",
                          disp=cells[5] if len(cells) > 5 else "", text=" ".join(cells[1:6])))
     return rows
+
+
+def is_scheduled(disp):
+    """a row is SCHEDULED when its CURRENT disposition says so. P-616 (Review 74; fixed at R76-1, 2026-11-06): the count
+    tested a substring, so rows whose history kept the word ("was: SCHEDULED", "Was: RECEIVED, SCHEDULED", "row 261's
+    SCHEDULED is superseded") were counted as open debt. A was-clause runs to its closing bracket or the cell's end."""
+    d = re.sub(r"(?i)\bwas:[^)\]]*", "", disp)
+    d = re.sub(r"\brow \d+'s SCHEDULED\b", "", d)
+    return "SCHEDULED" in d
 
 
 def relay_ledger_names(text):
@@ -613,10 +622,10 @@ def run(fetch=False, strict=False):
     # cloud, braver and qor5up had been retired or merged two days earlier -- the gate was green over the
     # larger half of its own debt, and over exactly the half that had lost its owner. This count reads the
     # ledger file and nothing else, so retiring a seat can no longer retire its debt.
-    report["ledger_scheduled_total"] = sum(1 for r in rows if "SCHEDULED" in r["disp"])
+    report["ledger_scheduled_total"] = sum(1 for r in rows if is_scheduled(r["disp"]))
     report["ledger_scheduled_by_seat"] = {}
     for r in rows:
-        if "SCHEDULED" in r["disp"]:
+        if is_scheduled(r["disp"]):
             k = (r["seat"] or "?").strip().lower()[:24]
             report["ledger_scheduled_by_seat"][k] = report["ledger_scheduled_by_seat"].get(k, 0) + 1
     rnames = relay_ledger_names(RELAY_LEDGER.read_text(encoding="utf-8", errors="ignore")) if RELAY_LEDGER.is_file() else set()
@@ -700,7 +709,7 @@ def run(fetch=False, strict=False):
             report["integrity"].append(f"{k}: pin {pin[:8]} lags its rows -- they cite {len(lag)} later commit(s) on the seat's line "
                                        f"({', '.join(c[:9] for c in lag[:4])}); move the pin when the rows are written (P-541)")
         # B1306 D: a SCHEDULED row is a debt with a name, not a disposition -- counted and reported so it cannot hide behind the row
-        scheduled = [r["n"] for r in srows if "SCHEDULED" in r["disp"]]
+        scheduled = [r["n"] for r in srows if is_scheduled(r["disp"])]
         s.update(index_size=len(idx), rows=len(srows), changed_paths=len(age_by_path), unmapped_changed=sorted(unmapped)[:12],
                  unmapped_count=len(unmapped), new_unrowed=rec["new_unrowed"], new_rowed=rec["new_rowed"],
                  new_age={i: new_age[i] for i in rec["new_unrowed"]}, backlog=rec["backlog"], stale_rows=rec["stale_rows"], aged=rec["aged"], scheduled_rows=len(scheduled))

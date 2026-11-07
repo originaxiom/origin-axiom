@@ -1,0 +1,3 @@
+the old C-T (both calls reduced to identical inputs): 7.5e-16 (a tautology)
+the genuine T-law, singular values (unreduced theta machinery at tau + 1): 6.6e-16 -> HOLDS
+the genuine T-law, |Y| entrywise: 7.9e-02 -> the matrices are related by a non-diagonal unitary, not by phases

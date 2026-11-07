@@ -13,24 +13,26 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1550 |
-| … PROVED | 1059 |
+| arcs with a verdict file | 1552 |
+| … PROVED | 1061 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 729 |
-| … QUEUED | 303 |
-| … LEAD | 9 |
+| register points | 730 |
+| … QUEUED | 230 |
+| … LEAD | 4 |
 | … OWNER | 4 |
-| … DONE | 402 |
+| … DONE | 481 |
 | … DECLINED | 11 |
-| harvest rows (the last number) | 1604 |
+| harvest rows (the last number) | 1608 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1850 | PROVED | THE OPEN LEADS AND THE BACKLOG CONFIRMED ONE BY ONE (Review 76's R76-1: the rest of P-617, and P-616): every proposal of Review 74's readers checked at its pointer, each decision backed by a quote found verbatim (313 of… |
+| B1849 | PROVED | THE LEADS CONFIRMED ONE BY ONE (Review 76's R76-1, the register half of P-617): every proposal of Review 74's reader for the register's lead-typed rows checked by main at its pointer -- 30 rows closed (19 answered, 6 su… |
 | B1848 | PROVED | REVIEW 76 (the owner: 'lets do the decadal first right moment'; 36 commits, S305p-S306d): the loop closed (R75-1..3 declined at their third carry, rows kept; R75-6, R75-7 and R75-9's P-718 half resolved; four carried);… |
 | B1847 | PROVED | THE LEVEL SURFACE'S OWN MODULUS (P-727; data-free): an instrument reading the conformal modulus of a harmonic level surface from its 3D shape and its fibre group alone -- validated on a Fuchsian control of known tau (re… |
 | B1846 | PROVED | THE METRIC'S READ-OUT (the owner's goal of 2026-11-06, FL-05; data-free): the hyperbolic metric fixes, with no choice, a clock on the fibration circle -- harmonic time theta (the harmonic map in the fibre class; B1295's… |
@@ -41,8 +43,6 @@
 | B1839 | NEGATIVE | THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/… |
 | B1838 | OPEN | THE END (P-421, OPEN): the web seat's sealed exact-end look reproduced on main (P-595 paid) -- the candidate's six pass only with the small-cut end (chi2 2.4-4.9) and fail at the exact horoball norms (31-54; 26-36 with… |
 | B1837 | PROVED | THE AGY LANE'S STAGES 8-9 AND THE WEB SEAT'S DENSITY HIGGS VERIFIED: main stands on six of the lane's seven rebuttals (the seventh, the mirror, already proved) -- at one Higgs every generation's lepton/down relation and… |
-| B1836 | PROVED | THE SEATS PAST S300 VERIFIED (the owner's 'fetch and verify agy and other seats'): the F7 mirror identity PROVED (T-FRAME-MIRROR; the agy lane's Theorem 60 repaired); T a symmetry of the frame's outputs (8e-13; main's S… |
-| B1835 | OPEN | U_e AND THE PMNS (P-638, OPEN; the owner's ruling P-660): the control passes on main's code -- on all 24 order-5 lines Y_e = c Y_d^T and U_e^L = conj(U_d^R) to 1e-15, 0.33-0.40 off on the order-10 lines; the design: the… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -56,24 +56,24 @@
 
 ## The last landings (CHANGELOG)
 
+- S306j THE OPEN LEADS AND THE BACKLOG CONFIRMED ONE BY ONE (B1850; R76-1's second half: P-617 DONE, P-616 narrowed) (2026-11-07)
+- S306i THE LEADS CONFIRMED ONE BY ONE (B1849; R76-1, the register half of P-617) (2026-11-06)
+- S306h REVIEW 76'S ITEMS WORKED: B1842'S CONTROLS RUN (C-T CORRECTED), THE SEAL-ORDER LIST FROZEN, THE LINE STABILIZERS (2026-11-06)
+- S306g REVIEW 76'S ITEMS WORKED: THE TUBE'S OWN MODULUS (B1847 § 8; P-727 DONE), DOOR C'S C5, R2'S FORM (2026-11-06)
+- S306f THE LACIE SYNCED WHOLE; THE SEATS FETCHED AFTER REVIEW 76 (2026-11-06)
 - S306d THE LEVEL SURFACE'S OWN MODULUS (B1847; P-727) + THE SEATS FETCHED + MAIN'S RULING ON B1012 (2026-11-06)
 - S306c THE OWNER'S TWO QUESTIONS ROWED; P-727 IN PROGRESS (P-728, P-729; 2026-11-06)
 - S306b THE METRIC'S READ-OUT: HARMONIC TIME (B1846; P-726, P-727; 2026-11-06)
-- S306a THE SEATS FETCHED: THE READ-OUT THE HISTORY'S SYMMETRY FORCES (2026-11-06)
-- S305z THE PLEATED LAYERS READ; EVERY CHOICE AT ONCE; BOTH TWINS (P-723, P-724, P-725; 2026-11-06)
-- S305y THE REPO FETCHED; ONE LEVEL FROM TWO SEATS; THE LINE'S LAST BIT A CHIRAL PAIR; STAGE C VALIDATED (2026-11-06)
-- S305v THE SEATS REFETCHED; LEAST ACTION UNDER THE RUNG'S INVISIBILITY (2026-11-06)
-- S305u THE HYPERBOLIC METRIC'S OWN READ-OUT (P-723; 2026-11-06)
 
 ## The latest campaign line
 
-LATEST (2026-11-06, REVIEW 76 (B1848): the reader holds B1845–B1847 with notes; B1846's 'no point is forced' corrected — the metric's systole is a canonical point at the tube, with the volume weight's peak; the suite's four window failures fixed; P-727's preliminary tube value withdrawn (failed on the finer grid). 0 of 19.)
+LATEST (2026-11-07, S306j: B1850 — the open leads and the backlog confirmed one by one: 24 of 73 lead closures held (open leads 79 → 55; 48 kept with notes), 216 of 240 SCHEDULED rows closed (ledger-wide 272 → 46; 10 re-pointed to open rows); the counter's substring bug fixed; P-617 DONE; P-730 new (GENESIS's row-189 pointer). 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
 | check | count | first items |
 |---|---|---|
 | arc folders without a verdict file (scripts/checks/arc_data.py classifies them; its resolved R-classes are not defects) | 41 | B1840_the_principled_ends, B1842_the_closure_instruments, B263_t41_cs_levels, B452_ethogram_dictionary, B473_criticality_program, B501_universe_word |
-| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 159 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
+| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 156 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
 | register rows not in the 7-cell form | 0 | — |
 

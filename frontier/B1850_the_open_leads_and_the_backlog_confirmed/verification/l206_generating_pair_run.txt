@@ -1,0 +1,2 @@
+w = bbabaAbbabaAAA: |hol(w) - hol(b)| up to sign 8.5e-15; control |hol(w) - hol(a)| 2.00
+-> b lies in <ABABB, a>, so the parabolic pair generates pi_1(m003)

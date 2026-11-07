@@ -1,0 +1,666 @@
+[
+{
+"row": 44,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1305_the_cloud_156_178/FINDINGS_B.md",
+"quote": "SLICE B (the quantum-face line, memos 174–182 + the relay of 2026-09-08)",
+"reason": "B1305 slice B verified the relay's claims and recorded where it differs; the row is already BANKED and is counted only through its 'Was:' substring."
+},
+{
+"row": 351,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1093_route_a_arithmetic/FINDINGS.md",
+"quote": "**h(K) = 1 PROVED** (the audit seat cited it banked; this bench proved it)",
+"reason": "B1093 predates the memo and proved h(K)=1 for the same disc-6237 field (x³−12x−5 under θ→−θ). The 953 generator follows but was not separately checked."
+},
+{
+"row": 352,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1093_route_a_arithmetic/FINDINGS.md",
+"quote": "all EIGHT prime ideals of norm ≤ bound exhibited PRINCIPAL with explicit generators",
+"reason": "B1093 predates the memo and proved h(K)=1 by the same method: explicit principal generators below the Minkowski bound."
+},
+{
+"row": 355,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1200_one_polynomial/FINDINGS.md",
+"quote": "Cloud independently reproduced **two of this bench's batch-5 results**",
+"reason": "B1200 names the cloud seat's reproduction and verifies the memo's Φ₃(κ−2)=0 cross-link exactly on main."
+},
+{
+"row": 357,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1201_lee_verified_and_harvest/verification/cells.json",
+"quote": "with an independence theorem built on cloud's own memo 108 automorphism; reproduces byte-identical",
+"reason": "B1201 re-ran memo 109's certificate byte-identical. Its check I1 re-verifies memo 108's word map on all 13120 words."
+},
+{
+"row": 358,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1201_lee_verified_and_harvest/verification/cells.json",
+"quote": "fence_independence.py (memo 109) -> BYTE-IDENTICAL (I1 on all 13120 words to length 8",
+"reason": "B1201 R52-2b re-ran the certificate on main's bench, byte-identical (reproduced grade)."
+},
+{
+"row": 359,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1201_lee_verified_and_harvest/verification/cells.json",
+"quote": "mirror_kernel.py (memo 110) -> BYTE-IDENTICAL (K2: 604/13120=4.60% mirror-fixed",
+"reason": "B1201 R52-2b re-ran the certificate byte-identical; no contradiction with main."
+},
+{
+"row": 360,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1201_lee_verified_and_harvest/verification/cells.json",
+"quote": "bit_ledger.py (memo 111) -> BYTE-IDENTICAL (L3: 13120 words, 180 distinct traces in Z[omega]",
+"reason": "B1201 R52-2b re-ran the certificate byte-identical; consistent with B1183/B1184/B1196."
+},
+{
+"row": 361,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1201_lee_verified_and_harvest/verification/cells.json",
+"quote": "occupant_type.py (memo 112) -> BYTE-IDENTICAL (O4: 2 matrix families x 8 real quadratic fields",
+"reason": "Byte-identical in B1201, which rules it an independent re-derivation of B1195/GC-24's refutation."
+},
+{
+"row": 362,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1201_lee_verified_and_harvest/verification/cells.json",
+"quote": "first_beat_law.py (memo 113) -> BYTE-IDENTICAL (P2: all 4372 reduced words to length 7",
+"reason": "Byte-identical in B1201; main computed that its κ is GC-24's κ shifted by 2."
+},
+{
+"row": 363,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1201_lee_verified_and_harvest/verification/cells.json",
+"quote": "pattern_ladder.py (memo 114) -> BYTE-IDENTICAL (G1: 4/16/160/1456/13120 classes",
+"reason": "B1201 R52-2b re-ran the certificate byte-identical; no contradiction with main."
+},
+{
+"row": 366,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B496_tm_endomorphism/FINDINGS.md",
+"quote": "Thue–Morse a→ab, b→ba is the canonical **singular** element of End(F₂)",
+"reason": "Memo 117's layering map is B496's Thue–Morse trace map (memo 121 concedes this). The earlier PROVED arc supersedes it."
+},
+{
+"row": 367,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B496_tm_endomorphism/FINDINGS.md",
+"quote": "κ′ = κ² − (κ−2)z² − 2, and it factors **exactly**",
+"reason": "Memo 118's closed form is algebraically B496's κ-law and factorization (memo 121, V2). B496 predates it and is PROVED."
+},
+{
+"row": 370,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B496_tm_endomorphism/FINDINGS.md",
+"quote": "**κ′ − 2 = (κ − 2)(x² + y² − xyz)** (symbolic 0; F_p-guarded at two primes)",
+"reason": "Memo 121 is the seat's own rediscovery note. B496 holds exactly the T1 map and κ-factorization the memo quotes."
+},
+{
+"row": 374,
+"proposed": "CLOSED-HANDLED",
+"verdict": "NOT_CONFIRMED",
+"path": "outside_bench/memos/CANCELLATION_RESIDUE.md",
+"quote": "VERDICT: PC04's question answers YES, with a number.",
+"reason": "B1195/B1200 bank only κ−2=ω². The memo's PC04 verdict and its permanence claim (P4, nonvanishing cofactors) are on no arc. NO-LOAD fits better."
+},
+{
+"row": 383,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1213_claim_base_rebuilt/FINDINGS.md",
+"quote": "**Gate 5 clean** · harvests cloud memo 133",
+"reason": "B1213 reproduced the memo's creates_law census entry for entry, and its two-sided control, on main."
+},
+{
+"row": 387,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1414_the_outside_benchs_memos_185_233_harvested/FINDINGS.md",
+"quote": "the three L173 edge clauses are exact word identities H_L ≡ J·H_R·J, not independent kill conditions",
+"reason": "B1414 reproduced, via memo 196, the memo's M1 word identity and wrote it back to L173. The memo's 6/5-survives claim belongs to P-609."
+},
+{
+"row": 397,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "papers/P3_THE_PAPER/SPEC.md",
+"quote": "Two independent hostile reads landed the same day: cloud's memo 148 (six findings)",
+"reason": "P3 SPEC records the repairs applied. RELAY row 121 accepted the read in full, re-derived H3 and corrected two witnesses."
+},
+{
+"row": 400,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1339_the_chain_status_adopted/FINDINGS.md",
+"quote": "Route A — the K-refined integral-orbit count",
+"reason": "B1339 re-measured the register–queue join and drafted Route A into the send queue as Q7, which is the memo's gap."
+},
+{
+"row": 401,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1339_the_chain_status_adopted/FINDINGS.md",
+"quote": "the chain's status of record, on main, adopted from cloud memo 152",
+"reason": "B1339 adopted memo 152 as docs/THE_CHAIN_STATUS.md, with a currency pass."
+},
+{
+"row": 405,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "docs/RELAY_LEDGER.md",
+"quote": "on cloud's memo 156 (Gate D): the reported box dimensions",
+"reason": "RELAY row 126 accepted codex's DO-NOT-BANK: pixel artefacts, and λ² fixes a Galois orbit. Main never banked memo 156."
+},
+{
+"row": 406,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "docs/OPEN_PROBLEMS.md",
+"quote": "CLOSED (2026-08-30; found by the cloud seat, verified on this bench)",
+"reason": "Gate C was closed on main in commit d7df9316, credited to the memo's finding and verified; codex's strengthening was adopted."
+},
+{
+"row": 407,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "docs/RELAY_LEDGER.md",
+"quote": "memo 157's sentence that cell 2 is queued and unrun is stale and false in current main",
+"reason": "Codex caught the same stale cell-2 sentence the same day. Main withdrew its propagated phrase (RELAY row 126)."
+},
+{
+"row": 414,
+"proposed": "CLOSED-HANDLED",
+"verdict": "NOT_CONFIRMED",
+"path": "docs/THE_CHAIN_STATUS.md",
+"quote": "Gate B or D opening gives one thing; `λ` would still have no",
+"reason": "B1339's currency pass took only Gate C. THE_CHAIN_STATUS still says λ has no acceptance criterion, against memo 165's B1220-gate correction."
+},
+{
+"row": 417,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1305_the_cloud_156_178/FINDINGS.md",
+"quote": "SIX CUSPS ARE NOT AVAILABLE AND WOULD NOT HELP",
+"reason": "The memo's only new content, the §4 six-cusp inference, was self-corrected by memo 169. B1305 verified memo 169 and extended it to degree 12."
+},
+{
+"row": 419,
+"proposed": "CLOSED-HANDLED",
+"verdict": "NOT_CONFIRMED",
+"path": "outside_bench/memos/THE_PAPER_ARRIVED.md",
+"quote": "the type-error diagnosis, now confirmed by the primary source",
+"reason": "The retraction covers only §2(a) and §3. The surviving §1 is memo 171's type error, still open under P-492 (DEBT); B1305 never handled it."
+},
+{
+"row": 421,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1147_clane_harvest/FINDINGS.md",
+"quote": "the beat on H₁(cusp) = diag(1,−1) exactly (β(μ)=+μ, β(λ)=+λ⁻¹)",
+"reason": "B1147 re-ran memo 31's certificate on main's bench with an identical verdict (PROVED-BY-REPRODUCTION)."
+},
+{
+"row": 422,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1147_clane_harvest/FINDINGS.md",
+"quote": "the unique invariant cubic on the 27 is ±1 on the 45 weight-zero triples",
+"reason": "B1147 reproduced memo 32's certificate with an identical verdict, including the no-mass-term theorem."
+},
+{
+"row": 425,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1147_clane_harvest/FINDINGS.md",
+"quote": "restriction H¹(N;ℤ/2)→H¹(M;ℤ/2) is the ZERO map ⇒ both structures restrict to χ=+1",
+"reason": "B1147 reproduced memo 36's certificate with an identical verdict: the third derivation of the spin selection."
+},
+{
+"row": 426,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1147_clane_harvest/FINDINGS.md",
+"quote": "tr(λ) mod φ has β ≡ 0 — the cusp character is 1-bit blind to the interior fiber everywhere",
+"reason": "B1147 reproduced memo 37's certificate (QP-1) with an identical verdict."
+},
+{
+"row": 428,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1147_clane_harvest/FINDINGS.md",
+"quote": "Kashaev bridge exact in ℤ[ζ] at N=5/7/9; naive p-adic tower does NOT cohere",
+"reason": "B1147 reproduced memo 39's certificate (the Habiro tower, v_π = 2) with an identical verdict."
+},
+{
+"row": 429,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1147_clane_harvest/FINDINGS.md",
+"quote": "the unified element's exact Taylor germ at q=1 approximates EVERY p-power evaluation",
+"reason": "B1147 ran memo 40's certificate cleanly on main (no committed output to diff against)."
+},
+{
+"row": 433,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1148_carrier_harvest/FINDINGS.md",
+"quote": "monomial intertwiner on all 12 generators) ⇒ the geometric branch's real structure and the beat's are",
+"reason": "B1148 reproduced memo 44's certificate byte-identical: θ is inner and both branches carry one ℤ/2 class."
+},
+{
+"row": 447,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1158_cloud_wave2_harvest/verification/harvest_checks.txt",
+"quote": "(1) ANOMALY INTEGER IDENTITY -- cloud memo 58 ANOMALY_PAYMENT, codex R012 Memo-56",
+"reason": "B1158's reproduce.sh recomputed memo 58's anomaly integer identity on main. The 'required' headline was quarantined."
+},
+{
+"row": 448,
+"proposed": "CLOSED-HANDLED",
+"verdict": "NOT_CONFIRMED",
+"path": "outside_bench/memos/CENTER_IS_THE_LOCK.md",
+"quote": "The linear commutant of the π₁ action",
+"reason": "No arc engages memo 59. B1146 and B1148/B1149 hold ρ(−I) and the lock separately; the centre identification and the dimension-297 commutant are unverified."
+},
+{
+"row": 451,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1158_cloud_wave2_harvest/FINDINGS.md",
+"quote": "root-level family splits (270 triples) reproduce but stay **object-unpaid possibility-space**",
+"reason": "B1158 harvested wave-2 cell A1; its verifiers reported the 270-triple split reproducing. It was banked cited-only; RELAY row 78 says not re-run."
+},
+{
+"row": 463,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1162_mssm_debt_closure/FINDINGS.md",
+"quote": "the trinification ℤ/3 (36 automorphisms, T³=1) rotates quark→lepton→antiquark *within* a generation",
+"reason": "B1162 adopted memo 74 as its D4 row, cross-checked against B1161's NULL. Note that P-606 disputes B1161's degree-2 reasoning."
+},
+{
+"row": 468,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1337_the_scheduled_sweep/FINDINGS.md",
+"quote": "The computation is right. The attribution is not.",
+"reason": "B1337 §3 re-tested memo 79 on four manifolds and corrected its attribution: it is an SL₂ identity on every manifold."
+},
+{
+"row": 476,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B778_cleanup/FINDINGS.md",
+"quote": "the N=p² dark-hyperbola law PROVEN all-p: the θ-lift Weil seam T(j,l) has magnitude spectrum EXACTLY {0,1,√p,p}",
+"reason": "B778's CL-DARKHYP predates memo 87 and proves the same N=p² law for all p."
+},
+{
+"row": 480,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1117_adelic_object/FINDINGS.md",
+"quote": "Vol(m004) = 9√3·ζ_K(2)/π² = 2.02988321281930725004240510855",
+"reason": "B1117 predates the memo and verified Vol = 9√3ζ_K(2)/π² to 4e-32. The memo's other facts re-verify banked material."
+},
+{
+"row": 487,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1193_two_campaigns_reconciled/FINDINGS.md",
+"quote": "The founding-bit identity (A7's K₄ basepoint =",
+"reason": "Memo 98 independently reproduces the K₄ founding torsor that B1193 records. Its lane additions belong to the retired census."
+},
+{
+"row": 349,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/GRAMMAR_DISC48.md",
+"quote": "The longitude found by exhaustive grammar search (no cusp geometry",
+"reason": "No B1600+ arc or open register row names it. The cusp shape is B486's, τ = cusp shape tested NEGATIVE (B1696), and the r-bit frame is retired."
+},
+{
+"row": 350,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "NOT_CONFIRMED",
+"path": "outside_bench/memos/GAMMA5_REVERSER.md",
+"quote": "time reversal = the γ₅ bit's field action, up to a unit of its own",
+"reason": "Its finding that time reversal acts as γ₅ bears directly on P-615's open LEAD (fc R55's γ₅ = T assignment). That makes it a live lead input, not retired."
+},
+{
+"row": 354,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/MENU_WIDTH.md",
+"quote": "the tier-1 menu is DENSE — the prediction arm cannot be won",
+"reason": "Unnamed by any B1600+ arc or open row. It is a denominator only for closed-form menu matches; THE_BAR and LOOK_LEDGER handle the current candidate."
+},
+{
+"row": 364,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/SHADOW_PAIRING.md",
+"quote": "The proposed predicate: **Occ(X) := [X, gal(X)] ≠ 0**",
+"reason": "A firewalled occupant predicate from the retired observer census. No B1600+ arc or open register row names it."
+},
+{
+"row": 365,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/UNIQUENESS_TEST.md",
+"quote": "A5 is not unique, and the failure is the GATES': memo 115's status is downgraded",
+"reason": "It downgrades memo 115 within the retired census. No B1600+ arc or open row names it."
+},
+{
+"row": 368,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/SECOND_CLIMB.md",
+"quote": "and the sharpest structural fact: L is the ONLY κ-breaker.",
+"reason": "Its map-commutation facts are partly B496's. No B1600+ arc or open row names it, and no current question uses it."
+},
+{
+"row": 369,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/CLOCKS_INVENTORY.md",
+"quote": "the record does NOT lack time, and the object side carries THREE flows",
+"reason": "The inventory matches banked B716/B721/B723. P-439 and P-694 cite main's clocks, not this memo; no arc or open row names it."
+},
+{
+"row": 373,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/YIN_TRANSITION.md",
+"quote": "the record's dynamics passes from the being field to the hearing field exactly once, at the cusp",
+"reason": "A tower-coordinate fact in the retired frame. No B1600+ arc or open register row names it."
+},
+{
+"row": 375,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/ANATOMY_RECONCILE.md",
+"quote": "the two schemes are ORTHOGONAL AXES of one grid, and here is the grid",
+"reason": "Process only (kill_graph faces against atlas motifs). P-239 is about face attachment, not this. Unnamed by any B1600+ arc or open row."
+},
+{
+"row": 380,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/LEAP1_PROPAGATION.md",
+"quote": "the payment written through the corpus mechanically, with two overstatements caught at the point of payment",
+"reason": "The bench's internal LEAP-1 propagation audit; process only. No B1600+ arc or open row names it."
+},
+{
+"row": 385,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/THETA_EVEN_FIREABILITY.md",
+"quote": "hold released by the owner, shot BLOCKED by the record: not fireable, and the last licensed row is left UNSPENT",
+"reason": "An old contact-licensing fireability check, superseded by the later GENESIS contact rules. No B1600+ arc or open row names it."
+},
+{
+"row": 386,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/KIND_ROW_ADJUDICATION.md",
+"quote": "the mirror row's independent content is exactly THREE values; 5 of its 8 are already spent",
+"reason": "Old kind-row licensing typing. No B1600+ arc or open register row names it, and nothing current rests on it."
+},
+{
+"row": 388,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/SEND_QUEUE_READINESS.md",
+"quote": "readiness audit finds the ★★★★ bar STALE by eight arcs",
+"reason": "A send-queue process audit; the queue's stale Q1 line is only a currency note. No B1600+ arc or open row names it."
+},
+{
+"row": 389,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/Q1_REWRITE.md",
+"quote": "Q1 REWRITE — the SEAM-A Gate 2 send, restated from B1198/B1201/B1209",
+"reason": "An unsent Q1 draft. No B1600+ arc or open register row names SEAM-A or this rewrite."
+},
+{
+"row": 390,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/Q1_REWRITE.md",
+"quote": "Q2 DISPOSITION (2026-08-29) — the staleness flag was MINE and it was WRONG; Q2's ask stands",
+"reason": "Withdraws Q2's staleness flag (process). Q2's dependence on B1137 is carried by P-317(b), which names Q2, not this memo."
+},
+{
+"row": 391,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/LANE_SELF_AUDIT.md",
+"quote": "112 pairs re-run: ZERO failures, ONE genuine drift, and the audit's own instrument produced false positives",
+"reason": "The lane's self-audit; process only. No B1600+ arc or open register row names it."
+},
+{
+"row": 399,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/THE_PAPER_CHAIN.md",
+"quote": "Synthesis of memos **148** (the hostile read) and **149** (the claim trace)",
+"reason": "A synthesis about P3, which P9 superseded. No B1600+ arc or open row names it."
+},
+{
+"row": 402,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/GAP_DOCS_CURRENCY.md",
+"quote": "MEMO 153 — THE CURRENCY PASS ON THIS BENCH'S OWN GAP DOCUMENTS",
+"reason": "A currency pass on the bench's own documents; process. No B1600+ arc or open row names it."
+},
+{
+"row": 403,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/LANE_INSTRUMENT_ADOPTION.md",
+"quote": "MEMO 154 — THE CORPUS'S OWN INSTRUMENTS, TURNED ON THIS LANE",
+"reason": "Lane tooling repairs; process. No B1600+ arc or open register row names it."
+},
+{
+"row": 404,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/MERGE_DIGEST_AND_VERIFY.md",
+"quote": "MEMO 155 — THE LAG CLOSED, THE DIGEST, AND A DEFECT IN MY OWN INSTRUMENT",
+"reason": "A merge digest and the seat's own certificate defect; process. Unnamed by any current arc or open row."
+},
+{
+"row": 408,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/STATE_CLAIM_LINTER.md",
+"quote": "MEMO 159 — THE STATE-CLAIM LINTER: THE INSTRUMENT FOR MY OWN REPEATED FAILURE",
+"reason": "A process instrument. P-588 and P-589 do not name or use it; no B1600+ arc names it."
+},
+{
+"row": 412,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/THE_MIRROR_CLASS.md",
+"quote": "THE DRIFT IS NOW CONTRADICTED, NOT MERELY UNSUPPORTED — AND E53 HAS A MIRROR NOBODY HUNTS",
+"reason": "A drift note on the superseded P3. Its Route A content is carried by the LEAD rows 409–416; unnamed by any current arc or row."
+},
+{
+"row": 415,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/THE_PAIRED_SUMMARY_CHECK.md",
+"quote": "THE PAIRED-SUMMARY CHECK — NOT ADOPTED, AND THE CONTROL THAT PASSED WAS EMPTY",
+"reason": "The seat itself did not adopt it (its control was empty). No B1600+ arc or open row names it."
+},
+{
+"row": 449,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/ONE_QUADRATIC_TWO_ENDS.md",
+"quote": "on the character variety the conserved pair (κ, tr(ab⁻¹)) satisfies X² − (x²−1)X + (x²−1)",
+"reason": "At most a LAW_MAP-harvest candidate. No B1600+ arc or open row names it, and no open question uses it."
+},
+{
+"row": 452,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/EXCHANGE_LEDGER.md",
+"quote": "the three-family vertex is exactly symmetric under full exchange of its two spinor-family slots",
+"reason": "An E8 possibility-space sign ledger (wave-2 A2, cited-only in B1158). No B1600+ arc or open row names it."
+},
+{
+"row": 453,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/MIRROR_DEEPEST.md",
+"quote": "the beat induces the IDENTITY on gr₃: the deepest six dimensions of matter are a fully mirror-rigid rational structure",
+"reason": "Carrier-frame kinematics (wave-2 A3, cited-only in B1158). No B1600+ arc or open row names it."
+},
+{
+"row": 454,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/PERIPHERAL_DIMS.md",
+"quote": "the longitude-alone fixed space IS the joint cusp-fixed space (dim 12 both)",
+"reason": "Retired carrier-frame dimension facts. No B1600+ arc or open register row names it."
+},
+{
+"row": 455,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/MINIMAL_FACTOR.md",
+"quote": "every nontrivial e6 irrep in the exhaustive box has dim ≥ 27, with equality only for the 27 and its dual",
+"reason": "A textbook Weyl-dimension fact (cited-only in B1158). No B1600+ arc or open row names it."
+},
+{
+"row": 456,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/CENSUS_DIMENSIONS.md",
+"quote": "exact centralizer/orbit dimensions for all 20 characteristics",
+"reason": "Textbook nilpotent-orbit tables (cited-only in B1158). No B1600+ arc or open row names it."
+},
+{
+"row": 472,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/COSMOGONY_LEDGER.md",
+"quote": "the SCRIPT is object-forced (and largely banked), the SCHEDULE and the ARROW are observer-side by theorem",
+"reason": "A cosmogony typing in the retired frame. THE_BANG_PROGRAMME, P-694 and P-716 neither name nor use it."
+},
+{
+"row": 473,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/ATOM_SHAPE.md",
+"quote": "the record forces that neutral atoms are possible, exactly",
+"reason": "A textbook consequence of B1160's forced hypercharge. No B1600+ arc or open register row names it."
+},
+{
+"row": 475,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/ORDER_DIRECTION.md",
+"quote": "the first two letters DO lock that temporal order exists",
+"reason": "Its 'direction is free' half is superseded by the forced arrow (B1662, GENESIS v1.48). No B1600+ arc or open row names it."
+},
+{
+"row": 477,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/DARK_TOWER.md",
+"quote": "the recursive dark law is the e = 2 floor of a full prime-power tower",
+"reason": "Extends B778's dark law to prime powers. No B1600+ arc or open row names it, and nothing current rests on it."
+},
+{
+"row": 478,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/DARK_TOWER_COUNTED.md",
+"quote": "every shell of the dark tower has a closed form, proved",
+"reason": "Shell counts for the dark tower. No B1600+ arc or open register row names it; no current load."
+},
+{
+"row": 479,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/TWO_PULSES.md",
+"quote": "the beat cannot drive expansion (theorem, from banked pins)",
+"reason": "An expansion typing in the retired frame. Unnamed by any B1600+ arc or open row; P-145 carries only memo 132's sibling claim."
+},
+{
+"row": 481,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/TWIST_PARITY.md",
+"quote": "the hierarchy carrier is MIRROR-EVEN: the gauge choice is NOT an observer bit",
+"reason": "Belongs to the retired B928 value arc. Named only as a 'traveler' in the pre-B1600 GRAND_COMPUTATION_v0 §10 and B1193; no open row."
+},
+{
+"row": 482,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/KLEIN_PARITY.md",
+"quote": "B928's gauge 2-torsion SPLITS under the mirror: the hierarchy line is exactly the mirror-even subgroup",
+"reason": "Belongs to the retired B928 arc. Only the pre-B1600 GRAND_COMPUTATION_v0 §10 names it; no B1600+ arc or open row does."
+},
+{
+"row": 483,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/H_THEOREM.md",
+"quote": "the H-theorem as stated is REFUTED, and the refutation is a law — the arrow is BRANCH-CONDITIONAL",
+"reason": "Superseded by GENESIS v1.48's arrow-as-escape (B1662). No B1600+ arc or open register row names it."
+},
+{
+"row": 484,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/STAGE2_UNSEALED.md",
+"quote": "the full B928 shape sheet against measured mixing, under one exhaustive preregistered protocol",
+"reason": "A look in the retired B928 sheet, outside LOOK_LEDGER's B1656-frame scope. No B1600+ arc or open row names it."
+},
+{
+"row": 485,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/DEGREE_LEDGER.md",
+"quote": "the record's whole dimensionful content is a rank-1 lattice",
+"reason": "Consistent with the observer-supplied unit. No B1600+ arc or open register row names it."
+},
+{
+"row": 486,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/BRANCH_BIT.md",
+"quote": "no object symmetry swaps the branches: the arrow's ℤ/2 is the branch bit, external and not c",
+"reason": "The branch-bit arrow is superseded by B1662's escape arrow. Unnamed by any current arc or open row; the γ₅ link sits in memo 101 (row 350)."
+},
+{
+"row": 488,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "outside_bench/memos/UNIT_TRICHOTOMY.md",
+"quote": "the record's three quadratic fields split the roles by unit arithmetic, one observer bit lives on each",
+"reason": "A synthesis in the retired observer-bit census. No B1600+ arc or open register row names it."
+}
+]

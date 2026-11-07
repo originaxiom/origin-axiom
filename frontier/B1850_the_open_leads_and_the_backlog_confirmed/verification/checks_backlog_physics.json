@@ -1,0 +1,562 @@
+[
+{
+"row": 12,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1303_the_sm_closings_z_prime/FINDINGS.md",
+"quote": "**VERIFIED-DIFFERS** (B1140 vs fc R49 — two embeddings, each right about its own",
+"reason": "B1303 §1 adjudicated B1140 against fc R49: each is right for its own embedding; ledger row 33 is VERIFIED-DIFFERS."
+},
+{
+"row": 13,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1303_the_sm_closings_z_prime/FINDINGS.md",
+"quote": "**ALREADY BANKED** — B1103 THE BEING GATE (2026-08-21), its vendored certificate's STAGE 2",
+"reason": "B1303 found the derivation already banked as B1103 and re-ran it (1364/1364). The row itself already says VERIFIED."
+},
+{
+"row": 15,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1303_the_sm_closings_z_prime/FINDINGS.md",
+"quote": "**VERIFIED as one branch of a fork** — every step computed (§2–§3)",
+"reason": "B1303 computed every step and verified it as one branch of a fork, registered as FALSIFIER_REGISTER P9."
+},
+{
+"row": 20,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1303_the_sm_closings_z_prime/FINDINGS.md",
+"quote": "the tree-level vacuum is **SM × U(1)_Z′, rank 5**. Dated addenda on B1293 and B1294",
+"reason": "B1303 §6 fixed scope (iii) at its source (B1293/B1294 addenda, MAIN_GOAL). The row had already resolved (i) and (ii)."
+},
+{
+"row": 120,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1322_l204_verified/DESIGN.md",
+"quote": "the relay's fourth note, the CHIRALITY_MAP §6b; the presentation the points satisfy",
+"reason": "B1322 read the map's §6b in full. The map's computational content, sm:B1280, is VERIFIED in ledger rows 5, 8 and 10."
+},
+{
+"row": 121,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "EXTERNAL VERIFICATION — 2026-09-06: the record re-derived by a fresh seat",
+"reason": "No B1600+ arc, open row or lead names it. Its B1242 test-mutation note was fixed in that test (2026-09-16)."
+},
+{
+"row": 122,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1290_the_index_formula/FINDINGS.md",
+"quote": "SM-derivation seat's literature sweep of the M-theory Higgs-bundle frame (harvested at B1277)",
+"reason": "B1277 harvested the sweep, and B1290 applies its index formula on main and cites it."
+},
+{
+"row": 125,
+"proposed": "CLOSED-HANDLED",
+"verdict": "NOT_CONFIRMED",
+"path": "frontier/B1336_the_surviving_gauge_group/FINDINGS.md",
+"quote": "every holonomy the corpus supplies — is NOT verified here.** The credit for the headline is theirs.",
+"reason": "Main's B1275 integrates the pre-renumber B1269 (= sB1271), not this item. B1336 re-derives only the headline and says the fuller claim is unverified."
+},
+{
+"row": 126,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1275_e8_family_verified/FINDINGS.md",
+"quote": "On main, E₈ rebuilt from 2I's icosians: the object's own g = −RL⁻¹",
+"reason": "B1275's B1736 note rebuilds the icosian E₈ on main, with E₆ as the A₂ complement. That reproduces sB1270's derivation."
+},
+{
+"row": 127,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "docs/SM_SEAT_ALIAS_TABLE.md",
+"quote": "E₈ ⊃ E₆×SU(3)) was verified on main at **B1275**",
+"reason": "The alias table records sB1271 as verified at main's B1275, which also carries its zero-Yukawa fence."
+},
+{
+"row": 129,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "B1273 — THE OBJECT'S OWN THREE-FOLD CLOSING: the 3-fold cyclic branched cover of m004 is the flat Hantzsche–Wendt manifold",
+"reason": "No B1600+ arc or open row names it. Main's zero laws (B1701, B1703, B1712) already cover its texture-lemma lead."
+},
+{
+"row": 130,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "B1274 — THE TOWER AND ITS DOUBLES: the object's cyclic closings carry either one irreducible class of the family system",
+"reason": "No B1600+ arc or open row names it. At most it is a supporting negative for B1667, not a lead."
+},
+{
+"row": 131,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "B1275 — THE CUBIC MADE EXPLICIT: B308's unique E₆ cubic solved from the repository's own 27",
+"reason": "No B1600+ arc or open row names it. fc R14 independently recomputed the cubic."
+},
+{
+"row": 335,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "THE PRIME LANE — ruling, fence, and gated cells (owner-agreed)",
+"reason": "No B1600+ arc, open row, lead or front document names the prime lane or its cells."
+},
+{
+"row": 340,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1134_simultaneous_closing/FINDINGS.md",
+"quote": "Harvest arc — the cloud seat's tenth memo THE SIMULTANEOUS CLOSING",
+"reason": "B1134 verified memo 10 on two benches (PROVED) and credits the cloud seat. The golden_gate memos are the cloud seat's (P-230)."
+},
+{
+"row": 341,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1135_gauge_closing/FINDINGS.md",
+"quote": "Harvest arc — the cloud seat's TWELFTH memo",
+"reason": "B1135 verified memo 12 on two benches (PROVED) and found no discrepancy."
+},
+{
+"row": 345,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1142_lane_c_cusp_spectrum/FINDINGS.md",
+"quote": "the 108 zeros ARE the Dedekind ζ_K = ζ·L(χ₋₃) — the cusp/scattering spectrum",
+"reason": "B1142 recomputed ζ_K's zeros with its own code, and its results include the first L(χ₋₃) zero. Memo 22's ladder is reproduced in content, though not by name."
+},
+{
+"row": 346,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1139_symmetry_point_table/FINDINGS.md",
+"quote": "the cloud seat's phase-III memos 23 (WEINBERG_POINT) + 24 (SM_TABLE), golden_gate 577712f.",
+"reason": "B1139 verified memos 23 and 24 on two benches and typed memo 23's number as a reproduction."
+},
+{
+"row": 348,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1118_deflation/FINDINGS.md",
+"quote": "## Addendum-beside (2026-08-25) — the F-3 frame audit (cloud memo 26, integrated)",
+"reason": "B1118 carries memo 26's frame audit as a dated addendum-beside."
+},
+{
+"row": 524,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "the threshold/mass calculation REGISTERED as the seat's conditional model",
+"reason": "Row 55 (B1304) covers R1–R3. EXTENSION_1 declares R3, and B1304 REGISTERED its threshold/mass calculation as the seat's model."
+},
+{
+"row": 525,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1304_the_audit_seats_4d_model/FINDINGS.md",
+"quote": "singular route on m202) are REGISTERED under L205 with their fences; R12 agrees with B1291",
+"reason": "B1304 gave the lane's R12–R20 ledger rows (54–76) and REGISTERED them under L205."
+},
+{
+"row": 526,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1413_the_audit_lanes_r21_r31/FINDINGS.md",
+"quote": "Harvest done for R21–R31. Its lane stays active.",
+"reason": "B1413 harvested R21–R31 and records the seat's R22 verdict on R21: the completion is valid, but the source does not supply its fermions."
+},
+{
+"row": 4,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1302_the_sibling_m202/FINDINGS.md",
+"quote": "fc R72 §4–§5 VERIFIED (geometry;",
+"reason": "B1302 verified R72's m202 geometry and re-ran r72, r72b and r72d. B1321 priced the count (L205)."
+},
+{
+"row": 136,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "H1 — B267 grade re-read (Ring R3, HELD item #23a)",
+"reason": "No B1600+ arc or open row cites B267. Only generated views and H64 still echo its stale claim line, a hygiene fix."
+},
+{
+"row": 140,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "R11 — B1183 THE ONE-CLASS THEOREM — recomputation (Ring R2)",
+"reason": "A MATCH recomputation of B1183. No B1600+ arc, open row or lead names it."
+},
+{
+"row": 141,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "R12 — B1141 THE SPIN PAYMENT — recomputation (Ring R2, third independent engine)",
+"reason": "A MATCH on B1141. P-318 and P-593 cite B1141, not R12, and nothing in them rests on R12."
+},
+{
+"row": 142,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "R13 — B904 magic-square isomorphism, blind recomputation (Ring R2)",
+"reason": "A MATCH recomputation of B904. No B1600+ arc, open row or lead names it."
+},
+{
+"row": 143,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "R14 — B884, the invariant cubic on the 27 (Ring R2 recomputation)",
+"reason": "A MATCH on B884 with one prose slip. No B1600+ arc, open row or lead names it."
+},
+{
+"row": 144,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "R15 — B892, the Second Measurement Theorem: RECOMPUTED. Verdict: MATCH",
+"reason": "A MATCH on B892. P-613 (a LEAD) cites B892, not R15. The text-only lock is a P-317-class hygiene issue."
+},
+{
+"row": 145,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "R16 — B1120/B1133 Kashaev tower coefficients — VERDICT: MATCH",
+"reason": "A MATCH on the Kashaev coefficients. No B1600+ arc, open row or lead names it."
+},
+{
+"row": 147,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "`reports/fresh_physics_seat_2026-09-01/recompute/R18_genesis_forks` @ 659487bb",
+"reason": "A MATCH on B1003's genesis forks. No B1600+ arc, open row or lead names it."
+},
+{
+"row": 148,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "R19 — B725 Born-form theorem (scoped recomputation), Ring R2",
+"reason": "A scoped MATCH on B725. The vacuous lock falsifier is hygiene, and nothing current names the item."
+},
+{
+"row": 149,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1235_two_seat_harvest/FINDINGS.md",
+"quote": "**Sources:** fab5cloud's rings R2/R3 (the physics-seat branch (",
+"reason": "B1235 harvested ring R2 finding by finding (D5 in cell 1, V18 in cell 6). V8 stays with row 146 (P-317(b))."
+},
+{
+"row": 150,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1136_genericity_on_the_wins/ADDENDUM_2026-10-04_amphichirality_row_corrected_B1472.md",
+"quote": "the amphichirality row is wrong, and B1235's correction is now propagated here",
+"reason": "B1235 cell 1 and B1136's B1472 addendum carry R20's 38/112. Its 'exactly 14' point (D6) is superseded by B1186's 112."
+},
+{
+"row": 151,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "`reports/fresh_physics_seat_2026-09-01/recompute/R21_a6_walls` @ 659487bb",
+"reason": "A MATCH on B1234's residual checks. No B1600+ arc, open row or lead names it."
+},
+{
+"row": 152,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "R22 — B1148 memo 48, the carrier-harvest nullspace chain 6615 → 4 → 1 (Ring R3 recomputation)",
+"reason": "Only a convention note; the theorem is unchanged. B1235 cell 7 held it, and P-645 uses B1148's carrier, not R22."
+},
+{
+"row": 153,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "R23 — B1186: the 2√3i cusp-shape carriers and the quine",
+"reason": "A MATCH on B1186's carriers and quine. No B1600+ arc, open row or lead names it."
+},
+{
+"row": 154,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1163_w0_attempt/ADDENDUM_2026-09-02_family_is_38_of_112_B1235.md",
+"quote": "B1163's family-wide claim reverts to what was actually verified (4 of 14)",
+"reason": "B1163's 2026-09-02 addendum (from B1235) withdraws the family-wide claim that R24 audited, and names o10_150700 as chiral."
+},
+{
+"row": 155,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "R25 — B1127 antilinear completion: 4 of 48 torsor elements give compact color",
+"reason": "A MATCH on B1127's torsor. No B1600+ arc, open row or lead names it."
+},
+{
+"row": 156,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1235_two_seat_harvest/FINDINGS.md",
+"quote": "## Cell 6 — B1011's C5 lock was arithmetic on literals (fab5cloud V18/R26; recomputed)",
+"reason": "B1235 cell 6 recomputed R26's 992/284 and made B1011's lock actually compute."
+},
+{
+"row": 157,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1235_two_seat_harvest/FINDINGS.md",
+"quote": "the endpoint survives (fab5cloud D10/P2; recomputed)",
+"reason": "B1235 cell 4 and B994's addendum carry R27's D10: the exhibited chains are not subgroup chains, and the endpoint stands."
+},
+{
+"row": 158,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "R28 — Kashaev tower (4_1), large-N deepening of R16 — VERDICT: MATCH",
+"reason": "A MATCH that deepens R16. No B1600+ arc, open row or lead names it."
+},
+{
+"row": 159,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "R29 — interval + exact certification of the 112-member ℚ(√−3) family",
+"reason": "Nothing current names it. It is an adoptable certificate, but no current result needs the family's shapes to be exact."
+},
+{
+"row": 160,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1235_two_seat_harvest/FINDINGS.md",
+"quote": "## Cell 8 — ten A₂+A₁ sub-diagrams of E₆ (fab5cloud D12; recomputed)",
+"reason": "B1235 harvested ring R3's D9, D10, D12, V18 and P2 as cells. H1 and H2 are rows 136 and 137."
+},
+{
+"row": 161,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "Sym(m004) order and amphichirality (closes R3_REPORT §3 gap",
+"reason": "A MATCH (D4, order 8). No B1600+ arc, open row or lead names it."
+},
+{
+"row": 162,
+"proposed": "CLOSED-HANDLED",
+"verdict": "NOT_CONFIRMED",
+"path": "frontier/B1237_physics_seat_r31_r38_harvest/FINDINGS.md",
+"quote": "**Reported MATCH by the seat (NOT recomputed here — a MATCH changes nothing on main",
+"reason": "B1237 lists R31 among MATCH items it explicitly did not recompute. Nothing was verified or adopted, so it fits NO-LOAD, not HANDLED."
+},
+{
+"row": 163,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1237_physics_seat_r31_r38_harvest/FINDINGS.md",
+"quote": "**B213** (Higgs-side periods) | four misquotes + the curve is not 40a1",
+"reason": "B1237 item 9 recomputed R32's B213 corrections, and B1238 then derived the 40a3 identification."
+},
+{
+"row": 164,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1238_seat_harvest_40a3_bronze_octic/FINDINGS.md",
+"quote": "bronze degree 6 → 8 (the octic), verdicts unaffected",
+"reason": "B1238 computed bronze's invariant trace field (an octic) and propagated R33's B840 resolution."
+},
+{
+"row": 165,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "`reports/fresh_physics_seat_2026-09-01/recompute/R34_e6_27_not_selfdual` @ 659487bb",
+"reason": "A MATCH that B1237 lists. No B1600+ arc, open row or lead names it."
+},
+{
+"row": 166,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1237_physics_seat_r31_r38_harvest/FINDINGS.md",
+"quote": "**B258** (two-ended unification) | same error at its source: \"silver → 8 (non-arithmetic)\"",
+"reason": "B1237 items 1–2 recomputed R35's silver finding and corrected B1062 and B258 (E55)."
+},
+{
+"row": 167,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1237_physics_seat_r31_r38_harvest/FINDINGS.md",
+"quote": "\"14 of 123 fundamental discriminants have h = 2\" — the filter has a sign bug",
+"reason": "B1237 item 8 recomputed R36's B333 count with PARI and corrected it."
+},
+{
+"row": 168,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1237_physics_seat_r31_r38_harvest/FINDINGS.md",
+"quote": "the multiplicity maxima (4/3/4/8/2; \"m009 double m004\") are word-count artefacts",
+"reason": "B1237 item 7 recomputed R37's B850 multiplicities with SnapPy."
+},
+{
+"row": 169,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1237_physics_seat_r31_r38_harvest/FINDINGS.md",
+"quote": "`traces.py` cannot run from the repo: `RUN = os.environ[\"HANDOFF6_RUN\"]`",
+"reason": "B1237 item 3 confirmed R38's B919 runner defect and relocated C42's witness."
+},
+{
+"row": 170,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1238_seat_harvest_40a3_bronze_octic/FINDINGS.md",
+"quote": "| R39 | fc | \"recovered\" the deleted `_verify_Z1` ladder",
+"reason": "B1238 re-ran R39's Z₁ ladder: the script is byte-identical to the live cell, so nothing was lost."
+},
+{
+"row": 171,
+"proposed": "CLOSED-HANDLED",
+"verdict": "NOT_CONFIRMED",
+"path": "frontier/B994_rule_variation/ADDENDUM_2026-09-02_chains_are_not_subgroup_chains_B1235.md",
+"quote": "Source: fab5cloud D10/P2, recomputed here.",
+"reason": "B1235 cell 4 credits R27's D10/P2, not R04. R04's B994 provenance defect (no producing script, no lock) remains unaddressed."
+},
+{
+"row": 172,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1238_seat_harvest_40a3_bronze_octic/FINDINGS.md",
+"quote": "| R40 | fc | B516's five Pisot quartics |",
+"reason": "B1238 verified R40's Pisot quartics by its own resultant route."
+},
+{
+"row": 173,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1238_seat_harvest_40a3_bronze_octic/FINDINGS.md",
+"quote": "| R41 | fc | four trace-map identities",
+"reason": "B1238 verified R41's four identities with its own sympy."
+},
+{
+"row": 176,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1240_belt_closure_and_fc_harvest/FINDINGS.md",
+"quote": "the seven are the **Perron eigenvector of the E7 Dynkin ADJACENCY matrix, normalised by its minimum**",
+"reason": "B1240 recomputed R44 and added an addendum beside B549."
+},
+{
+"row": 178,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1240_belt_closure_and_fc_harvest/FINDINGS.md",
+"quote": "| **R46** codex certificates | 11 codex certs pass on fc's bench;",
+"reason": "B1240 adopted R46's finding into L198. Caveat: L198 is still open and, per B1850's note, still owes the R46 certificates."
+},
+{
+"row": 179,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1240_belt_closure_and_fc_harvest/FINDINGS.md",
+"quote": "| **R47** outside-bench certificates | 17 certs pass on fc's bench;",
+"reason": "B1240 read R47's disagreement as B1185's banked layered reading and added a dated bracket at SM_SPECIFICATION_LEDGER:19."
+},
+{
+"row": 180,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1240_belt_closure_and_fc_harvest/FINDINGS.md",
+"quote": "**independent 200-bit re-implementation on trace coordinates**",
+"reason": "B1240 re-implemented R48's B511 check at 200 bits and added an addendum beside B511."
+},
+{
+"row": 182,
+"proposed": "CLOSED-HANDLED",
+"verdict": "CONFIRMED",
+"path": "frontier/B1240_belt_closure_and_fc_harvest/FINDINGS.md",
+"quote": "| **R50** B775 V4 table | 8/8 rows |",
+"reason": "B1240 confirmed R50's table 8/8 using orientation-aware symmetry groups."
+},
+{
+"row": 189,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "NOT_CONFIRMED",
+"path": "GENESIS.md",
+"quote": "the rest the audit lane's, unverified on main: row 189; v1.52]",
+"reason": "GENESIS (five sites, via B1706) cites row 189 as the audit lane's R57's row. That pointer collides with fc R57; fix it before closing."
+},
+{
+"row": 190,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/POINT_REGISTER.md",
+"quote": "RI-1's sign is a₀'s oddness under w → −w, which main rules a relabelling of the same point",
+"reason": "Nothing current names R58. Main's S299c ruling (P-591) already answered its ι-parity lead for RI-1."
+},
+{
+"row": 191,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "| 191 | physics seat (fc) | R59 | \"Physics-seat reports R56–R72",
+"reason": "No B1600+ arc, open row or lead names R59's twisted-closing facts."
+},
+{
+"row": 192,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "R06 — RECOMPUTATION of B1134 (THE SIMULTANEOUS CLOSING) + B1135 (THE GAUGE CLOSING)",
+"reason": "A MATCH on B1134/B1135, which rows 340 and 341 handle. Its T-SIMUL-CLOSING wording note is hygiene; nothing current names it."
+},
+{
+"row": 193,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "| 193 | physics seat (fc) | R60 | \"Physics-seat reports R56–R72",
+"reason": "It confirms B347's sign law. No B1600+ arc, open row or lead names it."
+},
+{
+"row": 195,
+"proposed": "CLOSED-HANDLED",
+"verdict": "NOT_CONFIRMED",
+"path": "docs/POINT_REGISTER.md",
+"quote": "the identification ledger's I-26 row still calls the cloud seat's R61/R62 'unverified on main'",
+"reason": "R62 is only cited unverified (B1277, I-26). Open DEBT P-528 still owes main's reading of R61/R62 against I-26."
+},
+{
+"row": 199,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "CONFIRMED",
+"path": "docs/HARVEST_LEDGER.md",
+"quote": "R07 — THE RANK WALL (B952/B955): recomputed blind. VERDICT: MATCH",
+"reason": "A MATCH whose vacuity note concerns a clause that is trivially true. P-603 is about the rank row's scope, not R07."
+},
+{
+"row": 200,
+"proposed": "CLOSED-NO-LOAD",
+"verdict": "NOT_CONFIRMED",
+"path": "docs/POINT_REGISTER.md",
+"quote": "B298'S DEGREE-2 OBSTRUCTION OVERSTATED (codex R018 / OA-C1137, the retired seats' row 219)",
+"reason": "Open DEBT P-606 questions B298/B1161's obstruction. R08 recomputed those claims and judged the scope fence passing, so it is debt-support, not no-load."
+}
+]

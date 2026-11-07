@@ -1,5 +1,86 @@
 # Changelog
 
+## S306j THE OPEN LEADS AND THE BACKLOG CONFIRMED ONE BY ONE (B1850; R76-1's second half: P-617 DONE, P-616 narrowed) (2026-11-07)
+
+- **The owner:** 'lets do them'.
+- **What was checked.** Review 74's readers had proposed closing 73 open leads and 240 SCHEDULED harvest rows.
+  - Six read-only checkers each returned a verdict with a verbatim quote. Main found all 313 quotes at their paths (`quote_check.py`), read every decision, and applied only confirmed closures.
+- **The open leads: 24 closed.** 16 were answered and 8 carried in full by register rows.
+  - **48 kept open,** each with a dated note saying what is answered or carried and what is not.
+  - The reader's "carried in full by register rows" held for 9 of 32 leads.
+  - **Open leads 79 → 55; stale 42 → 26.** The baselines are lowered.
+- **L206, closed by main's own check.** (ABABB, a) generates π₁(m003): w = b to 8.5 × 10⁻¹⁵ in the faithful holonomy.
+- **The backlog: 216 rows closed,** with the old disposition kept in [was: …].
+  - **10 re-pointed** to the open rows that carry them: P-613, P-615, P-528, P-492 and P-606.
+  - **10 kept SCHEDULED** with dated reasons.
+  - **The counter's substring bug is fixed** (`is_scheduled`, with a planted test).
+  - **SCHEDULED, ledger-wide:** 272 → 46, and the baseline 282 → 46.
+- **New point P-730.** GENESIS's pointer to harvest row 189 names the wrong seat's R57. The correction waits for GENESIS's next amendment.
+- **The register:** P-617 is DONE. P-616 is narrowed to its 36 lead and debt rows, the 10 kept rows, and rows 383–396's memo numbers.
+- 0 of 19.
+
+## S306i THE LEADS CONFIRMED ONE BY ONE (B1849; R76-1, the register half of P-617) (2026-11-06)
+
+- **The owner:** 'lets do them'.
+- **What was checked.** Review 74's reader proposed closures, merges and retypes for the register's 142 lead-typed rows. Main checked every one at the pointer it names (92 rows; 90 acted on).
+  - **30 closed:** 19 answered, 6 superseded, P-069 in parts, P-039 and P-476 after main's own checks, and debt P-527 paid with P-494.
+  - **47 merged into 19 hosts.** Each host names what it carries. One target was corrected: P-567 goes to P-294.
+  - **2 retyped as process rows:** P-063 and P-574, the bar amendment's host.
+  - **11 not confirmed,** kept open with dated reasons.
+  - **Open rows 311 → 234; leads 186 → 108.**
+- **P-039.** B345's anti-diagonal texture is the order-3 cyclic structure (B1736's family group) in its charge basis: the off-texture entries are ≤ 8.4 × 10⁻¹⁶ on 200 random covariant couplings.
+- **P-476.** vol(LᵃR) rises to the Whitehead link's 3.66386 (SnapPy; gap about 18/a² at a = 55). So B1722's action weight concentrates on short threads only through B1720's cutoff, and the scope sentence is added to B1722, LAW_MAP and THE_WEAVE.
+- **P-527.** B1825 ran without THE FINAL ATTACK's CM arm and did not say so. Its dated note now discloses that, and main's CM sighting (P-494). The verdict is unchanged.
+- **Left:** the OPEN_LEADS half of P-617 (77 leads), and P-616, the scheduled backlog.
+- 0 of 19.
+
+## S306h REVIEW 76'S ITEMS WORKED: B1842'S CONTROLS RUN (C-T CORRECTED), THE SEAL-ORDER LIST FROZEN, THE LINE STABILIZERS (2026-11-06)
+
+- **The owner:** 'lets do them'.
+- **R76-3, B1842's C-T.** The first C-T compared two calls that `yukawas_exact` reduces to identical inputs: a tautology at 7.5 × 10⁻¹⁶.
+  - **Its claim was false.** It said the matrices agree up to phases. `t_law.py` runs the theta machinery at the unreduced τ + 1 (δ = ∞). The singular values agree to 6.6 × 10⁻¹⁶, but ∣Y∣ entrywise differs by 7.9 × 10⁻². T acts on the generations by a non-diagonal unitary.
+  - **B1842's controls run for the first time** (data-free; deviations only):
+    - C-ID: 0.
+    - C-M/C-PS at δ = 0.3 and ∞: hold where the order divides 6 or 4, and break elsewhere; order 5 breaks both.
+    - C-T: corrected, as above.
+    - C-MIR: 2.0 × 10⁻¹².
+  - P-688's first owed item is paid.
+- **R76-2, P-601.** The 79 sealed tests whose rule and record git shows only as one commit are listed in `docs/SEAL_ORDER_UNSHOWN.md`, a list that may only shrink.
+  - The Lab panel's 80 were recomputed independently from git, less B1670. B1670's order is shown on the kept referee branch.
+  - **GATED** by the new gate `seal-order-unshown` (49 gates), with a planted failing-path test.
+- **R76-4, P-711.** The line stabilizers' images at level 4 (B1845's addendum, brute force over SL(2, ℤ/20)).
+  - **Order-5 lines:** image all of S₄, commutant 1.
+  - **Order-10 lines:** a D₄, commutant 2.
+  - The agy lane's lead is verified. The result is locked by a new B1845 test.
+- **Left:** R76-1 (P-616 and P-617's closures, one by one).
+- 0 of 19.
+
+## S306g REVIEW 76'S ITEMS WORKED: THE TUBE'S OWN MODULUS (B1847 § 8; P-727 DONE), DOOR C'S C5, R2'S FORM (2026-11-06)
+
+- **The owner:** 'lets do them'.
+- **R76-5, the tube.** The level surface meshed inside the FULL group's Ford domain (`stage_e_gamma.py`).
+  - **The method:** complete, volume-validated faces (5.5805 ± 0.0172 against 5.5864); a doubly periodic grid; sheets lifted by T₂⁻ⁿ; every identification's period through the monodromy cocycle.
+  - **The controls pass:** s = ¼ and ½.
+  - **The tube level is regular** (|dθ| = 0.042 on the core). At s = 0 exactly the meshers degenerate, because the core lies on a domain face.
+  - **So its modulus is the limit of τ(s): Im τ(Σ₀) = 6.15 ± 0.15.** It is far thinner than all three of the record's readings at the tube: apex 3.65, pleated 2.87, tetrahedron 2.58. P-727 is DONE.
+- **R76-6, door C's C5:** the metric's weight lifted to the loop is a weight within one history, not a law over histories. Door C stays one declared choice.
+- **R76-7, R2's form, by a rule written first:** under the chiral premise, the exact level-5 block (46 + 2√5), never the asymptotic. Three steps still chosen; not sealable; no scale computed.
+- **R76-8:** answered by the web seat's two readings (Theorem 155 fails on its own code).
+- 0 of 19.
+
+## S306f THE LACIE SYNCED WHOLE; THE SEATS FETCHED AFTER REVIEW 76 (2026-11-06)
+
+- **The owner:** 'lacie is on', then 'can we sync lacie wirh the whole repo'.
+  - Main was pushed to the mirror. The full-ref push was blocked by the pre-push hook on old seat commits.
+  - The mirror was then synced by fetching from the repository (+refs/*:refs/*, no prune): 73 refs equal to the local repository's, fsck clean, main = origin's.
+  - No hook was bypassed.
+- **The web seat's three relays (rows 1605–1607):**
+  - door C is not fixed by the golden substitution: one declared choice;
+  - the agy lane's Stage 29, checked twice: main's S306d read stands. Theorem 155's CP claim fails on its own code. The second reading's SnapPy check re-runs identically on main; the agy-source scripts were not run by main;
+  - the read-out after Review 76 agrees with the corrected P-726.
+- **The agy lane's Stage 29 correction (row 1608):** the unsealed coupling evaluation removed, and main's findings adopted.
+- Pins chat1 66e4ed4e, agyaudit e839a06c. 0 of 19.
+
 ## REVIEW 76 (B1848; S306e) — the read-out and the metric reviewed (2026-11-06)
 
 - **The owner:** 'lets do the decadal first right moment', run at a clean stop of P-727's tube. 36 commits, S305p–S306d.

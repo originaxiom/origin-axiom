@@ -1,0 +1,2 @@
+core length 0.184870+5.481083i; theta on the core: max |phi - nearest integer| 1.90e-12
+|d theta| on the core (hyperbolic): min 4.199699e-02 max 4.199699e-02 over 400 points

@@ -18634,3 +18634,44 @@ shortest loop, which sits exactly where the volume gathers. That strengthens the
 claim is corrected everywhere. A first value for the fibre's shape at the thin tube looked good on one grid and failed on
 a finer one, so it was withdrawn. 0 of 19.
 
+## 2026-11-06 — S306f: the backup whole, the seats again
+
+The external drive now holds the whole record, every branch and tag, checked complete. The other seats agree with the
+review's correction. One of them showed that a claimed source of matter–antimatter asymmetry from the agy lane was
+built into its own inputs, so it is set aside. 0 of 19.
+
+## 2026-11-06 — S306g: the fibre's own shape at the tube
+
+The new instrument, rebuilt on the complete set of the manifold's own faces, read the fibre's shape at the excursion's
+thinnest point. The surface there touches a face of the domain, so the value was taken as the limit from the levels just
+beside it, from both sides and with two methods. The fibre comes out about 1.7 times thinner than the thinnest of the
+record's three earlier readings. The first candidate for the history's initial law turned out to be a weight within one
+history, not a law, so that law stays a declared choice. 0 of 19.
+
+## 2026-11-06 — S306h: a check that could not fail, and a list that can only shrink
+
+One of the instruments' checks had been comparing a calculation with itself, so it could never fail. Its replacement
+shows that a shift of the torus's modulus by one leaves the generations' mass spectrum unchanged, but rotates the
+matrices among themselves, contrary to what the old check claimed. The instruments' other checks, run for the first time,
+all hold. The 79 early sealed tests whose order git cannot show are now a list that a gate allows only to shrink.
+The level-4 symmetry of the object's order-5 lines is the full group S₄, which leaves no freedom in the generation metric
+there. 0 of 19.
+
+## 2026-11-06 — S306i: the open leads checked one by one
+
+An earlier review's reader had proposed closing or merging about ninety of the register's open leads. Main checked each
+proposal against the place it points to before applying it. Most held. Eleven did not, and those rows stay open with the
+reason written down. The register's open rows fell from 311 to 234. Two small computations closed two leads: one
+texture turned out to be the familiar cyclic symmetry seen in another basis, and a family of thread volumes was shown
+to approach a known limit, which narrows what an older negative result means. One sealed test had dropped a planned
+comparison without saying so, and that is now disclosed. 0 of 19.
+
+## 2026-11-07 — S306j: the rest of the old proposals, checked
+
+The remaining proposals from the earlier review were checked the same way: about seventy open leads and two hundred and
+forty old items received from the other seats. Each check came with an exact quotation from the record, and every
+quotation was found where it was said to be. A third of the lead closures held up; for the rest, what is still open is
+now written next to each lead. Nine in ten of the old seat items were indeed already handled or carry no weight, and
+they are closed; the others stay open with reasons, or are pointed at the open question they feed. One small group
+computation settled a lead by itself. A wrong pointer in the foundation document was found and registered. 0 of 19.
+

@@ -13393,7 +13393,7 @@
     "L154"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 21,
+   "obstacle_conf": 22,
    "status": "open",
    "domain": "dynamics"
   },
@@ -15068,6 +15068,7 @@
     "coupling",
     "figure_eight",
     "metallic",
+    "eisenstein",
     "z3_generation",
     "wrt_quantum",
     "markov_cubic"
@@ -15079,7 +15080,7 @@
    "obstacle": "particle_dict",
    "obstacle_conf": 33,
    "status": "dead",
-   "domain": "topology"
+   "domain": "arithmetic"
   },
   "B1826": {
    "slug": "the agy lanes november audit verified on main",
@@ -15513,9 +15514,11 @@
    "slug": "the objects own line and the excursion",
    "motifs": [
     "closing",
+    "coupling",
     "figure_eight",
     "trace_map",
     "golden",
+    "z3_generation",
     "amphichiral_cp",
     "torsion",
     "firewall",
@@ -15524,8 +15527,8 @@
    "refs": [
     "B6"
    ],
-   "obstacle": "units_scale",
-   "obstacle_conf": 3,
+   "obstacle": "particle_dict",
+   "obstacle_conf": 5,
    "status": "banked",
    "domain": "topology"
   },
@@ -15551,6 +15554,7 @@
    "slug": "the level surfaces own modulus",
    "motifs": [
     "closing",
+    "choice",
     "coupling",
     "figure_eight",
     "trace_map",
@@ -15562,18 +15566,54 @@
    ],
    "refs": [],
    "obstacle": "units_scale",
-   "obstacle_conf": 4,
+   "obstacle_conf": 5,
    "status": "banked",
    "domain": "topology"
   },
   "B1848": {
    "slug": "review 76 the decadal review",
-   "motifs": [],
+   "motifs": [
+    "figure_eight"
+   ],
    "refs": [],
    "obstacle": "measure",
    "obstacle_conf": 1,
    "status": "banked",
-   "domain": "dynamics"
+   "domain": "topology"
+  },
+  "B1849": {
+   "slug": "the leads confirmed one by one",
+   "motifs": [
+    "closing",
+    "choice",
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "symplectic"
+   ],
+   "refs": [
+    "B345",
+    "B705",
+    "B707",
+    "B708",
+    "L154",
+    "L161",
+    "L250",
+    "L251",
+    "L252",
+    "L253",
+    "S296",
+    "S301"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B184": {
    "slug": "symmetry gauge door",
@@ -15605,6 +15645,43 @@
    "obstacle_conf": 48,
    "status": "dormant",
    "domain": "arithmetic"
+  },
+  "B1850": {
+   "slug": "the open leads and the backlog confirmed",
+   "motifs": [
+    "closing"
+   ],
+   "refs": [
+    "L149",
+    "L151",
+    "L154",
+    "L158",
+    "L165",
+    "L166",
+    "L174",
+    "L175",
+    "L176",
+    "L177",
+    "L178",
+    "L184",
+    "L188",
+    "L191",
+    "L196",
+    "L202",
+    "L204",
+    "L206",
+    "L217",
+    "L220",
+    "L222",
+    "L232",
+    "L234",
+    "L248",
+    "L249"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "topology"
   },
   "B185": {
    "slug": "constraint selection",

@@ -155,3 +155,40 @@ read, no held-out quantity is computed, and nothing is compared with data. 0 of 
     the exact-to-asymptotic ratio is 1.18 at N = 5 and 1.007 at N = 80.
 - **So R2 stays CHOSEN.** The ruling is relayed in `docs/handoffs/CC_TO_CHAT1_2026-11-06_THE_RULING_ON_B1012.md`
   (harvest row 1602).
+
+## 8. The tube, by the full group's Ford domain (S306g; Review 76's R76-5)
+
+- **The instrument** (`stage_e_gamma.py`): the level surface meshed inside the FULL group's Ford domain.
+  - The domain's sphere set is complete: its Monte Carlo volume is 5.5805 ± 0.0172 against SnapPy's 5.5864, stable from
+    word depth 7 to 8.
+  - The grid is doubly periodic in the lattice coordinates; the exact sheets φ = s + n are each lifted to φ = s by
+    T₂^(−n).
+  - Each identification by g becomes the fibre element f = T₂^(−n_q) g T₂^(n_p). Its period comes from the cocycle
+    cl(AB) = cl(A) + M^(χ(A)) cl(B), with M = [[−1, −3], [8, 23]] the monodromy on H₁(F): the unique integer solution of
+    the relators, with 0 class conflicts over 75 401 elements (`fibre_faces.py`).
+- **The controls pass.** At the 80-grid (`gamma_tube_table.txt`):
+  - s = ¼ reads −0.37239 + 1.00803i against −0.37218 + 1.00851i (det E − 1 = +3.1 × 10⁻⁴);
+  - s = ½ reads +0.49861 + 1.58982i against ½ + 1.5904i.
+- **The tube level is regular.** |dθ| on the core is 0.04200, constant and nonzero (`core_gradient_run.txt`), so τ(s) is
+  continuous at s = 0, with σ's mirror τ(−s) = −τ̄(s) (s = ±0.03: ∓0.313 + 3.158i).
+- **At s = 0 exactly the meshers degenerate.** The core lies on a face of the domain, and Σ₀ contains it, so the surface
+  meets that face tangentially along the core. det E − 1 is about −1.6 % there, unchanged by refinement, so it is
+  structural, not resolution.
+- **So the tube's modulus is read as the limit of τ(s) as s → 0.**
+  - Im τ climbs steeply, roughly like −1.5·log s, from 1.711 at s = 0.1 through 3.158 at 0.03 and 4.85 at 0.01, to 5.950
+    at 0.003 (det E − 1 = −7 × 10⁻⁴).
+  - It then saturates: 6.078 at 0.002, 6.126 at 0.001, 6.145 at 0.0005, 6.149 at −0.001.
+  - Directly at s = 0 it reads 6.163 and 6.169; the fibre-face mesher gave 6.153 (its 80-grid, det E − 1 = −5 × 10⁻⁴).
+  - Two grids agree to 1.7 × 10⁻³ at s = 0.005 (5.6636 against 5.6619).
+- **The result: Im τ(Σ₀) = 6.15 ± 0.15.** The error carries the 1–2 % det E systematic near s = 0. Re τ is not resolved
+  near the tube: the mirror pair at s = ±0.001 disagrees by about 0.1.
+- **What it means.** The metric's own fibre at the tube is far thinner than any of the record's three readings there: the
+  Teichmüller apex 3.65, the deepest pleated layer 2.87 and the deepest tetrahedron 2.58. It is about 1.7 times the
+  apex. So the fourth reading is not a tie-breaker among the three; it is a different value. The reason is geometric:
+  Σ₀ contains the short core (0.185) with a wide collar, and the level surfaces just off it are displaced from the core
+  and lose that collar fast.
+- **Door C's candidate C5, answered** (R76-6's first step). C5 lifts ρ through s ↦ τ(Σ_s). That gives a weight on the
+  points of ONE history, concentrated where ρ peaks, near τ ≈ 6.15i; it is not a law over histories. So C5 does not
+  supply door C, which stays one declared choice (P-729; the web seat's harvest row 1605 agrees).
+- **No coupling, scale or ratio computed; nothing compared with data.**
+

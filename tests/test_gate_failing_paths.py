@@ -349,3 +349,23 @@ def test_inputs_scoreboard_fails_on_an_earned_joint_with_no_basis(tmp_path, monk
     import subprocess
     subprocess.run([sys.executable, str(tmp_path / "scripts" / "checks" / "inputs_scoreboard.py"), "--write"], check=True, capture_output=True)
     ok, why = gates.gate_inputs_scoreboard(); assert ok is True, why
+
+
+def test_seal_order_unshown_fails_on_a_new_member_an_addition_and_a_stale_row(monkeypatch):
+    """R76-2 (P-601): the order-unshown list may only shrink"""
+    ceiling = frozenset(("B1", "B2")); off = {}
+    ok_case = gates.seal_order_problems({"B1": "aaaaaaaaa1", "B2": "bbbbbbbbb2"}, {"B1": "aaaaaaa", "B2": "bbbbbbb"}, ceiling, off)
+    assert ok_case == []
+    new = gates.seal_order_problems({"B1": "aaaaaaaaa1", "B2": "bbbbbbbbb2", "B3": "ccccccccc3"},
+                                    {"B1": "aaaaaaa", "B2": "bbbbbbb"}, ceiling, off)
+    assert len(new) == 1 and new[0].startswith("B3:") and "not on the list" in new[0]
+    added = gates.seal_order_problems({"B1": "aaaaaaaaa1", "B2": "bbbbbbbbb2", "B3": "ccccccccc3"},
+                                      {"B1": "aaaaaaa", "B2": "bbbbbbb", "B3": "ccccccc"}, ceiling, off)
+    assert any("may only shrink" in x for x in added)
+    stale = gates.seal_order_problems({"B1": "aaaaaaaaa1"}, {"B1": "aaaaaaa", "B2": "bbbbbbb"}, ceiling, off)
+    assert any(x.startswith("B2:") and "remove its row" in x for x in stale)
+    off_bad = gates.seal_order_problems({"B1": "aaaaaaaaa1", "B9": "ddd"}, {"B1": "aaaaaaa"}, ceiling, {"B9": ("s", "r")},
+                                        strict_ancestor=lambda a, b: False)
+    assert any(x.startswith("B9:") for x in off_bad)
+    monkeypatch.setattr(gates, "seal_order_class", lambda rev="HEAD": {"B1": "aaaaaaaaa1", "B99999": "eeeeeeeee5"})
+    ok, why = gates.gate_seal_order_unshown(); assert ok is False and "B99999" in why

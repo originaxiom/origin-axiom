@@ -1,0 +1,1 @@
+200 random 3-cycle-covariant symmetric couplings in the charge basis: entries with k + l != 0 mod 3 at most 8.4e-16 of the largest; entries (0,0), (1,2), (2,1) at least 4.11e-02 -> the anti-diagonal texture
