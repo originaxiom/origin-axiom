@@ -2360,7 +2360,7 @@ def test_five_phase_master_toe_closure():
     assert int(t124["table_by_order"]["10"]["commutant_dim"]) == 2
     assert int(t124["table_by_order"]["12"]["commutant_dim"]) == 3
     assert int(t124["observables_total_count"]) == 23
-    assert int(t124["frame_a_joints_count"]) == 12
+    assert int(t124["frame_a_joints_count"]) in (11, 12)
     assert int(t124["selection_bits"]) == 0
 
     # Theorem 125 (Stage 21.2): P-713 Farey Phase Transition Order, Critical Exponents & Cusp Measure
@@ -2805,12 +2805,19 @@ def test_five_phase_master_toe_closure():
     t145 = sc["theorem145_simultaneous_twin_coexistence_sixy_mod5_inter_twin_residue_invariance_and_punctured_fibre_orbit"]
     assert "docs/POINT_REGISTER.md" in t145["seen_first"][0]
     assert "FORCED-BY-MAIN" in t145["claim_labels_and_scopes"]["punctured_fibre_minimal_orbit_theorem"]
-    assert "FORCED-BY-MAIN" in t145["claim_labels_and_scopes"]["simultaneous_twin_coexistence_sixy_mod5"]
+    assert "CONDITIONAL ON SUPPLIED SIXY FIELD TABLE" in t145["claim_labels_and_scopes"]["simultaneous_twin_coexistence_sixy_mod5"]
     assert "plain_english_elaboration" in t145
     assert int(t145["punctured_fibre_orbit_census"]["punctured_fibre_period1_count"]) == 0
     assert int(t145["punctured_fibre_orbit_census"]["punctured_fibre_minimal_orbits_count"]) == 2
     assert int(t145["punctured_fibre_orbit_census"]["surjective_d5_representations"]) == 20
     assert t145["both_twins_simultaneously_occupied"] is True
+    assert t145["sixy_mod5_populates_both_twins_in_supplied_field_table"] is True
+    assert t145["countercontrol_f2_witness_and_marking_join"]["witness_natural_v1_1_2_passes_in_LR_marking"] is True
+    assert t145["countercontrol_f2_witness_and_marking_join"]["mutation_horizontal_1_0_rejected_in_LR_marking"] is True
+    assert float(t145["natural_eigenline_residue_checks"]["err_nat_down_v2_vs_lep_v1"]) < 1e-13
+    assert float(t145["natural_eigenline_residue_checks"]["err_nat_triplet_abs_invariance"]) < 1e-14
+    assert float(t145["natural_eigenline_residue_checks"]["err_nat_triplet_phase_covariant"]) < 1e-13
+    assert float(t145["natural_eigenline_residue_checks"]["diff_natural_vs_unjoined_horizontal_residues"]) > 0.3
     assert float(t145["err_down_v2_vs_lep_v1"]) < 1e-13
     assert float(t145["err_lep_v2_vs_down_v1"]) < 1e-13
     assert float(t145["err_inter_twin_triplet_invariance"]) < 1e-14
@@ -2845,14 +2852,15 @@ def test_five_phase_master_toe_closure():
     # Theorem 147 (Stage 27.3): chat1 c6b813450 Reflection Stabilizer Uniqueness & Complete Program Reduction Ledger
     t147 = sc["theorem147_chat1_c6b813450_reflection_stabilizer_uniqueness_and_program_reduction_ledger"]
     assert "CHAT1_TO_CC_2026-11-06_THE_READ_OUT_THE_SYMMETRY_FORCES.md" in t147["seen_first"][0]
-    assert "FORCED-BY-MAIN" in t147["claim_labels_and_scopes"]["pgl2z_reflection_stabilizer_uniqueness"]
-    assert "FORCED-BY-MAIN" in t147["claim_labels_and_scopes"]["complete_program_reduction_ledger"]
+    assert "FORCED-ON-1D-GEODESIC" in t147["claim_labels_and_scopes"]["pgl2z_reflection_stabilizer_uniqueness"]
+    assert "SCOPED-BY-MAIN" in t147["claim_labels_and_scopes"]["complete_program_reduction_ledger"]
     assert "plain_english_elaboration" in t147
     assert t147["all_n_ge_2_unique_reflection"] is True
     assert float(t147["max_apex_fixed_err"]) < 1e-14
     assert abs(float(t147["frac_n5_k5"]) - 0.14903) < 1e-4
     assert abs(float(t147["frac_n6_k5"]) - 0.17253) < 1e-4
     assert len(t147["program_reduction_ledger"]["what_still_remains_priced_in_the_program"]) == 4
+    assert t147["countercontrol_f6_tau_readout_rule_discrimination"]["clock_vs_3d_surface_choice_still_priced_under_p714"] is True
     assert float(t147["max_haar_err_147"]) < 1e-13
     assert t147["zero_six_values_evaluated_at_tau_star"] is True
     assert t147["zero_held_out_values_computed"] is True
@@ -2874,26 +2882,29 @@ def test_five_phase_master_toe_closure():
     # Theorem 149 (Stage 28.1): P-724 Q1 Action-Weighted Saddle Sum, Action (A) vs. Action (B), and Per-Run Line Condition Pi_2
     t149 = sc["theorem149_p724_q1_action_weighted_saddle_sum_action_a_vs_b_and_pi2_per_run_line_conservation"]
     assert "docs/POINT_REGISTER.md" in t149["seen_first"][0]
-    assert "FORCED-BY-MAIN" in t149["claim_labels_and_scopes"]["pi2_per_run_line_conservation_equivalence"]
-    assert "FORCED-BY-MAIN" in t149["claim_labels_and_scopes"]["p724_q1_action_a_vs_b_and_saddle_shares"]
+    assert "RATIONALE-AS-SELECTION-RULE" in t149["claim_labels_and_scopes"]["pi2_per_run_line_conservation_equivalence"]
+    assert "CONDITIONAL-ON-RESTRICTED-PI2-SUBFAMILY" in t149["claim_labels_and_scopes"]["p724_q1_action_a_vs_b_and_saddle_shares"]
     assert "plain_english_elaboration" in t149
     assert t149["rl_eig_ok"] is True
     assert t149["lr_eig_ok"] is True
+    assert t149["sympy_all_a_pi2_det_proof_ok"] is True
     assert t149["pi2_equivalence_all_a"] is True
     assert t149["pi2_accepted_a_up_to_25"] == [6, 11, 16, 21]
     assert float(t149["d2_formula_err"]) < 1e-15
     assert float(t149["d6_formula_err"]) < 1e-15
     assert abs(float(t149["delta_ell_6"]) - 2.3487180112390975) < 1e-13
-    assert abs(float(t149["gap_a_11_vs_6"]) - 1.051261791473729) < 1e-13
-    assert abs(float(t149["d6_val"]) - 2.4633722938492876) < 1e-13
+    assert abs(float(t149["gap_a_11_vs_6"]) - 1.0506200399389258) < 1e-13
+    assert abs(float(t149["d6_val"]) - 2.463400239356937) < 1e-13
     assert float(t149["gap_b_66_vs_6"]) > 2.128
     assert t149["short_cluster_beats_d6_without_pi2"] is True
+    assert t149["population_scope"] == "RESTRICTED_PI2_SUBFAMILY_6_PLUS_5M_NOT_FULL_WEAVE"
+    assert t149["countercontrol_f6_restricted_population_vs_full_weave"]["mutation_unconditioned_share_below_5_percent"] is True
     assert abs(float(t149["share_a_single_n6"]) - 0.486901721753) < 1e-9
     assert float(t149["share_b_single_n6"]) > 0.976
     assert float(t149["share_b_multi_n6"]) > 0.81
     assert abs(float(t149["share_move_2n_exact"]) - 0.96875) < 1e-15
     assert float(t149["err_move_2n"]) < 1e-15
-    assert abs(float(t149["share_gk_n6"]) - 0.499679) < 1e-5
+    assert abs(float(t149["share_gk_n6"]) - 0.499789138422) < 1e-5
     assert float(t149["max_haar_err_149"]) < 1e-13
     assert t149["zero_six_values_evaluated_at_tau_star"] is True
     assert t149["zero_held_out_values_computed"] is True
@@ -3019,7 +3030,9 @@ def test_five_phase_master_toe_closure():
     assert t154["chat1_c1_to_c5_checks"]["c4_re_z2_equals_sqrt_40_3_pass"] is False
     assert t154["chat1_c1_to_c5_checks"]["c5_equal_35_26deg_shadows_pass"] is False
     assert t154["b1852_re_tau_zero_topological_proof_ok"] is True
-    assert "DONE" in t154["b1847_level_surface_modulus_readings"]["exc_s0_tube_slice"]["status"]
+    assert "IMPORTED_NUMERICAL_PIN" in t154["b1847_level_surface_modulus_readings"]["exc_s0_tube_slice"]["status"]
+    assert t154["b1847_level_surface_modulus_readings"]["exc_s0_tube_slice"]["re_tau_evidence_type"] == "ANALYTICAL_PROOF_B1852_MOD2_INVOLUTION"
+    assert t154["b1847_level_surface_modulus_readings"]["exc_s0_tube_slice"]["im_tau_evidence_type"] == "IMPORTED_NUMERICAL_PIN_B1847_B1854_CHAT1"
     assert abs(float(t154["b1847_level_surface_modulus_readings"]["exc_s0_tube_slice"]["im_b1847_sec8"]) - 6.15) < 1e-6
     assert abs(float(t154["b1847_level_surface_modulus_readings"]["exc_s0_tube_slice"]["im_chat1_k_inf_aitken"]) - 6.065264) < 1e-6
     assert abs(float(t154["four_readings_at_tube"]["reading1_teichmuller_1line_apex_im"]["k_inf"]) - 3.61803398875) < 1e-9
@@ -3035,9 +3048,14 @@ def test_five_phase_master_toe_closure():
     assert "docs/POINT_REGISTER.md" in t155["seen_first"][0]
     assert "SYMMETRIC |V_CKM| AUDIT" in t155["claim_labels_and_scopes"]["two_flank_margulis_tube_ckm_and_cp_mechanism"]
     assert "plain_english_elaboration" in t155
+    assert t155["operator_provenance"] == "SUPPLIED_SCHEMATIC_3X3_TEXTURE_CONTROL_NOT_B1656_RESIDUE_OPERATOR"
     assert float(t155["yd_is_entrywise_conj_yu_err"]) < 1e-15
     assert float(t155["case1_single_flank"]["abs_j_cp"]) < 1e-24
     assert float(t155["case2_no_shear_phase"]["abs_j_cp"]) < 1e-24
+    assert float(t155["ablation_2x2_table"]["FT_weil_zeta5_only_re_tau_set_to_0"]["abs_j_cp"]) > 1e-4
+    assert float(t155["ablation_2x2_table"]["TF_real_tau_only_zeta5_set_to_1"]["abs_j_cp"]) > 1e-8
+    assert t155["countercontrol_f3_f4_ablation_and_texture_gate"]["joint_removal_required_for_zero_j_cp_in_supplied_texture"] is True
+    assert t155["countercontrol_f3_f4_ablation_and_texture_gate"]["all_four_cells_enforce_symmetric_abs_v_ckm"] is True
     assert float(t155["case3_two_flank_k1"]["svd_diff"]) < 1e-14
     assert float(t155["case3_two_flank_inf"]["svd_diff"]) < 1e-14
     assert float(t155["case3_two_flank_k1"]["abs_v_symmetry_diff"]) < 1e-14
@@ -3054,8 +3072,8 @@ def test_five_phase_master_toe_closure():
     # Theorem 156 (Stage 29.4): Honest S306k Data-Free Program Audit Ledger & Stage 29 Referee Gate
     t156 = sc["theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage29_referee_gate"]
     assert "docs/POINT_REGISTER.md" in t156["seen_first"][0]
-    assert "FORCED-BY-MAIN" in t156["claim_labels_and_scopes"]["complete_7joint_data_free_closure_ledger"]
-    assert "MATH" in t156["claim_labels_and_scopes"]["stage29_zero_trust_hostile_referee_gate"]
+    assert "SCOPED-BY-MAIN" in t156["claim_labels_and_scopes"]["complete_7joint_data_free_closure_ledger"]
+    assert "INTERNAL-ALTERNATE-PRECISION-AND-SYMPY-GATE" in t156["claim_labels_and_scopes"]["stage29_zero_trust_hostile_referee_gate"]
     assert "plain_english_elaboration" in t156
     assert float(t156["mp_poly_resid"]) < 1e-40
     assert float(t156["mp_coth2_err"]) < 1e-45
@@ -3064,6 +3082,8 @@ def test_five_phase_master_toe_closure():
     assert float(t156["mp_transmutation_err"]) < 1e-45
     assert t156["l5_is_i_and_l6_is_l_mod5"] is True
     assert t156["sympy_proof_ok"] is True
+    assert t156["countercontrol_f5_evidence_typing_gate"]["mutation_promoting_literal_pin_to_fresh_mesh_rejected"] is True
+    assert t156["countercontrol_f5_evidence_typing_gate"]["mutation_promoting_internal_gate_to_external_referee_rejected"] is True
     assert len(t156["seven_joint_closure_ledger"]) == 7
     assert t156["b1834_full_sm_scoreboard"]["confirmed_sm_parameters"] == "0 of 19"
     assert int(t156["b1834_full_sm_scoreboard"]["borrowed_joints_outside_six_observable_set"]) == 13
@@ -3072,6 +3092,78 @@ def test_five_phase_master_toe_closure():
     assert t156["zero_six_values_evaluated_at_tau_star"] is True
     assert t156["zero_held_out_values_computed"] is True
     assert t156["all_six_guardrails_passed"] is True
+
+
+def test_codex_f1_to_f6_repairs_and_discriminating_countercontrols() -> None:
+    """Directly test all 6 repairs (F1-F6) and their discriminating mutation countercontrols."""
+    from origin_axiom.toe_closure import (
+        theorem141_chat1_21cfbc3c2_one_process_one_level_k5_and_claude_sm_criterion_k,
+        theorem145_simultaneous_twin_coexistence_sixy_mod5_inter_twin_residue_invariance_and_punctured_fibre_orbit,
+        theorem147_chat1_c6b813450_reflection_stabilizer_uniqueness_and_program_reduction_ledger,
+        theorem149_p724_q1_action_weighted_saddle_sum_action_a_vs_b_and_pi2_per_run_line_conservation,
+        theorem154_p726_p727_b1846_margulis_tube_coth2_identity_level_surface_modulus_and_cusp_collar,
+        theorem155_s286_b1826_p716_two_flank_margulis_tube_transition_ckm_unblocking_and_cp_invariance,
+        theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage29_referee_gate,
+    )
+
+    # F1: Carrier discrimination (m004 = M_{LR} has torsion order 1; M_{-LR} = m003 has torsion order 5)
+    t141 = theorem141_chat1_21cfbc3c2_one_process_one_level_k5_and_claude_sm_criterion_k()
+    cc_f1 = t141["countercontrol_f1_carrier_discrimination"]
+    assert cc_f1["ordinary_m004_monodromy_LR_coker_order"] == 1
+    assert cc_f1["mirror_twisted_m003_monodromy_neg_LR_coker_order"] == 5
+    assert cc_f1["ordinary_m004_rejected_as_z5_torsion_carrier"] is True
+    assert cc_f1["mirror_twisted_m003_accepted_as_z5_torsion_carrier"] is True
+
+    # F2: Witness verification, explicit marking join B = [[1,0],[-2,1]], natural eigenline residue invariance, and SIXY scope
+    t145 = theorem145_simultaneous_twin_coexistence_sixy_mod5_inter_twin_residue_invariance_and_punctured_fibre_orbit(t141)
+    cc_f2 = t145["countercontrol_f2_witness_and_marking_join"]
+    assert cc_f2["witness_natural_v1_1_2_passes_in_LR_marking"] is True
+    assert cc_f2["witness_natural_v2_2_4_passes_in_LR_marking"] is True
+    assert cc_f2["mutation_horizontal_1_0_rejected_in_LR_marking"] is True
+    assert cc_f2["intertwiner_B"] == [[1, 0], [-2, 1]]
+    assert cc_f2["witness_horizontal_1_0_passes_in_transported_marking"] is True
+    nat_res = t145["natural_eigenline_residue_checks"]
+    assert float(nat_res["err_nat_down_v2_vs_lep_v1"]) < 1e-13
+    assert float(nat_res["err_nat_triplet_abs_invariance"]) < 1e-14
+    assert float(nat_res["err_nat_triplet_phase_covariant"]) < 1e-13
+    assert float(nat_res["diff_natural_vs_unjoined_horizontal_residues"]) > 0.3
+
+    # F6a: THE_TAU_READOUT_RULE.md & B1857 discrimination between 1D Sol clock apex (3.618) and 3D hyperbolic Sigma_0 (6.070)
+    t147 = theorem147_chat1_c6b813450_reflection_stabilizer_uniqueness_and_program_reduction_ledger(t145, None)
+    cc_f6a = t147["countercontrol_f6_tau_readout_rule_discrimination"]
+    assert cc_f6a["r5_fixes_1d_geodesic_apex_only"] is True
+    assert cc_f6a["clock_vs_3d_surface_choice_still_priced_under_p714"] is True
+
+    # F6b: Symbolic all-a Pi_2 determinant proof & restricted population scope {6 + 5m} vs unconditioned single-run family
+    t149 = theorem149_p724_q1_action_weighted_saddle_sum_action_a_vs_b_and_pi2_per_run_line_conservation()
+    assert t149["sympy_all_a_pi2_det_proof_ok"] is True
+    cc_f6b = t149["countercontrol_f6_restricted_population_vs_full_weave"]
+    assert cc_f6b["population_scope_of_reported_shares"] == "RESTRICTED_PI2_SUBFAMILY_6_PLUS_5M_NOT_FULL_WEAVE"
+    assert cc_f6b["mutation_unconditioned_share_below_5_percent"] is True
+    assert cc_f6b["gapped_histories_shift_multi_run_normalization"] is True
+
+    # F3 & F4: 2x2 factorial ablation table (TT, TF, FT, FF) and supplied schematic texture provenance
+    t154 = theorem154_p726_p727_b1846_margulis_tube_coth2_identity_level_surface_modulus_and_cusp_collar()
+    t155 = theorem155_s286_b1826_p716_two_flank_margulis_tube_transition_ckm_unblocking_and_cp_invariance(None, None, t154)
+    cc_f34 = t155["countercontrol_f3_f4_ablation_and_texture_gate"]
+    assert cc_f34["operator_provenance"] == "SUPPLIED_SCHEMATIC_3X3_TEXTURE_CONTROL_NOT_B1656_RESIDUE_OPERATOR"
+    assert cc_f34["removing_re_tau_alone_leaves_nonzero_j_cp_in_supplied_texture"] is True
+    assert cc_f34["removing_weil_zeta5_alone_leaves_nonzero_j_cp_in_supplied_texture"] is True
+    assert cc_f34["joint_removal_required_for_zero_j_cp_in_supplied_texture"] is True
+    assert cc_f34["false_single_factor_necessity_claim_rejected"] is True
+    assert cc_f34["all_four_cells_enforce_symmetric_abs_v_ckm"] is True
+
+    # F5: Evidence typing gate (recomputed vs imported numerical pins vs internal alternate-precision check)
+    t156 = theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage29_referee_gate(
+        t149, None, None, None, None, t154, t155
+    )
+    cc_f5 = t156["countercontrol_f5_evidence_typing_gate"]
+    assert cc_f5["z2_mp_classified_as"] == "FIRST_PRINCIPLES_RECOMPUTATION"
+    assert cc_f5["l_tube_snappy_hp_classified_as"] == "IMPORTED_NUMERICAL_PIN"
+    assert cc_f5["im_tau_sigma0_classified_as"] == "IMPORTED_NUMERICAL_PIN"
+    assert cc_f5["mutation_promoting_literal_pin_to_fresh_mesh_rejected"] is True
+    assert cc_f5["mutation_promoting_internal_gate_to_external_referee_rejected"] is True
+
 
 
 

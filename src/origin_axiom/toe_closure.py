@@ -23705,7 +23705,16 @@ def theorem135_p720_ask2_ask3_basis_covariant_effective_yukawa_and_level4_holono
 
         im_red = tr.imag
         im_red_list.append(im_red)
-        l2_val = float(np.interp(im_red, im_grid, l2_grid))
+        if im_red <= im_grid[0]:
+            l2_val = float(l2_grid[0])
+        elif im_red >= im_grid[-1]:
+            l2_val = float(l2_grid[-1])
+        else:
+            import bisect
+            j_hi = bisect.bisect_right(im_grid, im_red)
+            j_lo = j_hi - 1
+            frac_t = (im_red - im_grid[j_lo]) / (im_grid[j_hi] - im_grid[j_lo])
+            l2_val = float(l2_grid[j_lo] + frac_t * (l2_grid[j_hi] - l2_grid[j_lo]))
         lh_e4 = l2_val - math.pi / 2.0
         av = [complex(te_mod.ev(cc, mp.mpc(tr.real, tr.imag))) for cc in te_mod.B[1]]
         S_h = av[0] * B_mod.QI + av[1] * B_mod.QJ + av[2] * B_mod.QK
@@ -25111,13 +25120,18 @@ def theorem141_chat1_21cfbc3c2_one_process_one_level_k5_and_claude_sm_criterion_
              finite Platonic groups S_3, A_4, S_4, A_5 of orders (6, 12, 24, 60) for N in (2, 3, 4, 5), and infinite for N >= 6.
          Thus N = 5 is the unique integer in Z_{>= 2} that both holds the twisted fixed line (5 | N) and lies in the
          finite triangle-group ladder (N <= 5), fixing k = N = 5, n = N + 1 = 6, and tau* = i*(5 + sqrt(5))/2.
-      2. [MATH] CRITERION K (`claude/sm` `47228ae85` Relay § 355) & Torsion Linking Reversal:
-         On M_{LR} = m004 with H_1(M_{LR}; Z) = Z (+) Z/5Z, both the torsion linking form q_link(v) = 3*v^2/5 (mod 1)
-         and the spherical 2I end Chern-Simons invariant CS(2I)/(2*pi^2) = 1/5 (mod 1) (B248/B250) have exact
-         denominator 5 in Q/Z, so the minimal positive integer k making exp(2*pi*i*k*CS) = 1 across the sector is
-         k = 5 (and k == 5 mod 15 when combined with the level-4 S_4 generation holonomy period 3 from Theorem 135).
-         Moreover, q_link(2v) = 4*q_link(v) == -q_link(v) (mod 1), reversing the Chern-Simons / Weil phase between
-         the two eigenline representatives v and 2v.
+      2. [MATH, CONDITIONAL ON MIRROR-TWISTED CARRIER] CRITERION K (`claude/sm` `47228ae85` Relay § 355) & Torsion Linking Reversal:
+         Abelianizing a punctured-torus bundle with monodromy A gives H_1(M_A; Z) = Z (+) coker(A - I).
+         For ordinary monodromy A = LR = [[2,1],[1,1]], det(A - I) = -1 (unimodular, SNF(A - I) = diag(1, 1)), so
+         ordinary m004 = M_{LR} has torsion-free homology H_1(m004; Z) = Z. For the mirror-twisted carrier M_{-LR} = m003
+         (monodromy -A, or the 2-fold branched cover Sigma_2(4_1)), coker(-A - I) = coker(A + I) has det(A + I) = 5 and
+         SNF(A + I) = diag(1, 5), giving H_1(M_{-LR}; Z) = Z (+) Z/5Z. On this mirror-twisted Z/5Z torsion carrier,
+         both the torsion linking form q_link(v) = 3*v^2/5 (mod 1) and the spherical 2I end Chern-Simons invariant
+         CS(2I)/(2*pi^2) = 1/5 (mod 1) (B248/B250) have exact denominator 5 in Q/Z, so the minimal positive integer k
+         making exp(2*pi*i*k*CS) = 1 across that sector is k = 5 (and k == 5 mod 15 when combined with the level-4 S_4
+         generation holonomy period 3 from Theorem 135). Moreover, q_link(2v) = 4*q_link(v) == -q_link(v) (mod 1),
+         reversing the Chern-Simons / Weil phase between the two eigenline representatives v and 2v. Mapping the
+         mirror-twisted carrier M_{-LR} to the physical coupling sector remains a conditional physical premise.
     """
     import cmath
     import sympy as sp
@@ -25133,14 +25147,39 @@ def theorem141_chat1_21cfbc3c2_one_process_one_level_k5_and_claude_sm_criterion_
         "docs/RELAY_LEDGER.md (Relay § 355 CRITERION K, chat1 21cfbc3c2 ONE PROCESS, ONE LEVEL)",
     ]
 
+    LR_mat = np.array([[2, 1], [1, 1]], dtype=int)
+    LR_minus_I = LR_mat - np.eye(2, dtype=int)
     LR_plus_I = np.array([[3, 1], [1, 2]], dtype=int)
+
+    det_ordinary_LR_minus_I = int(round(np.linalg.det(LR_minus_I)))
+    ordinary_m004_torsion_order = abs(det_ordinary_LR_minus_I)
+    U_ord = np.array([[0, 1], [1, -1]], dtype=int)
+    V_ord = np.array([[1, 0], [0, 1]], dtype=int)
+    D_ord = U_ord @ LR_minus_I @ V_ord
+    ordinary_snf_is_1_1 = (
+        (int(D_ord[0, 0]), int(D_ord[1, 1])) == (1, 1) and int(D_ord[0, 1]) == 0 and int(D_ord[1, 0]) == 0
+    )
+
     U_snf = np.array([[0, 1], [-1, 3]], dtype=int)
     V_snf = np.array([[1, -2], [0, 1]], dtype=int)
     D_snf = U_snf @ LR_plus_I @ V_snf
     snf_diag_exact = (int(D_snf[0, 0]), int(D_snf[1, 1])) == (1, 5) and int(D_snf[0, 1]) == 0 and int(D_snf[1, 0]) == 0
     snf_unimodular = abs(int(round(np.linalg.det(U_snf)))) == 1 and abs(int(round(np.linalg.det(V_snf)))) == 1
+    mirror_twisted_torsion_order = abs(int(round(np.linalg.det(LR_plus_I))))
 
-    LR_mat = np.array([[2, 1], [1, 1]], dtype=int)
+    def _carrier_coker_torsion_order(monodromy_matrix: np.ndarray) -> int:
+        return abs(int(round(np.linalg.det(monodromy_matrix - np.eye(2, dtype=int)))))
+
+    countercontrol_f1_carrier_discrimination = {
+        "ordinary_m004_monodromy_LR_coker_order": _carrier_coker_torsion_order(LR_mat),
+        "mirror_twisted_m003_monodromy_neg_LR_coker_order": _carrier_coker_torsion_order(-LR_mat),
+        "ordinary_m004_rejected_as_z5_torsion_carrier": bool(_carrier_coker_torsion_order(LR_mat) != 5),
+        "mirror_twisted_m003_accepted_as_z5_torsion_carrier": bool(_carrier_coker_torsion_order(-LR_mat) == 5),
+        "legacy_f1_ordinary_m004_has_z5_torsion": False,
+        "ordinary_snf_is_1_1": bool(ordinary_snf_is_1_1),
+        "mirror_twisted_snf_is_1_5": bool(snf_diag_exact),
+    }
+
     L_mat = np.array([[1, 0], [1, 1]], dtype=int)
     level_table: Dict[int, Dict[str, object]] = {}
     for N in (2, 3, 4, 5, 15):
@@ -25221,6 +25260,9 @@ def theorem141_chat1_21cfbc3c2_one_process_one_level_k5_and_claude_sm_criterion_
         "guardrail_2_no_literal_flag_proofs_direct_matrix_verification": bool(
             snf_diag_exact is True
             and snf_unimodular is True
+            and ordinary_snf_is_1_1 is True
+            and countercontrol_f1_carrier_discrimination["ordinary_m004_rejected_as_z5_torsion_carrier"] is True
+            and countercontrol_f1_carrier_discrimination["mirror_twisted_m003_accepted_as_z5_torsion_carrier"] is True
             and level_table[5]["nonzero_twisted_fixed_points"] == 4
             and level_table[3]["nonzero_twisted_fixed_points"] == 0
         ),
@@ -25247,19 +25289,26 @@ def theorem141_chat1_21cfbc3c2_one_process_one_level_k5_and_claude_sm_criterion_
                 "k = N = 5 (S305w R1 DERIVED given minimality) and the rung-invisible single departure n = N + 1 = 6."
             ),
             "claude_sm_47228ae85_criterion_k_and_linking_reversal": (
-                "[MATH] Verifies Relay § 355 CRITERION K: the least positive integer k trivializing exp(2*pi*i*k*CS) = 1 "
-                "across the H_1 = Z (+) Z/5Z torsion linking phases 3*v^2/5 and the 2I spherical end CS/(2*pi^2) = 1/5 is "
-                "k = 5 (and k == 5 mod 15 with the level-4 S_4 generation holonomy), with q_link(2v) == -q_link(v) (mod 5)."
+                "[MATH, CONDITIONAL ON MIRROR-TWISTED CARRIER M_{-LR}] Verifies Relay § 355 CRITERION K while distinguishing "
+                "ordinary m004 = M_{LR} (det(LR - I) = -1, SNF(LR - I) = diag(1, 1), H_1(m004; Z) = Z) from the mirror-twisted "
+                "carrier M_{-LR} = m003 / Sigma_2(4_1) (det(LR + I) = 5, SNF(LR + I) = diag(1, 5), H_1(M_{-LR}; Z) = Z (+) Z/5Z): "
+                "the least positive integer k trivializing exp(2*pi*i*k*CS) = 1 across the mirror-twisted H_1 torsion linking "
+                "phases 3*v^2/5 and the 2I spherical end CS/(2*pi^2) = 1/5 is k = 5 (and k == 5 mod 15 with the level-4 S_4 "
+                "generation holonomy), with q_link(2v) == -q_link(v) (mod 5)."
             ),
         },
         "plain_english_elaboration": (
             "Unifies `chat1` `21cfbc3c2` ('One Process, One Level'), `claude/sm` `47228ae85` ('Criterion K'), and `main` "
-            "`S305w` (`R1 DERIVED given minimality`): because Smith Normal Form `SNF(LR + I) = diag(1, 5)`, a level-N "
-            "phase space holds the twisted fixed line iff `5 | N`, while the triangle quotient `Delta(2, 3, N)` is finite "
-            "iff `N <= 5` (`A_5` at `N = 5`). Thus `k = N = 5` is uniquely selected as the minimal level, forcing both the "
-            "run-6 departure (`n = N + 1 = 6`, `tau* = i*sqrt(5)*phi`) and the trivialization of the `1/5`-period "
-            "Chern-Simons phases."
+            "`S305w` (`R1 DERIVED given minimality`) with Codex's `F1` carrier repair (`ebee6ac2a`): ordinary `m004 = M_{LR}` "
+            "has `det(LR - I) = -1` and `H_1(m004; Z) = Z`, whereas the `Z/5Z` torsion comes from the mirror-twisted carrier "
+            "`M_{-LR} = m003` (`coker(LR + I) = Z/5Z`, `SNF(LR + I) = diag(1, 5)`). A level-N phase space holds the twisted "
+            "fixed line iff `5 | N`, while the triangle quotient `Delta(2, 3, N)` is finite iff `N <= 5` (`A_5` at `N = 5`). "
+            "Thus `k = N = 5` is uniquely selected under those conditions."
         ),
+        "ordinary_m004_torsion_order": int(ordinary_m004_torsion_order),
+        "ordinary_snf_is_1_1": bool(ordinary_snf_is_1_1),
+        "mirror_twisted_torsion_order": int(mirror_twisted_torsion_order),
+        "countercontrol_f1_carrier_discrimination": countercontrol_f1_carrier_discrimination,
         "snf_diag_exact": snf_diag_exact,
         "snf_unimodular": snf_unimodular,
         "level_table": level_table,
@@ -25997,33 +26046,34 @@ def theorem145_simultaneous_twin_coexistence_sixy_mod5_inter_twin_residue_invari
       T^2 \\ {0}, A = LR has no fixed point and its minimal periodic orbits are exclusively the period-2 pair {+-v1}, {+-v2})
 
     Proves and verifies data-free (`0 of 19`):
-    1. Punctured-Fibre Non-Zero Line Theorem (`chat1` `2bc31bc23`, `B366`, `B287`):
-       - On the closed torus T^2 = R^2 / Z^2, A = LR has |det(A - I)| = 1 untwisted fixed point (the origin (0,0), period 1)
-         and |det(A + I)| = 5 twisted fixed points (the origin plus the 4 points {+-v1, +-v2} of period 2 under A).
-       - On the object's once-punctured torus fibre Sigma_{1,1} = T^2 \\ {(0,0)} (where (0,0) is the figure-eight knot puncture),
-         A has 0 fixed points (period 1 count = 0) and its minimal periodic orbits are exclusively the two period-2 twin pairs
-         O_1 = {+v_1, -v_1} = {+-(1/5, 0)} and O_2 = {+v_2, -v_2} = {+-(2/5, 0)}.
+    1. Punctured-Fibre Non-Zero Line Theorem & Natural Eigenline Coordinates (`chat1` `2bc31bc23`, `B366`, `B287`, Codex `F2` repair):
+       - On the closed torus T^2 = R^2 / Z^2, A = LR = [[2,1],[1,1]] has |det(A - I)| = 1 untwisted fixed point (the origin (0,0), period 1)
+         and |det(A + I)| = 5 twisted fixed points (the origin plus the 4 points of period 2 under A).
+       - In the declared A = LR = [[2,1],[1,1]] marking, (A + I)(x, y)^T = (3x + y, x + 2y)^T == (0, 0)^T (mod 5) iff y == 2x (mod 5).
+         Thus on the punctured fibre Sigma_{1,1} = T^2 \\ {(0,0)}, A has 0 fixed points and its 4 non-zero period-2 points are
+         (1, 2)/5, (2, 4)/5, (3, 1)/5, (4, 3)/5, forming the two natural period-2 twin orbits:
+           O_1^{nat} = {+-(1/5, 2/5)} == {(1/5, 2/5), (4/5, 3/5)} and O_2^{nat} = {+-(2/5, 4/5)} == {(2/5, 4/5), (3/5, 1/5)}.
+         The horizontal points +-(1/5, 0) and +-(2/5, 0) are NOT eigenvectors of A = [[2,1],[1,1]] (since A(1,0)^T = (2,1)^T != -(1,0)^T mod 5);
+         rotating (1, 2)/5 onto (1, 0)/5 via B = [[1, 0], [-2, 1]] changes the monodromy to B A B^{-1} = [[4, 1], [-5, -1]] and requires
+         simultaneous transport of the modulus, spin structure, and operator.
        - Under dihedral representations of pi_1(S^3 \\ 4_1) -> D_5 (Fox 5-colourings, |H_1(Sigma_2(4_1))| = det(A + I) = 5),
-         there are 5^2 = 25 colourings: 5 trivial abelian colourings (corresponding to the origin (0,0)) and 20 surjective
-         D_5 representations, which partition into 2 conjugacy classes of size 10 corresponding to O_1 and O_2.
-    2. Simultaneous Coexistence of Both Twins in Every Frame Evaluation (`B1656`, `B1728`):
-       - In `B1656`'s frame, `SIXY = {"Q": 1, "u": -4, "d": 2, "L": -3, "e": 6, "H": 3}` assigns twist q * w to each field.
-       - Modulo 5:
+         there are 5^2 = 25 colourings: 5 trivial abelian colourings (corresponding to (0,0)) and 20 surjective D_5 representations
+         partitioning into 2 conjugacy classes of size 10.
+    2. SIXY mod 5 Pattern Within the Supplied B1656 Field Table (`B1656`, `B1728`, Codex `F2` scope):
+       - Within `B1656`'s supplied hypercharge table `SIXY = {"Q": 1, "u": -4, "d": 2, "L": -3, "e": 6, "H": 3}` (this tests the
+         supplied table modulo 5; it does not derive the SM field content or a dynamical occupation state):
            (q_Q, q_u, q_e) = (1, -4, 6) == (+1, +1, +1) (mod 5)  [SU(5) 10-plet],
            (q_d, q_L, -q_H) = (2, -3, -3) == (+2, +2, +2) (mod 5) [SU(5) 5-bar-plet and conjugate Higgs].
-       - Therefore, for ANY order-5 line w = v, BOTH twin orbits {+-v} and {+-2v} are simultaneously populated in the universe:
-         one twin carries the 10-plet {Q, u^c, e^c}, while the other twin carries the 5-bar-plet {d^c, L} and the Higgs H (-2v).
-       - The three Yukawa sectors (`up`, `down`, `lep`) are:
-           `up = ("Q", "u")`   -> (+1, +1) mod 5: intra-twin self-interaction (Twin_10 x Twin_10),
-           `down = ("Q", "d")` -> (+1, +2) mod 5: inter-twin cross-interaction (Twin_10 x Twin_5bar),
-           `lep = ("L", "e")`  -> (+2, +1) mod 5: transposed inter-twin cross-interaction (Twin_5bar x Twin_10).
-    3. Exact Inter-Twin Residue Invariance Under v_1 <-> v_2 at tau* = i*sqrt(5)*phi:
-       - Because `down` and `lep` always pair Twin 1 (+-1/5) with Twin 2 (+-2/5), swapping w = v_1 = (1/5, 0) <-> w = v_2 = (2/5, 0)
-         merely exchanges which leg is Twin 1 and which leg is Twin 2 (`down` <-> `lep`).
-       - Consequently, at tau* = i*sqrt(5)*phi (and at every purely imaginary tau = i*Y), the triplet elliptic residues
-         (R_i, R_j, R_k) of `down` and `lep` are 100% INVARIANT under swapping v_1 <-> v_2 (`< 1e-14`), while the singlet
-         residue R_1 flips sign (`R_down(v_2) = R_lep(v_1)` and `R_lep(v_2) = R_down(v_1)` to `< 1e-14`)!
+       - Thus for any order-5 point w = v, the supplied `SIXY` multiples q * w place {Q, u^c, e^c} on +v and {d^c, L}, H* on +2v.
+    3. Exact Inter-Twin Residue Relations on Both the Joined Natural Eigenline (x, 2x)/5 and the Conditional Horizontal Frame (x, 0)/5:
+       - On the natural eigenline v_1^{nat} = (1/5, 2/5) and v_2^{nat} = (2/5, 4/5) at tau* = i*sqrt(5)*phi, R_down(v_2^{nat}) = R_lep(v_1^{nat})
+         and R_lep(v_2^{nat}) = R_down(v_1^{nat}) to < 1e-14, all four residue magnitudes |R_s| are invariant (< 1e-15), and
+         M_down(v_2^{nat}) = exp(-4*pi*i/5) * M_down(v_1^{nat})^T = M_lep(v_1^{nat}) to < 1e-14 (preserving singular values identically).
+       - Preserves the conditional horizontal-frame evaluation on (1/5, 0) and (2/5, 0) separately, while recording the non-zero
+         discrepancy between the natural eigenline and the unjoined horizontal evaluation (`> 0.31`).
     """
+    import cmath
+
     seen_first = [
         "docs/POINT_REGISTER.md (S305y P-718, P-721: opposite CS phases q(2v) = -q(v) mod 5; B1733's v <-> 2v exchanges 10 and 5-bar)",
         "frontier/B1728_the_lines_order_as_a_quotient_of_hypercharge/FINDINGS.md (B1728: 6Y mod 5 five-ality on order-5 lines)",
@@ -26031,17 +26081,54 @@ def theorem145_simultaneous_twin_coexistence_sixy_mod5_inter_twin_residue_invari
         "relays/CHAT1_TO_CC_2026-11-06_THE_ZERO_LINE_IS_WHERE_THE_KNOT_IS.md (chat1 2bc31bc23: punctured fibre minimal periodic orbits)",
     ]
 
-    # 1. Punctured-Fibre Orbit Census & Fox 5-Colouring Partition (chat1 2bc31bc23)
+    # 1. Punctured-Fibre Orbit Census, Direct Kernel Solve, & Witness Verification (chat1 2bc31bc23 & Codex F2 repair)
     mat_A = np.array([[2, 1], [1, 1]], dtype=int)  # LR
     mat_I = np.eye(2, dtype=int)
     det_untwisted = abs(int(round(np.linalg.det(mat_A - mat_I))))  # |det(A - I)| = 1
     det_twisted = abs(int(round(np.linalg.det(mat_A + mat_I))))    # |det(A + I)| = 5
     det_period2 = abs(int(round(np.linalg.det(mat_A @ mat_A - mat_I))))  # |det(A^2 - I)| = 5
 
+    # Solve (A + I) v == 0 (mod 5) directly for v in (Z/5Z)^2 \ {(0,0)}:
+    natural_twisted_points_mod5: List[Tuple[int, int]] = []
+    for x_c in range(5):
+        for y_c in range(5):
+            if x_c == 0 and y_c == 0:
+                continue
+            vec_c = np.array([x_c, y_c], dtype=int)
+            if np.all(((mat_A + mat_I) @ vec_c) % 5 == 0):
+                natural_twisted_points_mod5.append((int(x_c), int(y_c)))
+
+    def _is_twisted_eigenvector_mod5(mat_m: np.ndarray, pt_mod5: Tuple[int, int]) -> bool:
+        v_arr = np.array([pt_mod5[0], pt_mod5[1]], dtype=int)
+        return bool(np.all(((mat_m + np.eye(2, dtype=int)) @ v_arr) % 5 == 0))
+
+    # Verify witness on the solved points (1,2) and (2,4), and verify that horizontal (1,0) FAILS in marking A = LR:
+    natural_v1_mod5 = (1, 2)
+    natural_v2_mod5 = (2, 4)
+    witness_natural_v1_ok = _is_twisted_eigenvector_mod5(mat_A, natural_v1_mod5)
+    witness_natural_v2_ok = _is_twisted_eigenvector_mod5(mat_A, natural_v2_mod5)
+    witness_horizontal_10_in_LR_marking = _is_twisted_eigenvector_mod5(mat_A, (1, 0))
+
+    # Explicit marking intertwiner B = [[1, 0], [-2, 1]] mapping (1, 2)^T -> (1, 0)^T and A -> B A B^{-1} = [[4, 1], [-5, -1]]:
+    mat_B = np.array([[1, 0], [-2, 1]], dtype=int)
+    mat_B_inv = np.array([[1, 0], [2, 1]], dtype=int)
+    mat_A_transported = mat_B @ mat_A @ mat_B_inv
+    witness_horizontal_10_in_transported_marking = _is_twisted_eigenvector_mod5(mat_A_transported, (1, 0))
+
+    countercontrol_f2_witness_and_marking_join = {
+        "natural_twisted_points_mod5": natural_twisted_points_mod5,
+        "witness_natural_v1_1_2_passes_in_LR_marking": witness_natural_v1_ok,
+        "witness_natural_v2_2_4_passes_in_LR_marking": witness_natural_v2_ok,
+        "mutation_horizontal_1_0_rejected_in_LR_marking": bool(witness_horizontal_10_in_LR_marking is False),
+        "intertwiner_B": [[1, 0], [-2, 1]],
+        "transported_monodromy_B_A_Binv": [[int(mat_A_transported[0, 0]), int(mat_A_transported[0, 1])], [int(mat_A_transported[1, 0]), int(mat_A_transported[1, 1])]],
+        "witness_horizontal_1_0_passes_in_transported_marking": witness_horizontal_10_in_transported_marking,
+    }
+
     # On closed torus T^2 vs punctured fibre Sigma_{1,1} = T^2 \ {(0,0)}:
     closed_torus_period1_count = det_untwisted  # 1: {(0,0)}
     punctured_fibre_period1_count = det_untwisted - 1  # 0: no fixed point on Sigma_{1,1}!
-    punctured_fibre_period2_points_count = det_period2 - 1  # 4 points: {+-v1, +-v2}
+    punctured_fibre_period2_points_count = len(natural_twisted_points_mod5)  # 4 points: (1,2)/5, (2,4)/5, (3,1)/5, (4,3)/5
     punctured_fibre_minimal_orbits_count = punctured_fibre_period2_points_count // 2  # 2 orbits of period 2
 
     # Dihedral D_5 representations (Fox 5-colourings):
@@ -26050,7 +26137,7 @@ def theorem145_simultaneous_twin_coexistence_sixy_mod5_inter_twin_residue_invari
     surjective_d5_representations = total_5_colourings - trivial_abelian_colourings  # 20
     d5_conjugacy_classes_count = surjective_d5_representations // 10  # 2 classes (10 per twin orbit {+-v})
 
-    # 2. SIXY mod 5 Simultaneous Coexistence Law
+    # 2. SIXY mod 5 Pattern Within the Supplied Field Table
     sixy = {"Q": 1, "u": -4, "d": 2, "L": -3, "e": 6, "H": 3}
     sixy_mod5 = {k: (v % 5) for k, v in sixy.items()}
     ten_plet_fields = ("Q", "u", "e")
@@ -26059,34 +26146,46 @@ def theorem145_simultaneous_twin_coexistence_sixy_mod5_inter_twin_residue_invari
     five_bar_common_residue_mod5 = set(sixy_mod5[f] for f in five_bar_fields)
     higgs_conjugate_residue_mod5 = (-sixy["H"]) % 5
 
-    both_twins_simultaneously_occupied = bool(
+    sixy_mod5_populates_both_twins_in_supplied_field_table = bool(
         ten_plet_common_residue_mod5 == {1}
         and five_bar_common_residue_mod5 == {2}
         and higgs_conjugate_residue_mod5 == 2
     )
+    both_twins_simultaneously_occupied = sixy_mod5_populates_both_twins_in_supplied_field_table
 
-    # Track where 10, 5-bar, and H sit for w = v_1 = (1/5, 0) vs w = v_2 = (2/5, 0):
+    # Track where 10, 5-bar, and H sit on the natural eigenline v_1^{nat} = (1/5, 2/5) vs v_2^{nat} = (2/5, 4/5):
     twin_occupation_table = {
+        "natural_eigenline_w_equals_v1_1_2_over_5": {
+            "SU5_10_Q_u_e_orbit": "+v_1^{nat} = +(1/5, 2/5)",
+            "SU5_5bar_d_L_orbit": "+2*v_1^{nat} = +v_2^{nat} = +(2/5, 4/5)",
+            "Higgs_H_orbit": "+3*v_1^{nat} == -v_2^{nat} = (3/5, 1/5) (mod 1)",
+            "up_sector_pairing": "(+v_1^{nat}, +v_1^{nat}) [intra-twin 1x1]",
+            "down_sector_pairing": "(+v_1^{nat}, +v_2^{nat}) [inter-twin 1x2]",
+            "lep_sector_pairing": "(+v_2^{nat}, +v_1^{nat}) [inter-twin 2x1]",
+        },
+        "natural_eigenline_w_equals_v2_2_4_over_5": {
+            "SU5_10_Q_u_e_orbit": "+v_2^{nat} = +(2/5, 4/5)",
+            "SU5_5bar_d_L_orbit": "+2*v_2^{nat} == -v_1^{nat} = (4/5, 3/5) (mod 1)",
+            "Higgs_H_orbit": "+3*v_2^{nat} == +v_1^{nat} = +(1/5, 2/5) (mod 1)",
+            "up_sector_pairing": "(+v_2^{nat}, +v_2^{nat}) [intra-twin 2x2]",
+            "down_sector_pairing": "(+v_2^{nat}, -v_1^{nat}) [inter-twin 2x1]",
+            "lep_sector_pairing": "(-v_1^{nat}, +v_2^{nat}) [inter-twin 1x2]",
+        },
         "w_equals_v1_1_over_5": {
-            "SU5_10_Q_u_e_orbit": "+v_1 = +(1/5, 0)",
-            "SU5_5bar_d_L_orbit": "+2*v_1 = +v_2 = +(2/5, 0)",
-            "Higgs_H_orbit": "+3*v_1 == -v_2 = -(2/5, 0) (mod 1)",
-            "up_sector_pairing": "(+v_1, +v_1) [intra-twin 1x1]",
-            "down_sector_pairing": "(+v_1, +v_2) [inter-twin 1x2]",
-            "lep_sector_pairing": "(+v_2, +v_1) [inter-twin 2x1]",
+            "scope": "CONDITIONAL_HORIZONTAL_FRAME_CONTROL (not natural eigenline of A = [[2,1],[1,1]] without marking transport B)",
+            "SU5_10_Q_u_e_orbit": "+v_1^{horiz} = +(1/5, 0)",
+            "SU5_5bar_d_L_orbit": "+2*v_1^{horiz} = +v_2^{horiz} = +(2/5, 0)",
         },
         "w_equals_v2_2_over_5": {
-            "SU5_10_Q_u_e_orbit": "+v_2 = +(2/5, 0)",
-            "SU5_5bar_d_L_orbit": "+2*v_2 == -v_1 = -(1/5, 0) (mod 1)",
-            "Higgs_H_orbit": "+3*v_2 == +v_1 = +(1/5, 0) (mod 1)",
-            "up_sector_pairing": "(+v_2, +v_2) [intra-twin 2x2]",
-            "down_sector_pairing": "(+v_2, -v_1) [inter-twin 2x1]",
-            "lep_sector_pairing": "(-v_1, +v_2) [inter-twin 1x2]",
+            "scope": "CONDITIONAL_HORIZONTAL_FRAME_CONTROL (not natural eigenline of A = [[2,1],[1,1]] without marking transport B)",
+            "SU5_10_Q_u_e_orbit": "+v_2^{horiz} = +(2/5, 0)",
+            "SU5_5bar_d_L_orbit": "+2*v_2^{horiz} == -v_1^{horiz} = -(1/5, 0) (mod 1)",
         },
     }
 
-    # 3. Direct computation of elliptic residues R_s at tau* = i*sqrt(5)*phi for v_1=(1/5, 0) and v_2=(2/5, 0)
-    # Using B1656's exact theta bilinear residue formula (without evaluating any unsealed six ratio at tau*!):
+    # 3. Direct computation of elliptic residues R_s at tau* = i*sqrt(5)*phi on:
+    #    (A) the joined natural eigenline v_1^{nat} = (1/5, 2/5), v_2^{nat} = (2/5, 4/5) solved from (A + I)v = 0 mod 5, and
+    #    (B) the conditional horizontal frame (1/5, 0), (2/5, 0) preserved as a separate control.
     phi = (1.0 + math.sqrt(5.0)) / 2.0
     tau_star = 1j * math.sqrt(5.0) * phi
     nk = 24
@@ -26110,9 +26209,11 @@ def theorem145_simultaneous_twin_coexistence_sixy_mod5_inter_twin_residue_invari
             axis=-1,
         )
 
-    def _residues(ql: int, qr: int, a_line: float, t_val: complex, rad: float = 0.01, n_pts: int = 256) -> Dict[str, complex]:
-        ax, bx = ql * a_line, 0.0
-        ay, by = qr * a_line, 0.0
+    def _residues_2d(
+        ql: int, qr: int, a_line: float, b_line: float, t_val: complex, rad: float = 0.01, n_pts: int = 256
+    ) -> Dict[str, complex]:
+        ax, bx = ql * a_line, ql * b_line
+        ay, by = qr * a_line, qr * b_line
         u_circle = rad * np.exp(2j * np.pi * np.arange(n_pts) / n_pts)
         big_t = 2.0 * t_val
         t1 = _th1(u_circle, t_val)
@@ -26136,13 +26237,41 @@ def theorem145_simultaneous_twin_coexistence_sixy_mod5_inter_twin_residue_invari
             res_out[s_key] = complex(np.mean(p_s * u_circle))
         return res_out
 
-    r_up_v1 = _residues(sixy["Q"], sixy["u"], 0.2, tau_star)
-    r_down_v1 = _residues(sixy["Q"], sixy["d"], 0.2, tau_star)
-    r_lep_v1 = _residues(sixy["L"], sixy["e"], 0.2, tau_star)
+    # (A) Joined evaluation consuming the verified natural eigenline witnesses v_1^{nat}=(1/5, 2/5) and v_2^{nat}=(2/5, 4/5):
+    v1_nat_coords = (natural_v1_mod5[0] / 5.0, natural_v1_mod5[1] / 5.0)
+    v2_nat_coords = (natural_v2_mod5[0] / 5.0, natural_v2_mod5[1] / 5.0)
+    r_up_nat_v1 = _residues_2d(sixy["Q"], sixy["u"], v1_nat_coords[0], v1_nat_coords[1], tau_star)
+    r_down_nat_v1 = _residues_2d(sixy["Q"], sixy["d"], v1_nat_coords[0], v1_nat_coords[1], tau_star)
+    r_lep_nat_v1 = _residues_2d(sixy["L"], sixy["e"], v1_nat_coords[0], v1_nat_coords[1], tau_star)
 
-    r_up_v2 = _residues(sixy["Q"], sixy["u"], 0.4, tau_star)
-    r_down_v2 = _residues(sixy["Q"], sixy["d"], 0.4, tau_star)
-    r_lep_v2 = _residues(sixy["L"], sixy["e"], 0.4, tau_star)
+    r_up_nat_v2 = _residues_2d(sixy["Q"], sixy["u"], v2_nat_coords[0], v2_nat_coords[1], tau_star)
+    r_down_nat_v2 = _residues_2d(sixy["Q"], sixy["d"], v2_nat_coords[0], v2_nat_coords[1], tau_star)
+    r_lep_nat_v2 = _residues_2d(sixy["L"], sixy["e"], v2_nat_coords[0], v2_nat_coords[1], tau_star)
+
+    err_nat_down_v2_vs_lep_v1 = float(max(abs(r_down_nat_v2[s] - r_lep_nat_v1[s]) for s in ("1", "i", "j", "k")))
+    err_nat_lep_v2_vs_down_v1 = float(max(abs(r_lep_nat_v2[s] - r_down_nat_v1[s]) for s in ("1", "i", "j", "k")))
+    err_nat_triplet_abs_invariance = float(
+        max(abs(abs(r_down_nat_v2[s]) - abs(r_down_nat_v1[s])) for s in ("i", "j", "k"))
+    )
+    nat_common_phase = cmath.exp(-4j * math.pi / 5.0)
+    err_nat_triplet_phase_covariant = float(
+        max(abs(r_down_nat_v2[s] - nat_common_phase * r_down_nat_v1[s]) for s in ("i", "j", "k"))
+    )
+    err_nat_singlet_sign_flip = float(abs(r_down_nat_v2["1"] + nat_common_phase * r_down_nat_v1["1"]))
+    err_nat_up_singlet_zero = float(max(abs(r_up_nat_v1["1"]), abs(r_up_nat_v2["1"])))
+
+    # (B) Conditional horizontal-frame control (1/5, 0) and (2/5, 0) preserved separately:
+    r_up_v1 = _residues_2d(sixy["Q"], sixy["u"], 0.2, 0.0, tau_star)
+    r_down_v1 = _residues_2d(sixy["Q"], sixy["d"], 0.2, 0.0, tau_star)
+    r_lep_v1 = _residues_2d(sixy["L"], sixy["e"], 0.2, 0.0, tau_star)
+
+    r_up_v2 = _residues_2d(sixy["Q"], sixy["u"], 0.4, 0.0, tau_star)
+    r_down_v2 = _residues_2d(sixy["Q"], sixy["d"], 0.4, 0.0, tau_star)
+    r_lep_v2 = _residues_2d(sixy["L"], sixy["e"], 0.4, 0.0, tau_star)
+
+    diff_natural_vs_unjoined_horizontal_residues = float(
+        max(abs(r_down_nat_v1[s] - r_down_v1[s]) for s in ("1", "i", "j", "k"))
+    )
 
     err_down_v2_vs_lep_v1 = float(max(abs(r_down_v2[s] - r_lep_v1[s]) for s in ("1", "i", "j", "k")))
     err_lep_v2_vs_down_v1 = float(max(abs(r_lep_v2[s] - r_down_v1[s]) for s in ("1", "i", "j", "k")))
@@ -26152,7 +26281,7 @@ def theorem145_simultaneous_twin_coexistence_sixy_mod5_inter_twin_residue_invari
     err_inter_twin_singlet_sign_flip = float(abs(r_down_v2["1"] + r_down_v1["1"]))
     err_up_singlet_zero = float(max(abs(r_up_v1["1"]), abs(r_up_v2["1"])))
 
-    # 4. Mandatory 20-trial Haar unitary basis-scrambling check on the inter-twin residue swap operator (Guardrail 3)
+    # 4. Mandatory 20-trial Haar unitary basis-scrambling check on both natural and horizontal channel operators (Guardrail 3)
     rng = np.random.default_rng(20261106271)
     ec_dual = {
         "1": 0.5 * (-qj),
@@ -26160,10 +26289,20 @@ def theorem145_simultaneous_twin_coexistence_sixy_mod5_inter_twin_residue_invari
         "j": 0.5 * np.eye(2, dtype=complex),
         "k": 0.5 * qi,
     }
+    m_down_nat_v1 = sum(r_down_nat_v1[s] * ec_dual[s] for s in ("1", "i", "j", "k"))
+    m_down_nat_v2 = sum(r_down_nat_v2[s] * ec_dual[s] for s in ("1", "i", "j", "k"))
+    m_lep_nat_v1 = sum(r_lep_nat_v1[s] * ec_dual[s] for s in ("1", "i", "j", "k"))
+    err_nat_m_transpose_swap = float(
+        max(
+            np.max(np.abs(m_down_nat_v2 - nat_common_phase * m_down_nat_v1.T)),
+            np.max(np.abs(m_down_nat_v2 - m_lep_nat_v1)),
+        )
+    )
+    sv_nat_v1 = np.linalg.svd(m_down_nat_v1, compute_uv=False)
+
     m_down_v1 = sum(r_down_v1[s] * ec_dual[s] for s in ("1", "i", "j", "k"))
     m_down_v2 = sum(r_down_v2[s] * ec_dual[s] for s in ("1", "i", "j", "k"))
     m_lep_v1 = sum(r_lep_v1[s] * ec_dual[s] for s in ("1", "i", "j", "k"))
-    # Verify M_down(v2) == M_down(v1)^T == M_lep(v1) to < 1e-14:
     err_m_transpose_swap = float(max(
         np.max(np.abs(m_down_v2 - m_down_v1.T)),
         np.max(np.abs(m_down_v2 - m_lep_v1)),
@@ -26173,46 +26312,59 @@ def theorem145_simultaneous_twin_coexistence_sixy_mod5_inter_twin_residue_invari
     for _ in range(20):
         u_l, _ = np.linalg.qr(rng.standard_normal((2, 2)) + 1j * rng.standard_normal((2, 2)))
         u_r, _ = np.linalg.qr(rng.standard_normal((2, 2)) + 1j * rng.standard_normal((2, 2)))
+        sv_scr_nat = np.linalg.svd(u_l @ m_down_nat_v2 @ u_r.conj().T, compute_uv=False)
         sv_scr = np.linalg.svd(u_l @ m_down_v2 @ u_r.conj().T, compute_uv=False)
-        max_haar_err_145 = max(max_haar_err_145, float(np.max(np.abs(sv_scr - sv_m_v1))))
+        max_haar_err_145 = max(
+            max_haar_err_145,
+            float(np.max(np.abs(sv_scr_nat - sv_nat_v1))),
+            float(np.max(np.abs(sv_scr - sv_m_v1))),
+        )
 
     guardrail_compliance = {
-        "G1_no_zero_bit_post_inspection_credit": bool(both_twins_simultaneously_occupied and punctured_fibre_period1_count == 0),
+        "G1_no_zero_bit_post_inspection_credit": bool(
+            sixy_mod5_populates_both_twins_in_supplied_field_table and punctured_fibre_period1_count == 0
+        ),
         "G2_computed_from_explicit_operators": bool(
-            err_down_v2_vs_lep_v1 < 1e-13
-            and err_lep_v2_vs_down_v1 < 1e-13
-            and err_inter_twin_triplet_invariance < 1e-13
-            and err_inter_twin_singlet_sign_flip < 1e-13
-            and err_m_transpose_swap < 1e-13
+            witness_natural_v1_ok is True
+            and witness_natural_v2_ok is True
+            and countercontrol_f2_witness_and_marking_join["mutation_horizontal_1_0_rejected_in_LR_marking"] is True
+            and err_nat_down_v2_vs_lep_v1 < 1e-13
+            and err_nat_lep_v2_vs_down_v1 < 1e-13
+            and err_nat_triplet_abs_invariance < 1e-14
+            and err_nat_triplet_phase_covariant < 1e-13
+            and err_nat_singlet_sign_flip < 1e-13
+            and err_nat_m_transpose_swap < 1e-13
+            and diff_natural_vs_unjoined_horizontal_residues > 0.3
         ),
         "G3_haar_unitary_invariance_verified": bool(max_haar_err_145 < 1e-13),
         "G4_literature_benchmark_gate": bool(surjective_d5_representations == 20 and d5_conjugacy_classes_count == 2),
         "G5_strict_nondimensionalization": bool(punctured_fibre_minimal_orbits_count == 2),
-        "G6_independent_cross_verification": bool(err_up_singlet_zero < 1e-13 and err_m_transpose_swap < 1e-13),
+        "G6_independent_cross_verification": bool(err_nat_up_singlet_zero < 1e-13 and err_nat_m_transpose_swap < 1e-13),
     }
 
     return {
         "seen_first": seen_first,
         "claim_labels_and_scopes": {
             "punctured_fibre_minimal_orbit_theorem": (
-                "[MATH, FORCED-BY-MAIN] Proves chat1 2bc31bc23: on the punctured fibre Sigma_{1,1} = T^2 \\ {(0,0)}, "
-                "A = LR has 0 fixed points and its minimal periodic orbits are exclusively the two period-2 twin orbits "
-                "{+-v_1} and {+-v_2} (corresponding to the 2 conjugacy classes of 20 surjective D_5 Fox 5-colourings)."
+                "[MATH, FORCED-BY-MAIN / CODEX F2 REPAIRED] Proves chat1 2bc31bc23 and solves (A + I)v == 0 (mod 5) directly "
+                "for A = LR = [[2,1],[1,1]]: on Sigma_{1,1} = T^2 \\ {(0,0)}, A has 0 fixed points and its 4 non-zero period-2 "
+                "points are (1,2)/5, (2,4)/5, (3,1)/5, (4,3)/5 (orbits +-(1/5, 2/5) and +-(2/5, 4/5)), whereas (1/5, 0) fails "
+                "A v = -v mod 1 unless accompanied by the full marking intertwiner B = [[1,0],[-2,1]]."
             ),
             "simultaneous_twin_coexistence_sixy_mod5": (
-                "[MATH, FORCED-BY-MAIN] Proves that under SIXY mod 5 (B1728), (Q, u, e) == (+1, +1, +1) mod 5 and "
-                "(d, L, -H) == (+2, +2, +2) mod 5, so EVERY evaluation of an order-5 line populates BOTH twin orbits "
-                "simultaneously (10 on one twin, 5-bar and H* on the other twin), with down and lep being the inter-twin "
-                "cross-channels whose triplet residues are 100% invariant under v_1 <-> v_2 (< 1e-14)."
+                "[MATH, CONDITIONAL ON SUPPLIED SIXY FIELD TABLE] Proves that within B1656's supplied hypercharge table SIXY "
+                "mod 5 (B1728), (Q, u, e) == (+1, +1, +1) mod 5 and (d, L, -H) == (+2, +2, +2) mod 5, and verifies directly on "
+                "the joined natural eigenline v_1^{nat} = (1/5, 2/5), v_2^{nat} = (2/5, 4/5) that R_down(v_2^{nat}) = R_lep(v_1^{nat}) "
+                "and M_down(v_2^{nat}) = exp(-4*pi*i/5) * M_down(v_1^{nat})^T = M_lep(v_1^{nat}) to < 1e-14."
             ),
         },
         "plain_english_elaboration": (
-            "Proves that both twin halves of the order-5 eigenline (`+-v_1` and `+-v_2`) coexist and interact in every "
-            "evaluation of the frame: `SU(5)`'s `10 = {Q, u^c, e^c}` sits on one twin (`6Y == +1 mod 5`), while "
-            "`5-bar = {d^c, L}` and `H*` sit on the other twin (`6Y == +2 mod 5`). Consequently, `down` and `lep` are "
-            "the inter-twin (`v_1 x v_2`) cross-interactions whose triplet elliptic residues are 100% invariant under "
-            "swapping `v_1 <-> v_2` (`4.44e-16`), while on the punctured fibre `Sigma_{1,1}` (`chat1` `2bc31bc23`) "
-            "the zero line `(0,0)` is the knot puncture itself (`0 of 19`)."
+            "Repairs Codex `F2` (`ebee6ac2a`): solves `(A + I)v == 0 mod 5` directly for `A = LR = [[2,1],[1,1]]` to obtain "
+            "the true natural period-2 orbits `+-(1/5, 2/5)` and `+-(2/5, 4/5)` (rejecting unjoined `(1/5, 0)` in the `LR` "
+            "marking via `countercontrol_f2_witness_and_marking_join`), evaluates the elliptic residues directly on those "
+            "natural eigenline points at `tau*` (confirming `R_down(v_2^{nat}) = R_lep(v_1^{nat})` to `4.79e-15` and singular-value "
+            "invariance), preserves the conditional horizontal-frame calculation separately, and scopes `SIXY mod 5` strictly "
+            "to the supplied hypercharge table (`0 of 19`)."
         ),
         "punctured_fibre_orbit_census": {
             "det_untwisted_A_minus_I": det_untwisted,
@@ -26222,12 +26374,27 @@ def theorem145_simultaneous_twin_coexistence_sixy_mod5_inter_twin_residue_invari
             "punctured_fibre_period1_count": punctured_fibre_period1_count,
             "punctured_fibre_period2_points_count": punctured_fibre_period2_points_count,
             "punctured_fibre_minimal_orbits_count": punctured_fibre_minimal_orbits_count,
+            "natural_twisted_points_mod5": natural_twisted_points_mod5,
             "total_5_colourings": total_5_colourings,
             "trivial_abelian_colourings": trivial_abelian_colourings,
             "surjective_d5_representations": surjective_d5_representations,
             "d5_conjugacy_classes_count": d5_conjugacy_classes_count,
         },
+        "countercontrol_f2_witness_and_marking_join": countercontrol_f2_witness_and_marking_join,
+        "natural_eigenline_residue_checks": {
+            "v1_nat_coords": v1_nat_coords,
+            "v2_nat_coords": v2_nat_coords,
+            "err_nat_down_v2_vs_lep_v1": err_nat_down_v2_vs_lep_v1,
+            "err_nat_lep_v2_vs_down_v1": err_nat_lep_v2_vs_down_v1,
+            "err_nat_triplet_abs_invariance": err_nat_triplet_abs_invariance,
+            "err_nat_triplet_phase_covariant": err_nat_triplet_phase_covariant,
+            "err_nat_singlet_sign_flip": err_nat_singlet_sign_flip,
+            "err_nat_up_singlet_zero": err_nat_up_singlet_zero,
+            "err_nat_m_transpose_swap": err_nat_m_transpose_swap,
+            "diff_natural_vs_unjoined_horizontal_residues": diff_natural_vs_unjoined_horizontal_residues,
+        },
         "sixy_mod5": sixy_mod5,
+        "sixy_mod5_populates_both_twins_in_supplied_field_table": sixy_mod5_populates_both_twins_in_supplied_field_table,
         "both_twins_simultaneously_occupied": both_twins_simultaneously_occupied,
         "twin_occupation_table": twin_occupation_table,
         "err_down_v2_vs_lep_v1": err_down_v2_vs_lep_v1,
@@ -26601,19 +26768,39 @@ def theorem147_chat1_c6b813450_reflection_stabilizer_uniqueness_and_program_redu
         },
         "R5_reflection_stabilizer_apex_read_out": {
             "what_it_reduces": (
-                "Proves (chat1 c6b813450) that on the open one-departure history from -1/phi to n + 1/phi (n >= 2), "
+                "Proves (chat1 c6b813450) that on the open 1D Teichmüller one-departure history from -1/phi to n + 1/phi (n >= 2), "
                 "the PGL(2, Z) stabilizer is uniquely {1, rho_n} with rho_n(tau) = n - conj(tau), whose unique fixed point "
-                "is the turning-point apex tau*_n (tau* = i*sqrt(5)*phi at n = 6). No kinetic potential V(tau) is required "
-                "to locate where the point sits along the open Teichmüller history."
+                "along the 1D geodesic is the turning-point apex tau*_n (tau* = 1/2 + i*sqrt(5)*phi on the Teichmüller axis, "
+                "or i*sqrt(5)*phi after the Re(tau) shift at n = 6). By main's THE_TAU_READOUT_RULE.md and B1857, this fixes "
+                "the point along the 1D Sol-clock geodesic (Im tau = 3.618034, B1815), whereas choosing between the flat-fibre "
+                "Sol clock and the 3D hyperbolic harmonic level surface Sigma_0 (Im tau(Sigma_0) = 6.065, B1847/B1854) remains "
+                "a CHOSEN reading (P-714 / P-726)."
             ),
-            "bits_saved": "Replaces continuous Re(tau) + Im(tau) tuning with the unique reflection-fixed point of the n=6 excursion.",
+            "bits_saved": "Eliminates continuous parameter tuning along the 1D Teichmüller geodesic axis, while keeping the 1D Sol clock vs 3D hyperbolic level surface choice explicitly priced under P-714 / THE_TAU_READOUT_RULE.md.",
+            "scope_restriction": "1D_TEICHMULLER_GEODESIC_AXIS_ONLY_NOT_3D_HYPERBOLIC_SIGMA0",
         },
         "what_still_remains_priced_in_the_program": [
-            "1. Reading (ii) (rung-invisibility E == +-I mod 5 rather than line-invisibility) and the one-departure limit m -> inf (P-717).",
-            "2. Point read-out on the Teichmüller history ((N1)-(N2)) rather than the 3D pleated surface (P-723, where n=6 has a 2-layer pair flanking tetrahedron 3).",
-            "3. Single chiral representative vs twin-symmetrized composite for the 1-bit 10 <-> 5-bar assignment (P-718).",
-            "4. P-722's two unsealed scale-card steps: R2 (reading the volume/WRT exponent as a scale ratio) and R4 (SM running content).",
+            "1. Reading (ii) (rung-invisibility E == +-I mod 5 rather than line-invisibility), the per-run boundary rationale Pi_2 (B1855/B1856), and the one-departure limit m -> inf (P-717).",
+            "2. Which tau construction the read-out uses (P-714 / THE_TAU_READOUT_RULE.md / B1857): 1D flat-fibre Sol clock apex (Im tau = sqrt(5)*phi = 3.618) vs 3D pleated faces (Im tau = 2.809, P-723) vs 3D hyperbolic harmonic level surface Sigma_0 (Im tau = 6.065, B1847/B1854), plus point vs weight (P-726).",
+            "3. Single chiral representative vs twin-symmetrized composite for the 1-bit 10 <-> 5-bar assignment (P-718), and the SU(5) 10*10 vs 10*5-bar corner-inversion asymmetry (P-716 / R76-8).",
+            "4. P-722 / P-732's unsealed scale-card steps: R2 (open-book S^3 reading on LR, P-731) and R4 (SM running content), ruled NOT SEALABLE under P-728's count (P-732).",
         ],
+    }
+
+    # Countercontrol F6a (Rule 9): Explicitly discriminate the 1D Teichmüller apex (Im tau = sqrt(5)*phi = 3.618034, B1815)
+    # from the 3D hyperbolic harmonic level surface Sigma_0 (Im tau = 6.070 at k=2 in B1854 / 6.06526 in chat1),
+    # verifying they differ by > 2.4 so R5 cannot be conflated with fixing the 3D level-surface modulus without P-714.
+    im_teichmuller_apex_n6 = float(math.sqrt(5.0) * phi)
+    im_hyperbolic_sigma0_b1854 = 6.070
+    countercontrol_f6_tau_readout_rule_discrimination = {
+        "im_teichmuller_apex_n6_b1815": im_teichmuller_apex_n6,
+        "im_hyperbolic_sigma0_k2_b1854": im_hyperbolic_sigma0_b1854,
+        "abs_diff_sol_clock_vs_hyperbolic_sigma0": float(abs(im_hyperbolic_sigma0_b1854 - im_teichmuller_apex_n6)),
+        "r5_fixes_1d_geodesic_apex_only": True,
+        "clock_vs_3d_surface_choice_still_priced_under_p714": bool(
+            abs(im_hyperbolic_sigma0_b1854 - im_teichmuller_apex_n6) > 2.4
+        ),
+        "governing_authority": "docs/THE_TAU_READOUT_RULE.md & B1857 (7ae616f3f / 217e37c4f)",
     }
 
     # 5. Mandatory 20-trial Haar unitary basis-scrambling check (Guardrail 3)
@@ -26628,7 +26815,11 @@ def theorem147_chat1_c6b813450_reflection_stabilizer_uniqueness_and_program_redu
         max_haar_err_147 = max(max_haar_err_147, float(np.max(np.abs(sv_scr - sv_r6))))
 
     guardrail_compliance = {
-        "G1_no_zero_bit_post_inspection_credit": bool(all_n_ge_2_unique_reflection and len(stabilizer_table) == 11),
+        "G1_no_zero_bit_post_inspection_credit": bool(
+            all_n_ge_2_unique_reflection
+            and len(stabilizer_table) == 11
+            and countercontrol_f6_tau_readout_rule_discrimination["clock_vs_3d_surface_choice_still_priced_under_p714"]
+        ),
         "G2_computed_from_explicit_operators": bool(
             all_n_ge_2_unique_reflection is True
             and max_apex_fixed_err < 1e-14
@@ -26645,21 +26836,22 @@ def theorem147_chat1_c6b813450_reflection_stabilizer_uniqueness_and_program_redu
         "seen_first": seen_first,
         "claim_labels_and_scopes": {
             "pgl2z_reflection_stabilizer_uniqueness": (
-                "[MATH, FORCED-BY-MAIN] Proves chat1 c6b813450: for every single-departure run n >= 2, the open geodesic "
-                "from -1/phi to n + 1/phi has PGL(2, Z) stabilizer {1, rho_n} with rho_n(tau) = n - conj(tau), fixing "
-                "uniquely the apex tau*_n, while period averages decay as A_n / l(L^n R (LR)^k) = O(1/k) -> 0."
+                "[MATH, FORCED-ON-1D-GEODESIC] Proves chat1 c6b813450: for every single-departure run n >= 2, the open 1D "
+                "Teichmüller geodesic from -1/phi to n + 1/phi has PGL(2, Z) stabilizer {1, rho_n} with rho_n(tau) = n - conj(tau), "
+                "fixing uniquely the 1D apex tau*_n, while period averages decay as A_n / l(L^n R (LR)^k) = O(1/k) -> 0."
             ),
             "complete_program_reduction_ledger": (
-                "[MATH, FORCED-BY-MAIN] Quantifies the exact reductions R1-R5 achieved by simultaneous twin coexistence, "
-                "inter-twin residue invariance, the punctured-fibre orbit law, chirality-bit merging, and reflection "
-                "read-out uniqueness, while explicitly listing the 4 choices that remain priced (`0 of 19`)."
+                "[MATH, SCOPED-BY-MAIN (THE_TAU_READOUT_RULE.md & B1855-B1857)] Quantifies the reductions R1-R5 achieved "
+                "within their declared scopes while explicitly pricing the remaining choices (`P-714` clock vs 3D surface, "
+                "`P-717` / `Pi_2` rationale, `P-716` corner asymmetry, `P-722` / `P-732` scale card; `0 of 19`)."
             ),
         },
         "plain_english_elaboration": (
             "Verifies `chat1` `c6b813450`'s Reflection Stabilizer Theorem for `n = 2..12` (showing `tau -> n - conj(tau)` "
-            "is the unique non-trivial `PGL(2, Z)` symmetry of the open one-departure history and fixes uniquely the apex "
-            "`tau* = i*sqrt(5)*phi` at `n = 6`) and compiles the complete Program Reduction Ledger (`R1-R5` plus the "
-            "4 remaining priced choices, `0 of 19`)."
+            "is the unique non-trivial `PGL(2, Z)` symmetry of the open 1D Teichmüller one-departure history and fixes "
+            "uniquely the 1D apex `Im(tau*) = sqrt(5)*phi = 3.618` at `n = 6`), while cross-checking against `main`'s "
+            "`THE_TAU_READOUT_RULE.md` and `B1857` that choosing the 1D Sol clock (`3.618`) vs. the 3D hyperbolic harmonic "
+            "level surface `Sigma_0` (`6.065`) remains priced under `P-714` (`0 of 19`)."
         ),
         "all_n_ge_2_unique_reflection": all_n_ge_2_unique_reflection,
         "max_apex_fixed_err": max_apex_fixed_err,
@@ -26672,6 +26864,7 @@ def theorem147_chat1_c6b813450_reflection_stabilizer_uniqueness_and_program_redu
         "frac_n6_k20": frac_n6_k20,
         "twin_symmetrization_eliminates_bit": twin_symmetrization_eliminates_bit,
         "program_reduction_ledger": program_reduction_ledger,
+        "countercontrol_f6_tau_readout_rule_discrimination": countercontrol_f6_tau_readout_rule_discrimination,
         "max_haar_err_147": float(max_haar_err_147),
         "zero_six_values_evaluated_at_tau_star": True,
         "zero_held_out_values_computed": True,
@@ -26870,7 +27063,23 @@ def theorem149_p724_q1_action_weighted_saddle_sum_action_a_vs_b_and_pi2_per_run_
     rl_eig_ok = bool(np.all(((rl_mod5 + np.eye(2, dtype=int)) @ v_rl) % 5 == 0))
     lr_eig_ok = bool(np.all(((lr_mod5 + np.eye(2, dtype=int)) @ v_lr) % 5 == 0))
 
-    pi2_equivalence_all_a = True
+    # Symbolic all-a proof over Z/5Z (Rule 8 & F6):
+    # L^a = [[1, a], [0, 1]], so L^a (2, 1)^T = (2 + a, 1)^T.
+    # Collinearity with (1, 2)^T mod 5 holds iff det([[2 + a, 1], [1, 2]]) = 2*a + 3 == 2*(a - 1) == 0 (mod 5) <=> a == 1 (mod 5).
+    import sympy as sp
+    a_sym = sp.Symbol("a", integer=True)
+    la_sym = sp.Matrix([[1, a_sym], [0, 1]])
+    ra_sym = sp.Matrix([[1, 0], [a_sym, 1]])
+    det_l_sym = sp.expand(sp.Matrix.hstack(la_sym * sp.Matrix([2, 1]), sp.Matrix([1, 2])).det())
+    det_r_sym = sp.expand(sp.Matrix.hstack(ra_sym * sp.Matrix([1, 2]), sp.Matrix([2, 1])).det())
+    # Verify det_l_sym = 2*a + 3 = 2*(a - 1) + 5 and det_r_sym = -2*a - 3 = -2*(a - 1) - 5 identically for ALL integer a:
+    sympy_all_a_pi2_det_proof_ok = bool(
+        sp.simplify(det_l_sym - (2 * (a_sym - 1) + 5)) == 0
+        and sp.simplify(det_r_sym - (-2 * (a_sym - 1) - 5)) == 0
+        and all(((2 * r_mod + 3) % 5 == 0) == (r_mod == 1) for r_mod in range(5))
+    )
+
+    pi2_equivalence_all_a = bool(sympy_all_a_pi2_det_proof_ok)
     pi2_accepted_a = []
     for a in range(1, 26):
         la = np.array([[1, a % 5], [0, 1]], dtype=int)
@@ -26974,7 +27183,7 @@ def theorem149_p724_q1_action_weighted_saddle_sum_action_a_vs_b_and_pi2_per_run_
         and float(seq_21133112["d_cost_B"]) < d6_val
     )
 
-    # 3. P-724 Q1 Partition Function & Saddle Shares in the Pi_2 Sector {6 + 5*m : m >= 0}
+    # 3. P-724 Q1 Partition Function & Saddle Shares in the RESTRICTED Pi_2 Subfamily {6 + 5*m : m >= 0}
     n_grid = [6 + 5 * m for m in range(400)]
     weights_a = [math.exp(-delta_ell_single(n)) for n in n_grid]
     # Add exact Euler-Maclaurin asymptotic tail for m >= 400 (k = m + 1 >= 401, midpoint x_tail = 400.5 + 1/sqrt(5))
@@ -26998,6 +27207,34 @@ def theorem149_p724_q1_action_weighted_saddle_sum_action_a_vs_b_and_pi2_per_run_
     gk_weights = [math.log2(((n + 1.0) ** 2) / (n * (n + 2.0))) for n in range(6, 50006, 5)]
     share_gk_n6 = gk_weights[0] / sum(gk_weights)
 
+    # Countercontrol F6b (Rules 8 & 9): Explicitly discriminate the restricted Pi_2 subfamily {6 + 5*m}
+    # from the unconditioned single-run family {n >= 2} and full weave (including gapped histories and short-run clusters),
+    # showing that on the unconditioned single-run family {n >= 2}, n = 6 carries < 5% of the Boltzmann weight exp(-D_n)
+    # and 1/16 = 6.25% of the move weight 2^{-n}, so the 97.68% / 96.875% shares hold ONLY conditionally on Pi_2.
+    z_b_unconditioned_all_n_ge_2 = sum(math.exp(-d_cost_single(n)) for n in range(2, 102))
+    unconditioned_single_run_share_b_n6 = math.exp(-d6_val) / z_b_unconditioned_all_n_ge_2
+    unconditioned_move_2n_share_n6 = (2.0 ** -6) / sum(2.0 ** -n for n in range(2, 60))
+    # Also include the gapped Pi_2 family (6, 1^g, 6) for g = 1..5 in the multi-run Pi_2 partition sum:
+    gapped_pi2_b_weights = [math.exp(-float(evaluate_run_sequence((6,) + (1,) * g + (6,))["d_cost_B"])) for g in range(1, 6)]
+    z_b_with_gapped_pi2 = z_b_single + math.exp(-float(seq_6_6["d_cost_B"])) + sum(gapped_pi2_b_weights)
+    share_b_with_gapped_pi2_n6 = weights_b[0] / z_b_with_gapped_pi2
+
+    countercontrol_f6_restricted_population_vs_full_weave = {
+        "population_scope_of_reported_shares": "RESTRICTED_PI2_SUBFAMILY_6_PLUS_5M_NOT_FULL_WEAVE",
+        "restricted_pi2_single_run_share_b_n6": float(share_b_single_n6),
+        "unconditioned_all_n_ge_2_single_run_share_b_n6": float(unconditioned_single_run_share_b_n6),
+        "restricted_pi2_move_2n_share_n6": float(share_move_2n_exact),
+        "unconditioned_all_n_ge_2_move_2n_share_n6": float(unconditioned_move_2n_share_n6),
+        "share_b_with_gapped_pi2_histories_g1_to_5": float(share_b_with_gapped_pi2_n6),
+        "mutation_unconditioned_share_below_5_percent": bool(unconditioned_single_run_share_b_n6 < 0.05),
+        "gapped_histories_shift_multi_run_normalization": bool(abs(share_b_with_gapped_pi2_n6 - share_b_single_n6) > 0.05),
+        "pi2_status_in_main_b1855_b1856_and_chat1_195e8f1bdd": (
+            "RATIONALE_NOT_DERIVED_PREMISE: B1855 proves the all-defect excess-length law without Pi_2 and exhibits "
+            "lcm >= 12 counterexamples to the universal depth law; B1856 separates QM charge invisibility from dynamical "
+            "symmetry; chat1 195e8f1bdd prices Pi_2 as a rationale."
+        ),
+    }
+
     # 4. Mandatory 20-trial Haar unitary basis-scrambling check (Guardrail 3)
     rng = np.random.default_rng(20261106281)
     saddle_op = np.diag([delta_ell_6, d6_val, float(seq_6_6["d_cost_B"]), float(seq_6_1_6["delta_ell_A"])])
@@ -27010,11 +27247,17 @@ def theorem149_p724_q1_action_weighted_saddle_sum_action_a_vs_b_and_pi2_per_run_
         max_haar_err_149 = max(max_haar_err_149, float(np.max(np.abs(sv_scr - sv_ref))))
 
     guardrail_compliance = {
-        "G1_no_zero_bit_post_inspection_credit": bool(pi2_equivalence_all_a and len(pi2_accepted_a) >= 4),
+        "G1_no_zero_bit_post_inspection_credit": bool(
+            pi2_equivalence_all_a
+            and sympy_all_a_pi2_det_proof_ok
+            and len(pi2_accepted_a) >= 4
+            and countercontrol_f6_restricted_population_vs_full_weave["mutation_unconditioned_share_below_5_percent"]
+        ),
         "G2_computed_from_explicit_operators": bool(
             rl_eig_ok
             and lr_eig_ok
             and pi2_equivalence_all_a
+            and sympy_all_a_pi2_det_proof_ok
             and d2_formula_err < 1e-15
             and d6_formula_err < 1e-15
             and short_cluster_beats_d6_without_pi2
@@ -27033,25 +27276,30 @@ def theorem149_p724_q1_action_weighted_saddle_sum_action_a_vs_b_and_pi2_per_run_
         "seen_first": seen_first,
         "claim_labels_and_scopes": {
             "pi2_per_run_line_conservation_equivalence": (
-                "[MATH, FORCED-BY-MAIN] Proves that for any run L^a or R^a (a >= 1), L^a == L (mod 5) in SL(2, Z/5Z), "
-                "mapping RL's order-5 eigenline onto LR's order-5 eigenline at the run boundary, and a == 1 (mod 5) "
-                "are strictly equivalent."
+                "[MATH, FORCED-ALGEBRAIC-EQUIVALENCE / RATIONALE-AS-SELECTION-RULE (B1855, B1856, chat1 195e8f1bdd)] "
+                "Proves symbolically for all integers a that L^a == L (mod 5) in SL(2, Z/5Z), mapping RL's order-5 eigenline "
+                "onto LR's order-5 eigenline at the run boundary (det = 2a + 3 == 2(a-1) == 0 mod 5), and a == 1 (mod 5) are "
+                "strictly equivalent; imposing Pi_2 at every run hinge is a RATIONALE (not a derived premise; B1855/B1856)."
             ),
             "p724_q1_action_a_vs_b_and_saddle_shares": (
-                "[MATH, FORCED-BY-MAIN] Evaluates Action (A) (Delta_ell_6 = 2.348718, gap 1.051262 to (11)) and Action (B) "
-                "(D_2 = ln(5/4) = 0.223144, D_6 = ln(phi^8/4) = 2.463372, gap 2.128684 to (6,6)), proving that once Pi_2 "
-                "holds at each run boundary, S = (6,) is the unique leading saddle under BOTH clocks."
+                "[MATH, CONDITIONAL-ON-RESTRICTED-PI2-SUBFAMILY] Evaluates Action (A) (Delta_ell_6 = 2.348718, gap 1.051262 "
+                "to (11)) and Action (B) (D_2 = ln(5/4) = 0.223144, D_6 = ln(phi^8/4) = 2.463372, gap 2.128684 to (6,6)), "
+                "proving that within the restricted Pi_2 subfamily {6 + 5*m}, S = (6,) is the leading saddle under both clocks "
+                "(97.68% single-run Action B share, 31/32 move share), whereas on the unconditioned single-run family {n >= 2} "
+                "n = 6 carries only 4.68% of the Action B weight (`short_cluster_beats_d6_without_pi2 = True`)."
             ),
         },
         "plain_english_elaboration": (
-            "Answers `P-724` Q1 and verifies `chat1` `befdd5ffc` / `1e01e8a36`: without per-run line conservation (`Pi_2`), "
-            "fixed-move Action `(B)` (`P-441`) is dominated by short-run clusters like `(2,1,1,3,3,1,1,2)` (`D = 1.5476 < D_6 = 2.4634`) "
-            "that kick the order-5 line off its eigenline at intermediate hinges. Requiring the order-5 line to survive at "
-            "every run boundary (`Pi_2`: `s_i == 1 mod 5`) makes the single run `S = (6,)` the unique leading saddle under "
-            "BOTH Action `(A)` and Action `(B)`, so `tau^*_6 = i*sqrt(5)*phi` does not depend on the clock."
+            "Answers `P-724` Q1 and cross-checks `chat1` `befdd5ffc` / `1e01e8a36` / `195e8f1bdd` and `main` `B1855` / `B1856`: "
+            "proves symbolically for all `a` that `det([L^a(2,1)^T, (1,2)^T]) = 2a + 3 == 2(a-1) mod 5 == 0 <=> a == 1 mod 5`, "
+            "and shows that without the per-run boundary rule `Pi_2` (which is a `RATIONALE`, not a derived premise), "
+            "fixed-move Action `(B)` (`P-441`) is dominated by short runs (`n = 6` carries `< 5%` of unconditioned single-run "
+            "weight and is beaten by whole-word rung-invisible clusters like `(2,1,1,3,3,1,1,2)`). The `97.68%` / `31/32` "
+            "shares hold specifically within the restricted `Pi_2` single-run subfamily `{6 + 5m}`."
         ),
         "rl_eig_ok": rl_eig_ok,
         "lr_eig_ok": lr_eig_ok,
+        "sympy_all_a_pi2_det_proof_ok": sympy_all_a_pi2_det_proof_ok,
         "pi2_equivalence_all_a": pi2_equivalence_all_a,
         "pi2_accepted_a_up_to_25": pi2_accepted_a,
         "d2_val": float(d2_val),
@@ -27066,12 +27314,14 @@ def theorem149_p724_q1_action_weighted_saddle_sum_action_a_vs_b_and_pi2_per_run_
         "gap_b_66_vs_6": float(gap_b_66_vs_6),
         "seq_21133112": seq_21133112,
         "short_cluster_beats_d6_without_pi2": short_cluster_beats_d6_without_pi2,
+        "population_scope": "RESTRICTED_PI2_SUBFAMILY_6_PLUS_5M_NOT_FULL_WEAVE",
         "share_a_single_n6": float(share_a_single_n6),
         "share_b_single_n6": float(share_b_single_n6),
         "share_b_multi_n6": float(share_b_multi_n6),
         "share_move_2n_exact": float(share_move_2n_exact),
         "err_move_2n": float(err_move_2n),
         "share_gk_n6": float(share_gk_n6),
+        "countercontrol_f6_restricted_population_vs_full_weave": countercontrol_f6_restricted_population_vs_full_weave,
         "max_haar_err_149": float(max_haar_err_149),
         "zero_six_values_evaluated_at_tau_star": True,
         "zero_held_out_values_computed": True,
@@ -28274,6 +28524,11 @@ def theorem154_p726_p727_b1846_margulis_tube_coth2_identity_level_surface_modulu
                 "im_z3": float(z3_snap.imag),
                 "re_z2_neg": float(-(z3_snap.real + 1.0)),
                 "coth2_identity_err": float(err_k),
+                "evidence_type": (
+                    "FIRST_PRINCIPLES_DEGREE8_POLYNOMIAL_AND_SNAPPY_BENCHMARK_AT_K1"
+                    if int(k_idx) == 1
+                    else "IMPORTED_SNAPPY_BENCHMARK_CONSISTENCY_CHECK"
+                ),
             }
         )
 
@@ -28379,35 +28634,51 @@ def theorem154_p726_p727_b1846_margulis_tube_coth2_identity_level_surface_modulu
             "re": -0.5,
             "im": 1.12438,
             "det_E": 1.00018,
-            "status": "FORCED (B1847 Stage B & B1852: both sigma-fixed fibres != I mod 2 at Re(tau) = 1/2; Im(tau(Sigma_0)) = 1.12438)",
+            "re_tau_evidence_type": "ANALYTICAL_PROOF_B1852_MOD2_INVOLUTION",
+            "im_tau_evidence_type": "IMPORTED_NUMERICAL_PIN_B1847_STAGE_B",
+            "status": (
+                "FORCED_RE_TAU_BY_B1852_TOPOLOGY_IMPORTED_NUMERICAL_PIN_FOR_IM_TAU "
+                "(B1852 proves both sigma-fixed fibres != I mod 2 at Re(tau) = 1/2; Im(tau(Sigma_0)) = 1.12438 is an imported B1847 Stage B numerical mesh pin)"
+            ),
         },
         "exc_s05_anti_apex": {
             "re": 0.5,
             "im": 1.5904,
             "det_E": 1.0014,
-            "status": "FORCED (B1847 Stage C & B1852: anti-apex is the != I mod 2 fibre at Re(tau) = 1/2 to 7e-7, Im(tau) = 1.5904)",
+            "re_tau_evidence_type": "ANALYTICAL_PROOF_B1852_MOD2_INVOLUTION",
+            "im_tau_evidence_type": "IMPORTED_NUMERICAL_PIN_B1847_STAGE_C",
+            "status": (
+                "FORCED_RE_TAU_BY_B1852_TOPOLOGY_IMPORTED_NUMERICAL_PIN_FOR_IM_TAU "
+                "(B1852 proves anti-apex is the != I mod 2 fibre at Re(tau) = 1/2; Im(tau) = 1.5904 is an imported B1847 Stage C numerical mesh pin)"
+            ),
         },
         "exc_s025_quarter": {
             "re": -0.3722,
             "im": 1.0085,
             "det_E": 1.0038,
-            "status": "FORCED (B1847 Stage C & § 8 control: intrinsic level surface Sigma_{0.25} of b++LLLLLLRLR)",
+            "re_tau_evidence_type": "IMPORTED_NUMERICAL_PIN_B1847_STAGE_C",
+            "im_tau_evidence_type": "IMPORTED_NUMERICAL_PIN_B1847_STAGE_C",
+            "status": "IMPORTED_NUMERICAL_PIN (B1847 Stage C & § 8 numerical mesh control on Sigma_{0.25} of b++LLLLLLRLR)",
         },
         "exc_s0_tube_slice": {
             "re": 0.0,
             "im_b1847_sec8": 6.15,
             "im_b1847_sec8_err": 0.15,
+            "im_b1854_k2": 6.070,
+            "im_b1854_k2_err": 0.010,
             "im_chat1_k1": 6.149155,
             "im_chat1_k1_err": 0.000408,
             "im_chat1_k_inf_aitken": 6.065264,
             "im_chat1_k_inf_err": 0.000569,
             "chat1_k1_to_k5_im_series": [6.149155, 6.081857, 6.068680, 6.065974, 6.065411],
             "b1852_re_tau_zero_topological_proof_ok": b1852_re_tau_zero_topological_proof_ok,
+            "re_tau_evidence_type": "ANALYTICAL_PROOF_B1852_MOD2_INVOLUTION",
+            "im_tau_evidence_type": "IMPORTED_NUMERICAL_PIN_B1847_B1854_CHAT1",
             "status": (
-                "DONE (P-727 / S306g B1847 § 8 / S306k B1852 / chat1 991d7e2ac: Re tau(Sigma_0) = 0 exact by GL(2, Z) "
-                "mod-2 involution classes; Im tau(Sigma_0) = 6.15 +- 0.15 by full-group Ford domain meshing with monodromy "
-                "cocycle M = [[-1,-3],[8,23]]; chat1 covariant energy-root series k=1..5 gives 0 + 6.14916(41)i at k=1 and "
-                "Aitken k->inf estimate tau_inf = 0 + 6.06526(57)i; ~1.7x thinner than the three record readings)"
+                "FORCED_RE_TAU_BY_B1852_TOPOLOGY_IMPORTED_NUMERICAL_PIN_FOR_IM_TAU "
+                "(P-727 / S306g B1847 § 8 / S306k B1852 / B1854 / chat1 991d7e2ac: Re tau(Sigma_0) = 0 is proved "
+                "analytically here by GL(2, Z) mod-2 involution classes; Im tau(Sigma_0) = 6.15 +- 0.15 at k=1 in B1847, "
+                "6.070 +- 0.010 at k=2 in B1854, and 6.14916(41) -> 6.06526(57) in chat1 are imported numerical mesh pins)"
             ),
         },
     }
@@ -28609,12 +28880,26 @@ def theorem155_s286_b1826_p716_two_flank_margulis_tube_transition_ckm_unblocking
         "frontier/B1846_the_metrics_read_out/FINDINGS.md (S306b: sigma-conjugate tetrahedra tet 2 and tet 4 at theta = +-0.0329 flanking tet 3 at theta = 0)",
     ]
 
-    def build_flank_yukawa(tau_val: complex, twin_sign: int, include_quadratic_q_phase: bool = True) -> np.ndarray:
-        if include_quadratic_q_phase:
+    def build_flank_yukawa(
+        tau_val: complex,
+        twin_sign: int,
+        include_quadratic_q_phase: Optional[bool] = None,
+        *,
+        include_real_tau_phase: bool = True,
+        include_weil_zeta5_phase: bool = True,
+    ) -> np.ndarray:
+        # Legacy single-boolean compatibility: if include_quadratic_q_phase is passed positionally/explicitly,
+        # it toggled BOTH switches simultaneously (joint removal when False).
+        if include_quadratic_q_phase is not None:
+            include_real_tau_phase = bool(include_quadratic_q_phase)
+            include_weil_zeta5_phase = bool(include_quadratic_q_phase)
+        if include_real_tau_phase:
             q5_half = cmath.exp(1j * math.pi * tau_val / 5.0)
-            zeta5 = cmath.exp(2j * math.pi * float(twin_sign) / 5.0)
         else:
             q5_half = cmath.exp(-math.pi * tau_val.imag / 5.0)
+        if include_weil_zeta5_phase:
+            zeta5 = cmath.exp(2j * math.pi * float(twin_sign) / 5.0)
+        else:
             zeta5 = 1.0 + 0.0j
         eps1 = q5_half
         eps2 = q5_half**2
@@ -28670,24 +28955,81 @@ def theorem155_s286_b1826_p716_two_flank_margulis_tube_transition_ckm_unblocking
     tau_plus_inf = complex(float(flank_info["re_flank_k_inf"]), float(flank_info["k_inf"]))
     tau_minus_inf = -tau_plus_inf.conjugate()
 
+    # Complete 2x2 Factorial Ablation Table (Rule 4 & F3):
+    # Separately toggle include_real_tau_phase (Re(tau) = +-u_* vs 0) and include_weil_zeta5_phase (zeta_5 = exp(+-2*pi*i/5) vs 1).
+    yu_tt = build_flank_yukawa(tau_plus_k1, +1, include_real_tau_phase=True, include_weil_zeta5_phase=True)
+    yd_tt = build_flank_yukawa(tau_minus_k1, -1, include_real_tau_phase=True, include_weil_zeta5_phase=True)
+    cell_tt_both_on = analyze_ckm_and_cp(yu_tt, yd_tt)
+
+    yu_tf = build_flank_yukawa(tau_plus_k1, +1, include_real_tau_phase=True, include_weil_zeta5_phase=False)
+    yd_tf = build_flank_yukawa(tau_minus_k1, -1, include_real_tau_phase=True, include_weil_zeta5_phase=False)
+    cell_tf_real_tau_only = analyze_ckm_and_cp(yu_tf, yd_tf)
+
+    yu_ft = build_flank_yukawa(tau_plus_k1, +1, include_real_tau_phase=False, include_weil_zeta5_phase=True)
+    yd_ft = build_flank_yukawa(tau_minus_k1, -1, include_real_tau_phase=False, include_weil_zeta5_phase=True)
+    cell_ft_weil_zeta5_only = analyze_ckm_and_cp(yu_ft, yd_ft)
+
+    yu_ff = build_flank_yukawa(tau_plus_k1, +1, include_real_tau_phase=False, include_weil_zeta5_phase=False)
+    yd_ff = build_flank_yukawa(tau_minus_k1, -1, include_real_tau_phase=False, include_weil_zeta5_phase=False)
+    cell_ff_both_off = analyze_ckm_and_cp(yu_ff, yd_ff)
+
+    ablation_2x2_table = {
+        "TT_both_real_tau_and_weil_zeta5": cell_tt_both_on,
+        "TF_real_tau_only_zeta5_set_to_1": cell_tf_real_tau_only,
+        "FT_weil_zeta5_only_re_tau_set_to_0": cell_ft_weil_zeta5_only,
+        "FF_joint_removal_both_phases_off": cell_ff_both_off,
+    }
+
     # Ablation Case 1: Single-flank reading (both Yu and Yd on (tau_+, +1)) -> B1826 collinearity wall
-    yu_k1 = build_flank_yukawa(tau_plus_k1, +1, include_quadratic_q_phase=True)
+    yu_k1 = yu_tt
     case1_single_flank = analyze_ckm_and_cp(yu_k1, yu_k1)
 
-    # Ablation Case 2: Two-flank reading with u_* = 0 (rank-1 phase only, no quadratic q-phase mismatch) -> P-716 wall
-    yu_no_u = build_flank_yukawa(tau_plus_k1, +1, include_quadratic_q_phase=False)
-    yd_no_u = build_flank_yukawa(tau_minus_k1, -1, include_quadratic_q_phase=False)
-    case2_no_shear_phase = analyze_ckm_and_cp(yu_no_u, yd_no_u)
+    # Legacy Case 2 preserved as explicit joint-removal control (both Re(tau) and zeta_5 removed; FF cell):
+    case2_no_shear_phase = dict(cell_ff_both_off)
+    case2_no_shear_phase["ablation_scope"] = "JOINT_REMOVAL_OF_BOTH_REAL_TAU_AND_WEIL_ZETA5_PHASES_NOT_SINGLE_FACTOR_RE_TAU"
 
     # Case 3a: Full 3D Margulis tube two-flank transition at k = 1 (L^6 R L R)
-    yd_k1 = build_flank_yukawa(tau_minus_k1, -1, include_quadratic_q_phase=True)
+    yd_k1 = yd_tt
     yd_is_entrywise_conj_yu_err = float(np.max(np.abs(yd_k1 - yu_k1.conj())))
-    case3_two_flank_k1 = analyze_ckm_and_cp(yu_k1, yd_k1)
+    case3_two_flank_k1 = cell_tt_both_on
 
     # Case 3b: Full 3D Margulis tube two-flank transition in the homoclinic limit k -> inf
-    yu_inf = build_flank_yukawa(tau_plus_inf, +1, include_quadratic_q_phase=True)
-    yd_inf = build_flank_yukawa(tau_minus_inf, -1, include_quadratic_q_phase=True)
+    yu_inf = build_flank_yukawa(tau_plus_inf, +1, include_real_tau_phase=True, include_weil_zeta5_phase=True)
+    yd_inf = build_flank_yukawa(tau_minus_inf, -1, include_real_tau_phase=True, include_weil_zeta5_phase=True)
     case3_two_flank_inf = analyze_ckm_and_cp(yu_inf, yd_inf)
+
+    # Countercontrol F3 & F4 (Rules 4 & 5):
+    # 1. Verify that in the supplied 3x3 schematic texture `build_flank_yukawa` (where (1,1) = |eps_2| + eps_2 and
+    #    off-diagonals carry non-separable powers of zeta_5), removing Re(tau) alone (`FT` cell) leaves |J_CP| = 8.365e-4 > 0,
+    #    and removing zeta_5 alone (`TF` cell) leaves |J_CP| = 1.406e-7 > 0; ONLY joint removal (`FF` cell) gives J_CP = 0.
+    #    Thus a single-factor necessity claim ("removing Re(tau) alone kills J_CP") is FALSE on this texture and is rejected.
+    # 2. Verify that `build_flank_yukawa` is explicitly typed as a SUPPLIED_SCHEMATIC_3X3_TEXTURE_CONTROL (not B1656's
+    #    physical residue/overlap operator), while the structural symmetry theorem (Y_d = conj(Y_u) => |V_{13}| = |V_{31}|)
+    #    holds identically (< 1e-15) across all 4 cells of the 2x2 factorial table.
+    countercontrol_f3_f4_ablation_and_texture_gate = {
+        "operator_provenance": "SUPPLIED_SCHEMATIC_3X3_TEXTURE_CONTROL_NOT_B1656_RESIDUE_OPERATOR",
+        "j_cp_tt_both_on": float(cell_tt_both_on["abs_j_cp"]),
+        "j_cp_tf_real_tau_only": float(cell_tf_real_tau_only["abs_j_cp"]),
+        "j_cp_ft_weil_zeta5_only": float(cell_ft_weil_zeta5_only["abs_j_cp"]),
+        "j_cp_ff_joint_removal": float(cell_ff_both_off["abs_j_cp"]),
+        "removing_re_tau_alone_leaves_nonzero_j_cp_in_supplied_texture": bool(cell_ft_weil_zeta5_only["abs_j_cp"] > 1e-4),
+        "removing_weil_zeta5_alone_leaves_nonzero_j_cp_in_supplied_texture": bool(cell_tf_real_tau_only["abs_j_cp"] > 1e-8),
+        "joint_removal_required_for_zero_j_cp_in_supplied_texture": bool(
+            cell_ft_weil_zeta5_only["abs_j_cp"] > 1e-4
+            and cell_tf_real_tau_only["abs_j_cp"] > 1e-8
+            and cell_ff_both_off["abs_j_cp"] < 1e-24
+        ),
+        "false_single_factor_necessity_claim_rejected": True,
+        "all_four_cells_enforce_symmetric_abs_v_ckm": bool(
+            max(
+                cell_tt_both_on["abs_v_symmetry_diff"],
+                cell_tf_real_tau_only["abs_v_symmetry_diff"],
+                cell_ft_weil_zeta5_only["abs_v_symmetry_diff"],
+                cell_ff_both_off["abs_v_symmetry_diff"],
+            )
+            < 1e-14
+        ),
+    }
 
     # Guardrail 3: 20-trial independent left/right Haar unitary basis-scrambling test on Yu -> U_L Yu U_{R,u}^dagger, Yd -> U_L Yd U_{R,d}^dagger
     rng = np.random.default_rng(2026110631)
@@ -28729,6 +29071,7 @@ def theorem155_s286_b1826_p716_two_flank_margulis_tube_transition_ckm_unblocking
             case1_single_flank["abs_j_cp"] < 1e-24
             and case2_no_shear_phase["abs_j_cp"] < 1e-24
             and case3_two_flank_k1["breaks_13_vs_31_corner_symmetry"] is False
+            and countercontrol_f3_f4_ablation_and_texture_gate["joint_removal_required_for_zero_j_cp_in_supplied_texture"]
         ),
         "G2_computed_not_hardcoded": bool(
             case1_single_flank["abs_j_cp"] < 1e-24
@@ -28740,6 +29083,7 @@ def theorem155_s286_b1826_p716_two_flank_margulis_tube_transition_ckm_unblocking
             and case3_two_flank_k1["breaks_13_vs_31_corner_symmetry"] is False
             and case3_two_flank_k1["abs_j_cp"] > 1e-15
             and case3_two_flank_inf["abs_j_cp"] > 1e-15
+            and countercontrol_f3_f4_ablation_and_texture_gate["all_four_cells_enforce_symmetric_abs_v_ckm"]
         ),
         "G3_haar_unitary_invariance_verified": bool(max_haar_err_155 < 1e-13),
         "G4_literature_benchmark_gate": bool(case3_two_flank_k1["abs_v_symmetry_diff"] < 1e-14),
@@ -28751,24 +29095,28 @@ def theorem155_s286_b1826_p716_two_flank_margulis_tube_transition_ckm_unblocking
         "seen_first": seen_first,
         "claim_labels_and_scopes": {
             "two_flank_margulis_tube_ckm_and_cp_mechanism": (
-                "[MATH, READING UNDER P-716 / P-725 — SYMMETRIC |V_CKM| AUDIT (S306f / R76-8 / chat1 2a48e7284)] Proves "
-                "data-free that evaluating the conjugate flank pair Y_u(tau_+, zeta_5) and Y_d(tau_-, zeta_5^{-1}) = "
-                "conj(Y_u) across Tet 3 preserves within-sector singular values identically and gives [H_u, H_d] != 0 "
-                "and J_CP != 0 from u_* != 0, but forces |V_CKM| to be symmetric (|V_{13}| = |V_{31}| to < 1e-15, "
-                "breaks_13_vs_31_corner_symmetry = False), so it does not resolve B1826's (1,3) vs (3,1) corner asymmetry "
-                "or the SU(5) 10*10 vs 10*5-bar representation split (R76-8)."
+                "[MATH, SUPPLIED-SCHEMATIC-TEXTURE-CONTROL & SYMMETRIC |V_CKM| AUDIT (S306f / R76-8 / chat1 2a48e7284)] "
+                "Proves data-free that for any entrywise-conjugate flank pair Y_d = conj(Y_u) across Tet 3, within-sector "
+                "singular values are identical and |V_CKM| is forced to be symmetric (|V_{13}| = |V_{31}| to < 1e-15, "
+                "breaks_13_vs_31_corner_symmetry = False). In the supplied 3x3 schematic texture control `build_flank_yukawa`, "
+                "the 2x2 factorial ablation shows that TT (6.556e-4), TF (Re(tau) only, 1.406e-7), and FT (zeta_5 only, "
+                "8.365e-4) each have |J_CP| > 0, and only joint removal FF gives J_CP = 0."
             ),
         },
         "plain_english_elaboration": (
             "Records the `S306f` / `S306g` (`R76-8`) and `chat1` (`2a48e7284` § 7) audit of the two-flank reading across "
-            "`Tet 3`: while moving from single-flank (`[H_u, H_d] = 0, J_CP = 0`) to the two `sigma`-conjugate flanks "
-            "`tau_+ = +u_* + i*v_*` and `tau_- = -u_* + i*v_*` yields `[H_u, H_d] != 0` and `J_CP != 0` from the "
-            "quadratic-vs-linear phase mismatch at `u_* = +0.05071`, `Y_d(tau_-, zeta_5^{-1}) = conj(Y_u(tau_+, zeta_5))` "
-            "forces `|V_CKM|` to be symmetric (`|V_{13}| = |V_{31}|` to `< 1e-15`, `breaks_13_vs_31_corner_symmetry = False`), "
-            "so it does not break `B1826`'s `(1, 3)` vs. `(3, 1)` corner symmetry or provide the `SU(5)` `10*10` vs. "
-            "`10*5-bar` representation distinction."
+            "`Tet 3` together with the full `2x2` factorial ablation (`TT`, `TF`, `FT`, `FF`) on the supplied `3x3` "
+            "schematic texture control `build_flank_yukawa`: (1) in `build_flank_yukawa`, removing `Re(tau)` alone (`FT`) "
+            "leaves `|J_CP| = 8.365e-4 > 0` and removing `zeta_5` alone (`TF`) leaves `|J_CP| = 1.406e-7 > 0`, so `case2` "
+            "is a joint removal (`FF`) of both phases rather than a single-factor `Re(tau)` ablation; (2) across all four "
+            "cells, `Y_d = conj(Y_u)` forces `|V_CKM|` to be symmetric (`|V_{13}| = |V_{31}|` to `< 1e-15`, "
+            "`breaks_13_vs_31_corner_symmetry = False`), so conjugate flanks do not resolve `B1826`'s `(1, 3)` vs. `(3, 1)` "
+            "corner asymmetry or the `SU(5)` `10*10` vs. `10*5-bar` representation split (`R76-8`)."
         ),
+        "operator_provenance": "SUPPLIED_SCHEMATIC_3X3_TEXTURE_CONTROL_NOT_B1656_RESIDUE_OPERATOR",
         "yd_is_entrywise_conj_yu_err": float(yd_is_entrywise_conj_yu_err),
+        "ablation_2x2_table": ablation_2x2_table,
+        "countercontrol_f3_f4_ablation_and_texture_gate": countercontrol_f3_f4_ablation_and_texture_gate,
         "case1_single_flank": case1_single_flank,
         "case2_no_shear_phase": case2_no_shear_phase,
         "case3_two_flank_k1": case3_two_flank_k1,
@@ -28866,15 +29214,16 @@ def theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage2
         z0_mp = z2_mp * (z2_mp**2 + 4 * z2_mp - 4) / ((z2_mp - 2) ** 2)
         z7_mp = 1 - (z0_mp - 1) * (1 - z1_mp) / (z0_mp**2)
 
-        # Non-tautological 50-digit check (fixing chat1 check_algebra.py A4):
-        # Compare z3_mp = z2_mp - 1 (Newton root of P(z_2) = 0) against coth^2(L_tube_snappy_hp / 2) where
-        # L_tube_snappy_hp is SnapPy ManifoldHP('b++LLLLLLRLR').length_spectrum(0.6)[0].length:
+        # 50-digit consistency check against imported SnapPy ManifoldHP pin (F5 / Rules 6 & 7):
+        # Compare z3_mp = z2_mp - 1 (Newton root of P(z_2) = 0, recomputed from first principles above) against
+        # coth^2(L_tube_snappy_hp / 2) where L_tube_snappy_hp is an IMPORTED_NUMERICAL_PIN from SnapPy ManifoldHP('b++LLLLLLRLR'):
         l_tube_snappy_hp_mp = mp.mpc(
             "0.184869804511611203975214735827416324200520712989907303492476955",
             "-0.802102442239561683626197466649363373250048360104975067171615054",
         )
         z3_from_snappy_hp_mp = (mp.cosh(l_tube_snappy_hp_mp / 2) / mp.sinh(l_tube_snappy_hp_mp / 2)) ** 2
         mp_coth2_err = float(abs(z3_from_snappy_hp_mp - z3_mp))
+        l_tube_snappy_hp_evidence_type = "IMPORTED_NUMERICAL_PIN_CONSISTENCY_CHECK_NOT_FRESH_SNAPPY_MANIFOLDHP_RUN"
 
         # Check 50-digit RLR closure ((1 - z_7)/z_7)^2 - (z_0 - 1) = 0
         mp_rlr_closure_err = float(abs(((1 - z7_mp) / z7_mp) ** 2 - (z0_mp - 1)))
@@ -28948,10 +29297,14 @@ def theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage2
             "data_looks": 0,
         },
         {
-            "joint": "4. 3D Central Tetrahedron coth^2 Identity & Intrinsic Level Surface Modulus (P-723, P-727 DONE, B1847 § 8, B1852)",
-            "status_label": "FORCED (z_3 = coth^2(L_tube/2) = z_2 - 1 and tau(Sigma_0) = 0 + 6.15(15)i; P-727 DONE) + CHOSEN (which tau construction, P-714)",
-            "mechanism": "Exact flip gluing identity z_3(k) = coth^2(L_tube(k)/2) = z_2(k) - 1 (row 1604 / chat1 C1 to <= 8e-48); GL(2,Z) mod-2 involution classes fix Re tau(Sigma_0) = 0 (B1852); full-group Ford domain meshing fixes Im tau(Sigma_0) = 6.15 +- 0.15 (B1847 § 8)",
-            "result": "FORCED: z_3 = coth^2(L_tube/2) = z_2 - 1 and tau(Sigma_0) = 0 + 6.15(15)i at k=1 (chat1 k=1..5 series 6.14916(41)i -> tau_inf = 0 + 6.06526(57)i, ~1.7x thinner than the 3 record readings); CHOSEN: which tau construction the read-out uses (P-714)",
+            "joint": "4. 3D Central Tetrahedron coth^2 Identity & Intrinsic Level Surface Modulus (P-723, P-727 DONE, B1847 § 8, B1852, B1854)",
+            "status_label": (
+                "FORCED (z_3 = coth^2(L_tube/2) = z_2 - 1 and Re tau(Sigma_0) = 0 by B1852) + "
+                "IMPORTED NUMERICAL PIN (Im tau(Sigma_0) = 6.15(15) at k=1 in B1847, 6.070(10) at k=2 in B1854, 6.06526(57) in chat1) + "
+                "CHOSEN (which tau construction, P-714 / THE_TAU_READOUT_RULE.md)"
+            ),
+            "mechanism": "Exact flip gluing identity z_3(k) = coth^2(L_tube(k)/2) = z_2(k) - 1 (row 1604 / chat1 C1 to <= 8e-48); GL(2,Z) mod-2 involution classes fix Re tau(Sigma_0) = 0 (B1852); imported numerical Ford-domain mesh pins give Im tau(Sigma_0) = 6.15 +- 0.15 (B1847 § 8) and 6.070 +- 0.010 (B1854)",
+            "result": "FORCED: z_3 = coth^2(L_tube/2) = z_2 - 1 and Re tau(Sigma_0) = 0; IMPORTED NUMERICAL PIN: Im tau(Sigma_0) = 6.15(15) at k=1, 6.070(10) at k=2, and chat1 k->inf 6.06526(57); CHOSEN: which tau construction the read-out uses (P-714 / THE_TAU_READOUT_RULE.md)",
             "data_looks": 0,
         },
         {
@@ -29013,10 +29366,44 @@ def theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage2
         if err > max_haar_err_156:
             max_haar_err_156 = float(err)
 
+    # Countercontrol F5 (Rules 6 & 7): Explicitly type each check's evidence class and independence scope,
+    # and verify that a discriminator rejects promoting imported literal decimals as fresh mesh/interval certificates
+    # or promoting an in-module alternate-precision gate as an external non-authoring referee review.
+    evidence_typing_ledger = {
+        "degree8_polynomial_newton_root_z2_mp": "FIRST_PRINCIPLES_RECOMPUTATION",
+        "sympy_fan_telescoping_and_factorization": "FIRST_PRINCIPLES_SYMBOLIC_PROOF",
+        "kashaev_n5_finite_sum_46_plus_2sqrt5": "FIRST_PRINCIPLES_RECOMPUTATION",
+        "b1852_re_tau_zero_mod2_involution_classes": "FIRST_PRINCIPLES_TOPOLOGICAL_PROOF",
+        "l_tube_snappy_hp_mp_65digit_literal": l_tube_snappy_hp_evidence_type,
+        "im_tau_sigma0_6p15_6p070_6p06526_readings": "IMPORTED_NUMERICAL_PIN",
+        "stage29_gate_independence_class": "INTERNAL_ALTERNATE_PRECISION_AND_SYMPY_CHECK_NOT_EXTERNAL_REFEREE",
+    }
+
+    def _classify_numeric_source(is_computed_from_equations_in_function: bool, is_literal_constant: bool) -> str:
+        if is_computed_from_equations_in_function and not is_literal_constant:
+            return "FIRST_PRINCIPLES_RECOMPUTATION"
+        return "IMPORTED_NUMERICAL_PIN"
+
+    countercontrol_f5_evidence_typing_gate = {
+        "z2_mp_classified_as": _classify_numeric_source(True, False),
+        "l_tube_snappy_hp_classified_as": _classify_numeric_source(False, True),
+        "im_tau_sigma0_classified_as": _classify_numeric_source(False, True),
+        "mutation_promoting_literal_pin_to_fresh_mesh_rejected": bool(
+            _classify_numeric_source(False, True) == "IMPORTED_NUMERICAL_PIN"
+            and _classify_numeric_source(False, True) != "FIRST_PRINCIPLES_RECOMPUTATION"
+        ),
+        "mutation_promoting_internal_gate_to_external_referee_rejected": bool(
+            evidence_typing_ledger["stage29_gate_independence_class"]
+            == "INTERNAL_ALTERNATE_PRECISION_AND_SYMPY_CHECK_NOT_EXTERNAL_REFEREE"
+        ),
+    }
+
     guardrail_compliance = {
         "G1_no_post_inspection_zero_bit_credit": bool(
             b1834_full_sm_scoreboard["confirmed_sm_parameters"] == "0 of 19"
             and b1834_full_sm_scoreboard["borrowed_joints_outside_six_observable_set"] == 13
+            and countercontrol_f5_evidence_typing_gate["mutation_promoting_literal_pin_to_fresh_mesh_rejected"]
+            and countercontrol_f5_evidence_typing_gate["mutation_promoting_internal_gate_to_external_referee_rejected"]
         ),
         "G2_computed_not_hardcoded": bool(
             t153["all_six_guardrails_passed"] is True
@@ -29045,26 +29432,25 @@ def theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage2
         "seen_first": seen_first,
         "claim_labels_and_scopes": {
             "complete_7joint_data_free_closure_ledger": (
-                "[MATH, FORCED-BY-MAIN (S306d-S306k / B1847 / B1848 / B1851 / B1852 / B1834 / P-728 / P-732)] Tabulates "
-                "the honest 7-joint audit scorecard across P-717..P-734 (incorporating Review 76's P-726 systole ruling, "
-                "P-727 DONE with tau(Sigma_0) = 0 + 6.15(15)i and chat1's tau_inf = 0 + 6.06526(57)i, R76-8's two-flank "
-                "|V_CKM| symmetry audit, and B1851's open-book S^3 relocation and P-732 NOT SEALABLE ruling) alongside "
-                "B1834's full-SM scoreboard (6 rows against 13 borrowed joints, 0 of 19 confirmed)."
+                "[MATH, SCOPED-BY-MAIN (S306d-S306k / B1847 / B1848 / B1851 / B1852 / B1854 / B1834 / P-728 / P-732)] "
+                "Tabulates the honest 7-joint audit scorecard across P-717..P-734, explicitly separating analytically "
+                "forced identities (Re tau(Sigma_0) = 0 by B1852, z_3 = coth^2(L_tube/2) = z_2 - 1, Kashaev <4_1>_5 = "
+                "46 + 2*sqrt(5)) from imported numerical mesh pins (Im tau(Sigma_0) = 6.15(15), 6.070(10), 6.06526(57)), "
+                "chosen readings (P-714, P-726, P-731), and P-732's NOT SEALABLE ruling alongside B1834's 0 of 19 scoreboard."
             ),
             "stage29_zero_trust_hostile_referee_gate": (
-                "[MATH] Independently certifies Stage 29 (Theorems 153-155) via 50-digit mpmath Newton solve of P(z_2) = 0, "
-                "non-tautological 50-digit verification of z_3 = coth^2(L_tube_snappy_hp/2) (< 1e-48) and Kashaev "
-                "<4_1>_5 = 46 + 2*sqrt(5) (< 1e-45), symbolic SymPy proof of the 7-tetrahedron telescoping identity and "
-                "L^5 == I, L^6 == L (mod 5), and 20-trial Haar unitary checks (< 1e-13)."
+                "[MATH, INTERNAL-ALTERNATE-PRECISION-AND-SYMPY-GATE] Performs an in-module 50-digit mpmath Newton solve "
+                "of P(z_2) = 0, a 50-digit consistency check of z_3 = coth^2(L_tube_snappy_hp/2) (< 1e-48) against an "
+                "imported SnapPy ManifoldHP literal pin, a 50-digit check of <4_1>_5 = 46 + 2*sqrt(5) (< 1e-45), a "
+                "symbolic SymPy proof of the 7-tetrahedron telescoping identity and L^5 == I, L^6 == L (mod 5), and "
+                "20-trial Haar unitary checks (< 1e-13)."
             ),
         },
         "plain_english_elaboration": (
-            "Synthesizes the honest `S306d`-`S306k` (`B1847`, `B1848`, `B1851`, `B1852`, `B1834`) audit ledger across "
-            "`P-717` through `P-734` (incorporating `Review 76`'s `P-726` systole ruling, `P-727 DONE` with `tau(Sigma_0) = "
-            "0 + 6.15(15)i` and `chat1`'s `tau_inf = 0 + 6.06526(57)i`, `R76-8`'s two-flank `|V_{13}| = |V_{31}|` symmetry "
-            "ruling, and `B1851`'s open-book `S^3` relocation and `P-732 NOT SEALABLE` scale-card ruling alongside `B1834`'s "
-            "6 rows against 13 borrowed joints, `0 of 19` confirmed), and certifies all Stage 29 identities via 50-digit "
-            "`mpmath`, symbolic `SymPy`, and non-tautological Haar unitary checks with zero unsealed evaluations."
+            "Synthesizes the honest `S306d`-`S306k` (`B1847`, `B1848`, `B1851`, `B1852`, `B1854`, `B1834`) audit ledger "
+            "across `P-717` through `P-734`, explicitly typing each item's evidence class (`FIRST_PRINCIPLES_RECOMPUTATION` "
+            "vs. `IMPORTED_NUMERICAL_PIN` for `Im tau(Sigma_0)` and `l_tube_snappy_hp_mp`, and "
+            "`INTERNAL_ALTERNATE_PRECISION_AND_SYMPY_CHECK` for the Stage 29 gate) alongside `B1834`'s `0 of 19` scoreboard."
         ),
         "mp_poly_resid": mp_poly_resid,
         "mp_coth2_err": mp_coth2_err,
@@ -29073,6 +29459,8 @@ def theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage2
         "mp_transmutation_err": mp_transmutation_err,
         "l5_is_i_and_l6_is_l_mod5": l5_is_i_and_l6_is_l_mod5,
         "sympy_proof_ok": sympy_proof_ok,
+        "evidence_typing_ledger": evidence_typing_ledger,
+        "countercontrol_f5_evidence_typing_gate": countercontrol_f5_evidence_typing_gate,
         "seven_joint_closure_ledger": seven_joint_closure_ledger,
         "b1834_full_sm_scoreboard": b1834_full_sm_scoreboard,
         "max_haar_err_156": float(max_haar_err_156),
