@@ -9337,3 +9337,11 @@ Joint transport and geometric/index execution packet.
 |---|---|---|---|---|
 | 2026-11-05 | BEFORE joint scientific import/collection/run; AFTER code and independent source repairs | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_joint_2026_11_05/DESIGN.md` | `43e10214237e2645c527f1084527cf0791636e985ae732ffe496fcd650938df5` | Post-derivation joint design before this lane scientific import/collection/run; thirteen bounded methods; no physical-input payment. |
 | 2026-11-05 | BEFORE joint scientific import/collection/run; AFTER code and independent source repairs | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_transport_joint_2026_11_05/SPECIFICATION.json` | `f5390767ebc04f68ee5ce0f1a5e854a9dcdea131586ae1812557fd3f9c3a4238` | Exact source/test/input/runtime/command/output binding before scientific execution; independent source-complete review and main acceptance remain required. |
+
+
+Coupled half-root kernel successor: candidate proof and prior control design.
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-11-07 | AFTER hand derivation; BEFORE successor implementation/import/collection/run | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_HALF_ROOT_KERNEL_AND_CORE_LIFT_SENSITIVITY.md` | `789adf7544bf5c679305aa8b9ba7525b6375155b026c839e01c34c281be23875` | Candidate full 128 kernel and core-lift sensitivity; six controls unimplemented; independent analytical/source review and exact admission remain owed. |
+| 2026-11-07 | AFTER hand derivation; BEFORE successor implementation/import/collection/run | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/DESIGN.md` | `8ba1253846751f58c4762ccfd80f1832f88e581809476786fd063f65302aa68c` | Candidate full 128 kernel and core-lift sensitivity; six controls unimplemented; independent analytical/source review and exact admission remain owed. |

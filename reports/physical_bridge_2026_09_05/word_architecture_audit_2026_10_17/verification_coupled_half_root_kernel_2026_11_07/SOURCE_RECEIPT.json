@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "status": "candidate_hand_derivation_and_prior_source_design_only",
+  "date": "2026-11-07",
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md",
+      "sha256": "871529dd81603e1a70126f6ee518ae5c2758c107cf7e9fff62ae96f646a0813f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CONFINED_HALF_ROOT_SECTOR_AND_SURVIVING_CONTINUUM.md",
+      "sha256": "8436811ae3529f7fa78337a428f1e9c2d8af1414860fb2512db772a20879e4c4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/QUATERNION_SECTOR_INDEX_AND_WEAK_CURRENT_DUTY.md",
+      "sha256": "11ddfae1996036673dc2bc08ec9b1ef26f92a4a91df98da379d539a529f93fc6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_QUATERNION_STATIONARY_BUNDLE_AND_CUSP_LAW.md",
+      "sha256": "221a7cd2dce2ff7dec0b135c348b7bb52e15bc27e5563d420756fbe31f9978a1"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md",
+      "sha256": "6012816683f17ac83e7d3bdb4f6d8b987ec8155ee2caa09ce651dbf0b194ed4c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PIN2_COMPENSATOR_COHERENCE_AND_ELECTROMAGNETIC_PHASE.md",
+      "sha256": "fc67d4446b11f54c731b7e7aac56b496e501d5fa397040363de6c8074909a3b9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REGISTER_QUADRATIC_FORM_TO_ODD_SPIN_AND_PHYSICAL_JOIN.md",
+      "sha256": "04830b9aea811c090ff4316fece10f7e95810106a52fe6665443718d372c6ee7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GEOMETRIC_SPIN_JOIN_AND_FULL_CURVE_OPERATOR.md",
+      "sha256": "8a534fc3a4f1aea110c9a4f2c121393c7b273f7f1ce1eeac34bf3e9edb356ad8"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_HALF_ROOT_KERNEL_AND_CORE_LIFT_SENSITIVITY.md",
+      "sha256": "789adf7544bf5c679305aa8b9ba7525b6375155b026c839e01c34c281be23875"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/DESIGN.md",
+      "sha256": "8ba1253846751f58c4762ccfd80f1832f88e581809476786fd063f65302aa68c"
+    }
+  ],
+  "new_scientific_source_implementation": false,
+  "scientific_import_collection_execution": false,
+  "independent_review_of_this_kernel_successor": false,
+  "source_complete_execution_specification": false,
+  "main_execution_acceptance": false,
+  "scope": "All 128 source coefficients and conjugates in one specified coupled parent; candidate kernel multiplicities, not three generations or paid foundational inputs"
+}

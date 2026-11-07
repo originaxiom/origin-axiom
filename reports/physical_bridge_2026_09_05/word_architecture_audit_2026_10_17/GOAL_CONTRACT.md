@@ -2205,3 +2205,31 @@ checks. The V2 inventory awaits exact follow-up review. All thirteen
 methods remain unrun, unimported and uncollected. The reviewed conditional
 mathematics does not provide runtime, exact main acceptance, a physical
 input payment, kernel counts or weak-current results. The goal stays active.
+
+
+## November 7. Reaffirmed physical goal and the coupled kernel duty
+
+The owner's new session goal retains the full relational architecture,
+act/register and genuine input reduction toward physical SM3 and gravity.
+The targeted latest-AGY audit is preserved separately at `ebee6ac2a`;
+its mathematical positives, broken joins and proposed countercontrols
+are not a complete computational certification of that branch.
+
+The [coupled half-root kernel successor](COUPLED_HALF_ROOT_KERNEL_AND_CORE_LIFT_SENSITIVITY.md)
+reuses the old full Koszul reduction and derives candidate new core
+characters before reading actual line counts. Its hand argument predicts
+a difference between the bare and specified coherent electromagnetic
+lifts despite equal cusp transitions and net indices. The odd-spin
+coherent candidate has two triplet and three singlet modes per gauge
+coefficient, with conjugates retained; these are not three chiral SM
+generations. The equivariant contraction and complete domains require
+independent review. All parent, physical-spin/flavour, Wilson and lift
+identifications remain visible. No foundational input is marked paid.
+
+Six discriminating controls are designed before implementation. They
+are unimplemented and unrun. This successor is outside the thirteen
+methods in the earlier joint specification. That earlier packet also
+remains unrun: its independent source-completeness reviewer encountered
+a service usage limit, and exact main acceptance is still absent.
+The goal remains active; source/hand work continues without treating
+those pending reviews as scientific passes.
