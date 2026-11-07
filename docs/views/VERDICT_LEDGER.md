@@ -5,10 +5,10 @@
 
 # Arc verdict ledger (generated)
 
-1556 of 1556 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
+1557 of 1557 arcs carry an authored verdict. Arcs without one are absent from this ledger by construction, not by judgement.
 
 
-## PROVED (1065)
+## PROVED (1066)
 
 | arc | claim | instrument | locks |
 |---|---|---|---|
@@ -1077,6 +1077,7 @@
 | `B1852` | THE TUBE'S REAL PART, BY TOPOLOGY (the real number Review 76 owed): sigma's two fixed fibres carry orientation-reversing involutions whose GL(2,Z) class mod 2 decides the reduced Re tau (= I mod 2: Re 0; otherwise Re 1/2 or |tau| = 1); on L^6RLR the two fixed fibres are in opposite classes (exact), and B1847's anti-apex at Re 1/2 (7e-7) is the second, so the tube's level surface has Re tau = 0 exactly -- the metric's own tau at the tube is 0 + 6.15(15) i, differing from the Teichmuller apex (1/2 + 3.65i) in its real part as well as its height; m004 the control (both fixed levels at Re 1/2, as B1847 measured); the even-run pattern observed in four words, not proved. No coupling, scale or ratio; nothing compared with data. 0 of 19. |  | 0 |
 | `B1853` | THE DEPARTURE'S DEPTH: THE ACTION SELECTS WITHIN A PREMISE, THE PREMISE IS A CHARGE (the explore seat's two relays, verified on main's own code): among R1's 643 rung-invisible defects the least Mostow-rigid excess volume is (6), uniquely (1.5714462325; next 2.1955011599), and among the 3494 line-invisible, (2,1,1,1,2) -- both as least length; the line premise is exactly the symmetry reading (C5(LR) = <LR>, order 10) and the rung premise at level N exactly the charge reading (only +-I conserve every golden background's class, N = 2..5); the least-length ladder (2), (2,1,1,1,2), (6), (21), (61) over R1 u R2, each unique; the apex law (n - 1)/2 + sqrt5/2 exact; LR fixes a point of P^1(Z/N) only at N = 5. The depth rests on the premise (a superselection charge at 5) and on minimisation (the volume sum diverges); the charge law depth = lcm(S)/2 + sqrt5/2 a range-scoped candidate (P-737); the ramified-prime speculation a LEAD (P-738). Nothing compared with data. 0 of 19. |  | 0 |
 | `B1855` | THE CHARGE LAW SETTLED (P-737): main's own result -- the law FAILS for every lcm(S) >= 12: six explicit gapped counterexamples of the explore seat satisfy the charge premise exactly with less excess than the single run lcm(S) + 1 (checked in exact integers and 80 digits on main's code, e.g. {4,5}: 3.9224 < 4.5940; {2,3,4,5}: 3.8672 < 6.6524), so B1853's (21) and (61) rows were range artifacts and the depth does not rise without bound with the conserved levels; the seat's PROOF that the single run lcm(S) + 1 is the unique least-excess departure over all defects for lcm(S) <= 10 -- at S = {5} the run of 6, depth sqrt5*phi -- is cited: its Lemma A verified on main to 7e-18 (3000 R1 defects), S = {5} corroborated by main's brute force (no gapped two- or three-run defect below the run of 6 among 3516), its exhaustive shortest-path search not re-run (P-741). Nothing compared with data. 0 of 19. |  | 0 |
+| `B1856` | CHARGE OR SYMMETRY AT FIVE (P-738, answered conditionally; the explore seat's test re-derived on main): in B355's level-5 Weil representation (projectively consistent on all 120 elements of SL(2,F5)), only +-I act as a scalar on both parity sectors (the charge premise = invisibility to every state), the projective commutant of rho(LR) is +-<LR> (the symmetry premise), rho(LR) is a Z/5 clock on every sector (eigenvalue angles 0, .4, .6 | +-.1 turns; traces 1 - phi and phi), the run of 6 has E = I (invisible to every state) while the line-invisible (2,1,1,1,2) has E = (LR)^1 (visible on superpositions of quasi-energy states) -- so the symmetry reading needs a superselection rule that would stop the level-5 clock, and under standard quantum mechanics and a physical level-5 Weil space the charge reading, and with it the run of 6, is the invisible one. 0 of 19. |  | 0 |
 
 ## NEGATIVE (383)
 

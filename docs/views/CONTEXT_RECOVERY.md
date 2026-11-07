@@ -13,24 +13,25 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1556 |
-| … PROVED | 1065 |
+| arcs with a verdict file | 1557 |
+| … PROVED | 1066 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
 | register points | 741 |
-| … QUEUED | 236 |
+| … QUEUED | 235 |
 | … LEAD | 4 |
 | … OWNER | 4 |
-| … DONE | 486 |
+| … DONE | 487 |
 | … DECLINED | 11 |
-| harvest rows (the last number) | 1615 |
+| harvest rows (the last number) | 1616 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1856 | PROVED | CHARGE OR SYMMETRY AT FIVE (P-738, answered conditionally; the explore seat's test re-derived on main): in B355's level-5 Weil representation (projectively consistent on all 120 elements of SL(2,F5)), only +-I act as a… |
 | B1855 | PROVED | THE CHARGE LAW SETTLED (P-737): main's own result -- the law FAILS for every lcm(S) >= 12: six explicit gapped counterexamples of the explore seat satisfy the charge premise exactly with less excess than the single run… |
 | B1853 | PROVED | THE DEPARTURE'S DEPTH: THE ACTION SELECTS WITHIN A PREMISE, THE PREMISE IS A CHARGE (the explore seat's two relays, verified on main's own code): among R1's 643 rung-invisible defects the least Mostow-rigid excess volum… |
 | B1852 | PROVED | THE TUBE'S REAL PART, BY TOPOLOGY (the real number Review 76 owed): sigma's two fixed fibres carry orientation-reversing involutions whose GL(2,Z) class mod 2 decides the reduced Re tau (= I mod 2: Re 0; otherwise Re 1/… |
@@ -42,7 +43,6 @@
 | B1846 | PROVED | THE METRIC'S READ-OUT (the owner's goal of 2026-11-06, FL-05; data-free): the hyperbolic metric fixes, with no choice, a clock on the fibration circle -- harmonic time theta (the harmonic map in the fibre class; B1295's… |
 | B1845 | PROVED | THE OBJECT'S OWN LINE AND THE EXCURSION READ OUT (P-717, P-718, P-455; data-free exploration, toward the owner's goal): level 5 is the object's own (LR's discriminant 5, LR = -(unipotent) mod 5, order 5 in A5); RL fixes… |
 | B1844 | PROVED | REVIEW 75 (the owner's 'Run it now'; 60 merges, at the waiver's limit): the window's five-arc sample read in full (B1834, B1836, B1838 by a reader, B1839 and B1841 by main) -- all hold, three with notes applied as dated… |
-| B1843 | PROVED | GENESIS v1.62 (the owner's ruling, 2026-11-05: 'if you also agree with sm about the rule, i aprove it'): GAP1's held-out targets are graded jointly -- each inside its 68% band and the joint p_V (the product of marginal… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306m (continued) CHARGE OR SYMMETRY AT FIVE (B1856; P-738 answered, conditionally) (2026-11-07)
 - S306m (continued) THE CHARGE LAW SETTLED (B1855; P-737 DONE): REFUTED FROM lcm(S) = 12, PROVED BELOW BY THE EXPLORE SEAT (2026-11-07)
 - S306m THE τ READ-OUT RULE (P-714's construction ruled); B1852's PER-CENTRE RULE (P-740 sharpened); P-739 RUNNING (2026-11-07)
 - S306l TWO SEATS HARVESTED: THE DEPARTURE'S DEPTH IS A CHARGE PREMISE (B1853; the explore seat, registered); THE TUBE'S τ TOWARD k → ∞ (the web seat) (2026-11-07)
@@ -63,11 +64,10 @@
 - S306k THE SEATS FETCHED: THE CHIRAL PREMISE RELOCATED, VERIFIED; THE OPEN-BOOK SCALE CARD RULED NOT SEALABLE (B1851; rows 1609–1611) (2026-11-07)
 - S306j THE OPEN LEADS AND THE BACKLOG CONFIRMED ONE BY ONE (B1850; R76-1's second half: P-617 DONE, P-616 narrowed) (2026-11-07)
 - S306i THE LEADS CONFIRMED ONE BY ONE (B1849; R76-1, the register half of P-617) (2026-11-06)
-- S306h REVIEW 76'S ITEMS WORKED: B1842'S CONTROLS RUN (C-T CORRECTED), THE SEAL-ORDER LIST FROZEN, THE LINE STABILIZERS (2026-11-06)
 
 ## The latest campaign line
 
-LATEST (2026-11-07, S306m (continued): B1855 — the charge law settled: refuted for lcm(S) ≥ 12 (counterexamples verified on main), proved for lcm(S) ≤ 10 by the explore seat (cited; S = {5}'s run of 6 corroborated); B1853's (21)/(61) rows were range artifacts. 0 of 19.)
+LATEST (2026-11-07, S306m (continued): B1856 — charge or symmetry at five: in the object's level-5 Weil space only the charge reading is invisible, so (under standard QM and a physical level-5 space) the run of 6 is the departure; P-738 answered conditionally. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

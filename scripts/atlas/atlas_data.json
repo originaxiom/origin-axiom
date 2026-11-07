@@ -15747,6 +15747,22 @@
    "status": "dead",
    "domain": "dynamics"
   },
+  "B1856": {
+   "slug": "charge or symmetry at five verified",
+   "motifs": [
+    "measurement",
+    "golden",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "B355"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B185": {
    "slug": "constraint selection",
    "motifs": [
