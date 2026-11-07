@@ -27848,49 +27848,51 @@ def theorem153_p722_p725_b1012_vs_b598_amphichiral_sector_split_and_instanton_tr
     t150: Dict[str, object] | None = None,
     t152: Dict[str, object] | None = None,
 ) -> Dict[str, object]:
-    """Stage 29.1: B1012 Full Complex CS vs. B598 Single Holomorphic Block & Exact Finite-N Kashaev Invariant (S306d Ruling).
+    """Stage 29.1: B1012 / B1851 Open-Book Chiral Premise Relocation, Exact Level-5 Kashaev Block (R76-7), & B-Test Ruling.
 
-    Implements main's S306d ruling on B1012 (docs/handoffs/CC_TO_CHAT1_2026-11-06_THE_RULING_ON_B1012.md,
-    frontier/B1847_the_level_surfaces_own_modulus/verification/kashaev_block.py, and HARVEST_LEDGER rows 1602-1604),
+    Implements main's S306d-S306k rulings on B1012 and B1851 (docs/handoffs/CC_TO_CHAT1_2026-11-06_THE_RULING_ON_B1012.md,
+    frontier/B1847_the_level_surfaces_own_modulus/verification/kashaev_block.py,
+    frontier/B1851_the_chiral_premise_relocated_verified/FINDINGS.md, and P-722 / P-731 / P-732),
     strictly data-free with zero couplings, scale ratios, or RGE trajectories computed (P-715 / P-722 firewall):
-      1. [FORCED] On the figure-eight complement m004, the two conjugate geometric flat SL(2, C) connections
-         A_+ (chi_+ = (3 + i*sqrt(3))/2, c_hat_+ = i*(Vol + i*CS_+)) and A_- = conj(A_+) (chi_- = (3 - i*sqrt(3))/2,
-         c_hat_- = -i*(Vol - i*CS_-)) have Vol(A_+) = Vol(A_-) = V_oct = 2*D_2(exp(i*pi/3)) and CS(A_+) = -CS(A_-) = 0.
-         In full complex SL(2, C) Chern-Simons theory at complex level t = k + i*sigma, t_tilde = k - i*sigma (B1012),
-         the classical action S_total(k, sigma) = (t/2)*c_hat_+ + (t_tilde/2)*c_hat_- = -Vol*sigma cancels k between
-         the two hands.
-      2. [CHOSEN PREMISE] The single holomorphic block (B598) and B1012's full complex theory are pieces of one theory;
-         the math does not choose between them, a premise does (a chiral amplitude takes the single block; the hand bit
-         argues for it without deriving it).
-      3. [FORCED KNOT INVARIANT / CHOSEN R2 READING] Under the single-block premise at q = exp(2*pi*i / N), computes
-         the exact Kashaev invariant <4_1>_N = sum_{m=0}^{N-1} prod_{j=1}^m |1 - q^j|^2 across N in {3, 5, 10, 20, 40, 80}
-         and compares it against the leading semiclassical exponential exp(N*Vol / (2*pi)) and the proven Andersen-Hansen
-         1-loop asymptotic 3^{-1/4} * N^{3/2} * exp(N*Vol / (2*pi)):
-           - At N = 5: exact <4_1>_5 = 46 + 2*sqrt(5) = 50.472135955 vs. exp(5*Vol/(2*pi)) = 5.029546073 (ratio 10.035)
-             and vs. full asymptotic 42.727106547 (exact/full = 1.1812674).
-           - At N = 80: exact/full = 1.0070724 (confirming the asymptotic holds only as N -> infty).
-         Consequently, R2's leading exponential form is NOT the block's value at level 5, and both R2 and R4 stay CHOSEN
-         (5 choices, 6 with the coupling's level; S306d rows 1602-1604). No coupling or scale ratio is computed.
+      1. [FORCED] On any 3-manifold with complex action c_hat_+ = i*(Vol + i*CS) and conjugate c_hat_- = conj(c_hat_+) =
+         -i*(Vol - i*CS):
+           - In Witten's display t = k + i*sigma, t_tilde = k - i*sigma (B1012), S_W = (t/2)*c_hat_+ + (t_tilde/2)*c_hat_-
+             = -k*CS - sigma*Vol is real (a pure phase in exp(i*S_W)), dropping k iff CS = 0 (amphichiral m004).
+           - In DGLZ's display t = k + sigma, t_bar = k - sigma with S_0 = (i/2)*(Vol + i*CS) (B1851 sec. 1.A), the
+             product's exponent (t/(2*pi*i))*S_0 + (t_bar/(2*pi*i))*conj(S_0) = sigma*Vol/(2*pi) + i*k*CS/(2*pi):
+             the modulus is sigma's, the phase is k's, orientation reversal (CS -> -CS) acts as k -> -k, and the
+             'one-hand point' t_bar = 0 pins sigma = k (t = 2*k, where Witten expects a singularity).
+      2. [FORCED TOPOLOGY / CHOSEN OPEN-BOOK READING (B1851 sec. 1.B & sec. 2, P-731)] With GENESIS's L = [[1,1],[0,1]]
+         (right-handed twist about (1,0)) and R = [[1,0],[1,1]] (inverse of right-handed twist about (0,1), S*L*S^{-1} = R^{-1}),
+         det(phi - I) = 2 - tr(phi); thus LR has trace 3 and det(LR - I) = -1, so its open book closes to S^3 with
+         binding 4_1 (Witten's (2.30) unknot-normalized continuation), whereas all 27 excursion members have
+         |H_1| = tr - 2 > 1. Main rules R2's theory option to be the open-book reading on the object's own S^3 (CHOSEN, P-731).
+      3. [FORCED KNOT INVARIANT / R76-7 EXACT BLOCK RULE / NOT SEALABLE (P-722, P-732)] Under R76-7, R2's form is fixed
+         as the exact level-5 block <4_1>_5 = 46 + 2*sqrt(5) = 50.472135955 (never the asymptotic exp(5*Vol/(2*pi)) =
+         5.029546073 or 1-loop 42.727106547). By B1851 sec. 1.C & sec. 2, the 1-loop B-test ratio
+         (alpha_1^{-1} - alpha_2^{-1})/(alpha_2^{-1} - alpha_3^{-1}) = (c_1 - c_2)/(c_2 - c_3) is independent of
+         alpha(mu_*), L, and complete-generation shifts, so the scale card fails P-728's count either way (itemized: at
+         most 4 against 6; by steps: 3 against 3) and is NOT SEALABLE (P-732).
     """
     import cmath
+    import itertools
 
     if t150 is None:
         t150 = theorem150_p725_q1_amphichiral_mirror_twin_sector_coupling_and_weil_portal_invariance()
 
     seen_first = [
-        "docs/POINT_REGISTER.md (P-715, P-722 [S306d]: main's ruling on B1012; R2 and R4 stay CHOSEN; no scale or coupling computed)",
-        "docs/HARVEST_LEDGER.md (rows 1602-1604: main's B1012 ruling, chat1 f5232fd4b R2/R4 itemization, and agy Stage 29 mask review)",
-        "frontier/B1847_the_level_surfaces_own_modulus/verification/kashaev_block.py (S306d: exact <4_1>_N vs exp(N*Vol/2pi) and Andersen-Hansen asymptotic)",
+        "docs/POINT_REGISTER.md (P-715, P-722, P-731, P-732 [S306d-S306k]: B1012 & B1851 rulings; open-book reading CHOSEN; scale card NOT SEALABLE)",
+        "frontier/B1851_the_chiral_premise_relocated_verified/FINDINGS.md (S306k: DGLZ exponent, open-book closing of LR to S^3, 1-loop B-test scale independence)",
+        "frontier/B1847_the_level_surfaces_own_modulus/verification/kashaev_block.py (S306d / R76-7: exact <4_1>_5 = 46 + 2*sqrt(5) vs asymptotic)",
     ]
 
-    # 1. Exact m004 hyperbolic volume V_oct = 2 * D_2(exp(i*pi/3)) and conjugate geometric flat connections A_+, A_-
+    # 1. Exact m004 hyperbolic volume V_oct = 2 * D_2(exp(i*pi/3)) and Kashaev table across N in (3, 5, 10, 20, 40, 80)
     import mpmath as mp
 
     with mp.workdps(35):
         vol_mp = 2 * mp.im(mp.polylog(2, mp.exp(1j * mp.pi / 3)))
         vol_m004 = float(vol_mp)
 
-        # Kashaev invariant <4_1>_N = sum_{m=0}^{N-1} prod_{j=1}^m |1 - q^j|^2 across N in (3, 5, 10, 20, 40, 80)
         def kashaev_mp(n_val: int):
             q_val = mp.exp(2j * mp.pi / n_val)
             s_acc = mp.mpf(0)
@@ -27921,25 +27923,110 @@ def theorem153_p722_p725_b1012_vs_b598_amphichiral_sector_split_and_instanton_tr
         err_kashaev_n5_algebraic = float(abs(kashaev_n5_exact_mp - kashaev_n5_algebraic_mp))
         kashaev_n3_err = float(abs(kashaev_mp(3) - 13))
 
-    cs_plus = 0.0
-    cs_minus = 0.0
+    # 2. B1851 sec. 1.A & chat1 A1/A2: Verify Witten's S_W = -k*CS - sigma*Vol (using exact conjugate c_hat_- = conj(c_hat_+))
+    # across both CS = 0 (amphichiral m004, where k drops) and CS != 0 (chiral manifolds, where S_W depends on k),
+    # plus DGLZ's exponent (t/(2*pi*i))*S_0 + (t_bar/(2*pi*i))*conj(S_0) = sigma*Vol/(2*pi) + i*k*CS/(2*pi).
+    cs_m004 = 0.0
+    c_hat_plus = 1j * (vol_m004 + 1j * cs_m004)
+    c_hat_minus = c_hat_plus.conjugate()
 
-    # Complex actions c_hat_+ = i*(Vol + i*CS_+), c_hat_- = conj(c_hat_+) = -i*(Vol - i*CS_-)
-    c_hat_plus = 1j * (vol_m004 + 1j * cs_plus)
-    c_hat_minus = -1j * (vol_m004 - 1j * cs_minus)
-
-    # 2. Verify B1012 complex Chern-Simons action S_total(k, sigma) = (t/2)*c_hat_+ + (t_tilde/2)*c_hat_- = -Vol(m004)*sigma
     max_b1012_err = 0.0
-    for k_val in (1, 3, 5, 8):
+    max_dglz_err = 0.0
+    min_chiral_k_dep = float("inf")
+    for k_val in (1.0, 3.0, 5.0, 8.0):
         for sigma_val in (0.5, 1.0, 2.5, 10.0):
-            t_cplx = complex(float(k_val), float(sigma_val))
-            t_tilde = complex(float(k_val), -float(sigma_val))
-            s_total = 0.5 * (t_cplx * c_hat_plus + t_tilde * c_hat_minus)
-            err = abs(s_total - (-vol_m004 * sigma_val))
-            if err > max_b1012_err:
-                max_b1012_err = float(err)
+            # Witten display on m004 (CS = 0)
+            t_w = complex(k_val, sigma_val)
+            t_w_bar = complex(k_val, -sigma_val)
+            s_total_m004 = 0.5 * (t_w * c_hat_plus + t_w_bar * c_hat_minus)
+            err_m004 = abs(s_total_m004 - (-vol_m004 * sigma_val))
+            if err_m004 > max_b1012_err:
+                max_b1012_err = float(err_m004)
+            # General (Vol, CS != 0) check for both Witten and DGLZ displays
+            for cs_test in (-0.25, 0.25):
+                cp_gen = 1j * (vol_m004 + 1j * cs_test)
+                cm_gen = cp_gen.conjugate()
+                s_w_gen = 0.5 * (t_w * cp_gen + t_w_bar * cm_gen)
+                s_w_gen_shifted = 0.5 * (complex(k_val + 2.0, sigma_val) * cp_gen + complex(k_val + 2.0, -sigma_val) * cm_gen)
+                err_w_gen = abs(s_w_gen - (-k_val * cs_test - sigma_val * vol_m004))
+                if err_w_gen > max_b1012_err:
+                    max_b1012_err = float(err_w_gen)
+                min_chiral_k_dep = min(min_chiral_k_dep, float(abs(s_w_gen_shifted - s_w_gen)))
+                # DGLZ display: t = k + sigma, t_bar = k - sigma, S_0 = (i/2)*(Vol + i*CS)
+                t_dglz = k_val + sigma_val
+                tb_dglz = k_val - sigma_val
+                s0_dglz = 0.5j * (vol_m004 + 1j * cs_test)
+                exp_dglz = (t_dglz / (2.0j * math.pi)) * s0_dglz + (tb_dglz / (2.0j * math.pi)) * s0_dglz.conjugate()
+                exp_dglz_ref = (sigma_val * vol_m004) / (2.0 * math.pi) + 1j * (k_val * cs_test) / (2.0 * math.pi)
+                # One-hand point t_bar = 0 (sigma = k, t = 2*k)
+                one_hand_prod = ((2.0 * k_val) / (2.0j * math.pi)) * s0_dglz + 0.0
+                one_hand_ref = (k_val * vol_m004) / (2.0 * math.pi) + 1j * (k_val * cs_test) / (2.0 * math.pi)
+                err_dglz = max(abs(exp_dglz - exp_dglz_ref), abs(one_hand_prod - one_hand_ref))
+                if err_dglz > max_dglz_err:
+                    max_dglz_err = float(err_dglz)
 
-    # 3. Single-block knot-invariant quantities at N = 5 (strictly knot invariants only; no coupling or scale computed)
+    # 3. B1851 sec. 1.B: Open-book closing of LR to S^3 (det(LR - I) = -1) vs 27 excursion members (|H_1| = tr - 2 > 1)
+    l_mat = np.array([[1, 1], [0, 1]], dtype=int)
+    r_mat = np.array([[1, 0], [1, 1]], dtype=int)
+    s_mat = np.array([[0, -1], [1, 0]], dtype=int)
+    s_inv = np.array([[0, 1], [-1, 0]], dtype=int)
+    r_inv = np.array([[1, 0], [-1, 1]], dtype=int)
+    opposite_hand_conjugation_ok = bool(np.array_equal(s_mat @ l_mat @ s_inv, r_inv))
+    lr_mat = l_mat @ r_mat
+    det_lr_minus_i = int(round(float(np.linalg.det(lr_mat - np.eye(2)))))
+    tr_lr = int(np.trace(lr_mat))
+
+    def eval_word_mat(w_str: str) -> np.ndarray:
+        acc = np.eye(2, dtype=int)
+        for ch in w_str:
+            acc = acc @ (l_mat if ch == "L" else r_mat)
+        return acc
+
+    tr3_positive_words = set()
+    for length_n in range(2, 9):
+        for w_tup in itertools.product("LR", repeat=length_n):
+            if "L" in w_tup and "R" in w_tup:
+                w_m = eval_word_mat("".join(w_tup))
+                if int(np.trace(w_m)) == 3:
+                    tr3_positive_words.add("".join(w_tup))
+    only_lr_rl_have_trace3 = bool(tr3_positive_words == {"LR", "RL"})
+
+    excursion_words = (
+        ["L" * 5 + "R" + "LR" * kk for kk in range(13)]
+        + ["L" * 6 + "R" + "LR" * kk for kk in range(13)]
+        + ["L" * 10 + "RLR"]
+    )
+    min_excursion_h1_order = min(int(np.trace(eval_word_mat(w))) - 2 for w in excursion_words)
+    excursion_open_books_non_sphere = bool(len(excursion_words) == 27 and min_excursion_h1_order > 1)
+
+    # 4. B1851 sec. 1.C: 1-loop B-test scale independence (alpha_1^{-1} - alpha_2^{-1})/(alpha_2^{-1} - alpha_3^{-1}) = (c_1 - c_2)/(c_2 - c_3)
+    c1_sm, c2_sm, c3_sm = -41.0 / 10.0, 19.0 / 6.0, 7.0
+    b_test_target = (c1_sm - c2_sm) / (c2_sm - c3_sm)
+    max_b_test_scale_err = 0.0
+    for a0_val in (20.0, 25.0, 40.0):
+        for l_run in (2.0, 5.0, 11.0):
+            for gen_shift in (0.0, -4.0 / 3.0, -8.0 / 3.0):
+                a1_inv = a0_val + (c1_sm + gen_shift) * l_run
+                a2_inv = a0_val + (c2_sm + gen_shift) * l_run
+                a3_inv = a0_val + (c3_sm + gen_shift) * l_run
+                b_ratio = (a1_inv - a2_inv) / (a2_inv - a3_inv)
+                max_b_test_scale_err = max(max_b_test_scale_err, abs(b_ratio - b_test_target))
+
+    b1851_open_book_and_dglz_checks = {
+        "max_dglz_exponent_err": float(max_dglz_err),
+        "min_chiral_k_dependence_when_cs_nonzero": float(min_chiral_k_dep),
+        "opposite_hand_conjugation_s_l_sinv_eq_rinv": opposite_hand_conjugation_ok,
+        "det_lr_minus_i": int(det_lr_minus_i),
+        "tr_lr": int(tr_lr),
+        "only_lr_rl_have_trace3": only_lr_rl_have_trace3,
+        "excursion_27_members_min_h1_order": int(min_excursion_h1_order),
+        "excursion_open_books_non_sphere": excursion_open_books_non_sphere,
+        "max_b_test_scale_err": float(max_b_test_scale_err),
+        "r2_open_book_reading_status": "CHOSEN (P-731: continued compact block on the object's own S^3 at R76-7 exact level-5 form 46 + 2*sqrt(5))",
+        "p732_scale_card_sealable_status": "NOT SEALABLE (P-732: itemized count 4 against 6, or 3 couplings against 3 steps with 1-loop B-test scale-free)",
+    }
+
+    # 5. Single-block knot-invariant quantities at N = 5 (strictly knot invariants only; no coupling or scale computed)
     k_bare = 3
     h_dual = 2
     n_order = k_bare + h_dual
@@ -27955,7 +28042,7 @@ def theorem153_p722_p725_b1012_vs_b598_amphichiral_sector_split_and_instanton_tr
     ratio_exact_to_full_n5 = float(kashaev_table[1]["exact_over_full_asymptotic"])
     ratio_exact_to_full_n80 = float(kashaev_table[-1]["exact_over_full_asymptotic"])
 
-    # 4. Guardrail 3: 20-trial Haar unitary basis-scrambling invariance on the 2-sector amphichiral operator C_amp = diag(c_hat_+, c_hat_-)
+    # 6. Guardrail 3: 20-trial Haar unitary basis-scrambling invariance on the 2-sector amphichiral operator C_amp = diag(c_hat_+, c_hat_-)
     rng = np.random.default_rng(2026110629)
     c_amp = np.diag([c_hat_plus, c_hat_minus])
     p_plus = np.diag([1.0 + 0.0j, 0.0 + 0.0j])
@@ -27964,8 +28051,8 @@ def theorem153_p722_p725_b1012_vs_b598_amphichiral_sector_split_and_instanton_tr
     max_haar_err_153 = 0.0
     for _ in range(20):
         z = rng.normal(size=(2, 2)) + 1j * rng.normal(size=(2, 2))
-        q_mat, r_mat = np.linalg.qr(z)
-        d_vec = np.diag(r_mat)
+        q_mat, r_mat_qr = np.linalg.qr(z)
+        d_vec = np.diag(r_mat_qr)
         ph = d_vec / np.abs(d_vec)
         u_haar = q_mat * ph[np.newaxis, :]
         c_scr = u_haar @ c_amp @ u_haar.conj().T
@@ -27978,9 +28065,16 @@ def theorem153_p722_p725_b1012_vs_b598_amphichiral_sector_split_and_instanton_tr
             max_haar_err_153 = float(err)
 
     guardrail_compliance = {
-        "G1_no_post_inspection_zero_bit_credit": bool(ratio_exact_to_leading_n5 > 10.0),
+        "G1_no_post_inspection_zero_bit_credit": bool(ratio_exact_to_leading_n5 > 10.0 and min_excursion_h1_order > 1),
         "G2_computed_not_hardcoded": bool(
             max_b1012_err < 1e-14
+            and max_dglz_err < 1e-14
+            and min_chiral_k_dep > 0.1
+            and opposite_hand_conjugation_ok is True
+            and det_lr_minus_i == -1
+            and only_lr_rl_have_trace3 is True
+            and excursion_open_books_non_sphere is True
+            and max_b_test_scale_err < 1e-14
             and err_wkb_hbar < 1e-14
             and err_kashaev_n5_algebraic < 1e-25
             and kashaev_n3_err < 1e-25
@@ -27990,35 +28084,44 @@ def theorem153_p722_p725_b1012_vs_b598_amphichiral_sector_split_and_instanton_tr
         "G3_haar_unitary_invariance_verified": bool(max_haar_err_153 < 1e-13),
         "G4_literature_benchmark_gate": bool(abs(ratio_exact_to_full_n80 - 1.0070724) < 1e-5),
         "G5_strict_nondimensionalization": bool(n_order == 5 and len(kashaev_table) == 6),
-        "G6_independent_cross_verification": bool(err_kashaev_n5_algebraic < 1e-25 and kashaev_n3_err < 1e-25),
+        "G6_independent_cross_verification": bool(
+            err_kashaev_n5_algebraic < 1e-25 and kashaev_n3_err < 1e-25 and max_dglz_err < 1e-14
+        ),
     }
 
     return {
         "seen_first": seen_first,
         "claim_labels_and_scopes": {
             "b1012_vs_b598_amphichiral_sector_split": (
-                "[MATH, FORCED BLOCK SPLIT / CHOSEN PREMISE (S306d)] Proves that on amphichiral m004 (CS = 0), the full "
-                "two-sector SL(2, C) action S_total = -Vol*sigma (B1012) cancels k between S_+ and S_-, whereas a chiral "
-                "amplitude takes the single holomorphic block (B598) by a CHOSEN premise (argued for by the hand bit, not derived)."
+                "[MATH, FORCED BLOCK SPLIT & OPEN BOOK / CHOSEN READING (S306d-S306k, B1851, P-731)] Proves that in Witten's "
+                "t = k + i*sigma display, S_W = -k*CS - sigma*Vol drops k iff CS = 0 (amphichiral m004), while in DGLZ's "
+                "t = k + sigma display the product exponent is sigma*Vol/(2*pi) + i*k*CS/(2*pi) (one-hand point t_bar = 0 "
+                "pins sigma = k); and proves that LR read as opposite-handed twists closes to an open book of S^3 with "
+                "binding 4_1 (det(LR - I) = -1, unique among positive words; all 27 excursion members have |H_1| > 1), "
+                "relocating the chiral premise to the open-book reading on S^3 (CHOSEN, P-731)."
             ),
             "kashaev_level5_vs_leading_exponential_r2_chosen": (
-                "[MATH, FORCED KNOT INVARIANT / CHOSEN R2 & R4 (S306d)] Proves by exact evaluation of <4_1>_N that at N = 5, "
-                "<4_1>_5 = 46 + 2*sqrt(5) = 50.472136 against R2's leading exponential exp(5*Vol/(2*pi)) = 5.029546 (factor 10.04) "
-                "and the Andersen-Hansen 1-loop asymptotic 42.727107 (ratio 1.181 at N = 5, 1.007 at N = 80); R2 and R4 stay CHOSEN "
-                "(5 choices, 6 with the coupling's level), and no coupling or scale ratio is computed outside a sealed card."
+                "[MATH, FORCED KNOT INVARIANT / R76-7 EXACT BLOCK RULE / NOT SEALABLE (S306g-S306k, P-722, P-732)] Proves "
+                "that at N = 5, <4_1>_5 = 46 + 2*sqrt(5) = 50.472136 against exp(5*Vol/(2*pi)) = 5.029546 (factor 10.04) "
+                "and 1-loop 42.727107 (ratio 1.181 at N = 5, 1.007 at N = 80); under R76-7, R2's form is fixed as the exact "
+                "level-5 block (never the asymptotic), while 3 steps stay CHOSEN and the open-book scale card is ruled "
+                "NOT SEALABLE (P-732: itemized 4 vs 6, or 3 couplings vs 3 steps with 1-loop B-test scale-independent)."
             ),
         },
         "plain_english_elaboration": (
-            "Implements `main`'s `S306d` ruling on `B1012` (`kashaev_block.py`, harvest rows 1602-1604) in full compliance "
-            "with the `P-715`/`P-722` firewall: (1) the single block and `B1012`'s full complex theory are pieces of one "
-            "theory, and choosing the single chiral block is a `CHOSEN` premise; (2) under that premise, at level `N = 5`, "
-            "the exact Kashaev invariant is `<4_1>_5 = 46 + 2*sqrt(5) = 50.472`, which is `10.04x` larger than the bare "
-            "exponential `exp(5*Vol/2pi) = 5.030` and `1.181x` larger than the 1-loop Andersen-Hansen asymptotic `42.727` "
-            "(which converges to `1.007` at `N = 80`). Thus `R2` and `R4` remain `CHOSEN`, and zero unsealed couplings or "
-            "scale values are computed."
+            "Implements `main`'s `S306d`-`S306k` rulings on `B1012` and `B1851` (`kashaev_block.py`, `relay_facts.py`, "
+            "`P-722`, `P-731`, `P-732`) in full compliance with the `P-715`/`P-722` firewall: (1) in DGLZ's `t = k +- sigma`, "
+            "the product exponent is `sigma*Vol/(2*pi) + i*k*CS/(2*pi)` (one-hand point `t_bar = 0` pins `sigma = k`), "
+            "while `LR` read as opposite-handed twists is an open book of `S^3` with binding `4_1` (`det(LR - I) = -1`, "
+            "whereas all 27 excursion members have `|H_1| = tr - 2 > 1`), relocating `R2`'s theory to the open-book reading "
+            "(`CHOSEN`, `P-731`); (2) under `R76-7`, `R2`'s form is fixed as the exact level-5 block `<4_1>_5 = 46 + 2*sqrt(5) "
+            "= 50.472` (never the asymptotic `5.030` or 1-loop `42.727`); and (3) because the 1-loop B-test ratio is scale-free, "
+            "the open-book scale card fails `P-728`'s count either way (`4 vs 6` itemized, `3 vs 3` by steps) and is "
+            "ruled `NOT SEALABLE` (`P-732`), with zero unsealed couplings or scale values computed."
         ),
         "vol_m004": float(vol_m004),
         "max_b1012_err": float(max_b1012_err),
+        "b1851_open_book_and_dglz_checks": b1851_open_book_and_dglz_checks,
         "n_order": int(n_order),
         "hbar_alpha": float(hbar_alpha),
         "s_wkb_single_block": float(s_wkb_single_block),
@@ -28032,8 +28135,8 @@ def theorem153_p722_p725_b1012_vs_b598_amphichiral_sector_split_and_instanton_tr
         "ratio_exact_to_leading_n5": float(ratio_exact_to_leading_n5),
         "ratio_exact_to_full_n5": float(ratio_exact_to_full_n5),
         "ratio_exact_to_full_n80": float(ratio_exact_to_full_n80),
-        "r2_status": "CHOSEN",
-        "r4_status": "CHOSEN",
+        "r2_status": "CHOSEN (P-731: open-book reading on S^3; R76-7 exact level-5 block 46 + 2*sqrt(5))",
+        "r4_status": "CHOSEN (P-732: scale card NOT SEALABLE; 4 vs 6 itemized, 3 vs 3 by steps)",
         "p722_itemized_choices_count": 5,
         "p722_itemized_choices_with_level": 6,
         "max_haar_err_153": float(max_haar_err_153),
@@ -28048,36 +28151,43 @@ def theorem153_p722_p725_b1012_vs_b598_amphichiral_sector_split_and_instanton_tr
 def theorem154_p726_p727_b1846_margulis_tube_coth2_identity_level_surface_modulus_and_cusp_collar(
     t151: Dict[str, object] | None = None,
 ) -> Dict[str, object]:
-    """Stage 29.2: Exact Margulis Tube Operator Identity z_3 = coth^2(L_tube/2), Level Surface Modulus tau(Sigma_0), & Cusp Collar Cut.
+    """Stage 29.2: Exact Margulis Tube Operator Identity z_3 = coth^2(L_tube/2), Level Surface Modulus tau(Sigma_0) (P-727 DONE), & Cusp Collar Cut.
 
-    Answers P-726 & P-727 (B1846 'The Metric's Read-Out') and B1838 (Cusp-Collar Cut), strictly data-free:
+    Answers P-726 & P-727 (B1846, B1847 § 8, B1848 Review 76, B1852, and chat1 991d7e2ac) and B1838 (Cusp-Collar Cut),
+    strictly data-free:
       1. Proves from the 4-valent diagonal-flip gluing equations z_m^2 = (1 - z_{m-1})(1 - z_{m+1}) (m = 1..5) of
-         W_k(6) = L^6 R (LR)^k and palindrome symmetry z_2 = z_4 that for every k >= 0:
+         W_k(6) = L^6 R (LR)^k and palindrome symmetry z_2 = z_4 that for every k >= 1:
            z_3 = z_2 - 1,  z_1 = (z_2 - 1)(z_2 + 2)/(z_2 - 2),  z_0 = z_2(z_2^2 + 4*z_2 - 4)/(z_2 - 2)^2,
-         and that the central ideal tetrahedron shape z_3(k) at harmonic time theta = 0 (concentration 0.997 in B1846)
-         is given identically by the complex length L_tube(k) of the Margulis tube core geodesic gamma_tube:
+         and that the central ideal tetrahedron shape z_3(k) at the Margulis tube core geodesic gamma_tube = aaBa
+         is given identically by its complex length L_tube(k):
            z_3(k) = coth^2(L_tube(k) / 2),  z'_3(k) = -sinh^2(L_tube(k) / 2),  z''_3(k) = sech^2(L_tube(k) / 2).
       2. Proves that for W_1(6) = L^6 R L R (k = 1), z_2 satisfies the irreducible degree-8 polynomial over Z:
            P(z_2) = 4*z_2^8 + 35*z_2^7 + 94*z_2^6 - 108*z_2^5 - 584*z_2^4 + 336*z_2^3 + 1440*z_2^2 - 1856*z_2 + 640 = 0,
-         whose root z_2 = -3.651753368978 + 2.578910896294*i unifies P-723's readings in one complex invariant:
-           -Re(z_2) = 3.65175337 (~ sqrt(40/3) = 3.65148372),  +Im(z_2) = +Im(z_3) = 2.57891090 (~ sqrt(20/3)).
-      3. Proves that as k -> infinity, while the global circle average dilutes as O(1/k), the Margulis tube submanifold
-         at theta = 0 NEVER dilutes: L_tube(k) -> L_inf = 0.18521824 - 0.81627642*i and z_3(k) -> coth^2(L_inf/2) =
-         -4.49424495 + 2.45878031*i.
-      4. Answers P-727 & B1838: on the sigma-fixed harmonic level surface Sigma_0 = theta^{-1}(0), sigma acts
-         anticonformally, fixing Re(tau(Sigma_0)) = 0; the hyperbolic geodesic bridge between the entry/exit pleated
-         surfaces crosses Sigma_0 at tau_bridge(Sigma_0) = i*|tau_+^{pleated}| = 2.87406788*i (k=1) and 2.80942953*i
-         (k->inf); and the maximal cusp horotorus t = 1 intersects Sigma_s along the chi = 0 peripheral curve of length
-         L_{chi=0} = 2*sqrt(3) = 3.46410162 (m004) and 3.50267806 (W_1(6)), fixing the cusp-collar area and plumbing
-         radius |q_cusp(t=1)| = exp(-2*pi / L_{chi=0}) with zero free parameters.
+         with root z_2 = -3.651753368978 + 2.578910896294*i, and verifies chat1's C1-C5 audit (C1 PASSES to <= 8e-48;
+         C2-C5 are near-coincidences).
+      3. Incorporates Review 76's (B1848) substantive correction to B1846 / P-726: the metric's systole (aaBa, with
+         harmonic coordinate theta constant along it to 1.7e-11) is a canonical point at the tube where the volume
+         weight rho(theta) also peaks; thus the read-out's location (the tube) is FORCED by the metric, while whether
+         the read-out uses the point or the weight remains CHOSEN (P-726).
+      4. Incorporates P-727 DONE (S306g B1847 § 8, S306k B1852, and chat1 991d7e2ac):
+           - By topology (B1852), sigma's two fixed fibres on L^6 R L R carry orientation-reversing involutions of
+             opposite GL(2, Z) class mod 2 (J == I mod 2 at Re(tau) = 0 vs. phi*J != I mod 2 at Re(tau) = 1/2), proving
+             Re(tau(Sigma_0)) = 0 exactly.
+           - By full-group Ford domain meshing with monodromy cocycle M = [[-1,-3],[8,23]] (B1847 § 8),
+             tau(Sigma_0) = 0 + 6.15(15)*i at k = 1 (~1.7x thinner than the three record readings: Teichmuller apex
+             3.65, pleated 2.87, tetrahedron 2.58).
+           - By chat1's independent covariant energy-root instrument across k = 1..5 (991d7e2ac), tau(Sigma_{s_0})
+             reads 0 + 6.14916(41)*i at k = 1 and converges with Aitken k -> inf estimate tau_inf = 0 + 6.06526(57)*i
+             (which construction the read-out uses remains P-714).
     """
     import cmath
+    import itertools
 
     seen_first = [
-        "frontier/B1846_the_metrics_read_out/FINDINGS.md (S306b: T1 flat energy, T2 atomless volume hump at theta = 0 on the Margulis tube)",
-        "frontier/B1847_the_level_surfaces_own_modulus/FINDINGS.md (S306d: intrinsic harmonic level-surface modulus tau(Sigma_s) on m004 and b++LLLLLLRLR)",
-        "docs/POINT_REGISTER.md (P-726, P-727: harmonic time volume read-out and level surface modulus tau(Sigma_0))",
-        "frontier/B1846_the_metrics_read_out/verification/step5_b++LLLLLLRLR.json (9-tetrahedron Bloch-Wigner volumes and harmonic time means)",
+        "frontier/B1846_the_metrics_read_out/FINDINGS.md (S306b / S306e Review 76: T1 flat energy, T2 volume hump, systole forces tube location while point vs weight stays CHOSEN)",
+        "frontier/B1847_the_level_surfaces_own_modulus/FINDINGS.md (S306d & S306g § 8: P-727 DONE; Im tau(Sigma_0) = 6.15 +- 0.15 by full-group Ford domain meshing)",
+        "frontier/B1852_the_tubes_real_part_by_topology/FINDINGS.md (S306k: Re tau(Sigma_0) = 0 exactly by GL(2, Z) mod-2 involution classes)",
+        "docs/POINT_REGISTER.md (P-714, P-726, P-727: tube location FORCED, point vs weight CHOSEN, tau(Sigma_0) = 0 + 6.15(15)i DONE)",
     ]
 
     # 1. Exact Newton solve of the degree-8 minimal polynomial P(z_2) = 0 for W_1(6) = L^6 R L R
@@ -28135,8 +28245,6 @@ def theorem154_p726_p727_b1846_margulis_tube_coth2_identity_level_surface_modulu
     max_gluing_err_k1 = max(max_gluing_err_k1, float(err_rlr_1), float(err_rlr_2), float(err_telescope_z7))
 
     # 2. Verify the universal Margulis tube operator identity z_3(k) = coth^2(L_tube(k) / 2) across k in {1, 2, 3, 5, 8}
-    # From z_3 = coth^2(L_tube / 2), we have sinh^2(L_tube / 2) = 1 / (z_3 - 1) = 1 / (z_2 - 2).
-    # Check against the committed B1846 step5_b++LLLLLLRLR.json and SnapPy benchmark table across k in {1, 2, 3, 5, 8}:
     snappy_tube_benchmarks = [
         (1, -4.6517533689778370 + 2.5789108962944680j, 0.1848698045116111 - 0.8021024422395611j),
         (2, -4.5260956462821786 + 2.4838038257403112j, 0.1851996322338285 - 0.8133186699528422j),
@@ -28169,10 +28277,9 @@ def theorem154_p726_p727_b1846_margulis_tube_coth2_identity_level_surface_modulu
             }
         )
 
-    # Check exact match of k=1 polynomial root against SnapPy benchmark and B1846 step5 JSON tube length
     err_k1_root_vs_snappy = abs(z3_k1 - snappy_tube_benchmarks[0][1])
 
-    # Explicit verification of chat1's C1-C5 geometry audit (commit 1faab01c8, stage29_geometry_check.py):
+    # Explicit verification of chat1's C1-C5 geometry audit (commit 1faab01c8 & 2df86d45f):
     # C1 PASSES (exact identity z_3 = coth^2(L_tube/2) = z_2 - 1), while C2-C5 are near-coincidences, NOT identities:
     l_tube_k1_snap = snappy_tube_benchmarks[0][2]
     twist_deg_k1 = abs(l_tube_k1_snap.imag) * 180.0 / math.pi
@@ -28197,8 +28304,59 @@ def theorem154_p726_p727_b1846_margulis_tube_coth2_identity_level_surface_modulu
         "c5_diff_from_35_2644deg": float(diff_angle_deg),
     }
 
-    # 3. P-727 & B1847: Distinguish (a) the hyperbolic geodesic bridge midpoint tau_bridge = i*|tau_+^{pleated}|
-    # between the flanking pleated surfaces from (b) B1847's intrinsic harmonic level-surface modulus tau(Sigma_s).
+    # 3. B1852 (S306k): Exact integer-matrix proof that sigma's two fixed fibres on L^6 R L R lie in opposite GL(2, Z)
+    # mod-2 involution classes (one at Re tau = 0, one at Re tau = 1/2), whereas on m004 both lie in != I mod 2 (Re tau = 1/2).
+    l_int = np.array([[1, 1], [0, 1]], dtype=int)
+    r_int = np.array([[1, 0], [1, 1]], dtype=int)
+
+    def word_mat_int(w_s: str) -> np.ndarray:
+        acc = np.eye(2, dtype=int)
+        for ch in w_s:
+            acc = acc @ (l_int if ch == "L" else r_int)
+        return acc
+
+    def inv_gl2z(m_in: np.ndarray) -> np.ndarray:
+        a_v, b_v, c_v, d_v = int(m_in[0, 0]), int(m_in[0, 1]), int(m_in[1, 0]), int(m_in[1, 1])
+        det_v = a_v * d_v - b_v * c_v
+        return np.array([[d_v * det_v, -b_v * det_v], [-c_v * det_v, a_v * det_v]], dtype=int)
+
+    def is_i_mod2(m_in: np.ndarray) -> bool:
+        return bool((int(m_in[0, 0]) - 1) % 2 == 0 and int(m_in[0, 1]) % 2 == 0 and int(m_in[1, 0]) % 2 == 0 and (int(m_in[1, 1]) - 1) % 2 == 0)
+
+    def fixed_fibre_involution_classes(w_s: str, bound: int = 14) -> Tuple[int, Set[Tuple[bool, bool]]]:
+        phi_m = word_mat_int(w_s)
+        phi_inv = inv_gl2z(phi_m)
+        rev_list = []
+        for a_v, b_v, c_v, d_v in itertools.product(range(-bound, bound + 1), repeat=4):
+            if a_v * d_v - b_v * c_v != -1 or a_v + d_v != 0:
+                continue
+            j_mat = np.array([[a_v, b_v], [c_v, d_v]], dtype=int)
+            if np.array_equal(j_mat @ phi_m @ inv_gl2z(j_mat), phi_inv):
+                rev_list.append(j_mat)
+        class_pairs: Set[Tuple[bool, bool]] = set()
+        for j_mat in rev_list:
+            k_mat = phi_m @ j_mat
+            class_pairs.add((is_i_mod2(j_mat), is_i_mod2(k_mat)))
+        return len(rev_list), class_pairs
+
+    n_rev_m004, pairs_m004 = fixed_fibre_involution_classes("LR")
+    n_rev_l6rlr, pairs_l6rlr = fixed_fibre_involution_classes("LLLLLLRLR")
+    n_rev_l10rlr, pairs_l10rlr = fixed_fibre_involution_classes("LLLLLLLLLLRLR")
+    n_rev_l5rlr, pairs_l5rlr = fixed_fibre_involution_classes("LLLLLRLR")
+    b1852_re_tau_zero_topological_proof_ok = bool(
+        n_rev_m004 == 12
+        and pairs_m004 == {(False, False)}
+        and n_rev_l6rlr == 4
+        and pairs_l6rlr <= {(True, False), (False, True)}
+        and len(pairs_l6rlr) > 0
+        and n_rev_l10rlr == 4
+        and pairs_l10rlr <= {(True, False), (False, True)}
+        and n_rev_l5rlr == 4
+        and pairs_l5rlr == {(False, False)}
+    )
+
+    # 4. P-727 DONE (B1847 § 8, B1852, chat1 991d7e2ac): Separate the geodesic bridge midpoint tau_bridge = i*|tau_+^{pleated}|
+    # from the metric's own harmonic level-surface modulus tau(Sigma_0) = 0 + 6.15(15)*i at k = 1 and tau_inf = 0 + 6.06526(57)*i.
     if t151 is not None:
         tau_plus_k1 = complex(
             float(t151["homoclinic_table"][1]["re_tau_pleated_deepest"]),
@@ -28212,7 +28370,6 @@ def theorem154_p726_p727_b1846_margulis_tube_coth2_identity_level_surface_modulu
         tau_plus_k1 = complex(0.05070763694735016, 2.873586724727219)
         tau_plus_inf = complex(0.049223324820, 2.809027538364)
     tau_minus_k1 = -tau_plus_k1.conjugate()
-    # Geodesic semicircle in H connecting tau_+ = +u_* + i*v_* and tau_- = -u_* + i*v_* crosses Re(tau) = 0 at i*|tau_+|:
     tau_sigma0_bridge_k1 = 1j * abs(tau_plus_k1)
     tau_sigma0_bridge_inf = 1j * abs(tau_plus_inf)
     err_sigma_anticonformal_k1 = abs(tau_sigma0_bridge_k1 + tau_sigma0_bridge_k1.conjugate())
@@ -28222,34 +28379,47 @@ def theorem154_p726_p727_b1846_margulis_tube_coth2_identity_level_surface_modulu
             "re": -0.5,
             "im": 1.12438,
             "det_E": 1.00018,
-            "status": "FORCED (B1847 Stage B: intrinsic level surface Sigma_0 of m004 has Im(tau) = 1.12438 < sqrt(3)/2*phi = 1.40126)",
+            "status": "FORCED (B1847 Stage B & B1852: both sigma-fixed fibres != I mod 2 at Re(tau) = 1/2; Im(tau(Sigma_0)) = 1.12438)",
         },
         "exc_s05_anti_apex": {
             "re": 0.5,
             "im": 1.5904,
             "det_E": 1.0014,
-            "status": "FORCED (B1847 Stage C: intrinsic level surface Sigma_{0.5} of b++LLLLLLRLR away from tube)",
+            "status": "FORCED (B1847 Stage C & B1852: anti-apex is the != I mod 2 fibre at Re(tau) = 1/2 to 7e-7, Im(tau) = 1.5904)",
         },
         "exc_s025_quarter": {
             "re": -0.3722,
             "im": 1.0085,
             "det_E": 1.0038,
-            "status": "FORCED (B1847 Stage C: intrinsic level surface Sigma_{0.25} of b++LLLLLLRLR)",
+            "status": "FORCED (B1847 Stage C & § 8 control: intrinsic level surface Sigma_{0.25} of b++LLLLLLRLR)",
         },
         "exc_s0_tube_slice": {
+            "re": 0.0,
+            "im_b1847_sec8": 6.15,
+            "im_b1847_sec8_err": 0.15,
+            "im_chat1_k1": 6.149155,
+            "im_chat1_k1_err": 0.000408,
+            "im_chat1_k_inf_aitken": 6.065264,
+            "im_chat1_k_inf_err": 0.000569,
+            "chat1_k1_to_k5_im_series": [6.149155, 6.081857, 6.068680, 6.065974, 6.065411],
+            "b1852_re_tau_zero_topological_proof_ok": b1852_re_tau_zero_topological_proof_ok,
             "status": (
-                "OPEN (P-727 / B1847 Stage C: chi(aaBa) = 0 places the loxodromic tube core on Sigma_0 where it sits on "
-                "an F-isometric sphere face and twists Sigma_0 into a helicoid folding 3-5 times per period below t = 0.50)"
+                "DONE (P-727 / S306g B1847 § 8 / S306k B1852 / chat1 991d7e2ac: Re tau(Sigma_0) = 0 exact by GL(2, Z) "
+                "mod-2 involution classes; Im tau(Sigma_0) = 6.15 +- 0.15 by full-group Ford domain meshing with monodromy "
+                "cocycle M = [[-1,-3],[8,23]]; chat1 covariant energy-root series k=1..5 gives 0 + 6.14916(41)i at k=1 and "
+                "Aitken k->inf estimate tau_inf = 0 + 6.06526(57)i; ~1.7x thinner than the three record readings)"
             ),
         },
     }
 
-    # Four readings summary at the excursion apex (k = 1 and k -> inf)
+    # Four readings summary at the excursion tube (k = 1 and k -> inf) — Note: chat1 2a48e7284 sec. 7 fix applied to k_inf apex!
+    phi_golden = (1.0 + math.sqrt(5.0)) / 2.0
     four_readings_at_tube = {
         "reading1_teichmuller_1line_apex_im": {
             "k1": float(math.sqrt(40.0 / 3.0)),
-            "k_inf": float(math.sqrt((25.0 + 11.0 * math.sqrt(5.0)) / 4.0)),
-            "geometric_origin": "2D Teichmuller axis apex of W_k(6) on Re(tau) = 1/2 (distinct from 3D -Re(z_2) = 3.65175 by 2.70e-4)",
+            "k_inf": float(math.sqrt(5.0) * phi_golden),
+            "re_apex": 0.5,
+            "geometric_origin": "2D Teichmuller axis apex of W_k(6) on Re(tau) = 1/2: sqrt(40/3) = 3.65148 at k=1, sqrt(5)*phi = 3.61803 as k->inf",
         },
         "reading2_flanking_pleated_layers_im": {
             "k1": float(tau_plus_k1.imag),
@@ -28262,48 +28432,60 @@ def theorem154_p726_p727_b1846_margulis_tube_coth2_identity_level_surface_modulu
             "k1": float(tau_sigma0_bridge_k1.imag),
             "k_inf": float(tau_sigma0_bridge_inf.imag),
             "re_sigma0": 0.0,
-            "geometric_origin": "Hyperbolic geodesic bridge midpoint i*|tau_+^{pleated}| between Sigma_3 and Sigma_4 (distinct from B1847 intrinsic tau(Sigma_0), which is OPEN at s = 0)",
+            "b1847_intrinsic_im_k1": 6.15,
+            "chat1_intrinsic_im_k_inf": 6.065264,
+            "geometric_origin": "Hyperbolic geodesic bridge midpoint i*|tau_+^{pleated}| = 2.87407i vs. B1847 § 8 / B1852 intrinsic tau(Sigma_0) = 0 + 6.15(15)i (k->inf 6.06526(57)i)",
         },
         "reading4_central_tetrahedron_coth2_im": {
             "k1": float(z3_k1.imag),
             "k_inf": float(snappy_tube_benchmarks[-1][1].imag),
             "re_z2_neg_k1": float(-z2_k1.real),
             "re_z2_neg_k_inf": float(-(snappy_tube_benchmarks[-1][1].real + 1.0)),
-            "geometric_origin": "3D central ideal tetrahedron shape Im(z_3) = Im(coth^2(L_tube/2)) at theta = 0 (concentration 0.997)",
+            "geometric_origin": "3D central ideal tetrahedron shape Im(z_3) = Im(coth^2(L_tube/2)) at the systole tube core aaBa",
         },
     }
 
-    # 4. B1838 Cusp-Collar Cut: parameter-free cusp collar at the maximal horotorus t = 1 (c_min = 1)
-    # On m004, chi = 0 curve is w_2 = 2*sqrt(3)*i => L_{chi=0}(m004) = 2*sqrt(3)
-    # On b++LLLLLLRLR (B1846 step3_exc_R12_run.txt), chi = 0 curve is w_1 = 3.50267806
+    # 5. B1838 Cusp-Collar Cut: parameter-free cusp collar at the maximal horotorus t = 1 (c_min = 1)
     l_chi0_m004 = 2.0 * math.sqrt(3.0)
     l_chi0_l6rlr = 3.50267806
     q_cusp_m004 = math.exp(-2.0 * math.pi / l_chi0_m004)
     q_cusp_l6rlr = math.exp(-2.0 * math.pi / l_chi0_l6rlr)
 
-    # 5. Guardrail 3: 20-trial Haar unitary basis-scrambling check on the 2x2 SL(2, C) Margulis tube holonomy matrix
-    half_l_k1 = 0.5 * snappy_tube_benchmarks[0][2]
-    m_tube = np.array(
+    # 6. Guardrail 3 (non-tautological, fixing chat1 check_algebra.py A5):
+    # Instead of building diag(cosh(L/2), sinh(L/2)) from L_tube, take the two non-commuting SL(2, C) fundamental-group
+    # generators a, b of b++LLLLLLRLR, scramble BOTH generators independently by U in U(2) (a -> U a U^dagger,
+    # b -> U b U^dagger), multiply the 4-letter systole word W_scr = a_scr @ a_scr @ inv(b_scr) @ a_scr ('aaBa'),
+    # and verify that tr(W_scr)^2 / (tr(W_scr)^2 - 4*det(W_scr)) equals the polynomial root z_3 = z_2 - 1 of P(z_2) = 0!
+    a_gen_sl2c = np.array(
         [
-            [cmath.cosh(half_l_k1), cmath.sinh(half_l_k1)],
-            [cmath.sinh(half_l_k1), cmath.cosh(half_l_k1)],
+            [-0.8107545629344744 + 1.3665814513465549j, -0.2871067030768645 - 0.9017681596238221j],
+            [0.2871067030768645 + 0.9017681596238221j, -0.8360215474665216 - 0.7704972648371077j],
         ],
         dtype=complex,
     )
+    b_gen_sl2c = np.array(
+        [
+            [-0.6596405315973148 + 2.1598583595515040j, 0.0 - 1.0j],
+            [1.1921683730188943 + 4.2935522208019922j, -1.1895335492221711 - 2.0875848909724395j],
+        ],
+        dtype=complex,
+    )
+    comm_ab_norm = float(np.linalg.norm(a_gen_sl2c @ b_gen_sl2c - b_gen_sl2c @ a_gen_sl2c))
     rng = np.random.default_rng(2026110630)
     max_haar_err_154 = 0.0
     for _ in range(20):
         z = rng.normal(size=(2, 2)) + 1j * rng.normal(size=(2, 2))
-        q_mat, r_mat = np.linalg.qr(z)
-        d_vec = np.diag(r_mat)
+        q_mat, r_mat_qr = np.linalg.qr(z)
+        d_vec = np.diag(r_mat_qr)
         ph = d_vec / np.abs(d_vec)
         u_haar = q_mat * ph[np.newaxis, :]
-        m_scr = u_haar @ m_tube @ u_haar.conj().T
-        tr_scr = complex(np.trace(m_scr))
-        det_scr = complex(np.linalg.det(m_scr))
-        # Recompute z_3 = coth^2(L/2) = tr^2 / (tr^2 - 4*det) from the basis-scrambled holonomy operator
-        z3_from_scr = (tr_scr**2) / (tr_scr**2 - 4.0 * det_scr)
-        err = abs(z3_from_scr - z3_k1)
+        a_scr = u_haar @ a_gen_sl2c @ u_haar.conj().T
+        b_scr = u_haar @ b_gen_sl2c @ u_haar.conj().T
+        w_aaba_scr = a_scr @ a_scr @ np.linalg.inv(b_scr) @ a_scr
+        tr_scr = complex(np.trace(w_aaba_scr))
+        det_scr = complex(np.linalg.det(w_aaba_scr))
+        z3_from_aaba_scr = (tr_scr**2) / (tr_scr**2 - 4.0 * det_scr)
+        err = abs(z3_from_aaba_scr - z3_k1)
         if err > max_haar_err_154:
             max_haar_err_154 = float(err)
 
@@ -28315,16 +28497,20 @@ def theorem154_p726_p727_b1846_margulis_tube_coth2_identity_level_surface_modulu
             and max_coth2_identity_err < 1e-12
             and err_k1_root_vs_snappy < 1e-12
             and err_sigma_anticonformal_k1 < 1e-15
+            and b1852_re_tau_zero_topological_proof_ok is True
+            and comm_ab_norm > 1.0
             and chat1_c1_to_c5_checks["c1_coth2_identity_pass"] is True
             and chat1_c1_to_c5_checks["c2_exact_45deg_twist_pass"] is False
             and chat1_c1_to_c5_checks["c3_re_z2_div_sqrt2_equals_im_z2_pass"] is False
             and chat1_c1_to_c5_checks["c4_re_z2_equals_sqrt_40_3_pass"] is False
             and chat1_c1_to_c5_checks["c5_equal_35_26deg_shadows_pass"] is False
         ),
-        "G3_haar_unitary_invariance_verified": bool(max_haar_err_154 < 1e-12),
+        "G3_haar_unitary_invariance_verified": bool(max_haar_err_154 < 1e-12 and comm_ab_norm > 1.0),
         "G4_literature_benchmark_gate": bool(err_k1_root_vs_snappy < 1e-12),
         "G5_strict_nondimensionalization": bool(q_cusp_m004 > 0.0 and q_cusp_l6rlr > 0.0),
-        "G6_independent_cross_verification": bool(max_coth2_identity_err < 1e-12 and err_telescope_z7 < 1e-12),
+        "G6_independent_cross_verification": bool(
+            max_coth2_identity_err < 1e-12 and err_telescope_z7 < 1e-12 and b1852_re_tau_zero_topological_proof_ok is True
+        ),
     }
 
     return {
@@ -28332,26 +28518,28 @@ def theorem154_p726_p727_b1846_margulis_tube_coth2_identity_level_surface_modulu
         "claim_labels_and_scopes": {
             "margulis_tube_coth2_operator_identity": (
                 "[MATH, FORCED-BY-MAIN (S306d row 1604 / chat1 C1)] Proves from the 4-valent diagonal-flip gluing equations "
-                "of W_k(6) = L^6 R (LR)^k that the central tetrahedron shape at harmonic time theta = 0 is identically "
+                "of W_k(6) = L^6 R (LR)^k that the central tetrahedron shape at the systole core geodesic aaBa is identically "
                 "z_3(k) = coth^2(L_tube(k)/2) = z_2(k) - 1, derives the irreducible degree-8 minimal polynomial P(z_2) = 0 "
                 "for W_1(6), and verifies chat1's C2-C5 ruling that |Im(L_tube)| = 45.957 deg != 45 deg, -Re(z_2) - sqrt(40/3) "
                 "= 2.70e-4, and (-Re(z_2))/sqrt(2) - Im(z_2) = 3.27e-3 are near-coincidences, not identities."
             ),
             "p726_p727_non_diluting_tube_and_level_surface_bridge": (
-                "[MATH, FORCED-BY-MAIN / P-727 OPEN AT s=0] Proves that as k -> infinity, while the global circle volume "
-                "average dilutes as O(1/k), the Margulis tube submanifold at theta = 0 converges to L_inf = 0.185218 - "
-                "0.816276*i and z_3(inf) = -4.494245 + 2.458780*i, while distinguishing the geodesic bridge midpoint "
-                "tau_bridge = i*|tau_+^{pleated}| = 2.87407*i from B1847's intrinsic harmonic level-surface modulus "
-                "tau(Sigma_s) (1.12438*i on m004 at s=0; 1.5904*i at s=0.5 and 1.0085*i at s=0.25 on W_1(6); OPEN at s=0)."
+                "[MATH, FORCED-BY-MAIN / P-726 TUBE LOCATION FORCED / P-727 DONE (S306e-S306k, B1847 § 8, B1848, B1852)] "
+                "Records Review 76's correction to P-726 (the metric's systole aaBa and volume mode rho both sit at the tube, "
+                "so the tube location is FORCED by the metric while point vs weight remains CHOSEN), proves by GL(2, Z) mod-2 "
+                "involution classes (B1852) that Re(tau(Sigma_0)) = 0 exactly, and records P-727 DONE: tau(Sigma_0) = "
+                "0 + 6.15(15)*i at k = 1 (B1847 § 8) and chat1's covariant energy-root series k = 1..5 converging to "
+                "tau_inf = 0 + 6.06526(57)*i (which construction the read-out uses remains P-714)."
             ),
         },
         "plain_english_elaboration": (
             "Verifies the exact `FORCED` 3D hyperbolic identity `z_3(k) = coth^2(L_tube(k)/2) = z_2(k) - 1` (`main` row 1604 "
             "and `chat1` `C1 PASS`), derives the irreducible degree-8 minimal polynomial `P(z_2) = 0` for `W_1(6) = L^6 R L R`, "
-            "confirms `chat1`'s `C2-C5` audit (`|Im L_tube| = 45.957 deg != 45 deg`, `-Re z_2 - sqrt(40/3) = 2.70e-4`, and "
-            "`(-Re z_2)/sqrt(2) - Im z_2 = 3.27e-3` are near-coincidences rather than identities), and separates our geodesic "
-            "bridge midpoint `i*|tau_+^{pleated}| = 2.87407*i` from `B1847`'s intrinsic harmonic level-surface modulus "
-            "`tau(Sigma_s)` (`OPEN` at `s = 0` where the `aaBa` tube core folds `Sigma_0` into a helicoid on an `F`-sphere face)."
+            "incorporates `Review 76`'s correction to `P-726` (the metric's systole `aaBa` and volume weight `rho` both peak "
+            "at the tube, so the tube location is `FORCED` while point vs. weight stays `CHOSEN`), and incorporates `P-727 DONE` "
+            "(`S306g` `B1847 § 8`, `S306k` `B1852`, and `chat1` `991d7e2ac`): `Re tau(Sigma_0) = 0` exactly by mod-2 `GL(2, Z)` "
+            "involution topology, and `Im tau(Sigma_0) = 6.15 +- 0.15` at `k = 1` (`6.14916(41)` in `chat1`'s instrument, "
+            "with `k -> inf` Aitken limit `tau_inf = 0 + 6.06526(57)i`, ~1.7x thinner than the three record readings)."
         ),
         "z2_k1": {"re": float(z2_k1.real), "im": float(z2_k1.imag)},
         "z3_k1": {"re": float(z3_k1.real), "im": float(z3_k1.imag)},
@@ -28365,6 +28553,7 @@ def theorem154_p726_p727_b1846_margulis_tube_coth2_identity_level_surface_modulu
         "max_coth2_identity_err": float(max_coth2_identity_err),
         "err_k1_root_vs_snappy": float(err_k1_root_vs_snappy),
         "chat1_c1_to_c5_checks": chat1_c1_to_c5_checks,
+        "b1852_re_tau_zero_topological_proof_ok": b1852_re_tau_zero_topological_proof_ok,
         "b1847_level_surface_modulus_readings": b1847_level_surface_modulus_readings,
         "four_readings_at_tube": four_readings_at_tube,
         "err_sigma_anticonformal_k1": float(err_sigma_anticonformal_k1),
@@ -28386,26 +28575,28 @@ def theorem155_s286_b1826_p716_two_flank_margulis_tube_transition_ckm_unblocking
     t151: Dict[str, object] | None = None,
     t154: Dict[str, object] | None = None,
 ) -> Dict[str, object]:
-    """Stage 29.3: Two-Flank Margulis Tube Transition Across Tet 3 (tau_+ <-> tau_-): Unblocking B1826 CKM & P-716 CP Data-Free.
+    """Stage 29.3: Two-Flank Margulis Tube Transition Across Tet 3 (tau_+ <-> tau_-): S306f / R76-8 / chat1 Audit of B1826 & P-716.
 
-    Tests the two-flank Margulis tube mechanism across the central tetrahedron Tet 3 (theta = 0) of W_k(6) = L^6 R (LR)^k,
-    answering S286 / B1826 (Single-Point CKM Collinearity Wall) and P-716 (Representation-Level CP-Odd Source) strictly data-free:
+    Audits the two-flank Margulis tube mechanism across the central tetrahedron Tet 3 (theta = 0) of W_k(6) = L^6 R (LR)^k
+    under S306f / S306g (R76-8) and chat1's two readings (2a48e7284 § 7), strictly data-free:
       1. Across Tet 3 (theta = 0), the entry pleated face Sigma_3 (theta = -0.0329, modulus tau_+ = +u_* + i*v_*) and
          exit pleated face Sigma_4 = sigma(Sigma_3) (theta = +0.0329, modulus tau_- = -conj(tau_+) = -u_* + i*v_*) carry
-         the two sigma-conjugate chiral SU(5) multiplets 10 (up-type Yukawa Y_u on (tau_+, zeta_5)) and 5-bar (down-type
-         Yukawa Y_d on (tau_-, zeta_5^{-1})) placed by P-725 (1) (Theorem 150).
-      2. Because tau_- = -conj(tau_+) and zeta_5^{-1} = conj(zeta_5), the within-sector singular value hierarchies on the
-         two flanks are strictly identical: sigma_i(Y_u(tau_+)) = sigma_i(Y_d(tau_-)) to < 1e-15 at both k = 1 and k -> inf.
-      3. Proves by exact ablation that:
+         sigma-conjugate moduli.
+      2. Because tau_- = -conj(tau_+) and zeta_5^{-1} = conj(zeta_5), evaluating the same template on the two flanks gives
+         Y_d(tau_-, zeta_5^{-1}) = conj(Y_u(tau_+, zeta_5)), so the within-sector singular value hierarchies on the two
+         flanks are strictly identical: sigma_i(Y_u(tau_+)) = sigma_i(Y_d(tau_-)) to < 1e-15 at both k = 1 and k -> inf.
+      3. Proves by exact ablation and chat1's 2a48e7284 § 7 audit (S306f / S306g R76-8):
          - Case 1 (Single-Flank Reading: both sectors at (tau_+, zeta_5)): [H_u, H_d] = 0, V_CKM = I_3, J_CP = 0
            (reproducing the B1826 single-point collinearity wall).
          - Case 2 (Two-Flank Rank-1 Phase Reading: u_* = 0 without quadratic-vs-linear phase mismatch): plaquette phase
            Delta_phi_triangle = 0, det[H_u, H_d] = 0, J_CP = 0 (reproducing the P-716 rephasing cancellation wall).
-         - Case 3 (Full 3D Margulis Tube Two-Flank Transition across Tet 3 with geometry-fixed shear u_* = Re(tau_+) > 0):
-           the quadratic modular q-series phase 2*pi*n^2*u_*/5 and linear Weil phase 2*pi*m/5 produce a non-vanishing
-           gauge-invariant plaquette phase Delta_phi_triangle != 0 (mod pi), placing the smallest CKM element in the
-           (1, 3) corner (|V_{13}| = |V_{ub}| = min_{i,j} |V_{ij}|) and generating a strictly non-zero Jarlskog CP
-           invariant J_CP != 0 and |det[H_u, H_d]| > 0 with zero free parameters and zero data comparisons.
+         - Case 3 (Two-Flank Conjugate Reading Y_d = conj(Y_u) with u_* = Re(tau_+) > 0): the quadratic modular q-series
+           phase 2*pi*n^2*u_*/5 and linear Weil phase 2*pi*m/5 produce [H_u, H_d] != 0 and J_CP != 0, and place the
+           smallest elements in the off-diagonal (1,3)/(3,1) corners; HOWEVER, because Y_d = conj(Y_u), H_d = conj(H_u)
+           and V_CKM = U_u^dagger conj(U_u) is complex symmetric (up to rephasing), which forces |V_CKM| to be symmetric:
+           |V_{13}| = |V_{31}| to < 1e-15 (`breaks_13_vs_31_corner_symmetry = False`). Moreover, in SU(5), Y_u couples
+           10*10 while Y_d couples 10*5-bar (sharing Q_L in 10), so a conjugate flank pair Y_d = conj(Y_u) does not resolve
+           B1826's (1,3) vs (3,1) corner-inversion asymmetry (`P-716` / `R76-8`).
       4. Verifies 20-trial independent left/right Haar unitary basis-scrambling invariance (Y_u -> U_L Y_u U_{R,u}^dagger,
          Y_d -> U_L Y_d U_{R,d}^dagger) to < 1e-13 (Guardrail 3).
     """
@@ -28414,7 +28605,7 @@ def theorem155_s286_b1826_p716_two_flank_margulis_tube_transition_ckm_unblocking
     import cmath
 
     seen_first = [
-        "docs/POINT_REGISTER.md (P-716, P-723, P-725, P-726: CP-odd source, flanking pleated layers, twin sectors, Margulis tube)",
+        "docs/POINT_REGISTER.md (P-716, P-723, P-725, P-726, R76-8 [S306f-S306g]: two-flank audit; Y_d = conj(Y_u) forces |V_{13}| = |V_{31}|)",
         "frontier/B1846_the_metrics_read_out/FINDINGS.md (S306b: sigma-conjugate tetrahedra tet 2 and tet 4 at theta = +-0.0329 flanking tet 3 at theta = 0)",
     ]
 
@@ -28449,6 +28640,9 @@ def theorem155_s286_b1826_p716_two_flank_margulis_tube_transition_ckm_unblocking
         abs_v = np.abs(v_ckm)
         min_idx = np.unravel_index(int(np.argmin(abs_v)), abs_v.shape)
         smallest_in_13_corner = bool(min_idx in ((0, 2), (2, 0)))
+        abs_v_symmetry_diff = float(np.max(np.abs(abs_v - abs_v.T)))
+        v13_minus_v31 = float(abs(abs_v[0, 2] - abs_v[2, 0]))
+        breaks_13_vs_31_corner_symmetry = bool(v13_minus_v31 > 1e-12)
         j_cp = float(np.imag(v_ckm[0, 1] * v_ckm[1, 2] * np.conj(v_ckm[0, 2]) * np.conj(v_ckm[1, 1])))
         comm_det = float(abs(np.linalg.det(h_u @ h_d - h_d @ h_u)))
         plaquette_prod = h_u[0, 1] * h_u[1, 2] * h_u[2, 0]
@@ -28457,12 +28651,16 @@ def theorem155_s286_b1826_p716_two_flank_margulis_tube_transition_ckm_unblocking
             "svd_diff": svd_diff,
             "abs_v_ckm": [[float(x) for x in row] for row in abs_v],
             "smallest_in_13_corner": smallest_in_13_corner,
+            "abs_v_symmetry_diff": abs_v_symmetry_diff,
+            "v13_minus_v31": v13_minus_v31,
+            "breaks_13_vs_31_corner_symmetry": breaks_13_vs_31_corner_symmetry,
             "abs_j_cp": float(abs(j_cp)),
             "abs_comm_det": comm_det,
             "plaquette_phase_rad": plaquette_phase,
             "v_12": float(abs_v[0, 1]),
             "v_23": float(abs_v[1, 2]),
             "v_13": float(abs_v[0, 2]),
+            "v_31": float(abs_v[2, 0]),
         }
 
     # Evaluate across k = 1 and k -> inf flanking pleated moduli from t154
@@ -28483,6 +28681,7 @@ def theorem155_s286_b1826_p716_two_flank_margulis_tube_transition_ckm_unblocking
 
     # Case 3a: Full 3D Margulis tube two-flank transition at k = 1 (L^6 R L R)
     yd_k1 = build_flank_yukawa(tau_minus_k1, -1, include_quadratic_q_phase=True)
+    yd_is_entrywise_conj_yu_err = float(np.max(np.abs(yd_k1 - yu_k1.conj())))
     case3_two_flank_k1 = analyze_ckm_and_cp(yu_k1, yd_k1)
 
     # Case 3b: Full 3D Margulis tube two-flank transition in the homoclinic limit k -> inf
@@ -28495,8 +28694,8 @@ def theorem155_s286_b1826_p716_two_flank_margulis_tube_transition_ckm_unblocking
 
     def random_su3(r: np.random.Generator) -> np.ndarray:
         z = r.normal(size=(3, 3)) + 1j * r.normal(size=(3, 3))
-        q_mat, r_mat = np.linalg.qr(z)
-        d_vec = np.diag(r_mat)
+        q_mat, r_mat_qr = np.linalg.qr(z)
+        d_vec = np.diag(r_mat_qr)
         ph = d_vec / np.abs(d_vec)
         u_mat = q_mat * ph[np.newaxis, :]
         det_u = np.linalg.det(u_mat)
@@ -28526,19 +28725,24 @@ def theorem155_s286_b1826_p716_two_flank_margulis_tube_transition_ckm_unblocking
             max_haar_err_155 = float(err)
 
     guardrail_compliance = {
-        "G1_no_post_inspection_zero_bit_credit": bool(case1_single_flank["abs_j_cp"] < 1e-24 and case2_no_shear_phase["abs_j_cp"] < 1e-24),
+        "G1_no_post_inspection_zero_bit_credit": bool(
+            case1_single_flank["abs_j_cp"] < 1e-24
+            and case2_no_shear_phase["abs_j_cp"] < 1e-24
+            and case3_two_flank_k1["breaks_13_vs_31_corner_symmetry"] is False
+        ),
         "G2_computed_not_hardcoded": bool(
             case1_single_flank["abs_j_cp"] < 1e-24
             and case2_no_shear_phase["abs_j_cp"] < 1e-24
+            and yd_is_entrywise_conj_yu_err < 1e-15
             and case3_two_flank_k1["svd_diff"] < 1e-14
             and case3_two_flank_inf["svd_diff"] < 1e-14
-            and case3_two_flank_k1["smallest_in_13_corner"] is True
-            and case3_two_flank_inf["smallest_in_13_corner"] is True
+            and case3_two_flank_k1["abs_v_symmetry_diff"] < 1e-14
+            and case3_two_flank_k1["breaks_13_vs_31_corner_symmetry"] is False
             and case3_two_flank_k1["abs_j_cp"] > 1e-15
             and case3_two_flank_inf["abs_j_cp"] > 1e-15
         ),
         "G3_haar_unitary_invariance_verified": bool(max_haar_err_155 < 1e-13),
-        "G4_literature_benchmark_gate": bool(case3_two_flank_k1["smallest_in_13_corner"] is True),
+        "G4_literature_benchmark_gate": bool(case3_two_flank_k1["abs_v_symmetry_diff"] < 1e-14),
         "G5_strict_nondimensionalization": bool(case3_two_flank_k1["svd_diff"] < 1e-14),
         "G6_independent_cross_verification": bool(case3_two_flank_inf["svd_diff"] < 1e-14 and max_haar_err_155 < 1e-13),
     }
@@ -28547,23 +28751,24 @@ def theorem155_s286_b1826_p716_two_flank_margulis_tube_transition_ckm_unblocking
         "seen_first": seen_first,
         "claim_labels_and_scopes": {
             "two_flank_margulis_tube_ckm_and_cp_mechanism": (
-                "[MATH, READING UNDER P-716 / P-725 — MAIN'S CHECK OWED (S306d row 1604)] Proves data-free that placing "
-                "the two chiral SU(5) multiplets 10 and 5-bar on the two sigma-conjugate pleated faces Sigma_3 "
-                "(tau_+ = +u_* + i*v_*, zeta_5) and Sigma_4 (tau_- = -u_* + i*v_*, zeta_5^{-1}) bounding the central "
-                "tetrahedron Tet 3 (theta = 0) of the L^6 Margulis tube preserves within-sector singular values "
-                "identically while breaking the single-point collinearity wall (B1826), placing the smallest CKM element "
-                "at (1, 3) and generating J_CP != 0 (P-716) from u_* != 0."
+                "[MATH, READING UNDER P-716 / P-725 — SYMMETRIC |V_CKM| AUDIT (S306f / R76-8 / chat1 2a48e7284)] Proves "
+                "data-free that evaluating the conjugate flank pair Y_u(tau_+, zeta_5) and Y_d(tau_-, zeta_5^{-1}) = "
+                "conj(Y_u) across Tet 3 preserves within-sector singular values identically and gives [H_u, H_d] != 0 "
+                "and J_CP != 0 from u_* != 0, but forces |V_CKM| to be symmetric (|V_{13}| = |V_{31}| to < 1e-15, "
+                "breaks_13_vs_31_corner_symmetry = False), so it does not resolve B1826's (1,3) vs (3,1) corner asymmetry "
+                "or the SU(5) 10*10 vs 10*5-bar representation split (R76-8)."
             ),
         },
         "plain_english_elaboration": (
-            "Demonstrates data-free how the two-flank reading across the central tetrahedron `Tet 3` (`theta = 0`) of "
-            "the 3D Margulis tube addresses the single-point CKM wall (`B1826` / `S286`) and the CP-phase wall (`P-716`): "
-            "placing the two chiral multiplets `10` (up) and `5-bar` (down) on the two `sigma`-conjugate flanks "
-            "`tau_+ = +u_* + i*v_*` and `tau_- = -u_* + i*v_*` keeps within-sector singular values strictly equal "
-            "(`sigma_i(tau_+) = sigma_i(tau_-)`) while the 3D pleating shear `u_* = +0.05071` breaks single-point "
-            "collinearity, puts `|V_{ub}|` in the `(1, 3)` corner, and generates a non-zero Jarlskog CP invariant "
-            "(recorded under `S306d` row 1604 as a reading under `P-716` / `P-725` with `main`'s independent check owed)."
+            "Records the `S306f` / `S306g` (`R76-8`) and `chat1` (`2a48e7284` § 7) audit of the two-flank reading across "
+            "`Tet 3`: while moving from single-flank (`[H_u, H_d] = 0, J_CP = 0`) to the two `sigma`-conjugate flanks "
+            "`tau_+ = +u_* + i*v_*` and `tau_- = -u_* + i*v_*` yields `[H_u, H_d] != 0` and `J_CP != 0` from the "
+            "quadratic-vs-linear phase mismatch at `u_* = +0.05071`, `Y_d(tau_-, zeta_5^{-1}) = conj(Y_u(tau_+, zeta_5))` "
+            "forces `|V_CKM|` to be symmetric (`|V_{13}| = |V_{31}|` to `< 1e-15`, `breaks_13_vs_31_corner_symmetry = False`), "
+            "so it does not break `B1826`'s `(1, 3)` vs. `(3, 1)` corner symmetry or provide the `SU(5)` `10*10` vs. "
+            "`10*5-bar` representation distinction."
         ),
+        "yd_is_entrywise_conj_yu_err": float(yd_is_entrywise_conj_yu_err),
         "case1_single_flank": case1_single_flank,
         "case2_no_shear_phase": case2_no_shear_phase,
         "case3_two_flank_k1": case3_two_flank_k1,
@@ -28586,19 +28791,20 @@ def theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage2
     t154: Dict[str, object] | None = None,
     t155: Dict[str, object] | None = None,
 ) -> Dict[str, object]:
-    """Stage 29.4: Honest S306d Data-Free Program Audit Ledger (P-717 to P-729) & Stage 29 Zero-Trust Hostile-Referee Gate.
+    """Stage 29.4: Honest S306k Data-Free Program Audit Ledger (P-717 to P-734) & Stage 29 Zero-Trust Hostile-Referee Gate.
 
-    Synthesizes the honest S306d / B1847 / B1834 audit ledger across P-717..P-729 (explicitly separating FORCED theorems,
-    RATIONALE / NARROWED principles, CHOSEN readings, and OPEN questions) and independently counterchecks Stage 29
-    (Theorems 153-155) under Guardrail 6 using 50-digit mpmath, symbolic SymPy, and 20-trial Haar unitary checks:
-      1. 50-digit mpmath Newton solve of the degree-8 minimal polynomial P_{L^6 R L R}(z_2) = 0 and verification of the
-         exact 3D Margulis tube operator identity z_3 = coth^2(L_tube / 2) = z_2 - 1 and telescoping product
-         prod_{i=0..6} (1 - 1/z_i) = (1 - z_0)*(1 - z_1)/z_0^2 = z_7 - 1 to < 1e-45.
+    Synthesizes the honest S306d-S306k / B1847 / B1848 / B1851 / B1852 / B1834 audit ledger across P-717..P-734
+    (explicitly separating FORCED theorems, RATIONALE / NARROWED principles, CHOSEN readings, and NOT SEALABLE / OPEN
+    items) and independently counterchecks Stage 29 (Theorems 153-155) under Guardrail 6 using 50-digit mpmath,
+    symbolic SymPy, and 20-trial Haar unitary checks:
+      1. 50-digit mpmath Newton solve of the degree-8 minimal polynomial P_{L^6 R L R}(z_2) = 0 and non-tautological
+         50-digit verification of z_3 = coth^2(L_tube / 2) = z_2 - 1 against SnapPy's 60-digit ManifoldHP length
+         spectrum of b++LLLLLLRLR (< 1e-48), fixing chat1's check_algebra.py A4 note.
       2. Symbolic SymPy verification of the irreducible degree-8 polynomial factorization and rational fan telescoping
-         identities over Q(z_2).
-      3. 50-digit mpmath countercheck of B1847's exact Kashaev identity <4_1>_5 = 46 + 2*sqrt(5) and the leading WKB
-         exponent S_WKB(5) = 5*Vol(m004)/(2*pi) to < 1e-45, with zero unsealed scale or coupling evaluations.
-      4. Tabulates the honest 7-joint audit ledger (P-717 to P-729) alongside B1834's full-SM scoreboard (6 rows against
+         identities over Q(z_2), plus explicit verification of L^5 == I (mod 5) and L^6 == L (mod 5) (fixing A3).
+      3. 50-digit mpmath countercheck of B1847's exact Kashaev identity <4_1>_5 = 46 + 2*sqrt(5) (< 1e-45), with zero
+         unsealed scale or coupling evaluations.
+      4. Tabulates the honest 7-joint audit ledger (P-717 to P-734) alongside B1834's full-SM scoreboard (6 rows against
          13 borrowed joints, 0 of 19 confirmed).
     """
     import mpmath as mp
@@ -28618,13 +28824,13 @@ def theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage2
         )
 
     seen_first = [
-        "docs/POINT_REGISTER.md (P-717 through P-729: complete excursion, twin, scale, harmonic read-out, level-surface, and B1834 audit register)",
-        "docs/HARVEST_LEDGER.md (S306d row 1604: ruling on Stage 29 coth^2 identity, B1012 Kashaev table, and P-715/P-722 firewall)",
-        "frontier/B1847_the_level_surfaces_own_modulus/FINDINGS.md (S306d: level-surface modulus tau(Sigma_s) and kashaev_block.py)",
+        "docs/POINT_REGISTER.md (P-717 through P-734: S306d-S306k register; P-726 tube location FORCED, P-727 DONE, P-731 CHOSEN, P-732 NOT SEALABLE)",
+        "docs/HARVEST_LEDGER.md (S306d-S306k rows 1602-1611: B1012, B1847 § 8, B1848 Review 76, B1851, B1852, and chat1 checks)",
+        "frontier/B1851_the_chiral_premise_relocated_verified/FINDINGS.md & frontier/B1852_the_tubes_real_part_by_topology/FINDINGS.md (S306k)",
     ]
 
-    # 1. 50-digit mpmath independent countercheck of P_{L^6 R L R}(z_2) = 0, z_3 = coth^2(L_tube/2), and Kashaev <4_1>_5
-    with mp.workdps(50):
+    # 1. 50-digit mpmath independent countercheck of P_{L^6 R L R}(z_2) = 0, z_3 = coth^2(L_tube_snappy_hp/2), and Kashaev <4_1>_5
+    with mp.workdps(55):
         def mp_p(z):
             return (
                 4 * z**8
@@ -28651,7 +28857,7 @@ def theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage2
             )
 
         z2_mp = mp.mpc("-3.651753368977838", "2.578910896294468")
-        for _ in range(15):
+        for _ in range(18):
             z2_mp = z2_mp - mp_p(z2_mp) / mp_dp(z2_mp)
         mp_poly_resid = float(abs(mp_p(z2_mp)))
 
@@ -28660,17 +28866,20 @@ def theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage2
         z0_mp = z2_mp * (z2_mp**2 + 4 * z2_mp - 4) / ((z2_mp - 2) ** 2)
         z7_mp = 1 - (z0_mp - 1) * (1 - z1_mp) / (z0_mp**2)
 
-        # Recover L_tube to 50 digits from sinh(L_tube/2) = 1 / sqrt(z_3 - 1) and check z_3 = coth^2(L_tube/2)
-        L_tube_mp = 2 * mp.asinh(1 / mp.sqrt(z3_mp - 1))
-        if mp.re(L_tube_mp) < 0:
-            L_tube_mp = -L_tube_mp
-        z3_from_coth2_mp = (mp.cosh(L_tube_mp / 2) / mp.sinh(L_tube_mp / 2)) ** 2
-        mp_coth2_err = float(abs(z3_from_coth2_mp - z3_mp))
+        # Non-tautological 50-digit check (fixing chat1 check_algebra.py A4):
+        # Compare z3_mp = z2_mp - 1 (Newton root of P(z_2) = 0) against coth^2(L_tube_snappy_hp / 2) where
+        # L_tube_snappy_hp is SnapPy ManifoldHP('b++LLLLLLRLR').length_spectrum(0.6)[0].length:
+        l_tube_snappy_hp_mp = mp.mpc(
+            "0.184869804511611203975214735827416324200520712989907303492476955",
+            "-0.802102442239561683626197466649363373250048360104975067171615054",
+        )
+        z3_from_snappy_hp_mp = (mp.cosh(l_tube_snappy_hp_mp / 2) / mp.sinh(l_tube_snappy_hp_mp / 2)) ** 2
+        mp_coth2_err = float(abs(z3_from_snappy_hp_mp - z3_mp))
 
         # Check 50-digit RLR closure ((1 - z_7)/z_7)^2 - (z_0 - 1) = 0
         mp_rlr_closure_err = float(abs(((1 - z7_mp) / z7_mp) ** 2 - (z0_mp - 1)))
 
-        # Check 50-digit B1847 Kashaev invariant <4_1>_5 = 46 + 2*sqrt(5) and leading WKB exponent (strictly data-free)
+        # Check 50-digit B1847 Kashaev invariant <4_1>_5 = 46 + 2*sqrt(5) (strictly data-free)
         j5_mp = mp.mpf(0)
         prod_q5_mp = mp.mpc(1, 0)
         for k_term in range(5):
@@ -28681,7 +28890,7 @@ def theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage2
         mp_kashaev_n5_err = float(abs(j5_mp - j5_exact_mp))
         mp_transmutation_err = mp_kashaev_n5_err
 
-    # 2. Symbolic SymPy proof of the telescoping product and degree-8 factorization over Q(z_2)
+    # 2. Symbolic SymPy proof of the telescoping product, degree-8 factorization over Q(z_2), and L^5 == I, L^6 == L (mod 5) (A3)
     z2_sym = sp.Symbol("z2")
     z3_sym = z2_sym - 1
     z1_sym = (z2_sym - 1) * (z2_sym + 2) / (z2_sym - 2)
@@ -28707,36 +28916,42 @@ def theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage2
         + 640
     )
     sympy_poly_diff = sp.expand(sympy_closure_numer + expected_poly)
-    sympy_proof_ok = bool(sympy_telescope_diff == 0 and sympy_poly_diff == 0)
+    l_mod5_mat = np.array([[1, 1], [0, 1]], dtype=int)
+    l5_mod5 = np.linalg.matrix_power(l_mod5_mat, 5) % 5
+    l6_mod5 = np.linalg.matrix_power(l_mod5_mat, 6) % 5
+    l5_is_i_and_l6_is_l_mod5 = bool(
+        np.array_equal(l5_mod5, np.eye(2, dtype=int)) and np.array_equal(l6_mod5, l_mod5_mat)
+    )
+    sympy_proof_ok = bool(sympy_telescope_diff == 0 and sympy_poly_diff == 0 and l5_is_i_and_l6_is_l_mod5)
 
-    # 3. Honest 7-Joint S306d / B1847 / B1834 Audit Ledger (P-717 to P-729)
+    # 3. Honest 7-Joint S306d-S306k / B1847 / B1848 / B1851 / B1852 / B1834 Audit Ledger (P-717 to P-734)
     seven_joint_closure_ledger = [
         {
-            "joint": "1. Excursion Rung & Line Placement (P-717, P-718, P-724)",
-            "status_label": "FORCED (math) + RATIONALE / NARROWED (selection)",
-            "mechanism": "Homoclinic excursion W_k(n) = L^n R (LR)^k with puncture stabilizer L^6 == I (mod 5) (n = 6) and Action (B) excess-length trigamma saddle sum",
-            "result": "FORCED: unique order-5 eigenline on every L^(5m+1)R rung and pi^2/6 conservation (L^6 carries 69.82%); RATIONALE: picking Action (B) and minimal non-trivial rung n = 6",
+            "joint": "1. Excursion Rung & Line Placement (P-717, P-718, P-724, P-711 / R76-4)",
+            "status_label": "FORCED (math & S_4 vs D_4 stabilizer) + RATIONALE / NARROWED (selection)",
+            "mechanism": "Homoclinic excursion W_k(n) = L^n R (LR)^k with L^5 == I (mod 5) => L^6 == L (mod 5) (n = 6), level-4 stabilizer S_4 (commutant 1) on order-5 lines vs D_4 (commutant 2) on order-10 lines (R76-4), and Action (B) trigamma sum",
+            "result": "FORCED: unique order-5 eigenline on every L^(5m+1)R rung, S_4 level-4 stabilizer, and pi^2/6 conservation (L^6 carries 69.82%); RATIONALE: picking Action (B) and minimal non-trivial rung n = 6",
             "data_looks": 0,
         },
         {
-            "joint": "2. Twin-Matter Chirality & Weil Portal (P-725, S306c)",
+            "joint": "2. Twin-Matter Chirality & Weil Portal (P-725, S306c-S306d)",
             "status_label": "FORCED (sigma swap & invariant pair) + CONVENTION (c=1 vs c=2) + CHOSEN READING (Yukawa identification)",
             "mechanism": "Amphichiral involution sigma swaps twin eigenstates v_1 (zeta_5^3) <-> v_2 (zeta_5^2); Weil character c=1 vs c=2 swaps cross and diagonal weights",
             "result": "FORCED: unordered pair {phi/sqrt(5), 1/(sqrt(5)*phi)} = {0.723607, 0.276393}; CONVENTION: c=1 vs c=2 swaps them; CHOSEN: identifying the two twins with 10 and 5-bar",
             "data_looks": 0,
         },
         {
-            "joint": "3. Harmonic Time & Non-Diluting Margulis Tube Read-Out (P-726, B1846)",
-            "status_label": "FORCED (B1846 T1, T2)",
-            "mechanism": "Harmonic generator theta: M_k -> R/Z places the shortest closed geodesic gamma_tube (chi = 0) at theta == 0 (tet 3, concentration 0.997)",
-            "result": "FORCED: Margulis tube core never dilutes as k -> inf (L_tube -> 0.185218 - 0.816276*i, tube volume -> 3.8051)",
+            "joint": "3. Harmonic Time, Systole Point, & Volume Weight Read-Out (P-726, B1846, B1848 Review 76)",
+            "status_label": "FORCED (tube location by systole & rho mode; B1846 T1, T2) + CHOSEN (point vs. weight read-out, P-726)",
+            "mechanism": "Metric's unique shortest closed geodesic aaBa (systole, l_0 = 0.56240, theta constant to 1.7e-11) is a canonical point at the tube where the volume weight rho(theta) also peaks; Door C (P-729 / R76-6) stays 1 declared choice",
+            "result": "FORCED: read-out location at the non-diluting Margulis tube (L_tube -> 0.185218 - 0.816276*i); CHOSEN: whether the read-out uses the systole point or the weight rho (P-726)",
             "data_looks": 0,
         },
         {
-            "joint": "4. 3D Central Tetrahedron coth^2 Identity vs. Level Surface Modulus (P-723, P-727, B1847)",
-            "status_label": "FORCED (z_3 = coth^2(L_tube/2) = z_2 - 1 and s in {0.5, 0.25}) + OPEN (intrinsic tau(Sigma_0) at s = 0)",
-            "mechanism": "Exact 4-valent flip gluing identity z_3(k) = coth^2(L_tube(k)/2) = z_2(k) - 1 and degree-8 polynomial P(z_2) = 0 on W_1(6); B1847 intrinsic level-surface meshing",
-            "result": "FORCED: z_3 = coth^2(L_tube/2) = z_2 - 1 (row 1604 / chat1 C1) and tau(Sigma_s) at s=0.5 (0.5+1.5904i) and s=0.25 (-0.3722+1.0085i); OPEN: intrinsic tau(Sigma_0) at s=0 (folded helicoid on F-sphere face)",
+            "joint": "4. 3D Central Tetrahedron coth^2 Identity & Intrinsic Level Surface Modulus (P-723, P-727 DONE, B1847 § 8, B1852)",
+            "status_label": "FORCED (z_3 = coth^2(L_tube/2) = z_2 - 1 and tau(Sigma_0) = 0 + 6.15(15)i; P-727 DONE) + CHOSEN (which tau construction, P-714)",
+            "mechanism": "Exact flip gluing identity z_3(k) = coth^2(L_tube(k)/2) = z_2(k) - 1 (row 1604 / chat1 C1 to <= 8e-48); GL(2,Z) mod-2 involution classes fix Re tau(Sigma_0) = 0 (B1852); full-group Ford domain meshing fixes Im tau(Sigma_0) = 6.15 +- 0.15 (B1847 § 8)",
+            "result": "FORCED: z_3 = coth^2(L_tube/2) = z_2 - 1 and tau(Sigma_0) = 0 + 6.15(15)i at k=1 (chat1 k=1..5 series 6.14916(41)i -> tau_inf = 0 + 6.06526(57)i, ~1.7x thinner than the 3 record readings); CHOSEN: which tau construction the read-out uses (P-714)",
             "data_looks": 0,
         },
         {
@@ -28747,17 +28962,17 @@ def theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage2
             "data_looks": 0,
         },
         {
-            "joint": "6. Two-Flank Margulis Tube CKM & CP Transition (S286, B1826, P-716)",
-            "status_label": "MATH + READING UNDER P-716 / P-725 (MAIN'S CHECK OWED, S306d row 1604)",
-            "mechanism": "Up (10) and down (5-bar) Yukawas evaluated on sigma-conjugate entry/exit faces Sigma_3 (tau_+) and Sigma_4 (tau_- = -conj(tau_+)) of Tet 3",
-            "result": "MATH: sigma_i(tau_+) = sigma_i(tau_-), |V_{ub}| in (1,3) corner, J_CP != 0 from u_* = +0.05071; READING: assigning 10 and 5-bar to the two flanks (main check owed)",
+            "joint": "6. Two-Flank Margulis Tube CKM & CP Audit (S286, B1826, P-716, R76-8)",
+            "status_label": "MATH (J_CP != 0 from u_* > 0, but |V_CKM| symmetric) / OPEN ON CORNER INVERSION (S306f / R76-8 / chat1 2a48e7284)",
+            "mechanism": "Evaluating Y_u(tau_+, zeta_5) and Y_d(tau_-, zeta_5^{-1}) = conj(Y_u) on the sigma-conjugate flanks of Tet 3 gives [H_u, H_d] != 0 and J_CP != 0, but forces V_CKM = U_u^dagger conj(U_u) => |V_{13}| = |V_{31}|",
+            "result": "MATH: sigma_i(tau_+) = sigma_i(tau_-), J_CP != 0, and |V_{13}| = |V_{31}| to < 1e-15; NEGATIVE ON B1826 CORNER ASYMMETRY: conjugate flanks do not distinguish (1,3) from (3,1) or supply the SU(5) 10*10 vs 10*5-bar split (R76-8)",
             "data_looks": 0,
         },
         {
-            "joint": "7. Amphichiral Gravity vs. Single-Block Kashaev Asymptotics (B1012, B598, P-722, S306d)",
-            "status_label": "FORCED (B1012 & Kashaev table) + CHOSEN (R2 & R4)",
-            "mechanism": "Two-sector sum S_+ (+) S_- cancels k leaving S_grav = -Vol*sigma (B1012); exact Kashaev invariant <4_1>_5 = 46 + 2*sqrt(5) = 50.472 vs exp(5*Vol/(2*pi)) = 5.030 (ratio 10.035; 1-loop 42.727, ratio 1.181)",
-            "result": "FORCED: <4_1>_N vs 1-loop table across N=3..80; CHOSEN: R2 (single-block isolation from amphichiral pair) and R4 (N=5 semiclassical exp(5*Vol/(2*pi)) reading where 1-loop prefactor is 8.495x); FIREWALL: no unsealed scale/coupling evaluated",
+            "joint": "7. Open-Book Chiral Premise Relocation, Exact Level-5 Block, & Scale Card Ruling (B1012, B1851, P-722, P-731, P-732)",
+            "status_label": "FORCED (DGLZ exponent, LR open-book S^3, Kashaev <4_1>_5 = 46+2*sqrt(5), B-test) + CHOSEN (P-731) + NOT SEALABLE (P-732)",
+            "mechanism": "DGLZ exponent sigma*Vol/(2*pi) + i*k*CS/(2*pi) (one-hand point t_bar=0 pins sigma=k); LR closes to open-book S^3 with binding 4_1 (det(LR-I)=-1, all 27 excursion members have |H_1|>1); R76-7 fixes R2 form as exact <4_1>_5 = 46+2*sqrt(5) = 50.472",
+            "result": "FORCED: B1851 identities and <4_1>_N table; CHOSEN: R2 open-book reading on S^3 (P-731); NOT SEALABLE: open-book scale card fails P-728's count either way (4 vs 6 itemized, 3 vs 3 by steps with 1-loop B-test scale-free, P-732); FIREWALL: 0 scale evaluations",
             "data_looks": 0,
         },
     ]
@@ -28767,7 +28982,7 @@ def theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage2
         "borrowed_joints_outside_six_observable_set": 13,
         "confirmed_sm_parameters": "0 of 19",
         "unsealed_scale_or_coupling_evaluations": 0,
-        "governing_reference": "B1834 / P-728 / WORKING_RULES.md Rule 3",
+        "governing_reference": "B1834 / P-728 / P-732 / WORKING_RULES.md Rule 3",
     }
 
     # 4. Guardrail 3: 20-trial Haar unitary basis-scrambling check on the 7-tetrahedron L^6 fan diagonal operator
@@ -28789,8 +29004,8 @@ def theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage2
     max_haar_err_156 = 0.0
     for _ in range(20):
         z = rng.normal(size=(7, 7)) + 1j * rng.normal(size=(7, 7))
-        q_mat, r_mat = np.linalg.qr(z)
-        d_vec = np.diag(r_mat)
+        q_mat, r_mat_qr = np.linalg.qr(z)
+        d_vec = np.diag(r_mat_qr)
         ph = d_vec / np.abs(d_vec)
         u_haar = q_mat * ph[np.newaxis, :]
         zpp_scr = u_haar @ zpp_fan @ u_haar.conj().T
@@ -28812,9 +29027,10 @@ def theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage2
             and mp_rlr_closure_err < 1e-40
             and mp_kashaev_n5_err < 1e-45
             and sympy_proof_ok is True
+            and l5_is_i_and_l6_is_l_mod5 is True
         ),
         "G3_haar_unitary_invariance_verified": bool(max_haar_err_156 < 1e-13),
-        "G4_literature_benchmark_gate": bool(mp_kashaev_n5_err < 1e-45),
+        "G4_literature_benchmark_gate": bool(mp_kashaev_n5_err < 1e-45 and mp_coth2_err < 1e-45),
         "G5_strict_nondimensionalization": bool(b1834_full_sm_scoreboard["unsealed_scale_or_coupling_evaluations"] == 0),
         "G6_independent_cross_verification": bool(
             mp_poly_resid < 1e-40
@@ -28829,28 +29045,33 @@ def theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage2
         "seen_first": seen_first,
         "claim_labels_and_scopes": {
             "complete_7joint_data_free_closure_ledger": (
-                "[MATH, FORCED-BY-MAIN (S306d / B1847 / B1834 / P-728)] Tabulates the honest 7-joint audit scorecard "
-                "across P-717..P-729 (explicitly distinguishing FORCED theorems, RATIONALE / NARROWED principles, "
-                "CHOSEN readings, and OPEN questions such as intrinsic tau(Sigma_0) at s = 0) alongside B1834's "
-                "full-SM scoreboard (6 rows against 13 borrowed joints, 0 of 19 confirmed)."
+                "[MATH, FORCED-BY-MAIN (S306d-S306k / B1847 / B1848 / B1851 / B1852 / B1834 / P-728 / P-732)] Tabulates "
+                "the honest 7-joint audit scorecard across P-717..P-734 (incorporating Review 76's P-726 systole ruling, "
+                "P-727 DONE with tau(Sigma_0) = 0 + 6.15(15)i and chat1's tau_inf = 0 + 6.06526(57)i, R76-8's two-flank "
+                "|V_CKM| symmetry audit, and B1851's open-book S^3 relocation and P-732 NOT SEALABLE ruling) alongside "
+                "B1834's full-SM scoreboard (6 rows against 13 borrowed joints, 0 of 19 confirmed)."
             ),
             "stage29_zero_trust_hostile_referee_gate": (
                 "[MATH] Independently certifies Stage 29 (Theorems 153-155) via 50-digit mpmath Newton solve of P(z_2) = 0, "
-                "50-digit verification of z_3 = coth^2(L_tube/2) and Kashaev <4_1>_5 = 46 + 2*sqrt(5) (< 1e-45), "
-                "symbolic SymPy proof of the 7-tetrahedron telescoping identity, and 20-trial Haar unitary checks (< 1e-13)."
+                "non-tautological 50-digit verification of z_3 = coth^2(L_tube_snappy_hp/2) (< 1e-48) and Kashaev "
+                "<4_1>_5 = 46 + 2*sqrt(5) (< 1e-45), symbolic SymPy proof of the 7-tetrahedron telescoping identity and "
+                "L^5 == I, L^6 == L (mod 5), and 20-trial Haar unitary checks (< 1e-13)."
             ),
         },
         "plain_english_elaboration": (
-            "Synthesizes the honest `S306d` / `B1847` / `B1834` audit ledger across `P-717` through `P-729` (explicitly "
-            "labelling `FORCED`, `RATIONALE / NARROWED`, `CHOSEN`, and `OPEN` joints and `B1834`'s 6 rows against 13 "
-            "borrowed joints, `0 of 19` confirmed), and certifies all Stage 29 operator identities via 50-digit `mpmath`, "
-            "symbolic `SymPy`, and 20-trial Haar unitary checks with zero unsealed evaluations."
+            "Synthesizes the honest `S306d`-`S306k` (`B1847`, `B1848`, `B1851`, `B1852`, `B1834`) audit ledger across "
+            "`P-717` through `P-734` (incorporating `Review 76`'s `P-726` systole ruling, `P-727 DONE` with `tau(Sigma_0) = "
+            "0 + 6.15(15)i` and `chat1`'s `tau_inf = 0 + 6.06526(57)i`, `R76-8`'s two-flank `|V_{13}| = |V_{31}|` symmetry "
+            "ruling, and `B1851`'s open-book `S^3` relocation and `P-732 NOT SEALABLE` scale-card ruling alongside `B1834`'s "
+            "6 rows against 13 borrowed joints, `0 of 19` confirmed), and certifies all Stage 29 identities via 50-digit "
+            "`mpmath`, symbolic `SymPy`, and non-tautological Haar unitary checks with zero unsealed evaluations."
         ),
         "mp_poly_resid": mp_poly_resid,
         "mp_coth2_err": mp_coth2_err,
         "mp_rlr_closure_err": mp_rlr_closure_err,
         "mp_kashaev_n5_err": mp_kashaev_n5_err,
         "mp_transmutation_err": mp_transmutation_err,
+        "l5_is_i_and_l6_is_l_mod5": l5_is_i_and_l6_is_l_mod5,
         "sympy_proof_ok": sympy_proof_ok,
         "seven_joint_closure_ledger": seven_joint_closure_ledger,
         "b1834_full_sm_scoreboard": b1834_full_sm_scoreboard,

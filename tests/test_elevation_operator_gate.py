@@ -2970,13 +2970,20 @@ def test_five_phase_master_toe_closure():
     assert t152["zero_held_out_values_computed"] is True
     assert t152["all_six_guardrails_passed"] is True
 
-    # Theorem 153 (Stage 29.1): B1012 vs B598 Amphichiral Sector Split & Kashaev 1-Loop Ruling (S306d)
+    # Theorem 153 (Stage 29.1): B1012 / B1851 Open-Book Chiral Premise Relocation & Exact Level-5 Kashaev Block (S306d-S306k)
     t153 = sc["theorem153_p722_p725_b1012_vs_b598_amphichiral_sector_split_and_instanton_transmutation"]
     assert "docs/POINT_REGISTER.md" in t153["seen_first"][0]
     assert "FORCED" in t153["claim_labels_and_scopes"]["b1012_vs_b598_amphichiral_sector_split"]
-    assert "CHOSEN" in t153["claim_labels_and_scopes"]["kashaev_level5_vs_leading_exponential_r2_chosen"]
+    assert "NOT SEALABLE" in t153["claim_labels_and_scopes"]["kashaev_level5_vs_leading_exponential_r2_chosen"]
     assert "plain_english_elaboration" in t153
     assert float(t153["max_b1012_err"]) < 1e-14
+    assert float(t153["b1851_open_book_and_dglz_checks"]["max_dglz_exponent_err"]) < 1e-14
+    assert float(t153["b1851_open_book_and_dglz_checks"]["min_chiral_k_dependence_when_cs_nonzero"]) > 0.1
+    assert t153["b1851_open_book_and_dglz_checks"]["opposite_hand_conjugation_s_l_sinv_eq_rinv"] is True
+    assert int(t153["b1851_open_book_and_dglz_checks"]["det_lr_minus_i"]) == -1
+    assert t153["b1851_open_book_and_dglz_checks"]["only_lr_rl_have_trace3"] is True
+    assert t153["b1851_open_book_and_dglz_checks"]["excursion_open_books_non_sphere"] is True
+    assert float(t153["b1851_open_book_and_dglz_checks"]["max_b_test_scale_err"]) < 1e-14
     assert int(t153["n_order"]) == 5
     assert float(t153["err_wkb_hbar"]) < 1e-14
     assert float(t153["err_kashaev_n5_algebraic"]) < 1e-25
@@ -2987,18 +2994,18 @@ def test_five_phase_master_toe_closure():
     assert abs(float(t153["ratio_exact_to_full_n5"]) - 1.18126735) < 1e-5
     assert len(t153["kashaev_table"]) == 6
     assert "CHOSEN" in t153["r2_status"]
-    assert "CHOSEN" in t153["r4_status"]
+    assert "NOT SEALABLE" in t153["r4_status"]
     assert float(t153["max_haar_err_153"]) < 1e-13
     assert t153["zero_unsealed_scale_values_computed"] is True
     assert t153["zero_six_values_evaluated_at_tau_star"] is True
     assert t153["zero_held_out_values_computed"] is True
     assert t153["all_six_guardrails_passed"] is True
 
-    # Theorem 154 (Stage 29.2): Margulis Tube z_3 = coth^2(L_tube/2) Identity, Level Surface Modulus, & Cusp Collar
+    # Theorem 154 (Stage 29.2): Margulis Tube z_3 = coth^2(L_tube/2) Identity, Level Surface Modulus (P-727 DONE), & Cusp Collar
     t154 = sc["theorem154_p726_p727_b1846_margulis_tube_coth2_identity_level_surface_modulus_and_cusp_collar"]
     assert "frontier/B1846_the_metrics_read_out/FINDINGS.md" in t154["seen_first"][0]
     assert "FORCED-BY-MAIN" in t154["claim_labels_and_scopes"]["margulis_tube_coth2_operator_identity"]
-    assert "FORCED-BY-MAIN" in t154["claim_labels_and_scopes"]["p726_p727_non_diluting_tube_and_level_surface_bridge"]
+    assert "P-727 DONE" in t154["claim_labels_and_scopes"]["p726_p727_non_diluting_tube_and_level_surface_bridge"]
     assert "plain_english_elaboration" in t154
     assert float(t154["poly_resid_k1"]) < 1e-11
     assert float(t154["max_gluing_err_k1"]) < 1e-12
@@ -3011,7 +3018,11 @@ def test_five_phase_master_toe_closure():
     assert t154["chat1_c1_to_c5_checks"]["c3_re_z2_div_sqrt2_equals_im_z2_pass"] is False
     assert t154["chat1_c1_to_c5_checks"]["c4_re_z2_equals_sqrt_40_3_pass"] is False
     assert t154["chat1_c1_to_c5_checks"]["c5_equal_35_26deg_shadows_pass"] is False
-    assert "OPEN" in t154["b1847_level_surface_modulus_readings"]["exc_s0_tube_slice"]["status"]
+    assert t154["b1852_re_tau_zero_topological_proof_ok"] is True
+    assert "DONE" in t154["b1847_level_surface_modulus_readings"]["exc_s0_tube_slice"]["status"]
+    assert abs(float(t154["b1847_level_surface_modulus_readings"]["exc_s0_tube_slice"]["im_b1847_sec8"]) - 6.15) < 1e-6
+    assert abs(float(t154["b1847_level_surface_modulus_readings"]["exc_s0_tube_slice"]["im_chat1_k_inf_aitken"]) - 6.065264) < 1e-6
+    assert abs(float(t154["four_readings_at_tube"]["reading1_teichmuller_1line_apex_im"]["k_inf"]) - 3.61803398875) < 1e-9
     assert len(t154["tube_progression_table"]) == 5
     assert float(t154["max_haar_err_154"]) < 1e-12
     assert t154["zero_unsealed_scale_values_computed"] is True
@@ -3019,17 +3030,19 @@ def test_five_phase_master_toe_closure():
     assert t154["zero_held_out_values_computed"] is True
     assert t154["all_six_guardrails_passed"] is True
 
-    # Theorem 155 (Stage 29.3): Two-Flank Margulis Tube Transition (S286 / B1826 / P-716)
+    # Theorem 155 (Stage 29.3): Two-Flank Margulis Tube Transition Audit (S306f / R76-8 / chat1 2a48e7284)
     t155 = sc["theorem155_s286_b1826_p716_two_flank_margulis_tube_transition_ckm_unblocking_and_cp_invariance"]
     assert "docs/POINT_REGISTER.md" in t155["seen_first"][0]
-    assert "READING UNDER P-716 / P-725" in t155["claim_labels_and_scopes"]["two_flank_margulis_tube_ckm_and_cp_mechanism"]
+    assert "SYMMETRIC |V_CKM| AUDIT" in t155["claim_labels_and_scopes"]["two_flank_margulis_tube_ckm_and_cp_mechanism"]
     assert "plain_english_elaboration" in t155
+    assert float(t155["yd_is_entrywise_conj_yu_err"]) < 1e-15
     assert float(t155["case1_single_flank"]["abs_j_cp"]) < 1e-24
     assert float(t155["case2_no_shear_phase"]["abs_j_cp"]) < 1e-24
     assert float(t155["case3_two_flank_k1"]["svd_diff"]) < 1e-14
     assert float(t155["case3_two_flank_inf"]["svd_diff"]) < 1e-14
-    assert t155["case3_two_flank_k1"]["smallest_in_13_corner"] is True
-    assert t155["case3_two_flank_inf"]["smallest_in_13_corner"] is True
+    assert float(t155["case3_two_flank_k1"]["abs_v_symmetry_diff"]) < 1e-14
+    assert t155["case3_two_flank_k1"]["breaks_13_vs_31_corner_symmetry"] is False
+    assert t155["case3_two_flank_inf"]["breaks_13_vs_31_corner_symmetry"] is False
     assert float(t155["case3_two_flank_k1"]["abs_j_cp"]) > 1e-15
     assert float(t155["case3_two_flank_inf"]["abs_j_cp"]) > 1e-15
     assert float(t155["max_haar_err_155"]) < 1e-13
@@ -3038,7 +3051,7 @@ def test_five_phase_master_toe_closure():
     assert t155["zero_held_out_values_computed"] is True
     assert t155["all_six_guardrails_passed"] is True
 
-    # Theorem 156 (Stage 29.4): Honest S306d Data-Free Program Audit Ledger & Stage 29 Referee Gate
+    # Theorem 156 (Stage 29.4): Honest S306k Data-Free Program Audit Ledger & Stage 29 Referee Gate
     t156 = sc["theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage29_referee_gate"]
     assert "docs/POINT_REGISTER.md" in t156["seen_first"][0]
     assert "FORCED-BY-MAIN" in t156["claim_labels_and_scopes"]["complete_7joint_data_free_closure_ledger"]
@@ -3049,10 +3062,11 @@ def test_five_phase_master_toe_closure():
     assert float(t156["mp_rlr_closure_err"]) < 1e-40
     assert float(t156["mp_kashaev_n5_err"]) < 1e-45
     assert float(t156["mp_transmutation_err"]) < 1e-45
+    assert t156["l5_is_i_and_l6_is_l_mod5"] is True
     assert t156["sympy_proof_ok"] is True
     assert len(t156["seven_joint_closure_ledger"]) == 7
     assert t156["b1834_full_sm_scoreboard"]["confirmed_sm_parameters"] == "0 of 19"
-    assert int(t156["b1834_full_sm_scoreboard"]["borrowed_joints_remaining"] if "borrowed_joints_remaining" in t156["b1834_full_sm_scoreboard"] else t156["b1834_full_sm_scoreboard"]["borrowed_joints_outside_six_observable_set"]) == 13
+    assert int(t156["b1834_full_sm_scoreboard"]["borrowed_joints_outside_six_observable_set"]) == 13
     assert float(t156["max_haar_err_156"]) < 1e-13
     assert t156["zero_unsealed_scale_values_computed"] is True
     assert t156["zero_six_values_evaluated_at_tau_star"] is True
