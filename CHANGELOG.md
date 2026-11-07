@@ -1,5 +1,16 @@
 # Changelog
 
+## S306k (continued) THE TUBE'S REAL PART, BY TOPOLOGY (B1852): THE METRIC'S OWN τ AT THE TUBE IS 0 + 6.15(15) i (2026-11-07)
+
+- **The owner:** 'continue'.
+- **The real number Review 76 owed.** σ's two fixed fibres on L⁶RLR carry orientation-reversing involutions of opposite GL(2, ℤ) class mod 2. This is exact: all 4 reversing involutions were checked.
+  - B1847's anti-apex sits at Re ½ to 7 × 10⁻⁷, so the tube is the other class, and its level surface has **Re τ = 0 exactly**.
+  - **The control:** m004, both levels at Re ½, as B1847 measured.
+- **So τ(Σ₀) = 0 + 6.15(15) i.** It differs from the Teichmüller apex (½ + 3.65i) in its real part as well as its height.
+- **A pattern, observed in four words, not proved:** even runs give the opposite-class pair.
+- A first draft's word-position assignment was withdrawn (disclosed). P-727 and P-714 noted.
+- 0 of 19.
+
 ## S306k THE SEATS FETCHED: THE CHIRAL PREMISE RELOCATED, VERIFIED; THE OPEN-BOOK SCALE CARD RULED NOT SEALABLE (B1851; rows 1609–1611) (2026-11-07)
 
 - **The owner:** 'fetch other seats and continue'.

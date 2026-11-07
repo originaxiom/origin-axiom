@@ -1,0 +1,25 @@
+{
+ "id": "B1852",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1846",
+  "B1847",
+  "B1845"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the cyclic-palindrome isometry sigma of a once-punctured-torus bundle and the conformal structure of its fixed fibres",
+  "object": "the excursion member L^6RLR (its tube's level surface), with m004 as the control and L^10RLR, L^5RLR computed",
+  "reach": "single",
+  "hypotheses": "data-free; exact brute force over det -1 involutions with entries up to 14; the tube identified as the Re-0 fibre by B1847's anti-apex numerics (Re 1/2 to 7e-7); B1846's normalisation of sigma's fixed levels"
+ },
+ "claim_one_line": "THE TUBE'S REAL PART, BY TOPOLOGY (the real number Review 76 owed): sigma's two fixed fibres carry orientation-reversing involutions whose GL(2,Z) class mod 2 decides the reduced Re tau (= I mod 2: Re 0; otherwise Re 1/2 or |tau| = 1); on L^6RLR the two fixed fibres are in opposite classes (exact), and B1847's anti-apex at Re 1/2 (7e-7) is the second, so the tube's level surface has Re tau = 0 exactly -- the metric's own tau at the tube is 0 + 6.15(15) i, differing from the Teichmuller apex (1/2 + 3.65i) in its real part as well as its height; m004 the control (both fixed levels at Re 1/2, as B1847 measured); the even-run pattern observed in four words, not proved. No coupling, scale or ratio; nothing compared with data. 0 of 19.",
+ "weave_or_thread": "thread (one member's own fibre at its tube)"
+}

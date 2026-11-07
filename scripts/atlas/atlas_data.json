@@ -15705,6 +15705,21 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1852": {
+   "slug": "the tubes real part by topology",
+   "motifs": [
+    "coupling",
+    "figure_eight",
+    "trace_map",
+    "golden",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "physics"
+  },
   "B185": {
    "slug": "constraint selection",
    "motifs": [

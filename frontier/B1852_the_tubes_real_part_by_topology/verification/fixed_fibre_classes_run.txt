@@ -1,0 +1,5 @@
+m004 (LR), the control         12 reversing involutions; both fixed fibres != I mod 2: both at Re tau = 1/2  [B1847: s = 0 at -0.5000, s = 1/2 at +0.5000 (both Re 1/2)]
+L^6RLR, the read-out member     4 reversing involutions; the two fixed fibres in opposite classes: one at Re tau = 0, the other at Re tau = 1/2  [B1847: s = 1/2 (anti-apex) Re 1/2 to 7e-7; s = 0 (tube) -0.016, -0.048]
+L^10RLR                         4 reversing involutions; the two fixed fibres in opposite classes: one at Re tau = 0, the other at Re tau = 1/2  [no level-surface numerics]
+L^5RLR (an odd run)             4 reversing involutions; both fixed fibres != I mod 2: both at Re tau = 1/2  [no level-surface numerics]
+=> L^6RLR: the anti-apex is the Re 1/2 fibre (B1847, 7e-7), so the tube's level surface has reduced Re tau = 0 exactly; with B1847's Im tau(Sigma_0) = 6.15 +- 0.15 the metric's own tau at the tube is 0 + 6.15(15) i

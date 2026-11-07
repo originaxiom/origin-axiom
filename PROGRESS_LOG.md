@@ -18684,3 +18684,11 @@ the object as the figure-eight knot inside the ordinary three-sphere, and that t
 closing. Counted honestly, though, the proposed prediction card makes no more predictions than it has choices, so it
 cannot yet prove anything. The agreement stands to derive first and seal later. 0 of 19.
 
+## 2026-11-07 — S306k (continued): the fibre's shape at the tube, completed
+
+The fibre's shape at the excursion's thinnest point had been measured in one direction only: its height. Its other
+coordinate was left open because the computation becomes unstable right at the core. A symmetry of the object settles
+it exactly. The fibre there is mirrored onto itself, and the type of the mirror can be read from whole-number matrices
+alone. Of the two places the mirror fixes, one is already measured at the half point, so the tube sits exactly on the
+other line. 0 of 19.
+
