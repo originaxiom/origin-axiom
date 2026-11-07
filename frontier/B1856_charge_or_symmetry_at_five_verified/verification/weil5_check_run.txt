@@ -1,0 +1,5 @@
+HQ0: rho projective on 120 of 120 elements (121 repeated arrivals, 0 clashes; DFT sign -1)
+HQ1: scalar on C^5: [((1, 0), (0, 1))]; scalar on each sector: [((1, 0), (0, 1)), ((4, 0), (0, 4))]
+HQ2: projective commutant of rho(LR): 10 elements, = +-<LR>: True
+HQ3: rho(LR) eigenvalue angles, even sector [0.0, 0.4, 0.6], odd sector [-0.1, 0.1] (turns); traces -0.618033988750+2.2e-16i and 1.618033988750+0.0e+00i; 1 - phi = -0.618033988750, phi = 1.618033988750
+HQ4: E(6) = ((1, 0), (0, 1)) (= I: True); E(2,1,1,1,2) = ((2, 1), (1, 1)) = (LR)^1 in GENESIS letters; its swap image ((1, 1), (1, 2)) non-scalar on both sectors: True

@@ -18718,3 +18718,11 @@ levels' common multiple reaches 12, cheaper departures with gaps exist, so conse
 deeper. Main confirmed every counterexample exactly and corroborated the case at 5. The seat's full search is cited
 until main repeats it. 0 of 19.
 
+## 2026-11-07 — S306m (continued): why the charge, not the symmetry
+
+The exploring seat asked which of two premises the object's own quantum states favour. In the object's level-5 quantum
+model, the shallower candidate departure shows up as a phase between the states. The deeper one does not show up at
+all. Hiding the shallow one would need a rule against superpositions that would also stop the object's level-5 clock.
+Under ordinary quantum mechanics, and if that level-5 space is physical, the deep departure is the invisible one. Main
+rebuilt the representation and confirmed every number. 0 of 19.
+

@@ -1,5 +1,18 @@
 # Changelog
 
+## S306m (continued) CHARGE OR SYMMETRY AT FIVE (B1856; P-738 answered, conditionally) (2026-11-07)
+
+- **The explore seat's test** (row 1616), re-derived with main's own construction of the level-5 Weil representation:
+  - it is projectively consistent on all 120 elements;
+  - only ±I act as scalars on both parity sectors (the charge is invisibility to every state);
+  - the commutant of ρ(LR) is ±⟨LR⟩ (the symmetry);
+  - ρ(LR) is a ℤ/5 clock on every sector, with traces 1 − φ and φ;
+  - the line-invisible departure is (LR)¹ mod 5, visible on superpositions, while the run of 6 is E ≡ I.
+- **So the symmetry reading needs a superselection rule that would stop the level-5 clock.** The charge reading, and with it the run of 6, is the invisible one.
+  - This is conditional on a physical level-5 Weil space (P-721) and on standard quantum mechanics.
+- P-738 is DONE, with a dated note on P-717.
+- 0 of 19.
+
 ## S306m (continued) THE CHARGE LAW SETTLED (B1855; P-737 DONE): REFUTED FROM lcm(S) = 12, PROVED BELOW BY THE EXPLORE SEAT (2026-11-07)
 
 - **The explore seat settled P-737 both ways** (row 1615; pin 91119a38).
