@@ -33,6 +33,10 @@ from origin_axiom.weave_unification_bridge import (
     verify_lead1_tnorm_and_j1_parity_commutant,
     verify_lead2_lead3_and_p741_excursion_law,
     verify_p740_palindrome_involutions_and_wp3_wp4,
+    verify_wp1_p740_and_joint_j1,
+    verify_wp2_p741_charge_law,
+    verify_wp3_p583_and_b1744,
+    verify_wp4_two_locus_and_localization,
 )
 
 
@@ -94,12 +98,54 @@ def test_theorem4_codex_physical_bridge_joins() -> None:
     assert t4["codex_ae5e48184_gieseking_sigma_swaps_k_pairs"] is True
 
 
+def test_wp1_wp2_wp3_wp4_weave_unification_work_packages() -> None:
+    wp1 = verify_wp1_p740_and_joint_j1()
+    assert wp1["p740_words_tested"] == 18
+    assert wp1["all_p_diag_equal"] is True
+    assert wp1["all_dpd_equal"] is True
+    assert wp1["all_j_involution"] is True
+    assert wp1["all_re_tau_match"] is True
+    assert wp1["max_re_tau_error"] < 1e-15
+    assert wp1["even_orders_break_H_to_dim2"] is True
+    assert wp1["odd_orders_force_H_eq_I3"] is True
+    assert wp1["wp1_passed"] is True
+
+    wp2 = verify_wp2_p741_charge_law()
+    assert wp2["lemma_b_golden_frame_mismatches"] == 0
+    assert wp2["lemma_b_max_rel_err"] < 1e-14
+    assert wp2["lemma_c_min_fib_ratio_err"] < 1e-15
+    assert wp2["lemma_c_strict_off_2"] is True
+    assert wp2["lemma_c_bound_holds_on_200_defects"] is True
+    assert wp2["lemma_d_verified"] is True
+    assert wp2["all_s_le_10_margins_positive"] is True
+    assert wp2["wp2_passed"] is True
+
+    wp3 = verify_wp3_p583_and_b1744()
+    assert wp3["v4_nonzero_components_of_144"] == 36
+    assert wp3["v4_character_violations"] == 0
+    assert wp3["b1656_frame_vs_closed_form_max_rel_err"] < 1e-14
+    assert wp3["p583_adjugate_transpose_max_rel_err"] < 1e-14
+    assert wp3["b1744_det_identity_max_rel_err"] < 1e-13
+    assert wp3["cubic_locus_det_conservation_max_rel_err"] < 1e-12
+    assert wp3["wp3_passed"] is True
+
+    wp4 = verify_wp4_two_locus_and_localization()
+    assert wp4["max_eta6_quarter_rel_err"] < 1e-30
+    assert wp4["single_locus_lock_inequality_holds"] is True
+    assert wp4["max_b1646_d3_rel_err"] < 1e-12
+    assert wp4["max_b1744_lemma_a_rel_err"] < 1e-12
+    assert wp4["single_locus_null_overlap_max_err"] < 1e-12
+    assert wp4["max_haar_basis_scramble_err"] < 1e-12
+    assert wp4["wp4_passed"] is True
+
+
 def test_planted_mutations_and_whole_weave_discipline() -> None:
     mutations = run_planted_mutation_countercontrols()
     assert len(mutations) == 10
     assert all(mutations.values())
     suite = run_weave_unification_crystallization_suite()
     assert suite["all_planted_mutations_rejected"] is True
+    assert suite["all_work_packages_passed"] is True
     assert suite["data_free_0_of_19"] is True
     disc = suite["foundational_and_whole_weave_discipline"]
     assert disc["non_cancellation_to_matrix_commutator_is_explicit_interpretation"] is True

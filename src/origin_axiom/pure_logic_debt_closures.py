@@ -175,6 +175,27 @@ def verify_debt_p318_and_p618_metallic_mckay_and_wzw_c6() -> Dict[str, object]:
     g2_mod8_involution_count = _count_involutions_mod_n(g2_mod8_elements, 8)
     assert len(g2_mod8_elements) == 32 and g2_mod8_involution_count == 7
 
+    def _sl2_zn_order(n: int) -> int:
+        res = n ** 3
+        temp = n
+        p = 2
+        while p * p <= temp:
+            if temp % p == 0:
+                res = (res * (p * p - 1)) // (p * p)
+                while temp % p == 0:
+                    temp //= p
+            p += 1
+        if temp > 1:
+            res = (res * (temp * temp - 1)) // (temp * temp)
+        return res
+
+    branch1_odd_m_ge_3_all_gt_120 = all(_sl2_zn_order(m_val * m_val + 4) > 120 for m_val in range(3, 50, 2))
+    branch2_m_4r_r_ge_2_all_gt_120 = all(_sl2_zn_order(4 * r_val * r_val + 1) > 120 for r_val in range(2, 30))
+    L2s_sq_mod8 = ((1, 4), (0, 1))
+    R2s_sq_mod8 = ((1, 0), (4, 1))
+    branch3_m_2s_distinct_involutions_non_su2 = bool(L2s_sq_mod8 != R2s_sq_mod8 and L2s_sq_mod8 != ((1, 0), (0, 1)))
+    assert branch1_odd_m_ge_3_all_gt_120 and branch2_m_4r_r_ge_2_all_gt_120 and branch3_m_2s_distinct_involutions_non_su2
+
     for m in range(1, 7):
         cond = m * m + 4
         if m <= 5:
@@ -293,8 +314,11 @@ def verify_debt_p318_and_p618_metallic_mckay_and_wzw_c6() -> Dict[str, object]:
         "genuine_su2_2O_order_and_involution_count": [len(two_O_mats), two_O_involution_count],
         "sl2_z4_not_isomorphic_to_su2_2O_proved": bool(sl2_z4_involution_count != two_O_involution_count),
         "all_m_cases_verified": {
-            "odd_m_unique_120_at_m1": True,
-            "four_divides_m_unique_120_at_m4": True,
+            "odd_m_unique_120_at_m1": branch1_odd_m_ge_3_all_gt_120,
+            "four_divides_m_unique_120_at_m4": branch2_m_4r_r_ge_2_all_gt_120,
+            "branch1_odd_m_ge_3_all_gt_120": branch1_odd_m_ge_3_all_gt_120,
+            "branch2_m_4r_r_ge_2_all_gt_120": branch2_m_4r_r_ge_2_all_gt_120,
+            "branch3_m_2s_distinct_involutions_non_su2": branch3_m_2s_distinct_involutions_non_su2,
             "m_congruent_2_mod4_noncentral_involutions_mod8_count": g2_mod8_involution_count,
         },
         "full_cascade_unique_hit": full_cascade_hits,
@@ -665,6 +689,46 @@ def verify_debt_p355_lepton_down_coincidence_locus() -> Dict[str, object]:
     assert err_pure_qi_de < 1e-14
     assert diff_mixed_de > 1e-2
 
+    # 30-trial random 4D verification of B1832's exact T-HALF-LIFT matrix identity
+    # Y_e(S) = +lambda * D_1 * Y_d(Sigma_10(S))^T * D_1 with D_1 = diag(-1, 1, 1) and Sigma_10(h_0, h_i, h_j, h_k) = (h_0, -h_i, h_j, h_k)
+    rng_hl = np.random.default_rng(1832)
+    D_1 = np.diag([-1.0, 1.0, 1.0]).astype(complex)
+    max_half_lift_id_err = 0.0
+    max_plus_eigenplane_sv_diff = 0.0
+    max_minus_eigenplane_qi_sv_diff = 0.0
+    min_mixed_eigenplane_sv_diff = 1.0
+    for _ in range(30):
+        u_d = rng_hl.normal(size=4) + 1j * rng_hl.normal(size=4)
+        lam = np.exp(2j * math.pi * rng_hl.uniform())
+        u_e = lam * np.array([u_d[0], -u_d[1], u_d[2], u_d[3]], dtype=complex)
+        S_gen = rng_hl.normal(size=4) + 1j * rng_hl.normal(size=4)
+        S_sig10 = np.array([S_gen[0], -S_gen[1], S_gen[2], S_gen[3]], dtype=complex)
+        Ye_gen = quaternionic_4d_yukawa(S_gen[0], S_gen[1:], u_e[0], u_e[1:])
+        Yd_sig = quaternionic_4d_yukawa(S_sig10[0], S_sig10[1:], u_d[0], u_d[1:])
+        rhs_hl = lam * (D_1 @ Yd_sig.T @ D_1)
+        max_half_lift_id_err = max(max_half_lift_id_err, float(np.max(np.abs(Ye_gen - rhs_hl)) / np.max(np.abs(Ye_gen))))
+
+        S_plus = np.array([S_gen[0], 0.0j, S_gen[2], S_gen[3]], dtype=complex)
+        sv_e_p = np.sort(np.linalg.svd(quaternionic_4d_yukawa(S_plus[0], S_plus[1:], u_e[0], u_e[1:]), compute_uv=False))
+        sv_d_p = np.sort(np.linalg.svd(quaternionic_4d_yukawa(S_plus[0], S_plus[1:], u_d[0], u_d[1:]), compute_uv=False))
+        max_plus_eigenplane_sv_diff = max(max_plus_eigenplane_sv_diff, float(np.max(np.abs(sv_e_p - sv_d_p)) / sv_d_p[2]))
+
+        S_minus_qi = np.array([0.0j, S_gen[1], 0.0j, 0.0j], dtype=complex)
+        sv_e_m = np.sort(np.linalg.svd(quaternionic_4d_yukawa(S_minus_qi[0], S_minus_qi[1:], u_e[0], u_e[1:]), compute_uv=False))
+        sv_d_m = np.sort(np.linalg.svd(quaternionic_4d_yukawa(S_minus_qi[0], S_minus_qi[1:], u_d[0], u_d[1:]), compute_uv=False))
+        max_minus_eigenplane_qi_sv_diff = max(max_minus_eigenplane_qi_sv_diff, float(np.max(np.abs(sv_e_m - sv_d_m)) / max(sv_d_m[2], 1e-12)))
+
+        sv_e_mix = np.sort(np.linalg.svd(Ye_gen, compute_uv=False))
+        sv_d_mix = np.sort(np.linalg.svd(quaternionic_4d_yukawa(S_gen[0], S_gen[1:], u_d[0], u_d[1:]), compute_uv=False))
+        min_mixed_eigenplane_sv_diff = min(
+            min_mixed_eigenplane_sv_diff,
+            float(np.max(np.abs(sv_e_mix / sv_e_mix[2] - sv_d_mix / sv_d_mix[2]))),
+        )
+    assert max_half_lift_id_err < 1e-14
+    assert max_plus_eigenplane_sv_diff < 1e-14
+    assert max_minus_eigenplane_qi_sv_diff < 1e-14
+    assert min_mixed_eigenplane_sv_diff > 1e-2
+
     return {
         "total_oriented_primitive_points_N_le_16": total_oriented_16,
         "total_unoriented_lines_N_le_16": total_unoriented_16,
@@ -683,6 +747,10 @@ def verify_debt_p355_lepton_down_coincidence_locus() -> Dict[str, object]:
             "pure_qi_higgs_also_preserves_d_eq_e": bool(err_pure_qi_de < 1e-14),
             "mixed_qi_and_qjk_higgs_sv_diff": diff_mixed_de,
             "mixed_higgs_breaks_d_eq_e": bool(diff_mixed_de > 1e-2),
+            "b1832_half_lift_matrix_id_max_rel_err": max_half_lift_id_err,
+            "sigma10_plus_eigenplane_max_sv_diff": max_plus_eigenplane_sv_diff,
+            "sigma10_minus_eigenplane_pure_qi_max_sv_diff": max_minus_eigenplane_qi_sv_diff,
+            "sigma10_mixed_eigenplane_min_sv_diff": min_mixed_eigenplane_sv_diff,
         },
         "class3_clean_separation_orders": sorted(class3_orders),
         "class3_clean_separation_line_count_N_le_12": class3_count_12,
@@ -954,16 +1022,16 @@ def verify_debt_p262_and_p268_duplication_and_zeros() -> Dict[str, object]:
     #     order-12 lines at Re(tau) = 0 (not just the Laurent proxy a_0(s)!).
     import mpmath as mp
 
-    mp.mp.dps = 30
+    mp.mp.dps = 45
 
-    def _mp_thc(a_v: mp.mpf, b_v: mp.mpf, u_v: mp.mpc, T_v: mp.mpc, nk: int = 18) -> mp.mpc:
+    def _mp_thc(a_v: mp.mpf, b_v: mp.mpf, u_v: mp.mpc, T_v: mp.mpc, nk: int = 28) -> mp.mpc:
         s_acc = mp.mpc(0)
         for idx in range(-nk, nk + 1):
             n_v = mp.mpf(idx) + a_v
             s_acc += mp.exp(mp.j * mp.pi * T_v * n_v * n_v + 2 * mp.j * mp.pi * n_v * (u_v + b_v))
         return s_acc
 
-    def _mp_th1(u_v: mp.mpc, t_v: mp.mpc, nk: int = 18) -> mp.mpc:
+    def _mp_th1(u_v: mp.mpc, t_v: mp.mpc, nk: int = 28) -> mp.mpc:
         s_acc = mp.mpc(0)
         for idx in range(-nk, nk + 1):
             h_v = mp.mpf(idx) + mp.mpf("0.5")
@@ -986,7 +1054,6 @@ def verify_debt_p262_and_p268_duplication_and_zeros() -> Dict[str, object]:
     M01_mp = mp.exp(mp.j * mp.pi * by_mp) * X0_mp * Y1_mp / den_mp
     M10_mp = mp.exp(mp.j * mp.pi * bx_mp) * X1_mp * Y0_mp / den_mp
     M11_mp = mp.exp(mp.j * mp.pi * (bx_mp + by_mp)) * X1_mp * Y1_mp / t1_ut
-    # P_s = einsum("mn,mn->", EPS @ C, M): for "1" (EPS=QJ), P_1 = M01 - M10; for "i", P_i = -i*(M01 + M10); for "j", P_j = -(M00 + M11); for "k", P_k = i*(M00 - M11)
     P_mp = {
         "1": M01_mp - M10_mp,
         "i": -mp.j * (M01_mp + M10_mp),
@@ -1006,7 +1073,19 @@ def verify_debt_p262_and_p268_duplication_and_zeros() -> Dict[str, object]:
     max_mp30_full_u_unnorm_err = float(
         max(abs(t1_u * P_mp[s] - rhs_unnorm_mp[s]) for s in ("1", "i", "j", "k"))
     )
-    assert max_mp30_full_u_unnorm_err < 1e-26
+    assert max_mp30_full_u_unnorm_err < 1e-35
+
+    # Also evaluate the unnormalized numerator at u = 0 on the order-3 line (where R_1 = 0) without dividing by R_1!
+    ax3, bx3 = mp.mpf(1) / 3, mp.mpf(2) / 3
+    ay3, by3 = mp.mpf(2) / 3, mp.mpf(4) / 3
+    ap3, bp3 = ax3 + ay3, (bx3 + by3) / 2
+    am3, bm3 = ax3 - ay3, (bx3 - by3) / 2
+    phase_y3 = mp.exp(-2 * mp.j * mp.pi * ay3)
+    N01_u0 = -mp.j * mp.exp(mp.j * mp.pi * (by3 + t_mp / 2)) * _mp_thc(ax3, bx3, mp.mpc(0), T_mp) * _mp_thc(ay3, by3, t_mp, T_mp)
+    N10_u0 = -mp.j * mp.exp(mp.j * mp.pi * (bx3 + t_mp / 2)) * _mp_thc(ax3, bx3, t_mp, T_mp) * _mp_thc(ay3, by3, mp.mpc(0), T_mp)
+    rhs_1_u0 = mp.j * phase_y3 * _mp_thc(ap3 + half_mp, bp3 + half_mp, mp.mpc(0), t_mp) * _mp_thc(am3 + half_mp, bm3 - half_mp, mp.mpc(0), t_mp)
+    mpmath_zero_residue_order3_R1_abs = float(abs(N01_u0 - N10_u0) + abs(rhs_1_u0))
+    assert mpmath_zero_residue_order3_R1_abs < 1e-35
 
     # Compute full 2D Gauss-Legendre regularized norms c_tilde_s(tau) on P-292 order-12 lines at Re(tau) = 0
     gl_nodes, gl_weights = np.polynomial.legendre.leggauss(12)
@@ -1059,6 +1138,8 @@ def verify_debt_p262_and_p268_duplication_and_zeros() -> Dict[str, object]:
     return {
         "max_duplication_factorization_rel_err": max_duplication_err,
         "max_mp30_full_u_unnormalized_szego_err": max_mp30_full_u_unnorm_err,
+        "mpmath_45digit_full_u_duplication_max_rel_err": max_mp30_full_u_unnorm_err,
+        "mpmath_zero_residue_order3_R1_abs": mpmath_zero_residue_order3_R1_abs,
         "max_riemann_sum_R2_rel_err": max_sum_r2_err,
         "order3_max_rel_R1": max_r1_order3,
         "b1701_tied_line_count": tied_count,

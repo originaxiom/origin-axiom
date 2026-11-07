@@ -14,6 +14,7 @@ from origin_axiom.p000_pure_logic_bridge import (
     canonical_unoriented_conj_rep,
     commutator_word,
     run_all_p000_bridge_verifications,
+    verify_d47f7d79f_selector_earning_and_syntactic_congruence,
     verify_step1_freeness_vs_relaxations,
     verify_step2a_word_side_w110,
     verify_step2b_character_and_p321_prime,
@@ -40,6 +41,7 @@ def test_step1_freeness_vs_relaxations() -> None:
     hz = s1["heisenberg_hz_countermodel"]
     assert hz["commutator_ab_nontrivial"] is True
     assert hz["triple_commutators_vanish"] is True
+    assert hz["f2_sanov_triple_commutator_nontrivial"] is True
     assert hz["aut_f2_moves_descend_on_commutator"] is True
     assert hz["q8_character_factors_through_hz"] is True
     assert hz["proves_full_f2_faithfulness_is_explicit_hypothesis"] is True
@@ -72,10 +74,20 @@ def test_step2b_character_and_p321_prime_selection() -> None:
     p321 = s2b["p321_prime_selection_under_swap_and_tick"]
     assert p321["2"]["witness_group"] == "Q_8_subset_SU2"
     assert p321["2"]["generator_det"] == 1
+    assert p321["2"]["single_irrep_dim"] == 2
+    assert p321["2"]["single_irrep_fixed_by_swap"] is True
     assert p321["2"]["fixed_by_swap_P"] is True
     assert p321["2"]["fixed_by_tick_LP"] is True
+    assert p321["3"]["single_irrep_dim"] == 3
+    assert p321["3"]["single_irrep_fixed_by_swap"] is False
+    assert p321["3"]["paired_reducible_dim"] == 6
+    assert p321["3"]["paired_reducible_fixed_by_swap"] is True
     assert p321["3"]["fixed_by_swap_P"] is False
     assert p321["3"]["fixed_by_tick_LP"] is False
+    assert p321["5"]["single_irrep_dim"] == 5
+    assert p321["5"]["single_irrep_fixed_by_swap"] is False
+    assert p321["5"]["paired_reducible_dim"] == 10
+    assert p321["5"]["paired_reducible_fixed_by_swap"] is True
     assert p321["5"]["fixed_by_swap_P"] is False
     assert p321["5"]["fixed_by_tick_LP"] is False
     # Whole-weave alternatives at odd p: conjugate-pair direct sum and antiunitary Fourier intertwiner
@@ -130,3 +142,14 @@ def test_step3_and_4_carrier_and_countercontrols() -> None:
     assert full["all_verifications_passed"] is True
     assert full["all_planted_mutations_rejected"] is True
     assert full["planted_mutations_rejected_count"] == 8
+
+    d47 = verify_d47f7d79f_selector_earning_and_syntactic_congruence()
+    assert d47["d47f7d79f_passed"] is True
+    assert d47["syntactic_congruence_quotient_sizes"] == {
+        "Z2_order_2": 2,
+        "V4_order_4": 4,
+        "S3_order_6": 6,
+        "Q8_order_8": 8,
+    }
+    assert d47["unique_survivor_after_P1_to_P5"] == ["M6_Quaternion_Spinor_Q8_SU2"]
+    assert len(d47["models_matrix"]) == 6

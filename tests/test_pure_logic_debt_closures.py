@@ -36,6 +36,10 @@ def test_theorem_a_p318_p618_metallic_mckay_and_wzw_c6() -> None:
     assert res["sl2_z4_order_and_involution_count"] == [48, 7]
     assert res["genuine_su2_2O_order_and_involution_count"] == [48, 1]
     assert res["sl2_z4_not_isomorphic_to_su2_2O_proved"] is True
+    all_m = res["all_m_cases_verified"]
+    assert all_m["branch1_odd_m_ge_3_all_gt_120"] is True
+    assert all_m["branch2_m_4r_r_ge_2_all_gt_120"] is True
+    assert all_m["branch3_m_2s_distinct_involutions_non_su2"] is True
     assert res["full_cascade_unique_hit"] == [1]
     assert res["wzw_sigma_eq_1_hits"] == ["A6", "D6", "E6"]
     assert res["wzw_sigma_eq_1_and_3primaries_unique_hit"] == ["E6"]
@@ -86,6 +90,10 @@ def test_theorem_d_p355_lepton_down_coincidence_locus() -> None:
     cc_b1832 = res["b1832_t_half_lift_and_pure_qi_countercontrol"]
     assert cc_b1832["pure_qi_higgs_also_preserves_d_eq_e"] is True
     assert cc_b1832["mixed_higgs_breaks_d_eq_e"] is True
+    assert cc_b1832["b1832_half_lift_matrix_id_max_rel_err"] < 1e-13
+    assert cc_b1832["sigma10_plus_eigenplane_max_sv_diff"] < 1e-13
+    assert cc_b1832["sigma10_minus_eigenplane_pure_qi_max_sv_diff"] < 1e-13
+    assert cc_b1832["sigma10_mixed_eigenplane_min_sv_diff"] > 1e-2
     assert res["class3_clean_separation_line_count_N_le_12"] == 184
     assert res["class3_clean_separation_line_count_N_le_16"] == 532
     assert res["total_clean_separation_with_v_i_zero_N_le_12"] == 224
@@ -95,7 +103,9 @@ def test_theorem_d_p355_lepton_down_coincidence_locus() -> None:
 def test_theorem_e_p262_p268_p292_duplication_and_zeros() -> None:
     res = verify_debt_p262_and_p268_duplication_and_zeros()
     assert res["max_duplication_factorization_rel_err"] < 1e-14
-    assert res["max_mp30_full_u_unnormalized_szego_err"] < 1e-26
+    assert res["max_mp30_full_u_unnormalized_szego_err"] < 1e-35
+    assert res["mpmath_45digit_full_u_duplication_max_rel_err"] < 1e-35
+    assert res["mpmath_zero_residue_order3_R1_abs"] < 1e-35
     assert res["max_riemann_sum_R2_rel_err"] < 1e-14
     assert res["order3_max_rel_R1"] < 1e-14
     assert res["b1701_tied_line_count"] == 27

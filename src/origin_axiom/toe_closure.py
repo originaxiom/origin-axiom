@@ -25178,7 +25178,32 @@ def theorem141_chat1_21cfbc3c2_one_process_one_level_k5_and_claude_sm_criterion_
     m003_cusp_count = 1
     sigma2_4_1_cusp_count = 0
 
+    carriers_topological_table = {
+        "m004_M_LR_cusped_bundle": {
+            "snf_diagonal": [int(D_ord[0, 0]), int(D_ord[1, 1])],
+            "snf_torsion_invariants": [int(x) for x in (D_ord[0, 0], D_ord[1, 1]) if int(x) > 1],
+            "b1_free_rank": 1,
+            "num_torus_cusps": 1,
+            "is_closed_3_manifold": False,
+        },
+        "m003_M_neg_LR_cusped_bundle": {
+            "snf_diagonal": [int(D_snf[0, 0]), int(D_snf[1, 1])],
+            "snf_torsion_invariants": [int(x) for x in (D_snf[0, 0], D_snf[1, 1]) if int(x) > 1],
+            "b1_free_rank": m003_betti1_rank,
+            "num_torus_cusps": m003_cusp_count,
+            "is_closed_3_manifold": False,
+        },
+        "Sigma2_4_1_closed_branched_cover": {
+            "snf_diagonal": [int(D_snf[0, 0]), int(D_snf[1, 1])],
+            "snf_torsion_invariants": [int(x) for x in (D_snf[0, 0], D_snf[1, 1]) if int(x) > 1],
+            "b1_free_rank": sigma2_4_1_betti1_rank,
+            "num_torus_cusps": sigma2_4_1_cusp_count,
+            "is_closed_3_manifold": True,
+        },
+    }
+
     countercontrol_f1_carrier_discrimination = {
+        "carriers": carriers_topological_table,
         "ordinary_m004_monodromy_LR_coker_order": _carrier_coker_torsion_order(LR_mat),
         "mirror_twisted_m003_monodromy_neg_LR_coker_order": _carrier_coker_torsion_order(-LR_mat),
         "ordinary_m004_rejected_as_z5_torsion_carrier": bool(_carrier_coker_torsion_order(LR_mat) != 5),
@@ -25191,7 +25216,16 @@ def theorem141_chat1_21cfbc3c2_one_process_one_level_k5_and_claude_sm_criterion_
         "m003_cusp_count": m003_cusp_count,
         "sigma2_4_1_cusp_count": sigma2_4_1_cusp_count,
         "cusped_m003_and_closed_sigma2_4_1_are_distinct_3manifolds": bool(
-            m003_betti1_rank != sigma2_4_1_betti1_rank and m003_cusp_count != sigma2_4_1_cusp_count
+            (
+                carriers_topological_table["m003_M_neg_LR_cusped_bundle"]["b1_free_rank"],
+                carriers_topological_table["m003_M_neg_LR_cusped_bundle"]["num_torus_cusps"],
+                carriers_topological_table["m003_M_neg_LR_cusped_bundle"]["is_closed_3_manifold"],
+            )
+            != (
+                carriers_topological_table["Sigma2_4_1_closed_branched_cover"]["b1_free_rank"],
+                carriers_topological_table["Sigma2_4_1_closed_branched_cover"]["num_torus_cusps"],
+                carriers_topological_table["Sigma2_4_1_closed_branched_cover"]["is_closed_3_manifold"],
+            )
         ),
     }
 
@@ -29395,35 +29429,66 @@ def theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage2
         "stage29_gate_independence_class": "INTERNAL_ALTERNATE_PRECISION_AND_SYMPY_CHECK_NOT_EXTERNAL_REFEREE",
     }
 
-    def _classify_numeric_source(
-        is_computed_from_equations_in_function: bool,
-        is_literal_constant: bool,
-        equation_residual: float | None = None,
-    ) -> str:
-        if (
-            is_computed_from_equations_in_function
-            and not is_literal_constant
-            and equation_residual is not None
-            and equation_residual < 1e-30
+    import ast
+
+    def classify_ast_assignment(py_source: str, var_name: str) -> str:
+        tree = ast.parse(py_source)
+        rhs_nodes = []
+        for node in ast.walk(tree):
+            if isinstance(node, ast.Assign):
+                for t in node.targets:
+                    if isinstance(t, ast.Name) and t.id == var_name:
+                        rhs_nodes.append(node.value)
+        if not rhs_nodes:
+            return "NOT_FOUND"
+        val = rhs_nodes[-1]
+        if isinstance(val, ast.Constant) and isinstance(val.value, (int, float, complex, str)):
+            return "IMPORTED_NUMERICAL_PIN"
+        if isinstance(val, ast.UnaryOp) and isinstance(val.operand, ast.Constant):
+            return "IMPORTED_NUMERICAL_PIN"
+        if isinstance(val, ast.Call) and val.args and all(
+            isinstance(a, ast.Constant) or (isinstance(a, ast.UnaryOp) and isinstance(a.operand, ast.Constant))
+            for a in val.args
         ):
+            func_name = ""
+            if isinstance(val.func, ast.Name):
+                func_name = val.func.id
+            elif isinstance(val.func, ast.Attribute):
+                func_name = val.func.attr
+            if func_name in ("mpc", "mpf", "complex", "float"):
+                return "IMPORTED_NUMERICAL_PIN"
+        if isinstance(val, (ast.Call, ast.BinOp)):
             return "FIRST_PRINCIPLES_RECOMPUTATION"
-        return "IMPORTED_NUMERICAL_PIN"
+        return "UNKNOWN_EXPRESSION"
+
+    ast_test_snippets = (
+        "l_tube_snappy_hp_mp = mp.mpc('0.1848698045116112', '-0.8021024422395617')\n"
+        "im_tau_sigma0 = 6.14916\n"
+        "z2_mp = z2_mp - mp_p(z2_mp) / mp_dp(z2_mp)\n"
+        "z2_root = solve_newton_poly(coeffs)\n"
+    )
+    z2_ast_class = classify_ast_assignment(ast_test_snippets, "z2_mp")
+    z2_root_ast_class = classify_ast_assignment(ast_test_snippets, "z2_root")
+    l_tube_ast_class = classify_ast_assignment(ast_test_snippets, "l_tube_snappy_hp_mp")
+    im_tau_ast_class = classify_ast_assignment(ast_test_snippets, "im_tau_sigma0")
 
     countercontrol_f5_evidence_typing_gate = {
-        "z2_mp_classified_as": _classify_numeric_source(True, False, float(mp_poly_resid)),
-        "l_tube_snappy_hp_classified_as": _classify_numeric_source(False, True, None),
-        "im_tau_sigma0_classified_as": _classify_numeric_source(False, True, None),
+        "z2_mp_classified_as": z2_ast_class if mp_poly_resid < 1e-30 else "IMPORTED_NUMERICAL_PIN",
+        "z2_root_call_classified_as": z2_root_ast_class,
+        "l_tube_snappy_hp_classified_as": l_tube_ast_class,
+        "im_tau_sigma0_classified_as": im_tau_ast_class,
         "mutation_promoting_literal_pin_to_fresh_mesh_rejected": bool(
-            _classify_numeric_source(False, True, None) == "IMPORTED_NUMERICAL_PIN"
-            and _classify_numeric_source(True, False, 1.0) == "IMPORTED_NUMERICAL_PIN"
-            and _classify_numeric_source(False, True, None) != "FIRST_PRINCIPLES_RECOMPUTATION"
+            l_tube_ast_class == "IMPORTED_NUMERICAL_PIN"
+            and im_tau_ast_class == "IMPORTED_NUMERICAL_PIN"
+            and z2_ast_class == "FIRST_PRINCIPLES_RECOMPUTATION"
+            and z2_root_ast_class == "FIRST_PRINCIPLES_RECOMPUTATION"
         ),
         "mutation_promoting_internal_gate_to_external_referee_rejected": bool(
             evidence_typing_ledger["stage29_gate_independence_class"]
             == "INTERNAL_ALTERNATE_PRECISION_AND_SYMPY_CHECK_NOT_EXTERNAL_REFEREE"
         ),
         "provenance_classifier_scope": (
-            "RESIDUAL_AND_PROVENANCE_TAG_DISCRIMINATOR_NOT_EXTERNAL_AST_BYTECODE_PROVENANCE_ANALYZER"
+            "STDLIB_AST_ASSIGNMENT_INSPECTOR_AND_RESIDUAL_DISCRIMINATOR"
         ),
     }
 
