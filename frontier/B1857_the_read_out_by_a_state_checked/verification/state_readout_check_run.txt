@@ -1,0 +1,12 @@
+(1) cosh law on LR's axis, 7 classes: max |f_c - f_min cosh(t - t_c)| over hyperbolic arclength t in [-4, 4] = 4.7e-38, i.e. f_min cosh 2(s - s_c) in Sol time s = t/2
+(3) (6,)                         apex height 3.618034 attained at 1 position(s): unique
+(3) (2, 1, 1, 1, 2)              apex height 1.625437 attained at 2 position(s): degenerate (mirror)
+(3) (2, 1, 2, 1, 2)              apex height 1.723607 attained at 1 position(s): unique
+(3) (2, 1, 1, 1, 1, 1, 1, 1, 1, 2) apex height 1.617974 attained at 2 position(s): degenerate (mirror)
+(4) (2, 1, 1, 1, 2)              line-invisible True; excess length 1.4745
+(4) (2, 1, 2, 1, 2)              line-invisible True; excess length 2.1597
+(4) (6,)                         line-invisible True; excess length 2.3487
+(4) (2, 1, 1, 1, 1, 1, 1, 1, 1, 2) line-invisible True; excess length 1.4786
+(5) (2, 1, 1, 1, 2)              excess volume 1.3972 (all tetrahedra positively oriented)
+(5) (2, 1, 1, 1, 1, 1, 1, 1, 1, 2) excess volume 1.4103 (all tetrahedra positively oriented)
+(5) (6,)                         excess volume 1.5714 (all tetrahedra positively oriented)
