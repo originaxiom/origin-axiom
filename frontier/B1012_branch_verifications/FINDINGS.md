@@ -67,3 +67,14 @@ content is *which term can carry scale and why the object cannot see it*. Gate 5
 
 **Verdict: PROVED. R4 discharged; the k-blindness is now an equivalence; the rest of the branch is
 registered debt, not silent debt.**
+
+## Dated note (2026-11-07, S306k; B1851, the web seat's relay f823dd25f verified on main)
+
+- **The display's form.** § 2 writes Witten's t = k + iσ. With σ real, its action −k·CS − σ·Vol is real, so exp(iS)
+  is a pure phase on every member (`frontier/B1851_the_chiral_premise_relocated_verified/verification/relay_facts.py`,
+  part A). The σ whose product with Vol is a modulus is DGLZ's real σ of t = k ± σ.
+  - **In that form,** the leading exponent is σ·Vol/2π + i·k·CS/2π: the modulus is σ's and the phase is k's.
+- **"The only term that could have carried the scale"** is, in that form, k·CS, a phase on every member. On the
+  amphichiral object it vanishes, but it would carry no modulus on a chiral member either.
+- **What it changes:** the record's use of σ is the DGLZ branch. The two branches are recorded here so they are not read
+  as one. No verdict of this arc changes.

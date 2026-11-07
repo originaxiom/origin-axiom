@@ -1,0 +1,4 @@
+A: exponent = sigma*Vol/2pi + i*k*CS/2pi; hand = (k -> -k); one factor at sigma = k (t = 2k); B1012's t = k + i*sigma form gives the real action -k*CS - sigma*Vol (a phase): ALL HOLD
+B: L, R are twists of opposite hand (R a right twist about no primitive class, |p|,|q| <= 20); S L S^-1 = R^-1; det(phi - I) = 2 - tr phi; trace 3 among positive words with both letters (lengths 2-12): only LR, RL; the 27 excursion members have |H_1(open book)| = tr - 2 > 1; B132's m = 1 word has trace 1, order 6: ALL HOLD
+B (SnapPy): 4_1 isometric to b++LR: True; 4_1(1,0) fundamental group generators 0, homology 0
+C: (a1^-1 - a2^-1)/(a2^-1 - a3^-1) = (c1 - c2)/(c2 - c3), free of alpha(mu*), of L and of a common shift: HOLDS

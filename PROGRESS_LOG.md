@@ -18675,3 +18675,12 @@ now written next to each lead. Nine in ten of the old seat items were indeed alr
 they are closed; the others stay open with reasons, or are pointed at the open question they feed. One small group
 computation settled a lead by itself. A wrong pointer in the foundation document was found and registered. 0 of 19.
 
+## 2026-11-07 — S306k: one hand, one knot, and a card that cannot yet pay its way
+
+The web seat had worked on two of the owner's questions: whether the "one hand" premise behind the scale reading can be
+derived, and whether the scale can be earned by a sealed prediction. Main checked everything in its notes that can be
+computed, and all of it held. "One hand" turns out to be a pinned point of the full theory. The cleaner reading treats
+the object as the figure-eight knot inside the ordinary three-sphere, and that three-sphere is the object's own natural
+closing. Counted honestly, though, the proposed prediction card makes no more predictions than it has choices, so it
+cannot yet prove anything. The agreement stands to derive first and seal later. 0 of 19.
+

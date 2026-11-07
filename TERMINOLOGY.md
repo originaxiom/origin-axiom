@@ -315,7 +315,9 @@ No invariant may be transferred between these without an explicit map.
   base rate. Grep lesson attached: search both φ and phi — the corpus writes both.
 - **"σ" names THREE quantities** (the collision completed at B1034, after the window
   handoff's two and B945's third): (1) the **gravitational level** σ = ℓ/4G — continuous,
-  unquantized, the object SIGHTED in it (∂S/∂σ = −Vol; B1012); (2) the **stage usage** —
+  unquantized, the object SIGHTED in it (∂S/∂σ = −Vol; B1012) — *2026-11-07 (B1851): this σ is the real σ of
+  DGLZ's t = k ± σ, whose product with Vol is a modulus; in Witten's t = k + iσ with σ real the leading term is a
+  phase, so the two forms are two branches, not one*; (2) the **stage usage** —
   the candidate pin σ = 1 of c = 6σ against c((E₆)₁) = 6 (L154's question; UNDECIDED at
   B1034: unobstructed, unexhibited, the bridge named); (3) **B945's σ = the R↔L swap**
   (fiber orientation flip = chirality) — a discrete ℤ/2 closing bit, an item of the

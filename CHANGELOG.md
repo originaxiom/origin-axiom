@@ -1,5 +1,24 @@
 # Changelog
 
+## S306k THE SEATS FETCHED: THE CHIRAL PREMISE RELOCATED, VERIFIED; THE OPEN-BOOK SCALE CARD RULED NOT SEALABLE (B1851; rows 1609–1611) (2026-11-07)
+
+- **The owner:** 'fetch other seats and continue'.
+- **The seats.** The agy lane carried only merges of main. The web seat sent three relays, at the owner's 'Attack the chiral premise' and 'Earn it by prediction', as the seat reports them.
+- **Verified on main's own code (B1851):**
+  - **The product's exponent** in DGLZ's form is σ·Vol/2π + i·k·CS/2π. The hand is k → −k, and "one hand" is σ pinned to k. B1012's t = k + iσ display is a pure phase.
+  - **The open book.** The word LR, read as twists of opposite hand, is an open book of S³ with binding 4₁: the knot reading's S³ is the object's own closing. Only LR and RL have trace 3 among positive words, so no excursion member closes to a homology sphere.
+  - **B132's convention** makes its m = 1 word the trace-1 periodic class, not LR (debt P-733).
+  - **The one-loop B-test identity.**
+- **Main's rulings.**
+  - **R2's theory option:** the open-book reading, with the continued block on S³ as its account. It is still CHOSEN (P-731).
+  - **The count:** the itemized count, priced in bits, binds. The scale card fails P-728's count either way, so it is **not sealable** (P-732), and "derive before sealing" stands.
+- **The record:**
+  - dated notes on B1012, B287 and B1034, and TERMINOLOGY's σ;
+  - P-722's draft landed at docs/THE_SCALE_CARD_DESIGN_P722.md;
+  - P-734: the web seat's exposure to P-597's crossing scale, and main's own;
+  - a reply handoff to the web seat.
+- 0 of 19.
+
 ## S306j THE OPEN LEADS AND THE BACKLOG CONFIRMED ONE BY ONE (B1850; R76-1's second half: P-617 DONE, P-616 narrowed) (2026-11-07)
 
 - **The owner:** 'lets do them'.

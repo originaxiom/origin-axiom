@@ -76,3 +76,13 @@ stated its subject.
 Priors: none declared (honored). The recused seat's SAME-side stake is neither
 confirmed nor refuted — the cell narrowed the question to its constructive residue.
 Gate 5 untouched; type-law obeyed (all outputs structural verdicts).
+
+## Dated note (2026-11-07, S306k; B1851, the web seat's relay f823dd25f)
+
+- **V3 (a) records the gravity reading as non-chiral (c_L = c_R).** In B1012 § 2's dictionary with the gravitational
+  Chern–Simons coupling k, that is k = 0, since c_{L,R} = 6(σ ∓ k).
+- **The chiral ("one-hand") reading of R2 at R1's level is the other extreme.** It is σ = k, so c_L = 0: Li–Song–
+  Strominger's chiral point, where Witten expects the continued theory to be singular.
+- **The two are readings in tension, and neither is derived.** Under the knot (open-book) reading, c_L = c_R gives
+  k = 0 and σ = t.
+- The record keeps both as readings, and P-731 carries them. No verdict of this arc changes.

@@ -563,6 +563,7 @@
     "golden",
     "amphichiral_cp",
     "torsion",
+    "wrt_quantum",
     "firewall"
    ],
    "refs": [
@@ -574,7 +575,7 @@
     "S2"
    ],
    "obstacle": "units_scale",
-   "obstacle_conf": 2,
+   "obstacle_conf": 3,
    "status": "banked",
    "domain": "topology"
   },
@@ -1074,6 +1075,7 @@
    "slug": "l154 sigma",
    "motifs": [
     "closing",
+    "coupling",
     "eisenstein",
     "amphichiral_cp",
     "wrt_quantum"
@@ -15683,6 +15685,26 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1851": {
+   "slug": "the chiral premise relocated verified",
+   "motifs": [
+    "arrow",
+    "closing",
+    "coupling",
+    "figure_eight",
+    "golden",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B132",
+    "B287",
+    "V3"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B185": {
    "slug": "constraint selection",
    "motifs": [
@@ -18518,6 +18540,7 @@
     "eisenstein",
     "golden",
     "z3_generation",
+    "amphichiral_cp",
     "torsion",
     "lorentzian",
     "hyperbolicity_split"
@@ -18535,7 +18558,7 @@
    "obstacle": "units_scale",
    "obstacle_conf": 1,
    "status": "banked",
-   "domain": "arithmetic"
+   "domain": "topology"
   },
   "B288": {
    "slug": "arithmetic filling census",

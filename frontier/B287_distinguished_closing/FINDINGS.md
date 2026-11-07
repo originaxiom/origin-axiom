@@ -58,3 +58,19 @@ confidence result of the arc and frames the rest — B288 asks whether any closi
 `distinguished_closing.py` (sage-python: SnapPy+Regina+Twister) · `verdict.py` (pyenv) ·
 `tests/test_b287_distinguished_closing.py`. Related: `P1` (A=LR), `P8` (torsion ladder), `B286` (the seam),
 `B277` (the fiber Σ_{1,1} / class-S), `B262` (T[4₁]).
+
+## Dated note (2026-11-07, S306k; B1851, the web seat's relay 85d65b7f5 verified on main)
+
+**The object has two standard closings, and both are in this arc's table.**
+
+- **The fiber slope (this arc's distinguished closing)** caps the page and gives the Sol torus bundle with monodromy
+  A = LR.
+  - Its fundamental group is solvable, so its simplicial volume is 0 (Gromov; cited, not re-derived).
+  - So no representation carries a volume exponent there.
+- **The meridian (the table's "meridian ∣ 0 ∣ S³" row)** fills the binding of the object's own open book.
+  - The word LR, read letter by letter as Dehn twists of opposite hand, is that open book. 4₁ = b++LR, and 4₁(1, 0) is
+    simply connected (B1851, part B).
+  - That is the closing the web seat's knot reading needs.
+- **The hand chooses neither:** the amphichiral symmetry fixes both slopes.
+- **Which closing a reading uses is part of the reading.** This arc's "distinguished" refers to its own purpose,
+  re-seeing A.
