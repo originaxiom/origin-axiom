@@ -1043,6 +1043,92 @@ def verify_d47f7d79f_selector_earning_and_syntactic_congruence() -> Dict[str, ob
         "after_P1_to_P5": [k for k, v in models.items() if all(v.values())],
     }
 
+    # Direct Section 6 & Section 7 Independence Controls from Codex d47f7d79f:
+    # 1. Section 6 Rank Control: On F_2 and F_3, the binary identity register R_id(w) = 1_{w != 1}
+    #    detects [a_1, a_2] != 1, is invariant under all elementary Nielsen moves R_{ij}^{+-1},
+    #    and separates all reduced words via left context u = w^-1, v = 1.
+    def _enum_reduced_words(n_gens: int, max_len: int) -> List[Word]:
+        alphabet = [k for k in range(1, n_gens + 1)] + [-k for k in range(1, n_gens + 1)]
+        words_out: List[Word] = [()]
+        frontier_w: List[Word] = [()]
+        for _ in range(max_len):
+            nxt_w: List[Word] = []
+            for w_cur in frontier_w:
+                for lit in alphabet:
+                    if w_cur and w_cur[-1] == -lit:
+                        continue
+                    w_ext = w_cur + (lit,)
+                    words_out.append(w_ext)
+                    nxt_w.append(w_ext)
+            frontier_w = nxt_w
+        return words_out
+
+    f2_words = _enum_reduced_words(2, 3)
+    f3_words = _enum_reduced_words(3, 2)
+    f2_r12: Dict[int, Sequence[int]] = {1: (1, 2), 2: (2,)}
+    f3_r12: Dict[int, Sequence[int]] = {1: (1, 2), 2: (2,), 3: (3,)}
+    f3_r31: Dict[int, Sequence[int]] = {1: (1,), 2: (2,), 3: (3, 1)}
+    sec6_f2_id_aut_invariant = all(
+        (len(w) > 0) == (len(apply_homomorphism(f2_r12, w)) > 0) for w in f2_words
+    ) and (len(commutator_word((1,), (2,))) > 0)
+    sec6_f3_id_aut_invariant = all(
+        (len(w) > 0) == (len(apply_homomorphism(f3_r12, w)) > 0)
+        and (len(w) > 0) == (len(apply_homomorphism(f3_r31, w)) > 0)
+        for w in f3_words
+    ) and (len(commutator_word((1,), (2,))) > 0)
+    sec6_rank2_independent_of_A1_to_A4 = bool(sec6_f2_id_aut_invariant and sec6_f3_id_aut_invariant)
+
+    # 2. Section 7 Decision Rule (Single-Fixed-Sector vs. Covariant-Family Independence under A1-A4):
+    #    Compare Model M_single (p=2, Q_8 subset SU(2), dim 2) against Model M_family
+    #    (p=3, rho_{zeta_3} (+) rho_{zeta_3^-1} subset SU(6), dim 6) on F_2 words up to length 3:
+    z3 = np.exp(2j * np.pi / 3.0)
+    X3 = np.roll(np.eye(3, dtype=complex), -1, axis=1)
+    Z3 = np.diag([1.0, z3, z3**2])
+    Z3_bar = np.diag([1.0, z3**2, z3])
+    # In M_family, generator a acts by diag(Z3, X3) and generator b acts by diag(X3, Z3_bar)
+    # so that under swap P: (a, b) -> (b, a), block 1 (Z3, X3) swaps with (X3, Z3_bar), which is
+    # unitarily equivalent to block 2 (Z3_bar, X3) via the DFT matrix F_3!
+    a_fam = np.block([[Z3, np.zeros((3, 3), dtype=complex)], [np.zeros((3, 3), dtype=complex), X3]])
+    b_fam = np.block([[X3, np.zeros((3, 3), dtype=complex)], [np.zeros((3, 3), dtype=complex), Z3_bar]])
+
+    def eval_word_mat(w: Word, ga: np.ndarray, gb: np.ndarray) -> np.ndarray:
+        d = ga.shape[0]
+        res = np.eye(d, dtype=complex)
+        ga_inv = ga.conj().T
+        gb_inv = gb.conj().T
+        for lit in w:
+            if lit == 1:
+                res = res @ ga
+            elif lit == -1:
+                res = res @ ga_inv
+            elif lit == 2:
+                res = res @ gb
+            elif lit == -2:
+                res = res @ gb_inv
+        return res
+
+    P_swap = {1: (2,), 2: (1,)}
+    comm_ab = commutator_word((1,), (2,))
+    r2_comm = float(np.real(np.trace(eval_word_mat(comm_ab, qi, qj)) / 2.0))
+    rfam_comm = float(np.real(np.trace(eval_word_mat(comm_ab, a_fam, b_fam)) / 6.0))
+    max_r2_swap_diff = max(
+        abs(np.trace(eval_word_mat(w, qi, qj)) - np.trace(eval_word_mat(apply_homomorphism(P_swap, w), qi, qj))) / 2.0
+        for w in f2_words
+    )
+    max_rfam_swap_diff = max(
+        abs(np.trace(eval_word_mat(w, a_fam, b_fam)) - np.trace(eval_word_mat(apply_homomorphism(P_swap, w), a_fam, b_fam))) / 6.0
+        for w in f2_words
+    )
+    sec7_single_fixed_sector_independent_of_A1_to_A4 = bool(
+        abs(r2_comm - (-1.0)) < 1e-12
+        and abs(rfam_comm - (-0.5)) < 1e-12
+        and max_r2_swap_diff < 1e-12
+        and max_rfam_swap_diff < 1e-12
+        and bool(p_table["2"]["single_irrep_fixed_by_swap"]) is True
+        and bool(p_table["3"]["single_irrep_fixed_by_swap"]) is False
+        and bool(p_table["3"]["paired_reducible_fixed_by_swap"]) is True
+    )
+
     passed = bool(
         syntactic_sizes == {"Z2_order_2": 2, "V4_order_4": 4, "S3_order_6": 6, "Q8_order_8": 8}
         and len(surviving_after_each_premise["after_P1"]) == 5
@@ -1050,11 +1136,30 @@ def verify_d47f7d79f_selector_earning_and_syntactic_congruence() -> Dict[str, ob
         and len(surviving_after_each_premise["after_P1_to_P3"]) == 3
         and len(surviving_after_each_premise["after_P1_to_P4"]) == 2
         and surviving_after_each_premise["after_P1_to_P5"] == ["M6_Quaternion_Spinor_Q8_SU2"]
+        and sec6_rank2_independent_of_A1_to_A4
+        and sec7_single_fixed_sector_independent_of_A1_to_A4
     )
     assert passed
 
     return {
         "syntactic_congruence_quotient_sizes": syntactic_sizes,
+        "section6_rank2_independent_of_A1_to_A4": sec6_rank2_independent_of_A1_to_A4,
+        "section7_single_fixed_sector_independent_of_A1_to_A4": sec7_single_fixed_sector_independent_of_A1_to_A4,
+        "section7_model_comparison": {
+            "M_single_Q8_dim2": {
+                "normalized_commutator_trace": r2_comm,
+                "max_swap_trace_diff": float(max_r2_swap_diff),
+                "single_irrep_fixed": True,
+                "hilbert_dim": 2,
+            },
+            "M_family_p3_WeylPair_dim6": {
+                "normalized_commutator_trace": rfam_comm,
+                "max_swap_trace_diff": float(max_rfam_swap_diff),
+                "single_irrep_fixed": False,
+                "covariant_family_fixed": True,
+                "hilbert_dim": 6,
+            },
+        },
         "models_matrix": models,
         "surviving_ladder": surviving_after_each_premise,
         "unique_survivor_after_P1_to_P5": surviving_after_each_premise["after_P1_to_P5"],

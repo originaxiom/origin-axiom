@@ -145,6 +145,8 @@ def test_step3_and_4_carrier_and_countercontrols() -> None:
 
     d47 = verify_d47f7d79f_selector_earning_and_syntactic_congruence()
     assert d47["d47f7d79f_passed"] is True
+    assert d47["section6_rank2_independent_of_A1_to_A4"] is True
+    assert d47["section7_single_fixed_sector_independent_of_A1_to_A4"] is True
     assert d47["syntactic_congruence_quotient_sizes"] == {
         "Z2_order_2": 2,
         "V4_order_4": 4,
