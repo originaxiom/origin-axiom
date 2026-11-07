@@ -1,0 +1,20 @@
+k=2 (b++LLLLLLRLRLR); versions {'numpy': '2.5.3', 'scipy': '1.18.1', 'numba': '0.68.1', 'snappy': '3.3.2', 'python': '3.13.18'}
+  exact: 4 reversing involutions; the two fibres in opposite classes for every one: True; both != I mod 2 for every one: False
+  11 tetrahedra; cusp |p1| 3.481128, |p2| 3.221697; Ford volume 7.651819 against SnapPy 7.651807; floor minimum 0.38190; 110 spheres
+  harmonic time: 1825 Fourier-Bessel modes (3650 unknowns), rms residual 6.55e-11, paired-face check 6.95e-12 (22s)
+  systole aab (chi 0): complex length 0.18519963 -0.81331867i, SnapPy 0.18519963 -0.81331867i; h on its axis -0.465059646006 (spread 1.1e-11); |d theta| there 0.026548
+  mesh and node values (25s)
+    level 0.5349403539939757: {'chi': -1, 'boundary': 32, 'loops': 1, 'nonmanifold': 0, 'inconsistent': 0, 'V': 355, 'F': 680}, snapped 91, residual 1.2e-14
+      n=0: F 680 det E - 1 +3.49e-02 cup +1.0000 reduced tau -0.0000000 +5.7936299i
+      n=1: F 2720 det E - 1 +9.42e-03 cup -1.0000 reduced tau -0.0000000 +5.9774087i
+      n=2: F 10880 det E - 1 +2.52e-03 cup -1.0000 reduced tau +0.0000000 +6.0519039i
+      n=3: F 43520 det E - 1 +7.12e-04 cup +1.0000 reduced tau +0.0000000 +6.0741374i
+      n=4: F 174080 det E - 1 +2.19e-04 cup -1.0000 reduced tau +0.0000000 +6.0799269i
+  level core (s = 0.534940353994): Im tau = 6.081857 +- 0.000417 (finest 6.079927, A3 6.081965); |Re tau| = 0.000000 +- 0.000000; C4 PASS (238s)
+    level 0.03494035399397566: {'chi': -1, 'boundary': 32, 'loops': 1, 'nonmanifold': 0, 'inconsistent': 0, 'V': 523, 'F': 1016}, snapped 85, residual 7.6e-16
+      n=0: F 1016 det E - 1 +2.02e-02 cup +1.0000 reduced tau +0.5000000 +0.9607858i
+      n=1: F 4064 det E - 1 +5.20e-03 cup -1.0000 reduced tau +0.5000000 +0.9605439i
+      n=2: F 16256 det E - 1 +1.37e-03 cup +1.0000 reduced tau +0.5000000 +0.9605025i
+      n=3: F 65024 det E - 1 +3.65e-04 cup +1.0000 reduced tau +0.5000000 +0.9604806i
+  level anti (s = 0.034940353994): Im tau = 0.960473 +- 0.000032 (finest 0.960481, A3 0.960456); |Re tau| = 0.500000 +- 0.000000; C4 PASS (71s)
+  checks: {'C2': True, 'C3': True, 'C4': True}; total 334s

@@ -1,0 +1,9 @@
+m004: checks {'C8': True, 'C2': True, 'C1': True, 'C4': True, 'C5': True}; C1 and C5 PASS
+k = 1: checks {'C8': True, 'C2': True, 'C3': True, 'C7': True, 'C4': True, 'C6': True} -> used; core level +7.594e-14 (P3 True); tube Im tau 6.149155 +- 0.000408, |Re| -0.000000 +- 0.000000; anti-apex Im 1.590345 +- 0.000042, |Re| 0.500000 +- 0.000000; P2 True; P1 True
+k = 2: checks {'C2': True, 'C3': True, 'C4': True} -> used; core level +5.349e-01 (P3 False); tube Im tau 6.081857 +- 0.000417, |Re| 0.000000 +- 0.000000; anti-apex Im 0.960473 +- 0.000032, |Re| 0.500000 +- 0.000000; P2 True; P5 True
+k = 3: checks {'C2': True, 'C3': True, 'C4': True} -> used; core level +7.559e-01 (P3 False); tube Im tau 6.068680 +- 0.000420, |Re| 0.000000 +- 0.000000; anti-apex Im 1.208958 +- 0.000018, |Re| 0.500000 +- 0.000000; P2 True; P5 True
+k = 4: checks {'C2': True, 'C3': True, 'C4': True} -> used; core level +7.284e-02 (P3 False); tube Im tau 6.065974 +- 0.000421, |Re| 0.000000 +- 0.000000; anti-apex Im 1.087632 +- 0.000027, |Re| 0.500000 +- 0.000000; P2 True; P5 True
+k = 5: checks {'C2': True, 'C3': True, 'C4': True} -> used; core level +1.095e-11 (P3 True); tube Im tau 6.065411 +- 0.000421, |Re| 0.000000 +- 0.000000; anti-apex Im 1.141568 +- 0.000026, |Re| 0.500000 +- 0.000000; P2 True; P5 True
+tube |Im tau_(k+1) - Im tau_k|: k=1->2: 0.067298, k=2->3: 0.013177, k=3->4: 0.002706, k=4->5: 0.000562 ; P4 True
+tube: Im tau at k = 3, 4, 5: 6.068680, 6.065974, 6.065411; ratio 0.2079; k -> infinity: 6.065264 +- 0.000569
+anti-apex: differences -0.121326, +0.053936 do not shrink with one sign; no limit stated

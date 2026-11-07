@@ -1,0 +1,26 @@
+k=1 (b++LLLLLLRLR); versions {'numpy': '2.5.3', 'scipy': '1.18.1', 'numba': '0.68.1', 'snappy': '3.3.2', 'python': '3.13.18'}
+  exact: 4 reversing involutions; the two fibres in opposite classes for every one: True; both != I mod 2 for every one: False
+  9 tetrahedra; cusp |p1| 3.502678, |p2| 2.273850; Ford volume 5.586361 against SnapPy 5.586362; floor minimum 0.37847; 85 spheres
+  harmonic time: 1223 Fourier-Bessel modes (2446 unknowns), rms residual 9.71e-11, paired-face check 6.59e-12 (13s)
+  systole b (chi 0): complex length 0.18486980 -0.80210244i, SnapPy 0.18486980 -0.80210244i; h on its axis 1.000000000000 (spread 1.6e-11); |d theta| there 0.041999
+  mesh and node values (16s)
+    level 0.5: {'chi': -1, 'boundary': 32, 'loops': 1, 'nonmanifold': 0, 'inconsistent': 0, 'V': 531, 'F': 1032}, snapped 85, residual 5.6e-16
+      n=0: F 1032 det E - 1 +1.63e-02 cup -1.0000 reduced tau +0.5000000 +1.5740925i
+      n=1: F 4128 det E - 1 +4.25e-03 cup -1.0000 reduced tau -0.5000000 +1.5858262i
+      n=2: F 16512 det E - 1 +1.09e-03 cup +1.0000 reduced tau -0.5000000 +1.5891918i
+      n=3: F 66048 det E - 1 +2.85e-04 cup +1.0000 reduced tau -0.5000000 +1.5900569i
+  level 0.5 (s = 0.500000000000): Im tau = 1.590345 +- 0.000042 (finest 1.590057, A3 1.590356); |Re tau| = 0.500000 +- 0.000000; C4 PASS (57s)
+    level 0.25: {'chi': -1, 'boundary': 92, 'loops': 1, 'nonmanifold': 0, 'inconsistent': 0, 'V': 999, 'F': 1908}, snapped 11, residual 1.5e-14
+      n=0: F 1908 det E - 1 +8.13e-03 cup -1.0000 reduced tau +0.3769771 +0.9925114i
+      n=1: F 7632 det E - 1 +2.31e-03 cup +1.0000 reduced tau +0.3734997 +1.0039856i
+      n=2: F 30528 det E - 1 +6.50e-04 cup +1.0000 reduced tau +0.3725218 +1.0073350i
+      n=3: F 122112 det E - 1 +1.77e-04 cup +1.0000 reduced tau +0.3722646 +1.0082108i
+  level 0.25 (s = 0.250000000000): Im tau = 1.008503 +- 0.000069 (finest 1.008211, A3 1.008521); |Re tau| = 0.372179 +- 0.000023; C4 PASS (99s)
+    level 7.593925488436071e-14: {'chi': -1, 'boundary': 32, 'loops': 1, 'nonmanifold': 0, 'inconsistent': 0, 'V': 343, 'F': 656}, snapped 95, residual 1.6e-15
+      n=0: F 656 det E - 1 +3.42e-02 cup +1.0000 reduced tau -0.0000000 +5.8588178i
+      n=1: F 2624 det E - 1 +9.24e-03 cup -1.0000 reduced tau -0.0000000 +6.0443580i
+      n=2: F 10496 det E - 1 +2.47e-03 cup -1.0000 reduced tau -0.0000000 +6.1191689i
+      n=3: F 41984 det E - 1 +6.98e-04 cup -1.0000 reduced tau -0.0000000 +6.1414324i
+      n=4: F 167936 det E - 1 +2.14e-04 cup -1.0000 reduced tau -0.0000000 +6.1472244i
+  level core (s = 0.000000000000): Im tau = 6.149155 +- 0.000408 (finest 6.147224, A3 6.149261); |Re tau| = -0.000000 +- 0.000000; C4 PASS (142s)
+  checks: {'C8': True, 'C2': True, 'C3': True, 'C7': True, 'C4': True, 'C6': True}; total 313s
