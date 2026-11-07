@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306m THE τ READ-OUT RULE (P-714's construction ruled); B1852's PER-CENTRE RULE (P-740 sharpened); P-739 RUNNING (2026-11-07)
 - S306l TWO SEATS HARVESTED: THE DEPARTURE'S DEPTH IS A CHARGE PREMISE (B1853; the explore seat, registered); THE TUBE'S τ TOWARD k → ∞ (the web seat) (2026-11-07)
 - S306k (continued) THE TUBE'S REAL PART, BY TOPOLOGY (B1852): THE METRIC'S OWN τ AT THE TUBE IS 0 + 6.15(15) i (2026-11-07)
 - S306k THE SEATS FETCHED: THE CHIRAL PREMISE RELOCATED, VERIFIED; THE OPEN-BOOK SCALE CARD RULED NOT SEALABLE (B1851; rows 1609–1611) (2026-11-07)
@@ -63,11 +64,10 @@
 - S306i THE LEADS CONFIRMED ONE BY ONE (B1849; R76-1, the register half of P-617) (2026-11-06)
 - S306h REVIEW 76'S ITEMS WORKED: B1842'S CONTROLS RUN (C-T CORRECTED), THE SEAL-ORDER LIST FROZEN, THE LINE STABILIZERS (2026-11-06)
 - S306g REVIEW 76'S ITEMS WORKED: THE TUBE'S OWN MODULUS (B1847 § 8; P-727 DONE), DOOR C'S C5, R2'S FORM (2026-11-06)
-- S306f THE LACIE SYNCED WHOLE; THE SEATS FETCHED AFTER REVIEW 76 (2026-11-06)
 
 ## The latest campaign line
 
-LATEST (2026-11-07, S306l: B1853 — the explore seat registered and its tests verified: the least-volume departure is (6) under the rung premise, which is exactly a level-5 charge; the action does not force the depth (P-735–P-738); the web seat's tube instrument agrees with B1847 at k = 1 (6.14916(41)i) and estimates τ_∞ = 0 + 6.06526(57)i (P-739 owed). 0 of 19.)
+LATEST (2026-11-07, S306m: the τ read-out rule — τ at a point is the modulus of the fibre the metric's own clock marks there, so of P-714's four readings only the harmonic level surface survives; still chosen: point or weight, the charge premise, minimisation; P-739 running. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

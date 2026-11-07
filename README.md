@@ -24,7 +24,7 @@ nothing in this block is typed by hand.*
 | arcs with a verdict | 1555: 1064 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
 | points in the register | 740: 244 open (queued, leads, waiting for the owner), 496 closed |
 | the last review | Review 76 (2026-11-06), anchor `1eb535ecd` |
-| the last landing | S306l TWO SEATS HARVESTED: THE DEPARTURE'S DEPTH IS A CHARGE PREMISE (B1853; the explore seat, registered); THE TUBE'S τ TOWARD k → ∞ (the web seat)… |
+| the last landing | S306m THE τ READ-OUT RULE (P-714's construction ruled); B1852's PER-CENTRE RULE (P-740 sharpened); P-739 RUNNING (2026-11-07) |
 <!-- STATE:END -->
 
 ## Start here

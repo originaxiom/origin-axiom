@@ -15715,8 +15715,8 @@
     "wrt_quantum"
    ],
    "refs": [],
-   "obstacle": "measure",
-   "obstacle_conf": 1,
+   "obstacle": "observable",
+   "obstacle_conf": 2,
    "status": "banked",
    "domain": "physics"
   },
