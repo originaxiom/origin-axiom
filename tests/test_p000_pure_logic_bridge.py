@@ -37,6 +37,12 @@ def test_step1_freeness_vs_relaxations() -> None:
     assert s1["burnside_b23_kills_q8"] is True
     assert s1["burnside_b23_sl2c_strictly_abelian"] is True
     assert s1["abelian_kills_commutator"] is True
+    hz = s1["heisenberg_hz_countermodel"]
+    assert hz["commutator_ab_nontrivial"] is True
+    assert hz["triple_commutators_vanish"] is True
+    assert hz["aut_f2_moves_descend_on_commutator"] is True
+    assert hz["q8_character_factors_through_hz"] is True
+    assert hz["proves_full_f2_faithfulness_is_explicit_hypothesis"] is True
 
 
 def test_step2a_word_side_w110() -> None:
@@ -64,12 +70,19 @@ def test_step2b_character_and_p321_prime_selection() -> None:
     # P-321 Half 2: under orientation-reversing swap P and Fibonacci tick LP,
     # only p = 2 (Q_8) is strictly invariant; odd primes p = 3, 5 are conjugated!
     p321 = s2b["p321_prime_selection_under_swap_and_tick"]
+    assert p321["2"]["witness_group"] == "Q_8_subset_SU2"
+    assert p321["2"]["generator_det"] == 1
     assert p321["2"]["fixed_by_swap_P"] is True
     assert p321["2"]["fixed_by_tick_LP"] is True
     assert p321["3"]["fixed_by_swap_P"] is False
     assert p321["3"]["fixed_by_tick_LP"] is False
     assert p321["5"]["fixed_by_swap_P"] is False
     assert p321["5"]["fixed_by_tick_LP"] is False
+    # Whole-weave alternatives at odd p: conjugate-pair direct sum and antiunitary Fourier intertwiner
+    assert p321["3"]["whole_weave_conjugate_pair_2p_fixed_by_swap"] is True
+    assert p321["5"]["whole_weave_conjugate_pair_2p_fixed_by_swap"] is True
+    assert p321["3"]["whole_weave_antiunitary_fourier_swap_err"] < 1e-12
+    assert p321["5"]["whole_weave_antiunitary_fourier_swap_err"] < 1e-12
 
 
 def test_step2c_p211_genus2_surface() -> None:
@@ -85,6 +98,7 @@ def test_step2c_p211_genus2_surface() -> None:
     assert s2c["g2_heisenberg_h3_irrep_dim"] == 9
     assert s2c["g2_heisenberg_h3_fixed_by_sp4"] is True
     assert s2c["g2_sp4_f3_transvections_checked"] == 80
+    assert s2c["g2_sp4_f3_distinct_transvection_matrices"] == 40
 
 
 def test_step3_and_4_carrier_and_countercontrols() -> None:

@@ -182,6 +182,62 @@ def verify_step1_freeness_vs_relaxations() -> Dict[str, object]:
     class_2 = all(h3_comm(h3_comm(x, y), z) == (0, 0, 0) for x in h3_all for y in h3_all for z in h3_all)
     assert len(h3_all) == 27 and all_exp_3 and class_2
 
+    # 1(e) Crucial Scope Countermodel (Codex 5b5bf2218): Integral Heisenberg Quotient H(Z) = F_2 / gamma_3(F_2).
+    # Excluding the 4 specific relaxations (B_2, D_inf, B(2,3), Z^2) does NOT by itself force all of F_2!
+    # In H(Z), multiplication is (x, y, z)*(x', y', z') = (x + x', y + y', z + z' + x*y').
+    # It retains a non-trivial central commutator [a, b] = (0, 0, 1), descends L, R, P to automorphisms,
+    # has aperiodic hyperbolic action on H(Z)_ab = Z^2, and factors the Q_8 character (since Q_8 is nilpotent
+    # of class 2, gamma_3(Q_8) = {1}), yet kills triple commutators [a, [a, b]] = (0, 0, 0)!
+    # Therefore, faithfulness on the full free group F_2 (retention of all higher commutators gamma_k(F_2))
+    # is an explicit foundational hypothesis of the bridge, not a deduction from the 4 relaxations alone.
+    def hz_mul(u: Tuple[int, int, int], v: Tuple[int, int, int]) -> Tuple[int, int, int]:
+        x1, y1, z1 = u
+        x2, y2, z2 = v
+        return (x1 + x2, y1 + y2, z1 + z2 + x1 * y2)
+
+    def hz_inv(u: Tuple[int, int, int]) -> Tuple[int, int, int]:
+        x, y, z = u
+        return (-x, -y, x * y - z)
+
+    def hz_comm(u: Tuple[int, int, int], v: Tuple[int, int, int]) -> Tuple[int, int, int]:
+        return hz_mul(hz_mul(u, v), hz_mul(hz_inv(u), hz_inv(v)))
+
+    a_hz = (1, 0, 0)
+    b_hz = (0, 1, 0)
+    comm_ab_hz = hz_comm(a_hz, b_hz)
+    triple_comm_a_ab_hz = hz_comm(a_hz, comm_ab_hz)
+    triple_comm_b_ab_hz = hz_comm(b_hz, comm_ab_hz)
+    assert comm_ab_hz == (0, 0, 1)
+    assert triple_comm_a_ab_hz == (0, 0, 0) and triple_comm_b_ab_hz == (0, 0, 0)
+
+    # Verify L: (a, b) -> (a, ab), R: (a, b) -> (ab, b), P: (a, b) -> (b, a) preserve/invert comm_ab_hz in H(Z)
+    comm_L_hz = hz_comm(a_hz, hz_mul(a_hz, b_hz))
+    comm_R_hz = hz_comm(hz_mul(a_hz, b_hz), b_hz)
+    comm_P_hz = hz_comm(b_hz, a_hz)
+    assert comm_L_hz == (0, 0, 1) and comm_R_hz == (0, 0, 1) and comm_P_hz == (0, 0, -1)
+
+    # Verify Q_8 is nilpotent of class 2 so gamma_3(Q_8) = {I_2} (Q_8 character factors through H(Z))
+    qi_2 = np.array([[1j, 0.0], [0.0, -1j]], dtype=complex)
+    qj_2 = np.array([[0.0, 1.0], [-1.0, 0.0]], dtype=complex)
+    comm_q8 = qi_2 @ qj_2 @ np.linalg.inv(qi_2) @ np.linalg.inv(qj_2)
+    triple_q8 = qi_2 @ comm_q8 @ np.linalg.inv(qi_2) @ np.linalg.inv(comm_q8)
+    q8_factors_through_hz = bool(
+        np.allclose(comm_q8, -np.eye(2, dtype=complex), atol=1e-14)
+        and np.allclose(triple_q8, np.eye(2, dtype=complex), atol=1e-14)
+    )
+    assert q8_factors_through_hz
+
+    heisenberg_hz_countermodel = {
+        "group": "H(Z) = F_2 / gamma_3(F_2)",
+        "commutator_ab_nontrivial": comm_ab_hz == (0, 0, 1),
+        "triple_commutators_vanish": triple_comm_a_ab_hz == (0, 0, 0) and triple_comm_b_ab_hz == (0, 0, 0),
+        "aut_f2_moves_descend_on_commutator": (
+            comm_L_hz == (0, 0, 1) and comm_R_hz == (0, 0, 1) and comm_P_hz == (0, 0, -1)
+        ),
+        "q8_character_factors_through_hz": q8_factors_through_hz,
+        "proves_full_f2_faithfulness_is_explicit_hypothesis": True,
+    }
+
     return {
         "idempotent_band_size": len(b2_elements),
         "idempotent_collapses_to_6": len(b2_elements) == 6,
@@ -198,6 +254,7 @@ def verify_step1_freeness_vs_relaxations() -> Dict[str, object]:
         "burnside_b23_kills_q8": int(np.gcd(27, 8)) == 1,
         "burnside_b23_sl2c_strictly_abelian": True,
         "abelian_kills_commutator": True,
+        "heisenberg_hz_countermodel": heisenberg_hz_countermodel,
     }
 
 
@@ -422,21 +479,37 @@ def verify_step2b_character_and_p321_prime() -> Dict[str, object]:
     basis_err = float(abs(np.trace(comm_scr) - (-2.0)))
     assert basis_err < 1e-12
 
-    # P-321 Half 2 (B1680): Under swap P and tick LP (det = -1), odd-p Heisenberg characters
-    # are conjugated (zeta_p -> zeta_p^-1 != zeta_p), whereas p = 2 (Q_8) is strictly fixed.
+    # P-321 Half 2 (B1680) + Codex 5b5bf2218 Scope & Whole-Weave Audit:
+    # 1. At p = 2, bare Pauli clock/shift (X_2, Z_2) have det = -1 and X_2^2 = Z_2^2 = +I_2 (generating D_4 in U(2)),
+    #    whereas the genuine Q_8 subset SU(2) representation uses Q_i = i*Z_2, Q_j = i*X_2*Z_2 (det = +1, Q_i^2 = Q_j^2 = -I_2).
+    #    We verify BOTH the genuine SU(2) Q_8 witness at p = 2 and the Weyl clock/shift table for p in {2, 3, 5}.
+    # 2. At odd primes p >= 3, under swap P and tick LP (det = -1), a SINGLE fixed complex-linear irreducible
+    #    Stone-von Neumann sector has its central character conjugated (zeta_p -> zeta_p^-1 != zeta_p).
+    #    HOWEVER, in a whole-weave / covariant-family architecture, two natural odd-p constructions DO survive:
+    #      (a) Conjugate-pair direct sum rho_{zeta_p} (+) rho_{zeta_p^-1} of dimension 2p, whose character
+    #          2*Re(chi_{zeta_p}) is strictly invariant under P and LP;
+    #      (b) Antiunitary Fourier-conjugation intertwiner (complex conjugation K combined with Discrete Fourier
+    #          Transform F_p), which intertwines the orientation-reversing move on the nose.
     p321_prime_test: Dict[str, Dict[str, object]] = {}
     for p in (2, 3, 5):
         zeta = np.exp(2j * np.pi / p)
         X_p = np.roll(np.eye(p, dtype=complex), -1, axis=1)
         Z_p = np.diag([zeta**k for k in range(p)])
-        X_inv = np.linalg.inv(X_p)
-        Z_inv = np.linalg.inv(Z_p)
+        if p == 2:
+            # Use genuine Q_8 subset SU(2) generators (det = +1, order 4) as primary witness at p = 2
+            G_a = qi
+            G_b = qj
+        else:
+            G_a = X_p
+            G_b = Z_p
+        G_a_inv = np.linalg.inv(G_a)
+        G_b_inv = np.linalg.inv(G_b)
 
-        comm_ab_p = X_p @ Z_p @ X_inv @ Z_inv
-        comm_swap_p = Z_p @ X_p @ Z_inv @ X_inv
-        XZ = X_p @ Z_p
-        XZ_inv = np.linalg.inv(XZ)
-        comm_tick_p = XZ @ X_p @ XZ_inv @ X_inv
+        comm_ab_p = G_a @ G_b @ G_a_inv @ G_b_inv
+        comm_swap_p = G_b @ G_a @ G_b_inv @ G_a_inv
+        AB = G_a @ G_b
+        AB_inv = np.linalg.inv(AB)
+        comm_tick_p = AB @ G_a @ AB_inv @ G_a_inv
 
         tr_orig = complex(np.trace(comm_ab_p))
         tr_swap = complex(np.trace(comm_swap_p))
@@ -444,20 +517,51 @@ def verify_step2b_character_and_p321_prime() -> Dict[str, object]:
 
         swap_diff = float(abs(tr_orig - tr_swap))
         tick_diff = float(abs(tr_orig - tr_tick))
+
+        # Whole-weave alternative (a): Conjugate-pair direct sum rho_{zeta_p} (+) rho_{zeta_p^-1} (dim 2p)
+        G_a_pair = np.block([[G_a, np.zeros((p, p), dtype=complex)], [np.zeros((p, p), dtype=complex), G_a.conj()]])
+        G_b_pair = np.block([[G_b, np.zeros((p, p), dtype=complex)], [np.zeros((p, p), dtype=complex), G_b.conj()]])
+        comm_pair_orig = G_a_pair @ G_b_pair @ np.linalg.inv(G_a_pair) @ np.linalg.inv(G_b_pair)
+        comm_pair_swap = G_b_pair @ G_a_pair @ np.linalg.inv(G_b_pair) @ np.linalg.inv(G_a_pair)
+        pair_swap_diff = float(abs(np.trace(comm_pair_orig) - np.trace(comm_pair_swap)))
+
+        # Whole-weave alternative (b): Discrete Fourier Transform F_p + complex conjugation K intertwines swap P:
+        # Since K Z_p K = Z_p^{-1} and F_p X_p F_p^\dagger = Z_p, F_p Z_p^{-1} F_p^\dagger = X_p,
+        # the antiunitary operator J_swap = F_p o K maps (X_p, Z_p) -> (Z_p, X_p) exactly!
+        F_p = np.array([[zeta ** (j * k) / np.sqrt(p) for k in range(p)] for j in range(p)], dtype=complex)
+        antiunitary_swap_err = float(
+            max(
+                np.linalg.norm(F_p @ X_p.conj() @ F_p.conj().T - Z_p),
+                np.linalg.norm(F_p @ Z_p.conj() @ F_p.conj().T - X_p),
+            )
+        )
+
         p321_prime_test[str(p)] = {
+            "witness_group": "Q_8_subset_SU2" if p == 2 else f"Heisenberg_Weyl_H(F_{p})",
+            "generator_det": int(round(np.linalg.det(G_a).real)),
             "tr_comm": [round(tr_orig.real, 12), round(tr_orig.imag, 12)],
             "tr_swap_comm": [round(tr_swap.real, 12), round(tr_swap.imag, 12)],
             "tr_tick_comm": [round(tr_tick.real, 12), round(tr_tick.imag, 12)],
             "fixed_by_swap_P": swap_diff < 1e-12,
             "fixed_by_tick_LP": tick_diff < 1e-12,
             "swap_diff_norm": round(swap_diff, 12),
+            "whole_weave_conjugate_pair_2p_fixed_by_swap": pair_swap_diff < 1e-12,
+            "whole_weave_antiunitary_fourier_swap_err": round(antiunitary_swap_err, 14),
         }
 
     assert p321_prime_test["2"]["fixed_by_swap_P"] is True
+    assert p321_prime_test["2"]["generator_det"] == 1
     assert p321_prime_test["3"]["fixed_by_swap_P"] is False
     assert p321_prime_test["5"]["fixed_by_swap_P"] is False
+    assert p321_prime_test["3"]["whole_weave_conjugate_pair_2p_fixed_by_swap"] is True
+    assert p321_prime_test["5"]["whole_weave_conjugate_pair_2p_fixed_by_swap"] is True
+    assert p321_prime_test["3"]["whole_weave_antiunitary_fourier_swap_err"] < 1e-12
+    assert p321_prime_test["5"]["whole_weave_antiunitary_fourier_swap_err"] < 1e-12
 
     return {
+        "foundation_characterization_scope": (
+            "CONDITIONAL_CHARACTERIZATION_WITHIN_CHOSEN_CATEGORY_NOT_UNCONDITIONAL_FOUNDATIONAL_DERIVATION"
+        ),
         "fricke_roots": roots,
         "kappa_at_0": kappa_0,
         "kappa_at_2": kappa_2,
@@ -611,6 +715,10 @@ def verify_step2c_p211_genus2_surface() -> Dict[str, object]:
             M[:, col] = (e_col + omega_val * u_arr) % 3
         sp4_f3_transvections.append(M)
     assert len(sp4_f3_transvections) == 80
+    distinct_sp4_f3_transvection_matrices = {
+        tuple(int(x) for x in M.ravel()) for M in sp4_f3_transvections
+    }
+    assert len(distinct_sp4_f3_transvection_matrices) == 40  # T_u == T_{-u} since (-u)*omega(-u, .) == u*omega(u, .)
 
     h3_fixed_all_80 = all(
         abs(char_table[(tuple(int(x) for x in (M @ np.array(v, dtype=int)) % 3), c)] - tr_orig) < 1e-12
@@ -631,6 +739,7 @@ def verify_step2c_p211_genus2_surface() -> Dict[str, object]:
         "g2_heisenberg_h3_irrep_dim": 9,
         "g2_heisenberg_h3_fixed_by_sp4": h3_fixed_all_80,
         "g2_sp4_f3_transvections_checked": len(sp4_f3_transvections),
+        "g2_sp4_f3_distinct_transvection_matrices": len(distinct_sp4_f3_transvection_matrices),
     }
 
 
@@ -717,7 +826,22 @@ def verify_step3_and_4_carrier_and_forks() -> Dict[str, object]:
     assert int(round(np.linalg.det(LR_mat))) == 1
     assert np.array_equal(L_inv @ LR_mat @ L_mat, R_mat @ L_mat)
 
-    # 8 Planted failing mutation countercontrols
+    # 8 Planted failing mutation countercontrols — ALL computed directly from explicit matrices/orbits (Guardrail 2 & Rule 5)
+    qi_m = np.array([[1j, 0.0], [0.0, -1j]], dtype=complex)
+    qj_m = np.array([[0.0, 1.0], [-1.0, 0.0]], dtype=complex)
+    qk_m = qi_m @ qj_m
+    # Mutation 4: independent left/right unitary transform U_L != U_R breaks trace invariance of a group element
+    U_left_m4 = qi_m
+    U_right_m4 = np.eye(2, dtype=complex)
+    mut4_lr_trace_diff = float(abs(np.trace(U_left_m4 @ qi_m @ U_right_m4.conj().T) - np.trace(qi_m)))
+    # Mutation 5: n = 3 mutually orthogonal traceless SL(2, C) triad has tr(g_1 g_2 g_3) = -2 != 0 = tr(g_1 g_2 g_3 g_1) under R_{31}
+    mut5_n3_r31_trace_mismatch = float(abs(np.trace(qi_m @ qj_m @ qk_m) - np.trace(qi_m @ qj_m @ qk_m @ qi_m)))
+    # Mutation 7: Sp(4, F_2) orbit sizes on the 16 forms are [6, 10], so the number of fixed points (orbit size 1) is 0
+    s2c_check = verify_step2c_p211_genus2_surface()
+    mut7_g2_fixed_point_count = sum(1 for sz in s2c_check["g2_sp4_f2_orbit_sizes"] if sz == 1)
+    # Mutation 8: In D_infinity, A_aff = (-1, 0), B_aff = (-1, 1) -> AB = (1, -1), (AB)^2 = (1, -2) != (1, 0)
+    s1_check = verify_step1_freeness_vs_relaxations()
+
     mutations = {
         "mutation1_swap_det_plus1_rejected": int(round(np.linalg.det(P_mat))) != 1,
         "mutation2_noncommutator_word_invariant_rejected": canonical_unoriented_conj_rep(
@@ -725,14 +849,14 @@ def verify_step3_and_4_carrier_and_forks() -> Dict[str, object]:
         )
         != canonical_unoriented_conj_rep((1, 2)),
         "mutation3_abelian_quotient_preserves_commutator_rejected": q_ab(comm_f2) == (0, 0),
-        "mutation4_independent_left_right_scrambling_trace_rejected": True,
-        "mutation5_n3_traceless_character_fixed_rejected": True,
+        "mutation4_independent_left_right_scrambling_trace_rejected": bool(mut4_lr_trace_diff > 1.0),
+        "mutation5_n3_traceless_character_fixed_rejected": bool(abs(mut5_n3_r31_trace_mismatch - 2.0) < 1e-12),
         "mutation6_s03_realizes_hyperbolic_lr_rejected": int(
             round(np.linalg.det(LR_mat - np.eye(2)))
         )
         != 0,
-        "mutation7_g2_fixes_2group_character_rejected": True,
-        "mutation8_dinf_admits_transvection_rejected": True,
+        "mutation7_g2_fixes_2group_character_rejected": bool(mut7_g2_fixed_point_count == 0),
+        "mutation8_dinf_admits_transvection_rejected": bool(s1_check["transvection_obstructed_in_dinf"] is True),
     }
     assert all(mutations.values())
 

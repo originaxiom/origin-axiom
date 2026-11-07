@@ -25123,15 +25123,18 @@ def theorem141_chat1_21cfbc3c2_one_process_one_level_k5_and_claude_sm_criterion_
       2. [MATH, CONDITIONAL ON MIRROR-TWISTED CARRIER] CRITERION K (`claude/sm` `47228ae85` Relay § 355) & Torsion Linking Reversal:
          Abelianizing a punctured-torus bundle with monodromy A gives H_1(M_A; Z) = Z (+) coker(A - I).
          For ordinary monodromy A = LR = [[2,1],[1,1]], det(A - I) = -1 (unimodular, SNF(A - I) = diag(1, 1)), so
-         ordinary m004 = M_{LR} has torsion-free homology H_1(m004; Z) = Z. For the mirror-twisted carrier M_{-LR} = m003
-         (monodromy -A, or the 2-fold branched cover Sigma_2(4_1)), coker(-A - I) = coker(A + I) has det(A + I) = 5 and
-         SNF(A + I) = diag(1, 5), giving H_1(M_{-LR}; Z) = Z (+) Z/5Z. On this mirror-twisted Z/5Z torsion carrier,
+         ordinary m004 = M_{LR} has torsion-free homology H_1(m004; Z) = Z. For the cusped mirror-twisted punctured-torus
+         bundle M_{-LR} = m003 (monodromy -A), coker(-A - I) = coker(A + I) has det(A + I) = 5 and SNF(A + I) = diag(1, 5),
+         giving H_1(M_{-LR}; Z) = Z (+) Z/5Z (first Betti number b_1 = 1, one torus cusp), whereas the closed 2-fold branched
+         cover Sigma_2(4_1) is a distinct closed 3-manifold with H_1(Sigma_2(4_1); Z) = Z/5Z (b_1 = 0, no boundary) obtained
+         only after Dehn filling / killing the base-circle meridian. On the Z/5Z torsion subgroup,
          both the torsion linking form q_link(v) = 3*v^2/5 (mod 1) and the spherical 2I end Chern-Simons invariant
          CS(2I)/(2*pi^2) = 1/5 (mod 1) (B248/B250) have exact denominator 5 in Q/Z, so the minimal positive integer k
          making exp(2*pi*i*k*CS) = 1 across that sector is k = 5 (and k == 5 mod 15 when combined with the level-4 S_4
          generation holonomy period 3 from Theorem 135). Moreover, q_link(2v) = 4*q_link(v) == -q_link(v) (mod 1),
          reversing the Chern-Simons / Weil phase between the two eigenline representatives v and 2v. Mapping the
-         mirror-twisted carrier M_{-LR} to the physical coupling sector remains a conditional physical premise.
+         mirror-twisted carrier M_{-LR} (or a Dehn-filled quotient to Sigma_2(4_1)) to the physical coupling sector remains a
+         conditional physical premise.
     """
     import cmath
     import sympy as sp
@@ -25170,6 +25173,11 @@ def theorem141_chat1_21cfbc3c2_one_process_one_level_k5_and_claude_sm_criterion_
     def _carrier_coker_torsion_order(monodromy_matrix: np.ndarray) -> int:
         return abs(int(round(np.linalg.det(monodromy_matrix - np.eye(2, dtype=int)))))
 
+    m003_betti1_rank = 1  # H_1(M_{-LR}; Z) = Z (+) coker(LR + I) = Z (+) Z/5Z
+    sigma2_4_1_betti1_rank = 0  # H_1(Sigma_2(4_1); Z) = Z/5Z (closed 2-fold branched cover, meridian killed)
+    m003_cusp_count = 1
+    sigma2_4_1_cusp_count = 0
+
     countercontrol_f1_carrier_discrimination = {
         "ordinary_m004_monodromy_LR_coker_order": _carrier_coker_torsion_order(LR_mat),
         "mirror_twisted_m003_monodromy_neg_LR_coker_order": _carrier_coker_torsion_order(-LR_mat),
@@ -25178,6 +25186,13 @@ def theorem141_chat1_21cfbc3c2_one_process_one_level_k5_and_claude_sm_criterion_
         "legacy_f1_ordinary_m004_has_z5_torsion": False,
         "ordinary_snf_is_1_1": bool(ordinary_snf_is_1_1),
         "mirror_twisted_snf_is_1_5": bool(snf_diag_exact),
+        "m003_betti1_rank": m003_betti1_rank,
+        "sigma2_4_1_betti1_rank": sigma2_4_1_betti1_rank,
+        "m003_cusp_count": m003_cusp_count,
+        "sigma2_4_1_cusp_count": sigma2_4_1_cusp_count,
+        "cusped_m003_and_closed_sigma2_4_1_are_distinct_3manifolds": bool(
+            m003_betti1_rank != sigma2_4_1_betti1_rank and m003_cusp_count != sigma2_4_1_cusp_count
+        ),
     }
 
     L_mat = np.array([[1, 0], [1, 1]], dtype=int)
@@ -25290,11 +25305,12 @@ def theorem141_chat1_21cfbc3c2_one_process_one_level_k5_and_claude_sm_criterion_
             ),
             "claude_sm_47228ae85_criterion_k_and_linking_reversal": (
                 "[MATH, CONDITIONAL ON MIRROR-TWISTED CARRIER M_{-LR}] Verifies Relay § 355 CRITERION K while distinguishing "
-                "ordinary m004 = M_{LR} (det(LR - I) = -1, SNF(LR - I) = diag(1, 1), H_1(m004; Z) = Z) from the mirror-twisted "
-                "carrier M_{-LR} = m003 / Sigma_2(4_1) (det(LR + I) = 5, SNF(LR + I) = diag(1, 5), H_1(M_{-LR}; Z) = Z (+) Z/5Z): "
-                "the least positive integer k trivializing exp(2*pi*i*k*CS) = 1 across the mirror-twisted H_1 torsion linking "
-                "phases 3*v^2/5 and the 2I spherical end CS/(2*pi^2) = 1/5 is k = 5 (and k == 5 mod 15 with the level-4 S_4 "
-                "generation holonomy), with q_link(2v) == -q_link(v) (mod 5)."
+                "ordinary m004 = M_{LR} (det(LR - I) = -1, SNF(LR - I) = diag(1, 1), H_1(m004; Z) = Z) from the cusped "
+                "mirror-twisted punctured-torus bundle M_{-LR} = m003 (det(LR + I) = 5, SNF(LR + I) = diag(1, 5), "
+                "H_1(M_{-LR}; Z) = Z (+) Z/5Z, b_1 = 1) and keeping M_{-LR} distinct from the closed 2-fold branched cover "
+                "Sigma_2(4_1) (H_1 = Z/5Z, b_1 = 0): the least positive integer k trivializing exp(2*pi*i*k*CS) = 1 across "
+                "the mirror-twisted Z/5Z torsion linking phases 3*v^2/5 and the 2I spherical end CS/(2*pi^2) = 1/5 is k = 5 "
+                "(and k == 5 mod 15 with the level-4 S_4 generation holonomy), with q_link(2v) == -q_link(v) (mod 5)."
             ),
         },
         "plain_english_elaboration": (
@@ -29379,22 +29395,35 @@ def theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage2
         "stage29_gate_independence_class": "INTERNAL_ALTERNATE_PRECISION_AND_SYMPY_CHECK_NOT_EXTERNAL_REFEREE",
     }
 
-    def _classify_numeric_source(is_computed_from_equations_in_function: bool, is_literal_constant: bool) -> str:
-        if is_computed_from_equations_in_function and not is_literal_constant:
+    def _classify_numeric_source(
+        is_computed_from_equations_in_function: bool,
+        is_literal_constant: bool,
+        equation_residual: float | None = None,
+    ) -> str:
+        if (
+            is_computed_from_equations_in_function
+            and not is_literal_constant
+            and equation_residual is not None
+            and equation_residual < 1e-30
+        ):
             return "FIRST_PRINCIPLES_RECOMPUTATION"
         return "IMPORTED_NUMERICAL_PIN"
 
     countercontrol_f5_evidence_typing_gate = {
-        "z2_mp_classified_as": _classify_numeric_source(True, False),
-        "l_tube_snappy_hp_classified_as": _classify_numeric_source(False, True),
-        "im_tau_sigma0_classified_as": _classify_numeric_source(False, True),
+        "z2_mp_classified_as": _classify_numeric_source(True, False, float(mp_poly_resid)),
+        "l_tube_snappy_hp_classified_as": _classify_numeric_source(False, True, None),
+        "im_tau_sigma0_classified_as": _classify_numeric_source(False, True, None),
         "mutation_promoting_literal_pin_to_fresh_mesh_rejected": bool(
-            _classify_numeric_source(False, True) == "IMPORTED_NUMERICAL_PIN"
-            and _classify_numeric_source(False, True) != "FIRST_PRINCIPLES_RECOMPUTATION"
+            _classify_numeric_source(False, True, None) == "IMPORTED_NUMERICAL_PIN"
+            and _classify_numeric_source(True, False, 1.0) == "IMPORTED_NUMERICAL_PIN"
+            and _classify_numeric_source(False, True, None) != "FIRST_PRINCIPLES_RECOMPUTATION"
         ),
         "mutation_promoting_internal_gate_to_external_referee_rejected": bool(
             evidence_typing_ledger["stage29_gate_independence_class"]
             == "INTERNAL_ALTERNATE_PRECISION_AND_SYMPY_CHECK_NOT_EXTERNAL_REFEREE"
+        ),
+        "provenance_classifier_scope": (
+            "RESIDUAL_AND_PROVENANCE_TAG_DISCRIMINATOR_NOT_EXTERNAL_AST_BYTECODE_PROVENANCE_ANALYZER"
         ),
     }
 

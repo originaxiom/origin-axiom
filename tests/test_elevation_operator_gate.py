@@ -3106,13 +3106,16 @@ def test_codex_f1_to_f6_repairs_and_discriminating_countercontrols() -> None:
         theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage29_referee_gate,
     )
 
-    # F1: Carrier discrimination (m004 = M_{LR} has torsion order 1; M_{-LR} = m003 has torsion order 5)
+    # F1: Carrier discrimination (m004 = M_{LR} has torsion order 1; M_{-LR} = m003 has torsion order 5; m003 != Sigma_2(4_1))
     t141 = theorem141_chat1_21cfbc3c2_one_process_one_level_k5_and_claude_sm_criterion_k()
     cc_f1 = t141["countercontrol_f1_carrier_discrimination"]
     assert cc_f1["ordinary_m004_monodromy_LR_coker_order"] == 1
     assert cc_f1["mirror_twisted_m003_monodromy_neg_LR_coker_order"] == 5
     assert cc_f1["ordinary_m004_rejected_as_z5_torsion_carrier"] is True
     assert cc_f1["mirror_twisted_m003_accepted_as_z5_torsion_carrier"] is True
+    assert cc_f1["m003_betti1_rank"] == 1
+    assert cc_f1["sigma2_4_1_betti1_rank"] == 0
+    assert cc_f1["cusped_m003_and_closed_sigma2_4_1_are_distinct_3manifolds"] is True
 
     # F2: Witness verification, explicit marking join B = [[1,0],[-2,1]], natural eigenline residue invariance, and SIXY scope
     t145 = theorem145_simultaneous_twin_coexistence_sixy_mod5_inter_twin_residue_invariance_and_punctured_fibre_orbit(t141)

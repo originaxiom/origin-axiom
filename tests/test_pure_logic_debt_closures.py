@@ -31,13 +31,18 @@ from origin_axiom.pure_logic_debt_closures import (
 def test_theorem_a_p318_p618_metallic_mckay_and_wzw_c6() -> None:
     res = verify_debt_p318_and_p618_metallic_mckay_and_wzw_c6()
     assert res["own_conductor_mckay_hits"] == [1, 4]
+    assert res["primitive_own_conductor_mckay_unique_hit"] == [1]
     assert res["m4_counterexample_order"] == 120
+    assert res["sl2_z4_order_and_involution_count"] == [48, 7]
+    assert res["genuine_su2_2O_order_and_involution_count"] == [48, 1]
+    assert res["sl2_z4_not_isomorphic_to_su2_2O_proved"] is True
     assert res["full_cascade_unique_hit"] == [1]
     assert res["wzw_sigma_eq_1_hits"] == ["A6", "D6", "E6"]
     assert res["wzw_sigma_eq_1_and_3primaries_unique_hit"] == ["E6"]
     assert res["wzw_rank6_comparison"]["A6"]["level1_primaries_det_C"] == 7
     assert res["wzw_rank6_comparison"]["D6"]["level1_primaries_det_C"] == 4
     assert res["wzw_rank6_comparison"]["E6"]["level1_primaries_det_C"] == 3
+    assert len(res["wzw_all_16_simply_laced_table"]) == 16
 
 
 def test_theorem_b_p604_hypercharge_primitivity_kernel() -> None:
@@ -52,6 +57,10 @@ def test_theorem_c_p606_degree2_trace_field_vs_multiplicity3() -> None:
     res = verify_debt_p606_degree2_trace_field_vs_multiplicity3()
     assert res["scoped_galois_orbit_sizes_in_quadratic_field"] == [1, 2]
     assert res["counterexample1_isotypic_multiplicity"] == 3
+    assert res["counterexample1_1d_block_commutant_dim_K"] == 9
+    assert res["counterexample1_irred_2d_block_commutant_dim_Q"] == 18
+    assert res["counterexample1_irred_2d_block_commutant_dim_K"] == 9
+    assert res["counterexample1_reducible_diag_splitting_commutant_dim_K"] == 18
     assert res["counterexample2_sigma11_f2_parity_count"] == 3
     assert res["counterexample3_2T_1d_character_count"] == 3
     assert res["counterexample3_2T_2d_doublet_count"] == 3
@@ -74,6 +83,9 @@ def test_theorem_d_p355_lepton_down_coincidence_locus() -> None:
         "II_k_delta_half_half": 20,
     }
     assert res["class2_real_half_period_b1742_line_count"] == 20
+    cc_b1832 = res["b1832_t_half_lift_and_pure_qi_countercontrol"]
+    assert cc_b1832["pure_qi_higgs_also_preserves_d_eq_e"] is True
+    assert cc_b1832["mixed_higgs_breaks_d_eq_e"] is True
     assert res["class3_clean_separation_line_count_N_le_12"] == 184
     assert res["class3_clean_separation_line_count_N_le_16"] == 532
     assert res["total_clean_separation_with_v_i_zero_N_le_12"] == 224
@@ -83,6 +95,7 @@ def test_theorem_d_p355_lepton_down_coincidence_locus() -> None:
 def test_theorem_e_p262_p268_p292_duplication_and_zeros() -> None:
     res = verify_debt_p262_and_p268_duplication_and_zeros()
     assert res["max_duplication_factorization_rel_err"] < 1e-14
+    assert res["max_mp30_full_u_unnormalized_szego_err"] < 1e-26
     assert res["max_riemann_sum_R2_rel_err"] < 1e-14
     assert res["order3_max_rel_R1"] < 1e-14
     assert res["b1701_tied_line_count"] == 27
@@ -91,8 +104,10 @@ def test_theorem_e_p262_p268_p292_duplication_and_zeros() -> None:
     assert res["p268_firing_counts_by_order"]["12"] == {"up": 0, "down": 0, "lep": 48}
     assert res["p292_re_tau_0_both_odd_line_count"] == 16
     assert res["p292_re_tau_0_max_both_odd_4channel_a0_spread"] < 1e-14
+    assert res["p292_re_tau_0_max_both_odd_full_2d_c_tilde_spread"] < 1e-13
     assert res["p292_re_tau_0_alpha_odd_b_even_counterexample_count"] == 16
     assert res["p292_re_tau_0_min_b_even_counterexample_defect"] > 1e-3
+    assert res["p292_re_tau_0_b_even_full_2d_c_tilde_defect"] > 1e-2
 
 
 def test_planted_mutations_rejected() -> None:
