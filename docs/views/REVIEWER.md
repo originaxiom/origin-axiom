@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1554** |
-| words of findings prose | **1,316,924** |
+| research arcs with findings | **1555** |
+| words of findings prose | **1,318,104** |
 | test lock files referenced | **933** |
-| arcs carrying an authored verdict | **1554** (100.0 %) |
+| arcs carrying an authored verdict | **1555** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1063 |
+| PROVED | 1064 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1852`** (761 words, 0 locks)  
-THE TUBE'S REAL PART, BY TOPOLOGY (the real number Review 76 owed): sigma's two fixed fibres carry orientation-reversing involutions whose GL(2,Z) class mod 2 decides the reduced Re tau (= I mod 2: Re 0; otherwise Re 1/2 or |tau| = 1); on L^6RLR the two fixed fibres are in opposite classes (exact), and B1847's anti-apex at Re 1/2 (7e-7) is the second, so the tube's level surface has Re tau = 0 exactly -- the metric's own tau at the tube is 0 + 6.15(15) i, differing from the Teichmuller apex (1/2 + 3.65i) in its real part as well as its height; m004 the control (both fixed levels at Re 1/2, as B1847 measured); the even-run pattern observed in four words, not proved. No coupling, scale or ratio; nothing compared with data. 0 of 19.  
-`B1852_the_tubes_real_part_by_topology/FINDINGS.md`
+**PROVED — `B1853`** (857 words, 0 locks)  
+THE DEPARTURE'S DEPTH: THE ACTION SELECTS WITHIN A PREMISE, THE PREMISE IS A CHARGE (the explore seat's two relays, verified on main's own code): among R1's 643 rung-invisible defects the least Mostow-rigid excess volume is (6), uniquely (1.5714462325; next 2.1955011599), and among the 3494 line-invisible, (2,1,1,1,2) -- both as least length; the line premise is exactly the symmetry reading (C5(LR) = <LR>, order 10) and the rung premise at level N exactly the charge reading (only +-I conserve every golden background's class, N = 2..5); the least-length ladder (2), (2,1,1,1,2), (6), (21), (61) over R1 u R2, each unique; the apex law (n - 1)/2 + sqrt5/2 exact; LR fixes a point of P^1(Z/N) only at N = 5. The depth rests on the premise (a superselection charge at 5) and on minimisation (the volume sum diverges); the charge law depth = lcm(S)/2 + sqrt5/2 a range-scoped candidate (P-737); the ramified-prime speculation a LEAD (P-738). Nothing compared with data. 0 of 19.  
+`B1853_the_departures_depth_premises_verified/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  

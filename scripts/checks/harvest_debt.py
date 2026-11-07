@@ -166,6 +166,11 @@ SEATS = [
          remotes=("origin",), cell=("agy lane",)),
     dict(key="independent", label="the independent audit lane (2026-11-03)", branch="independent-2026-11-03",
          remotes=("origin",), cell=("independent audit lane",)),
+    # ADDED 2026-11-07 (S306l), on the explore seat's own relay to main (a peer session, at the owner's word): the branch
+    # `explore/2026-11-05`, forked from main at 5f2286cdb, carrying data-free tests as relays under relays/ (no arc numbers,
+    # nothing written to main). Registered so it is watched, pinned at its head (rows 1612-1613, B1853).
+    dict(key="explore", label="the explore seat (2026-11-05)", branch="2026-11-05",
+         remotes=("origin",), cell=("explore seat",)),
     # ADDED 2026-10-03 (B1461), found by the lane survey in S44's suite: a one-commit branch pushed to both remotes
     # at 01:18 UTC that day, an illustration under art/ with no programme content and an author field that is not
     # the repository's. Not a seat; registered so that it is watched, pinned at its head so it carries no items;

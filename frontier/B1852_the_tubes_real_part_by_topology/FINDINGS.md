@@ -56,3 +56,15 @@ real number is owed (Review 76)". B1847 measured Im τ(Σ₀) = 6.15 ± 0.15 and
   draft assigned the classes to positions directly. The mapping-torus formula shows that the assignment depends on where
   the word is cut, so that claim is withdrawn and the result stands on the numerics.
 - **That σ's fixed levels are s = 0 and s = ½ is B1846's normalisation** (θ∘σ = −θ + c, c = 0).
+
+## Dated addendum (2026-11-07, S306l; the web seat's relay 991d7e2ac, harvest row 1614)
+
+- **Main's own check** (`verification/addendum_k_family.py`, exact): on L⁶R(LR)^k for k = 1..5, every reversing
+  involution puts σ's two fixed fibres in opposite classes (4, 4, 2, 2 and 2 of them). SnapPy's systoles are 0.18486980,
+  0.18519963, 0.18521766, 0.18521832 and 0.18521828, matching the seat's table.
+- **The seat's independent instrument** puts the tube at Re τ = 0 and the anti-apex at Re ½ for every k, to 3 × 10⁻⁹. Its
+  values:
+  - k = 1: τ(Σ₀) = 0 + 6.14916(41)i, inside this arc's 6.15 ± 0.15;
+  - the sealed k → ∞ estimate: 0 + 6.06526(57)i.
+  These are the seat's computations. Main has recomputed neither the k ≥ 2 values nor the limit (P-739).
+- **The even-run pattern** now holds in nine words, and is still not proved (P-740).

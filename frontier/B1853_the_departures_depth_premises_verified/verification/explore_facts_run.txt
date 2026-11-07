@@ -1,0 +1,13 @@
+R1: 42768 defects, 643 rung-invisible (E = +-I mod 5)
+HL1: |SL(2,F5)| = 120; |C5(LR)| = 10; C5(LR) = <LR> (which contains -I): True
+HL2: only +-I conserve every golden background's class at N = 2, 3, 4, 5: [True, True, True, True]
+HL3 none:                  least length (2,) (0.739280); next (3,) (+0.5386)
+HL3 symmetry at 5:         least length (2, 1, 1, 1, 2) (1.474491); next (2, 1, 2, 1, 2) (+0.6852)
+HL3 charge at 5:           least length (6,) (2.348718); next (2, 1, 1, 1, 1, 5) (+0.4450)
+HL3 charge at 4, 5:        least length (21,) (4.593993); next (2, 1, 2, 4, 4) (+0.6276)
+HL3 charge at 2, 3, 4, 5:  least length (61,) (6.652431); next (2, 1, 6, 3, 4, 2) (+0.6229)
+apex law: the single run (n) in the golden background has apex (n - 1)/2 + sqrt5/2 (n = 2, 6, 21, 61: exact)
+LR's fixed points on P^1(Z/N): {2: [], 3: [], 4: [], 5: [(1, 2)]}
+HV1: 643 volumes (0 non-geometric skipped, 1 s); least (6,) at 1.5714462325; next (5, 1, 1, 1, 1, 2) 2.1955011599 and (2, 1, 1, 1, 1, 5) 2.1955011599; gap 0.6241
+HV3: (dV(11) - dV(6))/dV(6) = 0.117
+HV2: 3494 line-invisible defects; least excess volume (2, 1, 1, 1, 2) (1.397218), next (6,) (+0.1742); dV(2,2,2) = 2.3592 (not rung-invisible)

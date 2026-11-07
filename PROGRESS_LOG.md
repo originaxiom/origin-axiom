@@ -18692,3 +18692,12 @@ it exactly. The fibre there is mirrored onto itself, and the type of the mirror 
 alone. Of the two places the mirror fixes, one is already measured at the half point, so the tube sits exactly on the
 other line. 0 of 19.
 
+## 2026-11-07 — S306l: what sets the departure's depth, and the tube's shape in the long-history limit
+
+A new exploring seat asked whether the depth of the one departure from the golden history is forced. Main re-derived
+its two tests with its own code. The object's own volume picks the same departure as length does, but only after a
+premise is granted. That premise is now named exactly: the level-5 class is conserved, like a charge. Without it,
+nothing deep is selected. The web seat built a second, independent instrument for the fibre's shape at the tube. It
+agrees with main's value and narrows it by a factor of several hundred. It also estimates the value in the limit of a
+long history, an estimate main has not yet reproduced. 0 of 19.
+

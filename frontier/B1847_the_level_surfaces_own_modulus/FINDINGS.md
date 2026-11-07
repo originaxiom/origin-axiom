@@ -192,3 +192,16 @@ read, no held-out quantity is computed, and nothing is compared with data. 0 of 
   supply door C, which stays one declared choice (P-729; the web seat's harvest row 1605 agrees).
 - **No coupling, scale or ratio computed; nothing compared with data.**
 
+
+## Dated note (2026-11-07, S306l; the web seat's relay 991d7e2ac, harvest row 1614)
+
+- **The modulus formula.** The scripts compute τ = (−E₁₂ + i)/E₂₂, which depends on the cycle basis at the size of
+  det E − 1.
+  - The energy form's root, τ = (−E₁₂ + i√det E)/E₂₂, is covariant under a change of basis. It equals the scripts' formula
+    when det E = 1 (B1852's `addendum_k_family.py` checks the covariance).
+  - Near the tube, § 8 carries det E − 1 of about −0.6 % to −2 %, so the basis-dependent part is at most about 1 % of
+    Im τ (≈ 0.06). That is inside § 8's ± 0.15, and limits taken as det E → 1 agree.
+  - Later readings near the tube use the root.
+- **An independent instrument** (the web seat's, sealed before its run) reads k = 1's tube at 0 + 6.14916(41)i, its
+  anti-apex at ½ + 1.59035(4)i, and m004's σ-level at ½ + 1.124381(27)i. All three agree with § 8's and § 3's values.
+- **Nothing in this arc's result moves.**

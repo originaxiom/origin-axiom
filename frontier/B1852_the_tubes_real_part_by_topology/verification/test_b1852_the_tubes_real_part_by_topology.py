@@ -11,3 +11,8 @@ def test_the_classes_reproduce():
     assert "both at Re tau = 1/2" in lines[0] and "m004" in lines[0]
     assert "opposite classes" in lines[1] and "L^6RLR" in lines[1]
     assert "0 + 6.15(15) i" in lines[-1]
+
+
+def test_the_family_addendum_output():
+    t = (HERE / "addendum_k_family_run.txt").read_text(encoding="utf-8")
+    assert t.count("opposite classes") == 5 and "systole 0.18521828" in t and "the Mobius image" in t and "HOLDS" in t

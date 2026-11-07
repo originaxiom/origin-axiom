@@ -1,0 +1,26 @@
+{
+ "id": "B1853",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1845",
+  "B1849"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the explore seat's relays (harvest rows 1612-1613, origin/explore/2026-11-05 @ 3c510bbe)"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the departures of P-717 (defects in the golden background), their premises (charge at N, symmetry at 5) and actions (excess length, excess volume)",
+  "object": "the once-punctured-torus bundles of the golden word with a defect; ranges R1 and R2",
+  "reach": "class",
+  "hypotheses": "data-free; integer matrices mod N, exact continued fractions, SnapPy volumes at k = 10 and traces at k = 20; range-scoped enumerations; main's own code, the seat's modules read for definitions only"
+ },
+ "claim_one_line": "THE DEPARTURE'S DEPTH: THE ACTION SELECTS WITHIN A PREMISE, THE PREMISE IS A CHARGE (the explore seat's two relays, verified on main's own code): among R1's 643 rung-invisible defects the least Mostow-rigid excess volume is (6), uniquely (1.5714462325; next 2.1955011599), and among the 3494 line-invisible, (2,1,1,1,2) -- both as least length; the line premise is exactly the symmetry reading (C5(LR) = <LR>, order 10) and the rung premise at level N exactly the charge reading (only +-I conserve every golden background's class, N = 2..5); the least-length ladder (2), (2,1,1,1,2), (6), (21), (61) over R1 u R2, each unique; the apex law (n - 1)/2 + sqrt5/2 exact; LR fixes a point of P^1(Z/N) only at N = 5. The depth rests on the premise (a superselection charge at 5) and on minimisation (the volume sum diverges); the charge law depth = lcm(S)/2 + sqrt5/2 a range-scoped candidate (P-737); the ramified-prime speculation a LEAD (P-738). Nothing compared with data. 0 of 19.",
+ "weave_or_thread": "thread (departures on the golden thread)"
+}
