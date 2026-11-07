@@ -15715,8 +15715,8 @@
     "wrt_quantum"
    ],
    "refs": [],
-   "obstacle": "measure",
-   "obstacle_conf": 1,
+   "obstacle": "observable",
+   "obstacle_conf": 2,
    "status": "banked",
    "domain": "physics"
   },
@@ -15734,6 +15734,18 @@
    "obstacle_conf": 1,
    "status": "banked",
    "domain": "topology"
+  },
+  "B1855": {
+   "slug": "the charge law settled",
+   "motifs": [
+    "action",
+    "golden"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "dynamics"
   },
   "B185": {
    "slug": "constraint selection",

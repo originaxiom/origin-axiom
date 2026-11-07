@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1555** |
-| words of findings prose | **1,318,104** |
+| research arcs with findings | **1556** |
+| words of findings prose | **1,319,175** |
 | test lock files referenced | **933** |
-| arcs carrying an authored verdict | **1555** (100.0 %) |
+| arcs carrying an authored verdict | **1556** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1064 |
+| PROVED | 1065 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1853`** (857 words, 0 locks)  
-THE DEPARTURE'S DEPTH: THE ACTION SELECTS WITHIN A PREMISE, THE PREMISE IS A CHARGE (the explore seat's two relays, verified on main's own code): among R1's 643 rung-invisible defects the least Mostow-rigid excess volume is (6), uniquely (1.5714462325; next 2.1955011599), and among the 3494 line-invisible, (2,1,1,1,2) -- both as least length; the line premise is exactly the symmetry reading (C5(LR) = <LR>, order 10) and the rung premise at level N exactly the charge reading (only +-I conserve every golden background's class, N = 2..5); the least-length ladder (2), (2,1,1,1,2), (6), (21), (61) over R1 u R2, each unique; the apex law (n - 1)/2 + sqrt5/2 exact; LR fixes a point of P^1(Z/N) only at N = 5. The depth rests on the premise (a superselection charge at 5) and on minimisation (the volume sum diverges); the charge law depth = lcm(S)/2 + sqrt5/2 a range-scoped candidate (P-737); the ramified-prime speculation a LEAD (P-738). Nothing compared with data. 0 of 19.  
-`B1853_the_departures_depth_premises_verified/FINDINGS.md`
+**PROVED — `B1855`** (812 words, 0 locks)  
+THE CHARGE LAW SETTLED (P-737): main's own result -- the law FAILS for every lcm(S) >= 12: six explicit gapped counterexamples of the explore seat satisfy the charge premise exactly with less excess than the single run lcm(S) + 1 (checked in exact integers and 80 digits on main's code, e.g. {4,5}: 3.9224 < 4.5940; {2,3,4,5}: 3.8672 < 6.6524), so B1853's (21) and (61) rows were range artifacts and the depth does not rise without bound with the conserved levels; the seat's PROOF that the single run lcm(S) + 1 is the unique least-excess departure over all defects for lcm(S) <= 10 -- at S = {5} the run of 6, depth sqrt5*phi -- is cited: its Lemma A verified on main to 7e-18 (3000 R1 defects), S = {5} corroborated by main's brute force (no gapped two- or three-run defect below the run of 6 among 3516), its exhaustive shortest-path search not re-run (P-741). Nothing compared with data. 0 of 19.  
+`B1855_the_charge_law_settled/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  

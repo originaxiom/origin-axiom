@@ -41,3 +41,9 @@ image = sp.nsimplify(sp.simplify((a * t0 - b) / (d - c * t0)))
 assert sp.simplify(moved - image) == 0
 out.append("covariant root: E = [[3,1],[1,2]] -> %s; A E A^T (A = [[2,1],[1,1]]) -> %s = the Mobius image t -> (a t - b)/(d - c t): HOLDS" % (sp.nsimplify(t0), moved))
 print("\n".join(out))
+# the per-centre rule's prediction (P-740): a sigma-fixed fibre at the middle of an EVEN run carries the class = I mod 2
+# (Re 0), at the middle letter of an ODD run the class != I (Re 1/2); so two even-run centres give (True, True)
+for w, want in (("LLRR", {(True, True)}), ("LLLLRR", {(True, True)}), ("LLRRRR", {(True, True)}), ("LLLRRR", {(False, False)})):
+    n, pairs = ns["classes"](w)
+    assert pairs == want, (w, pairs)
+    print("%-8s %d reversing involutions, fixed-fibre classes %s: as the per-centre rule predicts" % (w, n, sorted(pairs)))

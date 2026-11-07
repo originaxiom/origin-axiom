@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.62) of 2026-11-05 |
-| arcs with a verdict | 1555: 1064 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 740: 244 open (queued, leads, waiting for the owner), 496 closed |
+| arcs with a verdict | 1556: 1065 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
+| points in the register | 741: 244 open (queued, leads, waiting for the owner), 497 closed |
 | the last review | Review 76 (2026-11-06), anchor `1eb535ecd` |
-| the last landing | S306l TWO SEATS HARVESTED: THE DEPARTURE'S DEPTH IS A CHARGE PREMISE (B1853; the explore seat, registered); THE TUBE'S τ TOWARD k → ∞ (the web seat)… |
+| the last landing | S306m (continued) THE CHARGE LAW SETTLED (B1855; P-737 DONE): REFUTED FROM lcm(S) = 12, PROVED BELOW BY THE EXPLORE SEAT (2026-11-07) |
 <!-- STATE:END -->
 
 ## Start here

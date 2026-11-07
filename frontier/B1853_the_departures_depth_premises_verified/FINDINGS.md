@@ -74,3 +74,13 @@ The seat's modules were read for their definitions only. 0 of 19.
   the logs and committed the fix before its rerun. Main's re-derivation shares no code with it.
 - **The explore lane was unregistered until this landing.** It is now watched by `harvest_debt.py`, pinned at
   `3c510bbe`, and listed in `docs/SEAT_REGISTER.md`.
+
+## Dated note (2026-11-07, S306m; B1855, P-737 settled)
+
+- **HL3's rows for charge at 4, 5 ((21)) and charge at 2, 3, 4, 5 ((61)) were minima within R1 ∪ R2 only.** Outside
+  those ranges, gapped defects satisfy the same premises with less excess: {4, 5} 3.9224 against 4.5940; {2, 3, 4, 5}
+  3.8672 against 6.6524 (B1855, checked exactly on main).
+- **So the charge law's depth lcm(S)/2 + √5/2 holds only where lcm(S) ≤ 10.** That part is the seat's proof, cited in
+  B1855 and not re-run on main (P-741). Conserving more levels does not deepen the departure without bound.
+- **Unchanged:** HL1, HL2, and the selections under no premise, the line premise, and charge at 5. The run of 6 under
+  charge at 5 is the seat's proved case, corroborated on main.

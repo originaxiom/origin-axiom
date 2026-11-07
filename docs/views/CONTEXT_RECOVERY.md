@@ -13,24 +13,25 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1555 |
-| … PROVED | 1064 |
+| arcs with a verdict file | 1556 |
+| … PROVED | 1065 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 740 |
+| register points | 741 |
 | … QUEUED | 236 |
 | … LEAD | 4 |
 | … OWNER | 4 |
-| … DONE | 485 |
+| … DONE | 486 |
 | … DECLINED | 11 |
-| harvest rows (the last number) | 1614 |
+| harvest rows (the last number) | 1615 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1855 | PROVED | THE CHARGE LAW SETTLED (P-737): main's own result -- the law FAILS for every lcm(S) >= 12: six explicit gapped counterexamples of the explore seat satisfy the charge premise exactly with less excess than the single run… |
 | B1853 | PROVED | THE DEPARTURE'S DEPTH: THE ACTION SELECTS WITHIN A PREMISE, THE PREMISE IS A CHARGE (the explore seat's two relays, verified on main's own code): among R1's 643 rung-invisible defects the least Mostow-rigid excess volum… |
 | B1852 | PROVED | THE TUBE'S REAL PART, BY TOPOLOGY (the real number Review 76 owed): sigma's two fixed fibres carry orientation-reversing involutions whose GL(2,Z) class mod 2 decides the reduced Re tau (= I mod 2: Re 0; otherwise Re 1/… |
 | B1851 | PROVED | THE CHIRAL PREMISE RELOCATED, VERIFIED; THE OPEN-BOOK SCALE CARD RULED NOT SEALABLE (the web seat's three relays, harvest rows 1609-1611): re-derived on main -- in DGLZ's t = k +- sigma the product's exponent is sigma*V… |
@@ -42,7 +43,6 @@
 | B1845 | PROVED | THE OBJECT'S OWN LINE AND THE EXCURSION READ OUT (P-717, P-718, P-455; data-free exploration, toward the owner's goal): level 5 is the object's own (LR's discriminant 5, LR = -(unipotent) mod 5, order 5 in A5); RL fixes… |
 | B1844 | PROVED | REVIEW 75 (the owner's 'Run it now'; 60 merges, at the waiver's limit): the window's five-arc sample read in full (B1834, B1836, B1838 by a reader, B1839 and B1841 by main) -- all hold, three with notes applied as dated… |
 | B1843 | PROVED | GENESIS v1.62 (the owner's ruling, 2026-11-05: 'if you also agree with sm about the rule, i aprove it'): GAP1's held-out targets are graded jointly -- each inside its 68% band and the joint p_V (the product of marginal… |
-| B1841 | PROVED | THE PRINCIPLED-ENDS CARD (sealed 29b0e5b39; output committed unread at aba2bddd6): at B1840's principled entry E4 = L_2 - pi/2 (the area-4 horocycle) the six reach chi2_six 4.727 (best row apex 162, tau0 = (1/2, 2.9496)… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -56,18 +56,18 @@
 
 ## The last landings (CHANGELOG)
 
+- S306m (continued) THE CHARGE LAW SETTLED (B1855; P-737 DONE): REFUTED FROM lcm(S) = 12, PROVED BELOW BY THE EXPLORE SEAT (2026-11-07)
+- S306m THE τ READ-OUT RULE (P-714's construction ruled); B1852's PER-CENTRE RULE (P-740 sharpened); P-739 RUNNING (2026-11-07)
 - S306l TWO SEATS HARVESTED: THE DEPARTURE'S DEPTH IS A CHARGE PREMISE (B1853; the explore seat, registered); THE TUBE'S τ TOWARD k → ∞ (the web seat) (2026-11-07)
 - S306k (continued) THE TUBE'S REAL PART, BY TOPOLOGY (B1852): THE METRIC'S OWN τ AT THE TUBE IS 0 + 6.15(15) i (2026-11-07)
 - S306k THE SEATS FETCHED: THE CHIRAL PREMISE RELOCATED, VERIFIED; THE OPEN-BOOK SCALE CARD RULED NOT SEALABLE (B1851; rows 1609–1611) (2026-11-07)
 - S306j THE OPEN LEADS AND THE BACKLOG CONFIRMED ONE BY ONE (B1850; R76-1's second half: P-617 DONE, P-616 narrowed) (2026-11-07)
 - S306i THE LEADS CONFIRMED ONE BY ONE (B1849; R76-1, the register half of P-617) (2026-11-06)
 - S306h REVIEW 76'S ITEMS WORKED: B1842'S CONTROLS RUN (C-T CORRECTED), THE SEAL-ORDER LIST FROZEN, THE LINE STABILIZERS (2026-11-06)
-- S306g REVIEW 76'S ITEMS WORKED: THE TUBE'S OWN MODULUS (B1847 § 8; P-727 DONE), DOOR C'S C5, R2'S FORM (2026-11-06)
-- S306f THE LACIE SYNCED WHOLE; THE SEATS FETCHED AFTER REVIEW 76 (2026-11-06)
 
 ## The latest campaign line
 
-LATEST (2026-11-07, S306l: B1853 — the explore seat registered and its tests verified: the least-volume departure is (6) under the rung premise, which is exactly a level-5 charge; the action does not force the depth (P-735–P-738); the web seat's tube instrument agrees with B1847 at k = 1 (6.14916(41)i) and estimates τ_∞ = 0 + 6.06526(57)i (P-739 owed). 0 of 19.)
+LATEST (2026-11-07, S306m (continued): B1855 — the charge law settled: refuted for lcm(S) ≥ 12 (counterexamples verified on main), proved for lcm(S) ≤ 10 by the explore seat (cited; S = {5}'s run of 6 corroborated); B1853's (21)/(61) rows were range artifacts. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

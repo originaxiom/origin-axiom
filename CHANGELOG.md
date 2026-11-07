@@ -1,5 +1,33 @@
 # Changelog
 
+## S306m (continued) THE CHARGE LAW SETTLED (B1855; P-737 DONE): REFUTED FROM lcm(S) = 12, PROVED BELOW BY THE EXPLORE SEAT (2026-11-07)
+
+- **The explore seat settled P-737 both ways** (row 1615; pin 91119a38).
+- **Main's own result, the refutation.** Six gapped counterexamples satisfy the charge premise with less excess than the single run lcm(S) + 1. All were checked exactly on main's code: for example {4, 5} at 3.9224 against 4.5940, and {2, 3, 4, 5} at 3.8672 against 6.6524.
+  - So B1853's (21) and (61) rows were range artifacts, and the depth does not rise without bound with the conserved levels. B1853 has a dated note.
+- **The seat's proof for lcm(S) ≤ 10,** including S = {5}'s run of 6, is cited.
+  - Lemma A is verified to 7 × 10⁻¹⁸.
+  - S = {5} is corroborated by main's brute force: no gapped two- or three-run defect lies below the run of 6.
+  - The exhaustive search is not re-run on main (P-741, then a LAW_MAP row).
+- **Main's slip, disclosed:** a first Lemma A check used the seat's eigenvector in GENESIS's letters. With GENESIS's L and R the leading eigenvector is (φ, 1).
+- 0 of 19.
+
+## S306m THE τ READ-OUT RULE (P-714's construction ruled); B1852's PER-CENTRE RULE (P-740 sharpened); P-739 RUNNING (2026-11-07)
+
+- **The owner:** 'continue'.
+- **The rule** (docs/THE_TAU_READOUT_RULE.md): τ at a point of the circle is the conformal modulus of the fibre at that point of the metric's own clock. It follows from the record's own rulings:
+  - harmonic time is the metric's clock, with no choice (B1846);
+  - the moduli-space clocks are CHOSEN (B1815);
+  - a time's fibre is its level set.
+- **What survives:** of P-714's four readings, only the harmonic level surface.
+  - The Teichmüller apex reads a chosen clock.
+  - The pleated layers have no time.
+  - A tetrahedron's shape is not a fibre's modulus.
+- **Still CHOSEN:** point or weight, the charge premise at 5, and minimisation. Under the point reading, τ* = τ(Σ₀) of the one-departure history as k → ∞. It is blind to the six, read against them only in a sealed card.
+- **B1852's addendum:** the even-run pattern becomes a per-centre rule. Its prediction holds exactly on L²R², L⁴R², L²R⁴ (both fibres Re 0) and L³R³ (both Re ½). The proof is owed (P-740).
+- **P-739:** main's own recomputation of the tube's τ at k = 2 and 3 is running (one Hejhal setup per member).
+- 0 of 19.
+
 ## S306l TWO SEATS HARVESTED: THE DEPARTURE'S DEPTH IS A CHARGE PREMISE (B1853; the explore seat, registered); THE TUBE'S τ TOWARD k → ∞ (the web seat) (2026-11-07)
 
 - **The explore seat.** A peer session relayed two pre-registered tests at the owner's word. The lane was unregistered; it is now watched by `harvest_debt.py`, pinned at `3c510bbe`, and listed in SEAT_REGISTER.
