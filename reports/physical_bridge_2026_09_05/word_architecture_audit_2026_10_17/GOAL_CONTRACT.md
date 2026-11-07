@@ -2258,3 +2258,17 @@ sector identification remain to derive. A separate four-control design
 is unimplemented and unrun. No physical parameter or foundational row
 is paid by equating representation dimensions or by the new common-source
 construction alone. The full mission remains active.
+
+
+The [finite Pin2 transport family](PIN2_TRANSPORT_FAMILY_AND_LEVEL_FIVE_FREDHOLM_CANDIDATE.md)
+uses the existing coherent compensator and unchanged local stationary
+action. Its candidate end criterion distinguishes the quaternion
+threshold from a level-five-line-normalizer transport. Six controls are
+designed before implementation; none is implemented or run. A direct
+full-slot half-root phase argument gives a proposed compact 128 sector
+at five. The full Fredholm transfer remains an analytical review duty.
+The physical flat transport changes, and the chosen pair fails fixed
+LR mapping-torus descent; only its punctured-curve stationary construction
+and covariant data family are exhibited. No carrier identification,
+SM3 spectrum or foundational input is paid. Actual new kernels and weak
+currents must be derived on this bundle, not copied from n=2.
