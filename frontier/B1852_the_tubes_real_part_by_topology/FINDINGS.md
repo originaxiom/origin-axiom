@@ -67,4 +67,12 @@ real number is owed (Review 76)". B1847 measured Im τ(Σ₀) = 6.15 ± 0.15 and
   - k = 1: τ(Σ₀) = 0 + 6.14916(41)i, inside this arc's 6.15 ± 0.15;
   - the sealed k → ∞ estimate: 0 + 6.06526(57)i.
   These are the seat's computations. Main has recomputed neither the k ≥ 2 values nor the limit (P-739).
-- **The even-run pattern** now holds in nine words, and is still not proved (P-740).
+- **The even-run pattern, sharpened to a per-centre rule.**
+  - **The rule:** a σ-fixed fibre at the middle of an even run carries the class ≡ I mod 2 (Re 0). One at the middle
+    letter of an odd run carries the class ≢ I (Re ½).
+  - **Its prediction holds exactly:** L²R², L⁴R² and L²R⁴, with two even-run centres, put both fibres at ≡ I. L³R³,
+    with two odd-run centres, puts both at ≢ I (`addendum_k_family.py`).
+  - **Why it works:** in the mapping torus the cut lies in the middle of the product region, not at the gluing seam.
+    So the fibre fixed by D (≡ I), the reverser of the linear palindrome read from an even run's middle, is the cut's
+    own fibre.
+  - **Its standing:** it holds in thirteen words and is not proved in general (P-740).

@@ -2,6 +2,8 @@
 
 > **Currency — Review 56 (2026-09-09, anchor `eb9db7fa`).** Refreshed against the 21-merge window `be6f4cab`→`eb9db7fa` (B1294–B1307: MASTERPLAN v3 Phases 0–1 and v3.1's seven harvest arcs). **Review 56's headline is a number, not a repair:** the harvest gate's first strict report — 494 seat-index ids on nine branches, **428 without a ledger row, 348 seat-branch relays without a relay row**, two seats already past main's pins — escalated by name as R56-1 with a payment order (B1306 slices B–D, newest first). 32/32 gates; LAW_MAP's second zero-advancement window (R56-2); CLAIMS.md's 129-arc lag escalated (R56-3); two E53 repairs in living surfaces (THE_SM_VERDICT, MAIN_GOAL JOIN 3); E71 minted. Full detail: `docs/progress/REVIEWS.md` (Review 56).
 
+**LATEST (2026-11-07, S306m: the τ read-out rule — τ at a point is the modulus of the fibre the metric's own clock marks there, so of P-714's four readings only the harmonic level surface survives; still chosen: point or weight, the charge premise, minimisation; P-739 running. 0 of 19.)**
+
 **LATEST (2026-11-07, S306l: B1853 — the explore seat registered and its tests verified: the least-volume departure is (6) under the rung premise, which is exactly a level-5 charge; the action does not force the depth (P-735–P-738); the web seat's tube instrument agrees with B1847 at k = 1 (6.14916(41)i) and estimates τ_∞ = 0 + 6.06526(57)i (P-739 owed). 0 of 19.)**
 
 **LATEST (2026-11-07, S306k (continued): B1852 — the tube's real part by topology: τ(Σ₀) = 0 + 6.15(15) i (Re exact; the number Review 76 owed); which reading is the read-out's τ stays open (P-714). 0 of 19.)**

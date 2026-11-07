@@ -18701,3 +18701,12 @@ nothing deep is selected. The web seat built a second, independent instrument fo
 agrees with main's value and narrows it by a factor of several hundred. It also estimates the value in the limit of a
 long history, an estimate main has not yet reproduced. 0 of 19.
 
+## 2026-11-07 — S306m: which τ counts
+
+Of the four ways the record had to read the fibre's shape at a point of the history, the record's own earlier
+decisions leave only one. The metric's own clock is fixed with no choice. A shape read "at a time" is the shape of the
+fibre that clock marks at that time. The other three readings either use a clock the record already counts as chosen,
+or are not the shape of a fibre at all. What remains chosen is still named: a point or an average, and the premise that
+picks the departure. The mirror rule for the fibre's real part also became sharper, and a prediction it made held
+exactly. 0 of 19.
+
