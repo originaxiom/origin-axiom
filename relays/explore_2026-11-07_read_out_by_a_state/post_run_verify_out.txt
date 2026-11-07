@@ -1,0 +1,54 @@
+THE READ-OUT BY A STATE -- post-run verification (the explore seat, 2026-11-07; written after the read)
+
+P1. invisibility, two implementations, on section D's 1809 departures (gaps 0..40, Lemma C patterns)
+  departures 1809; line mismatches 0; rung mismatches 0
+
+P2. periodicity of E mod 5 in the gaps, and the invisible residues of the flagged patterns
+  E5 periodic with period 20 in each gap (patterns (2,3), (3,2), (2,2), (2,2,2)): True
+  (2, 3): line-invisible residues []; rung-invisible residues []
+  (3, 2): line-invisible residues []; rung-invisible residues []
+  (2,2,2): line-invisible residue pairs 32 (first [(0, 0), (0, 5), (0, 10), (0, 15), (1, 1), (1, 6)]); rung-invisible 0
+
+P3. uniqueness of the deepest class by the matrix method (closed approximants, k = 30)
+  (6,)                               matrix: deepest 3.618033988750 multiplicity 1 at run 0 | lambda/2 3.618033988750 gap 4.75
+  (2, 1, 1, 1, 2)                    matrix: deepest 1.625436897419 multiplicity 2 at run 0 | lambda/2 1.625436897419 gap 0.0
+  (2, 1, 2, 1, 2)                    matrix: deepest 1.723606797750 multiplicity 1 at run 2 | lambda/2 1.723606797750 gap 0.0977
+  (15 runs) [2, 2]                   matrix: deepest 1.618034474915 multiplicity 2 at run 0 | lambda/2 1.618034474915 gap 0.0
+  (15 runs) [2, 2, 2]                matrix: deepest 1.670823725482 multiplicity 1 at run 2 | lambda/2 1.670823725482 gap 6.16e-6
+  (15 runs) [2, 2, 2]                matrix: deepest 1.670823725482 multiplicity 1 at run 12 | lambda/2 1.670823725482 gap 6.16e-6
+  (25 runs) [2, 2, 2]                matrix: deepest 1.670820393470 multiplicity 1 at run 2 | lambda/2 1.670820393470 gap 4.07e-10
+
+P4. the read-out by the sinc-DVR eigenvector (H* = sqrt5 phi)
+  A = 0.01     <Im>/H*: DVR 0.9798503319, FD 0.9798503321; difference 2.2e-10
+  A = 1        <Im>/H*: DVR 0.8610697347, FD 0.8610697360; difference 1.3e-09
+  A = 6.2832   <Im>/H*: DVR 0.7583016280, FD 0.7583016299; difference 1.8e-09
+
+P5. HS7's failed length spectra, retried
+  b++LLRLRLLRLRLR     ('length_spectrum after 2 randomizations', [(0.7033451296312858, 2), (0.9568438328422573, 1), (1.0051351314433603, 2), (1.1600031637904407, 1)])
+  b++LLRLLRLLRLRLR    ('length_spectrum after 3 randomizations', [(0.6379321924465413, 1), (0.6694973829344426, 2), (0.9997170632641332, 2), (1.1676772453872628, 1)])
+
+P6. POST HOC, RANGE-SCOPED: the volume action over line-invisible departures with a unique lightest state
+  departures in range: 62747; line-invisible: 5204; volumes with a degenerate solution: 0 []
+  the 10 least excess volumes among line-invisible departures (any lightest state):
+    (2, 1, 1, 1, 2)                    dV 1.3972182951  unique lightest False rung-invisible False depth 1.625437
+    (2, 1, 1, 1, 1, 1, 1, 1, 1, 2)     dV 1.4103113293  unique lightest False rung-invisible False depth 1.617974
+    (6,)                               dV 1.5714462325  unique lightest True  rung-invisible True  depth 3.618034
+    (2, 1, 2, 1, 2)                    dV 1.9857615009  unique lightest True  rung-invisible False depth 1.723607
+    (15 runs) [2, 2, 2]                dV 2.0533573334  unique lightest True  rung-invisible False depth 1.670824
+    (15 runs) [2, 2, 2]                dV 2.0533573334  unique lightest True  rung-invisible False depth 1.670824
+    (2, 1, 1, 1, 1, 1, 1, 2, 1, 2)     dV 2.0547774128  unique lightest True  rung-invisible False depth 1.670789
+    (2, 1, 2, 1, 1, 1, 1, 1, 1, 2)     dV 2.0547774128  unique lightest True  rung-invisible False depth 1.670789
+    (3, 1, 3)                          dV 2.0671478640  unique lightest False rung-invisible False depth 2.200746
+    (13 runs) [2, 2, 2]                dV 2.1097039253  unique lightest True  rung-invisible False depth 1.620182
+  the 8 least among those with a UNIQUE lightest state:
+    (6,)                               dV(k=10) 1.5714462325  dV(k=12) 1.5714462644  rung-invisible True  depth 3.618034
+    (2, 1, 2, 1, 2)                    dV(k=10) 1.9857615009  dV(k=12) 1.9857615122  rung-invisible False depth 1.723607
+    (15 runs) [2, 2, 2]                dV(k=10) 2.0533573334  dV(k=12) 2.0533573436  rung-invisible False depth 1.670824
+    (15 runs) [2, 2, 2]                dV(k=10) 2.0533573334  dV(k=12) 2.0533573436  rung-invisible False depth 1.670824
+    (2, 1, 1, 1, 1, 1, 1, 2, 1, 2)     dV(k=10) 2.0547774128  dV(k=12) 2.0547773899  rung-invisible False depth 1.670789
+    (2, 1, 2, 1, 1, 1, 1, 1, 1, 2)     dV(k=10) 2.0547774128  dV(k=12) 2.0547773899  rung-invisible False depth 1.670789
+    (13 runs) [2, 2, 2]                dV(k=10) 2.1097039253  dV(k=12) 2.1097039346  rung-invisible False depth 1.620182
+    (18 runs) [2, 2, 2]                dV(k=10) 2.1124486915  dV(k=12) 2.1124486706  rung-invisible False depth 1.619108
+  least unique: (6,); gap to the next 0.414315; is it (6): True
+
+post_run_verify exit 0
