@@ -1,5 +1,28 @@
 # Changelog
 
+## S306l TWO SEATS HARVESTED: THE DEPARTURE'S DEPTH IS A CHARGE PREMISE (B1853; the explore seat, registered); THE TUBE'S τ TOWARD k → ∞ (the web seat) (2026-11-07)
+
+- **The explore seat.** A peer session relayed two pre-registered tests at the owner's word. The lane was unregistered; it is now watched by `harvest_debt.py`, pinned at `3c510bbe`, and listed in SEAT_REGISTER.
+- **Its claims re-derived on main's own code (B1853):**
+  - **HV1:** among R1's 643 rung-invisible departures, the least excess volume is (6), uniquely, at 1.5714462325. Next is 2.1955011599.
+  - **HV2:** among the line-invisible departures, (2,1,1,1,2), as by length.
+  - **HL1:** the line premise is exactly the symmetry reading: C₅(LR) = ⟨LR⟩.
+  - **HL2:** the rung premise is exactly a superselection charge: only ±I conserve every golden background's class, at N = 2..5.
+  - **HL3, the least-length ladder:** (2), (2,1,1,1,2), (6), (21), (61).
+  - **The apex law** (n − 1)/2 + √5/2, exact.
+  - **LR fixes a point of P¹(ℤ/N) only at N = 5.**
+- **So the action selects within a premise; it does not force the depth.** New rows:
+  - P-735 and P-736, DONE;
+  - P-737, the charge law, a range-scoped candidate;
+  - P-738, charge or symmetry at the ramified prime, a LEAD.
+- **The web seat's tube instrument (row 1614),** sealed before its run:
+  - k = 1's tube at 0 + 6.14916(41)i, inside B1847's band;
+  - the k → ∞ estimate 0 + 6.06526(57)i, the seat's, with main's recomputation owed (P-739).
+  - **Re-derived on main:** B1852's classes for k = 1..5 and the systoles.
+- **B1847's modulus formula:** the covariant root is adopted for later readings, with a dated note; nothing moves.
+- **B1852's even-run pattern** holds in nine words; the proof is owed (P-740).
+- 0 of 19.
+
 ## S306k (continued) THE TUBE'S REAL PART, BY TOPOLOGY (B1852): THE METRIC'S OWN τ AT THE TUBE IS 0 + 6.15(15) i (2026-11-07)
 
 - **The owner:** 'continue'.

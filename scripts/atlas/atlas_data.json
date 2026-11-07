@@ -15720,6 +15720,21 @@
    "status": "banked",
    "domain": "physics"
   },
+  "B1853": {
+   "slug": "the departures depth premises verified",
+   "motifs": [
+    "arrow",
+    "figure_eight",
+    "golden",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B185": {
    "slug": "constraint selection",
    "motifs": [

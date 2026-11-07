@@ -76,3 +76,10 @@ this note is its reading (P-127).
 
 **golden_gate's five dependabot branches** are on a remote main does not write to; their disposition is the owner's
 (waiting since 2026-10-04).
+
+## Registered 2026-11-07 (S306l, B1853) — the explore seat
+
+| seat (alias on main) | branch | numbering | lane | state |
+|---|---|---|---|---|
+| **explore** | `origin/explore/2026-11-05` (forked from main at 5f2286cdb) | none: relays under `relays/explore_*`, no arc numbers, nothing written to main | a peer session working at the owner's word, relaying pre-registered data-free tests to main (it identifies itself to main as "the explore seat") | **ACTIVE**; pinned at `3c510bbe` after rows 1612–1613; its relays verified on main's own code (B1853) |
+

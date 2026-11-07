@@ -1,0 +1,6 @@
+k = 1: 4 reversing involutions, opposite classes; systole 0.18486980
+k = 2: 4 reversing involutions, opposite classes; systole 0.18519963
+k = 3: 2 reversing involutions, opposite classes; systole 0.18521766
+k = 4: 2 reversing involutions, opposite classes; systole 0.18521832
+k = 5: 2 reversing involutions, opposite classes; systole 0.18521828
+covariant root: E = [[3,1],[1,2]] -> -1/2 + sqrt(5)*I/2; A E A^T (A = [[2,1],[1,1]]) -> -11/7 + sqrt(5)*I/7 = the Mobius image t -> (a t - b)/(d - c t): HOLDS
