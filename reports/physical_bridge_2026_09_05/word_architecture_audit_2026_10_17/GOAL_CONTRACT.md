@@ -2245,3 +2245,16 @@ Both are UNREVIEWED hand arguments. They add three prospective controls
 to the prior six, for nine unimplemented methods. No weak-current
 overlap, observed W, global physical register identification or SM3
 claim follows. Exact graph/domain, norm and field-map duties remain.
+
+
+The [quaternion/level-five join](QUATERNION_AND_LEVEL_FIVE_REGISTER_JOIN.md)
+checks the proposed measuring-sector bridge: the level-five odd Weil
+generator has projective order five and cannot be the fixed quaternion
+normalizer's flavour action. This is a restriction on an identification,
+not on the programme. Both arrows already have the same word source E;
+their product record and a moving quaternion family are explicit compatible
+constructions. Their physical interaction, normalized state/readout and
+sector identification remain to derive. A separate four-control design
+is unimplemented and unrun. No physical parameter or foundational row
+is paid by equating representation dimensions or by the new common-source
+construction alone. The full mission remains active.

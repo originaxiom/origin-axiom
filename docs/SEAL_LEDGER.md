@@ -9361,3 +9361,11 @@ Centralizer normalizable-kernel successor, before implementation.
 |---|---|---|---|---|
 | 2026-11-07 | AFTER hand argument; BEFORE successor implementation/import/collection/run | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CENTRALIZER_KERNEL_WITH_THRESHOLD_CONTINUUM.md` | `a19e2c6c6b4faa0db3bbe16402499314f259a8db0ce590b0bcaf3ac4130970f5` | Candidate A3 spin-kernel vanishing with retained scalar/form zeros and threshold continuum; ninth control unimplemented; independent review and exact admission owed. |
 | 2026-11-07 | AFTER hand argument; BEFORE successor implementation/import/collection/run | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/DESIGN_ADDENDUM_CENTRALIZER.md` | `305433c9895f676a9801fe33965a3a95bd16fbff1f1b49364c82dc71274c8d31` | Candidate A3 spin-kernel vanishing with retained scalar/form zeros and threshold continuum; ninth control unimplemented; independent review and exact admission owed. |
+
+
+Quaternion and level-five common-source join, before control implementation.
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-11-07 | AFTER hand argument; BEFORE new join-control implementation/import/collection/run | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/QUATERNION_AND_LEVEL_FIVE_REGISTER_JOIN.md` | `5f694fbcf7f5c5736b42489f4b3d5b9ec3f0943137f67506227ab8ccf1fee0ac` | Conditional distinction and common-source join of two finite representations; no physical measuring-sector or state law derived; four controls unimplemented and unrun. |
+| 2026-11-07 | AFTER hand argument; BEFORE new join-control implementation/import/collection/run | `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_register_weil_join_2026_11_07/DESIGN.md` | `60277176f95fa5f3d9fb0a72182981e56953a6df91964ac59059b64076207b54` | Conditional distinction and common-source join of two finite representations; no physical measuring-sector or state law derived; four controls unimplemented and unrun. |

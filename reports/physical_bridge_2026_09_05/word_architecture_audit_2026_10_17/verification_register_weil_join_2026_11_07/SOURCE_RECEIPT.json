@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "status": "unreviewed_hand_join_and_prior_control_design",
+  "local_sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/QUATERNION_AND_LEVEL_FIVE_REGISTER_JOIN.md",
+      "sha256": "5f694fbcf7f5c5736b42489f4b3d5b9ec3f0943137f67506227ab8ccf1fee0ac"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_register_weil_join_2026_11_07/DESIGN.md",
+      "sha256": "60277176f95fa5f3d9fb0a72182981e56953a6df91964ac59059b64076207b54"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FAITHFUL_LIFTED_REGISTER_TOWER.md",
+      "sha256": "31c8126d379401b0bd1660d9881bacdf3f85df5020307e196b445bb43b287223"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COHERENT_WORD_LIFTS_AND_LOCAL_BOUNDARY.md",
+      "sha256": "388dc8f5d3af483581f6a96ed5a5d0bba3bd9459dffac3ef1df68abce74a7311"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md",
+      "sha256": "6012816683f17ac83e7d3bdb4f6d8b987ec8155ee2caa09ce651dbf0b194ed4c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REGISTER_FLAVOUR_ACTION_GRAM_AND_QUARTIC_STATE_TEST.md",
+      "sha256": "370fa0f0d88a08b3a3cab8b893c3930404724da18ef1c99356b5b05c3d0e7d6b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GEOMETRIC_SPIN_JOIN_AND_FULL_CURVE_OPERATOR.md",
+      "sha256": "8a534fc3a4f1aea110c9a4f2c121393c7b273f7f1ce1eeac34bf3e9edb356ad8"
+    }
+  ],
+  "upstream_sources": [
+    {
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "frontier/B1856_charge_or_symmetry_at_five_verified/FINDINGS.md",
+      "sha256": "418742322938a6a34dbba507cf3a6228c69d535fc82f8d029d3e4aae5360af6f"
+    },
+    {
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "frontier/B1856_charge_or_symmetry_at_five_verified/verification/weil5_check.py",
+      "sha256": "3216777902d454f213b28594b1719fff19c51d123ae10256a4ce72d1928a7e1e"
+    }
+  ],
+  "scientific_import_collection_execution": false,
+  "implementation": false,
+  "source_proof_scope": "Fixed-quaternion mismatch, common-source product and moving family, conditional internal invariant-state classification; no physical-sector selection or interaction derived",
+  "new_control_population": 4
+}
