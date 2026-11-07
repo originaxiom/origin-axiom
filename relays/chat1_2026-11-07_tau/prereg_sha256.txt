@@ -1,0 +1,11 @@
+tauinst.py sha256 17082e431e4ce8947632d62a079aaa982a4939c66a80c6b2bdd2608b644e1707
+tau_k_limit.py sha256 294062688a25d2276c530b7c5712bf24e5d2824eace017c7faa057ecd3986379
+run_chain.sh sha256 1607cee568e9bbf252882444e94dc693e49cf6becfffe25d6d144e3eb5379396
+recorded 2026-11-07T04:29:23Z before the run. Development (outside the repository): the instrument was built on m004 (s = 1/4, 0) and on
+L^6RLR at s = 1/2 and 1/4, and L^6RLR's core (chi, h on its axis, |d theta|) was computed. A reduced copy of the driver
+(m004 at s = 1/4 and 0 to n = 2; k = 1 at s0 + 1/2 and s = 1/4 to n = 2; no tube level) was smoke-run outside the
+repository; it found three faults, fixed in tauinst.py before this record and listed in the driver's header. The control
+levels' series under the final instrument were seen (m004 at s = 0 and 1/4 to n = 3; k = 1 at s = 1/4 to n = 3 and at
+s = 1/2 to n = 2), and the summary code was exercised on synthetic files. Not extracted before this record: the tube
+level of any member, and the anti-apex of k = 2..5. To be run as: run_chain.sh m004 k=1 k=2 k=3 and run_chain.sh k=4 k=5
+in parallel, then run_chain.sh summary (numpy 2.5.3, scipy 1.18.1, numba 0.68.1, SnapPy 3.3.2, Python 3.13.18).
