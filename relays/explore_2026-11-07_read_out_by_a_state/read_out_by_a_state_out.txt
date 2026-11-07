@@ -1,0 +1,100 @@
+THE READ-OUT BY A STATE -- data-free check (the explore seat, 2026-11-07)
+
+S1. heights = half the Markov values (two methods)
+  max |lambda_i/2 - axis height of the rotation at run i| (k = 30, 5 departures, first 12 runs): 3.73e-22
+  run of 6: deepest at history index 40 (the 6 sits at 40); lambda/2 = 3.6180339887498948482; (5 + sqrt5)/2 = 3.6180339887498948482; diff 0.0
+  HS1a (two methods agree to 1e-20): True
+
+S2. the exact separation along the run-of-6 history (lift with the 6's cusp at infinity)
+  classes sampled: 6252 (m <= 25, |n| <= 200, primitive); cosh law on the 40 deepest: max relative residual 4.67e-10
+  the analytic s_c against the grid's argmin (step 5e-4): max deviation 2.5e-04
+  the 8 deepest sampled classes (H_c, m, n): [(3.618034, 0, 1), (1.243383, 1, 7), (1.243383, 1, -1), (1.134724, 3, 20), (1.134724, 3, -2), (1.120438, 8, 53), (1.120438, 8, -5), (1.118384, 21, 139)]
+  the deepest run-class heights lambda_i/2: [3.61803398875, 1.24338326253, 1.134723994358, 1.120438371796, 1.118384140355, 1.118085061519]
+  sampled classes with H_c > 1: 15; not a run class: 0 []
+  HS1b (cosh law < 1e-9; max H_c = max lambda/2; H_c > 1 only run classes): True, True, True
+
+S3. the class operator -psi'' + q cosh(2u) psi
+  q in [0.1, 1e5] (25 points): FD-Richardson vs sinc-DVR max relative difference 4.45e-09; strictly increasing: True
+  Hellmann-Feynman dE/dq vs <cosh 2u>: ['q=1: 1.71802947 vs 1.71802722', 'q=10: 1.22413534 vs 1.22413301', 'q=100: 1.07073062 vs 1.07073067']
+  HS2 (agree < 1e-7 and increasing): True
+
+S4. the run of 6: the lightest state and its read-out
+  deepest H* = 3.618033988749895 (unique: gap in lambda 4.7493); runner-up H2 = 1.243383262530 at index 42, third 1.243383262530 at index 38
+  the runner-up pair is a mirror pair (equal heights at indices symmetric about the 6): True
+  small-A law constant sqrt(H*/(8 pi^2)) = 0.214063
+  A          q*           E0(q*)       E0 gap     <Im>/H*    lin/H*       (1-<>)/sqrtA <tanh 2u>   
+  0.0001     109116       109583.06    208722     0.997873   0.995770     0.212701     7.0e-13
+  0.001      10911.6      11059.542    20943.5    0.993364   0.986959     0.209844     -5.1e-13
+  0.01       1091.16      1138.1205    2116.9     0.979850   0.961655     0.201497     -1.6e-12
+  0.1        109.116      124.13429    218.821    0.943015   0.899054     0.180204     -1.8e-12
+  1          10.9116      15.821464    24.1409    0.861070   0.780758     0.138930     1.4e-13
+  6.28319    1.73663      3.8255381    4.64069    0.758302   0.656262     0.096424     1.2e-12
+  10         1.09116      2.7889891    3.1365     0.728677   0.623666     0.085800     6.5e-13
+  HS3 (unique deepest at the 6, H* = sqrt5 phi to 1e-40, mirror runner-up): True
+  HS4 (law within 2% at A = 1e-4; <Re> exactly the apex's: odd moment ~ 0): True (ratio 0.9936)
+
+S5. closed approximants L^6 R (LR)^k: not blind
+  k   H_k (6-class)      deepest?   next H         <Im>/H_k A=1 window/period
+  1   3.65148371670111   True       1.3693063938   0.86063144   0.600504    
+  2   3.62284418654736   True       1.2601197171   0.86100651   0.455967    
+  3   3.61873432227873   True       1.2457937831   0.86106053   0.368397    
+  4   3.61813613493316   True       1.2437342964   0.86106839   0.309147    
+  5   3.61804889101540   True       1.2434344637   0.86106954   0.266327    
+  6   3.61803616294704   True       1.2433907324   0.86106971   0.233928    
+  7   3.61803430596068   True       1.2433843524   0.86106973   0.208556    
+  8   3.61803403503032   True       1.2433834215   0.86106974   0.188150    
+  H_inf = 3.61803398874989; HS5 (the 6-class deepest at every k; H_k -> H*): True
+
+S6. the golden ground
+  every lambda_i = sqrt5 on the golden history: max deviation 0.0
+  closed golden bundle: the two run classes' heights 1.11803398874989, 1.11803398874989 (two-fold degenerate)
+  the golden pair of lines is fixed by the tick LR (the wells one tick apart read the same (tau, line)): True
+  the golden pair under the mirror (alpha, b) -> (-alpha, b): [(1, 3), (2, 1)] -> [(1, 2), (2, 4)]
+
+D. HS6 -- the cheapest invisible departures whose lightest state is unique
+  excess(6) by Lemma A = 2.3487180112391 (the single-run formula: 2.3487180112391); range: excess <= 2.358718
+  Lemma C range: at most 3 non-1 runs, each <= 6; gaps 0..40
+  departures enumerated: 1809; invisible (line or rung): 154; Lemma C violations: 0; patterns within range: 9
+  rung-invisible within range: 1; the 12 cheapest:
+    (6,)                           excess 2.34871801124  unique lightest: True  deepest run #0 (H 3.618034, lambda gap 4.75)
+  rung reading: the cheapest with a unique lightest state: (6,), excess 2.3487180112391, depth H 3.618033988750; next None 
+    patterns whose large-gap limit lies below it (unresolved by the gap range): [('2.0171131', (2, 3)), ('2.0171131', (3, 2)), ('2.2178403', (2, 2, 2))]
+  line-invisible within range: 154; the 12 cheapest:
+    (2, 1, 1, 1, 2)                excess 1.47449075094  unique lightest: False deepest run #0 (H 1.625437, lambda gap 0.0)
+    (2, 1, 1, 1, 1, 1)...(15 runs) excess 1.47855992886  unique lightest: False deepest run #0 (H 1.618034, lambda gap 0.0)
+    (2, 1, 1, 1, 1, 1)...(25 runs) excess 1.47856019759  unique lightest: False deepest run #0 (H 1.618034, lambda gap 0.0)
+    (2, 1, 1, 1, 1, 1)...(35 runs) excess 1.47856019761  unique lightest: False deepest run #0 (H 1.618034, lambda gap 0.0)
+    (2, 1, 1, 1, 1, 1)...(40 runs) excess 1.47856019761  unique lightest: False deepest run #0 (H 1.618034, lambda gap 0.0)
+    (2, 1, 1, 1, 1, 1)...(30 runs) excess 1.47856019761  unique lightest: False deepest run #0 (H 1.618034, lambda gap 0.0)
+    (2, 1, 1, 1, 1, 1)...(20 runs) excess 1.4785601998  unique lightest: False deepest run #0 (H 1.618034, lambda gap 0.0)
+    (2, 1, 1, 1, 1, 1, 1, 1, 1, 2) excess 1.47859325082  unique lightest: False deepest run #0 (H 1.617974, lambda gap 0.0)
+    (2, 1, 2, 1, 2)                excess 2.15972311467  unique lightest: True  deepest run #2 (H 1.723607, lambda gap 0.0977)
+    (2, 1, 2, 1, 1, 1)...(15 runs) excess 2.18977835616  unique lightest: True  deepest run #2 (H 1.670824, lambda gap 6.16e-6)
+    (2, 1, 1, 1, 1, 1)...(15 runs) excess 2.18977835616  unique lightest: True  deepest run #12 (H 1.670824, lambda gap 6.16e-6)
+    (2, 1, 2, 1, 1, 1)...(25 runs) excess 2.18978032817  unique lightest: True  deepest run #2 (H 1.670820, lambda gap 4.07e-10)
+  line reading: the cheapest with a unique lightest state: (2, 1, 2, 1, 2), excess 2.1597231146701, depth H 1.723606797750; next (2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2) 2.18977835616
+    patterns whose large-gap limit lies below it (unresolved by the gap range): [('2.0171131', (2, 3)), ('2.0171131', (3, 2))]
+  cross-check (the web seat's k-approximant excess) for rung's winner (6,): k=20 2.34871801124, k=30 2.34871801124, Lemma A 2.34871801124
+  cross-check (the web seat's k-approximant excess) for line's winner (2, 1, 2, 1, 2): k=20 2.15972311467, k=30 2.15972311467, Lemma A 2.15972311467
+  HS6 (line reading: the cheapest unique-lightest departure is (6)): False
+  rung reading: the cheapest unique-lightest departure is (6): True
+
+V. HS6v -- the volume action for the leaders (SnapPy closed approximants)
+  (6,)                           dV(k=10) 1.5714462325  dV(k=12) 1.5714462644  ok
+  (2, 1, 1, 1, 2)                dV(k=10) 1.3972182951  dV(k=12) 1.3972183047  ok
+  (2, 1, 2, 1, 2)                dV(k=10) 1.9857615009  dV(k=12) 1.9857615122  ok
+  (15 runs) (2, 1, 2, 1, 1)...   dV(k=10) 2.0533573334  dV(k=12) 2.0533573436  ok
+  (15 runs) (2, 1, 1, 1, 1)...   dV(k=10) 2.0533573334  dV(k=12) 2.0533573436  ok
+  (25 runs) (2, 1, 2, 1, 1)...   dV(k=10) 2.0533840167  dV(k=12) 2.0533840268  ok
+  (25 runs) (2, 1, 1, 1, 1)...   dV(k=10) 2.0533840167  dV(k=12) 2.0533840268  ok
+  (35 runs) (2, 1, 2, 1, 1)...   dV(k=10) 2.0533840272  dV(k=12) 2.0533840374  ok
+
+W. HS7 -- the hyperbolic systole on closed threads (the winding tower)
+  b++LLLLLLRLR                  systole 0.1848698045 mult 1; next [(0.8739967159922373, 1), (1.5559136383021681, 2)]
+  b++LLLLLLRLRLR                systole 0.1851996322 mult 1; next [(0.9520631822717122, 2), (1.2527413233130735, 1)]
+  b++LLRLRLLRLR                 systole 0.6970567930 mult 2; next [(0.9552285153032182, 2), (1.2938450225519225, 4)]
+  b++LLRLRLLRLRLR               length spectrum failed: RuntimeError('The Dirichlet construction failed.')
+  b++LLRLLRLLRLR                systole 0.6371033430 mult 1; next [(0.6634441636269379, 2), (0.946883094213831, 1)]
+  b++LLRLLRLLRLRLR              length spectrum failed: RuntimeError('The Dirichlet construction failed.')
+
+read_out_by_a_state_check exit 0
