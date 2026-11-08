@@ -1093,6 +1093,26 @@ def verify_b996bc98e_same_action_gauge_cusp_response_and_magnetic_scope() -> Dic
         and all(ev < 0 for ev in magnetic_saddle_eigenvalues.values())
     )
 
+    # 4. Codex 75971c6f7: Actual Static Core Mean-Circulation Response R_core(0) = 1/A_c & Flux-Aware Sewing:
+    # For compact core area A_c, cusp tail area A_t = ell^2 / Y, total area A = A_c + A_t, and flux Phi:
+    # Gamma(b; Phi) proportional to (Phi - b)^2 / A_c + b^2 / A_t -> stationary seam circulation b_* = Phi * A_t / (A_c + A_t).
+    # In the zero-flux sector (Phi = 0), b_* = 0 is forced; in the quantized flux sector Phi = -2*pi*n,
+    # b_* = -n / Y and f_c = f_t = Phi / A are cut-independent, while H^1(C, dC) =~ R^2 flat periods remain unfixed!
+    A_c_test, A_t_test = F(11, 3), ell2_t / cut_t
+    A_tot_test = A_c_test + A_t_test
+    Phi_zero = F(0)
+    Phi_flux = F(-6, 1)
+    b_star_zero = Phi_zero * A_t_test / A_tot_test
+    b_star_flux = Phi_flux * A_t_test / A_tot_test
+    f_core_flux = (Phi_flux - b_star_flux) / A_c_test
+    f_tail_flux = b_star_flux / A_t_test
+    on_shell_energy_flux = (Phi_flux - b_star_flux) ** 2 / A_c_test + (b_star_flux**2) / A_t_test
+    core_flux_sewing_verified = bool(
+        b_star_zero == 0
+        and f_core_flux == f_tail_flux == Phi_flux / A_tot_test
+        and on_shell_energy_flux == (Phi_flux**2) / A_tot_test
+    )
+
     passed = bool(
         flux_b_ok
         and flux_v_ok
@@ -1103,6 +1123,7 @@ def verify_b996bc98e_same_action_gauge_cusp_response_and_magnetic_scope() -> Dic
         and colour_vertex_trace == -2
         and nonabelian_duhamel_verified
         and magnetic_scope_preserved
+        and core_flux_sewing_verified
     )
     assert passed
 
@@ -1119,6 +1140,12 @@ def verify_b996bc98e_same_action_gauge_cusp_response_and_magnetic_scope() -> Dic
             "residual_zero_scalar_stiffness_positive": residual_zero_stiffness_positive,
             "nonzero_magnetic_flux_charged_eigenvalues": magnetic_saddle_eigenvalues,
             "scope_classification": "CONDITIONAL_RESIDUAL_ZERO_EXTERIOR_RESPONSE_DOES_NOT_ERASE_MAGNETIC_SADDLE_INSTABILITY",
+        },
+        "codex_75971c6f7_core_mean_response_and_flux_sewing": {
+            "zero_flux_forces_zero_seam_circulation": (b_star_zero == 0),
+            "quantized_flux_equalizes_core_and_tail_curvature": (f_core_flux == f_tail_flux),
+            "cut_independent_total_area_energy_verified": core_flux_sewing_verified,
+            "unfixed_relative_core_cohomology_rank_per_commuting_gen": 2,
         },
         "codex_b996bc98e_passed": passed,
     }

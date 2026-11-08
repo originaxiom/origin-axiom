@@ -2100,19 +2100,17 @@ def verify_0437f7a84_second_order_register_and_unitary_family_controls() -> Dict
            across all C(9, 2) = 36 basic commutators [t_i, t_j];
          - Degree-3 nested commutator [a^4, [a^4, b^4]] in gamma_3(N) \\ gamma_4(N),
            syllable run-monomial coefficient law prod_j m_j, and A_5 non-cofinality control.
-      2. AGY Hostile-Referee Counterchecks (Findings A1-A3) on register_exact.py:
-         - (Finding A1): R_right (a -> ab, b -> b in register_exact.py line 21) vs. R_left
-           (a -> ba, b -> b in 4a0c6d799) share the same SL(2, Z) count matrix [[1,0],[1,1]]
-           but differ by Ad_a on F_2, by -I_2 on Q_8, and induce distinct 9x9 integer
-           automorphism matrices on M = N/[N,N] =~ Z^9!
-         - (Finding A2): Schreier rewrite/expand roundtrip expand(rewrite(w)[1]) == reduce_word(w)
-           fails for all w not in N (7/8 of F_2, e.g. w = (1,) = a); exact roundtrip on all of F_2
-           requires appending the spanning-tree path representatives[endpoint].
-         - (Finding A3): test_07 in test_register_architecture.py only tests the 64-element inner
-           semidirect product Q_8 rtimes_{Ad} Q_8 (where Ad(Q_8) =~ V_4 has exponent 2) and checks
-           associativity only on 4 first-slot generators; we verify full 64^3 associativity AND
-           construct the outer order-8 lifts g_L, g_R in 2O \\ Q_8 (g_L^4 = -I_2) generating the
-           full 384-element group Q_8 rtimes_{Ad} 2O.
+      2. AGY Hostile-Referee Counterchecks & Scope Controls (Findings A1-A3, refined per 75971c6f7):
+         - (Finding A1 — R_right vs. R_left comparator): R_right (a -> ab, b -> b, used in both 4a0c6d799 §5
+           and register_exact.py line 21) and the alternative left convention R_left (a -> ba, b -> b)
+           satisfy R_left = Inn_b o R_right on F_2, share the same SL(2, Z) count matrix [[1,0],[1,1]],
+           differ by -I_2 on Q_8, and induce distinct 9x9 integer automorphism matrices on M = N/[N,N] =~ Z^9!
+         - (Finding A2 — All-F_2 Schreier reconstruction): On N = ker(rho), expand(rewrite(w)[1]) == reduce_linear(w);
+           outside N (7/8 of F_2, e.g. w = (1,) = a), full-F_2 reconstruction requires the returned endpoint's
+           spanning-tree representative: reduce_linear(expand(n_word) + representatives[endpoint]) == reduce_linear(w).
+         - (Finding A3 — 384-element Q_8 rtimes 2O extension beyond 64-element Q_8 rtimes Q_8): Beyond test_07's
+           explicitly scoped 64-element inner Q_8 rtimes_{Ad} Q_8 example, the outer lifts g_L, g_R in 2O \\ Q_8
+           have order 8 (g_L^4 = -I_2) and generate the 384-element finite quotient Q_8 rtimes_{Ad} 2O.
       3. Unitary SU(2) Word Families & Physical End Price (274fc12f0 & 950ca740d — Finding A4):
          - Codex pushed 274fc12f0 & 950ca740d with zero scientific tests; we machine-verify:
            (i) Exact closed-form quaternion identity for K_{eps,delta}([a^4, b^4]), confirming
@@ -2330,11 +2328,13 @@ def verify_0437f7a84_second_order_register_and_unitary_family_controls() -> Dict
     a5_nested_img = _eval_a5(nested_w)
     a5_non_cofinality_ok = bool(a5_comm_img != perm_id and a5_nested_img != perm_id)
 
-    # 2. AGY Hostile-Referee Counterchecks (Findings A1, A2, A3):
-    # Finding A1: R_right (a -> ab, b -> b in register_exact.py line 21) vs. R_left (a -> ba, b -> b in 4a0c6d799)
+    # 2. AGY Hostile-Referee Counterchecks & Comparators (Findings A1, A2, A3, refined per 75971c6f7):
+    # Finding A1: R_right (a -> ab, b -> b in 4a0c6d799 §5 & register_exact.py) vs. R_left (a -> ba, b -> b),
+    # related on F_2 by R_left = Inn_b o R_right (where Inn_b(w) = b w b^-1 fixes b and sends ab -> ba):
     L_map: Dict[int, Sequence[int]] = {1: (1,), 2: (1, 2)}
     R_right_map: Dict[int, Sequence[int]] = {1: (1, 2), 2: (2,)}
     R_left_map: Dict[int, Sequence[int]] = {1: (2, 1), 2: (2,)}
+    Inn_b_map: Dict[int, Sequence[int]] = {1: (2, 1, -2), 2: (2,)}
 
     ind_R_right = _induced_n_map(R_right_map)
     ind_R_left = _induced_n_map(R_left_map)
@@ -2348,10 +2348,16 @@ def verify_0437f7a84_second_order_register_and_unitary_family_controls() -> Dict
 
     mat9_R_right = _abelianized_9x9(ind_R_right)
     mat9_R_left = _abelianized_9x9(ind_R_left)
+    inn_b_after_r_right_matches_r_left = all(
+        apply_homomorphism(Inn_b_map, apply_homomorphism(R_right_map, (g_i,))) == apply_homomorphism(R_left_map, (g_i,))
+        for g_i in (1, 2)
+    )
     # Both have the same SL(2, Z) count matrix [[1, 0], [1, 1]] and det = +1 on Z^9,
-    # yet they differ by -I_2 on Q_8 (rho(ab) = +K vs rho(ba) = -K) and give DISTINCT 9x9 matrices on M = N/[N,N]!
+    # yet they obey R_left = Inn_b o R_right on F_2, differ by -I_2 on Q_8 (rho(ab) = +K vs rho(ba) = -K),
+    # and give DISTINCT 9x9 matrices on M = N/[N,N]!
     finding_a1_r_convention_diff_verified = bool(
-        _rho_word((1, 2)) == (0, 0, 0, 1)
+        inn_b_after_r_right_matches_r_left
+        and _rho_word((1, 2)) == (0, 0, 0, 1)
         and _rho_word((2, 1)) == (0, 0, 0, -1)
         and not np.array_equal(mat9_R_right, mat9_R_left)
         and abs(int(round(np.linalg.det(mat9_R_right)))) == 1
