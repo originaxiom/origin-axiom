@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "status": "declared_runtime_requirements_not_admission",
+  "python": "3.12.1",
+  "implementation": "CPython",
+  "packages": {},
+  "required_environment": {
+    "PYTHONHASHSEED": "0",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONOPTIMIZE": "0"
+  },
+  "external_tools": ["git"],
+  "observation": "Synthetic fixture attempt used python3.12 -I -B -S. Previous isolated metadata observed CPython 3.12.1. Real execution independently enforces the declared version and environment.",
+  "scientific_dependencies": "Python standard library only; no scientific imports in this preparation"
+}

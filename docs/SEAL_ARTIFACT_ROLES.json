@@ -139,6 +139,17 @@
         "sha256": "0015c1d7ffcd100c490943f05f45eb15079bed29b6031996ba4a4667cd60cc53",
         "collection": "frozen_paths"
       }
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/SPECIFICATION.json",
+      "sha256": "1297dbedd4c10696e88bbd3459890a08b0e27013c946be05181f4b4c3cfcb953",
+      "role": "source",
+      "reason": "Machine-readable execution source/runtime/command binding metadata; the actual post-derivation scientific questions and stop rules remain in separately sealed DESIGN.md and EXECUTION_DESIGN.md. No scientific hypothesis is reclassified or made retroactively compliant.",
+      "evidence": {
+        "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/BINDING_SOURCE_INVENTORY.json",
+        "sha256": "3e263a02b7305d8676a60f43eb5345e8420e1278109159a9d2b4fd6d16f58df9",
+        "collection": "source_files"
+      }
     }
   ]
 }

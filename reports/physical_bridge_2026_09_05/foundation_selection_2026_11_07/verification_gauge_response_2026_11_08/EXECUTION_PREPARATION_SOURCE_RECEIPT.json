@@ -1,0 +1,80 @@
+{
+  "record_type": "REGISTERED_EXECUTION_REVIEW_CANDIDATE_NOT_ADMISSION",
+  "date": "2026-11-08",
+  "base_commit": "906037df59601bde8336a10d10e5d99325a9c6b9",
+  "candidate_source_pins": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/SPECIFICATION.json",
+      "sha256": "1297dbedd4c10696e88bbd3459890a08b0e27013c946be05181f4b4c3cfcb953",
+      "bytes": 10901
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/BINDING_SOURCE_INVENTORY.json",
+      "sha256": "3e263a02b7305d8676a60f43eb5345e8420e1278109159a9d2b4fd6d16f58df9",
+      "bytes": 4239
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/EXECUTION_DESIGN.md",
+      "sha256": "6522f372ef87cca57cacfd75b4d38731840561837aaa36261313e943e556b824",
+      "bytes": 3341
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/ENGINEERING_RESULT.md",
+      "sha256": "3ecc7de374124f23908b36af04fcad45f7a85291d0e37bc16b7672a77d03e3df",
+      "bytes": 1342
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/EXECUTION_READINESS.md",
+      "sha256": "47e6edfcd82d50bddbbbaa6325e89ce2adc8095bf91da735261ba69bb5471787",
+      "bytes": 2852
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/ENVIRONMENT.json",
+      "sha256": "6916e9bbee1d4fd932d2dbff6a514bdb3f58229f73501da8f2ccc3caa4ba1c57",
+      "bytes": 603
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/engineering/attempt_01.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/engineering/attempt_01.stderr.txt",
+      "sha256": "e5f5c5f397e3650c6f3a7bb4924886f3881cd3a0302132da33c04d14ff3bb6e2",
+      "bytes": 1318
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/engineering/attempt_01.outcome.json",
+      "sha256": "508e3822cef20528476a73903af537cfcc291f37a4d278ea9b270ce44f7993c5",
+      "bytes": 3378
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/engineering/registration_metadata_01.json",
+      "sha256": "8b023e9f0caa63b4ed1d828e75fd069d7d84e84cb48cbbc6036838d88bf989f6",
+      "bytes": 119378
+    },
+    {
+      "path": "docs/SEAL_LEDGER.md",
+      "sha256": "136bdb775cda6e8494fa2cd969c4d9dd0097510d691d21c7f6249415d66c644d",
+      "bytes": 2218125
+    },
+    {
+      "path": "docs/SEAL_ARTIFACT_ROLES.json",
+      "sha256": "c83ff58591e6f2d8268828d34b05a776f2952c5a6203e2d937cfa1ee4bce1d7f",
+      "bytes": 9328
+    }
+  ],
+  "scientific_artifact_count": 40,
+  "synthetic_fixture_outcome": "8 PASSED; NO REAL SCIENCE IMPORTED",
+  "registered_design_spec_records": 3,
+  "production_metadata_check": "NEW_RECORDS_VALID; 662 HISTORICAL_PROBLEMS_PRESERVED; NOT_FULL_GOVERNANCE",
+  "scientific_source_hashes_unchanged": true,
+  "scientific_methods_run": 0,
+  "science_imported": false,
+  "science_collected": false,
+  "independent_review": "INCOMPLETE_SERVICE_USAGE_ERROR_NO_VERDICT",
+  "main_acceptance": false,
+  "admission_created": false,
+  "inherited_staging_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "core_proof_outside_scientific_packet": true
+}

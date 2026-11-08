@@ -1,0 +1,237 @@
+{
+  "schema": 1,
+  "experiment_id": "physical-same-action-gauge-response-six-controls-v1",
+  "authors": [
+    "physical-bridge-seat"
+  ],
+  "design": {
+    "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/EXECUTION_DESIGN.md",
+    "sha256": "6522f372ef87cca57cacfd75b4d38731840561837aaa36261313e943e556b824"
+  },
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_QUATERNION_STATIONARY_BUNDLE_AND_CUSP_LAW.md",
+      "sha256": "221a7cd2dce2ff7dec0b135c348b7bb52e15bc27e5563d420756fbe31f9978a1",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXACT_ORDER_THREE_ELECTROWEAK_BRANCH.md",
+      "sha256": "3eae4eba764343746f46db14b58ae5d03ee412534b4067219143c40c3a2f09aa",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md",
+      "sha256": "6012816683f17ac83e7d3bdb4f6d8b987ec8155ee2caa09ce651dbf0b194ed4c",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SPIN_FLAVOUR_FACTORISATION_AND_PHYSICAL_TWIST_PRICE.md",
+      "sha256": "308eeb1745d36cd8c86e35d25f0ede9fbd9e1d5f43d235cfa908307ece45887f",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GAPLESS_CUSP_RESPONSE_AND_GAUGE_COUPLING.md",
+      "sha256": "e89a6b108bfa6bc0bc80f093b4e35aa24d04f9013842ef9ad90b9bcc61e2da50",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ACTUAL_CUSP_WEYL_RESPONSE_AND_INDUCED_NORM.md",
+      "sha256": "da4f0b954db49662bf75726bade1503d2e9e1ef7ac07f74793edfdf050eadb12",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_same_action_transmission_2026_10_16/PROOF.md",
+      "sha256": "d57ea6c28332a54437c9c2f9eca4372505322e25b66a340f7474ce5462cf5d6e",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXTERIOR_RESPONSE_AND_JOINING.md",
+      "sha256": "3d99d0d72a03dca843f36924e4c47cc7e0c78c4ecba8c0974515d41bb80eca68",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/PROOF.md",
+      "sha256": "939d5c756963c7f6113a444772780255eb19087250886a682306f319cc7fc81f",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/SAME_ACTION_GAUGE_BOUNDARY_RESPONSE_AND_CUBIC_2026_11_08.md",
+      "sha256": "7e401a2f3b7c7e10a1ef04e635bd271bb19a655f282ade035f9d1abcb4016956",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/GAUGE_RESPONSE_MAGNETIC_REUSE_AND_OPERATOR_SCOPE_2026_11_08.md",
+      "sha256": "6d6e9411d4992a3b8a44e9a945ddaf44dbb6f3fcf87ca2cffbcbf03a7c46f534",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/GAUGE_RESPONSE_FIRST_REVIEW_BRIEF_2026_11_08.md",
+      "sha256": "7b3bff18f324b107ba5ee812f737846c6ed117f41c51adbc7ba20d257c6677d8",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/DESIGN.md",
+      "sha256": "7d6dd2eb0e5e894e8b260780fac1e3ecabe4d6cd5c5646eda72a0e445dd87927",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/ENGINEERING_DESIGN.md",
+      "sha256": "93c4cdc88774ba913d65cf448ef497339af6463e6d6115cdf5fb59517d3831f9",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/ENGINEERING_SOURCE_SEAL.json",
+      "sha256": "569df02e4b47087c5f514f1ae385d9c94a62bea3f62ed4502db1ee1029dda8a7",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/ENGINEERING_RESULT.md",
+      "sha256": "3ecc7de374124f23908b36af04fcad45f7a85291d0e37bc16b7672a77d03e3df",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/ENVIRONMENT.json",
+      "sha256": "6916e9bbee1d4fd932d2dbff6a514bdb3f58229f73501da8f2ccc3caa4ba1c57",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/engineering/attempt_01.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/engineering/attempt_01.stderr.txt",
+      "sha256": "e5f5c5f397e3650c6f3a7bb4924886f3881cd3a0302132da33c04d14ff3bb6e2",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/engineering/attempt_01.outcome.json",
+      "sha256": "508e3822cef20528476a73903af537cfcc291f37a4d278ea9b270ce44f7993c5",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/gauge_response_exact.py",
+      "sha256": "2eafb49959ab40c1051e1393e08829b06bfa6fa48d2fa8be97e590e43b9946b6",
+      "role": "source"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/run_checks.py",
+      "sha256": "1eac4068e294c7fec42bcf0c9a0fef5bd3bf6cda7884c5617c970427f894b6bb",
+      "role": "source"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/checks.py",
+      "sha256": "71eed48d058979c6d5940cecdf0c7e520baca6e3ab7cc22f8ef9a318f962d047",
+      "role": "source"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/engineering_checks.py",
+      "sha256": "6e7aa7b663dd65a64e21e915550ddfad50cf06f83bb61b7790cd556dbde249c7",
+      "role": "source"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/test_gauge_response.py",
+      "sha256": "eecd64593495e3d7f568d885082b17563dca5ed0bdd5042ab233f1a4ebbfd002",
+      "role": "test"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/run_checks.py",
+      "sha256": "1cc1c9e299be3f85df41d066b2673c2c62b33e83ad978603f769cf04fd8adbf0",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/check_path_references.py",
+      "sha256": "4c04dda43e898e0f58ff46aa711de5035f7bc394583989f1ac71ffd027665b01",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/check_test_vacuity.py",
+      "sha256": "cacea50360bcf3a17bb65a6af85e24cba9e62ac7cd82bfdf6b72675c35dda867",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/doc_currency.py",
+      "sha256": "89c0d8d5e401b622cffc5a8a85dcb082c59e89bef4bdfacb1529c025ac6dfed4",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/relay_debt.py",
+      "sha256": "620b4ce71ff2c9227f1d8eafd5cf63e41bd4d30edaba8c4840ee432fedafe2ab",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/representation_sweep.py",
+      "sha256": "0c9b5daadbac3a3f6e7edb9b8cf55bb47d65cc9baa2153c84293bb091e3d4e37",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/retraction_sweep.py",
+      "sha256": "4d1ecc5e57a0ed56c428b2b5f4b8e107755ce3a511f2924dae26b73840ee37f4",
+      "role": "source"
+    },
+    {
+      "path": "scripts/gates/gates.py",
+      "sha256": "3d4e6ab844a462cdb9ab10d79d4cabefa77154969cc33d4c143ca4b9367f9176",
+      "role": "source"
+    },
+    {
+      "path": "scripts/gates/prospective.py",
+      "sha256": "f1f446846d07cbdb649eb04cc0971ad6f5fc1bc89a85493203b3f2ede0c52065",
+      "role": "source"
+    },
+    {
+      "path": "scripts/gates/prospective_strict.py",
+      "sha256": "82985893d0db217514f7acfa5e676089e14eed30c6d98b0e6f22770fc4533f26",
+      "role": "source"
+    },
+    {
+      "path": "scripts/gates/provenance_policy.py",
+      "sha256": "19b0fa2382a31fb6a0d943f6df11b0b7dc482494a90e94013c2e2947a65f53c2",
+      "role": "source"
+    },
+    {
+      "path": "scripts/gates/tracked_state.py",
+      "sha256": "22ac6ab65ed48fa5e1aeb92f74a9c7215ae4bf61825749a1ce66ce81854cc7f1",
+      "role": "source"
+    },
+    {
+      "path": "scripts/views/generate.py",
+      "sha256": "e8f5594c877ff3df10c27b5637a931904bed85fec21b62300b11b2d2f4dcf0af",
+      "role": "source"
+    }
+  ],
+  "commands": [
+    {
+      "entrypoint": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/run_checks.py",
+      "argv": [
+        "python3",
+        "-B",
+        "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/run_checks.py",
+        "--admission",
+        "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/ADMISSION.json",
+        "--output",
+        "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/results/attempt_01.jsonl",
+        "--log",
+        "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/results/attempt_01.log"
+      ]
+    }
+  ],
+  "outputs": [
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/results/attempt_01.jsonl",
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/results/attempt_01.log"
+  ],
+  "environment": {
+    "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/ENVIRONMENT.json",
+    "sha256": "6916e9bbee1d4fd932d2dbff6a514bdb3f58229f73501da8f2ccc3caa4ba1c57"
+  }
+}
