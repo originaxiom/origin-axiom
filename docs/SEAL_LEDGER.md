@@ -9401,3 +9401,10 @@ Dynamic-core, angular Ward and nonlinear-period verification; analytical predict
 | date | stage | source | sha256 | scope |
 |---|---|---|---|---|
 | 2026-11-08 | AFTER hand derivations; BEFORE source implementation or scientific import/collection/run | `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_dynamic_core_2026_11_08/DESIGN.md` | `6ae0b6546e318240808a1a74df0713a704e9abc8df5f931f7c875639ed7db0c0` | Seven prospective exact controls; finite surrogates explicitly distinguished from actual-core and complete-domain claims. No execution binding, review, acceptance or admission yet. |
+
+
+Four-connection cusp/Gauss response verification; hand predictions disclosed.
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-11-08 | AFTER hand proof; BEFORE source implementation or scientific import/collection/run | `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_four_connection_2026_11_08/DESIGN.md` | `b93ae6eba516ce3358ef53c1e2dd00ceba4d98144867d067cc9e4e67102eb2a8` | Four prospective exact controls; actual tail Green/current/quartic algebra and zero-channel discriminators; no execution binding, independent review, main acceptance or admission yet. |
