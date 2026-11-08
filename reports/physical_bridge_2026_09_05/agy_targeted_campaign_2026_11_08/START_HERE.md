@@ -1,11 +1,21 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-08. Coordination revision 4, requested by the owner to avoid
+2026-11-08. Coordination revision 5, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
 
-## Current assignment: AGY-00b1 only
+## Current assignment: AGY-00b1-r1 only
+
+The dependency-map return2bed9909170d1d523890e90947d07494ecb986d2
+has all28 declared file hashes matching, but several source statements
+need correction. Read REVIEW_AGY_00B1_2BED_2026_11_08.md. Fix only its
+six listed source-map issues, retain the finite/global/physical scope
+separation, update RESUME.md and write a short response relay. Commit/push
+and STOP. No science code/imports/collection/runs or new proof is released.
+The full ledger and later tasks remain unreleased.
+
+## Prior dependency-map ticket (returned; revision requested)
 
 The corrected return 6552aec6894a4a94a2ced785ac3af8c25f801ba8 is
 accepted as documentary source intake WITH the reading notes in
