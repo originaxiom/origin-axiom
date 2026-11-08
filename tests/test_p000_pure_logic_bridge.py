@@ -14,6 +14,7 @@ from origin_axiom.p000_pure_logic_bridge import (
     canonical_unoriented_conj_rep,
     commutator_word,
     run_all_p000_bridge_verifications,
+    verify_0437f7a84_second_order_register_and_unitary_family_controls,
     verify_4a0c6d799_affine_d4_register_and_realization_controls,
     verify_d47f7d79f_selector_earning_and_syntactic_congruence,
     verify_step1_freeness_vs_relaxations,
@@ -222,4 +223,26 @@ def test_4a0c6d799_affine_d4_register_and_realization_controls() -> None:
     assert w34["J_a4_norm_squared"] == 4
     assert w34["J_comm_a4_b4_norm_squared"] == 0
     assert w34["J_projects_to_P_w_on_all_289_words"] is True
+
+
+def test_0437f7a84_second_order_register_and_unitary_family_controls() -> None:
+    res = verify_0437f7a84_second_order_register_and_unitary_family_controls()
+    assert res["codex_0437f7a84_passed"] is True
+    r2 = res["codex_0437f7a84_second_order_register"]
+    assert r2["cover_vertices_edges_tree_basis"] == [8, 16, 7, 9]
+    assert r2["first_order_loses_a4_b4_order"] is True
+    assert r2["second_order_magnus_matches_exterior_wedge"] is True
+    assert r2["heisenberg_3x3_integer_replay_verified"] is True
+    assert r2["central_layer_lambda2_Z9_rank"] == 36
+    assert r2["nested_commutator_deg2_trivial_deg3_nontrivial"] is True
+    assert r2["a5_non_cofinality_outside_solvable_tower"] is True
+    f_agy = res["agy_referee_findings_on_register_exact"]
+    assert f_agy["finding_a1_R_right_vs_R_left_distinct_9x9_on_N_ab"] is True
+    assert f_agy["finding_a2_schreier_expand_requires_tree_tail_outside_N"] is True
+    assert f_agy["finding_a3_outer_2O_lifts_have_order_8_beyond_inner_Q8"] is True
+    uf = res["codex_274fc12f0_950ca740d_unitary_family_controls"]
+    assert uf["matrix_commutator_2nd_and_3rd_order_and_trace_4th_order_verified"] is True
+    assert uf["peripheral_linear_matrix_vs_quadratic_trace_shift_verified"] is True
+    assert uf["tangent_space_unipotent_shear_obstruction_at_K0_verified"] is True
+
 

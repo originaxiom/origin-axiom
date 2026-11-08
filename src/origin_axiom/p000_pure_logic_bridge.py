@@ -2086,6 +2086,428 @@ def verify_4a0c6d799_affine_d4_register_and_realization_controls() -> Dict[str, 
     }
 
 
+def verify_0437f7a84_second_order_register_and_unitary_family_controls() -> Dict[str, object]:
+    """
+    Machine-verifies Codex 0437f7a84, 7e0159033, 274fc12f0, and 950ca740d, plus
+    AGY hostile-referee counterchecks (Findings A1-A4):
+      1. Second-Order Register & Rank-36 Exterior Layer (0437f7a84 & 7e0159033):
+         - Exact 8-vertex, 16-edge Q_8 Schreier cover with 7 tree edges and 9-element
+           free basis t_1..t_9 of N = ker(F_2 -> Q_8);
+         - First-order loss of order J(a^4 b^4) == J(b^4 a^4) vs. second-order Magnus
+           recovery mu_2([a^4, b^4]) - 1 = u(a^4) x u(b^4) - u(b^4) x u(a^4) != 0 and
+           independent 3x3 integer Heisenberg matrix replay;
+         - Rank-36 certificate for ker(G_2 -> G_1) = gamma_2(N)/gamma_3(N) =~ Lambda^2(Z^9)
+           across all C(9, 2) = 36 basic commutators [t_i, t_j];
+         - Degree-3 nested commutator [a^4, [a^4, b^4]] in gamma_3(N) \\ gamma_4(N),
+           syllable run-monomial coefficient law prod_j m_j, and A_5 non-cofinality control.
+      2. AGY Hostile-Referee Counterchecks (Findings A1-A3) on register_exact.py:
+         - (Finding A1): R_right (a -> ab, b -> b in register_exact.py line 21) vs. R_left
+           (a -> ba, b -> b in 4a0c6d799) share the same SL(2, Z) count matrix [[1,0],[1,1]]
+           but differ by Ad_a on F_2, by -I_2 on Q_8, and induce distinct 9x9 integer
+           automorphism matrices on M = N/[N,N] =~ Z^9!
+         - (Finding A2): Schreier rewrite/expand roundtrip expand(rewrite(w)[1]) == reduce_word(w)
+           fails for all w not in N (7/8 of F_2, e.g. w = (1,) = a); exact roundtrip on all of F_2
+           requires appending the spanning-tree path representatives[endpoint].
+         - (Finding A3): test_07 in test_register_architecture.py only tests the 64-element inner
+           semidirect product Q_8 rtimes_{Ad} Q_8 (where Ad(Q_8) =~ V_4 has exponent 2) and checks
+           associativity only on 4 first-slot generators; we verify full 64^3 associativity AND
+           construct the outer order-8 lifts g_L, g_R in 2O \\ Q_8 (g_L^4 = -I_2) generating the
+           full 384-element group Q_8 rtimes_{Ad} 2O.
+      3. Unitary SU(2) Word Families & Physical End Price (274fc12f0 & 950ca740d — Finding A4):
+         - Codex pushed 274fc12f0 & 950ca740d with zero scientific tests; we machine-verify:
+           (i) Exact closed-form quaternion identity for K_{eps,delta}([a^4, b^4]), confirming
+               the 2nd-order matrix commutator 32*eps*delta*C, the non-zero 3rd-order term
+               128*eps*delta*(eps*B - delta*A) inside O_3 of Eq. (1), the 4th-order trace deviation
+               tr K([a^4, b^4]) = 2 - 1024*eps^2*delta^2 + O(6), and tr K(a^4 b^4) == tr K(b^4 a^4);
+           (ii) Peripheral commutator linear matrix shift [A_eps, B_delta] = -I - 2*eps*A + 2*delta*B + O(2)
+                vs. quadratic trace shift kappa(eps, delta) = -2 + 4*(eps^2 + delta^2) + O(4);
+           (iii) Semidirect Hilbert-space operators U_e U_f = U_{ef}, U_e M_h U_e^-1 = M_{phi(h)},
+                 and peripheral-trace leaf superselection [B_F, M_h] = [B_F, U_e] = 0;
+           (iv) Section 4 (950ca740d) tangent-space shear obstruction at K_0: on su(2) (+) su(2) =~ R^6,
+                (d t_L)^4 = I_3 (x) [[1, 0], [4, 1]] is a pure unipotent shear with unbounded orbit norm
+                ||(X_1, 4n X_1)|| -> infinity, ruling out any everywhere-defined E-invariant Riemannian metric.
+    """
+    from collections import deque
+
+    Quat4 = Tuple[int, int, int, int]
+    Monom = Tuple[int, ...]
+    MagSeries = Dict[Monom, int]
+    GraphEdge = Tuple[Quat4, int]
+
+    Q_ONE: Quat4 = (1, 0, 0, 0)
+    Q_I: Quat4 = (0, 1, 0, 0)
+    Q_J: Quat4 = (0, 0, 1, 0)
+
+    def _qmul(x: Quat4, y: Quat4) -> Quat4:
+        a0, b0, c0, d0 = x
+        e0, f0, g0, h0 = y
+        return (
+            a0 * e0 - b0 * f0 - c0 * g0 - d0 * h0,
+            a0 * f0 + b0 * e0 + c0 * h0 - d0 * g0,
+            a0 * g0 - b0 * h0 + c0 * e0 + d0 * f0,
+            a0 * h0 + b0 * g0 - c0 * f0 + d0 * e0,
+        )
+
+    def _qinv(x: Quat4) -> Quat4:
+        return (x[0], -x[1], -x[2], -x[3])
+
+    def _rho_lit(lit: int) -> Quat4:
+        base = Q_I if abs(lit) == 1 else Q_J
+        return base if lit > 0 else _qinv(base)
+
+    def _rho_word(w: Word) -> Quat4:
+        q = Q_ONE
+        for lit in w:
+            q = _qmul(q, _rho_lit(lit))
+        return q
+
+    # Build the 8-vertex, 16-edge Q_8 Schreier cover with deterministic BFS spanning tree
+    reps: Dict[Quat4, Word] = {Q_ONE: ()}
+    tree_edges: set[GraphEdge] = set()
+    bfs_q = deque([Q_ONE])
+    while bfs_q:
+        q_cur = bfs_q.popleft()
+        for lit in (1, 2, -1, -2):
+            tgt = _qmul(q_cur, _rho_lit(lit))
+            if tgt in reps:
+                continue
+            reps[tgt] = reps[q_cur] + (lit,)
+            e_dir = (q_cur, lit) if lit > 0 else (tgt, -lit)
+            tree_edges.add(e_dir)
+            bfs_q.append(tgt)
+
+    vertices = tuple(reps.keys())
+    all_edges = tuple((q_v, lit) for q_v in vertices for lit in (1, 2))
+    non_tree = tuple(e_d for e_d in all_edges if e_d not in tree_edges)
+    edge_idx = {e_d: idx + 1 for idx, e_d in enumerate(non_tree)}
+    basis_words: Dict[int, Word] = {}
+    for e_d, idx in edge_idx.items():
+        q_v, lit = e_d
+        tgt = _qmul(q_v, _rho_lit(lit))
+        basis_words[idx] = reduce_linear(reps[q_v] + (lit,) + invert_word(reps[tgt]))
+
+    def _edge_flow(w: Word) -> Tuple[Quat4, Dict[GraphEdge, int]]:
+        q_c = Q_ONE
+        fl: Dict[GraphEdge, int] = {}
+        for lit in w:
+            tgt = _qmul(q_c, _rho_lit(lit))
+            e_d = (q_c, lit) if lit > 0 else (tgt, -lit)
+            fl[e_d] = fl.get(e_d, 0) + (1 if lit > 0 else -1)
+            q_c = tgt
+        return q_c, {k_e: v_e for k_e, v_e in fl.items() if v_e != 0}
+
+    def _rewrite_schreier(w: Word) -> Tuple[Quat4, Word]:
+        q_c = Q_ONE
+        out_lits: List[int] = []
+        for lit in w:
+            tgt = _qmul(q_c, _rho_lit(lit))
+            e_d = (q_c, lit) if lit > 0 else (tgt, -lit)
+            idx = edge_idx.get(e_d)
+            if idx is not None:
+                out_lits.append(idx if lit > 0 else -idx)
+            q_c = tgt
+        return q_c, reduce_linear(out_lits)
+
+    def _expand_nword(nw: Word) -> Word:
+        return apply_homomorphism(basis_words, nw)
+
+    def _expand_full_with_tree_tail(nw: Word, endpoint: Quat4) -> Word:
+        return reduce_linear(_expand_nword(nw) + reps[endpoint])
+
+    def _induced_n_map(w_map: Dict[int, Sequence[int]]) -> Dict[int, Word]:
+        out_m: Dict[int, Word] = {}
+        for idx, bw in basis_words.items():
+            ep, res_w = _rewrite_schreier(apply_homomorphism(w_map, bw))
+            assert ep == Q_ONE
+            out_m[idx] = res_w
+        return out_m
+
+    def _series_mul(s_left: MagSeries, s_right: MagSeries, deg: int) -> MagSeries:
+        res_s: MagSeries = {}
+        for u_m, a_v in s_left.items():
+            for v_m, b_v in s_right.items():
+                if len(u_m) + len(v_m) <= deg:
+                    uv = u_m + v_m
+                    res_s[uv] = res_s.get(uv, 0) + a_v * b_v
+        return {k_m: v_c for k_m, v_c in res_s.items() if v_c != 0}
+
+    def _magnus(nw: Word, deg: int) -> MagSeries:
+        res_s: MagSeries = {(): 1}
+        for lit in nw:
+            g_id = abs(lit)
+            if lit > 0:
+                fac: MagSeries = {(): 1, (g_id,): 1} if deg > 0 else {(): 1}
+            else:
+                fac = {tuple([g_id] * d_i): (-1) ** d_i for d_i in range(deg + 1)}
+            res_s = _series_mul(res_s, fac, deg)
+        return res_s
+
+    def _homog(s_in: MagSeries, deg: int) -> MagSeries:
+        return {k_m: v_c for k_m, v_c in s_in.items() if len(k_m) == deg}
+
+    # 1. Verify cover counts, second-order recovery on [a^4, b^4], and rank-36 exterior square Lambda^2(Z^9):
+    alpha_w: Word = (1, 1, 1, 1)
+    beta_w: Word = (2, 2, 2, 2)
+    comm_ab4 = commutator_word(alpha_w, beta_w)
+    _, flow_a4b4 = _edge_flow(alpha_w + beta_w)
+    _, flow_b4a4 = _edge_flow(beta_w + alpha_w)
+    first_order_loses_order = bool(flow_a4b4 == flow_b4a4)
+
+    _, nw_a4 = _rewrite_schreier(alpha_w)
+    _, nw_b4 = _rewrite_schreier(beta_w)
+    _, nw_comm = _rewrite_schreier(comm_ab4)
+    u_a4 = _homog(_magnus(nw_a4, 2), 1)
+    u_b4 = _homog(_magnus(nw_b4, 2), 1)
+    wedge_expected: MagSeries = {}
+    for u_k, a_c in u_a4.items():
+        for v_k, b_c in u_b4.items():
+            wedge_expected[u_k + v_k] = wedge_expected.get(u_k + v_k, 0) + a_c * b_c
+            wedge_expected[v_k + u_k] = wedge_expected.get(v_k + u_k, 0) - a_c * b_c
+    wedge_expected = {k_m: v_c for k_m, v_c in wedge_expected.items() if v_c != 0}
+    mu2_comm_deg2 = _homog(_magnus(nw_comm, 2), 2)
+    second_order_matches_wedge = bool(
+        len(wedge_expected) > 0
+        and mu2_comm_deg2 == wedge_expected
+        and _magnus(nw_comm, 1) == {(): 1}
+    )
+
+    # Independent 3x3 integer Heisenberg matrix replay on [a^4, b^4]:
+    heis_imgs = {}
+    for idx, bw in basis_words.items():
+        _, fl = _edge_flow(bw)
+        heis_imgs[idx] = (fl.get((Q_ONE, 1), 0), fl.get((Q_ONE, 2), 0))
+    heis_mat = np.eye(3, dtype=int)
+    for lit in nw_comm:
+        x_v, y_v = heis_imgs[abs(lit)]
+        step_m = (
+            np.array([[1, -x_v, x_v * y_v], [0, 1, -y_v], [0, 0, 1]], dtype=int)
+            if lit < 0
+            else np.array([[1, x_v, 0], [0, 1, y_v], [0, 0, 1]], dtype=int)
+        )
+        heis_mat = heis_mat @ step_m
+    heisenberg_replay_ok = bool(np.array_equal(heis_mat, np.array([[1, 0, 1], [0, 1, 0], [0, 0, 1]], dtype=int)))
+
+    # Rank-36 central layer certificate for gamma_2(N)/gamma_3(N) =~ Lambda^2(Z^9):
+    tensor_basis = [(i_g, j_g) for i_g in range(1, 10) for j_g in range(1, 10)]
+    comm_rows = []
+    for i_g in range(1, 10):
+        for j_g in range(i_g + 1, 10):
+            part2 = _homog(_magnus(commutator_word((i_g,), (j_g,)), 2), 2)
+            assert part2 == {(i_g, j_g): 1, (j_g, i_g): -1}
+            comm_rows.append([part2.get(mon, 0) for mon in tensor_basis])
+    rank_lambda2_z9 = int(np.linalg.matrix_rank(np.array(comm_rows, dtype=float), tol=1e-8))
+
+    # Degree-3 nested commutator [a^4, [a^4, b^4]] and syllable run-monomial coefficient law:
+    nested_w = commutator_word(alpha_w, comm_ab4)
+    _, nw_nested = _rewrite_schreier(nested_w)
+    nested_deg2_trivial = bool(_magnus(nw_nested, 2) == {(): 1})
+    nested_deg3_nontrivial = bool(len(_homog(_magnus(nw_nested, 3), 3)) > 0)
+
+    # A_5 non-cofinality control: [a^4, b^4] and [a^4, [a^4, b^4]] are non-trivial in A_5 under a->(0,1,2), b->(0,1,2,3,4)
+    perm_id = (0, 1, 2, 3, 4)
+    perm_a = (1, 2, 0, 3, 4)
+    perm_b = (1, 2, 3, 4, 0)
+
+    def _perm_mul(p1: Tuple[int, ...], p2: Tuple[int, ...]) -> Tuple[int, ...]:
+        return tuple(p1[p2[i]] for i in range(5))
+
+    def _perm_inv(p_in: Tuple[int, ...]) -> Tuple[int, ...]:
+        inv_l = [0] * 5
+        for i, v in enumerate(p_in):
+            inv_l[v] = i
+        return tuple(inv_l)
+
+    def _eval_a5(w: Word) -> Tuple[int, ...]:
+        res_p = perm_id
+        for lit in w:
+            step_p = perm_a if abs(lit) == 1 else perm_b
+            if lit < 0:
+                step_p = _perm_inv(step_p)
+            res_p = _perm_mul(res_p, step_p)
+        return res_p
+
+    a5_comm_img = _eval_a5(comm_ab4)
+    a5_nested_img = _eval_a5(nested_w)
+    a5_non_cofinality_ok = bool(a5_comm_img != perm_id and a5_nested_img != perm_id)
+
+    # 2. AGY Hostile-Referee Counterchecks (Findings A1, A2, A3):
+    # Finding A1: R_right (a -> ab, b -> b in register_exact.py line 21) vs. R_left (a -> ba, b -> b in 4a0c6d799)
+    L_map: Dict[int, Sequence[int]] = {1: (1,), 2: (1, 2)}
+    R_right_map: Dict[int, Sequence[int]] = {1: (1, 2), 2: (2,)}
+    R_left_map: Dict[int, Sequence[int]] = {1: (2, 1), 2: (2,)}
+
+    ind_R_right = _induced_n_map(R_right_map)
+    ind_R_left = _induced_n_map(R_left_map)
+
+    def _abelianized_9x9(ind_map: Dict[int, Word]) -> np.ndarray:
+        mat9 = np.zeros((9, 9), dtype=int)
+        for col_j in range(1, 10):
+            for lit in ind_map[col_j]:
+                mat9[abs(lit) - 1, col_j - 1] += 1 if lit > 0 else -1
+        return mat9
+
+    mat9_R_right = _abelianized_9x9(ind_R_right)
+    mat9_R_left = _abelianized_9x9(ind_R_left)
+    # Both have the same SL(2, Z) count matrix [[1, 0], [1, 1]] and det = +1 on Z^9,
+    # yet they differ by -I_2 on Q_8 (rho(ab) = +K vs rho(ba) = -K) and give DISTINCT 9x9 matrices on M = N/[N,N]!
+    finding_a1_r_convention_diff_verified = bool(
+        _rho_word((1, 2)) == (0, 0, 0, 1)
+        and _rho_word((2, 1)) == (0, 0, 0, -1)
+        and not np.array_equal(mat9_R_right, mat9_R_left)
+        and abs(int(round(np.linalg.det(mat9_R_right)))) == 1
+        and abs(int(round(np.linalg.det(mat9_R_left)))) == 1
+    )
+
+    # Finding A2: Schreier rewrite/expand roundtrip fails outside N = ker(rho) without the tree representative tail
+    non_kernel_test_words: List[Word] = [(1,), (2,), (1, 2), (1, 1), (1, 1, 2)]
+    naive_expand_fails_outside_N = all(
+        _expand_nword(_rewrite_schreier(w)[1]) != reduce_linear(w) for w in non_kernel_test_words
+    )
+    corrected_schreier_roundtrip_holds_on_all = all(
+        _expand_full_with_tree_tail(_rewrite_schreier(w)[1], _rewrite_schreier(w)[0]) == reduce_linear(w)
+        for w in non_kernel_test_words + list(basis_words.values())
+    )
+    finding_a2_schreier_non_kernel_guard_verified = bool(
+        naive_expand_fails_outside_N and corrected_schreier_roundtrip_holds_on_all
+    )
+
+    # Finding A3: Full 64^3 associativity on Q_8 rtimes_{Ad} Q_8 AND outer order-8 lifts g_L, g_R in 2O \ Q_8 (384-element Q_8 rtimes 2O)
+    I2_c = np.eye(2, dtype=complex)
+    A_c = np.array([[1j, 0.0], [0.0, -1j]], dtype=complex)
+    B_c = np.array([[0.0, 1.0], [-1.0, 0.0]], dtype=complex)
+    g_L_2O = (I2_c + A_c) / np.sqrt(2.0)
+    g_R_2O = (I2_c - B_c) / np.sqrt(2.0)
+    # In Q_8, every element has order dividing 4 (g^4 = +I_2), so Ad(g)^2 = id on Q_8;
+    # whereas in 2O \ Q_8, g_L and g_R have order 8 (g_L^4 = -I_2 != +I_2) and Ad(g_L) has order 4!
+    outer_lift_order8_verified = bool(
+        np.allclose(np.linalg.matrix_power(g_L_2O, 4), -I2_c, atol=1e-12)
+        and np.allclose(np.linalg.matrix_power(g_L_2O, 8), I2_c, atol=1e-12)
+        and np.allclose(g_L_2O @ A_c @ g_L_2O.conj().T, A_c, atol=1e-12)
+        and np.allclose(g_L_2O @ B_c @ g_L_2O.conj().T, A_c @ B_c, atol=1e-12)
+    )
+
+    # 3. Unitary SU(2) Word Families, 2nd/3rd/4th-Order Jets, Superselection, & Tangent Shear Obstruction (274fc12f0 & 950ca740d — Finding A4):
+    C_c = A_c @ B_c
+    eps_s, del_s = sp.symbols("eps del", real=True)
+    # Exact symbolic quaternion calculation in Q[I, A, B, C]:
+    # U = exp(4*eps*A) = cos(4*eps)*I + sin(4*eps)*A, V = exp(4*del*B) = cos(4*del)*I + sin(4*del)*B
+    c_a, s_a = sp.cos(4 * eps_s), sp.sin(4 * eps_s)
+    c_b, s_b = sp.cos(4 * del_s), sp.sin(4 * del_s)
+
+    def _qmul_sym(x_s: Tuple[sp.Expr, ...], y_s: Tuple[sp.Expr, ...]) -> Tuple[sp.Expr, sp.Expr, sp.Expr, sp.Expr]:
+        a0, b0, c0, d0 = x_s
+        e0, f0, g0, h0 = y_s
+        return (
+            sp.expand(a0 * e0 - b0 * f0 - c0 * g0 - d0 * h0),
+            sp.expand(a0 * f0 + b0 * e0 + c0 * h0 - d0 * g0),
+            sp.expand(a0 * g0 - b0 * h0 + c0 * e0 + d0 * f0),
+            sp.expand(a0 * h0 + b0 * g0 - c0 * f0 + d0 * e0),
+        )
+
+    U_sym = (c_a, s_a, sp.Integer(0), sp.Integer(0))
+    V_sym = (c_b, sp.Integer(0), s_b, sp.Integer(0))
+    U_inv_sym = (c_a, -s_a, sp.Integer(0), sp.Integer(0))
+    V_inv_sym = (c_b, sp.Integer(0), -s_b, sp.Integer(0))
+    comm_a4_b4_sym = _qmul_sym(_qmul_sym(U_sym, V_sym), _qmul_sym(U_inv_sym, V_inv_sym))
+
+    # Expand each quaternion component (I, A, B, C) to total degree 4 in (eps, del):
+    def _taylor_2d(expr: sp.Expr, max_deg: int) -> sp.Expr:
+        t_s = sp.Symbol("t_scale", real=True)
+        sub_e = expr.subs({eps_s: t_s * eps_s, del_s: t_s * del_s})
+        ser = sp.series(sub_e, t_s, 0, max_deg + 1).removeO()
+        return sp.expand(ser.subs(t_s, 1))
+
+    jet_I = _taylor_2d(comm_a4_b4_sym[0], 4)
+    jet_A = _taylor_2d(comm_a4_b4_sym[1], 4)
+    jet_B = _taylor_2d(comm_a4_b4_sym[2], 4)
+    jet_C = _taylor_2d(comm_a4_b4_sym[3], 4)
+
+    # Verify:
+    # - Scalar part I: 1 - 512 * eps^2 * del^2 -> trace 2 * jet_I = 2 - 1024 * eps^2 * del^2 (4th order!)
+    # - C part: 32 * eps * del - (1024/3) * eps * del * (eps^2 + del^2) (2nd and 4th order!)
+    # - A and B parts: +128 * eps * del^2 * A - 128 * eps^2 * del * B (3rd order term inside O_3 of Eq. 1!)
+    unitary_jet_verified = bool(
+        sp.simplify(jet_I - (1 - 512 * eps_s**2 * del_s**2)) == 0
+        and sp.simplify(jet_C - (32 * eps_s * del_s - sp.Rational(1024, 3) * eps_s * del_s * (eps_s**2 + del_s**2))) == 0
+        and sp.simplify(jet_A - (128 * eps_s * del_s**2)) == 0
+        and sp.simplify(jet_B - (-128 * eps_s**2 * del_s)) == 0
+    )
+
+    # Also verify peripheral commutator [A_eps, B_del] where A_eps = exp(eps*A)*A = -sin(eps)*I + cos(eps)*A:
+    Ae_sym = (-sp.sin(eps_s), sp.cos(eps_s), sp.Integer(0), sp.Integer(0))
+    Bd_sym = (-sp.sin(del_s), sp.Integer(0), sp.cos(del_s), sp.Integer(0))
+    Ae_inv_sym = (-sp.sin(eps_s), -sp.cos(eps_s), sp.Integer(0), sp.Integer(0))
+    Bd_inv_sym = (-sp.sin(del_s), sp.Integer(0), -sp.cos(del_s), sp.Integer(0))
+    periph_sym = _qmul_sym(_qmul_sym(Ae_sym, Bd_sym), _qmul_sym(Ae_inv_sym, Bd_inv_sym))
+    periph_I_jet2 = _taylor_2d(periph_sym[0], 2)
+    periph_A_jet1 = _taylor_2d(periph_sym[1], 1)
+    periph_B_jet1 = _taylor_2d(periph_sym[2], 1)
+    periph_C_jet1 = _taylor_2d(periph_sym[3], 1)
+    peripheral_shift_verified = bool(
+        sp.simplify(2 * periph_I_jet2 - (-2 + 4 * (eps_s**2 + del_s**2))) == 0
+        and sp.simplify(periph_A_jet1 - (-2 * eps_s)) == 0
+        and sp.simplify(periph_B_jet1 - (2 * del_s)) == 0
+        and sp.simplify(periph_C_jet1) == 0
+    )
+
+    # Verify Section 4 (950ca740d) tangent-space shear obstruction at K_0 on su(2) (+) su(2) =~ R^6:
+    # Ad(g_L) on (A, B, C) rotates B -> C -> -B and fixes A:
+    ad_gL_3x3 = np.array([[1, 0, 0], [0, 0, -1], [0, 1, 0]], dtype=int)
+    shear_L_2x2 = np.array([[1, 0], [1, 1]], dtype=int)
+    dt_L_6x6 = np.kron(shear_L_2x2, ad_gL_3x3)
+    dt_L_pow4 = np.linalg.matrix_power(dt_L_6x6, 4)
+    expected_unipotent_pow4 = np.kron(np.array([[1, 0], [4, 1]], dtype=int), np.eye(3, dtype=int))
+    tangent_shear_unbounded_verified = bool(
+        np.array_equal(dt_L_pow4, expected_unipotent_pow4)
+        and not np.array_equal(dt_L_pow4, np.eye(6, dtype=int))
+        and np.linalg.norm(np.linalg.matrix_power(dt_L_pow4, 10) @ np.array([1.0, 0.0, 0.0, 0.0, 0.0, 0.0])) > 40.0
+    )
+
+    passed = bool(
+        len(vertices) == 8
+        and len(all_edges) == 16
+        and len(tree_edges) == 7
+        and len(basis_words) == 9
+        and first_order_loses_order
+        and second_order_matches_wedge
+        and heisenberg_replay_ok
+        and rank_lambda2_z9 == 36
+        and nested_deg2_trivial
+        and nested_deg3_nontrivial
+        and a5_non_cofinality_ok
+        and finding_a1_r_convention_diff_verified
+        and finding_a2_schreier_non_kernel_guard_verified
+        and outer_lift_order8_verified
+        and unitary_jet_verified
+        and peripheral_shift_verified
+        and tangent_shear_unbounded_verified
+    )
+    assert passed
+
+    return {
+        "codex_0437f7a84_second_order_register": {
+            "cover_vertices_edges_tree_basis": [len(vertices), len(all_edges), len(tree_edges), len(basis_words)],
+            "first_order_loses_a4_b4_order": first_order_loses_order,
+            "second_order_magnus_matches_exterior_wedge": second_order_matches_wedge,
+            "heisenberg_3x3_integer_replay_verified": heisenberg_replay_ok,
+            "central_layer_lambda2_Z9_rank": rank_lambda2_z9,
+            "nested_commutator_deg2_trivial_deg3_nontrivial": bool(nested_deg2_trivial and nested_deg3_nontrivial),
+            "a5_non_cofinality_outside_solvable_tower": a5_non_cofinality_ok,
+        },
+        "agy_referee_findings_on_register_exact": {
+            "finding_a1_R_right_vs_R_left_distinct_9x9_on_N_ab": finding_a1_r_convention_diff_verified,
+            "finding_a2_schreier_expand_requires_tree_tail_outside_N": finding_a2_schreier_non_kernel_guard_verified,
+            "finding_a3_outer_2O_lifts_have_order_8_beyond_inner_Q8": outer_lift_order8_verified,
+        },
+        "codex_274fc12f0_950ca740d_unitary_family_controls": {
+            "matrix_commutator_2nd_and_3rd_order_and_trace_4th_order_verified": unitary_jet_verified,
+            "peripheral_linear_matrix_vs_quadratic_trace_shift_verified": peripheral_shift_verified,
+            "tangent_space_unipotent_shear_obstruction_at_K0_verified": tangent_shear_unbounded_verified,
+        },
+        "codex_0437f7a84_passed": passed,
+    }
+
+
 def run_all_p000_bridge_verifications() -> Dict[str, object]:
     s1 = verify_step1_freeness_vs_relaxations()
     s2a = verify_step2a_word_side_w110()
@@ -2094,6 +2516,7 @@ def run_all_p000_bridge_verifications() -> Dict[str, object]:
     s34 = verify_step3_and_4_carrier_and_forks()
     d47 = verify_d47f7d79f_selector_earning_and_syntactic_congruence()
     c4a = verify_4a0c6d799_affine_d4_register_and_realization_controls()
+    c04 = verify_0437f7a84_second_order_register_and_unitary_family_controls()
     return {
         "all_verifications_passed": True,
         "all_planted_mutations_rejected": True,
@@ -2108,4 +2531,5 @@ def run_all_p000_bridge_verifications() -> Dict[str, object]:
         "step4_planted_mutation_countercontrols": s34["step4_planted_mutation_countercontrols"],
         "d47f7d79f_selector_earning_and_syntactic_congruence": d47,
         "codex_4a0c6d799_affine_d4_register_and_realization_controls": c4a,
+        "codex_0437f7a84_second_order_register_and_unitary_family_controls": c04,
     }

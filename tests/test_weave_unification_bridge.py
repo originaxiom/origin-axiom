@@ -155,3 +155,16 @@ def test_planted_mutations_and_whole_weave_discipline() -> None:
     assert disc["rank_and_prime_theorems_are_conditional_characterizations_not_unconditional_derivations"] is True
     assert disc["whole_weave_vs_single_fixed_sector_distinction_enforced"] is True
     assert disc["confirmed_sm_parameters"] == "0 of 19"
+    cusp = suite["theorem4_codex_physical_bridge_joins"]["codex_b996bc98e_91f4b0aa6_gauge_cusp_response"]
+    assert cusp["codex_b996bc98e_passed"] is True
+    assert cusp["scalar_and_vector_outward_flux_verified"] is True
+    assert cusp["poisson_norms_green_and_riccati_verified"] is True
+    assert cusp["static_shell_schur_cut_independence_verified"] is True
+    assert cusp["cubic_overlap_from_mode_exponents_verified"] is True
+    assert cusp["finding_c1_forbidden_bvv_divergence_guard_verified"] is True
+    assert cusp["colour_so3_triple_bracket_trace"] == -2
+    assert cusp["finding_c2_nonabelian_so3_duhamel_holonomy_verified"] is True
+    mag = cusp["codex_91f4b0aa6_orthonormal_tail_constant_and_magnetic_saddle_scope"]
+    assert mag["orthonormal_tail_amplitude_constant_in_y"] is True
+    assert mag["residual_zero_scalar_stiffness_positive"] is True
+    assert mag["nonzero_magnetic_flux_charged_eigenvalues"] == {1: -5, 2: -10, 3: -15}
