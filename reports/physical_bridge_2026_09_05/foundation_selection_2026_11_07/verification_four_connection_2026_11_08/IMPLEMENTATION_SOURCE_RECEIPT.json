@@ -1,0 +1,62 @@
+{
+  "record_type": "AUTHOR_FOUR_CONNECTION_IMPLEMENTATION_SOURCE_METADATA_NOT_EXECUTION",
+  "date": "2026-11-08",
+  "base_commit": "e38c42a60dd54d16228a4d9398329e0339a19a5d",
+  "design_commit": "e38c42a60dd54d16228a4d9398329e0339a19a5d",
+  "design": {
+    "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_four_connection_2026_11_08/DESIGN.md",
+    "sha256": "b93ae6eba516ce3358ef53c1e2dd00ceba4d98144867d067cc9e4e67102eb2a8",
+    "bytes": 5726
+  },
+  "source_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_four_connection_2026_11_08/four_connection_exact.py",
+      "sha256": "074b153bfe3f7825c93fd23f478f08aaaecee6d31de2ffdd4e6621fb8e386181",
+      "bytes": 3522,
+      "ast_parse": "OK",
+      "text_declared_imports": [
+        "fractions"
+      ],
+      "text_declared_methods": []
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_four_connection_2026_11_08/test_four_connection.py",
+      "sha256": "b44f2d95cf869feadb682a23577eb27cd0b597e0c60566f01ebc495d20fb1d34",
+      "bytes": 10231,
+      "ast_parse": "OK",
+      "text_declared_imports": [
+        "fractions",
+        "unittest",
+        "four_connection_exact"
+      ],
+      "text_declared_methods": [
+        "test_01_green_kernel_and_actual_endpoint_norm",
+        "test_02_conserved_current_gauss_and_gaussian_coefficient",
+        "test_03_double_overlap_and_logarithmic_cases",
+        "test_04_zero_exchange_and_nonabelian_conjugate_pair"
+      ]
+    }
+  ],
+  "status": {
+    "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_four_connection_2026_11_08/STATUS.md",
+    "sha256": "442d31004e08a387afb91d7af2385693c39445e62a1ef10b69a36eb46436dfd2",
+    "bytes": 2070
+  },
+  "proof": {
+    "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/FOUR_CONNECTION_TAIL_VERTEX_WITH_GAUSS_EXCHANGE_2026_11_08.md",
+    "sha256": "9bb2f1ef75345142dbe6cedbafa2f7cf2909dc649c693178366a6903318970d1",
+    "bytes": 9591
+  },
+  "scientific_imports": false,
+  "scientific_collection": false,
+  "scientific_execution": false,
+  "scientific_pass_count": null,
+  "complete_execution_specification": false,
+  "independent_review_of_new_package": "NOT_COMPLETE",
+  "exact_main_acceptance_of_new_package": "NOT_PRESENT",
+  "frozen_six_artifact_pins_match": 40,
+  "seven_science_source_pins_match": true,
+  "inherited_staging_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "scope": "BOUNDED_GREEN_CURRENT_GAUSS_AND_QUARTIC_CONTROLS_NOT_GLOBAL_NONLINEAR_PHYSICS_OR_SM3",
+  "input_reduction_grade": "NO_NEW_FOUNDATIONAL_INPUT_OR_EMPIRICAL_PARAMETER_CERTIFIED"
+}
