@@ -224,3 +224,34 @@ not withdraw earlier scoped gauge/group/charge or 2+1-gravity positives.
 Nothing here asks main to rubber-stamp all branches or retrofit historical
 compliance. The priority is useful verified connections, with incomplete
 maps and remaining assumptions preserved where they actually belong.
+
+## 6. Later November 8 checkpoints: not an upgrade of earlier reviews
+
+At30f348e15 the physical seat wrote the UNREVIEWED/UNRUN integer-root
+up-sector extension candidate. Its actual middle rank-two flat bundle
+has peripheral -I, compact extension degree -1 and unequal allowed cusp
+twists. The proposed result is three up coefficients per conjugate colour
+representation. With eta=O and optional old chi absent, the corresponding
+half-root candidate also gives three charged down/lepton coefficients.
+This is a proposed same-model charged roster, not three weak families.
+Its nine prospective controls have no implementation or execution yet.
+
+AGY returned its bounded dependency map at2bed9909170d1d523890e90947d07494ecb986d2.
+All28 file pins match. Physical92cd5ea93 preserves its useful twelve-node,
+five-edge separation but requires six source-map repairs: the unsupported
+global quotient, flat versus total peripheral, exterior-square spectrum,
+invented source identifiers, finite/global proof scope and the now-existing
+unreviewed up candidate. Only that bounded documentary revision is released;
+no live worker acknowledgement or scientific result is inferred.
+
+The physical successor ACTUAL_ZERO_MODE_CURRENT_AND_RANK_ONE_VECTOR_2026_11_08.md
+is NEW AUTHOR HAND WORK, UNREVIEWED/UNRUN. It exhibits the candidate 2+1
+physical slot split, the distinct principal grades needed by left/right
+currents, and a global holomorphic charge-one vector candidate with
+Pv eigenvalue7/(2ell^2). Its actual bracket with the down spin mode gives
+a nonzero up spin mode and a rank-one left/zero right zero-mode current.
+The full-rank-three same-pole problem, normalized weak algebra, other
+vector towers, neutral spectrum and foundational selection remain open.
+Ten prospective controls are recorded before implementation; neither
+their admission nor passing execution is claimed. These author proposals
+do not change the independent 16/18 review or the 0-of19 parameter ledger.
