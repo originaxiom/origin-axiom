@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-08",
+  "grade": "exploratory author working notes; open proof targets, not accepted stationary family or physical mass hierarchy",
+  "scientific_execution": false,
+  "independent_review": null,
+  "main_acceptance": null,
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CONJUGATE_SECTOR_VECTOR_AND_PAIRED_CURRENT_POLE_2026_11_08.md",
+      "commit": "400244e32c737d9b947546e2b12fec5ab57c9627",
+      "sha256": "d63b14319b2ea19c29e9082c9e37d0534ee30285ca7fd028d35856182ec90c2a"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md",
+      "commit": "400244e32c737d9b947546e2b12fec5ab57c9627",
+      "sha256": "871529dd81603e1a70126f6ee518ae5c2758c107cf7e9fff62ae96f646a0813f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/UP_SECTOR_EXPLORATORY_NEUTRAL_NOTES_2026_11_08.md",
+      "commit": "400244e32c737d9b947546e2b12fec5ab57c9627",
+      "sha256": "c4110e34a25e37d72dd9ec1823cb01320071cb6ae17608d68c3a658bd38a9de0"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md",
+      "commit": "400244e32c737d9b947546e2b12fec5ab57c9627",
+      "sha256": "6012816683f17ac83e7d3bdb4f6d8b987ec8155ee2caa09ce651dbf0b194ed4c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "commit": "400244e32c737d9b947546e2b12fec5ab57c9627",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "commit": "400244e32c737d9b947546e2b12fec5ab57c9627",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    }
+  ],
+  "artifact": {
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/NEXT_PROBE_NATIVE_NEUTRAL_FIELDS_AND_MOMENT_RESPONSE_2026_11_08.md",
+    "sha256": "817f279e15d4c1cefb41260e0f3975a0d69f1b4ba9e7397b6784d884d2c325e9"
+  },
+  "preserved_failed_shortcut": "A fixed-connection Higgs insertion omits a nonzero quadratic moment source and is not an admitted physical mass splitting.",
+  "next_duties": [
+    "actual neutral tangent/transition/complete-domain witnesses",
+    "nonlinear moment response with genuine zero modes and complete end",
+    "test rather than assume cyclic pairing symmetry",
+    "full same-pole projection rather than an unearned two-mode truncation",
+    "actual epsilon/trace global Yukawa product; nonzero fibre capacity insufficient"
+  ],
+  "input_reduction_claimed": false
+}
