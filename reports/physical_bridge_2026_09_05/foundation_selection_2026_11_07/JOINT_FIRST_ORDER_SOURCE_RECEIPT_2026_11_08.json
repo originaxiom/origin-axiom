@@ -1,0 +1,108 @@
+{
+  "record_type": "AUTHOR_HAND_PROOF_AND_RECOVERED_SOURCE_RECEIPT_NOT_EXECUTION_SEAL",
+  "date": "2026-11-08",
+  "status": "UNREVIEWED",
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/JOINT_FIRST_ORDER_REGISTER_AND_OLD_QUATERNION_COVER_2026_11_08.md",
+      "sha256": "a147e103daabaef3a57ee8931856e0834513112069192edb92d5319141bb2b82",
+      "bytes": 13058
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_SM_GENESIS_AND_AGY_2026-11-08_JOINT_REGISTER_RECOVERS_W34.md",
+      "sha256": "12d57155c157d3bc887a57d126afc13fdeba8b743fe75ab112f3a6b6ce5acc69",
+      "bytes": 3805
+    }
+  ],
+  "source_reads": [
+    {
+      "commit": "47228ae85cb813ea1bcad3daba8b9446f64ff8d4",
+      "path": "docs/dossiers/the_weave_2026-10-07/W34_RULE.md",
+      "sha256": "dc3adaa7266e5338ad3b7e41b71176f934ed09491ba72c16bed61a4416580d87",
+      "bytes": 13796,
+      "personally_read_scope": "whole text; genus-three/four-puncture decomposition explicitly credited as its already-disclosed hand input"
+    },
+    {
+      "commit": "47228ae85cb813ea1bcad3daba8b9446f64ff8d4",
+      "path": "docs/dossiers/the_weave_2026-10-07/NOTE.md",
+      "sha256": "b9f80ae0b154237ba3b8527561b86935522b700ec61e5c821f0f201cf8754869",
+      "bytes": 1412460,
+      "personally_read_scope": "D1 reading and W59 portions around lines 4760-4885; whole dossier not read or certified"
+    },
+    {
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "frontier/B1600_the_weave_verified/FINDINGS.md",
+      "sha256": "fb4fc8569bc0bb4f60abc9d1dcafc0a8530edf2d9245c235e25127c0d8cfc3bc",
+      "bytes": 6868,
+      "personally_read_scope": "whole fetched findings including 4b addenda"
+    },
+    {
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "frontier/B1602_the_forced_cover_on_every_thread/FINDINGS.md",
+      "sha256": "19b66abf1923a9c9899c1cf1843537f4a863643e05d078bde134f8a06638a02e",
+      "bytes": 8236,
+      "personally_read_scope": "whole fetched findings including the artifact-withdrawal addendum"
+    },
+    {
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "frontier/B1614_the_observer_layer_on_the_weave/FINDINGS.md",
+      "sha256": "f2fa03a16788527471bac06d44f5bdc0294aa00881afb727c1154b27a4aa703e",
+      "bytes": 5099,
+      "personally_read_scope": "whole findings, reused recorded coefficient sectors"
+    },
+    {
+      "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+      "path": "reports/genesis_root_review_2026_10_11/cohomology_carrier/PROOF.md",
+      "sha256": "6193c07eaeccdbb33ef1bc4d54522e62d2c2b9922367ce6b2fe60c6af6a916a4",
+      "bytes": 7140,
+      "personally_read_scope": "whole proof, reused cocycle and quotient arguments"
+    },
+    {
+      "commit": "4a0c6d799ff52454e3ef18c925153a5d9a946d7a",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/AFFINE_DOUBLET_KERNEL_D4_AND_PARITY_2026_11_08.md",
+      "sha256": "2e598aac8399703f5026c0d2360544138aef858016960ff7e80e06dfb85623be",
+      "bytes": 16134,
+      "personally_read_scope": "whole authored proof, rechecked by hand; remains UNREVIEWED, not an independent review"
+    },
+    {
+      "commit": "4a0c6d799ff52454e3ef18c925153a5d9a946d7a",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/FULL_LIFTED_ZERO_CONTROL_AND_RESPONSE_FAMILY_2026_11_08.md",
+      "sha256": "e5c86e347563bcc82b3d33ef1c2f8278c9c88930a899b276a2716710cfe8cb9d",
+      "bytes": 7824,
+      "personally_read_scope": "whole authored proof, rechecked by hand; remains UNREVIEWED"
+    }
+  ],
+  "primary_literature": [
+    {
+      "url": "https://arxiv.org/html/1202.5343v4",
+      "personally_read_scope": "sections 2.2 and 3.1-3.2 including the net-edge-flow construction; introductory Magnus statement read; later metric/compression theorems not applied",
+      "version_recovery": "v2 HTML failed; v4 reached from the arXiv bibliographic HTML link"
+    }
+  ],
+  "scientific_imports": false,
+  "test_collection": false,
+  "scientific_execution": false,
+  "new_verification_code": "NOT_IMPLEMENTED",
+  "independent_review": "NOT_YET_REVIEWED",
+  "main_acceptance": false,
+  "claims": [
+    "joint recorded first-order Q8-module test kernel is [N,N], N=ker rho",
+    "self-contained graph-flow proof and conditional minimal test-preserving carrier",
+    "reuses old W34 cover and nine-dimensional homology decomposition",
+    "D4 is a projection of the joint response; a^4 restored but a^4 b^4 and b^4 a^4 remain identified",
+    "fixed-positive-metric limitation on full Nielsen action with covariant metric alternatives retained"
+  ],
+  "not_claimed": [
+    "new group theory or new discovery of genus or dimension",
+    "integral direct sum of rational/complex sectors",
+    "full architecture reduced to a first-order quotient",
+    "new physical inputs, SM parameters, generations or gravity"
+  ],
+  "metadata_checks": [
+    "artifact and source hashes",
+    "whitespace/transcription check",
+    "previous sealed D4/audit artifacts unchanged",
+    "inherited staging unchanged"
+  ],
+  "inherited_staged_binary_diff_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}
