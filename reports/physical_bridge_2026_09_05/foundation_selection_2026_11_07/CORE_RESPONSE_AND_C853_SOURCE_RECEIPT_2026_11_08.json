@@ -1,0 +1,89 @@
+{
+  "record_type": "AUTHOR_CORE_PROOF_AND_AGY_SOURCE_AUDIT_NOT_EXECUTION",
+  "date": "2026-11-08",
+  "base_commit": "0ac5df4884f0fd046ca247b76c9004fa7b8ef546",
+  "source_pins": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/ACTUAL_CORE_MEAN_RESPONSE_AND_FLUX_SEWING_2026_11_08.md",
+      "sha256": "173a527897ccf3157230dea779a3363305de68d701de0cf182cc7e038436e4d3",
+      "bytes": 10117
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/AGY_C853_COUNTERCHECK_SOURCE_AUDIT_2026_11_08.md",
+      "sha256": "27eec621d216b69e68aadb6a7494e1f041a6441f9d054f8686838096696d3021",
+      "bytes": 5939
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/ENGINEERING_DESIGN.md",
+      "sha256": "93c4cdc88774ba913d65cf448ef497339af6463e6d6115cdf5fb59517d3831f9",
+      "bytes": 3160
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_MAIN_AND_GENESIS_2026-11-08_C853_COUNTERCHECK_SOURCE_RESPONSE.md",
+      "sha256": "ddacc814860e38ba28a09981de1c37458a22c39f594b2d65bf7798ed1accac7e",
+      "bytes": 2502
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_SM_GENESIS_AND_AGY_2026-11-08_ACTUAL_CORE_RESPONSE_AND_FLUX_SEWING.md",
+      "sha256": "752d963df17d311ebf2522e41193ec327f1d41508f7874f6e1bb87a2c081bc5b",
+      "bytes": 2547
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/SAME_ACTION_GAUGE_BOUNDARY_RESPONSE_AND_CUBIC_2026_11_08.md",
+      "sha256": "7e401a2f3b7c7e10a1ef04e635bd271bb19a655f282ade035f9d1abcb4016956",
+      "bytes": 16582
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/PROOF.md",
+      "sha256": "939d5c756963c7f6113a444772780255eb19087250886a682306f319cc7fc81f",
+      "bytes": 8666
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/SOURCE_ACTION_PROOF.md",
+      "sha256": "3407bfc4acfce3b8dd1a8926e92aa68be2213052ea02bf4cb48d2bb9dff2881e",
+      "bytes": 8962
+    }
+  ],
+  "exact_original_d4_source": {
+    "commit": "4a0c6d799",
+    "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/AFFINE_DOUBLET_KERNEL_D4_AND_PARITY_2026_11_08.md",
+    "sha256": "2e598aac8399703f5026c0d2360544138aef858016960ff7e80e06dfb85623be",
+    "R_right_literal_present": true
+  },
+  "agy_source_pins": [
+    {
+      "commit": "c8534ce2ade2f5e4ebccb337431e19c16fb85ea3",
+      "path": "relays/AGY_TO_PHYSICAL_AND_MAIN_2026-11-07_SUCCESSOR_REPAIRS_AND_WEAVE_CRYSTALLIZATION.md",
+      "sha256": "7700216947f041d8a24b272cc7204fc98b645a6dc6e3f87658c6e0452f09ed0e",
+      "bytes": 32408,
+      "evidence_grade": "SOURCE_TEXT_ONLY_NOT_EXECUTED"
+    },
+    {
+      "commit": "c8534ce2ade2f5e4ebccb337431e19c16fb85ea3",
+      "path": "src/origin_axiom/p000_pure_logic_bridge.py",
+      "sha256": "3a69e0ad93c542e3a38777408bf62b8fad9aeed6c45054d9076b21e8245320be",
+      "bytes": 119629,
+      "evidence_grade": "SOURCE_TEXT_ONLY_NOT_EXECUTED"
+    },
+    {
+      "commit": "c8534ce2ade2f5e4ebccb337431e19c16fb85ea3",
+      "path": "src/origin_axiom/weave_unification_bridge.py",
+      "sha256": "caeccdd9252e87b2f9cfae8cf827b97cc89dfea877205ef6f09a1bcae90dc56d",
+      "bytes": 102088,
+      "evidence_grade": "SOURCE_TEXT_ONLY_NOT_EXECUTED"
+    }
+  ],
+  "scientific_imports": false,
+  "test_collection": false,
+  "scientific_execution": false,
+  "new_core_proof": "AUTHOR_UNREVIEWED_OUTSIDE_SIX_CONTROLS",
+  "independent_review_attempt": {
+    "agent": "/root/transport_end_independent_review",
+    "scope": "frozen six-control proof/code at 0ac5df488",
+    "terminal_status": "SERVICE_USAGE_LIMIT_ERROR_NO_VERDICT",
+    "coverage_does_not_include_new_core_proof": true
+  },
+  "previous_goal_turn_classification": "PLANNING_ONLY_NO_PHYSICAL_OR_EXECUTED_VERIFICATION_PROGRESS",
+  "current_turn_progress": "NEW_ACTUAL_CORE_HAND_PROOF_AND_SOURCE_COUNTERCHECK_EVIDENCE; EXECUTION_PREPARATION_IN_PROGRESS",
+  "inherited_staging_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}
