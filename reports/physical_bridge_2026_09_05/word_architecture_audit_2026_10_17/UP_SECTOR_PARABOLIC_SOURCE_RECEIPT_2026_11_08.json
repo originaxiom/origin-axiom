@@ -1,0 +1,125 @@
+{
+  "schema": "oa-up-sector-author-hand-source-receipt-v1",
+  "date": "2026-11-08",
+  "physical_base_commit": "d1b2303969050925d4b548ed21ec862208107b9f",
+  "fetched_branch_snapshot": {
+    "origin/main": "217e37c4f37bd80998f3c3e10cad358023f58114",
+    "origin/agy/audit-2026-11-02": "6552aec6894a4a94a2ced785ac3af8c25f801ba8",
+    "origin/claude/standard-model-derivation-0qt6ao": "47228ae85cb813ea1bcad3daba8b9446f64ff8d4",
+    "origin/chat1/web-seat": "195e8f1bdd7207970645c4fbd5847d238efb4d9c",
+    "origin/explore/2026-11-05": "af81fb6ef45f3544a5113a118599c16f185225a2",
+    "origin/audit/fork-2026-09-20": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a"
+  },
+  "status": "NEW UNREVIEWED AUTHOR HAND ARGUMENT; no scientific outcome or independent acceptance",
+  "source_pins": {
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md": {
+      "commit": "d1b2303969050925d4b548ed21ec862208107b9f",
+      "sha256": "871529dd81603e1a70126f6ee518ae5c2758c107cf7e9fff62ae96f646a0813f",
+      "role": "reused authored/independently reviewed source at its original scope, not a new acceptance"
+    },
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md": {
+      "commit": "d1b2303969050925d4b548ed21ec862208107b9f",
+      "sha256": "6012816683f17ac83e7d3bdb4f6d8b987ec8155ee2caa09ce651dbf0b194ed4c",
+      "role": "reused authored/independently reviewed source at its original scope, not a new acceptance"
+    },
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PIN2_COMPENSATOR_COHERENCE_AND_ELECTROMAGNETIC_PHASE.md": {
+      "commit": "d1b2303969050925d4b548ed21ec862208107b9f",
+      "sha256": "fc67d4446b11f54c731b7e7aac56b496e501d5fa397040363de6c8074909a3b9",
+      "role": "reused authored/independently reviewed source at its original scope, not a new acceptance"
+    },
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_QUATERNION_STATIONARY_BUNDLE_AND_CUSP_LAW.md": {
+      "commit": "d1b2303969050925d4b548ed21ec862208107b9f",
+      "sha256": "221a7cd2dce2ff7dec0b135c348b7bb52e15bc27e5563d420756fbe31f9978a1",
+      "role": "reused authored/independently reviewed source at its original scope, not a new acceptance"
+    },
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CONFINED_HALF_ROOT_SECTOR_AND_SURVIVING_CONTINUUM.md": {
+      "commit": "d1b2303969050925d4b548ed21ec862208107b9f",
+      "sha256": "8436811ae3529f7fa78337a428f1e9c2d8af1414860fb2512db772a20879e4c4",
+      "role": "reused authored/independently reviewed source at its original scope, not a new acceptance"
+    },
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_HALF_ROOT_KERNEL_AND_CORE_LIFT_SENSITIVITY.md": {
+      "commit": "d1b2303969050925d4b548ed21ec862208107b9f",
+      "sha256": "789adf7544bf5c679305aa8b9ba7525b6375155b026c839e01c34c281be23875",
+      "role": "reused authored/independently reviewed source at its original scope, not a new acceptance"
+    },
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CENTRALIZER_KERNEL_WITH_THRESHOLD_CONTINUUM.md": {
+      "commit": "d1b2303969050925d4b548ed21ec862208107b9f",
+      "sha256": "a19e2c6c6b4faa0db3bbe16402499314f259a8db0ce590b0bcaf3ac4130970f5",
+      "role": "reused authored/independently reviewed source at its original scope, not a new acceptance"
+    },
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/LEVEL_FIVE_TRANSPORT_COMPLETE_KERNEL_CANDIDATE.md": {
+      "commit": "d1b2303969050925d4b548ed21ec862208107b9f",
+      "sha256": "74ebfae9a6486bb4ea1a981d1f022d19a63354cc46ac475ae64fa4862659f13b",
+      "role": "reused authored/independently reviewed source at its original scope, not a new acceptance"
+    },
+    "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md": {
+      "commit": "d1b2303969050925d4b548ed21ec862208107b9f",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "role": "reused authored/independently reviewed source at its original scope, not a new acceptance"
+    },
+    "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md": {
+      "commit": "d1b2303969050925d4b548ed21ec862208107b9f",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "role": "reused authored/independently reviewed source at its original scope, not a new acceptance"
+    },
+    "src/origin_axiom/weave_unification_bridge.py": {
+      "commit": "21b293e87ff09fd64911267e9b4aa447fbfab2b9",
+      "sha256": "73bb65f3c09a6511b9bbcfd3666c7e945ffd39aeab61fe23f589b91113d759c6",
+      "role": "read-only AGY source comparison; no import or execution"
+    }
+  },
+  "personally_read_external_sources": [
+    {
+      "url": "https://stacks.math.columbia.edu/tag/0BS6",
+      "scope": "Lemma 53.5.2 statement and proof: vector-bundle Riemann-Roch/duality; not an OA or cusp-domain theorem"
+    },
+    {
+      "url": "https://stacks.math.columbia.edu/tag/0B5B",
+      "scope": "Section 53.5 compact vector-bundle degree, RR and duality discussion"
+    }
+  ],
+  "author_hand_checks": [
+    "paired vector/gauge/flavour transition calculation",
+    "local determinant extension and dual factor",
+    "strict radial power/log endpoints",
+    "compact maximum-principle and RR counts",
+    "noncritical weighted radial derivative and complete-domain argument",
+    "two-sheet induced-line consistency route",
+    "charged-representation dimensions and retained opposite charges"
+  ],
+  "load_bearing_review_duties": [
+    "actual source representatives and transition phases",
+    "equivariant bounded contraction and graph cores",
+    "norm-selected extension and dual endpoints",
+    "noncritical range/Hodge-to-physical map",
+    "complete charged A3 exclusion and half-root joining scope"
+  ],
+  "not_claimed": [
+    "independent mathematical verification",
+    "scientific test execution",
+    "source-complete execution specification or registration",
+    "banked theorem",
+    "physical weak chirality",
+    "complete SM3 or neutrino identification",
+    "new foundational input reduction",
+    "observed parameters",
+    "gravity or quantum stability"
+  ],
+  "neutral_notes_status": "exploratory only; not used by the charged proof, not accepted complete roster",
+  "design_status": "prospective post-derivation preimplementation draft; no seal-ledger registration claimed; no producer/tests implemented",
+  "new_document_hashes": {
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_UP_SECTOR_PARABOLIC_COUNT_2026_11_08.md": "477743caf7f2edc91117ed9f7ef24efcb834c5a8968bfd19ffc46865d75d9ff9",
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/UP_SECTOR_EXPLORATORY_NEUTRAL_NOTES_2026_11_08.md": "c4110e34a25e37d72dd9ec1823cb01320071cb6ae17608d68c3a658bd38a9de0",
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_up_sector_2026_11_08/DESIGN.md": "6661580be9d13f0dd7f56536924c9715253da8c105e57daa305d8499975bd4ef",
+    "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_MAIN_AND_SM_2026-11-08_CANDIDATE_UP_COUNT_THREE_FROM_ACTUAL_CUSP_BUNDLE.md": "d6e65a5a6689da68c8465ec621233f831abbd18bc099e3445dc56ba4ff9681ee"
+  },
+  "scientific_imports": false,
+  "scientific_collection": false,
+  "scientific_execution": false,
+  "new_independent_review": false,
+  "main_acceptance": false,
+  "execution_admission": false,
+  "agy_active_task_changed": false,
+  "source_recovery_scope": "targeted source/branch recovery; no exhaustive absence or novelty claim",
+  "editorial_attempt": "Two patch-context attempts failed before changes; corrected against actual file text. No scientific computation or evidence was changed by either failed patch."
+}
