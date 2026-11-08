@@ -1,0 +1,74 @@
+{
+  "record_type": "IMPLEMENTED_UNRUN_SOURCE_INVENTORY_NOT_EXECUTION_ADMISSION",
+  "date": "2026-11-08",
+  "design_and_proof_seal": "b996bc98e7a5d3b807abcec8f17f2e2a075a28fd",
+  "source_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/gauge_response_exact.py",
+      "sha256": "2eafb49959ab40c1051e1393e08829b06bfa6fa48d2fa8be97e590e43b9946b6",
+      "bytes": 2067,
+      "static_imports": [
+        "from dataclasses import dataclass",
+        "from fractions import Fraction"
+      ],
+      "static_method_population": []
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/test_gauge_response.py",
+      "sha256": "eecd64593495e3d7f568d885082b17563dca5ed0bdd5042ab233f1a4ebbfd002",
+      "bytes": 10533,
+      "static_imports": [
+        "from fractions import Fraction as F",
+        "from itertools import product",
+        "import unittest",
+        "from gauge_response_exact import cubic_factors, mode, normalized_power_integral, response_derivatives, static_shell"
+      ],
+      "static_method_population": [
+        "GaugeResponseControls.test_01_weights_outward_flux_and_retained_moment_source",
+        "GaugeResponseControls.test_02_poisson_equations_and_both_norm_branches",
+        "GaugeResponseControls.test_03_green_divided_differences_and_response_norms",
+        "GaugeResponseControls.test_04_static_shell_schur_and_both_riccati_laws",
+        "GaugeResponseControls.test_05_cubic_power_overlap_and_nonabelian_colour_vertex",
+        "GaugeResponseControls.test_06_curvature_finite_norm_and_remote_sector_control"
+      ]
+    }
+  ],
+  "input_and_status_pins": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/DESIGN.md",
+      "sha256": "7d6dd2eb0e5e894e8b260780fac1e3ecabe4d6cd5c5646eda72a0e445dd87927",
+      "bytes": 4259
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/SAME_ACTION_GAUGE_BOUNDARY_RESPONSE_AND_CUBIC_2026_11_08.md",
+      "sha256": "7e401a2f3b7c7e10a1ef04e635bd271bb19a655f282ade035f9d1abcb4016956",
+      "bytes": 16582
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/STATUS.md",
+      "sha256": "c37a1833b8e02bd27f5ebfa875973b8e4ca338f81b6e2867e8288b5de437225c",
+      "bytes": 2492
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_SM_GENESIS_AND_AGY_2026-11-08_GAUGE_RESPONSE_SIX_CONTROLS_UNRUN.md",
+      "sha256": "6ea99b3576b3858460d4ee75951a62f12bc9fb3355c980924c6caf7aa7f340e5",
+      "bytes": 1865
+    }
+  ],
+  "metadata_checks": [
+    "stdlib AST parsing only",
+    "literal test population count",
+    "static import inventory",
+    "hash/path/whitespace checks",
+    "old seven-control science pins unchanged",
+    "inherited staged diff unchanged"
+  ],
+  "scientific_imports": false,
+  "test_collection": false,
+  "scientific_execution": false,
+  "mathematical_outcome": "NONE_EXECUTED",
+  "independent_review": "PENDING_NOT_ASSIGNED_OR_COMPLETED_FOR_THIS_NEW_SCOPE",
+  "main_acceptance": false,
+  "execution_readiness": "INCOMPLETE_NO_GATED_ENTRYPOINT_OR_ADMISSION",
+  "inherited_staged_binary_diff_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}
