@@ -1,0 +1,90 @@
+{
+  "record_type": "REVIEW_CANDIDATE_SOURCE_CUSTODY_NOT_ADMISSION",
+  "date": "2026-11-08",
+  "base_commit": "3a72395515f043de071e924c9df8ddee750d39bd",
+  "new_source_pins": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/UNITARY_FAMILY_ANCHOR_AND_INTERACTION_SCOPE_2026_11_08.md",
+      "sha256": "47d0695319f4feb2bba9827746894fb569e5f63176ea561f91d5f427584f7f48",
+      "bytes": 7283
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/EXECUTION_DESIGN.md",
+      "sha256": "a31141536e334b9e9dd74eea6fb8ab505a846907c2ebb0cc055aebe16930dbd9",
+      "bytes": 3114
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/ENVIRONMENT.json",
+      "sha256": "c8639492f9fab85b5b8deafa4c4b595008344550198496e14e8bd8b0a389a15e",
+      "bytes": 757
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/SPECIFICATION.json",
+      "sha256": "fe4a491f524d0a95debd87e92b56e5dc918dd1c7f16b502e6f736a59ae3402b8",
+      "bytes": 8497
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/ENGINEERING_RESULT.md",
+      "sha256": "0e937a407f9b275b1f080486118d0bbc50e9b05635eacbaf8d9c9cb0ac7b2218",
+      "bytes": 1394
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/EXECUTION_READINESS.md",
+      "sha256": "2a250dfd107ca51428dd602e85c50ccc47299fa5219d122d88af25f207d9866b",
+      "bytes": 2165
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_SM_GENESIS_AND_AGY_2026-11-08_ANCHOR_RECOVERY_AND_EXECUTION_BINDING.md",
+      "sha256": "9343f357a7abc972e4be848ffda427eafd6a625d0a7c4f1e19f92d640e36f428",
+      "bytes": 3200
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/engineering/attempt_01.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/engineering/attempt_01.stderr.txt",
+      "sha256": "dc4d51a062cb2e9b2c7d42c613fce84ee5a50dab0a52437fbd5c86ce55e2e0cb",
+      "bytes": 1310
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/engineering/attempt_01.outcome.json",
+      "sha256": "adf807087a4e75345aee1742fa78ba37c57f08f480bdde0c1418cdff199d5f91",
+      "bytes": 3361
+    }
+  ],
+  "reused_science_seal": "7e0159033c5a554a9d68c9b48fed8b0a3d3b601f",
+  "specification_pins_match": true,
+  "artifacts": 30,
+  "synthetic_fixtures_passed": 8,
+  "mathematical_tests_run": 0,
+  "mathematical_imports": false,
+  "mathematical_collection": false,
+  "source_review": "INTERRUPTED_INCOMPLETE",
+  "main_acceptance": false,
+  "admission_created": false,
+  "seal_registration": "OUTSTANDING",
+  "unitary_family_proofs": "AUTHOR_UNREVIEWED_OUTSIDE_SEVEN_TEST_PACKET",
+  "inherited_staged_binary_diff_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "remote_heads_after_fetch": [
+    "origin/HEAD 217e37c4f37bd80998f3c3e10cad358023f58114",
+    "origin/agy/audit-2026-11-02 d243e093fc10b36cb0bb6df5fc979af64fffe2b4",
+    "origin/agy/frontier-2026-10-26 05e6caabf7113244702aa473c6d6786d94b7cf4b",
+    "origin/audit/fork-2026-09-20 0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+    "origin/audit/independent-2026-11-03 4b91b9be7db39cc78935c06b47bbd44095c52426",
+    "origin/audit/physical-bridge-2026-09-05 274fc12f0bbe8868bda0f17f03b7b2a1e3f47b07",
+    "origin/chat1/web-seat 195e8f1bdd7207970645c4fbd5847d238efb4d9c",
+    "origin/chatgpt/weave-physics-archive-2026-10-11 efadcdeaa5375cf0ac76d954dbf34abd070430cd",
+    "origin/claude/kind-hypatia-uk0vv9 6a537f899c9c1882930475144a30ae76aa2966d8",
+    "origin/claude/outside-bench 13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+    "origin/claude/paper-review-verification-kaz3f5 5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+    "origin/claude/project-thread-hctlox 8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+    "origin/claude/standard-model-derivation-0qt6ao 47228ae85cb813ea1bcad3daba8b9446f64ff8d4",
+    "origin/explore/2026-11-05 af81fb6ef45f3544a5113a118599c16f185225a2",
+    "origin/main 217e37c4f37bd80998f3c3e10cad358023f58114",
+    "origin/referee/B1668_the_price_of_the_nineteen 0c781663f4fb0505fb8814e261b8cf9e0231d94f",
+    "origin/referee/landing 806dfd6002773bf1d1eba273f432fb626f27b302",
+    "origin/sep16-branch 3205984b48d1b98a80042cdc70916878973980f5"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "status": "observed_runtime_metadata_and_future_requirements_not_admission",
+  "python": "3.12.1",
+  "implementation": "CPython",
+  "packages": {},
+  "required_environment": {
+    "PYTHONHASHSEED": "0",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONOPTIMIZE": "0"
+  },
+  "external_tools": ["git"],
+  "metadata_observation": {
+    "command": ["python3.12", "-I", "-B", "-S", "-"],
+    "python": "3.12.1",
+    "implementation": "CPython",
+    "executable": "/Users/dri/.pyenv/versions/3.12.1/bin/python3.12",
+    "isolated": true,
+    "site_disabled": true,
+    "scientific_modules_loaded": false
+  },
+  "scope": "Only Python standard-library arithmetic is used by the seven controls. This file does not authorize scientific execution."
+}

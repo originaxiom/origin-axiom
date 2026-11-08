@@ -1,0 +1,38 @@
+{
+  "record_type": "SYNTHETIC_ENGINEERING_OUTCOME_NOT_SCIENCE",
+  "source_commit": "3a72395515f043de071e924c9df8ddee750d39bd",
+  "command": [
+    "python3.12",
+    "-I",
+    "-B",
+    "-S",
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/engineering_checks.py"
+  ],
+  "returncode": 0,
+  "duration_seconds": 0.3167428970336914,
+  "expected_fixture_count": 8,
+  "reported_eight": true,
+  "reported_ok": true,
+  "source_unchanged": true,
+  "before_sha256": {
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/ENGINEERING_DESIGN.md": "a9979afe32fcd83027c973ecb059f9ebaf64a7b65784a31b540041a898bd210e",
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/run_checks.py": "3d1988678a6ff3c66a00f4f160bdfb220c162acb86adc0000b00cb18d9215d8e",
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/checks.py": "7b9c9d6d513841d291e7fc4a585c35c451a95bb31d827d8d3a38e80fcbe85052",
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/engineering_checks.py": "408eb2a38d0c9b657a90033ffd399517668bae3456c5e06b91f8f03c9fcae188",
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/register_exact.py": "35f26901e4cb9d43ed7326a0d0f66e413fa0fcb30209338c589d64b14b30ab81",
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/test_register_architecture.py": "284edc0c1d5eb634156117fba352caa66d2fd9437d820d67a9967315fd386753"
+  },
+  "after_sha256": {
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/ENGINEERING_DESIGN.md": "a9979afe32fcd83027c973ecb059f9ebaf64a7b65784a31b540041a898bd210e",
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/run_checks.py": "3d1988678a6ff3c66a00f4f160bdfb220c162acb86adc0000b00cb18d9215d8e",
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/checks.py": "7b9c9d6d513841d291e7fc4a585c35c451a95bb31d827d8d3a38e80fcbe85052",
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/engineering_checks.py": "408eb2a38d0c9b657a90033ffd399517668bae3456c5e06b91f8f03c9fcae188",
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/register_exact.py": "35f26901e4cb9d43ed7326a0d0f66e413fa0fcb30209338c589d64b14b30ab81",
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/test_register_architecture.py": "284edc0c1d5eb634156117fba352caa66d2fd9437d820d67a9967315fd386753"
+  },
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "dc4d51a062cb2e9b2c7d42c613fce84ee5a50dab0a52437fbd5c86ce55e2e0cb",
+  "scientific_execution": false,
+  "real_scientific_imports": "NONE: fixture design imports only generated sentinel code; scientific source is AST text only",
+  "inherited_staged_diff_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}

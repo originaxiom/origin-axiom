@@ -1,0 +1,187 @@
+{
+  "schema": 1,
+  "experiment_id": "physical-larger-register-seven-exact-controls-v1",
+  "authors": [
+    "physical-bridge-seat"
+  ],
+  "design": {
+    "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/EXECUTION_DESIGN.md",
+    "sha256": "a31141536e334b9e9dd74eea6fb8ab505a846907c2ebb0cc055aebe16930dbd9"
+  },
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/AFFINE_DOUBLET_KERNEL_D4_AND_PARITY_2026_11_08.md",
+      "sha256": "2e598aac8399703f5026c0d2360544138aef858016960ff7e80e06dfb85623be",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/FULL_LIFTED_ZERO_CONTROL_AND_RESPONSE_FAMILY_2026_11_08.md",
+      "sha256": "e5c86e347563bcc82b3d33ef1c2f8278c9c88930a899b276a2716710cfe8cb9d",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/JOINT_FIRST_ORDER_REGISTER_AND_OLD_QUATERNION_COVER_2026_11_08.md",
+      "sha256": "a147e103daabaef3a57ee8931856e0834513112069192edb92d5319141bb2b82",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/LARGER_REGISTER_ARCHITECTURE_AND_SECOND_ORDER_LAW_2026_11_08.md",
+      "sha256": "ad7e88e3d5c6bd33f939c3f4c87fe788f0d88666dfb0e98cfb0d26a5437e1fbb",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/DESIGN.md",
+      "sha256": "a479997a87678d4b09500c4dca7df5d25e4843aabe3079a9a27cdbdb5c31d835",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/ENGINEERING_DESIGN.md",
+      "sha256": "a9979afe32fcd83027c973ecb059f9ebaf64a7b65784a31b540041a898bd210e",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/ENGINEERING_SOURCE_SEAL.json",
+      "sha256": "0c97584eb96a59b9dd8c177f58dabe4e2e3506514c8a120c0e1a3c3353d45b2f",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/ENGINEERING_RESULT.md",
+      "sha256": "0e937a407f9b275b1f080486118d0bbc50e9b05635eacbaf8d9c9cb0ac7b2218",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/ENVIRONMENT.json",
+      "sha256": "c8639492f9fab85b5b8deafa4c4b595008344550198496e14e8bd8b0a389a15e",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/engineering/attempt_01.outcome.json",
+      "sha256": "adf807087a4e75345aee1742fa78ba37c57f08f480bdde0c1418cdff199d5f91",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/engineering/attempt_01.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/engineering/attempt_01.stderr.txt",
+      "sha256": "dc4d51a062cb2e9b2c7d42c613fce84ee5a50dab0a52437fbd5c86ce55e2e0cb",
+      "role": "input"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/register_exact.py",
+      "sha256": "35f26901e4cb9d43ed7326a0d0f66e413fa0fcb30209338c589d64b14b30ab81",
+      "role": "source"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/run_checks.py",
+      "sha256": "3d1988678a6ff3c66a00f4f160bdfb220c162acb86adc0000b00cb18d9215d8e",
+      "role": "source"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/checks.py",
+      "sha256": "7b9c9d6d513841d291e7fc4a585c35c451a95bb31d827d8d3a38e80fcbe85052",
+      "role": "source"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/engineering_checks.py",
+      "sha256": "408eb2a38d0c9b657a90033ffd399517668bae3456c5e06b91f8f03c9fcae188",
+      "role": "source"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/test_register_architecture.py",
+      "sha256": "284edc0c1d5eb634156117fba352caa66d2fd9437d820d67a9967315fd386753",
+      "role": "test"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/run_checks.py",
+      "sha256": "1cc1c9e299be3f85df41d066b2673c2c62b33e83ad978603f769cf04fd8adbf0",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/check_path_references.py",
+      "sha256": "4c04dda43e898e0f58ff46aa711de5035f7bc394583989f1ac71ffd027665b01",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/check_test_vacuity.py",
+      "sha256": "cacea50360bcf3a17bb65a6af85e24cba9e62ac7cd82bfdf6b72675c35dda867",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/doc_currency.py",
+      "sha256": "89c0d8d5e401b622cffc5a8a85dcb082c59e89bef4bdfacb1529c025ac6dfed4",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/relay_debt.py",
+      "sha256": "620b4ce71ff2c9227f1d8eafd5cf63e41bd4d30edaba8c4840ee432fedafe2ab",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/representation_sweep.py",
+      "sha256": "0c9b5daadbac3a3f6e7edb9b8cf55bb47d65cc9baa2153c84293bb091e3d4e37",
+      "role": "source"
+    },
+    {
+      "path": "scripts/checks/retraction_sweep.py",
+      "sha256": "4d1ecc5e57a0ed56c428b2b5f4b8e107755ce3a511f2924dae26b73840ee37f4",
+      "role": "source"
+    },
+    {
+      "path": "scripts/gates/gates.py",
+      "sha256": "3d4e6ab844a462cdb9ab10d79d4cabefa77154969cc33d4c143ca4b9367f9176",
+      "role": "source"
+    },
+    {
+      "path": "scripts/gates/prospective.py",
+      "sha256": "f1f446846d07cbdb649eb04cc0971ad6f5fc1bc89a85493203b3f2ede0c52065",
+      "role": "source"
+    },
+    {
+      "path": "scripts/gates/prospective_strict.py",
+      "sha256": "82985893d0db217514f7acfa5e676089e14eed30c6d98b0e6f22770fc4533f26",
+      "role": "source"
+    },
+    {
+      "path": "scripts/gates/provenance_policy.py",
+      "sha256": "19b0fa2382a31fb6a0d943f6df11b0b7dc482494a90e94013c2e2947a65f53c2",
+      "role": "source"
+    },
+    {
+      "path": "scripts/gates/tracked_state.py",
+      "sha256": "22ac6ab65ed48fa5e1aeb92f74a9c7215ae4bf61825749a1ce66ce81854cc7f1",
+      "role": "source"
+    },
+    {
+      "path": "scripts/views/generate.py",
+      "sha256": "e8f5594c877ff3df10c27b5637a931904bed85fec21b62300b11b2d2f4dcf0af",
+      "role": "source"
+    }
+  ],
+  "commands": [
+    {
+      "entrypoint": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/run_checks.py",
+      "argv": [
+        "python3",
+        "-B",
+        "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/run_checks.py",
+        "--admission",
+        "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/ADMISSION.json",
+        "--output",
+        "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/results/attempt_01.jsonl",
+        "--log",
+        "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/results/attempt_01.log"
+      ]
+    }
+  ],
+  "outputs": [
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/results/attempt_01.jsonl",
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/results/attempt_01.log"
+  ],
+  "environment": {
+    "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/ENVIRONMENT.json",
+    "sha256": "c8639492f9fab85b5b8deafa4c4b595008344550198496e14e8bd8b0a389a15e"
+  }
+}

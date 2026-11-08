@@ -1,0 +1,13 @@
+test_01_deep_path_exact_population_and_one_delegation (__main__.ArchitectureWrapperEngineeringChecks.test_01_deep_path_exact_population_and_one_delegation) ... ok
+test_02_changed_infrastructure_rejects_before_import (__main__.ArchitectureWrapperEngineeringChecks.test_02_changed_infrastructure_rejects_before_import) ... ok
+test_03_missing_infrastructure_rejects_before_import (__main__.ArchitectureWrapperEngineeringChecks.test_03_missing_infrastructure_rejects_before_import) ... ok
+test_04_delegated_nonzero_exit_preserved (__main__.ArchitectureWrapperEngineeringChecks.test_04_delegated_nonzero_exit_preserved) ... ok
+test_05_delegated_exception_preserved (__main__.ArchitectureWrapperEngineeringChecks.test_05_delegated_exception_preserved) ... ok
+test_06_static_population_rejects_missing_extra_duplicate (__main__.ArchitectureWrapperEngineeringChecks.test_06_static_population_rejects_missing_extra_duplicate) ... ok
+test_07_synthetic_bridge_exact_class_and_one_import (__main__.ArchitectureWrapperEngineeringChecks.test_07_synthetic_bridge_exact_class_and_one_import) ... ok
+test_08_missing_bridge_class_rejects (__main__.ArchitectureWrapperEngineeringChecks.test_08_missing_bridge_class_rejects) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.033s
+
+OK
