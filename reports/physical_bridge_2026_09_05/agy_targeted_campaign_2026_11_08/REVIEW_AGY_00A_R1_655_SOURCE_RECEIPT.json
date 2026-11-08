@@ -1,0 +1,179 @@
+{
+  "schema": "oa-agy655-source-review-metadata-v1",
+  "agy_commit": "6552aec6894a4a94a2ced785ac3af8c25f801ba8",
+  "declared_pins": [
+    {
+      "commit": "4401782cfc682fc9068c5aa41eb9194a69384308",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_00A_75A_2026_11_08.md",
+      "claimed": "b21c2db6665571160bd2403c2a1f03c75097684d7dd565571065c42267e98408",
+      "actual": "b21c2db6665571160bd2403c2a1f03c75097684d7dd565571065c42267e98408",
+      "match": true
+    },
+    {
+      "commit": "4401782cfc682fc9068c5aa41eb9194a69384308",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/START_HERE.md",
+      "claimed": "b8620366638396f70699fffd3cc5647405e9cbb03d03eb03bfd5034f1fe1971f",
+      "actual": "b8620366638396f70699fffd3cc5647405e9cbb03d03eb03bfd5034f1fe1971f",
+      "match": true
+    },
+    {
+      "commit": "4401782cfc682fc9068c5aa41eb9194a69384308",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/TASKS.json",
+      "claimed": "0e59699ed93bbbd9938292133ab0bcf275fc51df3594c99954ebec6e6dc2cf71",
+      "actual": "0e59699ed93bbbd9938292133ab0bcf275fc51df3594c99954ebec6e6dc2cf71",
+      "match": true
+    },
+    {
+      "commit": "4401782cfc682fc9068c5aa41eb9194a69384308",
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_2026-11-08_75A_INTAKE_REVIEW_AND_SMALL_CORRECTION_TICKET.md",
+      "claimed": "94830689ebfba1fec7128c4478be315240207051c065e709b2089fd34f96279e",
+      "actual": "94830689ebfba1fec7128c4478be315240207051c065e709b2089fd34f96279e",
+      "match": true
+    },
+    {
+      "commit": "ee34f60fe1e12ca623f8bd6144fb8a6408e6587f",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/WORK_ORDER.md",
+      "claimed": "c1b976b740854aecc16c1d29503209190d57cb3729e118d415cbf354ec19276a",
+      "actual": "c1b976b740854aecc16c1d29503209190d57cb3729e118d415cbf354ec19276a",
+      "match": true
+    },
+    {
+      "commit": "ee34f60fe1e12ca623f8bd6144fb8a6408e6587f",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_FORM.md",
+      "claimed": "16fcd8203457ed116f2c87f92f04a086a30ce3bd7b83f947388f17495b4b812b",
+      "actual": "16fcd8203457ed116f2c87f92f04a086a30ce3bd7b83f947388f17495b4b812b",
+      "match": true
+    },
+    {
+      "commit": "dd7490203c55bae043585f594af5a13afe634fa7",
+      "path": "reports/physical_bridge_2026_09_05/SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md",
+      "claimed": "b3a04ab794beab0fce31b4365a011d2c3353f03932d22eef34469fd59b71729f",
+      "actual": "b3a04ab794beab0fce31b4365a011d2c3353f03932d22eef34469fd59b71729f",
+      "match": true
+    },
+    {
+      "commit": "dd7490203c55bae043585f594af5a13afe634fa7",
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_MAIN_AND_SM_2026-11-08_21B_SCOPE_AND_SM3_COMPLETION.md",
+      "claimed": "769aaadb8cd6614da9f44d39529f8ca0b0dd3c8902d34221fb12c95142dc6a4b",
+      "actual": "769aaadb8cd6614da9f44d39529f8ca0b0dd3c8902d34221fb12c95142dc6a4b",
+      "match": true
+    },
+    {
+      "commit": "dd7490203c55bae043585f594af5a13afe634fa7",
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "claimed": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "actual": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "match": true
+    },
+    {
+      "commit": "dd7490203c55bae043585f594af5a13afe634fa7",
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "claimed": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "actual": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "match": true
+    },
+    {
+      "commit": "dd7490203c55bae043585f594af5a13afe634fa7",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/DISCRIMINANT_COVER_PERIPHERAL_AND_ORDER_THREE_WILSON_2026_11_08.md",
+      "claimed": "5c056ae0d1a4cbc6ead0a9c1efa9f32719a1d013a290894fa70d5f31f2c66d46",
+      "actual": "5c056ae0d1a4cbc6ead0a9c1efa9f32719a1d013a290894fa70d5f31f2c66d46",
+      "match": true
+    },
+    {
+      "commit": "dd7490203c55bae043585f594af5a13afe634fa7",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/FREQUENCY_CORE_ANGULAR_TAIL_AND_GAUGE_WARD_RESPONSE_2026_11_08.md",
+      "claimed": "ea5bc0250d1ab332237dee3878ac5762789922a5da0a77ed52fbdcbb616166ef",
+      "actual": "ea5bc0250d1ab332237dee3878ac5762789922a5da0a77ed52fbdcbb616166ef",
+      "match": true
+    },
+    {
+      "commit": "dd7490203c55bae043585f594af5a13afe634fa7",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/FOUR_CONNECTION_TAIL_VERTEX_WITH_GAUSS_EXCHANGE_2026_11_08.md",
+      "claimed": "9bb2f1ef75345142dbe6cedbafa2f7cf2909dc649c693178366a6903318970d1",
+      "actual": "9bb2f1ef75345142dbe6cedbafa2f7cf2909dc649c693178366a6903318970d1",
+      "match": true
+    },
+    {
+      "commit": "21b293e87ff09fd64911267e9b4aa447fbfab2b9",
+      "path": "src/origin_axiom/weave_unification_bridge.py",
+      "claimed": "73bb65f3c09a6511b9bbcfd3666c7e945ffd39aeab61fe23f589b91113d759c6",
+      "actual": "73bb65f3c09a6511b9bbcfd3666c7e945ffd39aeab61fe23f589b91113d759c6",
+      "match": true
+    },
+    {
+      "commit": "21b293e87ff09fd64911267e9b4aa447fbfab2b9",
+      "path": "src/origin_axiom/p000_pure_logic_bridge.py",
+      "claimed": "76bd14f3488d1413969da367ee98ef6c2408a4a5f1800ebed5e1cd64f23c4ce5",
+      "actual": "76bd14f3488d1413969da367ee98ef6c2408a4a5f1800ebed5e1cd64f23c4ce5",
+      "match": true
+    },
+    {
+      "commit": "21b293e87ff09fd64911267e9b4aa447fbfab2b9",
+      "path": "relays/AGY_TO_PHYSICAL_AND_MAIN_2026-11-07_SUCCESSOR_REPAIRS_AND_WEAVE_CRYSTALLIZATION.md",
+      "claimed": "771274740ee480e74d767fb6c2f2125111c37cdb84bd00cd2dd161ae0dd6fe08",
+      "actual": "771274740ee480e74d767fb6c2f2125111c37cdb84bd00cd2dd161ae0dd6fe08",
+      "match": true
+    },
+    {
+      "commit": "51a5ffdad70b6a6208a5063f0dc4237a7fdf4190",
+      "path": "tests/test_sealed_validator_negative_controls.py",
+      "claimed": "cba9748eb580ca4ea742bfad8ac622685d7b92211c330d93fcc4666253949cca",
+      "actual": "cba9748eb580ca4ea742bfad8ac622685d7b92211c330d93fcc4666253949cca",
+      "match": true
+    },
+    {
+      "commit": "51a5ffdad70b6a6208a5063f0dc4237a7fdf4190",
+      "path": "docs/audit/FLOW_JOURNAL_2026_11_08_WALLS_F1_F4_AND_OPEN_O1_O2.md",
+      "claimed": "6a8b177083b463eb727f7c823f01242dc37877e0134b24a448db74845c346995",
+      "actual": "6a8b177083b463eb727f7c823f01242dc37877e0134b24a448db74845c346995",
+      "match": true
+    },
+    {
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "GENESIS.md",
+      "claimed": "ec8c3dba05a5c947416a18952bc40f99a32af5135c87987c6f7e6236bc34bad4",
+      "actual": "ec8c3dba05a5c947416a18952bc40f99a32af5135c87987c6f7e6236bc34bad4",
+      "match": true
+    },
+    {
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "docs/THE_TAU_READOUT_RULE.md",
+      "claimed": "461ead931f039e8924c6922e803434529445b8a2cf9296d531ecf99487773fcd",
+      "actual": "461ead931f039e8924c6922e803434529445b8a2cf9296d531ecf99487773fcd",
+      "match": true
+    }
+  ],
+  "invalid_full_commit_references": [],
+  "changed_paths": [
+    "relays/AGY_TO_PHYSICAL_2026-11-08_AGY_00A_R1_MANIFEST_REVISION_AND_RESUME.md",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/MODEL_MANIFEST.md",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md"
+  ],
+  "science_and_historical_validator_unchanged": true,
+  "document_hashes": {
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/MODEL_MANIFEST.md": "811956e0ffc5ca9f141c57e6eb5e98bc576aa5b8e7fe18909c4fc2cd9136ebdb",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md": "9a0476df3b6dd8fa8e9646626f70e18c59a36c4edc3bb7e50bb49f70976d00ff",
+    "relays/AGY_TO_PHYSICAL_2026-11-08_AGY_00A_R1_MANIFEST_REVISION_AND_RESUME.md": "b65aa2bdd6a8784d9d8e49014171f9720e3e6be0fe4f77707545deaacae24d1c"
+  },
+  "scientific_imports": false,
+  "scientific_collection": false,
+  "scientific_execution": false,
+  "scope": "Source metadata and documentary correction review only",
+  "physical_review_base": "6fc5cdd0d05e8072f6a2a64f267772d06ee94976",
+  "date": "2026-11-08",
+  "review_decision": "ACCEPT_SCOPED_RESULT_WITH_READING_NOTES",
+  "accepted_scope": "Documentary source intake only",
+  "underlying_scientific_results_accepted": false,
+  "model_guidance_is_separate_from_mathematical_review": true,
+  "new_document_hashes": {
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_00A_R1_655_2026_11_08.md": "c6942f5f1516b7600765bcafafb991f4ec35375dda9f345367ae3b255aebb458",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RUN_TICKET_AGY_00B1.md": "25db6209bc513b93c8e213a5796dc6d85133979a4ada95e0247c382c01e05451",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/START_HERE.md": "fc0c6b6bf65c6079ada3da05e0de6a65307819a44eb7e97baa4d9a0d80b4a7d5",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/TASKS.json": "75337121ef917c905a8368396797c157133fdfe430907558099a3a5b641fcf7f",
+    "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_2026-11-08_655_INTAKE_ACCEPTED_RELEASE_00B1.md": "8c7539a51589f103b4b084544199ab4aa87552fcd563acfdb2ef5c00449f5e64"
+  },
+  "next_released_microtask": "AGY-00b1",
+  "other_tasks_released": false,
+  "scientific_execution_authorized": false,
+  "new_banking_or_main_acceptance": false
+}

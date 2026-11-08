@@ -1,11 +1,22 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-08. Coordination revision 3, requested by the owner to avoid
+2026-11-08. Coordination revision 4, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
 
-## Current assignment: AGY-00a-r1 only
+## Current assignment: AGY-00b1 only
+
+The corrected return 6552aec6894a4a94a2ced785ac3af8c25f801ba8 is
+accepted as documentary source intake WITH the reading notes in
+REVIEW_AGY_00A_R1_655_2026_11_08.md. It is not a new physical proof.
+Read RUN_TICKET_AGY_00B1.md. Trace only the reported pure-h4 chi=0
+24-coefficient claim's source dependencies and consequential open joins.
+Return partial CLAIM_DEPENDENCIES.md, RESUME.md and a short relay;
+commit/push and STOP. No new proofs/code/scientific execution are released.
+AGY-00b2/full ledger and AGY-01 remain unreleased.
+
+## Prior revision ticket (completed; retained history)
 
 The AGY-00a return at 75a0f8d357f71a20e1b8227d778b8fe85b485252 has
 been reviewed as a source map. Decision REVISE; all 14 source file pins

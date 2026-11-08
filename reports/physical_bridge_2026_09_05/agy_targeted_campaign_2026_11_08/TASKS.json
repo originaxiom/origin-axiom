@@ -8,15 +8,15 @@
   "review_branch": "audit/physical-bridge-2026-09-05",
   "delivery_channel": "versioned repository relay; no live worker start or acknowledgement inferred",
   "worker_acknowledgement": {
-    "commit": "75a0f8d357f71a20e1b8227d778b8fe85b485252",
-    "type": "author-stated checkpoint and stop; documentary scope inspected, not complete runtime audit"
+    "commit": "6552aec6894a4a94a2ced785ac3af8c25f801ba8",
+    "type": "author source-only correction return and stop; changed files and declared references inspected"
   },
   "max_active_proof_code_packets_after_intake": 1,
   "scientific_execution_authorized_by_this_board": false,
   "first_return": [
-    "AGY-00a-r1 corrected model manifest",
-    "RESUME.md with R1-R4 response and validator scope note",
-    "short revision relay"
+    "AGY-00b1 partial pure-h4-24 CLAIM_DEPENDENCIES.md",
+    "RESUME.md durable handoff",
+    "short return relay"
   ],
   "stage_policy": {
     "allowed_now": [
@@ -60,7 +60,7 @@
       "id": "AGY-00",
       "title": "Reuse inventory and common-model manifest",
       "claim_dependencies": [],
-      "status": "AGY_00A_REVISE; ONLY_CORRECTION_MICROTASK_RELEASED",
+      "status": "INTAKE_ACCEPTED_WITH_READING_NOTES; ONLY_00B1_RELEASED",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -74,17 +74,17 @@
       "execution_admission": null,
       "admitted_run_evidence": null,
       "accepted_result": null,
-      "current_microtask": "AGY-00a-r1",
+      "current_microtask": "AGY-00b1",
       "released_current_outputs": [
-        "MODEL_MANIFEST.md",
+        "CLAIM_DEPENDENCIES.md (PARTIAL: PURE-H4-24 ONLY)",
         "RESUME.md",
-        "revision relay"
+        "short return relay"
       ],
       "source_map_review": {
-        "checkpoint": "75a0f8d357f71a20e1b8227d778b8fe85b485252",
-        "decision": "REVISE",
-        "document": "REVIEW_AGY_00A_75A_2026_11_08.md",
-        "scope": "source agreement and coordination; not scientific certificate"
+        "checkpoint": "6552aec6894a4a94a2ced785ac3af8c25f801ba8",
+        "decision": "ACCEPT_SCOPED_RESULT",
+        "document": "REVIEW_AGY_00A_R1_655_2026_11_08.md",
+        "scope": "documentary intake only, with reading notes; no physical certificate"
       }
     },
     {
@@ -224,29 +224,32 @@
     "six_control_science_execution": "UNRUN; separate main acceptance and admission outstanding",
     "later_seven_and_four_controls": "UNRUN; outside completed review"
   },
-  "coordination_revision": 3,
-  "revision_base_commit": "ee34f60fe1e12ca623f8bd6144fb8a6408e6587f",
+  "coordination_revision": 4,
+  "revision_base_commit": "6fc5cdd0d05e8072f6a2a64f267772d06ee94976",
   "start_document": "START_HERE.md",
   "max_active_microtasks_per_worker_context": 1,
   "dispatch": {
-    "released_microtask": "AGY-00a-r1",
+    "released_microtask": "AGY-00b1",
     "parent_task": "AGY-00",
-    "question": "Repair source-map transcription, determinant roles, invalid full commit and imported-result/lift notation; retain explicit limitations",
+    "question": "Trace the reported pure-h4 chi=0 24-coefficient claim to existing evidence and missing physical joins; no new derivation",
+    "run_ticket": "RUN_TICKET_AGY_00B1.md",
+    "accepted_intake_commit": "6552aec6894a4a94a2ced785ac3af8c25f801ba8",
+    "intake_review_document": "REVIEW_AGY_00A_R1_655_2026_11_08.md",
+    "acceptance_scope": "Documentary intake with explicit reading notes only; no physical claim or execution accepted",
     "allowed_activity": [
-      "read pinned source sections",
-      "correct MODEL_MANIFEST.md and RESUME.md",
-      "write bounded revision relay",
-      "commit and push unreviewed correction"
+      "read relevant pinned source sections",
+      "write bounded partial dependency map",
+      "update handoff and relay",
+      "commit and push unreviewed checkpoint"
     ],
     "required_outputs": [
-      "MODEL_MANIFEST.md",
+      "CLAIM_DEPENDENCIES.md (PARTIAL: PURE-H4-24 ONLY)",
       "RESUME.md",
-      "revision relay"
+      "short return relay"
     ],
-    "reviewed_checkpoint": "75a0f8d357f71a20e1b8227d778b8fe85b485252",
-    "review_decision": "REVISE",
-    "review_document": "REVIEW_AGY_00A_75A_2026_11_08.md",
-    "stop_condition": "Return immutable corrected source-map checkpoint and wait for separate physical-seat review",
+    "principal_node_limit": 12,
+    "consequential_open_edge_limit": 5,
+    "stop_condition": "Return immutable bounded source-map checkpoint and wait for physical-seat review",
     "next_microtask_released": false,
     "scientific_execution_authorized": false
   },
