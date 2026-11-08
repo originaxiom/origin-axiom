@@ -1,0 +1,82 @@
+{
+  "record_type": "PROSPECTIVE_DERIVATION_AND_DESIGN_SOURCE_RECEIPT_NOT_EXECUTION",
+  "date": "2026-11-08",
+  "base_commit": "950ca740d9f9b5c4aaefa75cdd61b4ede6498c4e",
+  "source_pins": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "bytes": 13228
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "bytes": 11351
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_QUATERNION_STATIONARY_BUNDLE_AND_CUSP_LAW.md",
+      "sha256": "221a7cd2dce2ff7dec0b135c348b7bb52e15bc27e5563d420756fbe31f9978a1",
+      "bytes": 16627
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GAPLESS_CUSP_RESPONSE_AND_GAUGE_COUPLING.md",
+      "sha256": "e89a6b108bfa6bc0bc80f093b4e35aa24d04f9013842ef9ad90b9bcc61e2da50",
+      "bytes": 6639
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXTERIOR_RESPONSE_AND_JOINING.md",
+      "sha256": "3d99d0d72a03dca843f36924e4c47cc7e0c78c4ecba8c0974515d41bb80eca68",
+      "bytes": 11634
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ACTUAL_CUSP_WEYL_RESPONSE_AND_INDUCED_NORM.md",
+      "sha256": "da4f0b954db49662bf75726bade1503d2e9e1ef7ac07f74793edfdf050eadb12",
+      "bytes": 12121
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_same_action_transmission_2026_10_16/PROOF.md",
+      "sha256": "d57ea6c28332a54437c9c2f9eca4372505322e25b66a340f7474ce5462cf5d6e",
+      "bytes": 9144
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/END_AMPLITUDE_SELECTION_AND_SEWING.md",
+      "sha256": "9aac9e807c8a9a8a79c15f7e17f2510304c780832bd4962de5181a7fef6e4aa8",
+      "bytes": 9475
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/REDUCTION_FIRST_MISSION_2026_10_26.md",
+      "sha256": "2bf9de779b36dc938bebf674145799367c36e70ff807d763ec74e2311822d486",
+      "bytes": 5330
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/SAME_ACTION_GAUGE_BOUNDARY_RESPONSE_AND_CUBIC_2026_11_08.md",
+      "sha256": "7e401a2f3b7c7e10a1ef04e635bd271bb19a655f282ade035f9d1abcb4016956",
+      "bytes": 16582
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/DESIGN.md",
+      "sha256": "7d6dd2eb0e5e894e8b260780fac1e3ecabe4d6cd5c5646eda72a0e445dd87927",
+      "bytes": 4259
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_SM_GENESIS_AND_AGY_2026-11-08_DERIVED_GAUGE_RESPONSE_AND_CUBIC.md",
+      "sha256": "803750e4a794ec9d88c0fa0b8920b40cdcab2590368df168bda889b127c09011",
+      "bytes": 3331
+    }
+  ],
+  "derivation_status": "AUTHOR_HAND_ARGUMENT_UNREVIEWED",
+  "new_controls": "DESIGNED_NOT_IMPLEMENTED_NOT_IMPORTED_NOT_COLLECTED_NOT_RUN",
+  "reduction_grade": "CANDIDATE_CONDITIONAL_SAME_MODEL_BOUNDARY_RESPONSE_NOT_FOUNDATIONAL_PAYMENT",
+  "literature": [
+    {
+      "url": "https://arxiv.org/html/hep-th/0101233v2",
+      "read_scope": "Sections 2.3 and 3.2 retrieved passages on non-Abelian action, affine connection and WZW qualification; not a full-paper reproof",
+      "use": "Primary context; actual cusp coefficient equations are derived from the explicitly pinned repository component action"
+    }
+  ],
+  "new_agy_head": "3b6ade739",
+  "agy_new_claims_used_as_scientific_inputs": false,
+  "inherited_staged_diff_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "scientific_execution": false,
+  "goal_status": "FULL_SM3_GRAVITY_UNFINISHED"
+}
