@@ -9394,3 +9394,10 @@ Six-control same-action gauge-response execution candidate; historical failures 
 | 2026-11-08 | AFTER hand derivation/source/software fixtures; BEFORE real scientific import/collection/run | `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/DESIGN.md` | `7d6dd2eb0e5e894e8b260780fac1e3ecabe4d6cd5c5646eda72a0e445dd87927` | Original six-control scientific design at b996bc98e before implementation; registered now after disclosed hand predictions and source preparation; six science methods unrun. |
 | 2026-11-08 | AFTER hand derivation/source/software fixtures; BEFORE real scientific import/collection/run | `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/EXECUTION_DESIGN.md` | `6522f372ef87cca57cacfd75b4d38731840561837aaa36261313e943e556b824` | Actual six-control execution design and stop rules; source-complete nonauthoring review and exact main acceptance remain outstanding. |
 | 2026-11-08 | AFTER hand derivation/source/software fixtures; BEFORE real scientific import/collection/run | `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/SPECIFICATION.json` | `1297dbedd4c10696e88bbd3459890a08b0e27013c946be05181f4b4c3cfcb953` | Hash-pinned machine-readable execution binding metadata, explicit source role; not a blind scientific preregistration or execution acceptance. |
+
+
+Dynamic-core, angular Ward and nonlinear-period verification; analytical predictions disclosed.
+
+| date | stage | source | sha256 | scope |
+|---|---|---|---|---|
+| 2026-11-08 | AFTER hand derivations; BEFORE source implementation or scientific import/collection/run | `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_dynamic_core_2026_11_08/DESIGN.md` | `6ae0b6546e318240808a1a74df0713a704e9abc8df5f931f7c875639ed7db0c0` | Seven prospective exact controls; finite surrogates explicitly distinguished from actual-core and complete-domain claims. No execution binding, review, acceptance or admission yet. |

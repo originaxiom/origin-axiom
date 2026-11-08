@@ -192,7 +192,8 @@ seam Hessian in (8) cannot conceal negative charged directions elsewhere.
 This closes the actual zero-frequency mean-circulation core response and
 stationary seam-amplitude duty in one physical commuting sector. There
 is no new adjustable Robin coefficient or free boundary amplitude once
-the geometry, flux sector and parent are fixed. The result recovers,+rather than erases, the old magnetic examples and their costs.
+the geometry, flux sector and parent are fixed. The result recovers,
+rather than erases, the old magnetic examples and their costs.
 
 It leaves the actual finite-frequency/angular core matrix, flat-period
 state selection, non-Abelian/matter response, full fermion operator,
