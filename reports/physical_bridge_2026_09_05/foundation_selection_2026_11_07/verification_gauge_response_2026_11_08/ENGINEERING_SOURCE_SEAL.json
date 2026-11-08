@@ -1,0 +1,71 @@
+{
+  "record_type": "PRE_EXECUTION_SYNTHETIC_SOFTWARE_SEAL",
+  "date": "2026-11-08",
+  "design_commit": "75971c6f7c72eee36344b7959b8045b0f1a1e0fa",
+  "source_pins": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/ENGINEERING_DESIGN.md",
+      "sha256": "93c4cdc88774ba913d65cf448ef497339af6463e6d6115cdf5fb59517d3831f9",
+      "bytes": 3160
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/run_checks.py",
+      "sha256": "1eac4068e294c7fec42bcf0c9a0fef5bd3bf6cda7884c5617c970427f894b6bb",
+      "bytes": 1661
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/checks.py",
+      "sha256": "71eed48d058979c6d5940cecdf0c7e520baca6e3ab7cc22f8ef9a318f962d047",
+      "bytes": 551
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/engineering_checks.py",
+      "sha256": "6e7aa7b663dd65a64e21e915550ddfad50cf06f83bb61b7790cd556dbde249c7",
+      "bytes": 8446
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/gauge_response_exact.py",
+      "sha256": "2eafb49959ab40c1051e1393e08829b06bfa6fa48d2fa8be97e590e43b9946b6",
+      "bytes": 2067
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/test_gauge_response.py",
+      "sha256": "eecd64593495e3d7f568d885082b17563dca5ed0bdd5042ab233f1a4ebbfd002",
+      "bytes": 10533
+    }
+  ],
+  "engineering_population": [
+    "GaugeResponseWrapperEngineeringChecks.test_01_deep_path_exact_population_and_one_delegation",
+    "GaugeResponseWrapperEngineeringChecks.test_02_changed_infrastructure_rejects_before_import",
+    "GaugeResponseWrapperEngineeringChecks.test_03_missing_infrastructure_rejects_before_import",
+    "GaugeResponseWrapperEngineeringChecks.test_04_delegated_nonzero_exit_preserved",
+    "GaugeResponseWrapperEngineeringChecks.test_05_delegated_exception_preserved",
+    "GaugeResponseWrapperEngineeringChecks.test_06_static_population_rejects_missing_extra_duplicate",
+    "GaugeResponseWrapperEngineeringChecks.test_07_synthetic_bridge_exact_class_and_one_import",
+    "GaugeResponseWrapperEngineeringChecks.test_08_missing_bridge_class_rejects"
+  ],
+  "command": [
+    "python3.12",
+    "-I",
+    "-B",
+    "-S",
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/engineering_checks.py"
+  ],
+  "runtime": {
+    "implementation": "CPython",
+    "python": "3.12.1"
+  },
+  "outputs": [
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/engineering/attempt_01.stdout.txt",
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/engineering/attempt_01.stderr.txt",
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/engineering/attempt_01.outcome.json"
+  ],
+  "reuse": {
+    "source_template": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08",
+    "scope": "Mechanical wrapper/bridge/fixture adaptation; exact old files preserved; earlier pass not borrowed"
+  },
+  "status": "IMPLEMENTED_UNRUN_AT_THIS_SEAL",
+  "science_imported": false,
+  "test_collection": false,
+  "scientific_execution": false
+}
