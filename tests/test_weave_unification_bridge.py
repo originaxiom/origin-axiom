@@ -252,5 +252,46 @@ def test_planted_mutations_and_whole_weave_discipline() -> None:
     assert wg["d_to_u_cross_block_weak_channel_verified"] is True
     assert wg["centralizer_A3_roots_in_120_vs_128"] == [6, 0]
 
+    wall1 = suite["wall1_nonabelian_period_zero_flux_and_v1_repair"]
+    assert wall1["wall1_and_v1_passed"] is True
+    w1_p = wall1["wall1_zero_flux_nonabelian_period_stationarity"]
+    assert w1_p["wall1_passed"] is True
+    assert w1_p["monopole_flux_integer_n"] == 0
+    assert w1_p["magnetic_eigenvalue_at_zero_flux"] == 0
+    assert w1_p["killing_norm_nonabelian_vs_abelian"] == [1.0, 0.0]
+    assert w1_p["relaxed_top_form_curvature_energy_nonabelian"] > 0.0
+    assert w1_p["dynamic_core_stationary_x_star_sq"] == "2/3"
+    assert w1_p["dynamic_core_minimum_energy_shift"] == "-1/4"
+    v1_r = wall1["codex_v1_repair_4slot_physical_mass_gauge_fixing"]
+    assert v1_r["v1_repair_passed"] is True
+    assert v1_r["imported_4slot_physical_mass_matrix_shape"] == [12, 12]
+    assert v1_r["dflat_fflat_11_block_equals_Pv"] is True
+    assert v1_r["dflat_fflat_12_block_vanishes"] is True
+    assert v1_r["dflat_violation_residual_diag"] == ["4/omega", "-4/omega", "0"]
+    assert v1_r["wrong_gaugino_scale_breaks_decoupling"] is True
+    assert v1_r["real_pfaffian_weights_Pc_vs_Pv"] == ["1/4", "-3/4"]
+    assert v1_r["sm_massless_vector_beta_coefficients"] == [0, -6, -9]
+
+    wall3 = suite["wall3_coupled_half_root_and_pv_weak_eigenmode"]
+    assert wall3["wall3_passed"] is True
+    c19 = wall3["controls_1_to_9_coupled_half_root_and_centralizer"]
+    assert c19["control1_half_root_pairs_and_8_records"] == [64, 8]
+    assert c19["control2_koszul_ranks_and_harmonic_cohomology"] == [15, 15, [1, 2, 1]]
+    assert c19["control3_homotopy_max_err"] < 1e-12
+    assert c19["control4_indicial_roots_and_pole_dim"] == [[-2, 0, 2], 4]
+    assert c19["control5_kernel_dim_bare_16_vs_corrected_18"] == [16, 18]
+    assert c19["control5_single_sheet_singlet_6_vs_triplet_12"] == [6, 12]
+    assert c19["control6_centralizer_A3_15_to_9"] == [15, 9]
+    assert c19["control7_source_kernel_9_plus_9_spin_0"] == [9, 9, 0]
+    assert c19["control8_unitary_cusp_reduction_verified"] is True
+    assert c19["control9_robin_core_continuum_verified"] is True
+    pv_w = wall3["chebyshev_pv_eigenmode_and_cross_grading_weak_vertex"]
+    assert pv_w["pde_and_vertex_passed"] is True
+    assert abs(pv_w["lowest_discrete_eigenvalue_mW_sq_N48_vs_N64"][1] - 36.48214893545666) < 1e-8
+    assert pv_w["chebyshev_convergence_err"] < 1e-10
+    assert pv_w["cross_grading_weak_coupling_g_eff"] > 0.1
+    assert pv_w["haar_basis_scrambling_invariance_err"] < 1e-14
+
+
 
 

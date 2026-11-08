@@ -22,6 +22,7 @@ from origin_axiom.p000_pure_logic_bridge import (
     verify_step2b_character_and_p321_prime,
     verify_step2c_p211_genus2_surface,
     verify_step3_and_4_carrier_and_forks,
+    verify_wall2_d4_to_e8_glue_and_cover_family_functor,
     verify_weakness1_operational_quantum_graph_postulate,
     verify_weakness2_unitary_dual_torus_d4_register,
 )
@@ -270,6 +271,17 @@ def test_weakness1_and_weakness2_operational_postulate_and_unitary_dual_torus() 
     assert w1["o3_su2_trace_roots_from_nielsen_invariance"] == [0, 2]
     assert w1["o3_nonabelian_forces_zero_traces_and_q8"] is True
     assert w1["o4_unitary_dual_torus_preserves_depth3_commutator"] is True
+
+    wall2 = verify_wall2_d4_to_e8_glue_and_cover_family_functor()
+    assert wall2["wall2_d4_to_e8_and_cover_functor_passed"] is True
+    assert wall2["lattice_covolumes_d4_d4d4_d8_e8"] == [2, 4, 2, 1]
+    assert wall2["root_counts_d4_d4d4_d8_e8"] == [24, 48, 112, 240]
+    assert wall2["diagonal_glue_v0_v0_in_d8_not_d4d4"] is True
+    assert wall2["spinor_glue_w_root_yields_even_unimodular_e8"] is True
+    assert wall2["vector_coset_v0_rejected_by_odd_norm"] is True
+    assert wall2["singlet_k00_killed_by_nontrivial_relator_holonomy"] is True
+    assert wall2["surviving_family_triplet_channels"] == ["10", "01", "11"]
+
 
 
 

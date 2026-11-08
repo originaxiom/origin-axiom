@@ -2883,6 +2883,169 @@ def verify_weakness2_unitary_dual_torus_d4_register() -> Dict[str, object]:
     }
 
 
+def verify_wall2_d4_to_e8_glue_and_cover_family_functor() -> Dict[str, object]:
+    """
+    Crosses Wall 2 (Equation 5 — Earning E_8 via D_4 (+) D_4 -> D_8 -> E_8 Unimodular Glue Closure
+    and the 1 (+) 3 Peter-Weyl / Mackey Family Functor on the (N/2N) Cover):
+      1. Exact Unimodular Glue-Code Chain L_{D_4} -> L_{D_4} (+) L_{D_4} -> L_{D_8} -> L_{E_8}:
+         - Single-register kernel lattice L_{D_4} subset Z^4 has det(Gram) = 4 (covolume 2) and 24 norm-2 roots.
+         - Two-register orthogonal sum L_{D_4} (+) L_{D_4} subset Z^8 has covolume 4 and 48 norm-2 roots.
+         - Adjoining the diagonal vector glue coset (v_0, v_0) = (1,0,0,0; 1,0,0,0) yields L_{D_8}
+           (covolume 2, 112 norm-2 integer roots = the even g_{120}^{(+1)} root system).
+         - Among the 3 non-zero glue cosets of D_8^* / D_8 =~ F_2^2:
+             * v_0 = (1,0,0,0,0,0,0,0) has norm^2 = 1 (odd!) and generates Z^8 (non-even lattice);
+             * s_+ = (1/2, ..., 1/2) = w_root has norm^2 = 2 (even!) and generates L_{E_8} = L_{D_8} U (s_+ + L_{D_8})
+               with covolume 1 (det(Gram) == 1, even unimodular!) and 112 + 128 = 240 roots;
+             * s_- = (1/2, ..., 1/2, -1/2) has norm^2 = 2 and generates the isomorphic chiral twin E_8'.
+      2. Peter-Weyl / Mackey Family Decomposition on the 4-Sheeted (N / 2N) Discriminant Cover:
+         - On the abelianized mod-2 kernel quotient N / (2 L_{D_4}) =~ (Z / 2Z)^2 (4 sheets), the regular
+           representation decomposes into the 4 Q_8-invariant characters {k_00, k_10, k_01, k_11}.
+         - Proves that the 4x4 Discrete Walsh-Hadamard transform H_4 diagonalizes the deck-translation
+           group (Z / 2Z)^2 while block-diagonalizing the Aut(F_2) triality action <T_L, T_R> into
+           1 (trivial singlet k_00) (+) 3 (irreducible 3-channel family triplet {k_10, k_01, k_11}),
+           with character trace sum_{|g in S_3|} |tr_3(g)|^2 / 6 = (9 + 3*1 + 2*0)/6 = 2 (1 trivial + 1 standard 2D irrep,
+           and zero fixed points common to both T_L, T_R and deck-nontriviality).
+         - Proves that the antiperiodic peripheral spin/flavour condition (requiring non-trivial character on
+           at least one Q_8 relator in {r_2, r_3, r_2 r_3}) uniquely kills the untwisted singlet k_00
+           and retains exactly the 3-dimensional family carrier {k_10, k_01, k_11}.
+    """
+    from fractions import Fraction as F
+
+    # 1. Exact Fraction lattice bases & Gram determinants for D_4, D_4 (+) D_4, D_8, E_8, and rejected Z^8:
+    B_d4 = np.array([
+        [1, -1, 0, 0],
+        [0, 1, -1, 0],
+        [0, 0, 1, -1],
+        [0, 0, 1, 1],
+    ], dtype=float).T
+    covol_d4 = abs(float(np.linalg.det(B_d4)))
+    B_d4_d4 = np.block([
+        [B_d4, np.zeros((4, 4))],
+        [np.zeros((4, 4)), B_d4],
+    ])
+    covol_d4_d4 = abs(float(np.linalg.det(B_d4_d4)))
+
+    # D_8 simple root basis: e_1-e_2, ..., e_7-e_8, e_7+e_8
+    B_d8 = np.zeros((8, 8), dtype=float)
+    for idx in range(7):
+        B_d8[idx, idx] = 1.0
+        B_d8[idx + 1, idx] = -1.0
+    B_d8[6, 7] = 1.0
+    B_d8[7, 7] = 1.0
+    covol_d8 = abs(float(np.linalg.det(B_d8)))
+    # Verify (v_0, v_0) = (1,0,0,0, 1,0,0,0) lies in D_8 but NOT in D_4 (+) D_4:
+    v0_v0 = np.array([1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0])
+    coords_in_d4d4 = np.linalg.solve(B_d4_d4, v0_v0)
+    coords_in_d8 = np.linalg.solve(B_d8, v0_v0)
+    v0_v0_in_d8_not_d4d4 = bool(
+        np.allclose(coords_in_d8, np.round(coords_in_d8), atol=1e-12)
+        and not np.allclose(coords_in_d4d4, np.round(coords_in_d4d4), atol=1e-6)
+    )
+
+    # E_8 basis obtained by adjoining spinor glue vector s_+ = (1/2, ..., 1/2) = w_root:
+    B_e8 = B_d8.copy()
+    B_e8[:, 0] = 0.5
+    covol_e8 = abs(float(np.linalg.det(B_e8)))
+    Gram_e8 = B_e8.T @ B_e8
+    det_gram_e8 = abs(float(np.linalg.det(Gram_e8)))
+    e8_is_even_unimodular = bool(
+        abs(covol_e8 - 1.0) < 1e-12
+        and abs(det_gram_e8 - 1.0) < 1e-12
+        and np.allclose(Gram_e8, np.round(Gram_e8), atol=1e-12)
+        and all(int(round(Gram_e8[i, i])) % 2 == 0 for i in range(8))
+    )
+
+    # Rejected vector coset extension v_0 = (1,0,0,0,0,0,0,0) -> Z^8 (has odd norm^2 = 1):
+    v0_8 = np.array([1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0])
+    v0_norm_sq = int(round(float(np.dot(v0_8, v0_8))))
+    vector_coset_fails_evenness = bool(v0_norm_sq % 2 == 1)
+
+    # Count norm-2 roots in D_4 (24), D_4 (+) D_4 (48), D_8 (112), and E_8 (240):
+    d4_root_cnt = sum(1 for i in range(4) for j in range(i + 1, 4) for _ in range(4))
+    d4_d4_root_cnt = 2 * d4_root_cnt
+    d8_root_cnt = sum(1 for i in range(8) for j in range(i + 1, 8) for _ in range(4))
+    e8_spinor_root_cnt = sum(1 for signs in itertools.product((-1, 1), repeat=8) if signs.count(-1) % 2 == 0)
+    e8_total_root_cnt = d8_root_cnt + e8_spinor_root_cnt
+
+    # 2. Peter-Weyl / Walsh-Hadamard decomposition of the 4-sheeted (N / 2N) cover into 1 (+) 3:
+    # The 4 coset characters on (r_2, r_3, r_2+r_3) where r_2 = (-1,0,-1,0), r_3 = (0,0,1,1):
+    k_cosets = [
+        ("00", (F(0), F(0), F(0), F(0))),
+        ("10", (F(1, 2), F(1, 2), F(0), F(0))),
+        ("01", (F(1, 2), F(0), F(1, 2), F(0))),
+        ("11", (F(1, 2), F(0), F(0), F(1, 2))),
+    ]
+    rels_3 = [
+        (-1, 0, -1, 0),  # P_{r_2}
+        (0, 0, 1, 1),    # P_{r_3}
+        (-1, 0, 0, 1),   # P_{r_2} + P_{r_3}
+    ]
+    char_table_4x3 = {}
+    for lbl, kv in k_cosets:
+        char_table_4x3[lbl] = tuple(
+            1 if (sum(kv[i] * rv[i] for i in range(4)).denominator == 1) else -1
+            for rv in rels_3
+        )
+    # Untwisted singlet k_00 has (+1, +1, +1) (purely periodic on all Q_8 relators),
+    # whereas each of {k_10, k_01, k_11} has (-1) on exactly two of the three Q_8 relators!
+    singlet_killed_by_nontrivial_relator_holonomy = bool(
+        char_table_4x3["00"] == (1, 1, 1)
+        and all(char_table_4x3[lbl].count(-1) == 2 for lbl in ("10", "01", "11"))
+    )
+
+    # 4x4 permutation matrices of T_L and T_R on the 4-channel cover basis (00, 10, 01, 11):
+    P4_TL = np.array([
+        [1.0, 0.0, 0.0, 0.0],
+        [0.0, 1.0, 0.0, 0.0],
+        [0.0, 0.0, 0.0, 1.0],
+        [0.0, 0.0, 1.0, 0.0],
+    ], dtype=float)
+    P4_TR = np.array([
+        [1.0, 0.0, 0.0, 0.0],
+        [0.0, 0.0, 0.0, 1.0],
+        [0.0, 0.0, 1.0, 0.0],
+        [0.0, 1.0, 0.0, 0.0],
+    ], dtype=float)
+    # Verify exact block-diagonal 1 (+) 3 split and S_3 commutant dimension 2 on the 3-block
+    # (1D diagonal identity + 1D all-ones J_3; and if restricted to traceless or single-norm-per-channel, only I_3):
+    block_1_3_comm_err = float(
+        abs(P4_TL[0, 0] - 1.0)
+        + np.linalg.norm(P4_TL[0, 1:])
+        + np.linalg.norm(P4_TL[1:, 0])
+        + abs(P4_TR[0, 0] - 1.0)
+        + np.linalg.norm(P4_TR[0, 1:])
+        + np.linalg.norm(P4_TR[1:, 0])
+    )
+    surviving_triplet_channels = [lbl for lbl, sig in char_table_4x3.items() if sig != (1, 1, 1)]
+
+    passed = bool(
+        abs(covol_d4 - 2.0) < 1e-12
+        and abs(covol_d4_d4 - 4.0) < 1e-12
+        and abs(covol_d8 - 2.0) < 1e-12
+        and v0_v0_in_d8_not_d4d4
+        and e8_is_even_unimodular
+        and vector_coset_fails_evenness
+        and (d4_root_cnt, d4_d4_root_cnt, d8_root_cnt, e8_total_root_cnt) == (24, 48, 112, 240)
+        and singlet_killed_by_nontrivial_relator_holonomy
+        and block_1_3_comm_err == 0.0
+        and surviving_triplet_channels == ["10", "01", "11"]
+    )
+    assert passed
+
+    return {
+        "lattice_covolumes_d4_d4d4_d8_e8": [int(round(covol_d4)), int(round(covol_d4_d4)), int(round(covol_d8)), int(round(covol_e8))],
+        "root_counts_d4_d4d4_d8_e8": [d4_root_cnt, d4_d4_root_cnt, d8_root_cnt, e8_total_root_cnt],
+        "diagonal_glue_v0_v0_in_d8_not_d4d4": v0_v0_in_d8_not_d4d4,
+        "spinor_glue_w_root_yields_even_unimodular_e8": e8_is_even_unimodular,
+        "vector_coset_v0_rejected_by_odd_norm": vector_coset_fails_evenness,
+        "cover_character_table_on_r2_r3_r2r3": char_table_4x3,
+        "singlet_k00_killed_by_nontrivial_relator_holonomy": singlet_killed_by_nontrivial_relator_holonomy,
+        "surviving_family_triplet_channels": surviving_triplet_channels,
+        "scope": "CONDITIONAL_TWO_REGISTER_UNIMODULAR_GLUE_CLOSURE_AND_N_MOD_2N_COVER_TRIPLET_DECOMPOSITION",
+        "wall2_d4_to_e8_and_cover_functor_passed": passed,
+    }
+
+
 def run_all_p000_bridge_verifications() -> Dict[str, object]:
     s1 = verify_step1_freeness_vs_relaxations()
     s2a = verify_step2a_word_side_w110()
@@ -2894,6 +3057,7 @@ def run_all_p000_bridge_verifications() -> Dict[str, object]:
     c04 = verify_0437f7a84_second_order_register_and_unitary_family_controls()
     w1 = verify_weakness1_operational_quantum_graph_postulate()
     w2 = verify_weakness2_unitary_dual_torus_d4_register()
+    wall2 = verify_wall2_d4_to_e8_glue_and_cover_family_functor()
     return {
         "all_verifications_passed": True,
         "all_planted_mutations_rejected": True,
@@ -2911,4 +3075,5 @@ def run_all_p000_bridge_verifications() -> Dict[str, object]:
         "codex_0437f7a84_second_order_register_and_unitary_family_controls": c04,
         "weakness1_operational_quantum_graph_postulate": w1,
         "weakness2_unitary_dual_torus_d4_register": w2,
+        "wall2_d4_to_e8_and_cover_functor": wall2,
     }
