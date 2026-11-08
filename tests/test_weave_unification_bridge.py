@@ -168,3 +168,33 @@ def test_planted_mutations_and_whole_weave_discipline() -> None:
     assert mag["orthonormal_tail_amplitude_constant_in_y"] is True
     assert mag["residual_zero_scalar_stiffness_positive"] is True
     assert mag["nonzero_magnetic_flux_charged_eigenvalues"] == {1: -5, 2: -10, 3: -15}
+    sew = cusp["codex_75971c6f7_core_mean_response_and_flux_sewing"]
+    assert sew["zero_flux_forces_zero_seam_circulation"] is True
+    assert sew["quantized_flux_equalizes_core_and_tail_curvature"] is True
+    assert sew["cut_independent_total_area_energy_verified"] is True
+    assert sew["unfixed_relative_core_cohomology_rank_per_commuting_gen"] == 2
+
+    w3 = suite["weakness3_zero_flux_boundary_source"]
+    assert w3["weakness3_zero_flux_source_passed"] is True
+    assert w3["symbolic_stationarity_b_star_and_alpha_z_star_verified"] is True
+    assert w3["symbolic_hessian_determinant_verified"] is True
+    assert w3["benchmark_hessian_det_fraction"] == "52/315"
+    assert w3["benchmark_b_star_at_zero_flux_fraction"] == "35/104"
+    assert w3["savvidy_magnetic_shift_at_zero_flux"] == 0
+
+    w4 = suite["weakness4_aps_chiral_index_projection"]
+    assert w4["weakness4_aps_chirality_passed"] is True
+    assert w4["periodic_baseline_ker_L_ker_R_net_index"] == [3, 3, 0]
+    assert w4["aps_wall_ker_L_ker_R_net_chiral_index"] == [3, 0, 3]
+    assert w4["analytic_sech_zero_mode_spectral_residual"] < 1e-13
+    assert w4["max_su3_color_commutator_fro_err"] < 1e-14
+
+    w5 = suite["weakness5_interfiber_propagator_3d_join"]
+    assert w5["weakness5_interfiber_propagator_passed"] is True
+    assert w5["geodesic_endpoint_circle_err"] < 1e-13
+    assert w5["hyperbolic_distance_closed_vs_quadrature"][2] < 1e-13
+    assert w5["Vud_3d_propagator_joined"] > 0.99
+    assert w5["Vub_over_Vtd_3d_propagator_joined"] < 1.0
+    assert w5["haar_basis_scramble_max_ckm_err"] < 1e-12
+    assert w5["haar_basis_scramble_max_jarlskog_err"] < 1e-13
+
