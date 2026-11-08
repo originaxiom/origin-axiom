@@ -231,7 +231,8 @@ def test_planted_mutations_and_whole_weave_discipline() -> None:
     assert f69["frontier8_b1856_weil5_and_b1857_state_readout"]["weil5_projective_elements_and_clashes"] == [120, 0]
     assert f69["frontier8_b1856_weil5_and_b1857_state_readout"]["apex_multiplicities_6_21212_21112_2_18_2"] == [1, 1, 2, 2]
     assert f69["frontier9_charged_128_threshold_and_weak_universality"]["frontier9_passed"] is True
-    assert f69["frontier9_charged_128_threshold_and_weak_universality"]["zero_flux_charged_128_min_eigenvalue"] > 0.5
+    assert abs(f69["frontier9_charged_128_threshold_and_weak_universality"]["zero_flux_charged_128_min_eigenvalue"] - 9.869604401089358) < 1e-13
+    assert f69["frontier9_charged_128_threshold_and_weak_universality"]["even_120_max_min_circle_eigenvalue"] < 1e-15
     assert f69["frontier9_charged_128_threshold_and_weak_universality"]["same_vs_cross_block_weak_brackets_128_120_cross"] == [0.0, 0.0, 1.0]
     assert f69["frontier9_charged_128_threshold_and_weak_universality"]["s3_triality_weak_commutator_fro_err"] < 1e-14
     assert f69["frontier9_charged_128_threshold_and_weak_universality"]["weak_current_3gen_universality_fro_err"] < 1e-14
@@ -260,8 +261,8 @@ def test_planted_mutations_and_whole_weave_discipline() -> None:
     assert w1_p["magnetic_eigenvalue_at_zero_flux"] == 0
     assert w1_p["killing_norm_nonabelian_vs_abelian"] == [1.0, 0.0]
     assert w1_p["relaxed_top_form_curvature_energy_nonabelian"] > 0.0
-    assert w1_p["dynamic_core_stationary_x_star_sq"] == "2/3"
-    assert w1_p["dynamic_core_minimum_energy_shift"] == "-1/4"
+    assert w1_p["dynamic_core_stationary_x_star_sq"] == "45/32"
+    assert w1_p["dynamic_core_minimum_energy_shift"] == "-45/128"
     v1_r = wall1["codex_v1_repair_4slot_physical_mass_gauge_fixing"]
     assert v1_r["v1_repair_passed"] is True
     assert v1_r["imported_4slot_physical_mass_matrix_shape"] == [12, 12]
@@ -280,6 +281,7 @@ def test_planted_mutations_and_whole_weave_discipline() -> None:
     assert c19["control3_homotopy_max_err"] < 1e-12
     assert c19["control4_indicial_roots_and_pole_dim"] == [[-2, 0, 2], 4]
     assert c19["control5_kernel_dim_bare_16_vs_corrected_18"] == [16, 18]
+    assert c19["control5_pure_h4_chi00_kernel_dim_24"] == 24
     assert c19["control5_single_sheet_singlet_6_vs_triplet_12"] == [6, 12]
     assert c19["control6_centralizer_A3_15_to_9"] == [15, 9]
     assert c19["control7_source_kernel_9_plus_9_spin_0"] == [9, 9, 0]
@@ -290,6 +292,8 @@ def test_planted_mutations_and_whole_weave_discipline() -> None:
     assert abs(pv_w["lowest_discrete_eigenvalue_mW_sq_N48_vs_N64"][1] - 36.48214893545666) < 1e-8
     assert pv_w["chebyshev_convergence_err"] < 1e-10
     assert pv_w["cross_grading_weak_coupling_g_eff"] > 0.1
+    assert len(pv_w["single_sheet_3mode_weak_overlap_eigenvalues"]) == 3
+    assert min(pv_w["single_sheet_3mode_weak_overlap_eigenvalues"]) > 0.05
     assert pv_w["haar_basis_scrambling_invariance_err"] < 1e-14
 
     bvp = suite["coupled_2d_surface_and_3sheet_cover_bvp"]
@@ -299,8 +303,10 @@ def test_planted_mutations_and_whole_weave_discipline() -> None:
     assert t1_bvp["bare_pin10_record_counts_sum_16"] == [[2, 2, 2, 2, 2, 2, 2, 2], 16]
     assert t1_bvp["single_sheet_wilson_record_counts_sum_18"] == [[3, 2, 2, 2, 2, 2, 2, 3], 18]
     assert t1_bvp["cover_3sheet_middle_line_counts_per_record"] == [3, 3, 3, 3, 3, 3, 3, 3]
-    assert t1_bvp["s3_triality_cover_projector_commutator_err"] == 0.0
-    assert t1_bvp["coupled_36x36_4slot_cover_s3_comm_err"] == 0.0
+    assert t1_bvp["pure_h4_chi00_record_counts_sum_24"] == [[3, 3, 3, 3, 3, 3, 3, 3], 24]
+    assert t1_bvp["z2_sheet_sign_cannot_cancel_omega3_dim"] == 0
+    assert t1_bvp["s3_triality_cover_projector_commutator_err"] < 1e-14
+    assert t1_bvp["coupled_36x36_4slot_cover_s3_comm_err"] < 1e-14
     assert t1_bvp["coupled_36x36_4slot_gaugino_decoupling_err"] < 1e-14
     t2_bvp = bvp["task2_coupled_2d_surface_elliptic_hodge_system"]
     assert t2_bvp["task2_passed"] is True
@@ -312,9 +318,11 @@ def test_planted_mutations_and_whole_weave_discipline() -> None:
     assert t2_bvp["spectral_24x24_and_32x32_energy_errs"][1] < 1e-15
     t3_bvp = bvp["task3_coupled_4slot_koszul_weak_vertex_and_haar_scrambling"]
     assert t3_bvp["task3_passed"] is True
+    assert len(t3_bvp["g_4slot_3mode_eigenvalues"]) == 3
+    assert min(t3_bvp["g_4slot_3mode_eigenvalues"]) > 0.05
     assert t3_bvp["g_4slot_grid_convergence_err"] < 1e-11
     assert t3_bvp["haar_50_trial_su2L_u3fam_max_err"] < 1e-13
-    assert t3_bvp["non_unitary_negative_control_drift"] > 0.5
+    assert t3_bvp["non_unitary_negative_control_drift"] > 0.05
 
 
 

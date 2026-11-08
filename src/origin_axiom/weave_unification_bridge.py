@@ -3398,18 +3398,40 @@ def verify_frontiers_6_to_9_shape_torsion_hyperbolic_core_b1856_b1857_and_charge
             half_roots_128.append(tuple(0.5 * s_v for s_v in signs))
     assert len(half_roots_128) == 128
 
-    w_dic5 = (0.1, 0.1, 0.1, 0.2, -0.5, 0.0, 0.0, 0.0)
+    int_roots_112_f9 = []
+    for i_r in range(8):
+        for j_r in range(i_r + 1, 8):
+            for s1_r in (-1.0, 1.0):
+                for s2_r in (-1.0, 1.0):
+                    r_v = [0.0] * 8
+                    r_v[i_r] = s1_r
+                    r_v[j_r] = s2_r
+                    int_roots_112_f9.append(tuple(r_v))
+    assert len(int_roots_112_f9) == 112
+
+    # Actual zeta-grading holonomy vector w_zeta = (3/2) Q = (1, 1, 1, 0, 0, 0, 0, 0)
+    # from WEAK_CURRENT_GRADING_AND_DISCRETE_CHARGED_VECTORS.md (zeta = exp(2*pi*i * w_zeta . r) = exp(3*pi*i*Q)):
+    # On all 128 half-roots in g_{128}^{(-1)}, w_zeta . r = r_1 + r_2 + r_3 in {-3/2, -1/2, +1/2, +3/2}
+    # has exact fractional part +-1/2 (antiperiodic circle boundary condition, min eigenvalue pi^2 > 0
+    # with ZERO artificial shift and ZERO excited-mode floor), whereas on all 112 integer roots in g_{120}^{(+1)},
+    # w_zeta . r in {-2, -1, 0, 1, 2} has fractional part 0.0 (periodic, min circle eigenvalue 0.0):
+    w_zeta = (1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0)
     m_fourier = np.arange(-7, 8, dtype=float)
     min_128_circle_eigs = []
     for hr in half_roots_128:
-        raw_shift = sum(w_c * r_c for w_c, r_c in zip(w_dic5, hr)) + 0.1
+        raw_shift = sum(w_c * r_c for w_c, r_c in zip(w_zeta, hr))
         frac_shift = raw_shift - round(raw_shift)
-        if abs(frac_shift) < 1e-9:
-            frac_shift = 0.1
-        # Construct explicit 15x15 diagonal Fourier covariant Laplacian H_cov(hr) = diag((2*pi*(m + frac_shift))^2 + lam_excited_num[0]):
-        H_cov_hr = np.diag(((2.0 * math.pi * (m_fourier + frac_shift)) ** 2) + lam_excited_num[0])
+        H_cov_hr = np.diag((2.0 * math.pi * (m_fourier + frac_shift)) ** 2)
         min_128_circle_eigs.append(float(np.min(np.linalg.eigvalsh(H_cov_hr))))
     charged_128_min_eigenvalue = min(min_128_circle_eigs)
+
+    min_120_circle_eigs = []
+    for ir in int_roots_112_f9:
+        raw_shift_ir = sum(w_c * r_c for w_c, r_c in zip(w_zeta, ir))
+        frac_shift_ir = raw_shift_ir - round(raw_shift_ir)
+        H_cov_ir = np.diag((2.0 * math.pi * (m_fourier + frac_shift_ir)) ** 2)
+        min_120_circle_eigs.append(float(np.min(np.linalg.eigvalsh(H_cov_ir))))
+    even_120_max_min_eigenvalue = max(min_120_circle_eigs)
 
     # (b) Construct the cross-grading E_8 weak-current vertex g_{ab}(w_root) between d_root in g_{128}^{(-1)} (Q = -1/3)
     #     and u_root = w_root + d_root = e_1 + e_4 in g_{120}^{(+1)} (Q = +2/3) on the 3 native non-trivial
@@ -3473,7 +3495,8 @@ def verify_frontiers_6_to_9_shape_torsion_hyperbolic_core_b1856_b1857_and_charge
     weak_universality_err = float(np.linalg.norm(weak_overlap_3x3 - np.eye(3), ord="fro"))
 
     frontier9_ok = bool(
-        charged_128_min_eigenvalue > 0.5
+        abs(charged_128_min_eigenvalue - (math.pi**2)) < 1e-14
+        and even_120_max_min_eigenvalue < 1e-15
         and same_block_128_bracket == 0.0
         and same_block_120_bracket == 0.0
         and cross_block_120_128_bracket == 1.0
@@ -3512,6 +3535,7 @@ def verify_frontiers_6_to_9_shape_torsion_hyperbolic_core_b1856_b1857_and_charge
         },
         "frontier9_charged_128_threshold_and_weak_universality": {
             "zero_flux_charged_128_min_eigenvalue": charged_128_min_eigenvalue,
+            "even_120_max_min_circle_eigenvalue": even_120_max_min_eigenvalue,
             "same_vs_cross_block_weak_brackets_128_120_cross": [
                 same_block_128_bracket,
                 same_block_120_bracket,
@@ -3975,10 +3999,24 @@ def verify_wall1_nonabelian_period_zero_flux_stationarity_and_v1_repair() -> Dic
     e_curv_relaxed_abelian = kappa_norm_abelian / (2.0 * (area_core + area_tail))
 
     # Same-action dynamic core + Gauss-completed cusp quartic stationary amplitude x_*
-    c_a_coeff = Fraction(3, 4)
-    lambda_4_coeff = Fraction(9, 16)
-    x_star_sq = c_a_coeff / (2 * lambda_4_coeff)  # = 2/3 > 0
-    v_min_shift = -(c_a_coeff ** 2) / (4 * lambda_4_coeff)  # = -1/4 < 0
+    # derived directly from dynamic_core_exact.py longitudinal vbb overlap I_L(nu_p, nu_q) = 2*Y/(nu_p + nu_q)
+    # at (nu_p, nu_q) = (1, 3), Y = 1 and four_connection_exact.py zero-momentum (nu_k = 1) Gauss Green
+    # overlap I_G(1; A, B) = Y^3 / [(A - 1)*(B - 1)*(A + B - 3)] at A = B = 4 weighted by ||[L_i, L_j]||_F^2 / 2 = 8:
+    y_cut_rat = Fraction(1, 1)
+    nu_p_rat, nu_q_rat = Fraction(1, 1), Fraction(3, 1)
+    i_l_vbb = (2 * y_cut_rat) / (nu_p_rat + nu_q_rat)  # = 1/2
+    a_exp_rat = 1 + Fraction(3 + 3, 2)  # = 4 for (nu_p, nu_q) = (3, 3)
+    b_exp_rat = a_exp_rat
+    i_g_k0 = (y_cut_rat ** 3) / ((a_exp_rat - 1) * (b_exp_rat - 1) * (a_exp_rat + b_exp_rat - 3))  # = 1/45
+    # Quaternion commutator Frobenius norm ||[L_i, L_j]||_F^2 = -Tr([L_i, L_j]^2) = 16:
+    li_4 = np.array([[0, -1, 0, 0], [1, 0, 0, 0], [0, 0, 0, -1], [0, 0, 1, 0]], dtype=int)
+    lj_4 = np.array([[0, 0, -1, 0], [0, 0, 0, 1], [1, 0, 0, 0], [0, -1, 0, 0]], dtype=int)
+    comm_ij_4 = li_4 @ lj_4 - lj_4 @ li_4
+    quat_comm_norm_sq = Fraction(int(-np.trace(comm_ij_4 @ comm_ij_4)), 1)  # = 16
+    c_a_coeff = i_l_vbb  # = 1/2
+    lambda_4_coeff = (quat_comm_norm_sq / 2) * i_g_k0  # = 8/45
+    x_star_sq = c_a_coeff / (2 * lambda_4_coeff)  # = 45/32 > 0
+    v_min_shift = -(c_a_coeff ** 2) / (4 * lambda_4_coeff)  # = -45/128 < 0
 
     wall1_zero_flux_ok = bool(
         commutator_err < 1e-15
@@ -3987,8 +4025,10 @@ def verify_wall1_nonabelian_period_zero_flux_stationarity_and_v1_repair() -> Dic
         and abs(kappa_norm_abelian) < 1e-15
         and e_curv_relaxed_nonabelian > 0.0
         and e_curv_relaxed_abelian == 0.0
-        and x_star_sq == Fraction(2, 3)
-        and v_min_shift == Fraction(-1, 4)
+        and c_a_coeff == Fraction(1, 2)
+        and lambda_4_coeff == Fraction(8, 45)
+        and x_star_sq == Fraction(45, 32)
+        and v_min_shift == Fraction(-45, 128)
     )
 
     # --- Part 2: Exact Symbolic Verification of Codex Review Finding V1 ---
@@ -4314,24 +4354,211 @@ def verify_wall3_coupled_half_root_kernel_pv_eigenmode_and_weak_vertex() -> Dict
         and (1j ** 6) == -1
     )
 
-    # --- Control 4 & Control 5: Pole Locus & Core Lift Sensitivity (16 vs 18 Zero Modes) ---
-    indicial_s = tuple((a - 1) // 2 for a in (-3, 1, 5))
-    bare_kernel_dim = 16
-    corrected_singlet_zero_modes = 2 * 3  # 6
-    corrected_triplet_zero_modes = 6 * 2  # 12
-    corrected_kernel_dim = corrected_singlet_zero_modes + corrected_triplet_zero_modes  # 18
-    total_chiral_index_g128 = 0
+    # --- Control 4 & Control 5: Pole Locus & Core Lift Sensitivity (Derived from 32-dim Fock Spinor) ---
+    # Construct D_5 Lie source (e, g, h, ep, em, hp, hm) and 32-dim Fock spinor creators
+    # from verification_transport_end_2026_11_04 and verification_coupled_half_root_kernel_2026_11_07:
+    e5_mat = np.zeros((5, 5), dtype=complex)
+    for j_idx, c_val in enumerate((2.0, math.sqrt(6.0), math.sqrt(6.0), 2.0)):
+        e5_mat[j_idx + 1, j_idx] = c_val
+    h5_mat = np.diag([-4.0, -2.0, 0.0, 2.0, 4.0]).astype(complex)
+    j5_mat = np.zeros((5, 5), dtype=complex)
+    for j_idx, c_val in enumerate((1.0, -1.0, 1.0, -1.0, 1.0)):
+        j5_mat[j_idx, 4 - j_idx] = c_val
+    bz_mat = np.zeros((5, 5), dtype=complex)
+    for j_idx, k_idx, c_val in ((1, 4, math.sqrt(2.0 / 5.0)), (2, 3, -math.sqrt(3.0 / 5.0))):
+        bz_mat[j_idx, k_idx] = c_val
+        bz_mat[k_idx, j_idx] = -c_val
+    zz5 = np.zeros((5, 5), dtype=complex)
+    e10_mat = np.block([[e5_mat, zz5], [zz5, -e5_mat.T]])
+    g10_mat = math.sqrt(10.0) * np.block([[zz5, bz_mat], [j5_mat @ bz_mat @ j5_mat, zz5]])
+    ep10_mat = 0.5 * (e10_mat + g10_mat)
+    em10_mat = 0.5 * (e10_mat - g10_mat)
+    hp10_mat = ep10_mat @ ep10_mat.conj().T - ep10_mat.conj().T @ ep10_mat
+    hm10_mat = em10_mat @ em10_mat.conj().T - em10_mat.conj().T @ em10_mat
 
-    c4_ok = bool(indicial_s == (-2, 0, 2) and sum((0, 1, 3)) == 4)
+    fock_creators = []
+    for axis_i in range(5):
+        op_c = np.zeros((32, 32), dtype=complex)
+        bit_i = 1 << axis_i
+        for st_i in range(32):
+            if (st_i & bit_i) == 0:
+                lower_bits = (st_i & (bit_i - 1)).bit_count()
+                op_c[st_i | bit_i, st_i] = (-1) ** lower_bits
+        fock_creators.append(op_c)
+    fock_annihilators = [op_c.conj().T for op_c in fock_creators]
+
+    def _spin_lie_32(mat10: np.ndarray) -> np.ndarray:
+        out_s = -0.5 * np.trace(mat10[:5, :5]) * np.eye(32, dtype=complex)
+        for i_s in range(5):
+            for j_s in range(5):
+                out_s += mat10[i_s, j_s] * (fock_creators[i_s] @ fock_annihilators[j_s])
+                out_s += 0.5 * mat10[i_s, j_s + 5] * (fock_creators[i_s] @ fock_creators[j_s])
+                out_s += 0.5 * mat10[i_s + 5, j_s] * (fock_annihilators[i_s] @ fock_annihilators[j_s])
+        return out_s
+
+    x_wt = (0.25, 0.0, -0.25, -0.5, -0.75)
+    a_spin_32 = np.diag(
+        [
+            np.exp(
+                2.0j * math.pi * sum(x_wt[i_s] * ((1 if (st_i & (1 << i_s)) else 0) - 0.5) for i_s in range(5))
+            )
+            for st_i in range(32)
+        ]
+    )
+    gen_d_32 = _spin_lie_32(hp10_mat - hm10_mat)
+    evals_d32, evecs_d32 = np.linalg.eigh(gen_d_32)
+    d_spin_32 = evecs_d32 @ np.diag(np.exp(-0.25j * math.pi * evals_d32)) @ evecs_d32.conj().T
+
+    def _build_spinor_complex(parity_val: int) -> Dict[str, object]:
+        idx_p = [st_i for st_i in range(32) if st_i.bit_count() % 2 == parity_val]
+        ep_w = _spin_lie_32(ep10_mat)[np.ix_(idx_p, idx_p)]
+        em_w = _spin_lie_32(em10_mat)[np.ix_(idx_p, idx_p)]
+        _, s_top, vh_top = np.linalg.svd(np.vstack([ep_w, em_w]))
+        top_v = vh_top.conj().T[:, s_top < 1e-10]
+        top_v = top_v / np.linalg.norm(top_v)
+        frame_cols = []
+        for p_deg, q_deg in iter_product(range(4), repeat=2):
+            v_pq = (
+                np.linalg.matrix_power(ep_w.conj().T, p_deg)
+                @ np.linalg.matrix_power(em_w.conj().T, q_deg)
+                @ top_v
+            )
+            frame_cols.append(v_pq / np.linalg.norm(v_pq))
+        frame_16 = np.hstack(frame_cols)
+        a_16 = frame_16.conj().T @ a_spin_32[np.ix_(idx_p, idx_p)] @ frame_16
+        d_16 = frame_16.conj().T @ d_spin_32[np.ix_(idx_p, idx_p)] @ frame_16
+        flavour_a = np.array([[0.0, 1.0j], [1.0j, 0.0]], dtype=complex)
+        flavour_d = np.diag([1.0j, -1.0j])
+        actions_a = (a_16, np.kron(flavour_a, a_16), np.linalg.det(flavour_a) * a_16)
+        actions_d = (d_16, np.kron(flavour_d, d_16), np.linalg.det(flavour_d) * d_16)
+        i16_c = np.eye(16, dtype=complex)
+        i32_c = np.eye(32, dtype=complex)
+        reps_harm = (i16_c[:, [0]], i32_c[:, [12, 19]], i16_c[:, [15]])
+        reduced_a = tuple(rep_m.conj().T @ op_m @ rep_m for rep_m, op_m in zip(reps_harm, actions_a))
+        reduced_d = tuple(rep_m.conj().T @ op_m @ rep_m for rep_m, op_m in zip(reps_harm, actions_d))
+        return {"a": a_16, "d": d_16, "reduced_a": reduced_a, "reduced_d": reduced_d}
+
+    spinor_by_parity = {0: _build_spinor_complex(0), 1: _build_spinor_complex(1)}
+
+    def _pole_degree(a_val: int) -> int:
+        # Strict radial integral convergence bound: exponent a - 1 - 2n > -1 (or == -1 if a < 1)
+        admitted = lambda n_v: (a_val - 2 * n_v > 0) or (a_val - 2 * n_v == 0 and a_val < 1)
+        n_cur = a_val // 2
+        while not admitted(n_cur):
+            n_cur -= 1
+        assert not admitted(n_cur + 1)
+        return n_cur
+
+    def _fixed_cols_dim(acts: Tuple[np.ndarray, np.ndarray]) -> int:
+        sz_m = acts[0].shape[0]
+        stacked = np.vstack([act_m - np.eye(sz_m, dtype=complex) for act_m in acts])
+        sv_s = np.linalg.svd(stacked, compute_uv=False)
+        return int(np.sum(sv_s < 1e-10))
+
+    def _line_h0(a_val: int, acts: Tuple[np.ndarray, np.ndarray]) -> int:
+        deg_p = _pole_degree(a_val)
+        if deg_p < 0:
+            return 0
+        if deg_p > 0:
+            return deg_p * acts[0].shape[0]
+        return _fixed_cols_dim(acts)
+
+    # Build the 8 half-root records with their derived charge, wilson, and D_5 spinor parity:
+    records_list = []
+    for f3 in sorted(record_buckets.keys()):
+        roots_in_rec = [r for r in half_roots if r[:3] == f3]
+        q_em_rec = Fraction(2, 3) * sum(f3)
+        wilson_rec = int(2 * sum(f3)) % 3
+        parities_rec = {sum(1 for x_c in r[3:] if x_c > 0) % 2 for r in roots_in_rec}
+        assert len(parities_rec) == 1
+        records_list.append(
+            {
+                "first_three": f3,
+                "charge": q_em_rec,
+                "wilson": wilson_rec,
+                "parity": next(iter(parities_rec)),
+            }
+        )
+
+    def _total_cohomology(
+        rec: Dict[str, object],
+        correction: Optional[int],
+        chi: Tuple[int, int] = (1, 0),
+    ) -> Tuple[int, int, int, int]:
+        sc = spinor_by_parity[int(rec["parity"])]
+        h_phase = (
+            1.0 + 0.0j
+            if correction is None
+            else np.exp(2.0j * math.pi * float(Fraction(3, 8) * rec["charge"] + Fraction(correction, 2)))
+        )
+        a_red = tuple(h_phase * x_m for x_m in sc["reduced_a"])
+        b_red = tuple(h_phase * (d_m @ a_m) for d_m, a_m in zip(sc["reduced_d"], sc["reduced_a"]))
+        exps = (int(rec["wilson"]) * chi[0], int(rec["wilson"]) * chi[1])
+        powers_3 = (-3, 1, 5)
+        h0_list, h1_list = [], []
+        for deg_i, pow_a in enumerate(powers_3):
+            acts_ab = (
+                a_red[deg_i] * np.exp(2.0j * math.pi * exps[0] / 3.0),
+                b_red[deg_i] * np.exp(2.0j * math.pi * exps[1] / 3.0),
+            )
+            h0_list.append(_line_h0(pow_a, acts_ab))
+            dual_ab = (acts_ab[0].conj().T, acts_ab[1].conj().T)
+            h1_list.append(_line_h0(2 - pow_a, dual_ab))
+        return (h0_list[0], h1_list[0] + h0_list[1], h1_list[1] + h0_list[2], h1_list[2])
+
+    indicial_s = tuple(_pole_degree(a) for a in (-3, 1, 5))
+    pole_laurent_dims = tuple(max(0, _pole_degree(a) + 1) for a in (-3, 1, 5))
+
+    # Verify core reflection relation (h_4 * A_sp)^2 - D_sp^2 == 0 on all 8 records:
+    core_reflection_rel_err = 0.0
+    bare_reflection_mismatch = 0.0
+    bare_cohomologies = []
+    wilson_cohomologies = []
+    pure_h4_cohomologies = []
+    for rec in records_list:
+        sc = spinor_by_parity[int(rec["parity"])]
+        h_p = np.exp(2.0j * math.pi * float(Fraction(3, 8) * rec["charge"]))
+        core_reflection_rel_err = max(
+            core_reflection_rel_err,
+            float(np.linalg.norm(((h_p * sc["a"]) @ (h_p * sc["a"])) - (sc["d"] @ sc["d"]))),
+        )
+        bare_reflection_mismatch = max(
+            bare_reflection_mismatch,
+            float(np.linalg.norm((sc["a"] @ sc["a"]) - (sc["d"] @ sc["d"]))),
+        )
+        bare_cohomologies.append(_total_cohomology(rec, None, chi=(1, 0)))
+        wilson_cohomologies.append(_total_cohomology(rec, 0, chi=(1, 0)))
+        pure_h4_cohomologies.append(_total_cohomology(rec, 0, chi=(0, 0)))
+
+    bare_kernel_dim = sum(c_t[1] + c_t[3] for c_t in bare_cohomologies)
+    corrected_singlet_zero_modes = sum(
+        c_t[1] + c_t[3] for rec, c_t in zip(records_list, wilson_cohomologies) if abs(rec["charge"]) == 1
+    )
+    corrected_triplet_zero_modes = sum(
+        c_t[1] + c_t[3]
+        for rec, c_t in zip(records_list, wilson_cohomologies)
+        if abs(rec["charge"]) == Fraction(1, 3)
+    )
+    corrected_kernel_dim = corrected_singlet_zero_modes + corrected_triplet_zero_modes
+    pure_h4_kernel_dim = sum(c_t[1] + c_t[3] for c_t in pure_h4_cohomologies)
+    total_chiral_index_g128 = sum(
+        (c_t[1] + c_t[3]) - (c_t[0] + c_t[2]) for c_t in pure_h4_cohomologies
+    )
+
+    c4_ok = bool(indicial_s == (-2, 0, 2) and pole_laurent_dims == (0, 1, 3) and sum(pole_laurent_dims) == 4)
     c5_ok = bool(
-        bare_kernel_dim == 16
+        core_reflection_rel_err < 1e-13
+        and bare_reflection_mismatch > 1.0
+        and bare_kernel_dim == 16
         and corrected_kernel_dim == 18
         and corrected_singlet_zero_modes == 6
         and corrected_triplet_zero_modes == 12
+        and pure_h4_kernel_dim == 24
+        and all(c_t == (0, 3, 3, 0) for c_t in pure_h4_cohomologies)
         and total_chiral_index_g128 == 0
     )
 
-    # --- Control 6 & Control 7: Centralizer A_3 (15 -> 9) & Spin Singularity ---
+    # --- Control 6 & Control 7: Centralizer A_3 (15 -> 9 via h_15 = Ad_{h_4}) & Spin Singularity ---
     # Construct all 112 integer roots of E_8 (D_8 roots); A_3 centralizer has r[3:] == (0,0,0,0,0)
     int_roots = []
     for i in range(8):
@@ -4346,24 +4573,48 @@ def verify_wall3_coupled_half_root_kernel_pv_eigenmode_and_weak_vertex() -> Dict
     centralizer_half_roots = [r for r in half_roots if not any(r[3:])]
     # Centralizer has 12 roots in D_8 (spanning A_3 of dim 12 + 3 = 15) and 0 in half-roots
     a3_dim = len(centralizer_int_roots) + 3
-    # Order-3 Wilson filtering (r[0] + r[1] + r[2] mod 3 == 0) keeps 6 roots of A_2^c + 3 Cartans = 9
+    # Explicit 4x4 SU(4) holonomy h_4 = diag(e^{2*pi*i*(3/8)}, e^{-2*pi*i/8}, e^{-2*pi*i/8}, e^{-2*pi*i/8})
+    # and its 15x15 adjoint action h_15 = Ad_{h_4} on A_3 = (1, 15) (from verification_transport_end_2026_11_04):
+    h4_diag = [
+        np.exp(2.0j * math.pi * (3.0 / 8.0)),
+        np.exp(-2.0j * math.pi * (1.0 / 8.0)),
+        np.exp(-2.0j * math.pi * (1.0 / 8.0)),
+        np.exp(-2.0j * math.pi * (1.0 / 8.0)),
+    ]
+    h15_entries = [h4_diag[i_c] / h4_diag[j_c] for i_c in range(4) for j_c in range(4) if i_c != j_c] + [
+        1.0 + 0.0j,
+        1.0 + 0.0j,
+        1.0 + 0.0j,
+    ]
+    h15_mat = np.diag(h15_entries)
+    # Also check (10, 6) exterior square Lambda^2(h_4):
+    ext2_h4_entries = [h4_diag[i_c] * h4_diag[j_c] for i_c in range(4) for j_c in range(i_c + 1, 4)]
+    ext2_h4_mat = np.diag(ext2_h4_entries)
+    neutral_pole_degrees = tuple(_pole_degree(a_n) for a_n in (0, 1, 2))
+    # Compute neutral zero-mode counts directly from _line_h0 at chi = (0, 0) (pure h_4 lift):
+    scalar_gaugino_zero_modes = _line_h0(0, (h15_mat, h15_mat))  # = 9
+    connection_form_zero_modes = _line_h0(2, (h15_mat, h15_mat))  # = 9
+    # On the 9 unbroken centralizer generators (ker(h15 - I)), the antiperiodic spin holonomy is (-I_9, -I_9)
+    # and the n = -1 pole is excluded by _pole_degree(1) == 0:
+    i9_unbroken = np.eye(scalar_gaugino_zero_modes, dtype=complex)
+    spin_zero_modes = _line_h0(1, (-i9_unbroken, -i9_unbroken))  # = 0
+    ext2_6_zero_modes = _line_h0(0, (ext2_h4_mat, ext2_h4_mat))  # = 0
     wilson_centralizer_roots = [
         r for r in centralizer_int_roots if (r[0] + r[1] + r[2]) % 3 == 0
     ]
     wilson_centralizer_dim = len(wilson_centralizer_roots) + 3
-
-    scalar_gaugino_zero_modes = wilson_centralizer_dim  # 9
-    connection_form_zero_modes = wilson_centralizer_dim  # 9
-    spin_zero_modes = 0  # n = -1 has non-integrable norm int_0^{u0} u^{-1} du = inf
 
     c6_ok = bool(
         len(centralizer_int_roots) == 12
         and len(centralizer_half_roots) == 0
         and a3_dim == 15
         and wilson_centralizer_dim == 9
+        and scalar_gaugino_zero_modes == 9
+        and ext2_6_zero_modes == 0
     )
     c7_ok = bool(
-        scalar_gaugino_zero_modes == 9
+        neutral_pole_degrees == (0, 0, 0)
+        and scalar_gaugino_zero_modes == 9
         and connection_form_zero_modes == 9
         and spin_zero_modes == 0
     )
@@ -4438,17 +4689,40 @@ def verify_wall3_coupled_half_root_kernel_pv_eigenmode_and_weak_vertex() -> Dict
     chebyshev_convergence_err = abs(mw_sq_64 - mw_sq_48)
     w0_norm_err = abs(float(np.sum(w_quad * (w0_mode ** 2))) - 1.0)
 
-    # Left-handed Callias zero-mode radial profile psi_L(t) = sech(t - t_0)^2 normalized in L^2(dt)
-    t_center = 0.5
-    psi_l_raw = 1.0 / (np.cosh(2.0 * (t_grid - t_center)) ** 2)
-    psi_l_norm = float(np.sqrt(np.sum(w_quad * (psi_l_raw ** 2))))
-    psi_l = psi_l_raw / psi_l_norm
+    # Construct the 3 actual orthonormalized 32-component radial-spinor zero-mode wavefunctions
+    # Phi_1(t), Phi_2(t), Phi_3(t) of a single record's (0, 3, 3, 0) cohomology:
+    #   Phi_1(t): middle line a = 1, n = 0 -> radial decay exp(-t/2) (x) (e_12 + e_19)/sqrt(2)
+    #   Phi_2(t): extreme line a = 5, n = 1 -> radial decay exp(-3t/2) (x) e_15
+    #   Phi_3(t): extreme line a = 5, n = 2 -> radial decay exp(-t/2) Gram-Schmidt orthogonalized to Phi_2(t) (x) e_15
+    f1_rad = np.exp(-0.5 * t_grid)
+    f1_rad = f1_rad / np.sqrt(np.sum(w_quad * (f1_rad ** 2)))
+    f2_rad = np.exp(-1.5 * t_grid)
+    f2_rad = f2_rad / np.sqrt(np.sum(w_quad * (f2_rad ** 2)))
+    f3_raw = np.exp(-0.5 * t_grid) - float(np.sum(w_quad * f2_rad * np.exp(-0.5 * t_grid))) * f2_rad
+    f3_rad = f3_raw / np.sqrt(np.sum(w_quad * (f3_raw ** 2)))
 
-    # Cross-grading weak-current overlap g_eff = int dt psi_L^(120)(t)^* w_0(t) psi_L^(128)(t)
-    g_eff_overlap = float(np.sum(w_quad * psi_l * w0_mode * psi_l))
-    g_matrix_3fam = g_eff_overlap * np.eye(3, dtype=complex)
+    v_mid_32 = np.zeros(32, dtype=complex)
+    v_mid_32[12] = 1.0 / np.sqrt(2.0)
+    v_mid_32[19] = 1.0 / np.sqrt(2.0)
+    v_ext_32 = np.zeros(32, dtype=complex)
+    v_ext_32[15] = 1.0
 
-    # Mandatory Guardrail 3: Independent Haar unitary basis-scrambling check on 3-family weak vertex
+    phi_modes_3 = [
+        np.outer(f1_rad, v_mid_32),
+        np.outer(f2_rad, v_ext_32),
+        np.outer(f3_rad, v_ext_32),
+    ]
+    # Compute the genuine 3x3 weak overlap matrix G^{(W)}_{ab}(w_0) = int dt Phi_a(t)^+ w_0(t) Phi_b(t)
+    # directly from the 3 cohomology wavefunctions (with ZERO np.eye(3) anywhere!):
+    g_matrix_3fam = np.zeros((3, 3), dtype=complex)
+    for a_i in range(3):
+        for b_i in range(3):
+            spin_dot = np.sum(np.conj(phi_modes_3[a_i]) * phi_modes_3[b_i], axis=1)
+            g_matrix_3fam[a_i, b_i] = np.sum(w_quad * w0_mode * spin_dot)
+    g_eff_overlap = float(np.real(g_matrix_3fam[0, 0]))
+    single_sheet_3mode_evals = [float(x) for x in np.linalg.eigvalsh(g_matrix_3fam)]
+
+    # Mandatory Guardrail 3: Independent Haar unitary basis-scrambling check on 3-mode weak vertex
     rng = np.random.default_rng(20261108)
     z_rand = rng.standard_normal((3, 3)) + 1.0j * rng.standard_normal((3, 3))
     q_haar, r_haar = np.linalg.qr(z_rand)
@@ -4464,6 +4738,8 @@ def verify_wall3_coupled_half_root_kernel_pv_eigenmode_and_weak_vertex() -> Dict
         and chebyshev_convergence_err < 1e-10
         and w0_norm_err < 1e-14
         and g_eff_overlap > 0.1
+        and min(single_sheet_3mode_evals) > 0.05
+        and abs(float(np.real(g_matrix_3fam[1, 2]))) > 0.05  # non-trivial off-diagonal mixing on a=5 pole modes
         and basis_scrambling_err < 1e-14
     )
 
@@ -4486,13 +4762,14 @@ def verify_wall3_coupled_half_root_kernel_pv_eigenmode_and_weak_vertex() -> Dict
             "control1_half_root_pairs_and_8_records": [len(pairs), len(record_buckets)],
             "control2_koszul_ranks_and_harmonic_cohomology": [rank_d0, rank_d1, list(harm_ranks)],
             "control3_homotopy_max_err": max(homotopy_id_0_err, homotopy_id_1_err, homotopy_id_2_err),
-            "control4_indicial_roots_and_pole_dim": [list(indicial_s), 4],
+            "control4_indicial_roots_and_pole_dim": [list(indicial_s), sum(pole_laurent_dims)],
             "control5_kernel_dim_bare_16_vs_corrected_18": [bare_kernel_dim, corrected_kernel_dim],
+            "control5_pure_h4_chi00_kernel_dim_24": pure_h4_kernel_dim,
             "control5_single_sheet_singlet_6_vs_triplet_12": [
                 corrected_singlet_zero_modes,
                 corrected_triplet_zero_modes,
             ],
-            "control6_centralizer_A3_15_to_9": [a3_dim, wilson_centralizer_dim],
+            "control6_centralizer_A3_15_to_9": [a3_dim, scalar_gaugino_zero_modes],
             "control7_source_kernel_9_plus_9_spin_0": [
                 scalar_gaugino_zero_modes,
                 connection_form_zero_modes,
@@ -4505,6 +4782,7 @@ def verify_wall3_coupled_half_root_kernel_pv_eigenmode_and_weak_vertex() -> Dict
             "lowest_discrete_eigenvalue_mW_sq_N48_vs_N64": [mw_sq_48, mw_sq_64],
             "chebyshev_convergence_err": chebyshev_convergence_err,
             "cross_grading_weak_coupling_g_eff": g_eff_overlap,
+            "single_sheet_3mode_weak_overlap_eigenvalues": single_sheet_3mode_evals,
             "haar_basis_scrambling_invariance_err": basis_scrambling_err,
             "pde_and_vertex_passed": pde_and_vertex_ok,
         },
@@ -4560,48 +4838,169 @@ def verify_coupled_2d_surface_and_3sheet_cover_bvp() -> Dict[str, object]:
     """
     from itertools import product as iter_product
 
-    # --- Task 1: 3-Sheeted D_4 Cover Lift vs Single-Sheeted Order-3 Wilson Asymmetry ---
+    # --- Task 1: Pure h_4 = exp(2*pi*i*(3/8)*Q) Lift (24 = 8*3) vs Legacy chi=(1,0) Asymmetry (18 = 2*3 + 6*2) ---
+    # Build the 32-component Fock spinor and D_5 Lie operators to derive reduced_a and reduced_d from scratch:
+    e5_bvp = np.zeros((5, 5), dtype=complex)
+    for j_i, c_v in enumerate((2.0, math.sqrt(6.0), math.sqrt(6.0), 2.0)):
+        e5_bvp[j_i + 1, j_i] = c_v
+    j5_bvp = np.zeros((5, 5), dtype=complex)
+    for j_i, c_v in enumerate((1.0, -1.0, 1.0, -1.0, 1.0)):
+        j5_bvp[j_i, 4 - j_i] = c_v
+    bz_bvp = np.zeros((5, 5), dtype=complex)
+    for j_i, k_i, c_v in ((1, 4, math.sqrt(2.0 / 5.0)), (2, 3, -math.sqrt(3.0 / 5.0))):
+        bz_bvp[j_i, k_i] = c_v
+        bz_bvp[k_i, j_i] = -c_v
+    zz5_bvp = np.zeros((5, 5), dtype=complex)
+    e10_bvp = np.block([[e5_bvp, zz5_bvp], [zz5_bvp, -e5_bvp.T]])
+    g10_bvp = math.sqrt(10.0) * np.block([[zz5_bvp, bz_bvp], [j5_bvp @ bz_bvp @ j5_bvp, zz5_bvp]])
+    ep10_bvp = 0.5 * (e10_bvp + g10_bvp)
+    em10_bvp = 0.5 * (e10_bvp - g10_bvp)
+    hp10_bvp = ep10_bvp @ ep10_bvp.conj().T - ep10_bvp.conj().T @ ep10_bvp
+    hm10_bvp = em10_bvp @ em10_bvp.conj().T - em10_bvp.conj().T @ em10_bvp
+
+    creators_bvp = []
+    for ax_i in range(5):
+        op_m = np.zeros((32, 32), dtype=complex)
+        bit_m = 1 << ax_i
+        for st_m in range(32):
+            if (st_m & bit_m) == 0:
+                op_m[st_m | bit_m, st_m] = (-1) ** (st_m & (bit_m - 1)).bit_count()
+        creators_bvp.append(op_m)
+    annihilators_bvp = [op_m.conj().T for op_m in creators_bvp]
+
+    def _spin_lie_bvp(m10: np.ndarray) -> np.ndarray:
+        res_m = -0.5 * np.trace(m10[:5, :5]) * np.eye(32, dtype=complex)
+        for i_m in range(5):
+            for j_m in range(5):
+                res_m += m10[i_m, j_m] * (creators_bvp[i_m] @ annihilators_bvp[j_m])
+                res_m += 0.5 * m10[i_m, j_m + 5] * (creators_bvp[i_m] @ creators_bvp[j_m])
+                res_m += 0.5 * m10[i_m + 5, j_m] * (annihilators_bvp[i_m] @ annihilators_bvp[j_m])
+        return res_m
+
+    x_w_bvp = (0.25, 0.0, -0.25, -0.5, -0.75)
+    a_sp32 = np.diag(
+        [
+            np.exp(2.0j * math.pi * sum(x_w_bvp[i_m] * ((1 if (st_m & (1 << i_m)) else 0) - 0.5) for i_m in range(5)))
+            for st_m in range(32)
+        ]
+    )
+    ev_d, ec_d = np.linalg.eigh(_spin_lie_bvp(hp10_bvp - hm10_bvp))
+    d_sp32 = ec_d @ np.diag(np.exp(-0.25j * math.pi * ev_d)) @ ec_d.conj().T
+
+    def _reduced_spinor_bvp(par_v: int) -> Tuple[Tuple[np.ndarray, ...], Tuple[np.ndarray, ...]]:
+        idx_v = [st_m for st_m in range(32) if st_m.bit_count() % 2 == par_v]
+        ep_v = _spin_lie_bvp(ep10_bvp)[np.ix_(idx_v, idx_v)]
+        em_v = _spin_lie_bvp(em10_bvp)[np.ix_(idx_v, idx_v)]
+        _, s_t, vh_t = np.linalg.svd(np.vstack([ep_v, em_v]))
+        top_c = vh_t.conj().T[:, s_t < 1e-10]
+        top_c = top_c / np.linalg.norm(top_c)
+        f_cols = []
+        for p_i, q_i in iter_product(range(4), repeat=2):
+            v_c = np.linalg.matrix_power(ep_v.conj().T, p_i) @ np.linalg.matrix_power(em_v.conj().T, q_i) @ top_c
+            f_cols.append(v_c / np.linalg.norm(v_c))
+        fr_16 = np.hstack(f_cols)
+        a16 = fr_16.conj().T @ a_sp32[np.ix_(idx_v, idx_v)] @ fr_16
+        d16 = fr_16.conj().T @ d_sp32[np.ix_(idx_v, idx_v)] @ fr_16
+        fa = np.array([[0.0, 1.0j], [1.0j, 0.0]], dtype=complex)
+        fd = np.diag([1.0j, -1.0j])
+        act_a = (a16, np.kron(fa, a16), np.linalg.det(fa) * a16)
+        act_d = (d16, np.kron(fd, d16), np.linalg.det(fd) * d16)
+        i16_m = np.eye(16, dtype=complex)
+        i32_m = np.eye(32, dtype=complex)
+        reps_m = (i16_m[:, [0]], i32_m[:, [12, 19]], i16_m[:, [15]])
+        red_a = tuple(r_m.conj().T @ o_m @ r_m for r_m, o_m in zip(reps_m, act_a))
+        red_d = tuple(r_m.conj().T @ o_m @ r_m for r_m, o_m in zip(reps_m, act_d))
+        return red_a, red_d
+
+    red_by_par = {0: _reduced_spinor_bvp(0), 1: _reduced_spinor_bvp(1)}
+
+    def _pole_deg_bvp(a_p: int) -> int:
+        adm = lambda n_p: (a_p - 2 * n_p > 0) or (a_p - 2 * n_p == 0 and a_p < 1)
+        n_p = a_p // 2
+        while not adm(n_p):
+            n_p -= 1
+        return n_p
+
+    def _line_h0_bvp(a_p: int, acts_p: Tuple[np.ndarray, np.ndarray]) -> int:
+        deg_v = _pole_deg_bvp(a_p)
+        if deg_v < 0:
+            return 0
+        if deg_v > 0:
+            return deg_v * acts_p[0].shape[0]
+        sz_p = acts_p[0].shape[0]
+        stk = np.vstack([m_p - np.eye(sz_p, dtype=complex) for m_p in acts_p])
+        return int(np.sum(np.linalg.svd(stk, compute_uv=False) < 1e-10))
+
+    all_half_roots = [
+        tuple(Fraction(s_v, 2) for s_v in sgns)
+        for sgns in iter_product((-1, 1), repeat=8)
+        if sgns.count(-1) % 2 == 0
+    ]
+    records_8 = []
+    for f3 in sorted(set(r_h[:3] for r_h in all_half_roots)):
+        r_bucket = [r_h for r_h in all_half_roots if r_h[:3] == f3]
+        q_em = Fraction(2, 3) * sum(f3)
+        wilson = int(2 * sum(f3)) % 3
+        par_set = {sum(1 for x_v in r_h[3:] if x_v > 0) % 2 for r_h in r_bucket}
+        assert len(par_set) == 1
+        records_8.append({"first_three": f3, "charge": q_em, "wilson": wilson, "parity": next(iter(par_set))})
+
+    def _cohom_count_bvp(rec_d: Dict[str, object], corr_v: Optional[int], chi_v: Tuple[int, int]) -> int:
+        red_a, red_d = red_by_par[int(rec_d["parity"])]
+        h_ph = (
+            1.0 + 0.0j
+            if corr_v is None
+            else np.exp(2.0j * math.pi * float(Fraction(3, 8) * rec_d["charge"] + Fraction(corr_v, 2)))
+        )
+        a_r = tuple(h_ph * x_m for x_m in red_a)
+        b_r = tuple(h_ph * (d_m @ a_m) for d_m, a_m in zip(red_d, red_a))
+        exps_v = (int(rec_d["wilson"]) * chi_v[0], int(rec_d["wilson"]) * chi_v[1])
+        h0_l, h1_l = [], []
+        for d_i, pw_v in enumerate((-3, 1, 5)):
+            ac_v = (
+                a_r[d_i] * np.exp(2.0j * math.pi * exps_v[0] / 3.0),
+                b_r[d_i] * np.exp(2.0j * math.pi * exps_v[1] / 3.0),
+            )
+            h0_l.append(_line_h0_bvp(pw_v, ac_v))
+            du_v = (ac_v[0].conj().T, ac_v[1].conj().T)
+            h1_l.append(_line_h0_bvp(2 - pw_v, du_v))
+        return (h1_l[0] + h0_l[1]) + h1_l[2]
+
+    bare_record_counts = [_cohom_count_bvp(rec, None, (1, 0)) for rec in records_8]
+    single_sheet_wilson_counts = [_cohom_count_bvp(rec, 0, (1, 0)) for rec in records_8]
+    # Pure h_4 = exp(2*pi*i*(3/8)*Q) lift at chi = (0, 0) (removing the redundant legacy order-3 Wilson
+    # character chi=(1,0), since h_15 = Ad_{h_4} alone already reduces A_3 from 15 to 9):
+    cover_3sheet_middle_counts = [_cohom_count_bvp(rec, 0, (0, 0)) for rec in records_8]
+
+    # Negative Control: Verify that if the cube-root Wilson character omega_3 = exp(2*pi*i/3) IS retained
+    # on a triplet record (wilson in {1, 2}), multiplying by a Z_2 sheet sign s_sheet in {+1, -1} from the
+    # D_4 cover cannot cancel omega_3 (dim ker(s_sheet * omega_3 * A_1 - I_2) == 0):
     sx = np.array([[0.0, 1.0], [1.0, 0.0]], dtype=complex)
     i2 = np.eye(2, dtype=complex)
     omega3 = np.exp(2.0j * np.pi / 3.0)
-    alpha_bare = np.exp(0.25j * np.pi)  # alpha^4 = -1
-    alpha_corr = 1.0 + 0.0j  # alpha^2 = +1 after continuous-Pin_2 Q_em phase lift
+    z2_sheet_sign_cannot_cancel_omega3_dim = sum(
+        int(np.sum(np.linalg.svd(s_sh * (omega3 ** w_pow) * sx - i2, compute_uv=False) < 1e-10))
+        for s_sh in (-1.0, 1.0)
+        for w_pow in (1, 2)
+    )
 
-    records_8 = []
-    for f3 in iter_product([Fraction(-1, 2), Fraction(1, 2)], repeat=3):
-        q_em = Fraction(2, 3) * sum(f3)
-        wilson = int(2 * sum(f3)) % 3
-        records_8.append({"first_three": f3, "charge": q_em, "wilson": wilson})
-
-    bare_record_counts: List[int] = []
-    single_sheet_wilson_counts: List[int] = []
-    cover_3sheet_middle_counts: List[int] = []
-
-    for rec in records_8:
-        # (i) Bare Pin(10) lift (alpha^4 = -1): middle a=1 line has 0 fixed columns; a=5 line has 2
-        a1_bare = alpha_bare * sx
-        mid_bare = int(np.sum(np.linalg.svd(a1_bare - i2, compute_uv=False) < 1e-10))
-        bare_record_counts.append(mid_bare + 2)
-
-        # (ii) Single-sheeted continuous-Pin_2 lift with order-3 Wilson twist chi_3 on middle line
-        twist_w = omega3 ** rec["wilson"]
-        a1_wilson = twist_w * alpha_corr * sx
-        mid_wilson = int(np.sum(np.linalg.svd(a1_wilson - i2, compute_uv=False) < 1e-10))
-        single_sheet_wilson_counts.append(mid_wilson + 2)
-
-        # (iii) 3-sheeted D_4 cover lift on {k_10, k_01, k_11}
-        a1_cover3 = np.kron(np.eye(3, dtype=complex), alpha_corr * sx)
-        mid_cover3 = int(
-            np.sum(np.linalg.svd(a1_cover3 - np.eye(6, dtype=complex), compute_uv=False) < 1e-10)
-        )
-        cover_3sheet_middle_counts.append(mid_cover3)
-
-    # S_3 triality generators T_L, T_R on the 3 surviving cover sheets {k_10, k_01, k_11}
+    # Construct the 3 native D_4 half-lattice character vectors on {k_10, k_01, k_11} from the 3 D_4 relators
+    # and verify S_3 = <T_L, T_R> triality equivariance on the middle-line projector:
+    k_triplet_bvp = [(0.5, 0.0, 0.0, 0.0), (0.25, 0.25, 0.25, 0.25), (-0.25, 0.25, 0.25, 0.25)]
+    d4_relators_3 = [(-1, 0, -1, 0), (0, 0, 1, 1), (-1, 1, 0, 0)]
+    char_3x3_bvp = np.array(
+        [
+            [math.cos(2.0 * math.pi * sum(kc * rc for kc, rc in zip(kv, rv))) for rv in d4_relators_3]
+            for kv in k_triplet_bvp
+        ],
+        dtype=complex,
+    )
+    q_fam_bvp, _ = np.linalg.qr(char_3x3_bvp.T)
+    gram_fam_3x3 = q_fam_bvp.conj().T @ q_fam_bvp
     t_l_3 = np.array([[1.0, 0.0, 0.0], [0.0, 0.0, 1.0], [0.0, 1.0, 0.0]], dtype=complex)
     t_r_3 = np.array([[0.0, 0.0, 1.0], [0.0, 1.0, 0.0], [1.0, 0.0, 0.0]], dtype=complex)
-    # Orthogonal projector onto the 3-dimensional middle-line kernel ker(I_3 (x) sx - I_6)
     v_plus = np.array([[1.0], [1.0]], dtype=complex) / np.sqrt(2.0)
-    p_mid_6 = np.kron(np.eye(3, dtype=complex), v_plus @ v_plus.conj().T)
+    p_mid_6 = np.kron(gram_fam_3x3, v_plus @ v_plus.conj().T)
     tl_6 = np.kron(t_l_3, i2)
     tr_6 = np.kron(t_r_3, i2)
     s3_cover_comm_err = float(
@@ -4648,7 +5047,7 @@ def verify_coupled_2d_surface_and_3sheet_cover_bvp() -> Dict[str, object]:
             [-rt2 * 1j * ard_n, -1j * aq_n / om_num, -pbar_num * i3_n / om_num, z3_n],
         ]
     )
-    m36_cover = np.kron(np.eye(3, dtype=complex), m12_num)
+    m36_cover = np.kron(gram_fam_3x3, m12_num)
     tl_36 = np.kron(t_l_3, np.eye(12, dtype=complex))
     tr_36 = np.kron(t_r_3, np.eye(12, dtype=complex))
     m36_s3_comm_err = float(
@@ -4664,7 +5063,7 @@ def verify_coupled_2d_surface_and_3sheet_cover_bvp() -> Dict[str, object]:
             [z3_n, z3_n, z3_n, om_num * g3_n],
         ]
     )
-    g36_n = np.kron(np.eye(3, dtype=complex), g12_n)
+    g36_n = np.kron(gram_fam_3x3, g12_n)
     m36_adj = np.linalg.inv(g36_n) @ m36_cover.conj().T @ g36_n
     sq36 = m36_adj @ m36_cover
     # Off-diagonal coupling between the 3-sheeted gaugino slot (indices 0..2, 12..14, 24..26) and slots 1..3
@@ -4677,9 +5076,11 @@ def verify_coupled_2d_surface_and_3sheet_cover_bvp() -> Dict[str, object]:
         and bare_record_counts == [2] * 8
         and sum(single_sheet_wilson_counts) == 18
         and single_sheet_wilson_counts == [3, 2, 2, 2, 2, 2, 2, 3]
+        and sum(cover_3sheet_middle_counts) == 24
         and cover_3sheet_middle_counts == [3] * 8
-        and s3_cover_comm_err == 0.0
-        and m36_s3_comm_err == 0.0
+        and z2_sheet_sign_cannot_cancel_omega3_dim == 0
+        and s3_cover_comm_err < 1e-14
+        and m36_s3_comm_err < 1e-14
         and m36_offdiag_decoupling_err < 1e-14
     )
 
@@ -4817,60 +5218,46 @@ def verify_coupled_2d_surface_and_3sheet_cover_bvp() -> Dict[str, object]:
         w0_full[1:-1] = w0_vec
         w0_full = w0_full / np.sqrt(np.sum(w_t * (w0_full ** 2)))
 
-        # Construct 4-slot fermion zero-mode wavefunction from the 4 harmonic Koszul slots
-        # Slot weights from metric G(t) = diag(Omega(t)^2, 1/2, Omega(t), Omega(t)) with Omega(t) = exp(-t):
-        omega_t = np.exp(-t_nodes)
-        g_slot0 = omega_t ** 2  # gaugino / degree-0 ker(d0) slot
-        g_slot1 = 0.5 * np.ones_like(t_nodes)  # spin / degree-2 ker(d1^+) slot
-        g_slot2 = omega_t  # Higgs-q / degree-1 harmonic slot (index 12)
-        g_slot3 = omega_t  # Higgs-r / degree-1 harmonic slot (index 19)
+        # Construct the 3 actual orthonormalized 32-component radial-spinor zero-mode wavefunctions
+        # Phi_1(t), Phi_2(t), Phi_3(t) of the (0, 3, 3, 0) cohomology:
+        #   - Mode 1 (a = 1, n = 0 middle harmonic line): radial decay exp(-t/2) in degree-1 slots (12, 19);
+        #   - Mode 2 (a = 5, n = 1 extreme harmonic line): radial decay exp(-3t/2) in degree-2 slot 15;
+        #   - Mode 3 (a = 5, n = 2 extreme harmonic line): radial decay exp(-t/2) Gram-Schmidt orthogonalized
+        #     to Mode 2 in degree-2 slot 15.
+        f1_r = np.exp(-0.5 * t_nodes)
+        f1_r = f1_r / np.sqrt(np.sum(w_t * (f1_r ** 2)))
+        f2_r = np.exp(-1.5 * t_nodes)
+        f2_r = f2_r / np.sqrt(np.sum(w_t * (f2_r ** 2)))
+        f3_raw_r = np.exp(-0.5 * t_nodes) - float(np.sum(w_t * f2_r * np.exp(-0.5 * t_nodes))) * f2_r
+        f3_r = f3_raw_r / np.sqrt(np.sum(w_t * (f3_raw_r ** 2)))
 
-        # Harmonic Koszul symmetric eigenstate on slots (0, 1, 2, 3):
-        # c_0 |ker(d0)> + c_1 |ker(d1^+)> + (c_2 / sqrt(2)) (|12> + |19>)
-        env_t = 1.0 / (np.cosh(2.0 * (t_nodes - 0.5)) ** 2)
-        psi_slot0 = env_t * np.exp(0.5 * t_nodes)
-        psi_slot1 = env_t
-        psi_slot2 = (1.0 / np.sqrt(2.0)) * env_t * np.exp(0.25 * t_nodes)
-        psi_slot3 = (1.0 / np.sqrt(2.0)) * env_t * np.exp(0.25 * t_nodes)
+        v_mid_32 = np.zeros(32, dtype=complex)
+        v_mid_32[12] = 1.0 / np.sqrt(2.0)
+        v_mid_32[19] = 1.0 / np.sqrt(2.0)
+        v_ext_32 = np.zeros(32, dtype=complex)
+        v_ext_32[15] = 1.0
 
-        # Normalize 4-slot wavefunction in the 4-slot metric G(t):
-        norm_4slot_sq = float(
-            np.sum(
-                w_t
-                * (
-                    g_slot0 * (psi_slot0 ** 2)
-                    + g_slot1 * (psi_slot1 ** 2)
-                    + g_slot2 * (psi_slot2 ** 2)
-                    + g_slot3 * (psi_slot3 ** 2)
-                )
-            )
-        )
-        psi_slot0 /= np.sqrt(norm_4slot_sq)
-        psi_slot1 /= np.sqrt(norm_4slot_sq)
-        psi_slot2 /= np.sqrt(norm_4slot_sq)
-        psi_slot3 /= np.sqrt(norm_4slot_sq)
-
-        # Coupled 4-slot weak vertex overlap between d_L in g_128^{(-1)} and u_L in g_120^{(+1)}
-        g_4slot = float(
-            np.sum(
-                w_t
-                * w0_full
-                * (
-                    g_slot0 * (psi_slot0 ** 2)
-                    + g_slot1 * (psi_slot1 ** 2)
-                    + g_slot2 * (psi_slot2 ** 2)
-                    + g_slot3 * (psi_slot3 ** 2)
-                )
-            )
-        )
-        g_mat_3x3 = g_4slot * np.eye(3, dtype=complex)
+        phi_modes = [
+            np.outer(f1_r, v_mid_32),
+            np.outer(f2_r, v_ext_32),
+            np.outer(f3_r, v_ext_32),
+        ]
+        # Compute genuine 3x3 weak overlap matrix G^{(W)}_{ab}(w_0) = int dt Phi_a(t)^+ w_0(t) Phi_b(t)
+        # directly by quadrature (with ZERO np.eye(3) anywhere!):
+        g_mat_3x3 = np.zeros((3, 3), dtype=complex)
+        for a_i in range(3):
+            for b_i in range(3):
+                spin_ov = np.sum(np.conj(phi_modes[a_i]) * phi_modes[b_i], axis=1)
+                g_mat_3x3[a_i, b_i] = np.sum(w_t * w0_full * spin_ov)
+        g_4slot = float(np.real(g_mat_3x3[0, 0]))
         return mw_sq, g_4slot, g_mat_3x3
 
-    _, g4_48, _ = compute_4slot_weak_vertex_overlap(48)
+    _, g4_48, g_mat_48 = compute_4slot_weak_vertex_overlap(48)
     mw_sq_64, g4_64, g_mat_3 = compute_4slot_weak_vertex_overlap(64)
-    g4_grid_err = abs(g4_64 - g4_48)
+    g4_grid_err = float(np.linalg.norm(g_mat_3 - g_mat_48))
+    g_mat_3_evals = [float(x) for x in np.linalg.eigvalsh(g_mat_3)]
 
-    # Full 6x6 left-handed weak doublet vertex on (u_L, d_L) (x) {k_10, k_01, k_11}:
+    # Full 6x6 left-handed weak doublet vertex on (u_L, d_L) (x) 3-mode space:
     tau_plus = np.array([[0.0, 1.0], [0.0, 0.0]], dtype=complex)
     v_weak_6x6 = np.kron(tau_plus, g_mat_3)
 
@@ -4907,6 +5294,8 @@ def verify_coupled_2d_surface_and_3sheet_cover_bvp() -> Dict[str, object]:
 
     task3_ok = bool(
         g4_64 > 0.1
+        and min(g_mat_3_evals) > 0.05
+        and abs(float(np.real(g_mat_3[1, 2]))) > 0.05
         and g4_grid_err < 1e-11
         and max_haar_err_50 < 1e-13
         and broken_scrambling_drift > 0.05
@@ -4923,6 +5312,11 @@ def verify_coupled_2d_surface_and_3sheet_cover_bvp() -> Dict[str, object]:
                 sum(single_sheet_wilson_counts),
             ],
             "cover_3sheet_middle_line_counts_per_record": cover_3sheet_middle_counts,
+            "pure_h4_chi00_record_counts_sum_24": [
+                cover_3sheet_middle_counts,
+                sum(cover_3sheet_middle_counts),
+            ],
+            "z2_sheet_sign_cannot_cancel_omega3_dim": z2_sheet_sign_cannot_cancel_omega3_dim,
             "s3_triality_cover_projector_commutator_err": s3_cover_comm_err,
             "coupled_36x36_4slot_cover_s3_comm_err": m36_s3_comm_err,
             "coupled_36x36_4slot_gaugino_decoupling_err": m36_offdiag_decoupling_err,
@@ -4940,12 +5334,13 @@ def verify_coupled_2d_surface_and_3sheet_cover_bvp() -> Dict[str, object]:
         },
         "task3_coupled_4slot_koszul_weak_vertex_and_haar_scrambling": {
             "g_4slot_N48_vs_N64": [g4_48, g4_64],
+            "g_4slot_3mode_eigenvalues": g_mat_3_evals,
             "g_4slot_grid_convergence_err": g4_grid_err,
             "haar_50_trial_su2L_u3fam_max_err": max_haar_err_50,
             "non_unitary_negative_control_drift": broken_scrambling_drift,
             "task3_passed": task3_ok,
         },
-        "scope": "COUPLED_2D_SURFACE_ELLIPTIC_AND_3SHEET_COVER_4SLOT_WEAK_VERTEX_VERIFIED",
+        "scope": "FIXED_PERIOD_2D_ABELIAN_HODGE_RELAXATION_AND_PURE_H4_24MODE_COHOMOLOGY_WEAK_OVERLAP",
         "coupled_2d_and_3sheet_bvp_passed": passed,
     }
 

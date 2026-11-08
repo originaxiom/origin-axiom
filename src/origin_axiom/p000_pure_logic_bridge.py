@@ -3041,6 +3041,7 @@ def verify_wall2_d4_to_e8_glue_and_cover_family_functor() -> Dict[str, object]:
         "cover_character_table_on_r2_r3_r2r3": char_table_4x3,
         "singlet_k00_killed_by_nontrivial_relator_holonomy": singlet_killed_by_nontrivial_relator_holonomy,
         "surviving_family_triplet_channels": surviving_triplet_channels,
+        "e8_remains_supplied_premise_not_earned_from_single_register": True,
         "scope": "CONDITIONAL_TWO_REGISTER_UNIMODULAR_GLUE_CLOSURE_AND_N_MOD_2N_COVER_TRIPLET_DECOMPOSITION",
         "wall2_d4_to_e8_and_cover_functor_passed": passed,
     }
