@@ -1,0 +1,75 @@
+{
+  "record_type": "SOURCE_AND_HAND_ARGUMENT_RECEIPT_NOT_EXECUTION",
+  "date": "2026-11-08",
+  "base_commit": "7e0159033c5a554a9d68c9b48fed8b0a3d3b601f",
+  "source_pins": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/FIRST_ORDER_REGISTER_LAW_AND_MATTER_PRICE_2026_11_08.md",
+      "sha256": "87c7ed2c7a3eaaecc376b1af5a7b7bfc2d603fc78b6b4a94be2cdcd346791e50",
+      "bytes": 14604
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/JOINT_FIRST_ORDER_REGISTER_AND_OLD_QUATERNION_COVER_2026_11_08.md",
+      "sha256": "a147e103daabaef3a57ee8931856e0834513112069192edb92d5319141bb2b82",
+      "bytes": 13058
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/LARGER_REGISTER_ARCHITECTURE_AND_SECOND_ORDER_LAW_2026_11_08.md",
+      "sha256": "ad7e88e3d5c6bd33f939c3f4c87fe788f0d88666dfb0e98cfb0d26a5437e1fbb",
+      "bytes": 22798
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md",
+      "sha256": "6012816683f17ac83e7d3bdb4f6d8b987ec8155ee2caa09ce651dbf0b194ed4c",
+      "bytes": 11130
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GEOMETRIC_SPIN_JOIN_AND_FULL_CURVE_OPERATOR.md",
+      "sha256": "8a534fc3a4f1aea110c9a4f2c121393c7b273f7f1ce1eeac34bf3e9edb356ad8",
+      "bytes": 13755
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REGISTER_FLAVOUR_ACTION_GRAM_AND_QUARTIC_STATE_TEST.md",
+      "sha256": "370fa0f0d88a08b3a3cab8b893c3930404724da18ef1c99356b5b05c3d0e7d6b",
+      "bytes": 11605
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "bytes": 13228
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/UNITARY_FAMILY_REGISTER_AND_PHYSICAL_END_PRICE_2026_11_08.md",
+      "sha256": "6846705a340a8a2ed22c9fc25555e484cdf2c703867648bc09f486f60212eee7",
+      "bytes": 13473
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/ENGINEERING_DESIGN.md",
+      "sha256": "a9979afe32fcd83027c973ecb059f9ebaf64a7b65784a31b540041a898bd210e",
+      "bytes": 3053
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_architecture_2026_11_08/REVIEW_INTERRUPTION_2026_11_08.md",
+      "sha256": "1f9e5ede7688466c8d5ba62994d95a94cadce96ed49be073f26e98abccd2cff6",
+      "bytes": 1336
+    }
+  ],
+  "literature_reading": [
+    {
+      "url": "https://www.imo.universite-paris-saclay.fr/~emmanuel.breuillard/densepaper.pdf",
+      "scope": "Introductory genericity statements and Section 5 Theorem 5.1 and its proof; not full paper reproof",
+      "use": "External generic faithful compact-unitary pairs theorem"
+    },
+    {
+      "url": "https://www.math.umd.edu/~wmg/AHL_2024__7__1099_0.pdf",
+      "scope": "Section 2.2 and retrieved Section 4 peripheral-trace passages; no full KAM proof claim",
+      "use": "Known punctured-torus character and peripheral-trace context"
+    }
+  ],
+  "scientific_imports": false,
+  "test_collection": false,
+  "scientific_execution": false,
+  "new_proof_review": "PENDING",
+  "old_seven_control_review": "INTERRUPTED_INCOMPLETE_SERVICE_USAGE_LIMIT",
+  "inherited_staging_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}
