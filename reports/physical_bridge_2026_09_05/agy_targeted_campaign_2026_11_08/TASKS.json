@@ -1,0 +1,211 @@
+{
+  "schema": "oa-agy-research-coordination-v1",
+  "date": "2026-11-08",
+  "document_type": "work order and coordination board; not experiment design or an enforcement program",
+  "physical_base_commit": "dd7490203c55bae043585f594af5a13afe634fa7",
+  "agy_base_commit": "21b293e87ff09fd64911267e9b4aa447fbfab2b9",
+  "author_branch": "agy/audit-2026-11-02",
+  "review_branch": "audit/physical-bridge-2026-09-05",
+  "delivery_channel": "versioned repository relay; no live worker start or acknowledgement inferred",
+  "worker_acknowledgement": null,
+  "max_active_proof_code_packets_after_intake": 2,
+  "scientific_execution_authorized_by_this_board": false,
+  "first_return": [
+    "AGY-00 intake",
+    "AGY-01 conditional hand/source findings"
+  ],
+  "stage_policy": {
+    "allowed_now": [
+      "source intake",
+      "hand derivation",
+      "prospective design",
+      "unreviewed checkpoint sharing"
+    ],
+    "new_scientific_execution_requires": [
+      "preimplementation sealed design",
+      "sealed complete execution specification",
+      "exact source-complete nonauthoring review",
+      "separate exact main acceptance",
+      "strict clean-checkout admission"
+    ],
+    "review_sharing_is_not": [
+      "scientific execution admission",
+      "banking",
+      "merge",
+      "theory certification"
+    ],
+    "partial_preparation": [
+      "AGY-04 algebraic preparation can precede AGY-03; a new physical interface/domain cannot",
+      "AGY-05 premise analysis starts at intake; its physical map needs actual operator/domain results"
+    ],
+    "accepted_task_outcomes": [
+      "verified scoped positive",
+      "scoped negative",
+      "independent residual input",
+      "unresolved with precise evidence gap"
+    ],
+    "author_may_not_self_assign": [
+      "nonauthoring review",
+      "main acceptance",
+      "admission",
+      "banked result"
+    ]
+  },
+  "tasks": [
+    {
+      "id": "AGY-00",
+      "title": "Reuse inventory and common-model manifest",
+      "claim_dependencies": [],
+      "status": "READY_FOR_SOURCE_INTAKE",
+      "author": "AGY",
+      "supervisor": "physical seat",
+      "required_outputs": [
+        "MODEL_MANIFEST.md",
+        "CLAIM_DEPENDENCIES.md",
+        "INPUT_LEDGER.md"
+      ],
+      "scoped_review_artifact": null,
+      "source_complete_review_artifact": null,
+      "main_execution_acceptance": null,
+      "execution_admission": null,
+      "admitted_run_evidence": null,
+      "accepted_result": null
+    },
+    {
+      "id": "AGY-01",
+      "title": "Coherent global lift and actual input claim",
+      "claim_dependencies": [
+        "AGY-00"
+      ],
+      "status": "PENDING_DEPENDENCY_REVIEW",
+      "author": "AGY",
+      "supervisor": "physical seat",
+      "required_outputs": [
+        "LIFT_AND_DOMAIN.md",
+        "INPUT_LEDGER.md"
+      ],
+      "scoped_review_artifact": null,
+      "source_complete_review_artifact": null,
+      "main_execution_acceptance": null,
+      "execution_admission": null,
+      "admitted_run_evidence": null,
+      "accepted_result": null
+    },
+    {
+      "id": "AGY-02",
+      "title": "Complete charge-resolved fermion roster",
+      "claim_dependencies": [
+        "AGY-00",
+        "AGY-01"
+      ],
+      "status": "PENDING_DEPENDENCY_REVIEW",
+      "author": "AGY",
+      "supervisor": "physical seat",
+      "required_outputs": [
+        "ROSTER_PROOF.md",
+        "FULL_ROSTER.md"
+      ],
+      "scoped_review_artifact": null,
+      "source_complete_review_artifact": null,
+      "main_execution_acceptance": null,
+      "execution_admission": null,
+      "admitted_run_evidence": null,
+      "accepted_result": null
+    },
+    {
+      "id": "AGY-03",
+      "title": "Common-action boundary response and source law",
+      "claim_dependencies": [
+        "AGY-00",
+        "AGY-01"
+      ],
+      "status": "PENDING_DEPENDENCY_REVIEW",
+      "author": "AGY",
+      "supervisor": "physical seat",
+      "required_outputs": [
+        "BOUNDARY_VARIATION.md",
+        "STATIONARITY_AND_RESPONSE.md"
+      ],
+      "scoped_review_artifact": null,
+      "source_complete_review_artifact": null,
+      "main_execution_acceptance": null,
+      "execution_admission": null,
+      "admitted_run_evidence": null,
+      "accepted_result": null
+    },
+    {
+      "id": "AGY-04",
+      "title": "Actual global modes and physical weak currents",
+      "claim_dependencies": [
+        "AGY-01",
+        "AGY-02",
+        "AGY-03"
+      ],
+      "status": "PENDING_DEPENDENCY_REVIEW",
+      "author": "AGY",
+      "supervisor": "physical seat",
+      "required_outputs": [
+        "GLOBAL_MODES.md",
+        "WEAK_CURRENT.md"
+      ],
+      "scoped_review_artifact": null,
+      "source_complete_review_artifact": null,
+      "main_execution_acceptance": null,
+      "execution_admission": null,
+      "admitted_run_evidence": null,
+      "accepted_result": null
+    },
+    {
+      "id": "AGY-05",
+      "title": "Register-to-field family map",
+      "claim_dependencies": [
+        "AGY-00",
+        "AGY-01",
+        "AGY-02",
+        "AGY-03"
+      ],
+      "status": "PENDING_DEPENDENCY_REVIEW",
+      "author": "AGY",
+      "supervisor": "physical seat",
+      "required_outputs": [
+        "REGISTER_TO_FIELD_MAP.md"
+      ],
+      "scoped_review_artifact": null,
+      "source_complete_review_artifact": null,
+      "main_execution_acceptance": null,
+      "execution_admission": null,
+      "admitted_run_evidence": null,
+      "accepted_result": null
+    },
+    {
+      "id": "AGY-06",
+      "title": "Compatible joined verdict and input ledger",
+      "claim_dependencies": [
+        "AGY-01",
+        "AGY-02",
+        "AGY-03",
+        "AGY-04",
+        "AGY-05"
+      ],
+      "status": "PENDING_DEPENDENCY_REVIEW",
+      "author": "AGY",
+      "supervisor": "physical seat",
+      "required_outputs": [
+        "JOINED_VERDICT.md",
+        "INPUT_LEDGER.md"
+      ],
+      "scoped_review_artifact": null,
+      "source_complete_review_artifact": null,
+      "main_execution_acceptance": null,
+      "execution_admission": null,
+      "admitted_run_evidence": null,
+      "accepted_result": null
+    }
+  ],
+  "science_status": {
+    "new_campaign_runs": "NONE",
+    "six_control_review_completed": true,
+    "six_control_science_execution": "UNRUN; separate main acceptance and admission outstanding",
+    "later_seven_and_four_controls": "UNRUN; outside completed review"
+  }
+}
