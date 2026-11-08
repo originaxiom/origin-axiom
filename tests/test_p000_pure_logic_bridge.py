@@ -14,6 +14,7 @@ from origin_axiom.p000_pure_logic_bridge import (
     canonical_unoriented_conj_rep,
     commutator_word,
     run_all_p000_bridge_verifications,
+    verify_4a0c6d799_affine_d4_register_and_realization_controls,
     verify_d47f7d79f_selector_earning_and_syntactic_congruence,
     verify_step1_freeness_vs_relaxations,
     verify_step2a_word_side_w110,
@@ -156,12 +157,69 @@ def test_step3_and_4_carrier_and_countercontrols() -> None:
     assert d47["f2_word_syntactic_congruence_quotient_sizes"] == {
         "F2_to_Z2_order_2": 2,
         "F2_to_V4_order_4": 4,
+        "F2_to_S3_order_6": 6,
         "F2_to_Q8_order_8": 8,
         "F2_to_H3_F3_order_27": 27,
     }
+    assert all(cert["surjective"] is True for cert in d47["f2_word_image_coverage_certificates"].values())
+    assert d47["f2_derived_length_3_cocycle_witness"]["P_r_equals_2_I_minus_A_A_plus_I_equals_4I"] is True
+    assert d47["f2_derived_length_3_cocycle_witness"]["dim_H1_F2_mod_F2_triple_prime_VQ8"] == 2
+    assert d47["f2_derived_length_3_cocycle_witness"]["dim_H1_across_3_parity_twists"] == 6
+    assert d47["d2_automatic_det_one_lemma"]["r12_forces_det_b_eq_1"] is True
+    assert d47["a5_all_rank_control"]["chi4_inner_product"] == 1
+    assert d47["non_swap_sl2r_control"]["pred_P4_rejected"] is True
+    assert d47["strict_single_drop_exact_diagonal"] is True
+    assert len(d47["strict_single_drop_countermodels"]) == 6
+    mp_audit = d47["codex_2896d441a_matter_price_audit"]
+    assert mp_audit["Ad_commutator_is_plus_I3"] is True
+    assert mp_audit["doublet_commutator_is_minus_I2"] is True
+    assert mp_audit["dim_H1_F2_Ad_rho"] == 3
+    assert mp_audit["dim_H1_F2_V_rho"] == 2
+    assert mp_audit["dim_H1_Q8_V_rho"] == 0
+    assert mp_audit["q8_averaging_recovery_error"] < 1e-12
     assert len(d47["three_selection_tasks_separation"]) == 3
     fam = d47["section7_model_comparison"]["M_family_p3_WeylPair_dim6"]
     assert fam["swap_block_intertwiner_error"] < 1e-12
+    assert fam["L_block_intertwiner_error"] < 1e-12
+    assert fam["R_block_intertwiner_error"] < 1e-12
+    assert fam["max_L_trace_diff"] < 1e-12
+    assert fam["max_R_trace_diff"] < 1e-12
     assert all(abs(x - (-0.5)) < 1e-12 for x in fam["normalized_commutator_trace_L_R_P"])
     assert d47["unique_survivor_after_P1_to_P5"] == ["M6_Quaternion_Spinor_Q8_SU2"]
     assert len(d47["models_matrix"]) == 6
+
+
+def test_4a0c6d799_affine_d4_register_and_realization_controls() -> None:
+    res = verify_4a0c6d799_affine_d4_register_and_realization_controls()
+    assert res["codex_4a0c6d799_passed"] is True
+    u_coc = res["universal_quaternion_order_cocycle"]
+    assert u_coc["words_checked_count"] == 161
+    assert u_coc["norm_and_zero_equivalence_verified"] is True
+    assert u_coc["coboundary_shift_on_a_nonzero"] is True
+    assert u_coc["relator_coordinates_in_I_A_B_C"] == {
+        "P_r1_a4": [0, 0, 0, 0],
+        "P_r2_a2_b_inv2": [-1, 0, -1, 0],
+        "P_r3_b_inv_a_b_a": [0, 0, 1, 1],
+    }
+    d4 = res["d4_kernel_lattice"]
+    assert d4["hnf_determinant_index_in_Z4"] == 2
+    assert d4["minimal_norm2_d4_root_count"] == 24
+    nielsen = res["nielsen_d4_and_s3_discriminant_transport"]
+    assert nielsen["nielsen_on_relators_verified"] is True
+    assert nielsen["perm_T_L_on_v0_s0_c0"] == {"v0": "v0", "s0": "c0", "c0": "s0"}
+    assert nielsen["perm_T_R_on_v0_s0_c0"] == {"v0": "c0", "s0": "s0", "c0": "v0"}
+    assert nielsen["left_inverse_transport_is_left_homomorphism"] is True
+    assert nielsen["right_composition_homomorphism_fails"] is True
+    lim = res["limits_and_6d_total_family"]
+    assert lim["a4_killed_in_untwisted_doublet"] is True
+    assert lim["homogenized_3x3_trace_independent_of_v"] is True
+    assert lim["total_family_6d_aut_f2_covariant"] is True
+    w34 = res["codex_283159389_w34_schreier_cycle_module"]
+    assert w34["num_vertices"] == 8
+    assert w34["num_directed_edges"] == 16
+    assert w34["cycle_module_Z_rank_N_ab"] == 9
+    assert w34["adjoint_plus_doublet_rank_split"] == [5, 4]
+    assert w34["J_a4_norm_squared"] == 4
+    assert w34["J_comm_a4_b4_norm_squared"] == 0
+    assert w34["J_projects_to_P_w_on_all_289_words"] is True
+

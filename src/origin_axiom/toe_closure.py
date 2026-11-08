@@ -25202,9 +25202,14 @@ def theorem141_chat1_21cfbc3c2_one_process_one_level_k5_and_claude_sm_criterion_
     m004_betti1_rank = int(3 - np.linalg.matrix_rank(R_m004_cusped))
     m003_betti1_rank = int(3 - np.linalg.matrix_rank(R_m003_cusped))
     sigma2_4_1_betti1_rank = int(3 - np.linalg.matrix_rank(R_sigma2_4_1_closed))
-    m004_cusp_count = int(1 - int(np.any(R_m004_cusped[:, 2] != 0)))
-    m003_cusp_count = int(1 - int(np.any(R_m003_cusped[:, 2] != 0)))
-    sigma2_4_1_cusp_count = int(1 - int(np.any(R_sigma2_4_1_closed[:, 2] != 0)))
+    # Topological cusp / Dehn-filling provenance is tracked explicitly from the manifold presentation
+    # rather than inferred from H_1 alone (Codex f6bd63800 Item E: Dehn filling along the null-homologous
+    # fiber-commutator longitude (0, 1) adds the zero row [0, 0, 0] in H_1, leaving b_1 = 1 while closing the cusp!):
+    R_m003_longitudinal_0_1_filled = _cusped_bundle_relation_matrix_3x3(-LR_mat)
+    m003_longitudinal_0_1_betti1_rank = int(3 - np.linalg.matrix_rank(R_m003_longitudinal_0_1_filled))
+    m004_cusp_count = 1
+    m003_cusp_count = 1
+    sigma2_4_1_cusp_count = 0
 
     carriers_topological_table = {
         "m004_M_LR_cusped_bundle": {
@@ -25213,6 +25218,7 @@ def theorem141_chat1_21cfbc3c2_one_process_one_level_k5_and_claude_sm_criterion_
             "b1_free_rank": m004_betti1_rank,
             "num_torus_cusps": m004_cusp_count,
             "is_closed_3_manifold": bool(m004_cusp_count == 0),
+            "cusp_and_filling_provenance": "SUPPLIED_TOPOLOGICAL_PROVENANCE_UNFILLED_PUNCTURED_TORUS_BUNDLE",
         },
         "m003_M_neg_LR_cusped_bundle": {
             "snf_diagonal": [int(D_snf[0, 0]), int(D_snf[1, 1])],
@@ -25220,6 +25226,7 @@ def theorem141_chat1_21cfbc3c2_one_process_one_level_k5_and_claude_sm_criterion_
             "b1_free_rank": m003_betti1_rank,
             "num_torus_cusps": m003_cusp_count,
             "is_closed_3_manifold": bool(m003_cusp_count == 0),
+            "cusp_and_filling_provenance": "SUPPLIED_TOPOLOGICAL_PROVENANCE_UNFILLED_PUNCTURED_TORUS_BUNDLE",
         },
         "Sigma2_4_1_closed_branched_cover": {
             "snf_diagonal": [int(D_snf[0, 0]), int(D_snf[1, 1])],
@@ -25228,6 +25235,13 @@ def theorem141_chat1_21cfbc3c2_one_process_one_level_k5_and_claude_sm_criterion_
             "b1_free_rank": sigma2_4_1_betti1_rank,
             "num_torus_cusps": sigma2_4_1_cusp_count,
             "is_closed_3_manifold": bool(sigma2_4_1_cusp_count == 0),
+            "cusp_and_filling_provenance": "SUPPLIED_TOPOLOGICAL_PROVENANCE_MERIDIAN_1_0_FILLED_BRANCHED_COVER",
+        },
+        "m003_longitudinal_0_1_dehn_filling_control": {
+            "b1_free_rank": m003_longitudinal_0_1_betti1_rank,
+            "num_torus_cusps": 0,
+            "is_closed_3_manifold": True,
+            "proves_closedness_not_inferred_from_H1_alone": bool(m003_longitudinal_0_1_betti1_rank == 1),
         },
     }
 
@@ -29472,6 +29486,35 @@ def theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage2
             return _is_ast_literal_expr(node.left) and _is_ast_literal_expr(node.right)
         return False
 
+    def _is_verified_newton_or_radical_ast(node: ast.AST, var_name: str) -> bool:
+        # Pattern 1: Newton quotient step `var_name - f(var_name) / df(var_name)`
+        if (
+            isinstance(node, ast.BinOp)
+            and isinstance(node.op, ast.Sub)
+            and isinstance(node.left, ast.Name)
+            and node.left.id == var_name
+            and isinstance(node.right, ast.BinOp)
+            and isinstance(node.right.op, ast.Div)
+            and isinstance(node.right.left, ast.Call)
+            and isinstance(node.right.right, ast.Call)
+        ):
+            return True
+        # Pattern 2: Closed-form integer-radical expression `a + b * sqrt(c)` with integer constants only
+        has_sqrt_int = False
+        for sub in ast.walk(node):
+            if isinstance(sub, ast.Name) and sub.id not in ("mp", "math", "sp", "np", "sqrt"):
+                return False
+            if isinstance(sub, ast.Call):
+                fn = sub.func.id if isinstance(sub.func, ast.Name) else (
+                    sub.func.attr if isinstance(sub.func, ast.Attribute) else ""
+                )
+                if fn != "sqrt" or len(sub.args) != 1 or not (
+                    isinstance(sub.args[0], ast.Constant) and isinstance(sub.args[0].value, int)
+                ):
+                    return False
+                has_sqrt_int = True
+        return has_sqrt_int
+
     def classify_ast_assignment(
         py_source: str, var_name: str, equation_residual: Optional[float] = None
     ) -> str:
@@ -29495,11 +29538,13 @@ def theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage2
                 func_name = val.func.attr
             if func_name in ("mpc", "mpf", "complex", "float"):
                 return "IMPORTED_NUMERICAL_PIN"
-        if isinstance(val, (ast.Call, ast.BinOp)):
-            if equation_residual is not None and not (equation_residual < 1e-30):
-                return "IMPORTED_NUMERICAL_PIN"
+        if _is_verified_newton_or_radical_ast(val, var_name):
+            if equation_residual is None:
+                return "UNKNOWN_OR_UNVERIFIED_EXPRESSION"
+            if not (equation_residual < 1e-30):
+                return "FAILED_SOLVER_RESIDUAL"
             return "FIRST_PRINCIPLES_RECOMPUTATION"
-        return "UNKNOWN_EXPRESSION"
+        return "UNKNOWN_OR_UNVERIFIED_EXPRESSION"
 
     real_t154_src = inspect.getsource(
         theorem154_p726_p727_b1846_margulis_tube_coth2_identity_level_surface_modulus_and_cusp_collar
@@ -29514,14 +29559,18 @@ def theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage2
     im_tau_ast_class = classify_ast_assignment(real_t154_src, "im_tau_sigma0")
     l_chi0_l6rlr_ast_class = classify_ast_assignment(real_t154_src, "l_chi0_l6rlr")
 
-    # Negative control: mutating the Newton solver update of z2_mp in the real producer source to a literal pin
-    # must flip its classification from FIRST_PRINCIPLES_RECOMPUTATION to IMPORTED_NUMERICAL_PIN:
+    # Negative controls (Codex f6bd63800 Item F):
+    # 1. Mutating the Newton solver update of z2_mp to a literal pin -> IMPORTED_NUMERICAL_PIN
+    # 2. Passing a failing residual (1e-5 >= 1e-30) -> FAILED_SOLVER_RESIDUAL
+    # 3. Opaque loader call `load_saved_result()` or trivial wrapper `imported_pin + 0` -> UNKNOWN_OR_UNVERIFIED_EXPRESSION
     mutated_t156_src = real_t156_src.replace(
         "z2_mp = z2_mp - mp_p(z2_mp) / mp_dp(z2_mp)",
         "z2_mp = -3.651753368977838 + 2.578910896294468j",
     )
     z2_mutated_literal_class = classify_ast_assignment(mutated_t156_src, "z2_mp", equation_residual=mp_poly_resid)
     z2_mutated_bad_residual_class = classify_ast_assignment(real_t156_src, "z2_mp", equation_residual=1e-5)
+    opaque_loader_class = classify_ast_assignment("z2_mp = load_saved_result()\n", "z2_mp", equation_residual=0.0)
+    trivial_wrapper_class = classify_ast_assignment("z2_mp = imported_pin + 0\n", "z2_mp", equation_residual=0.0)
 
     countercontrol_f5_evidence_typing_gate = {
         "z2_mp_classified_as": z2_ast_class,
@@ -29532,6 +29581,8 @@ def theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage2
         "l_chi0_l6rlr_in_t154_classified_as": l_chi0_l6rlr_ast_class,
         "mutated_z2_mp_literal_classified_as": z2_mutated_literal_class,
         "mutated_z2_mp_bad_residual_classified_as": z2_mutated_bad_residual_class,
+        "opaque_loader_call_classified_as": opaque_loader_class,
+        "trivial_arithmetic_wrapper_classified_as": trivial_wrapper_class,
         "mutation_promoting_literal_pin_to_fresh_mesh_rejected": bool(
             l_tube_ast_class == "IMPORTED_NUMERICAL_PIN"
             and im_tau_ast_class == "IMPORTED_NUMERICAL_PIN"
@@ -29540,7 +29591,9 @@ def theorem156_complete_data_free_program_closure_ledger_p717_to_p727_and_stage2
             and z2_k1_ast_class == "FIRST_PRINCIPLES_RECOMPUTATION"
             and j5_exact_ast_class == "FIRST_PRINCIPLES_RECOMPUTATION"
             and z2_mutated_literal_class == "IMPORTED_NUMERICAL_PIN"
-            and z2_mutated_bad_residual_class == "IMPORTED_NUMERICAL_PIN"
+            and z2_mutated_bad_residual_class == "FAILED_SOLVER_RESIDUAL"
+            and opaque_loader_class == "UNKNOWN_OR_UNVERIFIED_EXPRESSION"
+            and trivial_wrapper_class == "UNKNOWN_OR_UNVERIFIED_EXPRESSION"
         ),
         "mutation_promoting_internal_gate_to_external_referee_rejected": bool(
             evidence_typing_ledger["stage29_gate_independence_class"]

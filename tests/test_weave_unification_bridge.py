@@ -83,6 +83,7 @@ def test_theorem3_p740_p583_and_two_locus_haar() -> None:
     assert abs(t3["det_preserving_4d_det_ratio"] - 1.0) < 1e-4
     assert t3["two_locus_ckm_corner_asymmetry"] > 0.05
     assert t3["haar_50_trial_max_invariance_err"] < 1e-12
+    assert t3["cross_locus_join_scope"] == "CONDITIONAL_TWO_LOCUS_SERRE_AND_ADJUGATE_MODEL_PENDING_3D_BUNDLE_TRANSPORT"
 
 
 def test_theorem4_codex_physical_bridge_joins() -> None:
@@ -96,6 +97,7 @@ def test_theorem4_codex_physical_bridge_joins() -> None:
     assert roster[1]["chiral_profiles"] == 67 and roster[1]["complete_left_zeros_with_gauginos"] == 76
     assert roster[2]["chiral_profiles"] == 69 and roster[2]["complete_left_zeros_with_gauginos"] == 78
     assert t4["codex_ae5e48184_gieseking_sigma_swaps_k_pairs"] is True
+    assert t4["dic5_gieseking_swap_scope"] == "CONNECTS_PRIMITIVE_DIC5_HOLONOMY_PAIRS_CONDITIONAL_ON_SPIN_WILSON_DOMAIN_TRANSPORT"
 
 
 def test_wp1_wp2_wp3_wp4_weave_unification_work_packages() -> None:
@@ -131,6 +133,7 @@ def test_wp1_wp2_wp3_wp4_weave_unification_work_packages() -> None:
 
     wp4 = verify_wp4_two_locus_and_localization()
     assert wp4["max_eta6_quarter_rel_err"] < 1e-30
+    assert wp4["k_family_profiles"]["k=1"]["localization_p744"]["scope"] == "1D_TEICHMULLER_SOL_CLOCK_PERIODIC_MODEL_NOT_3D_HYPERBOLIC_PDE_P744"
     assert wp4["single_locus_lock_inequality_holds"] is True
     assert wp4["max_b1646_d3_rel_err"] < 1e-12
     assert wp4["max_b1744_lemma_a_rel_err"] < 1e-12

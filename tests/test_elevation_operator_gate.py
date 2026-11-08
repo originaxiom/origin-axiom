@@ -3119,6 +3119,7 @@ def test_codex_f1_to_f6_repairs_and_discriminating_countercontrols() -> None:
     assert cc_f1["carriers"]["m003_M_neg_LR_cusped_bundle"]["b1_free_rank"] == 1
     assert cc_f1["carriers"]["Sigma2_4_1_closed_branched_cover"]["b1_free_rank"] == 0
     assert cc_f1["carriers"]["Sigma2_4_1_closed_branched_cover"]["snf_3x3_diagonal"] == [1, 1, 5]
+    assert cc_f1["carriers"]["m003_longitudinal_0_1_dehn_filling_control"]["proves_closedness_not_inferred_from_H1_alone"] is True
 
     # F2: Witness verification, explicit marking join B = [[1,0],[-2,1]], natural eigenline residue invariance, and SIXY scope
     t145 = theorem145_simultaneous_twin_coexistence_sixy_mod5_inter_twin_residue_invariance_and_punctured_fibre_orbit(t141)
@@ -3170,7 +3171,9 @@ def test_codex_f1_to_f6_repairs_and_discriminating_countercontrols() -> None:
     assert cc_f5["l_tube_snappy_hp_classified_as"] == "IMPORTED_NUMERICAL_PIN"
     assert cc_f5["im_tau_sigma0_classified_as"] == "IMPORTED_NUMERICAL_PIN"
     assert cc_f5["mutated_z2_mp_literal_classified_as"] == "IMPORTED_NUMERICAL_PIN"
-    assert cc_f5["mutated_z2_mp_bad_residual_classified_as"] == "IMPORTED_NUMERICAL_PIN"
+    assert cc_f5["mutated_z2_mp_bad_residual_classified_as"] == "FAILED_SOLVER_RESIDUAL"
+    assert cc_f5["opaque_loader_call_classified_as"] == "UNKNOWN_OR_UNVERIFIED_EXPRESSION"
+    assert cc_f5["trivial_arithmetic_wrapper_classified_as"] == "UNKNOWN_OR_UNVERIFIED_EXPRESSION"
     assert cc_f5["mutation_promoting_literal_pin_to_fresh_mesh_rejected"] is True
     assert cc_f5["mutation_promoting_internal_gate_to_external_referee_rejected"] is True
     assert cc_f5["provenance_classifier_scope"] == "STDLIB_AST_ASSIGNMENT_INSPECTOR_AND_RESIDUAL_DISCRIMINATOR"

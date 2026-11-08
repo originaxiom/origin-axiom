@@ -755,6 +755,7 @@ def verify_p740_palindrome_involutions_and_wp3_wp4() -> Dict[str, object]:
         "det_preserving_4d_singular_value_ratios": [float(x) for x in rho_ed],
         "two_locus_ckm_corner_asymmetry": float(corner_asym),
         "haar_50_trial_max_invariance_err": max_haar_err,
+        "cross_locus_join_scope": "CONDITIONAL_TWO_LOCUS_SERRE_AND_ADJUGATE_MODEL_PENDING_3D_BUNDLE_TRANSPORT",
         "evidence_status": "conditional_two_locus_and_adjugate_mechanism_0_of_19",
     }
 
@@ -913,6 +914,7 @@ def verify_codex_physical_bridge_joins() -> Dict[str, object]:
         "codex_c0d19629f_single_lr_trace_obstruction_verified": True,
         "codex_ae5e48184_roster_by_k": roster_by_k,
         "codex_ae5e48184_gieseking_sigma_swaps_k_pairs": sigma_swaps_k_pairs,
+        "dic5_gieseking_swap_scope": "CONNECTS_PRIMITIVE_DIC5_HOLONOMY_PAIRS_CONDITIONAL_ON_SPIN_WILSON_DOMAIN_TRANSPORT",
     }
 
 
@@ -1727,6 +1729,7 @@ def solve_1d_localization_operator(word: str, Lambda: float = 12.0, N_grid: int 
         "E1": round(float(evals[1]), 4),
         "psi0_tube_weight": round(float(np.sum(psi0[tube_mask])), 4),
         "psi0_anti_weight": round(float(np.sum(psi0[anti_mask])), 4),
+        "scope": "1D_TEICHMULLER_SOL_CLOCK_PERIODIC_MODEL_NOT_3D_HYPERBOLIC_PDE_P744",
     }
 
 
