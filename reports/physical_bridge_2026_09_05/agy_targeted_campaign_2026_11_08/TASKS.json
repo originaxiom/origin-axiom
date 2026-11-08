@@ -8,11 +8,11 @@
   "review_branch": "audit/physical-bridge-2026-09-05",
   "delivery_channel": "versioned repository relay; no live worker start or acknowledgement inferred",
   "worker_acknowledgement": null,
-  "max_active_proof_code_packets_after_intake": 2,
+  "max_active_proof_code_packets_after_intake": 1,
   "scientific_execution_authorized_by_this_board": false,
   "first_return": [
-    "AGY-00 intake",
-    "AGY-01 conditional hand/source findings"
+    "AGY-00a model manifest",
+    "RESUME.md durable handoff"
   ],
   "stage_policy": {
     "allowed_now": [
@@ -56,7 +56,7 @@
       "id": "AGY-00",
       "title": "Reuse inventory and common-model manifest",
       "claim_dependencies": [],
-      "status": "READY_FOR_SOURCE_INTAKE",
+      "status": "AGY_00A_ONLY_RELEASED; REMAINDER_PENDING_REVIEW",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -69,7 +69,12 @@
       "main_execution_acceptance": null,
       "execution_admission": null,
       "admitted_run_evidence": null,
-      "accepted_result": null
+      "accepted_result": null,
+      "current_microtask": "AGY-00a",
+      "released_current_outputs": [
+        "MODEL_MANIFEST.md",
+        "RESUME.md"
+      ]
     },
     {
       "id": "AGY-01",
@@ -77,7 +82,7 @@
       "claim_dependencies": [
         "AGY-00"
       ],
-      "status": "PENDING_DEPENDENCY_REVIEW",
+      "status": "UNRELEASED; PENDING_DEPENDENCY_REVIEW_AND_RUN_TICKET",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -98,7 +103,7 @@
         "AGY-00",
         "AGY-01"
       ],
-      "status": "PENDING_DEPENDENCY_REVIEW",
+      "status": "UNRELEASED; PENDING_DEPENDENCY_REVIEW_AND_RUN_TICKET",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -119,7 +124,7 @@
         "AGY-00",
         "AGY-01"
       ],
-      "status": "PENDING_DEPENDENCY_REVIEW",
+      "status": "UNRELEASED; PENDING_DEPENDENCY_REVIEW_AND_RUN_TICKET",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -141,7 +146,7 @@
         "AGY-02",
         "AGY-03"
       ],
-      "status": "PENDING_DEPENDENCY_REVIEW",
+      "status": "UNRELEASED; PENDING_DEPENDENCY_REVIEW_AND_RUN_TICKET",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -164,7 +169,7 @@
         "AGY-02",
         "AGY-03"
       ],
-      "status": "PENDING_DEPENDENCY_REVIEW",
+      "status": "UNRELEASED; PENDING_DEPENDENCY_REVIEW_AND_RUN_TICKET",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -187,7 +192,7 @@
         "AGY-04",
         "AGY-05"
       ],
-      "status": "PENDING_DEPENDENCY_REVIEW",
+      "status": "UNRELEASED; PENDING_DEPENDENCY_REVIEW_AND_RUN_TICKET",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -207,5 +212,39 @@
     "six_control_review_completed": true,
     "six_control_science_execution": "UNRUN; separate main acceptance and admission outstanding",
     "later_seven_and_four_controls": "UNRUN; outside completed review"
+  },
+  "coordination_revision": 2,
+  "revision_base_commit": "077f4b9a4ee2f5553447795ae38144d16943f8ab",
+  "start_document": "START_HERE.md",
+  "max_active_microtasks_per_worker_context": 1,
+  "dispatch": {
+    "released_microtask": "AGY-00a",
+    "parent_task": "AGY-00",
+    "question": "Identify the exact existing common model and mark open/conflicting manifest entries; no new physical derivation",
+    "allowed_activity": [
+      "read relevant source sections",
+      "write model manifest with exact references",
+      "write handoff",
+      "commit and push unreviewed checkpoint"
+    ],
+    "required_outputs": [
+      "MODEL_MANIFEST.md",
+      "RESUME.md"
+    ],
+    "stop_condition": "Return immutable checkpoint and wait for separate physical-seat review and next microtask release",
+    "next_microtask_released": false,
+    "worker_acknowledgement": null,
+    "external_supervisor_review": null
+  },
+  "context_policy": {
+    "one_question_per_run": true,
+    "durable_state_required_before_context_transition": true,
+    "load_reference_library_on_demand": true,
+    "whole_campaign_execution_in_one_run_allowed": false,
+    "fresh_context_or_session_when_needed": "Use host-supported context/session transition after durable handoff; no model capacity or reset API assumed",
+    "handoff_is_not_proof": true,
+    "author_completion_cannot_release_next_task": true,
+    "runtime_scheduler_implemented_by_this_file": false,
+    "oversized_subtask": "Save partial handoff and propose smaller subdivision; preserve unresolved status"
   }
 }

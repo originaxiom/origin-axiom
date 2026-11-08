@@ -5,6 +5,11 @@ This is a work order, NOT an experiment preregistration, execution
 admission, independent verdict, banking action or canonical genesis edit.
 Local task IDs below do not allocate B numbers or theorem numbers.
 
+**Coordination revision 2:** read START_HERE.md first. The whole text
+below is a roadmap/reference library, not one run's prompt. The ONLY
+initially released assignment is AGY-00a, the source/model manifest.
+Return it with a saved handoff and stop for physical-seat review.
+
 Physical source baseline: dd7490203c55bae043585f594af5a13afe634fa7.
 AGY baseline: 21b293e87ff09fd64911267e9b4aa447fbfab2b9.
 Re-fetch before starting, record changes and reuse relevant new work.
@@ -39,7 +44,8 @@ value than another selected overlap or isolated representation count.
 
 ## First read and reuse
 
-Read the physical baseline's following files yourself. Preserve their
+Consult the physical baseline's following files as each bounded task
+needs them; do not load the whole library for intake. Preserve their
 evidence status; several are authored hand arguments, not accepted results.
 First read fetched main's canonical GENESIS.md (currently v1.62), its
 governance and scope rules. Cite the actual PF/GM/FK/GAP items used in a
@@ -122,9 +128,10 @@ authorized by this work order.
    tolerances, exchange domains or retrofit a preregistration after a peek.
    Software fixtures need their own proper status; they do not certify
    physical mathematics.
-8. **Limited active scope.** Finish intake first. Thereafter maintain at
-   most two active proof/code packets: full spectrum/current and boundary
-   response. Publish a bounded checkpoint before building dependent claims.
+8. **Limited active scope.** One released microtask per AGY run/context.
+   The spectrum/current and boundary-response work streams are project
+   tracks, not simultaneous obligations in one worker context. Publish
+   a saved bounded checkpoint and stop before building dependent claims.
    If external acceptance is unavailable, continue independent source/hand
    work; do not fabricate approval or declare an entire theory blocked.
 
@@ -133,7 +140,7 @@ working tree. Preserve other work. Commit and push UNREVIEWED checkpoints
 for cross-seat review, with exact scope and status. Review-sharing permission
 does not admit execution, certify a theorem or merge a result.
 
-## AGY-00 — Reuse inventory and one common model (first return)
+## AGY-00 — Reuse inventory and one common model (split intake phase)
 
 Question: what EXACT object is each claimed result about, and which
 joins already exist? Produce a source map and identify reused results,
@@ -347,10 +354,11 @@ uncut complete domain must name that limitation. Any NEW interface law
 or domain used by that current must first be justified by AGY-03; the
 joined physical claim cannot skip the unresolved boundary/source duty.
 
-First return: intake documents and the AGY-01 hand/source checkpoint,
-before expensive new numerical work. Then return the full charge roster
-and boundary variation as separate sealed packets. Review their exact
-scope before implementing/promoting dependent weak-current claims.
+First return: ONLY AGY-00a's model manifest and RESUME.md, as specified
+in START_HERE.md. The source/reuse map, input ledger and AGY-01 lift work
+will be separately released after review. Split every later parent task
+into bounded subquestions with handoffs. Review each required dependency
+before implementing/promoting downstream weak-current claims.
 
 If a route fails, retain the witness and scope. Compare the explicit
 alternative lift, actual generated cover, or admitted rotation subfamily

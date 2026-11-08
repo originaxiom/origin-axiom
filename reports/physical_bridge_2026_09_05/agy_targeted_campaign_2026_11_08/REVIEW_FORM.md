@@ -6,6 +6,7 @@ Required nonauthoring review, main acceptance and admission remain distinct.
 
 ## Author return
 
+- Run ticket/microtask ID, released scope and RESUME.md handoff path:
 - Local task ID and exact question:
 - Author branch, full commit and immutable source/design/spec hashes:
 - Object manifest and changes from the previous accepted object:
@@ -38,6 +39,7 @@ certificate, or an author's self-check as external review.
   foundational removal / none / unresolved:
 - Decision: REVISE / ACCEPT_SCOPED_RESULT / UNRESOLVED:
 - New dependent work justified and prohibited claim promotions:
+- Exact next microtask released, or waiting-for-review status:
 
 This assessment does not automatically provide main's separate exact
 execution acceptance, merge a result or bank a scientific theorem. If

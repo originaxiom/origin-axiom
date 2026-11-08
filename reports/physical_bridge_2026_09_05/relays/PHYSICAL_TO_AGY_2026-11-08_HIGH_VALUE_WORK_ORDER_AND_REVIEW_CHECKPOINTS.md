@@ -5,6 +5,12 @@ and physical-seat supervision to verify the connections and final result.
 This relay assigns source/hand preparation and prospective proof/code work;
 it does not grant scientific execution, banking or main acceptance.
 
+**Dispatch revision 2, context safety:** read
+reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/START_HERE.md
+FIRST. Run ONLY AGY-00a: produce the source/model manifest, save RESUME.md,
+commit/push the unreviewed checkpoint and STOP for physical-seat review.
+The campaign is a roadmap, not permission to solve every task in one run.
+
 Read the complete packet at
 reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/WORK_ORDER.md
 on audit/physical-bridge-2026-09-05, with REVIEW_FORM.md and TASKS.json.
@@ -17,19 +23,21 @@ fermion spectrum and actual weak current. In a second stream derive the
 common-action nonlinear boundary/source response. Keep the registering
 selection requirement and input ledger explicit throughout.
 
-First return AGY-00 intake and AGY-01 hand/source findings. Start by
+First return ONLY AGY-00a's manifest and handoff. Start by
 fixing the object: carrier, spin/lifts, chi, field bundles, common action,
 positive norms, physical operator and complete domain. Distinguish the
 legacy Wilson background, pure h4 and its residual lift choices.
 
-Then do AGY-02 complete charge roster, beginning with the integer-root
-(10,6) sector carrying the missing colour-up charges, alongside AGY-03
-actual boundary variation. The reported 24 charged half-root coefficients
+Later, after separately released checkpoints, do the AGY-02 complete
+charge roster, beginning with the integer-root
+(10,6) sector carrying the missing colour-up charges. AGY-03 actual
+boundary variation is a separate sequence of runs. The reported 24 charged half-root coefficients
 are worth preserving; they are not a complete SM3 result. Hand-assigned
 profiles, a tau_plus tensor and a cubic-overlap negative mass cannot
 supply the missing physical maps. Preserve their valid standalone maths.
 
-Return these as small sealed packets BEFORE dependent claims. The
+Return one bounded subtask per run, with a durable handoff, BEFORE
+dependent claims. Do not proceed without a next release. The
 physical seat will review the source, proof and maps, and scrutinize the
 integrated result. Its review is not automatic main acceptance. All
 scientific execution requires the existing separately reviewed and

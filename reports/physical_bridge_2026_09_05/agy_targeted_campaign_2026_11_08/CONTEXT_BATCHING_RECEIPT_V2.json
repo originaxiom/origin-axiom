@@ -1,0 +1,35 @@
+{
+  "schema": "oa-context-batching-metadata-v2",
+  "date": "2026-11-08",
+  "coordination_revision": 2,
+  "revision_base_commit": "077f4b9a4ee2f5553447795ae38144d16943f8ab",
+  "scope": "Coordination and handoff changes only; no mathematics, experiment preregistration, execution policy or evidence grade changed",
+  "prior_metadata_receipt_preserved": {
+    "commit": "077f4b9a4ee2f5553447795ae38144d16943f8ab",
+    "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/METADATA_RECEIPT.json",
+    "sha256": "124a3bba9de9caa7f29662735ae6106d17fdcdbb2fcbe018d9b26b0eee488631"
+  },
+  "checks": {
+    "one_released_microtask": true,
+    "all_later_tasks_unreleased": true,
+    "single_active_worker_context_task": true,
+    "handoff_and_stop_required": true,
+    "no_scientific_execution_authorized": true,
+    "no_external_approval_or_worker_ack_fabricated": true,
+    "old_receipt_bytes_unchanged": true,
+    "task_board_json_round_trip": true,
+    "document_whitespace": true
+  },
+  "new_document_hashes": {
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/START_HERE.md": "b0781e973f406fa036535956405304783565ccafe9e885b0ad2c944ad5334f0b",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/WORK_ORDER.md": "c1b976b740854aecc16c1d29503209190d57cb3729e118d415cbf354ec19276a",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_FORM.md": "16fcd8203457ed116f2c87f92f04a086a30ce3bd7b83f947388f17495b4b812b",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/TASKS.json": "422601e1b175798cc6c2254ec489a31b7bb7b6e1ef7cdaed69626158780a6dbc",
+    "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_2026-11-08_HIGH_VALUE_WORK_ORDER_AND_REVIEW_CHECKPOINTS.md": "914f679716be75751bccbad38ab744ddcd90b3bbee0c230140ab3867c85f752a"
+  },
+  "runtime_context_control_installed": false,
+  "worker_compliance_verified": false,
+  "scientific_imports": false,
+  "scientific_collection": false,
+  "scientific_execution": false
+}
