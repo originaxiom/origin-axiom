@@ -1,0 +1,51 @@
+{
+  "record_type": "AUTHOR_FOUR_CONNECTION_GAUSS_EXCHANGE_PROOF_SOURCE_RECEIPT_NOT_EXECUTION",
+  "date": "2026-11-08",
+  "base_commit": "fbeaf49c6ef7922023beac2849fadd166c001a82",
+  "new_sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/FOUR_CONNECTION_TAIL_VERTEX_WITH_GAUSS_EXCHANGE_2026_11_08.md",
+      "sha256": "9bb2f1ef75345142dbe6cedbafa2f7cf2909dc649c693178366a6903318970d1",
+      "bytes": 9591
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_AGY_AND_SM_2026-11-08_FOUR_CONNECTION_GAUSS_VERTEX.md",
+      "sha256": "b7d88923d8d88cc6d1f97ac7acf048e6cf965d106eab73b1feae9eaaaff7d2a7",
+      "bytes": 2245
+    }
+  ],
+  "reused_sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/SAME_ACTION_GAUGE_BOUNDARY_RESPONSE_AND_CUBIC_2026_11_08.md",
+      "sha256": "7e401a2f3b7c7e10a1ef04e635bd271bb19a655f282ade035f9d1abcb4016956",
+      "bytes": 16582
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/FREQUENCY_CORE_ANGULAR_TAIL_AND_GAUGE_WARD_RESPONSE_2026_11_08.md",
+      "sha256": "ea5bc0250d1ab332237dee3878ac5762789922a5da0a77ed52fbdcbb616166ef",
+      "bytes": 14540
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/silver_higgs_quartic_2026_10_11/PROOF.md",
+      "sha256": "7d4e4611b0ba99d9f706975c38d910c8a35c33fc20ae51c5bb1f351d8c4ada6b",
+      "bytes": 4835
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/EXTENSION_6.md",
+      "sha256": "6c4cdf54f84b114201695dd9131a96e34c373cb8fac327a0858ebd86f5e2aea3",
+      "bytes": 7396
+    }
+  ],
+  "scope": "ZERO_INTERNAL_ANGULAR_FOUR_CONNECTION_SOURCE_TAIL_FUNCTIONAL_WITH_RETAINED_GAUSS",
+  "proof_grade": "AUTHOR_UNREVIEWED_ANALYTICAL",
+  "scientific_imports": false,
+  "scientific_collection": false,
+  "scientific_execution": false,
+  "new_verification_design_implemented": false,
+  "new_proof_in_existing_six_or_seven_checks": false,
+  "frozen_six_artifact_pins_match": 40,
+  "seven_science_source_pins_match": true,
+  "inherited_staging_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "relative_links_resolve": true,
+  "input_reduction_grade": "CONDITIONAL_SAME_PARENT_QUARTIC_COEFFICIENT; NO_FOUNDATIONAL_INPUT_OR_EMPIRICAL_PARAMETER_PAID"
+}
