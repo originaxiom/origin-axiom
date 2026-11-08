@@ -8,8 +8,8 @@
   "review_branch": "audit/physical-bridge-2026-09-05",
   "delivery_channel": "versioned repository relay; no live worker start or acknowledgement inferred",
   "worker_acknowledgement": {
-    "commit": "2bed9909170d1d523890e90947d07494ecb986d2",
-    "type": "author source-only dependency-map return; review requires bounded correction"
+    "commit": "43af86dbecb335ddd0952533dc2680d4a4e7f64a",
+    "type": "source-only bounded revision return; map accepted, four new return-relay statements require correction"
   },
   "max_active_proof_code_packets_after_intake": 1,
   "scientific_execution_authorized_by_this_board": false,
@@ -60,7 +60,7 @@
       "id": "AGY-00",
       "title": "Reuse inventory and common-model manifest",
       "claim_dependencies": [],
-      "status": "DEPENDENCY_MAP_REVISE; ONLY_00B1_R1_RELEASED",
+      "status": "MAP_ACCEPTED_DOCUMENTARY_ONLY; ONLY_00B1_R2_RELAY_CORRECTION_RELEASED",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -74,17 +74,16 @@
       "execution_admission": null,
       "admitted_run_evidence": null,
       "accepted_result": null,
-      "current_microtask": "AGY-00b1-r1",
+      "current_microtask": "AGY-00b1-r2",
       "released_current_outputs": [
-        "CLAIM_DEPENDENCIES.md (PARTIAL: PURE-H4-24 ONLY)",
-        "RESUME.md",
-        "short return relay"
+        "new short correction relay",
+        "RESUME.md"
       ],
       "source_map_review": {
-        "checkpoint": "2bed9909170d1d523890e90947d07494ecb986d2",
-        "decision": "REVISE",
-        "document": "REVIEW_AGY_00B1_2BED_2026_11_08.md",
-        "scope": "dependency mapping only; 28 pins match, six source-interpretation repairs outstanding"
+        "checkpoint": "43af86dbecb335ddd0952533dc2680d4a4e7f64a",
+        "decision": "ACCEPT_SCOPED_RESULT_MAP_ONLY; REVISE_RELAY",
+        "document": "REVIEW_AGY_00B1_R1_43AF_2026_11_08.md",
+        "scope": "documentary map only; 33 source pins match; four false statements in return relay are not accepted"
       }
     },
     {
@@ -224,34 +223,37 @@
     "six_control_science_execution": "UNRUN; separate main acceptance and admission outstanding",
     "later_seven_and_four_controls": "UNRUN; outside completed review"
   },
-  "coordination_revision": 5,
-  "revision_base_commit": "30f348e15755a3c5a824e75d5ed6ba354e200bb3",
+  "coordination_revision": 6,
+  "revision_base_commit": "ef644ede74e62dc66f34a1cd16d5c99c89e82b86",
   "start_document": "START_HERE.md",
   "max_active_microtasks_per_worker_context": 1,
   "dispatch": {
-    "released_microtask": "AGY-00b1-r1",
+    "released_microtask": "AGY-00b1-r2",
     "parent_task": "AGY-00",
-    "question": "Correct only the six source/dependency issues recorded in REVIEW_AGY_00B1_2BED_2026_11_08.md",
-    "run_ticket": "REVIEW_AGY_00B1_2BED_2026_11_08.md",
+    "question": "Correct only the four return-relay statements in REVIEW_AGY_00B1_R1_43AF_2026_11_08.md; leave accepted map unchanged",
+    "run_ticket": "REVIEW_AGY_00B1_R1_43AF_2026_11_08.md",
     "accepted_intake_commit": "6552aec6894a4a94a2ced785ac3af8c25f801ba8",
     "intake_review_document": "REVIEW_AGY_00A_R1_655_2026_11_08.md",
     "acceptance_scope": "Documentary intake with explicit reading notes only; no physical claim or execution accepted",
     "allowed_activity": [
-      "read and correct cited source statements",
-      "retain twelve nodes and five open edges",
-      "update handoff and short revision relay",
+      "read exact cited source statements",
+      "write new correction relay <=350 words",
+      "update handoff <=900 words",
       "commit and push source-only checkpoint; stop"
     ],
     "required_outputs": [
-      "CLAIM_DEPENDENCIES.md (PARTIAL: PURE-H4-24 ONLY)",
-      "RESUME.md",
-      "short return relay"
+      "new short correction relay",
+      "RESUME.md"
     ],
     "principal_node_limit": 12,
     "consequential_open_edge_limit": 5,
-    "stop_condition": "Return corrected immutable map, handoff and short response relay; stop for review",
+    "stop_condition": "Return immutable short relay correction and handoff; stop for review",
     "next_microtask_released": false,
-    "scientific_execution_authorized": false
+    "scientific_execution_authorized": false,
+    "accepted_dependency_map_commit": "43af86dbecb335ddd0952533dc2680d4a4e7f64a",
+    "accepted_dependency_map_sha256": "eb68f876fdf5b842c471738d7fc1c672f685db1a552d30ad669d7f1dba02802a",
+    "summary_rule": "No equation absent from its cited source; preserve representation and count type; new derivation outside this source-only task",
+    "accepted_map_must_remain_unchanged": true
   },
   "context_policy": {
     "one_question_per_run": true,

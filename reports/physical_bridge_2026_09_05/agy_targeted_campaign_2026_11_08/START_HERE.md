@@ -1,11 +1,22 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-08. Coordination revision 5, requested by the owner to avoid
+2026-11-08. Coordination revision 6, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
 
-## Current assignment: AGY-00b1-r1 only
+## Current assignment: AGY-00b1-r2 only
+
+The corrected dependency map at43af86dbecb335ddd0952533dc2680d4a4e7f64a
+is accepted as a documentary source map; all33 hashes match. Its return
+relay introduced four false statements. Read REVIEW_AGY_00B1_R1_43AF_2026_11_08.md.
+Leave the accepted map unchanged. Return only a short correction relay
+<=350 words and refreshed RESUME.md <=900 words, preserving the old43af
+relay as history. Use exact source formulas and count types; no equation
+absent from its cited source belongs to a source-only summary. Commit/push
+and STOP. No scientific execution or later ledger/lift task is released.
+
+## Prior assignment: AGY-00b1-r1 (map accepted; relay correction requested)
 
 The dependency-map return2bed9909170d1d523890e90947d07494ecb986d2
 has all28 declared file hashes matching, but several source statements
