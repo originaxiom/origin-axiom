@@ -186,3 +186,20 @@ In response to Codex `09f478c79` (`PHYSICAL_TO_AGY_MAIN_AND_GENESIS_2026-11-08_C
 
 
 
+---
+
+## 9. Machine Verification of Frontiers 6–9 (`verify_frontiers_6_to_9_shape_torsion_hyperbolic_core_b1856_b1857_and_charged_weak`)
+
+Following `W1`–`W5` and `09f478c79`, we implemented and machine-verified Frontiers 6–9 in `src/origin_axiom/weave_unification_bridge.py`:
+
+1. **Frontier 6 (Resolving Tree-Level 2D Gauge Shape Blindness via 1-Loop Ray-Singer Torsion):**
+   - Verifies that tree-level 2D gauge flux/quartic energy $E_{\text{tree}}(\tau; A) = \text{const}/A$ depends only on total area $A = A_c + A_t$ (fixed by Gauss-Bonnet $A = 2\pi(2g - 2 + n)$) and is blind to the complex shape modulus $\tau$.
+   - Evaluates the $\operatorname{SL}(2, \mathbb{Z})$-invariant 1-loop Ray-Singer analytic torsion / Kronecker limit potential $V_{\text{RS}}(\tau) = -\ln(\operatorname{Im}\tau\, |\eta(\tau)|^4)$ (which embeds zero target parameters, Guardrail 1), verifies $V_{\text{RS}}(\tau + 1) = V_{\text{RS}}(-1/\tau) = V_{\text{RS}}(\tau)$ to $0.0$ error, verifies $V_{\text{RS}}(\tau_{\text{tube}}) \approx 2.5287 \neq V_{\text{RS}}(\tau_{\text{anti}}) \approx 1.1189$, and proves exact $\operatorname{Re}\tau$-stationarity $\partial_{\operatorname{Re}\tau} V_{\text{RS}} = 0$ ($< 10^{-28}$) along both the Tube palindrome reflection locus $\operatorname{Re}\tau = 0$ and the Anti-Apex palindrome reflection locus $\operatorname{Re}\tau = 1/2$.
+2. **Frontier 7 (Actual Hyperbolic Collar Core Neumann Operator vs. Synthetic Surrogate):**
+   - Replaces synthetic positive-eigenvalue lists with the actual hyperbolic scalar Laplacian $\Delta_C \phi(u) = -\ell^{-2}(\phi''(u) - \phi'(u))$ ($u = \ln(y/y_{\min}) \in [0, L_u]$, $d\text{vol} = (\ell^2/y_{\min}) e^{-u} du$) discretized on a 40-node Chebyshev Lobatto grid with Neumann boundary conditions $\phi'(0) = \phi'(L_u) = 0$.
+   - Verifies $\lambda_0 = 0$ ($3.96 \times 10^{-13}$), verifies the excited eigenvalues $\lambda_1, \lambda_2, \lambda_3$ against the exact analytical spectrum $\frac{1/4 + (j\pi/L_u)^2}{\ell^2}$ to $9.77 \times 10^{-13}$ (Guardrail 6), and verifies that $\langle \cos(2\pi x), R_c(s) 1 \rangle = 0$ ($5.0 \times 10^{-17}$) on a translation-symmetric core vs. $0.15 \neq 0$ under a translation-breaking core metric perturbation.
+3. **Frontier 8 (`main`'s `B1856` Level-5 Weil Charge-vs-Symmetry & `B1857` Sol-Clock Cosh Law / Apex Multiplicity Uniqueness):**
+   - Constructs `B355`/`B1856`'s level-5 Weil representation $\rho: \operatorname{SL}(2, \mathbb{F}_5) \to \operatorname{PU}(5)$ across all 120 elements with 0 projective clashes, verifying HQ1 (only $\{\pm I_2\}$ act as scalars on both $\mathcal{H}_{\text{even}}^3$ and $\mathcal{H}_{\text{odd}}^2$), HQ2 (the projective commutant of $\rho(LR)$ is $\pm\langle LR \rangle$ of order 10), and HQ3 (sector trace ratio $|\operatorname{tr}_{\text{odd}}/\operatorname{tr}_{\text{even}}| = \phi/(\phi - 1)$ to $4.44 \times 10^{-16}$).
+   - Verifies `B1857`'s exact geodesic cosh law $f_c(t) = A_{\min} \cosh(t - t_c)$ across 7 primitive classes to $3.55 \times 10^{-14}$ and verifies that `(6)` and `(2,1,2,1,2)` have unique apex multiplicity `1` while `(2,1,1,1,2)` and `(2,1^8,2)` have mirror-degenerate multiplicity `2`, leaving `(6)` as the unique excursion satisfying both unique ground-state readout and level-5 scalar charge invisibility.
+4. **Frontier 9 (Zero-Flux APS Charged Spinor-Product Threshold & Weak-Current Universality):**
+   - Verifies that in the zero-flux ($\Phi = 0, n = 0$) `W3` background with $\operatorname{Dic}_5$ fractional holonomy shift $\delta_{\min} = 1/10$ (`c0d19629f`), all 128 spinor-product modes have strictly positive covariant Laplacian gap $\Lambda_{\min} = (2\pi/10)^2 + 1/8 - 0 \approx 0.5198 > 0$ (zero tachyons), and the 3 normalized APS chiral zero modes have universal orthonormal $\operatorname{SU}(2)_L$ weak-current overlap $g_{ab}^{(W)} = \delta_{ab}$ to $3.85 \times 10^{-16}$ (`0 of 19`).

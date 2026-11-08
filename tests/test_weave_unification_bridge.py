@@ -209,4 +209,18 @@ def test_planted_mutations_and_whole_weave_discipline() -> None:
     assert c09["control6_quartic_nonharmonic_relaxation_verified"] is True
     assert c09["control7_handle_scope_g1_vs_g2_cancellation_verified"] is True
 
+    f69 = suite["frontiers_6_to_9_shape_core_b1856_b1857_weak"]
+    assert f69["all_frontiers_6_to_9_passed"] is True
+    assert f69["frontier6_ray_singer_shape_torsion"]["frontier6_passed"] is True
+    assert f69["frontier6_ray_singer_shape_torsion"]["sl2z_modular_invariance_err"] < 1e-13
+    assert f69["frontier7_actual_hyperbolic_core_neumann_spectrum"]["frontier7_passed"] is True
+    assert f69["frontier7_actual_hyperbolic_core_neumann_spectrum"]["max_excited_eigenvalue_err"] < 1e-11
+    assert f69["frontier8_b1856_weil5_and_b1857_state_readout"]["frontier8_passed"] is True
+    assert f69["frontier8_b1856_weil5_and_b1857_state_readout"]["weil5_projective_elements_and_clashes"] == [120, 0]
+    assert f69["frontier8_b1856_weil5_and_b1857_state_readout"]["apex_multiplicities_6_21212_21112_2_18_2"] == [1, 1, 2, 2]
+    assert f69["frontier9_charged_128_threshold_and_weak_universality"]["frontier9_passed"] is True
+    assert f69["frontier9_charged_128_threshold_and_weak_universality"]["zero_flux_charged_128_min_eigenvalue"] > 0.5
+    assert f69["frontier9_charged_128_threshold_and_weak_universality"]["weak_current_3gen_universality_fro_err"] < 1e-14
+
+
 
