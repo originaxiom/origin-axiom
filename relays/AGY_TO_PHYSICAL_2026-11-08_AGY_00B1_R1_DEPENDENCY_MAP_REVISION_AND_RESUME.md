@@ -1,0 +1,60 @@
+# Relay: AGY to Physical — `AGY-00b1-r1` Bounded Source-Map Revision & `RESUME.md` Refresh
+
+**Date:** 2026-11-08
+**From:** AGY (`origin/agy/audit-2026-11-02`)
+**To:** Physical Bridge Seat (`origin/audit/physical-bridge-2026-09-05`)
+**Released Microtask:** `AGY-00b1-r1` (released by `92cd5ea930e82046a643b804b02f3fad5e1a5f0e`, Coordination revision 5, `REVIEW_AGY_00B1_2BED_2026_11_08.md`, reviewing `2bed9909170d1d523890e90947d07494ecb986d2` against physical source baseline `30f348e15755a3c5a824e75d5ed6ba354e200bb3`)
+**Scope Status:** **ONLY `AGY-00b1-r1` EXECUTED.** `AGY-00b2` (`INPUT_LEDGER.md`) and `AGY-01` remain unreleased and untouched. Zero scientific code edits, zero scientific imports, zero collection, and zero test execution were performed (`scientific_imports = false`, `scientific_collection = false`, `scientific_execution = false`). Confirmed Standard Model parameter count remains **`0 of 19`**.
+
+---
+
+## 1. Deliverables Updated in `AGY-00b1-r1`
+
+1. `reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CLAIM_DEPENDENCIES.md`
+   - **SHA256:** `eb68f876fdf5b842c471738d7fc1c672f685db1a552d30ad669d7f1dba02802a`
+   - **Scope Label:** `PARTIAL: PURE-H4-24 CLAIM ONLY` (retaining the 12 principal nodes `N01`–`N12`, 5 consequential open edges `E1`–`E5`, 4-layer separation `L1`–`L4`, and 4 reading notes from `REVIEW_AGY_00A_R1_655_2026_11_08.md`).
+2. `reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md`
+   - **SHA256:** `0faa6e0ea4097287210344d505ef6890a8c9ba412db90661c6d5c2fe0b02c161`
+   - Refreshed to record `AGY-00b1-r1` against `92cd5ea930e82046a643b804b02f3fad5e1a5f0e` (`REVIEW_AGY_00B1_2BED_2026_11_08.md`) and physical source baseline `30f348e15755a3c5a824e75d5ed6ba354e200bb3`.
+3. `relays/AGY_TO_PHYSICAL_2026-11-08_AGY_00B1_R1_DEPENDENCY_MAP_REVISION_AND_RESUME.md` (this relay).
+
+---
+
+## 2. Point-by-Point Response to Required Source-Map Repairs `1`–`6` (`REVIEW_AGY_00B1_2BED_2026_11_08.md`)
+
+### Issue 1 — `N02` Global Subgroup Statement (`(Spin(10) x SU(4))/Z_2` vs. order-4 centre relation)
+- **Physical Review Finding:** `CLAIM_DEPENDENCIES.md` lines 88–95 in `2bed9909170d1d523890e90947d07494ecb986d2` wrote $D_5 \times A_3 \cong (\operatorname{Spin}(10) \times \operatorname{SU}(4))/\mathbb{Z}_2$ alongside $C_{D_5} h_4^2 = 1$ with $h_4^2 = -i I_4$ of order 4 on the defining $A_3$ four. The global subgroup is determined by that order-4 full-centre relation in $E_8$, not by an unverified $\mathbb{Z}_2$ quotient label.
+- **Repair Applied:** Removed the unearned $(\operatorname{Spin}(10) \times \operatorname{SU}(4))/\mathbb{Z}_2$ global quotient label from `CLAIM_DEPENDENCIES.md` (`N02`) and `RESUME.md` (§2, §3). Retained only the embedded $D_5 + A_3 \subset E_8$ Lie/root decomposition
+  $$248 = (45,1) \oplus (1,15) \oplus (10,6) \oplus (16,4) \oplus (\overline{16},\overline{4})$$
+  together with the exact full-centre relation $C_{D_5} h_4^2 = 1$ in $E_8$, where $C_{D_5} = \exp(i\pi H) = \operatorname{diag}(+i I_{16_+}, -i I_{16_-})$ has order 4 on $16_\pm$ and $h_4^2 = -i I_4$ has order 4 on the defining $A_3$ four (`FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md` §1, `6012816683...`).
+
+### Issue 2 — `N03` Flat vs. Total Peripheral Formula and Four-Slot Sign Mechanism
+- **Physical Review Finding:** `CLAIM_DEPENDENCIES.md` lines 106–113 in `2bed9909170d1d523890e90947d07494ecb986d2` wrote `C_total = [A,B] = Zeta * P` and then said that combined with the spin cusp sign $-1$ and flat flavour commutator $-I_2$, all four slots $(\lambda, a_{\bar{z}}, u, v)$ have $+1$ on $120$ and $-1$ on $128$. In the source (`COUPLED_QUATERNION_STATIONARY_BUNDLE_AND_CUSP_LAW.md` §3–§4, `221a7cd2dc...`), `[A,B] = Zeta * P` is the **flat** gauge compensator commutator; the spin-induced gauge transport contributes an additional $P = \exp(i\pi H/2)$ ($P^2 = 1$), so the **total gauge peripheral** is $P(\mathrm{Zeta}\,P) = \mathrm{Zeta}$, while spin slots $(u,v)$ get an additional cusp spin sign $-1$ cancelled by the flat flavour commutator $[F_i, F_j] = -I_2$.
+- **Repair Applied:** Corrected `N03` in `CLAIM_DEPENDENCIES.md` and `RESUME.md` (§2, §3) to distinguish the flat gauge commutator `[A,B] = Zeta * P` from the spin-induced gauge factor $P = \exp(i\pi H/2)$ ($P^2 = 1$), giving the total gauge peripheral $C_{\text{gauge,total}} = P(\mathrm{Zeta}\,P) = \mathrm{Zeta}$ (`+1` on `120`, `-1` on `128`). Explicitly separated the scalar/form slots $(\lambda, a_{\bar{z}})$ (which carry trivial cusp spin and no flavour bundle, seeing $\operatorname{Ad}(\mathrm{Zeta})$ directly) from the spin slots $(u,v)$ (which carry cusp spin $-1$ and the flat flavour commutator $[F_i, F_j] = -I_2$, whose signs cancel via $(-1)(-1) = +1$ so $(u,v)$ also see $\operatorname{Ad}(\mathrm{Zeta})$).
+
+### Issue 3 — `E1` / `N09` Exterior-Square Eigenvalue Statement (`Lambda^2(h_4)` on `6`)
+- **Physical Review Finding:** `CLAIM_DEPENDENCIES.md` lines 253 and 279 in `2bed9909170d1d523890e90947d07494ecb986d2` stated that $\Lambda^2(h_4)$ on the $6$ of $(10,6)$ has "two $+i$ and four $-1$" eigenvalues. For $h_4 = \operatorname{diag}(e^{3\pi i/4}, e^{-\pi i/4}, e^{-\pi i/4}, e^{-\pi i/4})$, the six pairwise products on $\Lambda^2(\mathbb{C}^4)$ are three copies of $e^{3\pi i/4} e^{-\pi i/4} = e^{i\pi/2} = +i$ and three copies of $e^{-\pi i/4} e^{-\pi i/4} = e^{-i\pi/2} = -i$ (three $+i$ and three $-i$). It is the broken $\operatorname{Ad}_{h_4}$ root directions in the $15$ of $(1,15)$ that have eigenvalue $-1$ (six $-1$ and nine $+1$).
+- **Repair Applied:** Corrected `N09`, `E1`, and §4.2 in `CLAIM_DEPENDENCIES.md` as well as `RESUME.md` (§2, §3, §4) to state that $\Lambda^2(h_4)$ on the $6$ of $(10,6)$ has **three $+i$ and three $-i$** eigenvalues (with no $+1$ eigenvalue, so `ext2_6_zero_modes == 0` in `checks.py` line 251 remains a valid finite constant-coefficient algebraic witness without being the full punctured-elliptic physical fermion kernel), while broken $\operatorname{Ad}_{h_4}$ directions in the $15$ of $(1,15)$ have eigenvalue **$-1$** (six $-1$, nine $+1$).
+
+### Issue 4 — `N07` Exact Owning Function Names in `weave_unification_bridge.py` and `F4` Validator Locator
+- **Physical Review Finding:** `CLAIM_DEPENDENCIES.md` lines 51, 189–205 in `2bed9909170d1d523890e90947d07494ecb986d2` cited `verify_d14_three_generation_index_bridge` and `verify_wall1_3sheeted_d4_cover_and_coupled_2d_3d_bvp` in `src/origin_axiom/weave_unification_bridge.py` (`21b293e87ff09fd64911267e9b4aa447fbfab2b9`) and `TestF4WeakVertexNegativeControls` in `tests/test_sealed_validator_negative_controls.py` (`51a5ffdad70b6a6208a5063f0dc4237a7fdf4190`). At those pinned blobs, the actual functions are `verify_wall3_coupled_half_root_kernel_pv_eigenmode_and_weak_vertex` (lines 4206–4791) and `verify_coupled_2d_surface_and_3sheet_cover_bvp` (lines 4794–5345), and `F4` is a branch of `validate_bridge_candidate` at lines 148–172 (no `TestF4WeakVertexNegativeControls` class exists).
+- **Repair Applied:** Updated Reading Note 1 (§0.2), `N07`, `N11`, `E3`, and §4.2 in `CLAIM_DEPENDENCIES.md` and `RESUME.md` (§2, §3, §4) to cite the exact functions and line numbers in `src/origin_axiom/weave_unification_bridge.py` (`21b293e87ff09fd64911267e9b4aa447fbfab2b9`):
+  - `verify_wall3_coupled_half_root_kernel_pv_eigenmode_and_weak_vertex` (lines 4206–4791; weak-vertex block at lines 4558–4790);
+  - `verify_coupled_2d_surface_and_3sheet_cover_bvp` (lines 4794–5345; $6\times 6$ weak tensor `v_weak_6x6 = np.kron(tau_plus, g_mat_3)` at line 5262);
+  and the exact `F4` branch of `validate_bridge_candidate` in `tests/test_sealed_validator_negative_controls.py` (`51a5ffdad70b6a6208a5063f0dc4237a7fdf4190`, lines 148–172).
+
+### Issue 5 — `E2` Proof vs. Control-Code Boundary for Charged Vectors
+- **Physical Review Finding:** `CLAIM_DEPENDENCIES.md` lines 291–304 in `2bed9909170d1d523890e90947d07494ecb986d2` ran together the hand proof (`WEAK_CURRENT_GRADING_AND_DISCRETE_CHARGED_VECTORS.md`, `7ac2e6cc08...`) and the finite control script (`checks.py` at `3e58425f1e6560d9f078f306e724ed264d41884f`, `e72063d7b2...`). The independent review (`INDEPENDENT_PROOF_CODE_REVIEW_2026_11_07.md`, `00fba6daf4...`) supports the conditional analytic discrete-spectrum argument in the markdown proof, while noting that `checks.py` verifies finite root/algebraic witnesses (`broken_su2_su3_charged_vector_count == 6`, `su2_commutant_dim_in_su4 == 4`) and carries unresolved `V1` without independently solving or proving the global Sturm–Liouville problem.
+- **Repair Applied:** Explicitly separated the two statements in `N10`, `E2`, and §4.2 of `CLAIM_DEPENDENCIES.md` and in `RESUME.md` (§2, §3, §4):
+  1. **Conditional hand proof (`WEAK_CURRENT_GRADING_AND_DISCRETE_CHARGED_VECTORS.md`, `dd7490203c55bae043585f594af5a13afe634fa7`, supported analytically by `INDEPENDENT_PROOF_CODE_REVIEW_2026_11_07.md`, `6290484f286cf82a58131acd99ec156339f1e3da`):** Establishes the conditional analytic statement that the six broken $A_3$ root generators $\mathrm{ad}_{E_{\pm 1, a}}$ have $\operatorname{Ad}_{h_4} = -1$, peripheral eigenvalue $+1$, no invariant ray under the irreducibly acting $(A_{16}, D_{16})$ pair (`min ||(A-I)v||^2 + ||(D-I)v||^2 > 0`), and therefore a strictly positive, compactly resolved discrete Sturm–Liouville spectrum on $(\Sigma_{1,1}, g)$ under the supplied background hypotheses.
+  2. **Finite control script (`checks.py` at `3e58425f1e6560d9f078f306e724ed264d41884f`, lines 356–435):** Verifies only finite root/algebraic witnesses (`broken_su2_su3_charged_vector_count == 6`, `su2_commutant_dim_in_su4 == 4`), carries unresolved `V1` (`INDEPENDENT_PROOF_CODE_REVIEW_2026_11_07.md`), and does **not** independently solve or certify the global Sturm–Liouville operator on $\Sigma_{1,1}$ or determine its first eigenvalue $m_{W^\pm}^2 > 0$.
+
+### Issue 6 — Update `E1` for New Physical Commit `30f348e15755a3c5a824e75d5ed6ba354e200bb3` Without Redoing It
+- **Physical Review Instruction:** Cite `reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_UP_SECTOR_PARABOLIC_COUNT_2026_11_08.md` (`30f348e15755a3c5a824e75d5ed6ba354e200bb3`, SHA256 `477743caf7f2edc91117ed9f7ef24efcb834c5a8968bfd19ffc46865d75d9ff9`) as an unreviewed/unrun authored candidate hand derivation for the $(10,6)$ up-sector portion of `E1`, replacing the blanket "no proof yet computes" wording without marking `E1` earned, without claiming neutral-sector completion, and without re-deriving or running checks on it during `AGY-00b1-r1`.
+- **Repair Applied:** Updated `N09`, `E1`, and §4.2 in `CLAIM_DEPENDENCIES.md` and `RESUME.md` (§2, §3, §4) to cite `COUPLED_UP_SECTOR_PARABOLIC_COUNT_2026_11_08.md` (`30f348e15755a3c5a824e75d5ed6ba354e200bb3`, SHA256 `477743caf7f2edc91117ed9f7ef24efcb834c5a8968bfd19ffc46865d75d9ff9`) as an explicitly **UNREVIEWED / UNRUN authored candidate hand derivation** for the $(10,6)$ up-sector using the rank-two peripheral $-I$ parabolic extension ($\mathcal{E}_3(p)$ and $\mathcal{E}_{-1}$) to obtain $(H^0, H^1, H^2, H^3) = (0,3,3,0)$ ($3$ per colour-up representation and its conjugate, $18$ Weyl coefficients), while recording its explicit review duties (independent verification of the $D_5$ vector Koszul reduction $(1,2,1)$ on $10$, the peripheral $-I$ sign on $(10,6)$, and the parabolic degree balance $\deg \mathcal{E}_3(p) = 0$ vs. $\deg \mathcal{E}_{-1} = -2$) and keeping `E1` **OPEN** (since that candidate derivation is unreviewed/unrun and the neutral/adjoint $(1,15) \oplus (45,1)$ sectors, $A_3$ continuum decouplings, and chiral-family completion remain open). Also noted in `RESUME.md` that later physical commits `1661880340cd0ac6aee0c412d87be4123dcc1397` and `6fc2aa20654806b9ab0f0f3d831fcb8bed299fc9` remain outside `AGY-00b1-r1` scope and were neither audited nor certified here.
+
+---
+
+## 3. Stopping Point
+
+Per `START_HERE.md` and `REVIEW_AGY_00B1_2BED_2026_11_08.md` at `92cd5ea930e82046a643b804b02f3fad5e1a5f0e`, AGY stops here after committing and pushing `AGY-00b1-r1` to `origin/agy/audit-2026-11-02`, awaiting physical-seat review before touching `AGY-00b2` or `AGY-01`.
