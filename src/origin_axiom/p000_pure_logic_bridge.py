@@ -2616,6 +2616,7 @@ def verify_weakness1_operational_quantum_graph_postulate() -> Dict[str, object]:
             o3_su2_trace_identity_forces_tau_zero and all_random_ortho_pairs_conjugate_to_q8
         ),
         "o4_unitary_dual_torus_preserves_depth3_commutator": o4_depth3_commutator_survives_unitarily,
+        "scope": "CONDITIONAL_OPERATIONAL_QUANTUM_GRAPH_CHARACTERIZATION_WITH_DECLARED_O1_TO_O4_PREMISES",
         "weakness1_operational_postulate_passed": passed,
     }
 
@@ -2785,7 +2786,62 @@ def verify_weakness2_unitary_dual_torus_d4_register() -> Dict[str, object]:
             for pr in probe_rels
         )
         char_sigs[lbl] = sig
-    s3_triality_separates_three_channels = bool(len(set(char_sigs.values())) == 3)
+    # Also verify that the Nielsen automorphisms phi_L(a, b) = (a, a b), phi_R(a, b) = (b a, b)
+    # induce dual permutations pi_L, pi_R on the 3 character signatures {10, 01, 11} generating full S_3 (order 6):
+    def _apply_phi_L(w_in: Word) -> Word:
+        out_w: List[int] = []
+        for lit in w_in:
+            if lit == 1:
+                out_w.append(1)
+            elif lit == -1:
+                out_w.append(-1)
+            elif lit == 2:
+                out_w.extend([1, 2])
+            elif lit == -2:
+                out_w.extend([-2, -1])
+        return tuple(out_w)
+
+    def _apply_phi_R(w_in: Word) -> Word:
+        out_w: List[int] = []
+        for lit in w_in:
+            if lit == 1:
+                out_w.extend([2, 1])
+            elif lit == -1:
+                out_w.extend([-1, -2])
+            elif lit == 2:
+                out_w.append(2)
+            elif lit == -2:
+                out_w.append(-2)
+        return tuple(out_w)
+
+    sig_to_lbl = {v_s: k_l for k_l, v_s in char_sigs.items()}
+    perm_L = tuple(
+        sig_to_lbl[tuple(
+            int(round(float(np.real(np.trace(_mackey_unitary_16x16(_apply_phi_L(pr), k_disc[lbl])) / 16.0))))
+            for pr in probe_rels
+        )]
+        for lbl in ("10", "01", "11")
+    )
+    perm_R = tuple(
+        sig_to_lbl[tuple(
+            int(round(float(np.real(np.trace(_mackey_unitary_16x16(_apply_phi_R(pr), k_disc[lbl])) / 16.0))))
+            for pr in probe_rels
+        )]
+        for lbl in ("10", "01", "11")
+    )
+    lbl_idx = {"10": 0, "01": 1, "11": 2}
+    pL_idx = tuple(lbl_idx[x] for x in perm_L)
+    pR_idx = tuple(lbl_idx[x] for x in perm_R)
+    s3_gen_set = {(0, 1, 2)}
+    q_s3 = [(0, 1, 2)]
+    while q_s3:
+        cur_p = q_s3.pop()
+        for step_p in (pL_idx, pR_idx):
+            nxt_p = tuple(cur_p[i] for i in step_p)
+            if nxt_p not in s3_gen_set:
+                s3_gen_set.add(nxt_p)
+                q_s3.append(nxt_p)
+    s3_triality_separates_three_channels = bool(len(set(char_sigs.values())) == 3 and len(s3_gen_set) == 6)
 
     # 3. Verify faithfulness on D_4 and survival of depth-3 second-derived commutator r = [[a,b], a[a,b]a^-1] at k_gen:
     c_ab: Word = (1, 2, -1, -2)
@@ -2819,8 +2875,10 @@ def verify_weakness2_unitary_dual_torus_d4_register() -> Dict[str, object]:
         "discriminant_characters_scalar_on_N_verified": discriminant_scalar_on_N_ok,
         "three_discriminant_unitary_signatures_on_r2_r3_r2r3": char_sigs,
         "s3_triality_separates_three_unitary_channels": s3_triality_separates_three_channels,
+        "s3_triality_generated_order": len(s3_gen_set),
         "depth3_commutator_P_vector": [int(x) for x in p_d3],
         "depth3_second_derived_commutator_unitary_nontrivial": depth3_second_derived_commutator_unitary_nontrivial,
+        "scope": "COMPATIBLE_INDUCED_UNITARY_DUAL_TORUS_REGISTER_WITH_MOMENTUM_PARAMETER_k",
         "weakness2_unitary_dual_torus_passed": passed,
     }
 

@@ -169,29 +169,40 @@ def test_planted_mutations_and_whole_weave_discipline() -> None:
     assert mag["orthonormal_tail_amplitude_constant_in_y"] is True
     assert mag["residual_zero_scalar_stiffness_positive"] is True
     assert mag["nonzero_magnetic_flux_charged_eigenvalues"] == {1: -5, 2: -10, 3: -15}
+    assert mag["su5_weierstrass_negative_mode_counts_by_n"] == {1: 30, 2: 60, 3: 90}
     sew = cusp["codex_75971c6f7_core_mean_response_and_flux_sewing"]
     assert sew["zero_flux_forces_zero_seam_circulation"] is True
     assert sew["quantized_flux_equalizes_core_and_tail_curvature"] is True
     assert sew["cut_independent_total_area_energy_verified"] is True
     assert sew["unfixed_relative_core_cohomology_rank_per_commuting_gen"] == 2
+    assert sew["relative_c0_chain_rank"] == 0
 
     w3 = suite["weakness3_zero_flux_boundary_source"]
     assert w3["weakness3_zero_flux_source_passed"] is True
+    assert w3["scope"] == "CONDITIONAL_TWO_VARIABLE_DISPLACED_SOURCE_MODEL_NOT_PARENT_ACTION_DERIVATION"
     assert w3["symbolic_stationarity_b_star_and_alpha_z_star_verified"] is True
     assert w3["symbolic_hessian_determinant_verified"] is True
     assert w3["benchmark_hessian_det_fraction"] == "52/315"
     assert w3["benchmark_b_star_at_zero_flux_fraction"] == "35/104"
+    assert w3["zero_offset_forces_zero_b_star_verified"] is True
+    assert w3["opposite_sign_core_tail_curvatures_sum_to_zero"] is True
     assert w3["savvidy_magnetic_shift_at_zero_flux"] == 0
 
     w4 = suite["weakness4_aps_chiral_index_projection"]
     assert w4["weakness4_aps_chirality_passed"] is True
+    assert w4["scope"] == "CONDITIONAL_1D_CALLIAS_DOMAIN_WALL_AND_EXACT_ADJOINT_CONTROL_ON_NATIVE_D4_TRIPLET"
     assert w4["periodic_baseline_ker_L_ker_R_net_index"] == [3, 3, 0]
+    assert w4["fixed_h1_h10_same_domain_index_m0_and_wall"] == [1, 1]
+    assert w4["asymptotic_sign_glued_indices_pos_neg_kink_antikink"] == [0, 0, 3, -3]
+    assert w4["exact_telescoping_hilbert_adjoint_max_err"] < 1e-14
+    assert w4["native_d4_triplet_channel_count"] == 3
     assert w4["aps_wall_ker_L_ker_R_net_chiral_index"] == [3, 0, 3]
     assert w4["analytic_sech_zero_mode_spectral_residual"] < 1e-13
     assert w4["max_su3_color_commutator_fro_err"] < 1e-14
 
     w5 = suite["weakness5_interfiber_propagator_3d_join"]
     assert w5["weakness5_interfiber_propagator_passed"] is True
+    assert w5["scope"] == "UPPER_HALF_PLANE_TAU_PARAMETER_TRANSPORT_CONSISTENCY_CONTROL_NOT_3D_HYPERBOLIC_PDE"
     assert w5["geodesic_endpoint_circle_err"] < 1e-13
     assert w5["hyperbolic_distance_closed_vs_quadrature"][2] < 1e-13
     assert w5["Vud_3d_propagator_joined"] > 0.99
@@ -201,6 +212,7 @@ def test_planted_mutations_and_whole_weave_discipline() -> None:
 
     c09 = suite["codex_09f478c79_dynamic_core_and_period_quartic"]
     assert c09["codex_09f478c79_passed"] is True
+    assert c09["scope"] == "FINITE_EXACT_SURROGATES_AND_WARD_CONTROLS_NOT_COMPLETE_SURFACE_PDE_OR_ACTUAL_CORE_SPECTRUM"
     assert c09["control1_nonzero_angular_bessel_tail_verified"] is True
     assert c09["control2_distinct_s0_limits_and_2component_norm_verified"] is True
     assert c09["control3_core_neumann_surrogate_and_symmetry_discriminator_verified"] is True
@@ -220,7 +232,25 @@ def test_planted_mutations_and_whole_weave_discipline() -> None:
     assert f69["frontier8_b1856_weil5_and_b1857_state_readout"]["apex_multiplicities_6_21212_21112_2_18_2"] == [1, 1, 2, 2]
     assert f69["frontier9_charged_128_threshold_and_weak_universality"]["frontier9_passed"] is True
     assert f69["frontier9_charged_128_threshold_and_weak_universality"]["zero_flux_charged_128_min_eigenvalue"] > 0.5
+    assert f69["frontier9_charged_128_threshold_and_weak_universality"]["same_vs_cross_block_weak_brackets_128_120_cross"] == [0.0, 0.0, 1.0]
+    assert f69["frontier9_charged_128_threshold_and_weak_universality"]["s3_triality_weak_commutator_fro_err"] < 1e-14
     assert f69["frontier9_charged_128_threshold_and_weak_universality"]["weak_current_3gen_universality_fro_err"] < 1e-14
+
+    c1e = suite["codex_1eed871f8_four_connection_and_weak_grading"]
+    assert c1e["codex_1eed871f8_and_weak_grading_passed"] is True
+    assert c1e["scope"] == "BOUNDED_GREEN_CURRENT_GAUSS_QUARTIC_AND_WEAK_GRADING_CONTROLS_NOT_GLOBAL_SM3_COMPLETION"
+    assert c1e["control1_green_kernel_and_endpoint_norm_verified"] is True
+    assert c1e["control2_conserved_current_and_gauss_response_verified"] is True
+    assert c1e["control3_two_triangle_overlap_and_log_cases_verified"] is True
+    assert c1e["control3_double_quadrature_err"] < 1e-13
+    assert c1e["control4_zero_exchange_and_nonabelian_pair_verified"] is True
+    wg = c1e["duty4_e8_grading_and_cross_block_weak_current"]
+    assert wg["duty4_passed"] is True
+    assert wg["charge_one_roots_in_120_vs_128"] == [0, 32]
+    assert wg["zeta_grading_even_120_and_odd_128"] is True
+    assert wg["t3_plus_y_equals_q_verified"] is True
+    assert wg["d_to_u_cross_block_weak_channel_verified"] is True
+    assert wg["centralizer_A3_roots_in_120_vs_128"] == [6, 0]
 
 
 

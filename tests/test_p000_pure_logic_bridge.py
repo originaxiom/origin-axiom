@@ -251,17 +251,20 @@ def test_0437f7a84_second_order_register_and_unitary_family_controls() -> None:
 def test_weakness1_and_weakness2_operational_postulate_and_unitary_dual_torus() -> None:
     w2 = verify_weakness2_unitary_dual_torus_d4_register()
     assert w2["weakness2_unitary_dual_torus_passed"] is True
+    assert w2["scope"] == "COMPATIBLE_INDUCED_UNITARY_DUAL_TORUS_REGISTER_WITH_MOMENTUM_PARAMETER_k"
     assert w2["max_unitarity_fro_err"] < 1e-14
     assert w2["max_homomorphism_fro_err"] < 1e-14
     assert abs(w2["unitary_r2_20_spectral_norm"] - 1.0) < 1e-14
     assert w2["non_unitary_affine_r2_20_spectral_norm"] > 20.0
     assert w2["discriminant_characters_scalar_on_N_verified"] is True
     assert w2["s3_triality_separates_three_unitary_channels"] is True
+    assert w2["s3_triality_generated_order"] == 6
     assert w2["depth3_commutator_P_vector"] == [4, 0, 0, 0]
     assert w2["depth3_second_derived_commutator_unitary_nontrivial"] is True
 
     w1 = verify_weakness1_operational_quantum_graph_postulate()
     assert w1["weakness1_operational_postulate_passed"] is True
+    assert w1["scope"] == "CONDITIONAL_OPERATIONAL_QUANTUM_GRAPH_CHARACTERIZATION_WITH_DECLARED_O1_TO_O4_PREMISES"
     assert w1["o1_unitary_edge_reversal_entails_p1_inverses"] is True
     assert w1["o1_rejects_non_unitary_semigroup"] is True
     assert w1["o3_su2_trace_roots_from_nielsen_invariance"] == [0, 2]
