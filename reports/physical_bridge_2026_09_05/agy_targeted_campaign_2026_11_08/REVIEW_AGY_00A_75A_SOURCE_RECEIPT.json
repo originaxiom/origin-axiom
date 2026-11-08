@@ -1,0 +1,173 @@
+{
+  "schema": "oa-agy-source-intake-review-receipt-v1",
+  "date": "2026-11-08",
+  "physical_review_base": "ee34f60fe1e12ca623f8bd6144fb8a6408e6587f",
+  "agy_reviewed_commit": "75a0f8d357f71a20e1b8227d778b8fe85b485252",
+  "review_decision": "REVISE",
+  "review_scope": "Bounded source-map and documentary checkpoint review; targeted validator/journal advisory",
+  "not_underlying_physical_proof_certificate": true,
+  "not_scientific_execution_approval": true,
+  "manifest_declared_file_pins": [
+    {
+      "commit": "ee34f60fe1e12ca623f8bd6144fb8a6408e6587f",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/START_HERE.md",
+      "claimed_sha256": "b0781e973f406fa036535956405304783565ccafe9e885b0ad2c944ad5334f0b",
+      "actual_sha256": "b0781e973f406fa036535956405304783565ccafe9e885b0ad2c944ad5334f0b",
+      "match": true
+    },
+    {
+      "commit": "ee34f60fe1e12ca623f8bd6144fb8a6408e6587f",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/WORK_ORDER.md",
+      "claimed_sha256": "c1b976b740854aecc16c1d29503209190d57cb3729e118d415cbf354ec19276a",
+      "actual_sha256": "c1b976b740854aecc16c1d29503209190d57cb3729e118d415cbf354ec19276a",
+      "match": true
+    },
+    {
+      "commit": "ee34f60fe1e12ca623f8bd6144fb8a6408e6587f",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/TASKS.json",
+      "claimed_sha256": "422601e1b175798cc6c2254ec489a31b7bb7b6e1ef7cdaed69626158780a6dbc",
+      "actual_sha256": "422601e1b175798cc6c2254ec489a31b7bb7b6e1ef7cdaed69626158780a6dbc",
+      "match": true
+    },
+    {
+      "commit": "ee34f60fe1e12ca623f8bd6144fb8a6408e6587f",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_FORM.md",
+      "claimed_sha256": "16fcd8203457ed116f2c87f92f04a086a30ce3bd7b83f947388f17495b4b812b",
+      "actual_sha256": "16fcd8203457ed116f2c87f92f04a086a30ce3bd7b83f947388f17495b4b812b",
+      "match": true
+    },
+    {
+      "commit": "dd7490203c55bae043585f594af5a13afe634fa7",
+      "path": "reports/physical_bridge_2026_09_05/SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md",
+      "claimed_sha256": "b3a04ab794beab0fce31b4365a011d2c3353f03932d22eef34469fd59b71729f",
+      "actual_sha256": "b3a04ab794beab0fce31b4365a011d2c3353f03932d22eef34469fd59b71729f",
+      "match": true
+    },
+    {
+      "commit": "dd7490203c55bae043585f594af5a13afe634fa7",
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_MAIN_AND_SM_2026-11-08_21B_SCOPE_AND_SM3_COMPLETION.md",
+      "claimed_sha256": "769aaadb8cd6614da9f44d39529f8ca0b0dd3c8902d34221fb12c95142dc6a4b",
+      "actual_sha256": "769aaadb8cd6614da9f44d39529f8ca0b0dd3c8902d34221fb12c95142dc6a4b",
+      "match": true
+    },
+    {
+      "commit": "dd7490203c55bae043585f594af5a13afe634fa7",
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "claimed_sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "actual_sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "match": true
+    },
+    {
+      "commit": "dd7490203c55bae043585f594af5a13afe634fa7",
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "claimed_sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "actual_sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "match": true
+    },
+    {
+      "commit": "dd7490203c55bae043585f594af5a13afe634fa7",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/DISCRIMINANT_COVER_PERIPHERAL_AND_ORDER_THREE_WILSON_2026_11_08.md",
+      "claimed_sha256": "5c056ae0d1a4cbc6ead0a9c1efa9f32719a1d013a290894fa70d5f31f2c66d46",
+      "actual_sha256": "5c056ae0d1a4cbc6ead0a9c1efa9f32719a1d013a290894fa70d5f31f2c66d46",
+      "match": true
+    },
+    {
+      "commit": "21b293e87ff09fd64911267e9b4aa447fbfab2b9",
+      "path": "src/origin_axiom/weave_unification_bridge.py",
+      "claimed_sha256": "73bb65f3c09a6511b9bbcfd3666c7e945ffd39aeab61fe23f589b91113d759c6",
+      "actual_sha256": "73bb65f3c09a6511b9bbcfd3666c7e945ffd39aeab61fe23f589b91113d759c6",
+      "match": true
+    },
+    {
+      "commit": "21b293e87ff09fd64911267e9b4aa447fbfab2b9",
+      "path": "src/origin_axiom/p000_pure_logic_bridge.py",
+      "claimed_sha256": "76bd14f3488d1413969da367ee98ef6c2408a4a5f1800ebed5e1cd64f23c4ce5",
+      "actual_sha256": "76bd14f3488d1413969da367ee98ef6c2408a4a5f1800ebed5e1cd64f23c4ce5",
+      "match": true
+    },
+    {
+      "commit": "21b293e87ff09fd64911267e9b4aa447fbfab2b9",
+      "path": "relays/AGY_TO_PHYSICAL_AND_MAIN_2026-11-07_SUCCESSOR_REPAIRS_AND_WEAVE_CRYSTALLIZATION.md",
+      "claimed_sha256": "771274740ee480e74d767fb6c2f2125111c37cdb84bd00cd2dd161ae0dd6fe08",
+      "actual_sha256": "771274740ee480e74d767fb6c2f2125111c37cdb84bd00cd2dd161ae0dd6fe08",
+      "match": true
+    },
+    {
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "GENESIS.md",
+      "claimed_sha256": "ec8c3dba05a5c947416a18952bc40f99a32af5135c87987c6f7e6236bc34bad4",
+      "actual_sha256": "ec8c3dba05a5c947416a18952bc40f99a32af5135c87987c6f7e6236bc34bad4",
+      "match": true
+    },
+    {
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "docs/THE_TAU_READOUT_RULE.md",
+      "claimed_sha256": "461ead931f039e8924c6922e803434529445b8a2cf9296d531ecf99487773fcd",
+      "actual_sha256": "461ead931f039e8924c6922e803434529445b8a2cf9296d531ecf99487773fcd",
+      "match": true
+    }
+  ],
+  "unresolvable_full_commit_references": {
+    "51a5ffdad905ca2d541bd93bd3f039d7dc3bc4b5": [
+      {
+        "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md",
+        "line": 17
+      },
+      {
+        "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md",
+        "line": 72
+      }
+    ]
+  },
+  "actual_validator_commit": "51a5ffdad70b6a6208a5063f0dc4237a7fdf4190",
+  "checkpoint_changed_paths": [
+    "relays/AGY_TO_PHYSICAL_2026-11-08_AGY_00A_MODEL_MANIFEST_AND_RESUME.md",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/MODEL_MANIFEST.md",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md"
+  ],
+  "source_pins": {
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/MODEL_MANIFEST.md": {
+      "commit": "75a0f8d357f71a20e1b8227d778b8fe85b485252",
+      "sha256": "350e329b29acdf66d5f57cab11f249d59790c0991eec5f8cea1d711a3ab57990"
+    },
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md": {
+      "commit": "75a0f8d357f71a20e1b8227d778b8fe85b485252",
+      "sha256": "90be40ef6ea5ff07d75524aa19c5a1692e9459f6083c38be80959a4ffb515871"
+    },
+    "relays/AGY_TO_PHYSICAL_2026-11-08_AGY_00A_MODEL_MANIFEST_AND_RESUME.md": {
+      "commit": "75a0f8d357f71a20e1b8227d778b8fe85b485252",
+      "sha256": "5252e87514521403a7a0f150b2aa0732be008c1e18ed05a667a837f412cfe712"
+    },
+    "tests/test_sealed_validator_negative_controls.py": {
+      "commit": "75a0f8d357f71a20e1b8227d778b8fe85b485252",
+      "sha256": "cba9748eb580ca4ea742bfad8ac622685d7b92211c330d93fcc4666253949cca"
+    },
+    "docs/audit/FLOW_JOURNAL_2026_11_08_WALLS_F1_F4_AND_OPEN_O1_O2.md": {
+      "commit": "75a0f8d357f71a20e1b8227d778b8fe85b485252",
+      "sha256": "6a8b177083b463eb727f7c823f01242dc37877e0134b24a448db74845c346995"
+    },
+    "src/origin_axiom/weave_unification_bridge.py": {
+      "commit": "21b293e87ff09fd64911267e9b4aa447fbfab2b9",
+      "sha256": "73bb65f3c09a6511b9bbcfd3666c7e945ffd39aeab61fe23f589b91113d759c6"
+    }
+  },
+  "initial_locator_ambiguity": "basename-only curved-action path matched historical copies; resolved exact report path, all 14 hashes matched; no mismatch inferred",
+  "new_document_hashes": {
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_00A_75A_2026_11_08.md": "b21c2db6665571160bd2403c2a1f03c75097684d7dd565571065c42267e98408",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/START_HERE.md": "b8620366638396f70699fffd3cc5647405e9cbb03d03eb03bfd5034f1fe1971f",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/TASKS.json": "0e59699ed93bbbd9938292133ab0bcf275fc51df3594c99954ebec6e6dc2cf71",
+    "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_2026-11-08_75A_INTAKE_REVIEW_AND_SMALL_CORRECTION_TICKET.md": "94830689ebfba1fec7128c4478be315240207051c065e709b2089fd34f96279e"
+  },
+  "metadata_checks": [
+    "14 declared file hashes match",
+    "three changed intake documents only",
+    "all other returned full commit references resolve",
+    "validator source parsed as AST without execution",
+    "one correction microtask released; later tasks remain unreleased"
+  ],
+  "scientific_imports": false,
+  "scientific_collection": false,
+  "scientific_execution": false,
+  "validator_pass_reproduced": false,
+  "independent_review_of_physical_authored_proofs_completed_by_this_receipt": false
+}

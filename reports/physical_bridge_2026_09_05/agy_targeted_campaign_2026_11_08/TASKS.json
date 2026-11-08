@@ -7,12 +7,16 @@
   "author_branch": "agy/audit-2026-11-02",
   "review_branch": "audit/physical-bridge-2026-09-05",
   "delivery_channel": "versioned repository relay; no live worker start or acknowledgement inferred",
-  "worker_acknowledgement": null,
+  "worker_acknowledgement": {
+    "commit": "75a0f8d357f71a20e1b8227d778b8fe85b485252",
+    "type": "author-stated checkpoint and stop; documentary scope inspected, not complete runtime audit"
+  },
   "max_active_proof_code_packets_after_intake": 1,
   "scientific_execution_authorized_by_this_board": false,
   "first_return": [
-    "AGY-00a model manifest",
-    "RESUME.md durable handoff"
+    "AGY-00a-r1 corrected model manifest",
+    "RESUME.md with R1-R4 response and validator scope note",
+    "short revision relay"
   ],
   "stage_policy": {
     "allowed_now": [
@@ -56,7 +60,7 @@
       "id": "AGY-00",
       "title": "Reuse inventory and common-model manifest",
       "claim_dependencies": [],
-      "status": "AGY_00A_ONLY_RELEASED; REMAINDER_PENDING_REVIEW",
+      "status": "AGY_00A_REVISE; ONLY_CORRECTION_MICROTASK_RELEASED",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -70,11 +74,18 @@
       "execution_admission": null,
       "admitted_run_evidence": null,
       "accepted_result": null,
-      "current_microtask": "AGY-00a",
+      "current_microtask": "AGY-00a-r1",
       "released_current_outputs": [
         "MODEL_MANIFEST.md",
-        "RESUME.md"
-      ]
+        "RESUME.md",
+        "revision relay"
+      ],
+      "source_map_review": {
+        "checkpoint": "75a0f8d357f71a20e1b8227d778b8fe85b485252",
+        "decision": "REVISE",
+        "document": "REVIEW_AGY_00A_75A_2026_11_08.md",
+        "scope": "source agreement and coordination; not scientific certificate"
+      }
     },
     {
       "id": "AGY-01",
@@ -213,28 +224,31 @@
     "six_control_science_execution": "UNRUN; separate main acceptance and admission outstanding",
     "later_seven_and_four_controls": "UNRUN; outside completed review"
   },
-  "coordination_revision": 2,
-  "revision_base_commit": "077f4b9a4ee2f5553447795ae38144d16943f8ab",
+  "coordination_revision": 3,
+  "revision_base_commit": "ee34f60fe1e12ca623f8bd6144fb8a6408e6587f",
   "start_document": "START_HERE.md",
   "max_active_microtasks_per_worker_context": 1,
   "dispatch": {
-    "released_microtask": "AGY-00a",
+    "released_microtask": "AGY-00a-r1",
     "parent_task": "AGY-00",
-    "question": "Identify the exact existing common model and mark open/conflicting manifest entries; no new physical derivation",
+    "question": "Repair source-map transcription, determinant roles, invalid full commit and imported-result/lift notation; retain explicit limitations",
     "allowed_activity": [
-      "read relevant source sections",
-      "write model manifest with exact references",
-      "write handoff",
-      "commit and push unreviewed checkpoint"
+      "read pinned source sections",
+      "correct MODEL_MANIFEST.md and RESUME.md",
+      "write bounded revision relay",
+      "commit and push unreviewed correction"
     ],
     "required_outputs": [
       "MODEL_MANIFEST.md",
-      "RESUME.md"
+      "RESUME.md",
+      "revision relay"
     ],
-    "stop_condition": "Return immutable checkpoint and wait for separate physical-seat review and next microtask release",
+    "reviewed_checkpoint": "75a0f8d357f71a20e1b8227d778b8fe85b485252",
+    "review_decision": "REVISE",
+    "review_document": "REVIEW_AGY_00A_75A_2026_11_08.md",
+    "stop_condition": "Return immutable corrected source-map checkpoint and wait for separate physical-seat review",
     "next_microtask_released": false,
-    "worker_acknowledgement": null,
-    "external_supervisor_review": null
+    "scientific_execution_authorized": false
   },
   "context_policy": {
     "one_question_per_run": true,

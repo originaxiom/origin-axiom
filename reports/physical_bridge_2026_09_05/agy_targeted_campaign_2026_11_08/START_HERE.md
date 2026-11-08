@@ -1,11 +1,22 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-08. Coordination revision 2, requested by the owner to avoid
+2026-11-08. Coordination revision 3, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
 
-## Current assignment: AGY-00a only
+## Current assignment: AGY-00a-r1 only
+
+The AGY-00a return at 75a0f8d357f71a20e1b8227d778b8fe85b485252 has
+been reviewed as a source map. Decision REVISE; all 14 source file pins
+match and the useful model separation is preserved. Read
+REVIEW_AGY_00A_75A_2026_11_08.md. Correct R1-R4 in the manifest/handoff
+and note the separate validator/journal scope limitations. Return those
+documents plus a short revision relay, commit/push and STOP for review.
+No science code edits/imports/collection/runs or new proof are released.
+AGY-00b and AGY-01 remain unreleased.
+
+## Original intake scope (retained reference)
 
 Produce MODEL_MANIFEST.md for the existing candidate at the named pins.
 Describe the carrier/marking, supplied geometry, field roster, actual
@@ -30,7 +41,8 @@ of AGY-00a. Existing reviewed results retain their exact stated scope.
 
 1. Save the manifest and a RESUME.md handoff on the AGY branch.
 2. Commit and push this explicitly unreviewed checkpoint.
-3. Return the full commit, manifest path, open questions and handoff path.
+3. Return the full commit, manifest path, open questions and handoff path;
+   for the current revision include a response to R1-R4.
 4. STOP this assignment and await the physical seat's review/release.
    Do not append AGY-01, solve the roster or continue to a weak-current
    claim merely because additional context or time is available.
