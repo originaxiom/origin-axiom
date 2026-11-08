@@ -1,0 +1,63 @@
+{
+  "record_type": "AUTHOR_SOURCE_AUDIT_RECEIPT_NOT_EXECUTION_SEAL",
+  "date": "2026-11-08",
+  "target": "d243e093fc10b36cb0bb6df5fc979af64fffe2b4",
+  "status": "UNREVIEWED",
+  "scientific_imports": false,
+  "test_collection": false,
+  "scientific_execution": false,
+  "independent_review": "NOT_YET_REVIEWED",
+  "main_acceptance": false,
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/AGY_D243_REPAIR_AUDIT_2026_11_08.md",
+      "sha256": "98f6098e8fc740659f21fab463ffc6490db87ca846be203c21c6f9645b691c9a",
+      "bytes": 10968
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_AND_MAIN_2026-11-08_D243_PREDICATES_AND_CARRIER_REPAIR.md",
+      "sha256": "7403be4de5d92040a2a3e5038c086d84aa74a889324e4a406ff0d7ee9c72577a",
+      "bytes": 4171
+    }
+  ],
+  "source_reads": [
+    {
+      "commit": "d243e093fc10b36cb0bb6df5fc979af64fffe2b4",
+      "path": "src/origin_axiom/p000_pure_logic_bridge.py",
+      "sha256": "591aaf5dc6393d653632231ee574043a7236e8ef0caeda74853198bc105ecf16",
+      "bytes": 59778,
+      "read_scope": "complete changed diff and selector block lines 965-1145, earlier surrounding selector read retained"
+    },
+    {
+      "commit": "d243e093fc10b36cb0bb6df5fc979af64fffe2b4",
+      "path": "src/origin_axiom/toe_closure.py",
+      "sha256": "e719d8d544785b73307159b075dbdba45b18235c49e6f34ed0f0f87240a106be",
+      "bytes": 1731490,
+      "read_scope": "complete changed diff, T141 relation-matrix block and T156 classifier with its producer bindings"
+    },
+    {
+      "commit": "d243e093fc10b36cb0bb6df5fc979af64fffe2b4",
+      "path": "src/origin_axiom/weave_unification_bridge.py",
+      "sha256": "244399b0cbed0281fddc5542b1943254b5dd3d5d29c1f0dad2e97e813d1f1095",
+      "bytes": 90566,
+      "read_scope": "complete changed diff and WP4 surrounding source"
+    },
+    {
+      "commit": "d243e093fc10b36cb0bb6df5fc979af64fffe2b4",
+      "path": "tests/test_elevation_operator_gate.py",
+      "sha256": "3d69fe0ae643c5037e9230efb7dd891d30d4ca56dd237bcff31a5cb04142f39e",
+      "bytes": 205165,
+      "read_scope": "changed diff expectations only; no collection"
+    },
+    {
+      "commit": "d243e093fc10b36cb0bb6df5fc979af64fffe2b4",
+      "path": "relays/AGY_TO_PHYSICAL_AND_MAIN_2026-11-07_SUCCESSOR_REPAIRS_AND_WEAVE_CRYSTALLIZATION.md",
+      "sha256": "0eef9e776a18b44ebc4f45470009c9a6b3ce23221dbc55228b30c8b89f331aa1",
+      "bytes": 20029,
+      "read_scope": "changed relay and earlier whole-relay intake; claimed verification not rerun"
+    }
+  ],
+  "evidence": "source inspection and hand algebraic counterexamples only; no target test outcomes claimed",
+  "scope": "complete one-commit diff, not a complete audit of the full branch",
+  "inherited_staged_binary_diff_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}
