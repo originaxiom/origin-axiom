@@ -1,0 +1,21 @@
+{
+  "record_type": "CLEAN_ISOLATED_REVIEW_CHECKOUT_METADATA_NOT_ADMISSION",
+  "sealed_commit": "d1a33e921d5cb16e4606b196fa970b91a2abfb6d",
+  "checkout": "/private/tmp/oa-gauge-response-review-ZWTHcd",
+  "tracked_state": {
+    "head_before": "d1a33e921d5cb16e4606b196fa970b91a2abfb6d",
+    "index_changes": [],
+    "worktree_changes": [],
+    "head_after": "d1a33e921d5cb16e4606b196fa970b91a2abfb6d",
+    "errors": {},
+    "clean": true
+  },
+  "untracked_paths": [],
+  "all_specification_pins_match": true,
+  "scientific_output_paths_absent": true,
+  "admission_present": false,
+  "science_imported": false,
+  "science_collected": false,
+  "scientific_execution": false,
+  "limits": "Preparation snapshot only; exact independent review/main acceptance and final strict runtime admission still required."
+}
