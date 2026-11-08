@@ -162,6 +162,7 @@ def test_planted_mutations_and_whole_weave_discipline() -> None:
     assert cusp["static_shell_schur_cut_independence_verified"] is True
     assert cusp["cubic_overlap_from_mode_exponents_verified"] is True
     assert cusp["finding_c1_forbidden_bvv_divergence_guard_verified"] is True
+    assert cusp["finding_c1_forged_mode_rejected_by_euler_and_norm_guard"] is True
     assert cusp["colour_so3_triple_bracket_trace"] == -2
     assert cusp["finding_c2_nonabelian_so3_duhamel_holonomy_verified"] is True
     mag = cusp["codex_91f4b0aa6_orthonormal_tail_constant_and_magnetic_saddle_scope"]
@@ -197,4 +198,15 @@ def test_planted_mutations_and_whole_weave_discipline() -> None:
     assert w5["Vub_over_Vtd_3d_propagator_joined"] < 1.0
     assert w5["haar_basis_scramble_max_ckm_err"] < 1e-12
     assert w5["haar_basis_scramble_max_jarlskog_err"] < 1e-13
+
+    c09 = suite["codex_09f478c79_dynamic_core_and_period_quartic"]
+    assert c09["codex_09f478c79_passed"] is True
+    assert c09["control1_nonzero_angular_bessel_tail_verified"] is True
+    assert c09["control2_distinct_s0_limits_and_2component_norm_verified"] is True
+    assert c09["control3_core_neumann_surrogate_and_symmetry_discriminator_verified"] is True
+    assert c09["control4_boundary_ward_null_vector_and_noncommuting_Dc_verified"] is True
+    assert c09["control5_longitudinal_vbb_cubic_I_L_vs_I_T_ward_verified"] is True
+    assert c09["control6_quartic_nonharmonic_relaxation_verified"] is True
+    assert c09["control7_handle_scope_g1_vs_g2_cancellation_verified"] is True
+
 

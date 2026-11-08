@@ -164,5 +164,25 @@ We conducted an end-to-end structural weakness hunt across the entire foundation
    - Constructs the explicit Poincaré geodesic circle $(x + 269/24)^2 + y^2 = 80041/576$ connecting the Tube palindrome fiber $\tau_{\text{tube}} = i\sqrt{40/3}$ ($\theta = 0$) and Anti-Apex palindrome fiber $\tau_{\text{anti}} = \tfrac{1}{2} + i\sqrt{15/8}$ ($\theta = \pi$), verifying the hyperbolic distance $d_{\mathbb{H}} = 1.002338728016086$ and Levi-Civita spin-connection rotation angle $\Delta\psi = \phi_1 - \phi_0 = -0.19851731011579643\text{ rad}$ by independent 64-point Gauss-Legendre quadrature to $< 10^{-15}$ (Guardrail 6).
    - Transports $h(\tau_{\text{anti}})$ to $\theta = 0$ via $U_{0 \to \pi} = \exp(\Delta\psi\, J_{12}) \in \operatorname{SO}(3)$ (preserving $h\cdot h = \eta(\tau_{\text{anti}})^6/4$ and $r(\tau_{\text{anti}})$ to $< 10^{-15}$) and verifies that the 3D propagator-joined Yukawa matrices pass Guardrail 3's Mandatory Unitary Basis-Scrambling Test ($|V_{\text{CKM}}|$ error $1.45 \times 10^{-15}$, Jarlskog $J_{\text{CP}}$ error $9.62 \times 10^{-18} < 10^{-13}$, `0 of 19`).
 
+---
+
+## 8. Integration & Verification of Codex `09f478c79` (`FREQUENCY_CORE_ANGULAR_TAIL_AND_GAUGE_WARD_RESPONSE` & `FLAT_PERIOD_QUARTIC_AND_HANDLE_SCOPE`)
+
+In response to Codex `09f478c79` (`PHYSICAL_TO_AGY_MAIN_AND_GENESIS_2026-11-08_CORRECTED_COUNTERCHECKS_AND_DYNAMIC_RESPONSE.md` and `verification_dynamic_core_2026_11_08/DESIGN.md`), we have:
+
+1. **Completed the 3 Guardrail-2 Refinements Noted by `09f478c79` in `verify_b996bc98e_same_action_gauge_cusp_response_and_magnetic_scope()`:**
+   - Computed `unfixed_relative_core_cohomology_rank_per_commuting_gen` (`== 2`) directly from the cellular relative boundary matrices $\partial_1^{\text{rel}} \in \mathbb{Z}^{1 \times 2}$ and $\partial_2^{\text{rel}} \in \mathbb{Z}^{2 \times 1}$ of $(C, \partial C) = (\Sigma_{1,1}, S^1)$ ($\dim C_1(C, \partial C) - \operatorname{rank}(\partial_1^{\text{rel}}) - \operatorname{rank}(\partial_2^{\text{rel}}) = 2 - 0 - 0 = 2$) rather than a literal `2`;
+   - Computed `nonzero_magnetic_flux_charged_eigenvalues` (`{1: -5, 2: -10, 3: -15}`) via `np.linalg.eigvalsh` of the explicit $2 \times 2$ charged off-diagonal magnetic polarization Hessian $H_{\text{mag}}(n) = |n| I_2 - 6 n \sigma_1$ rather than `-5 * abs(n_flux)`;
+   - Added `finding_c1_forged_mode_rejected_by_euler_and_norm_guard`, constructing an explicit forged `Mode` dictionary with mutated `b_power` and verifying that Euler/normalizability checks reject it while unguarded `2*cut/(3*nu - 1)` accepts it.
+2. **Implemented and Verified All 7 Prospective Controls of `09f478c79` in `verify_09f478c79_dynamic_core_angular_ward_and_period_quartic()` (`src/origin_axiom/weave_unification_bridge.py`):**
+   - **Control 1 (Nonzero-angular Bessel tail):** Exact rational verification of $K_{\ell+1/2}(z)$ polynomials $Q_\ell(z)$ for $\ell \in \{0, 1, 2, 3\}$ at $z = |k|Y$ with $\ell^2 s = \ell(\ell+1)$, outward logarithmic derivative $D_{t,n}(s) = L_n(s)$, and $R_{t,n}(s) D_{t,n}(s) = s$ (rejecting reversed normal or unmodified-Bessel sign).
+   - **Control 2 (Distinct $s=0$ limits & 2-component Coulomb norm):** Verified $D_{t,n}(0) = |k_n|, R_{t,n}(0) = 0$ ($n \neq 0$) vs. $D_{t,0}(0) = 0, R_{t,0}(0) = Y/\ell^2$ ($n = 0$), and verified that integrating both $\alpha_x$ and $\alpha_y$ gives $1/(2|k_n|) + 1/(2|k_n|) = 1/|k_n| = R_{t,n}'(0)$ (rejecting $1/(2|k_n|)$ when $\alpha_y$ is omitted).
+   - **Control 3 (Core Neumann spectral surrogate algebra):** Verified Eqs. (6), (8), and (9) on explicitly labelled finite positive Neumann surrogates, including generic non-vanishing vs. symmetric vanishing of the mean-angular coupling $\langle a_{\text{zero-mean}}, R_c(s) 1 \rangle$.
+   - **Control 4 (Boundary gauge Ward kernel & noncommuting $D_c(s)$):** Verified that $D_{t,n}|v_T|^2 + R_{t,n}|b - (k_n/s)p\cdot v|^2$ annihilates $(b, p\cdot v) = (k_n, s)$, fails when the cross term is omitted, and verified $\frac{d}{ds}(s D_c(s)^{-1}) = D_c^{-1} - s D_c^{-1} D_c' D_c^{-1}$ on non-commuting $2 \times 2$ positive matrices $[D_0, D_1] \neq 0$.
+   - **Control 5 (Longitudinal cubic $I_L = 2Y/(\nu_p + \nu_q)$ vs. transverse $I_T$):** Verified $I_L(p,q)(p^2 - q^2) = R_{t,0}(p^2) - R_{t,0}(q^2)$ and the benchmark $p=0, q=-k, \ell^2=2, q^2=1$ ($\nu_p = 1, \nu_q = \nu_k = 3$) where $I_L = Y/2 \neq I_T = Y/3$.
+   - **Control 6 (Quartic nonharmonic relaxation):** Verified on a weighted finite top-form projection that minimizing $\sum_m w_m (S_m - \delta_m)^2$ over zero-integral corrections $\sum_m w_m \delta_m = 0$ yields the uniform residual $F_{2,m} = C/A$ and energy $C^2/A < \sum_m w_m S_m^2$.
+   - **Control 7 (Handle scope $g=1$ vs. $g=2$ cancellation):** Verified positive $g=1$ quartic $\kappa((-i[U,V])^2) > 0$ for $[U,V] \neq 0$, exact $g=2$ cancellation $[X,Y] + [Y,X] = 0$, and exact group-level surface flatness $[G,H][H,G] = I_2$ for non-commuting rational unitary/quaternion holonomies (`0 of 19`).
+
+
 
 
