@@ -1,0 +1,86 @@
+{
+  "record_type": "AUTHOR_DISCRIMINANT_COVER_WILSON_AND_TARGETED_AGY_SOURCE_AUDIT_NOT_EXECUTION",
+  "date": "2026-11-08",
+  "base_commit": "c486f559bd2fecdcde4ca1ad91a09bdd6db9b758",
+  "new_sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/DISCRIMINANT_COVER_PERIPHERAL_AND_ORDER_THREE_WILSON_2026_11_08.md",
+      "sha256": "5c056ae0d1a4cbc6ead0a9c1efa9f32719a1d013a290894fa70d5f31f2c66d46",
+      "bytes": 11071
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_MAIN_AND_GENESIS_2026-11-08_ACTUAL_DISCRIMINANT_COVER_AND_WILSON_PULLBACK.md",
+      "sha256": "8ecf1fc2278def30d257a04eda60d62e47eb02336e6529a41877c086e752ed37",
+      "bytes": 5132
+    }
+  ],
+  "first_metadata_failure": {
+    "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/DISCRIMINANT_COVER_METADATA_ATTEMPT_01_2026_11_08.json",
+    "sha256": "2295a2c72c4c9f285189de35bbf2f7d35f7ac165aae330d859ce7bca56ed67f0",
+    "bytes": 2075
+  },
+  "corrected_metadata_attempt": 2,
+  "mathematics_changed_by_metadata_repair": false,
+  "reused_proofs": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/AFFINE_DOUBLET_KERNEL_D4_AND_PARITY_2026_11_08.md",
+      "sha256": "2e598aac8399703f5026c0d2360544138aef858016960ff7e80e06dfb85623be",
+      "bytes": 16134
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/JOINT_FIRST_ORDER_REGISTER_AND_OLD_QUATERNION_COVER_2026_11_08.md",
+      "sha256": "a147e103daabaef3a57ee8931856e0834513112069192edb92d5319141bb2b82",
+      "bytes": 13058
+    }
+  ],
+  "agy_source_pins": [
+    {
+      "commit": "56e4eac8a6b1831919dfebfd628362adcacbc05d",
+      "path": "src/origin_axiom/p000_pure_logic_bridge.py",
+      "sha256": "6e92603264b257480c641d74b1ec19d2bc19703589fee484145473ffc41ea717",
+      "bytes": 146525,
+      "targeted_functions": [
+        {
+          "function": "verify_wall2_d4_to_e8_glue_and_cover_family_functor",
+          "start_line": 2886,
+          "end_line": 3046,
+          "sha256": "79c6eccf713e08cf2f7bfb129384f43d44183dd1a47ec3ee5a0bfb21d96b3bb6",
+          "evidence_grade": "TARGETED_SOURCE_PASSAGES_AND_HAND_ARGUMENT_NOT_EXECUTION_OR_FULL_FUNCTION_CERTIFICATION"
+        }
+      ]
+    },
+    {
+      "commit": "56e4eac8a6b1831919dfebfd628362adcacbc05d",
+      "path": "src/origin_axiom/weave_unification_bridge.py",
+      "sha256": "a0b0137acc7f0703f6d30e2b1fc83db8e6b8b0f355e4bda2abee7ab73a3ec7f2",
+      "bytes": 248436,
+      "targeted_functions": [
+        {
+          "function": "verify_wall1_nonabelian_period_zero_flux_stationarity_and_v1_repair",
+          "start_line": 3926,
+          "end_line": 4163,
+          "sha256": "7c337561557a76b87bf0ff11ebe40607836b6c8b96e5955fb5f8365b3068c654",
+          "evidence_grade": "TARGETED_SOURCE_PASSAGES_AND_HAND_ARGUMENT_NOT_EXECUTION_OR_FULL_FUNCTION_CERTIFICATION"
+        },
+        {
+          "function": "verify_coupled_2d_surface_and_3sheet_cover_bvp",
+          "start_line": 4516,
+          "end_line": 4950,
+          "sha256": "b1b22c1a9da122843b6e2b0d53cdd582bab97eb22d92b4d920a1f3c399185b17",
+          "evidence_grade": "TARGETED_SOURCE_PASSAGES_AND_HAND_ARGUMENT_NOT_EXECUTION_OR_FULL_FUNCTION_CERTIFICATION"
+        }
+      ]
+    }
+  ],
+  "new_proof_grade": "AUTHOR_UNREVIEWED_ANALYTICAL",
+  "scientific_imports": false,
+  "scientific_collection": false,
+  "scientific_execution": false,
+  "new_control_implementation": false,
+  "frozen_six_artifact_pins_match": 40,
+  "independent_six_review_unchanged": true,
+  "inherited_staging_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "relative_links_resolve": true,
+  "scope": "CORRECT_QUOTIENT_PERIPHERAL_AND_COPRIME_WILSON_PULLBACK; NOT_A_BRANCH_WIDE_AUDIT_OR_PHYSICAL_SM3_NO_GO",
+  "progress": "EXPLICIT_COVER_AND_JOINT_TRIPLET_POSITIVE; IDENTIFIED_MISSING_OPERATOR_AND_WILSON_TRANSPORT; NO_FOUNDATIONAL_INPUT_OR_GENERATION_COUNT_CERTIFIED"
+}

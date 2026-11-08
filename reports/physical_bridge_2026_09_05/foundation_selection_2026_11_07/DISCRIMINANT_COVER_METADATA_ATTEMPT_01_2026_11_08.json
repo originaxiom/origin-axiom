@@ -1,0 +1,40 @@
+{
+  "record_type": "AUTHOR_TRANSCRIBED_METADATA_FAILURE_NOT_SCIENTIFIC_OUTPUT",
+  "date": "2026-11-08",
+  "attempt": 1,
+  "stage": "SOURCE_RECEIPT_PREPARATION_BEFORE_STAGING",
+  "check": "assert ',+' not in text and ')+' not in text",
+  "combined_exec_output": "Traceback (most recent call last):\n  File \"<stdin>\", line 11, in <module>\nAssertionError\n",
+  "exit_code": 1,
+  "cause": "Overbroad prose-typo detector rejected valid signed mathematical tuples: D2=diag(-1,+1,-1) and deck signs diag(-,+,-). No mathematical assertion was evaluated by this check.",
+  "receipt_written_before_failure": false,
+  "follow_on_operations": [
+    {
+      "operation": "explicit-path git add",
+      "exit_code": 128,
+      "combined_exec_output": "fatal: pathspec 'reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/DISCRIMINANT_COVER_WILSON_SOURCE_RECEIPT_2026_11_08.json' did not match any files\n"
+    },
+    {
+      "operation": "scoped staged whitespace check",
+      "exit_code": 0,
+      "limits": "No requested files had been staged; this is not evidence of their verification."
+    },
+    {
+      "operation": "explicit-path commit",
+      "exit_code": 1,
+      "limits": "Failed because the requested paths were not staged/known to Git. No commit was created."
+    },
+    {
+      "operation": "push existing branch",
+      "exit_code": 0,
+      "combined_exec_output": "Everything up-to-date\n",
+      "limits": "No new cover evidence was published by this no-op push."
+    }
+  ],
+  "corrective_action": "Keep scientific prose unchanged. Remove the invalid generic ',+' detector, retain whitespace/link/source/hash checks, and stop dependent mutation operations when preparation fails. Preserve this first failure before a corrected receipt.",
+  "scientific_imports": false,
+  "scientific_collection": false,
+  "scientific_execution": false,
+  "mathematical_result_or_design_changed": false,
+  "evidence_capture_limit": "Author transcription of returned exec-tool combined output and exit statuses; not an independently captured raw stdout/stderr file."
+}
