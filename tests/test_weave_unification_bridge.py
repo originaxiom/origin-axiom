@@ -292,6 +292,31 @@ def test_planted_mutations_and_whole_weave_discipline() -> None:
     assert pv_w["cross_grading_weak_coupling_g_eff"] > 0.1
     assert pv_w["haar_basis_scrambling_invariance_err"] < 1e-14
 
+    bvp = suite["coupled_2d_surface_and_3sheet_cover_bvp"]
+    assert bvp["coupled_2d_and_3sheet_bvp_passed"] is True
+    t1_bvp = bvp["task1_3sheet_d4_cover_vs_single_sheet_wilson"]
+    assert t1_bvp["task1_passed"] is True
+    assert t1_bvp["bare_pin10_record_counts_sum_16"] == [[2, 2, 2, 2, 2, 2, 2, 2], 16]
+    assert t1_bvp["single_sheet_wilson_record_counts_sum_18"] == [[3, 2, 2, 2, 2, 2, 2, 3], 18]
+    assert t1_bvp["cover_3sheet_middle_line_counts_per_record"] == [3, 3, 3, 3, 3, 3, 3, 3]
+    assert t1_bvp["s3_triality_cover_projector_commutator_err"] == 0.0
+    assert t1_bvp["coupled_36x36_4slot_cover_s3_comm_err"] == 0.0
+    assert t1_bvp["coupled_36x36_4slot_gaugino_decoupling_err"] < 1e-14
+    t2_bvp = bvp["task2_coupled_2d_surface_elliptic_hodge_system"]
+    assert t2_bvp["task2_passed"] is True
+    assert t2_bvp["discrete_2d_cochain_d1_d0_err"] == 0.0
+    assert t2_bvp["coulomb_gauge_div_err_16x16"] < 1e-12
+    assert t2_bvp["pointwise_1form_curvature_err_16x16"] < 1e-10
+    assert abs(t2_bvp["unrelaxed_vs_relaxed_energy_16x16"][1] - t2_bvp["exact_relaxed_bound_1_over_8pi"]) < 1e-15
+    assert t2_bvp["spectral_24x24_and_32x32_energy_errs"][0] < 1e-15
+    assert t2_bvp["spectral_24x24_and_32x32_energy_errs"][1] < 1e-15
+    t3_bvp = bvp["task3_coupled_4slot_koszul_weak_vertex_and_haar_scrambling"]
+    assert t3_bvp["task3_passed"] is True
+    assert t3_bvp["g_4slot_grid_convergence_err"] < 1e-11
+    assert t3_bvp["haar_50_trial_su2L_u3fam_max_err"] < 1e-13
+    assert t3_bvp["non_unitary_negative_control_drift"] > 0.5
+
+
 
 
 
