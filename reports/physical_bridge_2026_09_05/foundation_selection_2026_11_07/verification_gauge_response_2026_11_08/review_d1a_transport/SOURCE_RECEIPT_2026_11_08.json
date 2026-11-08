@@ -1,0 +1,1109 @@
+{
+  "record_type": "INDEPENDENT_D1A_SIX_CONTROL_SOURCE_REVIEW_RECEIPT_NOT_ADMISSION",
+  "date": "2026-11-08",
+  "review_seal": "d1a33e921d5cb16e4606b196fa970b91a2abfb6d",
+  "specification": {
+    "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/SPECIFICATION.json",
+    "sha256": "1297dbedd4c10696e88bbd3459890a08b0e27013c946be05181f4b4c3cfcb953"
+  },
+  "reviewer": "independent-gauge-response-transport-reviewer",
+  "nonauthoring": true,
+  "source_complete": true,
+  "review_decision": "APPROVE_EXECUTION",
+  "unresolved": [],
+  "artifact_count": 40,
+  "all_pins_including_design_and_spec": 42,
+  "artifact_role_counts": {
+    "input": 22,
+    "source": 17,
+    "test": 1
+  },
+  "scientific_methods_AST_only": [
+    "GaugeResponseControls.test_01_weights_outward_flux_and_retained_moment_source",
+    "GaugeResponseControls.test_02_poisson_equations_and_both_norm_branches",
+    "GaugeResponseControls.test_03_green_divided_differences_and_response_norms",
+    "GaugeResponseControls.test_04_static_shell_schur_and_both_riccati_laws",
+    "GaugeResponseControls.test_05_cubic_power_overlap_and_nonabelian_colour_vertex",
+    "GaugeResponseControls.test_06_curvature_finite_norm_and_remote_sector_control"
+  ],
+  "scientific_method_count": 6,
+  "original_scientific_source_unchanged_from_b4e79b301": {
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/gauge_response_exact.py": true,
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/test_gauge_response.py": true
+  },
+  "closure_infrastructure_source_count": 13,
+  "infrastructure_matches_previous_reviewed_bytes": true,
+  "engineering_source_seal": "906037df59601bde8336a10d10e5d99325a9c6b9",
+  "recorded_fixture_methods_AST_only": [
+    "GaugeResponseWrapperEngineeringChecks.test_01_deep_path_exact_population_and_one_delegation",
+    "GaugeResponseWrapperEngineeringChecks.test_02_changed_infrastructure_rejects_before_import",
+    "GaugeResponseWrapperEngineeringChecks.test_03_missing_infrastructure_rejects_before_import",
+    "GaugeResponseWrapperEngineeringChecks.test_04_delegated_nonzero_exit_preserved",
+    "GaugeResponseWrapperEngineeringChecks.test_05_delegated_exception_preserved",
+    "GaugeResponseWrapperEngineeringChecks.test_06_static_population_rejects_missing_extra_duplicate",
+    "GaugeResponseWrapperEngineeringChecks.test_07_synthetic_bridge_exact_class_and_one_import",
+    "GaugeResponseWrapperEngineeringChecks.test_08_missing_bridge_class_rejects"
+  ],
+  "eight_recorded_fixture_names_and_hashes_verified": true,
+  "software_fixture_execution_by_reviewer": false,
+  "scientific_imports": false,
+  "scientific_collection": false,
+  "scientific_execution": false,
+  "CAS_or_numerical_execution": false,
+  "production_gate_or_aggregate_execution": false,
+  "new_literature_or_agent": false,
+  "excluded_scope": [
+    "new static core",
+    "new dynamic core",
+    "seven-check successor",
+    "four-connection quartic"
+  ],
+  "main_acceptance_or_admission_authored": false,
+  "isolated_checkout_path": "/private/tmp/oa-gauge-response-review-ZWTHcd",
+  "isolated_checkout_read_only_snapshot": {
+    "head": "d1a33e921d5cb16e4606b196fa970b91a2abfb6d",
+    "index_changes": "",
+    "worktree_changes": "",
+    "untracked": ""
+  },
+  "fresh_outputs": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/results/attempt_01.jsonl",
+      "absent_sealed_isolated_and_working": true,
+      "no_symlink_ancestor": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/results/attempt_01.log",
+      "absent_sealed_isolated_and_working": true,
+      "no_symlink_ancestor": true
+    }
+  ],
+  "registration_rows_verified_without_policy_execution": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/EXECUTION_DESIGN.md",
+      "sha256": "6522f372ef87cca57cacfd75b4d38731840561837aaa36261313e943e556b824",
+      "sealed_ledger_line": 9395,
+      "literal_row": "| 2026-11-08 | AFTER hand derivation/source/software fixtures; BEFORE real scientific import/collection/run | `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/EXECUTION_DESIGN.md` | `6522f372ef87cca57cacfd75b4d38731840561837aaa36261313e943e556b824` | Actual six-control execution design and stop rules; source-complete nonauthoring review and exact main acceptance remain outstanding. |"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/SPECIFICATION.json",
+      "sha256": "1297dbedd4c10696e88bbd3459890a08b0e27013c946be05181f4b4c3cfcb953",
+      "sealed_ledger_line": 9396,
+      "literal_row": "| 2026-11-08 | AFTER hand derivation/source/software fixtures; BEFORE real scientific import/collection/run | `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/SPECIFICATION.json` | `1297dbedd4c10696e88bbd3459890a08b0e27013c946be05181f4b4c3cfcb953` | Hash-pinned machine-readable execution binding metadata, explicit source role; not a blind scientific preregistration or execution acceptance. |"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/DESIGN.md",
+      "sha256": "7d6dd2eb0e5e894e8b260780fac1e3ecabe4d6cd5c5646eda72a0e445dd87927",
+      "sealed_ledger_line": 9394,
+      "literal_row": "| 2026-11-08 | AFTER hand derivation/source/software fixtures; BEFORE real scientific import/collection/run | `reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/DESIGN.md` | `7d6dd2eb0e5e894e8b260780fac1e3ecabe4d6cd5c5646eda72a0e445dd87927` | Original six-control scientific design at b996bc98e before implementation; registered now after disclosed hand predictions and source preparation; six science methods unrun. |"
+    }
+  ],
+  "specification_source_role": {
+    "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/SPECIFICATION.json",
+    "sha256": "1297dbedd4c10696e88bbd3459890a08b0e27013c946be05181f4b4c3cfcb953",
+    "role": "source",
+    "reason": "Machine-readable execution source/runtime/command binding metadata; the actual post-derivation scientific questions and stop rules remain in separately sealed DESIGN.md and EXECUTION_DESIGN.md. No scientific hypothesis is reclassified or made retroactively compliant.",
+    "evidence": {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/BINDING_SOURCE_INVENTORY.json",
+      "sha256": "3e263a02b7305d8676a60f43eb5345e8420e1278109159a9d2b4fd6d16f58df9",
+      "collection": "source_files"
+    }
+  },
+  "historical_registration_capture_problem_count": 662,
+  "historical_problems_not_waived": true,
+  "staged_path_count": 49,
+  "staged_binary_diff_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "inherited_staged_state_unchanged": true,
+  "review_json": {
+    "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/review_d1a_transport/REVIEW.json",
+    "sha256": "f60e549957b2b0b5a91a32336ccbcd839bfa66417311015bf4ea3a134b6e7c06"
+  },
+  "human_report": {
+    "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/review_d1a_transport/INDEPENDENT_REVIEW_2026_11_08.md",
+    "sha256": "ac2153925193d544bebf487e63406616403e3a369dfa565f783ee5a2c44c1530"
+  },
+  "source_records": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/EXECUTION_DESIGN.md",
+      "sha256": "6522f372ef87cca57cacfd75b4d38731840561837aaa36261313e943e556b824",
+      "role": "design",
+      "bytes": 3341,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "role": "input",
+      "bytes": 13228,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "role": "input",
+      "bytes": 11351,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_QUATERNION_STATIONARY_BUNDLE_AND_CUSP_LAW.md",
+      "sha256": "221a7cd2dce2ff7dec0b135c348b7bb52e15bc27e5563d420756fbe31f9978a1",
+      "role": "input",
+      "bytes": 16627,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXACT_ORDER_THREE_ELECTROWEAK_BRANCH.md",
+      "sha256": "3eae4eba764343746f46db14b58ae5d03ee412534b4067219143c40c3a2f09aa",
+      "role": "input",
+      "bytes": 13553,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md",
+      "sha256": "6012816683f17ac83e7d3bdb4f6d8b987ec8155ee2caa09ce651dbf0b194ed4c",
+      "role": "input",
+      "bytes": 11130,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SPIN_FLAVOUR_FACTORISATION_AND_PHYSICAL_TWIST_PRICE.md",
+      "sha256": "308eeb1745d36cd8c86e35d25f0ede9fbd9e1d5f43d235cfa908307ece45887f",
+      "role": "input",
+      "bytes": 12732,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GAPLESS_CUSP_RESPONSE_AND_GAUGE_COUPLING.md",
+      "sha256": "e89a6b108bfa6bc0bc80f093b4e35aa24d04f9013842ef9ad90b9bcc61e2da50",
+      "role": "input",
+      "bytes": 6639,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ACTUAL_CUSP_WEYL_RESPONSE_AND_INDUCED_NORM.md",
+      "sha256": "da4f0b954db49662bf75726bade1503d2e9e1ef7ac07f74793edfdf050eadb12",
+      "role": "input",
+      "bytes": 12121,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/surface_same_action_transmission_2026_10_16/PROOF.md",
+      "sha256": "d57ea6c28332a54437c9c2f9eca4372505322e25b66a340f7474ce5462cf5d6e",
+      "role": "input",
+      "bytes": 9144,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXTERIOR_RESPONSE_AND_JOINING.md",
+      "sha256": "3d99d0d72a03dca843f36924e4c47cc7e0c78c4ecba8c0974515d41bb80eca68",
+      "role": "input",
+      "bytes": 11634,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_magnetic_stationarity_2026_10_08/PROOF.md",
+      "sha256": "939d5c756963c7f6113a444772780255eb19087250886a682306f319cc7fc81f",
+      "role": "input",
+      "bytes": 8666,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/SAME_ACTION_GAUGE_BOUNDARY_RESPONSE_AND_CUBIC_2026_11_08.md",
+      "sha256": "7e401a2f3b7c7e10a1ef04e635bd271bb19a655f282ade035f9d1abcb4016956",
+      "role": "input",
+      "bytes": 16582,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/GAUGE_RESPONSE_MAGNETIC_REUSE_AND_OPERATOR_SCOPE_2026_11_08.md",
+      "sha256": "6d6e9411d4992a3b8a44e9a945ddaf44dbb6f3fcf87ca2cffbcbf03a7c46f534",
+      "role": "input",
+      "bytes": 4403,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/GAUGE_RESPONSE_FIRST_REVIEW_BRIEF_2026_11_08.md",
+      "sha256": "7b3bff18f324b107ba5ee812f737846c6ed117f41c51adbc7ba20d257c6677d8",
+      "role": "input",
+      "bytes": 4308,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/DESIGN.md",
+      "sha256": "7d6dd2eb0e5e894e8b260780fac1e3ecabe4d6cd5c5646eda72a0e445dd87927",
+      "role": "input",
+      "bytes": 4259,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/ENGINEERING_DESIGN.md",
+      "sha256": "93c4cdc88774ba913d65cf448ef497339af6463e6d6115cdf5fb59517d3831f9",
+      "role": "input",
+      "bytes": 3160,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/ENGINEERING_SOURCE_SEAL.json",
+      "sha256": "569df02e4b47087c5f514f1ae385d9c94a62bea3f62ed4502db1ee1029dda8a7",
+      "role": "input",
+      "bytes": 3644,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/ENGINEERING_RESULT.md",
+      "sha256": "3ecc7de374124f23908b36af04fcad45f7a85291d0e37bc16b7672a77d03e3df",
+      "role": "input",
+      "bytes": 1342,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/ENVIRONMENT.json",
+      "sha256": "6916e9bbee1d4fd932d2dbff6a514bdb3f58229f73501da8f2ccc3caa4ba1c57",
+      "role": "input",
+      "bytes": 603,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/engineering/attempt_01.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "role": "input",
+      "bytes": 0,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/engineering/attempt_01.stderr.txt",
+      "sha256": "e5f5c5f397e3650c6f3a7bb4924886f3881cd3a0302132da33c04d14ff3bb6e2",
+      "role": "input",
+      "bytes": 1318,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/engineering/attempt_01.outcome.json",
+      "sha256": "508e3822cef20528476a73903af537cfcc291f37a4d278ea9b270ce44f7993c5",
+      "role": "input",
+      "bytes": 3378,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/gauge_response_exact.py",
+      "sha256": "2eafb49959ab40c1051e1393e08829b06bfa6fa48d2fa8be97e590e43b9946b6",
+      "role": "source",
+      "bytes": 2067,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/run_checks.py",
+      "sha256": "1eac4068e294c7fec42bcf0c9a0fef5bd3bf6cda7884c5617c970427f894b6bb",
+      "role": "source",
+      "bytes": 1661,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/checks.py",
+      "sha256": "71eed48d058979c6d5940cecdf0c7e520baca6e3ab7cc22f8ef9a318f962d047",
+      "role": "source",
+      "bytes": 551,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/engineering_checks.py",
+      "sha256": "6e7aa7b663dd65a64e21e915550ddfad50cf06f83bb61b7790cd556dbde249c7",
+      "role": "source",
+      "bytes": 8446,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/test_gauge_response.py",
+      "sha256": "eecd64593495e3d7f568d885082b17563dca5ed0bdd5042ab233f1a4ebbfd002",
+      "role": "test",
+      "bytes": 10533,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/run_checks.py",
+      "sha256": "1cc1c9e299be3f85df41d066b2673c2c62b33e83ad978603f769cf04fd8adbf0",
+      "role": "source",
+      "bytes": 10696,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "scripts/checks/check_path_references.py",
+      "sha256": "4c04dda43e898e0f58ff46aa711de5035f7bc394583989f1ac71ffd027665b01",
+      "role": "source",
+      "bytes": 7696,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "scripts/checks/check_test_vacuity.py",
+      "sha256": "cacea50360bcf3a17bb65a6af85e24cba9e62ac7cd82bfdf6b72675c35dda867",
+      "role": "source",
+      "bytes": 9597,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "scripts/checks/doc_currency.py",
+      "sha256": "89c0d8d5e401b622cffc5a8a85dcb082c59e89bef4bdfacb1529c025ac6dfed4",
+      "role": "source",
+      "bytes": 6631,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "scripts/checks/relay_debt.py",
+      "sha256": "620b4ce71ff2c9227f1d8eafd5cf63e41bd4d30edaba8c4840ee432fedafe2ab",
+      "role": "source",
+      "bytes": 6925,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "scripts/checks/representation_sweep.py",
+      "sha256": "0c9b5daadbac3a3f6e7edb9b8cf55bb47d65cc9baa2153c84293bb091e3d4e37",
+      "role": "source",
+      "bytes": 4323,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "scripts/checks/retraction_sweep.py",
+      "sha256": "4d1ecc5e57a0ed56c428b2b5f4b8e107755ce3a511f2924dae26b73840ee37f4",
+      "role": "source",
+      "bytes": 3557,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "scripts/gates/gates.py",
+      "sha256": "3d4e6ab844a462cdb9ab10d79d4cabefa77154969cc33d4c143ca4b9367f9176",
+      "role": "source",
+      "bytes": 56113,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "scripts/gates/prospective.py",
+      "sha256": "f1f446846d07cbdb649eb04cc0971ad6f5fc1bc89a85493203b3f2ede0c52065",
+      "role": "source",
+      "bytes": 11316,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "scripts/gates/prospective_strict.py",
+      "sha256": "82985893d0db217514f7acfa5e676089e14eed30c6d98b0e6f22770fc4533f26",
+      "role": "source",
+      "bytes": 1750,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "scripts/gates/provenance_policy.py",
+      "sha256": "19b0fa2382a31fb6a0d943f6df11b0b7dc482494a90e94013c2e2947a65f53c2",
+      "role": "source",
+      "bytes": 9755,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "scripts/gates/tracked_state.py",
+      "sha256": "22ac6ab65ed48fa5e1aeb92f74a9c7215ae4bf61825749a1ce66ce81854cc7f1",
+      "role": "source",
+      "bytes": 1700,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "scripts/views/generate.py",
+      "sha256": "e8f5594c877ff3df10c27b5637a931904bed85fec21b62300b11b2d2f4dcf0af",
+      "role": "source",
+      "bytes": 16498,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/SPECIFICATION.json",
+      "sha256": "1297dbedd4c10696e88bbd3459890a08b0e27013c946be05181f4b4c3cfcb953",
+      "role": "specification",
+      "bytes": 10901,
+      "sealed_isolated_working_bytes_match": true,
+      "regular_without_symlinks": true
+    }
+  ],
+  "additional_support_records": [
+    {
+      "path": "docs/SEAL_LEDGER.md",
+      "sha256": "136bdb775cda6e8494fa2cd969c4d9dd0097510d691d21c7f6249415d66c644d",
+      "bytes": 2218125,
+      "matches_review_seal": true,
+      "scope": "source/registration/support metadata or specific earlier mechanism source; not an added scientific test"
+    },
+    {
+      "path": "docs/SEAL_ARTIFACT_ROLES.json",
+      "sha256": "c83ff58591e6f2d8268828d34b05a776f2952c5a6203e2d937cfa1ee4bce1d7f",
+      "bytes": 9328,
+      "matches_review_seal": true,
+      "scope": "source/registration/support metadata or specific earlier mechanism source; not an added scientific test"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/BINDING_SOURCE_INVENTORY.json",
+      "sha256": "3e263a02b7305d8676a60f43eb5345e8420e1278109159a9d2b4fd6d16f58df9",
+      "bytes": 4239,
+      "matches_review_seal": true,
+      "scope": "source/registration/support metadata or specific earlier mechanism source; not an added scientific test"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/EXECUTION_READINESS.md",
+      "sha256": "47e6edfcd82d50bddbbbaa6325e89ce2adc8095bf91da735261ba69bb5471787",
+      "bytes": 2852,
+      "matches_review_seal": true,
+      "scope": "source/registration/support metadata or specific earlier mechanism source; not an added scientific test"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/IMPLEMENTATION_SOURCE_RECEIPT.json",
+      "sha256": "9548dae51de549d91c5ef2522e4339aac60dfce2f59a1aab08a83393b6b2bf9e",
+      "bytes": 3453,
+      "matches_review_seal": true,
+      "scope": "source/registration/support metadata or specific earlier mechanism source; not an added scientific test"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/STATUS.md",
+      "sha256": "c37a1833b8e02bd27f5ebfa875973b8e4ca338f81b6e2867e8288b5de437225c",
+      "bytes": 2492,
+      "matches_review_seal": true,
+      "scope": "source/registration/support metadata or specific earlier mechanism source; not an added scientific test"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/EXECUTION_PREPARATION_SOURCE_RECEIPT.json",
+      "sha256": "877150669a45e31b441347bddd227aaae8c17add2932b06e80e5dbe6d05f7d31",
+      "bytes": 3850,
+      "matches_review_seal": true,
+      "scope": "source/registration/support metadata or specific earlier mechanism source; not an added scientific test"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/engineering/registration_metadata_01.json",
+      "sha256": "8b023e9f0caa63b4ed1d828e75fd069d7d84e84cb48cbbc6036838d88bf989f6",
+      "bytes": 119378,
+      "matches_review_seal": true,
+      "scope": "source/registration/support metadata or specific earlier mechanism source; not an added scientific test"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_cusp_condensate_2026_10_08/PROOF.md",
+      "sha256": "fbb0f0d51fcf915a1b3b5203d03a8d1f6df7011b5d8f00aa4be3223a14440977",
+      "bytes": 8932,
+      "matches_review_seal": true,
+      "scope": "source/registration/support metadata or specific earlier mechanism source; not an added scientific test"
+    }
+  ],
+  "python_import_syntax_AST_only": {
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/gauge_response_exact.py": [
+      {
+        "line": 2,
+        "syntax": "from dataclasses import dataclass"
+      },
+      {
+        "line": 3,
+        "syntax": "from fractions import Fraction"
+      }
+    ],
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/run_checks.py": [
+      {
+        "line": 2,
+        "syntax": "from hashlib import sha256"
+      },
+      {
+        "line": 3,
+        "syntax": "from importlib.util import module_from_spec, spec_from_file_location"
+      },
+      {
+        "line": 4,
+        "syntax": "from pathlib import Path"
+      }
+    ],
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/checks.py": [
+      {
+        "line": 2,
+        "syntax": "from importlib.util import module_from_spec, spec_from_file_location"
+      },
+      {
+        "line": 3,
+        "syntax": "from pathlib import Path"
+      }
+    ],
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/engineering_checks.py": [
+      {
+        "line": 2,
+        "syntax": "import ast"
+      },
+      {
+        "line": 3,
+        "syntax": "from hashlib import sha256"
+      },
+      {
+        "line": 4,
+        "syntax": "from importlib.util import module_from_spec, spec_from_file_location"
+      },
+      {
+        "line": 5,
+        "syntax": "import json"
+      },
+      {
+        "line": 6,
+        "syntax": "from pathlib import Path"
+      },
+      {
+        "line": 7,
+        "syntax": "import tempfile"
+      },
+      {
+        "line": 8,
+        "syntax": "import unittest"
+      }
+    ],
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/test_gauge_response.py": [
+      {
+        "line": 2,
+        "syntax": "from fractions import Fraction as F"
+      },
+      {
+        "line": 3,
+        "syntax": "from itertools import product"
+      },
+      {
+        "line": 4,
+        "syntax": "import unittest"
+      },
+      {
+        "line": 6,
+        "syntax": "from gauge_response_exact import (\n    cubic_factors, mode, normalized_power_integral, response_derivatives, static_shell,\n)"
+      }
+    ],
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/run_checks.py": [
+      {
+        "line": 6,
+        "syntax": "import argparse"
+      },
+      {
+        "line": 7,
+        "syntax": "from contextlib import ExitStack"
+      },
+      {
+        "line": 8,
+        "syntax": "from hashlib import sha256"
+      },
+      {
+        "line": 9,
+        "syntax": "import importlib.metadata"
+      },
+      {
+        "line": 10,
+        "syntax": "import importlib.util"
+      },
+      {
+        "line": 11,
+        "syntax": "import json"
+      },
+      {
+        "line": 12,
+        "syntax": "import os"
+      },
+      {
+        "line": 13,
+        "syntax": "from pathlib import Path"
+      },
+      {
+        "line": 14,
+        "syntax": "import platform"
+      },
+      {
+        "line": 15,
+        "syntax": "import subprocess"
+      },
+      {
+        "line": 16,
+        "syntax": "import sys"
+      },
+      {
+        "line": 17,
+        "syntax": "import time"
+      },
+      {
+        "line": 18,
+        "syntax": "import traceback"
+      },
+      {
+        "line": 19,
+        "syntax": "import unittest"
+      },
+      {
+        "line": 26,
+        "syntax": "import tracked_state"
+      }
+    ],
+    "scripts/checks/check_path_references.py": [
+      {
+        "line": 41,
+        "syntax": "import os"
+      },
+      {
+        "line": 42,
+        "syntax": "import re"
+      },
+      {
+        "line": 43,
+        "syntax": "import hashlib"
+      },
+      {
+        "line": 44,
+        "syntax": "import json"
+      },
+      {
+        "line": 45,
+        "syntax": "import subprocess"
+      },
+      {
+        "line": 46,
+        "syntax": "import sys"
+      }
+    ],
+    "scripts/checks/check_test_vacuity.py": [
+      {
+        "line": 32,
+        "syntax": "import ast"
+      },
+      {
+        "line": 33,
+        "syntax": "import os"
+      },
+      {
+        "line": 34,
+        "syntax": "import subprocess"
+      },
+      {
+        "line": 35,
+        "syntax": "import sys"
+      }
+    ],
+    "scripts/checks/doc_currency.py": [
+      {
+        "line": 18,
+        "syntax": "from __future__ import annotations"
+      },
+      {
+        "line": 20,
+        "syntax": "import pathlib"
+      },
+      {
+        "line": 21,
+        "syntax": "import re"
+      },
+      {
+        "line": 22,
+        "syntax": "import sys"
+      }
+    ],
+    "scripts/checks/relay_debt.py": [
+      {
+        "line": 50,
+        "syntax": "from __future__ import annotations"
+      },
+      {
+        "line": 52,
+        "syntax": "import datetime"
+      },
+      {
+        "line": 53,
+        "syntax": "import os"
+      },
+      {
+        "line": 54,
+        "syntax": "import pathlib"
+      },
+      {
+        "line": 55,
+        "syntax": "import re"
+      },
+      {
+        "line": 56,
+        "syntax": "import sys"
+      }
+    ],
+    "scripts/checks/representation_sweep.py": [
+      {
+        "line": 22,
+        "syntax": "import glob"
+      },
+      {
+        "line": 23,
+        "syntax": "import json"
+      },
+      {
+        "line": 24,
+        "syntax": "import os"
+      },
+      {
+        "line": 60,
+        "syntax": "import re"
+      }
+    ],
+    "scripts/checks/retraction_sweep.py": [
+      {
+        "line": 13,
+        "syntax": "import os"
+      },
+      {
+        "line": 14,
+        "syntax": "import re"
+      },
+      {
+        "line": 15,
+        "syntax": "import subprocess"
+      }
+    ],
+    "scripts/gates/gates.py": [
+      {
+        "line": 11,
+        "syntax": "import base64"
+      },
+      {
+        "line": 12,
+        "syntax": "import json"
+      },
+      {
+        "line": 13,
+        "syntax": "import glob"
+      },
+      {
+        "line": 14,
+        "syntax": "import os"
+      },
+      {
+        "line": 15,
+        "syntax": "import re"
+      },
+      {
+        "line": 16,
+        "syntax": "import subprocess"
+      },
+      {
+        "line": 17,
+        "syntax": "import sys"
+      },
+      {
+        "line": 20,
+        "syntax": "from . import provenance_policy"
+      },
+      {
+        "line": 803,
+        "syntax": "import json as _json"
+      },
+      {
+        "line": 815,
+        "syntax": "import glob as _glob"
+      },
+      {
+        "line": 816,
+        "syntax": "import re as _re"
+      },
+      {
+        "line": 883,
+        "syntax": "import hashlib"
+      },
+      {
+        "line": 970,
+        "syntax": "import subprocess"
+      },
+      {
+        "line": 981,
+        "syntax": "import subprocess"
+      },
+      {
+        "line": 1015,
+        "syntax": "import glob as _glob"
+      },
+      {
+        "line": 1016,
+        "syntax": "import json as _json"
+      },
+      {
+        "line": 1048,
+        "syntax": "import glob as _glob"
+      },
+      {
+        "line": 1049,
+        "syntax": "import json as _json"
+      },
+      {
+        "line": 22,
+        "syntax": "import provenance_policy"
+      },
+      {
+        "line": 510,
+        "syntax": "import check_path_references as cpr"
+      },
+      {
+        "line": 578,
+        "syntax": "import check_test_vacuity as ctv"
+      },
+      {
+        "line": 953,
+        "syntax": "import retraction_sweep as rs"
+      },
+      {
+        "line": 995,
+        "syntax": "import representation_sweep as rsw"
+      }
+    ],
+    "scripts/gates/prospective.py": [
+      {
+        "line": 7,
+        "syntax": "import argparse"
+      },
+      {
+        "line": 8,
+        "syntax": "import hashlib"
+      },
+      {
+        "line": 9,
+        "syntax": "import json"
+      },
+      {
+        "line": 10,
+        "syntax": "from pathlib import Path, PurePosixPath"
+      },
+      {
+        "line": 11,
+        "syntax": "import re"
+      },
+      {
+        "line": 12,
+        "syntax": "import subprocess"
+      },
+      {
+        "line": 15,
+        "syntax": "from . import gates, provenance_policy as policy"
+      },
+      {
+        "line": 17,
+        "syntax": "import gates"
+      },
+      {
+        "line": 18,
+        "syntax": "import provenance_policy as policy"
+      }
+    ],
+    "scripts/gates/prospective_strict.py": [
+      {
+        "line": 7,
+        "syntax": "import argparse"
+      },
+      {
+        "line": 8,
+        "syntax": "import json"
+      },
+      {
+        "line": 9,
+        "syntax": "from pathlib import Path"
+      },
+      {
+        "line": 12,
+        "syntax": "from . import prospective, tracked_state"
+      },
+      {
+        "line": 14,
+        "syntax": "import prospective"
+      },
+      {
+        "line": 15,
+        "syntax": "import tracked_state"
+      }
+    ],
+    "scripts/gates/provenance_policy.py": [
+      {
+        "line": 2,
+        "syntax": "import base64"
+      },
+      {
+        "line": 3,
+        "syntax": "import hashlib"
+      },
+      {
+        "line": 4,
+        "syntax": "import json"
+      },
+      {
+        "line": 5,
+        "syntax": "from pathlib import Path, PurePosixPath"
+      },
+      {
+        "line": 6,
+        "syntax": "import re"
+      }
+    ],
+    "scripts/gates/tracked_state.py": [
+      {
+        "line": 7,
+        "syntax": "import subprocess"
+      }
+    ],
+    "scripts/views/generate.py": [
+      {
+        "line": 22,
+        "syntax": "import json"
+      },
+      {
+        "line": 23,
+        "syntax": "import os"
+      },
+      {
+        "line": 24,
+        "syntax": "import re"
+      },
+      {
+        "line": 25,
+        "syntax": "import subprocess"
+      },
+      {
+        "line": 26,
+        "syntax": "import sys"
+      },
+      {
+        "line": 27,
+        "syntax": "from collections import Counter"
+      }
+    ]
+  },
+  "class_method_populations_AST_only": {
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/gauge_response_exact.py": [
+      {
+        "class": "Mode",
+        "methods": []
+      }
+    ],
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/run_checks.py": [],
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/checks.py": [],
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/engineering_checks.py": [
+      {
+        "class": "GaugeResponseWrapperEngineeringChecks",
+        "methods": [
+          {
+            "name": "test_01_deep_path_exact_population_and_one_delegation",
+            "line": 87
+          },
+          {
+            "name": "test_02_changed_infrastructure_rejects_before_import",
+            "line": 99
+          },
+          {
+            "name": "test_03_missing_infrastructure_rejects_before_import",
+            "line": 109
+          },
+          {
+            "name": "test_04_delegated_nonzero_exit_preserved",
+            "line": 119
+          },
+          {
+            "name": "test_05_delegated_exception_preserved",
+            "line": 125
+          },
+          {
+            "name": "test_06_static_population_rejects_missing_extra_duplicate",
+            "line": 132
+          },
+          {
+            "name": "test_07_synthetic_bridge_exact_class_and_one_import",
+            "line": 146
+          },
+          {
+            "name": "test_08_missing_bridge_class_rejects",
+            "line": 157
+          }
+        ]
+      }
+    ],
+    "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/test_gauge_response.py": [
+      {
+        "class": "GaugeResponseControls",
+        "methods": [
+          {
+            "name": "test_01_weights_outward_flux_and_retained_moment_source",
+            "line": 49
+          },
+          {
+            "name": "test_02_poisson_equations_and_both_norm_branches",
+            "line": 75
+          },
+          {
+            "name": "test_03_green_divided_differences_and_response_norms",
+            "line": 98
+          },
+          {
+            "name": "test_04_static_shell_schur_and_both_riccati_laws",
+            "line": 123
+          },
+          {
+            "name": "test_05_cubic_power_overlap_and_nonabelian_colour_vertex",
+            "line": 146
+          },
+          {
+            "name": "test_06_curvature_finite_norm_and_remote_sector_control",
+            "line": 171
+          }
+        ]
+      }
+    ],
+    "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/run_checks.py": [],
+    "scripts/checks/check_path_references.py": [],
+    "scripts/checks/check_test_vacuity.py": [],
+    "scripts/checks/doc_currency.py": [],
+    "scripts/checks/relay_debt.py": [],
+    "scripts/checks/representation_sweep.py": [],
+    "scripts/checks/retraction_sweep.py": [],
+    "scripts/gates/gates.py": [],
+    "scripts/gates/prospective.py": [],
+    "scripts/gates/prospective_strict.py": [],
+    "scripts/gates/provenance_policy.py": [
+      {
+        "class": "PolicyError",
+        "methods": []
+      }
+    ],
+    "scripts/gates/tracked_state.py": [],
+    "scripts/views/generate.py": []
+  },
+  "runtime_scope": "CPython 3.12.1 standard library only and declared flags/environment required; runtime checks occur again in real runner. No fresh scientific/runtime execution certification supplied by this static review.",
+  "adjudication": {
+    "C1": "No missing exponent comparator in complete suite: actual powers independently integrated and separately Euler/norm checked.",
+    "C2": "True commuting finite coverage, explicitly declared; general holonomy identity separately hand checked, not claimed as finite noncommuting execution."
+  }
+}

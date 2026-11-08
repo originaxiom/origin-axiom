@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "experiment_id": "physical-same-action-gauge-response-six-controls-v1",
+  "sealed_commit": "d1a33e921d5cb16e4606b196fa970b91a2abfb6d",
+  "specification": {
+    "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/verification_gauge_response_2026_11_08/SPECIFICATION.json",
+    "sha256": "1297dbedd4c10696e88bbd3459890a08b0e27013c946be05181f4b4c3cfcb953"
+  },
+  "reviewer": "independent-gauge-response-transport-reviewer",
+  "nonauthoring": true,
+  "source_complete": true,
+  "decision": "APPROVE_EXECUTION",
+  "unresolved": [],
+  "scope": "Independent 2026-11-08 proof/code and source-completeness review of the exact registered SIX-control same-action residual-zero parallel-centralizer gauge-response packet: scalar/vector conformal weights, Poisson branches, flux/norm/Green/sewing and cubic identities, declared commuting holonomy control with separate general hand proof; 40 artifact pins, design/spec, local transitive import/subprocess closure, guarded wrapper and single-class six-method bridge, environment, recorded eight synthetic fixtures, seal/source-role metadata and read-only clean isolated checkout custody. C1/C2 independently adjudicated against full source coverage. Standard-library AST/hash/Git metadata and hand review only; no scientific import, collection, CAS, test or aggregate-gate execution. New static/dynamic core, seven-check successor and four-connection quartic excluded. This is independent review approval only; separately committed exact main acceptance and a real strict gate pass remain required before scientific execution."
+}
