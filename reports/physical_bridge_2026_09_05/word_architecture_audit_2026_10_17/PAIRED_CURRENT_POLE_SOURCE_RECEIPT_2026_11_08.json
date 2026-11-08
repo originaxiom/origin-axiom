@@ -1,0 +1,146 @@
+{
+  "date": "2026-11-08",
+  "status": "new author hand argument; unreviewed and unrun; classical/tree level only",
+  "source_baseline": "6fc2aa20654806b9ab0f0f3d831fcb8bed299fc9",
+  "scientific_execution": false,
+  "scientific_code_implemented": false,
+  "independent_review": null,
+  "main_acceptance": null,
+  "admission": null,
+  "design_addendum": "preimplementation, unregistered, five additional prospective duties",
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "commit": "6fc2aa20654806b9ab0f0f3d831fcb8bed299fc9",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "reading_scope": "personally read relevant proof sections; no import, collection or scientific execution",
+      "working_tree_same_as_pin": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "commit": "6fc2aa20654806b9ab0f0f3d831fcb8bed299fc9",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "reading_scope": "personally read relevant proof sections; no import, collection or scientific execution",
+      "working_tree_same_as_pin": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_ACTION_REAL_GAUGE_FIXING_AND_ONE_LOOP_WEIGHTS.md",
+      "commit": "6fc2aa20654806b9ab0f0f3d831fcb8bed299fc9",
+      "sha256": "18a7f1362ed866f909465139205895916ae5728da6c56896fb03e9f6c77f4cce",
+      "reading_scope": "personally read relevant proof sections; no import, collection or scientific execution",
+      "working_tree_same_as_pin": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/WEAK_CURRENT_GRADING_AND_DISCRETE_CHARGED_VECTORS.md",
+      "commit": "6fc2aa20654806b9ab0f0f3d831fcb8bed299fc9",
+      "sha256": "7ac2e6cc08a82d3c4ab34fbae52596da3b6171c48985b7c22729802e5f65db8e",
+      "reading_scope": "personally read relevant proof sections; no import, collection or scientific execution",
+      "working_tree_same_as_pin": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md",
+      "commit": "6fc2aa20654806b9ab0f0f3d831fcb8bed299fc9",
+      "sha256": "871529dd81603e1a70126f6ee518ae5c2758c107cf7e9fff62ae96f646a0813f",
+      "reading_scope": "personally read relevant proof sections; no import, collection or scientific execution",
+      "working_tree_same_as_pin": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_HALF_ROOT_KERNEL_AND_CORE_LIFT_SENSITIVITY.md",
+      "commit": "6fc2aa20654806b9ab0f0f3d831fcb8bed299fc9",
+      "sha256": "789adf7544bf5c679305aa8b9ba7525b6375155b026c839e01c34c281be23875",
+      "reading_scope": "personally read relevant proof sections; no import, collection or scientific execution",
+      "working_tree_same_as_pin": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_QUATERNION_STATIONARY_BUNDLE_AND_CUSP_LAW.md",
+      "commit": "6fc2aa20654806b9ab0f0f3d831fcb8bed299fc9",
+      "sha256": "221a7cd2dce2ff7dec0b135c348b7bb52e15bc27e5563d420756fbe31f9978a1",
+      "reading_scope": "personally read relevant proof sections; no import, collection or scientific execution",
+      "working_tree_same_as_pin": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PIN2_COMPENSATOR_COHERENCE_AND_ELECTROMAGNETIC_PHASE.md",
+      "commit": "6fc2aa20654806b9ab0f0f3d831fcb8bed299fc9",
+      "sha256": "fc67d4446b11f54c731b7e7aac56b496e501d5fa397040363de6c8074909a3b9",
+      "reading_scope": "personally read relevant proof sections; no import, collection or scientific execution",
+      "working_tree_same_as_pin": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_UP_SECTOR_PARABOLIC_COUNT_2026_11_08.md",
+      "commit": "6fc2aa20654806b9ab0f0f3d831fcb8bed299fc9",
+      "sha256": "477743caf7f2edc91117ed9f7ef24efcb834c5a8968bfd19ffc46865d75d9ff9",
+      "reading_scope": "personally read relevant proof sections; no import, collection or scientific execution",
+      "working_tree_same_as_pin": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ACTUAL_ZERO_MODE_CURRENT_AND_RANK_ONE_VECTOR_2026_11_08.md",
+      "commit": "6fc2aa20654806b9ab0f0f3d831fcb8bed299fc9",
+      "sha256": "d9ac79d4573e9b77dfe0a515e3821abe5eb213c6ebc125341ca07e45d9d8a984",
+      "reading_scope": "personally read relevant proof sections; no import, collection or scientific execution",
+      "working_tree_same_as_pin": false
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PRELIMINARY_CURRENT_CROSSCHECKS_2026_11_08.md",
+      "commit": "6fc2aa20654806b9ab0f0f3d831fcb8bed299fc9",
+      "sha256": "80140318a899936aa7b04804b5b10fd5d51e413b96f29f4e3a3bc81356026ff4",
+      "reading_scope": "personally read relevant proof sections; no import, collection or scientific execution",
+      "working_tree_same_as_pin": false
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_MODE_ELIMINATION_AND_INDUCED_KINETIC_METRIC.md",
+      "commit": "6fc2aa20654806b9ab0f0f3d831fcb8bed299fc9",
+      "sha256": "2ba7f4810d821c7aa95fc458ea5219187037381a4bc34830067f36e7f2119678",
+      "reading_scope": "personally read relevant proof sections; no import, collection or scientific execution",
+      "working_tree_same_as_pin": true
+    }
+  ],
+  "new_or_updated_artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CONJUGATE_SECTOR_VECTOR_AND_PAIRED_CURRENT_POLE_2026_11_08.md",
+      "sha256": "d63b14319b2ea19c29e9082c9e37d0534ee30285ca7fd028d35856182ec90c2a"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_weak_current_2026_11_08/ADDENDUM_PAIRED_CURRENT_POLE.md",
+      "sha256": "ffb97d28cf06bbd5c3c4538586e5a74497683e424d13e5faa5bd9ba51dfc13f2"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_AGY_AND_SM_2026-11-08_SECOND_VECTOR_AND_CURRENT_POLE.md",
+      "sha256": "d900971a6dec85a8a0e7266e4ee6962dcab5686c29797b986707fbd8672a6da4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ACTUAL_ZERO_MODE_CURRENT_AND_RANK_ONE_VECTOR_2026_11_08.md",
+      "sha256": "70e2cfbd88b5d61ed7d8fc87dece743bcff6224e551e949d8ec530e233f9319b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PRELIMINARY_CURRENT_CROSSCHECKS_2026_11_08.md",
+      "sha256": "8ae3ef5b5cb1d601497a0748b5ecd3fa9a3fc58e56cee99ae0410d8fedc4e453"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/PROGRESS_SINCE_MAIN_217E_2026_11_08.md",
+      "sha256": "03a86257b674a12e188e51f94b45af8237e1e5949430805cddad39aadb68120a"
+    }
+  ],
+  "source_custody_note": "Two original source proofs now carry forward-pointer notices; original mathematical text remains at exact baseline pins. Custody is not a proof pass.",
+  "new_candidate_duties": [
+    "two distinct complex charged species, not antiparticles twice",
+    "nonzero right-current product witness at the same tree pole",
+    "unitary coefficient/norm intertwiners and relative magnitude one in this pure-h4 candidate",
+    "positive pole Gram and singular complement response"
+  ],
+  "logical_separation": [
+    "paired existence does not require coupling equality",
+    "exhibited currents do not require completeness of the up-three count",
+    "finite algebra does not certify global extension or domain",
+    "tree-level pairing is not asserted protected against quantum or changed-background effects"
+  ],
+  "residual_inputs": [
+    "supplied E8 action and positive metrics",
+    "complete punctured elliptic carrier and curvature scale",
+    "balanced stationary background",
+    "coherent spin/flavour gauge coupling",
+    "eta=O and pure-h4 quark-current state",
+    "register-to-field physical interpretation"
+  ],
+  "canonical_promotion": false,
+  "foundation_input_reduction_claimed": false
+}

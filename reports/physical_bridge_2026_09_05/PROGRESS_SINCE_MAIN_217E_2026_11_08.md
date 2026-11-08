@@ -255,3 +255,34 @@ vector towers, neutral spectrum and foundational selection remain open.
 Ten prospective controls are recorded before implementation; neither
 their admission nor passing execution is claimed. These author proposals
 do not change the independent 16/18 review or the 0-of19 parameter ledger.
+
+## 7. Full conjugate-sector check changes the current priority
+
+The author-only successor
+CONJUGATE_SECTOR_VECTOR_AND_PAIRED_CURRENT_POLE_2026_11_08.md
+applies the same extension/eigenmode construction in both electromagnetic
+charge blocks. Compact conjugation then gives TWO independent complex
+charged-vector species at7/(2ell^2), not a particle/antiparticle counted
+twice. One has the previous left spin-quark current; the other has a
+nonzero right spin-quark current. A new coefficient/norm comparison
+proposes equal magnitudes of these two tree-level couplings in the
+specified pure-h4 background. Their common value is not computed.
+
+The positive pole-residue argument prevents deleting the right-current
+species by a degenerate-vector basis choice or a regular local response
+at that pole. This leaves the original single-mode result intact but
+requires the whole pole before a chirality claim. The new existence
+witnesses do not require the unreviewed completeness of the up-three
+roster. They still require independent scrutiny of the actual operator,
+bundle/domain and bracket maps; no scientific check has run.
+
+Changing only the modulus, ell or a unitary line twist preserves the
+paired vector existence argument. Changes of quark modes or of normalized
+couplings under new data must be calculated separately. The next useful
+repair question is a derived different stationary background/source law
+or physical field map from the same architecture, with its full spectrum
+and current response retained. The numerical form-current mass join
+alone would no longer discharge the main weak-chirality dependency.
+No programme-wide impossibility, observed exclusion or new foundation-
+level input reduction is asserted. AGY's documentary revision remains
+its only released task; it is not assigned to duplicate this calculation.

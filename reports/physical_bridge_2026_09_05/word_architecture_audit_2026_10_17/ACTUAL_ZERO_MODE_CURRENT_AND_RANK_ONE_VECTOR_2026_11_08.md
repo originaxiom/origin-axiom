@@ -7,6 +7,13 @@ Source baseline is physical30f348e15755a3c5a824e75d5ed6ba354e200bb3;
 the AGY source-map review is separate. The candidate up-count and its
 complete-domain argument remain independent-review obligations.
 
+SUCCESSOR NOTICE: CONJUGATE_SECTOR_VECTOR_AND_PAIRED_CURRENT_POLE_2026_11_08.md
+now constructs the previously unresolved second, right-current vector
+at the same tree-level pole, with a conditional norm-equality argument.
+This single-mode proof remains a valid candidate at its stated scope;
+read the successor before interpreting it as an isolated chiral sector.
+The successor is also author-only, unreviewed and unrun.
+
 ## 1. Fixed candidate and bounded question
 
 Keep the supplied compact E8 curved action, its positive kinetic metrics,

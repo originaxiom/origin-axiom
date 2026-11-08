@@ -8,6 +8,14 @@ The calculations below are hand arguments. Their agreement improves the
 internal consistency case; it neither proves every hypothesis nor changes
 the candidate's UNREVIEWED/UNRUN status.
 
+SUCCESSOR NOTICE: the subsequently authored
+CONJUGATE_SECTOR_VECTOR_AND_PAIRED_CURRENT_POLE_2026_11_08.md
+constructs a second charged-vector species at the same tree-level mass,
+coupled to the right quark current, with a separate norm-comparison
+argument. This resolves one previously open obligation conditionally;
+the form-current mass match alone would not establish weak chirality.
+No independent review or scientific execution is implied by that update.
+
 The owner's question is right: checks before final acceptance can expose
 mistakes and inform exploration. Existing execution rules still distinguish
 author hand/source scrutiny from admitted computational verification.
