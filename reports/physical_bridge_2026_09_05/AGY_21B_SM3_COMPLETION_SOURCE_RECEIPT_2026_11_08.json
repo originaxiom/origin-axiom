@@ -1,0 +1,111 @@
+{
+  "schema": "oa-targeted-source-assessment-receipt-v1",
+  "date": "2026-11-08",
+  "author_branch": "audit/physical-bridge-2026-09-05",
+  "base_commit": "1704f9e4153dea79d4d2ff2ea33cbe029fcb9481",
+  "agy_commit": "21b293e87ff09fd64911267e9b4aa447fbfab2b9",
+  "scope": "Targeted changed-source and relay read; research checklist and author source diagnosis only",
+  "not_independent_review": true,
+  "scientific_imports_performed": false,
+  "scientific_collection_performed": false,
+  "scientific_execution_performed": false,
+  "new_scientific_results_certified": false,
+  "tools_used_for_receipt": "stdlib AST/text/hash and git object inspection; no producer import",
+  "inspected_source_blobs": {
+    "src/origin_axiom/weave_unification_bridge.py": {
+      "sha256": "73bb65f3c09a6511b9bbcfd3666c7e945ffd39aeab61fe23f589b91113d759c6",
+      "git_blob": "45f9c2d6d3745c36022cce6b82df4f45a751afa9"
+    },
+    "src/origin_axiom/p000_pure_logic_bridge.py": {
+      "sha256": "76bd14f3488d1413969da367ee98ef6c2408a4a5f1800ebed5e1cd64f23c4ce5",
+      "git_blob": "a9242e250b6a733c1c5833b205051c4d4bba54ff"
+    },
+    "docs/audit/AGY_RELAY_2026_11_07_WEAVE_UNIFICATION_AND_SOURCE_REPAIRS.md": {
+      "sha256": "771274740ee480e74d767fb6c2f2125111c37cdb84bd00cd2dd161ae0dd6fe08",
+      "git_blob": "9c45b28a982e49f5710238dbe3000a4465b271ff"
+    },
+    "relays/AGY_TO_PHYSICAL_AND_MAIN_2026-11-07_SUCCESSOR_REPAIRS_AND_WEAVE_CRYSTALLIZATION.md": {
+      "sha256": "771274740ee480e74d767fb6c2f2125111c37cdb84bd00cd2dd161ae0dd6fe08",
+      "git_blob": "9c45b28a982e49f5710238dbe3000a4465b271ff"
+    }
+  },
+  "function_spans": {
+    "verify_wall1_nonabelian_period_zero_flux_stationarity_and_v1_repair": [
+      3950,
+      4203
+    ],
+    "verify_wall3_coupled_half_root_kernel_pv_eigenmode_and_weak_vertex": [
+      4206,
+      4791
+    ],
+    "verify_coupled_2d_surface_and_3sheet_cover_bvp": [
+      4794,
+      5345
+    ],
+    "_total_cohomology": [
+      4483,
+      4507
+    ],
+    "compute_4slot_weak_vertex_overlap": [
+      5185,
+      5253
+    ]
+  },
+  "literal_source_locations": {
+    "c_a_coeff = i_l_vbb": {
+      "src/origin_axiom/weave_unification_bridge.py": [
+        4016
+      ]
+    },
+    "lambda_4_coeff = (quat_comm_norm_sq / 2) * i_g_k0": {
+      "src/origin_axiom/weave_unification_bridge.py": [
+        4017
+      ]
+    },
+    "pure_h4_kernel_dim == 24": {
+      "src/origin_axiom/weave_unification_bridge.py": [
+        4556
+      ]
+    },
+    "v_weak_6x6 = np.kron(tau_plus, g_mat_3)": {
+      "src/origin_axiom/weave_unification_bridge.py": [
+        5262
+      ]
+    },
+    "f1_r = np.exp(-0.5 * t_nodes)": {
+      "src/origin_axiom/weave_unification_bridge.py": [
+        5227
+      ]
+    },
+    "f2_r = np.exp(-1.5 * t_nodes)": {
+      "src/origin_axiom/weave_unification_bridge.py": [
+        5229
+      ]
+    },
+    "e8_remains_supplied_premise_not_earned_from_single_register": {
+      "src/origin_axiom/p000_pure_logic_bridge.py": [
+        3044
+      ],
+      "docs/audit/AGY_RELAY_2026_11_07_WEAVE_UNIFICATION_AND_SOURCE_REPAIRS.md": [
+        230
+      ],
+      "relays/AGY_TO_PHYSICAL_AND_MAIN_2026-11-07_SUCCESSOR_REPAIRS_AND_WEAVE_CRYSTALLIZATION.md": [
+        230
+      ]
+    }
+  },
+  "new_documents": {
+    "reports/physical_bridge_2026_09_05/SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md": {
+      "sha256": "b3a04ab794beab0fce31b4365a011d2c3353f03932d22eef34469fd59b71729f"
+    },
+    "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_MAIN_AND_SM_2026-11-08_21B_SCOPE_AND_SM3_COMPLETION.md": {
+      "sha256": "769aaadb8cd6614da9f44d39529f8ca0b0dd3c8902d34221fb12c95142dc6a4b"
+    }
+  },
+  "scope_limits": [
+    "No independent reproduction of AGY counts, thresholds, or overlaps",
+    "No blanket audit of the AGY branch",
+    "No new science execution admission",
+    "No completed SM3 or physical-gravity claim"
+  ]
+}
