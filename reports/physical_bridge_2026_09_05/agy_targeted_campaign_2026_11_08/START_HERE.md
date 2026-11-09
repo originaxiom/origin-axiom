@@ -1,21 +1,33 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-09. Coordination revision 18, requested by the owner to avoid
+2026-11-09. Coordination revision 19, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
 
-## Current assignment AGY-02c
+## Current assignment AGY-04a
 
-Read RUN_TICKET_AGY_02C.md and REVIEW_AGY_02B_9F045_2026_11_09.md.
-Join the complete kernel through actual physical harmonic embeddings,
-gauge representations, positive kinetic Gram forms and operator domains
-on both coherent phases. Retain all spin choices and continua. Reuse
-existing current witnesses and expose the remaining interaction duty.
-Bundle the neutral quaternion-generator and scope corrections with this
-substantive successor. Return a bounded proof or exact unresolved map,
-compact handoff and relay, commit/push and stop. Formal independent
-review and scientific admission remain owed.
+Read RUN_TICKET_AGY_04A.md and REVIEW_AGY_02C_BE704_2026_11_09.md.
+Derive the actual lepton-form/neutral-W1 currents on the existing balanced
+h4, W=1, eta=O model through the two named vector witnesses. Establish
+rank and invariant strength, or return the exact unresolved global
+product/integral. Carry source coordinate factors, actual E8 brackets,
+physical Hodge metrics and positive kinetic norms. Bundle the joined
+packet's map/scope/input repairs in the same substantive return.
+Commit/push and stop. This is existing-model hand preparation for AGY-04.
+AGY-03 response duties, formal review and scientific admission remain open.
+
+## Prior assignment AGY-02c, joined hand result with binding corrections
+
+Checkpoint be7047fb6d29346d0fce3818c2cae05ec5ca33b9 gives conditional
+full counts 68/60 on h4 and 70/62 on h1, pure-field zero witnesses and
+slot/weight Gram splits. Restore the original mass-map Omega factors,
+source Q, faithful X notation, coefficient type of T and rank-two up
+spin bundle. Transport w_R's charge after conjugation. Restrict partial
+inverses to their range and preserve off-spectrum regulator assumptions.
+The named-mode current zeros leave other possible coincident vectors
+open in the actual cited source. Restore g6/action normalization and
+full input/review duties. Read the exact review before promotion.
 
 ## Prior assignment AGY-02b, hand count with generator correction
 

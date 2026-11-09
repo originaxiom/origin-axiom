@@ -1,0 +1,201 @@
+{
+  "date": "2026-11-09",
+  "checkpoint": "be7047fb6d29346d0fce3818c2cae05ec5ca33b9",
+  "decision": "JOINED_HAND_KERNEL_SUPPORTED_WITH_BINDING_MAP_AND_SCOPE_CORRECTIONS",
+  "activity": "personal source reading, hand mass-map/representation/scope review and Git/hash metadata",
+  "scientific_execution": false,
+  "formal_independent_review": null,
+  "reviewer_relationship": "physical seat authored dependencies and current witnesses; formal nonauthoring review owed",
+  "source_pins_checked": 18,
+  "sources": [
+    {
+      "commit": "393368cc42b3eeb08a101a084cb2b3537e352e73",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RUN_TICKET_AGY_02C.md",
+      "sha256": "d6ad3cca031a487f411289577da5e4bbbd8a05b6f2be4a3a0fcd96e6af4e59c0",
+      "matches_declared": true
+    },
+    {
+      "commit": "393368cc42b3eeb08a101a084cb2b3537e352e73",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/START_HERE.md",
+      "sha256": "945a1e45a98bd89c59b8bd027fd8488a234ab27f46de1da1e793329e0805d11c",
+      "matches_declared": true
+    },
+    {
+      "commit": "393368cc42b3eeb08a101a084cb2b3537e352e73",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/TASKS.json",
+      "sha256": "47b40d67923f581b2fbf270fd8cbda022c049914cce836b5a3a64f6c8ea93498",
+      "matches_declared": true
+    },
+    {
+      "commit": "393368cc42b3eeb08a101a084cb2b3537e352e73",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_02B_9F045_2026_11_09.md",
+      "sha256": "e1d18ab08baf5cc95924ccbe0b85fc7312b7ed0b15bdcd4cce2574e4eb7da943",
+      "matches_declared": true
+    },
+    {
+      "commit": "be7047fb6d29346d0fce3818c2cae05ec5ca33b9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COEFFICIENT_ROSTER.md",
+      "sha256": "a98ff428d827d11adf8400e9e03e49b7360f3ccae03ed6f957e9780eec4ed33f",
+      "matches_declared": true
+    },
+    {
+      "commit": "be7047fb6d29346d0fce3818c2cae05ec5ca33b9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/NEUTRAL_D5_KERNEL.md",
+      "sha256": "dbbffb7360fdbad75d967b76feac75864fe4b36a8943714860bd454653831fad",
+      "matches_declared": true
+    },
+    {
+      "commit": "be7047fb6d29346d0fce3818c2cae05ec5ca33b9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REGISTER_TO_GRADING.md",
+      "sha256": "965c3652ce550b448e3aa37e0b397f5492339882ce18b38a94f4bdf36addf008",
+      "matches_declared": true
+    },
+    {
+      "commit": "be7047fb6d29346d0fce3818c2cae05ec5ca33b9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COHERENT_PHASE_CLASSES.md",
+      "sha256": "9b0ec09b6b5effbfd5853dcd599f95ff3bb2106d39c1a2146c226b069630f6d0",
+      "matches_declared": true
+    },
+    {
+      "commit": "be7047fb6d29346d0fce3818c2cae05ec5ca33b9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CENTRALIZER_COMPONENTS.md",
+      "sha256": "a0e86b7164e401498869fce468a5fcfad140ca28529e86d721b3dffab7673075",
+      "matches_declared": true
+    },
+    {
+      "commit": "be7047fb6d29346d0fce3818c2cae05ec5ca33b9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COMPENSATOR_RANGE_AUDIT.md",
+      "sha256": "81b29726b20218ed2625de06369c7a5d55c13427d85d81ed2888d27a3280a0d3",
+      "matches_declared": true
+    },
+    {
+      "commit": "be7047fb6d29346d0fce3818c2cae05ec5ca33b9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+      "sha256": "98bf93b4be89297901e8f9718f88ea526105b717310df63b75e21deb282713e5",
+      "matches_declared": true
+    },
+    {
+      "commit": "393368cc42b3eeb08a101a084cb2b3537e352e73",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PHYSICAL_ROSTER_TARGETS_AND_NEUTRAL_TAIL_CONTROL_2026_11_09.md",
+      "sha256": "4079abd1606bcd72e4f20b0a89db1fd14de8f7a2fcb8ad9d5858160f912915e6",
+      "matches_declared": true
+    },
+    {
+      "commit": "393368cc42b3eeb08a101a084cb2b3537e352e73",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_HALF_ROOT_KERNEL_AND_CORE_LIFT_SENSITIVITY.md",
+      "sha256": "789adf7544bf5c679305aa8b9ba7525b6375155b026c839e01c34c281be23875",
+      "matches_declared": true
+    },
+    {
+      "commit": "393368cc42b3eeb08a101a084cb2b3537e352e73",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_UP_SECTOR_PARABOLIC_COUNT_2026_11_08.md",
+      "sha256": "477743caf7f2edc91117ed9f7ef24efcb834c5a8968bfd19ffc46865d75d9ff9",
+      "matches_declared": true
+    },
+    {
+      "commit": "393368cc42b3eeb08a101a084cb2b3537e352e73",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CENTRALIZER_KERNEL_WITH_THRESHOLD_CONTINUUM.md",
+      "sha256": "a19e2c6c6b4faa0db3bbe16402499314f259a8db0ce590b0bcaf3ac4130970f5",
+      "matches_declared": true
+    },
+    {
+      "commit": "393368cc42b3eeb08a101a084cb2b3537e352e73",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/WEAK_CURRENT_GRADING_AND_DISCRETE_CHARGED_VECTORS.md",
+      "sha256": "7ac2e6cc08a82d3c4ab34fbae52596da3b6171c48985b7c22729802e5f65db8e",
+      "matches_declared": true
+    },
+    {
+      "commit": "393368cc42b3eeb08a101a084cb2b3537e352e73",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ACTUAL_ZERO_MODE_CURRENT_AND_RANK_ONE_VECTOR_2026_11_08.md",
+      "sha256": "70e2cfbd88b5d61ed7d8fc87dece743bcff6224e551e949d8ec530e233f9319b",
+      "matches_declared": true
+    },
+    {
+      "commit": "393368cc42b3eeb08a101a084cb2b3537e352e73",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CONJUGATE_SECTOR_VECTOR_AND_PAIRED_CURRENT_POLE_2026_11_08.md",
+      "sha256": "d63b14319b2ea19c29e9082c9e37d0534ee30285ca7fd028d35856182ec90c2a",
+      "matches_declared": true
+    }
+  ],
+  "additional_source_reads": [
+    {
+      "commit": "393368cc42b3eeb08a101a084cb2b3537e352e73",
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    },
+    {
+      "commit": "393368cc42b3eeb08a101a084cb2b3537e352e73",
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "commit": "393368cc42b3eeb08a101a084cb2b3537e352e73",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PRELIMINARY_CURRENT_CROSSCHECKS_2026_11_08.md",
+      "sha256": "8ae3ef5b5cb1d601497a0748b5ecd3fa9a3fc58e56cee99ae0410d8fedc4e453"
+    },
+    {
+      "commit": "393368cc42b3eeb08a101a084cb2b3537e352e73",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_QUATERNION_STATIONARY_BUNDLE_AND_CUSP_LAW.md",
+      "sha256": "221a7cd2dce2ff7dec0b135c348b7bb52e15bc27e5563d420756fbe31f9978a1"
+    }
+  ],
+  "artifacts": [
+    {
+      "commit": "be7047fb6d29346d0fce3818c2cae05ec5ca33b9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/JOINED_KERNEL_AND_PHYSICAL_MAP.md",
+      "sha256": "8ccecf7ce33c28c1bdee6ee9eed96be622dc39e36c80c5fb3ccb93a049f579ef",
+      "whitespace_words": 2394
+    },
+    {
+      "commit": "be7047fb6d29346d0fce3818c2cae05ec5ca33b9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/NEUTRAL_D5_KERNEL.md",
+      "sha256": "dbbffb7360fdbad75d967b76feac75864fe4b36a8943714860bd454653831fad",
+      "whitespace_words": 2355
+    },
+    {
+      "commit": "be7047fb6d29346d0fce3818c2cae05ec5ca33b9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md",
+      "sha256": "3877aa0971a2bcc19055f8e023b6b8190724739541762ccc8e8d917a606df0d0",
+      "whitespace_words": 453
+    },
+    {
+      "commit": "be7047fb6d29346d0fce3818c2cae05ec5ca33b9",
+      "path": "relays/AGY_TO_PHYSICAL_2026-11-09_AGY_02C_JOINED_KERNEL_MAP.md",
+      "sha256": "9c60e0b785d2a0afbb7757f56d9f58c7718fddf904804629a4c6aaf222faba7c",
+      "whitespace_words": 221
+    }
+  ],
+  "new_artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_02C_BE704_2026_11_09.md",
+      "sha256": "e683ad30c038715f58f38c7f8b01652e7281aa8d5da753b2a36e96f7bfbde57d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RUN_TICKET_AGY_04A.md",
+      "sha256": "0b0c9ab4ed70bfe630cb75e56eec01bcd86a000d2e252b0979f965c9a8a3faff"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_2026-11-09_BE704_JOIN_REVIEW_AND_LEPTON_CURRENT.md",
+      "sha256": "dbd5b3333b161fc2a48a9c4db8564ee5e5e3cf19e933011f1a596d09f035146c"
+    }
+  ],
+  "supported_hand_results": [
+    "conditional full kernel dimensions h4=68/60, h1=70/62",
+    "pure-field harmonic zero representatives at the balanced background after retaining original coordinate mass factors",
+    "physical slot and weight norm decomposition with actual invariant projectors",
+    "bounded orthogonal kernel projection and specified Fredholm complement"
+  ],
+  "binding_repairs": [
+    "coordinate mass-map Omega factors",
+    "actual source Q and coherent X notation",
+    "type of unitary coefficient intertwiner T",
+    "rank-two up spin carrier and exact character-projector norm argument",
+    "w_R charge/conjugate representation",
+    "partial inverse range and off-spectrum regularization",
+    "named vector/current zeros versus full unresolved degenerate pole",
+    "retained g6/action normalization and independent-review duties"
+  ],
+  "current_new_lepton_overlap_status": "allowed by grade; complete form-space overlap and rank still open",
+  "canonical_physical_input_reductions_claimed": 0,
+  "prior_neutral_repairs_incorporated": true
+}

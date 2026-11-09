@@ -8,14 +8,14 @@
   "review_branch": "audit/physical-bridge-2026-09-05",
   "delivery_channel": "versioned repository relay; no live worker start or acknowledgement inferred",
   "worker_acknowledgement": {
-    "commit": "9f0450d3ab6bd313e27044ac7b5647d34ce7b71d",
-    "type": "neutral hand count and critical orthogonal split supported with displayed quaternion-generator correction; formal review pending"
+    "commit": "be7047fb6d29346d0fce3818c2cae05ec5ca33b9",
+    "type": "joined conditional hand kernel and pure-field witnesses supported with binding physical map and spectral-scope corrections"
   },
   "max_active_proof_code_packets_after_intake": 1,
   "scientific_execution_authorized_by_this_board": false,
   "first_return": [
-    "JOINED_KERNEL_AND_PHYSICAL_MAP.md",
-    "NEUTRAL_D5_KERNEL.md with bundled generator/scope corrections",
+    "LEPTON_FORM_CURRENT.md",
+    "JOINED_KERNEL_AND_PHYSICAL_MAP.md with bundled repairs",
     "RESUME.md",
     "short new return relay"
   ],
@@ -175,7 +175,7 @@
         "AGY-00",
         "AGY-01"
       ],
-      "status": "NEUTRAL_HAND_KERNEL_SUPPORTED_WITH_GENERATOR_CORRECTION; JOINED_PHYSICAL_MAP_02C_RELEASED",
+      "status": "SCOPED_JOINED_HAND_KERNEL_SUPPORTED_WITH_BINDING_CORRECTIONS; FORMAL_REVIEW_AND_CURRENT_DUTIES_REMAIN",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -188,13 +188,8 @@
       "execution_admission": null,
       "admitted_run_evidence": null,
       "accepted_result": null,
-      "current_microtask": "AGY-02c",
-      "released_current_outputs": [
-        "JOINED_KERNEL_AND_PHYSICAL_MAP.md",
-        "NEUTRAL_D5_KERNEL.md with bundled generator/scope corrections",
-        "RESUME.md",
-        "short new return relay"
-      ],
+      "current_microtask": null,
+      "released_current_outputs": [],
       "coefficient_roster_result": {
         "checkpoint": "d1f2125a87bf4dc22f033a0c939dd737d28565fa",
         "decision": "PARTIAL_HAND_ROSTER_SUPPORTED_WITH_BINDING_CORRECTIONS",
@@ -221,6 +216,22 @@
         "formal_independent_review": null,
         "execution": null,
         "requires_displayed_generator_correction": true
+      },
+      "joined_kernel_result": {
+        "checkpoint": "be7047fb6d29346d0fce3818c2cae05ec5ca33b9",
+        "decision": "JOINED_HAND_KERNEL_SUPPORTED_WITH_BINDING_MAP_AND_SCOPE_CORRECTIONS",
+        "review": "REVIEW_AGY_02C_BE704_2026_11_09.md",
+        "h4_dimensions": [
+          68,
+          60
+        ],
+        "h1_dimensions": [
+          70,
+          62
+        ],
+        "formal_independent_review": null,
+        "execution": null,
+        "author_100_percent_closure_accepted": false
       }
     },
     {
@@ -252,7 +263,7 @@
         "AGY-02",
         "AGY-03"
       ],
-      "status": "UNRELEASED; PENDING_DEPENDENCY_REVIEW_AND_RUN_TICKET",
+      "status": "EXISTING_MODEL_HAND_CURRENT_PROBE_04A_RELEASED; AGY03_RESPONSE_DUTY_REMAINS",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -264,7 +275,15 @@
       "main_execution_acceptance": null,
       "execution_admission": null,
       "admitted_run_evidence": null,
-      "accepted_result": null
+      "accepted_result": null,
+      "current_microtask": "AGY-04a",
+      "released_current_outputs": [
+        "LEPTON_FORM_CURRENT.md",
+        "JOINED_KERNEL_AND_PHYSICAL_MAP.md with bundled repairs",
+        "RESUME.md",
+        "short new return relay"
+      ],
+      "release_scope": "existing complete balanced h4/W=1/eta=O model only, using already specified domains; no new interface/domain or AGY03 completion inferred"
     },
     {
       "id": "AGY-05",
@@ -319,32 +338,33 @@
     "six_control_science_execution": "UNRUN; separate main acceptance and admission outstanding",
     "later_seven_and_four_controls": "UNRUN; outside completed review"
   },
-  "coordination_revision": 18,
-  "revision_base_commit": "65b359b222daaf7e3deb3e5d084dbc312bec2905",
+  "coordination_revision": 19,
+  "revision_base_commit": "393368cc42b3eeb08a101a084cb2b3537e352e73",
   "start_document": "START_HERE.md",
   "max_active_microtasks_per_worker_context": 1,
   "dispatch": {
-    "released_microtask": "AGY-02c",
-    "parent_task": "AGY-02",
-    "question": "Join the full gauge-resolved physical kernel through actual harmonic embeddings, positive kinetic forms and operator domains",
-    "run_ticket": "RUN_TICKET_AGY_02C.md",
-    "neutral_checkpoint": "9f0450d3ab6bd313e27044ac7b5647d34ce7b71d",
-    "required_correction": "REVIEW_AGY_02B_9F045_2026_11_09.md; rho prime b=-i sigma_y and Y_mid=-epsilon_h i sigma_y",
-    "acceptance_scope": "conditional author/source hand argument with explicit correction; formal independent review and scientific admission owed",
+    "released_microtask": "AGY-04a",
+    "parent_task": "AGY-04",
+    "question": "Derive the complete lepton-form to neutral-W1 current maps through the named wL/wR species and their actual invariant strengths",
+    "run_ticket": "RUN_TICKET_AGY_04A.md",
+    "joined_checkpoint": "be7047fb6d29346d0fce3818c2cae05ec5ca33b9",
+    "required_correction": "REVIEW_AGY_02C_BE704_2026_11_09.md",
+    "dependency_scope": "existing-model source/hand current preparation; AGY03 common-action boundary/source duties remain open",
+    "acceptance_scope": "conditional author hand kernel with explicit physical-map and negative-scope repairs; formal independent review and science admission owed",
     "allowed_activity": [
-      "read exact sector proofs and reuse existing current maps",
-      "derive complete kernel representation and harmonic embeddings on both phases",
-      "pull back physical norms and define domain-aware kernel projectors/current maps",
-      "bundle the generator and spectral/global-class scope repairs",
+      "read exact current, harmonic and source mass-map proofs",
+      "derive global E8 lepton-form current and actual phase/norm witnesses by hand",
+      "retain other possible vector degeneracies and unresolved profile integrals",
+      "bundle joined-kernel map and input-ledger corrections",
       "save bounded proof and handoff; commit/push; stop"
     ],
     "required_outputs": [
-      "JOINED_KERNEL_AND_PHYSICAL_MAP.md <=2400 words plus <=100 witness-equation/table rows",
-      "NEUTRAL_D5_KERNEL.md with bundled corrections",
+      "LEPTON_FORM_CURRENT.md <=2200 words plus <=100 witness-equation/table rows",
+      "JOINED_KERNEL_AND_PHYSICAL_MAP.md with bundled repairs",
       "RESUME.md <=700 words",
       "new relay <=250 words"
     ],
-    "stop_condition": "Return full physical kernel-map packet or exact missing harmonic/domain/norm joint for substantive review",
+    "stop_condition": "Return exact current rank/norm witness or the precise unresolved phase/product/integral for substantive review",
     "next_microtask_released": false,
     "scientific_execution_authorized": false
   },
@@ -365,6 +385,8 @@
     "nonblocking_reading_notes_may_accompany_scoped_hand_acceptance": true,
     "blocking_mathematical_findings_stop_dependent_claims": true,
     "one_bounded_proof_question_per_worker_context": true,
-    "formal_review_can_remain_pending_during_author_hand_successors": true
+    "formal_review_can_remain_pending_during_author_hand_successors": true,
+    "operator_source_guardrail": "Reuse original coordinate expressions verbatim or declare the complete source/target/norm rescaling before altering their factors.",
+    "negative_scope_guardrail": "Preserve named-mode versus full-degenerate-eigenspace quantifiers; an unresolved other-mode spectrum remains open."
   }
 }
