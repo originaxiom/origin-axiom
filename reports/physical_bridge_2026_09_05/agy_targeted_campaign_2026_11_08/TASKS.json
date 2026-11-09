@@ -340,8 +340,8 @@
     "six_control_science_execution": "UNRUN; separate main acceptance and admission outstanding",
     "later_seven_and_four_controls": "UNRUN; outside completed review"
   },
-  "coordination_revision": 20,
-  "revision_base_commit": "bf5e9a662fca4b5aa81801d20a5f71f1b137e828",
+  "coordination_revision": 21,
+  "revision_base_commit": "b9a4176d78f7f0e74045f103db29063008e33e49",
   "start_document": "START_HERE.md",
   "max_active_microtasks_per_worker_context": 1,
   "dispatch": {
@@ -401,7 +401,20 @@
     "patch": "CENTRALIZER_COMPONENTS_W_F1_SIGN_2026_11_09.patch",
     "corrected_source_sha256": "0e21636e01332e6cae765382c79aff9278dfdbe074e7e94a729a6aeb359a4ff4",
     "apply_with_current_task": "AGY-04a",
-    "external_numerical_artifacts": "pending from owner/exploration seat",
+    "external_numerical_artifacts": "received at external_dsl_audit_2026_11_09; source/hand audit complete at its declared scope; no numerical rerun or admission",
     "scientific_execution_authorized": false
+  },
+  "external_audit_source_review": {
+    "archive_head": "2f45580c4afa5985145df7520575dd9c4e51d928",
+    "standalone_reported_commit": "ad6f2f5b4f7bbdaca25bbe6dabcb1b6eb80b2f62",
+    "document": "external_dsl_audit_2026_11_09/REVIEW.md",
+    "custody": "external_dsl_audit_2026_11_09/CUSTODY.json",
+    "decision": "PRESERVE_FINITE_POSITIVES_AND_SIGN_REPAIR; REVISE_GUARDRAIL_AND_COVERAGE_CLAIMS",
+    "scientific_execution_by_physical_seat": false,
+    "formal_source_complete_acceptance": null,
+    "main_acceptance": null,
+    "execution_admission": null,
+    "canonical_inputs_reduced": 0,
+    "active_assignment_unchanged": "AGY-04a"
   }
 }

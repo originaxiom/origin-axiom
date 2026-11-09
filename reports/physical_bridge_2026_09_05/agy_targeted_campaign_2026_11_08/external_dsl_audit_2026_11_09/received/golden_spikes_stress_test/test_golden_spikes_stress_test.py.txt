@@ -1,0 +1,240 @@
+#!/usr/bin/env python3
+"""Unit test suite for verify_golden_spikes_stress_test.py (v2).
+
+Includes positive mathematical assertions and negative/ablation controls
+in compliance with user_global guardrails 1-6 and REVIEW_RULES_FOR_AGY.md,
+incorporating all 10 hostile-referee tightenings (F-1A.1 through F-2B.1).
+"""
+
+from __future__ import annotations
+
+import unittest
+
+from verify_golden_spikes_stress_test import (
+    verify_spike_1a_pure_h4_gauge_and_spin_gate,
+    verify_spike_1b_up_sector_koszul_and_parabolic_count,
+    verify_spike_1c_weak_current_and_paired_pole,
+    verify_spike_2_modular_g24_and_characteristic_cover,
+    verify_spike_3_native_cyclic_and_moment_response,
+)
+
+
+class TestGoldenSpikesStressTest(unittest.TestCase):
+    def test_part_1a_pure_h4_gauge_and_spin_gate(self) -> None:
+        res = verify_spike_1a_pure_h4_gauge_and_spin_gate()
+        self.assertLess(res["h4_sq_minus_cinv_norm"], 1e-12)
+        self.assertLess(res["det_h4_err"], 1e-12)
+        # F-1A.1: Explicit 15-generator su(4) orthonormality and Cartan commutation
+        self.assertLess(res["su4_orthonormality_err"], 1e-12)
+        self.assertLess(res["cartan_comm_max_err"], 1e-12)
+        self.assertEqual(res["su4_u3_centralizer_dim"], 9)
+        self.assertEqual(res["su4_leptoquark_coset_dim"], 6)
+        self.assertEqual(res["leptoquark_holonomy_ab"], [-1, -1])
+
+        # Untwisted-flavour (0,0) check: eta = (+1,+1), (-1,+1), (+1,-1) have 0 chiral leptoquarks
+        self.assertEqual(res["leptoquark_chiral_modes_by_eta"]["(+1,+1)_O_even"], 0)
+        self.assertEqual(res["leptoquark_chiral_modes_by_eta"]["(-1,+1)_even"], 0)
+        self.assertEqual(res["leptoquark_chiral_modes_by_eta"]["(+1,-1)_even"], 0)
+        # Obstruction 1A (untwisted flavour): eta_triv = (-1,-1) resurrects 12 modes
+        self.assertEqual(res["leptoquark_chiral_modes_by_eta"]["(-1,-1)_odd_triv"], 12)
+        # Comparison control: order-3 chi_3 has 0 chiral leptoquarks for ALL 4 spin structures
+        self.assertEqual(res["chi3_leptoquark_modes_any_eta"], 0)
+
+        # F-1A.2: Coupled quaternion flavour on (1,15) leptoquarks has peripheral -I_2
+        # and 0 compact H^0 modes across ALL 4 spin structures by the maximum principle
+        self.assertLess(res["leptoquark_spin_periphery_err"], 1e-12)
+        for count in res["coupled_quaternion_leptoquark_compact_h0_by_eta"].values():
+            self.assertEqual(count, 0)
+
+    def test_part_1b_up_sector_koszul_and_parabolic_count(self) -> None:
+        res = verify_spike_1b_up_sector_koszul_and_parabolic_count()
+        # F-1B.2: Full 6x6 Lambda^2(h4) has three +i, three -i, and 0 constant zero modes
+        self.assertEqual(res["ext2_h4_counts"]["pos_i_count"], 3)
+        self.assertEqual(res["ext2_h4_counts"]["neg_i_count"], 3)
+        self.assertEqual(res["ext2_h4_counts"]["ext2_6_zero_modes"], 0)
+
+        self.assertLess(res["d1_d0_norm"], 1e-12)
+        self.assertEqual(res["rank_d0"], 8)
+        self.assertEqual(res["rank_d1"], 8)
+        self.assertEqual(res["koszul_harmonic_dims"], [2, 4, 2])
+        for err in res["intertwiner_errors"].values():
+            self.assertLess(err, 1e-12)
+        self.assertLess(res["g0_periphery_err"], 1e-12)
+        chars = sorted(res["g0_characters"])
+        self.assertAlmostEqual(chars[0][0], -1.0, places=12)
+        self.assertAlmostEqual(chars[0][1], 1.0, places=12)
+        self.assertAlmostEqual(chars[1][0], 1.0, places=12)
+        self.assertAlmostEqual(chars[1][1], -1.0, places=12)
+        self.assertLess(res["v3_quaternion_err"], 1e-12)
+        self.assertLess(res["vm1_quaternion_err"], 1e-12)
+        self.assertLess(res["g2_periphery_err"], 1e-12)
+
+        # F-1B.2: Conjugate Q = -2/3 sector verification
+        neg = res["conjugate_minus_two_thirds_sector"]
+        self.assertLess(neg["g0_periphery_err"], 1e-12)
+        self.assertLess(neg["v3_quaternion_err"], 1e-12)
+        self.assertLess(neg["vm1_quaternion_err"], 1e-12)
+        self.assertLess(neg["g2_periphery_err"], 1e-12)
+
+        # Cusp pole bounds (30f348e15 Section 4)
+        poles = res["cusp_max_poles"]
+        self.assertEqual(poles["a_3_minus_periphery"], 1)
+        self.assertEqual(poles["a_minus1_minus_periphery"], 0)
+        self.assertEqual(poles["a_1_diagnostic_threshold"], 0)
+        self.assertEqual(poles["a_minus2_trivial_periphery"], -1)
+        self.assertEqual(poles["a_4_trivial_periphery"], 1)
+
+        # F-1B.3: Dyadic numerical quadrature counterchecks
+        quad = res["cusp_quadrature_countercheck"]
+        self.assertLess(quad["a3_n1_convergent_val"], 1.0)
+        self.assertGreater(quad["a3_n2_divergent_val"], 100.0)
+        self.assertLess(quad["am1_n0_exact_quad_err"], 1e-12)
+        self.assertGreater(quad["am1_n1_divergent_val"], 1e5)
+        self.assertLess(quad["a1_n1_log_div_quad_err"], 1e-12)
+
+        # F-1B.1: Parabolic compact cohomology (H^0, H^1, H^2, H^3) = (0, 3, 3, 0)
+        # and 9 + 9 = 18 total left Weyl coefficients across 3_{+2/3} (+) \bar{3}_{-2/3}
+        self.assertEqual(res["total_cohomology_H0_H1_H2_H3"], [0, 3, 3, 0])
+        self.assertEqual(res["total_up_and_conjugate_left_weyl_coeffs"], 18)
+        # Negative control: treating middle bundle as degree-0 trivial periphery gives 4
+        self.assertEqual(res["untwisted_comparison_H1"], 4)
+
+    def test_part_1c_weak_current_and_paired_pole(self) -> None:
+        res = verify_spike_1c_weak_current_and_paired_pole()
+        self.assertLess(res["mu_minus2_higgs_two_ell_sq_err"], 1e-12)
+        # F-1C.1: Computed eigenvalues on both mu = -2 and conjugate mu = +2 planes (6fc2aa206 Section 1)
+        for eig in res["mu_minus2_eigenvalues"]:
+            self.assertAlmostEqual(eig, 7.0, places=12)
+        for eig in res["mu_plus2_raising_higgs_eigenvalues"]:
+            self.assertAlmostEqual(eig, 3.0, places=12)
+        for eig in res["mu_plus2_total_pv_eigenvalues"]:
+            self.assertAlmostEqual(eig, 7.0, places=12)
+        self.assertAlmostEqual(res["wrong_half_higgs_conjugation_asymmetry"], 2.0, places=12)
+        self.assertAlmostEqual(res["mu_minus2_mass_sq_times_two_ell_sq"], 7.0, places=12)
+        self.assertLess(res["j16_grade_flip_err"], 1e-12)
+        # F-1C.2: Full 16x16 A_16 ladder intertwiner check
+        self.assertLess(res["a16_intertwiner_err"], 1e-12)
+        self.assertAlmostEqual(res["mu_minus1_form_pair_two_ell_sq_c"][0], 6.0, places=12)
+        self.assertAlmostEqual(res["mu_minus1_form_pair_two_ell_sq_c"][1], 6.0, places=12)
+        self.assertAlmostEqual(res["mu_minus1_middle_two_ell_sq_c"], 8.0, places=12)
+        self.assertLess(res["w_quaternion_err"], 1e-12)
+
+        # F-1C.3: Unbarred and barred Spin(10) symmetric brackets and grade-projected zeros
+        sv = res["spin10_bracket_singular_values"]
+        sv_bar = res["spin10_barred_bracket_singular_values"]
+        self.assertEqual(len(sv), 2)
+        self.assertEqual(len(sv_bar), 2)
+        self.assertGreater(sv[0], 0.1)
+        self.assertAlmostEqual(sv[0], sv[1], places=12)
+        self.assertLess(res["barred_unbarred_sv_diff"], 1e-12)
+        self.assertEqual(res["off_diagonal_wrong_grade_couplings"], [0.0, 0.0])
+
+        # Two-sided Haar basis-scrambling invariance and negative controls
+        self.assertEqual(res["paired_pole_residue_rank"], 2)
+        self.assertLess(res["paired_pole_unitary_scrambling_max_err"], 1e-12)
+        self.assertLess(res["paired_pole_two_sided_eig_scrambling_max_err"], 1e-12)
+        self.assertEqual(res["negative_control_single_column_rank"], 1)
+        self.assertGreater(res["negative_control_non_unitary_drift"], 0.1)
+
+        # F-1C.4: Native neutral (3,0)+(0,3) grade -3 operator X = (1/6) F^3
+        self.assertLess(res["neutral_x_cubic_construction_err"], 1e-12)
+        self.assertLess(res["neutral_grade_minus3_comm_err"], 1e-12)
+        self.assertLess(res["neutral_fixed_a_cross_term_norm"], 1e-12)
+        self.assertAlmostEqual(res["neutral_moment_pairing_with_H"], -6.0, places=12)
+
+    def test_part_2_modular_g24_and_characteristic_cover(self) -> None:
+        res = verify_spike_2_modular_g24_and_characteristic_cover()
+        self.assertEqual(res["generated_g24_order"], 24)
+        self.assertLess(res["psl2_z4_relations_err"], 1e-12)
+
+        # F-2A.1: True weight-2 slash action on P(tau) generates exact linear order 24 in SU(3)
+        self.assertEqual(res["weight2_slash_modular_g24_order"], 24)
+        self.assertLess(res["weight2_slash_relations_err"], 1e-12)
+        self.assertLess(res["weight2_slash_max_det_err"], 1e-12)
+        self.assertTrue(res["weight2_slash_character_matches_octahedral"])
+        # Negative control: using +T_R with M_T gives linear order 48 ((T_R M_T)^3 = -I_3)
+        self.assertEqual(res["negative_control_plus_tr_linear_order"], 48)
+
+        # Negative control: naive (theta_2^2, theta_3^2, theta_4^2) has det = -1 under T^2
+        self.assertAlmostEqual(res["naive_theta_t2_det"], -1.0, places=12)
+        for err in res["pairwise_theta_modular_rel_errs"].values():
+            self.assertLess(err, 1e-12)
+
+        # F-2B.1: Complete full-Aut(F_2) homomorphism proof across all 4 columns of P_w
+        self.assertEqual(res["tested_words_in_N_count"], 90)
+        self.assertEqual(res["n_kernel_violations"], 0)
+        self.assertEqual(res["d4_even_sum_violations"], 0)
+        self.assertEqual(res["column_parity_mismatch_count"], 0)
+        self.assertEqual(res["homomorphism_additivity_violations"], 0)
+        self.assertEqual(res["image_cosets_count"], 4)
+        self.assertEqual(res["computed_index_F2_over_K"], 32)
+        self.assertEqual(res["l_swap12_violations"], 0)
+        self.assertEqual(res["r_swap01_violations"], 0)
+        self.assertGreater(res["r_naive_swap02_failures"], 50)
+        self.assertEqual(res["swap_ab_swap02_violations"], 0)
+        self.assertEqual(res["inv_a_id_violations"], 0)
+        self.assertEqual(res["inner_conj_violations"], 0)
+        self.assertEqual(res["k_characteristic_invariance_violations"], 0)
+
+    def test_part_3_native_cyclic_and_moment_response(self) -> None:
+        res = verify_spike_3_native_cyclic_and_moment_response()
+        # Duty 1: Moment-curvature anticommutator identity and negative controls
+        self.assertLess(res["duty_1_moment_curvature_identity_err"], 1e-12)
+        self.assertGreater(res["duty_1_negative_control_wrong_coeff_err"], 0.1)
+        self.assertGreater(res["duty_1_negative_control_flipped_curv_err"], 0.1)
+
+        # Duty 2: Explicit 45D D5 = so(10) coercivity across all 5 two-triple modules
+        self.assertLess(res["duty_2_so5_metric_err"], 1e-12)
+        self.assertEqual(res["duty_2_so10_dim"], 45)
+        self.assertAlmostEqual(res["duty_2_global_min_two_ell_sq"], 1.0, places=12)
+        mods = res["duty_2_module_coercivity"]
+        self.assertEqual(mods["(1,0)"]["dim"], 3)
+        self.assertAlmostEqual(mods["(1,0)"]["min_two_ell_sq"], 1.0, places=12)
+        self.assertEqual(mods["(0,1)"]["dim"], 3)
+        self.assertAlmostEqual(mods["(0,1)"]["min_two_ell_sq"], 1.0, places=12)
+        self.assertEqual(mods["(3,0)"]["dim"], 7)
+        self.assertAlmostEqual(mods["(3,0)"]["min_two_ell_sq"], 3.0, places=12)
+        self.assertEqual(mods["(0,3)"]["dim"], 7)
+        self.assertAlmostEqual(mods["(0,3)"]["min_two_ell_sq"], 3.0, places=12)
+        self.assertEqual(mods["(2,2)"]["dim"], 25)
+        self.assertAlmostEqual(mods["(2,2)"]["min_two_ell_sq"], 4.0, places=12)
+        self.assertAlmostEqual(res["duty_2_negative_control_with_trivial_min_eig"], 0.0, places=12)
+
+        # Duty 3: Grade -3 spin deformation and fixed-connection vs moment-relaxed insertion
+        self.assertLess(res["duty_3_edag_x_norm"], 1e-12)
+        self.assertLess(res["duty_3_x_edag_norm"], 1e-12)
+        self.assertLess(res["duty_3_combined_e11_e44_err"], 1e-12)
+        self.assertAlmostEqual(res["duty_3_fixed_conn_asymmetry"], 2.0, places=12)
+        self.assertAlmostEqual(res["duty_3_combined_moment_asymmetry"], 0.0, places=12)
+
+        # Duty 4: Compensator transport on (3,0)+(0,3) and a=4 simple-pole bound
+        self.assertLess(res["duty_4_middle_ab_comm_err"], 1e-12)
+        self.assertAlmostEqual(res["duty_4_middle_a_eigs"][0], -1.0, places=12)
+        self.assertAlmostEqual(res["duty_4_middle_a_eigs"][1], 1.0, places=12)
+        self.assertAlmostEqual(res["duty_4_middle_b_eigs"][0], -1.0, places=12)
+        self.assertAlmostEqual(res["duty_4_middle_b_eigs"][1], 1.0, places=12)
+        self.assertLess(res["duty_4_a4_simple_pole_m1_integral"], 1.0)
+        self.assertGreater(res["duty_4_a4_double_pole_m2_integral"], 1000.0)
+
+        # Duty 5: Hermitian moment path, Pv H = H/ell^2, kappa(H, S) = -6, Cartan+octupole decomposition
+        self.assertLess(res["duty_5_pv_h_eigenvalue_err"], 1e-12)
+        self.assertAlmostEqual(res["duty_5_kappa_h_s"], -6.0, places=12)
+        self.assertLess(res["duty_5_s_cartan_octupole_decomp_err"], 1e-12)
+
+        # Duty 6: Hyperbolic cusp scalar barrier 3/(16 ell^2) and negative controls
+        self.assertAlmostEqual(res["duty_6_barrier_beta_quarter_coeff"], 3.0 / 16.0, places=12)
+        self.assertLess(res["duty_6_negative_control_beta_half_coeff"], 0.0)
+        self.assertGreater(res["duty_6_negative_control_wrong_laplacian_sign"], 2.0)
+
+        # Duty 7: Hostile Referee Theorem on four-cycle parity invariance and Spin(5)_+ x Spin(5)_- self-duality
+        self.assertLess(res["duty_7_four_cycle_p4_comm_max_err"], 1e-12)
+        self.assertLess(res["duty_7_wl_wr_zero_order_plane_max_diff"], 1e-12)
+        self.assertLess(res["duty_7_spin5_20d_self_dual_max_err"], 1e-12)
+        self.assertLess(res["duty_7_coset_25d_anti_self_dual_max_err"], 1e-12)
+        self.assertGreater(res["duty_7_coset_25d_self_dual_min_violation"], 1.0)
+        self.assertLess(res["duty_7_sigma8_involution_err"], 1e-12)
+        self.assertLess(res["duty_7_sigma8_swap_anticomm_err"], 1e-12)
+
+
+if __name__ == "__main__":
+    unittest.main()

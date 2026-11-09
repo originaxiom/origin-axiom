@@ -1,0 +1,173 @@
+{
+  "schema": "oa-external-personal-source-review-v1",
+  "date": "2026-11-09",
+  "oa_base_commit": "b9a4176d78f7f0e74045f103db29063008e33e49",
+  "reviewer": "physical seat, personal source reading; no delegation",
+  "external_author": "owner-identified exploration seat; no authenticated human/agent identity inferred",
+  "external_source_commits": [
+    "ad6f2f5b4f7bbdaca25bbe6dabcb1b6eb80b2f62",
+    "2f45580c4afa5985145df7520575dd9c4e51d928"
+  ],
+  "custody_verified": {
+    "all_five_owner_quoted_hashes_match": true,
+    "git_tree_files_at_initial_commit": 7,
+    "git_tree_files_at_archive_head": 11,
+    "tree_mismatches": [],
+    "golden_report_hash_mismatches": 3,
+    "python_sources_ast_parsed_without_import": 6
+  },
+  "scope_completed": [
+    "complete main mathematical verifier and its five-test source personally read",
+    "complete Golden Spikes mathematical verifier and its five-test source personally read",
+    "external reports and saved JSON read",
+    "DSL AST, theorem and referee logic, scan ledger and RGE implementation inspected",
+    "original archive, Git metadata, tree bytes and file hashes checked",
+    "hand derivations of W f1 correction (previous intake), cusp measure, four-cycle identity and nonautonomous coordinate counterexample"
+  ],
+  "scope_not_completed": [
+    "full audit of every DSL subsystem",
+    "independent numerical reproduction",
+    "environment and command-bound run provenance",
+    "formal source-complete acceptance of any OA experiment design",
+    "banking"
+  ],
+  "activity_allowed_and_performed": [
+    "read-only Git metadata and source inspection",
+    "stdlib archive/file preservation and SHA256 custody",
+    "stdlib AST parse without importing code",
+    "hand mathematical reasoning",
+    "documentary source-review relays"
+  ],
+  "scientific_imports": false,
+  "scientific_test_collection": false,
+  "scientific_execution": false,
+  "new_agents_spawned": false,
+  "findings": [
+    {
+      "id": "G1",
+      "decision": "source control flow permits unchecked ordinary-key and bare numeric claims",
+      "status": "HAND_SOURCE_COUNTEREXAMPLE; NOT_EXECUTED"
+    },
+    {
+      "id": "G2",
+      "decision": "ordinary cached JSON echo not rejected by referee scanner/runtime",
+      "status": "HAND_SOURCE_COUNTEREXAMPLE; NOT_EXECUTED"
+    },
+    {
+      "id": "G3",
+      "decision": "nonautonomous RGE stages omit time argument scaling and finite tolerance guard",
+      "status": "HAND_SOURCE_COUNTEREXAMPLE; NOT_EXECUTED"
+    },
+    {
+      "id": "S1",
+      "decision": "parabolic cohomology numbers use analytical vanishing hypotheses; degree alone insufficient",
+      "status": "CONDITIONAL_POSITIVE_PRESERVED"
+    },
+    {
+      "id": "S2",
+      "decision": "S4 cusp quadrature measure wrong; strict pole allowance survives exact correction",
+      "status": "HAND_DERIVED"
+    },
+    {
+      "id": "S3-S6",
+      "decision": "transport, finite-to-global pairing and characteristic-kernel coverage need explicit analytical bridges",
+      "status": "SCOPED_SOURCE_REVIEW"
+    }
+  ],
+  "prior_hand_sign_repair_preserved": true,
+  "received_finite_outputs_status": "external reported numerical evidence; no physical-seat rerun or interval certificate",
+  "prospective_oa_controls_status": "UNRUN; existing gates unchanged",
+  "formal_independent_review": null,
+  "main_execution_acceptance": null,
+  "execution_admission": null,
+  "banking": null,
+  "canonical_physical_input_reductions": 0,
+  "active_assignment": "AGY-04a",
+  "inherited_staged_diff_sha256_before": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/external_dsl_audit_2026_11_09/CUSTODY.json",
+      "sha256": "0cf91519176867c25256af1459a365ad165c995b289d7ebc3f110412503da033"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/external_dsl_audit_2026_11_09/HAND_CHECKS.md",
+      "sha256": "ab38d4a5a27e465f9faf9618641a4ed7229bc78472dbb4b0afefbbbdb19431e1"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/external_dsl_audit_2026_11_09/ORIGINAL_AUDIT_BUNDLE.zip",
+      "sha256": "e638f36aa2e6e1d6da1332acd3ace6e74df40c7f29b0f36aaf4713024e4e22c0"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/external_dsl_audit_2026_11_09/README.md",
+      "sha256": "5165b5a267794c003a774967592a366ebb3861d7b78d4b1d4f909fce9d9f7cd1"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/external_dsl_audit_2026_11_09/REPAIR_REQUIREMENTS.md",
+      "sha256": "6781d8aa256bc985945ac1be3cce4743bd57bdd7d33c00759ba796cc39a9e380"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/external_dsl_audit_2026_11_09/REVIEW.md",
+      "sha256": "0135f1fe6978f98315eea08d35415b856e40a557f694e0653b8294a23330c6d7"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/external_dsl_audit_2026_11_09/received/golden_spikes_stress_test/golden_spikes_stress_test_receipt.json.txt",
+      "sha256": "6dd8adb506662166af0fd0c2ba2ecea828a8ca73b4923c7f47f859b3de7380c9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/external_dsl_audit_2026_11_09/received/golden_spikes_stress_test/golden_spikes_stress_test_report.md.txt",
+      "sha256": "727c3527fef960ff54584027498ca4fab06e8c212836eb884bdd332136423b34"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/external_dsl_audit_2026_11_09/received/golden_spikes_stress_test/test_golden_spikes_stress_test.py.txt",
+      "sha256": "e643d3fc5559a2d11e3a9f4fc4094ca8b5e515dfea222869243128c59d229c2e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/external_dsl_audit_2026_11_09/received/golden_spikes_stress_test/verify_golden_spikes_stress_test.py.txt",
+      "sha256": "b985c409f68eacbc20483ce7af22787702cc604b1177e2cd22a1b2072ab8972b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/external_dsl_audit_2026_11_09/received/guardrail_dsl.py.txt",
+      "sha256": "4c9d8c291b3c754c42911eaadde7a2780da9b45c754c03e8ed2fca8a77d33d5f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/external_dsl_audit_2026_11_09/received/guardrail_dsl_compiler_report.md.txt",
+      "sha256": "f0eb57f51b098189e9f86fac9a80d3c7169308bb4cc37ba0eabcf6e3e10d0566"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/external_dsl_audit_2026_11_09/received/guardrail_dsl_receipt.json.txt",
+      "sha256": "b0bd14fbed313a00e83281cbbf16376063c26b73d7fa662347af08dcbc22b201"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/external_dsl_audit_2026_11_09/received/repo_crucial_math_dsl_receipt.json.txt",
+      "sha256": "0643e2d70443f9e7bc6cbe6e5c36b129e9f0d4978e2d1c1e1e6fedf3c3d38347"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/external_dsl_audit_2026_11_09/received/test_guardrail_dsl.py.txt",
+      "sha256": "3fec85886de79c9bad67434c640192c6b70ea0f09f703087b91648cda6007831"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/external_dsl_audit_2026_11_09/received/test_repo_crucial_math_with_dsl.py.txt",
+      "sha256": "605cee3bb7a251fb53f26cee71df804f4851cd5e69217b44c810a319f1483655"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/external_dsl_audit_2026_11_09/received/verify_repo_crucial_math_with_dsl.py.txt",
+      "sha256": "ee43352f61a53a89df9ca478bfe75c5ef35e5f23c404c24c741d5b0fe9929e40"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/START_HERE.md",
+      "sha256": "ef08cd131a89a45e644700e471d67a89b9e4616bce063bfc4305761ba909135e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/TASKS.json",
+      "sha256": "68bff74944366b9f1f420afd8ed46269c473672697d5a6665ef80983ae48e894"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_AND_EXPLORATION_2026-11-09_EXTERNAL_DSL_SOURCE_REVIEW.md",
+      "sha256": "753cbef10f09e2d6d53b189c830be30efc4502c0229e6b112c61d8be88674f61"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_2026-11-09_EXTERNAL_AUDIT_CUSTODY_AND_LIMITS.md",
+      "sha256": "03c18ab23fc47b4cd2f303051447fcf3097443490c9cc498ee8ad0d09cadd9f3"
+    }
+  ]
+}

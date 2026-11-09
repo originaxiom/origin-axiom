@@ -1,0 +1,164 @@
+{
+  "schema": "oa-external-source-custody-v1",
+  "date": "2026-11-09",
+  "oa_intake_base_commit": "b9a4176d78f7f0e74045f103db29063008e33e49",
+  "owner_supplied_original_archive": "/tmp/codex-remote-attachments/01a071cc-5653-7bf3-adb8-46dd8d0747db/BF1552A7-A7C8-4558-8A60-433B09C1D03D/1-guardrail_dsl_audit_2026_11_09.zip",
+  "archive_sha256": "e638f36aa2e6e1d6da1332acd3ace6e74df40c7f29b0f36aaf4713024e4e22c0",
+  "archive_safe_extraction": "absolute paths, parent traversal and symlinks rejected before extraction; .git read only with hooks disabled",
+  "standalone_reported_commit": "ad6f2f5b4f7bbdaca25bbe6dabcb1b6eb80b2f62",
+  "archive_head": "2f45580c4afa5985145df7520575dd9c4e51d928",
+  "all_five_owner_supplied_file_hashes_match": true,
+  "source_tree_byte_comparison": {
+    "ad6f2f5b4f7bbdaca25bbe6dabcb1b6eb80b2f62": {
+      "files": 7,
+      "mismatches": []
+    },
+    "2f45580c4afa5985145df7520575dd9c4e51d928": {
+      "files": 11,
+      "mismatches": []
+    }
+  },
+  "preservation": "unaltered bytes with .txt suffix to prevent automatic scientific imports/test collection; original Git repository remains in original zip",
+  "physical_seat_scientific_execution": false,
+  "external_execution_claim": "received saved receipts and reports; not independently rerun or project-admitted",
+  "files": [
+    {
+      "original_path": "golden_spikes_stress_test/golden_spikes_stress_test_receipt.json",
+      "preserved_path": "received/golden_spikes_stress_test/golden_spikes_stress_test_receipt.json.txt",
+      "bytes": 8083,
+      "sha256": "6dd8adb506662166af0fd0c2ba2ecea828a8ca73b4923c7f47f859b3de7380c9",
+      "identical_in_git_commits": [
+        "2f45580c4afa5985145df7520575dd9c4e51d928"
+      ],
+      "python_ast_parse_only": null
+    },
+    {
+      "original_path": "golden_spikes_stress_test/golden_spikes_stress_test_report.md",
+      "preserved_path": "received/golden_spikes_stress_test/golden_spikes_stress_test_report.md.txt",
+      "bytes": 18853,
+      "sha256": "727c3527fef960ff54584027498ca4fab06e8c212836eb884bdd332136423b34",
+      "identical_in_git_commits": [
+        "2f45580c4afa5985145df7520575dd9c4e51d928"
+      ],
+      "python_ast_parse_only": null
+    },
+    {
+      "original_path": "golden_spikes_stress_test/test_golden_spikes_stress_test.py",
+      "preserved_path": "received/golden_spikes_stress_test/test_golden_spikes_stress_test.py.txt",
+      "bytes": 13936,
+      "sha256": "e643d3fc5559a2d11e3a9f4fc4094ca8b5e515dfea222869243128c59d229c2e",
+      "identical_in_git_commits": [
+        "2f45580c4afa5985145df7520575dd9c4e51d928"
+      ],
+      "python_ast_parse_only": "passed"
+    },
+    {
+      "original_path": "golden_spikes_stress_test/verify_golden_spikes_stress_test.py",
+      "preserved_path": "received/golden_spikes_stress_test/verify_golden_spikes_stress_test.py.txt",
+      "bytes": 68406,
+      "sha256": "b985c409f68eacbc20483ce7af22787702cc604b1177e2cd22a1b2072ab8972b",
+      "identical_in_git_commits": [
+        "2f45580c4afa5985145df7520575dd9c4e51d928"
+      ],
+      "python_ast_parse_only": "passed"
+    },
+    {
+      "original_path": "guardrail_dsl.py",
+      "preserved_path": "received/guardrail_dsl.py.txt",
+      "bytes": 82074,
+      "sha256": "4c9d8c291b3c754c42911eaadde7a2780da9b45c754c03e8ed2fca8a77d33d5f",
+      "identical_in_git_commits": [
+        "ad6f2f5b4f7bbdaca25bbe6dabcb1b6eb80b2f62",
+        "2f45580c4afa5985145df7520575dd9c4e51d928"
+      ],
+      "python_ast_parse_only": "passed"
+    },
+    {
+      "original_path": "guardrail_dsl_compiler_report.md",
+      "preserved_path": "received/guardrail_dsl_compiler_report.md.txt",
+      "bytes": 13124,
+      "sha256": "f0eb57f51b098189e9f86fac9a80d3c7169308bb4cc37ba0eabcf6e3e10d0566",
+      "identical_in_git_commits": [
+        "ad6f2f5b4f7bbdaca25bbe6dabcb1b6eb80b2f62",
+        "2f45580c4afa5985145df7520575dd9c4e51d928"
+      ],
+      "python_ast_parse_only": null
+    },
+    {
+      "original_path": "guardrail_dsl_receipt.json",
+      "preserved_path": "received/guardrail_dsl_receipt.json.txt",
+      "bytes": 4435,
+      "sha256": "b0bd14fbed313a00e83281cbbf16376063c26b73d7fa662347af08dcbc22b201",
+      "identical_in_git_commits": [
+        "ad6f2f5b4f7bbdaca25bbe6dabcb1b6eb80b2f62",
+        "2f45580c4afa5985145df7520575dd9c4e51d928"
+      ],
+      "python_ast_parse_only": null
+    },
+    {
+      "original_path": "repo_crucial_math_dsl_receipt.json",
+      "preserved_path": "received/repo_crucial_math_dsl_receipt.json.txt",
+      "bytes": 6594,
+      "sha256": "0643e2d70443f9e7bc6cbe6e5c36b129e9f0d4978e2d1c1e1e6fedf3c3d38347",
+      "identical_in_git_commits": [
+        "ad6f2f5b4f7bbdaca25bbe6dabcb1b6eb80b2f62",
+        "2f45580c4afa5985145df7520575dd9c4e51d928"
+      ],
+      "python_ast_parse_only": null
+    },
+    {
+      "original_path": "test_guardrail_dsl.py",
+      "preserved_path": "received/test_guardrail_dsl.py.txt",
+      "bytes": 16952,
+      "sha256": "3fec85886de79c9bad67434c640192c6b70ea0f09f703087b91648cda6007831",
+      "identical_in_git_commits": [
+        "ad6f2f5b4f7bbdaca25bbe6dabcb1b6eb80b2f62",
+        "2f45580c4afa5985145df7520575dd9c4e51d928"
+      ],
+      "python_ast_parse_only": "passed"
+    },
+    {
+      "original_path": "test_repo_crucial_math_with_dsl.py",
+      "preserved_path": "received/test_repo_crucial_math_with_dsl.py.txt",
+      "bytes": 5038,
+      "sha256": "605cee3bb7a251fb53f26cee71df804f4851cd5e69217b44c810a319f1483655",
+      "identical_in_git_commits": [
+        "ad6f2f5b4f7bbdaca25bbe6dabcb1b6eb80b2f62",
+        "2f45580c4afa5985145df7520575dd9c4e51d928"
+      ],
+      "python_ast_parse_only": "passed"
+    },
+    {
+      "original_path": "verify_repo_crucial_math_with_dsl.py",
+      "preserved_path": "received/verify_repo_crucial_math_with_dsl.py.txt",
+      "bytes": 63878,
+      "sha256": "ee43352f61a53a89df9ca478bfe75c5ef35e5f23c404c24c741d5b0fe9929e40",
+      "identical_in_git_commits": [
+        "ad6f2f5b4f7bbdaca25bbe6dabcb1b6eb80b2f62",
+        "2f45580c4afa5985145df7520575dd9c4e51d928"
+      ],
+      "python_ast_parse_only": "passed"
+    }
+  ],
+  "golden_report_stale_hashes": [
+    {
+      "path": "golden_spikes_stress_test/verify_golden_spikes_stress_test.py",
+      "quoted": "e10f3de415ffe70a1a6e07d140f1721ac9707217579779229ae74db366551c4b"
+    },
+    {
+      "path": "golden_spikes_stress_test/test_golden_spikes_stress_test.py",
+      "quoted": "410bd305868265198f17f9c4005ec7cb1598f91560df79c35d12e0cf8f51dc1a"
+    },
+    {
+      "path": "golden_spikes_stress_test/golden_spikes_stress_test_receipt.json",
+      "quoted": "9062a5b1513c0be2589c1b81dc55ff9540ec06af961a6a082a0a39ea4c1f6809"
+    }
+  ],
+  "missing_run_binding": [
+    "exact successful run command/stdout and exit receipt tied to these source hashes",
+    "dependency and interpreter versions",
+    "independently authenticated execution/source association",
+    "complete first-failure and subsequent repair chronology",
+    "OA design, exact nonauthoring review, main acceptance and execution admission for any proposed OA run"
+  ]
+}

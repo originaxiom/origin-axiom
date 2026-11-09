@@ -1,0 +1,265 @@
+{
+  "schema": "golden-spikes-stress-test-receipt-v3",
+  "date": "2026-11-09",
+  "part_1_pure_h4_and_spin_gate": {
+    "h4_sq_minus_cinv_norm": 3.693256872252858e-16,
+    "det_h4_err": 2.220446049250313e-16,
+    "su4_orthonormality_err": 6.549182846667229e-16,
+    "cartan_comm_max_err": 1.0030041884916723e-16,
+    "su4_u3_centralizer_dim": 9,
+    "su4_leptoquark_coset_dim": 6,
+    "leptoquark_holonomy_ab": [
+      -1,
+      -1
+    ],
+    "leptoquark_chiral_modes_by_eta": {
+      "(+1,+1)_O_even": 0,
+      "(-1,+1)_even": 0,
+      "(+1,-1)_even": 0,
+      "(-1,-1)_odd_triv": 12
+    },
+    "chi3_leptoquark_modes_any_eta": 0,
+    "leptoquark_spin_periphery_err": 0.0,
+    "coupled_quaternion_leptoquark_compact_h0_by_eta": {
+      "(+1,+1)_O_even": 0,
+      "(-1,+1)_even": 0,
+      "(+1,-1)_even": 0,
+      "(-1,-1)_odd_triv": 0
+    }
+  },
+  "part_2_up_sector_koszul_and_parabolic_count": {
+    "ext2_h4_counts": {
+      "pos_i_count": 3,
+      "neg_i_count": 3,
+      "ext2_6_zero_modes": 0
+    },
+    "d1_d0_norm": 0.0,
+    "rank_d0": 8,
+    "rank_d1": 8,
+    "koszul_harmonic_dims": [
+      2,
+      4,
+      2
+    ],
+    "intertwiner_errors": {
+      "rel_a_fp": 0.0,
+      "rel_a_ep": 0.0,
+      "rel_d_ep": 2.7383934913210134e-16,
+      "rel_d_em": 2.7383934913210134e-16
+    },
+    "g0_periphery_err": 3.463824224941973e-16,
+    "g0_characters": [
+      [
+        -0.9999999999999998,
+        0.9999999999999998
+      ],
+      [
+        0.9999999999999998,
+        -0.9999999999999998
+      ]
+    ],
+    "v3_quaternion_err": 1.0391472674825918e-15,
+    "vm1_quaternion_err": 1.0391472674825918e-15,
+    "g2_periphery_err": 3.463824224941973e-16,
+    "conjugate_minus_two_thirds_sector": {
+      "g0_periphery_err": 3.463824224941973e-16,
+      "g0_characters": [
+        [
+          0.9999999999999998,
+          -0.9999999999999998
+        ],
+        [
+          -0.9999999999999998,
+          0.9999999999999998
+        ]
+      ],
+      "v3_quaternion_err": 1.0391472674825918e-15,
+      "vm1_quaternion_err": 1.0391472674825918e-15,
+      "g2_periphery_err": 3.463824224941973e-16
+    },
+    "cusp_max_poles": {
+      "a_3_minus_periphery": 1,
+      "a_minus1_minus_periphery": 0,
+      "a_1_diagnostic_threshold": 0,
+      "a_minus2_trivial_periphery": -1,
+      "a_4_trivial_periphery": 1
+    },
+    "cusp_quadrature_countercheck": {
+      "a3_n1_convergent_val": 0.14914339756954562,
+      "a3_n2_divergent_val": 116.02940286124564,
+      "am1_n0_convergent_val": 1.038534315935649,
+      "am1_n0_exact_quad_err": 2.220446049250313e-16,
+      "am1_n1_divergent_val": 2763141600.0703583,
+      "a1_n1_log_div_quad_err": 4.440892098500626e-16
+    },
+    "sheaf_cohomology": {
+      "S_minus2_G0_minus_p": [
+        0,
+        2
+      ],
+      "E_V3_plus_p": [
+        1,
+        0
+      ],
+      "E_Vminus1": [
+        0,
+        1
+      ],
+      "S_4_G2_plus_p": [
+        2,
+        0
+      ]
+    },
+    "total_cohomology_H0_H1_H2_H3": [
+      0,
+      3,
+      3,
+      0
+    ],
+    "total_up_and_conjugate_left_weyl_coeffs": 18,
+    "untwisted_comparison_H1": 4
+  },
+  "part_3_weak_current_and_paired_pole": {
+    "mu_minus2_higgs_two_ell_sq_err": 0.0,
+    "mu_minus2_eigenvalues": [
+      7.0,
+      7.0
+    ],
+    "mu_plus2_raising_higgs_eigenvalues": [
+      2.9999999999999996,
+      2.9999999999999996
+    ],
+    "mu_plus2_total_pv_eigenvalues": [
+      7.0,
+      7.0
+    ],
+    "wrong_half_higgs_conjugation_asymmetry": 2.0,
+    "mu_minus2_mass_sq_times_two_ell_sq": 7.0,
+    "j16_grade_flip_err": 0.0,
+    "a16_intertwiner_err": 0.0,
+    "mu_minus1_form_pair_two_ell_sq_c": [
+      5.999999999999999,
+      5.999999999999999
+    ],
+    "mu_minus1_middle_two_ell_sq_c": 8.0,
+    "w_quaternion_err": 3.463824224941973e-16,
+    "spin10_bracket_singular_values": [
+      0.4999999999999999,
+      0.4999999999999999
+    ],
+    "spin10_barred_bracket_singular_values": [
+      0.4999999999999999,
+      0.4999999999999999
+    ],
+    "barred_unbarred_sv_diff": 0.0,
+    "off_diagonal_wrong_grade_couplings": [
+      0.0,
+      0.0
+    ],
+    "paired_pole_residue_rank": 2,
+    "paired_pole_unitary_scrambling_max_err": 2.6404690822343913e-16,
+    "paired_pole_two_sided_eig_scrambling_max_err": 4.388541835720876e-16,
+    "negative_control_single_column_rank": 1,
+    "negative_control_non_unitary_drift": 0.19456682656609267,
+    "neutral_x_cubic_construction_err": 2.220446049250313e-16,
+    "neutral_grade_minus3_comm_err": 0.0,
+    "neutral_fixed_a_cross_term_norm": 0.0,
+    "neutral_moment_pairing_with_H": -5.999999999999997
+  },
+  "part_4_modular_g24_and_characteristic_cover": {
+    "generated_g24_order": 24,
+    "psl2_z4_relations_err": 0.0,
+    "weight2_slash_modular_g24_order": 24,
+    "weight2_slash_relations_err": 0.0,
+    "weight2_slash_max_det_err": 0.0,
+    "weight2_slash_character_matches_octahedral": true,
+    "negative_control_plus_tr_linear_order": 48,
+    "naive_theta_t2_det": -0.9999999999999997,
+    "pairwise_theta_modular_rel_errs": {
+      "T2_err": 2.3286353589682787e-16,
+      "ST2S_inv_err": 4.805226007003623e-16,
+      "S_wt2_slash_err": 3.091815769501769e-16,
+      "S_err": 3.091815769501769e-16,
+      "T1_err": 2.5039598482727123e-16
+    },
+    "tested_words_in_N_count": 90,
+    "n_kernel_violations": 0,
+    "d4_even_sum_violations": 0,
+    "column_parity_mismatch_count": 0,
+    "homomorphism_additivity_violations": 0,
+    "image_cosets_count": 4,
+    "computed_index_F2_over_K": 32,
+    "l_swap12_violations": 0,
+    "r_swap01_violations": 0,
+    "r_naive_swap02_failures": 65,
+    "swap_ab_swap02_violations": 0,
+    "inv_a_id_violations": 0,
+    "inner_conj_violations": 0,
+    "k_characteristic_invariance_violations": 0
+  },
+  "part_5_native_cyclic_and_moment_response": {
+    "duty_1_moment_curvature_identity_err": 9.155133597044475e-16,
+    "duty_1_negative_control_wrong_coeff_err": 6.680574451347727,
+    "duty_1_negative_control_flipped_curv_err": 5.403739445976277,
+    "duty_2_so5_metric_err": 0.0,
+    "duty_2_so10_dim": 45,
+    "duty_2_global_min_two_ell_sq": 0.9999999999999984,
+    "duty_2_module_coercivity": {
+      "(1,0)": {
+        "dim": 3,
+        "min_two_ell_sq": 0.9999999999999991,
+        "max_two_ell_sq": 1.9999999999999991
+      },
+      "(0,1)": {
+        "dim": 3,
+        "min_two_ell_sq": 0.9999999999999991,
+        "max_two_ell_sq": 1.9999999999999991
+      },
+      "(3,0)": {
+        "dim": 7,
+        "min_two_ell_sq": 2.9999999999999982,
+        "max_two_ell_sq": 11.999999999999993
+      },
+      "(0,3)": {
+        "dim": 7,
+        "min_two_ell_sq": 2.9999999999999982,
+        "max_two_ell_sq": 11.999999999999993
+      },
+      "(2,2)": {
+        "dim": 25,
+        "min_two_ell_sq": 3.9999999999999982,
+        "max_two_ell_sq": 11.999999999999993
+      }
+    },
+    "duty_2_negative_control_with_trivial_min_eig": 0.0,
+    "duty_3_edag_x_norm": 0.0,
+    "duty_3_x_edag_norm": 0.0,
+    "duty_3_combined_e11_e44_err": 0.0,
+    "duty_3_fixed_conn_asymmetry": 2.0,
+    "duty_3_combined_moment_asymmetry": 0.0,
+    "duty_4_middle_ab_comm_err": 0.0,
+    "duty_4_middle_a_eigs": [
+      -0.9999999999999999,
+      0.9999999999999996
+    ],
+    "duty_4_middle_b_eigs": [
+      -0.9999999999999999,
+      0.9999999999999996
+    ],
+    "duty_4_a4_simple_pole_m1_integral": 0.07086645016236964,
+    "duty_4_a4_double_pole_m2_integral": 1982.3593691047815,
+    "duty_5_pv_h_eigenvalue_err": 0.0,
+    "duty_5_kappa_h_s": -6.0,
+    "duty_5_s_cartan_octupole_decomp_err": 1.7554167342883506e-16,
+    "duty_6_barrier_beta_quarter_coeff": 0.1875,
+    "duty_6_negative_control_beta_half_coeff": -0.25,
+    "duty_6_negative_control_wrong_laplacian_sign": 2.5,
+    "duty_7_four_cycle_p4_comm_max_err": 9.39703475139869e-14,
+    "duty_7_wl_wr_zero_order_plane_max_diff": 6.172844327148771e-14,
+    "duty_7_spin5_20d_self_dual_max_err": 3.760386200748348e-15,
+    "duty_7_coset_25d_anti_self_dual_max_err": 6.27332040548449e-16,
+    "duty_7_coset_25d_self_dual_min_violation": 1.9999999999999996,
+    "duty_7_sigma8_involution_err": 0.0,
+    "duty_7_sigma8_swap_anticomm_err": 0.0
+  }
+}

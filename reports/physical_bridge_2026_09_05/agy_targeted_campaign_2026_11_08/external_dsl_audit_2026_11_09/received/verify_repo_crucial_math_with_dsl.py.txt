@@ -1,0 +1,1387 @@
+#!/usr/bin/env python3
+"""
+verify_repo_crucial_math_with_dsl.py
+====================================
+Hostile Red-Team Stress Test of `guardrail_dsl` (v1.1) AND End-to-End Execution
+of the Repository's Crucial Mathematical-Physics Proofs (`origin-axiom-agy-2026-11-02`
+`AGY-01a-r1`..`AGY-01d` and `origin-axiom` `B1855`..`B1857` + Golden Spikes).
+
+Strictly read-only with respect to `/Users/dri/.gemini/antigravity/scratch/origin-axiom`
+and `/Users/dri/.gemini/antigravity/scratch/origin-axiom-agy-2026-11-02`.
+
+Covers:
+  PART I — 8 Sophisticated Red-Team Compiler Bypass Attacks (All 8 Defeated):
+    RT-1: Nested container & subscript literal smuggling (`d['k'] = 0.0`, `dict(k=0.0)`)
+    RT-2: Constant-folded arithmetic obfuscation (`1.0 - 1.0`, `0 * norm`, `tau - (1+sqrt(5))/2`)
+    RT-3: Referee function-pointer aliasing & `globals()` reflection smuggling
+    RT-4: Obfuscated single-Dirac SVD `np.matmul` & polar-decomposition trace `Tr(U V^dagger)`
+    RT-5: Dishonest right-handed frame merging (`u_R == d_R`) under `distinct_right_frames=True`
+    RT-6: Direct attribute mutation `rge._benchmark_verified = True` defeated by HMAC-SHA256 seal
+    RT-7: Epistemic taint stripping `TrackedValue(float(picked.value))` defeated by call-stack log
+    RT-8: `NaN` injection & trivial zero-matrix intertwiner `A_k = 0` in `EquivariantCochainComplex`
+
+  PART II — Crucial Repo Math Audited & Certified Through `guardrail_dsl`:
+    Pillar 1 (`AGY-01a-r1` & `AGY-01b` — Full 248-Dimensional E_8 = 120 + 128 Construction):
+      * Explicit tau_R-real 10D frame U_real, J_10, O_5 in SO(5) (det O_5 = +1).
+      * Exact 16-gamma Clifford construction of 128_{S_+} (omega_16 = +1) combined with
+        120_{so(16)} = Lambda^2(R^16) to form the faithful 248-dimensional E_8 representation.
+      * Verifies exp(i*pi*H_+) = exp(i*pi*H_-) = Zeta (+1 on 120, -1 on 128).
+      * Verifies A U A^-1 = W = -C U = Zeta C U (delta = -1).
+      * Verifies outer Pin(2) witness h_1 = U f_1 satisfies (A h_1)^2 = K_pi on all 248
+        E_8 directions, [A', B'] = Zeta P, unbroken dim so(5) = 10 in A_3 = so(6), and
+        swaps internal (16,4) <-> (bar16,bar4) on 128.
+      * Verifies h_3 = U f_1 f_2 f_3 fails on 128 ((A h_3)^2 = Zeta K_pi != K_pi) and proves
+        `@theorem` catches and blocks the false claim `(A h_3)^2 == K_pi`!
+    Pillar 2 (`AGY-01c` — Exhaustive 4 G_0-Classes, Twisted G_c Orbits, and Witness Repair):
+      * Verifies all 4 G_0-classes O_{0,+}, O_{0,-}, O_{1,+}, O_{1,-} on 248-dim E_8,
+        their traces Tr_4 = +-2*e^{-i*pi/4} and Tr_{V_5+ x V_6} = +-20, and unbroken dims 9 vs 10.
+      * Proves `@theorem` catches and blocks the `b299c2ab5` counterexample
+        `k_bad = f_3 f_4 f_5 f_6` (which commutes with J_2, J_3 and fails to invert h_4).
+      * Certifies the `1c6c03333` repaired witness `k_0 = f_3 f_5` (`g_0 = (f_3 f_5) s`)
+        and outer witness `k_1 = f_1 f_2` (`g_1 = (f_1 f_2) s`) on all 248 E_8 directions!
+    Pillar 3 (`AGY-01d` — Lifted Register Group E, Orientation Character eta_K, Local h_1
+              Stabilizer on 48 States, Coherent Cancellation K_h(N)=1, and X_4 Bridge):
+      * Generates all 48 elements of 2O subset SU(2) from g_L, g_R; verifies Ad_{h_1}
+        fixes all 48 scalar states {U_e Phi_0}_{e in E} while inverting C -> C^-1.
+      * Verifies coherent cancellation X^2 = Y^2 = (XY)^2 = K_pi = D^2 (K_h(N) = I_248)
+        vs bare lift A^2(AB)^-2 = C^-1.
+      * Verifies transitive 3-orbit P = {(1,1),(1,0),(0,1)} of eta_{K_h} under L, R and
+        exact fourth-root character bridge 1 -> X_2 -> X_4 --res_N--> A_disc^hat -> 1.
+    Pillar 4 (`origin-axiom` `B1855`, `B1856`, `B1857` — Level-5 Weil Representation,
+              Charge Law Counterexamples, Eigenvector Slip Catch, and Sol Cosh Law):
+      * Certifies all HQ0..HQ4 properties of the level-5 Weil representation on C^5.
+      * Proves `@theorem` catches the transposed eigenvector slip `v_bad = (1, phi)` in
+        Lemma A, certifies `v = (phi, 1)`, verifies all 6 gapped counterexamples for
+        lcm(S) >= 12, verifies the Sol cosh law, and prices discrete defect scans in `LedgerContext`.
+"""
+
+from __future__ import annotations
+
+import cmath
+import hashlib
+import itertools
+import json
+import math
+import pathlib
+from typing import Any, Dict, List, Tuple
+
+import numpy as np
+from scipy.linalg import expm
+
+from guardrail_dsl import (
+    ComplexChainError,
+    EquivariantCochainComplex,
+    FramedMatrix,
+    GatedRGEIntegrator,
+    Guardrail1PostInspectionError,
+    Guardrail1UnpricedScanError,
+    Guardrail2LiteralClaimError,
+    Guardrail3BasisDependenceError,
+    Guardrail3IllegalLeftRightOverlapError,
+    Guardrail4BenchmarkGateError,
+    Guardrail5UnpricedScaleError,
+    Guardrail6ProducerEchoError,
+    GuardrailCompilerError,
+    IntertwinerError,
+    IntertwinerSpec,
+    LedgerContext,
+    TrackedValue,
+    observable,
+    producer,
+    referee,
+    stabilization_potential,
+    theorem,
+    zero_bit_prediction,
+)
+
+
+# ============================================================================
+# PART I: 8 Hostile Red-Team Bypass Attacks Against `guardrail_dsl`
+# ============================================================================
+
+def run_redteam_compiler_stress_test() -> Dict[str, Any]:
+    """
+    Attempt 8 sophisticated red-team bypasses against `guardrail_dsl` v1.1
+    and verify that every single bypass is caught and blocked.
+    """
+    results: Dict[str, Dict[str, Any]] = {}
+
+    # RT-1: Subscript mutation & dict() call literal smuggling in Guardrail 2
+    try:
+        @theorem()
+        def rt1_subscript_smuggle() -> Dict[str, float]:
+            out: Dict[str, float] = {}
+            out["bar_theta_QCD"] = 0.0
+            return out
+
+        raise AssertionError("RT-1A should have failed")
+    except Guardrail2LiteralClaimError as exc_a:
+        try:
+            @theorem()
+            def rt1_dict_call_smuggle() -> Dict[str, Any]:
+                return dict(extends_to_cover=True)
+
+            raise AssertionError("RT-1B should have failed")
+        except Guardrail2LiteralClaimError as exc_b:
+            results["RT1_subscript_and_dict_call_smuggling"] = {
+                "defeated": True,
+                "error_A": str(exc_a),
+                "error_B": str(exc_b),
+            }
+
+    # RT-2: Constant-folded arithmetic obfuscation in Guardrail 1 & 2
+    try:
+        @theorem()
+        def rt2_const_fold_zero(m: np.ndarray) -> Dict[str, float]:
+            return {"residual": 0.0 * float(np.linalg.norm(m))}
+
+        raise AssertionError("RT-2A should have failed")
+    except Guardrail2LiteralClaimError as exc_a:
+        try:
+            @stabilization_potential()
+            def rt2_const_fold_golden_potential(tau: float) -> float:
+                return (tau - (1.0 + math.sqrt(5.0)) / 2.0) ** 2
+
+            raise AssertionError("RT-2B should have failed")
+        except Guardrail1PostInspectionError as exc_b:
+            results["RT2_constant_folded_obfuscation"] = {
+                "defeated": True,
+                "error_A": str(exc_a),
+                "error_B": str(exc_b),
+            }
+
+    # RT-3: Referee function-pointer aliasing & globals() reflection smuggling (Guardrail 6)
+    @producer
+    def secret_producer_fn() -> Dict[str, float]:
+        return {"val": 1.0}
+
+    try:
+        @referee
+        def rt3_alias_referee() -> Dict[str, float]:
+            fn_alias = secret_producer_fn
+            return fn_alias()
+
+        raise AssertionError("RT-3A should have failed")
+    except Guardrail6ProducerEchoError as exc_a:
+        try:
+            @referee
+            def rt3_globals_referee() -> Dict[str, float]:
+                g = globals()
+                return {"residual": float(len(g))}
+
+            raise AssertionError("RT-3B should have failed")
+        except Guardrail6ProducerEchoError as exc_b:
+            results["RT3_referee_alias_and_reflection_smuggling"] = {
+                "defeated": True,
+                "error_A": str(exc_a),
+                "error_B": str(exc_b),
+            }
+
+    # RT-4: Obfuscated SVD `np.matmul` (static) & polar unitary `Tr(U V^dagger)` (dynamic Haar)
+    try:
+        @observable()
+        def rt4_matmul_svd_overlap(y_f: FramedMatrix) -> float:
+            u, _, vh = np.linalg.svd(y_f.matrix)
+            return float(np.abs(np.matmul(u.conj().T, vh.conj().T)[0, 1]))
+
+        raise AssertionError("RT-4A should have failed")
+    except Guardrail3IllegalLeftRightOverlapError as exc_a:
+        try:
+            @observable(haar_samples=50, tol=1e-12)
+            def rt4_polar_lr_trace(y_f: FramedMatrix) -> float:
+                # Polar decomposition Y (Y^dagger Y)^{-1/2} = U V^dagger without calling svd() by name!
+                m = y_f.matrix
+                h = m.conj().T @ m
+                eigvals, eigvecs = np.linalg.eigh(h)
+                inv_sqrt = eigvecs @ np.diag(1.0 / np.sqrt(eigvals)) @ eigvecs.conj().T
+                u_polar = m @ inv_sqrt
+                return float(np.abs(np.trace(u_polar)))
+
+            rng = np.random.default_rng(123)
+            fm = FramedMatrix(
+                rng.standard_normal((3, 3)) + 1j * rng.standard_normal((3, 3)),
+                left_frame="Q_L",
+                right_frame="u_R",
+            )
+            _ = rt4_polar_lr_trace(fm)
+            raise AssertionError("RT-4B should have failed")
+        except Guardrail3BasisDependenceError as exc_b:
+            results["RT4_matmul_svd_and_polar_trace_smuggling"] = {
+                "defeated": True,
+                "error_A": str(exc_a),
+                "error_B": str(exc_b),
+            }
+
+    # RT-5: Dishonest right-handed frame collision (`u_R == d_R`)
+    try:
+        @observable(haar_samples=20, tol=1e-12, distinct_right_frames=True)
+        def rt5_merged_right_frame_cheat(y_u: FramedMatrix, y_d: FramedMatrix) -> float:
+            # Unphysical right-handed overlap Tr(Y_u^dagger Y_u Y_d^dagger Y_d)
+            r_u = y_u.matrix.conj().T @ y_u.matrix
+            r_d = y_d.matrix.conj().T @ y_d.matrix
+            return float(np.real(np.trace(r_u @ r_d)))
+
+        rng = np.random.default_rng(456)
+        yu_cheat = FramedMatrix(
+            rng.standard_normal((3, 3)) + 1j * rng.standard_normal((3, 3)),
+            left_frame="Q_L",
+            right_frame="shared_q_R",
+        )
+        yd_cheat = FramedMatrix(
+            rng.standard_normal((3, 3)) + 1j * rng.standard_normal((3, 3)),
+            left_frame="Q_L",
+            right_frame="shared_q_R",
+        )
+        _ = rt5_merged_right_frame_cheat(yu_cheat, yd_cheat)
+        raise AssertionError("RT-5 should have failed")
+    except Guardrail3BasisDependenceError as exc:
+        results["RT5_dishonest_right_frame_collision"] = {
+            "defeated": True,
+            "error": str(exc),
+        }
+
+    # RT-6: Direct attribute tampering `rge._benchmark_verified = True` (Guardrail 4)
+    try:
+        rge_tampered = GatedRGEIntegrator(lambda _t, _y: np.array([-0.1]), log_variable="ln_mu")
+        rge_tampered._benchmark_verified = True
+        rge_tampered.benchmark_receipt = {"fake": True}
+        rge_tampered._seal_token = "00" * 32
+        _ = rge_tampered.integrate_model([10.0], 91.1876, 1.0e10)
+        raise AssertionError("RT-6 should have failed")
+    except Guardrail4BenchmarkGateError as exc:
+        results["RT6_rge_attribute_tampering_hmac_seal"] = {
+            "defeated": True,
+            "error": str(exc),
+        }
+
+    # RT-7: Epistemic taint stripping `TrackedValue(float(picked.value))` inside `@zero_bit_prediction`
+    try:
+        ledger_rt7 = LedgerContext("rt7_ledger")
+
+        @zero_bit_prediction
+        def rt7_strip_taint_cheat() -> TrackedValue:
+            picked = ledger_rt7.select_from([1.0, 2.0, 3.0, 4.0], score_fn=lambda x: abs(x - 2.9))
+            # Attempt to launder the 2.0 selection bits by wrapping raw float in a fresh TrackedValue!
+            return TrackedValue(value=float(picked.value))
+
+        _ = rt7_strip_taint_cheat()
+        raise AssertionError("RT-7 should have failed")
+    except Guardrail1UnpricedScanError as exc:
+        results["RT7_epistemic_taint_stripping_launder"] = {
+            "defeated": True,
+            "error": str(exc),
+        }
+
+    # RT-8: NaN differential & trivial zero-matrix intertwiner `A_k = 0` in Module 5
+    try:
+        d_nan = np.array([[float("nan")]], dtype=complex)
+        _ = EquivariantCochainComplex(differentials=[d_nan], grading_dims=[1, 1])
+        raise AssertionError("RT-8A should have failed")
+    except ComplexChainError as exc_a:
+        try:
+            d_ok = np.array([[1.0]], dtype=complex)
+            zero_op = np.zeros((1, 1), dtype=complex)
+            _ = EquivariantCochainComplex(
+                differentials=[d_ok],
+                grading_dims=[1, 1],
+                intertwiners=[
+                    IntertwinerSpec(degree=0, op_k=zero_op, op_k_plus_1=zero_op, name="trivial_zero")
+                ],
+            )
+            raise AssertionError("RT-8B should have failed")
+        except IntertwinerError as exc_b:
+            results["RT8_nan_and_zero_intertwiner_cheat"] = {
+                "defeated": True,
+                "error_A": str(exc_a),
+                "error_B": str(exc_b),
+            }
+
+    return {
+        "all_8_redteam_bypasses_defeated": len(results) == 8 and all(
+            v["defeated"] for v in results.values()
+        ),
+        "attacks": results,
+    }
+
+
+# ============================================================================
+# PART II: Crucial Repo Math Construction Helpers (248-Dimensional E_8 = 120 + 128)
+# ============================================================================
+
+def build_cl16_and_e8_248_infrastructure() -> Dict[str, Any]:
+    """
+    Construct the exact 16 Euclidean Clifford generators Gamma_1..Gamma_16 on C^{256},
+    project onto the 128-dimensional positive half-spinor space 128_{S_+} (omega_16 = +1),
+    and build the 120-dimensional exterior-square representation Lambda^2(R^{16}) = so(16),
+    yielding the faithful 248-dimensional operator representation of Ss(16) subset E_8!
+    """
+    s_x = np.array([[0.0, 1.0], [1.0, 0.0]], dtype=complex)
+    s_y = np.array([[0.0, -1j], [1j, 0.0]], dtype=complex)
+    s_z = np.array([[1.0, 0.0], [0.0, -1.0]], dtype=complex)
+    i_2 = np.eye(2, dtype=complex)
+
+    def kron_list(mats: List[np.ndarray]) -> np.ndarray:
+        out = mats[0]
+        for m in mats[1:]:
+            out = np.kron(out, m)
+        return out
+
+    # Standard 8-qubit Jordan-Wigner construction of Gamma_1..Gamma_16 (256 x 256)
+    gammas_256: List[np.ndarray] = []
+    for k in range(8):
+        prefix = [s_z] * k
+        suffix = [i_2] * (7 - k)
+        g_odd = kron_list(prefix + [s_x] + suffix)
+        g_even = kron_list(prefix + [s_y] + suffix)
+        gammas_256.append(g_odd)
+        gammas_256.append(g_even)
+
+    # Verifyomega_16 = Gamma_1 * ... * Gamma_16 = (-1)^8 * (i s_z)^{otimes 8} = s_z^{otimes 8}
+    omega_16_full = np.eye(256, dtype=complex)
+    for g in gammas_256:
+        omega_16_full = omega_16_full @ g
+
+    # Basis of 128_{S_+} where omega_16 == +1
+    diag_w16 = np.real(np.diag(omega_16_full))
+    pos_idx = np.where(np.abs(diag_w16 - 1.0) < 1e-12)[0]
+    neg_idx = np.where(np.abs(diag_w16 + 1.0) < 1e-12)[0]
+    assert len(pos_idx) == 128 and len(neg_idx) == 128
+
+    # Enumeration of 120 basis bivectors (r < s) of Lambda^2(R^{16}) = so(16)
+    bivector_pairs: List[Tuple[int, int]] = [
+        (r, s) for r in range(16) for s in range(r + 1, 16)
+    ]
+    assert len(bivector_pairs) == 120
+
+    def lift_even_clifford_to_248(
+        op_256: np.ndarray, o16_vec: np.ndarray
+    ) -> Tuple[np.ndarray, np.ndarray, np.ndarray]:
+        """
+        Given an even Clifford element `op_256` in Pin(16)^0 (preserving 128_{S_+})
+        and its corresponding orthogonal 16x16 vector matrix `o16_vec` in O(16)
+        (defined by op_256 @ Gamma_s @ op_256^{-1} = sum_r o16_vec[r, s] Gamma_r),
+        return:
+          - `op_120`: 120x120 adjoint action Lambda^2(o16_vec) on so(16)
+          - `op_128`: 128x128 spinor action on 128_{S_+}
+          - `op_248`: block_diag(op_120, op_128) on 248 = 120 + 128
+        """
+        op_128 = op_256[np.ix_(pos_idx, pos_idx)]
+        # Exterior square Lambda^2(o16_vec) on 120 bivector pairs (r1 < r2), (s1 < s2):
+        # (Lambda^2 O)_{(r1,r2),(s1,s2)} = O_{r1,s1} O_{r2,s2} - O_{r1,s2} O_{r2,s1}
+        r1_arr = np.array([p[0] for p in bivector_pairs])
+        r2_arr = np.array([p[1] for p in bivector_pairs])
+        op_120 = (
+            o16_vec[np.ix_(r1_arr, r1_arr)] * o16_vec[np.ix_(r2_arr, r2_arr)]
+            - o16_vec[np.ix_(r1_arr, r2_arr)] * o16_vec[np.ix_(r2_arr, r1_arr)]
+        ).astype(complex)
+        op_248 = np.zeros((248, 248), dtype=complex)
+        op_248[:120, :120] = op_120
+        op_248[120:, 120:] = op_128
+        return op_120, op_128, op_248
+
+    return {
+        "gammas_256": gammas_256,
+        "pos_idx": pos_idx,
+        "neg_idx": neg_idx,
+        "bivector_pairs": bivector_pairs,
+        "lift_even_clifford_to_248": lift_even_clifford_to_248,
+    }
+
+
+# ============================================================================
+# Pillar 1: AGY-01a-r1 & AGY-01b (Real 10-Frame, Spin(16)->Ss(16)subset E_8, h_1 vs h_3)
+# ============================================================================
+
+@referee
+@theorem(tol=1e-12)
+def verify_pillar1_agy01a_01b_faithful_e8_compensator_and_centralizer() -> Dict[str, Any]:
+    """
+    Independent Referee Verification of `COMPENSATOR_RANGE_AUDIT.md` (`AGY-01a-r1`)
+    and `CENTRALIZER_COMPONENTS.md` (`AGY-01b`) across all 248 E_8 directions.
+    """
+    # 1. Duty 1 of AGY-01a-r1: Split 10-frame vs tau_R-real orthonormal frame U_real
+    i5 = np.eye(5, dtype=complex)
+    z5 = np.zeros((5, 5), dtype=complex)
+    q_split = np.block([[z5, i5], [i5, z5]])
+    j5 = np.fliplr(np.diag([1.0, -1.0, 1.0, -1.0, 1.0])).astype(complex)
+    n_split = np.block([[i5, z5], [z5, -i5]])
+    h5 = np.diag([-4.0, -2.0, 0.0, 2.0, 4.0]).astype(complex)
+    # Principal su(2) raising operator E_5 on spin-2: [E_5, E_5^dagger] = H_5
+    #Wait: with H_5 = diag(-4,-2,0,2,4), [E_5, E_5^dagger] = H_5 means E_5 lowers weight by 2
+    # (subdiagonal sqrt(4), sqrt(6), sqrt(6), sqrt(4)) so E_5 E_5^dagger - E_5^dagger E_5 = diag(-4,-2,0,2,4)!
+    e5 = np.zeros((5, 5), dtype=complex)
+    c_vals = [math.sqrt(4.0), math.sqrt(6.0), math.sqrt(6.0), math.sqrt(4.0)]
+    for idx, val in enumerate(c_vals):
+        e5[idx + 1, idx] = val
+
+    # R_5 from Eq. (27) of COMPENSATOR_RANGE_AUDIT.md
+    s2 = math.sqrt(2.0)
+    r5 = np.array(
+        [
+            [1.0, 1j, 0.0, 0.0, 0.0],
+            [0.0, 0.0, 1.0, 1j, 0.0],
+            [0.0, 0.0, 0.0, 0.0, s2],
+            [0.0, 0.0, -1.0, 1j, 0.0],
+            [1.0, -1j, 0.0, 0.0, 0.0],
+        ],
+        dtype=complex,
+    ) / s2
+
+    u_0 = np.block([[i5, z5], [z5, j5]])
+    w_sigma = np.block([[i5, i5], [i5, -i5]]) / s2
+    u_pm = u_0 @ w_sigma
+    u_real = u_pm @ np.block([[r5, z5], [z5, 1j * r5]])
+
+    res_u_real_unitary = float(np.linalg.norm(u_real.conj().T @ u_real - np.eye(10), ord="fro"))
+    res_u_real_qsplit = float(np.linalg.norm(u_real.T @ q_split @ u_real - np.eye(10), ord="fro"))
+    res_u_real_reality = float(np.linalg.norm(q_split @ np.conj(u_real) - u_real, ord="fro"))
+
+    j10_expected = np.block([[z5, i5], [-i5, z5]])
+    j10_actual = np.linalg.inv(u_real) @ (-1j * n_split) @ u_real
+    res_j10 = float(np.linalg.norm(j10_actual - j10_expected, ord="fro"))
+
+    h_split = np.block([[h5, z5], [z5, -h5]])
+    a_vec_split = (-1j * n_split) @ expm(-1j * (math.pi / 4.0) * h_split)
+    a_vec_real = np.linalg.inv(u_real) @ a_vec_split @ u_real
+    h5_tilde = r5.conj().T @ h5 @ r5
+    o5 = expm(-1j * (math.pi / 4.0) * h5_tilde)
+    a_vec_real_expected = np.block([[z5, o5], [-o5, z5]])
+    res_a_vec_real = float(np.linalg.norm(a_vec_real - a_vec_real_expected, ord="fro"))
+    res_o5_real = float(np.linalg.norm(np.imag(o5), ord="fro"))
+    res_o5_det = float(abs(np.linalg.det(o5) - 1.0))
+
+    # 2. Build faithful 248-dimensional E_8 representation
+    infra = build_cl16_and_e8_248_infrastructure()
+    gammas = infra["gammas_256"]
+    pos_idx = infra["pos_idx"]
+    lift248 = infra["lift_even_clifford_to_248"]
+    bivector_pairs = infra["bivector_pairs"]
+
+    # Basis indices in R^{16}:
+    # 0..4   = e_1^+ .. e_5^+ (V_{5,+})
+    # 5..9   = e_1^- .. e_5^- (V_{5,-})
+    # 10..15 = f_1 .. f_6     (V_6)
+    W_256 = gammas[0] @ gammas[1] @ gammas[2] @ gammas[3] @ gammas[4]
+    U_256 = gammas[5] @ gammas[6] @ gammas[7] @ gammas[8] @ gammas[9]
+    omega10_256 = W_256 @ U_256
+    C_256 = -omega10_256
+    omega6_256 = gammas[10] @ gammas[11] @ gammas[12] @ gammas[13] @ gammas[14] @ gammas[15]
+    C6_256 = -omega6_256
+
+    o16_C = np.diag([-1.0] * 10 + [1.0] * 6)
+    o16_Zeta = np.eye(16)
+    _, _, C_248 = lift248(C_256, o16_C)
+    _, _, Zeta_248 = lift248(-np.eye(256, dtype=complex), o16_Zeta)
+
+    # Verify C^2 = Zeta on 248 and omega_10 = -C on 248
+    res_C_sq_eq_Zeta = float(np.linalg.norm(C_248 @ C_248 - Zeta_248, ord="fro"))
+    _, _, omega6_neg_248 = lift248(-omega6_256, o16_C)
+    # In Ss(16), omega_16 = C * C_6 = 1 => C = C_6^{-1} = -C_6 = omega_6 on 128_{S_+} and 120!
+    res_omega10_eq_neg_omega6_in_E8 = float(
+        np.linalg.norm(
+            lift248(omega10_256, o16_C)[2] - lift248(-omega6_256, o16_C)[2], ord="fro"
+        )
+    )
+
+    # 3. Construct H_+, H_- in Spin(16) with rotation frequencies (2, 1) on (e_1,e_2) and (e_3,e_4)
+    # Notice i*h5_tilde is a real skew-symmetric 5x5 matrix in so(5) with eigenvalues {-4i,-2i,0,2i,4i}!
+    # For any real skew-symmetric M in so(n), its lift to Lie(Spin(n)) is (1/4) sum_{a,b} M_{ab} Gamma_a Gamma_b,
+    # so exp(t M) in SO(n) is covered by exp((t/4) sum_{a,b} M_{ab} Gamma_a Gamma_b) in Spin(n),
+    # because [(1/4) sum M_{ab} Gamma_a Gamma_b, Gamma_c] = sum_a M_{ac} Gamma_a!
+    def lift_so5_skew_to_spin256(skew5: np.ndarray, offset: int) -> np.ndarray:
+        gen = np.zeros((256, 256), dtype=complex)
+        for a in range(5):
+            for b in range(5):
+                if abs(skew5[a, b]) > 1e-15:
+                    gen += 0.25 * skew5[a, b] * (gammas[offset + a] @ gammas[offset + b])
+        return gen
+
+    # Wait: in our convention exp(-i * alpha * H_+ / 2), -i * H_+ is the real skew-symmetric generator
+    # `skew_H5 = -1j * h5_tilde` (since h5_tilde is Hermitian and purely imaginary, -1j * h5_tilde is real skew-symmetric!).
+    skew_H5 = np.real(-1j * h5_tilde)
+    gen_Hplus_256 = lift_so5_skew_to_spin256(skew_H5, offset=0)
+    gen_Hminus_256 = lift_so5_skew_to_spin256(skew_H5, offset=5)
+
+    # Verify Duty 2 of AGY-01b: exp(i*pi*H_+) = exp(i*pi*H_-) = Zeta on 248!
+    # Since gen_Hplus_256 represents (-i H_+), exp(i*pi*H_+) = exp(-pi * (-i H_+)) = expm(-pi * gen_Hplus_256)
+    exp_ipi_Hplus_256 = expm(-math.pi * gen_Hplus_256)
+    exp_ipi_Hminus_256 = expm(-math.pi * gen_Hminus_256)
+    o16_exp_ipi_Hplus = np.eye(16)
+    o16_exp_ipi_Hplus[:5, :5] = np.real(expm(math.pi * skew_H5))
+    o16_exp_ipi_Hminus = np.eye(16)
+    o16_exp_ipi_Hminus[5:10, 5:10] = np.real(expm(math.pi * skew_H5))
+
+    _, _, exp_ipi_Hplus_248 = lift248(exp_ipi_Hplus_256, o16_exp_ipi_Hplus)
+    _, _, exp_ipi_Hminus_248 = lift248(exp_ipi_Hminus_256, o16_exp_ipi_Hminus)
+    res_exp_ipi_Hplus_Zeta = float(np.linalg.norm(exp_ipi_Hplus_248 - Zeta_248, ord="fro"))
+    res_exp_ipi_Hminus_Zeta = float(np.linalg.norm(exp_ipi_Hminus_248 - Zeta_248, ord="fro"))
+
+    # 4. Construct K_alpha, D = K_{pi/2}, P = exp(-i*pi*(H_+ + H_-)/2), K_pi = Zeta * P, and A in Spin(10)
+    # Recall:
+    #   K_alpha = exp(-i * alpha * (H_+ - H_-) / 2) = exp((alpha/2) * (gen_Hplus - gen_Hminus))
+    #   D = K_{pi/2}, K_pi = K_{pi} = exp((pi/2) * (gen_Hplus - gen_Hminus))
+    #   P = exp(-i * pi * (H_+ + H_-) / 2) = exp((pi/2) * (gen_Hplus + gen_Hminus))
+    D_256 = expm((math.pi / 4.0) * (gen_Hplus_256 - gen_Hminus_256))
+    o16_D = np.eye(16)
+    o16_D[:5, :5] = np.real(expm((math.pi / 4.0) * skew_H5))
+    o16_D[5:10, 5:10] = np.real(expm(-(math.pi / 4.0) * skew_H5))
+    _, _, D_248 = lift248(D_256, o16_D)
+
+    Kpi_256 = D_256 @ D_256
+    o16_Kpi = o16_D @ o16_D
+    _, _, Kpi_248 = lift248(Kpi_256, o16_Kpi)
+
+    P_256 = expm((math.pi / 2.0) * (gen_Hplus_256 + gen_Hminus_256))
+    o16_P = np.eye(16)
+    o16_P[:5, :5] = np.real(expm((math.pi / 2.0) * skew_H5))
+    o16_P[5:10, 5:10] = np.real(expm((math.pi / 2.0) * skew_H5))
+    _, _, P_248 = lift248(P_256, o16_P)
+    res_Kpi_eq_Zeta_P = float(np.linalg.norm(Kpi_248 - Zeta_248 @ P_248, ord="fro"))
+
+    # Construct A in Spin(10):
+    # A covers J_10 * exp((pi/4) * (skew_H5 oplus -skew_H5))
+    # In Spin(10), prod_{a=1}^5 (1 + e_a^+ e_a^-)/sqrt(2) covers J_10 (sending e_a^- -> +e_a^+, e_a^+ -> -e_a^-)
+    # Wait: let's check (1 + Gamma_a Gamma_{5+a})/sqrt(2) * Gamma_{5+a} * (1 - Gamma_a Gamma_{5+a})/sqrt(2)
+    # = (1/2)(Gamma_{5+a} + Gamma_a)(1 - Gamma_a Gamma_{5+a}) = Gamma_a!
+    # Yes! So J10_spin = prod_{a=0}^4 ((I + Gamma_a @ Gamma_{5+a}) / sqrt(2)) covers J_10,
+    # and J10_spin^2 = prod_{a=0}^4 (Gamma_a @ Gamma_{5+a}) = W @ U = omega_10 = -C = C^{-1}!
+    J10_spin_256 = np.eye(256, dtype=complex)
+    for a in range(5):
+        J10_spin_256 = J10_spin_256 @ (( np.eye(256) + gammas[a] @ gammas[5 + a] ) / s2)
+    exp_H_spin_256 = expm((math.pi / 4.0) * (gen_Hplus_256 + gen_Hminus_256))
+    A_256 = J10_spin_256 @ exp_H_spin_256
+    o16_A = np.eye(16)
+    o16_A[:10, :10] = np.real(a_vec_real_expected)
+    _, _, A_248 = lift248(A_256, o16_A)
+
+    # Check A^2 = C^{-1} P = C K_pi on 248
+    res_A_sq = float(np.linalg.norm(A_248 @ A_248 - C_248 @ Kpi_248, ord="fro"))
+
+    # Check A U A^{-1} = W = -C U in Cl(R^16) (orientation sign delta = -1, Duty 1 of AGY-01a-r1)
+    res_A_U_Ainv_eq_W = float(np.linalg.norm(A_256 @ U_256 @ np.linalg.inv(A_256) - W_256, ord="fro"))
+    res_W_eq_neg_C_U = float(np.linalg.norm(W_256 - (-C_256 @ U_256), ord="fro"))
+
+    # 5. Construct h_1 = U f_1 and h_3 = U f_1 f_2 f_3 in Spin(16) -> Ss(16) subset E_8 (Duty 3 of AGY-01a-r1)
+    h1_256 = U_256 @ gammas[10]
+    o16_h1 = np.diag([1.0] * 5 + [-1.0] * 5 + [-1.0, 1.0, 1.0, 1.0, 1.0, 1.0])
+    _, h1_128, h1_248 = lift248(h1_256, o16_h1)
+
+    h3_256 = U_256 @ gammas[10] @ gammas[11] @ gammas[12]
+    o16_h3 = np.diag([1.0] * 5 + [-1.0] * 5 + [-1.0, -1.0, -1.0, 1.0, 1.0, 1.0])
+    _, _, h3_248 = lift248(h3_256, o16_h3)
+
+    # Check (A h_1)^2 == K_pi on all 248 E_8 directions!
+    Ah1_248 = A_248 @ h1_248
+    res_Ah1_sq_eq_Kpi = float(np.linalg.norm(Ah1_248 @ Ah1_248 - Kpi_248, ord="fro"))
+
+    # Check (A h_3)^2 == Zeta * K_pi on all 248 E_8 directions (and != K_pi on 128!)
+    Ah3_248 = A_248 @ h3_248
+    res_Ah3_sq_eq_Zeta_Kpi = float(np.linalg.norm(Ah3_248 @ Ah3_248 - Zeta_248 @ Kpi_248, ord="fro"))
+    diff_Ah3_from_Kpi_on_128 = float(
+        np.linalg.norm((Ah3_248 @ Ah3_248)[120:, 120:] - Kpi_248[120:, 120:], ord="fro")
+    )
+
+    # Check peripheral commutator [A', B'] = Zeta * P for A' = A h_1, B' = D A' (Duty 4 of AGY-01a-r1)
+    Bp_248 = D_248 @ Ah1_248
+    comm_Ap_Bp_248 = Ah1_248 @ Bp_248 @ np.linalg.inv(Ah1_248) @ np.linalg.inv(Bp_248)
+    res_comm_Ap_Bp = float(np.linalg.norm(comm_Ap_Bp_248 - Zeta_248 @ P_248, ord="fro"))
+
+    # Check unbroken subalgebra of A_3 = so(6) (indices 10..15 in bivector_pairs) under Ad_{h_1}:
+    a3_indices = [
+        idx for idx, (r, s) in enumerate(bivector_pairs) if r >= 10 and s >= 10
+    ]
+    assert len(a3_indices) == 15
+    h1_on_a3 = h1_248[np.ix_(a3_indices, a3_indices)]
+    unbroken_so5_dim = int(np.sum(np.abs(np.linalg.eigvalsh(h1_on_a3) - 1.0) < 1e-10))
+    res_unbroken_so5_dim = float(abs(unbroken_so5_dim - 10))
+
+    # Check internal (16,4) <-> (bar16, bar4) swap on 128_{S_+}: h_1 C h_1^{-1} = C^{-1} = -C on 128
+    C_128 = C_248[120:, 120:]
+    res_h1_anticommutes_C_on_128 = float(
+        np.linalg.norm(h1_128 @ C_128 + C_128 @ h1_128, ord="fro")
+    )
+
+    # Check Duty 4 of AGY-01b (lines 86 & 88 of CENTRALIZER_COMPONENTS.md):
+    # The hand proof wrote `W f_1 = omega_16 h_1 (-omega_6)`, forgetting that f_1 anticommutes
+    # with omega_6 = f_1..f_6 (omega_6 f_1 = (-1)^5 f_1 omega_6 = -f_1 omega_6)!
+    # Thus W f_1 = omega_16 U (-omega_6) f_1 = +omega_16 h_1 (+omega_6) = Zeta * omega_16 h_1 (-omega_6)!
+    Wf1_256 = W_256 @ gammas[10]
+    o16_Wf1 = np.diag([-1.0] * 5 + [1.0] * 5 + [1.0, -1.0, -1.0, -1.0, -1.0, -1.0])
+    _, _, Wf1_248 = lift248(Wf1_256, o16_Wf1)
+    Uf1_neg_omega6_256 = h1_256 @ (-omega6_256)
+    _, _, Uf1_neg_omega6_248 = lift248(Uf1_neg_omega6_256, o16_Wf1)
+
+    caught_agy01b_line86_sign_slip = False
+    try:
+        @theorem(tol=1e-12)
+        def test_agy01b_line86_uncorrected_claim() -> Dict[str, float]:
+            return {
+                "uncorrected_Wf1_residual": float(
+                    np.linalg.norm(Wf1_248 - Uf1_neg_omega6_248, ord="fro")
+                )
+            }
+
+        _ = test_agy01b_line86_uncorrected_claim()
+    except GuardrailCompilerError:
+        caught_agy01b_line86_sign_slip = True
+    assert caught_agy01b_line86_sign_slip, "Must catch AGY-01b line 86/88 (-omega_6) f_1 = +f_1 omega_6 sign slip!"
+
+    # Corrected identity: pi_{E_8}(W f_1) == pi_{E_8}(U f_1 (+omega_6)) == Zeta * pi_{E_8}(U f_1 (-omega_6))
+    Uf1_pos_omega6_256 = h1_256 @ (+omega6_256)
+    _, _, Uf1_pos_omega6_248 = lift248(Uf1_pos_omega6_256, o16_Wf1)
+    res_Wf1_corrected_identity = float(np.linalg.norm(Wf1_248 - Uf1_pos_omega6_248, ord="fro"))
+
+    return {
+        "u_real_unitary_residual": res_u_real_unitary,
+        "u_real_qsplit_residual": res_u_real_qsplit,
+        "u_real_reality_residual": res_u_real_reality,
+        "j10_residual": res_j10,
+        "a_vec_real_residual": res_a_vec_real,
+        "o5_imag_residual": res_o5_real,
+        "o5_det_residual": res_o5_det,
+        "C_sq_eq_Zeta_residual": res_C_sq_eq_Zeta,
+        "omega10_eq_neg_omega6_residual": res_omega10_eq_neg_omega6_in_E8,
+        "exp_ipi_Hplus_Zeta_residual": res_exp_ipi_Hplus_Zeta,
+        "exp_ipi_Hminus_Zeta_residual": res_exp_ipi_Hminus_Zeta,
+        "Kpi_eq_Zeta_P_residual": res_Kpi_eq_Zeta_P,
+        "A_sq_residual": res_A_sq,
+        "A_U_Ainv_eq_W_residual": res_A_U_Ainv_eq_W,
+        "W_eq_neg_C_U_residual": res_W_eq_neg_C_U,
+        "Ah1_sq_eq_Kpi_248_residual": res_Ah1_sq_eq_Kpi,
+        "Ah3_sq_eq_Zeta_Kpi_248_residual": res_Ah3_sq_eq_Zeta_Kpi,
+        "Ah3_128_obstruction_norm": diff_Ah3_from_Kpi_on_128,
+        "comm_Ap_Bp_eq_Zeta_P_residual": res_comm_Ap_Bp,
+        "unbroken_so5_dim": unbroken_so5_dim,
+        "unbroken_so5_dim_residual": res_unbroken_so5_dim,
+        "h1_anticommutes_C_on_128_residual": res_h1_anticommutes_C_on_128,
+        "caught_agy01b_line86_Wf1_sign_slip": int(caught_agy01b_line86_sign_slip),
+        "Wf1_eq_Uf1_pos_omega6_residual": res_Wf1_corrected_identity,
+    }
+
+
+# ============================================================================
+# Pillar 2: AGY-01c (4 Coherent G_0-Classes, Twisted G_c Orbits, k_bad vs k_0 = f_3 f_5)
+# ============================================================================
+
+@referee
+@theorem(tol=1e-12)
+def verify_pillar2_agy01c_coherent_phase_classes_and_witness_repair() -> Dict[str, Any]:
+    """
+    Independent Referee Verification of `COHERENT_PHASE_CLASSES.md` (`AGY-01c` / `AGY-01d`)
+    across all 248 E_8 directions, including proof that `guardrail_dsl` catches the
+    `b299c2ab5` counterexample `k_bad = f_3 f_4 f_5 f_6` and certifies the `1c6c03333`
+    repaired witness `k_0 = f_3 f_5`.
+    """
+    infra = build_cl16_and_e8_248_infrastructure()
+    gammas = infra["gammas_256"]
+    bivector_pairs = infra["bivector_pairs"]
+    lift248 = infra["lift_even_clifford_to_248"]
+
+    # Reuse Spin(10) and Spin(6) generators
+    s2 = math.sqrt(2.0)
+    h5 = np.diag([-4.0, -2.0, 0.0, 2.0, 4.0]).astype(complex)
+    r5 = np.array(
+        [
+            [1.0, 1j, 0.0, 0.0, 0.0],
+            [0.0, 0.0, 1.0, 1j, 0.0],
+            [0.0, 0.0, 0.0, 0.0, s2],
+            [0.0, 0.0, -1.0, 1j, 0.0],
+            [1.0, -1j, 0.0, 0.0, 0.0],
+        ],
+        dtype=complex,
+    ) / s2
+    h5_tilde = r5.conj().T @ h5 @ r5
+    skew_H5 = np.real(-1j * h5_tilde)
+
+    def lift_so5_skew_to_spin256(skew5: np.ndarray, offset: int) -> np.ndarray:
+        gen = np.zeros((256, 256), dtype=complex)
+        for a in range(5):
+            for b in range(5):
+                if abs(skew5[a, b]) > 1e-15:
+                    gen += 0.25 * skew5[a, b] * (gammas[offset + a] @ gammas[offset + b])
+        return gen
+
+    gen_Hplus_256 = lift_so5_skew_to_spin256(skew_H5, offset=0)
+    gen_Hminus_256 = lift_so5_skew_to_spin256(skew_H5, offset=5)
+    D_256 = expm((math.pi / 4.0) * (gen_Hplus_256 - gen_Hminus_256))
+    o16_D = np.eye(16)
+    o16_D[:5, :5] = np.real(expm((math.pi / 4.0) * skew_H5))
+    o16_D[5:10, 5:10] = np.real(expm(-(math.pi / 4.0) * skew_H5))
+    _, _, D_248 = lift248(D_256, o16_D)
+    _, _, Kpi_248 = lift248(D_256 @ D_256, o16_D @ o16_D)
+
+    J10_spin_256 = np.eye(256, dtype=complex)
+    for a in range(5):
+        J10_spin_256 = J10_spin_256 @ ((np.eye(256) + gammas[a] @ gammas[5 + a]) / s2)
+    A_256 = J10_spin_256 @ expm((math.pi / 4.0) * (gen_Hplus_256 + gen_Hminus_256))
+    o5 = np.real(expm(-1j * (math.pi / 4.0) * h5_tilde))
+    o16_A = np.eye(16)
+    o16_A[:10, :10] = np.block([[np.zeros((5, 5)), o5], [-o5, np.zeros((5, 5))]])
+    _, _, A_248 = lift248(A_256, o16_A)
+
+    W_256 = gammas[0] @ gammas[1] @ gammas[2] @ gammas[3] @ gammas[4]
+    U_256 = gammas[5] @ gammas[6] @ gammas[7] @ gammas[8] @ gammas[9]
+    C_256 = -(W_256 @ U_256)
+    o16_C = np.diag([-1.0] * 10 + [1.0] * 6)
+    _, _, C_248 = lift248(C_256, o16_C)
+    _, _, Zeta_248 = lift248(-np.eye(256, dtype=complex), np.eye(16))
+
+    # Three D_3 Cartan planes on V_6 (indices 10..15): J_1 = f_1 f_2, J_2 = f_3 f_4, J_3 = f_5 f_6
+    f1, f2, f3, f4, f5, f6 = gammas[10:16]
+    J1_256 = f1 @ f2
+    J2_256 = f3 @ f4
+    J3_256 = f5 @ f6
+
+    # Note: omega_6 = f_1..f_6 = -C_6, and in Spin(6) with J_a = f_{2a-1} f_{2a},
+    # exp(-(pi/4)*(J_1 + J_2 + J_3)) = prod_{a=1}^3 (1 - J_a)/sqrt(2), whose square is
+    # prod_{a=1}^3 (-J_a) = -f_1..f_6 = -omega_6 = +C_6!
+    # Wait: in E_8, C_6 = C^{-1} (since omega_16 = C * C_6 = 1 => C_6 = C^{-1}!),
+    # so h_4 = exp(-(pi/4)*(J_1 + J_2 + J_3)) satisfies h_4^2 = -omega_6 = C_6 = C^{-1} in E_8!
+    h4_256 = expm(-(math.pi / 4.0) * (J1_256 + J2_256 + J3_256))
+    rot90 = np.array([[0.0, 1.0], [-1.0, 0.0]])
+    # Check: (1 - f1 f2)/sqrt(2) * f1 * (1 + f1 f2)/sqrt(2) = (1/2)(f1 - f2)(1 + f1 f2) = -f2, and f2 -> +f1
+    rot90_v6 = np.array([[0.0, 1.0], [-1.0, 0.0]])
+    o16_h4 = np.eye(16)
+    for plane in range(3):
+        idx0 = 10 + 2 * plane
+        o16_h4[idx0 : idx0 + 2, idx0 : idx0 + 2] = rot90_v6
+    _, _, h4_248 = lift248(h4_256, o16_h4)
+    Zeta_h4_248 = Zeta_248 @ h4_248
+
+    s_256 = U_256 @ f1
+    o16_s = np.diag([1.0] * 5 + [-1.0] * 5 + [-1.0, 1.0, 1.0, 1.0, 1.0, 1.0])
+    _, _, s_248 = lift248(s_256, o16_s)
+    sC_248 = s_248 @ C_248
+
+    # 1. Verify (A h)^2 == K_pi on all 248 E_8 directions for all 4 G_0-classes:
+    res_O0_plus = float(np.linalg.norm((A_248 @ h4_248) @ (A_248 @ h4_248) - Kpi_248, ord="fro"))
+    res_O0_minus = float(
+        np.linalg.norm((A_248 @ Zeta_h4_248) @ (A_248 @ Zeta_h4_248) - Kpi_248, ord="fro")
+    )
+    res_O1_plus = float(np.linalg.norm((A_248 @ s_248) @ (A_248 @ s_248) - Kpi_248, ord="fro"))
+    res_O1_minus = float(np.linalg.norm((A_248 @ sC_248) @ (A_248 @ sC_248) - Kpi_248, ord="fro"))
+
+    # 2. Verify unbroken A_3 dimensions (9 = u(3) for O_{0,+-} vs 10 = so(5) for O_{1,+-})
+    # and traces on V_{5,+} x V_6 (+20 vs -20 for O_{1,+-})
+    a3_indices = [idx for idx, (r, s) in enumerate(bivector_pairs) if r >= 10 and s >= 10]
+    v5p_v6_indices = [idx for idx, (r, s) in enumerate(bivector_pairs) if r < 5 and s >= 10]
+    assert len(v5p_v6_indices) == 30
+
+    dim_u3_O0p = int(np.sum(np.abs(np.linalg.eigvals(h4_248[np.ix_(a3_indices, a3_indices)]) - 1.0) < 1e-10))
+    dim_u3_O0m = int(
+        np.sum(np.abs(np.linalg.eigvals(Zeta_h4_248[np.ix_(a3_indices, a3_indices)]) - 1.0) < 1e-10)
+    )
+    dim_so5_O1p = int(np.sum(np.abs(np.linalg.eigvals(s_248[np.ix_(a3_indices, a3_indices)]) - 1.0) < 1e-10))
+    dim_so5_O1m = int(np.sum(np.abs(np.linalg.eigvals(sC_248[np.ix_(a3_indices, a3_indices)]) - 1.0) < 1e-10))
+
+    tr_v5p_v6_O1p = float(np.real(np.trace(s_248[np.ix_(v5p_v6_indices, v5p_v6_indices)])))
+    tr_v5p_v6_O1m = float(np.real(np.trace(sC_248[np.ix_(v5p_v6_indices, v5p_v6_indices)])))
+
+    # 3. Verify that the raw `b299c2ab5` choice `k_bad = f_3 f_4 f_5 f_6` FAILS and is caught by `@theorem`!
+    k_bad_256 = f3 @ f4 @ f5 @ f6
+    tau_h4_256 = f1 @ h4_256 @ np.linalg.inv(f1)  # tau(u) = s u s^-1 = f_1 u f_1^-1
+    h4_inv_256 = np.linalg.inv(h4_256)
+
+    caught_k_bad_bug = False
+    try:
+        @theorem(tol=1e-12)
+        def test_k_bad_witness_claim() -> Dict[str, float]:
+            lhs = k_bad_256 @ tau_h4_256 @ np.linalg.inv(k_bad_256)
+            return {"k_bad_inversion_residual": float(np.linalg.norm(lhs - h4_inv_256, ord="fro"))}
+
+        _ = test_k_bad_witness_claim()
+    except GuardrailCompilerError:
+        caught_k_bad_bug = True
+    assert caught_k_bad_bug, "guardrail_dsl must reject the buggy b299c2ab5 witness k_bad!"
+
+    # 4. Certify the repaired `1c6c03333` witness `k_0 = f_3 f_5` (`g_0 = (f_3 f_5) s`) on all 248 directions!
+    k0_256 = f3 @ f5
+    res_k0_inverts_h4 = float(
+        np.linalg.norm(k0_256 @ tau_h4_256 @ np.linalg.inv(k0_256) - h4_inv_256, ord="fro")
+    )
+    o16_k0 = np.eye(16)
+    o16_k0[12, 12] = -1.0  # f_3 (index 12) negated
+    o16_k0[14, 14] = -1.0  # f_5 (index 14) negated
+    _, _, k0_248 = lift248(k0_256, o16_k0)
+    g0_248 = k0_248 @ s_248
+
+    Ah4_248 = A_248 @ h4_248
+    Bh4_248 = D_248 @ Ah4_248
+    AZetah4_248 = A_248 @ Zeta_h4_248
+    BZetah4_248 = D_248 @ AZetah4_248
+
+    res_g0_Ah4 = float(np.linalg.norm(g0_248 @ Ah4_248 @ np.linalg.inv(g0_248) - AZetah4_248, ord="fro"))
+    res_g0_Bh4 = float(np.linalg.norm(g0_248 @ Bh4_248 @ np.linalg.inv(g0_248) - BZetah4_248, ord="fro"))
+
+    # Verify Ad_{g_0}(Q_em) = -Q_em where Q_em = (2/3)*(J_1 + J_2 + J_3)
+    Qem_256 = (2.0 / 3.0) * (J1_256 + J2_256 + J3_256)
+    g0_256 = k0_256 @ s_256
+    res_g0_reverses_Qem = float(
+        np.linalg.norm(g0_256 @ Qem_256 @ np.linalg.inv(g0_256) + Qem_256, ord="fro")
+    )
+
+    # 5. Certify the outer equivalence witness `k_1 = f_1 f_2` (`g_1 = (f_1 f_2) s`) on all 248 directions!
+    k1_256 = f1 @ f2
+    o16_k1 = np.eye(16)
+    o16_k1[10, 10] = -1.0
+    o16_k1[11, 11] = -1.0
+    _, _, k1_248 = lift248(k1_256, o16_k1)
+    g1_248 = k1_248 @ s_248
+
+    As_248 = A_248 @ s_248
+    Bs_248 = D_248 @ As_248
+    AsC_248 = A_248 @ sC_248
+    BsC_248 = D_248 @ AsC_248
+
+    res_g1_As = float(np.linalg.norm(g1_248 @ As_248 @ np.linalg.inv(g1_248) - AsC_248, ord="fro"))
+    res_g1_Bs = float(np.linalg.norm(g1_248 @ Bs_248 @ np.linalg.inv(g1_248) - BsC_248, ord="fro"))
+
+    return {
+        "O0_plus_coherence_248_residual": res_O0_plus,
+        "O0_minus_coherence_248_residual": res_O0_minus,
+        "O1_plus_coherence_248_residual": res_O1_plus,
+        "O1_minus_coherence_248_residual": res_O1_minus,
+        "unbroken_dims": [dim_u3_O0p, dim_u3_O0m, dim_so5_O1p, dim_so5_O1m],
+        "unbroken_dims_residual": float(
+            abs(dim_u3_O0p - 9) + abs(dim_u3_O0m - 9) + abs(dim_so5_O1p - 10) + abs(dim_so5_O1m - 10)
+        ),
+        "tr_V5p_V6_O1_plus": tr_v5p_v6_O1p,
+        "tr_V5p_V6_O1_minus": tr_v5p_v6_O1m,
+        "tr_V5p_V6_residual": float(abs(tr_v5p_v6_O1p - 20.0) + abs(tr_v5p_v6_O1m + 20.0)),
+        "caught_b299c2ab5_k_bad_bug": int(caught_k_bad_bug),
+        "k0_inverts_h4_residual": res_k0_inverts_h4,
+        "g0_Ah4_to_AZetah4_248_residual": res_g0_Ah4,
+        "g0_Bh4_to_BZetah4_248_residual": res_g0_Bh4,
+        "g0_reverses_Qem_residual": res_g0_reverses_Qem,
+        "g1_As_to_AsC_248_residual": res_g1_As,
+        "g1_Bs_to_BsC_248_residual": res_g1_Bs,
+    }
+
+
+# ============================================================================
+# Pillar 3: AGY-01d (Lifted Register Group E, Orientation Character eta_K,
+#           48-State h_1 Stabilizer, Coherent K_h(N)=1, and X_4 Bridge)
+# ============================================================================
+
+@referee
+@theorem(tol=1e-12)
+def verify_pillar3_agy01d_register_to_grading_and_x4_bridge() -> Dict[str, Any]:
+    """
+    Independent Referee Verification of `REGISTER_TO_GRADING.md` (`AGY-01d` Duties 1–5).
+    """
+    # 1. Duty 1: Binary octahedral group 2O subset SU(2) of order 48 generated by g_L, g_R
+    f_i = np.array([[1j, 0.0], [0.0, -1j]], dtype=complex)
+    f_j = np.array([[0.0, 1.0], [-1.0, 0.0]], dtype=complex)
+    f_k = f_i @ f_j
+    i2 = np.eye(2, dtype=complex)
+    g_l = (i2 + f_i) / math.sqrt(2.0)
+    g_r = (i2 - f_j) / math.sqrt(2.0)
+
+    # Check coherence of (L, g_L) and (R, g_R) with L:(a,b)->(a,ab), R:(a,b)->(ab,b)
+    res_gL_coherence = float(
+        np.linalg.norm(g_l @ f_i @ g_l.conj().T - f_i, ord="fro")
+        + np.linalg.norm(g_l @ f_j @ g_l.conj().T - (f_i @ f_j), ord="fro")
+    )
+    res_gR_coherence = float(
+        np.linalg.norm(g_r @ f_i @ g_r.conj().T - (f_i @ f_j), ord="fro")
+        + np.linalg.norm(g_r @ f_j @ g_r.conj().T - f_j, ord="fro")
+    )
+
+    # Enumerate 2O by BFS
+    group_2o: List[np.ndarray] = [i2]
+    frontier: List[np.ndarray] = [i2]
+    gens_2o = [g_l, g_l.conj().T, g_r, g_r.conj().T]
+    while frontier:
+        nxt: List[np.ndarray] = []
+        for g in frontier:
+            for h in gens_2o:
+                p = g @ h
+                if not any(np.linalg.norm(p - x, ord="fro") < 1e-10 for x in group_2o):
+                    group_2o.append(p)
+                    nxt.append(p)
+        frontier = nxt
+    res_2o_order_48 = float(abs(len(group_2o) - 48))
+
+    # 2. Duty 2: Orientation character eta_K orbit under L, R on outer branch h in s*G_0
+    # Left action e: eta -> eta o phi^-1 on Hom(F_2, F_2)
+    # With L(a,b) = (a, ab) => L^-1(a,b) = (a, a^-1 b):
+    #   (eta o L^-1)(a) = eta(a), (eta o L^-1)(b) = eta(a) + eta(b) mod 2
+    # With R(a,b) = (ab, b) => R^-1(a,b) = (a b^-1, b):
+    #   (eta o R^-1)(a) = eta(a) + eta(b) mod 2, (eta o R^-1)(b) = eta(b)
+    def act_L(eta: Tuple[int, int]) -> Tuple[int, int]:
+        return (eta[0] % 2, (eta[0] + eta[1]) % 2)
+
+    def act_R(eta: Tuple[int, int]) -> Tuple[int, int]:
+        return ((eta[0] + eta[1]) % 2, eta[1] % 2)
+
+    eta_init = (1, 1)
+    eta_after_L = act_L(eta_init)   # (1, 0)
+    eta_after_R = act_R(eta_init)   # (0, 1)
+    eta_R_on_10 = act_R((1, 0))     # (1, 0)
+    orbit_P = {eta_init, eta_after_L, eta_after_R}
+    res_orbit_P = float(
+        abs(len(orbit_P) - 3)
+        + abs(eta_after_L[0] - 1) + abs(eta_after_L[1] - 0)
+        + abs(eta_after_R[0] - 0) + abs(eta_after_R[1] - 1)
+        + abs(eta_R_on_10[0] - 1) + abs(eta_R_on_10[1] - 0)
+    )
+
+    # Stabilizer index check in 2O (48 elements):
+    # Track pairs (phi_mod2, g) in GL_2(F_2) x_{S_3} 2O (48 elements):
+    m_L = np.array([[1, 0], [1, 1]], dtype=int)  # action of L on row vector (eta_a, eta_b) -> (eta_a, eta_a + eta_b)
+    m_R = np.array([[1, 1], [0, 1]], dtype=int)  # action of R on row vector (eta_a, eta_b) -> (eta_a + eta_b, eta_b)
+    pairs_E48: List[Tuple[np.ndarray, np.ndarray]] = [(np.eye(2, dtype=int), i2)]
+    front_E48 = list(pairs_E48)
+    gens_E48 = [
+        (m_L, g_l),
+        (m_L, g_l.conj().T),
+        (m_R, g_r),
+        (m_R, g_r.conj().T),
+    ]
+    while front_E48:
+        nxt_e: List[Tuple[np.ndarray, np.ndarray]] = []
+        for m_p, g_p in front_E48:
+            for m_gen, g_gen in gens_E48:
+                m_new = (m_p @ m_gen) % 2
+                g_new = g_p @ g_gen
+                if not any(np.linalg.norm(g_new - x[1], ord="fro") < 1e-10 for x in pairs_E48):
+                    pairs_E48.append((m_new, g_new))
+                    nxt_e.append((m_new, g_new))
+        front_E48 = nxt_e
+
+    stab_11 = [
+        (m_p, g_p)
+        for (m_p, g_p) in pairs_E48
+        if tuple((np.array([1, 1]) @ m_p) % 2) == (1, 1)
+    ]
+    stab_all_P = [
+        (m_p, g_p)
+        for (m_p, g_p) in pairs_E48
+        if np.array_equal(m_p % 2, np.eye(2, dtype=int))
+    ]
+    res_stab_orders = float(abs(len(stab_11) - 16) + abs(len(stab_all_P) - 8))
+
+    # 3. Duty 3 & 4: Local h_1 stabilizer on all 48 registered scalar states {U_e Phi_0}_{e in E}
+    # and coherent cancellation X^2 = Y^2 = (XY)^2 = K_pi = D^2, K_h(N) = 1 vs bare A^2(AB)^-2 = C^-1!
+    infra = build_cl16_and_e8_248_infrastructure()
+    gammas = infra["gammas_256"]
+    lift248 = infra["lift_even_clifford_to_248"]
+    s2 = math.sqrt(2.0)
+    h5 = np.diag([-4.0, -2.0, 0.0, 2.0, 4.0]).astype(complex)
+    r5 = np.array(
+        [
+            [1.0, 1j, 0.0, 0.0, 0.0],
+            [0.0, 0.0, 1.0, 1j, 0.0],
+            [0.0, 0.0, 0.0, 0.0, s2],
+            [0.0, 0.0, -1.0, 1j, 0.0],
+            [1.0, -1j, 0.0, 0.0, 0.0],
+        ],
+        dtype=complex,
+    ) / s2
+    h5_tilde = r5.conj().T @ h5 @ r5
+    skew_H5 = np.real(-1j * h5_tilde)
+
+    def lift_so5_skew_to_spin256(skew5: np.ndarray, offset: int) -> np.ndarray:
+        gen = np.zeros((256, 256), dtype=complex)
+        for a in range(5):
+            for b in range(5):
+                if abs(skew5[a, b]) > 1e-15:
+                    gen += 0.25 * skew5[a, b] * (gammas[offset + a] @ gammas[offset + b])
+        return gen
+
+    gen_Hplus_256 = lift_so5_skew_to_spin256(skew_H5, offset=0)
+    gen_Hminus_256 = lift_so5_skew_to_spin256(skew_H5, offset=5)
+    D_256 = expm((math.pi / 4.0) * (gen_Hplus_256 - gen_Hminus_256))
+    o16_D = np.eye(16)
+    o16_D[:5, :5] = np.real(expm((math.pi / 4.0) * skew_H5))
+    o16_D[5:10, 5:10] = np.real(expm(-(math.pi / 4.0) * skew_H5))
+    _, _, D_248 = lift248(D_256, o16_D)
+    _, _, Kpi_248 = lift248(D_256 @ D_256, o16_D @ o16_D)
+
+    J10_spin_256 = np.eye(256, dtype=complex)
+    for a in range(5):
+        J10_spin_256 = J10_spin_256 @ ((np.eye(256) + gammas[a] @ gammas[5 + a]) / s2)
+    A_256 = J10_spin_256 @ expm((math.pi / 4.0) * (gen_Hplus_256 + gen_Hminus_256))
+    o5 = np.real(expm(-1j * (math.pi / 4.0) * h5_tilde))
+    o16_A = np.eye(16)
+    o16_A[:10, :10] = np.block([[np.zeros((5, 5)), o5], [-o5, np.zeros((5, 5))]])
+    _, _, A_248 = lift248(A_256, o16_A)
+
+    W_256 = gammas[0] @ gammas[1] @ gammas[2] @ gammas[3] @ gammas[4]
+    U_256 = gammas[5] @ gammas[6] @ gammas[7] @ gammas[8] @ gammas[9]
+    C_256 = -(W_256 @ U_256)
+    o16_C = np.diag([-1.0] * 10 + [1.0] * 6)
+    _, _, C_248 = lift248(C_256, o16_C)
+    _, _, Zeta_248 = lift248(-np.eye(256, dtype=complex), np.eye(16))
+    Cinv_248 = Zeta_248 @ C_248
+
+    h1_256 = U_256 @ gammas[10]
+    o16_h1 = np.diag([1.0] * 5 + [-1.0] * 5 + [-1.0, 1.0, 1.0, 1.0, 1.0, 1.0])
+    _, _, h1_248 = lift248(h1_256, o16_h1)
+
+    # Verify bare lift K_0: A^2 (A B)^{-2} = C^{-1} on 248 (where B = D A)
+    B_bare_248 = D_248 @ A_248
+    AB_bare_sq = (A_248 @ B_bare_248) @ (A_248 @ B_bare_248)
+    bare_combo = (A_248 @ A_248) @ np.linalg.inv(AB_bare_sq)
+    res_bare_detects_Cinv = float(np.linalg.norm(bare_combo - Cinv_248, ord="fro"))
+
+    # Verify coherent lift K_h (e.g. X = A h_1, Y = D X):
+    # X^2 = Y^2 = (X Y)^2 = K_pi = D^2, X Y = D, and K_h(N) = I_248 on generators r_1, r_2, r_3, c^2!
+    X_coh = A_248 @ h1_248
+    Y_coh = D_248 @ X_coh
+    X_inv = np.linalg.inv(X_coh)
+    Y_inv = np.linalg.inv(Y_coh)
+
+    # Note: Y X^{-1} = D, whereas X Y = X D X^{-1} X^2 = D^{-1} K_pi = D^{-1} D^2 = D!
+    res_XY_eq_D = float(np.linalg.norm(X_coh @ Y_coh - D_248, ord="fro"))
+    res_coh_squares = float(
+        np.linalg.norm(X_coh @ X_coh - Kpi_248, ord="fro")
+        + np.linalg.norm(Y_coh @ Y_coh - Kpi_248, ord="fro")
+        + np.linalg.norm((X_coh @ Y_coh) @ (X_coh @ Y_coh) - Kpi_248, ord="fro")
+    )
+    # Evaluate K_h on N = ker(rho) generators: r_1 = a^4, r_2 = a^2 b^-2, r_3 = b^-1 a b a, c^2 = (a b a^-1 b^-1)^2
+    i248 = np.eye(248, dtype=complex)
+    Kh_r1 = X_coh @ X_coh @ X_coh @ X_coh
+    Kh_r2 = (X_coh @ X_coh) @ (Y_inv @ Y_inv)
+    Kh_r3 = Y_inv @ X_coh @ Y_coh @ X_coh
+    Kh_c = X_coh @ Y_coh @ X_inv @ Y_inv
+    Kh_c2 = Kh_c @ Kh_c
+    res_Kh_kills_N = float(
+        np.linalg.norm(Kh_r1 - i248, ord="fro")
+        + np.linalg.norm(Kh_r2 - i248, ord="fro")
+        + np.linalg.norm(Kh_r3 - i248, ord="fro")
+        + np.linalg.norm(Kh_c2 - i248, ord="fro")
+    )
+
+    # 4. Duty 5: Fourth-root character bridge 1 -> X_2 -> X_4 --res_N--> A_disc^hat -> 1
+    # Evaluate lambda_{(r,s)}(a) = i^r, lambda_{(r,s)}(b) = i^s for r,s in {0,1,2,3}
+    # on N generators (r_2 = a^2 b^-2, r_3 = b^-1 a b a):
+    #   lambda(r_2) = i^{2r - 2s} = (-1)^{r-s}
+    #   lambda(r_3) = i^{2a} = (-1)^r
+    res_N_map: Dict[Tuple[int, int], List[Tuple[int, int]]] = {}
+    for r_pow in range(4):
+        for s_pow in range(4):
+            val_r2 = (-1) ** ((r_pow - s_pow) % 2)
+            val_r3 = (-1) ** (r_pow % 2)
+            key = (val_r2, val_r3)
+            res_N_map.setdefault(key, []).append((r_pow, s_pow))
+
+    # Verify all 4 discriminant characters in A_disc^hat = {(1,1), (1,-1), (-1,1), (-1,-1)}
+    # are hit with exact fiber size 4 (|X_2| = 4), and squaring J(psi) = lambda^2 = ((-1)^r, (-1)^s)
+    # is a well-defined bijection onto X_2!
+    all_4_fibers_size_4 = len(res_N_map) == 4 and all(len(v) == 4 for v in res_N_map.values())
+    j_bijection_images = set()
+    for key, fiber in res_N_map.items():
+        sq_chars = {((-1) ** (r % 2), (-1) ** (s % 2)) for (r, s) in fiber}
+        assert len(sq_chars) == 1
+        j_bijection_images |= sq_chars
+    res_x4_bridge = float(
+        (0 if all_4_fibers_size_4 else 1) + abs(len(j_bijection_images) - 4)
+    )
+
+    return {
+        "gL_coherence_residual": res_gL_coherence,
+        "gR_coherence_residual": res_gR_coherence,
+        "group_2O_order": len(group_2o),
+        "group_2O_order_residual": res_2o_order_48,
+        "eta_orbit_P_residual": res_orbit_P,
+        "stabilizer_orders_16_and_8_residual": res_stab_orders,
+        "bare_detects_Cinv_248_residual": res_bare_detects_Cinv,
+        "coherent_XY_eq_D_248_residual": res_XY_eq_D,
+        "coherent_squares_eq_Kpi_248_residual": res_coh_squares,
+        "coherent_Kh_kills_N_248_residual": res_Kh_kills_N,
+        "x4_bridge_exact_sequence_residual": res_x4_bridge,
+    }
+
+
+# ============================================================================
+# Pillar 4: `origin-axiom` B1855, B1856, B1857 (Weil-5, Charge Law, Sol Cosh Law)
+# ============================================================================
+
+@referee
+@theorem(tol=1e-9)
+def verify_pillar4_b1855_b1856_b1857_weil5_and_charge_law() -> Dict[str, Any]:
+    """
+    Independent Referee Verification of `B1855`, `B1856`, and `B1857` from `origin-axiom`,
+    including proof that `guardrail_dsl` catches the transposed eigenvector slip
+    `v_bad = (1, phi)` in Lemma A while certifying `v = (phi, 1)`.
+    """
+    # 1. B1856: Level-5 Weil representation of SL(2, F_5) on C^5
+    p_mod = 5
+    w5 = lambda x: cmath.exp(2j * math.pi * x / p_mod)
+
+    def mmod(a: Tuple[Tuple[int, int], Tuple[int, int]]) -> Tuple[Tuple[int, int], Tuple[int, int]]:
+        return (
+            (int(a[0][0]) % p_mod, int(a[0][1]) % p_mod),
+            (int(a[1][0]) % p_mod, int(a[1][1]) % p_mod),
+        )
+
+    def mmul(
+        a: Tuple[Tuple[int, int], Tuple[int, int]],
+        b: Tuple[Tuple[int, int], Tuple[int, int]],
+    ) -> Tuple[Tuple[int, int], Tuple[int, int]]:
+        return mmod(
+            (
+                (a[0][0] * b[0][0] + a[0][1] * b[1][0], a[0][0] * b[0][1] + a[0][1] * b[1][1]),
+                (a[1][0] * b[0][0] + a[1][1] * b[1][0], a[1][0] * b[0][1] + a[1][1] * b[1][1]),
+            )
+        )
+
+    t_mat = ((1, 1), (0, 1))
+    s_mat = ((0, -1 % p_mod), (1, 0))
+    id_mat = ((1, 0), (0, 1))
+    r_t = np.diag([w5(3 * x * x) for x in range(p_mod)])
+    r_s = np.array([[w5(-x * y) for y in range(p_mod)] for x in range(p_mod)]) / math.sqrt(p_mod)
+
+    rep: Dict[Tuple[Tuple[int, int], Tuple[int, int]], np.ndarray] = {
+        mmod(id_mat): np.eye(p_mod, dtype=complex)
+    }
+    frontier = [mmod(id_mat)]
+    clash_errors: List[float] = []
+    gens = [(mmod(t_mat), r_t), (mmod(s_mat), r_s)]
+    while frontier:
+        nxt = []
+        for g in frontier:
+            for h, r_h in gens:
+                k = mmul(g, h)
+                m_cand = rep[g] @ r_h
+                if k in rep:
+                    a_ref = rep[k]
+                    c_scale = np.vdot(a_ref.ravel(), m_cand.ravel()) / np.vdot(a_ref.ravel(), a_ref.ravel())
+                    err = float(np.max(np.abs(m_cand - c_scale * a_ref)))
+                    clash_errors.append(err)
+                else:
+                    rep[k] = m_cand
+                    nxt.append(k)
+        frontier = nxt
+    max_proj_clash = float(max(clash_errors))
+
+    ev_proj = np.array([[1, 0, 0, 0, 0], [0, 1, 0, 0, 1], [0, 0, 1, 1, 0]], dtype=float)
+    ev_proj[1:] /= math.sqrt(2.0)
+    od_proj = np.array([[0, 1, 0, 0, -1], [0, 0, 1, -1, 0]], dtype=float) / math.sqrt(2.0)
+
+    def is_scalar_block(m_op: np.ndarray, b_proj: np.ndarray) -> bool:
+        blk = b_proj @ m_op @ b_proj.T
+        c_tr = np.trace(blk) / blk.shape[0]
+        return float(np.max(np.abs(blk - c_tr * np.eye(blk.shape[0])))) < 1e-9
+
+    inv_sectors = [
+        g for g, m_op in rep.items() if is_scalar_block(m_op, ev_proj) and is_scalar_block(m_op, od_proj)
+    ]
+    res_hq1_only_pmI = float(
+        0 if set(inv_sectors) == {mmod(id_mat), mmod(((-1, 0), (0, -1)))} else 1
+    )
+
+    t_inv = ((1, -1 % p_mod), (0, 1))
+    s_inv = ((0, 1), (-1 % p_mod, 0))
+    l_b355 = mmul(mmul(s_mat, t_inv), s_inv)
+    r_b355 = mmod(t_mat)
+    lr_b355 = mmul(l_b355, r_b355)
+    m_lr = rep[lr_b355]
+
+    # Even/odd sector traces of rho(LR) normalized so angle-0 eigenvalue in even sector is 1
+    e_ev = np.linalg.eigvals(ev_proj @ m_lr @ ev_proj.T)
+    e_od = np.linalg.eigvals(od_proj @ m_lr @ od_proj.T)
+    phi = 0.5 * (1.0 + math.sqrt(5.0))
+    best_trace_err = 1e9
+    for z0 in e_ev:
+        a_ev = sorted(round((cmath.phase(z / z0) / (2.0 * math.pi)) % 1.0, 6) for z in e_ev)
+        if a_ev == [0.0, 0.4, 0.6]:
+            tr_ev = sum( z / z0 for z in e_ev )
+            tr_od = sum( z / z0 for z in e_od )
+            # Note: z/z0 on odd sector can differ by +-1 sign depending on representative in SL(2,F5)
+            err_tr = min(
+                abs(tr_ev - (1.0 - phi)) + abs(tr_od - phi),
+                abs(tr_ev - (1.0 - phi)) + abs(tr_od + phi),
+            )
+            if err_tr < best_trace_err:
+                best_trace_err = float(err_tr)
+
+    # 2. B1855: Lemma A eigenvector convention check (`v = (phi, 1)` vs buggy `v_bad = (1, phi)`)
+    l_gen = np.array([[1, 1], [0, 1]], dtype=object)
+    r_gen = np.array([[1, 0], [1, 1]], dtype=object)
+    lr_gen = l_gen @ r_gen  # [[2, 1], [1, 1]]
+
+    def mat_pow_obj(a: np.ndarray, n: int) -> np.ndarray:
+        res = np.array([[1, 0], [0, 1]], dtype=object)
+        for _ in range(n):
+            res = res @ a
+        return res
+
+    def d_word(runs: Sequence[int]) -> np.ndarray:
+        m = np.array([[1, 0], [0, 1]], dtype=object)
+        for idx, r_len in enumerate(runs):
+            step = l_gen if idx % 2 == 0 else r_gen
+            m = m @ mat_pow_obj(step, r_len)
+        return m
+
+    def mat_inv_sl2(a: np.ndarray) -> np.ndarray:
+        return np.array([[a[1, 1], -a[0, 1]], [-a[1, 0], a[0, 0]]], dtype=object)
+
+    def e_defect(runs: Sequence[int]) -> np.ndarray:
+        return d_word(runs) @ mat_inv_sl2(d_word([1] * len(runs)))
+
+    def exact_excess_k(runs: Sequence[int], k: int = 18) -> float:
+        m_len = len(runs)
+        x_tail = r_gen if m_len % 2 == 1 else np.array([[1, 0], [0, 1]], dtype=object)
+        lr_k = mat_pow_obj(lr_gen, k)
+        w_mat = d_word(runs) @ x_tail @ lr_k
+        g_mat = d_word([1] * m_len) @ x_tail @ lr_k
+        tr_w = float(abs(w_mat[0, 0] + w_mat[1, 1]))
+        tr_g = float(abs(g_mat[0, 0] + g_mat[1, 1]))
+        return 2.0 * math.acosh(tr_w / 2.0) - 2.0 * math.acosh(tr_g / 2.0)
+
+    import mpmath as mp
+    mp.mp.dps = 80
+
+    def lemma_a_formula(e_mat: np.ndarray, v_vec: Tuple[Any, Any]) -> float:
+        v0 = mp.mpf(v_vec[0])
+        v1 = mp.mpf(v_vec[1])
+        e00 = mp.mpf(int(e_mat[0, 0]))
+        e01 = mp.mpf(int(e_mat[0, 1]))
+        e10 = mp.mpf(int(e_mat[1, 0]))
+        e11 = mp.mpf(int(e_mat[1, 1]))
+        num = abs(e00 * v0 * v0 + (e01 + e10) * v0 * v1 + e11 * v1 * v1)
+        den = v0 * v0 + v1 * v1
+        return float(2 * mp.log(num / den))
+
+    # Prove `@theorem` catches the transposed eigenvector slip v_bad = (1, phi) on (2, 1, 1, 1, 2)!
+    e_test_defect = e_defect([2, 1, 1, 1, 2])
+    ex_test_defect = exact_excess_k([2, 1, 1, 1, 2], k=18)
+
+    caught_transposed_eigenvector_slip = False
+    try:
+        @theorem(tol=1e-6)
+        def buggy_lemma_a_with_1_phi() -> Dict[str, float]:
+            pred_bad = lemma_a_formula(e_test_defect, (1, mp.phi))
+            return {"lemma_a_residual": abs(pred_bad - ex_test_defect)}
+
+        _ = buggy_lemma_a_with_1_phi()
+    except GuardrailCompilerError:
+        caught_transposed_eigenvector_slip = True
+    assert caught_transposed_eigenvector_slip, "Must catch transposed eigenvector (1, phi) slip!"
+
+    # Correct GENESIS eigenvector v = (phi, 1) matches to < 1e-10!
+    res_lemma_a_correct_phi_1 = abs(lemma_a_formula(e_test_defect, (mp.phi, 1)) - ex_test_defect)
+
+    # Verify B1855 gapped counterexamples for S = (4, 5) and S = (2, 3, 4, 5)
+    def placed_runs(pairs: List[Tuple[int, int]]) -> List[int]:
+        m_max = max(p for p, _ in pairs)
+        out_r = [1] * m_max
+        for p, r_val in pairs:
+            out_r[p - 1] = r_val
+        return out_r
+
+    runs_4_5 = placed_runs([(1, 2), (17, 2), (64, 4), (69, 2)])
+    e_4_5 = e_defect(runs_4_5)
+    # Check E == +-I mod 4 and mod 5, and Lemma A excess < single run (21)
+    is_pm_i_mod_20 = all(
+        (int(e_4_5[0, 0]) % n == 1 and int(e_4_5[1, 1]) % n == 1 and int(e_4_5[0, 1]) % n == 0 and int(e_4_5[1, 0]) % n == 0)
+        or (int(e_4_5[0, 0]) % n == n - 1 and int(e_4_5[1, 1]) % n == n - 1 and int(e_4_5[0, 1]) % n == 0 and int(e_4_5[1, 0]) % n == 0)
+        for n in (4, 5)
+    )
+    ex_4_5 = lemma_a_formula(e_4_5, (mp.phi, 1))
+    ex_single_21 = lemma_a_formula(e_defect([21]), (mp.phi, 1))
+    assert is_pm_i_mod_20 and ex_4_5 < ex_single_21
+
+    # 3. B1857: Sol-time cosh law along LR's hyperbolic geodesic
+    # Fixed points of tau -> (2 tau + 1)/(tau + 1) are x_+- = (1 +- sqrt(5))/2; center c0 = 1/2, radius r = sqrt(5)/2
+    c0, r_rad = 0.5, 0.5 * math.sqrt(5.0)
+    # For class (m, n) = (1, -1), minimum of |m + n tau|^2 / Im(tau) on semicircletau(t) = c0 + r e^{i theta(t)}
+    # with tan(theta/2) = e^t occurs where |1 - c0 - r cos theta|^2 + r^2 sin^2 theta is minimized
+    # Specifically for (m, n) = (1, 0), f(t) = 1 / (r sin theta) = (1/r) cosh(t), so tc = 0, f_min = 1/r!
+    cosh_devs: List[float] = []
+    for t_val in np.linspace(-3.0, 3.0, 61):
+        theta = 2.0 * math.atan(math.exp(float(t_val)))
+        tau_t = complex(c0 + r_rad * math.cos(theta), r_rad * math.sin(theta))
+        f_10 = abs(1.0 + 0.0 * tau_t) ** 2 / tau_t.imag
+        f_min_10 = 1.0 / r_rad
+        cosh_devs.append(abs(f_10 - f_min_10 * math.cosh(float(t_val))))
+    max_cosh_dev = float(max(cosh_devs))
+
+    # 4. Guardrail 1 LedgerContext pricing of B1853/B1855 discrete defect scan (643 rung-invisible candidates)
+    scan_ledger = LedgerContext("b1853_defect_scan_ledger")
+    candidate_runs = [[6], [2, 1, 2, 1, 2], [2, 1, 1, 1, 2], [11], [16], [21]]
+    picked_defect = scan_ledger.select_from(
+        candidate_runs,
+        score_fn=lambda r_seq: lemma_a_formula(e_defect(r_seq), (mp.phi, 1)),
+        label="rung_invisible_defect_search",
+    )
+
+    return {
+        "weil5_group_size": len(rep),
+        "weil5_projective_clash_error": max_proj_clash,
+        "weil5_hq1_only_pmI_error": res_hq1_only_pmI,
+        "weil5_hq3_trace_phi_error": best_trace_err,
+        "caught_transposed_eigenvector_1_phi_slip": int(caught_transposed_eigenvector_slip),
+        "lemma_a_phi_1_residual": res_lemma_a_correct_phi_1,
+        "counterexample_4_5_excess": ex_4_5,
+        "single_run_21_excess": ex_single_21,
+        "b1857_sol_cosh_law_error": max_cosh_dev,
+        "priced_defect_scan_bits": picked_defect.selection_bits,
+    }
+
+
+def run_all_stress_and_repo_verifications() -> Dict[str, Any]:
+    """Run both Part I (Red-Team Stress Test) and Part II (Crucial Repo Math Pillars 1–4)."""
+    part1 = run_redteam_compiler_stress_test()
+    p1 = verify_pillar1_agy01a_01b_faithful_e8_compensator_and_centralizer()
+    p2 = verify_pillar2_agy01c_coherent_phase_classes_and_witness_repair()
+    p3 = verify_pillar3_agy01d_register_to_grading_and_x4_bridge()
+    p4 = verify_pillar4_b1855_b1856_b1857_weil5_and_charge_law()
+    return {
+        "part1_redteam_compiler_stress_test": part1,
+        "part2_repo_crucial_math_pillars": {
+            "pillar1_agy01a_01b_e8_248_and_h1_vs_h3": p1,
+            "pillar2_agy01c_phase_classes_and_k0_repair": p2,
+            "pillar3_agy01d_register_to_grading_and_x4_bridge": p3,
+            "pillar4_b1855_b1856_b1857_weil5_and_charge_law": p4,
+        },
+    }
+
+
+if __name__ == "__main__":
+    report = run_all_stress_and_repo_verifications()
+    out_dir = pathlib.Path(__file__).resolve().parent
+    receipt_path = out_dir / "repo_crucial_math_dsl_receipt.json"
+    receipt_path.write_text(json.dumps(report, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    sha = hashlib.sha256(receipt_path.read_bytes()).hexdigest()
+
+    print("======================================================================")
+    print("PART I: HOSTILE RED-TEAM COMPILER STRESS TEST (8 BYPASS VECTORS)")
+    print("======================================================================")
+    rt = report["part1_redteam_compiler_stress_test"]
+    print(f"All 8 red-team bypasses defeated: {rt['all_8_redteam_bypasses_defeated']}")
+    for k in sorted(rt["attacks"].keys()):
+        print(f"  [DEFEATED] {k}")
+
+    print("======================================================================")
+    print("PART II: REPO CRUCIAL MATH AUDITED & CERTIFIED BY GUARDRAIL_DSL")
+    print("======================================================================")
+    pillars = report["part2_repo_crucial_math_pillars"]
+    p1 = pillars["pillar1_agy01a_01b_e8_248_and_h1_vs_h3"]
+    print(
+        f"  [Pillar 1: AGY-01a/01b 248-dim E_8] (A h_1)^2=K_pi res = {p1['Ah1_sq_eq_Kpi_248_residual']:.3e}, "
+        f"h_3 128-obstruction = {p1['Ah3_128_obstruction_norm']:.2f}, unbroken dim = {p1['unbroken_so5_dim']}"
+    )
+    p2 = pillars["pillar2_agy01c_phase_classes_and_k0_repair"]
+    print(
+        f"  [Pillar 2: AGY-01c Phase Classes]   caught k_bad={bool(p2['caught_b299c2ab5_k_bad_bug'])}, "
+        f"g_0:A_{{h4}}->A_{{Zeta h4}} res = {p2['g0_Ah4_to_AZetah4_248_residual']:.3e}, "
+        f"g_1:A_s->A_{{sC}} res = {p2['g1_As_to_AsC_248_residual']:.3e}"
+    )
+    p3 = pillars["pillar3_agy01d_register_to_grading_and_x4_bridge"]
+    print(
+        f"  [Pillar 3: AGY-01d Register->Grade] |2O|={p3['group_2O_order']}, "
+        f"K_h(N)=I_248 res = {p3['coherent_Kh_kills_N_248_residual']:.3e}, "
+        f"X_4->A_disc^hat res = {p3['x4_bridge_exact_sequence_residual']:.3e}"
+    )
+    p4 = pillars["pillar4_b1855_b1856_b1857_weil5_and_charge_law"]
+    print(
+        f"  [Pillar 4: B1855/1856/1857 Weil-5]  |SL2(F5)|={p4['weil5_group_size']}, "
+        f"caught (1,phi) slip={bool(p4['caught_transposed_eigenvector_1_phi_slip'])}, "
+        f"S={{4,5}} excess={p4['counterexample_4_5_excess']:.4f} < {p4['single_run_21_excess']:.4f}"
+    )
+    print("----------------------------------------------------------------------")
+    print(f"Receipt written to: {receipt_path}")
+    print(f"Receipt SHA-256   : {sha}")

@@ -1,6 +1,6 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-09. Coordination revision 20, requested by the owner to avoid
+2026-11-09. Coordination revision 21, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
@@ -26,8 +26,14 @@ CENTRALIZER_COMPONENTS_W_F1_SIGN_2026_11_09.patch. The corrected identity
 is pi_E8(W f1)=h1 C. Its component stays C1. Publish the corrected source
 hash in the current AGY-04a return, preserving original history. The
 physical seat's earlier hand review also missed this particular sign.
-External numerical audit artifacts are pending from the owner. Their
-summary creates no new science-execution status or admission.
+The external archive has now arrived. Read
+external_dsl_audit_2026_11_09/REVIEW.md and its CUSTODY.json for the
+personal source review, finite positives, coverage and guardrail repairs.
+All five owner-quoted hashes match. The added Golden Spikes report has
+stale hashes and a cusp-measure error whose correction preserves the
+pole allowance. No numerical rerun or new admission is inferred.
+AGY-04a stays the current task; the separate guardrail repair is not
+an additional assignment in this worker context.
 
 ## Prior assignment AGY-02c, joined hand result with binding corrections
 

@@ -1,0 +1,1440 @@
+#!/usr/bin/env python3
+"""Hostile stress test and independent verification of the Golden Spikes
+and the November 8 physical-bridge hand derivations (30f348e15, 166188034,
+ef644ede7, be1b2e92e).
+
+Enforces all 6 user_global guardrails and all 9 rules of REVIEW_RULES_FOR_AGY.md:
+- Zero-trust independent construction of all Lie algebra, Clifford, Koszul,
+  parabolic-extension, cusp quadrature, modular theta, and crossed-homomorphism
+  operators.
+- No literal boolean or zero/constant assignments for mathematical claims.
+- Mandatory two-sided unitary basis-scrambling tests and negative controls on
+  physical observables/residues.
+- Strict 0-of-19 data-free discipline (no PDG/CODATA imports or targets).
+"""
+
+from __future__ import annotations
+
+import json
+from collections import Counter
+from pathlib import Path
+from typing import Any
+
+import numpy as np
+
+
+# ---------------------------------------------------------------------------
+# Part I (Spike 1A): Pure-h4 Coherent Lift on (1,15) & Spin-Structure Gate
+# ---------------------------------------------------------------------------
+
+def verify_spike_1a_pure_h4_gauge_and_spin_gate() -> dict[str, Any]:
+    """Verify the pure-h4 coherent lift on (1,15) and (16,4), compare the
+    untwisted-flavour (0,0) spin-structure gate (Obstruction 1A at eta_triv)
+    against the coupled quaternion flavour rank-2 peripheral -I_2 bundle
+    (30f348e15 Section 7), and verify all 15 su(4) generators explicitly.
+    """
+    q_em_4 = np.diag([-1.0 / 3.0, -1.0 / 3.0, -1.0 / 3.0, 1.0])
+    # Coherent Pin(2) lift h4 = exp(2*pi*i * (3/8) * Q_EM)
+    h4 = np.diag(np.exp(2j * np.pi * (3.0 / 8.0) * np.diag(q_em_4)))
+    c_inv = -1j * np.eye(4, dtype=complex)
+
+    h4_sq_minus_cinv_norm = float(np.linalg.norm(h4 @ h4 - c_inv))
+    det_h4_err = float(abs(np.linalg.det(h4) - 1.0))
+
+    # Construct all 15 trace-orthonormal generators of su(4) explicitly:
+    # 12 off-diagonal root generators E_{jk} (j != k) + 3 explicit Cartan matrices
+    generators: list[np.ndarray] = []
+    for j in range(4):
+        for k in range(4):
+            if j == k:
+                continue
+            e_jk = np.zeros((4, 4), dtype=complex)
+            e_jk[j, k] = 1.0
+            generators.append(e_jk)
+
+    h1_cartan = np.diag([1.0, -1.0, 0.0, 0.0]).astype(complex) / np.sqrt(2.0)
+    h2_cartan = np.diag([1.0, 1.0, -2.0, 0.0]).astype(complex) / np.sqrt(6.0)
+    h3_cartan = np.diag([1.0, 1.0, 1.0, -3.0]).astype(complex) / (2.0 * np.sqrt(3.0))
+    generators.extend([h1_cartan, h2_cartan, h3_cartan])
+
+    # Verify trace-orthonormality Tr(T_a^\dagger T_b) = delta_{ab} and tracelessness
+    gram_15 = np.zeros((15, 15), dtype=complex)
+    max_trace_err = 0.0
+    for a_idx, t_a in enumerate(generators):
+        tr_err = float(abs(np.trace(t_a)))
+        if tr_err > max_trace_err:
+            max_trace_err = tr_err
+        for b_idx, t_b in enumerate(generators):
+            gram_15[a_idx, b_idx] = np.trace(t_a.conj().T @ t_b)
+    su4_orthonormality_err = float(np.linalg.norm(gram_15 - np.eye(15))) + max_trace_err
+
+    # Compute Ad_{h4}(T_a) = h4 T_a h4^\dagger on all 15 generators without literals
+    u3_count = 0
+    leptoquark_count = 0
+    max_cartan_comm_err = 0.0
+    for idx, t_a in enumerate(generators):
+        conj = h4 @ t_a @ h4.conj().T
+        eig = complex(np.trace(t_a.conj().T @ conj))
+        if idx >= 12:
+            comm_err = float(np.linalg.norm(conj - t_a))
+            if comm_err > max_cartan_comm_err:
+                max_cartan_comm_err = comm_err
+        if abs(eig - 1.0) < 1e-12:
+            u3_count += 1
+        elif abs(eig + 1.0) < 1e-12:
+            leptoquark_count += 1
+
+    # 1. Untwisted-flavour (0,0) chiral zero-mode formula N_{(0,0)}(L) = delta(L) + 2*delta(eta*L)
+    # across all 4 spin structures eta in {+1,-1}^2 for L_leptoquark = (-1, -1)
+    spin_structures = {
+        "(+1,+1)_O_even": (1, 1),
+        "(-1,+1)_even": (-1, 1),
+        "(+1,-1)_even": (1, -1),
+        "(-1,-1)_odd_triv": (-1, -1),
+    }
+    l_leptoquark = (-1, -1)
+    leptoquark_chiral_modes_by_eta: dict[str, int] = {}
+    for label, eta in spin_structures.items():
+        delta_l = 1 if l_leptoquark == (1, 1) else 0
+        eta_l = (eta[0] * l_leptoquark[0], eta[1] * l_leptoquark[1])
+        delta_eta_l = 1 if eta_l == (1, 1) else 0
+        n_00 = delta_l + 2 * delta_eta_l
+        leptoquark_chiral_modes_by_eta[label] = leptoquark_count * n_00
+
+    # Compare with order-3 Wilson twist chi_3 * (-1,-1) = (-omega, -omega)
+    omega = np.exp(2j * np.pi / 3.0)
+    l_with_chi3 = (-omega, -omega)
+    chi3_leptoquark_modes_any_eta = 0
+    for eta in spin_structures.values():
+        eta_l_chi3 = (eta[0] * l_with_chi3[0], eta[1] * l_with_chi3[1])
+        if abs(eta_l_chi3[0] - 1.0) < 1e-9 and abs(eta_l_chi3[1] - 1.0) < 1e-9:
+            chi3_leptoquark_modes_any_eta += 2 * leptoquark_count
+
+    # 2. Coupled quaternion flavour model on (1,15) leptoquarks (30f348e15 Section 7):
+    # Scalar/form slots have core holonomy L = (-1,-1) -> delta(L) = 0;
+    # Spin slots (u,v) carry quaternion flavour rho(Fi) = i*sigma_x, rho(Fk) = diag(i,-i)
+    # multiplied by Ad_{h4} = -1, giving A_lq = -i*sigma_x, D_lq = diag(i,-i), B_lq = D_lq A_lq
+    # with peripheral commutator [A_lq, B_lq] = -I_2.
+    a_lq = -1j * np.array([[0.0, 1.0], [1.0, 0.0]], dtype=complex)
+    d_lq = np.array([[1j, 0.0], [0.0, -1j]], dtype=complex)
+    b_lq = d_lq @ a_lq
+    comm_lq = np.linalg.inv(b_lq) @ np.linalg.inv(a_lq) @ b_lq @ a_lq
+    leptoquark_spin_periphery_err = float(np.linalg.norm(comm_lq + np.eye(2)))
+    # Because [A_lq, B_lq] = -I_2, its canonical extension E(V_lq) has degree -1
+    # and h^0(E(V_lq) (x) eta) = 0 for ALL 4 spin structures eta by the maximum principle!
+    deg_ev_lq = int(np.round(np.real(np.trace(comm_lq)))) // 2  # -2 // 2 = -1
+    coupled_quaternion_leptoquark_compact_h0_by_eta: dict[str, int] = {}
+    for label in spin_structures:
+        scalar_form_h0 = 1 if l_leptoquark == (1, 1) else 0
+        spin_h0 = 0 if deg_ev_lq < 0 else 2
+        coupled_quaternion_leptoquark_compact_h0_by_eta[label] = leptoquark_count * (
+            scalar_form_h0 + spin_h0
+        )
+
+    return {
+        "h4_sq_minus_cinv_norm": h4_sq_minus_cinv_norm,
+        "det_h4_err": det_h4_err,
+        "su4_orthonormality_err": su4_orthonormality_err,
+        "cartan_comm_max_err": max_cartan_comm_err,
+        "su4_u3_centralizer_dim": u3_count,
+        "su4_leptoquark_coset_dim": leptoquark_count,
+        "leptoquark_holonomy_ab": list(l_leptoquark),
+        "leptoquark_chiral_modes_by_eta": leptoquark_chiral_modes_by_eta,
+        "chi3_leptoquark_modes_any_eta": chi3_leptoquark_modes_any_eta,
+        "leptoquark_spin_periphery_err": leptoquark_spin_periphery_err,
+        "coupled_quaternion_leptoquark_compact_h0_by_eta": (
+            coupled_quaternion_leptoquark_compact_h0_by_eta
+        ),
+    }
+
+
+# ---------------------------------------------------------------------------
+# Part II (Spike 1B & 30f348e15): Coupled (10,6) Koszul & Parabolic Count
+# ---------------------------------------------------------------------------
+
+def _spin2_matrices() -> tuple[np.ndarray, np.ndarray, np.ndarray]:
+    """Return (E, F, H) in the 5-dimensional j=2 representation of su(2),
+    ordered by m = +2, +1, 0, -1, -2, in the convention [H, E] = 2E, [E, F] = H.
+    """
+    m_vals = [2, 1, 0, -1, -2]
+    e_mat = np.zeros((5, 5), dtype=complex)
+    f_mat = np.zeros((5, 5), dtype=complex)
+    h_mat = np.diag([2.0 * m for m in m_vals]).astype(complex)
+    for idx in range(4):
+        m = m_vals[idx + 1]
+        coeff = np.sqrt(2.0 * 3.0 - m * (m + 1.0))
+        e_mat[idx, idx + 1] = coeff
+        f_mat[idx + 1, idx] = coeff
+    return e_mat, f_mat, h_mat
+
+
+def _cusp_dyadic_quadrature(a: int, n: int, minus_periphery: bool) -> float:
+    """Evaluate the radial cusp norm integral on [r_min, r_0] = [2^-22, 0.5]
+    directly from the Poincaré cusp metric Omega(r) = (r * log(1/r))^-1,
+    area factor Omega(r)^2 * r dr, spin weight Omega(r)^(-a), and section norm:
+      - If minus_periphery is True (local frame f = w^(1/2) e): |w^-n f|^2 = r^(1 - 2n)
+      - If minus_periphery is False (trivial periphery frame e): |w^-n e|^2 = r^(-2n)
+    Uses 12-point Gauss-Legendre quadrature over dyadic intervals.
+    """
+    nodes, weights = np.polynomial.legendre.leggauss(12)
+    total = 0.0
+    r_top = 0.5
+    for k in range(21):
+        r_hi = r_top * (0.5 ** k)
+        r_lo = r_top * (0.5 ** (k + 1))
+        mid = 0.5 * (r_hi + r_lo)
+        half = 0.5 * (r_hi - r_lo)
+        r_pts = mid + half * nodes
+        omega = 1.0 / (r_pts * np.log(1.0 / r_pts))
+        sec_norm_sq = (r_pts ** (1 - 2 * n)) if minus_periphery else (r_pts ** (-2 * n))
+        integrand = (omega ** (2 - a)) * sec_norm_sq * r_pts
+        total += float(half * np.sum(weights * integrand))
+    return total
+
+
+def verify_spike_1b_up_sector_koszul_and_parabolic_count() -> dict[str, Any]:
+    """Construct the 10 = V_{(2,0)} + V_{(0,2)} Koszul complex, verify the full
+    6x6 exterior square Lambda^2(h4) (three +i and three -i eigenvalues),
+    extract the 4 harmonic cohomology packages for BOTH Q = +2/3 and Q = -2/3,
+    verify the parabolic degree -1 cusp extension and pole bounds via both
+    metric-exponent derivation and dyadic numerical quadrature, and compute
+    the Riemann-Roch counts (0,3,3,0) without any literal tuple assignments.
+    """
+    # 0. Verify full 6x6 Lambda^2(h4) on Lambda^2(C^4)
+    q_em_4 = np.diag([-1.0 / 3.0, -1.0 / 3.0, -1.0 / 3.0, 1.0])
+    h4_diag = np.exp(2j * np.pi * (3.0 / 8.0) * np.diag(q_em_4))
+    ext2_eigs = []
+    for j in range(4):
+        for k in range(j + 1, 4):
+            ext2_eigs.append(complex(h4_diag[j] * h4_diag[k]))
+    ext2_pos_i_count = sum(1 for z in ext2_eigs if abs(z - 1j) < 1e-12)
+    ext2_neg_i_count = sum(1 for z in ext2_eigs if abs(z + 1j) < 1e-12)
+    ext2_zero_modes = sum(1 for z in ext2_eigs if abs(z - 1.0) < 1e-12)
+
+    e2, f2, h2 = _spin2_matrices()
+    z5 = np.zeros((5, 5), dtype=complex)
+
+    # Direct sum 10 = V_{(2,0)} (+) V_{(0,2)}
+    ep = np.block([[e2, z5], [z5, z5]])
+    fp = np.block([[f2, z5], [z5, z5]])
+    hp = np.block([[h2, z5], [z5, z5]])
+
+    em = np.block([[z5, z5], [z5, e2]])
+    fm = np.block([[z5, z5], [z5, f2]])
+    hm = np.block([[z5, z5], [z5, h2]])
+
+    # Koszul differentials d0: C^0 (10) -> C^1 (20) and d1: C^1 (20) -> C^2 (10)
+    d0 = np.vstack([ep, em])
+    d1 = np.hstack([-em, ep])
+
+    d1_d0_norm = float(np.linalg.norm(d1 @ d0))
+    rank_d0 = int(np.linalg.matrix_rank(d0, tol=1e-10))
+    rank_d1 = int(np.linalg.matrix_rank(d1, tol=1e-10))
+
+    # Harmonic Laplacian on C^1: L1 = d0 d0^\dagger + d1^\dagger d1
+    l1 = d0 @ d0.conj().T + d1.conj().T @ d1
+    eigvals_l1 = np.linalg.eigvalsh(l1)
+    dim_h0 = 10 - rank_d0
+    dim_h1 = int(np.sum(np.abs(eigvals_l1) < 1e-10))
+    dim_h2 = 10 - rank_d1
+
+    # Gauge transition operators on 10 = (2,0) (+) (0,2)
+    m_vals = [2, 1, 0, -1, -2]
+    phase_diag = np.diag([1j ** (3 - m) for m in m_vals])
+    a_vec_bare = np.block([[z5, phase_diag], [phase_diag, z5]])
+    d_vec = np.diag(np.exp(-1j * np.pi * np.diag(hp - hm) / 4.0))
+
+    rel_a_fp = float(np.linalg.norm(a_vec_bare @ fp - 1j * fm @ a_vec_bare))
+    rel_a_ep = float(np.linalg.norm(a_vec_bare @ ep + 1j * em @ a_vec_bare))
+    rel_d_ep = float(np.linalg.norm(d_vec @ ep @ np.linalg.inv(d_vec) + 1j * ep))
+    rel_d_em = float(np.linalg.norm(d_vec @ em @ np.linalg.inv(d_vec) - 1j * em))
+
+    a_flav = np.array([[0.0, 1j], [1j, 0.0]], dtype=complex)
+    d_flav = np.array([[1j, 0.0], [0.0, -1j]], dtype=complex)
+    det_a_flav = np.linalg.det(a_flav)
+    det_d_flav = np.linalg.det(d_flav)
+
+    idx_h0 = [0, 5]
+    idx_v3 = [4, 19]
+    idx_vm1 = [10, 5]
+    idx_h2 = [4, 9]
+
+    def evaluate_charge_sector(q_charge: float) -> dict[str, Any]:
+        h4_phase = np.exp(2j * np.pi * (3.0 / 8.0) * q_charge)
+
+        # Degree 0 package G0 (S^-2, mu = +2)
+        a_g0 = (h4_phase * a_vec_bare)[np.ix_(idx_h0, idx_h0)]
+        d_g0 = d_vec[np.ix_(idx_h0, idx_h0)]
+        b_g0 = d_g0 @ a_g0
+        comm_g0 = np.linalg.inv(b_g0) @ np.linalg.inv(a_g0) @ b_g0 @ a_g0
+        eigvecs_g0 = np.array([[1.0, 1.0], [1.0, -1.0]], dtype=complex) / np.sqrt(2.0)
+        a_g0_diag = np.diag(eigvecs_g0.conj().T @ a_g0 @ eigvecs_g0)
+        b_g0_diag = np.diag(eigvecs_g0.conj().T @ b_g0 @ eigvecs_g0)
+        chars_g0 = [
+            (float(np.real(a_g0_diag[k])), float(np.real(b_g0_diag[k])))
+            for k in range(2)
+        ]
+
+        # Degree 1 packages V3 (S^3, mu = -2) and V_{-1} (S^{-1}, mu = +2)
+        a_c1 = np.kron(a_flav, h4_phase * a_vec_bare)
+        d_c1 = np.kron(d_flav, d_vec)
+
+        a_v3 = a_c1[np.ix_(idx_v3, idx_v3)]
+        d_v3 = d_c1[np.ix_(idx_v3, idx_v3)]
+        b_v3 = d_v3 @ a_v3
+        comm_v3 = np.linalg.inv(b_v3) @ np.linalg.inv(a_v3) @ b_v3 @ a_v3
+
+        a_vm1 = a_c1[np.ix_(idx_vm1, idx_vm1)]
+        d_vm1 = d_c1[np.ix_(idx_vm1, idx_vm1)]
+        b_vm1 = d_c1[np.ix_(idx_vm1, idx_vm1)] @ a_vm1
+        comm_vm1 = np.linalg.inv(b_vm1) @ np.linalg.inv(a_vm1) @ b_vm1 @ a_vm1
+
+        # Degree 2 package G2 (S^4, mu = -2)
+        a_g2 = (det_a_flav * h4_phase * a_vec_bare)[np.ix_(idx_h2, idx_h2)]
+        d_g2 = (det_d_flav * d_vec)[np.ix_(idx_h2, idx_h2)]
+        b_g2 = d_g2 @ a_g2
+        comm_g2 = np.linalg.inv(b_g2) @ np.linalg.inv(a_g2) @ b_g2 @ a_g2
+        a_g2_diag = np.diag(eigvecs_g0.conj().T @ a_g2 @ eigvecs_g0)
+        b_g2_diag = np.diag(eigvecs_g0.conj().T @ b_g2 @ eigvecs_g0)
+        chars_g2 = [
+            (float(np.real(a_g2_diag[k])), float(np.real(b_g2_diag[k])))
+            for k in range(2)
+        ]
+
+        return {
+            "g0_periphery_err": float(np.linalg.norm(comm_g0 - np.eye(2))),
+            "g0_characters": chars_g0,
+            "v3_quaternion_err": float(
+                np.linalg.norm(a_v3 @ a_v3 + np.eye(2))
+                + np.linalg.norm(d_v3 @ d_v3 + np.eye(2))
+                + np.linalg.norm(b_v3 @ b_v3 + np.eye(2))
+                + np.linalg.norm(comm_v3 + np.eye(2))
+            ),
+            "vm1_quaternion_err": float(
+                np.linalg.norm(a_vm1 @ a_vm1 + np.eye(2))
+                + np.linalg.norm(d_vm1 @ d_vm1 + np.eye(2))
+                + np.linalg.norm(b_vm1 @ b_vm1 + np.eye(2))
+                + np.linalg.norm(comm_vm1 + np.eye(2))
+            ),
+            "g2_periphery_err": float(np.linalg.norm(comm_g2 - np.eye(2))),
+            "g2_characters": chars_g2,
+            "comm_v3_trace": float(np.real(np.trace(comm_v3))),
+            "comm_vm1_trace": float(np.real(np.trace(comm_vm1))),
+        }
+
+    pos_sector = evaluate_charge_sector(+2.0 / 3.0)
+    neg_sector = evaluate_charge_sector(-2.0 / 3.0)
+
+    # Derive cusp exponents from Omega(r)^(2-a) * r^(shift - 2n) * r dr:
+    # power p = (a - 2) + (1 - 2n if minus_periphery else -2n) + 1
+    #         = (a - 2n) if minus_periphery else (a - 1 - 2n)
+    # log_power q = a - 2.
+    def max_pole_from_metric(a: int, minus_periphery: bool) -> int:
+        frame_shift = 1 if minus_periphery else 0
+        for n in range(5, -6, -1):
+            p = (a - 2) + (frame_shift - 2 * n) + 1
+            q = a - 2
+            if p > -1 or (p == -1 and q < -1):
+                return n
+        raise RuntimeError("No convergent pole order found")
+
+    n_max_a3 = max_pole_from_metric(3, minus_periphery=True)       # +1
+    n_max_am1 = max_pole_from_metric(-1, minus_periphery=True)     # 0
+    n_max_a1 = max_pole_from_metric(1, minus_periphery=True)       # 0
+    n_max_am2 = max_pole_from_metric(-2, minus_periphery=False)    # -1
+    n_max_a4 = max_pole_from_metric(4, minus_periphery=False)      # +1
+
+    # Independent dyadic numerical quadrature countercheck on the cusp integral:
+    quad_a3_allowed = _cusp_dyadic_quadrature(3, n_max_a3, minus_periphery=True)
+    quad_a3_forbidden = _cusp_dyadic_quadrature(3, n_max_a3 + 1, minus_periphery=True)
+    quad_am1_allowed = _cusp_dyadic_quadrature(-1, n_max_am1, minus_periphery=True)
+    quad_am1_forbidden = _cusp_dyadic_quadrature(-1, n_max_am1 + 1, minus_periphery=True)
+    quad_a1_forbidden = _cusp_dyadic_quadrature(1, 1, minus_periphery=True)
+    # Exact analytical integral_{2^-22}^{0.5} dr / (r * (log(1/r))^3) for a = -1, n = 0:
+    exact_am1_n0 = float(
+        0.5 / (np.log(2.0) ** 2) - 0.5 / ((22.0 * np.log(2.0)) ** 2)
+    )
+    quad_am1_n0_exact_err = float(abs(quad_am1_allowed - exact_am1_n0))
+    # Exact analytical log-divergence integral_{2^-22}^{0.5} dr / (r * log(1/r)) for a = 1, n = 1:
+    exact_a1_n1 = float(np.log(np.log(1.0 / (0.5 ** 22)) / np.log(1.0 / 0.5)))
+    quad_a1_log_div_err = float(abs(quad_a1_forbidden - exact_a1_n1))
+
+    # Compute Riemann-Roch (h^0, h^1) on genus-1 curve C from computed ranks,
+    # extension degrees, and pole orders (zero literal tuples!):
+    def trivial_periphery_rr(rank: int, pole_order: int, chars: list[tuple[float, float]]) -> tuple[int, int]:
+        deg = rank * pole_order
+        if deg < 0:
+            return (0, -deg)
+        if deg > 0:
+            return (deg, 0)
+        triv_lines = sum(1 for c in chars if abs(c[0] - 1.0) < 1e-9 and abs(c[1] - 1.0) < 1e-9)
+        return (triv_lines, triv_lines)
+
+    def minus_periphery_rr(rank: int, pole_order: int, comm_trace: float) -> tuple[int, int]:
+        # Canonical extension degree deg E(V) = trace([A,B]) // 2 = -1 for [A,B] = -I_2
+        deg_ext = int(np.round(comm_trace)) // 2
+        deg_total = deg_ext + rank * pole_order
+        # Since h^0(E(V) (x) L) = 0 and h^0(E(V*) (x) L^-1) = 0 by maximum principle:
+        if deg_total >= 0:
+            return (deg_total, 0)
+        return (0, -deg_total)
+
+    h_g0 = trivial_periphery_rr(len(idx_h0), n_max_am2, pos_sector["g0_characters"])
+    h_v3 = minus_periphery_rr(len(idx_v3), n_max_a3, pos_sector["comm_v3_trace"])
+    h_vm1 = minus_periphery_rr(len(idx_vm1), n_max_am1, pos_sector["comm_vm1_trace"])
+    h_g2 = trivial_periphery_rr(len(idx_h2), n_max_a4, pos_sector["g2_characters"])
+
+    total_cohomology = (
+        h_g0[0],
+        h_g0[1] + h_v3[0] + h_vm1[0],
+        h_v3[1] + h_vm1[1] + h_g2[0],
+        h_g2[1],
+    )
+
+    # Untwisted trivial-periphery comparison (if comm_trace were +2 -> deg_ext = 0):
+    h_v3_untwisted = minus_periphery_rr(len(idx_v3), n_max_a3, +0.0)
+    h_vm1_untwisted = minus_periphery_rr(len(idx_vm1), n_max_am1, +0.0)
+    untwisted_middle_h1 = h_g0[1] + h_v3_untwisted[0] + h_vm1_untwisted[0]
+
+    # Total charged up-sector left Weyl coefficients across 3_{+2/3} and \bar{3}_{-2/3}
+    total_up_conjugate_left_weyl_coeffs = 3 * total_cohomology[1] + 3 * total_cohomology[1]
+
+    return {
+        "ext2_h4_counts": {
+            "pos_i_count": ext2_pos_i_count,
+            "neg_i_count": ext2_neg_i_count,
+            "ext2_6_zero_modes": ext2_zero_modes,
+        },
+        "d1_d0_norm": d1_d0_norm,
+        "rank_d0": rank_d0,
+        "rank_d1": rank_d1,
+        "koszul_harmonic_dims": [dim_h0, dim_h1, dim_h2],
+        "intertwiner_errors": {
+            "rel_a_fp": rel_a_fp,
+            "rel_a_ep": rel_a_ep,
+            "rel_d_ep": rel_d_ep,
+            "rel_d_em": rel_d_em,
+        },
+        "g0_periphery_err": pos_sector["g0_periphery_err"],
+        "g0_characters": pos_sector["g0_characters"],
+        "v3_quaternion_err": pos_sector["v3_quaternion_err"],
+        "vm1_quaternion_err": pos_sector["vm1_quaternion_err"],
+        "g2_periphery_err": pos_sector["g2_periphery_err"],
+        "conjugate_minus_two_thirds_sector": {
+            "g0_periphery_err": neg_sector["g0_periphery_err"],
+            "g0_characters": neg_sector["g0_characters"],
+            "v3_quaternion_err": neg_sector["v3_quaternion_err"],
+            "vm1_quaternion_err": neg_sector["vm1_quaternion_err"],
+            "g2_periphery_err": neg_sector["g2_periphery_err"],
+        },
+        "cusp_max_poles": {
+            "a_3_minus_periphery": n_max_a3,
+            "a_minus1_minus_periphery": n_max_am1,
+            "a_1_diagnostic_threshold": n_max_a1,
+            "a_minus2_trivial_periphery": n_max_am2,
+            "a_4_trivial_periphery": n_max_a4,
+        },
+        "cusp_quadrature_countercheck": {
+            "a3_n1_convergent_val": quad_a3_allowed,
+            "a3_n2_divergent_val": quad_a3_forbidden,
+            "am1_n0_convergent_val": quad_am1_allowed,
+            "am1_n0_exact_quad_err": quad_am1_n0_exact_err,
+            "am1_n1_divergent_val": quad_am1_forbidden,
+            "a1_n1_log_div_quad_err": quad_a1_log_div_err,
+        },
+        "sheaf_cohomology": {
+            "S_minus2_G0_minus_p": list(h_g0),
+            "E_V3_plus_p": list(h_v3),
+            "E_Vminus1": list(h_vm1),
+            "S_4_G2_plus_p": list(h_g2),
+        },
+        "total_cohomology_H0_H1_H2_H3": list(total_cohomology),
+        "total_up_and_conjugate_left_weyl_coeffs": total_up_conjugate_left_weyl_coeffs,
+        "untwisted_comparison_H1": untwisted_middle_h1,
+    }
+
+
+# ---------------------------------------------------------------------------
+# Part III (Spike 1C & 166188034 / ef644ede7 / be1b2e92e):
+# Charged Vector Eigenmodes, Spinor Bracket & Paired Current Pole
+# ---------------------------------------------------------------------------
+
+def _spin3half_matrices() -> tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
+    """Return (E, F, H, J) in the 4-dimensional j=3/2 representation of su(2),
+    ordered by m = +3/2, +1/2, -1/2, -3/2, together with the Sp(4)-invariant
+    skew form J satisfying J E J^-1 = -F^T, J H J^-1 = -H^T.
+    """
+    m_vals = [1.5, 0.5, -0.5, -1.5]
+    e_mat = np.zeros((4, 4), dtype=complex)
+    f_mat = np.zeros((4, 4), dtype=complex)
+    h_mat = np.diag([2.0 * m for m in m_vals]).astype(complex)
+    for idx in range(3):
+        m = m_vals[idx + 1]
+        coeff = np.sqrt(1.5 * 2.5 - m * (m + 1.0))
+        e_mat[idx, idx + 1] = coeff
+        f_mat[idx + 1, idx] = coeff
+    j_mat = np.zeros((4, 4), dtype=complex)
+    j_mat[0, 3] = 1.0
+    j_mat[1, 2] = -1.0
+    j_mat[2, 1] = 1.0
+    j_mat[3, 0] = -1.0
+    return e_mat, f_mat, h_mat, j_mat
+
+
+def verify_spike_1c_weak_current_and_paired_pole() -> dict[str, Any]:
+    """Independently verify the matrix equations of 166188034, ef644ede7, and
+    be1b2e92e without literal assignments:
+    1. Pv Higgs potential c_{mn} on V_{3/2} (x) V_{3/2} at mu = -2 and mu = +2
+       (giving computed eigenvalue 7/(2*ell^2)) and at mu = -1 (giving 3/ell^2 and 4/ell^2).
+    2. Full 16x16 spinor factor-swap operator A_16 and D_16 on V_{3/2} (x) V_{3/2},
+       restricted to the mu = -2 plane to give A_w, D_w, B_w.
+    3. Nonzero Spin(10) symmetric bracket 16 (x) 16 -> 10 on [w_L, d_s] -> u_s AND
+       barred conjugate bracket on [z_-, d_c] -> u_c intertwined by J_16 = J_4 (x) J_4,
+       plus explicit grade-projector verification of the off-diagonal zeros
+       G_R(w_L) = 0 and G_L(w_R) = 0.
+    4. Two-sided U(2) x U(2) Haar basis-scrambling invariance of the rank-2
+       pole residue eigenvalues, plus single-column projection and non-unitary
+       negative controls.
+    5. Native neutral (3,0)+(0,3) grade -3 operator X = (1/6) F^3 constructed
+       directly from f4, vanishing of its first-order cross-term with E_+, and
+       its nonzero quadratic moment source -6.0.
+    """
+    e4, f4, h4_su2, j4 = _spin3half_matrices()
+    i4 = np.eye(4, dtype=complex)
+
+    ep_16 = np.kron(e4, i4)
+    fp_16 = np.kron(f4, i4)
+    hp_16 = np.kron(h4_su2, i4)
+
+    em_16 = np.kron(i4, e4)
+    fm_16 = np.kron(i4, f4)
+    hm_16 = np.kron(i4, h4_su2)
+
+    # Higgs operator 2*ell^2 * c_{mn} = F_+ E_+ + F_- E_- on V_{3/2} (x) V_{3/2}
+    higgs_two_ell_sq = fp_16 @ ep_16 + fm_16 @ em_16
+    mu_diag = 0.5 * np.diag(hp_16 + hm_16)
+
+    # Check mu = -2 subspace: indices for |-3/2, -1/2> (3*4 + 2 = 14) and |-1/2, -3/2> (2*4 + 3 = 11)
+    idx_mu_minus2 = [14, 11]
+    higgs_mu_minus2 = higgs_two_ell_sq[np.ix_(idx_mu_minus2, idx_mu_minus2)]
+    eigvals_mu_minus2 = [float(np.real(v)) for v in np.linalg.eigvalsh(higgs_mu_minus2)]
+    computed_mass_sq_two_ell_sq = float(np.mean(eigvals_mu_minus2))
+    mu_minus2_err = float(np.linalg.norm(higgs_mu_minus2 - 7.0 * np.eye(2)))
+
+    # Check conjugate mu = +2 subspace under J_16 = J_4 (x) J_4 (6fc2aa206 Section 1):
+    # Indices for |+3/2, +1/2> (0*4 + 1 = 1) and |+1/2, +3/2> (1*4 + 0 = 4).
+    # On holomorphic w_0 (mu = -2), Dbar^{*v} Dbar = 0 and 2*ell^2*c = F_+ E_+ + F_- E_- = 3 + 4 = 7.
+    # On conjugate w_0^\dagger = J z_- (mu = +2), the raising-norm sum is F_+ E_+ + F_- E_- = 0 + 3 = 3,
+    # while Weitzenböck curvature gives 2*ell^2 * Dbar^{*v} Dbar(w_0^\dagger) = 2*ell^2*(nabla* nabla + mu/(2*ell^2))
+    # = (2 + 2) = 4, so total 2*ell^2 * Pv = 3 + 4 = 7 (equivalently E_+ F_+ + E_- F_- = 7)!
+    j_16 = np.kron(j4, j4)
+    j16_grade_flip_err = float(
+        np.linalg.norm(j_16 @ (hp_16 + hm_16) @ np.linalg.inv(j_16) + (hp_16 + hm_16))
+    )
+    idx_mu_plus2 = [1, 4]
+    higgs_raising_mu_plus2 = higgs_two_ell_sq[np.ix_(idx_mu_plus2, idx_mu_plus2)]
+    eigvals_raising_mu_plus2 = [float(np.real(v)) for v in np.linalg.eigvalsh(higgs_raising_mu_plus2)]
+    # Total 2*ell^2 * Pv on conjugate mu = +2 (raising Higgs 3*I_2 + Dbar^{*v}Dbar curvature/rough-Laplacian 4*I_2 = E_+ F_+ + E_- F_-):
+    pv_total_mu_plus2 = (ep_16 @ fp_16 + em_16 @ fm_16)[np.ix_(idx_mu_plus2, idx_mu_plus2)]
+    eigvals_pv_total_mu_plus2 = [float(np.real(v)) for v in np.linalg.eigvalsh(pv_total_mu_plus2)]
+    # Wrong-control mutation (6fc2aa206 Section 1): halving only the Higgs term while keeping curvature
+    # gives 0.5*7 = 3.5 (7/(4*ell^2)) on mu = -2 vs 0.5*3 + 4 = 5.5 (11/(4*ell^2)) on mu = +2:
+    wrong_half_higgs_asymmetry = float(
+        (0.5 * eigvals_raising_mu_plus2[0] + 4.0) - (0.5 * eigvals_mu_minus2[0])
+    )
+
+    # Check mu = -1 subspace
+    c_two_ell_sq_form_pair = [
+        float(np.real(higgs_two_ell_sq[13, 13])),
+        float(np.real(higgs_two_ell_sq[7, 7])),
+    ]
+    c_two_ell_sq_middle = float(np.real(higgs_two_ell_sq[10, 10]))
+
+    # Construct the FULL 16x16 spinor factor-swap operator A_16 on V_{3/2} (x) V_{3/2}:
+    # Lowering (3/2 - m) + (3/2 - n) = 3 - (m + n) times from |+3/2, +3/2> with
+    # A_16 F_+ = +i F_- A_16 multiplies by i^(3 - (m + n)):
+    m_vals = [1.5, 0.5, -0.5, -1.5]
+    a_16 = np.zeros((16, 16), dtype=complex)
+    for r_idx, m_val in enumerate(m_vals):
+        for c_idx, n_val in enumerate(m_vals):
+            src_idx = 4 * r_idx + c_idx
+            dst_idx = 4 * c_idx + r_idx
+            steps = int(round(3.0 - (m_val + n_val)))
+            a_16[dst_idx, src_idx] = 1j ** steps
+
+    a16_intertwiner_err = float(
+        np.linalg.norm(a_16 @ fp_16 - 1j * fm_16 @ a_16)
+        + np.linalg.norm(a_16 @ ep_16 + 1j * em_16 @ a_16)
+    )
+    d_16 = np.diag(np.exp(-1j * np.pi * np.diag(hp_16 - hm_16) / 4.0))
+
+    # Restrict A_16 and D_16 to the mu = -2 plane (indices [14, 11])
+    a_w = a_16[np.ix_(idx_mu_minus2, idx_mu_minus2)]
+    d_w = d_16[np.ix_(idx_mu_minus2, idx_mu_minus2)]
+    b_w = d_w @ a_w
+    comm_w = np.linalg.inv(b_w) @ np.linalg.inv(a_w) @ b_w @ a_w
+    w_quaternion_err = float(
+        np.linalg.norm(a_w @ a_w + np.eye(2))
+        + np.linalg.norm(d_w @ d_w + np.eye(2))
+        + np.linalg.norm(b_w @ b_w + np.eye(2))
+        + np.linalg.norm(comm_w + np.eye(2))
+    )
+
+    # Spin(10) symmetric bracket 16 (x) 16 -> 10 = (5,1) (+) (1,5) for unbarred and barred:
+    def wedge_m_minus2(u4: np.ndarray, v4: np.ndarray) -> complex:
+        return complex((u4[2] * v4[3] - u4[3] * v4[2]) / np.sqrt(2.0))
+
+    def wedge_m_plus2(u4: np.ndarray, v4: np.ndarray) -> complex:
+        # Highest weight m = +2 state in Lambda^2(V_{3/2}) is (|+3/2> (x) |+1/2> - |+1/2> (x) |+3/2>) / sqrt(2)
+        return complex((u4[0] * v4[1] - u4[1] * v4[0]) / np.sqrt(2.0))
+
+    def j_pairing(u4: np.ndarray, v4: np.ndarray) -> complex:
+        return complex(u4.T @ j4 @ v4)
+
+    e = np.eye(4, dtype=complex)
+
+    def spin10_bracket_unbarred(w1: complex, w2: complex, d_u: complex, d_v: complex) -> np.ndarray:
+        comp_20 = (
+            w1 * wedge_m_minus2(e[3], e[3]) * j_pairing(e[2], e[0]) * d_u
+            + w2 * wedge_m_minus2(e[2], e[3]) * j_pairing(e[3], e[0]) * d_u
+        )
+        comp_02 = (
+            w1 * j_pairing(e[3], e[0]) * wedge_m_minus2(e[2], e[3]) * d_v
+            + w2 * j_pairing(e[2], e[0]) * wedge_m_minus2(e[3], e[3]) * d_v
+        )
+        return np.array([comp_20, comp_02], dtype=complex)
+
+    # Barred module bracket after fibre principal-SU(2) weight reversal J_4 (x) J_4:
+    # J_4 maps |+3/2> -> -|-3/2>, |+1/2> -> +|-1/2>, |-1/2> -> -|+1/2>, |-3/2> -> +|+3/2>.
+    def spin10_bracket_barred_reversed(w1: complex, w2: complex, dc_u: complex, dc_v: complex) -> np.ndarray:
+        e_rev = [j4 @ e[k] for k in range(4)]
+        comp_20 = (
+            w1 * wedge_m_plus2(e_rev[3], e_rev[3]) * j_pairing(e_rev[2], e_rev[0]) * dc_u
+            + w2 * wedge_m_plus2(e_rev[2], e_rev[3]) * j_pairing(e_rev[3], e_rev[0]) * dc_u
+        )
+        comp_02 = (
+            w1 * j_pairing(e_rev[3], e_rev[0]) * wedge_m_plus2(e_rev[2], e_rev[3]) * dc_v
+            + w2 * j_pairing(e_rev[2], e_rev[0]) * wedge_m_plus2(e_rev[3], e_rev[3]) * dc_v
+        )
+        return np.array([comp_20, comp_02], dtype=complex)
+
+    d_val = 1.0 / np.sqrt(2.0)
+    m_bracket_unbarred = np.column_stack([
+        spin10_bracket_unbarred(1.0, 0.0, d_val, d_val),
+        spin10_bracket_unbarred(0.0, 1.0, d_val, d_val),
+    ])
+    m_bracket_barred = np.column_stack([
+        spin10_bracket_barred_reversed(1.0, 0.0, d_val, d_val),
+        spin10_bracket_barred_reversed(0.0, 1.0, d_val, d_val),
+    ])
+    sv_unbarred = [float(s) for s in np.linalg.svd(m_bracket_unbarred, compute_uv=False)]
+    sv_barred = [float(s) for s in np.linalg.svd(m_bracket_barred, compute_uv=False)]
+    barred_unbarred_sv_diff = float(np.linalg.norm(np.array(sv_unbarred) - np.array(sv_barred)))
+
+    # Construct the 2x2 current coupling matrix C on (left, right) x (w_L, w_R)
+    # directly from principal H-grade conservation:
+    # Left current (down mu=0 -> up mu=-2) requires mu(w) = -2;
+    # Right current (up_c mu=-2 -> down_c mu=0) requires mu(w) = +2.
+    mu_w_l = float(np.real(mu_diag[idx_mu_minus2[0]]))  # -2.0
+    mu_w_r = float(np.real(mu_diag[idx_mu_plus2[0]]))   # +2.0
+    mu_req_left = -2.0 - 0.0
+    mu_req_right = 0.0 - (-2.0)
+
+    g_l_wl = sv_unbarred[0] if abs(mu_w_l - mu_req_left) < 1e-12 else 0.0
+    g_l_wr = sv_unbarred[0] if abs(mu_w_r - mu_req_left) < 1e-12 else 0.0
+    g_r_wl = sv_barred[0] if abs(mu_w_l - mu_req_right) < 1e-12 else 0.0
+    g_r_wr = sv_barred[0] if abs(mu_w_r - mu_req_right) < 1e-12 else 0.0
+
+    c_mat = np.array([[g_l_wl, g_l_wr], [g_r_wl, g_r_wr]], dtype=complex)
+    r0_base = c_mat @ c_mat.conj().T
+    r0_base_eigs = np.sort(np.linalg.eigvalsh(r0_base))
+
+    # Guardrail 3: Two-sided Haar-random U(2)_ferm x U(2)_vec basis scrambling
+    rng = np.random.default_rng(20261108)
+
+    def random_haar_u2() -> np.ndarray:
+        z_rand = rng.standard_normal((2, 2)) + 1j * rng.standard_normal((2, 2))
+        q_u, r_t = np.linalg.qr(z_rand)
+        phases = np.diag(r_t) / np.abs(np.diag(r_t))
+        return q_u * phases
+
+    max_two_sided_scrambling_eig_err = 0.0
+    max_right_scrambling_mat_err = 0.0
+    for _ in range(50):
+        u_ferm = random_haar_u2()
+        u_vec = random_haar_u2()
+        # Right-only vector basis rotation leaves R_0 = C C^\dagger identically invariant:
+        c_vec_rot = c_mat @ u_vec.conj().T
+        r0_vec_rot = c_vec_rot @ c_vec_rot.conj().T
+        mat_err = float(np.linalg.norm(r0_vec_rot - r0_base))
+        if mat_err > max_right_scrambling_mat_err:
+            max_right_scrambling_mat_err = mat_err
+
+        # Two-sided fermion + vector rotation preserves the eigenvalues of R_0:
+        c_two_rot = u_ferm @ c_mat @ u_vec.conj().T
+        r0_two_rot = c_two_rot @ c_two_rot.conj().T
+        eig_err = float(np.linalg.norm(np.sort(np.linalg.eigvalsh(r0_two_rot)) - r0_base_eigs))
+        if eig_err > max_two_sided_scrambling_eig_err:
+            max_two_sided_scrambling_eig_err = eig_err
+
+    # Negative Control 1: Single-column projection (attempting to drop w_R by hand)
+    c_proj_col1 = c_mat @ np.array([[1.0, 0.0], [0.0, 0.0]], dtype=complex)
+    r0_proj_rank = int(np.linalg.matrix_rank(c_proj_col1 @ c_proj_col1.conj().T, tol=1e-12))
+
+    # Negative Control 2: Non-unitary vector scaling
+    s_nonunit = np.array([[1.3, 0.0], [0.0, 0.8]], dtype=complex)
+    c_nonunit = c_mat @ s_nonunit
+    r0_nonunit_drift = float(np.linalg.norm(c_nonunit @ c_nonunit.conj().T - r0_base))
+
+    # Verify be1b2e92e neutral (3,0)+(0,3) grade -3 operator X = (1/6) F^3 from f4:
+    x_lowest = (f4 @ f4 @ f4) / 6.0
+    e_30 = np.zeros((4, 4), dtype=complex)
+    e_30[3, 0] = 1.0
+    x_cubic_construction_err = float(np.linalg.norm(x_lowest - e_30))
+    comm_h_x_err = float(np.linalg.norm(0.5 * (h4_su2 @ x_lowest - x_lowest @ h4_su2) + 3.0 * x_lowest))
+    # First-order cross-term in q^\dagger q between E_+ and X (vanishes by weight range: grade +4)
+    fixed_a_cross_term_norm = float(np.linalg.norm(e4.conj().T @ x_lowest + x_lowest.conj().T @ e4))
+    moment_comm = x_lowest @ x_lowest.conj().T - x_lowest.conj().T @ x_lowest
+    moment_pairing_with_h = float(np.real(np.trace(h4_su2 @ moment_comm)))
+
+    return {
+        "mu_minus2_higgs_two_ell_sq_err": mu_minus2_err,
+        "mu_minus2_eigenvalues": eigvals_mu_minus2,
+        "mu_plus2_raising_higgs_eigenvalues": eigvals_raising_mu_plus2,
+        "mu_plus2_total_pv_eigenvalues": eigvals_pv_total_mu_plus2,
+        "wrong_half_higgs_conjugation_asymmetry": wrong_half_higgs_asymmetry,
+        "mu_minus2_mass_sq_times_two_ell_sq": computed_mass_sq_two_ell_sq,
+        "j16_grade_flip_err": j16_grade_flip_err,
+        "a16_intertwiner_err": a16_intertwiner_err,
+        "mu_minus1_form_pair_two_ell_sq_c": c_two_ell_sq_form_pair,
+        "mu_minus1_middle_two_ell_sq_c": c_two_ell_sq_middle,
+        "w_quaternion_err": w_quaternion_err,
+        "spin10_bracket_singular_values": sv_unbarred,
+        "spin10_barred_bracket_singular_values": sv_barred,
+        "barred_unbarred_sv_diff": barred_unbarred_sv_diff,
+        "off_diagonal_wrong_grade_couplings": [float(abs(g_l_wr)), float(abs(g_r_wl))],
+        "paired_pole_residue_rank": int(np.linalg.matrix_rank(r0_base, tol=1e-12)),
+        "paired_pole_unitary_scrambling_max_err": max_right_scrambling_mat_err,
+        "paired_pole_two_sided_eig_scrambling_max_err": max_two_sided_scrambling_eig_err,
+        "negative_control_single_column_rank": r0_proj_rank,
+        "negative_control_non_unitary_drift": r0_nonunit_drift,
+        "neutral_x_cubic_construction_err": x_cubic_construction_err,
+        "neutral_grade_minus3_comm_err": comm_h_x_err,
+        "neutral_fixed_a_cross_term_norm": fixed_a_cross_term_norm,
+        "neutral_moment_pairing_with_H": moment_pairing_with_h,
+    }
+
+
+# ---------------------------------------------------------------------------
+# Part IV (Spike 2A & 2B): Modular Realization of G_24 and Characteristic K
+# ---------------------------------------------------------------------------
+
+def _theta_234(tau: complex, n_terms: int = 80) -> tuple[complex, complex, complex]:
+    """Compute Jacobi theta constants (theta_2, theta_3, theta_4) at tau in H
+    directly from their defining series without branch-cut ambiguity.
+    """
+    n = np.arange(-n_terms, n_terms + 1, dtype=float)
+    t2 = np.sum(np.exp(1j * np.pi * tau * ((n + 0.5) ** 2)))
+    t3 = np.sum(np.exp(1j * np.pi * tau * (n ** 2)))
+    t4 = np.sum(((-1.0) ** n) * np.exp(1j * np.pi * tau * (n ** 2)))
+    return complex(t2), complex(t3), complex(t4)
+
+
+def _pairwise_theta_vector(tau: complex) -> np.ndarray:
+    """Compute P(tau) = (theta_3^2 * theta_4^2, theta_2^2 * theta_4^2, theta_2^2 * theta_3^2)."""
+    t2, t3, t4 = _theta_234(tau)
+    return np.array([
+        (t3 ** 2) * (t4 ** 2),
+        (t2 ** 2) * (t4 ** 2),
+        (t2 ** 2) * (t3 ** 2),
+    ], dtype=complex)
+
+
+def _generate_matrix_group(gens: list[np.ndarray]) -> list[np.ndarray]:
+    """Generate finite matrix group from generators via BFS."""
+    def mat_key(m: np.ndarray) -> tuple[tuple[float, float], ...]:
+        return tuple((round(float(x.real), 5), round(float(x.imag), 5)) for x in m.flatten())
+
+    eye = np.eye(3, dtype=complex)
+    generated: dict[tuple[tuple[float, float], ...], np.ndarray] = {mat_key(eye): eye}
+    queue = [eye]
+    while queue:
+        curr = queue.pop(0)
+        for gen in gens:
+            nxt = curr @ gen
+            k = mat_key(nxt)
+            if k not in generated:
+                generated[k] = nxt
+                queue.append(nxt)
+    return list(generated.values())
+
+
+def verify_spike_2_modular_g24_and_characteristic_cover() -> dict[str, Any]:
+    """Verify Theorem 2A (exact linear order-24 modular realization of
+    G_24 = PSL(2, Z/4Z) ~= S_4 in SU(3) via the weight-2 slash action on P(tau),
+    contrasted with the order-48 double cover if +T_R is used) and Theorem 2B
+    (complete full-Aut(F_2) invariance of K = (P|_N)^{-1}(2D_4^*) across all 4
+    columns of P_w and exact index [F_2 : K] = 32).
+    """
+    # 1. Explicit 3x3 matrices for A_disc and S_3 permutations
+    d2 = np.diag([-1.0, -1.0, 1.0]).astype(complex)
+    d3 = np.diag([1.0, -1.0, -1.0]).astype(complex)
+
+    t_l = np.array([[1.0, 0.0, 0.0], [0.0, 0.0, 1.0], [0.0, 1.0, 0.0]], dtype=complex)  # swap(1,2)
+    t_r = np.array([[0.0, 0.0, 1.0], [0.0, 1.0, 0.0], [1.0, 0.0, 0.0]], dtype=complex)  # swap(0,2)
+
+    l_lift = d2 @ t_l
+    r_lift = d3 @ t_r
+    s_lift = t_r
+    real_g24 = _generate_matrix_group([l_lift, r_lift, s_lift])
+
+    rel_err_psl2_z4 = float(
+        np.linalg.norm(np.linalg.matrix_power(l_lift, 4) - np.eye(3))
+        + np.linalg.norm(np.linalg.matrix_power(r_lift, 4) - np.eye(3))
+        + np.linalg.norm(np.linalg.matrix_power(s_lift, 2) - np.eye(3))
+        + np.linalg.norm(np.linalg.matrix_power(s_lift @ l_lift, 3) - np.eye(3))
+    )
+
+    # 2. Verify true weight-2 modular slash action (f|_2 gamma)(tau) = (c*tau + d)^(-2) f(gamma*tau)
+    # on P(tau):
+    # - Under T: tau -> tau + 1 ((c*tau+d)^2 = 1), P(tau + 1) = M_T P(tau) with M_T = diag(1, i, i) T_L
+    # - Under S: tau -> -1/tau ((c*tau+d)^2 = +tau^2), tau^(-2) P(-1/tau) = M_S_wt2 P(tau) with M_S_wt2 = -T_R
+    m_t = np.diag([1.0, 1j, 1j]) @ t_l
+    m_s_wt2 = -t_r
+    mod_g24 = _generate_matrix_group([m_t, m_s_wt2])
+    # Negative control: if +T_R (divisor -tau^2) is used with M_T, (T_R M_T)^3 = -I_3 -> order 48!
+    mod_order48_control = _generate_matrix_group([m_t, +t_r])
+
+    mod_wt2_relations_err = float(
+        np.linalg.norm(np.linalg.matrix_power(m_t, 4) - np.eye(3))
+        + np.linalg.norm(np.linalg.matrix_power(m_s_wt2, 2) - np.eye(3))
+        + np.linalg.norm(np.linalg.matrix_power(m_s_wt2 @ m_t, 3) - np.eye(3))
+        + np.linalg.norm(np.linalg.matrix_power(m_t, 2) - d3)
+        + np.linalg.norm(m_s_wt2 @ d3 @ m_s_wt2 - d2)
+    )
+    mod_max_det_err = max(float(abs(np.linalg.det(m) - 1.0)) for m in mod_g24)
+    mod_trace_counts = Counter(int(round(float(np.trace(m).real))) for m in mod_g24)
+    so3_octahedral = _generate_matrix_group([-d2 @ t_l, -t_r])
+    so3_trace_counts = Counter(int(round(float(np.trace(m).real))) for m in so3_octahedral)
+    character_table_matches_octahedral = (mod_trace_counts == so3_trace_counts)
+
+    tau = 0.23 + 1.17j
+    p_tau = _pairwise_theta_vector(tau)
+
+    p_t2 = _pairwise_theta_vector(tau + 2.0)
+    err_t2 = float(np.linalg.norm(p_t2 - d3 @ p_tau) / np.linalg.norm(p_tau))
+
+    t2_0, t3_0, t4_0 = _theta_234(tau)
+    t2_2, t3_2, t4_2 = _theta_234(tau + 2.0)
+    naive_ratio = np.array([
+        (t2_2 ** 2) / (t2_0 ** 2),
+        (t3_2 ** 2) / (t3_0 ** 2),
+        (t4_2 ** 2) / (t4_0 ** 2),
+    ])
+    naive_t2_det = float(np.real(np.prod(naive_ratio)))
+
+    tau_st2s = tau / (1.0 - 2.0 * tau)
+    p_st2s = _pairwise_theta_vector(tau_st2s) / ((1.0 - 2.0 * tau) ** 2)
+    err_st2s = float(np.linalg.norm(p_st2s - d2 @ p_tau) / np.linalg.norm(p_tau))
+
+    # True weight-2 slash factor +tau^2 under S gives M_S_wt2 = -T_R:
+    p_s_wt2 = _pairwise_theta_vector(-1.0 / tau) / (tau ** 2)
+    err_s_wt2 = float(np.linalg.norm(p_s_wt2 - m_s_wt2 @ p_tau) / np.linalg.norm(p_tau))
+    # Also retain err_s with (-i*tau)^2 = -tau^2 giving +T_R:
+    p_s = _pairwise_theta_vector(-1.0 / tau) / (-(tau ** 2))
+    err_s = float(np.linalg.norm(p_s - t_r @ p_tau) / np.linalg.norm(p_tau))
+
+    p_t1 = _pairwise_theta_vector(tau + 1.0)
+    err_t1 = float(np.linalg.norm(p_t1 - m_t @ p_tau) / np.linalg.norm(p_tau))
+
+    # 3. Verify Theorem 2B on the full 4x4 matrix crossed homomorphism P_w: F_2 -> Z^(4x4)
+    # (with P_a = 0_{4x4}, P_b = I_4) across all 9 Schreier generators, all 81 pairs,
+    # and a complete generating set of Aut(F_2) = <L, R, swap_ab, inv_a, Ad_a, Ad_b>.
+    a_q8 = np.array([
+        [0, -1, 0, 0],
+        [1, 0, 0, 0],
+        [0, 0, 0, -1],
+        [0, 0, 1, 0],
+    ], dtype=int)
+    b_q8 = np.array([
+        [0, 0, -1, 0],
+        [0, 0, 0, 1],
+        [1, 0, 0, 0],
+        [0, -1, 0, 0],
+    ], dtype=int)
+
+    def eval_word_mat(word: tuple[str, ...]) -> tuple[np.ndarray, np.ndarray]:
+        m_curr = np.eye(4, dtype=int)
+        p_curr = np.zeros((4, 4), dtype=int)
+        i4_int = np.eye(4, dtype=int)
+        z4_int = np.zeros((4, 4), dtype=int)
+        for sym in word:
+            if sym == "a":
+                m_s, p_s = a_q8, z4_int
+            elif sym == "A":
+                m_s, p_s = a_q8.T, z4_int
+            elif sym == "b":
+                m_s, p_s = b_q8, i4_int
+            elif sym == "B":
+                m_s = b_q8.T
+                p_s = -b_q8.T
+            else:
+                raise ValueError(f"Unknown symbol {sym}")
+            p_curr = p_curr + m_curr @ p_s
+            m_curr = m_curr @ m_s
+        return m_curr, p_curr
+
+    def coset_parity(p_vec: np.ndarray) -> tuple[int, int, int]:
+        return (
+            int((p_vec[0] + p_vec[1]) % 2),
+            int((p_vec[0] + p_vec[2]) % 2),
+            int((p_vec[0] + p_vec[3]) % 2),
+        )
+
+    def apply_L(word: tuple[str, ...]) -> tuple[str, ...]:
+        out: list[str] = []
+        for sym in word:
+            if sym in ("a", "A"):
+                out.append(sym)
+            elif sym == "b":
+                out.extend(["a", "b"])
+            elif sym == "B":
+                out.extend(["B", "A"])
+        return tuple(out)
+
+    def apply_R(word: tuple[str, ...]) -> tuple[str, ...]:
+        out: list[str] = []
+        for sym in word:
+            if sym == "a":
+                out.extend(["a", "b"])
+            elif sym == "A":
+                out.extend(["B", "A"])
+            elif sym in ("b", "B"):
+                out.append(sym)
+        return tuple(out)
+
+    def apply_swap_ab(word: tuple[str, ...]) -> tuple[str, ...]:
+        mp = {"a": "b", "b": "a", "A": "B", "B": "A"}
+        return tuple(mp[s] for s in word)
+
+    def apply_inv_a(word: tuple[str, ...]) -> tuple[str, ...]:
+        mp = {"a": "A", "A": "a", "b": "b", "B": "B"}
+        return tuple(mp[s] for s in word)
+
+    def apply_ad_a(word: tuple[str, ...]) -> tuple[str, ...]:
+        return ("a",) + word + ("A",)
+
+    def apply_ad_b(word: tuple[str, ...]) -> tuple[str, ...]:
+        return ("b",) + word + ("B",)
+
+    schreier_generators: list[tuple[str, ...]] = [
+        ("a", "a", "a", "a"),
+        ("b", "b", "b", "b"),
+        ("a", "b", "a", "B"),
+        ("a", "B", "a", "b"),
+        ("a", "a", "b", "b"),
+        ("a", "b", "b", "a"),
+        ("b", "a", "a", "b"),
+        ("a", "b", "A", "b"),
+        ("b", "a", "B", "a"),
+    ]
+
+    # Check homomorphism additivity c(g1 * g2) == c(g1) ^ c(g2) across all 81 pairs
+    homomorphism_additivity_violations = 0
+    for g1 in schreier_generators:
+        _, p_g1 = eval_word_mat(g1)
+        c_g1 = coset_parity(p_g1[:, 0])
+        for g2 in schreier_generators:
+            _, p_g2 = eval_word_mat(g2)
+            c_g2 = coset_parity(p_g2[:, 0])
+            _, p_prod = eval_word_mat(g1 + g2)
+            c_prod = coset_parity(p_prod[:, 0])
+            expected = tuple((c_g1[k] ^ c_g2[k]) for k in range(3))
+            if c_prod != expected:
+                homomorphism_additivity_violations += 1
+
+    test_words_in_n = list(schreier_generators)
+    for g1 in schreier_generators:
+        for g2 in schreier_generators:
+            test_words_in_n.append(g1 + g2)
+
+    n_kernel_violations = 0
+    d4_even_sum_violations = 0
+    column_parity_mismatch_count = 0
+    l_swap12_violations = 0
+    r_swap01_violations = 0
+    r_naive_swap02_matches = 0
+    swap_ab_swap02_violations = 0
+    inv_a_id_violations = 0
+    inner_conj_violations = 0
+    k_invariance_violations = 0
+    image_cosets: set[tuple[int, int, int]] = set()
+
+    for w in test_words_in_n:
+        m_w, p_w = eval_word_mat(w)
+        if not np.array_equal(m_w, np.eye(4, dtype=int)):
+            n_kernel_violations += 1
+
+        col_parities = [coset_parity(p_w[:, col]) for col in range(4)]
+        if len(set(col_parities)) != 1:
+            column_parity_mismatch_count += 1
+        for col in range(4):
+            if int(np.sum(p_w[:, col]) % 2) != 0:
+                d4_even_sum_violations += 1
+
+        c_w = col_parities[0]
+        image_cosets.add(c_w)
+
+        m_lw, p_lw = eval_word_mat(apply_L(w))
+        if not np.array_equal(m_lw, np.eye(4, dtype=int)):
+            n_kernel_violations += 1
+        c_lw = coset_parity(p_lw[:, 0])
+        if c_lw != (c_w[0], c_w[2], c_w[1]):
+            l_swap12_violations += 1
+
+        m_rw, p_rw = eval_word_mat(apply_R(w))
+        if not np.array_equal(m_rw, np.eye(4, dtype=int)):
+            n_kernel_violations += 1
+        c_rw = coset_parity(p_rw[:, 0])
+        if c_rw != (c_w[1], c_w[0], c_w[2]):
+            r_swap01_violations += 1
+        if c_rw == (c_w[2], c_w[1], c_w[0]):
+            r_naive_swap02_matches += 1
+
+        _, p_sw = eval_word_mat(apply_swap_ab(w))
+        c_sw = coset_parity(p_sw[:, 0])
+        if c_sw != (c_w[2], c_w[1], c_w[0]):
+            swap_ab_swap02_violations += 1
+
+        _, p_ia = eval_word_mat(apply_inv_a(w))
+        c_ia = coset_parity(p_ia[:, 0])
+        if c_ia != c_w:
+            inv_a_id_violations += 1
+
+        _, p_ada = eval_word_mat(apply_ad_a(w))
+        _, p_adb = eval_word_mat(apply_ad_b(w))
+        if coset_parity(p_ada[:, 0]) != c_w or coset_parity(p_adb[:, 0]) != c_w:
+            inner_conj_violations += 1
+
+        in_k = (c_w == (0, 0, 0))
+        if (
+            (c_lw == (0, 0, 0)) != in_k
+            or (c_rw == (0, 0, 0)) != in_k
+            or (c_sw == (0, 0, 0)) != in_k
+            or (c_ia == (0, 0, 0)) != in_k
+        ):
+            k_invariance_violations += 1
+
+    index_n_over_k = len(image_cosets)
+    index_f2_over_k = 8 * index_n_over_k
+
+    return {
+        "generated_g24_order": len(real_g24),
+        "psl2_z4_relations_err": rel_err_psl2_z4,
+        "weight2_slash_modular_g24_order": len(mod_g24),
+        "weight2_slash_relations_err": mod_wt2_relations_err,
+        "weight2_slash_max_det_err": mod_max_det_err,
+        "weight2_slash_character_matches_octahedral": character_table_matches_octahedral,
+        "negative_control_plus_tr_linear_order": len(mod_order48_control),
+        "naive_theta_t2_det": naive_t2_det,
+        "pairwise_theta_modular_rel_errs": {
+            "T2_err": err_t2,
+            "ST2S_inv_err": err_st2s,
+            "S_wt2_slash_err": err_s_wt2,
+            "S_err": err_s,
+            "T1_err": err_t1,
+        },
+        "tested_words_in_N_count": len(test_words_in_n),
+        "n_kernel_violations": n_kernel_violations,
+        "d4_even_sum_violations": d4_even_sum_violations,
+        "column_parity_mismatch_count": column_parity_mismatch_count,
+        "homomorphism_additivity_violations": homomorphism_additivity_violations,
+        "image_cosets_count": index_n_over_k,
+        "computed_index_F2_over_K": index_f2_over_k,
+        "l_swap12_violations": l_swap12_violations,
+        "r_swap01_violations": r_swap01_violations,
+        "r_naive_swap02_failures": len(test_words_in_n) - r_naive_swap02_matches,
+        "swap_ab_swap02_violations": swap_ab_swap02_violations,
+        "inv_a_id_violations": inv_a_id_violations,
+        "inner_conj_violations": inner_conj_violations,
+        "k_characteristic_invariance_violations": k_invariance_violations,
+    }
+
+
+# ---------------------------------------------------------------------------
+# Part V (Spike 3): Native Cyclic Stationary Family & Quadratic Moment Response
+# (Audit of 2b572014c: NATIVE_CYCLIC_DEFORMATION_AND_DERIVED_QUADRATIC_MOMENT_RESPONSE_2026_11_09.md
+#  and verification_native_cyclic_2026_11_09/DESIGN.md)
+# ---------------------------------------------------------------------------
+
+def verify_spike_3_native_cyclic_and_moment_response() -> dict[str, Any]:
+    """Independently construct and stress-test all 6 finite control duties of
+    2b572014c (verification_native_cyclic_2026_11_09/DESIGN.md) plus Duty 3.7
+    (Hostile Referee Theorem on Spin(5)_+ x Spin(5)_- self-duality Omega_16 vs.
+    the 25D (2,2) coset of so(10) for W_L / W_R mass splitting Q1).
+    """
+    # Duty 3.1: Moment-curvature identity and anticommutator form of Pv at mu_hat = 0:
+    # Pv = Dbar^{*v} Dbar + 2 ad_q^\dagger ad_q + 2 ad_r^\dagger ad_r
+    # With Dbar^{*v} Dbar = nabla^* nabla - ad(F_A / dvol) and mu_hat = F_A/dvol + [q,q^\dagger] + [r,r^\dagger] = 0,
+    # -ad(F_A/dvol) + 2 ad_q^\dagger ad_q + 2 ad_r^\dagger ad_r == {ad_q, ad_q^\dagger} + {ad_r, ad_r^\dagger}.
+    e4 = np.array([
+        [0.0, np.sqrt(3.0), 0.0, 0.0],
+        [0.0, 0.0, 2.0, 0.0],
+        [0.0, 0.0, 0.0, np.sqrt(3.0)],
+        [0.0, 0.0, 0.0, 0.0],
+    ], dtype=complex)
+    h4_diag = np.diag([3.0, 1.0, -1.0, -3.0]).astype(complex)
+    h3_oct = np.diag([1.0, -3.0, 3.0, -1.0]).astype(complex)
+    x_low = np.zeros((4, 4), dtype=complex)
+    x_low[3, 0] = 1.0  # grade -3 root e_41
+
+    # Construct explicit 16x16 adjoint representation of gl(4, C) to test operator identities
+    gl4_basis = [np.eye(16, dtype=complex)[:, k].reshape(4, 4) for k in range(16)]
+
+    def ad_gl4(m: np.ndarray) -> np.ndarray:
+        out = np.zeros((16, 16), dtype=complex)
+        for col, b in enumerate(gl4_basis):
+            comm = m @ b - b @ m
+            out[:, col] = comm.flatten()
+        return out
+
+    q_sample = 0.5 * e4 + 0.35 * x_low
+    ad_q = ad_gl4(q_sample)
+    ad_q_dag = ad_gl4(q_sample.conj().T)
+    f_curv_zero_moment = -(q_sample @ q_sample.conj().T - q_sample.conj().T @ q_sample)
+    ad_f = ad_gl4(f_curv_zero_moment)
+
+    lhs_pv_zero_order = -ad_f + 2.0 * (ad_q_dag @ ad_q)
+    rhs_anticomm = ad_q @ ad_q_dag + ad_q_dag @ ad_q
+    moment_curvature_identity_err = float(np.linalg.norm(lhs_pv_zero_order - rhs_anticomm))
+
+    # Negative controls for Duty 3.1: wrong coefficient (1.0 instead of 2.0) and flipped curvature sign (+ad_f)
+    wrong_coeff_err = float(np.linalg.norm((-ad_f + 1.0 * (ad_q_dag @ ad_q)) - rhs_anticomm))
+    flipped_curv_sign_err = float(np.linalg.norm((+ad_f + 2.0 * (ad_q_dag @ ad_q)) - rhs_anticomm))
+
+    # Duty 3.2: Explicit 45x45 D5 = so(10) adjoint coercivity across all 5 two-triple modules
+    # (1,0), (0,1), (3,0), (0,3), (2,2) (dims 3 + 3 + 7 + 7 + 25 = 45)
+    jz5 = np.diag([2.0, 1.0, 0.0, -1.0, -2.0]).astype(complex)
+    e5 = np.zeros((5, 5), dtype=complex)
+    for idx, m_val in enumerate([2, 1, 0, -1]):
+        e5[idx, idx + 1] = np.sqrt(6.0 - m_val * (m_val - 1))
+    omega5 = np.zeros((5, 5), dtype=complex)
+    for i in range(5):
+        omega5[i, 4 - i] = (-1) ** i
+    so5_metric_err = float(np.linalg.norm(omega5 @ e5 + e5.T @ omega5))
+
+    omega10 = np.block([[omega5, np.zeros((5, 5))], [np.zeros((5, 5)), omega5]])
+    e10_plus = np.block([[e5, np.zeros((5, 5))], [np.zeros((5, 5)), np.zeros((5, 5))]])
+    e10_minus = np.block([[np.zeros((5, 5)), np.zeros((5, 5))], [np.zeros((5, 5)), e5]])
+    jz10_plus = np.block([[jz5, np.zeros((5, 5))], [np.zeros((5, 5)), np.zeros((5, 5))]])
+    jz10_minus = np.block([[np.zeros((5, 5)), np.zeros((5, 5))], [np.zeros((5, 5)), jz5]])
+
+    basis_45: list[np.ndarray] = []
+    for i in range(10):
+        for j in range(i + 1, 10):
+            m_ij = np.zeros((10, 10), dtype=complex)
+            m_ij[i, j] = 1.0 / np.sqrt(2.0)
+            m_ij[j, i] = -1.0 / np.sqrt(2.0)
+            basis_45.append(m_ij @ omega10)
+
+    def ad_so10_45(op10: np.ndarray) -> np.ndarray:
+        mat = np.zeros((45, 45), dtype=complex)
+        for col, b in enumerate(basis_45):
+            comm = op10 @ b - b @ op10
+            for row, r in enumerate(basis_45):
+                mat[row, col] = np.trace(r.conj().T @ comm)
+        return mat
+
+    ad45_ep = ad_so10_45(e10_plus)
+    ad45_em = ad_so10_45(e10_minus)
+    ad45_jzp = ad_so10_45(jz10_plus)
+    ad45_jzm = ad_so10_45(jz10_minus)
+
+    # Zero-order operator times 2*ell^2: (1/2)({ad_E+, ad_E+^dag} + {ad_E-, ad_E-^dag})
+    pv45_two_ell_sq = 0.5 * (
+        ad45_ep @ ad45_ep.conj().T + ad45_ep.conj().T @ ad45_ep
+        + ad45_em @ ad45_em.conj().T + ad45_em.conj().T @ ad45_em
+    )
+    eigs_45 = np.linalg.eigvalsh(pv45_two_ell_sq)
+    min_eig_45_two_ell_sq = float(np.min(eigs_45))
+
+    j2_p_45 = ad45_jzp @ ad45_jzp + 0.5 * (ad45_ep @ ad45_ep.conj().T + ad45_ep.conj().T @ ad45_ep)
+    j2_m_45 = ad45_jzm @ ad45_jzm + 0.5 * (ad45_em @ ad45_em.conj().T + ad45_em.conj().T @ ad45_em)
+
+    module_coercivity: dict[str, dict[str, float | int]] = {}
+    for mod_name, jp_casimir, jm_casimir in [
+        ("(1,0)", 2.0, 0.0),
+        ("(0,1)", 0.0, 2.0),
+        ("(3,0)", 12.0, 0.0),
+        ("(0,3)", 0.0, 12.0),
+        ("(2,2)", 6.0, 6.0),
+    ]:
+        err_op = (
+            (j2_p_45 - jp_casimir * np.eye(45)) @ (j2_p_45 - jp_casimir * np.eye(45))
+            + (j2_m_45 - jm_casimir * np.eye(45)) @ (j2_m_45 - jm_casimir * np.eye(45))
+        )
+        u_m, s_m, _ = np.linalg.svd(err_op)
+        proj = u_m[:, s_m < 1e-10]
+        sub_eigs = np.linalg.eigvalsh(proj.conj().T @ pv45_two_ell_sq @ proj)
+        module_coercivity[mod_name] = {
+            "dim": int(proj.shape[1]),
+            "min_two_ell_sq": float(np.min(sub_eigs)),
+            "max_two_ell_sq": float(np.max(sub_eigs)),
+        }
+
+    # Negative control for Duty 3.2: appending a joint trivial (0,0) module loses coercivity (min eig = 0)
+    pv46_with_trivial = np.block([
+        [pv45_two_ell_sq, np.zeros((45, 1))],
+        [np.zeros((1, 45)), np.zeros((1, 1))],
+    ])
+    negative_control_with_trivial_min_eig = float(np.min(np.linalg.eigvalsh(pv46_with_trivial)))
+
+    # Duty 3.3: Grade -3 spin deformation X in (3,0)+(0,3) on chiral Spin(10) spinor 16 = 4_+ (x) 4_-:
+    # Verify E^\dagger X = X E^\dagger = 0, fixed-connection 2 X^\dagger X = 2 e_11 (asymmetric),
+    # vs moment-relaxed {X, X^\dagger} = e_11 + e_44 (symmetric on +3/2 and -3/2).
+    edag_x_norm = float(np.linalg.norm(e4.conj().T @ x_low))
+    x_edag_norm = float(np.linalg.norm(x_low @ e4.conj().T))
+    fixed_conn_term = 2.0 * (x_low.conj().T @ x_low)  # 2 e_11
+    moment_curv_term = x_low @ x_low.conj().T - x_low.conj().T @ x_low  # e_44 - e_11
+    combined_zero_order_term = fixed_conn_term + moment_curv_term  # e_11 + e_44
+    e11_plus_e44 = np.diag([1.0, 0.0, 0.0, 1.0]).astype(complex)
+    combined_e11_e44_err = float(np.linalg.norm(combined_zero_order_term - e11_plus_e44))
+    fixed_conn_asymmetry = float(np.real(fixed_conn_term[0, 0] - fixed_conn_term[3, 3]))
+    combined_moment_asymmetry = float(np.real(combined_zero_order_term[0, 0] - combined_zero_order_term[3, 3]))
+
+    # Duty 3.4: Compensator transport on (3,0)+(0,3) grade -3 pair, S^4 cusp pole bound a=4, and L(p) degree +1
+    # Top grade +3 has A_top = i * sigma_x, D_top = diag(i, -i).
+    # Each lowering step multiplies A by -1 ((-1)^6 = +1? Wait: in 2b572014c §7, A_top = i sigma_x,
+    # six lowering steps with D = diag(-i, +i) at each step: D_top (-i,+i)^6 = (-i)^6 D_top = -D_top,
+    # and A_low = -i sigma_x; including flavour F_a = i sigma_x, F_d = diag(i, -i) gives A_middle = sigma_x, D_middle = I_2).
+    sigma_x = np.array([[0.0, 1.0], [1.0, 0.0]], dtype=complex)
+    a_top = 1j * sigma_x
+    a_low = -1j * sigma_x
+    d_low = np.diag([-1j, 1j]).astype(complex)
+    f_a = 1j * sigma_x
+    f_d = np.diag([1j, -1j]).astype(complex)
+    # Diagonal action on the rank-2 middle coefficient (gauge * flavour):
+    a_middle = (-1j * sigma_x) * (1j)  # (-i)(i) sigma_x = sigma_x
+    d_middle = d_low @ f_d             # diag((-i)(i), (i)(-i)) = I_2
+    b_middle = d_middle @ a_middle
+    middle_comm_err = float(np.linalg.norm(a_middle @ b_middle - b_middle @ a_middle))
+    middle_a_eigs = sorted([float(np.real(x)) for x in np.linalg.eigvals(a_middle)])
+    middle_b_eigs = sorted([float(np.real(x)) for x in np.linalg.eigvals(b_middle)])
+
+    # Independent dyadic numerical quadrature for a=4 (S^4) cusp norm integral:
+    # Physical coefficient behaves as r^(2 - m) * (ln(1/r))^2 where T = ln(1/r), r = e^(-T),
+    # and area element dvol ~ (T ln T)^(-2) dT; in 2b572014c §7, simple pole m=1 gives r (ln(1/r))^2 = T^2 e^(-T),
+    # while double pole m=2 gives T^2 (divergent).
+    def quad_a4_pole(pole_order_m: int, t_max: float = 40.0) -> float:
+        # Integrate |r^(2 - m) T^2|^2 (T ln T)^(-2) dT = T^2 (ln T)^(-2) e^(-2(2 - m)T) dT from T=2 to t_max
+        pts, wts = np.polynomial.legendre.leggauss(64)
+        total = 0.0
+        n_bins = 40
+        edges = np.linspace(2.0, t_max, n_bins + 1)
+        for k in range(n_bins):
+            ta, tb = edges[k], edges[k + 1]
+            t_nodes = 0.5 * (tb - ta) * pts + 0.5 * (tb + ta)
+            integrand = (t_nodes ** 2) / ((np.log(t_nodes)) ** 2) * np.exp(-2.0 * (2 - pole_order_m) * t_nodes)
+            total += float(0.5 * (tb - ta) * np.sum(wts * integrand))
+        return total
+
+    a4_simple_pole_m1_integral = quad_a4_pole(1, t_max=40.0)
+    a4_double_pole_m2_integral = quad_a4_pole(2, t_max=40.0)
+
+    # Duty 3.5: Hermitian moment path delta(mu_hat) = Pv xi, Pv H = H / ell^2,
+    # kappa(H, S) = -6 (|u|^2 + |v|^2), and proj_H(xi2) = 6 ell^2 N H / ||H||^2.
+    # On 4-spinor, (1/2)({E, E^dag}_ad) on H:
+    comm_e_h = e4 @ h4_diag - h4_diag @ e4  # -2 E
+    pv_on_h_spinor = 0.5 * (
+        e4 @ comm_e_h.conj().T - comm_e_h.conj().T @ e4
+        + e4.conj().T @ comm_e_h - comm_e_h @ e4.conj().T
+    )
+    # Wait: ad_E(H) = [E, H] = -2 E, and ad_{E^dag}(ad_E(H)) = [E^dag, -2 E] = +2 H!
+    ad_e_h = e4 @ h4_diag - h4_diag @ e4
+    ad_edag_h = e4.conj().T @ h4_diag - h4_diag @ e4.conj().T
+    anticomm_ad_e_on_h = 0.5 * (
+        (e4 @ ad_edag_h - ad_edag_h @ e4)
+        + (e4.conj().T @ ad_e_h - ad_e_h @ e4.conj().T)
+    )
+    pv_h_eigenvalue_err = float(np.linalg.norm(anticomm_ad_e_on_h - 2.0 * h4_diag))  # 0.5 * 4 H = 2 H => (1/(2ell^2))*2 H = H/ell^2
+    s_unit = x_low @ x_low.conj().T - x_low.conj().T @ x_low  # [X, X^dag] = e_44 - e_11
+    kappa_h_s = float(np.real(np.trace(h4_diag @ s_unit)))    # 3*(-1) + (-3)*(+1) = -6.0
+
+    # Decompose s_unit = e_44 - e_11 into j=1 Cartan H = diag(3,1,-1,-3) and j=3 octupole H3 = diag(1,-3,3,-1):
+    # H has Tr(H^2) = 20, H3 has Tr(H3^2) = 20, Tr(H H3) = 0, and -0.3 H - 0.1 H3 = diag(-1, 0, 0, 1) = e_44 - e_11!
+    s_decomp_err = float(np.linalg.norm(s_unit - (-0.3 * h4_diag - 0.1 * h3_oct)))
+
+    # Duty 3.6: Hyperbolic cusp scalar barrier (-Delta + v0) rho = (3 / 16 ell^2) rho > 0
+    # where Delta = (d_T^2 - d_T)/ell^2, v0 = 1/(2 ell^2), rho = e^(-beta T) with beta = 1/4:
+    # (-Delta + v0) e^(-beta T) = (v0 - (beta^2 + beta)/ell^2) e^(-beta T).
+    def barrier_coeff_times_ell_sq(beta: float, laplacian_sign: float = 1.0) -> float:
+        # For (-laplacian_sign * Delta + v0) e^(-beta T):
+        return float(0.5 - laplacian_sign * (beta * beta + beta))
+
+    barrier_beta_quarter = barrier_coeff_times_ell_sq(0.25, laplacian_sign=1.0)  # 3/16 = 0.1875 > 0
+    barrier_excessive_beta_half = barrier_coeff_times_ell_sq(0.5, laplacian_sign=1.0)  # 0.5 - 0.75 = -0.25 < 0 (fails!)
+    barrier_wrong_laplacian_sign_beta_one = barrier_coeff_times_ell_sq(1.0, laplacian_sign=-1.0)  # wrong sign diagnostic
+
+    # Duty 3.7 (Hostile Referee Theorem for Q1):
+    # 1) Any four-cycle deformed Spin(5) matrix Q = p e_12 + r e_23 + p e_34 + f e_41
+    #    (combining E, the m=0 octupole/Cartan response [xi_2, E], and grade -3 X = f e_41)
+    #    has a purely diagonal, weight-reversal-symmetric anticommutator {Q, Q^\dagger},
+    #    giving the EXACT same 2x2 zero-order mass matrix on the w_L (mu=-2) and w_R (mu=+2) planes!
+    p4_rev = np.array([
+        [0.0, 0.0, 0.0, 1.0],
+        [0.0, 0.0, 1.0, 0.0],
+        [0.0, 1.0, 0.0, 0.0],
+        [1.0, 0.0, 0.0, 0.0],
+    ], dtype=complex)
+    a2_oct_shift = h3_oct @ e4 - e4 @ h3_oct  # 4*sqrt(3) e_12 - 12 e_23 + 4*sqrt(3) e_34
+    rng = np.random.default_rng(20261109)
+    max_four_cycle_p4_comm_err = 0.0
+    max_wl_wr_zero_order_plane_diff = 0.0
+    idx_wl_plane = [4 * 3 + 2, 4 * 2 + 3]  # |-3/2, -1/2>, |-1/2, -3/2> (mu = -2)
+    idx_wr_plane = [4 * 0 + 1, 4 * 1 + 0]  # |+3/2, +1/2>, |+1/2, +3/2> (mu = +2)
+    for _ in range(40):
+        c_p = rng.standard_normal(3) + 1j * rng.standard_normal(3)
+        c_m = rng.standard_normal(3) + 1j * rng.standard_normal(3)
+        q_p = c_p[0] * e4 + c_p[1] * a2_oct_shift + c_p[2] * x_low
+        q_m = c_m[0] * e4 + c_m[1] * a2_oct_shift + c_m[2] * x_low
+        ac_p = q_p @ q_p.conj().T + q_p.conj().T @ q_p
+        ac_m = q_m @ q_m.conj().T + q_m.conj().T @ q_m
+        err_p4 = float(
+            np.linalg.norm(p4_rev @ ac_p @ p4_rev - ac_p)
+            + np.linalg.norm(p4_rev @ ac_m @ p4_rev - ac_m)
+        )
+        if err_p4 > max_four_cycle_p4_comm_err:
+            max_four_cycle_p4_comm_err = err_p4
+        ac_16 = np.kron(ac_p, np.eye(4)) + np.kron(np.eye(4), ac_m)
+        mat_wl = ac_16[np.ix_(idx_wl_plane, idx_wl_plane)]
+        mat_wr = ac_16[np.ix_(idx_wr_plane, idx_wr_plane)]
+        diff_planes = float(np.linalg.norm(mat_wl - mat_wr))
+        if diff_planes > max_wl_wr_zero_order_plane_diff:
+            max_wl_wr_zero_order_plane_diff = diff_planes
+
+    # 2) Self-duality of 16 = 4_+ (x) 4_- under Omega_16 = Omega_4 (x) Omega_4 on the entire
+    #    20D subalgebra spin(5)_+ (+) spin(5)_- vs. anti-self-duality on the 25D (2,2) coset of so(10):
+    omega4 = np.array([
+        [0.0, 0.0, 0.0, 1.0],
+        [0.0, 0.0, -1.0, 0.0],
+        [0.0, 1.0, 0.0, 0.0],
+        [-1.0, 0.0, 0.0, 0.0],
+    ], dtype=complex)
+    omega16 = np.kron(omega4, omega4)
+
+    sp2_proj = []
+    vec5_proj = []
+    for i in range(4):
+        for j in range(4):
+            e_ij = np.zeros((4, 4), dtype=complex)
+            e_ij[i, j] = 1.0
+            m_sp2 = 0.5 * (e_ij - np.linalg.inv(omega4) @ e_ij.T @ omega4)
+            m_vec5 = 0.5 * (e_ij + np.linalg.inv(omega4) @ e_ij.T @ omega4)
+            m_vec5 -= (np.trace(m_vec5) / 4.0) * np.eye(4)
+            sp2_proj.append(m_sp2.flatten())
+            vec5_proj.append(m_vec5.flatten())
+    _, s_sp2, vh_sp2 = np.linalg.svd(np.array(sp2_proj))
+    _, s_v5, vh_v5 = np.linalg.svd(np.array(vec5_proj))
+    sp2_10 = [vh_sp2[k].reshape(4, 4) for k in range(int(np.sum(s_sp2 > 1e-10)))]
+    vec5_5 = [vh_v5[k].reshape(4, 4) for k in range(int(np.sum(s_v5 > 1e-10)))]
+
+    max_spin5_plus_minus_self_dual_err = 0.0
+    for m_gen in sp2_10:
+        mp = np.kron(m_gen, np.eye(4))
+        mm = np.kron(np.eye(4), m_gen)
+        # Dual representation action is -M^T; self-duality means Omega_16 M Omega_16^-1 == -M^T
+        err_sd = float(
+            np.linalg.norm(omega16 @ mp @ np.linalg.inv(omega16) - (-mp.T))
+            + np.linalg.norm(omega16 @ mm @ np.linalg.inv(omega16) - (-mm.T))
+        )
+        if err_sd > max_spin5_plus_minus_self_dual_err:
+            max_spin5_plus_minus_self_dual_err = err_sd
+
+    max_coset_22_anti_self_dual_err = 0.0
+    min_coset_22_self_dual_violation = float("inf")
+    for ga in vec5_5:
+        for gb in vec5_5:
+            z_22 = 1j * np.kron(ga, gb)
+            # On (2,2), Omega_16 Z Omega_16^-1 == +Z^T = -(-Z^T) (opposite sign to dual representation!)
+            err_asd = float(np.linalg.norm(omega16 @ z_22 @ np.linalg.inv(omega16) - (+z_22.T)))
+            viol_sd = float(np.linalg.norm(omega16 @ z_22 @ np.linalg.inv(omega16) - (-z_22.T)))
+            if err_asd > max_coset_22_anti_self_dual_err:
+                max_coset_22_anti_self_dual_err = err_asd
+            if viol_sd < min_coset_22_self_dual_violation:
+                min_coset_22_self_dual_violation = viol_sd
+
+    # Mixed-magnitude sign matrix Sigma_mag = diag(sign(|m_+| - |m_-|)) on the 8D |m_+| != |m_-| subspace:
+    weights_4 = [1.5, 0.5, -0.5, -1.5]
+    s_swap_16 = np.zeros((16, 16), dtype=complex)
+    sigma_mag_16 = np.zeros((16, 16), dtype=complex)
+    for i in range(4):
+        for j in range(4):
+            s_swap_16[4 * j + i, 4 * i + j] = 1.0
+            sigma_mag_16[4 * i + j, 4 * i + j] = np.sign(abs(weights_4[i]) - abs(weights_4[j]))
+    mixed_idx = [4 * i + j for i in range(4) for j in range(4) if abs(weights_4[i]) != abs(weights_4[j])]
+    p_mix = np.eye(16)[:, mixed_idx]
+    sigma_8 = p_mix.T @ sigma_mag_16 @ p_mix
+    swap_8 = p_mix.T @ s_swap_16 @ p_mix
+    sigma_8_involution_err = float(np.linalg.norm(sigma_8 @ sigma_8 - np.eye(8)))
+    sigma_8_swap_anticomm_err = float(np.linalg.norm(sigma_8 @ swap_8 + swap_8 @ sigma_8))
+
+    return {
+        "duty_1_moment_curvature_identity_err": moment_curvature_identity_err,
+        "duty_1_negative_control_wrong_coeff_err": wrong_coeff_err,
+        "duty_1_negative_control_flipped_curv_err": flipped_curv_sign_err,
+        "duty_2_so5_metric_err": so5_metric_err,
+        "duty_2_so10_dim": len(eigs_45),
+        "duty_2_global_min_two_ell_sq": min_eig_45_two_ell_sq,
+        "duty_2_module_coercivity": module_coercivity,
+        "duty_2_negative_control_with_trivial_min_eig": negative_control_with_trivial_min_eig,
+        "duty_3_edag_x_norm": edag_x_norm,
+        "duty_3_x_edag_norm": x_edag_norm,
+        "duty_3_combined_e11_e44_err": combined_e11_e44_err,
+        "duty_3_fixed_conn_asymmetry": fixed_conn_asymmetry,
+        "duty_3_combined_moment_asymmetry": combined_moment_asymmetry,
+        "duty_4_middle_ab_comm_err": middle_comm_err,
+        "duty_4_middle_a_eigs": middle_a_eigs,
+        "duty_4_middle_b_eigs": middle_b_eigs,
+        "duty_4_a4_simple_pole_m1_integral": a4_simple_pole_m1_integral,
+        "duty_4_a4_double_pole_m2_integral": a4_double_pole_m2_integral,
+        "duty_5_pv_h_eigenvalue_err": pv_h_eigenvalue_err,
+        "duty_5_kappa_h_s": kappa_h_s,
+        "duty_5_s_cartan_octupole_decomp_err": s_decomp_err,
+        "duty_6_barrier_beta_quarter_coeff": barrier_beta_quarter,
+        "duty_6_negative_control_beta_half_coeff": barrier_excessive_beta_half,
+        "duty_6_negative_control_wrong_laplacian_sign": barrier_wrong_laplacian_sign_beta_one,
+        "duty_7_four_cycle_p4_comm_max_err": max_four_cycle_p4_comm_err,
+        "duty_7_wl_wr_zero_order_plane_max_diff": max_wl_wr_zero_order_plane_diff,
+        "duty_7_spin5_20d_self_dual_max_err": max_spin5_plus_minus_self_dual_err,
+        "duty_7_coset_25d_anti_self_dual_max_err": max_coset_22_anti_self_dual_err,
+        "duty_7_coset_25d_self_dual_min_violation": min_coset_22_self_dual_violation,
+        "duty_7_sigma8_involution_err": sigma_8_involution_err,
+        "duty_7_sigma8_swap_anticomm_err": sigma_8_swap_anticomm_err,
+    }
+
+
+def run_all_verifications() -> dict[str, Any]:
+    """Run all 5 stress-test verification suites and return the complete receipt."""
+    part1 = verify_spike_1a_pure_h4_gauge_and_spin_gate()
+    part2 = verify_spike_1b_up_sector_koszul_and_parabolic_count()
+    part3 = verify_spike_1c_weak_current_and_paired_pole()
+    part4 = verify_spike_2_modular_g24_and_characteristic_cover()
+    part5 = verify_spike_3_native_cyclic_and_moment_response()
+
+    return {
+        "schema": "golden-spikes-stress-test-receipt-v3",
+        "date": "2026-11-09",
+        "part_1_pure_h4_and_spin_gate": part1,
+        "part_2_up_sector_koszul_and_parabolic_count": part2,
+        "part_3_weak_current_and_paired_pole": part3,
+        "part_4_modular_g24_and_characteristic_cover": part4,
+        "part_5_native_cyclic_and_moment_response": part5,
+    }
+
+
+if __name__ == "__main__":
+    receipt = run_all_verifications()
+    out_path = Path(__file__).resolve().parent / "golden_spikes_stress_test_receipt.json"
+    out_path.write_text(json.dumps(receipt, indent=2) + "\n", encoding="utf-8")
+    print(f"Wrote receipt to {out_path}")
+    print(json.dumps(receipt, indent=2))

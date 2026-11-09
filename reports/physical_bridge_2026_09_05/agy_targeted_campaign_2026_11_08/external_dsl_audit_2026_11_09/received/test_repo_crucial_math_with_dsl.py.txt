@@ -1,0 +1,93 @@
+#!/usr/bin/env python3
+"""
+test_repo_crucial_math_with_dsl.py
+==================================
+Unit test suite for `verify_repo_crucial_math_with_dsl.py`, verifying:
+  1. All 8 Hostile Red-Team Compiler Bypass Attacks (`RT-1` .. `RT-8`) are defeated.
+  2. Pillar 1 (`AGY-01a-r1` & `AGY-01b` across all 248 E_8 directions) passes and
+     catches the `AGY-01b` lines 86/88 `(-omega_6) f_1 = +f_1 omega_6` anticommutation sign slip.
+  3. Pillar 2 (`AGY-01c` across all 248 E_8 directions) passes all 4 coherent classes,
+     catches the `b299c2ab5` `k_bad = f_3 f_4 f_5 f_6` counterexample, and certifies the
+     `1c6c03333` repaired witness `k_0 = f_3 f_5`.
+  4. Pillar 3 (`AGY-01d` register-to-grading duties 1–5) passes on all 48 elements of 2O
+     and 248 E_8 directions.
+  5. Pillar 4 (`origin-axiom` `B1855`, `B1856`, `B1857`) passes all Weil-5 checks,
+     catches the transposed eigenvector `(1, phi)` slip, and verifies the 80-digit
+     precision requirement for gapped defects at position 69.
+"""
+
+from __future__ import annotations
+
+import unittest
+
+from verify_repo_crucial_math_with_dsl import (
+    run_all_stress_and_repo_verifications,
+    run_redteam_compiler_stress_test,
+    verify_pillar1_agy01a_01b_faithful_e8_compensator_and_centralizer,
+    verify_pillar2_agy01c_coherent_phase_classes_and_witness_repair,
+    verify_pillar3_agy01d_register_to_grading_and_x4_bridge,
+    verify_pillar4_b1855_b1856_b1857_weil5_and_charge_law,
+)
+
+
+class TestRepoCrucialMathWithDSL(unittest.TestCase):
+    """End-to-end verification tests for red-team hardening and repo crucial math."""
+
+    def test_part1_all_8_redteam_bypasses_defeated(self) -> None:
+        rt = run_redteam_compiler_stress_test()
+        self.assertTrue(rt["all_8_redteam_bypasses_defeated"])
+        self.assertEqual(len(rt["attacks"]), 8)
+        for name, info in rt["attacks"].items():
+            self.assertTrue(info["defeated"], msg=f"Red-team attack {name} was not defeated")
+
+    def test_pillar1_agy01a_01b_248_dim_e8_and_wf1_sign_catch(self) -> None:
+        p1 = verify_pillar1_agy01a_01b_faithful_e8_compensator_and_centralizer()
+        self.assertLess(p1["u_real_unitary_residual"], 1e-14)
+        self.assertLess(p1["u_real_qsplit_residual"], 1e-14)
+        self.assertLess(p1["exp_ipi_Hplus_Zeta_residual"], 1e-13)
+        self.assertLess(p1["exp_ipi_Hminus_Zeta_residual"], 1e-13)
+        self.assertLess(p1["Ah1_sq_eq_Kpi_248_residual"], 1e-13)
+        self.assertLess(p1["Ah3_sq_eq_Zeta_Kpi_248_residual"], 1e-13)
+        self.assertAlmostEqual(p1["Ah3_128_obstruction_norm"], 22.627416997969522, places=10)
+        self.assertEqual(p1["unbroken_so5_dim"], 10)
+        self.assertEqual(p1["caught_agy01b_line86_Wf1_sign_slip"], 1)
+        self.assertLess(p1["Wf1_eq_Uf1_pos_omega6_residual"], 1e-14)
+
+    def test_pillar2_agy01c_4_classes_and_k0_witness_repair(self) -> None:
+        p2 = verify_pillar2_agy01c_coherent_phase_classes_and_witness_repair()
+        self.assertLess(p2["O0_plus_coherence_248_residual"], 1e-13)
+        self.assertLess(p2["O0_minus_coherence_248_residual"], 1e-13)
+        self.assertLess(p2["O1_plus_coherence_248_residual"], 1e-13)
+        self.assertLess(p2["O1_minus_coherence_248_residual"], 1e-13)
+        self.assertEqual(p2["unbroken_dims"], [9, 9, 10, 10])
+        self.assertAlmostEqual(p2["tr_V5p_V6_O1_plus"], 20.0, places=12)
+        self.assertAlmostEqual(p2["tr_V5p_V6_O1_minus"], -20.0, places=12)
+        self.assertEqual(p2["caught_b299c2ab5_k_bad_bug"], 1)
+        self.assertLess(p2["k0_inverts_h4_residual"], 1e-14)
+        self.assertLess(p2["g0_Ah4_to_AZetah4_248_residual"], 1e-13)
+        self.assertLess(p2["g1_As_to_AsC_248_residual"], 1e-13)
+
+    def test_pillar3_agy01d_register_to_grading_and_x4_bridge(self) -> None:
+        p3 = verify_pillar3_agy01d_register_to_grading_and_x4_bridge()
+        self.assertEqual(p3["group_2O_order"], 48)
+        self.assertEqual(p3["eta_orbit_P_residual"], 0.0)
+        self.assertEqual(p3["stabilizer_orders_16_and_8_residual"], 0.0)
+        self.assertLess(p3["bare_detects_Cinv_248_residual"], 1e-13)
+        self.assertLess(p3["coherent_XY_eq_D_248_residual"], 1e-13)
+        self.assertLess(p3["coherent_Kh_kills_N_248_residual"], 1e-12)
+        self.assertEqual(p3["x4_bridge_exact_sequence_residual"], 0.0)
+
+    def test_pillar4_b1855_b1856_b1857_weil5_and_charge_law(self) -> None:
+        p4 = verify_pillar4_b1855_b1856_b1857_weil5_and_charge_law()
+        self.assertEqual(p4["weil5_group_size"], 120)
+        self.assertLess(p4["weil5_projective_clash_error"], 1e-14)
+        self.assertEqual(p4["weil5_hq1_only_pmI_error"], 0.0)
+        self.assertLess(p4["weil5_hq3_trace_phi_error"], 1e-14)
+        self.assertEqual(p4["caught_transposed_eigenvector_1_phi_slip"], 1)
+        self.assertLess(p4["lemma_a_phi_1_residual"], 1e-10)
+        self.assertLess(p4["counterexample_4_5_excess"], p4["single_run_21_excess"])
+        self.assertLess(p4["b1857_sol_cosh_law_error"], 1e-12)
+
+
+if __name__ == "__main__":
+    unittest.main()

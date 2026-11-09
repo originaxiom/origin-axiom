@@ -1,0 +1,79 @@
+# `guardrail_dsl` v1.1: Red-Team Stress Test & Crucial Repo Math Audit
+
+> [!IMPORTANT]
+> **Live Audit Headline (`17/17` Unit Tests Passing in `1.128s`):**
+> When we ran `guardrail_dsl` against the **unexecuted prospective verification controls** of [`CENTRALIZER_COMPONENTS.md`](file:///Users/dri/.gemini/antigravity/scratch/origin-axiom-agy-2026-11-02/reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CENTRALIZER_COMPONENTS.md#L86-L88) (`AGY-01b`, commit `6e9683ab9`), [`COHERENT_PHASE_CLASSES.md`](file:///Users/dri/.gemini/antigravity/scratch/origin-axiom-agy-2026-11-02/reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COHERENT_PHASE_CLASSES.md#L71-L86) (`AGY-01c`), [`REGISTER_TO_GRADING.md`](file:///Users/dri/.gemini/antigravity/scratch/origin-axiom-agy-2026-11-02/reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REGISTER_TO_GRADING.md#L25-L107) (`AGY-01d`), and [`charge_law_check.py`](file:///Users/dri/.gemini/antigravity/scratch/origin-axiom/frontier/B1855_the_charge_law_settled/verification/charge_law_check.py) / [`weil5_check.py`](file:///Users/dri/.gemini/antigravity/scratch/origin-axiom/frontier/B1856_charge_or_symmetry_at_five_verified/verification/weil5_check.py) (`B1855`–`B1857`), the `@referee @theorem` gate immediately caught a **genuine Clifford anticommutation sign slip in `AGY-01b` lines 86 & 88** while certifying all $248$-dimensional $E_8$ and $\operatorname{SL}_2(\mathbb{F}_5)$ theorems to $< 10^{-12}$.
+
+---
+
+## 1. Verified Files & SHA-256 Receipts
+
+| File | Role | SHA-256 |
+| :--- | :--- | :--- |
+| [guardrail_dsl.py](file:///Users/dri/.gemini/antigravity/brain/c9365d45-e9c4-40ea-bfee-8204dcd2132a/scratch/guardrail_dsl/guardrail_dsl.py) | Red-Team Hardened DSL & Static/Dynamic Compiler (`v1.1`) | `4c9d8c291b3c754c42911eaadde7a2780da9b45c754c03e8ed2fca8a77d33d5f` |
+| [verify_repo_crucial_math_with_dsl.py](file:///Users/dri/.gemini/antigravity/brain/c9365d45-e9c4-40ea-bfee-8204dcd2132a/scratch/guardrail_dsl/verify_repo_crucial_math_with_dsl.py) | 8 Red-Team Bypasses + 248D $E_8$ & Weil-5 Repo Math Verifier | `ee43352f61a53a89df9ca478bfe75c5ef35e5f23c404c24c741d5b0fe9929e40` |
+| [test_guardrail_dsl.py](file:///Users/dri/.gemini/antigravity/brain/c9365d45-e9c4-40ea-bfee-8204dcd2132a/scratch/guardrail_dsl/test_guardrail_dsl.py) | Baseline 12-Test Guardrail Unit Suite | `3fec85886de79c9bad67434c640192c6b70ea0f09f703087b91648cda6007831` |
+| [test_repo_crucial_math_with_dsl.py](file:///Users/dri/.gemini/antigravity/brain/c9365d45-e9c4-40ea-bfee-8204dcd2132a/scratch/guardrail_dsl/test_repo_crucial_math_with_dsl.py) | Red-Team & Repo Crucial-Math Unit Suite (`17/17 OK` total) | `605cee3bb7a251fb53f26cee71df804f4851cd5e69217b44c810a319f1483655` |
+| [guardrail_dsl_receipt.json](file:///Users/dri/.gemini/antigravity/brain/c9365d45-e9c4-40ea-bfee-8204dcd2132a/scratch/guardrail_dsl/guardrail_dsl_receipt.json) | Baseline Compiler Receipt | `b0bd14fbed313a00e83281cbbf16376063c26b73d7fa662347af08dcbc22b201` |
+| [repo_crucial_math_dsl_receipt.json](file:///Users/dri/.gemini/antigravity/brain/c9365d45-e9c4-40ea-bfee-8204dcd2132a/scratch/guardrail_dsl/repo_crucial_math_dsl_receipt.json) | Red-Team & Repo Crucial-Math Receipt | `0643e2d70443f9e7bc6cbe6e5c36b129e9f0d4978e2d1c1e1e6fedf3c3d38347` |
+
+---
+
+## 2. Part I: Hostile Red-Team Compiler Stress Test (`RT-1` – `RT-8`)
+
+Before testing the repository's mathematics, we attacked `guardrail_dsl` with 8 sophisticated compiler-bypass vectors and hardened the AST/runtime gates so all 8 are defeated:
+
+| Red-Team Vector | Bypass Attempt | Hardened Defense in `guardrail_dsl` v1.1 | Result |
+| :--- | :--- | :--- | :--- |
+| **`RT-1` (Guardrail 2)** | Mutating dict via subscript `out['bar_theta_QCD'] = 0.0; return out` or calling `dict(extends_to_cover=True)` | Recursive AST container & `ast.Subscript` / `dict(...)` keyword scanner | **DEFEATED** (`Guardrail2LiteralClaimError`) |
+| **`RT-2` (Guardrail 1 & 2)** | Constant-folding `0.0 * np.linalg.norm(m)` or `(tau - (1 + math.sqrt(5))/2)**2` to evade literal checks | `_is_pure_constant_expr` AST analyzer detects zero-multipliers and variable-free target shifts | **DEFEATED** (`Guardrail2LiteralClaimError` / `Guardrail1PostInspectionError`) |
+| **`RT-3` (Guardrail 6)** | Aliasing `fn = secret_producer_fn; fn()` or calling `globals()['secret_producer_fn']()` inside `@referee` | AST bans any `ast.Name` in `PRODUCER_REGISTRY` and bans `globals`, `getattr`, `eval`, `exec` | **DEFEATED** (`Guardrail6ProducerEchoError`) |
+| **`RT-4` (Guardrail 3)** | Using `np.matmul(u.conj().T, vh.conj().T)` or polar decomposition $\operatorname{Tr}(Y(Y^\dagger Y)^{-1/2}) = \operatorname{Tr}(U V^\dagger)$ without calling `svd` | AST catches `matmul`/`dot`/`einsum` SVD pairs; 50-sample Haar gate catches $\operatorname{Tr}(U V^\dagger)$ dynamically | **DEFEATED** (`Guardrail3IllegalLeftRightOverlapError` / `Guardrail3BasisDependenceError`) |
+| **`RT-5` (Guardrail 3)** | Passing $Y_u, Y_d$ with merged `right_frame="shared_q_R"` to hide right-handed basis dependence | `@observable(distinct_right_frames=True)` + Dirac `left_frame != right_frame` enforcement | **DEFEATED** (`Guardrail3BasisDependenceError`) |
+| **`RT-6` (Guardrail 4)** | Directly mutating `rge._benchmark_verified = True` and `rge._seal_token` to skip `.verify_literature_benchmark()` | Ephemeral 256-bit HMAC-SHA256 seal (`_RGE_GATE_SECRET`) bound to `(id(self), id(rhs_fn), receipt)` | **DEFEATED** (`Guardrail4BenchmarkGateError`) |
+| **`RT-7` (Guardrail 1)** | Laundering `picked = ledger.select_from(...)` via `return TrackedValue(float(picked.value))` inside `@zero_bit_prediction` | Call-stack scan log `_ACTIVE_ZERO_BIT_SCAN_LOG` records all ambient `select_from` bits during execution | **DEFEATED** (`Guardrail1UnpricedScanError`) |
+| **`RT-8` (Module 5)** | Passing `NaN` differentials (`NaN >= tol` is `False` in Python!) or trivial zero intertwiners $A_k = 0$ in `EquivariantCochainComplex` | Explicit `np.all(np.isfinite(...))` checks + full-rank $\operatorname{rank}(A_k) = \dim C^k$ invertibility gate | **DEFEATED** (`ComplexChainError` / `IntertwinerError`) |
+
+---
+
+## 3. Part II: Testing `guardrail_dsl` Against Our Repo's Crucial Math
+
+### Live Discovery 1: Clifford Anticommutation Sign Slip Caught in `AGY-01b` (`CENTRALIZER_COMPONENTS.md` Lines 86 & 88)
+
+> [!WARNING]
+> **New Bug Caught by `guardrail_dsl` on First Execution of `AGY-01b`'s Unrun Prospective Control:**
+> In [`CENTRALIZER_COMPONENTS.md`](file:///Users/dri/.gemini/antigravity/scratch/origin-axiom-agy-2026-11-02/reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CENTRALIZER_COMPONENTS.md#L86-L88) (`AGY-01b`, lines 86 & 88), the unexecuted hand proof states:
+> $$W f_1 = \omega_{16} h_1 (-\omega_6) \mapsto h_1 (-\omega_6) \in \mathcal{C}_1 \qquad (\text{with } h_1 = U f_1, \;\; \omega_6 = f_1 f_2 f_3 f_4 f_5 f_6).$$
+> When we constructed the exact $248$-dimensional representation $120_{\mathfrak{so}(16)} \oplus 128_{S_+}$ in [`verify_pillar1_agy01a_01b_faithful_e8_compensator_and_centralizer`](file:///Users/dri/.gemini/antigravity/brain/c9365d45-e9c4-40ea-bfee-8204dcd2132a/scratch/guardrail_dsl/verify_repo_crucial_math_with_dsl.py#L440-L660), `@theorem` immediately rejected $\pi_{E_8}(W f_1) = \pi_{E_8}(U f_1 (-\omega_6))$ with Frobenius residual **$22.627 = 16\sqrt{2}$** (an exact $-I_{128} = \mathrm{Zeta}$ sign error on the $128$ spinor sector!).
+>
+> **Exact Mathematical Cause:**
+> While $W = \omega_{10} U = \omega_{16} \omega_6^{-1} U = \omega_{16} U (-\omega_6)$ holds (since $\omega_6$ has even degree $6$ and is disjoint from $U \in \operatorname{Cl}(V_{5,-})$), multiplying on the right by $f_1 \in V_6$ gives:
+> $$W f_1 = \omega_{16} U (-\omega_6) f_1.$$
+> Because $f_1$ commutes with $f_1$ ($1$ factor) and anticommutes with $f_2, f_3, f_4, f_5, f_6$ ($5$ odd factors!), **$\omega_6$ anticommutes with $f_1$**:
+> $$\omega_6 f_1 = (-1)^5 f_1 \omega_6 = -f_1 \omega_6 \implies (-\omega_6) f_1 = +f_1 \omega_6.$$
+> Therefore, the true identity in $\operatorname{Spin}(16)$ and $\operatorname{Ss}(16) \subset E_8$ is:
+> $$W f_1 = \omega_{16} (U f_1) (+\omega_6) = \omega_{16} h_1 (+\omega_6) \mapsto h_1 (+\omega_6) = -h_1 C_6 = \mathrm{Zeta}\, h_1 (-\omega_6) \in \mathcal{C}_1 \qquad (\text{verified to } 0.000\text{e+}00\text{ on } 248!).$$
+> Because $+\omega_6 \in \operatorname{Spin}(6) = \mathcal{C}_0$, the component theorem $\mathcal{C} = \mathcal{C}_0 \sqcup \mathcal{C}_1$ in `AGY-01b` remains valid, and we now have the exact repair for lines 86 & 88 of `CENTRALIZER_COMPONENTS.md`.
+
+---
+
+### Summary of All Four Crucial Repo Math Pillars Certified by `guardrail_dsl`
+
+| Repo Pillar & Source Document | Verified Operator Identities & Dimensions (on Full $248 = 120 \oplus 128$ & $\operatorname{SL}_2(\mathbb{F}_5)$) | Caught Counterexamples / Bugs | Max Residual | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **Pillar 1 (`AGY-01a-r1` & `AGY-01b`):** [`COMPENSATOR_RANGE_AUDIT.md`](file:///Users/dri/.gemini/antigravity/scratch/origin-axiom-agy-2026-11-02/reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COMPENSATOR_RANGE_AUDIT.md) & [`CENTRALIZER_COMPONENTS.md`](file:///Users/dri/.gemini/antigravity/scratch/origin-axiom-agy-2026-11-02/reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CENTRALIZER_COMPONENTS.md) | $\tau_{\mathbb{R}}$-real frame $U_{\text{real}}$, $J_{10}$, $O_5 \in \operatorname{SO}(5)$ ($\det O_5 = +1$); $\exp(i\pi H_\pm) = \mathrm{Zeta}$ on $248$; $A U A^{-1} = W = -C U$ ($\delta=-1$); $(A h_1)^2 = K_\pi$ on $248$; $[A', B'] = \mathrm{Zeta}\, P$; unbroken $\dim \mathfrak{so}(5) = 10$; $h_1 C h_1^{-1} = -C$ on $128$; $\pi_{E_8}(W f_1) = \pi_{E_8}(h_1 (+\omega_6))$ | 1. Obstructed $h_3 = U f_1 f_2 f_3$ fails on $128$ ($\|(A h_3)^2 - K_\pi\|_F = 22.63$)<br>2. `AGY-01b` line 86/88 $(-\omega_6)f_1 = +f_1\omega_6$ sign slip caught | $3.362 \times 10^{-14}$ | **PASS** |
+| **Pillar 2 (`AGY-01c`):** [`COHERENT_PHASE_CLASSES.md`](file:///Users/dri/.gemini/antigravity/scratch/origin-axiom-agy-2026-11-02/reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COHERENT_PHASE_CLASSES.md) | All 4 $G_0$-classes $\mathcal{O}_{0,\pm}, \mathcal{O}_{1,\pm}$ satisfy $(A h)^2 = K_\pi$ on $248$; unbroken dims $[9, 9, 10, 10]$ ($\mathfrak{u}(3)$ vs $\mathfrak{so}(5)$); $\operatorname{Tr}_{V_{5,+}\otimes V_6}(\operatorname{Ad}_h) = \pm 20$; repaired $g_0 = (f_3 f_5)s: (A_{h_4}, B_{h_4}) \mapsto (A_{\mathrm{Zeta}\,h_4}, B_{\mathrm{Zeta}\,h_4})$, $\operatorname{Ad}_{g_0}(Q_{\text{em}}) = -Q_{\text{em}}$; outer $g_1 = (f_1 f_2)s: (A_s, B_s) \mapsto (A_{s C}, B_{s C})$ on $248$ | Caught `b299c2ab5` witness bug $k_{\text{bad}} = f_3 f_4 f_5 f_6$ (commutes with $J_2, J_3$, fails $k \tau(h_4) k^{-1} = h_4^{-1}$) | $4.427 \times 10^{-15}$ | **PASS** |
+| **Pillar 3 (`AGY-01d`):** [`REGISTER_TO_GRADING.md`](file:///Users/dri/.gemini/antigravity/scratch/origin-axiom-agy-2026-11-02/reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REGISTER_TO_GRADING.md) | $|2O| = 48$ generated by $g_L, g_R$; transitive 3-orbit $P = \{(1,1),(1,0),(0,1)\}$ of $\eta_{K_h}$ with stabilizers of order $16$ ($2D_4$) and $8$ ($Q_8$); bare lift $A^2(AB)^{-2} = C^{-1}$ vs coherent $X^2 = Y^2 = (XY)^2 = K_\pi = D^2$, $XY = D$, $K_h(N) = I_{248}$ on $r_1, r_2, r_3, c^2$; exact sequence $1 \to X_2 \to X_4 \xrightarrow{\operatorname{res}_N} \widehat{A_{\text{disc}}} \to 1$ with bijection $J(\psi) = \lambda^2$ | Confirms coherent $K_h$ cancels $C^{-1}$ on all word products ($K_h(N)=I_{248}$), leaving ordered $T=\operatorname{Ad}_C$ open without $\mathcal{J}_C$ | $1.315 \times 10^{-13}$ | **PASS** |
+| **Pillar 4 (`B1855`–`B1857`):** [`charge_law_check.py`](file:///Users/dri/.gemini/antigravity/scratch/origin-axiom/frontier/B1855_the_charge_law_settled/verification/charge_law_check.py), [`weil5_check.py`](file:///Users/dri/.gemini/antigravity/scratch/origin-axiom/frontier/B1856_charge_or_symmetry_at_five_verified/verification/weil5_check.py), [`state_readout_check.py`](file:///Users/dri/.gemini/antigravity/scratch/origin-axiom/frontier/B1857_the_read_out_by_a_state_checked/verification/state_readout_check.py) | Level-5 Weil rep on $\mathbb{C}^5$ ($120$ elements, $0$ clashes; only $\pm I$ scalar on $3\oplus 2$ parity sectors; traces $1-\phi$ and $\phi$); `B1855` gapped counterexample $S=\{4,5\}$ ($3.9224 < 4.5940$); `B1857` Sol-time $\cosh 2(s - s_c)$ law; `LedgerContext` selection-bit pricing of defect scans | 1. Caught transposed eigenvector slip $v_{\text{bad}} = (1, \phi)$ in Lemma A<br>2. Caught 28-digit `float64` catastrophic cancellation at position $69$ ($S=\{4,5\}$), resolved via 80-digit `mpmath` | $1.243 \times 10^{-14}$ | **PASS** |
+
+---
+
+## 4. Reproduce the Complete Stress Test & Repo Audit Locally
+
+```bash
+cd /Users/dri/.gemini/antigravity/brain/c9365d45-e9c4-40ea-bfee-8204dcd2132a/scratch/guardrail_dsl && \
+python3 guardrail_dsl.py && \
+python3 verify_repo_crucial_math_with_dsl.py && \
+python3 -m unittest -v test_guardrail_dsl.py test_repo_crucial_math_with_dsl.py && \
+shasum -a 256 *.py *.json
+```

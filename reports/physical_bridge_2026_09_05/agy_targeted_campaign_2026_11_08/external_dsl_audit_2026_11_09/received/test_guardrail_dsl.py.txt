@@ -1,0 +1,371 @@
+#!/usr/bin/env python3
+"""
+test_guardrail_dsl.py
+=====================
+Comprehensive unit test suite for `guardrail_dsl.py`.
+
+Tests both:
+  1. Adversarial / Buggy Programs across all 6 Guardrails + Cochain Complexes,
+     verifying that the compiler and runtime gates catch and reject every single
+     violation with its specific exception type.
+  2. Honest Passing Programs (including the Up-Sector Koszul complex and
+     Hermitian-adjoint intertwiner from the Golden Spikes), verifying that valid
+     derivations compile, pass all 50 Haar basis-scrambling samples, pass the
+     literature benchmark gate, and produce an exact SHA-256 receipt.
+"""
+
+from __future__ import annotations
+
+import math
+import unittest
+from typing import Any, Dict
+
+import numpy as np
+
+from guardrail_dsl import (
+    ComplexChainError,
+    EquivariantCochainComplex,
+    FramedMatrix,
+    GatedRGEIntegrator,
+    Guardrail1PostInspectionError,
+    Guardrail1UnpricedScanError,
+    Guardrail2LiteralClaimError,
+    Guardrail3BasisDependenceError,
+    Guardrail3IllegalLeftRightOverlapError,
+    Guardrail4BenchmarkGateError,
+    Guardrail5UnpricedScaleError,
+    Guardrail6ProducerEchoError,
+    IntertwinerError,
+    IntertwinerSpec,
+    LedgerContext,
+    TrackedValue,
+    observable,
+    producer,
+    referee,
+    run_compiler_demonstration,
+    stabilization_potential,
+    theorem,
+    zero_bit_prediction,
+)
+
+
+class TestGuardrailDSL(unittest.TestCase):
+    """End-to-end tests for all 5 modules and 6 guardrails of `guardrail_dsl`."""
+
+    # ========================================================================
+    # Guardrail 1 Tests: Anti-Texas-Sharpshooter & Stabilization Potentials
+    # ========================================================================
+
+    def test_guardrail1_blocks_target_planted_in_potential_ast(self) -> None:
+        """AST scanner must reject any V(x) that references tau_target/tau_golden or shifts by float literal."""
+        with self.assertRaises(Guardrail1PostInspectionError):
+            @stabilization_potential()
+            def cheated_potential_var(tau: float) -> float:
+                tau_target = 1.61803398875
+                return (tau - tau_target) ** 2
+
+        with self.assertRaises(Guardrail1PostInspectionError):
+            @stabilization_potential()
+            def cheated_potential_literal(tau: float) -> float:
+                return (tau - 1.61803398875) ** 2
+
+    def test_guardrail1_blocks_non_stationary_or_unstable_vacuum(self) -> None:
+        """Dynamic stabilization check must reject non-stationary points and maxima."""
+        @stabilization_potential()
+        def honest_quartic(x: float) -> float:
+            return (x * x - x - 1.0) ** 2
+
+        # Non-stationary point x = 2.0 (grad != 0)
+        with self.assertRaises(Guardrail1PostInspectionError):
+            honest_quartic.verify_minimum(2.0)
+
+        # Local maximum at x = 0.5 (grad == 0, but Hessian < 0)
+        with self.assertRaises(Guardrail1PostInspectionError):
+            honest_quartic.verify_minimum(0.5)
+
+        # True minimum at Golden Ratio phi = (1 + sqrt(5))/2
+        phi = 0.5 * (1.0 + math.sqrt(5.0))
+        res = honest_quartic.verify_minimum(phi)
+        self.assertLess(res["grad_norm"], 1e-10)
+        self.assertGreater(res["min_hessian_eigval"], 4.0)
+
+    def test_guardrail1_blocks_unpriced_discrete_scan_in_zero_bit_claim(self) -> None:
+        """Scanning N>1 discrete candidates adds log2(N) bits and blocks @zero_bit_prediction."""
+        ledger = LedgerContext("scan_test")
+
+        @zero_bit_prediction
+        def cheated_zero_bit_scan() -> TrackedValue:
+            grid = [0.1 * k for k in range(32)]
+            return ledger.select_from(grid, score_fn=lambda v: (v - 1.4) ** 2, label="lattice_scan")
+
+        with self.assertRaises(Guardrail1UnpricedScanError):
+            cheated_zero_bit_scan()
+
+        # Verify that selection_bits == 5.0 (log2(32)) when inspected honestly
+        picked = ledger.select_from([0.1 * k for k in range(32)], score_fn=lambda v: (v - 1.4) ** 2)
+        self.assertAlmostEqual(picked.selection_bits, 5.0, places=12)
+
+    # ========================================================================
+    # Guardrail 2 Tests: Ban Proof by Literal Flag / Zero Assignment
+    # ========================================================================
+
+    def test_guardrail2_blocks_literal_booleans_and_zeros_in_ast(self) -> None:
+        """AST scanner must reject hardcoded True/False/0/0.0 in @theorem and @observable."""
+        with self.assertRaises(Guardrail2LiteralClaimError):
+            @theorem()
+            def fake_theorem_bool() -> bool:
+                return True
+
+        with self.assertRaises(Guardrail2LiteralClaimError):
+            @theorem()
+            def fake_theorem_dict_zero() -> Dict[str, Any]:
+                return {"bar_theta_QCD": 0.0}
+
+        with self.assertRaises(Guardrail2LiteralClaimError):
+            @theorem()
+            def fake_theorem_local_alias() -> Dict[str, Any]:
+                extends_to_cover = True
+                return {"extends_to_cover": extends_to_cover}
+
+    def test_guardrail2_passes_computed_operator_residual(self) -> None:
+        """@theorem passes when residuals are genuinely computed from matrices and < 1e-12."""
+        @theorem(tol=1e-12)
+        def verify_pauli_anticommutator() -> Dict[str, float]:
+            sigma_x = np.array([[0.0, 1.0], [1.0, 0.0]], dtype=complex)
+            sigma_z = np.array([[1.0, 0.0], [0.0, -1.0]], dtype=complex)
+            anticomm = sigma_x @ sigma_z + sigma_z @ sigma_x
+            return {"anticommutator_residual": float(np.linalg.norm(anticomm, ord="fro"))}
+
+        res = verify_pauli_anticommutator()
+        self.assertEqual(res["anticommutator_residual"], 0.0)
+
+    # ========================================================================
+    # Guardrail 3 Tests: Mandatory Haar Unitary Basis-Scrambling Gate
+    # ========================================================================
+
+    def test_guardrail3_blocks_single_dirac_left_right_svd_overlap(self) -> None:
+        """Both AST scanner and FramedMatrix method must block single-Dirac V^T U overlaps."""
+        with self.assertRaises(Guardrail3IllegalLeftRightOverlapError):
+            @observable()
+            def cheated_svd_overlap(y_f: FramedMatrix) -> float:
+                u, _, vh = np.linalg.svd(y_f.matrix)
+                overlap = u.conj().T @ vh.conj().T
+                return float(np.abs(overlap[0, 1]))
+
+        rng = np.random.default_rng(7)
+        fm = FramedMatrix(
+            rng.standard_normal((3, 3)) + 1j * rng.standard_normal((3, 3)),
+            left_frame="L",
+            right_frame="R",
+            is_majorana_symmetric=False,
+        )
+        with self.assertRaises(Guardrail3IllegalLeftRightOverlapError):
+            fm.extract_left_right_overlap()
+
+    def test_guardrail3_blocks_basis_dependent_observable_and_passes_invariant(self) -> None:
+        """Haar scrambling gate rejects basis-dependent entries and passes true invariants."""
+        @observable(haar_samples=50, tol=1e-12)
+        def bad_entry_observable(y_u: FramedMatrix) -> float:
+            return float(np.real(np.trace(y_u.matrix)))
+
+        rng = np.random.default_rng(99)
+        yu = FramedMatrix(
+            rng.standard_normal((3, 3)) + 1j * rng.standard_normal((3, 3)),
+            left_frame="Q_L",
+            right_frame="u_R",
+        )
+        with self.assertRaises(Guardrail3BasisDependenceError):
+            bad_entry_observable(yu)
+
+        @observable(haar_samples=50, tol=1e-12)
+        def good_singular_values_observable(y_u: FramedMatrix, y_d: FramedMatrix) -> np.ndarray:
+            # Eigenvalues of Y_u Y_u^dagger + Y_d Y_d^dagger (invariant under U_{Q_L}, U_{u_R}, U_{d_R})
+            h_tot = y_u.matrix @ y_u.matrix.conj().T + y_d.matrix @ y_d.matrix.conj().T
+            return np.linalg.eigvalsh(h_tot)
+
+        yd = FramedMatrix(
+            rng.standard_normal((3, 3)) + 1j * rng.standard_normal((3, 3)),
+            left_frame="Q_L",
+            right_frame="d_R",
+        )
+        eigs = good_singular_values_observable(yu, yd)
+        self.assertEqual(eigs.shape, (3,))
+
+    # ========================================================================
+    # Guardrail 4 Tests: Literature Benchmark Gate for RGE Integration
+    # ========================================================================
+
+    def test_guardrail4_locks_model_integration_until_benchmark_passes(self) -> None:
+        """Calling integrate_model() before verify_literature_benchmark() or with 4pi bug fails."""
+        b = 7.0
+
+        def rhs_ln_mu(_t: float, _y: np.ndarray) -> np.ndarray:
+            return np.array([-b / (2.0 * math.pi)])
+
+        rge = GatedRGEIntegrator(rhs_ln_mu, log_variable="ln_mu")
+        # Locked before benchmark verification
+        with self.assertRaises(Guardrail4BenchmarkGateError):
+            rge.integrate_model([50.0], 91.1876, 1.0e14)
+
+        # Wrong 4*pi multiplier declaration caught immediately
+        with self.assertRaises(Guardrail4BenchmarkGateError):
+            GatedRGEIntegrator(
+                rhs_ln_mu, log_variable="t_2pi", declared_multiplier_to_dln_mu=4.0 * math.pi
+            )
+
+        # Pass benchmark to < 1e-3 relative error, then unlock integrate_model()
+        mu0, mu1 = 91.1876, 1.0e12
+        y0 = 59.0
+        y_exact = y0 - (b / (2.0 * math.pi)) * math.log(mu1 / mu0)
+        receipt = rge.verify_literature_benchmark([y0], mu0, mu1, [y_exact], rtol=1e-3)
+        self.assertLess(receipt["relative_error"], 1e-10)
+        y_gut = rge.integrate_model([y0], mu0, 2.0e16)
+        self.assertEqual(y_gut.shape, (1,))
+
+    # ========================================================================
+    # Guardrail 5 Tests: Strict Non-Dimensionalization of Input Ledgers
+    # ========================================================================
+
+    def test_guardrail5_enforces_single_anchor_and_dimensionless_closure(self) -> None:
+        """Ledger rejects a second dimensionful anchor and rejects un-normalized outputs."""
+        ledger = LedgerContext("ew_ledger")
+        v_ew = ledger.declare_anchor("v_EW", 246.22, "GeV")
+
+        # Cannot declare second dimensionful anchor
+        with self.assertRaises(Guardrail5UnpricedScaleError):
+            ledger.declare_anchor("m_tau", 1.77686, "GeV")
+
+        # Cannot finalize a dimensionful prediction (still in GeV)
+        with self.assertRaises(Guardrail5UnpricedScaleError):
+            ledger.finalize_prediction(v_ew * 0.5)
+
+        # Importing m_tau/v_EW prices it in empirical_sources and allows dimensionless closure
+        r_tau = ledger.import_dimensionless_ratio("m_tau/v_EW", 1.77686, anchor=v_ew)
+        pred_gev = v_ew * (r_tau * 2.0)
+        summary = ledger.finalize_prediction(pred_gev / v_ew)
+        self.assertEqual(summary["unit"], "1")
+        self.assertEqual(summary["empirical_input_count"], 1)
+        self.assertIn("m_tau/v_EW", summary["empirical_sources"])
+
+    # ========================================================================
+    # Guardrail 6 Tests: Zero-Trust Referee Separation
+    # ========================================================================
+
+    def test_guardrail6_blocks_static_and_dynamic_producer_calls_in_referee(self) -> None:
+        """Referee cannot call a @producer statically or accept a ProducerOutputDict dynamically."""
+        @producer
+        def sample_producer() -> Dict[str, float]:
+            return {"val": 42.0}
+
+        with self.assertRaises(Guardrail6ProducerEchoError):
+            @referee
+            def bad_referee_static() -> Dict[str, float]:
+                res = sample_producer()
+                return {"diff": res["val"] - 42.0}
+
+        @referee
+        def referee_receiving_arg(d: Dict[str, float]) -> Dict[str, float]:
+            return {"diff": abs(d["val"] - 42.0)}
+
+        prod_out = sample_producer()
+        with self.assertRaises(Guardrail6ProducerEchoError):
+            referee_receiving_arg(prod_out)
+
+    # ========================================================================
+    # Module 5 Tests: First-Class Equivariant Cochain Complex (Koszul & Sign Check)
+    # ========================================================================
+
+    def test_module5_catches_broken_differential_and_intertwiner_sign_error(self) -> None:
+        """EquivariantCochainComplex catches d^2 != 0 and catches the +i vs -i adjoint sign bug."""
+        # 1. Broken differential d1 @ d0 != 0
+        d0_bad = np.array([[1.0], [1.0]], dtype=complex)
+        d1_bad = np.array([[1.0, 1.0]], dtype=complex)
+        with self.assertRaises(ComplexChainError):
+            EquivariantCochainComplex(differentials=[d0_bad, d1_bad], grading_dims=[1, 2, 1])
+
+        # 2. Golden Spike 1B: Up-Sector Koszul Raising vs Lowering Intertwiner Sign Check
+        # On the m=1 slice of the two-oscillator states {|1,0>, |0,1>}:
+        # Raising operator F_+: |0,0> -> |1,0> (q1 creation), with A|m,0> = i^{3-m}|0,m>
+        # For m=0: A|0,0> = i^3 |0,0> = -i |0,0>
+        # For m=1: A|1,0> = i^2 |0,1> = -|0,1>, and since A^2 = -I on odd/top or A|0,1> = |1,0>:
+        # Specifically, under A: F_+ -> +i F_-, whereas for the adjoint E_+ = (F_+)^dagger:
+        # Taking Hermitian adjoint of A F_+ = +i F_- A gives F_+^dagger A^dagger = -i A^dagger F_-^dagger
+        # => A E_+ = -i E_- A!
+        a_0 = np.array([[-1j]], dtype=complex)
+        a_1 = np.array([[0.0, 1.0], [-1.0, 0.0]], dtype=complex)
+        f_plus = np.array([[1.0], [0.0]], dtype=complex)   # creates |1,0> from |0,0>
+        f_minus = np.array([[0.0], [1.0]], dtype=complex)  # creates |0,1> from |0,0>
+        # Check: a_1 @ f_plus = [0, -1]^T, while (+1j) * f_minus @ a_0 = (+1j)*(-1j)*[0,1]^T = [0,1]^T
+        # With A|0,0> = +i|0,0>, a_0 = [[+1j]]: (+1j) * f_minus @ [[1j]] = - [0,1]^T = a_1 @ f_plus!
+        a_0_pos = np.array([[1j]], dtype=complex)
+        e_plus = f_plus.conj().T
+        e_minus = f_minus.conj().T
+
+        # Raising complex with +1j passes:
+        c_raise = EquivariantCochainComplex(
+            differentials=[f_plus],
+            grading_dims=[1, 2],
+            intertwiners=[
+                IntertwinerSpec(
+                    degree=0,
+                    op_k=a_0_pos,
+                    op_k_plus_1=a_1,
+                    eta_phase=1j,
+                    target_differential=f_minus,
+                    name="raising_A_Fplus_eq_plus_i_Fminus_A",
+                )
+            ],
+        )
+        self.assertEqual(c_raise.intertwiner_residuals["raising_A_Fplus_eq_plus_i_Fminus_A"], 0.0)
+
+        # Lowering complex with naive +1j MUST fail with IntertwinerError!
+        with self.assertRaises(IntertwinerError):
+            EquivariantCochainComplex(
+                differentials=[e_plus],
+                grading_dims=[2, 1],
+                intertwiners=[
+                    IntertwinerSpec(
+                        degree=0,
+                        op_k=a_1,
+                        op_k_plus_1=a_0_pos,
+                        eta_phase=1j,  # BUG: forgot complex conjugation of +i under Hermitian adjoint!
+                        target_differential=e_minus,
+                        name="buggy_lowering_plus_i",
+                    )
+                ],
+            )
+
+        # Lowering complex with correct Hermitian-conjugated -1j passes with 0.0 residual!
+        c_lower = EquivariantCochainComplex(
+            differentials=[e_plus],
+            grading_dims=[2, 1],
+            intertwiners=[
+                IntertwinerSpec(
+                    degree=0,
+                    op_k=a_1,
+                    op_k_plus_1=a_0_pos,
+                    eta_phase=-1j,  # Correct adjoint phase!
+                    target_differential=e_minus,
+                    name="correct_lowering_A_Eplus_eq_minus_i_Eminus_A",
+                )
+            ],
+        )
+        self.assertEqual(
+            c_lower.intertwiner_residuals["correct_lowering_A_Eplus_eq_minus_i_Eminus_A"], 0.0
+        )
+
+    def test_full_compiler_demonstration_and_receipt(self) -> None:
+        """Verify run_compiler_demonstration() catches all 6 guardrail cheats and passes all honest checks."""
+        summary = run_compiler_demonstration()
+        self.assertTrue(summary["all_6_cheats_caught"])
+        self.assertEqual(len(summary["caught_adversarial_cheats"]), 7)
+        hv = summary["honest_verifications"]
+        self.assertLess(hv["guardrail_1_fibonacci_stabilization"]["grad_norm"], 1e-10)
+        self.assertLess(hv["guardrail_2_6_strong_cp_referee"]["arg_det_Yu_Yd_residual"], 1e-12)
+        self.assertLess(hv["guardrail_4_rge_benchmark_receipt"]["relative_error"], 1e-10)
+        self.assertEqual(hv["guardrail_5_non_dimensionalized_ledger"]["unit"], "1")
+        self.assertEqual(hv["module_5_koszul_cochain_complex"]["betti_numbers"], [0, 0, 0])
+
+
+if __name__ == "__main__":
+    unittest.main()

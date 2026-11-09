@@ -1,0 +1,110 @@
+{
+  "all_6_cheats_caught": true,
+  "caught_adversarial_cheats": {
+    "guardrail_1_dynamic_unpriced_scan": {
+      "caught": true,
+      "error_type": "Guardrail1UnpricedScanError",
+      "message": "[Guardrail 1 Anti-Texas-Sharpshooter Violation in `overfitted_quant_sharpe`]: Function claims 0 selection bits, but execution incurred 6.00 bits from post-inspection candidate scan(s) [strategy_grid_search#1(N=64): 6.00 bits]."
+    },
+    "guardrail_1_static_planted_target": {
+      "caught": true,
+      "error_type": "Guardrail1PostInspectionError",
+      "message": "[Guardrail 1 AST Violation in potential `fake_potential_with_planted_target` line 3]: Potential V(x) references target coordinate identifier `tau_golden`. Stabilization potentials must be defined independently of the target vacuum."
+    },
+    "guardrail_2_static_literal_claim": {
+      "caught": true,
+      "error_type": "Guardrail2LiteralClaimError",
+      "message": "[Guardrail 2 AST Violation in `reward_hacked_strong_cp_proof` line 4]: Return of hardcoded boolean literal `True` is forbidden. Compute the explicit operator residual or norm instead."
+    },
+    "guardrail_3_dynamic_haar_scrambling": {
+      "caught": true,
+      "error_type": "Guardrail3BasisDependenceError",
+      "message": "[Guardrail 3 Haar Basis-Scrambling Failure in `fake_mixing_angle_from_single_yukawa`]: Claimed observable changed by 1.215e-01 >= 1.0e-12 on Haar unitary sample #1/50 across frames ['Q_L', 'u_R']. The extracted quantity is basis-dependent and unphysical!"
+    },
+    "guardrail_4_benchmark_gate_bug": {
+      "caught": true,
+      "error_type": "Guardrail4BenchmarkGateError",
+      "message": "[Guardrail 4 Benchmark Gate Failed for `1-Loop Abelian Benchmark (arXiv:1307.3536 / 1804.01925)`]: Integrated value [114.23438283553362] at mu=1e+16 deviates from published benchmark [121.09469141776117] by relative error 5.665e-02 > 1.0e-03. Check differential variable scaling (`ln_mu` vs `ln_mu2` vs `t_2pi`) and running sign!"
+    },
+    "guardrail_5_second_dimensionful_anchor": {
+      "caught": true,
+      "error_type": "Guardrail5UnpricedScaleError",
+      "message": "[Guardrail 5 Violation in Ledger `sm_mass_ledger`]: Cannot declare second dimensionful anchor `M_Z` (GeV); anchor `v_EW` (GeV) is already fixed. Express `M_Z/v_EW` via `import_dimensionless_ratio()` so it is priced as an empirical input."
+    },
+    "guardrail_6_static_referee_echo": {
+      "caught": true,
+      "error_type": "Guardrail6ProducerEchoError",
+      "message": "[Guardrail 6 AST Violation in referee `lazy_referee_echo` line 3]: Referee function `lazy_referee_echo` references producer symbol `compute_producer_yukawa_claim`."
+    }
+  },
+  "compiler_version": "1.1.0-redteam-hardened",
+  "honest_verifications": {
+    "guardrail_1_fibonacci_stabilization": {
+      "grad_norm": 4.472533530134594e-12,
+      "min_hessian_eigval": 9.999999997533067,
+      "potential_value": 0.0,
+      "x_star": [
+        1.618033988749895
+      ]
+    },
+    "guardrail_2_6_strong_cp_referee": {
+      "arg_det_Yu_Yd_residual": 1.8560191963582036e-14,
+      "fourier_unitarity_residual": 7.672034048962496e-16
+    },
+    "guardrail_3_haar_invariant_jarlskog_trace": 0.00036616178200324194,
+    "guardrail_4_gut_scale_coupling": [
+      120.9476010176473
+    ],
+    "guardrail_4_rge_benchmark_receipt": {
+      "citation": "1-Loop Abelian Benchmark (arXiv:1307.3536)",
+      "integrated_value": [
+        121.0946914177526
+      ],
+      "log_variable": "ln_mu",
+      "mu_init": 91.1876,
+      "mu_target": 1e+16,
+      "published_target": [
+        121.09469141776117
+      ],
+      "relative_error": 7.07640053658864e-14,
+      "rtol_gate": 0.001
+    },
+    "guardrail_5_non_dimensionalized_ledger": {
+      "anchor_used": [
+        "v_EW"
+      ],
+      "dimensionless_value": 0.1851753099315997,
+      "empirical_input_count": 1,
+      "empirical_sources": [
+        "M_Z/v_EW"
+      ],
+      "selection_bits": 0.0,
+      "selection_events": [],
+      "unit": "1"
+    },
+    "module_5_koszul_cochain_complex": {
+      "betti_numbers": [
+        0,
+        0,
+        0
+      ],
+      "chain_residuals": [
+        0.0
+      ],
+      "euler_characteristic": 0,
+      "grading_dims": [
+        1,
+        4,
+        3
+      ],
+      "intertwiner_residuals": {
+        "Z4_Koszul_deg0": 0.0,
+        "Z4_Koszul_deg1": 0.0
+      },
+      "ranks": [
+        1,
+        3
+      ]
+    }
+  }
+}
