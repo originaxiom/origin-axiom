@@ -8,8 +8,8 @@
   "review_branch": "audit/physical-bridge-2026-09-05",
   "delivery_channel": "versioned repository relay; no live worker start or acknowledgement inferred",
   "worker_acknowledgement": {
-    "commit": "9d0a31e8db3164b6b5c0e1b2aa9e1383788f36e8",
-    "type": "source-only correction return, checked and accepted within documentary scope"
+    "commit": "ac089712315053ad4704e21e14b889cc2a24279e",
+    "type": "source-only input ledger return; revision required"
   },
   "max_active_proof_code_packets_after_intake": 1,
   "scientific_execution_authorized_by_this_board": false,
@@ -60,7 +60,7 @@
       "id": "AGY-00",
       "title": "Reuse inventory and common-model manifest",
       "claim_dependencies": [],
-      "status": "SOURCE_INTAKE_AND_MAP_ACCEPTED_DOCUMENTARY; ONLY_00B2A_RELEASED",
+      "status": "SOURCE_INTAKE_AND_MAP_ACCEPTED_DOCUMENTARY; ONLY_00B2A_R1_RELEASED",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -74,7 +74,7 @@
       "execution_admission": null,
       "admitted_run_evidence": null,
       "accepted_result": null,
-      "current_microtask": "AGY-00b2a",
+      "current_microtask": "AGY-00b2a-r1",
       "released_current_outputs": [
         "INPUT_LEDGER.md",
         "RESUME.md",
@@ -91,6 +91,12 @@
         "decision": "ACCEPT_SCOPED_RESULT",
         "document": "REVIEW_AGY_00B1_R2_9D0_2026_11_09.md",
         "scope": "four source-summary corrections and compact handoff"
+      },
+      "input_ledger_review": {
+        "checkpoint": "ac089712315053ad4704e21e14b889cc2a24279e",
+        "decision": "REVISE",
+        "document": "REVIEW_AGY_00B2A_AC089_2026_11_09.md",
+        "scope": "six grouped source and representation corrections"
       }
     },
     {
@@ -230,15 +236,15 @@
     "six_control_science_execution": "UNRUN; separate main acceptance and admission outstanding",
     "later_seven_and_four_controls": "UNRUN; outside completed review"
   },
-  "coordination_revision": 7,
+  "coordination_revision": 8,
   "revision_base_commit": "be1b2e92e64eb488870ec1b27a3b0841fd026845",
   "start_document": "START_HERE.md",
   "max_active_microtasks_per_worker_context": 1,
   "dispatch": {
-    "released_microtask": "AGY-00b2a",
+    "released_microtask": "AGY-00b2a-r1",
     "parent_task": "AGY-00",
-    "question": "Audit the fixed pure-h4 candidate independent inputs, conditional consequences and unearned physical identifications using existing sources",
-    "run_ticket": "RUN_TICKET_AGY_00B2A.md",
+    "question": "Correct the six source findings in the candidate input ledger and its handoff",
+    "run_ticket": "REVIEW_AGY_00B2A_AC089_2026_11_09.md",
     "accepted_intake_commit": "6552aec6894a4a94a2ced785ac3af8c25f801ba8",
     "intake_review_document": "REVIEW_AGY_00A_R1_655_2026_11_08.md",
     "acceptance_scope": "Documentary source intake, dependency map and summary correction",
@@ -253,7 +259,7 @@
       "RESUME.md <=700 words",
       "short return relay <=250 words"
     ],
-    "stop_condition": "Return immutable bounded ledger, handoff and relay; stop for review",
+    "stop_condition": "Return bounded corrected ledger, handoff and response relay; stop for review",
     "next_microtask_released": false,
     "scientific_execution_authorized": false,
     "accepted_dependency_map_commit": "43af86dbecb335ddd0952533dc2680d4a4e7f64a",

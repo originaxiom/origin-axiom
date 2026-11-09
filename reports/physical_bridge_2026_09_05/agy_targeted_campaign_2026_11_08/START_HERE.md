@@ -1,11 +1,21 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-09. Coordination revision 7, requested by the owner to avoid
+2026-11-09. Coordination revision 8, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
 
-## Current assignment AGY-00b2a
+## Current assignment AGY-00b2a-r1
+
+The source ledger at ac089712315053ad4704e21e14b889cc2a24279e needs
+six grouped corrections. Read REVIEW_AGY_00B2A_AC089_2026_11_09.md.
+Correct the ledger and its compact summaries using the existing sources.
+The24 half-root and18 up coefficients count different representations.
+Retain the actual vector carrier, coherent alternatives and review grades.
+Return ledger<=1500 words, handoff<=700 and relay<=250, commit/push and
+stop. The review gives the exact scope.
+
+## Prior assignment AGY-00b2a, returned for revision
 
 The relay correction and handoff at9d0a31e8db3164b6b5c0e1b2aa9e1383788f36e8
 are accepted at their documentary scope. Read

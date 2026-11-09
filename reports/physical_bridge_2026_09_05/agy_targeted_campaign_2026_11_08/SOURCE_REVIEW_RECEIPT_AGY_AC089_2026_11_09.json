@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-09",
+  "checkpoint": "ac089712315053ad4704e21e14b889cc2a24279e",
+  "activity": "Git/hash metadata and author source comparison",
+  "decision": "REVISE",
+  "scientific_execution": "NONE",
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+      "sha256": "847128fc4fc5c7df665b80208e79221d8bd8b1f683e46016c0086b29c5d970f9",
+      "whitespace_words": 1488
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md",
+      "sha256": "996dff984b9ac1787ba36db3a2fd13a615259518c2dfe45310d7e6310efa1ac1",
+      "whitespace_words": 525
+    },
+    {
+      "path": "relays/AGY_TO_PHYSICAL_2026-11-09_AGY_00B2A_CANDIDATE_INPUT_LEDGER_AND_RESUME.md",
+      "sha256": "ac8ea28f25b9d51d085217a59e222bc0113370bd6b88169a5cad86fc3dee229d",
+      "whitespace_words": 192
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CLAIM_DEPENDENCIES.md",
+      "sha256": "eb68f876fdf5b842c471738d7fc1c672f685db1a552d30ad669d7f1dba02802a",
+      "whitespace_words": 6590
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/MODEL_MANIFEST.md",
+      "sha256": "811956e0ffc5ca9f141c57e6eb5e98bc576aa5b8e7fe18909c4fc2cd9136ebdb",
+      "whitespace_words": 4455
+    }
+  ]
+}
