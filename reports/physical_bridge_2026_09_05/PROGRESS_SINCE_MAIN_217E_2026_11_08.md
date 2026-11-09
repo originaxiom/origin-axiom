@@ -286,3 +286,32 @@ alone would no longer discharge the main weak-chirality dependency.
 No programme-wide impossibility, observed exclusion or new foundation-
 level input reduction is asserted. AGY's documentary revision remains
 its only released task; it is not assigned to duplicate this calculation.
+
+## 8. November9 native stationary-family continuation
+
+AGY's9d0a31e8d return corrects all four documentary relay statements.
+The accepted map and historical relay retain their pinned bytes. The
+physical review at821fef108 accepts that correction and releases only
+AGY-00b2a, a bounded ledger using the existing input-accounting sources.
+
+The new author proof
+NATIVE_CYCLIC_DEFORMATION_AND_DERIVED_QUADRATIC_MOMENT_RESPONSE_2026_11_09.md
+uses the two available neutral S^4 spin directions inside the existing
+D5 fields. The anticommutator form of the actual gauge operator gives
+Pv|_D5>=1/(2ell^2) globally and ||R5||<=2ell^2. The Hermitian moment
+derivative fixes the quadratic response to xi2=-R5 S. This cancels
+the order-four potential of the unrelaxed straight curve.
+
+Dirichlet exhaustion, a covariant Kato comparison and uniform local
+Schauder estimates supply the proposed decaying Holder inverse.
+A nonlinear contraction then constructs a small globally stationary
+family with the source kinetic metrics and first-order graph domains.
+Both holomorphic source directions are retained. Their state coordinates
+and physical selection are further duties. This is AUTHOR ANALYTICAL
+WORK, UNREVIEWED/UNRUN, with six prospective finite controls.
+
+The calculation determines response data conditional on the supplied
+action and chosen holomorphic state. The full deformed spectrum,
+degenerate vector response and normalized left/right currents require
+calculation before a weak-chirality verdict for this family. The
+paired-pole proof retains its original balanced-background scope.
