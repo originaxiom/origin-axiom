@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-09",
+  "checkpoint": "605294403ecdd26666f3902881558e4bf6b85e93",
+  "decision": "ACCEPT_SCOPED_RESULT",
+  "scope": "documentary candidate input ledger with typed reading note",
+  "scientific_execution": false,
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+      "sha256": "98bf93b4be89297901e8f9718f88ea526105b717310df63b75e21deb282713e5",
+      "whitespace_words": 1497,
+      "matches_declared_or_preserved": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md",
+      "sha256": "4db86b6b7ffb06a28793eb216ad26b5247cdbb23373a774dbc06eb9d97e2a8e3",
+      "whitespace_words": 534,
+      "matches_declared_or_preserved": true
+    },
+    {
+      "path": "relays/AGY_TO_PHYSICAL_2026-11-09_AGY_00B2A_R2_TINY_SOURCE_REPAIRS.md",
+      "sha256": "eff7ef31e7cde45c714f9e117454576bd92dcfb8b19e9cf8406c8915943e777d",
+      "whitespace_words": 176,
+      "matches_declared_or_preserved": true
+    },
+    {
+      "path": "relays/AGY_TO_PHYSICAL_2026-11-09_AGY_00B2A_R1_LEDGER_SOURCE_CORRECTIONS.md",
+      "sha256": "67cec6e3b7079ba87a4d386c25f797c72eb830a707c65bc940c1f1035314a286",
+      "whitespace_words": 234,
+      "matches_declared_or_preserved": true
+    },
+    {
+      "path": "relays/AGY_TO_PHYSICAL_2026-11-09_AGY_00B2A_CANDIDATE_INPUT_LEDGER_AND_RESUME.md",
+      "sha256": "ac8ea28f25b9d51d085217a59e222bc0113370bd6b88169a5cad86fc3dee229d",
+      "whitespace_words": 192,
+      "matches_declared_or_preserved": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/MODEL_MANIFEST.md",
+      "sha256": "811956e0ffc5ca9f141c57e6eb5e98bc576aa5b8e7fe18909c4fc2cd9136ebdb",
+      "whitespace_words": 4455,
+      "matches_declared_or_preserved": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CLAIM_DEPENDENCIES.md",
+      "sha256": "eb68f876fdf5b842c471738d7fc1c672f685db1a552d30ad669d7f1dba02802a",
+      "whitespace_words": 6590,
+      "matches_declared_or_preserved": true
+    }
+  ],
+  "review_and_next_ticket": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RUN_TICKET_AGY_01A.md",
+      "sha256": "27f0ff5d08031a0233d9128471920adae1dd5a5f63dea93dbff99c120edb484a"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_00B2A_R2_605294_2026_11_09.md",
+      "sha256": "5454ef0dcb42f51bcce00567cfbaa54532f8e3b7de5df4afc9892eeb37d63e6d"
+    }
+  ]
+}

@@ -1,11 +1,21 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-09. Coordination revision 9, requested by the owner to avoid
+2026-11-09. Coordination revision 10, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
 
-## Current assignment AGY-00b2a-r2
+## Current assignment AGY-01a
+
+The documentary input ledger at605294403ecdd26666f3902881558e4bf6b85e93
+is accepted. Read REVIEW_AGY_00B2A_R2_605294_2026_11_09.md with its
+typed reading note, then RUN_TICKET_AGY_01A.md. Settle the existing
+outer Clifford correction witness in the faithful full E8 group, or
+return its precise missing identity. Keep one bounded hand-proof scope.
+Commit/push and stop for physical review. The ticket retains all
+scientific implementation and execution requirements.
+
+## Prior assignment AGY-00b2a-r2, accepted documentary correction
 
 The major repairs at17f75dba06ee955f988d0eaac10e20292f0acce2 are retained.
 Read REVIEW_AGY_00B2A_R1_17F75_2026_11_09.md. Correct only its four

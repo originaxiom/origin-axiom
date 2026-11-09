@@ -8,13 +8,13 @@
   "review_branch": "audit/physical-bridge-2026-09-05",
   "delivery_channel": "versioned repository relay; no live worker start or acknowledgement inferred",
   "worker_acknowledgement": {
-    "commit": "17f75dba06ee955f988d0eaac10e20292f0acce2",
-    "type": "bounded source repair returned; major repairs retained; four residual items"
+    "commit": "605294403ecdd26666f3902881558e4bf6b85e93",
+    "type": "documentary input-ledger correction accepted within source-audit scope"
   },
   "max_active_proof_code_packets_after_intake": 1,
   "scientific_execution_authorized_by_this_board": false,
   "first_return": [
-    "INPUT_LEDGER.md bounded candidate input audit",
+    "COMPENSATOR_RANGE_AUDIT.md",
     "RESUME.md",
     "short return relay"
   ],
@@ -60,7 +60,7 @@
       "id": "AGY-00",
       "title": "Reuse inventory and common-model manifest",
       "claim_dependencies": [],
-      "status": "SOURCE_INTAKE_AND_MAP_ACCEPTED_DOCUMENTARY; ONLY_00B2A_R2_RELEASED",
+      "status": "COMPLETE_DOCUMENTARY_SOURCE_INTAKE_MAP_AND_INPUT_LEDGER",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -68,13 +68,18 @@
         "CLAIM_DEPENDENCIES.md",
         "INPUT_LEDGER.md"
       ],
-      "scoped_review_artifact": "REVIEW_AGY_00B1_R2_9D0_2026_11_09.md",
+      "scoped_review_artifact": "REVIEW_AGY_00B2A_R2_605294_2026_11_09.md",
       "source_complete_review_artifact": null,
       "main_execution_acceptance": null,
       "execution_admission": null,
       "admitted_run_evidence": null,
-      "accepted_result": null,
-      "current_microtask": "AGY-00b2a-r2",
+      "accepted_result": {
+        "checkpoint": "605294403ecdd26666f3902881558e4bf6b85e93",
+        "scope": "documentary candidate input ledger with typed reading note",
+        "sha256": "98bf93b4be89297901e8f9718f88ea526105b717310df63b75e21deb282713e5",
+        "proof_acceptance_inferred": false
+      },
+      "current_microtask": null,
       "released_current_outputs": [
         "INPUT_LEDGER.md",
         "RESUME.md",
@@ -99,15 +104,9 @@
         "scope": "seven grouped source, representation and source-hash corrections"
       },
       "input_ledger_latest_intake": {
-        "checkpoint": "17f75dba06ee955f988d0eaac10e20292f0acce2",
-        "decision": "REVISE_TINY_RETURN",
-        "document": "REVIEW_AGY_00B2A_R1_17F75_2026_11_09.md",
-        "remaining_findings": [
-          "T1",
-          "T2",
-          "T3",
-          "T4"
-        ]
+        "checkpoint": "605294403ecdd26666f3902881558e4bf6b85e93",
+        "decision": "ACCEPT_SCOPED_RESULT",
+        "document": "REVIEW_AGY_00B2A_R2_605294_2026_11_09.md"
       }
     },
     {
@@ -116,7 +115,7 @@
       "claim_dependencies": [
         "AGY-00"
       ],
-      "status": "UNRELEASED; PENDING_DEPENDENCY_REVIEW_AND_RUN_TICKET",
+      "status": "HAND_PROOF_MICROTASK_01A_RELEASED",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -128,7 +127,13 @@
       "main_execution_acceptance": null,
       "execution_admission": null,
       "admitted_run_evidence": null,
-      "accepted_result": null
+      "accepted_result": null,
+      "current_microtask": "AGY-01a",
+      "released_current_outputs": [
+        "COMPENSATOR_RANGE_AUDIT.md",
+        "RESUME.md",
+        "short return relay"
+      ]
     },
     {
       "id": "AGY-02",
@@ -247,39 +252,32 @@
     "six_control_science_execution": "UNRUN; separate main acceptance and admission outstanding",
     "later_seven_and_four_controls": "UNRUN; outside completed review"
   },
-  "coordination_revision": 9,
-  "revision_base_commit": "be1b2e92e64eb488870ec1b27a3b0841fd026845",
+  "coordination_revision": 10,
+  "revision_base_commit": "2f690bc486adf2dfc07dd4fd94bf62b6db27bc86",
   "start_document": "START_HERE.md",
   "max_active_microtasks_per_worker_context": 1,
   "dispatch": {
-    "released_microtask": "AGY-00b2a-r2",
-    "parent_task": "AGY-00",
-    "question": "Correct the four residual source labels and review hash in the candidate ledger",
-    "run_ticket": "REVIEW_AGY_00B2A_R1_17F75_2026_11_09.md",
-    "accepted_intake_commit": "6552aec6894a4a94a2ced785ac3af8c25f801ba8",
-    "intake_review_document": "REVIEW_AGY_00A_R1_655_2026_11_08.md",
-    "acceptance_scope": "Documentary source intake, dependency map and summary correction",
+    "released_microtask": "AGY-01a",
+    "parent_task": "AGY-01",
+    "question": "Does the full compact correction centralizer admit a faithful coherent Pin2 alternative to the connected U3 phase?",
+    "run_ticket": "RUN_TICKET_AGY_01A.md",
+    "accepted_input_ledger_commit": "605294403ecdd26666f3902881558e4bf6b85e93",
+    "accepted_input_ledger_sha256": "98bf93b4be89297901e8f9718f88ea526105b717310df63b75e21deb282713e5",
+    "acceptance_scope": "documentary source intake, map and input ledger with binding reading notes",
     "allowed_activity": [
-      "read relevant pinned source and existing reduction accounting",
-      "write bounded candidate input ledger",
-      "update compact handoff and return relay",
-      "commit and push source-audit checkpoint; stop"
+      "read pinned source and reuse existing group witnesses",
+      "derive one bounded faithful Clifford correction witness by hand",
+      "describe prospective verification duties",
+      "save bounded proof and handoff; commit/push; stop"
     ],
     "required_outputs": [
-      "INPUT_LEDGER.md <=1500 words",
+      "COMPENSATOR_RANGE_AUDIT.md <=1800 words plus <=70 lines of witness equations",
       "RESUME.md <=700 words",
-      "short return relay <=250 words"
+      "return relay <=250 words"
     ],
-    "stop_condition": "Return bounded corrected ledger, handoff and response relay; stop for review",
+    "stop_condition": "Return bounded proof or precise unresolved identity; stop for physical review",
     "next_microtask_released": false,
-    "scientific_execution_authorized": false,
-    "accepted_dependency_map_commit": "43af86dbecb335ddd0952533dc2680d4a4e7f64a",
-    "accepted_dependency_map_sha256": "eb68f876fdf5b842c471738d7fc1c672f685db1a552d30ad669d7f1dba02802a",
-    "summary_rule": "No equation absent from its cited source; preserve representation and count type; new derivation outside this source-only task",
-    "accepted_map_must_remain_unchanged": true,
-    "accepted_return_commit": "9d0a31e8db3164b6b5c0e1b2aa9e1383788f36e8",
-    "principal_entry_limit": 12,
-    "prioritized_derivation_question_limit": 3
+    "scientific_execution_authorized": false
   },
   "context_policy": {
     "one_question_per_run": true,
