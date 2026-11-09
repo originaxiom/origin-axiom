@@ -1,20 +1,29 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-09. Coordination revision 24, requested by the owner to avoid
+2026-11-09. Coordination revision 25, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
 
-## Current assignment AGY-04b-r1
+## Current assignment AGY-03a
 
-Read RUN_TICKET_AGY_04B_R1.md and REVIEW_AGY_04B_4FF94_2026_11_09.md.
-Repair B1-B6 in one hand/source return. Keep the correct local vector
-constants and the exact spectral equation at1/2. Rebuild the Higgs and
-derivative target bundles, scrutinize the supplied combined gauge/flavour
-symmetry proof, and correct or withdraw the curvature-shift inference.
-Carry the missing Omega through the lepton/quark ratio and keep actual
-form-current comparisons open until their maps are supplied. Commit/push
-and stop. The ticket retains the existing scientific admission duties.
+Read RUN_TICKET_AGY_03A.md and REVIEW_AGY_04B_R1_1AA0D_2026_11_09.md.
+Derive the full bosonic and four-slot fermionic cut variation from the
+existing common action. Give the actual momenta, Green trace pairing,
+Gauss constraint and transparent sewing. Reuse the existing scalar/vector
+response and core/Gauss results. Retain zero modes and the neutral
+threshold response duty. Bundle the two adjoint/domain reading notes.
+Return one bounded hand/source packet, commit/push and stop for review.
+
+## AGY-04b-r1 at1aa0da7a0, scoped hand result supported
+
+The main B1-B6 repairs are incorporated. The combined natural-operator
+parity restriction, exact residual spectral equation and corrected
+Omega^-2 norm ratio are supported at hand scope. The derivative-eigenvalue
+claim is withdrawn with its failure preserved. Carry the graph-closure
+and converted-adjoint qualifications into the next return. The lepton
+rank pair retains its conditional scope. The spectral value and full
+form-current comparison remain open investigations under AGY-04.
 
 ## AGY-04b at4ff94e619, source repairs required
 
@@ -51,14 +60,14 @@ personal source review, finite positives, coverage and guardrail repairs.
 All five owner-quoted hashes match. The added Golden Spikes report has
 stale hashes and a cusp-measure error whose correction preserves the
 pole allowance. No numerical rerun or new admission is inferred.
-AGY-04b stays the current task; the separate guardrail repair is not
-an additional assignment in this worker context.
+The separate guardrail repair has its own scope. It is outside the
+current worker's cut-variation assignment.
 
 The owner subsequently authorized the physical seat's exact preliminary
 external rerun. All17+5 tests passed and all three fresh JSON receipts
 match the supplied files byte for byte. See external_dsl_audit_2026_11_09/
 PRELIMINARY_REPRODUCTION_RESULTS.md. Reuse that finite baseline while
-working on AGY-04b. This old package does not implement AGY-04a's new
+working on the current bounded task. This old package does not implement AGY-04a's new
 lepton-current proof, supply main acceptance, or change AGY's execution
 permissions. The identified guardrail and measure errors remain.
 

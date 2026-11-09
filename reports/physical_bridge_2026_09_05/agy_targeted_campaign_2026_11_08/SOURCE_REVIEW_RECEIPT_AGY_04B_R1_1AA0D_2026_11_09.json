@@ -1,0 +1,99 @@
+{
+  "schema": "oa-agy-scoped-hand-source-review-v1",
+  "date": "2026-11-09",
+  "physical_base_commit": "595d6df33b45a707701eae54e41a72b2a49bc999",
+  "processed_agy_head": "1aa0da7a0eb353c06c45a12f9dab8c1816e8b7d0",
+  "decision": "ACCEPT_SCOPED_HAND_RESULTS_WITH_READING_NOTES",
+  "method": "personal source, exact source/receipt hash and hand algebra review",
+  "authorship_caveat": "physical seat authored combined parity/density correction and earlier dependencies; nonauthoring review remains owed",
+  "B1_B6_disposition": "main findings repaired, false derivative eigenvalue withdrawn, spectral and overlap unknowns retained",
+  "preserved_hand_results": [
+    "actual Higgs tangent target and physical norm",
+    "scoped combined global symmetry/natural-algebra restriction",
+    "conditional lepton-current rank pair",
+    "corrected normalized ratio and scale/trace cancellation",
+    "exact unresolved complete spectral equation at1/2"
+  ],
+  "reading_notes": [
+    "each composite uses its own graph closure; Pv form domain separately controlled",
+    "metric conversion and differentiated Omega retained in the adjoint of the converted derivative map"
+  ],
+  "scientific_import_or_execution": false,
+  "new_agents": false,
+  "formal_independent_review": null,
+  "main_acceptance": null,
+  "execution_admission": null,
+  "banking": null,
+  "canonical_inputs_removed": 0,
+  "next_released_microtask": "AGY-03a",
+  "future_response_scope": "full finite-cut common-action variation, transparent sewing and explicit residual threshold/source duties",
+  "sources": [
+    {
+      "commit": "1aa0da7a0eb353c06c45a12f9dab8c1816e8b7d0",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FORM_SPIN_VECTOR_OPERATOR_JOINT.md",
+      "sha256": "7a4aa270bae10b6c73a327dd0bccdb288fe0a026ebbcbfff84aa47b302d3fa70"
+    },
+    {
+      "commit": "1aa0da7a0eb353c06c45a12f9dab8c1816e8b7d0",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/LEPTON_FORM_CURRENT.md",
+      "sha256": "ab2aec95a02051e94a4e94408c036758438074ed0bbc7d24fba605c35f892264"
+    },
+    {
+      "commit": "1aa0da7a0eb353c06c45a12f9dab8c1816e8b7d0",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md",
+      "sha256": "915aaeb96f141135cd09cda74cad38f5dcadb13c86c12f9386ff68b9822f33a8"
+    },
+    {
+      "commit": "1aa0da7a0eb353c06c45a12f9dab8c1816e8b7d0",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/JOINED_KERNEL_AND_PHYSICAL_MAP.md",
+      "sha256": "f96f5247f00151c829daefa2c66a31f05a53a50ed499b02bac4ecb6ddb960691"
+    },
+    {
+      "commit": "1aa0da7a0eb353c06c45a12f9dab8c1816e8b7d0",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CENTRALIZER_COMPONENTS.md",
+      "sha256": "0e21636e01332e6cae765382c79aff9278dfdbe074e7e94a729a6aeb359a4ff4"
+    },
+    {
+      "commit": "1aa0da7a0eb353c06c45a12f9dab8c1816e8b7d0",
+      "path": "relays/AGY_TO_PHYSICAL_2026-11-09_AGY_04B_R1_OPERATOR_PARITY_AND_DENSITY_REPAIR.md",
+      "sha256": "8e079f4285de5453f0cf94a43ee75f161e527af59987783c75881303788881ec"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RUN_TICKET_AGY_04B_R1.md",
+      "sha256": "b7dc5cebc6f80afbd5f36466ac51c60363034d364676341272b72530da0f268e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_04B_4FF94_2026_11_09.md",
+      "sha256": "b29eb54f0c74f91e55da60ab14d81b3da6972038d0db765f801e84863ba39dcb"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COMBINED_GAUGE_FLAVOUR_PARITY_AND_CORRECTED_CURRENT_DENSITY_2026_11_09.md",
+      "sha256": "922ec7ee0831ff24939255d0d20a4adfce65df60635181d7788f6a42679f487d"
+    }
+  ],
+  "review_artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_04B_R1_1AA0D_2026_11_09.md",
+      "sha256": "ae10c1f593ce8b82a3d73931e77aaaaf11f6b0505f000db9f5aae34303b59311"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RUN_TICKET_AGY_03A.md",
+      "sha256": "14a82add3b6fbb8b12325a844925743d6cdf6b4cc27036af6ebf7494018616b5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/START_HERE.md",
+      "sha256": "bce2f981d68bb8e7b7f530f98ecda101f37f1754dc110bfdf329dab4c753a5fc"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/TASKS.json",
+      "sha256": "d2a4330d033dcce2e3d2dfad8fb290dce537c336dab0884f1cb57b003944aa4b"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_2026-11-09_1AA0D_ACCEPT_AND_FULL_CUT_VARIATION.md",
+      "sha256": "49d722d467854b810b12b2ca7dec430460ada2e9c9480cccad377c8d53509281"
+    }
+  ],
+  "inherited_staged_diff_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6"
+}
