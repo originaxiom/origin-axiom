@@ -1,34 +1,34 @@
-# `RESUME.md` — Compact Restart File (`AGY-00b2a-r2` Completed; Stopped for Physical Review)
+# AGY Campaign Handoff & Durable State (`RESUME.md`)
 
-## 1. Current Campaign State & Governance
-- **Active Branch / Seat:** `agy/audit-2026-11-02` (AGY Exploration Seat).
-- **Completed Checkpoint:** `AGY-00b2a-r2` (`INPUT_LEDGER.md`, `RESUME.md`, and return relay `relays/AGY_TO_PHYSICAL_2026-11-09_AGY_00B2A_R2_TINY_SOURCE_REPAIRS.md`), released by `REVIEW_AGY_00B2A_R1_17F75_2026_11_09.md` (`60700070b46ded3ac9c06b92567fcf9cf0a376e95e407f895e05e885f147a050`) and `START_HERE.md` (`58b68e8c5e54e3143edaa59c458286e322357ce6035ae46e78b05bb616fdd374`) at `2f690bc486adf2dfc07dd4fd94bf62b6db27bc86`.
-- **Canonical Baseline:** `GENESIS.md` at `217e37c4f37bd80998f3c3e10cad358023f58114` (`0 of 19` confirmed Standard Model parameters).
-- **Physical Revision Base:** `be1b2e92e64eb488870ec1b27a3b0841fd026845` (plus later unreviewed commits `2b572014cdbbb4ef8a9287b0d7b18eb98e5816a2`, `9a2bd40b3cf0a4d675a3c7013f83873d620a7bde`, and `9fae0324819155290794cb2014e6504318ed9380`).
-- **Execution Gate:** `scientific_execution_authorized = false`. Zero scientific code edits, imports, collection, or test runs were performed.
+- **Date:** `2026-11-09`
+- **Active Campaign Directory:** `reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/`
+- **Completed Microtask:** `AGY-01a` (`RUN_TICKET_AGY_01A.md` at `99a0364f2f17ffb02923042a7e9edd4a0e1af99d`, SHA256 `27f0ff5d08031a0233d9128471920adae1dd5a5f63dea93dbff99c120edb484a`; `START_HERE.md`, SHA256 `6185d67d3566ff0e8c20091024ca6b243e184552ccb4be3d8cbca68182769d16`; `TASKS.json`, SHA256 `a5c6d092ce32897ac83022b9c50ca48707aeae8e119a375706e6b9546273443b`)
+- **Scientific Execution Status:** `scientific_execution_authorized = false` (no scientific code, CAS, imports, test collection, or runs executed)
 
-## 2. Accepted & Current Artifacts (Exact Pins)
-1. **`MODEL_MANIFEST.md` (`AGY-00a-r1`, accepted at `d1b2303969050925d4b548ed21ec862208107b9f`, byte-preserved):**
-   - Commit: `6552aec6894a4a94a2ced785ac3af8c25f801ba8`
-   - SHA256: `811956e0ffc5ca9f141c57e6eb5e98bc576aa5b8e7fe18909c4fc2cd9136ebdb`
-   - Read with the 4 reading notes of `REVIEW_AGY_00A_R1_655_2026_11_08.md` (`c6942f5f1516b7600765bcafafb991f4ec35375dda9f345367ae3b255aebb458`).
-2. **`CLAIM_DEPENDENCIES.md` (`AGY-00b1-r1`, accepted at `400244e32c737d9b947546e2b12fec5ab57c9627`, byte-preserved):**
-   - Commit: `43af86dbecb335ddd0952533dc2680d4a4e7f64a`
-   - SHA256: `eb68f876fdf5b842c471738d7fc1c672f685db1a552d30ad669d7f1dba02802a`
-3. **Preserved Historical Relays (`9d0a31e8d`, `ac0897123`, `17f75dba0`):**
-   - `relays/AGY_TO_PHYSICAL_2026-11-08_AGY_00B1_R2_RELAY_CORRECTION_AND_RESUME.md`: `630ef5653e5a55ceaeb54e263f6f1e6d7253f856f9cf193f7a37d7e7166b7af0` (`315` words)
-   - `relays/AGY_TO_PHYSICAL_2026-11-09_AGY_00B2A_CANDIDATE_INPUT_LEDGER_AND_RESUME.md`: `ac8ea28f25b9d51d085217a59e222bc0113370bd6b88169a5cad86fc3dee229d` (`192` words)
-   - `relays/AGY_TO_PHYSICAL_2026-11-09_AGY_00B2A_R1_LEDGER_SOURCE_CORRECTIONS.md`: `67cec6e3b7079ba87a4d386c25f797c72eb830a707c65bc940c1f1035314a286` (`234` words)
-4. **`INPUT_LEDGER.md` (`AGY-00b2a-r2`, awaiting review):**
-   - Path: `reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md`
-   - SHA256: `98bf93b4be89297901e8f9718f88ea526105b717310df63b75e21deb282713e5` (`1497` words, `<= 1500` limit)
-5. **`AGY-00b2a-r2` Return Relay:**
-   - Path: `relays/AGY_TO_PHYSICAL_2026-11-09_AGY_00B2A_R2_TINY_SOURCE_REPAIRS.md` (`<= 250` words)
+---
 
-## 3. Summary of `INPUT_LEDGER.md` (`R1`–`R7` & `T1`–`T4` Addressed)
-- **Row Count vs. Inputs & Source Hashes (`R6,R7,T4`):** Distinguishes the 12 audit rows (`L01`–`L12`) from independent physical input counts (`[RFM]`) and records exact full 64-character SHA256s at `be1b2e92e`/`d1b230396` for `[CA]`, `[PM]`, `[EL]`, `[RFM]/[RC]`, and `REVIEW_AGY_00A_R1_655_2026_11_08.md` (`c6942f5f1516b7600765bcafafb991f4ec35375dda9f345367ae3b255aebb458`).
-- **Parent, Carrier, Scales & Coherent Lifts (`L01`–`L07`, `R3`–`R6,T2,T3`):** Records $F_2=\langle a,b\rangle$ as a declared faithful free-register premise (`L01`); 4D $\mathcal{N}=1$ fields depending on $\Sigma_{1,1}$ with `[CA]`'s curved functional, Killing form $\kappa$, local covariance, and flat Yang–Mills normalization (`L02`); quaternion holonomies and bare precursor $K(a)=A,K(b)=B=DA$ (order 32) with $A^4=B^4=\mathrm{Zeta}$, $(AB)^2=P$ ($P=\exp(-i\pi H/2),P^2=1\implies(AB)^4=1$), $[A,B]=\mathrm{Zeta}\,P$, and $\mathrm{Zeta}=+1$ on $120$ integer-root/Cartan and $-1$ on $128$ half-root dimensions (`[EL]`§§3–4) vs. the candidate's coherent $\operatorname{Pin}(2)/Q_8$ transport (`L03`); $\tau\in\mathbb{H}$, cusp metric $\Omega=\ell/y$ in $w=x+iy$ (or $\Omega=\ell/(r\ln(1/r))$ in $z,r=|z|$), and unreduced scales $(\ell,g_6)$ with one anchor as a mission target (`L04`); $\eta=\mathcal{O}$, `[C02]`§§3–5 pricing of the chosen EM circle $h(\theta)$ and $\operatorname{Pin}(2)$ factorization $h^2=C^{-1}$ yielding $h_4,\mathrm{Zeta}\,h_4$ (plus later `[PC09]` separating the connected-$\operatorname{SU}(4)$ $3+1$ calculation from an `OPEN` outer Clifford witness), and $Q=\frac{2}{3}(e_1+e_2+e_3)$ giving $4_{A_3}$ charges $(1,-1/3,-1/3,-1/3)$ (`L05,L06`); balanced $\Phi_0$ and $\chi=(0,0)$ vs. order-3 $\chi_3\neq0$, which leaves the complementary $\operatorname{U}(3)$ singlet at multiplicity 3 and removes the coloured triplet's extra middle section (multiplicity $3\to2$, coherent $24\to18$; bare $16$ is a separate bare lift, `[C05]`§5) (`L07`).
-- **End Law, Multiplicities, Vector/Fermion Weights & Deformations (`L08`–`L12`, `R1,R2,R6,T1`):** Distinguishes reviewed $128$ coercivity (`6290484f28`,`V1` open) from later unreviewed parabolic/matter counts (`L08`); 4-slot mass map $M$ and $P_v$ (`L09`); compatible multiplicity 3 per representation ($3\times8=24$ in $(16,4)\oplus(\overline{16},\overline{4})$ and $3\times6=18$ in $(10,6)$) (`L10,Q2`); half-root vector carrier $V_{3/2}\otimes V_{3/2}$ with $\mu=-2$ plane $(-3/2,-1/2),(-1/2,-3/2)$ paired under $w_R=Jz_-$ with $\mu=+2$ $(+3/2,+1/2),(+1/2,+3/2)$ at $m_0^2=7/(2\ell^2)$ ($|g_R|=|g_L|>0$), where the middle down-quark spin pair is $u':(-3/2,+3/2),v':(+3/2,-3/2)$ ($\mu=0$) and the up spin pair is $u':(-2,0),v':(0,-2)$ ($\mu=-2$) in both the down and independent conjugate-down left sectors (while down form representatives sit at $(+3/2,+3/2),\mu=+3$) (`L11`); and later unreviewed `2b572014c`/`9fae03248` (`[NC09],[CP09]`), where $\Theta=LJ_0$ keeps the $\mu=\mp2$ vector masses paired throughout the small cyclic spin family (`L12,Q1`).
+## 1. Preserved Accepted Baseline & Historical Relays
 
-## 4. Next Action upon Restart
-- **STOP.** Wait for physical-seat review of `AGY-00b2a-r2` and explicit release of the next microtask in `START_HERE.md` / `TASKS.json`.
+1. **`MODEL_MANIFEST.md`:** Preserved byte-for-byte at accepted `95fb8fd785d409ebbc49f359029c462f539a2b34` state (SHA256 `811956e0ffc5ca9f141c57e6eb5e98bc576aa5b8e7fe18909c4fc2cd9136ebdb`).
+2. **`CLAIM_DEPENDENCIES.md`:** Preserved byte-for-byte at accepted `95fb8fd785d409ebbc49f359029c462f539a2b34` state (SHA256 `eb68f876fdf5b842c471738d7fc1c672f685db1a552d30ad669d7f1dba02802a`).
+3. **`INPUT_LEDGER.md`:** Preserved byte-for-byte at accepted `605294403ecdd26666f3902881558e4bf6b85e93` state (SHA256 `98bf93b4be89297901e8f9718f88ea526105b717310df63b75e21deb282713e5`), accepted by `REVIEW_AGY_00B2A_R2_605294_2026_11_09.md` (`99a0364f2f17ffb02923042a7e9edd4a0e1af99d`, SHA256 `5454ef0dcb42f51bcce00567cfbaa54532f8e3b7de5df4afc9892eeb37d63e6d`) with its binding typed reading note on `L11`.
+4. **Historical Relays:** All prior relays (`ac0897123`, `17f75dba0`, `605294403`) preserved byte-identical.
+
+---
+
+## 2. Completed Deliverable for `AGY-01a`
+
+- **`COMPENSATOR_RANGE_AUDIT.md`:**
+  - **SHA256:** `ea306b113eb001d70deb0340e12b70c775f686f8cbb889f4b568ba3fafa92cb7` (`1308` words via `wc -w`, `29` displayed witness equation lines, within the `<= 1800` word and `<= 70` equation-line bounds; marked `AUTHOR HAND PROOF / UNREVIEWED`).
+  - **Summary of Duties 1–5:**
+    - **Duty 1:** Constructed the explicit unitary frame $U_{\text{real}} = \frac{1}{\sqrt{2}}\begin{pmatrix}R_5 & i R_5 \\ \overline{R_5} & -i\overline{R_5}\end{pmatrix}$ identifying the $\tau_{\mathbb{R}}$-real Euclidean five-spaces $V_{5,+}\oplus V_{5,-}$ inside the split $D_5$ vector $10$ with $U_{\text{real}}^\dagger U_{\text{real}} = U_{\text{real}}^T Q_{\text{split}} U_{\text{real}} = I_{10}$. Showed that $U_{\text{real}}^{-1}(-i N)U_{\text{real}} = \begin{pmatrix}0 & I_5 \\ -I_5 & 0\end{pmatrix}$ and $U_{\text{real}}^{-1}A_{\text{vec}}U_{\text{real}} = \begin{pmatrix}0 & O_5 \\ -O_5 & 0\end{pmatrix}$ ($O_5 \in \operatorname{SO}(5)$), fixing the orientation sign $\delta = -1$ in $A U A^{-1} = \delta C U = \mathrm{Zeta}\,C U$ for the faithful torus lift $A = \exp(2\pi i x_{D_5})$.
+    - **Duty 2:** Specified $\pi_{E_8} : \operatorname{Spin}(16) \to E_8$ with $\ker(\pi_{E_8}) = \{1, \omega_{16}\}$, positive half-spin chirality $128 = S_+(\mathbb{R}^{16}) = (16,4)\oplus(\overline{16},\overline{4})$, $\pi_{E_8}(-1_{\operatorname{Spin}(16)}) = \mathrm{Zeta}$ ($+1$ on $120$, $-1$ on $128$), and $C^2 = -1_{\operatorname{Spin}(16)} \mapsto \mathrm{Zeta}$.
+    - **Duty 3:** Proved both $h_1 = U f_1$ and $h_3 = U f_1 f_2 f_3$ centralize $(E_{\pm},E_{\pm}^\dagger,H_{\pm})$ and commute with $K_\alpha, P$, with $A h_k A^{-1} = \mathrm{Zeta}\,C h_k$, $h_k C h_k^{-1} = C^{-1}$, and $(A h_k)^2 = \delta K_\pi h_k^2 = \mathrm{Zeta}\,K_\pi h_k^2$. Since $h_1^2 = -1_{\operatorname{Spin}(16)} \mapsto \mathrm{Zeta}$ and $h_3^2 = +1_{\operatorname{Spin}(16)} \mapsto 1$, **$h_1 = U f_1$ satisfies $(A h_1)^2 = K_\pi$ and $(A h_1)K_\alpha(A h_1)^{-1} = K_{-\alpha}$ faithfully on all $248$ dimensions**, whereas **$h_3 = U f_1 f_2 f_3$ fails on $128$ by $\mathrm{Zeta}$** ($(A h_3)^2 = \mathrm{Zeta}\,K_\pi \neq K_\pi$).
+    - **Duty 4:** Verified that $A' = A h_1, B' = D A'$ preserve $\Phi_0 = (E,G)/(2\sqrt{2}\ell)$, the positive metric and $\varepsilon_F$, and $[A',B'] = D^{-2} = \mathrm{Zeta}\,P$ ($P[A',B'] = \mathrm{Zeta}$), while reducing $A_3 = \mathfrak{so}(6)$ to $\mathfrak{so}(5) = \Lambda^2(f_1^\perp)$ ($10$ dims), negating $V_{5,+}\otimes V_{5,-} \subset (45,1)$, and swapping $(16,4) \leftrightarrow (\overline{16},\overline{4})$ around core cycles.
+    - **Duty 5:** Isolated the exact surviving premise excluding $h_1$: connectedness of $h \in \operatorname{Spin}(6)$ (equivalently, preservation of $(16,4)$ chirality and trivial action on $(45,1)$ under core transport).
+
+---
+
+## 3. Stopping Point & Next Dependency
+
+- **Stop Condition:** Reached at completion of `AGY-01a`. Awaiting physical-seat review of `COMPENSATOR_RANGE_AUDIT.md` before any subsequent microtask is released.
