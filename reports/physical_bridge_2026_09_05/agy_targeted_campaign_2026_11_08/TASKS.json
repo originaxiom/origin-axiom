@@ -115,7 +115,7 @@
       "claim_dependencies": [
         "AGY-00"
       ],
-      "status": "HAND_RESULTS_01A_01B_ACCEPTED_WITH_READING_NOTES; NEXT_TASK_PREPARING",
+      "status": "HAND_COMPONENT_RESULTS_ACCEPTED_WITH_NOTES; COHERENT_PHASE_PACKET_01C_RELEASED",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -128,9 +128,9 @@
       "execution_admission": null,
       "admitted_run_evidence": null,
       "accepted_result": null,
-      "current_microtask": null,
+      "current_microtask": "AGY-01c",
       "released_current_outputs": [
-        "CENTRALIZER_COMPONENTS.md",
+        "COHERENT_PHASE_CLASSES.md",
         "RESUME.md",
         "short new return relay"
       ],
@@ -272,30 +272,31 @@
     "six_control_science_execution": "UNRUN; separate main acceptance and admission outstanding",
     "later_seven_and_four_controls": "UNRUN; outside completed review"
   },
-  "coordination_revision": 13,
-  "revision_base_commit": "2f690bc486adf2dfc07dd4fd94bf62b6db27bc86",
+  "coordination_revision": 14,
+  "revision_base_commit": "8ff6329c0fc7e8c5a3d0e1772e6f35c16a7198a5",
   "start_document": "START_HERE.md",
   "max_active_microtasks_per_worker_context": 1,
   "dispatch": {
-    "released_microtask": null,
+    "released_microtask": "AGY-01c",
     "parent_task": "AGY-01",
-    "question": "Determine all components of the full compact centralizer of the two ordered principal SU2 triples in the supplied E8 embedding",
-    "run_ticket": "RUN_TICKET_AGY_01B.md",
-    "accepted_witness_commit": "476d20bbb4a2e52bf1650fd0d8819d6cd869027e",
-    "accepted_witness_sha256": "81b29726b20218ed2625de06369c7a5d55c13427d85d81ed2888d27a3280a0d3",
-    "acceptance_scope": "scoped hand result with binding reading notes; formal independent review and execution outstanding",
+    "question": "Classify all coherent correction backgrounds under the actual gauge action, with the complete measuring data fixed or transported",
+    "run_ticket": "RUN_TICKET_AGY_01C.md",
+    "accepted_component_commit": "6e9683ab93f438971a0da5b10107acc3cacafc31",
+    "accepted_component_sha256": "a0e86b7164e401498869fce468a5fcfad140ca28529e86d721b3dffab7673075",
+    "acceptance_scope": "conditional hand results with consolidated reading notes; formal independent review remains owed",
     "allowed_activity": [
-      "reuse pinned sources",
-      "derive bounded global group proof by hand",
-      "describe prospective controls",
-      "save proof and compact handoff; commit/push; stop"
+      "read sources and reuse existing direct lemmas",
+      "complete one coherent phase classification by hand",
+      "fold nonblocking source notes into the same successor",
+      "transport all operators, norms and measuring data in equivalences",
+      "save bounded proof and handoff; commit/push; stop"
     ],
     "required_outputs": [
-      "CENTRALIZER_COMPONENTS.md <=1500 words plus <=60 witness-equation lines",
+      "COHERENT_PHASE_CLASSES.md <=2200 words plus <=80 equation lines",
       "RESUME.md <=700 words",
-      "new return relay <=250 words"
+      "new relay <=250 words"
     ],
-    "stop_condition": "Await the bounded successor ticket; author results retain their individual grades",
+    "stop_condition": "Return completed phase proof or exact unresolved step for substantive review",
     "next_microtask_released": false,
     "scientific_execution_authorized": false
   },

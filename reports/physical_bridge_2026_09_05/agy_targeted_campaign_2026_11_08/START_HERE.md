@@ -1,11 +1,22 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-09. Coordination revision 13, requested by the owner to avoid
+2026-11-09. Coordination revision 14, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
 
-## Current state after AGY-01b
+## Current assignment AGY-01c
+
+Read RUN_TICKET_AGY_01C.md. Finish the coherent correction classes
+under the actual gauge action on both core holonomies. Carry the
+full physical operators, norms and Q/C measuring references. Reuse
+the component theorem, direct E8 lemma and connected-sign equivalence
+with their stated grades. Fold the consolidated notes into this
+substantive successor. One bounded hand-proof packet, compact handoff
+and short relay, commit/push and stop. Formal review and scientific
+admission remain outstanding.
+
+## Prior state after AGY-01b, accepted with consolidated notes
 
 The component result at6e9683ab93f438971a0da5b10107acc3cacafc31
 is accepted at hand scope with the consolidated reading notes in

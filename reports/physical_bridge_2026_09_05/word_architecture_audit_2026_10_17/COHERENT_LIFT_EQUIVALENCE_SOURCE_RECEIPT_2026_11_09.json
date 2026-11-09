@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-09",
+  "evidence_grade": "author hand derivation; UNREVIEWED and UNRUN",
+  "source_baseline": "8ff6329c0fc7e8c5a3d0e1772e6f35c16a7198a5",
+  "scientific_execution": false,
+  "new_scientific_code": false,
+  "formal_independent_review": null,
+  "main_execution_acceptance": null,
+  "execution_admission": null,
+  "sources": [
+    {
+      "commit": "8ff6329c0fc7e8c5a3d0e1772e6f35c16a7198a5",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/DIRECT_CENTRALIZER_AND_REGISTERED_GRADING_SELECTION_2026_11_09.md",
+      "sha256": "73dfc767b5c7c134c7ed092eb6a15ba3f33445ee50f0ae9fe82167983ccdef20"
+    },
+    {
+      "commit": "476d20bbb4a2e52bf1650fd0d8819d6cd869027e",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COMPENSATOR_RANGE_AUDIT.md",
+      "sha256": "81b29726b20218ed2625de06369c7a5d55c13427d85d81ed2888d27a3280a0d3"
+    },
+    {
+      "commit": "6e9683ab93f438971a0da5b10107acc3cacafc31",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CENTRALIZER_COMPONENTS.md",
+      "sha256": "a0e86b7164e401498869fce468a5fcfad140ca28529e86d721b3dffab7673075"
+    },
+    {
+      "commit": "8ff6329c0fc7e8c5a3d0e1772e6f35c16a7198a5",
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "commit": "8ff6329c0fc7e8c5a3d0e1772e6f35c16a7198a5",
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    },
+    {
+      "commit": "8ff6329c0fc7e8c5a3d0e1772e6f35c16a7198a5",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PIN2_COMPENSATOR_COHERENCE_AND_ELECTROMAGNETIC_PHASE.md",
+      "sha256": "fc67d4446b11f54c731b7e7aac56b496e501d5fa397040363de6c8074909a3b9"
+    },
+    {
+      "commit": "8ff6329c0fc7e8c5a3d0e1772e6f35c16a7198a5",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md",
+      "sha256": "6012816683f17ac83e7d3bdb4f6d8b987ec8155ee2caa09ce651dbf0b194ed4c"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COHERENT_LIFT_SIGN_EQUIVALENCE_AND_REFERENCE_PRICE_2026_11_09.md",
+      "sha256": "e738bdbee6a7ca2b78d9935a5b6336ddf40faf16d1711923d0ef06b0224b3e67"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RUN_TICKET_AGY_01C.md",
+      "sha256": "b9e1afd7e888485a60fc61b72951e7bd7789698da2c96a26702beea802f01253"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_2026-11-09_6E968_ACCEPTED_COMPLETE_PHASE_PACKET.md",
+      "sha256": "ebda6ace1e974954c3933f1f51121d3ef1b84a33da7d717022dff8c6f56dbf26"
+    }
+  ],
+  "residual_inputs": [
+    "supplied E8 action, carrier, state and coherent Pin2 requirement",
+    "register-to-physical field and reference map",
+    "whether an ordered measuring reference is included and held fixed",
+    "global phase and vacuum selection"
+  ],
+  "supported_author_conclusions": [
+    "full conjugacy of connected lift signs when fields and measuring data are transported",
+    "actual four-slot norm/operator and vertex transport conditional on source covariance",
+    "relative lift choice persists with the ordered C-grading held fixed"
+  ],
+  "foundation_input_reduction_claimed": false
+}
