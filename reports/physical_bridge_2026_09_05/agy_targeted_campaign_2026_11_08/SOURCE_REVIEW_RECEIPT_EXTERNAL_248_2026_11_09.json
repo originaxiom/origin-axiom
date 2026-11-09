@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-09",
+  "activity": "personal Clifford hand derivation and document patch/Git/hash metadata only",
+  "decision": "W_F1_SIGN_CORRECTION_HAND_VERIFIED; EXTERNAL_NUMERICAL_ARTIFACTS_PENDING",
+  "source": {
+    "commit": "6e9683ab93f438971a0da5b10107acc3cacafc31",
+    "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CENTRALIZER_COMPONENTS.md",
+    "sha256": "a0e86b7164e401498869fce468a5fcfad140ca28529e86d721b3dffab7673075",
+    "byte_identical_at_agy_head": "be7047fb6d29346d0fce3818c2cae05ec5ca33b9"
+  },
+  "correction": {
+    "patch_path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CENTRALIZER_COMPONENTS_W_F1_SIGN_2026_11_09.patch",
+    "patch_sha256": "013954487abc722fe4d3254ddb7c91840cee3c8df00fff91960d299d4b82e70d",
+    "corrected_source_sha256": "0e21636e01332e6cae765382c79aff9278dfdbe074e7e94a729a6aeb359a4ff4",
+    "replacements": 2,
+    "check_applied_in_temporary_document_copy": true,
+    "identity": "pi_E8(W f1)=h1 C",
+    "historical_expression": "pi_E8(U f1(-omega6))=Zeta h1 C",
+    "difference_visible_on": 128,
+    "component_result_preserved": "C0 and C1 remain two components"
+  },
+  "review_failure_preserved": {
+    "physical_review_commit": "8ff6329c0fc7e8c5a3d0e1772e6f35c16a7198a5",
+    "missed_item": "late witness W f1 sign in AGY-01b lines86 and88"
+  },
+  "external_report": {
+    "channel": "owner-provided exploration-seat summary",
+    "code_commit": null,
+    "script_paths": null,
+    "raw_outputs": null,
+    "owner_reply": "yes, in a bit",
+    "status": "awaiting immutable artifacts and coverage review",
+    "reported_numerical_residuals": "approximately 1e-14 to 1e-12; not reproduced by physical seat"
+  },
+  "scientific_execution_by_physical_seat": false,
+  "existing_prospective_controls_status": "UNRUN; no execution admission inferred",
+  "formal_independent_review_of_external_audit": null,
+  "canonical_physical_input_reductions_claimed": 0,
+  "new_artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/EXTERNAL_248_AUDIT_INTAKE_AND_W_F1_CORRECTION_2026_11_09.md",
+      "sha256": "b71fc42e9203dbc351e159da32c33f79315fa481b8479a82b0af9454d66795f4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_2026-11-09_EXTERNAL_248_AUDIT_AND_W_F1_SIGN.md",
+      "sha256": "7701505700b81a20c8a72d5309eb5928278321a3c795d05a4119b147c55fbe5a"
+    }
+  ]
+}

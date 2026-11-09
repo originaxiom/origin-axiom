@@ -1,6 +1,6 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-09. Coordination revision 19, requested by the owner to avoid
+2026-11-09. Coordination revision 20, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
@@ -16,6 +16,18 @@ physical Hodge metrics and positive kinetic norms. Bundle the joined
 packet's map/scope/input repairs in the same substantive return.
 Commit/push and stop. This is existing-model hand preparation for AGY-04.
 AGY-03 response duties, formal review and scientific admission remain open.
+
+## Late source addendum for the current return
+
+The exploration-seat report exposed a sign error in AGY-01b's W f1
+witness at lines86 and88. Read EXTERNAL_248_AUDIT_INTAKE_AND_W_F1_
+CORRECTION_2026_11_09.md (one filename without the line break) and apply
+CENTRALIZER_COMPONENTS_W_F1_SIGN_2026_11_09.patch. The corrected identity
+is pi_E8(W f1)=h1 C. Its component stays C1. Publish the corrected source
+hash in the current AGY-04a return, preserving original history. The
+physical seat's earlier hand review also missed this particular sign.
+External numerical audit artifacts are pending from the owner. Their
+summary creates no new science-execution status or admission.
 
 ## Prior assignment AGY-02c, joined hand result with binding corrections
 

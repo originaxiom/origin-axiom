@@ -149,7 +149,9 @@
         "decision": "ACCEPT_SCOPED_HAND_RESULT_WITH_CONSOLIDATED_READING_NOTES",
         "review": "REVIEW_AGY_01B_6E968_2026_11_09.md",
         "formal_independent_review": null,
-        "execution": null
+        "execution": null,
+        "late_witness_addendum": "EXTERNAL_248_AUDIT_INTAKE_AND_W_F1_CORRECTION_2026_11_09.md",
+        "exact_wf1_witness_requires_patch": true
       },
       "phase_result": {
         "checkpoint": "b299c2ab5adfa624e41dec5cf72506a3f3277b73",
@@ -338,8 +340,8 @@
     "six_control_science_execution": "UNRUN; separate main acceptance and admission outstanding",
     "later_seven_and_four_controls": "UNRUN; outside completed review"
   },
-  "coordination_revision": 19,
-  "revision_base_commit": "393368cc42b3eeb08a101a084cb2b3537e352e73",
+  "coordination_revision": 20,
+  "revision_base_commit": "bf5e9a662fca4b5aa81801d20a5f71f1b137e828",
   "start_document": "START_HERE.md",
   "max_active_microtasks_per_worker_context": 1,
   "dispatch": {
@@ -366,7 +368,8 @@
     ],
     "stop_condition": "Return exact current rank/norm witness or the precise unresolved phase/product/integral for substantive review",
     "next_microtask_released": false,
-    "scientific_execution_authorized": false
+    "scientific_execution_authorized": false,
+    "late_source_repair": "Apply CENTRALIZER_COMPONENTS_W_F1_SIGN_2026_11_09.patch and publish new source hash with AGY-04a; original source/reviews remain preserved."
   },
   "context_policy": {
     "one_question_per_run": true,
@@ -388,5 +391,17 @@
     "formal_review_can_remain_pending_during_author_hand_successors": true,
     "operator_source_guardrail": "Reuse original coordinate expressions verbatim or declare the complete source/target/norm rescaling before altering their factors.",
     "negative_scope_guardrail": "Preserve named-mode versus full-degenerate-eigenspace quantifiers; an unresolved other-mode spectrum remains open."
+  },
+  "late_source_addendum": {
+    "date": "2026-11-09",
+    "source": "CENTRALIZER_COMPONENTS.md at6e9683ab9, unchanged atbe7047fb6",
+    "finding": "W f1 witness uses wrong omega6 sign on128",
+    "correction": "pi_E8(W f1)=h1 C",
+    "document": "EXTERNAL_248_AUDIT_INTAKE_AND_W_F1_CORRECTION_2026_11_09.md",
+    "patch": "CENTRALIZER_COMPONENTS_W_F1_SIGN_2026_11_09.patch",
+    "corrected_source_sha256": "0e21636e01332e6cae765382c79aff9278dfdbe074e7e94a729a6aeb359a4ff4",
+    "apply_with_current_task": "AGY-04a",
+    "external_numerical_artifacts": "pending from owner/exploration seat",
+    "scientific_execution_authorized": false
   }
 }
