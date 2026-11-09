@@ -1,0 +1,117 @@
+# Complete Neutral $D_5$ Harmonic Kernel and Critical Endpoint Resolution (`AGY-02b`)
+
+- **Date:** `2026-11-09`
+- **Status / Evidence Grade:** `AUTHOR HAND DERIVATION / UNREVIEWED` (`scientific_execution_authorized = false`; no scientific code, CAS, imports, collection, or runs; formal independent nonauthoring review and admission owed)
+- **Active Microtask:** `AGY-02b` (`RUN_TICKET_AGY_02B.md` at `65b359b222daaf7e3deb3e5d084dbc312bec2905`, SHA256 `6b4b7622c016c3fc0e5e6a1360523952ad6ecaa5e3883e0b9d6573eca00c61f5`; `START_HERE.md`, SHA256 `c322d9b369aa665051aae448858c0785626922d0ddcfdd243f9deddefaa0f248`; `TASKS.json`, SHA256 `7523828a6b8c8adfab74c4053eaffba3f14a77c2116c4d215c35033bfd865636`; `REVIEW_AGY_02A_D1F_2026_11_09.md`, SHA256 `9ef01b8f4c6418198da299c698726a1100d60b0eba0199469d783c1fc50f624d`)
+- **Baseline Pins:** Physical `3234bbdd76245bcd484cbbf1bae24aab84d281da` (extended through `65b359b222daaf7e3deb3e5d084dbc312bec2905`); Canonical GENESIS `217e37c4f37bd80998f3c3e10cad358023f58114`
+- **Accepted / Supported Campaign Dependencies:**
+  - `COEFFICIENT_ROSTER.md` (repaired in `AGY-02b`, SHA256 `a98ff428d827d11adf8400e9e03e49b7360f3ccae03ed6f957e9780eec4ed33f`), `REGISTER_TO_GRADING.md` (`965c3652ce550b448e3aa37e0b397f5492339882ce18b38a94f4bdf36addf008`), `COHERENT_PHASE_CLASSES.md` (`9b0ec09b6b5effbfd5853dcd599f95ff3bb2106d39c1a2146c226b069630f6d0`), `CENTRALIZER_COMPONENTS.md` (`a0e86b7164e401498869fce468a5fcfad140ca28529e86d721b3dffab7673075`), `COMPENSATOR_RANGE_AUDIT.md` (`81b29726b20218ed2625de06369c7a5d55c13427d85d81ed2888d27a3280a0d3`), `INPUT_LEDGER.md` (`98bf93b4be89297901e8f9718f88ea526105b717310df63b75e21deb282713e5`)
+- **Pinned Operator & Analytical Sources:**
+  - `PHYSICAL_ROSTER_TARGETS_AND_NEUTRAL_TAIL_CONTROL_2026_11_09.md` (`65b359b222daaf7e3deb3e5d084dbc312bec2905`, `4079abd1606bcd72e4f20b0a89db1fd14de8f7a2fcb8ad9d5858160f912915e6`)
+  - `weave_physical_mass_2026_10_08/PROOF.md` (`04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d`)
+  - `weave_curved_action_2026_10_08/PROOF.md` (`c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f`)
+  - `ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md` (`871529dd81603e1a70126f6ee518ae5c2758c107cf7e9fff62ae96f646a0813f`)
+  - `COUPLED_UP_SECTOR_PARABOLIC_COUNT_2026_11_08.md` (`477743caf7f2edc91117ed9f7ef24efcb834c5a8968bfd19ffc46865d75d9ff9`)
+  - `UP_SECTOR_EXPLORATORY_NEUTRAL_NOTES_2026_11_08.md` (`c4110e34a25e37d72dd9ec1823cb01320071cb6ae17608d68c3a658bd38a9de0`)
+  - `CENTRALIZER_KERNEL_WITH_THRESHOLD_CONTINUUM.md` (`a19e2c6c6b4faa0db3bbe16402499314f259a8db0ce590b0bcaf3ac4130970f5`) & `INDEPENDENT_PROOF_CODE_REVIEW_2026_11_07.md` (`00fba6daf441dea71f9be642ac5e049e6b27de1f20ac25729a94d556631a2f4c`)
+
+---
+
+## 1. Duty 1: Baseline Setup, Extending Spin Parametrization $\eta$, and Source Search
+
+Fix the balanced two-triple saddle $\Phi_0=(\hat{q},\hat{r})=(E,G)/(2\sqrt{2}\ell)=((E_++E_-),(E_+-E_-))/(2\sqrt{2}\ell)$ on the complete finite-area once-punctured elliptic curve $\Sigma_{1,1}=C\setminus\{p\}$ ($\pi_1(\Sigma_{1,1})=\langle a,b\rangle\cong F_2$, $c=[a,b]$, curvature $-1/\ell^2$), at our specified comparison baseline $W=1$, for both coherent phase representatives $h_4=\exp(-\frac{\pi}{4}(J_1+J_2+J_3))\in G_0$ and $h_1=\pi_{E_8}(U f_1)\in s G_0$.
+- **Extending spin parametrization:** Factor the extending spin bundle on $\Sigma_{1,1}$ relative to the odd reference spin $S_0$ (which extends to the trivial holomorphic line $\mathcal{O}_C$ on $C$ with peripheral cusp sign $-1$), writing $S=S_0\otimes\eta$ where $\eta\in\operatorname{Hom}(F_2,\{\pm 1\})=\{\chi_{(0,0)},\chi_{(1,0)},\chi_{(0,1)},\chi_{(1,1)}\}$ ($\eta(c)=+1$, $\eta^2=\mathcal{O}_C$). Starting at $\eta=\mathcal{O}=\chi_{(0,0)}$ ($\eta(a)=\eta(b)=+1$), the dependence on the other three extending spins enters every surviving spin power $S^a$ via the flat twist $\eta^a$ ($\eta^{\text{even}}=\mathcal{O}_C$, $\eta^{\text{odd}}=\eta$).
+- **Prior source search:** Repository search (`weave_two_neutral_index_2026_10_08/PROOF.md`, `ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md`, `LEVEL_FIVE_TRANSPORT_COMPLETE_KERNEL_CANDIDATE.md` §6, `UP_SECTOR_EXPLORATORY_NEUTRAL_NOTES_2026_11_08.md`) confirms that earlier neutral analyses treated either untwisted-flavour $W$-backgrounds, order-five non-critical $\theta\notin\frac{1}{2}\mathbb{Z}$ transports, or provisional bookkeeping without proving the quaternion-coupled $(45,1)$ domain transfer and critical $a=1$ adjoint endpoint.
+
+---
+
+## 2. Duty 2: Source Representatives, Balanced Flavour Coordinates, and Core/Higgs Actions on $(45,1)$
+
+Retain all $45$ dimensions of the $D_5$-adjoint $(45,1)=\Lambda^2(V_{5,+}\oplus V_{5,-})=W_1\oplus W_3\oplus V_{(2,2)}$, where $W_1=V_{(1,0)}\oplus V_{(0,1)}$ ($3+3=6$ dims), $W_3=V_{(3,0)}\oplus V_{(0,3)}$ ($7+7=14$ dims), and $V_{(2,2)}=V_{5,+}\otimes V_{5,-}$ ($5\times 5=25$ dims). Retain all four physical left Weyl slots $\psi=(\lambda,a,u,v)$ with coordinate kinetic densities $(\Omega^2,1/2,\Omega,\Omega)$ and the corrected input/output bundles (`PHYSICAL_ROSTER_TARGETS_AND_NEUTRAL_TAIL_CONTROL_2026_11_09.md` §1):
+```text
+Input:   (lambda, a, (u,v)^T)   in (E_m ~= S^-m,   K_bar tensor E_m ~= S^(-2-m),   S tensor F tensor E_m ~= S^(1-m) tensor F)
+Output:  (g, 2it+sqrt(2)D_z lambda, (p_2/Omega-..., -p_1/Omega-...)^T) in (E_m ~= S^-m,   K tensor E_m ~= S^(2-m),   S_bar tensor F_bar tensor E_m ~= S^(-1-m) tensor F_bar)
+```
+Apply the constant unitary flavour transformation $U_F=\frac{1}{\sqrt{2}}\begin{pmatrix}1&1\\1&-1\end{pmatrix}$ ($\det U_F=-1$) to $(q',r')=U_F(q,r)=\frac{1}{2\ell}(E_+,E_-)$ and $(u',v')=U_F(u,v)$ (`COUPLED_HALF_ROOT_KERNEL_AND_CORE_LIFT_SENSITIVITY.md` §2). Carry the $\epsilon_F$ pairing ($\epsilon_F'=U_F\epsilon_F U_F^T=-\epsilon_F$) and degree-two wedge $e_+\wedge e_-$ (where $\det\rho'=+1$) with $U_F$:
+```text
+rho'(a) = U_F*F_i*U_F^-1 = i*sigma_x = [[0,i],[i,0]],   rho'(D) := U_F*(F_j*F_i^-1)*U_F^-1 = diag(i,-i),   rho'(b) = rho'(D)*rho'(a) = [[0,i],[-i,0]]
+Ad_A(E_+, E_-) = (-i*E_-, -i*E_+),   Ad_A(E_+^dagger, E_-^dagger) = (+i*E_-^dagger, +i*E_+^dagger),   Ad_A(H_+, H_-) = (H_-, H_+)
+Ad_D(E_+, E_-) = (-i*E_+, +i*E_-),   Ad_D(E_+^dagger, E_-^dagger) = (+i*E_+^dagger, -i*E_-^dagger),   D = (-i)^(m_+ - m_-),   P = (-1)^(m_+ + m_-)
+```
+- **Phase action on $(45,1)$:** On $(45,1)$, $C=+1$ and $\mathrm{Zeta}=+1$, so bare $A$ satisfies $A^2=C^{-1}P=P=(-1)^m$. The connected phase $h_4\in G_0$ acts by $+1$ on all $45$ dims ($(X,Y)=(A,D A)$). On the outer phase $h_1=\pi_{E_8}(U f_1)\in s G_0$, $U f_1$ acts on $V_{5,+}\oplus V_{5,-}$ by $\operatorname{diag}(+I_5,-I_5)$, so $\operatorname{Ad}_{h_1}=+1$ on $W_1\oplus W_3=\Lambda^2(V_{5,+})\oplus\Lambda^2(V_{5,-})$ ($20$ dims, $(X,Y)=(A,D A)$, **identical** to $h_4$) and $\operatorname{Ad}_{h_1}=-1$ on $V_{(2,2)}=V_{5,+}\otimes V_{5,-}$ ($25$ dims, $(X,Y)=(-A,-D A)=\chi_{(1,1)}\otimes(A,D A)$, leaving $D=Y X^{-1}$ unchanged).
+
+---
+
+## 3. Duty 3: Source-Representative Core Matrices and Reduced Bundles on $W_1$, $W_3$, and $V_{(2,2)}$
+
+1. **Odd-$j$ Unequal Pairs $W_j=V_{(j,0)}\oplus V_{(0,j)}$ ($j\in\{1,3\}$, dims $6$ and $14$, aggregate Koszul ranks $(2,4,2)$):**
+   Let $v_+=|j,0\rangle\in V_{(j,0)}$ and $v_-=|0,j\rangle\in V_{(0,j)}$ be the normalized highest vectors ($m=j$ odd, $P_{\text{top}}=(-1)^j=-1$). On $\operatorname{span}(v_+,v_-)$, $A_{\text{top}}$ exchanges the two summands with $A_{\text{top}}^2=P_{\text{top}}=-I_2$, while $D_{\text{top}}=\operatorname{diag}((-i)^j,(+i)^j)=(-i)^j\sigma_z$ anticommutes with $A_{\text{top}}$ and obeys $D_{\text{top}}^2=-I_2$. Lowering $2j$ times by $(E_\pm^\dagger)^{2j}$ to $|-j,0\rangle,|0,-j\rangle$ multiplies $A_{\text{top}}$ by $i^{2j}=(-1)^j=-1$ and negates $D_{\text{top}}$. Grouping the four surviving Koszul degree-$1$ representatives by equal spin power $a_+=1+j\in\{2,4\}$ ($\operatorname{span}(w_+=e_+\otimes|-j,0\rangle,w_-=e_-\otimes|0,-j\rangle)$) and $a_-=1-j\in\{0,-2\}$ ($\operatorname{span}(u_+=e_-\otimes|j,0\rangle,u_-=e_+\otimes|0,j\rangle)$) gives:
+```text
+Deg 0 (S^-j G_0^(j), rank 2, m=+j):       A_0 = A_top,    D_0 = (-i)^j*sigma_z,   B_0 = D_0*A_0  ==>  A_0^2 = D_0^2 = B_0^2 = [A_0,B_0] = -I_2  (cusp -I_2)
+Deg 1 (S^(1-j) M_(1-j)^(j), rank 2, m=+j): A_(1-j) = i*A_top,  D_(1-j) = (-i)^(j+1)*I_2 = (-1)^((j+1)/2)*I_2,  A_(1-j)^2 = +I_2,  [A_(1-j),B_(1-j)] = +I_2 (cusp +I_2)
+Deg 1 (S^(1+j) M_(1+j)^(j), rank 2, m=-j): A_(1+j) = -i*A_top, D_(1+j) = (+i)^(j+1)*I_2 = (-1)^((j+1)/2)*I_2,  A_(1+j)^2 = +I_2,  [A_(1+j),B_(1+j)] = +I_2 (cusp +I_2)
+Deg 2 (S^(2+j) G_2^(j), rank 2, m=-j):     A_2 = -A_top,   D_2 = -(-i)^j*sigma_z,  B_2 = D_2*A_2  ==>  A_2^2 = D_2^2 = B_2^2 = [A_2,B_2] = -I_2  (cusp -I_2)
+```
+   - For **$j=1$ ($W_1$)**: $(-1)^{(1+1)/2}=-1$, so $D_0^{(1)}=D_2^{(1)}=-I_2$ and $B_{0,2}^{(1)}=-A_{0,2}^{(1)}$. Since $(A_{0,2}^{(1)})^2=+I_2$ (eigenvalues $\pm 1$), both middle rank-$2$ bundles split into the two **nontrivial** order-two characters $M_2^{(1)}\cong M_0^{(1)}\cong\chi_{(0,1)}\oplus\chi_{(1,0)}=(+1,-1)\oplus(-1,+1)$.
+   - For **$j=3$ ($W_3$)**: $(-1)^{(3+1)/2}=+1$, so $D_4^{(3)}=D_{-2}^{(3)}=+I_2$ and $B_{4,-2}^{(3)}=+A_{4,-2}^{(3)}$, splitting both middle rank-$2$ bundles into $M_4^{(3)}\cong M_{-2}^{(3)}\cong\chi_{(0,0)}\oplus\chi_{(1,1)}=(+1,+1)\oplus(-1,-1)$.
+
+2. **Symmetric Tensor Block $V_{(2,2)}=V_{5,+}\otimes V_{5,-}$ ($25$ dims, Koszul ranks $(1,2,1)$):**
+   In $\Lambda^2(V_{5,+}\oplus V_{5,-})$, the highest vector $v_{\text{top}}=|+2,+2\rangle\in V_{(2,2)}$ ($m=4$) is the exterior product $v_+^{(2,0)}\wedge v_-^{(0,2)}$ of the highest vectors of $V_{5,+}$ and $V_{5,-}$. Since $A_{\text{vec}}v_+^{(2,0)}=v_-^{(0,2)}$ and $A_{\text{vec}}v_-^{(0,2)}=-v_+^{(2,0)}$ on $V_{10}$, bare $A$ acts on $v_{\text{top}}=v_+^{(2,0)}\wedge v_-^{(0,2)}$ by $\det\begin{pmatrix}0&-1\\1&0\end{pmatrix}=+1$, and $D|_{v_{\text{top}}}=(-i)^{2-2}=+1$. Lowering by $(E_+^\dagger)^4(E_-^\dagger)^4$ gives $i^8=+1$ on $v_{\text{bot}}=e_+\wedge e_-\otimes|-2,-2\rangle$ ($m=-4$). On the two degree-$1$ mixed-extreme representatives $w_1=e_+\otimes|-2,+2\rangle=e_+\otimes v_u$ and $w_2=e_-\otimes|+2,-2\rangle=e_-\otimes v_v$ ($m=0$, where $(E_+^\dagger)^4$ gives $i^4=+1$ so $A v_u=v_v, A v_v=v_u$ and $D v_u=(-i)^{-4}v_u=+v_u, D v_v=(-i)^4 v_v=+v_v$), combining $\rho'(a)=i\sigma_x$ and $\rho'(D)=i\sigma_z$ with $\operatorname{Ad}_{K_h}$ ($\epsilon_h=+1$ on $h_4$, $\epsilon_h=-1$ on $h_1$, $L_{\text{ph}}:=\chi_{(0,0)}$ on $h_4$ and $\chi_{(1,1)}$ on $h_1$) yields:
+```text
+Deg 0 (S^-4 L_ph, rank 1, m=+4):   v_top = |+2,+2>,                    (X, Y) = (epsilon_h, epsilon_h) = L_ph,   cusp +1
+Deg 1 (S^1 V_1^(2,2), rank 2, m=0): (w_1, w_2) = (e_+ tensor v_u, e_- tensor v_v),  X_mid = epsilon_h*i*sigma_x,  D_mid = i*sigma_z,  Y_mid = -epsilon_h*sigma_y  (cusp -I_2!)
+Deg 2 (S^6 L_ph, rank 1, m=-4):    v_bot = e_+ wedge e_- tensor |-2,-2>, (X, Y) = (epsilon_h, epsilon_h) = L_ph,   cusp +1
+```
+   Note that $\sigma_z(i\sigma_x,-\sigma_y)\sigma_z^{-1}=(-i\sigma_x,+\sigma_y)$, so $\sigma_z=\operatorname{diag}(1,-1)$ on $\operatorname{span}(w_1,w_2)$ is an explicit unitary flat isomorphism $V_1^{(2,2)}(h_1)\xrightarrow{\sim} V_1^{(2,2)}(h_4)$.
+
+---
+
+## 4. Duty 4: Complete-Domain Transfer, Orthogonal Decoupling of $a=1$, and $L^2$ Kernels
+
+1. **Closed-Range Transfer and $L^2$ Cohomology on $W_1\oplus W_3$ ($a\in\{-1,2,0,3;-3,4,-2,5\}$):**
+   All eight surviving spin powers on $W_1\oplus W_3$ avoid the critical exponent $a=1$: in $T=\ln y$, the zero-angular radial operator $\partial_T-(a-1)/2$ (`COUPLED_UP_SECTOR_PARABOLIC_COUNT_2026_11_08.md` §5) has nonzero constant $c=(a-1)/2\in\{-1,\pm 1/2,+1;-2,\pm 3/2,+2\}$, giving a bounded $L^2$ right inverse of norm $1/|c|$ on the cusp tail, closed range, and Fredholm graph realizations. Averaging the local bounded Koszul homotopy $h$ over the finite $Q_8$ transition image preserves $\delta h+h\delta=I-i p$, holomorphicity, and compact-support cores, transferring closed range and harmonic dimensions to $M|_{W_1\oplus W_3}$. Using the exact $L^2$ pole bounds (`COUPLED_UP_SECTOR_PARABOLIC_COUNT_2026_11_08.md` §3–4: $n<a/2$ or $n\le a/2$ for $a<1$ at cusp $+I$; $n<(a+1)/2$ or $n\le(a+1)/2$ for $a<1$ in the $w^{1/2}$ extension frame $E(V)$ of degree $-1$ at cusp $-I$, where $(h^0,h^1)(E(V)\otimes L)=(0,1)$ and $(h^0,h^1)(E(V)\otimes L(p))=(1,0)$):
+   - **$W_1=V_{(1,0)}\oplus V_{(0,1)}$:**
+     - Deg $0$ ($a=-1<1$, cusp $-I_2$, $n_{\max}=0$): $\mathcal{E}_0^{(1)}=E(G_0^{(1)})\otimes\eta^{-1}$ ($\deg=-1$, $(h^0,h^1)=(0,1)$ for all $\eta$).
+     - Deg $1$ ($a=2\ge 1, b(2)=0$ and $a=0<1, b(0)=0$, cusp $+I_2$): $\eta^2 M_2^{(1)}=M_0^{(1)}=\chi_{(0,1)}\oplus\chi_{(1,0)}$ (nontrivial degree-$0$ lines, $(h^0,h^1)=(0,0)$ for all $\eta$, since $\eta^2=\eta^0=\mathcal{O}_C$).
+     - Deg $2$ ($a=3\ge 1$, cusp $-I_2$, $n_{\max}=1$): $\mathcal{E}_2^{(1)}=E(G_2^{(1)})\otimes\eta^3(p)$ ($\deg=+1$, $(h^0,h^1)=(1,0)$ for all $\eta$).
+     - **Result on $W_1$:** $(H^0,H^1,H^2,H^3)(W_1)=(0,1,1,0)\implies\dim\ker_{L^2}M|_{W_1}=\dim\ker_{L^2}M^\dagger|_{W_1}=1$ (for all $\eta$ and both $h_4,h_1$).
+   - **$W_3=V_{(3,0)}\oplus V_{(0,3)}$:**
+     - Deg $0$ ($a=-3<1$, cusp $-I_2$, $n_{\max}=-1$): $\mathcal{E}_0^{(3)}=E(G_0^{(3)})\otimes\eta^{-3}(-p)$ ($\deg=-3$, $h^0=0$ by subharmonic maximum principle since $\mathcal{E}_0^{(3)}\subset E(G_0^{(3)})\otimes\eta^{-3}$, $h^1=3$ by Riemann–Roch for all $\eta$).
+     - Deg $1$ ($a=4\ge 1, b(4)=1$ and $a=-2<1, b(-2)=-1$, cusp $+I_2$): $\eta^4 M_4^{(3)}(p)=\mathcal{O}(p)\oplus\chi_{(1,1)}(p)$ ($\deg=1+1$, $(h^0,h^1)=(2,0)$) and $\eta^{-2}M_{-2}^{(3)}(-p)=\mathcal{O}(-p)\oplus\chi_{(1,1)}(-p)$ ($\deg=-1-1$, $(h^0,h^1)=(0,2)$ for all $\eta$).
+     - Deg $2$ ($a=5\ge 1$, cusp $-I_2$, $n_{\max}=2$): $\mathcal{E}_2^{(3)}=E(G_2^{(3)})\otimes\eta^5(2p)$ ($\deg=+3$, dual $E((G_2^{(3)})^*)\otimes\eta^{-5}(-p)$ has $h^0=0$, so $(h^0,h^1)=(3,0)$ for all $\eta$).
+     - **Result on $W_3$:** $(H^0,H^1,H^2,H^3)(W_3)=(0,3+2,2+3,0)=(0,5,5,0)\implies\dim\ker_{L^2}M|_{W_3}=\dim\ker_{L^2}M^\dagger|_{W_3}=5$ (for all $\eta$ and both $h_4,h_1$).
+
+2. **Exact Global Orthogonal Splitting of $M|_{V_{(2,2)}}$ and Resolution of the Critical $a=1$ Endpoint:**
+   On $V_{(2,2)}$, the middle package $S^1 V_1^{(2,2)}$ sits at the critical exponent $a=1$ ($c=0$) with peripheral $-I_2$, where compact extension counting $h^1(E(V_1^{(2,2)}))=1$ would manufacture a false $H^2$ mode (`UP_SECTOR_EXPLORATORY_NEUTRAL_NOTES_2026_11_08.md`). Instead, inspect the full four-slot operator $M$ directly on $\mathcal{S}_{\text{crit}}^{(2,2)}:=S\otimes V_1^{(2,2)}=S\otimes\operatorname{span}(e_+\otimes v_u,e_-\otimes v_v)$ ($v_u=|-2,+2\rangle,v_v=|+2,-2\rangle$, $m=0$):
+```text
+E_+^dagger v_u = 0,   E_- v_u = 0,   E_-^dagger v_v = 0,   E_+ v_v = 0,   H v_u = H v_v = 0   (identically on V_(2,2)!)
+==> For psi_crit = (0, 0, f_1*v_u, f_2*v_v) in S_crit^(2,2):   D_0^dagger x propto E_+^dagger(f_1*v_u) + E_-^dagger(f_2*v_v) = 0,   t propto E_+(f_2*v_v) - E_-(f_1*v_u) = 0
+==> For arbitrary (lambda, a):   <v_u, [q',a]> = <E_+^dagger v_u, a> = 0,  <v_u, [(r')^dagger,lambda]> = <E_- v_u, lambda> = 0,  <v_v, [r',a]> = <v_v, [(q')^dagger,lambda]> = 0
+```
+   Because $v_u,v_v$ annihilate both the outgoing Higgs maps ($E_+^\dagger,E_-$ on $v_u$; $E_-^\dagger,E_+$ on $v_v$) **and** the adjoint incoming Higgs maps from $(\lambda,a)$ into the $(v_u,v_v)$ spin rows, while $A_{\text{spin}}=0$ at $m=0$ and $(X,Y)$ preserves $V_1^{(2,2)}$ unitarily, **$\mathcal{S}_{\text{crit}}^{(2,2)}$ decouples globally on $\Sigma_{1,1}$ as an exact orthogonal direct summand of the full four-slot operator**:
+   $$M\big|_{V_{(2,2)}} = M_{\text{crit}} \oplus M\big|_{\mathcal{H}_\perp^{(2,2)}}, \qquad M_{\text{crit}} = \Omega^{-1}\epsilon_F'\bar{D} : L^2\bigl(S\otimes V_1^{(2,2)};\Omega\,dx\,dy\bigr) \to L^2\bigl(\bar{S}\otimes\overline{V_1^{(2,2)}};\Omega\,dx\,dy\bigr).$$
+   - **On the decoupled critical summand $\mathcal{S}_{\text{crit}}^{(2,2)}$ ($a=1$, cusp $-I_2$):**
+     1. *Threshold continuum:* By the direct four-slot singular sequence $\psi_L=(0,0,f_L(t)v_u,0)$ (`PHYSICAL_ROSTER_TARGETS_AND_NEUTRAL_TAIL_CONTROL_2026_11_09.md` §2), $\|M\psi_L\|\le c_\ell\|\chi'\|/L\to 0$, so $0\in\sigma_{\text{ess}}(M_{\text{crit}})$ and $\operatorname{ran}(M_{\text{crit}})$ is not closed.
+     2. *Vanishing of both $\ker_{L^2}(M_{\text{crit}})$ and $\ker_{L^2}(M_{\text{crit}}^\dagger)$:* Because $M_{\text{crit}}$ is a pure peripheral-$-I_2$ spin Dolbeault operator with density $\Omega\,dx\,dy\sim dr\,d\theta/\ln(1/r)$, any $L^2$ distributional solution of $M_{\text{crit}}\psi=0$ (or $M_{\text{crit}}^\dagger\phi=0$, after complex conjugation $\bar{\phi}\in H^0(S\otimes(V_1^{(2,2)})^*)$) has half-integer Laurent expansion $\sum_{n\in\mathbb{Z}}c_n w^{n+1/2}$ with radial norm $\sum|c_n|^2\int r^{2n+1}/\ln(1/r)\,dr$ (`CENTRALIZER_KERNEL_WITH_THRESHOLD_CONTINUUM.md` §1). The $n=-1$ mode ($w^{-1/2}$, which generates the compact Serre-dual class $h^1(E(V_1^{(2,2)}))=1$) has divergent norm $\int dr/(r\ln(1/r))=\infty$ and is **excluded from $L^2(\Omega\,dx\,dy)$**. Thus $c_n=0$ for all $n\le -1$, $|\psi|_{\text{flat}}^2=O(|w|)\to 0$ at $p$, and the subharmonic maximum principle on $C\setminus\{p\}$ forces $\psi\equiv 0$ and $\phi\equiv 0$:
+        $$\ker_{L^2}\bigl(M_{\text{crit}}\bigr) = 0, \qquad \ker_{L^2}\bigl(M_{\text{crit}}^\dagger\bigr) = 0 \quad (\text{for all }\eta\text{ and both }h_4,h_1,\text{ with no Fredholm assumption}).$$
+   - **On the orthogonal complement $\mathcal{H}_\perp^{(2,2)}$ ($25$ $\lambda$, $25$ $a$, and $48$ $(u',v')$ slots):**
+     Removing the decoupled 2D summand $\operatorname{span}(w_1,w_2)$ leaves the fibre Koszul complex $0\to\mathbb{C}^{25}\xrightarrow{d_0}\mathbb{C}^{48}_\perp\xrightarrow{d_1}\mathbb{C}^{25}\to 0$, which is **exact in degree $1$** ($\ker(d_1|_{\mathbb{C}^{48}_\perp})=\operatorname{im}(d_0)$) and has surviving cohomology **only** in degree $0$ ($S^{-4}L_{\text{ph}}$, $a=-4<1$, $b(-4)=-2$, cusp $+1$) and degree $2$ ($S^6 L_{\text{ph}}$, $a=6\ge 1$, $b(6)=+2$, cusp $+1$). Both exponents $a=-4,6$ are strictly non-critical ($c=(a-1)/2=\mp 5/2\neq 0$), so the equivariant bounded Koszul retraction on $\mathcal{H}_\perp^{(2,2)}$ has closed range and reduces to the compact lines $\eta^{-4}L_{\text{ph}}(-2p)=L_{\text{ph}}(-2p)$ ($\deg=-2$, $(h^0,h^1)=(0,2)$) and $\eta^6 L_{\text{ph}}(2p)=L_{\text{ph}}(2p)$ ($\deg=+2$, $(h^0,h^1)=(2,0)$):
+     $$(H^0,H^1,H^2,H^3)\bigl(\mathcal{H}_\perp^{(2,2)}\bigr) = (0,2,2,0) \implies \dim\ker_{L^2}\bigl(M|_{V_{(2,2)}}\bigr) = \dim\ker_{L^2}\bigl(M^\dagger|_{V_{(2,2)}}\bigr) = 0 + 2 = 2!$$
+
+---
+
+## 5. Duty 5 & 6: Gauge-Parameter / Gaugino Accounting, Phase & Spin Table, and Full $248$ Join
+
+- **Gauge-parameter ($H^0$), gaugino ($H^3$), and chiral ($H^1$) accounting in $M$:**
+  In $M(\lambda,a,u,v)=(g:=D_0^\dagger x, 2i t+\sqrt{2}D_z\lambda, \dots)$, normalizable gauge-parameter zero modes ($\epsilon\in\ker D_0$) correspond to $H^0\subset\ker_{L^2}(M^\dagger)$ and scalar gaugino zero modes ($\lambda\in\ker M$ with $x=0$) correspond to $H^3\subset\ker_{L^2}(M)$. On $(45,1)$, $H^0=H^3=0$ across all three blocks ($W_1,W_3,V_{(2,2)}$) because $Z_{\mathfrak{so}(10)}(E_+,E_-)=0$ and the extreme bundles have negative/positive divisor degrees $(-1,-3,-2)$ and $(+1,+3,+2)$. Every one of the $1+5+2=8$ left zero modes in $\ker_{L^2}(M|_{(45,1)})$ is a chiral multiplet profile $x=(a,u,v)\in H^1$ satisfying the physical gauge constraint $D_0^\dagger x=0$ and superpotential equations $p_1=p_2=t=0$ with $\lambda=0$, counted once alongside $8$ adjoint modes in $H^2\subset\ker_{L^2}(M^\dagger|_{(45,1)})$ and the decoupled rank-$2$ critical $a=1$ threshold continuum $\mathcal{S}_{\text{crit}}^{(2,2)}$. On the closed-range Fredholm summand $W_1\oplus W_3\oplus\mathcal{H}_\perp^{(2,2)}$, $\operatorname{ind}(M)=8-8=0$.
+
+| Neutral $D_5$ Sub-Block & Dim | Surviving Reduced Bundles & Cusp | Compact Divisor / Sheaf ($h_4$ vs $h_1$; Spin $\eta$) | $(H^0,H^1,H^2,H^3)$ on Closed-Range Summand | Physical $\dim\ker_{L^2}M$ / $\dim\ker_{L^2}M^\dagger$ | Continuum & Phase / Spin Dependence |
+|---|---:|---|---|---|---|
+| $W_1=V_{(1,0)}\oplus V_{(0,1)}$ ($6$ dims) | $S^{-1}G_0^{(1)}$ ($-I_2$), $S^2 M_2^{(1)}\oplus S^0 M_0^{(1)}$ ($+I_2$), $S^3 G_2^{(1)}$ ($-I_2$) | $E(G_0^{(1)})\otimes\eta^{-1}$ ($\deg -1$); $\chi_{(0,1)}\oplus\chi_{(1,0)}$ ($\deg 0$, twice); $E(G_2^{(1)})\otimes\eta(p)$ ($\deg +1$) | $(0, 1+0, 0+1, 0) = (0,1,1,0)$ | $1$ chiral left ($H^1$) / $1$ adjoint ($H^2$); $0$ gaugino | Closed range ($a\in\{-1,2,0,3\}\not\ni 1$); **identical** on $h_4,h_1$ and all $4$ spins $\eta$ |
+| $W_3=V_{(3,0)}\oplus V_{(0,3)}$ ($14$ dims) | $S^{-3}G_0^{(3)}$ ($-I_2$), $S^4 M_4^{(3)}\oplus S^{-2}M_{-2}^{(3)}$ ($+I_2$), $S^5 G_2^{(3)}$ ($-I_2$) | $E(G_0^{(3)})\otimes\eta(-p)$ ($\deg -3$); $[\mathcal{O}\oplus\chi_{(1,1)}](\pm p)$ ($\deg \pm 2$); $E(G_2^{(3)})\otimes\eta(2p)$ ($\deg +3$) | $(0, 3+2, 2+3, 0) = (0,5,5,0)$ | $5$ chiral left ($H^1$) / $5$ adjoint ($H^2$); $0$ gaugino | Closed range ($a\in\{-3,4,-2,5\}\not\ni 1$); **identical** on $h_4,h_1$ and all $4$ spins $\eta$ |
+| $V_{(2,2),\perp}$ ($\mathcal{H}_\perp^{(2,2)}$ non-critical summand) | $S^{-4}L_{\text{ph}}$ ($+1$, $a=-4$), $S^6 L_{\text{ph}}$ ($+1$, $a=6$); deg $1$ exact on $\mathcal{H}_\perp^{(2,2)}$ | $h_4$: $\mathcal{O}(-2p),\mathcal{O}(2p)$; $h_1$: $\chi_{(1,1)}(-2p),\chi_{(1,1)}(2p)$ ($\eta^{\text{even}}=\mathcal{O}_C$) | $(0, 2, 2, 0)$ | $2$ chiral left ($H^1$) / $2$ adjoint ($H^2$); $0$ gaugino | Closed range ($a=-4,6$); dimension $2$ **invariant** across $h_4,h_1,\eta$; **line class twists** $\mathcal{O}(\mp 2p)\leftrightarrow\chi_{(1,1)}(\mp 2p)$ |
+| $\mathcal{S}_{\text{crit}}^{(2,2)}=S\otimes V_1^{(2,2)}$ (decoupled $a=1$) | $S^1 V_1^{(2,2)}$ ($-I_2$, $a=1$, $m=0$; $E_+^\dagger v_u=E_- v_u=E_-^\dagger v_v=E_+ v_v=0$) | Physical $L^2(\Omega\,dx\,dy)$ excludes $n=-1$ ($w^{-1/2}$) pole; $V_1^{(2,2)}(h_1)\cong V_1^{(2,2)}(h_4)$ via $\sigma_z$ | Decoupled non-Fredholm direct summand | $0$ left / $0$ adjoint (by $L^2$ Laurent bound + max principle) | **Threshold continuum $0\in\sigma_{\text{ess}}(M_{\text{crit}})$** on both $h_4,h_1$; compact $h^1(E)=1$ is non-$L^2$ |
+| **Total $(45,1)$ ($45$ dims)** | Ranks $(2,4,2)+(2,4,2)+(1,2,1)$ | All $4$ spins $\eta\in X_2$; both phases $h_4,h_1$ | $(0, 8, 8, 0)$ on $W_1\oplus W_3\oplus\mathcal{H}_\perp^{(2,2)}$ | **$8$ chiral left / $8$ adjoint ($0$ gaugino/gauge)** | **$8$ normalizable modes + $1$ rank-$2$ $a=1$ continuum**; $h_1$ twists $V_{(2,2)}$ mode characters by $\chi_{(1,1)}$ |
+
+- **Relation to the full $248$ roster at $W=1$ and next dependency:**
+  Combining $(45,1)$ ($8$ chiral modes + $a=1$ continuum) with `CENTRALIZER_KERNEL_WITH_THRESHOLD_CONTINUUM.md` on $(1,15)$ ($0$ spin modes + $15$ cusp continuum channels + $9$ gaugino + $9$ form modes on $h_4$ vs $10$ gaugino + $10$ form modes on $h_1$), `COUPLED_UP_SECTOR_PARABOLIC_COUNT_2026_11_08.md` on $(10,6)$ ($3\times 6=18$ chiral modes on both phases via $T=\exp(i\pi Z/4)$), and `COUPLED_HALF_ROOT_KERNEL_AND_CORE_LIFT_SENSITIVITY.md` on $128$ at $W=1$ ($3\times 8=24$ chiral modes for $\eta\in\{\chi_{(0,0)},\chi_{(1,1)}\}$ vs $2\times 8=16$ for $\eta\in\{\chi_{(1,0)},\chi_{(0,1)}\}$ on both phases) completes the $W=1$ $L^2$ kernel census across all $248$ directions, setting up the consolidated $AGY-02$ roster proof and the $AGY-03$/$AGY-04$ boundary-response and weak-current overlap tests.
