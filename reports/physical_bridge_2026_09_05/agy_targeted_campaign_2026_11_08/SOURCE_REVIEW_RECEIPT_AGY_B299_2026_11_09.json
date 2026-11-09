@@ -1,0 +1,138 @@
+{
+  "date": "2026-11-09",
+  "checkpoint": "b299c2ab5adfa624e41dec5cf72506a3f3277b73",
+  "decision": "CLASSIFICATION_SUPPORTED_WITH_EXPLICIT_WITNESS_CORRECTION",
+  "activity": "personal source reading, hand Clifford/group algebra and Git/hash metadata only",
+  "scientific_execution": false,
+  "formal_independent_review": null,
+  "reviewer_relationship": "physical seat authored earlier parts of the argument and the corrected explicit witness; this is not formal nonauthoring review",
+  "source_bytes_checked": 14,
+  "sources": [
+    {
+      "commit": "476d20bbb4a2e52bf1650fd0d8819d6cd869027e",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COMPENSATOR_RANGE_AUDIT.md",
+      "sha256": "81b29726b20218ed2625de06369c7a5d55c13427d85d81ed2888d27a3280a0d3",
+      "matches_declared": true
+    },
+    {
+      "commit": "c57e13613ca6c6e990bcdfc8f54495731ad1f579",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_01A_R1_476D_2026_11_09.md",
+      "sha256": "3337e40640fc3e70831f256376a7535c892828e4c644a3216b29df5f38ca8c99",
+      "matches_declared": true
+    },
+    {
+      "commit": "605294403ecdd26666f3902881558e4bf6b85e93",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+      "sha256": "98bf93b4be89297901e8f9718f88ea526105b717310df63b75e21deb282713e5",
+      "matches_declared": true
+    },
+    {
+      "commit": "6552aec6894a4a94a2ced785ac3af8c25f801ba8",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/MODEL_MANIFEST.md",
+      "sha256": "811956e0ffc5ca9f141c57e6eb5e98bc576aa5b8e7fe18909c4fc2cd9136ebdb",
+      "matches_declared": true
+    },
+    {
+      "commit": "43af86dbecb335ddd0952533dc2680d4a4e7f64a",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CLAIM_DEPENDENCIES.md",
+      "sha256": "eb68f876fdf5b842c471738d7fc1c672f685db1a552d30ad669d7f1dba02802a",
+      "matches_declared": true
+    },
+    {
+      "commit": "2f690bc486adf2dfc07dd4fd94bf62b6db27bc86",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md",
+      "sha256": "6012816683f17ac83e7d3bdb4f6d8b987ec8155ee2caa09ce651dbf0b194ed4c",
+      "matches_declared": true
+    },
+    {
+      "commit": "2f690bc486adf2dfc07dd4fd94bf62b6db27bc86",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PIN2_COMPENSATOR_COHERENCE_AND_ELECTROMAGNETIC_PHASE.md",
+      "sha256": "fc67d4446b11f54c731b7e7aac56b496e501d5fa397040363de6c8074909a3b9",
+      "matches_declared": true
+    },
+    {
+      "commit": "01d425c3c10399449de4121e53be9c064bbcc8b8",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RUN_TICKET_AGY_01C.md",
+      "sha256": "b9e1afd7e888485a60fc61b72951e7bd7789698da2c96a26702beea802f01253",
+      "matches_declared": true
+    },
+    {
+      "commit": "01d425c3c10399449de4121e53be9c064bbcc8b8",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/START_HERE.md",
+      "sha256": "ab8ed38733051d59014ac912f3c17e98efecd6d60ee3722f2ed644b1f640986b",
+      "matches_declared": true
+    },
+    {
+      "commit": "01d425c3c10399449de4121e53be9c064bbcc8b8",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/TASKS.json",
+      "sha256": "3d8a132afec8cd61ed4f81e4def32d1dbc15a7101f0e6b3346feb88d4cca6789",
+      "matches_declared": true
+    },
+    {
+      "commit": "6e9683ab93f438971a0da5b10107acc3cacafc31",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CENTRALIZER_COMPONENTS.md",
+      "sha256": "a0e86b7164e401498869fce468a5fcfad140ca28529e86d721b3dffab7673075",
+      "matches_declared": true
+    },
+    {
+      "commit": "8ff6329c0fc7e8c5a3d0e1772e6f35c16a7198a5",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_01B_6E968_2026_11_09.md",
+      "sha256": "24329921d443879ab9af486215c880ce85c864a14adf2af884122027095fa48a",
+      "matches_declared": true
+    },
+    {
+      "commit": "8ff6329c0fc7e8c5a3d0e1772e6f35c16a7198a5",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/DIRECT_CENTRALIZER_AND_REGISTERED_GRADING_SELECTION_2026_11_09.md",
+      "sha256": "73dfc767b5c7c134c7ed092eb6a15ba3f33445ee50f0ae9fe82167983ccdef20",
+      "matches_declared": true
+    },
+    {
+      "commit": "01d425c3c10399449de4121e53be9c064bbcc8b8",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COHERENT_LIFT_SIGN_EQUIVALENCE_AND_REFERENCE_PRICE_2026_11_09.md",
+      "sha256": "e738bdbee6a7ca2b78d9935a5b6336ddf40faf16d1711923d0ef06b0224b3e67",
+      "matches_declared": true
+    }
+  ],
+  "artifacts": [
+    {
+      "commit": "b299c2ab5adfa624e41dec5cf72506a3f3277b73",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COHERENT_PHASE_CLASSES.md",
+      "sha256": "816a7a24a459ab1a0d7fb80b455c7feea6b824f5fb471c7fc2a87f1e261dc449",
+      "whitespace_words": 1999
+    },
+    {
+      "commit": "b299c2ab5adfa624e41dec5cf72506a3f3277b73",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md",
+      "sha256": "a1cc63ec2e79d193a8e934a11e80902bdedd2c700f4d788c92ddcaeefe3b717f",
+      "whitespace_words": 467
+    },
+    {
+      "commit": "b299c2ab5adfa624e41dec5cf72506a3f3277b73",
+      "path": "relays/AGY_TO_PHYSICAL_2026-11-09_AGY_01C_COHERENT_PHASE_CLASSES.md",
+      "sha256": "ac10e3ae69f9c4f2ba731e36cb1969cc13c87c000a04ccbb37d22a5f10c65b61",
+      "whitespace_words": 194
+    }
+  ],
+  "new_artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_01C_B299_2026_11_09.md",
+      "sha256": "90152eb9ba873a19fca864766ee69dcc0e8f67a97fb99aee970759d7fae88fb3"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RUN_TICKET_AGY_01D.md",
+      "sha256": "853b155a9824d587715f19ba762f9191649fb27aff01d5acd44ab9dbcd89930f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_2026-11-09_B299_PHASE_REVIEW_AND_REGISTERING_JOINT.md",
+      "sha256": "572af57bd565e967c44572c00391d463142e3b259e7c5df7cd8d4385666df45e"
+    }
+  ],
+  "raw_author_error_preserved": {
+    "old_k": "f3 f4 f5 f6",
+    "corrected_k": "f3 f5",
+    "correction_location": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_01C_B299_2026_11_09.md"
+  },
+  "supported_scope": "four ordinary G0 classes, two full twisted gauge orbits, conditional on the fixed source carrier/action/transport and using the explicit review correction",
+  "canonical_input_reductions_claimed": 0,
+  "accepted_dependency_bytes_unchanged_at_author_head": true
+}

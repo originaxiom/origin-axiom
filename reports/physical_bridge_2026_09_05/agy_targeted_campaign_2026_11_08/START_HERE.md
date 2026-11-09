@@ -1,20 +1,31 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-09. Coordination revision 14, requested by the owner to avoid
+2026-11-09. Coordination revision 15, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
 
-## Current assignment AGY-01c
+## Current assignment AGY-01d
 
-Read RUN_TICKET_AGY_01C.md. Finish the coherent correction classes
-under the actual gauge action on both core holonomies. Carry the
-full physical operators, norms and Q/C measuring references. Reuse
-the component theorem, direct E8 lemma and connected-sign equivalence
-with their stated grades. Fold the consolidated notes into this
-substantive successor. One bounded hand-proof packet, compact handoff
-and short relay, commit/push and stop. Formal review and scientific
-admission remain outstanding.
+Read RUN_TICKET_AGY_01D.md and REVIEW_AGY_01C_B299_2026_11_09.md.
+The b299 phase classification is supported only together with the review's
+explicit correction k0=f3 f5. Determine whether the ACTUAL full registering
+action earns the ordered physical grading or transports a larger allowed
+orientation family. Reuse the existing parity/discriminant work with its
+real character domains, operators, norms and physical-map duties. Fold the
+phase witness/scope repair into this same substantive successor. Return
+one bounded hand-proof packet, compact handoff and short relay, commit/push
+and stop. Formal independent review and scientific admission remain owed.
+
+## Prior assignment AGY-01c, supported with explicit correction
+
+Checkpointb299c2ab5adfa624e41dec5cf72506a3f3277b73 exhausts four
+ordinary G0 classes and two full twisted gauge orbits at source/hand
+scope when combined with REVIEW_AGY_01C_B299_2026_11_09.md. Its raw
+k_bad=f3 f4 f5 f6 does not invert all three source Cartan planes.
+Use k0=f3 f5 from the review. Preserve b299 and historical relays.
+The next substantive ticket combines the repair with the registering
+joint. This is joint author work, not formal nonauthoring certification.
 
 ## Prior state after AGY-01b, accepted with consolidated notes
 

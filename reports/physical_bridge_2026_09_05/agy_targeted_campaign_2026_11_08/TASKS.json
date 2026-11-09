@@ -8,13 +8,14 @@
   "review_branch": "audit/physical-bridge-2026-09-05",
   "delivery_channel": "versioned repository relay; no live worker start or acknowledgement inferred",
   "worker_acknowledgement": {
-    "commit": "6e9683ab93f438971a0da5b10107acc3cacafc31",
-    "type": "component hand result accepted with consolidated reading notes"
+    "commit": "b299c2ab5adfa624e41dec5cf72506a3f3277b73",
+    "type": "phase classification supported with explicit physical-seat witness correction; formal review pending"
   },
   "max_active_proof_code_packets_after_intake": 1,
   "scientific_execution_authorized_by_this_board": false,
   "first_return": [
-    "CENTRALIZER_COMPONENTS.md",
+    "REGISTER_TO_GRADING.md",
+    "COHERENT_PHASE_CLASSES.md with bundled witness/scope repair",
     "RESUME.md",
     "short new return relay"
   ],
@@ -115,7 +116,7 @@
       "claim_dependencies": [
         "AGY-00"
       ],
-      "status": "HAND_COMPONENT_RESULTS_ACCEPTED_WITH_NOTES; COHERENT_PHASE_PACKET_01C_RELEASED",
+      "status": "HAND_PHASE_RESULT_SUPPORTED_WITH_EXPLICIT_CORRECTION; REGISTERING_JOINT_01D_RELEASED",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -128,9 +129,10 @@
       "execution_admission": null,
       "admitted_run_evidence": null,
       "accepted_result": null,
-      "current_microtask": "AGY-01c",
+      "current_microtask": "AGY-01d",
       "released_current_outputs": [
-        "COHERENT_PHASE_CLASSES.md",
+        "REGISTER_TO_GRADING.md",
+        "COHERENT_PHASE_CLASSES.md with bundled witness/scope repair",
         "RESUME.md",
         "short new return relay"
       ],
@@ -151,6 +153,14 @@
         "checkpoint": "6e9683ab93f438971a0da5b10107acc3cacafc31",
         "decision": "ACCEPT_SCOPED_HAND_RESULT_WITH_CONSOLIDATED_READING_NOTES",
         "review": "REVIEW_AGY_01B_6E968_2026_11_09.md",
+        "formal_independent_review": null,
+        "execution": null
+      },
+      "phase_result": {
+        "checkpoint": "b299c2ab5adfa624e41dec5cf72506a3f3277b73",
+        "decision": "CLASSIFICATION_SUPPORTED_WITH_EXPLICIT_WITNESS_CORRECTION",
+        "review": "REVIEW_AGY_01C_B299_2026_11_09.md",
+        "raw_author_source_needs_bundled_witness_repair": true,
         "formal_independent_review": null,
         "execution": null
       }
@@ -272,31 +282,32 @@
     "six_control_science_execution": "UNRUN; separate main acceptance and admission outstanding",
     "later_seven_and_four_controls": "UNRUN; outside completed review"
   },
-  "coordination_revision": 14,
-  "revision_base_commit": "8ff6329c0fc7e8c5a3d0e1772e6f35c16a7198a5",
+  "coordination_revision": 15,
+  "revision_base_commit": "01d425c3c10399449de4121e53be9c064bbcc8b8",
   "start_document": "START_HERE.md",
   "max_active_microtasks_per_worker_context": 1,
   "dispatch": {
-    "released_microtask": "AGY-01c",
+    "released_microtask": "AGY-01d",
     "parent_task": "AGY-01",
-    "question": "Classify all coherent correction backgrounds under the actual gauge action, with the complete measuring data fixed or transported",
-    "run_ticket": "RUN_TICKET_AGY_01C.md",
-    "accepted_component_commit": "6e9683ab93f438971a0da5b10107acc3cacafc31",
-    "accepted_component_sha256": "a0e86b7164e401498869fce468a5fcfad140ca28529e86d721b3dffab7673075",
-    "acceptance_scope": "conditional hand results with consolidated reading notes; formal independent review remains owed",
+    "question": "Does the actual full registering architecture supply the ordered physical grading or transport a larger allowed orientation family?",
+    "run_ticket": "RUN_TICKET_AGY_01D.md",
+    "phase_checkpoint": "b299c2ab5adfa624e41dec5cf72506a3f3277b73",
+    "required_phase_correction": "REVIEW_AGY_01C_B299_2026_11_09.md; k0=f3 f5 replaces k_bad=f3 f4 f5 f6",
+    "acceptance_scope": "joint author/source hand argument with explicit correction; formal independent review remains owed",
     "allowed_activity": [
-      "read sources and reuse existing direct lemmas",
-      "complete one coherent phase classification by hand",
-      "fold nonblocking source notes into the same successor",
-      "transport all operators, norms and measuring data in equivalences",
+      "read existing sources and reuse established hand maps",
+      "derive one complete registering-to-orientation conclusion by hand",
+      "type character domains and transport operators/norms/reference data",
+      "bundle corrected phase witness and nonblocking scope notes into same successor",
       "save bounded proof and handoff; commit/push; stop"
     ],
     "required_outputs": [
-      "COHERENT_PHASE_CLASSES.md <=2200 words plus <=80 equation lines",
+      "REGISTER_TO_GRADING.md <=2000 words plus <=70 witness-equation lines",
+      "COHERENT_PHASE_CLASSES.md with witness/scope repair",
       "RESUME.md <=700 words",
       "new relay <=250 words"
     ],
-    "stop_condition": "Return completed phase proof or exact unresolved step for substantive review",
+    "stop_condition": "Return complete registering conclusion or precise unresolved joint for substantive review",
     "next_microtask_released": false,
     "scientific_execution_authorized": false
   },
