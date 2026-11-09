@@ -1,21 +1,33 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-09. Coordination revision 15, requested by the owner to avoid
+2026-11-09. Coordination revision 16, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
 
-## Current assignment AGY-01d
+## Current assignment AGY-02a
 
-Read RUN_TICKET_AGY_01D.md and REVIEW_AGY_01C_B299_2026_11_09.md.
-The b299 phase classification is supported only together with the review's
-explicit correction k0=f3 f5. Determine whether the ACTUAL full registering
-action earns the ordered physical grading or transports a larger allowed
-orientation family. Reuse the existing parity/discriminant work with its
-real character domains, operators, norms and physical-map duties. Fold the
-phase witness/scope repair into this same substantive successor. Return
-one bounded hand-proof packet, compact handoff and short relay, commit/push
-and stop. Formal independent review and scientific admission remain owed.
+Read RUN_TICKET_AGY_02A.md and REVIEW_AGY_01D_1C6C_2026_11_09.md.
+Advance to the actual four-slot physical coefficient transport on BOTH
+coherent phases at zero extra Wilson, with invariant blocks, spin/form
+powers, core/end maps and actual mass-map mixing. Reuse the old complete
+operator and retain all248 directions, conjugates and relevant continua.
+A coefficient multiplicity is not a zero-mode or generation count.
+Bundle the register corrections with this substantive successor. Return
+one bounded proof, compact handoff and short relay, commit/push and stop.
+Formal independent review and scientific admission remain owed.
+
+## Prior assignment AGY-01d, supported with explicit corrections
+
+Checkpoint1c6c03333525236886990ac4dc292e74e323936b applies the k0
+repair and gives the supported orientation and scalar-family stabilizer
+results. Its general character non-extension statement is false: all
+three discriminant characters extend through fourth-root word phases,
+and restriction/squaring gives an E-equivariant parity-label bridge.
+Read the review and foundation proof. Repair the L/R witness, D inverse,
+and coherent (XY)^2=K_pi equation in the same next checkpoint. The latter
+copied equation is new in the register note, absent from the old phase
+proof. Distinct full module actions and physical-map duties are retained.
 
 ## Prior assignment AGY-01c, supported with explicit correction
 

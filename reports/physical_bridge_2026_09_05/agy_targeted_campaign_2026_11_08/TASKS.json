@@ -8,14 +8,14 @@
   "review_branch": "audit/physical-bridge-2026-09-05",
   "delivery_channel": "versioned repository relay; no live worker start or acknowledgement inferred",
   "worker_acknowledgement": {
-    "commit": "b299c2ab5adfa624e41dec5cf72506a3f3277b73",
-    "type": "phase classification supported with explicit physical-seat witness correction; formal review pending"
+    "commit": "1c6c03333525236886990ac4dc292e74e323936b",
+    "type": "register orientation and bundled phase repair supported with explicit source/hand corrections; character non-extension repaired constructively"
   },
   "max_active_proof_code_packets_after_intake": 1,
   "scientific_execution_authorized_by_this_board": false,
   "first_return": [
-    "REGISTER_TO_GRADING.md",
-    "COHERENT_PHASE_CLASSES.md with bundled witness/scope repair",
+    "COEFFICIENT_ROSTER.md",
+    "REGISTER_TO_GRADING.md with bundled corrections",
     "RESUME.md",
     "short new return relay"
   ],
@@ -116,7 +116,7 @@
       "claim_dependencies": [
         "AGY-00"
       ],
-      "status": "HAND_PHASE_RESULT_SUPPORTED_WITH_EXPLICIT_CORRECTION; REGISTERING_JOINT_01D_RELEASED",
+      "status": "SCOPED_HAND_LIFT_AND_ORIENTATION_RESULTS_SUPPORTED_WITH_CORRECTIONS; GLOBAL_GEOMETRIC_AND_FORMAL_REVIEW_DUTIES_REMAIN",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -129,13 +129,8 @@
       "execution_admission": null,
       "admitted_run_evidence": null,
       "accepted_result": null,
-      "current_microtask": "AGY-01d",
-      "released_current_outputs": [
-        "REGISTER_TO_GRADING.md",
-        "COHERENT_PHASE_CLASSES.md with bundled witness/scope repair",
-        "RESUME.md",
-        "short new return relay"
-      ],
+      "current_microtask": null,
+      "released_current_outputs": [],
       "latest_proof_review": {
         "checkpoint": "476d20bbb4a2e52bf1650fd0d8819d6cd869027e",
         "decision": "ACCEPT_SCOPED_HAND_RESULT_WITH_READING_NOTES",
@@ -163,6 +158,14 @@
         "raw_author_source_needs_bundled_witness_repair": true,
         "formal_independent_review": null,
         "execution": null
+      },
+      "register_result": {
+        "checkpoint": "1c6c03333525236886990ac4dc292e74e323936b",
+        "decision": "CORE_HAND_RESULTS_SUPPORTED_WITH_EXPLICIT_CORRECTIONS",
+        "review": "REVIEW_AGY_01D_1C6C_2026_11_09.md",
+        "correction_proof": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/QUARTER_PHASE_CHARACTER_BRIDGE_AND_COHERENT_WORD_CONTROL_2026_11_09.md",
+        "formal_independent_review": null,
+        "execution": null
       }
     },
     {
@@ -172,7 +175,7 @@
         "AGY-00",
         "AGY-01"
       ],
-      "status": "UNRELEASED; PENDING_DEPENDENCY_REVIEW_AND_RUN_TICKET",
+      "status": "AUTHOR_HAND_COEFFICIENT_TRANSPORT_PACKET_02A_RELEASED",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -184,7 +187,14 @@
       "main_execution_acceptance": null,
       "execution_admission": null,
       "admitted_run_evidence": null,
-      "accepted_result": null
+      "accepted_result": null,
+      "current_microtask": "AGY-02a",
+      "released_current_outputs": [
+        "COEFFICIENT_ROSTER.md",
+        "REGISTER_TO_GRADING.md with bundled corrections",
+        "RESUME.md",
+        "short new return relay"
+      ]
     },
     {
       "id": "AGY-03",
@@ -282,32 +292,32 @@
     "six_control_science_execution": "UNRUN; separate main acceptance and admission outstanding",
     "later_seven_and_four_controls": "UNRUN; outside completed review"
   },
-  "coordination_revision": 15,
-  "revision_base_commit": "01d425c3c10399449de4121e53be9c064bbcc8b8",
+  "coordination_revision": 16,
+  "revision_base_commit": "b44cdbf646aaab6a275fbac805ee3684279435d4",
   "start_document": "START_HERE.md",
   "max_active_microtasks_per_worker_context": 1,
   "dispatch": {
-    "released_microtask": "AGY-01d",
-    "parent_task": "AGY-01",
-    "question": "Does the actual full registering architecture supply the ordered physical grading or transport a larger allowed orientation family?",
-    "run_ticket": "RUN_TICKET_AGY_01D.md",
-    "phase_checkpoint": "b299c2ab5adfa624e41dec5cf72506a3f3277b73",
-    "required_phase_correction": "REVIEW_AGY_01C_B299_2026_11_09.md; k0=f3 f5 replaces k_bad=f3 f4 f5 f6",
-    "acceptance_scope": "joint author/source hand argument with explicit correction; formal independent review remains owed",
+    "released_microtask": "AGY-02a",
+    "parent_task": "AGY-02",
+    "question": "Derive complete physical four-slot coefficient transport and invariant bundles on both coherent phases before counting zero modes",
+    "run_ticket": "RUN_TICKET_AGY_02A.md",
+    "register_checkpoint": "1c6c03333525236886990ac4dc292e74e323936b",
+    "required_correction": "REVIEW_AGY_01D_1C6C_2026_11_09.md and quarter-phase character bridge proof",
+    "acceptance_scope": "author/source hand results only; exact formal review and scientific admission remain owed",
     "allowed_activity": [
-      "read existing sources and reuse established hand maps",
-      "derive one complete registering-to-orientation conclusion by hand",
-      "type character domains and transport operators/norms/reference data",
-      "bundle corrected phase witness and nonblocking scope notes into same successor",
+      "read exact source action and mass map",
+      "derive invariant finite coefficient modules, core/end transitions and full operator mixing by hand",
+      "preserve both phase branches and complete physical populations",
+      "bundle register/source corrections into the substantive successor",
       "save bounded proof and handoff; commit/push; stop"
     ],
     "required_outputs": [
-      "REGISTER_TO_GRADING.md <=2000 words plus <=70 witness-equation lines",
-      "COHERENT_PHASE_CLASSES.md with witness/scope repair",
+      "COEFFICIENT_ROSTER.md <=2200 words plus <=100 witness-equation/table rows",
+      "REGISTER_TO_GRADING.md with bundled corrections",
       "RESUME.md <=700 words",
       "new relay <=250 words"
     ],
-    "stop_condition": "Return complete registering conclusion or precise unresolved joint for substantive review",
+    "stop_condition": "Return complete coefficient roster or exact unresolved invariant block for review",
     "next_microtask_released": false,
     "scientific_execution_authorized": false
   },
