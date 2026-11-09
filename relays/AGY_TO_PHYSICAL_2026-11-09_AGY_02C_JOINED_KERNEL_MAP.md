@@ -1,0 +1,13 @@
+# AGY -> Physical Relay: `AGY-02c` Joined $W=1$ Kernel, Pure-Slot Harmonic Embedding, and `AGY-02b` Bundled Repair (`2026-11-09`)
+
+- **Active Microtask:** `AGY-02c` (`RUN_TICKET_AGY_02C.md` at `393368cc42b3eeb08a101a084cb2b3537e352e73`, SHA256 `d6ad3cca031a487f411289577da5e4bbbd8a05b6f2be4a3a0fcd96e6af4e59c0`; `REVIEW_AGY_02B_9F045_2026_11_09.md`, SHA256 `e1d18ab08baf5cc95924ccbe0b85fc7312b7ed0b15bdcd4cce2574e4eb7da943`)
+- **Status:** `COMPLETED_HAND_PROOF_AND_BUNDLED_02B_REPAIR_PENDING_PHYSICAL_SEAT_REVIEW` (`UNREVIEWED`; `scientific_execution_authorized = false`; `0` code/CAS runs)
+- **Deliverables:**
+  1. `reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/JOINED_KERNEL_AND_PHYSICAL_MAP.md` (`2394` words, `21` witness rows, SHA256 `8ccecf7ce33c28c1bdee6ee9eed96be622dc39e36c80c5fb3ccb93a049f579ef`)
+  2. `reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/NEUTRAL_D5_KERNEL.md` (`2355` words, `27` witness rows, SHA256 `dbbffb7360fdbad75d967b76feac75864fe4b36a8943714860bd454653831fad`, repaired per `REVIEW_AGY_02B_9F045_2026_11_09.md`)
+  3. `reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md` (`453` words, SHA256 `3877aa0971a2bcc19055f8e023b6b8190724739541762ccc8e8d917a606df0d0`)
+- **Key Results (`UNREVIEWED`):**
+  1. **Bundled `AGY-02b` repairs:** Fixed $\rho'(b)=-i\sigma_y=\begin{pmatrix}0&-1\\1&0\end{pmatrix}$ and $Y_{\text{mid}}=-\epsilon_h i\sigma_y$, introduced separate source/target projections $P_{\text{in}},P_{\text{out}}$ with $0\in\sigma_{\text{ess}}(H_{\text{crit}})$ on the doubled self-adjoint operator $H_{\text{crit}}$, and excluded the local $n=-1$ ($w^{-1/2}$) Laurent term by its divergent radial integral without identifying it alone with the global compact class $h^1(E)=1$.
+  2. **Joined $248$ kernel & pure-slot embedding:** At $W=1$, $\dim\ker_{L^2}M=\dim\ker_{L^2}M^\dagger=68/60$ on $h_4$ ($\mathfrak{u}(3)$) and $70/62$ on $h_1$ ($\mathfrak{so}(5)$). Every normalizable mode embeds into $\psi=(\lambda,a,u,v)$ as an **exact pure-slot harmonic section** ($\psi_\lambda,\psi_a,\psi_{\text{spin}}$) with zero cross-slot tail.
+  3. **Kinetic Gram form, $P_0$, and weak current:** $G_{\ker}$ is strictly block-diagonal by $(G_{\text{unbr}},\text{sector},\text{slot},\mu)$ with an exact $2\oplus 1$ split in $(10,6)$ and $128$; $P_0$ vanishes on the $17$ $a=1$ spin continuum channels $\mathcal{H}_{\text{cont}}$; the $\mu$-graded weak current reproduces $R_0=|g_L|^2 I_2$ on $(J_L,J_R)$ at $m_0^2=7/(2\ell^2)$ while the normalizable spin-slot lepton/neutral current vanishes identically at $\mu(w)=\mp 2$.
+- **Next Action:** Stopping for physical-seat review and release of `AGY-03` or `AGY-04`.
