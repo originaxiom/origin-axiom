@@ -1,21 +1,31 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-09. Coordination revision 16, requested by the owner to avoid
+2026-11-09. Coordination revision 17, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
 
-## Current assignment AGY-02a
+## Current assignment AGY-02b
 
-Read RUN_TICKET_AGY_02A.md and REVIEW_AGY_01D_1C6C_2026_11_09.md.
-Advance to the actual four-slot physical coefficient transport on BOTH
-coherent phases at zero extra Wilson, with invariant blocks, spin/form
-powers, core/end maps and actual mass-map mixing. Reuse the old complete
-operator and retain all248 directions, conjugates and relevant continua.
-A coefficient multiplicity is not a zero-mode or generation count.
-Bundle the register corrections with this substantive successor. Return
-one bounded proof, compact handoff and short relay, commit/push and stop.
-Formal independent review and scientific admission remain owed.
+Read RUN_TICKET_AGY_02B.md, REVIEW_AGY_02A_D1F_2026_11_09.md and the
+physical target/neutral-tail proof named there. Resolve the neutral D5
+harmonic kernel on BOTH coherent phases with actual adjoints and complete
+critical domains. Retain all four slots, spin choices and continua.
+Bundle the physical roster repairs with this substantive successor.
+Return a bounded proof or exact unresolved domain step, compact handoff
+and short relay, commit/push and stop. Formal independent review and
+scientific admission remain owed.
+
+## Prior assignment AGY-02a, partial hand roster with binding corrections
+
+Checkpoint d1f2125a87bf4dc22f033a0c939dd737d28565fa accounts for the
+248 branching and actual phase/cusp actions. The physical output powers
+and paired-vector extreme ranks need repair. Use X=A h1 to label the
+outer highest-space alpha signs. The physical seat supplies the corrected
+bundle maps, explicit vector intertwiner and a full four-slot singular
+sequence at the neutral (2,2) threshold. The global neutral kernel and
+critical adjoint endpoint remain to derive. W=1 is our specified
+comparison choice. Historical source and review evidence are preserved.
 
 ## Prior assignment AGY-01d, supported with explicit corrections
 

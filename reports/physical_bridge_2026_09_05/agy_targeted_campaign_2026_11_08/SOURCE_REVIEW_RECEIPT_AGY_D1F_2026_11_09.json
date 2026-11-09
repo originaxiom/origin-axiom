@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-09",
+  "checkpoint": "d1f2125a87bf4dc22f033a0c939dd737d28565fa",
+  "decision": "PARTIAL_HAND_ROSTER_SUPPORTED_WITH_BINDING_CORRECTIONS",
+  "activity": "personal source reading, hand proofs and Git/hash metadata only",
+  "scientific_execution": false,
+  "formal_independent_review": null,
+  "reviewer_relationship": "physical seat authored earlier dependencies, physical target corrections and new direct neutral singular sequence; formal nonauthoring review owed",
+  "source_pins_checked": 17,
+  "sources": [
+    {
+      "commit": "3234bbdd76245bcd484cbbf1bae24aab84d281da",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RUN_TICKET_AGY_02A.md",
+      "sha256": "4e26a293681cd9246c7469d96fe5ef68d4455a5920f744a4a8c7f3f4136f5560",
+      "matches_declared": true
+    },
+    {
+      "commit": "3234bbdd76245bcd484cbbf1bae24aab84d281da",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/START_HERE.md",
+      "sha256": "ec0304baf51c03d1ade7a3295254eaf60ae887ee45febb9ec86984c60a86bce3",
+      "matches_declared": true
+    },
+    {
+      "commit": "3234bbdd76245bcd484cbbf1bae24aab84d281da",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/TASKS.json",
+      "sha256": "cbaf8f72a2c0b22196a92aa6a7c1beee58c791e7bf1a3b3cbfc2374442dd79bb",
+      "matches_declared": true
+    },
+    {
+      "commit": "3234bbdd76245bcd484cbbf1bae24aab84d281da",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_01D_1C6C_2026_11_09.md",
+      "sha256": "9b85f5b39d41bb8c148aeb4491c70bbfdaf4e8c50da1c938d3faa62263ec0609",
+      "matches_declared": true
+    },
+    {
+      "commit": "d1f2125a87bf4dc22f033a0c939dd737d28565fa",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CENTRALIZER_COMPONENTS.md",
+      "sha256": "a0e86b7164e401498869fce468a5fcfad140ca28529e86d721b3dffab7673075",
+      "matches_declared": true
+    },
+    {
+      "commit": "d1f2125a87bf4dc22f033a0c939dd737d28565fa",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COHERENT_PHASE_CLASSES.md",
+      "sha256": "9b0ec09b6b5effbfd5853dcd599f95ff3bb2106d39c1a2146c226b069630f6d0",
+      "matches_declared": true
+    },
+    {
+      "commit": "d1f2125a87bf4dc22f033a0c939dd737d28565fa",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REGISTER_TO_GRADING.md",
+      "sha256": "965c3652ce550b448e3aa37e0b397f5492339882ce18b38a94f4bdf36addf008",
+      "matches_declared": true
+    },
+    {
+      "commit": "d1f2125a87bf4dc22f033a0c939dd737d28565fa",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COMPENSATOR_RANGE_AUDIT.md",
+      "sha256": "81b29726b20218ed2625de06369c7a5d55c13427d85d81ed2888d27a3280a0d3",
+      "matches_declared": true
+    },
+    {
+      "commit": "d1f2125a87bf4dc22f033a0c939dd737d28565fa",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+      "sha256": "98bf93b4be89297901e8f9718f88ea526105b717310df63b75e21deb282713e5",
+      "matches_declared": true
+    },
+    {
+      "commit": "3234bbdd76245bcd484cbbf1bae24aab84d281da",
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "matches_declared": true
+    },
+    {
+      "commit": "3234bbdd76245bcd484cbbf1bae24aab84d281da",
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "matches_declared": true
+    },
+    {
+      "commit": "3234bbdd76245bcd484cbbf1bae24aab84d281da",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_QUATERNION_STATIONARY_BUNDLE_AND_CUSP_LAW.md",
+      "sha256": "221a7cd2dce2ff7dec0b135c348b7bb52e15bc27e5563d420756fbe31f9978a1",
+      "matches_declared": true
+    },
+    {
+      "commit": "3234bbdd76245bcd484cbbf1bae24aab84d281da",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_HALF_ROOT_KERNEL_AND_CORE_LIFT_SENSITIVITY.md",
+      "sha256": "789adf7544bf5c679305aa8b9ba7525b6375155b026c839e01c34c281be23875",
+      "matches_declared": true
+    },
+    {
+      "commit": "3234bbdd76245bcd484cbbf1bae24aab84d281da",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md",
+      "sha256": "871529dd81603e1a70126f6ee518ae5c2758c107cf7e9fff62ae96f646a0813f",
+      "matches_declared": true
+    },
+    {
+      "commit": "3234bbdd76245bcd484cbbf1bae24aab84d281da",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_UP_SECTOR_PARABOLIC_COUNT_2026_11_08.md",
+      "sha256": "477743caf7f2edc91117ed9f7ef24efcb834c5a8968bfd19ffc46865d75d9ff9",
+      "matches_declared": true
+    },
+    {
+      "commit": "3234bbdd76245bcd484cbbf1bae24aab84d281da",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/UP_SECTOR_EXPLORATORY_NEUTRAL_NOTES_2026_11_08.md",
+      "sha256": "c4110e34a25e37d72dd9ec1823cb01320071cb6ae17608d68c3a658bd38a9de0",
+      "matches_declared": true
+    },
+    {
+      "commit": "3234bbdd76245bcd484cbbf1bae24aab84d281da",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/QUARTER_PHASE_CHARACTER_BRIDGE_AND_COHERENT_WORD_CONTROL_2026_11_09.md",
+      "sha256": "83453638584cb34219ca389bfb7a753259fd3a1f9f2e651ada07cfbe3002a733",
+      "matches_declared": true
+    }
+  ],
+  "artifacts": [
+    {
+      "commit": "d1f2125a87bf4dc22f033a0c939dd737d28565fa",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COEFFICIENT_ROSTER.md",
+      "sha256": "13bb67de5a536afef121afad28ce648bb3e808e8fb243ed8dd8b88429ac2380b",
+      "whitespace_words": 1787
+    },
+    {
+      "commit": "d1f2125a87bf4dc22f033a0c939dd737d28565fa",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REGISTER_TO_GRADING.md",
+      "sha256": "965c3652ce550b448e3aa37e0b397f5492339882ce18b38a94f4bdf36addf008",
+      "whitespace_words": 1990
+    },
+    {
+      "commit": "d1f2125a87bf4dc22f033a0c939dd737d28565fa",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md",
+      "sha256": "cba60c1f1a6fb28f326acb63e6b2d7987e9e62f8eb7615b5f5ab1c53e256f258",
+      "whitespace_words": 374
+    },
+    {
+      "commit": "d1f2125a87bf4dc22f033a0c939dd737d28565fa",
+      "path": "relays/AGY_TO_PHYSICAL_2026-11-09_AGY_02A_COEFFICIENT_ROSTER.md",
+      "sha256": "4542f1b8b5c30d0bdfe64adb8a9e5247092886935bc0abd11de892b1b5f423cd",
+      "whitespace_words": 170
+    }
+  ],
+  "new_artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_02A_D1F_2026_11_09.md",
+      "sha256": "9ef01b8f4c6418198da299c698726a1100d60b0eba0199469d783c1fc50f624d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PHYSICAL_ROSTER_TARGETS_AND_NEUTRAL_TAIL_CONTROL_2026_11_09.md",
+      "sha256": "4079abd1606bcd72e4f20b0a89db1fd14de8f7a2fcb8ad9d5858160f912915e6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RUN_TICKET_AGY_02B.md",
+      "sha256": "6b4b7622c016c3fc0e5e6a1360523952ad6ecaa5e3883e0b9d6573eca00c61f5"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_2026-11-09_D1F_ROSTER_CORRECTIONS_AND_NEUTRAL_KERNEL.md",
+      "sha256": "28443b3f46c09aa72d36b91ea498cab4b7f2719aa1337e32a7096a17e7f01a22"
+    }
+  ],
+  "raw_author_errors_preserved": [
+    "wrong spin powers on trace-dual physical output",
+    "rank-one wording for rank-two extreme bundles in paired vector fibre",
+    "alpha plus/minus one attributed to h1 rather than X on highest space",
+    "exploratory neutral endpoint promoted without an actual physical-operator witness",
+    "W=1 comparison choice described as mandatory"
+  ],
+  "physical_seat_constructive_hand_results": [
+    "corrected output bundles from source mass rows and coordinate transformation",
+    "explicit vector-block unitary conjugacy",
+    "outer highest-space X eigenpackages and lowering rule",
+    "direct full four-slot singular sequence on balanced V_(2,2) cusp",
+    "paired vector fibre Koszul rank account"
+  ],
+  "new_global_zero_mode_counts_accepted": false,
+  "canonical_physical_input_reductions_claimed": 0,
+  "neutral_source_preserved_as_exploratory": true
+}

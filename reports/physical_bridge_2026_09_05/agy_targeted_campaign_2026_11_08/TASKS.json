@@ -8,14 +8,14 @@
   "review_branch": "audit/physical-bridge-2026-09-05",
   "delivery_channel": "versioned repository relay; no live worker start or acknowledgement inferred",
   "worker_acknowledgement": {
-    "commit": "1c6c03333525236886990ac4dc292e74e323936b",
-    "type": "register orientation and bundled phase repair supported with explicit source/hand corrections; character non-extension repaired constructively"
+    "commit": "d1f2125a87bf4dc22f033a0c939dd737d28565fa",
+    "type": "partial hand roster supported with explicit physical output, rank, grading and scope corrections; full neutral kernel successor released"
   },
   "max_active_proof_code_packets_after_intake": 1,
   "scientific_execution_authorized_by_this_board": false,
   "first_return": [
-    "COEFFICIENT_ROSTER.md",
-    "REGISTER_TO_GRADING.md with bundled corrections",
+    "NEUTRAL_D5_KERNEL.md",
+    "COEFFICIENT_ROSTER.md with bundled physical repairs",
     "RESUME.md",
     "short new return relay"
   ],
@@ -175,7 +175,7 @@
         "AGY-00",
         "AGY-01"
       ],
-      "status": "AUTHOR_HAND_COEFFICIENT_TRANSPORT_PACKET_02A_RELEASED",
+      "status": "PARTIAL_HAND_ROSTER_SUPPORTED_WITH_BINDING_CORRECTIONS; NEUTRAL_D5_KERNEL_02B_RELEASED",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -188,13 +188,22 @@
       "execution_admission": null,
       "admitted_run_evidence": null,
       "accepted_result": null,
-      "current_microtask": "AGY-02a",
+      "current_microtask": "AGY-02b",
       "released_current_outputs": [
-        "COEFFICIENT_ROSTER.md",
-        "REGISTER_TO_GRADING.md with bundled corrections",
+        "NEUTRAL_D5_KERNEL.md",
+        "COEFFICIENT_ROSTER.md with bundled physical repairs",
         "RESUME.md",
         "short new return relay"
-      ]
+      ],
+      "coefficient_roster_result": {
+        "checkpoint": "d1f2125a87bf4dc22f033a0c939dd737d28565fa",
+        "decision": "PARTIAL_HAND_ROSTER_SUPPORTED_WITH_BINDING_CORRECTIONS",
+        "review": "REVIEW_AGY_02A_D1F_2026_11_09.md",
+        "physical_correction_proof": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PHYSICAL_ROSTER_TARGETS_AND_NEUTRAL_TAIL_CONTROL_2026_11_09.md",
+        "formal_independent_review": null,
+        "execution": null,
+        "complete_operator_roster_accepted": false
+      }
     },
     {
       "id": "AGY-03",
@@ -292,32 +301,32 @@
     "six_control_science_execution": "UNRUN; separate main acceptance and admission outstanding",
     "later_seven_and_four_controls": "UNRUN; outside completed review"
   },
-  "coordination_revision": 16,
-  "revision_base_commit": "b44cdbf646aaab6a275fbac805ee3684279435d4",
+  "coordination_revision": 17,
+  "revision_base_commit": "3234bbdd76245bcd484cbbf1bae24aab84d281da",
   "start_document": "START_HERE.md",
   "max_active_microtasks_per_worker_context": 1,
   "dispatch": {
-    "released_microtask": "AGY-02a",
+    "released_microtask": "AGY-02b",
     "parent_task": "AGY-02",
-    "question": "Derive complete physical four-slot coefficient transport and invariant bundles on both coherent phases before counting zero modes",
-    "run_ticket": "RUN_TICKET_AGY_02A.md",
-    "register_checkpoint": "1c6c03333525236886990ac4dc292e74e323936b",
-    "required_correction": "REVIEW_AGY_01D_1C6C_2026_11_09.md and quarter-phase character bridge proof",
-    "acceptance_scope": "author/source hand results only; exact formal review and scientific admission remain owed",
+    "question": "Resolve actual neutral D5 harmonic kernels and physical adjoint domains on both coherent phases, including the critical endpoint",
+    "run_ticket": "RUN_TICKET_AGY_02B.md",
+    "roster_checkpoint": "d1f2125a87bf4dc22f033a0c939dd737d28565fa",
+    "required_correction": "REVIEW_AGY_02A_D1F_2026_11_09.md and PHYSICAL_ROSTER_TARGETS_AND_NEUTRAL_TAIL_CONTROL_2026_11_09.md",
+    "acceptance_scope": "partial source/hand roster with explicit constructive corrections; formal independent review and scientific admission remain owed",
     "allowed_activity": [
-      "read exact source action and mass map",
-      "derive invariant finite coefficient modules, core/end transitions and full operator mixing by hand",
-      "preserve both phase branches and complete physical populations",
-      "bundle register/source corrections into the substantive successor",
+      "read source mass map, metrics and relevant neutral/cohomology sources",
+      "derive complete neutral D5 kernels and actual adjoint domains by hand",
+      "preserve both phases, all physical slots, spin dependence and continuum",
+      "bundle physical output, rank, outer grading and scope repairs",
       "save bounded proof and handoff; commit/push; stop"
     ],
     "required_outputs": [
-      "COEFFICIENT_ROSTER.md <=2200 words plus <=100 witness-equation/table rows",
-      "REGISTER_TO_GRADING.md with bundled corrections",
+      "NEUTRAL_D5_KERNEL.md <=2400 words plus <=100 witness-equation/table rows",
+      "COEFFICIENT_ROSTER.md with bundled repairs",
       "RESUME.md <=700 words",
       "new relay <=250 words"
     ],
-    "stop_condition": "Return complete coefficient roster or exact unresolved invariant block for review",
+    "stop_condition": "Return complete neutral harmonic statement or exact unresolved operator/domain step for review",
     "next_microtask_released": false,
     "scientific_execution_authorized": false
   },
