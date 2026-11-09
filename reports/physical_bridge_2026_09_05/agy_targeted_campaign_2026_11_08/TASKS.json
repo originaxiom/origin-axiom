@@ -8,14 +8,14 @@
   "review_branch": "audit/physical-bridge-2026-09-05",
   "delivery_channel": "versioned repository relay; no live worker start or acknowledgement inferred",
   "worker_acknowledgement": {
-    "commit": "d1f2125a87bf4dc22f033a0c939dd737d28565fa",
-    "type": "partial hand roster supported with explicit physical output, rank, grading and scope corrections; full neutral kernel successor released"
+    "commit": "9f0450d3ab6bd313e27044ac7b5647d34ce7b71d",
+    "type": "neutral hand count and critical orthogonal split supported with displayed quaternion-generator correction; formal review pending"
   },
   "max_active_proof_code_packets_after_intake": 1,
   "scientific_execution_authorized_by_this_board": false,
   "first_return": [
-    "NEUTRAL_D5_KERNEL.md",
-    "COEFFICIENT_ROSTER.md with bundled physical repairs",
+    "JOINED_KERNEL_AND_PHYSICAL_MAP.md",
+    "NEUTRAL_D5_KERNEL.md with bundled generator/scope corrections",
     "RESUME.md",
     "short new return relay"
   ],
@@ -175,7 +175,7 @@
         "AGY-00",
         "AGY-01"
       ],
-      "status": "PARTIAL_HAND_ROSTER_SUPPORTED_WITH_BINDING_CORRECTIONS; NEUTRAL_D5_KERNEL_02B_RELEASED",
+      "status": "NEUTRAL_HAND_KERNEL_SUPPORTED_WITH_GENERATOR_CORRECTION; JOINED_PHYSICAL_MAP_02C_RELEASED",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -188,10 +188,10 @@
       "execution_admission": null,
       "admitted_run_evidence": null,
       "accepted_result": null,
-      "current_microtask": "AGY-02b",
+      "current_microtask": "AGY-02c",
       "released_current_outputs": [
-        "NEUTRAL_D5_KERNEL.md",
-        "COEFFICIENT_ROSTER.md with bundled physical repairs",
+        "JOINED_KERNEL_AND_PHYSICAL_MAP.md",
+        "NEUTRAL_D5_KERNEL.md with bundled generator/scope corrections",
         "RESUME.md",
         "short new return relay"
       ],
@@ -203,6 +203,24 @@
         "formal_independent_review": null,
         "execution": null,
         "complete_operator_roster_accepted": false
+      },
+      "neutral_kernel_result": {
+        "checkpoint": "9f0450d3ab6bd313e27044ac7b5647d34ce7b71d",
+        "decision": "NEUTRAL_HAND_RESULT_SUPPORTED_WITH_GENERATOR_CORRECTION",
+        "review": "REVIEW_AGY_02B_9F045_2026_11_09.md",
+        "left_dimensions": [
+          1,
+          5,
+          2
+        ],
+        "adjoint_dimensions": [
+          1,
+          5,
+          2
+        ],
+        "formal_independent_review": null,
+        "execution": null,
+        "requires_displayed_generator_correction": true
       }
     },
     {
@@ -301,32 +319,32 @@
     "six_control_science_execution": "UNRUN; separate main acceptance and admission outstanding",
     "later_seven_and_four_controls": "UNRUN; outside completed review"
   },
-  "coordination_revision": 17,
-  "revision_base_commit": "3234bbdd76245bcd484cbbf1bae24aab84d281da",
+  "coordination_revision": 18,
+  "revision_base_commit": "65b359b222daaf7e3deb3e5d084dbc312bec2905",
   "start_document": "START_HERE.md",
   "max_active_microtasks_per_worker_context": 1,
   "dispatch": {
-    "released_microtask": "AGY-02b",
+    "released_microtask": "AGY-02c",
     "parent_task": "AGY-02",
-    "question": "Resolve actual neutral D5 harmonic kernels and physical adjoint domains on both coherent phases, including the critical endpoint",
-    "run_ticket": "RUN_TICKET_AGY_02B.md",
-    "roster_checkpoint": "d1f2125a87bf4dc22f033a0c939dd737d28565fa",
-    "required_correction": "REVIEW_AGY_02A_D1F_2026_11_09.md and PHYSICAL_ROSTER_TARGETS_AND_NEUTRAL_TAIL_CONTROL_2026_11_09.md",
-    "acceptance_scope": "partial source/hand roster with explicit constructive corrections; formal independent review and scientific admission remain owed",
+    "question": "Join the full gauge-resolved physical kernel through actual harmonic embeddings, positive kinetic forms and operator domains",
+    "run_ticket": "RUN_TICKET_AGY_02C.md",
+    "neutral_checkpoint": "9f0450d3ab6bd313e27044ac7b5647d34ce7b71d",
+    "required_correction": "REVIEW_AGY_02B_9F045_2026_11_09.md; rho prime b=-i sigma_y and Y_mid=-epsilon_h i sigma_y",
+    "acceptance_scope": "conditional author/source hand argument with explicit correction; formal independent review and scientific admission owed",
     "allowed_activity": [
-      "read source mass map, metrics and relevant neutral/cohomology sources",
-      "derive complete neutral D5 kernels and actual adjoint domains by hand",
-      "preserve both phases, all physical slots, spin dependence and continuum",
-      "bundle physical output, rank, outer grading and scope repairs",
+      "read exact sector proofs and reuse existing current maps",
+      "derive complete kernel representation and harmonic embeddings on both phases",
+      "pull back physical norms and define domain-aware kernel projectors/current maps",
+      "bundle the generator and spectral/global-class scope repairs",
       "save bounded proof and handoff; commit/push; stop"
     ],
     "required_outputs": [
-      "NEUTRAL_D5_KERNEL.md <=2400 words plus <=100 witness-equation/table rows",
-      "COEFFICIENT_ROSTER.md with bundled repairs",
+      "JOINED_KERNEL_AND_PHYSICAL_MAP.md <=2400 words plus <=100 witness-equation/table rows",
+      "NEUTRAL_D5_KERNEL.md with bundled corrections",
       "RESUME.md <=700 words",
       "new relay <=250 words"
     ],
-    "stop_condition": "Return complete neutral harmonic statement or exact unresolved operator/domain step for review",
+    "stop_condition": "Return full physical kernel-map packet or exact missing harmonic/domain/norm joint for substantive review",
     "next_microtask_released": false,
     "scientific_execution_authorized": false
   },

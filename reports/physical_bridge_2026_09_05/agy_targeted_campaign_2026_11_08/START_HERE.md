@@ -1,20 +1,32 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-09. Coordination revision 17, requested by the owner to avoid
+2026-11-09. Coordination revision 18, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
 
-## Current assignment AGY-02b
+## Current assignment AGY-02c
 
-Read RUN_TICKET_AGY_02B.md, REVIEW_AGY_02A_D1F_2026_11_09.md and the
-physical target/neutral-tail proof named there. Resolve the neutral D5
-harmonic kernel on BOTH coherent phases with actual adjoints and complete
-critical domains. Retain all four slots, spin choices and continua.
-Bundle the physical roster repairs with this substantive successor.
-Return a bounded proof or exact unresolved domain step, compact handoff
-and short relay, commit/push and stop. Formal independent review and
-scientific admission remain owed.
+Read RUN_TICKET_AGY_02C.md and REVIEW_AGY_02B_9F045_2026_11_09.md.
+Join the complete kernel through actual physical harmonic embeddings,
+gauge representations, positive kinetic Gram forms and operator domains
+on both coherent phases. Retain all spin choices and continua. Reuse
+existing current witnesses and expose the remaining interaction duty.
+Bundle the neutral quaternion-generator and scope corrections with this
+substantive successor. Return a bounded proof or exact unresolved map,
+compact handoff and relay, commit/push and stop. Formal independent
+review and scientific admission remain owed.
+
+## Prior assignment AGY-02b, hand count with generator correction
+
+Checkpoint 9f0450d3ab6bd313e27044ac7b5647d34ce7b71d gives neutral
+kernel dimensions (1,5,2) and the same adjoint dimensions on both phases,
+for all four spins at W=1. The critical spin package splits globally,
+has zero kernel in both directions and retains a threshold. Correct the
+missing i in rho'(b) and Y_mid. Use the selfadjoint doubled/squared
+realization for spectral claims and the actual local/global distinction
+at the excluded Laurent power. The review records the supported hand
+argument and the required correction with formal review pending.
 
 ## Prior assignment AGY-02a, partial hand roster with binding corrections
 
