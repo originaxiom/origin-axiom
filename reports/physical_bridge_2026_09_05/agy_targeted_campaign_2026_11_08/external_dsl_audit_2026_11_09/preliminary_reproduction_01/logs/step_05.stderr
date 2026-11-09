@@ -1,0 +1,10 @@
+test_part_1a_pure_h4_gauge_and_spin_gate (test_golden_spikes_stress_test.TestGoldenSpikesStressTest.test_part_1a_pure_h4_gauge_and_spin_gate) ... ok
+test_part_1b_up_sector_koszul_and_parabolic_count (test_golden_spikes_stress_test.TestGoldenSpikesStressTest.test_part_1b_up_sector_koszul_and_parabolic_count) ... ok
+test_part_1c_weak_current_and_paired_pole (test_golden_spikes_stress_test.TestGoldenSpikesStressTest.test_part_1c_weak_current_and_paired_pole) ... ok
+test_part_2_modular_g24_and_characteristic_cover (test_golden_spikes_stress_test.TestGoldenSpikesStressTest.test_part_2_modular_g24_and_characteristic_cover) ... ok
+test_part_3_native_cyclic_and_moment_response (test_golden_spikes_stress_test.TestGoldenSpikesStressTest.test_part_3_native_cyclic_and_moment_response) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.167s
+
+OK

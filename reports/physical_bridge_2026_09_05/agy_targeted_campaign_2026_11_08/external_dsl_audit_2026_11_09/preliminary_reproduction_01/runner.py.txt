@@ -1,0 +1,43 @@
+from pathlib import Path
+import json,hashlib,sys,subprocess,os,time,datetime,signal
+root=Path(__file__).resolve().parent
+receipt=root/'EXECUTION_RECEIPT.json';data=json.loads(receipt.read_text());src=root/'source'
+env=os.environ.copy();env.pop('PYTHONPATH',None);env['PYTHONDONTWRITEBYTECODE']='1'
+commands=[([sys.executable,'-m','unittest','-v','-f','test_guardrail_dsl','test_repo_crucial_math_with_dsl'],src),([sys.executable,'guardrail_dsl.py'],src),([sys.executable,'verify_repo_crucial_math_with_dsl.py'],src),([sys.executable,'golden_spikes_stress_test/verify_golden_spikes_stress_test.py'],src),([sys.executable,'-m','unittest','-v','-f','test_golden_spikes_stress_test'],src/'golden_spikes_stress_test')]
+def snapshot():
+ return {n:hashlib.sha256((src/n).read_bytes()).hexdigest() for n in data['source_sha256']}
+def expected_snapshot():
+ return {n:hashlib.sha256((root/'expected'/n).read_bytes()).hexdigest() for n in data['expected_receipt_sha256']}
+def save():receipt.write_text(json.dumps(data,indent=2)+'\n')
+start=time.monotonic();data['status']='RUNNING_PRELIMINARY';save()
+for i,(cmd,cwd) in enumerate(commands,1):
+ if time.monotonic()-start>=data['total_timeout_seconds']:
+  data['status']='INCOMPLETE_TOTAL_TIMEOUT';break
+ before=snapshot();ebefore=expected_snapshot()
+ if before!=data['source_sha256'] or ebefore!=data['expected_receipt_sha256']:
+  data['status']='STOPPED_UNEXPECTED_PRECOMMAND_MUTATION';break
+ rec={'step':i,'command':cmd,'cwd':str(cwd),'started_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'source_before_sha256':before,'stdout_file':f'logs/step_{i:02d}.stdout','stderr_file':f'logs/step_{i:02d}.stderr','timeout':False}
+ data['attempts'].append(rec);save();print(f'START step {i}',flush=True)
+ t=time.monotonic();limit=min(data['command_timeout_seconds'],data['total_timeout_seconds']-(t-start))
+ with (root/rec['stdout_file']).open('wb') as out,(root/rec['stderr_file']).open('wb') as err:
+  try:
+   process=subprocess.Popen(cmd,cwd=cwd,env=env,stdout=out,stderr=err,start_new_session=True)
+   rec['pid']=process.pid;save()
+   try:code=process.wait(timeout=max(0.1,limit))
+   except subprocess.TimeoutExpired:
+    rec['timeout']=True;os.killpg(process.pid,signal.SIGKILL);code=process.wait()
+  except Exception as exc:
+   rec['launch_error']=repr(exc);code=None
+ rec['exit_code']=code;rec['elapsed_seconds']=time.monotonic()-t;rec['finished_utc']=datetime.datetime.now(datetime.timezone.utc).isoformat();rec['source_after_sha256']=snapshot()
+ rec['source_unchanged']=rec['source_after_sha256']==before
+ rec['expected_receipts_unchanged']=expected_snapshot()==data['expected_receipt_sha256']
+ for key in ['stdout_file','stderr_file']:rec[key+'_sha256']=hashlib.sha256((root/rec[key]).read_bytes()).hexdigest()
+ print(f'END step {i} exit={code} seconds={rec["elapsed_seconds"]:.3f} source_unchanged={rec["source_unchanged"]}',flush=True)
+ if rec['timeout']:data['status']='INCOMPLETE_COMMAND_TIMEOUT';save();break
+ if not rec['source_unchanged'] or not rec['expected_receipts_unchanged']:data['status']='STOPPED_UNEXPECTED_MUTATION';save();break
+ if code!=0:data['status']='STOPPED_FIRST_NONZERO_EXIT';save();break
+ save()
+else:data['status']='COMPLETED_ALL_DECLARED_COMMANDS_ZERO_EXIT'
+data['elapsed_seconds']=time.monotonic()-start;data['finished_utc']=datetime.datetime.now(datetime.timezone.utc).isoformat();data['unattempted_steps']=[i for i in range(1,len(commands)+1) if i not in {r['step'] for r in data['attempts']}];save()
+print(json.dumps({'status':data['status'],'attempted_steps':len(data['attempts']),'unattempted_steps':data['unattempted_steps'],'receipt':str(receipt)},indent=2),flush=True)
+sys.exit(0 if data['status']=='COMPLETED_ALL_DECLARED_COMMANDS_ZERO_EXIT' else 1)

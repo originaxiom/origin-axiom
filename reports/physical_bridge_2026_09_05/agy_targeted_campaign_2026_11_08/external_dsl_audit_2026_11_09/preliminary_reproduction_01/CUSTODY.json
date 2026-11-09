@@ -1,0 +1,123 @@
+{
+  "schema": "oa-preliminary-run-custody-v1",
+  "evidence_grade": "OWNER_AUTHORIZED_PRELIMINARY_EXTERNAL_REPRODUCTION_UNBANKED",
+  "authorization_commit": "3ce102d43148d7a11319e845f1ee8954701aeb78",
+  "proposal_commit": "afa93bce87d127288703022999036f16e1e89532",
+  "external_source_head": "2f45580c4afa5985145df7520575dd9c4e51d928",
+  "original_run_directory": "/private/tmp/oa-preliminary-reproduction-7p7zwzcd",
+  "commands_attempted": 5,
+  "commands_zero_exit": 5,
+  "tests_observed_by_suite": [
+    17,
+    5
+  ],
+  "total_tests_observed": 22,
+  "unexpected_execution_failures": 0,
+  "source_mutations": 0,
+  "expected_receipt_mutations": 0,
+  "receipts_byte_identical": 3,
+  "new_pass_tolerances_or_source_changes": false,
+  "elapsed_seconds": 4.4169888369506225,
+  "runtime": {
+    "executable": "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+    "version": "3.12.1 (main, Dec 18 2025, 19:00:52) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "platform": "macOS-15.1-x86_64-i386-64bit",
+    "distributions": {
+      "numpy": "2.4.0",
+      "scipy": "1.16.3",
+      "mpmath": "1.3.0"
+    }
+  },
+  "historical_record_unchanged": true,
+  "normal_formal_execution_admission": null,
+  "main_acceptance": null,
+  "banking": null,
+  "loose_file_mapping": "Original relative command and source paths are retained in COMPLETE_ISOLATED_RUN.zip. Fresh JSONs are additionally copied under generated/ for reading. The orchestrator is preserved as runner.py.txt.",
+  "files": [
+    {
+      "path": "COMPLETE_ISOLATED_RUN.zip",
+      "bytes": 94270,
+      "sha256": "d57d111d0905da368e3d90e9ac3c84591cb073a3f317d3404397e1bbc63d3124"
+    },
+    {
+      "path": "EXECUTION_RECEIPT.json",
+      "bytes": 14511,
+      "sha256": "7b1ba158d93f82dbd2a6dad02b0a4d3ce26d488325a85251c07f287bce1e4542"
+    },
+    {
+      "path": "RECEIPT_COMPARISON.json",
+      "bytes": 1637,
+      "sha256": "c3d529b67d4528ccaeafc4a74ad1a50a5d4286de4b24e1eb831ad298c64ffa6a"
+    },
+    {
+      "path": "generated/golden_spikes_stress_test/golden_spikes_stress_test_receipt.json",
+      "bytes": 8083,
+      "sha256": "6dd8adb506662166af0fd0c2ba2ecea828a8ca73b4923c7f47f859b3de7380c9"
+    },
+    {
+      "path": "generated/guardrail_dsl_receipt.json",
+      "bytes": 4435,
+      "sha256": "b0bd14fbed313a00e83281cbbf16376063c26b73d7fa662347af08dcbc22b201"
+    },
+    {
+      "path": "generated/repo_crucial_math_dsl_receipt.json",
+      "bytes": 6594,
+      "sha256": "0643e2d70443f9e7bc6cbe6e5c36b129e9f0d4978e2d1c1e1e6fedf3c3d38347"
+    },
+    {
+      "path": "logs/step_01.stderr",
+      "bytes": 3948,
+      "sha256": "88157cdbf1c80d69dc0d200906c6da33570104a899b446ca29f3134fc477323e"
+    },
+    {
+      "path": "logs/step_01.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/step_02.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/step_02.stdout",
+      "bytes": 1528,
+      "sha256": "c611256dde3141deeda86bd895a9ff0b6ae8d2b17354d829826aa6ba6c63f646"
+    },
+    {
+      "path": "logs/step_03.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/step_03.stdout",
+      "bytes": 1591,
+      "sha256": "4c6c3b50b1962ea5494bdde7eebf676e2636c6c4d628b8d4495aeae2b72515bd"
+    },
+    {
+      "path": "logs/step_04.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/step_04.stdout",
+      "bytes": 8222,
+      "sha256": "67c4e935aa609fd25bfaed1e5f213e8e321308d215adde570e5315567c502b85"
+    },
+    {
+      "path": "logs/step_05.stderr",
+      "bytes": 889,
+      "sha256": "6eef3559c4c57f42a7009db0af1116b86459977584b7f5c87f75dc65183a0b3c"
+    },
+    {
+      "path": "logs/step_05.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runner.py.txt",
+      "bytes": 3745,
+      "sha256": "adce1fd5d8f9a4bc0dec4915ce6ba17a1916fde63cc826c53a2ea85e848a5192"
+    }
+  ]
+}

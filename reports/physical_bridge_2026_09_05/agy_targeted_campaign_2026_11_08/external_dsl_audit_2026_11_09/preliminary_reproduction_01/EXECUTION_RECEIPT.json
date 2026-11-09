@@ -1,0 +1,246 @@
+{
+  "schema": "oa-preliminary-external-reproduction-v1",
+  "status": "COMPLETED_ALL_DECLARED_COMMANDS_ZERO_EXIT",
+  "evidence_grade": "OWNER_AUTHORIZED_PRELIMINARY_EXTERNAL_REPRODUCTION_UNBANKED",
+  "date_utc": "2026-11-09T18:49:37.463125+00:00",
+  "authorization_commit": "3ce102d43148d7a11319e845f1ee8954701aeb78",
+  "proposal_commit": "afa93bce87d127288703022999036f16e1e89532",
+  "external_head": "2f45580c4afa5985145df7520575dd9c4e51d928",
+  "temporary_root": "/private/tmp/oa-preliminary-reproduction-7p7zwzcd",
+  "runtime": {
+    "executable": "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+    "version": "3.12.1 (main, Dec 18 2025, 19:00:52) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "platform": "macOS-15.1-x86_64-i386-64bit",
+    "distributions": {
+      "numpy": "2.4.0",
+      "scipy": "1.16.3",
+      "mpmath": "1.3.0"
+    }
+  },
+  "environment_policy": {
+    "PYTHONPATH": "removed from child environment to avoid ambient project modules",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "numeric_thread_settings": "inherited unchanged and recorded if set",
+    "inherited_numeric_settings": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null,
+      "VECLIB_MAXIMUM_THREADS": null,
+      "NUMEXPR_NUM_THREADS": null,
+      "PYTHONHASHSEED": null
+    }
+  },
+  "source_sha256": {
+    "golden_spikes_stress_test/test_golden_spikes_stress_test.py": "e643d3fc5559a2d11e3a9f4fc4094ca8b5e515dfea222869243128c59d229c2e",
+    "golden_spikes_stress_test/verify_golden_spikes_stress_test.py": "b985c409f68eacbc20483ce7af22787702cc604b1177e2cd22a1b2072ab8972b",
+    "guardrail_dsl.py": "4c9d8c291b3c754c42911eaadde7a2780da9b45c754c03e8ed2fca8a77d33d5f",
+    "test_guardrail_dsl.py": "3fec85886de79c9bad67434c640192c6b70ea0f09f703087b91648cda6007831",
+    "test_repo_crucial_math_with_dsl.py": "605cee3bb7a251fb53f26cee71df804f4851cd5e69217b44c810a319f1483655",
+    "verify_repo_crucial_math_with_dsl.py": "ee43352f61a53a89df9ca478bfe75c5ef35e5f23c404c24c741d5b0fe9929e40"
+  },
+  "expected_receipt_sha256": {
+    "golden_spikes_stress_test/golden_spikes_stress_test_receipt.json": "6dd8adb506662166af0fd0c2ba2ecea828a8ca73b4923c7f47f859b3de7380c9",
+    "guardrail_dsl_receipt.json": "b0bd14fbed313a00e83281cbbf16376063c26b73d7fa662347af08dcbc22b201",
+    "repo_crucial_math_dsl_receipt.json": "0643e2d70443f9e7bc6cbe6e5c36b129e9f0d4978e2d1c1e1e6fedf3c3d38347"
+  },
+  "command_timeout_seconds": 600,
+  "total_timeout_seconds": 1800,
+  "main_acceptance": null,
+  "formal_execution_admission": null,
+  "banking": null,
+  "attempts": [
+    {
+      "step": 1,
+      "command": [
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "-m",
+        "unittest",
+        "-v",
+        "-f",
+        "test_guardrail_dsl",
+        "test_repo_crucial_math_with_dsl"
+      ],
+      "cwd": "/private/tmp/oa-preliminary-reproduction-7p7zwzcd/source",
+      "started_utc": "2026-11-09T18:49:37.847394+00:00",
+      "source_before_sha256": {
+        "golden_spikes_stress_test/test_golden_spikes_stress_test.py": "e643d3fc5559a2d11e3a9f4fc4094ca8b5e515dfea222869243128c59d229c2e",
+        "golden_spikes_stress_test/verify_golden_spikes_stress_test.py": "b985c409f68eacbc20483ce7af22787702cc604b1177e2cd22a1b2072ab8972b",
+        "guardrail_dsl.py": "4c9d8c291b3c754c42911eaadde7a2780da9b45c754c03e8ed2fca8a77d33d5f",
+        "test_guardrail_dsl.py": "3fec85886de79c9bad67434c640192c6b70ea0f09f703087b91648cda6007831",
+        "test_repo_crucial_math_with_dsl.py": "605cee3bb7a251fb53f26cee71df804f4851cd5e69217b44c810a319f1483655",
+        "verify_repo_crucial_math_with_dsl.py": "ee43352f61a53a89df9ca478bfe75c5ef35e5f23c404c24c741d5b0fe9929e40"
+      },
+      "stdout_file": "logs/step_01.stdout",
+      "stderr_file": "logs/step_01.stderr",
+      "timeout": false,
+      "pid": 14134,
+      "exit_code": 0,
+      "elapsed_seconds": 2.0387095590122044,
+      "finished_utc": "2026-11-09T18:49:39.886488+00:00",
+      "source_after_sha256": {
+        "golden_spikes_stress_test/test_golden_spikes_stress_test.py": "e643d3fc5559a2d11e3a9f4fc4094ca8b5e515dfea222869243128c59d229c2e",
+        "golden_spikes_stress_test/verify_golden_spikes_stress_test.py": "b985c409f68eacbc20483ce7af22787702cc604b1177e2cd22a1b2072ab8972b",
+        "guardrail_dsl.py": "4c9d8c291b3c754c42911eaadde7a2780da9b45c754c03e8ed2fca8a77d33d5f",
+        "test_guardrail_dsl.py": "3fec85886de79c9bad67434c640192c6b70ea0f09f703087b91648cda6007831",
+        "test_repo_crucial_math_with_dsl.py": "605cee3bb7a251fb53f26cee71df804f4851cd5e69217b44c810a319f1483655",
+        "verify_repo_crucial_math_with_dsl.py": "ee43352f61a53a89df9ca478bfe75c5ef35e5f23c404c24c741d5b0fe9929e40"
+      },
+      "source_unchanged": true,
+      "expected_receipts_unchanged": true,
+      "stdout_file_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_file_sha256": "88157cdbf1c80d69dc0d200906c6da33570104a899b446ca29f3134fc477323e"
+    },
+    {
+      "step": 2,
+      "command": [
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "guardrail_dsl.py"
+      ],
+      "cwd": "/private/tmp/oa-preliminary-reproduction-7p7zwzcd/source",
+      "started_utc": "2026-11-09T18:49:39.892255+00:00",
+      "source_before_sha256": {
+        "golden_spikes_stress_test/test_golden_spikes_stress_test.py": "e643d3fc5559a2d11e3a9f4fc4094ca8b5e515dfea222869243128c59d229c2e",
+        "golden_spikes_stress_test/verify_golden_spikes_stress_test.py": "b985c409f68eacbc20483ce7af22787702cc604b1177e2cd22a1b2072ab8972b",
+        "guardrail_dsl.py": "4c9d8c291b3c754c42911eaadde7a2780da9b45c754c03e8ed2fca8a77d33d5f",
+        "test_guardrail_dsl.py": "3fec85886de79c9bad67434c640192c6b70ea0f09f703087b91648cda6007831",
+        "test_repo_crucial_math_with_dsl.py": "605cee3bb7a251fb53f26cee71df804f4851cd5e69217b44c810a319f1483655",
+        "verify_repo_crucial_math_with_dsl.py": "ee43352f61a53a89df9ca478bfe75c5ef35e5f23c404c24c741d5b0fe9929e40"
+      },
+      "stdout_file": "logs/step_02.stdout",
+      "stderr_file": "logs/step_02.stderr",
+      "timeout": false,
+      "pid": 14135,
+      "exit_code": 0,
+      "elapsed_seconds": 0.29604340996593237,
+      "finished_utc": "2026-11-09T18:49:40.188868+00:00",
+      "source_after_sha256": {
+        "golden_spikes_stress_test/test_golden_spikes_stress_test.py": "e643d3fc5559a2d11e3a9f4fc4094ca8b5e515dfea222869243128c59d229c2e",
+        "golden_spikes_stress_test/verify_golden_spikes_stress_test.py": "b985c409f68eacbc20483ce7af22787702cc604b1177e2cd22a1b2072ab8972b",
+        "guardrail_dsl.py": "4c9d8c291b3c754c42911eaadde7a2780da9b45c754c03e8ed2fca8a77d33d5f",
+        "test_guardrail_dsl.py": "3fec85886de79c9bad67434c640192c6b70ea0f09f703087b91648cda6007831",
+        "test_repo_crucial_math_with_dsl.py": "605cee3bb7a251fb53f26cee71df804f4851cd5e69217b44c810a319f1483655",
+        "verify_repo_crucial_math_with_dsl.py": "ee43352f61a53a89df9ca478bfe75c5ef35e5f23c404c24c741d5b0fe9929e40"
+      },
+      "source_unchanged": true,
+      "expected_receipts_unchanged": true,
+      "stdout_file_sha256": "c611256dde3141deeda86bd895a9ff0b6ae8d2b17354d829826aa6ba6c63f646",
+      "stderr_file_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "step": 3,
+      "command": [
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "verify_repo_crucial_math_with_dsl.py"
+      ],
+      "cwd": "/private/tmp/oa-preliminary-reproduction-7p7zwzcd/source",
+      "started_utc": "2026-11-09T18:49:40.194472+00:00",
+      "source_before_sha256": {
+        "golden_spikes_stress_test/test_golden_spikes_stress_test.py": "e643d3fc5559a2d11e3a9f4fc4094ca8b5e515dfea222869243128c59d229c2e",
+        "golden_spikes_stress_test/verify_golden_spikes_stress_test.py": "b985c409f68eacbc20483ce7af22787702cc604b1177e2cd22a1b2072ab8972b",
+        "guardrail_dsl.py": "4c9d8c291b3c754c42911eaadde7a2780da9b45c754c03e8ed2fca8a77d33d5f",
+        "test_guardrail_dsl.py": "3fec85886de79c9bad67434c640192c6b70ea0f09f703087b91648cda6007831",
+        "test_repo_crucial_math_with_dsl.py": "605cee3bb7a251fb53f26cee71df804f4851cd5e69217b44c810a319f1483655",
+        "verify_repo_crucial_math_with_dsl.py": "ee43352f61a53a89df9ca478bfe75c5ef35e5f23c404c24c741d5b0fe9929e40"
+      },
+      "stdout_file": "logs/step_03.stdout",
+      "stderr_file": "logs/step_03.stderr",
+      "timeout": false,
+      "pid": 14136,
+      "exit_code": 0,
+      "elapsed_seconds": 1.3906284519471228,
+      "finished_utc": "2026-11-09T18:49:41.585754+00:00",
+      "source_after_sha256": {
+        "golden_spikes_stress_test/test_golden_spikes_stress_test.py": "e643d3fc5559a2d11e3a9f4fc4094ca8b5e515dfea222869243128c59d229c2e",
+        "golden_spikes_stress_test/verify_golden_spikes_stress_test.py": "b985c409f68eacbc20483ce7af22787702cc604b1177e2cd22a1b2072ab8972b",
+        "guardrail_dsl.py": "4c9d8c291b3c754c42911eaadde7a2780da9b45c754c03e8ed2fca8a77d33d5f",
+        "test_guardrail_dsl.py": "3fec85886de79c9bad67434c640192c6b70ea0f09f703087b91648cda6007831",
+        "test_repo_crucial_math_with_dsl.py": "605cee3bb7a251fb53f26cee71df804f4851cd5e69217b44c810a319f1483655",
+        "verify_repo_crucial_math_with_dsl.py": "ee43352f61a53a89df9ca478bfe75c5ef35e5f23c404c24c741d5b0fe9929e40"
+      },
+      "source_unchanged": true,
+      "expected_receipts_unchanged": true,
+      "stdout_file_sha256": "4c6c3b50b1962ea5494bdde7eebf676e2636c6c4d628b8d4495aeae2b72515bd",
+      "stderr_file_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "step": 4,
+      "command": [
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "golden_spikes_stress_test/verify_golden_spikes_stress_test.py"
+      ],
+      "cwd": "/private/tmp/oa-preliminary-reproduction-7p7zwzcd/source",
+      "started_utc": "2026-11-09T18:49:41.591301+00:00",
+      "source_before_sha256": {
+        "golden_spikes_stress_test/test_golden_spikes_stress_test.py": "e643d3fc5559a2d11e3a9f4fc4094ca8b5e515dfea222869243128c59d229c2e",
+        "golden_spikes_stress_test/verify_golden_spikes_stress_test.py": "b985c409f68eacbc20483ce7af22787702cc604b1177e2cd22a1b2072ab8972b",
+        "guardrail_dsl.py": "4c9d8c291b3c754c42911eaadde7a2780da9b45c754c03e8ed2fca8a77d33d5f",
+        "test_guardrail_dsl.py": "3fec85886de79c9bad67434c640192c6b70ea0f09f703087b91648cda6007831",
+        "test_repo_crucial_math_with_dsl.py": "605cee3bb7a251fb53f26cee71df804f4851cd5e69217b44c810a319f1483655",
+        "verify_repo_crucial_math_with_dsl.py": "ee43352f61a53a89df9ca478bfe75c5ef35e5f23c404c24c741d5b0fe9929e40"
+      },
+      "stdout_file": "logs/step_04.stdout",
+      "stderr_file": "logs/step_04.stderr",
+      "timeout": false,
+      "pid": 14137,
+      "exit_code": 0,
+      "elapsed_seconds": 0.30767727096099406,
+      "finished_utc": "2026-11-09T18:49:41.899572+00:00",
+      "source_after_sha256": {
+        "golden_spikes_stress_test/test_golden_spikes_stress_test.py": "e643d3fc5559a2d11e3a9f4fc4094ca8b5e515dfea222869243128c59d229c2e",
+        "golden_spikes_stress_test/verify_golden_spikes_stress_test.py": "b985c409f68eacbc20483ce7af22787702cc604b1177e2cd22a1b2072ab8972b",
+        "guardrail_dsl.py": "4c9d8c291b3c754c42911eaadde7a2780da9b45c754c03e8ed2fca8a77d33d5f",
+        "test_guardrail_dsl.py": "3fec85886de79c9bad67434c640192c6b70ea0f09f703087b91648cda6007831",
+        "test_repo_crucial_math_with_dsl.py": "605cee3bb7a251fb53f26cee71df804f4851cd5e69217b44c810a319f1483655",
+        "verify_repo_crucial_math_with_dsl.py": "ee43352f61a53a89df9ca478bfe75c5ef35e5f23c404c24c741d5b0fe9929e40"
+      },
+      "source_unchanged": true,
+      "expected_receipts_unchanged": true,
+      "stdout_file_sha256": "67c4e935aa609fd25bfaed1e5f213e8e321308d215adde570e5315567c502b85",
+      "stderr_file_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "step": 5,
+      "command": [
+        "/Users/dri/.pyenv/versions/3.12.1/bin/python3",
+        "-m",
+        "unittest",
+        "-v",
+        "-f",
+        "test_golden_spikes_stress_test"
+      ],
+      "cwd": "/private/tmp/oa-preliminary-reproduction-7p7zwzcd/source/golden_spikes_stress_test",
+      "started_utc": "2026-11-09T18:49:41.902921+00:00",
+      "source_before_sha256": {
+        "golden_spikes_stress_test/test_golden_spikes_stress_test.py": "e643d3fc5559a2d11e3a9f4fc4094ca8b5e515dfea222869243128c59d229c2e",
+        "golden_spikes_stress_test/verify_golden_spikes_stress_test.py": "b985c409f68eacbc20483ce7af22787702cc604b1177e2cd22a1b2072ab8972b",
+        "guardrail_dsl.py": "4c9d8c291b3c754c42911eaadde7a2780da9b45c754c03e8ed2fca8a77d33d5f",
+        "test_guardrail_dsl.py": "3fec85886de79c9bad67434c640192c6b70ea0f09f703087b91648cda6007831",
+        "test_repo_crucial_math_with_dsl.py": "605cee3bb7a251fb53f26cee71df804f4851cd5e69217b44c810a319f1483655",
+        "verify_repo_crucial_math_with_dsl.py": "ee43352f61a53a89df9ca478bfe75c5ef35e5f23c404c24c741d5b0fe9929e40"
+      },
+      "stdout_file": "logs/step_05.stdout",
+      "stderr_file": "logs/step_05.stderr",
+      "timeout": false,
+      "pid": 14139,
+      "exit_code": 0,
+      "elapsed_seconds": 0.3562603449681774,
+      "finished_utc": "2026-11-09T18:49:42.259742+00:00",
+      "source_after_sha256": {
+        "golden_spikes_stress_test/test_golden_spikes_stress_test.py": "e643d3fc5559a2d11e3a9f4fc4094ca8b5e515dfea222869243128c59d229c2e",
+        "golden_spikes_stress_test/verify_golden_spikes_stress_test.py": "b985c409f68eacbc20483ce7af22787702cc604b1177e2cd22a1b2072ab8972b",
+        "guardrail_dsl.py": "4c9d8c291b3c754c42911eaadde7a2780da9b45c754c03e8ed2fca8a77d33d5f",
+        "test_guardrail_dsl.py": "3fec85886de79c9bad67434c640192c6b70ea0f09f703087b91648cda6007831",
+        "test_repo_crucial_math_with_dsl.py": "605cee3bb7a251fb53f26cee71df804f4851cd5e69217b44c810a319f1483655",
+        "verify_repo_crucial_math_with_dsl.py": "ee43352f61a53a89df9ca478bfe75c5ef35e5f23c404c24c741d5b0fe9929e40"
+      },
+      "source_unchanged": true,
+      "expected_receipts_unchanged": true,
+      "stdout_file_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_file_sha256": "6eef3559c4c57f42a7009db0af1116b86459977584b7f5c87f75dc65183a0b3c"
+    }
+  ],
+  "orchestrator_sha256": "adce1fd5d8f9a4bc0dec4915ce6ba17a1916fde63cc826c53a2ea85e848a5192",
+  "elapsed_seconds": 4.4169888369506225,
+  "finished_utc": "2026-11-09T18:49:42.263237+00:00",
+  "unattempted_steps": []
+}

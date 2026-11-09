@@ -357,13 +357,28 @@
     }
   ],
   "science_status": {
-    "new_campaign_runs": "NONE",
+    "new_campaign_runs": "NONE for OA prospective campaign producers; owner-authorized external preliminary reproduction is recorded separately",
     "six_control_review_completed": true,
     "six_control_science_execution": "UNRUN; separate main acceptance and admission outstanding",
-    "later_seven_and_four_controls": "UNRUN; outside completed review"
+    "later_seven_and_four_controls": "UNRUN; outside completed review",
+    "external_preliminary_reproduction": {
+      "authorization_commit": "3ce102d43",
+      "proposal_commit": "afa93bce87d127288703022999036f16e1e89532",
+      "scope": "unchanged six-file external package at2f45580c4; no OA campaign producer released",
+      "status": "FIVE_COMMANDS_ZERO_EXIT; TWENTY_TWO_TESTS_PASS; THREE_BYTE_IDENTICAL_RECEIPTS",
+      "result": "external_dsl_audit_2026_11_09/PRELIMINARY_REPRODUCTION_RESULTS.md",
+      "custody": "external_dsl_audit_2026_11_09/preliminary_reproduction_01/CUSTODY.json",
+      "raw_execution_receipt": "external_dsl_audit_2026_11_09/preliminary_reproduction_01/EXECUTION_RECEIPT.json",
+      "unexpected_failures": 0,
+      "source_repairs_or_retries": 0,
+      "main_acceptance": null,
+      "normal_formal_admission": null,
+      "banking": null,
+      "AGY_04A_new_lepton_proof_tested": false
+    }
   },
-  "coordination_revision": 22,
-  "revision_base_commit": "edaa4cf7cd9e1a9e082bad87ea2350a3803c32c3",
+  "coordination_revision": 23,
+  "revision_base_commit": "3ce102d43",
   "start_document": "START_HERE.md",
   "max_active_microtasks_per_worker_context": 1,
   "dispatch": {
@@ -431,11 +446,13 @@
     "document": "external_dsl_audit_2026_11_09/REVIEW.md",
     "custody": "external_dsl_audit_2026_11_09/CUSTODY.json",
     "decision": "PRESERVE_FINITE_POSITIVES_AND_SIGN_REPAIR; REVISE_GUARDRAIL_AND_COVERAGE_CLAIMS",
-    "scientific_execution_by_physical_seat": false,
+    "scientific_execution_by_physical_seat": true,
     "formal_source_complete_acceptance": null,
     "main_acceptance": null,
     "execution_admission": null,
     "canonical_inputs_reduced": 0,
-    "active_assignment_unchanged": "AGY-04a at its edaa4cf7c review checkpoint; subsequently advanced to AGY-04b at coordination revision22"
+    "active_assignment_unchanged": "AGY-04a at its edaa4cf7c review checkpoint; subsequently advanced to AGY-04b at coordination revision22",
+    "execution_scope": "subsequent owner-authorized preliminary unchanged external reproduction only; the source review at edaa4cf7c itself ran no code",
+    "later_preliminary_reproduction": "external_dsl_audit_2026_11_09/PRELIMINARY_REPRODUCTION_RESULTS.md"
   }
 }

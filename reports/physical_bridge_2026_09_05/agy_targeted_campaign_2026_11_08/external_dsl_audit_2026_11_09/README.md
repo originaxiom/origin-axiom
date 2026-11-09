@@ -2,6 +2,13 @@
 
 2026-11-09. Read REVIEW.md and CUSTODY.json first.
 
+Latest execution addendum. The owner subsequently authorized a bounded
+preliminary reproduction. All22 tests passed on the first attempt and
+all three fresh JSON receipts match the supplied files byte for byte.
+Read PRELIMINARY_REPRODUCTION_RESULTS.md and preliminary_reproduction_01/.
+This changes the external package's reproduction status only. Its source
+findings and the separate OA formal execution gates remain in force.
+
 The owner supplied the external guardrail DSL and E8/SL2 audit archive.
 All five quoted hashes match. Its seven original files match standalone
 commit ad6f2f5b4f7bbdaca25bbe6dabcb1b6eb80b2f62. The archive also contains
@@ -16,7 +23,7 @@ appended to their original names. That keeps scientific source out of
 automatic Python imports and test discovery. The external reports are
 evidence to inspect, not repository instructions or execution permission.
 
-The physical seat personally read the main mathematical verifier and
+In the earlier source-review stage, the physical seat personally read the main mathematical verifier and
 its tests, the Golden Spikes verifier and its tests, the reports and
 receipts, and the relevant DSL scanner, theorem, referee, scan-ledger
 and RGE routines. This is a scoped source/hand audit. It is not a full

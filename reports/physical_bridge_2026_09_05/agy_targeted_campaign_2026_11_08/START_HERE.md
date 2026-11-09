@@ -1,6 +1,6 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-09. Coordination revision 22, requested by the owner to avoid
+2026-11-09. Coordination revision 23, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
@@ -42,6 +42,14 @@ stale hashes and a cusp-measure error whose correction preserves the
 pole allowance. No numerical rerun or new admission is inferred.
 AGY-04b stays the current task; the separate guardrail repair is not
 an additional assignment in this worker context.
+
+The owner subsequently authorized the physical seat's exact preliminary
+external rerun. All17+5 tests passed and all three fresh JSON receipts
+match the supplied files byte for byte. See external_dsl_audit_2026_11_09/
+PRELIMINARY_REPRODUCTION_RESULTS.md. Reuse that finite baseline while
+working on AGY-04b. This old package does not implement AGY-04a's new
+lepton-current proof, supply main acceptance, or change AGY's execution
+permissions. The identified guardrail and measure errors remain.
 
 ## Prior assignment AGY-02c, joined hand result with binding corrections
 

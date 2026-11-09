@@ -1,0 +1,34 @@
+test_full_compiler_demonstration_and_receipt (test_guardrail_dsl.TestGuardrailDSL.test_full_compiler_demonstration_and_receipt)
+Verify run_compiler_demonstration() catches all 6 guardrail cheats and passes all honest checks. ... ok
+test_guardrail1_blocks_non_stationary_or_unstable_vacuum (test_guardrail_dsl.TestGuardrailDSL.test_guardrail1_blocks_non_stationary_or_unstable_vacuum)
+Dynamic stabilization check must reject non-stationary points and maxima. ... ok
+test_guardrail1_blocks_target_planted_in_potential_ast (test_guardrail_dsl.TestGuardrailDSL.test_guardrail1_blocks_target_planted_in_potential_ast)
+AST scanner must reject any V(x) that references tau_target/tau_golden or shifts by float literal. ... ok
+test_guardrail1_blocks_unpriced_discrete_scan_in_zero_bit_claim (test_guardrail_dsl.TestGuardrailDSL.test_guardrail1_blocks_unpriced_discrete_scan_in_zero_bit_claim)
+Scanning N>1 discrete candidates adds log2(N) bits and blocks @zero_bit_prediction. ... ok
+test_guardrail2_blocks_literal_booleans_and_zeros_in_ast (test_guardrail_dsl.TestGuardrailDSL.test_guardrail2_blocks_literal_booleans_and_zeros_in_ast)
+AST scanner must reject hardcoded True/False/0/0.0 in @theorem and @observable. ... ok
+test_guardrail2_passes_computed_operator_residual (test_guardrail_dsl.TestGuardrailDSL.test_guardrail2_passes_computed_operator_residual)
+@theorem passes when residuals are genuinely computed from matrices and < 1e-12. ... ok
+test_guardrail3_blocks_basis_dependent_observable_and_passes_invariant (test_guardrail_dsl.TestGuardrailDSL.test_guardrail3_blocks_basis_dependent_observable_and_passes_invariant)
+Haar scrambling gate rejects basis-dependent entries and passes true invariants. ... ok
+test_guardrail3_blocks_single_dirac_left_right_svd_overlap (test_guardrail_dsl.TestGuardrailDSL.test_guardrail3_blocks_single_dirac_left_right_svd_overlap)
+Both AST scanner and FramedMatrix method must block single-Dirac V^T U overlaps. ... ok
+test_guardrail4_locks_model_integration_until_benchmark_passes (test_guardrail_dsl.TestGuardrailDSL.test_guardrail4_locks_model_integration_until_benchmark_passes)
+Calling integrate_model() before verify_literature_benchmark() or with 4pi bug fails. ... ok
+test_guardrail5_enforces_single_anchor_and_dimensionless_closure (test_guardrail_dsl.TestGuardrailDSL.test_guardrail5_enforces_single_anchor_and_dimensionless_closure)
+Ledger rejects a second dimensionful anchor and rejects un-normalized outputs. ... ok
+test_guardrail6_blocks_static_and_dynamic_producer_calls_in_referee (test_guardrail_dsl.TestGuardrailDSL.test_guardrail6_blocks_static_and_dynamic_producer_calls_in_referee)
+Referee cannot call a @producer statically or accept a ProducerOutputDict dynamically. ... ok
+test_module5_catches_broken_differential_and_intertwiner_sign_error (test_guardrail_dsl.TestGuardrailDSL.test_module5_catches_broken_differential_and_intertwiner_sign_error)
+EquivariantCochainComplex catches d^2 != 0 and catches the +i vs -i adjoint sign bug. ... ok
+test_part1_all_8_redteam_bypasses_defeated (test_repo_crucial_math_with_dsl.TestRepoCrucialMathWithDSL.test_part1_all_8_redteam_bypasses_defeated) ... ok
+test_pillar1_agy01a_01b_248_dim_e8_and_wf1_sign_catch (test_repo_crucial_math_with_dsl.TestRepoCrucialMathWithDSL.test_pillar1_agy01a_01b_248_dim_e8_and_wf1_sign_catch) ... ok
+test_pillar2_agy01c_4_classes_and_k0_witness_repair (test_repo_crucial_math_with_dsl.TestRepoCrucialMathWithDSL.test_pillar2_agy01c_4_classes_and_k0_witness_repair) ... ok
+test_pillar3_agy01d_register_to_grading_and_x4_bridge (test_repo_crucial_math_with_dsl.TestRepoCrucialMathWithDSL.test_pillar3_agy01d_register_to_grading_and_x4_bridge) ... ok
+test_pillar4_b1855_b1856_b1857_weil5_and_charge_law (test_repo_crucial_math_with_dsl.TestRepoCrucialMathWithDSL.test_pillar4_b1855_b1856_b1857_weil5_and_charge_law) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 1.190s
+
+OK

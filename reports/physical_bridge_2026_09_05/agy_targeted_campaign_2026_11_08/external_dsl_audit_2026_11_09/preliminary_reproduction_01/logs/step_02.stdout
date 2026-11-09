@@ -1,0 +1,21 @@
+======================================================================
+GUARDRAIL_DSL v1.1 COMPILER & RUNTIME VERIFICATION SUMMARY
+======================================================================
+All 6 adversarial cheats caught : True
+  [BLOCKED] guardrail_1_static_planted_target: Guardrail1PostInspectionError
+  [BLOCKED] guardrail_1_dynamic_unpriced_scan: Guardrail1UnpricedScanError
+  [BLOCKED] guardrail_2_static_literal_claim: Guardrail2LiteralClaimError
+  [BLOCKED] guardrail_3_dynamic_haar_scrambling: Guardrail3BasisDependenceError
+  [BLOCKED] guardrail_4_benchmark_gate_bug: Guardrail4BenchmarkGateError
+  [BLOCKED] guardrail_5_second_dimensionful_anchor: Guardrail5UnpricedScaleError
+  [BLOCKED] guardrail_6_static_referee_echo: Guardrail6ProducerEchoError
+----------------------------------------------------------------------
+  [PASSED] Guardrail 1 Stabilization ||grad V(phi)|| = 4.473e-12
+  [PASSED] Guardrail 2 & 6 Strong-CP Referee res     = 1.856e-14
+  [PASSED] Guardrail 3 Haar 50-Sample Invariant J_tr = 3.661618e-04
+  [PASSED] Guardrail 4 Benchmark Gate rel_err        = 7.076e-14
+  [PASSED] Guardrail 5 Dimensionless Ledger unit     = `1` (inputs=1)
+  [PASSED] Module 5 Koszul Cochain Complex Betti     = [0, 0, 0] (||d1 d0||_F = 0.000e+00)
+----------------------------------------------------------------------
+Receipt written to: /private/tmp/oa-preliminary-reproduction-7p7zwzcd/source/guardrail_dsl_receipt.json
+Receipt SHA-256   : b0bd14fbed313a00e83281cbbf16376063c26b73d7fa662347af08dcbc22b201

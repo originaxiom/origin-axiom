@@ -1,0 +1,120 @@
+{
+  "part1_redteam_compiler_stress_test": {
+    "all_8_redteam_bypasses_defeated": true,
+    "attacks": {
+      "RT1_subscript_and_dict_call_smuggling": {
+        "defeated": true,
+        "error_A": "[Guardrail 2 AST Violation in `rt1_subscript_smuggle` line 5]: Returned variable `out` holds hardcoded subscript assignment `out['bar_theta_QCD'] = zero literal `0.0``. Proof by literal assignment is banned.",
+        "error_B": "[Guardrail 2 AST Violation in `rt1_dict_call_smuggle` line 3]: Return of hardcoded boolean literal `True` is forbidden. Compute the explicit operator residual or norm instead."
+      },
+      "RT2_constant_folded_obfuscation": {
+        "defeated": true,
+        "error_A": "[Guardrail 2 AST Violation in `rt2_const_fold_zero` line 3]: Return of hardcoded zero-multiplier expression `0.0 * float(np.linalg.norm(m))` is forbidden. Compute the explicit operator residual or norm instead.",
+        "error_B": "[Guardrail 1 AST Violation in potential `rt2_const_fold_golden_potential` line 3]: Potential V(x) embeds hardcoded coordinate shift `(tau - (1.0 + math.sqrt(5.0)) / 2.0)`. Hand-planting the minimum coordinate in V(x) is banned."
+      },
+      "RT3_referee_alias_and_reflection_smuggling": {
+        "defeated": true,
+        "error_A": "[Guardrail 6 AST Violation in referee `rt3_alias_referee` line 3]: Referee function `rt3_alias_referee` references producer symbol `secret_producer_fn`.",
+        "error_B": "[Guardrail 6 AST Violation in referee `rt3_globals_referee` line 3]: Dynamic reflection `globals()` is forbidden in `@referee` functions."
+      },
+      "RT4_matmul_svd_and_polar_trace_smuggling": {
+        "defeated": true,
+        "error_A": "[Guardrail 3 AST Violation in `rt4_matmul_svd_overlap` line 4]: Illegal left-right Dirac SVD overlap in `np.matmul(u.conj().T, vh.conj().T)` combining `u` and `vh`.",
+        "error_B": "[Guardrail 3 Haar Basis-Scrambling Failure in `rt4_polar_lr_trace`]: Claimed observable changed by 1.617e-01 >= 1.0e-12 on Haar unitary sample #1/50 across frames ['Q_L', 'u_R']. The extracted quantity is basis-dependent and unphysical!"
+      },
+      "RT5_dishonest_right_frame_collision": {
+        "defeated": true,
+        "error": "[Guardrail 3 Frame Collision in `rt5_merged_right_frame_cheat`]: `distinct_right_frames=True` requires independent right-handed frames for each sector, got ['shared_q_R', 'shared_q_R']."
+      },
+      "RT6_rge_attribute_tampering_hmac_seal": {
+        "defeated": true,
+        "error": "[Guardrail 4 Tamper Detection]: `_benchmark_verified` or `rhs_fn` was mutated without passing `.verify_literature_benchmark()`!"
+      },
+      "RT7_epistemic_taint_stripping_launder": {
+        "defeated": true,
+        "error": "[Guardrail 1 Anti-Texas-Sharpshooter Violation in `rt7_strip_taint_cheat`]: Function claims 0 selection bits, but execution incurred 2.00 bits from post-inspection candidate scan(s) [discrete_scan#1(N=4): 2.00 bits]."
+      },
+      "RT8_nan_and_zero_intertwiner_cheat": {
+        "defeated": true,
+        "error_A": "Differential d_0 contains NaN or Inf.",
+        "error_B": "[IntertwinerError in `trivial_zero`]: Symmetry operator `A_0` is singular (rank 0 < 1); trivial/zero intertwiners are banned."
+      }
+    }
+  },
+  "part2_repo_crucial_math_pillars": {
+    "pillar1_agy01a_01b_e8_248_and_h1_vs_h3": {
+      "A_U_Ainv_eq_W_residual": 9.344997710663494e-15,
+      "A_sq_residual": 3.3694266093433066e-14,
+      "Ah1_sq_eq_Kpi_248_residual": 3.361534141895591e-14,
+      "Ah3_128_obstruction_norm": 22.627416997969515,
+      "Ah3_sq_eq_Zeta_Kpi_248_residual": 3.361534141895591e-14,
+      "C_sq_eq_Zeta_residual": 0.0,
+      "Kpi_eq_Zeta_P_residual": 3.4506939101912876e-14,
+      "W_eq_neg_C_U_residual": 0.0,
+      "Wf1_eq_Uf1_pos_omega6_residual": 0.0,
+      "a_vec_real_residual": 1.1376746422013737e-15,
+      "caught_agy01b_line86_Wf1_sign_slip": 1,
+      "comm_Ap_Bp_eq_Zeta_P_residual": 2.76886878606201e-14,
+      "exp_ipi_Hminus_Zeta_residual": 4.0389066600955193e-14,
+      "exp_ipi_Hplus_Zeta_residual": 2.5963514140542237e-14,
+      "h1_anticommutes_C_on_128_residual": 0.0,
+      "j10_residual": 0.0,
+      "o5_det_residual": 0.0,
+      "o5_imag_residual": 0.0,
+      "omega10_eq_neg_omega6_residual": 0.0,
+      "u_real_qsplit_residual": 1.2947314098277875e-15,
+      "u_real_reality_residual": 0.0,
+      "u_real_unitary_residual": 1.2947314098277875e-15,
+      "unbroken_so5_dim": 10,
+      "unbroken_so5_dim_residual": 0.0
+    },
+    "pillar2_agy01c_phase_classes_and_k0_repair": {
+      "O0_minus_coherence_248_residual": 3.36878293772632e-14,
+      "O0_plus_coherence_248_residual": 3.36878293772632e-14,
+      "O1_minus_coherence_248_residual": 3.361534141895591e-14,
+      "O1_plus_coherence_248_residual": 3.361534141895591e-14,
+      "caught_b299c2ab5_k_bad_bug": 1,
+      "g0_Ah4_to_AZetah4_248_residual": 4.4269925586208646e-15,
+      "g0_Bh4_to_BZetah4_248_residual": 5.958752666809954e-15,
+      "g0_reverses_Qem_residual": 0.0,
+      "g1_As_to_AsC_248_residual": 4.021398830883446e-15,
+      "g1_Bs_to_BsC_248_residual": 5.74319132534809e-15,
+      "k0_inverts_h4_residual": 0.0,
+      "tr_V5p_V6_O1_minus": -20.0,
+      "tr_V5p_V6_O1_plus": 20.0,
+      "tr_V5p_V6_residual": 0.0,
+      "unbroken_dims": [
+        9,
+        9,
+        10,
+        10
+      ],
+      "unbroken_dims_residual": 0.0
+    },
+    "pillar3_agy01d_register_to_grading_and_x4_bridge": {
+      "bare_detects_Cinv_248_residual": 2.9330961919503576e-14,
+      "coherent_Kh_kills_N_248_residual": 1.3149742801361072e-13,
+      "coherent_XY_eq_D_248_residual": 2.9943282234932514e-14,
+      "coherent_squares_eq_Kpi_248_residual": 1.223652821558776e-13,
+      "eta_orbit_P_residual": 0.0,
+      "gL_coherence_residual": 6.312164422641715e-16,
+      "gR_coherence_residual": 6.280369834735101e-16,
+      "group_2O_order": 48,
+      "group_2O_order_residual": 0.0,
+      "stabilizer_orders_16_and_8_residual": 0.0,
+      "x4_bridge_exact_sequence_residual": 0.0
+    },
+    "pillar4_b1855_b1856_b1857_weil5_and_charge_law": {
+      "b1857_sol_cosh_law_error": 1.2434497875801753e-14,
+      "caught_transposed_eigenvector_1_phi_slip": 1,
+      "counterexample_4_5_excess": 3.9224210039463565,
+      "lemma_a_phi_1_residual": 8.881784197001252e-16,
+      "priced_defect_scan_bits": 2.584962500721156,
+      "single_run_21_excess": 4.593993395923187,
+      "weil5_group_size": 120,
+      "weil5_hq1_only_pmI_error": 0.0,
+      "weil5_hq3_trace_phi_error": 2.5512859333628853e-15,
+      "weil5_projective_clash_error": 7.24533238784414e-15
+    }
+  }
+}

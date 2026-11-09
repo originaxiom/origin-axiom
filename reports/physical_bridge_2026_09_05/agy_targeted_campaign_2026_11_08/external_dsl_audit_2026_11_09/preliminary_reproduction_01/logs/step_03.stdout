@@ -1,0 +1,22 @@
+======================================================================
+PART I: HOSTILE RED-TEAM COMPILER STRESS TEST (8 BYPASS VECTORS)
+======================================================================
+All 8 red-team bypasses defeated: True
+  [DEFEATED] RT1_subscript_and_dict_call_smuggling
+  [DEFEATED] RT2_constant_folded_obfuscation
+  [DEFEATED] RT3_referee_alias_and_reflection_smuggling
+  [DEFEATED] RT4_matmul_svd_and_polar_trace_smuggling
+  [DEFEATED] RT5_dishonest_right_frame_collision
+  [DEFEATED] RT6_rge_attribute_tampering_hmac_seal
+  [DEFEATED] RT7_epistemic_taint_stripping_launder
+  [DEFEATED] RT8_nan_and_zero_intertwiner_cheat
+======================================================================
+PART II: REPO CRUCIAL MATH AUDITED & CERTIFIED BY GUARDRAIL_DSL
+======================================================================
+  [Pillar 1: AGY-01a/01b 248-dim E_8] (A h_1)^2=K_pi res = 3.362e-14, h_3 128-obstruction = 22.63, unbroken dim = 10
+  [Pillar 2: AGY-01c Phase Classes]   caught k_bad=True, g_0:A_{h4}->A_{Zeta h4} res = 4.427e-15, g_1:A_s->A_{sC} res = 4.021e-15
+  [Pillar 3: AGY-01d Register->Grade] |2O|=48, K_h(N)=I_248 res = 1.315e-13, X_4->A_disc^hat res = 0.000e+00
+  [Pillar 4: B1855/1856/1857 Weil-5]  |SL2(F5)|=120, caught (1,phi) slip=True, S={4,5} excess=3.9224 < 4.5940
+----------------------------------------------------------------------
+Receipt written to: /private/tmp/oa-preliminary-reproduction-7p7zwzcd/source/repo_crucial_math_dsl_receipt.json
+Receipt SHA-256   : 0643e2d70443f9e7bc6cbe6e5c36b129e9f0d4978e2d1c1e1e6fedf3c3d38347

@@ -1,0 +1,39 @@
+{
+  "schema": "oa-preliminary-receipt-comparison-v1",
+  "new_tolerances_used_to_reclassify_test_outcomes": false,
+  "comparisons": [
+    {
+      "expected_path": "expected/guardrail_dsl_receipt.json",
+      "new_path": "source/guardrail_dsl_receipt.json",
+      "expected_sha256": "b0bd14fbed313a00e83281cbbf16376063c26b73d7fa662347af08dcbc22b201",
+      "new_sha256": "b0bd14fbed313a00e83281cbbf16376063c26b73d7fa662347af08dcbc22b201",
+      "byte_identical": true,
+      "json_value_identical": true,
+      "leaf_values_compared": 0,
+      "nonfinite_observed_values": [],
+      "changes": []
+    },
+    {
+      "expected_path": "expected/repo_crucial_math_dsl_receipt.json",
+      "new_path": "source/repo_crucial_math_dsl_receipt.json",
+      "expected_sha256": "0643e2d70443f9e7bc6cbe6e5c36b129e9f0d4978e2d1c1e1e6fedf3c3d38347",
+      "new_sha256": "0643e2d70443f9e7bc6cbe6e5c36b129e9f0d4978e2d1c1e1e6fedf3c3d38347",
+      "byte_identical": true,
+      "json_value_identical": true,
+      "leaf_values_compared": 0,
+      "nonfinite_observed_values": [],
+      "changes": []
+    },
+    {
+      "expected_path": "expected/golden_spikes_stress_test/golden_spikes_stress_test_receipt.json",
+      "new_path": "source/golden_spikes_stress_test/golden_spikes_stress_test_receipt.json",
+      "expected_sha256": "6dd8adb506662166af0fd0c2ba2ecea828a8ca73b4923c7f47f859b3de7380c9",
+      "new_sha256": "6dd8adb506662166af0fd0c2ba2ecea828a8ca73b4923c7f47f859b3de7380c9",
+      "byte_identical": true,
+      "json_value_identical": true,
+      "leaf_values_compared": 0,
+      "nonfinite_observed_values": [],
+      "changes": []
+    }
+  ]
+}
