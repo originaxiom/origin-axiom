@@ -8,7 +8,7 @@ policy. Do not attempt the whole campaign in one response or run.
 ## Current assignment AGY-00b2a-r1
 
 The source ledger at ac089712315053ad4704e21e14b889cc2a24279e needs
-six grouped corrections. Read REVIEW_AGY_00B2A_AC089_2026_11_09.md.
+seven grouped corrections. Read REVIEW_AGY_00B2A_AC089_2026_11_09.md.
 Correct the ledger and its compact summaries using the existing sources.
 The24 half-root and18 up coefficients count different representations.
 Retain the actual vector carrier, coherent alternatives and review grades.

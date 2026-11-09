@@ -1,0 +1,112 @@
+{
+  "date": "2026-11-09",
+  "evidence_grade": "author hand derivation; UNREVIEWED and UNRUN",
+  "source_baseline": "0bc67c9ea",
+  "scientific_execution": false,
+  "independent_review": null,
+  "main_execution_acceptance": null,
+  "execution_admission": null,
+  "new_scientific_code": false,
+  "sources": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/NATIVE_CYCLIC_DEFORMATION_AND_DERIVED_QUADRATIC_MOMENT_RESPONSE_2026_11_09.md",
+      "commit": "0bc67c9ea",
+      "sha256": "8a0476b191517bb60c5e0a4a71f086262fd16ae23cd069bb6fd98fc7d4bf90bb",
+      "activity": "source reading and author hand comparison"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md",
+      "commit": "0bc67c9ea",
+      "sha256": "871529dd81603e1a70126f6ee518ae5c2758c107cf7e9fff62ae96f646a0813f",
+      "activity": "source reading and author hand comparison"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_HALF_ROOT_KERNEL_AND_CORE_LIFT_SENSITIVITY.md",
+      "commit": "0bc67c9ea",
+      "sha256": "789adf7544bf5c679305aa8b9ba7525b6375155b026c839e01c34c281be23875",
+      "activity": "source reading and author hand comparison"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_UP_SECTOR_PARABOLIC_COUNT_2026_11_08.md",
+      "commit": "0bc67c9ea",
+      "sha256": "477743caf7f2edc91117ed9f7ef24efcb834c5a8968bfd19ffc46865d75d9ff9",
+      "activity": "source reading and author hand comparison"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PIN2_COMPENSATOR_COHERENCE_AND_ELECTROMAGNETIC_PHASE.md",
+      "commit": "0bc67c9ea",
+      "sha256": "fc67d4446b11f54c731b7e7aac56b496e501d5fa397040363de6c8074909a3b9",
+      "activity": "source reading and author hand comparison"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CONJUGATE_SECTOR_VECTOR_AND_PAIRED_CURRENT_POLE_2026_11_08.md",
+      "commit": "0bc67c9ea",
+      "sha256": "d63b14319b2ea19c29e9082c9e37d0534ee30285ca7fd028d35856182ec90c2a",
+      "activity": "source reading and author hand comparison"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SAME_ACTION_REAL_GAUGE_FIXING_AND_ONE_LOOP_WEIGHTS.md",
+      "commit": "0bc67c9ea",
+      "sha256": "18a7f1362ed866f909465139205895916ae5728da6c56896fb03e9f6c77f4cce",
+      "activity": "source reading and author hand comparison"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/TWO_SPIN_FIELD_MOMENT_ORBIT_UNIQUENESS.md",
+      "commit": "0bc67c9ea",
+      "sha256": "b206f2803136110fe17afa24b32ac40bfc9cb0e54c5e10de8f5536b25815ebf6",
+      "activity": "source reading and author hand comparison"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "commit": "0bc67c9ea",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "activity": "source reading and author hand comparison"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "commit": "0bc67c9ea",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "activity": "source reading and author hand comparison"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CARTAN_CYCLIC_VECTOR_PAIRING_AND_PHYSICAL_CURRENT_RESPONSE_2026_11_09.md",
+      "sha256": "3158edfdda9aa958b72065eebe9ad03ea27275b34a00a5c67e3adaa53cf06a37"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_native_cyclic_2026_11_09/PAIRING_AND_FERMION_ADDENDUM.md",
+      "sha256": "c30f11c802d38dfa7ba195f18069a6a59323031b71486751bb4ce393353efd41"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_MAIN_AGY_AND_SM_2026-11-09_CYCLIC_PAIRING_AND_FULL_FERMION_VARIATION.md",
+      "sha256": "d43c36fa440af6e2ae530fb1d8f592c0a9ccc648cf3ba92ac2e0ba8f77b62547"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/NEXT_PROBE_NATIVE_NEUTRAL_FIELDS_AND_MOMENT_RESPONSE_2026_11_08.md",
+      "sha256": "d4648d115b13481ed86c926cee06e626ab6807c86f2f063de0854569661bc9a6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/PROGRESS_SINCE_MAIN_217E_2026_11_08.md",
+      "sha256": "8f2870df7ce4f0b3a64b3718cfe64010451c1210ed87fa7cd6199767601dc7a6"
+    }
+  ],
+  "finite_control_duties": 8,
+  "control_status": "prospective; unregistered; unimplemented",
+  "author_crosschecks": [
+    "cyclic matrix has one nonzero entry per row/column",
+    "Cartan response preserves symplectic edge pattern",
+    "J0 fails A gluing and Theta repairs it",
+    "opposite-grade subspaces are distinct normalized vector species",
+    "full gauge-adjoint and gaugino rows retained in mass variation",
+    "complete light cluster used before complement inversion",
+    "right-current persistence uses light subspaces and an explicit end estimate"
+  ],
+  "limits": [
+    "new stationary existence and its prerequisites await independent review",
+    "full deformed fermion spectrum remains uncomputed",
+    "finite-deformation relative current coupling remains uncomputed",
+    "argument restricted to the small cyclic family and stated coherent lifts",
+    "no foundational input reduction or observed parameter certified"
+  ]
+}

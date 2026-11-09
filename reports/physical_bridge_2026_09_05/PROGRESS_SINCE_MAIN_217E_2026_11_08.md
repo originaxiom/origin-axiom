@@ -315,3 +315,34 @@ action and chosen holomorphic state. The full deformed spectrum,
 degenerate vector response and normalized left/right currents require
 calculation before a weak-chirality verdict for this family. The
 paired-pole proof retains its original balanced-background scope.
+
+## 9. Cyclic response and exact vector pairing, November9
+
+The author successor CARTAN_CYCLIC_VECTOR_PAIRING_AND_PHYSICAL_CURRENT_RESPONSE_2026_11_09.md
+in the word-architecture directory shows that the small nonlinear moment
+response stays in the two-Spin5 Cartan bundle. The responded cyclic
+spinor anticommutator has reversed diagonal entries equal. A corrected
+antiunitary Theta glues on the mixed-magnitude half-root vector bundle
+and pairs its mu=-2,+2 complete operators within Q=+1. Conditional on
+the earlier stationary-family and domain proofs, their common positive
+pole persists at small amplitude. The complete light fermion clusters
+retain nonzero left and conjugate-sector right current witnesses by
+normalized-vertex continuity. The report gives the end estimate needed
+for that continuity and states its review duty.
+
+This is an author hand result, UNREVIEWED and UNRUN. It also derives all
+four rows of the physical fermion variation, its induced moment-response
+coefficient, the full-kernel Feshbach reduction and current transport.
+It calculates no complete deformed mass matrix or finite-t coupling ratio.
+The proposed small cyclic family thus has a more precise chirality
+constraint while retaining its constructive stationary response. The
+existing (5,5) connection lead and larger states keep their own scopes.
+The prospective eight-duty addendum remains unregistered/unimplemented.
+
+The AGY source ledger atac0897123 is REVISE. Seven grouped findings
+restore representation counts, vector carriers, coherent-lift alternatives,
+coordinate/field conventions, centre/charge labels, evidence grades and
+three source hashes. Its24 and18 totals count different representations.
+Their difference supplies no multiplicity mismatch. The accepted intake
+and dependency map retain their documentary scope. Coordination revision8
+releases only the bounded ledger correction.

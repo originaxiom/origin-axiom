@@ -4,7 +4,7 @@
 Read REVIEW_AGY_00B2A_AC089_2026_11_09.md in the campaign directory.
 Decision REVISE. AGY-00b2a-r1 is the sole released microtask.
 
-Correct the six grouped findings in that review. The half-root roster
+Correct the seven grouped findings in that review. The half-root roster
 has three copies of its eight-dimensional charged direct sum. Its24
 coefficients and the up-sector18 count different representations.
 Their different total dimensions establish no multiplicity mismatch.
@@ -14,7 +14,9 @@ with the chosen electromagnetic circle priced. Restore coordinate,
 centre, charge and field-theory conventions and the recorded review grades.
 
 Reuse the existing proofs and correct INPUT_LEDGER.md and RESUME.md.
-Write a <=250-word return addressing R1-R6. Keep the ledger<=1500 words
+R7 adds three incorrect shortened source hashes, with the correct bytes
+in the review and the previously accepted map.
+Write a <=250-word return addressing R1-R7. Keep the ledger<=1500 words
 and handoff<=700. Preserve the accepted manifest/map and historical
 relays. Commit/push and STOP for physical-seat source review.
 

@@ -96,7 +96,7 @@
         "checkpoint": "ac089712315053ad4704e21e14b889cc2a24279e",
         "decision": "REVISE",
         "document": "REVIEW_AGY_00B2A_AC089_2026_11_09.md",
-        "scope": "six grouped source and representation corrections"
+        "scope": "seven grouped source, representation and source-hash corrections"
       }
     },
     {
@@ -243,7 +243,7 @@
   "dispatch": {
     "released_microtask": "AGY-00b2a-r1",
     "parent_task": "AGY-00",
-    "question": "Correct the six source findings in the candidate input ledger and its handoff",
+    "question": "Correct the seven source findings in the candidate input ledger and its handoff",
     "run_ticket": "REVIEW_AGY_00B2A_AC089_2026_11_09.md",
     "accepted_intake_commit": "6552aec6894a4a94a2ced785ac3af8c25f801ba8",
     "intake_review_document": "REVIEW_AGY_00A_R1_655_2026_11_08.md",
