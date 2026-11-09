@@ -8,8 +8,8 @@
   "review_branch": "audit/physical-bridge-2026-09-05",
   "delivery_channel": "versioned repository relay; no live worker start or acknowledgement inferred",
   "worker_acknowledgement": {
-    "commit": "476d20bbb4a2e52bf1650fd0d8819d6cd869027e",
-    "type": "repaired hand result accepted within stated scope and binding reading notes"
+    "commit": "6e9683ab93f438971a0da5b10107acc3cacafc31",
+    "type": "component hand result accepted with consolidated reading notes"
   },
   "max_active_proof_code_packets_after_intake": 1,
   "scientific_execution_authorized_by_this_board": false,
@@ -115,7 +115,7 @@
       "claim_dependencies": [
         "AGY-00"
       ],
-      "status": "HAND_RESULT_01A_ACCEPTED; COMPONENT_TASK_01B_RELEASED",
+      "status": "HAND_RESULTS_01A_01B_ACCEPTED_WITH_READING_NOTES; NEXT_TASK_PREPARING",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -128,7 +128,7 @@
       "execution_admission": null,
       "admitted_run_evidence": null,
       "accepted_result": null,
-      "current_microtask": "AGY-01b",
+      "current_microtask": null,
       "released_current_outputs": [
         "CENTRALIZER_COMPONENTS.md",
         "RESUME.md",
@@ -146,6 +146,13 @@
         "review": "REVIEW_AGY_01A_R1_476D_2026_11_09.md",
         "formal_independent_review": null,
         "admitted_execution": null
+      },
+      "component_result": {
+        "checkpoint": "6e9683ab93f438971a0da5b10107acc3cacafc31",
+        "decision": "ACCEPT_SCOPED_HAND_RESULT_WITH_CONSOLIDATED_READING_NOTES",
+        "review": "REVIEW_AGY_01B_6E968_2026_11_09.md",
+        "formal_independent_review": null,
+        "execution": null
       }
     },
     {
@@ -265,12 +272,12 @@
     "six_control_science_execution": "UNRUN; separate main acceptance and admission outstanding",
     "later_seven_and_four_controls": "UNRUN; outside completed review"
   },
-  "coordination_revision": 12,
+  "coordination_revision": 13,
   "revision_base_commit": "2f690bc486adf2dfc07dd4fd94bf62b6db27bc86",
   "start_document": "START_HERE.md",
   "max_active_microtasks_per_worker_context": 1,
   "dispatch": {
-    "released_microtask": "AGY-01b",
+    "released_microtask": null,
     "parent_task": "AGY-01",
     "question": "Determine all components of the full compact centralizer of the two ordered principal SU2 triples in the supplied E8 embedding",
     "run_ticket": "RUN_TICKET_AGY_01B.md",
@@ -288,7 +295,7 @@
       "RESUME.md <=700 words",
       "new return relay <=250 words"
     ],
-    "stop_condition": "Return bounded proof or precise unresolved global step; stop for review",
+    "stop_condition": "Await the bounded successor ticket; author results retain their individual grades",
     "next_microtask_released": false,
     "scientific_execution_authorized": false
   },
@@ -302,5 +309,13 @@
     "author_completion_cannot_release_next_task": true,
     "runtime_scheduler_implemented_by_this_file": false,
     "oversized_subtask": "Save partial handoff and propose smaller subdivision; preserve unresolved status"
+  },
+  "review_cadence": {
+    "scope": "coordination only; scientific admission policy retains existing requirements",
+    "batch_source_repairs": true,
+    "nonblocking_reading_notes_may_accompany_scoped_hand_acceptance": true,
+    "blocking_mathematical_findings_stop_dependent_claims": true,
+    "one_bounded_proof_question_per_worker_context": true,
+    "formal_review_can_remain_pending_during_author_hand_successors": true
   }
 }

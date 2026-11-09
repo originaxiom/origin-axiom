@@ -1,11 +1,20 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-09. Coordination revision 12, requested by the owner to avoid
+2026-11-09. Coordination revision 13, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
 
-## Current assignment AGY-01b
+## Current state after AGY-01b
+
+The component result at6e9683ab93f438971a0da5b10107acc3cacafc31
+is accepted at hand scope with the consolidated reading notes in
+REVIEW_AGY_01B_6E968_2026_11_09.md. A bounded phase-classification
+successor is being prepared. The next ticket will release it explicitly.
+Nonblocking source repairs are carried together into that successor.
+Formal independent review and scientific admission remain owed.
+
+## Prior assignment AGY-01b, accepted with reading notes
 
 The repaired h1 witness at476d20bbb4a2e52bf1650fd0d8819d6cd869027e
 is accepted as a scoped hand result with the reading notes in

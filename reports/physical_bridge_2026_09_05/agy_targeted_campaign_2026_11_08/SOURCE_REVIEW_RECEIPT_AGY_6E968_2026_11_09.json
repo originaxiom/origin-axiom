@@ -1,0 +1,138 @@
+{
+  "date": "2026-11-09",
+  "checkpoint": "6e9683ab93f438971a0da5b10107acc3cacafc31",
+  "decision": "ACCEPT_SCOPED_HAND_RESULT_WITH_CONSOLIDATED_READING_NOTES",
+  "activity": "source reading, author hand algebra and Git/hash metadata",
+  "formal_independent_review": null,
+  "scientific_execution": false,
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CENTRALIZER_COMPONENTS.md",
+      "sha256": "a0e86b7164e401498869fce468a5fcfad140ca28529e86d721b3dffab7673075",
+      "whitespace_words": 1150
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md",
+      "sha256": "f3b8aa1d69d6a4d7ab5a3df4d7610697d8da0deb2f6cd40dbe428ce59ea2607b",
+      "whitespace_words": 441
+    },
+    {
+      "path": "relays/AGY_TO_PHYSICAL_2026-11-09_AGY_01B_CENTRALIZER_COMPONENTS.md",
+      "sha256": "6f8ef1e49a405e164ffe78ec80804516479b758e154f055414d2cba4520cbe3b",
+      "whitespace_words": 222
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/MODEL_MANIFEST.md",
+      "sha256": "811956e0ffc5ca9f141c57e6eb5e98bc576aa5b8e7fe18909c4fc2cd9136ebdb",
+      "whitespace_words": 4455
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CLAIM_DEPENDENCIES.md",
+      "sha256": "eb68f876fdf5b842c471738d7fc1c672f685db1a552d30ad669d7f1dba02802a",
+      "whitespace_words": 6590
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+      "sha256": "98bf93b4be89297901e8f9718f88ea526105b717310df63b75e21deb282713e5",
+      "whitespace_words": 1497
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COMPENSATOR_RANGE_AUDIT.md",
+      "sha256": "81b29726b20218ed2625de06369c7a5d55c13427d85d81ed2888d27a3280a0d3",
+      "whitespace_words": 1536
+    }
+  ],
+  "sources": [
+    {
+      "commit": "c57e13613ca6c6e990bcdfc8f54495731ad1f579",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RUN_TICKET_AGY_01B.md",
+      "sha256": "85d24f49a3587227914e6ae4f3b47c22ce7e190ae27a0727c48d023f75cf486a",
+      "matches_declared": true
+    },
+    {
+      "commit": "c57e13613ca6c6e990bcdfc8f54495731ad1f579",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/START_HERE.md",
+      "sha256": "acbfef029a239b0be93f9b0de19d4f013d7232db347cf08bcb85e231013f238f",
+      "matches_declared": true
+    },
+    {
+      "commit": "c57e13613ca6c6e990bcdfc8f54495731ad1f579",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/TASKS.json",
+      "sha256": "e33ec5fe1c4f1cf916db809d71ce9abe1e11d5fe0da962113274081a1d3b2f40",
+      "matches_declared": true
+    },
+    {
+      "commit": "476d20bbb4a2e52bf1650fd0d8819d6cd869027e",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COMPENSATOR_RANGE_AUDIT.md",
+      "sha256": "81b29726b20218ed2625de06369c7a5d55c13427d85d81ed2888d27a3280a0d3",
+      "matches_declared": true
+    },
+    {
+      "commit": "c57e13613ca6c6e990bcdfc8f54495731ad1f579",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_01A_R1_476D_2026_11_09.md",
+      "sha256": "3337e40640fc3e70831f256376a7535c892828e4c644a3216b29df5f38ca8c99",
+      "matches_declared": true
+    },
+    {
+      "commit": "605294403ecdd26666f3902881558e4bf6b85e93",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+      "sha256": "98bf93b4be89297901e8f9718f88ea526105b717310df63b75e21deb282713e5",
+      "matches_declared": true
+    },
+    {
+      "commit": "6552aec6894a4a94a2ced785ac3af8c25f801ba8",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/MODEL_MANIFEST.md",
+      "sha256": "811956e0ffc5ca9f141c57e6eb5e98bc576aa5b8e7fe18909c4fc2cd9136ebdb",
+      "matches_declared": true
+    },
+    {
+      "commit": "43af86dbecb335ddd0952533dc2680d4a4e7f64a",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CLAIM_DEPENDENCIES.md",
+      "sha256": "eb68f876fdf5b842c471738d7fc1c672f685db1a552d30ad669d7f1dba02802a",
+      "matches_declared": true
+    },
+    {
+      "commit": "9a2bd40b3cf0a4d675a3c7013f83873d620a7bde",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/OPEN_PIN2_CORRECTION_BEYOND_THE_CHOSEN_EM_CIRCLE_2026_11_09.md",
+      "sha256": "56b948a9b9b53f5eeec9242c57b3e0dd3d79751195dba1c705118d6060230aa8",
+      "matches_declared": true
+    },
+    {
+      "commit": "2f690bc486adf2dfc07dd4fd94bf62b6db27bc86",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md",
+      "sha256": "6012816683f17ac83e7d3bdb4f6d8b987ec8155ee2caa09ce651dbf0b194ed4c",
+      "matches_declared": true
+    },
+    {
+      "commit": "2f690bc486adf2dfc07dd4fd94bf62b6db27bc86",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PIN2_COMPENSATOR_COHERENCE_AND_ELECTROMAGNETIC_PHASE.md",
+      "sha256": "fc67d4446b11f54c731b7e7aac56b496e501d5fa397040363de6c8074909a3b9",
+      "matches_declared": true
+    },
+    {
+      "commit": "2f690bc486adf2dfc07dd4fd94bf62b6db27bc86",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md",
+      "sha256": "871529dd81603e1a70126f6ee518ae5c2758c107cf7e9fff62ae96f646a0813f",
+      "matches_declared": true
+    }
+  ],
+  "new_artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/DIRECT_CENTRALIZER_AND_REGISTERED_GRADING_SELECTION_2026_11_09.md",
+      "sha256": "73dfc767b5c7c134c7ed092eb6a15ba3f33445ee50f0ae9fe82167983ccdef20"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_01B_6E968_2026_11_09.md",
+      "sha256": "24329921d443879ab9af486215c880ce85c864a14adf2af884122027095fa48a"
+    }
+  ],
+  "primary_reading_this_turn": {
+    "url": "https://www.numdam.org/item/PMIHES_1965__25__49_0.pdf",
+    "author": "Robert Steinberg",
+    "title": "Regular elements of semi-simple algebraic groups",
+    "personally_read": "opening statements and section2 through remark2.10 and surrounding context",
+    "scope": "remark2.10 states connectedness in the simply connected algebraic case; proof deferred in that source",
+    "new_direct_lemma": "actual E8 involution centralizer proved by D8 automorphisms, half-spin parity and bracket, independently of that citation numbering"
+  },
+  "reviewer_relationship": "physical seat authored earlier open lead and new direct lemma; formal independent review remains owed"
+}
