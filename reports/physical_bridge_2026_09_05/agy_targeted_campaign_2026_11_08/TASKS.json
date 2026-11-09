@@ -1,6 +1,6 @@
 {
   "schema": "oa-agy-research-coordination-v1",
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "document_type": "work order and coordination board; not experiment design or an enforcement program",
   "physical_base_commit": "dd7490203c55bae043585f594af5a13afe634fa7",
   "agy_base_commit": "21b293e87ff09fd64911267e9b4aa447fbfab2b9",
@@ -8,14 +8,14 @@
   "review_branch": "audit/physical-bridge-2026-09-05",
   "delivery_channel": "versioned repository relay; no live worker start or acknowledgement inferred",
   "worker_acknowledgement": {
-    "commit": "43af86dbecb335ddd0952533dc2680d4a4e7f64a",
-    "type": "source-only bounded revision return; map accepted, four new return-relay statements require correction"
+    "commit": "9d0a31e8db3164b6b5c0e1b2aa9e1383788f36e8",
+    "type": "source-only correction return, checked and accepted within documentary scope"
   },
   "max_active_proof_code_packets_after_intake": 1,
   "scientific_execution_authorized_by_this_board": false,
   "first_return": [
-    "AGY-00b1 partial pure-h4-24 CLAIM_DEPENDENCIES.md",
-    "RESUME.md durable handoff",
+    "INPUT_LEDGER.md bounded candidate input audit",
+    "RESUME.md",
     "short return relay"
   ],
   "stage_policy": {
@@ -60,7 +60,7 @@
       "id": "AGY-00",
       "title": "Reuse inventory and common-model manifest",
       "claim_dependencies": [],
-      "status": "MAP_ACCEPTED_DOCUMENTARY_ONLY; ONLY_00B1_R2_RELAY_CORRECTION_RELEASED",
+      "status": "SOURCE_INTAKE_AND_MAP_ACCEPTED_DOCUMENTARY; ONLY_00B2A_RELEASED",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -68,22 +68,29 @@
         "CLAIM_DEPENDENCIES.md",
         "INPUT_LEDGER.md"
       ],
-      "scoped_review_artifact": null,
+      "scoped_review_artifact": "REVIEW_AGY_00B1_R2_9D0_2026_11_09.md",
       "source_complete_review_artifact": null,
       "main_execution_acceptance": null,
       "execution_admission": null,
       "admitted_run_evidence": null,
       "accepted_result": null,
-      "current_microtask": "AGY-00b1-r2",
+      "current_microtask": "AGY-00b2a",
       "released_current_outputs": [
-        "new short correction relay",
-        "RESUME.md"
+        "INPUT_LEDGER.md",
+        "RESUME.md",
+        "short return relay"
       ],
       "source_map_review": {
         "checkpoint": "43af86dbecb335ddd0952533dc2680d4a4e7f64a",
         "decision": "ACCEPT_SCOPED_RESULT_MAP_ONLY; REVISE_RELAY",
         "document": "REVIEW_AGY_00B1_R1_43AF_2026_11_08.md",
         "scope": "documentary map only; 33 source pins match; four false statements in return relay are not accepted"
+      },
+      "return_relay_review": {
+        "checkpoint": "9d0a31e8db3164b6b5c0e1b2aa9e1383788f36e8",
+        "decision": "ACCEPT_SCOPED_RESULT",
+        "document": "REVIEW_AGY_00B1_R2_9D0_2026_11_09.md",
+        "scope": "four source-summary corrections and compact handoff"
       }
     },
     {
@@ -223,37 +230,39 @@
     "six_control_science_execution": "UNRUN; separate main acceptance and admission outstanding",
     "later_seven_and_four_controls": "UNRUN; outside completed review"
   },
-  "coordination_revision": 6,
-  "revision_base_commit": "ef644ede74e62dc66f34a1cd16d5c99c89e82b86",
+  "coordination_revision": 7,
+  "revision_base_commit": "be1b2e92e64eb488870ec1b27a3b0841fd026845",
   "start_document": "START_HERE.md",
   "max_active_microtasks_per_worker_context": 1,
   "dispatch": {
-    "released_microtask": "AGY-00b1-r2",
+    "released_microtask": "AGY-00b2a",
     "parent_task": "AGY-00",
-    "question": "Correct only the four return-relay statements in REVIEW_AGY_00B1_R1_43AF_2026_11_08.md; leave accepted map unchanged",
-    "run_ticket": "REVIEW_AGY_00B1_R1_43AF_2026_11_08.md",
+    "question": "Audit the fixed pure-h4 candidate independent inputs, conditional consequences and unearned physical identifications using existing sources",
+    "run_ticket": "RUN_TICKET_AGY_00B2A.md",
     "accepted_intake_commit": "6552aec6894a4a94a2ced785ac3af8c25f801ba8",
     "intake_review_document": "REVIEW_AGY_00A_R1_655_2026_11_08.md",
-    "acceptance_scope": "Documentary intake with explicit reading notes only; no physical claim or execution accepted",
+    "acceptance_scope": "Documentary source intake, dependency map and summary correction",
     "allowed_activity": [
-      "read exact cited source statements",
-      "write new correction relay <=350 words",
-      "update handoff <=900 words",
-      "commit and push source-only checkpoint; stop"
+      "read relevant pinned source and existing reduction accounting",
+      "write bounded candidate input ledger",
+      "update compact handoff and return relay",
+      "commit and push source-audit checkpoint; stop"
     ],
     "required_outputs": [
-      "new short correction relay",
-      "RESUME.md"
+      "INPUT_LEDGER.md <=1500 words",
+      "RESUME.md <=700 words",
+      "short return relay <=250 words"
     ],
-    "principal_node_limit": 12,
-    "consequential_open_edge_limit": 5,
-    "stop_condition": "Return immutable short relay correction and handoff; stop for review",
+    "stop_condition": "Return immutable bounded ledger, handoff and relay; stop for review",
     "next_microtask_released": false,
     "scientific_execution_authorized": false,
     "accepted_dependency_map_commit": "43af86dbecb335ddd0952533dc2680d4a4e7f64a",
     "accepted_dependency_map_sha256": "eb68f876fdf5b842c471738d7fc1c672f685db1a552d30ad669d7f1dba02802a",
     "summary_rule": "No equation absent from its cited source; preserve representation and count type; new derivation outside this source-only task",
-    "accepted_map_must_remain_unchanged": true
+    "accepted_map_must_remain_unchanged": true,
+    "accepted_return_commit": "9d0a31e8db3164b6b5c0e1b2aa9e1383788f36e8",
+    "principal_entry_limit": 12,
+    "prioritized_derivation_question_limit": 3
   },
   "context_policy": {
     "one_question_per_run": true,

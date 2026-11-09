@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-09",
+  "agy_commit": "9d0a31e8db3164b6b5c0e1b2aa9e1383788f36e8",
+  "prior_checkpoint": "43af86dbecb335ddd0952533dc2680d4a4e7f64a",
+  "scope": "documentary source-summary correction and coordination metadata",
+  "scientific_execution": false,
+  "decision": "ACCEPT_SCOPED_RESULT",
+  "unchanged_artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CLAIM_DEPENDENCIES.md",
+      "sha256": "eb68f876fdf5b842c471738d7fc1c672f685db1a552d30ad669d7f1dba02802a",
+      "byte_equal_to_43af": true
+    },
+    {
+      "path": "relays/AGY_TO_PHYSICAL_2026-11-08_AGY_00B1_R1_DEPENDENCY_MAP_REVISION_AND_RESUME.md",
+      "sha256": "6b39bbfc1b62283bb9dbe64a72efe1a253fb76a8f3ac0642913927e03f37eef6",
+      "byte_equal_to_43af": true
+    }
+  ],
+  "return_artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md",
+      "sha256": "5a8428d0285c19a65b8008deb74095934f6ed19324db03399d77fdea9f28a521",
+      "word_count": 678,
+      "word_limit": 900
+    },
+    {
+      "path": "relays/AGY_TO_PHYSICAL_2026-11-08_AGY_00B1_R2_RELAY_CORRECTION_AND_RESUME.md",
+      "sha256": "630ef5653e5a55ceaeb54e263f6f1e6d7253f856f9cf193f7a37d7e7166b7af0",
+      "word_count": 315,
+      "word_limit": 350
+    }
+  ],
+  "changed_paths": [
+    "relays/AGY_TO_PHYSICAL_2026-11-08_AGY_00B1_R2_RELAY_CORRECTION_AND_RESUME.md",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md"
+  ],
+  "new_review_and_dispatch_artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_00B1_R2_9D0_2026_11_09.md",
+      "sha256": "375d59a59b74c5f12db8038b702f0c04b4ae7248884929252f7ee096bb5a2f94"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RUN_TICKET_AGY_00B2A.md",
+      "sha256": "f382d36c33a3d1bc654e759b9fb359626496d7444bd4d89a3534930fe82e9784"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/START_HERE.md",
+      "sha256": "5828476ecbb84cc73ba132fe82664ad3a7de7dfe508e511ee0f016f90e6177d6"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/TASKS.json",
+      "sha256": "d880bf636f8375502d47b5cafa46a4716cb6ca2453fec63f09096ce098432287"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_2026-11-09_9D0_ACCEPTED_RELEASE_INPUT_LEDGER.md",
+      "sha256": "6c955981c847416f817e441f4037359e6b5da722235a5cbc4a5189b5888a96a0"
+    }
+  ],
+  "next_microtask": "AGY-00b2a",
+  "scientific_execution_authorized": false
+}

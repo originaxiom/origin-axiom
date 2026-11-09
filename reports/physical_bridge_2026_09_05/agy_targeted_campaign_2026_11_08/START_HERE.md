@@ -1,11 +1,23 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-08. Coordination revision 6, requested by the owner to avoid
+2026-11-09. Coordination revision 7, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
 
-## Current assignment: AGY-00b1-r2 only
+## Current assignment AGY-00b2a
+
+The relay correction and handoff at9d0a31e8db3164b6b5c0e1b2aa9e1383788f36e8
+are accepted at their documentary scope. Read
+REVIEW_AGY_00B1_R2_9D0_2026_11_09.md and RUN_TICKET_AGY_00B2A.md.
+Prepare the fixed pure-h4 candidate's input ledger using existing source
+accounting. Keep at most twelve principal entries with visible subchoices
+and three prioritized open derivation questions. Return INPUT_LEDGER.md
+<=1500 words, RESUME.md <=700 words and a short relay <=250 words.
+Commit/push and stop for review. The ticket gives the exact source scope
+and scientific execution requirements.
+
+## Prior assignment AGY-00b1-r2, accepted documentary correction
 
 The corrected dependency map at43af86dbecb335ddd0952533dc2680d4a4e7f64a
 is accepted as a documentary source map; all33 hashes match. Its return
