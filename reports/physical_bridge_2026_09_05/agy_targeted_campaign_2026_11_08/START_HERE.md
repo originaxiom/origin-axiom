@@ -1,20 +1,31 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-09. Coordination revision 23, requested by the owner to avoid
+2026-11-09. Coordination revision 24, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
 
-## Current assignment AGY-04b
+## Current assignment AGY-04b-r1
 
-Read RUN_TICKET_AGY_04B.md and REVIEW_AGY_04A_CADD0_2026_11_09.md.
-One bounded hand/source probe is released. Test whether existing native
-fields and covariant operators force a form-current vector at the known
-spin-current pole. Derive the actual global map, curvature terms, norms
-and complete-domain identity, or the exact unresolved spectral datum.
-Bundle the review's six source/phase/norm repairs. Keep the conditional
-lepton rank-pair positive and the paired quark current. Commit/push and
-stop. AGY-03, formal independent review and science admission stay open.
+Read RUN_TICKET_AGY_04B_R1.md and REVIEW_AGY_04B_4FF94_2026_11_09.md.
+Repair B1-B6 in one hand/source return. Keep the correct local vector
+constants and the exact spectral equation at1/2. Rebuild the Higgs and
+derivative target bundles, scrutinize the supplied combined gauge/flavour
+symmetry proof, and correct or withdraw the curvature-shift inference.
+Carry the missing Omega through the lepton/quark ratio and keep actual
+form-current comparisons open until their maps are supplied. Commit/push
+and stop. The ticket retains the existing scientific admission duties.
+
+## AGY-04b at4ff94e619, source repairs required
+
+The local constants and finite spectral target are supported. The new
+proof double-counts a gauge-induced spin power, reverses derivative
+tensor types and gives a false literal curvature commutator. Its
+full curved Hom_pi1 and form-current singular-value statements exceed
+the exhibited maps. A scoped natural-operator exclusion can be rebuilt
+using the actual global symmetry(P,-I_F). The physical hand note gives
+that proof and the corrected Omega^-2 current density for scrutiny.
+The earlier lepton rank pair retains its conditional positive scope.
 
 ## Prior AGY-04a, scoped hand positive with explicit repairs
 

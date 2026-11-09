@@ -8,14 +8,14 @@
   "review_branch": "audit/physical-bridge-2026-09-05",
   "delivery_channel": "versioned repository relay; no live worker start or acknowledgement inferred",
   "worker_acknowledgement": {
-    "commit": "cadd0c62bb717ba18caca724e0c96dd9bd07cb14",
-    "type": "lepton-form hand rank pair supported with phase/notation/norm repairs; W f1 patch applied exactly"
+    "commit": "4ff94e6195846af8b201693868bac2592ad4c728",
+    "type": "form/spin vector joint hand packet and earlier lepton repairs, source-reviewed with operator/curvature corrections required"
   },
   "max_active_proof_code_packets_after_intake": 1,
   "scientific_execution_authorized_by_this_board": false,
   "first_return": [
-    "FORM_SPIN_VECTOR_OPERATOR_JOINT.md",
-    "bundled LEPTON_FORM_CURRENT.md repairs",
+    "repaired FORM_SPIN_VECTOR_OPERATOR_JOINT.md",
+    "corrected LEPTON_FORM_CURRENT.md",
     "RESUME.md",
     "short new return relay"
   ],
@@ -268,7 +268,7 @@
         "AGY-02",
         "AGY-03"
       ],
-      "status": "SCOPED_LEPTON_HAND_RANK_PAIR_SUPPORTED_WITH_REPAIRS; OPERATOR_JOINT_PROBE_04B_RELEASED; AGY03_OPEN",
+      "status": "04B_LOCAL_SPECTRAL_TARGET_SUPPORTED; OPERATOR_AND_DENSITY_REPAIRS_04B_R1_RELEASED; AGY03_OPEN",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -281,10 +281,10 @@
       "execution_admission": null,
       "admitted_run_evidence": null,
       "accepted_result": null,
-      "current_microtask": "AGY-04b",
+      "current_microtask": "AGY-04b-r1",
       "released_current_outputs": [
-        "FORM_SPIN_VECTOR_OPERATOR_JOINT.md",
-        "bundled LEPTON_FORM_CURRENT.md repairs",
+        "repaired FORM_SPIN_VECTOR_OPERATOR_JOINT.md",
+        "corrected LEPTON_FORM_CURRENT.md",
         "RESUME.md",
         "short new return relay"
       ],
@@ -307,6 +307,28 @@
         "formal_independent_review": null,
         "scientific_execution": null,
         "canonical_inputs_reduced": 0
+      },
+      "form_spin_joint_result": {
+        "checkpoint": "4ff94e6195846af8b201693868bac2592ad4c728",
+        "decision": "REVISE_OPERATOR_TYPES_AND_CURVATURE_ARGUMENT",
+        "review": "REVIEW_AGY_04B_4FF94_2026_11_09.md",
+        "preserved_positive": [
+          "same rough-Laplacian constant in the two source planes",
+          "local projected raising matrices",
+          "exact complete spectral equation at1/2",
+          "earlier lepton current rank pair with source repairs"
+        ],
+        "binding_repairs": [
+          "effective spin powers and derivative tensor types",
+          "flat-map versus full curved differential quantifier",
+          "curvature identity and claimed9/(2ell^2) mode",
+          "form-current singular-value comparison",
+          "spectral parameter independence/eigenvalue-branch scope",
+          "missing Omega and trace scaling in ratio"
+        ],
+        "formal_independent_review": null,
+        "scientific_execution": null,
+        "canonical_inputs_removed": 0
       }
     },
     {
@@ -377,32 +399,33 @@
       "AGY_04A_new_lepton_proof_tested": false
     }
   },
-  "coordination_revision": 23,
-  "revision_base_commit": "3ce102d43",
+  "coordination_revision": 24,
+  "revision_base_commit": "9296b35ae42e9bb0d86d05a4de3601c4f840fb8a",
   "start_document": "START_HERE.md",
   "max_active_microtasks_per_worker_context": 1,
   "dispatch": {
-    "released_microtask": "AGY-04b",
+    "released_microtask": "AGY-04b-r1",
     "parent_task": "AGY-04",
-    "question": "Does a native global covariant operator force a form-current vector at the spin-current pole, or leave a precise spectral datum undetermined?",
-    "run_ticket": "RUN_TICKET_AGY_04B.md",
-    "joined_checkpoint": "cadd0c62bb717ba18caca724e0c96dd9bd07cb14",
-    "required_correction": "REVIEW_AGY_04A_CADD0_2026_11_09.md",
-    "dependency_scope": "existing balanced h4/W=1/eta=O complete model only; AGY03 boundary/source duties remain",
-    "acceptance_scope": "scoped hand lepton current with six repairs; formal independent review and science admission owed",
+    "question": "Repair operator targets and curvature claim, verify combined parity symmetry, retain exact spectral target and corrected current density",
+    "run_ticket": "RUN_TICKET_AGY_04B_R1.md",
+    "joined_checkpoint": "4ff94e6195846af8b201693868bac2592ad4c728",
+    "required_correction": "REVIEW_AGY_04B_4FF94_2026_11_09.md",
+    "physical_hand_correction": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COMBINED_GAUGE_FLAVOUR_PARITY_AND_CORRECTED_CURRENT_DENSITY_2026_11_09.md",
+    "dependency_scope": "fixed balanced h4/W=1/eta=O complete model; declared natural-operator algebra; AGY03 and full spectral/current duties retained",
+    "acceptance_scope": "source/hand review, positive local identities and spectral target; new global/differential claims returned for repair",
     "allowed_activity": [
-      "reuse/source search",
-      "one bounded native operator hand probe",
-      "bundle source/phase/norm repairs",
+      "source reading and personal scrutiny of supplied hand correction",
+      "bounded B1-B6 repairs",
+      "hand symmetry, tensor and norm derivation",
       "commit/push and stop"
     ],
     "required_outputs": [
-      "FORM_SPIN_VECTOR_OPERATOR_JOINT.md <=1800 words plus <=80 equation rows",
-      "bundled lepton-current repairs",
+      "FORM_SPIN_VECTOR_OPERATOR_JOINT.md <=1800 words plus<=90 equation rows",
+      "corrected LEPTON_FORM_CURRENT.md",
       "RESUME.md <=700 words",
       "relay <=250 words"
     ],
-    "stop_condition": "actual global domain-preserving operator/current witness or exact residual spectral datum; no universal exclusion from a failed candidate",
+    "stop_condition": "bounded repaired packet with exact unresolved derivative or spectral duties retained",
     "next_microtask_released": false,
     "scientific_execution_authorized": false
   },
