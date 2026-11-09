@@ -1,44 +1,36 @@
-# AGY Durable Handoff (`RESUME.md`) — Checkpoint `AGY-00b1-r2`
+# `RESUME.md` — Compact Restart File (`AGY-00b2a` Completed; Stopped for Physical Review)
 
-**Date:** 2026-11-08
-**Status:** **AUTHOR CHECKPOINT COMPLETED FOR `AGY-00b1-r2` (RETURN-RELAY CORRECTION ONLY; ACCEPTED `CLAIM_DEPENDENCIES.md` UNCHANGED AT `43af86dbecb335ddd0952533dc2680d4a4e7f64a`); STOPPED AWAITING PHYSICAL-SEAT REVIEW**
+## 1. Current Campaign State & Governance
+- **Active Branch / Seat:** `agy/audit-2026-11-02` (AGY Exploration Seat).
+- **Completed Checkpoint:** `AGY-00b2a` (`INPUT_LEDGER.md`, `RESUME.md`, and return relay `relays/AGY_TO_PHYSICAL_2026-11-09_AGY_00B2A_CANDIDATE_INPUT_LEDGER_AND_RESUME.md`), released by `RUN_TICKET_AGY_00B2A.md` (`f382d36c33a3d1bc654e759b9fb359626496d7444bd4d89a3534930fe82e9784`) and `START_HERE.md` (`5828476ecbb84cc73ba132fe82664ad3a7de7dfe508e511ee0f016f90e6177d6`) at `821fef1086078cc78279fc87e5c6469bdf23650d`.
+- **Canonical Baseline:** `GENESIS.md` at `217e37c4f37bd80998f3c3e10cad358023f58114` (`0 of 19` confirmed Standard Model parameters).
+- **Physical Revision Base:** `be1b2e92e64eb488870ec1b27a3b0841fd026845` (plus later fetched unreviewed author analytical commit `2b572014cdbbb4ef8a9287b0d7b18eb98e5816a2` recorded in `L12`).
+- **Execution Gate:** `scientific_execution_authorized = false`. Zero scientific code edits, imports, collection, or test runs were performed.
 
----
+## 2. Accepted & Current Artifacts (Exact Pins)
+1. **`MODEL_MANIFEST.md` (`AGY-00a-r1`, accepted at `d1b2303969050925d4b548ed21ec862208107b9f`, byte-preserved):**
+   - Commit: `6552aec6894a4a94a2ced785ac3af8c25f801ba8`
+   - SHA256: `811956e0ffc5ca9f141c57e6eb5e98bc576aa5b8e7fe18909c4fc2cd9136ebdb`
+   - Read with the 4 reading notes of `REVIEW_AGY_00A_R1_655_2026_11_08.md` (`ca7f22382bd8f89fdba496215c1ff4b180e3170b5c78f242c665417513fb36a7`).
+2. **`CLAIM_DEPENDENCIES.md` (`AGY-00b1-r1`, accepted at `400244e32c737d9b947546e2b12fec5ab57c9627`, byte-preserved):**
+   - Commit: `43af86dbecb335ddd0952533dc2680d4a4e7f64a`
+   - SHA256: `eb68f876fdf5b842c471738d7fc1c672f685db1a552d30ad669d7f1dba02802a`
+3. **`AGY-00b1-r2` Relay (`accepted at 821fef1086078cc78279fc87e5c6469bdf23650d`, byte-preserved):**
+   - Commit: `9d0a31e8db3164b6b5c0e1b2aa9e1383788f36e8`
+   - Path: `relays/AGY_TO_PHYSICAL_2026-11-08_AGY_00B1_R2_RELAY_CORRECTION_AND_RESUME.md`
+   - SHA256: `630ef5653e5a55ceaeb54e263f6f1e6d7253f856f9cf193f7a37d7e7166b7af0` (`315` words)
+   - Acceptance Review: `REVIEW_AGY_00B1_R2_9D0_2026_11_09.md` (`375d59a59b74c5f12db8038b702f0c04b4ae7248884929252f7ee096bb5a2f94`).
+4. **`INPUT_LEDGER.md` (`AGY-00b2a`, awaiting review):**
+   - Path: `reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md`
+   - SHA256: `847128fc4fc5c7df665b80208e79221d8bd8b1f683e46016c0086b29c5d970f9` (`1488` words, `<= 1500` limit)
+5. **`AGY-00b2a` Return Relay:**
+   - Path: `relays/AGY_TO_PHYSICAL_2026-11-09_AGY_00B2A_CANDIDATE_INPUT_LEDGER_AND_RESUME.md` (`<= 250` words)
 
-## 1. Required `RESUME.md` Fields (`START_HERE.md`)
+## 3. Summary of `INPUT_LEDGER.md` (`L01`–`L12` & `Q1`–`Q3`)
+- **Foundational / Supplied Parent & Carrier (`L01`–`L03`):** Maps native $F_2=\langle a,b\rangle$ to $\pi_1(\Sigma_{1,1},x_0)$ retaining based $\operatorname{Aut}^+(F_2)$ (`L01`); imports compact $E_8$, 6D curved $\mathcal{N}=1$ action with $q,r\in S$ ($S\otimes S=K$), Killing form $\kappa$, local covariance tying $\bar{D}r$ and $[A,r]$, $|\eta_{\text{sup}}|=1$ from normalized flat 6D Yang–Mills scalar energy, and 3 boundary-primitive coefficients $C_{s,ij}$ (`L02`); supplies quaternion holonomies $\rho(a)=F_i,\rho(b)=F_j$ ($[F_i,F_j]=-I_2$) and unexecuted 32-element $E_8$ lift $K(a)=A,K(b)=B=DA$ with $[A,B]=\mathrm{Zeta}\,P$ and 4 core signs $(\epsilon_a,\epsilon_b)\in\{\pm1\}^2$ (`L03`).
+- **Continuous Scales, Spin/Phase & Stationary Branch (`L04`–`L07`):** Tracks unselected continuous parameters $(\tau,\ell,g_6^2/\alpha)$ and complete cusp metric $g=\Omega^2(dx^2+dy^2)$ (`L04`); pullback metaplectic cover $E$, odd spin selection $\eta=\mathcal{O}$ (1 of 4 spin structures), and 2 coherent $\operatorname{Pin}(2)$ lifts differing by $\mathrm{Zeta}=C^2$ (`L05`); $D_5+A_3\subset E_8$ split, $h_4=\operatorname{diag}(e^{3\pi i/4},e^{-\pi i/4},e^{-\pi i/4},e^{-\pi i/4})$ solving $Ch_4^2=1$ ($A_3\to\operatorname{U}(3)_{c,\text{EM}}$), and unbroken $Q_{\text{em}}$ (`L06`); balanced two-triple Higgs background $\Phi_0=(E,G)/(2\sqrt{2}\ell)$, $c_{\text{tail}}=0$, and pure-$h_4$ $\chi=(0,0)$ vs. $\chi_3\neq0$ (`L07`).
+- **End Law, 4-Slot Operators, Matter, Weak Current & Deformations (`L08`–`L12`):** Records peripheral $\mathrm{Zeta}=-1$ on $128$ (angular gap $\ge\pi^2$, compact resolvent) vs. $+1$ on $120$ (surviving zero-angular $A_3$ continuum) and rank-2 $-I_2$ parabolic extension $\deg\mathcal{E}=-1$ on $(10,6)$ (`L08`); physical 4-slot metric $G=\operatorname{diag}(\Omega^2,1/2,\Omega,\Omega)$, $M=U_{\text{out}}TU_{\text{in}}$, and $P_v=\bar{D}^{*v}\bar{D}+2\operatorname{ad}_{\hat{q}}^\dagger\operatorname{ad}_{\hat{q}}+2\operatorname{ad}_{\hat{r}}^\dagger\operatorname{ad}_{\hat{r}}$ (`L09`); unreviewed $\eta=\mathcal{O},\chi=0$ counts of $24$ half-root coefficients in $(16,4)\oplus(\overline{16},\overline{4})$ vs. $18$ in $(10,6)$ (vs. $16$ bare/$18$ corrected at $\chi_3\neq0$), $0$ net $\operatorname{U}(3)_{c,\text{EM}}$ Dirac index, and open $2+1$ intertwiner (`L10`); conditional $128$ vector gap (pending `V1`) and degenerate paired left/right spin-slot currents $|g_R|=|g_L|$ ($w_R=Jz_-$, $R_0=|g_L|^2I_2$) at $m_0^2=7/(2\ell^2)$ with $\mu=-1$ form currents at $c=3/\ell^2,4/\ell^2$ (`L11`); exploratory `be1b2e92e` notes plus unreviewed `2b572014c` derivation of a 2-complex-parameter F-flat $(3,0)\oplus(0,3)$ grade-$-3$ spin family $(u',v')$ on $L(p)$ ($\eta^4=\mathcal{O}$) with $P_v|_{D_5}\ge1/(2\ell^2)$, $\xi_2=-R_5S$ ($\|R_5\|_{L^2}\le2\ell^2$), and $|tfc|^2(e_{11}+e_{44})$, leaving `0 of 19` SM parameters, gravity, and observer/qualia open (`L12`).
+- **Prioritized Questions (`Q1`–`Q3`):** (`Q1`) $\mathcal{O}(t^2)$ lifting of $|g_R|=|g_L|$ at $m_0^2=7/(2\ell^2)$ and `V1`; (`Q2`) $24$ vs. $18$ roster reconciliation and 4-slot Yukawa intertwiner; (`Q3`) $120$ $A_3$ continuum and selection of $(\Sigma_{1,1},\tau,\eta=\mathcal{O},\chi=0,\alpha)$.
 
-1. **Parent task, microtask, question, and status:**
-   - **Parent task:** `AGY-00` ("Reuse inventory and common-model manifest").
-   - **Released microtask:** `AGY-00b1-r2` (released by `400244e32c737d9b947546e2b12fec5ab57c9627`, Coordination revision 6, `REVIEW_AGY_00B1_R1_43AF_2026_11_08.md`).
-   - **Question:** *"Correct only the four return-relay statements in REVIEW_AGY_00B1_R1_43AF_2026_11_08.md; leave accepted map unchanged."*
-   - **Status:** `AGY-00b1-r2` completed (`CLAIM_DEPENDENCIES.md` and the prior `43af` relay preserved byte-identical; new short correction relay and refreshed `RESUME.md` written); **STOPPED** for review.
-2. **Model/source commit pins and changed files:**
-   - **Physical review/dispatch commit (`origin/audit/physical-bridge-2026-09-05`):** `400244e32c737d9b947546e2b12fec5ab57c9627` (revision base `ef644ede74e62dc66f34a1cd16d5c99c89e82b86`; prior reviews `92cd5ea930e82046a643b804b02f3fad5e1a5f0e`, `d1b2303969050925d4b548ed21ec862208107b9f`; physical source base `dd7490203c55bae043585f594af5a13afe634fa7`; candidate up-sector note `30f348e15755a3c5a824e75d5ed6ba354e200bb3`; later unreviewed physical commits `1661880340cd0ac6aee0c412d87be4123dcc1397`, `6fc2aa20654806b9ab0f0f3d831fcb8bed299fc9`, `ef644ede74e62dc66f34a1cd16d5c99c89e82b86`, `be1b2e92e64eb488870ec1b27a3b0841fd026845` noted for later awareness only and neither redone nor banked).
-   - **AGY prior commits:** `43af86dbecb335ddd0952533dc2680d4a4e7f64a` (`AGY-00b1-r1`, where `CLAIM_DEPENDENCIES.md` was accepted), `2bed9909170d1d523890e90947d07494ecb986d2` (`AGY-00b1`), `6552aec6894a4a94a2ced785ac3af8c25f801ba8` (`AGY-00a-r1` accepted intake), `21b293e87ff09fd64911267e9b4aa447fbfab2b9` (producer baseline), `51a5ffdad70b6a6208a5063f0dc4237a7fdf4190` (validator/journal).
-   - **Main baseline (`origin/main`):** `217e37c4f37bd80998f3c3e10cad358023f58114` (`GENESIS.md` `v1.62`, `0 of 19` unchanged).
-   - **Files changed in `AGY-00b1-r2`:**
-     - `relays/AGY_TO_PHYSICAL_2026-11-08_AGY_00B1_R2_RELAY_CORRECTION_AND_RESUME.md` (new correction relay `<= 350` words)
-     - `reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md` (this handoff `<= 900` words)
-     - **Unchanged by mandate:** `CLAIM_DEPENDENCIES.md` (`eb68f876fdf5b842c471738d7fc1c672f685db1a552d30ad669d7f1dba02802a`) and `relays/AGY_TO_PHYSICAL_2026-11-08_AGY_00B1_R1_DEPENDENCY_MAP_REVISION_AND_RESUME.md` (`6b39bbfc1b62283bb9dbe64a72efe1a253fb76a8f3ac0642913927e03f37eef6`).
-3. **Accepted dependency/review artifacts and exact scope:**
-   - **Accepted documentary dependency map (`43af86dbecb335ddd0952533dc2680d4a4e7f64a`):** `REVIEW_AGY_00B1_R1_43AF_2026_11_08.md` and `SOURCE_REVIEW_RECEIPT_AGY_43AF_2026_11_08.json` at `400244e32c737d9b947546e2b12fec5ab57c9627` record `ACCEPT_SCOPED_RESULT` for `CLAIM_DEPENDENCIES.md` (`eb68f876fdf5b842c471738d7fc1c672f685db1a552d30ad669d7f1dba02802a`) as a documentary source map (all 33 declared pins verified; not a certificate of the underlying physics or execution). `RESUME.md` at `43af86dbecb335ddd0952533dc2680d4a4e7f64a` did not contain the four wrong formulas introduced by the `43af` return relay.
-   - **Accepted documentary intake (`6552aec6894a4a94a2ced785ac3af8c25f801ba8`):** `REVIEW_AGY_00A_R1_655_2026_11_08.md` at `d1b2303969050925d4b548ed21ec862208107b9f` (`ACCEPT_SCOPED_RESULT` with the four reading notes retained in `CLAIM_DEPENDENCIES.md` §0.2).
-   - **Independent source reviews:** `INDEPENDENT_PROOF_CODE_REVIEW_2026_11_07.md` at `6290484f286cf82a58131acd99ec156339f1e3da` (supports conditional analytic proofs for `3e58425f1e6560d9f078f306e724ed264d41884f`; marks code `REVISION REQUIRED / UNRUN` for `V1`); execution-readiness reviews at `6f35dfefdabc9a6f932b27699cd02cb6863623cf` and `8cad267b43827b8f9d6b5b63b19ba093b6795f52` (still `UNRUN`).
-4. **What was read / proved / implemented / run in `AGY-00b1-r2`:**
-   - **Read:** `REVIEW_AGY_00B1_R1_43AF_2026_11_08.md`, `START_HERE.md`, `TASKS.json`, and `PHYSICAL_TO_AGY_2026-11-08_43AF_MAP_ACCEPTED_REPAIR_RETURN_RELAY.md` at `400244e32c737d9b947546e2b12fec5ab57c9627`; `FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md` (§3–§4) at `dd7490203c55bae043585f594af5a13afe634fa7`.
-   - **Proved / Implemented / Run:** Zero new derivations, zero science code edits, and **zero scientific imports, collection, or runs** (`scientific_execution_authorized = false`).
-5. **Four Bounded Return-Relay Corrections (`REVIEW_AGY_00B1_R1_43AF_2026_11_08.md`):**
-   - **1. Line 29 centre:** In `FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md` (§3–§4, `dd7490203c55bae043585f594af5a13afe634fa7`), $C = \exp[2\pi i(1/2,1/2,1/2,1/2,1/2)]$ in the specified $D_5$ torus, whereas $\exp(i\pi H) = 1$ on the full root representation. The `43af` relay's $C_{D_5} = \exp(i\pi H)$ is retracted; $C h_4^2 = 1$ with the source definition of $C$ is retained.
-   - **2. Line 49 sector and spectrum:** The six broken $A_3$ root directions lie in `120` with $Q_{\text{em}} = \pm 4/3$ and periodic cusp transport; $K$'s $D_5$ part commutes with $A_3$. As already stated in accepted `CLAIM_DEPENDENCIES.md` (`N10`/`E2`), the conditional discrete positive Sturm–Liouville proof (`WEAK_CURRENT_GRADING_AND_DISCRETE_CHARGED_VECTORS.md`, `dd7490203c55bae043585f594af5a13afe634fa7`, reviewed at `6290484f286cf82a58131acd99ec156339f1e3da`) applies to the $Q_{\text{em}} = \pm 1$ half-root charged vectors in `128` (antiperiodic cusp transport), while `checks.py` (`3e58425f1e6560d9f078f306e724ed264d41884f`) checks finite root/algebraic witnesses and carries unresolved `V1`.
-   - **3. Line 54 extension degrees:** In `COUPLED_UP_SECTOR_PARABOLIC_COUNT_2026_11_08.md` (`30f348e15755a3c5a824e75d5ed6ba354e200bb3`, eqs. 5, 8, 10) and accepted `CLAIM_DEPENDENCIES.md` (`E1`), the rank-two extension $\mathcal{E}$ has $\deg \mathcal{E} = -1$; twisting by $p$ adds rank two, giving $\deg \mathcal{E}_3(p) = +1$ and $\deg \mathcal{E}_{-1} = -1$ (not $0$ and $-2$), with cohomology pairs $(1,0)$ and $(0,1)$.
-   - **4. Line 54 finite-vector cohomology:** In `30f348e15755a3c5a824e75d5ed6ba354e200bb3` (§2–§3) and accepted `CLAIM_DEPENDENCIES.md` (`N09`/`E1`), the paired $D_5$ vector ten is $V_{(2,0)} \oplus V_{(0,2)}$ (not the spinor's $V_{(3/2,3/2)}$), and its reduced finite fibre ranks are $(2,4,2)$ ($2; 2+2; 2$, i.e., $(1,2,1)$ on each five-space with both retained), distinct from the later global Dolbeault tuple $(0,3,3,0)$.
-6. **Next proposed task and release status:**
-   - **Proposed next microtask:** `AGY-00b2` (`CLAIM_DEPENDENCIES.md` completion / `INPUT_LEDGER.md`).
-   - **Released yet?** **`false`** (`next_microtask_released = false` in `TASKS.json` at `400244e32c737d9b947546e2b12fec5ab57c9627`).
-
----
-
-## 2. `REVIEW_FORM.md` Compact Author Return Block (`AGY-00b1-r2`)
-
-- **Microtask & scope:** `AGY-00b1-r2` (`REVIEW_AGY_00B1_R1_43AF_2026_11_08.md` at `400244e32c737d9b947546e2b12fec5ab57c9627`); return-relay correction (`<= 350` words) and `RESUME.md` refresh (`<= 900` words) only, leaving `CLAIM_DEPENDENCIES.md` (`eb68f876fd...`) and the `43af` relay unchanged.
-- **Evidence type & input table:** Documentary source-summary correction only (`0 of 19` unchanged; no new formula, code, or execution).
+## 4. Next Action upon Restart
+- **STOP.** Wait for physical-seat review of `AGY-00b2a` and explicit release of the next microtask in `START_HERE.md` / `TASKS.json`.
