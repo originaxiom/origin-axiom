@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-09",
+  "checkpoint": "6cce98355669f9d9c587035846ec7c0b20daffa0",
+  "decision": "REVISE_WITH_SUPPORTED_CORE_HAND_CALCULATION",
+  "activity": "source reading, hand algebra and Git/hash metadata",
+  "formal_independent_review": null,
+  "scientific_execution": false,
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COMPENSATOR_RANGE_AUDIT.md",
+      "sha256": "ea306b113eb001d70deb0340e12b70c775f686f8cbb889f4b568ba3fafa92cb7",
+      "whitespace_words": 1308
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md",
+      "sha256": "e1e38ac0c67a743f7fcde49b5a2cb6c2fac5fac752fd376ed08fd9403136e9f4",
+      "whitespace_words": 490
+    },
+    {
+      "path": "relays/AGY_TO_PHYSICAL_2026-11-09_AGY_01A_COMPENSATOR_RANGE_AUDIT.md",
+      "sha256": "462342ae9a52f72907f36c50462781cfac2882f9a2cdb2a8ac376a90b50c99cd",
+      "whitespace_words": 180
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/MODEL_MANIFEST.md",
+      "sha256": "811956e0ffc5ca9f141c57e6eb5e98bc576aa5b8e7fe18909c4fc2cd9136ebdb",
+      "whitespace_words": 4455
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CLAIM_DEPENDENCIES.md",
+      "sha256": "eb68f876fdf5b842c471738d7fc1c672f685db1a552d30ad669d7f1dba02802a",
+      "whitespace_words": 6590
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+      "sha256": "98bf93b4be89297901e8f9718f88ea526105b717310df63b75e21deb282713e5",
+      "whitespace_words": 1497
+    }
+  ],
+  "source_pins": [
+    {
+      "commit": "2f690bc486adf2dfc07dd4fd94bf62b6db27bc86",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md",
+      "sha256": "6012816683f17ac83e7d3bdb4f6d8b987ec8155ee2caa09ce651dbf0b194ed4c"
+    },
+    {
+      "commit": "2f690bc486adf2dfc07dd4fd94bf62b6db27bc86",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PIN2_COMPENSATOR_COHERENCE_AND_ELECTROMAGNETIC_PHASE.md",
+      "sha256": "fc67d4446b11f54c731b7e7aac56b496e501d5fa397040363de6c8074909a3b9"
+    },
+    {
+      "commit": "2f690bc486adf2dfc07dd4fd94bf62b6db27bc86",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md",
+      "sha256": "871529dd81603e1a70126f6ee518ae5c2758c107cf7e9fff62ae96f646a0813f"
+    },
+    {
+      "commit": "2f690bc486adf2dfc07dd4fd94bf62b6db27bc86",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_QUATERNION_STATIONARY_BUNDLE_AND_CUSP_LAW.md",
+      "sha256": "221a7cd2dce2ff7dec0b135c348b7bb52e15bc27e5563d420756fbe31f9978a1"
+    },
+    {
+      "commit": "2f690bc486adf2dfc07dd4fd94bf62b6db27bc86",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXACT_ORDER_THREE_ELECTROWEAK_BRANCH.md",
+      "sha256": "3eae4eba764343746f46db14b58ae5d03ee412534b4067219143c40c3a2f09aa"
+    },
+    {
+      "commit": "9a2bd40b3cf0a4d675a3c7013f83873d620a7bde",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/OPEN_PIN2_CORRECTION_BEYOND_THE_CHOSEN_EM_CIRCLE_2026_11_09.md",
+      "sha256": "56b948a9b9b53f5eeec9242c57b3e0dd3d79751195dba1c705118d6060230aa8"
+    }
+  ],
+  "failed_full_reference_lookups": [
+    {
+      "claim": "9a2bd40b3054f34bc47f4d2cfab3d349c3ee0971",
+      "exit_code": 128,
+      "stderr": "fatal: git cat-file: could not get object info"
+    },
+    {
+      "claim": "95fb8fd785d409ebbc49f359029c462f539a2b34",
+      "exit_code": 128,
+      "stderr": "fatal: git cat-file: could not get object info"
+    }
+  ],
+  "primary_reading": {
+    "url": "https://arxiv.org/pdf/hep-th/9906059",
+    "version": "v1",
+    "title": "The Semispin Groups in String Theory",
+    "author": "Brett McInnes",
+    "personally_read": "sectionsII-III, PDF pages4-13; introductory material also inspected",
+    "scope": "half-spin kernel, semispin embedding and block subgroup central quotient; source-A orientation is an author hand check",
+    "convention": "paper uses unit vector square-1; witness uses+1"
+  },
+  "reviewer_relationship": "physical seat authored earlier open lead; this hand check is not claimed as formal independent review",
+  "supported_hand_results": [
+    "explicit real frame and source orientation",
+    "h1 square and inversion relations",
+    "particular h3 central obstruction",
+    "scalar and peripheral gluing",
+    "fixed so5 gauge algebra in the chi0 construction"
+  ]
+}

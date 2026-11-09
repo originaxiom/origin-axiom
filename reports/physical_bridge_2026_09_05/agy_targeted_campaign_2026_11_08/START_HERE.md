@@ -1,11 +1,20 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-09. Coordination revision 10, requested by the owner to avoid
+2026-11-09. Coordination revision 11, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
 
-## Current assignment AGY-01a
+## Current assignment AGY-01a-r1
+
+The proof at6cce98355669f9d9c587035846ec7c0b20daffa0 has a supported
+h1 core hand calculation and four required source/convention/scope
+repairs. Read REVIEW_AGY_01A_6CCE_2026_11_09.md. Preserve that positive
+while correcting G1-G4. Return one bounded repaired proof, compact
+handoff and short new relay, commit/push and stop. The review keeps
+formal independent review and scientific admission outstanding.
+
+## Prior assignment AGY-01a, returned for scoped repair
 
 The documentary input ledger at605294403ecdd26666f3902881558e4bf6b85e93
 is accepted. Read REVIEW_AGY_00B2A_R2_605294_2026_11_09.md with its
