@@ -1,11 +1,20 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-09. Coordination revision 8, requested by the owner to avoid
+2026-11-09. Coordination revision 9, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
 
-## Current assignment AGY-00b2a-r1
+## Current assignment AGY-00b2a-r2
+
+The major repairs at17f75dba06ee955f988d0eaac10e20292f0acce2 are retained.
+Read REVIEW_AGY_00B2A_R1_17F75_2026_11_09.md. Correct only its four
+residual source items, the quark spin weights, Wilson sensitivity, typed
+P definition and review hash. Return the bounded ledger/handoff and a
+short response relay, commit/push and stop. No new proof or science run
+is released.
+
+## Prior assignment AGY-00b2a-r1, returned with major repairs
 
 The source ledger at ac089712315053ad4704e21e14b889cc2a24279e needs
 seven grouped corrections. Read REVIEW_AGY_00B2A_AC089_2026_11_09.md.

@@ -8,8 +8,8 @@
   "review_branch": "audit/physical-bridge-2026-09-05",
   "delivery_channel": "versioned repository relay; no live worker start or acknowledgement inferred",
   "worker_acknowledgement": {
-    "commit": "8ca2a179e344822b5d1d1bb9e1e41fccef813fc6",
-    "type": "source-only ledger update predating first review; partial corrections retained"
+    "commit": "17f75dba06ee955f988d0eaac10e20292f0acce2",
+    "type": "bounded source repair returned; major repairs retained; four residual items"
   },
   "max_active_proof_code_packets_after_intake": 1,
   "scientific_execution_authorized_by_this_board": false,
@@ -60,7 +60,7 @@
       "id": "AGY-00",
       "title": "Reuse inventory and common-model manifest",
       "claim_dependencies": [],
-      "status": "SOURCE_INTAKE_AND_MAP_ACCEPTED_DOCUMENTARY; ONLY_00B2A_R1_RELEASED",
+      "status": "SOURCE_INTAKE_AND_MAP_ACCEPTED_DOCUMENTARY; ONLY_00B2A_R2_RELEASED",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -74,7 +74,7 @@
       "execution_admission": null,
       "admitted_run_evidence": null,
       "accepted_result": null,
-      "current_microtask": "AGY-00b2a-r1",
+      "current_microtask": "AGY-00b2a-r2",
       "released_current_outputs": [
         "INPUT_LEDGER.md",
         "RESUME.md",
@@ -99,19 +99,14 @@
         "scope": "seven grouped source, representation and source-hash corrections"
       },
       "input_ledger_latest_intake": {
-        "checkpoint": "8ca2a179e344822b5d1d1bb9e1e41fccef813fc6",
-        "decision": "REVISE",
-        "document": "REVIEW_AGY_00B2A_8CA2_INTAKE_2026_11_09.md",
-        "resolved_findings": [
-          "R3 original scope",
-          "R7"
-        ],
+        "checkpoint": "17f75dba06ee955f988d0eaac10e20292f0acce2",
+        "decision": "REVISE_TINY_RETURN",
+        "document": "REVIEW_AGY_00B2A_R1_17F75_2026_11_09.md",
         "remaining_findings": [
-          "R1",
-          "R2",
-          "R4",
-          "R5",
-          "R6"
+          "T1",
+          "T2",
+          "T3",
+          "T4"
         ]
       }
     },
@@ -252,15 +247,15 @@
     "six_control_science_execution": "UNRUN; separate main acceptance and admission outstanding",
     "later_seven_and_four_controls": "UNRUN; outside completed review"
   },
-  "coordination_revision": 8,
+  "coordination_revision": 9,
   "revision_base_commit": "be1b2e92e64eb488870ec1b27a3b0841fd026845",
   "start_document": "START_HERE.md",
   "max_active_microtasks_per_worker_context": 1,
   "dispatch": {
-    "released_microtask": "AGY-00b2a-r1",
+    "released_microtask": "AGY-00b2a-r2",
     "parent_task": "AGY-00",
-    "question": "Correct the seven source findings in the candidate input ledger and its handoff",
-    "run_ticket": "REVIEW_AGY_00B2A_AC089_2026_11_09.md",
+    "question": "Correct the four residual source labels and review hash in the candidate ledger",
+    "run_ticket": "REVIEW_AGY_00B2A_R1_17F75_2026_11_09.md",
     "accepted_intake_commit": "6552aec6894a4a94a2ced785ac3af8c25f801ba8",
     "intake_review_document": "REVIEW_AGY_00A_R1_655_2026_11_08.md",
     "acceptance_scope": "Documentary source intake, dependency map and summary correction",

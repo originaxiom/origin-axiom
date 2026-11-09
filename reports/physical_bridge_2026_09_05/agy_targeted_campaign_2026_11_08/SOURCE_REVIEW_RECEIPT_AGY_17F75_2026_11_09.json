@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-09",
+  "checkpoint": "17f75dba06ee955f988d0eaac10e20292f0acce2",
+  "decision": "REVISE_TINY_RETURN",
+  "activity": "source reading and Git/hash metadata",
+  "scientific_execution": false,
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+      "sha256": "70148898fa2acdd4faccf1348039678d1ddc5305ffa1f22b9f89263fa1168868",
+      "whitespace_words": 1484
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md",
+      "sha256": "beaf10c285f99ad20a31ea794345df9dc84a3993d7214e0c0d6d75bfb763ac91",
+      "whitespace_words": 522
+    },
+    {
+      "path": "relays/AGY_TO_PHYSICAL_2026-11-09_AGY_00B2A_R1_LEDGER_SOURCE_CORRECTIONS.md",
+      "sha256": "67cec6e3b7079ba87a4d386c25f797c72eb830a707c65bc940c1f1035314a286",
+      "whitespace_words": 234
+    },
+    {
+      "path": "relays/AGY_TO_PHYSICAL_2026-11-09_AGY_00B2A_CANDIDATE_INPUT_LEDGER_AND_RESUME.md",
+      "sha256": "ac8ea28f25b9d51d085217a59e222bc0113370bd6b88169a5cad86fc3dee229d",
+      "whitespace_words": 192
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/MODEL_MANIFEST.md",
+      "sha256": "811956e0ffc5ca9f141c57e6eb5e98bc576aa5b8e7fe18909c4fc2cd9136ebdb",
+      "whitespace_words": 4455
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CLAIM_DEPENDENCIES.md",
+      "sha256": "eb68f876fdf5b842c471738d7fc1c672f685db1a552d30ad669d7f1dba02802a",
+      "whitespace_words": 6590
+    }
+  ],
+  "sources": [
+    {
+      "commit": "be1b2e92e",
+      "path": "reports/physical_bridge_2026_09_05/REDUCTION_FIRST_MISSION_2026_10_26.md",
+      "sha256": "2bf9de779b36dc938bebf674145799367c36e70ff807d763ec74e2311822d486",
+      "matches_declared": true
+    },
+    {
+      "commit": "be1b2e92e",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REDUCTION_CARD_01_PARENT_PROFILE_RESPONSE_AND_SCALE.md",
+      "sha256": "c3eb303f09f8e693535cb4a867df66b4cf6babf6b506a5eece52f3b11dbce836",
+      "matches_declared": true
+    },
+    {
+      "commit": "be1b2e92e",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REDUCTION_CARD_02_COVARIANT_VERTEX_AND_PARENT_PRICE.md",
+      "sha256": "5b4307219ec24610ab9f65c2d1dd9a681ed4567522d1b3b02e9ee87444db40be",
+      "matches_declared": true
+    },
+    {
+      "commit": "be1b2e92e",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REDUCTION_CARD_05_COMPENSATOR_PHASE_AND_END_PRICE.md",
+      "sha256": "989f76dd135db24e9bad7bf387a5850f329f59c3f7d2ffbad3a40a9521e686fd",
+      "matches_declared": true
+    },
+    {
+      "commit": "be1b2e92e",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REDUCTION_CARD_06_GEOMETRIC_SPIN_AND_SECTOR_RESOLUTION.md",
+      "sha256": "fd6f31b52d55248e0c85b6299cc2098e35b0387bf47ddc4963ad2ace0f8e4cda",
+      "matches_declared": true
+    },
+    {
+      "commit": "be1b2e92e",
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "matches_declared": true
+    },
+    {
+      "commit": "be1b2e92e",
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "matches_declared": true
+    },
+    {
+      "commit": "be1b2e92e",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md",
+      "sha256": "6012816683f17ac83e7d3bdb4f6d8b987ec8155ee2caa09ce651dbf0b194ed4c",
+      "matches_declared": true
+    },
+    {
+      "commit": "6290484f28",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_coupled_half_root_kernel_2026_11_07/review/INDEPENDENT_PROOF_CODE_REVIEW_2026_11_07.md",
+      "sha256": "00fba6daf441dea71f9be642ac5e049e6b27de1f20ac25729a94d556631a2f4c",
+      "matches_declared": true
+    },
+    {
+      "commit": "2b572014c",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/NATIVE_CYCLIC_DEFORMATION_AND_DERIVED_QUADRATIC_MOMENT_RESPONSE_2026_11_09.md",
+      "sha256": "8a0476b191517bb60c5e0a4a71f086262fd16ae23cd069bb6fd98fc7d4bf90bb",
+      "matches_declared": true
+    },
+    {
+      "commit": "9a2bd40b3",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/OPEN_PIN2_CORRECTION_BEYOND_THE_CHOSEN_EM_CIRCLE_2026_11_09.md",
+      "sha256": "56b948a9b9b53f5eeec9242c57b3e0dd3d79751195dba1c705118d6060230aa8",
+      "matches_declared": true
+    },
+    {
+      "commit": "9fae03248",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CARTAN_CYCLIC_VECTOR_PAIRING_AND_PHYSICAL_CURRENT_RESPONSE_2026_11_09.md",
+      "sha256": "3158edfdda9aa958b72065eebe9ad03ea27275b34a00a5c67e3adaa53cf06a37",
+      "matches_declared": true
+    }
+  ],
+  "remaining_findings": [
+    "T1 quark spin representatives",
+    "T2 affected Wilson sector",
+    "T3 typed P representation",
+    "T4 acceptance-review hash"
+  ]
+}
