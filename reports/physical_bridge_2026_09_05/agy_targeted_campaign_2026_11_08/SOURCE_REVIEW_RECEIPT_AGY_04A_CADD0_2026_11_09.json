@@ -1,0 +1,91 @@
+{
+  "schema": "oa-agy-scoped-hand-source-review-v1",
+  "date": "2026-11-09",
+  "physical_base_commit": "edaa4cf7cd9e1a9e082bad87ea2350a3803c32c3",
+  "processed_agy_head": "cadd0c62bb717ba18caca724e0c96dd9bd07cb14",
+  "initial_author_current_commit": "c866d5ff103d2ef1468a0bfdf5fce856d1988b91",
+  "decision": "SCOPED_LEPTON_CURRENT_SUPPORTED_WITH_READING_NOTES",
+  "method": "personal source reading, Git/hash custody and hand equations; earlier dependencies include physical-seat authorship",
+  "verified_scope": [
+    "W f1 patch exact source hash",
+    "declared return hashes",
+    "original source mass-map Omega factors restored",
+    "principal lowering bracket and conjugate highest-character relation",
+    "symmetric/antisymmetric product and finite cusp norm",
+    "conditional rank pair and norm cancellation scope"
+  ],
+  "required_repairs": [
+    "right-current fibre conjugation sign",
+    "dual form coefficient opposite-charge label",
+    "nonidentically zero versus nowhere zero",
+    "C_quark definition and right-map Gram orientation",
+    "A_h compact E8 versus centralizer G0 type",
+    "one-sided current scope versus complete weak chirality"
+  ],
+  "preserved_positive": "ranks (1,0) or (0,1) on full two-dimensional charged form spaces for the two named vector witnesses, under inherited model/domain hypotheses",
+  "formal_independent_review": null,
+  "main_acceptance": null,
+  "admitted_scientific_execution": null,
+  "banking": null,
+  "new_scientific_code_run_or_imported": false,
+  "new_agents": false,
+  "canonical_physical_inputs_removed": 0,
+  "next_microtask": "AGY-04b",
+  "science_status": "UNRUN; no admission inferred",
+  "inherited_staged_diff_sha256": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "sources": [
+    {
+      "commit": "cadd0c62bb717ba18caca724e0c96dd9bd07cb14",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/LEPTON_FORM_CURRENT.md",
+      "sha256": "be2d0f72a0ce729e27951e6293b0fe0ef167cb9e5fa924f5bcaf1ac78349fd6d"
+    },
+    {
+      "commit": "cadd0c62bb717ba18caca724e0c96dd9bd07cb14",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/JOINED_KERNEL_AND_PHYSICAL_MAP.md",
+      "sha256": "f96f5247f00151c829daefa2c66a31f05a53a50ed499b02bac4ecb6ddb960691"
+    },
+    {
+      "commit": "cadd0c62bb717ba18caca724e0c96dd9bd07cb14",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CENTRALIZER_COMPONENTS.md",
+      "sha256": "0e21636e01332e6cae765382c79aff9278dfdbe074e7e94a729a6aeb359a4ff4"
+    },
+    {
+      "commit": "cadd0c62bb717ba18caca724e0c96dd9bd07cb14",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md",
+      "sha256": "740010c3a961035010fd3161af8f52077217ce9cd247841a1a51a9181b9ae556"
+    },
+    {
+      "commit": "cadd0c62bb717ba18caca724e0c96dd9bd07cb14",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/NEUTRAL_D5_KERNEL.md",
+      "sha256": "dbbffb7360fdbad75d967b76feac75864fe4b36a8943714860bd454653831fad"
+    },
+    {
+      "commit": "cadd0c62bb717ba18caca724e0c96dd9bd07cb14",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COEFFICIENT_ROSTER.md",
+      "sha256": "a98ff428d827d11adf8400e9e03e49b7360f3ccae03ed6f957e9780eec4ed33f"
+    }
+  ],
+  "review_artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_04A_CADD0_2026_11_09.md",
+      "sha256": "dcc24f66fb2fda8ddf5a89417c61ce80dd2a520dfa7030d5e1e2a630791df900"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RUN_TICKET_AGY_04B.md",
+      "sha256": "168a7650b9ab1f06ca45a7400397bd2e16561f425e6f1b860ae92e63c813572e"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/START_HERE.md",
+      "sha256": "3e8a72ce144e086f423d423eead0bba2fade6084f10af11206b3149859652ca0"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/TASKS.json",
+      "sha256": "008182bde1ab8f269fcf77b46bff6fdfbff2139e3d06f52b3c3680709cf294b2"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_2026-11-09_LEPTON_POSITIVE_AND_OPERATOR_JOINT.md",
+      "sha256": "aeff110e2af41bf17e7d3600bc162cd74d071944f735d64c05e9a02a653dc53c"
+    }
+  ],
+  "previous_external_review_receipt_snapshot_commit": "edaa4cf7cd9e1a9e082bad87ea2350a3803c32c3"
+}

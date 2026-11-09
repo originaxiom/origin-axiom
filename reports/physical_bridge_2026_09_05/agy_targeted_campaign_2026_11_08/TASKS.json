@@ -8,14 +8,14 @@
   "review_branch": "audit/physical-bridge-2026-09-05",
   "delivery_channel": "versioned repository relay; no live worker start or acknowledgement inferred",
   "worker_acknowledgement": {
-    "commit": "be7047fb6d29346d0fce3818c2cae05ec5ca33b9",
-    "type": "joined conditional hand kernel and pure-field witnesses supported with binding physical map and spectral-scope corrections"
+    "commit": "cadd0c62bb717ba18caca724e0c96dd9bd07cb14",
+    "type": "lepton-form hand rank pair supported with phase/notation/norm repairs; W f1 patch applied exactly"
   },
   "max_active_proof_code_packets_after_intake": 1,
   "scientific_execution_authorized_by_this_board": false,
   "first_return": [
-    "LEPTON_FORM_CURRENT.md",
-    "JOINED_KERNEL_AND_PHYSICAL_MAP.md with bundled repairs",
+    "FORM_SPIN_VECTOR_OPERATOR_JOINT.md",
+    "bundled LEPTON_FORM_CURRENT.md repairs",
     "RESUME.md",
     "short new return relay"
   ],
@@ -151,7 +151,8 @@
         "formal_independent_review": null,
         "execution": null,
         "late_witness_addendum": "EXTERNAL_248_AUDIT_INTAKE_AND_W_F1_CORRECTION_2026_11_09.md",
-        "exact_wf1_witness_requires_patch": true
+        "exact_wf1_witness_requires_patch": false,
+        "wf1_patch_applied_at": "cadd0c62bb717ba18caca724e0c96dd9bd07cb14"
       },
       "phase_result": {
         "checkpoint": "b299c2ab5adfa624e41dec5cf72506a3f3277b73",
@@ -233,7 +234,9 @@
         ],
         "formal_independent_review": null,
         "execution": null,
-        "author_100_percent_closure_accepted": false
+        "author_100_percent_closure_accepted": false,
+        "bundled_map_repairs_at": "cadd0c62bb717ba18caca724e0c96dd9bd07cb14",
+        "latest_review": "REVIEW_AGY_04A_CADD0_2026_11_09.md"
       }
     },
     {
@@ -265,7 +268,7 @@
         "AGY-02",
         "AGY-03"
       ],
-      "status": "EXISTING_MODEL_HAND_CURRENT_PROBE_04A_RELEASED; AGY03_RESPONSE_DUTY_REMAINS",
+      "status": "SCOPED_LEPTON_HAND_RANK_PAIR_SUPPORTED_WITH_REPAIRS; OPERATOR_JOINT_PROBE_04B_RELEASED; AGY03_OPEN",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -278,14 +281,33 @@
       "execution_admission": null,
       "admitted_run_evidence": null,
       "accepted_result": null,
-      "current_microtask": "AGY-04a",
+      "current_microtask": "AGY-04b",
       "released_current_outputs": [
-        "LEPTON_FORM_CURRENT.md",
-        "JOINED_KERNEL_AND_PHYSICAL_MAP.md with bundled repairs",
+        "FORM_SPIN_VECTOR_OPERATOR_JOINT.md",
+        "bundled LEPTON_FORM_CURRENT.md repairs",
         "RESUME.md",
         "short new return relay"
       ],
-      "release_scope": "existing complete balanced h4/W=1/eta=O model only, using already specified domains; no new interface/domain or AGY03 completion inferred"
+      "release_scope": "existing complete balanced h4/W=1/eta=O model only, using already specified domains; no new interface/domain or AGY03 completion inferred",
+      "lepton_form_result": {
+        "checkpoint": "cadd0c62bb717ba18caca724e0c96dd9bd07cb14",
+        "decision": "SCOPED_LEPTON_CURRENT_SUPPORTED_WITH_READING_NOTES",
+        "review": "REVIEW_AGY_04A_CADD0_2026_11_09.md",
+        "conditional_rank_pairs": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "full_weak_chirality_earned": false,
+        "formal_independent_review": null,
+        "scientific_execution": null,
+        "canonical_inputs_reduced": 0
+      }
     },
     {
       "id": "AGY-05",
@@ -340,36 +362,34 @@
     "six_control_science_execution": "UNRUN; separate main acceptance and admission outstanding",
     "later_seven_and_four_controls": "UNRUN; outside completed review"
   },
-  "coordination_revision": 21,
-  "revision_base_commit": "b9a4176d78f7f0e74045f103db29063008e33e49",
+  "coordination_revision": 22,
+  "revision_base_commit": "edaa4cf7cd9e1a9e082bad87ea2350a3803c32c3",
   "start_document": "START_HERE.md",
   "max_active_microtasks_per_worker_context": 1,
   "dispatch": {
-    "released_microtask": "AGY-04a",
+    "released_microtask": "AGY-04b",
     "parent_task": "AGY-04",
-    "question": "Derive the complete lepton-form to neutral-W1 current maps through the named wL/wR species and their actual invariant strengths",
-    "run_ticket": "RUN_TICKET_AGY_04A.md",
-    "joined_checkpoint": "be7047fb6d29346d0fce3818c2cae05ec5ca33b9",
-    "required_correction": "REVIEW_AGY_02C_BE704_2026_11_09.md",
-    "dependency_scope": "existing-model source/hand current preparation; AGY03 common-action boundary/source duties remain open",
-    "acceptance_scope": "conditional author hand kernel with explicit physical-map and negative-scope repairs; formal independent review and science admission owed",
+    "question": "Does a native global covariant operator force a form-current vector at the spin-current pole, or leave a precise spectral datum undetermined?",
+    "run_ticket": "RUN_TICKET_AGY_04B.md",
+    "joined_checkpoint": "cadd0c62bb717ba18caca724e0c96dd9bd07cb14",
+    "required_correction": "REVIEW_AGY_04A_CADD0_2026_11_09.md",
+    "dependency_scope": "existing balanced h4/W=1/eta=O complete model only; AGY03 boundary/source duties remain",
+    "acceptance_scope": "scoped hand lepton current with six repairs; formal independent review and science admission owed",
     "allowed_activity": [
-      "read exact current, harmonic and source mass-map proofs",
-      "derive global E8 lepton-form current and actual phase/norm witnesses by hand",
-      "retain other possible vector degeneracies and unresolved profile integrals",
-      "bundle joined-kernel map and input-ledger corrections",
-      "save bounded proof and handoff; commit/push; stop"
+      "reuse/source search",
+      "one bounded native operator hand probe",
+      "bundle source/phase/norm repairs",
+      "commit/push and stop"
     ],
     "required_outputs": [
-      "LEPTON_FORM_CURRENT.md <=2200 words plus <=100 witness-equation/table rows",
-      "JOINED_KERNEL_AND_PHYSICAL_MAP.md with bundled repairs",
+      "FORM_SPIN_VECTOR_OPERATOR_JOINT.md <=1800 words plus <=80 equation rows",
+      "bundled lepton-current repairs",
       "RESUME.md <=700 words",
-      "new relay <=250 words"
+      "relay <=250 words"
     ],
-    "stop_condition": "Return exact current rank/norm witness or the precise unresolved phase/product/integral for substantive review",
+    "stop_condition": "actual global domain-preserving operator/current witness or exact residual spectral datum; no universal exclusion from a failed candidate",
     "next_microtask_released": false,
-    "scientific_execution_authorized": false,
-    "late_source_repair": "Apply CENTRALIZER_COMPONENTS_W_F1_SIGN_2026_11_09.patch and publish new source hash with AGY-04a; original source/reviews remain preserved."
+    "scientific_execution_authorized": false
   },
   "context_policy": {
     "one_question_per_run": true,
@@ -400,9 +420,10 @@
     "document": "EXTERNAL_248_AUDIT_INTAKE_AND_W_F1_CORRECTION_2026_11_09.md",
     "patch": "CENTRALIZER_COMPONENTS_W_F1_SIGN_2026_11_09.patch",
     "corrected_source_sha256": "0e21636e01332e6cae765382c79aff9278dfdbe074e7e94a729a6aeb359a4ff4",
-    "apply_with_current_task": "AGY-04a",
+    "apply_with_current_task": "DONE at cadd0c62b; original history preserved",
     "external_numerical_artifacts": "received at external_dsl_audit_2026_11_09; source/hand audit complete at its declared scope; no numerical rerun or admission",
-    "scientific_execution_authorized": false
+    "scientific_execution_authorized": false,
+    "patch_applied_at": "cadd0c62bb717ba18caca724e0c96dd9bd07cb14"
   },
   "external_audit_source_review": {
     "archive_head": "2f45580c4afa5985145df7520575dd9c4e51d928",
@@ -415,6 +436,6 @@
     "main_acceptance": null,
     "execution_admission": null,
     "canonical_inputs_reduced": 0,
-    "active_assignment_unchanged": "AGY-04a"
+    "active_assignment_unchanged": "AGY-04a at its edaa4cf7c review checkpoint; subsequently advanced to AGY-04b at coordination revision22"
   }
 }

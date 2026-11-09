@@ -1,38 +1,46 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-09. Coordination revision 21, requested by the owner to avoid
+2026-11-09. Coordination revision 22, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
 
-## Current assignment AGY-04a
+## Current assignment AGY-04b
 
-Read RUN_TICKET_AGY_04A.md and REVIEW_AGY_02C_BE704_2026_11_09.md.
-Derive the actual lepton-form/neutral-W1 currents on the existing balanced
-h4, W=1, eta=O model through the two named vector witnesses. Establish
-rank and invariant strength, or return the exact unresolved global
-product/integral. Carry source coordinate factors, actual E8 brackets,
-physical Hodge metrics and positive kinetic norms. Bundle the joined
-packet's map/scope/input repairs in the same substantive return.
-Commit/push and stop. This is existing-model hand preparation for AGY-04.
-AGY-03 response duties, formal review and scientific admission remain open.
+Read RUN_TICKET_AGY_04B.md and REVIEW_AGY_04A_CADD0_2026_11_09.md.
+One bounded hand/source probe is released. Test whether existing native
+fields and covariant operators force a form-current vector at the known
+spin-current pole. Derive the actual global map, curvature terms, norms
+and complete-domain identity, or the exact unresolved spectral datum.
+Bundle the review's six source/phase/norm repairs. Keep the conditional
+lepton rank-pair positive and the paired quark current. Commit/push and
+stop. AGY-03, formal independent review and science admission stay open.
+
+## Prior AGY-04a, scoped hand positive with explicit repairs
+
+At cadd0c62b, the lepton-form current through the two named species has
+rank pair(1,0) or(0,1), conditionally on the inherited complete bundle and
+Hodge hypotheses. The determinant product vanishes and the symmetric
+product is nonidentically zero with finite physical norm. Correct the
+right-current sign, dual charge label, section-zero wording, ratio
+constant/Gram orientation and compact subgroup statement in the next
+return. This is not full weak chirality or three Standard Model families.
 
 ## Late source addendum for the current return
 
 The exploration-seat report exposed a sign error in AGY-01b's W f1
-witness at lines86 and88. Read EXTERNAL_248_AUDIT_INTAKE_AND_W_F1_
-CORRECTION_2026_11_09.md (one filename without the line break) and apply
-CENTRALIZER_COMPONENTS_W_F1_SIGN_2026_11_09.patch. The corrected identity
-is pi_E8(W f1)=h1 C. Its component stays C1. Publish the corrected source
-hash in the current AGY-04a return, preserving original history. The
-physical seat's earlier hand review also missed this particular sign.
+witness at lines86 and88. AGY applied the relayed patch at cadd0c62b.
+The physical seat verified the exact corrected source hash
+0e21636e01332e6cae765382c79aff9278dfdbe074e7e94a729a6aeb359a4ff4.
+The corrected identity is pi_E8(W f1)=h1 C. Its component stays C1.
+The original proof and the physical seat's missed sign remain in history.
 The external archive has now arrived. Read
 external_dsl_audit_2026_11_09/REVIEW.md and its CUSTODY.json for the
 personal source review, finite positives, coverage and guardrail repairs.
 All five owner-quoted hashes match. The added Golden Spikes report has
 stale hashes and a cusp-measure error whose correction preserves the
 pole allowance. No numerical rerun or new admission is inferred.
-AGY-04a stays the current task; the separate guardrail repair is not
+AGY-04b stays the current task; the separate guardrail repair is not
 an additional assignment in this worker context.
 
 ## Prior assignment AGY-02c, joined hand result with binding corrections
