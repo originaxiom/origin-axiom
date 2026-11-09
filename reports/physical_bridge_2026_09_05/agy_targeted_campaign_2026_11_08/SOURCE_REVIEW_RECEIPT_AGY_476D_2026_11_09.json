@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-09",
+  "checkpoint": "476d20bbb4a2e52bf1650fd0d8819d6cd869027e",
+  "decision": "ACCEPT_SCOPED_HAND_RESULT_WITH_READING_NOTES",
+  "activity": "source reading, hand algebra and Git/hash metadata",
+  "formal_independent_review": null,
+  "scientific_execution": false,
+  "reviewer_relationship": "physical seat authored earlier open lead; separate formal review remains owed",
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COMPENSATOR_RANGE_AUDIT.md",
+      "sha256": "81b29726b20218ed2625de06369c7a5d55c13427d85d81ed2888d27a3280a0d3",
+      "whitespace_words": 1536,
+      "matches_declared_or_preserved": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md",
+      "sha256": "ee7a03319190ae26d0739f8d0576bfc95dd732a12ebe95647265a127f647b06c",
+      "whitespace_words": 446,
+      "matches_declared_or_preserved": true
+    },
+    {
+      "path": "relays/AGY_TO_PHYSICAL_2026-11-09_AGY_01A_R1_COMPENSATOR_RANGE_REPAIR.md",
+      "sha256": "369cd0ef92ca4e3ccb356344733614c7b4e8e73388e34baca17b99f149a64fbb",
+      "whitespace_words": 206,
+      "matches_declared_or_preserved": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/MODEL_MANIFEST.md",
+      "sha256": "811956e0ffc5ca9f141c57e6eb5e98bc576aa5b8e7fe18909c4fc2cd9136ebdb",
+      "whitespace_words": 4455,
+      "matches_declared_or_preserved": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CLAIM_DEPENDENCIES.md",
+      "sha256": "eb68f876fdf5b842c471738d7fc1c672f685db1a552d30ad669d7f1dba02802a",
+      "whitespace_words": 6590,
+      "matches_declared_or_preserved": true
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+      "sha256": "98bf93b4be89297901e8f9718f88ea526105b717310df63b75e21deb282713e5",
+      "whitespace_words": 1497,
+      "matches_declared_or_preserved": true
+    },
+    {
+      "path": "relays/AGY_TO_PHYSICAL_2026-11-09_AGY_01A_COMPENSATOR_RANGE_AUDIT.md",
+      "sha256": "462342ae9a52f72907f36c50462781cfac2882f9a2cdb2a8ac376a90b50c99cd",
+      "whitespace_words": 180,
+      "matches_declared_or_preserved": true
+    }
+  ],
+  "resolved_findings": [
+    "G1 provenance",
+    "G2 raw volumes and E8 kernel convention",
+    "G3 global block quotient and coset",
+    "G4 selection scope and chi0 restriction"
+  ],
+  "reading_notes": [
+    "unique connected phase refers to its gauge algebra; both coherent central lifts remain",
+    "Pin_-(n) denotes the declared odd component; named Pin group requires its separate convention and map"
+  ],
+  "prior_review_receipt": "SOURCE_REVIEW_RECEIPT_AGY_6CCE_2026_11_09.json",
+  "new_review_and_ticket": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_01A_R1_476D_2026_11_09.md",
+      "sha256": "3337e40640fc3e70831f256376a7535c892828e4c644a3216b29df5f38ca8c99"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RUN_TICKET_AGY_01B.md",
+      "sha256": "85d24f49a3587227914e6ae4f3b47c22ce7e190ae27a0727c48d023f75cf486a"
+    }
+  ]
+}

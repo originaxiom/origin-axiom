@@ -1,11 +1,22 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-09. Coordination revision 11, requested by the owner to avoid
+2026-11-09. Coordination revision 12, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
 
-## Current assignment AGY-01a-r1
+## Current assignment AGY-01b
+
+The repaired h1 witness at476d20bbb4a2e52bf1650fd0d8819d6cd869027e
+is accepted as a scoped hand result with the reading notes in
+REVIEW_AGY_01A_R1_476D_2026_11_09.md. Read RUN_TICKET_AGY_01B.md.
+Determine the full compact correction centralizer and its components
+for the two ordered principal SU2 triples. Retain faithful quotients,
+norm conventions and open proof steps. Return a bounded hand proof,
+compact handoff and short new relay, commit/push and stop. Scientific
+execution remains subject to the ticket and existing admission rules.
+
+## Prior assignment AGY-01a-r1, accepted with reading notes
 
 The proof at6cce98355669f9d9c587035846ec7c0b20daffa0 has a supported
 h1 core hand calculation and four required source/convention/scope

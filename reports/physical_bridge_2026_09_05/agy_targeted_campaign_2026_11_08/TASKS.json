@@ -8,15 +8,15 @@
   "review_branch": "audit/physical-bridge-2026-09-05",
   "delivery_channel": "versioned repository relay; no live worker start or acknowledgement inferred",
   "worker_acknowledgement": {
-    "commit": "6cce98355669f9d9c587035846ec7c0b20daffa0",
-    "type": "bounded hand proof returned; core algebra supported; G1-G4 repairs required"
+    "commit": "476d20bbb4a2e52bf1650fd0d8819d6cd869027e",
+    "type": "repaired hand result accepted within stated scope and binding reading notes"
   },
   "max_active_proof_code_packets_after_intake": 1,
   "scientific_execution_authorized_by_this_board": false,
   "first_return": [
-    "COMPENSATOR_RANGE_AUDIT.md",
+    "CENTRALIZER_COMPONENTS.md",
     "RESUME.md",
-    "short return relay"
+    "short new return relay"
   ],
   "stage_policy": {
     "allowed_now": [
@@ -115,7 +115,7 @@
       "claim_dependencies": [
         "AGY-00"
       ],
-      "status": "HAND_PROOF_REVISION_01A_R1_RELEASED",
+      "status": "HAND_RESULT_01A_ACCEPTED; COMPONENT_TASK_01B_RELEASED",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -128,17 +128,24 @@
       "execution_admission": null,
       "admitted_run_evidence": null,
       "accepted_result": null,
-      "current_microtask": "AGY-01a-r1",
+      "current_microtask": "AGY-01b",
       "released_current_outputs": [
-        "COMPENSATOR_RANGE_AUDIT.md",
+        "CENTRALIZER_COMPONENTS.md",
         "RESUME.md",
-        "short return relay"
+        "short new return relay"
       ],
       "latest_proof_review": {
-        "checkpoint": "6cce98355669f9d9c587035846ec7c0b20daffa0",
-        "decision": "REVISE_WITH_SUPPORTED_CORE_HAND_CALCULATION",
-        "document": "REVIEW_AGY_01A_6CCE_2026_11_09.md",
+        "checkpoint": "476d20bbb4a2e52bf1650fd0d8819d6cd869027e",
+        "decision": "ACCEPT_SCOPED_HAND_RESULT_WITH_READING_NOTES",
+        "document": "REVIEW_AGY_01A_R1_476D_2026_11_09.md",
         "formal_independent_review": null
+      },
+      "accepted_partial_result": {
+        "checkpoint": "476d20bbb4a2e52bf1650fd0d8819d6cd869027e",
+        "scope": "faithful h1 coherent alternative and particular h3 obstruction within supplied chi0 candidate",
+        "review": "REVIEW_AGY_01A_R1_476D_2026_11_09.md",
+        "formal_independent_review": null,
+        "admitted_execution": null
       }
     },
     {
@@ -258,30 +265,30 @@
     "six_control_science_execution": "UNRUN; separate main acceptance and admission outstanding",
     "later_seven_and_four_controls": "UNRUN; outside completed review"
   },
-  "coordination_revision": 11,
+  "coordination_revision": 12,
   "revision_base_commit": "2f690bc486adf2dfc07dd4fd94bf62b6db27bc86",
   "start_document": "START_HERE.md",
   "max_active_microtasks_per_worker_context": 1,
   "dispatch": {
-    "released_microtask": "AGY-01a-r1",
+    "released_microtask": "AGY-01b",
     "parent_task": "AGY-01",
-    "question": "Repair G1-G4 source, volume, global-subgroup and scope issues while preserving the supported h1 witness",
-    "run_ticket": "REVIEW_AGY_01A_6CCE_2026_11_09.md",
-    "accepted_input_ledger_commit": "605294403ecdd26666f3902881558e4bf6b85e93",
-    "accepted_input_ledger_sha256": "98bf93b4be89297901e8f9718f88ea526105b717310df63b75e21deb282713e5",
-    "acceptance_scope": "documentary source intake, map and input ledger with binding reading notes",
+    "question": "Determine all components of the full compact centralizer of the two ordered principal SU2 triples in the supplied E8 embedding",
+    "run_ticket": "RUN_TICKET_AGY_01B.md",
+    "accepted_witness_commit": "476d20bbb4a2e52bf1650fd0d8819d6cd869027e",
+    "accepted_witness_sha256": "81b29726b20218ed2625de06369c7a5d55c13427d85d81ed2888d27a3280a0d3",
+    "acceptance_scope": "scoped hand result with binding reading notes; formal independent review and execution outstanding",
     "allowed_activity": [
-      "read pinned source and reuse existing group witnesses",
-      "derive one bounded faithful Clifford correction witness by hand",
-      "describe prospective verification duties",
-      "save bounded proof and handoff; commit/push; stop"
+      "reuse pinned sources",
+      "derive bounded global group proof by hand",
+      "describe prospective controls",
+      "save proof and compact handoff; commit/push; stop"
     ],
     "required_outputs": [
-      "COMPENSATOR_RANGE_AUDIT.md <=1800 words plus <=70 lines of witness equations",
+      "CENTRALIZER_COMPONENTS.md <=1500 words plus <=60 witness-equation lines",
       "RESUME.md <=700 words",
-      "return relay <=250 words"
+      "new return relay <=250 words"
     ],
-    "stop_condition": "Return bounded repaired proof, handoff and short new relay; stop for review",
+    "stop_condition": "Return bounded proof or precise unresolved global step; stop for review",
     "next_microtask_released": false,
     "scientific_execution_authorized": false
   },
