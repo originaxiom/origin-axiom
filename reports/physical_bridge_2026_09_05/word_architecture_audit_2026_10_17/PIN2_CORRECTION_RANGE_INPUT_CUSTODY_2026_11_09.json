@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-09",
+  "status": "open input-audit lead and author hand calculation",
+  "scientific_execution": false,
+  "independent_review": null,
+  "source_pins": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PIN2_COMPENSATOR_COHERENCE_AND_ELECTROMAGNETIC_PHASE.md",
+      "commit": "be1b2e92e64eb488870ec1b27a3b0841fd026845",
+      "sha256": "fc67d4446b11f54c731b7e7aac56b496e501d5fa397040363de6c8074909a3b9"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/FULL_E8_COMPENSATOR_LIFT_AND_REGISTER_TRANSPORT.md",
+      "commit": "be1b2e92e64eb488870ec1b27a3b0841fd026845",
+      "sha256": "6012816683f17ac83e7d3bdb4f6d8b987ec8155ee2caa09ce651dbf0b194ed4c"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ELECTROWEAK_TWO_TRIPLE_PHYSICAL_KERNEL.md",
+      "commit": "be1b2e92e64eb488870ec1b27a3b0841fd026845",
+      "sha256": "871529dd81603e1a70126f6ee518ae5c2758c107cf7e9fff62ae96f646a0813f"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/OPEN_PIN2_CORRECTION_BEYOND_THE_CHOSEN_EM_CIRCLE_2026_11_09.md",
+      "sha256": "56b948a9b9b53f5eeec9242c57b3e0dd3d79751195dba1c705118d6060230aa8"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_AND_MAIN_2026-11-09_PIN2_CORRECTION_RANGE_INPUT_NOTE.md",
+      "sha256": "e7c97973692eab43237e19627065a516bd93fb5ef264133503a11ecec1c88d7a"
+    }
+  ],
+  "scoped_connected_calculation": "SU4 square condition implies one-plus-three spectrum up to conjugacy and central sign",
+  "open_witness_duties": [
+    "real orthogonal five-space frame",
+    "Spin16 to E8 central kernel",
+    "actual orientation sign of source A",
+    "faithful vector and both spinor-product actions",
+    "complete Pin2 relations and scalar/flavour gluing",
+    "unbroken gauge algebra and physical readout for any additional phase"
+  ],
+  "new_ledger_task_released": false,
+  "foundation_input_reduction_certified": false
+}
