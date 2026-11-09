@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-09",
+  "checkpoint": "8ca2a179e344822b5d1d1bb9e1e41fccef813fc6",
+  "decision": "REVISE",
+  "resolved_findings": [
+    "R3 original chosen-circle and connected-component classification",
+    "R7 three physical source hashes"
+  ],
+  "remaining_findings": [
+    "R1",
+    "R2",
+    "R4",
+    "R5",
+    "R6"
+  ],
+  "scientific_execution": false,
+  "activity": "source comparison and Git/hash metadata",
+  "artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+      "sha256": "19bbd36f723fe48bd1df36559b2af19bdc855e9719dfc94ac25684431666c935",
+      "whitespace_words": 1495
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md",
+      "sha256": "73328314d110c009d73bffd067a24b139c7a6359b2bb0b13666d3725a3152d69",
+      "whitespace_words": 557
+    },
+    {
+      "path": "relays/AGY_TO_PHYSICAL_2026-11-09_AGY_00B2A_CANDIDATE_INPUT_LEDGER_AND_RESUME.md",
+      "sha256": "8d449671b7e08013db129b7bebb8d27c0e8846cbad1d76951d7bc7473d0bbe5f",
+      "whitespace_words": 206
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CLAIM_DEPENDENCIES.md",
+      "sha256": "eb68f876fdf5b842c471738d7fc1c672f685db1a552d30ad669d7f1dba02802a",
+      "whitespace_words": 6590
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/MODEL_MANIFEST.md",
+      "sha256": "811956e0ffc5ca9f141c57e6eb5e98bc576aa5b8e7fe18909c4fc2cd9136ebdb",
+      "whitespace_words": 4455
+    }
+  ]
+}

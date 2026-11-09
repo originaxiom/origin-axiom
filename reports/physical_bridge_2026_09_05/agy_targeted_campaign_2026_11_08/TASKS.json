@@ -8,8 +8,8 @@
   "review_branch": "audit/physical-bridge-2026-09-05",
   "delivery_channel": "versioned repository relay; no live worker start or acknowledgement inferred",
   "worker_acknowledgement": {
-    "commit": "ac089712315053ad4704e21e14b889cc2a24279e",
-    "type": "source-only input ledger return; revision required"
+    "commit": "8ca2a179e344822b5d1d1bb9e1e41fccef813fc6",
+    "type": "source-only ledger update predating first review; partial corrections retained"
   },
   "max_active_proof_code_packets_after_intake": 1,
   "scientific_execution_authorized_by_this_board": false,
@@ -97,6 +97,22 @@
         "decision": "REVISE",
         "document": "REVIEW_AGY_00B2A_AC089_2026_11_09.md",
         "scope": "seven grouped source, representation and source-hash corrections"
+      },
+      "input_ledger_latest_intake": {
+        "checkpoint": "8ca2a179e344822b5d1d1bb9e1e41fccef813fc6",
+        "decision": "REVISE",
+        "document": "REVIEW_AGY_00B2A_8CA2_INTAKE_2026_11_09.md",
+        "resolved_findings": [
+          "R3 original scope",
+          "R7"
+        ],
+        "remaining_findings": [
+          "R1",
+          "R2",
+          "R4",
+          "R5",
+          "R6"
+        ]
       }
     },
     {

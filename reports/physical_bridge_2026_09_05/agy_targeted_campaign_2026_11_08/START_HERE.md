@@ -9,7 +9,9 @@ policy. Do not attempt the whole campaign in one response or run.
 
 The source ledger at ac089712315053ad4704e21e14b889cc2a24279e needs
 seven grouped corrections. Read REVIEW_AGY_00B2A_AC089_2026_11_09.md.
-Correct the ledger and its compact summaries using the existing sources.
+The newer8ca2 intake predates that review and resolves the source hashes
+and original circle-range item. Read REVIEW_AGY_00B2A_8CA2_INTAKE_2026_11_09.md.
+Correct the remaining ledger findings using the existing sources.
 The24 half-root and18 up coefficients count different representations.
 Retain the actual vector carrier, coherent alternatives and review grades.
 Return ledger<=1500 words, handoff<=700 and relay<=250, commit/push and
