@@ -105,6 +105,20 @@ which the condition map (each open condition with the rows it blocks) is the wor
 (`docs/workdesk/`, P-420), which is what the proposal's rule 1 names. If the owner means another panel, the map's
 rules are unchanged: generated from the graph at a named commit, nothing typed.
 
+## R8 — what "self-consistent" means
+
+**The seat's question:** of four meanings — a fixed point of the moves, a stationary point of a functional, a limit of
+the family, or a closed loop in which the configuration's own numbers decide which configurations are allowed — which
+is meant. **The owner's words (same day, later):**
+
+> "yes the closed loop"
+
+**Ruling:** "one self-consistent outcome" (R2) means the closed loop. The seat's statement of it, with what each link
+must prove, what the record already holds against the easy versions, and six data-free tests, is
+`THE_CLAIM_STATED_THE_CLOSED_LOOP.md`. Its status is POSTULATED; its main finding is that the record today holds a
+line and not a loop — no quantity computed downstream constrains a choice upstream — so the open construction is a
+back-edge.
+
 ## The roles
 
 The owner, the same day: this seat "will serve as an advisor for cc - the banking seat"; when cc is ready the reports
