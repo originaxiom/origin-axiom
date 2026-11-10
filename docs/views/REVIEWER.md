@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1567** |
-| words of findings prose | **1,336,381** |
+| research arcs with findings | **1568** |
+| words of findings prose | **1,338,309** |
 | test lock files referenced | **936** |
-| arcs carrying an authored verdict | **1567** (100.0 %) |
+| arcs carrying an authored verdict | **1568** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1076 |
+| PROVED | 1077 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1865`** (677 words, 3 locks)  
-THE PLANTED VIOLATIONS, RUN ON MAIN BY THE ADVISOR SEAT'S OWN SCRIPT (main at 30dd1fea7, after B1862 to B1864): the five controls caught; of the 21 planted violations the script automates, 14 still pass undetected and 7 are reported caught, where on 2026-11-07 all 21 passed; six of the seven are caught by a gate that now does the work (a committed deletion from the log, twice; an edit of a sealed file; a deleted sealed file; a ledger hash changed by hand; a seal under another name committed with its results), and the seventh, the shallow clone, is reported caught only because today the full and the shallow clone agree -- no gate says a clone is shallow; the fourteen are the rest of the enforcement package, by finding G5 to G10, G14 and L7. 0 of 19.  
-`B1865_the_planted_violations_run_on_main/FINDINGS.md`
+**PROVED — `B1866`** (1928 words, 0 locks)  
+THE AGY LANE'S RELAY ON THE REGISTER-TO-FIELD JOIN, SCRUTINISED AT THE OWNER'S WORD (P-753; before anything of WP-2.2 or WP-3.2 is banked): where main can test the relay it is right -- ten of its claims verified by main's own computation, none found wrong: every move keeps the odd spin structure and the trivial character and permutes the three non-trivial sign characters; one background's pair of lines has an orbit of three and a stabiliser of index 3; the two coherent lifts are one choice (in E8, -1 of SU(4) is -1 of Spin(10), on all 240 roots) and neither is kept by every move, so main's exploratory note in the programme is WITHDRAWN; on main's triplet the moves generate a group of order 96 with scalars of order 4 and projective image S4, S^4 = -1, so it is a module of the double cover that does not factor through SL(2, Z); among the 24 twists of the symmetric square of the level-2 doublet it is the odd twist chi_15 alone, and no even twist has order 96 (24, 48, 72, 144); it is the modular representation of the conjugate of (theta_2^2, theta_3^2, theta_4^2)/eta^3, by two monomial matrices of eighth roots. Main adds two things the relay does not say: the triplet IS a symmetric square over the braid group, of a doublet on a further double cover, and projectively of the level-2 doublet; and the lanes' one-form triplet induced over the three backgrounds (a group of order 24) is the weave's triplet after one odd character, chi_9 -- one projective representation. Not verified, the lane's: which mode of its operator carries which character, the splitting on one background, the table over 248 dimensions. WP-2.2 and WP-3.2 stay open, each with a sharper question; for the join it is whether that odd character is physical. 0 of 19.  
+`B1866_the_agy_lanes_join_relay_scrutinised/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  

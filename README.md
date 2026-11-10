@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.64) of 2026-11-10 |
-| arcs with a verdict | 1567: 1076 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
+| arcs with a verdict | 1568: 1077 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
 | points in the register | 763: 262 open (queued, leads, waiting for the owner), 501 closed |
 | the last review | Review 77 (2026-11-10), anchor `10641a1b2` |
-| the last landing | S306o (continued) THREE SEATS HARVESTED AGAIN; THE ADVISOR SEAT'S PLANTED-VIOLATION SCRIPT RUN ON MAIN (B1865) (2026-11-10) |
+| the last landing | S306o (continued) THE AGY LANE'S RELAY ON THE REGISTER-TO-FIELD JOIN, SCRUTINISED AT THE OWNER'S WORD (B1866; P-753) (2026-11-10) |
 <!-- STATE:END -->
 
 ## Start here

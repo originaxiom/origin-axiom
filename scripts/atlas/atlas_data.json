@@ -15954,6 +15954,19 @@
    "status": "open",
    "domain": "dynamics"
   },
+  "B1866": {
+   "slug": "the agy lanes join relay scrutinised",
+   "motifs": [
+    "closing",
+    "coupling",
+    "golden"
+   ],
+   "refs": [],
+   "obstacle": "observable",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B186": {
    "slug": "hyperbolicity certification",
    "motifs": [
