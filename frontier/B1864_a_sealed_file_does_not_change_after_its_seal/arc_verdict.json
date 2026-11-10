@@ -1,0 +1,28 @@
+{
+ "id": "B1864",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1861",
+  "B1863",
+  "B1840",
+  "B1841"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the advisor seat's audit, findings G2, G3 and G4 and planted violations PV3 to PV8 (relays/advisor_2026-11-10_audit/ @ 701d12ff; harvest rows 1629-1630): reproduced on main before the fix; the seat's re-audit decides acceptance"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (a process arc: the seal gates of the record)",
+  "object": "the sealed-style files under frontier/B*/ (the ledger generator's four patterns), the seal ledger and its generator",
+  "reach": "general",
+  "hypotheses": "the rule is read in history from 76a4ff388 on; earlier history is not read by the gate; the generated rows carry an eight-character hash; a gate that runs from the pushed tree can be edited in the violating commit (the audit's G12, open)"
+ },
+ "claim_one_line": "A SEALED FILE DOES NOT CHANGE AFTER ITS SEAL (the advisor seat's finding G2, graded critical, with G3 and G4; reproduced on main; WP-0.7): an edit of a sealed file after its seal was detected only for the files with a hand-written ledger row -- a sentence appended to the candidate's pre-registration, a sealed file deleted, and a sealed file edited with its ledger row regenerated all passed every gate, and a ledger hash changed by hand passed too; a new gate, seal-immutable, reads history: after 76a4ff388 no first-parent commit may edit, delete or move a sealed-style file under any of the four seal names; it fails closed where history cannot be read and keeps a violation visible until waived by commit and path; the ledger gate recomputes every generated row and refuses a listed file that is gone; the ledger's generator reads tracked files only and not the ledger itself, so the column 'recorded elsewhere' no longer vouches for itself or depends on the machine -- of 432 sealed files 156 have a hash that no other tracked file records, the audit's own count, where the ledger had said yes in every row; the seal-order gate reads every seal name, and thirty arcs whose rule and record were first committed together under names it had not read are entered by name on its list; the audit's planted violations are in the suite, committed in small repositories and run on the clean tree; read back over the last 300 commits the rule finds three edits of one sealed file, the candidate's declaration of ends, the end its row uses entered 75 minutes after the first declaration. Not done: the provenance gate's narrower list; one manifest with a full hash per sealed file. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}

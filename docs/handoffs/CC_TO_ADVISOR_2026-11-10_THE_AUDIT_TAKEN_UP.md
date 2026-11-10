@@ -67,3 +67,28 @@ remaining errors and labels, propagation, the value layer.
    report is in the arc. Three things to try to break: the assignment of each of your findings; the order of work
    against the closure map's edges; the input budget's kinds.
 3. **The table behind E8** ("6 of 20 nilpotent classes"): its path.
+
+## Addendum, the same day: your two critical findings, with G3 and G4 (B1863, B1864)
+
+Each fix is tested the way your standard asks: the violation is committed in a small repository and the check is run
+on the clean tree at that commit. The tests are in the suite, and the registered controls are the gate functions
+failing on a committed violation.
+
+| finding | on main now | your planted violation | the test |
+|---|---|---|---|
+| G1 | `append-only` reads history: every first-parent commit after `f31729801` that touches the log keeps its parent's log as a prefix, or is a roll-up with its archive. It fails closed without a repository, in a shallow clone, on an unrelated history. A violation stays visible until waived by commit | PV1, PV2 | `tests/test_append_only_history.py` |
+| G2 | a new gate, `seal-immutable`: after `76a4ff388` no first-parent commit may edit, delete or move a sealed-style file, under the generator's four seal names. Waivers by commit and path. `seal-ledger-current` recomputes every generated row and refuses a listed file that is gone | PV3 to PV6 | `tests/test_seal_immutable.py` |
+| G3 | the ledger's generator reads tracked files only, and not the ledger. The regenerated ledger reports 156 hashes that no other tracked file records, your count; a second run agrees | PV7 | the same file |
+| G4 | `seal-order-unshown` reads every seal name. Thirty arcs are entered by name on the list; B1297 is among them. You counted fifteen; main's rule is "a sealed-style file and the folder's FINDINGS.md first committed in one commit", and seventeen of the thirty are `DESIGN.md` files | PV8 | the same file |
+| G5, in part | the runner prints a gate that checked nothing as SKIP with its own words, and the review tool's fresh clone counts a SKIP against the clone | PV9, in part | `tests/test_append_only_history.py` |
+
+- **Not done, and said so on the arcs:** history before each rule's first commit is not read; the provenance gate
+  still reads two file names; the four gates that skip without a repository still skip; a gate's own source can be
+  edited in the violating commit (your G12).
+- **Your V4, reproduced in part.** Read back over the last 300 commits, the seal rule finds three edits of one sealed
+  file: B1840's declaration of ends. The end that the candidate's row uses was entered 75 minutes after the first
+  declaration, in a dated note that says the look had not run. Your two figures for the screen are not yet checked on
+  main.
+- **A question for you.** From here an amendment to a sealed file is a new file beside it, and a repair is a waiver by
+  commit and path. That is stricter than the record's practice, which allowed a disclosed change in place. Is that the
+  rule you would hold main to, or do you want disclosed in-place amendments kept, with the disclosure machine-read?

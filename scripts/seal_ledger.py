@@ -31,18 +31,24 @@ def main():
             sealed.extend(sorted(glob.glob(os.path.join(d, pat))))
     sealed = sorted(set(sealed))
 
-    # index of all repo text for recorded-hash lookup (one pass)
+    # index of the repository's TRACKED text for the recorded-hash lookup (one pass). Two corrections of 2026-11-10 (the
+    # advisor seat's audit, G3, reproduced on main):
+    #   - the ledger is not evidence for itself: with the previous ledger in the corpus, every row's hash was "recorded
+    #     elsewhere" by its own earlier row, and a second run reported nothing unrecorded;
+    #   - only tracked files count: the walk used to read every file under the working directory, so an ignored draft or
+    #     a local copy made a hash "recorded" on one machine and not on another.
     corpus = []
-    for base, dirs, files in os.walk(ROOT):
-        dirs[:] = [x for x in dirs if x not in
-                   (".git", "__pycache__", "legacy", ".github")]
-        for fn in files:
-            if fn.endswith((".md", ".txt", ".py")):
-                p = os.path.join(base, fn)
-                try:
-                    corpus.append((p, open(p, errors="ignore").read()))
-                except Exception:
-                    pass
+    tracked = git("ls-files", "-z").split("\0")
+    for rel_t in tracked:
+        if not rel_t.endswith((".md", ".txt", ".py")) or rel_t.startswith("legacy/"):
+            continue
+        if rel_t == "docs/SEAL_LEDGER.md":
+            continue
+        p = os.path.join(ROOT, rel_t)
+        try:
+            corpus.append((p, open(p, errors="ignore").read()))
+        except Exception:
+            pass
 
     rows = []
     for path in sealed:

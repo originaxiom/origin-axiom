@@ -110,3 +110,44 @@ listed test whose order now shows.*
 | B1066 | `frontier/B1066_lane3_nomination` | `74d87f311` | 2026-08-13 |
 | B1102 | `frontier/B1102_exact_hypercharge_solve` | `6b206a14c` | 2026-08-21 |
 | B1104 | `frontier/B1104_fourd_suspension` | `6683c0a28` | 2026-08-21 |
+
+## Added 2026-11-10 (B1864): the same class under the other seal names (30)
+
+*The advisor seat's audit, finding G4, reproduced on main. The gate read one file name, `PREREGISTRATION.md`. A test
+sealed under another name (`PREREG.md`, `DESIGN.md`, `SEALED_*.md` and their variants) and first committed together
+with its record was in the class all along and outside the gate's sight. The gate now reads every seal name the
+ledger's generator knows, and these thirty are entered once, by name. What the class says and does not say is as
+above: git cannot show the order, and that is all it shows. From here the list may only shrink, as before.*
+
+| test | folder and sealed file | the one commit | date |
+|---|---|---|---|
+| B597 | `frontier/B597_d1_dictionary`: `PREREGISTRATION_ADOPTED.md` | `0bca16e6c` | 2026-07-14 |
+| B609 | `frontier/B609_sealed_values`: `SEALED_VALUE_TABLE.md` | `031a5db73` | 2026-07-15 |
+| B629 | `frontier/B629_interaction_values`: `SEALED_INTERACTION_VALUES.md` | `eba209cbb` | 2026-07-15 |
+| B633 | `frontier/B633_b615r_integration`: `DESIGN.md` | `fb8927f8f` | 2026-07-15 |
+| B669 | `frontier/B669_track_h_adjudication`: `PREREG_H1.md` | `32ccc8056` | 2026-07-17 |
+| B675 | `frontier/B675_hcusp_sweep`: `PREREG_ADDENDUM_OUTCOMES.md` | `8e0540b68` | 2026-07-18 |
+| B698 | `frontier/B698_the_meeting_probed`: `PREREG_LEG_A.md` | `746bd23c1` | 2026-07-18 |
+| B699 | `frontier/B699_two_object_surgery`: `PREREG_TWO_OBJECT.md` | `af6dcf2be` | 2026-07-19 |
+| B700 | `frontier/B700_fiber_functor`: `PREREG_CELL1.md` | `4892aea32` | 2026-07-19 |
+| B706 | `frontier/B706_rung2_sm_freedom`: `PREREG.md` | `427cfd9f3` | 2026-07-19 |
+| B708 | `frontier/B708_kim_seam`: `PREREG.md` | `174afae4c` | 2026-07-19 |
+| B743 | `frontier/B743_rung1_widened`: `PREREG_RUNG1_WIDENED.md` | `ca872cf5a` | 2026-07-21 |
+| B756 | `frontier/B756_remaining_doors`: `PREREG_REMAINING_DOORS.md` | `894e36e03` | 2026-07-22 |
+| B933 | `frontier/B933_spinor_hejhal_design`: `DESIGN.md` | `7148c7028` | 2026-08-06 |
+| B1137 | `frontier/B1137_regulator_probe`: `PREREG.md` | `d192367e9` | 2026-08-22 |
+| B1244 | `frontier/B1244_gate5_audit`: `PREREG.md` | `8b6c380fc` | 2026-09-03 |
+| B1297 | `frontier/B1297_the_spectral_cover_index`: `PREREG.md`, `PREREG.sha256`, `PREREG_C4.md` | `120d272ac` | 2026-09-08 |
+| B1298 | `frontier/B1298_the_lift_fork`: `DESIGN.md` | `7f6262089` | 2026-09-08 |
+| B1299 | `frontier/B1299_the_period_2_duality`: `DESIGN.md` | `5a70e8cd4` | 2026-09-08 |
+| B1302 | `frontier/B1302_the_sibling_m202`: `DESIGN.md` | `31dd52b91` | 2026-09-08 |
+| B1303 | `frontier/B1303_the_sm_closings_z_prime`: `DESIGN.md` | `eefb17144` | 2026-09-08 |
+| B1304 | `frontier/B1304_the_audit_seats_4d_model`: `DESIGN.md` | `e324df060` | 2026-09-08 |
+| B1305 | `frontier/B1305_the_cloud_156_178`: `DESIGN.md` | `dd99f07ce` | 2026-09-08 |
+| B1307 | `frontier/B1307_the_harvest_gate`: `DESIGN.md` | `eb9db7fa9` | 2026-09-08 |
+| B1320 | `frontier/B1320_phase2_arc0_pw_count`: `DESIGN.md` | `048d16fba` | 2026-09-09 |
+| B1321 | `frontier/B1321_l205_the_siblings_localized_count`: `DESIGN.md` | `fe0b1c75e` | 2026-09-09 |
+| B1322 | `frontier/B1322_l204_verified`: `DESIGN.md` | `c4cc5b291` | 2026-09-09 |
+| B1323 | `frontier/B1323_the_genesis_upgrades`: `DESIGN.md` | `b9157703c` | 2026-09-09 |
+| B1324 | `frontier/B1324_arc_b_and_the_dictionary`: `DESIGN.md` | `abb16e858` | 2026-09-09 |
+| B1798 | `frontier/B1798_the_six_graded_under_the_class_choosing_null`: `DESIGN.md` | `c6038b155` | 2026-10-28 |

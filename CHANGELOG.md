@@ -1,5 +1,18 @@
 # Changelog
 
+## S306o (continued) A SEALED FILE DOES NOT CHANGE AFTER ITS SEAL (B1864; the audit's second critical finding, G2, with G3) (2026-11-10)
+
+- **What was wrong.** An edit of a sealed file after its seal was detected only for the few files with a hand-written ledger row. A sentence appended to the candidate's pre-registration and committed passed every gate. So did deleting a sealed file, and editing one while regenerating its ledger row. A ledger hash changed by hand passed too.
+- **A new gate, `seal-immutable`, reads history.** After `76a4ff388` no first-parent commit may edit, delete or move a sealed-style file, under any of the four seal names the ledger's generator knows. A seal is added once; an amendment is a new file beside it.
+  - It fails closed where history cannot be read. A violation stays visible until the owner waives it by commit and path.
+- **The ledger gate recomputes every generated row** and refuses a listed file that is gone.
+- **The ledger no longer vouches for itself.** Its generator read the previous ledger, and every untracked file on the machine, as evidence that a hash was recorded elsewhere. It now reads tracked files only, and not the ledger. The regenerated ledger: 432 rows; unrecorded single-commit 145; unrecorded amended 11; a second run agrees.
+- **Read back over the last 300 commits, the rule finds three edits of one sealed file:** the candidate's declaration of ends (B1840). The end that the candidate's row uses was entered 75 minutes after the first declaration, in a dated note that says the look had not run. This reproduces the factual core of the audit's finding V4; its two figures for the screen are not yet checked.
+- **71 of the 432 sealed-style files had been outside the older gates' list of two file names.** They are inside the new gate and the ledger gate.
+- **The seal-order gate reads every seal name** (the audit's G4). Thirty arcs whose rule and record were first committed together, under names it had not read, are entered by name on `docs/SEAL_ORDER_UNSHOWN.md`; B1297 is among them. The provenance gate still reads the narrower list.
+- The audit's planted violations PV3 to PV8 are in the suite (`tests/test_seal_immutable.py`), the first three committed in small repositories and run on the clean tree.
+- 0 of 19.
+
 ## S306o (continued) THE APPEND-ONLY GATE READS HISTORY (B1863; the audit's first critical finding, G1) (2026-11-10)
 
 - **What was wrong.** The gate compared the working progress log with the same file at HEAD, so it saw an uncommitted change only. A committed deletion passed, and at the push hook's clean checkout the gate could not fail at all.

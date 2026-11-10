@@ -18870,3 +18870,19 @@ caught.
 
 This is the first of the two faults the audit graded critical. The second, changing a sealed document after its seal,
 is next. 0 of 19.
+
+## 2026-11-10 — S306o (continued): the seal that nothing was guarding
+
+A test in this project is meant to be fixed in writing before it is run: the rule is "sealed", and the result is read
+against it. The advisor seat's audit showed that for most sealed documents nothing checked whether the document had
+been changed afterwards. One could add a sentence to a sealed rule, save it, and every safeguard stayed green.
+
+A new safeguard now reads each sealed document's history. Once sealed, a document may not be edited, deleted or moved.
+A later thought goes in a new file beside it. The audit's test cases are run automatically and are all caught.
+
+Reading the rule back over the last few weeks found one sealed document that had been changed after it was first
+saved: the list of options for the current candidate. The option the candidate ended up using was added an hour and a
+quarter after the list was first written, with a note saying the test had not yet been run. That does not make the
+candidate wrong. It does mean its record has to carry this plainly, and that until today nothing would have noticed.
+
+Both faults the audit graded critical are now closed on main and wait for that seat's own re-check. 0 of 19.

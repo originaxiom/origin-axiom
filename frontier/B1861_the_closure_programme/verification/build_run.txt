@@ -58,11 +58,11 @@ written: PROGRAMME.md, PROGRAMME.json
  "candidate_frame_joints": 13,
  "audit_findings": 73,
  "audit_findings_by_state": {
-  "OPEN": 35,
-  "READER": 14,
+  "OPEN": 34,
+  "READER": 12,
   "REPRODUCED": 7,
   "PARTLY FIXED": 11,
-  "FIXED": 6
+  "FIXED": 9
  },
  "relayed_rulings": 7,
  "headline_results_that_are_conditional_results": [

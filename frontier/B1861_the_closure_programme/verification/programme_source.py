@@ -314,12 +314,12 @@ def F(ids, wp, entries):
 F("G", "WP-0.7", [
     ("G1", "the append-only gate cannot see a committed change (graded critical)", "FIXED",
      "B1863: the gate reads history. Every first-parent commit after the rule's first commit that touches the log must keep its parent's log as a prefix, or be a roll-up with its archive; it fails closed where history cannot be read; a violation stays visible until waived by name. The audit's two planted violations are in the suite, each committed in a small repository and run on the clean tree, and the registered control is the gate function failing on one"),
-    ("G2", "an edit after the seal is undetected for most sealed files (graded critical)", "REPRODUCED",
-     "main's own reading of the gate: it recomputes the digests of the ledger's hand-written rows only. main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a sentence appended to the candidate's pre-registration, a sealed file deleted, a sealed file edited with its ledger row regenerated, and one generated row's hash changed by hand; no gate failed on any of the four"),
-    ("G3", "the seal ledger's 'recorded elsewhere' column certifies itself", "READER",
-     "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: the generated rows removed and the ledger regenerated twice gave 142 unrecorded, then 0, as the audit says"),
-    ("G4", "the seal-order gate sees one file name only", "READER",
-     "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: an arc whose seal file has another name, first committed with its findings, passed; the same arc with the gate's own file name was refused"),
+    ("G2", "an edit after the seal is undetected for most sealed files (graded critical)", "FIXED",
+     "B1864: a new gate reads history and refuses any commit after its first that edits, deletes or moves a sealed-style file, under every seal name the ledger's generator knows; it fails closed where history cannot be read; a violation stays visible until waived by commit and path. The ledger gate recomputes every generated row and refuses a listed file that is gone. The audit's four planted violations are in the suite, the first three committed in small repositories and run on the clean tree"),
+    ("G3", "the seal ledger's 'recorded elsewhere' column certifies itself", "FIXED",
+     "B1864: the ledger's generator reads tracked files only and not the ledger, so a hash is recorded elsewhere only if another tracked file holds it. The corrected ledger: of 432 sealed files, 156 have a hash that no other tracked file records, the audit's own count; two runs agree, and the planted test is in the suite. Main's first correction removed the ledger alone and was incomplete: the generator was also reading every untracked file under the working directory"),
+    ("G4", "the seal-order gate sees one file name only", "FIXED",
+     "B1864: the seal-order gate reads every seal name the generator knows. Thirty arcs whose rule and record were first committed together under names it had not read (the audit's example among them) are entered by name on the list, and the planted test is in the suite. The new seal gate and the ledger gate read every name too. The provenance gate still reads the narrower list"),
     ("G5", "'gates fail closed' is false for many gates", "PARTLY FIXED",
      "B1863: the append-only gate fails closed without a repository, and the runner prints a gate that checked nothing as SKIP with its own words (the review tool's fresh clone counts it against the clone). Left: the four gates that still skip there, and the four deletions that pass (the identification baseline, the retracted-phrase registry, every arc test, an emptied law map and theorem ledger). Main's reader's run corrected one detail: two gates the audit lists do fail closed"),
     ("G6", "four gates read today's date", "READER",
@@ -413,7 +413,8 @@ F("V", "WP-0.2", [
     ("V1", "every specificity null has an unpriced window", "OPEN", ""),
     ("V2", "the headline fits omit their error floor", "OPEN", ""),
     ("V3", "evidence lives in an ignored directory", "OPEN", ""),
-    ("V4", "the candidate has a forking path", "OPEN", ""),
+    ("V4", "the candidate has a forking path", "REPRODUCED",
+     "in part, by main's own reading of the declaration's history with the new seal gate: three later commits edited the declaration of ends after it was first committed, and the end that the candidate's row uses was entered 75 minutes after the first declaration, in a dated note that says the look had not yet run. Not yet checked: the audit's two figures for the screen under the plan's committed arms, and its remark on the fitted factor"),
     ("V5", "three looks missing from the look ledger; two conventions in one pipeline", "OPEN", ""),
 ])
 F("X", "WP-0.10", [

@@ -35,7 +35,8 @@ cannot be checked, mark MANUAL and name the mechanism that surfaces it at the de
 
 | practice | enforcement | mechanism |
 |---|---|---|
-| `PROGRESS_LOG.md` is append-only (one constitutional roll-up exception) | **GATED** | `append-only` |
+| `PROGRESS_LOG.md` is append-only (one constitutional roll-up exception) | **GATED** | `append-only` — reads history from 2026-11-10 (B1863): every commit after `f31729801` that touches the log. Before, it compared the working file with HEAD's and could not fail on a committed change (the advisor seat's audit, G1) |
+| A sealed-style file does not change after its seal: no commit edits, deletes or moves it; an amendment is a new file beside it; a repair is waived by commit and path with the owner's reason | **GATED** | `seal-immutable` — history, from `76a4ff388` (2026-11-10, B1864; the audit's G2). `seal-ledger-current` recomputes every generated row |
 | No forbidden artifacts tracked (archives, CI config, surname-bearing files, loose relays) | **GATED** | `tracked-forbidden` |
 | No AI labels, seat labels, or the owner's surname in public docs | **TESTED** | `tests/test_public_surface_scan.py` |
 | The workdesk is generated from the record at a named commit, loads nothing external, and is never hand-edited (P-420) | **TESTED** | `tests/test_workdesk_builds.py` |
@@ -1176,6 +1177,8 @@ is enforced.
 3. **A post-seal change is disclosed on the arc's own page, with its sealed run or sealed hash kept** (R62-4, S102).
    The seal tool now reports such a change as disclosed and only an undisclosed one as a defect. Run on Review 61's
    window, it found two disclosures that had not reached the page. GATED by the review tool.
+   [2026-11-10, B1864: from `76a4ff388` on, a change to a sealed-style file is also refused by the `seal-immutable`
+   gate unless it is waived there by commit and path. The disclosure on the arc's own page stays required.]
 4. **A main arc that rests on a seat's dossier item declares it, and the gate checks it** (R62-3, B1624). `rests_on_seat`
    accepts `sm:W<n>`. The first run caught B1606 resting on an unverified W19. GATED (`seat-positive-verified`).
 5. **A relay is closed by the recipient's answer, in the ledger's own grammar** (R62-5, B1626). An outbound row closes

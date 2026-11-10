@@ -36,7 +36,7 @@
  "review-core": "tests/test_b1461_governance_delta.py::test_review_core_fails_on_an_entry_without_its_three_lines",
  "review-fires": "tests/test_b1461_governance_delta.py::test_review_fires_past_twice_the_period_unless_waived",
  "seal-digests": "tests/test_gate_failing_paths.py::test_seal_digests_fails_on_a_digest_that_does_not_recompute",
- "seal-ledger-current": "tests/test_gate_failing_paths.py::test_seal_ledger_current_fails_when_a_sealed_file_has_no_row",
+ "seal-ledger-current": "tests/test_seal_immutable.py::test_pv6_a_ledger_row_changed_by_hand_is_refused",
  "seal-provenance": "tests/test_gate_failing_paths.py::test_seal_provenance_fails_on_a_new_seal_without_the_two_halves",
  "seat-positive-verified": "tests/test_gate_failing_paths.py::test_seat_positive_verified_fails_on_an_undeclared_or_unverified_seat_result",
  "seen-first": "tests/test_seen_first_gate.py::test_the_gate_fails_and_passes",
@@ -47,5 +47,6 @@
  "tracked-forbidden": "tests/test_b1290_index_formula.py::test_the_relay_gate_CAN_fail_and_spares_the_sanctioned_location",
  "views-fresh": "tests/test_gate_failing_paths.py::test_views_fresh_fails_when_no_view_moved_since_the_anchor",
  "views-generated": "tests/test_gate_failing_paths.py::test_views_generated_fails_when_a_generator_is_missing",
- "seal-order-unshown": "tests/test_gate_failing_paths.py::test_seal_order_unshown_fails_on_a_new_member_an_addition_and_a_stale_row"
+ "seal-order-unshown": "tests/test_gate_failing_paths.py::test_seal_order_unshown_fails_on_a_new_member_an_addition_and_a_stale_row",
+ "seal-immutable": "tests/test_seal_immutable.py::test_the_gate_itself_fails_on_a_post_seal_edit"
 }

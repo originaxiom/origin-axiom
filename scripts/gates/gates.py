@@ -1127,15 +1127,92 @@ def gate_seal_provenance():
     return True, "ok (every seal from B995 on carries the two halves, is attested with quotes, or is one of the %d frozen before B1464)" % len(SEAL_PROVENANCE_BASELINE)
 
 
+SEAL_PATTERNS = ("PREREG*", "*DESIGN*.md", "SEALED*.md", "DECLARATION.md")     # scripts/seal_ledger.py's own notion of a sealed-style file
+
+
+def sealed_style_files(root=None):
+    """every sealed-style file under frontier/B*/, by the ledger generator's patterns (wider than `sealed_files`, which the
+    provenance and order gates read)"""
+    import glob
+    root = str(root or ROOT); out = set()
+    for pat in SEAL_PATTERNS:
+        for p in glob.glob(os.path.join(root, "frontier", "B*", pat)):
+            if os.path.isfile(p):
+                out.add(os.path.relpath(p, root).replace(os.sep, "/"))
+    return sorted(out)
+
+
 def gate_seal_ledger_current():
     """R55-14 (B1464): docs/SEAL_LEDGER.md is a generated view (scripts/seal_ledger.py); its table must list every
-    sealed-style file on disk. It was ~530 arcs stale for two months with nothing watching it."""
+    sealed-style file on disk. It was ~530 arcs stale for two months with nothing watching it.
+
+    The advisor seat's audit, G2 (2026-11-10; its PV6, reproduced on main): the gate checked only that each path was
+    listed, so a generated row's hash could be changed by hand and pass. Every generated row is now RECOMPUTED from its
+    file; a listed file that is gone fails; and the files required are the generator's own (a seal named PREREG.md or
+    *DESIGN*.md was outside the gate's narrower list)."""
+    import hashlib
     ledger = _read("docs/SEAL_LEDGER.md")
+    rows = dict(re.findall(r"^\| (frontier/B[^ |]+) \| ([0-9a-f]{8}) \|", ledger, re.M))
     listed = set(re.findall(r"^\| (frontier/B[^ |]+) \|", ledger, re.M))
-    missing = [rel for _, rel in sealed_files() if rel not in listed]
+    missing = [rel for rel in sealed_style_files() if rel not in listed]
     if missing:
         return False, "%d sealed file(s) not in the generated table (run scripts/seal_ledger.py): " % len(missing) + ", ".join(missing[:4])
-    return True, "ok (%d sealed files listed)" % len(listed)
+    bad = []
+    for rel, h8 in sorted(rows.items()):
+        f = os.path.join(ROOT, rel)
+        if not os.path.isfile(f):
+            bad.append("%s is listed and is not in the tree" % rel)
+        elif hashlib.sha256(open(f, "rb").read()).hexdigest()[:8] != h8:
+            bad.append("%s: the ledger's hash %s is not the file's" % (rel, h8))
+    if bad:
+        return False, "; ".join(bad[:4])
+    return True, "ok (%d sealed files listed, each row's hash recomputed)" % len(listed)
+
+
+# The advisor seat's audit, G2, graded critical (2026-11-10; its PV3 to PV5, reproduced on main): an edit of a sealed file
+# AFTER its seal was detected for the few files with a hand-written ledger row only. A sentence appended to the candidate's
+# pre-registration and committed passed every seal gate; so did deleting a sealed file, and editing one while regenerating
+# its ledger row. This gate reads history, as the append-only gate does: after SEAL_IMMUTABLE_FROM no commit on main's
+# first-parent line may modify, delete or move a sealed-style file. A seal is ADDED once. An amendment is a new file beside
+# it. An exception is a waiver here that names the commit and the path, with the owner's reason.
+SEAL_IMMUTABLE_FROM = "76a4ff388b719a15af955e6acd3b99ec676d42a0"     # the rule is read in history from this commit on (2026-11-10)
+SEAL_IMMUTABLE_WAIVED = {}                                             # (full sha, path) -> the owner's reason
+
+
+def seal_immutable_problems(repo, root, waived=(), limit=5):
+    """The committed changes to sealed-style files on `repo`'s first-parent line after `root`: (problems, commits read).
+    A pure function of the commit graph. It fails closed where the history cannot be read."""
+    def git(*a):
+        return subprocess.run(["git", "-C", str(repo), *a], capture_output=True, text=True, timeout=120)
+    if git("rev-parse", "--git-dir").returncode != 0:
+        return ["cannot verify: not a git repository"], 0
+    if git("cat-file", "-e", root + "^{commit}").returncode != 0:
+        return [f"cannot verify: the rule's first commit {root[:9]} is not in this clone (shallow or partial)"], 0
+    if git("merge-base", "--is-ancestor", root, "HEAD").returncode != 0:
+        return [f"cannot verify: HEAD does not descend from the rule's first commit {root[:9]}"], 0
+    specs = [":(glob)frontier/B*/" + pat for pat in SEAL_PATTERNS]
+    commits = git("log", "--first-parent", "--reverse", "--format=%H", f"{root}..HEAD", "--", *specs).stdout.split()
+    verbs = {"M": "edits", "D": "deletes", "R": "moves", "T": "changes the type of", "C": "copies over"}
+    problems = []
+    for c in commits:
+        out = git("diff-tree", "--no-commit-id", "--name-status", "-r", "-M", f"{c}^", c, "--", *specs).stdout
+        for line in out.splitlines():
+            parts = line.split("\t")
+            if len(parts) < 2 or parts[0].startswith("A"):
+                continue                               # a new sealed file is a seal
+            path = parts[1]                            # for a move, the sealed file's own (old) path
+            if (c, path) in waived:
+                continue
+            problems.append(f"{c[:9]} {verbs.get(parts[0][0], 'changes')} the sealed file {path}")
+    return problems[:limit], len(commits)
+
+
+def gate_seal_immutable():
+    """A sealed-style file does not change after its seal (the advisor seat's audit, G2). See the note above."""
+    problems, n = seal_immutable_problems(ROOT, SEAL_IMMUTABLE_FROM, SEAL_IMMUTABLE_WAIVED)
+    if problems:
+        return False, "; ".join(problems)
+    return True, f"ok ({n} commit(s) since {SEAL_IMMUTABLE_FROM[:9]} touch a sealed-style file, each only adding one)"
 
 
 # R76-2 (P-601; Review 74's R74-9): the sealed tests whose order git cannot show -- the rule (PREREGISTRATION.md) and the
@@ -1152,16 +1229,30 @@ SEAL_ORDER_UNSHOWN_CEILING = frozenset((
     "B790", "B821", "B822", "B824", "B825", "B830", "B839", "B849", "B850", "B936", "B1065", "B1066", "B1102",
     "B1104",
 ))
+# Added once, 2026-11-10 (B1864; the advisor seat's audit, G4): the same class read under every seal name. These thirty were in
+# it all along and outside the gate's sight. The ceiling still may only shrink from here.
+SEAL_ORDER_UNSHOWN_CEILING = SEAL_ORDER_UNSHOWN_CEILING | frozenset((
+    "B597", "B609", "B629", "B633", "B669", "B675", "B698", "B699", "B700", "B706", "B708", "B743", "B756", "B933", "B1137",
+    "B1244", "B1297", "B1298", "B1299", "B1302", "B1303", "B1304", "B1305", "B1307", "B1320", "B1321", "B1322", "B1323",
+    "B1324", "B1798",
+))
 SEAL_ORDER_SHOWN_OFF_MAIN = {"B1670": ("ad3dd5d44", "fecdd63bd")}
 SEAL_ORDER_DOC = "docs/SEAL_ORDER_UNSHOWN.md"
 
 
 def seal_order_class(rev="HEAD"):
-    """every sealed test on `rev` (an arc folder under frontier/ holding PREREGISTRATION.md) whose rule and record were
-    first committed in one commit: arc id -> that commit. A rename keeps the file's first commit (the panel's rule in
-    export_panel_data.frontier_events); --full-history keeps a side branch's commits where they were made."""
+    """every sealed test on `rev` whose rule and record were first committed in one commit: arc id -> that commit. A sealed
+    test is an arc folder under frontier/ holding a sealed-style file, and its record is the folder's FINDINGS.md. A rename
+    keeps the file's first commit (the panel's rule in export_panel_data.frontier_events); --full-history keeps a side
+    branch's commits where they were made.
+
+    The advisor seat's audit, G4 (2026-11-10; its PV8, reproduced on main): this read one file name, PREREGISTRATION.md.
+    A test sealed as PREREG.md, DESIGN.md or SEALED_*.md and first committed with its results was not in the class and not
+    on the list. It now reads every seal name the ledger's generator knows (SEAL_PATTERNS)."""
+    import fnmatch
+    specs = ["frontier/*/" + pat for pat in SEAL_PATTERNS] + ["frontier/*/FINDINGS.md"]
     rc, raw = _git("log", "--full-history", "--no-merges", "--topo-order", "--reverse", "-M", "--name-status",
-                   "--diff-filter=AR", "--format=%x1e%H", rev, "--", "frontier/*/PREREGISTRATION.md", "frontier/*/FINDINGS.md")
+                   "--diff-filter=AR", "--format=%x1e%H", rev, "--", *specs)
     rc2, tree = _git("ls-tree", "-r", "--name-only", rev, "frontier/")
     if rc != 0 or rc2 != 0:
         return None
@@ -1178,13 +1269,15 @@ def seal_order_class(rev="HEAD"):
             elif f[0] == "A" and len(f) == 2:
                 origin.setdefault(f[1], sha)
     out = {}
-    for path in tree.splitlines():
-        m = re.fullmatch(r"frontier/([^/]+)/PREREGISTRATION\.md", path)
-        if not m:
+    for path in sorted(tree.splitlines()):
+        m = re.fullmatch(r"frontier/([^/]+)/([^/]+)", path)
+        if not m or not any(fnmatch.fnmatch(m.group(2), pat) for pat in SEAL_PATTERNS):
             continue
         rule, record = origin.get(path), origin.get("frontier/%s/FINDINGS.md" % m.group(1))
         if rule and record and rule == record:
-            out[m.group(1).split("_")[0]] = rule
+            aid = m.group(1).split("_")[0]
+            if aid not in out or m.group(2) == "PREREGISTRATION.md":
+                out[aid] = rule
     return out
 
 
@@ -2014,6 +2107,7 @@ GATES = {
     "gate-controls": gate_gate_controls,
     "review-core": gate_review_core,
     "seal-ledger-current": gate_seal_ledger_current,
+    "seal-immutable": gate_seal_immutable,
     "seal-order-unshown": gate_seal_order_unshown,
     "pretense-phrases": gate_pretense_phrases,
     "member-scope": gate_member_scope,
