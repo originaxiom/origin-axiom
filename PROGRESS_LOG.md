@@ -18795,3 +18795,19 @@ not. The correction was written, with the old wording kept beside it, on every c
 including the foundation document. Another seat had stated the same correction independently, and its statement is now
 verified. 0 of 19.
 
+## 2026-11-10 — S306n (continued): the mistake we keep making, written into the map
+
+The owner named the programme's most repeated error: taking one allowed object for the whole. The owner's law is that
+whatever is allowed to happen does happen, so the founding rule, once run, tracks everything that exists.
+
+Main agreed, and added what the record has already measured. The law says what exists. It does not say how much of each
+thing there is, and the record computed that the answer depends on how the allowed things are counted. Choosing one
+object by hand and averaging over all of them evenly are the same shortcut taken from two sides: each fills in the
+missing weight without deriving it.
+
+The map now marks every result as being about the whole, about one object, or about a list of objects, and refuses any
+result about the whole that leans on a single object. The first time it ran, it caught one of main's own. The tally is
+plain: what is proved about the whole is structure, and nearly everything that looks like known physics is read from a
+single object. The computation that would say what the whole itself makes definite is registered before it is run.
+0 of 19.
+

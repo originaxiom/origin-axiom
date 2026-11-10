@@ -36,7 +36,7 @@ wether there are bugs, etc." (P-748).
 
 | file | what it is |
 |---|---|
-| `NODES.json` | 259 nodes: 155 on the spine, 78 register debts, 14 completion duties, 10 closure nodes, 2 further duties |
+| `NODES.json` | at landing 259 nodes: 155 on the spine, 78 register debts, 14 completion duties, 10 closure nodes, 2 further duties (live count in `verification/build_run.txt`) |
 | `EDGES.json` | 263 edges: requires, same-as, instance-of, blocks, bears-on, answers |
 | `MAP.md` | the nodes as tables, layer by layer, each with its grade and where the record says it |
 | `CLOSURE_QUEUE.md` | the ten missing dependencies in the order of what they block, what each headline result rests on, the one next derivation, the verification queue, the debts by class |
@@ -103,6 +103,38 @@ Sixteen nodes are the one question of what makes a count chiral:
   outcome does the weave's conditional chirality reach the lanes' operator.
 - **Owner.** Unowned: the lanes list it as a missing join. Proposed for main. The agy lane's current ticket is not
   duplicated.
+
+## 5a. Weave or thread (added 2026-11-10, at the owner's word; P-755)
+
+*The owner, the same day: "the most important thing, which we keep repeating is the weave-vs-therad kind of mistake …
+the law that causes existence as i understand from our work is 'if something is allowed to happen it will happen',
+therefore the foundation principle/formula track all what exists upon its ececution, no?"*
+
+- **Every node of the spine now says what it is stated about:** the weave (the joint action of every allowed move, or
+  every thread at once), a thread (one thread, one fibre, one point, one background), or a list (a family examined
+  member by member). The builder refuses a weave result that rests on a thread. On its first run it refused one of
+  main's own edges.
+- **What the label shows.**
+
+  | stated about | banked results | what they are |
+  |---|---|---|
+  | the weave | 15 | structure and negatives: the quaternion point, the triplet, the group of order 96 with CP as the swap, the mirror-even index, the measure's dependence on counting, the walk's exit law; the chiral three, conditionally; and eight negatives (no hand, one end, no modulus, no value, no atom, no placement, the draw test) |
+  | a thread | 25 | the root; the whole structural theorem (the gauge algebra, the global form, the hypercharge direction); the value frame and the six; the τ rule; the scale card; the object's gravity |
+  | a list | 3 | the census of states; the genericity of the E₆ waypoint; the door set |
+
+- **Five of the six headline results are thread results.** Only the chiral three is stated about the weave, and it is
+  conditional on two tagged postulates. Everything else that looks like the Standard Model, structure or value, is read
+  on one thread.
+- **The law fixes what exists, not how much of each.** That is the eleventh missing dependency, the weight (X:WEIGHT):
+  - every allowed state belongs to the state space by construction; with what weight is not derived;
+  - run with nothing forced, the threads give a different measure for each way of counting (B1813), and the moves' own
+    walk gives the move-by-move one exactly (B1815);
+  - the plain sum over threads is flat, and the uniform measure gives the cusp no atom.
+- **A thread picked by hand and a flat average are the same error from two sides:** each supplies a weight without
+  deriving it. The first puts it at one point; the second spreads it evenly.
+- **Three ways "all of it happens" becomes "this is what is seen":** what everything forces together (structure only);
+  one typical history (a distribution of values); a place where the whole concentrates (derived values, which needs a
+  weight with a peak or an action). The computation that tells them apart is registered before it is run (P-756).
 
 ## 6. What this map is not
 

@@ -8,266 +8,273 @@ by a quote that the builder checks.*
 
 | grade | meaning | nodes |
 |---|---|---|
-| DERIVED | proved on main | 13 |
+| DERIVED | proved on main | 15 |
 | CONDITIONAL | proved on main given named premises | 17 |
 | RECORD | a fact about the record's own state, checked at its source | 2 |
 | CONFIRMED | a registered falsifiable claim that observation has confirmed | 1 |
 | POSTULATED | assumed by the foundation | 11 |
 | TAGGED | a tagged working postulate (the owner's ruling) | 2 |
-| CHOSEN | a fork settled by choice, the alternative kept | 41 |
+| CHOSEN | a fork settled by choice, the alternative kept | 42 |
 | UNSTATED | a commitment the construction makes without stating it | 6 |
 | FITTED | a continuous input fixed by looking at data | 2 |
 | ANSATZ | a posited form with no derivation | 1 |
 | READING | passes a sealed screen; not a prediction | 1 |
-| NEGATIVE | a banked negative, scoped | 9 |
-| OPEN | not settled | 35 |
+| NEGATIVE | a banked negative, scoped | 11 |
+| OPEN | not settled | 36 |
 | LANE-REVIEWED | a seat's proof with a non-authoring review inside its lane; not verified on main | 1 |
-| LANE-PROPOSED | a seat's hand proof, count or estimate, unreviewed; not verified on main | 6 |
+| LANE-PROPOSED | a seat's hand proof, count or estimate, unreviewed; not verified on main | 7 |
 | LANE-INPUT | an input the seat's own ledger prices as supplied, unselected or unearned | 7 |
 | DUTY | something the full goal requires and nobody has done | 16 |
 | DEBT | a result the record uses is owed a check or a correction | 78 |
-| CLOSURE | one missing dependency under several names | 10 |
+| CLOSURE | one missing dependency under several names | 11 |
 
 ## 0. The principle
 
-| id | grade | statement | where |
-|---|---|---|---|
-| G:PF1 | POSTULATED | Existence is what remains when cancelling to nothing cannot complete. | GENESIS.md |
-| G:PF1-FORM | CHOSEN | PF1's mathematical form, non-cancellation as tr[a, b] ≠ 2, is a reading of the principle, not a derivation from it. | GENESIS.md |
-| G:PF2 | POSTULATED | The remainder is a description that cannot be exhausted. It does not follow from PF1. | GENESIS.md |
-| G:PF3 | POSTULATED | The method: read that description as mathematical structure and ask what it forces. | GENESIS.md |
+| id | grade | about | statement | where |
+|---|---|---|---|---|
+| G:PF1 | POSTULATED | weave | Existence is what remains when cancelling to nothing cannot complete. | GENESIS.md |
+| G:PF1-FORM | CHOSEN | weave | PF1's mathematical form, non-cancellation as tr[a, b] ≠ 2, is a reading of the principle, not a derivation from it. | GENESIS.md |
+| G:PF2 | POSTULATED | weave | The remainder is a description that cannot be exhausted. It does not follow from PF1. | GENESIS.md |
+| G:PF3 | POSTULATED | weave | The method: read that description as mathematical structure and ask what it forces. | GENESIS.md |
 
 ## 1. The grammar
 
-| id | grade | statement | where |
-|---|---|---|---|
-| G:GM1 | POSTULATED | Two records. Equivalent to: the records have a non-trivial common character in SL(2, ℂ); not weaker than it. | GENESIS.md; B1677; B1679; B1682; P-221 (DONE); P-211 (DONE) |
-| G:GM2 | POSTULATED | The elementary updates are the unit shears L and R; descriptions are words in them. | GENESIS.md |
-| G:GM3 | POSTULATED | The description is not periodic, so the monodromy is hyperbolic. | GENESIS.md |
-| G:GM4 | POSTULATED | The carrier is the once-punctured torus. The puncture is conditional on faithful word data; faithfulness and the surface category stay premises. | GENESIS.md; P-321 (QUEUED) |
-| G:GM5a | POSTULATED | Updates are reversible (GL(2, ℤ)). | GENESIS.md |
-| G:GM5b | CHOSEN | Inverse moves are legal: adopted by the owner's ruling, on a reading of PF1 chosen by the mathematics, not derived. | GENESIS.md; B1662 |
-| G:GM5c | OPEN | Is the record swap P a legal move? Open as a fork; the owner's ruling is 'even ticks observed': the observed weave is ⟨L, R⟩. | GENESIS.md; B1607; B1609; B1610 |
-| G:GM5d | CHOSEN | Positivity: the choice of side of the mirror. | GENESIS.md |
+| id | grade | about | statement | where |
+|---|---|---|---|---|
+| G:GM1 | POSTULATED | weave | Two records. Equivalent to: the records have a non-trivial common character in SL(2, ℂ); not weaker than it. | GENESIS.md; B1677; B1679; B1682; P-221 (DONE); P-211 (DONE) |
+| G:GM2 | POSTULATED | weave | The elementary updates are the unit shears L and R; descriptions are words in them. | GENESIS.md |
+| G:GM3 | POSTULATED | weave | The description is not periodic, so the monodromy is hyperbolic. | GENESIS.md |
+| G:GM4 | POSTULATED | weave | The carrier is the once-punctured torus. The puncture is conditional on faithful word data; faithfulness and the surface category stay premises. | GENESIS.md; P-321 (QUEUED) |
+| G:GM5a | POSTULATED | weave | Updates are reversible (GL(2, ℤ)). | GENESIS.md |
+| G:GM5b | CHOSEN | weave | Inverse moves are legal: adopted by the owner's ruling, on a reading of PF1 chosen by the mathematics, not derived. | GENESIS.md; B1662 |
+| G:GM5c | OPEN | weave | Is the record swap P a legal move? Open as a fork; the owner's ruling is 'even ticks observed': the observed weave is ⟨L, R⟩. | GENESIS.md; B1607; B1609; B1610 |
+| G:GM5d | CHOSEN | weave | Positivity: the choice of side of the mirror. | GENESIS.md |
 
 ## 2. The states and the root
 
-| id | grade | statement | where |
-|---|---|---|---|
-| G:ROOT | CONDITIONAL | Given GM3, GM4, SE1 and SE2 the root is m004, the figure-eight knot complement. A conditional reconstruction of a chosen sector, not a derivation from nothing. | GENESIS.md |
-| G:SE1 | POSTULATED | The selection criterion: the root's first homology is torsion-free. Other criteria select other objects and are kept. | GENESIS.md |
-| G:SE2 | CHOSEN | Orientation: of the two, take the orientable one, m004. The chain's most fragile link; eight walls pass through the amphichirality it brings. | GENESIS.md; B1234 |
-| G:T-ROOT | DERIVED | What SE1 selects: exactly the class of LR (m004) and the class of the golden matrix LP (m000). | GENESIS.md; B197 |
-| G:XGEN | DERIVED | The generated state space: 758 signed word states to length 12, realising 536 manifolds. | GENESIS.md; B1434; B1439 |
-| G:XGEN-PHYS | OPEN | Not derived: that every state occurs in one history, that the states are realised together, that any arrow is physical time. | GENESIS.md |
+| id | grade | about | statement | where |
+|---|---|---|---|---|
+| G:ROOT | CONDITIONAL | thread | Given GM3, GM4, SE1 and SE2 the root is m004, the figure-eight knot complement. A conditional reconstruction of a chosen sector, not a derivation from nothing. | GENESIS.md |
+| G:SE1 | POSTULATED | thread | The selection criterion: the root's first homology is torsion-free. Other criteria select other objects and are kept. | GENESIS.md |
+| G:SE2 | CHOSEN | thread | Orientation: of the two, take the orientable one, m004. The chain's most fragile link; eight walls pass through the amphichirality it brings. | GENESIS.md; B1234 |
+| G:T-ROOT | DERIVED | thread | What SE1 selects: exactly the class of LR (m004) and the class of the golden matrix LP (m000). | GENESIS.md; B197 |
+| G:XGEN | DERIVED | list | The generated state space: 758 signed word states to length 12, realising 536 manifolds. | GENESIS.md; B1434; B1439 |
+| G:XGEN-PHYS | OPEN | weave | Not derived: that every state occurs in one history, that the states are realised together, that any arrow is physical time. | GENESIS.md |
 
 ## 3. The weave, its forks and its gaps
 
-| id | grade | statement | where |
-|---|---|---|---|
-| G:FK10 | OPEN | The end law. Open; the cusp's unit is tagged, not derived. | GENESIS.md |
-| G:FK11 | OPEN | The dictionary: unearned. Unearnable by derivation inside the flat counting frames on any thread or cover; earnable by sealed prediction within a frame. | GENESIS.md; B1604; B1828 |
-| G:FK12 | OPEN | The register: is the order-keeping register part of the state, carried by the act, or an input from outside? | GENESIS.md |
-| G:FK13 | CHOSEN | Which family is the object: ruled by argument from the principle (the word states it generates); revisable by a better argument. | GENESIS.md; B1480 |
-| G:FK14 | OPEN | The ends: does the genesis generate states with several ends, or are generations not ends? | GENESIS.md; B1487; B1491; B1492 |
-| G:FK15 | OPEN | The field's genesis: forced to exist, not forced which. | GENESIS.md |
-| G:FK2 | CHOSEN | Orientation (SE2): what would settle it is a derived reason for orientability, or carrying both m004 and m000. | GENESIS.md |
-| G:FK3 | OPEN | The swap P: a legal move, and of what type. | GENESIS.md |
-| G:FK5 | OPEN | Faithful F₂ against its abelian quotient. | GENESIS.md; P-321 (QUEUED) |
-| G:FK7 | OPEN | The deck: gauged or kept. | GENESIS.md |
-| G:FK8 | OPEN | The join: which maps carry physical data between states. | GENESIS.md |
-| G:FK9 | OPEN | Selection: what makes a state physical. | GENESIS.md |
-| G:GAP1 | OPEN | The dictionary: no frame is derived; until one is, a count is mathematics about a flat bundle. | GENESIS.md |
-| G:GAP2 | OPEN | The ends: chiral counts live at cusps and depend on an end condition that is chosen. | GENESIS.md |
-| G:GAP3 | OPEN | The source: chirality sits on non-split bundles, which carry no harmonic metric without a source; no report derives the source. | GENESIS.md |
-| G:GAP4 | OPEN | Selection and coincidence: a selection rule and a null model must be fixed before a match counts; nothing on the record clears the bar. | GENESIS.md |
-| G:GAP5 | OPEN | Dynamics: nothing on the record has been turned into a potential, a breaking or a running that fixes a value. | GENESIS.md; P-138 (QUEUED) |
-| G:GAP6 | OPEN | The flatness: a flat frame reaches discrete data through the boundary and cannot reach continuous moduli. | GENESIS.md |
-| TAG:LAMBDA | TAGGED | Λ, the dictionary's link, is a tagged working postulate: results computed with it carry 'given Λ'. | GENESIS.md |
-| TAG:UNIT | TAGGED | One unit of end data at the weave's cusp is a tagged working postulate; no datum the principle forces supplies it. | GENESIS.md; B1629 |
-| W:G96 | DERIVED | The weave's group on T ⊕ T̄ has order 96; its generalized CP is the record swap, so CP is a symmetry exactly when the swap is a move. | GENESIS.md; B1611 |
-| W:HANDS | NEGATIVE | Neither hand is derived on the weave: each is derived only on a subweave the weave does not select. | GENESIS.md; B1607; B1609; B1610 |
-| W:INDEX3 | CONDITIONAL | Given Λ and the unit, the chiral three is a four-dimensional index (±3) on the weave's own surface. | GENESIS.md; B1632; B1641 |
-| W:MIRROR-EVEN | DERIVED | A flat frame's count can tell a module from its dual but cannot see the hand: the class index is mirror-even for every module. | GENESIS.md; B1487 |
-| W:NOMOD | NEGATIVE | The weave forces no fibre modulus: no point of the upper half-plane is fixed by every move. | GENESIS.md; B1617 |
-| W:NOVAL | NEGATIVE | No parameter of the nineteen and no neutrino mass is a number of the weave's group; values need a forced modulus, dynamics or end data. | GENESIS.md; B1611; B1612; B1615 |
-| W:ONE-END | NEGATIVE | A generated state has one end, and no generated state carries three generations in either counting frame, by counting ends. | GENESIS.md; B1487 |
-| W:Q8 | DERIVED | At two records the moves fix exactly two characters: the trivial one and the quaternion point; at three or more records, only the trivial one. | GENESIS.md; B1677; B1679 |
-| W:T | DERIVED | The triplet: a three-dimensional representation follows from the quaternion point. | GENESIS.md |
+| id | grade | about | statement | where |
+|---|---|---|---|---|
+| G:FK10 | OPEN | weave | The end law. Open; the cusp's unit is tagged, not derived. | GENESIS.md |
+| G:FK11 | OPEN | weave | The dictionary: unearned. Unearnable by derivation inside the flat counting frames on any thread or cover; earnable by sealed prediction within a frame. | GENESIS.md; B1604; B1828 |
+| G:FK12 | OPEN | weave | The register: is the order-keeping register part of the state, carried by the act, or an input from outside? | GENESIS.md |
+| G:FK13 | CHOSEN | weave | Which family is the object: ruled by argument from the principle (the word states it generates); revisable by a better argument. | GENESIS.md; B1480 |
+| G:FK14 | OPEN | weave | The ends: does the genesis generate states with several ends, or are generations not ends? | GENESIS.md; B1487; B1491; B1492 |
+| G:FK15 | OPEN | weave | The field's genesis: forced to exist, not forced which. | GENESIS.md |
+| G:FK2 | CHOSEN | thread | Orientation (SE2): what would settle it is a derived reason for orientability, or carrying both m004 and m000. | GENESIS.md |
+| G:FK3 | OPEN | weave | The swap P: a legal move, and of what type. | GENESIS.md |
+| G:FK5 | OPEN | weave | Faithful F₂ against its abelian quotient. | GENESIS.md; P-321 (QUEUED) |
+| G:FK7 | OPEN | thread | The deck: gauged or kept. | GENESIS.md |
+| G:FK8 | OPEN | weave | The join: which maps carry physical data between states. | GENESIS.md |
+| G:FK9 | OPEN | weave | Selection: what makes a state physical. | GENESIS.md |
+| G:GAP1 | OPEN | weave | The dictionary: no frame is derived; until one is, a count is mathematics about a flat bundle. | GENESIS.md |
+| G:GAP2 | OPEN | weave | The ends: chiral counts live at cusps and depend on an end condition that is chosen. | GENESIS.md |
+| G:GAP3 | OPEN | weave | The source: chirality sits on non-split bundles, which carry no harmonic metric without a source; no report derives the source. | GENESIS.md |
+| G:GAP4 | OPEN | weave | Selection and coincidence: a selection rule and a null model must be fixed before a match counts; nothing on the record clears the bar. | GENESIS.md |
+| G:GAP5 | OPEN | weave | Dynamics: nothing on the record has been turned into a potential, a breaking or a running that fixes a value. | GENESIS.md; P-138 (QUEUED) |
+| G:GAP6 | OPEN | weave | The flatness: a flat frame reaches discrete data through the boundary and cannot reach continuous moduli. | GENESIS.md |
+| TAG:LAMBDA | TAGGED | weave | Λ, the dictionary's link, is a tagged working postulate: results computed with it carry 'given Λ'. | GENESIS.md |
+| TAG:UNIT | TAGGED | weave | One unit of end data at the weave's cusp is a tagged working postulate; no datum the principle forces supplies it. | GENESIS.md; B1629 |
+| W:CLOCK | CHOSEN | weave | The clock: whether the weave is counted by moves or followed by geometric length. Nothing on the record forces it. | frontier/B1815_the_records_walk_has_minkowskis_exit_law_exactly/arc_verdict.json; B1815; P-439 (QUEUED); P-438 (DONE) |
+| W:DRAW | NEGATIVE | weave | The measured six read as a draw from the weave's own measure: the sealed test does not separate the two clocks, and could not have; consistent, not specific. | frontier/B1814_the_measured_world_as_a_draw_from_the_weaves_own_measure/arc_verdict.json; B1814 |
+| W:FLAT-SUM | LANE-PROPOSED | weave | Any sum over all threads is mirror-even whatever its weights, and the democratic sum is flat by equidistribution; every other form selects only through a number it does not force. The SM seat's reading, read on main with its quotes checked. | docs/HARVEST_LEDGER.md; P-413 (DONE) |
+| W:G96 | DERIVED | weave | The weave's group on T ⊕ T̄ has order 96; its generalized CP is the record swap, so CP is a symmetry exactly when the swap is a move. | GENESIS.md; B1611 |
+| W:HANDS | NEGATIVE | weave | Neither hand is derived on the weave: each is derived only on a subweave the weave does not select. | GENESIS.md; B1607; B1609; B1610 |
+| W:INDEX3 | CONDITIONAL | weave | Given Λ and the unit, the chiral three is a four-dimensional index (±3) on the weave's own surface. | GENESIS.md; B1632; B1641 |
+| W:LAW | OPEN | weave | The law as the owner states it: if something is allowed to happen, it happens. On the record it is the weave's rule of method, and as a physical law a hypothesis to test, not a premise. | GENESIS.md; P-755 (OWNER); P-756 (QUEUED) |
+| W:MEASURE | DERIVED | weave | Run with nothing forced, the threads produce a definite measure for each way of counting them, and the measures differ: counted move by move the weight keeps out of the cusp; counted by geometric length it is hyperbolic area. | frontier/B1813_the_weaves_own_measure_depends_on_how_its_threads_are_counted/arc_verdict.json; B1813; P-437 (DONE); P-439 (QUEUED) |
+| W:MIRROR-EVEN | DERIVED | weave | A flat frame's count can tell a module from its dual but cannot see the hand: the class index is mirror-even for every module. | GENESIS.md; B1487 |
+| W:NO-ATOM | NEGATIVE | weave | Under the weave's uniform measure nothing the principle forces gives the cusp a weight: no atom. Scoped: other measures and other dynamics are not excluded. | frontier/B1629_does_the_principle_reach_the_weaves_cusp/arc_verdict.json; B1629 |
+| W:NOMOD | NEGATIVE | weave | The weave forces no fibre modulus: no point of the upper half-plane is fixed by every move. | GENESIS.md; B1617 |
+| W:NOVAL | NEGATIVE | weave | No parameter of the nineteen and no neutrino mass is a number of the weave's group; values need a forced modulus, dynamics or end data. | GENESIS.md; B1611; B1612; B1615 |
+| W:ONE-END | NEGATIVE | weave | A generated state has one end, and no generated state carries three generations in either counting frame, by counting ends. | GENESIS.md; B1487 |
+| W:Q8 | DERIVED | weave | At two records the moves fix exactly two characters: the trivial one and the quaternion point; at three or more records, only the trivial one. | GENESIS.md; B1677; B1679 |
+| W:T | DERIVED | weave | The triplet: a three-dimensional representation follows from the quaternion point. | GENESIS.md |
+| W:WALK | DERIVED | weave | The moves' own walk gives the move-by-move measure exactly (Minkowski's), singular to area, at every strength of the pull-back. | frontier/B1815_the_records_walk_has_minkowskis_exit_law_exactly/arc_verdict.json; B1815; B1663 |
 
 ## 4. The structural theorem (the McKay cascade on the root)
 
-| id | grade | statement | where |
-|---|---|---|---|
-| MC:ALG | CONDITIONAL | The gauge algebra su(3) ⊕ su(2) ⊕ u(1)³. | docs/THE_CLAIM.md; B892; B992 |
-| MC:CS0 | DERIVED | No dimensionful quantity, by theorem: the object's Chern–Simons invariant is zero. | docs/THE_CLAIM.md; B811; B1012; B1226 |
-| MC:CUBIC | CONDITIONAL | Matter mass sits in the cubic of the 27. | docs/THE_CLAIM.md; B978; B884; B987 |
-| MC:END | CONDITIONAL | The cascade terminates, and every registered selection function ends at the same algebra. | docs/THE_CLAIM.md; B863; B994 |
-| MC:GEN | OPEN | The generation count is not an output of the structural theorem; it sits on the open-inputs side. | docs/THE_CLAIM.md; B1033; P-606 (QUEUED) |
-| MC:GENERIC | DERIVED | Reaching the E₆ waypoint is generic (about one manifold in three), so arriving there confirms nothing. | docs/THE_CLAIM.md; B993; B996 |
-| MC:HYP | POSTULATED | The structural theorem's counted inputs: the uniqueness axioms and five typed external data (two bits, one scale, one Lie type, one closing direction). | docs/THE_CLAIM.md; P-374 (QUEUED) |
-| MC:PRICE | POSTULATED | The identification price: thirteen (four axioms and nine irreducible sources). | docs/TOTAL_INPUTS_SCOREBOARD.md; B1266 |
-| MC:REACH | OPEN | The structural frame has never been computed on any state other than the root. | GENESIS.md |
-| MC:UNIQ | DERIVED | The own-conductor door set of the metallic grammars is {1, 4}. The golden is unique among primitive grammars, and unique for having both the door and a quotient of π₁ onto 2T. | frontier/B1859_the_door_set_is_one_and_four/FINDINGS.md; B1859; B997; B1019; P-318 (QUEUED); P-618 (QUEUED) |
-| MC:Y | CONDITIONAL | The hypercharge direction; its normalisation is underivable by homogeneity. | docs/THE_CLAIM.md; B864; B991 |
-| MC:Z6 | CONDITIONAL | The global form [SU(3) × SU(2) × U(1)]/ℤ₆, at the primitive normalisation of hypercharge only. | docs/THE_CLAIM.md; B862; B1221; P-604 (DONE); P-581 (QUEUED) |
+| id | grade | about | statement | where |
+|---|---|---|---|---|
+| MC:ALG | CONDITIONAL | thread | The gauge algebra su(3) ⊕ su(2) ⊕ u(1)³. | docs/THE_CLAIM.md; B892; B992 |
+| MC:CS0 | DERIVED | thread | No dimensionful quantity, by theorem: the object's Chern–Simons invariant is zero. | docs/THE_CLAIM.md; B811; B1012; B1226 |
+| MC:CUBIC | CONDITIONAL | thread | Matter mass sits in the cubic of the 27. | docs/THE_CLAIM.md; B978; B884; B987 |
+| MC:END | CONDITIONAL | thread | The cascade terminates, and every registered selection function ends at the same algebra. | docs/THE_CLAIM.md; B863; B994 |
+| MC:GEN | OPEN | thread | The generation count is not an output of the structural theorem; it sits on the open-inputs side. | docs/THE_CLAIM.md; B1033; P-606 (QUEUED) |
+| MC:GENERIC | DERIVED | list | Reaching the E₆ waypoint is generic (about one manifold in three), so arriving there confirms nothing. | docs/THE_CLAIM.md; B993; B996 |
+| MC:HYP | POSTULATED | thread | The structural theorem's counted inputs: the uniqueness axioms and five typed external data (two bits, one scale, one Lie type, one closing direction). | docs/THE_CLAIM.md; P-374 (QUEUED) |
+| MC:PRICE | POSTULATED | thread | The identification price: thirteen (four axioms and nine irreducible sources). | docs/TOTAL_INPUTS_SCOREBOARD.md; B1266 |
+| MC:REACH | OPEN | thread | The structural frame has never been computed on any state other than the root. | GENESIS.md |
+| MC:UNIQ | DERIVED | list | The own-conductor door set of the metallic grammars is {1, 4}. The golden is unique among primitive grammars, and unique for having both the door and a quotient of π₁ onto 2T. | frontier/B1859_the_door_set_is_one_and_four/FINDINGS.md; B1859; B997; B1019; P-318 (QUEUED); P-618 (QUEUED) |
+| MC:Y | CONDITIONAL | thread | The hypercharge direction; its normalisation is underivable by homogeneity. | docs/THE_CLAIM.md; B864; B991 |
+| MC:Z6 | CONDITIONAL | thread | The global form [SU(3) × SU(2) × U(1)]/ℤ₆, at the primitive normalisation of hypercharge only. | docs/THE_CLAIM.md; B862; B1221; P-604 (DONE); P-581 (QUEUED) |
 
 ## 5. The values (the scoreboard's two frames)
 
-| id | grade | statement | where |
-|---|---|---|---|
-| A:A01 | FITTED | the modulus tau (Re tau, Im tau) on the strip, Im tau near 3. | docs/TOTAL_INPUTS_SCOREBOARD.md; P-629 (QUEUED) |
-| A:A02 | CHOSEN | the slope 2/5 of the line class. | docs/TOTAL_INPUTS_SCOREBOARD.md; P-384 (QUEUED); P-625 (DECLINED); P-718 (QUEUED) |
-| A:A03 | CHOSEN | the line's offset: (2/5, 4/5), order 5, at B1841's row (an odd/10 offset, order 10, at the retired small-cut end; the five odd offsets are one T-orbit). | docs/TOTAL_INPUTS_SCOREBOARD.md; P-384 (QUEUED); P-707 (DONE); P-718 (QUEUED) |
-| A:A04 | CHOSEN | the Higgs direction DR, the Serre derivative of the theta triplet R (a weight-3/2 covariant section; B1691), as every look of the family runs it (B1726 compute). | docs/TOTAL_INPUTS_SCOREBOARD.md; P-366 (DONE) |
-| A:A05 | CHOSEN | the up-conjugate reading (S~, S, S) at a0 = 0. | docs/TOTAL_INPUTS_SCOREBOARD.md; P-295 (QUEUED) |
-| A:A07 | CHOSEN | the end: the exact horoball norm at B1841's principled entry E4 (was the small-cut norm 2 pi L + c_s at L_max). | docs/TOTAL_INPUTS_SCOREBOARD.md; P-421 (DONE); P-706 (DONE); P-707 (DONE) |
-| A:A08 | CHOSEN | the generations' metric H = I. | docs/TOTAL_INPUTS_SCOREBOARD.md; P-531 (QUEUED); P-705 (DONE) |
-| A:A09 | CHOSEN | the channel weights: the exact horoball norms at the end (was sqrt(2 pi L + c_s), a flat norm cut with a hyperbolic radius). | docs/TOTAL_INPUTS_SCOREBOARD.md; P-421 (DONE) |
-| A:A10 | FITTED | the lepton factor c (continuous and fitted at B1841's row; c = 3 at the small-cut end). | docs/TOTAL_INPUTS_SCOREBOARD.md; P-446 (QUEUED); P-706 (DONE) |
-| A:A11 | CHOSEN | one address: one tau, one line, one point coupling for all sectors. | docs/TOTAL_INPUTS_SCOREBOARD.md; P-555 (QUEUED) |
-| A:A12 | CHOSEN | the scale: tree level at M_Z, no running. | docs/TOTAL_INPUTS_SCOREBOARD.md; P-570 (DONE) |
-| B:FRAME | LANE-PROPOSED | The agy lane's complete picture claims 23 rows on 44 borrowed joints, 3 of them refuted on main; none certified by the lane's own counter. | docs/TOTAL_INPUTS_SCOREBOARD.md; B1832; P-624 (QUEUED); P-661 (DONE) |
-| FA:F1 | CONDITIONAL | the frame: B1656's four-channel coupling (B1644/B1736 form), sector residues on a flat line, the end norm sqrt(2*pi*L + c_s)*R_s, closed-form channel norms c_s. | docs/TOTAL_INPUTS_SCOREBOARD.md |
-| FA:F2 | CONDITIONAL | the sector charges (q_L, q_R) of up, down, lepton and the LL pair. | docs/TOTAL_INPUTS_SCOREBOARD.md |
-| FA:F3 | CONDITIONAL | the F_10 direction's components and scalar in closed form, given the direction. | docs/TOTAL_INPUTS_SCOREBOARD.md |
-| FA:F4 | CONDITIONAL | L_2 as a function of tau (the horocycle of length 2). | docs/TOTAL_INPUTS_SCOREBOARD.md |
-| FA:F5 | CONDITIONAL | Vol(m004) as a number. | docs/TOTAL_INPUTS_SCOREBOARD.md |
-| FA:F6 | CONDITIONAL | the GUT normalisation of hypercharge (the tree weak angle at unification). | docs/TOTAL_INPUTS_SCOREBOARD.md |
-| FA:F7 | CONDITIONAL | the mirror relation Y((a,-b), -conj tau) = P conj(Y) P (theta-bar -> -theta-bar). | docs/TOTAL_INPUTS_SCOREBOARD.md |
-| S:S01 | ANSATZ | a flat bundle on the fibre (no curvature, flux or continuous moduli from the geometry). | docs/TOTAL_INPUTS_SCOREBOARD.md; P-571 (QUEUED) |
-| S:S02 | CHOSEN | the orientation: the orientable, amphichiral member (SE2). | docs/TOTAL_INPUTS_SCOREBOARD.md |
-| V:0OF19 | RECORD | The scoreboard: no Standard Model parameter is earned. | docs/TOTAL_INPUTS_SCOREBOARD.md; P-579 (QUEUED) |
-| V:EARN-RULE | CHOSEN | How a frame's dictionary may be earned: by sealed prediction, with seven conditions. The owner's ruling, on main's drafting; revisable. | GENESIS.md; B1828; B1843 |
-| V:HELD | CHOSEN | The held-out targets are held unspent by the owner. Nothing in this map reads or computes them. | docs/TOTAL_INPUTS_SCOREBOARD.md; P-709 (DONE); P-585 (QUEUED); P-597 (QUEUED) |
-| V:SIX | READING | The six mass ratios at the principled end pass a sealed screen. A level-1 reading: the quark four are not specific, and on its line the leptons are the down sector. | docs/TOTAL_INPUTS_SCOREBOARD.md; B1841; B1839; P-706 (DONE); P-355 (QUEUED); P-384 (QUEUED) |
-| V:WALL | NEGATIVE | The value layer was tested under seal twice, with demonstrated power the second time, and is null. | docs/THE_CLAIM.md; B915; B925; B929 |
+| id | grade | about | statement | where |
+|---|---|---|---|---|
+| A:A01 | FITTED | thread | the modulus tau (Re tau, Im tau) on the strip, Im tau near 3. | docs/TOTAL_INPUTS_SCOREBOARD.md; P-629 (QUEUED) |
+| A:A02 | CHOSEN | thread | the slope 2/5 of the line class. | docs/TOTAL_INPUTS_SCOREBOARD.md; P-384 (QUEUED); P-625 (DECLINED); P-718 (QUEUED) |
+| A:A03 | CHOSEN | thread | the line's offset: (2/5, 4/5), order 5, at B1841's row (an odd/10 offset, order 10, at the retired small-cut end; the five odd offsets are one T-orbit). | docs/TOTAL_INPUTS_SCOREBOARD.md; P-384 (QUEUED); P-707 (DONE); P-718 (QUEUED) |
+| A:A04 | CHOSEN | thread | the Higgs direction DR, the Serre derivative of the theta triplet R (a weight-3/2 covariant section; B1691), as every look of the family runs it (B1726 compute). | docs/TOTAL_INPUTS_SCOREBOARD.md; P-366 (DONE) |
+| A:A05 | CHOSEN | thread | the up-conjugate reading (S~, S, S) at a0 = 0. | docs/TOTAL_INPUTS_SCOREBOARD.md; P-295 (QUEUED) |
+| A:A07 | CHOSEN | thread | the end: the exact horoball norm at B1841's principled entry E4 (was the small-cut norm 2 pi L + c_s at L_max). | docs/TOTAL_INPUTS_SCOREBOARD.md; P-421 (DONE); P-706 (DONE); P-707 (DONE) |
+| A:A08 | CHOSEN | thread | the generations' metric H = I. | docs/TOTAL_INPUTS_SCOREBOARD.md; P-531 (QUEUED); P-705 (DONE) |
+| A:A09 | CHOSEN | thread | the channel weights: the exact horoball norms at the end (was sqrt(2 pi L + c_s), a flat norm cut with a hyperbolic radius). | docs/TOTAL_INPUTS_SCOREBOARD.md; P-421 (DONE) |
+| A:A10 | FITTED | thread | the lepton factor c (continuous and fitted at B1841's row; c = 3 at the small-cut end). | docs/TOTAL_INPUTS_SCOREBOARD.md; P-446 (QUEUED); P-706 (DONE) |
+| A:A11 | CHOSEN | thread | one address: one tau, one line, one point coupling for all sectors. | docs/TOTAL_INPUTS_SCOREBOARD.md; P-555 (QUEUED) |
+| A:A12 | CHOSEN | thread | the scale: tree level at M_Z, no running. | docs/TOTAL_INPUTS_SCOREBOARD.md; P-570 (DONE) |
+| B:FRAME | LANE-PROPOSED | thread | The agy lane's complete picture claims 23 rows on 44 borrowed joints, 3 of them refuted on main; none certified by the lane's own counter. | docs/TOTAL_INPUTS_SCOREBOARD.md; B1832; P-624 (QUEUED); P-661 (DONE) |
+| FA:F1 | CONDITIONAL | thread | the frame: B1656's four-channel coupling (B1644/B1736 form), sector residues on a flat line, the end norm sqrt(2*pi*L + c_s)*R_s, closed-form channel norms c_s. | docs/TOTAL_INPUTS_SCOREBOARD.md |
+| FA:F2 | CONDITIONAL | thread | the sector charges (q_L, q_R) of up, down, lepton and the LL pair. | docs/TOTAL_INPUTS_SCOREBOARD.md |
+| FA:F3 | CONDITIONAL | thread | the F_10 direction's components and scalar in closed form, given the direction. | docs/TOTAL_INPUTS_SCOREBOARD.md |
+| FA:F4 | CONDITIONAL | thread | L_2 as a function of tau (the horocycle of length 2). | docs/TOTAL_INPUTS_SCOREBOARD.md |
+| FA:F5 | CONDITIONAL | thread | Vol(m004) as a number. | docs/TOTAL_INPUTS_SCOREBOARD.md |
+| FA:F6 | CONDITIONAL | thread | the GUT normalisation of hypercharge (the tree weak angle at unification). | docs/TOTAL_INPUTS_SCOREBOARD.md |
+| FA:F7 | CONDITIONAL | thread | the mirror relation Y((a,-b), -conj tau) = P conj(Y) P (theta-bar -> -theta-bar). | docs/TOTAL_INPUTS_SCOREBOARD.md |
+| S:S01 | ANSATZ | thread | a flat bundle on the fibre (no curvature, flux or continuous moduli from the geometry). | docs/TOTAL_INPUTS_SCOREBOARD.md; P-571 (QUEUED) |
+| S:S02 | CHOSEN | thread | the orientation: the orientable, amphichiral member (SE2). | docs/TOTAL_INPUTS_SCOREBOARD.md |
+| V:0OF19 | RECORD | record | The scoreboard: no Standard Model parameter is earned. | docs/TOTAL_INPUTS_SCOREBOARD.md; P-579 (QUEUED) |
+| V:EARN-RULE | CHOSEN | record | How a frame's dictionary may be earned: by sealed prediction, with seven conditions. The owner's ruling, on main's drafting; revisable. | GENESIS.md; B1828; B1843 |
+| V:HELD | CHOSEN | record | The held-out targets are held unspent by the owner. Nothing in this map reads or computes them. | docs/TOTAL_INPUTS_SCOREBOARD.md; P-709 (DONE); P-585 (QUEUED); P-597 (QUEUED) |
+| V:SIX | READING | thread | The six mass ratios at the principled end pass a sealed screen. A level-1 reading: the quark four are not specific, and on its line the leptons are the down sector. | docs/TOTAL_INPUTS_SCOREBOARD.md; B1841; B1839; P-706 (DONE); P-355 (QUEUED); P-384 (QUEUED) |
+| V:WALL | NEGATIVE | thread | The value layer was tested under seal twice, with demonstrated power the second time, and is null. | docs/THE_CLAIM.md; B915; B925; B929 |
 
 ## 6. The modulus and its read-out
 
-| id | grade | statement | where |
-|---|---|---|---|
-| T:CHARGE5 | CHOSEN | The charge premise at level 5, which fixes the depth of the one departure. | docs/THE_TAU_READOUT_RULE.md; B1853; B1855; B1856; P-717 (QUEUED); P-738 (DONE) |
-| T:FRAMING | CHOSEN | The framing: the metric's fibration is the structure read. Set by the goal, not derived; other structures give other readings. | docs/THE_TAU_READOUT_RULE.md; P-726 (DONE); P-714 (QUEUED) |
-| T:IM | LANE-PROPOSED | The value under the rule at the point reading: Im τ about 6.065 in the long-history limit. The web seat's sealed estimate; main confirms it to two decimals only. | docs/THE_TAU_READOUT_RULE.md; B1854; P-739 (QUEUED) |
-| T:MINIM | CHOSEN | Minimisation as the use of the action. | docs/THE_TAU_READOUT_RULE.md; B1853 |
-| T:NO-PLACE | NEGATIVE | Nothing on the record places Im τ: the object's action is linear, and its one phase transition has no scale. | docs/THE_BANG_PROGRAMME.md; B1341; B852; B1813; P-713 (DONE) |
-| T:POINT-WEIGHT | CHOSEN | Point or weight: the metric supplies both a canonical point (the systole) and a canonical weight; which the read-out uses is a choice. | docs/THE_TAU_READOUT_RULE.md; P-726 (DONE); P-744 (QUEUED) |
-| T:PRICED | DUTY | The candidate τ is not yet priced by the random-subset control, and is read against the six only inside a sealed card. | docs/THE_TAU_READOUT_RULE.md; P-714 (QUEUED); P-708 (DONE) |
-| T:RE | DERIVED | The tube's level surface has Re τ = 0 exactly, by topology; the Teichmüller apex of the same word also lies on Re 0. | docs/THE_TAU_READOUT_RULE.md; B1852; P-751 (DONE) |
-| T:RULE | CONDITIONAL | Granted the framing, τ at a point of the circle is the conformal modulus of the fibre at that point of the metric's own clock. | docs/THE_TAU_READOUT_RULE.md; B1846; B1847; P-714 (QUEUED); P-727 (DONE) |
+| id | grade | about | statement | where |
+|---|---|---|---|---|
+| T:CHARGE5 | CHOSEN | thread | The charge premise at level 5, which fixes the depth of the one departure. | docs/THE_TAU_READOUT_RULE.md; B1853; B1855; B1856; P-717 (QUEUED); P-738 (DONE) |
+| T:FRAMING | CHOSEN | thread | The framing: the metric's fibration is the structure read. Set by the goal, not derived; other structures give other readings. | docs/THE_TAU_READOUT_RULE.md; P-726 (DONE); P-714 (QUEUED) |
+| T:IM | LANE-PROPOSED | thread | The value under the rule at the point reading: Im τ about 6.065 in the long-history limit. The web seat's sealed estimate; main confirms it to two decimals only. | docs/THE_TAU_READOUT_RULE.md; B1854; P-739 (QUEUED) |
+| T:MINIM | CHOSEN | thread | Minimisation as the use of the action. | docs/THE_TAU_READOUT_RULE.md; B1853 |
+| T:NO-PLACE | NEGATIVE | weave | Nothing on the record places Im τ: the object's action is linear, and its one phase transition has no scale. | docs/THE_BANG_PROGRAMME.md; B1341; B852; B1813; P-713 (DONE) |
+| T:POINT-WEIGHT | CHOSEN | thread | Point or weight: the metric supplies both a canonical point (the systole) and a canonical weight; which the read-out uses is a choice. | docs/THE_TAU_READOUT_RULE.md; P-726 (DONE); P-744 (QUEUED) |
+| T:PRICED | DUTY | record | The candidate τ is not yet priced by the random-subset control, and is read against the six only inside a sealed card. | docs/THE_TAU_READOUT_RULE.md; P-714 (QUEUED); P-708 (DONE) |
+| T:RE | DERIVED | thread | The tube's level surface has Re τ = 0 exactly, by topology; the Teichmüller apex of the same word also lies on Re 0. | docs/THE_TAU_READOUT_RULE.md; B1852; P-751 (DONE) |
+| T:RULE | CONDITIONAL | thread | Granted the framing, τ at a point of the circle is the conformal modulus of the fibre at that point of the metric's own clock. | docs/THE_TAU_READOUT_RULE.md; B1846; B1847; P-714 (QUEUED); P-727 (DONE) |
 
 ## 7. The scale
 
-| id | grade | statement | where |
-|---|---|---|---|
-| SC:CARD | NEGATIVE | The scale card is not sealable: more than one step is chosen. | docs/THE_SCALE_CARD_DESIGN_P722.md; P-732 (DONE); P-722 (QUEUED) |
-| SC:PREMISE | CHOSEN | The chiral premise under which the scale card takes a single block. | docs/THE_SCALE_CARD_DESIGN_P722.md; P-731 (DONE) |
-| SC:R2 | CHOSEN | Reading the exact block as a ratio of scales is an identification; the record holds no object-side reason for it. | docs/THE_SCALE_CARD_DESIGN_P722.md; P-722 (QUEUED) |
-| SC:R4 | CHOSEN | The content that runs is the Standard Model's, borrowed. | docs/THE_SCALE_CARD_DESIGN_P722.md; P-722 (QUEUED) |
-| SC:RATIO | OPEN | A dimensionless ratio of scales is not excluded; it waits on a principle that fixes the level and on an identification. | docs/POINT_REGISTER.md; P-719 (QUEUED); P-721 (QUEUED) |
-| SC:UNIT | DERIVED | An absolute energy cannot come from the object: one outside unit is needed by any theory. | docs/POINT_REGISTER.md; B151; B660; P-719 (QUEUED) |
+| id | grade | about | statement | where |
+|---|---|---|---|---|
+| SC:CARD | NEGATIVE | thread | The scale card is not sealable: more than one step is chosen. | docs/THE_SCALE_CARD_DESIGN_P722.md; P-732 (DONE); P-722 (QUEUED) |
+| SC:PREMISE | CHOSEN | thread | The chiral premise under which the scale card takes a single block. | docs/THE_SCALE_CARD_DESIGN_P722.md; P-731 (DONE) |
+| SC:R2 | CHOSEN | thread | Reading the exact block as a ratio of scales is an identification; the record holds no object-side reason for it. | docs/THE_SCALE_CARD_DESIGN_P722.md; P-722 (QUEUED) |
+| SC:R4 | CHOSEN | thread | The content that runs is the Standard Model's, borrowed. | docs/THE_SCALE_CARD_DESIGN_P722.md; P-722 (QUEUED) |
+| SC:RATIO | OPEN | thread | A dimensionless ratio of scales is not excluded; it waits on a principle that fixes the level and on an identification. | docs/POINT_REGISTER.md; P-719 (QUEUED); P-721 (QUEUED) |
+| SC:UNIT | DERIVED | weave | An absolute energy cannot come from the object: one outside unit is needed by any theory. | docs/POINT_REGISTER.md; B151; B660; P-719 (QUEUED) |
 
 ## 8. The lanes' conditional model (E₈ on the punctured elliptic curve)
 
-| id | grade | statement | where |
-|---|---|---|---|
-| E:GRADES | RECORD | The lanes' own grading: independent proof support, execution readiness, execution and banking are different facts; nothing of this model is banked on main. | PROGRESS_SINCE_MAIN_217E_2026_11_08.md @ 521e6f241; P-746 (QUEUED); P-749 (QUEUED); P-750 (QUEUED) |
-| E:J1 | OPEN | Missing join: an independently certified complete three-family matter roster. | CLAIM_DEPENDENCIES.md @ 5242c938 |
-| E:J2 | OPEN | Missing join: the certified physical charged-current coupling matrix. | CLAIM_DEPENDENCIES.md @ 5242c938 |
-| E:J3 | OPEN | Missing join: an independent review of the kernel theorem in the background without the extra Wilson line. | CLAIM_DEPENDENCIES.md @ 5242c938 |
-| E:J4 | OPEN | Missing join: chiral against vector-like. The kernel splits equally between conjugate representations. | CLAIM_DEPENDENCIES.md @ 5242c938 |
-| E:J5 | OPEN | Missing join: the map from the register to the fields' family structure. | CLAIM_DEPENDENCIES.md @ 5242c938 |
-| E:L01 | LANE-INPUT | The surface-group carrier: a faithful free register on two letters, realised on the once-punctured torus. Its necessity from non-cancellation is open. | INPUT_LEDGER.md @ 5242c938 |
-| E:L02 | LANE-INPUT | The parent: a compact E₈ gauge theory with a curved functional on the internal surface. Supplied, not earned. | MODEL_MANIFEST.md @ 5242c938 |
-| E:L03 | LANE-INPUT | The quaternion flavour holonomy and its lift to the parent, with core signs unselected. | INPUT_LEDGER.md @ 5242c938 |
-| E:L04 | LANE-INPUT | The modulus, the cusp metric, one length and one coupling: all unselected; the source keeps both the length and the coupling unreduced. | INPUT_LEDGER.md @ 5242c938 |
-| E:L05 | LANE-INPUT | The odd spin structure and the compensating lifts: conditional reductions, with the spin class and the lift unselected. | INPUT_LEDGER.md @ 5242c938 |
-| E:L06 | LANE-INPUT | The split of the parent, the coherent alternatives and the charges; the physical read-out of colour and electromagnetism is an unearned identification. | INPUT_LEDGER.md @ 5242c938 |
-| E:L07 | LANE-INPUT | The balanced background and the trivial Wilson line: unselected branch data; no selection law. | INPUT_LEDGER.md @ 5242c938 |
-| E:L08 | LANE-REVIEWED | The end law and the half-root sector's coercivity: reviewed inside the lane with one code gap open; the later counts are unreviewed. | INPUT_LEDGER.md @ 5242c938 |
-| E:L09 | LANE-PROPOSED | The four-slot mass map and the gauge-parameter operator: source-checked, the full transport unreviewed. | INPUT_LEDGER.md @ 5242c938 |
-| E:L10 | LANE-PROPOSED | The matter multiplicities: three coefficients per representation, as candidate counts; their reading as families is an unearned identification. | INPUT_LEDGER.md @ 5242c938 |
-| E:L11 | LANE-PROPOSED | The charged vectors come as a pair with left and right currents of equal size; a mechanism that breaks that parity is open. | INPUT_LEDGER.md @ 5242c938 |
-| E:L12 | LANE-PROPOSED | Small cyclic deformations do not split the pair; vacuum and scale selection, gravity and the observer are open in this model. | INPUT_LEDGER.md @ 5242c938 |
-| E:Q1 | OPEN | The lanes' first question: what suppresses the right-handed current? | INPUT_LEDGER.md @ 5242c938 |
-| E:Q2 | OPEN | Their second: the weak-current map, the neutral partners, chirality despite a zero net index, the Yukawa couplings, anomaly cancellation. | INPUT_LEDGER.md @ 5242c938 |
-| E:Q3 | OPEN | Their third: what confines the continuum, reduces the length and coupling to one anchor, and selects the surface, modulus, spin class and background. | INPUT_LEDGER.md @ 5242c938 |
+| id | grade | about | statement | where |
+|---|---|---|---|---|
+| E:GRADES | RECORD | record | The lanes' own grading: independent proof support, execution readiness, execution and banking are different facts; nothing of this model is banked on main. | PROGRESS_SINCE_MAIN_217E_2026_11_08.md @ 521e6f241; P-746 (QUEUED); P-749 (QUEUED); P-750 (QUEUED) |
+| E:J1 | OPEN | thread | Missing join: an independently certified complete three-family matter roster. | CLAIM_DEPENDENCIES.md @ 5242c938 |
+| E:J2 | OPEN | thread | Missing join: the certified physical charged-current coupling matrix. | CLAIM_DEPENDENCIES.md @ 5242c938 |
+| E:J3 | OPEN | thread | Missing join: an independent review of the kernel theorem in the background without the extra Wilson line. | CLAIM_DEPENDENCIES.md @ 5242c938 |
+| E:J4 | OPEN | thread | Missing join: chiral against vector-like. The kernel splits equally between conjugate representations. | CLAIM_DEPENDENCIES.md @ 5242c938 |
+| E:J5 | OPEN | thread | Missing join: the map from the register to the fields' family structure. | CLAIM_DEPENDENCIES.md @ 5242c938 |
+| E:L01 | LANE-INPUT | thread | The surface-group carrier: a faithful free register on two letters, realised on the once-punctured torus. Its necessity from non-cancellation is open. | INPUT_LEDGER.md @ 5242c938 |
+| E:L02 | LANE-INPUT | thread | The parent: a compact E₈ gauge theory with a curved functional on the internal surface. Supplied, not earned. | MODEL_MANIFEST.md @ 5242c938 |
+| E:L03 | LANE-INPUT | thread | The quaternion flavour holonomy and its lift to the parent, with core signs unselected. | INPUT_LEDGER.md @ 5242c938 |
+| E:L04 | LANE-INPUT | thread | The modulus, the cusp metric, one length and one coupling: all unselected; the source keeps both the length and the coupling unreduced. | INPUT_LEDGER.md @ 5242c938 |
+| E:L05 | LANE-INPUT | thread | The odd spin structure and the compensating lifts: conditional reductions, with the spin class and the lift unselected. | INPUT_LEDGER.md @ 5242c938 |
+| E:L06 | LANE-INPUT | thread | The split of the parent, the coherent alternatives and the charges; the physical read-out of colour and electromagnetism is an unearned identification. | INPUT_LEDGER.md @ 5242c938 |
+| E:L07 | LANE-INPUT | thread | The balanced background and the trivial Wilson line: unselected branch data; no selection law. | INPUT_LEDGER.md @ 5242c938 |
+| E:L08 | LANE-REVIEWED | thread | The end law and the half-root sector's coercivity: reviewed inside the lane with one code gap open; the later counts are unreviewed. | INPUT_LEDGER.md @ 5242c938 |
+| E:L09 | LANE-PROPOSED | thread | The four-slot mass map and the gauge-parameter operator: source-checked, the full transport unreviewed. | INPUT_LEDGER.md @ 5242c938 |
+| E:L10 | LANE-PROPOSED | thread | The matter multiplicities: three coefficients per representation, as candidate counts; their reading as families is an unearned identification. | INPUT_LEDGER.md @ 5242c938 |
+| E:L11 | LANE-PROPOSED | thread | The charged vectors come as a pair with left and right currents of equal size; a mechanism that breaks that parity is open. | INPUT_LEDGER.md @ 5242c938 |
+| E:L12 | LANE-PROPOSED | thread | Small cyclic deformations do not split the pair; vacuum and scale selection, gravity and the observer are open in this model. | INPUT_LEDGER.md @ 5242c938 |
+| E:Q1 | OPEN | thread | The lanes' first question: what suppresses the right-handed current? | INPUT_LEDGER.md @ 5242c938 |
+| E:Q2 | OPEN | thread | Their second: the weak-current map, the neutral partners, chirality despite a zero net index, the Yukawa couplings, anomaly cancellation. | INPUT_LEDGER.md @ 5242c938 |
+| E:Q3 | OPEN | thread | Their third: what confines the continuum, reduces the length and coupling to one anchor, and selects the surface, modulus, spin class and background. | INPUT_LEDGER.md @ 5242c938 |
 
 ## 9. Gravity
 
-| id | grade | statement | where |
-|---|---|---|---|
-| GR:3PLUS1 | DUTY | A dynamical 3+1-dimensional metric coupled to the same matter: not on the record, in any lane. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
-| GR:ACTION | DERIVED | The object's own 2+1-dimensional gravity: an exact vacuum solution with a one-term action and no free dimensionless constant. A fact about this construction. | docs/THE_FRAMEWORK.md; B1088; B1090 |
-| GR:VECTORLIKE | NEGATIVE | The matter of that theory, read in 2+1 dimensions, is vector-like by theorem. | docs/THE_FRAMEWORK.md; B1089 |
+| id | grade | about | statement | where |
+|---|---|---|---|---|
+| GR:3PLUS1 | DUTY | record | A dynamical 3+1-dimensional metric coupled to the same matter: not on the record, in any lane. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
+| GR:ACTION | DERIVED | thread | The object's own 2+1-dimensional gravity: an exact vacuum solution with a one-term action and no free dimensionless constant. A fact about this construction. | docs/THE_FRAMEWORK.md; B1088; B1090 |
+| GR:VECTORLIKE | NEGATIVE | thread | The matter of that theory, read in 2+1 dimensions, is vector-like by theorem. | docs/THE_FRAMEWORK.md; B1089 |
 
 ## 10. Cosmology
 
-| id | grade | statement | where |
-|---|---|---|---|
-| CO:S12 | DERIVED | Two of the three preconditions for a matter asymmetry stand as structure, and as preconditions only. | docs/THE_BANG_PROGRAMME.md; B867; P-712 (DONE) |
-| CO:S3 | NEGATIVE | The third precondition, a departure from equilibrium, is not established: the cubic once read as a barrier has no double well. | docs/THE_BANG_PROGRAMME.md; B295; B1341; P-712 (DONE); P-716 (QUEUED) |
+| id | grade | about | statement | where |
+|---|---|---|---|---|
+| CO:S12 | DERIVED | thread | Two of the three preconditions for a matter asymmetry stand as structure, and as preconditions only. | docs/THE_BANG_PROGRAMME.md; B867; P-712 (DONE) |
+| CO:S3 | NEGATIVE | thread | The third precondition, a departure from equilibrium, is not established: the cubic once read as a barrier has no double well. | docs/THE_BANG_PROGRAMME.md; B295; B1341; P-712 (DONE); P-716 (QUEUED) |
 
 ## 11. Predictions and falsifiers
 
-| id | grade | statement | where |
-|---|---|---|---|
-| PR:P10 | OPEN | The weave's one numerical forward prediction is live; its sibling reading was falsified. No value is read here. | docs/FALSIFIER_REGISTER.md; B1612; B1613; B1756; P-157 (QUEUED) |
-| PR:P2 | CONFIRMED | Charge quantisation: the register's one earned confirmation, and not unique to the framework. | docs/FALSIFIER_REGISTER.md |
-| PR:P3 | OPEN | The global form: untested, since no monopole exists to test it. | docs/FALSIFIER_REGISTER.md |
-| PR:P9 | CONDITIONAL | The extra neutral boson of the closing is not gaugeable on a chiral spectrum as it stands: the programme cannot hold both. | GENESIS.md; B1340; B1303 |
+| id | grade | about | statement | where |
+|---|---|---|---|---|
+| PR:P10 | OPEN | weave | The weave's one numerical forward prediction is live; its sibling reading was falsified. No value is read here. | docs/FALSIFIER_REGISTER.md; B1612; B1613; B1756; P-157 (QUEUED) |
+| PR:P2 | CONFIRMED | thread | Charge quantisation: the register's one earned confirmation, and not unique to the framework. | docs/FALSIFIER_REGISTER.md |
+| PR:P3 | OPEN | thread | The global form: untested, since no monopole exists to test it. | docs/FALSIFIER_REGISTER.md |
+| PR:P9 | CONDITIONAL | thread | The extra neutral boson of the closing is not gaugeable on a chiral spectrum as it stands: the programme cannot hold both. | GENESIS.md; B1340; B1303 |
 
 ## 12. The framing ledger's commitments
 
-| id | grade | statement | where |
-|---|---|---|---|
-| FL:01 | OPEN | Every physics reading of an object quantity is an identification (the listener map u); 37 ledger rows, 28 UNEARNED, none EARNED | docs/FRAMING_LEDGER.md; B1827 |
-| FL:02 | OPEN | All frames are flat bundles on a 3-manifold (GAP6): they reach counts and signs, not continuous values | docs/FRAMING_LEDGER.md; B1827 |
-| FL:03 | CHOSEN | Orientation: of m004 and its parent m000 take the orientable one, which is amphichiral (SE2) | docs/FRAMING_LEDGER.md; B1827 |
-| FL:04 | CHOSEN | The fibre modulus τ is free and detached from m004 (LR's apex Im τ = 1.12; no fixed line, det(LR − 1) = −1); the object is read through one fibre | docs/FRAMING_LEDGER.md; B1827 |
-| FL:05 | OPEN | No action: no dynamics for τ, no normalisation of the couplings, no gauge kinetic function, no scale | docs/FRAMING_LEDGER.md; B1827 |
-| FL:06 | UNSTATED | The Higgs's internal orientation S is built from i, j, k only (adjoint, no singlet channel), untwisted, one direction shared by the three sectors; the Higgs carries the flavour index | docs/FRAMING_LEDGER.md; B1827 |
-| FL:07 | UNSTATED | One address: one τ, one line, one point coupling for all sectors | docs/FRAMING_LEDGER.md; B1827 |
-| FL:08 | CHOSEN | The lines are "flat lines of order ≤ 12", priced uniformly (8.06 bits), rather than centre Wilson lines | docs/FRAMING_LEDGER.md; B1827 |
-| FL:09 | UNSTATED | No electroweak doublet index: the "doublet" is the fibre's rank-2 flat bundle with Q₈ monodromy; the SM's reading (conjugate Higgs for up) is imported by hand | docs/FRAMING_LEDGER.md; B1827 |
-| FL:10 | UNSTATED | The generations are three quaternion images of one doublet value at one point; no generation charge | docs/FRAMING_LEDGER.md; B1827 |
-| FL:11 | CHOSEN | Normalisation: the kinetic metric H = I; channel weights √(2πL + c_s) mixing a flat norm and cut with a hyperbolic radius; the radii read off B1667's Re τ = 1/4 column | docs/FRAMING_LEDGER.md; B1827 |
-| FL:12 | CHOSEN | The lepton factor c = 3 is inserted by hand | docs/FRAMING_LEDGER.md; B1827 |
-| FL:13 | CHOSEN | The frame's tree-level outputs are compared at M_Z with no renormalisation-group running and a flat 10% allowance in quadrature | docs/FRAMING_LEDGER.md; B1827 |
-| FL:14 | CHOSEN | Only the ten flavour numbers are graded; inter-sector ratios (y_b/y_t, y_τ/y_t), gauge couplings, the Higgs, PMNS and θ̄ never are | docs/FRAMING_LEDGER.md; B1827 |
-| FL:15 | CHOSEN | A value at σ, or nothing: the bar grades values, not relations | docs/FRAMING_LEDGER.md; B1827 |
-| FL:16 | UNSTATED | θ̄ is a nineteenth unknown, not a constraint | docs/FRAMING_LEDGER.md; B1827 |
-| FL:17 | CHOSEN | Specificity against random hierarchies, with the frame's own CKM marginal as the null for the four, at the joint look count | docs/FRAMING_LEDGER.md; B1827 |
-| FL:18 | CHOSEN | Reach cutoffs: lines of order ≤ 12, Im τ ∈ [1, 4], nine values of c | docs/FRAMING_LEDGER.md; B1827 |
-| FL:19 | CHOSEN | The headline counts a question the record retired: "0 of 19" counts Tier 4 (WHAT_WOULD_COUNT l. 376–382: "not a live criterion"); the owner's restated goal (2026-10-08: the structure, and how many free numbers) is answered on record — "all … | docs/FRAMING_LEDGER.md; B1827 |
-| FL:20 | CONDITIONAL | No route by which a frame earns its dictionary: every positive is a READING while FK11 is UNEARNED (KIND_TABLE l. 125), FK11 is UNEARNABLE within F-HE and F-CI (GENESIS l. 424), PASSED never suffices for DERIVED (THE_BAR l. 72) | docs/FRAMING_LEDGER.md; B1827 |
-| FL:21 | UNSTATED | No declared scale and no running (FL-13, quantified) | docs/FRAMING_LEDGER.md; B1827 |
-| FL:22 | CHOSEN | A uniform 10% allowance in place of a theory error the frame declares and pays for | docs/FRAMING_LEDGER.md; B1827 |
-| FL:23 | CHOSEN | The frame's own description length is not charged in K ("cancels against the null") | docs/FRAMING_LEDGER.md; B1827 |
-| FL:24 | CHOSEN | One joint look ledger for every decisive cell | docs/FRAMING_LEDGER.md; B1827 |
-| FL:25 | CHOSEN | The decisive nulls randomise the world, never the object or the frame | docs/FRAMING_LEDGER.md; B1827 |
-| FL:26 | OPEN | Structural grades use two comparison classes: ℤ₆ and the hypercharge direction DERIVED against the SM, sin²θ_W = 3/8 REPRODUCED against the GUT class (WHAT_WOULD_COUNT l. 74–75, 93–97) | docs/FRAMING_LEDGER.md; B1827 |
-| FL:27 | CHOSEN | Weave principle, thread tests: B1825 labels itself a thread result while a thread result is "never the answer to a weave question" | docs/FRAMING_LEDGER.md; B1827 |
+| id | grade | about | statement | where |
+|---|---|---|---|---|
+| FL:01 | OPEN | n/a | Every physics reading of an object quantity is an identification (the listener map u); 37 ledger rows, 28 UNEARNED, none EARNED | docs/FRAMING_LEDGER.md; B1827 |
+| FL:02 | OPEN | n/a | All frames are flat bundles on a 3-manifold (GAP6): they reach counts and signs, not continuous values | docs/FRAMING_LEDGER.md; B1827 |
+| FL:03 | CHOSEN | n/a | Orientation: of m004 and its parent m000 take the orientable one, which is amphichiral (SE2) | docs/FRAMING_LEDGER.md; B1827 |
+| FL:04 | CHOSEN | n/a | The fibre modulus τ is free and detached from m004 (LR's apex Im τ = 1.12; no fixed line, det(LR − 1) = −1); the object is read through one fibre | docs/FRAMING_LEDGER.md; B1827 |
+| FL:05 | OPEN | n/a | No action: no dynamics for τ, no normalisation of the couplings, no gauge kinetic function, no scale | docs/FRAMING_LEDGER.md; B1827 |
+| FL:06 | UNSTATED | n/a | The Higgs's internal orientation S is built from i, j, k only (adjoint, no singlet channel), untwisted, one direction shared by the three sectors; the Higgs carries the flavour index | docs/FRAMING_LEDGER.md; B1827 |
+| FL:07 | UNSTATED | n/a | One address: one τ, one line, one point coupling for all sectors | docs/FRAMING_LEDGER.md; B1827 |
+| FL:08 | CHOSEN | n/a | The lines are "flat lines of order ≤ 12", priced uniformly (8.06 bits), rather than centre Wilson lines | docs/FRAMING_LEDGER.md; B1827 |
+| FL:09 | UNSTATED | n/a | No electroweak doublet index: the "doublet" is the fibre's rank-2 flat bundle with Q₈ monodromy; the SM's reading (conjugate Higgs for up) is imported by hand | docs/FRAMING_LEDGER.md; B1827 |
+| FL:10 | UNSTATED | n/a | The generations are three quaternion images of one doublet value at one point; no generation charge | docs/FRAMING_LEDGER.md; B1827 |
+| FL:11 | CHOSEN | n/a | Normalisation: the kinetic metric H = I; channel weights √(2πL + c_s) mixing a flat norm and cut with a hyperbolic radius; the radii read off B1667's Re τ = 1/4 column | docs/FRAMING_LEDGER.md; B1827 |
+| FL:12 | CHOSEN | n/a | The lepton factor c = 3 is inserted by hand | docs/FRAMING_LEDGER.md; B1827 |
+| FL:13 | CHOSEN | n/a | The frame's tree-level outputs are compared at M_Z with no renormalisation-group running and a flat 10% allowance in quadrature | docs/FRAMING_LEDGER.md; B1827 |
+| FL:14 | CHOSEN | n/a | Only the ten flavour numbers are graded; inter-sector ratios (y_b/y_t, y_τ/y_t), gauge couplings, the Higgs, PMNS and θ̄ never are | docs/FRAMING_LEDGER.md; B1827 |
+| FL:15 | CHOSEN | n/a | A value at σ, or nothing: the bar grades values, not relations | docs/FRAMING_LEDGER.md; B1827 |
+| FL:16 | UNSTATED | n/a | θ̄ is a nineteenth unknown, not a constraint | docs/FRAMING_LEDGER.md; B1827 |
+| FL:17 | CHOSEN | n/a | Specificity against random hierarchies, with the frame's own CKM marginal as the null for the four, at the joint look count | docs/FRAMING_LEDGER.md; B1827 |
+| FL:18 | CHOSEN | n/a | Reach cutoffs: lines of order ≤ 12, Im τ ∈ [1, 4], nine values of c | docs/FRAMING_LEDGER.md; B1827 |
+| FL:19 | CHOSEN | n/a | The headline counts a question the record retired: "0 of 19" counts Tier 4 (WHAT_WOULD_COUNT l. 376–382: "not a live criterion"); the owner's restated goal (2026-10-08: the structure, and how many free numbers) is answered on record — "all … | docs/FRAMING_LEDGER.md; B1827 |
+| FL:20 | CONDITIONAL | n/a | No route by which a frame earns its dictionary: every positive is a READING while FK11 is UNEARNED (KIND_TABLE l. 125), FK11 is UNEARNABLE within F-HE and F-CI (GENESIS l. 424), PASSED never suffices for DERIVED (THE_BAR l. 72) | docs/FRAMING_LEDGER.md; B1827 |
+| FL:21 | UNSTATED | n/a | No declared scale and no running (FL-13, quantified) | docs/FRAMING_LEDGER.md; B1827 |
+| FL:22 | CHOSEN | n/a | A uniform 10% allowance in place of a theory error the frame declares and pays for | docs/FRAMING_LEDGER.md; B1827 |
+| FL:23 | CHOSEN | n/a | The frame's own description length is not charged in K ("cancels against the null") | docs/FRAMING_LEDGER.md; B1827 |
+| FL:24 | CHOSEN | n/a | One joint look ledger for every decisive cell | docs/FRAMING_LEDGER.md; B1827 |
+| FL:25 | CHOSEN | n/a | The decisive nulls randomise the world, never the object or the frame | docs/FRAMING_LEDGER.md; B1827 |
+| FL:26 | OPEN | n/a | Structural grades use two comparison classes: ℤ₆ and the hypercharge direction DERIVED against the SM, sin²θ_W = 3/8 REPRODUCED against the GUT class (WHAT_WOULD_COUNT l. 74–75, 93–97) | docs/FRAMING_LEDGER.md; B1827 |
+| FL:27 | CHOSEN | n/a | Weave principle, thread tests: B1825 labels itself a thread result while a thread result is "never the answer to a weave question" | docs/FRAMING_LEDGER.md; B1827 |
 
 ## 13. The completion duties (the physical lane's checklist)
 
-| id | grade | statement | where |
-|---|---|---|---|
-| D:01 | DUTY | Operational foundations: the register data, compositions, equivalences and observables, complete relative to the grammar. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
-| D:02 | DUTY | The physical dictionary: derive or price spacetime, fields, gauge algebra, representations, norms and statistics. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
-| D:03 | DUTY | Common dynamics: one globally stationary construction from one action, with positive norms and complete domains. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
-| D:04 | DUTY | The boundary and source law: the full non-linear response, not a selected amplitude or projector. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
-| D:05 | DUTY | The gauge and Higgs sector: the actual interactions, charge normalisation, global structure and a controlled Higgs phase. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
-| D:06 | DUTY | The spectrum: all fermions, exactly three complete chiral families, from the actual operator and domain. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
-| D:07 | DUTY | Normalised interactions: the real left and right weak currents, Yukawa couplings and kinetic normalisation. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
-| D:08 | DUTY | Quantum consistency: anomalies, inflow, a positive state space and unitary evolution. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
-| D:09 | DUTY | Full mode accounting: conjugates, mirror partners, extra modes, towers and continua, with thresholds or decoupling. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
-| D:10 | DUTY | Quantitative particle physics: couplings, the Higgs potential, masses, mixing and CP, neutrinos, with running and uncertainty. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
-| D:11 | DUTY | Gravity and cosmology: a dynamical 3+1 geometry coupled to the same matter. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
-| D:12 | DUTY | Selection and input reduction: derive the carrier, metric, holonomy, state and measure, or prove the residual freedom. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
-| D:13 | DUTY | Predictivity: fixed-prescription comparisons not used to select or calibrate the model. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
-| D:14 | DUTY | Evidence: non-authoring review, acceptance, admitted reproducible execution and preserved failures. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
+| id | grade | about | statement | where |
+|---|---|---|---|---|
+| D:01 | DUTY | n/a | Operational foundations: the register data, compositions, equivalences and observables, complete relative to the grammar. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
+| D:02 | DUTY | n/a | The physical dictionary: derive or price spacetime, fields, gauge algebra, representations, norms and statistics. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
+| D:03 | DUTY | n/a | Common dynamics: one globally stationary construction from one action, with positive norms and complete domains. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
+| D:04 | DUTY | n/a | The boundary and source law: the full non-linear response, not a selected amplitude or projector. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
+| D:05 | DUTY | n/a | The gauge and Higgs sector: the actual interactions, charge normalisation, global structure and a controlled Higgs phase. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
+| D:06 | DUTY | n/a | The spectrum: all fermions, exactly three complete chiral families, from the actual operator and domain. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
+| D:07 | DUTY | n/a | Normalised interactions: the real left and right weak currents, Yukawa couplings and kinetic normalisation. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
+| D:08 | DUTY | n/a | Quantum consistency: anomalies, inflow, a positive state space and unitary evolution. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
+| D:09 | DUTY | n/a | Full mode accounting: conjugates, mirror partners, extra modes, towers and continua, with thresholds or decoupling. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
+| D:10 | DUTY | n/a | Quantitative particle physics: couplings, the Higgs potential, masses, mixing and CP, neutrinos, with running and uncertainty. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
+| D:11 | DUTY | n/a | Gravity and cosmology: a dynamical 3+1 geometry coupled to the same matter. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
+| D:12 | DUTY | n/a | Selection and input reduction: derive the carrier, metric, holonomy, state and measure, or prove the residual freedom. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
+| D:13 | DUTY | n/a | Predictivity: fixed-prescription comparisons not used to select or calibrate the model. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
+| D:14 | DUTY | n/a | Evidence: non-authoring review, acceptance, admitted reproducible execution and preserved failures. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
 
 ## 14. The closure nodes
 
@@ -283,6 +290,7 @@ by a quote that the builder checks.*
 | X:SELECT | THE SELECTION. What makes a state, a line or a background the physical one. A postulate at the root, open above it, unselected data in the lanes' model. | 13 | D:03, D:12 |
 | X:SOURCE | THE DYNAMICS. A potential, a breaking, a running or a source that fixes a value. Structure exists; nothing has been turned into one. | 10 | D:03, D:04, D:10 |
 | X:TAU | THE MODULUS. What fixes τ. Fitted in both value frames, unselected in the lanes' model, forced by nothing on the weave; a rule exists that is conditional on a chosen framing and three further choices. | 11 | D:10, D:12 |
+| X:WEIGHT | THE WEIGHT. If everything allowed happens, how much of each. The law fixes what exists and not its weight; a thread picked by hand and a flat average are the two ways of supplying the weight without deriving it. | 11 | D:10, D:12, D:13 |
 
 ## 15. The register's open debts
 

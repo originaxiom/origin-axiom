@@ -39,9 +39,9 @@ def test_the_grades_are_kept_apart():
     for e in EDGES:
         if e["kind"] == "requires" and by[e["src"]]["grade"] == "DERIVED":
             assert not by[e["dst"]]["grade"].startswith("LANE"), (e["src"], e["dst"])
-    # the ten closure nodes, each with members and at least one duty blocked
+    # the closure nodes, each with members and at least one duty blocked
     xs = [n for n in NODES if n["kind"] == "closure"]
-    assert len(xs) == 10 and all(n["members"] and n["duties_blocked"] for n in xs)
+    assert len(xs) == 11 and all(n["members"] and n["duties_blocked"] for n in xs)
     assert by["V:0OF19"]["grade"] == "RECORD" and by["V:SIX"]["grade"] == "READING"
 
 
@@ -55,3 +55,21 @@ def test_a_planted_error_is_caught():
         bm.S.NODES[0]["pins"] = saved
     assert any("quote not found" in f for f in fails)
     assert bm.build()[3] == []
+
+
+def test_weave_or_thread_is_labelled_and_kept_apart():
+    """THE WEAVE's test: every node of the spine says what it is stated about, and no weave result rests on a thread."""
+    by = {n["id"]: n for n in NODES}
+    assert all(n.get("weave_or_thread") in ("weave", "thread", "list", "record", "n/a") for n in NODES)
+    assert by["G:ROOT"]["weave_or_thread"] == "thread" and by["MC:Z6"]["weave_or_thread"] == "thread"
+    assert by["W:T"]["weave_or_thread"] == "weave" and by["V:SIX"]["weave_or_thread"] == "thread"
+    for e in EDGES:
+        if e["kind"] == "requires" and by[e["src"]]["weave_or_thread"] == "weave" and by[e["src"]]["grade"] in ("DERIVED", "CONDITIONAL", "NEGATIVE"):
+            assert by[e["dst"]]["weave_or_thread"] not in ("thread", "list"), (e["src"], e["dst"])
+    # MB12: the check can fail -- a weave result made to rest on a thread is refused
+    bm.S.EDGES.append(dict(src="W:T", kind="requires", dst="G:SE2", grade="DERIVED", note="planted"))
+    try:
+        fails = bm.build()[3]
+    finally:
+        bm.S.EDGES.pop()
+    assert any("a weave result rests on a thread" in f for f in fails)

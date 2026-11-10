@@ -15,6 +15,7 @@
   "arcs": [],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "weave",
   "genesis_status_cell": "POSTULATED |"
  },
  {
@@ -32,7 +33,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "weave"
  },
  {
   "id": "G:PF2",
@@ -54,6 +56,7 @@
   "arcs": [],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "weave",
   "genesis_status_cell": "POSTULATED |"
  },
  {
@@ -72,6 +75,7 @@
   "arcs": [],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "weave",
   "genesis_status_cell": "POSTULATED |"
  },
  {
@@ -104,6 +108,7 @@
    "P-221": "DONE",
    "P-211": "DONE"
   },
+  "weave_or_thread": "weave",
   "genesis_status_cell": "**POSTULATED, in an equivalent form [v1.50]** (DERIVED given one input at v1.49, regraded;"
  },
  {
@@ -122,6 +127,7 @@
   "arcs": [],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "weave",
   "genesis_status_cell": "POSTULATED"
  },
  {
@@ -140,6 +146,7 @@
   "arcs": [],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "weave",
   "genesis_status_cell": "POSTULATED (cheap)"
  },
  {
@@ -166,6 +173,7 @@
   "rows_live": {
    "P-321": "QUEUED"
   },
+  "weave_or_thread": "weave",
   "genesis_status_cell": "POSTULATED, the puncture CONDITIONAL"
  },
  {
@@ -184,6 +192,7 @@
   "arcs": [],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "weave",
   "genesis_status_cell": "POSTULATED"
  },
  {
@@ -208,6 +217,7 @@
   ],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "weave",
   "genesis_status_cell": "**ADOPTED [v1.48]** (the owner's ruling of 2026-10-16 on P-179, made by the math; B1662)"
  },
  {
@@ -235,6 +245,7 @@
   ],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "weave",
   "genesis_status_cell": "OPEN"
  },
  {
@@ -257,6 +268,7 @@
   "arcs": [],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "weave",
   "genesis_status_cell": "CHOSEN"
  },
  {
@@ -278,7 +290,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "G:SE1",
@@ -296,6 +309,7 @@
   "arcs": [],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "thread",
   "genesis_status_cell": "POSTULATED"
  },
  {
@@ -320,6 +334,7 @@
   ],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "thread",
   "genesis_status_cell": "CHOSEN"
  },
  {
@@ -340,6 +355,7 @@
   ],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "thread",
   "genesis_status_cell": "DERIVED"
  },
  {
@@ -364,7 +380,8 @@
    "B1439"
   ],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "list"
  },
  {
   "id": "G:XGEN-PHYS",
@@ -385,7 +402,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "weave"
  },
  {
   "id": "G:FK10",
@@ -403,6 +421,7 @@
   "arcs": [],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "weave",
   "genesis_status_cell": "OPEN **[v1.37] The owner's ruling of 2026-10-09 (relayed by the SM seat, its relay §49): k"
  },
  {
@@ -428,6 +447,7 @@
   ],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "weave",
   "genesis_status_cell": "UNEARNED — **[v1.60] earnable BY PREDICTION within a frame (GAP1's v1.60 rule; the owner's"
  },
  {
@@ -446,6 +466,7 @@
   "arcs": [],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "weave",
   "genesis_status_cell": "OPEN"
  },
  {
@@ -466,6 +487,7 @@
   ],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "weave",
   "genesis_status_cell": "**[v1.13] RULED BY THE PRINCIPLE** (main B1480; the owner, 2026-10-07: \"it's not up to me,"
  },
  {
@@ -488,6 +510,7 @@
   ],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "weave",
   "genesis_status_cell": "OPEN"
  },
  {
@@ -506,6 +529,7 @@
   "arcs": [],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "weave",
   "genesis_status_cell": "OPEN"
  },
  {
@@ -524,6 +548,7 @@
   "arcs": [],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "thread",
   "genesis_status_cell": "CHOSEN"
  },
  {
@@ -542,6 +567,7 @@
   "arcs": [],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "weave",
   "genesis_status_cell": "OPEN"
  },
  {
@@ -564,6 +590,7 @@
   "rows_live": {
    "P-321": "QUEUED"
   },
+  "weave_or_thread": "weave",
   "genesis_status_cell": "OPEN"
  },
  {
@@ -582,6 +609,7 @@
   "arcs": [],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "thread",
   "genesis_status_cell": "OPEN"
  },
  {
@@ -600,6 +628,7 @@
   "arcs": [],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "weave",
   "genesis_status_cell": "OPEN"
  },
  {
@@ -618,6 +647,7 @@
   "arcs": [],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "weave",
   "genesis_status_cell": "OPEN"
  },
  {
@@ -635,7 +665,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "weave"
  },
  {
   "id": "G:GAP2",
@@ -652,7 +683,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "weave"
  },
  {
   "id": "G:GAP3",
@@ -673,7 +705,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "weave"
  },
  {
   "id": "G:GAP4",
@@ -694,7 +727,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "weave"
  },
  {
   "id": "G:GAP5",
@@ -719,7 +753,8 @@
   "note": "",
   "rows_live": {
    "P-138": "QUEUED"
-  }
+  },
+  "weave_or_thread": "weave"
  },
  {
   "id": "G:GAP6",
@@ -736,7 +771,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "weave"
  },
  {
   "id": "TAG:LAMBDA",
@@ -753,7 +789,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "weave"
  },
  {
   "id": "TAG:UNIT",
@@ -776,7 +813,80 @@
    "B1629"
   ],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "weave"
+ },
+ {
+  "id": "W:CLOCK",
+  "layer": "3 weave",
+  "kind": "choice",
+  "grade": "CHOSEN",
+  "text": "The clock: whether the weave is counted by moves or followed by geometric length. Nothing on the record forces it.",
+  "pins": [
+   [
+    "frontier/B1815_the_records_walk_has_minkowskis_exit_law_exactly/arc_verdict.json",
+    "The clock stays CHOSEN."
+   ],
+   [
+    "docs/POINT_REGISTER.md",
+    "is the weave's time the move count (discrete; the coding's maximal entropy) or the geodesic flow (continuous; Liouville)?"
+   ]
+  ],
+  "rows": [
+   "P-439",
+   "P-438"
+  ],
+  "arcs": [
+   "B1815"
+  ],
+  "note": "",
+  "rows_live": {
+   "P-439": "QUEUED",
+   "P-438": "DONE"
+  },
+  "weave_or_thread": "weave"
+ },
+ {
+  "id": "W:DRAW",
+  "layer": "3 weave",
+  "kind": "theorem",
+  "grade": "NEGATIVE",
+  "text": "The measured six read as a draw from the weave's own measure: the sealed test does not separate the two clocks, and could not have; consistent, not specific.",
+  "pins": [
+   [
+    "frontier/B1814_the_measured_world_as_a_draw_from_the_weaves_own_measure/arc_verdict.json",
+    "the six do not separate B1813's two clocks"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1814"
+  ],
+  "note": "",
+  "rows_live": {},
+  "weave_or_thread": "weave"
+ },
+ {
+  "id": "W:FLAT-SUM",
+  "layer": "3 weave",
+  "kind": "claim",
+  "grade": "LANE-PROPOSED",
+  "text": "Any sum over all threads is mirror-even whatever its weights, and the democratic sum is flat by equidistribution; every other form selects only through a number it does not force. The SM seat's reading, read on main with its quotes checked.",
+  "pins": [
+   [
+    "docs/HARVEST_LEDGER.md",
+    "any sum over all threads is mirror-even whatever its weights"
+   ]
+  ],
+  "rows": [
+   "P-413"
+  ],
+  "arcs": [],
+  "note": "",
+  "rows_live": {
+   "P-413": "DONE"
+  },
+  "weave_or_thread": "weave"
  },
  {
   "id": "W:G96",
@@ -799,7 +909,8 @@
    "B1611"
   ],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "weave"
  },
  {
   "id": "W:HANDS",
@@ -820,7 +931,8 @@
    "B1610"
   ],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "weave"
  },
  {
   "id": "W:INDEX3",
@@ -840,7 +952,62 @@
    "B1641"
   ],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "weave"
+ },
+ {
+  "id": "W:LAW",
+  "layer": "3 weave",
+  "kind": "premise",
+  "grade": "OPEN",
+  "text": "The law as the owner states it: if something is allowed to happen, it happens. On the record it is the weave's rule of method, and as a physical law a hypothesis to test, not a premise.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "\"if it can happen it will\" — plenitude, a hypothesis to test, not a premise"
+   ],
+   [
+    "docs/THE_WEAVE.md",
+    "interaction between objects in relationship should produce reality, not single objects alone"
+   ]
+  ],
+  "rows": [
+   "P-755",
+   "P-756"
+  ],
+  "arcs": [],
+  "note": "",
+  "rows_live": {
+   "P-755": "OWNER",
+   "P-756": "QUEUED"
+  },
+  "weave_or_thread": "weave"
+ },
+ {
+  "id": "W:MEASURE",
+  "layer": "3 weave",
+  "kind": "theorem",
+  "grade": "DERIVED",
+  "text": "Run with nothing forced, the threads produce a definite measure for each way of counting them, and the measures differ: counted move by move the weight keeps out of the cusp; counted by geometric length it is hyperbolic area.",
+  "pins": [
+   [
+    "frontier/B1813_the_weaves_own_measure_depends_on_how_its_threads_are_counted/arc_verdict.json",
+    "THE WEAVE'S OWN MEASURE DEPENDS ON HOW ITS THREADS ARE COUNTED"
+   ]
+  ],
+  "rows": [
+   "P-437",
+   "P-439"
+  ],
+  "arcs": [
+   "B1813"
+  ],
+  "note": "",
+  "rows_live": {
+   "P-437": "DONE",
+   "P-439": "QUEUED"
+  },
+  "weave_or_thread": "weave"
  },
  {
   "id": "W:MIRROR-EVEN",
@@ -859,7 +1026,28 @@
    "B1487"
   ],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "weave"
+ },
+ {
+  "id": "W:NO-ATOM",
+  "layer": "3 weave",
+  "kind": "theorem",
+  "grade": "NEGATIVE",
+  "text": "Under the weave's uniform measure nothing the principle forces gives the cusp a weight: no atom. Scoped: other measures and other dynamics are not excluded.",
+  "pins": [
+   [
+    "frontier/B1629_does_the_principle_reach_the_weaves_cusp/arc_verdict.json",
+    "nothing the principle forces visits the cusp"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1629"
+  ],
+  "note": "",
+  "rows_live": {},
+  "weave_or_thread": "weave"
  },
  {
   "id": "W:NOMOD",
@@ -878,7 +1066,8 @@
    "B1617"
   ],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "weave"
  },
  {
   "id": "W:NOVAL",
@@ -900,7 +1089,8 @@
    "B1616"
   ],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "weave"
  },
  {
   "id": "W:ONE-END",
@@ -919,7 +1109,8 @@
    "B1487"
   ],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "weave"
  },
  {
   "id": "W:Q8",
@@ -939,7 +1130,8 @@
    "B1679"
   ],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "weave"
  },
  {
   "id": "W:T",
@@ -956,7 +1148,29 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "weave"
+ },
+ {
+  "id": "W:WALK",
+  "layer": "3 weave",
+  "kind": "theorem",
+  "grade": "DERIVED",
+  "text": "The moves' own walk gives the move-by-move measure exactly (Minkowski's), singular to area, at every strength of the pull-back.",
+  "pins": [
+   [
+    "frontier/B1815_the_records_walk_has_minkowskis_exit_law_exactly/arc_verdict.json",
+    "THE RECORD'S WALK HAS MINKOWSKI'S EXIT LAW, EXACTLY"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1815",
+   "B1663"
+  ],
+  "note": "",
+  "rows_live": {},
+  "weave_or_thread": "weave"
  },
  {
   "id": "MC:ALG",
@@ -976,7 +1190,8 @@
    "B992"
   ],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "MC:CS0",
@@ -997,7 +1212,8 @@
    "B1226"
   ],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "MC:CUBIC",
@@ -1018,7 +1234,8 @@
    "B987"
   ],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "MC:END",
@@ -1042,7 +1259,8 @@
    "B994"
   ],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "MC:GEN",
@@ -1065,7 +1283,8 @@
   "note": "P-606: B298's 'a degree-2 trace field means multiplicities in {1, 2}, never 3' is false as an implication and is still cited as prior.",
   "rows_live": {
    "P-606": "QUEUED"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "MC:GENERIC",
@@ -1085,7 +1304,8 @@
    "B996"
   ],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "list"
  },
  {
   "id": "MC:HYP",
@@ -1106,7 +1326,8 @@
   "note": "P-374: the typed-data counts are owed a re-read; the page flags one input as a superseded count still counting.",
   "rows_live": {
    "P-374": "QUEUED"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "MC:PRICE",
@@ -1125,7 +1346,8 @@
    "B1266"
   ],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "MC:REACH",
@@ -1142,7 +1364,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "MC:UNIQ",
@@ -1173,7 +1396,8 @@
   "rows_live": {
    "P-318": "QUEUED",
    "P-618": "QUEUED"
-  }
+  },
+  "weave_or_thread": "list"
  },
  {
   "id": "MC:Y",
@@ -1193,7 +1417,8 @@
    "B991"
   ],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "MC:Z6",
@@ -1223,7 +1448,8 @@
   "rows_live": {
    "P-604": "DONE",
    "P-581": "QUEUED"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "A:A01",
@@ -1256,7 +1482,8 @@
   "frame": "A",
   "rows_live": {
    "P-629": "QUEUED"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "A:A02",
@@ -1293,7 +1520,8 @@
    "P-384": "QUEUED",
    "P-625": "DECLINED",
    "P-718": "QUEUED"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "A:A03",
@@ -1330,7 +1558,8 @@
    "P-384": "QUEUED",
    "P-707": "DONE",
    "P-718": "QUEUED"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "A:A04",
@@ -1363,7 +1592,8 @@
   "frame": "A",
   "rows_live": {
    "P-366": "DONE"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "A:A05",
@@ -1396,7 +1626,8 @@
   "frame": "A",
   "rows_live": {
    "P-295": "QUEUED"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "A:A07",
@@ -1433,7 +1664,8 @@
    "P-421": "DONE",
    "P-706": "DONE",
    "P-707": "DONE"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "A:A08",
@@ -1468,7 +1700,8 @@
   "rows_live": {
    "P-531": "QUEUED",
    "P-705": "DONE"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "A:A09",
@@ -1501,7 +1734,8 @@
   "frame": "A",
   "rows_live": {
    "P-421": "DONE"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "A:A10",
@@ -1532,7 +1766,8 @@
   "rows_live": {
    "P-446": "QUEUED",
    "P-706": "DONE"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "A:A11",
@@ -1565,7 +1800,8 @@
   "frame": "A",
   "rows_live": {
    "P-555": "QUEUED"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "A:A12",
@@ -1598,7 +1834,8 @@
   "frame": "A",
   "rows_live": {
    "P-570": "DONE"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "B:FRAME",
@@ -1637,7 +1874,8 @@
   "rows_live": {
    "P-624": "QUEUED",
    "P-661": "DONE"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "FA:F1",
@@ -1666,7 +1904,8 @@
   ],
   "same_as": "",
   "frame": "main's frame, as used by frame B",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "FA:F2",
@@ -1695,7 +1934,8 @@
   ],
   "same_as": "",
   "frame": "main's frame, as used by frame B",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "FA:F3",
@@ -1724,7 +1964,8 @@
   ],
   "same_as": "",
   "frame": "main's frame, as used by frame B",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "FA:F4",
@@ -1753,7 +1994,8 @@
   ],
   "same_as": "",
   "frame": "main's frame, as used by frame B",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "FA:F5",
@@ -1775,7 +2017,8 @@
   "rows_fed_names": [],
   "same_as": "",
   "frame": "main's frame, as used by frame B",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "FA:F6",
@@ -1797,7 +2040,8 @@
   "rows_fed_names": [],
   "same_as": "",
   "frame": "main's frame, as used by frame B",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "FA:F7",
@@ -1819,7 +2063,8 @@
   "rows_fed_names": [],
   "same_as": "",
   "frame": "main's frame, as used by frame B",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "S:S01",
@@ -1845,7 +2090,8 @@
   "frame": "shared",
   "rows_live": {
    "P-571": "QUEUED"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "S:S02",
@@ -1867,7 +2113,8 @@
   "rows_fed_names": [],
   "same_as": "",
   "frame": "shared",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "V:0OF19",
@@ -1892,7 +2139,8 @@
   "note": "",
   "rows_live": {
    "P-579": "QUEUED"
-  }
+  },
+  "weave_or_thread": "record"
  },
  {
   "id": "V:EARN-RULE",
@@ -1912,7 +2160,8 @@
    "B1843"
   ],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "record"
  },
  {
   "id": "V:HELD",
@@ -1937,7 +2186,8 @@
    "P-709": "DONE",
    "P-585": "QUEUED",
    "P-597": "QUEUED"
-  }
+  },
+  "weave_or_thread": "record"
  },
  {
   "id": "V:SIX",
@@ -1973,7 +2223,8 @@
    "P-384": "QUEUED",
    "P-586": "QUEUED",
    "P-596": "QUEUED"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "V:WALL",
@@ -1995,7 +2246,8 @@
    "B1006"
   ],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "T:CHARGE5",
@@ -2022,7 +2274,8 @@
   "rows_live": {
    "P-717": "QUEUED",
    "P-738": "DONE"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "T:FRAMING",
@@ -2049,7 +2302,8 @@
   "rows_live": {
    "P-726": "DONE",
    "P-714": "QUEUED"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "T:IM",
@@ -2077,7 +2331,8 @@
   "note": "",
   "rows_live": {
    "P-739": "QUEUED"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "T:MINIM",
@@ -2096,7 +2351,8 @@
    "B1853"
   ],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "T:NO-PLACE",
@@ -2125,7 +2381,8 @@
   "note": "",
   "rows_live": {
    "P-713": "DONE"
-  }
+  },
+  "weave_or_thread": "weave"
  },
  {
   "id": "T:POINT-WEIGHT",
@@ -2148,7 +2405,8 @@
   "rows_live": {
    "P-726": "DONE",
    "P-744": "QUEUED"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "T:PRICED",
@@ -2171,7 +2429,8 @@
   "rows_live": {
    "P-714": "QUEUED",
    "P-708": "DONE"
-  }
+  },
+  "weave_or_thread": "record"
  },
  {
   "id": "T:RE",
@@ -2198,7 +2457,8 @@
   "note": "",
   "rows_live": {
    "P-751": "DONE"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "T:RULE",
@@ -2224,7 +2484,8 @@
   "rows_live": {
    "P-714": "QUEUED",
    "P-727": "DONE"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "SC:CARD",
@@ -2247,7 +2508,8 @@
   "rows_live": {
    "P-732": "DONE",
    "P-722": "QUEUED"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "SC:PREMISE",
@@ -2268,7 +2530,8 @@
   "note": "",
   "rows_live": {
    "P-731": "DONE"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "SC:R2",
@@ -2293,7 +2556,8 @@
   "note": "",
   "rows_live": {
    "P-722": "QUEUED"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "SC:R4",
@@ -2314,7 +2578,8 @@
   "note": "",
   "rows_live": {
    "P-722": "QUEUED"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "SC:RATIO",
@@ -2337,7 +2602,8 @@
   "rows_live": {
    "P-719": "QUEUED",
    "P-721": "QUEUED"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "SC:UNIT",
@@ -2361,7 +2627,8 @@
   "note": "",
   "rows_live": {
    "P-719": "QUEUED"
-  }
+  },
+  "weave_or_thread": "weave"
  },
  {
   "id": "E:GRADES",
@@ -2394,7 +2661,8 @@
    "P-749": "QUEUED",
    "P-750": "QUEUED",
    "P-752": "QUEUED"
-  }
+  },
+  "weave_or_thread": "record"
  },
  {
   "id": "E:J1",
@@ -2412,7 +2680,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "E:J2",
@@ -2430,7 +2699,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "E:J3",
@@ -2448,7 +2718,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "E:J4",
@@ -2466,7 +2737,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "E:J5",
@@ -2484,7 +2756,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "E:L01",
@@ -2502,7 +2775,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "E:L02",
@@ -2525,7 +2799,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "E:L03",
@@ -2543,7 +2818,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "E:L04",
@@ -2561,7 +2837,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "E:L05",
@@ -2579,7 +2856,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "E:L06",
@@ -2597,7 +2875,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "E:L07",
@@ -2615,7 +2894,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "E:L08",
@@ -2633,7 +2913,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "E:L09",
@@ -2651,7 +2932,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "E:L10",
@@ -2669,7 +2951,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "E:L11",
@@ -2687,7 +2970,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "E:L12",
@@ -2705,7 +2989,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "E:Q1",
@@ -2723,7 +3008,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "E:Q2",
@@ -2741,7 +3027,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "E:Q3",
@@ -2759,7 +3046,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "GR:3PLUS1",
@@ -2777,7 +3065,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "record"
  },
  {
   "id": "GR:ACTION",
@@ -2801,7 +3090,8 @@
    "B1090"
   ],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "GR:VECTORLIKE",
@@ -2820,7 +3110,8 @@
    "B1089"
   ],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "CO:S12",
@@ -2843,7 +3134,8 @@
   "note": "",
   "rows_live": {
    "P-712": "DONE"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "CO:S3",
@@ -2869,7 +3161,8 @@
   "rows_live": {
    "P-712": "DONE",
    "P-716": "QUEUED"
-  }
+  },
+  "weave_or_thread": "thread"
  },
  {
   "id": "PR:P10",
@@ -2898,7 +3191,8 @@
   "note": "",
   "rows_live": {
    "P-157": "QUEUED"
-  }
+  },
+  "weave_or_thread": "weave"
  },
  {
   "id": "PR:P2",
@@ -2915,7 +3209,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "PR:P3",
@@ -2932,7 +3227,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "PR:P9",
@@ -2952,7 +3248,8 @@
    "B1303"
   ],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "thread"
  },
  {
   "id": "FL:01",
@@ -2973,7 +3270,8 @@
   "note": "",
   "status_cell": "UNEARNED; partly UNSTATED (\"performed implicitly and for free\")",
   "excludes": "nothing in particular: it is the price of every result",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "FL:02",
@@ -2994,7 +3292,8 @@
   "note": "",
   "status_cell": "OPEN (GAP6)",
   "excludes": "curvature, flux and continuous moduli supplied by the geometry",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "FL:03",
@@ -3015,7 +3314,8 @@
   "note": "",
   "status_cell": "CHOSEN (SE2)",
   "excludes": "chiral objects; an orientation-odd source of CP and chirality",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "FL:04",
@@ -3036,7 +3336,8 @@
   "note": "",
   "status_cell": "CHOSEN / FITTED",
   "excludes": "τ placed by the object (a thread's apex, a torsion that matches the line's order); the family instead of one member",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "FL:05",
@@ -3057,7 +3358,8 @@
   "note": "",
   "status_cell": "the record's working state (no action on record)",
   "excludes": "the gauge couplings, y_t, the Higgs mass and vev, the overall scale: six of the 19 (g₁, g₂, g₃, m_H, v, y_t) have no frame at all; three more of the nine outside the ten (θ̄, y_b/y_t, y_τ/y_t) are fra",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "FL:06",
@@ -3078,7 +3380,8 @@
   "note": "",
   "status_cell": "UNSTATED in code (C-04, C-05) [S298, the web seat's review of 2026-11-03, verified on main: the adjoint-only H",
   "excludes": "a singlet (identity-channel) component; a sector-dependent Higgs",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "FL:07",
@@ -3099,7 +3402,8 @@
   "note": "",
   "status_cell": "UNSTATED in code (C-09, C-10); stated as the down–lepton wall",
   "excludes": "separate loci for up and down (the CKM as a relative rotation); matter at different depths",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "FL:08",
@@ -3120,7 +3424,8 @@
   "note": "",
   "status_cell": "CHOSEN (reach); the reading UNSTATED",
   "excludes": "the lines' group theory: Z₅ of SU(5), Z₂ of SU(2)_L, Z₃ of colour (orders dividing 30)",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "FL:09",
@@ -3141,7 +3446,8 @@
   "note": "",
   "status_cell": "UNSTATED (C-02); the reading not derived (B1790, NEGATIVE)",
   "excludes": "a derived H / H̃ assignment",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "FL:10",
@@ -3162,7 +3468,8 @@
   "note": "",
   "status_cell": "partly stated (C-01); FK14 READING",
   "excludes": "generation charges (Froggatt–Nielsen); generations as ends, cover sheets or points of one history",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "FL:11",
@@ -3183,7 +3490,8 @@
   "note": "",
   "status_cell": "H = I CHOSEN (B1822); the rest UNSTATED",
   "excludes": "an underived metric's 8 real parameters per field; a consistent single metric",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "FL:12",
@@ -3204,7 +3512,8 @@
   "note": "",
   "status_cell": "CHOSEN (by hand)",
   "excludes": "a derived lepton/down factor",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "FL:13",
@@ -3225,7 +3534,8 @@
   "note": "",
   "status_cell": "the scale CHOSEN (\"a human convention\"); **no running UNSTATED** [S298, the web seat's review of 2026-11-03, v",
   "excludes": "a frame defined at another scale; structured theory errors",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "FL:14",
@@ -3246,7 +3556,8 @@
   "note": "",
   "status_cell": "CHOSEN (THE FINAL ACT'S BAR's V list, not run)",
   "excludes": "a true answer whose content lies in the ungraded numbers",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "FL:15",
@@ -3267,7 +3578,8 @@
   "note": "",
   "status_cell": "CHOSEN (THE_BAR)",
   "excludes": "the form of explanation flavour physics has — relations (b–τ, Georgi–Jarlskog, a symmetric Y_u), exponent patterns with one fitted scale",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "FL:16",
@@ -3288,7 +3600,8 @@
   "note": "",
   "status_cell": "UNSTATED as a framing",
   "excludes": "the locus arg det(Y_u Y_d) = 0 as a selector (it could fix Re τ and predict ∣J∣), or a strong-CP kill of the J ≠ 0 addresses",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "FL:17",
@@ -3309,7 +3622,8 @@
   "note": "",
   "status_cell": "CHOSEN (THE_BAR; B1825's card)",
   "excludes": "— (a sound null; it sets what can ever pass)",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "FL:18",
@@ -3330,7 +3644,8 @@
   "note": "",
   "status_cell": "CHOSEN (labelled cutoffs)",
   "excludes": "everything beyond them",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "FL:19",
@@ -3351,7 +3666,8 @@
   "note": "",
   "status_cell": "CHOSEN (the board); stale",
   "excludes": "progress that is a falling input count; every structural result",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "FL:20",
@@ -3372,7 +3688,8 @@
   "note": "",
   "status_cell": "FORCED by the foundations' stance (GAP1); **ruled 2026-11-03: a dictionary may be EARNED BY PREDICTION (GENESI",
   "excludes": "the registration of a correct frame",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "FL:21",
@@ -3393,7 +3710,8 @@
   "note": "",
   "status_cell": "UNSTATED",
   "excludes": "a frame whose outputs hold at its own scale",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "FL:22",
@@ -3414,7 +3732,8 @@
   "note": "",
   "status_cell": "CHOSEN",
   "excludes": "rewarding a frame accurate beyond 10%; telling a 10%-crude frame from an exact one",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "FL:23",
@@ -3435,7 +3754,8 @@
   "note": "",
   "status_cell": "CHOSEN",
   "excludes": "telling, by the statistic, a frame derived before the data from one built around it",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "FL:24",
@@ -3456,7 +3776,8 @@
   "note": "",
   "status_cell": "CHOSEN (THE_BAR); **ruled 2026-11-03: two levels — a fixed screen makes a CANDIDATE, a held-out confirmation a",
   "excludes": "recognising a correct positive after many negatives",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "FL:25",
@@ -3477,7 +3798,8 @@
   "note": "",
   "status_cell": "CHOSEN",
   "excludes": "the specificity of this object; standard rivals",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "FL:26",
@@ -3498,7 +3820,8 @@
   "note": "",
   "status_cell": "inconsistent",
   "excludes": "one honest structural count",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "FL:27",
@@ -3519,7 +3842,8 @@
   "note": "",
   "status_cell": "CHOSEN per arc",
   "excludes": "two-locus and tower answers",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "D:01",
@@ -3537,7 +3861,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "D:02",
@@ -3555,7 +3880,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "D:03",
@@ -3573,7 +3899,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "D:04",
@@ -3591,7 +3918,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "D:05",
@@ -3609,7 +3937,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "D:06",
@@ -3627,7 +3956,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "D:07",
@@ -3645,7 +3975,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "D:08",
@@ -3663,7 +3994,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "D:09",
@@ -3681,7 +4013,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "D:10",
@@ -3699,7 +4032,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "D:11",
@@ -3717,7 +4051,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "D:12",
@@ -3735,7 +4070,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "D:13",
@@ -3753,7 +4089,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "D:14",
@@ -3771,7 +4108,8 @@
   "rows": [],
   "arcs": [],
   "note": "",
-  "rows_live": {}
+  "rows_live": {},
+  "weave_or_thread": "n/a"
  },
  {
   "id": "X:DICT",
@@ -3784,6 +4122,7 @@
   "arcs": [],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "n/a",
   "members": [
    "A:A05",
    "E:J5",
@@ -3836,6 +4175,7 @@
   "arcs": [],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "n/a",
   "members": [
    "A:A07",
    "A:A09",
@@ -3879,6 +4219,7 @@
   "arcs": [],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "n/a",
   "members": [
    "FL:02",
    "G:GAP6",
@@ -3904,6 +4245,7 @@
   "arcs": [],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "n/a",
   "members": [
    "GR:3PLUS1",
    "GR:ACTION"
@@ -3928,6 +4270,7 @@
   "arcs": [],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "n/a",
   "members": [
    "E:J4",
    "E:L11",
@@ -3972,6 +4315,7 @@
   "arcs": [],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "n/a",
   "members": [
    "E:L02",
    "MC:HYP",
@@ -4001,6 +4345,7 @@
   "arcs": [],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "n/a",
   "members": [
    "A:A12",
    "E:L04",
@@ -4045,6 +4390,7 @@
   "arcs": [],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "n/a",
   "members": [
    "A:A02",
    "A:A03",
@@ -4091,6 +4437,7 @@
   "arcs": [],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "n/a",
   "members": [
    "A:A08",
    "A:A10",
@@ -4135,6 +4482,7 @@
   "arcs": [],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "n/a",
   "members": [
    "A:A01",
    "E:L04",
@@ -4170,6 +4518,45 @@
   }
  },
  {
+  "id": "X:WEIGHT",
+  "layer": "14 closure",
+  "kind": "closure",
+  "grade": "CLOSURE",
+  "text": "THE WEIGHT. If everything allowed happens, how much of each. The law fixes what exists and not its weight; a thread picked by hand and a flat average are the two ways of supplying the weight without deriving it.",
+  "pins": [],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {},
+  "weave_or_thread": "n/a",
+  "members": [
+   "FL:27",
+   "G:XGEN-PHYS",
+   "T:MINIM",
+   "T:POINT-WEIGHT",
+   "W:CLOCK",
+   "W:DRAW",
+   "W:FLAT-SUM",
+   "W:LAW",
+   "W:MEASURE",
+   "W:NO-ATOM",
+   "W:WALK"
+  ],
+  "duties_blocked": [
+   "D:10",
+   "D:12",
+   "D:13"
+  ],
+  "value_rows_fed": [],
+  "member_grades": {
+   "CHOSEN": 4,
+   "OPEN": 2,
+   "NEGATIVE": 2,
+   "LANE-PROPOSED": 1,
+   "DERIVED": 2
+  }
+ },
+ {
   "id": "P:025",
   "layer": "15 debts",
   "kind": "debt",
@@ -4190,7 +4577,8 @@
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-025": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:030",
@@ -4213,7 +4601,8 @@
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-030": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:031",
@@ -4236,7 +4625,8 @@
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-031": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:054",
@@ -4259,7 +4649,8 @@
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-054": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:055",
@@ -4282,7 +4673,8 @@
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-055": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:056",
@@ -4305,7 +4697,8 @@
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-056": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:057",
@@ -4328,7 +4721,8 @@
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-057": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:091",
@@ -4351,7 +4745,8 @@
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-091": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:092",
@@ -4374,7 +4769,8 @@
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-092": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:107",
@@ -4397,7 +4793,8 @@
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-107": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:117",
@@ -4420,7 +4817,8 @@
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-117": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:135",
@@ -4443,7 +4841,8 @@
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-135": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:138",
@@ -4466,7 +4865,8 @@
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-138": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:145",
@@ -4489,7 +4889,8 @@
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-145": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:154",
@@ -4512,7 +4913,8 @@
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-154": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:155",
@@ -4535,7 +4937,8 @@
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-155": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:156",
@@ -4558,7 +4961,8 @@
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-156": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:157",
@@ -4581,7 +4985,8 @@
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-157": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:158",
@@ -4604,7 +5009,8 @@
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-158": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:160",
@@ -4627,7 +5033,8 @@
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-160": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:233",
@@ -4650,7 +5057,8 @@
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-233": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:239",
@@ -4673,7 +5081,8 @@
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-239": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:262",
@@ -4696,7 +5105,8 @@
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-262": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:263",
@@ -4719,7 +5129,8 @@
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-263": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:268",
@@ -4742,7 +5153,8 @@
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-268": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:310",
@@ -4765,7 +5177,8 @@
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-310": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:316",
@@ -4788,7 +5201,8 @@
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-316": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:317",
@@ -4811,7 +5225,8 @@
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-317": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:318",
@@ -4834,7 +5249,8 @@
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-318": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:319",
@@ -4857,7 +5273,8 @@
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-319": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:320",
@@ -4880,7 +5297,8 @@
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-320": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:321",
@@ -4903,7 +5321,8 @@
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-321": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:332",
@@ -4926,7 +5345,8 @@
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-332": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:333",
@@ -4949,7 +5369,8 @@
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-333": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:334",
@@ -4972,7 +5393,8 @@
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-334": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:355",
@@ -4995,7 +5417,8 @@
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-355": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:374",
@@ -5018,7 +5441,8 @@
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-374": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:384",
@@ -5041,7 +5465,8 @@
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-384": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:426",
@@ -5064,7 +5489,8 @@
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-426": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:427",
@@ -5087,7 +5513,8 @@
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-427": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:430",
@@ -5110,7 +5537,8 @@
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-430": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:444",
@@ -5133,7 +5561,8 @@
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-444": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:446",
@@ -5156,7 +5585,8 @@
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-446": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:448",
@@ -5179,7 +5609,8 @@
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-448": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:492",
@@ -5202,7 +5633,8 @@
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-492": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:516",
@@ -5225,7 +5657,8 @@
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-516": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:517",
@@ -5248,7 +5681,8 @@
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-517": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:524",
@@ -5271,7 +5705,8 @@
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-524": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:528",
@@ -5294,7 +5729,8 @@
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-528": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:540",
@@ -5317,7 +5753,8 @@
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-540": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:542",
@@ -5340,7 +5777,8 @@
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-542": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:557",
@@ -5363,7 +5801,8 @@
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-557": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:559",
@@ -5386,7 +5825,8 @@
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-559": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:571",
@@ -5409,7 +5849,8 @@
   "debt_class": "an unverified premise or seat result under a banked structural result",
   "rows_live": {
    "P-571": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:579",
@@ -5432,7 +5873,8 @@
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-579": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:581",
@@ -5455,7 +5897,8 @@
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-581": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:586",
@@ -5478,7 +5921,8 @@
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-586": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:589",
@@ -5501,7 +5945,8 @@
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-589": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:590",
@@ -5524,7 +5969,8 @@
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-590": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:596",
@@ -5547,7 +5993,8 @@
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-596": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:597",
@@ -5570,7 +6017,8 @@
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-597": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:602",
@@ -5593,7 +6041,8 @@
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-602": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:603",
@@ -5616,7 +6065,8 @@
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-603": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:605",
@@ -5639,7 +6089,8 @@
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-605": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:606",
@@ -5662,7 +6113,8 @@
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-606": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:607",
@@ -5685,7 +6137,8 @@
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-607": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:608",
@@ -5708,7 +6161,8 @@
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-608": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:609",
@@ -5731,7 +6185,8 @@
   "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
   "rows_live": {
    "P-609": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:610",
@@ -5754,7 +6209,8 @@
   "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
   "rows_live": {
    "P-610": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:618",
@@ -5777,7 +6233,8 @@
   "debt_class": "a false or stale statement in a foundation or front document",
   "rows_live": {
    "P-618": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:643",
@@ -5800,7 +6257,8 @@
   "debt_class": "added by B1833 (S300; the brainstorms re-read)",
   "rows_live": {
    "P-643": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:646",
@@ -5823,7 +6281,8 @@
   "debt_class": "added by B1833 (S300; the brainstorms re-read)",
   "rows_live": {
    "P-646": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:653",
@@ -5846,7 +6305,8 @@
   "debt_class": "added by B1833 (S300; the brainstorms re-read)",
   "rows_live": {
    "P-653": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:670",
@@ -5869,7 +6329,8 @@
   "debt_class": "added by B1833 (S300; the brainstorms re-read)",
   "rows_live": {
    "P-670": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:687",
@@ -5892,7 +6353,8 @@
   "debt_class": "added at S305 (the closure prepared)",
   "rows_live": {
    "P-687": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:688",
@@ -5915,7 +6377,8 @@
   "debt_class": "added at S305 (the closure prepared)",
   "rows_live": {
    "P-688": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:698",
@@ -5938,7 +6401,8 @@
   "debt_class": "added at S305 (the closure prepared)",
   "rows_live": {
    "P-698": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  },
  {
   "id": "P:733",
@@ -5961,6 +6425,7 @@
   "debt_class": "added at S306k (the web seat's open-book relay)",
   "rows_live": {
    "P-733": "QUEUED"
-  }
+  },
+  "weave_or_thread": "n/a"
  }
 ]

@@ -123,6 +123,25 @@ N("TAG:UNIT", "3 weave", "premise", "TAGGED", "One unit of end data at the weave
 N("W:INDEX3", "3 weave", "theorem", "CONDITIONAL", "Given Λ and the unit, the chiral three is a four-dimensional index (±3) on the weave's own surface.",
   [(GEN, "So, given Λ and the unit, the chiral three is an index, and FK11's earning condition is met conditionally.")], arcs=["B1632", "B1641"])
 
+# the law, and what weighs the allowed (the owner, 2026-11-10; P-755)
+N("W:LAW", "3 weave", "premise", "OPEN", "The law as the owner states it: if something is allowed to happen, it happens. On the record it is the weave's rule of method, and as a physical law a hypothesis to test, not a premise.",
+  [(GEN, '"if it can happen it will" — plenitude, a hypothesis to test, not a premise'), ("docs/THE_WEAVE.md", "interaction between objects in relationship should produce reality, not single objects alone")],
+  rows=["P-755", "P-756"])
+N("W:MEASURE", "3 weave", "theorem", "DERIVED", "Run with nothing forced, the threads produce a definite measure for each way of counting them, and the measures differ: counted move by move the weight keeps out of the cusp; counted by geometric length it is hyperbolic area.",
+  [("frontier/B1813_the_weaves_own_measure_depends_on_how_its_threads_are_counted/arc_verdict.json", "THE WEAVE'S OWN MEASURE DEPENDS ON HOW ITS THREADS ARE COUNTED")],
+  rows=["P-437", "P-439"], arcs=["B1813"])
+N("W:WALK", "3 weave", "theorem", "DERIVED", "The moves' own walk gives the move-by-move measure exactly (Minkowski's), singular to area, at every strength of the pull-back.",
+  [("frontier/B1815_the_records_walk_has_minkowskis_exit_law_exactly/arc_verdict.json", "THE RECORD'S WALK HAS MINKOWSKI'S EXIT LAW, EXACTLY")], arcs=["B1815", "B1663"])
+N("W:CLOCK", "3 weave", "choice", "CHOSEN", "The clock: whether the weave is counted by moves or followed by geometric length. Nothing on the record forces it.",
+  [("frontier/B1815_the_records_walk_has_minkowskis_exit_law_exactly/arc_verdict.json", "The clock stays CHOSEN."), (REG, "is the weave's time the move count (discrete; the coding's maximal entropy) or the geodesic flow (continuous; Liouville)?")],
+  rows=["P-439", "P-438"], arcs=["B1815"])
+N("W:FLAT-SUM", "3 weave", "claim", "LANE-PROPOSED", "Any sum over all threads is mirror-even whatever its weights, and the democratic sum is flat by equidistribution; every other form selects only through a number it does not force. The SM seat's reading, read on main with its quotes checked.",
+  [("docs/HARVEST_LEDGER.md", "any sum over all threads is mirror-even whatever its weights")], rows=["P-413"])
+N("W:NO-ATOM", "3 weave", "theorem", "NEGATIVE", "Under the weave's uniform measure nothing the principle forces gives the cusp a weight: no atom. Scoped: other measures and other dynamics are not excluded.",
+  [("frontier/B1629_does_the_principle_reach_the_weaves_cusp/arc_verdict.json", "nothing the principle forces visits the cusp")], arcs=["B1629"])
+N("W:DRAW", "3 weave", "theorem", "NEGATIVE", "The measured six read as a draw from the weave's own measure: the sealed test does not separate the two clocks, and could not have; consistent, not specific.",
+  [("frontier/B1814_the_measured_world_as_a_draw_from_the_weaves_own_measure/arc_verdict.json", "the six do not separate B1813's two clocks")], arcs=["B1814"])
+
 # the forks and gaps not already above
 N("G:FK2", "3 weave", "fork", "CHOSEN", "Orientation (SE2): what would settle it is a derived reason for orientability, or carrying both m004 and m000.",
   [(GEN, "| FK2 | Orientation (SE2) | CHOSEN |")])
@@ -333,6 +352,7 @@ N("X:SELECT", "14 closure", "closure", "CLOSURE", "THE SELECTION. What makes a s
 N("X:SOURCE", "14 closure", "closure", "CLOSURE", "THE DYNAMICS. A potential, a breaking, a running or a source that fixes a value. Structure exists; nothing has been turned into one.")
 N("X:FLAT", "14 closure", "closure", "CLOSURE", "THE FLATNESS. Both value frames stand on a flat bundle, which cannot reach continuous moduli.")
 N("X:GRAVITY", "14 closure", "closure", "CLOSURE", "GRAVITY IN 3+1. Not on the record in any lane.")
+N("X:WEIGHT", "14 closure", "closure", "CLOSURE", "THE WEIGHT. If everything allowed happens, how much of each. The law fixes what exists and not its weight; a thread picked by hand and a flat average are the two ways of supplying the weight without deriving it.")
 
 # ------------------------------------------------------------------ the edges
 EDGES = []
@@ -359,7 +379,7 @@ E("W:INDEX3", "requires", "TAG:LAMBDA", "CONDITIONAL")
 E("W:INDEX3", "requires", "TAG:UNIT", "CONDITIONAL")
 E("W:INDEX3", "requires", "G:GM5c", "CONDITIONAL", "on the double-tick weave, where the swap is not a move")
 E("W:HANDS", "requires", "G:GM5c", "NEGATIVE")
-E("W:HANDS", "requires", "G:SE2", "NEGATIVE")
+E("W:HANDS", "bears-on", "G:SE2", "NEGATIVE", "the three's hand is the sheet of the orientation double cover, SE2's kind of choice; the weave's negative does not rest on it (first written as 'requires', and refused by the weave-or-thread check)")
 E("TAG:UNIT", "answers", "G:FK10", "TAGGED")
 E("TAG:LAMBDA", "answers", "G:FK11", "TAGGED")
 E("G:SE2", "answers", "G:FK2", "CHOSEN")
@@ -416,6 +436,7 @@ MEMBERS = {
     "X:SOURCE": ["G:GAP3", "G:GAP5", "T:NO-PLACE", "CO:S3", "W:NOVAL", "A:A08", "A:A10", "FL:05", "FL:06", "FL:12"],
     "X:FLAT": ["S:S01", "G:GAP6", "FL:02"],
     "X:GRAVITY": ["GR:ACTION", "GR:3PLUS1"],
+    "X:WEIGHT": ["W:LAW", "W:MEASURE", "W:WALK", "W:CLOCK", "W:FLAT-SUM", "W:NO-ATOM", "W:DRAW", "G:XGEN-PHYS", "T:POINT-WEIGHT", "T:MINIM", "FL:27"],
 }
 for x, ms in MEMBERS.items():
     for m in ms:
@@ -433,6 +454,7 @@ BLOCKS = {
     "X:SOURCE": ["D:03", "D:04", "D:10"],
     "X:FLAT": ["D:10"],
     "X:GRAVITY": ["D:11"],
+    "X:WEIGHT": ["D:10", "D:12", "D:13"],
 }
 for x, ds in BLOCKS.items():
     for d in ds:
@@ -528,6 +550,16 @@ QUEUE = {
         duty="none owed on main yet"),
 }
 
+QUEUE["X:WEIGHT"] = dict(
+    known=["Every allowed state belongs to the state space by construction (G:XGEN); that the states are realised together, and with what weight, is not derived (G:XGEN-PHYS).",
+           "Run with nothing forced, the threads give a definite measure for each way of counting, and the measures differ (W:MEASURE). The moves' own walk gives the move-by-move one exactly (W:WALK).",
+           "Nothing on the record forces the clock, counted or followed (W:CLOCK). A sealed test could not separate them (W:DRAW).",
+           "The plain sum over all threads is flat and mirror-even (W:FLAT-SUM), and the uniform measure gives the cusp no atom (W:NO-ATOM).",
+           "So the law fixes the support and not the weight. Picking one thread is a weight put at one point by hand; a flat average is a weight put everywhere by hand."],
+    closes="A weight that the execution itself forces and that concentrates: an atom, or a stationary point of something the moves fix. Or the adoption of typicality as what is predicted, a distribution and not nineteen numbers. Read literally, 'upon its execution' is the move count, the grammar's maximal entropy.",
+    owner="the owner for the reading of the law; main for the computation",
+    duty="state, before computing, what the executed weave makes deterministic (its ergodic averages) and whether any covariant quantity concentrates (P-756)")
+
 NEXT = dict(
     title="THE REGISTER-TO-FIELD JOIN: the lanes' three against the weave's triplet",
     statement=[
@@ -551,3 +583,29 @@ HEADLINES = [
     ("T:IM", "the modulus under the read-out rule"),
     ("E:L10", "the lanes' three coefficients per representation"),
 ]
+
+# ------------------------------------------------------------------ weave or thread (the owner's rule; docs/THE_WEAVE.md)
+# weave   defined by the joint action of every allowed move, or stated about every thread at once
+# thread  read on one thread, one fibre, one point, one background, or covers of one thread
+# list    a family examined member by member (THE WEAVE: "the family ... reads as a list"; the weave is not the list)
+# record  a fact about the record itself
+# The label is required on every node of the spine. A weave result may not rest on a thread node (build_map.py checks).
+WT = {}
+for _id in ("G:PF1", "G:PF2", "G:PF3", "G:PF1-FORM", "G:GM1", "G:GM2", "G:GM3", "G:GM4", "G:GM5a", "G:GM5b", "G:GM5c", "G:GM5d",
+            "G:XGEN-PHYS", "W:Q8", "W:T", "W:G96", "W:HANDS", "W:MIRROR-EVEN", "W:ONE-END", "W:NOMOD", "W:NOVAL", "TAG:LAMBDA", "TAG:UNIT",
+            "W:INDEX3", "W:LAW", "W:MEASURE", "W:WALK", "W:CLOCK", "W:FLAT-SUM", "W:NO-ATOM", "W:DRAW",
+            "G:FK3", "G:FK5", "G:FK8", "G:FK9", "G:FK10", "G:FK11", "G:FK12", "G:FK13", "G:FK14", "G:FK15",
+            "G:GAP1", "G:GAP2", "G:GAP3", "G:GAP4", "G:GAP5", "G:GAP6", "T:NO-PLACE", "SC:UNIT", "PR:P10"):
+    WT[_id] = "weave"
+for _id in ("G:SE1", "G:T-ROOT", "G:SE2", "G:ROOT", "G:FK2", "G:FK7",
+            "MC:HYP", "MC:PRICE", "MC:ALG", "MC:Z6", "MC:Y", "MC:END", "MC:CUBIC", "MC:GEN", "MC:CS0", "MC:REACH",
+            "V:SIX", "V:WALL", "T:RULE", "T:FRAMING", "T:POINT-WEIGHT", "T:CHARGE5", "T:MINIM", "T:RE", "T:IM",
+            "SC:RATIO", "SC:R2", "SC:R4", "SC:PREMISE", "SC:CARD",
+            "E:L01", "E:L02", "E:L03", "E:L04", "E:L05", "E:L06", "E:L07", "E:L08", "E:L09", "E:L10", "E:L11", "E:L12",
+            "E:Q1", "E:Q2", "E:Q3", "E:J1", "E:J2", "E:J3", "E:J4", "E:J5",
+            "GR:ACTION", "GR:VECTORLIKE", "CO:S12", "CO:S3", "PR:P2", "PR:P3", "PR:P9"):
+    WT[_id] = "thread"
+for _id in ("G:XGEN", "MC:GENERIC", "MC:UNIQ"):
+    WT[_id] = "list"
+for _id in ("V:0OF19", "V:HELD", "V:EARN-RULE", "E:GRADES", "T:PRICED", "GR:3PLUS1"):
+    WT[_id] = "record"

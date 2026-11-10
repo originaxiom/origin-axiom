@@ -1,21 +1,21 @@
 {
- "nodes": 259,
- "edges": 263,
+ "nodes": 267,
+ "edges": 277,
  "by_grade": {
   "ANSATZ": 1,
-  "CHOSEN": 41,
-  "CLOSURE": 10,
+  "CHOSEN": 42,
+  "CLOSURE": 11,
   "CONDITIONAL": 17,
   "CONFIRMED": 1,
   "DEBT": 78,
-  "DERIVED": 13,
+  "DERIVED": 15,
   "DUTY": 16,
   "FITTED": 2,
   "LANE-INPUT": 7,
-  "LANE-PROPOSED": 6,
+  "LANE-PROPOSED": 7,
   "LANE-REVIEWED": 1,
-  "NEGATIVE": 9,
-  "OPEN": 35,
+  "NEGATIVE": 11,
+  "OPEN": 36,
   "POSTULATED": 11,
   "READING": 1,
   "RECORD": 2,
@@ -26,7 +26,7 @@
   "0 principle": 4,
   "1 grammar": 8,
   "2 states and root": 6,
-  "3 weave": 29,
+  "3 weave": 36,
   "4 structure": 12,
   "5 values": 26,
   "6 tau": 9,
@@ -37,13 +37,20 @@
   "11 predictions": 4,
   "12 framing": 27,
   "13 duties": 14,
-  "14 closure": 10,
+  "14 closure": 11,
   "15 debts": 78
  },
- "pins_checked_on_main": 241,
+ "pins_checked_on_main": 250,
  "pins_checked_on_seat_branches": 39,
  "seat_pins_unavailable_in_this_clone": 0,
- "register_rows_cited": 118,
- "open_debts": 78
+ "register_rows_cited": 124,
+ "open_debts": 78,
+ "weave_or_thread": {
+  "list": 3,
+  "n/a": 130,
+  "record": 6,
+  "thread": 78,
+  "weave": 50
+ }
 }
 ALL PINS CHECK

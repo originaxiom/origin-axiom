@@ -658,6 +658,13 @@
   "note": ""
  },
  {
+  "src": "FL:27",
+  "kind": "instance-of",
+  "dst": "X:WEIGHT",
+  "grade": "",
+  "note": ""
+ },
+ {
   "src": "G:FK10",
   "kind": "instance-of",
   "dst": "X:END",
@@ -878,6 +885,13 @@
   "src": "G:XGEN-PHYS",
   "kind": "instance-of",
   "dst": "X:SELECT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "G:XGEN-PHYS",
+  "kind": "instance-of",
+  "dst": "X:WEIGHT",
   "grade": "",
   "note": ""
  },
@@ -1337,6 +1351,13 @@
   "note": ""
  },
  {
+  "src": "T:MINIM",
+  "kind": "instance-of",
+  "dst": "X:WEIGHT",
+  "grade": "",
+  "note": ""
+ },
+ {
   "src": "T:NO-PLACE",
   "kind": "instance-of",
   "dst": "X:SOURCE",
@@ -1354,6 +1375,13 @@
   "src": "T:POINT-WEIGHT",
   "kind": "instance-of",
   "dst": "X:TAU",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "T:POINT-WEIGHT",
+  "kind": "instance-of",
+  "dst": "X:WEIGHT",
   "grade": "",
   "note": ""
  },
@@ -1561,11 +1589,39 @@
   "note": "the frame's coupling is banked 'given Λ, the dictionary'"
  },
  {
+  "src": "W:CLOCK",
+  "kind": "instance-of",
+  "dst": "X:WEIGHT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "W:DRAW",
+  "kind": "instance-of",
+  "dst": "X:WEIGHT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "W:FLAT-SUM",
+  "kind": "instance-of",
+  "dst": "X:WEIGHT",
+  "grade": "",
+  "note": ""
+ },
+ {
   "src": "W:G96",
   "kind": "requires",
   "dst": "W:T",
   "grade": "DERIVED",
   "note": ""
+ },
+ {
+  "src": "W:HANDS",
+  "kind": "bears-on",
+  "dst": "G:SE2",
+  "grade": "NEGATIVE",
+  "note": "the three's hand is the sheet of the orientation double cover, SE2's kind of choice; the weave's negative does not rest on it (first written as 'requires', and refused by the weave-or-thread check)"
  },
  {
   "src": "W:HANDS",
@@ -1578,13 +1634,6 @@
   "src": "W:HANDS",
   "kind": "requires",
   "dst": "G:GM5c",
-  "grade": "NEGATIVE",
-  "note": ""
- },
- {
-  "src": "W:HANDS",
-  "kind": "requires",
-  "dst": "G:SE2",
   "grade": "NEGATIVE",
   "note": ""
  },
@@ -1624,9 +1673,30 @@
   "note": ""
  },
  {
+  "src": "W:LAW",
+  "kind": "instance-of",
+  "dst": "X:WEIGHT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "W:MEASURE",
+  "kind": "instance-of",
+  "dst": "X:WEIGHT",
+  "grade": "",
+  "note": ""
+ },
+ {
   "src": "W:MIRROR-EVEN",
   "kind": "instance-of",
   "dst": "X:HAND",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "W:NO-ATOM",
+  "kind": "instance-of",
+  "dst": "X:WEIGHT",
   "grade": "",
   "note": ""
  },
@@ -1670,6 +1740,13 @@
   "kind": "requires",
   "dst": "W:Q8",
   "grade": "DERIVED",
+  "note": ""
+ },
+ {
+  "src": "W:WALK",
+  "kind": "instance-of",
+  "dst": "X:WEIGHT",
+  "grade": "",
   "note": ""
  },
  {
@@ -1837,6 +1914,27 @@
   "src": "X:TAU",
   "kind": "blocks",
   "dst": "D:12",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "X:WEIGHT",
+  "kind": "blocks",
+  "dst": "D:10",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "X:WEIGHT",
+  "kind": "blocks",
+  "dst": "D:12",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "X:WEIGHT",
+  "kind": "blocks",
+  "dst": "D:13",
   "grade": "OPEN",
   "note": ""
  }

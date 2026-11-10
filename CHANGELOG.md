@@ -1,5 +1,19 @@
 # Changelog
 
+## S306n (continued) WEAVE OR THREAD, ENFORCED IN THE MAP; THE LAW AND THE WEIGHT (P-755, P-756; B1858 extended) (2026-11-10)
+
+- **The owner:** the mistake the programme keeps repeating is a thread taken for the weave; the law is "if something is allowed to happen it will happen", so the foundation's formula tracks all that exists upon its execution.
+- **Main's answer.** Yes for what exists. Not sufficient for how much of each: run with nothing forced, the threads give a different measure for each way of counting (B1813); the moves' own walk gives the move-by-move one exactly (B1815); a sealed test could not separate them (B1814); the plain sum over threads is flat (P-413).
+  - So the law fixes the support and not the weight. A thread picked by hand and a flat average are the two ways of supplying a weight without deriving it.
+  - Read literally, "upon its execution" is the move count. That is a parameter-free reading the record has never adopted; whether to adopt it is put to the owner, with the computation to run first (P-756).
+- **The map now labels every node weave, thread or list,** and its builder refuses a weave result that rests on a thread. The first run refused one of main's own edges.
+- **What the label shows:**
+  - 15 banked results are stated about the weave: structure and negatives (the quaternion point, the triplet, the group of order 96 with CP as the swap; no hand, no modulus, no value forced);
+  - 25 are stated about one thread: the root, the whole structural theorem (the gauge algebra, the global form, the hypercharge direction), the value frame and the six, the τ rule, the object's gravity;
+  - five of the six headline results are thread results. Only the chiral three is a weave statement, and it is conditional.
+- **An eleventh missing dependency: the weight** (X:WEIGHT), with the law, the two measures, the clock and the flat sum as its nodes.
+- 0 of 19.
+
 ## S306n (continued) THE DOOR SET IS {1, 4} (B1859; a front-page claim corrected; P-318, P-618; GENESIS v1.63) (2026-11-10)
 
 - **The claim that was on the front pages:** "the golden is the unique metallic grammar whose own-conductor shadow is a McKay group", and "the siblings have no door at all".
