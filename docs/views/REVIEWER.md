@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1568** |
-| words of findings prose | **1,338,309** |
+| research arcs with findings | **1569** |
+| words of findings prose | **1,342,526** |
 | test lock files referenced | **936** |
-| arcs carrying an authored verdict | **1568** (100.0 %) |
+| arcs carrying an authored verdict | **1569** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1077 |
+| PROVED | 1078 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1866`** (1928 words, 0 locks)  
-THE AGY LANE'S RELAY ON THE REGISTER-TO-FIELD JOIN, SCRUTINISED AT THE OWNER'S WORD (P-753; before anything of WP-2.2 or WP-3.2 is banked): where main can test the relay it is right -- ten of its claims verified by main's own computation, none found wrong: every move keeps the odd spin structure and the trivial character and permutes the three non-trivial sign characters; one background's pair of lines has an orbit of three and a stabiliser of index 3; the two coherent lifts are one choice (in E8, -1 of SU(4) is -1 of Spin(10), on all 240 roots) and neither is kept by every move, so main's exploratory note in the programme is WITHDRAWN; on main's triplet the moves generate a group of order 96 with scalars of order 4 and projective image S4, S^4 = -1, so it is a module of the double cover that does not factor through SL(2, Z); among the 24 twists of the symmetric square of the level-2 doublet it is the odd twist chi_15 alone, and no even twist has order 96 (24, 48, 72, 144); it is the modular representation of the conjugate of (theta_2^2, theta_3^2, theta_4^2)/eta^3, by two monomial matrices of eighth roots. Main adds two things the relay does not say: the triplet IS a symmetric square over the braid group, of a doublet on a further double cover, and projectively of the level-2 doublet; and the lanes' one-form triplet induced over the three backgrounds (a group of order 24) is the weave's triplet after one odd character, chi_9 -- one projective representation. Not verified, the lane's: which mode of its operator carries which character, the splitting on one background, the table over 248 dimensions. WP-2.2 and WP-3.2 stay open, each with a sharper question; for the join it is whether that odd character is physical. 0 of 19.  
-`B1866_the_agy_lanes_join_relay_scrutinised/FINDINGS.md`
+**PROVED — `B1867`** (2792 words, 0 locks)  
+THE ADVISOR SEAT'S TOP-DOWN READING OF THE PRINCIPLE AND ITS LINE-OR-LOOP RULE, SCRUTINISED (the refetch the owner ordered; three notes read in full, none of the seat's code run, data-free): every fact main could test reproduces on main's own code. (1) The seat's two symmetry facts are instances of one law, tested here on all 105 classes of cyclic words up to length 10: a bundle's isometries number twice its word's stabiliser under rotation, reversal and the swap of the letters; orientation is reversed exactly by the swap and the base's direction exactly by the reversal; the swapped word is the mirror image, for every word -- so the run of 6 keeps one reversal and nothing else (a hand, a place, no arrow), a rule symmetric in the two letters selects mirror pairs, and the seat's row (2,1,1,1,2) is a word written twice. (2) The forcing ledger's cited facts hold (positivity is a normal form on all 168 hyperbolic matrices tested; the fixed characters number the trace less two on 777 words and equal the homology's torsion on 135; LR alone has one, and the same count decides the sign), and three of its rows argued forced need a clause its formal statement does not contain: the statement removes finite order and not a fixed direction; not commuting does not give free; and 'a fixed character is a place where nothing happened' removes every departure too, the same relation being what selects the run of 6 at level 5. (3) On main's own map the statement that the record is a line holds: of 286 edges none is a result returning to fix an input, and a planted one is seen; the design's exact facts reproduce, and 'the departure fixes the line' is the condition that the line extends over the history. Main's qualification: an input can also leave by a theorem that kills its alternatives, and a continuous number by rigidity once the history is fixed; the loop is for what neither removes. The programme's 38 inputs now each carry the route the notes name: an exit is on the table for 12, none proved or built. The owner confirmed the first eleven relayed rulings to main while this arc was being written, and two are asked; this arc acts on none of them and changes no governing document. 0 of 19.  
+`B1867_the_top_down_reading_and_the_line_or_loop_rule_scrutinised/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  

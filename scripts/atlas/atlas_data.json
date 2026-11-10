@@ -15882,6 +15882,7 @@
    "motifs": [
     "measurement",
     "closing",
+    "feedback",
     "golden",
     "z3_generation",
     "firewall"
@@ -15894,9 +15895,9 @@
     "L7"
    ],
    "obstacle": "observable",
-   "obstacle_conf": 8,
+   "obstacle_conf": 9,
    "status": "dormant",
-   "domain": "arithmetic"
+   "domain": "dynamics"
   },
   "B1862": {
    "slug": "the audits first corrections",
@@ -15966,6 +15967,30 @@
    "obstacle_conf": 2,
    "status": "banked",
    "domain": "topology"
+  },
+  "B1867": {
+   "slug": "the top down reading and the line or loop rule scrutinised",
+   "motifs": [
+    "closing",
+    "feedback",
+    "trace_map",
+    "metallic",
+    "golden",
+    "amphichiral_cp",
+    "torsion"
+   ],
+   "refs": [
+    "B134",
+    "B197",
+    "B613",
+    "B781",
+    "B848",
+    "B990"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 4,
+   "status": "open",
+   "domain": "arithmetic"
   },
   "B186": {
    "slug": "hyperbolicity certification",

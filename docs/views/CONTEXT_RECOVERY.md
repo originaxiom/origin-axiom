@@ -13,24 +13,25 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1568 |
-| … PROVED | 1077 |
+| arcs with a verdict file | 1569 |
+| … PROVED | 1078 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 763 |
-| … QUEUED | 252 |
+| register points | 767 |
+| … QUEUED | 255 |
 | … LEAD | 4 |
-| … OWNER | 6 |
+| … OWNER | 7 |
 | … DONE | 490 |
 | … DECLINED | 11 |
-| harvest rows (the last number) | 1643 |
+| harvest rows (the last number) | 1651 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1867 | PROVED | THE ADVISOR SEAT'S TOP-DOWN READING OF THE PRINCIPLE AND ITS LINE-OR-LOOP RULE, SCRUTINISED (the refetch the owner ordered; three notes read in full, none of the seat's code run, data-free): every fact main could test r… |
 | B1866 | PROVED | THE AGY LANE'S RELAY ON THE REGISTER-TO-FIELD JOIN, SCRUTINISED AT THE OWNER'S WORD (P-753; before anything of WP-2.2 or WP-3.2 is banked): where main can test the relay it is right -- ten of its claims verified by main… |
 | B1865 | PROVED | THE PLANTED VIOLATIONS, RUN ON MAIN BY THE ADVISOR SEAT'S OWN SCRIPT (main at 30dd1fea7, after B1862 to B1864): the five controls caught; of the 21 planted violations the script automates, 14 still pass undetected and 7… |
 | B1864 | PROVED | A SEALED FILE DOES NOT CHANGE AFTER ITS SEAL (the advisor seat's finding G2, graded critical, with G3 and G4; reproduced on main; WP-0.7): an edit of a sealed file after its seal was detected only for the files with a h… |
@@ -42,7 +43,6 @@
 | B1858 | PROVED | THE CLOSURE MAP (the owner's directive of 2026-11-10, P-748; the physical lane's work order, its first return): 259 nodes and 263 edges, every node pinned by a quote checked against its source (241 on main, 39 on the la… |
 | B1857 | PROVED | THE READ-OUT BY A STATE (the explore seat's test, checked on main; P-726, P-717): in the flat-fibre (Sol) bundle over the history the separated wells follow the cosh law exactly (4.7e-38 on seven classes; cosh 2(s - s_c… |
 | B1856 | PROVED | CHARGE OR SYMMETRY AT FIVE (P-738, answered conditionally; the explore seat's test re-derived on main): in B355's level-5 Weil representation (projectively consistent on all 120 elements of SL(2,F5)), only +-I act as a… |
-| B1855 | PROVED | THE CHARGE LAW SETTLED (P-737): main's own result -- the law FAILS for every lcm(S) >= 12: six explicit gapped counterexamples of the explore seat satisfy the charge premise exactly with less excess than the single run… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -52,12 +52,14 @@
 - ** P-697** — A SECOND COMPLIANCE FOLLOW-UP TO THE AGY LANE (S305f): its relay's lines 819–831 publish P-585-class values (a running top Yukawa, an inter-sector hierarchy value); its Theorem 102 carries held-out-class value literals… → *asked of the owner (S305f): main recommends sending a short note naming the lines and asking that they be removed and the salt kept somewhere durable off the r…*
 - ** P-755** — THE LAW, AND THE THREAD-FOR-WEAVE MISTAKE (the owner, 2026-11-10: 'the most important thing, which we keep repeating is the weave-vs-therad kind of mistake, and we do it repeatedly. the law that causes existence as i un… → *asked of the owner: whether 'upon its execution' is to be recorded as the reading of the law (the move count), which would rule P-439's clock; main recommends…*
 - ** P-758** — THE OWNER'S RULINGS OF 2026-11-10, AS THE ADVISOR SEAT RELAYED THEM (its OWNER_RULINGS_2026-11-10.md @ 701d12ff7): R1 the programme's only goal is a parameter-free theory of everything, and GOVERNANCE's 'not a theory of… → *asked of the owner (S306o): confirm R1 to R7 as relayed. Main acts on none of them before that; the work that does not depend on them proceeds (reproducing and…*
+- ** P-765** — LINE OR LOOP (the advisor seat's page to all seats @ 73ed0fe8c, relaying the owner: 'a real gap exists in the program because the entire programme is an open one-way line, not a closed loop'; 'i keep telling open seats… → *asked of the owner (S306o): confirm the statement and the three asks to main, with P-758. Until then main writes no governing page and adds no field. What main…*
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
 
 ## The last landings (CHANGELOG)
 
+- S306o (the refetch) TWO SEATS HARVESTED AND CHECKED: THE PHYSICAL LANE'S REVIEW OF THE JOIN RELAY (B1866 § 6), AND THE ADVISOR SEAT'S TOP-DOWN READING AND LINE-OR-LOOP RULE (B1867) (2026-11-10)
 - S306o (continued) THE AGY LANE'S RELAY ON THE REGISTER-TO-FIELD JOIN, SCRUTINISED AT THE OWNER'S WORD (B1866; P-753) (2026-11-10)
 - S306o (continued) THREE SEATS HARVESTED AGAIN; THE ADVISOR SEAT'S PLANTED-VIOLATION SCRIPT RUN ON MAIN (B1865) (2026-11-10)
 - S306o (continued) A SEALED FILE DOES NOT CHANGE AFTER ITS SEAL (B1864; the audit's second critical finding, G2, with G3) (2026-11-10)
@@ -65,11 +67,10 @@
 - S306o (continued) THE CLOSURE PROGRAMME (B1861); THE ADVISOR SEAT'S AUDIT HARVESTED AND ITS FIRST EIGHT CORRECTIONS (B1862); GENESIS v1.64 (2026-11-10)
 - S306o REVIEW 77, THE DECADAL REVIEW (B1860; fired by the push gate at 41 landings) (2026-11-10)
 - S306n (continued) WEAVE OR THREAD, ENFORCED IN THE MAP; THE LAW AND THE WEIGHT (P-755, P-756; B1858 extended) (2026-11-10)
-- S306n (continued) THE DOOR SET IS {1, 4} (B1859; a front-page claim corrected; P-318, P-618; GENESIS v1.63) (2026-11-10)
 
 ## The latest campaign line
 
-LATEST (2026-11-10, S306o (continued): B1866 — THE AGY LANE'S RELAY ON THE REGISTER-TO-FIELD JOIN, SCRUTINISED AT THE OWNER'S WORD (P-753): read in full through the mask, its code not run; ten claims verified by main's own computation and none found wrong (the moves keep the odd spin structure and the trivial character and permute the three sign characters; one background is one of three; the two lifts are one choice; the weave's triplet has a group of order 96, is the odd twist χ₁₅ of the level-2 doublet's symmetric square, and is the conjugate of the squared theta constants over η³); main's exploratory note in WP-2.2 withdrawn; main adds that the lanes' one-form triplet over the three bac…
+LATEST (2026-11-10, S306o (the refetch): two seats harvested and checked (rows 1644–1651; pins audit `6ababf23`, advisor `6ab2bbdb`). B1866 § 6 — the physical lane's own review of the join relay reaches main's decision; its finding that the relay's inserted one-form matrices carry the signs (−1, −1) and not the stated (−1, +1) is verified exactly (χ₂₁ for the matrices, χ₉ for the stated signs; one projective action); kept is not selected; the quotient in E₈ is by ℤ₄; main's orders recomputed exactly; WP-3.2 split into an algebraic half, banked, and a physical half, open. B1867 — THE ADVISOR SEAT'S TOP-DOWN READING AND ITS LINE-OR-LOOP RULE, SCRUTINISED: every testable fact reproduces; a law…
 
 ## Completeness (nothing skipped silently)
 
