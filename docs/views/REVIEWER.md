@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1560** |
-| words of findings prose | **1,324,397** |
+| research arcs with findings | **1561** |
+| words of findings prose | **1,326,114** |
 | test lock files referenced | **933** |
-| arcs carrying an authored verdict | **1560** (100.0 %) |
+| arcs carrying an authored verdict | **1561** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1069 |
+| PROVED | 1070 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1858`** (1866 words, 0 locks)  
-THE CLOSURE MAP (the owner's directive of 2026-11-10, P-748; the physical lane's work order, its first return): 259 nodes and 263 edges, every node pinned by a quote checked against its source (241 on main, 39 on the lanes' branches at their pinned revisions; a planted wrong quote is caught); on the spine 155 claims -- 12 proved on main, 9 banked negatives, 17 proved given named premises, 11 postulates, 41 choices, 2 tagged postulates, 6 unstated commitments, 36 open -- so nothing that reads as physics is upstream-clean (the root on three postulates and a choice; the structural theorem on those, five typed data and thirteen identifications; the chiral three on two tagged postulates and an open fork; the six a reading on 13 borrowed joints); the lanes' open items are ten missing dependencies under several names each (the dictionary, the dynamics, the end, the hand, the selection, the modulus, the scale, the parent, the flatness, gravity), and every branch meets the hand, the lanes' model included (a kernel split equally between conjugate representations, paired left and right currents); 78 register debts carried as nodes; the one next unowned derivation named before computing: how the moves act on the lanes' three modes, against the weave's triplet. Unreviewed by a non-author. 0 of 19.  
-`B1858_the_closure_map/FINDINGS.md`
+**PROVED — `B1859`** (1409 words, 0 locks)  
+THE DOOR SET IS {1, 4} (a correction of B997's uniqueness clause, keeping its computation; P-318, P-618): the group the grammar R^m L^m's own letters generate modulo m^2 + 4 is a McKay group exactly at m = 1 and m = 4 -- at m = 4 the letters are trivial mod 4 and generate SL(2, 5) = 2I mod 5 -- proved for every m in three branches (m odd: all of SL(2, Z/N), McKay only at N = 5; m = 4j: SL(2, Z/(4j^2 + 1)), McKay only at j = 1; m = 2j with j odd: the group contains an order-32 subgroup with seven involutions) and checked on m <= 60; B997 bounded all of SL(2, Z/N), not the generated subgroup; the golden is unique among primitive grammars, and unique for having both the door and a quotient of pi_1 onto 2T (surjections onto SL(2, 3) for m = 1..6: 48, 0, 240, 0, 48, 384, two methods agreeing; the root has none onto SL(2, 5), so the door is not a quotient of pi_1); 'the siblings have no door' is false at m = 4; B997 and B1019 keep their verdicts; carried to every living page that stated the old form, GENESIS v1.63 among them. 0 of 19.  
+`B1859_the_door_set_is_one_and_four/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  

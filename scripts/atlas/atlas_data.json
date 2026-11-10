@@ -15807,6 +15807,28 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1859": {
+   "slug": "the door set is one and four",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "metallic",
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [
+    "B206",
+    "B235",
+    "B266",
+    "B993",
+    "B997"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dormant",
+   "domain": "arithmetic"
+  },
   "B185": {
    "slug": "constraint selection",
    "motifs": [
