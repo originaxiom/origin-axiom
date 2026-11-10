@@ -1,0 +1,15 @@
+P-753 / R77-2 (WP-2.2 & WP-3.2) Independent Zero-Trust Referee Run
+===================================================================
+Zero producer imports (Guardrail 6): True
+All independent checks PASS:         True
+E8 root lattice dim (240 + 8):       248
+Coroot -h4 == zeta_Spin10*(+h4) err: 7.348e-16
+Singlet/triplet h4 ratio (+-h4):     [-1.0]
+Pauli Cl(10) scrambled S_theta err:  1.738e-15
+248D Klein-4 totals (112; 136):      kpi_minus=112, k4={'00': 37, '01': 33, '10': 33, '11': 33}
+q-series leading coeff quadrature:   1.934e-16
+Scrambled |G_T| / untwisted Sym^2:   96 vs 48
+Even Z_24 twist orders:              [24, 48, 72, 144]
+Odd m=3 Sym^2(Weil_2^*) intertwiner: 3.286e-15
+Contour O(2p) / chi11(2p) / swap:    2.236e-37, 1.471e-32, 3.364e-36
+0 of 19.

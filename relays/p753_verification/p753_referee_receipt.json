@@ -1,0 +1,60 @@
+{
+  "all_independent_checks_pass": true,
+  "check1_e8_root_lattice_coroot": {
+    "a3_adjoint_15_parity_split": {
+      "-1": 6,
+      "1": 9
+    },
+    "all_roots_norm_sq_2": true,
+    "branching_dims": {
+      "(1,15)": 15,
+      "(10,6)": 60,
+      "(16,4)": 64,
+      "(45,1)": 45,
+      "(bar16,bar4)": 64
+    },
+    "coroot_phase_equivalence_max_err": 7.34788079488412e-16,
+    "integer_root_flips": 0,
+    "n_roots": 240,
+    "singlet_over_triplet_h4_ratio_set": [
+      -1.0
+    ],
+    "spinor_root_flips": 128,
+    "total_e8_dim": 248
+  },
+  "check2_pauli_clifford_scrambled_e_theta": {
+    "index_2O_St": 3,
+    "klein4_totals": {
+      "00": 37,
+      "01": 33,
+      "10": 33,
+      "11": 33
+    },
+    "kpi_minus_total": 112,
+    "order_2O": 48,
+    "order_St": 16,
+    "pauli_clifford_scrambled_S_theta_err": 1.7377739072730912e-15
+  },
+  "check3_qseries_and_scrambled_cocycle": {
+    "even_Z24_twist_orders": [
+      24,
+      48,
+      72,
+      144
+    ],
+    "odd_m3_Sym2_Weil2_bar_intertwiner_err": 3.2864289324620454e-15,
+    "qseries_leading_coeff_quadrature_err": 1.9344496097746348e-16,
+    "scrambled_S_T_fourth_plus_I_err": 1.8054712645370123e-15,
+    "scrambled_center_order": 4,
+    "scrambled_order_G_T": 96,
+    "scrambled_order_G_V": 96,
+    "untwisted_Sym2_Weil2_order": 48
+  },
+  "check4_cauchy_contour_pole_filtration": {
+    "chi11_2p_pole_filtration_err": 1.4705712016368324e-32,
+    "filtration_and_swap_verified": true,
+    "trivial_O2p_pole_filtration_err": 2.23593335362109e-37,
+    "vector_six_S2_S4_swap_err": 3.3644611527751946e-36
+  },
+  "zero_producer_imports": true
+}
