@@ -267,7 +267,8 @@ def fresh_clone(root, head="HEAD", timeout=1800):
         commit = subprocess.run(["git", "rev-parse", "--short", "HEAD"], cwd=tmp, capture_output=True, text=True).stdout.strip()
         status = "PASS"
         g = subprocess.run([sys.executable, "scripts/gates/gates.py"], cwd=tmp, capture_output=True, text=True, timeout=timeout)
-        fails = [l.strip() for l in g.stdout.splitlines() if l.strip().startswith("FAIL")]
+        # a gate that SKIPS in a fresh clone checked nothing there: it counts against the clone (the advisor seat's audit, G5)
+        fails = [l.strip() for l in g.stdout.splitlines() if l.strip().startswith(("FAIL", "SKIP"))]
         detail.append("gates %s" % ("all PASS" if g.returncode == 0 and not fails else "FAIL: " + "; ".join(fails)[:300]))
         if g.returncode != 0 or fails: status = "FAIL"
         belt = os.path.join(tmp, "scripts", "checks", "reproduce_belt.py")

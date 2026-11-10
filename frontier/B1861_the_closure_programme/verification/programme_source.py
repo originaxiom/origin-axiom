@@ -312,16 +312,16 @@ def F(ids, wp, entries):
 
 
 F("G", "WP-0.7", [
-    ("G1", "the append-only gate cannot see a committed change (graded critical)", "REPRODUCED",
-     "main's own reading of the gate: it compares the working file with the same file at HEAD, so it can see an uncommitted change only, and at the push hook's clean checkout it always passes. main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: two hundred lines of the progress log deleted and committed, and then the whole log replaced by one line, both passed"),
+    ("G1", "the append-only gate cannot see a committed change (graded critical)", "FIXED",
+     "B1863: the gate reads history. Every first-parent commit after the rule's first commit that touches the log must keep its parent's log as a prefix, or be a roll-up with its archive; it fails closed where history cannot be read; a violation stays visible until waived by name. The audit's two planted violations are in the suite, each committed in a small repository and run on the clean tree, and the registered control is the gate function failing on one"),
     ("G2", "an edit after the seal is undetected for most sealed files (graded critical)", "REPRODUCED",
      "main's own reading of the gate: it recomputes the digests of the ledger's hand-written rows only. main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a sentence appended to the candidate's pre-registration, a sealed file deleted, a sealed file edited with its ledger row regenerated, and one generated row's hash changed by hand; no gate failed on any of the four"),
     ("G3", "the seal ledger's 'recorded elsewhere' column certifies itself", "READER",
      "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: the generated rows removed and the ledger regenerated twice gave 142 unrecorded, then 0, as the audit says"),
     ("G4", "the seal-order gate sees one file name only", "READER",
      "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: an arc whose seal file has another name, first committed with its findings, passed; the same arc with the gate's own file name was refused"),
-    ("G5", "'gates fail closed' is false for many gates", "READER",
-     "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit and on an export with no repository: four gates skip and print a bare ok, and one more passes for want of an anchor; deleting the identification baseline, the retracted-phrase registry, every arc test, or emptying the law map and the theorem ledger, each passed. One detail of the audit corrected: two gates it lists do fail closed without the repository"),
+    ("G5", "'gates fail closed' is false for many gates", "PARTLY FIXED",
+     "B1863: the append-only gate fails closed without a repository, and the runner prints a gate that checked nothing as SKIP with its own words (the review tool's fresh clone counts it against the clone). Left: the four gates that still skip there, and the four deletions that pass (the identification baseline, the retracted-phrase registry, every arc test, an emptied law map and theorem ledger). Main's reader's run corrected one detail: two gates the audit lists do fail closed"),
     ("G6", "four gates read today's date", "READER",
      "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit with the date set 30, 60 and 365 days after the commit: four gates turn red on identical content"),
     ("G7", "the gate-controls gate checks a name only", "READER",

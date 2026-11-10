@@ -59,10 +59,10 @@ written: PROGRAMME.md, PROGRAMME.json
  "audit_findings": 73,
  "audit_findings_by_state": {
   "OPEN": 35,
-  "READER": 15,
-  "REPRODUCED": 8,
-  "PARTLY FIXED": 10,
-  "FIXED": 5
+  "READER": 14,
+  "REPRODUCED": 7,
+  "PARTLY FIXED": 11,
+  "FIXED": 6
  },
  "relayed_rulings": 7,
  "headline_results_that_are_conditional_results": [

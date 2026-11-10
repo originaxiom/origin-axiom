@@ -18855,3 +18855,18 @@ to pass on main's machine.
 The advisor seat also relayed rulings from the owner, among them that the programme's only goal is a parameter-free
 theory of everything. Main has recorded them and is asking the owner to confirm each before acting on it.
 0 of 19.
+
+## 2026-11-10 — S306o (continued): a safeguard that could not fire, made to fire
+
+The project's log is meant to be append-only: entries are added and never changed. A safeguard was supposed to enforce
+that. The advisor seat's audit showed it could not: it compared the log on disk with the last saved version, so once a
+deletion had been saved the safeguard saw nothing wrong. At the moment of publishing, which is when it runs, it could
+never fail.
+
+It now reads the log's history. Every saved change since today must only add to the end. If the history cannot be read
+at all, the safeguard says so and fails, where before it would have passed. The audit's own two test cases, deleting
+part of the log and replacing all of it, are now run automatically on small throwaway repositories, and both are
+caught.
+
+This is the first of the two faults the audit graded critical. The second, changing a sealed document after its seal,
+is next. 0 of 19.

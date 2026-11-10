@@ -1,0 +1,26 @@
+{
+ "id": "B1863",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1861",
+  "B1862"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the advisor seat's audit, finding G1 and planted violations PV1, PV2 and PV9 (relays/advisor_2026-11-10_audit/ @ 701d12ff; harvest rows 1629-1630): reproduced on main before the fix; the seat's re-audit decides acceptance"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (a process arc: one gate of the record)",
+  "object": "the append-only gate on the progress log, and the gate runner's printing of a skipped gate",
+  "reach": "general",
+  "hypotheses": "the rule is read in history from f31729801 on; earlier history is not read; a gate that runs from the pushed tree can be edited in the violating commit (the audit's G12, open)"
+ },
+ "claim_one_line": "THE APPEND-ONLY GATE READS HISTORY (the advisor seat's finding G1, graded critical; reproduced on main; WP-0.7's first step): the gate compared the working file with the same file at HEAD, so a committed deletion passed and at the push hook's clean checkout it could not fail; it now checks every first-parent commit after f31729801 that touches the progress log (the parent's log a prefix, or a roll-up whose removed prefix stands verbatim in that commit's archives), fails closed where history cannot be read (no repository, a shallow clone, an unrelated history), and keeps a violation visible until the owner waives the commit by name; planted in small repositories and run on the clean tree at the violating commit: a deletion from the middle, the log replaced by one line, a restored deletion, a roll-up with and without its archive, and the gate function itself; the runner prints a gate that checked nothing as SKIP with its own words, never a bare ok, and the review tool's fresh clone counts a SKIP against the clone. Not done: history before the rule's first commit; the gates that still skip without a repository. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}

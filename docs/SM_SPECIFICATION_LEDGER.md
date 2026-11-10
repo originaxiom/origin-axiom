@@ -765,3 +765,35 @@ Wilson-line difference, is where a data-free derivation would have to come from.
   those lines, not a value. The strong-CP phase θ_Y steps by 264πa under the frame's relabellings.
 - **What this does not supply.** Any of the nineteen, still; the lepton factor c = 3 is chosen on the data (B1726), and τ is
   not selected (the clock CHOSEN, B1814).
+
+## Currency note — 2026-11-10, through B1863 (the candidate at its principled end, the inputs counted, the modulus read, and one map of what is missing)
+
+- **Still none of the nineteen.** The count of what the record has earned was adopted at Review 75 (B1844,
+  `docs/THE_COUNT_2026-11-06.md`): the six mass ratios are reached only by borrowing 13 inputs, of which three are
+  fitted numbers (Re τ, Im τ and the lepton factor) and ten are chosen.
+- **The candidate.** The end card on the free level is NEGATIVE (B1839). At the principled ends the six pass a sealed
+  screen as a level-1 reading (B1841), and the quark four alone are not specific. The two clean held-out targets are
+  held unspent by the owner (P-709). A second seat's audit holds that the winning end was added after the first
+  declaration and that the card fails under the arms the plan committed to (its finding V4; not yet reproduced on main).
+- **The modulus.** The metric's own τ at the tube is 0 + 6.15(15)i at k = 1, its real part exact given a numerical
+  identification of the tube (B1847, B1852), and about 6.07 at k = 2 with an error of about 0.02 (B1854, corrected at
+  Review 77). It is a thread reading under a chosen framing; four choices remain in the read-out rule. The candidate's
+  own row sits at another τ, and the record does not yet say in one place how the two are meant to relate.
+- **The global form, at its scope.** The kernel under rescaled abelian charges is cyclic of order 6k, so it is ℤ₆ only
+  at the primitive normalisation of hypercharge (B1221's correction, P-604). B862's ℤ₆ is now computed from its map and
+  no longer asserted (B1862).
+- **The grammar's uniqueness, narrowed** (B1859; GENESIS v1.63): the own-conductor door set is {1, 4}. The golden
+  grammar is unique among primitive grammars, and for having the door together with a 2T quotient.
+- **Chirality.** Nothing on main selects a hand. The lanes' conditional model finds its charged vectors paired with
+  left and right currents of equal size, with no mechanism yet that breaks the pairing; that is the lanes' result and
+  is not verified on main (P-749).
+- **Two corrections that touch this ledger's rows** (B1862, from the audit): B1856's "invisible to every state" is
+  E ≡ +I only, so the charge premise as a whole needs a parity superselection rule; B854's negative on a non-abelian
+  centralizer is for the principal embedding only.
+- **One map of what is missing, and a plan** (B1858, B1861). Main's spine holds 38 inputs as the record lists them:
+  8 axioms, 8 bits, 16 discrete choices, 5 real numbers, 1 ansatz and 7 identifications. The premises are in series:
+  beyond the foundation's axioms the root waits on 2 open choices, the structural theorem on 3, the chiral three on 3
+  and the six ratios on 15, and none is released by closing one. What sits under the most is the weight, which the
+  law "everything allowed happens" leaves open (B1813, B1815).
+- **What this does not supply.** Any of the nineteen, still. No value is derived, none is predicted, and the parent
+  algebra, the anomalies of the joined spectrum and gravity in 3+1 have no owner.

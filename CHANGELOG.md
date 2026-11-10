@@ -1,5 +1,16 @@
 # Changelog
 
+## S306o (continued) THE APPEND-ONLY GATE READS HISTORY (B1863; the audit's first critical finding, G1) (2026-11-10)
+
+- **What was wrong.** The gate compared the working progress log with the same file at HEAD, so it saw an uncommitted change only. A committed deletion passed, and at the push hook's clean checkout the gate could not fail at all.
+- **Now it reads history:** every first-parent commit after `f31729801` that touches the log keeps its parent's log as a prefix, or is a roll-up whose removed prefix stands verbatim in that commit's archives.
+  - It fails closed where history cannot be read: no repository, a shallow clone, an unrelated history.
+  - A violation stays visible after the text is restored, until the owner waives the commit by name.
+- **The audit's planted violations are in the suite** (`tests/test_append_only_history.py`): each is committed in a small repository and the check is run on the clean tree at that commit. The registered control is the gate function failing on one.
+- **The gate runner prints a gate that checked nothing as SKIP,** with its own words. Before, every pass printed "ok". The review tool's fresh clone counts a SKIP against the clone.
+- Not done: history before the rule's first commit; the four gates that still skip without a repository; the second critical finding (an edit of a sealed file after its seal), which is next.
+- 0 of 19.
+
 ## S306o (continued) THE CLOSURE PROGRAMME (B1861); THE ADVISOR SEAT'S AUDIT HARVESTED AND ITS FIRST EIGHT CORRECTIONS (B1862); GENESIS v1.64 (2026-11-10)
 
 - **The closure programme (B1861): the work order's plan, as a check.** One generated page, `frontier/B1861_the_closure_programme/PROGRAMME.md`. Its builder refuses to write it unless every node of the closure map that still needs a path is in exactly one package, and unless the order of work records every dependency edge the map holds between two packages.

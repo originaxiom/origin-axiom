@@ -123,36 +123,88 @@ def gate_firewall_oneway():
 
 
 # --- gate: PROGRESS_LOG is append-only ----------------------------------------------------
+# G1 of the advisor seat's audit (2026-11-10; reproduced on main, B1861 § 8): this gate compared the working file with the
+# same file at HEAD, so it could see an uncommitted change only. A deletion that was COMMITTED passed, and at the push hook's
+# clean checkout, where the working file IS HEAD's, the gate could not fail at all. It now also reads history: every commit
+# on main's first-parent line after APPEND_ONLY_FROM that touches the log must keep its parent's log as a prefix, or be a
+# roll-up whose removed prefix stands verbatim in that commit's own docs/progress/ archives.
+APPEND_ONLY_FROM = "f31729801089e2b11e2a586899b6b1336da745fb"     # the rule is checked in history from this commit on (2026-11-10); earlier history is not read
+APPEND_ONLY_WAIVED = {}             # full sha -> the owner's reason. A violating step stays in history; a waiver keeps it visible.
+
+
+def _rollup_ok(old, new, archive):
+    """the one constitutional exception (GOVERNANCE §9): a PREFIX of dated entries moved verbatim into the archives"""
+    n = 0
+    while n < min(len(new), len(old)) and new[-1 - n] == old[-1 - n]:
+        n += 1
+    retained = old[len(old) - n:]
+    removed = old[:len(old) - n]
+    if not retained.strip():
+        return False, "no common suffix with the earlier log -- not an append, not a roll-up"
+    k = removed.find("## 20")
+    moved = removed[k:] if k >= 0 else removed
+    ok = moved.strip() in archive
+    return ok, f"roll-up: removed prefix archived verbatim: {ok}"
+
+
+def append_only_problems(repo, root, waived=(), path="PROGRESS_LOG.md", limit=5):
+    """The committed violations of append-only on `repo`'s first-parent line after `root`. A pure function of the commit
+    graph: it reads no working file and no date. It FAILS CLOSED: a clone that does not hold `root`, or whose HEAD does not
+    descend from it, cannot be verified and is reported so (a shallow clone must not pass with nothing checked)."""
+    def git(*a):
+        return subprocess.run(["git", "-C", str(repo), *a], capture_output=True, text=True, timeout=120)
+    if git("rev-parse", "--git-dir").returncode != 0:
+        return ["cannot verify: not a git repository"], 0
+    if git("cat-file", "-e", root + "^{commit}").returncode != 0:
+        return [f"cannot verify: the rule's first commit {root[:9]} is not in this clone (shallow or partial)"], 0
+    if git("merge-base", "--is-ancestor", root, "HEAD").returncode != 0:
+        return [f"cannot verify: HEAD does not descend from the rule's first commit {root[:9]}"], 0
+    commits = git("log", "--first-parent", "--reverse", "--format=%H", f"{root}..HEAD", "--", path).stdout.split()
+    problems = []
+    for c in commits:
+        if c in waived:
+            continue
+        old, new = git("show", f"{c}^:{path}"), git("show", f"{c}:{path}")
+        if old.returncode != 0:
+            continue                                   # the log did not exist before this commit
+        if new.returncode != 0:
+            problems.append(f"{c[:9]} deletes {path}")
+            continue
+        if new.stdout.startswith(old.stdout):
+            continue
+        names = [f for f in git("ls-tree", "-r", "--name-only", c, "docs/progress/").stdout.split("\n") if f.endswith(".md")]
+        archive = "".join(git("show", f"{c}:{f}").stdout for f in sorted(names))
+        ok, why = _rollup_ok(old.stdout, new.stdout, archive)
+        if not ok:
+            problems.append(f"{c[:9]} changes or removes earlier text of {path} ({why})")
+    return problems[:limit], len(commits)
+
+
 def gate_append_only():
     """Append-only, with the one constitutional exception (GOVERNANCE §9): a quarterly
     roll-up may move a PREFIX of dated entries verbatim into docs/progress/ — the gate
     then requires (a) the live log ends with HEAD's retained suffix and (b) the removed
-    prefix appears verbatim inside the docs/progress/ archives."""
+    prefix appears verbatim inside the docs/progress/ archives.
+
+    Two checks. (1) HISTORY: every commit after APPEND_ONLY_FROM that touches the log is an append or a roll-up
+    (`append_only_problems`); this is the check that can fail on a committed violation, and it fails closed without git
+    or in a clone that cannot show the history. (2) THE WORKING FILE against HEAD, as before, for an uncommitted change."""
+    problems, n = append_only_problems(ROOT, APPEND_ONLY_FROM, APPEND_ONLY_WAIVED)
+    if problems:
+        return False, "; ".join(problems)
     rc, head = _git("show", "HEAD:PROGRESS_LOG.md")
     if rc != 0:
-        return True, "git unavailable — skipped"
+        return False, "git unavailable: the working log cannot be compared with HEAD's"
     cur = _read("PROGRESS_LOG.md")
     if cur.startswith(head):
-        return True, "HEAD prefix preserved"
-    # roll-up path: longest common suffix
-    n = 0
-    while n < min(len(cur), len(head)) and cur[-1 - n] == head[-1 - n]:
-        n += 1
-    retained = head[len(head) - n:]
-    removed = head[:len(head) - n]
-    if not retained.strip():
-        return False, "no common suffix with HEAD — not an append, not a roll-up"
+        return True, f"HEAD prefix preserved; {n} commit(s) since {APPEND_ONLY_FROM[:9]}, each an append"
     arch_dir = os.path.join(ROOT, "docs", "progress")
     archive = ""
     if os.path.isdir(arch_dir):
         for f in sorted(os.listdir(arch_dir)):
             if f.endswith(".md"):
                 archive += _read(f"docs/progress/{f}")
-    # the removed dated entries (from the first "## 20" heading) must live in the archive
-    k = removed.find("## 20")
-    moved = removed[k:] if k >= 0 else removed
-    ok = moved.strip() in archive
-    return ok, f"roll-up: removed prefix archived verbatim: {ok}"
+    return _rollup_ok(head, cur, archive)
 
 
 # --- gate: atlas freshness (the automatic-update invariant) --------------------------------
@@ -1994,7 +2046,13 @@ if __name__ == "__main__":
     res = run_all()
     worst = 0
     for name, (ok, detail) in res.items():
-        print(f"  {'PASS' if ok else 'FAIL'}  {name}: {detail if not ok else 'ok'}")
+        # a gate that passed by checking nothing says so: it is printed SKIP with its own words, never a bare "ok"
+        # (the advisor seat's audit, G5; main's planted run found five gates that skip without git and print ok)
+        skipped = ok and isinstance(detail, str) and ("skipped" in detail or "unavailable" in detail or "no review anchor" in detail)
+        if skipped:
+            print(f"  SKIP  {name}: {detail}")
+        else:
+            print(f"  {'PASS' if ok else 'FAIL'}  {name}: {detail if not ok else 'ok'}")
         worst = max(worst, 0 if ok else 1)
     n, due = review_status()
     print(f"  review-due: {n} merges since last review "
