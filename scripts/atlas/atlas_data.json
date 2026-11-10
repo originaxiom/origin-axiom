@@ -16127,6 +16127,20 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1873": {
+   "slug": "the programme read by a non author",
+   "motifs": [
+    "closing"
+   ],
+   "refs": [
+    "L10",
+    "L6"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "open",
+   "domain": "topology"
+  },
   "B187": {
    "slug": "interacting open collective",
    "motifs": [

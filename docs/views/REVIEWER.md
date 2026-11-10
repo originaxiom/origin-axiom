@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1574** |
-| words of findings prose | **1,351,448** |
+| research arcs with findings | **1575** |
+| words of findings prose | **1,353,144** |
 | test lock files referenced | **936** |
-| arcs carrying an authored verdict | **1574** (100.0 %) |
+| arcs carrying an authored verdict | **1575** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1083 |
+| PROVED | 1084 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1872`** (1245 words, 0 locks)  
-'ALL ALLOWED HISTORIES TOGETHER': THE WEB SEAT'S DEFINITION READ, AND ITS EXACT FACTS VERIFIED ON MAIN (the owner's confirmed ruling that the claim is about all allowed histories together; data-free, integers only; the seat's code not run): 'together' is the weave's own sentence applied to the allowed set -- the joint action of the allowed histories on the shared records, the group they generate -- with two requirements, that the allowed set be closed under composition and that its data sit on the shared records. At level 5 the allowed subweave is the stabiliser of one marked line up to sign: four histories the charge reading allows generate a subgroup of index 12 in the modular group up to sign (by coset enumeration, with two controls of the instrument); of the 694 positive words to 12 letters that keep the line, 204 are a word that is plus or minus one at level 5 followed by golden periods, and all 694 keep the twin line too; of the 330 cyclic words to 12 letters of trace plus or minus two at level 5, 23 have no rotation that keeps the marked line; LR and RL together generate all of the level-5 group. So the two readings of the level-5 premise allow different words and generate one group; a line belongs on the shared records; the twins come together. Read through what it fixes the joint action selects nothing: the definition is done and the read-out is not. Main adds that the tick, if it is an act, exchanges a line with its twin, so the mark is then both. The seat's three forks are not ruled. 0 of 19.  
-`B1872_all_histories_together_the_exact_facts_verified/FINDINGS.md`
+**PROVED — `B1873`** (1505 words, 0 locks)  
+THE CLOSURE PROGRAMME READ BY A NON-AUTHOR: WHAT HELD, WHAT IS REPAIRED, WHAT IS OWED (the owner's word to fetch the advisor seat's read; bookkeeping only): the read's counts reproduce on main's own files, and its cause is real -- the programme seals a value only if nothing open lies upstream, upstream is read from the map's edges, and the audit's findings, 63 of 80 open debts and all but one of the unearned identifications were joined to nothing, so the comparison did not wait on six packages holding 31 findings, the suite and the comparison's own instruments among them. Repaired, each with a refusal in the builder and a planted control: every finding names what it bears on (34 the repository as a whole, 39 arcs, nodes or pages); the sealed card waits on every package holding what no single value's list can show; a package started while a need has not started is refused (five cases, three now held as worked first and conditional); 'fixed' is main's word and the re-audit's verdict a separate field (12 recorded). Corrected in main's record: one finding marked fixed is partly fixed (the premise's two signs not carried to four places); the script the foundation cites for the price does fail, so that finding stands in full and B1870 carries a dated correction; one test run rewrites a tracked evidence file, reproduced; the level-5 premise is two choices; the exits on the table are 8 and not 12. Owed and registered: the debts and the identifications joined to the map, every choice carrying its alternatives, one price printed. 0 of 19.  
+`B1873_the_programme_read_by_a_non_author/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  

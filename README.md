@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.64) of 2026-11-10 |
-| arcs with a verdict | 1574: 1083 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 772: 264 open (queued, leads, waiting for the owner), 508 closed |
+| arcs with a verdict | 1575: 1084 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
+| points in the register | 773: 265 open (queued, leads, waiting for the owner), 508 closed |
 | the last review | Review 77 (2026-11-10), anchor `10641a1b2` |
-| the last landing | S306o (later) THE OWNER'S RULING ON THE LAW'S READING; ONE TICK OR TWO ACTS VERIFIED (B1871); ALL HISTORIES TOGETHER DEFINED AND ITS FACTS VERIFIED (… |
+| the last landing | S306o (at the owner's word) THE CLOSURE PROGRAMME READ BY A NON-AUTHOR: FOUR REPAIRS, THREE CORRECTIONS TO MAIN'S OWN RECORD, ONE DEBT (B1873; P-773)… |
 <!-- STATE:END -->
 
 ## Start here

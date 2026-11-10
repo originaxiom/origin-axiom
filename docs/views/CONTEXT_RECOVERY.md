@@ -13,24 +13,25 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1574 |
-| … PROVED | 1083 |
+| arcs with a verdict file | 1575 |
+| … PROVED | 1084 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 772 |
-| … QUEUED | 255 |
+| register points | 773 |
+| … QUEUED | 256 |
 | … LEAD | 4 |
 | … OWNER | 5 |
 | … DONE | 496 |
 | … DECLINED | 12 |
-| harvest rows (the last number) | 1663 |
+| harvest rows (the last number) | 1665 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1873 | PROVED | THE CLOSURE PROGRAMME READ BY A NON-AUTHOR: WHAT HELD, WHAT IS REPAIRED, WHAT IS OWED (the owner's word to fetch the advisor seat's read; bookkeeping only): the read's counts reproduce on main's own files, and its cause… |
 | B1872 | PROVED | 'ALL ALLOWED HISTORIES TOGETHER': THE WEB SEAT'S DEFINITION READ, AND ITS EXACT FACTS VERIFIED ON MAIN (the owner's confirmed ruling that the claim is about all allowed histories together; data-free, integers only; the… |
 | B1871 | PROVED | ONE TICK OR TWO ACTS: THE ADVISOR SEAT'S SEALED RUN VERIFIED ON MAIN, AND WHAT THE TICK DOES TO THE WEAVE'S THREE (P-769; data-free, integers and SnapPy; the seat's code not run): the seat's result holds in every part.… |
 | B1870 | PROVED | THE AUDIT'S BACKLOG, REPRODUCED ON MAIN (the owner's approval of one multi-agent run for it; bookkeeping only): of the 34 findings of the advisor seat's audit that nobody had reproduced on main, main's own re-runs of 16… |
@@ -42,7 +43,6 @@
 | B1864 | PROVED | A SEALED FILE DOES NOT CHANGE AFTER ITS SEAL (the advisor seat's finding G2, graded critical, with G3 and G4; reproduced on main; WP-0.7): an edit of a sealed file after its seal was detected only for the files with a h… |
 | B1863 | PROVED | THE APPEND-ONLY GATE READS HISTORY (the advisor seat's finding G1, graded critical; reproduced on main; WP-0.7's first step): the gate compared the working file with the same file at HEAD, so a committed deletion passed… |
 | B1862 | PROVED | THE AUDIT'S FIRST CORRECTIONS (the advisor seat's findings E13, E3, L5, E4, E11, E10, E6, E8, each reproduced on main first; P-757): B567's level-165 Weil spectrum has 20 distinct eigenvalues, not 21 -- the projective o… |
-| B1861 | PROVED | THE CLOSURE PROGRAMME (the owner's goal of 2026-11-10: the physical lane's work order scrutinised, sharpened and made a check): one generated page whose builder refuses to write it unless every node of the closure map t… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -57,6 +57,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306o (at the owner's word) THE CLOSURE PROGRAMME READ BY A NON-AUTHOR: FOUR REPAIRS, THREE CORRECTIONS TO MAIN'S OWN RECORD, ONE DEBT (B1873; P-773) (2026-11-10)
 - S306o (later) THE OWNER'S RULING ON THE LAW'S READING; ONE TICK OR TWO ACTS VERIFIED (B1871); ALL HISTORIES TOGETHER DEFINED AND ITS FACTS VERIFIED (B1872) (2026-11-10)
 - S306o (the owner's multi-agent run for the audit backlog) THE AUDIT'S BACKLOG REPRODUCED ON MAIN (B1870), AND THE PRINCIPLE AS A SELECTION RULE VERIFIED (B1869; P-762) (2026-11-10)
 - S306o (the second fetch of the evening) WHAT CONCENTRATES UNDER THE MOVE COUNT: THE WEB SEAT'S CARD VERIFIED ON MAIN (B1868; P-756 answered on the modulus's side; P-755 put to the owner) (2026-11-10)
@@ -64,11 +65,10 @@
 - S306o (the refetch) TWO SEATS HARVESTED AND CHECKED: THE PHYSICAL LANE'S REVIEW OF THE JOIN RELAY (B1866 § 6), AND THE ADVISOR SEAT'S TOP-DOWN READING AND LINE-OR-LOOP RULE (B1867) (2026-11-10)
 - S306o (continued) THE AGY LANE'S RELAY ON THE REGISTER-TO-FIELD JOIN, SCRUTINISED AT THE OWNER'S WORD (B1866; P-753) (2026-11-10)
 - S306o (continued) THREE SEATS HARVESTED AGAIN; THE ADVISOR SEAT'S PLANTED-VIOLATION SCRIPT RUN ON MAIN (B1865) (2026-11-10)
-- S306o (continued) A SEALED FILE DOES NOT CHANGE AFTER ITS SEAL (B1864; the audit's second critical finding, G2, with G3) (2026-11-10)
 
 ## The latest campaign line
 
-LATEST (2026-11-10, S306o (later): THE OWNER RULED ON THE LAW'S READING ("Yes - on the decision"; P-755 closed): the law is what takes part, the move count is not adopted as the weight, the weight stays open as the object of the closed loop. B1871 — ONE TICK OR TWO ACTS, the advisor seat's sealed run verified in every part: the tick adds about half as many histories again, each with no hand; LR is the tick done twice, so the root's mirror symmetry is a consequence; the moves' group doubles from level 3; the tick exchanges the two level-5 lines; main adds that it joins the weave's triplet to its conjugate and gives the three no hand; whether the tick is an act is asked of the owner (P-771).…
+LATEST (2026-11-10, S306o (at the owner's word): B1873 — THE CLOSURE PROGRAMME READ BY A NON-AUTHOR (the advisor seat's read, its counts recomputed on main): the programme's rule for a seal reads the map, and the audit's findings, 63 of 80 debts and the unearned identifications were joined to nothing, so the comparison did not wait on six packages holding 31 findings. Repaired with refusals and planted controls: every finding names what it bears on; the sealed card waits on every package holding what no single value's list can show; started-before-a-need is refused; the re-audit's verdict is a field apart from main's. Corrected in main's record: E3 partly fixed, X3 stands in full (the price…
 
 ## Completeness (nothing skipped silently)
 
