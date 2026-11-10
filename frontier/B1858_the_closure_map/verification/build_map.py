@@ -189,10 +189,19 @@ def build():
     lab = {n["id"]: n.get("weave_or_thread") for n in nodes}
     grade_of = {n["id"]: n["grade"] for n in nodes}
     for e in edges:
+        # DERIVED means proved outright: such a node may not REQUIRE anything that is not itself proved outright.
+        # A theorem that the programme uses under a premise carries an `applies-under` edge to it (Review 77, the reader)
+        if e["kind"] == "requires" and grade_of.get(e["src"]) == "DERIVED" and grade_of.get(e["dst"]) != "DERIVED":
+            fails.append("a DERIVED node requires a node that is not DERIVED: %s requires %s (%s)" % (e["src"], e["dst"], grade_of.get(e["dst"])))
         # a result stated about the weave may not rest on a thread: that is the thread-for-weave substitution
-        if e["kind"] == "requires" and lab.get(e["src"]) == "weave" and lab.get(e["dst"]) in ("thread", "list") \
+        if e["kind"] in ("requires", "applies-under") and lab.get(e["src"]) == "weave" and lab.get(e["dst"]) in ("thread", "list") \
                 and grade_of[e["src"]] in ("DERIVED", "CONDITIONAL", "NEGATIVE"):
             fails.append("a weave result rests on a thread: %s requires %s" % (e["src"], e["dst"]))
+    # a conditional result names what it is conditional on (B1861's builder found eight that did not)
+    has_premise = {e["src"] for e in edges if e["kind"] in ("requires", "applies-under")}
+    for n in nodes:
+        if n["grade"] in ("CONDITIONAL", "READING") and n["id"] not in has_premise:
+            fails.append("a conditional result names no premise: %s" % n["id"])
     # ---- checks
     ids = [n["id"] for n in nodes]
     for i, c in collections.Counter(ids).items():
@@ -286,7 +295,8 @@ def render_map(nodes, edges, stats):
          "",
          "| grade | meaning | nodes |",
          "|---|---|---|"]
-    meaning = {"DERIVED": "proved on main", "CONDITIONAL": "proved on main given named premises",
+    meaning = {"DERIVED": "held on the record as proved outright (the map checks the citation, not the proof)",
+               "CONDITIONAL": "proved given named premises, a tag or a numerical identification",
                "RECORD": "a fact about the record's own state, checked at its source", "POSTULATED": "assumed by the foundation",
                "TAGGED": "a tagged working postulate (the owner's ruling)", "CHOSEN": "a fork settled by choice, the alternative kept",
                "FITTED": "a continuous input fixed by looking at data", "ANSATZ": "a posited form with no derivation",
@@ -355,10 +365,10 @@ def render_queue(nodes, edges, stats, rows):
     # what each headline result rests on: the transitive closure of "requires"
     req = collections.defaultdict(list)
     for e in edges:
-        if e["kind"] == "requires":
+        if e["kind"] in ("requires", "applies-under"):
             req[e["src"]].append(e["dst"])
     L += ["", "## What each headline result rests on", "",
-          "*Everything upstream of a result along the map's \"requires\" edges, by grade. A result is as derived as the weakest thing under it.*", "",
+          "*Everything upstream of a result along the map's \"requires\" and \"applies-under\" edges, by grade. As physics, a result is as derived as the weakest thing under it.*", "",
           "| result | its own grade | upstream, by grade | not derived, by name |", "|---|---|---|---|"]
     for hid, label in S.HEADLINES:
         seen, stack = set(), list(req[hid])

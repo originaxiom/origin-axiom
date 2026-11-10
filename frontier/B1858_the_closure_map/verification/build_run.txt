@@ -1,20 +1,20 @@
 {
  "nodes": 267,
- "edges": 277,
+ "edges": 286,
  "by_grade": {
   "ANSATZ": 1,
   "CHOSEN": 42,
   "CLOSURE": 11,
-  "CONDITIONAL": 17,
+  "CONDITIONAL": 18,
   "CONFIRMED": 1,
   "DEBT": 78,
-  "DERIVED": 15,
+  "DERIVED": 13,
   "DUTY": 16,
   "FITTED": 2,
   "LANE-INPUT": 7,
   "LANE-PROPOSED": 7,
   "LANE-REVIEWED": 1,
-  "NEGATIVE": 11,
+  "NEGATIVE": 12,
   "OPEN": 36,
   "POSTULATED": 11,
   "READING": 1,
@@ -40,17 +40,17 @@
   "14 closure": 11,
   "15 debts": 78
  },
- "pins_checked_on_main": 250,
+ "pins_checked_on_main": 254,
  "pins_checked_on_seat_branches": 39,
  "seat_pins_unavailable_in_this_clone": 0,
  "register_rows_cited": 124,
  "open_debts": 78,
  "weave_or_thread": {
-  "list": 3,
-  "n/a": 130,
-  "record": 6,
+  "list": 5,
+  "n/a": 131,
+  "record": 7,
   "thread": 78,
-  "weave": 50
+  "weave": 46
  }
 }
 ALL PINS CHECK

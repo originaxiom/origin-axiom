@@ -8,8 +8,8 @@ by a quote that the builder checks.*
 
 | grade | meaning | nodes |
 |---|---|---|
-| DERIVED | proved on main | 15 |
-| CONDITIONAL | proved on main given named premises | 17 |
+| DERIVED | held on the record as proved outright (the map checks the citation, not the proof) | 13 |
+| CONDITIONAL | proved given named premises, a tag or a numerical identification | 18 |
 | RECORD | a fact about the record's own state, checked at its source | 2 |
 | CONFIRMED | a registered falsifiable claim that observation has confirmed | 1 |
 | POSTULATED | assumed by the foundation | 11 |
@@ -19,7 +19,7 @@ by a quote that the builder checks.*
 | FITTED | a continuous input fixed by looking at data | 2 |
 | ANSATZ | a posited form with no derivation | 1 |
 | READING | passes a sealed screen; not a prediction | 1 |
-| NEGATIVE | a banked negative, scoped | 11 |
+| NEGATIVE | a banked negative, scoped | 12 |
 | OPEN | not settled | 36 |
 | LANE-REVIEWED | a seat's proof with a non-authoring review inside its lane; not verified on main | 1 |
 | LANE-PROPOSED | a seat's hand proof, count or estimate, unreviewed; not verified on main | 7 |
@@ -93,13 +93,13 @@ by a quote that the builder checks.*
 | W:INDEX3 | CONDITIONAL | weave | Given Λ and the unit, the chiral three is a four-dimensional index (±3) on the weave's own surface. | GENESIS.md; B1632; B1641 |
 | W:LAW | OPEN | weave | The law as the owner states it: if something is allowed to happen, it happens. On the record it is the weave's rule of method, and as a physical law a hypothesis to test, not a premise. | GENESIS.md; P-755 (OWNER); P-756 (QUEUED) |
 | W:MEASURE | DERIVED | weave | Run with nothing forced, the threads produce a definite measure for each way of counting them, and the measures differ: counted move by move the weight keeps out of the cusp; counted by geometric length it is hyperbolic area. | frontier/B1813_the_weaves_own_measure_depends_on_how_its_threads_are_counted/arc_verdict.json; B1813; P-437 (DONE); P-439 (QUEUED) |
-| W:MIRROR-EVEN | DERIVED | weave | A flat frame's count can tell a module from its dual but cannot see the hand: the class index is mirror-even for every module. | GENESIS.md; B1487 |
+| W:MIRROR-EVEN | DERIVED | list | A flat frame's count can tell a module from its dual but cannot see the hand: the class index is mirror-even for every module. | GENESIS.md; B1487 |
 | W:NO-ATOM | NEGATIVE | weave | Under the weave's uniform measure nothing the principle forces gives the cusp a weight: no atom. Scoped: other measures and other dynamics are not excluded. | frontier/B1629_does_the_principle_reach_the_weaves_cusp/arc_verdict.json; B1629 |
 | W:NOMOD | NEGATIVE | weave | The weave forces no fibre modulus: no point of the upper half-plane is fixed by every move. | GENESIS.md; B1617 |
 | W:NOVAL | NEGATIVE | weave | No parameter of the nineteen and no neutrino mass is a number of the weave's group; values need a forced modulus, dynamics or end data. | GENESIS.md; B1611; B1612; B1615 |
-| W:ONE-END | NEGATIVE | weave | A generated state has one end, and no generated state carries three generations in either counting frame, by counting ends. | GENESIS.md; B1487 |
+| W:ONE-END | NEGATIVE | list | A generated state has one end, and no generated state carries three generations in either counting frame, by counting ends. | GENESIS.md; B1487 |
 | W:Q8 | DERIVED | weave | At two records the moves fix exactly two characters: the trivial one and the quaternion point; at three or more records, only the trivial one. | GENESIS.md; B1677; B1679 |
-| W:T | DERIVED | weave | The triplet: a three-dimensional representation follows from the quaternion point. | GENESIS.md |
+| W:T | DERIVED | weave | At the quaternion point the moves' lift is a three-dimensional representation, the triplet. That the records sit at that point is the grammar's premise, not this theorem's. | GENESIS.md |
 | W:WALK | DERIVED | weave | The moves' own walk gives the move-by-move measure exactly (Minkowski's), singular to area, at every strength of the pull-back. | frontier/B1815_the_records_walk_has_minkowskis_exit_law_exactly/arc_verdict.json; B1815; B1663 |
 
 ## 4. The structural theorem (the McKay cascade on the root)
@@ -107,7 +107,7 @@ by a quote that the builder checks.*
 | id | grade | about | statement | where |
 |---|---|---|---|---|
 | MC:ALG | CONDITIONAL | thread | The gauge algebra su(3) ⊕ su(2) ⊕ u(1)³. | docs/THE_CLAIM.md; B892; B992 |
-| MC:CS0 | DERIVED | thread | No dimensionful quantity, by theorem: the object's Chern–Simons invariant is zero. | docs/THE_CLAIM.md; B811; B1012; B1226 |
+| MC:CS0 | DERIVED | thread | For m004 the Chern–Simons invariant is zero, so its complex volume is real. This is a fact about this object, not a symmetry theorem: m003 is amphichiral with the other value. The step from it to physics is withdrawn. | docs/THE_CLAIM.md; B811; B1012; B1226 |
 | MC:CUBIC | CONDITIONAL | thread | Matter mass sits in the cubic of the 27. | docs/THE_CLAIM.md; B978; B884; B987 |
 | MC:END | CONDITIONAL | thread | The cascade terminates, and every registered selection function ends at the same algebra. | docs/THE_CLAIM.md; B863; B994 |
 | MC:GEN | OPEN | thread | The generation count is not an output of the structural theorem; it sits on the open-inputs side. | docs/THE_CLAIM.md; B1033; P-606 (QUEUED) |
@@ -156,12 +156,12 @@ by a quote that the builder checks.*
 |---|---|---|---|---|
 | T:CHARGE5 | CHOSEN | thread | The charge premise at level 5, which fixes the depth of the one departure. | docs/THE_TAU_READOUT_RULE.md; B1853; B1855; B1856; P-717 (QUEUED); P-738 (DONE) |
 | T:FRAMING | CHOSEN | thread | The framing: the metric's fibration is the structure read. Set by the goal, not derived; other structures give other readings. | docs/THE_TAU_READOUT_RULE.md; P-726 (DONE); P-714 (QUEUED) |
-| T:IM | LANE-PROPOSED | thread | The value under the rule at the point reading: Im τ about 6.065 in the long-history limit. The web seat's sealed estimate; main confirms it to two decimals only. | docs/THE_TAU_READOUT_RULE.md; B1854; P-739 (QUEUED) |
+| T:IM | LANE-PROPOSED | thread | The value under the rule at the point reading: Im τ about 6.065 in the long-history limit. The web seat's sealed estimate; main's own value at k = 2 agrees with the seat's within main's scatter of about 0.02, and main has no value beyond k = 2. | docs/THE_TAU_READOUT_RULE.md; B1854; P-739 (QUEUED) |
 | T:MINIM | CHOSEN | thread | Minimisation as the use of the action. | docs/THE_TAU_READOUT_RULE.md; B1853 |
-| T:NO-PLACE | NEGATIVE | weave | Nothing on the record places Im τ: the object's action is linear, and its one phase transition has no scale. | docs/THE_BANG_PROGRAMME.md; B1341; B852; B1813; P-713 (DONE) |
+| T:NO-PLACE | NEGATIVE | record | Nothing on the record places Im τ: the object's action is linear, and its one phase transition has no scale. | docs/THE_BANG_PROGRAMME.md; B1341; B852; B1813; P-713 (DONE) |
 | T:POINT-WEIGHT | CHOSEN | thread | Point or weight: the metric supplies both a canonical point (the systole) and a canonical weight; which the read-out uses is a choice. | docs/THE_TAU_READOUT_RULE.md; P-726 (DONE); P-744 (QUEUED) |
 | T:PRICED | DUTY | record | The candidate τ is not yet priced by the random-subset control, and is read against the six only inside a sealed card. | docs/THE_TAU_READOUT_RULE.md; P-714 (QUEUED); P-708 (DONE) |
-| T:RE | DERIVED | thread | The tube's level surface has Re τ = 0 exactly, by topology; the Teichmüller apex of the same word also lies on Re 0. | docs/THE_TAU_READOUT_RULE.md; B1852; P-751 (DONE) |
+| T:RE | CONDITIONAL | thread | The two σ-fixed fibres carry involutions of opposite class, exactly; which of them is the tube is fixed by numerics (B1847's anti-apex at Re ½ to 7 × 10⁻⁷, against the alternatives 0 and ½). Given that, the tube's level surface has Re τ = 0; the Teichmüller apex of the same word also lies on Re 0. | docs/THE_TAU_READOUT_RULE.md; B1852; P-751 (DONE) |
 | T:RULE | CONDITIONAL | thread | Granted the framing, τ at a point of the circle is the conformal modulus of the fibre at that point of the metric's own clock. | docs/THE_TAU_READOUT_RULE.md; B1846; B1847; P-714 (QUEUED); P-727 (DONE) |
 
 ## 7. The scale
@@ -173,7 +173,7 @@ by a quote that the builder checks.*
 | SC:R2 | CHOSEN | thread | Reading the exact block as a ratio of scales is an identification; the record holds no object-side reason for it. | docs/THE_SCALE_CARD_DESIGN_P722.md; P-722 (QUEUED) |
 | SC:R4 | CHOSEN | thread | The content that runs is the Standard Model's, borrowed. | docs/THE_SCALE_CARD_DESIGN_P722.md; P-722 (QUEUED) |
 | SC:RATIO | OPEN | thread | A dimensionless ratio of scales is not excluded; it waits on a principle that fixes the level and on an identification. | docs/POINT_REGISTER.md; P-719 (QUEUED); P-721 (QUEUED) |
-| SC:UNIT | DERIVED | weave | An absolute energy cannot come from the object: one outside unit is needed by any theory. | docs/POINT_REGISTER.md; B151; B660; P-719 (QUEUED) |
+| SC:UNIT | NEGATIVE | n/a | An absolute energy cannot come from the object, whose invariants carry no unit; any theory needs one outside unit. Main's re-reading of two negative arcs. | docs/POINT_REGISTER.md; B151; B660; P-719 (QUEUED) |
 
 ## 8. The lanes' conditional model (E₈ on the punctured elliptic curve)
 
@@ -206,7 +206,7 @@ by a quote that the builder checks.*
 | id | grade | about | statement | where |
 |---|---|---|---|---|
 | GR:3PLUS1 | DUTY | record | A dynamical 3+1-dimensional metric coupled to the same matter: not on the record, in any lane. | SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md @ 521e6f241 |
-| GR:ACTION | DERIVED | thread | The object's own 2+1-dimensional gravity: an exact vacuum solution with a one-term action and no free dimensionless constant. A fact about this construction. | docs/THE_FRAMEWORK.md; B1088; B1090 |
+| GR:ACTION | DERIVED | thread | The object's own 2+1-dimensional gravity: an exact vacuum solution with a one-term action and, with Λ = −1 forced, no free dimensionless constant. A fact about this construction. | docs/THE_FRAMEWORK.md; B1088; B1090; B259 |
 | GR:VECTORLIKE | NEGATIVE | thread | The matter of that theory, read in 2+1 dimensions, is vector-like by theorem. | docs/THE_FRAMEWORK.md; B1089 |
 
 ## 10. Cosmology

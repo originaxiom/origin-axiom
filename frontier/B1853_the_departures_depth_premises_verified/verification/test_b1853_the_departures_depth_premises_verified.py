@@ -1,5 +1,5 @@
 """B1853 -- the committed run of main's re-derivation holds the explore seat's claims (the full run, explore_facts.py, takes
-about two minutes: HL3 enumerates R1 u R2; the cheap sections are re-run here)."""
+about ten minutes on this bench (the reader's timing at Review 77; first written as two): HL3 enumerates R1 u R2; the cheap sections are re-run here)."""
 import itertools, pathlib
 HERE = pathlib.Path(__file__).resolve().parent
 

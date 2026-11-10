@@ -1,0 +1,8 @@
+b++LLLLLLRLRLRLR: setup 5613s; core length 0.18521766; s0 = 0.755893 (spread 4.3e-13); |d theta| on the core 0.019516..0.019516
+
+k=3 s=0.757893 (d=+0.0020): ['FAILED: AssertionError()', '   [run 4s]']
+k=3 s=0.756893 (d=+0.0010): ['FAILED: AssertionError()', '   [run 4s]']
+k=3 s=0.756393 (d=+0.0005): ['FAILED: AssertionError()', '   [run 4s]']
+k=3 s=0.754893 (d=-0.0010): ['FAILED: AssertionError()', '   [run 4s]']
+k=3 s=0.753893 (d=-0.0020): ['FAILED: AssertionError()', '   [run 4s]']
+k=3 s=0.760893 (d=+0.0050): ['FAILED: AssertionError()', '   [run 4s]']

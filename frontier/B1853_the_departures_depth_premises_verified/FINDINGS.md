@@ -38,7 +38,10 @@ The seat's modules were read for their definitions only. 0 of 19.
   - charge at 5: (6), next by 0.4450;
   - charge at 4 and 5: (21);
   - charge at 2, 3, 4 and 5: (61).
-  Each is unique, the next about 0.62 higher (0.45 under charge at 5).
+  Each is unique within the range, the next between 0.45 and 0.69 higher.
+  **[Corrected by B1855, and marked here at Review 77: the last two rows are minima within R1 ∪ R2 only. Outside
+  the range, gapped defects satisfy the same premises with less excess, so (21) and (61) are not the selected
+  departures. See the dated note at the end.]**
 - **The apex law, exact:** the single run (n) in the golden background has apex (n − 1)/2 + √5/2. It is the maximum over
   shifts of (x₊ − x₋)/2 for the cyclic quotients (n, 1, 1, …).
 - **LR's fixed points on P¹(ℤ/N):** none at N = 2, 3 or 4. At N = 5 there is one, (1 : 2), from the double root of
@@ -55,6 +58,8 @@ The seat's modules were read for their definitions only. 0 of 19.
   conserved for every golden background. The line premise is the symmetry at 5.
 - **The charge law.** Under charge at S the selected departure is the single run lcm(S) + 1, with depth
   lcm(S)/2 + √5/2. This is a candidate scoped to R1 ∪ R2, to be proved in general (P-737).
+  **[Settled by B1855, and marked here at Review 77: the law holds where lcm(S) ≤ 10 and is refuted where
+  lcm(S) ≥ 12.]**
 - **The speculation** that a charge lives only where the dynamics has a canonical invariant, S = {5}, is a LEAD (P-738).
 - **What it does not do:** no frame value, no datum and no held-out quantity was touched, and the six were not a
   criterion.

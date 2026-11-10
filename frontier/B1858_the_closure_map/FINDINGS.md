@@ -27,10 +27,10 @@ wether there are bugs, etc." (P-748).
 - **One finding the map makes by putting the lanes side by side.** Their open items are not many things. They are ten,
   each under several names (§ 3). And every branch of the programme meets the same one, the hand (§ 4).
 
-> **Dated note, 2026-11-10, later the same day.** The counts in § 1 are the map's at its landing. The generated files
-> hold the live ones. Since then B1859 has corrected the golden grammar's uniqueness claim on every living page, so
-> that node is now proved in its corrected form: 13 proved and 35 open on the spine, and no front-page claim in this
-> map is known false and uncorrected.
+> **The counts in § 1 are the map's at its landing.** The live counts are in `verification/build_run.txt` and in
+> `CLOSURE_QUEUE.md`, and this page repeats none of them: they have moved three times since (B1859's correction of the
+> golden grammar's uniqueness claim, the weight's nodes, and Review 77's regrading). [Review 77, the reader's finding:
+> two later notes here and in the verdict line had copied live counts by hand, and both were already wrong.]
 
 ## 2. What was built
 
@@ -114,14 +114,14 @@ therefore the foundation principle/formula track all what exists upon its ececut
   every thread at once), a thread (one thread, one fibre, one point, one background), or a list (a family examined
   member by member). The builder refuses a weave result that rests on a thread. On its first run it refused one of
   main's own edges.
-- **What the label shows.**
-
-  | stated about | banked results | what they are |
-  |---|---|---|
-  | the weave | 15 | structure and negatives: the quaternion point, the triplet, the group of order 96 with CP as the swap, the mirror-even index, the measure's dependence on counting, the walk's exit law; the chiral three, conditionally; and eight negatives (no hand, one end, no modulus, no value, no atom, no placement, the draw test) |
-  | a thread | 25 | the root; the whole structural theorem (the gauge algebra, the global form, the hypercharge direction); the value frame and the six; the τ rule; the scale card; the object's gravity |
-  | a list | 3 | the census of states; the genericity of the E₆ waypoint; the door set |
-
+- **What the label shows** (the live table is generated: `CLOSURE_QUEUE.md`, "Weave or thread").
+  - **Stated about the weave:** structure and negatives. The quaternion point, the triplet, the group of order 96 with
+    CP as the swap, the measure's dependence on counting, the walk's exit law; the chiral three, conditionally; and the
+    negatives: no hand, no modulus, no value, no atom, the draw test.
+  - **Stated about one thread:** the root; the whole structural theorem (the gauge algebra, the global form, the
+    hypercharge direction); the value frame and the six; the τ rule; the scale card; the object's gravity.
+  - **Stated about a list**, a family read member by member: the census of states, the genericity of the E₆ waypoint,
+    the door set, and two theorems true of every thread by its own geometry (the mirror-even index, one end).
 - **Five of the six headline results are thread results.** Only the chiral three is stated about the weave, and it is
   conditional on two tagged postulates. Everything else that looks like the Standard Model, structure or value, is read
   on one thread.
@@ -135,6 +135,31 @@ therefore the foundation principle/formula track all what exists upon its ececut
 - **Three ways "all of it happens" becomes "this is what is seen":** what everything forces together (structure only);
   one typical history (a distribution of values); a place where the whole concentrates (derived values, which needs a
   weight with a peak or an action). The computation that tells them apart is registered before it is run (P-756).
+
+## 5b. Corrected at Review 77 (2026-11-10, the independent reader's findings, each verified at its source)
+
+- **"Proved" had mixed two things.** Nine edges made a node graded DERIVED require a postulate or a choice. DERIVED now
+  means proved outright, and the builder refuses a DERIVED node that requires anything else. A theorem the programme
+  uses under a premise carries an `applies-under` edge to that premise.
+- **The tube's real part is CONDITIONAL, not DERIVED.** The class split is exact; which fibre is the tube is fixed by
+  numerics, at 7 × 10⁻⁷ between two discrete alternatives (B1852 § 3's own words).
+- **The Chern–Simons node said more than its source.** It holds for m004, it is not a symmetry theorem, and its step to
+  physics is withdrawn. The text and pins now say so.
+- **"An absolute energy cannot come from the object" is a NEGATIVE** read from two negative arcs, about any theory. It
+  was graded DERIVED and labelled weave.
+- **Three labels were wrong by THE WEAVE's own test.** A theorem true of every thread by that thread's own geometry is
+  a list, not a weave result (the mirror-even index; one end). "Nothing places Im τ" is a statement about the record.
+- **Two hand-copied counts were wrong** (above). The page now states no live count.
+- **A conditional result must say what it is conditional on.** Found the same day by main, building the closure
+  programme on this map (B1861), not by the reader.
+  - Eight nodes were graded CONDITIONAL and named no premise: six of the value frame's forced joints, the Z′
+    statement, and one framing row.
+  - Each now carries an edge to its premise, taken from the scoreboard's own basis cell ("given Λ, the dictionary";
+    "given the direction"; "given a mirror-invariant radius and the Higgs condition") or from the row's own text.
+  - The builder refuses a conditional result or a reading that has no `requires` or `applies-under` edge.
+- **Not changed, and why:** GM4 stays a weave statement, as GENESIS § 0 says; the live prediction stays a weave
+  statement, as its own arcs label it; the grades are the record's, and a pin shows that the record says a thing, not
+  that the thing is true (§ 6).
 
 ## 6. What this map is not
 

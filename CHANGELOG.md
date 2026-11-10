@@ -1,5 +1,23 @@
 # Changelog
 
+## S306o REVIEW 77, THE DECADAL REVIEW (B1860; fired by the push gate at 41 landings) (2026-11-10)
+
+- **The loop closed.** All eight of Review 76's items were resolved in the window; nothing is carried.
+- **An independent reader read five seeded arcs in full** (B1849, B1852, B1853, B1854, B1858). All hold with notes; its eight must-fix findings were each verified at source and applied where the corrected line stands.
+  - **B1854:** the tube's value at k = 2 is 6.070 with an error of about 0.02. The ± 0.010 first written was not derived. Its diagnosis of the k = 3 stop named the wrong assertion.
+  - **B1858:** DERIVED now means proved outright, and the map's builder refuses a DERIVED node that requires anything else. The tube's real part is CONDITIONAL. Three weave labels corrected.
+  - **B1853:** B1855's correction now stands on the lines it corrects.
+- **The full suite on a fresh clone** at the window's head: 8 125 passed, 7 failed, 70 skipped.
+  - Three are the review firing; two are standing (B805, P-239).
+  - **B1854's lock read three driver logs that the repository ignores** (`*.log`): it passed at home and failed for every fresh reader. E94, for the third time. The logs are sealed as `*_run.txt`.
+  - **The gate that should have caught it is widened:** `tracked-deps` now reads every lock's paths relative to its own file (`tests/test_tracked_deps_locks.py`, with a planted control). Before, it read only `tests/` and `scripts/`, and only repo-root paths.
+  - P3's package manifest was one lock behind. Rebuilt.
+- **The map, the same day:** eight nodes graded CONDITIONAL named no premise. Each now carries one, and the builder refuses a conditional result with none.
+- **A new error class at the owner's word: E96, a thread taken for the weave.** "Review 77's practices" (eight) added to PRACTICES.
+- **The window by its own labels:** seven science arcs, all thread results, worked under a weave question. No weave result was banked.
+- **Eight action items, R77-1 to R77-8:** concentration under the executed weave; the register-to-field join; the lanes' paired current pole; their two sealed packets; the agy lane's remaining theorems; the seven process arcs; the map rebuilt at every landing; the tube at k = 3.
+- 0 of 19.
+
 ## S306n (continued) WEAVE OR THREAD, ENFORCED IN THE MAP; THE LAW AND THE WEIGHT (P-755, P-756; B1858 extended) (2026-11-10)
 
 - **The owner:** the mistake the programme keeps repeating is a thread taken for the weave; the law is "if something is allowed to happen it will happen", so the foundation's formula tracks all that exists upon its execution.
@@ -8,7 +26,7 @@
   - Read literally, "upon its execution" is the move count. That is a parameter-free reading the record has never adopted; whether to adopt it is put to the owner, with the computation to run first (P-756).
 - **The map now labels every node weave, thread or list,** and its builder refuses a weave result that rests on a thread. The first run refused one of main's own edges.
 - **What the label shows:**
-  - 15 banked results are stated about the weave: structure and negatives (the quaternion point, the triplet, the group of order 96 with CP as the swap; no hand, no modulus, no value forced);
+  - 15 banked results are stated about the weave: structure and negatives (the quaternion point, the triplet, the group of order 96 with CP as the swap; no hand, no modulus, no value forced); [Review 77, the same day: 11, after the reader's relabelling — a theorem true of every thread by its own geometry is a list, not a weave result; the live table is in the map's CLOSURE_QUEUE.md]
   - 25 are stated about one thread: the root, the whole structural theorem (the gauge algebra, the global form, the hypercharge direction), the value frame and the six, the τ rule, the object's gravity;
   - five of the six headline results are thread results. Only the chiral three is a weave statement, and it is conditional.
 - **An eleventh missing dependency: the weight** (X:WEIGHT), with the law, the two measures, the clock and the flat sum as its nodes.
@@ -84,12 +102,12 @@
 ## S306m (continued) THE TUBE'S τ AT k = 2, ON MAIN (B1854; P-739 in part) (2026-11-07)
 
 - **What ran.** B1847's own full-group mesher, driven with one Hejhal setup per member, and the covariant root.
-- **k = 2:** Im τ(Σ₀) = 6.070 ± 0.010, against the web seat's 6.08186(42).
+- **k = 2:** Im τ(Σ₀) = 6.070 ± 0.010, against the web seat's 6.08186(42). [Corrected at Review 77 (2026-11-10): the error is about 0.02, the larger of the mirror pairs' scatter; no computation gave 0.010.]
   - The d → 0 extrapolation is calibrated on k = 1: 6.1491 against the seat's 6.14916.
   - The core levels (0.534940, 0.755893) and |dθ| match the seat exactly.
 - **The control.** One level surface in two cycle bases agrees to 8 × 10⁻⁵ under the covariant root, and differs by 0.08 under B1847's formula. So the covariant root is basis-invariant.
   - Under it, the near-tube mirror pairs are symmetric about Re 0. B1847's "unresolved Re" was the basis effect.
-- **k = 3 was not reached:** every run stopped at a mesher assertion after a 94-minute setup.
+- **k = 3 was not reached:** every run stopped at a mesher assertion after a 94-minute setup. [Review 77: the assertion is one of the mesher's two unlabelled translation checks, not its χ(T₂) condition.]
 - **So the seat's tube values are confirmed to ±0.01 through k = 2.** Its k → ∞ limit 6.06526(57) stays its own at the 4th digit, 6.06 ± 0.01 at main's resolution.
 - **Disclosed:** a first driver skipped the energy step, and those runs were repeated.
 - 0 of 19.

@@ -525,6 +525,55 @@
   "note": "the frame's doublet is the fibre's rank-two flat bundle with quaternion monodromy"
  },
  {
+  "src": "FA:F2",
+  "kind": "requires",
+  "dst": "TAG:LAMBDA",
+  "grade": "CONDITIONAL",
+  "note": "the hypercharge dictionary is banked 'given Λ, the dictionary'"
+ },
+ {
+  "src": "FA:F3",
+  "kind": "applies-under",
+  "dst": "B:FRAME",
+  "grade": "",
+  "note": "'given the direction': a proved identity about a direction the agy lane chose"
+ },
+ {
+  "src": "FA:F4",
+  "kind": "applies-under",
+  "dst": "A:A07",
+  "grade": "",
+  "note": "the theorem fixes L_2 as a function of τ; which canonical horocycle is the end is the frame's choice"
+ },
+ {
+  "src": "FA:F5",
+  "kind": "applies-under",
+  "dst": "G:ROOT",
+  "grade": "",
+  "note": "an exact value of the root's volume, shared by its whole shape-field family (B1136); using it presumes the root"
+ },
+ {
+  "src": "FA:F6",
+  "kind": "applies-under",
+  "dst": "MC:HYP",
+  "grade": "",
+  "note": "the normalisation is fixed once the Lie type and the closing direction are given"
+ },
+ {
+  "src": "FA:F7",
+  "kind": "applies-under",
+  "dst": "A:A04",
+  "grade": "",
+  "note": "'given a mirror-invariant radius and the Higgs condition': proved for the census directions and DR"
+ },
+ {
+  "src": "FA:F7",
+  "kind": "applies-under",
+  "dst": "A:A07",
+  "grade": "",
+  "note": "the mirror-invariant radius is the end's"
+ },
+ {
   "src": "FL:01",
   "kind": "instance-of",
   "dst": "X:DICT",
@@ -642,6 +691,13 @@
   "dst": "X:DICT",
   "grade": "",
   "note": ""
+ },
+ {
+  "src": "FL:20",
+  "kind": "requires",
+  "dst": "V:EARN-RULE",
+  "grade": "CONDITIONAL",
+  "note": "the route by sealed prediction exists by the ruling of 2026-11-03, and only by it"
  },
  {
   "src": "FL:21",
@@ -848,38 +904,38 @@
  },
  {
   "src": "G:T-ROOT",
-  "kind": "requires",
+  "kind": "applies-under",
   "dst": "G:SE1",
-  "grade": "DERIVED",
-  "note": ""
+  "grade": "",
+  "note": "the theorem says what the criterion selects; it does not need the criterion to be adopted"
  },
  {
   "src": "G:XGEN",
-  "kind": "requires",
+  "kind": "applies-under",
   "dst": "G:GM2",
-  "grade": "DERIVED",
-  "note": ""
+  "grade": "",
+  "note": "the census counts what the grammar defines"
  },
  {
   "src": "G:XGEN",
-  "kind": "requires",
+  "kind": "applies-under",
   "dst": "G:GM4",
-  "grade": "DERIVED",
-  "note": ""
+  "grade": "",
+  "note": "the census counts what the grammar defines"
  },
  {
   "src": "G:XGEN",
-  "kind": "requires",
+  "kind": "applies-under",
   "dst": "G:GM5b",
-  "grade": "DERIVED",
-  "note": ""
+  "grade": "",
+  "note": "the census counts what the grammar defines"
  },
  {
   "src": "G:XGEN",
-  "kind": "requires",
+  "kind": "applies-under",
   "dst": "G:GM5d",
-  "grade": "DERIVED",
-  "note": ""
+  "grade": "",
+  "note": "the census counts what the grammar defines"
  },
  {
   "src": "G:XGEN-PHYS",
@@ -939,17 +995,17 @@
  },
  {
   "src": "MC:CS0",
+  "kind": "applies-under",
+  "dst": "G:SE2",
+  "grade": "",
+  "note": "amphichirality puts the invariant in a two-element set; this object sits at zero"
+ },
+ {
+  "src": "MC:CS0",
   "kind": "instance-of",
   "dst": "X:SCALE",
   "grade": "",
   "note": ""
- },
- {
-  "src": "MC:CS0",
-  "kind": "requires",
-  "dst": "G:SE2",
-  "grade": "DERIVED",
-  "note": "amphichirality puts the invariant in a two-element set; this object sits at zero"
  },
  {
   "src": "MC:CUBIC",
@@ -1188,6 +1244,13 @@
   "dst": "MC:UNIQ",
   "grade": "DEBT",
   "note": ""
+ },
+ {
+  "src": "PR:P9",
+  "kind": "applies-under",
+  "dst": "MC:HYP",
+  "grade": "",
+  "note": "the boson is the closing direction's, one of the structural theorem's typed external data"
  },
  {
   "src": "PR:P9",
@@ -1723,17 +1786,17 @@
  },
  {
   "src": "W:Q8",
-  "kind": "requires",
+  "kind": "applies-under",
   "dst": "G:GM1",
-  "grade": "DERIVED",
-  "note": ""
+  "grade": "",
+  "note": "a theorem about two letters and the two moves; the programme uses it under GM1"
  },
  {
   "src": "W:Q8",
-  "kind": "requires",
+  "kind": "applies-under",
   "dst": "G:GM2",
-  "grade": "DERIVED",
-  "note": ""
+  "grade": "",
+  "note": "the moves are the unit shears"
  },
  {
   "src": "W:T",

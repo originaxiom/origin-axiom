@@ -1332,3 +1332,39 @@ Three practices came out of the field stage's last window. Each answers a slip t
    them, with rule and record in one commit, listed in `docs/SEAL_ORDER_UNSHOWN.md`. The gate recomputes the class from
    git and fails on a new member, on a row beyond the frozen ceiling, on a listed test whose order now shows, and on
    B1670's off-main order. GATED (`seal-order-unshown`).
+
+## Review 77's practices: a carried value recomputed, the object's own group, weave or thread, a sweep's result banked, a map that checks its quotes — MIXED (adopted 2026-11-10, Review 77, B1860)
+
+1. **A value carried from another arc is recomputed for the object at hand before it is written** (E58, P-751). B1852
+   wrote L⁶RLR's Teichmüller apex at Re ½, which B1845 proved for the L⁵ family. The apex is at Re 0. A comparison
+   sentence needs the compared value computed in the same arc, by a short exact script that is committed and locked.
+   MANUAL.
+2. **A bound or a count is stated of the group the object generates, not of a stand-in for it** (E93, B1859, P-604).
+   B997 bounded all of SL(2, ℤ/(m² + 4)) and wrote the result of the subgroup the grammar's letters generate. B1221's
+   addendum tabulated a 72-point grid of U(1) and wrote the result of U(1). Before a group-theoretic claim is banked,
+   the generated group is computed on at least the first few members, and a continuous group is not replaced by a
+   grid without a proof that the grid holds every solution. MANUAL.
+3. **Every result says whether it is about the weave, a thread or a list, and a weave result does not rest on a
+   thread** (E96; the owner, 2026-11-10; THE WEAVE). A value read at a picked point, on a picked thread or by a flat
+   average is typed CHOSEN until a weight is derived. The closure map's builder refuses a weave result that requires a
+   thread node. GATED for the map (`frontier/B1858_the_closure_map/verification/build_map.py`, with a planted
+   failing-path test); MANUAL elsewhere.
+4. **A result found by a sweep is banked or carried to the pages that state the opposite, with a date** (E53, B1859).
+   The sweep of 2026-10-23 found the m = 4 counterexample and rowed it; the front pages kept the false form for
+   eighteen days. A row that says "dated corrections owed" names the pages, and the correction is one arc with a lock
+   on those pages. MANUAL.
+5. **A map or ledger that quotes the record checks its quotes mechanically** (B1858). Each of the closure map's nodes
+   carries a file and a quote, and the builder fails on a quote that is not in the file. A seat's file is quoted only
+   in digit-free text, so that the check holds with and without main's mask. GATED by the arc's test.
+6. **A seat's relay that reports an owner ask is checked with the owner once** (S306n). The physical lane's handoff
+   reported one; main read it, said so, and took it up when the owner confirmed it in their own words. MANUAL.
+7. **A stated error names the computation that gives it** (B1854, found by Review 77's reader). The arc wrote
+   6.070 ± 0.010 where its own mirror pairs scatter by 0.006 and 0.023 and its fit has one single-sided point. An error
+   bar is the output of a named procedure on committed numbers, or it is written as "about", with the scatter beside
+   it. MANUAL.
+8. **A page does not copy a live count from a generated file; and a correction is written where the corrected line
+   stands** (B1858 and B1853, found by Review 77's reader). The map's page copied two counts by hand and both were
+   wrong within hours. B1855's correction of B1853 sat in a note at the end while the ladder and the verdict line read
+   as before. A page points to the generated file for a count, and a dated correction is marked at each line it
+   corrects, the verdict line included (E53). MANUAL.
+

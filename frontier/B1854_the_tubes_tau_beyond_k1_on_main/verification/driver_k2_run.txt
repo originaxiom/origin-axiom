@@ -1,0 +1,8 @@
+b++LLLLLLRLRLR: setup 59s; core length 0.18519963; s0 = 0.534940 (spread 6.1e-13); |d theta| on the core 0.026549..0.026549
+
+k=2 s=0.536940 (d=+0.0020): ["tau -0.342613+0.011398i  reduced +0.106519+5.862304i  detE-1 +1.04e-04  {'vertices': 31538", 'covariant root: reduced +0.106222+5.862242i']
+k=2 s=0.535940 (d=+0.0010): ["tau -0.341995+0.012330i  reduced -0.428152+6.033688i  detE-1 -8.50e-03  {'vertices': 31492", 'covariant root: reduced -0.403902+6.042376i']
+k=2 s=0.535440 (d=+0.0005): ["tau -0.341717+0.012849i  reduced +0.290942+6.065248i  detE-1 -3.34e-05  {'vertices': 31502", 'covariant root: reduced +0.291035+6.065289i']
+k=2 s=0.533940 (d=-0.0010): ["tau -0.340729+0.014708i  reduced +0.365355+6.029989i  detE-1 -1.01e-02  {'vertices': 31438", 'covariant root: reduced +0.390024+6.048239i']
+k=2 s=0.532940 (d=-0.0020): ["tau -0.340278+0.015980i  reduced -0.124831+5.848585i  detE-1 -3.04e-03  {'vertices': 31692", 'covariant root: reduced -0.118311+5.854662i']
+k=2 s=0.539940 (d=+0.0050): ["tau -0.344086+0.009422i  reduced +0.178780+5.122128i  detE-1 -3.81e-03  {'vertices': 31484", 'covariant root: reduced +0.188463+5.120836i']

@@ -8343,13 +8343,205 @@ No seals in the window, so there is no hash to check. Held-out targets: none com
 (P-709) stands.
 
 ### Action items (Review 76)
-- [>] R76-1: P-616 and P-617, the backlog's and the leads' proposed closures confirmed one by one (carried from R75-4, before it R74-8; owner: cc)
-- [>] R76-2: P-601, the 79 'order unshown' as a list that may only shrink (carried from R75-5, before it R74-9; owner: cc)
-- [>] R76-3: B1842's C-T tautology fixed before B1842's Yukawa path is used (carried from R75-8; owner: cc)
-- [>] R76-4: P-711, the line stabilizers' images (carried from R75-9's second half; owner: cc)
-- [ ] R76-5: P-727's tube value — the mesher inside the full group's own Ford domain (complete faces, sheets glued by its pairings, periods via the monodromy on H_1); the 80-grid's 6.15 withdrawn after the 120-grid failed its checks (owner: cc)
-- [ ] R76-6: P-729, door C — the candidate initial laws stated in object terms, C5 first (owner: cc)
-- [ ] R76-7: R2's form under the chiral premise — the exact level-5 block or the asymptotic, by a rule written first (the B1012 ruling's open step; owner: cc)
-- [ ] R76-8: P-716 — the agy lane's Theorem 155 CP claim checked with main's own code (owner: cc)
+- [x] R76-1: P-616 and P-617, the backlog's and the leads' proposed closures confirmed one by one (carried from R75-4, before it R74-8; owner: cc) — RESOLVED: every proposal checked at its pointer with a quote (B1849, B1850); 24 of 73 lead closures and 216 of 240 backlog closures held, and the rest stay open with dated notes
+- [x] R76-2: P-601, the 79 'order unshown' as a list that may only shrink (carried from R75-5, before it R74-9; owner: cc) — RESOLVED: the list frozen in docs/SEAL_ORDER_UNSHOWN.md and gated (`seal-order-unshown`, with a planted failing-path test)
+- [x] R76-3: B1842's C-T tautology fixed before B1842's Yukawa path is used (carried from R75-8; owner: cc) — RESOLVED: the first C-T compared two calls the instrument reduces to identical inputs, and its claim was false; corrected, and every control holds on its first run (S306h)
+- [x] R76-4: P-711, the line stabilizers' images (carried from R75-9's second half; owner: cc) — RESOLVED: the order-5 lines' level-4 stabilizer image is all of S₄, the order-10 lines' a D₄; locked by a B1845 test (S306h)
+- [x] R76-5: P-727's tube value — the mesher inside the full group's own Ford domain (complete faces, sheets glued by its pairings, periods via the monodromy on H_1); the 80-grid's 6.15 withdrawn after the 120-grid failed its checks (owner: cc) — RESOLVED: Im τ(Σ₀) = 6.15 ± 0.15 at L⁶RLR (B1847 § 8), Re τ = 0 given a numerical identification (B1852), about 6.07 at k = 2 on main (B1854, its error corrected at Review 77)
+- [x] R76-6: P-729, door C — the candidate initial laws stated in object terms, C5 first (owner: cc) — RESOLVED for its first step: C5 is a weight within one history, not a law; door C stays one declared choice, and P-729 stays on the register as a lead
+- [x] R76-7: R2's form under the chiral premise — the exact level-5 block or the asymptotic, by a rule written first (the B1012 ruling's open step; owner: cc) — RESOLVED: the exact block, never the asymptotic (the design's note of 2026-11-06); three steps of the card stay chosen, and the first way of removing one failed (the web seat, row 1619)
+- [x] R76-8: P-716 — the agy lane's Theorem 155 CP claim checked with main's own code (owner: cc) — RESOLVED: the claim fails on its own code, by the web seat's two readings (harvest row 1606); P-716 stays on the register as a lead
 
 **anchor-commit: `1eb535ecd`**
+
+
+# Review 77 (2026-11-10) — every lane harvested, one graph of the spine, and the mistake named: a thread taken for the weave
+
+41 commits since Review 76 (`1eb535ecd..cf0c56079`, all on the first-parent line, S306f–S306n), past the firing count
+(40): the push gate blocked, and the review ran before anything further was pushed. The window has 11 arcs with a
+verdict (B1849–B1859). Run by main. The process arc is B1860; its reader's report is in its `verification/readers/`.
+
+**What the window did:**
+- **Review 76's eight items, all worked** (the owner: "lets do them"; § 1).
+- **The tube's τ** (P-727; B1847 § 8, B1852, B1854).
+  - Im τ(Σ₀) = 6.15 ± 0.15 at L⁶RLR, the limit of τ(s), from a mesh inside the full group's own Ford domain.
+  - Re τ = 0 exactly, by topology: σ's two fixed fibres carry involutions of opposite class (B1852).
+  - On main at k = 2: 6.070, with an error of about 0.02 (B1854, as corrected in § 2). The web seat's sealed limit,
+    6.0653049 ± 0.0000574, has its arithmetic reproduced; its members beyond k = 2 are not recomputed (P-739).
+- **The τ read-out rule** (S306m), ruled further at S306n: the reading and its framing are one counted choice, and four
+  choices remain.
+- **The explore seat registered, and its four tests verified on main's code** (B1853, B1855, B1856, B1857): the
+  departure's depth under the charge premise; the charge law refuted where lcm(S) ≥ 12 and proved below; charge or
+  symmetry at five, conditionally; the read-out by a state, on a chosen clock.
+- **The chiral premise relocated** (B1851; the web seat): the knot reading's S³ is the object's own open-book closing;
+  the scale card is not sealable (P-732).
+- **The refetch** (S306n): three lanes harvested to their heads (rows 1618–1628; 107 relay names rowed).
+  - **Main's apex error corrected** (P-751; the web seat's catch): L⁶RLR's Teichmüller apex is at Re 0, not Re ½.
+  - **B1221's addendum corrected** (P-604): the kernel under rescaled charges is cyclic of order 6k. The agy lane's
+    Theorem B, verified.
+- **The owner's directive** (P-748): every seat's work is the project's; harvest all of it; then map exactly what is
+  there, what is conditional, and where the bugs are.
+- **The closure map** (B1858): one graph of the spine, every node pinned by a checked quote; eleven missing
+  dependencies; every branch meets the hand.
+- **The door set is {1, 4}** (B1859; GENESIS v1.63): a front-page claim corrected on every living page.
+- **Weave or thread** (P-755): the owner names the thread taken for the weave as the programme's most repeated mistake.
+  The map now labels every node and refuses a weave result that rests on a thread.
+- **Still 0 of 19.**
+
+## 1. The loop (Review 76's block)
+
+- **All eight items resolved in the window.**
+  - **R76-1** (P-616, P-617): every proposed closure checked at its pointer with a quote (B1849, B1850). Of the
+    readers' proposals 24 of 73 lead closures held, and 216 of 240 backlog closures.
+  - **R76-2** (P-601): the 79 sealed tests whose order git cannot show are a frozen list that may only shrink, gated
+    (`seal-order-unshown`).
+  - **R76-3:** B1842's C-T was a tautology and its claim false; it is corrected and every control now holds on its
+    first run.
+  - **R76-4** (P-711): the order-5 lines' level-4 stabilizer image is all of S₄; the order-10 lines' a D₄. Locked.
+  - **R76-5** (P-727): the tube's value, above.
+  - **R76-6** (P-729): door C's C5 is a weight within one history, not a law. Door C stays one declared choice; the row
+    stays on the register as a lead.
+  - **R76-7:** R2's form is the exact level-5 block, never the asymptotic. Three steps of the card stay chosen.
+  - **R76-8** (P-716): the agy lane's Theorem 155 CP claim fails on its own code, by the web seat's two readings.
+- **Nothing is carried.** Review 77's items are new (below).
+
+## 1b. The branch inventory and the seats
+
+- **16 unmerged leaves, every one registered.** All are on one remote only: the owner's mirror is unmounted, so the
+  backup push is owed for the whole window.
+- **Every seat harvested to its head at S306n:** rows 1618–1628; pins chat1 `195e8f1b`, agyaudit `5242c938`, audit
+  `521e6f24`; the explore seat at `af81fb6e` and the SM seat at `47228ae8` had not moved.
+- **The harvest's depth is uneven, and the register says so:** the web seat's items are verified; one of the agy lane's
+  five theorems is verified in full and one in part (P-747); the physical lane's hand proofs are read at headline
+  level and none is re-derived (P-749); its two sealed packets wait for main's review (P-746).
+- **Relays open:** outbound 18 (AUDIT_LANE 1, ALL_SEATS 1, SM 3, AGY 6, CHAT1 5, PHYSICAL 2), inbound 2 (CODEX 2).
+
+
+## 2. The declared modulus
+
+- **The window:** 41 commits, S306f–S306n.
+- **Read in full, drawn by the anchor's seed:** B1849, B1852, B1853, B1854 and B1858, by a reader
+  (`B1860/verification/readers/reader_READ_IN_FULL.md`). All five HOLD WITH NOTES. Three are main's own arcs of the
+  last four days and B1858 was written the day of the review, so the reader's independence is the point. Main verified
+  every must-fix note at its source and applied it as a dated correction.
+  - **B1854's error bar was not derived, and this is the substantive one for the tube.**
+    - The arc wrote Im τ(Σ₀) = 6.070 ± 0.010 at k = 2. No computation in it gives 0.010.
+    - Its own mirror pairs differ by 0.006 at k = 2 and 0.023 at k = 1, and the fit has one single-sided point.
+    - **Corrected:** 6.070 with an error of about 0.02. Main's value is consistent with the seat's 6.08186; it does not
+      "confirm it to ± 0.01".
+  - **B1854's diagnosis of the k = 3 stop was wrong.** It named the mesher's χ(T₂) condition. The logs show an
+    assertion with no message, and that condition's assertion carries one. The failing check is one of two unlabelled
+    translation checks. The next worker is now pointed at the right place.
+  - **B1858's "proved" mixed two things, and this is the substantive one for the map.**
+    - Nine edges made a node graded DERIVED require a postulate or a choice.
+    - **Corrected:** DERIVED means proved outright, and the builder refuses a DERIVED node that requires anything
+      else. A theorem that the programme uses under a premise carries an `applies-under` edge.
+    - The tube's real part is regraded CONDITIONAL: which fibre is the tube is fixed by numerics.
+    - The Chern–Simons node is scoped to m004, as its own source scopes it.
+    - Three weave labels were wrong by THE WEAVE's own test, and two hand-copied live counts were already stale.
+  - **B1853's correction did not reach the lines it corrects.** B1855's note sat at the end; the ladder, the charge law
+    and the verdict line now carry it where they stand.
+  - **B1849 and B1852 hold.** The reader re-derived the apex's real part with its own code and agrees with the
+    correction of P-751.
+- **The locks:** a full suite on a fresh clone of cf0c56079 at eight workers: 8 125 passed, 7 failed, 70 skipped.
+  - **Three are this review firing:** three locks read the `review-fires` gate, which blocks at 41 merges. They clear
+    with the anchor line.
+  - **Two are standing:** B805's two attachment locks (P-239).
+  - **Two are the window's own, fixed here:**
+    - **B1854's lock read three driver logs that the repository ignores** (`*.log`). It passed at home and failed on
+      the fresh clone. This is E94 for the third time; B1671's three logs were the same at Review 73.
+      - The logs are sealed as `*_run.txt`, and the lock now also counts the six stopped k = 3 points.
+      - **The gate that should have caught it could not see it.** `tracked-deps` read only `tests/` and `scripts/`,
+        and only paths from the repository's root. It now also reads every lock's paths relative to its own file,
+        with a planted control (`tests/test_tracked_deps_locks.py`). Generators are left out on purpose: a script
+        may keep an ignored cache, and a lock may not depend on one.
+    - **P3's package manifest was one lock behind** (`tests/test_harvest_scheduled_counter.py`, which names B1303).
+      Rebuilt.
+- **Found the same day, building the closure programme on the map (B1861):** eight nodes of B1858 were graded
+  CONDITIONAL and named no premise (six of the value frame's forced joints, the Z′ statement and one framing row).
+  Each now carries an edge to what it is conditional on, taken from the scoreboard's own basis cell, and the map's
+  builder refuses a conditional result with none.
+
+fresh-clone: NOT YET RUN -- the review fired (41 merges), so no commit before the anchor line can pass `review-fires`; the run is made at the anchor commit and recorded on this line in the commit after it
+fresh-clone suite: FAIL @ cf0c56079 (8125 passed, 7 failed, 70 skipped; diagnosed above: three clear with the anchor line, two standing, two fixed here)
+sample seed: 1eb535ecd; read in full: B1849, B1852, B1853, B1854, B1858
+gate controls: 49 registered failing-path tests; unregistered: none
+
+## 3. Advancement, and the leads
+
+- **The tables.** No law and no theorem was added in the window. Four LAW_MAP rows and one THEOREM_REGISTRY row were
+  corrected (B1859). GENESIS moved to v1.63, a correction of fact with no status change.
+- **Nothing moved up a strength class. One thing moved down:** the golden grammar's uniqueness, from "unique" to
+  "unique among primitive grammars, and for the door together with a 2T quotient".
+- **The rulings, by the math:**
+  - the τ read-out rule's framing is the one counted choice, and four choices remain;
+  - the door set is {1, 4};
+  - put to the owner, not ruled: whether "upon its execution" (the move count) is the reading of the law (P-755).
+- **What the window was, by its own labels.** Its seven science arcs (B1851–B1857) are thread results, each labelled
+  so in its verdict file. They were worked under a weave question, what places τ (P-714). Not one weave result was
+  banked in the window. The map shows the same at the scale of the record: what is banked about the weave is structure
+  and negatives, and the root, the whole structural theorem and the value frame are read on one thread.
+- **The leads that could change the direction, ranked** (data-free first steps):
+  1. **P-756, what the executed weave makes deterministic.** Much of it is on the record already: under the move
+     count the height's law is fixed, with a power-law tail (B1813), and the six read as a draw from it are consistent
+     and not specific (B1814). What is not on the record is whether anything concentrates.
+  2. **P-753, the register-to-field join.** A prediction is written before computing: the lanes' three modes are a
+     doublet and a singlet under the moves, and the weave's triplet is the doublet's symmetric square.
+  3. **P-749 (e), the paired current pole:** the lanes' sharpest statement of the hand, to be re-derived on main.
+  4. **P-746:** main's review of the physical lane's two sealed packets.
+  5. **P-747:** the agy lane's Theorems C, D and E, and the rest of P-318.
+
+## 4. Error-class recurrence
+
+- **A new class, named at the owner's word: E96, a thread taken for the weave.** Its mirror form is the flat average.
+  Both supply the weight that "everything allowed happens" leaves open, without deriving it.
+  - The window's seven science arcs are instances by their own labels.
+  - The map's first build made a weave negative rest on the root's orientation; its new check refused the edge.
+  - The τ read-out rule was written without the label.
+- **E93, a proxy read as the quantity, twice:** B997 bounded the ambient group, not the one the grammar generates;
+  B1221's addendum tabulated a grid of 72 points, not the circle.
+- **E58, graded from a headline:** B1852 wrote the apex's real part from B1845's headline, which is about another
+  family (P-751).
+- **E53, a correction that did not reach the pages:** the m = 4 counterexample sat on the register for eighteen days.
+  And, found by the reader in this review, B1855's correction did not reach B1853's own lines.
+- **E94, a lock that reads an output the repository ignores, for the third time:** B1854's three driver logs, found
+  by this review's fresh-clone suite. The gate is widened so that the class is caught at push and not at the next
+  review (§ 2).
+- **E52, instruments self-caught:** B1854's first driver; B1858's first count of borrowed joints; B1859's first grid.
+- **Two found by the reader that fit no class exactly, each with its rule:**
+  - an error bar with no derivation (B1854's ± 0.010; the nearest class is E31);
+  - live counts copied by hand from a generated file, wrong within hours (B1858's page).
+- **The rules are in PRACTICES, "Review 77's practices"** (eight items).
+
+## 5. The provenance spot-sweep
+
+- **Pretense:** 3 986 added lines, 0 hits in the tool's sweep. One hit was caught by the push gate during the window
+  ("an external audit", in a new register row) and reworded before it was pushed.
+- **Vocabulary:** the tool lists two word pairs new to the window's claims, "nothing compared" and "explore seat's".
+  Neither is a term.
+
+## 6. The promotion sweep
+
+None promoted. 0 of 19.
+
+## 7. Protocol integrity
+
+- **No seals in the window,** so there is no hash to check.
+- **Held-out targets:** none computed or compared; the owner's hold (P-709) stands.
+- **The masked reading.** The agy lanes were read only through the sealed mask. For the physical lane's own hand
+  proofs, which compute no measured value, main wrote a second mask at exactly the binding minimum (every decimal
+  hidden everywhere; every digit hidden near a held-out target's name), and read one proof through it. The sealed
+  mask's general trigger words had hidden the degrees and weights that the next derivation needs. The tool refuses
+  the agy lanes' files. Disclosed here, on P-753, and to the owner.
+- **A paste from the owner** carried the agy lane's unmasked text, with value-level statements about mixing
+  magnitudes. They are not on the held-out lists. Main adopted none of them and compared none with anything.
+
+### Action items (Review 77)
+- [ ] R77-1: P-756 with P-439 — whether anything concentrates under the executed weave: state first what would count (an atom, a stationary point of a function the moves fix, a unique maximiser of a rate function), then compute under the move count (owner: cc)
+- [ ] R77-2: P-753 — the register-to-field join banked as an arc: the weave's triplet as the symmetric square of the level-2 theta doublet, exactly, and which of the lanes' two coherent lifts the moves keep; the physical lane's review asked (owner: cc)
+- [ ] R77-3: P-749 (e) — the lanes' paired current pole re-derived on main with main's own algebra (owner: cc)
+- [ ] R77-4: P-746 — main's own review of the physical lane's two sealed packets: acceptance by the schema or a dated refusal (owner: cc)
+- [ ] R77-5: P-747 and P-318's next item — the agy lane's Theorems C, D and E and its P-321 note verified on main or declined with a reason (owner: cc)
+- [ ] R77-6: P-745 — the seven process arcs escalated at S306n, each resolved or declared open by design (owner: cc)
+- [ ] R77-7: P-754 — the closure map rebuilt in the views step of every landing, with a lock that fails when the generated files lag their sources (owner: cc)
+- [ ] R77-8: P-739 — the tube at k = 3: the mesher's two unlabelled translation checks given messages first, then the stop diagnosed (owner: cc)

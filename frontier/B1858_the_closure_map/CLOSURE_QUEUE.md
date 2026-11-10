@@ -14,7 +14,7 @@
 | 5 | X:WEIGHT | 3 | 0 | 11 | DERIVED 2, CHOSEN 4, NEGATIVE 2, OPEN 2, LANE-PROPOSED 1 |
 | 6 | X:SELECT | 2 | 6 | 13 | POSTULATED 1, CHOSEN 6, UNSTATED 1, OPEN 4, LANE-INPUT 1 |
 | 7 | X:TAU | 2 | 6 | 11 | CHOSEN 5, FITTED 1, NEGATIVE 2, LANE-PROPOSED 1, LANE-INPUT 1, DUTY 1 |
-| 8 | X:SCALE | 2 | 6 | 10 | DERIVED 2, CHOSEN 4, UNSTATED 1, NEGATIVE 1, OPEN 1, LANE-INPUT 1 |
+| 8 | X:SCALE | 2 | 6 | 10 | DERIVED 1, CHOSEN 4, UNSTATED 1, NEGATIVE 2, OPEN 1, LANE-INPUT 1 |
 | 9 | X:PARENT | 2 | 0 | 4 | DERIVED 1, POSTULATED 1, OPEN 1, LANE-INPUT 1 |
 | 10 | X:FLAT | 1 | 0 | 3 | ANSATZ 1, OPEN 2 |
 | 11 | X:GRAVITY | 1 | 0 | 2 | DERIVED 1, DUTY 1 |
@@ -161,14 +161,14 @@
 
 ## What each headline result rests on
 
-*Everything upstream of a result along the map's "requires" edges, by grade. A result is as derived as the weakest thing under it.*
+*Everything upstream of a result along the map's "requires" and "applies-under" edges, by grade. As physics, a result is as derived as the weakest thing under it.*
 
 | result | its own grade | upstream, by grade | not derived, by name |
 |---|---|---|---|
 | G:ROOT — the root is m004 | CONDITIONAL | POSTULATED 3, CHOSEN 1 | G:GM3, G:GM4, G:SE1, G:SE2 |
 | MC:Z6 — the structural theorem (its global-form line stands for the whole table) | CONDITIONAL | CONDITIONAL 1, POSTULATED 5, CHOSEN 1 | G:GM3, G:GM4, G:SE1, G:SE2, MC:HYP, MC:PRICE |
 | W:INDEX3 — the chiral three as an index | CONDITIONAL | DERIVED 2, POSTULATED 2, TAGGED 2, OPEN 1 | G:GM1, G:GM2, G:GM5c, TAG:LAMBDA, TAG:UNIT |
-| V:SIX — the six mass ratios at the principled end | READING | DERIVED 1, CONDITIONAL 4, POSTULATED 3, TAGGED 1, CHOSEN 10, FITTED 2, ANSATZ 1 | A:A01, A:A02, A:A03, A:A04, A:A05, A:A07, A:A08, A:A09, A:A10, A:A11, A:A12, G:GM1, G:GM2, G:GM4, S:S01, S:S02, TAG:LAMBDA |
+| V:SIX — the six mass ratios at the principled end | READING | DERIVED 1, CONDITIONAL 4, POSTULATED 3, TAGGED 1, CHOSEN 10, FITTED 2, ANSATZ 1, LANE-PROPOSED 1 | A:A01, A:A02, A:A03, A:A04, A:A05, A:A07, A:A08, A:A09, A:A10, A:A11, A:A12, B:FRAME, G:GM1, G:GM2, G:GM4, S:S01, S:S02, TAG:LAMBDA |
 | T:IM — the modulus under the read-out rule | LANE-PROPOSED | CONDITIONAL 1, POSTULATED 2, CHOSEN 4, DUTY 1 | G:GM2, G:GM4, T:CHARGE5, T:FRAMING, T:MINIM, T:POINT-WEIGHT, T:PRICED |
 | E:L10 — the lanes' three coefficients per representation | LANE-PROPOSED | LANE-INPUT 7 | E:L01, E:L02, E:L03, E:L04, E:L05, E:L06, E:L07 |
 
@@ -180,9 +180,9 @@
 
 | stated about | banked results | which |
 |---|---|---|
-| weave | 15 | W:DRAW (negative), W:G96 (derived), W:HANDS (negative), W:INDEX3 (conditional), W:MEASURE (derived), W:MIRROR-EVEN (derived), W:NO-ATOM (negative), W:NOMOD (negative), W:NOVAL (negative), W:ONE-END (negative), W:Q8 (derived), W:T (derived), W:WALK (derived), T:NO-PLACE (negative), SC:UNIT (derived) |
-| thread | 25 | G:ROOT (conditional), G:T-ROOT (derived), MC:ALG (conditional), MC:CS0 (derived), MC:CUBIC (conditional), MC:END (conditional), MC:Y (conditional), MC:Z6 (conditional), FA:F1 (conditional), FA:F2 (conditional), FA:F3 (conditional), FA:F4 (conditional), FA:F5 (conditional), FA:F6 (conditional), FA:F7 (conditional), V:SIX (reading), V:WALL (negative), T:RE (derived), T:RULE (conditional), SC:CARD (negative), GR:ACTION (derived), GR:VECTORLIKE (negative), CO:S12 (derived), CO:S3 (negative), PR:P9 (conditional) |
-| list | 3 | G:XGEN (derived), MC:GENERIC (derived), MC:UNIQ (derived) |
+| weave | 11 | W:DRAW (negative), W:G96 (derived), W:HANDS (negative), W:INDEX3 (conditional), W:MEASURE (derived), W:NO-ATOM (negative), W:NOMOD (negative), W:NOVAL (negative), W:Q8 (derived), W:T (derived), W:WALK (derived) |
+| thread | 25 | G:ROOT (conditional), G:T-ROOT (derived), MC:ALG (conditional), MC:CS0 (derived), MC:CUBIC (conditional), MC:END (conditional), MC:Y (conditional), MC:Z6 (conditional), FA:F1 (conditional), FA:F2 (conditional), FA:F3 (conditional), FA:F4 (conditional), FA:F5 (conditional), FA:F6 (conditional), FA:F7 (conditional), V:SIX (reading), V:WALL (negative), T:RE (conditional), T:RULE (conditional), SC:CARD (negative), GR:ACTION (derived), GR:VECTORLIKE (negative), CO:S12 (derived), CO:S3 (negative), PR:P9 (conditional) |
+| list | 5 | G:XGEN (derived), W:MIRROR-EVEN (derived), W:ONE-END (negative), MC:GENERIC (derived), MC:UNIQ (derived) |
 
 | headline result | stated about |
 |---|---|

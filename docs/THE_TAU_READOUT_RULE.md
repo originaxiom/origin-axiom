@@ -101,7 +101,7 @@ Its quotes of main's record were checked at their sources. Data-free.*
   - Its sealed continuation reaches k = 6, 7, 8 with a fifth subdivision at k = 1 and 8.
   - Im τ_∞ = 6.0653049 ± 0.0000574, against the earlier 6.06526(57). Aitken on k = 6, 7, 8 gives 6.0652632.
   - Main reproduces both extrapolations from the seat's printed members. Main's own instrument stops at k = 2
-    (6.070 ± 0.010, B1854), so the digits beyond the second decimal stay the seat's (P-739).
+    (6.070 with an error of about 0.02, B1854; first written ± 0.010, corrected at Review 77), so the digits beyond the second decimal stay the seat's (P-739).
   - **One caution sent to the seat:** its |Re τ| at k = 7 is 1.39 × 10⁻⁶ against a stated error of 2.3 × 10⁻⁹. The
     real part is zero by topology (B1852), so that residue is discretisation its error estimate does not see. Its
     imaginary error bar is far larger than this residue, so the value above is not affected.

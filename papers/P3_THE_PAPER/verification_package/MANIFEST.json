@@ -1,6 +1,6 @@
 {
  "paper": "papers/P3_THE_PAPER/main.tex",
- "built": "2026-10-27T15:23:59Z",
+ "built": "2026-11-10T16:23:29Z",
  "environment": {
   "python": "3.12.1",
   "platform": "macOS-15.1-x86_64-i386-64bit",
@@ -9,10 +9,10 @@
   "mpmath": "1.3.0",
   "numpy": "2.4.0",
   "flint": "0.9.0",
-  "git_head": "8f9cbf1cb",
+  "git_head": "cf0c56079",
   "git_tree_clean": false,
-  "git_head_published": true,
-  "git_commits": 3857,
+  "git_head_published": false,
+  "git_commits": 4098,
   "git_shallow": false
  },
  "claims": [
@@ -979,7 +979,8 @@
      ],
      "locks": [
       "tests/test_b1303_the_sm_closings_z_prime.py",
-      "tests/test_b1307_the_harvest_gate.py"
+      "tests/test_b1307_the_harvest_gate.py",
+      "tests/test_harvest_scheduled_counter.py"
      ],
      "primary_locks": [
       "tests/test_b1303_the_sm_closings_z_prime.py"
@@ -1526,7 +1527,8 @@
      ],
      "locks": [
       "tests/test_b1303_the_sm_closings_z_prime.py",
-      "tests/test_b1307_the_harvest_gate.py"
+      "tests/test_b1307_the_harvest_gate.py",
+      "tests/test_harvest_scheduled_counter.py"
      ],
      "primary_locks": [
       "tests/test_b1303_the_sm_closings_z_prime.py"
@@ -2789,7 +2791,7 @@
   "claims": 67,
   "records": 95,
   "seals": 21,
-  "locks": 156,
+  "locks": 157,
   "records_with_a_primary_lock": 95
  }
 }

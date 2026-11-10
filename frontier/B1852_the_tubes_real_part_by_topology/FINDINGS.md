@@ -89,4 +89,6 @@ real number is owed (Review 76)". B1847 measured Im τ(Σ₀) = 6.15 ± 0.15 and
   - **Why it works:** in the mapping torus the cut lies in the middle of the product region, not at the gluing seam.
     So the fibre fixed by D (≡ I), the reverser of the linear palindrome read from an even run's middle, is the cut's
     own fibre.
-  - **Its standing:** it holds in thirteen words and is not proved in general (P-740).
+  - **Its standing:** it holds in twelve words and is not proved in general (P-740). [Review 77, the reader's count:
+    this read "thirteen". The run files hold twelve distinct words: the four of § 1, k = 2 to 5 of the family, and
+    the four two-run words.]

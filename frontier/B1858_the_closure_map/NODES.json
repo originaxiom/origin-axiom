@@ -1027,7 +1027,7 @@
   ],
   "note": "",
   "rows_live": {},
-  "weave_or_thread": "weave"
+  "weave_or_thread": "list"
  },
  {
   "id": "W:NO-ATOM",
@@ -1110,7 +1110,7 @@
   ],
   "note": "",
   "rows_live": {},
-  "weave_or_thread": "weave"
+  "weave_or_thread": "list"
  },
  {
   "id": "W:Q8",
@@ -1138,7 +1138,7 @@
   "layer": "3 weave",
   "kind": "theorem",
   "grade": "DERIVED",
-  "text": "The triplet: a three-dimensional representation follows from the quaternion point.",
+  "text": "At the quaternion point the moves' lift is a three-dimensional representation, the triplet. That the records sit at that point is the grammar's premise, not this theorem's.",
   "pins": [
    [
     "GENESIS.md",
@@ -1198,18 +1198,27 @@
   "layer": "4 structure",
   "kind": "theorem",
   "grade": "DERIVED",
-  "text": "No dimensionful quantity, by theorem: the object's Chern–Simons invariant is zero.",
+  "text": "For m004 the Chern–Simons invariant is zero, so its complex volume is real. This is a fact about this object, not a symmetry theorem: m003 is amphichiral with the other value. The step from it to physics is withdrawn.",
   "pins": [
    [
     "docs/THE_CLAIM.md",
     "**no dimensionful quantity — by theorem, not failure**"
+   ],
+   [
+    "docs/THE_CLAIM.md",
+    "this is NOT a symmetry theorem"
+   ],
+   [
+    "docs/FALSIFIER_REGISTER.md",
+    "the mathematics CS = 0 stands"
    ]
   ],
   "rows": [],
   "arcs": [
    "B811",
    "B1012",
-   "B1226"
+   "B1226",
+   "B1009"
   ],
   "note": "",
   "rows_live": {},
@@ -2310,7 +2319,7 @@
   "layer": "6 tau",
   "kind": "claim",
   "grade": "LANE-PROPOSED",
-  "text": "The value under the rule at the point reading: Im τ about 6.065 in the long-history limit. The web seat's sealed estimate; main confirms it to two decimals only.",
+  "text": "The value under the rule at the point reading: Im τ about 6.065 in the long-history limit. The web seat's sealed estimate; main's own value at k = 2 agrees with the seat's within main's scatter of about 0.02, and main has no value beyond k = 2.",
   "pins": [
    [
     "docs/THE_TAU_READOUT_RULE.md",
@@ -2382,7 +2391,7 @@
   "rows_live": {
    "P-713": "DONE"
   },
-  "weave_or_thread": "weave"
+  "weave_or_thread": "record"
  },
  {
   "id": "T:POINT-WEIGHT",
@@ -2436,8 +2445,8 @@
   "id": "T:RE",
   "layer": "6 tau",
   "kind": "theorem",
-  "grade": "DERIVED",
-  "text": "The tube's level surface has Re τ = 0 exactly, by topology; the Teichmüller apex of the same word also lies on Re 0.",
+  "grade": "CONDITIONAL",
+  "text": "The two σ-fixed fibres carry involutions of opposite class, exactly; which of them is the tube is fixed by numerics (B1847's anti-apex at Re ½ to 7 × 10⁻⁷, against the alternatives 0 and ½). Given that, the tube's level surface has Re τ = 0; the Teichmüller apex of the same word also lies on Re 0.",
   "pins": [
    [
     "docs/THE_TAU_READOUT_RULE.md",
@@ -2446,6 +2455,10 @@
    [
     "frontier/B1852_the_tubes_real_part_by_topology/FINDINGS.md",
     "So the apex and the metric's reading lie on the same line Re 0, and differ in height only"
+   ],
+   [
+    "frontier/B1852_the_tubes_real_part_by_topology/verification/fixed_fibre_classes.py",
+    "is not decided by this algebra"
    ]
   ],
   "rows": [
@@ -2609,8 +2622,8 @@
   "id": "SC:UNIT",
   "layer": "7 scale",
   "kind": "theorem",
-  "grade": "DERIVED",
-  "text": "An absolute energy cannot come from the object: one outside unit is needed by any theory.",
+  "grade": "NEGATIVE",
+  "text": "An absolute energy cannot come from the object, whose invariants carry no unit; any theory needs one outside unit. Main's re-reading of two negative arcs.",
   "pins": [
    [
     "docs/POINT_REGISTER.md",
@@ -2628,7 +2641,7 @@
   "rows_live": {
    "P-719": "QUEUED"
   },
-  "weave_or_thread": "weave"
+  "weave_or_thread": "n/a"
  },
  {
   "id": "E:GRADES",
@@ -3073,11 +3086,15 @@
   "layer": "9 gravity",
   "kind": "theorem",
   "grade": "DERIVED",
-  "text": "The object's own 2+1-dimensional gravity: an exact vacuum solution with a one-term action and no free dimensionless constant. A fact about this construction.",
+  "text": "The object's own 2+1-dimensional gravity: an exact vacuum solution with a one-term action and, with Λ = −1 forced, no free dimensionless constant. A fact about this construction.",
   "pins": [
    [
     "docs/THE_FRAMEWORK.md",
     "**The action (C1, B1088) has zero free dimensionless constants.**"
+   ],
+   [
+    "docs/THE_FRAMEWORK.md",
+    "one term.**"
    ],
    [
     "docs/THE_FRAMEWORK.md",
@@ -3087,7 +3104,8 @@
   "rows": [],
   "arcs": [
    "B1088",
-   "B1090"
+   "B1090",
+   "B259"
   ],
   "note": "",
   "rows_live": {},
@@ -4374,8 +4392,8 @@
    "CHOSEN": 4,
    "LANE-INPUT": 1,
    "UNSTATED": 1,
-   "DERIVED": 2,
-   "NEGATIVE": 1,
+   "DERIVED": 1,
+   "NEGATIVE": 2,
    "OPEN": 1
   }
  },

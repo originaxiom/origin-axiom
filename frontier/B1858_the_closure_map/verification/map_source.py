@@ -8,9 +8,10 @@ the map. A pin on a seat branch is (rev, path, quote): the quote is digit-free, 
 without main's mask, and it must occur in the file at that revision. `build_map.py` checks every pin.
 
 Grades are kept apart, as the physical lane's work order asks:
-  DERIVED       proved on main (a banked theorem or an exact computation)
+  DERIVED       held on main's record as proved outright: a theorem or an exact computation whose truth rests on no
+                premise of the programme (the map checks the citation, not the proof; Review 77, the reader)
   RECORD        a fact about the record's own state (a count, a status), checked at its source
-  CONDITIONAL   proved on main given named premises (the edges say which)
+  CONDITIONAL   proved on main given named premises, a tag or a numerical identification (its `requires` edges say which)
   POSTULATED    assumed by the foundation
   CHOSEN        a fork settled by choice, the alternative kept
   TAGGED        a tagged working postulate (the owner's ruling); results carry "given ..."
@@ -100,7 +101,7 @@ N("G:ROOT", "2 states and root", "theorem", "CONDITIONAL", "Given GM3, GM4, SE1 
 # ------------------------------------------------------------------ layer 3: the weave (the joint action of the moves)
 N("W:Q8", "3 weave", "theorem", "DERIVED", "At two records the moves fix exactly two characters: the trivial one and the quaternion point; at three or more records, only the trivial one.",
   [(GEN, "at n = 2 the record's two moves fix exactly the trivial point and the quaternion point (0, 0, 0)")], arcs=["B1677", "B1679"])
-N("W:T", "3 weave", "theorem", "DERIVED", "The triplet: a three-dimensional representation follows from the quaternion point.",
+N("W:T", "3 weave", "theorem", "DERIVED", "At the quaternion point the moves' lift is a three-dimensional representation, the triplet. That the records sit at that point is the grammar's premise, not this theorem's.",
   [(GEN, "the triplet follows from that point (T2)")])
 N("W:G96", "3 weave", "theorem", "DERIVED", "The weave's group on T ⊕ T̄ has order 96; its generalized CP is the record swap, so CP is a symmetry exactly when the swap is a move.",
   [(GEN, "The weave's group G (the lifts of L and R on V = T ⊕ T̄, order 96)"), (GEN, "**So the weave's generalized CP is the record swap:**")], arcs=["B1611"])
@@ -192,8 +193,9 @@ N("MC:CUBIC", "4 structure", "theorem", "CONDITIONAL", "Matter mass sits in the 
 N("MC:GEN", "4 structure", "gap", "OPEN", "The generation count is not an output of the structural theorem; it sits on the open-inputs side.",
   [(CLAIM, "the generation COUNT returns to the open-inputs side")], rows=["P-606"], arcs=["B1033"],
   note="P-606: B298's 'a degree-2 trace field means multiplicities in {1, 2}, never 3' is false as an implication and is still cited as prior.")
-N("MC:CS0", "4 structure", "theorem", "DERIVED", "No dimensionful quantity, by theorem: the object's Chern–Simons invariant is zero.",
-  [(CLAIM, "**no dimensionful quantity — by theorem, not failure**")], arcs=["B811", "B1012", "B1226"])
+N("MC:CS0", "4 structure", "theorem", "DERIVED", "For m004 the Chern–Simons invariant is zero, so its complex volume is real. This is a fact about this object, not a symmetry theorem: m003 is amphichiral with the other value. The step from it to physics is withdrawn.",
+  [(CLAIM, "**no dimensionful quantity — by theorem, not failure**"), (CLAIM, "this is NOT a symmetry theorem"),
+   (FALS, "the mathematics CS = 0 stands")], arcs=["B811", "B1012", "B1226", "B1009"])
 N("MC:GENERIC", "4 structure", "theorem", "DERIVED", "Reaching the E₆ waypoint is generic (about one manifold in three), so arriving there confirms nothing.",
   [(CLAIM, "is *generic* — ~1 in 3 manifolds, 5 of 7 grammars")], arcs=["B993", "B996"])
 N("MC:UNIQ", "4 structure", "theorem", "DERIVED", "The own-conductor door set of the metallic grammars is {1, 4}. The golden is unique among primitive grammars, and unique for having both the door and a quotient of π₁ onto 2T.",
@@ -225,11 +227,12 @@ N("T:POINT-WEIGHT", "6 tau", "choice", "CHOSEN", "Point or weight: the metric su
 N("T:CHARGE5", "6 tau", "choice", "CHOSEN", "The charge premise at level 5, which fixes the depth of the one departure.",
   [(TAU, "the charge premise at 5 (B1853)")], rows=["P-717", "P-738"], arcs=["B1853", "B1855", "B1856"])
 N("T:MINIM", "6 tau", "choice", "CHOSEN", "Minimisation as the use of the action.", [(TAU, "minimisation as the use of the action (B1853)")], arcs=["B1853"])
-N("T:RE", "6 tau", "theorem", "DERIVED", "The tube's level surface has Re τ = 0 exactly, by topology; the Teichmüller apex of the same word also lies on Re 0.",
+N("T:RE", "6 tau", "theorem", "CONDITIONAL", "The two σ-fixed fibres carry involutions of opposite class, exactly; which of them is the tube is fixed by numerics (B1847's anti-apex at Re ½ to 7 × 10⁻⁷, against the alternatives 0 and ½). Given that, the tube's level surface has Re τ = 0; the Teichmüller apex of the same word also lies on Re 0.",
   [(TAU, "**The real part is exact, by topology** (B1852)."),
-   ("frontier/B1852_the_tubes_real_part_by_topology/FINDINGS.md", "So the apex and the metric's reading lie on the same line Re 0, and differ in height only")],
+   ("frontier/B1852_the_tubes_real_part_by_topology/FINDINGS.md", "So the apex and the metric's reading lie on the same line Re 0, and differ in height only"),
+   ("frontier/B1852_the_tubes_real_part_by_topology/verification/fixed_fibre_classes.py", "is not decided by this algebra")],
   rows=["P-751"], arcs=["B1852"])
-N("T:IM", "6 tau", "claim", "LANE-PROPOSED", "The value under the rule at the point reading: Im τ about 6.065 in the long-history limit. The web seat's sealed estimate; main confirms it to two decimals only.",
+N("T:IM", "6 tau", "claim", "LANE-PROPOSED", "The value under the rule at the point reading: Im τ about 6.065 in the long-history limit. The web seat's sealed estimate; main's own value at k = 2 agrees with the seat's within main's scatter of about 0.02, and main has no value beyond k = 2.",
   [(TAU, "Main's own instrument stops at k = 2"), (WEB, "relays/chat1_2026-11-07_tau/taumore_summary_out.txt", "firmed: Im tau_inf")],
   rows=["P-739"], arcs=["B1854"])
 N("T:PRICED", "6 tau", "duty", "DUTY", "The candidate τ is not yet priced by the random-subset control, and is read against the six only inside a sealed card.",
@@ -238,7 +241,7 @@ N("T:NO-PLACE", "6 tau", "theorem", "NEGATIVE", "Nothing on the record places Im
   [(BANG, "nothing places Im τ"), (BANG, "**P-713 DONE, NEGATIVE for placing τ:**")], rows=["P-713"], arcs=["B1341", "B852", "B1813"])
 
 # ------------------------------------------------------------------ layer 7: the scale
-N("SC:UNIT", "7 scale", "theorem", "DERIVED", "An absolute energy cannot come from the object: one outside unit is needed by any theory.",
+N("SC:UNIT", "7 scale", "theorem", "NEGATIVE", "An absolute energy cannot come from the object, whose invariants carry no unit; any theory needs one outside unit. Main's re-reading of two negative arcs.",
   [(REG, "An ABSOLUTE energy cannot come from the object")], rows=["P-719"], arcs=["B151", "B660"])
 N("SC:RATIO", "7 scale", "gap", "OPEN", "A dimensionless ratio of scales is not excluded; it waits on a principle that fixes the level and on an identification.",
   [(REG, "NOT excluded by the record; what is missing is a principle that fixes the level")], rows=["P-719", "P-721"])
@@ -297,8 +300,9 @@ N("E:GRADES", "8 conditional model", "record", "RECORD", "The lanes' own grading
   rows=["P-746", "P-749", "P-750", "P-752"])
 
 # ------------------------------------------------------------------ layer 9: gravity
-N("GR:ACTION", "9 gravity", "theorem", "DERIVED", "The object's own 2+1-dimensional gravity: an exact vacuum solution with a one-term action and no free dimensionless constant. A fact about this construction.",
-  [(FRAME, "**The action (C1, B1088) has zero free dimensionless constants.**"), (FRAME, "a mathematical fact about this one construction, not a claim, anywhere in this section,")], arcs=["B1088", "B1090"])
+N("GR:ACTION", "9 gravity", "theorem", "DERIVED", "The object's own 2+1-dimensional gravity: an exact vacuum solution with a one-term action and, with Λ = −1 forced, no free dimensionless constant. A fact about this construction.",
+  [(FRAME, "**The action (C1, B1088) has zero free dimensionless constants.**"), (FRAME, "one term.**"),
+   (FRAME, "a mathematical fact about this one construction, not a claim, anywhere in this section,")], arcs=["B1088", "B1090", "B259"])
 N("GR:VECTORLIKE", "9 gravity", "theorem", "NEGATIVE", "The matter of that theory, read in 2+1 dimensions, is vector-like by theorem.",
   [(FRAME, "read as a 2+1-dimensional theory, is vector-like by theorem")], arcs=["B1089"])
 N("GR:3PLUS1", "9 gravity", "duty", "DUTY", "A dynamical 3+1-dimensional metric coupled to the same matter: not on the record, in any lane.",
@@ -365,13 +369,13 @@ def E(a, kind, b, grade="", note=""):
 # the foundation's chain
 for p in ("G:GM3", "G:GM4", "G:SE1", "G:SE2"):
     E("G:ROOT", "requires", p, "CONDITIONAL", "four inputs suffice, and each is needed")
-E("G:T-ROOT", "requires", "G:SE1", "DERIVED")
+E("G:T-ROOT", "applies-under", "G:SE1", "", "the theorem says what the criterion selects; it does not need the criterion to be adopted")
 for p in ("G:GM2", "G:GM4", "G:GM5b", "G:GM5d"):
-    E("G:XGEN", "requires", p, "DERIVED")
+    E("G:XGEN", "applies-under", p, "", "the census counts what the grammar defines")
 E("G:PF1-FORM", "reads", "G:PF1", "CHOSEN")
 E("G:GM1", "reads", "G:PF1-FORM", "CHOSEN", "the common character is PF1's commutator only through a rank-free reading of PF1, which is not on the record")
-E("W:Q8", "requires", "G:GM1", "DERIVED")
-E("W:Q8", "requires", "G:GM2", "DERIVED")
+E("W:Q8", "applies-under", "G:GM1", "", "a theorem about two letters and the two moves; the programme uses it under GM1")
+E("W:Q8", "applies-under", "G:GM2", "", "the moves are the unit shears")
 E("W:T", "requires", "W:Q8", "DERIVED")
 E("W:G96", "requires", "W:T", "DERIVED")
 E("W:INDEX3", "requires", "W:T", "CONDITIONAL")
@@ -390,13 +394,24 @@ for t in ("MC:ALG", "MC:Z6", "MC:Y", "MC:END", "MC:CUBIC"):
     E(t, "requires", "G:ROOT", "CONDITIONAL")
     E(t, "requires", "MC:HYP", "CONDITIONAL")
     E(t, "requires", "MC:PRICE", "CONDITIONAL")
-E("MC:CS0", "requires", "G:SE2", "DERIVED", "amphichirality puts the invariant in a two-element set; this object sits at zero")
+E("MC:CS0", "applies-under", "G:SE2", "", "amphichirality puts the invariant in a two-element set; this object sits at zero")
 E("MC:UNIQ", "bears-on", "MC:GENERIC", "DERIVED", "the door is a shadow of the grammar's letters; the E₆ entry is a quotient of π₁; reaching E₆ is generic")
 # the values
 E("V:SIX", "requires", "TAG:LAMBDA", "READING", "the frame's coupling is banked 'given Λ, the dictionary'")
 E("FA:F1", "requires", "TAG:LAMBDA", "CONDITIONAL", "banked 'given Λ, the dictionary'")
 E("FA:F1", "requires", "W:Q8", "CONDITIONAL", "the frame's doublet is the fibre's rank-two flat bundle with quaternion monodromy")
 E("FA:F1", "requires", "G:GM4", "CONDITIONAL", "the fibre is the once-punctured torus")
+# what each of the other forced-by-main joints is conditional on, from the scoreboard's own basis cell. Added 2026-11-10 with B1861, whose builder
+# found eight CONDITIONAL nodes that named no premise; build_map.py now refuses a conditional result with none.
+E("FA:F2", "requires", "TAG:LAMBDA", "CONDITIONAL", "the hypercharge dictionary is banked 'given Λ, the dictionary'")
+E("FA:F3", "applies-under", "B:FRAME", "", "'given the direction': a proved identity about a direction the agy lane chose")
+E("FA:F4", "applies-under", "A:A07", "", "the theorem fixes L_2 as a function of τ; which canonical horocycle is the end is the frame's choice")
+E("FA:F5", "applies-under", "G:ROOT", "", "an exact value of the root's volume, shared by its whole shape-field family (B1136); using it presumes the root")
+E("FA:F6", "applies-under", "MC:HYP", "", "the normalisation is fixed once the Lie type and the closing direction are given")
+E("FA:F7", "applies-under", "A:A04", "", "'given a mirror-invariant radius and the Higgs condition': proved for the census directions and DR")
+E("FA:F7", "applies-under", "A:A07", "", "the mirror-invariant radius is the end's")
+E("PR:P9", "applies-under", "MC:HYP", "", "the boson is the closing direction's, one of the structural theorem's typed external data")
+E("FL:20", "requires", "V:EARN-RULE", "CONDITIONAL", "the route by sealed prediction exists by the ruling of 2026-11-03, and only by it")
 E("V:SIX", "blocked-by", "V:HELD", "", "no held-out target is spent, so nothing is predicted")
 E("V:0OF19", "follows-from", "V:SIX", "DERIVED", "a reading earns nothing")
 # tau
@@ -592,10 +607,10 @@ HEADLINES = [
 # The label is required on every node of the spine. A weave result may not rest on a thread node (build_map.py checks).
 WT = {}
 for _id in ("G:PF1", "G:PF2", "G:PF3", "G:PF1-FORM", "G:GM1", "G:GM2", "G:GM3", "G:GM4", "G:GM5a", "G:GM5b", "G:GM5c", "G:GM5d",
-            "G:XGEN-PHYS", "W:Q8", "W:T", "W:G96", "W:HANDS", "W:MIRROR-EVEN", "W:ONE-END", "W:NOMOD", "W:NOVAL", "TAG:LAMBDA", "TAG:UNIT",
+            "G:XGEN-PHYS", "W:Q8", "W:T", "W:G96", "W:HANDS", "W:NOMOD", "W:NOVAL", "TAG:LAMBDA", "TAG:UNIT",
             "W:INDEX3", "W:LAW", "W:MEASURE", "W:WALK", "W:CLOCK", "W:FLAT-SUM", "W:NO-ATOM", "W:DRAW",
             "G:FK3", "G:FK5", "G:FK8", "G:FK9", "G:FK10", "G:FK11", "G:FK12", "G:FK13", "G:FK14", "G:FK15",
-            "G:GAP1", "G:GAP2", "G:GAP3", "G:GAP4", "G:GAP5", "G:GAP6", "T:NO-PLACE", "SC:UNIT", "PR:P10"):
+            "G:GAP1", "G:GAP2", "G:GAP3", "G:GAP4", "G:GAP5", "G:GAP6", "PR:P10"):
     WT[_id] = "weave"
 for _id in ("G:SE1", "G:T-ROOT", "G:SE2", "G:ROOT", "G:FK2", "G:FK7",
             "MC:HYP", "MC:PRICE", "MC:ALG", "MC:Z6", "MC:Y", "MC:END", "MC:CUBIC", "MC:GEN", "MC:CS0", "MC:REACH",
@@ -605,7 +620,10 @@ for _id in ("G:SE1", "G:T-ROOT", "G:SE2", "G:ROOT", "G:FK2", "G:FK7",
             "E:Q1", "E:Q2", "E:Q3", "E:J1", "E:J2", "E:J3", "E:J4", "E:J5",
             "GR:ACTION", "GR:VECTORLIKE", "CO:S12", "CO:S3", "PR:P2", "PR:P3", "PR:P9"):
     WT[_id] = "thread"
-for _id in ("G:XGEN", "MC:GENERIC", "MC:UNIQ"):
+# a statement true of every thread, each read by its own geometry, is a list, not a weave result (THE WEAVE's test,
+# item 2: "defined by the joint action ... not by one thread's own geometry"; relabelled at Review 77, the reader)
+for _id in ("G:XGEN", "MC:GENERIC", "MC:UNIQ", "W:MIRROR-EVEN", "W:ONE-END"):
     WT[_id] = "list"
-for _id in ("V:0OF19", "V:HELD", "V:EARN-RULE", "E:GRADES", "T:PRICED", "GR:3PLUS1"):
+for _id in ("V:0OF19", "V:HELD", "V:EARN-RULE", "E:GRADES", "T:PRICED", "GR:3PLUS1", "T:NO-PLACE"):
     WT[_id] = "record"
+WT["SC:UNIT"] = "n/a"                # about any theory

@@ -18811,3 +18811,21 @@ plain: what is proved about the whole is structure, and nearly everything that l
 single object. The computation that would say what the whole itself makes definite is registered before it is run.
 0 of 19.
 
+## 2026-11-10 — S306o: the tenth-landing review, forced this time
+
+The repository keeps a rule that after forty landings nothing more may be published until the work is reviewed. The
+count reached forty-one, and the review ran.
+
+A reader who had written none of it read five recent pieces in full. All five stood, and all five needed corrections.
+The most important: an error bar on one of this month's numbers had been written without being derived, and is about
+twice as large as stated; and the new map had used one word, "proved", for two different things — proved outright, and
+proved given an assumption. The map's builder now refuses to mix them.
+
+The whole test suite was then run on a clean copy of the repository, the way a stranger would run it. It found a real
+fault in main's own work from three days earlier: one check read log files that the repository is set to leave out, so
+it passed on main's machine and would have failed for anyone else. This is the third time that kind of fault has
+appeared. The safeguard that should have caught it could not see it, and it now can.
+
+The review also named the programme's most repeated mistake as its own class of error, at the owner's word: taking one
+allowed object for the whole. By their own labels, every one of the window's seven scientific results is about a single
+object. 0 of 19.

@@ -534,7 +534,23 @@ def gate_path_refs():
     return True, f"ok ({total} citations resolve)"
 
 
-def gate_tracked_deps():
+_FILE_BASE = re.compile(r'^(\w+)\s*=\s*(?:pathlib\.)?Path\(__file__\)(?:\.resolve\(\))?\.(parent|parents\[(\d+)\])(?![\w.\[])', re.M)
+
+
+def _file_relative_refs(rel, txt):
+    """The paths a file reads relative to ITSELF: `HERE = pathlib.Path(__file__).resolve().parent`, then `HERE / "a" / "b"`."""
+    out = set()
+    for m in _FILE_BASE.finditer(txt):
+        up = 1 if m.group(2) == "parent" else int(m.group(3)) + 1
+        base = rel
+        for _ in range(up):
+            base = os.path.dirname(base)
+        for ch in re.finditer(r'\b%s((?:\s*/\s*"[^"]+")+)' % re.escape(m.group(1)), txt):
+            out.add(os.path.normpath(os.path.join(base, *re.findall(r'"([^"]+)"', ch.group(1)))).replace(os.sep, "/"))
+    return out
+
+
+def gate_tracked_deps(_plant=None):
     """Every repo path a tracked test/script names must itself be TRACKED, not merely present.
 
     E57 (B1238, 2026-09-02): B1237 committed `tests/test_paper_ledger_counts.py` and pushed it
@@ -545,6 +561,13 @@ def gate_tracked_deps():
     under tests/ and scripts/ (the executable reference graph); a path is checked only when it
     exists on disk (a missing path is `path-refs`' business, or an intentional skipif).
     Fail-closed if git is unavailable -- an index we cannot read is not an index we may vouch for.
+
+    E94, second scope (Review 77, 2026-11-10): a LOCK -- a tracked test_*.py under tests/ or frontier/ -- is also read for
+    the paths it names relative to its own file (`HERE / "run.txt"`).  B1671's three logs (Review 73) and B1854's three
+    (Review 77) were read that way and ignored by `*.log`, so each lock passed at home and failed on a fresh clone, and
+    this gate saw neither: it read only tests/ and scripts/ and only repo-root paths.  Scripts are left out on purpose:
+    a generator may keep an ignored cache; a lock may not depend on one.  `_plant` is the control's door: one more
+    (path, text) pair read as if tracked.
     """
     rc, out = _git("ls-files")
     if rc != 0:
@@ -553,16 +576,23 @@ def gate_tracked_deps():
     lit = re.compile(r"(?:scripts|frontier|docs|tests|data|paper)/[\w./-]+\.(?:py|sh|json|md|txt|csv)")
     chain = re.compile(r'ROOT(?:\s*/\s*"[^"]+")+')
     bad = {}
-    for rel in sorted(tracked):
-        if not (rel.startswith(("tests/", "scripts/")) and rel.endswith(".py")):
+    sources = sorted(tracked) + ([_plant[0]] if _plant else [])
+    for rel in sources:
+        core = rel.startswith(("tests/", "scripts/")) and rel.endswith(".py")
+        lock = rel.startswith(("tests/", "frontier/")) and os.path.basename(rel).startswith("test_") and rel.endswith(".py")
+        if not (core or lock):
             continue
         try:
-            txt = _read(rel)
+            txt = _plant[1] if (_plant and rel == _plant[0]) else _read(rel)
         except OSError:
             continue                                   # deleted-but-tracked: not this gate's class
-        refs = set(lit.findall(txt))
-        for ch in chain.findall(txt):
-            refs.add("/".join(re.findall(r'"([^"]+)"', ch)))
+        refs = set()
+        if core:
+            refs |= set(lit.findall(txt))
+            for ch in chain.findall(txt):
+                refs.add("/".join(re.findall(r'"([^"]+)"', ch)))
+        if lock:
+            refs |= _file_relative_refs(rel, txt)
         for r in refs:
             if r not in tracked and os.path.isfile(os.path.join(ROOT, r)):
                 bad.setdefault(r, rel)
