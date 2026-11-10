@@ -20,11 +20,11 @@ nothing in this block is typed by hand.*
 | | |
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
-| the foundations | `GENESIS.md` (v1.63) of 2026-11-10 |
-| arcs with a verdict | 1562: 1071 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 756: 256 open (queued, leads, waiting for the owner), 500 closed |
+| the foundations | `GENESIS.md` (v1.64) of 2026-11-10 |
+| arcs with a verdict | 1564: 1073 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
+| points in the register | 760: 259 open (queued, leads, waiting for the owner), 501 closed |
 | the last review | Review 77 (2026-11-10), anchor `10641a1b2` |
-| the last landing | S306o REVIEW 77, THE DECADAL REVIEW (B1860; fired by the push gate at 41 landings) (2026-11-10) |
+| the last landing | S306o (continued) THE CLOSURE PROGRAMME (B1861); THE ADVISOR SEAT'S AUDIT HARVESTED AND ITS FIRST EIGHT CORRECTIONS (B1862); GENESIS v1.64 (2026-11-1… |
 <!-- STATE:END -->
 
 ## Start here

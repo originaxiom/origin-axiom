@@ -13,24 +13,26 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1562 |
-| … PROVED | 1071 |
+| arcs with a verdict file | 1564 |
+| … PROVED | 1073 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 756 |
-| … QUEUED | 247 |
+| register points | 760 |
+| … QUEUED | 249 |
 | … LEAD | 4 |
-| … OWNER | 5 |
-| … DONE | 489 |
+| … OWNER | 6 |
+| … DONE | 490 |
 | … DECLINED | 11 |
-| harvest rows (the last number) | 1628 |
+| harvest rows (the last number) | 1634 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1862 | PROVED | THE AUDIT'S FIRST CORRECTIONS (the advisor seat's findings E13, E3, L5, E4, E11, E10, E6, E8, each reproduced on main first; P-757): B567's level-165 Weil spectrum has 20 distinct eigenvalues, not 21 -- the projective o… |
+| B1861 | PROVED | THE CLOSURE PROGRAMME (the owner's goal of 2026-11-10: the physical lane's work order scrutinised, sharpened and made a check): one generated page whose builder refuses to write it unless every node of the closure map t… |
 | B1860 | PROVED | REVIEW 77 (fired by the push gate at 41 landings; S306f-S306n): the loop closed, all eight of Review 76's items resolved in the window and none carried; every seat harvested to its head at uneven depth, the register say… |
 | B1859 | PROVED | THE DOOR SET IS {1, 4} (a correction of B997's uniqueness clause, keeping its computation; P-318, P-618): the group the grammar R^m L^m's own letters generate modulo m^2 + 4 is a McKay group exactly at m = 1 and m = 4 -… |
 | B1858 | PROVED | THE CLOSURE MAP (the owner's directive of 2026-11-10, P-748; the physical lane's work order, its first return): 259 nodes and 263 edges, every node pinned by a quote checked against its source (241 on main, 39 on the la… |
@@ -41,8 +43,6 @@
 | B1853 | PROVED | THE DEPARTURE'S DEPTH: THE ACTION SELECTS WITHIN A PREMISE, THE PREMISE IS A CHARGE (the explore seat's two relays, verified on main's own code): among R1's 643 rung-invisible defects the least Mostow-rigid excess volum… |
 | B1852 | PROVED | THE TUBE'S REAL PART, BY TOPOLOGY (the real number Review 76 owed): sigma's two fixed fibres carry orientation-reversing involutions whose GL(2,Z) class mod 2 decides the reduced Re tau (= I mod 2: Re 0; otherwise Re 1/… |
 | B1851 | PROVED | THE CHIRAL PREMISE RELOCATED, VERIFIED; THE OPEN-BOOK SCALE CARD RULED NOT SEALABLE (the web seat's three relays, harvest rows 1609-1611): re-derived on main -- in DGLZ's t = k +- sigma the product's exponent is sigma*V… |
-| B1850 | PROVED | THE OPEN LEADS AND THE BACKLOG CONFIRMED ONE BY ONE (Review 76's R76-1: the rest of P-617, and P-616): every proposal of Review 74's readers checked at its pointer, each decision backed by a quote found verbatim (313 of… |
-| B1849 | PROVED | THE LEADS CONFIRMED ONE BY ONE (Review 76's R76-1, the register half of P-617): every proposal of Review 74's reader for the register's lead-typed rows checked by main at its pointer -- 30 rows closed (19 answered, 6 su… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -51,12 +51,14 @@
 - ** P-253** — the chain gap's top entries (Review 67's R66-3, declined there because the chain is the frozen paper's spine): B1098, B959, B1100, B952, B1086, B1000, B1484, B1070 (coverage_candidates.py --chain-gap) — adjudicate each… → *asked of the owner: whether and when to open a draft after p9-draft9; until then the chain-gap list stays recorded here and nothing is due (S231) [earlier: Q3…*
 - ** P-697** — A SECOND COMPLIANCE FOLLOW-UP TO THE AGY LANE (S305f): its relay's lines 819–831 publish P-585-class values (a running top Yukawa, an inter-sector hierarchy value); its Theorem 102 carries held-out-class value literals… → *asked of the owner (S305f): main recommends sending a short note naming the lines and asking that they be removed and the salt kept somewhere durable off the r…*
 - ** P-755** — THE LAW, AND THE THREAD-FOR-WEAVE MISTAKE (the owner, 2026-11-10: 'the most important thing, which we keep repeating is the weave-vs-therad kind of mistake, and we do it repeatedly. the law that causes existence as i un… → *asked of the owner: whether 'upon its execution' is to be recorded as the reading of the law (the move count), which would rule P-439's clock; main recommends…*
+- ** P-758** — THE OWNER'S RULINGS OF 2026-11-10, AS THE ADVISOR SEAT RELAYED THEM (its OWNER_RULINGS_2026-11-10.md @ 701d12ff7): R1 the programme's only goal is a parameter-free theory of everything, and GOVERNANCE's 'not a theory of… → *asked of the owner (S306o): confirm R1 to R7 as relayed. Main acts on none of them before that; the work that does not depend on them proceeds (reproducing and…*
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
 
 ## The last landings (CHANGELOG)
 
+- S306o (continued) THE CLOSURE PROGRAMME (B1861); THE ADVISOR SEAT'S AUDIT HARVESTED AND ITS FIRST EIGHT CORRECTIONS (B1862); GENESIS v1.64 (2026-11-10)
 - S306o REVIEW 77, THE DECADAL REVIEW (B1860; fired by the push gate at 41 landings) (2026-11-10)
 - S306n (continued) WEAVE OR THREAD, ENFORCED IN THE MAP; THE LAW AND THE WEIGHT (P-755, P-756; B1858 extended) (2026-11-10)
 - S306n (continued) THE DOOR SET IS {1, 4} (B1859; a front-page claim corrected; P-318, P-618; GENESIS v1.63) (2026-11-10)
@@ -64,17 +66,16 @@
 - S306n THE REFETCH: three lanes harvested, main's apex error corrected, the owner's directive registered (2026-11-10)
 - S306m (continued) THE READ-OUT BY A STATE (B1857; the explore seat, row 1617) (2026-11-07)
 - S306m (continued) THE TUBE'S τ AT k = 2, ON MAIN (B1854; P-739 in part) (2026-11-07)
-- S306m (continued) CHARGE OR SYMMETRY AT FIVE (B1856; P-738 answered, conditionally) (2026-11-07)
 
 ## The latest campaign line
 
-LATEST (2026-11-10, S306o: REVIEW 77 (B1860), fired by the push gate at 41 landings: Review 76's eight items all resolved, none carried; five seeded arcs read in full by an independent reader, all hold with notes, eight must-fix findings applied (B1854's k = 2 error is about 0.02, not 0.010; the map's DERIVED now means proved outright); the fresh-clone suite 8125 passed, 7 failed — three the review firing, two standing, two the window's own and fixed (B1854's lock read three ignored logs, E94 for the third time: the tracked-deps gate now reads every lock's own-directory paths); a new error class, E96, a thread taken for the weave; items R77-1 to R77-8. 0 of 19.)
+LATEST (2026-11-10, S306o (continued): B1861 — THE CLOSURE PROGRAMME: the generated plan of all remaining work, refused by its builder unless every node of the closure map that still needs a path is in one package (131 of 131, in 43 packages) and the order of work records every dependency edge of the map; main's spine holds 38 inputs (8 axioms, 8 bits, 16 discrete, 5 real, 1 ansatz, 7 identifications); the premises are in series; what sits under the most is the weight, and the parent algebra has no owner. THE ADVISOR SEAT registered and harvested (rows 1629–1633; P-757 to P-759): its audit's 73 findings each in a package with a state on main; of its 27 planted violations 24 pass undetected…
 
 ## Completeness (nothing skipped silently)
 
 | check | count | first items |
 |---|---|---|
 | arc folders without a verdict file (scripts/checks/arc_data.py classifies them; its resolved R-classes are not defects) | 41 | B1840_the_principled_ends, B1842_the_closure_instruments, B263_t41_cs_levels, B452_ethogram_dictionary, B473_criticality_program, B501_universe_word |
-| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 156 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
+| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 157 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
 | register rows not in the 7-cell form | 0 | — |
 

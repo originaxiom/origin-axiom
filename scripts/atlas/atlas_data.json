@@ -15774,8 +15774,8 @@
    "refs": [
     "B355"
    ],
-   "obstacle": "cancellation",
-   "obstacle_conf": 2,
+   "obstacle": "selector",
+   "obstacle_conf": 3,
    "status": "banked",
    "domain": "dynamics"
   },
@@ -15876,6 +15876,48 @@
    "obstacle_conf": 1,
    "status": "dead",
    "domain": "topology"
+  },
+  "B1861": {
+   "slug": "the closure programme",
+   "motifs": [
+    "measurement",
+    "closing",
+    "golden",
+    "z3_generation",
+    "firewall"
+   ],
+   "refs": [
+    "B567",
+    "B854",
+    "B952",
+    "L10",
+    "L7"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 8,
+   "status": "dormant",
+   "domain": "arithmetic"
+  },
+  "B1862": {
+   "slug": "the audits first corrections",
+   "motifs": [
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [
+    "B567",
+    "B854",
+    "B862",
+    "B952",
+    "L10",
+    "L5",
+    "L7",
+    "L9"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "arithmetic"
   },
   "B186": {
    "slug": "hyperbolicity certification",
@@ -31975,6 +32017,7 @@
   "B862": {
    "slug": "global form",
    "motifs": [
+    "eisenstein",
     "z3_generation",
     "amphichiral_cp",
     "lorentzian"
