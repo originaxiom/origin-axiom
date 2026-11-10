@@ -236,6 +236,33 @@ it does not make anything exist.
 
 The principle with every clause ruled so far, in one place: `principle_top_down/THE_PRINCIPLE_AS_RULED.md`.
 
+## R17 — the tick is an act
+
+**The seat's question, after the computation of `principle_top_down/the_tick/`:** is "add, and the two sides change
+roles" an act? **The owner's words (same day, later):**
+
+> "yes on 4"
+
+**Ruling:** yes. The tick is an act, and both kinds of history are in the ledger: those made of an even number of
+runs (the two-act histories, each two or more ticks) and those made of an odd number (which have no hand).
+
+**What follows, as the seat reads it — for cc to carry into `GENESIS.md` at the owner's word:**
+- **GM5c** (the exchange is a legal move; OPEN) is ruled in this form: the exchange is an act together with an
+  addition — the tick. The bare exchange is not an act by itself: done twice it is nothing (clause 1).
+- **SE2** (take the orientable root; CHOSEN, "the most fragile link") is no longer a choice the foundation makes.
+  Under R15 nothing is ranked, so there is no root to prefer; both m000 (one tick) and m004 (two ticks) are states,
+  which is fork FK2's second option. m004's mirror symmetry is then a consequence of being a tick done twice.
+- **The two distinctions are the two sides,** which meet inside one tick: one takes from the other, and they change
+  roles.
+- **The frame's two level-5 lines are one orbit** under the tick; the scoreboard's joint A03 is then not a choice.
+
+**Two debts named with the ruling (not computed; nothing may be built on the tick's histories before they are):**
+1. what replaces a spin structure on a history with no hand (the record's B1477–B1481 use spin structures);
+2. the record's structures at odd levels — the level-5 representation, the charge and line premises — read again
+   under the group doubled by the exchange.
+
+**And one thing the ruling does not give:** a hand. Handedness still arrives only in mirror pairs.
+
 ## The tick — computed; the ruling on the elementary act is now the owner's to make
 
 `principle_top_down/the_tick/RESULT.md` (sealed at `f57f4701f`; one counting error in the sealed script found and
