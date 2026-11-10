@@ -1,5 +1,23 @@
 # Changelog
 
+## S306o (continued) THE AGY LANE'S RELAY ON THE REGISTER-TO-FIELD JOIN, SCRUTINISED AT THE OWNER'S WORD (B1866; P-753) (2026-11-10)
+
+- **The owner:** scrutinise the relay before anything of WP-2.2 or WP-3.2 is banked. It was read in full through the sealed mask; none of the lane's code was run; every claim main can test was computed with main's own code.
+- **Where main can test it, the relay is right.** Ten claims verified, none found wrong:
+  - every move keeps the odd spin structure and the trivial character, and permutes the three non-trivial sign characters; one background's pair of lines has an orbit of three and a stabiliser of index 3;
+  - the two coherent lifts are one choice: in E₈, −1 of SU(4) is −1 of Spin(10), on all 240 roots;
+  - on the weave's triplet the moves generate a group of order 96 with scalars of order 4 and projective image S₄; S⁴ = −1, so it is a module of the double cover that does not factor through SL(2, ℤ);
+  - among the 24 twists of the symmetric square of the level-2 doublet, the triplet is the odd twist χ₁₅ alone; the even twists give orders 24, 48, 72, 144 and never 96;
+  - the triplet is the modular representation of the conjugate of (θ₂², θ₃², θ₄²)/η³, by two monomial matrices of eighth roots.
+- **Main's own exploratory note is withdrawn.** The programme's WP-2.2 said that one of the two lifts is kept by every move. Neither is. The lane caught it, and the physical lane's own formula shows it.
+- **Two things main adds:**
+  - the triplet is a symmetric square over the braid group, of a doublet on a further double cover, and projectively of the level-2 doublet. The relay's "not the symmetric square of any 2-dimensional representation" is true of the double cover only;
+  - the lanes' one-form triplet induced over the three backgrounds (a group of order 24) is the weave's triplet after one odd character, χ₉. The two are one projective representation.
+- **Not verified, the lane's:** which mode of its operator carries which character; how the modes split on one background; its table over all 248 dimensions.
+- **WP-2.2 and WP-3.2 stay open,** each with a sharper question. For the join: is that odd character physical?
+- **P-753's prediction, scored:** its first half is wrong (the moves do not act on one background's modes), its second half holds projectively.
+- 0 of 19.
+
 ## S306o (continued) THREE SEATS HARVESTED AGAIN; THE ADVISOR SEAT'S PLANTED-VIOLATION SCRIPT RUN ON MAIN (B1865) (2026-11-10)
 
 - **The advisor seat** (pin `c6c5f12e`; rows 1635–1639):

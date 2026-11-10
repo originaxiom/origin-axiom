@@ -2721,7 +2721,7 @@
    ],
    "debts": [],
    "findings": [],
-   "first": "compute the moves' action on each datum's characters: the flavour holonomy, the spin class, the two coherent lifts, the core signs, the Wilson line. A first exploratory reading: of the two coherent lifts, one has characters every move keeps",
+   "first": "done on main (B1866): every move keeps the quaternion holonomy, the odd spin structure and the trivial character; one background's pair of lines is not kept and has an orbit of three; the lift's sign is not a separate choice. Main's exploratory reading that one lift is kept by every move is WITHDRAWN (B1866): the agy lane caught it, and the physical lane's own formula shows it. Next: that the lanes' model's data are these, once the action is verified on main, and what the sum over the three backgrounds is physically",
    "given": [],
    "id": "WP-2.2",
    "intent": "DECIDE",
@@ -3001,7 +3001,7 @@
    "wave": 1
   },
   {
-   "accept": "an arc with the exact statement, the family structure it implies, and whether a count may be called a family count",
+   "accept": "the odd character ruled physical or not by a derivation; then an arc with the exact statement, the family structure it implies, and whether a count may be called a family count",
    "also_nodes": [],
    "blocks": [
     "WP-1.7",
@@ -3012,7 +3012,7 @@
    ],
    "debts": [],
    "findings": [],
-   "first": "done, exploratory: the weave's triplet is the symmetric square of the level-2 theta doublet, exactly, over the whole group. Next: the moves on the kernel itself, for each lift",
+   "first": "done on main (B1866): the weave's triplet is the odd twist chi_15 of the symmetric square of the level-2 doublet, a module of the double cover, and the conjugate of the squared theta constants over the cube of eta; on one background only the stabiliser acts, so the first outcome is refuted there; the lanes' one-form triplet over the three backgrounds is the weave's after the odd character chi_9. Next: whether that character is physical, that is, whether the modes carry the half-weight; and which modes exist on a background (the kernel theorem)",
    "given": [],
    "id": "WP-3.2",
    "intent": "DECIDE",

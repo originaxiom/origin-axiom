@@ -1,0 +1,30 @@
+{
+ "id": "B1866",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1610",
+  "B1611",
+  "B1687",
+  "B1861",
+  "B1858"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the agy lane's relay on the register-to-field join (relays/AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN.md @ da5c7125; harvest row 1643): read in full through the sealed mask; its code not run; its statements tested by main's own computation, and its analysis of the lanes' operator left at the lane's grade",
+  "the physical lane's kernel proof (reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_HALF_ROOT_KERNEL_AND_CORE_LIFT_SENSITIVITY.md @ 521e6f24): its formula for the two lines, read through the binding-minimum mask"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (the moves' own action, and a scrutiny of another lane's relay)",
+  "object": "main's triplet at the quaternion point (B1610's matrices); the four sign characters and the four spin structures of the torus under the two moves; the E8 root lattice under D5 x D3; the vector of squared theta constants over the cube of eta",
+  "reach": "general",
+  "hypotheses": "the statements about the lanes' operator (which modes exist on a background, how they split, which line carries which character) are the lane's and are not verified; the relay's digits are masked, so main reports its own numbers; two verifications are floating-point on finite groups"
+ },
+ "claim_one_line": "THE AGY LANE'S RELAY ON THE REGISTER-TO-FIELD JOIN, SCRUTINISED AT THE OWNER'S WORD (P-753; before anything of WP-2.2 or WP-3.2 is banked): where main can test the relay it is right -- ten of its claims verified by main's own computation, none found wrong: every move keeps the odd spin structure and the trivial character and permutes the three non-trivial sign characters; one background's pair of lines has an orbit of three and a stabiliser of index 3; the two coherent lifts are one choice (in E8, -1 of SU(4) is -1 of Spin(10), on all 240 roots) and neither is kept by every move, so main's exploratory note in the programme is WITHDRAWN; on main's triplet the moves generate a group of order 96 with scalars of order 4 and projective image S4, S^4 = -1, so it is a module of the double cover that does not factor through SL(2, Z); among the 24 twists of the symmetric square of the level-2 doublet it is the odd twist chi_15 alone, and no even twist has order 96 (24, 48, 72, 144); it is the modular representation of the conjugate of (theta_2^2, theta_3^2, theta_4^2)/eta^3, by two monomial matrices of eighth roots. Main adds two things the relay does not say: the triplet IS a symmetric square over the braid group, of a doublet on a further double cover, and projectively of the level-2 doublet; and the lanes' one-form triplet induced over the three backgrounds (a group of order 24) is the weave's triplet after one odd character, chi_9 -- one projective representation. Not verified, the lane's: which mode of its operator carries which character, the splitting on one background, the table over 248 dimensions. WP-2.2 and WP-3.2 stay open, each with a sharper question; for the join it is whether that odd character is physical. 0 of 19.",
+ "weave_or_thread": "weave for the triplet's identification and the moves' action on characters and spin structures; thread for one background; the lanes' statements carry their own labels"
+}

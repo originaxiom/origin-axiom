@@ -445,7 +445,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 **WP-2.2 — The background, and whether the moves keep it** (DECIDE; STARTED; owner: main)
 
 - **The question:** Which of the model's unselected data are kept by every move, and which are a choice of thread?
-- **The first step:** compute the moves' action on each datum's characters: the flavour holonomy, the spin class, the two coherent lifts, the core signs, the Wilson line. A first exploratory reading: of the two coherent lifts, one has characters every move keeps.
+- **The first step:** done on main (B1866): every move keeps the quaternion holonomy, the odd spin structure and the trivial character; one background's pair of lines is not kept and has an orbit of three; the lift's sign is not a separate choice. Main's exploratory reading that one lift is kept by every move is WITHDRAWN (B1866): the agy lane caught it, and the physical lane's own formula shows it. Next: that the lanes' model's data are these, once the action is verified on main, and what the sum over the three backgrounds is physically.
 - **Closed when:** each datum labelled forced, selected by covariance, or declared, with the action computed and locked.
 - **Nodes (5):** E:L03, E:L05, E:L06, E:L07, E:Q3.
 - **Stated about:** thread 5.
@@ -504,8 +504,8 @@ Each group rests on itself: no member becomes unconditional before the others.
 **WP-3.2 — The register-to-field join** (DECIDE; STARTED; owner: main)
 
 - **The question:** Is the lanes' three the weave's three?
-- **The first step:** done, exploratory: the weave's triplet is the symmetric square of the level-2 theta doublet, exactly, over the whole group. Next: the moves on the kernel itself, for each lift.
-- **Closed when:** an arc with the exact statement, the family structure it implies, and whether a count may be called a family count.
+- **The first step:** done on main (B1866): the weave's triplet is the odd twist chi_15 of the symmetric square of the level-2 doublet, a module of the double cover, and the conjugate of the squared theta constants over the cube of eta; on one background only the stabiliser acts, so the first outcome is refuted there; the lanes' one-form triplet over the three backgrounds is the weave's after the odd character chi_9. Next: whether that character is physical, that is, whether the modes carry the half-weight; and which modes exist on a background (the kernel theorem).
+- **Closed when:** the odd character ruled physical or not by a derivation; then an arc with the exact statement, the family structure it implies, and whether a count may be called a family count.
 - **Needs:** WP-3.1.
 - **Nodes (3):** E:J5, MC:GEN, D:01.
 - **Stated about:** thread 2.

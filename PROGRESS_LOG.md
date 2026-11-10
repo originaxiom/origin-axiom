@@ -18904,3 +18904,20 @@ The web seat graded every candidate on the record for something that would fix t
 construction, and found none that qualifies. Another lane sent its own account of how the register's three relates to
 the fields' three, which disagrees with an exploratory reading of main's. The owner asked that it be scrutinised
 before anything rests on it. That is next. 0 of 19.
+
+## 2026-11-10 — S306o (continued): another lane's account of the three, checked before anything rests on it
+
+One lane sent main its account of a question main had posed that morning: the lanes' physical model has three modes,
+and main's construction has a threefold object of its own; are they the same three? The owner asked main to
+scrutinise that account before banking anything on it.
+
+Main read it through the mask that hides its numbers, ran none of its programs, and recomputed every claim it could
+with its own. Ten held, and none failed. The account also corrected main: a remark main had written that morning, that
+one of two ways of setting up the model's background survives every allowed move, is wrong. Both set-ups are the same
+choice, and the moves carry that choice to three different backgrounds. The remark is withdrawn.
+
+Two things came out sharper than the account had put them. Main's threefold object is the "square" of a twofold one,
+though only up to a phase that needs a larger covering group. And the lanes' three, taken over all three backgrounds
+together, is main's three up to one phase of the same kind. Whether that phase is physical is now the whole question.
+
+What the account says about the lanes' own equations main could not check, and has left as that lane's. 0 of 19.

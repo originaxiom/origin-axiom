@@ -1,0 +1,37 @@
+Part 1. the moves on the four sign characters chi_(p,q) of the torus:
+  orbits: [((0, 0),), ((0, 1), (1, 0), (1, 1))]
+  the stabiliser of chi_(1,1) in SL(2, Z/2) has order 2, index 3
+  S fixes chi_(1,1): True; L^2 fixes it: True; L alone fixes it: False; R alone fixes it: False
+  the four spin structures (q(a), q(b)), Arf = q(a) q(b): orbits [((0, 0), (0, 1), (1, 0)), ((1, 1),)]
+  the odd one (1, 1), Arf 1, is fixed by every move: True; the three even ones are one orbit: True
+  the unordered pair of lines {L_+, L_-} at alpha = +1: [(0, 0), (1, 1)]; at alpha = -1: [(0, 0), (1, 1)]; the same pair: True
+  that pair under the moves: 3 pairs, [((0, 0), (0, 1)), ((0, 0), (1, 0)), ((0, 0), (1, 1))]
+  => for either lift one line is trivial and one sits at chi_(1,1); the moves carry it to three backgrounds. Neither lift is kept by every move.
+Part 2. E8's 240 roots under D5 x D3: (1,15) 12, (10,6) 60, (16,4)+(16bar,4bar) 128, (45,1) 40
+  -1 in Spin(10) acts on them by (1,15): [1], (10,6): [1], (16,4)+(16bar,4bar): [-1], (45,1): [1]
+  -1 in SU(4) acts by the same sign on every root: True  => the two are one element of E8; flipping the sign of an SU(4) central lift is multiplying by the Spin(10) centre
+  the lift's two eigenvalues on the 4 of SU(4): exp(3 pi i/4) on the singlet over exp(-pi i/4) on the triplet = -1, for either sign of the lift
+Part 3. main's triplet T (B1610's construction): the two moves generate a group of order 96; its scalars: 4, as [0, 1, 2, 3]; modulo scalars 24, with element orders [(1, 1), (2, 9), (3, 8), (4, 6)]
+  the braid relation L R^-1 L = R^-1 L R^-1 holds on T: True
+  S_T = T_L T_R^-1 T_L: S_T^2 = +0+1i times 1; S_T^4 = -1+0i times 1; S_T^8 = +1-0i times 1
+  => S_T^4 = -1 while S^4 = 1 in SL(2, Z): T is a module of the double cover and does not factor through SL(2, Z)
+  the doublet D (L -> diag(1, i), R = H diag(1, -i) H): group of order 96; braid relation True; S_D^4 = -1, S_D^8 = +1
+  Sym2(D) twisted by chi_m, m = 0..23: group orders [48, 288, 72, 96, 144, 288, 24, 288, 144, 96, 72, 288, 48, 288, 72, 96, 144, 288, 24, 288, 144, 96, 72, 288]
+     equivalent to T at m = [15]; to conj T at m = [21]
+  Sym2(conj D) twisted by chi_m, m = 0..23: group orders [48, 288, 72, 96, 144, 288, 24, 288, 144, 96, 72, 288, 48, 288, 72, 96, 144, 288, 24, 288, 144, 96, 72, 288]
+     equivalent to T at m = [3]; to conj T at m = [9]
+  over the even twists the orders are [24, 48, 72, 144]: never 96. The untwisted symmetric square has order 48.
+  every twist equivalent to T or to conj T is odd: True
+  with t = zeta_48^15 (t^2 = chi_15 on L): T is equivalent to Sym2(t D): True (pairs: 96); (t D)(S)^8 = -1, (t D)(S)^16 = +1
+  => T is a twist, by an odd character, of the symmetric square of the level-2 doublet. It is the symmetric square of a doublet of the braid group
+     (a module of a further double cover), and of no 2-dimensional module of the double cover of SL(2, Z).
+Part 4. V = (theta_2^2, theta_3^2, theta_4^2)/eta^3, weight -1/2: V(tau + 1) = M_L V(tau), V(tau/(tau + 1)) = (tau + 1)^(-1/2) M_R V(tau)
+  M_L = [e(+1/8) 0 0; 0 0 e(-1/8); 0 e(-1/8) 0], M_R = [0 e(+1/8) 0; e(+1/8) 0 0; 0 0 e(-1/8)]   (e(x) = exp(2 pi i x); the fit holds at a fourth point to better than 1e-12: True)
+  both are monomial with entries eighth roots of unity: True
+  as a representation L -> a, R -> +-b: equivalent to T for [('conjugates', 1), ('inverse transposes', 1)]; to conj T for [('(M_L, M_R)', 1)]
+Part 5. a line induced from the stabiliser of one background (index 3) to all the moves, psi = (sign on L^2, sign on S):
+  psi = (+1, +1): a group of order 6, modulo scalars 6; equivalent to T after a twist chi_m for m = []; to conj T for m = []
+  psi = (+1, -1): a group of order 6, modulo scalars 6; equivalent to T after a twist chi_m for m = []; to conj T for m = []
+  psi = (-1, +1): a group of order 24, modulo scalars 24; equivalent to T after a twist chi_m for m = [9]; to conj T for m = [15]
+  psi = (-1, -1): a group of order 24, modulo scalars 24; equivalent to T after a twist chi_m for m = [21]; to conj T for m = [3]
+  (the moves on main's whole 6-dimensional space: a group of order 96)
