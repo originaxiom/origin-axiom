@@ -1,0 +1,219 @@
+{
+ "Q1": [
+  {
+   "name": "X_pm (the mark is one twin up to sign)",
+   "index_in_PSL": 12,
+   "cusp_widths": [
+    1,
+    1,
+    5,
+    5
+   ],
+   "elliptic_order_2": 0,
+   "elliptic_order_3": 0,
+   "genus": "0"
+  },
+  {
+   "name": "X_line (the mark is the whole line)",
+   "index_in_PSL": 6,
+   "cusp_widths": [
+    1,
+    5
+   ],
+   "elliptic_order_2": 2,
+   "elliptic_order_3": 0,
+   "genus": "0"
+  }
+ ],
+ "Q2": [
+  {
+   "tau": [
+    "-1",
+    "1"
+   ],
+   "image_of_i_under": [
+    1,
+    -1,
+    0,
+    1
+   ],
+   "elliptic_element": [
+    -1,
+    -2,
+    1,
+    1
+   ],
+   "e_squared_is_minus_one": true,
+   "e_in_G_line": true,
+   "e_in_G_pm": false,
+   "v e mod 5": [
+    2,
+    1
+   ],
+   "v e is +-2v": true
+  },
+  {
+   "tau": [
+    "0",
+    "1"
+   ],
+   "image_of_i_under": [
+    1,
+    0,
+    0,
+    1
+   ],
+   "elliptic_element": [
+    0,
+    -1,
+    1,
+    0
+   ],
+   "e_squared_is_minus_one": true,
+   "e_in_G_line": true,
+   "e_in_G_pm": false,
+   "v e mod 5": [
+    3,
+    4
+   ],
+   "v e is +-2v": true
+  }
+ ],
+ "Q3": {
+  "delta": [
+   -5,
+   -6,
+   -4,
+   -5
+  ],
+  "v delta mod 5": [
+   3,
+   4
+  ],
+  "delta squared in G_pm": true,
+  "the elliptic elements of G_line lie in delta G_pm": true,
+  "fixed points of the twin exchange on X_pm": "the points over the 2 elliptic points of X_line"
+ },
+ "Q4": {
+  "W": [
+   -3,
+   -14,
+   1,
+   3
+  ],
+  "det W": 5,
+  "W squared": [
+   -5,
+   0,
+   0,
+   -5
+  ],
+  "elements of G_line tested": 100,
+  "W normalises G_line on all of them": true,
+  "W5 sends (2 + i)/5 to": [
+   "-2/5",
+   "1/5"
+  ],
+  "W5 sends (-2 + i)/5 to": [
+   "2/5",
+   "1/5"
+  ],
+  "W5 exchanges the two elliptic points": true,
+  "W5 sends the cusp infinity to a/c and the cusp 0 to b/d": [
+   "0",
+   "infinity"
+  ],
+  "fixed points of the dual involution, by reduced form (a, b, c) of discriminant -20": {
+   "(1, 0, 5)": {
+    "matrices found": 17,
+    "kernel of M on the 5-torsion is the mark, for all": true,
+    "example M": [
+     -20,
+     -81,
+     5,
+     20
+    ]
+   },
+   "(2, 2, 3)": {
+    "matrices found": 16,
+    "kernel of M on the 5-torsion is the mark, for all": true,
+    "example M": [
+     -20,
+     -27,
+     15,
+     20
+    ]
+   }
+  },
+  "classes": 2,
+  "in the frame of the mark v": {
+   "g with (0, 1) g = v": [
+    0,
+    -1,
+    1,
+    3
+   ],
+   "W": [
+    -3,
+    -14,
+    1,
+    3
+   ],
+   "the fixed point of W is the root in the upper half-plane of (A, B, C)": [
+    1,
+    6,
+    14
+   ],
+   "its reduced form": [
+    1,
+    0,
+    5
+   ]
+  }
+ },
+ "Q5": {
+  "the mirror normalises the standard group (on the elements tested)": true,
+  "the mirror exchanges the two elliptic points": true,
+  "the mirror fixes the fixed point of W5 with real part 0": true,
+  "the mirror sends the fixed point with real part 1/2 to real part -1/2, which is T^-1 of it": true,
+  "points of X_line fixed by W and by the mirror": "the two fixed points of W; the elliptic points are exchanged by both"
+ },
+ "Q6": {
+  "by reduced form": {
+   "(1, 0, 5)": {
+    "gamma = W5^-1 M": [
+     1,
+     4,
+     20,
+     81
+    ],
+    "(0,1) gamma mod 5": [
+     0,
+     1
+    ],
+    "both points of X_pm over it are fixed by": "W5"
+   },
+   "(2, 2, 3)": {
+    "gamma = W5^-1 M": [
+     3,
+     4,
+     20,
+     27
+    ],
+    "(0,1) gamma mod 5": [
+     0,
+     2
+    ],
+    "both points of X_pm over it are fixed by": "W5 composed with the twin exchange"
+   }
+  },
+  "elements of G_pm tested": 50,
+  "W normalises G_pm on all of them": true,
+  "no point of X_pm is fixed by the twin exchange and W together": "the twin exchange fixes only the points over the elliptic points (Q3), and W exchanges those (Q4)"
+ },
+ "Q7": {
+  "t(z) t(-1/(5z)) at z = 0.137 + 0.412 i": "(125.0 - 5.155078840471926623451435e-39j)",
+  "t(i/sqrt5) / (5 sqrt5)": "(1.0 + 0.0j)",
+  "t(1/2 + i/(2 sqrt5)) / (5 sqrt5)": "(-1.0 - 1.981491652154476154658958e-41j)"
+ }
+}
