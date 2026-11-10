@@ -218,15 +218,16 @@ def special_dates(c, work):
 
 
 def special_shallow(c, work):
-    """PV22: on a depth-50 clone, lead-debt must not pass by seeing no stale arcs."""
+    """PV22: on a depth-50 clone, a history-reading gate must say that the clone is shallow."""
     d = os.path.join(work, "shallow"); shutil.rmtree(d, ignore_errors=True)
     sh(["git", "clone", "-q", "--depth", "50", "file://" + c, d], work, check=True)
     day = sh(["git", "log", "-1", "--format=%cs"], c).stdout.strip()
-    later = (datetime.date.fromisoformat(day) + datetime.timedelta(days=3)).isoformat()
-    r = run_gates(d, ["lead-debt"], {"OA_LEAD_TODAY": later})["lead-debt"]
-    full = run_gates(c, ["lead-debt"], {"OA_LEAD_TODAY": later})["lead-debt"]
-    return (r[0] == full[0] or "shallow" in r[1].lower()), "3 days on: full clone %s, shallow clone %s (%s)" % (
-        "PASS" if full[0] else "FAIL", "PASS" if r[0] else "FAIL", r[1][:90])
+    # Corrected 2026-11-10 at main's catch (B1865): the first version compared the shallow clone's verdict with the
+    # full clone's on one date, so it reported CAUGHT whenever the two happened to agree. The criterion is now the
+    # one ACCEPTANCE_CRITERIA.md states: the gate fails on a shallow clone AND says why.
+    r = run_gates(d, ["lead-debt"])["lead-debt"]
+    ok = (r[0] is False) and ("shallow" in r[1].lower())
+    return ok, "lead-debt on the shallow clone: %s (%s)" % ("PASS" if r[0] else "FAIL", r[1][:90])
 
 
 def main():

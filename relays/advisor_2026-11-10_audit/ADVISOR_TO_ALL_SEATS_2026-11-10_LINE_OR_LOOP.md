@@ -47,6 +47,35 @@ A line can be extended for ever and stays as free as its first choice. Only a lo
 A line result is still a result. What the rule forbids is counting line results as progress toward a derived value:
 on a line the distance to the beginning never shortens.
 
+## What "the loop" does not mean (added the same day, after a seat's reply that the owner relayed)
+
+Three different things get called a loop. Only the second is the rule.
+
+1. **Not a circular proof.** "Assume A to get B, then use B to justify A" proves nothing. The derivation stays a
+   one-way line: from the principle, with no chosen ingredient, to a map Φ on configurations. The loop is then an
+   **equation**, Φ(X) = X, which the configuration must satisfy. A seat put it as a stem and a loop: *the proof is a
+   one-way line; the equation inside the theory is a closed loop.* That is right, and it is what
+   `THE_CLAIM_STATED_THE_CLOSED_LOOP.md` means by (CL-1) the maps are forced, then (CL-2) and (CL-3) a fixed point
+   exists and is the only one.
+2. **The rule:** a back-edge is a relation of that second kind — an equation an upstream choice has to satisfy
+   because of something computed downstream.
+3. **Not a periodic history.** Every thread already closes on itself as a word; that is a property of one thread and
+   constrains no choice.
+
+Two limits no loop removes, both already on the record:
+
+- **A loop fixes an orbit, not a point.** If Φ respects a symmetry, then with any fixed point its image under the
+  symmetry is a fixed point too. So "exactly one outcome" can only mean one orbit, and what the theory predicts is
+  what is the same along the orbit. The mirror is the first case: the history with a departure on one letter and the
+  history with it on the other are mirror images of each other (`principle_top_down/symmetry_facts.py`), and no
+  loop that respects the swap can prefer one. This is B990's theorem in the loop's terms.
+- **One unit.** Only dimensionless numbers can come out.
+
+One thing that is not established, though it is often said as if it were: that a loop is the *only* way to a single
+outcome. It is an argument, not a theorem — a forward characterisation can also single out one object. What the
+record does hold is that the forward routes tried have theorems against them (B990, B1813), which makes the loop the
+one route known, not the one route possible.
+
 ## Where it stands today
 
 - The record has no back-edge on any value's chain. The first one to be tried is the state

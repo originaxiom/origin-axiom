@@ -32,6 +32,13 @@ Four maps, composed into one:
 > **(CL)** Each of the four maps is forced — it contains no chosen or fitted ingredient — and Φ has exactly one
 > fixed point, Φ(H\*) = H\*, up to the conventions the record already grants (one unit, one orientation).
 
+*Dated note, 2026-11-10, later the same day.* "Exactly one fixed point" is to be read as **exactly one orbit of fixed
+points under the symmetries Φ respects**: with any fixed point, its image under such a symmetry is a fixed point
+too, so no loop can prefer one member of a mirror pair. The values are what is constant along the orbit. And (CL-1)
+is a one-way derivation, not part of the loop: the loop is the equation Φ(X) = X, never an argument that assumes its
+conclusion. (Both points sharpened by a seat's reply relayed by the owner; see
+`ADVISOR_TO_ALL_SEATS_2026-11-10_LINE_OR_LOOP.md`.)
+
 Three things have to be true, separately:
 
 - **(CL-1) the maps are forced;**
