@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1564** |
-| words of findings prose | **1,333,277** |
-| test lock files referenced | **934** |
-| arcs carrying an authored verdict | **1564** (100.0 %) |
+| research arcs with findings | **1565** |
+| words of findings prose | **1,334,097** |
+| test lock files referenced | **935** |
+| arcs carrying an authored verdict | **1565** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1073 |
+| PROVED | 1074 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1862`** (1537 words, 2 locks)  
-THE AUDIT'S FIRST CORRECTIONS (the advisor seat's findings E13, E3, L5, E4, E11, E10, E6, E8, each reproduced on main first; P-757): B567's level-165 Weil spectrum has 20 distinct eigenvalues, not 21 -- the projective order 20 allows at most 20, four eigenvalues are -1 where the angle's branch cut lies and the lock counted them as two clusters, a count that depended on the machine; multiplicities 12,12,12,12,11,11,10,10,10,10,7,7,7,6,6,5,5,4,4,4; B1856's 'invisible to every state' is E = +I mod 5 only -- rho(-I) is the parity operator, so the charge premise E = +-I needs a parity superselection rule, a third condition; of B1853's 643 rung-invisible defects 338 have +I and 305 have -I, the run of 6 has +I and stays least; B1847's lock compared a list with its own sort and subtracted literals -- the rise of Im tau toward the tube is true on the data and is now checked, with a planted failing case; B952's lemma needs 'commuting' (in sl(2) two semisimple elements with zero common centralizer), its conclusion standing since charges commute; sin(pi/7) is expressible by complex radicals, not by real ones; the front page's arc lookup now reads its argument; B862's Z6 kernel, right but never computed (a hand-derived condition in a comment), is now found by exact enumeration from the map, complete and cyclic; B854's negative is scoped to the principal embedding on its sentence and its verdict line. No conclusion of any arc changes. 0 of 19.  
-`B1862_the_audits_first_corrections/FINDINGS.md`
+**PROVED — `B1863`** (820 words, 2 locks)  
+THE APPEND-ONLY GATE READS HISTORY (the advisor seat's finding G1, graded critical; reproduced on main; WP-0.7's first step): the gate compared the working file with the same file at HEAD, so a committed deletion passed and at the push hook's clean checkout it could not fail; it now checks every first-parent commit after f31729801 that touches the progress log (the parent's log a prefix, or a roll-up whose removed prefix stands verbatim in that commit's archives), fails closed where history cannot be read (no repository, a shallow clone, an unrelated history), and keeps a violation visible until the owner waives the commit by name; planted in small repositories and run on the clean tree at the violating commit: a deletion from the middle, the log replaced by one line, a restored deletion, a roll-up with and without its archive, and the gate function itself; the runner prints a gate that checked nothing as SKIP with its own words, never a bare ok, and the review tool's fresh clone counts a SKIP against the clone. Not done: history before the rule's first commit; the gates that still skip without a repository. 0 of 19.  
+`B1863_the_append_only_gate_reads_history/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  

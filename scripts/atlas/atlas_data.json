@@ -15919,6 +15919,17 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1863": {
+   "slug": "the append only gate reads history",
+   "motifs": [
+    "closing"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B186": {
    "slug": "hyperbolicity certification",
    "motifs": [
