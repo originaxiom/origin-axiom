@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.64) of 2026-11-10 |
-| arcs with a verdict | 1570: 1079 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 770: 264 open (queued, leads, waiting for the owner), 506 closed |
+| arcs with a verdict | 1572: 1081 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
+| points in the register | 770: 263 open (queued, leads, waiting for the owner), 507 closed |
 | the last review | Review 77 (2026-11-10), anchor `10641a1b2` |
-| the last landing | S306o (the second fetch of the evening) WHAT CONCENTRATES UNDER THE MOVE COUNT: THE WEB SEAT'S CARD VERIFIED ON MAIN (B1868; P-756 answered on the mo… |
+| the last landing | S306o (the owner's multi-agent run for the audit backlog) THE AUDIT'S BACKLOG REPRODUCED ON MAIN (B1870), AND THE PRINCIPLE AS A SELECTION RULE VERIF… |
 <!-- STATE:END -->
 
 ## Start here

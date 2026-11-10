@@ -16007,6 +16007,19 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1869": {
+   "slug": "the principle as a selection rule verified",
+   "motifs": [
+    "metallic",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "cancellation",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B186": {
    "slug": "hyperbolicity certification",
    "motifs": [
@@ -16038,6 +16051,49 @@
    "obstacle_conf": 6,
    "status": "dormant",
    "domain": "topology"
+  },
+  "B1870": {
+   "slug": "the audits backlog reproduced on main",
+   "motifs": [
+    "measurement",
+    "figure_eight",
+    "metallic",
+    "z3_generation"
+   ],
+   "refs": [
+    "B723",
+    "B854",
+    "B861",
+    "B862",
+    "B863",
+    "B866",
+    "B884",
+    "B892",
+    "B915",
+    "B952",
+    "B994",
+    "B997",
+    "L1",
+    "L10",
+    "L2",
+    "L3",
+    "L6",
+    "L7",
+    "L8",
+    "P1",
+    "P3",
+    "P4",
+    "P6",
+    "P7",
+    "V1",
+    "V2",
+    "V3",
+    "V5"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "dead",
+   "domain": "arithmetic"
   },
   "B187": {
    "slug": "interacting open collective",

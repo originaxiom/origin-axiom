@@ -13,16 +13,16 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1570 |
-| … PROVED | 1079 |
+| arcs with a verdict file | 1572 |
+| … PROVED | 1081 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
 | register points | 770 |
-| … QUEUED | 255 |
+| … QUEUED | 254 |
 | … LEAD | 4 |
 | … OWNER | 5 |
-| … DONE | 494 |
+| … DONE | 495 |
 | … DECLINED | 12 |
 | harvest rows (the last number) | 1657 |
 | the Standard Model's 19 derived | 0 |
@@ -31,6 +31,8 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1870 | PROVED | THE AUDIT'S BACKLOG, REPRODUCED ON MAIN (the owner's approval of one multi-agent run for it; bookkeeping only): of the 34 findings of the advisor seat's audit that nobody had reproduced on main, main's own re-runs of 16… |
+| B1869 | PROVED | THE FOUNDING PRINCIPLE READ AS A SELECTION RULE: THE ADVISOR SEAT'S SEALED RUN RE-DERIVED ON MAIN (the owner's confirmed ruling to try it; P-762; data-free, exact integers, exhaustive to 20 letters; the seat's code not… |
 | B1868 | PROVED | WHAT CONCENTRATES UNDER THE MOVE COUNT: THE WEB SEAT'S SEALED CARD VERIFIED ON MAIN (P-756 (b), the modulus's side; data-free; the seat's code read and not run; main's own code and another method, a quadrature against M… |
 | B1867 | PROVED | THE ADVISOR SEAT'S TOP-DOWN READING OF THE PRINCIPLE AND ITS LINE-OR-LOOP RULE, SCRUTINISED (the refetch the owner ordered; three notes read in full, none of the seat's code run, data-free): every fact main could test r… |
 | B1866 | PROVED | THE AGY LANE'S RELAY ON THE REGISTER-TO-FIELD JOIN, SCRUTINISED AT THE OWNER'S WORD (P-753; before anything of WP-2.2 or WP-3.2 is banked): where main can test the relay it is right -- ten of its claims verified by main… |
@@ -41,8 +43,6 @@
 | B1861 | PROVED | THE CLOSURE PROGRAMME (the owner's goal of 2026-11-10: the physical lane's work order scrutinised, sharpened and made a check): one generated page whose builder refuses to write it unless every node of the closure map t… |
 | B1860 | PROVED | REVIEW 77 (fired by the push gate at 41 landings; S306f-S306n): the loop closed, all eight of Review 76's items resolved in the window and none carried; every seat harvested to its head at uneven depth, the register say… |
 | B1859 | PROVED | THE DOOR SET IS {1, 4} (a correction of B997's uniqueness clause, keeping its computation; P-318, P-618): the group the grammar R^m L^m's own letters generate modulo m^2 + 4 is a McKay group exactly at m = 1 and m = 4 -… |
-| B1858 | PROVED | THE CLOSURE MAP (the owner's directive of 2026-11-10, P-748; the physical lane's work order, its first return): 259 nodes and 263 edges, every node pinned by a quote checked against its source (241 on main, 39 on the la… |
-| B1857 | PROVED | THE READ-OUT BY A STATE (the explore seat's test, checked on main; P-726, P-717): in the flat-fibre (Sol) bundle over the history the separated wells follow the cosh law exactly (4.7e-38 on seven classes; cosh 2(s - s_c… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -57,6 +57,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306o (the owner's multi-agent run for the audit backlog) THE AUDIT'S BACKLOG REPRODUCED ON MAIN (B1870), AND THE PRINCIPLE AS A SELECTION RULE VERIFIED (B1869; P-762) (2026-11-10)
 - S306o (the second fetch of the evening) WHAT CONCENTRATES UNDER THE MOVE COUNT: THE WEB SEAT'S CARD VERIFIED ON MAIN (B1868; P-756 answered on the modulus's side; P-755 put to the owner) (2026-11-10)
 - S306o (the refetch, continued) THE OWNER DID NOT CONFIRM THE TWO LATER RELAYED RULINGS (P-758 closed, P-765 declined) (2026-11-10)
 - S306o (the refetch) TWO SEATS HARVESTED AND CHECKED: THE PHYSICAL LANE'S REVIEW OF THE JOIN RELAY (B1866 § 6), AND THE ADVISOR SEAT'S TOP-DOWN READING AND LINE-OR-LOOP RULE (B1867) (2026-11-10)
@@ -64,11 +65,10 @@
 - S306o (continued) THREE SEATS HARVESTED AGAIN; THE ADVISOR SEAT'S PLANTED-VIOLATION SCRIPT RUN ON MAIN (B1865) (2026-11-10)
 - S306o (continued) A SEALED FILE DOES NOT CHANGE AFTER ITS SEAL (B1864; the audit's second critical finding, G2, with G3) (2026-11-10)
 - S306o (continued) THE APPEND-ONLY GATE READS HISTORY (B1863; the audit's first critical finding, G1) (2026-11-10)
-- S306o (continued) THE CLOSURE PROGRAMME (B1861); THE ADVISOR SEAT'S AUDIT HARVESTED AND ITS FIRST EIGHT CORRECTIONS (B1862); GENESIS v1.64 (2026-11-10)
 
 ## The latest campaign line
 
-LATEST (2026-11-10, S306o (the second fetch of the evening): B1868 — WHAT CONCENTRATES UNDER THE MOVE COUNT: THE WEB SEAT'S SEALED CARD VERIFIED ON MAIN by main's own code and another method (a quadrature against Minkowski's measure, no random numbers): the exponent per move 0.792425, the correlation dimension 0.844609, the density against area sharpening at i as the radius to the −0.1555 (the card −0.1542; the prediction −0.1554) and at i√2 as −0.0766, flat at i√3 and 1.34 i, the time near i tending to zero, no point with positive weight, the level-5 walk exactly. Read as the move count the law gives a typical history and singles out no value: P-756 answered on the modulus's side, and MAIN…
+LATEST (2026-11-10, S306o (the owner's multi-agent run for the audit backlog): B1870 — THE AUDIT'S BACKLOG REPRODUCED ON MAIN: eight read-only checkers on the cheaper tier wrote the commands, main re-ran all 167 itself; of the 34 findings nobody had reproduced, 24 confirmed as stated, 9 in part, 1 not checked (it needs a computation behind a sealed card); 7 more are main's own by B1865; the 73 now stand at 9 fixed, 13 partly fixed, 45 reproduced by main, 5 by a reader only, 1 open; nothing fixed by the arc. B1869 — THE FOUNDING PRINCIPLE READ AS A SELECTION RULE, VERIFIED ON MAIN (P-762 closed): the advisor seat's sealed run holds entry for entry on main's own enumeration to 20 letters; the…
 
 ## Completeness (nothing skipped silently)
 

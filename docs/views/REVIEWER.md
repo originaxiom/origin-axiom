@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1570** |
-| words of findings prose | **1,344,591** |
+| research arcs with findings | **1572** |
+| words of findings prose | **1,348,690** |
 | test lock files referenced | **936** |
-| arcs carrying an authored verdict | **1570** (100.0 %) |
+| arcs carrying an authored verdict | **1572** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1079 |
+| PROVED | 1081 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1868`** (2021 words, 0 locks)  
-WHAT CONCENTRATES UNDER THE MOVE COUNT: THE WEB SEAT'S SEALED CARD VERIFIED ON MAIN (P-756 (b), the modulus's side; data-free; the seat's code read and not run; main's own code and another method, a quadrature against Minkowski's measure with no random numbers): the card holds at every point main's method reaches. The exponent per move is 0.792425 and the correlation dimension of Minkowski's measure 0.844609, from the Stern-Brocot intervals to depth 22; the weight of histories passing within a distance of i scales with exponent 0.8445, so the density against area goes as the radius to the -0.1555 (the seat: -0.1542 +- 0.0005 statistical, -0.1557 by its second code; D2 - 1 = -0.1554); at i sqrt 2 as -0.0766 (the seat: -0.0759); flat at i sqrt 3 and at 1.34 i; the time within a radius of i is of order the radius to the 1.845 and tends to zero; no point has positive weight (a theorem); the walk at level 5 is at 0.293, 0.0649, 0.00357, 1.16e-5 from uniform after 10, 20, 40, 80 moves, its second modulus sqrt 3 / 2 eight times. So read as the move count the law gives a typical history and singles out no value of the modulus: it closes nothing, as the seat says. Not verified by main: the five points off the imaginary axis, and that the law has a density (cited by the seat with a gap). The seat's exact facts at level 5 for the claim about all histories together reproduce. The advisor seat's result of its ambiguity attack is read at the seat's grade and three of its integer facts checked (the conserved quantity under a move; the commutator with the ground is not a property of the cyclic history; it is divisible by 25 when the history commutes with the ground at level 5); its two further relayed sentences of the owner are not acted on. Main's recommendation on the law's reading is put to the owner (P-755). 0 of 19.  
-`B1868_what_concentrates_under_the_move_count_verified/FINDINGS.md`
+**PROVED — `B1870`** (2867 words, 0 locks)  
+THE AUDIT'S BACKLOG, REPRODUCED ON MAIN (the owner's approval of one multi-agent run for it; bookkeeping only): of the 34 findings of the advisor seat's audit that nobody had reproduced on main, main's own re-runs of 167 read-only commands confirm 24 as stated and 9 in part; one stays open because deciding it needs a computation on the nulls of a comparison with data; 7 more that only a reader had reproduced are main's own by its run of the seat's planted violations (B1865). The 73 now stand at 9 fixed, 13 partly fixed, 45 reproduced by main, 5 by a reader only, 1 open (before: 9, 11, 7, 12, 34). The commands were written by eight read-only checkers, one per class of finding, on the cheaper model tier, forbidden to edit, commit, copy the repository, open the targets file or compute any value; a state changed only on main's own re-run. The audit's own details are stale or wrong in a number of places, one of substance: a certificate script it says fails does not fail. Nothing is fixed here: each finding keeps its package, with the smallest fix and its acceptance test recorded. 0 of 19.  
+`B1870_the_audits_backlog_reproduced_on_main/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  
