@@ -100,7 +100,7 @@ P("WP-1.4", "C1", "The swap and the hand",
   ["P-764", "P-766", "P-769"], ["G:GM5c", "G:FK3", "G:SE2", "G:FK2", "S:S02", "FL:03", "G:GM5d"])
 P("WP-1.5", "C1", "The root, selection, and thread results",
   "Under the weave's rule no thread is chosen: which results survive as statements about the weave, and is the root anything more than an origin of coordinates?", "DECIDE",
-  "the structural theorem off the root: run its frame on the weave's own surface or on every thread (it has only ever been run on m004)",
+  "the structural theorem off the root: run its frame on the weave's own surface or on every thread (it has only ever been run on m004). Done on main (B1869): the founding principle read as a selection rule picks the run of six only when the level is put in, ties under the other sense of detection, and gives no single run on the silver and bronze backgrounds; the allowed set is verified to 20 letters, and the criterion stays an input",
   "FK9 ruled; every headline result labelled; the structural theorem restated at the level it is proved at", "main", ["WP-1.6"], "NOT STARTED",
   ["P-755", "P-764"], ["G:SE1", "G:FK9", "G:GAP4", "G:XGEN-PHYS", "G:FK13", "MC:REACH", "FL:08", "FL:18", "FL:27", "D:12"])
 P("WP-1.6", "C1", "The law and the weight",
@@ -443,6 +443,55 @@ F("W", "WP-1.6", [
      "the map's node for the clock is graded CHOSEN; a thread picked by hand and a flat average are the two ways of supplying the weight without deriving it"),
 ])
 
+# B1870 (2026-11-10): THE AUDIT'S BACKLOG, REPRODUCED ON MAIN.  Eight read-only checkers, one per class of finding, reported for each
+# of the 34 findings nobody had reproduced the exact commands that decide it; main re-ran every command itself before a state
+# changed here.  The entries above are kept as they were written; U() records the new state and keeps the old one beside it.
+def U(fid, state, note):
+    assert fid in FINDINGS and state in FINDING_STATES and note
+    FINDINGS[fid]["was"] = [FINDINGS[fid]["state"], FINDINGS[fid]["note"]]
+    FINDINGS[fid]["state"], FINDINGS[fid]["note"] = state, note
+
+
+_R = "main re-ran the deciding commands itself (B1870): "
+U("G11", "REPRODUCED", _R + "the currency check prints 'ok (18 living documents current)' while 9 documents are declared debts and 8 of those are counted as current; CLAIMS.md lags 580 arcs under a tolerance of 40. The audit's 569 and 8 are 580 and 9 today")
+U("G12", "REPRODUCED", _R + "README.md:71 says the gates run on every push; the hook is local and untracked, and the one CI workflow runs core tests and no gate")
+U("R2", "REPRODUCED", _R + "the pinned versions are a prose table in REPRODUCIBILITY.md; requirements.txt and pyproject.toml carry lower bounds only; no lock file is tracked, and CI installs unpinned")
+U("E12", "PARTLY FIXED", _R + "of its five slips, B1853's margins are corrected (B1855's dated note, Review 77). Left: B1857 is marked post hoc and still says 'exactly the two cheaper'; B1852's count of four reversing involutions carries its window and no note that the count is the window's; B884's control is printed and unused; B915's pre-registration still says no other measured number enters, against its own addendum")
+U("L1", "REPRODUCED", _R + "no lock declares whether it recomputes, re-runs or reads a transcript, and no gate asks. A rough static count finds about 330 of 1518 lock files with no computing import; the audit's census tools are not on main and its 386 was not re-derived")
+U("L2", "REPRODUCED", _R + "the rule that locks assert mathematics has no row in PRACTICES.md and no gate; the vacuity gate fails only the no-assert and tautology classes and reports the both-literal class without failing it")
+U("L3", "REPRODUCED", _R + "in part. The chain-locks gate checks only that each link cites a test file that exists. Of the audit's two examples, C45's lock hard-codes its inputs and C7's last assertion is literal-only; but C7's lock also recomputes its three discriminants, and C45 is a no-go link, not a theorem")
+U("L8", "REPRODUCED", _R + "B892's tower scripts were never tracked (its wall scan is); B952 has a results file that its lock reads back and no script; B866's lock compares two literal cubics and its interpolation script is not tracked")
+U("M2", "REPRODUCED", _R + "in part. The two pages do not list the four further inputs and still call the collapse of 144 to 1 the content of the forcing; but both carry the banner that GENESIS is canonical, and the uniqueness page says it forces the matrix, conditionally. 'The object forced up to orientation' stands on THE_CLAIM.md:15")
+U("M4", "REPRODUCED", _R + "THEOREM_LEDGER.md says no physics statement appears below, and its link C51, labelled a theorem, says a cover 'carries the Standard-Model gauge algebra and three complete generations'; unchanged since the audit")
+U("M5", "REPRODUCED", _R + "'the flavour three is derived' stands in GENESIS.md (line 456 today) and THE_WEAVE.md:113 with no pointer to the identification it rests on (I-31, unearned)")
+U("M6", "REPRODUCED", _R + "in part. The paper's main.tex already says the derivation is standard and only the selection is not; its SPEC.md:115 still lists the global form 'derived rather than assumed' under what is not standard")
+U("M7", "REPRODUCED", _R + "B1855's title says the run of 6 is 'proved least' though main re-ran neither of the seat's two lemmas (P-741, queued), and its claim line says 'every lcm(S) >= 12' without the range of S that its scope field carries")
+U("M8", "REPRODUCED", _R + "B1850 says every quote was found verbatim, 313 of 313; its checker tests only that a quote is a substring of the file named. The audit's 76 of 86 was not re-derived")
+U("M9", "REPRODUCED", _R + "papers/P3_THE_PAPER/EXTERNAL_REVIEW_2026-09-09.md is titled an external review, and 'outside referee' stands in two paper READMEs, against PROVENANCE § 0; the pretense gate scans docs and top-level pages only and lists neither phrase")
+U("M10", "REPRODUCED", _R + "in part. Two entries say a failure kills the reading and not the weave, and the eight first rows do not say what a failure would contradict; but 'most entries cannot fire' overstates: by the register's own grades it is 3 or 4 of 11")
+U("M11", "REPRODUCED", _R + "the reviewer page's sentence 'Every PROVED arc names its test locks' is a fixed string in the generator; on main 421 of 1079 PROVED arcs name no test file in their findings")
+U("P1", "REPRODUCED", _R + "THE_PROGRAMME_SO_FAR.md gives the six at their best figure and the final attack's two steps in the future tense, and names none of B1823, B1825, B1838; the plan carries one dated note, for B1823. The audit's claim about README is stale: README gives no outcome")
+U("P3", "REPRODUCED", _R + "B892 carries the correction (its 14-dimensional algebra is not the Standard Model's); B861, B862, B863 and B1028 carry no pointer to it, and B994's table still says its chains end at the Standard Model")
+U("P4", "REPRODUCED", _R + "CLAIMS.md:147 still states the comparison without the adjudication that voided it as a held-out confirmation; B723 is still PROVED with no supersession; a withdrawn figure of sigmas stands on at least eight current pages")
+U("P6", "REPRODUCED", _R + "INDEX.md lists CLAIMS.md as living while CLAIMS.md says it was last updated on 2026-07-04; CAMPAIGN_STATUS.md has 606 paragraphs that begin LATEST; one living entry is a path that does not exist")
+U("P7", "REPRODUCED", _R + "the forcedness check prints 53 of 57 while '39 of 43' stands as current on at least seven pages; the law map's banner says 113 rows against 329; two arc ids are each shared by more than one folder (1570 verdict files, 1567 ids)")
+U("V1", "OPEN", "not checked, and why (B1870): the audit's figure has no tracked source, and deciding it needs a computation on the nulls that belongs behind a sealed card. Main's checker found that the later nulls take the best over 223 apexes and 266 lines and not over a plain grid, so the audit does not say which null it measured")
+U("V2", "REPRODUCED", _R + "in part. The allowance of ten per cent is in the compare scripts, is defined in TERMINOLOGY.md:763 and is priced in the framing ledger; the headline figures in THE_FINAL_ATTACK and THE_PROGRAMME_SO_FAR are quoted without it. The audit's two large figures have no tracked source and were not recomputed")
+U("V3", "REPRODUCED", _R + "audit/ is ignored and holds no tracked file; the register cites it on 83 lines and 68 findings files cite it; one calibration figure quoted on tracked pages rests on scripts that exist only there, and no tracked line says so")
+U("V5", "REPRODUCED", _R + "in part. The look ledger has no row for B1658, B1659 or B1724. Only B1658 clearly reads seen data, by its own findings; B1659 says it uses none; B1724 re-reads earlier calibrations. Two error bars for one quantity stand on record")
+U("W2", "REPRODUCED", _R + "250 of 1570 verdict files carry weave_or_thread and 287 a scope; no gate requires either")
+U("W3", "REPRODUCED", _R + "TERMINOLOGY.md:11 defines 'the object' as the figure-eight complement, while GENESIS's fork on the family as object is ruled to the word states; the two do not agree on the default noun")
+U("W4", "REPRODUCED", _R + "no verdict file has a field for a truncation, a range or a domain (27 distinct keys, none of them); the truncation ledger exists only as a planned item")
+U("W5", "PARTLY FIXED", _R + "of its six instances, four now carry dated scope notes (B854, B997, B1855, B1853; by B1859, B1862 and Review 77). Left: B1291's verdict file has no scope and no pointer to the arc that re-scoped it; the sixth, on the nulls, was not checked")
+U("X1", "REPRODUCED", _R + "GOVERNANCE.md:23 says the goal is not a theory of everything, and neither it nor CLAIMS.md has changed since the audit. The owner has confirmed the goal to main (P-758); amending the places is the first step of P-767. One of the audit's twelve places (THE_CLAIM.md, lines 58 to 71) is the anchor doctrine and is doubtful as a cap")
+U("X2", "REPRODUCED", _R + "three files each say they win a disagreement: GOVERNANCE.md:6-9, GENESIS.md:29, CLAIMS.md:3")
+U("X3", "REPRODUCED", _R + "in part. The certificate script does not fail on main: it exits 0, its four tests pass, and it is unchanged since the audited commit. What holds is that the '4' in '4 + 9 = 13' is a typed constant")
+U("X4", "REPRODUCED", _R + "1283 of 1570 verdict files carry no scope, and none a domain")
+# seven that only a reader had reproduced: main's own run of the seat's planted violations (B1865, in a scratch clone of main at 30dd1fea7)
+_P = "main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. "
+for _fid in ("G6", "G7", "G8", "G9", "G10", "G14", "L7"):
+    U(_fid, "REPRODUCED", _P + "Earlier, by main's reader: " + FINDINGS[_fid]["note"])
+
 # the owner's rulings of 2026-11-10 AS RELAYED by the advisor seat. The relay's own rule, and main's: each is confirmed with the
 # owner once before main acts on it. Main asked on 2026-11-10 about the eleven then relayed; the owner answered main the same day,
 # in the words kept in CONFIRMATION below. The two relayed after main had asked were not covered by that answer; asked about them,
@@ -627,7 +676,7 @@ EXITS = {
     "reversible updates": ("FORCING ARGUED", "the ledger: an act that merges two sides ends the distinction. One line; no alternative is exhibited."),
     "inverse moves are legal": ("FORCING ARGUED", "adopted by the owner on B1662's argument; the ledger agrees: there must be something to cancel with."),
     "positivity: the side of the mirror": ("FORCING ARGUED", "the ledger: forced up to the sign. Main (B1867): the normal form is a theorem, checked on every hyperbolic matrix with entries up to five; the sign is a separate bit, and the selection criterion decides it if that criterion stands."),
-    "the selection criterion": ("FORCING ARGUED", "the ledger: a fixed character is a place where nothing happened. Main (B1867): as an exclusion this removes every departure too (the run of six fixes twenty); as a minimum it is the reading GENESIS already grades an interpretation. LR is the one word with a single fixed character, so this row carries the whole selection of the object."),
+    "the selection criterion": ("FORCING ARGUED", "the ledger: a fixed character is a place where nothing happened. Main (B1867): as an exclusion this removes every departure too (the run of six fixes twenty); as a minimum it is the reading GENESIS already grades an interpretation. LR is the one word with a single fixed character, so this row carries the whole selection of the object. For the departure, the principle read as 'the least that no counted level detects' picks the run of six only when the level is put in (B1869)."),
     "the orientation": ("PRESSED", "the ledger: the principle does not force it and may speak against it. The non-orientable sibling is the alternative."),
     "which family is the object": ("UNTOUCHED", ""),
     "the dictionary's link Λ": ("DICTIONARY", ""),

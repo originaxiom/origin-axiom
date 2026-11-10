@@ -69,10 +69,10 @@ written: PROGRAMME.md, PROGRAMME.json
  "inputs_with_an_exit_on_the_table": 12,
  "audit_findings": 73,
  "audit_findings_by_state": {
-  "OPEN": 34,
-  "READER": 12,
-  "REPRODUCED": 7,
-  "PARTLY FIXED": 11,
+  "OPEN": 1,
+  "READER": 5,
+  "REPRODUCED": 45,
+  "PARTLY FIXED": 13,
   "FIXED": 9
  },
  "relayed_rulings": 13,

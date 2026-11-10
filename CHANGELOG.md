@@ -1,5 +1,23 @@
 # Changelog
 
+## S306o (the owner's multi-agent run for the audit backlog) THE AUDIT'S BACKLOG REPRODUCED ON MAIN (B1870), AND THE PRINCIPLE AS A SELECTION RULE VERIFIED (B1869; P-762) (2026-11-10)
+
+- **The owner:** "yes — on your multi agent advice". One multi-agent run, for the audit backlog only; the mathematics and the governing documents stay on the main line.
+- **B1870 — the backlog.** Of the advisor seat's 73 findings, 34 had been reproduced on main by nobody.
+  - **Eight read-only checkers,** one per class of finding, on the cheaper model tier, each returning the exact commands that decide a finding. They were forbidden to edit, commit, copy the repository, open the targets file or compute any value.
+  - **Main re-ran all 167 of their commands itself,** after screening each for anything that writes. A state changed only on main's own re-run.
+  - **Result:** 24 confirmed as the audit states them, 9 in part, 1 not checked because deciding it needs a computation behind a sealed card. Seven more that only a reader had reproduced are main's own by B1865's planted violations.
+  - **The 73 now stand at:** 9 fixed, 13 partly fixed, 45 reproduced by main, 5 by a reader only, 1 open. Before: 9, 11, 7, 12, 34.
+  - **Nothing is fixed by this arc.** Each finding keeps its package, with the smallest fix and its acceptance test in the arc's reports.
+  - **The audit's own details** are stale or wrong in a number of places, one of substance: a certificate script it says fails does not fail.
+- **B1869 — the founding principle read as a selection rule** (the owner's confirmed ruling to try it; the advisor seat's sealed run, re-derived by main's own enumeration to 20 letters on three backgrounds, its code not run). The seat's result holds entry for entry:
+  - the rule picks the run of 6 alone only when "detect" means the whole level and only the golden background's own level, 5, counts;
+  - at any single level N it picks the single run of N + 1, so the run of 6 comes out because 5 goes in;
+  - under the other sense of "detect" it ties with (2,2,2); by extra letters fifteen tie; with more levels the least is a mirror pair of 17 or 18 letters; on silver and bronze there is no single run.
+  - What survives without "least" is the allowed set: to 12 letters at level 5, 8 of sign plus, 9 of sign minus, 77 that fix the line only. The selection criterion stays an input.
+- **The register:** P-762 closed; P-757 carries the new tally. The programme records every finding's new state with the old one kept beside it.
+- A stale background wait-loop from the afternoon was stopped. One more of the owner's prompts was found in the session's queue and acted on. 0 of 19.
+
 ## S306o (the second fetch of the evening) WHAT CONCENTRATES UNDER THE MOVE COUNT: THE WEB SEAT'S CARD VERIFIED ON MAIN (B1868; P-756 answered on the modulus's side; P-755 put to the owner) (2026-11-10)
 
 - **The computation that was to come before the owner's ruling on the law's reading is in.** The web seat ran it as a sealed card. Main verified it with its own code and another method: a quadrature against Minkowski's measure, with no random numbers.

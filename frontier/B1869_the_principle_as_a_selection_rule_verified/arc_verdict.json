@@ -1,0 +1,29 @@
+{
+ "id": "B1869",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1853",
+  "B1855",
+  "B1856",
+  "B1862",
+  "B1867"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the advisor seat's sealed enumeration of the founding principle read as a selection rule (relays/advisor_2026-11-10_audit/non_cancellation/PREREGISTRATION.md and RESULT.md @ 5ae34492; harvest row 1638): its pre-registration and result read in full; none of its code run; every one of its seven hypotheses and its counts of what is allowed re-derived by main's own enumeration"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (the grammar's words; departures on one background at a time)",
+  "object": "every departure with at most 20 letters on the golden, silver and bronze backgrounds (262144, 589824 and 802816 of them), tested at the background's own level, at single levels 2, 3, 4, 7, 11 and at the level sets {4, 5} and {2, 3, 4, 5}",
+  "reach": "class",
+  "hypotheses": "the reading under test (what remains is the least departure no counted level detects) is the seat's reading of the principle and is not derived; 'least' and 'alone' are exact for 20 letters or fewer and say nothing beyond; three backgrounds are a named set, not the weave"
+ },
+ "claim_one_line": "THE FOUNDING PRINCIPLE READ AS A SELECTION RULE: THE ADVISOR SEAT'S SEALED RUN RE-DERIVED ON MAIN (the owner's confirmed ruling to try it; P-762; data-free, exact integers, exhaustive to 20 letters; the seat's code not run): the seat's result holds entry for entry. Read as 'the least departure no counted level detects', the principle picks the run of 6 alone only when detection means the whole level and only the golden background's own level counts: (6) at 6 letters, the next at 11, the shortest of sign minus at 10 ((2,2,1,5), (3,4,3), (5,1,2,2)). At any single level N -- 2, 3, 4, 5, 7, 11 -- the same rule picks the single run of N + 1, so the run of 6 comes out because 5 goes in. Under the line reading (6) ties with (2,2,2); counted by extra letters 15 departures tie; with levels 4 and 5 the least is a mirror pair of 17 letters and with levels 2 to 5 a mirror pair of 18 ((2,2,2,2,1,1,4,4) and its reverse); on silver at its own level 8 the single run ties with (1,2,1,2,1,2,1) at 10 letters, and on bronze at 13 four departures of 13 letters beat it. To 12 letters at level 5 the allowed set is 8 departures of sign plus, 9 of sign minus and 77 more that fix the line only. Main adds the line reading on silver and bronze, and that wherever several levels count the least come as a departure and its reverse. The selection criterion stays an input: the rule passes the choice to which sense of detection and which levels count. 0 of 19.",
+ "weave_or_thread": "thread (departures on one background at a time; three backgrounds are a named set). What bears on the claim about all histories together is the allowed set, not the pick"
+}

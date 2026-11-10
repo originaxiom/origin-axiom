@@ -1,0 +1,29 @@
+{
+ "id": "B1870",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1861",
+  "B1862",
+  "B1863",
+  "B1864",
+  "B1865"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the advisor seat's audit and its acceptance rows (relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-10_AUDIT_FINDINGS.md and ACCEPTANCE_CRITERIA.md @ 5ae34492; harvest rows 1629 to 1633): the findings reproduced here are the seat's; each was decided on main by commands that main re-ran itself"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (a process arc: the record's bookkeeping, tests and gates measured against another seat's audit)",
+  "object": "the 34 findings of the advisor seat's audit that nobody had reproduced on main, and the 7 that only a reader had; main at ab97082c0",
+  "reach": "general",
+  "hypotheses": "the commands were written by eight read-only checkers of one model family and re-run by main; nine findings are confirmed in part; one is not checked because deciding it needs a computation behind a sealed card; a judgment inside a finding is not confirmed by confirming its text"
+ },
+ "claim_one_line": "THE AUDIT'S BACKLOG, REPRODUCED ON MAIN (the owner's approval of one multi-agent run for it; bookkeeping only): of the 34 findings of the advisor seat's audit that nobody had reproduced on main, main's own re-runs of 167 read-only commands confirm 24 as stated and 9 in part; one stays open because deciding it needs a computation on the nulls of a comparison with data; 7 more that only a reader had reproduced are main's own by its run of the seat's planted violations (B1865). The 73 now stand at 9 fixed, 13 partly fixed, 45 reproduced by main, 5 by a reader only, 1 open (before: 9, 11, 7, 12, 34). The commands were written by eight read-only checkers, one per class of finding, on the cheaper model tier, forbidden to edit, commit, copy the repository, open the targets file or compute any value; a state changed only on main's own re-run. The audit's own details are stale or wrong in a number of places, one of substance: a certificate script it says fails does not fail. Nothing is fixed here: each finding keeps its package, with the smallest fix and its acceptance test recorded. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}

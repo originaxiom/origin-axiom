@@ -1,0 +1,39 @@
+the period is minus a unipotent mod N exactly when N divides b^2 + 4: golden [5], silver [2, 4, 8], bronze [13]
+controls: (6) is +1 at level 5; (3,4,3) is -1; (2,1,1,1,2) commutes with the period and is neither; (2) does not commute -- all four as known
+
+GOLDEN: 262144 departures with at most 20 letters
+  the own level, 5 -- least by letters:
+    whole level, sign +              6: 1 departure (6,); next 11
+    whole level, any sign by level   6: 1 departure (6,); next 10
+    the line                         6: 2 departures (2,2,2) (6,); next 7
+    sign - only                      10: 3 departures (2,2,1,5) (3,4,3) (5,1,2,2); next 11
+  the own level, 5 -- least by extra letters:
+    whole level, sign +              least 5, shared by 15 departures (within 20 letters)
+    whole level, any sign by level   least 5, shared by 16 departures (within 20 letters)
+    the line                         least 2, shared by 3 departures (within 20 letters)
+    the line's least by extra letters: (2,1,1,1,1,1,1,1,1,1,1,1,1,1,2) (2,1,1,1,1,1,1,1,1,2) (2,1,1,1,2)
+  one level alone, sign + -- least by letters:  level 2: 3: 1 departure (3,); next 5;  level 3: 4: 1 departure (4,); next 7;  level 4: 5: 1 departure (5,); next 8;  level 7: 8: 1 departure (8,); next 11;  level 11: 12: 1 departure (12,); next 14
+  levels 4 and 5 -- least by letters:
+    whole level, sign +              17: 2 departures (2,1,3,2,1,3,5) (5,3,1,2,3,1,2); next 18
+    whole level, any sign by level   13: 2 departures (2,1,2,4,4) (4,4,2,1,2); next 15
+    whole level, one sign for all    15: 4 departures (2,1,1,1,1,4,1,2,2) (2,1,4,1,3,2,2) (2,2,1,4,1,1,1,1,2) (2,2,3,1,4,1,2); next 17
+    the line                         9: 2 departures (2,1,3,1,2) (3,3,3); next 10
+  levels 2, 3, 4, 5 -- least by letters:
+    whole level, sign +              18: 2 departures (2,2,2,2,1,1,4,4) (4,4,1,1,2,2,2,2); next None
+    whole level, any sign by level   16: 1 departure (2,1,3,1,1,1,1,3,1,2); next 18
+    whole level, one sign for all    18: 2 departures (2,2,2,2,1,1,4,4) (4,4,1,1,2,2,2,2); next 20
+    the line                         14: 6 departures (2,1,1,1,2,2,1,1,1,2) (2,1,2,1,1,1,1,2,1,2) (2,2,2,1,1,2,2,2) (3,1,1,2,2,1,1,3) ...; next 15
+  to 12 letters at level 5: 8 with E = +1, 9 with E = -1, 77 more that fix the line only
+  the single run of N + 1 is +1 at level N for N = 2, 3, 4, 5, 7, 11: True; under the ladder it needs 61 letters
+
+SILVER (b = 2): 589824 departures with at most 20 letters; its own level 8 -- least by letters:
+    whole level, sign +              10: 2 departures (1,2,1,2,1,2,1) (10,); next 12
+    whole level, any sign by level   10: 4 departures (1,2,1,2,1,2,1) (1,2,1,6) (6,1,2,1) (10,); next 12
+    the line                         4: 1 departure (1,2,1); next 6
+    the single run (10,) has 10 letters and is +1 at level 8: True
+
+BRONZE (b = 3): 802816 departures with at most 20 letters; its own level 13 -- least by letters:
+    whole level, sign +              13: 4 departures (1,5,1,1,1,1,1,2) (2,1,1,1,1,1,5,1) (2,1,1,3,6) (6,3,1,1,2); next 14
+    whole level, any sign by level   13: 5 departures (1,2,7,2,1) (1,5,1,1,1,1,1,2) (2,1,1,1,1,1,5,1) (2,1,1,3,6) (6,3,1,1,2); next 14
+    the line                         6: 2 departures (1,1,2,1,1) (1,4,1); next 7
+    the single run (16,) has 16 letters and is +1 at level 13: True

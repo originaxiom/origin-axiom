@@ -383,7 +383,7 @@ non-empty.**
 ## E. The walls (proved impossibilities — kept dead)
 
 | **THE TWO SEEDS HAVE COMPLEMENTARY DEFECTS (B953)** | θ splits E₆: 78 = **52 (F₄, θ-even)** + 26 (θ-odd). **rank F₄ = 4 = rank(SM)** and F₄ ⊃ SU(3)×SU(3) ⊃ SM at rank 4, but every F₄ rep is **real** ⟹ θ-even has the **right rank, no chirality**; θ-odd is full E₆ ⟹ **right matter, rank 6** (B952's obstruction). The geometric point sits on the **achiral** F₄ stratum (B576). **Switching seeds is not a fix** — what is needed is a rank-reducing mechanism that is **not** θ and preserves the 27's complexity. E₄ = SU(5) is the rank-4 waypoint the cascade skips, and **skipping SU(5) is skipping the rank reduction** (the shed directions are U(1)_ψ, U(1)_χ — **INFERRED from the rank bookkeeping, NOT computed; B953 states this explicitly**) | `frontier/B953_two_seeds_rank` · `tests/test_b953_two_seeds.py` · B953 B952 B576 B892 |
-| **THE RANK OBSTRUCTION (B952 — measurement cannot reach the SM)** | rank(E₆) = 6; rank(su(3)⊕su(2)⊕u(1)³) = **6**; rank(SM) = **4**. The centralizer of semisimple elements contains a maximal torus ⟹ **every measurement in the cascade is rank-preserving**, so no number of them reaches rank 4. The two extra U(1)s are the **unbroken rank, unbroken by construction**. Reaching the SM needs rank REDUCTION — a Higgs VEV, a Wilson line/Hosotani flux, or an orbifold projection — which the object does not supply (L133). Does NOT refute FMT/SMT; does NOT say the object cannot reach the SM, only that **measurement alone cannot** | `frontier/B952_gut_ledger_rank` · `tests/test_b952_rank.py` · B952 B950 B892 |
+| **THE RANK OBSTRUCTION (B952 — measurement cannot reach the SM)** | rank(E₆) = 6; rank(su(3)⊕su(2)⊕u(1)³) = **6**; rank(SM) = **4**. The centralizer of semisimple elements contains a maximal torus **[B1862, 2026-11-10: of COMMUTING semisimple elements — without that word the lemma is false (in sl(2), diag(1, −1) and the swap have common centralizer zero); the cascade's elements are charges in one torus, so the conclusion is unchanged]** ⟹ **every measurement in the cascade is rank-preserving**, so no number of them reaches rank 4. The two extra U(1)s are the **unbroken rank, unbroken by construction**. Reaching the SM needs rank REDUCTION — a Higgs VEV, a Wilson line/Hosotani flux, or an orbifold projection — which the object does not supply (L133). Does NOT refute FMT/SMT; does NOT say the object cannot reach the SM, only that **measurement alone cannot** | `frontier/B952_gut_ledger_rank` · `tests/test_b952_rank.py` · B952 B950 B892 |
 
 
 11. THE STRUCTURAL-BRIDGE NO-MATCH (B706, the Listening Protocol's deepest door, RUN): the SM flavor freedom does NOT match the object at rung 1 (the precise flavor ratios — lepton masses, Koide Q, sin²θ_W — are GENERIC over the audible field ℚ(√5), no low-height algebraicity to precision; the Cabibbo≈9/40 'hit' is a rung-4 rational in the WRONG field (ℚ not ℚ(√5), no √5, no mechanism), dead) NOR rung 2 (a KIND mismatch: the seam is a DISCRETE 𝔽₂-space = a bit per stage, the SM freedom is a CONTINUOUS ~19-param moduli space; the object provably lacks the SM discrete structure — B307/B604). The one shared property (no canonical origin) is the generic observer-coupling property, not a match. The object's arbitrariness is a different KIND (discrete orientation bits) than the SM's (continuous parameters); the flavor lives fully in the coupling. Gate 5-SM; structure not value; the honest ceiling of the object↔SM bridge, now demonstrated at the deepest rung. HEADLINE (two-seat): the object's arbitrariness is DISCRETE (Galois bits), the SM's is CONTINUOUS (real params) — the object ends at the discrete, the continuous begins with the coupling; the discrete↔continuous seam IS the object↔observer boundary.
@@ -484,3 +484,38 @@ B952 bounded-prefix row stand unchanged through B1094.
 | **THE EXACT-HYPERCHARGE TWO-SIDED LAW (B1102)** | The banked 6Y multiset is carried EXACTLY by the A2 landing's rank-4 Cartan (18 isolated rational directions, provably complete 5⁴ search, representative t = (1/6, 1/6, 2/3, −1/3)) AND no color-commuting direction achieves it (zero pure on either ideal, forced at Cartan level; 36/36 root checks): hypercharge-VALUED, not SM-PRODUCT-structured — the obstruction LOCATED; three follow-ups typed (other strata / other color identifications / the 6Y frame map), none claimed | PROVED | `frontier/B1102_exact_hypercharge_solve` · B1102 B1100 B1098 | run any of the three typed follow-ups; the frame-map check first (cheapest) |
 | **THE REVERSAL-CLOSURE GENERICITY LAW (B1106)** | In the pinned convention (slope 1/metallic², ρ = α, left-outward = reversed(right)): the golden chain closes exactly at even Fibonacci index (7 windows verified, extending B1095's 4) while the STRICT silver analog NEVER closes (7 Pell windows to N = 5741; breaks alternate cut-adjacent and center) — the closure law is golden-specific outright; the mirroring cousin (1 − 1/silver) disclosed as a known non-analog; bite-controlled instrument (two failed attempts caught by the positive control before the verdict was licensed) | PROVED (computed) | `frontier/B1106_edge_seal` · B1106 B1095 B8111 | explain the center-break structure at even Pell windows (typed OPEN-minor); extend to bronze |
 | **THE GOLDEN MERIDIAN LAW (B1132)** | On the listener sphere ℂP¹_odd, the period-5 seam words obey **h(R²L², u) = −φ·h(RL, u) − iφ·n_y(u)** (n_y = u's Bloch y-coordinate); equivalently **axis(R²L²) = −φ·[axis(RL) + ŷ]** as Pauli 4-vectors. B1128's simpler h(R²L²)=−φ·h(RL) is exactly the **n_y=0** special case — it holds **iff** u lies on the real great circle through u₃,u₆ (complete closed-form domain, not sampled). A structure law (golden ratio on the listener curve), NOT a value | PROVED (50-digit two independent ways, worst residual 1.15e-50 over poles/circle/16 random sphere points; symbolic proof of the load-bearing sub-identity wy(RL)=−φ/2, wy(R²L²)=(1−φ)/2) | `frontier/B1132_meridian_null_phi_law` · B1132 B1128 | is it a restatement of a McKay/modular identity (lit); the other 6 period-5 words off-circle |
+
+<!-- doc-currency read 2026-11-10: the review, the closure map and programme, the audit's corrections and the evening's verifications (B1860-B1870) -->
+
+## CURRENCY READ — 2026-11-10 (B1860–B1870)
+
+The wave read against every standing row. Most of it is about the record-machine and adds no law; what bears on a
+row is said row by row.
+
+- **A correction that reaches a standing row.** THE RANK OBSTRUCTION (B952): its lemma needs the word *commuting*
+  (B1862, the audit's finding E4, reproduced on main). The row above carries the dated bracket; its conclusion is
+  unchanged.
+- **Scoped, with no row to change.** B854's centralizer statement holds for the principal embedding only (B1862); the
+  law map cites B854 inside another row and states no law of its own for it. B567's spectrum count and B862's kernel
+  were recomputed exactly (B1862); neither has a row here.
+- **A law-level addition on the weave, proved on main (B1866):** the weave's triplet is the odd twist χ₁₅ of the
+  symmetric square of the level-2 doublet — a module of the double cover on which S⁴ = −1, the conjugate of the
+  squared theta constants over the cube of eta; every move keeps the odd spin structure and the trivial character
+  and permutes the three other sign characters. It completes the row THE THREE'S HAND IS THE ORIENTATION SHEET (B1609,
+  B1610) from the side of the modular group; it does not change that row. Whether the lanes' three is this three is
+  open (P-753).
+- **Tested, not proved, and therefore not a row:** the symmetries of a bundle read off its word — twice the word's
+  stabiliser under rotation, reversal and the swap of the letters; the swap is the mirror, for every word (B1867, 105
+  classes; P-766).
+- **A computed fact beside THE WALK'S EXIT LAW (B1815):** under the move count the weight of histories within a
+  distance of i scales with the correlation dimension of Minkowski's measure, 0.844609; no point of the modulus has
+  positive weight; the density against area sharpens at i and holds no mass (B1868, the web seat's sealed card
+  verified by main's own quadrature). The row's scope clause stands: the placement of the modulus is chosen.
+- **Enumerations with no law claimed:** the founding principle read as a selection rule picks the run of 6 only when
+  the level is put in (B1869); on main's own map no result returns to fix an input (B1867).
+- **About the record-machine (section G's subject):** two gates now read history and cannot be passed by a committed
+  change (B1863, B1864); the audit's 73 findings stand at 9 fixed, 13 partly fixed, 45 reproduced by main, 5 by a
+  reader, 1 open (B1870). The method-law they illustrate is already a row: a check that compares a thing with itself
+  cannot fail.
+
+No standing row is contradicted. One row is corrected in a word (B952).

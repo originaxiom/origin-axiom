@@ -18998,3 +18998,23 @@ loop the owner has confirmed has to do its work.
 The advisor's test of whether the principle's wording fixes the mathematics also came back. Readers who had not seen
 the record agreed on the first step and on nothing after it. It raised one question worth computing before anyone
 rules on it: whether the root of everything is two separate acts or a single one. That is now on the list. 0 of 19.
+
+## 2026-11-10 — S306o (the multi-agent run): the audit's list is confirmed, and a selection rule turns out to select what was put in
+
+The advisor's audit of main lists 73 problems. Its own rule is that main must see each problem for itself before
+acting on it. Until today main had done that for only part of the list. The owner approved using several cheaper
+assistants at once for this one job. Eight of them each took a group of problems and reported the exact commands
+that show whether a problem is still there. Main then ran every one of those commands itself. The assistants only
+pointed; what main records is what main saw.
+
+The audit was right nearly everywhere. Of the 34 problems nobody had checked, 24 are exactly as described and 9 are
+partly so. One cannot be checked without a computation that the rules reserve for a sealed test, and it stays open.
+None of this repairs anything: it turns "someone says" into "main has seen", which is the condition for repairing.
+The repairs are next, the safety checks first.
+
+On the main line, main re-derived a computation the advisor had run on the owner's idea: read the founding
+principle as a rule that picks which history departs from the background. The rule does pick the known history, the
+run of six. It does so only if one tells it which level to look at, and at any level N it picks the run of N plus
+one. So the rule returns what it was given. With two levels it returns a mirror pair, and on the two other
+backgrounds it returns no single history at all. What is solid is the list of everything the rule allows, and that
+list is what the owner's claim about all histories together needs. 0 of 19.

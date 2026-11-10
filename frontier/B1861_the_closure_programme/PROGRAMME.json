@@ -371,7 +371,7 @@
   ],
   "the selection criterion": [
    "FORCING ARGUED",
-   "the ledger: a fixed character is a place where nothing happened. Main (B1867): as an exclusion this removes every departure too (the run of six fixes twenty); as a minimum it is the reading GENESIS already grades an interpretation. LR is the one word with a single fixed character, so this row carries the whole selection of the object."
+   "the ledger: a fixed character is a place where nothing happened. Main (B1867): as an exclusion this removes every departure too (the run of six fixes twenty); as a minimum it is the reading GENESIS already grades an interpretation. LR is the one word with a single fixed character, so this row carries the whole selection of the object. For the departure, the principle read as 'the least that no counted level detects' picks the run of six only when the level is put in (B1869)."
   ],
   "the structural theorem's external data": [
    "BACK-EDGE NAMED",
@@ -426,9 +426,13 @@
    "wp": "WP-0.8"
   },
   "E12": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): of its five slips, B1853's margins are corrected (B1855's dated note, Review 77). Left: B1857 is marked post hoc and still says 'exactly the two cheaper'; B1852's count of four reversing involutions carries its window and no note that the count is the window's; B884's control is printed and unused; B915's pre-registration still says no other measured number enters, against its own addendum",
    "short": "five small slips of scope",
-   "state": "OPEN",
+   "state": "PARTLY FIXED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.8"
   },
   "E13": {
@@ -492,21 +496,33 @@
    "wp": "WP-0.7"
   },
   "G10": {
-   "note": "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit, for two of its eleven practices: a proven row citing no lock passed, and a banned phrase passed when capitalised or placed in a file type the gate does not read",
+   "note": "main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit, for two of its eleven practices: a proven row citing no lock passed, and a banned phrase passed when capitalised or placed in a file type the gate does not read",
    "short": "practices labelled gated whose gate is weaker than the practice",
-   "state": "READER",
+   "state": "REPRODUCED",
+   "was": [
+    "READER",
+    "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit, for two of its eleven practices: a proven row citing no lock passed, and a banned phrase passed when capitalised or placed in a file type the gate does not read"
+   ],
    "wp": "WP-0.7"
   },
   "G11": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): the currency check prints 'ok (18 living documents current)' while 9 documents are declared debts and 8 of those are counted as current; CLAIMS.md lags 580 arcs under a tolerance of 40. The audit's 569 and 8 are 580 and 9 today",
    "short": "the currency check prints 'current' beside declared debts",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.7"
   },
   "G12": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): README.md:71 says the gates run on every push; the hook is local and untracked, and the one CI workflow runs core tests and no gate",
    "short": "the gates at push are an honour system",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.7"
   },
   "G13": {
@@ -516,9 +532,13 @@
    "wp": "WP-0.7"
   },
   "G14": {
-   "note": "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a verdict file cut to invalid JSON is skipped by the gate that reads it; it is noticed only where the arc has dependants, and by a view generator",
+   "note": "main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a verdict file cut to invalid JSON is skipped by the gate that reads it; it is noticed only where the arc has dependants, and by a view generator",
    "short": "baselines are counts, markers never expire, ids match as substrings",
-   "state": "READER",
+   "state": "REPRODUCED",
+   "was": [
+    "READER",
+    "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a verdict file cut to invalid JSON is skipped by the gate that reads it; it is noticed only where the arc has dependants, and by a view generator"
+   ],
    "wp": "WP-0.7"
   },
   "G2": {
@@ -546,33 +566,53 @@
    "wp": "WP-0.7"
   },
   "G6": {
-   "note": "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit with the date set 30, 60 and 365 days after the commit: four gates turn red on identical content",
+   "note": "main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit with the date set 30, 60 and 365 days after the commit: four gates turn red on identical content",
    "short": "four gates read today's date",
-   "state": "READER",
+   "state": "REPRODUCED",
+   "was": [
+    "READER",
+    "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit with the date set 30, 60 and 365 days after the commit: four gates turn red on identical content"
+   ],
    "wp": "WP-0.7"
   },
   "G7": {
-   "note": "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: every registered control pointed at one skipped trivial test, and the gate passed",
+   "note": "main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: every registered control pointed at one skipped trivial test, and the gate passed",
    "short": "the gate-controls gate checks a name only",
-   "state": "READER",
+   "state": "REPRODUCED",
+   "was": [
+    "READER",
+    "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: every registered control pointed at one skipped trivial test, and the gate passed"
+   ],
    "wp": "WP-0.7"
   },
   "G8": {
-   "note": "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: two phrases from registry rows added after 2026-10-07 pasted into the front page passed; a phrase from an older row was caught",
+   "note": "main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: two phrases from registry rows added after 2026-10-07 pasted into the front page passed; a phrase from an older row was caught",
    "short": "the retraction sweep reads part of its registry",
-   "state": "READER",
+   "state": "REPRODUCED",
+   "was": [
+    "READER",
+    "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: two phrases from registry rows added after 2026-10-07 pasted into the front page passed; a phrase from an older row was caught"
+   ],
    "wp": "WP-0.7"
   },
   "G9": {
-   "note": "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a commit message carrying a co-author trailer passed; so did vendor tokens added with their baseline raised in the same commit",
+   "note": "main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a commit message carrying a co-author trailer passed; so did vendor tokens added with their baseline raised in the same commit",
    "short": "the attribution gate never reads a commit message",
-   "state": "READER",
+   "state": "REPRODUCED",
+   "was": [
+    "READER",
+    "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a commit message carrying a co-author trailer passed; so did vendor tokens added with their baseline raised in the same commit"
+   ],
    "wp": "WP-0.7"
   },
   "L1": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): no lock declares whether it recomputes, re-runs or reads a transcript, and no gate asks. A rough static count finds about 330 of 1518 lock files with no computing import; the audit's census tools are not on main and its 386 was not re-derived",
    "short": "about a quarter of PROVED arcs are guarded only by locks that read text",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.3"
   },
   "L10": {
@@ -582,15 +622,23 @@
    "wp": "WP-0.3"
   },
   "L2": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): the rule that locks assert mathematics has no row in PRACTICES.md and no gate; the vacuity gate fails only the no-assert and tautology classes and reports the both-literal class without failing it",
    "short": "'locks assert mathematics' has no gate",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.3"
   },
   "L3": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): in part. The chain-locks gate checks only that each link cites a test file that exists. Of the audit's two examples, C45's lock hard-codes its inputs and C7's last assertion is literal-only; but C7's lock also recomputes its three discriminants, and C45 is a no-go link, not a theorem",
    "short": "the theorem chain's locks are mostly weaker than their links",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.3"
   },
   "L4": {
@@ -612,15 +660,23 @@
    "wp": "WP-0.3"
   },
   "L7": {
-   "note": "main's reader's scan of every test file: fifteen test functions whose every assert is on literals; main read one of them. main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a test whose only assert is on two literals is counted and not refused",
+   "note": "main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader's scan of every test file: fifteen test functions whose every assert is on literals; main read one of them. main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a test whose only assert is on two literals is counted and not refused",
    "short": "tests that are arithmetic on literals",
-   "state": "READER",
+   "state": "REPRODUCED",
+   "was": [
+    "READER",
+    "main's reader's scan of every test file: fifteen test functions whose every assert is on literals; main read one of them. main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a test whose only assert is on two literals is counted and not refused"
+   ],
    "wp": "WP-0.3"
   },
   "L8": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): B892's tower scripts were never tracked (its wall scan is); B952 has a results file that its lock reads back and no script; B866's lock compares two literal cubics and its interpolation script is not tracked",
    "short": "three depended-on arcs hold no computation of their headline",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.3"
   },
   "L9": {
@@ -636,21 +692,33 @@
    "wp": "WP-0.9"
   },
   "M10": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): in part. Two entries say a failure kills the reading and not the weave, and the eight first rows do not say what a failure would contradict; but 'most entries cannot fire' overstates: by the register's own grades it is 3 or 4 of 11",
    "short": "the falsifier register cannot contradict the programme",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.9"
   },
   "M11": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): the reviewer page's sentence 'Every PROVED arc names its test locks' is a fixed string in the generator; on main 421 of 1079 PROVED arcs name no test file in their findings",
    "short": "a generated page asserts false universals",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.9"
   },
   "M2": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): in part. The two pages do not list the four further inputs and still call the collapse of 144 to 1 the content of the forcing; but both carry the banner that GENESIS is canonical, and the uniqueness page says it forces the matrix, conditionally. 'The object forced up to orientation' stands on THE_CLAIM.md:15",
    "short": "the forcing theorem forces a matrix, not the manifold",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.9"
   },
   "M3": {
@@ -660,45 +728,73 @@
    "wp": "WP-0.9"
   },
   "M4": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): THEOREM_LEDGER.md says no physics statement appears below, and its link C51, labelled a theorem, says a cover 'carries the Standard-Model gauge algebra and three complete generations'; unchanged since the audit",
    "short": "a physics statement under 'no physics statement appears below'",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.9"
   },
   "M5": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): 'the flavour three is derived' stands in GENESIS.md (line 456 today) and THE_WEAVE.md:113 with no pointer to the identification it rests on (I-31, unearned)",
    "short": "'the flavour three is derived' against an unearned identification",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.9"
   },
   "M6": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): in part. The paper's main.tex already says the derivation is standard and only the selection is not; its SPEC.md:115 still lists the global form 'derived rather than assumed' under what is not standard",
    "short": "the global form called derived and not standard in a paper draft",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.9"
   },
   "M7": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): B1855's title says the run of 6 is 'proved least' though main re-ran neither of the seat's two lemmas (P-741, queued), and its claim line says 'every lcm(S) >= 12' without the range of S that its scope field carries",
    "short": "B1855's titles say proved for a step main did not re-run",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.9"
   },
   "M8": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): B1850 says every quote was found verbatim, 313 of 313; its checker tests only that a quote is a substring of the file named. The audit's 76 of 86 was not re-derived",
    "short": "B1850's verbatim quotes mostly quote the row's own title",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.9"
   },
   "M9": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): papers/P3_THE_PAPER/EXTERNAL_REVIEW_2026-09-09.md is titled an external review, and 'outside referee' stands in two paper READMEs, against PROVENANCE § 0; the pretense gate scans docs and top-level pages only and lists neither phrase",
    "short": "an internal review called external in the paper folders",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.9"
   },
   "P1": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): THE_PROGRAMME_SO_FAR.md gives the six at their best figure and the final attack's two steps in the future tense, and names none of B1823, B1825, B1838; the plan carries one dated note, for B1823. The audit's claim about README is stale: README gives no outcome",
    "short": "the front door describes a plan that already ran and failed",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.1"
   },
   "P2": {
@@ -708,15 +804,23 @@
    "wp": "WP-0.1"
   },
   "P3": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): B892 carries the correction (its 14-dimensional algebra is not the Standard Model's); B861, B862, B863 and B1028 carry no pointer to it, and B994's table still says its chains end at the Standard Model",
    "short": "an endpoint correction did not reach five arcs",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.1"
   },
   "P4": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): CLAIMS.md:147 still states the comparison without the adjudication that voided it as a held-out confirmation; B723 is still PROVED with no supersession; a withdrawn figure of sigmas stands on at least eight current pages",
    "short": "a voided prediction and a stale significance on living pages",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.1"
   },
   "P5": {
@@ -726,15 +830,23 @@
    "wp": "WP-0.1"
   },
   "P6": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): INDEX.md lists CLAIMS.md as living while CLAIMS.md says it was last updated on 2026-07-04; CAMPAIGN_STATUS.md has 606 paragraphs that begin LATEST; one living entry is a path that does not exist",
    "short": "the index lists stale documents as living",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.1"
   },
   "P7": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): the forcedness check prints 53 of 57 while '39 of 43' stands as current on at least seven pages; the law map's banner says 113 rows against 329; two arc ids are each shared by more than one folder (1570 verdict files, 1567 ids)",
    "short": "stale counts and duplicate arc ids",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.1"
   },
   "R1": {
@@ -744,27 +856,43 @@
    "wp": "WP-0.5"
   },
   "R2": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): the pinned versions are a prose table in REPRODUCIBILITY.md; requirements.txt and pyproject.toml carry lower bounds only; no lock file is tracked, and CI installs unpinned",
    "short": "the pinned environment is prose, not a lock file",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.5"
   },
   "V1": {
-   "note": "",
+   "note": "not checked, and why (B1870): the audit's figure has no tracked source, and deciding it needs a computation on the nulls that belongs behind a sealed card. Main's checker found that the later nulls take the best over 223 apexes and 266 lines and not over a plain grid, so the audit does not say which null it measured",
    "short": "every specificity null has an unpriced window",
    "state": "OPEN",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.2"
   },
   "V2": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): in part. The allowance of ten per cent is in the compare scripts, is defined in TERMINOLOGY.md:763 and is priced in the framing ledger; the headline figures in THE_FINAL_ATTACK and THE_PROGRAMME_SO_FAR are quoted without it. The audit's two large figures have no tracked source and were not recomputed",
    "short": "the headline fits omit their error floor",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.2"
   },
   "V3": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): audit/ is ignored and holds no tracked file; the register cites it on 83 lines and 68 findings files cite it; one calibration figure quoted on tracked pages rests on scripts that exist only there, and no tracked line says so",
    "short": "evidence lives in an ignored directory",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.2"
   },
   "V4": {
@@ -774,9 +902,13 @@
    "wp": "WP-0.2"
   },
   "V5": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): in part. The look ledger has no row for B1658, B1659 or B1724. Only B1658 clearly reads seen data, by its own findings; B1659 says it uses none; B1724 re-reads earlier calibrations. Two error bars for one quantity stand on record",
    "short": "three looks missing from the look ledger; two conventions in one pipeline",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.2"
   },
   "W1": {
@@ -786,27 +918,43 @@
    "wp": "WP-0.11"
   },
   "W2": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): 250 of 1570 verdict files carry weave_or_thread and 287 a scope; no gate requires either",
    "short": "the quantifier of most claims is not machine-readable",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.11"
   },
   "W3": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): TERMINOLOGY.md:11 defines 'the object' as the figure-eight complement, while GENESIS's fork on the family as object is ruled to the word states; the two do not agree on the default noun",
    "short": "'the object' still names one thread in the terminology",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.11"
   },
   "W4": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): no verdict file has a field for a truncation, a range or a domain (27 distinct keys, none of them); the truncation ledger exists only as a planned item",
    "short": "no truncation is recorded",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.11"
   },
   "W5": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): of its six instances, four now carry dated scope notes (B854, B997, B1855, B1853; by B1859, B1862 and Review 77). Left: B1291's verdict file has no scope and no pointer to the arc that re-scoped it; the sixth, on the nulls, was not checked",
    "short": "six findings of this audit are of the same class",
-   "state": "OPEN",
+   "state": "PARTLY FIXED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.11"
   },
   "W6": {
@@ -822,27 +970,43 @@
    "wp": "WP-1.6"
   },
   "X1": {
-   "note": "the owner confirmed the ruling on the goal to main on 2026-11-10; the amendment of the twelve places is the next step of its package and is not made yet",
+   "note": "main re-ran the deciding commands itself (B1870): GOVERNANCE.md:23 says the goal is not a theory of everything, and neither it nor CLAIMS.md has changed since the audit. The owner has confirmed the goal to main (P-758); amending the places is the first step of P-767. One of the audit's twelve places (THE_CLAIM.md, lines 58 to 71) is the anchor doctrine and is doubtful as a cap",
    "short": "twelve places in the governing documents cap the goal",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    "the owner confirmed the ruling on the goal to main on 2026-11-10; the amendment of the twelve places is the next step of its package and is not made yet"
+   ],
    "wp": "WP-0.10"
   },
   "X2": {
-   "note": "the same landing names one governing document; not made yet",
+   "note": "main re-ran the deciding commands itself (B1870): three files each say they win a disagreement: GOVERNANCE.md:6-9, GENESIS.md:29, CLAIMS.md:3",
    "short": "three documents each claim supremacy",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    "the same landing names one governing document; not made yet"
+   ],
    "wp": "WP-0.10"
   },
   "X3": {
-   "note": "",
+   "note": "main re-ran the deciding commands itself (B1870): in part. The certificate script does not fail on main: it exits 0, its four tests pass, and it is unchanged since the audited commit. What holds is that the '4' in '4 + 9 = 13' is a typed constant",
    "short": "the printed identification price undercounts, and its script fails",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    ""
+   ],
    "wp": "WP-0.10"
   },
   "X4": {
-   "note": "covered by the declared domain (WP-0.11)",
+   "note": "main re-ran the deciding commands itself (B1870): 1283 of 1570 verdict files carry no scope, and none a domain",
    "short": "scope tags are absent from most verdict files",
-   "state": "OPEN",
+   "state": "REPRODUCED",
+   "was": [
+    "OPEN",
+    "covered by the declared domain (WP-0.11)"
+   ],
    "wp": "WP-0.10"
   }
  },
@@ -2564,7 +2728,7 @@
    ],
    "debts": [],
    "findings": [],
-   "first": "the structural theorem off the root: run its frame on the weave's own surface or on every thread (it has only ever been run on m004)",
+   "first": "the structural theorem off the root: run its frame on the weave's own surface or on every thread (it has only ever been run on m004). Done on main (B1869): the founding principle read as a selection rule picks the run of six only when the level is put in, ties under the other sense of detection, and gives no single run on the silver and bronze backgrounds; the allowed set is verified to 20 letters, and the criterion stays an input",
    "given": [
     "WP-2.2"
    ],
@@ -2684,7 +2848,7 @@
     "P-756": "DONE",
     "P-758": "DONE",
     "P-761": "QUEUED",
-    "P-762": "QUEUED",
+    "P-762": "DONE",
     "P-765": "DECLINED",
     "P-770": "QUEUED"
    },
@@ -4387,10 +4551,10 @@
   "audit_findings": 73,
   "audit_findings_by_state": {
    "FIXED": 9,
-   "OPEN": 34,
-   "PARTLY FIXED": 11,
-   "READER": 12,
-   "REPRODUCED": 7
+   "OPEN": 1,
+   "PARTLY FIXED": 13,
+   "READER": 5,
+   "REPRODUCED": 45
   },
   "audit_findings_checked_at_the_seats_revision": 73,
   "budget": {

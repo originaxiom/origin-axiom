@@ -1,0 +1,1751 @@
+[
+ {
+  "id": "E12",
+  "batch": "gates and slips",
+  "checker_verdict": "PARTLY",
+  "checker_confidence": "medium",
+  "summary": "Of the five sub-claims: B1853's range-artifact margins are corrected (dated note 2026-11-07 via B1855, marked again at Review 77). B1857 is partly scoped (\"POST HOC, range-scoped\") but still says \"exactly the two cheaper\". B1852's table still gives \"4\" reversing involutions with only an 'entries up to 14' qualifier and no note that the count is a window artifact. B884's calibration control is only printed, never used, and a filename mismatch still exists but is latent because levi_charges.json is tracked. B915's use of a fixed alpha_s = 0.118 is disclosed in a 2026-09-09 addendum, but the PREREGISTRATION still says no other measured number enters.",
+  "commands": [
+   "sed -n 83,92p frontier/B1853_the_departures_depth_premises_verified/FINDINGS.md",
+   "sed -n 18,19p frontier/B1857_the_read_out_by_a_state_checked/FINDINGS.md",
+   "sed -n 18,26p frontier/B1852_the_tubes_real_part_by_topology/FINDINGS.md",
+   "grep -n 'ctrl' frontier/B884_yukawa_support/yukawa_support.py",
+   "grep -n 'levi_charges' frontier/B884_yukawa_support/make_levi_charges.py frontier/B884_yukawa_support/yukawa_support.py",
+   "git ls-files frontier/B884_yukawa_support | grep levi",
+   "sed -n 20,23p frontier/B915_the_crossing/PREREGISTRATION.md; sed -n 50p frontier/B915_the_crossing/crossing.py; sed -n 61,63p frontier/B915_the_crossing/FINDINGS.md"
+  ],
+  "files": [
+   "frontier/B1853_the_departures_depth_premises_verified/FINDINGS.md:83-92",
+   "frontier/B1857_the_read_out_by_a_state_checked/FINDINGS.md:17-19",
+   "frontier/B1852_the_tubes_real_part_by_topology/FINDINGS.md:18-24",
+   "frontier/B1852_the_tubes_real_part_by_topology/verification/fixed_fibre_classes.py:14",
+   "frontier/B884_yukawa_support/yukawa_support.py:131-137",
+   "frontier/B884_yukawa_support/yukawa_support.py:185-200",
+   "frontier/B884_yukawa_support/make_levi_charges.py:186",
+   "frontier/B915_the_crossing/PREREGISTRATION.md:21",
+   "frontier/B915_the_crossing/crossing.py:50",
+   "frontier/B915_the_crossing/FINDINGS.md:61-63"
+  ],
+  "audit_inaccuracies": "B1853 is already fixed (dated note, Review 77), so the audit is stale for that part. B1857 now carries 'POST HOC, range-scoped' wording, so 'an infinite family' is partly addressed; I did not check the infinite-family claim itself (it is outside bookkeeping). The B884 'filename bug would crash on a fresh tree' is true only if levi_charges.json is absent; it is tracked, so it does not crash on a normal checkout. I did not check the B1852 two-line mod-2 proof, nor B915's effect on its verdict (I computed no physical value). The B915 pre-registration/code conflict is real for the sw2 solve step (crossing.py:50), but the audit's phrase 'uses a measured alpha_s' is a fixed 0.118 start value there; FINDINGS discloses it.",
+  "minimal_fix": "Add a dated note where each statement stands: B1852 (the count 4 is a window count; add the mod-2 argument or say it is not proved), B1857 ('the two cheaper' limited to the tested range), B884 (say the control is printed only, and make make_levi_charges.py write levi_charges.json or have yukawa_support.py read the _r<k> file), B915 (a note under the PREREGISTRATION line about the 0.118 held value).",
+  "acceptance_test": "For B884: a test that runs the filename logic with levi_charges.json absent and asserts the file yukawa_support.py loads is the one make_levi_charges.py writes (static string check of the two filenames). For the others: a test that each of the four FINDINGS files contains a 'Dated note' line naming the statement.",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "9d3d06d6654e6121",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "beb88af73651221d",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "eaf2bb7169ad69cb",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "5b40a425d3d74e1c",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "36e0244b2b11f281",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "1432387850bbcb09",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "ac22da5159c72d29",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "G11",
+  "batch": "gates and slips",
+  "checker_verdict": "REPRODUCES",
+  "checker_confidence": "high",
+  "summary": "The doc-currency check still prints \"ok (18 living documents current)\" while 9 documents sit in DECLARED_DEBT (8 of them not frozen, so they count as current). CLAIMS.md has tolerance 40 and a lag of 580 existing arcs today (the audit said 569). The gate still passes; the debts are only listed, not failed.",
+  "commands": [
+   "OMP_NUM_THREADS=1 nice -n 5 python3 scripts/checks/doc_currency.py",
+   "python3 -c \"import sys;sys.path.insert(0,'.');from scripts.checks import doc_currency as d;print(len(d.LIVING), d.LIVING['CLAIMS.md'], len(d.DECLARED_DEBT))\"",
+   "OMP_NUM_THREADS=1 nice -n 5 python3 scripts/gates/gates.py doc-currency | grep -E 'doc-currency'"
+  ],
+  "files": [
+   "scripts/checks/doc_currency.py:97",
+   "scripts/checks/doc_currency.py:158-162",
+   "scripts/checks/doc_currency.py:186",
+   "tests/test_doc_currency_gate.py:34"
+  ],
+  "audit_inaccuracies": "CLAIMS.md lag is 580 now, not 569 (corpus head moved to B1868). DECLARED_DEBT now has 9 entries (the audit said 8): 8 are non-frozen and counted as current, and docs/TOOLBOX.md is frozen (excluded from the 18). Citation line range 100-124 is now 97-133 (the dict starts at line 97). The debt list is printed on every run, so 'permanent' is fair but 'silent' would not be.",
+  "minimal_fix": "Make the final line count only documents that are neither frozen nor in DECLARED_DEBT, e.g. \"ok (10 current, 8 in declared debt, 1 frozen)\", or give each debt an expiry date after which the gate fails.",
+  "acceptance_test": "A test in tests/test_doc_currency_gate.py that runs main() and asserts the last printed line does not say \"18 current\" while len(DECLARED_DEBT) minus frozen > 0 (the printed current count must equal LIVING minus frozen minus debts).",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "707308d27427e4dd",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "0138344573cf47ce",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "8827589e43b7db30",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "G12",
+  "batch": "gates and slips",
+  "checker_verdict": "REPRODUCES",
+  "checker_confidence": "high",
+  "summary": "README.md line 71 still says \"The gates also run on every push\" with no qualifier. The pre-push hook exists only in the local .git/hooks/pre-push (untracked); REPRODUCIBILITY.md tells each clone to install it by hand. The only CI workflow (.github/workflows/core.yml) runs a list of core pytest files and never calls gates.py. prepush.py gates only the tip sha of each pushed ref and does not run the suite.",
+  "commands": [
+   "grep -n 'every push' README.md",
+   "git ls-files | grep -E 'hook|pre-push|prepush|\\.github'",
+   "ls .github/workflows; grep -n -i gates .github/workflows/core.yml",
+   "sed -n 286,300p REPRODUCIBILITY.md",
+   "grep -n 'shas_to_gate' -A8 scripts/gates/prepush.py | head -12"
+  ],
+  "files": [
+   "README.md:71",
+   "REPRODUCIBILITY.md:286-306",
+   "scripts/gates/prepush.py:26-34",
+   "scripts/gates/prepush.py:50-58",
+   ".github/workflows/core.yml"
+  ],
+  "audit_inaccuracies": "None found. Small note: the sentence is on README.md:71 as cited. The hook does print the review counter and, per its own comment, keeps a log in .git/pre-push-gates.log, which the audit did not mention. REPRODUCIBILITY.md does say the install is manual, but README.md does not.",
+  "minimal_fix": "Either change README.md:71 to say the gates run on push only where the optional hook is installed (and CI runs only the proven-core tests), or track the hook (e.g. scripts/gates/pre-push.sh) with an installer and add a gates.py step to core.yml.",
+  "acceptance_test": "A test that reads README.md and fails if it contains 'run on every push' unless the same file also says 'optional' or 'if installed'; or, if the hook is tracked, a test that installs it into a temporary git repo and checks it calls prepush.py.",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "491820ac59db9135",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "1e093a9a08cac975",
+    "printed_nothing": false
+   },
+   {
+    "rc": 1,
+    "sha256_of_output": "aa67efc87b2b56ed",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "080c2c49c37fcff7",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "3e3519e104d01f52",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "L1",
+  "batch": "locks",
+  "checker_verdict": "REPRODUCES",
+  "checker_confidence": "medium",
+  "summary": "No tier declaration (RECOMPUTE/RERUN/TRANSCRIPT) exists in the locks and no gate checks one. The audit's census tools are not on main. My own rough static count finds about 330 of 1,518 lock files with no compute, import or subprocess signal, the same order as the audit's 386 of 1,548. I did not recompute the 242-of-1,068 PROVED share.",
+  "commands": [
+   "ls tools/lock_census.py tools/lock_map.py",
+   "grep -n -i 'tier\\|RECOMPUTE\\|RERUN\\|TRANSCRIPT' scripts/gates/gates.py | grep -v -i recomputed",
+   "ls tests/test_*.py | wc -l; ls frontier/*/test_*.py | wc -l",
+   "OMP_NUM_THREADS=1 nice -n 5 python3 -c \"import glob,re;fs=glob.glob('tests/test_*.py')+glob.glob('frontier/*/test_*.py');c=re.compile(r'\\b(numpy|mpmath|sympy|scipy|snappy|cypari|fractions|itertools|subprocess|importlib|runpy|sage|math|cmath)\\b|sys\\.path|import_module|from frontier|spec_from_file');n=[f for f in fs if not c.search(open(f,errors='ignore').read())];print(len(fs),len(n))\"",
+   "grep -rl transcript tests/test_*.py | wc -l"
+  ],
+  "files": [
+   "scripts/gates/gates.py",
+   "tests/test_b892_smt.py:1",
+   "tests/test_b1062_bridge.py"
+  ],
+  "audit_inaccuracies": "The audit's tools/lock_census.py and tools/lock_map.py are not on main, so its census cannot be re-run here. Lock files on disk are 1,518 (1,517 in tests/ plus 1 under frontier/), not 1,548. The audit's 386 text-only count and the '8 self-label as transcript' count were not reproduced: my crude heuristic gives about 330 and 3, and 12 files mention the word. The 242/1,068 PROVED figure and the era shares were not recomputed (it needs the audit's tool and verdict data).",
+  "minimal_fix": "Commit the census tool to scripts/. Require every lock to carry a one-line tier declaration (RECOMPUTE, RERUN or TRANSCRIPT). Add a gate that checks the declaration against the file's AST: a TRANSCRIPT file may not claim RECOMPUTE, and a RECOMPUTE file must have a compute import.",
+  "acceptance_test": "A planted lock that declares RECOMPUTE but only calls read_text() on a findings file must make the new tier gate fail. A correctly declared TRANSCRIPT lock must pass.",
+  "main_rerun": [
+   {
+    "rc": 1,
+    "sha256_of_output": "6ba22e0e60d31fff",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "b53905921411a54f",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "579049c6c80c466d",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "7ff7313a6940b39b",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "6b51d431df5d7f14",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "L2",
+  "batch": "locks",
+  "checker_verdict": "REPRODUCES",
+  "checker_confidence": "high",
+  "summary": "WORKING_RULES.md rule 7 ('Locks assert mathematics') still has no row in docs/PRACTICES.md and no gate. test-vacuity still catches only the no-assert and tautology classes, and it lists both-literal tests as 'for review' without failing them. PRACTICES.md records the weakness itself in its 'A label-lock is not a lock (B828)' paragraph, which is prose, not a gated row.",
+  "commands": [
+   "grep -n 'Locks assert' WORKING_RULES.md docs/PRACTICES.md GOVERNANCE.md METHOD.md",
+   "grep -n -i 'rule 7\\|asserts math' docs/PRACTICES.md",
+   "sed -n 198,205p docs/PRACTICES.md",
+   "sed -n 698,730p scripts/gates/gates.py",
+   "grep -n 'test-vacuity' docs/PRACTICES.md"
+  ],
+  "files": [
+   "WORKING_RULES.md:94",
+   "docs/PRACTICES.md:84",
+   "docs/PRACTICES.md:201",
+   "scripts/gates/gates.py:698",
+   "scripts/gates/gates.py:726"
+  ],
+  "audit_inaccuracies": "None found. The line range for gate_test_vacuity is 698-727 today.",
+  "minimal_fix": "Add a PRACTICES.md row for rule 7 and mark it OPEN until a gate exists. Then give the gate teeth by failing a test whose every assert uses only literals defined in the test file, unless it is waived by name.",
+  "acceptance_test": "A planted test that does `reasons={...}; assert len(set(reasons.values()))==3` must make the new gate fail. gate-practices-register must fail if the rule 7 row is removed.",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "b51d531b0e184529",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "bb8e73db38c9ba00",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "d6f0ecbb43051198",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "59e98f5816ebb47e",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "ec2d3095e098b5cc",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "L3",
+  "batch": "locks",
+  "checker_verdict": "PARTLY",
+  "checker_confidence": "medium",
+  "summary": "The structural half reproduces: chain-locks only checks that each non-AXIOM link cites a tests/test_*.py path that exists on disk, and it reads no tier. The examples are mixed. C45's lock does hard-code the textbook charges as inputs, though it then does exact Fraction arithmetic. C7's lock does recompute the discriminants with sympy, so it is not only a literal check. The final line `len({-3,5,-15}) == 3` is a literal-only assertion. I did not re-check the 16-link sample or the 'C9, C47 recompute' count.",
+  "commands": [
+   "sed -n 878,912p scripts/gates/gates.py",
+   "grep -n '^\\*\\*C7 \\[\\|^\\*\\*C45 \\[' docs/THEOREM_LEDGER.md",
+   "sed -n 10,21p tests/test_b730_faces_cosmos.py",
+   "sed -n 1,20p tests/test_b1096_anomaly_layer.py",
+   "grep -c '^\\*\\*C[0-9]* \\[THEOREM' docs/THEOREM_LEDGER.md"
+  ],
+  "files": [
+   "scripts/gates/gates.py:878",
+   "scripts/gates/gates.py:896",
+   "docs/THEOREM_LEDGER.md:85",
+   "docs/THEOREM_LEDGER.md:415",
+   "tests/test_b730_faces_cosmos.py:10",
+   "tests/test_b1096_anomaly_layer.py:4"
+  ],
+  "audit_inaccuracies": "The gate is now at scripts/gates/gates.py:878-912, not 755-783. C7's lock recomputes the discriminants and not only the set-length check, so 'C7 asserts len({-3,5,-15}) == 3' overstates. C45 is labelled [NO-GO] in the ledger, not THEOREM. The 36 [THEOREM...] links counted on main are not the audit's 16-link sample.",
+  "minimal_fix": "Make chain-locks read the lock's tier declaration (shared with L1) and fail a [THEOREM] link whose lock is not RECOMPUTE. Then rewrite the weak locks, starting with a stronger C7 final assertion (compute the biquadratic subfield discriminants).",
+  "acceptance_test": "A planted ledger link citing an existing text-only lock file must make chain-locks fail once it reads the tier. After the C7 lock is rewritten, mutating the discriminant polynomial must fail it.",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "385a1c581692207a",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "0cf8f8e5c7f55b23",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "b95bb9df02a16244",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "8a7de23cd8da2667",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "76a50887d8f1c2e9",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "L8",
+  "batch": "locks",
+  "checker_verdict": "REPRODUCES",
+  "checker_confidence": "high",
+  "summary": "On main, B892's tower scripts (sm_exact.py, sm_closer.py) are not tracked and never were; only wall_search.py (the real-line wall scan) is there. B952 has no script, only a results.json whose own lock reads it back. B866 has no determinant-interpolation script, and its lock only checks that two literal cubics agree. The mathematics itself is not what is being disputed.",
+  "commands": [
+   "git ls-files | grep -E 'sm_exact|sm_closer'",
+   "git log --all --oneline --diff-filter=A -- '*sm_exact.py' '*sm_closer.py'",
+   "ls frontier/B892_second_measurement frontier/B952_gut_ledger_rank frontier/B866_charge_cubic",
+   "git show 380e2efdc --stat | grep 952",
+   "git grep -l B952_gut_ledger_rank -- '*.py'",
+   "sed -n 1,20p tests/test_b866_charge_cubic.py",
+   "grep -n -i 'interpol' frontier/B866_charge_cubic/FINDINGS.md | head -3",
+   "git show 55bda8eae --stat | sed -n 1,20p"
+  ],
+  "files": [
+   "frontier/B892_second_measurement/FINDINGS.md:22",
+   "frontier/B892_second_measurement/wall_search.py",
+   "tests/test_b892_smt.py:1",
+   "frontier/B952_gut_ledger_rank/results.json",
+   "tests/test_b952_rank.py",
+   "frontier/B866_charge_cubic/FINDINGS.md:24",
+   "tests/test_b866_charge_cubic.py:1",
+   "frontier/B866_charge_cubic/support_2T_third_route/nonprincipal_2T.py"
+  ],
+  "audit_inaccuracies": "The audit says B892's scripts are not in the repository: that holds for sm_exact.py and sm_closer.py. B892 does now carry wall_search.py and wall_results.json (a real-line scan that the lock reads), so B892 is partly covered and the headline tower is not. B866 has an independent third-route script in support_2T_third_route/, but not the det interpolation. B1862 corrected B952's lemma E4 (the lock now computes a sl(2) centralizer), but B952's results.json is still not produced by any script. 'Hand-written' is plausible (single commit, no producer in history) but I cannot prove authorship from git.",
+  "minimal_fix": "Commit scripts that compute each headline: B866's exact 50-point determinant interpolation and factoring, B892's tower, and a generator for B952's results.json. Have each arc's lock run them, or run a cheap exact version of them.",
+  "acceptance_test": "Each of the three locks must execute the arc's own script and compare against the claimed value. Mutating the cubic's coefficient, or a B892 dimension in the tower output, must make the lock fail.",
+  "main_rerun": [
+   {
+    "rc": 1,
+    "sha256_of_output": "e3b0c44298fc1c14",
+    "printed_nothing": true
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "e3b0c44298fc1c14",
+    "printed_nothing": true
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "ba87783b39b16a29",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "1701b0f0ca06ec7e",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "db32719c0be7db8a",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "6aa609519a2c82ea",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "723432a94539c805",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "58d6524d7360435d",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "M2",
+  "batch": "labels, first half",
+  "checker_verdict": "PARTLY",
+  "checker_confidence": "medium",
+  "summary": "The two pages still do not list GM3, GM4, SE1, SE2 as inputs, and the 144 -> 1 collapse is still called the quantitative content of the forcing. But both pages already carry a banner (since v1.1, before the audit) that says GENESIS is canonical and holds where they disagree, and the UNIQUENESS page says what it forces is the matrix A = LR (conditional, claim C1), not the manifold. GENESIS.md still states that the root m004 needs GM3, GM4, SE1 and SE2.",
+  "commands": [
+   "grep -nE 'GM3|GM4|SE2' docs/UNIQUENESS_THEOREM.md docs/THE_CLAIM.md",
+   "sed -n 1,6p docs/UNIQUENESS_THEOREM.md",
+   "sed -n 88,96p docs/UNIQUENESS_THEOREM.md",
+   "sed -n 15,16p docs/THE_CLAIM.md | cut -c1-200",
+   "grep -n 'Given GM3, GM4, SE1 and SE2' GENESIS.md | cut -c1-160"
+  ],
+  "files": [
+   "docs/UNIQUENESS_THEOREM.md:1-6",
+   "docs/UNIQUENESS_THEOREM.md:15-16",
+   "docs/UNIQUENESS_THEOREM.md:88-95",
+   "docs/UNIQUENESS_THEOREM.md:117-120",
+   "docs/THE_CLAIM.md:6-10",
+   "docs/THE_CLAIM.md:15",
+   "GENESIS.md:193",
+   "tests/test_uniqueness_theorem.py:77"
+  ],
+  "audit_inaccuracies": "The audit says the pages 'present A1-A7 as forcing the object'. The UNIQUENESS page says it forces the persistent sector A = LR (a matrix) and is labelled conditional; only THE_CLAIM.md:15 says 'the object forced up to orientation', and that sentence is under the GENESIS-canonical banner. The audit does not mention that both pages already carry the banner. The 'five filters' rename is M3, not this finding. The pages have not changed on this point since the audit (docs/THE_CLAIM.md changed only for B1859 text).",
+  "minimal_fix": "In both pages, add a short line stating that the figure-eight root needs GM3, GM4, SE1 and SE2 beyond A1-A7, with a link to GENESIS.md section 4. Reword the 144 -> 1 sentence to say it is the filter a*b = 1 applied to a grid, and change 'the object forced' to 'the matrix A forced'.",
+  "acceptance_test": "A text test over docs/UNIQUENESS_THEOREM.md and docs/THE_CLAIM.md asserting that each contains the strings GM3, GM4, SE1 and SE2 in the statement of the theorem or the hypotheses. It fails today (no GM3 or GM4 in either file) and passes after the edit.",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "1c79c21df1cdadaf",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "9dcd7f5d1a50ff2a",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "831d1b0390cfd731",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "6b681417ac5801f1",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "26ffd3a03368b4f5",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "M4",
+  "batch": "labels, first half",
+  "checker_verdict": "REPRODUCES",
+  "checker_confidence": "high",
+  "summary": "docs/THEOREM_LEDGER.md still says 'Gate 5: no physics statement appears below; SM-facing content enters only as NO-GO links'. Link C51 is labelled [THEOREM] and still says Y9 'carries the Standard-Model gauge algebra and three complete generations', and goes on to a Z' mass-scale regime fork. Neither line has changed since the audit.",
+  "commands": [
+   "grep -n 'no physics' docs/THEOREM_LEDGER.md | cut -c1-120",
+   "sed -n 18,19p docs/THEOREM_LEDGER.md | tail -c 140",
+   "grep -n 'C51 \\[THEOREM' docs/THEOREM_LEDGER.md | cut -c1-120",
+   "grep -n 'carries the Standard-Model gauge algebra' docs/THEOREM_LEDGER.md | cut -c1-120",
+   "git show 217e37c4f:docs/THEOREM_LEDGER.md | grep -c 'Standard-Model gauge algebra and three complete generations'"
+  ],
+  "files": [
+   "docs/THEOREM_LEDGER.md:18-19",
+   "docs/THEOREM_LEDGER.md:272",
+   "docs/THEOREM_LEDGER.md:497-512"
+  ],
+  "audit_inaccuracies": "None found. The phrase 'no physics statement appears below' wraps over two lines (18-19) so a one-line grep for the full phrase misses it. Line 272 has a second, similar sentence ('no physics value is claimed anywhere below') that is also contradicted by C51. In C51, the mirror-pair and vector-like qualifier is present in the same sentence block, so the quoted phrase is softened but still not a NO-GO.",
+  "minimal_fix": "Either relabel C51 (for example [CONDITIONAL, frame F-CI/F-HE] with its identification ids) or reword line 18-19 and line 272 so they say what is true: no physics VALUE is claimed, while SM-shaped structural statements appear and are tagged with their frame and identification ids.",
+  "acceptance_test": "A test or gate that scans docs/THEOREM_LEDGER.md: any [THEOREM] link containing 'Standard-Model' must also contain an identification id (I-nn) or a frame tag, and the header must not contain the exact string 'no physics statement appears below'. It fails today on C51 and on line 18-19.",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "90f2c5664496eb27",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "09de277bfd2dc86c",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "a8ac71091429faf8",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "cfe3004c0e7df639",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "6b86b273ff34fce1",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "M5",
+  "batch": "labels, first half",
+  "checker_verdict": "REPRODUCES",
+  "checker_confidence": "medium",
+  "summary": "The sentence 'the flavour three is derived' is still in GENESIS.md and docs/THE_WEAVE.md:113, with no identification id (I-31) next to it. The knowledge/K021 file still says the object 'forces' three generations. The sentence does sit inside a graded paragraph ('DERIVED on the weave', 'the gauge three is a selection'), so the frame is partly stated, but I-31 (UNEARNED, 'the weave's triplet T is the SM left-handed multiplet, given Lambda') is not named there.",
+  "commands": [
+   "grep -n 'flavour three is derived' docs/THE_WEAVE.md",
+   "grep -n -o '.\\{60\\}flavour three is derived.\\{50\\}' GENESIS.md",
+   "grep -n 'I-31' docs/THE_WEAVE.md; echo rc=$?",
+   "sed -n 14,16p knowledge/K021_the_founding_identity.md",
+   "grep -n '| I-31 |' docs/IDENTIFICATION_LEDGER.md | cut -c1-120"
+  ],
+  "files": [
+   "GENESIS.md:456",
+   "docs/THE_WEAVE.md:108-113",
+   "knowledge/K021_the_founding_identity.md:3-5",
+   "knowledge/K021_the_founding_identity.md:14-16",
+   "docs/IDENTIFICATION_LEDGER.md:48"
+  ],
+  "audit_inaccuracies": "GENESIS.md:780 is stale: the sentence is at GENESIS.md:456 today (GENESIS.md has about 750 lines of numbered content and the sentence lives in the FK14 table row). docs/THE_WEAVE.md:113 is still correct. The audit lumps K021 with the sentence, but K021 does not use the words 'flavour three'; its wording is 'the object forces ... three generations', plus a header disclaimer that the dictionary is postulated.",
+  "minimal_fix": "At each of the three places, either add the frame and the identification id to the sentence ('the flavour three is derived on the weave, given I-31 (UNEARNED, given Lambda); the gauge three is a selection') or replace it with the graded text. In K021 line 15-16 change 'forces' to 'exhibits, given the dictionary I-31'.",
+  "acceptance_test": "A text test: every occurrence of 'flavour three is derived' in GENESIS.md and docs/THE_WEAVE.md must have the string 'I-31' within the same paragraph, and K021 must not contain 'forces all the dimensionless'. Fails today on all three.",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "d5b24d7770973dc6",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "7713289e8aff8084",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "86ec4e9ce2251c87",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "65750438f7876390",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "70d0e5565bedeeb4",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "M6",
+  "batch": "labels, first half",
+  "checker_verdict": "PARTLY",
+  "checker_confidence": "medium",
+  "summary": "The paper source papers/P3_THE_PAPER/main.tex was already corrected before the audit: its section heading still says 'The global form is derived', but the body says 'the derivation is standard' and that what is not standard is that anything selects the SU(5) embedding. The paper's own specification file papers/P3_THE_PAPER/SPEC.md:115 still lists 'the Z6 global form derived rather than assumed' under 'What is not standard'. So the contradiction with B1221 survives in SPEC.md only.",
+  "commands": [
+   "sed -n 113,116p papers/P3_THE_PAPER/SPEC.md",
+   "grep -n 'the derivation is standard' papers/P3_THE_PAPER/main.tex | cut -c1-160",
+   "grep -n 'not standard' papers/P3_THE_PAPER/SPEC.md papers/P3_THE_PAPER/main.tex | cut -c1-200",
+   "sed -n 1,2p frontier/B1221_global_form_path_independence/FINDINGS.md | cut -c1-160",
+   "git diff --stat 217e37c4f HEAD -- papers/P3_THE_PAPER/main.tex papers/P3_THE_PAPER/SPEC.md | tail -1"
+  ],
+  "files": [
+   "papers/P3_THE_PAPER/SPEC.md:114-116",
+   "papers/P3_THE_PAPER/main.tex:931-941",
+   "papers/P3_THE_PAPER/main.tex:1578",
+   "papers/P3_THE_PAPER/main.tex:1609-1610",
+   "frontier/B1221_global_form_path_independence/FINDINGS.md:1-66"
+  ],
+  "audit_inaccuracies": "The audit says the P3 paper calls the Z6 form 'derived' and 'not standard'. For papers/P3_THE_PAPER/main.tex that is not true as stated (main.tex says the derivation is standard and only the selection is not). It is true of SPEC.md:115 (the recognition table) and, in part, of the heading 'The global form is derived.' at main.tex:931. Neither file changed after the audit, so this was already so on 2026-11-07. Other files under papers/P3_THE_PAPER/reads_s10b/ repeat 'derived Z6 global form' but those are reader reports, not the paper.",
+  "minimal_fix": "In papers/P3_THE_PAPER/SPEC.md:115 remove 'the Z6 global form derived rather than assumed' from the not-standard list (move it to the standard list with the B1221 id), and rename the main.tex paragraph heading to 'The global form is fixed, given the embedding'.",
+  "acceptance_test": "A text test: in papers/P3_THE_PAPER/SPEC.md the sentence beginning 'What is not standard' must not contain 'global form', and main.tex must not contain the heading '\\paragraph{The global form is derived.}'. It fails today on both.",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "5f06edd77c397a04",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "01b943dce7a092c2",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "0da5e3bba83fea8b",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "6afa762ea2154196",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "e3b0c44298fc1c14",
+    "printed_nothing": true
+   }
+  ]
+ },
+ {
+  "id": "M7",
+  "batch": "labels, second half",
+  "checker_verdict": "REPRODUCES",
+  "checker_confidence": "high",
+  "summary": "B1855's FINDINGS.md title still says the run of 6 is 'PROVED LEAST', although main did not re-run the seat's exhaustive shortest-path search (Lemma E) or Lemma B; the point P-741 for that is still QUEUED. Its one-line claim says 'for every lcm(S) >= 12' without the scope S subset of {2,3,4,5}, which appears only in the scope.object field. The body and the arc_verdict.json cites_seat field do carry the 'cited, not re-run' caveat; the title and the claim line do not.",
+  "commands": [
+   "head -3 frontier/B1855_the_charge_law_settled/FINDINGS.md | cut -c1-330",
+   "python3 -c \"import json;d=json.load(open('frontier/B1855_the_charge_law_settled/arc_verdict.json'));print(d['claim_one_line'][:260]);print(d['scope']['object'])\"",
+   "sed -n 20,23p frontier/B1855_the_charge_law_settled/FINDINGS.md",
+   "git grep -n 'P-741' -- docs/POINT_REGISTER.md | cut -c1-120",
+   "git grep -n 'proved least' -- frontier | cut -c1-200"
+  ],
+  "files": [
+   "frontier/B1855_the_charge_law_settled/FINDINGS.md:1",
+   "frontier/B1855_the_charge_law_settled/FINDINGS.md:3",
+   "frontier/B1855_the_charge_law_settled/FINDINGS.md:22",
+   "frontier/B1855_the_charge_law_settled/FINDINGS.md:46",
+   "frontier/B1855_the_charge_law_settled/arc_verdict.json:23",
+   "frontier/B1856_charge_or_symmetry_at_five_verified/FINDINGS.md:45",
+   "docs/POINT_REGISTER.md:917"
+  ],
+  "audit_inaccuracies": "The 'thinnest margin 0.0017' is correct (FINDINGS.md:~19, at S={2,5}). The title does attribute the proof to 'the explore seat' and calls it 'checked', which is softer than the audit implies but still overstates what main re-ran. The scope is not wholly absent: it is in arc_verdict.json scope.object and in the body at :15. B1856:45 attributes the proof to the seat, so it is hedged. I did not recompute which subsets of {2,3,4,5} have lcm >= 12 or whether six counterexamples cover all of them.",
+  "minimal_fix": "Reword the B1855 H1 and claim_one_line to 'proved by the explore seat (cited; Lemma E search not re-run on main, P-741)' and to 'every S subset of {2,3,4,5} with lcm(S) >= 12'. Do the same in the B1856 line and the VERDICT_LEDGER row, which is generated.",
+  "acceptance_test": "A test that reads B1855's FINDINGS.md H1 and arc_verdict.json claim_one_line and fails unless the H1 contains 'cited' (or 'not re-run') and the claim line contains 'S ⊆ {2,3,4,5}' (or 'subsets of {2,3,4,5}') next to 'lcm(S) >= 12'. Before the fix it fails; after, it passes.",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "f9ed0eca3a1c848f",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "9664eb6106151aa0",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "b7e777d556ef66c4",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "896d693d0e25e67d",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "2e7be120f71d9281",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "M8",
+  "batch": "labels, second half",
+  "checker_verdict": "REPRODUCES",
+  "checker_confidence": "medium",
+  "summary": "B1850 still says every quote was 'found verbatim' (313 of 313) with no caveat that this proves only that the quote exists at its path, not that it decides the closure. The quote checker only tests that the quote is a substring of the named file. Of the 86 confirmed CLOSED-NO-LOAD closures, most quote the harvest-ledger row itself or a memo the row names. I could not reproduce the audit's exact '76 of 86'.",
+  "commands": [
+   "sed -n 17p frontier/B1850_the_open_leads_and_the_backlog_confirmed/FINDINGS.md",
+   "sed -n 1,25p frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/quote_check.py | grep -n 'substring\\|norm(o'",
+   "tail -1 frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/quote_check_run.txt",
+   "cd frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification && OMP_NUM_THREADS=1 nice -n 5 python3 -I -c \"import json,collections;rows=[o for n in ('cloud','physics','retired') for o in json.load(open(f'checks_backlog_{n}.json'))];nl=[o for o in rows if o['proposed']=='CLOSED-NO-LOAD' and o['verdict']=='CONFIRMED'];print(len(nl));print(collections.Counter(o['path'] for o in nl).most_common(3))\""
+  ],
+  "files": [
+   "frontier/B1850_the_open_leads_and_the_backlog_confirmed/FINDINGS.md:17",
+   "frontier/B1850_the_open_leads_and_the_backlog_confirmed/arc_verdict.json:25",
+   "frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/quote_check.py:8",
+   "frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/checks_backlog_cloud.json",
+   "frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/checks_backlog_physics.json",
+   "frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/checks_backlog_retired.json"
+  ],
+  "audit_inaccuracies": "In the JSON the disposition is spelled 'CLOSED-NO-LOAD' (not CLOSED-NO-LOAD-NO-LEAD, which is the name in the ledger after the apply step). The audit's '76 of 86' did not match my counts: 64 quote the row's own line, 22 more quote a memo the row names (64+22 = 86), and 35 of the paths are docs/HARVEST_LEDGER.md itself. The audit's own definition of 'quote the row's title or memo' is not given, so 76 is neither confirmed nor refuted. The row text may also have changed since B1850 (dated notes added). The count of 86 confirmed no-load closures is correct. The 'sample of 32 closures' was not re-checked.",
+  "minimal_fix": "Add one sentence to B1850's FINDINGS.md line 17 and the claim line, saying the 313 check proves existence of the quote at its path only, and that N of the 86 no-load closures quote the row itself or its own memo. Better, make quote_check.py count and print the quotes that come from the row's own ledger line.",
+  "acceptance_test": "A test that fails unless B1850's FINDINGS.md or claim_one_line contains a caveat such as 'existence only'. Optionally, quote_check.py prints a 'self-quoted' count and the test asserts that count is stated in FINDINGS.md.",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "5a4ce5f23940352c",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "da8458b4c01928bf",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "2fa04030194b9e14",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "aa9c53575025820c",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "M9",
+  "batch": "labels, second half",
+  "checker_verdict": "REPRODUCES",
+  "checker_confidence": "high",
+  "summary": "Paper folders still use 'EXTERNAL REVIEW' and 'outside referee' for work that PROVENANCE.md section 0 says is all internal. The file papers/P3_THE_PAPER/EXTERNAL_REVIEW_2026-09-09.md has that title and is 'Written for the banking seat'. The paper's main.tex, the P9 README and the P10 README call a referee 'outside'. The pretense gate (PRETENSE_PHRASES) scans only docs/*.md and top-level *.md, and neither phrase is in its list, so it cannot catch these.",
+  "commands": [
+   "git grep -n -i 'external review\\|outside referee' -- papers | grep -v -i 'no external review\\|not external review\\|internal' | cut -c1-200",
+   "head -5 papers/P3_THE_PAPER/EXTERNAL_REVIEW_2026-09-09.md",
+   "sed -n 1,16p PROVENANCE.md",
+   "sed -n 1903,1912p scripts/gates/gates.py | cut -c1-160",
+   "sed -n 1920,1923p scripts/gates/gates.py | cut -c1-120"
+  ],
+  "files": [
+   "papers/P3_THE_PAPER/EXTERNAL_REVIEW_2026-09-09.md:1",
+   "papers/P3_THE_PAPER/main.tex:224",
+   "papers/P9_what_a_grammar_fixes/README.md:23",
+   "papers/P10_theta_triplet_note/README.md:4",
+   "papers/metallic_trace_map_note/NOTE.md:3",
+   "papers/omega_strict_full_note/NOTE.md:3",
+   "docs/handoffs/CC_TO_ALL_SEATS_2026-10-20_FOUNDATIONS_AND_THE_SEPARATE_WORK.md:18",
+   "PROVENANCE.md:3",
+   "scripts/gates/gates.py:1903",
+   "scripts/gates/gates.py:1920"
+  ],
+  "audit_inaccuracies": "Many other hits are disclaimers and are fine (main.tex:40 and :122, P9 s01:110 and s09:29, verification_package README and REPORT: 'no external review is claimed'). The two 'consolidation for external review' notes are written for a future outside reader, which is not a claim that review took place, so they are a weaker case. main.tex is part of a paper frozen after draft 9 (owner rule), so changing line 224 needs an owner-allowed erratum. I did not verify whether the 2026-09-09 review's author was an AI seat (the text points that way, 'written for the banking seat', but I could not confirm).",
+  "minimal_fix": "Rename EXTERNAL_REVIEW_2026-09-09.md to something like ADVERSARIAL_READ_2026-09-09.md (fix the one reference at papers/P3_THE_PAPER/external_scan/PLAN_2026-09-10.md:52) and reword the 'outside referee' sentences to 'a second internal reader'. Extend the pretense gate to scan papers/ with 'external review' and 'outside referee' and a negation allowance.",
+  "acceptance_test": "A test that greps papers/ for the case-insensitive phrases 'external review' and 'outside referee' (skipping lines that contain 'no ', 'not ', 'internal' or 'for external review' notes if kept), and fails if any hit is left; plus a planted-violation test in the gate's own test file.",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "079ed992b941bafc",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "7533e7ae55d0ac5d",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "33d11dbe99e61550",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "7da287bcd1f375a3",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "8b75c7526e50158d",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "M10",
+  "batch": "labels, second half",
+  "checker_verdict": "PARTLY",
+  "checker_confidence": "medium",
+  "summary": "The register's second charge holds: its numeric entries P10 and P10-prime say a failure kills 'the TM1 reading, not the weave' (and P9 says its failure would falsify 'the vacuum'), and the eight original rows P1-P8 carry no per-row statement of what a failure contradicts. The first charge, 'most entries cannot fire', is overstated: by the register's own grades 4 of 11 rows are S4 (P1, P5, P7, P8), and its own recount says 3 cannot fire (P5, P7, P8) and 1 is withdrawn (P1). The rest are S1/S2 or mixed S2/S3. P10-prime has in fact fired (FALSIFIED 2026-10-24, B1756).",
+  "commands": [
+   "sed -n 15,26p docs/FALSIFIER_REGISTER.md | cut -c1-260",
+   "sed -n 28,32p docs/FALSIFIER_REGISTER.md | cut -c1-200",
+   "git grep -n 'READING\\|not the weave' -- docs/FALSIFIER_REGISTER.md | cut -c1-80",
+   "OMP_NUM_THREADS=1 nice -n 5 python3 -I -c \"import re;t=open('docs/FALSIFIER_REGISTER.md',encoding='utf-8').read();print(len([l for l in t.split(chr(10)) if re.match(r'\\| \\**P\\d+′?\\**',l)]), t.count('**S4**'))\""
+  ],
+  "files": [
+   "docs/FALSIFIER_REGISTER.md:15",
+   "docs/FALSIFIER_REGISTER.md:28",
+   "docs/FALSIFIER_REGISTER.md:59",
+   "docs/FALSIFIER_REGISTER.md:80",
+   "docs/FALSIFIER_REGISTER.md:81",
+   "docs/FALSIFIER_REGISTER.md:91"
+  ],
+  "audit_inaccuracies": "'Most entries cannot fire' is not literally true: it is 4 of 11 (S4), or 3 of 11 by the register's own 'cannot fire' label. If the S3 halves of P3 and P9 are counted it is still under half. The register already has an honest 'NOT FALSIFIABLE, AND WHY' section (:34) naming P5, P7, P8, so the audit's complaint is better read as: no row is graded for what a failure would contradict. The register has 11 rows (the audit does not give a count); the title still says 'the eight'. This is a judgement about wording, and I applied a literal count, so confidence is medium.",
+  "minimal_fix": "Add a column or line per row (P1-P10-prime) with one of 'contradicts the programme / a frame / a reading / nothing (cannot fire)', filled from the existing text; fix the title's 'eight'.",
+  "acceptance_test": "A test that parses docs/FALSIFIER_REGISTER.md and fails unless every row P1..P10′ has a non-empty value in the new 'a failure contradicts' cell drawn from the allowed set {programme, frame, reading, nothing}; it fails today because no such cell exists.",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "f1ad0252da8353a0",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "756e9e6e622ca44c",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "c60114d0224f8a1a",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "7a388bcf0e78b353",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "M11",
+  "batch": "labels, second half",
+  "checker_verdict": "REPRODUCES",
+  "checker_confidence": "high",
+  "summary": "The reviewer page still says 'Every PROVED arc names its test locks. Run them.' as a fixed string in the generator, not computed from data. On main, 421 of 1,079 PROVED arcs have a FINDINGS.md that names no tests/test_*.py lock, using the generator's own regex.",
+  "commands": [
+   "git grep -n 'Every PROVED arc names' -- docs scripts",
+   "OMP_NUM_THREADS=1 nice -n 5 python3 -I -c \"import re,glob,json,os;tot=no=0\nfor d in sorted(glob.glob('frontier/B*/')):\n  vp=d+'arc_verdict.json'\n  if not os.path.isfile(vp): continue\n  v=json.load(open(vp));fp=next((d+n for n in ('FINDINGS.md','VERDICT.md') if os.path.isfile(d+n)),None)\n  if not fp or v.get('verdict')!='PROVED': continue\n  tot+=1;no+=0 if re.findall(r'tests/(test_[A-Za-z0-9_]+\\.py)',open(fp,encoding='utf-8').read()) else 1\nprint(tot,no)\"",
+   "sed -n 59p scripts/views/generate.py | cut -c1-120"
+  ],
+  "files": [
+   "scripts/views/generate.py:263",
+   "scripts/views/generate.py:59",
+   "docs/views/REVIEWER.md:84"
+  ],
+  "audit_inaccuracies": "The audit's counts (414 of 1,068) were taken on 2026-11-07; today it is 421 of 1,079 (counted on arcs that have an arc_verdict.json and verdict PROVED). The ratio is the same, about 39 percent. The 324 vs 97 split is my own addition, so the 'names' claim fails but a lock often exists. The same page also says (REVIEWER.md:82-83) 'Every closure names an escape hatch', which I did not check.",
+  "minimal_fix": "In view_reviewer (scripts/views/generate.py:263) compute the count from `arcs` and print 'N of M PROVED arcs name a test lock' instead of the universal sentence; regenerate the view.",
+  "acceptance_test": "A test that regenerates the reviewer view and fails if it contains the substring 'Every PROVED arc names' while any PROVED arc has an empty `tests` list; after the fix it checks that the page states the computed N of M that equals the count from collect().",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "08bb3375a6d58b7f",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "917809cfe2a1eb2f",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "3cdc94c63f591f82",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "P1",
+  "batch": "propagation",
+  "checker_verdict": "REPRODUCES",
+  "checker_confidence": "medium",
+  "summary": "docs/THE_PROGRAMME_SO_FAR.md still gives the six ratios at chi2_six 2.74 and describes Step A and Step B of the final attack in the future or design tense. It never mentions B1823, B1825 or B1838. The plan (docs/THE_FINAL_ATTACK_2026-10-29.md) carries one dated note for B1823 only; B1825 (NEGATIVE, NO SUPPORT) and B1838 (OPEN, the six pass only with the small-cut end and fail at exact norms) are absent from all three files. Two audit claims are wrong today: the README does not state 2.74, and the plan does mention B1823.",
+  "commands": [
+   "git grep -n 'B1823\\|B1825\\|B1838' -- README.md docs/THE_PROGRAMME_SO_FAR.md docs/THE_FINAL_ATTACK_2026-10-29.md",
+   "grep -n '2\\.74' README.md docs/THE_PROGRAMME_SO_FAR.md",
+   "sed -n 37p README.md",
+   "sed -n 702,722p docs/THE_PROGRAMME_SO_FAR.md",
+   "python3 -c \"import json;[print(b,json.load(open(p))['verdict']) for b,p in [('B1823','frontier/B1823_step_a_the_tied_heavy_vacuum/arc_verdict.json'),('B1825','frontier/B1825_step_b_the_nine_from_one_address/arc_verdict.json'),('B1838','frontier/B1838_the_end/arc_verdict.json')]]\"",
+   "grep -n -i 'small-cut\\|exact norm' docs/THE_PROGRAMME_SO_FAR.md docs/THE_FINAL_ATTACK_2026-10-29.md README.md"
+  ],
+  "files": [
+   "README.md:37",
+   "docs/THE_PROGRAMME_SO_FAR.md:519",
+   "docs/THE_PROGRAMME_SO_FAR.md:540",
+   "docs/THE_PROGRAMME_SO_FAR.md:702-722",
+   "docs/THE_PROGRAMME_SO_FAR.md:773",
+   "docs/THE_FINAL_ATTACK_2026-10-29.md:117",
+   "frontier/B1838_the_end/FINDINGS.md:1"
+  ],
+  "audit_inaccuracies": "(1) README.md does not say the six reached 2.74. It only links the plan as 'the order the owner approved' (line 37) and carries no outcome. (2) 'None of the three is mentioned in ... the plan' is wrong for B1823: docs/THE_FINAL_ATTACK_2026-10-29.md:117-121 has a 2026-10-30 note saying Step A is NEGATIVE as a compression. B1825 and B1838 are still missing. (3) THE_PROGRAMME_SO_FAR does grade the 2.74 as a READING and not PASSED (B1798, line 501), so it is not presented as a clean success.",
+  "minimal_fix": "Add a short outcome paragraph to THE_PROGRAMME_SO_FAR section 9.2 and section 7 (Step A NEGATIVE B1823, Step B NEGATIVE B1825, the six fail at exact norms B1838 OPEN). Add a dated outcome note under Step B in the plan, and a one-line 'outcome so far' in the README row at line 37.",
+  "acceptance_test": "A test that reads README.md, docs/THE_PROGRAMME_SO_FAR.md and docs/THE_FINAL_ATTACK_2026-10-29.md and asserts each contains B1823, B1825 and B1838. It fails today and passes after the three edits.",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "fff4ffddb1d00b9b",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "0f188c5174990966",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "a0ae53dc583d74e3",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "a6198c1d99fd5e42",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "37a6b54e16a7df68",
+    "printed_nothing": false
+   },
+   {
+    "rc": 1,
+    "sha256_of_output": "e3b0c44298fc1c14",
+    "printed_nothing": true
+   }
+  ]
+ },
+ {
+  "id": "P3",
+  "batch": "propagation",
+  "checker_verdict": "REPRODUCES",
+  "checker_confidence": "medium",
+  "summary": "B892 carries the correction (dim 14 is su(3)+su(2)+u(1)^3, not the SM algebra) in both its arc_verdict.json note and ADDENDUM_2026-09-02_B1237.md. B861, B862, B863 and B1028 carry no pointer to it. B994 still says all six chains 'end at the Standard Model' and its only addendum (B1235) is about the chains, not the endpoint; that addendum does state the endpoint is su(2)+su(3)+3u(1), so B994 is a weak partial case. No commit since the audit commit touched these arcs for this reason.",
+  "commands": [
+   "cd frontier && grep -l -i 'B1237\\|B950\\|B951\\|B1236\\|u(1)³\\|u(1)^3\\|overstates' B861_fused_cascade/* B862_global_form/* B863_termination/* B994_rule_variation/* B1028_freedom_ledger/* 2>/dev/null",
+   "python3 -c \"import json;print(json.load(open('frontier/B892_second_measurement/arc_verdict.json'))['note'][:200])\"",
+   "grep -n 'SM' frontier/B994_rule_variation/FINDINGS.md | sed -n 1,6p",
+   "grep -rn 'su(2) + su(3) + 3 u(1)' frontier/B994_rule_variation"
+  ],
+  "files": [
+   "frontier/B892_second_measurement/arc_verdict.json:5",
+   "frontier/B892_second_measurement/ADDENDUM_2026-09-02_B1237.md:5",
+   "frontier/B861_fused_cascade/FINDINGS.md:1",
+   "frontier/B862_global_form/FINDINGS.md:1",
+   "frontier/B863_termination/FINDINGS.md:1",
+   "frontier/B994_rule_variation/FINDINGS.md:23",
+   "frontier/B994_rule_variation/ADDENDUM_2026-09-02_chains_are_not_subgroup_chains_B1235.md:10",
+   "frontier/B1028_freedom_ledger/FINDINGS.md:34"
+  ],
+  "audit_inaccuracies": "The finding is graded [S] and gives no grep. The B994 case is not clean: its B1235 addendum already says the endpoint is su(2)+su(3)+3u(1), but it never says 'this is not the SM' and the FINDINGS table still says SM. Also, 'dimension 14, rank 6' is the audit's wording; the B892 addendum says dim 14, derived 11, centre 3, and speaks of u(1)^3, so the audit's 'rank 6' (rank of su(3)+su(2)+u(1)^3 is 2+1+3 = 6) is correct but is not in the B892 text.",
+  "minimal_fix": "Add a dated correction addendum to each of B861, B862, B863, B994 and B1028 pointing to B892's B1237 addendum and to B950 (endpoint is su(3)+su(2)+u(1)^3, dim 14, not the dim-12 SM algebra); add the same sentence to each arc_verdict.json note.",
+  "acceptance_test": "A test over those five arc folders asserting each contains 'B1237' (or B950) in an addendum file or in arc_verdict.json note. It fails today for all five. The audit's stronger mechanism, a gate that flags depended-on arcs lacking a pointer to a correction, would also catch it.",
+  "main_rerun": [
+   {
+    "rc": 2,
+    "sha256_of_output": "b3edf1b1ef0e56fb",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "7b89cacc98985501",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "9d9ebf6557d1cfd8",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "ca06e4abdb582cef",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "P4",
+  "batch": "propagation",
+  "checker_verdict": "REPRODUCES",
+  "checker_confidence": "high",
+  "summary": "CLAIMS.md:147 (row C-cal) still states a parameter-free stage-grammar prediction 'consistent with the pinned first dedicated measurement at |z| = 0.02' with no note that B653's adjudication reclassified the comparison as VOID-AS-HELD-OUT-CONFIRMATION. B723 is still verdict PROVED with no supersession. The '16σ' framing, withdrawn on 2026-09-09, is still in many current pages. docs/OPEN_LEADS.md:3140-3142 itself lists all three as stale surfaces.",
+  "commands": [
+   "sed -n 147p CLAIMS.md | grep -c -i 'void\\|held-out'",
+   "grep -n 'VOID-AS-HELD-OUT' frontier/B653_phase_c_probe/ADJUDICATION_ADDENDUM.md",
+   "python3 -c \"import json;d=json.load(open('frontier/B723_build_the_observer/arc_verdict.json'));print(d['verdict'],d.get('superseded_by'))\"",
+   "sed -n 1,5p frontier/B723_build_the_observer/FINDINGS.md",
+   "git grep -n '16σ' -- docs/THE_FRAMEWORK.md docs/THE_SM_VERDICT.md docs/THE_FOUR_FORCES.md docs/GUT_REQUIREMENTS_LEDGER.md docs/ROADMAP.md TERMINOLOGY.md papers/P3_THE_PAPER/SPEC.md",
+   "sed -n 3140,3142p docs/OPEN_LEADS.md"
+  ],
+  "files": [
+   "CLAIMS.md:147",
+   "frontier/B653_phase_c_probe/ADJUDICATION_ADDENDUM.md:20",
+   "frontier/B723_build_the_observer/arc_verdict.json",
+   "frontier/B723_build_the_observer/FINDINGS.md:3",
+   "docs/THE_FRAMEWORK.md:239",
+   "docs/THE_SM_VERDICT.md:190",
+   "docs/ERROR_LEDGER.md:125",
+   "docs/THEOREM_LEDGER.md:384",
+   "docs/OPEN_LEADS.md:3140"
+  ],
+  "audit_inaccuracies": "'16σ stands on three pages' is out of date: it stands on at least eight current non-history pages (the list above), and docs/OPEN_LEADS.md says five. Some pages carry the withdrawal (docs/THEOREM_LEDGER.md:384, docs/ERROR_LEDGER.md:125); THE_FRAMEWORK, THE_SM_VERDICT, THE_FOUR_FORCES and TERMINOLOGY do not. 'Paper says about fifty' is supported by docs/ERROR_LEDGER.md:125 (~50σ) and papers/P3_THE_PAPER/reads_s12/opponent_2.md:43 (47σ). The B723 'three retractions' count was not re-derived by me; B942 and B957 are named in GENESIS.md:536, B1083 elsewhere.",
+  "minimal_fix": "Add a one-line 'consistency note only, void as held-out confirmation (B653 addendum)' to CLAIMS.md:147; replace '16σ' with the withdrawn-framing wording on the listed pages; set B723's arc_verdict to a superseded/corrected state (or add superseded_by) with the three retractions named.",
+  "acceptance_test": "Test 1: CLAIMS.md row C-cal must contain 'void' and 'B653' (fails today). Test 2: git grep for the bare string '16σ' in current-state pages must return only lines that also contain 'withdrawn' (fails today on at least eight lines). Test 3: B723 arc_verdict.json must not be a bare PROVED.",
+  "main_rerun": [
+   {
+    "rc": 1,
+    "sha256_of_output": "5feceb66ffc86f38",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "6eaa206ecc7a3abd",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "ca8701570c1c2416",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "b23edd208bcd4179",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "e7a727cb650e0680",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "4695526c62571d7e",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "P6",
+  "batch": "propagation",
+  "checker_verdict": "REPRODUCES",
+  "checker_confidence": "medium",
+  "summary": "docs/INDEX.md lists CLAIMS.md under 'Living' while CLAIMS.md says 'Last updated: 2026-07-04' and was last committed 2026-08-19. docs/CAMPAIGN_STATUS.md has 606 lines beginning '**LATEST' today (audit said 593). Also one Living entry is a broken path: THE_CLAIM.md at the root does not exist (the file is docs/THE_CLAIM.md). The audit does not name its four stale documents, so I could only identify some by last commit date.",
+  "commands": [
+   "sed -n 21,40p docs/INDEX.md",
+   "grep -n 'Last updated' CLAIMS.md | cut -c1-40",
+   "git log -1 --format=%cd --date=short -- CLAIMS.md",
+   "awk '/^\\*\\*LATEST/{c++} END{print c}' docs/CAMPAIGN_STATUS.md",
+   "for f in docs/THE_END_TO_END_CHAIN.md GOVERNANCE.md CLAIMS.md docs/THE_PATTERN_MEDITATION_3.md docs/THE_TOWERS.md THE_CLAIM.md; do echo \"$(git log -1 --format=%cd --date=short -- $f) $f\"; done"
+  ],
+  "files": [
+   "docs/INDEX.md:21-40",
+   "docs/INDEX.md:23",
+   "CLAIMS.md:12",
+   "docs/CAMPAIGN_STATUS.md"
+  ],
+  "audit_inaccuracies": "593 is now 606 (the file grows with each landing). The audit's four stale 'Living' documents are not named; by commit age CLAIMS.md (08-19), THE_END_TO_END_CHAIN.md (10-02) and GOVERNANCE.md (10-03) are the clear ones, and the two late-October ones may or may not count. INDEX.md itself was last committed 2026-10-30. Docs' 'LATEST' line count includes only lines starting with '**LATEST'; a plain grep -c LATEST gives 606 as well.",
+  "minimal_fix": "Either refresh CLAIMS.md's 'Last updated' and the stale Living documents, or move them out of 'Living' in docs/INDEX.md; fix the THE_CLAIM.md path to docs/THE_CLAIM.md; cap or archive the stale 'LATEST' entries in CAMPAIGN_STATUS.md so only the newest carries the label.",
+  "acceptance_test": "A test that parses docs/INDEX.md 'Living' table, asserts every path exists, and asserts each file's last git commit is within a stated window (or its own stated 'Last updated' date is); fails today for CLAIMS.md and THE_CLAIM.md. A second test asserts docs/CAMPAIGN_STATUS.md has at most a small number of lines starting '**LATEST'.",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "4b55c6bea5215467",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "538239b23c804467",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "0865310830800f0f",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "f57b8252cea0e3ca",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "0df17a1d463b7a0c",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "P7",
+  "batch": "propagation",
+  "checker_verdict": "REPRODUCES",
+  "checker_confidence": "high",
+  "summary": "The forcedness gate prints '53 of 57' while '39 of 43' still stands as a current statement in many pages (GENESIS.md:265, docs/INDEX.md:15, docs/THE_END_TO_END_CHAIN.md:44 and :57, docs/THE_FRAMEWORK.md:846, docs/THE_ROAD.md:260, docs/THEOREM_REGISTRY.md:240, and more). The LAW_MAP banner still says '113 rows'. Duplicate arc ids exist (B58 in three folders, B89 in two), so verdict files outnumber ids by 3. The numbers have moved since the audit.",
+  "commands": [
+   "OMP_NUM_THREADS=1 nice -n 5 python3 scripts/checks/forcedness_census.py | grep 'FORCED'",
+   "git grep -n '39 of 43' -- GENESIS.md docs/INDEX.md docs/THE_END_TO_END_CHAIN.md docs/THE_FRAMEWORK.md docs/THE_ROAD.md docs/THEOREM_REGISTRY.md | cut -c1-90",
+   "sed -n 5p docs/LAW_MAP.md; grep -c '^| ' docs/LAW_MAP.md",
+   "ls -d frontier/B58_* frontier/B89*",
+   "OMP_NUM_THREADS=1 nice -n 5 python3 -c \"import json,glob,collections;c=collections.Counter(json.load(open(f))['id'] for f in glob.glob('frontier/*/arc_verdict.json'));print(sum(c.values()),len(c),[k for k,v in c.items() if v>1])\"",
+   "sed -n 24p README.md"
+  ],
+  "files": [
+   "scripts/checks/forcedness_census.py",
+   "docs/THE_END_TO_END_CHAIN.md:44",
+   "docs/THE_END_TO_END_CHAIN.md:57",
+   "docs/INDEX.md:15",
+   "GENESIS.md:265",
+   "docs/THE_FRAMEWORK.md:846",
+   "docs/THE_ROAD.md:260",
+   "docs/THEOREM_REGISTRY.md:240",
+   "docs/LAW_MAP.md:5",
+   "frontier/B89T_tower_route/arc_verdict.json",
+   "README.md:24"
+  ],
+  "audit_inaccuracies": "(1) '39 of 43 on four pages' is now at least seven current-state pages (more in history files such as CHANGELOG and PROGRESS_LOG, which are append-only and fine). Note docs/THE_END_TO_END_CHAIN.md:44 and tests/test_b1123_forcedness.py say the gate pins the invariant, and paper_provenance.py:51 already knows '53 of 57'. (2) Counts are stale: the README now says 1,570 arcs with a verdict and there are 1,567 ids (not 1,559 and 1,556); the gap is still 3. (3) B89's second folder is B89T_tower_route, which is why a plain 'B89_' glob shows one folder; the duplicate is in the verdict ids, not the folder names. (4) The LAW_MAP banner is a dated measurement ('Measured 2026-07-29'), so it is stale in effect, not wrong as history; the file now has about 324 table rows.",
+  "minimal_fix": "Replace '39 of 43' in current-state pages with the gate's live count or with 'see the census (scripts/checks/forcedness_census.py)'; refresh or generate the LAW_MAP banner count; rename or renumber the duplicate arc ids (B58 x3, B89 x2) and add a uniqueness check on arc_verdict ids.",
+  "acceptance_test": "Test 1: no current-state doc contains '39 of 43' unless the same line also says it is a dated count. Test 2: a test that the ids in frontier/*/arc_verdict.json are unique; fails today on B58 and B89. Test 3: LAW_MAP's banner row count matches the table or the number is removed.",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "27f2937da7dff8f1",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "b837dadb7a8d7bf6",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "63c8c959148c5bd5",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "0b83c3b40f61382c",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "b8a49e09d93eb780",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "746c8b1e92b699ec",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "R2",
+  "batch": "gates and slips",
+  "checker_verdict": "REPRODUCES",
+  "checker_confidence": "high",
+  "summary": "The pinned environment (Python 3.12.1, numpy 2.4.0) is still only a prose table in REPRODUCIBILITY.md. pyproject.toml and requirements.txt have only lower bounds. No lock, constraints or environment file is tracked, and CI installs unpinned packages.",
+  "commands": [
+   "sed -n 3,19p REPRODUCIBILITY.md",
+   "cat requirements.txt",
+   "grep -n -E 'requires-python|dependencies' pyproject.toml",
+   "git ls-files | grep -E '(^|/)(uv\\.lock|poetry\\.lock|Pipfile\\.lock|constraints.*\\.txt|environment\\.ya?ml)$' | wc -l",
+   "grep -n 'pip install' .github/workflows/core.yml"
+  ],
+  "files": [
+   "REPRODUCIBILITY.md:3-19",
+   "requirements.txt:1-5",
+   "pyproject.toml:10-12",
+   ".github/workflows/core.yml"
+  ],
+  "audit_inaccuracies": "None found. Note that pyproject.toml and requirements.txt have lower bounds only, as the audit says; the exact pins live only in the REPRODUCIBILITY.md table (lines 10 and 13).",
+  "minimal_fix": "Commit a pinned lock file (e.g. requirements.lock from `pip freeze` in the pinned environment, with numpy==2.4.0 and the others at exact versions) and point REPRODUCIBILITY.md and core.yml at it.",
+  "acceptance_test": "A test that parses REPRODUCIBILITY.md's pinned-version table and the committed lock file and fails unless every row in the table (numpy, scipy, sympy, matplotlib) matches an exact == pin in the lock file.",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "c5c265e69a275a8b",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "b274aa02b24be752",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "03bb509bf5022bee",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "5feceb66ffc86f38",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "2359dad504759739",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "V1",
+  "batch": "the value layer",
+  "checker_verdict": "CANNOT_CHECK",
+  "checker_confidence": "low",
+  "summary": "The finding says 20% of random targets have their best fit at the top edge of the Im tau grid, so the specificity nulls for the six are biased low. This is a graded [S] (suspected, computed) measurement with no tracked script or number behind it. I found no tracked file on main that states the 20% or that extends the grid until under 1% sit on the boundary. The nulls on main do exist (B1749/B1753/B1798 re-pick the apex and line per random target, and B1839/B1841 say they price the apex (223) in the null), so whether an unpriced edge bias remains can only be decided by a computation I am barred from running here.",
+  "commands": [
+   "git grep -nEi \"(top|upper|grid) edge|boundary row|priced in the null\" -- '*.md' ':!CHANGELOG.md' ':!PROGRESS_LOG.md' ':!docs/views'",
+   "sed -n 17,21p frontier/B1839_the_end_card/ADDENDUM_2026-11-06_INPUT_COMPLETENESS.md",
+   "sed -n 11,12p frontier/B1711_the_order9_lines/FINDINGS.md",
+   "sed -n 64p frontier/B1749_the_six_at_fresh_apexes/FINDINGS.md"
+  ],
+  "files": [
+   "frontier/B1726_the_two_ingredients_replicated/FINDINGS.md:11",
+   "frontier/B1749_the_six_at_fresh_apexes/FINDINGS.md:64",
+   "frontier/B1798_the_six_graded_under_the_class_choosing_null/verification/analyse.py:39",
+   "frontier/B1839_the_end_card/ADDENDUM_2026-11-06_INPUT_COMPLETENESS.md:19",
+   "frontier/B1711_the_order9_lines/FINDINGS.md:11"
+  ],
+  "audit_inaccuracies": "The audit speaks of 'the Im tau grid' for every null, but the later nulls (B1753/B1798, B1839, B1841) do not scan a plain Im tau grid: they take the best over a set of 223 apexes and 266 lines, so the audit's 'edge of the grid' must mean the highest apex or grid row, and the audit does not say which null it measured. No file in the tracked tree contains the audit's 20% figure. docs/LOOK_LEDGER.md and the frontier files are unchanged on this point since the audit date.",
+  "minimal_fix": "Add a tracked script that, for each random target of one named null (for example B1798's b1753_all266 null), records which row (and so which Im tau) gave its best fit, and prints the share on the top Im tau row beside the data's own optimum row; then either extend the range until that share is under 1% or price the window in the null and re-read the quoted rarities.",
+  "acceptance_test": "A pytest or gate that runs that script on the committed kd_*.npz / census rows and fails if more than 1% of random targets have their best row on the boundary row of the range, or if the quoted rarities in LOOK_LEDGER/LAW_MAP are not marked as measured with the window priced.",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "509a881a9e6add49",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "122c34811c07db2d",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "539c52a161200df4",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "b3d40a0678446944",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "V2",
+  "batch": "the value layer",
+  "checker_verdict": "PARTLY",
+  "checker_confidence": "medium",
+  "summary": "The 10% allowance is real: ALLOW = 0.10 is in the compare scripts and sigma is the data's relative error in quadrature with 0.10. It is defined in TERMINOLOGY.md:763 and discussed as a CHOSEN input in docs/FRAMING_LEDGER.md (FL-13, FL-22). But the headline numbers on main are still quoted without the floor beside them: docs/THE_FINAL_ATTACK_2026-10-29.md:31 and docs/THE_PROGRAMME_SO_FAR.md:519 and :540 give 'chi2_six 2.74 ... against 16.75' with no mention of the allowance in the sentence or table. The 55,700 and 23,800 figures cannot be checked from tracked files (no tracked source, and recomputing them means comparing with measured data, which I was told not to do).",
+  "commands": [
+   "git grep -n \"ALLOW *= *0\\.10\" -- 'frontier/B1735*/verification/check.py' 'frontier/B1720*/verification/compare.py'",
+   "sed -n 763p TERMINOLOGY.md | cut -c1-260",
+   "sed -n 31p docs/THE_FINAL_ATTACK_2026-10-29.md | cut -c1-200",
+   "sed -n 517,520p docs/THE_PROGRAMME_SO_FAR.md",
+   "grep -nEi \"allowance|10 ?%|floor\" docs/THE_FINAL_ATTACK_2026-10-29.md README.md; echo rc=$?",
+   "git grep -nE \"55[ ,.]?700|23[ ,.]?800\" -- '*.md' '*.py' '*.json'; echo rc=$?"
+  ],
+  "files": [
+   "TERMINOLOGY.md:763",
+   "docs/THE_FINAL_ATTACK_2026-10-29.md:31",
+   "docs/THE_PROGRAMME_SO_FAR.md:519",
+   "docs/THE_PROGRAMME_SO_FAR.md:540",
+   "docs/FRAMING_LEDGER.md:47",
+   "docs/FRAMING_LEDGER.md:114",
+   "frontier/B1735_the_precision_bar_on_the_two_ingredient_censuses/verification/check.py:10"
+  ],
+  "audit_inaccuracies": "(1) The audit implies the floor is unstated; on main it is defined in TERMINOLOGY.md:763 (that definition already existed at 217e37c4f) and priced as a chosen input in FRAMING_LEDGER FL-13/FL-22, so the gap is the headline wording, not an absent definition. (2) README.md no longer contains 'chi2 2.74' (grep finds no match), so the audit's claim that README presents it is stale or imprecise; docs/THE_PROGRAMME_SO_FAR.md still does. (3) The 55,700 and 23,800 figures and the '2.74 row used an end condition corrected the day before' are not in any tracked file; I did not recompute them. (4) The docs named have no commits since the audit date, so nothing was fixed in between.",
+  "minimal_fix": "In docs/THE_FINAL_ATTACK_2026-10-29.md:31 and docs/THE_PROGRAMME_SO_FAR.md:519 and :540, add beside each chi2_six/chi2_nine value the words 'with a flat 10% allowance per ratio in quadrature (TERMINOLOGY chi2_six; FL-22)', and name the end condition used for the 2.74 row.",
+  "acceptance_test": "A gate or pytest that scans the front-door docs for the regex 'chi2?_(six|nine)[^|\\n]{0,40}[0-9]' and fails any line that lacks 'allowance' or '10%' within the same sentence or table row, run on a committed planted violation as well as on main.",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "574cce6c3439ac8f",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "d16cbff2174c5445",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "21fa5d8f920eb4e3",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "aebb0805d9921e2f",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "f48f648bc0a1ce16",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "5c034339ded61e15",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "V3",
+  "batch": "the value layer",
+  "checker_verdict": "REPRODUCES",
+  "checker_confidence": "high",
+  "summary": "The audit/ directory is git-ignored (.gitignore:11) and has 0 tracked files; it holds 281 untracked entries at its top level. docs/POINT_REGISTER.md cites 'audit/' on 83 lines, the P-377 row (line 553) rests the '66% of random CKMs' figure on 'the data's six with 64 random CKMs ... audit/verify_sweet/NOTES.md', and the scripts for it (audit/verify_sweet/two_doublets_ckm_calibration.py and two_doublets_calibration.py) exist only in the untracked directory. No tracked script or output reproduces the 64 draws, and I found no tracked line marking the figure 'untracked, not reproducible'.",
+  "commands": [
+   "git check-ignore -v audit/verify_sweet/NOTES.md",
+   "git ls-files | grep -c '^audit/'",
+   "grep -cE '(^|[^a-zA-Z_/])audit/' docs/POINT_REGISTER.md",
+   "git grep -c 'audit/' -- 'frontier/*FINDINGS.md' | wc -l",
+   "git ls-files | grep -iE 'verify_sweet|two_doublets'; echo rc=$?",
+   "sed -n 21,23p audit/verify_sweet/NOTES.md",
+   "git grep -n \"untracked, not reproducible\" -- '*.md'; echo rc=$?"
+  ],
+  "files": [
+   ".gitignore:11",
+   "docs/POINT_REGISTER.md:553",
+   "audit/verify_sweet/NOTES.md:21",
+   "audit/verify_sweet/two_doublets_ckm_calibration.py",
+   "CHANGELOG.md:1214",
+   "docs/THE_FINAL_ATTACK_2026-10-29.md:32",
+   "frontier/B1757_step_twos_free_doublets_at_the_strip/arc_verdict.json:24"
+  ],
+  "audit_inaccuracies": "The FINDINGS.md count is 68 on main, not 65 (68 of 1,622 tracked FINDINGS.md files under frontier/ contain 'audit/'). The 83 POINT_REGISTER lines holds when 'audit/' must be a path (85 by plain substring). The '66%' figure also appears in tracked CHANGELOG.md:1214, docs/THE_FINAL_ATTACK_2026-10-29.md:32, docs/THE_PROGRAMME_SO_FAR.md:570 and B1757's arc_verdict.json:24, all pointing back to the untracked P-377 source. I did not count the citations inside the plan itself.",
+  "minimal_fix": "Copy the scripts and outputs behind the cited numbers (start with audit/verify_sweet/two_doublets_ckm_calibration.py and its _run.txt and .json) into a tracked frontier/ arc with an ARTIFACT_HASHES.txt, and mark every remaining audit/ citation 'untracked, not reproducible'.",
+  "acceptance_test": "A gate that, for each audit/ path cited in docs/POINT_REGISTER.md, fails unless the path is tracked in git (git ls-files) or the same line contains 'untracked, not reproducible'; it must fail on main today (83 lines) and pass after the fix.",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "189f905a954d1ce5",
+    "printed_nothing": false
+   },
+   {
+    "rc": 1,
+    "sha256_of_output": "5feceb66ffc86f38",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "bbb965ab0c80d653",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "a21855da08cb102d",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "86ec4e9ce2251c87",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "139c3917354f8d8f",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "86ec4e9ce2251c87",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "V5",
+  "batch": "the value layer",
+  "checker_verdict": "PARTLY",
+  "checker_confidence": "medium",
+  "summary": "docs/LOOK_LEDGER.md has no row for B1658, B1659 or B1724 (grep finds none); the ledger is unchanged since the audit. Only B1658 clearly belongs: its FINDINGS says its census T4 'reads data that were seen: a scoreboard' (a sealed test against the measured ratios). B1659's own FINDINGS says 'No data', and B1724 says 'No data enters sections 1-2' but its section 3 re-runs earlier arcs' random-target calibrations with and without S*, which is a re-read of old looks rather than a new one, so those two are judgement calls, not clear omissions. The two uncertainty standards for D are both on record (10.58 +/- 0.11 from the literature at docs/LOOK_LEDGER.md:55 and docs/POINT_REGISTER.md:270; 10.58 +/- 1.19 as the record's own inputs at docs/HARVEST_LEDGER.md:1150 and :1375), so that part is true as a description, though each is labelled with its source. The 'two opposite line-label conventions' part I could not locate.",
+  "commands": [
+   "grep -nE \"B1658|B1659|B1724\" docs/LOOK_LEDGER.md; echo rc=$?",
+   "sed -n 6p frontier/B1658_the_twisted_half_bound/FINDINGS.md",
+   "sed -n 6p frontier/B1659_the_joint_law/FINDINGS.md",
+   "sed -n 3p frontier/B1724_the_readings_covariance/FINDINGS.md",
+   "sed -n 55p docs/LOOK_LEDGER.md | cut -c1-200",
+   "git grep -noE \".{40}1\\.19.{30}\" -- docs/HARVEST_LEDGER.md | head -3",
+   "git log --oneline 217e37c4f..HEAD -- docs/LOOK_LEDGER.md | wc -l"
+  ],
+  "files": [
+   "docs/LOOK_LEDGER.md:55",
+   "docs/LOOK_LEDGER.md:154-158",
+   "frontier/B1658_the_twisted_half_bound/FINDINGS.md:6",
+   "frontier/B1659_the_joint_law/FINDINGS.md:6",
+   "frontier/B1724_the_readings_covariance/FINDINGS.md:57",
+   "docs/HARVEST_LEDGER.md:1150",
+   "docs/HARVEST_LEDGER.md:1375",
+   "docs/POINT_REGISTER.md:270"
+  ],
+  "audit_inaccuracies": "B1659 is not a data contact (its FINDINGS says 'No data'), so 'three missing data contacts' is at most one clear case (B1658) plus one arguable (B1724). The ledger's first-full-count section (docs/LOOK_LEDGER.md:154-158) lists the arcs 'read and not counted' (B1656, B1666, B1667, B1700, B1703, B1691, B1692, B1729) and names none of the three, so they are not recorded as deliberately excluded either. The audit does not name the two line-label conventions or the files that use them; the nearest text I found is the 'row convention' in P-336 and B1733, which is one convention stated, not two opposed, so I could not confirm that sub-claim.",
+  "minimal_fix": "Add B1658 (sealed, scoreboard against the data) to docs/LOOK_LEDGER.md as a look, and list B1659 and B1724 in the 'read and not counted' paragraph with the reason; state beside each use of D which uncertainty (0.11 literature, 1.19 record's own) is meant; name the line-label convention in one tracked place and tag lines that use the other.",
+  "acceptance_test": "A test that reads every frontier arc between B1656 and the ledger's last arc, and fails if an arc whose FINDINGS lacks the words 'No data' does not appear in docs/LOOK_LEDGER.md either as a row or in the 'read and not counted' list; today it fails on B1658 (and B1724 unless it is listed).",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "86ec4e9ce2251c87",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "55e428d568f9372d",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "b511be9ce4b76d49",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "923826dc72b30ca9",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "61c0b767ef0be0d7",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "733168746dd5c75f",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "5feceb66ffc86f38",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "W2",
+  "batch": "weave against thread",
+  "checker_verdict": "REPRODUCES",
+  "checker_confidence": "high",
+  "summary": "On main the verdict files are frontier/*/arc_verdict.json. Only 250 of 1,570 carry a truthy weave_or_thread, and 287 carry scope. The picture the audit describes is unchanged: most claims have no machine-readable quantifier. The 14 newest arcs (B1855 and later) all carry both fields, but no gate requires them.",
+  "commands": [
+   "OMP_NUM_THREADS=1 nice -n 5 python3 -c \"import glob,json; fs=glob.glob('frontier/*/arc_verdict.json'); ds=[json.load(open(f)) for f in fs]; print(len(fs), sum(1 for d in ds if d.get('weave_or_thread')), sum(1 for d in ds if d.get('scope')))\"",
+   "grep -n 'weave_or_thread\\|\"domain\"\\|truncat' scripts/gates/gates.py",
+   "grep -n 'weave_or_thread' scripts/checks/arc_data.py WORKING_RULES.md"
+  ],
+  "files": [
+   "scripts/checks/arc_data.py:23",
+   "scripts/checks/arc_data.py:139",
+   "WORKING_RULES.md:398",
+   "scripts/gates/gates.py"
+  ],
+  "audit_inaccuracies": "Counts are stale because main grew: 239/1,556 and 276 are now 250/1,570 and 287 (same method; key present and truthy). No arc_verdict.json has a `domain` key, so the acceptance row W-a (domain field, gate for arcs numbered after the fix) is not met.",
+  "minimal_fix": "Add a gate that fails when an arc_verdict.json for an arc numbered after the fix lacks `weave_or_thread` (or the new `domain`), with the older arcs listed as a named backlog that may only shrink.",
+  "acceptance_test": "Commit a planted new arc_verdict.json without the field and the gate must fail; the same file with the field must pass; the backlog list must fail the gate if it grows.",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "5b7afdcbf7fef7d9",
+    "printed_nothing": false
+   },
+   {
+    "rc": 1,
+    "sha256_of_output": "e3b0c44298fc1c14",
+    "printed_nothing": true
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "aa5ffa1d305c9921",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "W3",
+  "batch": "weave against thread",
+  "checker_verdict": "REPRODUCES",
+  "checker_confidence": "high",
+  "summary": "TERMINOLOGY.md:11 still defines 'the object' as the figure-eight knot complement 4_1 (m004). Line 757 repeats that 'the object' is one thread, m004. GENESIS.md FK13 (line 457) is ruled by the principle that the family is the word states, and GENESIS.md:299 says the set is 'not used in a verdict line'. The two documents therefore still do not agree on the default noun.",
+  "commands": [
+   "grep -n '^| \\*\\*the object\\*\\*' TERMINOLOGY.md",
+   "grep -n 'the object\" is one thread' TERMINOLOGY.md",
+   "grep -n '^| FK13' GENESIS.md | cut -c1-200"
+  ],
+  "files": [
+   "TERMINOLOGY.md:11",
+   "TERMINOLOGY.md:757",
+   "GENESIS.md:299",
+   "GENESIS.md:457",
+   "WORKING_RULES.md:398"
+  ],
+  "audit_inaccuracies": "Slightly loose: FK13's text rules that 'the family as object' is the word states; it does not literally say 'the object is the word states'. WORKING_RULES.md:398 already calls 'the object' (m004) a thread word, so the repo contradicts itself rather than only TERMINOLOGY.",
+  "minimal_fix": "Rewrite the TERMINOLOGY.md:11 row (and :757) so 'the object' is not m004: either define it as the word states (FK13) and name m004 as 'the thread m004', or mark the row deprecated and point to 'thread'. State the same in GENESIS FK13.",
+  "acceptance_test": "A test or gate that parses TERMINOLOGY.md and fails if the 'the object' row still contains 'figure-eight' or 'm004' as its definition, and a check that the row mentions FK13 / word states.",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "334e2648945a0d6f",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "08266c1b681b4b04",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "f4c29279f5eb9bf2",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "W4",
+  "batch": "weave against thread",
+  "checker_verdict": "REPRODUCES",
+  "checker_confidence": "high",
+  "summary": "No truncation is recorded in any verdict file. The 27 distinct keys in arc_verdict.json contain none about truncation, removal, domain or range. A 'truncation ledger' exists only as a planned item: it is named in B1861's programme and in the point register (P-767, rulings carried out later), not as a field or gate.",
+  "commands": [
+   "OMP_NUM_THREADS=1 nice -n 5 python3 -c \"import glob,json,collections; c=collections.Counter(); [c.update(json.load(open(f)).keys()) for f in glob.glob('frontier/*/arc_verdict.json')]; print(len(c)); print([k for k in c if any(w in k.lower() for w in ('trunc','remov','carrier','domain','restrict','range','window','limit'))])\"",
+   "git grep -li 'truncation ledger\\|truncation list' -- . | head -20",
+   "grep -n -i 'truncat' WORKING_RULES.md GENESIS.md METHOD.md GOVERNANCE.md"
+  ],
+  "files": [
+   "frontier/B1861_the_closure_programme/FINDINGS.md:205",
+   "docs/POINT_REGISTER.md:943",
+   "GOVERNANCE.md:302"
+  ],
+  "audit_inaccuracies": "None found. The finding is about absence, and the absence holds. P-767 (confirmed rulings, to be carried out) shows the fix is owed, not done.",
+  "minimal_fix": "Add a required `truncations` list to arc_verdict.json (each entry graded FORCED with theorem, COMPUTATIONAL with range, or CHOSEN) and a gate that requires it for arcs numbered after the fix.",
+  "acceptance_test": "Committed planted arc_verdict.json for a new arc with no `truncations` key (or with an entry lacking a grade) must make the gate fail; a well-formed entry must pass; a CHOSEN entry must appear on the inputs scoreboard.",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "45c72e00453edb4c",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "0b44b6c10f20be1d",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "11eee961af2ffd25",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "W5",
+  "batch": "weave against thread",
+  "checker_verdict": "PARTLY",
+  "checker_confidence": "medium",
+  "summary": "W5 is a list of six instances of the W4 class. B854, B997, B1855 and B1853 have since been corrected or scoped in prose on main (dated notes, scope fields) but the verdict files for B854 and B997 carry no change, and no mechanism exists (see W4). B1291 is re-scoped inside its FINDINGS.md but its verdict file has no scope or pointer to B1292. The V1 item (nulls' tau window) was not checked: it would need computing, which is out of bounds here.",
+  "commands": [
+   "sed -n 108,112p frontier/B854_centralizer_exact/FINDINGS.md",
+   "sed -n 93,100p frontier/B997_golden_conductor_uniqueness/FINDINGS.md",
+   "python3 -c \"import json,glob; d=json.load(open(glob.glob('frontier/B1855_*/arc_verdict.json')[0])); print(d['scope']['object'], '|', d['weave_or_thread'])\"",
+   "sed -n 83,90p frontier/B1853_the_departures_depth_premises_verified/FINDINGS.md",
+   "python3 -c \"import json,glob; d=json.load(open(glob.glob('frontier/B1291_*/arc_verdict.json')[0])); print(sorted(d), d['superseded_by'])\"",
+   "sed -n 57p frontier/B1291_the_parity_of_the_cusp/FINDINGS.md",
+   "grep -n 'B1859' GENESIS.md docs/THEOREM_REGISTRY.md docs/LAW_MAP.md docs/THE_CLAIM.md | cut -c1-120"
+  ],
+  "files": [
+   "frontier/B854_centralizer_exact/FINDINGS.md:110",
+   "frontier/B997_golden_conductor_uniqueness/FINDINGS.md:93",
+   "frontier/B1855_the_charge_law_settled/arc_verdict.json",
+   "frontier/B1853_the_departures_depth_premises_verified/FINDINGS.md:83",
+   "frontier/B1291_the_parity_of_the_cusp/FINDINGS.md:57",
+   "frontier/B1291_the_parity_of_the_cusp/arc_verdict.json",
+   "docs/THE_CLAIM.md:44"
+  ],
+  "audit_inaccuracies": "Stale: the B854 scope note (B1862), B997 dated note and register corrections (B1859), B1855 scope and title, and B1853 range note all landed after the audit, so 'stated in prose or not at all' is now partly fixed for those four. Not stale: B1291 verdict has no scope or link to B1292. B1855's 'every lcm >= 12' wording is gone (title and scope now state the range).",
+  "minimal_fix": "For the residue only: add a one-line scope/pointer to B1292 in B1291's arc_verdict.json (claim_one_line or scope), and update docs/THE_CLAIM.md:44 to the corrected wording. The class itself is closed only by the W4 truncation ledger.",
+  "acceptance_test": "A test that asserts B1291's arc_verdict.json names B1292 (or has a scope field) and that every arc whose FINDINGS.md has a 'RE-SCOPED' or 'Dated note ... false' marker has a matching field in its verdict file.",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "f612f986b08a9325",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "1bf4b5d3643746ce",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "b30f4ea087bb3f50",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "724cc3c07c07d4f7",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "3889546c70e3bd32",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "ce2530b6bbca32ad",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "56d767ab1ff01ede",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "X1",
+  "batch": "governance",
+  "checker_verdict": "REPRODUCES",
+  "checker_confidence": "medium",
+  "summary": "The governing documents still say what the audit says. GOVERNANCE.md, CLAIMS.md and the banned-phrase gate are unchanged since the audited commit 217e37c4f, so nothing was amended. The 'twelve places' count and the claim that each place 'caps or contradicts' the goal are the auditor's judgment ([S]), not a mechanical count.",
+  "commands": [
+   "grep -n -i 'theory of everything' GOVERNANCE.md",
+   "sed -n 40,45p GOVERNANCE.md; sed -n 57,64p GOVERNANCE.md",
+   "sed -n 194,200p CLAIMS.md",
+   "grep -n 'toward the full SM' scripts/gates/gates.py",
+   "git diff --stat 217e37c4f HEAD -- GOVERNANCE.md CLAIMS.md",
+   "sed -n 56,72p docs/THE_CLAIM.md"
+  ],
+  "files": [
+   "GOVERNANCE.md:23",
+   "GOVERNANCE.md:40-45",
+   "GOVERNANCE.md:57-64",
+   "CLAIMS.md:194-200",
+   "scripts/gates/gates.py:43",
+   "docs/THE_CLAIM.md:56-72",
+   "GENESIS.md:784 (FK11)",
+   "GENESIS.md:676 (GAP6)"
+  ],
+  "audit_inaccuracies": "docs/THE_CLAIM.md:58-71 today is the anchor-doctrine text (it defines 'parameter-free' as zero free dimensionless parameters); I did not find in it a plain cap on a parameter-free theory of everything, so that one of the twelve places is doubtful. The text at those lines is unchanged in substance since the audit (5-line diff elsewhere in the file). I did not enumerate the full twelve. GENESIS.md's FK11 (line 784) and GAP6 (line 676) were located but not judged.",
+  "minimal_fix": "Amend GOVERNANCE.md:23 and the two 'contents' passages so they state the owner's goal (a parameter-free theory of everything), keeping the old text with a dated note and keeping the claim ceiling; reword the CLAIMS.md O1-O7 header so they read as targets not caps.",
+  "acceptance_test": "A test that fails while GOVERNANCE.md still contains 'The goal is **not** a theory of everything', and a planted 'the Standard Model is derived' in README.md still fails the banned-phrase (framing lock) gate in scripts/gates/gates.py.",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "90b50dd38d55ed06",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "bdbcc1721580f378",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "a341094568444058",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "1a41ed807b1adc46",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "e3b0c44298fc1c14",
+    "printed_nothing": true
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "3a3355d299b4f2ce",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "X2",
+  "batch": "governance",
+  "checker_verdict": "REPRODUCES",
+  "checker_confidence": "medium",
+  "summary": "Three files still each claim to win a disagreement. GOVERNANCE.md:6-9 calls itself the constitution and says every other file is subordinate; GENESIS.md:29 says where any document disagrees with it, it holds; CLAIMS.md:3 calls itself the living source of truth. GOVERNANCE.md:34-45 still permits the label 'derives the form of Standard-Model structure ... graviton slot'. Whether that is stronger than GENESIS statuses allow is the auditor's judgment.",
+  "commands": [
+   "sed -n 6,9p GOVERNANCE.md",
+   "sed -n 29,30p GENESIS.md",
+   "sed -n 3,4p CLAIMS.md",
+   "sed -n 34,45p GOVERNANCE.md"
+  ],
+  "files": [
+   "GOVERNANCE.md:6-9",
+   "GOVERNANCE.md:34-45",
+   "GENESIS.md:29",
+   "CLAIMS.md:3"
+  ],
+  "audit_inaccuracies": "None found. Line numbers match (GOVERNANCE:9, GENESIS:29, CLAIMS:3). The 'stronger self-label' part is judgment, not mechanically checkable.",
+  "minimal_fix": "Name one governing document (per the acceptance row) and make the other two point to it; change GOVERNANCE.md section 2's permitted label to quote GENESIS.md's status words.",
+  "acceptance_test": "A test that greps GOVERNANCE.md, GENESIS.md and CLAIMS.md for supremacy phrases ('subordinate to the rules here', 'this file holds', 'source of truth') and asserts exactly one file carries a governing claim.",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "c3ce7038035cb897",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "7fc977a70cafa294",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "4f9d0e4aed11326f",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "29c02adf4aa11413",
+    "printed_nothing": false
+   }
+  ]
+ },
+ {
+  "id": "X3",
+  "batch": "governance",
+  "checker_verdict": "PARTLY",
+  "checker_confidence": "medium",
+  "summary": "The failure part does not reproduce: the certificate script (B1266 sources.py) exits 0 with SELFTEST: PASS on main, and it is run by a test (tests/test_b1266_sources.py runs it by subprocess; 4 of 4 pass). The script and its input ledger are unchanged since the audited commit, so it passed then too; the audit's failure cannot be reproduced from here (cause unknown, maybe another environment or another script). The undercount part holds as a design fact: the '4' in '4 + 9 = 13' is a hard-coded constant AXIOMS = 4, not computed from GENESIS.md statuses, while GENESIS.md has many more POSTULATED/CHOSEN rows (PF1-3, GM1-4, GM5a, GM5d, SE1, SE2, FK2, FK6 by grep). That the true count is at least 14 is the auditor's reading; I did not recount it.",
+  "commands": [
+   "OMP_NUM_THREADS=1 nice -n 5 python3 -B frontier/B1266_the_source_of_input/verification/sources.py | tail -8",
+   "OMP_NUM_THREADS=1 nice -n 5 python3 -B frontier/B1266_the_source_of_input/verification/sources.py >/dev/null 2>&1; echo exit=$?",
+   "OMP_NUM_THREADS=1 nice -n 5 python3 -B -m pytest tests/test_b1266_sources.py -q -p no:cacheprovider",
+   "grep -n 'AXIOMS' frontier/B1266_the_source_of_input/verification/sources.py",
+   "git diff --stat 217e37c4f HEAD -- frontier/B1266_the_source_of_input docs/IDENTIFICATION_LEDGER.md"
+  ],
+  "files": [
+   "frontier/B1266_the_source_of_input/verification/sources.py:58",
+   "frontier/B1266_the_source_of_input/verification/sources.py:134",
+   "tests/test_b1266_sources.py:6-20",
+   "docs/THE_COUNT_2026-11-06.md:72",
+   "docs/TOTAL_INPUTS_SCOREBOARD.md:7",
+   "GENESIS.md:80-118"
+  ],
+  "audit_inaccuracies": "'currently exits with a failure' is not true on main today and was not true at 217e37c4f either (script and ledger unchanged). 'run by nothing' is wrong: tests/test_b1266_sources.py runs it. I did not inspect scripts/run_suite.sh, only that pytest collects the test. The finding does not name the script; I assumed it is B1266's sources.py because docs say the price 13 comes from it.",
+  "minimal_fix": "Replace the constant AXIOMS = 4 by a count parsed from the POSTULATED/CHOSEN rows of GENESIS.md (stating which statuses count), and make the printed price follow it.",
+  "acceptance_test": "A test that parses GENESIS.md statuses and asserts sources.AXIOMS equals that count; it fails while AXIOMS is the literal 4. The assert at sources.py:134 must be updated with it.",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "896a2d8374a4a341",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "804cb8b0d0ccd967",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "030240aa96cf78dd",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "637547fec77b79a1",
+    "printed_nothing": false
+   },
+   {
+    "rc": 0,
+    "sha256_of_output": "e3b0c44298fc1c14",
+    "printed_nothing": true
+   }
+  ]
+ },
+ {
+  "id": "X4",
+  "batch": "governance",
+  "checker_verdict": "REPRODUCES",
+  "checker_confidence": "medium",
+  "summary": "Most verdict files still lack a scope tag, and no 'domain' field exists in any of them. The audit's totals are slightly stale: today there are 1,570 frontier/*/arc_verdict.json files, 287 carry a 'scope' key, so 1,283 lack one (audit: 1,556 and 1,280). weave_or_thread is now on 250 files (audit W2: 239).",
+  "commands": [
+   "OMP_NUM_THREADS=1 nice -n 5 python3 -B -c \"import glob,json; fs=glob.glob('frontier/*/arc_verdict.json'); print(len(fs)); print({k:sum(1 for f in fs if k in json.load(open(f))) for k in ('scope','domain','weave_or_thread')})\""
+  ],
+  "files": [
+   "frontier/*/arc_verdict.json",
+   "scripts/gates/gates.py:1374-1400 (counts scope markers; does not require one)"
+  ],
+  "audit_inaccuracies": "Totals drifted: 1,556 files is now 1,570; 1,280 without scope is now 1,283. The finding does not name the field; I used the 'scope' key (276 at audit by the audit's own arithmetic, 287 today).",
+  "minimal_fix": "Add a required 'domain' field (thread / named set / all threads of a kind / weave) to arc_verdict.json for every arc numbered after the fix, with the backlog held as a named list that a gate lets only shrink.",
+  "acceptance_test": "A gate test that fails on a committed new arc_verdict.json without 'domain', and fails when the backlog list gains a name or does not shrink after a verdict is backfilled.",
+  "main_rerun": [
+   {
+    "rc": 0,
+    "sha256_of_output": "e5fddc57c625d8d3",
+    "printed_nothing": false
+   }
+  ]
+ }
+]
