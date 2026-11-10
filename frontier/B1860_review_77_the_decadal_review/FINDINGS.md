@@ -27,7 +27,10 @@ review entry is in `docs/progress/REVIEWS.md` ("# Review 77"). This arc carries 
       reader. This is E94 for the third time. The logs are sealed under tracked names, and the `tracked-deps` gate now
       reads every lock's paths relative to its own file, with a planted control. Before, it could not see this class.
     - P3's package manifest was one lock behind. Rebuilt.
-  - The fresh-clone gates are run at the anchor commit and recorded in the entry (§ 2).
+  - **The fresh-clone gates pass at adbd28ddc,** after the anchor line, the view refresh and the views.
+    - Their first run failed on one gate, `seal-order-unshown`, which this window added. It reads B1670's order on a
+      kept referee branch, and the tool's clone for the gates did not carry the published branches. The tool's clone
+      for the suite did. Both now do (`review_tools.fresh_clone`).
 - **Found the same day, after the reader:** eight nodes of the closure map were graded CONDITIONAL and named no
   premise. Each now carries one, and the map's builder refuses a conditional result with none (B1858 § 5b).
 - **Advancement:** no law added; four law rows and one registry row corrected (B1859); GENESIS at v1.63.

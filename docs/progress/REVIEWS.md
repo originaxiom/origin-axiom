@@ -8457,12 +8457,16 @@ verdict (B1849–B1859). Run by main. The process arc is B1860; its reader's rep
         may keep an ignored cache, and a lock may not depend on one.
     - **P3's package manifest was one lock behind** (`tests/test_harvest_scheduled_counter.py`, which names B1303).
       Rebuilt.
+- **The fresh-clone gates found a fault in the review tool itself.** `seal-order-unshown`, a gate added in this window
+  (R76-2), reads B1670's order on its kept referee branch. The tool's fresh clone for the gates did not carry the
+  published branches; its clone for the suite did. So the gate failed in that clone only. Both clones now carry them,
+  as a clone of the published repository does.
 - **Found the same day, building the closure programme on the map (B1861):** eight nodes of B1858 were graded
   CONDITIONAL and named no premise (six of the value frame's forced joints, the Z′ statement and one framing row).
   Each now carries an edge to what it is conditional on, taken from the scoreboard's own basis cell, and the map's
   builder refuses a conditional result with none.
 
-fresh-clone: NOT YET RUN -- the review fired (41 merges), so no commit before the anchor line can pass `review-fires`; the run is made at the anchor commit and recorded on this line in the commit after it
+fresh-clone: PASS @ adbd28ddc (gates all PASS; belt ok) (after the anchor line, the view refresh and the views; the review's landing is 10641a1b2). The review had fired, so no commit before the anchor line could pass `review-fires`, and this line was written in the commit after the run. A first run at adbd28ddc FAILED on one gate, `seal-order-unshown`: the tool's clone did not carry the published branches, where B1670's order is shown; the suite's clone already did. The tool now fetches them in both
 fresh-clone suite: FAIL @ cf0c56079 (8125 passed, 7 failed, 70 skipped; diagnosed above: three clear with the anchor line, two standing, two fixed here)
 sample seed: 1eb535ecd; read in full: B1849, B1852, B1853, B1854, B1858
 gate controls: 49 registered failing-path tests; unregistered: none

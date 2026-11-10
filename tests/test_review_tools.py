@@ -213,3 +213,12 @@ def test_provenance_hits_skip_a_disclaimer_as_the_gate_does():
     import importlib, sys as _s
     _s.path.insert(0, str(rt.ROOT / "scripts" / "gates")); G = importlib.import_module("gates")
     assert rt.NEGATION == G.PRETENSE_NEGATION, "the tool's window must stay the gate's"
+
+
+def test_both_fresh_clones_carry_the_published_branches():
+    """Review 77: the gates' clone lacked the remote-tracking refs the suite's clone had, so a gate that reads a kept
+    branch (seal-order-unshown, B1670) failed in that clone only."""
+    import inspect
+    spec = "+refs/remotes/origin/*:refs/remotes/origin/*"
+    assert spec in inspect.getsource(rt.fresh_clone)
+    assert spec in inspect.getsource(rt.fresh_clone_suite)

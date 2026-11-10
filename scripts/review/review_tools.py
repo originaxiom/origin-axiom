@@ -254,12 +254,16 @@ def gate_controls(gate_names, test_texts, registry=None):
 
 def fresh_clone(root, head="HEAD", timeout=1800):
     """B1461 (the core's second check): clone `root` at `head` into a temporary directory and run the gates and the
-    reproduction belt THERE -- what a reader with only the repository gets.  Returns dict(status, commit, detail)."""
+    reproduction belt THERE -- what a reader with only the repository gets.  Returns dict(status, commit, detail).
+    The clone also receives root's remote-tracking refs, as `fresh_clone_suite` does and as a clone of the published
+    repository carries its branches (Review 77, 2026-11-10: without them the `seal-order-unshown` gate, added in that
+    window, could not see B1670's order on its kept referee branch and failed in this clone only)."""
     import tempfile, subprocess, shutil
     tmp = tempfile.mkdtemp(prefix="oa-fresh-clone-"); detail = []
     try:
         subprocess.run(["git", "clone", "--quiet", "--no-local", str(root), tmp], check=True, capture_output=True, text=True, timeout=timeout)
         subprocess.run(["git", "checkout", "--quiet", head], cwd=tmp, check=True, capture_output=True, text=True, timeout=timeout)
+        subprocess.run(["git", "fetch", "--quiet", str(root), "+refs/remotes/origin/*:refs/remotes/origin/*"], cwd=tmp, capture_output=True, text=True, timeout=timeout)
         commit = subprocess.run(["git", "rev-parse", "--short", "HEAD"], cwd=tmp, capture_output=True, text=True).stdout.strip()
         status = "PASS"
         g = subprocess.run([sys.executable, "scripts/gates/gates.py"], cwd=tmp, capture_output=True, text=True, timeout=timeout)
