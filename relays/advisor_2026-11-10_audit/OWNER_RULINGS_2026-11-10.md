@@ -119,6 +119,18 @@ must prove, what the record already holds against the easy versions, and six dat
 line and not a loop — no quantity computed downstream constrains a choice upstream — so the open construction is a
 back-edge.
 
+## R9 — the first back-edge to try
+
+**The seat's question:** which of the four candidate back-edges of `THE_CLAIM_STATED_THE_CLOSED_LOOP.md` §4 to try
+first; the seat recommended A, the state. **The owner's word (same day, later):**
+
+> "A"
+
+**Ruling:** back-edge A first. The seat's design, written before any computing, is
+`back_edge_A/DESIGN_BACK_EDGE_A_THE_STATE.md`; it takes up P-744. It holds one fork the owner has not yet ruled on
+(its §3): whether the outcome is one least-action history (A-one, a minimisation postulate and a thread result) or
+all allowed histories together (A-all, the weave rule applied to the loop, whose read-out is not yet defined).
+
 ## The roles
 
 The owner, the same day: this seat "will serve as an advisor for cc - the banking seat"; when cc is ready the reports

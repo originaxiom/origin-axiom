@@ -1,0 +1,22 @@
+the golden background LR: ((2, 1), (1, 1)) tr 3
+  |det(LR - I)| = 1   |det(LR + I)| = 5
+  lines of order 5 with LR v = +v: []  with LR v = -v: [(1, 2), (2, 4)]
+
+histories: the golden word with one departure (runs of the departure), closed with k golden periods
+history                    tr    |det W-I| |det W+I| W mod 5    order-5 points v (as +-pairs) with W v = +v | with W v = -v
+(6) + (LR)^1               22    20        24        other      [(1, 2), (2, 4)] | []
+(6) + (LR)^2               58    56        60        other      [] | [(1, 2), (2, 4)]
+(6) + (LR)^3               152   150       154       other      [(1, 2), (2, 4)] | []
+(2,1,2,1,2) + (LR)^1       138   136       140       other      [] | [(1, 2), (2, 4)]
+(2,1,2,1,2) + (LR)^2       362   360       364       other      [(1, 2), (2, 4)] | []
+(2,1,2,1,2) + (LR)^3       948   946       950       other      [] | [(1, 2), (2, 4)]
+(2,1,1,1,2) + (LR)^1       98    96        100       -I         [] | all 12
+(2,1,1,1,2) + (LR)^2       257   255       259       other      [(1, 2), (2, 4)] | []
+(2,1,1,1,2) + (LR)^3       673   671       675       other      [] | [(1, 2), (2, 4)]
+golden LR + (LR)^1         7     5         9         other      [(1, 2), (2, 4)] | []
+golden LR + (LR)^2         18    16        20        other      [] | [(1, 2), (2, 4)]
+golden LR + (LR)^3         47    45        49        other      [(1, 2), (2, 4)] | []
+
+SnapPy b++LR: H_1 = Z (torsion order should be |det(W - I)| = 1)
+
+SnapPy b++LLLLLLRLR: H_1 = Z/20 + Z (torsion order should be |det(W - I)| = 20)
