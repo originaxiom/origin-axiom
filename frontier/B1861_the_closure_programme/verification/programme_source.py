@@ -445,7 +445,8 @@ F("W", "WP-1.6", [
 
 # the owner's rulings of 2026-11-10 AS RELAYED by the advisor seat. The relay's own rule, and main's: each is confirmed with the
 # owner once before main acts on it. Main asked on 2026-11-10 about the eleven then relayed; the owner answered main the same day,
-# in the words kept in CONFIRMATION below. The two relayed after main had asked are not covered by that answer and are asked.
+# in the words kept in CONFIRMATION below. The two relayed after main had asked were not covered by that answer; asked about them,
+# the owner did not confirm them (NOT_CONFIRMED below). Main treats neither as a ruling.
 RULINGS = [
     ("the goal", "the programme's only goal is a parameter-free theory of everything", ["WP-0.10"]),
     ("the claim", "one self-consistent outcome", ["WP-1.6", "WP-0.11"]),
@@ -468,6 +469,11 @@ RULINGS = [
 CONFIRMATION = ("2026-11-10", "yes, but i also wanr your opinion on all")
 CONFIRMED = ["the goal", "the claim", "attribution", "the weave discipline", "the count as an output", "the headline's form", "the map on the desk",
              "what self-consistent means", "the first back-edge to try", "the fork inside it", "the founding principle as the selection rule"]
+# the owner's answer to main about the two relayed later, verbatim: not confirmed
+NOT_CONFIRMED = {
+    "stress-test the principle": "im not very sure about it, i wouldnt take it for granted",
+    "the gap, for every seat": "it was in other context",
+}
 # main's opinion on each, asked for by the owner in the same answer and given the same hour (one line each; the full text is in the register, P-758)
 OPINION = {
     "the goal": "agree: the aim may be stated, arrival may not; change all twelve places at once and keep the ceiling",

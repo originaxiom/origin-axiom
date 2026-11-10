@@ -18960,3 +18960,19 @@ one family of mirror-related histories, for the reason just given. The second is
 predicted is fixed before any comparison is made. The third is that the goal may now be stated in full, while
 nothing may be written as though it had been reached. Two further rulings arrived after main had asked, and main has
 asked about those. Carrying out the eleven is the next work. 0 of 19.
+
+## 2026-11-10 — S306o (the refetch, continued): two reported rulings turn out not to be rulings
+
+The advisor had reported two more rulings from the owner after main asked about the first eleven. Main asked the
+owner about those two as well. The answer was that they should not be taken for granted: they were said in another
+context. So main records them as not confirmed and does nothing on their strength. The page and the new label that
+the advisor had asked main to add are not written.
+
+The lesson main keeps is simple. What the owner says to one lane in conversation is not an instruction to main until
+the owner says it to main. Eleven rulings were confirmed that way today and two were not, and the record now shows
+which is which.
+
+Two lanes pushed new work while this was being written: one has run the computation that was to come before the
+owner's ruling on how the founding law is to be read, and the other has finished its test of whether the principle's
+words fix the mathematics. Neither has been read yet. Both are next, and the computation is checked with main's own
+code before it counts. 0 of 19.

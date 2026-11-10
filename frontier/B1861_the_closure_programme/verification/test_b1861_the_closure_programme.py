@@ -137,13 +137,16 @@ def test_the_audit_is_carried_finding_by_finding():
     assert S.FINDINGS["G1"]["wp"] == S.FINDINGS["G2"]["wp"] == "WP-0.7"
     assert st["relayed_rulings"] == len(S.RULINGS) == 13
     # the owner's confirmation to main (2026-11-10) covers the eleven main asked about; the two relayed afterwards are asked
-    assert st["rulings_confirmed_by_the_owner_to_main"] == len(S.CONFIRMED) == 11 and st["rulings_asked"] == 2
+    assert st["rulings_confirmed_by_the_owner_to_main"] == len(S.CONFIRMED) == 11
+    assert st["rulings_not_confirmed"] == len(S.NOT_CONFIRMED) == 2 and st["rulings_asked"] == 0   # asked about the two later ones, the owner did not confirm them
+    assert not set(S.NOT_CONFIRMED) & set(S.CONFIRMED) and all(S.NOT_CONFIRMED.values())
     assert [n for n, q, ps in S.RULINGS][:11] == S.CONFIRMED and sorted(S.OPINION) == sorted(S.CONFIRMED)
     keep = list(S.CONFIRMED)
     def restore():
         S.CONFIRMED[:] = keep
     with planted(lambda: S.CONFIRMED.append("stress-test the principle"), restore) as f:
         assert any("none is written for: stress-test the principle" in x for x in f)
+        assert any("marked both confirmed and not confirmed: stress-test the principle" in x for x in f)
     with planted(lambda: S.CONFIRMED.append("a ruling nobody relayed"), restore) as f:
         assert any("is not among the relayed rulings: a ruling nobody relayed" in x for x in f)
     with planted(lambda: S.CONFIRMED.remove("the goal"), restore) as f:

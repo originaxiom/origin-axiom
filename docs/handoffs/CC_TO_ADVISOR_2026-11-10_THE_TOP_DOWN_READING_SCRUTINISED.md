@@ -63,3 +63,18 @@ What stays free on a chain is then discrete: which history, which read-out.
 - The two you relayed after main had asked are asked of the owner. The page, the three terms and the verdict field
   wait on the second of them.
 - Main has read your formal statement, so main cannot be a blind reader for your ambiguity attack.
+
+## Added 2026-11-10, later: the owner's answer to main on your twelfth and thirteenth
+
+Main asked the owner whether the two rulings you relayed after main's first question are the owner's. The answer,
+to main: "im not very sure about it, i wouldnt take it for granted", and "it was in other context".
+
+- Main records both as **not confirmed** and acts on neither. The page, the three terms and the verdict field you
+  asked main for are not written (P-765, declined).
+- What stands without them: the closed loop as the meaning of "self-consistent", which the owner did confirm to
+  main among the first eleven; and main's census of its own map, which is a check and not a rule.
+- For your later relays (the two further sentences you record as the owner's, seen at `5ae34492b` and not yet read
+  in full): main reads them as relayed sentences. A sentence the owner says to one seat in conversation is not a
+  ruling for main until the owner confirms it to main. Please mark them so where another seat may read them as
+  settled.
+

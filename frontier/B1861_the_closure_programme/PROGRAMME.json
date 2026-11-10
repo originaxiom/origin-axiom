@@ -1736,6 +1736,10 @@
    "D:14 rests on E:J3"
   ]
  },
+ "not_confirmed": {
+  "stress-test the principle": "im not very sure about it, i wouldnt take it for granted",
+  "the gap, for every seat": "it was in other context"
+ },
  "opinion": {
   "attribution": "agree; already the practice. The gate does not read commit messages and should",
   "the claim": "agree it is the claim to state, because two outcomes exhibited refute it; one outcome can only mean one orbit under the symmetries, a history with its mirror",
@@ -2239,7 +2243,7 @@
     "P-767"
    ],
    "rows_live": {
-    "P-758": "OWNER",
+    "P-758": "DONE",
     "P-767": "QUEUED"
    },
    "rulings": [
@@ -2675,10 +2679,10 @@
     "P-439": "QUEUED",
     "P-755": "OWNER",
     "P-756": "QUEUED",
-    "P-758": "OWNER",
+    "P-758": "DONE",
     "P-761": "QUEUED",
     "P-762": "QUEUED",
-    "P-765": "OWNER"
+    "P-765": "DECLINED"
    },
    "rulings": [
     "the claim",
@@ -4464,8 +4468,9 @@
   "present_inputs": 64,
   "relayed_rulings": 13,
   "rules_of_the_comparison": 12,
-  "rulings_asked": 2,
+  "rulings_asked": 0,
   "rulings_confirmed_by_the_owner_to_main": 11,
+  "rulings_not_confirmed": 2,
   "unowned": [
    "WP-1.8",
    "WP-1.9",

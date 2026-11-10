@@ -12,7 +12,7 @@ that still needs a path is in no package, or if the order of work ignores a depe
 - **4 packages have no owner:** WP-1.8, WP-1.9, WP-3.5, WP-4.5.
 - **Main's spine presently holds 38 inputs as the record lists them** (§ 3): 8 axioms, 8 bits, 16 discrete choices, 5 real numbers, 1 ansatz, 7 identifications. The lanes' model adds 7 supplied inputs of its own, not typed here.
 - **73 findings of the advisor seat's audit** are each in a package (§ 8): open 34, reader 12, reproduced 7, partly fixed 11, fixed 9.
-- **13 rulings of the owner, as that seat relayed them,** are each mapped to a package. The owner confirmed 11 of them to main on 2026-11-10; 2, relayed after main had asked, are asked (§ 9).
+- **13 rulings of the owner, as that seat relayed them,** are each mapped to a package. The owner confirmed 11 of them to main on 2026-11-10 and did not confirm 2, relayed after main had asked; main treats those as no ruling (§ 9).
 
 ## 2. The three milestones
 
@@ -368,7 +368,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **The question:** Which document governs, and does it state the goal as the owner has ruled it?
 - **The first step:** the owner confirmed to main, on 2026-11-10, the rulings the advisor seat had relayed (the first eleven; P-758). Next, in one landing: the twelve places that cap the goal are amended together, each keeping its original text with a dated note, and the gate that bans a statement of aim is taught the difference between an aim and an arrival, with a planted test. The claim ceiling does not move: what may be asserted as achieved stays at what the record has earned.
 - **Closed when:** one document named as governing, the goal stated once and pointed to from the others, and no amended passage stating or implying arrival.
-- **Register:** P-758 (OWNER), P-767 (QUEUED).
+- **Register:** P-758 (DONE), P-767 (QUEUED).
 - **The audit's findings (4):** X1, X2, X3, X4.
 - **Relayed rulings:** the goal.
 
@@ -457,7 +457,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **Stated about:** thread 2, weave 3.
 - **Also bears on nodes held elsewhere:** D:12.
 - **Missing dependencies it works on:** X:TAU, X:WEIGHT.
-- **Register:** P-755 (OWNER), P-756 (QUEUED), P-439 (QUEUED), P-758 (OWNER), P-761 (QUEUED), P-762 (QUEUED), P-765 (OWNER).
+- **Register:** P-755 (OWNER), P-756 (QUEUED), P-439 (QUEUED), P-758 (DONE), P-761 (QUEUED), P-762 (QUEUED), P-765 (DECLINED).
 - **The audit's findings (2):** W6, W7.
 - **Relayed rulings:** the claim; the weave discipline; what self-consistent means; the first back-edge to try; the fork inside it; the founding principle as the selection rule; the gap, for every seat.
 
@@ -961,8 +961,9 @@ main's standing rule for a relayed ruling. Main asked about the 11 then relayed.
 > "yes, but i also wanr your opinion on all"
 
 So 11 are confirmed, and main's opinion on each, which the owner asked for, is in the table. 2 were relayed after main had
-asked; they are asked and not acted on. A confirmed ruling is carried out in its packages, in landings of its own;
-this page changes no governing document.
+asked. Asked about those, the owner did not confirm them (the words are in the table): main treats them as no ruling and
+acts on neither. A confirmed ruling is carried out in its packages, in landings of its own; this page changes no
+governing document.
 
 | ruling | in the seat's words | state | packages | main's opinion |
 |---|---|---|---|---|
@@ -977,6 +978,6 @@ this page changes no governing document.
 | the first back-edge to try | "back-edge A first" | CONFIRMED | WP-1.6, WP-4.1 | agree as the first try: its opening test, whether a state exists, is a yes or no nobody chose. As designed it uses one input of the budget and does not remove it |
 | the fork inside it | "is about A-all" | CONFIRMED | WP-1.6, WP-0.11 | agree: it is the owner's law applied consistently. It closes nothing yet, since the joint read-out of all histories has no definition |
 | the founding principle as the selection rule | "try the founding principle as the selection rule" | CONFIRMED | WP-1.5, WP-1.6 | worth doing, and the result is honest: the rule picks the run of six only if the level is put in. To be verified on main (P-762) |
-| stress-test the principle | "stress-test the principle; start with the ambiguity attack" | ASKED | WP-1.1 | — |
-| the gap, for every seat | "the entire programme is an open one-way line, not a closed loop" | ASKED | WP-1.6, WP-0.11 | — |
+| stress-test the principle | "stress-test the principle; start with the ambiguity attack" | NOT CONFIRMED: the owner, "im not very sure about it, i wouldnt take it for granted" | WP-1.1 | — |
+| the gap, for every seat | "the entire programme is an open one-way line, not a closed loop" | NOT CONFIRMED: the owner, "it was in other context" | WP-1.6, WP-0.11 | — |
 

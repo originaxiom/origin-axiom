@@ -404,6 +404,13 @@ def build(nodes=None, edges=None):
             fails.append("an opinion is written for a ruling that is not confirmed: %s" % name)
     if S.CONFIRMED and not (S.CONFIRMATION[0] and S.CONFIRMATION[1]):
         fails.append("rulings are marked confirmed with no date or no words of the owner")
+    for name, words in S.NOT_CONFIRMED.items():
+        if name not in names_r:
+            fails.append("a ruling is marked not confirmed and is not among the relayed rulings: %s" % name)
+        if name in S.CONFIRMED:
+            fails.append("a ruling is marked both confirmed and not confirmed: %s" % name)
+        if not words:
+            fails.append("a ruling is marked not confirmed without the owner's words: %s" % name)
 
     # ---- 14: the record's own checklist and words
     toe = norm((ROOT / "docs" / "TOE_REQUIREMENTS_LEDGER.md").read_text(encoding="utf-8"))
@@ -471,7 +478,7 @@ def build(nodes=None, edges=None):
         exits_by_kind={k: exits.get(k, 0) for k in S.EXIT_KINDS},
         inputs_with_an_exit_on_the_table=sum(exits.get(k, 0) for k in ("FORCING ARGUED", "RIGID", "BACK-EDGE NAMED")),
         audit_findings=len(S.FINDINGS), audit_findings_by_state={s: fstate.get(s, 0) for s in S.FINDING_STATES}, relayed_rulings=len(S.RULINGS),
-        rulings_confirmed_by_the_owner_to_main=len(S.CONFIRMED), rulings_asked=len(S.RULINGS) - len(S.CONFIRMED),
+        rulings_confirmed_by_the_owner_to_main=len(S.CONFIRMED), rulings_not_confirmed=len(S.NOT_CONFIRMED), rulings_asked=len(S.RULINGS) - len(S.CONFIRMED) - len(S.NOT_CONFIRMED),
         headline_results_that_are_conditional_results=cond_heads,
         headline_results_not_yet_results_on_main=[h for h in S.HEADLINES if h not in waits],
         open_choices_under_each_conditional_headline={h: len(waits[h]["premises"]) for h in cond_heads},
@@ -503,8 +510,8 @@ def render(B):
           "- **Main's spine presently holds %d inputs as the record lists them** (§ 3): %s. The lanes' model adds %d supplied inputs of its own, not typed here."
           % (st["independent_choices"], ", ".join("%d %s" % (v, PLURAL[k]) for k, v in st["budget"].items()), st["lanes_supplied_inputs"]),
           "- **%d findings of the advisor seat's audit** are each in a package (§ 8): %s." % (st["audit_findings"], ", ".join("%s %d" % (k.lower(), v) for k, v in st["audit_findings_by_state"].items())),
-          "- **%d rulings of the owner, as that seat relayed them,** are each mapped to a package. The owner confirmed %d of them to main on %s; %d, relayed after main had asked, are asked (§ 9)." % (
-              st["relayed_rulings"], st["rulings_confirmed_by_the_owner_to_main"], S.CONFIRMATION[0], st["rulings_asked"]),
+          "- **%d rulings of the owner, as that seat relayed them,** are each mapped to a package. The owner confirmed %d of them to main on %s and did not confirm %d, relayed after main had asked; main treats those as no ruling (§ 9)." % (
+              st["relayed_rulings"], st["rulings_confirmed_by_the_owner_to_main"], S.CONFIRMATION[0], st["rulings_not_confirmed"]),
           ""]
     # ---- milestones
     L += ["## 2. The three milestones", "",
@@ -668,12 +675,14 @@ def render(B):
           "The advisor seat recorded them and wrote that main confirms each with the owner before acting on it. That is also",
           "main's standing rule for a relayed ruling. Main asked about the %d then relayed. The owner answered main on %s:" % (len(S.CONFIRMED), S.CONFIRMATION[0]),
           "", "> \"%s\"" % S.CONFIRMATION[1], "",
-          "So %d are confirmed, and main's opinion on each, which the owner asked for, is in the table. %d were relayed after main had" % (len(S.CONFIRMED), len(S.RULINGS) - len(S.CONFIRMED)),
-          "asked; they are asked and not acted on. A confirmed ruling is carried out in its packages, in landings of its own;",
-          "this page changes no governing document.", "",
+          "So %d are confirmed, and main's opinion on each, which the owner asked for, is in the table. %d were relayed after main had" % (len(S.CONFIRMED), len(S.NOT_CONFIRMED)),
+          "asked. Asked about those, the owner did not confirm them (the words are in the table): main treats them as no ruling and",
+          "acts on neither. A confirmed ruling is carried out in its packages, in landings of its own; this page changes no",
+          "governing document.", "",
           "| ruling | in the seat's words | state | packages | main's opinion |", "|---|---|---|---|---|"]
     for name, q, ps in S.RULINGS:
-        L.append("| %s | \"%s\" | %s | %s | %s |" % (name, cell(q), "CONFIRMED" if name in S.CONFIRMED else "ASKED", ", ".join(ps), cell(S.OPINION.get(name, "")) or "—"))
+        L.append("| %s | \"%s\" | %s | %s | %s |" % (name, cell(q), "CONFIRMED" if name in S.CONFIRMED else "NOT CONFIRMED: the owner, \"%s\"" % S.NOT_CONFIRMED[name] if name in S.NOT_CONFIRMED else "ASKED",
+                                                 ", ".join(ps), cell(S.OPINION.get(name, "")) or "—"))
     L.append("")
     return "\n".join(L) + "\n"
 
@@ -684,7 +693,7 @@ def main():
         (ARC / "PROGRAMME.md").write_text(render(B), encoding="utf-8")
         out = dict(stats=B["stats"], packages=B["packages"], waits=B["waits"], closure=B["closure"], debt_of=B["debt_of"],
                    inputs=S.INPUTS, rules=S.RULES, tallies=S.TALLIES, certificate=S.CERTIFICATE, value_status=S.VALUE_STATUS,
-                   seal_rule=S.SEAL_RULE, findings=S.FINDINGS, rulings=S.RULINGS, confirmed=S.CONFIRMED, confirmation=list(S.CONFIRMATION), opinion=S.OPINION, released=B["released"], map_dependencies=B["proj"],
+                   seal_rule=S.SEAL_RULE, findings=S.FINDINGS, rulings=S.RULINGS, confirmed=S.CONFIRMED, confirmation=list(S.CONFIRMATION), opinion=S.OPINION, not_confirmed=S.NOT_CONFIRMED, released=B["released"], map_dependencies=B["proj"],
                    given=S.GIVEN, also=S.ALSO, exits={k: list(v) for k, v in S.EXITS.items()}, exit_kinds=S.EXIT_KINDS)
         (ARC / "PROGRAMME.json").write_text(json.dumps(out, indent=1, ensure_ascii=False, sort_keys=True) + "\n", encoding="utf-8")
         print("written: PROGRAMME.md, PROGRAMME.json")

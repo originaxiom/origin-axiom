@@ -1,5 +1,14 @@
 # Changelog
 
+## S306o (the refetch, continued) THE OWNER DID NOT CONFIRM THE TWO LATER RELAYED RULINGS (P-758 closed, P-765 declined) (2026-11-10)
+
+- **Asked whether the advisor seat's twelfth and thirteenth relayed rulings are the owner's, the owner answered main:** "im not very sure about it, i wouldnt take it for granted", and "it was in other context". Main treats neither as a ruling and acts on neither.
+- **The register:** P-758 is closed — eleven confirmed, with main's opinion on each, and two not confirmed. P-765 (line or loop: a page, three terms, a verdict field) is declined; nothing is written. What stands without it is the closed loop, which the owner did confirm among the eleven, and main's census of its own map, which is a check.
+- **The programme** shows the two as NOT CONFIRMED with the owner's words; the builder refuses a ruling marked both ways.
+- **A rule main takes from the answer (P-768):** a sentence the owner says to another seat in conversation is not a ruling for main until the owner confirms it to main. Main records such sentences as relayed, and raises one with the owner only when its own work would depend on it.
+- **Seen at the fetch, not yet read:** the advisor seat (`5ae34492b`) holds the result of its ambiguity attack and two further relayed sentences; the web seat (`e5cc47e96`) holds its sealed card on what concentrates under the move count, which is the computation registered before the owner's ruling on the law's reading, and a note defining the claim about all histories together. Both are the next harvest; main verifies the card with its own code before it counts.
+- Three more of the owner's prompts were found undelivered in the session's queue and are answered. 0 of 19.
+
 ## S306o (the refetch) TWO SEATS HARVESTED AND CHECKED: THE PHYSICAL LANE'S REVIEW OF THE JOIN RELAY (B1866 § 6), AND THE ADVISOR SEAT'S TOP-DOWN READING AND LINE-OR-LOOP RULE (B1867) (2026-11-10)
 
 - **The owner:** "agreed" to rule on the law's reading after the computation registered for it (recorded on P-755); and "refetch all seats". Two had moved: the physical lane once, the advisor seat three times while main worked.

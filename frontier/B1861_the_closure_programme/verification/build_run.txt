@@ -77,7 +77,8 @@ written: PROGRAMME.md, PROGRAMME.json
  },
  "relayed_rulings": 13,
  "rulings_confirmed_by_the_owner_to_main": 11,
- "rulings_asked": 2,
+ "rulings_not_confirmed": 2,
+ "rulings_asked": 0,
  "headline_results_that_are_conditional_results": [
   "G:ROOT",
   "MC:Z6",

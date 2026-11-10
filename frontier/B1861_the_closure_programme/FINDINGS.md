@@ -161,6 +161,9 @@ holds the record's own. It changes no grade.
 statement that the programme is a line and not a loop). The owner confirmed the first eleven to main the same evening, and
 asked for main's opinion on each; both are in `PROGRAMME.md` § 9. The two relayed after main had asked are asked
 (P-758, P-765). Carrying out the eleven is P-767; this arc changes no governing document.
+*[2026-11-10, later still: asked about those two, the owner did not confirm them — "im not very sure about it, i
+wouldnt take it for granted"; "it was in other context". Main treats neither as a ruling. P-758 is closed and P-765
+is declined.]*
 
 ## 6. The advisor seat's audit, and the owner's rulings as relayed
 
