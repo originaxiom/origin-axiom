@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1575 |
-| … PROVED | 1084 |
+| arcs with a verdict file | 1576 |
+| … PROVED | 1085 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1874 | PROVED | THE SCRIPTS A SEAL HASHED: MEASURED, AND GATED (the advisor seat's second re-audit, its planted case that no gate saw; bookkeeping only): 189 tracked lists of hashed files hold 1497 entries; 1430 verify against the trac… |
 | B1873 | PROVED | THE CLOSURE PROGRAMME READ BY A NON-AUTHOR: WHAT HELD, WHAT IS REPAIRED, WHAT IS OWED (the owner's word to fetch the advisor seat's read; bookkeeping only): the read's counts reproduce on main's own files, and its cause… |
 | B1872 | PROVED | 'ALL ALLOWED HISTORIES TOGETHER': THE WEB SEAT'S DEFINITION READ, AND ITS EXACT FACTS VERIFIED ON MAIN (the owner's confirmed ruling that the claim is about all allowed histories together; data-free, integers only; the… |
 | B1871 | PROVED | ONE TICK OR TWO ACTS: THE ADVISOR SEAT'S SEALED RUN VERIFIED ON MAIN, AND WHAT THE TICK DOES TO THE WEAVE'S THREE (P-769; data-free, integers and SnapPy; the seat's code not run): the seat's result holds in every part.… |
@@ -42,7 +43,6 @@
 | B1865 | PROVED | THE PLANTED VIOLATIONS, RUN ON MAIN BY THE ADVISOR SEAT'S OWN SCRIPT (main at 30dd1fea7, after B1862 to B1864): the five controls caught; of the 21 planted violations the script automates, 14 still pass undetected and 7… |
 | B1864 | PROVED | A SEALED FILE DOES NOT CHANGE AFTER ITS SEAL (the advisor seat's finding G2, graded critical, with G3 and G4; reproduced on main; WP-0.7): an edit of a sealed file after its seal was detected only for the files with a h… |
 | B1863 | PROVED | THE APPEND-ONLY GATE READS HISTORY (the advisor seat's finding G1, graded critical; reproduced on main; WP-0.7's first step): the gate compared the working file with the same file at HEAD, so a committed deletion passed… |
-| B1862 | PROVED | THE AUDIT'S FIRST CORRECTIONS (the advisor seat's findings E13, E3, L5, E4, E11, E10, E6, E8, each reproduced on main first; P-757): B567's level-165 Weil spectrum has 20 distinct eigenvalues, not 21 -- the projective o… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -57,6 +57,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306o (the re-audit's largest item) THE SCRIPTS A SEAL HASHED: MEASURED, AND GATED (B1874; P-772 in part) (2026-11-10)
 - S306o (at the owner's word) THE CLOSURE PROGRAMME READ BY A NON-AUTHOR: FOUR REPAIRS, THREE CORRECTIONS TO MAIN'S OWN RECORD, ONE DEBT (B1873; P-773) (2026-11-10)
 - S306o (later) THE OWNER'S RULING ON THE LAW'S READING; ONE TICK OR TWO ACTS VERIFIED (B1871); ALL HISTORIES TOGETHER DEFINED AND ITS FACTS VERIFIED (B1872) (2026-11-10)
 - S306o (the owner's multi-agent run for the audit backlog) THE AUDIT'S BACKLOG REPRODUCED ON MAIN (B1870), AND THE PRINCIPLE AS A SELECTION RULE VERIFIED (B1869; P-762) (2026-11-10)
@@ -64,11 +65,10 @@
 - S306o (the refetch, continued) THE OWNER DID NOT CONFIRM THE TWO LATER RELAYED RULINGS (P-758 closed, P-765 declined) (2026-11-10)
 - S306o (the refetch) TWO SEATS HARVESTED AND CHECKED: THE PHYSICAL LANE'S REVIEW OF THE JOIN RELAY (B1866 § 6), AND THE ADVISOR SEAT'S TOP-DOWN READING AND LINE-OR-LOOP RULE (B1867) (2026-11-10)
 - S306o (continued) THE AGY LANE'S RELAY ON THE REGISTER-TO-FIELD JOIN, SCRUTINISED AT THE OWNER'S WORD (B1866; P-753) (2026-11-10)
-- S306o (continued) THREE SEATS HARVESTED AGAIN; THE ADVISOR SEAT'S PLANTED-VIOLATION SCRIPT RUN ON MAIN (B1865) (2026-11-10)
 
 ## The latest campaign line
 
-LATEST (2026-11-10, S306o (at the owner's word): B1873 — THE CLOSURE PROGRAMME READ BY A NON-AUTHOR (the advisor seat's read, its counts recomputed on main): the programme's rule for a seal reads the map, and the audit's findings, 63 of 80 debts and the unearned identifications were joined to nothing, so the comparison did not wait on six packages holding 31 findings. Repaired with refusals and planted controls: every finding names what it bears on; the sealed card waits on every package holding what no single value's list can show; started-before-a-need is refused; the re-audit's verdict is a field apart from main's. Corrected in main's record: E3 partly fixed, X3 stands in full (the price…
+LATEST (2026-11-10, S306o (the re-audit's largest item): B1874 — THE SCRIPTS A SEAL HASHED, MEASURED AND GATED: the advisor seat's second re-audit changed one line of a script the candidate's seal had hashed and no gate saw it. Measured: 189 lists of hashed files, 1 497 entries, 1 430 verify, 67 do not (63 distinct) — 11 in six arcs are a sealed script or output changed with no later entry (B1486, B1490, B1494, B1495, B1499, B656), 16 an earlier version beside a current one that verifies, the rest lists that never described the tracked files. Gated: `artifact-hashes` reads every list on every run; a listed file cannot change and a list cannot be edited, deleted or moved; the 63 are frozen b…
 
 ## Completeness (nothing skipped silently)
 

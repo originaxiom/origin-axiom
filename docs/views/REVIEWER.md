@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1575** |
-| words of findings prose | **1,353,144** |
-| test lock files referenced | **936** |
-| arcs carrying an authored verdict | **1575** (100.0 %) |
+| research arcs with findings | **1576** |
+| words of findings prose | **1,354,557** |
+| test lock files referenced | **937** |
+| arcs carrying an authored verdict | **1576** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1084 |
+| PROVED | 1085 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1873`** (1505 words, 0 locks)  
-THE CLOSURE PROGRAMME READ BY A NON-AUTHOR: WHAT HELD, WHAT IS REPAIRED, WHAT IS OWED (the owner's word to fetch the advisor seat's read; bookkeeping only): the read's counts reproduce on main's own files, and its cause is real -- the programme seals a value only if nothing open lies upstream, upstream is read from the map's edges, and the audit's findings, 63 of 80 open debts and all but one of the unearned identifications were joined to nothing, so the comparison did not wait on six packages holding 31 findings, the suite and the comparison's own instruments among them. Repaired, each with a refusal in the builder and a planted control: every finding names what it bears on (34 the repository as a whole, 39 arcs, nodes or pages); the sealed card waits on every package holding what no single value's list can show; a package started while a need has not started is refused (five cases, three now held as worked first and conditional); 'fixed' is main's word and the re-audit's verdict a separate field (12 recorded). Corrected in main's record: one finding marked fixed is partly fixed (the premise's two signs not carried to four places); the script the foundation cites for the price does fail, so that finding stands in full and B1870 carries a dated correction; one test run rewrites a tracked evidence file, reproduced; the level-5 premise is two choices; the exits on the table are 8 and not 12. Owed and registered: the debts and the identifications joined to the map, every choice carrying its alternatives, one price printed. 0 of 19.  
-`B1873_the_programme_read_by_a_non_author/FINDINGS.md`
+**PROVED — `B1874`** (1413 words, 1 locks)  
+THE SCRIPTS A SEAL HASHED: MEASURED, AND GATED (the advisor seat's second re-audit, its planted case that no gate saw; bookkeeping only): 189 tracked lists of hashed files hold 1497 entries; 1430 verify against the tracked file they name and 67 do not (63 distinct) -- 11 in six arcs are a script or an output that a seal hashed and that has changed with no later entry for the new version (the file itself marks the change in 4 and not in 7), 16 are an earlier version's hash beside a current one that verifies, 11 are pages that went on being written, 13 name run logs that were never tracked, 8 name files not in the repository, 3 match no version in history, 1 has no name. A new gate reads every list on every run: a file a seal hashed cannot change, and from the rule's first commit a list cannot be edited, deleted or moved, so it cannot be rewritten to match; the 63 are frozen by key as a ceiling that may only shrink; an amendment is a new list with the old key named and printed. Proved on eleven tests with committed planted violations, the re-audit's own case among them. The older gates now put their waivers in their sentence and count waived commits apart; mending that, main found the runner printed a bare ok for every pass, so no sentence reached the reader: the three gates that hold waivers or amendments by name now print theirs whole. Five of the re-audit's cases stay open and are listed. 0 of 19.  
+`B1874_the_scripts_a_seal_hashed/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  
