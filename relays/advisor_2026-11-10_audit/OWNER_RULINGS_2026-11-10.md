@@ -202,6 +202,20 @@ for it, with a proposed name and a three-question test, is `ADVISOR_TO_ALL_SEATS
 **What it leaves standing:** the first step (inside the arena every reader put LR first), the free readers' common
 setting, the exchange as the place of largest consequence, and that no reader closed the loop.
 
+## R15 — what exists is what survives
+
+**The seat's first question after attack A:** is what exists picked by surviving, or by being least under some
+ordering? **The owner's words (same day, later):**
+
+> "and 1 is survival"
+
+**Ruling:** by survival. With R14 this removes every ranking from the principle: what cannot be cancelled is kept,
+all of it, and no "least" or "first" selects among what is kept. An ordering may still be used to list what exists;
+it does not make anything exist.
+
+**The questions that remain after R14 and R15,** reframed for the owner, are in
+`principle_top_down/QUESTIONS_AFTER_R14_R15.md`. None is ruled.
+
 ## Attack A — done; eight questions now wait for the owner's ruling
 
 `principle_top_down/attack_A/RESULT.md`. The words fix the first thing (inside the arena every reader, the adversary
