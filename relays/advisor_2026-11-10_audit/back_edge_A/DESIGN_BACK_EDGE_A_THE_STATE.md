@@ -120,6 +120,24 @@ are its candidates' threads.
 
 **The owner accepted this advice on 2026-11-10 (`OWNER_RULINGS_2026-11-10.md`, R10).**
 
+> **Dated note, 2026-11-10, night — two points of the web seat, passed on by main, and accepted** (main's B1872 and
+> its note to this seat of the same day).
+>
+> 1. **(A-adm) is not yet a rule about what is allowed.** "Together" now has a definition on main: the joint action
+>    of the allowed histories on the shared records. A condition belongs to what is allowed only if it is kept when
+>    two allowed histories are composed. Nobody has shown that "the lightest state is single" is kept. Until someone
+>    does, (A-adm) is a selection made on one history, a thread device, and under R10 it cannot define the weave's
+>    allowed set. The design's fork already labels A-one a thread result; this note extends that label to (A-adm)
+>    itself.
+> 2. **"The frame's line" must be a mark on the shared records.** A history's own line moves with the point at which
+>    the history is cut open, so § 2.3's table is a table about base points as much as about histories. If the tick
+>    is an act the mark is the golden line and not one of its two twins (`principle_top_down/attacks_B_to_E/`, H13).
+>
+> **A test to put before any run of this design** (it needs main's instrument, not this seat's): take the two
+> histories that B1857 found with a single state, compose them, and ask whether the composite has one. If not,
+> back-edge A in this form closes nothing for the weave, and what is left of it is (A-read) as a read-out on one
+> history.
+
 ### 3b. Other principles that could pick a history (the owner's question, 2026-11-10)
 
 "Least action" is one rule of the form "take the least X". Others exist, and on the numbers the record already holds
