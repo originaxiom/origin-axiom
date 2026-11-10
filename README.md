@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.64) of 2026-11-10 |
-| arcs with a verdict | 1569: 1078 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 768: 265 open (queued, leads, waiting for the owner), 503 closed |
+| arcs with a verdict | 1570: 1079 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
+| points in the register | 770: 264 open (queued, leads, waiting for the owner), 506 closed |
 | the last review | Review 77 (2026-11-10), anchor `10641a1b2` |
-| the last landing | S306o (the refetch, continued) THE OWNER DID NOT CONFIRM THE TWO LATER RELAYED RULINGS (P-758 closed, P-765 declined) (2026-11-10) |
+| the last landing | S306o (the second fetch of the evening) WHAT CONCENTRATES UNDER THE MOVE COUNT: THE WEB SEAT'S CARD VERIFIED ON MAIN (B1868; P-756 answered on the mo… |
 <!-- STATE:END -->
 
 ## Start here

@@ -15992,6 +15992,21 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B1868": {
+   "slug": "what concentrates under the move count verified",
+   "motifs": [
+    "measurement",
+    "coupling",
+    "action",
+    "feedback",
+    "lorentzian"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 11,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B186": {
    "slug": "hyperbolicity certification",
    "motifs": [

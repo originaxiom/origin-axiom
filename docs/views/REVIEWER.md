@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1569** |
-| words of findings prose | **1,342,570** |
+| research arcs with findings | **1570** |
+| words of findings prose | **1,344,591** |
 | test lock files referenced | **936** |
-| arcs carrying an authored verdict | **1569** (100.0 %) |
+| arcs carrying an authored verdict | **1570** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1078 |
+| PROVED | 1079 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1867`** (2792 words, 0 locks)  
-THE ADVISOR SEAT'S TOP-DOWN READING OF THE PRINCIPLE AND ITS LINE-OR-LOOP RULE, SCRUTINISED (the refetch the owner ordered; three notes read in full, none of the seat's code run, data-free): every fact main could test reproduces on main's own code. (1) The seat's two symmetry facts are instances of one law, tested here on all 105 classes of cyclic words up to length 10: a bundle's isometries number twice its word's stabiliser under rotation, reversal and the swap of the letters; orientation is reversed exactly by the swap and the base's direction exactly by the reversal; the swapped word is the mirror image, for every word -- so the run of 6 keeps one reversal and nothing else (a hand, a place, no arrow), a rule symmetric in the two letters selects mirror pairs, and the seat's row (2,1,1,1,2) is a word written twice. (2) The forcing ledger's cited facts hold (positivity is a normal form on all 168 hyperbolic matrices tested; the fixed characters number the trace less two on 777 words and equal the homology's torsion on 135; LR alone has one, and the same count decides the sign), and three of its rows argued forced need a clause its formal statement does not contain: the statement removes finite order and not a fixed direction; not commuting does not give free; and 'a fixed character is a place where nothing happened' removes every departure too, the same relation being what selects the run of 6 at level 5. (3) On main's own map the statement that the record is a line holds: of 286 edges none is a result returning to fix an input, and a planted one is seen; the design's exact facts reproduce, and 'the departure fixes the line' is the condition that the line extends over the history. Main's qualification: an input can also leave by a theorem that kills its alternatives, and a continuous number by rigidity once the history is fixed; the loop is for what neither removes. The programme's 38 inputs now each carry the route the notes name: an exit is on the table for 12, none proved or built. The owner confirmed the first eleven relayed rulings to main while this arc was being written, and two are asked; this arc acts on none of them and changes no governing document. 0 of 19.  
-`B1867_the_top_down_reading_and_the_line_or_loop_rule_scrutinised/FINDINGS.md`
+**PROVED — `B1868`** (2021 words, 0 locks)  
+WHAT CONCENTRATES UNDER THE MOVE COUNT: THE WEB SEAT'S SEALED CARD VERIFIED ON MAIN (P-756 (b), the modulus's side; data-free; the seat's code read and not run; main's own code and another method, a quadrature against Minkowski's measure with no random numbers): the card holds at every point main's method reaches. The exponent per move is 0.792425 and the correlation dimension of Minkowski's measure 0.844609, from the Stern-Brocot intervals to depth 22; the weight of histories passing within a distance of i scales with exponent 0.8445, so the density against area goes as the radius to the -0.1555 (the seat: -0.1542 +- 0.0005 statistical, -0.1557 by its second code; D2 - 1 = -0.1554); at i sqrt 2 as -0.0766 (the seat: -0.0759); flat at i sqrt 3 and at 1.34 i; the time within a radius of i is of order the radius to the 1.845 and tends to zero; no point has positive weight (a theorem); the walk at level 5 is at 0.293, 0.0649, 0.00357, 1.16e-5 from uniform after 10, 20, 40, 80 moves, its second modulus sqrt 3 / 2 eight times. So read as the move count the law gives a typical history and singles out no value of the modulus: it closes nothing, as the seat says. Not verified by main: the five points off the imaginary axis, and that the law has a density (cited by the seat with a gap). The seat's exact facts at level 5 for the claim about all histories together reproduce. The advisor seat's result of its ambiguity attack is read at the seat's grade and three of its integer facts checked (the conserved quantity under a move; the commutator with the ground is not a property of the cyclic history; it is divisible by 25 when the history commutes with the ground at level 5); its two further relayed sentences of the owner are not acted on. Main's recommendation on the law's reading is put to the owner (P-755). 0 of 19.  
+`B1868_what_concentrates_under_the_move_count_verified/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  
