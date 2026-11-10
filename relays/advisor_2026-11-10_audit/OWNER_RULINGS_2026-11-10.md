@@ -216,6 +216,26 @@ it does not make anything exist.
 **The questions that remain after R14 and R15,** reframed for the owner, are in
 `principle_top_down/QUESTIONS_AFTER_R14_R15.md`. None is ruled.
 
+## R16 — three clauses ruled, one deferred to a computation
+
+**The seat's four questions** (`principle_top_down/QUESTIONS_AFTER_R14_R15.md`), with its advice on each.
+**The owner's words (same day, later):**
+
+> "i take your advice on each"
+
+**Rulings:**
+1. **The account is the whole ledger.** Every difference between things that exist is kept, with κ — the difference
+   between "a then b" and "b then a", unchanged by every move — as its first line.
+2. **Cancelling is both, at two levels:** a thing against its opposite, for the pair of distinctions (that something
+   remains at all); the two sides against each other, for each history (what remains in it). A single distinction is
+   a side; alone it makes nothing.
+3. **Interaction makes a third thing,** which is itself kept and can interact again. The ledger is closed under
+   interaction.
+4. **The elementary act — two acts or one tick — is not ruled.** The seat's advice was to compute first what the tick
+   as the root gains and breaks; the owner took it. The computation is `principle_top_down/the_tick/`.
+
+The principle with every clause ruled so far, in one place: `principle_top_down/THE_PRINCIPLE_AS_RULED.md`.
+
 ## Attack A — done; eight questions now wait for the owner's ruling
 
 `principle_top_down/attack_A/RESULT.md`. The words fix the first thing (inside the arena every reader, the adversary
