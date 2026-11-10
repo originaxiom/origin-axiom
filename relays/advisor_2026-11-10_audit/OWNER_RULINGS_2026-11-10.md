@@ -179,6 +179,14 @@ leaves the prompts in the relay so that the owner's other seats can be given the
 **Ruling:** this is the owner's standing statement of the programme's gap, addressed to all seats. The seat's page
 for it, with a proposed name and a three-question test, is `ADVISOR_TO_ALL_SEATS_2026-11-10_LINE_OR_LOOP.md`.
 
+## Attack A — done; eight questions now wait for the owner's ruling
+
+`principle_top_down/attack_A/RESULT.md`. The words fix the first thing (inside the arena every reader, the adversary
+included, put LR first) and not the second (four readings of "selected to depart further" select four different
+things); nobody reached the record's level or the run of six, and nobody closed the loop. The choice points are
+gathered into eight questions, Q1–Q8, each with the readings and the phrase that fails to decide. **None is ruled
+yet.** Each ruling becomes a clause of the principle.
+
 ## The roles
 
 The owner, the same day: this seat "will serve as an advisor for cc - the banking seat"; when cc is ready the reports
