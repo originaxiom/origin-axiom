@@ -123,7 +123,7 @@ number in the arc's computation (in a scratch copy) and run its lock. The lock m
 | W-c: the graph gate | No register row, lead or door whose question is about the weave is closed by an arc whose domain is a thread. No weave-domain claim depends on a thread-domain arc without a named lifting theorem. PV23 fails. |
 | W-d: second-thread control | Each weave-domain arc commits the same computation on at least one other thread, with the comparison stated. |
 | W-e: vocabulary | "The object" is not used for m004 in any file changed after the fix; `TERMINOLOGY.md` and `GENESIS.md` FK13 agree. |
-| W-f: the principle | `GENESIS.md` §1 states plenitude with its status and a definition of "allowed"; the weighting rule (what turns the whole into one number) is a named open fork; any operator, action or measure used to weight is graded FORCED or CHOSEN. |
+| W-f: the principle | `GENESIS.md` §1 states plenitude with its status and a definition of "allowed", and states the owner's claim of 2026-11-10 — one self-consistent outcome — as a uniqueness statement with its status (not a theorem until proved). The weighting rule (what turns the whole into one number) is a named open fork; any operator, action or measure used to weight is graded FORCED or CHOSEN, and a value counts as derived only with zero CHOSEN and zero FITTED entries on its scoreboard row. The falsifier register carries the programme-level entry: two distinct self-consistent outcomes, exhibited, refute the claim. |
 
 ## 8. The value layer
 
@@ -140,11 +140,11 @@ is listed; every arc in it has a RECOMPUTE lock that passes the mutation rule, a
 and its identifications priced; no arc in it is on the seal-order-unshown list without a note. The certificate is a
 generated file, and the seal is refused without it.
 
-## 9. Governance (the owner's ruling first)
+## 9. Governance (the owner ruled on 2026-11-10: `OWNER_RULINGS_2026-11-10.md`, R1)
 
 | Finding | Accepted when |
 |---|---|
-| X1, X2 | One document is named as governing; `GOVERNANCE.md` §1–§2, the banned-phrase gate, `CLAIMS.md` and `docs/THE_CLAIM.md` state the goal the owner has set, or state plainly that they do not. |
+| X1, X2 | One document is named as governing. The twelve places of finding X1 state the goal as the owner ruled it (a parameter-free theory of everything), each amended passage keeping its original text with a dated note. **The claim ceiling is unchanged:** no amended passage states or implies arrival; `GOVERNANCE.md` §2's permitted self-label is brought down to `GENESIS.md`'s statuses (finding X2), and the banned-phrase gate still fails on a statement of achievement. PV: add "the Standard Model is derived" to `README.md`; the gate fails. |
 | X3 | The foundation's input count is computed from `GENESIS.md`'s statuses; the certificate script passes and is run by the suite. |
 | X4 | Covered by W-a. |
 
