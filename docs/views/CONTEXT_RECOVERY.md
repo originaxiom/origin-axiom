@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1565 |
-| … PROVED | 1074 |
+| arcs with a verdict file | 1566 |
+| … PROVED | 1075 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1864 | PROVED | A SEALED FILE DOES NOT CHANGE AFTER ITS SEAL (the advisor seat's finding G2, graded critical, with G3 and G4; reproduced on main; WP-0.7): an edit of a sealed file after its seal was detected only for the files with a h… |
 | B1863 | PROVED | THE APPEND-ONLY GATE READS HISTORY (the advisor seat's finding G1, graded critical; reproduced on main; WP-0.7's first step): the gate compared the working file with the same file at HEAD, so a committed deletion passed… |
 | B1862 | PROVED | THE AUDIT'S FIRST CORRECTIONS (the advisor seat's findings E13, E3, L5, E4, E11, E10, E6, E8, each reproduced on main first; P-757): B567's level-165 Weil spectrum has 20 distinct eigenvalues, not 21 -- the projective o… |
 | B1861 | PROVED | THE CLOSURE PROGRAMME (the owner's goal of 2026-11-10: the physical lane's work order scrutinised, sharpened and made a check): one generated page whose builder refuses to write it unless every node of the closure map t… |
@@ -42,7 +43,6 @@
 | B1855 | PROVED | THE CHARGE LAW SETTLED (P-737): main's own result -- the law FAILS for every lcm(S) >= 12: six explicit gapped counterexamples of the explore seat satisfy the charge premise exactly with less excess than the single run… |
 | B1854 | PROVED | THE TUBE'S TAU AT k = 2, ON MAIN (P-739, in part): B1847's own mesher, driven with one setup per member, gives Im tau(Sigma_0) = 6.070 +- 0.010 on L^6R(LR)^2 (the extrapolation calibrated on k = 1 to the web seat's 6.14… |
 | B1853 | PROVED | THE DEPARTURE'S DEPTH: THE ACTION SELECTS WITHIN A PREMISE, THE PREMISE IS A CHARGE (the explore seat's two relays, verified on main's own code): among R1's 643 rung-invisible defects the least Mostow-rigid excess volum… |
-| B1852 | PROVED | THE TUBE'S REAL PART, BY TOPOLOGY (the real number Review 76 owed): sigma's two fixed fibres carry orientation-reversing involutions whose GL(2,Z) class mod 2 decides the reduced Re tau (= I mod 2: Re 0; otherwise Re 1/… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -58,6 +58,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306o (continued) A SEALED FILE DOES NOT CHANGE AFTER ITS SEAL (B1864; the audit's second critical finding, G2, with G3) (2026-11-10)
 - S306o (continued) THE APPEND-ONLY GATE READS HISTORY (B1863; the audit's first critical finding, G1) (2026-11-10)
 - S306o (continued) THE CLOSURE PROGRAMME (B1861); THE ADVISOR SEAT'S AUDIT HARVESTED AND ITS FIRST EIGHT CORRECTIONS (B1862); GENESIS v1.64 (2026-11-10)
 - S306o REVIEW 77, THE DECADAL REVIEW (B1860; fired by the push gate at 41 landings) (2026-11-10)
@@ -65,11 +66,10 @@
 - S306n (continued) THE DOOR SET IS {1, 4} (B1859; a front-page claim corrected; P-318, P-618; GENESIS v1.63) (2026-11-10)
 - S306n (continued) THE CLOSURE MAP (B1858; the owner's directive, P-748; the physical lane's work order, its first return) (2026-11-10)
 - S306n THE REFETCH: three lanes harvested, main's apex error corrected, the owner's directive registered (2026-11-10)
-- S306m (continued) THE READ-OUT BY A STATE (B1857; the explore seat, row 1617) (2026-11-07)
 
 ## The latest campaign line
 
-LATEST (2026-11-10, S306o (continued): B1863 — THE APPEND-ONLY GATE READS HISTORY (the audit's first critical finding, G1; WP-0.7): the gate compared the working log with HEAD's and could not fail on a committed deletion; it now checks every commit after f31729801 that touches the log, fails closed where history cannot be read, and keeps a violation visible until waived by name; the audit's planted violations are in the suite; a gate that checked nothing is printed SKIP, never a bare ok. Next: G2, an edit of a sealed file after its seal. 0 of 19.)
+LATEST (2026-11-10, S306o (continued): B1864 — A SEALED FILE DOES NOT CHANGE AFTER ITS SEAL (the audit's second critical finding, G2, with G3; WP-0.7): a new gate reads history and refuses any commit after 76a4ff388 that edits, deletes or moves a sealed-style file; the ledger gate recomputes every generated row; the ledger's generator reads tracked files only and not the ledger itself (432 rows; unrecorded single-commit 145; unrecorded amended 11); the audit's planted violations are in the suite; read back over 300 commits the rule finds three edits of the candidate's declaration of ends, the end its row uses entered 75 minutes after the first declaration (the factual core of the audit's V4…
 
 ## Completeness (nothing skipped silently)
 

@@ -15930,6 +15930,19 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1864": {
+   "slug": "a sealed file does not change after its seal",
+   "motifs": [
+    "closing"
+   ],
+   "refs": [
+    "V4"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "dead",
+   "domain": "topology"
+  },
   "B186": {
    "slug": "hyperbolicity certification",
    "motifs": [
