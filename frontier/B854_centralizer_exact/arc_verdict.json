@@ -2,7 +2,7 @@
  "id": "B854",
  "verdict": "NEGATIVE",
  "instrument": false,
- "claim_one_line": "The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0).",
+ "claim_one_line": "The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all six brackets vanishing including the decisive [x14,x22] -- so no non-abelian continuous symmetry commutes with the object's finite holonomy image, and the reported su(2)+u(1) 'electroweak' result is refuted: it read the RESTRICTION K_e6|_C (rank 4, nondegenerate as on a torus) as the intrinsic Killing form K_C (identically 0). [SCOPED 2026-11-10 (B1862; the advisor seat's audit, E8): 'no non-abelian continuous symmetry commutes with the object's finite holonomy image' is for the principal embedding only, as this line's first clause says; other embeddings were not computed (FINDINGS § 7).]",
  "depends_on": [
   "B848"
  ],

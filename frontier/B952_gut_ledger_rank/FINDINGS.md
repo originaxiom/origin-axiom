@@ -32,8 +32,11 @@ about its own distance from the Standard Model.
 
 **The second measurement preserves rank exactly.** This is forced, not incidental:
 
-> **The centralizer of a set of semisimple elements contains a maximal torus, and therefore
-> has full rank.** The measurement cascade computes centralizers of charges — elements of
+> **The centralizer of a set of COMMUTING semisimple elements contains a maximal torus, and
+> therefore has full rank.** [Corrected 2026-11-10 (B1862; the advisor seat's audit, finding E4, reproduced on
+> main): this read "a set of semisimple elements". That is false without "commuting": in sl(2) the elements
+> diag(1, −1) and the swap matrix are both semisimple and their common centralizer is zero. The cascade's
+> elements are charges, which lie in one torus and commute, so the conclusion drawn here is unchanged.] The measurement cascade computes centralizers of charges — elements of
 > the torus. **So every measurement in the cascade is rank-preserving, and no number of
 > them can ever reach rank 4.**
 

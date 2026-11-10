@@ -25,7 +25,10 @@ CLARIFIES; it changes no sealed verdicts.**
   run (AMBIGUOUS under its frozen targets); this finding goes to seat 4
   as review input and pushes the honest reading toward null. No
   ℤ/7-heptagonal θ₂₃ ansatz exists in the literature (sin(π/7) has no
-  radical closed form — 7 is not Fermat — which explains the gap).
+  radical closed form — 7 is not Fermat — which explains the gap). [Corrected 2026-11-10 (B1862; the advisor
+  seat's audit, E11): sin(π/7) has no closed form in REAL radicals and is not constructible by ruler and compass,
+  which is what "7 is not Fermat" says. It is expressible by complex radicals, since its field is abelian: its
+  minimal polynomial is 64x⁶ − 112x⁴ + 56x² − 7.]
 - Field posture (Ding–Valle 2024 review, arXiv:2402.16963): exact
   algebraic patterns are historical benchmarks requiring corrections.
 

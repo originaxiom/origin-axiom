@@ -1,0 +1,89 @@
+written: PROGRAMME.md, PROGRAMME.json
+{
+ "map_nodes": 268,
+ "nodes_needing_a_path": 131,
+ "nodes_assigned": 131,
+ "conditional_results": 19,
+ "debts": 79,
+ "packages": 43,
+ "packages_by_obligation": {
+  "C0": 12,
+  "C1": 9,
+  "C2": 5,
+  "C3": 5,
+  "C4": 7,
+  "C5": 4,
+  "C6": 1
+ },
+ "packages_by_status": {
+  "NOT STARTED": 28,
+  "STARTED": 14,
+  "DONE": 1
+ },
+ "packages_by_intent": {
+  "DERIVE": 17,
+  "DECIDE": 12,
+  "VERIFY": 7,
+  "DECLARE": 5,
+  "OWNER": 2
+ },
+ "unowned": [
+  "WP-1.8",
+  "WP-1.9",
+  "WP-3.5",
+  "WP-4.5"
+ ],
+ "waves": 9,
+ "map_dependencies_between_packages": 21,
+ "packages_that_close_together": [
+  [
+   "WP-2.1",
+   "WP-2.5",
+   "WP-4.1"
+  ]
+ ],
+ "independent_choices": 38,
+ "budget": {
+  "axiom": 8,
+  "bit": 8,
+  "discrete": 16,
+  "real": 5,
+  "ansatz": 1,
+  "identification": 7
+ },
+ "budget_items": 45,
+ "rules_of_the_comparison": 12,
+ "lanes_supplied_inputs": 7,
+ "present_inputs": 64,
+ "candidate_frame_joints": 13,
+ "audit_findings": 73,
+ "audit_findings_by_state": {
+  "OPEN": 35,
+  "READER": 15,
+  "REPRODUCED": 8,
+  "PARTLY FIXED": 10,
+  "FIXED": 5
+ },
+ "relayed_rulings": 7,
+ "headline_results_that_are_conditional_results": [
+  "G:ROOT",
+  "MC:Z6",
+  "W:INDEX3",
+  "V:SIX"
+ ],
+ "headline_results_not_yet_results_on_main": [
+  "T:IM",
+  "E:L10"
+ ],
+ "open_choices_under_each_conditional_headline": {
+  "G:ROOT": 2,
+  "MC:Z6": 3,
+  "W:INDEX3": 3,
+  "V:SIX": 15
+ },
+ "conditional_headlines_released_by_closing_one_choice": 0,
+ "work_order_quotes_checked": 8,
+ "audit_findings_checked_at_the_seats_revision": 73,
+ "not_checked_in_this_clone": []
+}
+THE PROGRAMME COVERS THE MAP

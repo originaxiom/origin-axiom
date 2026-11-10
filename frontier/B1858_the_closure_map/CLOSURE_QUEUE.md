@@ -219,7 +219,7 @@
 | P-739 | QUEUED | THE TUBE'S τ BEYOND k = 1, ON MAIN |
 | P-744 | QUEUED | THE READ-OUT BY A STATE ON THE HYPERBOLIC METRIC |
 
-## The register's open debts, by class (78)
+## The register's open debts, by class (79)
 
 | class | debts | the first by load |
 |---|---|---|
@@ -230,3 +230,4 @@
 | added by B1833 (S300; the brainstorms re-read) | 4 | P-653: GENESIS's foundation lock has never been tested as a whole (L240 (h)); its swept page of what the record lacks (g) dropped from the carry. |
 | added at S305 (the closure prepared) | 3 | P-688: the confirmation cards (P-585, P-638) cannot be sealed the day B1839 passes without the frozen-row instrument at the exact end, the PMNS card's owed c |
 | added at S306k (the web seat's open-book relay) | 1 | P-733: B1010's consolidation list cites B132's 'm = 1 uniquely coherent', computed under a same-handed convention whose m = 1 word is not LR. |
+| added at S306o (the advisor seat's audit, 2026-11-10) | 1 | P-757: the gates, seals and locks under every banked result: 24 of the audit's 27 planted violations pass undetected on main, the two it grades critical amon |

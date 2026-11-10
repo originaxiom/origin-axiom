@@ -106,7 +106,9 @@ invariants — so every residual outside C is pure error.
 ## 6. Consequence, stated without extension
 
 **No non-abelian gauge algebra arises as the centralizer of the object's finite holonomy image
-inside the E₆ its arithmetic selects.** No W bosons, no SU(2) to break, no electroweak reading from
+inside the E₆ its arithmetic selects.** [Scoped 2026-11-10 (B1862; the advisor seat's audit, finding E8, reproduced
+on main): this holds for the PRINCIPAL embedding of 2T, the only one computed (§ 7). A non-principal embedding has a
+different centralizer, and the sentence says nothing about it.] No W bosons, no SU(2) to break, no electroweak reading from
 this route.
 
 **Related, checked, and separate:** the conformal-embedding route ((E₆)₁ ⊃ (A₂)₂ × (G₂)₁ ⊃

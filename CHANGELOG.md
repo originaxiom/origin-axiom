@@ -1,5 +1,28 @@
 # Changelog
 
+## S306o (continued) THE CLOSURE PROGRAMME (B1861); THE ADVISOR SEAT'S AUDIT HARVESTED AND ITS FIRST EIGHT CORRECTIONS (B1862); GENESIS v1.64 (2026-11-10)
+
+- **The closure programme (B1861): the work order's plan, as a check.** One generated page, `frontier/B1861_the_closure_programme/PROGRAMME.md`. Its builder refuses to write it unless every node of the closure map that still needs a path is in exactly one package, and unless the order of work records every dependency edge the map holds between two packages.
+  - 131 of 131 such nodes, in 43 packages under seven obligations: the work order's six and C0, the record clean under the claim.
+  - **Main's spine holds 38 inputs as the record lists them:** 8 axioms, 8 bits, 16 discrete choices, 5 real numbers, 1 ansatz, 7 identifications. The kinds are checked against GENESIS's grades and the scoreboard's data file. The lanes' model adds seven supplied inputs, not typed.
+  - **The premises are in series.** Beyond the foundation's axioms the root waits on 2 open choices, the structural theorem on 3, the chiral three on 3, the six ratios on 15. None is released by closing one.
+  - **What sits under the most is the weight.** Every result of the lanes' model rests on the carrier, the parent algebra (unowned), the background and the modulus. The action, the dynamics and the modulus close together.
+  - None of the work order's three milestones is met. Four packages have no owner.
+  - **Its first draft had thirteen faults, found by a reader who did not write it** (its order contradicted the map's own edges; its critique of the work order was unfair in six rows; its budget disagreed with the record on θ̄). All applied; the report and main's dispositions are in the arc.
+- **The advisor seat registered and harvested** (branch `cld/cool-hamilton-k9eqvo`, pinned `701d12ff`; rows 1629–1633; P-757 to P-759): an audit of main as of 2026-11-07 with 73 findings, an acceptance standard with 27 planted violations, two proposals, a dry run of a certificate on the candidate, and the owner's rulings of the day as it relays them.
+  - Its bottom line: no mathematical error in the foundations; the enforcement layer does not enforce what it says.
+  - **Main's reader ran the 27 planted violations on today's main: 24 pass undetected, 3 are caught in part, none outright.** Among the 24: a committed deletion from the progress log, and an edit of a sealed file after its seal.
+  - Every finding is in a package with its state on main. The relayed rulings (R1 to R7) change no governing document before the owner confirms them (P-758).
+- **The audit's first eight corrections (B1862), each reproduced on main first:**
+  - B567: 20 distinct eigenvalues at level 165, not 21. The lock had counted the eigenvalue at angle ±π twice, on some machines only.
+  - B1856: "invisible to every state" is E ≡ +I only. Of 643 rung-invisible defects, 338 have +I and 305 have −I. The run of 6 is unaffected.
+  - B1847's lock: two assertions that could not fail are now real checks.
+  - B952's lemma needs "commuting". B862's ℤ₆ kernel is now computed from its map. B854's negative is scoped to the embedding computed. sin(π/7) is expressible by complex radicals. The front page's arc lookup reads its argument.
+  - **One of main's own fixes of the day failed the audit's planted test:** the gate widened at Review 77 fired only on the author's tree. It now refuses any lock path that git would ignore, whether or not the file exists.
+- **GENESIS v1.64:** the rule for earning a dictionary by prediction said "all six hold" above seven conditions (P-760). A count; no condition and no status changes.
+- **The web seat's one new relay** rowed (1634; pin `762e9755`).
+- 0 of 19.
+
 ## S306o REVIEW 77, THE DECADAL REVIEW (B1860; fired by the push gate at 41 landings) (2026-11-10)
 
 - **The loop closed.** All eight of Review 76's items were resolved in the window; nothing is carried.

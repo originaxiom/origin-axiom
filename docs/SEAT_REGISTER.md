@@ -83,3 +83,8 @@ this note is its reading (P-127).
 |---|---|---|---|---|
 | **explore** | `origin/explore/2026-11-05` (forked from main at 5f2286cdb) | none: relays under `relays/explore_*`, no arc numbers, nothing written to main | a peer session working at the owner's word, relaying pre-registered data-free tests to main (it identifies itself to main as "the explore seat") | **ACTIVE**; pinned at `3c510bbe` after rows 1612–1613; its relays verified on main's own code (B1853) |
 
+## Registered 2026-11-10 (S306o, B1861) — the advisor seat
+
+| seat (alias on main) | branch | numbering | lane | state |
+|---|---|---|---|---|
+| **advisor** | `origin/cld/cool-hamilton-k9eqvo` (forked from main at 217e37c4f) | none: relays under `relays/advisor_2026-11-10_audit/`, no arc numbers, nothing written to main | an audit session working at the owner's word. By its own account of the owner's words it advises: main fixes on main, and the seat then re-audits and says whether each item meets its acceptance criteria. Its approval covers what its audit read, and it is internal review | **ACTIVE**; pinned at `701d12ff` after rows 1629–1633; its 73 findings each in a package of the closure programme with a state on main (B1861 § 8; P-757); the owner's rulings it relayed are put to the owner (P-758) |

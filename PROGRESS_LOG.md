@@ -18829,3 +18829,29 @@ appeared. The safeguard that should have caught it could not see it, and it now 
 The review also named the programme's most repeated mistake as its own class of error, at the owner's word: taking one
 allowed object for the whole. By their own labels, every one of the window's seven scientific results is about a single
 object. 0 of 19.
+
+## 2026-11-10 — S306o (continued): the plan for everything that is left, and a second pair of eyes on the whole record
+
+Two things happened together.
+
+First, main turned the list of everything still missing into a plan that checks itself. Every open item on the
+programme's map now sits in a named piece of work with one question, a first step, and a statement of what would count
+as done. A program refuses to produce the plan if any item is left out, or if the order of work contradicts what the
+map says depends on what. The plan also counts what the theory presently assumes: thirty-eight separate inputs, of
+which five are plain numbers. A theory with no free parameters may keep its axioms and none of the rest. The plan's
+first draft was read by a reader who had not written it, and that reader found thirteen faults, the largest being that
+the order of work did not match the map. All were fixed.
+
+Second, another seat, set up by the owner as an advisor, had audited the whole repository. It found no mathematical
+error in the foundations. It found that many of the automatic safeguards do not do what they say: of twenty-seven
+deliberate violations it designed, twenty-four pass undetected, including deleting part of the project's log and
+editing a sealed document after its seal. Main repeated the test and got the same count. One of main's own repairs
+from that morning failed the test too, and was strengthened.
+
+The audit also found real mistakes in individual results. Main reproduced sixteen of them and corrected the first
+eight. None changes a conclusion, but one was a count that could not be right, pinned in place by a test that happened
+to pass on main's machine.
+
+The advisor seat also relayed rulings from the owner, among them that the programme's only goal is a parameter-free
+theory of everything. Main has recorded them and is asking the owner to confirm each before acting on it.
+0 of 19.

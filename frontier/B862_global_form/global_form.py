@@ -16,23 +16,52 @@ Mathematics scope. Nothing reaches CLAIMS.md; Gate 5 untouched.
 import json
 import os
 
-import numpy as np
+from fractions import Fraction as Fr
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 
+def kernel_exact(grid=6):
+    """The kernel of g(A, B, a) = diag(A e^{-2ia}, B e^{3ia}), computed from the map in exact arithmetic.
+
+    Corrected 2026-11-10 (B1862; the advisor seat's audit, finding E6, reproduced on main). The function this replaces
+    built no matrix and no map: it looped over twelve angles and tested exp(6ia) = 1, the six being a condition derived
+    by hand in a comment. The fact was right; it was not computed.
+
+    g(A, B, a) = 1 forces A = e^{2ia} 1 and B = e^{-3ia} 1, so a kernel element is a triple of scalars: A = e^{2 pi i alpha}
+    with alpha in (1/3)Z (the centre of SU(3)), B = e^{2 pi i beta} with beta in (1/2)Z (the centre of SU(2)), a = 2 pi q.
+    The five diagonal phases of g, as exact rationals mod 1, are alpha - 2q (three times) and beta + 3q (twice).
+    From alpha - 2q = 0 and alpha in (1/3)Z, q lies in (1/6)Z: the grid of sixths is complete, and `grid` may be any
+    multiple of 6 (a finer grid must find nothing more). Returns the kernel as triples (alpha, beta, q)."""
+    assert grid % 6 == 0
+    ker = []
+    for al in (Fr(0), Fr(1, 3), Fr(2, 3)):
+        for be in (Fr(0), Fr(1, 2)):
+            for n in range(grid):
+                q = Fr(n, grid)
+                phases = [(al - 2 * q) % 1] * 3 + [(be + 3 * q) % 1] * 2          # the diagonal of g(A, B, a), as exponents
+                if all(x == 0 for x in phases):
+                    ker.append((al, be, q))
+    return ker
+
+
+def _order(g):
+    """the order of a kernel element under componentwise addition mod 1"""
+    add = lambda x, y: tuple((u + v) % 1 for u, v in zip(x, y))
+    o, e = 1, g
+    while any(c != 0 for c in e):
+        e = add(e, g)
+        o += 1
+    return o
+
+
 def kernel_elements():
-    """Solve A = w3*I3, B = w2*I2, w3 = e^{2ia}, w2 = e^{-3ia} over the sixth roots."""
-    sols = set()
-    for k in range(12):                       # a = 2 pi k / 12 suffices: charges 2,3 -> lcm 6
-        a = 2 * np.pi * k / 12
-        w3 = np.exp(2j * a)                   # A must equal w3^{-1}... sign conventions cancel
-        w2 = np.exp(-3j * a)
-        # A = e^{2ia} I3 must be in SU(3): det = e^{6ia} = 1  -> 6a in 2 pi Z
-        # B = e^{-3ia} I2 must be in SU(2): det = e^{-6ia} = 1 -> same condition
-        if abs(np.exp(6j * a) - 1) < 1e-9:
-            sols.add(round((a / (2 * np.pi) * 6)) % 6)
-    return sorted(sols)
+    """The kernel's elements as sixth-root indices of a (the form results.json has always held)."""
+    ker = kernel_exact(6)
+    assert len(ker) == len(kernel_exact(72)) == 6                 # the grid of sixths is complete
+    assert max(_order(g) for g in ker) == 6                       # cyclic: an element of order 6 generates it
+    assert all(al == (2 * q) % 1 and be == (-3 * q) % 1 for al, be, q in ker)   # A = e^{2ia} 1, B = e^{-3ia} 1
+    return sorted(int(q * 6) for al, be, q in ker)
 
 
 def main():

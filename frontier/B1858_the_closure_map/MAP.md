@@ -25,7 +25,7 @@ by a quote that the builder checks.*
 | LANE-PROPOSED | a seat's hand proof, count or estimate, unreviewed; not verified on main | 7 |
 | LANE-INPUT | an input the seat's own ledger prices as supplied, unselected or unearned | 7 |
 | DUTY | something the full goal requires and nobody has done | 16 |
-| DEBT | a result the record uses is owed a check or a correction | 78 |
+| DEBT | a result the record uses is owed a check or a correction | 79 |
 | CLOSURE | one missing dependency under several names | 11 |
 
 ## 0. The principle
@@ -374,3 +374,4 @@ by a quote that the builder checks.*
 | 76 | P-687 | added at S305 (the closure prepared) | B1839's census rests on the Higgs-twist class cache (checked numerically by its C1, unproved) and has no independent third opinion. |
 | 77 | P-698 | added at S305 (the closure prepared) | frame B's B08 stays unconverted until main runs B1667's geometry at the agy lane's τ*. |
 | 78 | P-733 | added at S306k (the web seat's open-book relay) | B1010's consolidation list cites B132's 'm = 1 uniquely coherent', computed under a same-handed convention whose m = 1 word is not LR. |
+| 79 | P-757 | added at S306o (the advisor seat's audit, 2026-11-10) | the gates, seals and locks under every banked result: 24 of the audit's 27 planted violations pass undetected on main, the two it grades critical among them (a committed deletion from the progress log; an edit of a sealed file after its seal). |

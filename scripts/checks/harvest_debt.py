@@ -171,6 +171,13 @@ SEATS = [
     # nothing written to main). Registered so it is watched, pinned at its head (rows 1612-1613, B1853).
     dict(key="explore", label="the explore seat (2026-11-05)", branch="2026-11-05",
          remotes=("origin",), cell=("explore seat",)),
+    # ADDED 2026-11-10 (S306o), found at the fetch after Review 77's push: the branch `cool-hamilton-k9eqvo`, forked from main at
+    # 217e37c4f, an audit session working at the owner's word (it identifies itself to main as "the advisor seat"): an audit
+    # of main with acceptance criteria, the owner's rulings of the day as it relays them, and two proposals, as relays under
+    # relays/advisor_2026-11-10_audit/ (no arc numbers, nothing written to main). Registered so it is watched, pinned at its
+    # head (rows 1629-1633, B1861).
+    dict(key="advisor", label="the advisor seat (2026-11-10)", branch="cool-hamilton-k9eqvo",
+         remotes=("origin",), cell=("advisor seat",)),
     # ADDED 2026-10-03 (B1461), found by the lane survey in S44's suite: a one-commit branch pushed to both remotes
     # at 01:18 UTC that day, an illustration under art/ with no programme content and an author field that is not
     # the repository's. Not a seat; registered so that it is watched, pinned at its head so it carries no items;

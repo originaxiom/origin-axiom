@@ -115,6 +115,20 @@ def test_the_single_block_at_level_five_is_not_the_leading_exponential():
     assert abs(KB.kashaev(80) / full(80) - 1) < 0.01                         # the asymptotic holds at large N
 
 
+def _rises(toward):
+    """rows ordered by falling s: at least eight of them, Im tau strictly rising from each to the next"""
+    return len(toward) >= 8 and all(a[3] < b[3] for a, b in zip(toward, toward[1:]))
+
+
+def test_the_rise_check_can_fail():
+    """MB12 (B1862): the check that replaced a list compared with its own sort refuses a table with one value out of order."""
+    good = [(0.02 - 0.002 * k, 120, 0.0, 3.7 + 0.3 * k, 0.0) for k in range(9)]
+    assert _rises(good)
+    bad = list(good)
+    bad[4], bad[5] = (bad[4][0], 120, 0.0, bad[5][3], 0.0), (bad[5][0], 120, 0.0, bad[4][3], 0.0)
+    assert not _rises(bad) and not _rises(good[:5])
+
+
 def test_the_tube_by_the_full_groups_ford_domain():
     rows = []
     for l in (HERE / "gamma_tube_table.txt").read_text().splitlines()[1:]:
@@ -126,10 +140,15 @@ def test_the_tube_by_the_full_groups_ford_domain():
     assert abs(abs(c50[2]) - 0.5) < 3e-3 and abs(c50[3] - 1.5904) < 2e-3
     near = [r for r in rows if 0 < abs(r[0]) <= 0.002 or r[0] == 0.0]
     assert all(6.0 < r[3] < 6.3 for r in near)                                    # the limit cluster: 6.15 +- 0.15
-    lim = sorted(r[3] for r in rows if 0 < r[0] <= 0.02 and r[1] == 120)
-    assert lim == sorted(lim)                                                     # Im tau rises toward the tube (monotone in s)
+    # Im tau rises toward the tube: strictly, as s falls to 0 on the 120 grid. [Corrected 2026-11-10 (B1862; the advisor
+    # seat's audit, L5, reproduced on main): this compared a sorted list with its own sort and could not fail.]
+    toward = sorted((r for r in rows if 0 < r[0] <= 0.02 and r[1] == 120), key=lambda r: -r[0])
+    assert _rises(toward)
     assert abs(get(0.005, 80)[3] - get(0.005, 120)[3]) < 2e-3                    # two grids agree (1.7e-3)
     g = (HERE / "core_gradient_run.txt").read_text()
     assert "min 4.19" in g                                                        # the tube level is regular
+    # far from every record reading: the cluster's own least value against each. [Corrected 2026-11-10 (B1862, L5): this
+    # subtracted three literals from the literal 6.0.]
+    least = min(r[3] for r in near)
     for x in (3.65, 2.87, 2.58):
-        assert 6.0 - x > 2.0                                                      # far from every record reading
+        assert least - x > 2.0

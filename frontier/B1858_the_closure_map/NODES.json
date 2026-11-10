@@ -6445,5 +6445,29 @@
    "P-733": "QUEUED"
   },
   "weave_or_thread": "n/a"
+ },
+ {
+  "id": "P:757",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "the gates, seals and locks under every banked result: 24 of the audit's 27 planted violations pass undetected on main, the two it grades critical among them (a committed deletion from the progress log; an edit of a sealed file after its seal).",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-757 — "
+   ]
+  ],
+  "rows": [
+   "P-757"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 79,
+  "debt_class": "added at S306o (the advisor seat's audit, 2026-11-10)",
+  "rows_live": {
+   "P-757": "QUEUED"
+  },
+  "weave_or_thread": "n/a"
  }
 ]

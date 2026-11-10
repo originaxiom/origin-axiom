@@ -39,3 +39,11 @@ wall and the cascade's engine are the same coin.
 - The line-operator distinction is *in-principle* falsifiability, not a proposed experiment.
 
 `tests/test_b862_global_form.py`
+
+## Dated note, 2026-11-10 (B1862; the advisor seat's audit, finding E6, reproduced on main)
+
+`global_form.py`'s kernel function built no map. It looped over twelve angles and tested exp(6ia) = 1, the six being a
+condition derived by hand in a comment. The fact was right and was not computed. The function now computes the kernel
+from the map g(A, B, a) = diag(A e^{−2ia}, B e^{3ia}) in exact rational arithmetic: the five diagonal phases over the
+two centres and a complete grid of sixths, a finer grid finding nothing more, and an element of order 6 generating it.
+`results.json` is unchanged. For the kernel under rescaled charges, see B1221's correction of the same day.

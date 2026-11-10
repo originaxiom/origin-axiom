@@ -534,20 +534,51 @@ def gate_path_refs():
     return True, f"ok ({total} citations resolve)"
 
 
-_FILE_BASE = re.compile(r'^(\w+)\s*=\s*(?:pathlib\.)?Path\(__file__\)(?:\.resolve\(\))?\.(parent|parents\[(\d+)\])(?![\w.\[])', re.M)
+# NAME = Path(__file__).resolve().parent  |  .parents[k]  |  either followed by / "a" / "b" (a base inside another folder)
+_FILE_BASE = re.compile(r'^(\w+)\s*=\s*(?:pathlib\.)?Path\(__file__\)(?:\.resolve\(\))?\.(parent|parents\[(\d+)\])'
+                        r'((?:\s*/\s*"[^"]+")*)(?=\s*(?:$|;|#))', re.M)
+
+
+_OS_DIR = r'os\.path\.dirname\(\s*(?:os\.path\.abspath\(\s*__file__\s*\)|__file__)\s*\)'
+_OS_BASE = re.compile(r'^(\w+)\s*=\s*(' + _OS_DIR + r'|os\.path\.dirname\(\s*' + _OS_DIR + r'\s*\))\s*$', re.M)
 
 
 def _file_relative_refs(rel, txt):
-    """The paths a file reads relative to ITSELF: `HERE = pathlib.Path(__file__).resolve().parent`, then `HERE / "a" / "b"`."""
+    """The paths a file reads relative to ITSELF, in the two idioms the record uses:
+    `HERE = pathlib.Path(__file__).resolve().parent`, then `HERE / "a" / "b"`; and
+    `HERE = os.path.dirname(os.path.abspath(__file__))`, then `os.path.join(HERE, "a", "b")` (or the dirname inline)."""
     out = set()
+
+    def add(base, parts):
+        out.add(os.path.normpath(os.path.join(base, *parts)).replace(os.sep, "/"))
     for m in _FILE_BASE.finditer(txt):
         up = 1 if m.group(2) == "parent" else int(m.group(3)) + 1
         base = rel
         for _ in range(up):
             base = os.path.dirname(base)
-        for ch in re.finditer(r'\b%s((?:\s*/\s*"[^"]+")+)' % re.escape(m.group(1)), txt):
-            out.add(os.path.normpath(os.path.join(base, *re.findall(r'"([^"]+)"', ch.group(1)))).replace(os.sep, "/"))
+        base = os.path.join(base, *re.findall(r'"([^"]+)"', m.group(4)))
+        for ch in re.finditer(r'(?<![\w.])%s((?:\s*/\s*"[^"]+")+)' % re.escape(m.group(1)), txt[:m.start()] + txt[m.end():]):
+            add(base, re.findall(r'"([^"]+)"', ch.group(1)))
+    here = os.path.dirname(rel)
+    bases = {}
+    for m in _OS_BASE.finditer(txt):
+        bases[m.group(1)] = os.path.dirname(here) if m.group(2).count("dirname") == 2 else here
+    for name, base in bases.items():
+        for ch in re.finditer(r'os\.path\.join\(\s*%s\s*((?:,\s*"[^"]+"\s*)+)\)' % re.escape(name), txt):
+            add(base, re.findall(r'"([^"]+)"', ch.group(1)))
+    for ch in re.finditer(r'os\.path\.join\(\s*' + _OS_DIR + r'\s*((?:,\s*"[^"]+"\s*)+)\)', txt):
+        add(here, re.findall(r'"([^"]+)"', ch.group(1)))
     return out
+
+
+def _git_would_ignore(paths):
+    """which of these repository-relative paths git would ignore, whether or not they exist on disk"""
+    if not paths:
+        return set()
+    import subprocess
+    r = subprocess.run(["git", "-C", str(ROOT), "check-ignore", "--no-index", "--stdin"], input="\n".join(sorted(paths)) + "\n",
+                       capture_output=True, text=True)
+    return {l for l in r.stdout.split("\n") if l}
 
 
 def gate_tracked_deps(_plant=None):
@@ -568,6 +599,11 @@ def gate_tracked_deps(_plant=None):
     this gate saw neither: it read only tests/ and scripts/ and only repo-root paths.  Scripts are left out on purpose:
     a generator may keep an ignored cache; a lock may not depend on one.  `_plant` is the control's door: one more
     (path, text) pair read as if tracked.
+
+    Third scope, the same day (main's own planted run of the advisor seat's PV25): as first widened, the gate flagged a
+    lock's path only when the file was ON DISK and untracked, so it could fire on the author's tree and never in a clean
+    checkout, which is where the push hook runs it.  A lock's own-directory path that git WOULD IGNORE is now refused
+    whether or not the file exists; and the `os.path.join(os.path.dirname(__file__), ...)` idiom is read as well.
     """
     rc, out = _git("ls-files")
     if rc != 0:
@@ -575,7 +611,7 @@ def gate_tracked_deps(_plant=None):
     tracked = set(out.split("\n"))
     lit = re.compile(r"(?:scripts|frontier|docs|tests|data|paper)/[\w./-]+\.(?:py|sh|json|md|txt|csv)")
     chain = re.compile(r'ROOT(?:\s*/\s*"[^"]+")+')
-    bad = {}
+    bad, absent = {}, {}
     sources = sorted(tracked) + ([_plant[0]] if _plant else [])
     for rel in sources:
         core = rel.startswith(("tests/", "scripts/")) and rel.endswith(".py")
@@ -591,11 +627,16 @@ def gate_tracked_deps(_plant=None):
             refs |= set(lit.findall(txt))
             for ch in chain.findall(txt):
                 refs.add("/".join(re.findall(r'"([^"]+)"', ch)))
-        if lock:
-            refs |= _file_relative_refs(rel, txt)
+        own = _file_relative_refs(rel, txt) if lock else set()
+        refs |= own
         for r in refs:
             if r not in tracked and os.path.isfile(os.path.join(ROOT, r)):
                 bad.setdefault(r, rel)
+        for r in own:
+            if r not in tracked and not os.path.isdir(os.path.join(ROOT, r)):
+                absent.setdefault(r, rel)
+    for r in sorted(_git_would_ignore(set(absent) - set(bad))):
+        bad.setdefault(r, absent[r] + " (git ignores this path: a clean checkout will not have it)")
     if bad:
         pairs = [f"{r} <- {src}" for r, src in sorted(bad.items())]
         return False, f"{len(pairs)} untracked-but-referenced path(s): " + "; ".join(pairs[:5])

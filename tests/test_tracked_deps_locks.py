@@ -59,3 +59,36 @@ def test_b1854s_lock_reads_only_tracked_files():
     tracked = set(subprocess.run(["git", "-C", str(ROOT), "ls-files", ARC], capture_output=True, text=True).stdout.split())
     for name in ("driver_k1_control_run.txt", "driver_k2_run.txt", "driver_k3_run.txt"):
         assert ARC + "/" + name in tracked
+
+
+def test_the_gate_fires_in_a_clean_checkout():
+    """The third scope (2026-11-10; main's own planted run of the advisor seat's PV25): as first widened, the gate flagged
+    a lock's path only when the file was on disk and untracked, so it could fire on the author's tree and never in a clean
+    checkout. A path git WOULD ignore is refused whether or not the file exists. Nothing is planted on disk here."""
+    g = _gates()
+    absent = "_e94_never_created_run.log"
+    assert not (ROOT / ARC / absent).exists()
+    for idiom in (LOCK,
+                  "import os\nHERE = os.path.dirname(os.path.abspath(__file__))\nx = open(os.path.join(HERE, \"%s\")).read()\n",
+                  "import os\nx = open(os.path.join(os.path.dirname(__file__), \"%s\")).read()\n"):
+        ok, why = g.gate_tracked_deps(_plant=(ARC + "/test_e94_planted_lock.py", idiom % absent))
+        assert not ok and absent in why and "git ignores this path" in why, (idiom, why)
+    # a name that is absent and not ignored is another gate's business; a generator is left alone
+    ok, why = g.gate_tracked_deps(_plant=(ARC + "/test_e94_planted_lock.py", LOCK % "_e94_never_created.txt"))
+    assert ok, why
+    ok, why = g.gate_tracked_deps(_plant=(ARC + "/make_e94_planted.py", LOCK % absent))
+    assert ok, why
+
+
+def test_a_base_inside_another_folder_is_resolved():
+    """`D = Path(__file__).resolve().parents[1] / "frontier" / "B1_x" / "verification"`: the chain after the parent
+    expression belongs to the base. Read without it, three older locks' force-added files resolved to the repository's
+    root and were flagged."""
+    g = _gates()
+    txt = 'D = pathlib.Path(__file__).resolve().parents[1] / "frontier" / "B1_x" / "verification"\nr = (D / "a.jsonl").read_text()\n'
+    assert g._file_relative_refs("tests/test_x.py", txt) == {"frontier/B1_x/verification/a.jsonl"}
+    one = 'HERE = pathlib.Path(__file__).resolve().parent; ROOT = HERE.parents[2]\na = HERE / "runs" / "k1.txt"\n'
+    assert g._file_relative_refs("frontier/B1_x/verification/test_t.py", one) == {"frontier/B1_x/verification/runs/k1.txt"}
+    osj = 'import os\nH = os.path.dirname(os.path.abspath(__file__))\nA = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\n' \
+          'x = os.path.join(H, "runs", "k1.txt")\ny = os.path.join(A, "FINDINGS.md")\n'
+    assert g._file_relative_refs("frontier/B1_x/verification/test_t.py", osj) == {"frontier/B1_x/verification/runs/k1.txt", "frontier/B1_x/FINDINGS.md"}

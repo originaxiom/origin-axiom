@@ -17,7 +17,11 @@ spectrum is impossible for anything that deserves the name "the monodromy at lev
 **The computation (standard Weil rep, T→chirp, S→DFT, A₁ = T·(S T⁻¹ S⁻¹)):**
 - Level 15: **11 distinct eigenvalues**, degeneracies {1,2}, angles on the 2π/20 lattice,
   **projective order = 20** exactly. Not 6, not (3,2,2,3,3,2), not π/3-spaced.
-- Level 165: **21 distinct eigenvalues**, multiplicities 12,12,12,12,11,11,10,… ,
+- Level 165: **20 distinct eigenvalues** [corrected 2026-11-10 (B1862; the advisor seat's audit, E13, reproduced on main): this read "21 distinct
+  eigenvalues". With projective order 20 every eigenvalue is a 20th root of one constant, so there are at most 20.
+  The count of 21 split the eigenvalue at angle ±π across the branch cut of the angle. On the lattice of 20th roots
+  the multiplicities are 12, 12, 12, 12, 11, 11, 10, 10, 10, 10, 7, 7, 7, 6, 6, 5, 5, 4, 4, 4 (sum 165). The
+  conclusion below is unchanged], multiplicities 12,12,12,12,11,11,10,… ,
   **projective order = 20** (= lcm(4,10,5)). Not 6, not 28/27 — the "28 = dim SO(8),
   27 = dim h₃(𝕆)" reading dissolves with the spectrum (the Markoff-lesson species).
 

@@ -1,6 +1,6 @@
 # GENESIS — the foundations of origin-axiom
 
-**Version 1.63 · 2026-11-10 · canonical.** v1.0 is the SM seat's (its arc sm:B1516). v1.1 is main's verification and
+**Version 1.64 · 2026-11-10 · canonical.** v1.0 is the SM seat's (its arc sm:B1516). v1.1 is main's verification and
 adoption of it (arc B1454): the same statement, the seat's arc numbers marked `sm:`, and main's amendments, each marked
 **[v1.1]** where it adds content. The SM seat amended v1.0 the same day on its own branch (sm:B1517), also numbered 1.1
 there, before main's was read. v1.2 (sm:B1519) takes main's v1.1 as the head, as main asked, and adds that amendment and
@@ -315,7 +315,7 @@ physics; any Standard-Model parameter (**0 of 19**).
 - **GAP1, the dictionary.** No frame is derived (I-26). Until one is, a count is mathematics about a flat bundle.
   **[v1.60] A DICTIONARY MAY BE EARNED BY PREDICTION (the owner's ruling, 2026-11-03, P-580; B1828).** The sentence above
   stands: no frame is derived from §1–§4. What changes is how a frame's dictionary may be earned. An identification
-  (I-26, a row of docs/IDENTIFICATION_LEDGER.md) is **EARNED BY PREDICTION within a frame F** when all six hold:
+  (I-26, a row of docs/IDENTIFICATION_LEDGER.md) is **EARNED BY PREDICTION within a frame F** when all seven hold **[v1.64: this read "all six hold" until 2026-11-10; the seventh condition was added at v1.62 and the count was not updated]**:
   1. *Fixed before.* F, every discrete choice, every fitted continuous input and the identification itself are on a
      sealed frame card (WORKING_RULES, the rule of 2026-10-29) before any predicted value is compared.
   2. *Held out.* Each predicted quantity is on THE_FINAL_ACTS_BAR's held-out list (V), or is added to it before any
@@ -715,6 +715,7 @@ theorem; C1–C6 meant different things in `CLAIMS.md` and in `docs/THEOREM_LEDG
   - FK14: the specification of three from the verified physics — an index of closed-cycle cohomology, obtained by selection (a free quotient and the characters of its deck group), the 5̄ and 10 counts equal by an identity the class index lacks, nobody deriving three; F-CI = the orbifold mechanism, F-HE = the smooth one; the family blind to both by construction; three generations = ONE rank-5 bundle of index three. THE_BAR's baseline recorded.
 - **v1.23 · 2026-10-07 · main B1497.** Room needs genus.
   - FK14: T-ROOM-NEEDS-GENUS — the room is the act's invariant closed homology of the fibre of a cover, zero at genus one, so it needs a non-abelian cover of the register; the root has none to degree eight, the sign-twin one at degree five (o10_150691), where the count is still one. FK4 and FK14 read as one question.
+- **v1.64 · 2026-11-10 · main B1861.** A correction of a count in GAP1's rule for earning a dictionary by prediction: the sentence said "all six hold" above seven numbered conditions, the seventh ("worth spending") having been added at v1.62. No condition and no status changes (P-760; found while binding the closure programme's seal rule to this rule).
 - **v1.63 · 2026-11-10 · main B1859.** A correction of fact in §5's 'F-MC by object' (P-318, P-618): the golden grammar's uniqueness is narrower than stated — the own-conductor door set is {1, 4}, the golden unique among primitive grammars and for the door together with a 2T quotient of π₁. No item's status changes; the v1.62 entry below is not rewritten.
 - **v1.62 · 2026-11-05 · main B1843.** The owner's ruling on the SM seat's §§ 351–352 ("if you also agree with sm about the rule, i aprove it"; main agreed, with three conditions): GAP1's condition 3 grades the held-out targets jointly — each inside its 68% band, and the joint p_V (the product of the targets' marginal rank p-values under the matched null, ranked among the null worlds) below 0.01/m_V in its 97.5% upper end; m_V counts every recorded prior look, sealed or not, across seats; condition 4 reads 'pass jointly', the claim 'jointly confirmed, each within its band'; a new condition 7 holds the targets unspent when the card's location-free power for a 5%-accurate frame is below 10%. Adopted before B1839's look was read. The statistic's calibration was checked by main (1.02%, 0.97%, 0.83% at α = 0.01: independent targets, ρ = 0.9, three targets). The v1.61 entry below is not rewritten.
 - **v1.61 · 2026-11-03 · main B1829.** The owner's ruling on P-577 ("agreed", to the owner's own proposal of a tiered bar, as main assessed it): where the joint look count applies, a fixed screen (p < 0.01 with every within-arc choice priced, no joint factor) makes a CANDIDATE, and only a confirmation by held-out prediction (GAP1's v1.60 rule) makes a result; the joint ledger stays as the count of screens. FK9's v1.56 sentence stands; no status cell changes; the v1.60 entry below is not rewritten.

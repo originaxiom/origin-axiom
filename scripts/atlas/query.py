@@ -188,11 +188,37 @@ def context_card(g=None):
                 top_motifs=freq[:8], conserved_vs_tool=split, meeting_points=mp, text="\n".join(lines))
 
 
+def arc_card(arc_id, g=None):
+    """One arc: its status in the atlas, and its verdict file's verdict and claim line. Added 2026-11-10 (B1862; the
+    advisor seat's audit, E10): `card B1812`, as the front page gives it, printed the corpus card whatever the id."""
+    import glob, json
+    g = g or load(); p = g["probes"].get(arc_id)
+    if not p:
+        return dict(probe=arc_id, error="unknown arc", text=f"unknown arc '{arc_id}'")
+    text = [f"{arc_id} [{p['status']}]  -- \"{p['slug']}\"",
+            f"  obstacle-type: {p['obstacle'] or 'unclassified'};  motifs: {', '.join(sorted(p['motifs'])) or 'none'}"]
+    root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    hits = sorted(glob.glob(os.path.join(root, "frontier", arc_id + "_*", "arc_verdict.json")))
+    for h in hits[:1]:
+        try:
+            v = json.load(open(h, encoding="utf-8"))
+        except ValueError:
+            text.append(f"  verdict file unreadable: {os.path.relpath(h, root)}")
+            continue
+        text.append(f"  verdict: {v.get('verdict')}   folder: {os.path.relpath(os.path.dirname(h), root)}")
+        text.append("  claim: " + str(v.get("claim_one_line", "")))
+    if not hits:
+        text.append("  no verdict file under frontier/")
+    return dict(probe=arc_id, status=p["status"], text="\n".join(text))
+
+
 if __name__ == "__main__":
     argv = sys.argv[1:]
     g = load()
-    if not argv or argv[0] == "card":
+    if not argv or (argv[0] == "card" and len(argv) == 1):
         print(context_card(g)["text"])
+    elif argv[0] == "card":
+        print(arc_card(argv[1], g)["text"])
     elif argv[0] == "motif":
         print(motif_trace(argv[1], g)["text"])
     elif argv[0] == "obstacle":

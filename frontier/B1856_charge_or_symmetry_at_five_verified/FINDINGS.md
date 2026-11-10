@@ -14,8 +14,16 @@ which is conjugate to LR.
 - **HQ0, consistency.** ρ is projectively consistent on all 120 elements: 121 repeated arrivals and 0 clashes, the seat's
   counts.
 - **HQ1, the charge.** Only the identity acts as a scalar on ℂ⁵. Only ±I act as scalars on both parity sectors (even,
-  dimension 3; odd, dimension 2). So "invisible to every state" (gauge invisibility) is exactly the charge premise
-  E ≡ ±I mod 5.
+  dimension 3; odd, dimension 2). So "invisible to every state" (gauge invisibility) is exactly E ≡ +I mod 5, and
+  E ≡ −I is invisible on a state of definite parity only.
+  - **[Corrected 2026-11-10 (B1862; the advisor seat's audit, finding E3, reproduced on main).** This sentence read
+    "… is exactly the charge premise E ≡ ±I mod 5". The two sentences before it already contradict that: ρ(−I) is the
+    parity operator, +1 on the even sector and −1 on the odd, so it is seen on any state of mixed parity.
+    - Of the 643 rung-invisible defects of B1853's range, **338 have E ≡ +I and 305 have E ≡ −I**
+      (`verification/parity_split.py`, exact).
+    - The charge premise E ≡ ±I is "invisible to every state" only under a parity superselection rule. That is a
+      third condition beside § 2's two.
+    - The run of 6 has E ≡ +I, so nothing said about it changes.**]**
 - **HQ2, the symmetry.** The projective commutant of ρ(LR) is ±⟨LR⟩, of order 10. So "commutes with the level-5
   dynamics" is exactly the symmetry (line) premise.
 - **HQ3, the tick as a clock.** ρ(LR)'s eigenvalue angles are 0, 0.4 and 0.6 turns on the even sector and ±0.1 on the
@@ -39,6 +47,8 @@ which is conjugate to LR.
 - **Conditional on two things:**
   1. the level-5 Weil space is physical (P-721; LAW_MAP's "measurement is passage through the finite");
   2. standard quantum mechanics.
+  3. **[added 2026-11-10, B1862]** for the charge premise as a whole (E ≡ ±I), a parity superselection rule. Without it
+     only E ≡ +I is invisible. The run of 6 does not need it.
 - **Still open for P-717:** the apex read-out, minimisation against a sum, that the history departs at all, and the
   hand.
 - **The seat's tagged speculation:** the level-5 clock is the quantized tick itself. It is close to P-438's "followed

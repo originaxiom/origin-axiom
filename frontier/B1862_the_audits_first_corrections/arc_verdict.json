@@ -1,0 +1,32 @@
+{
+ "id": "B1862",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B567",
+  "B1856",
+  "B1853",
+  "B1847",
+  "B952",
+  "B862",
+  "B854",
+  "B1861"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the advisor seat's audit (relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-10_AUDIT_FINDINGS.md @ 701d12ff; harvest row 1629): the six findings were the seat's; each was reproduced by main's own computation before the correction, and nothing is taken from the seat's word"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (corrections of the record's own statements and locks)",
+  "object": "B567's level-165 spectrum; B1856's charge premise in the level-5 Weil representation and B1853's 643 rung-invisible defects; B1847's tube lock; B952's centralizer lemma; one sentence of a dated literature page; the atlas tool's arc lookup; B862's kernel function; B854's consequence sentence",
+  "reach": "general",
+  "hypotheses": "each fact is elementary and recomputed exactly or to machine precision; no conclusion of the corrected arcs changes; the seat's re-audit decides acceptance"
+ },
+ "claim_one_line": "THE AUDIT'S FIRST CORRECTIONS (the advisor seat's findings E13, E3, L5, E4, E11, E10, E6, E8, each reproduced on main first; P-757): B567's level-165 Weil spectrum has 20 distinct eigenvalues, not 21 -- the projective order 20 allows at most 20, four eigenvalues are -1 where the angle's branch cut lies and the lock counted them as two clusters, a count that depended on the machine; multiplicities 12,12,12,12,11,11,10,10,10,10,7,7,7,6,6,5,5,4,4,4; B1856's 'invisible to every state' is E = +I mod 5 only -- rho(-I) is the parity operator, so the charge premise E = +-I needs a parity superselection rule, a third condition; of B1853's 643 rung-invisible defects 338 have +I and 305 have -I, the run of 6 has +I and stays least; B1847's lock compared a list with its own sort and subtracted literals -- the rise of Im tau toward the tube is true on the data and is now checked, with a planted failing case; B952's lemma needs 'commuting' (in sl(2) two semisimple elements with zero common centralizer), its conclusion standing since charges commute; sin(pi/7) is expressible by complex radicals, not by real ones; the front page's arc lookup now reads its argument; B862's Z6 kernel, right but never computed (a hand-derived condition in a comment), is now found by exact enumeration from the map, complete and cyclic; B854's negative is scoped to the principal embedding on its sentence and its verdict line. No conclusion of any arc changes. 0 of 19.",
+ "weave_or_thread": "neither (corrections; the corrected statements keep their own labels)"
+}

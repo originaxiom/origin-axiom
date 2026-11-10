@@ -1,0 +1,5 @@
+the parity operator rho(-I): e_x -> e_(-x); +1 on the even sector (dimension 3), -1 on the odd sector (dimension 2)
+rho(-I) is a scalar on C^5: False
+R1: 42768 defects; rung-invisible (E = +-I mod 5): 643 = 338 with E = +I and 305 with E = -I
+the run of 6 has E = +I mod 5: True
+the shortest defects with E = -I mod 5: [(3, 4, 3), (2, 2, 1, 5), (5, 1, 2, 2), (2, 2, 6, 5)]
