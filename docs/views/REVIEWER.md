@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1562** |
-| words of findings prose | **1,327,994** |
+| words of findings prose | **1,328,040** |
 | test lock files referenced | **933** |
 | arcs carrying an authored verdict | **1562** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1860`** (734 words, 0 locks)  
+**PROVED — `B1860`** (780 words, 0 locks)  
 REVIEW 77 (fired by the push gate at 41 landings; S306f-S306n): the loop closed, all eight of Review 76's items resolved in the window and none carried; every seat harvested to its head at uneven depth, the register saying which; the seeded arcs B1849, B1852, B1853, B1854, B1858 read in full by an independent reader -- all HOLD WITH NOTES, eight must-fix findings each verified at source and applied where the corrected line stands; the substantive ones: B1854's error on the tube's k = 2 value was not derived (about 0.02, not 0.010) and its k = 3 diagnosis named the wrong assertion; B1858's grade DERIVED mixed outright theorems with premise-given ones (nine edges), now enforced by its builder, and the tube's real part regraded CONDITIONAL; B1853 did not carry B1855's correction on its own lines; the full suite on a fresh clone at the window's head: 8125 passed, 7 failed -- three the review firing, two standing, and two the window's own, fixed (B1854's lock read three ignored logs, E94 for the third time, so the tracked-deps gate now reads every lock's own-directory paths; P3's manifest one lock behind); a new error class at the owner's word, E96, a thread taken for the weave -- the window's seven science arcs are thread results worked under a weave question; Review 77's practices (eight). 0 of 19.  
 `B1860_review_77_the_decadal_review/FINDINGS.md`
 
