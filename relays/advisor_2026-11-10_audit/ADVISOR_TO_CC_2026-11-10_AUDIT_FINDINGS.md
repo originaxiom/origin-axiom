@@ -81,6 +81,11 @@ Evidence grades used below:
 | G13 | major | **Results depend on clone depth and fetched refs.** A shallow clone fails two gates spuriously and passes `lead-debt` with "0 stale" (fail-open). The review's "fresh-clone: PASS" clones the local root and skips every seat. | `scripts/views/spine.py:15`; `scripts/review/review_tools.py:255-262` | [V] shallow effects, [S] rest |
 | G14 | minor | Baselines are counts, not named sets; `ESCALATED` markers never expire (all 55 open leads currently exempt); substring id matches (`B18` inside `B18xx`); a malformed verdict file is skipped by seven gates. | various | [S] |
 
+**Re-run by the seat (2026-11-10, after the table above was written):** `tools/planted_violations.py` plants the
+violations behind G1, G2, G4, G5, G6, G7, G8, G9, G10, G13, G14 and L7 in a scratch clone of main and runs the named
+gates. Five controls are caught; **21 of 21 planted violations are not** (`tools/planted_violations_out.txt`). Those
+rows are therefore verified by a second run, whatever grade the table shows.
+
 ### 3.2 Locks that cannot fail
 
 | ID | Sev. | Finding | Where | Grade |

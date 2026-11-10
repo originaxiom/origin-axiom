@@ -34,6 +34,13 @@ wherever one exists; where it needs judgement, the row says so.
 Each row is a mutation to commit in a scratch clone of main. Today every one of them passes the named gate. The fix
 is accepted when the gate fails on it, and when the mutation is part of an automated test that the suite runs.
 
+**Runnable:** `python3 relays/advisor_2026-11-10_audit/tools/planted_violations.py --ref origin/main --work DIR`
+(DIR outside the repository). It plants each case in a scratch clone, runs the named gates from that clone, and
+reports CAUGHT or NOT CAUGHT; five controls (violations the gates do catch today) must be reported CAUGHT or the run
+is not valid. **At `217e37c4f`: 5 of 5 controls CAUGHT, 21 of 21 automated cases NOT CAUGHT**
+(`tools/planted_violations_out.txt`). PV5, PV7, PV23 and PV25–PV27 are not automated; the script lists them as
+MANUAL. The re-audit runs this script on the fix commit; the target is 0 NOT CAUGHT with the controls still CAUGHT.
+
 | # | Planted violation | Gate that must fail | Finding |
 |---|---|---|---|
 | PV1 | delete lines 200–400 of `PROGRESS_LOG.md`, commit | `append-only` | G1 |
