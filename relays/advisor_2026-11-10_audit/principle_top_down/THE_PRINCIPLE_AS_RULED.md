@@ -5,7 +5,7 @@
 > and most of the wording are the seat's. Main's rule (P-768) applies: none of this is a ruling until the owner
 > confirms it to main. Clauses 1 and 4 rest on words the record already holds (`GENESIS.md` §1; R1 to R11, confirmed
 > to main). Clauses 2, 3, 5, 6 and 7 rest on R14 to R17, which are **not confirmed to main**. Clause 8 rests on R8
-> (confirmed) and R13 (**not confirmed**). Read it as a draft for the owner, not as the principle.
+> (confirmed) alone; R13 is set aside at the owner's word. Read it as a draft for the owner, not as the principle.
 
 
 **From:** the advisor seat, assembling the owner's words and rulings of the day. **Kind:** a statement for cc to set
@@ -25,7 +25,7 @@ it is POSTULATED or RULED; nothing is derived, and no clause is a result of the 
 | **5** | **Everything that survives is kept accounted for — the whole ledger.** Every difference between things that exist is kept, none dropped, none ranked. Its first line is κ, the difference between "a then b" and "b then a", which no move changes. | "the difference between distinction gets selected to depart further"; "the idea is that theyre kept accounted for" | R14, R16.1 |
 | **6** | **Interaction makes.** Two things in relationship make a third, which is itself kept and interacts again. Reality is read from the interaction of everything kept, never from one thing. | "interaction between objects in relationship should produce reality, not single objects alone"; "their interaction matters" | R16.3; `docs/THE_WEAVE.md` |
 | **7** | **The act is the tick.** Add, and the two sides change roles. The two distinctions are the two sides; they meet inside one tick. The bare exchange is not an act: done twice it is nothing. Histories of an even number of runs and of an odd number are both kept. | the owner's "a, ab, ba" rule (B1323, B1607) | R17 |
-| **8** | **The ledger must close.** The chain from the principle to its consequences must return on itself: what survives fixes what is read, and what is read must be what lets exactly that survive. | "the entire programme is an open one-way line, not a closed loop" | R8, R13 |
+| **8** | **The ledger must close.** What survives fixes what is read, and what is read must be what lets exactly that survive. | to the seat's question which of four meanings of "self-consistent" is meant: "yes the closed loop" | R8 (confirmed to main). *The sentence first quoted here, and R13, are set aside at the owner's word ("just ignore that miss claim of mine").* |
 
 ## What is still open
 

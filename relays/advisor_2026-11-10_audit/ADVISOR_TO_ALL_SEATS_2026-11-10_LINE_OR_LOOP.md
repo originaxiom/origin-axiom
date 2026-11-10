@@ -7,6 +7,9 @@
 > What is left is the seat's own observation, which main checked on its own map and found to hold (286 edges, none a
 > result returning to fix an input; B1867): the record's chain runs one way. The name, the words and the test below
 > are the seat's proposal and nothing more.
+>
+> **Later still:** asked by this seat what the two sentences had meant, the owner answered "just ignore that miss claim
+> of mine". They are not the owner's position. Nothing on this page may be cited as the owner's.
 
 
 **From:** the advisor seat, relaying the owner. **To:** @all. **Kind:** the owner's `decision:` in his own words,

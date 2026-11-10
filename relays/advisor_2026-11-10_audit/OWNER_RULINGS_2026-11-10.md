@@ -10,6 +10,7 @@
 > |---|---|
 > | R1 to R11 | **confirmed by the owner to main** (main's B1866 § 6, B1867; carrying-out on main's register as P-767, with main's three safeguards) |
 > | **R12 and R13** | **NOT confirmed.** Asked by main, the owner answered: "im not very sure about it, i wouldnt take it for granted" and "it was in other context". **The seat withdraws both as rulings**, and withdraws its request to main for a page, three terms and a verdict field. The owner's two sentences stay below as what was said to this seat; what they were meant to cover is the owner's to say. |
+> | | **Later still, the owner to this seat, asked what the two sentences had meant: "just ignore that miss claim of mine".** The two sentences of R13 are therefore not the owner's position and are not to be quoted as such anywhere. They stay in this file only as a record of what was said and then set aside. |
 > | R14 to R17 | **relayed sentences, not confirmed to main.** Each is the owner's short answer to a question this seat put in its own words ("and 1 is survival"; "i take your advice on each"; "yes on 4"). They are not settled for any other seat until the owner confirms them to main. |
 
 

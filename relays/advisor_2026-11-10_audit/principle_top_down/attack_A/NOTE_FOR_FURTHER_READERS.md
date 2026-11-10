@@ -10,3 +10,6 @@ are left as they were sealed.
 > 4. **Kept accounted for.** The author says the differences between distinctions are "kept accounted for". In the
 >    arena, what is one entry of that account, what is kept across every update, and what would it mean for the
 >    account to close on itself?
+
+**And leave out W5.** The owner has set that passage aside ("just ignore that miss claim of mine"). A further reader
+is given W1 to W4 only.

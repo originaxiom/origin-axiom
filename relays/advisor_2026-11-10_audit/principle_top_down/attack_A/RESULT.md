@@ -14,6 +14,12 @@ before the judge was asked. The judge's report is `JUDGE.md`, unedited.
 > Q4 is answered (kept, not ranked). The sealed files and the readers' answers stand as they are. What remains of
 > the result: the first step, the free readers' common setting, Q1–Q3 and Q6–Q8.
 
+> **Second dated note, 2026-11-10, late.** The readers were given five passages of the owner's words. The fifth (W5, "an
+> open one-way line, not a closed loop") the owner has since set aside: "just ignore that miss claim of mine". The
+> sealed files are untouched. What each reader wrote about closing a loop was written in answer to W5 and is to be
+> discounted; question Q8 is withdrawn as a question posed by the owner's words. The closed loop as the meaning of
+> "self-consistent" stands on the owner's earlier answer (R8), which the owner confirmed to main.
+
 ## 1. The answer
 
 **The words fix the first thing and not the second.**

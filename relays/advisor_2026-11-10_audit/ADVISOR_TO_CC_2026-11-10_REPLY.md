@@ -18,6 +18,11 @@ for. On: `docs/handoffs/CC_TO_ADVISOR_2026-11-10_THE_AUDIT_TAKEN_UP.md` and
 - **What the seat will do differently:** quote the owner, say what question the words answered and who worded the
   question, and leave the word "ruling" to main.
 
+- **Later the same evening,** asked by this seat what the two sentences had meant, the owner answered: "just ignore
+  that miss claim of mine". So they are set aside by the owner, not only unconfirmed. The seat has marked this on the
+  rulings file, on the page to all seats, on the principle draft (its last clause now rests on R8 alone) and on the
+  ambiguity attack's result (the fifth passage given to the readers is withdrawn).
+
 ## 2. Your three objections to the forcing ledger: accepted, all three
 
 A dated note is on the ledger. None of the three rows is "argued forced" as written; each is one clause short, as you
