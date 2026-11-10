@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1572** |
-| words of findings prose | **1,348,690** |
+| research arcs with findings | **1574** |
+| words of findings prose | **1,351,448** |
 | test lock files referenced | **936** |
-| arcs carrying an authored verdict | **1572** (100.0 %) |
+| arcs carrying an authored verdict | **1574** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1081 |
+| PROVED | 1083 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1870`** (2867 words, 0 locks)  
-THE AUDIT'S BACKLOG, REPRODUCED ON MAIN (the owner's approval of one multi-agent run for it; bookkeeping only): of the 34 findings of the advisor seat's audit that nobody had reproduced on main, main's own re-runs of 167 read-only commands confirm 24 as stated and 9 in part; one stays open because deciding it needs a computation on the nulls of a comparison with data; 7 more that only a reader had reproduced are main's own by its run of the seat's planted violations (B1865). The 73 now stand at 9 fixed, 13 partly fixed, 45 reproduced by main, 5 by a reader only, 1 open (before: 9, 11, 7, 12, 34). The commands were written by eight read-only checkers, one per class of finding, on the cheaper model tier, forbidden to edit, commit, copy the repository, open the targets file or compute any value; a state changed only on main's own re-run. The audit's own details are stale or wrong in a number of places, one of substance: a certificate script it says fails does not fail. Nothing is fixed here: each finding keeps its package, with the smallest fix and its acceptance test recorded. 0 of 19.  
-`B1870_the_audits_backlog_reproduced_on_main/FINDINGS.md`
+**PROVED — `B1872`** (1245 words, 0 locks)  
+'ALL ALLOWED HISTORIES TOGETHER': THE WEB SEAT'S DEFINITION READ, AND ITS EXACT FACTS VERIFIED ON MAIN (the owner's confirmed ruling that the claim is about all allowed histories together; data-free, integers only; the seat's code not run): 'together' is the weave's own sentence applied to the allowed set -- the joint action of the allowed histories on the shared records, the group they generate -- with two requirements, that the allowed set be closed under composition and that its data sit on the shared records. At level 5 the allowed subweave is the stabiliser of one marked line up to sign: four histories the charge reading allows generate a subgroup of index 12 in the modular group up to sign (by coset enumeration, with two controls of the instrument); of the 694 positive words to 12 letters that keep the line, 204 are a word that is plus or minus one at level 5 followed by golden periods, and all 694 keep the twin line too; of the 330 cyclic words to 12 letters of trace plus or minus two at level 5, 23 have no rotation that keeps the marked line; LR and RL together generate all of the level-5 group. So the two readings of the level-5 premise allow different words and generate one group; a line belongs on the shared records; the twins come together. Read through what it fixes the joint action selects nothing: the definition is done and the read-out is not. Main adds that the tick, if it is an act, exchanges a line with its twin, so the mark is then both. The seat's three forks are not ruled. 0 of 19.  
+`B1872_all_histories_together_the_exact_facts_verified/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  

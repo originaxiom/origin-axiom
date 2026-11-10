@@ -13,24 +13,26 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1572 |
-| … PROVED | 1081 |
+| arcs with a verdict file | 1574 |
+| … PROVED | 1083 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 770 |
-| … QUEUED | 254 |
+| register points | 772 |
+| … QUEUED | 255 |
 | … LEAD | 4 |
 | … OWNER | 5 |
-| … DONE | 495 |
+| … DONE | 496 |
 | … DECLINED | 12 |
-| harvest rows (the last number) | 1657 |
+| harvest rows (the last number) | 1663 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1872 | PROVED | 'ALL ALLOWED HISTORIES TOGETHER': THE WEB SEAT'S DEFINITION READ, AND ITS EXACT FACTS VERIFIED ON MAIN (the owner's confirmed ruling that the claim is about all allowed histories together; data-free, integers only; the… |
+| B1871 | PROVED | ONE TICK OR TWO ACTS: THE ADVISOR SEAT'S SEALED RUN VERIFIED ON MAIN, AND WHAT THE TICK DOES TO THE WEAVE'S THREE (P-769; data-free, integers and SnapPy; the seat's code not run): the seat's result holds in every part.… |
 | B1870 | PROVED | THE AUDIT'S BACKLOG, REPRODUCED ON MAIN (the owner's approval of one multi-agent run for it; bookkeeping only): of the 34 findings of the advisor seat's audit that nobody had reproduced on main, main's own re-runs of 16… |
 | B1869 | PROVED | THE FOUNDING PRINCIPLE READ AS A SELECTION RULE: THE ADVISOR SEAT'S SEALED RUN RE-DERIVED ON MAIN (the owner's confirmed ruling to try it; P-762; data-free, exact integers, exhaustive to 20 letters; the seat's code not… |
 | B1868 | PROVED | WHAT CONCENTRATES UNDER THE MOVE COUNT: THE WEB SEAT'S SEALED CARD VERIFIED ON MAIN (P-756 (b), the modulus's side; data-free; the seat's code read and not run; main's own code and another method, a quadrature against M… |
@@ -41,8 +43,6 @@
 | B1863 | PROVED | THE APPEND-ONLY GATE READS HISTORY (the advisor seat's finding G1, graded critical; reproduced on main; WP-0.7's first step): the gate compared the working file with the same file at HEAD, so a committed deletion passed… |
 | B1862 | PROVED | THE AUDIT'S FIRST CORRECTIONS (the advisor seat's findings E13, E3, L5, E4, E11, E10, E6, E8, each reproduced on main first; P-757): B567's level-165 Weil spectrum has 20 distinct eigenvalues, not 21 -- the projective o… |
 | B1861 | PROVED | THE CLOSURE PROGRAMME (the owner's goal of 2026-11-10: the physical lane's work order scrutinised, sharpened and made a check): one generated page whose builder refuses to write it unless every node of the closure map t… |
-| B1860 | PROVED | REVIEW 77 (fired by the push gate at 41 landings; S306f-S306n): the loop closed, all eight of Review 76's items resolved in the window and none carried; every seat harvested to its head at uneven depth, the register say… |
-| B1859 | PROVED | THE DOOR SET IS {1, 4} (a correction of B997's uniqueness clause, keeping its computation; P-318, P-618): the group the grammar R^m L^m's own letters generate modulo m^2 + 4 is a McKay group exactly at m = 1 and m = 4 -… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -50,13 +50,14 @@
 - ** P-082** — a second outside reader, later, approached in his own context (relating to his videos), after the first correspondence → *later, at the owner's word; nothing prepared until then [2026-11-04, the owner confirmed: paused until a result passes a level-2 confirmation]*
 - ** P-253** — the chain gap's top entries (Review 67's R66-3, declined there because the chain is the frozen paper's spine): B1098, B959, B1100, B952, B1086, B1000, B1484, B1070 (coverage_candidates.py --chain-gap) — adjudicate each… → *asked of the owner: whether and when to open a draft after p9-draft9; until then the chain-gap list stays recorded here and nothing is due (S231) [earlier: Q3…*
 - ** P-697** — A SECOND COMPLIANCE FOLLOW-UP TO THE AGY LANE (S305f): its relay's lines 819–831 publish P-585-class values (a running top Yukawa, an inter-sector hierarchy value); its Theorem 102 carries held-out-class value literals… → *asked of the owner (S305f): main recommends sending a short note naming the lines and asking that they be removed and the salt kept somewhere durable off the r…*
-- ** P-755** — THE LAW, AND THE THREAD-FOR-WEAVE MISTAKE (the owner, 2026-11-10: 'the most important thing, which we keep repeating is the weave-vs-therad kind of mistake, and we do it repeatedly. the law that causes existence as i un… → *asked of the owner: whether 'upon its execution' is to be recorded as the reading of the law (the move count), which would rule P-439's clock; main recommends…*
+- ** P-771** — IS THE TICK AN ACT, AND THREE CLAUSES OF THE PRINCIPLE'S WORDING (four sentences of the owner as the advisor seat records them @ e7703f2e, which the seat itself now marks as relayed and not confirmed to main): 'the idea… → *asked of the owner once (S306o), because the foundation's text depends on the last: are these four yours for main as well? MAIN'S OPINION, with the computation…*
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
 
 ## The last landings (CHANGELOG)
 
+- S306o (later) THE OWNER'S RULING ON THE LAW'S READING; ONE TICK OR TWO ACTS VERIFIED (B1871); ALL HISTORIES TOGETHER DEFINED AND ITS FACTS VERIFIED (B1872) (2026-11-10)
 - S306o (the owner's multi-agent run for the audit backlog) THE AUDIT'S BACKLOG REPRODUCED ON MAIN (B1870), AND THE PRINCIPLE AS A SELECTION RULE VERIFIED (B1869; P-762) (2026-11-10)
 - S306o (the second fetch of the evening) WHAT CONCENTRATES UNDER THE MOVE COUNT: THE WEB SEAT'S CARD VERIFIED ON MAIN (B1868; P-756 answered on the modulus's side; P-755 put to the owner) (2026-11-10)
 - S306o (the refetch, continued) THE OWNER DID NOT CONFIRM THE TWO LATER RELAYED RULINGS (P-758 closed, P-765 declined) (2026-11-10)
@@ -64,11 +65,10 @@
 - S306o (continued) THE AGY LANE'S RELAY ON THE REGISTER-TO-FIELD JOIN, SCRUTINISED AT THE OWNER'S WORD (B1866; P-753) (2026-11-10)
 - S306o (continued) THREE SEATS HARVESTED AGAIN; THE ADVISOR SEAT'S PLANTED-VIOLATION SCRIPT RUN ON MAIN (B1865) (2026-11-10)
 - S306o (continued) A SEALED FILE DOES NOT CHANGE AFTER ITS SEAL (B1864; the audit's second critical finding, G2, with G3) (2026-11-10)
-- S306o (continued) THE APPEND-ONLY GATE READS HISTORY (B1863; the audit's first critical finding, G1) (2026-11-10)
 
 ## The latest campaign line
 
-LATEST (2026-11-10, S306o (the owner's multi-agent run for the audit backlog): B1870 — THE AUDIT'S BACKLOG REPRODUCED ON MAIN: eight read-only checkers on the cheaper tier wrote the commands, main re-ran all 167 itself; of the 34 findings nobody had reproduced, 24 confirmed as stated, 9 in part, 1 not checked (it needs a computation behind a sealed card); 7 more are main's own by B1865; the 73 now stand at 9 fixed, 13 partly fixed, 45 reproduced by main, 5 by a reader only, 1 open; nothing fixed by the arc. B1869 — THE FOUNDING PRINCIPLE READ AS A SELECTION RULE, VERIFIED ON MAIN (P-762 closed): the advisor seat's sealed run holds entry for entry on main's own enumeration to 20 letters; the…
+LATEST (2026-11-10, S306o (later): THE OWNER RULED ON THE LAW'S READING ("Yes - on the decision"; P-755 closed): the law is what takes part, the move count is not adopted as the weight, the weight stays open as the object of the closed loop. B1871 — ONE TICK OR TWO ACTS, the advisor seat's sealed run verified in every part: the tick adds about half as many histories again, each with no hand; LR is the tick done twice, so the root's mirror symmetry is a consequence; the moves' group doubles from level 3; the tick exchanges the two level-5 lines; main adds that it joins the weave's triplet to its conjugate and gives the three no hand; whether the tick is an act is asked of the owner (P-771).…
 
 ## Completeness (nothing skipped silently)
 

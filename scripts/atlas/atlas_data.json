@@ -16095,6 +16095,38 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1871": {
+   "slug": "one tick or two acts verified",
+   "motifs": [
+    "figure_eight",
+    "metallic",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B14",
+    "B469"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "topology"
+  },
+  "B1872": {
+   "slug": "all histories together the exact facts verified",
+   "motifs": [
+    "golden",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B990"
+   ],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B187": {
    "slug": "interacting open collective",
    "motifs": [
