@@ -7,11 +7,11 @@ that still needs a path is in no package, or if the order of work ignores a depe
 ## 1. The state, in numbers
 
 - **131 nodes of the map still need a path:** inputs, open questions, lanes' results not verified on main, and duties. **All 131 are in a package.**
-  The map's other nodes are proved, refuted or facts about the record; or they are the 19 conditional results (§ 6), the 80 debts (C0) and the map's own eleven groupings.
-- **43 packages** in 9 waves: not started 27, started 15, done 1.
+  The map's other nodes are proved, refuted or facts about the record; or they are the 19 conditional results (§ 6), the 81 debts (C0) and the map's own eleven groupings.
+- **43 packages** in 8 waves: not started 26, started 16, done 1.
 - **4 packages have no owner:** WP-1.8, WP-1.9, WP-3.5, WP-4.5.
-- **Main's spine presently holds 38 inputs as the record lists them** (§ 3): 8 axioms, 8 bits, 16 discrete choices, 5 real numbers, 1 ansatz, 7 identifications. The lanes' model adds 7 supplied inputs of its own, not typed here.
-- **73 findings of the advisor seat's audit** are each in a package (§ 8): open 1, reader 5, reproduced 45, partly fixed 13, fixed 9.
+- **Main's spine presently holds 38 inputs as the record lists them** (§ 3): 8 axioms, 9 bits, 16 discrete choices, 5 real numbers, 1 ansatz, 7 identifications. The lanes' model adds 7 supplied inputs of its own, not typed here.
+- **73 findings of the advisor seat's audit** are each in a package (§ 8): open 1, reader 4, reproduced 46, partly fixed 14, fixed 8.
 - **17 rulings of the owner, as that seat relayed them,** are each mapped to a package. The owner confirmed 11 of them to main on 2026-11-10 and did not confirm 2; 4 more are asked (§ 9).
 
 ## 2. The three milestones
@@ -34,10 +34,14 @@ Every node of the map that is presently an input of main's spine, grouped by the
 stands under several names across the record. The kinds follow the record's own grades where it has them; the
 builder checks them against GENESIS's grades and the scoreboard's types. Their independence is the record's listing.
 
+**The budget is a union over frames and readings.** The fitted modulus and the choices of the rule that is meant to replace
+the fit are counted side by side; several inputs stand under two frames' names. It over-counts, which is the safe direction,
+and it is not the price of any one value: a value's price is its own certificate's list.
+
 | kind | now | what a parameter-free theory may keep |
 |---|---|---|
 | axiom | 8 | kept, each stated; fewer is better and none may hide a number |
-| bit | 8 | derived, shown to be a convention with no observable effect, or declared with both branches carried |
+| bit | 9 | derived, shown to be a convention with no observable effect, or declared with both branches carried |
 | discrete | 16 | derived, shown equivalent, or declared with its alternatives carried and priced; where it is a functional form taken from a menu, the form is derived from the action, since the menu is itself a choice |
 | real | 5 | none free: at most one dimensionful and one dimensionless anchor, sealed in advance (R11) |
 | ansatz | 1 | none: derived from the action, or replaced by what the action gives |
@@ -77,7 +81,7 @@ builder checks them against GENESIS's grades and the scoreboard's types. Their i
 | the class of lines — flat lines rather than centre Wilson lines is the choice; the cutoff on their order is a rule of reach (FL-18) | discrete | FL:08 | — | WP-1.5 |
 | θ̄ — graded an input by the record (Review 74): the frame leaves it free | real | FL:16 | — | WP-4.4 |
 | the framing of the read-out | discrete | T:FRAMING | thread | WP-4.1 |
-| the charge premise at level five | discrete | T:CHARGE5 | thread | WP-4.1 |
+| the charge premise at level five — two choices under one name (B1869): which sense of 'detect', the whole level or the line, a bit (P-721); and which levels count, a choice among sets of levels | bit, discrete | T:CHARGE5 | thread | WP-4.1 |
 | minimisation as the use of the action | discrete | T:MINIM | thread | WP-1.6 |
 | point or weight | bit | T:POINT-WEIGHT | thread | WP-1.6 |
 | the chiral premise | bit | SC:PREMISE | thread | WP-4.2 |
@@ -94,15 +98,16 @@ a built one.
 | kind | inputs | what it means |
 |---|---|---|
 | KEPT | 3 | the principle itself: a parameter-free theory keeps it, stated |
-| FORCING ARGUED | 6 | an argument that the principle forces it is written down; not proved |
-| ADMITTED | 2 | the principle allows it and does not force it; no route is named |
+| FORCING ARGUED | 2 | an argument that the principle forces it is written down, with no objection on this page; not proved |
+| ONE CLAUSE SHORT | 3 | a forcing argument is written down, and main has shown the clause it lacks; not an exit as written |
+| ADMITTED | 3 | the principle allows it and does not force it; no route is named |
 | PRESSED | 4 | the notes argue against it standing as an input in its present form; no route is named |
 | RIGID | 1 | fixed by the geometry once the history is fixed; what stays chosen is named |
 | BACK-EDGE NAMED | 5 | a condition computed downstream that the choice must satisfy is named; none is built |
 | DICTIONARY | 6 | an identification: the loop does not pay it; it is earned only by a sealed prediction |
 | UNTOUCHED | 11 | the three notes name no route; the package holds the record's own |
 
-**An exit is on the table for 12 of the 38 inputs** (a forcing argument, rigidity, or a named back-edge). None is proved or built.
+**An exit is on the table for 8 of the 38 inputs** (a forcing argument with no objection on this page, rigidity, or a named back-edge); 3 more forcing arguments are one clause short. None is proved or built.
 
 | the choice | kind | route | what the notes say, and what main checked |
 |---|---|---|---|
@@ -112,12 +117,12 @@ a built one.
 | the method (PF3) | axiom | KEPT | not addressed; a method, not a number. |
 | two records | axiom | ADMITTED | the ledger: admitted, not forced by the words. Three or more records is the alternative (B1679). |
 | the unit shears | axiom | ADMITTED | the ledger: admitted; nothing in the words excludes longer shears. The loop's test on the silver and bronze backgrounds is the test named. |
-| no period | axiom | FORCING ARGUED | the ledger: finite order is a cancellation that completes, a fixed direction a side that never changes. Main (B1867): the formal statement removes finite order and not the fixed direction; a single shear meets its form of existing at every level. One clause short. |
-| the carrier | axiom | FORCING ARGUED | the ledger: if the difference between the two orders is not cancelled the group is free, and the puncture follows (the SM seat's B1380, not verified on main). Main (B1867): not commuting does not give free; a clause that nothing at all cancels is needed. |
-| reversible updates | axiom | FORCING ARGUED | the ledger: an act that merges two sides ends the distinction. One line; no alternative is exhibited. |
+| no period | axiom | ONE CLAUSE SHORT | the ledger: finite order is a cancellation that completes, a fixed direction a side that never changes. Main (B1867): the formal statement removes finite order and not the fixed direction; a single shear meets its form of existing at every level. One clause short. |
+| the carrier | axiom | ONE CLAUSE SHORT | the ledger: if the difference between the two orders is not cancelled the group is free, and the puncture follows (the SM seat's B1380, not verified on main). Main (B1867): not commuting does not give free; a clause that nothing at all cancels is needed. |
+| reversible updates | axiom | ADMITTED | the ledger gave one line for it (an act that merges two sides ends the distinction) with no alternative exhibited; its author has withdrawn it as an exit (the seat's read of this page). |
 | inverse moves are legal | bit | FORCING ARGUED | adopted by the owner on B1662's argument; the ledger agrees: there must be something to cancel with. |
 | positivity: the side of the mirror | bit | FORCING ARGUED | the ledger: forced up to the sign. Main (B1867): the normal form is a theorem, checked on every hyperbolic matrix with entries up to five; the sign is a separate bit, and the selection criterion decides it if that criterion stands. |
-| the selection criterion | discrete | FORCING ARGUED | the ledger: a fixed character is a place where nothing happened. Main (B1867): as an exclusion this removes every departure too (the run of six fixes twenty); as a minimum it is the reading GENESIS already grades an interpretation. LR is the one word with a single fixed character, so this row carries the whole selection of the object. For the departure, the principle read as 'the least that no counted level detects' picks the run of six only when the level is put in (B1869). |
+| the selection criterion | discrete | ONE CLAUSE SHORT | the ledger: a fixed character is a place where nothing happened. Main (B1867): as an exclusion this removes every departure too (the run of six fixes twenty); as a minimum it is the reading GENESIS already grades an interpretation. LR is the one word with a single fixed character, so this row carries the whole selection of the object. For the departure, the principle read as 'the least that no counted level detects' picks the run of six only when the level is put in (B1869). |
 | the orientation | bit | PRESSED | the ledger: the principle does not force it and may speak against it. The non-orientable sibling is the alternative. Verified on main (B1871): if the tick, the owner's founding rule, is an act, both sheets exist and this is no choice; it supplies no hand. Asked of the owner (P-771). |
 | which family is the object | discrete | UNTOUCHED | — |
 | the dictionary's link Λ | identification | DICTIONARY | — |
@@ -138,7 +143,7 @@ a built one.
 | the class of lines | discrete | UNTOUCHED | — |
 | θ̄ | real | UNTOUCHED | — |
 | the framing of the read-out | discrete | UNTOUCHED | — |
-| the charge premise at level five | discrete | BACK-EDGE NAMED | the design: the charge premise is the same extension condition for a frame that uses the whole space at the level, the line premise for a frame on one line; which holds reduces to a question on the register (P-721). The loop note's third candidate, a level law, has B1855 against it. |
+| the charge premise at level five | bit, discrete | BACK-EDGE NAMED | the design: the charge premise is the same extension condition for a frame that uses the whole space at the level, the line premise for a frame on one line; which holds reduces to a question on the register (P-721). The loop note's third candidate, a level law, has B1855 against it. |
 | minimisation as the use of the action | discrete | PRESSED | the design's fork: one history by least action keeps this input; all allowed histories together drops it and owes a definition of their joint read-out. Length and volume disagree on what is selected (B1857). |
 | point or weight | bit | BACK-EDGE NAMED | the first candidate: the point is where the history's lightest state sits. The scalar ground state is the weight and gives no point, so the operator must have no zero mode. Designed; not run. |
 | the chiral premise | bit | PRESSED | the ledger: the first departure is chiral, and its mirror is the same departure on the other letter. Main (B1867): the swap of the letters is the mirror for every word, so a rule symmetric under the swap selects mirror pairs; a net hand needs the order bit. |
@@ -204,23 +209,25 @@ Each group rests on itself: no member becomes unconditional before the others.
 | WP-1.2 Two records and the punctured torus | Do two records and the once-punctured torus follow from a weaker premise, or are they declared? | main | NOT STARTED | — |
 | WP-1.8 The parent algebra | Is the gauge parent forced by the moves, or supplied? | unowned | NOT STARTED | — |
 | WP-2.1 The curved action and the mass map, on main | Does the lanes' curved functional, with its kinetic weights and four-slot operator, hold as written? | main | NOT STARTED | WP-1.2, WP-1.8, WP-2.2, WP-4.1 |
+| WP-3.2 The register-to-field join | Is the lanes' three the weave's three? | main | STARTED | WP-3.1 |
 | WP-0.11 The weave discipline, mechanised | Can a result about one thread still be stated about the whole without a gate refusing it? | main; the advisor seat re-audits | STARTED | — |
 | WP-0.6 The map kept current and complete | Is every node upstream of a claimed prediction in the map, at its true grade? | main | STARTED | — |
 | WP-0.7 Enforcement that enforces | Does every gate and every seal fail on a committed violation of what it says it guards? | main; the advisor seat re-audits | STARTED | — |
 | WP-0.9 Labels as strong as the content | Does a verdict word, a title or a claim line ever say more than the arc's own body? | main; the advisor seat re-audits | NOT STARTED | — |
-| WP-0.3 Checks that cannot fail, instruments and seal claims | Can every lock under a banked result fail? | main | NOT STARTED | — |
+| WP-0.3 Checks that cannot fail, instruments and seal claims | Can every lock under a banked result fail? | main | STARTED | — |
 | WP-1.1 The principle, as declared postulates | Are the principle's three faces, and its reading as a commutator trace, the theory's declared axioms? | the owner | DONE (declared; GENESIS v1.5) | — |
 | WP-1.3 The moves | Which of the grammar's remaining postulates follow from the principle, and which are declared? | main | NOT STARTED | — |
 | WP-1.9 The register, the deck and the join between states | Is the order-keeping register part of the state, is the deck gauged, and which maps carry physical data between states? | unowned | NOT STARTED | — |
 | WP-2.4 The two sealed packets | Do the thirteen-method and six-control packets hold under main's own review, and do they pass when run? | main | NOT STARTED | — |
+| WP-4.3 The scale | Which ratios of scales does the theory claim, and what fixes them? | main; the web seat | STARTED | WP-4.2, WP-1.7 |
 | WP-4.4 The parameter inventory and the tests' framing | What exactly is claimed, in which definition and scheme, and by what test is it graded? | main; the owner | NOT STARTED | — |
 | WP-4.6 The predictions already on file | Which registered falsifiable claims are live, and what would test them? | main | STARTED (on file; waiting) | — |
 | WP-4.7 The agy lane's complete picture, on main | Which joints of the agy lane's frame does main verify, which does it refute, and does anything in it stand as a result on main? | main | STARTED | — |
 | WP-0.1 False or stale statements in foundation and front documents | Does any living page still state something the record has corrected? | main; the advisor seat re-audits | STARTED | — |
-| WP-0.10 One governing document, at the owner's goal | Which document governs, and does it state the goal as the owner has ruled it? | main; the owner reads the amended text | STARTED | — |
 | WP-0.2 Debts that bear on current work | Do the value frame's candidate and the live prediction rest on anything unchecked? | main | NOT STARTED | — |
 | WP-0.4 Unverified premises and seat results under banked results | Does a banked structural result rest on a seat's word? | main | NOT STARTED | — |
 | WP-0.5 A green full suite on a fresh clone | Does everything reproduce for a reader with only the repository? | main | STARTED | — |
+| WP-0.10 One governing document, at the owner's goal | Which document governs, and does it state the goal as the owner has ruled it? | main; the owner reads the amended text | STARTED | — |
 | WP-0.8 Errors in the mathematics or its code | Is every statement the audit found wrong corrected where it stands, with a lock that computes it? | main; the advisor seat re-audits | STARTED | — |
 
 **Wave 2**
@@ -228,9 +235,11 @@ Each group rests on itself: no member becomes unconditional before the others.
 | package | question | owner | status | given |
 |---|---|---|---|---|
 | WP-2.5 The source and the dynamics | Does the same action give a potential, a breaking or a source that fixes anything? | the physical lane; main | NOT STARTED | — |
+| WP-4.1 The modulus | What fixes τ? | main; the web seat | STARTED | WP-2.5 |
 | WP-3.1 The kernel theorem, on main | Are the zero modes of the half-root block, and then of the rest, what the lanes count? | main | NOT STARTED | WP-1.2, WP-1.8, WP-4.1 |
 | WP-1.4 The swap and the hand | Is one sheet of the orientation double cover selected by anything, or are the swap and the orientation two declared bits? | main | NOT STARTED | — |
 | WP-2.3 The end law | Is the condition at the cusp derived from the same action as the fields, and what is a unit of end data in that operator? | the physical lane; main | NOT STARTED | WP-1.2, WP-1.8, WP-4.1 |
+| WP-1.7 The dictionary | Which mathematical object is which field, and by what right? | main | NOT STARTED | — |
 | WP-4.2 The quantum regime and the level | At what level is the theory quantised, and is the level's state space physical? | main | NOT STARTED | — |
 | WP-0.12 The count as an output, and the map on the desk | Is the headline count computed from one graph, and can the owner see on one page what is solved, what is conditional and what is open? | main | NOT STARTED | — |
 | WP-1.5 The root, selection, and thread results | Under the weave's rule no thread is chosen: which results survive as statements about the weave, and is the root anything more than an origin of coordinates? | main | NOT STARTED | WP-2.2 |
@@ -241,43 +250,34 @@ Each group rests on itself: no member becomes unconditional before the others.
 
 | package | question | owner | status | given |
 |---|---|---|---|---|
-| WP-4.1 The modulus | What fixes τ? | main; the web seat | STARTED | — |
-| WP-3.2 The register-to-field join | Is the lanes' three the weave's three? | main | STARTED | — |
 | WP-3.3 The weak currents and the hand | Do the charged vectors pair with left and right currents of equal size, and what, if anything, breaks that? | the agy and physical lanes; main | NOT STARTED | WP-1.2, WP-1.8, WP-4.1, WP-1.4 |
+| WP-3.4 The Higgs, the couplings, and the value frame | Is main's four-channel coupling the lanes' cubic coupling on its zero modes, and which of the value frame's chosen joints does the model then fix? | main | NOT STARTED | — |
 
 **Wave 4**
 
 | package | question | owner | status | given |
 |---|---|---|---|---|
-| WP-1.7 The dictionary | Which mathematical object is which field, and by what right? | main | NOT STARTED | — |
-| WP-3.4 The Higgs, the couplings, and the value frame | Is main's four-channel coupling the lanes' cubic coupling on its zero modes, and which of the value frame's chosen joints does the model then fix? | main | NOT STARTED | — |
 | WP-3.5 Anomalies and unwanted sectors | Is the joined spectrum anomaly-free, and what becomes of the modes that are not Standard Model fields? | unowned | NOT STARTED | — |
 
 **Wave 5**
 
 | package | question | owner | status | given |
 |---|---|---|---|---|
-| WP-4.3 The scale | Which ratios of scales does the theory claim, and what fixes them? | main; the web seat | STARTED | — |
+| WP-5.2 The upstream audit | For each claimed prediction, is everything under it proved, or a declared input? | main | NOT STARTED | — |
 
 **Wave 6**
 
 | package | question | owner | status | given |
 |---|---|---|---|---|
-| WP-5.2 The upstream audit | For each claimed prediction, is everything under it proved, or a declared input? | main | NOT STARTED | — |
+| WP-5.3 The sealed card | Is the prediction fixed before the comparison, with its power known? | main; the owner | NOT STARTED | — |
 
 **Wave 7**
 
 | package | question | owner | status | given |
 |---|---|---|---|---|
-| WP-5.3 The sealed card | Is the prediction fixed before the comparison, with its power known? | main; the owner | NOT STARTED | — |
-
-**Wave 8**
-
-| package | question | owner | status | given |
-|---|---|---|---|---|
 | WP-5.4 The independent challenge | Has someone who did not write it tried to break it? | another seat | NOT STARTED | — |
 
-**Wave 9**
+**Wave 8**
 
 | package | question | owner | status | given |
 |---|---|---|---|---|
@@ -307,7 +307,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **Debts (18):** P-157, P-355, P-384, P-444, P-446, P-448, P-516, P-517, P-524, P-542, P-557, P-559, P-586, P-596, P-597, P-610, P-687, P-688.
 - **The audit's findings (5):** V1, V2, V3, V4, V5.
 
-**WP-0.3 — Checks that cannot fail, instruments and seal claims** (DERIVE; NOT STARTED; owner: main)
+**WP-0.3 — Checks that cannot fail, instruments and seal claims** (DERIVE; STARTED; owner: main)
 
 - **The question:** Can every lock under a banked result fail?
 - **The first step:** the register's ranked debts of this class.
@@ -369,7 +369,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **The first step:** the owner confirmed to main, on 2026-11-10, the rulings the advisor seat had relayed (the first eleven; P-758). Next, in one landing: the twelve places that cap the goal are amended together, each keeping its original text with a dated note, and the gate that bans a statement of aim is taught the difference between an aim and an arrival, with a planted test. The claim ceiling does not move: what may be asserted as achieved stays at what the record has earned.
 - **Closed when:** one document named as governing, the goal stated once and pointed to from the others, and no amended passage stating or implying arrival.
 - **Register:** P-758 (DONE), P-767 (QUEUED).
-- **The audit's findings (4):** X1, X2, X3, X4.
+- **The audit's findings (2):** X1, X2.
 - **Relayed rulings:** the goal.
 
 **WP-0.11 — The weave discipline, mechanised** (DERIVE; STARTED; owner: main; the advisor seat re-audits)
@@ -378,7 +378,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **The first step:** the verdict schema first: a declared domain (one thread, a named set, all threads of a kind, the weave), how a census was reduced to one row, and a list of what was removed from the carrier, each entry graded forced, computational or chosen. Then the closure map's own refusal (a weave result resting on a thread) carried to the arcs' dependency graph.
 - **Closed when:** the planted violation is refused; every arc upstream of a claimed prediction carries the fields; each weave-domain arc commits the same computation on a second thread; a chosen truncation is counted in the input budget.
 - **Register:** P-755 (DONE), P-757 (QUEUED).
-- **The audit's findings (5):** W1, W2, W3, W4, W5.
+- **The audit's findings (6):** X4, W1, W2, W3, W4, W5.
 - **Relayed rulings:** the claim; the weave discipline; the fork inside it; the gap, for every seat.
 
 **WP-0.12 — The count as an output, and the map on the desk** (DERIVE; NOT STARTED; owner: main)
@@ -389,6 +389,8 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **Needs:** WP-0.6, WP-0.9, WP-0.11.
 - **Nodes (1):** FL:19.
 - **Register:** P-759 (QUEUED).
+- **Debts (1):** P-773.
+- **The audit's findings (1):** X3.
 - **Relayed rulings:** the count as an output; the headline's form; the map on the desk.
 
 ### C1. Foundational generation and selection
@@ -571,7 +573,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **The question:** Is the lanes' three the weave's three?
 - **The first step:** the algebraic half is done on main (B1866): the weave's triplet is the odd twist chi_15 of the symmetric square of the level-2 doublet, a module of the double cover, and the conjugate of the squared theta constants over the cube of eta; on one background only the stabiliser acts, so the first outcome is refuted there; the lanes' one-form triplet over the three backgrounds is the weave's after an odd character -- chi_9 for the signs the agy lane's relay states, chi_21 for the matrices it inserts, which disagree (the physical lane's finding, verified exactly in B1866 § 6). The physical half is open: which signs the one-form line carries; whether the odd character is physical, that is, whether the modes carry the half-weight; and the stabiliser's action on the actual harmonic modes of a background, with its transport between the three (which needs the kernel theorem).
 - **Closed when:** the odd character ruled physical or not by a derivation; then an arc with the exact statement, the family structure it implies, and whether a count may be called a family count.
-- **Needs:** WP-3.1.
+- **Given (its result is conditional on):** WP-3.1.
 - **Nodes (3):** E:J5, MC:GEN, D:01.
 - **Stated about:** thread 2.
 - **Missing dependencies it works on:** X:DICT.
@@ -618,7 +620,8 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **The question:** What fixes τ?
 - **The first step:** after the weight: the read-out rule's four choices, each derived or declared; the candidate's price under the random-subset control; main's own instrument past k = 2.
 - **Closed when:** τ placed by a derived principle and priced; or two real inputs declared, and the value frame's τ stays fitted.
-- **Needs:** WP-1.6, WP-2.5.
+- **Needs:** WP-1.6.
+- **Given (its result is conditional on):** WP-2.5.
 - **Nodes (7):** A:A01, E:L04, T:FRAMING, T:CHARGE5, T:IM, T:PRICED, FL:04.
 - **Stated about:** record 1, thread 5.
 - **Also bears on nodes held elsewhere:** D:12, E:Q3, FL:05, T:MINIM, T:POINT-WEIGHT.
@@ -643,7 +646,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **The question:** Which ratios of scales does the theory claim, and what fixes them?
 - **The first step:** one outside unit is unavoidable and is declared; for a ratio, the two candidates left on the scale card.
 - **Closed when:** each claimed ratio derived, or named as an input; no scale assigned as a last cosmetic step.
-- **Needs:** WP-4.2, WP-1.7.
+- **Given (its result is conditional on):** WP-4.2, WP-1.7.
 - **Nodes (6):** SC:R2, SC:R4, SC:RATIO, A:A12, FL:13, FL:21.
 - **Stated about:** thread 4.
 - **Also bears on nodes held elsewhere:** D:10, E:Q3.
@@ -711,7 +714,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **The question:** Is the prediction fixed before the comparison, with its power known?
 - **The first step:** the foundation's rule for earning by prediction (seven conditions), the input-completeness ledger's checklist filled before the seal, the look count from the look ledger, and the power computed from the null alone.
 - **Closed when:** a sealed card that meets all seven conditions, with its certificate.
-- **Needs:** WP-5.1, WP-5.2, WP-4.4.
+- **Needs:** WP-5.1, WP-5.2, WP-4.4, WP-0.1, WP-0.2, WP-0.4, WP-0.5, WP-0.9.
 - **Nodes (1):** D:13.
 - **Register:** P-709 (DONE).
 
@@ -837,6 +840,7 @@ feeds every row.
 | WP-0.3 Checks that cannot fail, instruments and seal claims | 15: P-154, P-233, P-239, P-317, P-332, P-540, P-590, P-602, P-603, P-605, P-607, P-608, P-609, P-653, P-670 |
 | WP-0.4 Unverified premises and seat results under banked results | 25: P-025, P-030, P-031, P-054, P-055, P-056, P-057, P-091, P-107, P-117, P-135, P-155, P-156, P-158, P-262, P-263, P-268, P-310, P-316, P-334, P-430, P-492, P-571, P-646, P-698 |
 | WP-0.7 Enforcement that enforces | 2: P-757, P-772 |
+| WP-0.12 The count as an output, and the map on the desk | 1: P-773 |
 
 ## 7. The certificate
 
@@ -878,81 +882,85 @@ is banked. OPEN: not yet reproduced on main. READER: main's reader reproduced it
 REPRODUCED: main's own check. PARTLY FIXED: part of the acceptance row is met, and the note says what is left.
 FIXED: main meets the whole row as main reads it; that seat's re-audit decides.
 
-| finding | what it says | package | on main | what main did or checked |
-|---|---|---|---|---|
-| G1 | the append-only gate cannot see a committed change (graded critical) | WP-0.7 | FIXED | B1863: the gate reads history. Every first-parent commit after the rule's first commit that touches the log must keep its parent's log as a prefix, or be a roll-up with its archive; it fails closed where history cannot be read; a violation stays visible until waived by name. The audit's two planted violations are in the suite, each committed in a small repository and run on the clean tree, and the registered control is the gate function failing on one |
-| G2 | an edit after the seal is undetected for most sealed files (graded critical) | WP-0.7 | FIXED | B1864: a new gate reads history and refuses any commit after its first that edits, deletes or moves a sealed-style file, under every seal name the ledger's generator knows; it fails closed where history cannot be read; a violation stays visible until waived by commit and path. The ledger gate recomputes every generated row and refuses a listed file that is gone. The audit's four planted violations are in the suite, the first three committed in small repositories and run on the clean tree |
-| G3 | the seal ledger's 'recorded elsewhere' column certifies itself | WP-0.7 | FIXED | B1864: the ledger's generator reads tracked files only and not the ledger, so a hash is recorded elsewhere only if another tracked file holds it. The corrected ledger: of 432 sealed files, 156 have a hash that no other tracked file records, the audit's own count; two runs agree, and the planted test is in the suite. Main's first correction removed the ledger alone and was incomplete: the generator was also reading every untracked file under the working directory |
-| G4 | the seal-order gate sees one file name only | WP-0.7 | FIXED | B1864: the seal-order gate reads every seal name the generator knows. Thirty arcs whose rule and record were first committed together under names it had not read (the audit's example among them) are entered by name on the list, and the planted test is in the suite. The new seal gate and the ledger gate read every name too. The provenance gate still reads the narrower list |
-| G5 | 'gates fail closed' is false for many gates | WP-0.7 | PARTLY FIXED | B1863: the append-only gate fails closed without a repository, and the runner prints a gate that checked nothing as SKIP with its own words (the review tool's fresh clone counts it against the clone). Left: the four gates that still skip there, and the four deletions that pass (the identification baseline, the retracted-phrase registry, every arc test, an emptied law map and theorem ledger). Main's reader's run corrected one detail: two gates the audit lists do fail closed |
-| G6 | four gates read today's date | WP-0.7 | REPRODUCED | main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit with the date set 30, 60 and 365 days after the commit: four gates turn red on identical content |
-| G7 | the gate-controls gate checks a name only | WP-0.7 | REPRODUCED | main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: every registered control pointed at one skipped trivial test, and the gate passed |
-| G8 | the retraction sweep reads part of its registry | WP-0.7 | REPRODUCED | main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: two phrases from registry rows added after 2026-10-07 pasted into the front page passed; a phrase from an older row was caught |
-| G9 | the attribution gate never reads a commit message | WP-0.7 | REPRODUCED | main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a commit message carrying a co-author trailer passed; so did vendor tokens added with their baseline raised in the same commit |
-| G10 | practices labelled gated whose gate is weaker than the practice | WP-0.7 | REPRODUCED | main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit, for two of its eleven practices: a proven row citing no lock passed, and a banned phrase passed when capitalised or placed in a file type the gate does not read |
-| G11 | the currency check prints 'current' beside declared debts | WP-0.7 | REPRODUCED | main re-ran the deciding commands itself (B1870): the currency check prints 'ok (18 living documents current)' while 9 documents are declared debts and 8 of those are counted as current; CLAIMS.md lags 580 arcs under a tolerance of 40. The audit's 569 and 8 are 580 and 9 today |
-| G12 | the gates at push are an honour system | WP-0.7 | REPRODUCED | main re-ran the deciding commands itself (B1870): README.md:71 says the gates run on every push; the hook is local and untracked, and the one CI workflow runs core tests and no gate |
-| G13 | results depend on clone depth and on fetched refs | WP-0.7 | PARTLY FIXED | Review 77: the review tool's clone for the gates now carries the published branches, as its clone for the suite did. Left: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit at depth 50, where the lead gate reports no stale arc against a baseline of 76 and another gate fails spuriously; no gate says the clone is shallow. The seat's own script reports this case caught on today's main because the full and the shallow clone now agree; that is its criterion, not a fix (B1865) |
-| G14 | baselines are counts, markers never expire, ids match as substrings | WP-0.7 | REPRODUCED | main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a verdict file cut to invalid JSON is skipped by the gate that reads it; it is noticed only where the arc has dependants, and by a view generator |
-| L1 | about a quarter of PROVED arcs are guarded only by locks that read text | WP-0.3 | REPRODUCED | main re-ran the deciding commands itself (B1870): no lock declares whether it recomputes, re-runs or reads a transcript, and no gate asks. A rough static count finds about 330 of 1518 lock files with no computing import; the audit's census tools are not on main and its 386 was not re-derived |
-| L2 | 'locks assert mathematics' has no gate | WP-0.3 | REPRODUCED | main re-ran the deciding commands itself (B1870): the rule that locks assert mathematics has no row in PRACTICES.md and no gate; the vacuity gate fails only the no-assert and tautology classes and reports the both-literal class without failing it |
-| L3 | the theorem chain's locks are mostly weaker than their links | WP-0.3 | REPRODUCED | main re-ran the deciding commands itself (B1870): in part. The chain-locks gate checks only that each link cites a test file that exists. Of the audit's two examples, C45's lock hard-codes its inputs and C7's last assertion is literal-only; but C7's lock also recomputes its three discriminants, and C45 is a no-go link, not a theorem |
-| L4 | B1854's lock fails in every clone | WP-0.3 | PARTLY FIXED | Review 77, found independently by main's fresh-clone suite: the three logs sealed under tracked names. The gate was then widened twice the same day: first to read every lock's own-directory paths, which main's own planted run showed could fire only on the author's tree; then to refuse any such path that git would ignore, whether or not the file exists, which fires in a clean checkout. Left: the lock reads the drivers' committed transcripts and does not re-run them (their runs take hours) |
-| L5 | B1847's lock has assertions that cannot fail | WP-0.3 | FIXED | B1862: the rise toward the tube is true on the data and is now checked by a helper with a planted failing case; the distance from the record's readings is taken from the cluster's own least value |
-| L6 | locks that compare printed floating-point digits as text | WP-0.3 | READER | main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a lock comparing a printed float with a committed transcript is refused by no gate |
-| L7 | tests that are arithmetic on literals | WP-0.3 | REPRODUCED | main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader's scan of every test file: fifteen test functions whose every assert is on literals; main read one of them. main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a test whose only assert is on two literals is counted and not refused |
-| L8 | three depended-on arcs hold no computation of their headline | WP-0.3 | REPRODUCED | main re-ran the deciding commands itself (B1870): B892's tower scripts were never tracked (its wall scan is); B952 has a results file that its lock reads back and no script; B866's lock compares two literal cubics and its interpolation script is not tracked |
-| L9 | core tests that compare a value with itself; silent skips | WP-0.3 | REPRODUCED | main's own reading: two tests compare a function with the expression that defines it; the count of silent skips is not checked |
-| L10 | the suite rewrites tracked evidence files | WP-0.3 | READER | by reading, main's reader: two locks run scripts that write tracked files. main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a test that appends to a tracked file leaves the tree changed and nothing notices; the full suite was not run |
-| E1 | B997's uniqueness clause has a counterexample | WP-0.8 | PARTLY FIXED | B1859, the same day and before the audit was read: the door set is {1, 4}, proved for every m and carried to the verdict, the foundation document, the claim page, the law map and the theorem registry, with the old wording kept and a lock that computes it. Left: the acceptance row asks that the register row be split into one row per correction, and it is not |
-| E2 | a chain lock asserts the wrong congruence level | WP-0.8 | READER | main's reader ran the lock's own function: index 6 at level 4 and 12 at level 8 under the lock's quotient by every central unit; under the standard quotient by ±1 the index is already 12 at level 4, as the ledger's own note says |
-| E3 | B1856: a parity gap in 'invisible to every state' | WP-0.8 | FIXED | B1862: the sentence reads E ≡ +I, a parity superselection rule is named as a third condition, and the split is stated and computed exactly (338 with +I, 305 with −I of 643); the run of six is unaffected |
-| E4 | B952's lemma is false as stated | WP-0.8 | PARTLY FIXED | B1862: the lemma says 'commuting', with the counterexample in sl(2) computed exactly by a lock; the rank of the cascade's own centralizer is not yet computed by a lock |
-| E5 | B892's scan never refines | WP-0.8 | REPRODUCED | main's own reading: the refinement runs only when the grid finds nothing, and the grid lands on the wall, so it never runs |
-| E6 | B862's 'kernel computed exactly' computes nothing | WP-0.8 | FIXED | B1862: the kernel is computed from the map in exact arithmetic (the two centres and a complete grid of sixths; a finer grid finds nothing more; cyclic), and the lock runs the same enumeration for another map and gets a different kernel |
-| E7 | B1028's zero is a sum of typed zeros | WP-0.8 | REPRODUCED | main's own count: eleven typed zeros are summed and asserted to be zero; the arc's addendum says one row is unpriced and its verdict line was not changed |
-| E8 | B854's negative is scoped to one embedding | WP-0.8 | PARTLY FIXED | B1862: the consequence sentence and the verdict line are scoped to the principal embedding; the table of the other classes that the acceptance row names has not been located |
-| E9 | B1854's error is not an estimate | WP-0.8 | PARTLY FIXED | Review 77, found independently by main's reader: the error is about 0.02 and the value does not confirm the seat's; not yet relabelled a numerical estimate, and no control at that level |
-| E10 | a command in the front page ignores its argument | WP-0.8 | FIXED | B1862: the command prints the named arc's status, verdict and claim line; a lock runs it for two arcs and an unknown one |
-| E11 | three small misstatements | WP-0.8 | PARTLY FIXED | B1862: the sine sentence corrected (complex radicals, not real ones), the minimal polynomial recomputed by a lock; the finding's other two parts are not checked |
-| E12 | five small slips of scope | WP-0.8 | PARTLY FIXED | main re-ran the deciding commands itself (B1870): of its five slips, B1853's margins are corrected (B1855's dated note, Review 77). Left: B1857 is marked post hoc and still says 'exactly the two cheaper'; B1852's count of four reversing involutions carries its window and no note that the count is the window's; B884's control is printed and unused; B915's pre-registration still says no other measured number enters, against its own addendum |
-| E13 | B567's eigenvalue count is impossible, and a lock pins it | WP-0.8 | FIXED | B1862: twenty distinct eigenvalues, counted on the lattice of twentieth roots, with the full multiplicity list; the findings carry the old count in a dated bracket and the lock asserts the bound by the order |
-| M1 | PROVED means at least five things | WP-0.9 | READER | its two counts recomputed on today's main by main's reader (1,071 arcs graded PROVED, 195 of them with no script in the folder); its examples are not checked |
-| M2 | the forcing theorem forces a matrix, not the manifold | WP-0.9 | REPRODUCED | main re-ran the deciding commands itself (B1870): in part. The two pages do not list the four further inputs and still call the collapse of 144 to 1 the content of the forcing; but both carry the banner that GENESIS is canonical, and the uniqueness page says it forces the matrix, conditionally. 'The object forced up to orientation' stands on THE_CLAIM.md:15 |
-| M3 | three of four further filters do not separate the sister manifold | WP-0.9 | REPRODUCED | main's own SnapPy run: the sister manifold has the same volume, is amphicheiral and has the same tetrahedron shapes; only the homology separates them. The code, the constant and the test still say five independent filters |
-| M4 | a physics statement under 'no physics statement appears below' | WP-0.9 | REPRODUCED | main re-ran the deciding commands itself (B1870): THEOREM_LEDGER.md says no physics statement appears below, and its link C51, labelled a theorem, says a cover 'carries the Standard-Model gauge algebra and three complete generations'; unchanged since the audit |
-| M5 | 'the flavour three is derived' against an unearned identification | WP-0.9 | REPRODUCED | main re-ran the deciding commands itself (B1870): 'the flavour three is derived' stands in GENESIS.md (line 456 today) and THE_WEAVE.md:113 with no pointer to the identification it rests on (I-31, unearned) |
-| M6 | the global form called derived and not standard in a paper draft | WP-0.9 | REPRODUCED | main re-ran the deciding commands itself (B1870): in part. The paper's main.tex already says the derivation is standard and only the selection is not; its SPEC.md:115 still lists the global form 'derived rather than assumed' under what is not standard |
-| M7 | B1855's titles say proved for a step main did not re-run | WP-0.9 | REPRODUCED | main re-ran the deciding commands itself (B1870): B1855's title says the run of 6 is 'proved least' though main re-ran neither of the seat's two lemmas (P-741, queued), and its claim line says 'every lcm(S) >= 12' without the range of S that its scope field carries |
-| M8 | B1850's verbatim quotes mostly quote the row's own title | WP-0.9 | REPRODUCED | main re-ran the deciding commands itself (B1870): B1850 says every quote was found verbatim, 313 of 313; its checker tests only that a quote is a substring of the file named. The audit's 76 of 86 was not re-derived |
-| M9 | an internal review called external in the paper folders | WP-0.9 | REPRODUCED | main re-ran the deciding commands itself (B1870): papers/P3_THE_PAPER/EXTERNAL_REVIEW_2026-09-09.md is titled an external review, and 'outside referee' stands in two paper READMEs, against PROVENANCE § 0; the pretense gate scans docs and top-level pages only and lists neither phrase |
-| M10 | the falsifier register cannot contradict the programme | WP-0.9 | REPRODUCED | main re-ran the deciding commands itself (B1870): in part. Two entries say a failure kills the reading and not the weave, and the eight first rows do not say what a failure would contradict; but 'most entries cannot fire' overstates: by the register's own grades it is 3 or 4 of 11 |
-| M11 | a generated page asserts false universals | WP-0.9 | REPRODUCED | main re-ran the deciding commands itself (B1870): the reviewer page's sentence 'Every PROVED arc names its test locks' is a fixed string in the generator; on main 421 of 1079 PROVED arcs name no test file in their findings |
-| P1 | the front door describes a plan that already ran and failed | WP-0.1 | REPRODUCED | main re-ran the deciding commands itself (B1870): THE_PROGRAMME_SO_FAR.md gives the six at their best figure and the final attack's two steps in the future tense, and names none of B1823, B1825, B1838; the plan carries one dated note, for B1823. The audit's claim about README is stale: README gives no outcome |
-| P2 | one register row bundles many unapplied corrections | WP-0.1 | PARTLY FIXED | its first item is done (B1859); the row is not split |
-| P3 | an endpoint correction did not reach five arcs | WP-0.1 | REPRODUCED | main re-ran the deciding commands itself (B1870): B892 carries the correction (its 14-dimensional algebra is not the Standard Model's); B861, B862, B863 and B1028 carry no pointer to it, and B994's table still says its chains end at the Standard Model |
-| P4 | a voided prediction and a stale significance on living pages | WP-0.1 | REPRODUCED | main re-ran the deciding commands itself (B1870): CLAIMS.md:147 still states the comparison without the adjudication that voided it as a held-out confirmation; B723 is still PROVED with no supersession; a withdrawn figure of sigmas stands on at least eight current pages |
-| P5 | a withdrawn tube value still cited; the read-out rule's page stale | WP-0.1 | PARTLY FIXED | the read-out rule's page carries the dated notes of S306n and Review 77; the earlier arc's section is not yet checked |
-| P6 | the index lists stale documents as living | WP-0.1 | REPRODUCED | main re-ran the deciding commands itself (B1870): INDEX.md lists CLAIMS.md as living while CLAIMS.md says it was last updated on 2026-07-04; CAMPAIGN_STATUS.md has 606 paragraphs that begin LATEST; one living entry is a path that does not exist |
-| P7 | stale counts and duplicate arc ids | WP-0.1 | REPRODUCED | main re-ran the deciding commands itself (B1870): the forcedness check prints 53 of 57 while '39 of 43' stands as current on at least seven pages; the law map's banner says 113 rows against 329; two arc ids are each shared by more than one folder (1570 verdict files, 1567 ids) |
-| V1 | every specificity null has an unpriced window | WP-0.2 | OPEN | not checked, and why (B1870): the audit's figure has no tracked source, and deciding it needs a computation on the nulls that belongs behind a sealed card. Main's checker found that the later nulls take the best over 223 apexes and 266 lines and not over a plain grid, so the audit does not say which null it measured |
-| V2 | the headline fits omit their error floor | WP-0.2 | REPRODUCED | main re-ran the deciding commands itself (B1870): in part. The allowance of ten per cent is in the compare scripts, is defined in TERMINOLOGY.md:763 and is priced in the framing ledger; the headline figures in THE_FINAL_ATTACK and THE_PROGRAMME_SO_FAR are quoted without it. The audit's two large figures have no tracked source and were not recomputed |
-| V3 | evidence lives in an ignored directory | WP-0.2 | REPRODUCED | main re-ran the deciding commands itself (B1870): audit/ is ignored and holds no tracked file; the register cites it on 83 lines and 68 findings files cite it; one calibration figure quoted on tracked pages rests on scripts that exist only there, and no tracked line says so |
-| V4 | the candidate has a forking path | WP-0.2 | REPRODUCED | in part, by main's own reading of the declaration's history with the new seal gate: three later commits edited the declaration of ends after it was first committed, and the end that the candidate's row uses was entered 75 minutes after the first declaration, in a dated note that says the look had not yet run. Not yet checked: the audit's two figures for the screen under the plan's committed arms, and its remark on the fitted factor |
-| V5 | three looks missing from the look ledger; two conventions in one pipeline | WP-0.2 | REPRODUCED | main re-ran the deciding commands itself (B1870): in part. The look ledger has no row for B1658, B1659 or B1724. Only B1658 clearly reads seen data, by its own findings; B1659 says it uses none; B1724 re-reads earlier calibrations. Two error bars for one quantity stand on record |
-| X1 | twelve places in the governing documents cap the goal | WP-0.10 | REPRODUCED | main re-ran the deciding commands itself (B1870): GOVERNANCE.md:23 says the goal is not a theory of everything, and neither it nor CLAIMS.md has changed since the audit. The owner has confirmed the goal to main (P-758); amending the places is the first step of P-767. One of the audit's twelve places (THE_CLAIM.md, lines 58 to 71) is the anchor doctrine and is doubtful as a cap |
-| X2 | three documents each claim supremacy | WP-0.10 | REPRODUCED | main re-ran the deciding commands itself (B1870): three files each say they win a disagreement: GOVERNANCE.md:6-9, GENESIS.md:29, CLAIMS.md:3 |
-| X3 | the printed identification price undercounts, and its script fails | WP-0.10 | REPRODUCED | main re-ran the deciding commands itself (B1870): in part. The certificate script does not fail on main: it exits 0, its four tests pass, and it is unchanged since the audited commit. What holds is that the '4' in '4 + 9 = 13' is a typed constant |
-| X4 | scope tags are absent from most verdict files | WP-0.10 | REPRODUCED | main re-ran the deciding commands itself (B1870): 1283 of 1570 verdict files carry no scope, and none a domain |
-| R1 | the full suite fails on a clean full clone | WP-0.5 | PARTLY FIXED | Review 77's own fresh-clone suite: 7 failed, of which B1854's lock and the package manifest are fixed; the two attachment locks are undiagnosed; the float-as-text locks pass on main's machine and are not yet made exact |
-| R2 | the pinned environment is prose, not a lock file | WP-0.5 | REPRODUCED | main re-ran the deciding commands itself (B1870): the pinned versions are a prose table in REPRODUCIBILITY.md; requirements.txt and pyproject.toml carry lower bounds only; no lock file is tracked, and CI installs unpinned |
-| W1 | the member-scope gate is a count | WP-0.11 | READER | main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a new negative line worded about the object on a one-thread arc is caught alone, and passes when one old line is reworded in the same commit, since the gate is a count against a baseline |
-| W2 | the quantifier of most claims is not machine-readable | WP-0.11 | REPRODUCED | main re-ran the deciding commands itself (B1870): 250 of 1570 verdict files carry weave_or_thread and 287 a scope; no gate requires either |
-| W3 | 'the object' still names one thread in the terminology | WP-0.11 | REPRODUCED | main re-ran the deciding commands itself (B1870): TERMINOLOGY.md:11 defines 'the object' as the figure-eight complement, while GENESIS's fork on the family as object is ruled to the word states; the two do not agree on the default noun |
-| W4 | no truncation is recorded | WP-0.11 | REPRODUCED | main re-ran the deciding commands itself (B1870): no verdict file has a field for a truncation, a range or a domain (27 distinct keys, none of them); the truncation ledger exists only as a planned item |
-| W5 | six findings of this audit are of the same class | WP-0.11 | PARTLY FIXED | main re-ran the deciding commands itself (B1870): of its six instances, four now carry dated scope notes (B854, B997, B1855, B1853; by B1859, B1862 and Review 77). Left: B1291's verdict file has no scope and no pointer to the arc that re-scoped it; the sixth, on the nulls, was not checked |
-| W6 | plenitude is not a foundation item, and nothing supplies the weight | WP-1.6 | REPRODUCED | the closure map's eleventh missing dependency (B1858, the same day, before the audit was read): the law fixes what exists and not how much of each |
-| W7 | a weighting rule chosen by hand is the thread mistake one level up | WP-1.6 | REPRODUCED | the map's node for the clock is graded CHOSEN; a thread picked by hand and a flat average are the two ways of supplying the weight without deriving it |
+Two more columns, added at the advisor seat's read of this page as a non-author. *Bears on* names what the finding touches:
+arcs, nodes of the map, pages, or REPOSITORY for a property of the repository as a whole that a seal depends on. *The
+re-audit* is that seat's verdict on main's fix, at main's commit `ab97082c0`; it is kept apart from main's own word.
+
+| finding | what it says | package | bears on | on main | the re-audit | what main did or checked |
+|---|---|---|---|---|---|---|
+| G1 | the append-only gate cannot see a committed change (graded critical) | WP-0.7 | REPOSITORY | FIXED | accepted, with three residuals (the log's archives; a waiver hides its violation; history before the rule) | B1863: the gate reads history. Every first-parent commit after the rule's first commit that touches the log must keep its parent's log as a prefix, or be a roll-up with its archive; it fails closed where history cannot be read; a violation stays visible until waived by name. The audit's two planted violations are in the suite, each committed in a small repository and run on the clean tree, and the registered control is the gate function failing on one |
+| G2 | an edit after the seal is undetected for most sealed files (graded critical) | WP-0.7 | REPOSITORY | FIXED | accepted for what it covers; the scripts a seal hashed are unguarded | B1864: a new gate reads history and refuses any commit after its first that edits, deletes or moves a sealed-style file, under every seal name the ledger's generator knows; it fails closed where history cannot be read; a violation stays visible until waived by commit and path. The ledger gate recomputes every generated row and refuses a listed file that is gone. The audit's four planted violations are in the suite, the first three committed in small repositories and run on the clean tree |
+| G3 | the seal ledger's 'recorded elsewhere' column certifies itself | WP-0.7 | REPOSITORY | FIXED | accepted | B1864: the ledger's generator reads tracked files only and not the ledger, so a hash is recorded elsewhere only if another tracked file holds it. The corrected ledger: of 432 sealed files, 156 have a hash that no other tracked file records, the audit's own count; two runs agree, and the planted test is in the suite. Main's first correction removed the ledger alone and was incomplete: the generator was also reading every untracked file under the working directory |
+| G4 | the seal-order gate sees one file name only | WP-0.7 | REPOSITORY | FIXED | accepted; one case open (a rule committed after its record) | B1864: the seal-order gate reads every seal name the generator knows. Thirty arcs whose rule and record were first committed together under names it had not read (the audit's example among them) are entered by name on the list, and the planted test is in the suite. The new seal gate and the ledger gate read every name too. The provenance gate still reads the narrower list |
+| G5 | 'gates fail closed' is false for many gates | WP-0.7 | REPOSITORY | PARTLY FIXED | — | B1863: the append-only gate fails closed without a repository, and the runner prints a gate that checked nothing as SKIP with its own words (the review tool's fresh clone counts it against the clone). Left: the four gates that still skip there, and the four deletions that pass (the identification baseline, the retracted-phrase registry, every arc test, an emptied law map and theorem ledger). Main's reader's run corrected one detail: two gates the audit lists do fail closed |
+| G6 | four gates read today's date | WP-0.7 | REPOSITORY | REPRODUCED | — | main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit with the date set 30, 60 and 365 days after the commit: four gates turn red on identical content |
+| G7 | the gate-controls gate checks a name only | WP-0.7 | REPOSITORY | REPRODUCED | — | main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: every registered control pointed at one skipped trivial test, and the gate passed |
+| G8 | the retraction sweep reads part of its registry | WP-0.7 | REPOSITORY | REPRODUCED | — | main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: two phrases from registry rows added after 2026-10-07 pasted into the front page passed; a phrase from an older row was caught |
+| G9 | the attribution gate never reads a commit message | WP-0.7 | REPOSITORY | REPRODUCED | — | main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a commit message carrying a co-author trailer passed; so did vendor tokens added with their baseline raised in the same commit |
+| G10 | practices labelled gated whose gate is weaker than the practice | WP-0.7 | REPOSITORY | REPRODUCED | — | main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit, for two of its eleven practices: a proven row citing no lock passed, and a banned phrase passed when capitalised or placed in a file type the gate does not read |
+| G11 | the currency check prints 'current' beside declared debts | WP-0.7 | REPOSITORY | REPRODUCED | — | main re-ran the deciding commands itself (B1870): the currency check prints 'ok (18 living documents current)' while 9 documents are declared debts and 8 of those are counted as current; CLAIMS.md lags 580 arcs under a tolerance of 40. The audit's 569 and 8 are 580 and 9 today |
+| G12 | the gates at push are an honour system | WP-0.7 | REPOSITORY | REPRODUCED | — | main re-ran the deciding commands itself (B1870): README.md:71 says the gates run on every push; the hook is local and untracked, and the one CI workflow runs core tests and no gate |
+| G13 | results depend on clone depth and on fetched refs | WP-0.7 | REPOSITORY | PARTLY FIXED | — | Review 77: the review tool's clone for the gates now carries the published branches, as its clone for the suite did. Left: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit at depth 50, where the lead gate reports no stale arc against a baseline of 76 and another gate fails spuriously; no gate says the clone is shallow. The seat's own script reports this case caught on today's main because the full and the shallow clone now agree; that is its criterion, not a fix (B1865) |
+| G14 | baselines are counts, markers never expire, ids match as substrings | WP-0.7 | REPOSITORY | REPRODUCED | — | main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a verdict file cut to invalid JSON is skipped by the gate that reads it; it is noticed only where the arc has dependants, and by a view generator |
+| L1 | about a quarter of PROVED arcs are guarded only by locks that read text | WP-0.3 | REPOSITORY | REPRODUCED | — | main re-ran the deciding commands itself (B1870): no lock declares whether it recomputes, re-runs or reads a transcript, and no gate asks. A rough static count finds about 330 of 1518 lock files with no computing import; the audit's census tools are not on main and its 386 was not re-derived |
+| L2 | 'locks assert mathematics' has no gate | WP-0.3 | REPOSITORY | REPRODUCED | — | main re-ran the deciding commands itself (B1870): the rule that locks assert mathematics has no row in PRACTICES.md and no gate; the vacuity gate fails only the no-assert and tautology classes and reports the both-literal class without failing it |
+| L3 | the theorem chain's locks are mostly weaker than their links | WP-0.3 | docs/THEOREM_LEDGER.md, B730, B1096 | REPRODUCED | — | main re-ran the deciding commands itself (B1870): in part. The chain-locks gate checks only that each link cites a test file that exists. Of the audit's two examples, C45's lock hard-codes its inputs and C7's last assertion is literal-only; but C7's lock also recomputes its three discriminants, and C45 is a no-go link, not a theorem |
+| L4 | B1854's lock fails in every clone | WP-0.3 | B1854 | PARTLY FIXED | — | Review 77, found independently by main's fresh-clone suite: the three logs sealed under tracked names. The gate was then widened twice the same day: first to read every lock's own-directory paths, which main's own planted run showed could fire only on the author's tree; then to refuse any such path that git would ignore, whether or not the file exists, which fires in a clean checkout. Left: the lock reads the drivers' committed transcripts and does not re-run them (their runs take hours) |
+| L5 | B1847's lock has assertions that cannot fail | WP-0.3 | B1847 | FIXED | accepted | B1862: the rise toward the tube is true on the data and is now checked by a helper with a planted failing case; the distance from the record's readings is taken from the cluster's own least value |
+| L6 | locks that compare printed floating-point digits as text | WP-0.3 | REPOSITORY | READER | — | main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a lock comparing a printed float with a committed transcript is refused by no gate |
+| L7 | tests that are arithmetic on literals | WP-0.3 | REPOSITORY | REPRODUCED | — | main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader's scan of every test file: fifteen test functions whose every assert is on literals; main read one of them. main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a test whose only assert is on two literals is counted and not refused |
+| L8 | three depended-on arcs hold no computation of their headline | WP-0.3 | B866, B892, B952 | REPRODUCED | — | main re-ran the deciding commands itself (B1870): B892's tower scripts were never tracked (its wall scan is); B952 has a results file that its lock reads back and no script; B866's lock compares two literal cubics and its interpolation script is not tracked |
+| L9 | core tests that compare a value with itself; silent skips | WP-0.3 | REPOSITORY | REPRODUCED | — | main's own reading: two tests compare a function with the expression that defines it; the count of silent skips is not checked |
+| L10 | the suite rewrites tracked evidence files | WP-0.3 | REPOSITORY, B1464, B1690 | REPRODUCED | — | main re-ran it in a clean checkout (B1873): two test files pass and leave a tracked evidence file modified (B1464's seal census); the seat saw a second file change on its machine |
+| E1 | B997's uniqueness clause has a counterexample | WP-0.8 | B997 | PARTLY FIXED | — | B1859, the same day and before the audit was read: the door set is {1, 4}, proved for every m and carried to the verdict, the foundation document, the claim page, the law map and the theorem registry, with the old wording kept and a lock that computes it. Left: the acceptance row asks that the register row be split into one row per correction, and it is not |
+| E2 | a chain lock asserts the wrong congruence level | WP-0.8 | docs/THEOREM_LEDGER.md | READER | — | main's reader ran the lock's own function: index 6 at level 4 and 12 at level 8 under the lock's quotient by every central unit; under the standard quotient by ±1 the index is already 12 at level 4, as the ledger's own note says |
+| E3 | B1856: a parity gap in 'invisible to every state' | WP-0.8 | B1856, B1853, B1855, B1857, docs/THE_TAU_READOUT_RULE.md | PARTLY FIXED | accepted in the arc; not carried to the three arcs and the page that state the old form | B1856 says that invisible to every state is E = +1, gives the split 338 and 305 and names parity superselection (B1862). Not carried to B1853, B1855, B1857 or the read-out rule's page, which still state the old form with no pointer: main's own propagation fault, found by the seat's second re-audit (P-772) |
+| E4 | B952's lemma is false as stated | WP-0.8 | B952 | PARTLY FIXED | partly, as main says | B1862: the lemma says 'commuting', with the counterexample in sl(2) computed exactly by a lock; the rank of the cascade's own centralizer is not yet computed by a lock |
+| E5 | B892's scan never refines | WP-0.8 | B892 | REPRODUCED | — | main's own reading: the refinement runs only when the grid finds nothing, and the grid lands on the wall, so it never runs |
+| E6 | B862's 'kernel computed exactly' computes nothing | WP-0.8 | B862 | FIXED | accepted | B1862: the kernel is computed from the map in exact arithmetic (the two centres and a complete grid of sixths; a finer grid finds nothing more; cyclic), and the lock runs the same enumeration for another map and gets a different kernel |
+| E7 | B1028's zero is a sum of typed zeros | WP-0.8 | B1028 | REPRODUCED | — | main's own count: eleven typed zeros are summed and asserted to be zero; the arc's addendum says one row is unpriced and its verdict line was not changed |
+| E8 | B854's negative is scoped to one embedding | WP-0.8 | B854 | PARTLY FIXED | partly, as main says | B1862: the consequence sentence and the verdict line are scoped to the principal embedding; the table of the other classes that the acceptance row names has not been located |
+| E9 | B1854's error is not an estimate | WP-0.8 | B1854 | PARTLY FIXED | — | Review 77, found independently by main's reader: the error is about 0.02 and the value does not confirm the seat's; not yet relabelled a numerical estimate, and no control at that level |
+| E10 | a command in the front page ignores its argument | WP-0.8 | README.md | FIXED | accepted | B1862: the command prints the named arc's status, verdict and claim line; a lock runs it for two arcs and an unknown one |
+| E11 | three small misstatements | WP-0.8 | docs/LITERATURE_CONTEXT_2026-07-15.md, CLAIMS.md | PARTLY FIXED | partly, as main says | B1862: the sine sentence corrected (complex radicals, not real ones), the minimal polynomial recomputed by a lock; the finding's other two parts are not checked |
+| E12 | five small slips of scope | WP-0.8 | B884, B915, B1852, B1853, B1857 | PARTLY FIXED | — | main re-ran the deciding commands itself (B1870): of its five slips, B1853's margins are corrected (B1855's dated note, Review 77). Left: B1857 is marked post hoc and still says 'exactly the two cheaper'; B1852's count of four reversing involutions carries its window and no note that the count is the window's; B884's control is printed and unused; B915's pre-registration still says no other measured number enters, against its own addendum |
+| E13 | B567's eigenvalue count is impossible, and a lock pins it | WP-0.8 | B567 | FIXED | accepted | B1862: twenty distinct eigenvalues, counted on the lattice of twentieth roots, with the full multiplicity list; the findings carry the old count in a dated bracket and the lock asserts the bound by the order |
+| M1 | PROVED means at least five things | WP-0.9 | REPOSITORY | READER | — | its two counts recomputed on today's main by main's reader (1,071 arcs graded PROVED, 195 of them with no script in the folder); its examples are not checked |
+| M2 | the forcing theorem forces a matrix, not the manifold | WP-0.9 | G:ROOT, docs/UNIQUENESS_THEOREM.md, docs/THE_CLAIM.md | REPRODUCED | — | main re-ran the deciding commands itself (B1870): in part. The two pages do not list the four further inputs and still call the collapse of 144 to 1 the content of the forcing; but both carry the banner that GENESIS is canonical, and the uniqueness page says it forces the matrix, conditionally. 'The object forced up to orientation' stands on THE_CLAIM.md:15 |
+| M3 | three of four further filters do not separate the sister manifold | WP-0.9 | G:ROOT | REPRODUCED | — | main's own SnapPy run: the sister manifold has the same volume, is amphicheiral and has the same tetrahedron shapes; only the homology separates them. The code, the constant and the test still say five independent filters |
+| M4 | a physics statement under 'no physics statement appears below' | WP-0.9 | docs/THEOREM_LEDGER.md | REPRODUCED | — | main re-ran the deciding commands itself (B1870): THEOREM_LEDGER.md says no physics statement appears below, and its link C51, labelled a theorem, says a cover 'carries the Standard-Model gauge algebra and three complete generations'; unchanged since the audit |
+| M5 | 'the flavour three is derived' against an unearned identification | WP-0.9 | TAG:LAMBDA, GENESIS.md, docs/THE_WEAVE.md | REPRODUCED | — | main re-ran the deciding commands itself (B1870): 'the flavour three is derived' stands in GENESIS.md (line 456 today) and THE_WEAVE.md:113 with no pointer to the identification it rests on (I-31, unearned) |
+| M6 | the global form called derived and not standard in a paper draft | WP-0.9 | B1221, papers/P3_THE_PAPER/SPEC.md | REPRODUCED | — | main re-ran the deciding commands itself (B1870): in part. The paper's main.tex already says the derivation is standard and only the selection is not; its SPEC.md:115 still lists the global form 'derived rather than assumed' under what is not standard |
+| M7 | B1855's titles say proved for a step main did not re-run | WP-0.9 | B1855 | REPRODUCED | — | main re-ran the deciding commands itself (B1870): B1855's title says the run of 6 is 'proved least' though main re-ran neither of the seat's two lemmas (P-741, queued), and its claim line says 'every lcm(S) >= 12' without the range of S that its scope field carries |
+| M8 | B1850's verbatim quotes mostly quote the row's own title | WP-0.9 | B1850 | REPRODUCED | — | main re-ran the deciding commands itself (B1870): B1850 says every quote was found verbatim, 313 of 313; its checker tests only that a quote is a substring of the file named. The audit's 76 of 86 was not re-derived |
+| M9 | an internal review called external in the paper folders | WP-0.9 | papers/P3_THE_PAPER/EXTERNAL_REVIEW_2026-09-09.md | REPRODUCED | — | main re-ran the deciding commands itself (B1870): papers/P3_THE_PAPER/EXTERNAL_REVIEW_2026-09-09.md is titled an external review, and 'outside referee' stands in two paper READMEs, against PROVENANCE § 0; the pretense gate scans docs and top-level pages only and lists neither phrase |
+| M10 | the falsifier register cannot contradict the programme | WP-0.9 | docs/FALSIFIER_REGISTER.md | REPRODUCED | — | main re-ran the deciding commands itself (B1870): in part. Two entries say a failure kills the reading and not the weave, and the eight first rows do not say what a failure would contradict; but 'most entries cannot fire' overstates: by the register's own grades it is 3 or 4 of 11 |
+| M11 | a generated page asserts false universals | WP-0.9 | scripts/views/generate.py | REPRODUCED | — | main re-ran the deciding commands itself (B1870): the reviewer page's sentence 'Every PROVED arc names its test locks' is a fixed string in the generator; on main 421 of 1079 PROVED arcs name no test file in their findings |
+| P1 | the front door describes a plan that already ran and failed | WP-0.1 | V:SIX, B1823, B1825, B1838, docs/THE_PROGRAMME_SO_FAR.md, docs/THE_FINAL_ATTACK_2026-10-29.md | REPRODUCED | — | main re-ran the deciding commands itself (B1870): THE_PROGRAMME_SO_FAR.md gives the six at their best figure and the final attack's two steps in the future tense, and names none of B1823, B1825, B1838; the plan carries one dated note, for B1823. The audit's claim about README is stale: README gives no outcome |
+| P2 | one register row bundles many unapplied corrections | WP-0.1 | docs/POINT_REGISTER.md | PARTLY FIXED | — | its first item is done (B1859); the row is not split |
+| P3 | an endpoint correction did not reach five arcs | WP-0.1 | B861, B862, B863, B994, B1028 | REPRODUCED | — | main re-ran the deciding commands itself (B1870): B892 carries the correction (its 14-dimensional algebra is not the Standard Model's); B861, B862, B863 and B1028 carry no pointer to it, and B994's table still says its chains end at the Standard Model |
+| P4 | a voided prediction and a stale significance on living pages | WP-0.1 | B653, B723, CLAIMS.md | REPRODUCED | — | main re-ran the deciding commands itself (B1870): CLAIMS.md:147 still states the comparison without the adjudication that voided it as a held-out confirmation; B723 is still PROVED with no supersession; a withdrawn figure of sigmas stands on at least eight current pages |
+| P5 | a withdrawn tube value still cited; the read-out rule's page stale | WP-0.1 | docs/THE_TAU_READOUT_RULE.md | PARTLY FIXED | — | the read-out rule's page carries the dated notes of S306n and Review 77; the earlier arc's section is not yet checked |
+| P6 | the index lists stale documents as living | WP-0.1 | docs/INDEX.md | REPRODUCED | — | main re-ran the deciding commands itself (B1870): INDEX.md lists CLAIMS.md as living while CLAIMS.md says it was last updated on 2026-07-04; CAMPAIGN_STATUS.md has 606 paragraphs that begin LATEST; one living entry is a path that does not exist |
+| P7 | stale counts and duplicate arc ids | WP-0.1 | REPOSITORY | REPRODUCED | — | main re-ran the deciding commands itself (B1870): the forcedness check prints 53 of 57 while '39 of 43' stands as current on at least seven pages; the law map's banner says 113 rows against 329; two arc ids are each shared by more than one folder (1570 verdict files, 1567 ids) |
+| V1 | every specificity null has an unpriced window | WP-0.2 | REPOSITORY, V:SIX, B1726, B1753 | OPEN | — | not checked, and why (B1870): the audit's figure has no tracked source, and deciding it needs a computation on the nulls that belongs behind a sealed card. Main's checker found that the later nulls take the best over 223 apexes and 266 lines and not over a plain grid, so the audit does not say which null it measured |
+| V2 | the headline fits omit their error floor | WP-0.2 | REPOSITORY, V:SIX, B1720, B1735 | REPRODUCED | — | main re-ran the deciding commands itself (B1870): in part. The allowance of ten per cent is in the compare scripts, is defined in TERMINOLOGY.md:763 and is priced in the framing ledger; the headline figures in THE_FINAL_ATTACK and THE_PROGRAMME_SO_FAR are quoted without it. The audit's two large figures have no tracked source and were not recomputed |
+| V3 | evidence lives in an ignored directory | WP-0.2 | REPOSITORY, B1757 | REPRODUCED | — | main re-ran the deciding commands itself (B1870): audit/ is ignored and holds no tracked file; the register cites it on 83 lines and 68 findings files cite it; one calibration figure quoted on tracked pages rests on scripts that exist only there, and no tracked line says so |
+| V4 | the candidate has a forking path | WP-0.2 | REPOSITORY, V:SIX | REPRODUCED | — | in part, by main's own reading of the declaration's history with the new seal gate: three later commits edited the declaration of ends after it was first committed, and the end that the candidate's row uses was entered 75 minutes after the first declaration, in a dated note that says the look had not yet run. Not yet checked: the audit's two figures for the screen under the plan's committed arms, and its remark on the fitted factor |
+| V5 | three looks missing from the look ledger; two conventions in one pipeline | WP-0.2 | REPOSITORY, docs/LOOK_LEDGER.md, B1658, B1724 | REPRODUCED | — | main re-ran the deciding commands itself (B1870): in part. The look ledger has no row for B1658, B1659 or B1724. Only B1658 clearly reads seen data, by its own findings; B1659 says it uses none; B1724 re-reads earlier calibrations. Two error bars for one quantity stand on record |
+| X1 | twelve places in the governing documents cap the goal | WP-0.10 | GOVERNANCE.md, CLAIMS.md | REPRODUCED | — | main re-ran the deciding commands itself (B1870): GOVERNANCE.md:23 says the goal is not a theory of everything, and neither it nor CLAIMS.md has changed since the audit. The owner has confirmed the goal to main (P-758); amending the places is the first step of P-767. One of the audit's twelve places (THE_CLAIM.md, lines 58 to 71) is the anchor doctrine and is doubtful as a cap |
+| X2 | three documents each claim supremacy | WP-0.10 | GOVERNANCE.md, GENESIS.md, CLAIMS.md | REPRODUCED | — | main re-ran the deciding commands itself (B1870): three files each say they win a disagreement: GOVERNANCE.md:6-9, GENESIS.md:29, CLAIMS.md:3 |
+| X3 | the printed identification price undercounts, and its script fails | WP-0.12 | REPOSITORY, MC:PRICE, B1266, outside_bench/certificates/the_price_is_twelve.py | REPRODUCED | — | main re-ran it (B1873): the script the foundation cites for the live price, outside_bench/certificates/the_price_is_twelve.py, exits 1 on main ('24 ROWS OUTSTANDING' is not stated in the verdict page) and nothing runs it; the other script for the same price, B1266's, passes on a typed 4. Both halves of the finding stand. B1870 had tested the second script, the finding having named none |
+| X4 | scope tags are absent from most verdict files | WP-0.11 | REPOSITORY | REPRODUCED | — | main re-ran the deciding commands itself (B1870): 1283 of 1570 verdict files carry no scope, and none a domain |
+| R1 | the full suite fails on a clean full clone | WP-0.5 | REPOSITORY | PARTLY FIXED | — | Review 77's own fresh-clone suite: 7 failed, of which B1854's lock and the package manifest are fixed; the two attachment locks are undiagnosed; the float-as-text locks pass on main's machine and are not yet made exact |
+| R2 | the pinned environment is prose, not a lock file | WP-0.5 | REPOSITORY | REPRODUCED | — | main re-ran the deciding commands itself (B1870): the pinned versions are a prose table in REPRODUCIBILITY.md; requirements.txt and pyproject.toml carry lower bounds only; no lock file is tracked, and CI installs unpinned |
+| W1 | the member-scope gate is a count | WP-0.11 | REPOSITORY | READER | — | main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a new negative line worded about the object on a one-thread arc is caught alone, and passes when one old line is reworded in the same commit, since the gate is a count against a baseline |
+| W2 | the quantifier of most claims is not machine-readable | WP-0.11 | REPOSITORY | REPRODUCED | — | main re-ran the deciding commands itself (B1870): 250 of 1570 verdict files carry weave_or_thread and 287 a scope; no gate requires either |
+| W3 | 'the object' still names one thread in the terminology | WP-0.11 | TERMINOLOGY.md | REPRODUCED | — | main re-ran the deciding commands itself (B1870): TERMINOLOGY.md:11 defines 'the object' as the figure-eight complement, while GENESIS's fork on the family as object is ruled to the word states; the two do not agree on the default noun |
+| W4 | no truncation is recorded | WP-0.11 | REPOSITORY | REPRODUCED | — | main re-ran the deciding commands itself (B1870): no verdict file has a field for a truncation, a range or a domain (27 distinct keys, none of them); the truncation ledger exists only as a planned item |
+| W5 | six findings of this audit are of the same class | WP-0.11 | B1291 | PARTLY FIXED | — | main re-ran the deciding commands itself (B1870): of its six instances, four now carry dated scope notes (B854, B997, B1855, B1853; by B1859, B1862 and Review 77). Left: B1291's verdict file has no scope and no pointer to the arc that re-scoped it; the sixth, on the nulls, was not checked |
+| W6 | plenitude is not a foundation item, and nothing supplies the weight | WP-1.6 | W:LAW | REPRODUCED | — | the closure map's eleventh missing dependency (B1858, the same day, before the audit was read): the law fixes what exists and not how much of each |
+| W7 | a weighting rule chosen by hand is the thread mistake one level up | WP-1.6 | W:CLOCK | REPRODUCED | — | the map's node for the clock is graded CHOSEN; a thread picked by hand and a flat average are the two ways of supplying the weight without deriving it |
 
 ## 9. The owner's rulings of 2026-11-10: relayed by the advisor seat, and confirmed to main
 

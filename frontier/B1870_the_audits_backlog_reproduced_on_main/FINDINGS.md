@@ -95,6 +95,13 @@ G14 and L7 were each planted and not caught. They are recorded as reproduced by 
   own findings (V5). "Most entries cannot fire" is 3 or 4 of 11 (M10).
 - **Its census tools are not on main,** so two of its counts could not be re-derived (L1, M8).
 
+**Dated correction, 2026-11-10, later (B1873).** The first point of this section is wrong about the audit. The
+finding named no file, and main's checker tested B1266's script, which passes. The script the foundation cites for
+the price is `outside_bench/certificates/the_price_is_twelve.py`. It exits 1 on main, and nothing runs it. So the
+script the audit meant does fail, and both halves of X3 stand. What main found is a second defect beside it: the
+other script for the same price passes on a typed constant. The table's row for X3 and the tally of § 1 are read with
+this note; the programme carries the corrected state.
+
 ## 5. What this changes
 
 - **The programme (B1861)** carries the new state of every finding, with the old state kept beside it.

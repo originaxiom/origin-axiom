@@ -4471,7 +4471,7 @@ lane, drew one graph of the programme's spine, and named the mistake it keeps ma
 Touched at the landing of B1871 and B1872. **The window turned the remaining work into a checked plan, had main
 audited by another seat, and closed the question of how the law is to be read.**
 - **The plan (B1861):** 43 packages over every unproved node of the closure map; 38 inputs put in by hand, each now
-  with the route by which it could leave, if any is named (12 of 38; none proved or built).
+  with the route by which it could leave, if any is named (8 of 38 with no objection on the page; none proved or built) [corrected at B1873: this read 12, counting three forcing arguments that are one clause short and one withdrawn by its author].
 - **The audit (B1862–B1865, B1870):** of 73 findings, 9 fixed, 13 partly fixed, 45 reproduced by main, 5 by a reader
   only, 1 open; two gates now read history. Its second re-audit opened a debt: a seal does not yet protect the
   scripts it hashed (P-772).

@@ -150,7 +150,7 @@ planted controls).
 | dictionary | 6 | an identification: earned only by a sealed prediction |
 | untouched | 11 | the three notes name no route |
 
-**An exit is on the table for 12 of the 38.** None is proved or built. Of the six forcing arguments, main found
+**An exit is on the table for 12 of the 38.** None is proved or built. [Corrected 2026-11-10 (B1873, the advisor seat's read): 8, not 12 — three of the forcing arguments are one clause short by B1867's own finding and one was withdrawn by its author; of the 8, five are back-edges that are named and not built.] Of the six forcing arguments, main found
 three one clause short (B1867 § 3).
 
 **What the table is and is not.** It is a harvest of three notes onto the budget, with main's checks beside each

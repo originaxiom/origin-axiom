@@ -19042,3 +19042,26 @@ and the record has none yet. That is now the sharpest statement of the central o
 
 The advisor also re-examined main's repairs to the safety checks. Most held. The largest opening left: a sealed rule
 cannot be changed after the fact, but the program that evaluates it still can. That is on the list as a debt. 0 of 19.
+
+## 2026-11-10 — S306o (at the owner's word): the plan cannot yet check its own rule
+
+The owner pointed main at the advisor's read of main's plan. The advisor had read it as someone who did not write
+it, trying to break it.
+
+Most of it held. One thing did not, and it matters. The plan's central safety rule says a value may be sealed only
+when nothing unfinished lies beneath it. "Beneath" is read off the map of the programme. But three lists of
+unfinished things were not on the map at all: the audit's findings, most of the open debts, and the identifications
+that have not been earned. So the rule was blind exactly where it was needed. As written, a comparison with
+measurement could have gone ahead while the test suite was failing and while the comparison's own instruments had
+known faults.
+
+Main recomputed the advisor's counts and they are right. Four repairs are in: every finding now says what it bears
+on; the sealed test waits for everything that is a property of the whole repository; work may not be marked started
+before what it depends on; and main's word "fixed" is kept apart from the advisor's word "accepted".
+
+Three of main's own statements were wrong and are corrected. One finding main had called fixed was only fixed in one
+of five places. One finding main had half-dismissed is fully right: the program the foundation cites for a key
+count fails, and nothing runs it. And the number of inputs with a way out written down is 8, not 12.
+
+What remains is a debt on the list: joining the other two lists to the map. Until then the sealed test simply waits
+on more. 0 of 19.

@@ -1,0 +1,29 @@
+{
+ "id": "B1873",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1861",
+  "B1858",
+  "B1870",
+  "B1869",
+  "B1862"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the advisor seat's read of the closure programme as a non-author, with its replies on B1869 and B1870 (relays/advisor_2026-11-10_audit/READ_OF_B1861_AS_A_NON_AUTHOR.md and read_of_b1861/ @ d59e36d8; harvest rows 1664 and 1665): read in full; its counts recomputed by main from main's own generated files; its script not run; four of its seven proposed acceptance rows met here and three registered"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (a process arc: the closure programme measured against a non-author's read)",
+  "object": "the closure programme as B1861 generates it, the closure map's nodes and edges, the audit's 73 findings and the register's debts; main at d91e91469",
+  "reach": "general",
+  "hypotheses": "what each finding bears on is main's reading of the finding; the repair makes the sealed card wait on more and relaxes only as debts are joined to the map; three of the read's rows are owed and nothing here supplies them"
+ },
+ "claim_one_line": "THE CLOSURE PROGRAMME READ BY A NON-AUTHOR: WHAT HELD, WHAT IS REPAIRED, WHAT IS OWED (the owner's word to fetch the advisor seat's read; bookkeeping only): the read's counts reproduce on main's own files, and its cause is real -- the programme seals a value only if nothing open lies upstream, upstream is read from the map's edges, and the audit's findings, 63 of 80 open debts and all but one of the unearned identifications were joined to nothing, so the comparison did not wait on six packages holding 31 findings, the suite and the comparison's own instruments among them. Repaired, each with a refusal in the builder and a planted control: every finding names what it bears on (34 the repository as a whole, 39 arcs, nodes or pages); the sealed card waits on every package holding what no single value's list can show; a package started while a need has not started is refused (five cases, three now held as worked first and conditional); 'fixed' is main's word and the re-audit's verdict a separate field (12 recorded). Corrected in main's record: one finding marked fixed is partly fixed (the premise's two signs not carried to four places); the script the foundation cites for the price does fail, so that finding stands in full and B1870 carries a dated correction; one test run rewrites a tracked evidence file, reproduced; the level-5 premise is two choices; the exits on the table are 8 and not 12. Owed and registered: the debts and the identifications joined to the map, every choice carrying its alternatives, one price printed. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}

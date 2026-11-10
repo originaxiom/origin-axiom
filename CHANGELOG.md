@@ -1,5 +1,18 @@
 # Changelog
 
+## S306o (at the owner's word) THE CLOSURE PROGRAMME READ BY A NON-AUTHOR: FOUR REPAIRS, THREE CORRECTIONS TO MAIN'S OWN RECORD, ONE DEBT (B1873; P-773) (2026-11-10)
+
+- **The owner:** "fetch new audit branch: REAUDIT_2_2026-11-10.md and READ_OF_B1861_AS_A_NON_AUTHOR.md are both waiting." The re-audit was already taken up (P-772). This is the read.
+- **What it found, and main's recount confirms:** the programme seals a value only if nothing open lies upstream; "upstream" is read from the map's edges; and the audit's findings, 63 of the 80 open debts and all but one of the unearned identifications were joined to nothing. So the comparison did not wait on six packages holding 31 findings — the suite on a fresh clone and the comparison's own instruments among them.
+- **Repaired in the programme, each with a refusal and a planted control:**
+  - every finding names what it bears on (34 the repository as a whole; 39 arcs, nodes or pages);
+  - the sealed card waits on every package that holds what no single value's list can show;
+  - a package started while a need has not started is refused (five cases; three now held as worked first and conditional);
+  - "fixed" is main's word and the re-audit's verdict a separate field (12 recorded).
+- **Corrections to main's own record:** E3 is partly fixed, not fixed (the premise's two signs were not carried to four places); X3 stands in full — the script the foundation cites for the price exits 1 and nothing runs it, and B1870 carries a dated correction; L10 is reproduced (a test run rewrites a tracked evidence file); the level-5 premise is two choices under one name; the exits on the table are 8, not 12.
+- **Owed (P-773, a ranked debt):** the debts and the unearned identifications joined to the map; every choice carrying its alternatives; one price printed instead of three.
+- The 73 findings: 8 fixed, 14 partly fixed, 46 reproduced by main, 4 by a reader only, 1 open. Harvest rows 1664–1665; pin advisor `d59e36d8`. 0 of 19.
+
 ## S306o (later) THE OWNER'S RULING ON THE LAW'S READING; ONE TICK OR TWO ACTS VERIFIED (B1871); ALL HISTORIES TOGETHER DEFINED AND ITS FACTS VERIFIED (B1872) (2026-11-10)
 
 - **The owner ruled on the law's reading: "Yes - on the decision"** (P-755 closed). The law is the statement of what takes part: every allowed history does. The move count is not adopted as the weight. The weight stays open, as the object of the closed loop.

@@ -291,3 +291,62 @@ def test_every_input_says_how_it_could_leave_and_the_refusal_can_fire():
     with planted(lambda: S.EXITS.__setitem__("a number nobody typed", ("UNTOUCHED", "")), restore) as f:
         assert any("not an input of the budget: a number nobody typed" in x for x in f)
     assert not _refusals()
+
+
+def test_the_joins_the_seals_rule_needs_and_each_refusal_can_fire():
+    """rules 16 to 19 (added with B1873, the advisor seat's read of this page as a non-author)"""
+    st = B["stats"]
+    assert sorted(S.BEARS_ON) == sorted(S.FINDINGS) and all(S.BEARS_ON[f] for f in S.FINDINGS)
+    assert st["findings_that_bear_on_the_repository_as_a_whole"] + st["findings_that_name_arcs_nodes_or_pages_only"] == 73
+    card = _wp("WP-5.3")
+    built = {w["id"]: w for w in B["packages"]}
+    def upstream(i, seen=None):
+        seen = set() if seen is None else seen
+        for x in built[i]["needs_all"]:
+            if x not in seen:
+                seen.add(x)
+                upstream(x, seen)
+        return seen
+    up = upstream("WP-5.3")
+    for w in st["packages_the_sealed_card_must_wait_on_for_that"]:
+        assert w in up, w
+    # the comparison now waits on the suite and on the comparison's own instruments
+    assert {"WP-0.2", "WP-0.5"} <= set(card["needs"])
+    # 16: a finding that names nothing, and one that names something that is not there
+    keep = dict(S.BEARS_ON)
+    def restore():
+        S.BEARS_ON.clear()
+        S.BEARS_ON.update(keep)
+    with planted(lambda: S.BEARS_ON.pop("E7"), restore) as f:
+        assert any("finding E7 names nothing it bears on" in x for x in f)
+    with planted(lambda: S.BEARS_ON.__setitem__("E7", ["B99999"]), restore) as f:
+        assert any("finding E7 bears on something that is not there: B99999" in x for x in f)
+    # 17: the sealed card set free of the suite, and of a package that holds debts the map joins to nothing
+    needs = list(card["needs"])
+    def restore_needs():
+        card["needs"][:] = needs
+    with planted(lambda: card["needs"].remove("WP-0.5"), restore_needs) as f:
+        assert any("the sealed card does not wait on WP-0.5" in x for x in f)
+    with planted(lambda: card["needs"].remove("WP-0.4"), restore_needs) as f:
+        assert any("the sealed card does not wait on WP-0.4" in x for x in f)
+    # 18: a package marked started under a need that has not started
+    w42, w43 = _wp("WP-4.2"), _wp("WP-4.3")
+    assert w42["status"].startswith("NOT STARTED") and w43["status"].startswith("STARTED")
+    n43 = list(w43["needs"])
+    def restore43():
+        w43["needs"][:] = n43
+    with planted(lambda: w43["needs"].append("WP-4.2"), restore43) as f:
+        assert any("WP-4.3 is marked STARTED while WP-4.2" in x for x in f)
+    # 19: fixed is main's word; the re-audit's verdict is kept apart, and a finding it did not accept cannot be marked fixed
+    assert st["findings_with_a_re_audit_verdict"] == len(S.ACCEPTED) and st["fixed_and_not_yet_re_audited"] == []
+    assert S.FINDINGS["E3"]["state"] == "PARTLY FIXED" and S.FINDINGS["E3"]["was"][0] != "PARTLY FIXED"
+    e3 = dict(S.FINDINGS["E3"])
+    def restore_e3():
+        S.FINDINGS["E3"].clear()
+        S.FINDINGS["E3"].update(e3)
+    with planted(lambda: S.FINDINGS["E3"].__setitem__("state", "FIXED"), restore_e3) as f:
+        assert any("finding E3 is marked FIXED and the re-audit" in x for x in f)
+    # the exits: three forcing arguments are one clause short and are not counted as exits
+    assert st["exits_by_kind"]["ONE CLAUSE SHORT"] == 3 and st["inputs_with_an_exit_on_the_table"] == 8
+    assert st["budget"]["bit"] == 9 and st["budget_items"] == 46          # the charge premise is two choices under one name (B1869)
+    assert not _refusals()

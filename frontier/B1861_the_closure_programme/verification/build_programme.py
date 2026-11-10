@@ -26,6 +26,11 @@ record's own pages, and this arc's programme_source.py. It REFUSES to build when
      marked confirmed that is not among the relayed ones, or without the owner's words and date, or without main's opinion
      (which the owner asked for with the confirmation); an opinion is written for a ruling that is not confirmed;
  14. a row of the record's own checklist for a theory of everything has no package, or a quoted word of the record is gone.
+ 16. a finding names nothing it bears on, or names something that is not there;
+ 17. the sealed card does not wait on a package that holds a finding about the repository as a whole, or a debt the map joins
+     to nothing: what no value's own list can show must be clean before any seal;
+ 18. a package is marked started while a package it cannot be worked before has not started;
+ 19. a finding is marked FIXED and the advisor seat's re-audit did not accept it, or says the correction was not carried.
  15. an input of the budget has no line saying how it could leave the budget (or that no route is named), the line's kind is
      outside the list, a route is named and not described, a dictionary entry is not an identification, a kept entry is
      not an axiom, or a line is written for something that is not an input.
@@ -427,6 +432,58 @@ def build(nodes=None, edges=None):
         if hid not in by:
             fails.append("a headline result is not in the map: %s" % hid)
 
+    # ---- 16 to 19: the joins the seal's rule needs (the advisor seat's read of this page as a non-author; B1873)
+    CARD = "WP-5.3"
+    tracked = None
+    def exists(tok):
+        if tok == S.REPO or tok in by:
+            return True
+        if re.fullmatch(r"B\d+", tok):
+            return any((ROOT / "frontier").glob(tok + "_*"))
+        return (ROOT / tok).exists()
+    for fid, f in S.FINDINGS.items():
+        bo = S.BEARS_ON.get(fid)
+        if not bo:
+            fails.append("finding %s names nothing it bears on (an arc, a node of the map, a tracked path, or the repository as a whole)" % fid)
+            continue
+        for tok in bo:
+            if not exists(tok):
+                fails.append("finding %s bears on something that is not there: %s" % (fid, tok))
+    for fid in S.BEARS_ON:
+        if fid not in S.FINDINGS:
+            fails.append("a bears-on line is written for a finding the programme does not hold: %s" % fid)
+    touched = {e["src"] for e in edges} | {e["dst"] for e in edges}
+    unjoined = sorted(n["id"] for n in nodes if n["kind"] == "debt" and n["id"] not in touched)
+    row_of_debt = {n["id"]: (n["rows"][0] if n.get("rows") else n["id"].split(":")[-1]) for n in nodes if n["kind"] == "debt"}
+    must = {}
+    for fid, f in S.FINDINGS.items():
+        if S.REPO in S.BEARS_ON.get(fid, []):
+            must.setdefault(f["wp"], []).append(fid)
+    for nid in unjoined:
+        w_ = debt_of.get(row_of_debt[nid])
+        if w_:
+            must.setdefault(w_, []).append(row_of_debt[nid])
+    if CARD in wp:
+        for w_, why in sorted(must.items()):
+            if w_ != CARD and w_ not in anc_needs[CARD]:
+                fails.append("the sealed card does not wait on %s, which holds what no value's own list can show (%s%s)" % (
+                    w_, ", ".join(why[:4]), ", ..." if len(why) > 4 else ""))
+    for w in wps:
+        if not w["status"].startswith("NOT STARTED"):
+            for d in w["needs"]:
+                for x in expand([d]):
+                    if x in wp and x != w["id"] and wp[x]["status"].startswith("NOT STARTED"):
+                        fails.append("%s is marked %s while %s, which it cannot be worked before, has not started (use GIVEN for work done first and conditional)" % (
+                            w["id"], w["status"].split()[0], x))
+    for fid, verdict in S.ACCEPTED.items():
+        if fid not in S.FINDINGS:
+            fails.append("a re-audit verdict is written for a finding the programme does not hold: %s" % fid)
+        elif S.FINDINGS[fid]["state"] == "FIXED" and not verdict.startswith("accepted") :
+            fails.append("finding %s is marked FIXED and the re-audit did not accept it: %s" % (fid, verdict))
+        elif S.FINDINGS[fid]["state"] == "FIXED" and "not carried" in verdict:
+            fails.append("finding %s is marked FIXED and the re-audit says the correction was not carried everywhere" % fid)
+    fixed_unread = sorted(fid for fid, f in S.FINDINGS.items() if f["state"] == "FIXED" and fid not in S.ACCEPTED)
+
     # ---- derived tables
     fstate = collections.Counter(f["state"] for f in S.FINDINGS.values())
     under = collections.Counter()
@@ -477,6 +534,11 @@ def build(nodes=None, edges=None):
         candidate_frame_joints=len(sb_joints),
         exits_by_kind={k: exits.get(k, 0) for k in S.EXIT_KINDS},
         inputs_with_an_exit_on_the_table=sum(exits.get(k, 0) for k in ("FORCING ARGUED", "RIGID", "BACK-EDGE NAMED")),
+        forcing_arguments_one_clause_short=exits.get("ONE CLAUSE SHORT", 0),
+        findings_that_bear_on_the_repository_as_a_whole=sum(1 for fid in S.FINDINGS if S.REPO in S.BEARS_ON.get(fid, [])),
+        findings_that_name_arcs_nodes_or_pages_only=sum(1 for fid in S.FINDINGS if S.BEARS_ON.get(fid) and S.REPO not in S.BEARS_ON[fid]),
+        debts_on_the_map_joined_to_nothing=len(unjoined), packages_the_sealed_card_must_wait_on_for_that=sorted(must),
+        findings_with_a_re_audit_verdict=len(S.ACCEPTED), fixed_and_not_yet_re_audited=fixed_unread,
         audit_findings=len(S.FINDINGS), audit_findings_by_state={s: fstate.get(s, 0) for s in S.FINDING_STATES}, relayed_rulings=len(S.RULINGS),
         rulings_confirmed_by_the_owner_to_main=len(S.CONFIRMED), rulings_not_confirmed=len(S.NOT_CONFIRMED), rulings_asked=len(S.RULINGS) - len(S.CONFIRMED) - len(S.NOT_CONFIRMED),
         headline_results_that_are_conditional_results=cond_heads,
@@ -532,6 +594,9 @@ def render(B):
           "Every node of the map that is presently an input of main's spine, grouped by the choice it names. The same choice",
           "stands under several names across the record. The kinds follow the record's own grades where it has them; the",
           "builder checks them against GENESIS's grades and the scoreboard's types. Their independence is the record's listing.", "",
+          "**The budget is a union over frames and readings.** The fitted modulus and the choices of the rule that is meant to replace",
+          "the fit are counted side by side; several inputs stand under two frames' names. It over-counts, which is the safe direction,",
+          "and it is not the price of any one value: a value's price is its own certificate's list.", "",
           "| kind | now | what a parameter-free theory may keep |", "|---|---|---|"]
     for k in KINDS:
         L.append("| %s | %d | %s |" % (k, st["budget"][k], cell(S.TARGET[k])))
@@ -548,8 +613,8 @@ def render(B):
           "| kind | inputs | what it means |", "|---|---|---|"]
     for k, v in S.EXIT_KINDS.items():
         L.append("| %s | %d | %s |" % (k, st["exits_by_kind"][k], cell(v)))
-    L += ["", "**An exit is on the table for %d of the %d inputs** (a forcing argument, rigidity, or a named back-edge). None is proved or built." % (
-              st["inputs_with_an_exit_on_the_table"], st["independent_choices"]), "",
+    L += ["", "**An exit is on the table for %d of the %d inputs** (a forcing argument with no objection on this page, rigidity, or a named back-edge); %d more forcing arguments are one clause short. None is proved or built." % (
+              st["inputs_with_an_exit_on_the_table"], st["independent_choices"], st["forcing_arguments_one_clause_short"]), "",
           "| the choice | kind | route | what the notes say, and what main checked |", "|---|---|---|---|"]
     for i in S.INPUTS:
         kinds = ", ".join(("%d × %s" % (v, k)) if v > 1 else k for k, v in i["kinds"].items())
@@ -667,10 +732,14 @@ def render(B):
           "is banked. OPEN: not yet reproduced on main. READER: main's reader reproduced it and main has not repeated the check.",
           "REPRODUCED: main's own check. PARTLY FIXED: part of the acceptance row is met, and the note says what is left.",
           "FIXED: main meets the whole row as main reads it; that seat's re-audit decides.", "",
-          "| finding | what it says | package | on main | what main did or checked |", "|---|---|---|---|---|"]
+          "Two more columns, added at the advisor seat's read of this page as a non-author. *Bears on* names what the finding touches:",
+          "arcs, nodes of the map, pages, or REPOSITORY for a property of the repository as a whole that a seal depends on. *The",
+          "re-audit* is that seat's verdict on main's fix, at main's commit `%s`; it is kept apart from main's own word." % S.ACCEPTED_AT[0], "",
+          "| finding | what it says | package | bears on | on main | the re-audit | what main did or checked |", "|---|---|---|---|---|---|---|"]
     for fid in sorted(S.FINDINGS, key=fkey):
         f = S.FINDINGS[fid]
-        L.append("| %s | %s | %s | %s | %s |" % (fid, cell(f["short"]), f["wp"], f["state"], cell(f["note"]) or "—"))
+        L.append("| %s | %s | %s | %s | %s | %s | %s |" % (fid, cell(f["short"]), f["wp"], cell(", ".join(S.BEARS_ON.get(fid, []))), f["state"],
+                                                   cell(S.ACCEPTED.get(fid, "")) or "—", cell(f["note"]) or "—"))
     L += ["", "## 9. The owner's rulings of 2026-11-10: relayed by the advisor seat, and confirmed to main", "",
           "The advisor seat recorded them and wrote that main confirms each with the owner before acting on it. That is also",
           "main's standing rule for a relayed ruling. Main asked about the %d then relayed. The owner answered main on %s:" % (len(S.CONFIRMED), S.CONFIRMATION[0]),
@@ -694,7 +763,8 @@ def main():
         (ARC / "PROGRAMME.md").write_text(render(B), encoding="utf-8")
         out = dict(stats=B["stats"], packages=B["packages"], waits=B["waits"], closure=B["closure"], debt_of=B["debt_of"],
                    inputs=S.INPUTS, rules=S.RULES, tallies=S.TALLIES, certificate=S.CERTIFICATE, value_status=S.VALUE_STATUS,
-                   seal_rule=S.SEAL_RULE, findings=S.FINDINGS, rulings=S.RULINGS, confirmed=S.CONFIRMED, confirmation=list(S.CONFIRMATION), opinion=S.OPINION, not_confirmed=S.NOT_CONFIRMED, released=B["released"], map_dependencies=B["proj"],
+                   seal_rule=S.SEAL_RULE, findings=S.FINDINGS, rulings=S.RULINGS, confirmed=S.CONFIRMED, confirmation=list(S.CONFIRMATION), opinion=S.OPINION, not_confirmed=S.NOT_CONFIRMED,
+                   bears_on=S.BEARS_ON, accepted=S.ACCEPTED, accepted_at=list(S.ACCEPTED_AT), released=B["released"], map_dependencies=B["proj"],
                    given=S.GIVEN, also=S.ALSO, exits={k: list(v) for k, v in S.EXITS.items()}, exit_kinds=S.EXIT_KINDS)
         (ARC / "PROGRAMME.json").write_text(json.dumps(out, indent=1, ensure_ascii=False, sort_keys=True) + "\n", encoding="utf-8")
         print("written: PROGRAMME.md, PROGRAMME.json")

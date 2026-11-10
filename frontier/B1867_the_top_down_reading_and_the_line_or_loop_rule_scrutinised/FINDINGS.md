@@ -16,7 +16,7 @@ symmetries; no measured number. 0 of 19.*
 - **The seat's two symmetry facts are instances of one law.** Main states the law and tests it on all 105 classes of
   words up to length 10. Half of it is on the record already (B134).
 - **What the programme gains.** Each of its 38 inputs now carries the route these notes name for it, if they name
-  one. An exit is on the table for 12 of the 38. None of the 12 is proved or built.
+  one. An exit is on the table for 12 of the 38. None of the 12 is proved or built. [Corrected 2026-11-10 (B1873, the advisor seat's read): 8, not 12 — three of the forcing arguments are one clause short by B1867's own finding and one was withdrawn by its author; of the 8, five are back-edges that are named and not built.]
 - **The owner confirmed the first eleven relayed rulings to main while this arc was being written** ("yes, but i
   also wanr your opinion on all"; P-758). The seat relayed two more after main had asked; those two are asked. This
   arc acts on none of the thirteen. Carrying out the eleven is registered (P-767), and the page the seat asks main to

@@ -299,3 +299,22 @@ row. Three overstatements were corrected in place, each by its own instrument:
   THE_FINAL_ACTS_BAR (S305e).
 
 No living surface repeats them as live claims. No row added.
+
+**Currency (read 2026-11-10, S306o, through B1873). NOT CURRENT: one row is owed.** The window B1843–B1873 corrected
+several statements. Each was read against the tracked corpus by a search for its phrase.
+- **Owed a row and a sweep: "the unique metallic grammar"** (B997's uniqueness clause; refuted at m = 4 by B1859, where
+  the door set is {1, 4}). The phrase stands in 80 tracked files outside the history logs. Some are records of the
+  correction (GENESIS v1.63, the error ledger, the register's row P-318); most are older arcs and pages that state it as
+  a claim. No row is added today, because a row turns the sweep red on every one of them at once and each needs a dated
+  bracket on its own line. That sweep is the remaining half of the audit's finding E1 and of P-318; this registry is not
+  current until it is done.
+- **Corrected in place, and no living surface repeats them as live claims** (searched): B567's "21 distinct
+  eigenvalues" (20; B1862); the apex of L⁶RLR "at 1/2 + 3.65i in its real part" (Re 0; P-751, corrected on B1852's
+  verdict line); B952's lemma without the word "commuting" (B1862; carried to the law map's row at B1870's landing);
+  main's exploratory sentence that one coherent lift is kept by every move (withdrawn at B1866 before it was banked);
+  B1870's sentence that a script the audit says fails does not (dated correction at B1873).
+- **Corrected in one place and not yet in the others:** "invisible to every state" as either sign of the charge premise
+  (B1856 corrected by B1862; B1853, B1855, B1857 and the read-out rule's page still state the old form). It is a debt
+  (P-772), found by the advisor seat's second re-audit. And "an exit is on the table for 12" (8; B1873), carried at
+  that landing to the five surfaces that stated it.
+

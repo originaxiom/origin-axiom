@@ -40,7 +40,7 @@ P("WP-0.1", "C0", "False or stale statements in foundation and front documents",
 P("WP-0.2", "C0", "Debts that bear on current work", "Do the value frame's candidate and the live prediction rest on anything unchecked?", "DERIVE",
   "P-355 first (the lepton–down identity's lines), with the agy lane's Theorem D verified on main", "the class is empty", "main", [], "NOT STARTED", ["P-355", "P-747"], [])
 P("WP-0.3", "C0", "Checks that cannot fail, instruments and seal claims", "Can every lock under a banked result fail?", "DERIVE",
-  "the register's ranked debts of this class", "the class is empty", "main", [], "NOT STARTED", [], [])
+  "the register's ranked debts of this class", "the class is empty", "main", [], "STARTED", [], [])
 P("WP-0.4", "C0", "Unverified premises and seat results under banked results", "Does a banked structural result rest on a seat's word?", "VERIFY",
   "the register's ranked debts of this class", "the class is empty", "main", [], "NOT STARTED", [], [])
 P("WP-0.5", "C0", "A green full suite on a fresh clone", "Does everything reproduce for a reader with only the repository?", "DERIVE",
@@ -160,7 +160,7 @@ P("WP-3.1", "C3", "The kernel theorem, on main",
 P("WP-3.2", "C3", "The register-to-field join",
   "Is the lanes' three the weave's three?", "DECIDE",
   "the algebraic half is done on main (B1866): the weave's triplet is the odd twist chi_15 of the symmetric square of the level-2 doublet, a module of the double cover, and the conjugate of the squared theta constants over the cube of eta; on one background only the stabiliser acts, so the first outcome is refuted there; the lanes' one-form triplet over the three backgrounds is the weave's after an odd character -- chi_9 for the signs the agy lane's relay states, chi_21 for the matrices it inserts, which disagree (the physical lane's finding, verified exactly in B1866 § 6). The physical half is open: which signs the one-form line carries; whether the odd character is physical, that is, whether the modes carry the half-weight; and the stabiliser's action on the actual harmonic modes of a background, with its transport between the three (which needs the kernel theorem)",
-  "the odd character ruled physical or not by a derivation; then an arc with the exact statement, the family structure it implies, and whether a count may be called a family count", "main", ["WP-3.1"], "STARTED",
+  "the odd character ruled physical or not by a derivation; then an arc with the exact statement, the family structure it implies, and whether a count may be called a family count", "main", [], "STARTED",
   ["P-753"], ["E:J5", "MC:GEN", "D:01"])
 P("WP-3.3", "C3", "The weak currents and the hand",
   "Do the charged vectors pair with left and right currents of equal size, and what, if anything, breaks that?", "DECIDE",
@@ -182,7 +182,7 @@ P("WP-3.5", "C3", "Anomalies and unwanted sectors",
 P("WP-4.1", "C4", "The modulus",
   "What fixes τ?", "DERIVE",
   "after the weight: the read-out rule's four choices, each derived or declared; the candidate's price under the random-subset control; main's own instrument past k = 2",
-  "τ placed by a derived principle and priced; or two real inputs declared, and the value frame's τ stays fitted", "main; the web seat", ["WP-1.6", "WP-2.5"], "STARTED",
+  "τ placed by a derived principle and priced; or two real inputs declared, and the value frame's τ stays fitted", "main; the web seat", ["WP-1.6"], "STARTED",
   ["P-714", "P-739", "P-744"], ["A:A01", "E:L04", "T:FRAMING", "T:CHARGE5", "T:IM", "T:PRICED", "FL:04"])
 P("WP-4.2", "C4", "The quantum regime and the level",
   "At what level is the theory quantised, and is the level's state space physical?", "DECIDE",
@@ -190,7 +190,7 @@ P("WP-4.2", "C4", "The quantum regime and the level",
   ["P-721", "P-731"], ["SC:PREMISE"])
 P("WP-4.3", "C4", "The scale",
   "Which ratios of scales does the theory claim, and what fixes them?", "DECIDE",
-  "one outside unit is unavoidable and is declared; for a ratio, the two candidates left on the scale card", "each claimed ratio derived, or named as an input; no scale assigned as a last cosmetic step", "main; the web seat", ["WP-4.2", "WP-1.7"], "STARTED",
+  "one outside unit is unavoidable and is declared; for a ratio, the two candidates left on the scale card", "each claimed ratio derived, or named as an input; no scale assigned as a last cosmetic step", "main; the web seat", [], "STARTED",
   ["P-719", "P-722"], ["SC:R2", "SC:R4", "SC:RATIO", "A:A12", "FL:13", "FL:21"])
 P("WP-4.4", "C4", "The parameter inventory and the tests' framing",
   "What exactly is claimed, in which definition and scheme, and by what test is it graded?", "DECLARE",
@@ -218,7 +218,7 @@ P("WP-5.1", "C5", "The certificate", "What must every arc that a value uses carr
 P("WP-5.2", "C5", "The upstream audit", "For each claimed prediction, is everything under it proved, or a declared input?", "DERIVE",
   "the map's own table of what each headline result rests on, extended to each claimed prediction", "no open, lane-graded or debt node upstream of a prediction", "main", ["WP-0.6", "WP-0.7", "WP-0.12", "@C1", "@C2", "@C3", "@C4"], "NOT STARTED", [], [])
 P("WP-5.3", "C5", "The sealed card", "Is the prediction fixed before the comparison, with its power known?", "DERIVE",
-  "the foundation's rule for earning by prediction (seven conditions), the input-completeness ledger's checklist filled before the seal, the look count from the look ledger, and the power computed from the null alone", "a sealed card that meets all seven conditions, with its certificate", "main; the owner", ["WP-5.1", "WP-5.2", "WP-4.4"], "NOT STARTED", ["P-709"], ["D:13"])
+  "the foundation's rule for earning by prediction (seven conditions), the input-completeness ledger's checklist filled before the seal, the look count from the look ledger, and the power computed from the null alone", "a sealed card that meets all seven conditions, with its certificate", "main; the owner", ["WP-5.1", "WP-5.2", "WP-4.4", "WP-0.1", "WP-0.2", "WP-0.4", "WP-0.5", "WP-0.9"], "NOT STARTED", ["P-709"], ["D:13"])
 P("WP-5.4", "C5", "The independent challenge", "Has someone who did not write it tried to break it?", "VERIFY",
   "a hostile referee and a third opinion for every positive value match (the standing directive); a fresh-clone reproduction by a seat that did not author", "no unanswered finding", "another seat", ["WP-5.3"], "NOT STARTED", [], ["D:14"])
 P("WP-6.1", "C6", "Calibration and comparison", "With one declared unit, do the sealed predictions match?", "OWNER",
@@ -235,6 +235,11 @@ GIVEN = {
     "WP-3.3": ["WP-1.2", "WP-1.8", "WP-4.1", "WP-1.4"],     # and the hand of the grammar (the swap, the orientation)
     # selection and input reduction is blocked by the lanes' own question of what selects the background
     "WP-1.5": ["WP-2.2"],
+    # worked ahead of what they rest on (the advisor seat's read as a non-author, B1873): each is started while the package
+    # named has not started, so its result is conditional on that package, which is what GIVEN records
+    "WP-3.2": ["WP-3.1"],            # the triplet's identification is banked; which modes exist on a background needs the kernel theorem
+    "WP-4.1": ["WP-2.5"],            # the read-out is worked on one history; the source and the dynamics are not
+    "WP-4.3": ["WP-4.2", "WP-1.7"],  # the scale card is drafted; the quantum regime and the dictionary are not settled
 }
 
 # ALSO: a node whose settling takes a second package. Each node has one primary package (the P(...) lists); these are named beside it.
@@ -263,6 +268,7 @@ DEBT_TO_WP = {
     "P-698": "WP-0.4",   # one of frame B's joints stays unconverted until main runs its own geometry there
     "P-757": "WP-0.7",   # the advisor seat's audit: enforcement first; its other classes are assigned finding by finding
     "P-772": "WP-0.7",   # its second re-audit: what the seals do not yet protect
+    "P-773": "WP-0.12",  # its read of this page as a non-author: the debts and the identifications joined to the map
 }
 
 # ---------------------------------------------------------------- the certificate
@@ -448,9 +454,14 @@ F("W", "WP-1.6", [
 # of the 34 findings nobody had reproduced the exact commands that decide it; main re-ran every command itself before a state
 # changed here.  The entries above are kept as they were written; U() records the new state and keeps the old one beside it.
 def U(fid, state, note):
+    """a finding's new state; 'was' keeps the state and note it was first given, 'trail' every state it has had since, in order"""
     assert fid in FINDINGS and state in FINDING_STATES and note
-    FINDINGS[fid]["was"] = [FINDINGS[fid]["state"], FINDINGS[fid]["note"]]
-    FINDINGS[fid]["state"], FINDINGS[fid]["note"] = state, note
+    f = FINDINGS[fid]
+    if "was" not in f:
+        f["was"] = [f["state"], f["note"]]
+    else:
+        f.setdefault("trail", []).append([f["state"], f["note"]])
+    f["state"], f["note"] = state, note
 
 
 _R = "main re-ran the deciding commands itself (B1870): "
@@ -492,6 +503,51 @@ U("X4", "REPRODUCED", _R + "1283 of 1570 verdict files carry no scope, and none 
 _P = "main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. "
 for _fid in ("G6", "G7", "G8", "G9", "G10", "G14", "L7"):
     U(_fid, "REPRODUCED", _P + "Earlier, by main's reader: " + FINDINGS[_fid]["note"])
+
+# B1873 (2026-11-10): THE PROGRAMME READ BY A NON-AUTHOR (the advisor seat's READ_OF_B1861_AS_A_NON_AUTHOR.md).  Its cause: the
+# seal's rule reads the map, and the audit's findings were not joined to it.  Three repairs here; the rest is registered (P-773).
+# (1) Two findings were filed by the audit's section letter where their fix is another package's work (B1870 § 5 says so):
+FINDINGS["X3"]["wp"] = "WP-0.12"      # closes when the count is computed and not typed
+FINDINGS["X4"]["wp"] = "WP-0.11"      # closes with the declared domain
+# (2) What each finding bears on: arcs, nodes of the map, tracked paths, or REPOSITORY for a property of the repository as a whole
+# that a seal depends on (gates, locks, the suite, the look ledger, the nulls, the verdict files' fields).  The builder refuses a
+# finding that names nothing, and holds every package with a REPOSITORY finding upstream of the sealed card.
+REPO = "REPOSITORY"
+BEARS_ON = {
+    "E1": ["B997"], "E2": ["docs/THEOREM_LEDGER.md"], "E3": ["B1856", "B1853", "B1855", "B1857", "docs/THE_TAU_READOUT_RULE.md"],
+    "E4": ["B952"], "E5": ["B892"], "E6": ["B862"], "E7": ["B1028"], "E8": ["B854"], "E9": ["B1854"], "E10": ["README.md"],
+    "E11": ["docs/LITERATURE_CONTEXT_2026-07-15.md", "CLAIMS.md"], "E12": ["B884", "B915", "B1852", "B1853", "B1857"], "E13": ["B567"],
+    "G1": [REPO], "G2": [REPO], "G3": [REPO], "G4": [REPO], "G5": [REPO], "G6": [REPO], "G7": [REPO], "G8": [REPO], "G9": [REPO],
+    "G10": [REPO], "G11": [REPO], "G12": [REPO], "G13": [REPO], "G14": [REPO],
+    "L1": [REPO], "L2": [REPO], "L3": ["docs/THEOREM_LEDGER.md", "B730", "B1096"], "L4": ["B1854"], "L5": ["B1847"], "L6": [REPO],
+    "L7": [REPO], "L8": ["B866", "B892", "B952"], "L9": [REPO], "L10": [REPO, "B1464", "B1690"],
+    "M1": [REPO], "M2": ["G:ROOT", "docs/UNIQUENESS_THEOREM.md", "docs/THE_CLAIM.md"], "M3": ["G:ROOT"], "M4": ["docs/THEOREM_LEDGER.md"],
+    "M5": ["TAG:LAMBDA", "GENESIS.md", "docs/THE_WEAVE.md"], "M6": ["B1221", "papers/P3_THE_PAPER/SPEC.md"], "M7": ["B1855"], "M8": ["B1850"],
+    "M9": ["papers/P3_THE_PAPER/EXTERNAL_REVIEW_2026-09-09.md"], "M10": ["docs/FALSIFIER_REGISTER.md"], "M11": ["scripts/views/generate.py"],
+    "P1": ["V:SIX", "B1823", "B1825", "B1838", "docs/THE_PROGRAMME_SO_FAR.md", "docs/THE_FINAL_ATTACK_2026-10-29.md"],
+    "P2": ["docs/POINT_REGISTER.md"], "P3": ["B861", "B862", "B863", "B994", "B1028"], "P4": ["B653", "B723", "CLAIMS.md"],
+    "P5": ["docs/THE_TAU_READOUT_RULE.md"], "P6": ["docs/INDEX.md"], "P7": [REPO],
+    "R1": [REPO], "R2": [REPO],
+    "V1": [REPO, "V:SIX", "B1726", "B1753"], "V2": [REPO, "V:SIX", "B1720", "B1735"], "V3": [REPO, "B1757"], "V4": [REPO, "V:SIX"],
+    "V5": [REPO, "docs/LOOK_LEDGER.md", "B1658", "B1724"],
+    "W1": [REPO], "W2": [REPO], "W3": ["TERMINOLOGY.md"], "W4": [REPO], "W5": ["B1291"], "W6": ["W:LAW"], "W7": ["W:CLOCK"],
+    "X1": ["GOVERNANCE.md", "CLAIMS.md"], "X2": ["GOVERNANCE.md", "GENESIS.md", "CLAIMS.md"],
+    "X3": [REPO, "MC:PRICE", "B1266", "outside_bench/certificates/the_price_is_twelve.py"], "X4": [REPO],
+}
+# (3) "Fixed" is main's word.  The re-audit's verdict is the advisor seat's, kept apart, with the commit of main it read.
+ACCEPTED_AT = ("ab97082c0", "REAUDIT_2_2026-11-10.md")
+ACCEPTED = {
+    "G1": "accepted, with three residuals (the log's archives; a waiver hides its violation; history before the rule)",
+    "G2": "accepted for what it covers; the scripts a seal hashed are unguarded",
+    "G3": "accepted",
+    "G4": "accepted; one case open (a rule committed after its record)",
+    "E13": "accepted", "E6": "accepted", "E10": "accepted", "L5": "accepted",
+    "E3": "accepted in the arc; not carried to the three arcs and the page that state the old form",
+    "E4": "partly, as main says", "E8": "partly, as main says", "E11": "partly, as main says",
+}
+U("E3", "PARTLY FIXED", "B1856 says that invisible to every state is E = +1, gives the split 338 and 305 and names parity superselection (B1862). Not carried to B1853, B1855, B1857 or the read-out rule's page, which still state the old form with no pointer: main's own propagation fault, found by the seat's second re-audit (P-772)")
+U("X3", "REPRODUCED", "main re-ran it (B1873): the script the foundation cites for the live price, outside_bench/certificates/the_price_is_twelve.py, exits 1 on main ('24 ROWS OUTSTANDING' is not stated in the verdict page) and nothing runs it; the other script for the same price, B1266's, passes on a typed 4. Both halves of the finding stand. B1870 had tested the second script, the finding having named none")
+U("L10", "REPRODUCED", "main re-ran it in a clean checkout (B1873): two test files pass and leave a tracked evidence file modified (B1464's seal census); the seat saw a second file change on its machine")
 
 # the owner's rulings of 2026-11-10 AS RELAYED by the advisor seat. The relay's own rule, and main's: each is confirmed with the
 # owner once before main acts on it. Main asked on 2026-11-10 about the eleven then relayed; the owner answered main the same day,
@@ -648,7 +704,8 @@ I("the generations as three images of one value", {"identification": 1}, ["FL:10
 I("the class of lines", {"discrete": 1}, ["FL:08"], "flat lines rather than centre Wilson lines is the choice; the cutoff on their order is a rule of reach (FL-18)")
 I("θ̄", {"real": 1}, ["FL:16"], "graded an input by the record (Review 74): the frame leaves it free")
 I("the framing of the read-out", {"discrete": 1}, ["T:FRAMING"])
-I("the charge premise at level five", {"discrete": 1}, ["T:CHARGE5"])
+I("the charge premise at level five", {"bit": 1, "discrete": 1}, ["T:CHARGE5"],
+  "two choices under one name (B1869): which sense of 'detect', the whole level or the line, a bit (P-721); and which levels count, a choice among sets of levels")
 I("minimisation as the use of the action", {"discrete": 1}, ["T:MINIM"])
 I("point or weight", {"bit": 1}, ["T:POINT-WEIGHT"])
 I("the chiral premise", {"bit": 1}, ["SC:PREMISE"])
@@ -663,7 +720,8 @@ I("the content that runs", {"identification": 1}, ["SC:R4"], "the Standard Model
 # grade: an argument is not a proof and a named back-edge is not a built one.
 EXIT_KINDS = {
     "KEPT": "the principle itself: a parameter-free theory keeps it, stated",
-    "FORCING ARGUED": "an argument that the principle forces it is written down; not proved",
+    "FORCING ARGUED": "an argument that the principle forces it is written down, with no objection on this page; not proved",
+    "ONE CLAUSE SHORT": "a forcing argument is written down, and main has shown the clause it lacks; not an exit as written",
     "ADMITTED": "the principle allows it and does not force it; no route is named",
     "PRESSED": "the notes argue against it standing as an input in its present form; no route is named",
     "RIGID": "fixed by the geometry once the history is fixed; what stays chosen is named",
@@ -678,12 +736,12 @@ EXITS = {
     "the method (PF3)": ("KEPT", "not addressed; a method, not a number."),
     "two records": ("ADMITTED", "the ledger: admitted, not forced by the words. Three or more records is the alternative (B1679)."),
     "the unit shears": ("ADMITTED", "the ledger: admitted; nothing in the words excludes longer shears. The loop's test on the silver and bronze backgrounds is the test named."),
-    "no period": ("FORCING ARGUED", "the ledger: finite order is a cancellation that completes, a fixed direction a side that never changes. Main (B1867): the formal statement removes finite order and not the fixed direction; a single shear meets its form of existing at every level. One clause short."),
-    "the carrier": ("FORCING ARGUED", "the ledger: if the difference between the two orders is not cancelled the group is free, and the puncture follows (the SM seat's B1380, not verified on main). Main (B1867): not commuting does not give free; a clause that nothing at all cancels is needed."),
-    "reversible updates": ("FORCING ARGUED", "the ledger: an act that merges two sides ends the distinction. One line; no alternative is exhibited."),
+    "no period": ("ONE CLAUSE SHORT", "the ledger: finite order is a cancellation that completes, a fixed direction a side that never changes. Main (B1867): the formal statement removes finite order and not the fixed direction; a single shear meets its form of existing at every level. One clause short."),
+    "the carrier": ("ONE CLAUSE SHORT", "the ledger: if the difference between the two orders is not cancelled the group is free, and the puncture follows (the SM seat's B1380, not verified on main). Main (B1867): not commuting does not give free; a clause that nothing at all cancels is needed."),
+    "reversible updates": ("ADMITTED", "the ledger gave one line for it (an act that merges two sides ends the distinction) with no alternative exhibited; its author has withdrawn it as an exit (the seat's read of this page)."),
     "inverse moves are legal": ("FORCING ARGUED", "adopted by the owner on B1662's argument; the ledger agrees: there must be something to cancel with."),
     "positivity: the side of the mirror": ("FORCING ARGUED", "the ledger: forced up to the sign. Main (B1867): the normal form is a theorem, checked on every hyperbolic matrix with entries up to five; the sign is a separate bit, and the selection criterion decides it if that criterion stands."),
-    "the selection criterion": ("FORCING ARGUED", "the ledger: a fixed character is a place where nothing happened. Main (B1867): as an exclusion this removes every departure too (the run of six fixes twenty); as a minimum it is the reading GENESIS already grades an interpretation. LR is the one word with a single fixed character, so this row carries the whole selection of the object. For the departure, the principle read as 'the least that no counted level detects' picks the run of six only when the level is put in (B1869)."),
+    "the selection criterion": ("ONE CLAUSE SHORT", "the ledger: a fixed character is a place where nothing happened. Main (B1867): as an exclusion this removes every departure too (the run of six fixes twenty); as a minimum it is the reading GENESIS already grades an interpretation. LR is the one word with a single fixed character, so this row carries the whole selection of the object. For the departure, the principle read as 'the least that no counted level detects' picks the run of six only when the level is put in (B1869)."),
     "the orientation": ("PRESSED", "the ledger: the principle does not force it and may speak against it. The non-orientable sibling is the alternative. Verified on main (B1871): if the tick, the owner's founding rule, is an act, both sheets exist and this is no choice; it supplies no hand. Asked of the owner (P-771)."),
     "which family is the object": ("UNTOUCHED", ""),
     "the dictionary's link Λ": ("DICTIONARY", ""),

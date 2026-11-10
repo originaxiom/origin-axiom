@@ -25,7 +25,7 @@ by a quote that the builder checks.*
 | LANE-PROPOSED | a seat's hand proof, count or estimate, unreviewed; not verified on main | 7 |
 | LANE-INPUT | an input the seat's own ledger prices as supplied, unselected or unearned | 7 |
 | DUTY | something the full goal requires and nobody has done | 16 |
-| DEBT | a result the record uses is owed a check or a correction | 80 |
+| DEBT | a result the record uses is owed a check or a correction | 81 |
 | CLOSURE | one missing dependency under several names | 11 |
 
 ## 0. The principle
@@ -376,3 +376,4 @@ by a quote that the builder checks.*
 | 78 | P-733 | added at S306k (the web seat's open-book relay) | B1010's consolidation list cites B132's 'm = 1 uniquely coherent', computed under a same-handed convention whose m = 1 word is not LR. |
 | 79 | P-757 | added at S306o (the advisor seat's audit, 2026-11-10) | the gates, seals and locks under every banked result: 24 of the audit's 27 planted violations pass undetected on main, the two it grades critical among them (a committed deletion from the progress log; an edit of a sealed file after its seal). |
 | 80 | P-772 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | what the seals do not yet protect: the scripts a seal hashed, a rule under another name or one folder deeper, a rule committed after its record; a waiver that hides its violation; the log's archives; and one correction of main's not carried to the arcs that state the old form. |
+| 81 | P-773 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | the programme's own rule for a seal cannot be evaluated: 63 of 80 debts and the unearned identifications are joined to nothing on the map, no choice carries its alternatives, and three prices stand unreconciled. |

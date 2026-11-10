@@ -1,10 +1,10 @@
 written: PROGRAMME.md, PROGRAMME.json
 {
- "map_nodes": 269,
+ "map_nodes": 270,
  "nodes_needing_a_path": 131,
  "nodes_assigned": 131,
  "conditional_results": 19,
- "debts": 80,
+ "debts": 81,
  "packages": 43,
  "packages_by_obligation": {
   "C0": 12,
@@ -16,8 +16,8 @@ written: PROGRAMME.md, PROGRAMME.json
   "C6": 1
  },
  "packages_by_status": {
-  "NOT STARTED": 27,
-  "STARTED": 15,
+  "NOT STARTED": 26,
+  "STARTED": 16,
   "DONE": 1
  },
  "packages_by_intent": {
@@ -33,7 +33,7 @@ written: PROGRAMME.md, PROGRAMME.json
   "WP-3.5",
   "WP-4.5"
  ],
- "waves": 9,
+ "waves": 8,
  "map_dependencies_between_packages": 21,
  "packages_that_close_together": [
   [
@@ -45,35 +45,53 @@ written: PROGRAMME.md, PROGRAMME.json
  "independent_choices": 38,
  "budget": {
   "axiom": 8,
-  "bit": 8,
+  "bit": 9,
   "discrete": 16,
   "real": 5,
   "ansatz": 1,
   "identification": 7
  },
- "budget_items": 45,
+ "budget_items": 46,
  "rules_of_the_comparison": 12,
  "lanes_supplied_inputs": 7,
  "present_inputs": 64,
  "candidate_frame_joints": 13,
  "exits_by_kind": {
   "KEPT": 3,
-  "FORCING ARGUED": 6,
-  "ADMITTED": 2,
+  "FORCING ARGUED": 2,
+  "ONE CLAUSE SHORT": 3,
+  "ADMITTED": 3,
   "PRESSED": 4,
   "RIGID": 1,
   "BACK-EDGE NAMED": 5,
   "DICTIONARY": 6,
   "UNTOUCHED": 11
  },
- "inputs_with_an_exit_on_the_table": 12,
+ "inputs_with_an_exit_on_the_table": 8,
+ "forcing_arguments_one_clause_short": 3,
+ "findings_that_bear_on_the_repository_as_a_whole": 34,
+ "findings_that_name_arcs_nodes_or_pages_only": 39,
+ "debts_on_the_map_joined_to_nothing": 64,
+ "packages_the_sealed_card_must_wait_on_for_that": [
+  "WP-0.1",
+  "WP-0.11",
+  "WP-0.12",
+  "WP-0.2",
+  "WP-0.3",
+  "WP-0.4",
+  "WP-0.5",
+  "WP-0.7",
+  "WP-0.9"
+ ],
+ "findings_with_a_re_audit_verdict": 12,
+ "fixed_and_not_yet_re_audited": [],
  "audit_findings": 73,
  "audit_findings_by_state": {
   "OPEN": 1,
-  "READER": 5,
-  "REPRODUCED": 45,
-  "PARTLY FIXED": 13,
-  "FIXED": 9
+  "READER": 4,
+  "REPRODUCED": 46,
+  "PARTLY FIXED": 14,
+  "FIXED": 8
  },
  "relayed_rulings": 17,
  "rulings_confirmed_by_the_owner_to_main": 11,

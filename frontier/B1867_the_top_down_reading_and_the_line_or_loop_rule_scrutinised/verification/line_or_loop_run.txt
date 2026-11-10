@@ -1,4 +1,4 @@
-the map: 269 nodes, 286 edges, 11 edge kinds; the budget's inputs on it: 51 nodes
+the map: 270 nodes, 286 edges, 11 edge kinds; the budget's inputs on it: 51 nodes
 edges whose target is an input, by kind: answers 1, applies-under 13, bears-on 4, reads 2, requires 39, same-as 2
   of a determining kind (answers, follows-from, candidate-for): 1
 every edge of a determining kind on the map (8):

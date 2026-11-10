@@ -64,7 +64,9 @@ def test_the_programme_carries_these_states_with_the_old_ones_kept():
     assert states.get("OPEN", 0) <= 1 and states.get("READER", 0) <= 5
     partly = [r["id"] for r in REPORTS if r["checker_verdict"] == "PARTLY"]
     for fid in partly:
-        assert "in part" in F[fid]["note"] or F[fid]["state"] in ("PARTLY FIXED", "FIXED"), fid
+        # a later arc may have re-examined a finding this arc confirmed in part (its trail then holds this arc's note)
+        notes = [F[fid]["note"]] + [n for _, n in F[fid].get("trail", [])]
+        assert any("in part" in n for n in notes) or F[fid]["state"] in ("PARTLY FIXED", "FIXED"), fid
 
 
 def _state(fid):

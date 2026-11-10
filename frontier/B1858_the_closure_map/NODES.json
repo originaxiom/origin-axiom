@@ -6493,5 +6493,29 @@
    "P-772": "QUEUED"
   },
   "weave_or_thread": "n/a"
+ },
+ {
+  "id": "P:773",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "the programme's own rule for a seal cannot be evaluated: 63 of 80 debts and the unearned identifications are joined to nothing on the map, no choice carries its alternatives, and three prices stand unreconciled.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-773 — "
+   ]
+  ],
+  "rows": [
+   "P-773"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 81,
+  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "rows_live": {
+   "P-773": "QUEUED"
+  },
+  "weave_or_thread": "n/a"
  }
 ]

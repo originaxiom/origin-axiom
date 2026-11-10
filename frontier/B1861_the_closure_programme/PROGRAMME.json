@@ -1,4 +1,22 @@
 {
+ "accepted": {
+  "E10": "accepted",
+  "E11": "partly, as main says",
+  "E13": "accepted",
+  "E3": "accepted in the arc; not carried to the three arcs and the page that state the old form",
+  "E4": "partly, as main says",
+  "E6": "accepted",
+  "E8": "partly, as main says",
+  "G1": "accepted, with three residuals (the log's archives; a waiver hides its violation; history before the rule)",
+  "G2": "accepted for what it covers; the scripts a seal hashed are unguarded",
+  "G3": "accepted",
+  "G4": "accepted; one case open (a rule committed after its record)",
+  "L5": "accepted"
+ },
+ "accepted_at": [
+  "ab97082c0",
+  "REAUDIT_2_2026-11-10.md"
+ ],
  "also": {
   "D:01": [
    "WP-1.3",
@@ -51,6 +69,275 @@
   ],
   "T:POINT-WEIGHT": [
    "WP-4.1"
+  ]
+ },
+ "bears_on": {
+  "E1": [
+   "B997"
+  ],
+  "E10": [
+   "README.md"
+  ],
+  "E11": [
+   "docs/LITERATURE_CONTEXT_2026-07-15.md",
+   "CLAIMS.md"
+  ],
+  "E12": [
+   "B884",
+   "B915",
+   "B1852",
+   "B1853",
+   "B1857"
+  ],
+  "E13": [
+   "B567"
+  ],
+  "E2": [
+   "docs/THEOREM_LEDGER.md"
+  ],
+  "E3": [
+   "B1856",
+   "B1853",
+   "B1855",
+   "B1857",
+   "docs/THE_TAU_READOUT_RULE.md"
+  ],
+  "E4": [
+   "B952"
+  ],
+  "E5": [
+   "B892"
+  ],
+  "E6": [
+   "B862"
+  ],
+  "E7": [
+   "B1028"
+  ],
+  "E8": [
+   "B854"
+  ],
+  "E9": [
+   "B1854"
+  ],
+  "G1": [
+   "REPOSITORY"
+  ],
+  "G10": [
+   "REPOSITORY"
+  ],
+  "G11": [
+   "REPOSITORY"
+  ],
+  "G12": [
+   "REPOSITORY"
+  ],
+  "G13": [
+   "REPOSITORY"
+  ],
+  "G14": [
+   "REPOSITORY"
+  ],
+  "G2": [
+   "REPOSITORY"
+  ],
+  "G3": [
+   "REPOSITORY"
+  ],
+  "G4": [
+   "REPOSITORY"
+  ],
+  "G5": [
+   "REPOSITORY"
+  ],
+  "G6": [
+   "REPOSITORY"
+  ],
+  "G7": [
+   "REPOSITORY"
+  ],
+  "G8": [
+   "REPOSITORY"
+  ],
+  "G9": [
+   "REPOSITORY"
+  ],
+  "L1": [
+   "REPOSITORY"
+  ],
+  "L10": [
+   "REPOSITORY",
+   "B1464",
+   "B1690"
+  ],
+  "L2": [
+   "REPOSITORY"
+  ],
+  "L3": [
+   "docs/THEOREM_LEDGER.md",
+   "B730",
+   "B1096"
+  ],
+  "L4": [
+   "B1854"
+  ],
+  "L5": [
+   "B1847"
+  ],
+  "L6": [
+   "REPOSITORY"
+  ],
+  "L7": [
+   "REPOSITORY"
+  ],
+  "L8": [
+   "B866",
+   "B892",
+   "B952"
+  ],
+  "L9": [
+   "REPOSITORY"
+  ],
+  "M1": [
+   "REPOSITORY"
+  ],
+  "M10": [
+   "docs/FALSIFIER_REGISTER.md"
+  ],
+  "M11": [
+   "scripts/views/generate.py"
+  ],
+  "M2": [
+   "G:ROOT",
+   "docs/UNIQUENESS_THEOREM.md",
+   "docs/THE_CLAIM.md"
+  ],
+  "M3": [
+   "G:ROOT"
+  ],
+  "M4": [
+   "docs/THEOREM_LEDGER.md"
+  ],
+  "M5": [
+   "TAG:LAMBDA",
+   "GENESIS.md",
+   "docs/THE_WEAVE.md"
+  ],
+  "M6": [
+   "B1221",
+   "papers/P3_THE_PAPER/SPEC.md"
+  ],
+  "M7": [
+   "B1855"
+  ],
+  "M8": [
+   "B1850"
+  ],
+  "M9": [
+   "papers/P3_THE_PAPER/EXTERNAL_REVIEW_2026-09-09.md"
+  ],
+  "P1": [
+   "V:SIX",
+   "B1823",
+   "B1825",
+   "B1838",
+   "docs/THE_PROGRAMME_SO_FAR.md",
+   "docs/THE_FINAL_ATTACK_2026-10-29.md"
+  ],
+  "P2": [
+   "docs/POINT_REGISTER.md"
+  ],
+  "P3": [
+   "B861",
+   "B862",
+   "B863",
+   "B994",
+   "B1028"
+  ],
+  "P4": [
+   "B653",
+   "B723",
+   "CLAIMS.md"
+  ],
+  "P5": [
+   "docs/THE_TAU_READOUT_RULE.md"
+  ],
+  "P6": [
+   "docs/INDEX.md"
+  ],
+  "P7": [
+   "REPOSITORY"
+  ],
+  "R1": [
+   "REPOSITORY"
+  ],
+  "R2": [
+   "REPOSITORY"
+  ],
+  "V1": [
+   "REPOSITORY",
+   "V:SIX",
+   "B1726",
+   "B1753"
+  ],
+  "V2": [
+   "REPOSITORY",
+   "V:SIX",
+   "B1720",
+   "B1735"
+  ],
+  "V3": [
+   "REPOSITORY",
+   "B1757"
+  ],
+  "V4": [
+   "REPOSITORY",
+   "V:SIX"
+  ],
+  "V5": [
+   "REPOSITORY",
+   "docs/LOOK_LEDGER.md",
+   "B1658",
+   "B1724"
+  ],
+  "W1": [
+   "REPOSITORY"
+  ],
+  "W2": [
+   "REPOSITORY"
+  ],
+  "W3": [
+   "TERMINOLOGY.md"
+  ],
+  "W4": [
+   "REPOSITORY"
+  ],
+  "W5": [
+   "B1291"
+  ],
+  "W6": [
+   "W:LAW"
+  ],
+  "W7": [
+   "W:CLOCK"
+  ],
+  "X1": [
+   "GOVERNANCE.md",
+   "CLAIMS.md"
+  ],
+  "X2": [
+   "GOVERNANCE.md",
+   "GENESIS.md",
+   "CLAIMS.md"
+  ],
+  "X3": [
+   "REPOSITORY",
+   "MC:PRICE",
+   "B1266",
+   "outside_bench/certificates/the_price_is_twelve.py"
+  ],
+  "X4": [
+   "REPOSITORY"
   ]
  },
  "certificate": [
@@ -241,14 +528,16 @@
   "P-698": "WP-0.4",
   "P-733": "WP-0.1",
   "P-757": "WP-0.7",
-  "P-772": "WP-0.7"
+  "P-772": "WP-0.7",
+  "P-773": "WP-0.12"
  },
  "exit_kinds": {
   "ADMITTED": "the principle allows it and does not force it; no route is named",
   "BACK-EDGE NAMED": "a condition computed downstream that the choice must satisfy is named; none is built",
   "DICTIONARY": "an identification: the loop does not pay it; it is earned only by a sealed prediction",
-  "FORCING ARGUED": "an argument that the principle forces it is written down; not proved",
+  "FORCING ARGUED": "an argument that the principle forces it is written down, with no objection on this page; not proved",
   "KEPT": "the principle itself: a parameter-free theory keeps it, stated",
+  "ONE CLAUSE SHORT": "a forcing argument is written down, and main has shown the clause it lacks; not an exit as written",
   "PRESSED": "the notes argue against it standing as an input in its present form; no route is named",
   "RIGID": "fixed by the geometry once the history is fixed; what stays chosen is named",
   "UNTOUCHED": "the three notes name no route; the package holds the record's own"
@@ -267,7 +556,7 @@
    "the design's fork: one history by least action keeps this input; all allowed histories together drops it and owes a definition of their joint read-out. Length and volume disagree on what is selected (B1857)."
   ],
   "no period": [
-   "FORCING ARGUED",
+   "ONE CLAUSE SHORT",
    "the ledger: finite order is a cancellation that completes, a fixed direction a side that never changes. Main (B1867): the formal statement removes finite order and not the fixed direction; a single shear meets its form of existing at every level. One clause short."
   ],
   "one address for all sectors": [
@@ -287,8 +576,8 @@
    "the ledger: forced up to the sign. Main (B1867): the normal form is a theorem, checked on every hyperbolic matrix with entries up to five; the sign is a separate bit, and the selection criterion decides it if that criterion stands."
   ],
   "reversible updates": [
-   "FORCING ARGUED",
-   "the ledger: an act that merges two sides ends the distinction. One line; no alternative is exhibited."
+   "ADMITTED",
+   "the ledger gave one line for it (an act that merges two sides ends the distinction) with no alternative exhibited; its author has withdrawn it as an exit (the seat's read of this page)."
   ],
   "the Higgs direction": [
    "UNTOUCHED",
@@ -299,7 +588,7 @@
    ""
   ],
   "the carrier": [
-   "FORCING ARGUED",
+   "ONE CLAUSE SHORT",
    "the ledger: if the difference between the two orders is not cancelled the group is free, and the puncture follows (the SM seat's B1380, not verified on main). Main (B1867): not commuting does not give free; a clause that nothing at all cancels is needed."
   ],
   "the charge premise at level five": [
@@ -371,7 +660,7 @@
    "the ledger: it follows if the recursion never ends, and has to be reconciled with a loop that returns on itself."
   ],
   "the selection criterion": [
-   "FORCING ARGUED",
+   "ONE CLAUSE SHORT",
    "the ledger: a fixed character is a place where nothing happened. Main (B1867): as an exclusion this removes every departure too (the run of six fixes twenty); as a minimum it is the reading GENESIS already grades an interpretation. LR is the one word with a single fixed character, so this row carries the whole selection of the object. For the departure, the principle read as 'the least that no counted level detects' picks the run of six only when the level is put in (B1869)."
   ],
   "the structural theorem's external data": [
@@ -449,9 +738,13 @@
    "wp": "WP-0.8"
   },
   "E3": {
-   "note": "B1862: the sentence reads E ≡ +I, a parity superselection rule is named as a third condition, and the split is stated and computed exactly (338 with +I, 305 with −I of 643); the run of six is unaffected",
+   "note": "B1856 says that invisible to every state is E = +1, gives the split 338 and 305 and names parity superselection (B1862). Not carried to B1853, B1855, B1857 or the read-out rule's page, which still state the old form with no pointer: main's own propagation fault, found by the seat's second re-audit (P-772)",
    "short": "B1856: a parity gap in 'invisible to every state'",
-   "state": "FIXED",
+   "state": "PARTLY FIXED",
+   "was": [
+    "FIXED",
+    "B1862: the sentence reads E ≡ +I, a parity superselection rule is named as a third condition, and the split is stated and computed exactly (338 with +I, 305 with −I of 643); the run of six is unaffected"
+   ],
    "wp": "WP-0.8"
   },
   "E4": {
@@ -617,9 +910,13 @@
    "wp": "WP-0.3"
   },
   "L10": {
-   "note": "by reading, main's reader: two locks run scripts that write tracked files. main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a test that appends to a tracked file leaves the tree changed and nothing notices; the full suite was not run",
+   "note": "main re-ran it in a clean checkout (B1873): two test files pass and leave a tracked evidence file modified (B1464's seal census); the seat saw a second file change on its machine",
    "short": "the suite rewrites tracked evidence files",
-   "state": "READER",
+   "state": "REPRODUCED",
+   "was": [
+    "READER",
+    "by reading, main's reader: two locks run scripts that write tracked files. main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a test that appends to a tracked file leaves the tree changed and nothing notices; the full suite was not run"
+   ],
    "wp": "WP-0.3"
   },
   "L2": {
@@ -991,14 +1288,20 @@
    "wp": "WP-0.10"
   },
   "X3": {
-   "note": "main re-ran the deciding commands itself (B1870): in part. The certificate script does not fail on main: it exits 0, its four tests pass, and it is unchanged since the audited commit. What holds is that the '4' in '4 + 9 = 13' is a typed constant",
+   "note": "main re-ran it (B1873): the script the foundation cites for the live price, outside_bench/certificates/the_price_is_twelve.py, exits 1 on main ('24 ROWS OUTSTANDING' is not stated in the verdict page) and nothing runs it; the other script for the same price, B1266's, passes on a typed 4. Both halves of the finding stand. B1870 had tested the second script, the finding having named none",
    "short": "the printed identification price undercounts, and its script fails",
    "state": "REPRODUCED",
+   "trail": [
+    [
+     "REPRODUCED",
+     "main re-ran the deciding commands itself (B1870): in part. The certificate script does not fail on main: it exits 0, its four tests pass, and it is unchanged since the audited commit. What holds is that the '4' in '4 + 9 = 13' is a typed constant"
+    ]
+   ],
    "was": [
     "OPEN",
     ""
    ],
-   "wp": "WP-0.10"
+   "wp": "WP-0.12"
   },
   "X4": {
    "note": "main re-ran the deciding commands itself (B1870): 1283 of 1570 verdict files carry no scope, and none a domain",
@@ -1008,7 +1311,7 @@
     "OPEN",
     "covered by the declared domain (WP-0.11)"
    ],
-   "wp": "WP-0.10"
+   "wp": "WP-0.11"
   }
  },
  "given": {
@@ -1031,11 +1334,21 @@
    "WP-1.8",
    "WP-4.1"
   ],
+  "WP-3.2": [
+   "WP-3.1"
+  ],
   "WP-3.3": [
    "WP-1.2",
    "WP-1.8",
    "WP-4.1",
    "WP-1.4"
+  ],
+  "WP-4.1": [
+   "WP-2.5"
+  ],
+  "WP-4.3": [
+   "WP-4.2",
+   "WP-1.7"
   ]
  },
  "inputs": [
@@ -1701,13 +2014,14 @@
     "CHOSEN"
    ],
    "kinds": {
+    "bit": 1,
     "discrete": 1
    },
    "members": [
     "T:CHARGE5"
    ],
    "name": "the charge premise at level five",
-   "note": "",
+   "note": "two choices under one name (B1869): which sense of 'detect', the whole level or the line, a bit (P-721); and which levels count, a choice among sets of levels",
    "packages": [
     "WP-4.1"
    ],
@@ -1922,7 +2236,9 @@
   {
    "accept": "the class is empty, or every remaining member is outside the upstream of any claimed prediction; and a gate that, for every arc carrying a correction, checks that each arc depending on it and each page citing it points to the note",
    "also_nodes": [],
-   "blocks": [],
+   "blocks": [
+    "WP-5.3"
+   ],
    "closure_nodes": [],
    "debts": [
     "P-092",
@@ -1985,7 +2301,7 @@
     "P-760": "DONE"
    },
    "rulings": [],
-   "sits_under": 0,
+   "sits_under": 3,
    "status": "STARTED",
    "title": "False or stale statements in foundation and front documents",
    "wave": 0
@@ -1993,7 +2309,9 @@
   {
    "accept": "the class is empty",
    "also_nodes": [],
-   "blocks": [],
+   "blocks": [
+    "WP-5.3"
+   ],
    "closure_nodes": [],
    "debts": [
     "P-157",
@@ -2044,7 +2362,7 @@
     "P-747": "QUEUED"
    },
    "rulings": [],
-   "sits_under": 0,
+   "sits_under": 3,
    "status": "NOT STARTED",
    "title": "Debts that bear on current work",
    "wave": 0
@@ -2102,14 +2420,16 @@
    "rows_live": {},
    "rulings": [],
    "sits_under": 4,
-   "status": "NOT STARTED",
+   "status": "STARTED",
    "title": "Checks that cannot fail, instruments and seal claims",
    "wave": 0
   },
   {
    "accept": "the class is empty",
    "also_nodes": [],
-   "blocks": [],
+   "blocks": [
+    "WP-5.3"
+   ],
    "closure_nodes": [],
    "debts": [
     "P-025",
@@ -2155,7 +2475,7 @@
    "rows": [],
    "rows_live": {},
    "rulings": [],
-   "sits_under": 0,
+   "sits_under": 3,
    "status": "NOT STARTED",
    "title": "Unverified premises and seat results under banked results",
    "wave": 0
@@ -2163,7 +2483,9 @@
   {
    "accept": "zero failures on a fresh clone at the seal's commit",
    "also_nodes": [],
-   "blocks": [],
+   "blocks": [
+    "WP-5.3"
+   ],
    "closure_nodes": [],
    "debts": [],
    "findings": [
@@ -2190,7 +2512,7 @@
     "P-239": "QUEUED"
    },
    "rulings": [],
-   "sits_under": 0,
+   "sits_under": 3,
    "status": "STARTED",
    "title": "A green full suite on a fresh clone",
    "wave": 0
@@ -2337,7 +2659,8 @@
    "accept": "the grade stands in every verdict file upstream of a claimed prediction, the headline counts are printed by grade, and the graph tools select on the grade and not on one word",
    "also_nodes": [],
    "blocks": [
-    "WP-0.12"
+    "WP-0.12",
+    "WP-5.3"
    ],
    "closure_nodes": [],
    "debts": [],
@@ -2387,9 +2710,7 @@
    "debts": [],
    "findings": [
     "X1",
-    "X2",
-    "X3",
-    "X4"
+    "X2"
    ],
    "first": "the owner confirmed to main, on 2026-11-10, the rulings the advisor seat had relayed (the first eleven; P-758). Next, in one landing: the twelve places that cap the goal are amended together, each keeping its original text with a dated note, and the gate that bans a statement of aim is taught the difference between an aim and an arrival, with a planted test. The claim ceiling does not move: what may be asserted as achieved stays at what the record has earned",
    "given": [],
@@ -2430,6 +2751,7 @@
    "closure_nodes": [],
    "debts": [],
    "findings": [
+    "X4",
     "W1",
     "W2",
     "W3",
@@ -2475,8 +2797,12 @@
     "WP-5.2"
    ],
    "closure_nodes": [],
-   "debts": [],
-   "findings": [],
+   "debts": [
+    "P-773"
+   ],
+   "findings": [
+    "X3"
+   ],
    "first": "one graph file: the closure map's nodes joined to the arcs' edges typed as uses or cites, the identification ledger's rows, the scoreboard's joints and a frozen target list in three tiers; the headline printed from it; then the condition map as a generated view of the desk already built",
    "given": [],
    "id": "WP-0.12",
@@ -2883,9 +3209,7 @@
    "also_nodes": [
     "MC:HYP"
    ],
-   "blocks": [
-    "WP-4.3"
-   ],
+   "blocks": [],
    "closure_nodes": [
     "X:DICT"
    ],
@@ -2953,7 +3277,7 @@
    "sits_under": 5,
    "status": "NOT STARTED",
    "title": "The dictionary",
-   "wave": 3
+   "wave": 1
   },
   {
    "accept": "a derivation of the algebra and its embedding from the register; or 'the parent, declared' as one line of the budget",
@@ -3268,9 +3592,7 @@
   {
    "accept": "a derived source or stationary family verified on main; or the gap stays, named",
    "also_nodes": [],
-   "blocks": [
-    "WP-4.1"
-   ],
+   "blocks": [],
    "closure_nodes": [
     "X:SOURCE"
    ],
@@ -3336,7 +3658,6 @@
     "D:09"
    ],
    "blocks": [
-    "WP-3.2",
     "WP-3.3",
     "WP-3.4",
     "WP-3.5"
@@ -3413,15 +3734,13 @@
    "debts": [],
    "findings": [],
    "first": "the algebraic half is done on main (B1866): the weave's triplet is the odd twist chi_15 of the symmetric square of the level-2 doublet, a module of the double cover, and the conjugate of the squared theta constants over the cube of eta; on one background only the stabiliser acts, so the first outcome is refuted there; the lanes' one-form triplet over the three backgrounds is the weave's after an odd character -- chi_9 for the signs the agy lane's relay states, chi_21 for the matrices it inserts, which disagree (the physical lane's finding, verified exactly in B1866 § 6). The physical half is open: which signs the one-form line carries; whether the odd character is physical, that is, whether the modes carry the half-weight; and the stabiliser's action on the actual harmonic modes of a background, with its transport between the three (which needs the kernel theorem)",
-   "given": [],
+   "given": [
+    "WP-3.1"
+   ],
    "id": "WP-3.2",
    "intent": "DECIDE",
-   "needs": [
-    "WP-3.1"
-   ],
-   "needs_all": [
-    "WP-3.1"
-   ],
+   "needs": [],
+   "needs_all": [],
    "node_grades": {
     "DUTY": 1,
     "OPEN": 2
@@ -3458,7 +3777,7 @@
    "sits_under": 7,
    "status": "STARTED",
    "title": "The register-to-field join",
-   "wave": 2
+   "wave": 0
   },
   {
    "accept": "the pairing verified or refuted on main; chirality then a theorem, an input, or a named open fork",
@@ -3598,7 +3917,7 @@
    "sits_under": 4,
    "status": "NOT STARTED",
    "title": "The Higgs, the couplings, and the value frame",
-   "wave": 3
+   "wave": 2
   },
   {
    "accept": "a complete accounting for the same operator and domain",
@@ -3672,16 +3991,16 @@
    "debts": [],
    "findings": [],
    "first": "after the weight: the read-out rule's four choices, each derived or declared; the candidate's price under the random-subset control; main's own instrument past k = 2",
-   "given": [],
+   "given": [
+    "WP-2.5"
+   ],
    "id": "WP-4.1",
    "intent": "DERIVE",
    "needs": [
-    "WP-1.6",
-    "WP-2.5"
+    "WP-1.6"
    ],
    "needs_all": [
-    "WP-1.6",
-    "WP-2.5"
+    "WP-1.6"
    ],
    "node_grades": {
     "CHOSEN": 3,
@@ -3731,7 +4050,7 @@
    "sits_under": 15,
    "status": "STARTED",
    "title": "The modulus",
-   "wave": 2
+   "wave": 1
   },
   {
    "accept": "the premise derived or declared",
@@ -3739,9 +4058,7 @@
     "D:08",
     "T:CHARGE5"
    ],
-   "blocks": [
-    "WP-4.3"
-   ],
+   "blocks": [],
    "closure_nodes": [
     "X:HAND"
    ],
@@ -3799,17 +4116,14 @@
    "debts": [],
    "findings": [],
    "first": "one outside unit is unavoidable and is declared; for a ratio, the two candidates left on the scale card",
-   "given": [],
+   "given": [
+    "WP-4.2",
+    "WP-1.7"
+   ],
    "id": "WP-4.3",
    "intent": "DECIDE",
-   "needs": [
-    "WP-4.2",
-    "WP-1.7"
-   ],
-   "needs_all": [
-    "WP-4.2",
-    "WP-1.7"
-   ],
+   "needs": [],
+   "needs_all": [],
    "node_grades": {
     "CHOSEN": 4,
     "OPEN": 1,
@@ -3855,7 +4169,7 @@
    "sits_under": 4,
    "status": "STARTED",
    "title": "The scale",
-   "wave": 4
+   "wave": 0
   },
   {
    "accept": "the table is on the record before any seal, and the bar, the null and the look count are fixed",
@@ -4185,7 +4499,7 @@
    "sits_under": 3,
    "status": "NOT STARTED",
    "title": "The upstream audit",
-   "wave": 5
+   "wave": 4
   },
   {
    "accept": "a sealed card that meets all seven conditions, with its certificate",
@@ -4203,12 +4517,22 @@
    "needs": [
     "WP-5.1",
     "WP-5.2",
-    "WP-4.4"
+    "WP-4.4",
+    "WP-0.1",
+    "WP-0.2",
+    "WP-0.4",
+    "WP-0.5",
+    "WP-0.9"
    ],
    "needs_all": [
     "WP-5.1",
     "WP-5.2",
-    "WP-4.4"
+    "WP-4.4",
+    "WP-0.1",
+    "WP-0.2",
+    "WP-0.4",
+    "WP-0.5",
+    "WP-0.9"
    ],
    "node_grades": {
     "DUTY": 1
@@ -4223,9 +4547,13 @@
    "owner": "main; the owner",
    "question": "Is the prediction fixed before the comparison, with its power known?",
    "rests_on": [
+    "WP-0.1",
     "WP-0.11",
     "WP-0.12",
+    "WP-0.2",
     "WP-0.3",
+    "WP-0.4",
+    "WP-0.5",
     "WP-0.6",
     "WP-0.7",
     "WP-0.9",
@@ -4268,7 +4596,7 @@
    "sits_under": 2,
    "status": "NOT STARTED",
    "title": "The sealed card",
-   "wave": 6
+   "wave": 5
   },
   {
    "accept": "no unanswered finding",
@@ -4302,9 +4630,13 @@
    "owner": "another seat",
    "question": "Has someone who did not write it tried to break it?",
    "rests_on": [
+    "WP-0.1",
     "WP-0.11",
     "WP-0.12",
+    "WP-0.2",
     "WP-0.3",
+    "WP-0.4",
+    "WP-0.5",
     "WP-0.6",
     "WP-0.7",
     "WP-0.9",
@@ -4344,7 +4676,7 @@
    "sits_under": 1,
    "status": "NOT STARTED",
    "title": "The independent challenge",
-   "wave": 7
+   "wave": 6
   },
   {
    "accept": "matches and misses reported with their uncertainties",
@@ -4370,9 +4702,13 @@
    "owner": "the owner",
    "question": "With one declared unit, do the sealed predictions match?",
    "rests_on": [
+    "WP-0.1",
     "WP-0.11",
     "WP-0.12",
+    "WP-0.2",
     "WP-0.3",
+    "WP-0.4",
+    "WP-0.5",
     "WP-0.6",
     "WP-0.7",
     "WP-0.9",
@@ -4417,7 +4753,7 @@
    "sits_under": 0,
    "status": "NOT STARTED",
    "title": "Calibration and comparison",
-   "wave": 8
+   "wave": 7
   }
  ],
  "released": {
@@ -4593,36 +4929,43 @@
  "stats": {
   "audit_findings": 73,
   "audit_findings_by_state": {
-   "FIXED": 9,
+   "FIXED": 8,
    "OPEN": 1,
-   "PARTLY FIXED": 13,
-   "READER": 5,
-   "REPRODUCED": 45
+   "PARTLY FIXED": 14,
+   "READER": 4,
+   "REPRODUCED": 46
   },
   "audit_findings_checked_at_the_seats_revision": 73,
   "budget": {
    "ansatz": 1,
    "axiom": 8,
-   "bit": 8,
+   "bit": 9,
    "discrete": 16,
    "identification": 7,
    "real": 5
   },
-  "budget_items": 45,
+  "budget_items": 46,
   "candidate_frame_joints": 13,
   "conditional_headlines_released_by_closing_one_choice": 0,
   "conditional_results": 19,
-  "debts": 80,
+  "debts": 81,
+  "debts_on_the_map_joined_to_nothing": 64,
   "exits_by_kind": {
-   "ADMITTED": 2,
+   "ADMITTED": 3,
    "BACK-EDGE NAMED": 5,
    "DICTIONARY": 6,
-   "FORCING ARGUED": 6,
+   "FORCING ARGUED": 2,
    "KEPT": 3,
+   "ONE CLAUSE SHORT": 3,
    "PRESSED": 4,
    "RIGID": 1,
    "UNTOUCHED": 11
   },
+  "findings_that_bear_on_the_repository_as_a_whole": 34,
+  "findings_that_name_arcs_nodes_or_pages_only": 39,
+  "findings_with_a_re_audit_verdict": 12,
+  "fixed_and_not_yet_re_audited": [],
+  "forcing_arguments_one_clause_short": 3,
   "headline_results_not_yet_results_on_main": [
    "T:IM",
    "E:L10"
@@ -4634,10 +4977,10 @@
    "V:SIX"
   ],
   "independent_choices": 38,
-  "inputs_with_an_exit_on_the_table": 12,
+  "inputs_with_an_exit_on_the_table": 8,
   "lanes_supplied_inputs": 7,
   "map_dependencies_between_packages": 21,
-  "map_nodes": 269,
+  "map_nodes": 270,
   "nodes_assigned": 131,
   "nodes_needing_a_path": 131,
   "not_checked_in_this_clone": [],
@@ -4666,8 +5009,8 @@
   },
   "packages_by_status": {
    "DONE": 1,
-   "NOT STARTED": 27,
-   "STARTED": 15
+   "NOT STARTED": 26,
+   "STARTED": 16
   },
   "packages_that_close_together": [
    [
@@ -4675,6 +5018,17 @@
     "WP-2.5",
     "WP-4.1"
    ]
+  ],
+  "packages_the_sealed_card_must_wait_on_for_that": [
+   "WP-0.1",
+   "WP-0.11",
+   "WP-0.12",
+   "WP-0.2",
+   "WP-0.3",
+   "WP-0.4",
+   "WP-0.5",
+   "WP-0.7",
+   "WP-0.9"
   ],
   "present_inputs": 64,
   "relayed_rulings": 17,
@@ -4688,7 +5042,7 @@
    "WP-3.5",
    "WP-4.5"
   ],
-  "waves": 9,
+  "waves": 8,
   "work_order_quotes_checked": 8
  },
  "tallies": [
