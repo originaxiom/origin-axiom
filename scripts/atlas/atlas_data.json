@@ -15783,6 +15783,7 @@
    "slug": "the read out by a state checked",
    "motifs": [
     "metallic",
+    "golden",
     "amphichiral_cp"
    ],
    "refs": [],
@@ -16152,6 +16153,61 @@
    "obstacle": "measure",
    "obstacle_conf": 5,
    "status": "open",
+   "domain": "dynamics"
+  },
+  "B1875": {
+   "slug": "a single state is not closed under composition verified",
+   "motifs": [
+    "measurement",
+    "closing",
+    "coupling",
+    "feedback",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
+  },
+  "B1876": {
+   "slug": "the four attacks on the principles draft verified",
+   "motifs": [
+    "monoid",
+    "measurement",
+    "closing",
+    "coupling",
+    "feedback",
+    "trace_map",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B98",
+    "H1",
+    "H10",
+    "H11",
+    "H12",
+    "H13",
+    "H14",
+    "H15",
+    "H16",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "H7",
+    "H8",
+    "H9"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 3,
+   "status": "banked",
    "domain": "dynamics"
   },
   "B187": {

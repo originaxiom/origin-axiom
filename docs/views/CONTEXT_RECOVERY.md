@@ -13,24 +13,26 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1576 |
-| … PROVED | 1085 |
+| arcs with a verdict file | 1578 |
+| … PROVED | 1087 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 773 |
-| … QUEUED | 256 |
+| register points | 775 |
+| … QUEUED | 258 |
 | … LEAD | 4 |
 | … OWNER | 5 |
 | … DONE | 496 |
 | … DECLINED | 12 |
-| harvest rows (the last number) | 1665 |
+| harvest rows (the last number) | 1670 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1876 | PROVED | THE FOUR REMAINING ATTACKS ON THE PRINCIPLE'S DRAFT: THE ADVISOR SEAT'S SEALED RUN VERIFIED ON MAIN (P-771, P-769; data-free, integers and SnapPy; the seat's code not run): all sixteen sealed hypotheses come out on main… |
+| B1875 | PROVED | A SINGLE STATE IS NOT KEPT WHEN HISTORIES ARE COMPOSED: THE WEB SEAT'S SEALED CARD VERIFIED ON MAIN (P-761, P-767, P-744, P-766; data-free; a weave question answered with the record's thread instrument for the state; th… |
 | B1874 | PROVED | THE SCRIPTS A SEAL HASHED: MEASURED, AND GATED (the advisor seat's second re-audit, its planted case that no gate saw; bookkeeping only): 189 tracked lists of hashed files hold 1497 entries; 1430 verify against the trac… |
 | B1873 | PROVED | THE CLOSURE PROGRAMME READ BY A NON-AUTHOR: WHAT HELD, WHAT IS REPAIRED, WHAT IS OWED (the owner's word to fetch the advisor seat's read; bookkeeping only): the read's counts reproduce on main's own files, and its cause… |
 | B1872 | PROVED | 'ALL ALLOWED HISTORIES TOGETHER': THE WEB SEAT'S DEFINITION READ, AND ITS EXACT FACTS VERIFIED ON MAIN (the owner's confirmed ruling that the claim is about all allowed histories together; data-free, integers only; the… |
@@ -41,8 +43,6 @@
 | B1867 | PROVED | THE ADVISOR SEAT'S TOP-DOWN READING OF THE PRINCIPLE AND ITS LINE-OR-LOOP RULE, SCRUTINISED (the refetch the owner ordered; three notes read in full, none of the seat's code run, data-free): every fact main could test r… |
 | B1866 | PROVED | THE AGY LANE'S RELAY ON THE REGISTER-TO-FIELD JOIN, SCRUTINISED AT THE OWNER'S WORD (P-753; before anything of WP-2.2 or WP-3.2 is banked): where main can test the relay it is right -- ten of its claims verified by main… |
 | B1865 | PROVED | THE PLANTED VIOLATIONS, RUN ON MAIN BY THE ADVISOR SEAT'S OWN SCRIPT (main at 30dd1fea7, after B1862 to B1864): the five controls caught; of the 21 planted violations the script automates, 14 still pass undetected and 7… |
-| B1864 | PROVED | A SEALED FILE DOES NOT CHANGE AFTER ITS SEAL (the advisor seat's finding G2, graded critical, with G3 and G4; reproduced on main; WP-0.7): an edit of a sealed file after its seal was detected only for the files with a h… |
-| B1863 | PROVED | THE APPEND-ONLY GATE READS HISTORY (the advisor seat's finding G1, graded critical; reproduced on main; WP-0.7's first step): the gate compared the working file with the same file at HEAD, so a committed deletion passed… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -50,13 +50,14 @@
 - ** P-082** — a second outside reader, later, approached in his own context (relating to his videos), after the first correspondence → *later, at the owner's word; nothing prepared until then [2026-11-04, the owner confirmed: paused until a result passes a level-2 confirmation]*
 - ** P-253** — the chain gap's top entries (Review 67's R66-3, declined there because the chain is the frozen paper's spine): B1098, B959, B1100, B952, B1086, B1000, B1484, B1070 (coverage_candidates.py --chain-gap) — adjudicate each… → *asked of the owner: whether and when to open a draft after p9-draft9; until then the chain-gap list stays recorded here and nothing is due (S231) [earlier: Q3…*
 - ** P-697** — A SECOND COMPLIANCE FOLLOW-UP TO THE AGY LANE (S305f): its relay's lines 819–831 publish P-585-class values (a running top Yukawa, an inter-sector hierarchy value); its Theorem 102 carries held-out-class value literals… → *asked of the owner (S305f): main recommends sending a short note naming the lines and asking that they be removed and the salt kept somewhere durable off the r…*
-- ** P-771** — IS THE TICK AN ACT, AND THREE CLAUSES OF THE PRINCIPLE'S WORDING (four sentences of the owner as the advisor seat records them @ e7703f2e, which the seat itself now marks as relayed and not confirmed to main): 'the idea… → *asked of the owner once (S306o), because the foundation's text depends on the last: are these four yours for main as well? MAIN'S OPINION, with the computation…*
+- ** P-771** — IS THE TICK AN ACT, AND THREE CLAUSES OF THE PRINCIPLE'S WORDING (four sentences of the owner as the advisor seat records them @ e7703f2e, which the seat itself now marks as relayed and not confirmed to main): 'the idea… → *2026-11-11 (B1876): the facts that bear on it are verified on main -- given two whole-number records and no subtraction there is no choice in the acts (four at…*
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
 
 ## The last landings (CHANGELOG)
 
+- S306p TWO SEATS' SEALED RUNS VERIFIED ON MAIN: A SINGLE STATE IS NOT KEPT UNDER COMPOSITION (B1875); THE FOUR REMAINING ATTACKS ON THE PRINCIPLE'S DRAFT (B1876; P-774, P-775) (2026-11-11)
 - S306o (the re-audit's largest item) THE SCRIPTS A SEAL HASHED: MEASURED, AND GATED (B1874; P-772 in part) (2026-11-10)
 - S306o (at the owner's word) THE CLOSURE PROGRAMME READ BY A NON-AUTHOR: FOUR REPAIRS, THREE CORRECTIONS TO MAIN'S OWN RECORD, ONE DEBT (B1873; P-773) (2026-11-10)
 - S306o (later) THE OWNER'S RULING ON THE LAW'S READING; ONE TICK OR TWO ACTS VERIFIED (B1871); ALL HISTORIES TOGETHER DEFINED AND ITS FACTS VERIFIED (B1872) (2026-11-10)
@@ -64,11 +65,10 @@
 - S306o (the second fetch of the evening) WHAT CONCENTRATES UNDER THE MOVE COUNT: THE WEB SEAT'S CARD VERIFIED ON MAIN (B1868; P-756 answered on the modulus's side; P-755 put to the owner) (2026-11-10)
 - S306o (the refetch, continued) THE OWNER DID NOT CONFIRM THE TWO LATER RELAYED RULINGS (P-758 closed, P-765 declined) (2026-11-10)
 - S306o (the refetch) TWO SEATS HARVESTED AND CHECKED: THE PHYSICAL LANE'S REVIEW OF THE JOIN RELAY (B1866 § 6), AND THE ADVISOR SEAT'S TOP-DOWN READING AND LINE-OR-LOOP RULE (B1867) (2026-11-10)
-- S306o (continued) THE AGY LANE'S RELAY ON THE REGISTER-TO-FIELD JOIN, SCRUTINISED AT THE OWNER'S WORD (B1866; P-753) (2026-11-10)
 
 ## The latest campaign line
 
-LATEST (2026-11-10, S306o (the re-audit's largest item): B1874 — THE SCRIPTS A SEAL HASHED, MEASURED AND GATED: the advisor seat's second re-audit changed one line of a script the candidate's seal had hashed and no gate saw it. Measured: 189 lists of hashed files, 1 497 entries, 1 430 verify, 67 do not (63 distinct) — 11 in six arcs are a sealed script or output changed with no later entry (B1486, B1490, B1494, B1495, B1499, B656), 16 an earlier version beside a current one that verifies, the rest lists that never described the tracked files. Gated: `artifact-hashes` reads every list on every run; a listed file cannot change and a list cannot be edited, deleted or moved; the 63 are frozen b…
+LATEST (2026-11-11, S306p: TWO SEATS' SEALED RUNS VERIFIED ON MAIN. B1875 — A SINGLE STATE IS NOT KEPT WHEN HISTORIES ARE COMPOSED (the web seat's card): in the record's instrument for the state, 18 of the 36 composites of six single histories are not single, exactly those with the same departure, each by a symmetry of the composite's own word that exchanges the two departures and keeps the line; ties decided in integers; so 'single' is a thread's property, and the first back-edge's admission form does not define a set of allowed histories; what replaces it is the owner's fork. B1876 — THE FOUR REMAINING ATTACKS ON THE PRINCIPLE'S DRAFT (the advisor seat's sixteen sealed hypotheses, all re-…
 
 ## Completeness (nothing skipped silently)
 

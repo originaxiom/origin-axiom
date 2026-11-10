@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.64) of 2026-11-10 |
-| arcs with a verdict | 1576: 1085 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 773: 265 open (queued, leads, waiting for the owner), 508 closed |
+| arcs with a verdict | 1578: 1087 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
+| points in the register | 775: 267 open (queued, leads, waiting for the owner), 508 closed |
 | the last review | Review 77 (2026-11-10), anchor `10641a1b2` |
-| the last landing | S306o (the re-audit's largest item) THE SCRIPTS A SEAL HASHED: MEASURED, AND GATED (B1874; P-772 in part) (2026-11-10) |
+| the last landing | S306p TWO SEATS' SEALED RUNS VERIFIED ON MAIN: A SINGLE STATE IS NOT KEPT UNDER COMPOSITION (B1875); THE FOUR REMAINING ATTACKS ON THE PRINCIPLE'S DR… |
 <!-- STATE:END -->
 
 ## Start here

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1576** |
-| words of findings prose | **1,354,557** |
+| research arcs with findings | **1578** |
+| words of findings prose | **1,360,057** |
 | test lock files referenced | **937** |
-| arcs carrying an authored verdict | **1576** (100.0 %) |
+| arcs carrying an authored verdict | **1578** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1085 |
+| PROVED | 1087 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1874`** (1413 words, 1 locks)  
-THE SCRIPTS A SEAL HASHED: MEASURED, AND GATED (the advisor seat's second re-audit, its planted case that no gate saw; bookkeeping only): 189 tracked lists of hashed files hold 1497 entries; 1430 verify against the tracked file they name and 67 do not (63 distinct) -- 11 in six arcs are a script or an output that a seal hashed and that has changed with no later entry for the new version (the file itself marks the change in 4 and not in 7), 16 are an earlier version's hash beside a current one that verifies, 11 are pages that went on being written, 13 name run logs that were never tracked, 8 name files not in the repository, 3 match no version in history, 1 has no name. A new gate reads every list on every run: a file a seal hashed cannot change, and from the rule's first commit a list cannot be edited, deleted or moved, so it cannot be rewritten to match; the 63 are frozen by key as a ceiling that may only shrink; an amendment is a new list with the old key named and printed. Proved on eleven tests with committed planted violations, the re-audit's own case among them. The older gates now put their waivers in their sentence and count waived commits apart; mending that, main found the runner printed a bare ok for every pass, so no sentence reached the reader: the three gates that hold waivers or amendments by name now print theirs whole. Five of the re-audit's cases stay open and are listed. 0 of 19.  
-`B1874_the_scripts_a_seal_hashed/FINDINGS.md`
+**PROVED — `B1876`** (2839 words, 0 locks)  
+THE FOUR REMAINING ATTACKS ON THE PRINCIPLE'S DRAFT: THE ADVISOR SEAT'S SEALED RUN VERIFIED ON MAIN (P-771, P-769; data-free, integers and SnapPy; the seat's code not run): all sixteen sealed hypotheses come out on main as the seat reports them. Given two whole-number records and no subtraction there is no choice in the acts: of the 174 non-negative matrices of determinant +-1 with entries to 8 only 1 and the bare exchange have finite order, and the other 172 are built from four atoms, L, R, the tick F = LP and F' = PL; words in L and F are all different acts (32766 words to 14 letters) and in that grammar a history and its mirror are one cyclic word. With every history as a ground under the record's rule (level = trace + 2) two histories of different trace never both fail to detect each other, the traces that are a departure of no other ground are 3, 4, 5, 6 (eight histories, four classes), and the relation is not an order (209 broken chains to trace 60); with the act as the ground exactly one history is made of one atom, the tick, with discriminant 5. At level 5 the exchange is a scalar: up to scalars the group is the same 60 elements, and all 4096 departures to 14 letters are allowed or not exactly as before (35, 50, 330), so the tick's second debt is closed at level 5; at 3, 4, 7, 8, 9, 11 the group doubles. The golden ground has Chern-Simons invariant 0; the run of 6 read alone has a hand and -0.07360, -0.07519, -0.07552 for 1, 2, 3 further periods, settling at -0.075610, its mirror the opposite; a history of an odd number of runs is not orientable and has none. Main adds: counting primitive histories only, trace 7 joins the traces with one history up to mirror; the count of fibre forms kept is one rule for every history; of the seat's six statements 'not found on the record' main holds part of one (B1871). The seat's two questions to the owner (what a ground is; what 'the ledger must close' means) are recorded with main's opinion and not ruled. 0 of 19.  
+`B1876_the_four_attacks_on_the_principles_draft_verified/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  
