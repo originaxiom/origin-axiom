@@ -1,0 +1,9 @@
+samples 24000000
+i              tube exponent 0.8443  (the card's slope would be -0.1557)  count at 2^-12: 24528
+     local: 0.819 0.833 0.858 0.847 0.845 0.838 0.846 0.851 0.839 0.845 0.848 0.848
+i sqrt2        tube exponent 0.9233  (the card's slope would be -0.0767)  count at 2^-12: 12386
+     local: 0.876 0.939 0.926 0.929 0.922 0.922 0.924 0.918 0.926 0.927 0.930 0.925
+(1+i sqrt7)/2  tube exponent 1.0837  (the card's slope would be +0.0837)  count at 2^-12: 3415
+     local: 1.041 1.092 1.074 1.074 1.100 1.062 1.092 1.065 1.098 1.109 1.055 1.052
+Q1             tube exponent 0.9887  (the card's slope would be -0.0113)  count at 2^-12: 6634
+     local: 1.093 0.956 0.965 1.013 1.020 0.971 0.982 0.976 0.993 0.982 1.004 0.998
