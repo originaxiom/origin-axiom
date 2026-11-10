@@ -1,0 +1,157 @@
+{
+  "schema": "oa.precalibration_closure_handoff.v1",
+  "date": "2026-11-10",
+  "document_type": "owner-requested research coordination handoff; not scientific admission or certification",
+  "physical_baseline_commit": "c87fb85e95f350845c2ae0946f8a2104ee745305",
+  "processed_agy_head": "f999175780a4a5d983dbd1287f50b59cbe12527a",
+  "remote_heads_at_handoff_preparation": {
+    "origin/HEAD": "217e37c4f37bd80998f3c3e10cad358023f58114",
+    "origin/agy/audit-2026-11-02": "f999175780a4a5d983dbd1287f50b59cbe12527a",
+    "origin/agy/frontier-2026-10-26": "05e6caabf7113244702aa473c6d6786d94b7cf4b",
+    "origin/audit/fork-2026-09-20": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+    "origin/audit/independent-2026-11-03": "4b91b9be7db39cc78935c06b47bbd44095c52426",
+    "origin/audit/physical-bridge-2026-09-05": "c87fb85e95f350845c2ae0946f8a2104ee745305",
+    "origin/chat1/web-seat": "195e8f1bdd7207970645c4fbd5847d238efb4d9c",
+    "origin/chatgpt/weave-physics-archive-2026-10-11": "efadcdeaa5375cf0ac76d954dbf34abd070430cd",
+    "origin/claude/kind-hypatia-uk0vv9": "6a537f899c9c1882930475144a30ae76aa2966d8",
+    "origin/claude/outside-bench": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+    "origin/claude/paper-review-verification-kaz3f5": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+    "origin/claude/project-thread-hctlox": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+    "origin/claude/standard-model-derivation-0qt6ao": "47228ae85cb813ea1bcad3daba8b9446f64ff8d4",
+    "origin/explore/2026-11-05": "af81fb6ef45f3544a5113a118599c16f185225a2",
+    "origin/main": "217e37c4f37bd80998f3c3e10cad358023f58114",
+    "origin/referee/B1668_the_price_of_the_nineteen": "0c781663f4fb0505fb8814e261b8cf9e0231d94f",
+    "origin/referee/landing": "806dfd6002773bf1d1eba273f432fb626f27b302",
+    "origin/sep16-branch": "3205984b48d1b98a80042cdc70916878973980f5"
+  },
+  "remote_heads_scope": "metadata snapshot only; no new claim to have reviewed every branch scientific content",
+  "owner_intent": "CC coordinates a full input-reduction and precomparison closure initiative with intended Fable5.2 author seat",
+  "worker_assignment": {
+    "intended_model_as_named_by_owner": "Fable 5.2",
+    "responsible_coordinator": "CC/main",
+    "worker_started": false,
+    "worker_acknowledged": false,
+    "model_availability_verified": false,
+    "author_branch": null,
+    "next_action": "CC acknowledges handoff and assigns a worker branch; first documentary closure-map delta only"
+  },
+  "first_return": {
+    "scope": "source-pinned dependency graph delta reusing existing ledger and graph",
+    "artifacts": [
+      "NODES.json",
+      "EDGES.json",
+      "CLOSURE_QUEUE.md"
+    ],
+    "narrative_word_bound": 1500,
+    "new_scientific_execution_authorized": false,
+    "next_bounded_derivation": "selected by CC after first return; avoid AGY current calculation"
+  },
+  "agy_assignment_preserved": {
+    "microtask": "AGY-03b-r5",
+    "coordination_revision": 32,
+    "run_ticket": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RUN_TICKET_AGY_03B_R5.md",
+    "owner": "AGY",
+    "duplicate_calculation_authorized": false
+  },
+  "milestones": [
+    "dependency inventory complete",
+    "claimed physical construction independently verified",
+    "claimed predictions mathematically ready for prospectively sealed comparison",
+    "empirical tests and overarching high-energy completion remain separate"
+  ],
+  "completion_guardrails": [
+    "unresolved load-bearing nodes keep prediction readiness open",
+    "canonical inputs count includes hidden carrier, representation, metric, boundary, normalization, state, measure and calibration choices",
+    "unit conversion does not derive a physical scale ratio",
+    "known measured targets are not hidden selection rules",
+    "source and content hashes verified in metadata; underlying scientific evidence grades retained",
+    "no universal no-go inferred from failure of one construction"
+  ],
+  "source_pin_inventory": [
+    {
+      "commit": "c87fb85e95f350845c2ae0946f8a2104ee745305",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/TASKS.json",
+      "sha256": "f76665a2c4e0721ff694bf643e6d124e40510dfb45e72eb09ed71589a381623a"
+    },
+    {
+      "commit": "c87fb85e95f350845c2ae0946f8a2104ee745305",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/START_HERE.md",
+      "sha256": "203ff6f970c3e347c126bcc11bb8b16030c9b05607e29c33ba0eb44874419707"
+    },
+    {
+      "commit": "c87fb85e95f350845c2ae0946f8a2104ee745305",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_03B_R4_F99917_2026_11_10.md",
+      "sha256": "cb0483a5f08e79f79320ea3117ea328b62697a07b5ed8ef63314c019bbd746df"
+    },
+    {
+      "commit": "c87fb85e95f350845c2ae0946f8a2104ee745305",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/SOURCE_REVIEW_RECEIPT_AGY_03B_R4_F99917_2026_11_10.json",
+      "sha256": "07cf3aaa7759443230adb042436a6d2d746d7340b06924413b192182b4cf29f6"
+    },
+    {
+      "commit": "c87fb85e95f350845c2ae0946f8a2104ee745305",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RUN_TICKET_AGY_03B_R5.md",
+      "sha256": "a4a3168b16db1a6b092329e703fb1945871fb55f35ed4137336aa42a4582ed6f"
+    },
+    {
+      "commit": "f999175780a4a5d983dbd1287f50b59cbe12527a",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/MODEL_MANIFEST.md",
+      "sha256": "811956e0ffc5ca9f141c57e6eb5e98bc576aa5b8e7fe18909c4fc2cd9136ebdb"
+    },
+    {
+      "commit": "f999175780a4a5d983dbd1287f50b59cbe12527a",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+      "sha256": "98bf93b4be89297901e8f9718f88ea526105b717310df63b75e21deb282713e5"
+    },
+    {
+      "commit": "f999175780a4a5d983dbd1287f50b59cbe12527a",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CLAIM_DEPENDENCIES.md",
+      "sha256": "eb68f876fdf5b842c471738d7fc1c672f685db1a552d30ad669d7f1dba02802a"
+    },
+    {
+      "commit": "c87fb85e95f350845c2ae0946f8a2104ee745305",
+      "path": "reports/physical_bridge_2026_09_05/SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md",
+      "sha256": "b3a04ab794beab0fce31b4365a011d2c3353f03932d22eef34469fd59b71729f"
+    },
+    {
+      "commit": "c87fb85e95f350845c2ae0946f8a2104ee745305",
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "commit": "c87fb85e95f350845c2ae0946f8a2104ee745305",
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    },
+    {
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "GENESIS.md",
+      "sha256": "ec8c3dba05a5c947416a18952bc40f99a32af5135c87987c6f7e6236bc34bad4"
+    },
+    {
+      "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+      "path": "docs/THE_TAU_READOUT_RULE.md",
+      "sha256": "461ead931f039e8924c6922e803434529445b8a2cf9296d531ecf99487773fcd"
+    }
+  ],
+  "source_status_note": "Older manifest/ledger/claim graph are reuse aids, not fresh reviews. Reconcile them with coordination revision32 and current exact review receipts before using their status statements.",
+  "scientific_import_or_execution": false,
+  "new_agents_started": false,
+  "formal_review_or_acceptance_created": false,
+  "execution_policy_changed": false,
+  "active_goal_changed": false,
+  "AGY_board_changed": false,
+  "canonical_inputs_removed_by_this_handoff": 0,
+  "handoff_files": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/precalibration_closure_2026_11_10/WORK_ORDER.md",
+      "sha256": "42d72480babcd1c24cecb95938080fd2aab1217fcc7321e4abaff50c9af9c44d"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_CC_FABLE_2026-11-10_PRECALIBRATION_CLOSURE.md",
+      "sha256": "9660850172f8d4c43b7e1ce0a0d356b6809839e9125177e1ca85750c48188d5f"
+    }
+  ],
+  "inherited_index_sha256_before": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "inherited_paths_policy": "Preserve all49 staged paths and unrelated unstaged/untracked files; commit only the three owned handoff artifacts."
+}
