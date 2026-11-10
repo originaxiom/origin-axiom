@@ -56,6 +56,9 @@ seat's instrument, not main's, and it measures main's enforcement. No physical v
 
 - **The instrument is another seat's and was run as written.** Main changed no line of it.
 - **One of its seven catches is an artefact of the instrument,** as § 1 says. Main reports six.
+  *Added 2026-11-10, later:* the seat's own re-audit (`REAUDIT_1_2026-11-10.md` @ `6ab2bbdb2`, on main at `034b6438d`;
+  harvest row 1651) reports 6 of 21 and the same fifteen left. It corrects its test for the shallow clone, under which
+  that case is not caught.
 
 ## Reproduce
 

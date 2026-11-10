@@ -1,5 +1,25 @@
 # Changelog
 
+## S306o (the refetch) TWO SEATS HARVESTED AND CHECKED: THE PHYSICAL LANE'S REVIEW OF THE JOIN RELAY (B1866 § 6), AND THE ADVISOR SEAT'S TOP-DOWN READING AND LINE-OR-LOOP RULE (B1867) (2026-11-10)
+
+- **The owner:** "agreed" to rule on the law's reading after the computation registered for it (recorded on P-755); and "refetch all seats". Two had moved: the physical lane once, the advisor seat three times while main worked.
+- **The physical lane reviewed the agy lane's join relay on its own, and reaches main's decision:** nothing of WP-2.2 or WP-3.2 is banked as complete. Main checked its findings in exact arithmetic (B1866 § 6, added the same evening):
+  - the relay's inserted one-form matrices carry the signs (−1, −1), not the (−1, +1) its text states. So the odd character is χ₂₁ for the matrices and χ₉ for the stated signs; the projective action is the same. Main had used the stated signs and had not tested them against the matrices; that miss is disclosed;
+  - kept by every move is a fixed-point statement and not a selection: on one background a second character is fixed too;
+  - the two subgroups meet E₈ through a quotient by ℤ₄;
+  - main's group orders, which were floating-point, are recomputed with exact monomial arithmetic and agree.
+  - WP-3.2 is split in two: the algebraic half is banked; the physical half (the stabiliser's action on the actual harmonic modes) is open.
+- **The advisor seat's three notes, scrutinised (B1867):** every fact main could test reproduces on main's own code.
+  - **A law of symmetries, tested on all 105 classes of words up to length 10.** A bundle's isometries number twice its word's stabiliser under rotation, reversal and the swap of the letters. The swap reverses orientation; the reversal reverses the base's direction; the swapped word is the mirror image, for every word. The seat's ten rows are instances. The run of 6 keeps one reversal only: a hand, a place, no arrow. One of the seat's rows is a word written twice. Not proved on main (P-766).
+  - **The forcing ledger's facts hold; three of its rows are one clause short.** Its formal statement removes finite order and not a fixed direction. Not commuting does not give free. And "a fixed character is a place where nothing happened" removes every departure too, the same relation being what selects the run of 6. No grade in GENESIS changes on an argument (P-764).
+  - **"The record is a line, not a loop" holds on main's own map:** of 286 edges none is a result returning to fix an input, and a planted one is counted. The first back-edge design's exact facts reproduce.
+- **The programme (B1861) now says how each input could leave the budget,** as far as those notes name a route: 3 kept, 6 with a forcing argument, 2 admitted, 4 pressed, 1 rigid, 5 with a back-edge named, 6 dictionary, 11 untouched. An exit is on the table for 12 of 38; none is proved or built. A fifteenth refusal rule, with planted controls.
+- **The seat's first re-audit** confirms main's count of its planted violations: 6 of 21 caught, fifteen left.
+- **The owner confirmed the eleven relayed rulings to main** ("yes, but i also wanr your opinion on all"; P-758). Main's opinion on each is recorded: agree with all eleven, with three safeguards — "one outcome" means one orbit under the symmetries; the headline's second list is frozen at a named commit before any comparison; no amended passage states or implies arrival. Carrying them out is registered (P-767) and starts with the goal statement. The two rulings the seat relayed after main had asked are asked; the page, the terms and the verdict field it asks for wait on the second of them (P-765). This landing changes no governing document.
+- **Two of the owner's prompts were not delivered to main for about twenty minutes** (a queue fault of the session, found in its transcript); both are answered.
+- **A fault of an earlier landing, repaired:** B1865's own lock spelt a local path prefix literally in an assertion that forbids it, so the suite's guard against local paths failed from `801b591d5`. The push gate does not run the suite, which is why it passed. The string is now spelt in pieces.
+- Harvest rows 1644–1651; pins audit `6ababf23`, advisor `6ab2bbdb`; two replies in `docs/handoffs/`; P-764 to P-767 registered; P-753, P-755, P-758, P-761 extended. 0 of 19.
+
 ## S306o (continued) THE AGY LANE'S RELAY ON THE REGISTER-TO-FIELD JOIN, SCRUTINISED AT THE OWNER'S WORD (B1866; P-753) (2026-11-10)
 
 - **The owner:** scrutinise the relay before anything of WP-2.2 or WP-3.2 is banked. It was read in full through the sealed mask; none of the lane's code was run; every claim main can test was computed with main's own code.

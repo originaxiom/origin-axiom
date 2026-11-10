@@ -1,0 +1,23 @@
+control (known answer): b++LR is m004; SnapPy gives 8 isometries, amphicheiral True; the law gives 2 x 4
+census: 105 classes of cyclic words of length 2 to 10 (one per class under rotation, reversal and swap)
+  SnapPy reports the full group for all of them: True
+  LAW 1 (isometries = 2 |Stab|): 105 of 105 agree; exceptions: []
+  LAW 2 (amphicheiral iff Stab contains a swap): 105 of 105 agree; exceptions: []
+  (isometries, amphicheiral): count -- (2, no): 22, (4, no): 55, (4, yes): 9, (8, no): 5, (8, yes): 8, (12, no): 1, (16, yes): 2, (24, yes): 1, (32, yes): 1, (40, yes): 1
+control (can fail): with the swap left out of Stab the count is wrong on 22 words, and they are exactly the amphicheiral ones: True
+LAW 3 on 28 chiral words (every 3th of 83): b++w to b++swap(w): the isometries' orientation signs are [(-1,)] for all; b++w to b++reverse(w): [(1,)] for all
+LAW 4 (orientation = the swap, the base's direction = the reversal), on all 105 classes: 105 agree; exceptions: []
+  words with an isometry that reverses the base's direction: 83 of 105; the run of 6 is one: True; (2,3) is not: True
+the advisor seat's rows, by the law (no SnapPy in this column) and by SnapPy:
+  golden, 1 period                       LR           law: 2 x 4  = 8   SnapPy: 8   amphicheiral yes | rotations 1, rotation with swap 1, reversals 1, reversal with swap 1
+  golden, 2 periods                      LRLR         law: 2 x 8  = 16  SnapPy: 16  amphicheiral yes | rotations 2, rotation with swap 2, reversals 2, reversal with swap 2   [the word is (LR)^2]
+  golden, 3 periods (not in its table)   LRLRLR       law: 2 x 12 = 24  SnapPy: 24  amphicheiral yes | rotations 3, rotation with swap 3, reversals 3, reversal with swap 3   [the word is (LR)^3]
+  golden, 4 periods                      LRLRLRLR     law: 2 x 16 = 32  SnapPy: 32  amphicheiral yes | rotations 4, rotation with swap 4, reversals 4, reversal with swap 4   [the word is (LR)^4]
+  (6)                                    LLLLLLRLR    law: 2 x 2  = 4   SnapPy: 4   amphicheiral no  | rotations 1, rotation with swap 0, reversals 1, reversal with swap 0
+  (2,2,2)                                LLRRLLRLR    law: 2 x 2  = 4   SnapPy: 4   amphicheiral no  | rotations 1, rotation with swap 0, reversals 1, reversal with swap 0
+  (2,1,1,1,2)                            LLRLRLLRLR   law: 2 x 4  = 8   SnapPy: 8   amphicheiral no  | rotations 2, rotation with swap 0, reversals 2, reversal with swap 0   [the word is (LLRLR)^2]
+  (2,1,2,1,2)                            LLRLLRLLRLR  law: 2 x 2  = 4   SnapPy: 4   amphicheiral no  | rotations 1, rotation with swap 0, reversals 1, reversal with swap 0
+  (2,3)                                  LLRRRLR      law: 2 x 1  = 2   SnapPy: 2   amphicheiral no  | rotations 1, rotation with swap 0, reversals 0, reversal with swap 0
+  (6), two golden periods                LLLLLLRLRLR  law: 2 x 2  = 4   SnapPy: 4   amphicheiral no  | rotations 1, rotation with swap 0, reversals 1, reversal with swap 0
+so: the golden ground with k periods keeps all three kinds (4k elements: k rotations, k rotations with the swap, 2k reversals with or without it);
+    the run of 6 keeps one reversal and nothing else; (2,3) keeps nothing; and the row called (2,1,1,1,2) is the square of LLRLR, which is why it has 8.

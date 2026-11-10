@@ -16,16 +16,16 @@ written: PROGRAMME.md, PROGRAMME.json
   "C6": 1
  },
  "packages_by_status": {
-  "NOT STARTED": 28,
-  "STARTED": 14,
+  "NOT STARTED": 27,
+  "STARTED": 15,
   "DONE": 1
  },
  "packages_by_intent": {
   "DERIVE": 17,
   "DECIDE": 12,
   "VERIFY": 7,
-  "DECLARE": 5,
-  "OWNER": 2
+  "DECLARE": 6,
+  "OWNER": 1
  },
  "unowned": [
   "WP-1.8",
@@ -56,6 +56,17 @@ written: PROGRAMME.md, PROGRAMME.json
  "lanes_supplied_inputs": 7,
  "present_inputs": 64,
  "candidate_frame_joints": 13,
+ "exits_by_kind": {
+  "KEPT": 3,
+  "FORCING ARGUED": 6,
+  "ADMITTED": 2,
+  "PRESSED": 4,
+  "RIGID": 1,
+  "BACK-EDGE NAMED": 5,
+  "DICTIONARY": 6,
+  "UNTOUCHED": 11
+ },
+ "inputs_with_an_exit_on_the_table": 12,
  "audit_findings": 73,
  "audit_findings_by_state": {
   "OPEN": 34,
@@ -64,7 +75,9 @@ written: PROGRAMME.md, PROGRAMME.json
   "PARTLY FIXED": 11,
   "FIXED": 9
  },
- "relayed_rulings": 11,
+ "relayed_rulings": 13,
+ "rulings_confirmed_by_the_owner_to_main": 11,
+ "rulings_asked": 2,
  "headline_results_that_are_conditional_results": [
   "G:ROOT",
   "MC:Z6",

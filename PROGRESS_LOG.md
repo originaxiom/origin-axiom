@@ -18921,3 +18921,42 @@ though only up to a phase that needs a larger covering group. And the lanes' thr
 together, is main's three up to one phase of the same kind. Whether that phase is physical is now the whole question.
 
 What the account says about the lanes' own equations main could not check, and has left as that lane's. 0 of 19.
+
+## 2026-11-10 — S306o (the refetch): two reviews agree, and the remaining inputs each get a way out or a blank
+
+The owner asked main to fetch every lane again. Two had new work.
+
+One lane had reviewed, on its own, the same account that main had scrutinised earlier in the day. It reached the same
+decision: do not build on it yet. It also found something main had missed. The account says in words that a certain
+mode keeps its sign under one of the moves, and the matrices the account actually uses flip that sign. Main checked
+this in exact arithmetic, and it is so. It changes one label in main's result and not the result: the lanes' three
+and main's three are still the same up to one phase, and whether that phase is physical is still the question. Main
+could not have seen the mismatch through the mask it reads that lane with. A second reader could, and did.
+
+The advisor had written three notes. The first reads the founding principle from the top down: for each thing the
+foundation assumes, does the principle force it? The advisor marks four as probably forced, and says plainly that
+these are arguments and not results. Main checked the facts the arguments use, and they all hold. Three of the four
+arguments, though, quietly use one more assumption than the advisor's own formal wording of the principle contains.
+Main wrote down each of the three with a small exact example.
+
+The second and third notes say what the owner has been telling every lane: the whole programme runs one way, from
+the principle down to the numbers, and nothing at the end reaches back to pin down a choice made at the start. Main
+tested that sentence on its own map of the programme. It is true there: not one of 286 links is a result that fixes
+an earlier choice.
+
+Out of this came one new table. The programme lists 38 things that are put in by hand. Until today it did not say
+how any of them could ever come out. Now each one has a line: an argument that the principle forces it, a condition
+it would have to satisfy, a fact of geometry that fixes it, or nothing yet. A way out is written down for 12 of the
+38. None of the 12 is proved or built.
+
+Checking the advisor's small table of symmetries, main found the general rule behind it and tested it on every
+history up to ten letters: the symmetries of a history's geometry can be read off its word. One consequence is worth
+keeping in view. Swapping the two letters always gives the mirror image. So any rule that treats the two letters
+alike picks a history together with its mirror, and a preferred hand has to come from somewhere else.
+
+During this work the owner confirmed to main the eleven rulings that the advisor had reported, and asked for main's
+opinion on each. Main agrees with all eleven and added three safeguards. The first is that "one outcome" has to mean
+one family of mirror-related histories, for the reason just given. The second is that the list of things to be
+predicted is fixed before any comparison is made. The third is that the goal may now be stated in full, while
+nothing may be written as though it had been reached. Two further rulings arrived after main had asked, and main has
+asked about those. Carrying out the eleven is the next work. 0 of 19.

@@ -8,11 +8,11 @@ that still needs a path is in no package, or if the order of work ignores a depe
 
 - **131 nodes of the map still need a path:** inputs, open questions, lanes' results not verified on main, and duties. **All 131 are in a package.**
   The map's other nodes are proved, refuted or facts about the record; or they are the 19 conditional results (§ 6), the 79 debts (C0) and the map's own eleven groupings.
-- **43 packages** in 9 waves: not started 28, started 14, done 1.
+- **43 packages** in 9 waves: not started 27, started 15, done 1.
 - **4 packages have no owner:** WP-1.8, WP-1.9, WP-3.5, WP-4.5.
 - **Main's spine presently holds 38 inputs as the record lists them** (§ 3): 8 axioms, 8 bits, 16 discrete choices, 5 real numbers, 1 ansatz, 7 identifications. The lanes' model adds 7 supplied inputs of its own, not typed here.
 - **73 findings of the advisor seat's audit** are each in a package (§ 8): open 34, reader 12, reproduced 7, partly fixed 11, fixed 9.
-- **11 rulings of the owner, as that seat relayed them,** are each mapped to a package and wait for the owner's confirmation (§ 9).
+- **13 rulings of the owner, as that seat relayed them,** are each mapped to a package. The owner confirmed 11 of them to main on 2026-11-10; 2, relayed after main had asked, are asked (§ 9).
 
 ## 2. The three milestones
 
@@ -83,6 +83,67 @@ builder checks them against GENESIS's grades and the scoreboard's types. Their i
 | the chiral premise | bit | SC:PREMISE | thread | WP-4.2 |
 | the block read as a ratio of scales | identification | SC:R2 | thread | WP-4.3 |
 | the content that runs — the Standard Model's, borrowed | identification | SC:R4 | thread | WP-4.3 |
+
+### How each input could leave the budget
+
+Read from three notes of the advisor seat (its forcing ledger, its statement of the closed loop, its design of the first
+back-edge; pinned at `6ab2bbdb2`), each read in full and checked by main in B1867. This is a harvest of those notes onto the
+budget. It is not a sweep of the record, and it changes no grade: an argument is not a proof, and a named back-edge is not
+a built one.
+
+| kind | inputs | what it means |
+|---|---|---|
+| KEPT | 3 | the principle itself: a parameter-free theory keeps it, stated |
+| FORCING ARGUED | 6 | an argument that the principle forces it is written down; not proved |
+| ADMITTED | 2 | the principle allows it and does not force it; no route is named |
+| PRESSED | 4 | the notes argue against it standing as an input in its present form; no route is named |
+| RIGID | 1 | fixed by the geometry once the history is fixed; what stays chosen is named |
+| BACK-EDGE NAMED | 5 | a condition computed downstream that the choice must satisfy is named; none is built |
+| DICTIONARY | 6 | an identification: the loop does not pay it; it is earned only by a sealed prediction |
+| UNTOUCHED | 11 | the three notes name no route; the package holds the record's own |
+
+**An exit is on the table for 12 of the 38 inputs** (a forcing argument, rigidity, or a named back-edge). None is proved or built.
+
+| the choice | kind | route | what the notes say, and what main checked |
+|---|---|---|---|
+| what exists (PF1) | axiom | KEPT | the principle. The notes test its wording; they do not ask whether to keep it. |
+| the principle's mathematical form | identification | PRESSED | the ledger's formal statement is one reading. Its ambiguity attack (pre-registered, not run at the pin) asks whether the owner's words fix a form at all; where two faithful readings differ, the difference is a clause for the owner to rule on. |
+| the remainder cannot be exhausted (PF2) | axiom | KEPT | the ledger: it follows if the recursion never ends, and has to be reconciled with a loop that returns on itself. |
+| the method (PF3) | axiom | KEPT | not addressed; a method, not a number. |
+| two records | axiom | ADMITTED | the ledger: admitted, not forced by the words. Three or more records is the alternative (B1679). |
+| the unit shears | axiom | ADMITTED | the ledger: admitted; nothing in the words excludes longer shears. The loop's test on the silver and bronze backgrounds is the test named. |
+| no period | axiom | FORCING ARGUED | the ledger: finite order is a cancellation that completes, a fixed direction a side that never changes. Main (B1867): the formal statement removes finite order and not the fixed direction; a single shear meets its form of existing at every level. One clause short. |
+| the carrier | axiom | FORCING ARGUED | the ledger: if the difference between the two orders is not cancelled the group is free, and the puncture follows (the SM seat's B1380, not verified on main). Main (B1867): not commuting does not give free; a clause that nothing at all cancels is needed. |
+| reversible updates | axiom | FORCING ARGUED | the ledger: an act that merges two sides ends the distinction. One line; no alternative is exhibited. |
+| inverse moves are legal | bit | FORCING ARGUED | adopted by the owner on B1662's argument; the ledger agrees: there must be something to cancel with. |
+| positivity: the side of the mirror | bit | FORCING ARGUED | the ledger: forced up to the sign. Main (B1867): the normal form is a theorem, checked on every hyperbolic matrix with entries up to five; the sign is a separate bit, and the selection criterion decides it if that criterion stands. |
+| the selection criterion | discrete | FORCING ARGUED | the ledger: a fixed character is a place where nothing happened. Main (B1867): as an exclusion this removes every departure too (the run of six fixes twenty); as a minimum it is the reading GENESIS already grades an interpretation. LR is the one word with a single fixed character, so this row carries the whole selection of the object. |
+| the orientation | bit | PRESSED | the ledger: the principle does not force it and may speak against it. The non-orientable sibling is the alternative. |
+| which family is the object | discrete | UNTOUCHED | — |
+| the dictionary's link Λ | identification | DICTIONARY | — |
+| one unit of end data | discrete | UNTOUCHED | — |
+| the clock | bit | UNTOUCHED | the loop note takes the harmonic time of one history as forced (B1846). This input is the weave's clock, which weights threads, and the notes name no route for it; they repeat B1813's warning against a thread sum with a chosen weight. |
+| the structural theorem's external data | 2 × bit, real, 2 × discrete | BACK-EDGE NAMED | the loop note's fourth candidate: consistency conditions that cut an input to a finite list (B1229). It warns that each use is an identification. |
+| the modulus τ | 2 × real | RIGID | the loop note: given the history the metric is unique, so no continuous freedom enters, and the rule reads the modulus from a level surface. Still chosen: the history, point or weight, and which point. Two candidates are named for the point: a state, and a holder. |
+| the line's slope | discrete | BACK-EDGE NAMED | the design: a line on the fibre extends over the history exactly when the history fixes its character, so 'the departure fixes the line' is a condition and not a free premise. Main checked its exact facts (B1867). The condition cuts the lines to those the history fixes; it does not by itself pick one. |
+| the line's offset | discrete | BACK-EDGE NAMED | with the slope: one line, one condition. |
+| the Higgs direction | discrete | UNTOUCHED | the loop note lists it as chosen, and records B1823's negative against a holder fixing it. |
+| the up-conjugate reading | identification | DICTIONARY | — |
+| the normalisation: the end, the generations' metric, the channel weights | 3 × discrete | UNTOUCHED | the loop note lists the end and the metric on generations as chosen. |
+| the lepton factor | real | UNTOUCHED | — |
+| one address for all sectors | discrete | UNTOUCHED | — |
+| tree level at one scale, no running | identification | DICTIONARY | — |
+| a flat bundle on the fibre | ansatz | UNTOUCHED | the design takes the frame's flat bundle as the coefficient of its operator. That uses this input; it does not derive it. |
+| the generations as three images of one value | identification | DICTIONARY | — |
+| the class of lines | discrete | UNTOUCHED | — |
+| θ̄ | real | UNTOUCHED | — |
+| the framing of the read-out | discrete | UNTOUCHED | — |
+| the charge premise at level five | discrete | BACK-EDGE NAMED | the design: the charge premise is the same extension condition for a frame that uses the whole space at the level, the line premise for a frame on one line; which holds reduces to a question on the register (P-721). The loop note's third candidate, a level law, has B1855 against it. |
+| minimisation as the use of the action | discrete | PRESSED | the design's fork: one history by least action keeps this input; all allowed histories together drops it and owes a definition of their joint read-out. Length and volume disagree on what is selected (B1857). |
+| point or weight | bit | BACK-EDGE NAMED | the first candidate: the point is where the history's lightest state sits. The scalar ground state is the weight and gives no point, so the operator must have no zero mode. Designed; not run. |
+| the chiral premise | bit | PRESSED | the ledger: the first departure is chiral, and its mirror is the same departure on the other letter. Main (B1867): the swap of the letters is the mirror for every word, so a rule symmetric under the swap selects mirror pairs; a net hand needs the order bit. |
+| the block read as a ratio of scales | identification | DICTIONARY | — |
+| the content that runs | identification | DICTIONARY | — |
 
 **Not inputs of the theory:** 12 rules of the comparison (V:EARN-RULE, V:HELD, FL:14, FL:15, FL:17, FL:18, FL:19, FL:22, FL:23, FL:24, FL:25, FL:27), which say how a prediction is graded; and one tally (MC:PRICE).
 
@@ -156,7 +217,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 | WP-4.6 The predictions already on file | Which registered falsifiable claims are live, and what would test them? | main | STARTED (on file; waiting) | — |
 | WP-4.7 The agy lane's complete picture, on main | Which joints of the agy lane's frame does main verify, which does it refute, and does anything in it stand as a result on main? | main | STARTED | — |
 | WP-0.1 False or stale statements in foundation and front documents | Does any living page still state something the record has corrected? | main; the advisor seat re-audits | STARTED | — |
-| WP-0.10 One governing document, at the owner's goal | Which document governs, and does it state the goal as the owner has ruled it? | the owner; main | NOT STARTED | — |
+| WP-0.10 One governing document, at the owner's goal | Which document governs, and does it state the goal as the owner has ruled it? | main; the owner reads the amended text | STARTED | — |
 | WP-0.2 Debts that bear on current work | Do the value frame's candidate and the live prediction rest on anything unchecked? | main | NOT STARTED | — |
 | WP-0.4 Unverified premises and seat results under banked results | Does a banked structural result rest on a seat's word? | main | NOT STARTED | — |
 | WP-0.5 A green full suite on a fresh clone | Does everything reproduce for a reader with only the repository? | main | STARTED | — |
@@ -302,12 +363,12 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **Register:** P-757 (QUEUED).
 - **The audit's findings (11):** M1, M2, M3, M4, M5, M6, M7, M8, M9, M10, M11.
 
-**WP-0.10 — One governing document, at the owner's goal** (OWNER; NOT STARTED; owner: the owner; main)
+**WP-0.10 — One governing document, at the owner's goal** (DECLARE; STARTED; owner: main; the owner reads the amended text)
 
 - **The question:** Which document governs, and does it state the goal as the owner has ruled it?
-- **The first step:** the owner confirms the rulings the advisor seat relayed on 2026-11-10; then the places that cap the goal are amended, each keeping its original text with a dated note. The claim ceiling does not move: what may be asserted as achieved stays at what the record has earned.
+- **The first step:** the owner confirmed to main, on 2026-11-10, the rulings the advisor seat had relayed (the first eleven; P-758). Next, in one landing: the twelve places that cap the goal are amended together, each keeping its original text with a dated note, and the gate that bans a statement of aim is taught the difference between an aim and an arrival, with a planted test. The claim ceiling does not move: what may be asserted as achieved stays at what the record has earned.
 - **Closed when:** one document named as governing, the goal stated once and pointed to from the others, and no amended passage stating or implying arrival.
-- **Register:** P-758 (OWNER).
+- **Register:** P-758 (OWNER), P-767 (QUEUED).
 - **The audit's findings (4):** X1, X2, X3, X4.
 - **Relayed rulings:** the goal.
 
@@ -318,7 +379,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **Closed when:** the planted violation is refused; every arc upstream of a claimed prediction carries the fields; each weave-domain arc commits the same computation on a second thread; a chosen truncation is counted in the input budget.
 - **Register:** P-755 (OWNER), P-757 (QUEUED).
 - **The audit's findings (5):** W1, W2, W3, W4, W5.
-- **Relayed rulings:** the claim; the weave discipline; the fork inside it.
+- **Relayed rulings:** the claim; the weave discipline; the fork inside it; the gap, for every seat.
 
 **WP-0.12 — The count as an output, and the map on the desk** (DERIVE; NOT STARTED; owner: main)
 
@@ -341,6 +402,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **Closed when:** each face is a line of the input budget.
 - **Nodes (4):** G:PF1, G:PF2, G:PF3, G:PF1-FORM.
 - **Stated about:** weave 4.
+- **Relayed rulings:** stress-test the principle.
 
 **WP-1.2 — Two records and the punctured torus** (DECIDE; NOT STARTED; owner: main)
 
@@ -349,7 +411,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **Closed when:** a theorem from a named weaker premise, verified on main; or GM1 and GM4 stay declared, with B1679's equivalence stated.
 - **Nodes (4):** G:GM1, G:GM4, G:FK5, E:L01.
 - **Stated about:** thread 1, weave 3.
-- **Register:** P-321 (QUEUED), P-747 (QUEUED), P-221 (DONE).
+- **Register:** P-321 (QUEUED), P-747 (QUEUED), P-221 (DONE), P-764 (QUEUED).
 
 **WP-1.3 — The moves** (DECLARE; NOT STARTED; owner: main)
 
@@ -359,6 +421,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **Nodes (4):** G:GM2, G:GM3, G:GM5a, G:GM5b.
 - **Stated about:** weave 4.
 - **Also bears on nodes held elsewhere:** D:01.
+- **Register:** P-764 (QUEUED).
 
 **WP-1.4 — The swap and the hand** (DECIDE; NOT STARTED; owner: main)
 
@@ -370,6 +433,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **Stated about:** thread 3, weave 3.
 - **Also bears on nodes held elsewhere:** MC:HYP.
 - **Missing dependencies it works on:** X:HAND.
+- **Register:** P-764 (QUEUED), P-766 (QUEUED).
 
 **WP-1.5 — The root, selection, and thread results** (DECIDE; NOT STARTED; owner: main)
 
@@ -381,21 +445,21 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **Nodes (10):** G:SE1, G:FK9, G:GAP4, G:XGEN-PHYS, G:FK13, MC:REACH, FL:08, FL:18, FL:27, D:12.
 - **Stated about:** thread 2, weave 4.
 - **Missing dependencies it works on:** X:PARENT, X:SELECT, X:WEIGHT.
-- **Register:** P-755 (OWNER).
+- **Register:** P-755 (OWNER), P-764 (QUEUED).
 - **Relayed rulings:** the founding principle as the selection rule.
 
 **WP-1.6 — The law and the weight** (DECIDE; STARTED; owner: main; the owner for the law's reading)
 
 - **The question:** If everything allowed happens, what weighs it: does the execution itself force a weight, and does that weight single out one outcome?
 - **The first step:** on the record: the height's law under each clock, the walk's exit law, the sealed draw test. Not on the record: concentration. State what would count as concentration (an atom; a stationary point of a function the moves fix; a unique maximiser of a rate function), then compute under the move count.
-- **Closed when:** a weight that the grammar forces and under which one outcome is singled out, proved; or two distinct self-consistent outcomes exhibited, which refutes the claim of one outcome as the owner has stated it. A declared clock with typicality as what is predicted is the picture the owner has ruled against (relayed 2026-11-10, to be confirmed): it would be recorded as the claim not met, and it closes nothing.
+- **Closed when:** a weight that the grammar forces and under which one outcome is singled out, proved; or two distinct self-consistent outcomes exhibited, which refutes the claim of one outcome as the owner has stated it. A declared clock with typicality as what is predicted is the picture the owner has ruled against (relayed by the advisor seat and confirmed to main on 2026-11-10): it would be recorded as the claim not met, and it closes nothing.
 - **Nodes (5):** W:LAW, W:CLOCK, W:FLAT-SUM, T:POINT-WEIGHT, T:MINIM.
 - **Stated about:** thread 2, weave 3.
 - **Also bears on nodes held elsewhere:** D:12.
 - **Missing dependencies it works on:** X:TAU, X:WEIGHT.
-- **Register:** P-755 (OWNER), P-756 (QUEUED), P-439 (QUEUED), P-758 (OWNER), P-761 (QUEUED), P-762 (QUEUED).
+- **Register:** P-755 (OWNER), P-756 (QUEUED), P-439 (QUEUED), P-758 (OWNER), P-761 (QUEUED), P-762 (QUEUED), P-765 (OWNER).
 - **The audit's findings (2):** W6, W7.
-- **Relayed rulings:** the claim; the weave discipline; what self-consistent means; the first back-edge to try; the fork inside it; the founding principle as the selection rule.
+- **Relayed rulings:** the claim; the weave discipline; what self-consistent means; the first back-edge to try; the fork inside it; the founding principle as the selection rule; the gap, for every seat.
 
 **WP-1.7 — The dictionary** (DERIVE; NOT STARTED; owner: main)
 
@@ -445,7 +509,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 **WP-2.2 — The background, and whether the moves keep it** (DECIDE; STARTED; owner: main)
 
 - **The question:** Which of the model's unselected data are kept by every move, and which are a choice of thread?
-- **The first step:** done on main (B1866): every move keeps the quaternion holonomy, the odd spin structure and the trivial character; one background's pair of lines is not kept and has an orbit of three; the lift's sign is not a separate choice. Main's exploratory reading that one lift is kept by every move is WITHDRAWN (B1866): the agy lane caught it, and the physical lane's own formula shows it. Next: that the lanes' model's data are these, once the action is verified on main, and what the sum over the three backgrounds is physically.
+- **The first step:** done on main (B1866): every move keeps the quaternion holonomy, the odd spin structure and the trivial character; one background's pair of lines is not kept and has an orbit of three; the lift's sign is not a separate choice. Main's exploratory reading that one lift is kept by every move is WITHDRAWN (B1866): the agy lane caught it, and the physical lane's own formula shows it. Kept is not selected (the physical lane's review, checked in B1866 § 6): on one background a second character is fixed as well, and a model may sum over an orbit that no single move keeps. Next: that the lanes' model's data are these, once the action is verified on main; whether anything forces the model to use the kept data; and what the sum over the three backgrounds is physically.
 - **Closed when:** each datum labelled forced, selected by covariance, or declared, with the action computed and locked.
 - **Nodes (5):** E:L03, E:L05, E:L06, E:L07, E:Q3.
 - **Stated about:** thread 5.
@@ -504,7 +568,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 **WP-3.2 — The register-to-field join** (DECIDE; STARTED; owner: main)
 
 - **The question:** Is the lanes' three the weave's three?
-- **The first step:** done on main (B1866): the weave's triplet is the odd twist chi_15 of the symmetric square of the level-2 doublet, a module of the double cover, and the conjugate of the squared theta constants over the cube of eta; on one background only the stabiliser acts, so the first outcome is refuted there; the lanes' one-form triplet over the three backgrounds is the weave's after the odd character chi_9. Next: whether that character is physical, that is, whether the modes carry the half-weight; and which modes exist on a background (the kernel theorem).
+- **The first step:** the algebraic half is done on main (B1866): the weave's triplet is the odd twist chi_15 of the symmetric square of the level-2 doublet, a module of the double cover, and the conjugate of the squared theta constants over the cube of eta; on one background only the stabiliser acts, so the first outcome is refuted there; the lanes' one-form triplet over the three backgrounds is the weave's after an odd character -- chi_9 for the signs the agy lane's relay states, chi_21 for the matrices it inserts, which disagree (the physical lane's finding, verified exactly in B1866 § 6). The physical half is open: which signs the one-form line carries; whether the odd character is physical, that is, whether the modes carry the half-weight; and the stabiliser's action on the actual harmonic modes of a background, with its transport between the three (which needs the kernel theorem).
 - **Closed when:** the odd character ruled physical or not by a derivation; then an arc with the exact statement, the family structure it implies, and whether a count may be called a family count.
 - **Needs:** WP-3.1.
 - **Nodes (3):** E:J5, MC:GEN, D:01.
@@ -803,8 +867,8 @@ main adds two parts.
 1. A value is sealed only as DERIVED. Everything it uses is proved, refuted or a foundation item; an open, conditional, lane-graded or debt node upstream keeps the seal closed, and so does one arc without the certificate.
 2. The certificate is a generated file: the list of everything the value uses, with each part above per arc. The seal is refused without it. A dry run on the record's candidate, by the advisor seat, was refused on six grounds before any statistical question.
 3. The comparison uses the instruments the record already holds, and no parallel protocol: the foundation's seven conditions for earning a dictionary by prediction, the input-completeness ledger's checklist for any cell that meets measured physics, and one look ledger. The owner's hold on the two unspent targets stands until the owner lifts it.
-4. Parameter-free keeps the meaning the record gave it: zero free dimensionless parameters, with at most two declared anchors sealed in advance, and more outputs than anchors. If the owner confirms the claim of one self-consistent outcome as relayed, a fitted or chosen continuous input counts against the claim, not as a parameter of it.
-5. If the owner confirms the relayed ruling on the count, the headline is printed from the graph and typed nowhere: confirmed, refuted, predictions registered, not reached.
+4. Parameter-free keeps the meaning the record gave it: zero free dimensionless parameters, with at most two declared anchors sealed in advance, and more outputs than anchors. The owner has confirmed the claim of one self-consistent outcome (2026-11-10): a fitted or chosen continuous input counts against the claim, not as a parameter of it.
+5. The owner has confirmed the ruling on the count (2026-11-10): the headline is to be printed from the graph and typed nowhere -- confirmed, refuted, predictions registered, not reached. Until that is built (WP-0.12) the typed count stands and is marked as typed.
 
 ## 8. The advisor seat's audit, finding by finding
 
@@ -875,8 +939,8 @@ FIXED: main meets the whole row as main reads it; that seat's re-audit decides.
 | V3 | evidence lives in an ignored directory | WP-0.2 | OPEN | — |
 | V4 | the candidate has a forking path | WP-0.2 | REPRODUCED | in part, by main's own reading of the declaration's history with the new seal gate: three later commits edited the declaration of ends after it was first committed, and the end that the candidate's row uses was entered 75 minutes after the first declaration, in a dated note that says the look had not yet run. Not yet checked: the audit's two figures for the screen under the plan's committed arms, and its remark on the fitted factor |
 | V5 | three looks missing from the look ledger; two conventions in one pipeline | WP-0.2 | OPEN | — |
-| X1 | twelve places in the governing documents cap the goal | WP-0.10 | OPEN | waits on the owner's confirmation |
-| X2 | three documents each claim supremacy | WP-0.10 | OPEN | waits on the owner's confirmation |
+| X1 | twelve places in the governing documents cap the goal | WP-0.10 | OPEN | the owner confirmed the ruling on the goal to main on 2026-11-10; the amendment of the twelve places is the next step of its package and is not made yet |
+| X2 | three documents each claim supremacy | WP-0.10 | OPEN | the same landing names one governing document; not made yet |
 | X3 | the printed identification price undercounts, and its script fails | WP-0.10 | OPEN | — |
 | X4 | scope tags are absent from most verdict files | WP-0.10 | OPEN | covered by the declared domain (WP-0.11) |
 | R1 | the full suite fails on a clean full clone | WP-0.5 | PARTLY FIXED | Review 77's own fresh-clone suite: 7 failed, of which B1854's lock and the package manifest are fixed; the two attachment locks are undiagnosed; the float-as-text locks pass on main's machine and are not yet made exact |
@@ -889,23 +953,30 @@ FIXED: main meets the whole row as main reads it; that seat's re-audit decides.
 | W6 | plenitude is not a foundation item, and nothing supplies the weight | WP-1.6 | REPRODUCED | the closure map's eleventh missing dependency (B1858, the same day, before the audit was read): the law fixes what exists and not how much of each |
 | W7 | a weighting rule chosen by hand is the thread mistake one level up | WP-1.6 | REPRODUCED | the map's node for the clock is graded CHOSEN; a thread picked by hand and a flat average are the two ways of supplying the weight without deriving it |
 
-## 9. The owner's rulings of 2026-11-10, as relayed
+## 9. The owner's rulings of 2026-11-10: relayed by the advisor seat, and confirmed to main
 
 The advisor seat recorded them and wrote that main confirms each with the owner before acting on it. That is also
-main's standing rule for a relayed ruling. No governing document is changed on their strength and nothing is banked
-on it. The plan is drafted to be consistent with them, in the packages below; if the owner corrects one, those change.
+main's standing rule for a relayed ruling. Main asked about the 11 then relayed. The owner answered main on 2026-11-10:
 
-| ruling | in the seat's words | packages |
-|---|---|---|
-| the goal | "the programme's only goal is a parameter-free theory of everything" | WP-0.10 |
-| the claim | "one self-consistent outcome" | WP-1.6, WP-0.11 |
-| attribution | "Commits as `originaxiom`, no AI trailer" | WP-0.7 |
-| the weave discipline | "the owner agreed to the five proposals" | WP-0.11, WP-1.6 |
-| the count as an output | "the count is computed, not typed" | WP-0.12 |
-| the headline's form | "is the number of value rows on the whole map" | WP-0.12 |
-| the map on the desk | "the map is agreed, and main builds it as part of the dashboard already built" | WP-0.12 |
-| what self-consistent means | "means the closed loop" | WP-1.6 |
-| the first back-edge to try | "back-edge A first" | WP-1.6, WP-4.1 |
-| the fork inside it | "is about A-all" | WP-1.6, WP-0.11 |
-| the founding principle as the selection rule | "try the founding principle as the selection rule" | WP-1.5, WP-1.6 |
+> "yes, but i also wanr your opinion on all"
+
+So 11 are confirmed, and main's opinion on each, which the owner asked for, is in the table. 2 were relayed after main had
+asked; they are asked and not acted on. A confirmed ruling is carried out in its packages, in landings of its own;
+this page changes no governing document.
+
+| ruling | in the seat's words | state | packages | main's opinion |
+|---|---|---|---|---|
+| the goal | "the programme's only goal is a parameter-free theory of everything" | CONFIRMED | WP-0.10 | agree: the aim may be stated, arrival may not; change all twelve places at once and keep the ceiling |
+| the claim | "one self-consistent outcome" | CONFIRMED | WP-1.6, WP-0.11 | agree it is the claim to state, because two outcomes exhibited refute it; one outcome can only mean one orbit under the symmetries, a history with its mirror |
+| attribution | "Commits as `originaxiom`, no AI trailer" | CONFIRMED | WP-0.7 | agree; already the practice. The gate does not read commit messages and should |
+| the weave discipline | "the owner agreed to the five proposals" | CONFIRMED | WP-0.11, WP-1.6 | agree with all five; the second-thread control is the most valuable; plenitude enters the foundation with the weight listed as open |
+| the count as an output | "the count is computed, not typed" | CONFIRMED | WP-0.12 | agree; the arcs' dependency lists mix what is used with what is cited, so the edges need a type first |
+| the headline's form | "is the number of value rows on the whole map" | CONFIRMED | WP-0.12 | agree, with one safeguard: the second number's list is frozen at a named commit before any comparison |
+| the map on the desk | "the map is agreed, and main builds it as part of the dashboard already built" | CONFIRMED | WP-0.12 | agree; every status computed by the weakest link, so the picture cannot look better than the mathematics |
+| what self-consistent means | "means the closed loop" | CONFIRMED | WP-1.6 | agree; on main's map no result returns to fix an input (B1867). The loop is an equation and not a circular argument, and it is not shown to be the only route |
+| the first back-edge to try | "back-edge A first" | CONFIRMED | WP-1.6, WP-4.1 | agree as the first try: its opening test, whether a state exists, is a yes or no nobody chose. As designed it uses one input of the budget and does not remove it |
+| the fork inside it | "is about A-all" | CONFIRMED | WP-1.6, WP-0.11 | agree: it is the owner's law applied consistently. It closes nothing yet, since the joint read-out of all histories has no definition |
+| the founding principle as the selection rule | "try the founding principle as the selection rule" | CONFIRMED | WP-1.5, WP-1.6 | worth doing, and the result is honest: the rule picks the run of six only if the level is put in. To be verified on main (P-762) |
+| stress-test the principle | "stress-test the principle; start with the ambiguity attack" | ASKED | WP-1.1 | — |
+| the gap, for every seat | "the entire programme is an open one-way line, not a closed loop" | ASKED | WP-1.6, WP-0.11 | — |
 

@@ -130,6 +130,38 @@ The work order is the physical lane's (`WORK_ORDER.md` at `521e6f241`, read in f
 - **The five real numbers** are the modulus (two), the lepton factor, θ̄, and the structural theorem's one scale. The
   scale is dimensionful: the one such anchor the record allows.
 
+## 5b. Added 2026-11-10, later: how each input could leave the budget (B1867)
+
+*After the owner's "refetch all seats". The advisor seat's three notes (its forcing ledger, its statement of the
+closed loop, its design of the first back-edge) were read in full at `6ab2bbdb2` and checked by main in B1867.*
+
+The budget of § 5 counts what is put in. It did not say how any of it could come out. It does now: every input
+carries one line, of one of eight kinds, and the builder refuses an input without one (its fifteenth rule, with
+planted controls).
+
+| route | inputs | what it means |
+|---|---|---|
+| kept | 3 | the principle itself |
+| forcing argued | 6 | an argument that the principle forces it is written; not proved |
+| admitted | 2 | the principle allows it and does not force it; no route named |
+| pressed | 4 | the notes argue against it standing as it is; no route named |
+| rigid | 1 | fixed by the geometry once the history is fixed |
+| back-edge named | 5 | a condition computed downstream that it must satisfy is named; none built |
+| dictionary | 6 | an identification: earned only by a sealed prediction |
+| untouched | 11 | the three notes name no route |
+
+**An exit is on the table for 12 of the 38.** None is proved or built. Of the six forcing arguments, main found
+three one clause short (B1867 § 3).
+
+**What the table is and is not.** It is a harvest of three notes onto the budget, with main's checks beside each
+row. It is not a sweep of the record: "untouched" says only that these notes name no route, and the input's package
+holds the record's own. It changes no grade.
+
+**The relayed rulings are thirteen now** (two more the same evening: to stress-test the principle, and the owner's
+statement that the programme is a line and not a loop). The owner confirmed the first eleven to main the same evening, and
+asked for main's opinion on each; both are in `PROGRAMME.md` § 9. The two relayed after main had asked are asked
+(P-758, P-765). Carrying out the eleven is P-767; this arc changes no governing document.
+
 ## 6. The advisor seat's audit, and the owner's rulings as relayed
 
 - **The seat** is an audit session working at the owner's word (branch `cld/cool-hamilton-k9eqvo`, registered here; rows
@@ -161,6 +193,8 @@ The work order is the physical lane's (`WORK_ORDER.md` at `521e6f241`, read in f
   drafted to be consistent with them, and says where: the weight's closing condition (R2), the weave discipline's
   package (R4), the count and the map (R5 to R7), and two sentences of the seal's rule, each marked "if the owner
   confirms". If the owner corrects one, those parts change.
+  *[2026-11-10, later: the owner confirmed the eleven relayed rulings to main. The two sentences of the seal's rule
+  now state them as confirmed, and `PROGRAMME.md` § 9 carries the owner's words and main's opinion on each.]*
 
 ## 7. The certificate
 

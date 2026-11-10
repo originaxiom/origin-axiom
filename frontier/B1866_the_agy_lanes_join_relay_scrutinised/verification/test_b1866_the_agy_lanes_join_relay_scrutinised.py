@@ -87,6 +87,59 @@ def test_the_triplet_is_the_odd_twist_and_no_even_one():
     assert all(len(_group([z ** m * sym2(DL), z ** (-m) * sym2(DR)], 3)) != 96 for m in range(0, 24, 2))
 
 
+def test_the_physical_lanes_review_is_checked_exactly():
+    """the addendum's facts, recomputed here in exact arithmetic with this file's own code (exponents of the 24th root of unity)"""
+    def mul(A, B): return (tuple(A[0][B[0][j]] for j in range(3)), tuple((B[1][j] + A[1][B[0][j]]) % 24 for j in range(3)))
+    def inv(A):
+        perm, exps = [0] * 3, [0] * 3
+        for j in range(3):
+            perm[A[0][j]] = j
+            exps[A[0][j]] = (-A[1][j]) % 24
+        return (tuple(perm), tuple(exps))
+    def scal(k, A): return (A[0], tuple((e + k) % 24 for e in A[1]))
+    def group(gens):
+        one = ((0, 1, 2), (0, 0, 0))
+        seen, fr = {one}, [one]
+        while fr:
+            nx = []
+            for a in fr:
+                for g in gens:
+                    x = mul(a, g)
+                    if x not in seen:
+                        seen.add(x)
+                        nx.append(x)
+            fr = nx
+        return seen
+    XL, XR = ((0, 2, 1), (21, 3, 3)), ((1, 0, 2), (21, 21, 3))                 # the triplet, monomial: the conjugates of part 4's matrices
+    assert len(group([XL, XR])) == 96
+    orders = [len(group([scal(k, XL), scal(-k, XR)])) for k in range(24)]
+    assert [k for k in range(24) if orders[k] == 96] == [0, 6, 12, 18] and sorted(set(orders)) == [24, 48, 72, 96, 144, 288]
+    # the review's F1: the displayed one-form matrices carry S = -1 on the branch S fixes, and L^2 = -1 there
+    AL, AR = scal(3, XL), scal(-3, XR)
+    S = mul(mul(AL, inv(AR)), AL)
+    fixed = [j for j in range(3) if S[0][j] == j]
+    assert len(fixed) == 1 and S[1][fixed[0]] == 12 and mul(AL, AL)[1][fixed[0]] == 12
+    assert len(group([AL, AR])) == 24 and (scal(21, AL), scal(-21, AR)) == (XL, XR)
+    NL, NR = scal(12, AL), scal(12, AR)                                         # the repaired pair
+    assert mul(mul(NL, inv(NR)), NL)[1][fixed[0]] == 0 and (scal(9, NL), scal(-9, NR)) == (XL, XR)
+    # a control that can fail: a twist that is not the triplet's
+    assert (scal(9, AL), scal(-9, AR)) != (XL, XR)
+    # F5: (1/2)^8 pairs integrally with every root of E8
+    import itertools
+    from fractions import Fraction as F
+    ints = [tuple((si if k == i else sj if k == j else 0) for k in range(8)) for i in range(8) for j in range(i + 1, 8) for si in (1, -1) for sj in (1, -1)]
+    halves = [s for s in itertools.product((F(1, 2), F(-1, 2)), repeat=8) if sum(1 for x in s if x < 0) % 2 == 0]
+    assert len(ints) + len(halves) == 240
+    assert all((sum(v) * F(1, 2)).denominator == 1 for v in ints + halves)
+    assert any((sum(v[:5]) * F(1, 2)).denominator != 1 for v in halves)         # the control: the Spin(10) half alone is not trivial on them
+    out = (HERE / "join_scrutiny_run.txt").read_text(encoding="utf-8")
+    for s in ("the twists with order 96 are k = [0, 6, 12, 18]", "the signs are (-1, -1), not the (-1, +1) the relay states",
+              "its order in Spin(10) x Spin(6) is 4", "fixed by the stabiliser of one background alone (L^2 and S): [('0', '0'), ('1/2', '1/2')]"):
+        assert s in out, s
+    f = (HERE.parent / "FINDINGS.md").read_text(encoding="utf-8")
+    assert "## 6. Added the same evening" in f and "χ₂₁" in f
+
+
 def test_mains_exploratory_note_is_withdrawn_where_it_stood():
     src = (ROOT / "frontier" / "B1861_the_closure_programme" / "verification" / "programme_source.py").read_text(encoding="utf-8")
     assert "WITHDRAWN (B1866)" in src and "A first exploratory reading: of the two coherent lifts" not in src

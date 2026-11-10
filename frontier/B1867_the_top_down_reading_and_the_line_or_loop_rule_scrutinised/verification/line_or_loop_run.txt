@@ -1,0 +1,18 @@
+the map: 268 nodes, 286 edges, 11 edge kinds; the budget's inputs on it: 51 nodes
+edges whose target is an input, by kind: answers 1, applies-under 13, bears-on 4, reads 2, requires 39, same-as 2
+  of a determining kind (answers, follows-from, candidate-for): 1
+every edge of a determining kind on the map (8):
+  E:J5      (missing-join, layer 8) --candidate-for--> W:T       (theorem, layer 3)
+  E:L10     (claim, layer 8) --candidate-for--> W:T       (theorem, layer 3)
+  G:GM4     (premise, layer 1) --answers--> G:FK5     (fork, layer 3)
+  G:GM5c    (fork, layer 1) --answers--> G:FK3     (fork, layer 3)
+  G:SE2     (choice, layer 2) --answers--> G:FK2     (fork, layer 3)   [target is an input]
+  TAG:LAMBDA (premise, layer 3) --answers--> G:FK11    (fork, layer 3)
+  TAG:UNIT  (premise, layer 3) --answers--> G:FK10    (fork, layer 3)
+  V:0OF19   (record, layer 5) --follows-from--> V:SIX     (reading, layer 5)
+BACK-EDGES (a result downstream that fixes, answers or selects an input upstream): 0
+  the one determining edge into an input, G:SE2 --answers--> G:FK2, has an input as its source too (choice, layer 2 before layer 3): one choice under two names, not a result returning
+control (can fail): with one planted edge 'W:T answers G:SE2' the count is 1
+results that require an input or are proved under one, by the input's layer: layer 1: 11, layer 2: 4, layer 3: 5, layer 4: 7, layer 5: 16, layer 6: 5, layer 7: 4
+so on main's map the statement holds as stated: every edge into an input is a dependence on it, and no result returns to fix one.
+what the map cannot show: a relation the record holds in prose and the map does not carry as an edge. One is named by the advisor seat (the line must extend over the history); part 2, section C, checks it in integers.

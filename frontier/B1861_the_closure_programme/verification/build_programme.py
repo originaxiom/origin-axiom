@@ -22,8 +22,13 @@ record's own pages, and this arc's programme_source.py. It REFUSES to build when
  11. an obligation's phrase is not in the work order at its pinned revision;
  12. a finding of the advisor seat's audit has no package or no state, a state other than OPEN has no note, or the
      programme names a finding the audit does not hold;
- 13. a relayed ruling or a quoted sentence of that seat is not in its file as quoted, or a ruling has no package;
+ 13. a relayed ruling or a quoted sentence of that seat is not in its file as quoted, or a ruling has no package; a ruling is
+     marked confirmed that is not among the relayed ones, or without the owner's words and date, or without main's opinion
+     (which the owner asked for with the confirmation); an opinion is written for a ruling that is not confirmed;
  14. a row of the record's own checklist for a theory of everything has no package, or a quoted word of the record is gone.
+ 15. an input of the budget has no line saying how it could leave the budget (or that no route is named), the line's kind is
+     outside the list, a route is named and not described, a dictionary entry is not an identification, a kept entry is
+     not an axiom, or a line is written for something that is not an input.
 Rules 11 to 13 read other seats' branches. Where this clone does not hold a revision, the rule is NOT CHECKED, the
 statistics say so, and the last line printed says so.
 
@@ -302,6 +307,23 @@ def build(nodes=None, edges=None):
             fails.append("a FITTED node is not typed as a real number: %s" % m)
         elif by[m]["grade"] == "ANSATZ" and "ansatz" not in entry_of.get(m, {}).get("kinds", {}):
             fails.append("an ANSATZ node is not typed as an ansatz: %s" % m)
+    # ---- 15: every input says how it could leave the budget, or that no route is named
+    names = [i["name"] for i in S.INPUTS]
+    for n_ in names:
+        if n_ not in S.EXITS:
+            fails.append("an input of the budget has no line saying how it could leave: %s" % n_)
+        elif S.EXITS[n_][0] not in S.EXIT_KINDS:
+            fails.append("the budget's %r has an exit of an unknown kind: %s" % (n_, S.EXITS[n_][0]))
+        elif S.EXITS[n_][0] == "DICTIONARY" and set(next(i for i in S.INPUTS if i["name"] == n_)["kinds"]) != {"identification"}:
+            fails.append("the budget's %r is typed a dictionary entry and is not an identification" % n_)
+        elif S.EXITS[n_][0] == "KEPT" and set(next(i for i in S.INPUTS if i["name"] == n_)["kinds"]) != {"axiom"}:
+            fails.append("the budget's %r is typed kept and is not an axiom" % n_)
+        elif S.EXITS[n_][0] not in ("DICTIONARY", "UNTOUCHED") and not S.EXITS[n_][1]:
+            fails.append("the budget's %r names a route and does not say what it is" % n_)
+    for n_ in S.EXITS:
+        if n_ not in names:
+            fails.append("an exit is written for something that is not an input of the budget: %s" % n_)
+    exits = collections.Counter(S.EXITS[n_][0] for n_ in names if n_ in S.EXITS)
     lane_inputs = sorted(n["id"] for n in nodes if n["grade"] == "LANE-INPUT")
     if lane_inputs != sorted(S.LANE_INPUT_NOTE):
         fails.append("the lanes' supplied inputs are not the ones listed: map %s, listed %s" % (lane_inputs, sorted(S.LANE_INPUT_NOTE)))
@@ -371,6 +393,17 @@ def build(nodes=None, edges=None):
     for name, q, ps in S.RULINGS:
         if not ps or any(x not in wp for x in ps):
             fails.append("the relayed ruling %r has no package" % name)
+    names_r = [name for name, q, ps in S.RULINGS]
+    for name in S.CONFIRMED:
+        if name not in names_r:
+            fails.append("a ruling is marked confirmed and is not among the relayed rulings: %s" % name)
+        if name not in S.OPINION or not S.OPINION[name]:
+            fails.append("the owner asked for main's opinion on every confirmed ruling; none is written for: %s" % name)
+    for name in S.OPINION:
+        if name not in S.CONFIRMED:
+            fails.append("an opinion is written for a ruling that is not confirmed: %s" % name)
+    if S.CONFIRMED and not (S.CONFIRMATION[0] and S.CONFIRMATION[1]):
+        fails.append("rulings are marked confirmed with no date or no words of the owner")
 
     # ---- 14: the record's own checklist and words
     toe = norm((ROOT / "docs" / "TOE_REQUIREMENTS_LEDGER.md").read_text(encoding="utf-8"))
@@ -435,7 +468,10 @@ def build(nodes=None, edges=None):
         independent_choices=len(S.INPUTS), budget=dict((k, budget.get(k, 0)) for k in KINDS), budget_items=sum(budget.values()),
         rules_of_the_comparison=len(S.RULES), lanes_supplied_inputs=len(lane_inputs), present_inputs=len(inputs_now),
         candidate_frame_joints=len(sb_joints),
+        exits_by_kind={k: exits.get(k, 0) for k in S.EXIT_KINDS},
+        inputs_with_an_exit_on_the_table=sum(exits.get(k, 0) for k in ("FORCING ARGUED", "RIGID", "BACK-EDGE NAMED")),
         audit_findings=len(S.FINDINGS), audit_findings_by_state={s: fstate.get(s, 0) for s in S.FINDING_STATES}, relayed_rulings=len(S.RULINGS),
+        rulings_confirmed_by_the_owner_to_main=len(S.CONFIRMED), rulings_asked=len(S.RULINGS) - len(S.CONFIRMED),
         headline_results_that_are_conditional_results=cond_heads,
         headline_results_not_yet_results_on_main=[h for h in S.HEADLINES if h not in waits],
         open_choices_under_each_conditional_headline={h: len(waits[h]["premises"]) for h in cond_heads},
@@ -467,7 +503,8 @@ def render(B):
           "- **Main's spine presently holds %d inputs as the record lists them** (§ 3): %s. The lanes' model adds %d supplied inputs of its own, not typed here."
           % (st["independent_choices"], ", ".join("%d %s" % (v, PLURAL[k]) for k, v in st["budget"].items()), st["lanes_supplied_inputs"]),
           "- **%d findings of the advisor seat's audit** are each in a package (§ 8): %s." % (st["audit_findings"], ", ".join("%s %d" % (k.lower(), v) for k, v in st["audit_findings_by_state"].items())),
-          "- **%d rulings of the owner, as that seat relayed them,** are each mapped to a package and wait for the owner's confirmation (§ 9)." % st["relayed_rulings"],
+          "- **%d rulings of the owner, as that seat relayed them,** are each mapped to a package. The owner confirmed %d of them to main on %s; %d, relayed after main had asked, are asked (§ 9)." % (
+              st["relayed_rulings"], st["rulings_confirmed_by_the_owner_to_main"], S.CONFIRMATION[0], st["rulings_asked"]),
           ""]
     # ---- milestones
     L += ["## 2. The three milestones", "",
@@ -496,6 +533,21 @@ def render(B):
         kinds = ", ".join(("%d × %s" % (v, k)) if v > 1 else k for k, v in i["kinds"].items()) + (" (a functional form from a menu)" if i.get("form") else "")
         L.append("| %s%s | %s | %s | %s | %s |" % (cell(i["name"]), (" — " + cell(i["note"])) if i["note"] else "", kinds, ", ".join(i["members"]),
                                               ", ".join(i["weave_or_thread"]) or "—", ", ".join(i["packages"])))
+    L += ["", "### How each input could leave the budget", "",
+          "Read from three notes of the advisor seat (its forcing ledger, its statement of the closed loop, its design of the first",
+          "back-edge; pinned at `%s`), each read in full and checked by main in B1867. This is a harvest of those notes onto the" % S.ADVISOR[0],
+          "budget. It is not a sweep of the record, and it changes no grade: an argument is not a proof, and a named back-edge is not",
+          "a built one.", "",
+          "| kind | inputs | what it means |", "|---|---|---|"]
+    for k, v in S.EXIT_KINDS.items():
+        L.append("| %s | %d | %s |" % (k, st["exits_by_kind"][k], cell(v)))
+    L += ["", "**An exit is on the table for %d of the %d inputs** (a forcing argument, rigidity, or a named back-edge). None is proved or built." % (
+              st["inputs_with_an_exit_on_the_table"], st["independent_choices"]), "",
+          "| the choice | kind | route | what the notes say, and what main checked |", "|---|---|---|---|"]
+    for i in S.INPUTS:
+        kinds = ", ".join(("%d × %s" % (v, k)) if v > 1 else k for k, v in i["kinds"].items())
+        ek, et = S.EXITS[i["name"]]
+        L.append("| %s | %s | %s | %s |" % (cell(i["name"]), kinds, ek, cell(et) or "—"))
     L += ["", "**Not inputs of the theory:** %d rules of the comparison (%s), which say how a prediction is graded; and one tally (%s)."
           % (len(S.RULES), ", ".join(S.RULES), ", ".join(S.TALLIES)), "",
           "**Outside this budget:** the lanes' conditional model has %d supplied inputs of its own. Main has not typed them, because main has not verified the model:" % len(S.LANE_INPUT_NOTE), ""]
@@ -612,13 +664,16 @@ def render(B):
     for fid in sorted(S.FINDINGS, key=fkey):
         f = S.FINDINGS[fid]
         L.append("| %s | %s | %s | %s | %s |" % (fid, cell(f["short"]), f["wp"], f["state"], cell(f["note"]) or "—"))
-    L += ["", "## 9. The owner's rulings of 2026-11-10, as relayed", "",
+    L += ["", "## 9. The owner's rulings of 2026-11-10: relayed by the advisor seat, and confirmed to main", "",
           "The advisor seat recorded them and wrote that main confirms each with the owner before acting on it. That is also",
-          "main's standing rule for a relayed ruling. No governing document is changed on their strength and nothing is banked",
-          "on it. The plan is drafted to be consistent with them, in the packages below; if the owner corrects one, those change.", "",
-          "| ruling | in the seat's words | packages |", "|---|---|---|"]
+          "main's standing rule for a relayed ruling. Main asked about the %d then relayed. The owner answered main on %s:" % (len(S.CONFIRMED), S.CONFIRMATION[0]),
+          "", "> \"%s\"" % S.CONFIRMATION[1], "",
+          "So %d are confirmed, and main's opinion on each, which the owner asked for, is in the table. %d were relayed after main had" % (len(S.CONFIRMED), len(S.RULINGS) - len(S.CONFIRMED)),
+          "asked; they are asked and not acted on. A confirmed ruling is carried out in its packages, in landings of its own;",
+          "this page changes no governing document.", "",
+          "| ruling | in the seat's words | state | packages | main's opinion |", "|---|---|---|---|---|"]
     for name, q, ps in S.RULINGS:
-        L.append("| %s | \"%s\" | %s |" % (name, cell(q), ", ".join(ps)))
+        L.append("| %s | \"%s\" | %s | %s | %s |" % (name, cell(q), "CONFIRMED" if name in S.CONFIRMED else "ASKED", ", ".join(ps), cell(S.OPINION.get(name, "")) or "—"))
     L.append("")
     return "\n".join(L) + "\n"
 
@@ -629,8 +684,8 @@ def main():
         (ARC / "PROGRAMME.md").write_text(render(B), encoding="utf-8")
         out = dict(stats=B["stats"], packages=B["packages"], waits=B["waits"], closure=B["closure"], debt_of=B["debt_of"],
                    inputs=S.INPUTS, rules=S.RULES, tallies=S.TALLIES, certificate=S.CERTIFICATE, value_status=S.VALUE_STATUS,
-                   seal_rule=S.SEAL_RULE, findings=S.FINDINGS, rulings=S.RULINGS, released=B["released"], map_dependencies=B["proj"],
-                   given=S.GIVEN, also=S.ALSO)
+                   seal_rule=S.SEAL_RULE, findings=S.FINDINGS, rulings=S.RULINGS, confirmed=S.CONFIRMED, confirmation=list(S.CONFIRMATION), opinion=S.OPINION, released=B["released"], map_dependencies=B["proj"],
+                   given=S.GIVEN, also=S.ALSO, exits={k: list(v) for k, v in S.EXITS.items()}, exit_kinds=S.EXIT_KINDS)
         (ARC / "PROGRAMME.json").write_text(json.dumps(out, indent=1, ensure_ascii=False, sort_keys=True) + "\n", encoding="utf-8")
         print("written: PROGRAMME.md, PROGRAMME.json")
     print(json.dumps(B["stats"], indent=1, ensure_ascii=False))

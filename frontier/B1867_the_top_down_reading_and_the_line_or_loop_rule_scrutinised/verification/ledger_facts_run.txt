@@ -1,0 +1,22 @@
+A. The forcing ledger's cited facts
+  GM5d's alternative: L^5 R^-1 = ((-4, 5), (-1, 1)) has trace -3; it is conjugate to -LR = ((-2, -1), (-1, -1)) in SL(2, Z), by g = ((-2, 3), (-1, 1))
+  GM5d: of the 168 hyperbolic matrices with entries between -5 and 5, a positive word with both letters and a conjugator g with g (+-A) g^-1 = the word are found for 168
+    (84 of them have negative trace and are minus a positive word: the sign is a separate bit)
+  SE1: over the 777 cyclic positive words of length 2 to 12 with both letters, the number of fixed fibre characters |det(W - 1)| equals tr - 2 for all; it is 1 for ['LR'] only
+       with the other sign it is |det(-W - 1)| = tr + 2, never 1: at least 5 (so 'no fixed character' also decides the sign left open by positivity)
+       the run of 6, L^6 R L R: trace 22, so it fixes 20 characters; the least over all words other than LR is 2
+       the alternative named beside GM3: L R^-1 = ((0, 1), (-1, 1)) has trace 1, order 6 (its sixth power is the identity: True), and fixes 1 character: SE1 alone admits it, and GM3 removes it
+       SnapPy: the torsion of the bundle's first homology equals that number on 135 of 135 words of length up to 9; and b+-LR is m003 (True), with torsion 5 = 3 + 2
+B. Where a ledger row needs a clause that the formal statement v0 does not contain (exhibited in integers)
+  1. GM3 (the fixed direction): L^5 = ((1, 5), (0, 1)) is the identity mod 5 (True) and is not the identity (True); no power of L is the identity. v0's clause removes finite order, not this.
+  2. GM4 (free, not only non-commuting): in the integer Heisenberg group, ab differs from ba (True), and the commutator commutes with a and b (True, True): two acts that do not commute and are not free.
+  3. SE1 (two signs of one relation): the run of 6 equals the golden word LRLR mod 5 (True): the level cannot tell them apart, and this is what selects it;
+     yet it fixes 20 characters, and every word other than LR fixes at least 2. As an exclusion, 'a fixed character is a place where nothing happened' removes every departure too.
+C. The first back-edge design's exact facts
+  |det(LR - 1)| = 1, |det(LR + 1)| = 5; the points of order 5 that LR sends to their inverse (column vectors): [(1, 2), (2, 4), (3, 1), (4, 3)]
+    (6)          closed by (LR)^k, k = 1, 2, 3: the action on that line is ['+', '-', '+']
+    (2,1,2,1,2)  closed by (LR)^k, k = 1, 2, 3: the action on that line is ['-', '+', '-']
+    (2,1,1,1,2)  closed by (LR)^k, k = 1, 2, 3: the action on that line is ['-I', '+', '-']
+    golden       closed by (LR)^k, k = 1, 2, 3: the action on that line is ['+', '-', '+']
+  a flat line on the fibre extends over the history exactly when the history fixes its character; so 'the departure fixes the line' is the condition that the line extends.
+  on the golden background no non-trivial character is fixed (|det(LR - 1)| = 1): there the line of order 5 exists only together with its inverse.

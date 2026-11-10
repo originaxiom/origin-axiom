@@ -34,4 +34,14 @@ Part 5. a line induced from the stabiliser of one background (index 3) to all th
   psi = (+1, -1): a group of order 6, modulo scalars 6; equivalent to T after a twist chi_m for m = []; to conj T for m = []
   psi = (-1, +1): a group of order 24, modulo scalars 24; equivalent to T after a twist chi_m for m = [9]; to conj T for m = [15]
   psi = (-1, -1): a group of order 24, modulo scalars 24; equivalent to T after a twist chi_m for m = [21]; to conj T for m = [3]
+Part 6. exact arithmetic (monomial matrices over the 24th roots): the triplet's group has order 96, 4 scalars, 24 modulo scalars; S^4 = -1: True; S^8 = 1: True
+  the orders of its 24 twists chi_k, exactly: [96, 144, 288, 24, 288, 144, 96, 72, 288, 48, 288, 72, 96, 144, 288, 24, 288, 144, 96, 72, 288, 48, 288, 72]; the twists with order 96 are k = [0, 6, 12, 18], all even shifts of the triplet itself
+  they are part 3's floating-point orders, shifted by the triplet's own twist 15: True
+  F1. the displayed matrices, conjugated by diag(i, 1, i), are real signed permutations: True, of determinant [1, 1]; they generate a group of order 24 (the rotations of the cube)
+  F1. the inserted one-form matrices A_L = e(1/8) T_L, A_R = e(-1/8) T_R: a group of order 24; S fixes branch [2] with eigenvalue e(12/24); L^2 acts on it by e(12/24)
+      so on the fixed branch S = -1 and L^2 = -1: the signs are (-1, -1), not the (-1, +1) the relay states. Negating both matrices gives S = +1: True
+      the triplet is chi_21 times the displayed pair and chi_9 times the negated pair, exactly: True, True
+  F5. the element (1/2)^8 of the two centres acts trivially on all 240 roots: True; its order in Spin(10) x Spin(6) is 4; its square is the pair (-1, -1) of part 2: True, also trivial: True  => the kernel contains a Z_4, not only that Z_2
+  F4. flat characters fixed by every move: [('0', '0')]; fixed by the stabiliser of one background alone (L^2 and S): [('0', '0'), ('1/2', '1/2')]
+      so 'kept by every move' singles out the trivial character, and on one background it does not: chi_(1,1) is fixed there too. Being kept is a fixed-point statement, not a selection.
   (the moves on main's whole 6-dimensional space: a group of order 96)

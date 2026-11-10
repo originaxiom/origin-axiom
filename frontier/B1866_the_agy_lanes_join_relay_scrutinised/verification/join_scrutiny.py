@@ -292,6 +292,97 @@ for e1, e2 in ((1, 1), (1, -1), (-1, 1), (-1, -1)):
     tw = [m for m in range(24) if equivalent(TL, TR, z24 ** m * r[0], z24 ** (-m) * r[1])[0]]
     twb = [m for m in range(24) if equivalent(TL.conj(), TR.conj(), z24 ** m * r[0], z24 ** (-m) * r[1])[0]]
     say("  psi = (%+d, %+d): a group of order %d, modulo scalars %d; equivalent to T after a twist chi_m for m = %s; to conj T for m = %s" % (e1, e2, len(G), len(pr), tw, twb))
+# ------------------------------------------------------------------ Part 6: the physical lane's review of the same relay (added the same evening)
+# Its findings F1, F4 and F5, checked here; and the orders of parts 3 and 5 recomputed in EXACT arithmetic (its F6 applies to any
+# order read off rounded floating-point matrices, main's own among them).
+# Exact monomial matrices with entries powers of zeta_24: (perm, exps) with M e_j = zeta_24^exps[j] e_perm[j].
+def mmul(A, B): return (tuple(A[0][B[0][j]] for j in range(3)), tuple((B[1][j] + A[1][B[0][j]]) % 24 for j in range(3)))
+def minv(A):
+    perm = [0] * 3; exps = [0] * 3
+    for j in range(3): perm[A[0][j]] = j; exps[A[0][j]] = (-A[1][j]) % 24
+    return (tuple(perm), tuple(exps))
+def mscal(k, A): return (A[0], tuple((e + k) % 24 for e in A[1]))
+E3 = ((0, 1, 2), (0, 0, 0))
+def mgroup(gens):
+    seen = {E3}; fr = [E3]
+    while fr:
+        nx = []
+        for a in fr:
+            for g in gens:
+                x = mmul(a, g)
+                if x not in seen: seen.add(x); nx.append(x)
+        fr = nx
+    return seen
+def mscalar(A): return A[0] == (0, 1, 2) and len(set(A[1])) == 1
+# the triplet in its monomial form, from part 4: T_L = conj M_L, T_R = conj M_R; eighth roots are multiples of 3 in exponents mod 24
+XL = ((0, 2, 1), (-3 % 24, 3, 3))                                  # e_1 -> e(-1/8) e_1, e_2 -> e(+1/8) e_3, e_3 -> e(+1/8) e_2
+XR = ((1, 0, 2), (-3 % 24, -3 % 24, 3))                            # e_1 -> e(-1/8) e_2, e_2 -> e(-1/8) e_1, e_3 -> e(+1/8) e_3
+def dense(A):
+    M = np.zeros((3, 3), dtype=complex)
+    for j in range(3): M[A[0][j], j] = z24 ** A[1][j]
+    return M
+assert np.abs(dense(XL) - ML.conj()).max() < 1e-9 and np.abs(dense(XR) - MR.conj()).max() < 1e-9 and equivalent(TL, TR, dense(XL), dense(XR))[0]
+GX = mgroup([XL, XR])
+SX = mmul(mmul(XL, minv(XR)), XL)
+pw = lambda A, k: E3 if k == 0 else mmul(A, pw(A, k - 1))
+exact_orders = [len(mgroup([mscal(k, XL), mscal(-k, XR)])) for k in range(24)]
+say("Part 6. exact arithmetic (monomial matrices over the 24th roots): the triplet's group has order %d, %d scalars, %d modulo scalars; S^4 = -1: %s; S^8 = 1: %s" % (
+    len(GX), sum(1 for g in GX if mscalar(g)), len({(g[0], tuple((e - g[1][0]) % 24 for e in g[1])) for g in GX}),
+    pw(SX, 4) == ((0, 1, 2), (12, 12, 12)), pw(SX, 8) == E3))
+say("  the orders of its 24 twists chi_k, exactly: %s; the twists with order 96 are k = %s, all even shifts of the triplet itself" % (exact_orders, [k for k in range(24) if exact_orders[k] == 96]))
+numeric = [census[("Sym2(D)", m)][0] for m in range(24)]
+say("  they are part 3's floating-point orders, shifted by the triplet's own twist 15: %s" % (numeric == [exact_orders[(m - 15) % 24] for m in range(24)]))
+assert len(GX) == 96 and numeric == [exact_orders[(m - 15) % 24] for m in range(24)] and pw(SX, 4) == ((0, 1, 2), (12, 12, 12))
+# F1: the agy lane's inserted one-form matrices, as the physical lane's review displays them: A_L = w T_L, A_R = w^-1 T_R, w = e(1/8)
+AL, AR = mscal(3, XL), mscal(-3, XR)
+# they are tied to what the review displays, not only to that formula: the entries its text shows are AL[2][3] = AL[3][2] = i and
+# AR[1][2] = AR[2][1] = -i (rows, columns from 1); and its remark that diag(i, 1, i) conjugates both into real signed permutations of det 1
+ent = lambda A, r, c: A[1][c - 1] if A[0][c - 1] == r - 1 else None       # the exponent of the entry in row r, column c, or None for 0
+assert (ent(AL, 2, 3), ent(AL, 3, 2), ent(AR, 1, 2), ent(AR, 2, 1)) == (6, 6, 18, 18) and ent(AL, 3, 3) is None and ent(AR, 1, 1) is None
+dg = (6, 0, 6)
+cj = lambda A: (A[0], tuple((A[1][j] + dg[A[0][j]] - dg[j]) % 24 for j in range(3)))
+def sdet(A):                                                       # determinant of a signed permutation matrix (exponents 0 or 12 only)
+    inv = sum(1 for a in range(3) for b in range(a + 1, 3) if A[0][a] > A[0][b])
+    return (-1) ** (inv + sum(1 for e_ in A[1] if e_ == 12))
+real_signed = all(e_ in (0, 12) for A in (cj(AL), cj(AR)) for e_ in A[1])
+say("  F1. the displayed matrices, conjugated by diag(i, 1, i), are real signed permutations: %s, of determinant %s; they generate a group of order %d (the rotations of the cube)" % (
+    real_signed, [sdet(cj(AL)), sdet(cj(AR))], len(mgroup([cj(AL), cj(AR)]))))
+assert real_signed and [sdet(cj(AL)), sdet(cj(AR))] == [1, 1] and len(mgroup([cj(AL), cj(AR)])) == 24
+SA = mmul(mmul(AL, minv(AR)), AL)
+fixed = [j for j in range(3) if SA[0][j] == j]
+L2 = mmul(AL, AL)
+say("  F1. the inserted one-form matrices A_L = e(1/8) T_L, A_R = e(-1/8) T_R: a group of order %d; S fixes branch %s with eigenvalue e(%d/24); L^2 acts on it by e(%d/24)" % (
+    len(mgroup([AL, AR])), [j + 1 for j in fixed], SA[1][fixed[0]], L2[1][fixed[0]]))
+say("      so on the fixed branch S = -1 and L^2 = -1: the signs are (-1, -1), not the (-1, +1) the relay states. Negating both matrices gives S = +1: %s" % (
+    mmul(mmul(mscal(12, AL), minv(mscal(12, AR))), mscal(12, AL))[1][fixed[0]] == 0))
+say("      the triplet is chi_21 times the displayed pair and chi_9 times the negated pair, exactly: %s, %s" % (
+    (mscal(21, AL), mscal(-21, AR)) == (XL, XR), (mscal(9, mscal(12, AL)), mscal(-9, mscal(12, AR))) == (XL, XR)))
+assert len(fixed) == 1 and SA[1][fixed[0]] == 12 and L2[1][fixed[0]] == 12 and (mscal(21, AL), mscal(-21, AR)) == (XL, XR)
+# F5: the full kernel of Spin(10) x Spin(6) -> E8 has order 4: theta = (1/2)^8 pairs integrally with every root, and its double is the (-1, -1) element
+from fractions import Fraction as Fq
+th = [Fq(1, 2)] * 8
+ok4 = all(sum(t_ * x for t_, x in zip(th, v)).denominator == 1 for v in roots) and all((sum(t_ * x for t_, x in zip(th, v)) / 2).denominator == 1 for v in half)
+dbl = [2 * x for x in th]
+same2 = all(phase(th5, v, False) * phase(th3, v, False) == 1 for v in roots) and all(phase(th5, v, True) * phase(th3, v, True) == 1 for v in half)
+# its order: an element theta of the torus is the identity of Spin(10) x Spin(6) when each block (coordinates 1..5, 6..8) is an integer
+# vector of even sum (the coroot lattices of D5 and D3)
+def is_identity(v): return all(x.denominator == 1 for x in v) and sum(v[:5]) % 2 == 0 and sum(v[5:]) % 2 == 0
+order = next(k for k in range(1, 9) if is_identity([k * x for x in th]))
+sq_is_pair = is_identity([2 * x - a - b for x, a, b in zip(th, th5, th3)])          # 2 theta is the pair (-1 of Spin(10), -1 of SU(4)) of part 2
+say("  F5. the element (1/2)^8 of the two centres acts trivially on all 240 roots: %s; its order in Spin(10) x Spin(6) is %d; its square is the pair (-1, -1) of part 2: %s, also trivial: %s  => the kernel contains a Z_4, not only that Z_2" % (ok4, order, sq_is_pair, same2))
+assert ok4 and same2 and order == 4 and sq_is_pair
+# F4: fixed points on the torus of flat U(1) characters (u, v) mod 1: under ALL moves, and under the stabiliser of one background (L^2 and S)
+grid = [(Fq(a, 4), Fq(b, 4)) for a in range(4) for b in range(4)]                  # 2u = 0 or 4u = 0 is forced below, so quarters suffice
+def actL(c): return (c[0], (c[1] + c[0]) % 1)                                    # chi o L on (a, b): a -> a, b -> a + b
+def actR(c): return ((c[0] + c[1]) % 1, c[1])
+def actS(c): return actL(actRinv(actL(c)))
+def actRinv(c): return ((c[0] - c[1]) % 1, c[1])
+all_fixed = [c for c in grid if actL(c) == c and actR(c) == c]
+stab_fixed = [c for c in grid if actL(actL(c)) == c and actS(c) == c]
+say("  F4. flat characters fixed by every move: %s; fixed by the stabiliser of one background alone (L^2 and S): %s" % (
+    [tuple(str(x) for x in c) for c in all_fixed], [tuple(str(x) for x in c) for c in stab_fixed]))
+say("      so 'kept by every move' singles out the trivial character, and on one background it does not: chi_(1,1) is fixed there too. Being kept is a fixed-point statement, not a selection.")
+assert all_fixed == [(Fq(0), Fq(0))] and sorted(stab_fixed) == [(Fq(0), Fq(0)), (Fq(1, 2), Fq(1, 2))]
 # the 6-dimensional space V = T + conj T itself (main's W.ML, W.MR)
 GV = group([H.W.ML, H.W.MR], H.W.ML.shape[0])
 say("  (the moves on main's whole 6-dimensional space: a group of order %d)" % len(GV))

@@ -97,6 +97,56 @@ was computed with main's own code (`verification/join_scrutiny.py`). Data-free. 
   about one background: thread. Row 10 is about the orbit of three taken together: weave in form, on the lanes'
   characters.
 
+## 6. Added the same evening: the physical lane's review of the same relay, checked by main
+
+*2026-11-10, later. The physical lane reviewed the same relay on its own
+(`reports/physical_bridge_2026_09_05/p753_review_2026_11_10/`, @ `6ababf231`; harvest rows 1644 to 1646). Main read
+its relay, its review and its hand calculations in full through the binding-minimum mask, and checked what it can
+check in exact arithmetic (part 6 of `join_scrutiny.py`). Sections 1 to 5 above are unchanged; where this section
+corrects them it says so.*
+
+**The answer first.** The two reviews reach the same decision: nothing of WP-2.2 or WP-3.2 is banked as complete.
+Where they overlap they agree. The physical lane found one error in the relay that main missed, and main verified
+it exactly. It changes one number in § 3 and not the conclusion.
+
+| | the physical lane's finding | main's check | result |
+|---|---|---|---|
+| F1 | the one-form matrices the relay inserts act by −1 under S on the branch S fixes; the relay's text says +1 | exact: on that branch S = −1 and L² = −1, so the signs are (−1, −1); with both matrices negated S = +1 | **verified.** The relay's matrices and the relay's text disagree |
+| | for the displayed matrices the triplet is χ₂₁ times them; for the repaired pair χ₉ | exact, entry by entry; and main's own part 5 had printed both (m = 21 for the signs (−1, −1), m = 9 for (−1, +1)) | **verified,** two independent computations |
+| F4 | kept by every move is a fixed-point statement, not a selection; on one background χ₍₁,₁₎ is fixed too | exact: every move fixes only the trivial character; the stabiliser of one background fixes two, the trivial one and χ₍₁,₁₎ | **verified** |
+| F5 | the two subgroups meet E₈ through a quotient by ℤ₄, not ℤ₂ | exact: the element (½)⁸ acts trivially on all 240 roots, has order 4, and its square is the pair (−1, −1) of part 2 | **verified.** Main's part 2 is the square of this; main never stated the quotient |
+| F6 | orders read from rounded matrices are numerical; exactness needs a certificate | the triplet's group and all 24 twists recomputed with exact monomial arithmetic: 96, four scalars, 24 modulo scalars; the 24 orders equal part 3's | **answered** for main's own orders |
+| F2 | the physical kernel and the induced action are not proved: the producer inserts matrices and zero blocks | not checked; it is about the lane's code, which main does not run | **the physical lane's**; it agrees with § 4 |
+| F3 | two of the relay's irreducibility tests do not test irreducibility | not checked, for the same reason | **the physical lane's** |
+
+**What this changes in sections 1 to 5.**
+
+- **§ 3, second point.** Main induced the one-form line with the signs the relay's text gives, (−1, +1), and found
+  the weave's triplet after the character χ₉. That is correct for those signs. The matrices the lane actually
+  inserted carry (−1, −1), and for them the character is χ₂₁. Both are odd characters of order 8, and the projective
+  action is the same octahedral one. So the open question has two parts now: **which signs the one-form line really
+  carries, and whether the odd character is physical.** The first part is the agy lane's to settle with its operator.
+- **§ 5, WP-2.2.** "Three data are kept by every move" stays true. It does not select them. A model may also sum over
+  an orbit that no single move keeps, and the three backgrounds are such an orbit. Whether the lanes' model must use
+  the kept data is not shown by anyone.
+- **§ 5, WP-3.2.** The package is split in two, as the physical lane asks. The algebraic half is the identification
+  of the weave's triplet, and it is banked here (rows 6 to 9 and part 6). The physical half is the action of the
+  stabiliser on the actual harmonic modes of a background and how it is carried between the three. It is open, and
+  it is the calculation that decides the question.
+- **Row 8.** The physical lane gives a proof that covers every doublet of the double cover, where main's census
+  covered the 24 twists of one. The central element S⁴ acts on any doublet with eigenvalues a, b = ±1, so on its
+  symmetric square with eigenvalues (1, ab, 1). That is never −1 on all three, and on the triplet S⁴ = −1. Main read
+  the three lines and they hold. It agrees with § 3: the doublet whose square is the triplet lives one cover up.
+
+**What main did not catch, and why.** Main took the one-form line's signs from the relay's sentence and did not test
+them against the relay's matrices. The mask hides most digits of those matrices, and main does not run the lane's
+code. The physical lane reads the lane without that mask and found the mismatch. This is the arrangement working as
+intended, and it is also a limit of main's scrutiny that § 4 should have named.
+
+**One correction the review asks of main, already made.** It read main at `30dd1fea7`, where the programme's WP-3.2
+still called the triplet the doublet's symmetric square without a twist. Section 3 above replaced that sentence the
+same day, before the review arrived.
+
 ## Seen first
 
 - **The repo sweep:** P-753's row and main's statement before computing; B1610 and B1611 (the triplet's
@@ -115,6 +165,9 @@ was computed with main's own code (`verification/join_scrutiny.py`). Data-free. 
 - **Two of the ten verifications are floating-point** (the triplet's matrices come from main's own cohomology code;
   the theta vector from its series). The groups are finite, their elements are separated by order one, and the
   equivalences are tested by characters over the whole group.
+  *Added the same evening:* the group orders are now also computed in exact arithmetic (part 6), and they agree.
+- **Main used the relay's stated signs without testing them against the relay's matrices.** The physical lane tested
+  them and they disagree (§ 6, F1).
 
 ## Reproduce
 

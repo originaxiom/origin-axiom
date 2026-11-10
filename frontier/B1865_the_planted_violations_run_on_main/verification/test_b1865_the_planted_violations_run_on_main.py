@@ -19,7 +19,7 @@ def test_the_counts():
     assert sum(1 for v in pv.values() if v == "CAUGHT") == 7 and sum(1 for v in pv.values() if v == "NOT CAUGHT") == 14
     assert sum(1 for v in pv.values() if v == "MANUAL") == 6 and len(pv) == 27
     assert "controls not reported CAUGHT: 0" in OUT and "NOT CAUGHT: 14" in OUT
-    assert "/Users/" not in OUT                                         # no local path in a tracked file
+    assert ("/" + "Users" + "/") not in OUT                             # no local path in a tracked file (spelt in pieces: the suite's guard reads this file too)
 
 
 def test_the_six_real_catches_and_the_one_that_is_not():

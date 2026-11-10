@@ -144,6 +144,23 @@
    "WP-1.6"
   ]
  },
+ "confirmation": [
+  "2026-11-10",
+  "yes, but i also wanr your opinion on all"
+ ],
+ "confirmed": [
+  "the goal",
+  "the claim",
+  "attribution",
+  "the weave discipline",
+  "the count as an output",
+  "the headline's form",
+  "the map on the desk",
+  "what self-consistent means",
+  "the first back-edge to try",
+  "the fork inside it",
+  "the founding principle as the selection rule"
+ ],
  "debt_of": {
   "P-025": "WP-0.4",
   "P-030": "WP-0.4",
@@ -224,6 +241,170 @@
   "P-698": "WP-0.4",
   "P-733": "WP-0.1",
   "P-757": "WP-0.7"
+ },
+ "exit_kinds": {
+  "ADMITTED": "the principle allows it and does not force it; no route is named",
+  "BACK-EDGE NAMED": "a condition computed downstream that the choice must satisfy is named; none is built",
+  "DICTIONARY": "an identification: the loop does not pay it; it is earned only by a sealed prediction",
+  "FORCING ARGUED": "an argument that the principle forces it is written down; not proved",
+  "KEPT": "the principle itself: a parameter-free theory keeps it, stated",
+  "PRESSED": "the notes argue against it standing as an input in its present form; no route is named",
+  "RIGID": "fixed by the geometry once the history is fixed; what stays chosen is named",
+  "UNTOUCHED": "the three notes name no route; the package holds the record's own"
+ },
+ "exits": {
+  "a flat bundle on the fibre": [
+   "UNTOUCHED",
+   "the design takes the frame's flat bundle as the coefficient of its operator. That uses this input; it does not derive it."
+  ],
+  "inverse moves are legal": [
+   "FORCING ARGUED",
+   "adopted by the owner on B1662's argument; the ledger agrees: there must be something to cancel with."
+  ],
+  "minimisation as the use of the action": [
+   "PRESSED",
+   "the design's fork: one history by least action keeps this input; all allowed histories together drops it and owes a definition of their joint read-out. Length and volume disagree on what is selected (B1857)."
+  ],
+  "no period": [
+   "FORCING ARGUED",
+   "the ledger: finite order is a cancellation that completes, a fixed direction a side that never changes. Main (B1867): the formal statement removes finite order and not the fixed direction; a single shear meets its form of existing at every level. One clause short."
+  ],
+  "one address for all sectors": [
+   "UNTOUCHED",
+   ""
+  ],
+  "one unit of end data": [
+   "UNTOUCHED",
+   ""
+  ],
+  "point or weight": [
+   "BACK-EDGE NAMED",
+   "the first candidate: the point is where the history's lightest state sits. The scalar ground state is the weight and gives no point, so the operator must have no zero mode. Designed; not run."
+  ],
+  "positivity: the side of the mirror": [
+   "FORCING ARGUED",
+   "the ledger: forced up to the sign. Main (B1867): the normal form is a theorem, checked on every hyperbolic matrix with entries up to five; the sign is a separate bit, and the selection criterion decides it if that criterion stands."
+  ],
+  "reversible updates": [
+   "FORCING ARGUED",
+   "the ledger: an act that merges two sides ends the distinction. One line; no alternative is exhibited."
+  ],
+  "the Higgs direction": [
+   "UNTOUCHED",
+   "the loop note lists it as chosen, and records B1823's negative against a holder fixing it."
+  ],
+  "the block read as a ratio of scales": [
+   "DICTIONARY",
+   ""
+  ],
+  "the carrier": [
+   "FORCING ARGUED",
+   "the ledger: if the difference between the two orders is not cancelled the group is free, and the puncture follows (the SM seat's B1380, not verified on main). Main (B1867): not commuting does not give free; a clause that nothing at all cancels is needed."
+  ],
+  "the charge premise at level five": [
+   "BACK-EDGE NAMED",
+   "the design: the charge premise is the same extension condition for a frame that uses the whole space at the level, the line premise for a frame on one line; which holds reduces to a question on the register (P-721). The loop note's third candidate, a level law, has B1855 against it."
+  ],
+  "the chiral premise": [
+   "PRESSED",
+   "the ledger: the first departure is chiral, and its mirror is the same departure on the other letter. Main (B1867): the swap of the letters is the mirror for every word, so a rule symmetric under the swap selects mirror pairs; a net hand needs the order bit."
+  ],
+  "the class of lines": [
+   "UNTOUCHED",
+   ""
+  ],
+  "the clock": [
+   "UNTOUCHED",
+   "the loop note takes the harmonic time of one history as forced (B1846). This input is the weave's clock, which weights threads, and the notes name no route for it; they repeat B1813's warning against a thread sum with a chosen weight."
+  ],
+  "the content that runs": [
+   "DICTIONARY",
+   ""
+  ],
+  "the dictionary's link Λ": [
+   "DICTIONARY",
+   ""
+  ],
+  "the framing of the read-out": [
+   "UNTOUCHED",
+   ""
+  ],
+  "the generations as three images of one value": [
+   "DICTIONARY",
+   ""
+  ],
+  "the lepton factor": [
+   "UNTOUCHED",
+   ""
+  ],
+  "the line's offset": [
+   "BACK-EDGE NAMED",
+   "with the slope: one line, one condition."
+  ],
+  "the line's slope": [
+   "BACK-EDGE NAMED",
+   "the design: a line on the fibre extends over the history exactly when the history fixes its character, so 'the departure fixes the line' is a condition and not a free premise. Main checked its exact facts (B1867). The condition cuts the lines to those the history fixes; it does not by itself pick one."
+  ],
+  "the method (PF3)": [
+   "KEPT",
+   "not addressed; a method, not a number."
+  ],
+  "the modulus τ": [
+   "RIGID",
+   "the loop note: given the history the metric is unique, so no continuous freedom enters, and the rule reads the modulus from a level surface. Still chosen: the history, point or weight, and which point. Two candidates are named for the point: a state, and a holder."
+  ],
+  "the normalisation: the end, the generations' metric, the channel weights": [
+   "UNTOUCHED",
+   "the loop note lists the end and the metric on generations as chosen."
+  ],
+  "the orientation": [
+   "PRESSED",
+   "the ledger: the principle does not force it and may speak against it. The non-orientable sibling is the alternative."
+  ],
+  "the principle's mathematical form": [
+   "PRESSED",
+   "the ledger's formal statement is one reading. Its ambiguity attack (pre-registered, not run at the pin) asks whether the owner's words fix a form at all; where two faithful readings differ, the difference is a clause for the owner to rule on."
+  ],
+  "the remainder cannot be exhausted (PF2)": [
+   "KEPT",
+   "the ledger: it follows if the recursion never ends, and has to be reconciled with a loop that returns on itself."
+  ],
+  "the selection criterion": [
+   "FORCING ARGUED",
+   "the ledger: a fixed character is a place where nothing happened. Main (B1867): as an exclusion this removes every departure too (the run of six fixes twenty); as a minimum it is the reading GENESIS already grades an interpretation. LR is the one word with a single fixed character, so this row carries the whole selection of the object."
+  ],
+  "the structural theorem's external data": [
+   "BACK-EDGE NAMED",
+   "the loop note's fourth candidate: consistency conditions that cut an input to a finite list (B1229). It warns that each use is an identification."
+  ],
+  "the unit shears": [
+   "ADMITTED",
+   "the ledger: admitted; nothing in the words excludes longer shears. The loop's test on the silver and bronze backgrounds is the test named."
+  ],
+  "the up-conjugate reading": [
+   "DICTIONARY",
+   ""
+  ],
+  "tree level at one scale, no running": [
+   "DICTIONARY",
+   ""
+  ],
+  "two records": [
+   "ADMITTED",
+   "the ledger: admitted, not forced by the words. Three or more records is the alternative (B1679)."
+  ],
+  "what exists (PF1)": [
+   "KEPT",
+   "the principle. The notes test its wording; they do not ask whether to keep it."
+  ],
+  "which family is the object": [
+   "UNTOUCHED",
+   ""
+  ],
+  "θ̄": [
+   "UNTOUCHED",
+   ""
+  ]
  },
  "findings": {
   "E1": {
@@ -641,13 +822,13 @@
    "wp": "WP-1.6"
   },
   "X1": {
-   "note": "waits on the owner's confirmation",
+   "note": "the owner confirmed the ruling on the goal to main on 2026-11-10; the amendment of the twelve places is the next step of its package and is not made yet",
    "short": "twelve places in the governing documents cap the goal",
    "state": "OPEN",
    "wp": "WP-0.10"
   },
   "X2": {
-   "note": "waits on the owner's confirmation",
+   "note": "the same landing names one governing document; not made yet",
    "short": "three documents each claim supremacy",
    "state": "OPEN",
    "wp": "WP-0.10"
@@ -1555,6 +1736,19 @@
    "D:14 rests on E:J3"
   ]
  },
+ "opinion": {
+  "attribution": "agree; already the practice. The gate does not read commit messages and should",
+  "the claim": "agree it is the claim to state, because two outcomes exhibited refute it; one outcome can only mean one orbit under the symmetries, a history with its mirror",
+  "the count as an output": "agree; the arcs' dependency lists mix what is used with what is cited, so the edges need a type first",
+  "the first back-edge to try": "agree as the first try: its opening test, whether a state exists, is a yes or no nobody chose. As designed it uses one input of the budget and does not remove it",
+  "the fork inside it": "agree: it is the owner's law applied consistently. It closes nothing yet, since the joint read-out of all histories has no definition",
+  "the founding principle as the selection rule": "worth doing, and the result is honest: the rule picks the run of six only if the level is put in. To be verified on main (P-762)",
+  "the goal": "agree: the aim may be stated, arrival may not; change all twelve places at once and keep the ceiling",
+  "the headline's form": "agree, with one safeguard: the second number's list is frozen at a named commit before any comparison",
+  "the map on the desk": "agree; every status computed by the weakest link, so the picture cannot look better than the mathematics",
+  "the weave discipline": "agree with all five; the second-thread control is the most valuable; plenitude enters the foundation with the weight listed as open",
+  "what self-consistent means": "agree; on main's map no result returns to fix an input (B1867). The loop is an equation and not a circular argument, and it is not shown to be the only route"
+ },
  "packages": [
   {
    "accept": "the class is empty, or every remaining member is outside the upstream of any claimed prediction; and a gate that, for every arc carrying a correction, checks that each arc depending on it and each page citing it points to the note",
@@ -2027,30 +2221,32 @@
     "X3",
     "X4"
    ],
-   "first": "the owner confirms the rulings the advisor seat relayed on 2026-11-10; then the places that cap the goal are amended, each keeping its original text with a dated note. The claim ceiling does not move: what may be asserted as achieved stays at what the record has earned",
+   "first": "the owner confirmed to main, on 2026-11-10, the rulings the advisor seat had relayed (the first eleven; P-758). Next, in one landing: the twelve places that cap the goal are amended together, each keeping its original text with a dated note, and the gate that bans a statement of aim is taught the difference between an aim and an arrival, with a planted test. The claim ceiling does not move: what may be asserted as achieved stays at what the record has earned",
    "given": [],
    "id": "WP-0.10",
-   "intent": "OWNER",
+   "intent": "DECLARE",
    "needs": [],
    "needs_all": [],
    "node_grades": {},
    "node_labels": {},
    "nodes": [],
    "obligation": "C0",
-   "owner": "the owner; main",
+   "owner": "main; the owner reads the amended text",
    "question": "Which document governs, and does it state the goal as the owner has ruled it?",
    "rests_on": [],
    "rows": [
-    "P-758"
+    "P-758",
+    "P-767"
    ],
    "rows_live": {
-    "P-758": "OWNER"
+    "P-758": "OWNER",
+    "P-767": "QUEUED"
    },
    "rulings": [
     "the goal"
    ],
    "sits_under": 0,
-   "status": "NOT STARTED",
+   "status": "STARTED",
    "title": "One governing document, at the owner's goal",
    "wave": 0
   },
@@ -2094,7 +2290,8 @@
    "rulings": [
     "the claim",
     "the weave discipline",
-    "the fork inside it"
+    "the fork inside it",
+    "the gap, for every seat"
    ],
    "sits_under": 6,
    "status": "STARTED",
@@ -2189,7 +2386,9 @@
    "rests_on": [],
    "rows": [],
    "rows_live": {},
-   "rulings": [],
+   "rulings": [
+    "stress-test the principle"
+   ],
    "sits_under": 4,
    "status": "DONE (declared; GENESIS v1.5)",
    "title": "The principle, as declared postulates",
@@ -2230,12 +2429,14 @@
    "rows": [
     "P-321",
     "P-747",
-    "P-221"
+    "P-221",
+    "P-764"
    ],
    "rows_live": {
     "P-221": "DONE",
     "P-321": "QUEUED",
-    "P-747": "QUEUED"
+    "P-747": "QUEUED",
+    "P-764": "QUEUED"
    },
    "rulings": [],
    "sits_under": 16,
@@ -2275,8 +2476,12 @@
    "owner": "main",
    "question": "Which of the grammar's remaining postulates follow from the principle, and which are declared?",
    "rests_on": [],
-   "rows": [],
-   "rows_live": {},
+   "rows": [
+    "P-764"
+   ],
+   "rows_live": {
+    "P-764": "QUEUED"
+   },
    "rulings": [],
    "sits_under": 4,
    "status": "NOT STARTED",
@@ -2328,8 +2533,14 @@
    "rests_on": [
     "WP-1.6"
    ],
-   "rows": [],
-   "rows_live": {},
+   "rows": [
+    "P-764",
+    "P-766"
+   ],
+   "rows_live": {
+    "P-764": "QUEUED",
+    "P-766": "QUEUED"
+   },
    "rulings": [],
    "sits_under": 6,
    "status": "NOT STARTED",
@@ -2390,10 +2601,12 @@
     "WP-2.2"
    ],
    "rows": [
-    "P-755"
+    "P-755",
+    "P-764"
    ],
    "rows_live": {
-    "P-755": "OWNER"
+    "P-755": "OWNER",
+    "P-764": "QUEUED"
    },
    "rulings": [
     "the founding principle as the selection rule"
@@ -2404,7 +2617,7 @@
    "wave": 1
   },
   {
-   "accept": "a weight that the grammar forces and under which one outcome is singled out, proved; or two distinct self-consistent outcomes exhibited, which refutes the claim of one outcome as the owner has stated it. A declared clock with typicality as what is predicted is the picture the owner has ruled against (relayed 2026-11-10, to be confirmed): it would be recorded as the claim not met, and it closes nothing",
+   "accept": "a weight that the grammar forces and under which one outcome is singled out, proved; or two distinct self-consistent outcomes exhibited, which refutes the claim of one outcome as the owner has stated it. A declared clock with typicality as what is predicted is the picture the owner has ruled against (relayed by the advisor seat and confirmed to main on 2026-11-10): it would be recorded as the claim not met, and it closes nothing",
    "also_nodes": [
     "D:12"
    ],
@@ -2455,7 +2668,8 @@
     "P-439",
     "P-758",
     "P-761",
-    "P-762"
+    "P-762",
+    "P-765"
    ],
    "rows_live": {
     "P-439": "QUEUED",
@@ -2463,7 +2677,8 @@
     "P-756": "QUEUED",
     "P-758": "OWNER",
     "P-761": "QUEUED",
-    "P-762": "QUEUED"
+    "P-762": "QUEUED",
+    "P-765": "OWNER"
    },
    "rulings": [
     "the claim",
@@ -2471,7 +2686,8 @@
     "what self-consistent means",
     "the first back-edge to try",
     "the fork inside it",
-    "the founding principle as the selection rule"
+    "the founding principle as the selection rule",
+    "the gap, for every seat"
    ],
    "sits_under": 19,
    "status": "STARTED",
@@ -2721,7 +2937,7 @@
    ],
    "debts": [],
    "findings": [],
-   "first": "done on main (B1866): every move keeps the quaternion holonomy, the odd spin structure and the trivial character; one background's pair of lines is not kept and has an orbit of three; the lift's sign is not a separate choice. Main's exploratory reading that one lift is kept by every move is WITHDRAWN (B1866): the agy lane caught it, and the physical lane's own formula shows it. Next: that the lanes' model's data are these, once the action is verified on main, and what the sum over the three backgrounds is physically",
+   "first": "done on main (B1866): every move keeps the quaternion holonomy, the odd spin structure and the trivial character; one background's pair of lines is not kept and has an orbit of three; the lift's sign is not a separate choice. Main's exploratory reading that one lift is kept by every move is WITHDRAWN (B1866): the agy lane caught it, and the physical lane's own formula shows it. Kept is not selected (the physical lane's review, checked in B1866 § 6): on one background a second character is fixed as well, and a model may sum over an orbit that no single move keeps. Next: that the lanes' model's data are these, once the action is verified on main; whether anything forces the model to use the kept data; and what the sum over the three backgrounds is physically",
    "given": [],
    "id": "WP-2.2",
    "intent": "DECIDE",
@@ -3012,7 +3228,7 @@
    ],
    "debts": [],
    "findings": [],
-   "first": "done on main (B1866): the weave's triplet is the odd twist chi_15 of the symmetric square of the level-2 doublet, a module of the double cover, and the conjugate of the squared theta constants over the cube of eta; on one background only the stabiliser acts, so the first outcome is refuted there; the lanes' one-form triplet over the three backgrounds is the weave's after the odd character chi_9. Next: whether that character is physical, that is, whether the modes carry the half-weight; and which modes exist on a background (the kernel theorem)",
+   "first": "the algebraic half is done on main (B1866): the weave's triplet is the odd twist chi_15 of the symmetric square of the level-2 doublet, a module of the double cover, and the conjugate of the squared theta constants over the cube of eta; on one background only the stabiliser acts, so the first outcome is refuted there; the lanes' one-form triplet over the three backgrounds is the weave's after an odd character -- chi_9 for the signs the agy lane's relay states, chi_21 for the matrices it inserts, which disagree (the physical lane's finding, verified exactly in B1866 § 6). The physical half is open: which signs the one-form line carries; whether the odd character is physical, that is, whether the modes carry the half-weight; and the stabiliser's action on the actual harmonic modes of a background, with its transport between the three (which needs the kernel theorem)",
    "given": [],
    "id": "WP-3.2",
    "intent": "DECIDE",
@@ -4135,14 +4351,29 @@
     "WP-1.5",
     "WP-1.6"
    ]
+  ],
+  [
+   "stress-test the principle",
+   "stress-test the principle; start with the ambiguity attack",
+   [
+    "WP-1.1"
+   ]
+  ],
+  [
+   "the gap, for every seat",
+   "the entire programme is an open one-way line, not a closed loop",
+   [
+    "WP-1.6",
+    "WP-0.11"
+   ]
   ]
  ],
  "seal_rule": [
   "A value is sealed only as DERIVED. Everything it uses is proved, refuted or a foundation item; an open, conditional, lane-graded or debt node upstream keeps the seal closed, and so does one arc without the certificate.",
   "The certificate is a generated file: the list of everything the value uses, with each part above per arc. The seal is refused without it. A dry run on the record's candidate, by the advisor seat, was refused on six grounds before any statistical question.",
   "The comparison uses the instruments the record already holds, and no parallel protocol: the foundation's seven conditions for earning a dictionary by prediction, the input-completeness ledger's checklist for any cell that meets measured physics, and one look ledger. The owner's hold on the two unspent targets stands until the owner lifts it.",
-  "Parameter-free keeps the meaning the record gave it: zero free dimensionless parameters, with at most two declared anchors sealed in advance, and more outputs than anchors. If the owner confirms the claim of one self-consistent outcome as relayed, a fitted or chosen continuous input counts against the claim, not as a parameter of it.",
-  "If the owner confirms the relayed ruling on the count, the headline is printed from the graph and typed nowhere: confirmed, refuted, predictions registered, not reached."
+  "Parameter-free keeps the meaning the record gave it: zero free dimensionless parameters, with at most two declared anchors sealed in advance, and more outputs than anchors. The owner has confirmed the claim of one self-consistent outcome (2026-11-10): a fitted or chosen continuous input counts against the claim, not as a parameter of it.",
+  "The owner has confirmed the ruling on the count (2026-11-10): the headline is to be printed from the graph and typed nowhere -- confirmed, refuted, predictions registered, not reached. Until that is built (WP-0.12) the typed count stands and is marked as typed."
  ],
  "stats": {
   "audit_findings": 73,
@@ -4167,6 +4398,16 @@
   "conditional_headlines_released_by_closing_one_choice": 0,
   "conditional_results": 19,
   "debts": 79,
+  "exits_by_kind": {
+   "ADMITTED": 2,
+   "BACK-EDGE NAMED": 5,
+   "DICTIONARY": 6,
+   "FORCING ARGUED": 6,
+   "KEPT": 3,
+   "PRESSED": 4,
+   "RIGID": 1,
+   "UNTOUCHED": 11
+  },
   "headline_results_not_yet_results_on_main": [
    "T:IM",
    "E:L10"
@@ -4178,6 +4419,7 @@
    "V:SIX"
   ],
   "independent_choices": 38,
+  "inputs_with_an_exit_on_the_table": 12,
   "lanes_supplied_inputs": 7,
   "map_dependencies_between_packages": 21,
   "map_nodes": 268,
@@ -4193,9 +4435,9 @@
   "packages": 43,
   "packages_by_intent": {
    "DECIDE": 12,
-   "DECLARE": 5,
+   "DECLARE": 6,
    "DERIVE": 17,
-   "OWNER": 2,
+   "OWNER": 1,
    "VERIFY": 7
   },
   "packages_by_obligation": {
@@ -4209,8 +4451,8 @@
   },
   "packages_by_status": {
    "DONE": 1,
-   "NOT STARTED": 28,
-   "STARTED": 14
+   "NOT STARTED": 27,
+   "STARTED": 15
   },
   "packages_that_close_together": [
    [
@@ -4220,8 +4462,10 @@
    ]
   ],
   "present_inputs": 64,
-  "relayed_rulings": 11,
+  "relayed_rulings": 13,
   "rules_of_the_comparison": 12,
+  "rulings_asked": 2,
+  "rulings_confirmed_by_the_owner_to_main": 11,
   "unowned": [
    "WP-1.8",
    "WP-1.9",

@@ -135,7 +135,19 @@ def test_the_audit_is_carried_finding_by_finding():
         if f["state"] != "OPEN":
             assert f["note"], fid
     assert S.FINDINGS["G1"]["wp"] == S.FINDINGS["G2"]["wp"] == "WP-0.7"
-    assert st["relayed_rulings"] == len(S.RULINGS) == 11
+    assert st["relayed_rulings"] == len(S.RULINGS) == 13
+    # the owner's confirmation to main (2026-11-10) covers the eleven main asked about; the two relayed afterwards are asked
+    assert st["rulings_confirmed_by_the_owner_to_main"] == len(S.CONFIRMED) == 11 and st["rulings_asked"] == 2
+    assert [n for n, q, ps in S.RULINGS][:11] == S.CONFIRMED and sorted(S.OPINION) == sorted(S.CONFIRMED)
+    keep = list(S.CONFIRMED)
+    def restore():
+        S.CONFIRMED[:] = keep
+    with planted(lambda: S.CONFIRMED.append("stress-test the principle"), restore) as f:
+        assert any("none is written for: stress-test the principle" in x for x in f)
+    with planted(lambda: S.CONFIRMED.append("a ruling nobody relayed"), restore) as f:
+        assert any("is not among the relayed rulings: a ruling nobody relayed" in x for x in f)
+    with planted(lambda: S.CONFIRMED.remove("the goal"), restore) as f:
+        assert any("an opinion is written for a ruling that is not confirmed: the goal" in x for x in f)
     if not SEATS:
         pytest.skip("this clone does not hold the advisor seat's revision: its finding ids and quotes are not checked")
     assert st["audit_findings_checked_at_the_seats_revision"] == 73 and st["work_order_quotes_checked"] == len(S.WORK_ORDER_QUOTES)
@@ -239,3 +251,40 @@ def test_the_refusals_about_the_audit_can_fire():
 def test_the_foundations_count_is_corrected():
     g = (ARC.parents[1] / "GENESIS.md").read_text(encoding="utf-8")
     assert "when all seven hold" in g and "**Version 1.64" in g and "7. *Worth spending.*" in g
+
+
+def test_every_input_says_how_it_could_leave_and_the_refusal_can_fire():
+    """rule 15 (added with B1867): one line per input, of a listed kind; the tallies are the builder's, not typed"""
+    st = B["stats"]
+    names = [i["name"] for i in S.INPUTS]
+    assert sorted(S.EXITS) == sorted(names) and sum(st["exits_by_kind"].values()) == len(names) == st["independent_choices"]
+    assert st["inputs_with_an_exit_on_the_table"] == sum(1 for n in names if S.EXITS[n][0] in ("FORCING ARGUED", "RIGID", "BACK-EDGE NAMED"))
+    # nothing is typed as leaving: no kind says derived, proved or closed
+    assert not any(w in " ".join(S.EXIT_KINDS).upper() for w in ("DERIVED", "PROVED", "CLOSED"))
+    # every identification is a dictionary entry or is pressed; every kept entry is one of the principle's three faces
+    for i in S.INPUTS:
+        k = S.EXITS[i["name"]][0]
+        if set(i["kinds"]) == {"identification"}:
+            assert k in ("DICTIONARY", "PRESSED"), i["name"]
+        if k == "KEPT":
+            assert i["members"][0].startswith("G:PF"), i["name"]
+    page = (ARC / "PROGRAMME.md").read_text(encoding="utf-8")
+    assert "### How each input could leave the budget" in page
+    assert "**An exit is on the table for %d of the %d inputs**" % (st["inputs_with_an_exit_on_the_table"], len(names)) in page
+    keep = dict(S.EXITS)
+    def restore():
+        S.EXITS.clear()
+        S.EXITS.update(keep)
+    with planted(lambda: S.EXITS.pop("the clock"), restore) as f:
+        assert any("has no line saying how it could leave: the clock" in x for x in f)
+    with planted(lambda: S.EXITS.__setitem__("the clock", ("DERIVED", "x")), restore) as f:
+        assert any("exit of an unknown kind: DERIVED" in x for x in f)
+    with planted(lambda: S.EXITS.__setitem__("the clock", ("BACK-EDGE NAMED", "")), restore) as f:
+        assert any("names a route and does not say what it is" in x for x in f)
+    with planted(lambda: S.EXITS.__setitem__("the clock", ("DICTIONARY", "")), restore) as f:
+        assert any("typed a dictionary entry and is not an identification" in x for x in f)
+    with planted(lambda: S.EXITS.__setitem__("the modulus τ", ("KEPT", "x")), restore) as f:
+        assert any("typed kept and is not an axiom" in x for x in f)
+    with planted(lambda: S.EXITS.__setitem__("a number nobody typed", ("UNTOUCHED", "")), restore) as f:
+        assert any("not an input of the budget: a number nobody typed" in x for x in f)
+    assert not _refusals()
