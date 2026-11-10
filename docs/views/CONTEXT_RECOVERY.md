@@ -13,13 +13,13 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1559 |
-| … PROVED | 1068 |
+| arcs with a verdict file | 1560 |
+| … PROVED | 1069 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 752 |
-| … QUEUED | 244 |
+| register points | 754 |
+| … QUEUED | 246 |
 | … LEAD | 4 |
 | … OWNER | 4 |
 | … DONE | 489 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1858 | PROVED | THE CLOSURE MAP (the owner's directive of 2026-11-10, P-748; the physical lane's work order, its first return): 259 nodes and 263 edges, every node pinned by a quote checked against its source (241 on main, 39 on the la… |
 | B1857 | PROVED | THE READ-OUT BY A STATE (the explore seat's test, checked on main; P-726, P-717): in the flat-fibre (Sol) bundle over the history the separated wells follow the cosh law exactly (4.7e-38 on seven classes; cosh 2(s - s_c… |
 | B1856 | PROVED | CHARGE OR SYMMETRY AT FIVE (P-738, answered conditionally; the explore seat's test re-derived on main): in B355's level-5 Weil representation (projectively consistent on all 120 elements of SL(2,F5)), only +-I act as a… |
 | B1855 | PROVED | THE CHARGE LAW SETTLED (P-737): main's own result -- the law FAILS for every lcm(S) >= 12: six explicit gapped counterexamples of the explore seat satisfy the charge premise exactly with less excess than the single run… |
@@ -42,7 +43,6 @@
 | B1849 | PROVED | THE LEADS CONFIRMED ONE BY ONE (Review 76's R76-1, the register half of P-617): every proposal of Review 74's reader for the register's lead-typed rows checked by main at its pointer -- 30 rows closed (19 answered, 6 su… |
 | B1848 | PROVED | REVIEW 76 (the owner: 'lets do the decadal first right moment'; 36 commits, S305p-S306d): the loop closed (R75-1..3 declined at their third carry, rows kept; R75-6, R75-7 and R75-9's P-718 half resolved; four carried);… |
 | B1847 | PROVED | THE LEVEL SURFACE'S OWN MODULUS (P-727; data-free): an instrument reading the conformal modulus of a harmonic level surface from its 3D shape and its fibre group alone -- validated on a Fuchsian control of known tau (re… |
-| B1846 | PROVED | THE METRIC'S READ-OUT (the owner's goal of 2026-11-06, FL-05; data-free): the hyperbolic metric fixes, with no choice, a clock on the fibration circle -- harmonic time theta (the harmonic map in the fibre class; B1295's… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306n (continued) THE CLOSURE MAP (B1858; the owner's directive, P-748; the physical lane's work order, its first return) (2026-11-10)
 - S306n THE REFETCH: three lanes harvested, main's apex error corrected, the owner's directive registered (2026-11-10)
 - S306m (continued) THE READ-OUT BY A STATE (B1857; the explore seat, row 1617) (2026-11-07)
 - S306m (continued) THE TUBE'S τ AT k = 2, ON MAIN (B1854; P-739 in part) (2026-11-07)
@@ -63,11 +64,10 @@
 - S306m (continued) THE CHARGE LAW SETTLED (B1855; P-737 DONE): REFUTED FROM lcm(S) = 12, PROVED BELOW BY THE EXPLORE SEAT (2026-11-07)
 - S306m THE τ READ-OUT RULE (P-714's construction ruled); B1852's PER-CENTRE RULE (P-740 sharpened); P-739 RUNNING (2026-11-07)
 - S306l TWO SEATS HARVESTED: THE DEPARTURE'S DEPTH IS A CHARGE PREMISE (B1853; the explore seat, registered); THE TUBE'S τ TOWARD k → ∞ (the web seat) (2026-11-07)
-- S306k (continued) THE TUBE'S REAL PART, BY TOPOLOGY (B1852): THE METRIC'S OWN τ AT THE TUBE IS 0 + 6.15(15) i (2026-11-07)
 
 ## The latest campaign line
 
-LATEST (2026-11-10, S306n: the refetch — three lanes harvested (rows 1618–1628, 107 relay names rowed); main's apex error corrected (L⁶RLR's apex is √(40/3)·i at Re 0; P-751, the web seat's catch); the τ rule's framing ruled the one counted choice, four choices remain; the agy lane's Theorem B verified and B1221's addendum corrected (P-604 DONE; the kernel is ℤ₆ only at k = 1); the owner's directive registered as the next work: harvest all, then the exact map (P-748; P-745 to P-752). 0 of 19.)
+LATEST (2026-11-10, S306n (continued): B1858 — the closure map (the owner's directive, P-748): 259 nodes, every one pinned by a checked quote; on the spine 12 proved, 9 banked negatives, 17 conditional, 11 postulates, 41 choices, 36 open; ten missing dependencies under several names each; every branch meets the hand; the next derivation named (P-753); unreviewed by a non-author. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

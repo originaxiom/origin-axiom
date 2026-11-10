@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.62) of 2026-11-05 |
-| arcs with a verdict | 1559: 1068 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 752: 252 open (queued, leads, waiting for the owner), 500 closed |
+| arcs with a verdict | 1560: 1069 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
+| points in the register | 754: 254 open (queued, leads, waiting for the owner), 500 closed |
 | the last review | Review 76 (2026-11-06), anchor `1eb535ecd` |
-| the last landing | S306n THE REFETCH: three lanes harvested, main's apex error corrected, the owner's directive registered (2026-11-10) |
+| the last landing | S306n (continued) THE CLOSURE MAP (B1858; the owner's directive, P-748; the physical lane's work order, its first return) (2026-11-10) |
 <!-- STATE:END -->
 
 ## Start here

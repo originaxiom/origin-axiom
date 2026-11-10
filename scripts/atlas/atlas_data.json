@@ -15789,6 +15789,24 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1858": {
+   "slug": "the closure map",
+   "motifs": [
+    "closing",
+    "figure_eight",
+    "golden",
+    "amphichiral_cp",
+    "firewall"
+   ],
+   "refs": [
+    "L04",
+    "L08"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B185": {
    "slug": "constraint selection",
    "motifs": [

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1559** |
-| words of findings prose | **1,322,531** |
+| research arcs with findings | **1560** |
+| words of findings prose | **1,324,397** |
 | test lock files referenced | **933** |
-| arcs carrying an authored verdict | **1559** (100.0 %) |
+| arcs carrying an authored verdict | **1560** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1068 |
+| PROVED | 1069 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1857`** (744 words, 0 locks)  
-THE READ-OUT BY A STATE (the explore seat's test, checked on main; P-726, P-717): in the flat-fibre (Sol) bundle over the history the separated wells follow the cosh law exactly (4.7e-38 on seven classes; cosh 2(s - s_c) in Sol time) and, by Hellmann-Feynman, the lightest state sits at the greatest height -- the apex; its uniqueness is the apex's multiplicity: (6) and (2,1,2,1,2) unique, (2,1,1,1,2) and (2,1^8,2) mirror-degenerate; so by length the unique-state line-invisible selection is (2,1,2,1,2) (2.1597 < (6)'s 2.3487; HS6 false as pre-registered), while by volume the two cheaper line-invisible departures (1.3972, 1.4103) are exactly the degenerate ones and (6) (1.5714) is selected under both level-5 readings (post hoc). The state reads the Teichmuller apex of a chosen clock, not the tau read-out rule's hyperbolic level surface; its hyperbolic analogue, the fibre area A and a pre-registered volume rerun are owed (P-742-P-744). 0 of 19.  
-`B1857_the_read_out_by_a_state_checked/FINDINGS.md`
+**PROVED — `B1858`** (1866 words, 0 locks)  
+THE CLOSURE MAP (the owner's directive of 2026-11-10, P-748; the physical lane's work order, its first return): 259 nodes and 263 edges, every node pinned by a quote checked against its source (241 on main, 39 on the lanes' branches at their pinned revisions; a planted wrong quote is caught); on the spine 155 claims -- 12 proved on main, 9 banked negatives, 17 proved given named premises, 11 postulates, 41 choices, 2 tagged postulates, 6 unstated commitments, 36 open -- so nothing that reads as physics is upstream-clean (the root on three postulates and a choice; the structural theorem on those, five typed data and thirteen identifications; the chiral three on two tagged postulates and an open fork; the six a reading on 13 borrowed joints); the lanes' open items are ten missing dependencies under several names each (the dictionary, the dynamics, the end, the hand, the selection, the modulus, the scale, the parent, the flatness, gravity), and every branch meets the hand, the lanes' model included (a kernel split equally between conjugate representations, paired left and right currents); 78 register debts carried as nodes; the one next unowned derivation named before computing: how the moves act on the lanes' three modes, against the weave's triplet. Unreviewed by a non-author. 0 of 19.  
+`B1858_the_closure_map/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  
