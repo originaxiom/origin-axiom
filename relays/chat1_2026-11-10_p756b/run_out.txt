@@ -1,0 +1,61 @@
+move chunk 0 done, 5 s
+move chunk 1 done, 11 s
+move chunk 2 done, 16 s
+move chunk 3 done, 21 s
+move chunk 4 done, 27 s
+move chunk 5 done, 32 s
+move chunk 6 done, 37 s
+move chunk 7 done, 42 s
+move chunk 8 done, 48 s
+move chunk 9 done, 53 s
+move chunk 10 done, 58 s
+move chunk 11 done, 64 s
+move chunk 12 done, 69 s
+move chunk 13 done, 74 s
+move chunk 14 done, 80 s
+move chunk 15 done, 85 s
+move chunk 16 done, 90 s
+move chunk 17 done, 96 s
+move chunk 18 done, 101 s
+move chunk 19 done, 106 s
+move chunk 20 done, 111 s
+move chunk 21 done, 117 s
+move chunk 22 done, 122 s
+move chunk 23 done, 127 s
+move chunk 24 done, 133 s
+move chunk 25 done, 137 s
+move chunk 26 done, 143 s
+move chunk 27 done, 148 s
+move chunk 28 done, 153 s
+move chunk 29 done, 158 s
+move chunk 30 done, 163 s
+move chunk 31 done, 169 s
+move chunk 32 done, 174 s
+move chunk 33 done, 179 s
+move chunk 34 done, 185 s
+move chunk 35 done, 190 s
+move chunk 36 done, 195 s
+move chunk 37 done, 200 s
+move chunk 38 done, 205 s
+move chunk 39 done, 211 s
+control chunk 0 done, 212 s
+control chunk 1 done, 214 s
+control chunk 2 done, 215 s
+control chunk 3 done, 216 s
+control chunk 4 done, 218 s
+control chunk 5 done, 219 s
+control chunk 6 done, 220 s
+control chunk 7 done, 222 s
+control chunk 8 done, 223 s
+control chunk 9 done, 224 s
+pressure done, 230 s
+jensen P1_i done, 233 s
+jensen P2_e^(i pi/3) done, 235 s
+jensen P3_i sqrt2 done, 238 s
+jensen P4_i sqrt3 done, 240 s
+jensen P5_(1+i sqrt7)/2 done, 243 s
+jensen Q1 done, 245 s
+jensen Q2 done, 247 s
+jensen Q3 done, 249 s
+jensen Q4 done, 252 s
+written out_p756b.json 252 s
