@@ -1,0 +1,46 @@
+T3  the exchange at the levels
+    N = 2: |<L,R>| = 6     |<L,P>| = 6     ratio 1   exchange already inside <L,R>: True
+    N = 3: |<L,R>| = 24    |<L,P>| = 48    ratio 2   exchange already inside <L,R>: False
+    N = 4: |<L,R>| = 48    |<L,P>| = 96    ratio 2   exchange already inside <L,R>: False
+    N = 5: |<L,R>| = 120   |<L,P>| = 240   ratio 2   exchange already inside <L,R>: False
+    N = 7: |<L,R>| = 336   |<L,P>| = 672   ratio 2   exchange already inside <L,R>: False
+    N = 8: |<L,R>| = 384   |<L,P>| = 768   ratio 2   exchange already inside <L,R>: False
+    the tick mod 5: F (1,2) = (3, 1) = 3 * (1,2): True;  F^2 = LR: True;  (F - 3)^2 = 0 mod 5: True
+    orbit of (1,2) under the tick: [(1, 2), (3, 1), (4, 3), (2, 4)] -- as points up to sign: [(1, 2), (2, 4), (1, 2), (2, 4)]
+    fibre characters fixed by the tick: |det(F - I)| = 1; sent to their inverse: |det(F + I)| = 1;  by two ticks: 1 and 5
+T4  a single act alone: fixed direction rational (the subtraction ends) or not
+    L                trace 2 det  1 discriminant 0 -> fixed direction rational: it ends
+    R                trace 2 det  1 discriminant 0 -> fixed direction rational: it ends
+    the exchange P   trace 0 det -1 discriminant 4 -> fixed direction rational: it ends
+    the tick F = LP  trace 1 det -1 discriminant 5 -> fixed direction irrational: it never ends
+T1  cyclic sequences of run lengths with n letters in all (primitive ones): an even number of runs / an odd number
+    n =  1: even 0    odd 1   
+    n =  2: even 0    odd 1   
+    n =  3: even 1    odd 1   
+    n =  4: even 1    odd 2   
+    n =  5: even 3    odd 3   
+    n =  6: even 4    odd 5   
+    n =  7: even 9    odd 9   
+    n =  8: even 14   odd 16  
+    n =  9: even 28   odd 28  
+    n = 10: even 48   odd 51  
+    n = 11: even 93   odd 93  
+    n = 12: even 165  odd 170 
+T2  handedness of the two-act histories with at most 8 letters (SnapPy), against the combinatorial prediction
+    histories checked: 64; SnapPy agrees with the prediction on 64; disagreements: []
+    double of an odd sequence      0 histories,   0 amphicheiral
+    its own mirror another way     6 histories,   6 amphicheiral
+    has a mirror partner          58 histories,   0 amphicheiral
+T2b the histories with an odd number of runs (the tick's own), at most 5 letters
+    (1,)         b-+L      orientable False  volume 1.014942  H1 Z            orientation cover = b++LR: True
+    (2,)         b-+LL     orientable False  volume 1.831931  H1 Z/2 + Z      orientation cover = b++LLRR: True
+    (3,)         b-+LLL    orientable False  volume 2.406910  H1 Z/3 + Z      orientation cover = b++LLLRRR: True
+    (1, 1, 2)    b-+LRLL   orientable False  volume 3.777507  H1 Z/6 + Z      orientation cover = b++LRLLRLRR: True
+    (4,)         b-+LLLL   orientable False  volume 2.786805  H1 Z/4 + Z      orientation cover = b++LLLLRRRR: True
+    (1, 1, 3)    b-+LRLLL  orientable False  volume 4.214394  H1 Z/2 + Z/4 + Z orientation cover = b++LRLLLRLRRR: True
+    (1, 2, 2)    b-+LRRLL  orientable False  volume 4.558144  H1 Z/9 + Z      orientation cover = b++LRRLLRLLRR: True
+    (5,)         b-+LLLLL  orientable False  volume 3.033496  H1 Z/5 + Z      orientation cover = b++LLLLLRRRRR: True
+
+real	0m0.504s
+user	0m0.408s
+sys	0m0.096s

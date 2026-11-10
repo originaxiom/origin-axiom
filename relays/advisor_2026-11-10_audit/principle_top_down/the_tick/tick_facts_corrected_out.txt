@@ -1,0 +1,18 @@
+T1 (corrected)  histories with n letters: two-act histories (primitive cyclic words with both letters) / the tick's own (an odd number of runs)
+    n =  1: two-act 0    tick-only 1   
+    n =  2: two-act 1    tick-only 1   
+    n =  3: two-act 2    tick-only 1   
+    n =  4: two-act 3    tick-only 2   
+    n =  5: two-act 6    tick-only 3   
+    n =  6: two-act 9    tick-only 5   
+    n =  7: two-act 18   tick-only 9   
+    n =  8: two-act 30   tick-only 16  
+    n =  9: two-act 56   tick-only 28  
+    n = 10: two-act 99   tick-only 51  
+    n = 11: two-act 186  tick-only 93  
+    n = 12: two-act 335  tick-only 170 
+T2 (corrected)  every two-act history with at most 8 letters: amphicheiral (SnapPy) against the prediction
+    histories checked: 69; SnapPy agrees with the prediction on 69; disagreements: []
+    double of an odd sequence      5 histories,   5 amphicheiral   e.g. ['LR', 'LLRR', 'LLLRRR', 'LLLLRRRR', 'LLRLRRLR']
+    its own mirror another way     6 histories,   6 amphicheiral   e.g. ['LLRLRR', 'LLRRLR', 'LLLRLRRR', 'LLLRRRLR', 'LLRLRLRR', 'LLRRLRLR']
+    has a mirror partner          58 histories,   0 amphicheiral   e.g. ['LLR', 'LRR', 'LLLR', 'LRRR', 'LLLLR', 'LLLRR']

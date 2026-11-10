@@ -236,6 +236,17 @@ it does not make anything exist.
 
 The principle with every clause ruled so far, in one place: `principle_top_down/THE_PRINCIPLE_AS_RULED.md`.
 
+## The tick — computed; the ruling on the elementary act is now the owner's to make
+
+`principle_top_down/the_tick/RESULT.md` (sealed at `f57f4701f`; one counting error in the sealed script found and
+corrected after, disclosed). Nothing in the principle forbids the tick and nothing forces it. With it: LR's mirror
+symmetry is a consequence, not a special property; the frame's two level-5 lines are one orbit, not a choice; about
+half as many histories again exist, each with no hand; the group of the moves doubles at every level from 3 up; and
+a single tick survives alone, so the two distinctions are then the two sides and not two acts. **The seat's advice:**
+admit the tick as an act and keep both kinds of history in the ledger, naming two debts with the ruling — what
+replaces a spin structure on a history with no hand, and the odd-level structures read again under the doubled
+group. **Not ruled.**
+
 ## Attack A — done; eight questions now wait for the owner's ruling
 
 `principle_top_down/attack_A/RESULT.md`. The words fix the first thing (inside the arena every reader, the adversary
