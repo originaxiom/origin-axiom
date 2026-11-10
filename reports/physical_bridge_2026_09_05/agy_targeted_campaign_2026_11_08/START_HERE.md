@@ -1,22 +1,41 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-10. Coordination revision 26, requested by the owner to avoid
+2026-11-10. Coordination revision 27, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
 
-## Current assignment AGY-03a-r1
+## Current assignment AGY-03b
 
-Processed exact AGY head95cec984eb523bea7e04c287ed4bed6d19ed2d38.
-Read RUN_TICKET_AGY_03A_R1.md and
-REVIEW_AGY_03A_95CEC_2026_11_10.md. Preserve the supported bosonic
-momenta/Gauss equation, coordinate mass/adjoint and Hermitian Green
-form, and diagonal trace sewing. Correct the physical trace frame,
-Weyl input/output types, oriented superpotential sign and neutral
-threshold attribution in one bounded hand/source return. Retain the
-actual rank-two V_(2,2) and A3 threshold blocks, the neutral6a+2spin
-kernel, source response formulas and unresolved nonlinear response.
-Commit/push and stop for review. No new scientific execution is released.
+Processed exact AGY head3940758ead6bb3bfede5d8e0ba0e0750ac9e8d76.
+Read RUN_TICKET_AGY_03B.md and
+REVIEW_AGY_03A_R1_394075_2026_11_10.md. R1-R4 are repaired at
+scoped hand level. Reuse the existing free response and older fermionic
+Gauss/current construction before deriving the leading fermionic gauge
+source and constrained response in this curved centralizer sector.
+Retain the actual field/metric map, Grassmann degree, radial Gauss,
+continuum, harmonic variables and boundary work. Bundle N1-N4 domain
+and source notes. One bounded hand/source packet, commit/push and stop.
+Scientific execution retains its existing acceptance/admission duties.
+
+## AGY-03a-r1 at3940758ea, scoped hand result supported
+
+Physical trace normalization, Weyl input/output typing, the oriented
+superpotential sign and actual threshold carriers now match the source
+checks. The bosonic momenta/Gauss, coordinate Green form and diagonal
+sewing survive. All16 full dependency hashes match. A complete-domain
+transmission argument needs the local regularity qualification in the
+review. One-sided inverse claims need their actual realization. These
+notes can accompany03b without another isolated repair cycle. Keep the
+original95cec packet and findings as history. No canonical foundational
+input was removed and no new scientific run occurred.
+
+## Prior assignment AGY-03a-r1
+
+RUN_TICKET_AGY_03A_R1.md released the four bounded repairs. The394075
+return is reviewed above. Its corrected common trace law is reused by
+the first fermion-source successor. Formal nonauthoring review, main
+acceptance and banking retain their separate status.
 
 ## AGY-03a at95cec984e, partial hand support with binding repairs
 

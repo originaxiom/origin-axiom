@@ -1,0 +1,266 @@
+{
+  "schema": "oa-agy-scoped-hand-source-review-v1",
+  "date": "2026-11-10",
+  "physical_base_commit": "0b13d7088ff3d982b8d0cb9aab541d4781d8f61d",
+  "previous_processed_agy_head": "95cec984eb523bea7e04c287ed4bed6d19ed2d38",
+  "processed_agy_head": "3940758ead6bb3bfede5d8e0ba0e0750ac9e8d76",
+  "decision": "ACCEPT_SCOPED_HAND_RESULTS_WITH_DOMAIN_READING_NOTES",
+  "method": "personal source reading, hand R1-R4 algebra, exact Git-blob and receipt-hash checks; primary trace/domain sections personally read",
+  "authorship_caveat": "physical seat supplied R1-R4 and authored several action, transmission and response dependencies; formal nonauthoring review remains owed",
+  "R1_R4_disposition": {
+    "R1": "physical fibre metric, variable-Omega trace equality and normal square repaired",
+    "R2": "Hermitian output test and independent opposite-charge Weyl input typed separately",
+    "R3": "oriented superpotential cut sign repaired",
+    "R4": "actual neutral slots and rank-two V_(2,2)/A3 threshold carriers restored"
+  },
+  "binding_reading_notes": [
+    "maximal-domain weak traces distinguished from regular transmission H1/2 seam traces",
+    "one-sided squared inverse must name its closed realization",
+    "per-block exponents and global kernel proof preserved",
+    "source quartic equation locator5"
+  ],
+  "preserved_hand_results": [
+    "bosonic cut momenta and bosonic Gauss",
+    "coordinate weighted adjoint and Hermitian Green form",
+    "physical normalized Green symbol",
+    "density-valued opposite-charge Weyl transpose",
+    "diagonal transparent sewing with inherited remote domain",
+    "actual neutral kernel/continuum split"
+  ],
+  "scientific_import_or_execution": false,
+  "test_collection": false,
+  "cas_or_numerical_controls": false,
+  "metadata_scripts_only": true,
+  "new_agents": false,
+  "formal_independent_review": null,
+  "main_acceptance": null,
+  "execution_admission": null,
+  "banking": null,
+  "canonical_inputs_removed": 0,
+  "old_22_test_external_package_tests_this_packet": false,
+  "next_released_microtask": "AGY-03b",
+  "next_scope": "leading same-parent centralizer fermionic gauge source and constrained response; reuse old current/free-response positives before missing transport",
+  "source_pins_checked": 19,
+  "sources": [
+    {
+      "commit": "3940758ead6bb3bfede5d8e0ba0e0750ac9e8d76",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FULL_CUT_VARIATION_AND_GREEN_PAIRING.md",
+      "sha256": "28984fc1f6c0b160bb6f0da8331ebb9f234aad1e14c6e8b0f77bec7c95576508"
+    },
+    {
+      "commit": "3940758ead6bb3bfede5d8e0ba0e0750ac9e8d76",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md",
+      "sha256": "cd5f66d881154ec58a3ac76eb69cb0fd38e2c4544dc12854f5c2e1fca7abbf6a"
+    },
+    {
+      "commit": "3940758ead6bb3bfede5d8e0ba0e0750ac9e8d76",
+      "path": "relays/AGY_TO_PHYSICAL_2026-11-10_AGY_03A_R1_CUT_VARIATION_REPAIR.md",
+      "sha256": "84b7a637793f4f3703c68ff185275e5e4325ef78e3abd92bfeeb8cd9d03cd154"
+    }
+  ],
+  "dependencies": [
+    {
+      "commit": "3940758ead6bb3bfede5d8e0ba0e0750ac9e8d76",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FORM_SPIN_VECTOR_OPERATOR_JOINT.md",
+      "sha256": "0d363d6b651bd8f5c621d5a611890d81864824645fbb1a0c530fef8958ca7052",
+      "pin_matches": true,
+      "declared_sha256": "0d363d6b651bd8f5c621d5a611890d81864824645fbb1a0c530fef8958ca7052"
+    },
+    {
+      "commit": "3940758ead6bb3bfede5d8e0ba0e0750ac9e8d76",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/LEPTON_FORM_CURRENT.md",
+      "sha256": "ab2aec95a02051e94a4e94408c036758438074ed0bbc7d24fba605c35f892264",
+      "pin_matches": true,
+      "declared_sha256": "ab2aec95a02051e94a4e94408c036758438074ed0bbc7d24fba605c35f892264"
+    },
+    {
+      "commit": "3940758ead6bb3bfede5d8e0ba0e0750ac9e8d76",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/JOINED_KERNEL_AND_PHYSICAL_MAP.md",
+      "sha256": "f96f5247f00151c829daefa2c66a31f05a53a50ed499b02bac4ecb6ddb960691",
+      "pin_matches": true,
+      "declared_sha256": "f96f5247f00151c829daefa2c66a31f05a53a50ed499b02bac4ecb6ddb960691"
+    },
+    {
+      "commit": "3940758ead6bb3bfede5d8e0ba0e0750ac9e8d76",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/NEUTRAL_D5_KERNEL.md",
+      "sha256": "dbbffb7360fdbad75d967b76feac75864fe4b36a8943714860bd454653831fad",
+      "pin_matches": true,
+      "declared_sha256": "dbbffb7360fdbad75d967b76feac75864fe4b36a8943714860bd454653831fad"
+    },
+    {
+      "commit": "0b13d7088ff3d982b8d0cb9aab541d4781d8f61d",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CENTRALIZER_KERNEL_WITH_THRESHOLD_CONTINUUM.md",
+      "sha256": "a19e2c6c6b4faa0db3bbe16402499314f259a8db0ce590b0bcaf3ac4130970f5",
+      "pin_matches": true,
+      "declared_sha256": "a19e2c6c6b4faa0db3bbe16402499314f259a8db0ce590b0bcaf3ac4130970f5"
+    },
+    {
+      "commit": "3940758ead6bb3bfede5d8e0ba0e0750ac9e8d76",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CENTRALIZER_COMPONENTS.md",
+      "sha256": "0e21636e01332e6cae765382c79aff9278dfdbe074e7e94a729a6aeb359a4ff4",
+      "pin_matches": true,
+      "declared_sha256": "0e21636e01332e6cae765382c79aff9278dfdbe074e7e94a729a6aeb359a4ff4"
+    },
+    {
+      "commit": "3940758ead6bb3bfede5d8e0ba0e0750ac9e8d76",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COEFFICIENT_ROSTER.md",
+      "sha256": "a98ff428d827d11adf8400e9e03e49b7360f3ccae03ed6f957e9780eec4ed33f",
+      "pin_matches": true,
+      "declared_sha256": "a98ff428d827d11adf8400e9e03e49b7360f3ccae03ed6f957e9780eec4ed33f"
+    },
+    {
+      "commit": "0b13d7088ff3d982b8d0cb9aab541d4781d8f61d",
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "pin_matches": true,
+      "declared_sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f"
+    },
+    {
+      "commit": "0b13d7088ff3d982b8d0cb9aab541d4781d8f61d",
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "pin_matches": true,
+      "declared_sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    },
+    {
+      "commit": "0b13d7088ff3d982b8d0cb9aab541d4781d8f61d",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_QUATERNION_STATIONARY_BUNDLE_AND_CUSP_LAW.md",
+      "sha256": "221a7cd2dce2ff7dec0b135c348b7bb52e15bc27e5563d420756fbe31f9978a1",
+      "pin_matches": true,
+      "declared_sha256": "221a7cd2dce2ff7dec0b135c348b7bb52e15bc27e5563d420756fbe31f9978a1"
+    },
+    {
+      "commit": "0b13d7088ff3d982b8d0cb9aab541d4781d8f61d",
+      "path": "reports/physical_bridge_2026_09_05/surface_same_action_transmission_2026_10_16/PROOF.md",
+      "sha256": "d57ea6c28332a54437c9c2f9eca4372505322e25b66a340f7474ce5462cf5d6e",
+      "pin_matches": true,
+      "declared_sha256": "d57ea6c28332a54437c9c2f9eca4372505322e25b66a340f7474ce5462cf5d6e"
+    },
+    {
+      "commit": "0b13d7088ff3d982b8d0cb9aab541d4781d8f61d",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXTERIOR_RESPONSE_AND_JOINING.md",
+      "sha256": "3d99d0d72a03dca843f36924e4c47cc7e0c78c4ecba8c0974515d41bb80eca68",
+      "pin_matches": true,
+      "declared_sha256": "3d99d0d72a03dca843f36924e4c47cc7e0c78c4ecba8c0974515d41bb80eca68"
+    },
+    {
+      "commit": "0b13d7088ff3d982b8d0cb9aab541d4781d8f61d",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/SAME_ACTION_GAUGE_BOUNDARY_RESPONSE_AND_CUBIC_2026_11_08.md",
+      "sha256": "7e401a2f3b7c7e10a1ef04e635bd271bb19a655f282ade035f9d1abcb4016956",
+      "pin_matches": true,
+      "declared_sha256": "7e401a2f3b7c7e10a1ef04e635bd271bb19a655f282ade035f9d1abcb4016956"
+    },
+    {
+      "commit": "0b13d7088ff3d982b8d0cb9aab541d4781d8f61d",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/ACTUAL_CORE_MEAN_RESPONSE_AND_FLUX_SEWING_2026_11_08.md",
+      "sha256": "4e8be59309a0cf484acd5d30326661df0d7c7f0072229cae810ba9b71ddc1016",
+      "pin_matches": true,
+      "declared_sha256": "4e8be59309a0cf484acd5d30326661df0d7c7f0072229cae810ba9b71ddc1016"
+    },
+    {
+      "commit": "0b13d7088ff3d982b8d0cb9aab541d4781d8f61d",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/FREQUENCY_CORE_ANGULAR_TAIL_AND_GAUGE_WARD_RESPONSE_2026_11_08.md",
+      "sha256": "ea5bc0250d1ab332237dee3878ac5762789922a5da0a77ed52fbdcbb616166ef",
+      "pin_matches": true,
+      "declared_sha256": "ea5bc0250d1ab332237dee3878ac5762789922a5da0a77ed52fbdcbb616166ef"
+    },
+    {
+      "commit": "0b13d7088ff3d982b8d0cb9aab541d4781d8f61d",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/FOUR_CONNECTION_TAIL_VERTEX_WITH_GAUSS_EXCHANGE_2026_11_08.md",
+      "sha256": "9bb2f1ef75345142dbe6cedbafa2f7cf2909dc649c693178366a6903318970d1",
+      "pin_matches": true,
+      "declared_sha256": "9bb2f1ef75345142dbe6cedbafa2f7cf2909dc649c693178366a6903318970d1"
+    },
+    {
+      "commit": "0b13d7088ff3d982b8d0cb9aab541d4781d8f61d",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RUN_TICKET_AGY_03A_R1.md",
+      "sha256": "6cdbfd1f570c5f4c80fbdb672d4bb8a731b4a623ca69054064c89ef1fb770387",
+      "pin_matches": true,
+      "declared_sha256": "6cdbfd1f570c5f4c80fbdb672d4bb8a731b4a623ca69054064c89ef1fb770387"
+    },
+    {
+      "commit": "0b13d7088ff3d982b8d0cb9aab541d4781d8f61d",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_03A_95CEC_2026_11_10.md",
+      "sha256": "73f91b5bba82d20639ca7b1565a9ad7b5feb20e2090ecd89e80ba36582416202",
+      "pin_matches": true,
+      "declared_sha256": "73f91b5bba82d20639ca7b1565a9ad7b5feb20e2090ecd89e80ba36582416202"
+    },
+    {
+      "commit": "0b13d7088ff3d982b8d0cb9aab541d4781d8f61d",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/SOURCE_REVIEW_RECEIPT_AGY_03A_95CEC_2026_11_10.json",
+      "sha256": "bc1fbe7945aa91a4324858d1a0bc5ce46c277857a5ead9e8705f6250ff7780d3",
+      "pin_matches": true,
+      "declared_sha256": "bc1fbe7945aa91a4324858d1a0bc5ce46c277857a5ead9e8705f6250ff7780d3"
+    }
+  ],
+  "additional_reuse_sources_read": [
+    {
+      "commit": "0b13d7088ff3d982b8d0cb9aab541d4781d8f61d",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GAPLESS_CUSP_RESPONSE_AND_GAUGE_COUPLING.md",
+      "sha256": "e89a6b108bfa6bc0bc80f093b4e35aa24d04f9013842ef9ad90b9bcc61e2da50"
+    },
+    {
+      "commit": "0b13d7088ff3d982b8d0cb9aab541d4781d8f61d",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ACTUAL_CUSP_WEYL_RESPONSE_AND_INDUCED_NORM.md",
+      "sha256": "da4f0b954db49662bf75726bade1503d2e9e1ef7ac07f74793edfdf050eadb12"
+    },
+    {
+      "commit": "0b13d7088ff3d982b8d0cb9aab541d4781d8f61d",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GRAM_RESPONSE_FROM_SAME_ACTION_DERIVATION.md",
+      "sha256": "3d158b8d93fe32efb8af3c94bf7c14c480454dc66084e0c567750cb8239f5318"
+    },
+    {
+      "commit": "0b13d7088ff3d982b8d0cb9aab541d4781d8f61d",
+      "path": "reports/physical_bridge_2026_09_05/surface_gauss_charge_2026_10_16/PROOF.md",
+      "sha256": "bf214945674630ac6e9ac27567b93577b369e8893ae774e97fda4300f2372121"
+    },
+    {
+      "commit": "0b13d7088ff3d982b8d0cb9aab541d4781d8f61d",
+      "path": "reports/physical_bridge_2026_09_05/surface_all_boson_response_2026_10_16/PROOF.md",
+      "sha256": "f41b1a1f2309f2ef8bf1f0d9977ecd1e07c91204ec9bd9e1d7e95179980dd904"
+    },
+    {
+      "commit": "0b13d7088ff3d982b8d0cb9aab541d4781d8f61d",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/WORK_ORDER.md",
+      "sha256": "c1b976b740854aecc16c1d29503209190d57cb3729e118d415cbf354ec19276a"
+    }
+  ],
+  "external_primary_reading": {
+    "authors": "Christian Baer and Werner Ballmann",
+    "title": "Guide to Elliptic Boundary Value Problems for Dirac-Type Operators",
+    "url": "https://arxiv.org/pdf/1307.3021v2",
+    "version": "arXiv v2, 2024-10-01",
+    "read_scope": "definitions of minimal/maximal domains and Sections4.1-4.4, especially Theorems4.2 and4.4",
+    "application_scope": "trace regularity qualification on a regular finite collar; constructive transmission argument stated in the review"
+  },
+  "size_checks": {
+    "proof_whitespace_words": 1884,
+    "proof_lines": 97,
+    "resume_whitespace_words": 347,
+    "author_relay_whitespace_words": 201
+  },
+  "review_artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_03A_R1_394075_2026_11_10.md",
+      "sha256": "7f3a4c17ae2506478a367ba0122809370e7916ca496eed9bcf57642e2154b197"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RUN_TICKET_AGY_03B.md",
+      "sha256": "18dba6cfd0ba3b3dcd563ee201714795c5f24b1a55a7b8148d6d20411dd723a3"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_CC_2026-11-10_394075_ACCEPT_AND_FERMION_SOURCE.md",
+      "sha256": "b1561823f1abeba977df7d051c673308daba448eb64ff4eab44cdca614a8b487"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/TASKS.json",
+      "sha256": "5369fc9fdc3207c5b9e09762dfe9da8f35ff9311803840e26f38e3c0474fffc4"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/START_HERE.md",
+      "sha256": "97b19ced997be32769e9f2ae683aea2f59c17afb676d7dbb4b12815e0e5f9e45"
+    }
+  ],
+  "inherited_index_sha256_before": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "inherited_paths_policy": "preserve inherited49 staged paths, PROGRESS_LOG working changes and older untracked relays; exact-path own checkpoint only"
+}
