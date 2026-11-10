@@ -1,5 +1,25 @@
 # Changelog
 
+## S306p TWO SEATS' SEALED RUNS VERIFIED ON MAIN: A SINGLE STATE IS NOT KEPT UNDER COMPOSITION (B1875); THE FOUR REMAINING ATTACKS ON THE PRINCIPLE'S DRAFT (B1876; P-774, P-775) (2026-11-11)
+
+- **Fetched at the landing of B1874:** the web seat (`8718d467`) and the advisor seat (`459dd72f`) had both pushed sealed, data-free runs. Both were read in full. None of either seat's code was run. Main re-derived everything it banks with its own code.
+- **B1875, the web seat's card.** In the record's own instrument for the state, is "the lightest state sits in one place" kept when two histories are done one after the other? No.
+  - Of the 36 composites of six single histories, 18 are single and 18 are not: exactly those with the same departure.
+  - In each of the 18 a symmetry of the composite's own cyclic word exchanges the two departures and keeps the line. Main built each as an integer matrix; SnapPy gives each bundle twice as many isometries as its word has symmetries.
+  - Every tie is an equality of two integers. Main adds a brute-force control over all primitive classes that one height per run is enough.
+  - Its post hoc amendment holds too: of 216 triples 165 are single, so a third factor can make a composite single again; outside the family ties with no symmetry exist (16 of 15 641 cyclic run sequences to 18 letters).
+  - **So "single" is a thread's property and not a rule on what is allowed.** The first back-edge's admission form does not define a set of allowed histories. What replaces it is the owner's fork and is not decided.
+- **B1876, the advisor seat's four attacks on its eight-clause draft.** All sixteen sealed hypotheses come out on main as reported.
+  - Given two whole-number records and no subtraction there is no choice in the acts: four atoms, L, R, the tick and its other side.
+  - With every history as a ground the record's rule has four root classes and is not an order. With the act as the ground there is one, the tick, at level 5.
+  - At level 5 the exchange is a scalar, and all 4 096 departures to 14 letters are allowed or not exactly as before. The tick's second debt is closed at level 5.
+  - The run of 6 read alone has a hand and a Chern–Simons invariant settling at −0.075610; its mirror has the opposite; a history with no hand has none.
+  - Main adds four things: one of the seat's lists depends on counting powers; its count of fibre forms is one rule for every history; of its six "not found on the record" statements main holds part of one; and the rate at which a departure's invariants settle is (5 + √21)/2, a root of the polynomial B98 already holds (observed on three departures, not proved).
+  - The seat's table of twenty-one negatives is judgement and is recorded at its grade. The draft's clauses are not banked.
+- **Two questions the seat puts to the owner** (what a ground is; what "the ledger must close" means) are registered with main's opinion and not ruled (P-774). A lead on the settling rate (P-775).
+- **Dated notes** on B1857, B1867 and B1871, and on seven register rows. Harvest rows 1666–1670; pins moved; two replies written.
+- 0 of 19.
+
 ## S306o (the re-audit's largest item) THE SCRIPTS A SEAL HASHED: MEASURED, AND GATED (B1874; P-772 in part) (2026-11-10)
 
 - **What was open:** the advisor seat's second re-audit showed that a sealed rule's text is protected and the script that evaluates it is not. It changed one line of a script the candidate's seal had hashed, and every gate passed.

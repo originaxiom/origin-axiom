@@ -1,0 +1,43 @@
+0. CONTROLS
+   the integer form sqrt(tr^2 - 4)/(2 c_i) against the continued fraction (r_i + x_i + y_i)/2, on the 6 histories and their 36 composites: greatest difference 6.22e-61
+   B1857's apex of (6,)                   in a long golden background: 3.618034, attained 1 time(s)
+   B1857's apex of (2, 1, 2, 1, 2)        in a long golden background: 1.723607, attained 1 time(s)
+   B1857's apex of (2, 1, 1, 1, 2)        in a long golden background: 1.625437, attained 2 time(s)
+   B1857's apex of (2, 1, 1, 1, 1, 1, 1, 1, 1, 2) in a long golden background: 1.617974, attained 2 time(s)
+   by brute force over all primitive classes above height 1/2, on 8 histories: every run's own class is there once per period, and every other class is below 1 (the greatest: 0.59735); every apex is at least sqrt(5)/2. So one height per run is enough for the apex
+1. THE CARD (ties are equalities of integers)
+   C1  the six histories: each has one run at the apex and keeps LR's line modulo 5; the lead is 2.28 to 2.37 for (6) and 0.0421 to 0.0487 for (2,1,2,1,2)
+       why: modulo 5, (L^2 R)^3 = 1 and L^5 = 1, so every word of the family is a power of LR
+   C2  the 18 composites with the same departure: the apex is attained by exactly two runs in every one (the two integers c_i are equal); heights 3.6187 to 3.6515 for (6), 1.7236 to 1.7248 for (2,1,2,1,2)
+   C3  the 18 composites with different departures: one run at the apex, the run of 6, leading by 1.89 to 1.91
+   C5  the four generators of the allowed subweave (B1872: index 12 in PSL(2, Z)) each have one run at the apex
+       LR itself keeps the line and is not single: its two runs tie
+   SO: of the 36 composites of two single histories, 18 are single and 18 are not
+2. C4: THE SYMMETRY BEHIND EACH OF THE 18 TIES
+   in every one a symmetry of the cyclic word exchanges the two departures, and every such symmetry keeps the line (g v = +-v modulo 5):
+     6 squares: the rotation by half the word, det g = +1, g W g^-1 = W (the deck move of the double cover); a square also has two reversals, one of them exchanging the departures
+     12 others: exactly one symmetry besides the identity, a reversal, det g = -1, g W^-1 g^-1 = W (it reverses fibre and base, and keeps the 3-manifold's orientation)
+   no symmetry exchanges the letters; 4 of the 12 are -1 modulo 5, and 10 of the 36 composites
+   SnapPy, on the bundles: all 18 have twice as many isometries as the word has symmetries (B1867's law): 8 for the 6 squares, 4 for the 12 others; none is its own mirror
+   control, the 18 composites with different departures: the same law holds; 12 have 2 isometries, 6 have 4 isometries (a reversal exists when the two golden gaps are equal, and it fixes the apex)
+3. THE AMENDMENT (post hoc at the seat): THREE FACTORS
+   P1  the 216 ordered triples: 165 single, 45 with the apex twice, 6 three times
+       factors with the departure (6): one    triples  81  single  81  twice  0  three times 0
+       factors with the departure (6): two    triples  81  single  54  twice 27  three times 0
+       factors with the departure (6): three  triples  27  single  15  twice  9  three times 3
+       factors with the departure (6): none   triples  27  single  15  twice  9  three times 3
+       a single triple's lead: 0.000985 to 0.0163 where two or three runs of 6 compete; 7.53e-5 to 0.000593 with no run of 6
+       (6)_1(6)_2 is not single; followed by (2,1,2,1,2)_1 or _3 it is single again, and by (2,1,2,1,2)_2 it is not
+   P2  on all 258 words (6 + 36 + 216) the runs at the apex are exactly one orbit of the symmetries of the cyclic run sequence;
+       of the 165 single triples 120 have no symmetry and 45 have one reversal, which fixes the apex; no word of the 258 has a symmetry exchanging the letters
+4. BEYOND THE CARD (the seat's referee's reports, recomputed)
+   runs (1, 3, 1, 3, 4, 3) (15 letters): the runs [3, 4] tie at the apex (c = 72 for both); the word's symmetries besides the identity: [('ref', 2)]; keeps LR's line: False
+   runs (2, 2, 1, 3, 3, 1, 1, 3) (16 letters): the runs [3, 3] tie at the apex (c = 196 for both); the word's symmetries besides the identity: none; keeps LR's line: True
+   the census: 15641 cyclic run sequences to 18 letters; in 16 the apex is attained by runs that no symmetry of the word relates (the first: [(1, 3, 1, 3, 4, 3), (1, 1, 2, 1, 3, 3, 2, 3), (1, 1, 3, 2, 2, 1, 3, 3)])
+   the 1296 four-factor words of the family: 0 with such a tie
+   composites of two non-single pairs: 180 of the 324 are single; (6)_1(6)_1(6)_3(6)_3 is single, leading by 0.0163
+   a departure that is not a palindrome: two copies of (2,1,3) with different golden gaps are single, leading by 0.00091 to 0.0072
+   (2,1,1,1,2) closed by one golden period is LLRLR twice over, and is -1 modulo 5; its symmetries (kind, shift): (det g, g v = c v): {('ref', 0): (-1, None), ('rot', 4): (1, None), ('ref', 4): (-1, 4)}
+       the deck move acts by LLRLR, which moves the line; the reversal that exchanges the two runs of 2 keeps it (g v = -v); the reversal that fixes each of them moves it
+   (2,1^8,2) closed by an even number of golden runs (k = 1, 2, 3): the two runs of 2 are L^2 and R^2 and tie; one symmetry, a reversal that exchanges the letters, det g = +1, g W^-1 g^-1 = W; g v = +-2 v, so it carries the line to its twin
+ALL CHECKS PASS

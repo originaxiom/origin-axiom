@@ -19095,3 +19095,39 @@ that can hold such exceptions now print their full sentence every time.
 What this does not do: it does not judge the six pieces of work. Whether each change was disclosed, and whether it
 matters to the result, is still to be read, one by one. Four other openings the checker found are also still open.
 0 of 19.
+
+## 2026-11-11 — S306p: two outside results checked, and both hold
+
+While the last piece of work was being stored, two of the other working sessions sent results. Each had written down
+what it expected before running anything. Main repeated both with its own programs, without running theirs.
+
+**The first: does "one place" survive when two histories are joined?**
+
+A history is a sequence of steps. One idea on the table was to allow only histories whose lowest state sits in exactly
+one place. For that to be a rule about what is allowed, it must survive joining: two allowed histories done one after
+the other must be allowed.
+
+It does not survive. Of 36 joined pairs tested, 18 have the state in one place and 18 have it in two. The 18 that fail
+are exactly the pairs built from the same detour. The reason is a symmetry: the joined history looks the same when
+its two detours are exchanged, so whatever sits at one sits equally at the other.
+
+So "one place" is a fact about a single history. It cannot be the rule for which histories count. Something else is
+needed there, and what that is has not been decided.
+
+**The second: four attacks on the draft of the founding principle.**
+
+The draft has eight clauses. The attack asked: does it forbid anything, does it predict anything new, does it hold up
+when applied to its own output, and does anything already proved contradict it? Sixteen statements were written down
+in advance. All sixteen came out as expected, on main's programs too.
+
+In short: the draft does fix what the basic steps are, with nothing left to choose. After that it selects nothing by
+itself. Two things it cannot say: what counts as the starting point, and whether "the books must balance" means the
+whole is consistent or that one answer comes out. Those two are questions for the owner, and they are written down
+with main's opinion.
+
+One by-product: main identified a number the other session had measured and left unexplained. When a detour sits in a
+long regular background, its measured properties settle towards fixed values, each added stretch of background
+bringing them 4.79 times closer. That 4.79 is exactly (5 + √21)/2, a number the record already held for another
+reason. The match is seen on three cases and is not yet proved.
+
+Neither result moves the count. 0 of 19.

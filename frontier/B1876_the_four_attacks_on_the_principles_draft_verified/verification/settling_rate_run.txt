@@ -1,0 +1,7 @@
+EXACT  the fixed characters of the root's monodromy form a curve; where the puncture is parabolic its parameter satisfies z^2 - 3z + 3 = 0: the traces are tr b = tr ab = (3 + i sqrt 3)/2 and tr a its conjugate
+       the derivative of the action there has characteristic polynomial (t - 1)(t^2 - 5t + 1); its larger root is (5 + sqrt 21)/2 = 4.791288
+SEEN   the run of 6  excess volume settles at 1.571445, step ratios 5.030 4.836 4.800 4.793 4.792; Chern-Simons at -0.075610, step ratios 4.846 4.758 4.775 4.786 4.790
+SEEN   (2,2,2)       excess volume settles at 2.359248, step ratios 4.833 4.796 4.791 4.791 4.791; Chern-Simons at -0.021860, step ratios 4.684 4.760 4.783 4.789 4.791
+SEEN   (3,4,3)       excess volume settles at 4.299874, step ratios 4.842 4.794 4.790 4.791 4.791; Chern-Simons at -0.023346, step ratios 4.657 4.742 4.777 4.787 4.790
+       on all three the last ratio is within 0.0015 of (5 + sqrt 21)/2; observed, not proved
+ALL CHECKS PASS

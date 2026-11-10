@@ -1,0 +1,47 @@
+PART 1 -- THE ACTS AND THE GRAMMARS
+  H1  non-negative integer matrices of determinant +-1 with entries to 8: 174; of finite order: 1 and P only; of the other 172 exactly four are
+      not a product of two others: L, R, F, F'; every one of the 172 is a product of those four; with determinant +1 only, the atoms are L and R
+  H2  words in L and F: all 32766 words to 14 letters are different matrices, and R is not among them (the sum of the entries grows with every letter)
+      words in L, R, F: the first coincidence is at two letters, F R = L F; also F F' = L L
+  H3  primitive cyclic words in L and F with n = 1 .. 10 letters: [1, 1, 2, 3, 6, 9, 18, 30, 56, 99]; with an odd number of F: [1, 1, 1, 2, 3, 5, 9, 16, 28, 51]; with an even number: [0, 0, 1, 1, 3, 4, 9, 14, 28, 48]
+      to 8 letters: the 32 even words are exactly the 69 two-act histories, less the 5 that are an odd history done twice, taken with their mirror images in pairs
+      so in the grammar of L and F a two-act history and its mirror image are one cyclic word
+PART 2 -- EVERY HISTORY AS A GROUND (the record's rule: level = trace + 2; b is not detected by a when b's trace is +-2 at a's level)
+  H4  of 3306 ordered pairs of different traces to 60: 208 go one way and 0 both ways (an arrow a -> b needs b > a: b = +-2 modulo a + 2 and b >= 3)
+  H5  two-act histories by trace, to 60 (powers counted): the only trace with one history is 3 (L R); from 4 up L^(t-2) R and L R^(t-2) are two
+      counting a history with its mirror once, the traces with one are [3, 4, 5, 9, 21]; counting primitive histories only they are [3, 4, 5, 7, 9, 21]
+      (histories at traces 3 .. 12: [1, 2, 2, 3, 3, 4, 2, 6, 3, 4])
+  H6  the traces that are a departure of no other ground, to 2000: [3, 4, 5, 6] (for t >= 7 the ground t - 4 always fails to detect t); they hold 8 histories: ['LLLLR', 'LLLR', 'LLR', 'LLRR', 'LR', 'LRR', 'LRRR', 'LRRRR']
+  H7  chains a -> b -> c to 60 in which a detects c: 209; the first is (3, 7, 11); the seat's example 3 -> 7 -> 16 is one
+  H8  chains from the golden ground reach 52 of the 58 traces to 60; not [4, 5, 6, 9, 10, 14]. The golden ground itself fails to detect 23 of the 58 traces (its own among them)
+  H9  read by primes (b not detected by a when b's discriminant t^2 - 4 has every prime of a's) the relation is containment of sets of primes, so it is transitive
+      one-prime discriminants to trace 200000: only 3 (the prime 5) and 6 (the prime 2); minimal traces to 60 (no trace to 200000 has a smaller set of primes): 17 of them, [3, 5, 6, 9, 11, 15, 21, 25, 29, 31, 35, 39, 45, 49, 51, 55, 59]
+  H10 of the four atoms L and R have a rational fixed direction (discriminant 0) and F and F' do not (discriminant 5); F' = P F P is F seen from the other side.
+      so exactly one history is made of one atom: the tick; its double is L R
+PART 3 -- THE TICK AT THE LEVELS
+  H11 the group of the acts modulo N, without and with the exchange, and the same up to scalars:
+        N =  3:    24 and    48;  up to scalars   12 and   24  (doubled)
+        N =  4:    48 and    96;  up to scalars   24 and   48  (doubled)
+        N =  5:   120 and   240;  up to scalars   60 and   60  (the same)
+        N =  7:   336 and   672;  up to scalars  168 and  336  (doubled)
+        N =  8:   384 and   768;  up to scalars   96 and  192  (doubled)
+        N =  9:   648 and  1296;  up to scalars  324 and  648  (doubled)
+        N = 11:  1320 and  2640;  up to scalars  660 and 1320  (doubled)
+        N = 13:  2184 and  4368;  up to scalars 1092 and 1092  (the same)
+      it doubles up to scalars at 3, 4, 7, 8, 9, 11 and not at 5 or 13: exactly where -1 is not a square
+      -1 is a square modulo s^2 + 4 for every odd s to 59 (the level an odd history calls its own)
+  H12 at level 5 the centre of the larger group is the four scalars {+-1, +-2}; F is 3 times a unipotent
+      the 4096 departures to 14 letters: written with the tick each has the same matrix against the ground as with two acts (4096 of 4096);
+      it commutes with F exactly when it commutes with L R (4096 of 4096); none is the scalar 2 or 3; allowed: 35 with sign +, 50 with either sign, 330 by the line
+      the least are as before: (6) alone with sign + (next 11 letters; with sign - the least has 10); (6) and (2,2,2) by the line (next 7)
+  H13 F multiplies the mark v (the line of L R modulo 5) by 3; it keeps no vector up to sign, and up to a scalar it keeps exactly the four non-zero vectors of that line
+PART 4 -- THE HAND, AND A HISTORY WITH NO HAND (SnapPy)
+  controls: b++LR is m004; b-+L is m000, not orientable, and its orientation cover is m004
+  H14 the golden ground with 1, 2, 3 periods is its own mirror and its Chern-Simons invariant is 0 (to 1e-10; SnapPy gives it modulo 1/2)
+  H15 the run of 6 with 1, 2, 3 further periods has a hand; its Chern-Simons invariant is -0.07360, -0.07519, -0.07552; its mirror has the opposite value each time
+      post hoc at the seat, recomputed: with 0 .. 8 further periods -0.065897 -0.073598 -0.075187 -0.075521 -0.075591 -0.075606 -0.075609 -0.075609 -0.075610; the steps shrink by 4.85 4.76 4.78 4.79 4.79
+      (2,2,2) with 1, 2, 6 further periods: -0.021765 -0.021840 -0.021859; (2,1,1,1,2) with one: -0.04324
+  H16 the 16 histories with an odd number of runs and at most 6 letters: none is orientable, SnapPy defines no Chern-Simons invariant for any, and twice the number of
+      fibre forms the history keeps (of the four quadratic forms on the fibre's Z/2 homology) is the size of H^1(bundle; Z/2), on all 16; the tick alone keeps one form, the odd one
+      main's remark: the same equality holds for the two-act histories (77 of 77 cyclic words to 8 letters): every history keeps the odd form, so the count is one rule for all
+ALL CHECKS PASS

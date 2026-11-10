@@ -1,0 +1,33 @@
+{
+ "id": "B1876",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1871",
+  "B1869",
+  "B1867",
+  "B1323",
+  "B1733",
+  "B1234",
+  "B1855",
+  "B1813"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the advisor seat's sealed run of the four remaining attacks on its eight-clause draft of the principle (relays/advisor_2026-11-10_audit/principle_top_down/attacks_B_to_E/PREREGISTRATION.md and RESULT.md, and ADVISOR_TO_CC_2026-11-10_NIGHT.md, @ 459dd72f; harvest rows 1668 to 1670): the design, the result and the note read in full; none of its code run; its sixteen sealed hypotheses and its post hoc Chern-Simons values re-derived by main; its table of twenty-one negatives against the clauses is judgement and is recorded at the seat's grade; its two questions to the owner are recorded with main's opinion and not ruled; the draft's clauses are not banked",
+  "sm:B1382 as harvested in B1453 (m004's two spin structures are the pullbacks of the Gieseking manifold's Pin+ and Pin- structures): quoted by the seat for the root; registered on main and not re-derived here"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (the grammar's acts as non-negative integer matrices; the moves modulo N; bundles of once-punctured tori in SnapPy)",
+  "object": "the 174 non-negative integer matrices of determinant +-1 with entries to 8; the words in L and F to 14 letters; the two-act histories of trace at most 60; traces to 200000 for the reading by primes; the levels 3, 4, 5, 7, 8, 9, 11, 13; the 4096 departures to 14 letters at level 5; the golden ground, the run of 6, (2,2,2) and (2,1,1,1,2) in SnapPy; the 16 histories of an odd number of runs to 6 letters",
+  "reach": "general",
+  "hypotheses": "whether the tick is an act is not ruled (P-771), and nothing here rules it; 'every history as a ground' applies the record's rule for the golden ground (level = trace + 2) to every history, which is the seat's extension and not the record's; counts are exact to the stated bounds; a Chern-Simons invariant is SnapPy's, modulo 1/2, and its sign depends on an orientation convention; existence of Pin structures is from theory and is not computed"
+ },
+ "claim_one_line": "THE FOUR REMAINING ATTACKS ON THE PRINCIPLE'S DRAFT: THE ADVISOR SEAT'S SEALED RUN VERIFIED ON MAIN (P-771, P-769; data-free, integers and SnapPy; the seat's code not run): all sixteen sealed hypotheses come out on main as the seat reports them. Given two whole-number records and no subtraction there is no choice in the acts: of the 174 non-negative matrices of determinant +-1 with entries to 8 only 1 and the bare exchange have finite order, and the other 172 are built from four atoms, L, R, the tick F = LP and F' = PL; words in L and F are all different acts (32766 words to 14 letters) and in that grammar a history and its mirror are one cyclic word. With every history as a ground under the record's rule (level = trace + 2) two histories of different trace never both fail to detect each other, the traces that are a departure of no other ground are 3, 4, 5, 6 (eight histories, four classes), and the relation is not an order (209 broken chains to trace 60); with the act as the ground exactly one history is made of one atom, the tick, with discriminant 5. At level 5 the exchange is a scalar: up to scalars the group is the same 60 elements, and all 4096 departures to 14 letters are allowed or not exactly as before (35, 50, 330), so the tick's second debt is closed at level 5; at 3, 4, 7, 8, 9, 11 the group doubles. The golden ground has Chern-Simons invariant 0; the run of 6 read alone has a hand and -0.07360, -0.07519, -0.07552 for 1, 2, 3 further periods, settling at -0.075610, its mirror the opposite; a history of an odd number of runs is not orientable and has none. Main adds: counting primitive histories only, trace 7 joins the traces with one history up to mirror; the count of fibre forms kept is one rule for every history; of the seat's six statements 'not found on the record' main holds part of one (B1871). The seat's two questions to the owner (what a ground is; what 'the ledger must close' means) are recorded with main's opinion and not ruled. 0 of 19.",
+ "weave_or_thread": "weave for the acts, the grammars, the relation among all histories and the groups at each level; thread for the facts about one history (the run of 6's hand and its Chern-Simons invariant)"
+}

@@ -64,3 +64,16 @@ massive state, not by a weight (relays/explore_2026-11-07_read_out_by_a_state/; 
   factor was wrong. Its first multiplicity tolerance was also tighter than its continued fractions' truncation. Both
   were fixed before this record. Neither touches the seat's results.
 - **The volume selection is post hoc, as the seat says.**
+
+## Dated note, 2026-11-11 (B1875; the web seat's sealed card, verified on main)
+
+- **Uniqueness of the apex is not kept when histories are composed.** Two histories that each have a unique apex and
+  the same departure compose to one whose apex sits in two places: 18 of the 36 composites tested. So the property is
+  one history's own, and it cannot be a rule on which histories are allowed.
+- **The two "mirror-degenerate" departures above, described exactly.**
+  - (2,1,1,1,2) closed by one golden period is LLRLR twice over and is −1 modulo 5. The move that carries one copy
+    to the other moves the line. The reversal that exchanges its two runs of 2 keeps it.
+  - (2,1⁸,2) has its two runs of 2 as L² and R². They are exchanged by a reversal that swaps the letters and carries
+    the line to its twin.
+- **The four apexes of § 2 are reproduced** by an integer form of the height, in which a tie is an equality of two
+  integers.

@@ -1,0 +1,30 @@
+{
+ "id": "B1875",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1857",
+  "B1872",
+  "B1867",
+  "B1733",
+  "B1815",
+  "B1853"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the web seat's sealed card and post hoc amendment on whether 'a single state' is closed under composition (relays/CHAT1_TO_CC_2026-11-10_A_SINGLE_STATE_IS_NOT_CLOSED_UNDER_COMPOSITION.md and relays/chat1_2026-11-10_closure/ @ 8718d467; harvest rows 1666 and 1667): the relay read in full; none of its code run; every cell of the card, both predictions of the amendment and its referee's further reports re-derived by main with ties decided in integers; the owner's choice it records ('Test closure first') is relayed and not acted on as a ruling"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (B1857's flat-fibre model for the state, on a clock the record counts as chosen; the moves at level 5 with LR's line)",
+  "object": "six histories -- the run of 6 and (2,1,2,1,2), each closed by 1, 2 or 3 golden periods -- their 36 ordered composites, 216 triples and 1296 quadruples; the 15641 cyclic run sequences to 18 letters for the census of ties; the bundles of the 36 composites in SnapPy",
+  "reach": "class",
+  "hypotheses": "the instrument is a thread instrument and its clock is chosen (B1815); the fibre's area is unearned (P-743); the family is two palindromic departures; nothing is computed on the hyperbolic metric, and where a state sits there is open (P-744); 'the apex is one orbit of the word's symmetries' is a statement about the 258 words and fails outside them"
+ },
+ "claim_one_line": "A SINGLE STATE IS NOT KEPT WHEN HISTORIES ARE COMPOSED: THE WEB SEAT'S SEALED CARD VERIFIED ON MAIN (P-761, P-767, P-744, P-766; data-free; a weave question answered with the record's thread instrument for the state; the seat's code not run; ties decided in integers): in B1857's instrument a history is single when one run attains the apex, and the height of a run is sqrt(tr^2 - 4)/(2c) with c an integer of the word's matrix, so a tie is an equality of integers. Of the 36 ordered composites of six single histories 18 are single and 18 are not: the 18 with the same departure have the apex exactly twice, the 18 with different departures once, at the run of 6, leading by 1.89 to 1.91. In each of the 18 a symmetry of the composite's own cyclic word exchanges the two departures and keeps LR's line modulo 5, built as an integer matrix: the rotation by half for the 6 squares (det +1), one reversal for the other 12 (det -1, inverting the history); SnapPy gives each bundle twice as many isometries as its word has symmetries. Of the 216 triples 165 are single, 45 have the apex twice and 6 three times, so a third factor can make a composite single again; on the 258 words the runs at the apex are exactly one orbit of the word's symmetries; outside the family ties with no symmetry exist (16 of the 15641 cyclic run sequences to 18 letters). So 'single' is a property of one history's own cycle of heights and not a rule on what is allowed, and under the joint action of B1872 the first back-edge's admission condition does not define a set of allowed histories; whether it is kept as a labelled selection on one thread or replaced by a read-out on the whole, which needs a state of the whole and has none on record, is not decided here. Main adds a brute-force control over all primitive classes that one height per run is enough. 0 of 19.",
+ "weave_or_thread": "a weave question (is a condition on allowed histories kept under composition) answered with a thread instrument; the answer is that the condition is a thread's property"
+}

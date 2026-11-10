@@ -210,3 +210,10 @@ python3 -B frontier/B1867_the_top_down_reading_and_the_line_or_loop_rule_scrutin
 python3 -B frontier/B1867_the_top_down_reading_and_the_line_or_loop_rule_scrutinised/verification/line_or_loop.py
 python3 -m pytest -q frontier/B1867_the_top_down_reading_and_the_line_or_loop_rule_scrutinised/verification/
 ```
+
+## Dated note, 2026-11-11 (B1875)
+
+The law of § 2 (a bundle has twice as many isometries as its cyclic word has symmetries) was tested on 36 more
+bundles, of up to 30 letters, and holds on all 36. Over one family of 258 words the word's symmetries also decide in
+how many places the apex of B1857's instrument sits. Two words outside that family show they do not decide it in
+general. The law is still tested and not proved on main (P-766).

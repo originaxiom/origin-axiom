@@ -110,3 +110,17 @@ P-769 stays open.
 python3 -B frontier/B1871_one_tick_or_two_acts_verified/verification/tick_on_main.py
 python3 -m pytest -q frontier/B1871_one_tick_or_two_acts_verified/verification/
 ```
+
+## Dated note, 2026-11-11 (B1876; the advisor seat's sealed run of its four remaining attacks, verified on main)
+
+Of the three debts above:
+
+- **The second is closed at level 5.** The exchange is a scalar there: up to scalars the group is the same 60
+  elements with or without it, and all 4 096 departures to 14 letters are allowed or not exactly as before. It is
+  open at the levels 3, 4, 7, 8, 9 and 11, where the group doubles even up to scalars.
+- **The first** has an answer from theory, a Pin structure, and a count that is verified; for the root the record
+  holds a lane's registered result, not re-derived on main.
+- **The third** is untouched.
+
+The walls: the first three are computed. They hold for the root and for a history taken with its mirror image. They
+do not hold for the run of 6 read alone, which has a hand and a Chern–Simons invariant that is not zero.
