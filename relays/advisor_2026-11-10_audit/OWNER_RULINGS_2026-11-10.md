@@ -143,6 +143,20 @@ with everything it returns labelled a thread result. **The owner's words (same d
 **Ruling:** as advised. The claim "exactly one outcome" is about A-all; A-one's results carry `domain: thread`.
 The owner's question is answered in the design's §3b: yes, and on the record's own numbers they do not agree.
 
+## R11 — try the founding principle as the selection rule
+
+**The seat's remark:** read at a level, PF1 ("what remains when cancelling cannot complete") is a selection rule the
+foundation already contains: what persists is the least departure no level can detect and undo. **The owner's words
+(same day, later):**
+
+> "lets try that"
+
+**Done, data-free, sealed before the run:** `non_cancellation/` (PREREGISTRATION sealed at `8a776f7c4`; RESULT). The
+reading picks the run of 6 alone, 6 letters against 10, when "detect" is the whole level and only the background's
+own level counts; under the line reading it ties with (2,2,2); with more levels it gives a mirror pair of 17 or 18
+letters; and at any single level N it picks the single run N + 1, so the content of the selection is which level
+counts. On silver and bronze the rule does not give a single run.
+
 ## The roles
 
 The owner, the same day: this seat "will serve as an advisor for cc - the banking seat"; when cc is ready the reports
