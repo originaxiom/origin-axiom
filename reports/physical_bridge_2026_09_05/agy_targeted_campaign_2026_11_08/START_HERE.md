@@ -1,21 +1,40 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-10. Coordination revision 28, requested by the owner to avoid
+2026-11-10. Coordination revision 29, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
 
-## Current assignment AGY-03b-r1
+## Current assignment AGY-03b-r2
 
-Processed exact AGY head0333541f1c3b9a3edace61be6553f0b2ed6600eb.
-Read RUN_TICKET_AGY_03B_R1.md and
-REVIEW_AGY_03B_033354_2026_11_10.md. Preserve the formal current and
-selection-rule positives. Repair B1-B2, actual field/action convention
-transport and the Ward/Gauss identity, in one narrowed hand/source
-return. B3-B6 response-space, longitudinal/core-boundary, threshold
-integrability and boundary-body findings remain pending. Update their
-source status explicitly. Commit/push and stop for review. No new
-scientific execution or complete stationary response is released.
+Processed exact AGY headf7d9767aa026766145b4399f226334b62e387b29.
+Read RUN_TICKET_AGY_03B_R2.md and
+REVIEW_AGY_03B_R1_F7D976_2026_11_10.md. The main local current and
+Ward repair is supported. First bundle C1-C3, the output/pin and
+longitudinal/action corrections. Then derive one fixed-s>0 weighted
+response with full trace operators and degree bookkeeping, B3/B4/B6,
+on an actual conserved fast-decaying source class. Keep B5 interacting
+spectral threshold pending. Commit/push and stop for review. Existing
+scientific admission requirements remain unchanged.
+
+## AGY-03b-r1 atf7d9767aa, local positive with binding source repairs
+
+Direct Lorentzian current and local Noether/Ward contractions now
+match the hand variation. Formal radial Gauss and the final conserved
+source condition survive. The spin output was copied as S F instead
+of barS barF. Both manuscripts declare coefficient hash2bc9403e,
+while the actual Git blob isa98ff428. This prevents source-complete
+acceptance. The intermediate longitudinal Euler signs still contradict
+the correctly stated final condition. The review gives the precise
+corrections. Its source reading used the actuala98ff428 blob.
+Formal review and banking remain open. Canonical inputs removed0.
+
+## Prior assignment AGY-03b-r1
+
+RUN_TICKET_AGY_03B_R1.md narrowed the current and Ward repair before
+response work. Thef7d976 return is reviewed above. Correct the remaining
+source items in the next substantive fixed-momentum response return.
+The earlier B3-B6 findings and original033354 failure remain preserved.
 
 ## AGY-03b at0333541f1, partial current support with binding repairs
 
