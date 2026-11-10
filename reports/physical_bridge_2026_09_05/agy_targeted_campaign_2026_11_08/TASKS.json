@@ -246,7 +246,7 @@
         "AGY-00",
         "AGY-01"
       ],
-      "status": "B5A_COMPLETION_NOT_ACCEPTED_SOURCE_FAILURES_AND_CURRENT_ERRORS; PARTIAL_HAND_POSITIVES_PRESERVED; SOURCE_CURRENT_REPAIR_RELEASED",
+      "status": "PAIR_CURRENT_REPAIRS_SUPPORTED_WITH_BINDING_PROVENANCE_WARD_AND_CONTRACTION_NOTES; ACTUAL_ONSHELL_PACKET_HAND_TASK_RELEASED",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -259,14 +259,14 @@
       "execution_admission": null,
       "admitted_run_evidence": null,
       "accepted_result": null,
-      "current_microtask": "AGY-03b-r4",
+      "current_microtask": "AGY-03b-r5",
       "released_current_outputs": [
-        "repaired PHYSICAL_CUSP_CURRENT_AND_SOURCE_THRESHOLD.md with actual-source table",
-        "synchronized03b source status and affected claims",
-        "RESUME.md",
-        "short repair relay"
+        "ONSHELL_CUSP_PACKET_AND_WEIGHTED_CURRENT.md <=2000 words plus<=100 equation/table rows",
+        "F1-F3 source/current corrections in existing03b sources",
+        "RESUME.md <=700 words",
+        "relay <=250 words"
       ],
-      "release_scope": "bounded E1-E3 retrievable-source/model and actual Grassmann pair-current repair; conditional E4 threshold and E5 physical duties retained",
+      "release_scope": "Bundle F1-F3 repairs, then derive actual physical Weyl evolution and one finite-time current family; no stationary/nonlinear completion inferred",
       "cut_variation_result": {
         "checkpoint": "95cec984eb523bea7e04c287ed4bed6d19ed2d38",
         "decision": "PARTIAL_HAND_RESULT_SUPPORTED_WITH_BINDING_REPAIRS",
@@ -329,35 +329,64 @@
         "scientific_execution": false,
         "canonical_inputs_reduced": 0,
         "current_ward_repair_checkpoint": "f7d9767aa026766145b4399f226334b62e387b29",
-        "latest_review": "REVIEW_AGY_03B_R3_6A118_2026_11_10.md",
-        "latest_decision": "SOURCE_CUSTODY_FAILURE_WITH_PARTIAL_HAND_POSITIVES_AND_CURRENT_COUNTEREXAMPLES",
-        "latest_receipt": "SOURCE_REVIEW_RECEIPT_AGY_03B_R3_6A118_2026_11_10.json",
+        "latest_review": "REVIEW_AGY_03B_R4_F99917_2026_11_10.md",
+        "latest_decision": "SCOPED_PAIR_CURRENT_HAND_RESULTS_SUPPORTED_WITH_BINDING_PROVENANCE_AND_WARD_REPAIRS",
+        "latest_receipt": "SOURCE_REVIEW_RECEIPT_AGY_03B_R4_F99917_2026_11_10.json",
         "binding_carry_items": [
-          "retrieve or remove four unavailable documents and attempt ledger",
-          "restore actual full coefficient hashes and actual h4 U3/h1 so5 candidate; rank4 SM cannot embed in rank3 A3",
-          "external Grassmann pair terms add; relative-i witness cancels",
-          "restore internal current phases, adjoint and projected spectral equations",
-          "scope threshold to nonzero coefficients and actual four-generator exchange contraction",
-          "retain physical Weyl, conjugation and oscillatory Ward duties"
+          "F1: correct absent release/earlier commit identifiers, RESUME cut hash and abbreviated source paths",
+          "F2: simplified Ward condition zeta k.A=-(epsilon_s+epsilon_t)A_y",
+          "F3: inherited colour trace, both pair orderings and full contraction/Ward scope",
+          "derive actual physical Weyl solutions and conserved source; projected resolvent inputs alone insufficient"
         ],
         "source_complete_acceptance": false,
         "source_pin_mismatch": {
           "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COEFFICIENT_ROSTER.md",
           "declared_sha256": "2bc9403e127cf03f26cd4b1dc4ebba2fb1c14d3d3510744e39bc52f71913fb1d",
-          "actual_git_sha256": "a98ff428d827d11adf8400e9e03e49b7360f3ccae03ed6f957e9780eec4ed33f"
+          "actual_git_sha256": "a98ff428d827d11adf8400e9e03e49b7360f3ccae03ed6f957e9780eec4ed33f",
+          "historical_only": true,
+          "actual_blob_restored_again_at": "f999175780a4a5d983dbd1287f50b59cbe12527a"
         },
         "weighted_response_checkpoint": "235a62913c2cfb6a03d9c67c80864d69d1d67ca1",
         "active_source_pin_repaired_at": "235a62913c2cfb6a03d9c67c80864d69d1d67ca1",
         "active_dependency_pins_match": false,
         "latest_supported_scope": [
-          "radial measure and permutation differential map with corrected adjoint components",
-          "internal flavour/spinor determinant factor",
-          "conditional nonzero power-source Hilbert threshold and mixed Green integral",
+          "retrieved source/model restoration and corrected active coefficient hashes",
+          "radial/adjoint Cauchy map, conjugation and projected/doubled norms",
+          "external plus-sign pair expansion and internal phases with cancellation/survival controls",
+          "conditional nonzero-coefficient source threshold and Green integrals",
+          "corrected conserved tangential four-generator test current and nonzero scalar exchange, authored in physical review",
           "earlier D1-D4 response repairs at original scope"
         ],
-        "physical_cusp_current_checkpoint": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+        "physical_cusp_current_checkpoint": "f999175780a4a5d983dbd1287f50b59cbe12527a",
         "B5a_completed_result_accepted": false,
-        "earlier_D1_D4_repairs_disposition": "supported at prior scope, no B5a completion inferred"
+        "earlier_D1_D4_repairs_disposition": "supported at prior scope, no B5a completion inferred",
+        "pair_current_repair_checkpoint": "f999175780a4a5d983dbd1287f50b59cbe12527a",
+        "active_math_source_blob_pins_match": true,
+        "preserved_r3_failure_checkpoint": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+        "remaining_provenance_failures": {
+          "unresolvable_commit_references": [
+            {
+              "declared": "ebc8025015b5835762e65d65c8790fb80da0f917",
+              "declared_length": 40,
+              "actual": "ebc802501629f41c03031a036c25703b77f6e7e4",
+              "status": "NOT_A_RESOLVABLE_COMMIT_OBJECT"
+            },
+            {
+              "declared": "f7d9767aa026766145b4399f226334b4399f226",
+              "declared_length": 39,
+              "actual": "f7d9767aa026766145b4399f226334b62e387b29",
+              "status": "NOT_A_RESOLVABLE_COMMIT_OBJECT"
+            }
+          ],
+          "cut_hash_mismatch": {
+            "commit": "f999175780a4a5d983dbd1287f50b59cbe12527a",
+            "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FULL_CUT_VARIATION_AND_GREEN_PAIRING.md",
+            "sha256": "ded9e468ce25ca7657415f4303a8e7b9c1310251931c15228c83501a225ed6ae",
+            "declared_sha256": "ded9e468ec2003ca4d075498b8acbd99043c196be66886d80dc9c278488a78ba",
+            "status": "MISMATCH"
+          },
+          "source_table_paths": "JOINED and CURRENT table row uses ellipsis"
+        }
       }
     },
     {
@@ -503,31 +532,31 @@
       "AGY_04A_new_lepton_proof_tested": false
     }
   },
-  "coordination_revision": 31,
-  "revision_base_commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+  "coordination_revision": 32,
+  "revision_base_commit": "ebc802501629f41c03031a036c25703b77f6e7e4",
   "start_document": "START_HERE.md",
   "max_active_microtasks_per_worker_context": 1,
   "dispatch": {
-    "released_microtask": "AGY-03b-r4",
+    "released_microtask": "AGY-03b-r5",
     "parent_task": "AGY-03",
-    "question": "Restore retrievable source/model and derive actual Grassmann pair currents with rejecting and surviving controls",
-    "run_ticket": "RUN_TICKET_AGY_03B_R4.md",
-    "joined_checkpoint": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
-    "required_reading_notes": "REVIEW_AGY_03B_R3_6A118_2026_11_10.md",
-    "dependency_scope": "E1-E3 source/model and pair-current repair first; E4 threshold conditional and E5 physical duties retained",
+    "question": "Do actual Lorentzian compact-Cauchy fermion data generate a nonzero conserved current in the weighted cusp source spaces for finite time?",
+    "run_ticket": "RUN_TICKET_AGY_03B_R5.md",
+    "joined_checkpoint": "f999175780a4a5d983dbd1287f50b59cbe12527a",
+    "required_reading_notes": "REVIEW_AGY_03B_R4_F99917_2026_11_10.md",
+    "dependency_scope": "Bundle F1-F3 repairs, then derive actual physical Weyl evolution and one finite-time current family; no stationary/nonlinear completion inferred",
     "allowed_activity": [
-      "read actual retrieved Git sources",
-      "metadata-only full source/hash comparison",
-      "bounded radial-map and Grassmann-current hand repair",
+      "read exact retrieved sources",
+      "metadata-only Git/hash comparison",
+      "bounded physical-equation and packet/current hand derivation",
       "synchronize dependent status, commit/push and stop"
     ],
     "required_outputs": [
-      "repaired PHYSICAL_CUSP_CURRENT_AND_SOURCE_THRESHOLD.md <=2000 words plus<=100 equation/table rows",
-      "actual-source/mismatch table and03b sources synchronized",
+      "ONSHELL_CUSP_PACKET_AND_WEIGHTED_CURRENT.md <=2000 words plus<=100 equation/table rows",
+      "F1-F3 source/current corrections in existing03b sources",
       "RESUME.md <=700 words",
       "relay <=250 words"
     ],
-    "stop_condition": "retrievable source basis and corrected pair algebra with exact remaining physical/threshold duties; no B5a completion inferred",
+    "stop_condition": "actual field/current map and finite-time source membership, or precise failed identity with preserved partial results; stop for review",
     "next_microtask_released": false,
     "scientific_execution_authorized": false
   },
@@ -580,5 +609,5 @@
     "execution_scope": "subsequent owner-authorized preliminary unchanged external reproduction only; the source review at edaa4cf7c itself ran no code",
     "later_preliminary_reproduction": "external_dsl_audit_2026_11_09/PRELIMINARY_REPRODUCTION_RESULTS.md"
   },
-  "processed_agy_head": "6a118a716e2590f0a16c6fbfd540129cd73672a9"
+  "processed_agy_head": "f999175780a4a5d983dbd1287f50b59cbe12527a"
 }

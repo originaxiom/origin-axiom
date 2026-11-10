@@ -1,0 +1,14 @@
+# AGY $\to$ Physical Relay (`2026-11-10`): `AGY-03b-r5` On-Shell Lorentzian Packet and Bundled `F1–F3` Repairs
+
+- **Microtask:** `AGY-03b-r5` (`RUN_TICKET_AGY_03B_R5.md`, SHA256 `a4a3168b16db1a6b092329e703fb1945871fb55f35ed4137336aa42a4582ed6f`).
+- **Deliverables (`UNREVIEWED`):**
+  1. `reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/ONSHELL_CUSP_PACKET_AND_WEIGHTED_CURRENT.md` (`1430` words, `67` lines, SHA256 `657f952c91a3869321c113ff077f3783348913376d420d7eb85c9ccd6c7351b3`)
+  2. `reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/PHYSICAL_CUSP_CURRENT_AND_SOURCE_THRESHOLD.md` (`1993` words, `89` lines, SHA256 `8733925689b6888f4b552bbc13bdad03b0262a2619a02149acb46b1a14eaa3d0`)
+  3. `reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/WEIGHTED_FERMION_SOURCE_RESPONSE.md` (`1937` words, `96` lines, SHA256 `6a8c5f79ae02e376a9cd378e873b6a487b05cfc643a7a5efd6bca52c90dd8716`)
+  4. `reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FERMION_CURRENT_AND_WARD_REPAIR.md` (`1086` words, `68` lines, SHA256 `79c92bd68d4f408b503815410934e1d20acd813831e08f6b4cb2502ba4775116`)
+  5. `reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md` (`1811` words, `90` lines, SHA256 `9c83434fc199f8a1680ff40164b73045c219095386d1dd8f20eb24d626e88d69`)
+  6. `reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md`
+- **Summary (`UNREVIEWED`, proved by hand):**
+  - **`F1–F3` Bundled:** Corrected commit pins `ebc802501629f41c03031a036c25703b77f6e7e4` & `f7d9767aa026766145b4399f226334b62e387b29`, cut hash `ded9e468ce25ca7657415f4303a8e7b9c1310251931c15228c83501a225ed6ae`, and expanded source-table paths (`F1`); fixed purely imaginary Ward condition $\zeta k\cdot\mathcal{A}^{\text{ext}}=-(\epsilon_s+\epsilon_t)\mathcal{A}_y^{\text{int}}$ (`F2`); and bundled $C=[T_a,T_b]=i\lambda_3$ ($\nu_C=-\kappa(C,C)>0$), both pair orderings, and the conserved $\vartheta=\pi/2$ tangential exchange witness $\Gamma_{1234}=-\frac{4\nu_C}{g_6^2}\int_k|\widehat{w^2}(k)|^2 I_b(s)$ (`F3`).
+  - **On-Shell Packet (`AGY-03b-r5`):** Derived $i\partial_t\Psi_{\text{phys}}=H_{\text{Lor}}\Psi_{\text{phys}}$ ($H_{\text{Lor}}^2=-\Delta_4 I_8$, $c_{\text{prop}}=1$ in $(\mathbf{x},r)$), evolved compact Cauchy data on $[r_{\min},r_{\max}]\subset(0,\infty)$ for $|t|\le\tau<r_{\min}$ using the exact symmetry $\mathcal{J}_F(u,v)=(iv,iu)$ to obtain $J^\mu\equiv 0, J_y\equiv 0, J_x(t)=2\bigl(W_c^2-|\nabla_{\mathbf{x}}W_s|^2-(\partial_r W_s)^2\bigr)C(\xi_1\xi_2-\xi_3\xi_4)$ (plus the relative-$1$ packet with $\partial_\mu J^\mu+\partial_y J_y=0$), and proved finite-time membership in $\Omega^{-2}J_T\in\mathcal{H}_v$ and $J_x,J_y\in L^2(dy)$ with factor $e^{(r_{\max}+|t|)/\ell}$.
+- **Stop Condition:** `scientific_execution_authorized = false`, `next_microtask_released = false`. Stopping for physical-seat review.

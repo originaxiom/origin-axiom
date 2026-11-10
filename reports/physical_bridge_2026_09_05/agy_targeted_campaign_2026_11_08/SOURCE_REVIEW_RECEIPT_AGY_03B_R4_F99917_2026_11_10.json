@@ -1,0 +1,308 @@
+{
+  "schema": "oa.source_review_receipt.v1",
+  "date": "2026-11-10",
+  "physical_base_commit": "ebc802501629f41c03031a036c25703b77f6e7e4",
+  "previous_processed_agy_head": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+  "processed_agy_head": "f999175780a4a5d983dbd1287f50b59cbe12527a",
+  "decision": "SCOPED_PAIR_CURRENT_HAND_RESULTS_SUPPORTED_WITH_BINDING_PROVENANCE_AND_WARD_REPAIRS",
+  "method": [
+    "personal changed-source reading",
+    "Git/hash and commit-object verification",
+    "hand differential/current/Grassmann/contraction algebra"
+  ],
+  "authorship_caveat": "Reviewer supplied repairs and authored dependencies including conserved exchange witness; not formal nonauthoring acceptance.",
+  "supported": [
+    "retrieved source/model restoration and corrected active coefficient hashes",
+    "radial/adjoint Cauchy map, conjugation and projected/doubled norms",
+    "external plus-sign pair expansion and internal phases with cancellation/survival controls",
+    "conditional nonzero-coefficient source threshold and Green integrals",
+    "corrected conserved tangential four-generator test current and nonzero scalar exchange, authored in physical review",
+    "earlier D1-D4 response repairs at original scope"
+  ],
+  "binding_findings": [
+    "F1: correct absent release/earlier commit identifiers, RESUME cut hash and abbreviated source paths",
+    "F2: simplified Ward condition zeta k.A=-(epsilon_s+epsilon_t)A_y",
+    "F3: inherited colour trace, both pair orderings and full contraction/Ward scope",
+    "derive actual physical Weyl solutions and conserved source; projected resolvent inputs alone insufficient"
+  ],
+  "source_complete_acceptance": false,
+  "B5a_completed_result_accepted": false,
+  "source_model_dependency_pin_checks": [
+    {
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "declared_sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "status": "MATCH"
+    },
+    {
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "declared_sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "status": "MATCH"
+    },
+    {
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_QUATERNION_STATIONARY_BUNDLE_AND_CUSP_LAW.md",
+      "sha256": "221a7cd2dce2ff7dec0b135c348b7bb52e15bc27e5563d420756fbe31f9978a1",
+      "declared_sha256": "221a7cd2dce2ff7dec0b135c348b7bb52e15bc27e5563d420756fbe31f9978a1",
+      "status": "MATCH"
+    },
+    {
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GAPLESS_CUSP_RESPONSE_AND_GAUGE_COUPLING.md",
+      "sha256": "e89a6b108bfa6bc0bc80f093b4e35aa24d04f9013842ef9ad90b9bcc61e2da50",
+      "declared_sha256": "e89a6b108bfa6bc0bc80f093b4e35aa24d04f9013842ef9ad90b9bcc61e2da50",
+      "status": "MATCH"
+    },
+    {
+      "commit": "9f0450d3ab6bd313e27044ac7b5647d34ce7b71d",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COEFFICIENT_ROSTER.md",
+      "sha256": "a98ff428d827d11adf8400e9e03e49b7360f3ccae03ed6f957e9780eec4ed33f",
+      "declared_sha256": "a98ff428d827d11adf8400e9e03e49b7360f3ccae03ed6f957e9780eec4ed33f",
+      "status": "MATCH"
+    },
+    {
+      "commit": "d1f2125a87bf4dc22f033a0c939dd737d28565fa",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COEFFICIENT_ROSTER.md",
+      "sha256": "13bb67de5a536afef121afad28ce648bb3e808e8fb243ed8dd8b88429ac2380b",
+      "declared_sha256": "13bb67de5a536afef121afad28ce648bb3e808e8fb243ed8dd8b88429ac2380b",
+      "status": "MATCH"
+    },
+    {
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/JOINED_KERNEL_AND_PHYSICAL_MAP.md",
+      "sha256": "f96f5247f00151c829daefa2c66a31f05a53a50ed499b02bac4ecb6ddb960691",
+      "declared_sha256": "f96f5247f00151c829daefa2c66a31f05a53a50ed499b02bac4ecb6ddb960691",
+      "status": "MATCH"
+    },
+    {
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FERMION_CURRENT_AND_WARD_REPAIR.md",
+      "sha256": "be6dc0ce33ed87f1803369bc8b592fbdfa6687992c5d4dd590595056dfa84b32",
+      "declared_sha256": "be6dc0ce33ed87f1803369bc8b592fbdfa6687992c5d4dd590595056dfa84b32",
+      "status": "MATCH"
+    }
+  ],
+  "imported_physical_artifact_comparisons": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_03B_R3_6A118_2026_11_10.md",
+      "agy_commit": "f999175780a4a5d983dbd1287f50b59cbe12527a",
+      "physical_source_commit": "ebc802501629f41c03031a036c25703b77f6e7e4",
+      "sha256": "7474fa46d1af40683d482602f076e70e479e4111bc2dc3047406554e1dc2a9d8",
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RUN_TICKET_AGY_03B_R4.md",
+      "agy_commit": "f999175780a4a5d983dbd1287f50b59cbe12527a",
+      "physical_source_commit": "ebc802501629f41c03031a036c25703b77f6e7e4",
+      "sha256": "7d1af9afa8430c365592aad768471d634cddee08e601014b768859af314eccb2",
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/SOURCE_REVIEW_RECEIPT_AGY_03B_R3_6A118_2026_11_10.json",
+      "agy_commit": "f999175780a4a5d983dbd1287f50b59cbe12527a",
+      "physical_source_commit": "ebc802501629f41c03031a036c25703b77f6e7e4",
+      "sha256": "f37cbe9ddbbc92af9333a5313c991ee6d70862bd2b167b63adff148e1aa55258",
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/START_HERE.md",
+      "agy_commit": "f999175780a4a5d983dbd1287f50b59cbe12527a",
+      "physical_source_commit": "ebc802501629f41c03031a036c25703b77f6e7e4",
+      "sha256": "8cd1cb0920a1ed62070a6e83345024d1c41c3853ef8d366f40a0dee4e741ce69",
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/TASKS.json",
+      "agy_commit": "f999175780a4a5d983dbd1287f50b59cbe12527a",
+      "physical_source_commit": "ebc802501629f41c03031a036c25703b77f6e7e4",
+      "sha256": "796922224a5d1e264903af5f1fe92e1d952ff3310bb4a68e6bc1557f04421142",
+      "status": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_CC_2026-11-10_6A118_SOURCE_AND_PAIR_CURRENT_FAILURES.md",
+      "agy_commit": "f999175780a4a5d983dbd1287f50b59cbe12527a",
+      "physical_source_commit": "ebc802501629f41c03031a036c25703b77f6e7e4",
+      "sha256": "9487b05778c9b34f4e68b8ad05fd1aa2113f1788097cfd55e09abe40371f0325",
+      "status": "BYTE_IDENTICAL"
+    }
+  ],
+  "unresolvable_commit_references": [
+    {
+      "declared": "ebc8025015b5835762e65d65c8790fb80da0f917",
+      "declared_length": 40,
+      "actual": "ebc802501629f41c03031a036c25703b77f6e7e4",
+      "status": "NOT_A_RESOLVABLE_COMMIT_OBJECT"
+    },
+    {
+      "declared": "f7d9767aa026766145b4399f226334b4399f226",
+      "declared_length": 39,
+      "actual": "f7d9767aa026766145b4399f226334b62e387b29",
+      "status": "NOT_A_RESOLVABLE_COMMIT_OBJECT"
+    }
+  ],
+  "handoff_cut_hash_mismatch": {
+    "commit": "f999175780a4a5d983dbd1287f50b59cbe12527a",
+    "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FULL_CUT_VARIATION_AND_GREEN_PAIRING.md",
+    "sha256": "ded9e468ce25ca7657415f4303a8e7b9c1310251931c15228c83501a225ed6ae",
+    "declared_sha256": "ded9e468ec2003ca4d075498b8acbd99043c196be66886d80dc9c278488a78ba",
+    "status": "MISMATCH"
+  },
+  "remaining_path_declaration_issue": "JOINED and CURRENT source table row abbreviates exact path with ellipsis",
+  "recovered_conserved_test_witness": {
+    "method": "HAND_DERIVATION_UNREVIEWED",
+    "source": "review F3; theta=pi/2 internal witness, equal exponents, common real external profile",
+    "current": "J_mu=J_y=0; J_x=2 w^2 (y/Y)^(-Sigma) C(-xi1xi2+xi3xi4)",
+    "contraction": "Gamma_1234=-4 nu_C/g6^2 integral_k |Fourier(w^2)|^2 ell^2 Y/[(2Sigma-1)(Sigma-r_-)^2]",
+    "hypotheses": [
+      "Sigma>1/2",
+      "fixed Euclidean s=k^2>0",
+      "noncommuting colour pair and inherited trace",
+      "nonzero retained Fourier source",
+      "zero scalar trace auxiliary response"
+    ],
+    "physical_Weyl_equations_proved": false,
+    "state_or_vacuum_derived": false,
+    "canonical_inputs_removed": 0
+  },
+  "scientific_import_or_execution": false,
+  "test_collection": false,
+  "cas_or_numerical_controls": false,
+  "metadata_scripts_only": true,
+  "new_agents": false,
+  "formal_independent_review": null,
+  "main_acceptance": null,
+  "execution_admission": null,
+  "banking": null,
+  "canonical_inputs_removed": 0,
+  "old_22_test_package_tests_this_packet": false,
+  "first_failures_preserved_at": [
+    "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+    "f999175780a4a5d983dbd1287f50b59cbe12527a"
+  ],
+  "next_released_microtask": "AGY-03b-r5",
+  "next_scope": "Bundle F1-F3 repairs, then derive actual physical Weyl evolution and one finite-time current family; no stationary/nonlinear completion inferred",
+  "sources": [
+    {
+      "commit": "f999175780a4a5d983dbd1287f50b59cbe12527a",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/PHYSICAL_CUSP_CURRENT_AND_SOURCE_THRESHOLD.md",
+      "sha256": "d5d2b004984286864912bafb6ad1e07925bb8e4fff5b043d0c116d6bc3b1548f",
+      "declared_sha256": "d5d2b004984286864912bafb6ad1e07925bb8e4fff5b043d0c116d6bc3b1548f",
+      "status": "MATCH"
+    },
+    {
+      "commit": "f999175780a4a5d983dbd1287f50b59cbe12527a",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/WEIGHTED_FERMION_SOURCE_RESPONSE.md",
+      "sha256": "3bc431a4e5b7f1dd39514c8bfc705c6729e124d82e9003b5b27e1a18dfe2e3cd",
+      "declared_sha256": "3bc431a4e5b7f1dd39514c8bfc705c6729e124d82e9003b5b27e1a18dfe2e3cd",
+      "status": "MATCH"
+    },
+    {
+      "commit": "f999175780a4a5d983dbd1287f50b59cbe12527a",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FERMION_CURRENT_AND_WARD_REPAIR.md",
+      "sha256": "6b9b72190d8f89d8058e801834bb03349be2098650db7d3e46590fa7907e2d3b",
+      "declared_sha256": "6b9b72190d8f89d8058e801834bb03349be2098650db7d3e46590fa7907e2d3b",
+      "status": "MATCH"
+    },
+    {
+      "commit": "f999175780a4a5d983dbd1287f50b59cbe12527a",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md",
+      "sha256": "a44bcf25b1dba3521c26e40e2b7adbb20048c55c576390ac080a1453b92fb793",
+      "declared_sha256": "a44bcf25b1dba3521c26e40e2b7adbb20048c55c576390ac080a1453b92fb793",
+      "status": "MATCH"
+    },
+    {
+      "commit": "f999175780a4a5d983dbd1287f50b59cbe12527a",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md",
+      "sha256": "8551d32ab4d0c41f945195feeeccd87fa66d77c3743f2322b67240c030cc9beb"
+    },
+    {
+      "commit": "f999175780a4a5d983dbd1287f50b59cbe12527a",
+      "path": "relays/AGY_TO_PHYSICAL_2026-11-10_AGY_03B_R4_VERIFIED_SOURCES_AND_PAIR_CURRENT.md",
+      "sha256": "a365bad89f0465ccd0a7833e2f1c8c997048a658f11217bd8867a3e7c1ffdb62"
+    }
+  ],
+  "reuse_source_for_next_task": {
+    "commit": "ebc802501629f41c03031a036c25703b77f6e7e4",
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/ACTUAL_FERMION_RELATIVE_HEAT_EXISTENCE.md",
+    "sha256": "81ff70cb5b04867cb972cb0af518ab4d7b56b1d838ac61cab9a5dc433e35a623"
+  },
+  "reuse_qualification": "Different parallel-phase background; derive this end actual physical principal symbol; do not import heat spectral gap.",
+  "review_artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_03B_R4_F99917_2026_11_10.md",
+      "sha256": "cb0483a5f08e79f79320ea3117ea328b62697a07b5ed8ef63314c019bbd746df"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RUN_TICKET_AGY_03B_R5.md",
+      "sha256": "a4a3168b16db1a6b092329e703fb1945871fb55f35ed4137336aa42a4582ed6f"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_CC_2026-11-10_F99917_PAIR_REPAIR_AND_ONSHELL_PACKET.md",
+      "sha256": "c31d1ad436e34c45de4f76259a26a422ca7a932acde8a7e3e8e4449ae0f814b2"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/TASKS.json",
+      "sha256": "f76665a2c4e0721ff694bf643e6d124e40510dfb45e72eb09ed71589a381623a"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/START_HERE.md",
+      "sha256": "203ff6f970c3e347c126bcc11bb8b16030c9b05607e29c33ba0eb44874419707"
+    }
+  ],
+  "source_sizes": {
+    "PHYSICAL_CUSP_CURRENT_AND_SOURCE_THRESHOLD.md": {
+      "words": 1987,
+      "lines": 91
+    },
+    "WEIGHTED_FERMION_SOURCE_RESPONSE.md": {
+      "words": 1882,
+      "lines": 96
+    },
+    "FERMION_CURRENT_AND_WARD_REPAIR.md": {
+      "words": 1084,
+      "lines": 68
+    },
+    "FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md": {
+      "words": 1802,
+      "lines": 90
+    },
+    "RESUME.md": {
+      "words": 454,
+      "lines": 27
+    },
+    "AGY_TO_PHYSICAL_2026-11-10_AGY_03B_R4_VERIFIED_SOURCES_AND_PAIR_CURRENT.md": {
+      "words": 193,
+      "lines": 13
+    }
+  },
+  "inherited_index_sha256_before": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "inherited_paths_policy": "49 staged paths and unrelated unstaged/untracked work preserved; exact-path own review sharing only",
+  "metadata_preparation_note": "An initial metadata lookup used the physical branch for an AGY-authored cut file and stopped before writes. Corrected to the exact AGY blob; this was not a scientific execution.",
+  "prior_dispatch": {
+    "released_microtask": "AGY-03b-r4",
+    "parent_task": "AGY-03",
+    "question": "Restore retrievable source/model and derive actual Grassmann pair currents with rejecting and surviving controls",
+    "run_ticket": "RUN_TICKET_AGY_03B_R4.md",
+    "joined_checkpoint": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+    "required_reading_notes": "REVIEW_AGY_03B_R3_6A118_2026_11_10.md",
+    "dependency_scope": "E1-E3 source/model and pair-current repair first; E4 threshold conditional and E5 physical duties retained",
+    "allowed_activity": [
+      "read actual retrieved Git sources",
+      "metadata-only full source/hash comparison",
+      "bounded radial-map and Grassmann-current hand repair",
+      "synchronize dependent status, commit/push and stop"
+    ],
+    "required_outputs": [
+      "repaired PHYSICAL_CUSP_CURRENT_AND_SOURCE_THRESHOLD.md <=2000 words plus<=100 equation/table rows",
+      "actual-source/mismatch table and03b sources synchronized",
+      "RESUME.md <=700 words",
+      "relay <=250 words"
+    ],
+    "stop_condition": "retrievable source basis and corrected pair algebra with exact remaining physical/threshold duties; no B5a completion inferred",
+    "next_microtask_released": false,
+    "scientific_execution_authorized": false
+  }
+}
