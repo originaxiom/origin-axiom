@@ -18,10 +18,10 @@
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 754 |
-| … QUEUED | 246 |
+| register points | 756 |
+| … QUEUED | 247 |
 | … LEAD | 4 |
-| … OWNER | 4 |
+| … OWNER | 5 |
 | … DONE | 489 |
 | … DECLINED | 11 |
 | harvest rows (the last number) | 1628 |
@@ -50,12 +50,14 @@
 - ** P-082** — a second outside reader, later, approached in his own context (relating to his videos), after the first correspondence → *later, at the owner's word; nothing prepared until then [2026-11-04, the owner confirmed: paused until a result passes a level-2 confirmation]*
 - ** P-253** — the chain gap's top entries (Review 67's R66-3, declined there because the chain is the frozen paper's spine): B1098, B959, B1100, B952, B1086, B1000, B1484, B1070 (coverage_candidates.py --chain-gap) — adjudicate each… → *asked of the owner: whether and when to open a draft after p9-draft9; until then the chain-gap list stays recorded here and nothing is due (S231) [earlier: Q3…*
 - ** P-697** — A SECOND COMPLIANCE FOLLOW-UP TO THE AGY LANE (S305f): its relay's lines 819–831 publish P-585-class values (a running top Yukawa, an inter-sector hierarchy value); its Theorem 102 carries held-out-class value literals… → *asked of the owner (S305f): main recommends sending a short note naming the lines and asking that they be removed and the salt kept somewhere durable off the r…*
+- ** P-755** — THE LAW, AND THE THREAD-FOR-WEAVE MISTAKE (the owner, 2026-11-10: 'the most important thing, which we keep repeating is the weave-vs-therad kind of mistake, and we do it repeatedly. the law that causes existence as i un… → *asked of the owner: whether 'upon its execution' is to be recorded as the reading of the law (the move count), which would rule P-439's clock; main recommends…*
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
 
 ## The last landings (CHANGELOG)
 
+- S306n (continued) WEAVE OR THREAD, ENFORCED IN THE MAP; THE LAW AND THE WEIGHT (P-755, P-756; B1858 extended) (2026-11-10)
 - S306n (continued) THE DOOR SET IS {1, 4} (B1859; a front-page claim corrected; P-318, P-618; GENESIS v1.63) (2026-11-10)
 - S306n (continued) THE CLOSURE MAP (B1858; the owner's directive, P-748; the physical lane's work order, its first return) (2026-11-10)
 - S306n THE REFETCH: three lanes harvested, main's apex error corrected, the owner's directive registered (2026-11-10)
@@ -63,11 +65,10 @@
 - S306m (continued) THE TUBE'S τ AT k = 2, ON MAIN (B1854; P-739 in part) (2026-11-07)
 - S306m (continued) CHARGE OR SYMMETRY AT FIVE (B1856; P-738 answered, conditionally) (2026-11-07)
 - S306m (continued) THE CHARGE LAW SETTLED (B1855; P-737 DONE): REFUTED FROM lcm(S) = 12, PROVED BELOW BY THE EXPLORE SEAT (2026-11-07)
-- S306m THE τ READ-OUT RULE (P-714's construction ruled); B1852's PER-CENTRE RULE (P-740 sharpened); P-739 RUNNING (2026-11-07)
 
 ## The latest campaign line
 
-LATEST (2026-11-10, S306n (continued): B1859 — the door set is {1, 4}: B997's uniqueness clause corrected on every living page (GENESIS v1.63); the golden is unique among primitive grammars and for the door together with a 2T quotient of π₁; B997 and B1019 keep their verdicts. 0 of 19.)
+LATEST (2026-11-10, S306n (continued): weave or thread enforced in the map (B1858; P-755): 15 banked results are stated about the weave (structure and negatives), 25 about one thread (the root, the whole structural theorem, the value frame); five of six headline results are thread results; the law fixes what exists, not how much — an eleventh missing dependency, the weight; the computation it asks for registered first (P-756). 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

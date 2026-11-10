@@ -22,9 +22,9 @@ nothing in this block is typed by hand.*
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.63) of 2026-11-10 |
 | arcs with a verdict | 1561: 1070 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 754: 254 open (queued, leads, waiting for the owner), 500 closed |
+| points in the register | 756: 256 open (queued, leads, waiting for the owner), 500 closed |
 | the last review | Review 76 (2026-11-06), anchor `1eb535ecd` |
-| the last landing | S306n (continued) THE DOOR SET IS {1, 4} (B1859; a front-page claim corrected; P-318, P-618; GENESIS v1.63) (2026-11-10) |
+| the last landing | S306n (continued) WEAVE OR THREAD, ENFORCED IN THE MAP; THE LAW AND THE WEIGHT (P-755, P-756; B1858 extended) (2026-11-10) |
 <!-- STATE:END -->
 
 ## Start here
