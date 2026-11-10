@@ -91,6 +91,10 @@ on are the swap and SE2 — the same two the record already calls open and most 
 
 ## 4. The five attacks
 
+> **Dated note, 2026-11-10, night.** Attack A: `attack_A/RESULT.md`. Attacks B, C, D and E: `attacks_B_to_E/RESULT.md`,
+> sealed before the run, against the eight-clause draft and not against v0. The table below is the plan as it was
+> written before any of them ran, and is kept as written.
+
 | # | Attack | The question | It is flawed if | First evidence |
 |---|---|---|---|---|
 | **A** | **ambiguity** | does a second, equally faithful formal statement generate something else? | two faithful readings give different worlds: the principle motivates and does not determine | today: three places the words did not decide. To run: a second statement by a seat that has not read v0, and a third written to make silver or bronze win |

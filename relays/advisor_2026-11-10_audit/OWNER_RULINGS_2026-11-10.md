@@ -296,6 +296,16 @@ things); nobody reached the record's level or the run of six, and nobody closed 
 gathered into eight questions, Q1–Q8, each with the readings and the phrase that fails to decide. **None is ruled
 yet.** Each ruling becomes a clause of the principle.
 
+## Later the same day: the owner's word for the remaining attacks (said to this seat; not a ruling)
+
+After the seat reported that the four remaining attacks on the principle were not started and that it would run them
+only on the owner's word:
+
+> "i told cc. u can continue working on the rest"
+
+Done, sealed before the run: `principle_top_down/attacks_B_to_E/`. Its result puts two questions to the owner (what a
+ground is; what clause 8 means) and rules on neither.
+
 ## The roles
 
 The owner, the same day: this seat "will serve as an advisor for cc - the banking seat"; when cc is ready the reports

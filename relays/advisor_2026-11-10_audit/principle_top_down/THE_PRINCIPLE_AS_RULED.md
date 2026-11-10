@@ -36,6 +36,19 @@ it is POSTULATED or RULED; nothing is derived, and no clause is a result of the 
 | **C** | **How anything is read from the whole ledger** (clauses 4–6): a read-out of all allowed histories together is not yet defined. | work, not a ruling |
 | **D** | **Whether the words lead to the arena at all:** left free, two readers built the non-commuting two-letter group and its commutator — both on one model. Readers built differently are owed. | a test |
 
+> **Dated note, 2026-11-10, night: the four remaining attacks have been run** (`attacks_B_to_E/RESULT.md`, sealed
+> first). Two things the draft cannot answer came out of them, and both are questions for the owner, not rulings:
+>
+> 1. **What is a ground?** Anything that exists, or the act itself. With the first, the record's rule has four root
+>    classes and no order. With the second there is one ground, the tick, and one level, 5, named without ranking.
+> 2. **What does clause 8 mean?** "The whole ledger is consistent with itself" agrees with every other clause and
+>    selects nothing. "The closing singles out one value" contradicts clauses 2, 4 and 5. Two readers said so
+>    unasked.
+>
+> Open item A is answered in part: at level 5 the exchange is a scalar and the record's premises are unchanged; in
+> place of a spin structure stands a Pin structure, and for the root the record already holds which (the SM seat's
+> B1382, registered on main). Main's third debt is not touched.
+
 ## What the clauses do to the record, as the seat reads them
 
 - **Every "least" leaves the foundation's selections** (clause 2): least trace, least volume, least action, the
