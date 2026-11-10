@@ -1,0 +1,1843 @@
+[
+ {
+  "src": "A:A01",
+  "kind": "instance-of",
+  "dst": "X:TAU",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "A:A02",
+  "kind": "instance-of",
+  "dst": "X:SELECT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "A:A03",
+  "kind": "instance-of",
+  "dst": "X:SELECT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "A:A04",
+  "kind": "instance-of",
+  "dst": "X:SELECT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "A:A05",
+  "kind": "instance-of",
+  "dst": "X:DICT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "A:A07",
+  "kind": "instance-of",
+  "dst": "X:END",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "A:A08",
+  "kind": "instance-of",
+  "dst": "X:SOURCE",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "A:A09",
+  "kind": "instance-of",
+  "dst": "X:END",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "A:A10",
+  "kind": "instance-of",
+  "dst": "X:SOURCE",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "A:A11",
+  "kind": "instance-of",
+  "dst": "X:SELECT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "A:A12",
+  "kind": "instance-of",
+  "dst": "X:SCALE",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "CO:S3",
+  "kind": "instance-of",
+  "dst": "X:SOURCE",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "E:J1",
+  "kind": "blocks",
+  "dst": "D:06",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "E:J2",
+  "kind": "blocks",
+  "dst": "D:07",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "E:J3",
+  "kind": "blocks",
+  "dst": "D:14",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "E:J4",
+  "kind": "blocks",
+  "dst": "D:06",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "E:J4",
+  "kind": "instance-of",
+  "dst": "X:HAND",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "E:J5",
+  "kind": "blocks",
+  "dst": "D:01",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "E:J5",
+  "kind": "candidate-for",
+  "dst": "W:T",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "E:J5",
+  "kind": "instance-of",
+  "dst": "X:DICT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "E:L01",
+  "kind": "same-as",
+  "dst": "G:GM1",
+  "grade": "",
+  "note": "the free register on two letters"
+ },
+ {
+  "src": "E:L01",
+  "kind": "same-as",
+  "dst": "G:GM4",
+  "grade": "",
+  "note": "the once-punctured torus as carrier"
+ },
+ {
+  "src": "E:L02",
+  "kind": "instance-of",
+  "dst": "X:PARENT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "E:L03",
+  "kind": "same-as",
+  "dst": "W:Q8",
+  "grade": "",
+  "note": "the quaternion flavour holonomy is the weave's common point"
+ },
+ {
+  "src": "E:L04",
+  "kind": "instance-of",
+  "dst": "X:SCALE",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "E:L04",
+  "kind": "instance-of",
+  "dst": "X:TAU",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "E:L06",
+  "kind": "instance-of",
+  "dst": "X:DICT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "E:L07",
+  "kind": "instance-of",
+  "dst": "X:SELECT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "E:L08",
+  "kind": "instance-of",
+  "dst": "X:END",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "E:L08",
+  "kind": "requires",
+  "dst": "E:L01",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L08",
+  "kind": "requires",
+  "dst": "E:L02",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L08",
+  "kind": "requires",
+  "dst": "E:L03",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L08",
+  "kind": "requires",
+  "dst": "E:L04",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L08",
+  "kind": "requires",
+  "dst": "E:L05",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L08",
+  "kind": "requires",
+  "dst": "E:L06",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L08",
+  "kind": "requires",
+  "dst": "E:L07",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L09",
+  "kind": "requires",
+  "dst": "E:L01",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L09",
+  "kind": "requires",
+  "dst": "E:L02",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L09",
+  "kind": "requires",
+  "dst": "E:L03",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L09",
+  "kind": "requires",
+  "dst": "E:L04",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L09",
+  "kind": "requires",
+  "dst": "E:L05",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L09",
+  "kind": "requires",
+  "dst": "E:L06",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L09",
+  "kind": "requires",
+  "dst": "E:L07",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L10",
+  "kind": "candidate-for",
+  "dst": "W:T",
+  "grade": "",
+  "note": "three coefficients per representation against the weave's triplet: the register-to-field map is the lanes' missing join"
+ },
+ {
+  "src": "E:L10",
+  "kind": "instance-of",
+  "dst": "X:DICT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "E:L10",
+  "kind": "requires",
+  "dst": "E:L01",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L10",
+  "kind": "requires",
+  "dst": "E:L02",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L10",
+  "kind": "requires",
+  "dst": "E:L03",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L10",
+  "kind": "requires",
+  "dst": "E:L04",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L10",
+  "kind": "requires",
+  "dst": "E:L05",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L10",
+  "kind": "requires",
+  "dst": "E:L06",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L10",
+  "kind": "requires",
+  "dst": "E:L07",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L11",
+  "kind": "instance-of",
+  "dst": "X:HAND",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "E:L11",
+  "kind": "requires",
+  "dst": "E:L01",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L11",
+  "kind": "requires",
+  "dst": "E:L02",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L11",
+  "kind": "requires",
+  "dst": "E:L03",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L11",
+  "kind": "requires",
+  "dst": "E:L04",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L11",
+  "kind": "requires",
+  "dst": "E:L05",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L11",
+  "kind": "requires",
+  "dst": "E:L06",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L11",
+  "kind": "requires",
+  "dst": "E:L07",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L12",
+  "kind": "requires",
+  "dst": "E:L01",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L12",
+  "kind": "requires",
+  "dst": "E:L02",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L12",
+  "kind": "requires",
+  "dst": "E:L03",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L12",
+  "kind": "requires",
+  "dst": "E:L04",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L12",
+  "kind": "requires",
+  "dst": "E:L05",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L12",
+  "kind": "requires",
+  "dst": "E:L06",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:L12",
+  "kind": "requires",
+  "dst": "E:L07",
+  "grade": "LANE-INPUT",
+  "note": ""
+ },
+ {
+  "src": "E:Q1",
+  "kind": "blocks",
+  "dst": "D:07",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "E:Q1",
+  "kind": "instance-of",
+  "dst": "X:HAND",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "E:Q2",
+  "kind": "blocks",
+  "dst": "D:08",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "E:Q3",
+  "kind": "blocks",
+  "dst": "D:12",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "E:Q3",
+  "kind": "instance-of",
+  "dst": "X:SELECT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "FA:F1",
+  "kind": "requires",
+  "dst": "G:GM4",
+  "grade": "CONDITIONAL",
+  "note": "the fibre is the once-punctured torus"
+ },
+ {
+  "src": "FA:F1",
+  "kind": "requires",
+  "dst": "TAG:LAMBDA",
+  "grade": "CONDITIONAL",
+  "note": "banked 'given Λ, the dictionary'"
+ },
+ {
+  "src": "FA:F1",
+  "kind": "requires",
+  "dst": "W:Q8",
+  "grade": "CONDITIONAL",
+  "note": "the frame's doublet is the fibre's rank-two flat bundle with quaternion monodromy"
+ },
+ {
+  "src": "FL:01",
+  "kind": "instance-of",
+  "dst": "X:DICT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "FL:02",
+  "kind": "instance-of",
+  "dst": "X:FLAT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "FL:03",
+  "kind": "instance-of",
+  "dst": "X:HAND",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "FL:04",
+  "kind": "instance-of",
+  "dst": "X:TAU",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "FL:05",
+  "kind": "instance-of",
+  "dst": "X:SOURCE",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "FL:06",
+  "kind": "instance-of",
+  "dst": "X:SOURCE",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "FL:07",
+  "kind": "instance-of",
+  "dst": "X:SELECT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "FL:08",
+  "kind": "instance-of",
+  "dst": "X:SELECT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "FL:09",
+  "kind": "instance-of",
+  "dst": "X:DICT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "FL:10",
+  "kind": "instance-of",
+  "dst": "X:DICT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "FL:11",
+  "kind": "instance-of",
+  "dst": "X:END",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "FL:12",
+  "kind": "instance-of",
+  "dst": "X:SOURCE",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "FL:13",
+  "kind": "instance-of",
+  "dst": "X:SCALE",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "FL:14",
+  "kind": "bears-on",
+  "dst": "V:HELD",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "FL:18",
+  "kind": "instance-of",
+  "dst": "X:SELECT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "FL:19",
+  "kind": "bears-on",
+  "dst": "V:0OF19",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "FL:20",
+  "kind": "instance-of",
+  "dst": "X:DICT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "FL:21",
+  "kind": "instance-of",
+  "dst": "X:SCALE",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "FL:26",
+  "kind": "bears-on",
+  "dst": "MC:Z6",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "G:FK10",
+  "kind": "instance-of",
+  "dst": "X:END",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "G:FK11",
+  "kind": "instance-of",
+  "dst": "X:DICT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "G:FK14",
+  "kind": "instance-of",
+  "dst": "X:END",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "G:FK15",
+  "kind": "instance-of",
+  "dst": "X:DICT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "G:FK2",
+  "kind": "instance-of",
+  "dst": "X:HAND",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "G:FK3",
+  "kind": "instance-of",
+  "dst": "X:HAND",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "G:FK9",
+  "kind": "instance-of",
+  "dst": "X:SELECT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "G:GAP1",
+  "kind": "instance-of",
+  "dst": "X:DICT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "G:GAP2",
+  "kind": "instance-of",
+  "dst": "X:END",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "G:GAP3",
+  "kind": "instance-of",
+  "dst": "X:SOURCE",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "G:GAP4",
+  "kind": "instance-of",
+  "dst": "X:SELECT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "G:GAP5",
+  "kind": "instance-of",
+  "dst": "X:SOURCE",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "G:GAP6",
+  "kind": "instance-of",
+  "dst": "X:FLAT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "G:GAP6",
+  "kind": "instance-of",
+  "dst": "X:HAND",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "G:GM1",
+  "kind": "reads",
+  "dst": "G:PF1-FORM",
+  "grade": "CHOSEN",
+  "note": "the common character is PF1's commutator only through a rank-free reading of PF1, which is not on the record"
+ },
+ {
+  "src": "G:GM4",
+  "kind": "answers",
+  "dst": "G:FK5",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "G:GM5c",
+  "kind": "answers",
+  "dst": "G:FK3",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "G:GM5c",
+  "kind": "instance-of",
+  "dst": "X:HAND",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "G:PF1-FORM",
+  "kind": "reads",
+  "dst": "G:PF1",
+  "grade": "CHOSEN",
+  "note": ""
+ },
+ {
+  "src": "G:ROOT",
+  "kind": "requires",
+  "dst": "G:GM3",
+  "grade": "CONDITIONAL",
+  "note": "four inputs suffice, and each is needed"
+ },
+ {
+  "src": "G:ROOT",
+  "kind": "requires",
+  "dst": "G:GM4",
+  "grade": "CONDITIONAL",
+  "note": "four inputs suffice, and each is needed"
+ },
+ {
+  "src": "G:ROOT",
+  "kind": "requires",
+  "dst": "G:SE1",
+  "grade": "CONDITIONAL",
+  "note": "four inputs suffice, and each is needed"
+ },
+ {
+  "src": "G:ROOT",
+  "kind": "requires",
+  "dst": "G:SE2",
+  "grade": "CONDITIONAL",
+  "note": "four inputs suffice, and each is needed"
+ },
+ {
+  "src": "G:SE1",
+  "kind": "instance-of",
+  "dst": "X:SELECT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "G:SE2",
+  "kind": "answers",
+  "dst": "G:FK2",
+  "grade": "CHOSEN",
+  "note": ""
+ },
+ {
+  "src": "G:SE2",
+  "kind": "instance-of",
+  "dst": "X:HAND",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "G:T-ROOT",
+  "kind": "requires",
+  "dst": "G:SE1",
+  "grade": "DERIVED",
+  "note": ""
+ },
+ {
+  "src": "G:XGEN",
+  "kind": "requires",
+  "dst": "G:GM2",
+  "grade": "DERIVED",
+  "note": ""
+ },
+ {
+  "src": "G:XGEN",
+  "kind": "requires",
+  "dst": "G:GM4",
+  "grade": "DERIVED",
+  "note": ""
+ },
+ {
+  "src": "G:XGEN",
+  "kind": "requires",
+  "dst": "G:GM5b",
+  "grade": "DERIVED",
+  "note": ""
+ },
+ {
+  "src": "G:XGEN",
+  "kind": "requires",
+  "dst": "G:GM5d",
+  "grade": "DERIVED",
+  "note": ""
+ },
+ {
+  "src": "G:XGEN-PHYS",
+  "kind": "instance-of",
+  "dst": "X:SELECT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "GR:3PLUS1",
+  "kind": "instance-of",
+  "dst": "X:GRAVITY",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "GR:ACTION",
+  "kind": "instance-of",
+  "dst": "X:GRAVITY",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "GR:VECTORLIKE",
+  "kind": "instance-of",
+  "dst": "X:HAND",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "MC:ALG",
+  "kind": "requires",
+  "dst": "G:ROOT",
+  "grade": "CONDITIONAL",
+  "note": ""
+ },
+ {
+  "src": "MC:ALG",
+  "kind": "requires",
+  "dst": "MC:HYP",
+  "grade": "CONDITIONAL",
+  "note": ""
+ },
+ {
+  "src": "MC:ALG",
+  "kind": "requires",
+  "dst": "MC:PRICE",
+  "grade": "CONDITIONAL",
+  "note": ""
+ },
+ {
+  "src": "MC:CS0",
+  "kind": "instance-of",
+  "dst": "X:SCALE",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "MC:CS0",
+  "kind": "requires",
+  "dst": "G:SE2",
+  "grade": "DERIVED",
+  "note": "amphichirality puts the invariant in a two-element set; this object sits at zero"
+ },
+ {
+  "src": "MC:CUBIC",
+  "kind": "requires",
+  "dst": "G:ROOT",
+  "grade": "CONDITIONAL",
+  "note": ""
+ },
+ {
+  "src": "MC:CUBIC",
+  "kind": "requires",
+  "dst": "MC:HYP",
+  "grade": "CONDITIONAL",
+  "note": ""
+ },
+ {
+  "src": "MC:CUBIC",
+  "kind": "requires",
+  "dst": "MC:PRICE",
+  "grade": "CONDITIONAL",
+  "note": ""
+ },
+ {
+  "src": "MC:END",
+  "kind": "requires",
+  "dst": "G:ROOT",
+  "grade": "CONDITIONAL",
+  "note": ""
+ },
+ {
+  "src": "MC:END",
+  "kind": "requires",
+  "dst": "MC:HYP",
+  "grade": "CONDITIONAL",
+  "note": ""
+ },
+ {
+  "src": "MC:END",
+  "kind": "requires",
+  "dst": "MC:PRICE",
+  "grade": "CONDITIONAL",
+  "note": ""
+ },
+ {
+  "src": "MC:HYP",
+  "kind": "instance-of",
+  "dst": "X:PARENT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "MC:PRICE",
+  "kind": "instance-of",
+  "dst": "X:DICT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "MC:REACH",
+  "kind": "instance-of",
+  "dst": "X:PARENT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "MC:UNIQ",
+  "kind": "instance-of",
+  "dst": "X:PARENT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "MC:UNIQ",
+  "kind": "refuted-in-part-by",
+  "dst": "MC:GENERIC",
+  "grade": "",
+  "note": "the claim page's own control; the m = 4 counterexample is P-318's"
+ },
+ {
+  "src": "MC:Y",
+  "kind": "requires",
+  "dst": "G:ROOT",
+  "grade": "CONDITIONAL",
+  "note": ""
+ },
+ {
+  "src": "MC:Y",
+  "kind": "requires",
+  "dst": "MC:HYP",
+  "grade": "CONDITIONAL",
+  "note": ""
+ },
+ {
+  "src": "MC:Y",
+  "kind": "requires",
+  "dst": "MC:PRICE",
+  "grade": "CONDITIONAL",
+  "note": ""
+ },
+ {
+  "src": "MC:Z6",
+  "kind": "requires",
+  "dst": "G:ROOT",
+  "grade": "CONDITIONAL",
+  "note": ""
+ },
+ {
+  "src": "MC:Z6",
+  "kind": "requires",
+  "dst": "MC:HYP",
+  "grade": "CONDITIONAL",
+  "note": ""
+ },
+ {
+  "src": "MC:Z6",
+  "kind": "requires",
+  "dst": "MC:PRICE",
+  "grade": "CONDITIONAL",
+  "note": ""
+ },
+ {
+  "src": "P:138",
+  "kind": "bears-on",
+  "dst": "G:GAP5",
+  "grade": "DEBT",
+  "note": ""
+ },
+ {
+  "src": "P:157",
+  "kind": "bears-on",
+  "dst": "PR:P10",
+  "grade": "DEBT",
+  "note": ""
+ },
+ {
+  "src": "P:318",
+  "kind": "bears-on",
+  "dst": "MC:UNIQ",
+  "grade": "DEBT",
+  "note": ""
+ },
+ {
+  "src": "P:321",
+  "kind": "bears-on",
+  "dst": "G:GM4",
+  "grade": "DEBT",
+  "note": ""
+ },
+ {
+  "src": "P:355",
+  "kind": "bears-on",
+  "dst": "V:SIX",
+  "grade": "DEBT",
+  "note": ""
+ },
+ {
+  "src": "P:374",
+  "kind": "bears-on",
+  "dst": "MC:HYP",
+  "grade": "DEBT",
+  "note": ""
+ },
+ {
+  "src": "P:384",
+  "kind": "bears-on",
+  "dst": "V:SIX",
+  "grade": "DEBT",
+  "note": ""
+ },
+ {
+  "src": "P:446",
+  "kind": "bears-on",
+  "dst": "V:SIX",
+  "grade": "DEBT",
+  "note": ""
+ },
+ {
+  "src": "P:517",
+  "kind": "bears-on",
+  "dst": "V:SIX",
+  "grade": "DEBT",
+  "note": ""
+ },
+ {
+  "src": "P:579",
+  "kind": "bears-on",
+  "dst": "V:0OF19",
+  "grade": "DEBT",
+  "note": ""
+ },
+ {
+  "src": "P:581",
+  "kind": "bears-on",
+  "dst": "MC:Z6",
+  "grade": "DEBT",
+  "note": ""
+ },
+ {
+  "src": "P:586",
+  "kind": "bears-on",
+  "dst": "V:SIX",
+  "grade": "DEBT",
+  "note": ""
+ },
+ {
+  "src": "P:596",
+  "kind": "bears-on",
+  "dst": "V:SIX",
+  "grade": "DEBT",
+  "note": ""
+ },
+ {
+  "src": "P:597",
+  "kind": "bears-on",
+  "dst": "V:HELD",
+  "grade": "DEBT",
+  "note": ""
+ },
+ {
+  "src": "P:606",
+  "kind": "bears-on",
+  "dst": "MC:GEN",
+  "grade": "DEBT",
+  "note": ""
+ },
+ {
+  "src": "P:610",
+  "kind": "bears-on",
+  "dst": "TAG:UNIT",
+  "grade": "DEBT",
+  "note": ""
+ },
+ {
+  "src": "P:618",
+  "kind": "bears-on",
+  "dst": "MC:UNIQ",
+  "grade": "DEBT",
+  "note": ""
+ },
+ {
+  "src": "PR:P9",
+  "kind": "instance-of",
+  "dst": "X:HAND",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "S:S01",
+  "kind": "instance-of",
+  "dst": "X:FLAT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "S:S02",
+  "kind": "instance-of",
+  "dst": "X:HAND",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "SC:CARD",
+  "kind": "instance-of",
+  "dst": "X:SCALE",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "SC:CARD",
+  "kind": "requires",
+  "dst": "SC:PREMISE",
+  "grade": "NEGATIVE",
+  "note": ""
+ },
+ {
+  "src": "SC:CARD",
+  "kind": "requires",
+  "dst": "SC:R2",
+  "grade": "NEGATIVE",
+  "note": ""
+ },
+ {
+  "src": "SC:CARD",
+  "kind": "requires",
+  "dst": "SC:R4",
+  "grade": "NEGATIVE",
+  "note": ""
+ },
+ {
+  "src": "SC:PREMISE",
+  "kind": "instance-of",
+  "dst": "X:HAND",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "SC:R2",
+  "kind": "instance-of",
+  "dst": "X:SCALE",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "SC:R4",
+  "kind": "instance-of",
+  "dst": "X:SCALE",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "SC:RATIO",
+  "kind": "instance-of",
+  "dst": "X:SCALE",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "SC:RATIO",
+  "kind": "requires",
+  "dst": "SC:R2",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "SC:UNIT",
+  "kind": "instance-of",
+  "dst": "X:SCALE",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "T:CHARGE5",
+  "kind": "instance-of",
+  "dst": "X:TAU",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "T:FRAMING",
+  "kind": "instance-of",
+  "dst": "X:TAU",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "T:IM",
+  "kind": "instance-of",
+  "dst": "X:TAU",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "T:IM",
+  "kind": "requires",
+  "dst": "T:CHARGE5",
+  "grade": "CONDITIONAL",
+  "note": ""
+ },
+ {
+  "src": "T:IM",
+  "kind": "requires",
+  "dst": "T:FRAMING",
+  "grade": "CONDITIONAL",
+  "note": ""
+ },
+ {
+  "src": "T:IM",
+  "kind": "requires",
+  "dst": "T:MINIM",
+  "grade": "CONDITIONAL",
+  "note": ""
+ },
+ {
+  "src": "T:IM",
+  "kind": "requires",
+  "dst": "T:POINT-WEIGHT",
+  "grade": "CONDITIONAL",
+  "note": ""
+ },
+ {
+  "src": "T:IM",
+  "kind": "requires",
+  "dst": "T:PRICED",
+  "grade": "DUTY",
+  "note": ""
+ },
+ {
+  "src": "T:IM",
+  "kind": "requires",
+  "dst": "T:RULE",
+  "grade": "CONDITIONAL",
+  "note": ""
+ },
+ {
+  "src": "T:MINIM",
+  "kind": "instance-of",
+  "dst": "X:TAU",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "T:NO-PLACE",
+  "kind": "instance-of",
+  "dst": "X:SOURCE",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "T:NO-PLACE",
+  "kind": "instance-of",
+  "dst": "X:TAU",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "T:POINT-WEIGHT",
+  "kind": "instance-of",
+  "dst": "X:TAU",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "T:PRICED",
+  "kind": "instance-of",
+  "dst": "X:TAU",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "T:RE",
+  "kind": "requires",
+  "dst": "T:RULE",
+  "grade": "DERIVED",
+  "note": ""
+ },
+ {
+  "src": "T:RULE",
+  "kind": "requires",
+  "dst": "G:GM2",
+  "grade": "CONDITIONAL",
+  "note": "the history is a word in the two letters"
+ },
+ {
+  "src": "T:RULE",
+  "kind": "requires",
+  "dst": "G:GM4",
+  "grade": "CONDITIONAL",
+  "note": "the fibre and its mapping torus"
+ },
+ {
+  "src": "T:RULE",
+  "kind": "requires",
+  "dst": "T:FRAMING",
+  "grade": "CONDITIONAL",
+  "note": ""
+ },
+ {
+  "src": "TAG:LAMBDA",
+  "kind": "answers",
+  "dst": "G:FK11",
+  "grade": "TAGGED",
+  "note": ""
+ },
+ {
+  "src": "TAG:LAMBDA",
+  "kind": "instance-of",
+  "dst": "X:DICT",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "TAG:UNIT",
+  "kind": "answers",
+  "dst": "G:FK10",
+  "grade": "TAGGED",
+  "note": ""
+ },
+ {
+  "src": "TAG:UNIT",
+  "kind": "instance-of",
+  "dst": "X:END",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "V:0OF19",
+  "kind": "follows-from",
+  "dst": "V:SIX",
+  "grade": "DERIVED",
+  "note": "a reading earns nothing"
+ },
+ {
+  "src": "V:SIX",
+  "kind": "blocked-by",
+  "dst": "V:HELD",
+  "grade": "",
+  "note": "no held-out target is spent, so nothing is predicted"
+ },
+ {
+  "src": "V:SIX",
+  "kind": "requires",
+  "dst": "A:A01",
+  "grade": "FITTED",
+  "note": ""
+ },
+ {
+  "src": "V:SIX",
+  "kind": "requires",
+  "dst": "A:A02",
+  "grade": "CHOSEN",
+  "note": ""
+ },
+ {
+  "src": "V:SIX",
+  "kind": "requires",
+  "dst": "A:A03",
+  "grade": "CHOSEN",
+  "note": ""
+ },
+ {
+  "src": "V:SIX",
+  "kind": "requires",
+  "dst": "A:A04",
+  "grade": "CHOSEN",
+  "note": ""
+ },
+ {
+  "src": "V:SIX",
+  "kind": "requires",
+  "dst": "A:A05",
+  "grade": "CHOSEN",
+  "note": ""
+ },
+ {
+  "src": "V:SIX",
+  "kind": "requires",
+  "dst": "A:A07",
+  "grade": "CHOSEN",
+  "note": ""
+ },
+ {
+  "src": "V:SIX",
+  "kind": "requires",
+  "dst": "A:A08",
+  "grade": "CHOSEN",
+  "note": ""
+ },
+ {
+  "src": "V:SIX",
+  "kind": "requires",
+  "dst": "A:A09",
+  "grade": "CHOSEN",
+  "note": ""
+ },
+ {
+  "src": "V:SIX",
+  "kind": "requires",
+  "dst": "A:A10",
+  "grade": "FITTED",
+  "note": ""
+ },
+ {
+  "src": "V:SIX",
+  "kind": "requires",
+  "dst": "A:A11",
+  "grade": "CHOSEN",
+  "note": ""
+ },
+ {
+  "src": "V:SIX",
+  "kind": "requires",
+  "dst": "A:A12",
+  "grade": "CHOSEN",
+  "note": ""
+ },
+ {
+  "src": "V:SIX",
+  "kind": "requires",
+  "dst": "FA:F1",
+  "grade": "CONDITIONAL",
+  "note": "main's frame as banked, conditional on its own givens"
+ },
+ {
+  "src": "V:SIX",
+  "kind": "requires",
+  "dst": "FA:F2",
+  "grade": "CONDITIONAL",
+  "note": "main's frame as banked, conditional on its own givens"
+ },
+ {
+  "src": "V:SIX",
+  "kind": "requires",
+  "dst": "FA:F3",
+  "grade": "CONDITIONAL",
+  "note": "main's frame as banked, conditional on its own givens"
+ },
+ {
+  "src": "V:SIX",
+  "kind": "requires",
+  "dst": "FA:F4",
+  "grade": "CONDITIONAL",
+  "note": "main's frame as banked, conditional on its own givens"
+ },
+ {
+  "src": "V:SIX",
+  "kind": "requires",
+  "dst": "S:S01",
+  "grade": "ANSATZ",
+  "note": ""
+ },
+ {
+  "src": "V:SIX",
+  "kind": "requires",
+  "dst": "S:S02",
+  "grade": "CHOSEN",
+  "note": ""
+ },
+ {
+  "src": "V:SIX",
+  "kind": "requires",
+  "dst": "TAG:LAMBDA",
+  "grade": "READING",
+  "note": "the frame's coupling is banked 'given Λ, the dictionary'"
+ },
+ {
+  "src": "W:G96",
+  "kind": "requires",
+  "dst": "W:T",
+  "grade": "DERIVED",
+  "note": ""
+ },
+ {
+  "src": "W:HANDS",
+  "kind": "instance-of",
+  "dst": "X:HAND",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "W:HANDS",
+  "kind": "requires",
+  "dst": "G:GM5c",
+  "grade": "NEGATIVE",
+  "note": ""
+ },
+ {
+  "src": "W:HANDS",
+  "kind": "requires",
+  "dst": "G:SE2",
+  "grade": "NEGATIVE",
+  "note": ""
+ },
+ {
+  "src": "W:INDEX3",
+  "kind": "instance-of",
+  "dst": "X:HAND",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "W:INDEX3",
+  "kind": "requires",
+  "dst": "G:GM5c",
+  "grade": "CONDITIONAL",
+  "note": "on the double-tick weave, where the swap is not a move"
+ },
+ {
+  "src": "W:INDEX3",
+  "kind": "requires",
+  "dst": "TAG:LAMBDA",
+  "grade": "CONDITIONAL",
+  "note": ""
+ },
+ {
+  "src": "W:INDEX3",
+  "kind": "requires",
+  "dst": "TAG:UNIT",
+  "grade": "CONDITIONAL",
+  "note": ""
+ },
+ {
+  "src": "W:INDEX3",
+  "kind": "requires",
+  "dst": "W:T",
+  "grade": "CONDITIONAL",
+  "note": ""
+ },
+ {
+  "src": "W:MIRROR-EVEN",
+  "kind": "instance-of",
+  "dst": "X:HAND",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "W:NOMOD",
+  "kind": "instance-of",
+  "dst": "X:TAU",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "W:NOVAL",
+  "kind": "instance-of",
+  "dst": "X:SOURCE",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "W:ONE-END",
+  "kind": "instance-of",
+  "dst": "X:END",
+  "grade": "",
+  "note": ""
+ },
+ {
+  "src": "W:Q8",
+  "kind": "requires",
+  "dst": "G:GM1",
+  "grade": "DERIVED",
+  "note": ""
+ },
+ {
+  "src": "W:Q8",
+  "kind": "requires",
+  "dst": "G:GM2",
+  "grade": "DERIVED",
+  "note": ""
+ },
+ {
+  "src": "W:T",
+  "kind": "requires",
+  "dst": "W:Q8",
+  "grade": "DERIVED",
+  "note": ""
+ },
+ {
+  "src": "X:DICT",
+  "kind": "blocks",
+  "dst": "D:01",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "X:DICT",
+  "kind": "blocks",
+  "dst": "D:02",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "X:DICT",
+  "kind": "blocks",
+  "dst": "D:05",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "X:DICT",
+  "kind": "blocks",
+  "dst": "D:06",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "X:DICT",
+  "kind": "blocks",
+  "dst": "D:07",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "X:END",
+  "kind": "blocks",
+  "dst": "D:03",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "X:END",
+  "kind": "blocks",
+  "dst": "D:04",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "X:END",
+  "kind": "blocks",
+  "dst": "D:06",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "X:FLAT",
+  "kind": "blocks",
+  "dst": "D:10",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "X:GRAVITY",
+  "kind": "blocks",
+  "dst": "D:11",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "X:HAND",
+  "kind": "blocks",
+  "dst": "D:06",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "X:HAND",
+  "kind": "blocks",
+  "dst": "D:07",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "X:HAND",
+  "kind": "blocks",
+  "dst": "D:08",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "X:PARENT",
+  "kind": "blocks",
+  "dst": "D:02",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "X:PARENT",
+  "kind": "blocks",
+  "dst": "D:05",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "X:SCALE",
+  "kind": "blocks",
+  "dst": "D:10",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "X:SCALE",
+  "kind": "blocks",
+  "dst": "D:11",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "X:SELECT",
+  "kind": "blocks",
+  "dst": "D:03",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "X:SELECT",
+  "kind": "blocks",
+  "dst": "D:12",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "X:SOURCE",
+  "kind": "blocks",
+  "dst": "D:03",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "X:SOURCE",
+  "kind": "blocks",
+  "dst": "D:04",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "X:SOURCE",
+  "kind": "blocks",
+  "dst": "D:10",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "X:TAU",
+  "kind": "blocks",
+  "dst": "D:10",
+  "grade": "OPEN",
+  "note": ""
+ },
+ {
+  "src": "X:TAU",
+  "kind": "blocks",
+  "dst": "D:12",
+  "grade": "OPEN",
+  "note": ""
+ }
+]

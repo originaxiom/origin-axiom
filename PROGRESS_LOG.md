@@ -18764,3 +18764,19 @@ The owner then said it directly: every seat's work is the project's work, and th
 map exactly what is established, what is conditional, and where there are bugs, on the way to a theory with no free
 parameters. That is registered as the next work. 0 of 19.
 
+## 2026-11-10 — S306n (continued): one map of everything, and what it shows
+
+The owner asked for an exact map of the programme: what is there, what is conditional, and where the bugs are. Main
+built it as one graph. Each entry is something the record itself says, with a quotation that a program checks against
+the source, so the map cannot drift from the record without a test failing.
+
+Three things stand out. First, a short list of results is proved outright, and they are mathematics about the object;
+everything that reads as physics rests on assumptions, choices or working postulates, and the map names each one.
+Second, the open questions of the different seats turn out to be the same ten questions under different names: the
+value of one modulus, for example, appears in three separate ledgers that had never been joined. Third, every branch of
+the work arrives at the same obstacle, the question of handedness, including the newest model built by two other seats,
+which reached it from the opposite direction.
+
+The map also names the next computation worth doing, before doing it: whether the three-fold structure the other seats
+count is the same three that main's own mathematics produces. Another seat has been asked to check the map. 0 of 19.
+

@@ -1,0 +1,5964 @@
+[
+ {
+  "id": "G:PF1",
+  "layer": "0 principle",
+  "kind": "premise",
+  "grade": "POSTULATED",
+  "text": "Existence is what remains when cancelling to nothing cannot complete.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "| PF1 | what exists | \"existence as a frustrated cancellation\""
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {},
+  "genesis_status_cell": "POSTULATED |"
+ },
+ {
+  "id": "G:PF1-FORM",
+  "layer": "0 principle",
+  "kind": "reading",
+  "grade": "CHOSEN",
+  "text": "PF1's mathematical form, non-cancellation as tr[a, b] ≠ 2, is a reading of the principle, not a derivation from it.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "PF1 has a mathematical form in the record, and it is a reading, not a derivation."
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "G:PF2",
+  "layer": "0 principle",
+  "kind": "premise",
+  "grade": "POSTULATED",
+  "text": "The remainder is a description that cannot be exhausted. It does not follow from PF1.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "| PF2 | the form the remainder takes |"
+   ],
+   [
+    "GENESIS.md",
+    "PF2 does not follow from PF1 by any derivation in the record."
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {},
+  "genesis_status_cell": "POSTULATED |"
+ },
+ {
+  "id": "G:PF3",
+  "layer": "0 principle",
+  "kind": "premise",
+  "grade": "POSTULATED",
+  "text": "The method: read that description as mathematical structure and ask what it forces.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "| PF3 | the method |"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {},
+  "genesis_status_cell": "POSTULATED |"
+ },
+ {
+  "id": "G:GM1",
+  "layer": "1 grammar",
+  "kind": "premise",
+  "grade": "POSTULATED",
+  "text": "Two records. Equivalent to: the records have a non-trivial common character in SL(2, ℂ); not weaker than it.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "| GM1 | Two records: updates act on a pair of integer counts, ℤ² | **POSTULATED, in an equivalent form [v1.50]**"
+   ],
+   [
+    "GENESIS.md",
+    "Answered: equivalent, not weaker"
+   ]
+  ],
+  "rows": [
+   "P-221",
+   "P-211"
+  ],
+  "arcs": [
+   "B1677",
+   "B1679",
+   "B1682"
+  ],
+  "note": "",
+  "rows_live": {
+   "P-221": "DONE",
+   "P-211": "DONE"
+  },
+  "genesis_status_cell": "**POSTULATED, in an equivalent form [v1.50]** (DERIVED given one input at v1.49, regraded;"
+ },
+ {
+  "id": "G:GM2",
+  "layer": "1 grammar",
+  "kind": "premise",
+  "grade": "POSTULATED",
+  "text": "The elementary updates are the unit shears L and R; descriptions are words in them.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "| GM2 | Unit shears: elementary updates are L and R; descriptions are words in them | POSTULATED |"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {},
+  "genesis_status_cell": "POSTULATED"
+ },
+ {
+  "id": "G:GM3",
+  "layer": "1 grammar",
+  "kind": "premise",
+  "grade": "POSTULATED",
+  "text": "The description is not periodic, so the monodromy is hyperbolic.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "| GM3 | Aperiodicity: the description is not periodic, so the monodromy is hyperbolic | POSTULATED (cheap) |"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {},
+  "genesis_status_cell": "POSTULATED (cheap)"
+ },
+ {
+  "id": "G:GM4",
+  "layer": "1 grammar",
+  "kind": "premise",
+  "grade": "POSTULATED",
+  "text": "The carrier is the once-punctured torus. The puncture is conditional on faithful word data; faithfulness and the surface category stay premises.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "| GM4 | Carrier: words are realised as a mapping class of the once-punctured torus | POSTULATED, the puncture CONDITIONAL |"
+   ],
+   [
+    "GENESIS.md",
+    "so faithful word realisation and the surface category stay premises"
+   ]
+  ],
+  "rows": [
+   "P-321"
+  ],
+  "arcs": [],
+  "note": "",
+  "rows_live": {
+   "P-321": "QUEUED"
+  },
+  "genesis_status_cell": "POSTULATED, the puncture CONDITIONAL"
+ },
+ {
+  "id": "G:GM5a",
+  "layer": "1 grammar",
+  "kind": "premise",
+  "grade": "POSTULATED",
+  "text": "Updates are reversible (GL(2, ℤ)).",
+  "pins": [
+   [
+    "GENESIS.md",
+    "| GM5a | Reversible updates (GL(2,ℤ)) | POSTULATED |"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {},
+  "genesis_status_cell": "POSTULATED"
+ },
+ {
+  "id": "G:GM5b",
+  "layer": "1 grammar",
+  "kind": "choice",
+  "grade": "CHOSEN",
+  "text": "Inverse moves are legal: adopted by the owner's ruling, on a reading of PF1 chosen by the mathematics, not derived.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "| GM5b | Inverse moves are legal | **ADOPTED [v1.48]**"
+   ],
+   [
+    "GENESIS.md",
+    "A reading of PF1's cancelling chosen by the math, not a derivation."
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1662"
+  ],
+  "note": "",
+  "rows_live": {},
+  "genesis_status_cell": "**ADOPTED [v1.48]** (the owner's ruling of 2026-10-16 on P-179, made by the math; B1662)"
+ },
+ {
+  "id": "G:GM5c",
+  "layer": "1 grammar",
+  "kind": "fork",
+  "grade": "OPEN",
+  "text": "Is the record swap P a legal move? Open as a fork; the owner's ruling is 'even ticks observed': the observed weave is ⟨L, R⟩.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "| GM5c | The record swap P is a legal move | OPEN |"
+   ],
+   [
+    "GENESIS.md",
+    "GM5c: **even ticks observed**"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1607",
+   "B1609",
+   "B1610",
+   "B1611"
+  ],
+  "note": "",
+  "rows_live": {},
+  "genesis_status_cell": "OPEN"
+ },
+ {
+  "id": "G:GM5d",
+  "layer": "1 grammar",
+  "kind": "choice",
+  "grade": "CHOSEN",
+  "text": "Positivity: the choice of side of the mirror.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "| GM5d | Counts are non-negative (positivity) | CHOSEN |"
+   ],
+   [
+    "GENESIS.md",
+    "positivity becomes the choice of side, still CHOSEN"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {},
+  "genesis_status_cell": "CHOSEN"
+ },
+ {
+  "id": "G:ROOT",
+  "layer": "2 states and root",
+  "kind": "theorem",
+  "grade": "CONDITIONAL",
+  "text": "Given GM3, GM4, SE1 and SE2 the root is m004, the figure-eight knot complement. A conditional reconstruction of a chosen sector, not a derivation from nothing.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "Given GM3, GM4, SE1 and SE2, the root is m004, the figure-eight knot complement"
+   ],
+   [
+    "GENESIS.md",
+    "So the genesis is a conditional reconstruction of a chosen sector. It is not a derivation of m004 from nothing."
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "G:SE1",
+  "layer": "2 states and root",
+  "kind": "premise",
+  "grade": "POSTULATED",
+  "text": "The selection criterion: the root's first homology is torsion-free. Other criteria select other objects and are kept.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "| SE1 | **The selection criterion: the root's first homology is torsion-free.** | POSTULATED |"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {},
+  "genesis_status_cell": "POSTULATED"
+ },
+ {
+  "id": "G:SE2",
+  "layer": "2 states and root",
+  "kind": "choice",
+  "grade": "CHOSEN",
+  "text": "Orientation: of the two, take the orientable one, m004. The chain's most fragile link; eight walls pass through the amphichirality it brings.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "| SE2 | **Orientation**: of the two, take the orientable one, m004, the orientation double cover of m000 | CHOSEN |"
+   ],
+   [
+    "GENESIS.md",
+    "The most fragile link of the chain (fork FK2)."
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1234"
+  ],
+  "note": "",
+  "rows_live": {},
+  "genesis_status_cell": "CHOSEN"
+ },
+ {
+  "id": "G:T-ROOT",
+  "layer": "2 states and root",
+  "kind": "theorem",
+  "grade": "DERIVED",
+  "text": "What SE1 selects: exactly the class of LR (m004) and the class of the golden matrix LP (m000).",
+  "pins": [
+   [
+    "GENESIS.md",
+    "So H₁ is torsion-free exactly for the class of LR (trace 3: **m004**) and the class of the golden matrix LP"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B197"
+  ],
+  "note": "",
+  "rows_live": {},
+  "genesis_status_cell": "DERIVED"
+ },
+ {
+  "id": "G:XGEN",
+  "layer": "2 states and root",
+  "kind": "theorem",
+  "grade": "DERIVED",
+  "text": "The generated state space: 758 signed word states to length 12, realising 536 manifolds.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "**Census** (DERIVED; re-derived by sm:B1516 C4 and C5)"
+   ],
+   [
+    "GENESIS.md",
+    "536 distinct manifolds"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1434",
+   "B1439"
+  ],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "G:XGEN-PHYS",
+  "layer": "2 states and root",
+  "kind": "gap",
+  "grade": "OPEN",
+  "text": "Not derived: that every state occurs in one history, that the states are realised together, that any arrow is physical time.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "| Every legal state occurs in one history | NOT DERIVED |"
+   ],
+   [
+    "GENESIS.md",
+    "| Some arrow of X_gen is physical time | NOT DERIVED"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "G:FK10",
+  "layer": "3 weave",
+  "kind": "fork",
+  "grade": "OPEN",
+  "text": "The end law. Open; the cusp's unit is tagged, not derived.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "| FK10 | The end law | OPEN"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {},
+  "genesis_status_cell": "OPEN **[v1.37] The owner's ruling of 2026-10-09 (relayed by the SM seat, its relay §49): k"
+ },
+ {
+  "id": "G:FK11",
+  "layer": "3 weave",
+  "kind": "fork",
+  "grade": "OPEN",
+  "text": "The dictionary: unearned. Unearnable by derivation inside the flat counting frames on any thread or cover; earnable by sealed prediction within a frame.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "| FK11 | The dictionary (I-26) | UNEARNED"
+   ],
+   [
+    "GENESIS.md",
+    "UNEARNABLE within F-HE and F-CI on any thread or cover of a thread"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1604",
+   "B1828"
+  ],
+  "note": "",
+  "rows_live": {},
+  "genesis_status_cell": "UNEARNED — **[v1.60] earnable BY PREDICTION within a frame (GAP1's v1.60 rule; the owner's"
+ },
+ {
+  "id": "G:FK12",
+  "layer": "3 weave",
+  "kind": "fork",
+  "grade": "OPEN",
+  "text": "The register: is the order-keeping register part of the state, carried by the act, or an input from outside?",
+  "pins": [
+   [
+    "GENESIS.md",
+    "Is the register that keeps the order part of the state, carried by the act, or an input from outside?"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {},
+  "genesis_status_cell": "OPEN"
+ },
+ {
+  "id": "G:FK13",
+  "layer": "3 weave",
+  "kind": "fork",
+  "grade": "CHOSEN",
+  "text": "Which family is the object: ruled by argument from the principle (the word states it generates); revisable by a better argument.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "**[v1.13] RULED BY THE PRINCIPLE**"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1480"
+  ],
+  "note": "",
+  "rows_live": {},
+  "genesis_status_cell": "**[v1.13] RULED BY THE PRINCIPLE** (main B1480; the owner, 2026-10-07: \"it's not up to me,"
+ },
+ {
+  "id": "G:FK14",
+  "layer": "3 weave",
+  "kind": "fork",
+  "grade": "OPEN",
+  "text": "The ends: does the genesis generate states with several ends, or are generations not ends?",
+  "pins": [
+   [
+    "GENESIS.md",
+    "does the genesis generate states with several ends, or are generations not ends?"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1487",
+   "B1491",
+   "B1492"
+  ],
+  "note": "",
+  "rows_live": {},
+  "genesis_status_cell": "OPEN"
+ },
+ {
+  "id": "G:FK15",
+  "layer": "3 weave",
+  "kind": "fork",
+  "grade": "OPEN",
+  "text": "The field's genesis: forced to exist, not forced which.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "\"forced to exist, not forced which\""
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {},
+  "genesis_status_cell": "OPEN"
+ },
+ {
+  "id": "G:FK2",
+  "layer": "3 weave",
+  "kind": "fork",
+  "grade": "CHOSEN",
+  "text": "Orientation (SE2): what would settle it is a derived reason for orientability, or carrying both m004 and m000.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "| FK2 | Orientation (SE2) | CHOSEN |"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {},
+  "genesis_status_cell": "CHOSEN"
+ },
+ {
+  "id": "G:FK3",
+  "layer": "3 weave",
+  "kind": "fork",
+  "grade": "OPEN",
+  "text": "The swap P: a legal move, and of what type.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "| FK3 | The swap P: legal move, and of what type | OPEN |"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {},
+  "genesis_status_cell": "OPEN"
+ },
+ {
+  "id": "G:FK5",
+  "layer": "3 weave",
+  "kind": "fork",
+  "grade": "OPEN",
+  "text": "Faithful F₂ against its abelian quotient.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "| FK5 | Faithful F₂ against its abelian quotient (GM4) | OPEN |"
+   ]
+  ],
+  "rows": [
+   "P-321"
+  ],
+  "arcs": [],
+  "note": "",
+  "rows_live": {
+   "P-321": "QUEUED"
+  },
+  "genesis_status_cell": "OPEN"
+ },
+ {
+  "id": "G:FK7",
+  "layer": "3 weave",
+  "kind": "fork",
+  "grade": "OPEN",
+  "text": "The deck: gauged or kept.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "| FK7 | The deck: gauged or kept | OPEN |"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {},
+  "genesis_status_cell": "OPEN"
+ },
+ {
+  "id": "G:FK8",
+  "layer": "3 weave",
+  "kind": "fork",
+  "grade": "OPEN",
+  "text": "The join: which maps carry physical data between states.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "| FK8 | The join: which maps carry physical data between states | OPEN |"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {},
+  "genesis_status_cell": "OPEN"
+ },
+ {
+  "id": "G:FK9",
+  "layer": "3 weave",
+  "kind": "fork",
+  "grade": "OPEN",
+  "text": "Selection: what makes a state physical.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "| FK9 | Selection: what makes a state physical | OPEN |"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {},
+  "genesis_status_cell": "OPEN"
+ },
+ {
+  "id": "G:GAP1",
+  "layer": "3 weave",
+  "kind": "gap",
+  "grade": "OPEN",
+  "text": "The dictionary: no frame is derived; until one is, a count is mathematics about a flat bundle.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "- **GAP1, the dictionary.** No frame is derived (I-26)."
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "G:GAP2",
+  "layer": "3 weave",
+  "kind": "gap",
+  "grade": "OPEN",
+  "text": "The ends: chiral counts live at cusps and depend on an end condition that is chosen.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "- **GAP2, the ends.** Chiral counts live at cusps"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "G:GAP3",
+  "layer": "3 weave",
+  "kind": "gap",
+  "grade": "OPEN",
+  "text": "The source: chirality sits on non-split bundles, which carry no harmonic metric without a source; no report derives the source.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "- **GAP3, the source.** Chirality sits on non-split bundles"
+   ],
+   [
+    "GENESIS.md",
+    "No report derives the source."
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "G:GAP4",
+  "layer": "3 weave",
+  "kind": "gap",
+  "grade": "OPEN",
+  "text": "Selection and coincidence: a selection rule and a null model must be fixed before a match counts; nothing on the record clears the bar.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "- **GAP4, selection and coincidence.**"
+   ],
+   [
+    "GENESIS.md",
+    "Nothing in the record clears it"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "G:GAP5",
+  "layer": "3 weave",
+  "kind": "gap",
+  "grade": "OPEN",
+  "text": "Dynamics: nothing on the record has been turned into a potential, a breaking or a running that fixes a value.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "- **GAP5, dynamics.** Topology yields integers and discrete structure."
+   ],
+   [
+    "GENESIS.md",
+    "none of it has been turned into a potential, a breaking or a running that fixes a value"
+   ]
+  ],
+  "rows": [
+   "P-138"
+  ],
+  "arcs": [],
+  "note": "",
+  "rows_live": {
+   "P-138": "QUEUED"
+  }
+ },
+ {
+  "id": "G:GAP6",
+  "layer": "3 weave",
+  "kind": "gap",
+  "grade": "OPEN",
+  "text": "The flatness: a flat frame reaches discrete data through the boundary and cannot reach continuous moduli.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "GAP6, the flatness.** Every frame on this page is a frame of flat bundles"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "TAG:LAMBDA",
+  "layer": "3 weave",
+  "kind": "premise",
+  "grade": "TAGGED",
+  "text": "Λ, the dictionary's link, is a tagged working postulate: results computed with it carry 'given Λ'.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "FK11: **Λ a tagged working postulate**"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "TAG:UNIT",
+  "layer": "3 weave",
+  "kind": "premise",
+  "grade": "TAGGED",
+  "text": "One unit of end data at the weave's cusp is a tagged working postulate; no datum the principle forces supplies it.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "One unit of end data at the weave's cusp is adopted as a working postulate, as Λ is"
+   ],
+   [
+    "GENESIS.md",
+    "nothing the principle forces visits the weave's cusp"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1629"
+  ],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "W:G96",
+  "layer": "3 weave",
+  "kind": "theorem",
+  "grade": "DERIVED",
+  "text": "The weave's group on T ⊕ T̄ has order 96; its generalized CP is the record swap, so CP is a symmetry exactly when the swap is a move.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "The weave's group G (the lifts of L and R on V = T ⊕ T̄, order 96)"
+   ],
+   [
+    "GENESIS.md",
+    "**So the weave's generalized CP is the record swap:**"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1611"
+  ],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "W:HANDS",
+  "layer": "3 weave",
+  "kind": "theorem",
+  "grade": "NEGATIVE",
+  "text": "Neither hand is derived on the weave: each is derived only on a subweave the weave does not select.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "**neither hand is derived on the weave**"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1607",
+   "B1609",
+   "B1610"
+  ],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "W:INDEX3",
+  "layer": "3 weave",
+  "kind": "theorem",
+  "grade": "CONDITIONAL",
+  "text": "Given Λ and the unit, the chiral three is a four-dimensional index (±3) on the weave's own surface.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "So, given Λ and the unit, the chiral three is an index, and FK11's earning condition is met conditionally."
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1632",
+   "B1641"
+  ],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "W:MIRROR-EVEN",
+  "layer": "3 weave",
+  "kind": "theorem",
+  "grade": "DERIVED",
+  "text": "A flat frame's count can tell a module from its dual but cannot see the hand: the class index is mirror-even for every module.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "what it cannot do is see the hand: the class index is mirror-even for every module (B1487, T1)"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1487"
+  ],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "W:NOMOD",
+  "layer": "3 weave",
+  "kind": "theorem",
+  "grade": "NEGATIVE",
+  "text": "The weave forces no fibre modulus: no point of the upper half-plane is fixed by every move.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "The weave forces no fibre modulus (no point of the upper half-plane is fixed by every move"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1617"
+  ],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "W:NOVAL",
+  "layer": "3 weave",
+  "kind": "theorem",
+  "grade": "NEGATIVE",
+  "text": "No parameter of the nineteen and no neutrino mass is a number of the weave's group; values need a forced modulus, dynamics or end data.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "no parameter of the nineteen, and no neutrino mass, is a number of the weave's group; values need a forced modulus, dynamics or end data"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1611",
+   "B1612",
+   "B1615",
+   "B1616"
+  ],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "W:ONE-END",
+  "layer": "3 weave",
+  "kind": "theorem",
+  "grade": "NEGATIVE",
+  "text": "A generated state has one end, and no generated state carries three generations in either counting frame, by counting ends.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "no state of X_gen carries three generations in either frame, by counting ends, not by search."
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1487"
+  ],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "W:Q8",
+  "layer": "3 weave",
+  "kind": "theorem",
+  "grade": "DERIVED",
+  "text": "At two records the moves fix exactly two characters: the trivial one and the quaternion point; at three or more records, only the trivial one.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "at n = 2 the record's two moves fix exactly the trivial point and the quaternion point (0, 0, 0)"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1677",
+   "B1679"
+  ],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "W:T",
+  "layer": "3 weave",
+  "kind": "theorem",
+  "grade": "DERIVED",
+  "text": "The triplet: a three-dimensional representation follows from the quaternion point.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "the triplet follows from that point (T2)"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "MC:ALG",
+  "layer": "4 structure",
+  "kind": "theorem",
+  "grade": "CONDITIONAL",
+  "text": "The gauge algebra su(3) ⊕ su(2) ⊕ u(1)³.",
+  "pins": [
+   [
+    "docs/THE_CLAIM.md",
+    "the gauge algebra su(3)⊕su(2)⊕u(1)³"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B892",
+   "B992"
+  ],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "MC:CS0",
+  "layer": "4 structure",
+  "kind": "theorem",
+  "grade": "DERIVED",
+  "text": "No dimensionful quantity, by theorem: the object's Chern–Simons invariant is zero.",
+  "pins": [
+   [
+    "docs/THE_CLAIM.md",
+    "**no dimensionful quantity — by theorem, not failure**"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B811",
+   "B1012",
+   "B1226"
+  ],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "MC:CUBIC",
+  "layer": "4 structure",
+  "kind": "theorem",
+  "grade": "CONDITIONAL",
+  "text": "Matter mass sits in the cubic of the 27.",
+  "pins": [
+   [
+    "docs/THE_CLAIM.md",
+    "matter mass in the **cubic**"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B978",
+   "B884",
+   "B987"
+  ],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "MC:END",
+  "layer": "4 structure",
+  "kind": "theorem",
+  "grade": "CONDITIONAL",
+  "text": "The cascade terminates, and every registered selection function ends at the same algebra.",
+  "pins": [
+   [
+    "docs/THE_CLAIM.md",
+    "termination of the cascade"
+   ],
+   [
+    "docs/THE_CLAIM.md",
+    "endpoint **rule-independence**"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B863",
+   "B994"
+  ],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "MC:GEN",
+  "layer": "4 structure",
+  "kind": "gap",
+  "grade": "OPEN",
+  "text": "The generation count is not an output of the structural theorem; it sits on the open-inputs side.",
+  "pins": [
+   [
+    "docs/THE_CLAIM.md",
+    "the generation COUNT returns to the open-inputs side"
+   ]
+  ],
+  "rows": [
+   "P-606"
+  ],
+  "arcs": [
+   "B1033"
+  ],
+  "note": "P-606: B298's 'a degree-2 trace field means multiplicities in {1, 2}, never 3' is false as an implication and is still cited as prior.",
+  "rows_live": {
+   "P-606": "QUEUED"
+  }
+ },
+ {
+  "id": "MC:GENERIC",
+  "layer": "4 structure",
+  "kind": "theorem",
+  "grade": "DERIVED",
+  "text": "Reaching the E₆ waypoint is generic (about one manifold in three), so arriving there confirms nothing.",
+  "pins": [
+   [
+    "docs/THE_CLAIM.md",
+    "is *generic* — ~1 in 3 manifolds, 5 of 7 grammars"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B993",
+   "B996"
+  ],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "MC:HYP",
+  "layer": "4 structure",
+  "kind": "premise",
+  "grade": "POSTULATED",
+  "text": "The structural theorem's counted inputs: the uniqueness axioms and five typed external data (two bits, one scale, one Lie type, one closing direction).",
+  "pins": [
+   [
+    "docs/THE_CLAIM.md",
+    "plus **five** typed external data"
+   ]
+  ],
+  "rows": [
+   "P-374"
+  ],
+  "arcs": [],
+  "note": "P-374: the typed-data counts are owed a re-read; the page flags one input as a superseded count still counting.",
+  "rows_live": {
+   "P-374": "QUEUED"
+  }
+ },
+ {
+  "id": "MC:PRICE",
+  "layer": "4 structure",
+  "kind": "premise",
+  "grade": "POSTULATED",
+  "text": "The identification price: thirteen (four axioms and nine irreducible sources).",
+  "pins": [
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "**The identification price:** 13"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1266"
+  ],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "MC:REACH",
+  "layer": "4 structure",
+  "kind": "gap",
+  "grade": "OPEN",
+  "text": "The structural frame has never been computed on any state other than the root.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "Never computed on another word state."
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "MC:UNIQ",
+  "layer": "4 structure",
+  "kind": "theorem",
+  "grade": "OPEN",
+  "text": "The golden grammar's uniqueness among metallic grammars: stated as proved on the claim page; a counterexample at m = 4 is registered and the page is not yet corrected.",
+  "pins": [
+   [
+    "docs/THE_CLAIM.md",
+    "the golden is the *unique* metallic grammar"
+   ],
+   [
+    "docs/POINT_REGISTER.md",
+    "B997's golden uniqueness fails at m = 4"
+   ]
+  ],
+  "rows": [
+   "P-318",
+   "P-618"
+  ],
+  "arcs": [
+   "B997",
+   "B1002"
+  ],
+  "note": "A known false statement in a front document (P-318, P-618). The corrected form on the register: only m = 1 has both the E₈ door and a 2T quotient.",
+  "rows_live": {
+   "P-318": "QUEUED",
+   "P-618": "QUEUED"
+  }
+ },
+ {
+  "id": "MC:Y",
+  "layer": "4 structure",
+  "kind": "theorem",
+  "grade": "CONDITIONAL",
+  "text": "The hypercharge direction; its normalisation is underivable by homogeneity.",
+  "pins": [
+   [
+    "docs/THE_CLAIM.md",
+    "the hypercharge **direction** (b = c = 0 forced"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B864",
+   "B991"
+  ],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "MC:Z6",
+  "layer": "4 structure",
+  "kind": "theorem",
+  "grade": "CONDITIONAL",
+  "text": "The global form [SU(3) × SU(2) × U(1)]/ℤ₆, at the primitive normalisation of hypercharge only.",
+  "pins": [
+   [
+    "docs/THE_CLAIM.md",
+    "the **global form [SU(3)×SU(2)×U(1)]/ℤ₆**"
+   ],
+   [
+    "frontier/B1221_global_form_path_independence/ADDENDUM_2026-08-31_the_Z6_needs_primitivity.md",
+    "|kernel| = 6 exactly when k = 1"
+   ]
+  ],
+  "rows": [
+   "P-604",
+   "P-581"
+  ],
+  "arcs": [
+   "B862",
+   "B1221"
+  ],
+  "note": "P-604 (closed at S306n): the kernel is cyclic of order 6k. P-581: the comparison class of this grade is owed.",
+  "rows_live": {
+   "P-604": "DONE",
+   "P-581": "QUEUED"
+  }
+ },
+ {
+  "id": "A:A01",
+  "layer": "5 values",
+  "kind": "joint",
+  "grade": "FITTED",
+  "text": "the modulus tau (Re tau, Im tau) on the strip, Im tau near 3.",
+  "pins": [
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "| A01 | the modulus tau (Re tau, Im tau) on the strip, Im tau near 3 | FITTED |"
+   ]
+  ],
+  "rows": [
+   "P-629"
+  ],
+  "arcs": [],
+  "note": "",
+  "scoreboard_type": "FITTED",
+  "rows_fed": 6,
+  "rows_fed_names": [
+   "m_u/m_c",
+   "m_c/m_t",
+   "m_d/m_s",
+   "m_s/m_b",
+   "m_e/m_mu",
+   "m_mu/m_tau"
+  ],
+  "same_as": "B01",
+  "frame": "A",
+  "rows_live": {
+   "P-629": "QUEUED"
+  }
+ },
+ {
+  "id": "A:A02",
+  "layer": "5 values",
+  "kind": "joint",
+  "grade": "CHOSEN",
+  "text": "the slope 2/5 of the line class.",
+  "pins": [
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "| A02 | the slope 2/5 of the line class | CHOSEN |"
+   ]
+  ],
+  "rows": [
+   "P-384",
+   "P-625",
+   "P-718"
+  ],
+  "arcs": [],
+  "note": "",
+  "scoreboard_type": "CHOSEN",
+  "rows_fed": 6,
+  "rows_fed_names": [
+   "m_u/m_c",
+   "m_c/m_t",
+   "m_d/m_s",
+   "m_s/m_b",
+   "m_e/m_mu",
+   "m_mu/m_tau"
+  ],
+  "same_as": "B02",
+  "frame": "A",
+  "rows_live": {
+   "P-384": "QUEUED",
+   "P-625": "DECLINED",
+   "P-718": "QUEUED"
+  }
+ },
+ {
+  "id": "A:A03",
+  "layer": "5 values",
+  "kind": "joint",
+  "grade": "CHOSEN",
+  "text": "the line's offset: (2/5, 4/5), order 5, at B1841's row (an odd/10 offset, order 10, at the retired small-cut end; the five odd offsets are one T-orbit).",
+  "pins": [
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "| A03 | the line's offset: (2/5, 4/5), order 5, at B1841's row (an odd/10 offset, order 10, at the retired small-cut end; the five odd offsets are one T-orbit) | CHOSEN |"
+   ]
+  ],
+  "rows": [
+   "P-384",
+   "P-707",
+   "P-718"
+  ],
+  "arcs": [],
+  "note": "",
+  "scoreboard_type": "CHOSEN",
+  "rows_fed": 6,
+  "rows_fed_names": [
+   "m_u/m_c",
+   "m_c/m_t",
+   "m_d/m_s",
+   "m_s/m_b",
+   "m_e/m_mu",
+   "m_mu/m_tau"
+  ],
+  "same_as": "B03",
+  "frame": "A",
+  "rows_live": {
+   "P-384": "QUEUED",
+   "P-707": "DONE",
+   "P-718": "QUEUED"
+  }
+ },
+ {
+  "id": "A:A04",
+  "layer": "5 values",
+  "kind": "joint",
+  "grade": "CHOSEN",
+  "text": "the Higgs direction DR, the Serre derivative of the theta triplet R (a weight-3/2 covariant section; B1691), as every look of the family runs it (B1726 compute).",
+  "pins": [
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "| A04 | the Higgs direction DR, the Serre derivative of the theta triplet R (a weight-3/2 covariant section; B1691), as every look of the family runs it (B1726 compute) | CHOSEN |"
+   ]
+  ],
+  "rows": [
+   "P-366"
+  ],
+  "arcs": [],
+  "note": "",
+  "scoreboard_type": "CHOSEN",
+  "rows_fed": 6,
+  "rows_fed_names": [
+   "m_u/m_c",
+   "m_c/m_t",
+   "m_d/m_s",
+   "m_s/m_b",
+   "m_e/m_mu",
+   "m_mu/m_tau"
+  ],
+  "same_as": "B04",
+  "frame": "A",
+  "rows_live": {
+   "P-366": "DONE"
+  }
+ },
+ {
+  "id": "A:A05",
+  "layer": "5 values",
+  "kind": "joint",
+  "grade": "CHOSEN",
+  "text": "the up-conjugate reading (S~, S, S) at a0 = 0.",
+  "pins": [
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "| A05 | the up-conjugate reading (S~, S, S) at a0 = 0 | CHOSEN |"
+   ]
+  ],
+  "rows": [
+   "P-295"
+  ],
+  "arcs": [],
+  "note": "",
+  "scoreboard_type": "CHOSEN",
+  "rows_fed": 6,
+  "rows_fed_names": [
+   "m_u/m_c",
+   "m_c/m_t",
+   "m_d/m_s",
+   "m_s/m_b",
+   "m_e/m_mu",
+   "m_mu/m_tau"
+  ],
+  "same_as": "B05",
+  "frame": "A",
+  "rows_live": {
+   "P-295": "QUEUED"
+  }
+ },
+ {
+  "id": "A:A07",
+  "layer": "5 values",
+  "kind": "joint",
+  "grade": "CHOSEN",
+  "text": "the end: the exact horoball norm at B1841's principled entry E4 (was the small-cut norm 2 pi L + c_s at L_max).",
+  "pins": [
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "| A07 | the end: the exact horoball norm at B1841's principled entry E4 (was the small-cut norm 2 pi L + c_s at L_max) | CHOSEN |"
+   ]
+  ],
+  "rows": [
+   "P-421",
+   "P-706",
+   "P-707"
+  ],
+  "arcs": [],
+  "note": "",
+  "scoreboard_type": "CHOSEN",
+  "rows_fed": 6,
+  "rows_fed_names": [
+   "m_u/m_c",
+   "m_c/m_t",
+   "m_d/m_s",
+   "m_s/m_b",
+   "m_e/m_mu",
+   "m_mu/m_tau"
+  ],
+  "same_as": "",
+  "frame": "A",
+  "rows_live": {
+   "P-421": "DONE",
+   "P-706": "DONE",
+   "P-707": "DONE"
+  }
+ },
+ {
+  "id": "A:A08",
+  "layer": "5 values",
+  "kind": "joint",
+  "grade": "CHOSEN",
+  "text": "the generations' metric H = I.",
+  "pins": [
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "| A08 | the generations' metric H = I | CHOSEN |"
+   ]
+  ],
+  "rows": [
+   "P-531",
+   "P-705"
+  ],
+  "arcs": [],
+  "note": "",
+  "scoreboard_type": "CHOSEN",
+  "rows_fed": 6,
+  "rows_fed_names": [
+   "m_u/m_c",
+   "m_c/m_t",
+   "m_d/m_s",
+   "m_s/m_b",
+   "m_e/m_mu",
+   "m_mu/m_tau"
+  ],
+  "same_as": "B09",
+  "frame": "A",
+  "rows_live": {
+   "P-531": "QUEUED",
+   "P-705": "DONE"
+  }
+ },
+ {
+  "id": "A:A09",
+  "layer": "5 values",
+  "kind": "joint",
+  "grade": "CHOSEN",
+  "text": "the channel weights: the exact horoball norms at the end (was sqrt(2 pi L + c_s), a flat norm cut with a hyperbolic radius).",
+  "pins": [
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "| A09 | the channel weights: the exact horoball norms at the end (was sqrt(2 pi L + c_s), a flat norm cut with a hyperbolic radius) | CHOSEN |"
+   ]
+  ],
+  "rows": [
+   "P-421"
+  ],
+  "arcs": [],
+  "note": "",
+  "scoreboard_type": "CHOSEN",
+  "rows_fed": 6,
+  "rows_fed_names": [
+   "m_u/m_c",
+   "m_c/m_t",
+   "m_d/m_s",
+   "m_s/m_b",
+   "m_e/m_mu",
+   "m_mu/m_tau"
+  ],
+  "same_as": "",
+  "frame": "A",
+  "rows_live": {
+   "P-421": "DONE"
+  }
+ },
+ {
+  "id": "A:A10",
+  "layer": "5 values",
+  "kind": "joint",
+  "grade": "FITTED",
+  "text": "the lepton factor c (continuous and fitted at B1841's row; c = 3 at the small-cut end).",
+  "pins": [
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "| A10 | the lepton factor c (continuous and fitted at B1841's row; c = 3 at the small-cut end) | FITTED |"
+   ]
+  ],
+  "rows": [
+   "P-446",
+   "P-706"
+  ],
+  "arcs": [],
+  "note": "",
+  "scoreboard_type": "FITTED",
+  "rows_fed": 2,
+  "rows_fed_names": [
+   "m_e/m_mu",
+   "m_mu/m_tau"
+  ],
+  "same_as": "B11",
+  "frame": "A",
+  "rows_live": {
+   "P-446": "QUEUED",
+   "P-706": "DONE"
+  }
+ },
+ {
+  "id": "A:A11",
+  "layer": "5 values",
+  "kind": "joint",
+  "grade": "CHOSEN",
+  "text": "one address: one tau, one line, one point coupling for all sectors.",
+  "pins": [
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "| A11 | one address: one tau, one line, one point coupling for all sectors | CHOSEN |"
+   ]
+  ],
+  "rows": [
+   "P-555"
+  ],
+  "arcs": [],
+  "note": "",
+  "scoreboard_type": "CHOSEN",
+  "rows_fed": 6,
+  "rows_fed_names": [
+   "m_u/m_c",
+   "m_c/m_t",
+   "m_d/m_s",
+   "m_s/m_b",
+   "m_e/m_mu",
+   "m_mu/m_tau"
+  ],
+  "same_as": "B12",
+  "frame": "A",
+  "rows_live": {
+   "P-555": "QUEUED"
+  }
+ },
+ {
+  "id": "A:A12",
+  "layer": "5 values",
+  "kind": "joint",
+  "grade": "CHOSEN",
+  "text": "the scale: tree level at M_Z, no running.",
+  "pins": [
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "| A12 | the scale: tree level at M_Z, no running | CHOSEN |"
+   ]
+  ],
+  "rows": [
+   "P-570"
+  ],
+  "arcs": [],
+  "note": "",
+  "scoreboard_type": "CHOSEN",
+  "rows_fed": 6,
+  "rows_fed_names": [
+   "m_u/m_c",
+   "m_c/m_t",
+   "m_d/m_s",
+   "m_s/m_b",
+   "m_e/m_mu",
+   "m_mu/m_tau"
+  ],
+  "same_as": "B10",
+  "frame": "A",
+  "rows_live": {
+   "P-570": "DONE"
+  }
+ },
+ {
+  "id": "B:FRAME",
+  "layer": "5 values",
+  "kind": "reading",
+  "grade": "LANE-PROPOSED",
+  "text": "The agy lane's complete picture claims 23 rows on 44 borrowed joints, 3 of them refuted on main; none certified by the lane's own counter.",
+  "pins": [
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "**Borrowed joints: 44**"
+   ],
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "0 certified by the lane's own counter"
+   ]
+  ],
+  "rows": [
+   "P-624",
+   "P-661"
+  ],
+  "arcs": [
+   "B1832"
+  ],
+  "note": "",
+  "by_type": {
+   "FORCED-BY-MAIN": 7,
+   "FITTED": 1,
+   "CHOSEN": 18,
+   "UNKNOWN": 2,
+   "MEASURED-INPUT": 6,
+   "ANSATZ": 14,
+   "VERIFIED-BY-MAIN": 1,
+   "REFUTED": 3
+  },
+  "rows_live": {
+   "P-624": "QUEUED",
+   "P-661": "DONE"
+  }
+ },
+ {
+  "id": "FA:F1",
+  "layer": "5 values",
+  "kind": "joint",
+  "grade": "CONDITIONAL",
+  "text": "the frame: B1656's four-channel coupling (B1644/B1736 form), sector residues on a flat line, the end norm sqrt(2*pi*L + c_s)*R_s, closed-form channel norms c_s.",
+  "pins": [
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "| F1 | the frame: B1656's four-channel coupling (B1644/B1736 form), sector residues on a flat line, the end norm sqrt(2*pi*L + c_s)*R_s, closed-form channel norms c_s | FORCED-BY-MAIN |"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "scoreboard_type": "FORCED-BY-MAIN",
+  "rows_fed": 6,
+  "rows_fed_names": [
+   "m_u/m_c",
+   "m_c/m_t",
+   "m_d/m_s",
+   "m_s/m_b",
+   "m_e/m_mu",
+   "m_mu/m_tau"
+  ],
+  "same_as": "",
+  "frame": "main's frame, as used by frame B",
+  "rows_live": {}
+ },
+ {
+  "id": "FA:F2",
+  "layer": "5 values",
+  "kind": "joint",
+  "grade": "CONDITIONAL",
+  "text": "the sector charges (q_L, q_R) of up, down, lepton and the LL pair.",
+  "pins": [
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "| F2 | the sector charges (q_L, q_R) of up, down, lepton and the LL pair | FORCED-BY-MAIN |"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "scoreboard_type": "FORCED-BY-MAIN",
+  "rows_fed": 6,
+  "rows_fed_names": [
+   "m_u/m_c",
+   "m_c/m_t",
+   "m_d/m_s",
+   "m_s/m_b",
+   "m_e/m_mu",
+   "m_mu/m_tau"
+  ],
+  "same_as": "",
+  "frame": "main's frame, as used by frame B",
+  "rows_live": {}
+ },
+ {
+  "id": "FA:F3",
+  "layer": "5 values",
+  "kind": "joint",
+  "grade": "CONDITIONAL",
+  "text": "the F_10 direction's components and scalar in closed form, given the direction.",
+  "pins": [
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "| F3 | the F_10 direction's components and scalar in closed form, given the direction | FORCED-BY-MAIN |"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "scoreboard_type": "FORCED-BY-MAIN",
+  "rows_fed": 6,
+  "rows_fed_names": [
+   "m_u/m_c",
+   "m_c/m_t",
+   "m_d/m_s",
+   "m_s/m_b",
+   "m_e/m_mu",
+   "m_mu/m_tau"
+  ],
+  "same_as": "",
+  "frame": "main's frame, as used by frame B",
+  "rows_live": {}
+ },
+ {
+  "id": "FA:F4",
+  "layer": "5 values",
+  "kind": "joint",
+  "grade": "CONDITIONAL",
+  "text": "L_2 as a function of tau (the horocycle of length 2).",
+  "pins": [
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "| F4 | L_2 as a function of tau (the horocycle of length 2) | FORCED-BY-MAIN |"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "scoreboard_type": "FORCED-BY-MAIN",
+  "rows_fed": 6,
+  "rows_fed_names": [
+   "m_u/m_c",
+   "m_c/m_t",
+   "m_d/m_s",
+   "m_s/m_b",
+   "m_e/m_mu",
+   "m_mu/m_tau"
+  ],
+  "same_as": "",
+  "frame": "main's frame, as used by frame B",
+  "rows_live": {}
+ },
+ {
+  "id": "FA:F5",
+  "layer": "5 values",
+  "kind": "joint",
+  "grade": "CONDITIONAL",
+  "text": "Vol(m004) as a number.",
+  "pins": [
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "| F5 | Vol(m004) as a number | FORCED-BY-MAIN |"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "scoreboard_type": "FORCED-BY-MAIN",
+  "rows_fed": 0,
+  "rows_fed_names": [],
+  "same_as": "",
+  "frame": "main's frame, as used by frame B",
+  "rows_live": {}
+ },
+ {
+  "id": "FA:F6",
+  "layer": "5 values",
+  "kind": "joint",
+  "grade": "CONDITIONAL",
+  "text": "the GUT normalisation of hypercharge (the tree weak angle at unification).",
+  "pins": [
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "| F6 | the GUT normalisation of hypercharge (the tree weak angle at unification) | FORCED-BY-MAIN |"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "scoreboard_type": "FORCED-BY-MAIN",
+  "rows_fed": 0,
+  "rows_fed_names": [],
+  "same_as": "",
+  "frame": "main's frame, as used by frame B",
+  "rows_live": {}
+ },
+ {
+  "id": "FA:F7",
+  "layer": "5 values",
+  "kind": "joint",
+  "grade": "CONDITIONAL",
+  "text": "the mirror relation Y((a,-b), -conj tau) = P conj(Y) P (theta-bar -> -theta-bar).",
+  "pins": [
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "| F7 | the mirror relation Y((a,-b), -conj tau) = P conj(Y) P (theta-bar -> -theta-bar) | FORCED-BY-MAIN |"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "scoreboard_type": "FORCED-BY-MAIN",
+  "rows_fed": 0,
+  "rows_fed_names": [],
+  "same_as": "",
+  "frame": "main's frame, as used by frame B",
+  "rows_live": {}
+ },
+ {
+  "id": "S:S01",
+  "layer": "5 values",
+  "kind": "joint",
+  "grade": "ANSATZ",
+  "text": "a flat bundle on the fibre (no curvature, flux or continuous moduli from the geometry).",
+  "pins": [
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "| S01 | a flat bundle on the fibre (no curvature, flux or continuous moduli from the geometry) | ANSATZ |"
+   ]
+  ],
+  "rows": [
+   "P-571"
+  ],
+  "arcs": [],
+  "note": "",
+  "scoreboard_type": "ANSATZ",
+  "rows_fed": 0,
+  "rows_fed_names": [],
+  "same_as": "",
+  "frame": "shared",
+  "rows_live": {
+   "P-571": "QUEUED"
+  }
+ },
+ {
+  "id": "S:S02",
+  "layer": "5 values",
+  "kind": "joint",
+  "grade": "CHOSEN",
+  "text": "the orientation: the orientable, amphichiral member (SE2).",
+  "pins": [
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "| S02 | the orientation: the orientable, amphichiral member (SE2) | CHOSEN |"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "scoreboard_type": "CHOSEN",
+  "rows_fed": 0,
+  "rows_fed_names": [],
+  "same_as": "",
+  "frame": "shared",
+  "rows_live": {}
+ },
+ {
+  "id": "V:0OF19",
+  "layer": "5 values",
+  "kind": "record",
+  "grade": "RECORD",
+  "text": "The scoreboard: no Standard Model parameter is earned.",
+  "pins": [
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "0 of 19 earned"
+   ],
+   [
+    "GENESIS.md",
+    "any Standard-Model parameter (**0 of 19**)"
+   ]
+  ],
+  "rows": [
+   "P-579"
+  ],
+  "arcs": [],
+  "note": "",
+  "rows_live": {
+   "P-579": "QUEUED"
+  }
+ },
+ {
+  "id": "V:EARN-RULE",
+  "layer": "5 values",
+  "kind": "choice",
+  "grade": "CHOSEN",
+  "text": "How a frame's dictionary may be earned: by sealed prediction, with seven conditions. The owner's ruling, on main's drafting; revisable.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "A DICTIONARY MAY BE EARNED BY PREDICTION"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1828",
+   "B1843"
+  ],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "V:HELD",
+  "layer": "5 values",
+  "kind": "choice",
+  "grade": "CHOSEN",
+  "text": "The held-out targets are held unspent by the owner. Nothing in this map reads or computes them.",
+  "pins": [
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "the held-out targets are HELD by the owner (P-709)"
+   ]
+  ],
+  "rows": [
+   "P-709",
+   "P-585",
+   "P-597"
+  ],
+  "arcs": [],
+  "note": "",
+  "rows_live": {
+   "P-709": "DONE",
+   "P-585": "QUEUED",
+   "P-597": "QUEUED"
+  }
+ },
+ {
+  "id": "V:SIX",
+  "layer": "5 values",
+  "kind": "reading",
+  "grade": "READING",
+  "text": "The six mass ratios at the principled end pass a sealed screen. A level-1 reading: the quark four are not specific, and on its line the leptons are the down sector.",
+  "pins": [
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "a level-1 READING (B1841 PROVED as sealed; B1839 NEGATIVE)"
+   ],
+   [
+    "docs/TOTAL_INPUTS_SCOREBOARD.md",
+    "the frame's quark four alone are not specific"
+   ]
+  ],
+  "rows": [
+   "P-706",
+   "P-355",
+   "P-384",
+   "P-586",
+   "P-596"
+  ],
+  "arcs": [
+   "B1841",
+   "B1839"
+  ],
+  "note": "",
+  "rows_live": {
+   "P-706": "DONE",
+   "P-355": "QUEUED",
+   "P-384": "QUEUED",
+   "P-586": "QUEUED",
+   "P-596": "QUEUED"
+  }
+ },
+ {
+  "id": "V:WALL",
+  "layer": "5 values",
+  "kind": "theorem",
+  "grade": "NEGATIVE",
+  "text": "The value layer was tested under seal twice, with demonstrated power the second time, and is null.",
+  "pins": [
+   [
+    "docs/THE_CLAIM.md",
+    "**one wall is real: the value layer**"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B915",
+   "B925",
+   "B929",
+   "B1006"
+  ],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "T:CHARGE5",
+  "layer": "6 tau",
+  "kind": "choice",
+  "grade": "CHOSEN",
+  "text": "The charge premise at level 5, which fixes the depth of the one departure.",
+  "pins": [
+   [
+    "docs/THE_TAU_READOUT_RULE.md",
+    "the charge premise at 5 (B1853)"
+   ]
+  ],
+  "rows": [
+   "P-717",
+   "P-738"
+  ],
+  "arcs": [
+   "B1853",
+   "B1855",
+   "B1856"
+  ],
+  "note": "",
+  "rows_live": {
+   "P-717": "QUEUED",
+   "P-738": "DONE"
+  }
+ },
+ {
+  "id": "T:FRAMING",
+  "layer": "6 tau",
+  "kind": "choice",
+  "grade": "CHOSEN",
+  "text": "The framing: the metric's fibration is the structure read. Set by the goal, not derived; other structures give other readings.",
+  "pins": [
+   [
+    "docs/THE_TAU_READOUT_RULE.md",
+    "The framing itself is CHOSEN."
+   ],
+   [
+    "docs/THE_TAU_READOUT_RULE.md",
+    "four choices remain, not three"
+   ]
+  ],
+  "rows": [
+   "P-726",
+   "P-714"
+  ],
+  "arcs": [],
+  "note": "",
+  "rows_live": {
+   "P-726": "DONE",
+   "P-714": "QUEUED"
+  }
+ },
+ {
+  "id": "T:IM",
+  "layer": "6 tau",
+  "kind": "claim",
+  "grade": "LANE-PROPOSED",
+  "text": "The value under the rule at the point reading: Im τ about 6.065 in the long-history limit. The web seat's sealed estimate; main confirms it to two decimals only.",
+  "pins": [
+   [
+    "docs/THE_TAU_READOUT_RULE.md",
+    "Main's own instrument stops at k = 2"
+   ],
+   [
+    "195e8f1b",
+    "relays/chat1_2026-11-07_tau/taumore_summary_out.txt",
+    "firmed: Im tau_inf"
+   ]
+  ],
+  "rows": [
+   "P-739"
+  ],
+  "arcs": [
+   "B1854"
+  ],
+  "note": "",
+  "rows_live": {
+   "P-739": "QUEUED"
+  }
+ },
+ {
+  "id": "T:MINIM",
+  "layer": "6 tau",
+  "kind": "choice",
+  "grade": "CHOSEN",
+  "text": "Minimisation as the use of the action.",
+  "pins": [
+   [
+    "docs/THE_TAU_READOUT_RULE.md",
+    "minimisation as the use of the action (B1853)"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1853"
+  ],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "T:NO-PLACE",
+  "layer": "6 tau",
+  "kind": "theorem",
+  "grade": "NEGATIVE",
+  "text": "Nothing on the record places Im τ: the object's action is linear, and its one phase transition has no scale.",
+  "pins": [
+   [
+    "docs/THE_BANG_PROGRAMME.md",
+    "nothing places Im τ"
+   ],
+   [
+    "docs/THE_BANG_PROGRAMME.md",
+    "**P-713 DONE, NEGATIVE for placing τ:**"
+   ]
+  ],
+  "rows": [
+   "P-713"
+  ],
+  "arcs": [
+   "B1341",
+   "B852",
+   "B1813"
+  ],
+  "note": "",
+  "rows_live": {
+   "P-713": "DONE"
+  }
+ },
+ {
+  "id": "T:POINT-WEIGHT",
+  "layer": "6 tau",
+  "kind": "choice",
+  "grade": "CHOSEN",
+  "text": "Point or weight: the metric supplies both a canonical point (the systole) and a canonical weight; which the read-out uses is a choice.",
+  "pins": [
+   [
+    "docs/THE_TAU_READOUT_RULE.md",
+    "Which one the read-out uses is the choice P-726"
+   ]
+  ],
+  "rows": [
+   "P-726",
+   "P-744"
+  ],
+  "arcs": [],
+  "note": "",
+  "rows_live": {
+   "P-726": "DONE",
+   "P-744": "QUEUED"
+  }
+ },
+ {
+  "id": "T:PRICED",
+  "layer": "6 tau",
+  "kind": "duty",
+  "grade": "DUTY",
+  "text": "The candidate τ is not yet priced by the random-subset control, and is read against the six only inside a sealed card.",
+  "pins": [
+   [
+    "docs/THE_TAU_READOUT_RULE.md",
+    "priced by the random-subset control"
+   ]
+  ],
+  "rows": [
+   "P-714",
+   "P-708"
+  ],
+  "arcs": [],
+  "note": "",
+  "rows_live": {
+   "P-714": "QUEUED",
+   "P-708": "DONE"
+  }
+ },
+ {
+  "id": "T:RE",
+  "layer": "6 tau",
+  "kind": "theorem",
+  "grade": "DERIVED",
+  "text": "The tube's level surface has Re τ = 0 exactly, by topology; the Teichmüller apex of the same word also lies on Re 0.",
+  "pins": [
+   [
+    "docs/THE_TAU_READOUT_RULE.md",
+    "**The real part is exact, by topology** (B1852)."
+   ],
+   [
+    "frontier/B1852_the_tubes_real_part_by_topology/FINDINGS.md",
+    "So the apex and the metric's reading lie on the same line Re 0, and differ in height only"
+   ]
+  ],
+  "rows": [
+   "P-751"
+  ],
+  "arcs": [
+   "B1852"
+  ],
+  "note": "",
+  "rows_live": {
+   "P-751": "DONE"
+  }
+ },
+ {
+  "id": "T:RULE",
+  "layer": "6 tau",
+  "kind": "theorem",
+  "grade": "CONDITIONAL",
+  "text": "Granted the framing, τ at a point of the circle is the conformal modulus of the fibre at that point of the metric's own clock.",
+  "pins": [
+   [
+    "docs/THE_TAU_READOUT_RULE.md",
+    "**τ at a point of the circle is the conformal modulus of the fibre at that point of the metric's own clock.**"
+   ]
+  ],
+  "rows": [
+   "P-714",
+   "P-727"
+  ],
+  "arcs": [
+   "B1846",
+   "B1847"
+  ],
+  "note": "",
+  "rows_live": {
+   "P-714": "QUEUED",
+   "P-727": "DONE"
+  }
+ },
+ {
+  "id": "SC:CARD",
+  "layer": "7 scale",
+  "kind": "theorem",
+  "grade": "NEGATIVE",
+  "text": "The scale card is not sealable: more than one step is chosen.",
+  "pins": [
+   [
+    "docs/THE_SCALE_CARD_DESIGN_P722.md",
+    "**So the card is not sealable.**"
+   ]
+  ],
+  "rows": [
+   "P-732",
+   "P-722"
+  ],
+  "arcs": [],
+  "note": "",
+  "rows_live": {
+   "P-732": "DONE",
+   "P-722": "QUEUED"
+  }
+ },
+ {
+  "id": "SC:PREMISE",
+  "layer": "7 scale",
+  "kind": "choice",
+  "grade": "CHOSEN",
+  "text": "The chiral premise under which the scale card takes a single block.",
+  "pins": [
+   [
+    "docs/THE_SCALE_CARD_DESIGN_P722.md",
+    "The chiral premise itself (B1012 ruling, point 2)."
+   ]
+  ],
+  "rows": [
+   "P-731"
+  ],
+  "arcs": [],
+  "note": "",
+  "rows_live": {
+   "P-731": "DONE"
+  }
+ },
+ {
+  "id": "SC:R2",
+  "layer": "7 scale",
+  "kind": "choice",
+  "grade": "CHOSEN",
+  "text": "Reading the exact block as a ratio of scales is an identification; the record holds no object-side reason for it.",
+  "pins": [
+   [
+    "docs/THE_SCALE_CARD_DESIGN_P722.md",
+    "The record holds no object-side reason that R2's block is a ratio of two scales."
+   ],
+   [
+    "docs/THE_SCALE_CARD_DESIGN_P722.md",
+    "The reading of the block as a ratio of scales (R2's identification)."
+   ]
+  ],
+  "rows": [
+   "P-722"
+  ],
+  "arcs": [],
+  "note": "",
+  "rows_live": {
+   "P-722": "QUEUED"
+  }
+ },
+ {
+  "id": "SC:R4",
+  "layer": "7 scale",
+  "kind": "choice",
+  "grade": "CHOSEN",
+  "text": "The content that runs is the Standard Model's, borrowed.",
+  "pins": [
+   [
+    "docs/THE_SCALE_CARD_DESIGN_P722.md",
+    "R4, the content that runs."
+   ]
+  ],
+  "rows": [
+   "P-722"
+  ],
+  "arcs": [],
+  "note": "",
+  "rows_live": {
+   "P-722": "QUEUED"
+  }
+ },
+ {
+  "id": "SC:RATIO",
+  "layer": "7 scale",
+  "kind": "gap",
+  "grade": "OPEN",
+  "text": "A dimensionless ratio of scales is not excluded; it waits on a principle that fixes the level and on an identification.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    "NOT excluded by the record; what is missing is a principle that fixes the level"
+   ]
+  ],
+  "rows": [
+   "P-719",
+   "P-721"
+  ],
+  "arcs": [],
+  "note": "",
+  "rows_live": {
+   "P-719": "QUEUED",
+   "P-721": "QUEUED"
+  }
+ },
+ {
+  "id": "SC:UNIT",
+  "layer": "7 scale",
+  "kind": "theorem",
+  "grade": "DERIVED",
+  "text": "An absolute energy cannot come from the object: one outside unit is needed by any theory.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    "An ABSOLUTE energy cannot come from the object"
+   ]
+  ],
+  "rows": [
+   "P-719"
+  ],
+  "arcs": [
+   "B151",
+   "B660"
+  ],
+  "note": "",
+  "rows_live": {
+   "P-719": "QUEUED"
+  }
+ },
+ {
+  "id": "E:GRADES",
+  "layer": "8 conditional model",
+  "kind": "record",
+  "grade": "RECORD",
+  "text": "The lanes' own grading: independent proof support, execution readiness, execution and banking are different facts; nothing of this model is banked on main.",
+  "pins": [
+   [
+    "521e6f241",
+    "reports/physical_bridge_2026_09_05/PROGRESS_SINCE_MAIN_217E_2026_11_08.md",
+    "Independent proof support, execution readiness, actual execution and"
+   ],
+   [
+    "5242c938",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/MODEL_MANIFEST.md",
+    "Nothing in this manifest promotes an imported or reported statement to a newly verified physical result."
+   ]
+  ],
+  "rows": [
+   "P-746",
+   "P-749",
+   "P-750",
+   "P-752"
+  ],
+  "arcs": [],
+  "note": "",
+  "rows_live": {
+   "P-746": "QUEUED",
+   "P-749": "QUEUED",
+   "P-750": "QUEUED",
+   "P-752": "QUEUED"
+  }
+ },
+ {
+  "id": "E:J1",
+  "layer": "8 conditional model",
+  "kind": "missing-join",
+  "grade": "OPEN",
+  "text": "Missing join: an independently certified complete three-family matter roster.",
+  "pins": [
+   [
+    "5242c938",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CLAIM_DEPENDENCIES.md",
+    "Independently Certified Complete Three-Family Matter Roster"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "E:J2",
+  "layer": "8 conditional model",
+  "kind": "missing-join",
+  "grade": "OPEN",
+  "text": "Missing join: the certified physical charged-current coupling matrix.",
+  "pins": [
+   [
+    "5242c938",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CLAIM_DEPENDENCIES.md",
+    "Certified Physical $W^\\pm$ Coupling Matrix"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "E:J3",
+  "layer": "8 conditional model",
+  "kind": "missing-join",
+  "grade": "OPEN",
+  "text": "Missing join: an independent review of the kernel theorem in the background without the extra Wilson line.",
+  "pins": [
+   [
+    "5242c938",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CLAIM_DEPENDENCIES.md",
+    "Half-Root Kernel Theorem and Global All-Sector Consistency"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "E:J4",
+  "layer": "8 conditional model",
+  "kind": "missing-join",
+  "grade": "OPEN",
+  "text": "Missing join: chiral against vector-like. The kernel splits equally between conjugate representations.",
+  "pins": [
+   [
+    "5242c938",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CLAIM_DEPENDENCIES.md",
+    "Three Chiral Standard Model Families with Nonzero Low-Energy Charged Fermion Masses"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "E:J5",
+  "layer": "8 conditional model",
+  "kind": "missing-join",
+  "grade": "OPEN",
+  "text": "Missing join: the map from the register to the fields' family structure.",
+  "pins": [
+   [
+    "5242c938",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/CLAIM_DEPENDENCIES.md",
+    "Physical Register-to-Field Family Map"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "E:L01",
+  "layer": "8 conditional model",
+  "kind": "model-input",
+  "grade": "LANE-INPUT",
+  "text": "The surface-group carrier: a faithful free register on two letters, realised on the once-punctured torus. Its necessity from non-cancellation is open.",
+  "pins": [
+   [
+    "5242c938",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+    "necessity from noncancellation remains open"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "E:L02",
+  "layer": "8 conditional model",
+  "kind": "model-input",
+  "grade": "LANE-INPUT",
+  "text": "The parent: a compact E₈ gauge theory with a curved functional on the internal surface. Supplied, not earned.",
+  "pins": [
+   [
+    "5242c938",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/MODEL_MANIFEST.md",
+    "Explicitly **SUPPLIED**"
+   ],
+   [
+    "5242c938",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+    "source-checked covariance+unreviewed"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "E:L03",
+  "layer": "8 conditional model",
+  "kind": "model-input",
+  "grade": "LANE-INPUT",
+  "text": "The quaternion flavour holonomy and its lift to the parent, with core signs unselected.",
+  "pins": [
+   [
+    "5242c938",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+    "unexecuted finite-group/root-table derivation"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "E:L04",
+  "layer": "8 conditional model",
+  "kind": "model-input",
+  "grade": "LANE-INPUT",
+  "text": "The modulus, the cusp metric, one length and one coupling: all unselected; the source keeps both the length and the coupling unreduced.",
+  "pins": [
+   [
+    "5242c938",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+    "current source retains both"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "E:L05",
+  "layer": "8 conditional model",
+  "kind": "model-input",
+  "grade": "LANE-INPUT",
+  "text": "The odd spin structure and the compensating lifts: conditional reductions, with the spin class and the lift unselected.",
+  "pins": [
+   [
+    "5242c938",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+    "unreviewed conditional reductions"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "E:L06",
+  "layer": "8 conditional model",
+  "kind": "model-input",
+  "grade": "LANE-INPUT",
+  "text": "The split of the parent, the coherent alternatives and the charges; the physical read-out of colour and electromagnetism is an unearned identification.",
+  "pins": [
+   [
+    "5242c938",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+    "physical EM/colour readout"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "E:L07",
+  "layer": "8 conditional model",
+  "kind": "model-input",
+  "grade": "LANE-INPUT",
+  "text": "The balanced background and the trivial Wilson line: unselected branch data; no selection law.",
+  "pins": [
+   [
+    "5242c938",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+    "unselected branch data"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "E:L08",
+  "layer": "8 conditional model",
+  "kind": "claim",
+  "grade": "LANE-REVIEWED",
+  "text": "The end law and the half-root sector's coercivity: reviewed inside the lane with one code gap open; the later counts are unreviewed.",
+  "pins": [
+   [
+    "5242c938",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+    "are unreviewed author candidates"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "E:L09",
+  "layer": "8 conditional model",
+  "kind": "claim",
+  "grade": "LANE-PROPOSED",
+  "text": "The four-slot mass map and the gauge-parameter operator: source-checked, the full transport unreviewed.",
+  "pins": [
+   [
+    "5242c938",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+    "full curve transport unreviewed"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "E:L10",
+  "layer": "8 conditional model",
+  "kind": "claim",
+  "grade": "LANE-PROPOSED",
+  "text": "The matter multiplicities: three coefficients per representation, as candidate counts; their reading as families is an unearned identification.",
+  "pins": [
+   [
+    "5242c938",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+    "physical family identification"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "E:L11",
+  "layer": "8 conditional model",
+  "kind": "claim",
+  "grade": "LANE-PROPOSED",
+  "text": "The charged vectors come as a pair with left and right currents of equal size; a mechanism that breaks that parity is open.",
+  "pins": [
+   [
+    "5242c938",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+    "derive a mechanism breaking left/right weak-current parity"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "E:L12",
+  "layer": "8 conditional model",
+  "kind": "claim",
+  "grade": "LANE-PROPOSED",
+  "text": "Small cyclic deformations do not split the pair; vacuum and scale selection, gravity and the observer are open in this model.",
+  "pins": [
+   [
+    "5242c938",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+    "small cyclic spin deformations alone do not split"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "E:Q1",
+  "layer": "8 conditional model",
+  "kind": "gap",
+  "grade": "OPEN",
+  "text": "The lanes' first question: what suppresses the right-handed current?",
+  "pins": [
+   [
+    "5242c938",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+    "suppresses the right-handed current witness"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "E:Q2",
+  "layer": "8 conditional model",
+  "kind": "gap",
+  "grade": "OPEN",
+  "text": "Their second: the weak-current map, the neutral partners, chirality despite a zero net index, the Yukawa couplings, anomaly cancellation.",
+  "pins": [
+   [
+    "5242c938",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+    "physical chirality despite zero net EM index"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "E:Q3",
+  "layer": "8 conditional model",
+  "kind": "gap",
+  "grade": "OPEN",
+  "text": "Their third: what confines the continuum, reduces the length and coupling to one anchor, and selects the surface, modulus, spin class and background.",
+  "pins": [
+   [
+    "5242c938",
+    "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+    "What mechanism confines/decouples the zero-angular"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "GR:3PLUS1",
+  "layer": "9 gravity",
+  "kind": "duty",
+  "grade": "DUTY",
+  "text": "A dynamical 3+1-dimensional metric coupled to the same matter: not on the record, in any lane.",
+  "pins": [
+   [
+    "521e6f241",
+    "reports/physical_bridge_2026_09_05/SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md",
+    "Gravity and cosmology: dynamical"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "GR:ACTION",
+  "layer": "9 gravity",
+  "kind": "theorem",
+  "grade": "DERIVED",
+  "text": "The object's own 2+1-dimensional gravity: an exact vacuum solution with a one-term action and no free dimensionless constant. A fact about this construction.",
+  "pins": [
+   [
+    "docs/THE_FRAMEWORK.md",
+    "**The action (C1, B1088) has zero free dimensionless constants.**"
+   ],
+   [
+    "docs/THE_FRAMEWORK.md",
+    "a mathematical fact about this one construction, not a claim, anywhere in this section,"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1088",
+   "B1090"
+  ],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "GR:VECTORLIKE",
+  "layer": "9 gravity",
+  "kind": "theorem",
+  "grade": "NEGATIVE",
+  "text": "The matter of that theory, read in 2+1 dimensions, is vector-like by theorem.",
+  "pins": [
+   [
+    "docs/THE_FRAMEWORK.md",
+    "read as a 2+1-dimensional theory, is vector-like by theorem"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1089"
+  ],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "CO:S12",
+  "layer": "10 cosmology",
+  "kind": "theorem",
+  "grade": "DERIVED",
+  "text": "Two of the three preconditions for a matter asymmetry stand as structure, and as preconditions only.",
+  "pins": [
+   [
+    "docs/THE_BANG_PROGRAMME.md",
+    "stands, as preconditions only"
+   ]
+  ],
+  "rows": [
+   "P-712"
+  ],
+  "arcs": [
+   "B867"
+  ],
+  "note": "",
+  "rows_live": {
+   "P-712": "DONE"
+  }
+ },
+ {
+  "id": "CO:S3",
+  "layer": "10 cosmology",
+  "kind": "theorem",
+  "grade": "NEGATIVE",
+  "text": "The third precondition, a departure from equilibrium, is not established: the cubic once read as a barrier has no double well.",
+  "pins": [
+   [
+    "docs/THE_BANG_PROGRAMME.md",
+    "**not established as a transition.**"
+   ]
+  ],
+  "rows": [
+   "P-712",
+   "P-716"
+  ],
+  "arcs": [
+   "B295",
+   "B1341"
+  ],
+  "note": "",
+  "rows_live": {
+   "P-712": "DONE",
+   "P-716": "QUEUED"
+  }
+ },
+ {
+  "id": "PR:P10",
+  "layer": "11 predictions",
+  "kind": "prediction",
+  "grade": "OPEN",
+  "text": "The weave's one numerical forward prediction is live; its sibling reading was falsified. No value is read here.",
+  "pins": [
+   [
+    "docs/FALSIFIER_REGISTER.md",
+    "the first entry with a numerical forward prediction"
+   ],
+   [
+    "docs/FALSIFIER_REGISTER.md",
+    "**FALSIFIED 2026-10-24 (B1756)**"
+   ]
+  ],
+  "rows": [
+   "P-157"
+  ],
+  "arcs": [
+   "B1612",
+   "B1613",
+   "B1756"
+  ],
+  "note": "",
+  "rows_live": {
+   "P-157": "QUEUED"
+  }
+ },
+ {
+  "id": "PR:P2",
+  "layer": "11 predictions",
+  "kind": "prediction",
+  "grade": "CONFIRMED",
+  "text": "Charge quantisation: the register's one earned confirmation, and not unique to the framework.",
+  "pins": [
+   [
+    "docs/FALSIFIER_REGISTER.md",
+    "**YES — the register's one earned confirmation**"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "PR:P3",
+  "layer": "11 predictions",
+  "kind": "prediction",
+  "grade": "OPEN",
+  "text": "The global form: untested, since no monopole exists to test it.",
+  "pins": [
+   [
+    "docs/FALSIFIER_REGISTER.md",
+    "UNTESTED — no monopole exists to test it"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "PR:P9",
+  "layer": "11 predictions",
+  "kind": "prediction",
+  "grade": "CONDITIONAL",
+  "text": "The extra neutral boson of the closing is not gaugeable on a chiral spectrum as it stands: the programme cannot hold both.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "**On a chiral spectrum U1-Z′₉ is not gaugeable as it stands**"
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1340",
+   "B1303"
+  ],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "FL:01",
+  "layer": "12 framing",
+  "kind": "framing",
+  "grade": "OPEN",
+  "text": "Every physics reading of an object quantity is an identification (the listener map u); 37 ledger rows, 28 UNEARNED, none EARNED",
+  "pins": [
+   [
+    "docs/FRAMING_LEDGER.md",
+    "| FL-01 | "
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1827"
+  ],
+  "note": "",
+  "status_cell": "UNEARNED; partly UNSTATED (\"performed implicitly and for free\")",
+  "excludes": "nothing in particular: it is the price of every result",
+  "rows_live": {}
+ },
+ {
+  "id": "FL:02",
+  "layer": "12 framing",
+  "kind": "framing",
+  "grade": "OPEN",
+  "text": "All frames are flat bundles on a 3-manifold (GAP6): they reach counts and signs, not continuous values",
+  "pins": [
+   [
+    "docs/FRAMING_LEDGER.md",
+    "| FL-02 | "
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1827"
+  ],
+  "note": "",
+  "status_cell": "OPEN (GAP6)",
+  "excludes": "curvature, flux and continuous moduli supplied by the geometry",
+  "rows_live": {}
+ },
+ {
+  "id": "FL:03",
+  "layer": "12 framing",
+  "kind": "framing",
+  "grade": "CHOSEN",
+  "text": "Orientation: of m004 and its parent m000 take the orientable one, which is amphichiral (SE2)",
+  "pins": [
+   [
+    "docs/FRAMING_LEDGER.md",
+    "| FL-03 | "
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1827"
+  ],
+  "note": "",
+  "status_cell": "CHOSEN (SE2)",
+  "excludes": "chiral objects; an orientation-odd source of CP and chirality",
+  "rows_live": {}
+ },
+ {
+  "id": "FL:04",
+  "layer": "12 framing",
+  "kind": "framing",
+  "grade": "CHOSEN",
+  "text": "The fibre modulus τ is free and detached from m004 (LR's apex Im τ = 1.12; no fixed line, det(LR − 1) = −1); the object is read through one fibre",
+  "pins": [
+   [
+    "docs/FRAMING_LEDGER.md",
+    "| FL-04 | "
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1827"
+  ],
+  "note": "",
+  "status_cell": "CHOSEN / FITTED",
+  "excludes": "τ placed by the object (a thread's apex, a torsion that matches the line's order); the family instead of one member",
+  "rows_live": {}
+ },
+ {
+  "id": "FL:05",
+  "layer": "12 framing",
+  "kind": "framing",
+  "grade": "OPEN",
+  "text": "No action: no dynamics for τ, no normalisation of the couplings, no gauge kinetic function, no scale",
+  "pins": [
+   [
+    "docs/FRAMING_LEDGER.md",
+    "| FL-05 | "
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1827"
+  ],
+  "note": "",
+  "status_cell": "the record's working state (no action on record)",
+  "excludes": "the gauge couplings, y_t, the Higgs mass and vev, the overall scale: six of the 19 (g₁, g₂, g₃, m_H, v, y_t) have no frame at all; three more of the nine outside the ten (θ̄, y_b/y_t, y_τ/y_t) are fra",
+  "rows_live": {}
+ },
+ {
+  "id": "FL:06",
+  "layer": "12 framing",
+  "kind": "framing",
+  "grade": "UNSTATED",
+  "text": "The Higgs's internal orientation S is built from i, j, k only (adjoint, no singlet channel), untwisted, one direction shared by the three sectors; the Higgs carries the flavour index",
+  "pins": [
+   [
+    "docs/FRAMING_LEDGER.md",
+    "| **FL-06** | "
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1827"
+  ],
+  "note": "",
+  "status_cell": "UNSTATED in code (C-04, C-05) [S298, the web seat's review of 2026-11-03, verified on main: the adjoint-only H",
+  "excludes": "a singlet (identity-channel) component; a sector-dependent Higgs",
+  "rows_live": {}
+ },
+ {
+  "id": "FL:07",
+  "layer": "12 framing",
+  "kind": "framing",
+  "grade": "UNSTATED",
+  "text": "One address: one τ, one line, one point coupling for all sectors",
+  "pins": [
+   [
+    "docs/FRAMING_LEDGER.md",
+    "| FL-07 | "
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1827"
+  ],
+  "note": "",
+  "status_cell": "UNSTATED in code (C-09, C-10); stated as the down–lepton wall",
+  "excludes": "separate loci for up and down (the CKM as a relative rotation); matter at different depths",
+  "rows_live": {}
+ },
+ {
+  "id": "FL:08",
+  "layer": "12 framing",
+  "kind": "framing",
+  "grade": "CHOSEN",
+  "text": "The lines are \"flat lines of order ≤ 12\", priced uniformly (8.06 bits), rather than centre Wilson lines",
+  "pins": [
+   [
+    "docs/FRAMING_LEDGER.md",
+    "| FL-08 | "
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1827"
+  ],
+  "note": "",
+  "status_cell": "CHOSEN (reach); the reading UNSTATED",
+  "excludes": "the lines' group theory: Z₅ of SU(5), Z₂ of SU(2)_L, Z₃ of colour (orders dividing 30)",
+  "rows_live": {}
+ },
+ {
+  "id": "FL:09",
+  "layer": "12 framing",
+  "kind": "framing",
+  "grade": "UNSTATED",
+  "text": "No electroweak doublet index: the \"doublet\" is the fibre's rank-2 flat bundle with Q₈ monodromy; the SM's reading (conjugate Higgs for up) is imported by hand",
+  "pins": [
+   [
+    "docs/FRAMING_LEDGER.md",
+    "| FL-09 | "
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1827"
+  ],
+  "note": "",
+  "status_cell": "UNSTATED (C-02); the reading not derived (B1790, NEGATIVE)",
+  "excludes": "a derived H / H̃ assignment",
+  "rows_live": {}
+ },
+ {
+  "id": "FL:10",
+  "layer": "12 framing",
+  "kind": "framing",
+  "grade": "UNSTATED",
+  "text": "The generations are three quaternion images of one doublet value at one point; no generation charge",
+  "pins": [
+   [
+    "docs/FRAMING_LEDGER.md",
+    "| FL-10 | "
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1827"
+  ],
+  "note": "",
+  "status_cell": "partly stated (C-01); FK14 READING",
+  "excludes": "generation charges (Froggatt–Nielsen); generations as ends, cover sheets or points of one history",
+  "rows_live": {}
+ },
+ {
+  "id": "FL:11",
+  "layer": "12 framing",
+  "kind": "framing",
+  "grade": "CHOSEN",
+  "text": "Normalisation: the kinetic metric H = I; channel weights √(2πL + c_s) mixing a flat norm and cut with a hyperbolic radius; the radii read off B1667's Re τ = 1/4 column",
+  "pins": [
+   [
+    "docs/FRAMING_LEDGER.md",
+    "| FL-11 | "
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1827"
+  ],
+  "note": "",
+  "status_cell": "H = I CHOSEN (B1822); the rest UNSTATED",
+  "excludes": "an underived metric's 8 real parameters per field; a consistent single metric",
+  "rows_live": {}
+ },
+ {
+  "id": "FL:12",
+  "layer": "12 framing",
+  "kind": "framing",
+  "grade": "CHOSEN",
+  "text": "The lepton factor c = 3 is inserted by hand",
+  "pins": [
+   [
+    "docs/FRAMING_LEDGER.md",
+    "| FL-12 | "
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1827"
+  ],
+  "note": "",
+  "status_cell": "CHOSEN (by hand)",
+  "excludes": "a derived lepton/down factor",
+  "rows_live": {}
+ },
+ {
+  "id": "FL:13",
+  "layer": "12 framing",
+  "kind": "framing",
+  "grade": "CHOSEN",
+  "text": "The frame's tree-level outputs are compared at M_Z with no renormalisation-group running and a flat 10% allowance in quadrature",
+  "pins": [
+   [
+    "docs/FRAMING_LEDGER.md",
+    "| FL-13 | "
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1827"
+  ],
+  "note": "",
+  "status_cell": "the scale CHOSEN (\"a human convention\"); **no running UNSTATED** [S298, the web seat's review of 2026-11-03, v",
+  "excludes": "a frame defined at another scale; structured theory errors",
+  "rows_live": {}
+ },
+ {
+  "id": "FL:14",
+  "layer": "12 framing",
+  "kind": "framing",
+  "grade": "CHOSEN",
+  "text": "Only the ten flavour numbers are graded; inter-sector ratios (y_b/y_t, y_τ/y_t), gauge couplings, the Higgs, PMNS and θ̄ never are",
+  "pins": [
+   [
+    "docs/FRAMING_LEDGER.md",
+    "| FL-14 | "
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1827"
+  ],
+  "note": "",
+  "status_cell": "CHOSEN (THE FINAL ACT'S BAR's V list, not run)",
+  "excludes": "a true answer whose content lies in the ungraded numbers",
+  "rows_live": {}
+ },
+ {
+  "id": "FL:15",
+  "layer": "12 framing",
+  "kind": "framing",
+  "grade": "CHOSEN",
+  "text": "A value at σ, or nothing: the bar grades values, not relations",
+  "pins": [
+   [
+    "docs/FRAMING_LEDGER.md",
+    "| FL-15 | "
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1827"
+  ],
+  "note": "",
+  "status_cell": "CHOSEN (THE_BAR)",
+  "excludes": "the form of explanation flavour physics has — relations (b–τ, Georgi–Jarlskog, a symmetric Y_u), exponent patterns with one fitted scale",
+  "rows_live": {}
+ },
+ {
+  "id": "FL:16",
+  "layer": "12 framing",
+  "kind": "framing",
+  "grade": "UNSTATED",
+  "text": "θ̄ is a nineteenth unknown, not a constraint",
+  "pins": [
+   [
+    "docs/FRAMING_LEDGER.md",
+    "| FL-16 | "
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1827"
+  ],
+  "note": "",
+  "status_cell": "UNSTATED as a framing",
+  "excludes": "the locus arg det(Y_u Y_d) = 0 as a selector (it could fix Re τ and predict ∣J∣), or a strong-CP kill of the J ≠ 0 addresses",
+  "rows_live": {}
+ },
+ {
+  "id": "FL:17",
+  "layer": "12 framing",
+  "kind": "framing",
+  "grade": "CHOSEN",
+  "text": "Specificity against random hierarchies, with the frame's own CKM marginal as the null for the four, at the joint look count",
+  "pins": [
+   [
+    "docs/FRAMING_LEDGER.md",
+    "| FL-17 | "
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1827"
+  ],
+  "note": "",
+  "status_cell": "CHOSEN (THE_BAR; B1825's card)",
+  "excludes": "— (a sound null; it sets what can ever pass)",
+  "rows_live": {}
+ },
+ {
+  "id": "FL:18",
+  "layer": "12 framing",
+  "kind": "framing",
+  "grade": "CHOSEN",
+  "text": "Reach cutoffs: lines of order ≤ 12, Im τ ∈ [1, 4], nine values of c",
+  "pins": [
+   [
+    "docs/FRAMING_LEDGER.md",
+    "| FL-18 | "
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1827"
+  ],
+  "note": "",
+  "status_cell": "CHOSEN (labelled cutoffs)",
+  "excludes": "everything beyond them",
+  "rows_live": {}
+ },
+ {
+  "id": "FL:19",
+  "layer": "12 framing",
+  "kind": "framing",
+  "grade": "CHOSEN",
+  "text": "The headline counts a question the record retired: \"0 of 19\" counts Tier 4 (WHAT_WOULD_COUNT l. 376–382: \"not a live criterion\"); the owner's restated goal (2026-10-08: the structure, and how many free numbers) is answered on record — \"all …",
+  "pins": [
+   [
+    "docs/FRAMING_LEDGER.md",
+    "| FL-19 | "
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1827"
+  ],
+  "note": "",
+  "status_cell": "CHOSEN (the board); stale",
+  "excludes": "progress that is a falling input count; every structural result",
+  "rows_live": {}
+ },
+ {
+  "id": "FL:20",
+  "layer": "12 framing",
+  "kind": "framing",
+  "grade": "CONDITIONAL",
+  "text": "No route by which a frame earns its dictionary: every positive is a READING while FK11 is UNEARNED (KIND_TABLE l. 125), FK11 is UNEARNABLE within F-HE and F-CI (GENESIS l. 424), PASSED never suffices for DERIVED (THE_BAR l. 72)",
+  "pins": [
+   [
+    "docs/FRAMING_LEDGER.md",
+    "| FL-20 | "
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1827"
+  ],
+  "note": "",
+  "status_cell": "FORCED by the foundations' stance (GAP1); **ruled 2026-11-03: a dictionary may be EARNED BY PREDICTION (GENESI",
+  "excludes": "the registration of a correct frame",
+  "rows_live": {}
+ },
+ {
+  "id": "FL:21",
+  "layer": "12 framing",
+  "kind": "framing",
+  "grade": "UNSTATED",
+  "text": "No declared scale and no running (FL-13, quantified)",
+  "pins": [
+   [
+    "docs/FRAMING_LEDGER.md",
+    "| FL-21 | "
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1827"
+  ],
+  "note": "",
+  "status_cell": "UNSTATED",
+  "excludes": "a frame whose outputs hold at its own scale",
+  "rows_live": {}
+ },
+ {
+  "id": "FL:22",
+  "layer": "12 framing",
+  "kind": "framing",
+  "grade": "CHOSEN",
+  "text": "A uniform 10% allowance in place of a theory error the frame declares and pays for",
+  "pins": [
+   [
+    "docs/FRAMING_LEDGER.md",
+    "| FL-22 | "
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1827"
+  ],
+  "note": "",
+  "status_cell": "CHOSEN",
+  "excludes": "rewarding a frame accurate beyond 10%; telling a 10%-crude frame from an exact one",
+  "rows_live": {}
+ },
+ {
+  "id": "FL:23",
+  "layer": "12 framing",
+  "kind": "framing",
+  "grade": "CHOSEN",
+  "text": "The frame's own description length is not charged in K (\"cancels against the null\")",
+  "pins": [
+   [
+    "docs/FRAMING_LEDGER.md",
+    "| FL-23 | "
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1827"
+  ],
+  "note": "",
+  "status_cell": "CHOSEN",
+  "excludes": "telling, by the statistic, a frame derived before the data from one built around it",
+  "rows_live": {}
+ },
+ {
+  "id": "FL:24",
+  "layer": "12 framing",
+  "kind": "framing",
+  "grade": "CHOSEN",
+  "text": "One joint look ledger for every decisive cell",
+  "pins": [
+   [
+    "docs/FRAMING_LEDGER.md",
+    "| FL-24 | "
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1827"
+  ],
+  "note": "",
+  "status_cell": "CHOSEN (THE_BAR); **ruled 2026-11-03: two levels — a fixed screen makes a CANDIDATE, a held-out confirmation a",
+  "excludes": "recognising a correct positive after many negatives",
+  "rows_live": {}
+ },
+ {
+  "id": "FL:25",
+  "layer": "12 framing",
+  "kind": "framing",
+  "grade": "CHOSEN",
+  "text": "The decisive nulls randomise the world, never the object or the frame",
+  "pins": [
+   [
+    "docs/FRAMING_LEDGER.md",
+    "| FL-25 | "
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1827"
+  ],
+  "note": "",
+  "status_cell": "CHOSEN",
+  "excludes": "the specificity of this object; standard rivals",
+  "rows_live": {}
+ },
+ {
+  "id": "FL:26",
+  "layer": "12 framing",
+  "kind": "framing",
+  "grade": "OPEN",
+  "text": "Structural grades use two comparison classes: ℤ₆ and the hypercharge direction DERIVED against the SM, sin²θ_W = 3/8 REPRODUCED against the GUT class (WHAT_WOULD_COUNT l. 74–75, 93–97)",
+  "pins": [
+   [
+    "docs/FRAMING_LEDGER.md",
+    "| FL-26 | "
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1827"
+  ],
+  "note": "",
+  "status_cell": "inconsistent",
+  "excludes": "one honest structural count",
+  "rows_live": {}
+ },
+ {
+  "id": "FL:27",
+  "layer": "12 framing",
+  "kind": "framing",
+  "grade": "CHOSEN",
+  "text": "Weave principle, thread tests: B1825 labels itself a thread result while a thread result is \"never the answer to a weave question\"",
+  "pins": [
+   [
+    "docs/FRAMING_LEDGER.md",
+    "| FL-27 | "
+   ]
+  ],
+  "rows": [],
+  "arcs": [
+   "B1827"
+  ],
+  "note": "",
+  "status_cell": "CHOSEN per arc",
+  "excludes": "two-locus and tower answers",
+  "rows_live": {}
+ },
+ {
+  "id": "D:01",
+  "layer": "13 duties",
+  "kind": "duty",
+  "grade": "DUTY",
+  "text": "Operational foundations: the register data, compositions, equivalences and observables, complete relative to the grammar.",
+  "pins": [
+   [
+    "521e6f241",
+    "reports/physical_bridge_2026_09_05/SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md",
+    "Operational foundations: precise distinction/register data"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "D:02",
+  "layer": "13 duties",
+  "kind": "duty",
+  "grade": "DUTY",
+  "text": "The physical dictionary: derive or price spacetime, fields, gauge algebra, representations, norms and statistics.",
+  "pins": [
+   [
+    "521e6f241",
+    "reports/physical_bridge_2026_09_05/SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md",
+    "Physical dictionary: derive or price spacetime, fields, gauge algebra"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "D:03",
+  "layer": "13 duties",
+  "kind": "duty",
+  "grade": "DUTY",
+  "text": "Common dynamics: one globally stationary construction from one action, with positive norms and complete domains.",
+  "pins": [
+   [
+    "521e6f241",
+    "reports/physical_bridge_2026_09_05/SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md",
+    "Common dynamics: a globally stationary core and end from the same action"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "D:04",
+  "layer": "13 duties",
+  "kind": "duty",
+  "grade": "DUTY",
+  "text": "The boundary and source law: the full non-linear response, not a selected amplitude or projector.",
+  "pins": [
+   [
+    "521e6f241",
+    "reports/physical_bridge_2026_09_05/SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md",
+    "Boundary/source law: full nonlinear response including Gauss terms"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "D:05",
+  "layer": "13 duties",
+  "kind": "duty",
+  "grade": "DUTY",
+  "text": "The gauge and Higgs sector: the actual interactions, charge normalisation, global structure and a controlled Higgs phase.",
+  "pins": [
+   [
+    "521e6f241",
+    "reports/physical_bridge_2026_09_05/SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md",
+    "actual colour and electroweak interactions"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "D:06",
+  "layer": "13 duties",
+  "kind": "duty",
+  "grade": "DUTY",
+  "text": "The spectrum: all fermions, exactly three complete chiral families, from the actual operator and domain.",
+  "pins": [
+   [
+    "521e6f241",
+    "reports/physical_bridge_2026_09_05/SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md",
+    "all charged and neutral fermions, exactly three complete chiral families"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "D:07",
+  "layer": "13 duties",
+  "kind": "duty",
+  "grade": "DUTY",
+  "text": "Normalised interactions: the real left and right weak currents, Yukawa couplings and kinetic normalisation.",
+  "pins": [
+   [
+    "521e6f241",
+    "reports/physical_bridge_2026_09_05/SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md",
+    "Normalized interactions: calculate the real left/right weak currents"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "D:08",
+  "layer": "13 duties",
+  "kind": "duty",
+  "grade": "DUTY",
+  "text": "Quantum consistency: anomalies, inflow, a positive state space and unitary evolution.",
+  "pins": [
+   [
+    "521e6f241",
+    "reports/physical_bridge_2026_09_05/SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md",
+    "Quantum consistency: perturbative gauge and mixed gravitational anomalies"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "D:09",
+  "layer": "13 duties",
+  "kind": "duty",
+  "grade": "DUTY",
+  "text": "Full mode accounting: conjugates, mirror partners, extra modes, towers and continua, with thresholds or decoupling.",
+  "pins": [
+   [
+    "521e6f241",
+    "reports/physical_bridge_2026_09_05/SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md",
+    "Full mode accounting: charge conjugates, mirror partners"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "D:10",
+  "layer": "13 duties",
+  "kind": "duty",
+  "grade": "DUTY",
+  "text": "Quantitative particle physics: couplings, the Higgs potential, masses, mixing and CP, neutrinos, with running and uncertainty.",
+  "pins": [
+   [
+    "521e6f241",
+    "reports/physical_bridge_2026_09_05/SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md",
+    "Quantitative particle physics: normalized couplings, Higgs potential"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "D:11",
+  "layer": "13 duties",
+  "kind": "duty",
+  "grade": "DUTY",
+  "text": "Gravity and cosmology: a dynamical 3+1 geometry coupled to the same matter.",
+  "pins": [
+   [
+    "521e6f241",
+    "reports/physical_bridge_2026_09_05/SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md",
+    "Gravity and cosmology: dynamical"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "D:12",
+  "layer": "13 duties",
+  "kind": "duty",
+  "grade": "DUTY",
+  "text": "Selection and input reduction: derive the carrier, metric, holonomy, state and measure, or prove the residual freedom.",
+  "pins": [
+   [
+    "521e6f241",
+    "reports/physical_bridge_2026_09_05/SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md",
+    "Selection and input reduction: derive needed carrier, metric, holonomy"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "D:13",
+  "layer": "13 duties",
+  "kind": "duty",
+  "grade": "DUTY",
+  "text": "Predictivity: fixed-prescription comparisons not used to select or calibrate the model.",
+  "pins": [
+   [
+    "521e6f241",
+    "reports/physical_bridge_2026_09_05/SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md",
+    "Predictivity: fixed-prescription observable comparisons"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "D:14",
+  "layer": "13 duties",
+  "kind": "duty",
+  "grade": "DUTY",
+  "text": "Evidence: non-authoring review, acceptance, admitted reproducible execution and preserved failures.",
+  "pins": [
+   [
+    "521e6f241",
+    "reports/physical_bridge_2026_09_05/SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08.md",
+    "Evidence: source-complete nonauthoring review"
+   ]
+  ],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {}
+ },
+ {
+  "id": "X:DICT",
+  "layer": "14 closure",
+  "kind": "closure",
+  "grade": "CLOSURE",
+  "text": "THE DICTIONARY. Which mathematical object is which field. Unearned everywhere; unearnable by derivation inside the flat counting frames; earnable by sealed prediction.",
+  "pins": [],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {},
+  "members": [
+   "A:A05",
+   "E:J5",
+   "E:L06",
+   "E:L10",
+   "FL:01",
+   "FL:09",
+   "FL:10",
+   "FL:20",
+   "G:FK11",
+   "G:FK15",
+   "G:GAP1",
+   "MC:PRICE",
+   "TAG:LAMBDA"
+  ],
+  "duties_blocked": [
+   "D:01",
+   "D:02",
+   "D:05",
+   "D:06",
+   "D:07"
+  ],
+  "value_rows_fed": [
+   "m_c/m_t",
+   "m_d/m_s",
+   "m_e/m_mu",
+   "m_mu/m_tau",
+   "m_s/m_b",
+   "m_u/m_c"
+  ],
+  "member_grades": {
+   "CHOSEN": 1,
+   "OPEN": 5,
+   "LANE-INPUT": 1,
+   "LANE-PROPOSED": 1,
+   "UNSTATED": 2,
+   "CONDITIONAL": 1,
+   "POSTULATED": 1,
+   "TAGGED": 1
+  }
+ },
+ {
+  "id": "X:END",
+  "layer": "14 closure",
+  "kind": "closure",
+  "grade": "CLOSURE",
+  "text": "THE END. The law at the cusp. Tagged on the weave, chosen in the value frame, a conditional reduction in the lanes' model.",
+  "pins": [],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {},
+  "members": [
+   "A:A07",
+   "A:A09",
+   "E:L08",
+   "FL:11",
+   "G:FK10",
+   "G:FK14",
+   "G:GAP2",
+   "TAG:UNIT",
+   "W:ONE-END"
+  ],
+  "duties_blocked": [
+   "D:03",
+   "D:04",
+   "D:06"
+  ],
+  "value_rows_fed": [
+   "m_c/m_t",
+   "m_d/m_s",
+   "m_e/m_mu",
+   "m_mu/m_tau",
+   "m_s/m_b",
+   "m_u/m_c"
+  ],
+  "member_grades": {
+   "CHOSEN": 3,
+   "LANE-REVIEWED": 1,
+   "OPEN": 3,
+   "TAGGED": 1,
+   "NEGATIVE": 1
+  }
+ },
+ {
+  "id": "X:FLAT",
+  "layer": "14 closure",
+  "kind": "closure",
+  "grade": "CLOSURE",
+  "text": "THE FLATNESS. Both value frames stand on a flat bundle, which cannot reach continuous moduli.",
+  "pins": [],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {},
+  "members": [
+   "FL:02",
+   "G:GAP6",
+   "S:S01"
+  ],
+  "duties_blocked": [
+   "D:10"
+  ],
+  "value_rows_fed": [],
+  "member_grades": {
+   "OPEN": 2,
+   "ANSATZ": 1
+  }
+ },
+ {
+  "id": "X:GRAVITY",
+  "layer": "14 closure",
+  "kind": "closure",
+  "grade": "CLOSURE",
+  "text": "GRAVITY IN 3+1. Not on the record in any lane.",
+  "pins": [],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {},
+  "members": [
+   "GR:3PLUS1",
+   "GR:ACTION"
+  ],
+  "duties_blocked": [
+   "D:11"
+  ],
+  "value_rows_fed": [],
+  "member_grades": {
+   "DUTY": 1,
+   "DERIVED": 1
+  }
+ },
+ {
+  "id": "X:HAND",
+  "layer": "14 closure",
+  "kind": "closure",
+  "grade": "CLOSURE",
+  "text": "THE HAND. What makes a count chiral. Every branch meets it: the weave derives neither hand, the flat index is mirror-even, the 2+1 matter is vector-like, and the lanes' model has paired left and right currents.",
+  "pins": [],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {},
+  "members": [
+   "E:J4",
+   "E:L11",
+   "E:Q1",
+   "FL:03",
+   "G:FK2",
+   "G:FK3",
+   "G:GAP6",
+   "G:GM5c",
+   "G:SE2",
+   "GR:VECTORLIKE",
+   "PR:P9",
+   "S:S02",
+   "SC:PREMISE",
+   "W:HANDS",
+   "W:INDEX3",
+   "W:MIRROR-EVEN"
+  ],
+  "duties_blocked": [
+   "D:06",
+   "D:07",
+   "D:08"
+  ],
+  "value_rows_fed": [],
+  "member_grades": {
+   "OPEN": 5,
+   "LANE-PROPOSED": 1,
+   "CHOSEN": 5,
+   "NEGATIVE": 2,
+   "CONDITIONAL": 2,
+   "DERIVED": 1
+  }
+ },
+ {
+  "id": "X:PARENT",
+  "layer": "14 closure",
+  "kind": "closure",
+  "grade": "CLOSURE",
+  "text": "THE PARENT. Where the gauge algebra comes from. Supplied in the lanes' model; adopted by a ruling as a container on main; one of five typed inputs of the structural theorem.",
+  "pins": [],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {},
+  "members": [
+   "E:L02",
+   "MC:HYP",
+   "MC:REACH",
+   "MC:UNIQ"
+  ],
+  "duties_blocked": [
+   "D:02",
+   "D:05"
+  ],
+  "value_rows_fed": [],
+  "member_grades": {
+   "LANE-INPUT": 1,
+   "POSTULATED": 1,
+   "OPEN": 2
+  }
+ },
+ {
+  "id": "X:SCALE",
+  "layer": "14 closure",
+  "kind": "closure",
+  "grade": "CLOSURE",
+  "text": "THE SCALE. One outside unit is unavoidable; every dimensionless ratio of scales still waits on a level and an identification.",
+  "pins": [],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {},
+  "members": [
+   "A:A12",
+   "E:L04",
+   "FL:13",
+   "FL:21",
+   "MC:CS0",
+   "SC:CARD",
+   "SC:R2",
+   "SC:R4",
+   "SC:RATIO",
+   "SC:UNIT"
+  ],
+  "duties_blocked": [
+   "D:10",
+   "D:11"
+  ],
+  "value_rows_fed": [
+   "m_c/m_t",
+   "m_d/m_s",
+   "m_e/m_mu",
+   "m_mu/m_tau",
+   "m_s/m_b",
+   "m_u/m_c"
+  ],
+  "member_grades": {
+   "CHOSEN": 4,
+   "LANE-INPUT": 1,
+   "UNSTATED": 1,
+   "DERIVED": 2,
+   "NEGATIVE": 1,
+   "OPEN": 1
+  }
+ },
+ {
+  "id": "X:SELECT",
+  "layer": "14 closure",
+  "kind": "closure",
+  "grade": "CLOSURE",
+  "text": "THE SELECTION. What makes a state, a line or a background the physical one. A postulate at the root, open above it, unselected data in the lanes' model.",
+  "pins": [],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {},
+  "members": [
+   "A:A02",
+   "A:A03",
+   "A:A04",
+   "A:A11",
+   "E:L07",
+   "E:Q3",
+   "FL:07",
+   "FL:08",
+   "FL:18",
+   "G:FK9",
+   "G:GAP4",
+   "G:SE1",
+   "G:XGEN-PHYS"
+  ],
+  "duties_blocked": [
+   "D:03",
+   "D:12"
+  ],
+  "value_rows_fed": [
+   "m_c/m_t",
+   "m_d/m_s",
+   "m_e/m_mu",
+   "m_mu/m_tau",
+   "m_s/m_b",
+   "m_u/m_c"
+  ],
+  "member_grades": {
+   "CHOSEN": 6,
+   "LANE-INPUT": 1,
+   "OPEN": 4,
+   "UNSTATED": 1,
+   "POSTULATED": 1
+  }
+ },
+ {
+  "id": "X:SOURCE",
+  "layer": "14 closure",
+  "kind": "closure",
+  "grade": "CLOSURE",
+  "text": "THE DYNAMICS. A potential, a breaking, a running or a source that fixes a value. Structure exists; nothing has been turned into one.",
+  "pins": [],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {},
+  "members": [
+   "A:A08",
+   "A:A10",
+   "CO:S3",
+   "FL:05",
+   "FL:06",
+   "FL:12",
+   "G:GAP3",
+   "G:GAP5",
+   "T:NO-PLACE",
+   "W:NOVAL"
+  ],
+  "duties_blocked": [
+   "D:03",
+   "D:04",
+   "D:10"
+  ],
+  "value_rows_fed": [
+   "m_c/m_t",
+   "m_d/m_s",
+   "m_e/m_mu",
+   "m_mu/m_tau",
+   "m_s/m_b",
+   "m_u/m_c"
+  ],
+  "member_grades": {
+   "CHOSEN": 2,
+   "FITTED": 1,
+   "NEGATIVE": 3,
+   "OPEN": 3,
+   "UNSTATED": 1
+  }
+ },
+ {
+  "id": "X:TAU",
+  "layer": "14 closure",
+  "kind": "closure",
+  "grade": "CLOSURE",
+  "text": "THE MODULUS. What fixes τ. Fitted in both value frames, unselected in the lanes' model, forced by nothing on the weave; a rule exists that is conditional on a chosen framing and three further choices.",
+  "pins": [],
+  "rows": [],
+  "arcs": [],
+  "note": "",
+  "rows_live": {},
+  "members": [
+   "A:A01",
+   "E:L04",
+   "FL:04",
+   "T:CHARGE5",
+   "T:FRAMING",
+   "T:IM",
+   "T:MINIM",
+   "T:NO-PLACE",
+   "T:POINT-WEIGHT",
+   "T:PRICED",
+   "W:NOMOD"
+  ],
+  "duties_blocked": [
+   "D:10",
+   "D:12"
+  ],
+  "value_rows_fed": [
+   "m_c/m_t",
+   "m_d/m_s",
+   "m_e/m_mu",
+   "m_mu/m_tau",
+   "m_s/m_b",
+   "m_u/m_c"
+  ],
+  "member_grades": {
+   "FITTED": 1,
+   "LANE-INPUT": 1,
+   "CHOSEN": 5,
+   "LANE-PROPOSED": 1,
+   "NEGATIVE": 2,
+   "DUTY": 1
+  }
+ },
+ {
+  "id": "P:025",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "Holomorphy/minimal-Kahler imports bear on the count underlying B1656's frame and the hierarchy readings.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-025 — "
+   ]
+  ],
+  "rows": [
+   "P-025"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 65,
+  "debt_class": "an unverified premise or seat result under a banked structural result",
+  "rows_live": {
+   "P-025": "QUEUED"
+  }
+ },
+ {
+  "id": "P:030",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "The golden identity (MC10 arcs, B1638) cites classical input via secondary sources.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-030 — "
+   ]
+  ],
+  "rows": [
+   "P-030"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 66,
+  "debt_class": "an unverified premise or seat result under a banked structural result",
+  "rows_live": {
+   "P-030": "QUEUED"
+  }
+ },
+ {
+  "id": "P:031",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "The claim 'special to discriminant 5' is used by golden-identity arcs and P10-adjacent readings.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-031 — "
+   ]
+  ],
+  "rows": [
+   "P-031"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 67,
+  "debt_class": "an unverified premise or seat result under a banked structural result",
+  "rows_live": {
+   "P-031": "QUEUED"
+  }
+ },
+ {
+  "id": "P:054",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "GENESIS cites W24 and W30 (order-3 flux allowed, not forced).",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-054 — "
+   ]
+  ],
+  "rows": [
+   "P-054"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 49,
+  "debt_class": "an unverified premise or seat result under a banked structural result",
+  "rows_live": {
+   "P-054": "QUEUED"
+  }
+ },
+ {
+  "id": "P:055",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "W23/W27/W28 (two generations in E8 frames, qubit) are cited as results.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-055 — "
+   ]
+  ],
+  "rows": [
+   "P-055"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 50,
+  "debt_class": "an unverified premise or seat result under a banked structural result",
+  "rows_live": {
+   "P-055": "QUEUED"
+  }
+ },
+ {
+  "id": "P:056",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "W47 (no forcing of cusp unit) underlies FK10's tagged-postulate status.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-056 — "
+   ]
+  ],
+  "rows": [
+   "P-056"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 51,
+  "debt_class": "an unverified premise or seat result under a banked structural result",
+  "rows_live": {
+   "P-056": "QUEUED"
+  }
+ },
+ {
+  "id": "P:057",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "Fork lane's exact packets feed GM4 readings.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-057 — "
+   ]
+  ],
+  "rows": [
+   "P-057"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 52,
+  "debt_class": "an unverified premise or seat result under a banked structural result",
+  "rows_live": {
+   "P-057": "QUEUED"
+  }
+ },
+ {
+  "id": "P:091",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B1814's census and the typicality cell rest on W57, whose own frame is unregenerated.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-091 — "
+   ]
+  ],
+  "rows": [
+   "P-091"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 56,
+  "debt_class": "an unverified premise or seat result under a banked structural result",
+  "rows_live": {
+   "P-091": "QUEUED"
+  }
+ },
+ {
+  "id": "P:092",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "docs/THE_CLAIM.md section 1's cubic carries no dated line on d/e spectrum; B1738 not cited there (grep empty).",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-092 — "
+   ]
+  ],
+  "rows": [
+   "P-092"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 29,
+  "debt_class": "a false or stale statement in a foundation or front document",
+  "rows_live": {
+   "P-092": "QUEUED"
+  }
+ },
+ {
+  "id": "P:107",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "P-091's 'seed's own measure' premise and B1813/B1814 depend on measure choice.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-107 — "
+   ]
+  ],
+  "rows": [
+   "P-107"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 57,
+  "debt_class": "an unverified premise or seat result under a banked structural result",
+  "rows_live": {
+   "P-107": "QUEUED"
+  }
+ },
+ {
+  "id": "P:117",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "PH2 1% match is cited from B1686; W154's analytic form under P-380 Stage B.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-117 — "
+   ]
+  ],
+  "rows": [
+   "P-117"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 58,
+  "debt_class": "an unverified premise or seat result under a banked structural result",
+  "rows_live": {
+   "P-117": "QUEUED"
+  }
+ },
+ {
+  "id": "P:135",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B1650's condensate test and Simpson table are cited conditionally on H-RES.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-135 — "
+   ]
+  ],
+  "rows": [
+   "P-135"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 54,
+  "debt_class": "an unverified premise or seat result under a banked structural result",
+  "rows_live": {
+   "P-135": "QUEUED"
+  }
+ },
+ {
+  "id": "P:138",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "GENESIS GAP5 (line 378) still says 'no free dimensionless constant'; LAMBDA_POSITION line 26 unscoped.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-138 — "
+   ]
+  ],
+  "rows": [
+   "P-138"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 27,
+  "debt_class": "a false or stale statement in a foundation or front document",
+  "rows_live": {
+   "P-138": "QUEUED"
+  }
+ },
+ {
+  "id": "P:145",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "Memo 132 / COSMOLOGY_LEDGER row 4 / CATALOG update, still unchecked on main.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-145 — "
+   ]
+  ],
+  "rows": [
+   "P-145"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 34,
+  "debt_class": "a false or stale statement in a foundation or front document",
+  "rows_live": {
+   "P-145": "QUEUED"
+  }
+ },
+ {
+  "id": "P:154",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "The retraction sweep never reads RETRACTED_PHRASES' 2026-10-07 and 2026-10-08 tables (hand-swept clean at S297).",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-154 — "
+   ]
+  ],
+  "rows": [
+   "P-154"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 43,
+  "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
+  "rows_live": {
+   "P-154": "QUEUED"
+  }
+ },
+ {
+  "id": "P:155",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B1602/B1603 counts (16 of 42) are over candidate kernels, never identified.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-155 — "
+   ]
+  ],
+  "rows": [
+   "P-155"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 55,
+  "debt_class": "an unverified premise or seat result under a banked structural result",
+  "rows_live": {
+   "P-155": "QUEUED"
+  }
+ },
+ {
+  "id": "P:156",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B1606/B1652's D2 ±3 index rests on the end condition and dim Λ+ - 3.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-156 — "
+   ]
+  ],
+  "rows": [
+   "P-156"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 48,
+  "debt_class": "an unverified premise or seat result under a banked structural result",
+  "rows_live": {
+   "P-156": "QUEUED"
+  }
+ },
+ {
+  "id": "P:157",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "Reading of P10 and P10' (B1628) as Dirac neutrinos depends on B1620's tensor assignment.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-157 — "
+   ]
+  ],
+  "rows": [
+   "P-157"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 8,
+  "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
+  "rows_live": {
+   "P-157": "QUEUED"
+  }
+ },
+ {
+  "id": "P:158",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B1643's three-routes claim and its lock are cited in the record; the sin2theta12 near-match disclosure is owed.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-158 — "
+   ]
+  ],
+  "rows": [
+   "P-158"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 61,
+  "debt_class": "an unverified premise or seat result under a banked structural result",
+  "rows_live": {
+   "P-158": "QUEUED"
+  }
+ },
+ {
+  "id": "P:160",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "Paper claim pool, SM specification ledger lines and kill-graph note still carry B1636-B1653 wording.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-160 — "
+   ]
+  ],
+  "rows": [
+   "P-160"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 33,
+  "debt_class": "a false or stale statement in a foundation or front document",
+  "rows_live": {
+   "P-160": "QUEUED"
+  }
+ },
+ {
+  "id": "P:233",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "Hypercharge-forcing theorems T-Y18, T-TWO-ORBITS, T-DEFLATION-P in the registry lack the independent reimplementation control.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-233 — "
+   ]
+  ],
+  "rows": [
+   "P-233"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 45,
+  "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
+  "rows_live": {
+   "P-233": "QUEUED"
+  }
+ },
+ {
+  "id": "P:239",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B805's attachment locks guard the forcing graph and fail at every landing (CHANGELOG 'standing').",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-239 — "
+   ]
+  ],
+  "rows": [
+   "P-239"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 44,
+  "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
+  "rows_live": {
+   "P-239": "QUEUED"
+  }
+ },
+ {
+  "id": "P:262",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B1701's 0:1:1 law and B1703's N∣3 zero are banked as computed laws used by later zero-law work (P-337, P-268).",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-262 — "
+   ]
+  ],
+  "rows": [
+   "P-262"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 62,
+  "debt_class": "an unverified premise or seat result under a banked structural result",
+  "rows_live": {
+   "P-262": "QUEUED"
+  }
+ },
+ {
+  "id": "P:263",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B1689 banked with W24 discrete-torsion, K3-K4 and W44 PMNS cells unchecked.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-263 — "
+   ]
+  ],
+  "rows": [
+   "P-263"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 53,
+  "debt_class": "an unverified premise or seat result under a banked structural result",
+  "rows_live": {
+   "P-263": "QUEUED"
+  }
+ },
+ {
+  "id": "P:268",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "The order-12 electron-zero law (B1712/B1716) is cited by zero-law rows P-292/P-337 and the lepton analysis.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-268 — "
+   ]
+  ],
+  "rows": [
+   "P-268"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 63,
+  "debt_class": "an unverified premise or seat result under a banked structural result",
+  "rows_live": {
+   "P-268": "QUEUED"
+  }
+ },
+ {
+  "id": "P:310",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B335's title/claim 'mass degeneracy is a theorem' (frontier/B335 FINDINGS line 1) is cited as a degeneracy argument.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-310 — "
+   ]
+  ],
+  "rows": [
+   "P-310"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 64,
+  "debt_class": "an unverified premise or seat result under a banked structural result",
+  "rows_live": {
+   "P-310": "QUEUED"
+  }
+ },
+ {
+  "id": "P:316",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B1732's 'incompatible' verdict and P-303's recommendation rest on the web seat's tests not yet re-run on main.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-316 — "
+   ]
+  ],
+  "rows": [
+   "P-316"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 60,
+  "debt_class": "an unverified premise or seat result under a banked structural result",
+  "rows_live": {
+   "P-316": "QUEUED"
+  }
+ },
+ {
+  "id": "P:317",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "Checks that cannot fail guard B1137 PSLQ DISJOINT, B162, GENESIS citation gate, kill graph T-VALUE-REGULATOR.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-317 — "
+   ]
+  ],
+  "rows": [
+   "P-317"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 40,
+  "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
+  "rows_live": {
+   "P-317": "QUEUED"
+  }
+ },
+ {
+  "id": "P:318",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "THE_CLAIM section 1, GENESIS F-MC, LAW_MAP rows 236/419/427 and THEOREM_REGISTRY carry B997 uniqueness etc.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-318 — "
+   ]
+  ],
+  "rows": [
+   "P-318"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 20,
+  "debt_class": "a false or stale statement in a foundation or front document",
+  "rows_live": {
+   "P-318": "QUEUED"
+  }
+ },
+ {
+  "id": "P:319",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "Frozen paper P9 cites B1479 and B1656, superseded by B1662 and B1658.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-319 — "
+   ]
+  ],
+  "rows": [
+   "P-319"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 30,
+  "debt_class": "a false or stale statement in a foundation or front document",
+  "rows_live": {
+   "P-319": "QUEUED"
+  }
+ },
+ {
+  "id": "P:320",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "GENESIS FK3, FK5, F-MC, m000 row, GAP6, GM4 lag the record.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-320 — "
+   ]
+  ],
+  "rows": [
+   "P-320"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 25,
+  "debt_class": "a false or stale statement in a foundation or front document",
+  "rows_live": {
+   "P-320": "QUEUED"
+  }
+ },
+ {
+  "id": "P:321",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "GENESIS GM4 and B1680's 'the remaining choice is the prime' are stated in the foundation; the row owes their update.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-321 — "
+   ]
+  ],
+  "rows": [
+   "P-321"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 26,
+  "debt_class": "a false or stale statement in a foundation or front document",
+  "rows_live": {
+   "P-321": "QUEUED"
+  }
+ },
+ {
+  "id": "P:332",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B1121 banked 'inconclusive' on F4(Z) transitivity from a too-small search box.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-332 — "
+   ]
+  ],
+  "rows": [
+   "P-332"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 47,
+  "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
+  "rows_live": {
+   "P-332": "QUEUED"
+  }
+ },
+ {
+  "id": "P:333",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "GENESIS F-CI sentence rests on one of 16 companions computed.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-333 — "
+   ]
+  ],
+  "rows": [
+   "P-333"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 28,
+  "debt_class": "a false or stale statement in a foundation or front document",
+  "rows_live": {
+   "P-333": "QUEUED"
+  }
+ },
+ {
+  "id": "P:334",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "Stale OPEN verdicts and un-noted answered leads sit in tests and arcs (B1406, OPEN O1-O10).",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-334 — "
+   ]
+  ],
+  "rows": [
+   "P-334"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 70,
+  "debt_class": "an unverified premise or seat result under a banked structural result",
+  "rows_live": {
+   "P-334": "QUEUED"
+  }
+ },
+ {
+  "id": "P:355",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B1829 candidate family P-585 (and B1742 order-5 rows) rest on the c=3 / D=9 identity, which is Georgi-Jarlskog by construction and sits 3-14 sigma from P-094's D.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-355 — "
+   ]
+  ],
+  "rows": [
+   "P-355"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 1,
+  "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
+  "rows_live": {
+   "P-355": "QUEUED"
+  }
+ },
+ {
+  "id": "P:374",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "THE_CLAIM section 1 typed-data counts (two F2 bits, one scale, one trit) are what the 19-input accounting and GENESIS cite.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-374 — "
+   ]
+  ],
+  "rows": [
+   "P-374"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 22,
+  "debt_class": "a false or stale statement in a foundation or front document",
+  "rows_live": {
+   "P-374": "QUEUED"
+  }
+ },
+ {
+  "id": "P:384",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B1753 (sealed, candidate per B1829 REGRADE) and the P-585 candidate family rest on the 2/5 line class, which the referee showed is mostly a pick.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-384 — "
+   ]
+  ],
+  "rows": [
+   "P-384"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 3,
+  "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
+  "rows_live": {
+   "P-384": "QUEUED"
+  }
+ },
+ {
+  "id": "P:426",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "docs/THE_FRAMEWORK.md line 558 'no canonical arrow' (contradicted by B1750/B1662) and four other living docs carry DECLARED_DEBT in doc_currency.py.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-426 — "
+   ]
+  ],
+  "rows": [
+   "P-426"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 31,
+  "debt_class": "a false or stale statement in a foundation or front document",
+  "rows_live": {
+   "P-426": "QUEUED"
+  }
+ },
+ {
+  "id": "P:427",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B723's PROVED verdict (after three clause retractions), CLAIMS.md C-cal (line 147) and paths/PATHS.md are cited records.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-427 — "
+   ]
+  ],
+  "rows": [
+   "P-427"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 21,
+  "debt_class": "a false or stale statement in a foundation or front document",
+  "rows_live": {
+   "P-427": "QUEUED"
+  }
+ },
+ {
+  "id": "P:430",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "W74's CP-invariance of the surface frame rests on K5 (B1796) and possibly K4, the weight -1/2 count, unchecked.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-430 — "
+   ]
+  ],
+  "rows": [
+   "P-430"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 59,
+  "debt_class": "an unverified premise or seat result under a banked structural result",
+  "rows_live": {
+   "P-430": "QUEUED"
+  }
+ },
+ {
+  "id": "P:444",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B1785 FINDINGS section 1 'residual <= 0.07 everywhere' is false (585 of 15888 fits exceed); B1788 compares against B1785 medians.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-444 — "
+   ]
+  ],
+  "rows": [
+   "P-444"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 11,
+  "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
+  "rows_live": {
+   "P-444": "QUEUED"
+  }
+ },
+ {
+  "id": "P:446",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B1786, B1789, B1792 and B1814's census rest on c=3 chosen on the data and the down-lepton relation being part of the fit.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-446 — "
+   ]
+  ],
+  "rows": [
+   "P-446"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 6,
+  "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
+  "rows_live": {
+   "P-446": "QUEUED"
+  }
+ },
+ {
+  "id": "P:448",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "P-432's DONE status and B1811's NEGATIVE (used by B1825 and the clock arcs) rest on a window the row says covers only n=1.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-448 — "
+   ]
+  ],
+  "rows": [
+   "P-448"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 16,
+  "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
+  "rows_live": {
+   "P-448": "QUEUED"
+  }
+ },
+ {
+  "id": "P:492",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B1088 (c = 3l/2G, c = 6 sigma) and B1034's bridge in the gravity line rest on a boundary assumption the row questions.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-492 — "
+   ]
+  ],
+  "rows": [
+   "P-492"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 68,
+  "debt_class": "an unverified premise or seat result under a banked structural result",
+  "rows_live": {
+   "P-492": "QUEUED"
+  }
+ },
+ {
+  "id": "P:516",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "IDENTIFICATION_LEDGER and the identification-completeness lock; B1825 depends on B1814 and B1810, which read singular values as masses.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-516 — "
+   ]
+  ],
+  "rows": [
+   "P-516"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 15,
+  "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
+  "rows_live": {
+   "P-516": "QUEUED"
+  }
+ },
+ {
+  "id": "P:517",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B1811 (cited as NEGATIVE) and the D = 9 figure feeding P-585's candidate-family relation D and P-355.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-517 — "
+   ]
+  ],
+  "rows": [
+   "P-517"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 7,
+  "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
+  "rows_live": {
+   "P-517": "QUEUED"
+  }
+ },
+ {
+  "id": "P:524",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B1656's frame and Step B's channel kernels (B1825) use the b_x+b_y dependence on a relay's say-so.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-524 — "
+   ]
+  ],
+  "rows": [
+   "P-524"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 13,
+  "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
+  "rows_live": {
+   "P-524": "QUEUED"
+  }
+ },
+ {
+  "id": "P:528",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "docs/IDENTIFICATION_LEDGER.md I-26 row, cited by the generation-count line.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-528 — "
+   ]
+  ],
+  "rows": [
+   "P-528"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 32,
+  "debt_class": "a false or stale statement in a foundation or front document",
+  "rows_live": {
+   "P-528": "QUEUED"
+  }
+ },
+ {
+  "id": "P:540",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B940's instrument is used by C10's seal on m004 (P-330).",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-540 — "
+   ]
+  ],
+  "rows": [
+   "P-540"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 46,
+  "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
+  "rows_live": {
+   "P-540": "QUEUED"
+  }
+ },
+ {
+  "id": "P:542",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B1821's and B1726's census outputs, and any test needing the census near Im tau = 1+k/4.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-542 — "
+   ]
+  ],
+  "rows": [
+   "P-542"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 12,
+  "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
+  "rows_live": {
+   "P-542": "QUEUED"
+  }
+ },
+ {
+  "id": "P:557",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B1825's null for the four (p2) and its sealed verdict use that definition.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-557 — "
+   ]
+  ],
+  "rows": [
+   "P-557"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 14,
+  "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
+  "rows_live": {
+   "P-557": "QUEUED"
+  }
+ },
+ {
+  "id": "P:559",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B1788's exponents are cited by later flavour-line arcs and the agy lane's replacement claim.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-559 — "
+   ]
+  ],
+  "rows": [
+   "P-559"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 9,
+  "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
+  "rows_live": {
+   "P-559": "QUEUED"
+  }
+ },
+ {
+  "id": "P:571",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "The value-kill census and walls cited in the record's negatives (FRAMING_LEDGER FL-02/03).",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-571 — "
+   ]
+  ],
+  "rows": [
+   "P-571"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 69,
+  "debt_class": "an unverified premise or seat result under a banked structural result",
+  "rows_live": {
+   "P-571": "QUEUED"
+  }
+ },
+ {
+  "id": "P:579",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "Front-document headline '0 of 19' in logs and the scoreboard, and WHAT_WOULD_COUNT's tiers.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-579 — "
+   ]
+  ],
+  "rows": [
+   "P-579"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 23,
+  "debt_class": "a false or stale statement in a foundation or front document",
+  "rows_live": {
+   "P-579": "QUEUED"
+  }
+ },
+ {
+  "id": "P:581",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "The structural package grades (B862, B727 line) in GENESIS-level claims.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-581 — "
+   ]
+  ],
+  "rows": [
+   "P-581"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 24,
+  "debt_class": "a false or stale statement in a foundation or front document",
+  "rows_live": {
+   "P-581": "QUEUED"
+  }
+ },
+ {
+  "id": "P:586",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "The re-grade REGRADE.md (B1829) and the candidate P-585 depend on these looks' grading.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-586 — "
+   ]
+  ],
+  "rows": [
+   "P-586"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 4,
+  "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
+  "rows_live": {
+   "P-586": "QUEUED"
+  }
+ },
+ {
+  "id": "P:589",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "Corrections that reached their arcs but not the law map: 20 rows fixed at S297; owed the eight member-scope addenda and the same screen over GENESIS and THE_WEAVE (IDENTIFICATION_LEDGER and KIND_TABLE screened clean).",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-589 — "
+   ]
+  ],
+  "rows": [
+   "P-589"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 17,
+  "debt_class": "a false or stale statement in a foundation or front document",
+  "rows_live": {
+   "P-589": "QUEUED"
+  }
+ },
+ {
+  "id": "P:590",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "Sealed negatives graded at M_Z with tree outputs; B1660, B1748 and B1720's T2 are not covered by the scale bound.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-590 — "
+   ]
+  ],
+  "rows": [
+   "P-590"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 42,
+  "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
+  "rows_live": {
+   "P-590": "QUEUED"
+  }
+ },
+ {
+  "id": "P:596",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "P-355's list and P-568's relation count (f(d) = 2) rest on the web seat's runs; B1809's owed count.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-596 — "
+   ]
+  ],
+  "rows": [
+   "P-596"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 2,
+  "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
+  "rows_live": {
+   "P-596": "QUEUED"
+  }
+ },
+ {
+  "id": "P:597",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "P-585's level-2 card, the only route off 0 of 19 for the strip candidate, has one clean held-out target after θ̄ was ruled an input (Review 74).",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-597 — "
+   ]
+  ],
+  "rows": [
+   "P-597"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 5,
+  "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
+  "rows_live": {
+   "P-597": "QUEUED"
+  }
+ },
+ {
+  "id": "P:602",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B1225's reproduce.sh greps instead of computing; it backs T-NO-CANONICAL-SELECTOR, T-IDENTIFICATION-IS-AN-INPUT and FK12.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-602 — "
+   ]
+  ],
+  "rows": [
+   "P-602"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 41,
+  "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
+  "rows_live": {
+   "P-602": "QUEUED"
+  }
+ },
+ {
+  "id": "P:603",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "LAW_MAP's rank-obstruction row (l. 378) and B964's filing lag their own retraction and the Wilson-line closings.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-603 — "
+   ]
+  ],
+  "rows": [
+   "P-603"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 36,
+  "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
+  "rows_live": {
+   "P-603": "QUEUED"
+  }
+ },
+ {
+  "id": "P:605",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "GENESIS v1.12 (l. 481) and COSMOLOGY_LEDGER row 4 call checked work unchecked (B1208 LEG 4).",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-605 — "
+   ]
+  ],
+  "rows": [
+   "P-605"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 35,
+  "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
+  "rows_live": {
+   "P-605": "QUEUED"
+  }
+ },
+ {
+  "id": "P:606",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B298's degree-2 'never 3' is cited as prior by B1496 and four ledgers; false as an implication.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-606 — "
+   ]
+  ],
+  "rows": [
+   "P-606"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 18,
+  "debt_class": "a false or stale statement in a foundation or front document",
+  "rows_live": {
+   "P-606": "QUEUED"
+  }
+ },
+ {
+  "id": "P:607",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B1195 stands PROVED with four cells failing their own lens; GC-25 and GC-22 are cited as proved, GC-22 in P3.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-607 — "
+   ]
+  ],
+  "rows": [
+   "P-607"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 37,
+  "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
+  "rows_live": {
+   "P-607": "QUEUED"
+  }
+ },
+ {
+  "id": "P:608",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "LAW_MAP row 478 unscoped since R48-2; RETRACTIONS row 13 says a fact was never computed that was.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-608 — "
+   ]
+  ],
+  "rows": [
+   "P-608"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 38,
+  "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
+  "rows_live": {
+   "P-608": "QUEUED"
+  }
+ },
+ {
+  "id": "P:609",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "OPEN_LEADS' ★★★★ L173 rests on a boundary-mode count the cloud seat called a one-ended artefact.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-609 — "
+   ]
+  ],
+  "rows": [
+   "P-609"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 39,
+  "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
+  "rows_live": {
+   "P-609": "QUEUED"
+  }
+ },
+ {
+  "id": "P:610",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "C8 (B1796, B1797, GENESIS v1.59) uses the whole cusp unit where W134 says 17/24; P-302 closed while B1736 says K2 not re-derived.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-610 — "
+   ]
+  ],
+  "rows": [
+   "P-610"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 10,
+  "debt_class": "bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery",
+  "rows_live": {
+   "P-610": "QUEUED"
+  }
+ },
+ {
+  "id": "P:618",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "GENESIS l. 262 and LAW_MAP l. 236 (m = 4 has the door) and five arcs lag the 2026-10-23 sweep's answers.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-618 — "
+   ]
+  ],
+  "rows": [
+   "P-618"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 19,
+  "debt_class": "a false or stale statement in a foundation or front document",
+  "rows_live": {
+   "P-618": "QUEUED"
+  }
+ },
+ {
+  "id": "P:643",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "THE_FINAL_ATTACK states pre-registered successors (the towers on NO SUPPORT; the gauge couplings after the nine) the record did not take.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-643 — "
+   ]
+  ],
+  "rows": [
+   "P-643"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 72,
+  "debt_class": "added by B1833 (S300; the brainstorms re-read)",
+  "rows_live": {
+   "P-643": "QUEUED"
+  }
+ },
+ {
+  "id": "P:646",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B1410 consumes P5 completeness, one of B1000's three bridge artifacts named and owed since 2026-08-09.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-646 — "
+   ]
+  ],
+  "rows": [
+   "P-646"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 73,
+  "debt_class": "added by B1833 (S300; the brainstorms re-read)",
+  "rows_live": {
+   "P-646": "QUEUED"
+  }
+ },
+ {
+  "id": "P:653",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "GENESIS's foundation lock has never been tested as a whole (L240 (h)); its swept page of what the record lacks (g) dropped from the carry.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-653 — "
+   ]
+  ],
+  "rows": [
+   "P-653"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 71,
+  "debt_class": "added by B1833 (S300; the brainstorms re-read)",
+  "rows_live": {
+   "P-653": "QUEUED"
+  }
+ },
+ {
+  "id": "P:670",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "the F_a evaluator is wrong by a phase for Re τ ≥ 1; any banked evaluation outside the strip rests on it.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-670 — "
+   ]
+  ],
+  "rows": [
+   "P-670"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 74,
+  "debt_class": "added by B1833 (S300; the brainstorms re-read)",
+  "rows_live": {
+   "P-670": "QUEUED"
+  }
+ },
+ {
+  "id": "P:687",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B1839's census rests on the Higgs-twist class cache (checked numerically by its C1, unproved) and has no independent third opinion.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-687 — "
+   ]
+  ],
+  "rows": [
+   "P-687"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 76,
+  "debt_class": "added at S305 (the closure prepared)",
+  "rows_live": {
+   "P-687": "QUEUED"
+  }
+ },
+ {
+  "id": "P:688",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "the confirmation cards (P-585, P-638) cannot be sealed the day B1839 passes without the frozen-row instrument at the exact end, the PMNS card's owed controls and the budgets.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-688 — "
+   ]
+  ],
+  "rows": [
+   "P-688"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 75,
+  "debt_class": "added at S305 (the closure prepared)",
+  "rows_live": {
+   "P-688": "QUEUED"
+  }
+ },
+ {
+  "id": "P:698",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "frame B's B08 stays unconverted until main runs B1667's geometry at the agy lane's τ*.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-698 — "
+   ]
+  ],
+  "rows": [
+   "P-698"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 77,
+  "debt_class": "added at S305 (the closure prepared)",
+  "rows_live": {
+   "P-698": "QUEUED"
+  }
+ },
+ {
+  "id": "P:733",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "B1010's consolidation list cites B132's 'm = 1 uniquely coherent', computed under a same-handed convention whose m = 1 word is not LR.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-733 — "
+   ]
+  ],
+  "rows": [
+   "P-733"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 78,
+  "debt_class": "added at S306k (the web seat's open-book relay)",
+  "rows_live": {
+   "P-733": "QUEUED"
+  }
+ }
+]

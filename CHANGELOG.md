@@ -1,5 +1,22 @@
 # Changelog
 
+## S306n (continued) THE CLOSURE MAP (B1858; the owner's directive, P-748; the physical lane's work order, its first return) (2026-11-10)
+
+- **What it is.** One graph of the programme's dependency spine: 259 nodes and 263 edges. Every node is the record's own statement, pinned by a quote that the builder checks against its source (241 pins on main, 39 on the lanes' branches). Documentary: no science run, no held-out value read.
+- **What is there, by grade,** on the 155 nodes of the spine: 12 proved on main, 9 banked negatives, 17 proved given named premises; 11 postulates, 41 choices, 2 tagged postulates, 2 fitted inputs, 1 ansatz, 6 unstated commitments; 36 open.
+- **What is conditional.** Nothing that reads as physics is upstream-clean:
+  - the root rests on three postulates and one choice;
+  - the structural theorem rests on those, on five typed external data and on thirteen identifications;
+  - the chiral three is an index only given two tagged postulates and an open fork;
+  - the six mass ratios are a reading on 13 borrowed joints.
+- **The lanes' open items are ten missing dependencies, each under several names:** the dictionary, the dynamics, the end, the hand, the selection, the modulus, the scale, the parent, the flatness, gravity. The modulus, for one, is A01 on the scoreboard, FL-04 in the framing ledger and L04 in the lanes' input ledger.
+- **Every branch meets the hand.** The weave derives neither hand; a flat count cannot see it; the object's 2+1 matter is vector-like by theorem; and the lanes' model, by its own claim graph, has a kernel split equally between conjugate representations and paired left and right currents.
+- **Bugs.** The register's 78 open debts are nodes of the map, by class; 18 are false or stale statements in foundation or front documents.
+- **The one next unowned derivation, named before computing (P-753):** how the moves act on the lanes' three coefficient modes as the modulus varies, against the weave's triplet. Three outcomes are stated in advance.
+- **Folded in, not duplicated:** the inputs scoreboard (B1834), the framing ledger's 27 commitments (B1827), the lanes' input ledger, claim graph and completion checklist.
+- **Unreviewed by a non-author.** The physical lane is asked to review it. The map is a living file and is rebuilt at each landing (P-754).
+- 0 of 19.
+
 ## S306n THE REFETCH: three lanes harvested, main's apex error corrected, the owner's directive registered (2026-11-10)
 
 - **The owner's directive (P-748).** Every seat's work is the project's work, whoever started it. The task: harvest all of it into the repository, then pursue the parameter-free theory by an exact map of what is established, what is conditional, and where there are bugs.

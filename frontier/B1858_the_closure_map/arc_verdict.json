@@ -1,0 +1,35 @@
+{
+ "id": "B1858",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1834",
+  "B1827",
+  "B1123",
+  "B1028",
+  "B1844",
+  "B1852",
+  "B1221",
+  "B1846",
+  "B1847"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the agy lane's input ledger, claim-dependency map and model manifest (reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/ @ 5242c938; harvest row 1623): read through the mask, their entries taken at their own grade, not verified on main",
+  "the physical lane's completion checklist, progress summary and precalibration closure work order (reports/physical_bridge_2026_09_05/ @ 521e6f24; harvest rows 1624-1628): read through the mask, the fourteen duties taken as written",
+  "the web seat's firmed tube value (relays/chat1_2026-11-07_tau/ @ 195e8f1b; harvest row 1620): cited as the seat's estimate, its arithmetic reproduced, its members not recomputed"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (a process arc: the programme's dependency spine)",
+  "object": "the foundation's items, the structural theorem, the scoreboard's two frames, the framing ledger, the tau read-out and the scale card, the lanes' conditional model, and the register's open debts, as the record states them at this commit",
+  "reach": "general",
+  "hypotheses": "documentary: every node is the record's own statement, pinned by a quote the builder checks; the closure nodes' memberships and the duty edges are main's reading; the lanes' nodes carry their own ledger's grade; no science run; no held-out value read, computed or compared"
+ },
+ "claim_one_line": "THE CLOSURE MAP (the owner's directive of 2026-11-10, P-748; the physical lane's work order, its first return): 259 nodes and 263 edges, every node pinned by a quote checked against its source (241 on main, 39 on the lanes' branches at their pinned revisions; a planted wrong quote is caught); on the spine 155 claims -- 12 proved on main, 9 banked negatives, 17 proved given named premises, 11 postulates, 41 choices, 2 tagged postulates, 6 unstated commitments, 36 open -- so nothing that reads as physics is upstream-clean (the root on three postulates and a choice; the structural theorem on those, five typed data and thirteen identifications; the chiral three on two tagged postulates and an open fork; the six a reading on 13 borrowed joints); the lanes' open items are ten missing dependencies under several names each (the dictionary, the dynamics, the end, the hand, the selection, the modulus, the scale, the parent, the flatness, gravity), and every branch meets the hand, the lanes' model included (a kernel split equally between conjugate representations, paired left and right currents); 78 register debts carried as nodes; the one next unowned derivation named before computing: how the moves act on the lanes' three modes, against the weave's triplet. Unreviewed by a non-author. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}
