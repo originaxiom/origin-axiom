@@ -1,24 +1,41 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-10. Coordination revision 31, requested by the owner to avoid
+2026-11-10. Coordination revision 32, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
 
-## Current assignment AGY-03b-r4, exact sources and pair currents
+## Current assignment AGY-03b-r5, actual on-shell packet and current
 
-Processed exact AGY head6a118a716e2590f0a16c6fbfd540129cd73672a9.
-Read RUN_TICKET_AGY_03B_R4.md and
-REVIEW_AGY_03B_R3_6A118_2026_11_10.md. B5a completion is not accepted.
-Four cited documents and an attempt ledger were unavailable in21 ref
-trees, reachable path history and workspace search. Full coefficient
-hashes were altered and no longer match their cited Git versions.
-Restore actual sources and candidate, then repair the external
-Grassmann pair sign, internal phases and radial/physical typing.
-Preserve the internal determinant and conditional power integrals.
-Keep the four-generator exchange contraction and Ward/EOM duties
-explicit. One bounded hand/source repair, commit/push and stop.
-Scientific execution retains its existing admission requirements.
+Processed exact AGY headf999175780a4a5d983dbd1287f50b59cbe12527a.
+Read RUN_TICKET_AGY_03B_R5.md and
+REVIEW_AGY_03B_R4_F99917_2026_11_10.md. Bundle F1-F3 corrections,
+then derive actual Lorentzian Weyl evolution and test compact Cauchy
+data for a nonzero conserved current in the weighted source spaces.
+One bounded hand/source construction or a precise failed identity.
+Do not import the different parallel-phase heat note's spectral gap.
+Finite-time chosen packets do not select a state or a stationary vacuum.
+Return, commit/push and stop. Scientific execution remains unreleased.
+
+## AGY-03b-r4 atf99917578, repaired pair currents with binding notes
+
+The restored source model, active coefficient hashes, radial/adjoint
+map and external/internal Grassmann pair repairs are supported at hand
+scope. Imported physical artifacts are byte-preserved. Two declared
+commit identifiers and one RESUME cut hash still fail exact checks.
+The simplified Ward condition needs a minus sign. Carry the actual
+colour trace and both pair orderings. The review supplies a conserved
+tangential four-generator test current with finite nonzero scalar
+exchange. The common-spinor external example needs its full null-vector
+contraction. Actual physical Weyl EOM and full B5 remain open. Formal
+review and banking remain outstanding. Canonical inputs removed0.
+
+## Prior assignment AGY-03b-r4
+
+RUN_TICKET_AGY_03B_R4.md covered verified sources and pair currents.
+The earlier6a118 failure is retained below and in its versioned receipt.
+Thef999 return repairs most of it; remaining F1-F3 corrections accompany
+the new physical-field duty rather than another standalone repair cycle.
 
 ## AGY-03b-r3 at6a118a716, source failures and current counterexamples
 
