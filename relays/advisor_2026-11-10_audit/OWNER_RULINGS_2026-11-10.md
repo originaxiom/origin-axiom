@@ -131,6 +131,18 @@ first; the seat recommended A, the state. **The owner's word (same day, later):*
 (its §3): whether the outcome is one least-action history (A-one, a minimisation postulate and a thread result) or
 all allowed histories together (A-all, the weave rule applied to the loop, whose read-out is not yet defined).
 
+## R10 — the fork inside back-edge A
+
+**The seat's advice** (`back_edge_A/DESIGN_BACK_EDGE_A_THE_STATE.md` §3): state the claim as A-all — all allowed
+histories together are the configuration, read jointly — and use A-one, the least-action history, as the test bed,
+with everything it returns labelled a thread result. **The owner's words (same day, later):**
+
+> "advice accepted. one question, could there be other pure logic principles that could pick another history instead
+> of the least-action one?"
+
+**Ruling:** as advised. The claim "exactly one outcome" is about A-all; A-one's results carry `domain: thread`.
+The owner's question is answered in the design's §3b: yes, and on the record's own numbers they do not agree.
+
 ## The roles
 
 The owner, the same day: this seat "will serve as an advisor for cc - the banking seat"; when cc is ready the reports
