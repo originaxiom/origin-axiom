@@ -1,0 +1,16 @@
+the ground
+  golden, 1 period               b++LR             volume 2.029883  H1 Z                  symmetries 8   full group True  amphicheiral True
+  golden, 2 periods              b++LRLR           volume 4.059766  H1 Z/5 + Z            symmetries 16  full group True  amphicheiral True
+  golden, 4 periods              b++LRLRLRLR       volume 8.119533  H1 Z/3 + Z/15 + Z     symmetries 32  full group True  amphicheiral True
+one departure, closed by one golden period
+  (6)                            b++LLLLLLRLR      volume 5.586362  H1 Z/20 + Z           symmetries 4   full group True  amphicheiral False
+  (2,2,2)                        b++LLRRLLRLR      volume 8.440220  H1 Z/56 + Z           symmetries 4   full group True  amphicheiral False
+  (2,1,1,1,2)                    b++LLRLRLLRLR     volume 9.503404  H1 Z/2 + Z/48 + Z     symmetries 8   full group True  amphicheiral False
+  (2,1,2,1,2)                    b++LLRLLRLLRLR    volume 10.089682  H1 Z/136 + Z          symmetries 4   full group True  amphicheiral False
+  (2,3), not a palindrome        b++LLRRRLR        volume 6.105654  H1 Z/18 + Z           symmetries 2   full group True  amphicheiral False
+(6) closed by two golden periods
+  (6), k = 2                     b++LLLLLLRLRLR    volume 7.651807  H1 Z/56 + Z           symmetries 4   full group True  amphicheiral False
+the departure on L against the departure on R
+  b++LLLLLLRLR and b++RRRRRRLRL: isometric True; every isometry between them has cusp-map determinant [-1] (-1: orientation-reversing)
+  b++LLRRLLRLR and b++RRLLRRLRL: isometric True; every isometry between them has cusp-map determinant [-1] (-1: orientation-reversing)
+  b++LLRRRLR and b++RRLLLRL: isometric True; every isometry between them has cusp-map determinant [-1] (-1: orientation-reversing)
