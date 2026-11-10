@@ -157,6 +157,28 @@ own level counts; under the line reading it ties with (2,2,2); with more levels 
 letters; and at any single level N it picks the single run N + 1, so the content of the selection is which level
 counts. On silver and bronze the rule does not give a single run.
 
+## R12 — stress-test the principle; start with the ambiguity attack
+
+**The seat's proposal:** `principle_top_down/THE_PRINCIPLE_TOP_DOWN.md` — use the principle top-down as a forcing
+ledger, and attack it first in five ways, beginning with ambiguity (does a second, equally faithful formal statement
+generate something else). The seat asked whether to start and which seat should write the second statement.
+**The owner's word (same day, later):**
+
+> "go"
+
+**Ruling:** start. The owner named no seat, so the seat runs the first round itself with readers that have not seen
+its own statement (`principle_top_down/attack_A/`), discloses that they are instances of one model family, and
+leaves the prompts in the relay so that the owner's other seats can be given the same ones.
+
+## R13 — the gap, in the owner's words, for every seat
+
+> "a real gap exists in the program because the entire programme is an open one-way line, not a closed loop"
+
+> "i keep telling open seats too"
+
+**Ruling:** this is the owner's standing statement of the programme's gap, addressed to all seats. The seat's page
+for it, with a proposed name and a three-question test, is `ADVISOR_TO_ALL_SEATS_2026-11-10_LINE_OR_LOOP.md`.
+
 ## The roles
 
 The owner, the same day: this seat "will serve as an advisor for cc - the banking seat"; when cc is ready the reports
