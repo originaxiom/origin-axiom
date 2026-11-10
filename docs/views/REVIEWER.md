@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1566** |
-| words of findings prose | **1,335,704** |
+| research arcs with findings | **1567** |
+| words of findings prose | **1,336,381** |
 | test lock files referenced | **936** |
-| arcs carrying an authored verdict | **1566** (100.0 %) |
+| arcs carrying an authored verdict | **1567** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1075 |
+| PROVED | 1076 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1864`** (1607 words, 2 locks)  
-A SEALED FILE DOES NOT CHANGE AFTER ITS SEAL (the advisor seat's finding G2, graded critical, with G3 and G4; reproduced on main; WP-0.7): an edit of a sealed file after its seal was detected only for the files with a hand-written ledger row -- a sentence appended to the candidate's pre-registration, a sealed file deleted, and a sealed file edited with its ledger row regenerated all passed every gate, and a ledger hash changed by hand passed too; a new gate, seal-immutable, reads history: after 76a4ff388 no first-parent commit may edit, delete or move a sealed-style file under any of the four seal names; it fails closed where history cannot be read and keeps a violation visible until waived by commit and path; the ledger gate recomputes every generated row and refuses a listed file that is gone; the ledger's generator reads tracked files only and not the ledger itself, so the column 'recorded elsewhere' no longer vouches for itself or depends on the machine -- of 432 sealed files 156 have a hash that no other tracked file records, the audit's own count, where the ledger had said yes in every row; the seal-order gate reads every seal name, and thirty arcs whose rule and record were first committed together under names it had not read are entered by name on its list; the audit's planted violations are in the suite, committed in small repositories and run on the clean tree; read back over the last 300 commits the rule finds three edits of one sealed file, the candidate's declaration of ends, the end its row uses entered 75 minutes after the first declaration. Not done: the provenance gate's narrower list; one manifest with a full hash per sealed file. 0 of 19.  
-`B1864_a_sealed_file_does_not_change_after_its_seal/FINDINGS.md`
+**PROVED — `B1865`** (677 words, 3 locks)  
+THE PLANTED VIOLATIONS, RUN ON MAIN BY THE ADVISOR SEAT'S OWN SCRIPT (main at 30dd1fea7, after B1862 to B1864): the five controls caught; of the 21 planted violations the script automates, 14 still pass undetected and 7 are reported caught, where on 2026-11-07 all 21 passed; six of the seven are caught by a gate that now does the work (a committed deletion from the log, twice; an edit of a sealed file; a deleted sealed file; a ledger hash changed by hand; a seal under another name committed with its results), and the seventh, the shallow clone, is reported caught only because today the full and the shallow clone agree -- no gate says a clone is shallow; the fourteen are the rest of the enforcement package, by finding G5 to G10, G14 and L7. 0 of 19.  
+`B1865_the_planted_violations_run_on_main/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  

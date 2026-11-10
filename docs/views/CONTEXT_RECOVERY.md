@@ -13,24 +13,25 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1566 |
-| … PROVED | 1075 |
+| arcs with a verdict file | 1567 |
+| … PROVED | 1076 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 760 |
-| … QUEUED | 249 |
+| register points | 763 |
+| … QUEUED | 252 |
 | … LEAD | 4 |
 | … OWNER | 6 |
 | … DONE | 490 |
 | … DECLINED | 11 |
-| harvest rows (the last number) | 1634 |
+| harvest rows (the last number) | 1643 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1865 | PROVED | THE PLANTED VIOLATIONS, RUN ON MAIN BY THE ADVISOR SEAT'S OWN SCRIPT (main at 30dd1fea7, after B1862 to B1864): the five controls caught; of the 21 planted violations the script automates, 14 still pass undetected and 7… |
 | B1864 | PROVED | A SEALED FILE DOES NOT CHANGE AFTER ITS SEAL (the advisor seat's finding G2, graded critical, with G3 and G4; reproduced on main; WP-0.7): an edit of a sealed file after its seal was detected only for the files with a h… |
 | B1863 | PROVED | THE APPEND-ONLY GATE READS HISTORY (the advisor seat's finding G1, graded critical; reproduced on main; WP-0.7's first step): the gate compared the working file with the same file at HEAD, so a committed deletion passed… |
 | B1862 | PROVED | THE AUDIT'S FIRST CORRECTIONS (the advisor seat's findings E13, E3, L5, E4, E11, E10, E6, E8, each reproduced on main first; P-757): B567's level-165 Weil spectrum has 20 distinct eigenvalues, not 21 -- the projective o… |
@@ -42,7 +43,6 @@
 | B1856 | PROVED | CHARGE OR SYMMETRY AT FIVE (P-738, answered conditionally; the explore seat's test re-derived on main): in B355's level-5 Weil representation (projectively consistent on all 120 elements of SL(2,F5)), only +-I act as a… |
 | B1855 | PROVED | THE CHARGE LAW SETTLED (P-737): main's own result -- the law FAILS for every lcm(S) >= 12: six explicit gapped counterexamples of the explore seat satisfy the charge premise exactly with less excess than the single run… |
 | B1854 | PROVED | THE TUBE'S TAU AT k = 2, ON MAIN (P-739, in part): B1847's own mesher, driven with one setup per member, gives Im tau(Sigma_0) = 6.070 +- 0.010 on L^6R(LR)^2 (the extrapolation calibrated on k = 1 to the web seat's 6.14… |
-| B1853 | PROVED | THE DEPARTURE'S DEPTH: THE ACTION SELECTS WITHIN A PREMISE, THE PREMISE IS A CHARGE (the explore seat's two relays, verified on main's own code): among R1's 643 rung-invisible defects the least Mostow-rigid excess volum… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -58,6 +58,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306o (continued) THREE SEATS HARVESTED AGAIN; THE ADVISOR SEAT'S PLANTED-VIOLATION SCRIPT RUN ON MAIN (B1865) (2026-11-10)
 - S306o (continued) A SEALED FILE DOES NOT CHANGE AFTER ITS SEAL (B1864; the audit's second critical finding, G2, with G3) (2026-11-10)
 - S306o (continued) THE APPEND-ONLY GATE READS HISTORY (B1863; the audit's first critical finding, G1) (2026-11-10)
 - S306o (continued) THE CLOSURE PROGRAMME (B1861); THE ADVISOR SEAT'S AUDIT HARVESTED AND ITS FIRST EIGHT CORRECTIONS (B1862); GENESIS v1.64 (2026-11-10)
@@ -65,11 +66,10 @@
 - S306n (continued) WEAVE OR THREAD, ENFORCED IN THE MAP; THE LAW AND THE WEIGHT (P-755, P-756; B1858 extended) (2026-11-10)
 - S306n (continued) THE DOOR SET IS {1, 4} (B1859; a front-page claim corrected; P-318, P-618; GENESIS v1.63) (2026-11-10)
 - S306n (continued) THE CLOSURE MAP (B1858; the owner's directive, P-748; the physical lane's work order, its first return) (2026-11-10)
-- S306n THE REFETCH: three lanes harvested, main's apex error corrected, the owner's directive registered (2026-11-10)
 
 ## The latest campaign line
 
-LATEST (2026-11-10, S306o (continued): B1864 — A SEALED FILE DOES NOT CHANGE AFTER ITS SEAL (the audit's second critical finding, G2, with G3; WP-0.7): a new gate reads history and refuses any commit after 76a4ff388 that edits, deletes or moves a sealed-style file; the ledger gate recomputes every generated row; the ledger's generator reads tracked files only and not the ledger itself (432 rows; unrecorded single-commit 145; unrecorded amended 11); the audit's planted violations are in the suite; read back over 300 commits the rule finds three edits of the candidate's declaration of ends, the end its row uses entered 75 minutes after the first declaration (the factual core of the audit's V4…
+LATEST (2026-11-10, S306o (continued): three seats harvested again (rows 1635–1643; pins advisor `c6c5f12e`, chat1 `3c34dd90`, agyaudit `da5c7125`): the advisor seat's four further relayed rulings (eleven in all, awaiting the owner's confirmation, P-758), the claim stated as a closed loop (P-761), a sealed run of the founding principle as a selection rule (P-762, not verified); B1865 — that seat's planted-violation script run on today's main: 14 of 21 still pass, 6 really caught, 1 an artefact; the web seat's two relays and its sealed τ-side card (unread); the agy lane's relay on the register-to-field join, read at its head through the mask and not verified — the owner asked that it be scru…
 
 ## Completeness (nothing skipped silently)
 

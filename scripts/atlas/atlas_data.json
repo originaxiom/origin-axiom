@@ -15943,6 +15943,17 @@
    "status": "dead",
    "domain": "topology"
   },
+  "B1865": {
+   "slug": "the planted violations run on main",
+   "motifs": [],
+   "refs": [
+    "L7"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "open",
+   "domain": "dynamics"
+  },
   "B186": {
    "slug": "hyperbolicity certification",
    "motifs": [
