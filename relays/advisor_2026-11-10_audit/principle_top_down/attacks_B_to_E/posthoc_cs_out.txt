@@ -1,0 +1,16 @@
+post hoc: the run of 6 followed by k more periods of the ground; Chern-Simons reduced modulo 1/2; volume less k+1 periods' volume
+   k = 0   CS -0.065896515   step    -      volume 3.377597   volume - (k+1) x ground 1.347714
+   k = 1   CS -0.073598024   step -7.70e-03   volume 5.586362   volume - (k+1) x ground 1.526595
+   k = 2   CS -0.075187227   step -1.59e-03   volume 7.651807   volume - (k+1) x ground 1.562157
+   k = 3   CS -0.075521208   step -3.34e-04   volume 9.689043   volume - (k+1) x ground 1.569510
+   k = 4   CS -0.075591150   step -6.99e-05   volume 11.720458   volume - (k+1) x ground 1.571042
+   k = 5   CS -0.075605763   step -1.46e-05   volume 13.750661   volume - (k+1) x ground 1.571362
+   k = 6   CS -0.075608814   step -3.05e-06   volume 15.780611   volume - (k+1) x ground 1.571429
+   k = 7   CS -0.075609451   step -6.37e-07   volume 17.810508   volume - (k+1) x ground 1.571443
+   k = 8   CS -0.075609584   step -1.33e-07   volume 19.840394   volume - (k+1) x ground 1.571445
+   (2,2,2) k = 0   CS -0.021413138   step    -   
+   (2,2,2) k = 1   CS -0.021764563   step -3.51e-04
+   (2,2,2) k = 2   CS -0.021839591   step -7.50e-05
+   (2,2,2) k = 3   CS -0.021855352   step -1.58e-05
+   (2,2,2) k = 4   CS -0.021858647   step -3.30e-06
+   (2,2,2) k = 5   CS -0.021859335   step -6.88e-07

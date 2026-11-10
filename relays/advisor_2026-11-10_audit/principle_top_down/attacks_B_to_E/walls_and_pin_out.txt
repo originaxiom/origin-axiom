@@ -1,0 +1,47 @@
+controls passed: b++LR is m004; b-+L is m000, non-orientable, with m004 as its orientation cover
+
+H14, H15  THE GROUND AND ITS FIRST DEPARTURES: own mirror image?  Chern-Simons invariant (defined modulo 1/2)
+    history (runs)         word             volume     symm.     own mirror   Chern-Simons, reduced
+    ground, 1 period       LR               2.029883   8         True         -0.000000000
+       its letter-swap                      2.029883                          -0.000000000
+    ground, 2 periods      LRLR             4.059766   16        True         -0.000000000
+       its letter-swap                      4.059766                          -0.000000000
+    ground, 3 periods      LRLRLR           6.089650   24        True         -0.000000000
+       its letter-swap                      6.089650                          -0.000000000
+    run of 6, 1 more       LLLLLLRLR        5.586362   4         False        -0.073598024
+       its letter-swap                      5.586362                          +0.073598024
+    run of 6, 2 more       LLLLLLRLRLR      7.651807   4         False        -0.075187227
+       its letter-swap                      7.651807                          +0.075187227
+    run of 6, 3 more       LLLLLLRLRLRLR    9.689043   4         False        -0.075521208
+       its letter-swap                      9.689043                          +0.075521208
+    (2,2,2), 1 more        LLRRLLRLR        8.440220   4         False        -0.021764563
+       its letter-swap                      8.440220                          +0.021764563
+    (2,2,2), 2 more        LLRRLLRLRLR      10.476971  4         False        -0.021839591
+       its letter-swap                      10.476971                         +0.021839591
+    (2,1,1,1,2)            LLRLRLLRLR       9.503404   8         False        -0.043237413
+       its letter-swap                      9.503404                          +0.043237413
+    (2,3) not a palindrome LLRRRLR          6.105654   2         False        +0.019604318
+       its letter-swap                      6.105654                          -0.019604318
+    a history's value plus its swap's, reduced modulo 1/2: {'ground, 1 period': '2.22e-16', 'ground, 2 periods': '5.55e-16', 'ground, 3 periods': '1.05e-15', 'run of 6, 1 more': '3.75e-16', 'run of 6, 2 more': '5.55e-17', 'run of 6, 3 more': '3.75e-16', '(2,2,2), 1 more': '2.78e-16', '(2,2,2), 2 more': '5.55e-16', '(2,1,1,1,2)': '1.11e-16', '(2,3) not a palindrome': '3.33e-16'}
+
+H16  HISTORIES WITH AN ODD NUMBER OF RUNS (no hand): what stands in place of a spin structure
+    A spin structure on the fibre is one of four quadratic forms on its mod-2 homology; three are even, one is odd.
+    A structure on the bundle restricts to a form the history keeps. kept = how many of the four the history keeps.
+    runs (1,)           orientable False H1 Z              kept 1   H^1(bundle; Z/2) has 2 elements   Chern-Simons: not defined (Manifold is not oriented)
+    runs (2,)           orientable False H1 Z/2 + Z        kept 2   H^1(bundle; Z/2) has 4 elements   Chern-Simons: not defined (Manifold is not oriented)
+    runs (1, 1, 1)      orientable False H1 Z/2 + Z/2 + Z  kept 4   H^1(bundle; Z/2) has 8 elements   Chern-Simons: not defined (Manifold is not oriented)
+    runs (3,)           orientable False H1 Z/3 + Z        kept 1   H^1(bundle; Z/2) has 2 elements   Chern-Simons: not defined (Manifold is not oriented)
+    runs (1, 1, 2)      orientable False H1 Z/6 + Z        kept 2   H^1(bundle; Z/2) has 4 elements   Chern-Simons: not defined (Manifold is not oriented)
+    runs (4,)           orientable False H1 Z/4 + Z        kept 2   H^1(bundle; Z/2) has 4 elements   Chern-Simons: not defined (Manifold is not oriented)
+    runs (1, 1, 1, 1, 1) orientable False H1 Z/11 + Z       kept 1   H^1(bundle; Z/2) has 2 elements   Chern-Simons: not defined (Manifold is not oriented)
+    runs (1, 1, 3)      orientable False H1 Z/2 + Z/4 + Z  kept 4   H^1(bundle; Z/2) has 8 elements   Chern-Simons: not defined (Manifold is not oriented)
+    runs (1, 2, 2)      orientable False H1 Z/9 + Z        kept 1   H^1(bundle; Z/2) has 2 elements   Chern-Simons: not defined (Manifold is not oriented)
+    runs (5,)           orientable False H1 Z/5 + Z        kept 1   H^1(bundle; Z/2) has 2 elements   Chern-Simons: not defined (Manifold is not oriented)
+    runs (1, 1, 1, 1, 2) orientable False H1 Z/16 + Z       kept 2   H^1(bundle; Z/2) has 4 elements   Chern-Simons: not defined (Manifold is not oriented)
+    runs (1, 1, 4)      orientable False H1 Z/10 + Z       kept 2   H^1(bundle; Z/2) has 4 elements   Chern-Simons: not defined (Manifold is not oriented)
+    runs (1, 2, 3)      orientable False H1 Z/12 + Z       kept 2   H^1(bundle; Z/2) has 4 elements   Chern-Simons: not defined (Manifold is not oriented)
+    runs (1, 3, 2)      orientable False H1 Z/12 + Z       kept 2   H^1(bundle; Z/2) has 4 elements   Chern-Simons: not defined (Manifold is not oriented)
+    histories checked (to 6 letters, an odd number of runs): 16; none orientable: True; 2 x kept = |H^1(Z/2)| on 16 of 16
+    Chern-Simons defined on none of them: True
+    control on two-act histories (spin structures): (runs, kept, |H^1(Z/2)|): [((1, 1), 1, 2), ((2, 1), 2, 4), ((2, 2), 4, 8), ((3, 1), 1, 2), ((6, 1, 1, 1), 2, 4), ((2, 2, 2, 1), 2, 4)]
+    the tick alone keeps 1 form(s): the odd one only; L.R keeps 1

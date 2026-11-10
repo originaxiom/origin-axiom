@@ -1,0 +1,28 @@
+H11  THE GROUP OF THE ACTS AT LEVEL N: the two acts (L, R); with the exchange (L, R, P)
+     N | two acts | with exchange | two acts up to scalars | with exchange up to scalars | scalars inside (with exchange) | -1 a square mod N
+     2 |        6 |             6 |                      6 |                           6 | [1]                            | True   <- up to scalars the exchange adds nothing
+     3 |       24 |            48 |                     12 |                          24 | [1, 2]                         | False
+     4 |       48 |            96 |                     24 |                          48 | [1, 3]                         | False
+     5 |      120 |           240 |                     60 |                          60 | [1, 2, 3, 4]                   | True   <- up to scalars the exchange adds nothing
+     7 |      336 |           672 |                    168 |                         336 | [1, 6]                         | False
+     8 |      384 |           768 |                     96 |                         192 | [1, 3, 5, 7]                   | False
+     9 |      648 |          1296 |                    324 |                         648 | [1, 8]                         | False
+    11 |     1320 |          2640 |                    660 |                        1320 | [1, 10]                        | False
+    13 |     2184 |          4368 |                   1092 |                        1092 | [1, 5, 8, 12]                  | True   <- up to scalars the exchange adds nothing
+
+H12, H13  AT LEVEL 5
+    the centre of the group with the exchange: [(1, 0, 0, 1), (2, 0, 0, 2), (3, 0, 0, 3), (4, 0, 0, 4)]
+    F = 3.U with U = (2, 2, 2, 0) (3.U = (1, 1, 1, 0), F = (1, 1, 1, 0)); (U - I)^2 = (0, 0, 0, 0) mod 5; order of F: 20, of L.R: 10
+    the mark v = (1,2): L.R v = (4, 3) = 4.v; F v = (3, 1) = 3.v; F^2 v = (4, 3)
+    non-zero vectors kept up to sign by L.R: 4; by F: 0.   kept up to any scalar by L.R: 4; by F: 4
+
+H12  EVERY DEPARTURE WITH AT MOST 14 LETTERS, written with two acts and with the tick
+    departures enumerated: 4096;  E written with the tick differs from E written with two acts: 0 times
+    charge+                         35 allowed; least 6 letters: [(6,)]; next: (11, (2, 1, 1, 1, 1, 5))
+    charge+-                        50 allowed; least 6 letters: [(6,)]; next: (10, (2, 2, 1, 5))
+    scalar 2 or 3                none
+    line, against L.R              330 allowed; least 6 letters: [(2, 2, 2), (6,)]; next: (7, (2, 1, 1, 1, 2))
+    line, against F                330 allowed; least 6 letters: [(2, 2, 2), (6,)]; next: (7, (2, 1, 1, 1, 2))
+    a scalar times a power of F    330 allowed; least 6 letters: [(2, 2, 2), (6,)]; next: (7, (2, 1, 1, 1, 2))
+    the line reading gives the same departures against L.R and against F: True
+    the line reading is 'a scalar times a power of F': True

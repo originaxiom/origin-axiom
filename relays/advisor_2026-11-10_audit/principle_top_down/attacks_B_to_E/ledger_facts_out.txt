@@ -1,0 +1,64 @@
+controls passed: F.F = L.R; P.P = I; G(c1)G(c2) = L^c1 R^c2; P.F.P = F'
+
+H1  THE ACTS: non-negative integer matrices of determinant +1 or -1
+    entries at most 8: 174 matrices; of finite order: [('P', 2), ('I', 1)]
+    with I and P removed, the matrices that are not a product of two others: ['F', "F'", 'L', 'R']
+    the same with determinant +1 only: ['L', 'R']
+    the four: L trace 2 det 1; R trace 2 det 1; F trace 1 det -1; F' trace 1 det -1; P.F.P = F': True
+    discriminant tr^2 - 4 det: L 0, R 0, F 5, F' 5 (zero: a rational fixed direction; 5: none)
+
+H2  THE GRAMMARS: how many different acts do the words of n letters make?
+    L, R (the two acts; control: free)   words/acts at n=1..14: 2/2 4/4 8/8 16/16 32/32 64/64 ...
+                                         FREE to 14 letters (every word a different act)
+    L, F (add; add and exchange)         words/acts at n=1..14: 2/2 4/4 8/8 16/16 32/32 64/64 ...
+                                         FREE to 14 letters (every word a different act)
+    L, R, F                              words/acts at n=1..8: 3/3 9/7 27/15 81/31 243/63 729/127 ...
+                                         NOT free: first coincidence at 2 letters: LF = FR
+    L, R, F, F'                          words/acts at n=1..6: 4/4 16/8 64/16 256/32 1024/64 4096/128
+                                         NOT free: first coincidence at 2 letters: LG = FL  (G stands for F')
+    relations checked directly: F.R = L.F: True;  F.L = R.F: False;  F.F' = L.L: True;  F'.F = R.R: True;  F.L = L.F': True
+    R among the acts of L and F with at most 8 letters: False;  P among them: False;  F' among them: False
+
+H3  HISTORIES IN THE GRAMMAR OF L AND F: primitive cyclic words, not all L
+    n = 1..10   all: [1, 1, 2, 3, 6, 9, 18, 30, 56, 99]
+                an odd number of F: [1, 1, 1, 2, 3, 5, 9, 16, 28, 51]
+                an even number of F: [0, 0, 1, 1, 3, 4, 9, 14, 28, 48]
+    two-act histories (primitive cyclic words in L, R with both letters), n = 1..10: [0, 1, 2, 3, 6, 9, 18, 30, 56, 99]
+    to 8 letters: 32 words with an even number of F; each is a two-act word and its letter-swap (failures of that: 0);
+                  32 give two different two-act words, 0 give one
+    two-act histories to 8 letters: 69; reached from those words: 64; not reached: ['LR', 'LLRR', 'LLLRRR', 'LLLLRRRR', 'LLRLRRLR']
+    of those not reached, a history of an odd number of runs done twice: 5 of 5
+
+THE LEDGER BY TRACE: every cyclic run sequence with trace at most 60
+    run sequences visited with trace at most 60: 1556
+    controls: trace 3: ['LR']; trace 4: ['LLR', 'LRR']; trace 6: ['LLLLR', 'LLRR', 'LRRRR']; trace 7: ['LLLLLR', 'LRLR', 'LRRRRR']
+    two-act histories of trace t, t = 3..20:                 [1, 2, 2, 3, 3, 4, 2, 6, 3, 4, 4, 8, 4, 6, 4, 8, 4, 10]
+    counting a history and its letter-swap once, t = 3..20:  [1, 1, 1, 2, 2, 2, 1, 3, 2, 2, 2, 4, 2, 3, 2, 5, 2, 5]
+    counting also a history and its reverse once, t = 3..20: [1, 1, 1, 2, 2, 2, 1, 3, 2, 2, 2, 4, 2, 3, 2, 5, 2, 4]
+
+H5  A HISTORY ALONE AT ITS TRACE (traces 3 to 60)
+    exactly one two-act history:                          t = [3]
+    exactly one, counting a history and its swap once:    t = [3, 4, 5, 9, 21]
+    exactly one, counting swap and reverse once:          t = [3, 4, 5, 9, 21]
+
+H4, H6, H7, H8  EVERY HISTORY AS A GROUND, THE RECORD'S RULE: level N = trace + 2; M' is not detected when trace(M') = +2 or -2 mod N
+    H4  pairs of different traces not detected by each other: 0 []
+        ordered pairs (ground, other trace) with the other not detected: 208 of 3306
+    H6  traces that no other trace's level fails to detect (departures of nothing): [3, 4, 5, 6]
+        histories at those traces: {3: ['LR'], 4: ['LLR', 'LRR'], 5: ['LLLR', 'LRRR'], 6: ['LLLLR', 'LLRR', 'LRRRR']}
+    H7  chains a -> b -> c with c detected by a: 209; the first: [(3, 7, 11), (3, 7, 16), (3, 7, 20)]
+    H8  not detected by the golden ground itself (trace 3, level 5): 23 of the 58 traces: [3, 7, 8, 12, 13, 17, 18, 22, 23, 27, 28, 32] ...
+        reached from trace 3 by chains: 52 of 58; not reached: [4, 5, 6, 9, 10, 14]
+
+H9  THE SAME BY PRIMES: the primes of the discriminant trace^2 - 4; M' is not detected when it has every prime of the ground
+    traces 3 to 200000 whose discriminant has ONE prime: [3, 6]  (discriminants [5, 32])
+    traces 3 to 60 with no trace up to 200000 whose primes are a proper part of theirs: 17: [3, 5, 6, 9, 11, 15, 21, 25, 29, 31, 35, 39, 45, 49, 51, 55, 59]
+    examples that are not minimal: [(4, [2, 3], [([2], [6])]), (7, [3, 5], [([5], [3])]), (8, [2, 3, 5], [([2], [6]), ([5], [3])]), (10, [2, 3], [([2], [6])]), (12, [2, 5, 7], [([2], [6]), ([5], [3])])]
+    the golden ground (prime 5): traces not detected are those with 5 | t^2 - 4: [3, 7, 8, 12, 13, 17, 18, 22, 23, 27] ...; same as the record's rule at level 5: True
+    traces with the same primes (each not detected by the other), first few groups of more than one: [([2, 3], [4, 10, 14, 34]), ([2, 3, 5], [8, 22, 38, 52]), ([2, 3, 7], [16, 26]), ([2, 3, 11], [20, 46]), ([3, 5, 7], [23, 47])]
+
+H10  HISTORIES WITH AN ODD NUMBER OF RUNS (determinant -1), by trace s; the level is s^2 + 4
+    number of such histories of trace s, s = 1..20: [1, 1, 1, 2, 1, 2, 1, 2, 2, 2, 2, 4, 1, 3, 3, 4, 1, 4, 2, 4]
+    s = 1: [(1,)] (the tick alone); alone at its trace: s = [1, 2, 3, 5, 7, 13, 17]
+    s^2 + 4 a power of one prime, s = 1..60: [(1, 5), (2, 8), (3, 13), (5, 29), (7, 53), (11, 125), (13, 173), (15, 229), (17, 293), (27, 733), (33, 1093), (35, 1229), (37, 1373), (45, 2029), (47, 2213), (57, 3253)]
+    -1 is a square modulo s^2 + 4 for every odd s (s = 2c gives c^2 = -1): checked s = 1..60 odd: True
