@@ -18,13 +18,13 @@
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 744 |
-| … QUEUED | 238 |
+| register points | 752 |
+| … QUEUED | 244 |
 | … LEAD | 4 |
 | … OWNER | 4 |
-| … DONE | 487 |
+| … DONE | 489 |
 | … DECLINED | 11 |
-| harvest rows (the last number) | 1617 |
+| harvest rows (the last number) | 1628 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306n THE REFETCH: three lanes harvested, main's apex error corrected, the owner's directive registered (2026-11-10)
 - S306m (continued) THE READ-OUT BY A STATE (B1857; the explore seat, row 1617) (2026-11-07)
 - S306m (continued) THE TUBE'S τ AT k = 2, ON MAIN (B1854; P-739 in part) (2026-11-07)
 - S306m (continued) CHARGE OR SYMMETRY AT FIVE (B1856; P-738 answered, conditionally) (2026-11-07)
@@ -63,11 +64,10 @@
 - S306m THE τ READ-OUT RULE (P-714's construction ruled); B1852's PER-CENTRE RULE (P-740 sharpened); P-739 RUNNING (2026-11-07)
 - S306l TWO SEATS HARVESTED: THE DEPARTURE'S DEPTH IS A CHARGE PREMISE (B1853; the explore seat, registered); THE TUBE'S τ TOWARD k → ∞ (the web seat) (2026-11-07)
 - S306k (continued) THE TUBE'S REAL PART, BY TOPOLOGY (B1852): THE METRIC'S OWN τ AT THE TUBE IS 0 + 6.15(15) i (2026-11-07)
-- S306k THE SEATS FETCHED: THE CHIRAL PREMISE RELOCATED, VERIFIED; THE OPEN-BOOK SCALE CARD RULED NOT SEALABLE (B1851; rows 1609–1611) (2026-11-07)
 
 ## The latest campaign line
 
-LATEST (2026-11-07, S306m (continued): B1857 — the read-out by a state (the explore seat): the lightest state sits at the apex in the flat-fibre (Sol) model; by length (2,1,2,1,2), by volume with uniqueness (6) (post hoc); on a chosen clock, so its hyperbolic analogue is owed (P-744). 0 of 19.)
+LATEST (2026-11-10, S306n: the refetch — three lanes harvested (rows 1618–1628, 107 relay names rowed); main's apex error corrected (L⁶RLR's apex is √(40/3)·i at Re 0; P-751, the web seat's catch); the τ rule's framing ruled the one counted choice, four choices remain; the agy lane's Theorem B verified and B1221's addendum corrected (P-604 DONE; the kernel is ℤ₆ only at k = 1); the owner's directive registered as the next work: harvest all, then the exact map (P-748; P-745 to P-752). 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 

@@ -22,9 +22,9 @@ nothing in this block is typed by hand.*
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.62) of 2026-11-05 |
 | arcs with a verdict | 1559: 1068 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 744: 246 open (queued, leads, waiting for the owner), 498 closed |
+| points in the register | 752: 252 open (queued, leads, waiting for the owner), 500 closed |
 | the last review | Review 76 (2026-11-06), anchor `1eb535ecd` |
-| the last landing | S306m (continued) THE READ-OUT BY A STATE (B1857; the explore seat, row 1617) (2026-11-07) |
+| the last landing | S306n THE REFETCH: three lanes harvested, main's apex error corrected, the owner's directive registered (2026-11-10) |
 <!-- STATE:END -->
 
 ## Start here

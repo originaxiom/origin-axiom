@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1559** |
-| words of findings prose | **1,321,354** |
+| words of findings prose | **1,322,531** |
 | test lock files referenced | **933** |
 | arcs carrying an authored verdict | **1559** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
