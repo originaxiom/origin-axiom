@@ -9,8 +9,7 @@ The owner's words, verbatim (2026-11-10, to this seat):
 > now with all the resemblemblence on the physics we observe, that governance rule is outdated. now our only goal is
 > that - full top"
 
-The seat reads "full top" as "full ToE", from the owner's earlier sentence the same day: "the current goal is 'a
-patemeter free theory of everything'". cc to confirm the reading.
+The owner corrected the last word the same hour: "toe". The sentence reads "our only goal is that - full ToE".
 
 ## R1 — the goal
 
