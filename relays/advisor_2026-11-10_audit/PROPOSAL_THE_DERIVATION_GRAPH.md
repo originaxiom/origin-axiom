@@ -1,6 +1,7 @@
 # PROPOSAL — the count as an output: one derivation graph from the principle to the values
 
-**From:** the advisor seat. **To:** cc and the owner. **Kind:** `propose:` — nothing here is a `go`.
+**From:** the advisor seat. **To:** cc and the owner. **Kind:** `propose:`. The owner agreed to it on 2026-11-10
+(`OWNER_RULINGS_2026-11-10.md`, R5); cc confirms with the owner and may `challenge:` the design.
 **Origin:** the owner's question of 2026-11-10: "0-19 is also put by hand, not through any gates nor its dynamical …
 if were creating a table of interactions and mapping everything that has to come from foundational principle all the
 way to the values, each node and calculation, should it automatically reflect the 0-19 claim (what if its more than
@@ -64,7 +65,7 @@ The owner's "what if its more than 19 in our math" is the important case. 19 is 
   dimensionless parameters (the 19th is the unit, which no parameter-free theory derives); tier 2, the neutrino
   sector (three masses, three angles, one to three phases); tier 3, gravity and cosmology (the scale against the
   Planck mass, the cosmological constant). Under the owner's ruling of one self-consistent outcome, a theory of
-  everything owes all three tiers. **Which tiers the headline counts is the owner's decision.**
+  everything owes all three tiers. **The owner's decision (2026-11-10): the headline reports tier 1, with tiers 2 and 3 beside it.**
 - **The output list** is whatever the graph's output nodes are. It may be longer or shorter than the target list.
 
 Every pair then falls in one of four cells, and the headline is the four counts:

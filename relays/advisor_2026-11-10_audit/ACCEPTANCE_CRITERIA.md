@@ -148,6 +148,16 @@ generated file, and the seal is refused without it.
 | X3 | The foundation's input count is computed from `GENESIS.md`'s statuses; the certificate script passes and is run by the suite. |
 | X4 | Covered by W-a. |
 
+## 9b. The count as an output (`PROPOSAL_THE_DERIVATION_GRAPH.md`; the owner agreed 2026-11-10)
+
+| Item | Accepted when |
+|---|---|
+| DG-a | The headline count in `README.md`, `docs/views/CONTEXT_RECOVERY.md` and the scoreboard line is printed from one graph file by a generator. No typed sentence or typed field feeds it. |
+| DG-b | A value's status (derived / conditional / fitted / unverified) is computed from its ancestry; the conditional list is printed with the value. |
+| DG-c | The target list is a frozen tracked file with source, value, uncertainty, scale and scheme per row, in three tiers; the headline reports tier 1 with tiers 2 and 3 beside it. |
+| DG-d | The four counts are printed: confirmed, refuted, predictions registered, not reached. |
+| DG-e | The planted changes DG1–DG6 of the proposal's section 7 each give the stated result, in an automated test. |
+
 ## 10. Reproducibility
 
 | Finding | Accepted when |

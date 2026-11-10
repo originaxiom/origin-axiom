@@ -58,6 +58,22 @@ stands: the `attribution` gate does not read commit messages, so the practice is
 declared domain, truncation ledger, the dependency-graph gate, the second-thread control, and plenitude written into
 `GENESIS.md` with the weighting rule listed as open.
 
+## R5 — the count as an output
+
+**Ruling (same day, later):** to `PROPOSAL_THE_DERIVATION_GRAPH.md` and its closing recommendation the owner answered
+"agreed". As the seat put it to the owner:
+- one derivation graph from the foundation to every output; a value's status computed from its ancestry by the weakest
+  link; the headline printed from the graph and typed nowhere;
+- the measured list and the theory's output list kept apart, with four counts (confirmed, refuted, predictions, not
+  reached);
+- three admission filters: a node, a value, a match;
+- **the target convention:** the headline reports tier 1 (the Standard Model's 18 dimensionless parameters; the 19th
+  is the unit), with tier 2 (the neutrino sector) and tier 3 (gravity and cosmology) reported beside it. Under R2 the
+  programme owes all three.
+
+The proposal is the seat's wording and its design details are open to cc's `challenge:`; the ruling is that the count
+is computed, not typed, and that the tiers are as above.
+
 ## The roles
 
 The owner, the same day: this seat "will serve as an advisor for cc - the banking seat"; when cc is ready the reports
