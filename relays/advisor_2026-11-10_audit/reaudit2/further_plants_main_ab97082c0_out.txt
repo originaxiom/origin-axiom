@@ -1,0 +1,51 @@
+a1   NOT CAUGHT  rewrite one line inside an archive of the log (docs/progress/PROGRESS_2026-Q2.md), commit
+       append-only            PASS  HEAD prefix preserved; 7 commit(s) since f31729801, each an append
+       expected by the seat before running: not caught
+a2   NOT CAUGHT  delete 200 lines of the log, then in the next commit add that commit to the gate's own waiver list
+       append-only            PASS  HEAD prefix preserved; 8 commit(s) since f31729801, each an append
+       expected by the seat before running: not caught, and the passing message does not mention the waiver
+a4   CAUGHT      the deletion made on a side branch and merged into the first-parent line
+       append-only            FAIL  6254f1fa0 changes or removes earlier text of PROGRESS_LOG.md (roll-up: removed prefix archived verbatim: False)
+       expected by the seat before running: caught
+
+(B1841's ARTIFACT_HASHES.txt lists 21 files; the instrument planted on: verification/census.py)
+s1   NOT CAUGHT  edit a script that the candidate's seal hashed (census.py), commit
+       seal-immutable         PASS  ok (0 commit(s) since 76a4ff388 touch a sealed-style file, each only adding one)
+       seal-digests           PASS  ok (46 sealed digests recomputed and matching)
+       seal-ledger-current    PASS  ok (432 sealed files listed, each row's hash recomputed)
+       seal-provenance        PASS  ok (every seal from B995 on carries the two halves, is attested with quotes, or is one of the 35 frozen before B1464)
+       seal-order-unshown     PASS  ok (109 listed, at most 109; B1670's order shown off main)
+       expected by the seat before running: not caught
+s2   NOT CAUGHT  edit the candidate's PRE_RUN_NOTE.md, which holds the rule its two looks are read by, commit
+       seal-immutable         PASS  ok (0 commit(s) since 76a4ff388 touch a sealed-style file, each only adding one)
+       seal-digests           PASS  ok (46 sealed digests recomputed and matching)
+       seal-ledger-current    PASS  ok (432 sealed files listed, each row's hash recomputed)
+       seal-provenance        PASS  ok (every seal from B995 on carries the two halves, is attested with quotes, or is one of the 35 frozen before B1464)
+       seal-order-unshown     PASS  ok (109 listed, at most 109; B1670's order shown off main)
+       expected by the seat before running: not caught
+s3   NOT CAUGHT  edit a sealed-style file one folder below its arc's top level (frontier/B1296_the_charge_locus_parity_lock/verification/DESIGN.md), commit
+       seal-immutable         PASS  ok (0 commit(s) since 76a4ff388 touch a sealed-style file, each only adding one)
+       seal-digests           PASS  ok (46 sealed digests recomputed and matching)
+       seal-ledger-current    PASS  ok (432 sealed files listed, each row's hash recomputed)
+       seal-provenance        PASS  ok (every seal from B995 on carries the two halves, is attested with quotes, or is one of the 35 frozen before B1464)
+       seal-order-unshown     PASS  ok (109 listed, at most 109; B1670's order shown off main)
+       expected by the seat before running: not caught
+s4   NOT CAUGHT  a new arc whose results are committed first and whose PREREGISTRATION.md is committed afterwards
+       seal-order-unshown     PASS  ok (109 listed, at most 109; B1670's order shown off main)
+       seal-immutable         PASS  ok (1 commit(s) since 76a4ff388 touch a sealed-style file, each only adding one)
+       expected by the seat before running: not caught
+s5   NOT CAUGHT  append a criterion to the candidate's sealed file, then in the next commit add a waiver for it to the gate's own list
+       seal-immutable         PASS  ok (1 commit(s) since 76a4ff388 touch a sealed-style file, each only adding one)
+       expected by the seat before running: not caught, and the passing message does not mention the waiver
+p1   CAUGHT      a lock that reads HERE / 'driver_k1.log', a file git ignores
+       tracked-deps           FAIL  1 untracked-but-referenced path(s): frontier/B1857_the_read_out_by_a_state_checked/verification/driver_k1.log <- frontier/B1857_the_read_out_by_a_stat
+       expected by the seat before running: caught (main says this form is now refused)
+p2   NOT CAUGHT  the same, with the ignored name built in two steps
+       tracked-deps           PASS  ok
+       expected by the seat before running: not caught
+p3   CAUGHT      a lock that reads every *.log beside it by a glob (and passes when there is none)
+       tracked-deps           FAIL  1 untracked-but-referenced path(s): frontier/B1857_the_read_out_by_a_state_checked/verification/*.log <- frontier/B1857_the_read_out_by_a_state_checke
+       test-vacuity           PASS  ok (6401 tests, 0 vacuous; 97 both-literal for review)
+       expected by the seat before running: not caught
+
+clone reset to ab97082c0 | clean: True
