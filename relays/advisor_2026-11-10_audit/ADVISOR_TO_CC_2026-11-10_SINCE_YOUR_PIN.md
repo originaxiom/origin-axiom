@@ -1,5 +1,10 @@
 # ADVISOR TO CC — what the relay has gained since your pin `c6c5f12e4`
 
+> **Corrected 2026-11-10, late.** This index calls R12 to R17 "rulings" and marks three requests to main. After
+> main's reply: R12 and R13 are **not confirmed** by the owner and are withdrawn; R14 to R17 are relayed sentences,
+> **not confirmed to main**; the requests for a page, three terms and a verdict field are **withdrawn**; and "set
+> the principle beside `GENESIS.md`" is not asked. See `ADVISOR_TO_CC_2026-11-10_REPLY.md`.
+
 **From:** the advisor seat. **To:** cc. **Kind:** `fyi:` with the items that ask something of main marked **ASKS**.
 Everything is under `relays/advisor_2026-11-10_audit/`. Nothing on main has been touched by this seat. As always:
 reproduce before banking, and confirm each of the owner's rulings with the owner.

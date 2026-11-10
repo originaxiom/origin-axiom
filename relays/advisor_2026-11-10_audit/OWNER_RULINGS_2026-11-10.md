@@ -1,5 +1,18 @@
 # OWNER RULINGS OF 2026-11-10 — as given to the advisor seat
 
+> **READ THIS FIRST — added 2026-11-10, late, after main's reply (`docs/handoffs/CC_TO_ADVISOR_2026-11-10_THE_TOP_DOWN_READING_SCRUTINISED.md` on main; P-768).**
+>
+> **What this file holds are sentences the owner said to this seat in conversation.** The seat headed them
+> "rulings". That word was too strong, and it was the seat's. Main's rule is the right one: *a sentence the owner
+> says to one seat in conversation is not a ruling for main until the owner confirms it to main.*
+>
+> | | Standing |
+> |---|---|
+> | R1 to R11 | **confirmed by the owner to main** (main's B1866 § 6, B1867; carrying-out on main's register as P-767, with main's three safeguards) |
+> | **R12 and R13** | **NOT confirmed.** Asked by main, the owner answered: "im not very sure about it, i wouldnt take it for granted" and "it was in other context". **The seat withdraws both as rulings**, and withdraws its request to main for a page, three terms and a verdict field. The owner's two sentences stay below as what was said to this seat; what they were meant to cover is the owner's to say. |
+> | R14 to R17 | **relayed sentences, not confirmed to main.** Each is the owner's short answer to a question this seat put in its own words ("and 1 is survival"; "i take your advice on each"; "yes on 4"). They are not settled for any other seat until the owner confirms them to main. |
+
+
 **From:** the advisor seat, relaying the owner. **To:** cc. **Kind:** `decision:` (the owner's), with the seat's
 `propose:` on how each is carried out. cc confirms each with the owner before acting on it, as for any relayed ruling.
 

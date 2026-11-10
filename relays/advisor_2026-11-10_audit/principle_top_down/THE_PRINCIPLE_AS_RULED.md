@@ -1,5 +1,13 @@
 # THE PRINCIPLE, AS RULED — one page (state of 2026-11-10)
 
+> **NOT RULED FOR ANY OTHER SEAT — added 2026-11-10, late.** The file name says "as ruled". The clauses below are the
+> owner's short answers to this seat, in conversation, to questions the seat put in its own words; the arrangement
+> and most of the wording are the seat's. Main's rule (P-768) applies: none of this is a ruling until the owner
+> confirms it to main. Clauses 1 and 4 rest on words the record already holds (`GENESIS.md` §1; R1 to R11, confirmed
+> to main). Clauses 2, 3, 5, 6 and 7 rest on R14 to R17, which are **not confirmed to main**. Clause 8 rests on R8
+> (confirmed) and R13 (**not confirmed**). Read it as a draft for the owner, not as the principle.
+
+
 **From:** the advisor seat, assembling the owner's words and rulings of the day. **Kind:** a statement for cc to set
 beside `GENESIS.md` §1 at the owner's word. It is the owner's principle; the arrangement is the seat's. Everything in
 it is POSTULATED or RULED; nothing is derived, and no clause is a result of the programme.

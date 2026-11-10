@@ -49,6 +49,22 @@ something else.
 
 ## 3. Using it top-down: the forcing ledger
 
+> **Main's three objections to this ledger, accepted (added 2026-11-10, late; main's B1867, P-764).** Each was
+> exhibited in integers on main, and each is right:
+> 1. **GM3's row.** The statement v0 removes finite order. It does not remove a fixed direction: a single shear never
+>    becomes the identity. "A fixed direction is a side that never changes" is an added clause, not a consequence.
+> 2. **GM4's row.** Not commuting does not give free: in the integer Heisenberg group two generators do not commute
+>    and their commutator commutes with both. The row needs "nothing at all is cancelled", which v0 does not say.
+> 3. **SE1's row.** The row excludes an act that fixes a character. The same relation is what selects a departure in
+>    v0 — the level cannot tell it from the ground. The run of 6 fixes 20 characters, and every word but LR fixes at
+>    least 2. As an exclusion the row removes every departure; as a minimum it is the reading `GENESIS.md` already
+>    grades an interpretation. One relation, two verdicts, at two layers.
+>
+> **So none of the three rows is "argued FORCED" as written.** Each is "argued, one clause short". The seat's
+> expectation that the principle would be found one clause short at the selection is met earlier than expected:
+> inside the seat's own ledger.
+
+
 For each item of `GENESIS.md` §1–§4, in order, one of three grades — and to write FORCED, the nearest alternative
 must be exhibited and shown to be killed by the principle, not by taste (the record's comparable-object rule).
 
