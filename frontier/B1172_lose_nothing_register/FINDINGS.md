@@ -70,3 +70,9 @@ Process arc: no mathematics asserted; Gate 5 clean. The E51 event is honestly bo
 content is unrecoverable *from this tree*; the re-send may recover it; if cc3 also lost them, the loss is
 final and marked. The gate's far-future test path exercises real failure against the live ledger (no mock).
 Not kill_graph-routed (instruments + triage; nothing killed).
+
+## Status note, 2026-11-10 (S306n)
+
+ESCALATED(2026-11-10, P-745). This is a process arc of 2026-08-27; its verdict OPEN is the convention of that date for an arc with no theorem, and is not changed here.
+- **What it left open, in its own words:** the MC1 assignment row was left OPEN; the Wave 2 and Wave 3 queues were recorded in b1172_results.json; the review-carry half was handed to Review 50.
+- **Next action (P-745):** check each named residue against today's record, with a quote at the deciding file; close what was discharged, and re-point what was not to the register row that carries it.

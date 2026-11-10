@@ -25,6 +25,16 @@ not say so as a hypothesis. Rescaling every charge by $k$:
 **|kernel| = 6 exactly when gcd(k, 6) = 1** — the primitive normalisation and its unit rescalings,
 and nothing else.
 
+> **Corrected 2026-11-10 (S306n; P-604).** The table above and the sentence under it are wrong, and are kept as written.
+> - **The error.** The table is the count on a fixed grid of 72 points of U(1), which is 6·gcd(k, 12). The group's
+>   own kernel is cyclic of order **6k** for every k: e^c forces 6kc ∈ ℤ, so c = m/(6k), and each m fixes one
+>   central element. At k = 5, 7, 11 the true orders are 30, 42, 66, not 6.
+> - **The corrected statement.** |kernel| = 6 exactly when k = 1 (k = ±1 with the sign). No other rescaling keeps it.
+> - **The direction.** The error strengthens this addendum's conclusion: the ℤ₆ needs the primitive normalisation
+>   exactly, with no unit rescalings beside it.
+> - **The check:** `verification/kernel_under_rescaling.py` (exact rationals; k = 1..24; the grid's table reproduced
+>   row for row). Found by the physics seat's R05; the agy lane's relay of 2026-11-07 states the same order.
+
 ## Why this matters, and it is this programme's own no-go that makes it matter
 
 The anomaly conditions are **homogeneous** in the abelian charge — that is banked (B991/B864), and

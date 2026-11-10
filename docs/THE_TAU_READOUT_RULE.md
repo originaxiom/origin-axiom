@@ -7,7 +7,9 @@ here. Nothing in it is a comparison with data. It is revocable like any ruling: 
 ## The question
 
 The record holds four readings of the fibre's modulus at the excursion's tube (B1846, B1847, P-723):
-- the Teichmüller apex of the monodromy's axis, ½ + 3.65i at L⁶RLR (B1845; the √(40/3) value);
+- the Teichmüller apex of the monodromy's axis, 0 + 3.65i at L⁶RLR (the √(40/3) value, exact, at Re 0)
+  [corrected 2026-11-10, S306n: this read "½ + 3.65i at L⁶RLR (B1845; the √(40/3) value)"; Re ½ is L⁵RLR's apex,
+  B1852's correction];
 - the deepest pleated layer, height 2.87;
 - the deepest tetrahedron's shape, height 2.58;
 - the conformal modulus of the harmonic level surface through the systole, 0 + 6.149i at L⁶RLR (B1847, B1852, the web
@@ -54,6 +56,7 @@ It follows from three rulings already on the record:
 
 **The count.** The construction is no longer a menu item: of P-714's four, one survives these rulings. Three choices
 remain: point or weight, the charge premise at 5, and minimisation. The last two act jointly, through the depth.
+[2026-11-10: the count is four, and the surviving reading is conditional on the framing; see the dated note below.]
 
 ## The value under the rule, at the point reading
 
@@ -64,3 +67,41 @@ remain: point or weight, the charge premise at 5, and minimisation. The last two
 - **The real part is exact, by topology** (B1852). The imaginary part is numerical.
 - **Firewall.** τ* is computed blind to the six. P-714 holds that the six are read at τ* only inside a sealed card,
   priced by the random-subset control. This note sets τ* beside no fitted strip, no datum and no function of the six.
+
+## Dated note, 2026-11-10 (S306n): the framing is the choice; the count is four; the value firmed
+
+*After the web seat's relay "P-714 attacked by the object" (harvest row 1618) and its firmed tube value (row 1620).
+Its quotes of main's record were checked at their sources. Data-free.*
+
+- **What this rule rests on, said plainly.** The three rulings above presuppose P-726's framing: the read-out is made
+  at a point of the metric's own fibration circle, and what is read there is a fibre's conformal modulus.
+  - Granted that framing, the construction follows and is not a menu item. That is all this rule claims.
+  - The framing itself is CHOSEN. The owner's goal set it (P-726); nothing on the record derives it. Under another
+    structure's reading the τ would be the Teichmüller apex (the premise (N2)) or a pleated layer (P-723).
+- **Ruling (the seat's ask): P-714's reading and P-726's framing are one counted choice, not two.** The four
+  readings are read from three structures: the metric's harmonic map (the level surfaces), the layered triangulation
+  (the pleated and tetrahedron readings), and the monodromy's Teichmüller axis (the apex). Choosing the reading is
+  choosing the structure, which is choosing the framing.
+- **The count, corrected: four choices remain, not three.**
+  1. the framing: the metric's fibration is the structure read (this note);
+  2. point or weight (P-726);
+  3. the charge premise at 5 (B1853);
+  4. minimisation as the use of the action (B1853). Items 3 and 4 act jointly, through the depth.
+  [The count above read "Three choices remain". It did not itemise the framing.]
+- **A precision on the pleated layers.** "The metric alone" does not exclude them. For these bundles the layered
+  triangulation is the canonical decomposition (Lackenby 2003, cited by the seat; named here, not re-derived), so the
+  metric fixes it too. What excludes the layer readings is the framing: a pleated surface or a tetrahedron is not the
+  fibre over a level s. The sentence above, "no time function has them as its level sets", says the same thing and
+  is not a claim about canonicity.
+- **The mirror locus does not separate the apex from the metric's reading.** Both lie on Re 0 at L⁶RLR (the apex's
+  real part is corrected above). It does separate both from the layer readings (the seat's § 5).
+- **This is not the clock.** The choice of structure is made within one history. The clock over histories stays a
+  separate CHOSEN item (B1815), as before.
+- **The value, firmed (the seat's; arithmetic reproduced on main, the values not recomputed).**
+  - Its sealed continuation reaches k = 6, 7, 8 with a fifth subdivision at k = 1 and 8.
+  - Im τ_∞ = 6.0653049 ± 0.0000574, against the earlier 6.06526(57). Aitken on k = 6, 7, 8 gives 6.0652632.
+  - Main reproduces both extrapolations from the seat's printed members. Main's own instrument stops at k = 2
+    (6.070 ± 0.010, B1854), so the digits beyond the second decimal stay the seat's (P-739).
+  - **One caution sent to the seat:** its |Re τ| at k = 7 is 1.39 × 10⁻⁶ against a stated error of 2.3 × 10⁻⁹. The
+    real part is zero by topology (B1852), so that residue is discretisation its error estimate does not see. Its
+    imaginary error bar is far larger than this residue, so the value above is not affected.

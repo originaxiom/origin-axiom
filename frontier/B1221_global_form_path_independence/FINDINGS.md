@@ -73,3 +73,11 @@ A question that had never been asked, answered decisively in one computation on 
 with the answer *against* the programme's interest. **The dossier existed to make that possible, and
 the first thing it did was close the programme's most attractive claim.** That is the instrument
 working.
+
+## Dated note, 2026-11-10 (S306n; P-604)
+
+The addendum of 2026-08-31 carried a wrong table: rescaling every charge by k gives a kernel of order 6k, not
+6·gcd(k, 12), so "kernel = 6 exactly when gcd(k, 6) = 1" is false. The kernel is ℤ₆ only at k = 1. The addendum is
+corrected in place with its original text kept; the check is `verification/kernel_under_rescaling.py`. This arc's own
+computation (the kernel at the primitive normalisation, and its path-independence) is unchanged.
+

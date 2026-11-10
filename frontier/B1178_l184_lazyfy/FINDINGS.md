@@ -26,3 +26,9 @@ L184 EXECUTED (the collection lazy-fy; the E50 cost class's root fix, promised a
 ## 3. Status at authoring
 
 The verdict field is authoritative and unchanged: `OPEN`. This document does not re-adjudicate it; it makes the arc readable without opening its JSON, which is the whole function the missing file was performing badly.
+
+## Status note, 2026-11-10 (S306n)
+
+ESCALATED(2026-11-10, P-745). This is a process arc of 2026-08-27; its verdict OPEN is the convention of that date for an arc with no theorem, and is not changed here.
+- **What it left open, in its own words:** the lazy-fy was executed and certified; the first OA_SLOW run was still in flight when the arc closed.
+- **Next action (P-745):** check each named residue against today's record, with a quote at the deciding file; close what was discharged, and re-point what was not to the register row that carries it.

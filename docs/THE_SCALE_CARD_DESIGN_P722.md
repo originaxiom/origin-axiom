@@ -124,3 +124,35 @@ unchanged.*
   - R4's content;
   - how the base word's scale and the member's τ are read on one object (the seat's item 5).
 - **No value of the block as a scale, of μ*, of α(μ*) or of any run-down quantity was computed (P-715).**
+
+## Dated note, 2026-11-10 (S306n: the first candidate answered by the web seat; the pins of σ recorded)
+
+*The seat's relay "R2's exact block is, on the record, a pure number of the object" (harvest row 1619) answers the
+question main put first on 2026-11-07. Its quotes of main's record were checked at their sources. Nothing is computed.*
+
+- **The answer: no.** The record holds no object-side reason that R2's block is a ratio of two scales.
+  - In the record's own sources (B151's reading of three papers) a ratio of two lengths is an *input*: the squashing,
+    which sets the unquantized part of the complex level. The partition function is the *output*, a dimensionless
+    function of those inputs. No source equates the output with a ratio of scales.
+  - P-719's mechanism, Z ∼ exp(i·Vol_ℂ/ℏ), is the form an identification would take. It is not a reason for one.
+    P-719 carries a dated note saying so.
+  - The block at a root of unity is an exact algebraic integer, like a dimension or a trace. That is an observation
+    about the kind of number, not an exclusion (the record draws that line by typing, B660).
+- **So the first way of removing a step fails.** R2's identification stays CHOSEN. The card stays NOT SEALABLE
+  (P-732), and the bar of one stands.
+- **What would change it:** a second length the object itself fixes, entering through the level. Read through
+  B1012 § 2's dictionary (the gravitational level as a ratio of two lengths), the record's pins of σ are the
+  candidates:
+
+  | the pin | status on the record |
+  |---|---|
+  | σ pinned to the integer level k (the one-hand point) | not adopted; Witten expects the continued theory to be singular there (the seat's f823dd25f) |
+  | σ pinned to t by c_L = c_R under the knot (open-book) reading | "in tension", neither reading derived (B1034's note of 2026-11-07); P-731 carries it |
+  | B1034's stage pin: the stage's central charge matched to the gravitational one | UNDECIDED (B1034) |
+
+  None is adopted or derived. Each would fix an input (the level); the block would still be the output.
+- **The other two candidates stand as the next work:** R4's content, and one object for the base word's scale and the
+  member's τ. On the second, the seat's pointer (not a claim): along L⁶R(LR)^k the (LR)^k block's geometry tends to
+  the base word's, and the tube's τ tends to τ_∞.
+- **No value of the block as a scale, of μ*, of α(μ*) or of any run-down quantity was computed (P-715).**
+

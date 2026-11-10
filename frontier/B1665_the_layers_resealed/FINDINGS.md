@@ -39,3 +39,7 @@ As the preregistration's §0b: B1664's run and diagnosis seen, a smoke test, and
 ## 3. What it does not show
 
 L1 and L2 as results (B1666), or any Standard Model value.
+
+## Status note, 2026-11-10 (S306n)
+
+OPEN-BY-DESIGN(2026-11-10): the re-sealed gate failed, so by the seal's own terms L1 and L2 are read-outs and the verdict cannot be anything but OPEN. The question was sealed a third time and answered in B1666 (PROVED as sealed, the robust phase estimator, with a reviewing agent). Nothing is owed on this arc: it is kept as the record of a failed gate, and its verdict is not to be upgraded after the fact.

@@ -18743,3 +18743,24 @@ deepest point occurs once. Main checked the parts that can be computed, and they
 the record counts as chosen, so it lands on the older moduli reading of the deepest point, not on the metric's own. The
 same question on the metric's own clock is now registered. 0 of 19.
 
+## 2026-11-10 — S306n: the refetch, a correction of main's own, and the owner's directive
+
+The owner asked for every seat to be fetched again. Three lanes had moved. The web seat had found an error of main's:
+a value proved for one family of histories had been written down for a neighbouring family without being computed
+there. Main recomputed it exactly, found the seat right, and corrected every place the wrong value appeared, keeping
+the old text beside the new. The consequence is small but real: two candidate readings of the same quantity sit on the
+same line and differ only in height, where the record had said they differed in both ways.
+
+The same seat answered a question main had put to it: nothing on the record makes a certain exact number a ratio of
+two scales, so the card that would use it that way stays unsealed. It also sharpened its own numerical value for the
+metric's reading; main checked the arithmetic, not the underlying runs.
+
+The agy lane offered five proofs to close open rows. Main verified one with its own code and corrected an old addendum
+that had tabulated a grid's answer in place of the group's. The other four wait for main's own verification. The
+physical lane had written a large body of conditional mathematics, graded honestly by its own hand as unreviewed, with
+two packages waiting for main's review, and a handoff asking main to coordinate a map of the whole programme.
+
+The owner then said it directly: every seat's work is the project's work, and the task is to harvest all of it and then
+map exactly what is established, what is conditional, and where there are bugs, on the way to a theory with no free
+parameters. That is registered as the next work. 0 of 19.
+

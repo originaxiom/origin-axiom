@@ -1,5 +1,30 @@
 # Changelog
 
+## S306n THE REFETCH: three lanes harvested, main's apex error corrected, the owner's directive registered (2026-11-10)
+
+- **The owner's directive (P-748).** Every seat's work is the project's work, whoever started it. The task: harvest all of it into the repository, then pursue the parameter-free theory by an exact map of what is established, what is conditional, and where there are bugs.
+- **A correction of main's own (P-751; the web seat caught it).** L⁶RLR's Teichmüller apex is √(40/3)·i at Re 0, exact. B1852 § 2, the S306k entry below and the τ read-out rule had it at Re ½, which is the L⁵ family's.
+  - So the metric's τ at the tube and the apex lie on the same line and differ in height only (6.15 against 3.65).
+  - B1852's theorem (the tube at Re 0 by the involution classes) is untouched. A locked exact check is added.
+- **The τ read-out rule, ruled further** (its dated note): the reading and P-726's framing are one counted choice. Granted the framing, the construction follows; the framing itself is CHOSEN. Four choices remain, not three.
+- **The web seat** (rows 1618–1620):
+  - its apex table re-derived exactly on main;
+  - its answer on R2's block adopted: the record holds no object-side reason that the block is a ratio of scales, so the scale card stays not sealable (notes on P-719, P-722 and the design);
+  - its firmed tube value, Im τ_∞ = 6.0653049 ± 0.0000574: the arithmetic reproduced on main, the members not recomputed beyond k = 2 (P-739).
+- **The agy lane** (rows 1621–1623, through the mask):
+  - **Theorem B verified by main's own code, and B1221's addendum corrected (P-604 DONE).** With every charge rescaled by k the kernel is cyclic of order 6k, so it is ℤ₆ only at k = 1. The addendum's table was the count on a 72-point grid of U(1).
+  - Its other four theorems and its note on P-321 are owed main's verification before any row moves (P-747).
+  - Its targeted campaign (29 hand-proof returns under the physical lane's tickets) is read at headline level (P-750).
+- **The physical lane** (rows 1624–1628, through the mask): 85 commits and 74 relays.
+  - Read in full: its progress summary, goal text, completion checklist and the precalibration closure handoff.
+  - Its own grades stand: conditional mathematics, two packets awaiting main's acceptance review (P-746), hand proofs unreviewed and unrun. Nothing is banked.
+  - Its results are entered for verification on main (P-749), the paired current pole first: it constrains the chirality question.
+  - An audit package from outside the seats, which it received, is owed a read on main (P-752); main has not read it.
+- **The push gate.** B1664 and B1665 are marked open by design (failed sealed gates, answered by B1666); the stale-arc baseline falls from 77 to 76. Seven process arcs of 2026-08-27 carry dated escalations to P-745.
+- **Rows:** P-745 to P-752. 109 relay files rowed (107 names). Pins moved for the three lanes.
+- **Not done:** the mirror. The backup drive was not mounted.
+- 0 of 19.
+
 ## S306m (continued) THE READ-OUT BY A STATE (B1857; the explore seat, row 1617) (2026-11-07)
 
 - **The principle.** The read-out is made by the history's lightest massive state, not by a weight. Checked on main's code:
@@ -95,7 +120,7 @@
 - **The real number Review 76 owed.** σ's two fixed fibres on L⁶RLR carry orientation-reversing involutions of opposite GL(2, ℤ) class mod 2. This is exact: all 4 reversing involutions were checked.
   - B1847's anti-apex sits at Re ½ to 7 × 10⁻⁷, so the tube is the other class, and its level surface has **Re τ = 0 exactly**.
   - **The control:** m004, both levels at Re ½, as B1847 measured.
-- **So τ(Σ₀) = 0 + 6.15(15) i.** It differs from the Teichmüller apex (½ + 3.65i) in its real part as well as its height.
+- **So τ(Σ₀) = 0 + 6.15(15) i.** It differs from the Teichmüller apex (0 + 3.65i) in its height only. [Corrected 2026-11-10, S306n: this read "the Teichmüller apex (½ + 3.65i) in its real part as well as its height". L⁶RLR's apex is √(40/3)·i at Re 0, exact; Re ½ is L⁵RLR's. The web seat caught it.]
 - **A pattern, observed in four words, not proved:** even runs give the opposite-class pair.
 - A first draft's word-position assignment was withdrawn (disclosed). P-727 and P-714 noted.
 - 0 of 19.

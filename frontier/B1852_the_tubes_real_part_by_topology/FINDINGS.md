@@ -33,13 +33,27 @@ real number is owed (Review 76)". B1847 measured Im τ(Σ₀) = 6.15 ± 0.15 and
 
 - **The metric's own τ at the tube is τ(Σ₀) = 0 + 6.15(15) i.** The real part is exact, by topology; the imaginary part
   is B1847's.
-- **It differs from the record's other readings in its real part as well as its height.**
-  - The Teichmüller apex is ½ + 3.65i (B1845: Re ½ exactly).
+- **It differs from the record's other readings in its height.** [Corrected 2026-11-10, S306n; the web seat caught it.
+  This item read "in its real part as well as its height", with the apex written as "½ + 3.65i (B1845: Re ½ exactly)".
+  That was wrong: B1845 proved Re ½ for L⁵R(LR)^k, and this arc carried it to the even run without computing it.]
+  - The Teichmüller apex is 0 + 3.65i: exactly 2√30/3 · i = √(40/3) · i, at Re 0 (`verification/apex_real_part.py`,
+    exact). L⁵RLR's apex is ½ + √357/6 · i, at Re ½.
+  - So the apex and the metric's reading lie on the same line Re 0, and differ in height only (3.65 against 6.15).
+  - The family L⁶R(LR)^k keeps Re 0 at k = 2, 3, 8, with heights 3.622844, 3.618734, 3.618034 falling to 2 + φ.
   - The pleated and tetrahedron readings are 2.87 and 2.58 in height.
 - **A pattern, observed in four words and not proved:** the opposite-class case occurs for the words with an even run
   (L⁶, L¹⁰). Words whose runs are all odd put both fixed fibres at ½.
 - **What it does not do.** It does not decide which of the four readings is the read-out's τ (P-714). It computes no
   coupling, scale or ratio, and compares nothing with data.
+
+## Correction, 2026-11-10 (S306n)
+
+- **The error.** § 2 said the tube's τ differs from the Teichmüller apex in its real part. It does not.
+- **Found by** the web seat (its relay of 2026-11-07, harvested this session), and confirmed exactly on main.
+- **What stands.** § 1 and the theorem: the tube's level surface has Re τ = 0 exactly, by the involution classes. The
+  arc's own computation never involved the apex; the wrong line was a comparison written from memory of B1845.
+- **What changes.** The comparison only. Both readings sit on Re 0; the choice between them is a choice of height.
+- **The lesson.** A value carried from another arc is recomputed for the word at hand before it is written.
 
 ## Seen first
 

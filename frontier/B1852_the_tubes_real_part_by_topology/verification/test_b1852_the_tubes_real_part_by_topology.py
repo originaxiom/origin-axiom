@@ -16,3 +16,14 @@ def test_the_classes_reproduce():
 def test_the_family_addendum_output():
     t = (HERE / "addendum_k_family_run.txt").read_text(encoding="utf-8")
     assert t.count("opposite classes") == 5 and "systole 0.18521828" in t and "the Mobius image" in t and "HOLDS" in t
+
+
+def test_the_apex_real_part_exact():
+    """The correction of 2026-11-10: L^6RLR's apex is sqrt(40/3) i at Re 0; Re 1/2 is L^5RLR's."""
+    out = subprocess.run([sys.executable, "-B", str(HERE / "apex_real_part.py")], capture_output=True, text=True,
+                         check=True, timeout=600).stdout
+    assert out == (HERE / "apex_real_part_run.txt").read_text(encoding="utf-8")
+    lines = out.splitlines()
+    assert "40/3" in lines[0] and lines[0].rstrip().endswith("[0]")
+    assert "119/12" in lines[1] and lines[1].rstrip().endswith("[1/2]")
+    assert all(l.rstrip().endswith("[0]") for l in lines[2:5])

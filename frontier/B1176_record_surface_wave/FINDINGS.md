@@ -38,3 +38,9 @@ THE RECORD-SURFACE WAVE (R50-4; the lose-nothing register's Wave 2, record half)
 ## 3. Status at authoring
 
 The verdict field is authoritative and unchanged: `OPEN`. This document does not re-adjudicate it; it makes the arc readable without opening its JSON, which is the whole function the missing file was performing badly.
+
+## Status note, 2026-11-10 (S306n)
+
+ESCALATED(2026-11-10, P-745). This is a process arc of 2026-08-27; its verdict OPEN is the convention of that date for an arc with no theorem, and is not changed here.
+- **What it left open, in its own words:** the record repairs were executed; the two physics-adjacent gaps it names (U_e and the quasinormal channel) were left as gaps.
+- **Next action (P-745):** check each named residue against today's record, with a quote at the deciding file; close what was discharged, and re-point what was not to the register row that carries it.

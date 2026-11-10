@@ -68,3 +68,9 @@ E8 channel keeps its possibility-space fence (E8 not object-paid). B8145's succe
 (cc3's own fence). Nothing in this harvest asserts a measured value; Gate 5 clean. Not kill_graph-routed
 (harvests + bounds; the one NEGATIVE — B8146's precision column — is cc3's arc on their branch, reflected
 here as the L173 re-pose).
+
+## Status note, 2026-11-10 (S306n)
+
+ESCALATED(2026-11-10, P-745). This is a process arc of 2026-08-27; its verdict OPEN is the convention of that date for an arc with no theorem, and is not changed here.
+- **What it left open, in its own words:** the time's-arrow instrument was queued and not run; Krutelevich's finite-orbit citation is carried cited, not re-derived; two asks were relayed (the R018 numbering gap; the re-runnable ζ₁₂/dP6 construction certificate).
+- **Next action (P-745):** check each named residue against today's record, with a quote at the deciding file; close what was discharged, and re-point what was not to the register row that carries it.

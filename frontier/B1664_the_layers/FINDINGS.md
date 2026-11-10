@@ -60,3 +60,7 @@ As sealed: `VERDICT topic-sweep /Duke|equidistribut|trace formula|cycle integral
 ## 5. Credit
 
 The reviewing agent before the seal found the root's cell false before the run.
+
+## Status note, 2026-11-10 (S306n)
+
+OPEN-BY-DESIGN(2026-11-10): the sealed gate L0 failed, so by the seal's own terms L1 and L2 are read-outs and the verdict cannot be anything but OPEN. The question was re-sealed in B1665 (gate failed again) and answered in B1666 (PROVED as sealed, the robust phase estimator). Nothing is owed on this arc: it is kept as the record of a failed gate, and its verdict is not to be upgraded after the fact.

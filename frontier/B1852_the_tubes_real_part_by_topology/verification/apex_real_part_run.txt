@@ -1,0 +1,9 @@
+L^6RLR       apex height^2 = 40/3                         height = 3.651484   reduced Re in [0]
+L^5RLR       apex height^2 = 119/12                       height = 3.149074   reduced Re in [1/2]
+L^6R(LR)^2   apex height^2 = 105/8                        height = 3.622844   reduced Re in [0]
+L^6R(LR)^3   apex height^2 = 275/21                       height = 3.618734   reduced Re in [0]
+L^6R(LR)^8   apex height^2 = 33825/2584                   height = 3.618034   reduced Re in [0]
+L^5R(LR)^2   apex height^2 = 39/4                         height = 3.122499   reduced Re in [1/2]
+L^5R(LR)^3   apex height^2 = 817/84                       height = 3.118684   reduced Re in [1/2]
+=> L^6RLR: apex 2 sqrt(30)/3 i = sqrt(40/3) i at Re 0 exactly; L^5RLR: apex 1/2 + sqrt(357)/6 i at Re 1/2 exactly
+=> the limit of the L^6 heights is 2 + golden ratio = 3.618034
