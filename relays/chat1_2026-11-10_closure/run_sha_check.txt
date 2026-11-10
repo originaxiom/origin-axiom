@@ -1,0 +1,1 @@
+single_state_closure.py: OK

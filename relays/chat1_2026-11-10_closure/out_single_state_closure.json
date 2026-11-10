@@ -1,0 +1,1098 @@
+{
+ "script_sha256": "aff9a00d9cfc97a278ddf2d5fbed2cd61da890fe6ea4e4838c10fdfcc73b8478",
+ "C0": {
+  "(6)": {
+   "apex": "3.61803398875",
+   "multiplicity": 1,
+   "at_runs": [
+    0
+   ],
+   "run_lengths_at_apex": [
+    6
+   ],
+   "gap_to_next": 2.374650726219461,
+   "equal_by_exact_criterion": true,
+   "record": "3.618034",
+   "within_1e-6": true,
+   "multiplicity_as_recorded": true
+  },
+  "(2,1,2,1,2)": {
+   "apex": "1.72360679775",
+   "multiplicity": 1,
+   "at_runs": [
+    2
+   ],
+   "run_lengths_at_apex": [
+    2
+   ],
+   "gap_to_next": 0.0488682133033111,
+   "equal_by_exact_criterion": true,
+   "record": "1.723607",
+   "within_1e-6": true,
+   "multiplicity_as_recorded": true
+  },
+  "(2,1,1,1,2)": {
+   "apex": "1.62543689742",
+   "multiplicity": 2,
+   "at_runs": [
+    0,
+    4
+   ],
+   "run_lengths_at_apex": [
+    2,
+    2
+   ],
+   "gap_to_next": 0.4018300996693216,
+   "equal_by_exact_criterion": true,
+   "record": "1.625437",
+   "within_1e-6": true,
+   "multiplicity_as_recorded": true
+  },
+  "(2,1^8,2)": {
+   "apex": "1.61797419764",
+   "multiplicity": 2,
+   "at_runs": [
+    0,
+    9
+   ],
+   "run_lengths_at_apex": [
+    2,
+    2
+   ],
+   "gap_to_next": 0.4471583721747927,
+   "equal_by_exact_criterion": true,
+   "record": "1.617974",
+   "within_1e-6": true,
+   "multiplicity_as_recorded": true
+  }
+ },
+ "C1": {
+  "(6)+(LR)^1": {
+   "apex": "3.6514837167",
+   "multiplicity": 1,
+   "at_runs": [
+    0
+   ],
+   "run_lengths_at_apex": [
+    6
+   ],
+   "gap_to_next": 2.282177322938192,
+   "equal_by_exact_criterion": true,
+   "word": "LLLLLLRLR",
+   "line": {
+    "g v mod 5": [
+     1,
+     3
+    ],
+    "v^T g mod 5": [
+     1,
+     3
+    ],
+    "column": true,
+    "row": true
+   }
+  },
+  "(6)+(LR)^2": {
+   "apex": "3.62284418655",
+   "multiplicity": 1,
+   "at_runs": [
+    0
+   ],
+   "run_lengths_at_apex": [
+    6
+   ],
+   "gap_to_next": 2.3627244694874086,
+   "equal_by_exact_criterion": true,
+   "word": "LLLLLLRLRLR",
+   "line": {
+    "g v mod 5": [
+     4,
+     2
+    ],
+    "v^T g mod 5": [
+     4,
+     2
+    ],
+    "column": true,
+    "row": true
+   }
+  },
+  "(6)+(LR)^3": {
+   "apex": "3.61873432228",
+   "multiplicity": 1,
+   "at_runs": [
+    0
+   ],
+   "run_lengths_at_apex": [
+    6
+   ],
+   "gap_to_next": 2.372940539199167,
+   "equal_by_exact_criterion": true,
+   "word": "LLLLLLRLRLRLR",
+   "line": {
+    "g v mod 5": [
+     1,
+     3
+    ],
+    "v^T g mod 5": [
+     1,
+     3
+    ],
+    "column": true,
+    "row": true
+   }
+  },
+  "(2,1,2,1,2)+(LR)^1": {
+   "apex": "1.72481883107",
+   "multiplicity": 1,
+   "at_runs": [
+    2
+   ],
+   "run_lengths_at_apex": [
+    2
+   ],
+   "gap_to_next": 0.04206875197722034,
+   "equal_by_exact_criterion": true,
+   "word": "LLRLLRLLRLR",
+   "line": {
+    "g v mod 5": [
+     4,
+     2
+    ],
+    "v^T g mod 5": [
+     4,
+     2
+    ],
+    "column": true,
+    "row": true
+   }
+  },
+  "(2,1,2,1,2)+(LR)^2": {
+   "apex": "1.72378321474",
+   "multiplicity": 1,
+   "at_runs": [
+    2
+   ],
+   "run_lengths_at_apex": [
+    2
+   ],
+   "gap_to_next": 0.047882867076185255,
+   "equal_by_exact_criterion": true,
+   "word": "LLRLLRLLRLRLR",
+   "line": {
+    "g v mod 5": [
+     1,
+     3
+    ],
+    "v^T g mod 5": [
+     1,
+     3
+    ],
+    "column": true,
+    "row": true
+   }
+  },
+  "(2,1,2,1,2)+(LR)^3": {
+   "apex": "1.72363252781",
+   "multiplicity": 1,
+   "at_runs": [
+    2
+   ],
+   "run_lengths_at_apex": [
+    2
+   ],
+   "gap_to_next": 0.048724594425596464,
+   "equal_by_exact_criterion": true,
+   "word": "LLRLLRLLRLRLRLR",
+   "line": {
+    "g v mod 5": [
+     4,
+     2
+    ],
+    "v^T g mod 5": [
+     4,
+     2
+    ],
+    "column": true,
+    "row": true
+   }
+  }
+ },
+ "C2_same_departure": {
+  "(6)+(LR)^1 . (6)+(LR)^1": {
+   "apex": "3.6514837167",
+   "multiplicity": 2,
+   "at_runs": [
+    0,
+    4
+   ],
+   "run_lengths_at_apex": [
+    6,
+    6
+   ],
+   "gap_to_next": 2.282177322938192,
+   "equal_by_exact_criterion": true
+  },
+  "(6)+(LR)^1 . (6)+(LR)^2": {
+   "apex": "3.63713836831",
+   "multiplicity": 2,
+   "at_runs": [
+    0,
+    4
+   ],
+   "run_lengths_at_apex": [
+    6,
+    6
+   ],
+   "gap_to_next": 2.2683228533521675,
+   "equal_by_exact_criterion": true
+  },
+  "(6)+(LR)^1 . (6)+(LR)^3": {
+   "apex": "3.63507559985",
+   "multiplicity": 2,
+   "at_runs": [
+    0,
+    4
+   ],
+   "run_lengths_at_apex": [
+    6,
+    6
+   ],
+   "gap_to_next": 2.2663309728330194,
+   "equal_by_exact_criterion": true
+  },
+  "(6)+(LR)^2 . (6)+(LR)^1": {
+   "apex": "3.63713836831",
+   "multiplicity": 2,
+   "at_runs": [
+    0,
+    6
+   ],
+   "run_lengths_at_apex": [
+    6,
+    6
+   ],
+   "gap_to_next": 2.2683228533521675,
+   "equal_by_exact_criterion": true
+  },
+  "(6)+(LR)^2 . (6)+(LR)^2": {
+   "apex": "3.62284418655",
+   "multiplicity": 2,
+   "at_runs": [
+    0,
+    6
+   ],
+   "run_lengths_at_apex": [
+    6,
+    6
+   ],
+   "gap_to_next": 2.3627244694874086,
+   "equal_by_exact_criterion": true
+  },
+  "(6)+(LR)^2 . (6)+(LR)^3": {
+   "apex": "3.62078873174",
+   "multiplicity": 2,
+   "at_runs": [
+    0,
+    6
+   ],
+   "run_lengths_at_apex": [
+    6,
+    6
+   ],
+   "gap_to_next": 2.360708695560221,
+   "equal_by_exact_criterion": true
+  },
+  "(6)+(LR)^3 . (6)+(LR)^1": {
+   "apex": "3.63507559985",
+   "multiplicity": 2,
+   "at_runs": [
+    0,
+    8
+   ],
+   "run_lengths_at_apex": [
+    6,
+    6
+   ],
+   "gap_to_next": 2.2663309728330194,
+   "equal_by_exact_criterion": true
+  },
+  "(6)+(LR)^3 . (6)+(LR)^2": {
+   "apex": "3.62078873174",
+   "multiplicity": 2,
+   "at_runs": [
+    0,
+    8
+   ],
+   "run_lengths_at_apex": [
+    6,
+    6
+   ],
+   "gap_to_next": 2.360708695560221,
+   "equal_by_exact_criterion": true
+  },
+  "(6)+(LR)^3 . (6)+(LR)^3": {
+   "apex": "3.61873432228",
+   "multiplicity": 2,
+   "at_runs": [
+    0,
+    8
+   ],
+   "run_lengths_at_apex": [
+    6,
+    6
+   ],
+   "gap_to_next": 2.372940539199167,
+   "equal_by_exact_criterion": true
+  },
+  "(2,1,2,1,2)+(LR)^1 . (2,1,2,1,2)+(LR)^1": {
+   "apex": "1.72481883107",
+   "multiplicity": 2,
+   "at_runs": [
+    2,
+    10
+   ],
+   "run_lengths_at_apex": [
+    2,
+    2
+   ],
+   "gap_to_next": 0.04206875197722034,
+   "equal_by_exact_criterion": true
+  },
+  "(2,1,2,1,2)+(LR)^1 . (2,1,2,1,2)+(LR)^2": {
+   "apex": "1.72430099965",
+   "multiplicity": 2,
+   "at_runs": [
+    2,
+    10
+   ],
+   "run_lengths_at_apex": [
+    2,
+    2
+   ],
+   "gap_to_next": 0.0415886113235841,
+   "equal_by_exact_criterion": true
+  },
+  "(2,1,2,1,2)+(LR)^1 . (2,1,2,1,2)+(LR)^3": {
+   "apex": "1.72422564894",
+   "multiplicity": 2,
+   "at_runs": [
+    2,
+    10
+   ],
+   "run_lengths_at_apex": [
+    2,
+    2
+   ],
+   "gap_to_next": 0.0415187468139055,
+   "equal_by_exact_criterion": true
+  },
+  "(2,1,2,1,2)+(LR)^2 . (2,1,2,1,2)+(LR)^1": {
+   "apex": "1.72430099965",
+   "multiplicity": 2,
+   "at_runs": [
+    2,
+    12
+   ],
+   "run_lengths_at_apex": [
+    2,
+    2
+   ],
+   "gap_to_next": 0.0415886113235841,
+   "equal_by_exact_criterion": true
+  },
+  "(2,1,2,1,2)+(LR)^2 . (2,1,2,1,2)+(LR)^2": {
+   "apex": "1.72378321474",
+   "multiplicity": 2,
+   "at_runs": [
+    2,
+    12
+   ],
+   "run_lengths_at_apex": [
+    2,
+    2
+   ],
+   "gap_to_next": 0.047882867076185255,
+   "equal_by_exact_criterion": true
+  },
+  "(2,1,2,1,2)+(LR)^2 . (2,1,2,1,2)+(LR)^3": {
+   "apex": "1.72370787078",
+   "multiplicity": 2,
+   "at_runs": [
+    2,
+    12
+   ],
+   "run_lengths_at_apex": [
+    2,
+    2
+   ],
+   "gap_to_next": 0.04781296433094203,
+   "equal_by_exact_criterion": true
+  },
+  "(2,1,2,1,2)+(LR)^3 . (2,1,2,1,2)+(LR)^1": {
+   "apex": "1.72422564894",
+   "multiplicity": 2,
+   "at_runs": [
+    2,
+    14
+   ],
+   "run_lengths_at_apex": [
+    2,
+    2
+   ],
+   "gap_to_next": 0.0415187468139055,
+   "equal_by_exact_criterion": true
+  },
+  "(2,1,2,1,2)+(LR)^3 . (2,1,2,1,2)+(LR)^2": {
+   "apex": "1.72370787078",
+   "multiplicity": 2,
+   "at_runs": [
+    2,
+    14
+   ],
+   "run_lengths_at_apex": [
+    2,
+    2
+   ],
+   "gap_to_next": 0.04781296433094203,
+   "equal_by_exact_criterion": true
+  },
+  "(2,1,2,1,2)+(LR)^3 . (2,1,2,1,2)+(LR)^3": {
+   "apex": "1.72363252781",
+   "multiplicity": 2,
+   "at_runs": [
+    2,
+    14
+   ],
+   "run_lengths_at_apex": [
+    2,
+    2
+   ],
+   "gap_to_next": 0.048724594425596464,
+   "equal_by_exact_criterion": true
+  }
+ },
+ "C3_different_departures": {
+  "(6)+(LR)^1 . (2,1,2,1,2)+(LR)^1": {
+   "apex": "3.63397050439",
+   "multiplicity": 1,
+   "at_runs": [
+    0
+   ],
+   "run_lengths_at_apex": [
+    6
+   ],
+   "gap_to_next": 1.907834514806032,
+   "equal_by_exact_criterion": true
+  },
+  "(6)+(LR)^1 . (2,1,2,1,2)+(LR)^2": {
+   "apex": "3.62715701616",
+   "multiplicity": 1,
+   "at_runs": [
+    0
+   ],
+   "run_lengths_at_apex": [
+    6
+   ],
+   "gap_to_next": 1.9021030745672018,
+   "equal_by_exact_criterion": true
+  },
+  "(6)+(LR)^1 . (2,1,2,1,2)+(LR)^3": {
+   "apex": "3.62616982745",
+   "multiplicity": 1,
+   "at_runs": [
+    0
+   ],
+   "run_lengths_at_apex": [
+    6
+   ],
+   "gap_to_next": 1.9012728856232037,
+   "equal_by_exact_criterion": true
+  },
+  "(6)+(LR)^2 . (2,1,2,1,2)+(LR)^1": {
+   "apex": "3.62715701616",
+   "multiplicity": 1,
+   "at_runs": [
+    0
+   ],
+   "run_lengths_at_apex": [
+    6
+   ],
+   "gap_to_next": 1.9021030745672018,
+   "equal_by_exact_criterion": true
+  },
+  "(6)+(LR)^2 . (2,1,2,1,2)+(LR)^2": {
+   "apex": "3.62034481116",
+   "multiplicity": 1,
+   "at_runs": [
+    0
+   ],
+   "run_lengths_at_apex": [
+    6
+   ],
+   "gap_to_next": 1.8963710915622427,
+   "equal_by_exact_criterion": true
+  },
+  "(6)+(LR)^2 . (2,1,2,1,2)+(LR)^3": {
+   "apex": "3.61935780785",
+   "multiplicity": 1,
+   "at_runs": [
+    0
+   ],
+   "run_lengths_at_apex": [
+    6
+   ],
+   "gap_to_next": 1.895540823714183,
+   "equal_by_exact_criterion": true
+  },
+  "(6)+(LR)^3 . (2,1,2,1,2)+(LR)^1": {
+   "apex": "3.62616982745",
+   "multiplicity": 1,
+   "at_runs": [
+    0
+   ],
+   "run_lengths_at_apex": [
+    6
+   ],
+   "gap_to_next": 1.9012728856232037,
+   "equal_by_exact_criterion": true
+  },
+  "(6)+(LR)^3 . (2,1,2,1,2)+(LR)^2": {
+   "apex": "3.61935780785",
+   "multiplicity": 1,
+   "at_runs": [
+    0
+   ],
+   "run_lengths_at_apex": [
+    6
+   ],
+   "gap_to_next": 1.895540823714183,
+   "equal_by_exact_criterion": true
+  },
+  "(6)+(LR)^3 . (2,1,2,1,2)+(LR)^3": {
+   "apex": "3.61837083131",
+   "multiplicity": 1,
+   "at_runs": [
+    0
+   ],
+   "run_lengths_at_apex": [
+    6
+   ],
+   "gap_to_next": 1.8947105443954637,
+   "equal_by_exact_criterion": true
+  },
+  "(2,1,2,1,2)+(LR)^1 . (6)+(LR)^1": {
+   "apex": "3.63397050439",
+   "multiplicity": 1,
+   "at_runs": [
+    8
+   ],
+   "run_lengths_at_apex": [
+    6
+   ],
+   "gap_to_next": 1.907834514806032,
+   "equal_by_exact_criterion": true
+  },
+  "(2,1,2,1,2)+(LR)^1 . (6)+(LR)^2": {
+   "apex": "3.62715701616",
+   "multiplicity": 1,
+   "at_runs": [
+    8
+   ],
+   "run_lengths_at_apex": [
+    6
+   ],
+   "gap_to_next": 1.9021030745672018,
+   "equal_by_exact_criterion": true
+  },
+  "(2,1,2,1,2)+(LR)^1 . (6)+(LR)^3": {
+   "apex": "3.62616982745",
+   "multiplicity": 1,
+   "at_runs": [
+    8
+   ],
+   "run_lengths_at_apex": [
+    6
+   ],
+   "gap_to_next": 1.9012728856232037,
+   "equal_by_exact_criterion": true
+  },
+  "(2,1,2,1,2)+(LR)^2 . (6)+(LR)^1": {
+   "apex": "3.62715701616",
+   "multiplicity": 1,
+   "at_runs": [
+    10
+   ],
+   "run_lengths_at_apex": [
+    6
+   ],
+   "gap_to_next": 1.9021030745672018,
+   "equal_by_exact_criterion": true
+  },
+  "(2,1,2,1,2)+(LR)^2 . (6)+(LR)^2": {
+   "apex": "3.62034481116",
+   "multiplicity": 1,
+   "at_runs": [
+    10
+   ],
+   "run_lengths_at_apex": [
+    6
+   ],
+   "gap_to_next": 1.8963710915622427,
+   "equal_by_exact_criterion": true
+  },
+  "(2,1,2,1,2)+(LR)^2 . (6)+(LR)^3": {
+   "apex": "3.61935780785",
+   "multiplicity": 1,
+   "at_runs": [
+    10
+   ],
+   "run_lengths_at_apex": [
+    6
+   ],
+   "gap_to_next": 1.895540823714183,
+   "equal_by_exact_criterion": true
+  },
+  "(2,1,2,1,2)+(LR)^3 . (6)+(LR)^1": {
+   "apex": "3.62616982745",
+   "multiplicity": 1,
+   "at_runs": [
+    12
+   ],
+   "run_lengths_at_apex": [
+    6
+   ],
+   "gap_to_next": 1.9012728856232037,
+   "equal_by_exact_criterion": true
+  },
+  "(2,1,2,1,2)+(LR)^3 . (6)+(LR)^2": {
+   "apex": "3.61935780785",
+   "multiplicity": 1,
+   "at_runs": [
+    12
+   ],
+   "run_lengths_at_apex": [
+    6
+   ],
+   "gap_to_next": 1.895540823714183,
+   "equal_by_exact_criterion": true
+  },
+  "(2,1,2,1,2)+(LR)^3 . (6)+(LR)^3": {
+   "apex": "3.61837083131",
+   "multiplicity": 1,
+   "at_runs": [
+    12
+   ],
+   "run_lengths_at_apex": [
+    6
+   ],
+   "gap_to_next": 1.8947105443954637,
+   "equal_by_exact_criterion": true
+  }
+ },
+ "C4_symmetries": {
+  "(6)+(LR)^1 . (6)+(LR)^1": {
+   "word": "LLLLLLRLRLLLLLLRLR",
+   "kind": "rotation by half the word",
+   "exchanges_departures": true,
+   "holds": true
+  },
+  "(6)+(LR)^1 . (6)+(LR)^2": {
+   "word": "LLLLLLRLRLLLLLLRLRLR",
+   "kind": "reversal",
+   "reversals": [
+    {
+     "rotation": 15,
+     "det_g": -1,
+     "g W^-1 g^-1 = W": true,
+     "line": {
+      "g v mod 5": [
+       1,
+       3
+      ],
+      "v^T g mod 5": [
+       4,
+       2
+      ],
+      "column": true,
+      "row": true
+     },
+     "exchanges_departures": true
+    }
+   ],
+   "holds": true
+  },
+  "(6)+(LR)^1 . (6)+(LR)^3": {
+   "word": "LLLLLLRLRLLLLLLRLRLRLR",
+   "kind": "reversal",
+   "reversals": [
+    {
+     "rotation": 15,
+     "det_g": -1,
+     "g W^-1 g^-1 = W": true,
+     "line": {
+      "g v mod 5": [
+       1,
+       3
+      ],
+      "v^T g mod 5": [
+       4,
+       2
+      ],
+      "column": true,
+      "row": true
+     },
+     "exchanges_departures": true
+    }
+   ],
+   "holds": true
+  },
+  "(6)+(LR)^2 . (6)+(LR)^1": {
+   "word": "LLLLLLRLRLRLLLLLLRLR",
+   "kind": "reversal",
+   "reversals": [
+    {
+     "rotation": 17,
+     "det_g": -1,
+     "g W^-1 g^-1 = W": true,
+     "line": {
+      "g v mod 5": [
+       4,
+       2
+      ],
+      "v^T g mod 5": [
+       1,
+       3
+      ],
+      "column": true,
+      "row": true
+     },
+     "exchanges_departures": true
+    }
+   ],
+   "holds": true
+  },
+  "(6)+(LR)^2 . (6)+(LR)^2": {
+   "word": "LLLLLLRLRLRLLLLLLRLRLR",
+   "kind": "rotation by half the word",
+   "exchanges_departures": true,
+   "holds": true
+  },
+  "(6)+(LR)^2 . (6)+(LR)^3": {
+   "word": "LLLLLLRLRLRLLLLLLRLRLRLR",
+   "kind": "reversal",
+   "reversals": [
+    {
+     "rotation": 17,
+     "det_g": -1,
+     "g W^-1 g^-1 = W": true,
+     "line": {
+      "g v mod 5": [
+       4,
+       2
+      ],
+      "v^T g mod 5": [
+       1,
+       3
+      ],
+      "column": true,
+      "row": true
+     },
+     "exchanges_departures": true
+    }
+   ],
+   "holds": true
+  },
+  "(6)+(LR)^3 . (6)+(LR)^1": {
+   "word": "LLLLLLRLRLRLRLLLLLLRLR",
+   "kind": "reversal",
+   "reversals": [
+    {
+     "rotation": 19,
+     "det_g": -1,
+     "g W^-1 g^-1 = W": true,
+     "line": {
+      "g v mod 5": [
+       1,
+       3
+      ],
+      "v^T g mod 5": [
+       4,
+       2
+      ],
+      "column": true,
+      "row": true
+     },
+     "exchanges_departures": true
+    }
+   ],
+   "holds": true
+  },
+  "(6)+(LR)^3 . (6)+(LR)^2": {
+   "word": "LLLLLLRLRLRLRLLLLLLRLRLR",
+   "kind": "reversal",
+   "reversals": [
+    {
+     "rotation": 19,
+     "det_g": -1,
+     "g W^-1 g^-1 = W": true,
+     "line": {
+      "g v mod 5": [
+       1,
+       3
+      ],
+      "v^T g mod 5": [
+       4,
+       2
+      ],
+      "column": true,
+      "row": true
+     },
+     "exchanges_departures": true
+    }
+   ],
+   "holds": true
+  },
+  "(6)+(LR)^3 . (6)+(LR)^3": {
+   "word": "LLLLLLRLRLRLRLLLLLLRLRLRLR",
+   "kind": "rotation by half the word",
+   "exchanges_departures": true,
+   "holds": true
+  },
+  "(2,1,2,1,2)+(LR)^1 . (2,1,2,1,2)+(LR)^1": {
+   "word": "LLRLLRLLRLRLLRLLRLLRLR",
+   "kind": "rotation by half the word",
+   "exchanges_departures": true,
+   "holds": true
+  },
+  "(2,1,2,1,2)+(LR)^1 . (2,1,2,1,2)+(LR)^2": {
+   "word": "LLRLLRLLRLRLLRLLRLLRLRLR",
+   "kind": "reversal",
+   "reversals": [
+    {
+     "rotation": 19,
+     "det_g": -1,
+     "g W^-1 g^-1 = W": true,
+     "line": {
+      "g v mod 5": [
+       1,
+       3
+      ],
+      "v^T g mod 5": [
+       4,
+       2
+      ],
+      "column": true,
+      "row": true
+     },
+     "exchanges_departures": true
+    }
+   ],
+   "holds": true
+  },
+  "(2,1,2,1,2)+(LR)^1 . (2,1,2,1,2)+(LR)^3": {
+   "word": "LLRLLRLLRLRLLRLLRLLRLRLRLR",
+   "kind": "reversal",
+   "reversals": [
+    {
+     "rotation": 19,
+     "det_g": -1,
+     "g W^-1 g^-1 = W": true,
+     "line": {
+      "g v mod 5": [
+       1,
+       3
+      ],
+      "v^T g mod 5": [
+       4,
+       2
+      ],
+      "column": true,
+      "row": true
+     },
+     "exchanges_departures": true
+    }
+   ],
+   "holds": true
+  },
+  "(2,1,2,1,2)+(LR)^2 . (2,1,2,1,2)+(LR)^1": {
+   "word": "LLRLLRLLRLRLRLLRLLRLLRLR",
+   "kind": "reversal",
+   "reversals": [
+    {
+     "rotation": 21,
+     "det_g": -1,
+     "g W^-1 g^-1 = W": true,
+     "line": {
+      "g v mod 5": [
+       4,
+       2
+      ],
+      "v^T g mod 5": [
+       1,
+       3
+      ],
+      "column": true,
+      "row": true
+     },
+     "exchanges_departures": true
+    }
+   ],
+   "holds": true
+  },
+  "(2,1,2,1,2)+(LR)^2 . (2,1,2,1,2)+(LR)^2": {
+   "word": "LLRLLRLLRLRLRLLRLLRLLRLRLR",
+   "kind": "rotation by half the word",
+   "exchanges_departures": true,
+   "holds": true
+  },
+  "(2,1,2,1,2)+(LR)^2 . (2,1,2,1,2)+(LR)^3": {
+   "word": "LLRLLRLLRLRLRLLRLLRLLRLRLRLR",
+   "kind": "reversal",
+   "reversals": [
+    {
+     "rotation": 21,
+     "det_g": -1,
+     "g W^-1 g^-1 = W": true,
+     "line": {
+      "g v mod 5": [
+       4,
+       2
+      ],
+      "v^T g mod 5": [
+       1,
+       3
+      ],
+      "column": true,
+      "row": true
+     },
+     "exchanges_departures": true
+    }
+   ],
+   "holds": true
+  },
+  "(2,1,2,1,2)+(LR)^3 . (2,1,2,1,2)+(LR)^1": {
+   "word": "LLRLLRLLRLRLRLRLLRLLRLLRLR",
+   "kind": "reversal",
+   "reversals": [
+    {
+     "rotation": 23,
+     "det_g": -1,
+     "g W^-1 g^-1 = W": true,
+     "line": {
+      "g v mod 5": [
+       1,
+       3
+      ],
+      "v^T g mod 5": [
+       4,
+       2
+      ],
+      "column": true,
+      "row": true
+     },
+     "exchanges_departures": true
+    }
+   ],
+   "holds": true
+  },
+  "(2,1,2,1,2)+(LR)^3 . (2,1,2,1,2)+(LR)^2": {
+   "word": "LLRLLRLLRLRLRLRLLRLLRLLRLRLR",
+   "kind": "reversal",
+   "reversals": [
+    {
+     "rotation": 23,
+     "det_g": -1,
+     "g W^-1 g^-1 = W": true,
+     "line": {
+      "g v mod 5": [
+       1,
+       3
+      ],
+      "v^T g mod 5": [
+       4,
+       2
+      ],
+      "column": true,
+      "row": true
+     },
+     "exchanges_departures": true
+    }
+   ],
+   "holds": true
+  },
+  "(2,1,2,1,2)+(LR)^3 . (2,1,2,1,2)+(LR)^3": {
+   "word": "LLRLLRLLRLRLRLRLLRLLRLLRLRLRLR",
+   "kind": "rotation by half the word",
+   "exchanges_departures": true,
+   "holds": true
+  }
+ },
+ "C5_generators": {
+  "L^6 R (LR)^1": {
+   "apex": "3.6514837167",
+   "multiplicity": 1,
+   "at_runs": [
+    0
+   ],
+   "run_lengths_at_apex": [
+    6
+   ],
+   "gap_to_next": 2.282177322938192,
+   "equal_by_exact_criterion": true,
+   "word": "LLLLLLRLR"
+  },
+  "L^6 R (LR)^2": {
+   "apex": "3.62284418655",
+   "multiplicity": 1,
+   "at_runs": [
+    0
+   ],
+   "run_lengths_at_apex": [
+    6
+   ],
+   "gap_to_next": 2.3627244694874086,
+   "equal_by_exact_criterion": true,
+   "word": "LLLLLLRLRLR"
+  },
+  "L R^6 (LR)^1": {
+   "apex": "3.6514837167",
+   "multiplicity": 1,
+   "at_runs": [
+    1
+   ],
+   "run_lengths_at_apex": [
+    6
+   ],
+   "gap_to_next": 2.282177322938192,
+   "equal_by_exact_criterion": true,
+   "word": "LRRRRRRLR"
+  },
+  "L R^6 (LR)^2": {
+   "apex": "3.62284418655",
+   "multiplicity": 1,
+   "at_runs": [
+    1
+   ],
+   "run_lengths_at_apex": [
+    6
+   ],
+   "gap_to_next": 2.3627244694874086,
+   "equal_by_exact_criterion": true,
+   "word": "LRRRRRRLRLR"
+  }
+ },
+ "cells": {
+  "C0": true,
+  "C1": true,
+  "C2": true,
+  "C3": true,
+  "C4": true,
+  "C5": true
+ },
+ "counts": {
+  "composites": 36,
+  "single": 18,
+  "not_single": 18
+ }
+}
