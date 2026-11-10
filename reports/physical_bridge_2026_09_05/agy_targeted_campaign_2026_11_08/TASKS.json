@@ -1,6 +1,6 @@
 {
   "schema": "oa-agy-research-coordination-v1",
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "document_type": "work order and coordination board; not experiment design or an enforcement program",
   "physical_base_commit": "dd7490203c55bae043585f594af5a13afe634fa7",
   "agy_base_commit": "21b293e87ff09fd64911267e9b4aa447fbfab2b9",
@@ -8,16 +8,15 @@
   "review_branch": "audit/physical-bridge-2026-09-05",
   "delivery_channel": "versioned repository relay; no live worker start or acknowledgement inferred",
   "worker_acknowledgement": {
-    "commit": "1aa0da7a0eb353c06c45a12f9dab8c1816e8b7d0",
-    "type": "repaired form/spin parity and current density, scoped hand result supported with two domain/adjoint reading notes"
+    "commit": "95cec984eb523bea7e04c287ed4bed6d19ed2d38",
+    "type": "AGY-03a hand/source packet personally reviewed with binding physical-normalization, bundle-typing, surface-sign and threshold-carrier repairs"
   },
   "max_active_proof_code_packets_after_intake": 1,
   "scientific_execution_authorized_by_this_board": false,
   "first_return": [
-    "FULL_CUT_VARIATION_AND_GREEN_PAIRING.md",
-    "bundled operator domain/adjoint notes",
+    "repaired FULL_CUT_VARIATION_AND_GREEN_PAIRING.md",
     "RESUME.md",
-    "short new return relay"
+    "short new repair return relay"
   ],
   "stage_policy": {
     "allowed_now": [
@@ -246,7 +245,7 @@
         "AGY-00",
         "AGY-01"
       ],
-      "status": "BOUNDED_FULL_CUT_VARIATION_HAND_TASK_03A_RELEASED; NONLINEAR_RESPONSE_AND_FULL_BACKREACTION_OPEN",
+      "status": "PARTIAL_CUT_VARIATION_HAND_RESULT_SUPPORTED_WITH_BINDING_REPAIRS; NONLINEAR_RESPONSE_AND_BACKREACTION_OPEN",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -259,14 +258,37 @@
       "execution_admission": null,
       "admitted_run_evidence": null,
       "accepted_result": null,
-      "current_microtask": "AGY-03a",
+      "current_microtask": "AGY-03a-r1",
       "released_current_outputs": [
-        "FULL_CUT_VARIATION_AND_GREEN_PAIRING.md",
-        "bundled operator domain/adjoint notes",
+        "repaired FULL_CUT_VARIATION_AND_GREEN_PAIRING.md",
         "RESUME.md",
-        "short new return relay"
+        "short new repair return relay"
       ],
-      "release_scope": "first variation, actual trace pairing and transparent core/end sewing on supplied complete model; source reuse and exact residual response duties"
+      "release_scope": "one bounded hand/source correction of physical trace metric, Weyl input/output typing, surface orientation and actual neutral threshold carriers; nonlinear response remains later scope",
+      "cut_variation_result": {
+        "checkpoint": "95cec984eb523bea7e04c287ed4bed6d19ed2d38",
+        "decision": "PARTIAL_HAND_RESULT_SUPPORTED_WITH_BINDING_REPAIRS",
+        "review": "REVIEW_AGY_03A_95CEC_2026_11_10.md",
+        "receipt": "SOURCE_REVIEW_RECEIPT_AGY_03A_95CEC_2026_11_10.json",
+        "supported": [
+          "bosonic outward momenta and bosonic Gauss equation",
+          "coordinate mass map, weighted formal adjoint and Hermitian Green form",
+          "diagonal transparent finite-cut transmission law",
+          "bundled AGY-04b-r1 graph and converted-adjoint notes"
+        ],
+        "binding_repairs": [
+          "physical fibre metric G=Omega^-2 h and normalized trace conversion",
+          "opposite-charge left Weyl input separated from Hermitian output test",
+          "superpotential cut primitive +i sigma/2",
+          "rank-two V_(2,2) and A3 threshold carriers; neutral kernel 6a+2spin"
+        ],
+        "formal_independent_review": null,
+        "main_acceptance": null,
+        "execution_admission": null,
+        "scientific_execution": false,
+        "banking": null,
+        "canonical_inputs_reduced": 0
+      }
     },
     {
       "id": "AGY-04",
@@ -411,31 +433,30 @@
       "AGY_04A_new_lepton_proof_tested": false
     }
   },
-  "coordination_revision": 25,
-  "revision_base_commit": "595d6df33b45a707701eae54e41a72b2a49bc999",
+  "coordination_revision": 26,
+  "revision_base_commit": "b38052c4ce972644e873808e063c8e26b1577909",
   "start_document": "START_HERE.md",
   "max_active_microtasks_per_worker_context": 1,
   "dispatch": {
-    "released_microtask": "AGY-03a",
+    "released_microtask": "AGY-03a-r1",
     "parent_task": "AGY-03",
-    "question": "Derive the actual full bosonic and four-slot fermionic finite-cut variation and transparent matching law from the existing common action",
-    "run_ticket": "RUN_TICKET_AGY_03A.md",
-    "joined_checkpoint": "1aa0da7a0eb353c06c45a12f9dab8c1816e8b7d0",
-    "required_reading_notes": "REVIEW_AGY_04B_R1_1AA0D_2026_11_09.md",
-    "dependency_scope": "same balanced h4/W=1/eta=O complete model; actual metrics and trace-dual target; full response/backreaction remain later duties",
+    "question": "Repair actual physical trace normalization, independent Weyl input types, oriented surface sign and neutral threshold carriers while preserving the supported first variation and sewing law",
+    "run_ticket": "RUN_TICKET_AGY_03A_R1.md",
+    "joined_checkpoint": "95cec984eb523bea7e04c287ed4bed6d19ed2d38",
+    "required_reading_notes": "REVIEW_AGY_03A_95CEC_2026_11_10.md",
+    "dependency_scope": "same balanced h4/W=1/eta=O complete parent; all original source and domain hypotheses retained",
     "allowed_activity": [
-      "read and reuse common action, source mass and existing transmission/gauge response",
-      "derive one bounded hand cut-variation and Green-pairing packet",
-      "bundle domain/adjoint reading notes",
-      "commit/push and stop"
+      "personal source reading and bounded hand derivation",
+      "correct R1-R4 and bundled reuse notes",
+      "update proof, RESUME and relay",
+      "commit/push and stop for review"
     ],
     "required_outputs": [
       "FULL_CUT_VARIATION_AND_GREEN_PAIRING.md <=2000 words plus<=100 equation/table rows",
-      "operator domain/adjoint notes bundled",
       "RESUME.md <=700 words",
-      "relay <=250 words"
+      "new relay <=250 words"
     ],
-    "stop_condition": "actual common trace variation with exact source reuse and retained zero-mode/threshold response gaps",
+    "stop_condition": "one repaired author packet with exact source pins and preserved original errors; full nonlinear response remains open",
     "next_microtask_released": false,
     "scientific_execution_authorized": false
   },
@@ -487,5 +508,6 @@
     "active_assignment_unchanged": "AGY-04a at its edaa4cf7c review checkpoint; subsequently advanced to AGY-04b at coordination revision22",
     "execution_scope": "subsequent owner-authorized preliminary unchanged external reproduction only; the source review at edaa4cf7c itself ran no code",
     "later_preliminary_reproduction": "external_dsl_audit_2026_11_09/PRELIMINARY_REPRODUCTION_RESULTS.md"
-  }
+  },
+  "processed_agy_head": "95cec984eb523bea7e04c287ed4bed6d19ed2d38"
 }

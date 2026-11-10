@@ -1,0 +1,242 @@
+{
+  "schema": "oa-agy-scoped-hand-source-review-v1",
+  "date": "2026-11-10",
+  "physical_base_commit": "b38052c4ce972644e873808e063c8e26b1577909",
+  "previous_processed_agy_head": "1aa0da7a0eb353c06c45a12f9dab8c1816e8b7d0",
+  "processed_agy_head": "95cec984eb523bea7e04c287ed4bed6d19ed2d38",
+  "decision": "PARTIAL_HAND_RESULT_SUPPORTED_WITH_BINDING_REPAIRS",
+  "method": "personal source reading, exact Git-blob/hash custody checks and hand first-variation, trace-metric and carrier algebra",
+  "authorship_caveat": "physical seat authored several action, transmission, response and correction dependencies; this collaborative review does not discharge formal nonauthoring review",
+  "supported_hand_results": [
+    "bosonic cut momenta and bosonic Gauss equation",
+    "coordinate weighted formal adjoint and Hermitian Green form",
+    "diagonal finite-cut trace sewing with inherited remote domain",
+    "bundled earlier graph-closure and converted-adjoint notes"
+  ],
+  "binding_findings": [
+    {
+      "id": "R1",
+      "lines": [
+        41,
+        45
+      ],
+      "finding": "coordinate kinetic density treated as physical fibre metric; asserted Clifford square contradicts printed Omega conversion",
+      "correction": "G=Omega^-2 h; hatXi=Omega^-1 h^(1/2)Xi; Gamma_phys=Omega h^(-1/2)Gamma_coord h^(-1/2)",
+      "original_formula_square": "Omega^-4 I_8"
+    },
+    {
+      "id": "R2",
+      "lines": [
+        33,
+        38
+      ],
+      "finding": "Hermitian output test used as opposite-charge left input in Weyl transpose",
+      "correction": "separate Phi_out,q and chi_in,-q; use density transpose B_q(p)=B_-q(-p)^T with actual trace frames"
+    },
+    {
+      "id": "R3",
+      "lines": [
+        24,
+        24
+      ],
+      "finding": "oriented superpotential cut substitution has opposite sign",
+      "correction": "+i sigma_R/2 against positive cut dx"
+    },
+    {
+      "id": "R4",
+      "lines": [
+        69,
+        82
+      ],
+      "finding": "incorrect neutral threshold carrier and neutral kernel slot attribution propagated into handoff",
+      "correction": "critical rank-two V_(2,2) pair and A3 spin/flavour block; D5 kernel 6a+2spin, no lambda; preserve noncritical W1/W3 packages"
+    }
+  ],
+  "canonical_inputs_removed": 0,
+  "scientific_import_or_execution": false,
+  "scientific_module_imports": false,
+  "test_collection": false,
+  "cas_or_numerical_controls": false,
+  "metadata_scripts_only": true,
+  "new_agents": false,
+  "formal_independent_review": null,
+  "main_acceptance": null,
+  "execution_admission": null,
+  "banking": null,
+  "older_external_22_test_reproduction_covers_this_packet": false,
+  "next_released_microtask": "AGY-03a-r1",
+  "future_response_scope": "nonlinear matter/fermion response, full stationarity/backreaction and registering-to-action map remain open",
+  "first_failures_preserved_at": "95cec984eb523bea7e04c287ed4bed6d19ed2d38",
+  "source_pins_checked": 16,
+  "sources": [
+    {
+      "commit": "95cec984eb523bea7e04c287ed4bed6d19ed2d38",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FULL_CUT_VARIATION_AND_GREEN_PAIRING.md",
+      "sha256": "b0e20bc945078e23190e7a5ba4999b281316856026f56b2f5d1b05952761a55e"
+    },
+    {
+      "commit": "95cec984eb523bea7e04c287ed4bed6d19ed2d38",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FORM_SPIN_VECTOR_OPERATOR_JOINT.md",
+      "sha256": "0d363d6b651bd8f5c621d5a611890d81864824645fbb1a0c530fef8958ca7052"
+    },
+    {
+      "commit": "95cec984eb523bea7e04c287ed4bed6d19ed2d38",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md",
+      "sha256": "2aa27679cfbf71bb3f040b9015ec0c8d49988fa1c7f4d56d953ef13498e6d48b"
+    },
+    {
+      "commit": "95cec984eb523bea7e04c287ed4bed6d19ed2d38",
+      "path": "relays/AGY_TO_PHYSICAL_2026-11-09_AGY_03A_FULL_CUT_VARIATION.md",
+      "sha256": "416043a11662c1714334ae73b394b372039df23f33de6b3055df4cb9bcc42271"
+    }
+  ],
+  "dependencies": [
+    {
+      "commit": "95cec984eb523bea7e04c287ed4bed6d19ed2d38",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FORM_SPIN_VECTOR_OPERATOR_JOINT.md",
+      "sha256": "0d363d6b651bd8f5c621d5a611890d81864824645fbb1a0c530fef8958ca7052",
+      "declared_sha256": "0d363d6b651bd8f5c621d5a611890d81864824645fbb1a0c530fef8958ca7052",
+      "pin_matches": true
+    },
+    {
+      "commit": "95cec984eb523bea7e04c287ed4bed6d19ed2d38",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/LEPTON_FORM_CURRENT.md",
+      "sha256": "ab2aec95a02051e94a4e94408c036758438074ed0bbc7d24fba605c35f892264",
+      "declared_sha256": "ab2aec95a02051e94a4e94408c036758438074ed0bbc7d24fba605c35f892264",
+      "pin_matches": true
+    },
+    {
+      "commit": "95cec984eb523bea7e04c287ed4bed6d19ed2d38",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/JOINED_KERNEL_AND_PHYSICAL_MAP.md",
+      "sha256": "f96f5247f00151c829daefa2c66a31f05a53a50ed499b02bac4ecb6ddb960691",
+      "declared_sha256": "f96f5247f00151c829daefa2c66a31f05a53a50ed499b02bac4ecb6ddb960691",
+      "pin_matches": true
+    },
+    {
+      "commit": "95cec984eb523bea7e04c287ed4bed6d19ed2d38",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/NEUTRAL_D5_KERNEL.md",
+      "sha256": "dbbffb7360fdbad75d967b76feac75864fe4b36a8943714860bd454653831fad",
+      "declared_sha256": "dbbffb7360fdbad75d967b76feac75864fe4b36a8943714860bd454653831fad",
+      "pin_matches": true
+    },
+    {
+      "commit": "95cec984eb523bea7e04c287ed4bed6d19ed2d38",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COEFFICIENT_ROSTER.md",
+      "sha256": "a98ff428d827d11adf8400e9e03e49b7360f3ccae03ed6f957e9780eec4ed33f",
+      "declared_sha256": "a98ff428d827d11adf8400e9e03e49b7360f3ccae03ed6f957e9780eec4ed33f",
+      "pin_matches": true
+    },
+    {
+      "commit": "b38052c4ce972644e873808e063c8e26b1577909",
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "declared_sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "pin_matches": true
+    },
+    {
+      "commit": "b38052c4ce972644e873808e063c8e26b1577909",
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "declared_sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "pin_matches": true
+    },
+    {
+      "commit": "b38052c4ce972644e873808e063c8e26b1577909",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_QUATERNION_STATIONARY_BUNDLE_AND_CUSP_LAW.md",
+      "sha256": "221a7cd2dce2ff7dec0b135c348b7bb52e15bc27e5563d420756fbe31f9978a1",
+      "declared_sha256": "221a7cd2dce2ff7dec0b135c348b7bb52e15bc27e5563d420756fbe31f9978a1",
+      "pin_matches": true
+    },
+    {
+      "commit": "b38052c4ce972644e873808e063c8e26b1577909",
+      "path": "reports/physical_bridge_2026_09_05/surface_same_action_transmission_2026_10_16/PROOF.md",
+      "sha256": "d57ea6c28332a54437c9c2f9eca4372505322e25b66a340f7474ce5462cf5d6e",
+      "declared_sha256": "d57ea6c28332a54437c9c2f9eca4372505322e25b66a340f7474ce5462cf5d6e",
+      "pin_matches": true
+    },
+    {
+      "commit": "b38052c4ce972644e873808e063c8e26b1577909",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXTERIOR_RESPONSE_AND_JOINING.md",
+      "sha256": "3d99d0d72a03dca843f36924e4c47cc7e0c78c4ecba8c0974515d41bb80eca68",
+      "declared_sha256": "3d99d0d72a03dca843f36924e4c47cc7e0c78c4ecba8c0974515d41bb80eca68",
+      "pin_matches": true
+    },
+    {
+      "commit": "b38052c4ce972644e873808e063c8e26b1577909",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/SAME_ACTION_GAUGE_BOUNDARY_RESPONSE_AND_CUBIC_2026_11_08.md",
+      "sha256": "7e401a2f3b7c7e10a1ef04e635bd271bb19a655f282ade035f9d1abcb4016956",
+      "declared_sha256": "7e401a2f3b7c7e10a1ef04e635bd271bb19a655f282ade035f9d1abcb4016956",
+      "pin_matches": true
+    },
+    {
+      "commit": "b38052c4ce972644e873808e063c8e26b1577909",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/ACTUAL_CORE_MEAN_RESPONSE_AND_FLUX_SEWING_2026_11_08.md",
+      "sha256": "4e8be59309a0cf484acd5d30326661df0d7c7f0072229cae810ba9b71ddc1016",
+      "declared_sha256": "4e8be59309a0cf484acd5d30326661df0d7c7f0072229cae810ba9b71ddc1016",
+      "pin_matches": true
+    },
+    {
+      "commit": "b38052c4ce972644e873808e063c8e26b1577909",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/FREQUENCY_CORE_ANGULAR_TAIL_AND_GAUGE_WARD_RESPONSE_2026_11_08.md",
+      "sha256": "ea5bc0250d1ab332237dee3878ac5762789922a5da0a77ed52fbdcbb616166ef",
+      "declared_sha256": "ea5bc0250d1ab332237dee3878ac5762789922a5da0a77ed52fbdcbb616166ef",
+      "pin_matches": true
+    },
+    {
+      "commit": "b38052c4ce972644e873808e063c8e26b1577909",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/FOUR_CONNECTION_TAIL_VERTEX_WITH_GAUSS_EXCHANGE_2026_11_08.md",
+      "sha256": "9bb2f1ef75345142dbe6cedbafa2f7cf2909dc649c693178366a6903318970d1",
+      "declared_sha256": "9bb2f1ef75345142dbe6cedbafa2f7cf2909dc649c693178366a6903318970d1",
+      "pin_matches": true
+    },
+    {
+      "commit": "b38052c4ce972644e873808e063c8e26b1577909",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RUN_TICKET_AGY_03A.md",
+      "sha256": "14a82add3b6fbb8b12325a844925743d6cdf6b4cc27036af6ebf7494018616b5",
+      "declared_sha256": "14a82add3b6fbb8b12325a844925743d6cdf6b4cc27036af6ebf7494018616b5",
+      "pin_matches": true
+    },
+    {
+      "commit": "b38052c4ce972644e873808e063c8e26b1577909",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_04B_R1_1AA0D_2026_11_09.md",
+      "sha256": "ae10c1f593ce8b82a3d73931e77aaaaf11f6b0505f000db9f5aae34303b59311",
+      "declared_sha256": "ae10c1f593ce8b82a3d73931e77aaaaf11f6b0505f000db9f5aae34303b59311",
+      "pin_matches": true
+    }
+  ],
+  "additional_read_source": {
+    "commit": "b38052c4ce972644e873808e063c8e26b1577909",
+    "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CENTRALIZER_KERNEL_WITH_THRESHOLD_CONTINUUM.md",
+    "sha256": "a19e2c6c6b4faa0db3bbe16402499314f259a8db0ce590b0bcaf3ac4130970f5"
+  },
+  "review_artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_03A_95CEC_2026_11_10.md",
+      "sha256": "73f91b5bba82d20639ca7b1565a9ad7b5feb20e2090ecd89e80ba36582416202"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RUN_TICKET_AGY_03A_R1.md",
+      "sha256": "6cdbfd1f570c5f4c80fbdb672d4bb8a731b4a623ca69054064c89ef1fb770387"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_CC_2026-11-10_95CEC_CUT_VARIATION_REPAIRS.md",
+      "sha256": "82bfebca84037861df3d3fecb0631762645c3464561010639293bdd61af6e362"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/TASKS.json",
+      "sha256": "7ac14f3bf924c882e2f66de81f9a6c5021a8dfe24fd40bc78be0fc49daff2f28"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/START_HERE.md",
+      "sha256": "11dca504481064f3a22b5465008a4cc72f53879f4b0077eb2ec5cf40a9f3afe7"
+    }
+  ],
+  "inherited_index_sha256_before": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "inherited_paths_policy": "49 staged inherited paths, inherited PROGRESS_LOG working changes and four older untracked relays preserved; exact-path own checkpoint only",
+  "metadata_validation": {
+    "initial_attempt": "optional current_microtask key was absent in one existing board entry; validator stopped with KeyError",
+    "resolution": "validated optional keys without requiring them on unrelated tasks",
+    "final_status": "PASS",
+    "scientific_execution": false
+  }
+}

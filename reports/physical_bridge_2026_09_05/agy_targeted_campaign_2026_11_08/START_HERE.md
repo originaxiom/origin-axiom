@@ -1,19 +1,44 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-09. Coordination revision 25, requested by the owner to avoid
+2026-11-10. Coordination revision 26, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
 
-## Current assignment AGY-03a
+## Current assignment AGY-03a-r1
 
-Read RUN_TICKET_AGY_03A.md and REVIEW_AGY_04B_R1_1AA0D_2026_11_09.md.
-Derive the full bosonic and four-slot fermionic cut variation from the
-existing common action. Give the actual momenta, Green trace pairing,
-Gauss constraint and transparent sewing. Reuse the existing scalar/vector
-response and core/Gauss results. Retain zero modes and the neutral
-threshold response duty. Bundle the two adjoint/domain reading notes.
-Return one bounded hand/source packet, commit/push and stop for review.
+Processed exact AGY head95cec984eb523bea7e04c287ed4bed6d19ed2d38.
+Read RUN_TICKET_AGY_03A_R1.md and
+REVIEW_AGY_03A_95CEC_2026_11_10.md. Preserve the supported bosonic
+momenta/Gauss equation, coordinate mass/adjoint and Hermitian Green
+form, and diagonal trace sewing. Correct the physical trace frame,
+Weyl input/output types, oriented superpotential sign and neutral
+threshold attribution in one bounded hand/source return. Retain the
+actual rank-two V_(2,2) and A3 threshold blocks, the neutral6a+2spin
+kernel, source response formulas and unresolved nonlinear response.
+Commit/push and stop for review. No new scientific execution is released.
+
+## AGY-03a at95cec984e, partial hand support with binding repairs
+
+Every full source pin matches. The raw coordinate variation and Green
+pairing survive. The physical matrix conversion usedOmega^-1 where
+Omega is needed after the bulk-density/physical-fibre change. Its
+claimed unit square therefore disagrees with its own formula. The
+Weyl transpose needs a separately typed opposite-charge left input.
+The superpotential cut sign is reversed in one equality. The actual
+threshold carrier is the V_(2,2) critical spin pair plus A3 spin/flavour
+channels. The claimed W1/W3 zero-mass block contradicts the pinned
+neutral proof. Preserve the original95cec packet and relay as evidence.
+The earlier04b-r1 domain/adjoint notes are now bundled. Formal
+nonauthoring review and the full nonlinear response remain open.
+
+## Prior assignment AGY-03a
+
+The original RUN_TICKET_AGY_03A.md remains the source scope. It asked
+for full bosonic and four-slot cut variation, Gauss before gauge fixing,
+common trace matching, response reuse and retained kernels/continua.
+Its95cec return is reviewed above. The successor repairs this same
+bounded result before a full-response successor is released.
 
 ## AGY-04b-r1 at1aa0da7a0, scoped hand result supported
 
