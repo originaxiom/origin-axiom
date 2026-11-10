@@ -95,9 +95,9 @@ P("WP-1.3", "C1", "The moves", "Which of the grammar's remaining postulates foll
   ["P-764"], ["G:GM2", "G:GM3", "G:GM5a", "G:GM5b"])
 P("WP-1.4", "C1", "The swap and the hand",
   "Is one sheet of the orientation double cover selected by anything, or are the swap and the orientation two declared bits?", "DECIDE",
-  "state what a derivation would need: a weight under which the weave's state breaks the mirror by itself (so this waits on WP-1.6); or carry both sheets",
+  "state what a derivation would need: a weight under which the weave's state breaks the mirror by itself (so this waits on WP-1.6); or carry both sheets. Computed and verified on main (B1871, the advisor seat's sealed run): with the owner's founding rule, the tick, as an act, both sheets exist and the orientation is no choice; the tick adds about half as many histories again, each with no hand, doubles the moves' group from level three, exchanges the two level-five lines, and joins the weave's triplet to its conjugate, so it gives no hand. Whether the tick is an act is asked of the owner (P-771); three debts come first (P-769)",
   "a proved selection; or two declared bits with their observable consequences written down", "main", ["WP-1.6"], "NOT STARTED",
-  ["P-764", "P-766", "P-769"], ["G:GM5c", "G:FK3", "G:SE2", "G:FK2", "S:S02", "FL:03", "G:GM5d"])
+  ["P-764", "P-766", "P-769", "P-771"], ["G:GM5c", "G:FK3", "G:SE2", "G:FK2", "S:S02", "FL:03", "G:GM5d"])
 P("WP-1.5", "C1", "The root, selection, and thread results",
   "Under the weave's rule no thread is chosen: which results survive as statements about the weave, and is the root anything more than an origin of coordinates?", "DECIDE",
   "the structural theorem off the root: run its frame on the weave's own surface or on every thread (it has only ever been run on m004). Done on main (B1869): the founding principle read as a selection rule picks the run of six only when the level is put in, ties under the other sense of detection, and gives no single run on the silver and bronze backgrounds; the allowed set is verified to 20 letters, and the criterion stays an input",
@@ -105,7 +105,7 @@ P("WP-1.5", "C1", "The root, selection, and thread results",
   ["P-755", "P-764"], ["G:SE1", "G:FK9", "G:GAP4", "G:XGEN-PHYS", "G:FK13", "MC:REACH", "FL:08", "FL:18", "FL:27", "D:12"])
 P("WP-1.6", "C1", "The law and the weight",
   "If everything allowed happens, what weighs it: does the execution itself force a weight, and does that weight single out one outcome?", "DECIDE",
-  "on the record: the height's law under each clock, the walk's exit law, the sealed draw test. Concentration under the move count, on the modulus's side, is answered (B1868, the web seat's sealed card verified on main): no atom, by a theorem; no concentration of mass; the density against area sharpens at one symmetric point and holds no weight there; under area nothing sharpens. So a declared clock gives a typical history and no value. Not computed by anyone: a rate function with a unique maximiser. Next: the closed loop's first back-edge, pre-registered and reviewed before any run; and the definition of the joint read-out of all allowed histories",
+  "on the record: the height's law under each clock, the walk's exit law, the sealed draw test. Concentration under the move count, on the modulus's side, is answered (B1868, the web seat's sealed card verified on main): no atom, by a theorem; no concentration of mass; the density against area sharpens at one symmetric point and holds no weight there; under area nothing sharpens. So a declared clock gives a typical history and no value. Not computed by anyone: a rate function with a unique maximiser. The owner has ruled on the law's reading (P-755): the law is what takes part; the move count is not adopted as the weight; the weight stays open. 'Together' is defined (B1872, the web seat's definition verified): the joint action of the allowed histories on the shared records, which needs the allowed set closed under composition and its data on the shared records; read through what it fixes it selects nothing. Next: a read-out on the allowed subweave as a whole that its fixed data do not determine -- the minima of the joint action's own functional, or an index of the family over its quotient -- of which the record holds none; and the first back-edge's condition shown closed under composition, or restated as such a read-out",
   "a weight that the grammar forces and under which one outcome is singled out, proved; or two distinct self-consistent outcomes exhibited, which refutes the claim of one outcome as the owner has stated it. A declared clock with typicality as what is predicted is the picture the owner has ruled against (relayed by the advisor seat and confirmed to main on 2026-11-10): it would be recorded as the claim not met, and it closes nothing",
   "main; the owner for the law's reading", [], "STARTED",
   ["P-755", "P-756", "P-439", "P-758", "P-761", "P-762", "P-765", "P-770"], ["W:LAW", "W:CLOCK", "W:FLAT-SUM", "T:POINT-WEIGHT", "T:MINIM"])
@@ -262,6 +262,7 @@ DEBT_TO_WP = {
     "P-646": "WP-0.4",   # a banked arc consumes a bridge artifact owed since August
     "P-698": "WP-0.4",   # one of frame B's joints stays unconverted until main runs its own geometry there
     "P-757": "WP-0.7",   # the advisor seat's audit: enforcement first; its other classes are assigned finding by finding
+    "P-772": "WP-0.7",   # its second re-audit: what the seals do not yet protect
 }
 
 # ---------------------------------------------------------------- the certificate
@@ -301,7 +302,7 @@ SEAL_RULE = [
 #   REPRODUCED     main reproduced it with its own check; the fix is owed
 #   PARTLY FIXED   main changed part of what the acceptance row asks; the note says which part is left
 #   FIXED          main meets the whole acceptance row as main reads it; the advisor seat's re-audit is owed
-ADVISOR = ("6ab2bbdb2", "relays/advisor_2026-11-10_audit")
+ADVISOR = ("e7703f2ec", "relays/advisor_2026-11-10_audit")
 FINDING_STATES = ("OPEN", "READER", "REPRODUCED", "PARTLY FIXED", "FIXED")
 FINDINGS = {}
 
@@ -513,6 +514,12 @@ RULINGS = [
     # two more, relayed the same evening (harvest rows 1648 and 1649; the seat's file, read @ 6ab2bbdb2)
     ("stress-test the principle", "stress-test the principle; start with the ambiguity attack", ["WP-1.1"]),
     ("the gap, for every seat", "the entire programme is an open one-way line, not a closed loop", ["WP-1.6", "WP-0.11"]),
+    # four more sentences, recorded by the seat later the same evening and marked by it as relayed (harvest row 1659). Main put
+    # them to the owner once (P-771), because the foundation's text depends on the last.
+    ("no rule picks a next thing", "the phrase is not a rule that picks a next thing", ["WP-1.1", "WP-1.5"]),
+    ("what exists is what survives", "what cannot be cancelled is kept, all of it", ["WP-1.1", "WP-1.5"]),
+    ("the ledger, cancelling, interaction", "The account is the whole ledger.", ["WP-1.1", "WP-1.6"]),
+    ("the tick is an act", "The tick is an act, and both kinds of history are in the ledger", ["WP-1.4"]),
 ]
 # the owner's answer to main, verbatim (spelling as written), and the rulings it covers: the eleven main had named in its question
 CONFIRMATION = ("2026-11-10", "yes, but i also wanr your opinion on all")
@@ -677,7 +684,7 @@ EXITS = {
     "inverse moves are legal": ("FORCING ARGUED", "adopted by the owner on B1662's argument; the ledger agrees: there must be something to cancel with."),
     "positivity: the side of the mirror": ("FORCING ARGUED", "the ledger: forced up to the sign. Main (B1867): the normal form is a theorem, checked on every hyperbolic matrix with entries up to five; the sign is a separate bit, and the selection criterion decides it if that criterion stands."),
     "the selection criterion": ("FORCING ARGUED", "the ledger: a fixed character is a place where nothing happened. Main (B1867): as an exclusion this removes every departure too (the run of six fixes twenty); as a minimum it is the reading GENESIS already grades an interpretation. LR is the one word with a single fixed character, so this row carries the whole selection of the object. For the departure, the principle read as 'the least that no counted level detects' picks the run of six only when the level is put in (B1869)."),
-    "the orientation": ("PRESSED", "the ledger: the principle does not force it and may speak against it. The non-orientable sibling is the alternative."),
+    "the orientation": ("PRESSED", "the ledger: the principle does not force it and may speak against it. The non-orientable sibling is the alternative. Verified on main (B1871): if the tick, the owner's founding rule, is an act, both sheets exist and this is no choice; it supplies no hand. Asked of the owner (P-771)."),
     "which family is the object": ("UNTOUCHED", ""),
     "the dictionary's link Λ": ("DICTIONARY", ""),
     "one unit of end data": ("UNTOUCHED", ""),

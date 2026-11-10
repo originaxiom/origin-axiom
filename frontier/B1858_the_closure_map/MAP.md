@@ -25,7 +25,7 @@ by a quote that the builder checks.*
 | LANE-PROPOSED | a seat's hand proof, count or estimate, unreviewed; not verified on main | 7 |
 | LANE-INPUT | an input the seat's own ledger prices as supplied, unselected or unearned | 7 |
 | DUTY | something the full goal requires and nobody has done | 16 |
-| DEBT | a result the record uses is owed a check or a correction | 79 |
+| DEBT | a result the record uses is owed a check or a correction | 80 |
 | CLOSURE | one missing dependency under several names | 11 |
 
 ## 0. The principle
@@ -91,7 +91,7 @@ by a quote that the builder checks.*
 | W:G96 | DERIVED | weave | The weave's group on T ⊕ T̄ has order 96; its generalized CP is the record swap, so CP is a symmetry exactly when the swap is a move. | GENESIS.md; B1611 |
 | W:HANDS | NEGATIVE | weave | Neither hand is derived on the weave: each is derived only on a subweave the weave does not select. | GENESIS.md; B1607; B1609; B1610 |
 | W:INDEX3 | CONDITIONAL | weave | Given Λ and the unit, the chiral three is a four-dimensional index (±3) on the weave's own surface. | GENESIS.md; B1632; B1641 |
-| W:LAW | OPEN | weave | The law as the owner states it: if something is allowed to happen, it happens. On the record it is the weave's rule of method, and as a physical law a hypothesis to test, not a premise. | GENESIS.md; P-755 (OWNER); P-756 (DONE) |
+| W:LAW | OPEN | weave | The law as the owner states it: if something is allowed to happen, it happens. On the record it is the weave's rule of method, and as a physical law a hypothesis to test, not a premise. | GENESIS.md; P-755 (DONE); P-756 (DONE) |
 | W:MEASURE | DERIVED | weave | Run with nothing forced, the threads produce a definite measure for each way of counting them, and the measures differ: counted move by move the weight keeps out of the cusp; counted by geometric length it is hyperbolic area. | frontier/B1813_the_weaves_own_measure_depends_on_how_its_threads_are_counted/arc_verdict.json; B1813; P-437 (DONE); P-439 (QUEUED) |
 | W:MIRROR-EVEN | DERIVED | list | A flat frame's count can tell a module from its dual but cannot see the hand: the class index is mirror-even for every module. | GENESIS.md; B1487 |
 | W:NO-ATOM | NEGATIVE | weave | Under the weave's uniform measure nothing the principle forces gives the cusp a weight: no atom. Scoped: other measures and other dynamics are not excluded. | frontier/B1629_does_the_principle_reach_the_weaves_cusp/arc_verdict.json; B1629 |
@@ -375,3 +375,4 @@ by a quote that the builder checks.*
 | 77 | P-698 | added at S305 (the closure prepared) | frame B's B08 stays unconverted until main runs B1667's geometry at the agy lane's τ*. |
 | 78 | P-733 | added at S306k (the web seat's open-book relay) | B1010's consolidation list cites B132's 'm = 1 uniquely coherent', computed under a same-handed convention whose m = 1 word is not LR. |
 | 79 | P-757 | added at S306o (the advisor seat's audit, 2026-11-10) | the gates, seals and locks under every banked result: 24 of the audit's 27 planted violations pass undetected on main, the two it grades critical among them (a committed deletion from the progress log; an edit of a sealed file after its seal). |
+| 80 | P-772 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | what the seals do not yet protect: the scripts a seal hashed, a rule under another name or one folder deeper, a rule committed after its record; a waiver that hides its violation; the log's archives; and one correction of main's not carried to the arcs that state the old form. |

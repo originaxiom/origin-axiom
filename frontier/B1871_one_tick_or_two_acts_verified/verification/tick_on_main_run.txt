@@ -1,0 +1,21 @@
+T1. histories with n letters, n = 1 .. 12
+  two-act histories:                       0 1 2 3 6 9 18 30 56 99 186 335
+  added by the tick (an odd number of runs): 1 1 1 2 3 5 9 16 28 51 93 170
+  cross-check: run sequences with an even number of runs = two-act words up to the exchange of the letters, for every n: True
+  to 12 letters: 745 two-act histories and 380 added by the tick, a ratio of 0.510
+T2. the 69 two-act histories with at most 8 letters, by the law (a history is its own mirror exactly when its stabiliser holds the swap):
+  its own mirror: 11 -- 5 by a rotation with the swap (they are the tick histories done twice: True), 6 by a reflection with the swap: LLLRLRRR LLLRRRLR LLRLRLRR LLRLRR LLRRLR LLRRLRLR
+  with a distinct mirror partner: 58 histories in 29 pairs; the shortest pair: LLR and LRR
+T3. level N: the group of the two acts, the group with the exchange, the exchange already inside: 2: 6, 6, yes; 3: 24, 48, no; 4: 48, 96, no; 5: 120, 240, no; 7: 336, 672, no; 8: 384, 768, no
+  the tick F = L P = (1, 1, 1, 0): trace 1, determinant -1; F F = L R: True; its characteristic polynomial t^2 - t - 1 is (t - 3)^2 mod 5: True
+  on the golden line at level 5 the tick acts by: (1,2) -> (3,1) -> (4,3) -> (2,4) -> (1,2)  (multiplication by 3; up to sign it exchanges (1,2) and (2,4))
+  fibre characters fixed and inverted: by one tick 1 and 1 (the trivial one only); by two ticks 1 and 5
+T4. a single act alone: its fixed directions are rational for L, R, the bare exchange, and irrational for the tick (discriminant 5: the golden direction)
+  the bare exchange done twice is the identity: True -- by the principle's first clause it is not an act by itself
+SnapPy control: b-+L is m000, non-orientable, and its orientation cover is m004
+T2 against SnapPy: the law's 'its own mirror' agrees with SnapPy on 69 of 69 histories
+T2b. the 22 tick histories with at most 7 letters and an odd number of runs: non-orientable 22 of 22; orientation cover = the same history done twice: 22 of 22
+On the weave's six-dimensional space (B1610's matrices, main's): the two acts keep the triplet: True, True; the exchange carries it into its conjugate: True, and the conjugate into it: True
+  the exchange normalises the two acts' group (it carries L and R to elements of it: True, True), and the tick done twice lies in that group: True
+  the group of the two acts on it has 96 elements and commutant of dimension 2 (two pieces, the triplet and its conjugate); with the exchange: 192 elements, commutant of dimension 1 (one piece)
+  so with the tick as an act the triplet and its conjugate are one object: the tick gives the three no hand, it joins the two hands.

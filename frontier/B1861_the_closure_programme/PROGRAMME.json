@@ -240,7 +240,8 @@
   "P-688": "WP-0.2",
   "P-698": "WP-0.4",
   "P-733": "WP-0.1",
-  "P-757": "WP-0.7"
+  "P-757": "WP-0.7",
+  "P-772": "WP-0.7"
  },
  "exit_kinds": {
   "ADMITTED": "the principle allows it and does not force it; no route is named",
@@ -359,7 +360,7 @@
   ],
   "the orientation": [
    "PRESSED",
-   "the ledger: the principle does not force it and may speak against it. The non-orientable sibling is the alternative."
+   "the ledger: the principle does not force it and may speak against it. The non-orientable sibling is the alternative. Verified on main (B1871): if the tick, the owner's founding rule, is an act, both sheets exist and this is no choice; it supplies no hand. Asked of the owner (P-771)."
   ],
   "the principle's mathematical form": [
    "PRESSED",
@@ -2240,7 +2241,8 @@
    ],
    "closure_nodes": [],
    "debts": [
-    "P-757"
+    "P-757",
+    "P-772"
    ],
    "findings": [
     "G1",
@@ -2452,7 +2454,7 @@
     "P-757"
    ],
    "rows_live": {
-    "P-755": "OWNER",
+    "P-755": "DONE",
     "P-757": "QUEUED"
    },
    "rulings": [
@@ -2555,7 +2557,10 @@
    "rows": [],
    "rows_live": {},
    "rulings": [
-    "stress-test the principle"
+    "stress-test the principle",
+    "no rule picks a next thing",
+    "what exists is what survives",
+    "the ledger, cancelling, interaction"
    ],
    "sits_under": 4,
    "status": "DONE (declared; GENESIS v1.5)",
@@ -2667,7 +2672,7 @@
    ],
    "debts": [],
    "findings": [],
-   "first": "state what a derivation would need: a weight under which the weave's state breaks the mirror by itself (so this waits on WP-1.6); or carry both sheets",
+   "first": "state what a derivation would need: a weight under which the weave's state breaks the mirror by itself (so this waits on WP-1.6); or carry both sheets. Computed and verified on main (B1871, the advisor seat's sealed run): with the owner's founding rule, the tick, as an act, both sheets exist and the orientation is no choice; the tick adds about half as many histories again, each with no hand, doubles the moves' group from level three, exchanges the two level-five lines, and joins the weave's triplet to its conjugate, so it gives no hand. Whether the tick is an act is asked of the owner (P-771); three debts come first (P-769)",
    "given": [],
    "id": "WP-1.4",
    "intent": "DECIDE",
@@ -2704,14 +2709,18 @@
    "rows": [
     "P-764",
     "P-766",
-    "P-769"
+    "P-769",
+    "P-771"
    ],
    "rows_live": {
     "P-764": "QUEUED",
     "P-766": "QUEUED",
-    "P-769": "QUEUED"
+    "P-769": "QUEUED",
+    "P-771": "OWNER"
    },
-   "rulings": [],
+   "rulings": [
+    "the tick is an act"
+   ],
    "sits_under": 6,
    "status": "NOT STARTED",
    "title": "The swap and the hand",
@@ -2775,11 +2784,13 @@
     "P-764"
    ],
    "rows_live": {
-    "P-755": "OWNER",
+    "P-755": "DONE",
     "P-764": "QUEUED"
    },
    "rulings": [
-    "the founding principle as the selection rule"
+    "the founding principle as the selection rule",
+    "no rule picks a next thing",
+    "what exists is what survives"
    ],
    "sits_under": 4,
    "status": "NOT STARTED",
@@ -2806,7 +2817,7 @@
     "W6",
     "W7"
    ],
-   "first": "on the record: the height's law under each clock, the walk's exit law, the sealed draw test. Concentration under the move count, on the modulus's side, is answered (B1868, the web seat's sealed card verified on main): no atom, by a theorem; no concentration of mass; the density against area sharpens at one symmetric point and holds no weight there; under area nothing sharpens. So a declared clock gives a typical history and no value. Not computed by anyone: a rate function with a unique maximiser. Next: the closed loop's first back-edge, pre-registered and reviewed before any run; and the definition of the joint read-out of all allowed histories",
+   "first": "on the record: the height's law under each clock, the walk's exit law, the sealed draw test. Concentration under the move count, on the modulus's side, is answered (B1868, the web seat's sealed card verified on main): no atom, by a theorem; no concentration of mass; the density against area sharpens at one symmetric point and holds no weight there; under area nothing sharpens. So a declared clock gives a typical history and no value. Not computed by anyone: a rate function with a unique maximiser. The owner has ruled on the law's reading (P-755): the law is what takes part; the move count is not adopted as the weight; the weight stays open. 'Together' is defined (B1872, the web seat's definition verified): the joint action of the allowed histories on the shared records, which needs the allowed set closed under composition and its data on the shared records; read through what it fixes it selects nothing. Next: a read-out on the allowed subweave as a whole that its fixed data do not determine -- the minima of the joint action's own functional, or an index of the family over its quotient -- of which the record holds none; and the first back-edge's condition shown closed under composition, or restated as such a read-out",
    "given": [],
    "id": "WP-1.6",
    "intent": "DECIDE",
@@ -2844,7 +2855,7 @@
    ],
    "rows_live": {
     "P-439": "QUEUED",
-    "P-755": "OWNER",
+    "P-755": "DONE",
     "P-756": "DONE",
     "P-758": "DONE",
     "P-761": "QUEUED",
@@ -2859,7 +2870,8 @@
     "the first back-edge to try",
     "the fork inside it",
     "the founding principle as the selection rule",
-    "the gap, for every seat"
+    "the gap, for every seat",
+    "the ledger, cancelling, interaction"
    ],
    "sits_under": 19,
    "status": "STARTED",
@@ -4538,6 +4550,37 @@
     "WP-1.6",
     "WP-0.11"
    ]
+  ],
+  [
+   "no rule picks a next thing",
+   "the phrase is not a rule that picks a next thing",
+   [
+    "WP-1.1",
+    "WP-1.5"
+   ]
+  ],
+  [
+   "what exists is what survives",
+   "what cannot be cancelled is kept, all of it",
+   [
+    "WP-1.1",
+    "WP-1.5"
+   ]
+  ],
+  [
+   "the ledger, cancelling, interaction",
+   "The account is the whole ledger.",
+   [
+    "WP-1.1",
+    "WP-1.6"
+   ]
+  ],
+  [
+   "the tick is an act",
+   "The tick is an act, and both kinds of history are in the ledger",
+   [
+    "WP-1.4"
+   ]
   ]
  ],
  "seal_rule": [
@@ -4569,7 +4612,7 @@
   "candidate_frame_joints": 13,
   "conditional_headlines_released_by_closing_one_choice": 0,
   "conditional_results": 19,
-  "debts": 79,
+  "debts": 80,
   "exits_by_kind": {
    "ADMITTED": 2,
    "BACK-EDGE NAMED": 5,
@@ -4594,7 +4637,7 @@
   "inputs_with_an_exit_on_the_table": 12,
   "lanes_supplied_inputs": 7,
   "map_dependencies_between_packages": 21,
-  "map_nodes": 268,
+  "map_nodes": 269,
   "nodes_assigned": 131,
   "nodes_needing_a_path": 131,
   "not_checked_in_this_clone": [],
@@ -4634,9 +4677,9 @@
    ]
   ],
   "present_inputs": 64,
-  "relayed_rulings": 13,
+  "relayed_rulings": 17,
   "rules_of_the_comparison": 12,
-  "rulings_asked": 0,
+  "rulings_asked": 4,
   "rulings_confirmed_by_the_owner_to_main": 11,
   "rulings_not_confirmed": 2,
   "unowned": [

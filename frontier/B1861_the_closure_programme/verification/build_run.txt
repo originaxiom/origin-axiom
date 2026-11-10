@@ -1,10 +1,10 @@
 written: PROGRAMME.md, PROGRAMME.json
 {
- "map_nodes": 268,
+ "map_nodes": 269,
  "nodes_needing_a_path": 131,
  "nodes_assigned": 131,
  "conditional_results": 19,
- "debts": 79,
+ "debts": 80,
  "packages": 43,
  "packages_by_obligation": {
   "C0": 12,
@@ -75,10 +75,10 @@ written: PROGRAMME.md, PROGRAMME.json
   "PARTLY FIXED": 13,
   "FIXED": 9
  },
- "relayed_rulings": 13,
+ "relayed_rulings": 17,
  "rulings_confirmed_by_the_owner_to_main": 11,
  "rulings_not_confirmed": 2,
- "rulings_asked": 0,
+ "rulings_asked": 4,
  "headline_results_that_are_conditional_results": [
   "G:ROOT",
   "MC:Z6",

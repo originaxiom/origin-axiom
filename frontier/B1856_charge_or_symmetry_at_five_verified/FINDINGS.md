@@ -54,6 +54,13 @@ which is conjugate to LR.
 - **The seat's tagged speculation:** the level-5 clock is the quantized tick itself. It is close to P-438's "followed
   against counted" and to the clock rows (B1815). It is firewalled.
 
+## Dated note, 2026-11-10 (B1872; the web seat's exact facts, re-derived on main)
+
+At level 5 the line reading and the charge reading of the premise allow different words and generate the same group
+in the modular group up to sign: the stabiliser of the marked line, of index 12. Four histories that the charge
+reading allows already generate it. As matrices the two can differ by −1. So the two readings differ in which words
+they count, and not in what the allowed histories jointly do. Nothing in this arc's findings changes.
+
 ## Seen first
 
 - **Swept:** `VERDICT topic-sweep /Weil representation|quasi-energy|charge or symmetry|P-738/: 2 of 1602 arcs on main match (NEGATIVE 1, PROVED 1); 4 register rows match (DONE 1, QUEUED 3)`. B355 is the level-5 quantum cat map whose representation this uses. P-721 holds the level-5 premise.

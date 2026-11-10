@@ -1,0 +1,32 @@
+{
+ "id": "B1872",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1868",
+  "B1867",
+  "B1733",
+  "B1845",
+  "B1853",
+  "B1856",
+  "B1862",
+  "B1871"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the web seat's definition of 'together' and its exact facts (relays/CHAT1_TO_CC_2026-11-10_A_ALL_IN_WEAVE_FORM.md and relays/chat1_2026-11-10_aall/ @ a711bd18; harvest rows 1662 and 1663): the relay read in full; none of its code run; its eleven exact facts re-derived by main, seven in B1868 and four here, the index of a subgroup by another instrument; its definition and its grading of the record's candidates recorded at the seat's grade"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (the moves' action on the shared records at level 5; the modular group up to sign)",
+  "object": "the positive words of at most 12 letters and the cyclic words of 2 to 12 letters, against one marked line of order 5; four named histories as generators of a subgroup of the modular group",
+  "reach": "general",
+  "hypotheses": "level 5 and the mark on the shared records are choices, stated; 'together' as the joint action is the weave's own sentence applied to the allowed set and is not a new ruling; the read-out on the allowed subweave is undefined, and nothing here defines it"
+ },
+ "claim_one_line": "'ALL ALLOWED HISTORIES TOGETHER': THE WEB SEAT'S DEFINITION READ, AND ITS EXACT FACTS VERIFIED ON MAIN (the owner's confirmed ruling that the claim is about all allowed histories together; data-free, integers only; the seat's code not run): 'together' is the weave's own sentence applied to the allowed set -- the joint action of the allowed histories on the shared records, the group they generate -- with two requirements, that the allowed set be closed under composition and that its data sit on the shared records. At level 5 the allowed subweave is the stabiliser of one marked line up to sign: four histories the charge reading allows generate a subgroup of index 12 in the modular group up to sign (by coset enumeration, with two controls of the instrument); of the 694 positive words to 12 letters that keep the line, 204 are a word that is plus or minus one at level 5 followed by golden periods, and all 694 keep the twin line too; of the 330 cyclic words to 12 letters of trace plus or minus two at level 5, 23 have no rotation that keeps the marked line; LR and RL together generate all of the level-5 group. So the two readings of the level-5 premise allow different words and generate one group; a line belongs on the shared records; the twins come together. Read through what it fixes the joint action selects nothing: the definition is done and the read-out is not. Main adds that the tick, if it is an act, exchanges a line with its twin, so the mark is then both. The seat's three forks are not ruled. 0 of 19.",
+ "weave_or_thread": "weave (the joint action of all allowed histories on the shared records), on two stated choices: level 5 and the mark. Nothing computed here constrains either"
+}

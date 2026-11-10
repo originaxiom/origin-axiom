@@ -978,7 +978,7 @@
   "arcs": [],
   "note": "",
   "rows_live": {
-   "P-755": "OWNER",
+   "P-755": "DONE",
    "P-756": "DONE"
   },
   "weave_or_thread": "weave"
@@ -6467,6 +6467,30 @@
   "debt_class": "added at S306o (the advisor seat's audit, 2026-11-10)",
   "rows_live": {
    "P-757": "QUEUED"
+  },
+  "weave_or_thread": "n/a"
+ },
+ {
+  "id": "P:772",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "what the seals do not yet protect: the scripts a seal hashed, a rule under another name or one folder deeper, a rule committed after its record; a waiver that hides its violation; the log's archives; and one correction of main's not carried to the arcs that state the old form.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-772 — "
+   ]
+  ],
+  "rows": [
+   "P-772"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 80,
+  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "rows_live": {
+   "P-772": "QUEUED"
   },
   "weave_or_thread": "n/a"
  }

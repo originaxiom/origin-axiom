@@ -135,10 +135,10 @@ def test_the_audit_is_carried_finding_by_finding():
         if f["state"] != "OPEN":
             assert f["note"], fid
     assert S.FINDINGS["G1"]["wp"] == S.FINDINGS["G2"]["wp"] == "WP-0.7"
-    assert st["relayed_rulings"] == len(S.RULINGS) == 13
+    assert st["relayed_rulings"] == len(S.RULINGS) == 17
     # the owner's confirmation to main (2026-11-10) covers the eleven main asked about; the two relayed afterwards are asked
     assert st["rulings_confirmed_by_the_owner_to_main"] == len(S.CONFIRMED) == 11
-    assert st["rulings_not_confirmed"] == len(S.NOT_CONFIRMED) == 2 and st["rulings_asked"] == 0   # asked about the two later ones, the owner did not confirm them
+    assert st["rulings_not_confirmed"] == len(S.NOT_CONFIRMED) == 2 and st["rulings_asked"] == 4   # two not confirmed; four more relayed later are asked (P-771)
     assert not set(S.NOT_CONFIRMED) & set(S.CONFIRMED) and all(S.NOT_CONFIRMED.values())
     assert [n for n, q, ps in S.RULINGS][:11] == S.CONFIRMED and sorted(S.OPINION) == sorted(S.CONFIRMED)
     keep = list(S.CONFIRMED)

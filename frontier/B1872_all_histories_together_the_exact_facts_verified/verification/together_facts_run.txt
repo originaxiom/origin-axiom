@@ -1,0 +1,9 @@
+the marked line: LR mod 5 = ((1, 1), (1, 2)) keeps the points [(1, 3), (2, 1), (3, 4), (4, 2)], acting by -1 on them: True; the line is +-(1, 3) and its twin +-(2, 1)
+F9. positive words of 1 to 12 letters that keep the line: 694; of those, a word that is +-1 mod 5 (possibly empty) followed by golden periods: 204
+    every one of them keeps the twin line as well: True
+F10. cyclic words of 2 to 12 letters with trace +-2 mod 5: 330; with no rotation that keeps the marked line: 23 (first: LLLRLRRR)
+F11. the group generated mod 5 by LR and RL has 120 elements (all of SL(2, F5)): read from its two base points one thread keeps no line jointly
+F8. in PSL(2, Z) = < s, u | s^2, u^3 >: R = su and L = suu (checked as matrices up to sign)
+    the four histories L^6 R (LR)^k and L R^6 (LR)^k, k = 1, 2, each keeping the line, generate a subgroup of index 12; the line's stabiliser has index 12 (it is the stabiliser mod 5, of order 10 in a group of order 120, up to sign)
+    controls of the instrument: < L, R > has index 1; < L^2, R > has index 3
+    as matrices mod 5 those four generate a group of 10 elements; it contains -1: True; the line's stabiliser mod 5 has 10

@@ -19018,3 +19018,27 @@ run of six. It does so only if one tells it which level to look at, and at any l
 one. So the rule returns what it was given. With two levels it returns a mirror pair, and on the two other
 backgrounds it returns no single history at all. What is solid is the list of everything the rule allows, and that
 list is what the owner's claim about all histories together needs. 0 of 19.
+
+## 2026-11-10 — S306o (later): the law's reading is ruled; one act or two; and what "together" means
+
+The owner ruled on how the founding law is to be read. Everything that is allowed takes part. Counting every move
+equally is not what weighs it. What weighs it is still open, and is the job of the closed loop.
+
+Two questions about the foundation were computed today by other lanes and checked here.
+
+The first: is the root two separate acts, or one — add, and let the two sides change places? The owner's own
+founding rule is the second. Main re-derived the advisor's computation in every part. With the single act, the
+root's mirror symmetry stops being an unexplained accident: the root is the act done twice, and anything without a
+hand, done twice, is its own mirror image. The cost is that about half as many histories again appear, none of them
+with a hand, and that the group of moves doubles. Main found one more consequence: the threefold object at the
+centre of the programme and its mirror twin become a single object. So the single act removes a choice by keeping
+both sides. It does not produce a preferred hand. Main has put the question to the owner, with its opinion.
+
+The second: the owner's claim is about all allowed histories together, and "together" had no definition. Another
+lane supplied one from the programme's own rule: it is what the allowed histories do jointly to the shared records.
+Main checked the exact facts behind it. The definition settles what "together" is. It also shows that reading off
+only what the joint action leaves fixed selects nothing at all. What would select is a quantity defined on the whole,
+and the record has none yet. That is now the sharpest statement of the central open problem.
+
+The advisor also re-examined main's repairs to the safety checks. Most held. The largest opening left: a sealed rule
+cannot be changed after the fact, but the program that evaluates it still can. That is on the list as a debt. 0 of 19.

@@ -510,8 +510,8 @@ def render(B):
           "- **Main's spine presently holds %d inputs as the record lists them** (§ 3): %s. The lanes' model adds %d supplied inputs of its own, not typed here."
           % (st["independent_choices"], ", ".join("%d %s" % (v, PLURAL[k]) for k, v in st["budget"].items()), st["lanes_supplied_inputs"]),
           "- **%d findings of the advisor seat's audit** are each in a package (§ 8): %s." % (st["audit_findings"], ", ".join("%s %d" % (k.lower(), v) for k, v in st["audit_findings_by_state"].items())),
-          "- **%d rulings of the owner, as that seat relayed them,** are each mapped to a package. The owner confirmed %d of them to main on %s and did not confirm %d, relayed after main had asked; main treats those as no ruling (§ 9)." % (
-              st["relayed_rulings"], st["rulings_confirmed_by_the_owner_to_main"], S.CONFIRMATION[0], st["rulings_not_confirmed"]),
+          "- **%d rulings of the owner, as that seat relayed them,** are each mapped to a package. The owner confirmed %d of them to main on %s and did not confirm %d; %d more are asked (§ 9)." % (
+              st["relayed_rulings"], st["rulings_confirmed_by_the_owner_to_main"], S.CONFIRMATION[0], st["rulings_not_confirmed"], st["rulings_asked"]),
           ""]
     # ---- milestones
     L += ["## 2. The three milestones", "",
@@ -677,8 +677,9 @@ def render(B):
           "", "> \"%s\"" % S.CONFIRMATION[1], "",
           "So %d are confirmed, and main's opinion on each, which the owner asked for, is in the table. %d were relayed after main had" % (len(S.CONFIRMED), len(S.NOT_CONFIRMED)),
           "asked. Asked about those, the owner did not confirm them (the words are in the table): main treats them as no ruling and",
-          "acts on neither. A confirmed ruling is carried out in its packages, in landings of its own; this page changes no",
-          "governing document.", "",
+          "acts on neither. %d more sentences, recorded by the seat later and marked by it as relayed, are asked of the owner and not" % (len(S.RULINGS) - len(S.CONFIRMED) - len(S.NOT_CONFIRMED)),
+          "acted on. A confirmed ruling is carried out in its packages, in landings of its own; this page changes no governing",
+          "document.", "",
           "| ruling | in the seat's words | state | packages | main's opinion |", "|---|---|---|---|---|"]
     for name, q, ps in S.RULINGS:
         L.append("| %s | \"%s\" | %s | %s | %s |" % (name, cell(q), "CONFIRMED" if name in S.CONFIRMED else "NOT CONFIRMED: the owner, \"%s\"" % S.NOT_CONFIRMED[name] if name in S.NOT_CONFIRMED else "ASKED",

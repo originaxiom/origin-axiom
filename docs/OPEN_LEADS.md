@@ -4465,3 +4465,30 @@ lane, drew one graph of the programme's spine, and named the mistake it keeps ma
   time). The gate now reads every lock's own-directory paths.
 - **Next:** R77-1 to R77-8 (docs/progress/REVIEWS.md): whether anything concentrates under the executed weave; the
   register-to-field join; the lanes' paired current pole and sealed packets verified on main. 0 of 19.
+
+## ⟳ VIEW REFRESH — 2026-11-10, later (after Review 77; the window B1861–B1872)
+
+Touched at the landing of B1871 and B1872. **The window turned the remaining work into a checked plan, had main
+audited by another seat, and closed the question of how the law is to be read.**
+- **The plan (B1861):** 43 packages over every unproved node of the closure map; 38 inputs put in by hand, each now
+  with the route by which it could leave, if any is named (12 of 38; none proved or built).
+- **The audit (B1862–B1865, B1870):** of 73 findings, 9 fixed, 13 partly fixed, 45 reproduced by main, 5 by a reader
+  only, 1 open; two gates now read history. Its second re-audit opened a debt: a seal does not yet protect the
+  scripts it hashed (P-772).
+- **Leads closed in the window:**
+  - what the executed weave makes deterministic (P-756): under the move count nothing on the modulus's side holds
+    weight (B1868); the owner then ruled on the law's reading (P-755): the law is what takes part, the weight is open;
+  - the founding principle as a selection rule (P-762): it picks the run of 6 only when the level is put in (B1869).
+- **Leads opened or sharpened:**
+  - the register-to-field join (P-753): the weave's triplet is identified (B1866); the lanes' three is the weave's up
+    to one odd character, and whether that character is physical is open;
+  - the forcing ledger (P-764): three of its rows are one clause short (B1867);
+  - the symmetries of a bundle read off its word (P-766): tested on 105 classes, not proved;
+  - one tick or two acts (P-769, P-771): verified (B1871); whether the tick is an act is with the owner;
+  - all allowed histories together (P-761): "together" is the joint action (B1872); its read-out is undefined, and
+    that is now the sharpest form of the open problem of the weight;
+  - the density's exponent along the axis (P-770): on the weight's side, waits for the owner.
+- **Next:** carry out the owner's eleven confirmed rulings (P-767), the goal statement first; the seals' gaps
+  (P-772) and the fifteen planted violations that still pass (P-757); the three debts of the tick (P-769); the
+  periodic review, which is due. 0 of 19.
+

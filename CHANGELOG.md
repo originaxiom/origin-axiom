@@ -1,5 +1,19 @@
 # Changelog
 
+## S306o (later) THE OWNER'S RULING ON THE LAW'S READING; ONE TICK OR TWO ACTS VERIFIED (B1871); ALL HISTORIES TOGETHER DEFINED AND ITS FACTS VERIFIED (B1872) (2026-11-10)
+
+- **The owner ruled on the law's reading: "Yes - on the decision"** (P-755 closed). The law is the statement of what takes part: every allowed history does. The move count is not adopted as the weight. The weight stays open, as the object of the closed loop.
+- **B1871 — one tick or two acts.** The advisor seat ran, sealed, the computation main had registered as owed; main re-derived every part with its own code.
+  - With n letters there are 0 1 2 3 6 9 18 30 56 99 186 335 two-act histories; the tick adds 1 1 1 2 3 5 9 16 28 51 93 170, about half as many again, each with no hand (22 of 22 checked are non-orientable, with the same history done twice as orientation cover).
+  - LR is the tick done twice, and a history with no hand done twice is its own mirror: the root's mirror symmetry becomes a consequence. 11 of the 69 two-act histories to 8 letters are their own mirror; 58 lie in mirror pairs.
+  - The moves' group doubles with the exchange from level 3; at level 5 the tick exchanges the two lines the record treats as a choice; a single tick survives alone.
+  - **Main adds:** on the weave's six-dimensional space the exchange carries the triplet into its conjugate, and the two become one piece. The tick gives the three no hand.
+  - Whether the tick is an act is asked of the owner once (P-771), with main's opinion: admit it; build nothing on the added histories before three named debts are computed.
+- **B1872 — all allowed histories together.** The web seat defined "together": the joint action of the allowed histories on the shared records, needing the allowed set closed under composition and its data on the shared records. Main re-derived its four further exact facts (the first seven were in B1868): four histories of the charge reading generate the whole stabiliser of the marked line (index 12, by coset enumeration with two controls); 694 positive words to 12 letters keep the line and 204 are of the charge reading's form; 23 of 330 cyclic words have no rotation keeping the mark; LR and RL together generate the whole level-5 group. Read through what it fixes, the joint action selects nothing: the definition is done and the read-out is not.
+- **The advisor seat's second re-audit is taken up as a ranked debt (P-772):** the seals protect a rule's text and not the scripts the seal hashed; a rule under another name, one folder deeper, or committed after its record passes; a waiver hides its violation; the log's archives are unguarded; and one correction of main's was not carried to the arcs that state the old form.
+- The seat adopted main's rule on relayed sentences and withdrew its twelfth and thirteenth; four further sentences it records are marked relayed and asked of the owner by main (P-771).
+- Harvest rows 1658–1663; pins chat1 `a711bd18`, advisor `e7703f2e`; replies to both seats; a dated note on B1856. 0 of 19.
+
 ## S306o (the owner's multi-agent run for the audit backlog) THE AUDIT'S BACKLOG REPRODUCED ON MAIN (B1870), AND THE PRINCIPLE AS A SELECTION RULE VERIFIED (B1869; P-762) (2026-11-10)
 
 - **The owner:** "yes — on your multi agent advice". One multi-agent run, for the audit backlog only; the mathematics and the governing documents stay on the main line.

@@ -7,12 +7,12 @@ that still needs a path is in no package, or if the order of work ignores a depe
 ## 1. The state, in numbers
 
 - **131 nodes of the map still need a path:** inputs, open questions, lanes' results not verified on main, and duties. **All 131 are in a package.**
-  The map's other nodes are proved, refuted or facts about the record; or they are the 19 conditional results (§ 6), the 79 debts (C0) and the map's own eleven groupings.
+  The map's other nodes are proved, refuted or facts about the record; or they are the 19 conditional results (§ 6), the 80 debts (C0) and the map's own eleven groupings.
 - **43 packages** in 9 waves: not started 27, started 15, done 1.
 - **4 packages have no owner:** WP-1.8, WP-1.9, WP-3.5, WP-4.5.
 - **Main's spine presently holds 38 inputs as the record lists them** (§ 3): 8 axioms, 8 bits, 16 discrete choices, 5 real numbers, 1 ansatz, 7 identifications. The lanes' model adds 7 supplied inputs of its own, not typed here.
 - **73 findings of the advisor seat's audit** are each in a package (§ 8): open 1, reader 5, reproduced 45, partly fixed 13, fixed 9.
-- **13 rulings of the owner, as that seat relayed them,** are each mapped to a package. The owner confirmed 11 of them to main on 2026-11-10 and did not confirm 2, relayed after main had asked; main treats those as no ruling (§ 9).
+- **17 rulings of the owner, as that seat relayed them,** are each mapped to a package. The owner confirmed 11 of them to main on 2026-11-10 and did not confirm 2; 4 more are asked (§ 9).
 
 ## 2. The three milestones
 
@@ -87,7 +87,7 @@ builder checks them against GENESIS's grades and the scoreboard's types. Their i
 ### How each input could leave the budget
 
 Read from three notes of the advisor seat (its forcing ledger, its statement of the closed loop, its design of the first
-back-edge; pinned at `6ab2bbdb2`), each read in full and checked by main in B1867. This is a harvest of those notes onto the
+back-edge; pinned at `e7703f2ec`), each read in full and checked by main in B1867. This is a harvest of those notes onto the
 budget. It is not a sweep of the record, and it changes no grade: an argument is not a proof, and a named back-edge is not
 a built one.
 
@@ -118,7 +118,7 @@ a built one.
 | inverse moves are legal | bit | FORCING ARGUED | adopted by the owner on B1662's argument; the ledger agrees: there must be something to cancel with. |
 | positivity: the side of the mirror | bit | FORCING ARGUED | the ledger: forced up to the sign. Main (B1867): the normal form is a theorem, checked on every hyperbolic matrix with entries up to five; the sign is a separate bit, and the selection criterion decides it if that criterion stands. |
 | the selection criterion | discrete | FORCING ARGUED | the ledger: a fixed character is a place where nothing happened. Main (B1867): as an exclusion this removes every departure too (the run of six fixes twenty); as a minimum it is the reading GENESIS already grades an interpretation. LR is the one word with a single fixed character, so this row carries the whole selection of the object. For the departure, the principle read as 'the least that no counted level detects' picks the run of six only when the level is put in (B1869). |
-| the orientation | bit | PRESSED | the ledger: the principle does not force it and may speak against it. The non-orientable sibling is the alternative. |
+| the orientation | bit | PRESSED | the ledger: the principle does not force it and may speak against it. The non-orientable sibling is the alternative. Verified on main (B1871): if the tick, the owner's founding rule, is an act, both sheets exist and this is no choice; it supplies no hand. Asked of the owner (P-771). |
 | which family is the object | discrete | UNTOUCHED | — |
 | the dictionary's link Λ | identification | DICTIONARY | — |
 | one unit of end data | discrete | UNTOUCHED | — |
@@ -343,7 +343,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **The first step:** reproduce on main each planted violation of the advisor seat's suite, in a scratch clone at the clean commit; then the two graded critical: the append-only gate against a committed deletion, and the seal gates against an edit of any sealed file after its seal.
 - **Closed when:** every planted violation turns its gate red in an automated test that the suite runs; the gates and the suite are functions of a commit alone, so that no date and no missing ref passes silently.
 - **Register:** P-757 (QUEUED).
-- **Debts (1):** P-757.
+- **Debts (2):** P-757, P-772.
 - **The audit's findings (14):** G1, G2, G3, G4, G5, G6, G7, G8, G9, G10, G11, G12, G13, G14.
 - **Relayed rulings:** attribution.
 
@@ -377,7 +377,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **The question:** Can a result about one thread still be stated about the whole without a gate refusing it?
 - **The first step:** the verdict schema first: a declared domain (one thread, a named set, all threads of a kind, the weave), how a census was reduced to one row, and a list of what was removed from the carrier, each entry graded forced, computational or chosen. Then the closure map's own refusal (a weave result resting on a thread) carried to the arcs' dependency graph.
 - **Closed when:** the planted violation is refused; every arc upstream of a claimed prediction carries the fields; each weave-domain arc commits the same computation on a second thread; a chosen truncation is counted in the input budget.
-- **Register:** P-755 (OWNER), P-757 (QUEUED).
+- **Register:** P-755 (DONE), P-757 (QUEUED).
 - **The audit's findings (5):** W1, W2, W3, W4, W5.
 - **Relayed rulings:** the claim; the weave discipline; the fork inside it; the gap, for every seat.
 
@@ -402,7 +402,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **Closed when:** each face is a line of the input budget.
 - **Nodes (4):** G:PF1, G:PF2, G:PF3, G:PF1-FORM.
 - **Stated about:** weave 4.
-- **Relayed rulings:** stress-test the principle.
+- **Relayed rulings:** stress-test the principle; no rule picks a next thing; what exists is what survives; the ledger, cancelling, interaction.
 
 **WP-1.2 — Two records and the punctured torus** (DECIDE; NOT STARTED; owner: main)
 
@@ -426,14 +426,15 @@ Each group rests on itself: no member becomes unconditional before the others.
 **WP-1.4 — The swap and the hand** (DECIDE; NOT STARTED; owner: main)
 
 - **The question:** Is one sheet of the orientation double cover selected by anything, or are the swap and the orientation two declared bits?
-- **The first step:** state what a derivation would need: a weight under which the weave's state breaks the mirror by itself (so this waits on WP-1.6); or carry both sheets.
+- **The first step:** state what a derivation would need: a weight under which the weave's state breaks the mirror by itself (so this waits on WP-1.6); or carry both sheets. Computed and verified on main (B1871, the advisor seat's sealed run): with the owner's founding rule, the tick, as an act, both sheets exist and the orientation is no choice; the tick adds about half as many histories again, each with no hand, doubles the moves' group from level three, exchanges the two level-five lines, and joins the weave's triplet to its conjugate, so it gives no hand. Whether the tick is an act is asked of the owner (P-771); three debts come first (P-769).
 - **Closed when:** a proved selection; or two declared bits with their observable consequences written down.
 - **Needs:** WP-1.6.
 - **Nodes (7):** G:GM5c, G:FK3, G:SE2, G:FK2, S:S02, FL:03, G:GM5d.
 - **Stated about:** thread 3, weave 3.
 - **Also bears on nodes held elsewhere:** MC:HYP.
 - **Missing dependencies it works on:** X:HAND.
-- **Register:** P-764 (QUEUED), P-766 (QUEUED), P-769 (QUEUED).
+- **Register:** P-764 (QUEUED), P-766 (QUEUED), P-769 (QUEUED), P-771 (OWNER).
+- **Relayed rulings:** the tick is an act.
 
 **WP-1.5 — The root, selection, and thread results** (DECIDE; NOT STARTED; owner: main)
 
@@ -445,21 +446,21 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **Nodes (10):** G:SE1, G:FK9, G:GAP4, G:XGEN-PHYS, G:FK13, MC:REACH, FL:08, FL:18, FL:27, D:12.
 - **Stated about:** thread 2, weave 4.
 - **Missing dependencies it works on:** X:PARENT, X:SELECT, X:WEIGHT.
-- **Register:** P-755 (OWNER), P-764 (QUEUED).
-- **Relayed rulings:** the founding principle as the selection rule.
+- **Register:** P-755 (DONE), P-764 (QUEUED).
+- **Relayed rulings:** the founding principle as the selection rule; no rule picks a next thing; what exists is what survives.
 
 **WP-1.6 — The law and the weight** (DECIDE; STARTED; owner: main; the owner for the law's reading)
 
 - **The question:** If everything allowed happens, what weighs it: does the execution itself force a weight, and does that weight single out one outcome?
-- **The first step:** on the record: the height's law under each clock, the walk's exit law, the sealed draw test. Concentration under the move count, on the modulus's side, is answered (B1868, the web seat's sealed card verified on main): no atom, by a theorem; no concentration of mass; the density against area sharpens at one symmetric point and holds no weight there; under area nothing sharpens. So a declared clock gives a typical history and no value. Not computed by anyone: a rate function with a unique maximiser. Next: the closed loop's first back-edge, pre-registered and reviewed before any run; and the definition of the joint read-out of all allowed histories.
+- **The first step:** on the record: the height's law under each clock, the walk's exit law, the sealed draw test. Concentration under the move count, on the modulus's side, is answered (B1868, the web seat's sealed card verified on main): no atom, by a theorem; no concentration of mass; the density against area sharpens at one symmetric point and holds no weight there; under area nothing sharpens. So a declared clock gives a typical history and no value. Not computed by anyone: a rate function with a unique maximiser. The owner has ruled on the law's reading (P-755): the law is what takes part; the move count is not adopted as the weight; the weight stays open. 'Together' is defined (B1872, the web seat's definition verified): the joint action of the allowed histories on the shared records, which needs the allowed set closed under composition and its data on the shared records; read through what it fixes it selects nothing. Next: a read-out on the allowed subweave as a whole that its fixed data do not determine -- the minima of the joint action's own functional, or an index of the family over its quotient -- of which the record holds none; and the first back-edge's condition shown closed under composition, or restated as such a read-out.
 - **Closed when:** a weight that the grammar forces and under which one outcome is singled out, proved; or two distinct self-consistent outcomes exhibited, which refutes the claim of one outcome as the owner has stated it. A declared clock with typicality as what is predicted is the picture the owner has ruled against (relayed by the advisor seat and confirmed to main on 2026-11-10): it would be recorded as the claim not met, and it closes nothing.
 - **Nodes (5):** W:LAW, W:CLOCK, W:FLAT-SUM, T:POINT-WEIGHT, T:MINIM.
 - **Stated about:** thread 2, weave 3.
 - **Also bears on nodes held elsewhere:** D:12.
 - **Missing dependencies it works on:** X:TAU, X:WEIGHT.
-- **Register:** P-755 (OWNER), P-756 (DONE), P-439 (QUEUED), P-758 (DONE), P-761 (QUEUED), P-762 (DONE), P-765 (DECLINED), P-770 (QUEUED).
+- **Register:** P-755 (DONE), P-756 (DONE), P-439 (QUEUED), P-758 (DONE), P-761 (QUEUED), P-762 (DONE), P-765 (DECLINED), P-770 (QUEUED).
 - **The audit's findings (2):** W6, W7.
-- **Relayed rulings:** the claim; the weave discipline; what self-consistent means; the first back-edge to try; the fork inside it; the founding principle as the selection rule; the gap, for every seat.
+- **Relayed rulings:** the claim; the weave discipline; what self-consistent means; the first back-edge to try; the fork inside it; the founding principle as the selection rule; the gap, for every seat; the ledger, cancelling, interaction.
 
 **WP-1.7 — The dictionary** (DERIVE; NOT STARTED; owner: main)
 
@@ -835,7 +836,7 @@ feeds every row.
 | WP-0.2 Debts that bear on current work | 18: P-157, P-355, P-384, P-444, P-446, P-448, P-516, P-517, P-524, P-542, P-557, P-559, P-586, P-596, P-597, P-610, P-687, P-688 |
 | WP-0.3 Checks that cannot fail, instruments and seal claims | 15: P-154, P-233, P-239, P-317, P-332, P-540, P-590, P-602, P-603, P-605, P-607, P-608, P-609, P-653, P-670 |
 | WP-0.4 Unverified premises and seat results under banked results | 25: P-025, P-030, P-031, P-054, P-055, P-056, P-057, P-091, P-107, P-117, P-135, P-155, P-156, P-158, P-262, P-263, P-268, P-310, P-316, P-334, P-430, P-492, P-571, P-646, P-698 |
-| WP-0.7 Enforcement that enforces | 1: P-757 |
+| WP-0.7 Enforcement that enforces | 2: P-757, P-772 |
 
 ## 7. The certificate
 
@@ -962,8 +963,9 @@ main's standing rule for a relayed ruling. Main asked about the 11 then relayed.
 
 So 11 are confirmed, and main's opinion on each, which the owner asked for, is in the table. 2 were relayed after main had
 asked. Asked about those, the owner did not confirm them (the words are in the table): main treats them as no ruling and
-acts on neither. A confirmed ruling is carried out in its packages, in landings of its own; this page changes no
-governing document.
+acts on neither. 4 more sentences, recorded by the seat later and marked by it as relayed, are asked of the owner and not
+acted on. A confirmed ruling is carried out in its packages, in landings of its own; this page changes no governing
+document.
 
 | ruling | in the seat's words | state | packages | main's opinion |
 |---|---|---|---|---|
@@ -980,4 +982,8 @@ governing document.
 | the founding principle as the selection rule | "try the founding principle as the selection rule" | CONFIRMED | WP-1.5, WP-1.6 | worth doing, and the result is honest: the rule picks the run of six only if the level is put in. To be verified on main (P-762) |
 | stress-test the principle | "stress-test the principle; start with the ambiguity attack" | NOT CONFIRMED: the owner, "im not very sure about it, i wouldnt take it for granted" | WP-1.1 | — |
 | the gap, for every seat | "the entire programme is an open one-way line, not a closed loop" | NOT CONFIRMED: the owner, "it was in other context" | WP-1.6, WP-0.11 | — |
+| no rule picks a next thing | "the phrase is not a rule that picks a next thing" | ASKED | WP-1.1, WP-1.5 | — |
+| what exists is what survives | "what cannot be cancelled is kept, all of it" | ASKED | WP-1.1, WP-1.5 | — |
+| the ledger, cancelling, interaction | "The account is the whole ledger." | ASKED | WP-1.1, WP-1.6 | — |
+| the tick is an act | "The tick is an act, and both kinds of history are in the ledger" | ASKED | WP-1.4 | — |
 
