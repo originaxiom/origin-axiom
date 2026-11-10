@@ -346,6 +346,20 @@ def test_the_joins_the_seals_rule_needs_and_each_refusal_can_fire():
         S.FINDINGS["E3"].update(e3)
     with planted(lambda: S.FINDINGS["E3"].__setitem__("state", "FIXED"), restore_e3) as f:
         assert any("finding E3 is marked FIXED and the re-audit" in x for x in f)
+    # 20: what main changed after the re-audit is shown as not re-read; an entry for a finding with no verdict, or an arc not on main, is refused
+    assert st["findings_main_changed_since_the_re_audit"] == sorted(S.SINCE_REAUDIT) and set(S.SINCE_REAUDIT) <= set(S.ACCEPTED)
+    page = (ARC / "PROGRAMME.md").read_text(encoding="utf-8")
+    for fid, (arc_, _) in S.SINCE_REAUDIT.items():
+        row = next(l for l in page.splitlines() if l.startswith("| %s |" % fid))
+        assert "the seat has not read the change" in row and arc_ in row, fid
+    keep_since = dict(S.SINCE_REAUDIT)
+    def restore_since():
+        S.SINCE_REAUDIT.clear()
+        S.SINCE_REAUDIT.update(keep_since)
+    with planted(lambda: S.SINCE_REAUDIT.__setitem__("W1", ("B1874", "x")), restore_since) as f:
+        assert any("a change since the re-audit is recorded for W1, on which the re-audit gave no verdict" in x for x in f)
+    with planted(lambda: S.SINCE_REAUDIT.__setitem__("G2", ("B99999", "x")), restore_since) as f:
+        assert any("names an arc that is not on main: B99999" in x for x in f)
     # the exits: three forcing arguments are one clause short and are not counted as exits
     assert st["exits_by_kind"]["ONE CLAUSE SHORT"] == 3 and st["inputs_with_an_exit_on_the_table"] == 8
     assert st["budget"]["bit"] == 9 and st["budget_items"] == 46          # the charge premise is two choices under one name (B1869)

@@ -85,6 +85,10 @@ written: PROGRAMME.md, PROGRAMME.json
  ],
  "findings_with_a_re_audit_verdict": 12,
  "fixed_and_not_yet_re_audited": [],
+ "findings_main_changed_since_the_re_audit": [
+  "G1",
+  "G2"
+ ],
  "audit_findings": 73,
  "audit_findings_by_state": {
   "OPEN": 1,

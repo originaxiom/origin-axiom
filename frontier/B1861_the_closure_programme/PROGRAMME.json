@@ -4926,6 +4926,16 @@
   "Parameter-free keeps the meaning the record gave it: zero free dimensionless parameters, with at most two declared anchors sealed in advance, and more outputs than anchors. The owner has confirmed the claim of one self-consistent outcome (2026-11-10): a fitted or chosen continuous input counts against the claim, not as a parameter of it.",
   "The owner has confirmed the ruling on the count (2026-11-10): the headline is to be printed from the graph and typed nowhere -- confirmed, refuted, predictions registered, not reached. Until that is built (WP-0.12) the typed count stands and is marked as typed."
  ],
+ "since_reaudit": {
+  "G1": [
+   "B1874",
+   "the second of its three residuals: both gates put every waiver, with its reason, in their sentence and count waived commits apart from appends; and the runner, which printed a bare ok for every pass, now prints those sentences whole (a waived violation committed in a small repository is named in the printed line). Left: the log's archives, and the history before the rule"
+  ],
+  "G2": [
+   "B1874",
+   "the re-audit's largest residual: a gate reads every list of hashed files (189 lists, 1497 entries), a listed file cannot change, and a list cannot be edited, deleted or moved; the 63 entries that did not verify are frozen by key; eleven tests on committed planted violations, the seat's own case among them. Left of this finding: a rule under a name outside the seal patterns, and a sealed-style file one folder deeper"
+  ]
+ },
  "stats": {
   "audit_findings": 73,
   "audit_findings_by_state": {
@@ -4961,6 +4971,10 @@
    "RIGID": 1,
    "UNTOUCHED": 11
   },
+  "findings_main_changed_since_the_re_audit": [
+   "G1",
+   "G2"
+  ],
   "findings_that_bear_on_the_repository_as_a_whole": 34,
   "findings_that_name_arcs_nodes_or_pages_only": 39,
   "findings_with_a_re_audit_verdict": 12,

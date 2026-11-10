@@ -1,0 +1,9 @@
+lists of hashed files: 189; entries: 1497; verify: 1430; do not: 67 (63 distinct)
+  A  a script or an output that a seal hashed, changed since:        11, in 6 arcs; the file marks the change in 4 and does not in 7
+  B  a page that went on being written after its hash was recorded:   11
+  C  no version with the recorded hash in the file's history:        3
+  D  the list names a file on main's machine that is not tracked:    13
+  E  the list names a file that is not in the repository:            8
+  F  a hash with no file name:                                       1
+  G  an earlier version's hash beside the current one, which verifies: 16
+the arcs of class A: B1486, B1490, B1494, B1495, B1499, B656

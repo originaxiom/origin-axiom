@@ -31,6 +31,8 @@ record's own pages, and this arc's programme_source.py. It REFUSES to build when
      to nothing: what no value's own list can show must be clean before any seal;
  18. a package is marked started while a package it cannot be worked before has not started;
  19. a finding is marked FIXED and the advisor seat's re-audit did not accept it, or says the correction was not carried.
+ 20. main records a change made after the re-audit for a finding the re-audit gave no verdict on, or names an arc that is not
+     on main; and a finding so changed is never shown as re-audited at its new state.
  15. an input of the budget has no line saying how it could leave the budget (or that no route is named), the line's kind is
      outside the list, a route is named and not described, a dictionary entry is not an identification, a kept entry is
      not an axiom, or a line is written for something that is not an input.
@@ -483,6 +485,13 @@ def build(nodes=None, edges=None):
         elif S.FINDINGS[fid]["state"] == "FIXED" and "not carried" in verdict:
             fails.append("finding %s is marked FIXED and the re-audit says the correction was not carried everywhere" % fid)
     fixed_unread = sorted(fid for fid, f in S.FINDINGS.items() if f["state"] == "FIXED" and fid not in S.ACCEPTED)
+    for fid, (arc_, what_) in S.SINCE_REAUDIT.items():
+        if fid not in S.ACCEPTED:
+            fails.append("a change since the re-audit is recorded for %s, on which the re-audit gave no verdict" % fid)
+        if not re.fullmatch(r"B\d+", arc_) or not list((ROOT / "frontier").glob(arc_ + "_*")):
+            fails.append("a change since the re-audit names an arc that is not on main: %s (%s)" % (arc_, fid))
+        if not what_:
+            fails.append("a change since the re-audit says nothing of what changed: %s" % fid)
 
     # ---- derived tables
     fstate = collections.Counter(f["state"] for f in S.FINDINGS.values())
@@ -539,6 +548,7 @@ def build(nodes=None, edges=None):
         findings_that_name_arcs_nodes_or_pages_only=sum(1 for fid in S.FINDINGS if S.BEARS_ON.get(fid) and S.REPO not in S.BEARS_ON[fid]),
         debts_on_the_map_joined_to_nothing=len(unjoined), packages_the_sealed_card_must_wait_on_for_that=sorted(must),
         findings_with_a_re_audit_verdict=len(S.ACCEPTED), fixed_and_not_yet_re_audited=fixed_unread,
+        findings_main_changed_since_the_re_audit=sorted(S.SINCE_REAUDIT),
         audit_findings=len(S.FINDINGS), audit_findings_by_state={s: fstate.get(s, 0) for s in S.FINDING_STATES}, relayed_rulings=len(S.RULINGS),
         rulings_confirmed_by_the_owner_to_main=len(S.CONFIRMED), rulings_not_confirmed=len(S.NOT_CONFIRMED), rulings_asked=len(S.RULINGS) - len(S.CONFIRMED) - len(S.NOT_CONFIRMED),
         headline_results_that_are_conditional_results=cond_heads,
@@ -739,7 +749,8 @@ def render(B):
     for fid in sorted(S.FINDINGS, key=fkey):
         f = S.FINDINGS[fid]
         L.append("| %s | %s | %s | %s | %s | %s | %s |" % (fid, cell(f["short"]), f["wp"], cell(", ".join(S.BEARS_ON.get(fid, []))), f["state"],
-                                                   cell(S.ACCEPTED.get(fid, "")) or "—", cell(f["note"]) or "—"))
+                                                   cell(S.ACCEPTED.get(fid, "") + (" **Main has changed this since (%s); the seat has not read the change.**" % S.SINCE_REAUDIT[fid][0] if fid in S.SINCE_REAUDIT else "")) or "—",
+                                                   cell(f["note"] + (" Since the re-audit (%s): %s" % S.SINCE_REAUDIT[fid] if fid in S.SINCE_REAUDIT else "")) or "—"))
     L += ["", "## 9. The owner's rulings of 2026-11-10: relayed by the advisor seat, and confirmed to main", "",
           "The advisor seat recorded them and wrote that main confirms each with the owner before acting on it. That is also",
           "main's standing rule for a relayed ruling. Main asked about the %d then relayed. The owner answered main on %s:" % (len(S.CONFIRMED), S.CONFIRMATION[0]),
@@ -764,7 +775,7 @@ def main():
         out = dict(stats=B["stats"], packages=B["packages"], waits=B["waits"], closure=B["closure"], debt_of=B["debt_of"],
                    inputs=S.INPUTS, rules=S.RULES, tallies=S.TALLIES, certificate=S.CERTIFICATE, value_status=S.VALUE_STATUS,
                    seal_rule=S.SEAL_RULE, findings=S.FINDINGS, rulings=S.RULINGS, confirmed=S.CONFIRMED, confirmation=list(S.CONFIRMATION), opinion=S.OPINION, not_confirmed=S.NOT_CONFIRMED,
-                   bears_on=S.BEARS_ON, accepted=S.ACCEPTED, accepted_at=list(S.ACCEPTED_AT), released=B["released"], map_dependencies=B["proj"],
+                   bears_on=S.BEARS_ON, accepted=S.ACCEPTED, accepted_at=list(S.ACCEPTED_AT), since_reaudit={k: list(v) for k, v in S.SINCE_REAUDIT.items()}, released=B["released"], map_dependencies=B["proj"],
                    given=S.GIVEN, also=S.ALSO, exits={k: list(v) for k, v in S.EXITS.items()}, exit_kinds=S.EXIT_KINDS)
         (ARC / "PROGRAMME.json").write_text(json.dumps(out, indent=1, ensure_ascii=False, sort_keys=True) + "\n", encoding="utf-8")
         print("written: PROGRAMME.md, PROGRAMME.json")

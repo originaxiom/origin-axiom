@@ -19065,3 +19065,33 @@ count fails, and nothing runs it. And the number of inputs with a way out writte
 
 What remains is a debt on the list: joining the other two lists to the map. Until then the sealed test simply waits
 on more. 0 of 19.
+
+## 2026-11-10 — S306o (the re-audit's largest item): a sealed test's programs can no longer be changed quietly
+
+When a test is sealed, the repository records fingerprints of the files it used: the rule, and the programs that
+apply the rule. Until today only the rule's text was guarded. An outside checker changed one line of such a program
+in a copy of the repository, and none of the guards noticed.
+
+First, the measurement. There are 189 of these fingerprint lists, with 1 497 entries. 1 430 still match the file they
+name. 67 do not. Of those:
+
+- 11, in six pieces of work, are a program or an output that was changed after its seal, with nothing in the list
+  recording the new version. In four the file itself says it was changed; in seven it does not.
+- 16 are an older fingerprint sitting beside a newer one that matches. That is an amendment made in the open.
+- The rest never described what is in the repository: pages that kept being written, run logs that were never
+  stored, files that are not there.
+
+Then the guard. A new check now reads every list every time. A listed file cannot change. A list cannot be edited,
+removed or renamed, so it cannot be quietly rewritten to match. The 63 mismatches found today are written down one by
+one on a page; that number may only go down.
+
+The guard was tried against deliberate violations, each committed in a small test repository (eleven tests). It
+refuses every one, including the checker's own.
+
+One more fault turned up on the way. When a guard passed, the program that runs the guards printed only "ok" and
+threw away the guard's own sentence. So an exception granted by name would never have been shown. The three guards
+that can hold such exceptions now print their full sentence every time.
+
+What this does not do: it does not judge the six pieces of work. Whether each change was disclosed, and whether it
+matters to the result, is still to be read, one by one. Four other openings the checker found are also still open.
+0 of 19.

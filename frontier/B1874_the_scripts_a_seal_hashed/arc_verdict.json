@@ -1,0 +1,28 @@
+{
+ "id": "B1874",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1864",
+  "B1863",
+  "B1464",
+  "B1873"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the advisor seat's second re-audit (relays/advisor_2026-11-10_audit/REAUDIT_2_2026-11-10.md @ d59e36d8; harvest row 1660): its planted case s1 and its two points on waivers are what this arc closes; its other cases stay open and are listed"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (a process arc: the repository's seals)",
+  "object": "the 189 tracked lists of hashed files and their 1497 entries; main at 270a27ee6",
+  "reach": "general",
+  "hypotheses": "the gate protects what a list names and nothing else; the 63 entries that did not verify are frozen as found and not adjudicated; whether each changed script's change is disclosed and bears on its arc's result is not read here"
+ },
+ "claim_one_line": "THE SCRIPTS A SEAL HASHED: MEASURED, AND GATED (the advisor seat's second re-audit, its planted case that no gate saw; bookkeeping only): 189 tracked lists of hashed files hold 1497 entries; 1430 verify against the tracked file they name and 67 do not (63 distinct) -- 11 in six arcs are a script or an output that a seal hashed and that has changed with no later entry for the new version (the file itself marks the change in 4 and not in 7), 16 are an earlier version's hash beside a current one that verifies, 11 are pages that went on being written, 13 name run logs that were never tracked, 8 name files not in the repository, 3 match no version in history, 1 has no name. A new gate reads every list on every run: a file a seal hashed cannot change, and from the rule's first commit a list cannot be edited, deleted or moved, so it cannot be rewritten to match; the 63 are frozen by key as a ceiling that may only shrink; an amendment is a new list with the old key named and printed. Proved on eleven tests with committed planted violations, the re-audit's own case among them. The older gates now put their waivers in their sentence and count waived commits apart; mending that, main found the runner printed a bare ok for every pass, so no sentence reached the reader: the three gates that hold waivers or amendments by name now print theirs whole. Five of the re-audit's cases stay open and are listed. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}

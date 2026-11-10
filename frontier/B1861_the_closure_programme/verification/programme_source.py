@@ -549,6 +549,15 @@ U("E3", "PARTLY FIXED", "B1856 says that invisible to every state is E = +1, giv
 U("X3", "REPRODUCED", "main re-ran it (B1873): the script the foundation cites for the live price, outside_bench/certificates/the_price_is_twelve.py, exits 1 on main ('24 ROWS OUTSTANDING' is not stated in the verdict page) and nothing runs it; the other script for the same price, B1266's, passes on a typed 4. Both halves of the finding stand. B1870 had tested the second script, the finding having named none")
 U("L10", "REPRODUCED", "main re-ran it in a clean checkout (B1873): two test files pass and leave a tracked evidence file modified (B1464's seal census); the seat saw a second file change on its machine")
 
+# B1874 (2026-11-10): WHAT MAIN DID AFTER THE RE-AUDIT READ IT.  The seat's verdicts above are of main at ACCEPTED_AT and are not
+# changed here: a verdict on a commit says nothing of a later one.  Each entry names the arc and what it changed; the builder
+# prints the finding as changed since the re-audit and not re-read, and refuses an entry for a finding the re-audit gave no
+# verdict on, or naming an arc that is not on main.
+SINCE_REAUDIT = {
+    "G2": ("B1874", "the re-audit's largest residual: a gate reads every list of hashed files (189 lists, 1497 entries), a listed file cannot change, and a list cannot be edited, deleted or moved; the 63 entries that did not verify are frozen by key; eleven tests on committed planted violations, the seat's own case among them. Left of this finding: a rule under a name outside the seal patterns, and a sealed-style file one folder deeper"),
+    "G1": ("B1874", "the second of its three residuals: both gates put every waiver, with its reason, in their sentence and count waived commits apart from appends; and the runner, which printed a bare ok for every pass, now prints those sentences whole (a waived violation committed in a small repository is named in the printed line). Left: the log's archives, and the history before the rule"),
+}
+
 # the owner's rulings of 2026-11-10 AS RELAYED by the advisor seat. The relay's own rule, and main's: each is confirmed with the
 # owner once before main acts on it. Main asked on 2026-11-10 about the eleven then relayed; the owner answered main the same day,
 # in the words kept in CONFIRMATION below. The two relayed after main had asked were not covered by that answer; asked about them,

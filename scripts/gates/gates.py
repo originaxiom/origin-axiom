@@ -9,6 +9,8 @@ Design rules: no network, no heavy imports, stdlib only; a gate returns (ok, det
 whitelists are explicit frozen constants in this file (auditable, versioned).
 """
 import base64
+import fnmatch
+import hashlib
 import json
 import glob
 import os
@@ -197,7 +199,9 @@ def gate_append_only():
         return False, "git unavailable: the working log cannot be compared with HEAD's"
     cur = _read("PROGRESS_LOG.md")
     if cur.startswith(head):
-        return True, f"HEAD prefix preserved; {n} commit(s) since {APPEND_ONLY_FROM[:9]}, each an append"
+        w = APPEND_ONLY_WAIVED                 # the re-audit's a2: a waived commit is not an append, and the sentence must say so
+        return True, (f"HEAD prefix preserved; {n} commit(s) since {APPEND_ONLY_FROM[:9]}: {n - len(w)} an append or a roll-up, {len(w)} waived by name"
+                      + "".join(f" [{c[:9]}: {why}]" for c, why in sorted(w.items())))
     arch_dir = os.path.join(ROOT, "docs", "progress")
     archive = ""
     if os.path.isdir(arch_dir):
@@ -1212,7 +1216,140 @@ def gate_seal_immutable():
     problems, n = seal_immutable_problems(ROOT, SEAL_IMMUTABLE_FROM, SEAL_IMMUTABLE_WAIVED)
     if problems:
         return False, "; ".join(problems)
-    return True, f"ok ({n} commit(s) since {SEAL_IMMUTABLE_FROM[:9]} touch a sealed-style file, each only adding one)"
+    w = SEAL_IMMUTABLE_WAIVED
+    return True, (f"ok ({n} commit(s) since {SEAL_IMMUTABLE_FROM[:9]} touch a sealed-style file, each only adding one, or waived by name; waived: {len(w)}"
+                  + "".join(f" [{c[:9]} {p}: {why}]" for (c, p), why in sorted(w.items())) + ")")
+
+
+# THE SCRIPTS A SEAL HASHED (the advisor seat's second re-audit, 2026-11-10; its planted case s1, measured and gated in B1874).
+# A seal names two things: what will count, and the code that will compute it.  The gates above protect the first.  189 folders
+# carry a list of hashed files (ARTIFACT_HASHES*.txt) and no gate read one, so a sealed criterion could not be changed after the
+# fact and the script that evaluates it could.  Two checks close that:
+#   (1) every entry of every tracked list still verifies against the tracked file it names -- except the entries that did not on
+#       2026-11-10, frozen below by key as a ceiling that may only shrink (docs/ARTIFACT_HASHES_BROKEN.md says what each one is);
+#   (2) a list itself does not change after it is committed: history is read as for the sealed files, from the rule's first commit.
+# Together: a listed script cannot be edited (1), and the list cannot be edited to match (2).  A repair is a new list beside the old.
+ARTIFACT_HASH_GLOB = "ARTIFACT_HASHES*.txt"
+_HEX64 = re.compile(r"(?<![0-9a-f])([0-9a-f]{64})(?![0-9a-f])")
+ARTIFACT_HASHES_BROKEN = frozenset((          # 63 entries, as found on 2026-11-10; each is a row of docs/ARTIFACT_HASHES_BROKEN.md
+    "02ea635d28e4", "06458ed7c5bb", "06e82ea84734", "09b03b0f5a17", "0f676ba0859b", "1425dd14fa31", "1a0d44019eee", "1d6b5ee7558d",
+    "1ec90f1c68fd", "21b857462e0d", "25732c881109", "2eb7fd535c37", "32d25b5ab1c0", "35c825435176", "364bd75c9f7c", "4496610d521a",
+    "46b056c1d0cd", "5016a52c4e0c", "5ce1a4764092", "65bf3f5fbacc", "68f916e3c6ff", "6c6c1c530bd1", "6d730200be1c", "6ebd8e4c93f4",
+    "6fc7e0fe470f", "6fcddd572169", "740cbb6a1698", "756fcc1dfcbc", "761da67ed455", "7d1d25023434", "7f11b8227c1b", "8edb72a566ef",
+    "93a1fa13ed35", "94b613da1a0b", "96d7ceb60570", "9d9af43f0d7a", "a1b557f176e6", "a50ecf35c25c", "a781df3d8c83", "aa706b8423e2",
+    "b0784290c658", "b08f5c13fb89", "b172cca70c9d", "b1ee7bcab53b", "bb31a0e7ad28", "c40fd50bc5f9", "c4c204301962", "c74fc59dcb91",
+    "cb74650a43c6", "d8ef558d9c73", "da15d6f062e9", "e129fe00f880", "e2df6ca12f6c", "e3b1af50cac7", "e7a0d80c61dc", "e7a0e6996e21",
+    "e8640674a562", "ed75482fbcf7", "ed90ccc5013d", "ef83de39507e", "efc217e26982", "f86e2456f4e8", "ffbed605bc39",
+))
+ARTIFACT_HASHES_IMMUTABLE_FROM = "270a27ee6c500c4f883cdd6a0e33558b89b71e5a"     # the rule is read in history from this commit on (2026-11-10)
+ARTIFACT_HASHES_WAIVED = {}                                                # (full sha, path) -> the owner's reason
+# A disclosed amendment after this rule: the changed file's new hash goes into a NEW list beside the old one, and the old entry's
+# key is named here with the reason.  Every key named here is printed on every run, so an amendment cannot pass unseen.
+ARTIFACT_HASHES_AMENDED = {}                                               # key -> where the amendment is disclosed
+
+
+def _hash_list_entry(line):
+    """(sha256, the file name it is recorded for) for one line of a list of hashed files, in any format the record uses;
+    None for a line that records no hash; (sha256, None) for a hash with no file name beside it"""
+    m = _HEX64.search(line)
+    if not m:
+        return None
+    rest = (line[:m.start()] + " " + line[m.end():]).strip()
+    rest = re.sub(r"\bsha256\b\s*[:=]?", " ", rest, flags=re.I)
+    names = [t.strip("`'\",;()*:=") for t in rest.split() if "." in t or "/" in t]
+    return m.group(1), (names[0] if names else None)
+
+
+def artifact_hash_state(repo=None):
+    """Every entry of every tracked list of hashed files under `repo`: a list of (key, list path, name, state), or None where
+    the tracked files cannot be listed.  state is VERIFIES, MISMATCH, NOT TRACKED, ABSENT or NO NAME.  A name is looked for
+    beside its list first, then in the list's verification folder, then from the repository's root."""
+    repo = str(repo or ROOT)
+    r = subprocess.run(["git", "-C", repo, "ls-files"], capture_output=True, text=True, timeout=120)
+    if r.returncode != 0:
+        return None
+    tracked = set(r.stdout.split("\n"))
+    out = []
+    for lst in sorted(f for f in tracked if fnmatch.fnmatch(os.path.basename(f), ARTIFACT_HASH_GLOB)):
+        d = os.path.dirname(lst)
+        try:
+            lines = open(os.path.join(repo, lst), encoding="utf-8", errors="replace").read().split("\n")
+        except OSError:
+            continue
+        for line in lines:
+            e = _hash_list_entry(line.strip())
+            if e is None:
+                continue
+            h, name = e
+            key = hashlib.sha256(f"{lst}|{name}|{h}".encode("utf-8")).hexdigest()[:12]
+            if name is None:
+                out.append((key, lst, name, "NO NAME"))
+                continue
+            cands = [os.path.normpath(os.path.join(d, name)), os.path.normpath(os.path.join(d, "verification", name)), os.path.normpath(name)]
+            hit = next((c for c in cands if c in tracked), None)
+            if hit is None:
+                on_disk = any(os.path.exists(os.path.join(repo, c)) for c in cands)
+                out.append((key, lst, name, "NOT TRACKED" if on_disk else "ABSENT"))
+                continue
+            try:
+                now = hashlib.sha256(open(os.path.join(repo, hit), "rb").read()).hexdigest()
+            except OSError:
+                out.append((key, lst, name, "ABSENT"))
+                continue
+            out.append((key, lst, hit, "VERIFIES" if now == h else "MISMATCH"))
+    return out
+
+
+def hash_lists_immutable_problems(repo, root, waived=(), limit=5):
+    """The committed changes to a list of hashed files on `repo`'s first-parent line after `root`: (problems, commits read).
+    A pure function of the commit graph, as seal_immutable_problems is; it fails closed where history cannot be read."""
+    def git(*a):
+        return subprocess.run(["git", "-C", str(repo), *a], capture_output=True, text=True, timeout=120)
+    if git("rev-parse", "--git-dir").returncode != 0:
+        return ["cannot verify: not a git repository"], 0
+    if git("cat-file", "-e", root + "^{commit}").returncode != 0:
+        return [f"cannot verify: the rule's first commit {root[:9]} is not in this clone (shallow or partial)"], 0
+    if git("merge-base", "--is-ancestor", root, "HEAD").returncode != 0:
+        return [f"cannot verify: HEAD does not descend from the rule's first commit {root[:9]}"], 0
+    spec = ":(glob)**/" + ARTIFACT_HASH_GLOB
+    commits = git("log", "--first-parent", "--reverse", "--format=%H", f"{root}..HEAD", "--", spec).stdout.split()
+    verbs = {"M": "edits", "D": "deletes", "R": "moves", "T": "changes the type of", "C": "copies over"}
+    problems = []
+    for c in commits:
+        out = git("diff-tree", "--no-commit-id", "--name-status", "-r", "-M", f"{c}^", c, "--", spec).stdout
+        for line in out.splitlines():
+            parts = line.split("\t")
+            if len(parts) < 2 or parts[0].startswith("A"):
+                continue                               # a new list is a seal
+            if (c, parts[1]) in waived:
+                continue
+            problems.append(f"{c[:9]} {verbs.get(parts[0][0], 'changes')} the list of hashed files {parts[1]}")
+    return problems[:limit], len(commits)
+
+
+def gate_artifact_hashes(_repo=None, _frozen=None, _root=None, _waived=None, _amended=None):
+    """What a seal hashed still has the hash the seal recorded, and the record of the hashes does not change (see the note above)."""
+    repo = _repo or ROOT
+    frozen = ARTIFACT_HASHES_BROKEN if _frozen is None else _frozen
+    amended = ARTIFACT_HASHES_AMENDED if _amended is None else _amended
+    state = artifact_hash_state(repo)
+    if state is None:
+        return False, "cannot verify: the tracked files cannot be listed (not a git repository)"
+    broken = [(k, lst, name, st) for (k, lst, name, st) in state if st != "VERIFIES"]
+    new = [(k, lst, name, st) for (k, lst, name, st) in broken if k not in frozen and k not in amended]
+    if new:
+        return False, "; ".join(f"{name or '(no name)'}: {st} against {lst}" for (k, lst, name, st) in new[:5]) + (
+            f" (+{len(new) - 5} more)" if len(new) > 5 else "") + " -- a file a seal hashed has changed, or a list names what is not there"
+    problems, n = hash_lists_immutable_problems(repo, _root or ARTIFACT_HASHES_IMMUTABLE_FROM, ARTIFACT_HASHES_WAIVED if _waived is None else _waived)
+    if problems:
+        return False, "; ".join(problems)
+    lists = len({lst for (_, lst, _, _) in state})
+    waived = ARTIFACT_HASHES_WAIVED if _waived is None else _waived
+    distinct = len({k for (k, _, _, _) in broken})
+    return True, (f"ok ({len(state)} entries in {lists} lists: {len(state) - len(broken)} verify, {len(broken)} do not ({distinct} distinct, each frozen by key "
+                  f"as found on 2026-11-10 or amended by name; the ceiling is {len(frozen)}); {n} commit(s) since {(_root or ARTIFACT_HASHES_IMMUTABLE_FROM)[:9]} touch a list, each only adding one; "
+                  f"amended by name: {len(amended)}" + ("".join(f" [{k}: {why}]" for k, why in sorted(amended.items()))) + f"; waived: {len(waived)}"
+                  + ("".join(f" [{c[:9]} {p}: {why}]" for (c, p), why in sorted(waived.items()))) + ")")
 
 
 # R76-2 (P-601; Review 74's R74-9): the sealed tests whose order git cannot show -- the rule (PREREGISTRATION.md) and the
@@ -2108,6 +2245,7 @@ GATES = {
     "review-core": gate_review_core,
     "seal-ledger-current": gate_seal_ledger_current,
     "seal-immutable": gate_seal_immutable,
+    "artifact-hashes": gate_artifact_hashes,
     "seal-order-unshown": gate_seal_order_unshown,
     "pretense-phrases": gate_pretense_phrases,
     "member-scope": gate_member_scope,
@@ -2127,6 +2265,25 @@ def run_all():
     return results
 
 
+# Gates whose passing sentence carries a count the reader must see on every run: waivers and amendments made by name. The
+# advisor seat's second re-audit (its cases a2 and s5): a waiver made its violation vanish from the gate's own sentence. Main
+# found one thing more when mending it (B1874): the runner printed a bare "ok" for every pass, so a gate's sentence, waivers
+# and all, never reached the reader.
+PRINTS_ITS_SENTENCE = ("append-only", "seal-immutable", "artifact-hashes")
+
+
+def result_line(name, ok, detail):
+    """the one line the runner prints for a gate. A gate that passed by checking nothing is printed SKIP with its own words,
+    never a bare "ok" (the advisor seat's audit, G5; main's planted run found five gates that skip without git and print ok).
+    A gate that holds waivers or amendments by name prints its whole sentence when it passes."""
+    skipped = ok and isinstance(detail, str) and ("skipped" in detail or "unavailable" in detail or "no review anchor" in detail)
+    if skipped:
+        return f"  SKIP  {name}: {detail}"
+    if ok and name in PRINTS_ITS_SENTENCE and isinstance(detail, str) and detail:
+        return f"  PASS  {name}: {detail}"
+    return f"  {'PASS' if ok else 'FAIL'}  {name}: {detail if not ok else 'ok'}"
+
+
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "review-due":
         n, due = review_status()
@@ -2140,13 +2297,7 @@ if __name__ == "__main__":
     res = run_all()
     worst = 0
     for name, (ok, detail) in res.items():
-        # a gate that passed by checking nothing says so: it is printed SKIP with its own words, never a bare "ok"
-        # (the advisor seat's audit, G5; main's planted run found five gates that skip without git and print ok)
-        skipped = ok and isinstance(detail, str) and ("skipped" in detail or "unavailable" in detail or "no review anchor" in detail)
-        if skipped:
-            print(f"  SKIP  {name}: {detail}")
-        else:
-            print(f"  {'PASS' if ok else 'FAIL'}  {name}: {detail if not ok else 'ok'}")
+        print(result_line(name, ok, detail))
         worst = max(worst, 0 if ok else 1)
     n, due = review_status()
     print(f"  review-due: {n} merges since last review "

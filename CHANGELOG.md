@@ -1,5 +1,20 @@
 # Changelog
 
+## S306o (the re-audit's largest item) THE SCRIPTS A SEAL HASHED: MEASURED, AND GATED (B1874; P-772 in part) (2026-11-10)
+
+- **What was open:** the advisor seat's second re-audit showed that a sealed rule's text is protected and the script that evaluates it is not. It changed one line of a script the candidate's seal had hashed, and every gate passed.
+- **Measured first:** 189 tracked lists of hashed files hold 1 497 entries. 1 430 verify against the tracked file they name; 67 do not (63 distinct).
+  - 11, in six arcs, are a script or an output that a seal hashed and that changed with no later entry for the new version (B1486, B1490, B1494, B1495, B1499, B656). The file itself marks the change in 4 and not in 7.
+  - 16 are an earlier version's hash beside a current one that verifies: an amendment the list itself records.
+  - The rest are lists that never described the tracked files: 11 pages that went on being written, 13 run logs never tracked, 8 files not in the repository, 3 with no matching version in history, 1 hash with no name.
+- **The new gate, `artifact-hashes`:** on every run it reads every list. A listed file cannot change, and from the rule's first commit a list cannot be edited, deleted or moved, so it cannot be rewritten to match. The 63 are frozen by key as a ceiling that may only shrink, and each is on `docs/ARTIFACT_HASHES_BROKEN.md`. An amendment is a new list with the old key named, and every named key is printed.
+- **Proved on committed planted violations:** eleven tests, each building a small repository and running the gate on the clean tree. The re-audit's own case is refused; so is the same change with the list rewritten in the same commit.
+- **The re-audit's point on waivers, mended as it proposed:** the log's gate and the sealed-file gate put every waiver, with its reason, in their sentence and count waived commits apart. Both lists are empty today.
+- **One thing more, found while mending it:** the runner printed a bare "ok" for every gate that passed, so no gate's sentence reached the reader. The three gates that hold waivers or amendments by name now print their whole sentence on every run. A sealed rule's edit, committed in a small repository and waived by name, appears in the printed line with its commit, file and reason.
+- **The programme:** what main changes after a re-audit is recorded apart from that seat's verdict and shown as not re-read (rule 20, with a planted control). G1 and G2 carry it.
+- **Left of the re-audit (P-772):** the six arcs read one by one; a rule under a name outside the seal patterns; a sealed-style file one folder deeper; a rule committed after its record; the log's archives; the premise's two signs carried to four places.
+- 0 of 19.
+
 ## S306o (at the owner's word) THE CLOSURE PROGRAMME READ BY A NON-AUTHOR: FOUR REPAIRS, THREE CORRECTIONS TO MAIN'S OWN RECORD, ONE DEBT (B1873; P-773) (2026-11-10)
 
 - **The owner:** "fetch new audit branch: REAUDIT_2_2026-11-10.md and READ_OF_B1861_AS_A_NON_AUTHOR.md are both waiting." The re-audit was already taken up (P-772). This is the read.
