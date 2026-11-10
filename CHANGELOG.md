@@ -1,5 +1,20 @@
 # Changelog
 
+## S306o (the second fetch of the evening) WHAT CONCENTRATES UNDER THE MOVE COUNT: THE WEB SEAT'S CARD VERIFIED ON MAIN (B1868; P-756 answered on the modulus's side; P-755 put to the owner) (2026-11-10)
+
+- **The computation that was to come before the owner's ruling on the law's reading is in.** The web seat ran it as a sealed card. Main verified it with its own code and another method: a quadrature against Minkowski's measure, with no random numbers.
+- **The card holds at every point main's method reaches:**
+  - the exponent per move 0.792425 and the correlation dimension 0.844609, from the Stern–Brocot intervals to depth 22;
+  - the density against area sharpens at i with exponent −0.1555 (the card: −0.1542 statistical, −0.1557 by its second code; the prediction −0.1554), and at i√2 with −0.0766; it is flat at i√3 and at 1.34 i;
+  - the time a history spends within ε of i is of order ε^1.845: it tends to zero. No point has positive weight, by a theorem;
+  - the walk at level 5 and its second modulus, √3/2 eight times, exactly.
+- **What it means:** read as the move count, "everything allowed happens" gives a typical history's law and singles out no value of the modulus. It closes nothing, as the seat says itself.
+- **Not verified by main:** the five tested points off the imaginary axis, and that the law has a density at all (the seat cites a theorem for compact surfaces and discloses the gap).
+- **Main's recommendation on the law's reading is put to the owner (P-755):** record the law as what exists; do not adopt the move count as the weight; leave the weight open as the object of the closed loop.
+- **The advisor seat's result of its ambiguity attack was read** and three of its integer facts checked. Its two further sentences of the owner are recorded as relayed and not acted on.
+- **The register:** P-756, P-480 and P-768 closed; P-769 (the root as one tick or two acts: the table of what each gains and breaks, owed before any ruling) and P-770 (the exponent along the axis, a lead on the weight's side) opened.
+- Harvest rows 1652–1657; pins chat1 `e5cc47e9`, advisor `5ae34492`; a reply to the web seat in `docs/handoffs/`. 0 of 19.
+
 ## S306o (the refetch, continued) THE OWNER DID NOT CONFIRM THE TWO LATER RELAYED RULINGS (P-758 closed, P-765 declined) (2026-11-10)
 
 - **Asked whether the advisor seat's twelfth and thirteenth relayed rulings are the owner's, the owner answered main:** "im not very sure about it, i wouldnt take it for granted", and "it was in other context". Main treats neither as a ruling and acts on neither.

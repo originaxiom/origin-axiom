@@ -433,7 +433,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **Stated about:** thread 3, weave 3.
 - **Also bears on nodes held elsewhere:** MC:HYP.
 - **Missing dependencies it works on:** X:HAND.
-- **Register:** P-764 (QUEUED), P-766 (QUEUED).
+- **Register:** P-764 (QUEUED), P-766 (QUEUED), P-769 (QUEUED).
 
 **WP-1.5 — The root, selection, and thread results** (DECIDE; NOT STARTED; owner: main)
 
@@ -451,13 +451,13 @@ Each group rests on itself: no member becomes unconditional before the others.
 **WP-1.6 — The law and the weight** (DECIDE; STARTED; owner: main; the owner for the law's reading)
 
 - **The question:** If everything allowed happens, what weighs it: does the execution itself force a weight, and does that weight single out one outcome?
-- **The first step:** on the record: the height's law under each clock, the walk's exit law, the sealed draw test. Not on the record: concentration. State what would count as concentration (an atom; a stationary point of a function the moves fix; a unique maximiser of a rate function), then compute under the move count.
+- **The first step:** on the record: the height's law under each clock, the walk's exit law, the sealed draw test. Concentration under the move count, on the modulus's side, is answered (B1868, the web seat's sealed card verified on main): no atom, by a theorem; no concentration of mass; the density against area sharpens at one symmetric point and holds no weight there; under area nothing sharpens. So a declared clock gives a typical history and no value. Not computed by anyone: a rate function with a unique maximiser. Next: the closed loop's first back-edge, pre-registered and reviewed before any run; and the definition of the joint read-out of all allowed histories.
 - **Closed when:** a weight that the grammar forces and under which one outcome is singled out, proved; or two distinct self-consistent outcomes exhibited, which refutes the claim of one outcome as the owner has stated it. A declared clock with typicality as what is predicted is the picture the owner has ruled against (relayed by the advisor seat and confirmed to main on 2026-11-10): it would be recorded as the claim not met, and it closes nothing.
 - **Nodes (5):** W:LAW, W:CLOCK, W:FLAT-SUM, T:POINT-WEIGHT, T:MINIM.
 - **Stated about:** thread 2, weave 3.
 - **Also bears on nodes held elsewhere:** D:12.
 - **Missing dependencies it works on:** X:TAU, X:WEIGHT.
-- **Register:** P-755 (OWNER), P-756 (QUEUED), P-439 (QUEUED), P-758 (DONE), P-761 (QUEUED), P-762 (QUEUED), P-765 (DECLINED).
+- **Register:** P-755 (OWNER), P-756 (DONE), P-439 (QUEUED), P-758 (DONE), P-761 (QUEUED), P-762 (QUEUED), P-765 (DECLINED), P-770 (QUEUED).
 - **The audit's findings (2):** W6, W7.
 - **Relayed rulings:** the claim; the weave discipline; what self-consistent means; the first back-edge to try; the fork inside it; the founding principle as the selection rule; the gap, for every seat.
 

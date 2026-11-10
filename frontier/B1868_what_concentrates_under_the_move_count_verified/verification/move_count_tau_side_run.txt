@@ -1,0 +1,23 @@
+Part 1. Stern-Brocot sums to depth 22 (main's own; exact integers, then logarithms)
+  the exponent per move (the growth of -log length per level): 0.792418, 0.792425, 0.792425 at depths 12, 16, 21  -> 0.792425
+  the correlation dimension D2 (the lengths' sum of order -D2 grows by 4 per level): 0.844609, 0.844609, 0.844609, 0.844609 at depths 12, 15, 18, 21  -> 0.844609
+  the dimension of the measure itself, log 2 over the exponent: 0.8747; D2 lies below it: True
+Minkowski's function: the vectorised evaluation against exact rational arithmetic on 270 rationals: largest difference 1.1e-16
+Part 2. the mass of histories within delta of a point iy of the axis, C_y(s), s = sinh delta; quadrature at the 2^n nu-midpoints, n = 14, 16, 18
+  controls: the midpoints pair off under x -> 1/x (largest defect of the products from 1: 2.2e-16); the mass with no restriction is 1.0000; half the midpoints lie below 1: True
+  i         exponent of C over s = 2^-5 .. 2^-11: 0.8445, 0.8445, 0.8445 at depths 14, 16, 18; minus 1: -0.1555; local exponents at depth 18: 0.847 0.843 0.841 0.845 0.848 0.845 0.842; depth 18 against 16: within 5.9e-05
+  i sqrt 2  exponent of C over s = 2^-5 .. 2^-11: 0.9233, 0.9234, 0.9234 at depths 14, 16, 18; minus 1: -0.0766; local exponents at depth 18: 0.928 0.921 0.923 0.923 0.924 0.923 0.923; depth 18 against 16: within 2.7e-04
+  i sqrt 3  exponent of C over s = 2^-5 .. 2^-11: 1.0055, 1.0053, 1.0054 at depths 14, 16, 18; minus 1: 0.0054; local exponents at depth 18: 0.995 1.032 0.979 1.018 0.999 1.009 1.004; depth 18 against 16: within 4.5e-04
+  1.34 i    exponent of C over s = 2^-5 .. 2^-11: 1.0058, 1.0058, 1.0058 at depths 14, 16, 18; minus 1: 0.0058; local exponents at depth 18: 1.080 1.036 0.985 0.974 0.998 1.000 1.006; depth 18 against 16: within 8.5e-05
+  the seat's card, slope of the density against area: -0.1542 at i (and -0.1557 by its second code), -0.0759 at i sqrt 2, +0.0061 at i sqrt 3, +0.0177 at 1.34 i (its Q4)
+  main: -0.1555 at i against D2 - 1 = -0.1554; -0.0766 at i sqrt 2; 0.0054 at i sqrt 3; 0.0058 at 1.34 i
+Part 3. the time within eps of i: local exponents for eps = 2^-4 .. 2^-10: 1.847 1.847 1.846 1.843 1.843 1.846; area's exponent is 2, so the density against area goes as eps^(-0.155 on average)
+  the time within eps of i is of order eps^1.845: it tends to zero. No value of tau holds a share of the weight.
+Part 4. the walk on SL(2, F5), 120 elements, exact transition matrix: distance from uniform after 10, 20, 40, 80 moves: 2.93e-01, 6.49e-02, 3.57e-03, 1.16e-05
+  the second modulus of the step is 0.866025 (sqrt 3 / 2 = 0.866025), 8 times; the rate between 40 and 80 moves: 0.8666 per move
+Part 5. level 5, the seat's exact facts: LR has trace 3 and fixes 1 eigenline, spanned by (1, 3), acting on it by 4; stabilisers of a vector, a line, an eigenline: 5, 10, 20
+  traces of elements fixing some line: [2, 3] (none: [0, 1, 4]); fixing some eigenline: [0, 2, 3] (none: [1, 4]); S fixes 2 of the 6 eigenlines: [(1, 2), (1, 3)]
+  N: eigenlines fixed by S, by ST, for N = 2 .. 13: 2:1,0 3:0,1 4:0,0 5:2,0 6:0,0 7:0,2 8:0,0 9:0,0 10:2,0 11:0,0 12:0,0 13:2,2
+Part 6. from the advisor seat's attack result: the conserved quantity is unchanged by a move, as a polynomial identity (all 2197 integer triples from -6 to 6): True
+  the trace of a history's commutator with the ground LR, less two, over the rotations of LLR: [-11, 1]; of LLRR: [-36, -4]  -> it is not a property of the cyclic history
+  of the 4092 words of length 2 to 11, 349 commute with the ground at level 5, and for all of them that number is divisible by 25: True (run of 6: 25; (2,2,2): 25); for the others it takes 11 residues mod 25

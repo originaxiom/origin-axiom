@@ -18976,3 +18976,25 @@ Two lanes pushed new work while this was being written: one has run the computat
 owner's ruling on how the founding law is to be read, and the other has finished its test of whether the principle's
 words fix the mathematics. Neither has been read yet. Both are next, and the computation is checked with main's own
 code before it counts. 0 of 19.
+
+## 2026-11-10 — S306o (the second fetch of the evening): if every move is equally likely, no value is singled out
+
+The owner's law says that whatever is allowed to happen, happens. One way to turn that into numbers is to count:
+give every allowed move the same chance and ask what a typical history looks like. The owner and main had agreed
+that this computation should be done before deciding whether that is what the law means.
+
+Another lane did it, as a test whose rules were fixed before it ran. Main then checked the result with a different
+method that uses no random numbers. The two agree to three digits.
+
+The answer is that nothing is singled out. No value of the quantity in question gets a finite share of the weight.
+The distribution does grow sharper around one special, highly symmetric point, but the share of time a history
+spends near that point still shrinks to zero as one looks closer. Counting moves gives a typical history, and a
+typical history is not a derived value. The owner has already ruled that being typical is not the goal.
+
+So main has recommended to the owner: keep the law as the statement of what takes part, and do not treat the count
+of moves as the thing that weighs it. What does the weighing is still the open problem, and it is where the closed
+loop the owner has confirmed has to do its work.
+
+The advisor's test of whether the principle's wording fixes the mathematics also came back. Readers who had not seen
+the record agreed on the first step and on nothing after it. It raised one question worth computing before anyone
+rules on it: whether the root of everything is two separate acts or a single one. That is now on the list. 0 of 19.

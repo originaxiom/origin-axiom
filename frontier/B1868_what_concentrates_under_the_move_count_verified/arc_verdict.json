@@ -1,0 +1,31 @@
+{
+ "id": "B1868",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1813",
+  "B1815",
+  "B1663",
+  "B1629",
+  "B1861",
+  "B1867"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the web seat's sealed card on what concentrates under the move count, with its second code path and its exact facts for the claim about all histories together (relays/CHAT1_TO_CC_2026-11-10_WHAT_CONCENTRATES_UNDER_THE_MOVE_COUNT.md, relays/chat1_2026-11-10_p756b/, relays/chat1_2026-11-10_aall/ @ e5cc47e9; harvest rows 1652 to 1654): read in full; none of its code run; its numbers reproduced by main's own code and another method at the four tested points on the imaginary axis, its level-5 numbers exactly; the five points off the axis, the cited absolute continuity and its side exponents left at the seat's grade",
+  "the advisor seat's result of its ambiguity attack, its two further relayed sentences of the owner and its questions (relays/advisor_2026-11-10_audit/principle_top_down/attack_A/RESULT.md, OWNER_RULINGS_2026-11-10.md, principle_top_down/QUESTIONS_AFTER_R14_R15.md @ 5ae34492; harvest rows 1655 to 1657): read in full; three of its integer facts checked; its result and its questions left at the seat's grade; the relayed sentences not acted on"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (the grammar's moves with fair letters; Minkowski's measure; the modular surface)",
+  "object": "the law of the modulus under the move count near four points of the imaginary axis; the Stern-Brocot intervals to depth 22; the walk on SL(2, F5); words up to length 11 against the golden ground at level 5",
+  "reach": "general",
+  "hypotheses": "the move count is one reading of the law and is a choice, as is placing the modulus by arclength (both the seat's, stated); the exponents are fits over seven octaves of a quadrature at three depths; main did not verify the five points off the axis or that the law has a density; no atom is a theorem"
+ },
+ "claim_one_line": "WHAT CONCENTRATES UNDER THE MOVE COUNT: THE WEB SEAT'S SEALED CARD VERIFIED ON MAIN (P-756 (b), the modulus's side; data-free; the seat's code read and not run; main's own code and another method, a quadrature against Minkowski's measure with no random numbers): the card holds at every point main's method reaches. The exponent per move is 0.792425 and the correlation dimension of Minkowski's measure 0.844609, from the Stern-Brocot intervals to depth 22; the weight of histories passing within a distance of i scales with exponent 0.8445, so the density against area goes as the radius to the -0.1555 (the seat: -0.1542 +- 0.0005 statistical, -0.1557 by its second code; D2 - 1 = -0.1554); at i sqrt 2 as -0.0766 (the seat: -0.0759); flat at i sqrt 3 and at 1.34 i; the time within a radius of i is of order the radius to the 1.845 and tends to zero; no point has positive weight (a theorem); the walk at level 5 is at 0.293, 0.0649, 0.00357, 1.16e-5 from uniform after 10, 20, 40, 80 moves, its second modulus sqrt 3 / 2 eight times. So read as the move count the law gives a typical history and singles out no value of the modulus: it closes nothing, as the seat says. Not verified by main: the five points off the imaginary axis, and that the law has a density (cited by the seat with a gap). The seat's exact facts at level 5 for the claim about all histories together reproduce. The advisor seat's result of its ambiguity attack is read at the seat's grade and three of its integer facts checked (the conserved quantity under a move; the commutator with the ground is not a property of the cyclic history; it is divisible by 25 when the history commutes with the ground at level 5); its two further relayed sentences of the owner are not acted on. Main's recommendation on the law's reading is put to the owner (P-755). 0 of 19.",
+ "weave_or_thread": "weave (every history counted at once by moves; no thread chosen), on two stated choices: the move count as the weight and the modulus placed by arclength. A line result: nothing computed here constrains either choice"
+}

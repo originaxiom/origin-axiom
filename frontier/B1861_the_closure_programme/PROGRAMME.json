@@ -2539,11 +2539,13 @@
    ],
    "rows": [
     "P-764",
-    "P-766"
+    "P-766",
+    "P-769"
    ],
    "rows_live": {
     "P-764": "QUEUED",
-    "P-766": "QUEUED"
+    "P-766": "QUEUED",
+    "P-769": "QUEUED"
    },
    "rulings": [],
    "sits_under": 6,
@@ -2640,7 +2642,7 @@
     "W6",
     "W7"
    ],
-   "first": "on the record: the height's law under each clock, the walk's exit law, the sealed draw test. Not on the record: concentration. State what would count as concentration (an atom; a stationary point of a function the moves fix; a unique maximiser of a rate function), then compute under the move count",
+   "first": "on the record: the height's law under each clock, the walk's exit law, the sealed draw test. Concentration under the move count, on the modulus's side, is answered (B1868, the web seat's sealed card verified on main): no atom, by a theorem; no concentration of mass; the density against area sharpens at one symmetric point and holds no weight there; under area nothing sharpens. So a declared clock gives a typical history and no value. Not computed by anyone: a rate function with a unique maximiser. Next: the closed loop's first back-edge, pre-registered and reviewed before any run; and the definition of the joint read-out of all allowed histories",
    "given": [],
    "id": "WP-1.6",
    "intent": "DECIDE",
@@ -2673,16 +2675,18 @@
     "P-758",
     "P-761",
     "P-762",
-    "P-765"
+    "P-765",
+    "P-770"
    ],
    "rows_live": {
     "P-439": "QUEUED",
     "P-755": "OWNER",
-    "P-756": "QUEUED",
+    "P-756": "DONE",
     "P-758": "DONE",
     "P-761": "QUEUED",
     "P-762": "QUEUED",
-    "P-765": "DECLINED"
+    "P-765": "DECLINED",
+    "P-770": "QUEUED"
    },
    "rulings": [
     "the claim",

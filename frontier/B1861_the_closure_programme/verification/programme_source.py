@@ -97,7 +97,7 @@ P("WP-1.4", "C1", "The swap and the hand",
   "Is one sheet of the orientation double cover selected by anything, or are the swap and the orientation two declared bits?", "DECIDE",
   "state what a derivation would need: a weight under which the weave's state breaks the mirror by itself (so this waits on WP-1.6); or carry both sheets",
   "a proved selection; or two declared bits with their observable consequences written down", "main", ["WP-1.6"], "NOT STARTED",
-  ["P-764", "P-766"], ["G:GM5c", "G:FK3", "G:SE2", "G:FK2", "S:S02", "FL:03", "G:GM5d"])
+  ["P-764", "P-766", "P-769"], ["G:GM5c", "G:FK3", "G:SE2", "G:FK2", "S:S02", "FL:03", "G:GM5d"])
 P("WP-1.5", "C1", "The root, selection, and thread results",
   "Under the weave's rule no thread is chosen: which results survive as statements about the weave, and is the root anything more than an origin of coordinates?", "DECIDE",
   "the structural theorem off the root: run its frame on the weave's own surface or on every thread (it has only ever been run on m004)",
@@ -105,10 +105,10 @@ P("WP-1.5", "C1", "The root, selection, and thread results",
   ["P-755", "P-764"], ["G:SE1", "G:FK9", "G:GAP4", "G:XGEN-PHYS", "G:FK13", "MC:REACH", "FL:08", "FL:18", "FL:27", "D:12"])
 P("WP-1.6", "C1", "The law and the weight",
   "If everything allowed happens, what weighs it: does the execution itself force a weight, and does that weight single out one outcome?", "DECIDE",
-  "on the record: the height's law under each clock, the walk's exit law, the sealed draw test. Not on the record: concentration. State what would count as concentration (an atom; a stationary point of a function the moves fix; a unique maximiser of a rate function), then compute under the move count",
+  "on the record: the height's law under each clock, the walk's exit law, the sealed draw test. Concentration under the move count, on the modulus's side, is answered (B1868, the web seat's sealed card verified on main): no atom, by a theorem; no concentration of mass; the density against area sharpens at one symmetric point and holds no weight there; under area nothing sharpens. So a declared clock gives a typical history and no value. Not computed by anyone: a rate function with a unique maximiser. Next: the closed loop's first back-edge, pre-registered and reviewed before any run; and the definition of the joint read-out of all allowed histories",
   "a weight that the grammar forces and under which one outcome is singled out, proved; or two distinct self-consistent outcomes exhibited, which refutes the claim of one outcome as the owner has stated it. A declared clock with typicality as what is predicted is the picture the owner has ruled against (relayed by the advisor seat and confirmed to main on 2026-11-10): it would be recorded as the claim not met, and it closes nothing",
   "main; the owner for the law's reading", [], "STARTED",
-  ["P-755", "P-756", "P-439", "P-758", "P-761", "P-762", "P-765"], ["W:LAW", "W:CLOCK", "W:FLAT-SUM", "T:POINT-WEIGHT", "T:MINIM"])
+  ["P-755", "P-756", "P-439", "P-758", "P-761", "P-762", "P-765", "P-770"], ["W:LAW", "W:CLOCK", "W:FLAT-SUM", "T:POINT-WEIGHT", "T:MINIM"])
 P("WP-1.7", "C1", "The dictionary",
   "Which mathematical object is which field, and by what right?", "DERIVE",
   "two routes, kept apart: by derivation, through the parent and the join (WP-1.8, WP-3.2); by sealed prediction under GENESIS's rule (WP-5.3)",
