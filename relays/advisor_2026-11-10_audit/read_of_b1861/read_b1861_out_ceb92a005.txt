@@ -1,0 +1,84 @@
+
+A. The assignment of each finding
+---------------------------------
+findings: 73 | by state: {'FIXED': 9, 'OPEN': 1, 'PARTLY FIXED': 13, 'READER': 5, 'REPRODUCED': 45}
+A1 a finding whose package does not list it      : []
+A2 a finding listed by more than one package      : []
+A3 a finding listed by no package                 : []
+A4 findings that are nodes of the map             : 0 of 73
+A5 a field naming the arcs or nodes a finding touches: none
+A6 a field for the re-audit's verdict on a fix    : none
+   FIXED on main's word: ['E10', 'E13', 'E3', 'E6', 'G1', 'G2', 'G3', 'G4', 'L5']
+
+B. The order of work
+--------------------
+B1 nodes in a package: 131 | in more than one: 0
+B2 a package upstream of itself by needs          : []
+B3 a need not in a strictly earlier wave          : []
+B4 every edge of the map, projected on the packages:
+     answers        {'inside one package': 5}
+     applies-under  {'an end is in no package': 15}
+     bears-on       {'inside one package': 1, 'an end is in no package': 21}
+     blocked-by     {'an end is in no package': 1}
+     blocks         {"the target's package needs the source's": 3, 'inside one package': 4, 'held as given': 1, 'an end is in no package': 27}
+     candidate-for  {'an end is in no package': 2}
+     follows-from   {'an end is in no package': 1}
+     instance-of    {'an end is in no package': 102}
+     reads          {'NO ORDER': 1, 'inside one package': 1}
+     requires       {'held as given': 18, "the source's package needs the target's": 18, "the target's package needs the source's": 1, 'an end is in no package': 57, 'inside one package': 4}
+     same-as        {'inside one package': 2, 'an end is in no package': 1}
+   edges between two packages that carry no order : [('reads', 'G:GM1', 'WP-1.2', 'G:PF1-FORM', 'WP-1.1')]
+B5 'a package cannot be worked before these close': started, with a need not started: 5
+     WP-3.2 (STARTED) needs WP-3.1 (NOT STARTED)
+     WP-4.1 (STARTED) needs WP-2.5 (NOT STARTED)
+     WP-4.3 (STARTED) needs WP-4.2 (NOT STARTED)
+     WP-4.3 (STARTED) needs WP-1.7 (NOT STARTED)
+     WP-5.1 (STARTED) needs WP-0.3 (NOT STARTED)
+B6 what the comparison waits on
+     WP-6.1: 36 packages upstream; NOT upstream: 6, holding 31 of the 73 findings
+       WP-0.1   STARTED      False or stale statements in foundation and front documents | findings: P1 P2 P3 P4 P5 P6 P7 | accept: the class is empty, or every remaining member is outside the upstream of any claimed prediction; and a gate th
+       WP-0.10  STARTED      One governing document, at the owner's goal | findings: X1 X2 X3 X4 | accept: one document named as governing, the goal stated once and pointed to from the others, and no amended passage s
+       WP-0.2   NOT STARTED  Debts that bear on current work | findings: V1 V2 V3 V4 V5 | accept: the class is empty
+       WP-0.4   NOT STARTED  Unverified premises and seat results under banked results | findings: - | accept: the class is empty
+       WP-0.5   STARTED      A green full suite on a fresh clone | findings: R1 R2 | accept: zero failures on a fresh clone at the seal's commit
+       WP-0.8   STARTED      Errors in the mathematics or its code | findings: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 | accept: each finding reproduced or refuted on main with evidence; each true one corrected on every surface that carrie
+B7 debts on the map: 79 | with any edge: 17 | edge kinds at a debt: {'bears-on': 17}
+   debts with no edge, by package: {'WP-0.1': 12, 'WP-0.2': 9, 'WP-0.3': 15, 'WP-0.4': 25, 'WP-0.7': 1}
+       WP-0.1   False or stale statements in foundation and front documents
+       WP-0.2   Debts that bear on current work
+       WP-0.3   Checks that cannot fail, instruments and seal claims
+       WP-0.4   Unverified premises and seat results under banked results
+       WP-0.7   Enforcement that enforces
+
+C. The input budget
+-------------------
+C1 inputs: 38 | items by kind: 45 {'ansatz': 1, 'axiom': 8, 'bit': 8, 'discrete': 16, 'identification': 7, 'real': 5} | names in the map under them: 51
+C2 fields of an input: ['form', 'grades', 'kinds', 'members', 'name', 'note', 'packages', 'weave_or_thread']
+   a field holding the alternatives of a bit or a discrete choice, or their number: none
+C3 inputs by the families of their names (G foundation, A the candidate frame, FL the framing ledger, T the read-out, SC the scale, MC the structural chain):
+     A            2
+     A+FL         7
+     FL           3
+     FL+G+S       1
+     G            13
+     MC           1
+     S            1
+     SC           3
+     T            4
+     TAG          2
+     W            1
+C4 identifications in the budget: 7: [['G:PF1-FORM'], ['TAG:LAMBDA'], ['A:A05', 'FL:09'], ['A:A12', 'FL:13', 'FL:21'], ['FL:10'], ['SC:R2'], ['SC:R4']]
+   the identification ledger, by the record's own script: 36 rows; EARNED 8, REFUTED 8, UNEARNED 20
+   UNEARNED rows named anywhere in the map's nodes: 1 of 20: {'I-26': ['G:FK11', 'G:GAP1', 'P:528']}
+   the map's own sentence about that ledger: FL:01 (OPEN): Every physics reading of an object quantity is an identification (the listener map u); 37 ledger rows, 28 UNEARNED, none EARNED
+   the price as a node of the map:  [('MC:PRICE', 'POSTULATED', 'The identification price: thirteen (four axioms and nine irreducible sources).')]
+C5 exits by kind: {'ADMITTED': 2, 'BACK-EDGE NAMED': 5, 'DICTIONARY': 6, 'FORCING ARGUED': 6, 'KEPT': 3, 'PRESSED': 4, 'RIGID': 1, 'UNTOUCHED': 11} | counted as 'an exit on the table': 12
+     inverse moves are legal              no objection noted
+     no period                            main's own note names a missing clause or no alternative
+     positivity: the side of the mirror   no objection noted
+     reversible updates                   main's own note names a missing clause or no alternative
+     the carrier                          main's own note names a missing clause or no alternative
+     the selection criterion              main's own note names a missing clause or no alternative
+C6 the charge premise at level five is typed: {'discrete': 1}
+
+read at: ceb92a005 2026-11-10 22:28:07 +0100

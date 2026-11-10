@@ -1,0 +1,36 @@
+== at ceb92a005 2026-11-10 22:28:07 +0100
+== tree before:
+== L10: the two tests
+    warnings.warn('Plink failed to import tkinter, GUI will not be available')
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+7 passed, 1 warning in 17.02s
+== tree after L10:
+ M frontier/B1464_the_aged_items_paid_and_the_seal_gates_read_every_seal/verification/seal_census.json
+ M frontier/B1690_free_cusps_rigidity_and_the_tribunal_cells/verification/main_w81_w83.json
+ .../verification/seal_census.json                                 | 8 ++++----
+ .../verification/main_w81_w83.json                                | 2 +-
+ 2 files changed, 5 insertions(+), 5 deletions(-)
+== L6: the two locks
+E       AssertionError: assert '200 random 3...nal texture\n' == '200 random 3...nal texture\n'
+E         
+E         Skipping 98 identical leading characters in diff, use -v to show
+E         Skipping 87 identical trailing characters in diff, use -v to show
+E         - 3 at most 8.4e-16 of t
+E         ?           ^ ^
+E         + 3 at most 6.1e-16 of t
+E         ?           ^ ^
+frontier/B1849_the_leads_confirmed_one_by_one/verification/test_b1849_the_leads_confirmed_one_by_one.py:25: AssertionError
+E       AssertionError: assert 'w = bbabaAbb... pi_1(m003)\n' == 'w = bbabaAbb... pi_1(m003)\n'
+E         
+E         Skipping 39 identical leading characters in diff, use -v to show
+E         Skipping 92 identical trailing characters in diff, use -v to show
+E         - p to sign 8.5e-15; control
+E         ?           ^     ^
+E         + p to sign 2.5e-14; control
+E         ?           ^     ^
+frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py:51: AssertionError
+2 failed in 0.73s
+== tree after L6:
+ M frontier/B1464_the_aged_items_paid_and_the_seal_gates_read_every_seal/verification/seal_census.json
+ M frontier/B1690_free_cusps_rigidity_and_the_tribunal_cells/verification/main_w81_w83.json

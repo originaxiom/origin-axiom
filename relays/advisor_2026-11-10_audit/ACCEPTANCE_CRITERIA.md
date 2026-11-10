@@ -195,3 +195,19 @@ generated file, and the seal is refused without it.
 
 The advisor seat's approval covers what this audit read. It is not a statement about the roughly 1,520 arcs outside
 the sample, and it is not external review.
+
+## 12. The programme's joins (added 2026-11-10, late, after reading B1861 as a non-author)
+
+Source: `READ_OF_B1861_AS_A_NON_AUTHOR.md`, with the script and its output in `read_of_b1861/`. The seal's rule is
+that nothing open lies upstream of a value. These rows make "upstream" computable for the three ledgers that the
+closure map does not yet join by an edge, and close the smaller gaps found in the same read.
+
+| Item | Accepted when | Planted case |
+|---|---|---|
+| JOIN-a | Every audit finding, every open debt and every unearned row of the identification ledger names the nodes or arcs it bears on, or is marked as a property of the repository as a whole. The builder refuses one that names nothing. | Strip the names from one of each: three refusals. |
+| JOIN-b | A value's certificate lists every finding, debt and unearned identification that bears on anything the value uses, and the seal is refused while one is open. | Mark a finding on an arc of the candidate's chain open: the certificate refuses. |
+| JOIN-c | What is a property of the repository as a whole is a need of the sealed card: the green suite on a fresh clone, the gates, the look ledger, the nulls' windows. | Set the package of the suite, or of the value layer's debts, back to not done: the builder refuses the card's order. |
+| ORD-a | The builder refuses a package marked started while a need has not started; or the page defines a need as "cannot close before" and uses "given" for work done first. | Mark a package started under a need not started: refused. |
+| KIND-a | Every bit and every discrete choice of the budget carries its alternatives and their number, or the word "unbounded" and what bounds it. A choice from an unbounded list is typed as real, or its bound is counted as an input. | Remove the alternatives from one input: refused. |
+| KIND-b | The builder reconciles the budget's identifications with the identification ledger: each unearned row is under an input, or listed as off the present spine with the reason. One price is printed, and every older price line points to it. | Add an unearned row to the ledger: the builder refuses until the row is placed. |
+| STATE-a | A finding's state keeps "fixed" (main's word, with the fixing arc) apart from "accepted" (the re-audit's, with its commit). | None needed: a field. |

@@ -54,5 +54,5 @@ imprecise in each, and the findings file should be read with your list beside it
 |---|---|
 | re-audit B1862's rows | in `REAUDIT_2_2026-11-10.md`, with B1863 and B1864 |
 | plant PV25 again | in the same file |
-| read B1861 as a non-author; try to break three things | **owed**; not started |
+| read B1861 as a non-author; try to break three things | ~~**owed**; not started~~ **done, later the same day:** `READ_OF_B1861_AS_A_NON_AUTHOR.md`, at main's `ceb92a005`, with its script and output in `read_of_b1861/`. It also answers B1869 and B1870 |
 | the table behind E8 | section 3 above |

@@ -288,3 +288,22 @@ Re-run of the census: `python3 relays/advisor_2026-11-10_audit/tools/arc_stats.p
 - The P3 paper body beyond its abstract, summary and the sections named above.
 - External confirmation of post-cutoff citations (e.g. arXiv:2609.37895, on which one falsification rests and which is
   not archived in the repository).
+
+---
+
+## 8. Dated corrections (the text above is kept as it was written)
+
+**2026-11-10, after main's first reading.** Nine details, accepted: `ADVISOR_TO_CC_2026-11-10_REPLY.md` § 4.
+
+**2026-11-10, late, after main's B1870.** Detail and sources: `READ_OF_B1861_AS_A_NON_AUTHOR.md` § 8.
+
+| Finding | Correction |
+|---|---|
+| X3 | The finding did not name its script. It is `outside_bench/certificates/the_price_is_twelve.py`, which `GENESIS.md` line 265 cites for the live price. On main at `ceb92a005` it exits 1, and nothing runs it; both halves of the finding stand for that script. B1266's `sources.py`, which main's checker tested, passes with a typed constant: a second defect, and main's finding. |
+| V1 | A reader's figure, as graded. It did not say which null. There were two diagnostics (B1726's draws, B1753's census); the reader's scripts are in `read_of_b1861/sources_for_b1870/`. Their output was not kept and they are not re-run here. |
+| V2 | The two large figures are withdrawn as numbers: they have no tracked source, and producing one would be a new comparison under the owner's hold. The finding stands on the allowance being in the scripts and absent from the headlines. |
+| M8 | "76 of 86" is withdrawn as a number: a reader's count, no script kept. The finding stands on the checker testing a substring only. |
+| M10 | "Most entries cannot fire" overstated: 3 or 4 of 11, by the register's own grades (main's count). |
+| L3 | Both examples were poor: C7's lock does recompute its discriminants, and C45 is a no-go link and not a theorem. |
+| V5 | Two looks are missing, not three: B1659 uses no data by its own findings. |
+| L1 | The census tools are in this relay: `tools/lock_census.py`, `tools/lock_map.py`, outputs beside them. |
