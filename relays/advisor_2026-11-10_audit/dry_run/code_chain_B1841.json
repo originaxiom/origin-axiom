@@ -1,0 +1,282 @@
+{
+ "root": "B1841",
+ "depth": {
+  "B1841": 0,
+  "B1839": 1,
+  "B1741": 2,
+  "B1753": 2,
+  "B1798": 2,
+  "B1838": 2,
+  "B1612": 3,
+  "B1637": 3,
+  "B1720": 3,
+  "B1726": 3,
+  "B1735": 3,
+  "B1749": 3,
+  "B1667": 3,
+  "B1723": 3,
+  "B1611": 4,
+  "B1635": 4,
+  "B1691": 4,
+  "B1725": 4,
+  "B1734": 4,
+  "B1610": 5,
+  "B1632": 5,
+  "B1600": 6,
+  "B1617": 6,
+  "B1492": 7,
+  "B1493": 7,
+  "B1616": 7,
+  "B1615": 8
+ },
+ "edges": {
+  "B1841": {
+   "B1839": [
+    "(folder named)"
+   ]
+  },
+  "B1839": {
+   "B1798": [
+    "(folder named)"
+   ],
+   "B1753": [
+    "census.json",
+    "census.py"
+   ],
+   "B1741": [
+    "compare.py"
+   ],
+   "B1838": [
+    "exact_end_web_seat.py"
+   ]
+  },
+  "B1741": {
+   "B1612": [
+    "data.json"
+   ],
+   "B1637": [
+    "(folder named)"
+   ],
+   "B1726": [
+    "(folder named)",
+    "census.json"
+   ],
+   "B1720": [
+    "the_thread_census.json"
+   ],
+   "B1735": [
+    "(folder named)"
+   ]
+  },
+  "B1753": {
+   "B1741": [
+    "census.json",
+    "compare.py"
+   ],
+   "B1720": [
+    "(folder named)"
+   ],
+   "B1726": [
+    "census.json",
+    "census.py"
+   ]
+  },
+  "B1798": {
+   "B1753": [
+    "(folder named)"
+   ],
+   "B1741": [
+    "compare.py"
+   ],
+   "B1726": [
+    "census.py"
+   ],
+   "B1749": [
+    "(folder named)"
+   ]
+  },
+  "B1838": {
+   "B1726": [
+    "(folder named)"
+   ],
+   "B1667": [
+    "the_canonical_cusp.json",
+    "the_canonical_cusp.py"
+   ],
+   "B1723": [
+    "(folder named)"
+   ]
+  },
+  "B1612": {
+   "B1611": [
+    "cp_on_the_weave.py"
+   ]
+  },
+  "B1637": {
+   "B1612": [
+    "data.json"
+   ],
+   "B1635": [
+    "couplings_on_the_ruled_branch.py"
+   ]
+  },
+  "B1720": {
+   "B1637": [
+    "(folder named)"
+   ],
+   "B1612": [
+    "data.json"
+   ],
+   "B1691": [
+    "(folder named)"
+   ],
+   "B1667": [
+    "the_canonical_cusp.json"
+   ]
+  },
+  "B1726": {
+   "B1637": [
+    "(folder named)"
+   ],
+   "B1612": [
+    "data.json"
+   ],
+   "B1723": [
+    "(folder named)"
+   ],
+   "B1725": [
+    "(folder named)"
+   ],
+   "B1691": [
+    "(folder named)"
+   ],
+   "B1667": [
+    "the_canonical_cusp.json"
+   ]
+  },
+  "B1735": {
+   "B1726": [
+    "(folder named)",
+    "compare.py"
+   ],
+   "B1734": [
+    "compare.py"
+   ],
+   "B1637": [
+    "(folder named)"
+   ],
+   "B1612": [
+    "data.json"
+   ]
+  },
+  "B1749": {
+   "B1741": [
+    "census.json",
+    "compare.py"
+   ],
+   "B1720": [
+    "(folder named)"
+   ],
+   "B1726": [
+    "census.json",
+    "census.py"
+   ]
+  },
+  "B1667": {},
+  "B1723": {
+   "B1637": [
+    "(folder named)"
+   ],
+   "B1612": [
+    "data.json"
+   ],
+   "B1691": [
+    "(folder named)"
+   ],
+   "B1667": [
+    "the_canonical_cusp.json"
+   ]
+  },
+  "B1611": {
+   "B1610": [
+    "hands_on_the_torsor.py"
+   ]
+  },
+  "B1635": {
+   "B1632": [
+    "w45_on_main.py"
+   ]
+  },
+  "B1691": {},
+  "B1725": {
+   "B1723": [
+    "(folder named)"
+   ],
+   "B1691": [
+    "(folder named)"
+   ],
+   "B1667": [
+    "the_canonical_cusp.json"
+   ],
+   "B1637": [
+    "(folder named)"
+   ],
+   "B1612": [
+    "data.json"
+   ]
+  },
+  "B1734": {
+   "B1637": [
+    "(folder named)"
+   ],
+   "B1612": [
+    "data.json"
+   ],
+   "B1726": [
+    "(folder named)"
+   ],
+   "B1720": [
+    "the_thread_census.json"
+   ]
+  },
+  "B1610": {
+   "B1600": [
+    "(folder named)"
+   ]
+  },
+  "B1632": {
+   "B1617": [
+    "weave_at_omega.py"
+   ]
+  },
+  "B1600": {
+   "B1493": [
+    "(folder named)"
+   ],
+   "B1492": [
+    "(folder named)"
+   ]
+  },
+  "B1617": {
+   "B1616": [
+    "neutrino_masses_on_the_weave.py"
+   ]
+  },
+  "B1492": {},
+  "B1493": {
+   "B1492": [
+    "(folder named)"
+   ]
+  },
+  "B1616": {
+   "B1615": [
+    "couplings_on_the_weave.py"
+   ]
+  },
+  "B1615": {
+   "B1611": [
+    "cp_on_the_weave.py"
+   ]
+  }
+ }
+}

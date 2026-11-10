@@ -1,0 +1,28 @@
+computational chain of B1841 : 27 arcs
+B1841 the_principled_ends_card <- {'B1839': ['(folder named)']}
+  B1839 the_end_card <- {'B1798': ['(folder named)'], 'B1753': ['census.json', 'census.py'], 'B1741': ['compare.py'], 'B1838': ['exact_end_web_seat.py']}
+    B1741 tau_from_the_thread_rule_the_line_free <- {'B1612': ['data.json'], 'B1637': ['(folder named)'], 'B1726': ['(folder named)', 'census.json'], 'B1720': ['the_thread_census.json'], 'B1735': ['(folder named)']}
+    B1753 the_six_on_the_five_ality_lines <- {'B1741': ['census.json', 'compare.py'], 'B1720': ['(folder named)'], 'B1726': ['census.json', 'census.py']}
+    B1798 the_six_graded_under_the_class_choosing_null <- {'B1753': ['(folder named)'], 'B1741': ['compare.py'], 'B1726': ['census.py'], 'B1749': ['(folder named)']}
+    B1838 the_end <- {'B1726': ['(folder named)'], 'B1667': ['the_canonical_cusp.json', 'the_canonical_cusp.py'], 'B1723': ['(folder named)']}
+      B1612 the_mixing_patterns_the_weave_fixes <- {'B1611': ['cp_on_the_weave.py']}
+      B1637 fits_on_the_ruled_branch <- {'B1612': ['data.json'], 'B1635': ['couplings_on_the_ruled_branch.py']}
+      B1720 the_thread_fixes_the_point <- {'B1637': ['(folder named)'], 'B1612': ['data.json'], 'B1691': ['(folder named)'], 'B1667': ['the_canonical_cusp.json']}
+      B1726 the_two_ingredients_replicated <- {'B1637': ['(folder named)'], 'B1612': ['data.json'], 'B1723': ['(folder named)'], 'B1725': ['(folder named)'], 'B1691': ['(folder named)'], 'B1667': ['the_canonical_cusp.json']}
+      B1735 the_precision_bar_on_the_two_ingredient_census <- {'B1726': ['(folder named)', 'compare.py'], 'B1734': ['compare.py'], 'B1637': ['(folder named)'], 'B1612': ['data.json']}
+      B1749 the_six_at_fresh_apexes <- {'B1741': ['census.json', 'compare.py'], 'B1720': ['(folder named)'], 'B1726': ['census.json', 'census.py']}
+      B1667 the_canonical_cusp <- (loads no other arc)
+      B1723 the_golden_valley <- {'B1637': ['(folder named)'], 'B1612': ['data.json'], 'B1691': ['(folder named)'], 'B1667': ['the_canonical_cusp.json']}
+        B1611 is_cp_violation_forced_on_the_weave <- {'B1610': ['hands_on_the_torsor.py']}
+        B1635 couplings_on_the_ruled_branch <- {'B1632': ['w45_on_main.py']}
+        B1691 the_exponents_at_the_two_fixed_points <- (loads no other arc)
+        B1725 the_two_ingredients_on_main <- {'B1723': ['(folder named)'], 'B1691': ['(folder named)'], 'B1667': ['the_canonical_cusp.json'], 'B1637': ['(folder named)'], 'B1612': ['data.json']}
+        B1734 the_thread_rule_with_the_two_ingredients <- {'B1637': ['(folder named)'], 'B1612': ['data.json'], 'B1726': ['(folder named)'], 'B1720': ['the_thread_census.json']}
+          B1610 the_hands_on_the_founding_torsor <- {'B1600': ['(folder named)']}
+          B1632 w45_verified_on_main <- {'B1617': ['weave_at_omega.py']}
+            B1600 the_weave_verified <- {'B1493': ['(folder named)'], 'B1492': ['(folder named)']}
+            B1617 the_weave_at_tau_omega <- {'B1616': ['neutrino_masses_on_the_weave.py']}
+              B1492 the_three_ended_companion_read <- (loads no other arc)
+              B1493 the_room_on_the_companions <- {'B1492': ['(folder named)']}
+              B1616 the_neutrino_masses_on_the_weave <- {'B1615': ['couplings_on_the_weave.py']}
+                B1615 the_couplings_the_weave_allows <- {'B1611': ['cp_on_the_weave.py']}

@@ -1,0 +1,29 @@
+arc    d  verdict   lock        reach   w/t      seal  data  in declared closure
+B1841  0  PROVED    NONE        class   weave    yes     yes   yes
+B1839  1  NEGATIVE  NONE        class   weave    yes     yes   yes
+B1741  2  PROVED    COMPUTES    class   thread   yes     yes   yes
+B1753  2  PROVED    COMPUTES    class   weave    yes     yes   yes
+B1798  2  NEGATIVE  TEXT-ONLY   class   thread   —       —     yes
+B1838  2  OPEN      NONE        general neither  —       —     yes
+B1612  3  PROVED    TEXT-ONLY   general weave    yes     yes   yes
+B1637  3  PROVED    TEXT-ONLY   general weave    yes     yes   yes
+B1667  3  PROVED    COMPUTES    class   neither  yes     —     yes
+B1720  3  NEGATIVE  COMPUTES    class   thread   yes     yes   yes
+B1723  3  NEGATIVE  COMPUTES    class   weave    yes     yes   yes
+B1726  3  PROVED    COMPUTES    class   weave    yes     yes   yes
+B1735  3  PROVED    COMPUTES    class   weave    —       yes   yes
+B1749  3  PROVED    COMPUTES    class   weave    yes     yes   yes
+B1611  4  PROVED    TEXT-ONLY   general weave    unshown —     yes
+B1635  4  NEGATIVE  COMPUTES    general weave    yes     —     yes
+B1691  4  PROVED    COMPUTES    class   weave    —       —     yes
+B1725  4  PROVED    COMPUTES    class   weave    —       yes   yes
+B1734  4  PROVED    COMPUTES    class   thread   yes     yes   yes
+B1610  5  NEGATIVE  TEXT-ONLY   general weave    yes     —     yes
+B1632  5  NEGATIVE  TEXT-ONLY   general weave    yes     —     yes
+B1600  6  PROVED    TEXT-ONLY   class   weave    —       —     yes
+B1617  6  NEGATIVE  TEXT-ONLY   general weave    yes     —     yes
+B1492  7  PROVED    TEXT-ONLY   single  thread   yes     —     yes
+B1493  7  NEGATIVE  TEXT-ONLY   single  thread   yes     —     yes
+B1616  7  NEGATIVE  TEXT-ONLY   general weave    yes     yes   yes
+B1615  8  NEGATIVE  TEXT-ONLY   general weave    yes     —     yes
+{'NONE': 3, 'v_PROVED': 15, 'wt_weave': 19, 'data_yes': 14, 'v_NEGATIVE': 11, 'COMPUTES': 12, 'wt_thread': 6, 'TEXT-ONLY': 12, 'data_—': 13, 'v_OPEN': 1, 'wt_neither': 2}
