@@ -171,12 +171,14 @@ separate problems: one construction must fix them jointly. The map therefore poi
 one at a time and toward the question of item 3 of the seat's plan — what "self-consistent" means exactly, and which
 single construction would force the whole address.
 
-## 7. Two observations from the record's own numbers (no measurement involved)
+## 7. Two observations from numbers already banked (nothing computed or compared here)
 
 1. **Two τ on record.** The candidate's row sits at τ₀ = (1/2, 2.9496) (B1841), on the strip the fit found. The τ
    read-out rule's point value at the tube is 0 + 6.07 i to 0 + 6.15 i (B1852, B1854), and the same family's
    Teichmüller apex is 1/2 + 3.65 i (B1852's headline). If the read-out rule is the forced τ, the candidate's row is
    not at it. Whether these are meant to be the same τ is a question for main; the record does not say in one place.
+   *Caveat:* τ₀ is a fitted value, so this remark sets a blind number beside a fitted one. It is not a reading of the
+   six at the read-out τ; P-714 reserves that for a sealed card, and nothing here stands in for one.
 2. **Leads the record holds on single joints, each unverified on main and each found after the fit:** the kernel of
    LR + I of order 5 as a selector of the line (the agy lane), a cover argument for H = c·I (the agy lane), the
    area-4 horocycle for the end (the web seat, B1840). Each needs a sealed check by a reader who does not know which
