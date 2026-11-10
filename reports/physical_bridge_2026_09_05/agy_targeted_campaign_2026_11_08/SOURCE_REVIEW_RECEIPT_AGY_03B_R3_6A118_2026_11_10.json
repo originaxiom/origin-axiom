@@ -1,0 +1,788 @@
+{
+  "schema": "oa-agy-scoped-hand-source-review-v1",
+  "date": "2026-11-10",
+  "physical_base_commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+  "previous_processed_agy_head": "235a62913c2cfb6a03d9c67c80864d69d1d67ca1",
+  "processed_agy_head": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+  "decision": "SOURCE_CUSTODY_FAILURE_WITH_PARTIAL_HAND_POSITIVES_AND_CURRENT_COUNTEREXAMPLES",
+  "method": "personal source/Git reading and hand differential, rank, Grassmann, spectral conjugation and power-integral checks; metadata-only code",
+  "authorship_caveat": "physical seat authored several dependencies and supplied earlier corrections; formal nonauthoring review remains owed",
+  "supported": [
+    "radial coordinate and physical measure",
+    "local permutation differential intertwiner with corrected adjoint components",
+    "internal flavour/spinor determinant",
+    "conditional nonzero-power source threshold Sigma>1/2",
+    "conditional mixed Green overlap Sigma+Sigma_prime>1",
+    "earlier D1-D4 corrections under prior hypotheses"
+  ],
+  "binding_findings": [
+    {
+      "id": "E1",
+      "finding": "unavailable four documents/attempt ledger, altered full coefficient hashes and unsupported rank4 SM embedding in rank3 A3"
+    },
+    {
+      "id": "E2",
+      "finding": "adjoint components wrong; projected scalar mass and spectral conjugation/physical Weyl map not earned",
+      "preserved": "doubled matrix/U_can differential identity and radial norm"
+    },
+    {
+      "id": "E3",
+      "finding": "external Grassmann pair needs plus; relative-i witness cancels; internal current phases differ from parent; universal nonzero claims false",
+      "hand_controls": [
+        "relative-i single-copy pair zero",
+        "relative1 pair can be nonzero",
+        "orthogonal flavour cancels external coefficient while determinant survives"
+      ]
+    },
+    {
+      "id": "E4",
+      "finding": "threshold conditional on nonzero coefficients; two generators give zero quartic; four-generator actual contraction required"
+    },
+    {
+      "id": "E5",
+      "finding": "equal real frequencies retain internal sum phase; actual Weyl and Ward compatibility unearned; compensator input count not proved"
+    },
+    {
+      "id": "E6",
+      "finding": "false B5a completion propagated to dependent sources; prior D1-D4 repairs remain supported"
+    }
+  ],
+  "source_complete_acceptance": false,
+  "B5a_completed_result_accepted": false,
+  "unavailable_source_search": {
+    "target_basenames": [
+      "COMPLETE_THEORY_MAP.md",
+      "SPINOR_BUNDLE_VERIFICATION.md",
+      "CLIFFORD_LINK_DISCREPANCY.md",
+      "YUKAWA_BEREZINIAN_BRIDGE.md",
+      "attempt_ledger.jsonl"
+    ],
+    "checked_reference_count": 21,
+    "reference_trees": [
+      {
+        "ref": "refs/heads/audit/fork-2026-09-20",
+        "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+        "matching_paths": []
+      },
+      {
+        "ref": "refs/heads/audit/physical-bridge-2026-09-05",
+        "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+        "matching_paths": []
+      },
+      {
+        "ref": "refs/heads/main",
+        "commit": "f06d34054899e8c23672b836a7c534af77cbd35d",
+        "matching_paths": []
+      },
+      {
+        "ref": "refs/remotes/origin/HEAD",
+        "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+        "matching_paths": []
+      },
+      {
+        "ref": "refs/remotes/origin/agy/audit-2026-11-02",
+        "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+        "matching_paths": []
+      },
+      {
+        "ref": "refs/remotes/origin/agy/frontier-2026-10-26",
+        "commit": "05e6caabf7113244702aa473c6d6786d94b7cf4b",
+        "matching_paths": []
+      },
+      {
+        "ref": "refs/remotes/origin/audit/fork-2026-09-20",
+        "commit": "0c6570bab3de4c013b73afb206cf80c4f56ccb1a",
+        "matching_paths": []
+      },
+      {
+        "ref": "refs/remotes/origin/audit/independent-2026-11-03",
+        "commit": "4b91b9be7db39cc78935c06b47bbd44095c52426",
+        "matching_paths": []
+      },
+      {
+        "ref": "refs/remotes/origin/audit/physical-bridge-2026-09-05",
+        "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+        "matching_paths": []
+      },
+      {
+        "ref": "refs/remotes/origin/chat1/web-seat",
+        "commit": "195e8f1bdd7207970645c4fbd5847d238efb4d9c",
+        "matching_paths": []
+      },
+      {
+        "ref": "refs/remotes/origin/chatgpt/weave-physics-archive-2026-10-11",
+        "commit": "efadcdeaa5375cf0ac76d954dbf34abd070430cd",
+        "matching_paths": []
+      },
+      {
+        "ref": "refs/remotes/origin/claude/kind-hypatia-uk0vv9",
+        "commit": "6a537f899c9c1882930475144a30ae76aa2966d8",
+        "matching_paths": []
+      },
+      {
+        "ref": "refs/remotes/origin/claude/outside-bench",
+        "commit": "13d2c5b63ba7a3db9ea880016a43d3c688cee954",
+        "matching_paths": []
+      },
+      {
+        "ref": "refs/remotes/origin/claude/paper-review-verification-kaz3f5",
+        "commit": "5d58b935b6001ce09dfed8e0bdc6fd8da71f77fd",
+        "matching_paths": []
+      },
+      {
+        "ref": "refs/remotes/origin/claude/project-thread-hctlox",
+        "commit": "8b6df98ffe9a4ed5d8320140b6ab3e89da2fe511",
+        "matching_paths": []
+      },
+      {
+        "ref": "refs/remotes/origin/claude/standard-model-derivation-0qt6ao",
+        "commit": "47228ae85cb813ea1bcad3daba8b9446f64ff8d4",
+        "matching_paths": []
+      },
+      {
+        "ref": "refs/remotes/origin/explore/2026-11-05",
+        "commit": "af81fb6ef45f3544a5113a118599c16f185225a2",
+        "matching_paths": []
+      },
+      {
+        "ref": "refs/remotes/origin/main",
+        "commit": "217e37c4f37bd80998f3c3e10cad358023f58114",
+        "matching_paths": []
+      },
+      {
+        "ref": "refs/remotes/origin/referee/B1668_the_price_of_the_nineteen",
+        "commit": "0c781663f4fb0505fb8814e261b8cf9e0231d94f",
+        "matching_paths": []
+      },
+      {
+        "ref": "refs/remotes/origin/referee/landing",
+        "commit": "806dfd6002773bf1d1eba273f432fb626f27b302",
+        "matching_paths": []
+      },
+      {
+        "ref": "refs/remotes/origin/sep16-branch",
+        "commit": "3205984b48d1b98a80042cdc70916878973980f5",
+        "matching_paths": []
+      }
+    ],
+    "reachable_history_matching_paths": [],
+    "history_command": [
+      "git",
+      "log",
+      "--all",
+      "--format=",
+      "--name-only",
+      "--",
+      "COMPLETE_THEORY_MAP.md",
+      "SPINOR_BUNDLE_VERIFICATION.md",
+      "CLIFFORD_LINK_DISCREPANCY.md",
+      "YUKAWA_BEREZINIAN_BRIDGE.md",
+      "attempt_ledger.jsonl",
+      "**/COMPLETE_THEORY_MAP.md",
+      "**/SPINOR_BUNDLE_VERIFICATION.md",
+      "**/CLIFFORD_LINK_DISCREPANCY.md",
+      "**/YUKAWA_BEREZINIAN_BRIDGE.md",
+      "**/attempt_ledger.jsonl"
+    ],
+    "workspace_root": "/Users/dri/oa-audit-seat/aud1t/chatgpt6",
+    "workspace_rg_exit": 1,
+    "workspace_matching_paths": [],
+    "scope_limit": "bounded fetched reference trees/reachable history and stated workspace; outside artifacts require provenance"
+  },
+  "declared_source_hash_checks": [
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/PHYSICAL_CUSP_CURRENT_AND_SOURCE_THRESHOLD.md",
+      "declared_name": "COMPLETE_THEORY_MAP.md",
+      "declared_sha256": "9f8bf8fb72cf4be19fd93fb3ac7dc6edfd3d7fe89fd0c4b1ff45fdab72d10cb6",
+      "status": "UNAVAILABLE_IN_CHECKED_REFS_AND_HISTORY",
+      "actual_path": null
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/PHYSICAL_CUSP_CURRENT_AND_SOURCE_THRESHOLD.md",
+      "declared_name": "SPINOR_BUNDLE_VERIFICATION.md",
+      "declared_sha256": "4d9de6cbd6f6feceb2acdd9d4e3be4fbcfbe5d562fd56f6c113022a773c2df2b",
+      "status": "UNAVAILABLE_IN_CHECKED_REFS_AND_HISTORY",
+      "actual_path": null
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/PHYSICAL_CUSP_CURRENT_AND_SOURCE_THRESHOLD.md",
+      "declared_name": "CLIFFORD_LINK_DISCREPANCY.md",
+      "declared_sha256": "e2fa1fe85f3ed5df2deefbb9cfeb0126ab9dc62cf91900ff46a6db5f58237f9d",
+      "status": "UNAVAILABLE_IN_CHECKED_REFS_AND_HISTORY",
+      "actual_path": null
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/PHYSICAL_CUSP_CURRENT_AND_SOURCE_THRESHOLD.md",
+      "declared_name": "COEFFICIENT_ROSTER.md",
+      "declared_sha256": "a98ff428e88ae6bc82cd334ce7fe2bb11c9ec2d5b7f7e0d2e28cd99ff83803c5",
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COEFFICIENT_ROSTER.md",
+      "sha256": "a98ff428d827d11adf8400e9e03e49b7360f3ccae03ed6f957e9780eec4ed33f",
+      "status": "MISMATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/PHYSICAL_CUSP_CURRENT_AND_SOURCE_THRESHOLD.md",
+      "declared_name": "YUKAWA_BEREZINIAN_BRIDGE.md",
+      "declared_sha256": "3d64cf2322d227579772971ac9db55110d20ac1f7510f0d878469103f78834d2",
+      "status": "UNAVAILABLE_IN_CHECKED_REFS_AND_HISTORY",
+      "actual_path": null
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/WEIGHTED_FERMION_SOURCE_RESPONSE.md",
+      "declared_name": "FULL_CUT_VARIATION_AND_GREEN_PAIRING.md",
+      "declared_sha256": "ded9e468ce25ca7657415f4303a8e7b9c1310251931c15228c83501a225ed6ae",
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FULL_CUT_VARIATION_AND_GREEN_PAIRING.md",
+      "sha256": "ded9e468ce25ca7657415f4303a8e7b9c1310251931c15228c83501a225ed6ae",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/WEIGHTED_FERMION_SOURCE_RESPONSE.md",
+      "declared_name": "COEFFICIENT_ROSTER.md",
+      "declared_sha256": "a98ff428d827d11adf8400e9e03e49b7360f3ccae03ed6f957e9780eec4ed33f",
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COEFFICIENT_ROSTER.md",
+      "sha256": "a98ff428d827d11adf8400e9e03e49b7360f3ccae03ed6f957e9780eec4ed33f",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/WEIGHTED_FERMION_SOURCE_RESPONSE.md",
+      "declared_name": "JOINED_KERNEL_AND_PHYSICAL_MAP.md",
+      "declared_sha256": "f96f5247f00151c829daefa2c66a31f05a53a50ed499b02bac4ecb6ddb960691",
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/JOINED_KERNEL_AND_PHYSICAL_MAP.md",
+      "sha256": "f96f5247f00151c829daefa2c66a31f05a53a50ed499b02bac4ecb6ddb960691",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/WEIGHTED_FERMION_SOURCE_RESPONSE.md",
+      "declared_name": "weave_curved_action_2026_10_08/PROOF.md",
+      "declared_sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/WEIGHTED_FERMION_SOURCE_RESPONSE.md",
+      "declared_name": "weave_physical_mass_2026_10_08/PROOF.md",
+      "declared_sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/WEIGHTED_FERMION_SOURCE_RESPONSE.md",
+      "declared_name": "GAPLESS_CUSP_RESPONSE_AND_GAUGE_COUPLING.md",
+      "declared_sha256": "e89a6b108bfa6bc0bc80f093b4e35aa24d04f9013842ef9ad90b9bcc61e2da50",
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GAPLESS_CUSP_RESPONSE_AND_GAUGE_COUPLING.md",
+      "sha256": "e89a6b108bfa6bc0bc80f093b4e35aa24d04f9013842ef9ad90b9bcc61e2da50",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/WEIGHTED_FERMION_SOURCE_RESPONSE.md",
+      "declared_name": "GRAM_RESPONSE_FROM_SAME_ACTION_DERIVATION.md",
+      "declared_sha256": "3d158b8d93fe32efb8af3c94bf7c14c480454dc66084e0c567750cb8239f5318",
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GRAM_RESPONSE_FROM_SAME_ACTION_DERIVATION.md",
+      "sha256": "3d158b8d93fe32efb8af3c94bf7c14c480454dc66084e0c567750cb8239f5318",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/WEIGHTED_FERMION_SOURCE_RESPONSE.md",
+      "declared_name": "SAME_ACTION_GAUGE_BOUNDARY_RESPONSE_AND_CUBIC_2026_11_08.md",
+      "declared_sha256": "7e401a2f3b7c7e10a1ef04e635bd271bb19a655f282ade035f9d1abcb4016956",
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/SAME_ACTION_GAUGE_BOUNDARY_RESPONSE_AND_CUBIC_2026_11_08.md",
+      "sha256": "7e401a2f3b7c7e10a1ef04e635bd271bb19a655f282ade035f9d1abcb4016956",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/WEIGHTED_FERMION_SOURCE_RESPONSE.md",
+      "declared_name": "ACTUAL_CORE_MEAN_RESPONSE_AND_FLUX_SEWING_2026_11_08.md",
+      "declared_sha256": "4e8be59309a0cf484acd5d30326661df0d7c7f0072229cae810ba9b71ddc1016",
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/ACTUAL_CORE_MEAN_RESPONSE_AND_FLUX_SEWING_2026_11_08.md",
+      "sha256": "4e8be59309a0cf484acd5d30326661df0d7c7f0072229cae810ba9b71ddc1016",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/WEIGHTED_FERMION_SOURCE_RESPONSE.md",
+      "declared_name": "FREQUENCY_CORE_ANGULAR_TAIL_AND_GAUGE_WARD_RESPONSE_2026_11_08.md",
+      "declared_sha256": "ea5bc0250d1ab332237dee3878ac5762789922a5da0a77ed52fbdcbb616166ef",
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/FREQUENCY_CORE_ANGULAR_TAIL_AND_GAUGE_WARD_RESPONSE_2026_11_08.md",
+      "sha256": "ea5bc0250d1ab332237dee3878ac5762789922a5da0a77ed52fbdcbb616166ef",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/WEIGHTED_FERMION_SOURCE_RESPONSE.md",
+      "declared_name": "FOUR_CONNECTION_TAIL_VERTEX_WITH_GAUSS_EXCHANGE_2026_11_08.md",
+      "declared_sha256": "9bb2f1ef75345142dbe6cedbafa2f7cf2909dc649c693178366a6903318970d1",
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/FOUR_CONNECTION_TAIL_VERTEX_WITH_GAUSS_EXCHANGE_2026_11_08.md",
+      "sha256": "9bb2f1ef75345142dbe6cedbafa2f7cf2909dc649c693178366a6903318970d1",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/WEIGHTED_FERMION_SOURCE_RESPONSE.md",
+      "declared_name": "EXTERIOR_RESPONSE_AND_JOINING.md",
+      "declared_sha256": "3d99d0d72a03dca843f36924e4c47cc7e0c78c4ecba8c0974515d41bb80eca68",
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXTERIOR_RESPONSE_AND_JOINING.md",
+      "sha256": "3d99d0d72a03dca843f36924e4c47cc7e0c78c4ecba8c0974515d41bb80eca68",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/WEIGHTED_FERMION_SOURCE_RESPONSE.md",
+      "declared_name": "COEFFICIENT_ROSTER.md",
+      "declared_sha256": "a98ff428d827d11adf8400e9e03e49b7360f3ccae03ed6f957e9780eec4ed33f",
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COEFFICIENT_ROSTER.md",
+      "sha256": "a98ff428d827d11adf8400e9e03e49b7360f3ccae03ed6f957e9780eec4ed33f",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FERMION_CURRENT_AND_WARD_REPAIR.md",
+      "declared_name": "FULL_CUT_VARIATION_AND_GREEN_PAIRING.md",
+      "declared_sha256": "ded9e468ce25ca7657415f4303a8e7b9c1310251931c15228c83501a225ed6ae",
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FULL_CUT_VARIATION_AND_GREEN_PAIRING.md",
+      "sha256": "ded9e468ce25ca7657415f4303a8e7b9c1310251931c15228c83501a225ed6ae",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FERMION_CURRENT_AND_WARD_REPAIR.md",
+      "declared_name": "COEFFICIENT_ROSTER.md",
+      "declared_sha256": "a98ff428d827d11adf8400e9e03e49b7360f3ccae03ed6f957e9780eec4ed33f",
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COEFFICIENT_ROSTER.md",
+      "sha256": "a98ff428d827d11adf8400e9e03e49b7360f3ccae03ed6f957e9780eec4ed33f",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FERMION_CURRENT_AND_WARD_REPAIR.md",
+      "declared_name": "JOINED_KERNEL_AND_PHYSICAL_MAP.md",
+      "declared_sha256": "f96f5247f00151c829daefa2c66a31f05a53a50ed499b02bac4ecb6ddb960691",
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/JOINED_KERNEL_AND_PHYSICAL_MAP.md",
+      "sha256": "f96f5247f00151c829daefa2c66a31f05a53a50ed499b02bac4ecb6ddb960691",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FERMION_CURRENT_AND_WARD_REPAIR.md",
+      "declared_name": "weave_curved_action_2026_10_08/PROOF.md",
+      "declared_sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FERMION_CURRENT_AND_WARD_REPAIR.md",
+      "declared_name": "weave_physical_mass_2026_10_08/PROOF.md",
+      "declared_sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FERMION_CURRENT_AND_WARD_REPAIR.md",
+      "declared_name": "surface_gauss_charge_2026_10_16/PROOF.md",
+      "declared_sha256": "bf214945674630ac6e9ac27567b93577b369e8893ae774e97fda4300f2372121",
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/surface_gauss_charge_2026_10_16/PROOF.md",
+      "sha256": "bf214945674630ac6e9ac27567b93577b369e8893ae774e97fda4300f2372121",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FERMION_CURRENT_AND_WARD_REPAIR.md",
+      "declared_name": "FREQUENCY_CORE_ANGULAR_TAIL_AND_GAUGE_WARD_RESPONSE_2026_11_08.md",
+      "declared_sha256": "ea5bc0250d1ab332237dee3878ac5762789922a5da0a77ed52fbdcbb616166ef",
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/FREQUENCY_CORE_ANGULAR_TAIL_AND_GAUGE_WARD_RESPONSE_2026_11_08.md",
+      "sha256": "ea5bc0250d1ab332237dee3878ac5762789922a5da0a77ed52fbdcbb616166ef",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md",
+      "declared_name": "PHYSICAL_CUSP_CURRENT_AND_SOURCE_THRESHOLD.md",
+      "declared_sha256": "e0a68bcc924078076488d65665cbc61eddd5e99d5647e224cdf571ce7a2b2f0a",
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/PHYSICAL_CUSP_CURRENT_AND_SOURCE_THRESHOLD.md",
+      "sha256": "e0a68bcc924078076488d65665cbc61eddd5e99d5647e224cdf571ce7a2b2f0a",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md",
+      "declared_name": "WEIGHTED_FERMION_SOURCE_RESPONSE.md",
+      "declared_sha256": "1841847148cd02d87b622bebc6a85bbeddc3a63eabb249e06adca23be56ebf83",
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/WEIGHTED_FERMION_SOURCE_RESPONSE.md",
+      "sha256": "1841847148cd02d87b622bebc6a85bbeddc3a63eabb249e06adca23be56ebf83",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md",
+      "declared_name": "FERMION_CURRENT_AND_WARD_REPAIR.md",
+      "declared_sha256": "be6dc0ce33ed87f1803369bc8b592fbdfa6687992c5d4dd590595056dfa84b32",
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FERMION_CURRENT_AND_WARD_REPAIR.md",
+      "sha256": "be6dc0ce33ed87f1803369bc8b592fbdfa6687992c5d4dd590595056dfa84b32",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md",
+      "declared_name": "FULL_CUT_VARIATION_AND_GREEN_PAIRING.md",
+      "declared_sha256": "ded9e468ce25ca7657415f4303a8e7b9c1310251931c15228c83501a225ed6ae",
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FULL_CUT_VARIATION_AND_GREEN_PAIRING.md",
+      "sha256": "ded9e468ce25ca7657415f4303a8e7b9c1310251931c15228c83501a225ed6ae",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md",
+      "declared_name": "COEFFICIENT_ROSTER.md",
+      "declared_sha256": "a98ff428e88ae6bc82cd334ce7fe2bb11c9ec2d5b7f7e0d2e28cd99ff83803c5",
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COEFFICIENT_ROSTER.md",
+      "sha256": "a98ff428d827d11adf8400e9e03e49b7360f3ccae03ed6f957e9780eec4ed33f",
+      "status": "MISMATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md",
+      "declared_name": "SPINOR_BUNDLE_VERIFICATION.md",
+      "declared_sha256": "4d9de6cbd6f6feceb2acdd9d4e3be4fbcfbe5d562fd56f6c113022a773c2df2b",
+      "status": "UNAVAILABLE_IN_CHECKED_REFS_AND_HISTORY",
+      "actual_path": null
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md",
+      "declared_name": "COMPLETE_THEORY_MAP.md",
+      "declared_sha256": "9f8bf8fb72cf4be19fd93fb3ac7dc6edfd3d7fe89fd0c4b1ff45fdab72d10cb6",
+      "status": "UNAVAILABLE_IN_CHECKED_REFS_AND_HISTORY",
+      "actual_path": null
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md",
+      "declared_name": "FORM_SPIN_VECTOR_OPERATOR_JOINT.md",
+      "declared_sha256": "0d363d6b651bd8f5c621d5a611890d81864824645fbb1a0c530fef8958ca7052",
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FORM_SPIN_VECTOR_OPERATOR_JOINT.md",
+      "sha256": "0d363d6b651bd8f5c621d5a611890d81864824645fbb1a0c530fef8958ca7052",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md",
+      "declared_name": "LEPTON_FORM_CURRENT.md",
+      "declared_sha256": "ab2aec95a02051e94a4e94408c036758438074ed0bbc7d24fba605c35f892264",
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/LEPTON_FORM_CURRENT.md",
+      "sha256": "ab2aec95a02051e94a4e94408c036758438074ed0bbc7d24fba605c35f892264",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md",
+      "declared_name": "JOINED_KERNEL_AND_PHYSICAL_MAP.md",
+      "declared_sha256": "f96f5247f00151c829daefa2c66a31f05a53a50ed499b02bac4ecb6ddb960691",
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/JOINED_KERNEL_AND_PHYSICAL_MAP.md",
+      "sha256": "f96f5247f00151c829daefa2c66a31f05a53a50ed499b02bac4ecb6ddb960691",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md",
+      "declared_name": "NEUTRAL_D5_KERNEL.md",
+      "declared_sha256": "dbbffb7360fdbad75d967b76feac75864fe4b36a8943714860bd454653831fad",
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/NEUTRAL_D5_KERNEL.md",
+      "sha256": "dbbffb7360fdbad75d967b76feac75864fe4b36a8943714860bd454653831fad",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md",
+      "declared_name": "CENTRALIZER_KERNEL_WITH_THRESHOLD_CONTINUUM.md",
+      "declared_sha256": "a19e2c6c6b4faa0db3bbe16402499314f259a8db0ce590b0bcaf3ac4130970f5",
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/CENTRALIZER_KERNEL_WITH_THRESHOLD_CONTINUUM.md",
+      "sha256": "a19e2c6c6b4faa0db3bbe16402499314f259a8db0ce590b0bcaf3ac4130970f5",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md",
+      "declared_name": "weave_curved_action_2026_10_08/PROOF.md",
+      "declared_sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+      "sha256": "c505823ce2b934b9737780acf3d6bbbeeb8482613b7ecc76a2ece58b1c2ebc4f",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md",
+      "declared_name": "weave_physical_mass_2026_10_08/PROOF.md",
+      "declared_sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md",
+      "declared_name": "GAPLESS_CUSP_RESPONSE_AND_GAUGE_COUPLING.md",
+      "declared_sha256": "e89a6b108bfa6bc0bc80f093b4e35aa24d04f9013842ef9ad90b9bcc61e2da50",
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GAPLESS_CUSP_RESPONSE_AND_GAUGE_COUPLING.md",
+      "sha256": "e89a6b108bfa6bc0bc80f093b4e35aa24d04f9013842ef9ad90b9bcc61e2da50",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md",
+      "declared_name": "GRAM_RESPONSE_FROM_SAME_ACTION_DERIVATION.md",
+      "declared_sha256": "3d158b8d93fe32efb8af3c94bf7c14c480454dc66084e0c567750cb8239f5318",
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GRAM_RESPONSE_FROM_SAME_ACTION_DERIVATION.md",
+      "sha256": "3d158b8d93fe32efb8af3c94bf7c14c480454dc66084e0c567750cb8239f5318",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md",
+      "declared_name": "surface_all_boson_response_2026_10_16/PROOF.md",
+      "declared_sha256": "f41b1a1f2309f2ef8bf1f0d9977ecd1e07c91204ec9bd9e1d7e95179980dd904",
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/surface_all_boson_response_2026_10_16/PROOF.md",
+      "sha256": "f41b1a1f2309f2ef8bf1f0d9977ecd1e07c91204ec9bd9e1d7e95179980dd904",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md",
+      "declared_name": "SAME_ACTION_GAUGE_BOUNDARY_RESPONSE_AND_CUBIC_2026_11_08.md",
+      "declared_sha256": "7e401a2f3b7c7e10a1ef04e635bd271bb19a655f282ade035f9d1abcb4016956",
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/SAME_ACTION_GAUGE_BOUNDARY_RESPONSE_AND_CUBIC_2026_11_08.md",
+      "sha256": "7e401a2f3b7c7e10a1ef04e635bd271bb19a655f282ade035f9d1abcb4016956",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md",
+      "declared_name": "ACTUAL_CORE_MEAN_RESPONSE_AND_FLUX_SEWING_2026_11_08.md",
+      "declared_sha256": "4e8be59309a0cf484acd5d30326661df0d7c7f0072229cae810ba9b71ddc1016",
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/ACTUAL_CORE_MEAN_RESPONSE_AND_FLUX_SEWING_2026_11_08.md",
+      "sha256": "4e8be59309a0cf484acd5d30326661df0d7c7f0072229cae810ba9b71ddc1016",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md",
+      "declared_name": "FREQUENCY_CORE_ANGULAR_TAIL_AND_GAUGE_WARD_RESPONSE_2026_11_08.md",
+      "declared_sha256": "ea5bc0250d1ab332237dee3878ac5762789922a5da0a77ed52fbdcbb616166ef",
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/FREQUENCY_CORE_ANGULAR_TAIL_AND_GAUGE_WARD_RESPONSE_2026_11_08.md",
+      "sha256": "ea5bc0250d1ab332237dee3878ac5762789922a5da0a77ed52fbdcbb616166ef",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md",
+      "declared_name": "FOUR_CONNECTION_TAIL_VERTEX_WITH_GAUSS_EXCHANGE_2026_11_08.md",
+      "declared_sha256": "9bb2f1ef75345142dbe6cedbafa2f7cf2909dc649c693178366a6903318970d1",
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/FOUR_CONNECTION_TAIL_VERTEX_WITH_GAUSS_EXCHANGE_2026_11_08.md",
+      "sha256": "9bb2f1ef75345142dbe6cedbafa2f7cf2909dc649c693178366a6903318970d1",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md",
+      "declared_name": "EXTERIOR_RESPONSE_AND_JOINING.md",
+      "declared_sha256": "3d99d0d72a03dca843f36924e4c47cc7e0c78c4ecba8c0974515d41bb80eca68",
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXTERIOR_RESPONSE_AND_JOINING.md",
+      "sha256": "3d99d0d72a03dca843f36924e4c47cc7e0c78c4ecba8c0974515d41bb80eca68",
+      "status": "MATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md",
+      "declared_name": "COEFFICIENT_ROSTER.md",
+      "declared_sha256": "a98ff428e88ae6bc82cd334ce7fe2bb11c9ec2d5b7f7e0d2e28cd99ff83803c5",
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COEFFICIENT_ROSTER.md",
+      "sha256": "a98ff428d827d11adf8400e9e03e49b7360f3ccae03ed6f957e9780eec4ed33f",
+      "status": "MISMATCH"
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md",
+      "declared_name": "SPINOR_BUNDLE_VERIFICATION.md",
+      "declared_sha256": "4d9de6cbd6f6feceb2acdd9d4e3be4fbcfbe5d562fd56f6c113022a773c2df2b",
+      "status": "UNAVAILABLE_IN_CHECKED_REFS_AND_HISTORY",
+      "actual_path": null
+    },
+    {
+      "declared_in": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md",
+      "declared_name": "COMPLETE_THEORY_MAP.md",
+      "declared_sha256": "9f8bf8fb72cf4be19fd93fb3ac7dc6edfd3d7fe89fd0c4b1ff45fdab72d10cb6",
+      "status": "UNAVAILABLE_IN_CHECKED_REFS_AND_HISTORY",
+      "actual_path": null
+    }
+  ],
+  "historical_coefficient_hash_mismatches": [
+    {
+      "commit": "9f0450d3ab6bd313e27044ac7b5647d34ce7b71d",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COEFFICIENT_ROSTER.md",
+      "sha256": "a98ff428d827d11adf8400e9e03e49b7360f3ccae03ed6f957e9780eec4ed33f",
+      "declared_sha256": "a98ff428e88ae6bc82cd334ce7fe2bb11c9ec2d5b7f7e0d2e28cd99ff83803c5",
+      "status": "MISMATCH"
+    },
+    {
+      "commit": "d1f2125a87bf4dc22f033a0c939dd737d28565fa",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COEFFICIENT_ROSTER.md",
+      "sha256": "13bb67de5a536afef121afad28ce648bb3e808e8fb243ed8dd8b88429ac2380b",
+      "declared_sha256": "13bb67de57e270dd3c93385ff43ac63ffba46f12ff57f5d5e19ec1fe78580e9b",
+      "status": "MISMATCH"
+    }
+  ],
+  "physical_release_pins": [
+    {
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RUN_TICKET_AGY_03B_R3.md",
+      "sha256": "81bbbe021a40f43e517679f3c7844c5d19ffb92524f952ab131e8ae48f7b7f7e",
+      "status": "MATCH"
+    },
+    {
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_03B_R2_235A62_2026_11_10.md",
+      "sha256": "91b909ed7d69a34529685fc35c49578f401ee5fdefbca1f5b98d9106d169cb78",
+      "status": "MATCH"
+    },
+    {
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/SOURCE_REVIEW_RECEIPT_AGY_03B_R2_235A62_2026_11_10.json",
+      "sha256": "6011ac8e96d16e5a7405389dc7dbd54d5f1dd780a1be250d3d57feb0528791d8",
+      "status": "MATCH"
+    }
+  ],
+  "scientific_import_or_execution": false,
+  "test_collection": false,
+  "cas_or_numerical_controls": false,
+  "metadata_scripts_only": true,
+  "new_agents": false,
+  "formal_independent_review": null,
+  "main_acceptance": null,
+  "execution_admission": null,
+  "banking": null,
+  "canonical_inputs_removed": 0,
+  "old_22_test_package_tests_this_packet": false,
+  "first_failures_preserved_at": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+  "next_released_microtask": "AGY-03b-r4",
+  "next_scope": "exact retrievable sources/model and pair-current repair with rejecting and surviving controls; conditional threshold and physical duties retained",
+  "sources": [
+    {
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/PHYSICAL_CUSP_CURRENT_AND_SOURCE_THRESHOLD.md",
+      "sha256": "e0a68bcc924078076488d65665cbc61eddd5e99d5647e224cdf571ce7a2b2f0a"
+    },
+    {
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/WEIGHTED_FERMION_SOURCE_RESPONSE.md",
+      "sha256": "1841847148cd02d87b622bebc6a85bbeddc3a63eabb249e06adca23be56ebf83"
+    },
+    {
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FERMION_CURRENT_AND_WARD_REPAIR.md",
+      "sha256": "be6dc0ce33ed87f1803369bc8b592fbdfa6687992c5d4dd590595056dfa84b32"
+    },
+    {
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md",
+      "sha256": "991fb5d9eec1d24ccdb50ec48cb2cdd0365894a431176d3ce04bd1aa7ba3b566"
+    },
+    {
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RESUME.md",
+      "sha256": "78749e9b046e65e3452b14b1cf0c53bf1432ba258b33cc522a85843f06872b2e"
+    },
+    {
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "relays/AGY_TO_PHYSICAL_2026-11-10_AGY_03B_R3_PHYSICAL_CUSP_CURRENT.md",
+      "sha256": "d54e837eabfa3fb3f47ebb9b159b77cdbd9c98c83aa97c3a53c22b664a063490"
+    }
+  ],
+  "actual_recovery_sources": [
+    {
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/GAPLESS_CUSP_RESPONSE_AND_GAUGE_COUPLING.md",
+      "sha256": "e89a6b108bfa6bc0bc80f093b4e35aa24d04f9013842ef9ad90b9bcc61e2da50"
+    },
+    {
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_QUATERNION_STATIONARY_BUNDLE_AND_CUSP_LAW.md",
+      "sha256": "221a7cd2dce2ff7dec0b135c348b7bb52e15bc27e5563d420756fbe31f9978a1"
+    },
+    {
+      "commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+      "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+      "sha256": "04fbb6b7ddc23fe2ae56aa24f3df6e9a710f6278363213b8a509b06ace83ef8d"
+    },
+    {
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COEFFICIENT_ROSTER.md",
+      "sha256": "a98ff428d827d11adf8400e9e03e49b7360f3ccae03ed6f957e9780eec4ed33f"
+    },
+    {
+      "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/JOINED_KERNEL_AND_PHYSICAL_MAP.md",
+      "sha256": "f96f5247f00151c829daefa2c66a31f05a53a50ed499b02bac4ecb6ddb960691"
+    }
+  ],
+  "review_artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_03B_R3_6A118_2026_11_10.md",
+      "sha256": "7474fa46d1af40683d482602f076e70e479e4111bc2dc3047406554e1dc2a9d8"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/RUN_TICKET_AGY_03B_R4.md",
+      "sha256": "7d1af9afa8430c365592aad768471d634cddee08e601014b768859af314eccb2"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_AGY_CC_2026-11-10_6A118_SOURCE_AND_PAIR_CURRENT_FAILURES.md",
+      "sha256": "9487b05778c9b34f4e68b8ad05fd1aa2113f1788097cfd55e09abe40371f0325"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/TASKS.json",
+      "sha256": "796922224a5d1e264903af5f1fe92e1d952ff3310bb4a68e6bc1557f04421142"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/START_HERE.md",
+      "sha256": "8cd1cb0920a1ed62070a6e83345024d1c41c3853ef8d366f40a0dee4e741ce69"
+    }
+  ],
+  "source_sizes": {
+    "PHYSICAL_CUSP_CURRENT_AND_SOURCE_THRESHOLD.md": {
+      "words": 1989,
+      "lines": 90
+    },
+    "WEIGHTED_FERMION_SOURCE_RESPONSE.md": {
+      "words": 1839,
+      "lines": 96
+    },
+    "FERMION_CURRENT_AND_WARD_REPAIR.md": {
+      "words": 1027,
+      "lines": 68
+    },
+    "FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md": {
+      "words": 1809,
+      "lines": 90
+    },
+    "RESUME.md": {
+      "words": 443,
+      "lines": 26
+    },
+    "AGY_TO_PHYSICAL_2026-11-10_AGY_03B_R3_PHYSICAL_CUSP_CURRENT.md": {
+      "words": 189,
+      "lines": 10
+    }
+  },
+  "inherited_index_sha256_before": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "inherited_paths_policy": "unrelated staged/working files preserved; exact-path own review sharing only",
+  "metadata_preparation_note": "initial orchestration input had a JavaScript parse error before any shell execution; corrected call performed this metadata preparation"
+}

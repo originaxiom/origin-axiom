@@ -1,23 +1,45 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-10. Coordination revision 30, requested by the owner to avoid
+2026-11-10. Coordination revision 31, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
 
-## Current assignment AGY-03b-r3, B5a physical cusp-current test
+## Current assignment AGY-03b-r4, exact sources and pair currents
 
-Processed exact AGY head235a62913c2cfb6a03d9c67c80864d69d1d67ca1.
-Read RUN_TICKET_AGY_03B_R3.md and
-REVIEW_AGY_03B_R2_235A62_2026_11_10.md. Preserve the supported
-fixed-s weighted tail result. Bundle D1-D4 source/kernel/Fourier/
-boundary-space/degree corrections. The new question is the actual
-canonical-to-four-slot cusp spectral lift and its leading physical
-current. Compute a nonzero coefficient or a scoped cancellation,
-transport norms/conjugation/Ward data, and test its actual weighted
-source spaces. Full B5 and global nonlinear stationarity remain open.
-Return one bounded hand packet, commit/push and stop for review.
-Existing scientific admission duties remain unchanged.
+Processed exact AGY head6a118a716e2590f0a16c6fbfd540129cd73672a9.
+Read RUN_TICKET_AGY_03B_R4.md and
+REVIEW_AGY_03B_R3_6A118_2026_11_10.md. B5a completion is not accepted.
+Four cited documents and an attempt ledger were unavailable in21 ref
+trees, reachable path history and workspace search. Full coefficient
+hashes were altered and no longer match their cited Git versions.
+Restore actual sources and candidate, then repair the external
+Grassmann pair sign, internal phases and radial/physical typing.
+Preserve the internal determinant and conditional power integrals.
+Keep the four-generator exchange contraction and Ward/EOM duties
+explicit. One bounded hand/source repair, commit/push and stop.
+Scientific execution retains its existing admission requirements.
+
+## AGY-03b-r3 at6a118a716, source failures and current counterexamples
+
+The radial coordinate, explicit permutation and determinant factor
+have supported parts. The external coefficient must add its two
+terms. The relative-i single-copy witness has zero external current.
+The relative1 example remains nonzero. Orthogonal flavour supplies
+another possible external cancellation. Restore the parent internal
+current phases. The1/2 threshold is conditional on a surviving source.
+With two odd generators quartic exchange is identically zero. The
+new fullSM algebra cannot embed in A3 by the stated rank4/rank3 map.
+These findings scope this packet. Earlier D1-D4 repairs survive at
+their original scope. Canonical inputs removed0.
+
+## Prior assignment AGY-03b-r3
+
+RUN_TICKET_AGY_03B_R3.md asked for an actual field lift and current,
+with no assumption of a nonzero coefficient or cancellation. The6a118
+return requires the repairs above. Preserve its source failures and
+current claims in history. Full B5 and the stationary physical family
+remain open.
 
 ## AGY-03b-r2 at235a62913, fixed-s tail positive with boundary repairs
 
