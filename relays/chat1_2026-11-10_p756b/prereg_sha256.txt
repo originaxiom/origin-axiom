@@ -1,0 +1,8 @@
+P-756(b), the tau side: does anything concentrate under the move count? (the web seat, 2026-11-10; data-free; weave)
+Sealed before the full run. Smoke runs were made only on unrelated or reduced copies, as the script's header discloses.
+
+sha256  p756b_concentration.py  a178acdb7e6b8b4bc9dd96c1e2bfcd0bdad75980ddb1e8046e1c3978a42b2268
+sha256  run.sh                  b038a1748f3c243b188c02227ef0ce77fab0284b9eb5d1ae75d05f64ba307dec
+
+The full run is ./run.sh, from this directory. Its outputs (out_p756b.json, run_out.txt, run_err.txt, run_exit.txt)
+are committed unread, after this file.
