@@ -1,0 +1,31 @@
+F1
+  LR mod 5 = (1, 1, 1, 2), trace 3 = -2: True; eigenlines fixed: 1, spanned by (1, 3), multiplier 4 (= -1: True)
+  RL mod 5 = (2, 1, 1, 1), trace 3 = -2: True; eigenlines fixed: 1, spanned by (1, 2), multiplier 4 (= -1: True)
+F2
+  |SL(2,F5)| = 120; stabiliser orders: vector 5, line 10, eigenline 20; indices 24, 12, 6
+F3
+  <LR mod 5> has order 10; equals the stabiliser of the line +-v: True; every element also fixes +-2v: True
+F4
+  traces of elements fixing some line: [2, 3]; fixing none: [0, 1, 4]
+  traces of elements fixing some eigenline: [0, 2, 3]; fixing none: [1, 4]
+F5
+  S fixes the eigenline spanned by (1, 2) (the eigenline of RL), multiplier 3: it exchanges +-v and +-2v: True
+  S fixes the eigenline spanned by (1, 3) (the eigenline of LR), multiplier 2: it exchanges +-v and +-2v: True
+  eigenlines fixed by S: 2 of 6; fixed by ST: 0
+F6
+  LLLLLLRLR: runs [6, 1, 1, 1]; runs that are not 1: 1; fixes the line +-v: True
+  LLLLLLRLRLR: runs [6, 1, 1, 1, 1, 1]; runs that are not 1: 1; fixes the line +-v: True
+  LLLLLLRLRLLLLLLRLRLR: runs [6, 1, 1, 1, 6, 1, 1, 1, 1, 1]; runs that are not 1: 2; fixes the line +-v: True
+F7
+  N = 2: S fixes 1 eigenlines, ST fixes 0
+  N = 3: S fixes 0 eigenlines, ST fixes 1
+  N = 4: S fixes 0 eigenlines, ST fixes 0
+  N = 5: S fixes 2 eigenlines, ST fixes 0
+  N = 6: S fixes 0 eigenlines, ST fixes 0
+  N = 7: S fixes 0 eigenlines, ST fixes 2
+  N = 8: S fixes 0 eigenlines, ST fixes 0
+  N = 9: S fixes 0 eigenlines, ST fixes 0
+  N = 10: S fixes 2 eigenlines, ST fixes 0
+  N = 11: S fixes 0 eigenlines, ST fixes 0
+  N = 12: S fixes 0 eigenlines, ST fixes 0
+  N = 13: S fixes 2 eigenlines, ST fixes 2
