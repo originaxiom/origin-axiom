@@ -64,7 +64,7 @@ written: PROGRAMME.md, PROGRAMME.json
   "PARTLY FIXED": 11,
   "FIXED": 9
  },
- "relayed_rulings": 7,
+ "relayed_rulings": 11,
  "headline_results_that_are_conditional_results": [
   "G:ROOT",
   "MC:Z6",

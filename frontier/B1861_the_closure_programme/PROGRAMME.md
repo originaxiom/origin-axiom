@@ -12,7 +12,7 @@ that still needs a path is in no package, or if the order of work ignores a depe
 - **4 packages have no owner:** WP-1.8, WP-1.9, WP-3.5, WP-4.5.
 - **Main's spine presently holds 38 inputs as the record lists them** (§ 3): 8 axioms, 8 bits, 16 discrete choices, 5 real numbers, 1 ansatz, 7 identifications. The lanes' model adds 7 supplied inputs of its own, not typed here.
 - **73 findings of the advisor seat's audit** are each in a package (§ 8): open 34, reader 12, reproduced 7, partly fixed 11, fixed 9.
-- **7 rulings of the owner, as that seat relayed them,** are each mapped to a package and wait for the owner's confirmation (§ 9).
+- **11 rulings of the owner, as that seat relayed them,** are each mapped to a package and wait for the owner's confirmation (§ 9).
 
 ## 2. The three milestones
 
@@ -318,7 +318,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **Closed when:** the planted violation is refused; every arc upstream of a claimed prediction carries the fields; each weave-domain arc commits the same computation on a second thread; a chosen truncation is counted in the input budget.
 - **Register:** P-755 (OWNER), P-757 (QUEUED).
 - **The audit's findings (5):** W1, W2, W3, W4, W5.
-- **Relayed rulings:** the claim; the weave discipline.
+- **Relayed rulings:** the claim; the weave discipline; the fork inside it.
 
 **WP-0.12 — The count as an output, and the map on the desk** (DERIVE; NOT STARTED; owner: main)
 
@@ -382,6 +382,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **Stated about:** thread 2, weave 4.
 - **Missing dependencies it works on:** X:PARENT, X:SELECT, X:WEIGHT.
 - **Register:** P-755 (OWNER).
+- **Relayed rulings:** the founding principle as the selection rule.
 
 **WP-1.6 — The law and the weight** (DECIDE; STARTED; owner: main; the owner for the law's reading)
 
@@ -392,9 +393,9 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **Stated about:** thread 2, weave 3.
 - **Also bears on nodes held elsewhere:** D:12.
 - **Missing dependencies it works on:** X:TAU, X:WEIGHT.
-- **Register:** P-755 (OWNER), P-756 (QUEUED), P-439 (QUEUED), P-758 (OWNER).
+- **Register:** P-755 (OWNER), P-756 (QUEUED), P-439 (QUEUED), P-758 (OWNER), P-761 (QUEUED), P-762 (QUEUED).
 - **The audit's findings (2):** W6, W7.
-- **Relayed rulings:** the claim; the weave discipline.
+- **Relayed rulings:** the claim; the weave discipline; what self-consistent means; the first back-edge to try; the fork inside it; the founding principle as the selection rule.
 
 **WP-1.7 — The dictionary** (DERIVE; NOT STARTED; owner: main)
 
@@ -558,6 +559,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **Also bears on nodes held elsewhere:** D:12, E:Q3, FL:05, T:MINIM, T:POINT-WEIGHT.
 - **Missing dependencies it works on:** X:SCALE, X:TAU.
 - **Register:** P-714 (QUEUED), P-739 (QUEUED), P-744 (QUEUED).
+- **Relayed rulings:** the first back-edge to try.
 
 **WP-4.2 — The quantum regime and the level** (DECIDE; NOT STARTED; owner: main)
 
@@ -825,7 +827,7 @@ FIXED: main meets the whole row as main reads it; that seat's re-audit decides.
 | G10 | practices labelled gated whose gate is weaker than the practice | WP-0.7 | READER | main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit, for two of its eleven practices: a proven row citing no lock passed, and a banned phrase passed when capitalised or placed in a file type the gate does not read |
 | G11 | the currency check prints 'current' beside declared debts | WP-0.7 | OPEN | — |
 | G12 | the gates at push are an honour system | WP-0.7 | OPEN | — |
-| G13 | results depend on clone depth and on fetched refs | WP-0.7 | PARTLY FIXED | Review 77: the review tool's clone for the gates now carries the published branches, as its clone for the suite did. Left: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit at depth 50, where the lead gate reports no stale arc against a baseline of 76 and another gate fails spuriously; no gate says the clone is shallow |
+| G13 | results depend on clone depth and on fetched refs | WP-0.7 | PARTLY FIXED | Review 77: the review tool's clone for the gates now carries the published branches, as its clone for the suite did. Left: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit at depth 50, where the lead gate reports no stale arc against a baseline of 76 and another gate fails spuriously; no gate says the clone is shallow. The seat's own script reports this case caught on today's main because the full and the shallow clone now agree; that is its criterion, not a fix (B1865) |
 | G14 | baselines are counts, markers never expire, ids match as substrings | WP-0.7 | READER | main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a verdict file cut to invalid JSON is skipped by the gate that reads it; it is noticed only where the arc has dependants, and by a view generator |
 | L1 | about a quarter of PROVED arcs are guarded only by locks that read text | WP-0.3 | OPEN | — |
 | L2 | 'locks assert mathematics' has no gate | WP-0.3 | OPEN | — |
@@ -902,4 +904,8 @@ on it. The plan is drafted to be consistent with them, in the packages below; if
 | the count as an output | "the count is computed, not typed" | WP-0.12 |
 | the headline's form | "is the number of value rows on the whole map" | WP-0.12 |
 | the map on the desk | "the map is agreed, and main builds it as part of the dashboard already built" | WP-0.12 |
+| what self-consistent means | "means the closed loop" | WP-1.6 |
+| the first back-edge to try | "back-edge A first" | WP-1.6, WP-4.1 |
+| the fork inside it | "is about A-all" | WP-1.6, WP-0.11 |
+| the founding principle as the selection rule | "try the founding principle as the selection rule" | WP-1.5, WP-1.6 |
 

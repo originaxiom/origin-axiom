@@ -1,0 +1,28 @@
+{
+ "id": "B1865",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1863",
+  "B1864",
+  "B1862",
+  "B1861"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the advisor seat's planted-violation script (relays/advisor_2026-11-10_audit/tools/planted_violations.py @ c6c5f12e; harvest row 1639): the instrument is the seat's, read by main and run as written in a scratch clone"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (a process arc: a measurement of main's enforcement by another seat's instrument)",
+  "object": "main at 30dd1fea7 and the 27 planted violations of the advisor seat's acceptance criteria",
+  "reach": "general",
+  "hypotheses": "the script automates 21 of the 27 and lists 6 as manual; one of its reported catches follows from its own criterion and not from a gate"
+ },
+ "claim_one_line": "THE PLANTED VIOLATIONS, RUN ON MAIN BY THE ADVISOR SEAT'S OWN SCRIPT (main at 30dd1fea7, after B1862 to B1864): the five controls caught; of the 21 planted violations the script automates, 14 still pass undetected and 7 are reported caught, where on 2026-11-07 all 21 passed; six of the seven are caught by a gate that now does the work (a committed deletion from the log, twice; an edit of a sealed file; a deleted sealed file; a ledger hash changed by hand; a seal under another name committed with its results), and the seventh, the shallow clone, is reported caught only because today the full and the shallow clone agree -- no gate says a clone is shallow; the fourteen are the rest of the enforcement package, by finding G5 to G10, G14 and L7. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}

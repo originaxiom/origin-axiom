@@ -329,7 +329,7 @@
    "wp": "WP-0.7"
   },
   "G13": {
-   "note": "Review 77: the review tool's clone for the gates now carries the published branches, as its clone for the suite did. Left: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit at depth 50, where the lead gate reports no stale arc against a baseline of 76 and another gate fails spuriously; no gate says the clone is shallow",
+   "note": "Review 77: the review tool's clone for the gates now carries the published branches, as its clone for the suite did. Left: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit at depth 50, where the lead gate reports no stale arc against a baseline of 76 and another gate fails spuriously; no gate says the clone is shallow. The seat's own script reports this case caught on today's main because the full and the shallow clone now agree; that is its criterion, not a fix (B1865)",
    "short": "results depend on clone depth and on fetched refs",
    "state": "PARTLY FIXED",
    "wp": "WP-0.7"
@@ -2093,7 +2093,8 @@
    },
    "rulings": [
     "the claim",
-    "the weave discipline"
+    "the weave discipline",
+    "the fork inside it"
    ],
    "sits_under": 6,
    "status": "STARTED",
@@ -2394,7 +2395,9 @@
    "rows_live": {
     "P-755": "OWNER"
    },
-   "rulings": [],
+   "rulings": [
+    "the founding principle as the selection rule"
+   ],
    "sits_under": 4,
    "status": "NOT STARTED",
    "title": "The root, selection, and thread results",
@@ -2450,17 +2453,25 @@
     "P-755",
     "P-756",
     "P-439",
-    "P-758"
+    "P-758",
+    "P-761",
+    "P-762"
    ],
    "rows_live": {
     "P-439": "QUEUED",
     "P-755": "OWNER",
     "P-756": "QUEUED",
-    "P-758": "OWNER"
+    "P-758": "OWNER",
+    "P-761": "QUEUED",
+    "P-762": "QUEUED"
    },
    "rulings": [
     "the claim",
-    "the weave discipline"
+    "the weave discipline",
+    "what self-consistent means",
+    "the first back-edge to try",
+    "the fork inside it",
+    "the founding principle as the selection rule"
    ],
    "sits_under": 19,
    "status": "STARTED",
@@ -3314,7 +3325,9 @@
     "P-739": "QUEUED",
     "P-744": "QUEUED"
    },
-   "rulings": [],
+   "rulings": [
+    "the first back-edge to try"
+   ],
    "sits_under": 15,
    "status": "STARTED",
    "title": "The modulus",
@@ -4091,6 +4104,37 @@
    [
     "WP-0.12"
    ]
+  ],
+  [
+   "what self-consistent means",
+   "means the closed loop",
+   [
+    "WP-1.6"
+   ]
+  ],
+  [
+   "the first back-edge to try",
+   "back-edge A first",
+   [
+    "WP-1.6",
+    "WP-4.1"
+   ]
+  ],
+  [
+   "the fork inside it",
+   "is about A-all",
+   [
+    "WP-1.6",
+    "WP-0.11"
+   ]
+  ],
+  [
+   "the founding principle as the selection rule",
+   "try the founding principle as the selection rule",
+   [
+    "WP-1.5",
+    "WP-1.6"
+   ]
   ]
  ],
  "seal_rule": [
@@ -4176,7 +4220,7 @@
    ]
   ],
   "present_inputs": 64,
-  "relayed_rulings": 7,
+  "relayed_rulings": 11,
   "rules_of_the_comparison": 12,
   "unowned": [
    "WP-1.8",

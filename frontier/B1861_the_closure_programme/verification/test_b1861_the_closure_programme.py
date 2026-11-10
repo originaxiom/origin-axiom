@@ -135,7 +135,7 @@ def test_the_audit_is_carried_finding_by_finding():
         if f["state"] != "OPEN":
             assert f["note"], fid
     assert S.FINDINGS["G1"]["wp"] == S.FINDINGS["G2"]["wp"] == "WP-0.7"
-    assert st["relayed_rulings"] == 7
+    assert st["relayed_rulings"] == len(S.RULINGS) == 11
     if not SEATS:
         pytest.skip("this clone does not hold the advisor seat's revision: its finding ids and quotes are not checked")
     assert st["audit_findings_checked_at_the_seats_revision"] == 73 and st["work_order_quotes_checked"] == len(S.WORK_ORDER_QUOTES)

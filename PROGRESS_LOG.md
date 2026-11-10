@@ -18886,3 +18886,21 @@ quarter after the list was first written, with a note saying the test had not ye
 candidate wrong. It does mean its record has to carry this plainly, and that until today nothing would have noticed.
 
 Both faults the audit graded critical are now closed on main and wait for that seat's own re-check. 0 of 19.
+
+## 2026-11-10 — S306o (continued): three seats moved, and the audit's own test run on today's repository
+
+While main was repairing safeguards, three other seats kept working, and main read what each had added.
+
+The advisor seat stated the owner's claim in a form that can be proved or refuted: a loop in which a configuration fixes
+its own geometry, the geometry fixes the numbers read from it, the numbers fix what is allowed, and what is allowed is
+that configuration, with exactly one such configuration. It observed that the record today is a line and not a loop:
+nothing computed at the end reaches back to constrain a choice at the start. Main's map shows the same.
+
+That seat also turned its list of deliberate violations into a program. Main ran it on today's repository. Three days
+ago all twenty-one passed undetected. Today six are caught by safeguards that now do their job, and fourteen still
+pass. A seventh was reported caught, but only because of how the program decides; main does not count it.
+
+The web seat graded every candidate on the record for something that would fix the shape parameter from the whole
+construction, and found none that qualifies. Another lane sent its own account of how the register's three relates to
+the fields' three, which disagrees with an exploratory reading of main's. The owner asked that it be scrutinised
+before anything rests on it. That is next. 0 of 19.

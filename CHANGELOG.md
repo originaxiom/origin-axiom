@@ -1,5 +1,17 @@
 # Changelog
 
+## S306o (continued) THREE SEATS HARVESTED AGAIN; THE ADVISOR SEAT'S PLANTED-VIOLATION SCRIPT RUN ON MAIN (B1865) (2026-11-10)
+
+- **The advisor seat** (pin `c6c5f12e`; rows 1635–1639):
+  - **four more of the owner's rulings as it relays them,** eleven in all: "one self-consistent outcome" means the closed loop; back-edge A, the state, first; the claim is about all allowed histories together, and the least-action history is a thread test bed; try the founding principle as the selection rule. None is acted on before the owner confirms (P-758);
+  - **the claim stated as a closed loop** (P-761). Its finding, that the record holds a line and not a loop, agrees with the closure map;
+  - **a sealed run of the founding principle as a selection rule** (P-762). By the seat's account the rule picks the run of 6 alone in one corner of its open choices and is otherwise empty. Not verified on main;
+  - **its planted-violation suite as a script, run by main on today's main (B1865):** the five controls caught; of 21 automated violations, 14 still pass and 7 are reported caught, where all 21 passed on 2026-11-07. Six are real (the log's and the seals' gates). The seventh, the shallow clone, is an artefact of the script's criterion.
+- **The web seat** (pin `3c34dd90`; rows 1640–1642): the weave's own action on τ graded by THE_WEAVE's clause, none qualifying; the content asked in weave form; and a sealed card on the τ side of P-756, its output committed unread.
+- **The agy lane** (pin `da5c7125`; row 1643): its relay on the register-to-field join (P-753), read at its head through the mask. It sets a move-invariance table against main's exploratory reading of the lifts. Not verified; its code not run. The owner asked that it be scrutinised before the programme's WP-2.2 and WP-3.2 are banked; that is the next arc.
+- **Three new points:** P-761, P-762, and P-763 (71 sealed files are outside the provenance gate's two file names).
+- 0 of 19.
+
 ## S306o (continued) A SEALED FILE DOES NOT CHANGE AFTER ITS SEAL (B1864; the audit's second critical finding, G2, with G3) (2026-11-10)
 
 - **What was wrong.** An edit of a sealed file after its seal was detected only for the few files with a hand-written ledger row. A sentence appended to the candidate's pre-registration and committed passed every gate. So did deleting a sealed file, and editing one while regenerating its ledger row. A ledger hash changed by hand passed too.

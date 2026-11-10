@@ -108,7 +108,7 @@ P("WP-1.6", "C1", "The law and the weight",
   "on the record: the height's law under each clock, the walk's exit law, the sealed draw test. Not on the record: concentration. State what would count as concentration (an atom; a stationary point of a function the moves fix; a unique maximiser of a rate function), then compute under the move count",
   "a weight that the grammar forces and under which one outcome is singled out, proved; or two distinct self-consistent outcomes exhibited, which refutes the claim of one outcome as the owner has stated it. A declared clock with typicality as what is predicted is the picture the owner has ruled against (relayed 2026-11-10, to be confirmed): it would be recorded as the claim not met, and it closes nothing",
   "main; the owner for the law's reading", [], "STARTED",
-  ["P-755", "P-756", "P-439", "P-758"], ["W:LAW", "W:CLOCK", "W:FLAT-SUM", "T:POINT-WEIGHT", "T:MINIM"])
+  ["P-755", "P-756", "P-439", "P-758", "P-761", "P-762"], ["W:LAW", "W:CLOCK", "W:FLAT-SUM", "T:POINT-WEIGHT", "T:MINIM"])
 P("WP-1.7", "C1", "The dictionary",
   "Which mathematical object is which field, and by what right?", "DERIVE",
   "two routes, kept apart: by derivation, through the parent and the join (WP-1.8, WP-3.2); by sealed prediction under GENESIS's rule (WP-5.3)",
@@ -301,7 +301,7 @@ SEAL_RULE = [
 #   REPRODUCED     main reproduced it with its own check; the fix is owed
 #   PARTLY FIXED   main changed part of what the acceptance row asks; the note says which part is left
 #   FIXED          main meets the whole acceptance row as main reads it; the advisor seat's re-audit is owed
-ADVISOR = ("701d12ff7", "relays/advisor_2026-11-10_audit")
+ADVISOR = ("c6c5f12e4", "relays/advisor_2026-11-10_audit")
 FINDING_STATES = ("OPEN", "READER", "REPRODUCED", "PARTLY FIXED", "FIXED")
 FINDINGS = {}
 
@@ -335,7 +335,7 @@ F("G", "WP-0.7", [
     ("G11", "the currency check prints 'current' beside declared debts", "OPEN", ""),
     ("G12", "the gates at push are an honour system", "OPEN", ""),
     ("G13", "results depend on clone depth and on fetched refs", "PARTLY FIXED",
-     "Review 77: the review tool's clone for the gates now carries the published branches, as its clone for the suite did. Left: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit at depth 50, where the lead gate reports no stale arc against a baseline of 76 and another gate fails spuriously; no gate says the clone is shallow"),
+     "Review 77: the review tool's clone for the gates now carries the published branches, as its clone for the suite did. Left: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit at depth 50, where the lead gate reports no stale arc against a baseline of 76 and another gate fails spuriously; no gate says the clone is shallow. The seat's own script reports this case caught on today's main because the full and the shallow clone now agree; that is its criterion, not a fix (B1865)"),
     ("G14", "baselines are counts, markers never expire, ids match as substrings", "READER",
      "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a verdict file cut to invalid JSON is skipped by the gate that reads it; it is noticed only where the arc has dependants, and by a view generator"),
 ])
@@ -453,6 +453,12 @@ RULINGS = [
     ("the count as an output", "the count is computed, not typed", ["WP-0.12"]),
     ("the headline's form", "is the number of value rows on the whole map", ["WP-0.12"]),
     ("the map on the desk", "the map is agreed, and main builds it as part of the dashboard already built", ["WP-0.12"]),
+    # four more, relayed later the same day (harvest row 1635). The seat numbers its relayed rulings; its eleventh is not the
+    # claim page's anchor rule, which the record also calls R11.
+    ("what self-consistent means", "means the closed loop", ["WP-1.6"]),
+    ("the first back-edge to try", "back-edge A first", ["WP-1.6", "WP-4.1"]),
+    ("the fork inside it", "is about A-all", ["WP-1.6", "WP-0.11"]),
+    ("the founding principle as the selection rule", "try the founding principle as the selection rule", ["WP-1.5", "WP-1.6"]),
 ]
 ADVISOR_QUOTES = [
     ("OWNER_RULINGS_2026-11-10.md", "cc confirms each with the owner before acting on it"),
