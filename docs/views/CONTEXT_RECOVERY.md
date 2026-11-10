@@ -18,12 +18,12 @@
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 767 |
-| … QUEUED | 255 |
+| register points | 768 |
+| … QUEUED | 256 |
 | … LEAD | 4 |
-| … OWNER | 7 |
-| … DONE | 490 |
-| … DECLINED | 11 |
+| … OWNER | 5 |
+| … DONE | 491 |
+| … DECLINED | 12 |
 | harvest rows (the last number) | 1651 |
 | the Standard Model's 19 derived | 0 |
 
@@ -51,14 +51,13 @@
 - ** P-253** — the chain gap's top entries (Review 67's R66-3, declined there because the chain is the frozen paper's spine): B1098, B959, B1100, B952, B1086, B1000, B1484, B1070 (coverage_candidates.py --chain-gap) — adjudicate each… → *asked of the owner: whether and when to open a draft after p9-draft9; until then the chain-gap list stays recorded here and nothing is due (S231) [earlier: Q3…*
 - ** P-697** — A SECOND COMPLIANCE FOLLOW-UP TO THE AGY LANE (S305f): its relay's lines 819–831 publish P-585-class values (a running top Yukawa, an inter-sector hierarchy value); its Theorem 102 carries held-out-class value literals… → *asked of the owner (S305f): main recommends sending a short note naming the lines and asking that they be removed and the salt kept somewhere durable off the r…*
 - ** P-755** — THE LAW, AND THE THREAD-FOR-WEAVE MISTAKE (the owner, 2026-11-10: 'the most important thing, which we keep repeating is the weave-vs-therad kind of mistake, and we do it repeatedly. the law that causes existence as i un… → *asked of the owner: whether 'upon its execution' is to be recorded as the reading of the law (the move count), which would rule P-439's clock; main recommends…*
-- ** P-758** — THE OWNER'S RULINGS OF 2026-11-10, AS THE ADVISOR SEAT RELAYED THEM (its OWNER_RULINGS_2026-11-10.md @ 701d12ff7): R1 the programme's only goal is a parameter-free theory of everything, and GOVERNANCE's 'not a theory of… → *asked of the owner (S306o): confirm R1 to R7 as relayed. Main acts on none of them before that; the work that does not depend on them proceeds (reproducing and…*
-- ** P-765** — LINE OR LOOP (the advisor seat's page to all seats @ 73ed0fe8c, relaying the owner: 'a real gap exists in the program because the entire programme is an open one-way line, not a closed loop'; 'i keep telling open seats… → *asked of the owner (S306o): confirm the statement and the three asks to main, with P-758. Until then main writes no governing page and adds no field. What main…*
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
 
 ## The last landings (CHANGELOG)
 
+- S306o (the refetch, continued) THE OWNER DID NOT CONFIRM THE TWO LATER RELAYED RULINGS (P-758 closed, P-765 declined) (2026-11-10)
 - S306o (the refetch) TWO SEATS HARVESTED AND CHECKED: THE PHYSICAL LANE'S REVIEW OF THE JOIN RELAY (B1866 § 6), AND THE ADVISOR SEAT'S TOP-DOWN READING AND LINE-OR-LOOP RULE (B1867) (2026-11-10)
 - S306o (continued) THE AGY LANE'S RELAY ON THE REGISTER-TO-FIELD JOIN, SCRUTINISED AT THE OWNER'S WORD (B1866; P-753) (2026-11-10)
 - S306o (continued) THREE SEATS HARVESTED AGAIN; THE ADVISOR SEAT'S PLANTED-VIOLATION SCRIPT RUN ON MAIN (B1865) (2026-11-10)
@@ -66,11 +65,10 @@
 - S306o (continued) THE APPEND-ONLY GATE READS HISTORY (B1863; the audit's first critical finding, G1) (2026-11-10)
 - S306o (continued) THE CLOSURE PROGRAMME (B1861); THE ADVISOR SEAT'S AUDIT HARVESTED AND ITS FIRST EIGHT CORRECTIONS (B1862); GENESIS v1.64 (2026-11-10)
 - S306o REVIEW 77, THE DECADAL REVIEW (B1860; fired by the push gate at 41 landings) (2026-11-10)
-- S306n (continued) WEAVE OR THREAD, ENFORCED IN THE MAP; THE LAW AND THE WEIGHT (P-755, P-756; B1858 extended) (2026-11-10)
 
 ## The latest campaign line
 
-LATEST (2026-11-10, S306o (the refetch): two seats harvested and checked (rows 1644–1651; pins audit `6ababf23`, advisor `6ab2bbdb`). B1866 § 6 — the physical lane's own review of the join relay reaches main's decision; its finding that the relay's inserted one-form matrices carry the signs (−1, −1) and not the stated (−1, +1) is verified exactly (χ₂₁ for the matrices, χ₉ for the stated signs; one projective action); kept is not selected; the quotient in E₈ is by ℤ₄; main's orders recomputed exactly; WP-3.2 split into an algebraic half, banked, and a physical half, open. B1867 — THE ADVISOR SEAT'S TOP-DOWN READING AND ITS LINE-OR-LOOP RULE, SCRUTINISED: every testable fact reproduces; a law…
+LATEST (2026-11-10, S306o (the refetch, continued): THE OWNER DID NOT CONFIRM THE TWO LATER RELAYED RULINGS ("im not very sure about it, i wouldnt take it for granted"; "it was in other context"): P-758 closed (eleven confirmed with main's opinion on each, two not confirmed), P-765 declined (no page, no terms, no field); a relayed sentence is not a ruling for main until the owner confirms it to main (P-768). Carrying out the eleven is P-767. Seen and not yet read: the advisor seat @ `5ae34492b` (its ambiguity attack's result; two further relayed sentences) and the web seat @ `e5cc47e96` (its sealed card for P-756 (b); a note on the claim about all histories together) — the next harvest. 0 o…
 
 ## Completeness (nothing skipped silently)
 
