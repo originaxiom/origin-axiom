@@ -1,0 +1,9 @@
+lock files 1548 parse errors 0 test functions 6390 asserts 16333
+  715  MATH (imports a math lib; computed asserts present)
+  386  TEXT_ONLY (no math import, no subprocess; reads files)
+  367  RUNS_SCRIPT (subprocess/import of arc script, no math lib in test)
+   78  OTHER
+    2  MATH_IMPORT but >=80% string-in-text asserts
+files with skip markers 139 total skip sites 198
+test functions with no assert/raise/approx: 0 in 0 files
+string-in-text asserts total 2722 of 16333

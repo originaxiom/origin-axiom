@@ -1,0 +1,36 @@
+PROVED 1068 | locked only by TEXT_ONLY locks 242 | no lock matched by name 107
+NEGATIVE 381 | text-only 79 | none 58
+text-only PROVED by in-degree:
+23 B892 ['tests/test_b892_smt.py'] CORRECTED 2026-09-02 (B1237): z = 14 is su(3)⊕su(2)⊕u(1)³, dim 14 — two abelian factors mo
+21 B883 ['tests/test_b883_the27.py'] THE 27 REPRESENTATION built on the B854 Chevalley frame via the e7 3-grading -- the queue'
+20 B1600 ['tests/test_b1600_the_weave_verified.py'] THE WEAVE VERIFIED (the SM seat's W1-W4 of 2026-10-07, by main's own code). W1: the moves 
+16 B884 ['tests/test_b884_yukawa.py'] The invariant cubic on the 27 and the SM-graded Yukawa-support table -- the B883 instrumen
+15 B952 ['tests/test_b952_rank.py'] THE GUT REQUIREMENTS LEDGER + THE RANK OBSTRUCTION (theorem-grade). The second missing inv
+12 B950 ['tests/test_b950_sm_spec.py'] THE SM SPECIFICATION LEDGER (owner directive: we do not yet fully understand the SM as tod
+12 B1612 ['tests/test_b1612_the_mixing_patterns_the_weave_fixes.py'] THE MIXING PATTERNS THE WEAVE FIXES (sealed f008c0424; the first value contact under the o
+12 B936 ['tests/test_b936_b939.py'] THE COHOMOLOGY READING -- A SPLIT RESULT, REPORTED VERBATIM (the agent sealed its OWN prer
+11 B1611 ['tests/test_b1611_is_cp_violation_forced_on_the_weave.py'] IS CP VIOLATION FORCED ON THE WEAVE? (sealed 43ec84e8b): no. The weave's group G (order 96
+10 B1601 ['tests/test_b1601_the_common_point_is_the_geometry_mod_3.py'] THE COMMON POINT IS THE GEOMETRY MOD 3 (sealed 3c56a10f1 / a5260bd9; a weave result): on e
+10 B923 ['tests/test_b923_exact.py'] V-L2 CLOSED AT THE EXACT TIER + THE HIERARCHY-CARRIER DISCOVERY (banking-verified rerun 17
+9 B1432 ['tests/test_b1432_three_fold_cover.py'] THE THREE-FOLD COVER FIRES OFF THE LIFT. The SM lane's level census (sm:B1506, 2026-09-30)
+9 B978 ['tests/test_b978_phasea.py'] PHASE A BANKED -- four leads closed, one new mechanism, and the same failure a third time.
+9 B912 ['tests/test_b912_norm.py'] R1, THE SEALED NORM CELL DECIDES -- OUTCOME B, AND THE OBSTRUCTION IS EXACTLY THE COLORED 
+9 B953 ['tests/test_b953_two_seeds.py'] E6 vs E4, AND THE TWO SEEDS (owner directive). 'E4' is real: in the E_n series (del Pezzo 
+9 B1607 ['tests/test_b1607_the_principles_tick_at_the_common_point.py'] THE PRINCIPLE'S TICK AT THE COMMON POINT (sealed 805e2d488 / 671d6328): the rule sigma: a 
+9 B1606 ['tests/test_b1606_three_on_the_weave_graded.py'] THREE ON THE WEAVE, GRADED (sealed 8dfd4df1e / 7d1d3032): the SM seat's W22 as qualified b
+8 B1492 ['tests/test_b1492_the_three_ended_companion_read.py'] THE THREE-ENDED COMPANION READ (sealed 872c082ec / 52dcd6db): the harmonic frame and the F
+8 B1618 ['tests/test_b1618_the_weighted_cell_at_omega.py'] THE WEIGHTED CELL AT OMEGA (sealed 434782554): given tau = omega, the Dirac masses are deg
+8 B1637 ['tests/test_b1637_fits_on_the_ruled_branch.py'] FITS ON THE RULED BRANCH (sealed 3ef9c3f8f; PROVED for its question -- F3, F4, F5 hold as 
+8 B906 ['tests/test_b906_flavor.py'] THE FLAVOR ARC VERIFIED WHOLESALE (solo handoff 5, integrate-don't-merge, every suite scri
+7 B1604 ['tests/test_b1604_the_class_index_is_not_an_index.py'] THE CLASS INDEX IS NOT AN INDEX (sealed 12631d402 / faed67d2; T-NO-INDEX-IN-THREE): on a c
+7 B874 ['tests/test_b874_ladder.py'] The measurement ladder, exact over Q on the banked B854 build: (1) the coordinate census o
+7 B1810 ['tests/test_b1810_the_symmetry_selection_value_table.py'] THE SYMMETRY-SELECTION VALUE TABLE (P-432, first half; data-free): the frame's outputs at 
+7 B907 ['tests/test_b907_selector.py'] THE SEALED CELL DECIDES -- OUTCOME A: THE WALL IS REAL IN e6(2), AND ONLY THERE (the joint
+law-creating PROVED arcs text-only: 25 of 120
+B0-299: PROVED 170, text-only 3 (1%)
+B300-599: PROVED 165, text-only 23 (13%)
+B600-899: PROVED 176, text-only 42 (23%)
+B900-1199: PROVED 215, text-only 96 (44%)
+B1200-1499: PROVED 168, text-only 29 (17%)
+B1500-1799: PROVED 131, text-only 32 (24%)
+B1800-2099: PROVED 43, text-only 17 (39%)

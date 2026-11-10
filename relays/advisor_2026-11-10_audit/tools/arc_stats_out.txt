@@ -1,0 +1,52 @@
+arcs 1556 dup ids 2 [('B89', 2), ('B58', 3)]
+verdicts Counter({'PROVED': 1068, 'NEGATIVE': 381, 'OPEN': 96, 'RETRACTED': 11})
+reach Counter({'noscope': 1280, 'class': 136, 'general': 115, 'single': 25})
+creates_law 131
+TOP in-degree:
+44 B1656 PROVED THE ELECTRON'S ZERO (sealed 27e7e7482, sha256 c4cfc3c0; PROVED -- every cell holds as sealed; the output commi
+39 B1667 PROVED THE CANONICAL CUSP (sealed ca1c08efb, sha256 83689a5d; PROVED as sealed, a census informed by neighbours; the 
+38 B1297 PROVED THE SPECTRAL-COVER INDEX (MASTERPLAN v3 Phase 3 = Door D2; formula + domain pre-registered and sealed BEFORE e
+32 B1726 PROVED THE TWO INGREDIENTS, REPLICATED (P-293; sealed 8024632e1, sha256 f7f1c28c; PROVED as sealed for its question -
+28 B1691 PROVED THE EXPONENTS AT THE TWO FIXED POINTS (P-227, part 1): if the Higgs's direction in M is a covariant section of
+25 B854 NEGATIVE The centralizer of 2T inside e6 (principal embedding) is ABELIAN -- u(1)^4, computed EXACTLY over Q with all s
+23 B892 PROVED CORRECTED 2026-09-02 (B1237): z = 14 is su(3)⊕su(2)⊕u(1)³, dim 14 — two abelian factors more than the SM gauge
+21 B883 PROVED THE 27 REPRESENTATION built on the B854 Chevalley frame via the e7 3-grading -- the queue's top instrument gap
+21 B1291 NEGATIVE THE PARITY THEOREM: 3 IS EXCLUDED ON A ONE-CUSPED MANIFOLD, AND THE ESCAPE IS >=2 CUSPS. For an affine map of 
+20 B1600 PROVED THE WEAVE VERIFIED (the SM seat's W1-W4 of 2026-10-07, by main's own code). W1: the moves on the three non-zer
+18 B915 NEGATIVE THE CROSSING (R4, owner-authorized, prereg 7a423aed committed 4c4531a6 BEFORE data contact): with the single i
+18 B1011 PROVED THE HEARING DATA IS McKAY TENSOR McKAY: rho_6 = (chi x V2(2I)) + (V2(2T) x V2(2I)) EXACTLY -- sealed fc807f11,
+17 B1720 NEGATIVE THE THREAD FIXES THE POINT (the completion map's C1, P-284; sealed a93ff339a, sha256 a0d2a726; NEGATIVE as sea
+17 B1728 PROVED THE LINE'S ORDER AS A QUOTIENT OF HYPERCHARGE (P-296; B1703's coincidence law derived; no data): in B1656's fr
+17 B866 PROVED VERIFIED on a fully independent build: the object's (x8,x16) charge plane carries EXACTLY THREE distinguished 
+16 B884 PROVED The invariant cubic on the 27 and the SM-graded Yukawa-support table -- the B883 instrument's first product. T
+16 B861 PROVED ONE principle -- maximal residual symmetry among REGISTERABLE options, registerable meaning the 27's generatio
+16 B1645 PROVED THE HALF BOUND (sealed e77f9b5b3; PROVED -- exact post-seal, machine precision in the run; four tolerance clau
+15 B952 PROVED THE GUT REQUIREMENTS LEDGER + THE RANK OBSTRUCTION (theorem-grade). The second missing inventory is written: d
+14 B1724 PROVED THE READINGS' COVARIANCE (P-297; computed, the mechanism exact): T acts on S's components by rho(T) = e^{i pi/
+14 B1653 PROVED THE RANK OF A POINT COUPLING (sealed 4e3981e24, sha256 70ecef80; PROVED -- every cell holds as sealed; the out
+14 B1654 PROVED THE NORM OF THE BOUNDARY CLASS (sealed 155959126, sha256 9572fd2c; PROVED -- every cell holds as sealed; the o
+14 B1634 PROVED THE SM SEAT'S W50 ON MAIN, AND W45'S MULTIPLIER FROM THE THETA CONSTANTS (sealed; PROVED): <L, R> meets the in
+14 B1642 NEGATIVE THE ZERO MODES' RESIDUE AT THE PUNCTURE (sealed 55bd29ab7; NEGATIVE as sealed): the SU(2)-invariant pairing of
+14 B856 PROVED The hearing coupling h = u+ M_odd(R^m L^m) u obeys a PERIOD-5 law across the metallic family (bundle monodromy
+13 B1487 PROVED THE ENDS (sealed aab434644 / 27714d7d; the owner's question of 2026-10-07). T1, a theorem: the class index I(E
+13 B1741 PROVED TAU FROM THE THREAD RULE, THE LINE FREE (P-347; sealed acd2fec77, sha256 7a8eeb8a; PROVED as sealed for its qu
+13 B1644 NEGATIVE A HIGGS IN THE MULTIPLICITY SPACE (sealed 8fa3d82ba; NEGATIVE as sealed): the zero modes' SU(2)-invariant coup
+13 B916 PROVED THE LAMBDA BRIDGE (dispatched to reconcile 2304/953 vs 1; the dispatching hypothesis REFUTED, both seats VINDI
+13 B1697 PROVED THE SCAN FOR MISSES (the owner's order; no data): the Higgs without end data is unique, at weight 7/2 -- a0 = 
+12 B936 PROVED THE COHOMOLOGY READING -- A SPLIT RESULT, REPORTED VERBATIM (the agent sealed its OWN prereg 2808c8a7 before r
+12 B862 PROVED The cascade's step-3 winner, as a GROUP inside SU(5), is S(U(3)xU(2)) = [SU(3)xSU(2)xU(1)]/Z6 -- kernel comput
+12 B950 PROVED THE SM SPECIFICATION LEDGER (owner directive: we do not yet fully understand the SM as today's science underst
+12 B1742 PROVED TWO_HIGGS VERIFIED ON MAIN (P-351): the web seat's sealed H5 reproduces on main's own B1740 instrument (unmodi
+12 B1620 PROVED THE BREAKING THE WEAVE ALLOWS (sealed aa28a42e6): on all 68 subgroups of the weave's group three distinct mass
+12 B1612 PROVED THE MIXING PATTERNS THE WEAVE FIXES (sealed f008c0424; the first value contact under the owner's reopening): t
+12 B993 PROVED THE CORNERSTONE VERIFIED ON THIS BENCH: THE OBJECT-SPECIFIC ATOM IS GENERIC AT ROUGHLY 1 IN 3. cc3-s cornersto
+12 B1641 PROVED W46 ON MAIN, AND THE TWO OBJECTS (sealed 99975fb63; PROVED): the fibre loops of M_{1,2} are the inner automorp
+12 B997 PROVED THE GOLDEN IS THE UNIQUE METALLIC GRAMMAR WHOSE OWN-CONDUCTOR SHADOW IS A McKAY GROUP -- proved, over an infin
+12 B1730 PROVED THE ZERO-FREE HIGGS LINES (P-300's W133 part and the web seat's extension, verified on main with main's own co
+12 B928 PROVED THE D2 DECODE (the Twist Crossing stage 1, sealed 5a7aa973 pushed ab34c5b7 before compute): OUTCOME FORCED VER
+12 B1295 PROVED THE CAVEAT CLOSED BY COMPUTATION (MASTERPLAN v3 Phase 1 = Door D4; every number this bench's). (a) THE COEFFIC
+12 B1700 PROVED THE HIGGS'S END DATA IS THE UNIT (P-245; exact, no data): FK10's tagged unit as W46 defines it (n uniform unit
+11 B1012 PROVED TWO BRANCH RESULTS VERIFIED EXACTLY (integrate-don't-merge, cc3 branch at 59d9f26f, 66 commits past B921's har
+11 B1438 PROVED THE SLOPE LAW. For a character chi of a level, trivial on the meridian and non-trivial on the fibre, let s(chi
+PROVED without an obviously named lock 107 ['B13', 'B16', 'B18', 'B19', 'B21', 'B27', 'B28', 'B30', 'B33', 'B34', 'B35', 'B48', 'B50', 'B51', 'B54', 'B55', 'B57', 'B59', 'B60', 'B412', 'B478', 'B482', 'B483', 'B485', 'B488', 'B508', 'B510', 'B525', 'B544', 'B590', 'B621', 'B623', 'B624', 'B625', 'B626', 'B635', 'B673', 'B679', 'B692', 'B738', 'B744', 'B759', 'B761', 'B762', 'B763', 'B765', 'B767', 'B795', 'B801', 'B920', 'B932', 'B937', 'B966', 'B970', 'B973', 'B974', 'B982', 'B984', 'B985', 'B987']
+PROVED with no verification dir and no .py 201 ['B1073', 'B1681', 'B1068', 'B987', 'B948', 'B944', 'B1044', 'B985', 'B1085', 'B663', 'B1461', 'B1017', 'B822', 'B544', 'B1004', 'B538', 'B708', 'B994', 'B1091', 'B513', 'B1080', 'B969', 'B1071', 'B1069', 'B509', 'B978', 'B951', 'B1009', 'B809', 'B949', 'B988', 'B984', 'B1643', 'B818', 'B700', 'B980', 'B1078', 'B1097', 'B508', 'B1015']
