@@ -41,7 +41,7 @@ item of the foundation is asked whether the principle forces it, merely admits i
 | cancelled, absolutely | the act returns everything to where it was: the identity, or an act that becomes the identity when repeated |
 | cancelled, relative to a ground | the ground cannot tell the act from nothing at its own level |
 | what exists, relative to a ground | **an act the ground reads as nothing and which is not nothing** — a cancellation that completes at the ground's level and fails absolutely. (This is "a frustrated cancellation", GOVERNANCE's own phrase for PF1.) |
-| selected to depart further | what exists relative to a ground becomes ground for the next act |
+| selected to depart further | ~~what exists relative to a ground becomes ground for the next act~~ **Corrected 2026-11-10 (R14): the owner did not mean a next step. The differences between distinctions are kept accounted for — none dropped, none ranked.** |
 | their interaction matters | nothing is read from one act alone; the content is in the joint action |
 
 **v0 is a reading, not the principle.** Attack A below exists because another faithful reading may generate

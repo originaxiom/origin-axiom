@@ -6,6 +6,14 @@ involved anywhere.
 (`ARTIFACT_HASHES.txt`; all six files verify unchanged). The readers' answers were committed unedited at `d673a9015`
 before the judge was asked. The judge's report is `JUDGE.md`, unedited.
 
+> **Dated note, 2026-11-10, after the owner's clarification (`OWNER_RULINGS_2026-11-10.md`, R14).** "Selected to depart
+> further" was not meant as a rule that picks a next thing: "the idea is that theyre kept accounted for". So the
+> headline below — "the words fix the first thing and not the second" — overstates. **The words do not speak of a
+> second thing at all.** The seat's prompt asked for one (A2, item 4), and the readers' four answers are four answers
+> to the seat's question. Choice points C4 and C8, and question Q5, are withdrawn as ambiguities of the principle;
+> Q4 is answered (kept, not ranked). The sealed files and the readers' answers stand as they are. What remains of
+> the result: the first step, the free readers' common setting, Q1–Q3 and Q6–Q8.
+
 ## 1. The answer
 
 **The words fix the first thing and not the second.**

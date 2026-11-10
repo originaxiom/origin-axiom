@@ -179,6 +179,29 @@ leaves the prompts in the relay so that the owner's other seats can be given the
 **Ruling:** this is the owner's standing statement of the programme's gap, addressed to all seats. The seat's page
 for it, with a proposed name and a three-question test, is `ADVISOR_TO_ALL_SEATS_2026-11-10_LINE_OR_LOOP.md`.
 
+## R14 — what "selected to depart further" means (the owner's clarification, after attack A)
+
+**The seat had reported** four readings of "selected to depart further", each selecting a different thing after LR.
+**The owner's words (same day, later):**
+
+> "select to depart further wasnt ment to be taken literally, the idea is that theyre kept accounted for"
+
+**Ruling:** the phrase is not a rule that picks a next thing. It says that the differences between distinctions are
+**kept accounted for**: nothing that is made is dropped, and nothing is ranked.
+
+**What this corrects, all of it the seat's:**
+- The four readings answer a question the principle does not ask. The question was put by the seat: prompt A2's
+  item 4 quoted the phrase as a rule for "what exists next relative to that ground", and so did the seat's own
+  statement v0 ("what exists relative to a ground becomes ground for the next act") and its run of the
+  non-cancellation reading ("the least departure"). The readers' disagreement at checklist items C4 and C8 was made
+  by that question. It is not an ambiguity in the owner's meaning.
+- Question Q5 of the attack's result ("depart further from what, and measured how") is withdrawn. Question Q4 ("by
+  surviving, or by being least") is answered: kept, not ranked.
+- Every "least" on the table is an import: the seat's letters, the record's action, the readers' trace and remainder.
+
+**What it leaves standing:** the first step (inside the arena every reader put LR first), the free readers' common
+setting, the exchange as the place of largest consequence, and that no reader closed the loop.
+
 ## Attack A — done; eight questions now wait for the owner's ruling
 
 `principle_top_down/attack_A/RESULT.md`. The words fix the first thing (inside the arena every reader, the adversary

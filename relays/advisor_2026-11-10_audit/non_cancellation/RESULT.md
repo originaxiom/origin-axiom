@@ -7,6 +7,12 @@ letters; `domain: named set (the golden, silver and bronze backgrounds)`.
 **Outputs:** `nc_enumerate_B20_out.txt` (the run), `nc_enumerate_B20.json`, `nc_second_check_out.txt` (an independent
 code path), `nc_joint_sign_out.txt` (one clarification, section 4).
 
+> **Dated note, 2026-11-10 (`OWNER_RULINGS_2026-11-10.md`, R14).** The reading run here — "what remains is the *least*
+> departure no counted level detects" — took the owner's "selected to depart further" as a rule that picks one. The
+> owner has since said it was not meant so: the differences are "kept accounted for". The enumeration stands as
+> arithmetic. Its "least" is the seat's import. What the run gives the principle as clarified is section 6's list of
+> everything allowed, not the pick at the top of it.
+
 ## 1. The answer
 
 **The reading picks the run of 6, alone and by a wide margin, in exactly one corner of its open choices — and the
