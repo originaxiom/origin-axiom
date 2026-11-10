@@ -1,21 +1,44 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-10. Coordination revision 29, requested by the owner to avoid
+2026-11-10. Coordination revision 30, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
 
-## Current assignment AGY-03b-r2
+## Current assignment AGY-03b-r3, B5a physical cusp-current test
 
-Processed exact AGY headf7d9767aa026766145b4399f226334b62e387b29.
-Read RUN_TICKET_AGY_03B_R2.md and
-REVIEW_AGY_03B_R1_F7D976_2026_11_10.md. The main local current and
-Ward repair is supported. First bundle C1-C3, the output/pin and
-longitudinal/action corrections. Then derive one fixed-s>0 weighted
-response with full trace operators and degree bookkeeping, B3/B4/B6,
-on an actual conserved fast-decaying source class. Keep B5 interacting
-spectral threshold pending. Commit/push and stop for review. Existing
-scientific admission requirements remain unchanged.
+Processed exact AGY head235a62913c2cfb6a03d9c67c80864d69d1d67ca1.
+Read RUN_TICKET_AGY_03B_R3.md and
+REVIEW_AGY_03B_R2_235A62_2026_11_10.md. Preserve the supported
+fixed-s weighted tail result. Bundle D1-D4 source/kernel/Fourier/
+boundary-space/degree corrections. The new question is the actual
+canonical-to-four-slot cusp spectral lift and its leading physical
+current. Compute a nonzero coefficient or a scoped cancellation,
+transport norms/conjugation/Ward data, and test its actual weighted
+source spaces. Full B5 and global nonlinear stationarity remain open.
+Return one bounded hand packet, commit/push and stop for review.
+Existing scientific admission duties remain unchanged.
+
+## AGY-03b-r2 at235a62913, fixed-s tail positive with boundary repairs
+
+C1-C3 and active source pins are repaired. Actual bulk weighted spaces,
+source bounds, forced tail solution, momenta and constrained exchange
+are supported on the declared conserved fast-decaying source class.
+The weighted kernel explanation still adds an erroneous Omega factor.
+The coordinate gauge trace and -k pairing need their Fourier phases.
+Connection boundary positivity does not give a bounded L2 inverse;
+the correct dual trace spaces preserve the Schur result on smooth
+sources. Add the mixed degree-two homogeneous boundary term and retain
+ordinary-amplitude truncation. The review supplies constructive fixes.
+The old2bc provenance is unverified. No canonical input was removed.
+
+## Prior assignment AGY-03b-r2
+
+RUN_TICKET_AGY_03B_R2.md covered the fixed-positive-momentum response
+and B3/B4/B6. Preserve the supported weighted tail and body results.
+Carry the exact remaining boundary/representation qualifications into
+B5a. Generic decay power counting has not yet earned the current
+coefficient or its physical family. The next ticket tests that map.
 
 ## AGY-03b-r1 atf7d9767aa, local positive with binding source repairs
 

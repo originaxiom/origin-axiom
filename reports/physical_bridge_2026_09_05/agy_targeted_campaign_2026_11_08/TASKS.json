@@ -8,14 +8,14 @@
   "review_branch": "audit/physical-bridge-2026-09-05",
   "delivery_channel": "versioned repository relay; no live worker start or acknowledgement inferred",
   "worker_acknowledgement": {
-    "commit": "f7d9767aa026766145b4399f226334b62e387b29",
-    "type": "local current/Ward repair supported at hand scope with binding output/source-pin and longitudinal-sign corrections; weighted response successor released with those corrections bundled"
+    "commit": "235a62913c2cfb6a03d9c67c80864d69d1d67ca1",
+    "type": "fixed-s weighted tail hand result supported with binding kernel, Fourier/pairing, boundary Sobolev and mixed-degree corrections; physical current/source-threshold test released"
   },
   "max_active_proof_code_packets_after_intake": 1,
   "scientific_execution_authorized_by_this_board": false,
   "first_return": [
-    "WEIGHTED_FERMION_SOURCE_RESPONSE.md",
-    "03b source/output/sign corrections and updated status with B5 pending",
+    "PHYSICAL_CUSP_CURRENT_AND_SOURCE_THRESHOLD.md",
+    "D1-D4 source/representation corrections bundled",
     "RESUME.md",
     "short new return relay"
   ],
@@ -246,7 +246,7 @@
         "AGY-00",
         "AGY-01"
       ],
-      "status": "LOCAL_CURRENT_WARD_HAND_ALGEBRA_SUPPORTED_WITH_BINDING_SOURCE_REPAIRS; FIXED_MOMENTUM_WEIGHTED_RESPONSE_RELEASED; SPECTRAL_THRESHOLD_AND_FULL_NONLINEAR_COMPLETION_OPEN",
+      "status": "FIXED_S_WEIGHTED_TAIL_HAND_RESULT_SUPPORTED_WITH_BOUNDARY_REPAIRS; PHYSICAL_CUSP_CURRENT_B5A_HAND_TEST_RELEASED; FULL_B5_AND_NONLINEAR_COMPLETION_OPEN",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -259,14 +259,14 @@
       "execution_admission": null,
       "admitted_run_evidence": null,
       "accepted_result": null,
-      "current_microtask": "AGY-03b-r2",
+      "current_microtask": "AGY-03b-r3",
       "released_current_outputs": [
-        "WEIGHTED_FERMION_SOURCE_RESPONSE.md",
-        "03b source/output/sign corrections and updated status with B5 pending",
+        "PHYSICAL_CUSP_CURRENT_AND_SOURCE_THRESHOLD.md",
+        "D1-D4 source/representation corrections bundled",
         "RESUME.md",
         "short new return relay"
       ],
-      "release_scope": "one fixed-positive-momentum weighted source-response hand task covering B3/B4/B6, with C1-C3 source corrections bundled; B5 interacting spectral family remains later scope",
+      "release_scope": "one B5a actual canonical-to-four-slot cusp profile/current transport and admitted source-space test, with D1-D4 corrections bundled; full B5 and stationary completion remain later duties",
       "cut_variation_result": {
         "checkpoint": "95cec984eb523bea7e04c287ed4bed6d19ed2d38",
         "decision": "PARTIAL_HAND_RESULT_SUPPORTED_WITH_BINDING_REPAIRS",
@@ -329,22 +329,31 @@
         "scientific_execution": false,
         "canonical_inputs_reduced": 0,
         "current_ward_repair_checkpoint": "f7d9767aa026766145b4399f226334b62e387b29",
-        "latest_review": "REVIEW_AGY_03B_R1_F7D976_2026_11_10.md",
-        "latest_decision": "LOCAL_CURRENT_WARD_ALGEBRA_SUPPORTED_WITH_BINDING_SOURCE_REPAIRS",
-        "latest_receipt": "SOURCE_REVIEW_RECEIPT_AGY_03B_R1_F7D976_2026_11_10.json",
+        "latest_review": "REVIEW_AGY_03B_R2_235A62_2026_11_10.md",
+        "latest_decision": "FIXED_S_TAIL_HAND_RESULT_SUPPORTED_WITH_BINDING_BOUNDARY_REPAIRS",
+        "latest_receipt": "SOURCE_REVIEW_RECEIPT_AGY_03B_R2_235A62_2026_11_10.json",
         "binding_carry_items": [
-          "output spin is barS tensor barF",
-          "coefficient source declared2bc9403e differs from actuala98ff428",
-          "longitudinal equation -partial_y(v_L prime-i k c)+J_L=0 and -i s c_prime=k.J",
-          "derive extra Lorentzian Gauss from its bosonic action",
-          "literal Wick and formal shorthand currents transported separately"
+          "weighted-measure Green kernel is G_s; preserve final forced solution",
+          "coordinate B_tilde phase and -k longitudinal pairing sign",
+          "connection boundary inverse maps H^1/2 to H^-1/2; preserve formal Schur algebra with dual spaces and static-limit duties",
+          "include mixed homogeneous degree-two term and ordinary-amplitude truncation",
+          "historical2bc provenance remains unverified"
         ],
         "source_complete_acceptance": false,
         "source_pin_mismatch": {
           "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COEFFICIENT_ROSTER.md",
           "declared_sha256": "2bc9403e127cf03f26cd4b1dc4ebba2fb1c14d3d3510744e39bc52f71913fb1d",
           "actual_git_sha256": "a98ff428d827d11adf8400e9e03e49b7360f3ccae03ed6f957e9780eec4ed33f"
-        }
+        },
+        "weighted_response_checkpoint": "235a62913c2cfb6a03d9c67c80864d69d1d67ca1",
+        "active_source_pin_repaired_at": "235a62913c2cfb6a03d9c67c80864d69d1d67ca1",
+        "active_dependency_pins_match": true,
+        "latest_supported_scope": [
+          "C1-C3 source, output and action/current sign repairs",
+          "actual bulk weighted vector/scalar domains and fast-source bounds",
+          "fixed-s zero-angular tail response, momenta and constrained exchange on conserved source class",
+          "body augmentation and pure-nilpotent degree result"
+        ]
       }
     },
     {
@@ -490,31 +499,31 @@
       "AGY_04A_new_lepton_proof_tested": false
     }
   },
-  "coordination_revision": 29,
-  "revision_base_commit": "6de0f852bb453f52a1396966550de8d7e6d6e44f",
+  "coordination_revision": 30,
+  "revision_base_commit": "a0e93bdf836f0eeba4e46a5bf513216cb3ae0bf5",
   "start_document": "START_HERE.md",
   "max_active_microtasks_per_worker_context": 1,
   "dispatch": {
-    "released_microtask": "AGY-03b-r2",
+    "released_microtask": "AGY-03b-r3",
     "parent_task": "AGY-03",
-    "question": "Derive the fixed-s>0 weighted constrained source-response functional, retaining the full core boundary operator, longitudinal source and Grassmann degrees",
-    "run_ticket": "RUN_TICKET_AGY_03B_R2.md",
-    "joined_checkpoint": "f7d9767aa026766145b4399f226334b62e387b29",
-    "required_reading_notes": "REVIEW_AGY_03B_R1_F7D976_2026_11_10.md",
-    "dependency_scope": "same curved centralizer sector; correct C1-C3 before use; B3/B4/B6 now, B5 spectral threshold later",
+    "question": "Transport the actual canonical cusp spectral family to physical Weyl fields, compute leading noncommuting-colour currents and determine their actual weighted gauge source-space thresholds",
+    "run_ticket": "RUN_TICKET_AGY_03B_R3.md",
+    "joined_checkpoint": "235a62913c2cfb6a03d9c67c80864d69d1d67ca1",
+    "required_reading_notes": "REVIEW_AGY_03B_R2_235A62_2026_11_10.md",
+    "dependency_scope": "B5a actual field/current map, exact norms, conjugation and Ward residuals; bundle D1-D4 before use; full B5 and nonlinear completion remain open",
     "allowed_activity": [
       "personal source/reuse reading",
-      "bundle output/pin and current/Gauss sign corrections",
-      "one bounded hand derivation on physical weighted spaces with full trace operators",
+      "bundle kernel/Fourier/boundary-space/degree corrections",
+      "one bounded actual physical profile-current and source-integrability hand test",
       "commit/push and stop"
     ],
     "required_outputs": [
-      "WEIGHTED_FERMION_SOURCE_RESPONSE.md <=2000 words plus<=100 equation/table rows",
-      "03b sources synchronized with binding corrections and explicit B5 pending",
+      "PHYSICAL_CUSP_CURRENT_AND_SOURCE_THRESHOLD.md <=2000 words plus<=100 equation/table rows",
+      "D1-D4 representation corrections and history qualifier bundled",
       "RESUME.md <=700 words",
       "new relay <=250 words"
     ],
-    "stop_condition": "one fixed-momentum response on declared fast-decaying conserved source class, or exact remaining identity; no full03b or nonlinear completion inferred",
+    "stop_condition": "actual physical lift and nonzero coefficient or scoped cancellation, with source-space conditions and any physical-admission gap explicit; no global-state or fullB5 conclusion inferred",
     "next_microtask_released": false,
     "scientific_execution_authorized": false
   },
@@ -567,5 +576,5 @@
     "execution_scope": "subsequent owner-authorized preliminary unchanged external reproduction only; the source review at edaa4cf7c itself ran no code",
     "later_preliminary_reproduction": "external_dsl_audit_2026_11_09/PRELIMINARY_REPRODUCTION_RESULTS.md"
   },
-  "processed_agy_head": "f7d9767aa026766145b4399f226334b62e387b29"
+  "processed_agy_head": "235a62913c2cfb6a03d9c67c80864d69d1d67ca1"
 }
