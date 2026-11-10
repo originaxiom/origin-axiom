@@ -3855,3 +3855,22 @@ own read-out and read the fibre's own shape.**
 - **Main's ruling on B1012:** R2 stays CHOSEN. The owner's questions are rowed: P-728 (compression) and P-729 (door C).
 - **Next:** R76-1 to R76-8 (docs/progress/REVIEWS.md): the tube in the full group's Ford domain, door C, R2's form,
   P-716. 0 of 19.
+
+## ⟳ VIEW REFRESH — 2026-11-10 (Review 77)
+
+Touched at Review 77 (its landing `10641a1b2` and anchor). **The window (B1849–B1860; S306f–S306o) harvested every
+lane, drew one graph of the programme's spine, and named the mistake it keeps making.**
+- **The tube's τ:** 0 + 6.15(15)i at k = 1, the real part exact given a numerical identification (B1852); about
+  6.07 at k = 2 on main, error about 0.02 (B1854, corrected at this review).
+- **The closure map (B1858):** every claim, premise and choice pinned by a checked quote; eleven missing dependencies,
+  each under several names across the lanes; every branch meets the hand. DERIVED now means proved outright, and a
+  conditional result must name its premise; the builder refuses otherwise.
+- **Weave or thread (P-755; E96):** what is banked about the weave is structure and negatives; the root, the whole
+  structural theorem and the value frame are read on one thread. The law "if it is allowed it happens" fixes what
+  exists, not how much of each.
+- **Corrections:** the golden grammar's uniqueness (the door set is {1, 4}; B1859; GENESIS v1.63); L⁶RLR's apex at
+  Re 0 (P-751); B1221's kernel table (P-604).
+- **The fresh-clone suite** found one of main's own locks reading files the repository ignores (B1854; E94, the third
+  time). The gate now reads every lock's own-directory paths.
+- **Next:** R77-1 to R77-8 (docs/progress/REVIEWS.md): whether anything concentrates under the executed weave; the
+  register-to-field join; the lanes' paired current pole and sealed packets verified on main. 0 of 19.

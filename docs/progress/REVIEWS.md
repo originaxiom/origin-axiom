@@ -8545,3 +8545,5 @@ None promoted. 0 of 19.
 - [ ] R77-6: P-745 — the seven process arcs escalated at S306n, each resolved or declared open by design (owner: cc)
 - [ ] R77-7: P-754 — the closure map rebuilt in the views step of every landing, with a lock that fails when the generated files lag their sources (owner: cc)
 - [ ] R77-8: P-739 — the tube at k = 3: the mesher's two unlabelled translation checks given messages first, then the stop diagnosed (owner: cc)
+
+**anchor-commit: `10641a1b2`**
