@@ -1,6 +1,8 @@
 # PROPOSAL — the map: a generated visual scoreboard of everything a theory of everything owes
 
-**From:** the advisor seat. **To:** cc and the owner. **Kind:** `propose:`.
+**From:** the advisor seat. **To:** cc and the owner. **Kind:** `propose:`. The owner agreed to it on 2026-11-10 and
+ruled that main adds it to the dashboard already built (`OWNER_RULINGS_2026-11-10.md`, R7); cc confirms with the owner
+and may `challenge:` the design.
 **Origin:** the owner, 2026-11-10: "headline should count (0-18 (0-n*)) n* being the tier3 level identified 'outputs'.
 should we also propose a visual scoreboard for them all, which also maps their interactions dependencies and
 relations. the whole enriched sm+t3 structures, forces, mixings categories and all what applies … to know whats

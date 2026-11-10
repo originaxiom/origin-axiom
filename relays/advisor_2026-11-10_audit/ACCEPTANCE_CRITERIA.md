@@ -158,7 +158,7 @@ generated file, and the seal is refused without it.
 | DG-d | The four counts are printed: confirmed, refuted, predictions registered, not reached. |
 | DG-e | The planted changes DG1–DG6 of the proposal's section 7 each give the stated result, in an automated test. |
 
-## 9c. The map (`PROPOSAL_THE_MAP.md`; a proposal, awaiting the owner's ruling)
+## 9c. The map (`PROPOSAL_THE_MAP.md`; the owner agreed 2026-11-10, R7: main adds it to the existing desk)
 
 | Item | Accepted when |
 |---|---|

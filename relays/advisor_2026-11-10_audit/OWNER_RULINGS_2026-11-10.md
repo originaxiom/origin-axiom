@@ -91,8 +91,19 @@ plus every output the mathematics produces with no measurement yet — computed 
 
 **The seat's proposal in answer to the question:** `PROPOSAL_THE_MAP.md` — a generated view of the Ledger Desk with
 three kinds of row (structure, value, relation), a catalogue by sector, a computed status per row, and five views, of
-which the condition map (each open condition with the rows it blocks) is the work queue. It is a proposal; the owner
-has not yet ruled on it.
+which the condition map (each open condition with the rows it blocks) is the work queue. The owner agreed to it: R7.
+
+## R7 — the map goes on the existing desk
+
+**The owner's words (same day, later), to `PROPOSAL_THE_MAP.md`:**
+
+> "great, main can add that on the dashboard/panel we build earlier"
+
+**Ruling:** the map is agreed, and main builds it as part of the dashboard already built, not as a separate page.
+
+**The seat's reading, for cc to confirm with the owner:** "the dashboard/panel we build earlier" is the Ledger Desk
+(`docs/workdesk/`, P-420), which is what the proposal's rule 1 names. If the owner means another panel, the map's
+rules are unchanged: generated from the graph at a named commit, nothing typed.
 
 ## The roles
 
