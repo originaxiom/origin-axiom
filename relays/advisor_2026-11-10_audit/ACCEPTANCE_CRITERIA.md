@@ -154,9 +154,19 @@ generated file, and the seal is refused without it.
 |---|---|
 | DG-a | The headline count in `README.md`, `docs/views/CONTEXT_RECOVERY.md` and the scoreboard line is printed from one graph file by a generator. No typed sentence or typed field feeds it. |
 | DG-b | A value's status (derived / conditional / fitted / unverified) is computed from its ancestry; the conditional list is printed with the value. |
-| DG-c | The target list is a frozen tracked file with source, value, uncertainty, scale and scheme per row, in three tiers; the headline reports tier 1 with tiers 2 and 3 beside it. |
+| DG-c | The target list is a frozen tracked file with source, value, uncertainty, scale and scheme per row, in three tiers. The headline reads **k of 18 (j of n\*)** (the owner's ruling R6), n\* computed from the graph and printed with its parts (measured targets, registered predictions, refuted). A registered row is never removed, only marked. |
 | DG-d | The four counts are printed: confirmed, refuted, predictions registered, not reached. |
 | DG-e | The planted changes DG1–DG6 of the proposal's section 7 each give the stated result, in an automated test. |
+
+## 9c. The map (`PROPOSAL_THE_MAP.md`; a proposal, awaiting the owner's ruling)
+
+| Item | Accepted when |
+|---|---|
+| MAP-a | The map is a generated view of the Ledger Desk, built from the graph at a named commit; no status is typed. |
+| MAP-b | Structure, value and relation rows are counted separately; only "derived, confirmed" counts in k and j. |
+| MAP-c | The condition map lists every open condition with the rows it blocks, and closing a condition in the graph releases exactly those rows. |
+| MAP-d | No tile shows partial credit; refuted rows and closed doors are tiles; every tile opens its arcs, locks and seal, and shows thread or weave. |
+| MAP-e | The planted changes MAP1–MAP5 of the proposal's section 7 each give the stated result, in an automated test. |
 
 ## 10. Reproducibility
 

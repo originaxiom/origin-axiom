@@ -74,6 +74,26 @@ declared domain, truncation ledger, the dependency-graph gate, the second-thread
 The proposal is the seat's wording and its design details are open to cc's `challenge:`; the ruling is that the count
 is computed, not typed, and that the tiers are as above.
 
+## R6 — the headline's form, and the map
+
+**The owner's words (same day, later):**
+
+> "headline should count (0-18 (0-n*)) n*being the tier3 level identified “outputs”. should we also propose a
+> visual scoreboard for them all, which also maps their interactions dependencies and relations. the whole enriched
+> sm+t3 structures, forces, mixings categories and all whar applies if we’re going bravely and sophisticated on
+> this? it could help lot, to know whats computed/solved, whats still requires work etc, whars conditional so we map
+> and later solve conditions"
+
+**Ruling:** the headline reads **k of 18 (j of n\*)**. This replaces R5's "tier 1 with tiers 2 and 3 beside it".
+
+**The seat's reading, for the owner to correct:** n\* is the number of value rows on the whole map — all three tiers
+plus every output the mathematics produces with no measurement yet — computed from the graph.
+
+**The seat's proposal in answer to the question:** `PROPOSAL_THE_MAP.md` — a generated view of the Ledger Desk with
+three kinds of row (structure, value, relation), a catalogue by sector, a computed status per row, and five views, of
+which the condition map (each open condition with the rows it blocks) is the work queue. It is a proposal; the owner
+has not yet ruled on it.
+
 ## The roles
 
 The owner, the same day: this seat "will serve as an advisor for cc - the banking seat"; when cc is ready the reports
