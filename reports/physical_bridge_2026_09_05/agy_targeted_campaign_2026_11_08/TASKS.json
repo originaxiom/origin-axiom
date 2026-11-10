@@ -1,0 +1,584 @@
+{
+  "schema": "oa-agy-research-coordination-v1",
+  "date": "2026-11-10",
+  "document_type": "work order and coordination board; not experiment design or an enforcement program",
+  "physical_base_commit": "dd7490203c55bae043585f594af5a13afe634fa7",
+  "agy_base_commit": "21b293e87ff09fd64911267e9b4aa447fbfab2b9",
+  "author_branch": "agy/audit-2026-11-02",
+  "review_branch": "audit/physical-bridge-2026-09-05",
+  "delivery_channel": "versioned repository relay; no live worker start or acknowledgement inferred",
+  "worker_acknowledgement": {
+    "commit": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+    "type": "B5a source custody failures and explicit pair-current counterexamples; scoped radial/determinant/conditional integral positives and earlier D1-D4 repairs preserved"
+  },
+  "max_active_proof_code_packets_after_intake": 1,
+  "scientific_execution_authorized_by_this_board": false,
+  "first_return": [
+    "repaired PHYSICAL_CUSP_CURRENT_AND_SOURCE_THRESHOLD.md with actual-source table",
+    "synchronized03b source status and affected claims",
+    "RESUME.md",
+    "short repair relay"
+  ],
+  "stage_policy": {
+    "allowed_now": [
+      "source intake",
+      "hand derivation",
+      "prospective design",
+      "unreviewed checkpoint sharing"
+    ],
+    "new_scientific_execution_requires": [
+      "preimplementation sealed design",
+      "sealed complete execution specification",
+      "exact source-complete nonauthoring review",
+      "separate exact main acceptance",
+      "strict clean-checkout admission"
+    ],
+    "review_sharing_is_not": [
+      "scientific execution admission",
+      "banking",
+      "merge",
+      "theory certification"
+    ],
+    "partial_preparation": [
+      "AGY-04 algebraic preparation can precede AGY-03; a new physical interface/domain cannot",
+      "AGY-05 premise analysis starts at intake; its physical map needs actual operator/domain results"
+    ],
+    "accepted_task_outcomes": [
+      "verified scoped positive",
+      "scoped negative",
+      "independent residual input",
+      "unresolved with precise evidence gap"
+    ],
+    "author_may_not_self_assign": [
+      "nonauthoring review",
+      "main acceptance",
+      "admission",
+      "banked result"
+    ]
+  },
+  "tasks": [
+    {
+      "id": "AGY-00",
+      "title": "Reuse inventory and common-model manifest",
+      "claim_dependencies": [],
+      "status": "COMPLETE_DOCUMENTARY_SOURCE_INTAKE_MAP_AND_INPUT_LEDGER",
+      "author": "AGY",
+      "supervisor": "physical seat",
+      "required_outputs": [
+        "MODEL_MANIFEST.md",
+        "CLAIM_DEPENDENCIES.md",
+        "INPUT_LEDGER.md"
+      ],
+      "scoped_review_artifact": "REVIEW_AGY_00B2A_R2_605294_2026_11_09.md",
+      "source_complete_review_artifact": null,
+      "main_execution_acceptance": null,
+      "execution_admission": null,
+      "admitted_run_evidence": null,
+      "accepted_result": {
+        "checkpoint": "605294403ecdd26666f3902881558e4bf6b85e93",
+        "scope": "documentary candidate input ledger with typed reading note",
+        "sha256": "98bf93b4be89297901e8f9718f88ea526105b717310df63b75e21deb282713e5",
+        "proof_acceptance_inferred": false
+      },
+      "current_microtask": null,
+      "released_current_outputs": [
+        "INPUT_LEDGER.md",
+        "RESUME.md",
+        "short return relay"
+      ],
+      "source_map_review": {
+        "checkpoint": "43af86dbecb335ddd0952533dc2680d4a4e7f64a",
+        "decision": "ACCEPT_SCOPED_RESULT_MAP_ONLY; REVISE_RELAY",
+        "document": "REVIEW_AGY_00B1_R1_43AF_2026_11_08.md",
+        "scope": "documentary map only; 33 source pins match; four false statements in return relay are not accepted"
+      },
+      "return_relay_review": {
+        "checkpoint": "9d0a31e8db3164b6b5c0e1b2aa9e1383788f36e8",
+        "decision": "ACCEPT_SCOPED_RESULT",
+        "document": "REVIEW_AGY_00B1_R2_9D0_2026_11_09.md",
+        "scope": "four source-summary corrections and compact handoff"
+      },
+      "input_ledger_review": {
+        "checkpoint": "ac089712315053ad4704e21e14b889cc2a24279e",
+        "decision": "REVISE",
+        "document": "REVIEW_AGY_00B2A_AC089_2026_11_09.md",
+        "scope": "seven grouped source, representation and source-hash corrections"
+      },
+      "input_ledger_latest_intake": {
+        "checkpoint": "605294403ecdd26666f3902881558e4bf6b85e93",
+        "decision": "ACCEPT_SCOPED_RESULT",
+        "document": "REVIEW_AGY_00B2A_R2_605294_2026_11_09.md"
+      }
+    },
+    {
+      "id": "AGY-01",
+      "title": "Coherent global lift and actual input claim",
+      "claim_dependencies": [
+        "AGY-00"
+      ],
+      "status": "SCOPED_HAND_LIFT_AND_ORIENTATION_RESULTS_SUPPORTED_WITH_CORRECTIONS; GLOBAL_GEOMETRIC_AND_FORMAL_REVIEW_DUTIES_REMAIN",
+      "author": "AGY",
+      "supervisor": "physical seat",
+      "required_outputs": [
+        "LIFT_AND_DOMAIN.md",
+        "INPUT_LEDGER.md"
+      ],
+      "scoped_review_artifact": null,
+      "source_complete_review_artifact": null,
+      "main_execution_acceptance": null,
+      "execution_admission": null,
+      "admitted_run_evidence": null,
+      "accepted_result": null,
+      "current_microtask": null,
+      "released_current_outputs": [],
+      "latest_proof_review": {
+        "checkpoint": "476d20bbb4a2e52bf1650fd0d8819d6cd869027e",
+        "decision": "ACCEPT_SCOPED_HAND_RESULT_WITH_READING_NOTES",
+        "document": "REVIEW_AGY_01A_R1_476D_2026_11_09.md",
+        "formal_independent_review": null
+      },
+      "accepted_partial_result": {
+        "checkpoint": "476d20bbb4a2e52bf1650fd0d8819d6cd869027e",
+        "scope": "faithful h1 coherent alternative and particular h3 obstruction within supplied chi0 candidate",
+        "review": "REVIEW_AGY_01A_R1_476D_2026_11_09.md",
+        "formal_independent_review": null,
+        "admitted_execution": null
+      },
+      "component_result": {
+        "checkpoint": "6e9683ab93f438971a0da5b10107acc3cacafc31",
+        "decision": "ACCEPT_SCOPED_HAND_RESULT_WITH_CONSOLIDATED_READING_NOTES",
+        "review": "REVIEW_AGY_01B_6E968_2026_11_09.md",
+        "formal_independent_review": null,
+        "execution": null,
+        "late_witness_addendum": "EXTERNAL_248_AUDIT_INTAKE_AND_W_F1_CORRECTION_2026_11_09.md",
+        "exact_wf1_witness_requires_patch": false,
+        "wf1_patch_applied_at": "cadd0c62bb717ba18caca724e0c96dd9bd07cb14"
+      },
+      "phase_result": {
+        "checkpoint": "b299c2ab5adfa624e41dec5cf72506a3f3277b73",
+        "decision": "CLASSIFICATION_SUPPORTED_WITH_EXPLICIT_WITNESS_CORRECTION",
+        "review": "REVIEW_AGY_01C_B299_2026_11_09.md",
+        "raw_author_source_needs_bundled_witness_repair": true,
+        "formal_independent_review": null,
+        "execution": null
+      },
+      "register_result": {
+        "checkpoint": "1c6c03333525236886990ac4dc292e74e323936b",
+        "decision": "CORE_HAND_RESULTS_SUPPORTED_WITH_EXPLICIT_CORRECTIONS",
+        "review": "REVIEW_AGY_01D_1C6C_2026_11_09.md",
+        "correction_proof": "reports/physical_bridge_2026_09_05/foundation_selection_2026_11_07/QUARTER_PHASE_CHARACTER_BRIDGE_AND_COHERENT_WORD_CONTROL_2026_11_09.md",
+        "formal_independent_review": null,
+        "execution": null
+      }
+    },
+    {
+      "id": "AGY-02",
+      "title": "Complete charge-resolved fermion roster",
+      "claim_dependencies": [
+        "AGY-00",
+        "AGY-01"
+      ],
+      "status": "SCOPED_JOINED_HAND_KERNEL_SUPPORTED_WITH_BINDING_CORRECTIONS; FORMAL_REVIEW_AND_CURRENT_DUTIES_REMAIN",
+      "author": "AGY",
+      "supervisor": "physical seat",
+      "required_outputs": [
+        "ROSTER_PROOF.md",
+        "FULL_ROSTER.md"
+      ],
+      "scoped_review_artifact": null,
+      "source_complete_review_artifact": null,
+      "main_execution_acceptance": null,
+      "execution_admission": null,
+      "admitted_run_evidence": null,
+      "accepted_result": null,
+      "current_microtask": null,
+      "released_current_outputs": [],
+      "coefficient_roster_result": {
+        "checkpoint": "d1f2125a87bf4dc22f033a0c939dd737d28565fa",
+        "decision": "PARTIAL_HAND_ROSTER_SUPPORTED_WITH_BINDING_CORRECTIONS",
+        "review": "REVIEW_AGY_02A_D1F_2026_11_09.md",
+        "physical_correction_proof": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/PHYSICAL_ROSTER_TARGETS_AND_NEUTRAL_TAIL_CONTROL_2026_11_09.md",
+        "formal_independent_review": null,
+        "execution": null,
+        "complete_operator_roster_accepted": false
+      },
+      "neutral_kernel_result": {
+        "checkpoint": "9f0450d3ab6bd313e27044ac7b5647d34ce7b71d",
+        "decision": "NEUTRAL_HAND_RESULT_SUPPORTED_WITH_GENERATOR_CORRECTION",
+        "review": "REVIEW_AGY_02B_9F045_2026_11_09.md",
+        "left_dimensions": [
+          1,
+          5,
+          2
+        ],
+        "adjoint_dimensions": [
+          1,
+          5,
+          2
+        ],
+        "formal_independent_review": null,
+        "execution": null,
+        "requires_displayed_generator_correction": true
+      },
+      "joined_kernel_result": {
+        "checkpoint": "be7047fb6d29346d0fce3818c2cae05ec5ca33b9",
+        "decision": "JOINED_HAND_KERNEL_SUPPORTED_WITH_BINDING_MAP_AND_SCOPE_CORRECTIONS",
+        "review": "REVIEW_AGY_02C_BE704_2026_11_09.md",
+        "h4_dimensions": [
+          68,
+          60
+        ],
+        "h1_dimensions": [
+          70,
+          62
+        ],
+        "formal_independent_review": null,
+        "execution": null,
+        "author_100_percent_closure_accepted": false,
+        "bundled_map_repairs_at": "cadd0c62bb717ba18caca724e0c96dd9bd07cb14",
+        "latest_review": "REVIEW_AGY_04A_CADD0_2026_11_09.md"
+      }
+    },
+    {
+      "id": "AGY-03",
+      "title": "Common-action boundary response and source law",
+      "claim_dependencies": [
+        "AGY-00",
+        "AGY-01"
+      ],
+      "status": "B5A_COMPLETION_NOT_ACCEPTED_SOURCE_FAILURES_AND_CURRENT_ERRORS; PARTIAL_HAND_POSITIVES_PRESERVED; SOURCE_CURRENT_REPAIR_RELEASED",
+      "author": "AGY",
+      "supervisor": "physical seat",
+      "required_outputs": [
+        "BOUNDARY_VARIATION.md",
+        "STATIONARITY_AND_RESPONSE.md"
+      ],
+      "scoped_review_artifact": null,
+      "source_complete_review_artifact": null,
+      "main_execution_acceptance": null,
+      "execution_admission": null,
+      "admitted_run_evidence": null,
+      "accepted_result": null,
+      "current_microtask": "AGY-03b-r4",
+      "released_current_outputs": [
+        "repaired PHYSICAL_CUSP_CURRENT_AND_SOURCE_THRESHOLD.md with actual-source table",
+        "synchronized03b source status and affected claims",
+        "RESUME.md",
+        "short repair relay"
+      ],
+      "release_scope": "bounded E1-E3 retrievable-source/model and actual Grassmann pair-current repair; conditional E4 threshold and E5 physical duties retained",
+      "cut_variation_result": {
+        "checkpoint": "95cec984eb523bea7e04c287ed4bed6d19ed2d38",
+        "decision": "PARTIAL_HAND_RESULT_SUPPORTED_WITH_BINDING_REPAIRS",
+        "review": "REVIEW_AGY_03A_95CEC_2026_11_10.md",
+        "receipt": "SOURCE_REVIEW_RECEIPT_AGY_03A_95CEC_2026_11_10.json",
+        "supported": [
+          "bosonic outward momenta and bosonic Gauss equation",
+          "coordinate mass map, weighted formal adjoint and Hermitian Green form",
+          "diagonal transparent finite-cut transmission law",
+          "bundled AGY-04b-r1 graph and converted-adjoint notes"
+        ],
+        "binding_repairs": [
+          "physical fibre metric G=Omega^-2 h and normalized trace conversion",
+          "opposite-charge left Weyl input separated from Hermitian output test",
+          "superpotential cut primitive +i sigma/2",
+          "rank-two V_(2,2) and A3 threshold carriers; neutral kernel 6a+2spin"
+        ],
+        "formal_independent_review": null,
+        "main_acceptance": null,
+        "execution_admission": null,
+        "scientific_execution": false,
+        "banking": null,
+        "canonical_inputs_reduced": 0,
+        "repaired_checkpoint": "3940758ead6bb3bfede5d8e0ba0e0750ac9e8d76",
+        "latest_decision": "ACCEPT_SCOPED_HAND_RESULTS_WITH_DOMAIN_READING_NOTES",
+        "latest_review": "REVIEW_AGY_03A_R1_394075_2026_11_10.md",
+        "latest_receipt": "SOURCE_REVIEW_RECEIPT_AGY_03A_R1_394075_2026_11_10.json",
+        "R1_R4_repaired_at": "3940758ead6bb3bfede5d8e0ba0e0750ac9e8d76",
+        "binding_reading_notes": [
+          "H1/2 seam trace follows after regular transmission; maximal-domain weak trace needs its actual hybrid space",
+          "one-sided squared inverses require an explicit closed realization",
+          "V_(2,2),perp exponents -4,6 and global kernel source retained",
+          "quartic source locator is equation5"
+        ]
+      },
+      "first_fermion_source_result": {
+        "checkpoint": "0333541f1c3b9a3edace61be6553f0b2ed6600eb",
+        "decision": "PARTIAL_FORMAL_CURRENT_RESULT_SUPPORTED_WITH_BINDING_REPAIRS",
+        "review": "REVIEW_AGY_03B_033354_2026_11_10.md",
+        "receipt": "SOURCE_REVIEW_RECEIPT_AGY_03B_033354_2026_11_10.json",
+        "supported": [
+          "mass-functional expansion and formal component variation of printed functional",
+          "centralizer bracket selection and zero matter sources on spin restriction",
+          "scalar coordinate Green kernel and conormal boundary coefficient",
+          "conditional Gauss-exchange algebra and original nilpotent-body distinction"
+        ],
+        "binding_findings": {
+          "B1": "actual input barK, complete field/action/Wick phase transport and correct branching",
+          "B2": "linear Gauss sign, fully contracted off-shell Ward identity and conserved-source condition",
+          "B3": "physical vector weighted space versus unbounded flat-L2 zero inverse; form versus operator domains",
+          "B4": "unit longitudinal component and full angular core boundary operator",
+          "B5": "radial spectral coordinate/frame and quartic source integrability",
+          "B6": "induced degree-two correction versus boundary body and boundary-work degree"
+        },
+        "stationary_response_accepted_as_written": false,
+        "formal_independent_review": null,
+        "main_acceptance": null,
+        "execution_admission": null,
+        "banking": null,
+        "scientific_execution": false,
+        "canonical_inputs_reduced": 0,
+        "current_ward_repair_checkpoint": "f7d9767aa026766145b4399f226334b62e387b29",
+        "latest_review": "REVIEW_AGY_03B_R3_6A118_2026_11_10.md",
+        "latest_decision": "SOURCE_CUSTODY_FAILURE_WITH_PARTIAL_HAND_POSITIVES_AND_CURRENT_COUNTEREXAMPLES",
+        "latest_receipt": "SOURCE_REVIEW_RECEIPT_AGY_03B_R3_6A118_2026_11_10.json",
+        "binding_carry_items": [
+          "retrieve or remove four unavailable documents and attempt ledger",
+          "restore actual full coefficient hashes and actual h4 U3/h1 so5 candidate; rank4 SM cannot embed in rank3 A3",
+          "external Grassmann pair terms add; relative-i witness cancels",
+          "restore internal current phases, adjoint and projected spectral equations",
+          "scope threshold to nonzero coefficients and actual four-generator exchange contraction",
+          "retain physical Weyl, conjugation and oscillatory Ward duties"
+        ],
+        "source_complete_acceptance": false,
+        "source_pin_mismatch": {
+          "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COEFFICIENT_ROSTER.md",
+          "declared_sha256": "2bc9403e127cf03f26cd4b1dc4ebba2fb1c14d3d3510744e39bc52f71913fb1d",
+          "actual_git_sha256": "a98ff428d827d11adf8400e9e03e49b7360f3ccae03ed6f957e9780eec4ed33f"
+        },
+        "weighted_response_checkpoint": "235a62913c2cfb6a03d9c67c80864d69d1d67ca1",
+        "active_source_pin_repaired_at": "235a62913c2cfb6a03d9c67c80864d69d1d67ca1",
+        "active_dependency_pins_match": false,
+        "latest_supported_scope": [
+          "radial measure and permutation differential map with corrected adjoint components",
+          "internal flavour/spinor determinant factor",
+          "conditional nonzero power-source Hilbert threshold and mixed Green integral",
+          "earlier D1-D4 response repairs at original scope"
+        ],
+        "physical_cusp_current_checkpoint": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+        "B5a_completed_result_accepted": false,
+        "earlier_D1_D4_repairs_disposition": "supported at prior scope, no B5a completion inferred"
+      }
+    },
+    {
+      "id": "AGY-04",
+      "title": "Actual global modes and physical weak currents",
+      "claim_dependencies": [
+        "AGY-01",
+        "AGY-02",
+        "AGY-03"
+      ],
+      "status": "SCOPED_LEPTON_RANK_AND_NATURAL_PARITY_HAND_RESULTS_SUPPORTED; ACTUAL_FORM_VECTOR_SPECTRUM_AND_CURRENT_OVERLAPS_OPEN",
+      "author": "AGY",
+      "supervisor": "physical seat",
+      "required_outputs": [
+        "GLOBAL_MODES.md",
+        "WEAK_CURRENT.md"
+      ],
+      "scoped_review_artifact": null,
+      "source_complete_review_artifact": null,
+      "main_execution_acceptance": null,
+      "execution_admission": null,
+      "admitted_run_evidence": null,
+      "accepted_result": null,
+      "current_microtask": null,
+      "released_current_outputs": [],
+      "release_scope": "existing complete balanced h4/W=1/eta=O model only, using already specified domains; no new interface/domain or AGY03 completion inferred",
+      "lepton_form_result": {
+        "checkpoint": "cadd0c62bb717ba18caca724e0c96dd9bd07cb14",
+        "decision": "SCOPED_LEPTON_CURRENT_SUPPORTED_WITH_READING_NOTES",
+        "review": "REVIEW_AGY_04A_CADD0_2026_11_09.md",
+        "conditional_rank_pairs": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "full_weak_chirality_earned": false,
+        "formal_independent_review": null,
+        "scientific_execution": null,
+        "canonical_inputs_reduced": 0,
+        "density_and_trace_scaling_repair_at": "1aa0da7a0eb353c06c45a12f9dab8c1816e8b7d0",
+        "latest_review": "REVIEW_AGY_04B_R1_1AA0D_2026_11_09.md"
+      },
+      "form_spin_joint_result": {
+        "checkpoint": "4ff94e6195846af8b201693868bac2592ad4c728",
+        "decision": "REVISE_OPERATOR_TYPES_AND_CURVATURE_ARGUMENT",
+        "review": "REVIEW_AGY_04B_4FF94_2026_11_09.md",
+        "preserved_positive": [
+          "same rough-Laplacian constant in the two source planes",
+          "local projected raising matrices",
+          "exact complete spectral equation at1/2",
+          "earlier lepton current rank pair with source repairs"
+        ],
+        "binding_repairs": [
+          "effective spin powers and derivative tensor types",
+          "flat-map versus full curved differential quantifier",
+          "curvature identity and claimed9/(2ell^2) mode",
+          "form-current singular-value comparison",
+          "spectral parameter independence/eigenvalue-branch scope",
+          "missing Omega and trace scaling in ratio"
+        ],
+        "formal_independent_review": null,
+        "scientific_execution": null,
+        "canonical_inputs_removed": 0,
+        "repaired_checkpoint": "1aa0da7a0eb353c06c45a12f9dab8c1816e8b7d0",
+        "repaired_decision": "ACCEPT_SCOPED_HAND_RESULTS_WITH_READING_NOTES",
+        "latest_review": "REVIEW_AGY_04B_R1_1AA0D_2026_11_09.md",
+        "remaining_reading_notes": [
+          "own graph closure versus Pv form domain",
+          "converted derivative-map adjoint retains differentiated Omega factor"
+        ]
+      }
+    },
+    {
+      "id": "AGY-05",
+      "title": "Register-to-field family map",
+      "claim_dependencies": [
+        "AGY-00",
+        "AGY-01",
+        "AGY-02",
+        "AGY-03"
+      ],
+      "status": "UNRELEASED; PENDING_DEPENDENCY_REVIEW_AND_RUN_TICKET",
+      "author": "AGY",
+      "supervisor": "physical seat",
+      "required_outputs": [
+        "REGISTER_TO_FIELD_MAP.md"
+      ],
+      "scoped_review_artifact": null,
+      "source_complete_review_artifact": null,
+      "main_execution_acceptance": null,
+      "execution_admission": null,
+      "admitted_run_evidence": null,
+      "accepted_result": null
+    },
+    {
+      "id": "AGY-06",
+      "title": "Compatible joined verdict and input ledger",
+      "claim_dependencies": [
+        "AGY-01",
+        "AGY-02",
+        "AGY-03",
+        "AGY-04",
+        "AGY-05"
+      ],
+      "status": "UNRELEASED; PENDING_DEPENDENCY_REVIEW_AND_RUN_TICKET",
+      "author": "AGY",
+      "supervisor": "physical seat",
+      "required_outputs": [
+        "JOINED_VERDICT.md",
+        "INPUT_LEDGER.md"
+      ],
+      "scoped_review_artifact": null,
+      "source_complete_review_artifact": null,
+      "main_execution_acceptance": null,
+      "execution_admission": null,
+      "admitted_run_evidence": null,
+      "accepted_result": null
+    }
+  ],
+  "science_status": {
+    "new_campaign_runs": "NONE for OA prospective campaign producers; owner-authorized external preliminary reproduction is recorded separately",
+    "six_control_review_completed": true,
+    "six_control_science_execution": "UNRUN; separate main acceptance and admission outstanding",
+    "later_seven_and_four_controls": "UNRUN; outside completed review",
+    "external_preliminary_reproduction": {
+      "authorization_commit": "3ce102d43",
+      "proposal_commit": "afa93bce87d127288703022999036f16e1e89532",
+      "scope": "unchanged six-file external package at2f45580c4; no OA campaign producer released",
+      "status": "FIVE_COMMANDS_ZERO_EXIT; TWENTY_TWO_TESTS_PASS; THREE_BYTE_IDENTICAL_RECEIPTS",
+      "result": "external_dsl_audit_2026_11_09/PRELIMINARY_REPRODUCTION_RESULTS.md",
+      "custody": "external_dsl_audit_2026_11_09/preliminary_reproduction_01/CUSTODY.json",
+      "raw_execution_receipt": "external_dsl_audit_2026_11_09/preliminary_reproduction_01/EXECUTION_RECEIPT.json",
+      "unexpected_failures": 0,
+      "source_repairs_or_retries": 0,
+      "main_acceptance": null,
+      "normal_formal_admission": null,
+      "banking": null,
+      "AGY_04A_new_lepton_proof_tested": false
+    }
+  },
+  "coordination_revision": 31,
+  "revision_base_commit": "18a229979981897b7eaa11ce3c2941ba64e077e9",
+  "start_document": "START_HERE.md",
+  "max_active_microtasks_per_worker_context": 1,
+  "dispatch": {
+    "released_microtask": "AGY-03b-r4",
+    "parent_task": "AGY-03",
+    "question": "Restore retrievable source/model and derive actual Grassmann pair currents with rejecting and surviving controls",
+    "run_ticket": "RUN_TICKET_AGY_03B_R4.md",
+    "joined_checkpoint": "6a118a716e2590f0a16c6fbfd540129cd73672a9",
+    "required_reading_notes": "REVIEW_AGY_03B_R3_6A118_2026_11_10.md",
+    "dependency_scope": "E1-E3 source/model and pair-current repair first; E4 threshold conditional and E5 physical duties retained",
+    "allowed_activity": [
+      "read actual retrieved Git sources",
+      "metadata-only full source/hash comparison",
+      "bounded radial-map and Grassmann-current hand repair",
+      "synchronize dependent status, commit/push and stop"
+    ],
+    "required_outputs": [
+      "repaired PHYSICAL_CUSP_CURRENT_AND_SOURCE_THRESHOLD.md <=2000 words plus<=100 equation/table rows",
+      "actual-source/mismatch table and03b sources synchronized",
+      "RESUME.md <=700 words",
+      "relay <=250 words"
+    ],
+    "stop_condition": "retrievable source basis and corrected pair algebra with exact remaining physical/threshold duties; no B5a completion inferred",
+    "next_microtask_released": false,
+    "scientific_execution_authorized": false
+  },
+  "context_policy": {
+    "one_question_per_run": true,
+    "durable_state_required_before_context_transition": true,
+    "load_reference_library_on_demand": true,
+    "whole_campaign_execution_in_one_run_allowed": false,
+    "fresh_context_or_session_when_needed": "Use host-supported context/session transition after durable handoff; no model capacity or reset API assumed",
+    "handoff_is_not_proof": true,
+    "author_completion_cannot_release_next_task": true,
+    "runtime_scheduler_implemented_by_this_file": false,
+    "oversized_subtask": "Save partial handoff and propose smaller subdivision; preserve unresolved status"
+  },
+  "review_cadence": {
+    "scope": "coordination only; scientific admission policy retains existing requirements",
+    "batch_source_repairs": true,
+    "nonblocking_reading_notes_may_accompany_scoped_hand_acceptance": true,
+    "blocking_mathematical_findings_stop_dependent_claims": true,
+    "one_bounded_proof_question_per_worker_context": true,
+    "formal_review_can_remain_pending_during_author_hand_successors": true,
+    "operator_source_guardrail": "Reuse original coordinate expressions verbatim or declare the complete source/target/norm rescaling before altering their factors.",
+    "negative_scope_guardrail": "Preserve named-mode versus full-degenerate-eigenspace quantifiers; an unresolved other-mode spectrum remains open."
+  },
+  "late_source_addendum": {
+    "date": "2026-11-09",
+    "source": "CENTRALIZER_COMPONENTS.md at6e9683ab9, unchanged atbe7047fb6",
+    "finding": "W f1 witness uses wrong omega6 sign on128",
+    "correction": "pi_E8(W f1)=h1 C",
+    "document": "EXTERNAL_248_AUDIT_INTAKE_AND_W_F1_CORRECTION_2026_11_09.md",
+    "patch": "CENTRALIZER_COMPONENTS_W_F1_SIGN_2026_11_09.patch",
+    "corrected_source_sha256": "0e21636e01332e6cae765382c79aff9278dfdbe074e7e94a729a6aeb359a4ff4",
+    "apply_with_current_task": "DONE at cadd0c62b; original history preserved",
+    "external_numerical_artifacts": "received at external_dsl_audit_2026_11_09; source/hand audit complete at its declared scope; no numerical rerun or admission",
+    "scientific_execution_authorized": false,
+    "patch_applied_at": "cadd0c62bb717ba18caca724e0c96dd9bd07cb14"
+  },
+  "external_audit_source_review": {
+    "archive_head": "2f45580c4afa5985145df7520575dd9c4e51d928",
+    "standalone_reported_commit": "ad6f2f5b4f7bbdaca25bbe6dabcb1b6eb80b2f62",
+    "document": "external_dsl_audit_2026_11_09/REVIEW.md",
+    "custody": "external_dsl_audit_2026_11_09/CUSTODY.json",
+    "decision": "PRESERVE_FINITE_POSITIVES_AND_SIGN_REPAIR; REVISE_GUARDRAIL_AND_COVERAGE_CLAIMS",
+    "scientific_execution_by_physical_seat": true,
+    "formal_source_complete_acceptance": null,
+    "main_acceptance": null,
+    "execution_admission": null,
+    "canonical_inputs_reduced": 0,
+    "active_assignment_unchanged": "AGY-04a at its edaa4cf7c review checkpoint; subsequently advanced to AGY-04b at coordination revision22",
+    "execution_scope": "subsequent owner-authorized preliminary unchanged external reproduction only; the source review at edaa4cf7c itself ran no code",
+    "later_preliminary_reproduction": "external_dsl_audit_2026_11_09/PRELIMINARY_REPRODUCTION_RESULTS.md"
+  },
+  "processed_agy_head": "6a118a716e2590f0a16c6fbfd540129cd73672a9"
+}
