@@ -1,22 +1,43 @@
 # AGY: one bounded checkpoint per run
 
-2026-11-10. Coordination revision 27, requested by the owner to avoid
+2026-11-10. Coordination revision 28, requested by the owner to avoid
 context overload. Read this BEFORE the full work order. This narrows the
 dispatch schedule; it changes no mathematics, evidence grade or execution
 policy. Do not attempt the whole campaign in one response or run.
 
-## Current assignment AGY-03b
+## Current assignment AGY-03b-r1
 
-Processed exact AGY head3940758ead6bb3bfede5d8e0ba0e0750ac9e8d76.
-Read RUN_TICKET_AGY_03B.md and
-REVIEW_AGY_03A_R1_394075_2026_11_10.md. R1-R4 are repaired at
-scoped hand level. Reuse the existing free response and older fermionic
-Gauss/current construction before deriving the leading fermionic gauge
-source and constrained response in this curved centralizer sector.
-Retain the actual field/metric map, Grassmann degree, radial Gauss,
-continuum, harmonic variables and boundary work. Bundle N1-N4 domain
-and source notes. One bounded hand/source packet, commit/push and stop.
-Scientific execution retains its existing acceptance/admission duties.
+Processed exact AGY head0333541f1c3b9a3edace61be6553f0b2ed6600eb.
+Read RUN_TICKET_AGY_03B_R1.md and
+REVIEW_AGY_03B_033354_2026_11_10.md. Preserve the formal current and
+selection-rule positives. Repair B1-B2, actual field/action convention
+transport and the Ward/Gauss identity, in one narrowed hand/source
+return. B3-B6 response-space, longitudinal/core-boundary, threshold
+integrability and boundary-body findings remain pending. Update their
+source status explicitly. Commit/push and stop for review. No new
+scientific execution or complete stationary response is released.
+
+## AGY-03b at0333541f1, partial current support with binding repairs
+
+All17 full dependency pins match. The mass-functional expansion,
+formal variational current structures, centralizer bracket selection
+and scalar Green kernel are useful positives. The Lorentzian sign
+translation and linear Gauss line fail direct source checks. The Ward
+formula has incompatible spin contractions. Its response uses a flat
+vector inverse without a gap, drops core angular-operator duties and
+mixes longitudinal/source/Grassmann conventions. A positive fermion
+spectral regulator alone does not ensure finite current exchange.
+The review supplies scoped hand counterchecks and a weighted-space
+repair preserving the Green result. Formal independent review and
+main acceptance remain owed. Canonical foundational inputs removed0.
+
+## Prior assignment AGY-03b
+
+RUN_TICKET_AGY_03B.md combined source-current transport and response
+in one return. The next ticket separates these dependencies. The
+current/Ward derivation is repaired first, with the response findings
+preserved for a later bounded return. Existing free-response and
+older ten-current results retain their original scoped positives.
 
 ## AGY-03a-r1 at3940758ea, scoped hand result supported
 

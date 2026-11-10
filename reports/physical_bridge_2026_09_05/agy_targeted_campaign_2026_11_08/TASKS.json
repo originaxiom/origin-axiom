@@ -8,16 +8,16 @@
   "review_branch": "audit/physical-bridge-2026-09-05",
   "delivery_channel": "versioned repository relay; no live worker start or acknowledgement inferred",
   "worker_acknowledgement": {
-    "commit": "3940758ead6bb3bfede5d8e0ba0e0750ac9e8d76",
-    "type": "AGY-03a-r1 repairs personally checked at scoped hand level; transmission and inverse-domain notes carried into first fermion-source successor"
+    "commit": "0333541f1c3b9a3edace61be6553f0b2ed6600eb",
+    "type": "AGY-03b personally source/hand reviewed; formal current positives retained, convention/Ward and response-space/limit repairs required"
   },
   "max_active_proof_code_packets_after_intake": 1,
   "scientific_execution_authorized_by_this_board": false,
   "first_return": [
-    "FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md",
-    "bundled N1-N4 source/domain notes",
+    "FERMION_CURRENT_AND_WARD_REPAIR.md",
+    "03b source status and current/Gauss statements with pending B3-B6 ledger",
     "RESUME.md",
-    "short new return relay"
+    "short new repair relay"
   ],
   "stage_policy": {
     "allowed_now": [
@@ -246,7 +246,7 @@
         "AGY-00",
         "AGY-01"
       ],
-      "status": "SCOPED_CUT_VARIATION_HAND_RESULTS_SUPPORTED_WITH_DOMAIN_NOTES; FIRST_FERMION_SOURCE_HAND_TASK_RELEASED; FULL_NONLINEAR_RESPONSE_OPEN",
+      "status": "PARTIAL_FORMAL_FERMION_CURRENT_SUPPORTED_WITH_BINDING_REPAIRS; CURRENT_WARD_REPAIR_RELEASED; STATIONARY_RESPONSE_AND_FULL_NONLINEAR_COMPLETION_OPEN",
       "author": "AGY",
       "supervisor": "physical seat",
       "required_outputs": [
@@ -259,14 +259,14 @@
       "execution_admission": null,
       "admitted_run_evidence": null,
       "accepted_result": null,
-      "current_microtask": "AGY-03b",
+      "current_microtask": "AGY-03b-r1",
       "released_current_outputs": [
-        "FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md",
-        "bundled N1-N4 source/domain notes",
+        "FERMION_CURRENT_AND_WARD_REPAIR.md",
+        "03b source status and current/Gauss statements with pending B3-B6 ledger",
         "RESUME.md",
-        "short new return relay"
+        "short new repair relay"
       ],
-      "release_scope": "one bounded same-parent hand derivation of leading centralizer fermionic gauge currents and constrained response, preserving Grassmann degree, Gauss, boundary work and all input/domain duties",
+      "release_scope": "one narrowed hand/source current convention and Ward/Gauss repair; B3-B6 response spaces, longitudinal/core sewing, spectral limits and body-degree issues remain pending",
       "cut_variation_result": {
         "checkpoint": "95cec984eb523bea7e04c287ed4bed6d19ed2d38",
         "decision": "PARTIAL_HAND_RESULT_SUPPORTED_WITH_BINDING_REPAIRS",
@@ -301,6 +301,33 @@
           "V_(2,2),perp exponents -4,6 and global kernel source retained",
           "quartic source locator is equation5"
         ]
+      },
+      "first_fermion_source_result": {
+        "checkpoint": "0333541f1c3b9a3edace61be6553f0b2ed6600eb",
+        "decision": "PARTIAL_FORMAL_CURRENT_RESULT_SUPPORTED_WITH_BINDING_REPAIRS",
+        "review": "REVIEW_AGY_03B_033354_2026_11_10.md",
+        "receipt": "SOURCE_REVIEW_RECEIPT_AGY_03B_033354_2026_11_10.json",
+        "supported": [
+          "mass-functional expansion and formal component variation of printed functional",
+          "centralizer bracket selection and zero matter sources on spin restriction",
+          "scalar coordinate Green kernel and conormal boundary coefficient",
+          "conditional Gauss-exchange algebra and original nilpotent-body distinction"
+        ],
+        "binding_findings": {
+          "B1": "actual input barK, complete field/action/Wick phase transport and correct branching",
+          "B2": "linear Gauss sign, fully contracted off-shell Ward identity and conserved-source condition",
+          "B3": "physical vector weighted space versus unbounded flat-L2 zero inverse; form versus operator domains",
+          "B4": "unit longitudinal component and full angular core boundary operator",
+          "B5": "radial spectral coordinate/frame and quartic source integrability",
+          "B6": "induced degree-two correction versus boundary body and boundary-work degree"
+        },
+        "stationary_response_accepted_as_written": false,
+        "formal_independent_review": null,
+        "main_acceptance": null,
+        "execution_admission": null,
+        "banking": null,
+        "scientific_execution": false,
+        "canonical_inputs_reduced": 0
       }
     },
     {
@@ -446,31 +473,31 @@
       "AGY_04A_new_lepton_proof_tested": false
     }
   },
-  "coordination_revision": 27,
-  "revision_base_commit": "0b13d7088ff3d982b8d0cb9aab541d4781d8f61d",
+  "coordination_revision": 28,
+  "revision_base_commit": "b27c49359b7a2b497f55900ce3f0811a0f87ebe8",
   "start_document": "START_HERE.md",
   "max_active_microtasks_per_worker_context": 1,
   "dispatch": {
-    "released_microtask": "AGY-03b",
+    "released_microtask": "AGY-03b-r1",
     "parent_task": "AGY-03",
-    "question": "Derive the leading fermionic gauge current and constrained response in the same curved centralizer sector, including fermionic radial Gauss and degree-four exchange",
-    "run_ticket": "RUN_TICKET_AGY_03B.md",
-    "joined_checkpoint": "3940758ead6bb3bfede5d8e0ba0e0750ac9e8d76",
-    "required_reading_notes": "REVIEW_AGY_03A_R1_394075_2026_11_10.md",
-    "dependency_scope": "same balanced h4/W=1/eta=O complete model; reuse existing free response and older parent currents with actual curved field and metric transport",
+    "question": "Repair the actual four-slot fermion current conventions and off-shell Ward/Gauss identity before repairing dependent stationary responses",
+    "run_ticket": "RUN_TICKET_AGY_03B_R1.md",
+    "joined_checkpoint": "0333541f1c3b9a3edace61be6553f0b2ed6600eb",
+    "required_reading_notes": "REVIEW_AGY_03B_033354_2026_11_10.md",
+    "dependency_scope": "same curved parent and centralizer specialization; B1-B2 immediate, B3-B6 remain explicitly pending response duties",
     "allowed_activity": [
-      "personal source/reuse reading",
-      "one bounded same-action fermion-source and response hand derivation",
-      "bundle transmission, realization and source notes",
-      "commit/push and stop for substantive review"
+      "personal source reading and hand algebra",
+      "derive consistent current, typed Noether identity and Gauss sign",
+      "update source front-door status and preserve downstream findings",
+      "commit/push and stop"
     ],
     "required_outputs": [
-      "FIRST_FERMION_SOURCE_AND_GAUSS_RESPONSE.md <=2200 words plus<=100 equation/table rows",
-      "N1-N4 source/domain notes bundled",
+      "FERMION_CURRENT_AND_WARD_REPAIR.md <=1600 words plus<=80 equation/table rows",
+      "original03b source status/current statements and pending B3-B6 ledger",
       "RESUME.md <=700 words",
       "new relay <=250 words"
     ],
-    "stop_condition": "leading fermionic source/current and constrained response at specified order, or exact missing transport identity; full nonlinear stationary and state-selection duties retained",
+    "stop_condition": "one bounded source-current repair with correct action/field transport and explicit remaining response duties; no full03b completion inferred",
     "next_microtask_released": false,
     "scientific_execution_authorized": false
   },
@@ -523,5 +550,5 @@
     "execution_scope": "subsequent owner-authorized preliminary unchanged external reproduction only; the source review at edaa4cf7c itself ran no code",
     "later_preliminary_reproduction": "external_dsl_audit_2026_11_09/PRELIMINARY_REPRODUCTION_RESULTS.md"
   },
-  "processed_agy_head": "3940758ead6bb3bfede5d8e0ba0e0750ac9e8d76"
+  "processed_agy_head": "0333541f1c3b9a3edace61be6553f0b2ed6600eb"
 }
