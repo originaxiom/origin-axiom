@@ -15738,13 +15738,15 @@
   "B1854": {
    "slug": "the tubes tau beyond k1 on main",
    "motifs": [
+    "closing",
     "coupling",
     "figure_eight",
     "golden",
-    "amphichiral_cp"
+    "amphichiral_cp",
+    "symplectic"
    ],
    "refs": [],
-   "obstacle": "units_scale",
+   "obstacle": "measure",
    "obstacle_conf": 1,
    "status": "banked",
    "domain": "topology"
@@ -15859,6 +15861,21 @@
    "obstacle_conf": 10,
    "status": "dormant",
    "domain": "dynamics"
+  },
+  "B1860": {
+   "slug": "review 77 the decadal review",
+   "motifs": [
+    "closing",
+    "figure_eight"
+   ],
+   "refs": [
+    "B805",
+    "P3"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "topology"
   },
   "B186": {
    "slug": "hyperbolicity certification",

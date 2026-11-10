@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1561 |
-| … PROVED | 1070 |
+| arcs with a verdict file | 1562 |
+| … PROVED | 1071 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1860 | PROVED | REVIEW 77 (fired by the push gate at 41 landings; S306f-S306n): the loop closed, all eight of Review 76's items resolved in the window and none carried; every seat harvested to its head at uneven depth, the register say… |
 | B1859 | PROVED | THE DOOR SET IS {1, 4} (a correction of B997's uniqueness clause, keeping its computation; P-318, P-618): the group the grammar R^m L^m's own letters generate modulo m^2 + 4 is a McKay group exactly at m = 1 and m = 4 -… |
 | B1858 | PROVED | THE CLOSURE MAP (the owner's directive of 2026-11-10, P-748; the physical lane's work order, its first return): 259 nodes and 263 edges, every node pinned by a quote checked against its source (241 on main, 39 on the la… |
 | B1857 | PROVED | THE READ-OUT BY A STATE (the explore seat's test, checked on main; P-726, P-717): in the flat-fibre (Sol) bundle over the history the separated wells follow the cosh law exactly (4.7e-38 on seven classes; cosh 2(s - s_c… |
@@ -42,7 +43,6 @@
 | B1851 | PROVED | THE CHIRAL PREMISE RELOCATED, VERIFIED; THE OPEN-BOOK SCALE CARD RULED NOT SEALABLE (the web seat's three relays, harvest rows 1609-1611): re-derived on main -- in DGLZ's t = k +- sigma the product's exponent is sigma*V… |
 | B1850 | PROVED | THE OPEN LEADS AND THE BACKLOG CONFIRMED ONE BY ONE (Review 76's R76-1: the rest of P-617, and P-616): every proposal of Review 74's readers checked at its pointer, each decision backed by a quote found verbatim (313 of… |
 | B1849 | PROVED | THE LEADS CONFIRMED ONE BY ONE (Review 76's R76-1, the register half of P-617): every proposal of Review 74's reader for the register's lead-typed rows checked by main at its pointer -- 30 rows closed (19 answered, 6 su… |
-| B1848 | PROVED | REVIEW 76 (the owner: 'lets do the decadal first right moment'; 36 commits, S305p-S306d): the loop closed (R75-1..3 declined at their third carry, rows kept; R75-6, R75-7 and R75-9's P-718 half resolved; four carried);… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -57,6 +57,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306o REVIEW 77, THE DECADAL REVIEW (B1860; fired by the push gate at 41 landings) (2026-11-10)
 - S306n (continued) WEAVE OR THREAD, ENFORCED IN THE MAP; THE LAW AND THE WEIGHT (P-755, P-756; B1858 extended) (2026-11-10)
 - S306n (continued) THE DOOR SET IS {1, 4} (B1859; a front-page claim corrected; P-318, P-618; GENESIS v1.63) (2026-11-10)
 - S306n (continued) THE CLOSURE MAP (B1858; the owner's directive, P-748; the physical lane's work order, its first return) (2026-11-10)
@@ -64,11 +65,10 @@
 - S306m (continued) THE READ-OUT BY A STATE (B1857; the explore seat, row 1617) (2026-11-07)
 - S306m (continued) THE TUBE'S τ AT k = 2, ON MAIN (B1854; P-739 in part) (2026-11-07)
 - S306m (continued) CHARGE OR SYMMETRY AT FIVE (B1856; P-738 answered, conditionally) (2026-11-07)
-- S306m (continued) THE CHARGE LAW SETTLED (B1855; P-737 DONE): REFUTED FROM lcm(S) = 12, PROVED BELOW BY THE EXPLORE SEAT (2026-11-07)
 
 ## The latest campaign line
 
-LATEST (2026-11-10, S306n (continued): weave or thread enforced in the map (B1858; P-755): 15 banked results are stated about the weave (structure and negatives), 25 about one thread (the root, the whole structural theorem, the value frame); five of six headline results are thread results; the law fixes what exists, not how much — an eleventh missing dependency, the weight; the computation it asks for registered first (P-756). 0 of 19.)
+LATEST (2026-11-10, S306o: REVIEW 77 (B1860), fired by the push gate at 41 landings: Review 76's eight items all resolved, none carried; five seeded arcs read in full by an independent reader, all hold with notes, eight must-fix findings applied (B1854's k = 2 error is about 0.02, not 0.010; the map's DERIVED now means proved outright); the fresh-clone suite 8125 passed, 7 failed — three the review firing, two standing, two the window's own and fixed (B1854's lock read three ignored logs, E94 for the third time: the tracked-deps gate now reads every lock's own-directory paths); a new error class, E96, a thread taken for the weave; items R77-1 to R77-8. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
