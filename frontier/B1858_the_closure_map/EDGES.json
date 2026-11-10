@@ -1002,17 +1002,17 @@
  },
  {
   "src": "MC:UNIQ",
+  "kind": "bears-on",
+  "dst": "MC:GENERIC",
+  "grade": "DERIVED",
+  "note": "the door is a shadow of the grammar's letters; the E₆ entry is a quotient of π₁; reaching E₆ is generic"
+ },
+ {
+  "src": "MC:UNIQ",
   "kind": "instance-of",
   "dst": "X:PARENT",
   "grade": "",
   "note": ""
- },
- {
-  "src": "MC:UNIQ",
-  "kind": "refuted-in-part-by",
-  "dst": "MC:GENERIC",
-  "grade": "",
-  "note": "the claim page's own control; the m = 4 counterexample is P-318's"
  },
  {
   "src": "MC:Y",

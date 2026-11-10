@@ -55,3 +55,8 @@ specificity filter), B210 (dual McKay). Leads closed/refined: L47 (closed), L49 
 Literature: arithmeticity of `4₁` / Bianchi `PSL(2,O₃)` (standard); conformal-embedding central charges (standard).
 
 > **See B239** for the referee-proof restatement of the field-ladder closure: a unimodular element has `disc=t²−4det`, so imaginary quadratic trace fields are only `ℚ(i)`/`ℚ(√−3)` (the `disc=−4` floor); `ℚ(√−7)` is below the floor (no "det=2" needed).
+
+## Dated note, 2026-11-10 (B1859; P-318)
+
+The table's m = 4 row reads "2I=E₈ (field only, n≠5)". That is the full group SL(2, ℤ/20). The group the grammar's own
+letters generate modulo 20 is 2I itself: the group, not only the field (B1859).

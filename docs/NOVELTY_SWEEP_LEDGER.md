@@ -16,7 +16,7 @@ only an EXTRA constraint the standard route leaves free is a prediction) and
 **the one-step measurement** (B1044: 0 of 20 Layer-2/3 steps consume Γ; exactly
 one step consumes the CLASS — B727's entry, the trace-field atom selecting the
 McKay group; 18 steps of standard algebra follow). The door theorems (B997/B1019:
-one grammar, one door) and the bridge step (B727) sit at the **same junction —
+one grammar, one door **[B1859, 2026-11-10: unique among primitive grammars; the door set is {1, 4}]**) and the bridge step (B727) sit at the **same junction —
 the entry** — approached from existence (who can enter) and selection (what entry
 picks). They are not restated as one theorem here; the junction is one place.
 

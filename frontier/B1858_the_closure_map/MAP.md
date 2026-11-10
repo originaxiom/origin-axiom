@@ -8,7 +8,7 @@ by a quote that the builder checks.*
 
 | grade | meaning | nodes |
 |---|---|---|
-| DERIVED | proved on main | 12 |
+| DERIVED | proved on main | 13 |
 | CONDITIONAL | proved on main given named premises | 17 |
 | RECORD | a fact about the record's own state, checked at its source | 2 |
 | CONFIRMED | a registered falsifiable claim that observation has confirmed | 1 |
@@ -20,7 +20,7 @@ by a quote that the builder checks.*
 | ANSATZ | a posited form with no derivation | 1 |
 | READING | passes a sealed screen; not a prediction | 1 |
 | NEGATIVE | a banked negative, scoped | 9 |
-| OPEN | not settled | 36 |
+| OPEN | not settled | 35 |
 | LANE-REVIEWED | a seat's proof with a non-authoring review inside its lane; not verified on main | 1 |
 | LANE-PROPOSED | a seat's hand proof, count or estimate, unreviewed; not verified on main | 6 |
 | LANE-INPUT | an input the seat's own ledger prices as supplied, unselected or unearned | 7 |
@@ -108,7 +108,7 @@ by a quote that the builder checks.*
 | MC:HYP | POSTULATED | The structural theorem's counted inputs: the uniqueness axioms and five typed external data (two bits, one scale, one Lie type, one closing direction). | docs/THE_CLAIM.md; P-374 (QUEUED) |
 | MC:PRICE | POSTULATED | The identification price: thirteen (four axioms and nine irreducible sources). | docs/TOTAL_INPUTS_SCOREBOARD.md; B1266 |
 | MC:REACH | OPEN | The structural frame has never been computed on any state other than the root. | GENESIS.md |
-| MC:UNIQ | OPEN | The golden grammar's uniqueness among metallic grammars: stated as proved on the claim page; a counterexample at m = 4 is registered and the page is not yet corrected. | docs/THE_CLAIM.md; B997; B1002; P-318 (QUEUED); P-618 (QUEUED) |
+| MC:UNIQ | DERIVED | The own-conductor door set of the metallic grammars is {1, 4}. The golden is unique among primitive grammars, and unique for having both the door and a quotient of π₁ onto 2T. | frontier/B1859_the_door_set_is_one_and_four/FINDINGS.md; B1859; B997; B1019; P-318 (QUEUED); P-618 (QUEUED) |
 | MC:Y | CONDITIONAL | The hypercharge direction; its normalisation is underivable by homogeneity. | docs/THE_CLAIM.md; B864; B991 |
 | MC:Z6 | CONDITIONAL | The global form [SU(3) × SU(2) × U(1)]/ℤ₆, at the primitive normalisation of hypercharge only. | docs/THE_CLAIM.md; B862; B1221; P-604 (DONE); P-581 (QUEUED) |
 

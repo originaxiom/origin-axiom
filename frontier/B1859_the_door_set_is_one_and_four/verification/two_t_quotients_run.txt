@@ -1,0 +1,9 @@
+m = 1   surjections onto SL(2, 3):  48 =  2 classes   [by hand; SnapPy's presentation agrees]
+m = 2   surjections onto SL(2, 3):   0 =  0 classes   [by hand; SnapPy's presentation agrees]
+m = 3   surjections onto SL(2, 3): 240 = 10 classes   [by hand; SnapPy's presentation agrees]
+m = 4   surjections onto SL(2, 3):   0 =  0 classes   [by hand; SnapPy's presentation agrees]
+m = 5   surjections onto SL(2, 3):  48 =  2 classes   [by hand]
+m = 6   surjections onto SL(2, 3): 384 = 16 classes   [by hand]
+the root (m = 1): surjections onto SL(2, 5): 0
+=> m = 1 has the own-conductor door and a 2T quotient; m = 4 has the door and no 2T quotient; m = 3 has 2T quotients and no door
+=> the E8 door is a shadow of the grammar's letters, not a quotient of pi_1

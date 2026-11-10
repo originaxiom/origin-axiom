@@ -177,9 +177,10 @@ N("MC:CS0", "4 structure", "theorem", "DERIVED", "No dimensionful quantity, by t
   [(CLAIM, "**no dimensionful quantity — by theorem, not failure**")], arcs=["B811", "B1012", "B1226"])
 N("MC:GENERIC", "4 structure", "theorem", "DERIVED", "Reaching the E₆ waypoint is generic (about one manifold in three), so arriving there confirms nothing.",
   [(CLAIM, "is *generic* — ~1 in 3 manifolds, 5 of 7 grammars")], arcs=["B993", "B996"])
-N("MC:UNIQ", "4 structure", "theorem", "OPEN", "The golden grammar's uniqueness among metallic grammars: stated as proved on the claim page; a counterexample at m = 4 is registered and the page is not yet corrected.",
-  [(CLAIM, "the golden is the *unique* metallic grammar"), (REG, "B997's golden uniqueness fails at m = 4")], rows=["P-318", "P-618"], arcs=["B997", "B1002"],
-  note="A known false statement in a front document (P-318, P-618). The corrected form on the register: only m = 1 has both the E₈ door and a 2T quotient.")
+N("MC:UNIQ", "4 structure", "theorem", "DERIVED", "The own-conductor door set of the metallic grammars is {1, 4}. The golden is unique among primitive grammars, and unique for having both the door and a quotient of π₁ onto 2T.",
+  [("frontier/B1859_the_door_set_is_one_and_four/FINDINGS.md", "**The door set is {1, 4}, for every m**"), (CLAIM, "CORRECTED 2026-11-10 (B1859)")],
+  rows=["P-318", "P-618"], arcs=["B1859", "B997", "B1019"],
+  note="Corrected at B1859: the claim page had said the golden is the unique metallic grammar with the door; B997 had bounded the ambient group, not the generated one.")
 N("MC:REACH", "4 structure", "gap", "OPEN", "The structural frame has never been computed on any state other than the root.",
   [(GEN, "Never computed on another word state.")])
 
@@ -370,7 +371,7 @@ for t in ("MC:ALG", "MC:Z6", "MC:Y", "MC:END", "MC:CUBIC"):
     E(t, "requires", "MC:HYP", "CONDITIONAL")
     E(t, "requires", "MC:PRICE", "CONDITIONAL")
 E("MC:CS0", "requires", "G:SE2", "DERIVED", "amphichirality puts the invariant in a two-element set; this object sits at zero")
-E("MC:UNIQ", "refuted-in-part-by", "MC:GENERIC", "", "the claim page's own control; the m = 4 counterexample is P-318's")
+E("MC:UNIQ", "bears-on", "MC:GENERIC", "DERIVED", "the door is a shadow of the grammar's letters; the E₆ entry is a quotient of π₁; reaching E₆ is generic")
 # the values
 E("V:SIX", "requires", "TAG:LAMBDA", "READING", "the frame's coupling is banked 'given Λ, the dictionary'")
 E("FA:F1", "requires", "TAG:LAMBDA", "CONDITIONAL", "banked 'given Λ, the dictionary'")
@@ -509,10 +510,10 @@ QUEUE = {
     "X:PARENT": dict(
         known=["The lanes' E₈ parent is supplied (E:L02).",
                "On main the container is adopted by a ruling as a composition requirement, not derived; one Lie type is among the structural theorem's five typed inputs (MC:HYP).",
-               "The structural frame has never been run off the root (MC:REACH), and the page's uniqueness claim has a registered counterexample (MC:UNIQ)."],
+               "The structural frame has never been run off the root (MC:REACH). The golden grammar is not the only one with the own-conductor door: the door set is {1, 4} (MC:UNIQ)."],
         closes="A derivation of the algebra and its embedding from the register, or its honest count as an input.",
         owner="unowned",
-        duty="correct the claim page's uniqueness statement (P-318, P-618); verify the agy lane's Theorem A, which bears on it (P-747)"),
+        duty="the rest of P-318's corrections, the level-one uniqueness statement next; the agy lane's Theorem A is verified in its metallic part (B1859)"),
     "X:FLAT": dict(
         known=["Both value frames stand on a flat bundle (S:S01), and most of the record's value negatives sit on flat premises.",
                "A flat frame reaches discrete data through the boundary and cannot reach continuous moduli (G:GAP6)."],

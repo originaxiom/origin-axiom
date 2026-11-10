@@ -1,0 +1,62 @@
+m =  1  N =    5  gcd(m, 4) = 1  shadow order 120  involutions 1  abelianisation 1  element orders {1: 1, 2: 1, 3: 20, 4: 30, 5: 24, 6: 20, 10: 24}   <-- 2I: the E8 door
+m =  2  N =    8  gcd(m, 4) = 2  shadow order  32  involutions 7  abelianisation 16  element orders {1: 1, 2: 7, 4: 24}
+m =  3  N =   13  gcd(m, 4) = 1  shadow order > 400
+m =  4  N =   20  gcd(m, 4) = 4  shadow order 120  involutions 1  abelianisation 1  element orders {1: 1, 2: 1, 3: 20, 4: 30, 5: 24, 6: 20, 10: 24}   <-- 2I: the E8 door
+m =  5  N =   29  gcd(m, 4) = 1  shadow order > 400
+m =  6  N =   40  gcd(m, 4) = 2  shadow order > 400
+m =  7  N =   53  gcd(m, 4) = 1  shadow order > 400
+m =  8  N =   68  gcd(m, 4) = 4  shadow order > 400
+m =  9  N =   85  gcd(m, 4) = 1  shadow order > 400
+m = 10  N =  104  gcd(m, 4) = 2  shadow order > 400
+m = 11  N =  125  gcd(m, 4) = 1  shadow order > 400
+m = 12  N =  148  gcd(m, 4) = 4  shadow order > 400
+m = 13  N =  173  gcd(m, 4) = 1  shadow order > 400
+m = 14  N =  200  gcd(m, 4) = 2  shadow order > 400
+m = 15  N =  229  gcd(m, 4) = 1  shadow order > 400
+m = 16  N =  260  gcd(m, 4) = 4  shadow order > 400
+m = 17  N =  293  gcd(m, 4) = 1  shadow order > 400
+m = 18  N =  328  gcd(m, 4) = 2  shadow order > 400
+m = 19  N =  365  gcd(m, 4) = 1  shadow order > 400
+m = 20  N =  404  gcd(m, 4) = 4  shadow order > 400
+m = 21  N =  445  gcd(m, 4) = 1  shadow order > 400
+m = 22  N =  488  gcd(m, 4) = 2  shadow order > 400
+m = 23  N =  533  gcd(m, 4) = 1  shadow order > 400
+m = 24  N =  580  gcd(m, 4) = 4  shadow order > 400
+m = 25  N =  629  gcd(m, 4) = 1  shadow order > 400
+m = 26  N =  680  gcd(m, 4) = 2  shadow order > 400
+m = 27  N =  733  gcd(m, 4) = 1  shadow order > 400
+m = 28  N =  788  gcd(m, 4) = 4  shadow order > 400
+m = 29  N =  845  gcd(m, 4) = 1  shadow order > 400
+m = 30  N =  904  gcd(m, 4) = 2  shadow order > 400
+m = 31  N =  965  gcd(m, 4) = 1  shadow order > 400
+m = 32  N = 1028  gcd(m, 4) = 4  shadow order > 400
+m = 33  N = 1093  gcd(m, 4) = 1  shadow order > 400
+m = 34  N = 1160  gcd(m, 4) = 2  shadow order > 400
+m = 35  N = 1229  gcd(m, 4) = 1  shadow order > 400
+m = 36  N = 1300  gcd(m, 4) = 4  shadow order > 400
+m = 37  N = 1373  gcd(m, 4) = 1  shadow order > 400
+m = 38  N = 1448  gcd(m, 4) = 2  shadow order > 400
+m = 39  N = 1525  gcd(m, 4) = 1  shadow order > 400
+m = 40  N = 1604  gcd(m, 4) = 4  shadow order > 400
+m = 41  N = 1685  gcd(m, 4) = 1  shadow order > 400
+m = 42  N = 1768  gcd(m, 4) = 2  shadow order > 400
+m = 43  N = 1853  gcd(m, 4) = 1  shadow order > 400
+m = 44  N = 1940  gcd(m, 4) = 4  shadow order > 400
+m = 45  N = 2029  gcd(m, 4) = 1  shadow order > 400
+m = 46  N = 2120  gcd(m, 4) = 2  shadow order > 400
+m = 47  N = 2213  gcd(m, 4) = 1  shadow order > 400
+m = 48  N = 2308  gcd(m, 4) = 4  shadow order > 400
+m = 49  N = 2405  gcd(m, 4) = 1  shadow order > 400
+m = 50  N = 2504  gcd(m, 4) = 2  shadow order > 400
+m = 51  N = 2605  gcd(m, 4) = 1  shadow order > 400
+m = 52  N = 2708  gcd(m, 4) = 4  shadow order > 400
+m = 53  N = 2813  gcd(m, 4) = 1  shadow order > 400
+m = 54  N = 2920  gcd(m, 4) = 2  shadow order > 400
+m = 55  N = 3029  gcd(m, 4) = 1  shadow order > 400
+m = 56  N = 3140  gcd(m, 4) = 4  shadow order > 400
+m = 57  N = 3253  gcd(m, 4) = 1  shadow order > 400
+m = 58  N = 3368  gcd(m, 4) = 2  shadow order > 400
+m = 59  N = 3485  gcd(m, 4) = 1  shadow order > 400
+m = 60  N = 3604  gcd(m, 4) = 4  shadow order > 400
+=> the letters mod 8, for m = 2 (mod 4), generate a group of order 32 with 7 involutions: not a subgroup of SU(2)
+=> the door set on m <= 60 is [1, 4]: the golden (N = 5) and m = 4 (N = 20, the letters trivial mod 4 and generating SL(2, 5) mod 5)

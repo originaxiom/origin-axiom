@@ -134,7 +134,7 @@ Review 47, window 9c0fd129 → 61499dfe.*
 > **B996: reaching E₆ is GENERIC** — five of seven metallic grammars surject onto 2T, two-thirds of
 > the family — and the arc states the consequence in its own words: this **"REMOVES THE ENDPOINT'S
 > POWER TO CONFIRM THE BEGINNING."** **B997/B1002: the golden is the UNIQUE metallic grammar whose
-> own-conductor shadow is a McKay group.** Put together:
+> own-conductor shadow is a McKay group.** **[CORRECTED 2026-11-10 (B1859): the proof bounds all of SL(2, ℤ/(m² + 4)); the group the grammar's own letters generate is the same 2I at m = 4, where the letters are trivial mod 4 and generate SL(2, 5) mod 5. The door set is {1, 4}, for every m. The golden is unique among primitive grammars (m odd), and unique for having both the own-conductor door and a quotient of π₁ onto 2T; R⁴L⁴ has the door and no such quotient.]** Put together:
 >
 > > ### Reaching E₆ is generic. Being the golden is unique. The object's specialness lives in its GRAMMAR, not its DESTINATION.
 >
@@ -149,7 +149,7 @@ Review 47, window 9c0fd129 → 61499dfe.*
 > **UNCOMPUTED, not zero.**
 >
 > **And B997 cuts the other way, which is why the overreach matters:** at each word's *own* conductor
-> the golden **is** unique, so the family members are **demonstrably not equivalent** — evidence
+> the golden **is** unique **[B1859, 2026-11-10: unique among primitive grammars; the door set is {1, 4}]**, so the family members are **demonstrably not equivalent** — evidence
 > against assuming their cascades coincide. *(cc3's independent synthesis reads B996 the same way:
 > the specificity **descends three populations and survives at the bottom as a proof**.)*
 >

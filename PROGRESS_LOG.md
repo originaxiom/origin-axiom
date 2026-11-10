@@ -18780,3 +18780,18 @@ which reached it from the opposite direction.
 The map also names the next computation worth doing, before doing it: whether the three-fold structure the other seats
 count is the same three that main's own mathematics produces. Another seat has been asked to check the map. 0 of 19.
 
+## 2026-11-10 — S306n (continued): a front-page claim corrected
+
+The map flagged one claim on the programme's front pages as known to be wrong and never corrected. The claim said the
+object's own grammar was the only one of its family with a certain special property. An earlier sweep had found a
+second family member with the same property, and the finding had sat in a draft for eighteen days.
+
+Main proved the exact statement for the whole infinite family: two members have the property, not one. It then
+computed what is still special about the object's own grammar. It is the only one of the two that also has a second
+property the construction needs. So the page's headline was too strong, and a weaker, exact statement replaces it.
+
+The two original results keep their standing, because their computations were right; only a step of interpretation was
+not. The correction was written, with the old wording kept beside it, on every current page that carried the claim,
+including the foundation document. Another seat had stated the same correction independently, and its statement is now
+verified. 0 of 19.
+

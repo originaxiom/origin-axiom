@@ -74,3 +74,8 @@ an inferred definition, and it now carries a mechanism from a law the corpus alr
 ---
 
 **Verdict: B997's owed check DISCHARGED and its result strengthened.** Phase 1 item 1 complete.
+
+## Dated note, 2026-11-10 (B1859; P-318)
+
+The conductor identification discharged here stands. The uniqueness it was discharged for is narrower than stated:
+the door set is {1, 4}, and the golden is unique among primitive grammars (B1859).

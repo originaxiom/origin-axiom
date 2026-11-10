@@ -138,7 +138,8 @@ chirality, which B713/B760 prove the object does not supply); **the observer's
 machinery is the FIELD's** (B1040 — every template survives object-deletion); **the
 trit descends from the field's units** (B1042 — ω's shadow through McKay). What the
 GRAMMAR uniquely holds: the door (B1019 — siblings have none) and the own-conductor
-McKay shadow (B997) — uniqueness **within the metallic family**, m = 1 among m. The
+McKay shadow (B997) — uniqueness **within the metallic family**, m = 1 among m.
+**[CORRECTED 2026-11-10 (B1859): the proof bounds all of SL(2, ℤ/(m² + 4)); the group the grammar's own letters generate is the same 2I at m = 4, where the letters are trivial mod 4 and generate SL(2, 5) mod 5. The door set is {1, 4}, for every m. The golden is unique among primitive grammars (m odd), and unique for having both the own-conductor door and a quotient of π₁ onto 2T; R⁴L⁴ has the door and no such quotient.]** The
 defensible claim is therefore: **a theorem about a CLASS, entered by a uniquely-doored
 GRAMMAR, with the object as the class's minimal representative** — and this document
 says so throughout.

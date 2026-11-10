@@ -27,6 +27,11 @@ wether there are bugs, etc." (P-748).
 - **One finding the map makes by putting the lanes side by side.** Their open items are not many things. They are ten,
   each under several names (§ 3). And every branch of the programme meets the same one, the hand (§ 4).
 
+> **Dated note, 2026-11-10, later the same day.** The counts in § 1 are the map's at its landing. The generated files
+> hold the live ones. Since then B1859 has corrected the golden grammar's uniqueness claim on every living page, so
+> that node is now proved in its corrected form: 13 proved and 35 open on the spine, and no front-page claim in this
+> map is known false and uncorrected.
+
 ## 2. What was built
 
 | file | what it is |

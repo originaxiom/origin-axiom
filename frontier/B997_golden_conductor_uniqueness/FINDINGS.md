@@ -89,3 +89,11 @@ would survive an adversarial base-rate attack — because there is no base rate 
 **Verdict: PROVED, at Tier 1, at the E₈ end, conditional on the conductor identification.** The next
 step is limit 2: pin down whether m²+4 is *the* conductor, from a definition rather than from two
 matching values.
+
+## Dated note, 2026-11-10 (B1859; P-318)
+
+The uniqueness clause is false at m = 4. This arc's bound is on all of SL(2, ℤ/(m² + 4)); the shadow is the group the
+grammar's letters generate, and at m = 4 that group is 2I. The door set is {1, 4}. The golden is unique among primitive
+grammars and for the door together with a 2T quotient of π₁. See
+`ADDENDUM_2026-11-10_the_door_set_is_one_and_four.md` and `frontier/B1859_the_door_set_is_one_and_four/`. The verdict
+stands: the computation is right, one identification was not.

@@ -14,7 +14,7 @@
 | 5 | X:SELECT | 2 | 6 | 13 | POSTULATED 1, CHOSEN 6, UNSTATED 1, OPEN 4, LANE-INPUT 1 |
 | 6 | X:TAU | 2 | 6 | 11 | CHOSEN 5, FITTED 1, NEGATIVE 2, LANE-PROPOSED 1, LANE-INPUT 1, DUTY 1 |
 | 7 | X:SCALE | 2 | 6 | 10 | DERIVED 2, CHOSEN 4, UNSTATED 1, NEGATIVE 1, OPEN 1, LANE-INPUT 1 |
-| 8 | X:PARENT | 2 | 0 | 4 | POSTULATED 1, OPEN 2, LANE-INPUT 1 |
+| 8 | X:PARENT | 2 | 0 | 4 | DERIVED 1, POSTULATED 1, OPEN 1, LANE-INPUT 1 |
 | 9 | X:FLAT | 1 | 0 | 3 | ANSATZ 1, OPEN 2 |
 | 10 | X:GRAVITY | 1 | 0 | 2 | DERIVED 1, DUTY 1 |
 
@@ -115,10 +115,10 @@
 - **What the record knows:**
   - The lanes' E₈ parent is supplied (E:L02).
   - On main the container is adopted by a ruling as a composition requirement, not derived; one Lie type is among the structural theorem's five typed inputs (MC:HYP).
-  - The structural frame has never been run off the root (MC:REACH), and the page's uniqueness claim has a registered counterexample (MC:UNIQ).
+  - The structural frame has never been run off the root (MC:REACH). The golden grammar is not the only one with the own-conductor door: the door set is {1, 4} (MC:UNIQ).
 - **What would close it:** A derivation of the algebra and its embedding from the register, or its honest count as an input.
 - **Who holds it now:** unowned.
-- **Owed on main:** correct the claim page's uniqueness statement (P-318, P-618); verify the agy lane's Theorem A, which bears on it (P-747).
+- **Owed on main:** the rest of P-318's corrections, the level-one uniqueness statement next; the agy lane's Theorem A is verified in its metallic part (B1859).
 - **Blocks:** D:02 (The physical dictionary), D:05 (The gauge and Higgs sector).
 - **Under these names:** E:L02, MC:HYP, MC:REACH, MC:UNIQ.
 

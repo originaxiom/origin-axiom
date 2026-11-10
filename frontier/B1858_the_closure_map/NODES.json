@@ -1148,16 +1148,16 @@
   "id": "MC:UNIQ",
   "layer": "4 structure",
   "kind": "theorem",
-  "grade": "OPEN",
-  "text": "The golden grammar's uniqueness among metallic grammars: stated as proved on the claim page; a counterexample at m = 4 is registered and the page is not yet corrected.",
+  "grade": "DERIVED",
+  "text": "The own-conductor door set of the metallic grammars is {1, 4}. The golden is unique among primitive grammars, and unique for having both the door and a quotient of π₁ onto 2T.",
   "pins": [
    [
-    "docs/THE_CLAIM.md",
-    "the golden is the *unique* metallic grammar"
+    "frontier/B1859_the_door_set_is_one_and_four/FINDINGS.md",
+    "**The door set is {1, 4}, for every m**"
    ],
    [
-    "docs/POINT_REGISTER.md",
-    "B997's golden uniqueness fails at m = 4"
+    "docs/THE_CLAIM.md",
+    "CORRECTED 2026-11-10 (B1859)"
    ]
   ],
   "rows": [
@@ -1165,10 +1165,11 @@
    "P-618"
   ],
   "arcs": [
+   "B1859",
    "B997",
-   "B1002"
+   "B1019"
   ],
-  "note": "A known false statement in a front document (P-318, P-618). The corrected form on the register: only m = 1 has both the E₈ door and a 2T quotient.",
+  "note": "Corrected at B1859: the claim page had said the golden is the unique metallic grammar with the door; B997 had bounded the ambient group, not the generated one.",
   "rows_live": {
    "P-318": "QUEUED",
    "P-618": "QUEUED"
@@ -3985,7 +3986,8 @@
   "member_grades": {
    "LANE-INPUT": 1,
    "POSTULATED": 1,
-   "OPEN": 2
+   "OPEN": 1,
+   "DERIVED": 1
   }
  },
  {

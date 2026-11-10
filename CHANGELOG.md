@@ -1,5 +1,18 @@
 # Changelog
 
+## S306n (continued) THE DOOR SET IS {1, 4} (B1859; a front-page claim corrected; P-318, P-618; GENESIS v1.63) (2026-11-10)
+
+- **The claim that was on the front pages:** "the golden is the unique metallic grammar whose own-conductor shadow is a McKay group", and "the siblings have no door at all".
+- **It is false at m = 4.** The group the grammar R⁴L⁴'s own letters generate modulo 20 is SL(2, 5), the binary icosahedral group: the same E₈ door as the golden.
+- **The door set is {1, 4}, proved for every m** in three branches (m odd; m = 4j; m = 2j with j odd) and checked on m ≤ 60.
+- **What is unique to the golden, in two true forms:** it is the only primitive grammar with the door; and it is the only metallic grammar with both the door and a quotient of π₁ onto 2T. Surjections onto SL(2, 3) for m = 1..6 are 48, 0, 240, 0, 48, 384, by two methods that agree.
+- **Why B997 missed it:** its proof bounds all of SL(2, ℤ/(m² + 4)), not the subgroup the letters generate.
+- **B997 and B1019 keep their verdicts.** Their computations stand; one identification and one extension did not.
+- **Carried to every living page that stated the old form:** THE_CLAIM § 1, GENESIS (v1.63), LAW_MAP's three rows, THEOREM_REGISTRY, KIND_TABLE, THE_CHAIN_STATUS, THE_FRAMEWORK, the four copies of the standing block, the novelty ledger, the prior-art dossier. Dated history is not rewritten.
+- **Found by** the sweep of 2026-10-23 and left unbanked for eighteen days; stated also by the agy lane's Theorem A, whose metallic part is thereby verified on main (P-747).
+- **The map** (B1858) carries the corrected node.
+- 0 of 19.
+
 ## S306n (continued) THE CLOSURE MAP (B1858; the owner's directive, P-748; the physical lane's work order, its first return) (2026-11-10)
 
 - **What it is.** One graph of the programme's dependency spine: 259 nodes and 263 edges. Every node is the record's own statement, pinned by a quote that the builder checks against its source (241 pins on main, 39 on the lanes' branches). Documentary: no science run, no held-out value read.

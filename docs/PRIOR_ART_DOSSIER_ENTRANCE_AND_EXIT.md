@@ -31,7 +31,7 @@ search. (ii) $N \in \{3,5\}$ give $2T$ and $2I$; **$N = 4$ gives order 48 = $|2O
 (iii) $\Lambda(m) = 3$ has no integer solution; $\Lambda(m) = 4$ forces the degenerate $m = 0$;
 $\Lambda(m) = 5$ gives $m = 1$.
 
-**Banked:** B997 (+ 2026-08-31 addendum), B1002 (the conductor identification discharged).
+**Banked:** B997 (+ 2026-08-31 addendum), B1002 (the conductor identification discharged). **Corrected 2026-11-10 (B1859):** entry 1 is a statement about the ambient group and stands as that; as a statement about the grammar's shadow it holds for primitive grammars only.
 
 **The prior-art question, stated so a specialist can answer it in one reading:**
 > *Is it recorded anywhere that, among the words $R^mL^m$, the golden one is singled out by the
@@ -52,6 +52,10 @@ exact enumeration: $m=2$ (silver) gives a group of **order 32 with seven involut
 **Why it is not entry 1 restated.** Entry 1 is about the ambient $\mathrm{SL}(2,\Z/N)$; entry 2 is
 about the **subgroup the word actually generates**. A sibling could in principle have failed the
 first and passed the second. It does not.
+
+**Corrected 2026-11-10 (B1859):** one sibling does exactly that. At m = 4 the ambient group SL(2, ℤ/20) has no
+McKay order, and the subgroup the word generates is SL(2, 5) = 2I. The statement above holds for m = 2 and 3, as B1019
+computed. The door set is {1, 4}; what m = 4 lacks is a quotient of π₁ onto 2T.
 
 **Banked:** B1019 (sealed `ce6b0329` before compute; declared lean DIVERGES; outcome DIVERGES).
 

@@ -1,0 +1,30 @@
+{
+ "id": "B1859",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B997",
+  "B1002",
+  "B1019",
+  "B993",
+  "B996",
+  "B266"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the agy lane's Theorem A (its relay of 2026-11-07, harvest row 1621): the same door set and the same three branches, read through the mask; its code not run"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the metallic family of grammars R^m L^m and the group their own letters generate modulo the shadow modulus m^2 + 4; the quotients of the bundles' groups onto SL(2, 3)",
+  "object": "every m >= 1 for the door set (a proof in three branches, checked on m <= 60); m = 1..6 for the 2T quotients (two methods)",
+  "reach": "class",
+  "hypotheses": "data-free; exact integer arithmetic; a door is an own-conductor shadow that is a finite subgroup of SU(2); a perfect group of order 120 is SL(2, 5); the 2T counts are computed, not proved for all m"
+ },
+ "claim_one_line": "THE DOOR SET IS {1, 4} (a correction of B997's uniqueness clause, keeping its computation; P-318, P-618): the group the grammar R^m L^m's own letters generate modulo m^2 + 4 is a McKay group exactly at m = 1 and m = 4 -- at m = 4 the letters are trivial mod 4 and generate SL(2, 5) = 2I mod 5 -- proved for every m in three branches (m odd: all of SL(2, Z/N), McKay only at N = 5; m = 4j: SL(2, Z/(4j^2 + 1)), McKay only at j = 1; m = 2j with j odd: the group contains an order-32 subgroup with seven involutions) and checked on m <= 60; B997 bounded all of SL(2, Z/N), not the generated subgroup; the golden is unique among primitive grammars, and unique for having both the door and a quotient of pi_1 onto 2T (surjections onto SL(2, 3) for m = 1..6: 48, 0, 240, 0, 48, 384, two methods agreeing; the root has none onto SL(2, 5), so the door is not a quotient of pi_1); 'the siblings have no door' is false at m = 4; B997 and B1019 keep their verdicts; carried to every living page that stated the old form, GENESIS v1.63 among them. 0 of 19.",
+ "weave_or_thread": "neither (a family of grammars, compared)"
+}

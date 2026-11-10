@@ -41,9 +41,10 @@ owner's directive: state the theorem we have, not the theory we lack.*
 **The controls (stated proudly — they are what make the rest credible).** Reaching the E₆ waypoint
 is *generic* — ~1 in 3 manifolds, 5 of 7 grammars (B993, B996) — so arrival there confirms
 nothing. The uniqueness lives at the **beginning**: the golden is the *unique* metallic grammar
-whose own-conductor shadow is a McKay group, proved over the infinite family (B997, B1002). The
+whose own-conductor shadow is a McKay group, proved over the infinite family (B997, B1002).
+**[CORRECTED 2026-11-10 (B1859): the proof bounds all of SL(2, ℤ/(m² + 4)); the group the grammar's own letters generate is the same 2I at m = 4, where the letters are trivial mod 4 and generate SL(2, 5) mod 5. The door set is {1, 4}, for every m. The golden is unique among primitive grammars (m odd), and unique for having both the own-conductor door and a quotient of π₁ onto 2T; R⁴L⁴ has the door and no such quotient.]** The
 endpoint's discriminating power beyond E₆ is **uncomputed, not assumed** — and now partially
-computed: the siblings have **no door at all** (B1019). Within the registerable universe the
+computed: the siblings have **no door at all** (B1019) **[B1859, 2026-11-10: computed for m = 2, 3; false at m = 4, whose own letters generate the same 2I]**. Within the registerable universe the
 reachable endpoint set has size **one** (B994). **The freedom ledger (B1028, sealed): the chain's
 retroactive designer freedom prices to 0.000 bits across the priced links (one row — the family declaration — UNPRICED and flagged, per the adversarial pass; B1028's addendum) — every priced link banked-forced, its forcing arc's
 discriminating phrase machine-checked — against a conservative output floor of 4.585 bits in

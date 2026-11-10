@@ -59,3 +59,9 @@ invoked since no entry passed C1.
 
 **Verdict: PROVED — DIVERGES. The confirming power of the endpoint is restored at the one door
 that exists, and the door belongs to the golden.**
+
+## Dated note, 2026-11-10 (B1859; P-318)
+
+This arc computed m = 2 and m = 3, as sealed, and both results stand. "The siblings have no door" does not extend to
+m = 4: there the grammar's own letters generate SL(2, 5) = 2I modulo 20, the same door as the golden (B1859). What
+m = 4 lacks is a quotient of π₁ onto 2T. The verdict stands at its sealed scope.
