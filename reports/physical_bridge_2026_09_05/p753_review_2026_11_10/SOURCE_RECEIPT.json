@@ -1,0 +1,282 @@
+{
+  "schema": "oa.p753_prebank_source_review.v1",
+  "date": "2026-11-10",
+  "reviewed_agy_commit": "da5c71251194ad9866264338d4bd1f99f082ba4c",
+  "main_comparison_commit": "30dd1fea7086ce5faad1a4c5ac9829baab27b4dd",
+  "physical_base_commit": "521e6f241a88761c18d97db26eba42c9529c0f08",
+  "decision": "REVISE_BEFORE_BANKING_WP_2_2_AND_WP_3_2_AS_COMPLETE",
+  "review_scope": "personal full reading of new producer, referee, tests, author relay and receipts; dependency and main work-package passages; exact hand counterchecks",
+  "authorship_caveat": "Physical reviewer authored some upstream dependencies and new hand repairs. New proofs require a further nonauthoring review for adoption.",
+  "source_population": [
+    {
+      "path": "relays/AGY_TO_CC_2026-11-10_P753_REGISTER_TO_FIELD_JOIN.md",
+      "sha256": "04749f49c4a5df68cca5acaf2c3e408f604ba0539c04580e4c2a1e8083a4faa2",
+      "lines": 115
+    },
+    {
+      "path": "src/origin_axiom/p753_register_field_join.py",
+      "sha256": "2a3029a0ee901632fb55e6bc8b985d22e0540243fe4567860ae67e0a8d44a958",
+      "lines": 1127
+    },
+    {
+      "path": "scripts/referee_p753_register_field_join.py",
+      "sha256": "7b23676aec9e36d94ec78c766b795e092682a9edb343e70cf875e113d8406cc9",
+      "lines": 736
+    },
+    {
+      "path": "tests/test_p753_register_field_join.py",
+      "sha256": "39daf7fbda8815fd0b5606c3f412cd050982e2609dba6ab11376b033ae11747a",
+      "lines": 203
+    },
+    {
+      "path": "relays/p753_verification/p753_referee_receipt.json",
+      "sha256": "1a83cf1fde651b96f02bc6d47c69b2c563b86b69188de7af98d3ff2ef0ae06e5",
+      "lines": 60
+    },
+    {
+      "path": "relays/p753_verification/p753_referee_run.txt",
+      "sha256": "8a5b5a5bb7c934c677c3d574020e69eea79d759b6b0d1e212804934c5374e0b6",
+      "lines": 15
+    }
+  ],
+  "source_pin_inventory": [
+    {
+      "role": "main_programme",
+      "commit": "30dd1fea7086ce5faad1a4c5ac9829baab27b4dd",
+      "path": "frontier/B1861_the_closure_programme/PROGRAMME.md",
+      "sha256": "099fa808501e1170e4e15c84d476bd2cbaf09a26b8d7dd8eb27a96a535fabee4"
+    },
+    {
+      "role": "main_register",
+      "commit": "30dd1fea7086ce5faad1a4c5ac9829baab27b4dd",
+      "path": "docs/POINT_REGISTER.md",
+      "sha256": "cbb7c435b80864f98a609130a8c37fd03672f21776955639974481a28708f0a1"
+    },
+    {
+      "role": "main_first_return_request",
+      "commit": "30dd1fea7086ce5faad1a4c5ac9829baab27b4dd",
+      "path": "docs/handoffs/CC_TO_PHYSICAL_2026-11-10_THE_FIRST_RETURN_FOR_YOUR_REVIEW.md",
+      "sha256": "08cb765675d6a6cd244bf18541a3dc3e315c8933a986cda087a287be35b15a49"
+    },
+    {
+      "role": "main_programme_request",
+      "commit": "30dd1fea7086ce5faad1a4c5ac9829baab27b4dd",
+      "path": "docs/handoffs/CC_TO_PHYSICAL_2026-11-10_THE_CLOSURE_PROGRAMME_FOR_YOUR_REVIEW.md",
+      "sha256": "667457afe8d821a9489f94672d307794b47bc140940664af3b7eb267ba55100a"
+    },
+    {
+      "role": "banking_protocol",
+      "commit": "30dd1fea7086ce5faad1a4c5ac9829baab27b4dd",
+      "path": "docs/BANKING_PROTOCOL.md",
+      "sha256": "2d1fe2ac9c7a496e71dcae9522e77a149b9dbcb371a4514e5beff9be89b33749"
+    },
+    {
+      "role": "existing_coefficient_roster",
+      "commit": "da5c71251194ad9866264338d4bd1f99f082ba4c",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/COEFFICIENT_ROSTER.md",
+      "sha256": "a98ff428d827d11adf8400e9e03e49b7360f3ccae03ed6f957e9780eec4ed33f"
+    },
+    {
+      "role": "existing_input_ledger",
+      "commit": "da5c71251194ad9866264338d4bd1f99f082ba4c",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/INPUT_LEDGER.md",
+      "sha256": "98bf93b4be89297901e8f9718f88ea526105b717310df63b75e21deb282713e5"
+    },
+    {
+      "role": "existing_joined_kernel",
+      "commit": "da5c71251194ad9866264338d4bd1f99f082ba4c",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/JOINED_KERNEL_AND_PHYSICAL_MAP.md",
+      "sha256": "f96f5247f00151c829daefa2c66a31f05a53a50ed499b02bac4ecb6ddb960691"
+    },
+    {
+      "role": "physical_half_root_source",
+      "commit": "521e6f241a88761c18d97db26eba42c9529c0f08",
+      "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COUPLED_HALF_ROOT_KERNEL_AND_CORE_LIFT_SENSITIVITY.md",
+      "sha256": "789adf7544bf5c679305aa8b9ba7525b6375155b026c839e01c34c281be23875"
+    },
+    {
+      "role": "prior_phase_classification_review",
+      "commit": "521e6f241a88761c18d97db26eba42c9529c0f08",
+      "path": "reports/physical_bridge_2026_09_05/agy_targeted_campaign_2026_11_08/REVIEW_AGY_01C_B299_2026_11_09.md",
+      "sha256": "90152eb9ba873a19fca864766ee69dcc0e8f67a97fb99aee970759d7fae88fb3"
+    },
+    {
+      "role": "existing_w10_code",
+      "commit": "30dd1fea7086ce5faad1a4c5ac9829baab27b4dd",
+      "path": "frontier/B1600_the_weave_verified/verification/w10_check.py",
+      "sha256": "0bb18006577aa29cf65ec637ddc3dc02b33301c0373d4f6adb87197b677139be"
+    },
+    {
+      "role": "existing_triplet_findings",
+      "commit": "30dd1fea7086ce5faad1a4c5ac9829baab27b4dd",
+      "path": "frontier/B1611_is_cp_violation_forced_on_the_weave/FINDINGS.md",
+      "sha256": "cf812e29bc490956423626cf402e10f9de373f6dc07338df4c1e0a1c9d6a0130"
+    }
+  ],
+  "static_source_checks": {
+    "parsed_without_import": [
+      "producer",
+      "referee",
+      "tests"
+    ],
+    "referee_imports": [
+      "__future__",
+      "collections",
+      "itertools",
+      "json",
+      "math",
+      "pathlib",
+      "sys",
+      "typing",
+      "mpmath",
+      "numpy"
+    ],
+    "producer_imports_in_referee": false,
+    "zero_imports_does_not_establish_nonauthoring_review": true
+  },
+  "claimed_run_receipt": {
+    "path": "relays/p753_verification/p753_referee_receipt.json",
+    "sha256": "1a83cf1fde651b96f02bc6d47c69b2c563b86b69188de7af98d3ff2ef0ae06e5",
+    "status": "AUTHOR_REPORTED_HISTORICAL_NUMERICAL_OUTPUT; NOT_RERUN_BY_THIS_REVIEW",
+    "contains_source_hashes_or_execution_admission_binding": false
+  },
+  "producer_referee_outputs_first_commit": {
+    "commit": "ff8244a584ff48c96266ca3ac3e31f9a56d1a3f1",
+    "paths": [
+      "relays/p753_verification/p753_referee_receipt.json",
+      "relays/p753_verification/p753_referee_run.txt",
+      "scripts/referee_p753_register_field_join.py",
+      "src/origin_axiom/p753_register_field_join.py",
+      "tests/test_p753_register_field_join.py"
+    ],
+    "qualification": "Common first committed package does not itself establish who independently reviewed or how an earlier untracked run was authorized."
+  },
+  "execution_evidence_search": {
+    "commit": "da5c71251194ad9866264338d4bd1f99f082ba4c",
+    "query": "p753|p-753|p_753 case insensitive",
+    "pathspecs": [
+      "*DESIGN*",
+      "*ADMISSION*",
+      "*admission*",
+      "*PREREG*",
+      "*SPEC*",
+      "*REVIEW*",
+      "*review*",
+      "*ACCEPT*",
+      "*accept*"
+    ],
+    "exit_code": 1,
+    "matching_lines": [],
+    "scope": "bounded named governance path search. P-753 outcome prediction on main is separately retained; absence in this search is not a universal absence claim."
+  },
+  "findings": [
+    {
+      "id": "F1",
+      "severity": "HIGH",
+      "claim": "induced active one-form stabilizer character",
+      "location": "producer989-1001; relaysection4",
+      "countercheck": "on b=(0,1,0), AL^2 b=-b and AL AR^-1 AL b=-b, contrary to printed S_theta=+1",
+      "repair": "negate both generators for the stated character, then derive actual physical restriction and induction"
+    },
+    {
+      "id": "F2",
+      "severity": "BLOCKING_PHYSICAL_WP_3_2",
+      "claim": "actual physical zero-mode and induced action",
+      "location": "producer869-955 and989-1012; relaysection5",
+      "gap": "typed full-domain Hodge/spin/metric transport and actual stabilizer restrictions are not computed by block templates or local contours"
+    },
+    {
+      "id": "F3",
+      "severity": "HIGH",
+      "claim": "irreducibility and complete splitting tests",
+      "location": "producer1019-1029",
+      "countercheck": "swap plus identity has two invariant lines while the swap test passes",
+      "repair": "actual second generator, equivariant maps and joint invariant-subspace calculation"
+    },
+    {
+      "id": "F4",
+      "severity": "BLOCKING_FULL_INPUT_REDUCTION_CLAIM",
+      "claim": "fixed-point covariance selects supplied data",
+      "location": "relaysections2b and5",
+      "gap": "other orbits, E_theta-fixed nontrivial torsion and coherent outer phase alternatives require state/equivalence/selection treatment"
+    },
+    {
+      "id": "F5",
+      "severity": "MEDIUM_BINDING_CORRECTION",
+      "claim": "full global D5+A3 subgroup quotient",
+      "location": "relayliteratureparagraph",
+      "countercheck": "full E8 subgroup kernel Z4; the tested diagonal(-1,-1) is its square"
+    },
+    {
+      "id": "F6",
+      "severity": "BLOCKING_FULL_COMPUTATIONAL_CERTIFICATION",
+      "claim": "all-claim independent exact verification",
+      "location": "refereesuite and receipt; tests124-165",
+      "gap": "physical induced actions and domains omitted; shared first-commit implementation/output; no located exact source/admission binding; rounded group counts need exact certificates"
+    }
+  ],
+  "preserved_positive_scope": [
+    "explicit cocycle basis gives conjugate triplets and exact monomial matrices",
+    "exact order96, center4, projectiveorder24; untwisted squareorder48",
+    "exact U proves chi3 twisted conjugate Weil symmetric-square relation",
+    "central-sheet obstruction excludes any honest two-dimensional Mp2Z square",
+    "E8 order-two sign identity and singlet/triplet obstruction",
+    "conditional meromorphic invariant-line and existing pure-slot decomposition",
+    "candidate balanced-carrier index3 orbit and supplied-generator compensation work at its declared algebraic scope"
+  ],
+  "recoverable_join": {
+    "displayed_one_form_module": "T=chi21 tensor A",
+    "character_repaired_one_form_module": "T=chi9 tensor A_prime",
+    "remaining_duty": "derive actual physical scalar/spin line with norms and complete-domain transport; arbitrary twist would remain supplied"
+  },
+  "input_reduction_assessment": {
+    "exact_redundancy": "paired h4/core sign relabelling removes one duplicated binary label if the chosen parameterization counted it twice",
+    "foundational_physical_selection_newly_earned": false,
+    "double_count_guard": "reconcile prior coherent-phase and outer-conjugacy results before crediting a new reduction"
+  },
+  "scientific_import_or_execution": false,
+  "test_collection": false,
+  "cas_or_numerical_controls": false,
+  "metadata_scripts_only": true,
+  "subagents_started": false,
+  "main_merge_or_banking_performed": false,
+  "formal_source_complete_acceptance": null,
+  "execution_admission": null,
+  "AGY_campaign_dispatch_changed": false,
+  "AGY_03b_r5_at_5242c938_reviewed_here": false,
+  "primary_reference_passages": [
+    {
+      "url": "https://dlmf.nist.gov/20.7.viii",
+      "scope": "theta lattice transformations used in hand deductions"
+    },
+    {
+      "url": "https://dlmf.nist.gov/23.18.E5",
+      "scope": "eta automorphy law used for weight and twist interpretation"
+    },
+    {
+      "url": "https://archive.intlpress.com/site/pub/files/_fulltext/journals/atmp/2010/0014/0002/ATMP-2010-0014-0002-a001.pdf",
+      "scope": "Distler-Sharpe Appendix A pp387-388 only; actual global Spin10 timesSU4 quotient"
+    },
+    {
+      "url": "https://www.numdam.org/item/10.24033/asens.1205.pdf",
+      "scope": "Atiyah introduction retrieved; later passage fetches failed. No claim to have read full paper or relied on unavailable passages."
+    }
+  ],
+  "review_artifacts": [
+    {
+      "path": "reports/physical_bridge_2026_09_05/p753_review_2026_11_10/REVIEW.md",
+      "sha256": "647013885061f751a614d4159db821f3ed3174d9ae255c180fa858e91c9db166"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/p753_review_2026_11_10/HAND_COUNTERCHECKS.md",
+      "sha256": "d2d79f54414fbbbcd0c67deb97309c0228a9d1184b9b606061057d954c822cba"
+    },
+    {
+      "path": "reports/physical_bridge_2026_09_05/relays/PHYSICAL_TO_CC_AGY_2026-11-10_DA5C71251_PREBANK_REVIEW.md",
+      "sha256": "7b8ce8edc845ac629343ba6c0b2c418ad3300606b3096027d73eac9ae941fc19"
+    }
+  ],
+  "inherited_index_sha256_before": "cedf48fc6151143237d8128ac6782ad69c4a3663ccf3bc3f628e8db4063b3cf6",
+  "inherited_paths_policy": "preserve49 unrelated staged paths, inherited unstaged progress-log edits and four untracked historical relays",
+  "preparation_corrections": "Unquoted shell glob in a metadata literature-source grep was rejected by zsh before git grep ran. Bounded follow-up source reads supplied the existing W10 definition. No scientific execution resulted."
+}
