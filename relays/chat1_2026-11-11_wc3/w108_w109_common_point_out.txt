@@ -1,0 +1,93 @@
+2I built from the even permutations of (0, 1, 1/phi, phi)
+W108 A0  2I: {'order': 120, 'centre': [-1.0, 1.0], 'subgroups': 76, 'maximal': 21, 'maximal_orders': {12: 10, 20: 6, 24: 5}, 'aut': 120, 'inn': 60}
+W108 A0  Q8: order 8, subgroups 6, maximal 3, |Aut| 24
+W108 H   2I, n = 2: enumeration 9120, Hall 9120, equal
+W108 H   2I, n = 3: enumeration 1601280, Hall 1601280, equal
+W108 H   Q8, n = 2: enumeration 24, Hall 24, equal
+W108 H   Q8, n = 3: enumeration 336, Hall 336, equal
+W108 K2  traces of a -> i, b -> j: [0.0, 0.0, 0.0]
+W108 Q8 at n = 2:
+     epi: 24
+     classes: 1
+     aut_acts_freely: True
+     classes fixed by full: 1
+     tuples whose character is fixed by full: 24
+     fixed characters by full: [(np.float64(0.0), np.float64(0.0), np.float64(0.0))]
+     orbits under full: [1]
+     classes fixed by transvections: 1
+     tuples whose character is fixed by transvections: 24
+     fixed characters by transvections: [(np.float64(0.0), np.float64(0.0), np.float64(0.0))]
+     orbits under transvections: [1]
+     classes fixed by R_ij: 1
+     tuples whose character is fixed by R_ij: 24
+     fixed characters by R_ij: [(np.float64(0.0), np.float64(0.0), np.float64(0.0))]
+     orbits under R_ij: [1]
+     classes fixed by <L, R>: 1
+     tuples whose character is fixed by <L, R>: 24
+     fixed characters by <L, R>: [(np.float64(0.0), np.float64(0.0), np.float64(0.0))]
+     orbits under <L, R>: [1]
+W108 Q8 at n = 3:
+     epi: 336
+     classes: 14
+     aut_acts_freely: True
+     classes fixed by full: 0
+     tuples whose character is fixed by full: 0
+     orbits under full: [14]
+     classes fixed by transvections: 0
+     tuples whose character is fixed by transvections: 0
+     orbits under transvections: [14]
+     classes fixed by R_ij: 0
+     tuples whose character is fixed by R_ij: 0
+     orbits under R_ij: [14]
+W108 2I at n = 2:
+     epi: 9120
+     classes: 76
+     aut_acts_freely: True
+     classes fixed by full: 0
+     tuples whose character is fixed by full: 0
+     orbits under full: [40, 36]
+     classes fixed by transvections: 0
+     tuples whose character is fixed by transvections: 0
+     orbits under transvections: [40, 36]
+     classes fixed by R_ij: 0
+     tuples whose character is fixed by R_ij: 0
+     orbits under R_ij: [40, 36]
+     classes fixed by <L, R>: 0
+     tuples whose character is fixed by <L, R>: 0
+     orbits under <L, R>: [40, 36]
+W108 2I at n = 3:
+     epi: 1601280
+     classes: 13344
+     aut_acts_freely: True
+     classes fixed by full: 0
+     tuples whose character is fixed by full: 0
+     orbits under full: [13344]
+     classes fixed by transvections: 0
+     tuples whose character is fixed by transvections: 0
+     orbits under transvections: [13344]
+     classes fixed by R_ij: 0
+     tuples whose character is fixed by R_ij: 0
+     orbits under R_ij: [13344]
+W109 (ii) characters fixed by R and L at n = 2: [{x: 0, y: 0, z: 0}, {x: 2, y: 2, z: 2}]
+W109 (iii) group Z/2 built with 2 elements
+W109 (iii) group Z/3 built with 3 elements
+W109 (iii) group Z/4 built with 4 elements
+W109 (iii) group Z/6 built with 6 elements
+W109 (iii) group Q8 built with 8 elements
+W109 (iii) group 2D3 (order 12) built with 12 elements
+W109 (iii) group 2T built with 24 elements
+W109 (iii) group 2O built with 48 elements
+W109 (iii) group 2I built with 120 elements
+W109 (iii) Z/2             order   2, |Aut|   1, Epi(F3)        7, classes      7, classes fixed by every R_ij: 0
+W109 (iii) Z/3             order   3, |Aut|   2, Epi(F3)       26, classes     13, classes fixed by every R_ij: 0
+W109 (iii) Z/4             order   4, |Aut|   2, Epi(F3)       56, classes     28, classes fixed by every R_ij: 0
+W109 (iii) Z/6             order   6, |Aut|   2, Epi(F3)      182, classes     91, classes fixed by every R_ij: 0
+W109 (iii) Q8              order   8, |Aut|  24, Epi(F3)      336, classes     14, classes fixed by every R_ij: 0
+W109 (iii) 2D3 (order 12)  order  12, |Aut|  12, Epi(F3)     1344, classes    112, classes fixed by every R_ij: 0
+W109 (iii) 2T              order  24, |Aut|  24, Epi(F3)    12480, classes    520, classes fixed by every R_ij: 0
+W109 (iii) 2O              order  48, |Aut|  48, Epi(F3)    80640, classes   1680, classes fixed by every R_ij: 0
+W109 (iii) 2I              order 120, |Aut| 120, Epi(F3)  1601280, classes  13344, classes fixed by every R_ij: 0
+W109 K1  n = 2, R and L, random starts: {'starts': 60, 'ran': 60, 'converged': 60, 'converged_nontrivial': 40, 'max_dev_from_2': 2.000000000000029} non-trivial points found: [[0j, 0j, -0j], [0j, 0j, 0j]]
+W109 (i) n = 3, every R_ij: {'starts': 150, 'ran': 150, 'converged': 26, 'converged_nontrivial': 0, 'max_dev_from_2': 6.572670334207068e-14, 'nontrivial_examples': []}
+W109 (i) n = 3, every L_ij: {'starts': 80, 'ran': 80, 'converged': 15, 'converged_nontrivial': 0, 'max_dev_from_2': 2.3423716804802376e-13, 'nontrivial_examples': []}
+W109 (i) n = 4, every R_ij: {'starts': 60, 'ran': 60, 'converged': 12, 'converged_nontrivial': 0, 'max_dev_from_2': 3.069360089758439e-14, 'nontrivial_examples': []}

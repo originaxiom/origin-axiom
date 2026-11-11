@@ -1,0 +1,97 @@
+{
+ "K1": [
+  true,
+  false
+ ],
+ "C2_n3": {
+  "maxlen": 8,
+  "classes": 63590,
+  "K2_counts_match": true,
+  "C1_failures": 0,
+  "length_kept_by_every_Rij": 0,
+  "kept_by_transvections_exactly": 0,
+  "kept_by_transvections_up_to_inversion": 0,
+  "kept_by_full_exactly": 0,
+  "kept_by_full_up_to_inversion": 0
+ },
+ "C2_n4": {
+  "maxlen": 7,
+  "classes": 141492,
+  "K2_counts_match": true,
+  "C1_failures": 0,
+  "length_kept_by_every_Rij": 0,
+  "kept_by_transvections_exactly": 0,
+  "kept_by_transvections_up_to_inversion": 0,
+  "kept_by_full_exactly": 0,
+  "kept_by_full_up_to_inversion": 0
+ },
+ "C2_n5": {
+  "maxlen": 6,
+  "classes": 102528,
+  "K2_counts_match": true,
+  "C1_failures": 0,
+  "length_kept_by_every_Rij": 0,
+  "kept_by_transvections_exactly": 0,
+  "kept_by_transvections_up_to_inversion": 0,
+  "kept_by_full_exactly": 0,
+  "kept_by_full_up_to_inversion": 0
+ },
+ "C3": {
+  "classes": 69996,
+  "K2": true,
+  "C1_failures": 0,
+  "kept": {
+   "R and L": {
+    "exactly": [
+     "[a,b]^-1",
+     "[a,b]^-2",
+     "[a,b]^-3",
+     "[a,b]^1",
+     "[a,b]^2",
+     "[a,b]^3"
+    ],
+    "up_to_inversion": [
+     "[a,b]^-1",
+     "[a,b]^-2",
+     "[a,b]^-3",
+     "[a,b]^1",
+     "[a,b]^2",
+     "[a,b]^3"
+    ]
+   },
+   "the four transvections": {
+    "exactly": [
+     "[a,b]^-1",
+     "[a,b]^-2",
+     "[a,b]^-3",
+     "[a,b]^1",
+     "[a,b]^2",
+     "[a,b]^3"
+    ],
+    "up_to_inversion": [
+     "[a,b]^-1",
+     "[a,b]^-2",
+     "[a,b]^-3",
+     "[a,b]^1",
+     "[a,b]^2",
+     "[a,b]^3"
+    ]
+   },
+   "the full moves": {
+    "exactly": [],
+    "up_to_inversion": [
+     "[a,b]^-1",
+     "[a,b]^-2",
+     "[a,b]^-3",
+     "[a,b]^1",
+     "[a,b]^2",
+     "[a,b]^3"
+    ]
+   }
+  },
+  "powers_are_exactly_those_kept_by_R_and_L": true
+ },
+ "C4": [
+  "{x: 0, y: 0, z: 0}"
+ ]
+}

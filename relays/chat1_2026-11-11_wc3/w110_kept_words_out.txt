@@ -1,0 +1,9 @@
+K1  [a, b] kept by R and L: True; aab kept: False
+C2  n = 3: {'maxlen': 8, 'classes': 63590, 'K2_counts_match': True, 'C1_failures': 0, 'length_kept_by_every_Rij': 0, 'kept_by_transvections_exactly': 0, 'kept_by_transvections_up_to_inversion': 0, 'kept_by_full_exactly': 0, 'kept_by_full_up_to_inversion': 0}
+C2  n = 4: {'maxlen': 7, 'classes': 141492, 'K2_counts_match': True, 'C1_failures': 0, 'length_kept_by_every_Rij': 0, 'kept_by_transvections_exactly': 0, 'kept_by_transvections_up_to_inversion': 0, 'kept_by_full_exactly': 0, 'kept_by_full_up_to_inversion': 0}
+C2  n = 5: {'maxlen': 6, 'classes': 102528, 'K2_counts_match': True, 'C1_failures': 0, 'length_kept_by_every_Rij': 0, 'kept_by_transvections_exactly': 0, 'kept_by_transvections_up_to_inversion': 0, 'kept_by_full_exactly': 0, 'kept_by_full_up_to_inversion': 0}
+C3  n = 2 to length 12: 69996 classes (K2 counts match: True); C1 failures 0
+     kept by R and L: exactly ['[a,b]^-1', '[a,b]^-2', '[a,b]^-3', '[a,b]^1', '[a,b]^2', '[a,b]^3']; up to inversion ['[a,b]^-1', '[a,b]^-2', '[a,b]^-3', '[a,b]^1', '[a,b]^2', '[a,b]^3']
+     kept by the four transvections: exactly ['[a,b]^-1', '[a,b]^-2', '[a,b]^-3', '[a,b]^1', '[a,b]^2', '[a,b]^3']; up to inversion ['[a,b]^-1', '[a,b]^-2', '[a,b]^-3', '[a,b]^1', '[a,b]^2', '[a,b]^3']
+     kept by the full moves: exactly []; up to inversion ['[a,b]^-1', '[a,b]^-2', '[a,b]^-3', '[a,b]^1', '[a,b]^2', '[a,b]^3']
+C4  singular points of kappa = -2: [{x: 0, y: 0, z: 0}]
