@@ -1,0 +1,94 @@
+{
+  "arc": "B1880",
+  "point": "P-775",
+  "symbolic_proof": {
+    "golden_charpoly": "(t - 1)*(t**2 - 5*t + 1)",
+    "golden_tau_adj": 5,
+    "silver_charpoly": "(t - 1)*(t**2 - 18*t + 1)",
+    "silver_tau_adj": 18,
+    "bronze_tau_minpoly": "tau**4 - 114*tau**3 + 4264*tau**2 - 58910*tau + 192359",
+    "bronze_x_minpoly": "x**8 - 4*x**7 + 4*x**6 - x**5 + 8*x**4 - 11*x**3 - 4*x**2 + 3*x + 6",
+    "chiral_L2R_z_poly": "z**4 - 5*z**2 + 8",
+    "chiral_L2R_tau_minpoly": "tau**2 - 18*tau + 88"
+  },
+  "manifold_hp_verification": {
+    "golden_LR": {
+      "ground_word": "LR",
+      "ground_volume": 2.0298832128193074,
+      "lambda_1_exact": "4.79128784747792000329402359686",
+      "excess_vol_limit": 3.6013294786537333,
+      "cs_limit": -0.07560961919645946,
+      "best_raw_vol_ratio_abs_err": 2.4516661182607067e-13,
+      "best_raw_cs_ratio_abs_err": 9.70784165841939e-12,
+      "best_aitken_vol_ratio_abs_err": 4.177303921413642e-14,
+      "best_aitken_cs_ratio_abs_err": 6.530741442124895e-14,
+      "last_3_raw_vol_ratios": [
+        4.791287847474751,
+        4.791287847477002,
+        4.791287847477675
+      ],
+      "last_3_raw_cs_ratios": [
+        4.791287847281715,
+        4.791287847434188,
+        4.791287847468213
+      ]
+    },
+    "silver_L2R2": {
+      "ground_word": "LLRR",
+      "ground_volume": 3.663862376708876,
+      "lambda_1_exact": "17.9442719099991587856366946749",
+      "excess_vol_limit": 3.644126819529024,
+      "cs_limit": -0.07626488710765775,
+      "best_raw_vol_ratio_abs_err": 4.065662294406567e-14,
+      "best_raw_cs_ratio_abs_err": 3.4517825184589716e-13,
+      "best_aitken_vol_ratio_abs_err": 1.0397975736253851e-15,
+      "best_aitken_cs_ratio_abs_err": 3.965025949257008e-15,
+      "last_3_raw_vol_ratios": [
+        17.94427190998944,
+        17.944271909998523,
+        17.944271909999117
+      ],
+      "last_3_raw_cs_ratios": [
+        17.944271909908228,
+        17.944271909993528,
+        17.944271909998815
+      ]
+    },
+    "bronze_L3R3": {
+      "ground_word": "LLLRRR",
+      "ground_volume": 4.813819186103887,
+      "lambda_1_exact": "54.0626838456951713614200346118",
+      "excess_vol_limit": 3.5833712268686666,
+      "cs_limit": -0.0745766373016536,
+      "best_raw_vol_ratio_abs_err": 1.0025031945972489e-15,
+      "best_raw_cs_ratio_abs_err": 1.534094604082911e-14,
+      "best_aitken_vol_ratio_abs_err": 5.851861010850513e-17,
+      "best_aitken_cs_ratio_abs_err": 2.4905312547648195e-16,
+      "last_3_raw_vol_ratios": [
+        54.062683845693336,
+        54.062683845695126,
+        54.06268384569517
+      ],
+      "last_3_raw_cs_ratios": [
+        54.06268384566021,
+        54.06268384569443,
+        54.062683845695155
+      ]
+    },
+    "chiral_control_L2R": {
+      "ground_word": "LLR",
+      "amphicheiral": false,
+      "lambda_1_complex": "8.896931344046477+2.676760895963833j",
+      "real_vol_step_ratios_oscillating": [
+        -21.73168218003494,
+        2.1881620030509796,
+        5.531395987090994,
+        7.039266829425113,
+        8.026339694361084
+      ],
+      "real_vol_ratio_spread": 29.758021874396025,
+      "complex_vol_raw_abs_err": 3.5251019317090253e-13,
+      "complex_vol_aitken_abs_err": 3.084860380121447e-15
+    }
+  }
+}

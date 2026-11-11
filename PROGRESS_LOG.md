@@ -19218,3 +19218,24 @@ read, and every program in the repository that evaluates the classical theta fun
 jump outside the central strip, with the one remaining exposed program repaired and tested where the jump occurs.
 
 Still 0 of 19.
+
+## 2026-11-11 — S306r: the weave's theorems restated for the tick, the axis exponent answered, and the settling rate proved
+
+The full calculation the owner asked for before deciding how the single tick stands beside observing even ticks is now
+finished. Any pair of single ticks gives the exact four two-step words of the two-act grammar, so even numbers of ticks
+match even-length words step for step while odd numbers carry the bare side-exchange. Every weave theorem on the record
+was checked under adding that exchange: the quaternion character fixed points, the three-plus-one spin split, the random
+walk's exit law, and all five symmetry walls stand word for word on the whole group, while the six-dimensional chiral
+split, the abelian index, the congruence quotients at levels where minus one has no square root, and the choice between
+the twelve-fold and six-fold level-five curves change on the whole group and survive intact on even ticks. All eight
+mirror walls and the spin-cover counts on sixteen non-orientable histories were computed alongside.
+
+Two pure-mathematics questions and two outside cards were settled in the same pass. Along the imaginary axis, the
+endpoint correlation exponent is symmetric between a height and its reciprocal, distinguishes non-conjugate half-turns
+of the same determinant, and drops below one at the golden ratio without any integer matrix. In a long periodic ground,
+excess volume and Chern-Simons phase settle purely by the larger eigenvalue of the ground's tangent map on the
+character surface, proved from symplectic invariance and verified to sixty-three digits across golden, silver, bronze,
+and chiral grounds, contrasting cleanly with the flat-fibre instrument's fourth-power golden rate and unbounded
+level-five depths, both re-derived independently from scratch.
+
+Still 0 of 19.

@@ -1,0 +1,14 @@
+{
+  "arc_dir": "B1880_p769_weave_theorems_p770_p775_and_value_card",
+  "claim_one_line": "P-769's complete weave-theorem restatement, P-770's axis exponent questions, P-775's adjoint settling theorem, and the web seat's level-5 and flat-fibre value cards are proved and verified on main (data-free, 0 of 19): {F, F'}^{2k} bijects onto {L, R}^{2k} while <L, R, P> = GL_2(Z) preserves 8 weave theorems + B1866 verbatim and changes W:T/W:G96 (G_96 -> G_192 fusing 3 (+) 3bar -> 6), W:INDEX3, B1859 (doubling at N in {3,4,6,7,8,9,11,12}), and B1872 (X_1(5) index 12 -> X_0(5) index 6) outside even ticks; alpha(1/y)=alpha(y), alpha(sqrt(3/2))=0.97220 != alpha(sqrt(6))=0.98905, alpha(phi)=0.98084 < 1; hyperbolic settling rate (5+sqrt(21))/2 (golden), 9+4*sqrt(5) (silver), 54.06268 (bronze) proved via Goldman symplecticity vs flat-fibre phi^4 with unbounded depths (n-1)/2+sqrt(5)/2.",
+  "date": "2026-11-11",
+  "id": "B1880",
+  "locks": [
+    "frontier/B1880_p769_weave_theorems_p770_p775_and_value_card/verification/p769_weave_theorems_and_walls.py",
+    "frontier/B1880_p769_weave_theorems_p770_p775_and_value_card/verification/p770_axis_minkowski_exponent.py",
+    "frontier/B1880_p769_weave_theorems_p770_p775_and_value_card/verification/p775_adjoint_settling_proof.py",
+    "frontier/B1880_p769_weave_theorems_p770_p775_and_value_card/verification/verify_chat1_whole_and_value.py",
+    "tests/test_b1880_tick_weave_axis_and_settling.py"
+  ],
+  "verdict": "PROVED"
+}

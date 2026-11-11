@@ -3348,7 +3348,7 @@
     "P-761": "QUEUED",
     "P-762": "DONE",
     "P-765": "DECLINED",
-    "P-770": "QUEUED"
+    "P-770": "DONE"
    },
    "rulings": [
     "the claim",

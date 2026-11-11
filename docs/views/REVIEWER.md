@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1581** |
-| words of findings prose | **1,365,981** |
-| test lock files referenced | **941** |
-| arcs carrying an authored verdict | **1581** (100.0 %) |
+| research arcs with findings | **1582** |
+| words of findings prose | **1,368,806** |
+| test lock files referenced | **942** |
+| arcs carrying an authored verdict | **1582** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1090 |
+| PROVED | 1091 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1879`** (1192 words, 2 locks)  
-RE-AUDIT 2 AND RE-AUDIT 3 ENFORCEMENT CLOSURE, REVIEW 78 APPEND-ONLY FIXES, THE JTHETA SWEEP COMPLETED, AND SUITE REPAIRS (P-154 and P-670 closed; P-772 (b)(c)(d)(f) and Re-Audit 3 t3, t4, t7, j4 and leaf-PV14 paid on main; bookkeeping and instruments only): artifact-hashes hardened against decoy shadowing via canonical root resolution and AMBIGUOUS refusal (t3), frozen broken-script re-edits via disk SHA-256 locks (t4), and secondary seal hash lists such as SEAL_SHA256.txt across 79 matched lists and 266 entries with history immutability (t7, docs/OTHER_HASH_LISTS.md); closure-programme builder rule 21 checks ACCEPTED verdicts against REAUDIT_2_2026-11-10.md and BEARS_ON adds B734 on E2, B1849/B1850 on L6, and B1840/B1841 on V4 (j4); append-only extended to docs/progress archives (a1) plus Review 78 reader fixes checking header text before the first dated heading on roll-ups, requiring a roll-up's archive to be added/modified in that commit, and locking log deletion, log rename, and module-level waivers; recursive seal discovery across PREREG*, *DESIGN*.md, SEALED*.md, DECLARATION.md, PRE_RUN_NOTE*.md and *RULE.md (474 files; s2, s3) and strict seal-before-record enforcement (s4); git-dependent and baseline gates plus leaf arc_verdict.json JSON validation made fail-closed (PV9-PV15, PV22, leaf-PV14); AST skip/vacuity checks on GATE_CONTROLS.json (PV16), third table format in retraction_sweep.py raising active phrases to 47 (PV17, P-154), frozen per-file attribution ceiling (PV19), PROVEN lock check in claims and case-insensitive .tex scan in framing (PV20, PV21), pure-literal test refusal across 6400+ tests with 19 historical tests upgraded (PV24), AST constant-propagation in tracked-deps (p2), THE_SM_VERDICT.md updated to 24 ROWS OUTSTANDING so the_price_is_twelve.py exits 0 (X3 first half), B1464/B1690 made read-only without --write (L10), B1849/B1850 float locks made numerical < 1e-12 (L6), and all 101 jtheta Python files swept with B1678 s5_theta.py upgraded to quarter-nome analytic_jtheta (P-670). 0 of 19.  
-`B1879_reaudit3_enforcement_and_p670_closure/FINDINGS.md`
+**PROVED — `B1880`** (2825 words, 1 locks)  
+P-769's complete weave-theorem restatement, P-770's axis exponent questions, P-775's adjoint settling theorem, and the web seat's level-5 and flat-fibre value cards are proved and verified on main (data-free, 0 of 19): {F, F'}^{2k} bijects onto {L, R}^{2k} while <L, R, P> = GL_2(Z) preserves 8 weave theorems + B1866 verbatim and changes W:T/W:G96 (G_96 -> G_192 fusing 3 (+) 3bar -> 6), W:INDEX3, B1859 (doubling at N in {3,4,6,7,8,9,11,12}), and B1872 (X_1(5) index 12 -> X_0(5) index 6) outside even ticks; alpha(1/y)=alpha(y), alpha(sqrt(3/2))=0.97220 != alpha(sqrt(6))=0.98905, alpha(phi)=0.98084 < 1; hyperbolic settling rate (5+sqrt(21))/2 (golden), 9+4*sqrt(5) (silver), 54.06268 (bronze) proved via Goldman symplecticity vs flat-fibre phi^4 with unbounded depths (n-1)/2+sqrt(5)/2.  
+`B1880_p769_weave_theorems_p770_p775_and_value_card/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  

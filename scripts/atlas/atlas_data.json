@@ -16286,6 +16286,42 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1880": {
+   "slug": "p769 weave theorems p770 p775 and value card",
+   "motifs": [
+    "monoid",
+    "closing",
+    "choice",
+    "action",
+    "figure_eight",
+    "kappa",
+    "metallic",
+    "dickson_tower",
+    "eisenstein",
+    "golden",
+    "z3_generation",
+    "amphichiral_cp",
+    "torsion",
+    "symplectic",
+    "wrt_quantum",
+    "lorentzian",
+    "markov_cubic"
+   ],
+   "refs": [
+    "B130",
+    "B285",
+    "B713",
+    "B760",
+    "V0",
+    "V1",
+    "V2",
+    "V3"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 10,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B188": {
    "slug": "lindblad dissipative",
    "motifs": [

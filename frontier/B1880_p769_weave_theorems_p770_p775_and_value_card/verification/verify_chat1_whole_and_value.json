@@ -1,0 +1,104 @@
+{
+  "arc": "B1880",
+  "whole_level5_facts_Q1_to_Q7": {
+    "Q1_X_pm": {
+      "index_in_PSL2Z": 12,
+      "cusp_widths": [
+        1,
+        1,
+        5,
+        5
+      ],
+      "elliptic_order_2": 0,
+      "elliptic_order_3": 0,
+      "genus": 0
+    },
+    "Q1_X_line": {
+      "index_in_PSL2Z": 6,
+      "cusp_widths": [
+        1,
+        5
+      ],
+      "elliptic_order_2": 2,
+      "elliptic_order_3": 0,
+      "genus": 0
+    },
+    "Q2_elliptic_swapped_by_W5_and_J": true,
+    "Q3_twin_deck_delta_mod5": [
+      0,
+      2
+    ],
+    "Q4_disc_minus20_forms": [
+      [
+        1,
+        0,
+        5
+      ],
+      [
+        2,
+        2,
+        3
+      ]
+    ],
+    "Q6_fricke_lifts_on_X_pm": {
+      "i/sqrt(5)": "W_5",
+      "1/2+i/(2*sqrt(5))": "delta o W_5"
+    },
+    "Q7_hauptmodul_residuals": {
+      "abs_t_times_tW5_minus_125": 4.878181187533827e-53,
+      "abs_t_zf1_over_5sqrt5_minus_1": 1.3254524700622003e-55,
+      "abs_t_zf2_over_5sqrt5_plus_1": 1.8166474147957434e-49
+    }
+  },
+  "value_card_V0_to_V3": {
+    "V0_own_values": {
+      "(6)": 3.618033988749895,
+      "(11)": 6.118033988749895,
+      "(2,1,2,1,2)": 1.723606797749979
+    },
+    "V1_all_9_hold": true,
+    "V1_flat_fibre_rate_phi4": 6.854101966249685,
+    "V1_observed_step_factors_8_to_16": [
+      6.854101982677977,
+      6.854101982106114,
+      6.854101982067233,
+      6.8541019851603195,
+      6.8541019849603275,
+      6.8541019849467295,
+      6.854101969169817,
+      6.854101969155112,
+      6.854101969154112
+    ],
+    "P775_hyperbolic_rate_for_contrast": 4.79128784747792,
+    "V2_all_5_mixed_hold": true,
+    "V3_unbounded_runs": [
+      {
+        "n": 6,
+        "own_value": 3.618033988749895,
+        "abs_err_vs_formula": 1.570232953917995e-51
+      },
+      {
+        "n": 11,
+        "own_value": 6.118033988749895,
+        "abs_err_vs_formula": 1.85718321789823e-51
+      },
+      {
+        "n": 16,
+        "own_value": 8.618033988749895,
+        "abs_err_vs_formula": 1.9776566516386528e-51
+      },
+      {
+        "n": 21,
+        "own_value": 11.118033988749895,
+        "abs_err_vs_formula": 2.0438884919888378e-51
+      },
+      {
+        "n": 26,
+        "own_value": 13.618033988749895,
+        "abs_err_vs_formula": 2.0859767058074283e-51
+      }
+    ],
+    "V3_control_n7_keeps_line": false,
+    "finite_gap_k1_run6_rel_offset": 0.009245277422827679
+  }
+}

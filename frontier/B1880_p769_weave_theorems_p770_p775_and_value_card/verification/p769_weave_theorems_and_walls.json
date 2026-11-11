@@ -1,0 +1,891 @@
+{
+  "arc": "B1880",
+  "point": "P-769",
+  "eight_mirror_walls": [
+    {
+      "wall_index": 1,
+      "name": "Blindness to Chern-Simons level k (dS/dk = -2*pi*i*CS)",
+      "source_arc": "B1012/B1088",
+      "two_acts_root_m004": "STANDS: |2*pi*CS| = 1.48e-15 < 1e-9",
+      "one_tick_root_m000": "STANDS (UNDEFINED): H_3(m000; Z) = 0, CS undefined on unoriented m000",
+      "single_departure_run6": "BROKEN IF PICKED ALONE: |2*pi*CS| = 0.474514 != 0",
+      "unpicked_ledger_pair": "STANDS: |2*pi*(CS(W)+CS(swap W))| = 2.35e-15 < 1e-8"
+    },
+    {
+      "wall_index": 2,
+      "name": "CS = 0 mod 1/2 by amphicheirality",
+      "source_arc": "B1224/B1227",
+      "two_acts_root_m004": "STANDS: CS(m004) = -0.0000000000",
+      "one_tick_root_m000": "STANDS (UNDEFINED): SnapPy raises ValueError('b'Manifold is not oriented'')",
+      "single_departure_run6": "BROKEN IF PICKED ALONE: CS = -0.075521, mirror = +0.075521",
+      "unpicked_ledger_pair": "STANDS: CS(W) + CS(swap W) = +3.75e-16"
+    },
+    {
+      "wall_index": 3,
+      "name": "Chirality not self-supplied (object isometric to mirror)",
+      "source_arc": "B713/B760",
+      "two_acts_root_m004": "STANDS: amphicheiral = True",
+      "one_tick_root_m000": "STANDS: non-orientable (no global hand); b-+L isometric to b-+R",
+      "single_departure_run6": "BROKEN IF PICKED ALONE: amphicheiral = False, isometric to mirror = True",
+      "unpicked_ledger_pair": "STANDS: {W, swap(W)} is invariant under orientation reversal"
+    },
+    {
+      "wall_index": 4,
+      "name": "CP sign / Fricke kappa separation external",
+      "source_arc": "B285/B340, B1208(6)",
+      "two_acts_root_m004": "STANDS: kappa(P0)+kappa(P0bar)=3.0, self-isometry swaps branches",
+      "one_tick_root_m000": "STANDS: deck transformation of m004 -> m000 quotients the two branches",
+      "single_departure_run6": "BROKEN IF PICKED ALONE: Im(V_C) = -1.490729 flips under L<->R",
+      "unpicked_ledger_pair": "STANDS: Im(V_C(W)+V_C(swap W)) = +7.40e-15"
+    },
+    {
+      "wall_index": 5,
+      "name": "Naming wall (canonical <=> P-equivariant and dimensionless)",
+      "source_arc": "B1225/B1168",
+      "two_acts_root_m004": "STANDS: P-orbit of cyclic word LR has size 1",
+      "one_tick_root_m000": "STANDS: P F P = F' gives isometric bundle (orbit size 1)",
+      "single_departure_run6": "BROKEN IF PICKED ALONE: P-orbit ['LLLLLLRLRLRLR', 'LRLRLRLRRRRRR'] has size 2",
+      "unpicked_ledger_pair": "STANDS: unpicked P-orbit is P-equivariant"
+    },
+    {
+      "wall_index": 6,
+      "name": "Box D pays 1 external bit for mirror-odd data",
+      "source_arc": "B1226",
+      "two_acts_root_m004": "STANDS: 0 mirror-odd bits exist on m004",
+      "one_tick_root_m000": "STANDS: 0 orientation bits exist on non-orientable m000",
+      "single_departure_run6": "REQUIRES 1 EXTERNAL BIT: selecting L^6R over R^6L costs log2(2) = 1 bit",
+      "unpicked_ledger_pair": "STANDS: 0 bits paid when both members of {W, swap(W)} participate equally"
+    },
+    {
+      "wall_index": 7,
+      "name": "Value-kernel theta = c*r mirror-pair triviality on 3 (+) 3bar",
+      "source_arc": "B1029",
+      "two_acts_root_m004": "STANDS: |tr_3(LR) - tr_3(RL)| = 2.51e-18",
+      "one_tick_root_m000": "STANDS: bare exchange P fuses 3 and 3bar into one self-conjugate 6D irrep",
+      "single_departure_run6": "BROKEN ON 3 ALONE: Im tr_3(W) = -2.257576 = -Im tr_3(swap W)",
+      "unpicked_ledger_pair": "STANDS: |tr_6(W) - tr_6(swap W)| = 0.00e+00"
+    },
+    {
+      "wall_index": 8,
+      "name": "No forced choice between conjugate roots of Phi_3(u) = u^2 + u + 1",
+      "source_arc": "B130/K013, B1208(5)",
+      "two_acts_root_m004": "STANDS: |Gal(Q(omega)/Q)| = 2 prime; Vol(m004) = 2.029883213 equal on both roots",
+      "one_tick_root_m000": "STANDS: Vol(m000) = 1.014941606 = Vol(m004)/2 (2.000000000)",
+      "single_departure_run6": "EQUAL VOLUME 9.689043309 vs 9.689043309 (|dV|=0.00e+00); no modulus selector",
+      "unpicked_ledger_pair": "STANDS: Galois-conjugate pair enters with identical hyperbolic volume"
+    }
+  ],
+  "debts_1_and_2": {
+    "pin_structures_odd_histories": [
+      {
+        "runs": [
+          1
+        ],
+        "word": "L",
+        "fibre_coker_invariants": [
+          1,
+          1
+        ],
+        "snappy_h1_divisors": [
+          0
+        ],
+        "h1_f2_rank": 1,
+        "pin_minus_count": 2,
+        "pin_plus_count": 2,
+        "pullback_to_orient_cover_image_size": 1,
+        "pullback_constant": true
+      },
+      {
+        "runs": [
+          2
+        ],
+        "word": "LL",
+        "fibre_coker_invariants": [
+          1,
+          2
+        ],
+        "snappy_h1_divisors": [
+          2,
+          0
+        ],
+        "h1_f2_rank": 2,
+        "pin_minus_count": 4,
+        "pin_plus_count": 4,
+        "pullback_to_orient_cover_image_size": 2,
+        "pullback_constant": false
+      },
+      {
+        "runs": [
+          1,
+          1,
+          1
+        ],
+        "word": "LRL",
+        "fibre_coker_invariants": [
+          2,
+          2
+        ],
+        "snappy_h1_divisors": [
+          2,
+          2,
+          0
+        ],
+        "h1_f2_rank": 3,
+        "pin_minus_count": 8,
+        "pin_plus_count": 8,
+        "pullback_to_orient_cover_image_size": 4,
+        "pullback_constant": false
+      },
+      {
+        "runs": [
+          3
+        ],
+        "word": "LLL",
+        "fibre_coker_invariants": [
+          1,
+          3
+        ],
+        "snappy_h1_divisors": [
+          3,
+          0
+        ],
+        "h1_f2_rank": 1,
+        "pin_minus_count": 2,
+        "pin_plus_count": 2,
+        "pullback_to_orient_cover_image_size": 1,
+        "pullback_constant": true
+      },
+      {
+        "runs": [
+          1,
+          1,
+          2
+        ],
+        "word": "LRLL",
+        "fibre_coker_invariants": [
+          1,
+          6
+        ],
+        "snappy_h1_divisors": [
+          6,
+          0
+        ],
+        "h1_f2_rank": 2,
+        "pin_minus_count": 4,
+        "pin_plus_count": 4,
+        "pullback_to_orient_cover_image_size": 2,
+        "pullback_constant": false
+      },
+      {
+        "runs": [
+          4
+        ],
+        "word": "LLLL",
+        "fibre_coker_invariants": [
+          1,
+          4
+        ],
+        "snappy_h1_divisors": [
+          4,
+          0
+        ],
+        "h1_f2_rank": 2,
+        "pin_minus_count": 4,
+        "pin_plus_count": 4,
+        "pullback_to_orient_cover_image_size": 2,
+        "pullback_constant": false
+      },
+      {
+        "runs": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "word": "LRLRL",
+        "fibre_coker_invariants": [
+          1,
+          11
+        ],
+        "snappy_h1_divisors": [
+          11,
+          0
+        ],
+        "h1_f2_rank": 1,
+        "pin_minus_count": 2,
+        "pin_plus_count": 2,
+        "pullback_to_orient_cover_image_size": 1,
+        "pullback_constant": true
+      },
+      {
+        "runs": [
+          1,
+          1,
+          3
+        ],
+        "word": "LRLLL",
+        "fibre_coker_invariants": [
+          2,
+          4
+        ],
+        "snappy_h1_divisors": [
+          2,
+          4,
+          0
+        ],
+        "h1_f2_rank": 3,
+        "pin_minus_count": 8,
+        "pin_plus_count": 8,
+        "pullback_to_orient_cover_image_size": 4,
+        "pullback_constant": false
+      },
+      {
+        "runs": [
+          1,
+          2,
+          2
+        ],
+        "word": "LRRLL",
+        "fibre_coker_invariants": [
+          1,
+          9
+        ],
+        "snappy_h1_divisors": [
+          9,
+          0
+        ],
+        "h1_f2_rank": 1,
+        "pin_minus_count": 2,
+        "pin_plus_count": 2,
+        "pullback_to_orient_cover_image_size": 1,
+        "pullback_constant": true
+      },
+      {
+        "runs": [
+          5
+        ],
+        "word": "LLLLL",
+        "fibre_coker_invariants": [
+          1,
+          5
+        ],
+        "snappy_h1_divisors": [
+          5,
+          0
+        ],
+        "h1_f2_rank": 1,
+        "pin_minus_count": 2,
+        "pin_plus_count": 2,
+        "pullback_to_orient_cover_image_size": 1,
+        "pullback_constant": true
+      },
+      {
+        "runs": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "word": "LRLRLL",
+        "fibre_coker_invariants": [
+          1,
+          16
+        ],
+        "snappy_h1_divisors": [
+          16,
+          0
+        ],
+        "h1_f2_rank": 2,
+        "pin_minus_count": 4,
+        "pin_plus_count": 4,
+        "pullback_to_orient_cover_image_size": 2,
+        "pullback_constant": false
+      },
+      {
+        "runs": [
+          1,
+          1,
+          4
+        ],
+        "word": "LRLLLL",
+        "fibre_coker_invariants": [
+          1,
+          10
+        ],
+        "snappy_h1_divisors": [
+          10,
+          0
+        ],
+        "h1_f2_rank": 2,
+        "pin_minus_count": 4,
+        "pin_plus_count": 4,
+        "pullback_to_orient_cover_image_size": 2,
+        "pullback_constant": false
+      },
+      {
+        "runs": [
+          1,
+          2,
+          3
+        ],
+        "word": "LRRLLL",
+        "fibre_coker_invariants": [
+          1,
+          12
+        ],
+        "snappy_h1_divisors": [
+          12,
+          0
+        ],
+        "h1_f2_rank": 2,
+        "pin_minus_count": 4,
+        "pin_plus_count": 4,
+        "pullback_to_orient_cover_image_size": 2,
+        "pullback_constant": false
+      },
+      {
+        "runs": [
+          1,
+          3,
+          2
+        ],
+        "word": "LRRRLL",
+        "fibre_coker_invariants": [
+          1,
+          12
+        ],
+        "snappy_h1_divisors": [
+          12,
+          0
+        ],
+        "h1_f2_rank": 2,
+        "pin_minus_count": 4,
+        "pin_plus_count": 4,
+        "pullback_to_orient_cover_image_size": 2,
+        "pullback_constant": false
+      },
+      {
+        "runs": [
+          2,
+          2,
+          2
+        ],
+        "word": "LLRRLL",
+        "fibre_coker_invariants": [
+          1,
+          14
+        ],
+        "snappy_h1_divisors": [
+          14,
+          0
+        ],
+        "h1_f2_rank": 2,
+        "pin_minus_count": 4,
+        "pin_plus_count": 4,
+        "pullback_to_orient_cover_image_size": 2,
+        "pullback_constant": false
+      },
+      {
+        "runs": [
+          6
+        ],
+        "word": "LLLLLL",
+        "fibre_coker_invariants": [
+          1,
+          6
+        ],
+        "snappy_h1_divisors": [
+          6,
+          0
+        ],
+        "h1_f2_rank": 2,
+        "pin_minus_count": 4,
+        "pin_plus_count": 4,
+        "pullback_to_orient_cover_image_size": 2,
+        "pullback_constant": false
+      }
+    ],
+    "rank_gt1_nonconstant_controls": 11,
+    "modular_group_orders_N2_to_13": [
+      {
+        "N": 2,
+        "sl2_order": 6,
+        "gl2_pm_order": 6,
+        "projective_two_acts": 6,
+        "projective_with_tick": 6,
+        "mod_pmI_two_acts": 6,
+        "mod_pmI_with_tick": 6,
+        "minus_one_square_mod_N": true,
+        "projective_ratio": 1
+      },
+      {
+        "N": 3,
+        "sl2_order": 24,
+        "gl2_pm_order": 48,
+        "projective_two_acts": 12,
+        "projective_with_tick": 24,
+        "mod_pmI_two_acts": 12,
+        "mod_pmI_with_tick": 24,
+        "minus_one_square_mod_N": false,
+        "projective_ratio": 2
+      },
+      {
+        "N": 4,
+        "sl2_order": 48,
+        "gl2_pm_order": 96,
+        "projective_two_acts": 24,
+        "projective_with_tick": 48,
+        "mod_pmI_two_acts": 24,
+        "mod_pmI_with_tick": 48,
+        "minus_one_square_mod_N": false,
+        "projective_ratio": 2
+      },
+      {
+        "N": 5,
+        "sl2_order": 120,
+        "gl2_pm_order": 240,
+        "projective_two_acts": 60,
+        "projective_with_tick": 60,
+        "mod_pmI_two_acts": 60,
+        "mod_pmI_with_tick": 120,
+        "minus_one_square_mod_N": true,
+        "projective_ratio": 1
+      },
+      {
+        "N": 6,
+        "sl2_order": 144,
+        "gl2_pm_order": 288,
+        "projective_two_acts": 72,
+        "projective_with_tick": 144,
+        "mod_pmI_two_acts": 72,
+        "mod_pmI_with_tick": 144,
+        "minus_one_square_mod_N": false,
+        "projective_ratio": 2
+      },
+      {
+        "N": 7,
+        "sl2_order": 336,
+        "gl2_pm_order": 672,
+        "projective_two_acts": 168,
+        "projective_with_tick": 336,
+        "mod_pmI_two_acts": 168,
+        "mod_pmI_with_tick": 336,
+        "minus_one_square_mod_N": false,
+        "projective_ratio": 2
+      },
+      {
+        "N": 8,
+        "sl2_order": 384,
+        "gl2_pm_order": 768,
+        "projective_two_acts": 96,
+        "projective_with_tick": 192,
+        "mod_pmI_two_acts": 192,
+        "mod_pmI_with_tick": 384,
+        "minus_one_square_mod_N": false,
+        "projective_ratio": 2
+      },
+      {
+        "N": 9,
+        "sl2_order": 648,
+        "gl2_pm_order": 1296,
+        "projective_two_acts": 324,
+        "projective_with_tick": 648,
+        "mod_pmI_two_acts": 324,
+        "mod_pmI_with_tick": 648,
+        "minus_one_square_mod_N": false,
+        "projective_ratio": 2
+      },
+      {
+        "N": 10,
+        "sl2_order": 720,
+        "gl2_pm_order": 1440,
+        "projective_two_acts": 360,
+        "projective_with_tick": 360,
+        "mod_pmI_two_acts": 360,
+        "mod_pmI_with_tick": 720,
+        "minus_one_square_mod_N": true,
+        "projective_ratio": 1
+      },
+      {
+        "N": 11,
+        "sl2_order": 1320,
+        "gl2_pm_order": 2640,
+        "projective_two_acts": 660,
+        "projective_with_tick": 1320,
+        "mod_pmI_two_acts": 660,
+        "mod_pmI_with_tick": 1320,
+        "minus_one_square_mod_N": false,
+        "projective_ratio": 2
+      },
+      {
+        "N": 12,
+        "sl2_order": 1152,
+        "gl2_pm_order": 2304,
+        "projective_two_acts": 288,
+        "projective_with_tick": 576,
+        "mod_pmI_two_acts": 576,
+        "mod_pmI_with_tick": 1152,
+        "minus_one_square_mod_N": false,
+        "projective_ratio": 2
+      },
+      {
+        "N": 13,
+        "sl2_order": 2184,
+        "gl2_pm_order": 4368,
+        "projective_two_acts": 1092,
+        "projective_with_tick": 1092,
+        "mod_pmI_two_acts": 1092,
+        "mod_pmI_with_tick": 2184,
+        "minus_one_square_mod_N": true,
+        "projective_ratio": 1
+      }
+    ],
+    "level5_mckay_involutions": {
+      "SL2_F5_order": 120,
+      "SL2_F5_involutions": 1,
+      "SL2_pm_F5_order": 240,
+      "SL2_pm_F5_involutions": 31
+    },
+    "two_odd_ticks_excludes_L6RLR": true
+  },
+  "debt_3_weave_g96_to_g192": {
+    "order_G96": 96,
+    "order_G192": 192,
+    "chi3_norm_on_G96": 1.0,
+    "chi3_3bar_inner_on_G96": 7.51001487620631e-17,
+    "chi6_norm_on_G96": 2.0,
+    "chi6_norm_on_G192": 1.0,
+    "commutant_dim_G96": 2,
+    "commutant_null_residual_G96": 1.6550227688315156e-16,
+    "commutant_dim_G192": 1,
+    "commutant_null_residual_G192": 6.334548746873857e-16,
+    "chirality_grading_commutes_with_G96_residual": 0.0,
+    "chirality_grading_anticommutes_with_P6_residual": 0.0
+  },
+  "weave_theorems_restated": {
+    "weave_nodes_total": 46,
+    "weave_nodes_counts_by_class": {
+      "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS": 31,
+      "GRAMMAR_FORK_GOVERNED_BY_TWO_TICK_BIJECTION": 4,
+      "THEOREM_SURVIVES_WORD_FOR_WORD": 8,
+      "THEOREM_CHANGES_ON_WHOLE_GROUP_SURVIVES_ON_EVEN_TICKS": 3
+    },
+    "two_tick_bijection_verified_up_to_10_ticks": {
+      "even_2k=2": 4,
+      "odd_2k_minus_1=1": 2,
+      "even_2k=4": 16,
+      "odd_2k_minus_1=3": 8,
+      "even_2k=6": 64,
+      "odd_2k_minus_1=5": 32,
+      "even_2k=8": 256,
+      "odd_2k_minus_1=7": 128,
+      "even_2k=10": 1024,
+      "odd_2k_minus_1=9": 512
+    },
+    "q8_and_mod2_spin_orbit_p_equals_LRL_mod2": true,
+    "minkowski_swap_symmetry_max_err": 0.0,
+    "haar_basis_scrambling_12_draws": {
+      "G96_commutant_dim": 2,
+      "G96_max_null_sv": 1.7169618958935783e-15,
+      "G192_commutant_dim": 1,
+      "G192_max_null_sv": 1.5778905203375555e-15
+    },
+    "arc_level_weave_theorems": [
+      {
+        "theorem": "B1866 (3+1 spin-structure orbit split under moves)",
+        "whole_tick_group": "SURVIVES_WORD_FOR_WORD (P == L*R*L mod 2 lies inside SL_2(F_2) = S_3)",
+        "even_ticks_subsemigroup": "SURVIVES_WORD_FOR_WORD"
+      },
+      {
+        "theorem": "B1859 (level-N congruence doors, N = 2..13)",
+        "whole_tick_group": "UNCHANGED at N in {2, 5, 10, 13} (-1 is a square mod N); PROJECTIVE GROUP DOUBLES at N in {3, 4, 6, 7, 8, 9, 11, 12}",
+        "even_ticks_subsemigroup": "SURVIVES_WORD_FOR_WORD ({F, F'}^{2k} = {L, R}^{2k}; <L, R, P>^+_{det=+1} = <L, R>^+)"
+      },
+      {
+        "theorem": "B1872 (level-5 allowed subweave quotient curve)",
+        "whole_tick_group": "P swaps the twin lines (1:3) <-> (1:2) mod 5, passing from X_1(5) (index 12, 4 cusps, 0 elliptic) to X_0(5) (index 6, 2 cusps, 2 elliptic)",
+        "even_ticks_subsemigroup": "SURVIVES_WORD_FOR_WORD on X_1(5) (index 12) when one twin is the mark; X_0(5) (index 6) when the whole line is the mark"
+      }
+    ],
+    "weave_nodes": [
+      {
+        "id": "G:PF1",
+        "grade": "POSTULATED",
+        "layer": "0 principle",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "G:PF1-FORM",
+        "grade": "CHOSEN",
+        "layer": "0 principle",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "G:PF2",
+        "grade": "POSTULATED",
+        "layer": "0 principle",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "G:PF3",
+        "grade": "POSTULATED",
+        "layer": "0 principle",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "G:GM1",
+        "grade": "POSTULATED",
+        "layer": "1 grammar",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "G:GM2",
+        "grade": "POSTULATED",
+        "layer": "1 grammar",
+        "classification": "GRAMMAR_FORK_GOVERNED_BY_TWO_TICK_BIJECTION"
+      },
+      {
+        "id": "G:GM3",
+        "grade": "POSTULATED",
+        "layer": "1 grammar",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "G:GM4",
+        "grade": "POSTULATED",
+        "layer": "1 grammar",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "G:GM5a",
+        "grade": "POSTULATED",
+        "layer": "1 grammar",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "G:GM5b",
+        "grade": "CHOSEN",
+        "layer": "1 grammar",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "G:GM5c",
+        "grade": "OPEN",
+        "layer": "1 grammar",
+        "classification": "GRAMMAR_FORK_GOVERNED_BY_TWO_TICK_BIJECTION"
+      },
+      {
+        "id": "G:GM5d",
+        "grade": "CHOSEN",
+        "layer": "1 grammar",
+        "classification": "GRAMMAR_FORK_GOVERNED_BY_TWO_TICK_BIJECTION"
+      },
+      {
+        "id": "G:XGEN-PHYS",
+        "grade": "OPEN",
+        "layer": "2 states and root",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "G:FK10",
+        "grade": "OPEN",
+        "layer": "3 weave",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "G:FK11",
+        "grade": "OPEN",
+        "layer": "3 weave",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "G:FK12",
+        "grade": "OPEN",
+        "layer": "3 weave",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "G:FK13",
+        "grade": "CHOSEN",
+        "layer": "3 weave",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "G:FK14",
+        "grade": "OPEN",
+        "layer": "3 weave",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "G:FK15",
+        "grade": "OPEN",
+        "layer": "3 weave",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "G:FK3",
+        "grade": "OPEN",
+        "layer": "3 weave",
+        "classification": "GRAMMAR_FORK_GOVERNED_BY_TWO_TICK_BIJECTION"
+      },
+      {
+        "id": "G:FK5",
+        "grade": "OPEN",
+        "layer": "3 weave",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "G:FK8",
+        "grade": "OPEN",
+        "layer": "3 weave",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "G:FK9",
+        "grade": "OPEN",
+        "layer": "3 weave",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "G:GAP1",
+        "grade": "OPEN",
+        "layer": "3 weave",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "G:GAP2",
+        "grade": "OPEN",
+        "layer": "3 weave",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "G:GAP3",
+        "grade": "OPEN",
+        "layer": "3 weave",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "G:GAP4",
+        "grade": "OPEN",
+        "layer": "3 weave",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "G:GAP5",
+        "grade": "OPEN",
+        "layer": "3 weave",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "G:GAP6",
+        "grade": "OPEN",
+        "layer": "3 weave",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "TAG:LAMBDA",
+        "grade": "TAGGED",
+        "layer": "3 weave",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "TAG:UNIT",
+        "grade": "TAGGED",
+        "layer": "3 weave",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "W:CLOCK",
+        "grade": "CHOSEN",
+        "layer": "3 weave",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "W:DRAW",
+        "grade": "NEGATIVE",
+        "layer": "3 weave",
+        "classification": "THEOREM_SURVIVES_WORD_FOR_WORD"
+      },
+      {
+        "id": "W:FLAT-SUM",
+        "grade": "LANE-PROPOSED",
+        "layer": "3 weave",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "W:G96",
+        "grade": "DERIVED",
+        "layer": "3 weave",
+        "classification": "THEOREM_CHANGES_ON_WHOLE_GROUP_SURVIVES_ON_EVEN_TICKS"
+      },
+      {
+        "id": "W:HANDS",
+        "grade": "NEGATIVE",
+        "layer": "3 weave",
+        "classification": "THEOREM_SURVIVES_WORD_FOR_WORD"
+      },
+      {
+        "id": "W:INDEX3",
+        "grade": "CONDITIONAL",
+        "layer": "3 weave",
+        "classification": "THEOREM_CHANGES_ON_WHOLE_GROUP_SURVIVES_ON_EVEN_TICKS"
+      },
+      {
+        "id": "W:LAW",
+        "grade": "OPEN",
+        "layer": "3 weave",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      },
+      {
+        "id": "W:MEASURE",
+        "grade": "DERIVED",
+        "layer": "3 weave",
+        "classification": "THEOREM_SURVIVES_WORD_FOR_WORD"
+      },
+      {
+        "id": "W:NO-ATOM",
+        "grade": "NEGATIVE",
+        "layer": "3 weave",
+        "classification": "THEOREM_SURVIVES_WORD_FOR_WORD"
+      },
+      {
+        "id": "W:NOMOD",
+        "grade": "NEGATIVE",
+        "layer": "3 weave",
+        "classification": "THEOREM_SURVIVES_WORD_FOR_WORD"
+      },
+      {
+        "id": "W:NOVAL",
+        "grade": "NEGATIVE",
+        "layer": "3 weave",
+        "classification": "THEOREM_SURVIVES_WORD_FOR_WORD"
+      },
+      {
+        "id": "W:Q8",
+        "grade": "DERIVED",
+        "layer": "3 weave",
+        "classification": "THEOREM_SURVIVES_WORD_FOR_WORD"
+      },
+      {
+        "id": "W:T",
+        "grade": "DERIVED",
+        "layer": "3 weave",
+        "classification": "THEOREM_CHANGES_ON_WHOLE_GROUP_SURVIVES_ON_EVEN_TICKS"
+      },
+      {
+        "id": "W:WALK",
+        "grade": "DERIVED",
+        "layer": "3 weave",
+        "classification": "THEOREM_SURVIVES_WORD_FOR_WORD"
+      },
+      {
+        "id": "PR:P10",
+        "grade": "OPEN",
+        "layer": "11 predictions",
+        "classification": "POSTULATE_OR_OPEN_DUTY_INVARIANT_IN_STATUS"
+      }
+    ]
+  }
+}

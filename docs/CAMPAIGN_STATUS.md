@@ -3926,3 +3926,9 @@ readers. At the review the owner ruled four things about the foundation.**
   ("the twins come together"), whose repair shows that one twin or both as the mark is a real choice.
 - **Next:** R78-1 to R78-11 (docs/progress/REVIEWS.md): the owner's rulings carried into the foundation; the rest of
   the re-audit; the read-out on the whole stated before anything is computed (P-776). 0 of 19.
+- **After Review 78 (S306p–S306r, B1878–B1880):** P-767's first landing carried the goal ruling into the twelve
+  governing documents with two gates (B1878); Re-Audit 2 and Re-Audit 3 (`t3, t4, t7, j4` and leaf `PV14`), Review 78's
+  append-only notes, P-154, and the 101-file `jtheta` sweep P-670 closed on main (B1879); P-769's complete weave-theorem
+  restatement (`{F, F'}^{2k}` onto `{L, R}^{2k}`, all 46 weave nodes, all 8 mirror walls, Debts 1–3), P-770's axis
+  Minkowski exponent questions (`DONE`), P-775's Goldman-symplectic settling theorem (`DONE`), and the web seat's
+  level-5 and flat-fibre value cards verified on main (B1880), leaving P-776 next. 0 of 19.

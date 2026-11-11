@@ -460,7 +460,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **Stated about:** thread 2, weave 3.
 - **Also bears on nodes held elsewhere:** D:12.
 - **Missing dependencies it works on:** X:TAU, X:WEIGHT.
-- **Register:** P-755 (DONE), P-756 (DONE), P-439 (QUEUED), P-758 (DONE), P-761 (QUEUED), P-762 (DONE), P-765 (DECLINED), P-770 (QUEUED).
+- **Register:** P-755 (DONE), P-756 (DONE), P-439 (QUEUED), P-758 (DONE), P-761 (QUEUED), P-762 (DONE), P-765 (DECLINED), P-770 (DONE).
 - **The audit's findings (2):** W6, W7.
 - **Relayed rulings:** the claim; the weave discipline; what self-consistent means; the first back-edge to try; the fork inside it; the founding principle as the selection rule; the gap, for every seat; the ledger, cancelling, interaction.
 

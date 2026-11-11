@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.64) of 2026-11-10 |
-| arcs with a verdict | 1581: 1090 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 776: 262 open (queued, leads, waiting for the owner), 514 closed |
+| arcs with a verdict | 1582: 1091 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
+| points in the register | 776: 260 open (queued, leads, waiting for the owner), 516 closed |
 | the last review | Review 78 (2026-11-11), anchor `38d2a36dc` |
-| the last landing | S306q RE-AUDIT 2 AND RE-AUDIT 3 ENFORCEMENT CLOSURE, REVIEW 78 APPEND-ONLY FIXES, THE JTHETA SWEEP COMPLETED, AND SUITE REPAIRS (B1879; P-154, P-670,… |
+| the last landing | S306r COMPLETE WEAVE-THEOREM RESTATEMENT FOR THE GROUP WITH THE EXCHANGE, AXIS MINKOWSKI EXPONENT ANSWERED, ADJOINT SETTLING PROVED, AND LEVEL-5 / VA… |
 <!-- STATE:END -->
 
 ## Start here
