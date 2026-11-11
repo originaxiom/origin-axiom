@@ -93,9 +93,9 @@ written: PROGRAMME.md, PROGRAMME.json
  "audit_findings": 73,
  "audit_findings_by_state": {
   "OPEN": 0,
-  "READER": 4,
+  "READER": 3,
   "REPRODUCED": 42,
-  "PARTLY FIXED": 16,
+  "PARTLY FIXED": 17,
   "FIXED": 11
  },
  "relayed_rulings": 17,

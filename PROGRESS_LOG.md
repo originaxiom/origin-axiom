@@ -19463,3 +19463,26 @@ No piece was finished.
 
 0 of 19.
 
+## 2026-11-11 — S306p: the first of nine known errors in the mathematics is fixed
+
+**The plan now.** The audit seat builds the housekeeping; main works through the thirteen errors the audit found in
+the mathematics or its code. Four were fixed and accepted before today. This is the first of the nine left.
+
+**The error.** One of our basic facts about the central object is how deeply its symmetry group sits inside a
+standard family of groups, a number called its level. Our own summary said the level is 4, and had said so for two
+months. But the automatic check that guards that fact still asserted 8, and so did about twenty other pages.
+
+**What main did.** Recomputed it from scratch with its own program: the level is 4. The "8" came from dividing two
+things by different amounts, which answers a slightly different question. The automatic check now asserts 4, and it
+also searches the whole record: if any page states the old number without the correction beside it, the check
+fails. That search found six pages main's own search had missed.
+
+**Why it matters though the answer was already known.** The paper's list of evidence cited this check as support
+for "level 4", and the check did not say that. A correction that reaches the summary and not the check is not
+finished.
+
+**Which piece of the plan moved.** The errors in the mathematics: this one is mended. It counts as fixed only when
+the audit seat has checked it, because whoever fixes a thing does not also approve it. Not finished.
+
+0 of 19.
+

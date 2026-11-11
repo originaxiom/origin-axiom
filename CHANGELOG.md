@@ -1,5 +1,16 @@
 # Changelog
 
+## S306p THE ERRORS IN THE MATHEMATICS, THE FIRST OF NINE (WP-0.8): THE KNOT GROUP'S CONGRUENCE LEVEL IS (4), AND THE LOCK NOW SAYS SO (E2) (2026-11-11)
+
+- **The finding.** A lock of the theorem chain asserted that the figure-eight knot group is congruence "at level (8)". The chain's own note had said level (4) since 2026-09-16. No one on main had checked the finding; a reader had.
+- **Main's own computation.** The group's image has order 10, 320 and 20,480 at (2), (4) and (8). In SL(2, O₃/I)/{±1}, the group that PSL(2, O₃) maps to, its index is 6 at (2) and 12 at (4). 2 is inert, so no ideal lies between: the level is (4).
+- **Where "(8)" came from.** The lock divided the image by the two central units of square one it holds at (4) and the ambient group by all four. That is a third group, of order 960, in which containment is sufficient for congruence and not necessary.
+- **The lock is rewritten.** It asserts the level in the standard group with the ambient orders counted, keeps the old reading named as what it is, and fails if any page states the old level for this group with no correction in the same file.
+- **The correction is carried** to the two arcs' verdict lines, the law map's two rows, the theorem registry, the error ledger's E21 and E22, and twelve other pages. The lock's own sweep found six of them after main's search had missed them. One law-map row had called "level (4)" the error; it says now that it had it the wrong way round.
+- **The paper's manifest is rebuilt:** its claim 58 already said level (4) and cited this lock, which did not assert it.
+- **This landing advanced** WP-0.8. The finding is mended on main and is not counted as fixed until the advisor seat has re-audited it: a builder gives no verdict on what it built, and that holds for main. Four of this package's thirteen are fixed with the seat's verdict; this is the first of the nine left. **No package closed.**
+- 0 of 19.
+
 ## S306p THE FIVE PACKAGES HANDED TO THE ADVISOR SEAT (P-785), ITS RESIDUAL ON THE ORDER CLOSED, MAIN'S UNSEEN CASES SEALED (2026-11-11)
 
 - **Why.** The owner asked main, three times, whether the audit seat should do the clean-up's building while main verifies and banks. He had asked that seat the same. Main answered yes with two conditions; the seat accepted both. The owner has named the seat cld-advisor.

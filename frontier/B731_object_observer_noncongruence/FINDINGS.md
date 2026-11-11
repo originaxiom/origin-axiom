@@ -1,5 +1,8 @@
 # ⚠️ RETRACTED / CORRECTED BY B734 (2026-07-20)
 
+> **CORRECTED 2026-11-11 (the audit's finding E2; the error ledger's E23; B734's addenda of 2026-07-21 and 2026-09-16): the congruence level is (4). In SL(2, O₃/(4))/{±1}, the group that PSL(2, O₃) maps to, the image of the knot group already has the geometric index 12 (160 in 1920), and 6 at (2); 2 is inert, so no ideal lies between. "12 at (8)" is the reading in the quotient by every central unit of square one (order 960 at (4)), a filtration in which containment is sufficient for congruence and not necessary.** The text below is kept as it was written.
+
+
 **THE HEADLINE OF THIS FILE IS WRONG.** B731 concluded m004 is NON-congruence by checking only
 levels 2–6 and inferring the 2-adic index had stabilized at 6. It had NOT: the index jumps to 12
 (the geometric index) at level (2)³=(8), so **m004 IS a congruence subgroup, at level (8)** (cc2

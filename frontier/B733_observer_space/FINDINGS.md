@@ -8,7 +8,7 @@ two-seat division (cc banks the observer-space + growth law; cc2 runs m004's own
 independent dimension count — cross-verify pending). Pure math; Gate 5; nothing to CLAIMS.
 [Prereg context note: the sealed prereg carried "m004 non-congruence" as background — CORRECTED by
 B734 (m004 IS congruence at level (8)). The observer-space here is on the AMBIENT quotient
-G_n=PSL(2,O₃/n) and is unaffected; it applies to both m003 (level 2) and m004 (level 8).]
+G_n=PSL(2,O₃/n) and is unaffected; it applies to both m003 (level 2) and m004 (level 8).] [CORRECTED 2026-11-11 (the audit's finding E2; the error ledger's E23; B734's addenda of 2026-07-21 and 2026-09-16): the congruence level is (4). In SL(2, O₃/(4))/{±1}, the group that PSL(2, O₃) maps to, the image of the knot group already has the geometric index 12 (160 in 1920), and 6 at (2); 2 is inert, so no ideal lies between. "12 at (8)" is the reading in the quotient by every central unit of square one (order 960 at (4)), a filtration in which containment is sufficient for congruence and not necessary.]
 
 ## VERDICT — OUTCOME A: the observer-space is BOUNDED discrete 𝔽₂; the menu never becomes a continuum
 

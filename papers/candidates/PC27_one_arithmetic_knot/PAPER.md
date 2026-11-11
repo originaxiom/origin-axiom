@@ -297,7 +297,7 @@ test in the canonical repository:
 | 2.1 atom | B266 (+ Reid 1991) | trace field `x²−x+1`, disc −3 |
 | 2.2 `V₄` seam | B701, B704, B730 | `test_b730_faces_cosmos` |
 | 2.3 bounded menu | B733 (two-seat) | `test_b733_observer_space` |
-| 2.4 congruence `(8)` | B734 (corr. B731), B732, B721 | `test_b734_m004_congruence`, `test_b732_out_a5` |
+| 2.4 congruence `(8)` [CORRECTED 2026-11-11 (the audit's finding E2; the error ledger's E23; B734's addenda of 2026-07-21 and 2026-09-16): the congruence level is (4). In SL(2, O₃/(4))/{±1}, the group that PSL(2, O₃) maps to, the image of the knot group already has the geometric index 12 (160 in 1920), and 6 at (2); 2 is inert, so no ideal lies between. "12 at (8)" is the reading in the quotient by every central unit of square one (order 960 at (4)), a filtration in which containment is sufficient for congruence and not necessary.] | B734 (corr. B731), B732, B721 | `test_b734_m004_congruence`, `test_b732_out_a5` |
 | 2.5/2.6 Born ledger | B723, B725–B729 | `test_b725_born` … `test_b729_amplitude` |
 | §3 methodology | B724, B727, B685, B706 | `test_b727_baserate` |
 | 4.1 observer obstruction | B736 P2 | `test_b736_abc` |

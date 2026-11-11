@@ -3,8 +3,8 @@
   "by_state": {
    "FIXED": 11,
    "OPEN": 0,
-   "PARTLY FIXED": 16,
-   "READER": 4,
+   "PARTLY FIXED": 17,
+   "READER": 3,
    "REPRODUCED": 42
   },
   "changed_by_main_since_its_re_audit": [

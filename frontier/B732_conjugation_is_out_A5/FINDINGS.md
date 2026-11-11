@@ -29,7 +29,7 @@ realized concretely as Out(A₅) = ℤ/2 at the sister's level-(2) congruence qu
   automorphism generates Out(PSL(2,𝔽₄))=ℤ/2. No choice, no resemblance.
 
 ## Honest bounds
-- This is on the SISTER m003 at level (2). [NOTE (B734): m004 the knot is ALSO congruence, at the deeper level (2)^3=(8) -- B731's 'non-congruence' was RETRACTED; whether B701 acts as an outer aut on m004's OWN level-(8) observer is the open next door.] The
+- This is on the SISTER m003 at level (2). [NOTE (B734): m004 the knot is ALSO congruence, at the deeper level (2)^3=(8) -- B731's 'non-congruence' was RETRACTED; whether B701 acts as an outer aut on m004's OWN level-(8) observer is the open next door.] [CORRECTED 2026-11-11 (the audit's finding E2; the error ledger's E23; B734's addenda of 2026-07-21 and 2026-09-16): the congruence level is (4). In SL(2, O₃/(4))/{±1}, the group that PSL(2, O₃) maps to, the image of the knot group already has the geometric index 12 (160 in 1920), and 6 at (2); 2 is inert, so no ideal lies between. "12 at (8)" is the reading in the quotient by every central unit of square one (order 960 at (4)), a filtration in which containment is sufficient for congruence and not necessary.] The
   clean claim is about the AMBIENT level-(2) quotient PSL(2,O₃)/Γ((2))=A₅ (where m003's own image
   is a C₅=Sylow-5 subgroup, index 12). Whether conjugation FIXES or moves m003's specific C₅ (the
   Frobenius permutes the 6 Sylow-5's) is a finer, computable sub-item, not settled here.
