@@ -1,0 +1,12 @@
+Q1  the eight (post hoc)
+    b++LLLLLRRRRR    H_1 = Z/5 + Z/5 + Z dim H^1(F_5) = 3; monodromy +-I mod 5: True; lines 31 (base 1, ramified 24, unramified 6); A1 False, A2 True
+    b++LLLRLRLLLRR   H_1 = Z/5 + Z/20 + Z dim H^1(F_5) = 3; monodromy +-I mod 5: True; lines 31 (base 1, ramified 24, unramified 6); A1 False, A2 True
+    b++LLRLRLRLLRR   H_1 = Z/5 + Z/30 + Z dim H^1(F_5) = 3; monodromy +-I mod 5: True; lines 31 (base 1, ramified 24, unramified 6); A1 False, A2 True
+    b++LLRRLRLRLRR   H_1 = Z/5 + Z/30 + Z dim H^1(F_5) = 3; monodromy +-I mod 5: True; lines 31 (base 1, ramified 24, unramified 6); A1 False, A2 True
+    b++LLRRRLRLRRR   H_1 = Z/5 + Z/20 + Z dim H^1(F_5) = 3; monodromy +-I mod 5: True; lines 31 (base 1, ramified 24, unramified 6); A1 False, A2 True
+    b++LLLLRLRRRRLR  H_1 = Z/10 + Z/10 + Z dim H^1(F_5) = 3; monodromy +-I mod 5: True; lines 31 (base 1, ramified 24, unramified 6); A1 False, A2 True
+    b+-LLLRRLLRLLRR  H_1 = Z/5 + Z/35 + Z dim H^1(F_5) = 3; monodromy +-I mod 5: True; lines 31 (base 1, ramified 24, unramified 6); A1 False, A2 True
+    b+-LLRRLRRLLRRR  H_1 = Z/5 + Z/35 + Z dim H^1(F_5) = 3; monodromy +-I mod 5: True; lines 31 (base 1, ramified 24, unramified 6); A1 False, A2 True
+Q2  the A4 count in a box (post hoc)
+    |h_i| <= 3, (1/2)|h|^2 <= 12: 1160
+    |h_i| <= 4, (1/2)|h|^2 <= 12: 1350
