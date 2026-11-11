@@ -182,8 +182,53 @@ def test_the_day_is_decided_in_one_place_and_in_one_order(tmp_path, monkeypatch)
     assert g._today_args() == ["--today", _git(ROOT, "log", "-1", "--format=%cs", "HEAD")]
     src = (ROOT / "scripts" / "gates" / "gates.py").read_text(encoding="utf-8")
     for checker in ("relay_debt.py", "harvest_debt.py", "lead_debt.py", "point_debt.py"):
-        calls = re.findall(r'"%s"[^\n]*' % re.escape(checker), src)
-        assert calls and all("_today_args()" in c for c in calls), (checker, calls)
+        calls = [c for c in re.findall(r'[^\n]*"%s"[^\n]*' % re.escape(checker), src) if "subprocess.run" in c or "_debt_checker" in c]
+        assert calls and all("_today_args()" in c or "_debt_checker(" in c for c in calls), (checker, calls)
+
+
+def _commit_dated(repo, when, text):
+    """one more commit on `repo`, its committer date set to `when` (seconds since the epoch)"""
+    (repo / "sub" / "page.md").write_text(text, encoding="utf-8")
+    r = subprocess.run(["git", "-C", str(repo), "-c", "user.name=t", "-c", "user.email=t@example.invalid", "commit", "-q", "-a", "-m", text.strip()],
+                       capture_output=True, text=True, env={**__import__("os").environ, "GIT_COMMITTER_DATE": "%d +0000" % when, "GIT_AUTHOR_DATE": "%d +0000" % when})
+    assert r.returncode == 0, r.stderr
+    return _git(repo, "rev-parse", "HEAD")
+
+
+def test_a_commit_dated_before_its_parent_is_refused_as_a_day(tmp_path):
+    """The seat's own variant of PV15.  With the day taken from the commit, a commit dated a month back makes every debt a
+    month younger.  After the rule's first commit, time may not run backwards on the first-parent line."""
+    g = _gates()
+    repo = _small_repo(tmp_path)
+    t0 = int(_git(repo, "log", "-1", "--format=%ct", "HEAD"))
+    root = _git(repo, "rev-parse", "HEAD")
+    a = _commit_dated(repo, t0 + 3600, "an hour on\n")
+    assert g.commit_day_problems(repo, root) == []
+    same = _commit_dated(repo, t0 + 3600, "the same second\n")                # not before its parent
+    assert g.commit_day_problems(repo, root) == []
+    back = _commit_dated(repo, t0 + 3600 - 30 * 86400, "a month back\n")
+    bad = g.commit_day_problems(repo, root)
+    assert len(bad) == 1 and back[:9] in bad[0] and "before its parent" in bad[0], bad
+    # a later commit dated rightly does not hide it: the rule reads every commit after its root, not the tip alone
+    _commit_dated(repo, t0 + 7200, "two hours on\n")
+    assert any(back[:9] in b for b in g.commit_day_problems(repo, root))
+    # and it fails closed where it cannot read back to its root
+    assert "cannot verify" in g.commit_day_problems(repo, "0" * 40)[0]
+    shallow = tmp_path / "shallow"
+    subprocess.run(["git", "clone", "-q", "--depth", "1", "file://" + str(repo), str(shallow)], check=True, capture_output=True)
+    assert "cannot verify" in g.commit_day_problems(shallow, root)[0]
+    assert a
+
+
+def test_the_debt_gates_do_not_answer_on_a_day_that_cannot_be_trusted(monkeypatch):
+    g = _gates()
+    # the rule's first commit is moved only by a recorded act: whoever moves it changes this line too, and says why
+    assert g.COMMIT_DAY_FROM == "ea41e6fc96012acfe5ec91478eadd7c5cfe95cbe"
+    assert g.commit_day_problems() == [], "on this clone time has not run backwards since the rule's first commit"
+    monkeypatch.setattr(g, "commit_day_problems", lambda *a, **k: ["abc123def is dated 2026-10-01, before its parent"], raising=False)
+    for name in DATED:
+        ok, detail = g.GATES[name]()
+        assert ok is False and "before its parent" in str(detail), (name, ok, detail)
 
 
 def test_in_a_clone_no_gate_is_refused():

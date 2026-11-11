@@ -68,6 +68,52 @@ def _today_args():
     return ["--today", day] if re.fullmatch(r"\d{4}-\d{2}-\d{2}", day) else []
 
 
+# A day taken from the commit can be moved by whoever makes the commit: dated a month back, a commit's debts are a month
+# younger.  So the day is trusted only where time has not run backwards: after COMMIT_DAY_FROM, no commit on the first-parent
+# line may be dated before its parent.  Read at 2026-11-11: none of main's 2,985 first-parent commits is, so nothing is frozen.
+# WHAT THIS DOES NOT BOUND: between its parent's date and the real time, a commit's date is its maker's to choose.  A gate
+# cannot know the real time without reading a clock, and a gate that reads a clock is not a function of the commit.
+# THE WAY OUT, if a mis-dated commit is ever on main (a clock that ran ahead, and then one that did not): history is not
+# rewritten, so COMMIT_DAY_FROM is moved to a commit after it, in a commit that says why.  The lock pins the value, so the
+# move shows in two places.
+COMMIT_DAY_FROM = "ea41e6fc96012acfe5ec91478eadd7c5cfe95cbe"          # ea41e6fc9, the commit this rule was built on; read in history after it
+
+
+def commit_day_problems(repo=None, root=COMMIT_DAY_FROM, limit=3):
+    """every first-parent commit after `root` that is dated (committer time) before its parent.  A pure function of the
+    commit graph.  With no repository it reports nothing (the gate is refused as an export before it is asked); where the
+    history cannot be read back to `root` it fails closed."""
+    repo = str(repo or ROOT)
+
+    def git(*a):
+        return subprocess.run(["git", "-C", repo, *a], capture_output=True, text=True, timeout=120)
+    if git("rev-parse", "--git-dir").returncode != 0:
+        return []
+    if git("cat-file", "-e", root + "^{commit}").returncode != 0:
+        return [f"cannot verify the commit's day: {root[:9]}, the commit the rule is read from, is not in this clone (shallow or partial)"]
+    if git("merge-base", "--is-ancestor", root, "HEAD").returncode != 0:
+        return [f"cannot verify the commit's day: HEAD does not descend from {root[:9]}, the commit the rule is read from"]
+    fmt = "--format=%H %ct %cs"
+    rows = [l.split() for l in (git("log", "--first-parent", fmt, f"{root}..HEAD").stdout + git("log", "-1", fmt, root).stdout).splitlines() if l.strip()]
+    problems = []
+    for (h, t, day), (ph, pt, pday) in zip(rows, rows[1:]):                     # newest first: each commit beside its parent
+        if int(t) < int(pt):
+            problems.append(f"{h[:9]} is dated {day}, before its parent {ph[:9]} ({pday}): a gate's day is the commit's, and this "
+                            f"commit's cannot be trusted")
+    return problems[:limit]
+
+
+def _debt_checker(script, *args, timeout=300):
+    """run a debt checker as its gate does: with the commit's day on the command line, and only where that day can be trusted.
+    Returns (returncode, output); a day that cannot be trusted is returncode 1 with the reason."""
+    bad = commit_day_problems()
+    if bad:
+        return 1, "refused: " + "; ".join(bad)
+    r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", script), *args, *_today_args()],
+                       capture_output=True, text=True, timeout=timeout)
+    return r.returncode, (r.stdout + r.stderr).strip()
+
+
 REFUSED_EXPORT = ("refused: there is no git repository here (an export, or a copy of the tree). This gate reads %s, and "
                   "without git it cannot. Run it in a clone")
 # PV22: on a clone fifty commits deep `lead-debt` dated every arc by the history that was there and passed, and `seal-order-
@@ -1881,11 +1927,8 @@ def gate_retraction_sweep():
 # "OPEN, the sharpest available target". The repo lost nothing; the summaries forgot.
 def gate_relay_debt():
     """B999 -- branch protection preserves FILES; nothing preserved FINDINGS (design: cc3)."""
-    import subprocess
-    r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "relay_debt.py"), *_today_args()],
-                       capture_output=True, text=True)
-    out = (r.stdout + r.stderr).strip()
-    if r.returncode != 0:
+    rc, out = _debt_checker("relay_debt.py")
+    if rc != 0:
         return False, out.replace("\n", " | ")[:400]
     return True, "ok"
 
@@ -1909,11 +1952,8 @@ def gate_retraction_debt():
 def gate_harvest_debt():
     """B1307 -- every seat branch is READ within 21 days of a push; the harvest ledger is reconciled against each seat's own index
     (MASTERPLAN v3.1 section 1a rule 3). Plain mode = instrument integrity + ageing; `review-due` runs it --strict."""
-    import subprocess
-    r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "harvest_debt.py"), "--quiet", *_today_args()],
-                       capture_output=True, text=True, timeout=300)
-    out = (r.stdout + r.stderr).strip()
-    if r.returncode != 0:
+    rc, out = _debt_checker("harvest_debt.py", "--quiet")
+    if rc != 0:
         return False, out.replace("\n", " | ")[:500]
     # A seat whose branch has moved past its pin is not a failure for 21 days, and the gate said a bare "ok" meanwhile: on
     # 2026-11-11 the advisor seat's third re-audit sat fetched and unread for eight hours while main landed twice (B1880).  The
@@ -1934,11 +1974,8 @@ def gate_lead_debt():
     """2026-10-01 -- a deferral lands as a LEAD or as an arc left at verdict OPEN, and nothing aged either (the relay and
     harvest gates age the other two kinds of debt). A ratchet: the stale counts may only shrink. Also fails on a lead number
     carried by two open leads (the E71 class, twice on 2026-09-18)."""
-    import subprocess
-    r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "lead_debt.py"), *_today_args()],
-                       capture_output=True, text=True, timeout=300)
-    out = (r.stdout + r.stderr).strip()
-    if r.returncode != 0:
+    rc, out = _debt_checker("lead_debt.py")
+    if rc != 0:
         return False, out.replace("\n", " | ")[:500]
     return True, "ok"
 
@@ -1958,11 +1995,8 @@ def gate_point_debt():
     """2026-10-13 -- the owner: "we clarify the picture, but fail to address all the points we made, and get lost to one
     of the multiple things we have to deal with." Every point a review raises has a row in docs/POINT_REGISTER.md with a
     disposition and a queue slot; no row may be deleted; a queued point unmoved for 21 days fails unless escalated."""
-    import subprocess
-    r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "point_debt.py"), *_today_args()],
-                       capture_output=True, text=True, timeout=300)
-    out = (r.stdout + r.stderr).strip()
-    if r.returncode != 0:
+    rc, out = _debt_checker("point_debt.py")
+    if rc != 0:
         return False, out.replace("\n", " | ")[:500]
     return True, out.splitlines()[0] if out else "ok"
 
@@ -2691,12 +2725,12 @@ GATES = {
 # Which gates reach git, and for what.  The table is held to the code by a lock (tests/test_gates_are_a_function_of_the_commit.py):
 # every gate NOT listed here must give the same answer with git as without it, so a new gate that calls git and is not listed
 # fails that lock; and a gate listed as reading the tracked files only may not call a git command that reads the past.
-READS_TRACKED = frozenset({                       # asks git about the commit itself -- which files are tracked, or its date
-    "arrival-phrases", "path-refs", "point-debt", "relay-debt", "retraction-sweep", "test-vacuity", "tracked-deps",
-    "tracked-forbidden"})                         # -- and nothing of the past.  point-debt: for the commit's day (PV15)
+READS_TRACKED = frozenset({                       # asks git which files are tracked, and nothing of the past
+    "arrival-phrases", "path-refs", "retraction-sweep", "test-vacuity", "tracked-deps", "tracked-forbidden"})
 READS_HISTORY = frozenset({                       # reads commits before HEAD, or other seats' branches
     "append-only", "artifact-hashes", "attribution", "closure-generated", "harvest-debt", "lead-debt",
-    "log-changelog-paired", "review-fires", "seal-immutable", "seal-order-unshown", "views-fresh", "views-generated"})
+    "log-changelog-paired", "point-debt", "relay-debt", "review-fires", "seal-immutable", "seal-order-unshown", "views-fresh",
+    "views-generated"})                           # the four debt gates: the commit's day, and that time has not run backwards
 READS_GIT = READS_TRACKED | READS_HISTORY
 
 
@@ -2707,7 +2741,7 @@ def _refusing(name, fn):
         if not args and not kwargs:
             state = checkout_state()
             if state == "export":
-                return False, REFUSED_EXPORT % ("the history" if name in READS_HISTORY else "the commit (its tracked files, or its date)")
+                return False, REFUSED_EXPORT % ("the history" if name in READS_HISTORY else "which files are tracked")
             if state == "shallow" and name in READS_HISTORY:
                 return False, REFUSED_SHALLOW
         return fn(*args, **kwargs)
