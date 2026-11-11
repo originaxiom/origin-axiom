@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1579** |
-| words of findings prose | **1,362,629** |
-| test lock files referenced | **938** |
-| arcs carrying an authored verdict | **1579** (100.0 %) |
+| research arcs with findings | **1580** |
+| words of findings prose | **1,364,789** |
+| test lock files referenced | **940** |
+| arcs carrying an authored verdict | **1580** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1088 |
+| PROVED | 1089 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1877`** (838 words, 1 locks)  
-REVIEW 78 (run at the thirty-third commit after Review 77; S306o-S306p): three of Review 77's eight items resolved (what concentrates under the move count, B1868; the register-to-field join, B1866; the closure map and programme compared with their builders at every push, a gate added here) and five carried for the first time; every seat harvested to its head; the seeded arcs B1861, B1862, B1863, B1865, B1872, all main's own, read in full by two readers who found ten faults, every one checked by main at its source and found right: three corrections made in answer to an audit of non-propagation had themselves not reached every place (the lemma's 'commuting' in three files, the premise's two cases in six, B854's scope in its verdict block), now carried, with a lock that fails wherever an old form stands without its correction beside it; one check of main's could not fail ('the twins come together', true by linearity), and the count that can -- 1376 words to 12 letters keep the eigenline, 694 the mark, 682 exchange the twins -- changes main's answer to a fork: which twin is a convention, one twin or both is not (index 12 or 6); four hand-copied counts in the closure programme's findings were stale within a day and are replaced by one line the lock compares with the builder; every refusal of the programme's builder now fires in its lock. No new error class; three known classes recurred on main's own work, each found by someone who had not written the arc. The window originated no science of main's own: it built the plan of all remaining work, took up an outside audit of 73 findings and verified eight results of the seats, which leave one object open, the weight. At the review the owner ruled, to main: the tick is an act; three sentences on the principle's wording are the owner's; a ground is the act itself; 'the ledger must close' means that the whole agrees with itself -- so the mark is both twins and the allowed subweave at level 5 is the eigenline's stabiliser, of index 6. Eleven action items, the owner's rulings carried into the governing documents first. 0 of 19.  
-`B1877_review_78_the_decadal_review/FINDINGS.md`
+**PROVED — `B1878`** (1444 words, 2 locks)  
+THE GOAL AS THE OWNER RULED IT, CARRIED INTO THE GOVERNING DOCUMENTS; TWO GATES (the first landing of P-767: rulings R1 and R3 of the eleven confirmed to main on 2026-11-10; nothing computed, no status of the foundation changed): GOVERNANCE.md now states that the programme's only goal is a parameter-free theory of everything, the sentence it replaces kept with a dated note; the ceiling is unchanged -- a goal says what is sought, and no page may say or imply that a value or the Standard Model has been derived; its label 'derives the form' is brought down to the foundation's statuses and 'closed disjoint' is read as a record of the routes tested; the claims ledger's open targets are what the goal consists of, still open; the anchor doctrine's dimensionless frame anchor is a debt to be removed and not a standing licence. One document governs (the audit's X2): GOVERNANCE.md, with GENESIS.md holding on the status of every item of the foundation by its delegation. A new gate, arrival-phrases, reads the living pages for a sentence of arrival with a window for a denial, a condition or a statement of aim, three old lines frozen; the audit's own planted sentence on the front page is refused. The attribution gate now reads every commit message after da25c4f49, the last that carried a vendor's name or a co-author trailer: 695 commits pass, and a trailer, a vendor's name and a foreign author, each committed in a small repository, are refused. The foundation's own entries are the next landing. 0 of 19.  
+`B1878_the_goal_as_ruled_in_the_governing_documents/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  

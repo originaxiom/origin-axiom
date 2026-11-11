@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1579 |
-| … PROVED | 1088 |
+| arcs with a verdict file | 1580 |
+| … PROVED | 1089 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1878 | PROVED | THE GOAL AS THE OWNER RULED IT, CARRIED INTO THE GOVERNING DOCUMENTS; TWO GATES (the first landing of P-767: rulings R1 and R3 of the eleven confirmed to main on 2026-11-10; nothing computed, no status of the foundation… |
 | B1877 | PROVED | REVIEW 78 (run at the thirty-third commit after Review 77; S306o-S306p): three of Review 77's eight items resolved (what concentrates under the move count, B1868; the register-to-field join, B1866; the closure map and p… |
 | B1876 | PROVED | THE FOUR REMAINING ATTACKS ON THE PRINCIPLE'S DRAFT: THE ADVISOR SEAT'S SEALED RUN VERIFIED ON MAIN (P-771, P-769; data-free, integers and SnapPy; the seat's code not run): all sixteen sealed hypotheses come out on main… |
 | B1875 | PROVED | A SINGLE STATE IS NOT KEPT WHEN HISTORIES ARE COMPOSED: THE WEB SEAT'S SEALED CARD VERIFIED ON MAIN (P-761, P-767, P-744, P-766; data-free; a weave question answered with the record's thread instrument for the state; th… |
@@ -42,7 +43,6 @@
 | B1869 | PROVED | THE FOUNDING PRINCIPLE READ AS A SELECTION RULE: THE ADVISOR SEAT'S SEALED RUN RE-DERIVED ON MAIN (the owner's confirmed ruling to try it; P-762; data-free, exact integers, exhaustive to 20 letters; the seat's code not… |
 | B1868 | PROVED | WHAT CONCENTRATES UNDER THE MOVE COUNT: THE WEB SEAT'S SEALED CARD VERIFIED ON MAIN (P-756 (b), the modulus's side; data-free; the seat's code read and not run; main's own code and another method, a quadrature against M… |
 | B1867 | PROVED | THE ADVISOR SEAT'S TOP-DOWN READING OF THE PRINCIPLE AND ITS LINE-OR-LOOP RULE, SCRUTINISED (the refetch the owner ordered; three notes read in full, none of the seat's code run, data-free): every fact main could test r… |
-| B1866 | PROVED | THE AGY LANE'S RELAY ON THE REGISTER-TO-FIELD JOIN, SCRUTINISED AT THE OWNER'S WORD (P-753; before anything of WP-2.2 or WP-3.2 is banked): where main can test the relay it is right -- ten of its claims verified by main… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -55,6 +55,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p THE GOAL AS THE OWNER RULED IT, IN THE GOVERNING DOCUMENTS; TWO GATES (B1878; P-767's first landing); THE SIX ARCS WHOSE SEALED SCRIPTS CHANGED, READ (P-772) (2026-11-11)
 - S306p REVIEW 78, THE DECADAL REVIEW (B1877); THE OWNER'S RULINGS OF 2026-11-11 (P-771, P-774) (2026-11-11)
 - S306p TWO SEATS' SEALED RUNS VERIFIED ON MAIN: A SINGLE STATE IS NOT KEPT UNDER COMPOSITION (B1875); THE FOUR REMAINING ATTACKS ON THE PRINCIPLE'S DRAFT (B1876; P-774, P-775) (2026-11-11)
 - S306o (the re-audit's largest item) THE SCRIPTS A SEAL HASHED: MEASURED, AND GATED (B1874; P-772 in part) (2026-11-10)
@@ -62,17 +63,16 @@
 - S306o (later) THE OWNER'S RULING ON THE LAW'S READING; ONE TICK OR TWO ACTS VERIFIED (B1871); ALL HISTORIES TOGETHER DEFINED AND ITS FACTS VERIFIED (B1872) (2026-11-10)
 - S306o (the owner's multi-agent run for the audit backlog) THE AUDIT'S BACKLOG REPRODUCED ON MAIN (B1870), AND THE PRINCIPLE AS A SELECTION RULE VERIFIED (B1869; P-762) (2026-11-10)
 - S306o (the second fetch of the evening) WHAT CONCENTRATES UNDER THE MOVE COUNT: THE WEB SEAT'S CARD VERIFIED ON MAIN (B1868; P-756 answered on the modulus's side; P-755 put to the owner) (2026-11-10)
-- S306o (the refetch, continued) THE OWNER DID NOT CONFIRM THE TWO LATER RELAYED RULINGS (P-758 closed, P-765 declined) (2026-11-10)
 
 ## The latest campaign line
 
-LATEST (2026-11-11, S306p: REVIEW 78 (B1877), AND THE OWNER'S RULINGS OF THE DAY. Two readers read five of main's own arcs in full and found ten faults; main checked each at its source and all ten are right, each corrected where the corrected line stands: three corrections that had not reached every place (the lemma's 'commuting'; the premise's two cases; B854's scope), now carried, with a lock that fails wherever an old form stands unmarked; one check that could not fail ('the twins come together', true by linearity), whose repair shows that one twin or both as the mark is a real choice (index 12 or 6); four stale counts. A new gate compares the closure map and programme with their builder…
+LATEST (2026-11-11, S306p: B1878 — THE GOAL AS THE OWNER RULED IT, IN THE GOVERNING DOCUMENTS (P-767's first landing): GOVERNANCE.md states that the programme's only goal is a parameter-free theory of everything, the sentence it replaces kept beside a dated note; the ceiling is unchanged (a goal says what is sought; 0 of 19); its label and firewall are brought to the foundation's statuses; one document governs, with GENESIS.md holding on statuses by its delegation. Two gates: `arrival-phrases` fails on a sentence of arrival on a living page (the audit's planted sentence refused), and `attribution` now reads every commit message after `da25c4f49`. Also: the six arcs whose sealed scripts chan…
 
 ## Completeness (nothing skipped silently)
 
 | check | count | first items |
 |---|---|---|
 | arc folders without a verdict file (scripts/checks/arc_data.py classifies them; its resolved R-classes are not defects) | 41 | B1840_the_principled_ends, B1842_the_closure_instruments, B263_t41_cs_levels, B452_ethogram_dictionary, B473_criticality_program, B501_universe_word |
-| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 157 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
+| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 158 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
 | register rows not in the 7-cell form | 0 | — |
 

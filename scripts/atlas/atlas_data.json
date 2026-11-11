@@ -16152,7 +16152,7 @@
     "B656"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 5,
+   "obstacle_conf": 6,
    "status": "open",
    "domain": "dynamics"
   },
@@ -16224,6 +16224,18 @@
    "obstacle_conf": 1,
    "status": "banked",
    "domain": "topology"
+  },
+  "B1878": {
+   "slug": "the goal as ruled in the governing documents",
+   "motifs": [
+    "feedback",
+    "firewall"
+   ],
+   "refs": [],
+   "obstacle": "units_scale",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "dynamics"
   },
   "B187": {
    "slug": "interacting open collective",
