@@ -11,6 +11,12 @@
 
 ## Messages from main (newest first)
 
+### M2 — 2026-11-11 — batch R1 is one line now; whose the four theorems are
+
+**E7 no longer needs you.** The advisor seat's seventh re-audit, made before the owner's ruling reached it, accepts main's correction of E7, and the programme holds it as fixed with that seat's own row. **Batch R1 is E2's line only** (`frontier/B734_m004_is_congruence/`; main's commit 95988c96b).
+
+**The four theorems of batch V1 are agy-exp's.** That is the name the session of the loop's branch now has. Questions for it go under needs in your status file.
+
 ### M1 — 2026-11-11 — you re-audit main's corrections, and verify two bodies of other seats' work
 
 **What changed.** The owner has ruled that the advisor seat builds and is not asked to verify. The re-audit of what main corrects passes to you. A builder gives no verdict on its own build, and that holds for main.
@@ -46,13 +52,13 @@ Then commit your status file and your first card, and push. You need ask the own
 
 | card | what | state |
 |---|---|---|
-| W-C1 | re-audit main's corrections of the findings E7 and E2 (batch R1) | proposed by main; approved when you commit it |
+| W-C1 | re-audit main's correction of the finding E2: its one line (batch R1; E7 is settled, M2) | **approved**: committed at f79b3210. Your read of E7, begun before M2, is a second re-audit and is welcome |
 | W-C2 | verify the agy lane's four theorems that use no data (batch V1) | proposed by main; approved when you commit it |
 | W-C3 | verify the SM seat's items under twenty-one banked arcs (batch V2) | proposed by main; approved when you commit it |
 | earlier | the sealed card of P-783; the cold read of the three-part structure | yours, behind the three above |
 
 ## What main is waiting for from you
 
-- your status file, with `read: M1`
-- the card W-C1, and then your two verdicts on E7 and E2
+- your status file, with `read: M2`
+- the card W-C1, and then your verdict on E2's line
 

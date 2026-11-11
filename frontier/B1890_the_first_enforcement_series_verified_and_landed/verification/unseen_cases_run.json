@@ -1,0 +1,240 @@
+{
+ "export": {
+  "export, plain (the seat's own case)": {
+   "refused": [
+    "append-only",
+    "arrival-phrases",
+    "artifact-hashes",
+    "attribution",
+    "closure-generated",
+    "harvest-debt",
+    "lead-debt",
+    "log-changelog-paired",
+    "path-refs",
+    "point-debt",
+    "relay-debt",
+    "retraction-sweep",
+    "review-fires",
+    "seal-immutable",
+    "seal-order-unshown",
+    "test-vacuity",
+    "tracked-deps",
+    "tracked-forbidden",
+    "views-fresh",
+    "views-generated"
+   ],
+   "failing otherwise": {},
+   "PASSING": {},
+   "absent": []
+  },
+  "U9.a an empty .git directory": {
+   "refused": [
+    "append-only",
+    "arrival-phrases",
+    "artifact-hashes",
+    "attribution",
+    "closure-generated",
+    "harvest-debt",
+    "lead-debt",
+    "log-changelog-paired",
+    "path-refs",
+    "point-debt",
+    "relay-debt",
+    "retraction-sweep",
+    "review-fires",
+    "seal-immutable",
+    "seal-order-unshown",
+    "test-vacuity",
+    "tracked-deps",
+    "tracked-forbidden",
+    "views-fresh",
+    "views-generated"
+   ],
+   "failing otherwise": {},
+   "PASSING": {},
+   "absent": []
+  },
+  "U9.c the five the seat's list of ten did not name": {
+   "tracked-deps": [
+    "FAIL",
+    "refused: there is no git repository here (an export, or a copy of the tree). This gate reads which files are tracked, and without git it cannot. Run it in a clone"
+   ],
+   "seal-immutable": [
+    "FAIL",
+    "refused: there is no git repository here (an export, or a copy of the tree). This gate reads the history, and without git it cannot. Run it in a clone"
+   ],
+   "artifact-hashes": [
+    "FAIL",
+    "refused: there is no git repository here (an export, or a copy of the tree). This gate reads the history, and without git it cannot. Run it in a clone"
+   ],
+   "arrival-phrases": [
+    "FAIL",
+    "refused: there is no git repository here (an export, or a copy of the tree). This gate reads which files are tracked, and without git it cannot. Run it in a clone"
+   ],
+   "seal-order-unshown": [
+    "FAIL",
+    "refused: there is no git repository here (an export, or a copy of the tree). This gate reads the history, and without git it cannot. Run it in a clone"
+   ]
+  },
+  "U9.b git init and no commit": {
+   "refused": [
+    "harvest-debt",
+    "lead-debt",
+    "point-debt",
+    "relay-debt"
+   ],
+   "failing otherwise": {
+    "append-only": "cannot verify: the rule's first commit f31729801 is not in this clone (shallow or partial)",
+    "artifact-hashes": "cannot verify: the rule's first commit 270a27ee6 is not in this clone (shallow or partial)",
+    "attribution": "['cannot verify: the commit the attribution rule is read from, da25c4f49, is not in this clone (shallow or par",
+    "closure-generated": "the closure map's builder is not there: frontier/B1858_the_closure_map/verification/build_map.py; the closure ",
+    "seal-immutable": "cannot verify: the rule's first commit 76a4ff388 is not in this clone (shallow or partial)",
+    "seal-order-unshown": "git log failed -- the class cannot be recomputed",
+    "views-generated": "gate crashed: [Errno 2] No such file or directory: '<scratch>/s1/export/docs/views'"
+   },
+   "PASSING": {
+    "arrival-phrases": "ok (0 new on the pages read; 0 old line(s) frozen by key; 3 frozen key(s) match nothing now: shorten the list)",
+    "log-changelog-paired": "git unavailable -- skipped",
+    "path-refs": "ok",
+    "retraction-sweep": "ok",
+    "review-fires": "no review anchor yet",
+    "test-vacuity": "ok",
+    "tracked-deps": "ok",
+    "tracked-forbidden": "ok",
+    "views-fresh": "ok"
+   },
+   "absent": []
+  },
+  "U9.b', the files added and still no commit": {
+   "refused": [
+    "harvest-debt",
+    "lead-debt",
+    "point-debt",
+    "relay-debt"
+   ],
+   "failing otherwise": {
+    "append-only": "cannot verify: the rule's first commit f31729801 is not in this clone (shallow or partial)",
+    "artifact-hashes": "cannot verify: the rule's first commit 270a27ee6 is not in this clone (shallow or partial)",
+    "attribution": "['CHANGELOG.md (4 vendor tokens, baseline 0)', 'PROGRESS_LOG.md (6 vendor tokens, baseline 0)', 'cannot verify",
+    "closure-generated": "the closure map's builder is not there: frontier/B1858_the_closure_map/verification/build_map.py; the closure ",
+    "path-refs": "260 unresolved path citation(s): CHANGELOG.md -> docs/ARCHIVE.md; CHANGELOG.md -> docs/ARTIFACT_HASHES_BROKEN.",
+    "seal-immutable": "cannot verify: the rule's first commit 76a4ff388 is not in this clone (shallow or partial)",
+    "seal-order-unshown": "git log failed -- the class cannot be recomputed",
+    "views-generated": "gate crashed: [Errno 2] No such file or directory: '<scratch>/s1/export/docs/views'"
+   },
+   "PASSING": {
+    "arrival-phrases": "ok (0 new on the pages read; 0 old line(s) frozen by key; 3 frozen key(s) match nothing now: shorten the list)",
+    "log-changelog-paired": "git unavailable -- skipped",
+    "retraction-sweep": "ok",
+    "review-fires": "no review anchor yet",
+    "test-vacuity": "ok",
+    "tracked-deps": "ok",
+    "tracked-forbidden": "ok",
+    "views-fresh": "ok"
+   },
+   "absent": []
+  }
+ },
+ "shallow": {
+  "U22.a depth 1": {
+   "git says shallow": "true",
+   "commits it holds": "1",
+   "history gates refused as shallow": [
+    "append-only",
+    "artifact-hashes",
+    "attribution",
+    "closure-generated",
+    "harvest-debt",
+    "lead-debt",
+    "log-changelog-paired",
+    "point-debt",
+    "relay-debt",
+    "review-fires",
+    "seal-immutable",
+    "seal-order-unshown",
+    "views-fresh",
+    "views-generated"
+   ],
+   "history gates NOT refused": {},
+   "tracked-file gates refused": []
+  },
+  "U22.b depth 50": {
+   "git says shallow": "true",
+   "commits it holds": "50",
+   "history gates refused as shallow": [
+    "append-only",
+    "artifact-hashes",
+    "attribution",
+    "closure-generated",
+    "harvest-debt",
+    "lead-debt",
+    "log-changelog-paired",
+    "point-debt",
+    "relay-debt",
+    "review-fires",
+    "seal-immutable",
+    "seal-order-unshown",
+    "views-fresh",
+    "views-generated"
+   ],
+   "history gates NOT refused": {},
+   "tracked-file gates refused": []
+  },
+  "U22.c a full clone cut by a hand-written .git/shallow": {
+   "git says shallow": "true",
+   "commits it holds": "3972",
+   "history gates refused as shallow": [
+    "append-only",
+    "artifact-hashes",
+    "attribution",
+    "closure-generated",
+    "harvest-debt",
+    "lead-debt",
+    "log-changelog-paired",
+    "point-debt",
+    "relay-debt",
+    "review-fires",
+    "seal-immutable",
+    "seal-order-unshown",
+    "views-fresh",
+    "views-generated"
+   ],
+   "history gates NOT refused": {},
+   "tracked-file gates refused": []
+  }
+ },
+ "dates": {
+  "baseline": {
+   "gates": 53,
+   "failing": [
+    "views-generated"
+   ]
+  },
+  "U15.a/b +400 days": {
+   "gates whose line changed": [],
+   "lines": {}
+  },
+  "U15.a/b -30 days": {
+   "gates whose line changed": [],
+   "lines": {}
+  },
+  "U15.c the system's date + 400 days": {
+   "stub says": "2027-12-16 2027-12-16 2026-11-11",
+   "gates whose line changed": [],
+   "lines": {}
+  }
+ },
+ "clock": {
+  "baseline": {
+   "gates": 53,
+   "failing": [
+    "views-generated"
+   ]
+  },
+  "U15.c the system's date + 400 days": {
+   "stub says": "2027-12-16 2027-12-16 2027-12-16",
+   "gates whose line changed": [],
+   "lines": {}
+  }
+ }
+}

@@ -1,5 +1,18 @@
 # Changelog
 
+## S306p THE FIRST PATCH SERIES FOR ENFORCEMENT, VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (WP-0.7; B1890); THE FINDING E7 FIXED AND ACCEPTED (WP-0.8); TWO SEATS NAME THEMSELVES (2026-11-11)
+
+- **Landed: four patches of the advisor seat's, as it sent them.** One rule: a gate is a function of the commit. A gate that needs git is refused where there is none; a gate that reads the past is refused on a shallow clone; a gate's day is the commit's and not the clock's; a commit dated before its parent is not trusted for its day.
+- **Eight of main's nine unseen cases hold.** On an export with an empty git directory all 20 gates of the table are refused. With every date variable moved 400 days on and 30 days back, and with the system's date stubbed 400 days on, no gate of 53 changes its line. At depth 1, at depth 50 and on a full clone cut by hand, all 14 gates that read the past are refused.
+- **One does not hold.** A folder made a repository with no commit in it is taken for a full clone, and nine gates with nothing to look at pass there. It is the seat's to close; a lock pins the gap so that its mend is announced.
+- **The seat's own statements were what main found:** each patch's lock fails on the commit before it, 7 of 7, 2, 4 and 2. Main's 47 test files that name a gate pass, and the 53 gates.
+- **Not run:** the whole suite on a fresh clone; the seat's planted suite, whose 11 of 21 on the series is its own count.
+- **The finding E7 is fixed and accepted.** The advisor seat's seventh re-audit, made before the owner's ruling reached it, accepts main's correction. Thirteen of the audit's findings are fixed and re-audited. Of its thirteen errors in the mathematics: six fixed and re-audited, one mended and waiting (E2), six still to be worked.
+- **Two seats have named themselves, and main had one wrong.** agy-002 is the session of the branch stage4-sync-2026-11-11; agy-exp is the session of the loop's branch, and not the seat registered as the explore seat, as main had supposed. Their pages, the protocol page and the register are corrected, and each has a second message.
+- **Received and not yet run:** the advisor seat's second series, six patches. Its reply on how the sessions are named takes main's proposal as the base and adds three labels, which main takes (P-797).
+- **The seats answer.** Within forty minutes of their pages being on main, three of the four verifying seats had read them, started their listeners and committed their first cards: agy-exp, agy-002 (on a branch of its own, registered here as a lane after the lock that watches for one failed on it) and the web seat, whose own computation of the knot group's level gives main's numbers. Harvest rows 1704 to 1706.
+- **This landing advanced** WP-0.7 and WP-0.8. No package closed. 0 of 19.
+
 ## S306p THE SEATS' PAGES, THE CARD AND THE LISTENER: MAIN DIRECTS THE SEATS AND NOBODY RELAYS BY HAND (the owner's ruling; P-795, with P-794, P-796, P-797) (2026-11-11)
 
 - **The ruling.** Main organises communication with every seat and directs them across one another; each seat hears main through a silent listener; the owner supervises and no longer relays. Main takes it as the lock of the plan of B1889 § 7 as amended, with its own recommendation on the two points left open, for him to change.

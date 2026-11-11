@@ -8,6 +8,7 @@
   "E4": "partly, as main says",
   "E5": "accepted (re-audit 6): the claim computed again by another route, exactly over the rationals where it can be and at 60 digits where it cannot; two notes, neither a residual, both since run or recorded by main",
   "E6": "accepted",
+  "E7": "accepted (re-audit 7): the verdict is not PROVED, the unpriced row and the embedding choice are in the claim line, one endpoint is credited and named, and the correction leads the line",
   "E8": "partly, as main says",
   "G1": "accepted, with three residuals (re-audit 2); the second, a waiver that hides its violation, accepted as mended (re-audit 3). Left: the log's archives, and history before the rule",
   "G2": "accepted, with three residuals (re-audit 3, of the gate for the scripts a seal hashed); all three accepted as mended (re-audit 5), the third for text files: a list of hashes kept in a page or a data file is still not read",
@@ -19,8 +20,8 @@
   "X2": "agreed: partly (re-audit 4); GENESIS.md's own line still says that it holds"
  },
  "accepted_at": [
-  "8d90a5b2a",
-  "REAUDIT_6_2026-11-11.md"
+  "338b14fe3",
+  "REAUDIT_7_2026-11-11.md"
  ],
  "also": {
   "D:01": [
@@ -885,9 +886,15 @@
    "wp": "WP-0.8"
   },
   "E7": {
-   "note": "MENDED ON MAIN, AND NOT COUNTED AS FIXED UNTIL THE ADVISOR SEAT HAS RE-AUDITED IT. B1028's verdict is OPEN and its headline number is withdrawn as a measurement: the walk sums eleven prices typed 0.0 and asserts the sum is 0.0, and its check is a substring match that still passes on B997's line, since corrected to say the door set is {1, 4}. The claim line names what is not priced (the family declaration, by the ledger's own addendum; the selection within the family; the choice of the principal embedding) and the one endpoint credited, the algebra of dimension 14; the claim as first asserted is kept after the correction. The correction is carried to the roadmap, the claim page, the framework page and seven other pages, and a lock fails if any page states the zero without it; the lock also shows the fault on the walk itself. Before (main's own count): eleven typed zeros are summed and asserted to be zero; the arc's addendum says one row is unpriced and its verdict line was not changed",
+   "note": "B1028's verdict is OPEN and its headline number is withdrawn as a measurement: the walk sums eleven prices typed 0.0 and asserts the sum is 0.0, and its check is a substring match that still passes on B997's line, since corrected. The claim line names what is not priced (the family declaration, the selection within the family, the principal embedding) and the one endpoint it credits, and the correction stands on every page that quoted the zero, with a lock that fails if any states it without. THE ADVISOR SEAT'S SEVENTH RE-AUDIT ACCEPTS IT against its acceptance row, and notes that the correction leads the line. What the chain's freedom costs stays an open question with its own row (P-789)",
    "short": "B1028's zero is a sum of typed zeros",
-   "state": "PARTLY FIXED",
+   "state": "FIXED",
+   "trail": [
+    [
+     "PARTLY FIXED",
+     "MENDED ON MAIN, AND NOT COUNTED AS FIXED UNTIL THE ADVISOR SEAT HAS RE-AUDITED IT. B1028's verdict is OPEN and its headline number is withdrawn as a measurement: the walk sums eleven prices typed 0.0 and asserts the sum is 0.0, and its check is a substring match that still passes on B997's line, since corrected to say the door set is {1, 4}. The claim line names what is not priced (the family declaration, by the ledger's own addendum; the selection within the family; the choice of the principal embedding) and the one endpoint credited, the algebra of dimension 14; the claim as first asserted is kept after the correction. The correction is carried to the roadmap, the claim page, the framework page and seven other pages, and a lock fails if any page states the zero without it; the lock also shows the fault on the walk itself. Before (main's own count): eleven typed zeros are summed and asserted to be zero; the arc's addendum says one row is unpriced and its verdict line was not changed"
+    ]
+   ],
    "was": [
     "REPRODUCED",
     "main's own count: eleven typed zeros are summed and asserted to be zero; the arc's addendum says one row is unpriced and its verdict line was not changed"
@@ -5049,6 +5056,10 @@
   "REAUDIT_6_2026-11-11.md": [
    "72929e16e",
    "8d90a5b2a"
+  ],
+  "REAUDIT_7_2026-11-11.md": [
+   "7c83b9799",
+   "338b14fe3"
   ]
  },
  "released": {
@@ -5238,9 +5249,9 @@
  "stats": {
   "audit_findings": 73,
   "audit_findings_by_state": {
-   "FIXED": 12,
+   "FIXED": 13,
    "OPEN": 0,
-   "PARTLY FIXED": 18,
+   "PARTLY FIXED": 17,
    "READER": 3,
    "REPRODUCED": 40
   },
@@ -5276,7 +5287,7 @@
   ],
   "findings_that_bear_on_the_repository_as_a_whole": 34,
   "findings_that_name_arcs_nodes_or_pages_only": 39,
-  "findings_with_a_re_audit_verdict": 17,
+  "findings_with_a_re_audit_verdict": 18,
   "fixed_and_not_yet_re_audited": [],
   "forcing_arguments_one_clause_short": 3,
   "headline_results_not_yet_results_on_main": [
@@ -5429,6 +5440,12 @@
    [
     "REAUDIT_2_2026-11-10.md",
     "| **E6** B862's kernel | **accepted** |"
+   ]
+  ],
+  "E7": [
+   [
+    "REAUDIT_7_2026-11-11.md",
+    "| **E7** the freedom ledger's zero | PARTLY FIXED: mended, not counted | **accepted** |"
    ]
   ],
   "E8": [

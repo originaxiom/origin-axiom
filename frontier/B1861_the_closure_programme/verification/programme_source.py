@@ -725,6 +725,17 @@ U("E2", "PARTLY FIXED", "the knot group's congruence level is (4): the lock asse
   "withdrawn in the theorem ledger on 2026-09-16, is withdrawn in the three places it still stood")
 SINCE_REAUDIT["E2"] = ("B734", "the claim line leads with the correction, and a test holds the order; the docstring's wording; the sweep widened to the shapes the re-audit planted, with three more places corrected; the withdrawn gloss withdrawn where it stood")
 
+# THE SEAT'S SEVENTH RE-AUDIT (2026-11-11), of main at 338b14fe3: main's third mend of the errors in the mathematics, E7.  Accepted.  It
+# was made before the owner's ruling that this seat builds and is not asked to verify had reached it (P-792), and is taken as delivered.
+REAUDITS["REAUDIT_7_2026-11-11.md"] = ("7c83b9799", "338b14fe3")
+VERDICT_ROWS["E7"] = [("REAUDIT_7_2026-11-11.md", "| **E7** the freedom ledger's zero | PARTLY FIXED: mended, not counted | **accepted** |")]
+ACCEPTED.update({"E7": "accepted (re-audit 7): the verdict is not PROVED, the unpriced row and the embedding choice are in the claim line, one endpoint is credited and named, and the correction leads the line"})
+ACCEPTED_AT = ("338b14fe3", "REAUDIT_7_2026-11-11.md")
+U("E7", "FIXED", "B1028's verdict is OPEN and its headline number is withdrawn as a measurement: the walk sums eleven prices typed 0.0 and asserts the sum is 0.0, and its check is a substring match that still passes on "
+  "B997's line, since corrected. The claim line names what is not priced (the family declaration, the selection within the family, the principal embedding) and the one endpoint it credits, and the correction stands "
+  "on every page that quoted the zero, with a lock that fails if any states it without. THE ADVISOR SEAT'S SEVENTH RE-AUDIT ACCEPTS IT against its acceptance row, and notes that the correction leads the line. What "
+  "the chain's freedom costs stays an open question with its own row (P-789)")
+
 # the owner's rulings of 2026-11-10 AS RELAYED by the advisor seat. The relay's own rule, and main's: each is confirmed with the
 # owner once before main acts on it. Main asked on 2026-11-10 about the eleven then relayed; the owner answered main the same day,
 # in the words kept in CONFIRMATION below. The two relayed after main had asked were not covered by that answer; asked about them,

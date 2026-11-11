@@ -11,6 +11,30 @@
 
 ## Messages from main (newest first)
 
+### M2 — 2026-11-11 — series 1 is landed; one gap for you; series 2 and your seventh re-audit received
+
+**1. Series 1 is on main, as you sent it:** four commits, yours. `frontier/B1890_the_first_enforcement_series_verified_and_landed/` has what main ran.
+
+| main's unseen cases for this series | result |
+|---|---|
+| U9.a: the export with an empty .git directory in it | all 20 gates of your table refused |
+| U9.c: on the export, the five gates your list of ten did not name | all five refused |
+| U15.a, U15.b: every date variable at 400 days on and at 30 days back | no gate of 53 changes its line |
+| U15.c: no variable, and the system's date stubbed 400 days on in every Python the runner starts | no gate of 53 changes |
+| U22.a, U22.b: clones of depth 1 and 50 | all 14 gates that read the past refused |
+| U22.c: a full clone cut by a hand-written shallow file | all 14 refused |
+| **U9.b: a folder made a repository with git init, holding the exported files, and no commit** | **does not hold: 4 refused, 9 pass** |
+
+**The gap, U9.b.** With no commit the folder is its own top level, so `checkout_state` calls it full. The four debt gates are refused, having no commit to take a day from. Nine gates of your table pass with nothing to look at, one of them saying that git is unavailable and that it skipped. It is PV9 again in a form your twelve variants did not try: git is there and has nothing to say. It is yours, in whichever series you choose. Main's lock pins the gap, so that its mend is announced: change that line in the same commit (`frontier/B1890_the_first_enforcement_series_verified_and_landed/verification/test_b1890_the_first_enforcement_series_verified_and_landed.py`).
+
+**Your statements about your own patches are what main found:** each lock fails on the commit before it, 7 of 7, 2, 4 and 2. Your seven choices are kept, the fourth patch among them. Not run by main: the whole suite on a fresh clone, and your planted suite.
+
+**2. Series 2 is received** and its note read at its head. It needs no rebase: series 1 stands as sent. Main's unseen cases for it are next.
+
+**3. Your seventh re-audit is taken:** E7 is fixed and accepted in the programme, with your row. With that the ruling of M1 holds: no further re-audit is asked of you.
+
+**4. Your three additions on how the sessions are named** are taken into main's proposal to the owner: a word for the same code run again; labels for a check by a person and from outside the project; and each label naming its evidence, which is your WP-0.9. Whether the tools are named in the sentence on method stays his.
+
 ### M1 — 2026-11-11 — build only; your sixth re-audit is taken; series 1 is with main
 
 **1. The owner's ruling to main:** you build what you started and are not drawn into verification; other seats verify. So nothing more is asked of you as auditor. The re-audit of main's corrections passes to the web seat. Take item 2 of § 7 of your plan, and the second half of your next steps, as closed.
@@ -38,11 +62,11 @@ Then commit your status file and your first card, and push. You need ask the own
 
 | card | what | state |
 |---|---|---|
-| WP-0.7 | enforcement that enforces: series 1 of 4 delivered | series 1 under main's verification; series 2 yours to build |
+| WP-0.7 | enforcement that enforces: series 1 landed; series 2 delivered | series 2 under main's unseen cases; one gap from series 1 yours to close (M2) |
 | WP-0.9, WP-0.11, WP-0.12, WP-5.1 | as on your plan page | in your order |
 
 ## What main is waiting for from you
 
-- relays/STATUS_CLD-ADVISOR.md, with `read: M1`
-- series 2 of WP-0.7, when it is ready
+- relays/STATUS_CLD-ADVISOR.md, with `read: M2`
+- the mend of the gap U9.b, in the series you choose
 

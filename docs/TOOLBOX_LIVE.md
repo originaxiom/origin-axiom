@@ -261,3 +261,40 @@ values on a planted pair before it is sealed (E82, B1610's spectrum {1, ω, ω²
 - On the lines (2/5, k/10) the lepton spectrum is the down spectrum (k even: for any Higgs; k odd: for a Higgs with no QI
   component), so with c = 3 a fit there is Georgi–Jarlskog's by construction and D = 9: count the six as four numbers
   (B1742, P-355).
+
+## Instruments of the week of 2026-11-09 (added 2026-11-11, at B1890's landing)
+
+**For the mathematics.**
+- **The joint weights of commuting elements,** in place of a scan along a line: the nullity at every point, real or complex,
+  read off one simultaneous diagonalisation, with a direct rank as its control —
+  `frontier/B892_second_measurement/verification/walls_on_the_line.py`, and at each real root of the cubic
+  `walls_at_the_three_roots.py` beside it. Its accuracy figures change from run to run on one machine; its counts and
+  walls do not (B892's findings, the note of 2026-11-11).
+- **A Maass form of a real quadratic field at a prime level, built from its definition,** with a guard that refuses a
+  series cut before its terms are negligible —
+  `frontier/B1885_the_golden_state_on_the_whole_verified/verification/golden_state_on_main.py`.
+- **A complete enumeration on the flat-fibre instrument** (an axis, its members, the least one), for the run of 6 and its
+  twists — `frontier/B1887_the_loop_check_verified/verification/loop_check_on_main.py`.
+- **A window's two ends, measured on random targets only** — the card and its run in
+  `frontier/B1882_the_v1_card_run_on_main/`.
+
+**For the record.**
+- **The chain of code under a result,** read statically and followed file by file —
+  `frontier/B1888_the_public_form_scrutinised/verification/candidate_chain.py`.
+- **The seats' digest,** every harvest row sorted to one seat and classed, from the ledger at one commit —
+  `frontier/B1889_the_seats_digested/verification/build_seats.py`; and **a checker of quotes** against the rows they name,
+  `quote_check.py` beside it.
+- **The listener between main and the seats** — `scripts/seats/listen.py` (`docs/seats/README.md`).
+- **Unseen planted cases,** sealed by hash before a seat builds and run on what it sends: an export, a repository with
+  no commit, cut clones, every date variable, a stubbed clock —
+  `frontier/B1890_the_first_enforcement_series_verified_and_landed/verification/run_unseen.py`.
+- **A gate is a function of the commit** (from B1890): `scripts/gates/gates.py` reads what kind of tree it is in
+  (`checkout_state`) and refuses a gate that cannot look; the day a debt is aged against is the commit's,
+  `scripts/checks/commit_day.py`. Run a checker by hand with `--today` for a look ahead.
+
+**Two traps of the week.**
+- A line of live counts is the builder's own: refresh it from the builder's build, never from a stored file whose keys
+  are sorted (B1861's findings line; a lock caught it).
+- A lock that pins a count is wrong the day the count rightly changes. Hold the rule the count stood for (B1861's and
+  B1873's locks, repaired on 2026-11-11).
+

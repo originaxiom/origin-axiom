@@ -224,6 +224,8 @@ Main's proposal for who checks whom with those four, put to him and not yet answ
 
 Two guardrails for the two agy seats: only work that uses no measured data, and main recomputes the deciding number before it banks.
 
+**Corrected the same evening.** The two agy seats have said who they are: agy-002 is the session of the branch stage4-sync-2026-11-11, and agy-exp that of the branch self-consistent-loop-2026-11-11. Neither is the seat this page's § 3 calls the explore seat; main had supposed that agy-exp was.
+
 **First what the plan rests on, not everything:** the 26 debts of the package "unverified premises and seat results
 under banked results", and those 21 arcs. The rest is verified when a card needs it.
 

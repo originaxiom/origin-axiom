@@ -578,11 +578,11 @@ def test_the_refusals_about_the_seats_verdicts_can_fire():
     with planted(j4_borrowed, restore) as f:
         assert any("the row that carries the verdict in force on E4 does not name that finding" in x for x in f), f[:4]
     def others():
-        S.ACCEPTED["E7"] = "accepted"                                   # a verdict with no row
+        S.ACCEPTED["E12"] = "accepted"                                  # a verdict with no row (E12: until 2026-11-11 this plant used E7, which has had a row since the seat's seventh re-audit)
         S.VERDICT_ROWS["E6"] = [("REAUDIT_9_2099-01-01.md", S.VERDICT_ROWS["E6"][0][1])]
         S.VERDICT_ROWS["E9"] = [("REAUDIT_2_2026-11-10.md", "| **E9** a row |")]      # a row for a finding with no verdict
     with planted(others, restore) as f:
-        for want in ("the re-audit's verdict on E7 has no row of the seat's file behind it",
+        for want in ("the re-audit's verdict on E12 has no row of the seat's file behind it",
                      "a verdict row for E6 names a re-audit the programme does not hold: REAUDIT_9_2099-01-01.md",
                      "a row of a re-audit is quoted for E9, which has no verdict here"):
             assert any(want in x for x in f), (want, f[:4])

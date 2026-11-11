@@ -1,0 +1,27 @@
+{
+ "id": "B1890",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1870",
+  "B1880",
+  "B1889"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the advisor seat (cld-advisor): its first patch series for the enforcement package, four patches, with its note and its plan page (@ c2aeef8c), each read in full and the patches line by line; applied on main as its four commits"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (a test of the record's own instruments)",
+  "object": "the gate runner and the four debt checkers at main's head with the series applied; nine planted cases written before the series existed",
+  "domain": "the 53 gates as the runner prints them, on an export, on three cut clones, on a repository with no commit, and on the full checkout under five date variables and a stubbed clock",
+  "not_covered": "the whole suite on a fresh clone; the seat's planted suite, whose count on the series is the seat's; a history cut by other means than a shallow file; what git itself reads of the clock"
+ },
+ "claim_one_line": "THE FIRST PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7), BUILT BY THE ADVISOR SEAT, VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED: four patches under the rule that a gate is a function of the commit (a gate that needs git is refused where there is none; a gate that reads the past is refused on a shallow clone; a gate's day is the commit's and not the clock's; a commit dated before its parent is not trusted for its day). EIGHT OF MAIN'S NINE UNSEEN CASES HOLD: on an export with an empty .git directory all 20 gates of the table are refused, the five gates the seat's own list of ten did not name among them; with the five date variables set 400 days on and 30 days back, and with the system's date stubbed 400 days on, no gate of 53 changes its line; at depth 1, at depth 50 and on a full clone cut by a hand-written shallow file, all 14 gates that read the past are refused. ONE DOES NOT HOLD: a folder initialised as a repository with no commit is read as a full clone, and nine gates that have nothing to look at pass there; it is the seat's to close in a later series. Each patch's lock fails on the commit before it in the numbers the seat gave (7 of 7, 2, 4, 2); the series' lock passes (14); main's 47 test files that name a gate pass once the views are generated; 53 gates pass. Not run: the whole suite on a fresh clone, and the seat's planted suite, whose 11 of 21 is the seat's count.",
+ "weave_or_thread": "n/a (a test of the record's instruments; no statement about the weave or a history)"
+}

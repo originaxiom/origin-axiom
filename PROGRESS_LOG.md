@@ -19617,3 +19617,21 @@ seat's check. Six are left.
 
 0 of 19.
 
+## 2026-11-11 — The first batch of repairs to our automatic checks is in, tested with cases their builder had not seen (B1890)
+
+**What was built.** The session that builds our tooling sent four changes to the automatic checks. They share one idea: a check must give the same answer for the same version of the repository, wherever and whenever it is run. Before, some checks passed on a bare copy with no history, where they had nothing to look at, and three gave a different answer depending on the day.
+
+**How main tested it.** Before the builder wrote anything, main had written down its own test cases and kept them hidden, publishing only a fingerprint of the file. Nine of those cases apply to this batch. Main ran them.
+
+**The result.** Eight of the nine behave as they should. Moving the date four hundred days forward changes no check's answer. A copy with no history, and three kinds of cut-short history, are all refused with a plain reason. The ninth case found a real hole: a folder that has been set up as a repository but holds no saved version is treated as complete, and nine checks pass there with nothing to look at. The builder has been told and will close it.
+
+**The changes are now part of the repository.** The builder's own description of them matched what main found.
+
+**One more correction accepted.** The same session, before it was told to stop checking others, had checked main's third correction of the day and accepts it. So of the thirteen errors in the mathematics that the audit found, six are now fixed and checked by someone else, one is corrected and waits for that check, and six are still to be worked.
+
+**A mistake of main's about the team.** Two sessions introduced themselves under the names the owner gave them. Main had assumed one of them was a different session. It was wrong, and the pages are corrected.
+
+**Which pieces of the plan moved.** The checks that keep the record honest, and the errors in the mathematics. No piece closed.
+
+0 of 19.
+

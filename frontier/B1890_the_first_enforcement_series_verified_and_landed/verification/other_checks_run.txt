@@ -1,0 +1,38 @@
+EACH PATCH'S LOCK, RUN ON THE COMMIT BEFORE THE PATCH
+== patch 1 (b82e827c9): its lock on the commit before it (e6298271a)
+FAILED tests/test_gates_are_a_function_of_the_commit.py::test_on_an_export_the_ten_gates_that_need_git_do_not_pass
+FAILED tests/test_gates_are_a_function_of_the_commit.py::test_an_export_a_copy_and_a_folder_inside_another_repository_are_all_read_as_exports
+FAILED tests/test_gates_are_a_function_of_the_commit.py::test_in_a_clone_no_gate_is_refused
+FAILED tests/test_gates_are_a_function_of_the_commit.py::test_a_gate_is_one_thing_in_the_table_and_under_its_own_name
+FAILED tests/test_gates_are_a_function_of_the_commit.py::test_a_test_may_still_drive_a_gate_on_a_tree_of_its_own
+FAILED tests/test_gates_are_a_function_of_the_commit.py::test_a_gate_that_is_not_in_the_table_answers_the_same_with_git_as_without
+FAILED tests/test_gates_are_a_function_of_the_commit.py::test_a_gate_listed_as_reading_the_tracked_files_only_reads_nothing_of_the_past
+7 failed in 2.23s
+== patch 2 (9a3bb1311): its lock on the commit before it (b82e827c9)
+        """PV22, the refusal.  The planted case ran `lead-debt` on a clone fifty commits deep and it passed."""
+FAILED tests/test_gates_are_a_function_of_the_commit.py::test_a_shallow_clone_is_read_as_shallow_at_any_depth
+FAILED tests/test_gates_are_a_function_of_the_commit.py::test_on_a_shallow_clone_every_gate_that_reads_the_past_is_refused_and_says_why
+2 failed, 7 passed in 33.80s
+== patch 3 (a20250d2e): its lock on the commit before it (9a3bb1311)
+            for n, line in enumerate(p.read_text(encoding="utf-8", errors="replace").splitlines(), 1):
+FAILED tests/test_gates_are_a_function_of_the_commit.py::test_a_debt_gate_answers_the_same_whatever_day_the_environment_names
+FAILED tests/test_gates_are_a_function_of_the_commit.py::test_no_gate_and_no_checker_reads_the_wall_clock
+FAILED tests/test_gates_are_a_function_of_the_commit.py::test_the_day_is_decided_in_one_place_and_in_one_order
+FAILED tests/test_gates_are_a_function_of_the_commit.py::test_a_gate_listed_as_reading_the_tracked_files_only_reads_nothing_of_the_past
+4 failed, 8 passed in 141.70s (0:02:21)
+== patch 4 (7160aee2c): its lock on the commit before it (a20250d2e)
+FAILED tests/test_gates_are_a_function_of_the_commit.py::test_a_commit_dated_before_its_parent_is_refused_as_a_day
+FAILED tests/test_gates_are_a_function_of_the_commit.py::test_the_debt_gates_do_not_answer_on_a_day_that_cannot_be_trusted
+2 failed, 12 passed in 121.68s (0:02:01)
+RC=done
+
+MAIN'S OWN TESTS THAT NAME A GATE OR A DEBT CHECKER (47 files), ON THE END OF THE SERIES, VIEWS NOT YET REGENERATED
+FAILED tests/test_b887_gate_audit.py::test_all_twenty_gates_pass_now - Assert...
+FAILED tests/test_repo_gates.py::test_all_gates_pass - AssertionError: {'view...
+2 failed, 366 passed, 5 skipped, 1 warning in 756.47s (0:12:36)
+RC=1
+
+THE TWO THAT FAILED, AND THE 53 GATES, AFTER THE VIEWS WERE REGENERATED IN THE SCRATCH CHECKOUT
+8 passed, 1 warning in 175.49s (0:02:55)
+RC=0
+53

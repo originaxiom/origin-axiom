@@ -189,6 +189,11 @@ SEATS = [
          remotes=("origin",), cell=("agy lane",)),
     dict(key="agyloop", label="the agy lane (self-consistent-loop-2026-11-11)", branch="self-consistent-loop-2026-11-11",
          remotes=("origin",), cell=("agy lane",)),
+    # ADDED 2026-11-11 (B1890's landing): agy-002, a session of the agy family that the owner named and made one of four verifying
+    # seats (P-798), cut this branch from main at 2f3984d27 for its cards; its earlier work is on stage4-sync-2026-11-11 above.
+    # Read through the mask like every branch of that family; its code is never run by main.
+    dict(key="agy002", label="agy-002 (verify)", branch="verify",
+         remotes=("origin",), cell=("agy-002",)),
     # ADDED 2026-10-03 (B1461), found by the lane survey in S44's suite: a one-commit branch pushed to both remotes
     # at 01:18 UTC that day, an illustration under art/ with no programme content and an author field that is not
     # the repository's. Not a seat; registered so that it is watched, pinned at its head so it carries no items;

@@ -79,8 +79,8 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 
 ## 5. The audit of 2026-11-10
 
-- **73 findings:** reproduced 40, partly fixed 18, fixed 12, reader 3, open 0.
-- **17 carry the auditing seat's own verdict.** Fixed by main and not yet read by that seat: none.
+- **73 findings:** reproduced 40, partly fixed 17, fixed 13, reader 3, open 0.
+- **18 carry the auditing seat's own verdict.** Fixed by main and not yet read by that seat: none.
 - **Changed by main since the seat last read them:** E2, E4, E8.
 
 ## 6. The record's own list

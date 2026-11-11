@@ -92,3 +92,13 @@ this note is its reading (P-127).
 ## The seats digested (2026-11-11, B1889)
 
 What every seat has sent, what became of each item and what each has shown it can do is `frontier/B1889_the_seats_digested/` (its `SEATS.md` is generated from the harvest ledger at one commit). This register says who the seats are; that page says what the record holds of them.
+
+## Names taken on 2026-11-11 (B1890's landing)
+
+| name | the session of | its page |
+|---|---|---|
+| agy-002 | the branch verify under its own name, cut from main on 2026-11-11 for its cards (registered as the lane `agy002`); before it the branch stage4-sync-2026-11-11 of the agy lane, and an earlier audit branch it names | `docs/seats/agy-002.md` |
+| agy-exp | the branch self-consistent-loop-2026-11-11 of the agy lane | `docs/seats/agy-exp.md` |
+| cld-advisor | the advisor seat | `docs/seats/cld-advisor.md` |
+
+Each name was given by the owner and reported by the session itself. Neither agy-002 nor agy-exp is the seat registered above as the explore seat. Main writes to every seat on its page under `docs/seats/`; the protocol is `docs/seats/README.md`.
