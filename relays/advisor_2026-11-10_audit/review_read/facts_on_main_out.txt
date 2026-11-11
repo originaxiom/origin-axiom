@@ -1,0 +1,31 @@
+main at f9e70c167; the last review's anchor: 38d2a36dc; dirty files in the clone: 0
+
+F1  the window 38d2a36dc..f9e70c167: 44 commits on the first-parent line
+    arcs whose verdict file was ADDED (the review's pool; review_tools.py, gather: --diff-filter=A): 13  B1878 B1879 B1880 B1881 B1882 B1883 B1884 B1885 B1886 B1887 B1888 B1889 B1890
+    arcs whose verdict file was CHANGED, and are not in the pool: 10  B731 B734 B892 B942 B1028 B1030 B1486 B1499 B1861 B1877
+    of them, the verdict word itself changed: B1028 PROVED -> OPEN
+
+F2  the draw (review_tools.py, sample_draw(arcs, anchor, max(5, len(arcs) // 6))): B1880 B1881 B1885 B1887 B1890
+    its seed is the last review's anchor, known since that review was banked; the pool is the arcs so far.
+    with one more arc in the pool (B1891): B1880 B1881 B1885 B1887 B1891
+
+F3  instruments and governing pages changed in the window: 10
+    GOVERNANCE.md  WORKING_RULES.md  scripts/checks/commit_day.py  scripts/checks/harvest_debt.py  scripts/checks/lead_debt.py  scripts/checks/point_debt.py  scripts/checks/relay_debt.py  scripts/gates/gates.py  scripts/gates/hash_lists_frozen.json  scripts/seats/listen.py
+F4  of the 44 commits, 18 touch nothing but generated views, the atlas, the front page's state block or a session's page
+    files deleted or renamed in the window: 0 (the review's script lists added files only)
+
+F5  three gates as they stand: review-fires PASS; point-debt PASS; retraction-debt PASS
+    with OA_REVIEW_MERGES=0: review-fires PASS -- 0 merges since the last review (fires at 40)   [its line changed]
+    with OA_POINT_REGISTER=<a page with no row>: point-debt FAIL -- point-debt: 0 points, 0 open -- 0 debts (oldest 0 days), 0 leads, 0 process; next debt none |     [its line changed]
+    with OA_RETRACTIONS_LEDGER=<a page with no row>: retraction-debt FAIL -- retraction-debt: 0 of 12 RETRACTED arcs registered |   retraction-debt: 12 UNREGISTERED RETRACT   [its line changed]
+    (gates.py, gate_review_fires: 'OA_REVIEW_MERGES overrides the count for the failing-path test')
+
+F6  the count of landings since the last review, as it stands: (44, True)
+    with one sentence at the end of docs/progress/REVIEWS.md that names the head as an anchor (planted in memory):
+    count (0, False); review-fires (True, '0 merges since the last review (fires at 40)'); review-core PASS; review-actions PASS; carry-age PASS
+    (gates.py, review_status, and review_tools.py, last_anchor: the last 'anchor-commit:' anywhere in the file)
+
+F7  the window from an anchor git does not know: 0 commits, 0 added files, and no refusal
+    (review_tools.py, git(): it returns what git printed and not whether git failed)
+
+F8  the review's scan for phrases that pretend outside verification reads the added lines of: ['"*.md"']

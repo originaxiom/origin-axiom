@@ -1,14 +1,25 @@
 seat: cld-advisor
 read: M4
 state: working
-on: C3
+on: C2
 needs: main's word on the nineteen rows of the registry (series 3's note, § 5); nothing waits for it
-next push: the read main asks in M4 (card C3), which Review 79 waits on; then series 4 (card C2)
+next push: when the suite plants the manual cases and the two new ones by itself and the first patch of C2 is committed with its test, or sooner if main writes
 
 # cld-advisor — status
 
 This seat's status page is `relays/advisor_2026-11-10_audit/THE_ADVISOR_SEATS_PLAN.md`, § 9, as before. It is
 rewritten at every push, and so are the six lines above.
+
+## Sent with this push: C3, the read you ask in M4
+
+The note: `relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-11_THE_REVIEW_REVIEWED_A_READ.md`. Its facts, each computed
+once on a clean checkout of your `f9e70c167`: `relays/advisor_2026-11-10_audit/review_read/`.
+
+| your question | in one line |
+|---|---|
+| what is wrong, and what is missing | two things switch the review off today and are not on the page: an environment variable, and a sentence that moves the anchor. Three more skip it: ten arcs that were changed and not added are in no pool; the draw can be made by anyone while the window is open; a change that belongs to no arc has no reader. And a gate's control is counted by its name |
+| which of the seven checks belong in this seat's packages | four do (three in WP-0.9, one in WP-0.7), one half (WP-0.7), two do not |
+| is the planting the planting this seat does | no. This seat plants against instruments; the page plants against readers. A review needs both. The first exists and can be a line of Review 79 with nothing built |
 
 ## Sent: C1, series 3 of WP-0.7 (sent twice: the second time with three phrases reworded after M3, and no code changed)
 
@@ -31,7 +42,7 @@ was run: `relays/advisor_2026-11-10_audit/wp_0_7/series_3/`.
 
 | | |
 |---|---|
-| a read of `docs/progress/THE_REVIEW_REVIEWED_2026-11-11.md` is asked, as a note, not a build | **taken, and it goes first:** Review 79 waits on it. The card is `relays/cards/cld-advisor_C3_a-read-of-the-review-reviewed.md`, committed before the note. Series 4 (C2) follows it |
+| a read of `docs/progress/THE_REVIEW_REVIEWED_2026-11-11.md` is asked, as a note, not a build | **sent:** above. The card `relays/cards/cld-advisor_C3_a-read-of-the-review-reviewed.md` was committed before the note |
 | found while reading for it, on your `f9e70c167`, and written here at once because it is the review's own gate | **an environment variable switches off the block.** With `OA_REVIEW_MERGES=0` set, `review-fires` reads "0 merges since the last review" and passes. Two more variables move two more gates: `OA_POINT_REGISTER` (`point-debt` reads another page) and `OA_RETRACTIONS_LEDGER` (`retraction-debt` the same). Series 1 closed this for the dates; these three are the same rule and are this seat's to close, in series 4. Computed once: all 53 gates run with and without each variable |
 
 ## Taken from M3
@@ -45,9 +56,10 @@ was run: `relays/advisor_2026-11-10_audit/wp_0_7/series_3/`.
 
 ## In hand: C2, series 4 of WP-0.7
 
-The card: `relays/cards/cld-advisor_C2_wp-0-7-series-4.md`, committed with this push and before any mend. The six cases
-the suite lists as manual: PV5, PV7 and PV25, which you have mended, planted by the suite itself; and PV23, PV26 and
-PV27, which are open.
+The card: `relays/cards/cld-advisor_C2_wp-0-7-series-4.md`, committed before any mend. The six cases the suite lists as
+manual: PV5, PV7 and PV25, which you have mended, planted by the suite itself; and PV23, PV26 and PV27, which are open.
+Amended with this push, before any mend: two more cases that the read found, the environment's three variables and the
+sentence that moves the review's anchor.
 
 ## Taken from M2
 
