@@ -243,9 +243,13 @@ def _show(ref, path):
     return out if rc == 0 else ""
 
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import commit_day  # noqa: E402  (the day is the commit's: see that module)
+
+
 def _today():
-    env = os.environ.get("OA_HARVEST_TODAY")
-    return datetime.date.fromisoformat(env) if env else datetime.date.today()
+    """the commit's day, never the wall clock (commit_day.py): --today, then the seam OA_HARVEST_TODAY, then HEAD's date"""
+    return commit_day.today("OA_HARVEST_TODAY")
 
 
 def _expand(a, b):
@@ -799,6 +803,7 @@ def main():
     ap.add_argument("--json", metavar="PATH")
     ap.add_argument("--selftest", action="store_true")
     ap.add_argument("--quiet", action="store_true")
+    ap.add_argument("--today", metavar="YYYY-MM-DD", help="the day debts are aged against; the gate passes the commit's (commit_day.py)")
     a = ap.parse_args()
     if a.selftest:
         fails = selftest()

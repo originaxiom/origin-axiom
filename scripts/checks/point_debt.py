@@ -38,7 +38,8 @@ THE RULE (checked here)
 Every run also prints the open OWNER rows (M6: every report to the owner lists them) and, report-only until CARRY_FROM,
 the carry scan (M4): a FINDINGS line of an arc from B1833 on saying "owed", "carried forward", "not computed" or "never
 computed" whose arc no register row cites.
-The clock is the real date; OA_POINT_TODAY=YYYY-MM-DD overrides it for tests. OA_POINT_REGISTER overrides the file.
+The day is the commit's own (commit_day.py; WP-0.7): --today DAY, which the gate passes, then OA_POINT_TODAY=YYYY-MM-DD for a
+test or a look ahead, then the date of HEAD's commit. Never the wall clock. OA_POINT_REGISTER overrides the file.
 """
 from __future__ import annotations
 
@@ -70,9 +71,13 @@ RANK_HEAD = "## The debts, by load"
 PATH_RE = re.compile(r"(?<![\w/.-])((?:docs|frontier|scripts|tests|papers|reports)/[\w./-]+\.\w+|GENESIS\.md)")
 
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import commit_day  # noqa: E402  (the day is the commit's: see that module)
+
+
 def _today() -> datetime.date:
-    env = os.environ.get("OA_POINT_TODAY")
-    return datetime.date.fromisoformat(env) if env else datetime.date.today()
+    """the commit's day, never the wall clock (commit_day.py): --today, then the seam OA_POINT_TODAY, then HEAD's date"""
+    return commit_day.today("OA_POINT_TODAY")
 
 
 def _date(s: str):

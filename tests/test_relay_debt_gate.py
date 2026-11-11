@@ -56,8 +56,9 @@ def test_today_env_override_and_real_clock():
         assert m._today() == datetime.date(2026, 8, 27)
     finally:
         del os.environ["OA_RELAY_TODAY"]
-    # without the override: the real clock, never the frozen ledger stamp
-    assert m._today() == datetime.date.today()
+    # without the override: never the frozen ledger stamp.  2026-11-11 (WP-0.7; the advisor seat's PV15): this line pinned the
+    # wall clock.  A gate is a function of the commit, so the day is the date of HEAD's commit (scripts/checks/commit_day.py).
+    assert m._today() == m.commit_day.of_head()
 
 
 def test_escalated_marker_recognized():

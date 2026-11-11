@@ -58,6 +58,16 @@ def checkout_state(repo=None):
     return "shallow" if out[1].strip() == "true" else "full"
 
 
+def _today_args():
+    """`--today DAY` for a debt checker, DAY being the date of HEAD's commit.  A gate is a function of the commit (PV15): the
+    four debt gates aged their rows against the wall clock, and the variable that moves the date for a test moved it for the
+    gate.  Passed on the command line, the commit's day cannot be moved by the environment.  Empty where there is no commit
+    to read: the checker then takes its seam, or refuses (scripts/checks/commit_day.py)."""
+    rc, out = _git("log", "-1", "--format=%cs", "HEAD")
+    day = out.strip() if rc == 0 else ""
+    return ["--today", day] if re.fullmatch(r"\d{4}-\d{2}-\d{2}", day) else []
+
+
 REFUSED_EXPORT = ("refused: there is no git repository here (an export, or a copy of the tree). This gate reads %s, and "
                   "without git it cannot. Run it in a clone")
 # PV22: on a clone fifty commits deep `lead-debt` dated every arc by the history that was there and passed, and `seal-order-
@@ -1872,7 +1882,7 @@ def gate_retraction_sweep():
 def gate_relay_debt():
     """B999 -- branch protection preserves FILES; nothing preserved FINDINGS (design: cc3)."""
     import subprocess
-    r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "relay_debt.py")],
+    r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "relay_debt.py"), *_today_args()],
                        capture_output=True, text=True)
     out = (r.stdout + r.stderr).strip()
     if r.returncode != 0:
@@ -1900,7 +1910,7 @@ def gate_harvest_debt():
     """B1307 -- every seat branch is READ within 21 days of a push; the harvest ledger is reconciled against each seat's own index
     (MASTERPLAN v3.1 section 1a rule 3). Plain mode = instrument integrity + ageing; `review-due` runs it --strict."""
     import subprocess
-    r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "harvest_debt.py"), "--quiet"],
+    r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "harvest_debt.py"), "--quiet", *_today_args()],
                        capture_output=True, text=True, timeout=300)
     out = (r.stdout + r.stderr).strip()
     if r.returncode != 0:
@@ -1925,7 +1935,7 @@ def gate_lead_debt():
     harvest gates age the other two kinds of debt). A ratchet: the stale counts may only shrink. Also fails on a lead number
     carried by two open leads (the E71 class, twice on 2026-09-18)."""
     import subprocess
-    r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "lead_debt.py")],
+    r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "lead_debt.py"), *_today_args()],
                        capture_output=True, text=True, timeout=300)
     out = (r.stdout + r.stderr).strip()
     if r.returncode != 0:
@@ -1949,7 +1959,7 @@ def gate_point_debt():
     of the multiple things we have to deal with." Every point a review raises has a row in docs/POINT_REGISTER.md with a
     disposition and a queue slot; no row may be deleted; a queued point unmoved for 21 days fails unless escalated."""
     import subprocess
-    r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "point_debt.py")],
+    r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "point_debt.py"), *_today_args()],
                        capture_output=True, text=True, timeout=300)
     out = (r.stdout + r.stderr).strip()
     if r.returncode != 0:
@@ -2681,8 +2691,9 @@ GATES = {
 # Which gates reach git, and for what.  The table is held to the code by a lock (tests/test_gates_are_a_function_of_the_commit.py):
 # every gate NOT listed here must give the same answer with git as without it, so a new gate that calls git and is not listed
 # fails that lock; and a gate listed as reading the tracked files only may not call a git command that reads the past.
-READS_TRACKED = frozenset({                       # asks git which files are tracked, and nothing of the past
-    "arrival-phrases", "path-refs", "relay-debt", "retraction-sweep", "test-vacuity", "tracked-deps", "tracked-forbidden"})
+READS_TRACKED = frozenset({                       # asks git about the commit itself -- which files are tracked, or its date
+    "arrival-phrases", "path-refs", "point-debt", "relay-debt", "retraction-sweep", "test-vacuity", "tracked-deps",
+    "tracked-forbidden"})                         # -- and nothing of the past.  point-debt: for the commit's day (PV15)
 READS_HISTORY = frozenset({                       # reads commits before HEAD, or other seats' branches
     "append-only", "artifact-hashes", "attribution", "closure-generated", "harvest-debt", "lead-debt",
     "log-changelog-paired", "review-fires", "seal-immutable", "seal-order-unshown", "views-fresh", "views-generated"})
@@ -2696,7 +2707,7 @@ def _refusing(name, fn):
         if not args and not kwargs:
             state = checkout_state()
             if state == "export":
-                return False, REFUSED_EXPORT % ("the history" if name in READS_HISTORY else "which files are tracked")
+                return False, REFUSED_EXPORT % ("the history" if name in READS_HISTORY else "the commit (its tracked files, or its date)")
             if state == "shallow" and name in READS_HISTORY:
                 return False, REFUSED_SHALLOW
         return fn(*args, **kwargs)
@@ -2747,7 +2758,7 @@ if __name__ == "__main__":
         n, due = review_status()
         print(f"merges since last review: {n}; due (>= {REVIEW_EVERY}): {due}")
         # B1307: a review opens with the harvest debt and cannot close with unread seat results (--strict)
-        r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "harvest_debt.py"), "--strict"],
+        r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "harvest_debt.py"), "--strict", *_today_args()],
                            capture_output=True, text=True, timeout=300)
         print((r.stdout + r.stderr).rstrip())
         # Review 66 (R65-8, P-126): the rule "a review cannot close with unread seat results" is enforced, not advisory
@@ -2762,7 +2773,7 @@ if __name__ == "__main__":
           f"({'DUE — run the decadal review' if due else 'not due'})")
     # the owner, 2026-10-13: the open points and the next queue slot are shown on every push, so none is lost
     import subprocess
-    pr = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "point_debt.py")],
+    pr = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "point_debt.py"), *_today_args()],
                         capture_output=True, text=True, timeout=300)
     if pr.stdout.strip():
         print("  " + pr.stdout.strip().splitlines()[0] + " (docs/POINT_REGISTER.md)")

@@ -80,13 +80,16 @@ ROW_RE = re.compile(
     r"\s*(?P<date>[0-9]{4}-[0-9]{2}-[0-9]{2}|—|-)\s*\|\s*(?P<note>[^|]*)\|", re.M)
 
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import commit_day  # noqa: E402  (the day is the commit's: see that module)
+
+
 def _today() -> datetime.date:
-    # B1172: the real date. The old stamp-based clock froze at 2026-08-09 and the gate
-    # never fired. OA_RELAY_TODAY overrides for deterministic tests only.
-    env = os.environ.get("OA_RELAY_TODAY")
-    if env:
-        return datetime.date.fromisoformat(env)
-    return datetime.date.today()
+    # B1172: the old clock read the ledger's own stamp, froze at 2026-08-09, and the gate never fired; it was replaced by the
+    # wall clock.  WP-0.7 (2026-11-11): the day is the commit's own -- --today DAY, which the gate passes; then the seam
+    # OA_RELAY_TODAY for a test or a look ahead; then the date of HEAD's commit.  It moves with every commit, so it cannot
+    # freeze as the stamp did, and it does not move between commits, as the wall clock did (commit_day.py).
+    return commit_day.today("OA_RELAY_TODAY")
 
 
 def _read(p: pathlib.Path) -> str:

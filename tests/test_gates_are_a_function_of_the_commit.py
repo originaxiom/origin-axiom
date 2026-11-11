@@ -7,12 +7,20 @@ found nothing wrong among none ("ok (0 tests, 0 vacuous)", "ok (0 citations reso
 PV22: on a clone fifty commits deep, `lead-debt` read the history that was there and passed.  A gate that reads the past
 is refused on a shallow clone, whatever its depth.
 
+PV15: three gates were run at the commit's own date and sixty days later, and changed their answer.  Their checkers aged
+the rows against the wall clock, and the variable that moves the date for a test moved it for the gate.  A gate's day is
+the date of HEAD's commit, and nothing in the environment moves it.
+
 Each test here makes the situation and runs the gate.  The first test of each case fails on the commit before it."""
 import ast
+import datetime
 import importlib.util
 import pathlib
 import re
 import subprocess
+import sys
+
+import pytest
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 
@@ -117,6 +125,67 @@ def test_on_a_shallow_clone_every_gate_that_reads_the_past_is_refused_and_says_w
         assert "refused" not in str(g.GATES[name]()[1]), name
 
 
+DATED = {"lead-debt": "OA_LEAD_TODAY", "point-debt": "OA_POINT_TODAY", "relay-debt": "OA_RELAY_TODAY", "harvest-debt": "OA_HARVEST_TODAY"}
+
+
+def test_a_debt_gate_answers_the_same_whatever_day_the_environment_names(monkeypatch):
+    """PV15.  The planted case set the day through the checkers' own seam, to the commit's date and to sixty days on."""
+    g = _gates()
+    head = datetime.date.fromisoformat(_git(ROOT, "log", "-1", "--format=%cs", "HEAD"))
+    answers = {}
+    for days in (0, 60, 600):
+        for env in DATED.values():
+            monkeypatch.setenv(env, (head + datetime.timedelta(days=days)).isoformat())
+        answers[days] = {name: tuple(map(str, g.GATES[name]())) for name in DATED}
+    changed = sorted(name for name in DATED if len({answers[d][name] for d in answers}) > 1)
+    assert not changed, "these gates change their answer with the day the environment names: %s" % ", ".join(changed)
+
+
+def test_no_gate_and_no_checker_reads_the_wall_clock():
+    """A duration may be timed.  A date may not be taken from the clock."""
+    clock = re.compile(r"\bdate\.today\(|\bdatetime\.now\(|\butcnow\(|\btime\.(?:localtime|gmtime|strftime|ctime|asctime)\(")
+    found = []
+    for p in sorted((ROOT / "scripts" / "gates").glob("*.py")) + sorted((ROOT / "scripts" / "checks").glob("*.py")):
+        for n, line in enumerate(p.read_text(encoding="utf-8", errors="replace").splitlines(), 1):
+            if clock.search(line.split("#", 1)[0]):
+                found.append("%s:%d" % (p.relative_to(ROOT), n))
+    assert not found, "the wall clock is read at: %s" % ", ".join(found)
+
+
+def test_the_day_is_decided_in_one_place_and_in_one_order(tmp_path, monkeypatch):
+    spec = importlib.util.spec_from_file_location("commit_day_for_the_commit_rule", ROOT / "scripts" / "checks" / "commit_day.py")
+    cd = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(cd)
+    repo = _small_repo(tmp_path)
+    head = datetime.date.fromisoformat(_git(repo, "log", "-1", "--format=%cs", "HEAD"))
+    monkeypatch.delenv("OA_X_TODAY", raising=False)
+    assert cd.today("OA_X_TODAY", argv=[], root=repo) == head                                   # 3. the commit's own date
+    monkeypatch.setenv("OA_X_TODAY", "2031-05-06")
+    assert cd.today("OA_X_TODAY", argv=[], root=repo) == datetime.date(2031, 5, 6)               # 2. the seam, with no --today
+    assert cd.today("OA_X_TODAY", argv=["--today", "2029-01-02"], root=repo) == datetime.date(2029, 1, 2)   # 1. beats the seam
+    assert cd.today("OA_X_TODAY", argv=["--list", "--today=2029-01-03"], root=repo) == datetime.date(2029, 1, 3)
+    # with nothing given and no commit to read, a refusal and not the clock
+    monkeypatch.delenv("OA_X_TODAY")
+    with pytest.raises(SystemExit) as e:
+        cd.today("OA_X_TODAY", argv=[], root=tmp_path / "no_repository_here")
+    assert "refused" in str(e.value)
+    # a day that is not a day is refused in plain words, from the command line and from the seam alike
+    for argv, seam in ((["--today", "tomorrow"], None), (["--today=11/11/2026"], None), ([], "next week")):
+        if seam:
+            monkeypatch.setenv("OA_X_TODAY", seam)
+        with pytest.raises(SystemExit) as e:
+            cd.today("OA_X_TODAY", argv=argv, root=repo)
+        assert "refused" in str(e.value) and "not a day" in str(e.value), (argv, seam)
+    monkeypatch.delenv("OA_X_TODAY")
+    # and each gate does pass the commit's day on the command line
+    g = _gates()
+    assert g._today_args() == ["--today", _git(ROOT, "log", "-1", "--format=%cs", "HEAD")]
+    src = (ROOT / "scripts" / "gates" / "gates.py").read_text(encoding="utf-8")
+    for checker in ("relay_debt.py", "harvest_debt.py", "lead_debt.py", "point_debt.py"):
+        calls = re.findall(r'"%s"[^\n]*' % re.escape(checker), src)
+        assert calls and all("_today_args()" in c for c in calls), (checker, calls)
+
+
 def test_in_a_clone_no_gate_is_refused():
     g = _gates()
     assert g.checkout_state() == "full", "this lock is run in a clone"
@@ -214,6 +283,8 @@ def _git_subcommands(gate_function_name):
     for script, names in sorted(as_module.items()):
         for p in scripts.get(script, []):
             text += "\n" + _used_part(p, names)
+    # the date of HEAD's commit is the commit itself, not the past: that one call is set aside before the commands are read
+    text = re.sub(r'"log",\s*"-1",\s*"--format=%cs",\s*"HEAD"', '"head-date"', text)
     return {a or b for a, b in _SUB.findall(text)}
 
 
@@ -230,3 +301,6 @@ def test_a_gate_listed_as_reading_the_tracked_files_only_reads_nothing_of_the_pa
     # and the scan does see the past where it is read: three gates of READS_HISTORY, by their own code
     for name in ("append-only", "lead-debt", "views-fresh"):
         assert _git_subcommands(g.GATES[name].__wrapped__.__name__) & _PAST, name
+    # the four debt gates read the date of HEAD's commit, and the scan sees that they do
+    for name in DATED:
+        assert "head-date" in _git_subcommands(g.GATES[name].__wrapped__.__name__), name

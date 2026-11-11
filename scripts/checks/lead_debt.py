@@ -52,9 +52,13 @@ DATE_RE = re.compile(r"(\d{4}-\d{2}-\d{2})")
 CLOSED_RE = re.compile(r"(?:\*\*|— |- |L\d+[a-z]? )(?:CLOSED|DISCHARGED|WITHDRAWN)\b")
 
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import commit_day  # noqa: E402  (the day is the commit's: see that module)
+
+
 def _today() -> datetime.date:
-    env = os.environ.get("OA_LEAD_TODAY")
-    return datetime.date.fromisoformat(env) if env else datetime.date.today()
+    """the commit's day, never the wall clock (commit_day.py): --today, then the seam OA_LEAD_TODAY, then HEAD's date"""
+    return commit_day.today("OA_LEAD_TODAY")
 
 
 def parse_leads(text: str) -> dict:

@@ -31,7 +31,9 @@ def test_stale_days_is_21_and_the_clock_is_real():
         assert m._today() == datetime.date(2026, 10, 1)
     finally:
         del os.environ["OA_LEAD_TODAY"]
-    assert m._today() == datetime.date.today()
+    # 2026-11-11 (WP-0.7; the advisor seat's PV15): this line pinned the wall clock.  A gate is a function of the commit, so
+    # with no day given the day is the date of HEAD's commit (scripts/checks/commit_day.py).
+    assert m._today() == m.commit_day.of_head()
 
 
 SAMPLE = """
