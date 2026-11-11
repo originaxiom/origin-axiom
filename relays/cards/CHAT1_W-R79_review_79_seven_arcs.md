@@ -41,3 +41,16 @@ file is pushed. Only text the mask shows whole is quoted. A quotation that does 
 ## 6. What is needed from main or from another seat
 
 Nothing.
+
+## Addendum, M5 (main at 0dda7b472)
+
+Main added two kinds of reading to this card, both read as the window's difference, `git diff 38d2a36dc 0dda7b472 --
+PATH`, by § 13:
+- **the governing pages:** `GOVERNANCE.md`, `WORKING_RULES.md`, `TERMINOLOGY.md`, `GENESIS.md`, `CLAIMS.md`,
+  `ROADMAP.md`, `README.md` and `docs/seats/README.md`;
+- **the arcs changed and not added:** B874, B892, B1221, B1486, B1494, B1499, B1641, B1675, B1726, B1753, B1853,
+  B1861, B1872, B1874 and B1877.
+
+The findings go in a second section of `relays/REVIEW_79_CHAT1.md`, or in a second file if the first is answered by
+then. B1675's change and the dated sentence in B1726 and B1753 carry findings of this seat's (W-C3; this review's
+B1882 row). They are read as changes, and that is said where they are.

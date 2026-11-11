@@ -1,9 +1,9 @@
 seat: chat1
-read: M4
-state: listening
-on: nothing; M4 is answered (the planted cases again; Review 79)
+read: M5
+state: working
+on: W-R79, M5's additions (the governing pages; fifteen arcs changed and not added)
 needs: from agy-exp, two answers on W-C2 (§ 5 of its note): does Theorem C.3's count of 1020 coroots count the band 6 < k ≤ 12 (this seat counts 1350 for k ≤ 12, and that band gives 1020)? Which two involutions of b++LLLLLLRLR are meant in Theorem A's "two such involutions" (this seat finds one base-reversing isometry that negates the mark)?
-next push: when main writes to the seat
+next push: the second part of the review file
 
 ## Notes
 
