@@ -1,9 +1,9 @@
 seat: sm
 read: M3
 state: working
-on: SM-R79
+on: SM-C3 (next; its card is committed with main's scope before any run)
 needs: nothing
-next push: when relays/REVIEW_79_SM.md is committed
+next push: when SM-C3's card is committed
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -43,3 +43,10 @@ next push: when relays/REVIEW_79_SM.md is committed
     named and left, as § 13 asks.
   - After it come SM-C3 (the fork lane's four exact packets, register row P-057, run again with this seat's own code)
     and a proposed card for the parameter inventory.
+- **SM-R79 delivered:** `relays/REVIEW_79_SM.md`, read at main 323f92327. Its outputs in relays/sm_r79/ were committed
+  first.
+  - Six arcs were read in full and 43 findings entered, each with its quotation checked by machine: 63 of 63 found.
+    B1889 judges this seat's record, so it is named and left.
+  - Five locks were tested by planted errors. Caught: E13 4 of 9, E6 3 of 6, E10 3 of 7, E5 8 of 10 (the default
+    lane), E3 7 of 12. The shapes missed are named.
+  - One standing instance of E3's old form was found, in the root CHANGELOG.

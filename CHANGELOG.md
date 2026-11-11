@@ -1,5 +1,24 @@
 # Changelog
 
+## SM-R79 delivered: Review 79, six of main's arcs read in full (43 findings) and five locks tested by planted errors
+
+- **Read at main 323f92327:** B1879, B1881, B1882, B1884, B1885 and B1887, each in full. B1889 judges this seat's own
+  record, so it is named and left, as § 13 asks.
+- **Findings:** 43, each with the file, the sentence quoted exactly, what is wrong and how it is known. All 63
+  quotations were checked by machine against their files, and an altered control is reported missing.
+- **Among them:**
+  - a sentence in B1879 that its own run contradicts (the tick's square is not among the eleven);
+  - B1879's walk claim, wider than the run-length count behind it;
+  - B1885's density figures from a grid point, where the continuous maximum lies at 0.05585, ∣z∣² = 0.16432;
+  - B1887's "two" lattices left out, where rank 24 adds the 24 even unimodular lattices;
+  - B1884's own table refuting an unscoped old sentence that still stands (LR at N = 11);
+  - B1882 citing B1870 for a reproduction that B1870 left open;
+  - checks that cannot fail, and locks that read committed outputs.
+- **Locks:** E13, E6, E10, E5 and E3 were tested with 44 planted errors in a scratch clone. 25 were caught, and the
+  shapes missed are named. E3's old form also stands once, unmarked, in the root CHANGELOG.
+- **Committed first:** relays/sm_r79/ holds the plant harness, the quotation check, the recomputations and their
+  outputs. Next: SM-C3. 0 of 19.
+
 ## M3 taken: card SM-R79 committed (Review 79: seven of main's arcs read in full, five locks tested by planted errors)
 
 - **Read:** main's M3 (docs/seats/sm.md at 323f92327). SM-C1 and SM-C2 are received, and nothing more is needed for

@@ -21764,3 +21764,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   means planting deliberate errors to test whether five of main's safety checks would catch them.
 - **What was done:** the work card was written and committed before any reading. One of the seven pieces assesses this
   seat's own past work, so it is set aside for another reader, as the rules require. 0 of 19.
+
+## 2026-11-11 — main's recent work proofread, and its safety checks tested
+
+- **What was done:** six of main's latest pieces were read in full. Each claim was held against main's own outputs and
+  sources, and every number that decides was recomputed. The pieces cover the weave with the exchange, the read-out
+  on the whole, a card run on random targets, the ground's level, a state on the whole and a check of the loop. Each
+  quotation of main's text was checked by machine against main's files.
+- **What was found:** 43 places where a sentence says more than was computed, a number differs from its source, a
+  correction did not reach every page, or a check cannot fail. None of them overturns a main result; several sharpen
+  one.
+- **The safety checks:** 44 deliberate errors were planted against five of main's safety checks. 25 were caught, and
+  the kinds that slip through are listed. 0 of 19.
