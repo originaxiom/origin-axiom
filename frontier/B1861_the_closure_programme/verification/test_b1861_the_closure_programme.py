@@ -609,7 +609,26 @@ def test_the_last_step_rests_on_every_package_and_the_refusals_can_fire():
         w = _wp(holder); old = list(w["needs"])
         with planted(lambda: w["needs"].remove(dropped), lambda: w.__setitem__("needs", old)) as f:
             assert any(x.startswith("the work order has 2 packages that nothing needs (%s, WP-6.1); it must have one" % dropped) for x in f), f
+    # the advisor seat's cases o2 and o3 (its run of ORD-a at 818d17f46): the errors in the mathematics moved from the upstream
+    # audit to a step AFTER the card.  The order still has one end; the card would no longer rest on them.
+    c0 = sorted(i for i, w in wp.items() if w["obligation"] == "C0")
+    assert len(c0) == 12 and set(c0) <= set(wp["WP-5.3"]["rests_on"])
+    for later in ("WP-6.1", "WP-5.4"):
+        a, b = _wp("WP-5.2"), _wp(later); olda, oldb = list(a["needs"]), list(b["needs"])
+        def move():
+            a["needs"].remove("WP-0.8"); b["needs"].append("WP-0.8")
+        def back():
+            a["needs"] = olda; b["needs"] = oldb
+        with planted(move, back) as f:
+            assert any(x == "the sealed card does not rest on WP-0.8, of the clean record: it could be sealed with it open" for x in f), f
+            assert not any(x.startswith("the work order has 2 packages") for x in f)
     assert not _refusals()
+    # who builds and who verifies (P-785): the five packages name the seat that builds and say that main verifies and lands
+    for i in ("WP-0.7", "WP-0.9", "WP-0.11", "WP-0.12", "WP-5.1"):
+        o = _wp(i)["owner"]
+        assert "cld-advisor) builds" in o and ("main verifies" in o or "verifies and lands" in o) and "lands" in o, i
+    for i in ("WP-0.8", "WP-0.2", "WP-0.4", "WP-0.5"):
+        assert "cld-advisor" not in _wp(i)["owner"], i
 
 
 PLANTING_TESTS = ("test_the_last_step_rests_on_every_package_and_the_refusals_can_fire", "test_the_refusals_about_the_seats_verdicts_can_fire", "test_the_refusals_about_the_map_can_fire", "test_the_refusals_about_the_packages_and_the_budget_can_fire",

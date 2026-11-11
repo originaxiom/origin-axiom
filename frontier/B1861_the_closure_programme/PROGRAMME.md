@@ -8,7 +8,7 @@ that still needs a path is in no package, or if the order of work ignores a depe
 
 - **134 nodes of the map still need a path:** inputs, open questions, lanes' results not verified on main, and duties. **All 134 are in a package.**
   The map's other nodes are proved, refuted or facts about the record; or they are the 19 conditional results (§ 6), the 84 debts (C0) and the map's own eleven groupings.
-- **43 packages** in 8 waves: not started 26, started 16, done 1.
+- **43 packages** in 8 waves: not started 24, started 18, done 1.
 - **4 packages have no owner:** WP-1.8, WP-1.9, WP-3.5, WP-4.5.
 - **Main's spine presently holds 39 inputs as the record lists them** (§ 3). Counted by kind they are 47 items, since one input can hold more than one choice: 9 axioms, 9 bits, 16 discrete choices, 5 real numbers, 1 ansatz, 7 identifications. The lanes' model adds 7 supplied inputs of its own, not typed here.
 - **73 findings of the advisor seat's audit** are each in a package (§ 8): open 0, reader 4, reproduced 42, partly fixed 16, fixed 11.
@@ -190,7 +190,7 @@ For each package, how many others rest on it, by needs and given together. This,
 | WP-4.1 The modulus | 15 | main; the web seat | STARTED |
 | WP-3.1 The kernel theorem, on main | 10 | main | NOT STARTED |
 | WP-3.2 The register-to-field join | 7 | main | STARTED |
-| WP-0.11 The weave discipline, mechanised | 6 | main; the advisor seat re-audits | STARTED |
+| WP-0.11 The weave discipline, mechanised | 6 | the advisor seat (cld-advisor) builds the schema, the fields, the count of chosen truncations and the refusal; main commits each weave arc's second thread, verifies and lands | STARTED |
 | WP-1.4 The swap and the hand | 6 | main | NOT STARTED |
 | WP-2.3 The end law | 6 | the physical lane; main | NOT STARTED |
 
@@ -212,10 +212,10 @@ Each group rests on itself: no member becomes unconditional before the others.
 | WP-1.8 The parent algebra | Is the gauge parent forced by the moves, or supplied? | unowned | NOT STARTED | — |
 | WP-2.1 The curved action and the mass map, on main | Does the lanes' curved functional, with its kinetic weights and four-slot operator, hold as written? | main | NOT STARTED | WP-1.2, WP-1.8, WP-2.2, WP-4.1 |
 | WP-3.2 The register-to-field join | Is the lanes' three the weave's three? | main | STARTED | WP-3.1 |
-| WP-0.11 The weave discipline, mechanised | Can a result about one thread still be stated about the whole without a gate refusing it? | main; the advisor seat re-audits | STARTED | — |
+| WP-0.11 The weave discipline, mechanised | Can a result about one thread still be stated about the whole without a gate refusing it? | the advisor seat (cld-advisor) builds the schema, the fields, the count of chosen truncations and the refusal; main commits each weave arc's second thread, verifies and lands | STARTED | — |
 | WP-0.6 The map kept current and complete | Is every node upstream of a claimed prediction in the map, at its true grade? | main | STARTED | — |
-| WP-0.7 Enforcement that enforces | Does every gate and every seal fail on a committed violation of what it says it guards? | main; the advisor seat re-audits | STARTED | — |
-| WP-0.9 Labels as strong as the content | Does a verdict word, a title or a claim line ever say more than the arc's own body? | main; the advisor seat re-audits | NOT STARTED | — |
+| WP-0.7 Enforcement that enforces | Does every gate and every seal fail on a committed violation of what it says it guards? | the advisor seat (cld-advisor) builds, as patches in its relay; main verifies with planted cases the seat has not seen, and lands; the web seat is asked to read it cold | STARTED | — |
+| WP-0.9 Labels as strong as the content | Does a verdict word, a title or a claim line ever say more than the arc's own body? | the advisor seat (cld-advisor) builds, as patches in its relay; main verifies with planted cases the seat has not seen, and lands; the web seat is asked to read it cold | NOT STARTED | — |
 | WP-0.3 Checks that cannot fail, instruments and seal claims | Can every lock under a banked result fail? | main | STARTED | — |
 | WP-0.8 Errors in the mathematics or its code | Is every statement the audit found wrong corrected where it stands, with a lock that computes it? | main; the advisor seat re-audits | STARTED | — |
 | WP-1.1 The principle, as declared postulates | Are the principle's three faces, and its reading as a commutator trace, the theory's declared axioms? | the owner | DONE (declared; GENESIS v1.5) | — |
@@ -228,8 +228,8 @@ Each group rests on itself: no member becomes unconditional before the others.
 | WP-4.7 The agy lane's complete picture, on main | Which joints of the agy lane's frame does main verify, which does it refute, and does anything in it stand as a result on main? | main | STARTED | — |
 | WP-0.1 False or stale statements in foundation and front documents | Does any living page still state something the record has corrected? | main; the advisor seat re-audits | STARTED | — |
 | WP-0.10 One governing document, at the owner's goal | Which document governs, and does it state the goal as the owner has ruled it? | main; the owner reads the amended text | STARTED | — |
-| WP-0.2 Debts that bear on current work | Do the value frame's candidate and the live prediction rest on anything unchecked? | main | NOT STARTED | — |
-| WP-0.4 Unverified premises and seat results under banked results | Does a banked structural result rest on a seat's word? | main | NOT STARTED | — |
+| WP-0.2 Debts that bear on current work | Do the value frame's candidate and the live prediction rest on anything unchecked? | main | STARTED | — |
+| WP-0.4 Unverified premises and seat results under banked results | Does a banked structural result rest on a seat's word? | main | STARTED | — |
 | WP-0.5 A green full suite on a fresh clone | Does everything reproduce for a reader with only the repository? | main | STARTED | — |
 
 **Wave 2**
@@ -243,10 +243,10 @@ Each group rests on itself: no member becomes unconditional before the others.
 | WP-2.3 The end law | Is the condition at the cusp derived from the same action as the fields, and what is a unit of end data in that operator? | the physical lane; main | NOT STARTED | WP-1.2, WP-1.8, WP-4.1 |
 | WP-1.7 The dictionary | Which mathematical object is which field, and by what right? | main | NOT STARTED | — |
 | WP-4.2 The quantum regime and the level | At what level is the theory quantised, and is the level's state space physical? | main | NOT STARTED | — |
-| WP-0.12 The count as an output, and the map on the desk | Is the headline count computed from one graph, and can the owner see on one page what is solved, what is conditional and what is open? | main | NOT STARTED | — |
+| WP-0.12 The count as an output, and the map on the desk | Is the headline count computed from one graph, and can the owner see on one page what is solved, what is conditional and what is open? | the advisor seat (cld-advisor) builds the count from the list of targets that main and the owner freeze; main verifies and lands | NOT STARTED | — |
 | WP-1.5 The root, selection, and thread results | Under the weave's rule no thread is chosen: which results survive as statements about the weave, and is the root anything more than an origin of coordinates? | main | NOT STARTED | WP-2.2 |
 | WP-4.5 Gravity in 3+1 | Does the same construction give a dynamical four-dimensional metric with the right sign and a universal coupling? | unowned | NOT STARTED | — |
-| WP-5.1 The certificate | What must every arc that a value uses carry before the value may be sealed? | main; the advisor seat re-audits | STARTED | — |
+| WP-5.1 The certificate | What must every arc that a value uses carry before the value may be sealed? | the advisor seat (cld-advisor) builds the generator; main verifies and lands | STARTED | — |
 
 **Wave 3**
 
@@ -300,7 +300,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **Debts (20):** P-092, P-138, P-145, P-160, P-318, P-319, P-320, P-321, P-333, P-374, P-426, P-427, P-528, P-579, P-581, P-589, P-606, P-618, P-643, P-733.
 - **The audit's findings (7):** P1, P2, P3, P4, P5, P6, P7.
 
-**WP-0.2 — Debts that bear on current work** (DERIVE; NOT STARTED; owner: main)
+**WP-0.2 — Debts that bear on current work** (DERIVE; STARTED; owner: main)
 
 - **The question:** Do the value frame's candidate and the live prediction rest on anything unchecked?
 - **The first step:** P-355 first (the lepton–down identity's lines), with the agy lane's Theorem D verified on main.
@@ -317,7 +317,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **Debts (15):** P-154, P-233, P-239, P-317, P-332, P-540, P-590, P-602, P-603, P-605, P-607, P-608, P-609, P-653, P-670.
 - **The audit's findings (10):** L1, L2, L3, L4, L5, L6, L7, L8, L9, L10.
 
-**WP-0.4 — Unverified premises and seat results under banked results** (VERIFY; NOT STARTED; owner: main)
+**WP-0.4 — Unverified premises and seat results under banked results** (VERIFY; STARTED; owner: main)
 
 - **The question:** Does a banked structural result rest on a seat's word?
 - **The first step:** the register's ranked debts of this class.
@@ -339,7 +339,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **Closed when:** the map's builder passes at every landing, and no prediction has an upstream node outside it.
 - **Register:** P-754 (DONE), P-748 (QUEUED).
 
-**WP-0.7 — Enforcement that enforces** (DERIVE; STARTED; owner: main; the advisor seat re-audits)
+**WP-0.7 — Enforcement that enforces** (DERIVE; STARTED; owner: the advisor seat (cld-advisor) builds, as patches in its relay; main verifies with planted cases the seat has not seen, and lands; the web seat is asked to read it cold)
 
 - **The question:** Does every gate and every seal fail on a committed violation of what it says it guards?
 - **The first step:** reproduce on main each planted violation of the advisor seat's suite, in a scratch clone at the clean commit; then the two graded critical: the append-only gate against a committed deletion, and the seal gates against an edit of any sealed file after its seal.
@@ -357,7 +357,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **Register:** P-757 (QUEUED).
 - **The audit's findings (13):** E1, E2, E3, E4, E5, E6, E7, E8, E9, E10, E11, E12, E13.
 
-**WP-0.9 — Labels as strong as the content** (DERIVE; NOT STARTED; owner: main; the advisor seat re-audits)
+**WP-0.9 — Labels as strong as the content** (DERIVE; NOT STARTED; owner: the advisor seat (cld-advisor) builds, as patches in its relay; main verifies with planted cases the seat has not seen, and lands; the web seat is asked to read it cold)
 
 - **The question:** Does a verdict word, a title or a claim line ever say more than the arc's own body?
 - **The first step:** a machine-readable grade in each verdict file (theorem, exact computation, numerical estimate, sealed cells held, process), the arcs upstream of the candidate first; then the titles and claim lines the audit names.
@@ -374,7 +374,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **The audit's findings (2):** X1, X2.
 - **Relayed rulings:** the goal.
 
-**WP-0.11 — The weave discipline, mechanised** (DERIVE; STARTED; owner: main; the advisor seat re-audits)
+**WP-0.11 — The weave discipline, mechanised** (DERIVE; STARTED; owner: the advisor seat (cld-advisor) builds the schema, the fields, the count of chosen truncations and the refusal; main commits each weave arc's second thread, verifies and lands)
 
 - **The question:** Can a result about one thread still be stated about the whole without a gate refusing it?
 - **The first step:** the verdict schema first: a declared domain (one thread, a named set, all threads of a kind, the weave), how a census was reduced to one row, and a list of what was removed from the carrier, each entry graded forced, computational or chosen. Then the closure map's own refusal (a weave result resting on a thread) carried to the arcs' dependency graph.
@@ -383,7 +383,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **The audit's findings (6):** X4, W1, W2, W3, W4, W5.
 - **Relayed rulings:** the claim; the weave discipline; the fork inside it; the gap, for every seat.
 
-**WP-0.12 — The count as an output, and the map on the desk** (DERIVE; NOT STARTED; owner: main)
+**WP-0.12 — The count as an output, and the map on the desk** (DERIVE; NOT STARTED; owner: the advisor seat (cld-advisor) builds the count from the list of targets that main and the owner freeze; main verifies and lands)
 
 - **The question:** Is the headline count computed from one graph, and can the owner see on one page what is solved, what is conditional and what is open?
 - **The first step:** one graph file: the closure map's nodes joined to the arcs' edges typed as uses or cites, the identification ledger's rows, the scoreboard's joints and a frozen target list in three tiers; the headline printed from it; then the condition map as a generated view of the desk already built.
@@ -696,7 +696,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 
 *the work order's C5.*
 
-**WP-5.1 — The certificate** (DECLARE; STARTED; owner: main; the advisor seat re-audits)
+**WP-5.1 — The certificate** (DECLARE; STARTED; owner: the advisor seat (cld-advisor) builds the generator; main verifies and lands)
 
 - **The question:** What must every arc that a value uses carry before the value may be sealed?
 - **The first step:** the advisor seat's standard adopted, with main's two additions; then the certificate generated for the record's candidate, where a dry run by that seat was refused on six grounds.

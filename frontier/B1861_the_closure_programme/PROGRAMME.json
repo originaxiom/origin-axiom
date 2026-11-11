@@ -2590,7 +2590,7 @@
    },
    "rulings": [],
    "sits_under": 3,
-   "status": "NOT STARTED",
+   "status": "STARTED",
    "title": "Debts that bear on current work",
    "wave": 0
   },
@@ -2704,7 +2704,7 @@
    "rows_live": {},
    "rulings": [],
    "sits_under": 3,
-   "status": "NOT STARTED",
+   "status": "STARTED",
    "title": "Unverified premises and seat results under banked results",
    "wave": 0
   },
@@ -2821,7 +2821,7 @@
    "node_labels": {},
    "nodes": [],
    "obligation": "C0",
-   "owner": "main; the advisor seat re-audits",
+   "owner": "the advisor seat (cld-advisor) builds, as patches in its relay; main verifies with planted cases the seat has not seen, and lands; the web seat is asked to read it cold",
    "question": "Does every gate and every seal fail on a committed violation of what it says it guards?",
    "rests_on": [],
    "rows": [
@@ -2918,7 +2918,7 @@
    "node_labels": {},
    "nodes": [],
    "obligation": "C0",
-   "owner": "main; the advisor seat re-audits",
+   "owner": "the advisor seat (cld-advisor) builds, as patches in its relay; main verifies with planted cases the seat has not seen, and lands; the web seat is asked to read it cold",
    "question": "Does a verdict word, a title or a claim line ever say more than the arc's own body?",
    "rests_on": [],
    "rows": [
@@ -3001,7 +3001,7 @@
    "node_labels": {},
    "nodes": [],
    "obligation": "C0",
-   "owner": "main; the advisor seat re-audits",
+   "owner": "the advisor seat (cld-advisor) builds the schema, the fields, the count of chosen truncations and the refusal; main commits each weave arc's second thread, verifies and lands",
    "question": "Can a result about one thread still be stated about the whole without a gate refusing it?",
    "rests_on": [],
    "rows": [
@@ -3060,7 +3060,7 @@
     "FL:19"
    ],
    "obligation": "C0",
-   "owner": "main",
+   "owner": "the advisor seat (cld-advisor) builds the count from the list of targets that main and the owner freeze; main verifies and lands",
    "question": "Is the headline count computed from one graph, and can the owner see on one page what is solved, what is conditional and what is open?",
    "rests_on": [
     "WP-0.11",
@@ -4618,7 +4618,7 @@
    "node_labels": {},
    "nodes": [],
    "obligation": "C5",
-   "owner": "main; the advisor seat re-audits",
+   "owner": "the advisor seat (cld-advisor) builds the generator; main verifies and lands",
    "question": "What must every arc that a value uses carry before the value may be sealed?",
    "rests_on": [
     "WP-0.11",
@@ -5286,8 +5286,8 @@
   },
   "packages_by_status": {
    "DONE": 1,
-   "NOT STARTED": 26,
-   "STARTED": 16
+   "NOT STARTED": 24,
+   "STARTED": 18
   },
   "packages_that_close_together": [
    [

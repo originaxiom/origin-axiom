@@ -19422,3 +19422,44 @@ partly fixed. No piece was finished.
 
 0 of 19.
 
+## 2026-11-11 — S306p: the housekeeping is handed to the audit seat, and main keeps the mathematics
+
+**What the owner proposed.** He asked main, and separately the audit seat, the same question: should that seat do the
+building of the housekeeping while main checks it and records it? Both said yes, the same way round.
+
+**Why it is the better arrangement.** Four times today a seat built something and main checked it by a different
+method; nothing the seats built failed, and four of main's own checks did. Someone who builds a thing and also judges
+it is slower and less safe than two who split the jobs.
+
+**What changed.**
+
+- Five pieces of the plan now belong to the audit seat to build: the automatic checks that stop a bad change, the
+  labels on results, the discipline that separates statements about everything from statements about one case, the
+  scoreboard computed from the record itself, and the certificate.
+- Main keeps the mathematics: the thirteen known errors, checking what the seats produce, the foundation document,
+  the map.
+- Two rules protect it. Whoever builds something does not also approve it. And nothing counts until main has
+  recomputed it.
+- Before the audit seat writes a line, main wrote down 53 ways to cheat the checks that the seat has not seen, and
+  published only a fingerprint of that list. When the seat's work arrives, main tries all 53. The fingerprint proves
+  the list was not changed afterwards.
+- The audit seat also found a second gap in the plan, a smaller cousin of this morning's. It is closed, and the
+  program that builds the plan refuses both.
+
+**What the audit seat told the owner about main.** That main was following its plan and finishing nothing, because it
+answered whatever arrived. That is right, and it is the same thing main told the owner. Its five suggestions are all
+adopted.
+
+**What should the world be handed?** Two opinions on this were read at the same landing. Both say the same thing:
+not this repository. It is a working notebook of nearly eight million words; nobody can read it, and the current
+candidate cannot be checked without dragging most of it along. Main's recommendation to the owner is three parts,
+built only when there is a result to show: this repository kept whole as the archive; a small new one that states
+the claim, the inputs and the derivation; and a separate check that recomputes every number by a different method,
+written by someone who wrote none of the first. Two things are the owner's to decide now: a licence, and whether
+the archive stays public.
+
+**Which piece of the plan moved.** The checks that stop a bad change: handed over, with the test for "done" sealed.
+No piece was finished.
+
+0 of 19.
+

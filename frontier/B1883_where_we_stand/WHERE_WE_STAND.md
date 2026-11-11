@@ -7,7 +7,7 @@ data file and the point register.*
 
 ## 1. In one line
 
-**Ready for the final reading: NO.** 0 of 19 values earned. The sealed card (WP-5.3) is NOT STARTED; of the 9 packages it must wait on, 0 are done, 5 started and 4 not started.
+**Ready for the final reading: NO.** 0 of 19 values earned. The sealed card (WP-5.3) is NOT STARTED; of the 9 packages it must wait on, 0 are done, 7 started and 2 not started.
 
 The final reading is a sealed set of predictions set beside measurement. It happens once, after everything below.
 
@@ -26,9 +26,9 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 | WP-0.1 | False or stale statements in foundation and front documents | STARTED |
 | WP-0.11 | The weave discipline, mechanised | STARTED |
 | WP-0.12 | The count as an output, and the map on the desk | NOT STARTED |
-| WP-0.2 | Debts that bear on current work | NOT STARTED |
+| WP-0.2 | Debts that bear on current work | STARTED |
 | WP-0.3 | Checks that cannot fail, instruments and seal claims | STARTED |
-| WP-0.4 | Unverified premises and seat results under banked results | NOT STARTED |
+| WP-0.4 | Unverified premises and seat results under banked results | STARTED |
 | WP-0.5 | A green full suite on a fresh clone | STARTED |
 | WP-0.7 | Enforcement that enforces | STARTED |
 | WP-0.9 | Labels as strong as the content | NOT STARTED |
@@ -38,16 +38,16 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 | milestone | packages | done | started | not started |
 |---|---|---|---|---|
 | M1, the dependency map is complete | 1 | 0 | 1 | 0 |
-| M2, the physical construction is verified | 38 | 1 | 15 | 22 |
+| M2, the physical construction is verified | 38 | 1 | 17 | 20 |
 | M3, the predictions are ready for comparison | 4 | 0 | 1 | 3 |
 
 ## 3. The work order
 
-**43 packages: 1 done, 16 started, 26 not started.** 4 have no owner (WP-1.8, WP-1.9, WP-3.5, WP-4.5).
+**43 packages: 1 done, 18 started, 24 not started.** 4 have no owner (WP-1.8, WP-1.9, WP-3.5, WP-4.5).
 
 | obligation | what | packages | done | started | not started |
 |---|---|---|---|---|---|
-| C0 | The record is clean under the claim | 12 | 0 | 8 | 4 |
+| C0 | The record is clean under the claim | 12 | 0 | 10 | 2 |
 | C1 | Foundational generation and selection | 9 | 1 | 1 | 7 |
 | C2 | One physical action, stationary background and response | 5 | 0 | 1 | 4 |
 | C3 | Complete field content and interactions | 5 | 0 | 1 | 4 |
@@ -85,11 +85,12 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 
 ## 6. The record's own list
 
-- **786 points registered, 271 open:** 130 lead, 84 debt, 54 process, 3 owner.
-- **Calls that are the owner's to make (3):**
+- **787 points registered, 272 open:** 130 lead, 84 debt, 54 process, 4 owner.
+- **Calls that are the owner's to make (4):**
   - P-081: the reply to the outside reader, approached carefully so the contact is not lost: in his own context (one of his videos as the opening), short, honest…
   - P-082: a second outside reader, later, approached in his own context (relating to his videos), after the first correspondence
   - P-253: the chain gap's top entries (Review 67's R66-3, declined there because the chain is the frozen paper's spine): B1098, B959, B1100, B952, B1086, B1000,…
+  - P-787: THE PUBLIC FORM OF THE REPOSITORY: THIS ONE, OR A DISTILLED ONE WITH THIS AS THE ARCHIVE (the owner to the advisor seat, 2026-11-11, asking for a deep…
 
 ## 7. What this page does not know
 

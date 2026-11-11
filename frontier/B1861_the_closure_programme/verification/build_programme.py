@@ -577,6 +577,15 @@ def build(nodes=None, edges=None):
     if len(ends) != 1:
         fails.append("the work order has %d packages that nothing needs (%s); it must have one, the last step, or the reading could be taken with the others unfinished"
                      % (len(ends), ", ".join(ends)))
+    # The advisor seat's residual on that rule (its run of ORD-a at 818d17f46, cases o2 and o3): with WP-0.8 moved from the
+    # upstream audit to the comparison, or to the independent challenge, the order still has one end, and the CARD no longer
+    # rests on the errors in the mathematics: it could be sealed with them open and only the comparison would wait.  The row
+    # itself, stated: the sealed card rests on every package of the first obligation, the clean record.
+    if CARD in wp:
+        lacking = sorted(w["id"] for w in wps if w["obligation"] == "C0" and w["id"] not in rests[CARD])
+        if lacking:
+            fails.append("the sealed card does not rest on %s, of the clean record: it could be sealed with %s open"
+                         % (", ".join(lacking), "it" if len(lacking) == 1 else "them"))
     by_layer = collections.OrderedDict()
     for n in nodes:
         if n["id"] in need:

@@ -233,6 +233,28 @@ P("WP-5.4", "C5", "The independent challenge", "Has someone who did not write it
 P("WP-6.1", "C6", "Calibration and comparison", "With one declared unit, do the sealed predictions match?", "OWNER",
   "nothing until the seal; then the comparison once, with no retuning", "matches and misses reported with their uncertainties", "the owner", ["WP-5.4"], "NOT STARTED", ["P-709"], [])
 
+# WHO BUILDS AND WHO VERIFIES (2026-11-11; P-785).  The owner asked main, three times, whether the audit seat should do the
+# clean-up's building while main verifies and banks; he had asked that seat the same.  Main answered yes with two conditions,
+# and the seat accepted both (its relay of the same day; harvest row 1694): a builder gives no verdict on what it built, and
+# nothing changes state on main before main has recomputed it.  The seat is the advisor seat; the owner named it cld-advisor.
+# Its patches arrive as files in its relay, one commit for each planted case; main writes planted cases the seat has not
+# seen BEFORE reading a patch, and publishes their hash first.
+def _wp(i):
+    return next(w for w in WP if w["id"] == i)
+
+
+_BUILDS = "the advisor seat (cld-advisor) builds, as patches in its relay; main verifies with planted cases the seat has not seen, and lands; the web seat is asked to read it cold"
+for _i, _o in (("WP-0.7", _BUILDS), ("WP-0.9", _BUILDS),
+               ("WP-0.11", "the advisor seat (cld-advisor) builds the schema, the fields, the count of chosen truncations and the refusal; main commits each weave arc's second thread, verifies and lands"),
+               ("WP-0.12", "the advisor seat (cld-advisor) builds the count from the list of targets that main and the owner freeze; main verifies and lands"),
+               ("WP-5.1", "the advisor seat (cld-advisor) builds the generator; main verifies and lands")):
+    _wp(_i)["owner"] = _o
+# two statuses that the record had outrun: finding V1 is decided by its card and partly fixed (B1882), and two seat results
+# registered under P-781 are verified on main (B1885, B1887)
+assert _wp("WP-0.2")["status"] == "NOT STARTED" and _wp("WP-0.4")["status"] == "NOT STARTED"
+_wp("WP-0.2")["status"] = "STARTED"
+_wp("WP-0.4")["status"] = "STARTED"
+
 # GIVEN: a package may be WORKED before these close, and its result is then conditional on them. `needs` is the order of work;
 # `needs` and GIVEN together are what a package's nodes rest on. The builder refuses the source when a `requires`, `applies-under`
 # or `blocks` edge of the closure map joins two packages and neither relation records it.

@@ -16,8 +16,8 @@ written: PROGRAMME.md, PROGRAMME.json
   "C6": 1
  },
  "packages_by_status": {
-  "NOT STARTED": 26,
-  "STARTED": 16,
+  "NOT STARTED": 24,
+  "STARTED": 18,
   "DONE": 1
  },
  "packages_by_intent": {

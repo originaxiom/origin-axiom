@@ -1,5 +1,18 @@
 # Changelog
 
+## S306p THE FIVE PACKAGES HANDED TO THE ADVISOR SEAT (P-785), ITS RESIDUAL ON THE ORDER CLOSED, MAIN'S UNSEEN CASES SEALED (2026-11-11)
+
+- **Why.** The owner asked main, three times, whether the audit seat should do the clean-up's building while main verifies and banks. He had asked that seat the same. Main answered yes with two conditions; the seat accepted both. The owner has named the seat cld-advisor.
+- **The handover.** The seat builds enforcement (WP-0.7), labels (WP-0.9), the weave discipline's machinery (WP-0.11), the count as an output (WP-0.12) and the certificate's generator (WP-5.1), as patches in its relay. Main verifies each with planted cases the seat has not seen, and lands it. The owners are changed in the programme and the lock holds them.
+- **The two conditions.** A builder gives no verdict on what it built. Nothing changes state on main before main has recomputed it.
+- **Main's unseen cases for the enforcement package are written first:** 53 cases in eight classes, kept out of the repository, with their hash published in the handover relay before the seat's first patch exists.
+- **The seat's residual on the order is closed.** With the errors in the mathematics moved to a step after the card, the order still had one end and the card no longer rested on them. The builder now refuses a sealed card that does not rest on every package of the clean record. Both of the seat's cases are planted in the lock.
+- **The seat's count of main's day was right,** and its five proposals are taken: a package closed before another is opened, the harvest in batches, one relay a day from it, the principle's thread behind the clean-up, two counts to watch.
+- **Two statuses the record had outrun are corrected:** WP-0.2 and WP-0.4 are started.
+- **The batch on the repository's public form, read at this landing (P-787).** The advisor seat's opinion and its read of the agy lane's blueprint, both in full; its measurements recounted by main and confirmed. Main's recommendation to the owner: three parts, decided now and built only when a card is sealed -- the archive (this repository, whole), the statement (a small new one), the check (by another method, another code base and another seat). Two things need his word: a licence, and whether the archive stays public given what its history holds. The lane's own seven reports are not read by main.
+- **This landing advanced** WP-0.7 (handed over, with its acceptance cases sealed) and the order itself. **No package closed.**
+- 0 of 19.
+
 ## S306p THE V1 CARD READ (B1882): AN END OF THE WINDOW IS LIKE OTHER ROWS, BY A HAIR; THE AUDIT'S FIGURE IS REAL AND IS NOT ABOUT RARITY (2026-11-11)
 
 - **What it decides.** The audit's finding V1: the nulls behind the six's rarities have a window in the height of the modulus that was never priced. The advisor seat sealed a card for two named nulls and gave the deciding count to main. Main ran it on random targets only, committed the two output files unread (818d17f46), and read them once.
