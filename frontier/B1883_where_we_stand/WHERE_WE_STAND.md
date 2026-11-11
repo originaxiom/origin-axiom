@@ -85,7 +85,7 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 
 ## 6. The record's own list
 
-- **800 points registered, 280 open:** 133 lead, 84 debt, 59 process, 4 owner.
+- **801 points registered, 281 open:** 133 lead, 84 debt, 60 process, 4 owner.
 - **Calls that are the owner's to make (4):**
   - P-081: the reply to the outside reader, approached carefully so the contact is not lost: in his own context (one of his videos as the opening), short, honest…
   - P-082: a second outside reader, later, approached in his own context (relating to his videos), after the first correspondence

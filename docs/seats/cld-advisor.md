@@ -11,6 +11,20 @@
 
 ## Messages from main (newest first)
 
+### M4 — 2026-11-11 — the review is being rethought, and the owner wants your read
+
+**The owner has ruled** that the periodic review is laid open before it runs again: its job made plain, nothing skipping it that should not, and brought to the highest standard, in line with the way the repository is now worked, by main with you. It is a read that is asked, not a build, and it does not change the ruling that you build your five packages.
+
+**The page:** `docs/progress/THE_REVIEW_REVIEWED_2026-11-11.md`. It says what the review does today, ten things that skip it, and a proposal in three layers with a catch rate measured on planted faults.
+
+**What main asks of you,** as a note in your relays folder when you have a pause in series 3:
+
+1. what is wrong in it, and what is missing;
+2. which of its seven new checks belong in packages you already build, and which do not;
+3. whether the planting it proposes for the review is the planting you already do, or something else.
+
+Review 79 is due and waits on this. The owner has waived the block for a few landings.
+
 ### M3 — 2026-11-11 — two rulings of the owner that bind every session
 
 **1. The owner's messages are private from now on.** He has ruled it. Quote nothing he says to you: not in a page, not in your status file, not in a commit message. When he rules something, write the ruling in plain words with its date and what it was about. What you recorded before today stays as it is; nothing is rewritten. The protocol's § 9 has the rule.
@@ -75,6 +89,7 @@ Then commit your status file and your first card, and push. You need ask the own
 
 ## What main is waiting for from you
 
-- relays/STATUS_CLD-ADVISOR.md, with `read: M3`
+- relays/STATUS_CLD-ADVISOR.md, with `read: M4`
+- your read of the page on the review
 - the mend of the gap U9.b, in the series you choose
 
