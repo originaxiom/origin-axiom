@@ -1,0 +1,40 @@
+WHERE THE RECORD STANDS, read from main's own generated files at origin/main (3e25c8ec3)
+
+1. THE FINAL READING: a sealed prediction set beside measurement
+   values earned (the scoreboard's line)                0 of 19
+   the sealed card (WP-5.3)                             NOT STARTED
+   calibration and comparison (WP-6.1)                  NOT STARTED
+   hygiene packages the card must wait on               9: done 0, started 5, not started 4
+   milestone 1, the dependency map is complete          0 of 1 packages done
+   milestone 2, the physical construction is verified   1 of 38
+   milestone 3, the predictions are ready for comparison 0 of 4
+
+2. THE WORK ORDER
+   packages                                             43: done 1, started 16, not started 26; with no owner 4
+      obligation C0                                     12: done 0, started 8, not started 4
+      obligation C1                                      9: done 1, started 1, not started 7
+      obligation C2                                      5: done 0, started 1, not started 4
+      obligation C3                                      5: done 0, started 1, not started 4
+      obligation C4                                      7: done 0, started 4, not started 3
+      obligation C5                                      4: done 0, started 1, not started 3
+      obligation C6                                      1: done 0, started 0, not started 1
+   nodes of the map that still need a path              131 of 270
+   debts on the map                                     81 (joined to nothing: 64)
+
+3. WHAT IS STILL PUT IN BY HAND
+   independent choices on main's spine                  38, which are 46 items: 1 ansatz, 8 axiom, 9 bit, 16 discrete, 7 identification, 5 real
+   supplied in addition by the lanes' model             7
+   inputs with an exit on the table                     9
+   headline results that are conditional                4: G:ROOT on 2 open choices, MC:Z6 on 3 open choices, V:SIX on 15 open choices, W:INDEX3 on 3 open choices
+   conditional results in all                           19
+
+4. THE AUDIT OF 2026-11-10 (73 findings)
+   by main's state                                      reproduced 43, partly fixed 15, fixed 10, reader 4, open 1
+   with a verdict of the re-audit                       12
+   fixed and not yet re-audited, by main's file         G9, X1
+   planted violations caught (this seat's last run on main) 7 of 21  (planted_violations_main_3e25c8ec3_out.txt)
+
+5. THE SCOREBOARD ITSELF
+   WP-0.12, the count as an output, and the map on the desk NOT STARTED
+   the map and the programme                            generated; a gate compares them with their builders
+   the headline count                                   printed from a typed data file; not yet computed from a value's ancestry
