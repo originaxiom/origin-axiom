@@ -1,5 +1,17 @@
 # Changelog
 
+## S306p THE V1 CARD READ (B1882): AN END OF THE WINDOW IS LIKE OTHER ROWS, BY A HAIR; THE AUDIT'S FIGURE IS REAL AND IS NOT ABOUT RARITY (2026-11-11)
+
+- **What it decides.** The audit's finding V1: the nulls behind the six's rarities have a window in the height of the modulus that was never priced. The advisor seat sealed a card for two named nulls and gave the deciding count to main. Main ran it on random targets only, committed the two output files unread (818d17f46), and read them once.
+- **All three decisive cells read B.** The first null loses 109 of its best thousand random targets when the top layer is removed, 1.64 times that layer's share of the rows. The second loses 134 under χ² (1.99) and 132 under the worst factor (1.96). The card's line for a lever is twice the share: the last two are short of it by less than one target and by three. Every bottom end loses almost nothing.
+- **By the card's rule the finding is reduced to one sentence** for these two nulls. Main writes it with the measured factor: a higher top end would add well-fitted random targets about 1.5 times as fast as rows for the first null and about 2 times for the second; a lower bottom end almost none. It stands in B1726, in B1753 and on the law map's row.
+- **Under the two menus the card made read-outs, the second null's top end reads A** by the same rule, at both depths. Reported, and asked of the seat.
+- **The audit's 20% is reproduced, and it belongs to targets that fit nothing.** One random target in five has its least bad row in the top layer, three times its share. Among the well-fitted the last layer is below its neighbour.
+- **Main recomputed every reading from its counts** with its own exact interval, summed from the binomial tails.
+- **This landing advanced** WP-0.2 (finding V1: open to partly fixed). **No package closed.** Left, as P-786: the sentence on the other pages that quote either rarity; the window's ends listed as a choice; the same count on the live candidate's null; the seat's verdict.
+- **No rarity is re-read,** no measured target enters, and nothing is compared with a measurement.
+- 0 of 19.
+
 ## S306p THE FOURTH HARVEST: THE WEB SEAT'S TWO CARDS VERIFIED (B1885, B1887), THE WORK ORDER MENDED AT THE OWNER'S QUESTION (P-782), THE OLD RELAYS KEPT LOCAL (P-779) (2026-11-11)
 
 - **Why.** The owner told main an answer was owed to the web seat. That seat had sent a card on the golden state and a check of the agy lane's loop, and its earlier card on the ground's level had been verified with no answer sent. While main worked, the owner sent the advisor seat's scoreboard page and asked whether main works by it.

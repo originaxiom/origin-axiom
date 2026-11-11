@@ -562,7 +562,8 @@
   "P-772": "WP-0.7",
   "P-773": "WP-0.12",
   "P-777": "WP-0.7",
-  "P-781": "WP-0.4"
+  "P-781": "WP-0.4",
+  "P-786": "WP-0.2"
  },
  "direct_rulings": [
   [
@@ -1276,13 +1277,17 @@
    "wp": "WP-0.5"
   },
   "V1": {
-   "note": "the advisor seat has sealed a card for it (null-only, for the nulls of B1726 and B1753: does an end of the window in the height of the modulus move the count of well-fitted random targets), run its planted controls, and left the deciding count to main. Main read the card and its script in full, re-ran the controls on its own machine with the same counts, and sealed its own note and expectations before the run (B1882). The second stage has not run at this landing. Earlier (B1870): the audit's figure has no tracked source, and the audit does not say which null it measured",
+   "note": "decided by the advisor seat's sealed card, with the deciding count run by main and committed unread before it was read (B1882): all three decisive cells read B, an end of the window is like other rows, two of them short of A by less than one target and by three in a thousand; every bottom end reads C; the audit's figure is reproduced (20.6 per cent of all targets of the first null have their best row in the top layer) and belongs to targets that fit nothing, since among the well-fitted the last layer is below its neighbour; under the covariant and free menus, which the card makes read-outs, the second null's top end reads A by the same rule. By the card's rule the finding is reduced to one sentence for these two nulls; the sentence, with the measured factor (about 1.5 times the rows' rate at the top for the first null, about 2 for the second, almost nothing at the bottom), stands as dated notes in B1726 and B1753. Left (P-786): the sentence on the other pages that quote either rarity; the window's two ends listed as a choice in the input budget; the same count on the live candidate's null before its card is sealed; and the seat's own verdict. Earlier (B1870): the audit's figure has no tracked source, and the audit does not say which null it measured",
    "short": "every specificity null has an unpriced window",
-   "state": "OPEN",
+   "state": "PARTLY FIXED",
    "trail": [
     [
      "OPEN",
      "not checked, and why (B1870): the audit's figure has no tracked source, and deciding it needs a computation on the nulls that belongs behind a sealed card. Main's checker found that the later nulls take the best over 223 apexes and 266 lines and not over a plain grid, so the audit does not say which null it measured"
+    ],
+    [
+     "OPEN",
+     "the advisor seat has sealed a card for it (null-only, for the nulls of B1726 and B1753: does an end of the window in the height of the modulus move the count of well-fitted random targets), run its planted controls, and left the deciding count to main. Main read the card and its script in full, re-ran the controls on its own machine with the same counts, and sealed its own note and expectations before the run (B1882). The second stage has not run at this landing. Earlier (B1870): the audit's figure has no tracked source, and the audit does not say which null it measured"
     ]
    ],
    "was": [
@@ -2552,7 +2557,8 @@
     "P-597",
     "P-610",
     "P-687",
-    "P-688"
+    "P-688",
+    "P-786"
    ],
    "findings": [
     "V1",
@@ -5199,8 +5205,8 @@
   "audit_findings": 73,
   "audit_findings_by_state": {
    "FIXED": 11,
-   "OPEN": 1,
-   "PARTLY FIXED": 15,
+   "OPEN": 0,
+   "PARTLY FIXED": 16,
    "READER": 4,
    "REPRODUCED": 42
   },
@@ -5216,8 +5222,8 @@
   "candidate_frame_joints": 13,
   "conditional_headlines_released_by_closing_one_choice": 0,
   "conditional_results": 19,
-  "debts": 83,
-  "debts_on_the_map_joined_to_nothing": 66,
+  "debts": 84,
+  "debts_on_the_map_joined_to_nothing": 67,
   "exits_by_kind": {
    "ADMITTED": 4,
    "BACK-EDGE NAMED": 6,
@@ -5252,7 +5258,7 @@
   "inputs_with_an_exit_on_the_table": 9,
   "lanes_supplied_inputs": 7,
   "map_dependencies_between_packages": 21,
-  "map_nodes": 275,
+  "map_nodes": 276,
   "nodes_assigned": 134,
   "nodes_needing_a_path": 134,
   "open_choices_under_each_conditional_headline": {

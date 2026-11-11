@@ -7,11 +7,11 @@ that still needs a path is in no package, or if the order of work ignores a depe
 ## 1. The state, in numbers
 
 - **134 nodes of the map still need a path:** inputs, open questions, lanes' results not verified on main, and duties. **All 134 are in a package.**
-  The map's other nodes are proved, refuted or facts about the record; or they are the 19 conditional results (§ 6), the 83 debts (C0) and the map's own eleven groupings.
+  The map's other nodes are proved, refuted or facts about the record; or they are the 19 conditional results (§ 6), the 84 debts (C0) and the map's own eleven groupings.
 - **43 packages** in 8 waves: not started 26, started 16, done 1.
 - **4 packages have no owner:** WP-1.8, WP-1.9, WP-3.5, WP-4.5.
 - **Main's spine presently holds 39 inputs as the record lists them** (§ 3). Counted by kind they are 47 items, since one input can hold more than one choice: 9 axioms, 9 bits, 16 discrete choices, 5 real numbers, 1 ansatz, 7 identifications. The lanes' model adds 7 supplied inputs of its own, not typed here.
-- **73 findings of the advisor seat's audit** are each in a package (§ 8): open 1, reader 4, reproduced 42, partly fixed 15, fixed 11.
+- **73 findings of the advisor seat's audit** are each in a package (§ 8): open 0, reader 4, reproduced 42, partly fixed 16, fixed 11.
 - **17 rulings of the owner, as that seat relayed them,** are each mapped to a package. The owner has confirmed 15 of them to main (11 on 2026-11-10, 4 on 2026-11-11) and did not confirm 2; 0 are asked. **4 more rulings were given to main directly** (§ 9).
 
 ## 2. The three milestones
@@ -306,7 +306,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **The first step:** P-355 first (the lepton–down identity's lines), with the agy lane's Theorem D verified on main.
 - **Closed when:** the class is empty.
 - **Register:** P-355 (QUEUED), P-747 (QUEUED).
-- **Debts (18):** P-157, P-355, P-384, P-444, P-446, P-448, P-516, P-517, P-524, P-542, P-557, P-559, P-586, P-596, P-597, P-610, P-687, P-688.
+- **Debts (19):** P-157, P-355, P-384, P-444, P-446, P-448, P-516, P-517, P-524, P-542, P-557, P-559, P-586, P-596, P-597, P-610, P-687, P-688, P-786.
 - **The audit's findings (5):** V1, V2, V3, V4, V5.
 
 **WP-0.3 — Checks that cannot fail, instruments and seal claims** (DERIVE; STARTED; owner: main)
@@ -838,7 +838,7 @@ feeds every row.
 | package | debts |
 |---|---|
 | WP-0.1 False or stale statements in foundation and front documents | 20: P-092, P-138, P-145, P-160, P-318, P-319, P-320, P-321, P-333, P-374, P-426, P-427, P-528, P-579, P-581, P-589, P-606, P-618, P-643, P-733 |
-| WP-0.2 Debts that bear on current work | 18: P-157, P-355, P-384, P-444, P-446, P-448, P-516, P-517, P-524, P-542, P-557, P-559, P-586, P-596, P-597, P-610, P-687, P-688 |
+| WP-0.2 Debts that bear on current work | 19: P-157, P-355, P-384, P-444, P-446, P-448, P-516, P-517, P-524, P-542, P-557, P-559, P-586, P-596, P-597, P-610, P-687, P-688, P-786 |
 | WP-0.3 Checks that cannot fail, instruments and seal claims | 15: P-154, P-233, P-239, P-317, P-332, P-540, P-590, P-602, P-603, P-605, P-607, P-608, P-609, P-653, P-670 |
 | WP-0.4 Unverified premises and seat results under banked results | 26: P-025, P-030, P-031, P-054, P-055, P-056, P-057, P-091, P-107, P-117, P-135, P-155, P-156, P-158, P-262, P-263, P-268, P-310, P-316, P-334, P-430, P-492, P-571, P-646, P-698, P-781 |
 | WP-0.7 Enforcement that enforces | 3: P-757, P-772, P-777 |
@@ -946,7 +946,7 @@ re-audit read (re-audit 2 read main at `ab97082c0`; re-audit 3 read main at `b28
 | P5 | a withdrawn tube value still cited; the read-out rule's page stale | WP-0.1 | docs/THE_TAU_READOUT_RULE.md | PARTLY FIXED | — | the read-out rule's page carries the dated notes of S306n and Review 77; the earlier arc's section is not yet checked |
 | P6 | the index lists stale documents as living | WP-0.1 | docs/INDEX.md | REPRODUCED | — | main re-ran the deciding commands itself (B1870): INDEX.md lists CLAIMS.md as living while CLAIMS.md says it was last updated on 2026-07-04; CAMPAIGN_STATUS.md has 606 paragraphs that begin LATEST; one living entry is a path that does not exist |
 | P7 | stale counts and duplicate arc ids | WP-0.1 | REPOSITORY | REPRODUCED | — | main re-ran the deciding commands itself (B1870): the forcedness check prints 53 of 57 while '39 of 43' stands as current on at least seven pages; the law map's banner says 113 rows against 329; two arc ids are each shared by more than one folder (1570 verdict files, 1567 ids) |
-| V1 | every specificity null has an unpriced window | WP-0.2 | REPOSITORY, V:SIX, B1726, B1753 | OPEN | — | the advisor seat has sealed a card for it (null-only, for the nulls of B1726 and B1753: does an end of the window in the height of the modulus move the count of well-fitted random targets), run its planted controls, and left the deciding count to main. Main read the card and its script in full, re-ran the controls on its own machine with the same counts, and sealed its own note and expectations before the run (B1882). The second stage has not run at this landing. Earlier (B1870): the audit's figure has no tracked source, and the audit does not say which null it measured |
+| V1 | every specificity null has an unpriced window | WP-0.2 | REPOSITORY, V:SIX, B1726, B1753 | PARTLY FIXED | — | decided by the advisor seat's sealed card, with the deciding count run by main and committed unread before it was read (B1882): all three decisive cells read B, an end of the window is like other rows, two of them short of A by less than one target and by three in a thousand; every bottom end reads C; the audit's figure is reproduced (20.6 per cent of all targets of the first null have their best row in the top layer) and belongs to targets that fit nothing, since among the well-fitted the last layer is below its neighbour; under the covariant and free menus, which the card makes read-outs, the second null's top end reads A by the same rule. By the card's rule the finding is reduced to one sentence for these two nulls; the sentence, with the measured factor (about 1.5 times the rows' rate at the top for the first null, about 2 for the second, almost nothing at the bottom), stands as dated notes in B1726 and B1753. Left (P-786): the sentence on the other pages that quote either rarity; the window's two ends listed as a choice in the input budget; the same count on the live candidate's null before its card is sealed; and the seat's own verdict. Earlier (B1870): the audit's figure has no tracked source, and the audit does not say which null it measured |
 | V2 | the headline fits omit their error floor | WP-0.2 | REPOSITORY, V:SIX, B1720, B1735 | REPRODUCED | — | main re-ran the deciding commands itself (B1870): in part. The allowance of ten per cent is in the compare scripts, is defined in TERMINOLOGY.md:763 and is priced in the framing ledger; the headline figures in THE_FINAL_ATTACK and THE_PROGRAMME_SO_FAR are quoted without it. The audit's two large figures have no tracked source and were not recomputed |
 | V3 | evidence lives in an ignored directory | WP-0.2 | REPOSITORY, B1757 | REPRODUCED | — | main re-ran the deciding commands itself (B1870): audit/ is ignored and holds no tracked file; the register cites it on 83 lines and 68 findings files cite it; one calibration figure quoted on tracked pages rests on scripts that exist only there, and no tracked line says so |
 | V4 | the candidate has a forking path | WP-0.2 | REPOSITORY, V:SIX, B1840, B1841 | REPRODUCED | — | in part, by main's own reading of the declaration's history with the new seal gate: three later commits edited the declaration of ends after it was first committed, and the end that the candidate's row uses was entered 75 minutes after the first declaration, in a dated note that says the look had not yet run. Not yet checked: the audit's two figures for the screen under the plan's committed arms, and its remark on the fitted factor |

@@ -19389,3 +19389,36 @@ reads it.
 
 0 of 19.
 
+## 2026-11-11 — S306p: the long random test is read, once
+
+**What was tested.** When we say our six numbers are a rare coincidence, "rare" is measured against random targets
+tried on a table of candidate rows. The table covers a range of one variable, and where that range stops was a
+choice nobody had priced. An audit said this could matter a lot, with a figure of 20% that had no source. The audit
+seat wrote the rule for deciding it before any number existed, and left the counting to main so that the one who
+made the claim would not be the one to count.
+
+**How it was run.** Two million random targets, no measured value anywhere, two and a half hours of machine time. The
+result files were saved to the public record before main opened them, then read once.
+
+**What it says.**
+
+- By the rule fixed in advance, the answer in all three deciding places is: the end of the range behaves like the
+  rest. The worry is reduced to one sentence that now sits beside the two results.
+- It was close. In two of the three places, one to three random targets out of a thousand would have tipped it the
+  other way.
+- The audit's 20% is real. One random target in five lands on the top edge of the range. But those are targets that
+  fit nothing at all; they have to land somewhere. Among the random targets that fit well, the top edge is not
+  special: the layer just inside it holds more.
+- The honest sentence is: a longer range at the top would add lucky random targets about one and a half to two
+  times as fast as it adds rows; a longer range at the bottom would add almost none. So a quoted rarity can shift
+  by a fraction, not by an order of magnitude.
+
+**What is still owed.** The same sentence on the other pages that quote these rarities; the ends of the range
+listed among the choices we make by hand; and the same test on the table of the current best candidate before any
+final test of it.
+
+**Which piece of the plan moved.** The piece about debts that bear on current work: one finding went from open to
+partly fixed. No piece was finished.
+
+0 of 19.
+

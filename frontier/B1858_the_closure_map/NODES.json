@@ -6671,5 +6671,29 @@
    "P-781": "QUEUED"
   },
   "weave_or_thread": "n/a"
+ },
+ {
+  "id": "P:786",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "what is left of the audit's finding V1 after its card read B: the sentence on every page that quotes either rarity, the window's two ends listed as a choice with their measured price, the same count on the live candidate's null before its card is sealed, and the seat's own verdict.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-786 — "
+   ]
+  ],
+  "rows": [
+   "P-786"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 84,
+  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "rows_live": {
+   "P-786": "QUEUED"
+  },
+  "weave_or_thread": "n/a"
  }
 ]

@@ -28,7 +28,7 @@ def test_the_recount_runs_and_says_what_the_findings_quote():
         assert s in out, s
     sealed = (HERE / "read_checks_run.txt").read_text(encoding="utf-8")
     # 8 at the read; 9 since the owner named the orientation's condition on 2026-11-11 (B1879), which the run now prints
-    assert "joined to nothing: 66" in sealed and "an exit with no objection on the page: 9" in sealed          # 64 until P-777 (B1880), 65 until P-781 were registered
+    assert "joined to nothing: 67" in sealed and "an exit with no objection on the page: 9" in sealed          # 64 until P-777 (B1880), 65 until P-781, 66 until P-786 (B1882) were registered
 
 
 def test_the_four_repairs_are_in_force():

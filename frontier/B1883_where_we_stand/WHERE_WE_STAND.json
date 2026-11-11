@@ -2,8 +2,8 @@
  "audit": {
   "by_state": {
    "FIXED": 11,
-   "OPEN": 1,
-   "PARTLY FIXED": 15,
+   "OPEN": 0,
+   "PARTLY FIXED": 16,
    "READER": 4,
    "REPRODUCED": 42
   },
@@ -20,9 +20,9 @@
   "status": "NOT STARTED"
  },
  "map": {
-  "debts": 83,
-  "debts_joined_to_nothing": 66,
-  "nodes": 275,
+  "debts": 84,
+  "debts_joined_to_nothing": 67,
+  "nodes": 276,
   "nodes_that_need_a_path": 134
  },
  "milestones": [
@@ -215,18 +215,18 @@
  "ready_for_the_final_reading": false,
  "register": {
   "by_kind": {
-   "DEBT": 83,
+   "DEBT": 84,
    "LEAD": 130,
    "OWNER": 3,
    "PROCESS": 54
   },
-  "open": 270,
+  "open": 271,
   "owner_calls_open": [
    "P-081",
    "P-082",
    "P-253"
   ],
-  "points": 785
+  "points": 786
  },
  "rows_the_scoreboard_lists": 23,
  "the_count_as_an_output": {

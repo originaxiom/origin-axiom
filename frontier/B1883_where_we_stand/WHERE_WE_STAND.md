@@ -55,8 +55,8 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 | C5 | The pre-comparison seal and independent challenge | 4 | 0 | 1 | 3 |
 | C6 | Dimensional calibration and empirical comparison | 1 | 0 | 0 | 1 |
 
-- **The map:** 275 nodes, of which 134 still need a path to a result.
-- **Debts on the map:** 83, of which 66 are joined to no node yet.
+- **The map:** 276 nodes, of which 134 still need a path to a result.
+- **Debts on the map:** 84, of which 67 are joined to no node yet.
 
 ## 4. What is still put in by hand
 
@@ -79,13 +79,13 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 
 ## 5. The audit of 2026-11-10
 
-- **73 findings:** reproduced 42, partly fixed 15, fixed 11, reader 4, open 1.
+- **73 findings:** reproduced 42, partly fixed 16, fixed 11, reader 4, open 0.
 - **15 carry the auditing seat's own verdict.** Fixed by main and not yet read by that seat: none.
 - **Changed by main since the seat last read them:** E4, E8.
 
 ## 6. The record's own list
 
-- **785 points registered, 270 open:** 130 lead, 83 debt, 54 process, 3 owner.
+- **786 points registered, 271 open:** 130 lead, 84 debt, 54 process, 3 owner.
 - **Calls that are the owner's to make (3):**
   - P-081: the reply to the outside reader, approached carefully so the contact is not lost: in his own context (one of his videos as the opening), short, honest…
   - P-082: a second outside reader, later, approached in his own context (relating to his videos), after the first correspondence
