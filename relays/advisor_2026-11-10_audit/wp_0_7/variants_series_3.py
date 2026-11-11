@@ -133,10 +133,12 @@ r = one("framing"); line("t2", r[0] is False and "arc_verdict.json" in r[1], "in
 reset(); first, rest = banned.split(" ", 1); write("docs/PLANTED_PAGE.md", "# A page\n\nIt is said that " + first + "\n" + rest + ", and more.\n"); commit("planted: over two lines")
 r = one("framing"); line("t3", r[0] is False and "docs/PLANTED_PAGE.md" in r[1], "broken over two lines: %s" % r[1][:110])
 reset(); before = re.search(r"not read: (\d+) above", control["framing"][1]).group(1)
-write("frontier/B9999_planted_arc/census.jsonl", (json.dumps({"row": "x" * 80}) + "\n") * 70000 + banned + "\n"); commit("planted: in a data file above the limit")
+# (the first run stopped here: the file was named census.jsonl, an ending the repository's ignore list holds, so the planted
+#  commit had nothing in it and failed.  The file has another ending now.  No expectation is changed.)
+write("frontier/B9999_planted_arc/census_rows.json", (json.dumps({"row": "x" * 80}) + "\n") * 70000 + banned + "\n"); commit("planted: in a data file above the limit")
 r = one("framing"); after = re.search(r"not read: (\d+) above", r[1])
 line("t4", r[0] is True and after is not None and int(after.group(1)) == int(before) + 1, "in a %d MB data file: passes; files above the limit %s -> %s" % (
-    os.path.getsize(path("frontier/B9999_planted_arc/census.jsonl")) // 1000000, before, after.group(1) if after else "?"))
+    os.path.getsize(path("frontier/B9999_planted_arc/census_rows.json")) // 1000000, before, after.group(1) if after else "?"))
 reset(); shutil.copy(path("frontier/B887_gate_audit/audit_reports.json"), path("frontier/B887_gate_audit/audit_reports_copy.json")); commit("planted: the exempt report under another name")
 r = one("framing"); line("t5", r[0] is False and "audit_reports_copy.json" in r[1], "the exempt report copied under another name: %s" % r[1][:110])
 
