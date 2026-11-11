@@ -1,5 +1,18 @@
 # Changelog
 
+## M1 taken: the seats' protocol joined; cards SM-C1 and SM-C2 committed (verify the physical lane's thirty items)
+
+- **Read:** main's new seat protocol (docs/seats/ on main) and this seat's page, M1. Main also verified relay §355's
+  criterion K (k = 5) and its side finding (S305y).
+- **Added:**
+  - `relays/STATUS_SM.md`, the status file;
+  - `relays/cards/SM_C1_physical-lane-batch-V1.md`, for the ten hand derivations of 2026-10-27 to 29;
+  - `relays/cards/SM_C2_physical-lane-batch-V2.md`, for the twenty results of 2026-11-03 and 04 and their unrun
+    controls.
+
+  Each card says, before any check, what would count as not reproducing, with a planted-error control.
+- **The listener runs** from a copy of main's script. 0 of 19.
+
 ## Relay §355: the scale riddle — a level-fixing criterion, stated before any value (P-715, P-719, P-721)
 
 - **Read:** main's S305l–S305s, Review 75, B1845 and P-712–P-721; the web seat's departure work; the agy lane's commit

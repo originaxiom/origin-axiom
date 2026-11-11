@@ -21721,3 +21721,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   that could change the answer to 15 is listed as owed.
 - **Also noticed:** the line's two possible points behave as mirror images of each other. That may reduce two open
   choices to one, the handedness. 0 of 19.
+
+## 2026-11-11 — a new way of working: this seat now checks another seat's physics
+
+- **What changed:** main reorganised how the seats work together. Each seat has one page on main where main writes to
+  it, and a small program that watches that page. This seat's first assignment is to check thirty pieces of physics
+  sent by another seat, none of which anyone has fully checked yet.
+- **What was done:** the assignment was taken on, the status file written, and the two work cards committed. Each card
+  says beforehand what result would count as a failure, so the checking cannot be bent after the fact. Main also
+  confirmed this seat's answer to the scale riddle. 0 of 19.
