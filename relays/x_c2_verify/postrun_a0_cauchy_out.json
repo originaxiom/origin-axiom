@@ -1,0 +1,20 @@
+{
+  "row": 1516,
+  "commit_read": "e40d0fb1",
+  "purpose": "Resolve 2-point O(r^2) stencil bug on Laurent constant a_0 in e163762c0 via 32-point Cauchy contour mean",
+  "control_wrong_sign_fired": true,
+  "two_point_r_1e_6_err_log10": -12,
+  "cauchy_32pt_r_1e_2_err_log10": -47,
+  "cauchy_a0_passes_1e_45": true,
+  "order8_nonint_lines": [
+    "(1/4, 1/8)",
+    "(1/4, 3/8)",
+    "(1/4, 5/8)",
+    "(1/4, 7/8)"
+  ],
+  "sigma_b_order8_min_abs_log10": -1,
+  "sigma_b_exp_err_log10": -17,
+  "re0_matter_18_lines_spread_log10": -50,
+  "re0_doublet_8_lines_spread_log10": -50,
+  "all_pure_math_claims_reproduced": true
+}
