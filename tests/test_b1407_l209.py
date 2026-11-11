@@ -46,8 +46,10 @@ def test_branch_A_anchor_is_nonzero_on_both_accountings():
 
 def test_branch_B_dies_on_the_tie():
     """2 ear-discriminating directions, 2-bit anchor, R11 needs strictly > 0."""
-    assert (2 - 2) == 0
-    assert not ((2 - 2) > 0)
+    anchor_bits = math.log2(4)
+    ear_dirs = len(("ear_plus", "ear_minus"))
+    net_gain = ear_dirs - anchor_bits
+    assert net_gain == 0.0 and not (net_gain > 0.0)
 
 
 def test_the_object_word_is_a_unit_hence_branch_B():

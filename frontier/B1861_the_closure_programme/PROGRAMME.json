@@ -93,7 +93,9 @@
    "B567"
   ],
   "E2": [
-   "docs/THEOREM_LEDGER.md"
+   "docs/THEOREM_LEDGER.md",
+   "B734",
+   "tests/test_b734_m004_congruence.py"
   ],
   "E3": [
    "B1856",
@@ -175,6 +177,7 @@
   ],
   "L3": [
    "docs/THEOREM_LEDGER.md",
+   "B734",
    "B730",
    "B1096"
   ],
@@ -185,7 +188,9 @@
    "B1847"
   ],
   "L6": [
-   "REPOSITORY"
+   "REPOSITORY",
+   "B1849",
+   "B1850"
   ],
   "L7": [
    "REPOSITORY"
@@ -292,7 +297,9 @@
   ],
   "V4": [
    "REPOSITORY",
-   "V:SIX"
+   "V:SIX",
+   "B1840",
+   "B1841"
   ],
   "V5": [
    "REPOSITORY",
@@ -485,7 +492,6 @@
   "P-135": "WP-0.4",
   "P-138": "WP-0.1",
   "P-145": "WP-0.1",
-  "P-154": "WP-0.3",
   "P-155": "WP-0.4",
   "P-156": "WP-0.4",
   "P-157": "WP-0.2",
@@ -544,7 +550,6 @@
   "P-643": "WP-0.1",
   "P-646": "WP-0.4",
   "P-653": "WP-0.3",
-  "P-670": "WP-0.3",
   "P-687": "WP-0.2",
   "P-688": "WP-0.2",
   "P-698": "WP-0.4",
@@ -860,9 +865,15 @@
    "wp": "WP-0.7"
   },
   "G10": {
-   "note": "main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit, for two of its eleven practices: a proven row citing no lock passed, and a banned phrase passed when capitalised or placed in a file type the gate does not read",
+   "note": "B1879: gate_claims requires every PROVEN row in CLAIMS.md to cite a tests/*.py lock (PV20), and gate_framing scans .tex files and matches banned phrases case-insensitively (PV21)",
    "short": "practices labelled gated whose gate is weaker than the practice",
-   "state": "REPRODUCED",
+   "state": "FIXED",
+   "trail": [
+    [
+     "REPRODUCED",
+     "main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit, for two of its eleven practices: a proven row citing no lock passed, and a banned phrase passed when capitalised or placed in a file type the gate does not read"
+    ]
+   ],
    "was": [
     "READER",
     "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit, for two of its eleven practices: a proven row citing no lock passed, and a banned phrase passed when capitalised or placed in a file type the gate does not read"
@@ -890,15 +901,25 @@
    "wp": "WP-0.7"
   },
   "G13": {
-   "note": "Review 77: the review tool's clone for the gates now carries the published branches, as its clone for the suite did. Left: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit at depth 50, where the lead gate reports no stale arc against a baseline of 76 and another gate fails spuriously; no gate says the clone is shallow. The seat's own script reports this case caught on today's main because the full and the shallow clone now agree; that is its criterion, not a fix (B1865)",
+   "note": "B1879: _debt_git_env fails closed on shallow clones (`git rev-parse --is-shallow-repository == true`) with an explicit shallow-clone message (PV22)",
    "short": "results depend on clone depth and on fetched refs",
-   "state": "PARTLY FIXED",
+   "state": "FIXED",
+   "was": [
+    "PARTLY FIXED",
+    "Review 77: the review tool's clone for the gates now carries the published branches, as its clone for the suite did. Left: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit at depth 50, where the lead gate reports no stale arc against a baseline of 76 and another gate fails spuriously; no gate says the clone is shallow. The seat's own script reports this case caught on today's main because the full and the shallow clone now agree; that is its criterion, not a fix (B1865)"
+   ],
    "wp": "WP-0.7"
   },
   "G14": {
-   "note": "main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a verdict file cut to invalid JSON is skipped by the gate that reads it; it is noticed only where the arc has dependants, and by a view generator",
+   "note": "B1879: gate_arc_data fails closed on `unreadable verdict files`, catching truncated or invalid leaf arc_verdict.json files that no other arc depends on (re-audit 3's corrected PV14)",
    "short": "baselines are counts, markers never expire, ids match as substrings",
-   "state": "REPRODUCED",
+   "state": "FIXED",
+   "trail": [
+    [
+     "REPRODUCED",
+     "main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a verdict file cut to invalid JSON is skipped by the gate that reads it; it is noticed only where the arc has dependants, and by a view generator"
+    ]
+   ],
    "was": [
     "READER",
     "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a verdict file cut to invalid JSON is skipped by the gate that reads it; it is noticed only where the arc has dependants, and by a view generator"
@@ -924,15 +945,25 @@
    "wp": "WP-0.7"
   },
   "G5": {
-   "note": "B1863: the append-only gate fails closed without a repository, and the runner prints a gate that checked nothing as SKIP with its own words (the review tool's fresh clone counts it against the clone). Left: the four gates that still skip there, and the four deletions that pass (the identification baseline, the retracted-phrase registry, every arc test, an emptied law map and theorem ledger). Main's reader's run corrected one detail: two gates the audit lists do fail closed",
+   "note": "B1879: all ten git-dependent gates fail closed without .git (PV9), and missing IDENTIFICATION_BASELINE.json (PV10), RETRACTED_PHRASES.md (PV11), tests/test_b*.py (PV12), or emptied LAW_MAP.md / THEOREM_LEDGER.md (PV13) all fail closed",
    "short": "'gates fail closed' is false for many gates",
-   "state": "PARTLY FIXED",
+   "state": "FIXED",
+   "was": [
+    "PARTLY FIXED",
+    "B1863: the append-only gate fails closed without a repository, and the runner prints a gate that checked nothing as SKIP with its own words (the review tool's fresh clone counts it against the clone). Left: the four gates that still skip there, and the four deletions that pass (the identification baseline, the retracted-phrase registry, every arc test, an emptied law map and theorem ledger). Main's reader's run corrected one detail: two gates the audit lists do fail closed"
+   ],
    "wp": "WP-0.7"
   },
   "G6": {
-   "note": "main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit with the date set 30, 60 and 365 days after the commit: four gates turn red on identical content",
+   "note": "B1879: relay-debt, harvest-debt, lead-debt and point-debt pin their reference date to HEAD's commit date via _debt_git_env (PV15), so identical commits never turn red as wall-clock days pass",
    "short": "four gates read today's date",
-   "state": "REPRODUCED",
+   "state": "FIXED",
+   "trail": [
+    [
+     "REPRODUCED",
+     "main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit with the date set 30, 60 and 365 days after the commit: four gates turn red on identical content"
+    ]
+   ],
    "was": [
     "READER",
     "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit with the date set 30, 60 and 365 days after the commit: four gates turn red on identical content"
@@ -940,9 +971,15 @@
    "wp": "WP-0.7"
   },
   "G7": {
-   "note": "main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: every registered control pointed at one skipped trivial test, and the gate passed",
+   "note": "B1879: gate-controls parses every registered test AST and refuses skipped, xfailed, no-assert or tautologous control functions (PV16)",
    "short": "the gate-controls gate checks a name only",
-   "state": "REPRODUCED",
+   "state": "FIXED",
+   "trail": [
+    [
+     "REPRODUCED",
+     "main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: every registered control pointed at one skipped trivial test, and the gate passed"
+    ]
+   ],
    "was": [
     "READER",
     "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: every registered control pointed at one skipped trivial test, and the gate passed"
@@ -950,9 +987,15 @@
    "wp": "WP-0.7"
   },
   "G8": {
-   "note": "main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: two phrases from registry rows added after 2026-10-07 pasted into the front page passed; a phrase from an older row was caught",
+   "note": "B1879: retraction_sweep parses Format-3 unquoted first-cell rows (P-154, PV17), sweeping all 29 active rows of docs/RETRACTED_PHRASES.md",
    "short": "the retraction sweep reads part of its registry",
-   "state": "REPRODUCED",
+   "state": "FIXED",
+   "trail": [
+    [
+     "REPRODUCED",
+     "main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: two phrases from registry rows added after 2026-10-07 pasted into the front page passed; a phrase from an older row was caught"
+    ]
+   ],
    "was": [
     "READER",
     "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: two phrases from registry rows added after 2026-10-07 pasted into the front page passed; a phrase from an older row was caught"
@@ -960,13 +1003,17 @@
    "wp": "WP-0.7"
   },
   "G9": {
-   "note": "B1878: the attribution gate reads every commit message on the first-parent line after da25c4f49, the last that carried a vendor's name or a co-author trailer; 695 commits pass; a trailer, a vendor's name and a foreign author, each committed in a small repository, are refused, and the gate fails closed where that history is not in the clone (tests/test_attribution_history.py)",
+   "note": "B1878 + B1879: commit messages on the first-parent line after da25c4f49 are checked (PV18, B1878), and ATTRIBUTION_CEILING freezes the per-file token ceiling inside gates.py so raising docs/ATTRIBUTION_BASELINE.json cannot forgive added vendor tokens (PV19, B1879)",
    "short": "the attribution gate never reads a commit message",
    "state": "FIXED",
    "trail": [
     [
      "REPRODUCED",
      "main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a commit message carrying a co-author trailer passed; so did vendor tokens added with their baseline raised in the same commit"
+    ],
+    [
+     "FIXED",
+     "B1878: the attribution gate reads every commit message on the first-parent line after da25c4f49, the last that carried a vendor's name or a co-author trailer; 695 commits pass; a trailer, a vendor's name and a foreign author, each committed in a small repository, are refused, and the gate fails closed where that history is not in the clone (tests/test_attribution_history.py)"
     ]
    ],
    "was": [
@@ -986,9 +1033,15 @@
    "wp": "WP-0.3"
   },
   "L10": {
-   "note": "main re-ran it in a clean checkout (B1873): two test files pass and leave a tracked evidence file modified (B1464's seal census); the seat saw a second file change on its machine",
+   "note": "B1879: seal_census.py and B1690's main_w81_w83.py write tracked artifacts only when `--write` is passed, so running the test suite leaves `git status` clean",
    "short": "the suite rewrites tracked evidence files",
-   "state": "REPRODUCED",
+   "state": "FIXED",
+   "trail": [
+    [
+     "REPRODUCED",
+     "main re-ran it in a clean checkout (B1873): two test files pass and leave a tracked evidence file modified (B1464's seal census); the seat saw a second file change on its machine"
+    ]
+   ],
    "was": [
     "READER",
     "by reading, main's reader: two locks run scripts that write tracked files. main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a test that appends to a tracked file leaves the tree changed and nothing notices; the full suite was not run"
@@ -1016,9 +1069,13 @@
    "wp": "WP-0.3"
   },
   "L4": {
-   "note": "Review 77, found independently by main's fresh-clone suite: the three logs sealed under tracked names. The gate was then widened twice the same day: first to read every lock's own-directory paths, which main's own planted run showed could fire only on the author's tree; then to refuse any such path that git would ignore, whether or not the file exists, which fires in a clean checkout. Left: the lock reads the drivers' committed transcripts and does not re-run them (their runs take hours)",
+   "note": "B1879: _ast_file_relative_refs tracks multi-step constant path bindings (`SUB = HERE / ...; p = SUB / ...`) against git check-ignore (re-audit 2's p2). Left, as before: B1854's lock reads committed transcripts rather than re-running multi-hour drivers",
    "short": "B1854's lock fails in every clone",
    "state": "PARTLY FIXED",
+   "was": [
+    "PARTLY FIXED",
+    "Review 77, found independently by main's fresh-clone suite: the three logs sealed under tracked names. The gate was then widened twice the same day: first to read every lock's own-directory paths, which main's own planted run showed could fire only on the author's tree; then to refuse any such path that git would ignore, whether or not the file exists, which fires in a clean checkout. Left: the lock reads the drivers' committed transcripts and does not re-run them (their runs take hours)"
+   ],
    "wp": "WP-0.3"
   },
   "L5": {
@@ -1028,15 +1085,25 @@
    "wp": "WP-0.3"
   },
   "L6": {
-   "note": "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a lock comparing a printed float with a committed transcript is refused by no gate",
+   "note": "B1879: B1849's and B1850's locks parse printed floats numerically (`pytest.approx(..., abs=1e-12)`) rather than comparing rounded decimal strings",
    "short": "locks that compare printed floating-point digits as text",
-   "state": "READER",
+   "state": "FIXED",
+   "was": [
+    "READER",
+    "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a lock comparing a printed float with a committed transcript is refused by no gate"
+   ],
    "wp": "WP-0.3"
   },
   "L7": {
-   "note": "main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader's scan of every test file: fifteen test functions whose every assert is on literals; main read one of them. main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a test whose only assert is on two literals is counted and not refused",
+   "note": "B1879: check_test_vacuity treats both-literal assertions (`assert 1 != 2`) as a hard failure (PV24), and the 19 legacy literal-only tests in tests/test_b*.py are upgraded to recomputing assertions",
    "short": "tests that are arithmetic on literals",
-   "state": "REPRODUCED",
+   "state": "FIXED",
+   "trail": [
+    [
+     "REPRODUCED",
+     "main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader's scan of every test file: fifteen test functions whose every assert is on literals; main read one of them. main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a test whose only assert is on two literals is counted and not refused"
+    ]
+   ],
    "was": [
     "READER",
     "main's reader's scan of every test file: fifteen test functions whose every assert is on literals; main read one of them. main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a test whose only assert is on two literals is counted and not refused"
@@ -1376,13 +1443,17 @@
    "wp": "WP-0.10"
   },
   "X3": {
-   "note": "main re-ran it (B1873): the script the foundation cites for the live price, outside_bench/certificates/the_price_is_twelve.py, exits 1 on main ('24 ROWS OUTSTANDING' is not stated in the verdict page) and nothing runs it; the other script for the same price, B1266's, passes on a typed 4. Both halves of the finding stand. B1870 had tested the second script, the finding having named none",
+   "note": "B1879: outside_bench/certificates/the_price_is_twelve.py now exits 0 ('24 ROWS OUTSTANDING' recorded on docs/THE_SM_VERDICT.md) and is locked by tests/test_b1879_reaudit3_and_enforcement.py. Left: B1266's typed AXIOMS = 4 constant vs computing one unified price from the graph (WP-0.12, P-773)",
    "short": "the printed identification price undercounts, and its script fails",
-   "state": "REPRODUCED",
+   "state": "PARTLY FIXED",
    "trail": [
     [
      "REPRODUCED",
      "main re-ran the deciding commands itself (B1870): in part. The certificate script does not fail on main: it exits 0, its four tests pass, and it is unchanged since the audited commit. What holds is that the '4' in '4 + 9 = 13' is a typed constant"
+    ],
+    [
+     "REPRODUCED",
+     "main re-ran it (B1873): the script the foundation cites for the live price, outside_bench/certificates/the_price_is_twelve.py, exits 1 on main ('24 ROWS OUTSTANDING' is not stated in the verdict page) and nothing runs it; the other script for the same price, B1266's, passes on a typed 4. Both halves of the finding stand. B1870 had tested the second script, the finding having named none"
     ]
    ],
    "was": [
@@ -2467,7 +2538,6 @@
    ],
    "closure_nodes": [],
    "debts": [
-    "P-154",
     "P-233",
     "P-239",
     "P-317",
@@ -2480,8 +2550,7 @@
     "P-607",
     "P-608",
     "P-609",
-    "P-653",
-    "P-670"
+    "P-653"
    ],
    "findings": [
     "L1",
@@ -5032,22 +5101,26 @@
    "the scope carried to the verdict block at the top of B854's findings"
   ],
   "G1": [
-   "B1874",
-   "the second of its three residuals: both gates put every waiver, with its reason, in their sentence and count waived commits apart from appends; and the runner, which printed a bare ok for every pass, now prints those sentences whole (a waived violation committed in a small repository is named in the printed line). Left: the log's archives, and the history before the rule"
+   "B1879",
+   "archive_append_only_problems enforces append-only history on docs/progress/PROGRESS_*.md from 015be0cc7 (a1); _rollup_ok checks any header before the first dated heading and requires the roll-up commit itself to add or modify the archive; waivers remain loud (B1874, accepted at re-audit 3)"
   ],
   "G2": [
-   "B1874",
-   "the re-audit's largest residual: a gate reads every list of hashed files (189 lists, 1497 entries), a listed file cannot change, and a list cannot be edited, deleted or moved; the 63 entries that did not verify are frozen by key; eleven tests on committed planted violations, the seat's own case among them. Left of this finding: a rule under a name outside the seal patterns, and a sealed-style file one folder deeper"
+   "B1879",
+   "re-audit 3's three residuals on B1874 closed: canonical hash-entry resolution without decoy shadowing (t3), present disk-digest locks on the pre-existing broken scripts (t4), and secondary seal hash lists (*SEAL*.txt, *SHA256*.txt, *.sha256, *HASHES*.txt, *.sums; 79 files, 266 entries) enforced and history-locked (t7); plus SEAL_PATTERNS widened to PRE_RUN_NOTE*.md, *RULE.md and recursive subdirectories (s2, s3)"
+  ],
+  "G4": [
+   "B1879",
+   "seal_order_after_problems refuses any sealed arc whose rule was first committed strictly after its FINDINGS.md beyond the seven pre-existing historical exceptions frozen in SEAL_ORDER_AFTER_BASELINE (s4)"
   ]
  },
  "stats": {
   "audit_findings": 73,
   "audit_findings_by_state": {
-   "FIXED": 10,
+   "FIXED": 20,
    "OPEN": 1,
-   "PARTLY FIXED": 15,
-   "READER": 4,
-   "REPRODUCED": 43
+   "PARTLY FIXED": 14,
+   "READER": 3,
+   "REPRODUCED": 35
   },
   "audit_findings_checked_at_the_seats_revision": 73,
   "budget": {
@@ -5062,8 +5135,8 @@
   "candidate_frame_joints": 13,
   "conditional_headlines_released_by_closing_one_choice": 0,
   "conditional_results": 19,
-  "debts": 81,
-  "debts_on_the_map_joined_to_nothing": 64,
+  "debts": 79,
+  "debts_on_the_map_joined_to_nothing": 62,
   "exits_by_kind": {
    "ADMITTED": 3,
    "BACK-EDGE NAMED": 5,
@@ -5080,13 +5153,24 @@
    "E4",
    "E8",
    "G1",
-   "G2"
+   "G2",
+   "G4"
   ],
   "findings_that_bear_on_the_repository_as_a_whole": 34,
   "findings_that_name_arcs_nodes_or_pages_only": 39,
   "findings_with_a_re_audit_verdict": 12,
   "fixed_and_not_yet_re_audited": [
+   "G10",
+   "G13",
+   "G14",
+   "G5",
+   "G6",
+   "G7",
+   "G8",
    "G9",
+   "L10",
+   "L6",
+   "L7",
    "X1"
   ],
   "forcing_arguments_one_clause_short": 3,
@@ -5104,7 +5188,7 @@
   "inputs_with_an_exit_on_the_table": 8,
   "lanes_supplied_inputs": 7,
   "map_dependencies_between_packages": 21,
-  "map_nodes": 270,
+  "map_nodes": 268,
   "nodes_assigned": 131,
   "nodes_needing_a_path": 131,
   "not_checked_in_this_clone": [],

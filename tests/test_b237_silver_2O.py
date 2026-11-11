@@ -19,4 +19,8 @@ def test_2O_is_never_SL2Fp_but_2T_2I_are():
 
 def test_2O_is_double_cover_of_S4_order():
     """silver realizes the octahedral ROTATION group S4 (order 24), not the binary cover 2O (order 48)."""
-    assert 48 == 2 * 24                            # 2O = 2.S4 (binary octahedral double-covers S4)
+    from sympy.combinatorics.named_groups import SymmetricGroup
+    s4_order = int(SymmetricGroup(4).order())
+    # 2T = SL(2,3) has index 2 in 2O, while S4 = PGL(2,3) has order 24
+    two_O_order = 2 * sl2_fp_order(3)
+    assert s4_order == 24 and two_O_order == 48 == 2 * s4_order

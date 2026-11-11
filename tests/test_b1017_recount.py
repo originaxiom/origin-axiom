@@ -8,10 +8,13 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 def test_the_two_closings_differ_on_both_discriminants():
     """The correction's mathematical core, kept executable: tau vs the VEV chain."""
     # rank removed: tau: E6(6) -> F4(4) = 2 ; <1>: E6(6) -> SO(10)+U(1) rank drop = 1
-    assert 6 - 4 == 2 and 6 - 5 == 1
-    # branching charge tracelessness (the retraced checks):
-    assert 16 * 1 + 10 * (-2) + 1 * 4 == 0
-    assert 10 * (-1) + 5 * 3 + 1 * (-5) == 0
+    ranks = {"E6": 6, "F4": 4, "SO10_U1": 5}
+    tau_drop = ranks["E6"] - ranks["F4"]
+    vev_drop = ranks["E6"] - ranks["SO10_U1"]
+    assert tau_drop == 2 and vev_drop == 1 and tau_drop != vev_drop
+    # branching charge tracelessness computed via weighted dot product:
+    assert sum(d * q for d, q in ((16, 1), (10, -2), (1, 4))) == 0
+    assert sum(d * q for d, q in ((10, -1), (5, 3), (1, -5))) == 0
 
 
 def test_the_retracted_phrase_is_registered_and_swept():

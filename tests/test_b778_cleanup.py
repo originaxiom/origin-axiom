@@ -7,7 +7,8 @@ ARC = pathlib.Path(__file__).resolve().parents[1] / "frontier" / "B778_cleanup"
 
 def test_darkhyp_count_identity():
     # the N=p^2 dark-hyperbola stratification counts sum to p^4 (p=3: 63+6+1+11=81)
-    assert 63 + 6 + 1 + 11 == 81 == 3**4
+    strata = (63, 6, 1, 11)
+    assert sum(strata) == 81 == pow(3, 4)
 
 
 def test_w5139_genus_41_reproduced():

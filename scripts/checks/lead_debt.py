@@ -122,6 +122,14 @@ def open_arcs() -> list:
 def check() -> tuple[list[str], list[str], list[str], dict]:
     if not LEADS.is_file():
         return ([f"{LEADS.relative_to(ROOT)} is MISSING -- the register is constitutive"], [], [], {})
+    gdir = subprocess.run(["git", "-C", str(ROOT), "rev-parse", "--git-dir"],
+                          capture_output=True, text=True)
+    if gdir.returncode != 0:
+        return (["cannot verify lead-debt: git repository unavailable"], [], [], {})
+    shal = subprocess.run(["git", "-C", str(ROOT), "rev-parse", "--is-shallow-repository"],
+                          capture_output=True, text=True)
+    if shal.returncode == 0 and shal.stdout.strip() == "true":
+        return (["cannot verify lead-debt: shallow clone truncates commit dates for OPEN arcs"], [], [], {})
     today = _today()
     leads = parse_leads(LEADS.read_text(encoding="utf-8", errors="ignore"))
     fails, stale_leads, stale_arcs = [], [], []

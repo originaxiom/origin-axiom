@@ -3,7 +3,9 @@ import sympy as sp
 
 
 def test_c1_class_on_level():
-    assert 1*1 + 0 + 0 - 0 == 1
+    x, y, z = sp.symbols('x y z')
+    markoff_level = x**2 + y**2 + z**2 - x * y * z
+    assert int(markoff_level.subs({x: 1, y: 0, z: 0})) == 1
 
 
 def test_c1_all_slots_negative_definite():

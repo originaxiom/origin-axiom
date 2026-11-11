@@ -25,7 +25,7 @@ by a quote that the builder checks.*
 | LANE-PROPOSED | a seat's hand proof, count or estimate, unreviewed; not verified on main | 7 |
 | LANE-INPUT | an input the seat's own ledger prices as supplied, unselected or unearned | 7 |
 | DUTY | something the full goal requires and nobody has done | 16 |
-| DEBT | a result the record uses is owed a check or a correction | 81 |
+| DEBT | a result the record uses is owed a check or a correction | 79 |
 | CLOSURE | one missing dependency under several names | 11 |
 
 ## 0. The principle
@@ -338,7 +338,6 @@ by a quote that the builder checks.*
 | 40 | P-317 | a check that cannot fail, an instrument or a seal claim under a banked result | Checks that cannot fail guard B1137 PSLQ DISJOINT, B162, GENESIS citation gate, kill graph T-VALUE-REGULATOR. |
 | 41 | P-602 | a check that cannot fail, an instrument or a seal claim under a banked result | B1225's reproduce.sh greps instead of computing; it backs T-NO-CANONICAL-SELECTOR, T-IDENTIFICATION-IS-AN-INPUT and FK12. |
 | 42 | P-590 | a check that cannot fail, an instrument or a seal claim under a banked result | Sealed negatives graded at M_Z with tree outputs; B1660, B1748 and B1720's T2 are not covered by the scale bound. |
-| 43 | P-154 | a check that cannot fail, an instrument or a seal claim under a banked result | The retraction sweep never reads RETRACTED_PHRASES' 2026-10-07 and 2026-10-08 tables (hand-swept clean at S297). |
 | 44 | P-239 | a check that cannot fail, an instrument or a seal claim under a banked result | B805's attachment locks guard the forcing graph and fail at every landing (CHANGELOG 'standing'). |
 | 45 | P-233 | a check that cannot fail, an instrument or a seal claim under a banked result | Hypercharge-forcing theorems T-Y18, T-TWO-ORBITS, T-DEFLATION-P in the registry lack the independent reimplementation control. |
 | 46 | P-540 | a check that cannot fail, an instrument or a seal claim under a banked result | B940's instrument is used by C10's seal on m004 (P-330). |
@@ -369,7 +368,6 @@ by a quote that the builder checks.*
 | 71 | P-653 | added by B1833 (S300; the brainstorms re-read) | GENESIS's foundation lock has never been tested as a whole (L240 (h)); its swept page of what the record lacks (g) dropped from the carry. |
 | 72 | P-643 | added by B1833 (S300; the brainstorms re-read) | THE_FINAL_ATTACK states pre-registered successors (the towers on NO SUPPORT; the gauge couplings after the nine) the record did not take. |
 | 73 | P-646 | added by B1833 (S300; the brainstorms re-read) | B1410 consumes P5 completeness, one of B1000's three bridge artifacts named and owed since 2026-08-09. |
-| 74 | P-670 | added by B1833 (S300; the brainstorms re-read) | the F_a evaluator is wrong by a phase for Re τ ≥ 1; any banked evaluation outside the strip rests on it. |
 | 75 | P-688 | added at S305 (the closure prepared) | the confirmation cards (P-585, P-638) cannot be sealed the day B1839 passes without the frozen-row instrument at the exact end, the PMNS card's owed controls and the budgets. |
 | 76 | P-687 | added at S305 (the closure prepared) | B1839's census rests on the Higgs-twist class cache (checked numerically by its C1, unproved) and has no independent third opinion. |
 | 77 | P-698 | added at S305 (the closure prepared) | frame B's B08 stays unconverted until main runs B1667's geometry at the agy lane's τ*. |

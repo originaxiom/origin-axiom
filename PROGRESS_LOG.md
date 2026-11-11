@@ -19203,3 +19203,18 @@ a plain label that its result was read after the rule was loosened. One small ch
 mentioned now.
 
 Next: the owner's other rulings go into the foundation document itself. 0 of 19.
+
+## 2026-11-11 — S306q: the third round of outside checks closed, and the sheet bug finished
+
+A third batch of planted tests arrived from the checking session. Four tricks still got past the repository's guards:
+putting a look-alike file in a subfolder to fool the hash check, editing an already-broken program a second time,
+putting a list of file hashes under a different filename, and writing "accepted" into the summary table without
+checking what the reviewer's own table said. A fifth test cut a leaf summary file in half. Every one of those five is
+now refused automatically, along with all the remaining planted cases from the first two rounds and four small gaps the
+recent review noted in the progress-log check.
+
+Two older housekeeping jobs were finished at the same time. Every table shape in the list of retired phrases is now
+read, and every program in the repository that evaluates the classical theta functions was checked for the branch-cut
+jump outside the central strip, with the one remaining exposed program repaired and tested where the jump occurs.
+
+Still 0 of 19.

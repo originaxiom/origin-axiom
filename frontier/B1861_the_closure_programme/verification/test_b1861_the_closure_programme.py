@@ -350,16 +350,23 @@ def test_the_joins_the_seals_rule_needs_and_each_refusal_can_fire():
         w43["needs"][:] = n43
     with planted(lambda: w43["needs"].append("WP-4.2"), restore43) as f:
         assert any("WP-4.3 is marked STARTED while WP-4.2" in x for x in f)
-    # 19: fixed is main's word; the re-audit's verdict is kept apart, and a finding it did not accept cannot be marked fixed
-    # fixed by main after the second re-audit and not read by that seat: listed, never shown as accepted (B1878's two)
-    assert st["findings_with_a_re_audit_verdict"] == len(S.ACCEPTED) and st["fixed_and_not_yet_re_audited"] == ["G9", "X1"]
+    # 19 & 21: fixed is main's word; the re-audit's verdict is kept apart and checked against the seat's file (j4), and a finding it did not accept cannot be marked fixed
+    # fixed by main after the second re-audit and not read by that seat: listed, never shown as accepted
+    assert st["findings_with_a_re_audit_verdict"] == len(S.ACCEPTED) and st["fixed_and_not_yet_re_audited"] == [
+        "G10", "G13", "G14", "G5", "G6", "G7", "G8", "G9", "L10", "L6", "L7", "X1"
+    ]
     assert S.FINDINGS["E3"]["state"] == "PARTLY FIXED" and S.FINDINGS["E3"]["was"][0] != "PARTLY FIXED"
     e3 = dict(S.FINDINGS["E3"])
+    e3_acc = S.ACCEPTED["E3"]
     def restore_e3():
         S.FINDINGS["E3"].clear()
         S.FINDINGS["E3"].update(e3)
+        S.ACCEPTED["E3"] = e3_acc
     with planted(lambda: S.FINDINGS["E3"].__setitem__("state", "FIXED"), restore_e3) as f:
         assert any("finding E3 is marked FIXED and the re-audit" in x for x in f)
+    if SEATS:
+        with planted(lambda: (S.FINDINGS["E3"].__setitem__("state", "FIXED"), S.ACCEPTED.__setitem__("E3", "accepted")), restore_e3) as f:
+            assert any("the advisor seat's REAUDIT_2_2026-11-10.md verdict for E3" in x for x in f)
     # 20: what main changed after the re-audit is shown as not re-read; an entry for a finding with no verdict, or an arc not on main, is refused
     assert st["findings_main_changed_since_the_re_audit"] == sorted(S.SINCE_REAUDIT) and set(S.SINCE_REAUDIT) <= set(S.ACCEPTED)
     page = (ARC / "PROGRAMME.md").read_text(encoding="utf-8")

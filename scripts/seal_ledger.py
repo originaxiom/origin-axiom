@@ -26,9 +26,10 @@ def git(*args):
 
 def main():
     sealed = []
-    for d in sorted(glob.glob(os.path.join(ROOT, "frontier", "B*", ""))):
-        for pat in ("PREREG*", "*DESIGN*.md", "SEALED*.md", "DECLARATION.md"):
-            sealed.extend(sorted(glob.glob(os.path.join(d, pat))))
+    for pat in ("PREREG*", "*DESIGN*.md", "SEALED*.md", "DECLARATION.md", "PRE_RUN_NOTE*.md", "*RULE.md"):
+        for p in glob.glob(os.path.join(ROOT, "frontier", "B*", "**", pat), recursive=True):
+            if os.path.isfile(p):
+                sealed.append(p)
     sealed = sorted(set(sealed))
 
     # index of the repository's TRACKED text for the recorded-hash lookup (one pass). Two corrections of 2026-11-10 (the
@@ -50,12 +51,39 @@ def main():
         except Exception:
             pass
 
+    # Single-pass history scan over frontier/ (with -M rename tracking so renamed
+    # seals like B1071 match `git log --follow -- <rel>` in ~4s instead of ~5m).
+    rels = [os.path.relpath(p, ROOT) for p in sealed]
+    cur_to_origs = {r: [r] for r in rels}
+    hist = {r: [] for r in rels}
+    cur_sha = None
+    for line in git("log", "-M", "--name-status", "--format=COMMIT:%h", "--", "frontier").splitlines():
+        if line.startswith("COMMIT:"):
+            cur_sha = line[7:]
+            continue
+        if not line or not cur_sha:
+            continue
+        parts = line.split("\t")
+        st = parts[0]
+        if st.startswith("R") and len(parts) == 3:
+            old_p, new_p = parts[1], parts[2]
+            if new_p in cur_to_origs:
+                origs = cur_to_origs.pop(new_p)
+                for o in origs:
+                    hist[o].append(cur_sha)
+                cur_to_origs.setdefault(old_p, []).extend(origs)
+        elif len(parts) >= 2:
+            p = parts[-1]
+            if p in cur_to_origs:
+                for o in cur_to_origs[p]:
+                    hist[o].append(cur_sha)
+
     rows = []
     for path in sealed:
         rel = os.path.relpath(path, ROOT)
         h = hashlib.sha256(open(path, "rb").read()).hexdigest()
         h8 = h[:8]
-        log = git("log", "--follow", "--format=%h", "--", rel).split()
+        log = hist[rel]
         n_commits = len(log)
         banked = log[-1] if log else "untracked"
         recorded = any(h8 in text for p, text in corpus

@@ -30,6 +30,8 @@ def main():
     out["neither_arcs_uncovered"] = sorted(neither_arcs - set(gates.SEAL_PROVENANCE_BASELINE) - set(att))
     ok = out["neither_arcs_uncovered"] == [] and len(neither_arcs) == len(gates.SEAL_PROVENANCE_BASELINE) + len(att) and all(v[0] for v in out["gates"].values()) and out["rows_both_shapes"] > out["rows_old_parser"]
     out["verdict"] = "PASS" if ok else "FAIL"
-    json.dump(out, open(HERE / "seal_census.json", "w"), indent=1, default=str); print(json.dumps(out, indent=1, default=str)); print("VERDICT seal-census: %s" % out["verdict"]); return 0 if ok else 1
+    if "--write" in sys.argv:
+        json.dump(out, open(HERE / "seal_census.json", "w"), indent=1, default=str)
+    print(json.dumps(out, indent=1, default=str)); print("VERDICT seal-census: %s" % out["verdict"]); return 0 if ok else 1
 if __name__ == "__main__":
     sys.exit(main())

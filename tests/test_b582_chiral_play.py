@@ -21,6 +21,17 @@ def test_27_of_e6_is_complex():
 
 def test_closure_dimension_is_full():
     # the G1-computed theta-odd-dial closure dim (banked, ROUND1_TRANSCRIPT #916) = 78
-    # = dim e6; the corollary needs exactly this equality plus connected-subgroup theory.
-    dim_e6 = 72 + 6                                       # roots + Cartan
-    assert dim_e6 == 78
+    # = dim e6; compute |Phi(E6)| + rank(E6) directly by Weyl reflections from Cartan matrix C6.
+    rank = len(C6)
+    roots = {tuple(1 if j == i else 0 for j in range(rank)) for i in range(rank)}
+    frontier = list(roots)
+    while frontier:
+        v = frontier.pop()
+        for i in range(rank):
+            dot = sum(int(C6[i][j]) * v[j] for j in range(rank))
+            nxt = tuple(v[j] - (dot if j == i else 0) for j in range(rank))
+            if nxt not in roots:
+                roots.add(nxt)
+                frontier.append(nxt)
+    dim_e6 = len(roots) + rank
+    assert len(roots) == 72 and rank == 6 and dim_e6 == 78

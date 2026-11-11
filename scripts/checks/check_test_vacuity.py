@@ -38,8 +38,9 @@ _OK_CALLS = {"raises", "fail", "warns", "approx", "skip", "xfail"}
 
 
 def _disqualified(fn):
-    """Names whose value is not fixed by their literal binding (mutated or reassigned)."""
+    """Names whose value is not fixed by their literal binding (mutated, reassigned, or branch-dependent)."""
     bad = set()
+    assign_counts = {}
     for n in ast.walk(fn):
         # receiver of a method call:  x.append(...)
         if isinstance(n, ast.Call) and isinstance(n.func, ast.Attribute) \
@@ -48,11 +49,13 @@ def _disqualified(fn):
         # augmented assign:  x += ...
         if isinstance(n, ast.AugAssign) and isinstance(n.target, ast.Name):
             bad.add(n.target.id)
-        # subscript store:  x[i] = ...
+        # subscript store:  x[i] = ...  |  multiple assignments (e.g. ok = False ... ok = True)
         if isinstance(n, ast.Assign):
             for t in n.targets:
                 if isinstance(t, ast.Subscript) and isinstance(t.value, ast.Name):
                     bad.add(t.value.id)
+                elif isinstance(t, ast.Name):
+                    assign_counts[t.id] = assign_counts.get(t.id, 0) + 1
         # loop target:  for x in ...
         if isinstance(n, (ast.For, ast.AsyncFor)):
             for t in ast.walk(n.target):
@@ -63,6 +66,9 @@ def _disqualified(fn):
             for t in ast.walk(n.target):
                 if isinstance(t, ast.Name):
                     bad.add(t.id)
+    for name, cnt in assign_counts.items():
+        if cnt > 1:
+            bad.add(name)
     return bad
 
 
@@ -108,6 +114,62 @@ def _is_literal(node, lit):
     return False
 
 
+def _is_pure_literal_assertion(node, lit):
+    """True when an assertion test expression depends ONLY on constants/literal bindings."""
+    if _is_literal(node, lit):
+        return True
+    if isinstance(node, ast.Compare):
+        return (_is_pure_literal_assertion(node.left, lit)
+                and all(_is_pure_literal_assertion(c, lit) for c in node.comparators))
+    if isinstance(node, ast.BoolOp):
+        return all(_is_pure_literal_assertion(v, lit) for v in node.values)
+    if isinstance(node, ast.UnaryOp):
+        return _is_pure_literal_assertion(node.operand, lit)
+    return False
+
+
+def check_function_node(fn, rel="<memory>"):
+    """Inspect one FunctionDef/AsyncFunctionDef; return (no_assert, tautology, both_lit)."""
+    no_assert, tautology, both_lit = [], [], []
+    asserts = [n for n in ast.walk(fn) if isinstance(n, ast.Assert)]
+    calls = {getattr(getattr(n, "func", None), "attr", None)
+             for n in ast.walk(fn) if isinstance(n, ast.Call)}
+    if not asserts and not (_OK_CALLS & calls):
+        no_assert.append(f"{rel}::{fn.name}")
+        return no_assert, tautology, both_lit
+    bad = _disqualified(fn)
+    lit = _literal_names(fn, bad)
+    fn_taut_before = len(tautology)
+    for a in asserts:
+        t = a.test
+        if isinstance(t, ast.Constant) and bool(t.value):
+            tautology.append(f"{rel}::{fn.name}:{a.lineno}  (assert {t.value!r})")
+            continue
+        if isinstance(t, ast.Compare) and len(t.ops) == 1:
+            same = ast.dump(t.left) == ast.dump(t.comparators[0])
+            if isinstance(t.ops[0], ast.Eq) and same:
+                tautology.append(f"{rel}::{fn.name}:{a.lineno}  (assert X == X)")
+            elif isinstance(t.ops[0], (ast.Eq, ast.NotEq)) and \
+                    _is_literal(t.left, lit) and _is_literal(t.comparators[0], lit):
+                both_lit.append(f"{rel}::{fn.name}:{a.lineno}")
+    # B1879 (L7 / PV24): a test function with no pytest helper call whose EVERY assertion
+    # compares only hand-typed literals cannot fail on any code change and is gated as vacuous.
+    # Exception: `if computed_cond: assert False` is an idiom for `pytest.fail(...)`, not a tautology.
+    has_guarded_fail = any(
+        (isinstance(s, ast.If) and not _is_pure_literal_assertion(s.test, lit)
+         and any(isinstance(sub, ast.Assert) and isinstance(sub.test, ast.Constant) and sub.test.value is False
+                 for sub in ast.walk(s)))
+        or (isinstance(s, (ast.For, ast.AsyncFor, ast.While)) and s.orelse
+            and any(isinstance(sub, ast.Assert) and isinstance(sub.test, ast.Constant) and sub.test.value is False
+                    for part in s.orelse for sub in ast.walk(part)))
+        for s in ast.walk(fn)
+    )
+    if (asserts and not (_OK_CALLS & calls) and not has_guarded_fail and len(tautology) == fn_taut_before
+            and all(_is_pure_literal_assertion(a.test, lit) for a in asserts)):
+        tautology.append(f"{rel}::{fn.name}:{asserts[0].lineno}  (pure both-literal function)")
+    return no_assert, tautology, both_lit
+
+
 def scan():
     out = subprocess.run(["git", "-C", ROOT, "ls-files", "tests/*.py"],
                          capture_output=True, text=True, timeout=60).stdout
@@ -122,26 +184,10 @@ def scan():
                     and fn.name.startswith("test")):
                 continue
             total += 1
-            asserts = [n for n in ast.walk(fn) if isinstance(n, ast.Assert)]
-            calls = {getattr(getattr(n, "func", None), "attr", None)
-                     for n in ast.walk(fn) if isinstance(n, ast.Call)}
-            if not asserts and not (_OK_CALLS & calls):
-                no_assert.append(f"{rel}::{fn.name}")
-                continue
-            bad = _disqualified(fn)
-            lit = _literal_names(fn, bad)
-            for a in asserts:
-                t = a.test
-                if isinstance(t, ast.Constant) and bool(t.value):
-                    tautology.append(f"{rel}::{fn.name}:{a.lineno}  (assert {t.value!r})")
-                    continue
-                if isinstance(t, ast.Compare) and len(t.ops) == 1:
-                    same = ast.dump(t.left) == ast.dump(t.comparators[0])
-                    if isinstance(t.ops[0], ast.Eq) and same:
-                        tautology.append(f"{rel}::{fn.name}:{a.lineno}  (assert X == X)")
-                    elif isinstance(t.ops[0], (ast.Eq, ast.NotEq)) and \
-                            _is_literal(t.left, lit) and _is_literal(t.comparators[0], lit):
-                        both_lit.append(f"{rel}::{fn.name}:{a.lineno}")
+            na, ta, bl = check_function_node(fn, rel)
+            no_assert.extend(na)
+            tautology.extend(ta)
+            both_lit.extend(bl)
     return total, no_assert, tautology, both_lit
 
 

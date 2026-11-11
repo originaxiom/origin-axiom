@@ -497,6 +497,23 @@ def build(nodes=None, edges=None):
             fails.append("finding %s is marked FIXED and the re-audit did not accept it: %s" % (fid, verdict))
         elif S.FINDINGS[fid]["state"] == "FIXED" and "not carried" in verdict:
             fails.append("finding %s is marked FIXED and the re-audit says the correction was not carried everywhere" % fid)
+    # ---- 21 (B1879, re-audit 3's j4): check main's ACCEPTED transcription against the advisor seat's pinned REAUDIT_2 table
+    reaudit_raw = seat_file(arev, adir + "/" + S.ACCEPTED_AT[1], raw=True)
+    if reaudit_raw is not None:
+        seat_verdicts = {}
+        for m_rv in re.finditer(r"^\|\s*\*\*([A-Z]+\d+)\*\*[^|]*\|\s*([^|]+?)\s*\|", reaudit_raw, re.M):
+            seat_verdicts[m_rv.group(1)] = norm(m_rv.group(2).replace("**", ""))
+        for fid, verdict in S.ACCEPTED.items():
+            sv = seat_verdicts.get(fid, "")
+            sv_low, v_low = sv.lower(), verdict.lower()
+            bad_rv = (
+                not sv
+                or (sv_low.startswith("accepted") != v_low.startswith("accepted"))
+                or (sv_low.startswith("partly") != v_low.startswith("partly"))
+                or (("not propagated" in sv_low or "not carried" in sv_low) != ("not carried" in v_low or "not propagated" in v_low))
+            )
+            if bad_rv:
+                fails.append("the advisor seat's %s verdict for %s is %r, incompatible with %r" % (S.ACCEPTED_AT[1], fid, sv or "(absent)", verdict))
     fixed_unread = sorted(fid for fid, f in S.FINDINGS.items() if f["state"] == "FIXED" and fid not in S.ACCEPTED)
     for fid, (arc_, what_) in S.SINCE_REAUDIT.items():
         if fid not in S.ACCEPTED:

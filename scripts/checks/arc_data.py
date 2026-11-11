@@ -166,8 +166,9 @@ def main():
             edges = (" (%d edges)" % sum(len(x if isinstance(x, list) else x["cited by"]) for x in v.values())) if k[:2] in ("D3", "D4", "D5", "R2", "R3", "R4", "R5") else ""
             print("  %-60s %d%s" % (k, n, edges))
     print("  completeness:", out["completeness"], "; supersession:", out["supersession counts"])
-    hard = sum(len(out[k]) for k in out if k[:2] in ("D1", "D2", "D3", "D4", "D5", "D6"))
-    verdict = "VERDICT arc-data: %d defects in D1-D6, %d prose-only candidates (D7)" % (hard, len(out["D7 relation in prose only (candidates)"]))
+    hard = len(out.get("unreadable verdict files", ())) + sum(
+        len(out[k]) for k in out if k[:2] in ("D1", "D2", "D3", "D4", "D5", "D6"))
+    verdict = "VERDICT arc-data: %d defects in D1-D6 (+unreadable), %d prose-only candidates (D7)" % (hard, len(out["D7 relation in prose only (candidates)"]))
     print(verdict)
     sys.exit(1 if ("--strict" in sys.argv and hard) else 0)
 

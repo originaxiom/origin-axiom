@@ -57,8 +57,10 @@ def test_the_void_is_a_2_1_saddle_and_origin_is_the_minimum():
 
 
 def test_two_is_inert_in_both_ends_and_splits_in_the_meeting():
-    assert (-3) % 8 == 5 and 5 % 8 == 5      # inert
-    assert (-15) % 8 == 1                     # splits
+    # Kronecker symbol (D / 2): -1 iff D == 5 (mod 8) [2 inert], +1 iff D == 1 (mod 8) [2 splits]
+    kron2 = lambda D: 0 if D % 2 == 0 else (1 if D % 8 in (1, 7) else -1)
+    assert kron2(-3) == -1 and kron2(5) == -1   # inert in Q(sqrt(-3)) and Q(sqrt(5))
+    assert kron2(-15) == 1                      # splits in Q(sqrt(-15))
 
 
 def test_the_kappa_convention_split_is_recorded():

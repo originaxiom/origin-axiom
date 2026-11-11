@@ -26,11 +26,14 @@ def test_27_under_principal_sl2_is_all_integer_spin():
 
 
 def test_involution_cascade():
-    # E6 ->(theta) F4 ->(Cayley) SO(9): the full chain's dimension identities
-    assert 52 + 26 == 78          # E6 adj = F4 adj + the 26
-    assert 36 + 16 == 52          # F4 = so(9) + spinor16  (symmetric pair FII)
-    assert 1 + 9 + 16 == 26       # the 26 under SO(9)
-    assert 36 + 16 + 16 + 9 + 1 == 78
-    assert 36 + 9 == 45 == 10*9//2   # adj SO(10) reconciliation
-    # the kill: F4's symmetric pairs are so(9) [coset 16] and sp(3)+su(2) [coset 28]; G2 is not one
-    assert (21 + 3) + 28 == 52 and 52 - 14 == 38 and 38 not in (16, 28)
+    # E6 ->(theta) F4 ->(Cayley) SO(9): compute orthogonal & spinor dimensions from rank n=9, 10
+    dim_so = lambda n: n * (n - 1) // 2
+    dim_spin = lambda n: 2 ** ((n - 1) // 2)
+    f4_adj = dim_so(9) + dim_spin(9)          # 36 + 16 = 52 (symmetric pair FII)
+    f4_26 = 1 + 9 + dim_spin(9)               # 1 + 9 + 16 = 26 under SO(9)
+    e6_adj = sum(SW.principal_grades_27()) + f4_adj - 1   # 27 + 52 - 1 = 78
+    assert f4_adj == 52 and f4_26 == 26 and f4_adj + f4_26 == 78 == e6_adj
+    assert dim_so(9) + 9 == 45 == dim_so(10)
+    # the kill: F4's symmetric pairs are so(9) [coset 16] and sp(3)+su(2) [coset 28]; G2 (dim 14) is not one
+    g2_coset = f4_adj - 14
+    assert (21 + 3) + 28 == f4_adj and g2_coset == 38 and g2_coset not in (16, 28)

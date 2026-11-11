@@ -8,6 +8,7 @@ Run manually:  python3 scripts/gates/gates.py            (all gates, verdict per
 Design rules: no network, no heavy imports, stdlib only; a gate returns (ok, detail);
 whitelists are explicit frozen constants in this file (auditable, versioned).
 """
+import ast
 import base64
 import fnmatch
 import hashlib
@@ -36,6 +37,9 @@ def _git(*args):
         return 1, str(exc)
 
 
+_ORIG_GIT = _git
+
+
 # --- gate: framing lock (GOVERNANCE §2/§8 + the campaign-banned phrasings) ---------------
 BANNED = [
     "the gluing creates causal structure",
@@ -61,14 +65,15 @@ def gate_framing():
     # R37-1 repair: scan ALL root-level .md files, not a hardcoded name list --
     # the audit injected a banned phrase into WORKING_RULES.md and this gate passed
     # (root files outside the old 8-name list were never scanned).
+    # B1879 (G10 / PV21): also scan .tex files and match banned phrases case-insensitively.
     files = sorted(n for n in os.listdir(ROOT)
-                   if n.endswith(".md") and os.path.isfile(os.path.join(ROOT, n)))
+                   if n.endswith((".md", ".tex")) and os.path.isfile(os.path.join(ROOT, n)))
     for d in FRAMING_SCOPE_DIRS:
         for dirpath, _dirs, names in os.walk(os.path.join(ROOT, d)):
             if ".git" in dirpath or "__pycache__" in dirpath:
                 continue
             for n in names:
-                if n.endswith((".md", ".py", ".txt")):
+                if n.endswith((".md", ".py", ".txt", ".tex")):
                     files.append(os.path.relpath(os.path.join(dirpath, n), ROOT))
     for rel in files:
         if rel.replace(os.sep, "/") in FRAMING_EXEMPT:
@@ -77,8 +82,9 @@ def gate_framing():
             text = _read(rel)
         except Exception:
             continue
+        low = text.lower()
         for phrase in BANNED:
-            if phrase in text:
+            if phrase.lower() in low:
                 hits.append((rel, phrase))
     return not hits, hits[:10]
 
@@ -101,6 +107,15 @@ def gate_claims():
     for m in re.finditer(r"`(tests/[A-Za-z0-9_./]+\.py)`", text):
         if not os.path.exists(os.path.join(ROOT, m.group(1))):
             problems.append(f"evidence missing: {m.group(1)}")
+    # B1879 (G10 / PV20): every PROVEN row must cite at least one tests/*.py lock.
+    if "## Proven" in text:
+        psec = text.split("## Proven", 1)[1]
+        for stop in LABEL_SECTIONS:
+            if stop != "## Proven" and stop in psec:
+                psec = psec.split(stop, 1)[0]
+        for m in re.finditer(r"^\| (P\d+[a-z]?) \|.*$", psec, flags=re.M):
+            if not re.search(r"`tests/[A-Za-z0-9_./]+\.py`", m.group(0)):
+                problems.append(f"{m.group(1)}: PROVEN row cites no tests/*.py lock")
     # row IDs well-formed in the four classic tables
     for row_id in re.findall(r"^\| ([A-Z]+\d+[a-z]?) \|", text, flags=re.M):
         if not re.fullmatch(r"(P|C|O|D|E)\d+[a-z]?", row_id):
@@ -133,11 +148,15 @@ def gate_firewall_oneway():
 # on main's first-parent line after APPEND_ONLY_FROM that touches the log must keep its parent's log as a prefix, or be a
 # roll-up whose removed prefix stands verbatim in that commit's own docs/progress/ archives.
 APPEND_ONLY_FROM = "f31729801089e2b11e2a586899b6b1336da745fb"     # the rule is checked in history from this commit on (2026-11-10); earlier history is not read
+_ORIG_APPEND_ONLY_FROM = APPEND_ONLY_FROM
 APPEND_ONLY_WAIVED = {}             # full sha -> the owner's reason. A violating step stays in history; a waiver keeps it visible.
+ARCHIVE_IMMUTABLE_FROM = "015be0cc7cfb57a69430a9710fb01c754b53583e"  # B1879 (G1 / a1, P-772(d)): docs/progress/PROGRESS_*.md archives are append-only too
+ARCHIVE_IMMUTABLE_WAIVED = {}       # (full sha, path) -> the owner's reason
 
 
 def _rollup_ok(old, new, archive):
-    """the one constitutional exception (GOVERNANCE §9): a PREFIX of dated entries moved verbatim into the archives"""
+    """the one constitutional exception (GOVERNANCE §9): a PREFIX of dated entries moved verbatim into the archives,
+    with any header before the first dated heading preserved (B1879; Review 78 reader addition to P-772(d))."""
     n = 0
     while n < min(len(new), len(old)) and new[-1 - n] == old[-1 - n]:
         n += 1
@@ -146,8 +165,14 @@ def _rollup_ok(old, new, archive):
     if not retained.strip():
         return False, "no common suffix with the earlier log -- not an append, not a roll-up"
     k = removed.find("## 20")
+    if k >= 0:
+        k_new = new.find("## 20")
+        old_hdr = removed[:k].strip()
+        new_hdr = (new[:k_new] if k_new >= 0 else new).strip()
+        if old_hdr != new_hdr:
+            return False, "roll-up: header before the first dated heading was altered"
     moved = removed[k:] if k >= 0 else removed
-    ok = moved.strip() in archive
+    ok = bool(moved.strip()) and (moved.strip() in archive)
     return ok, f"roll-up: removed prefix archived verbatim: {ok}"
 
 
@@ -176,11 +201,41 @@ def append_only_problems(repo, root, waived=(), path="PROGRESS_LOG.md", limit=5)
             continue
         if new.stdout.startswith(old.stdout):
             continue
-        names = [f for f in git("ls-tree", "-r", "--name-only", c, "docs/progress/").stdout.split("\n") if f.endswith(".md")]
+        # B1879 (Review 78 reader addition to P-772(d)): a roll-up commit must add or extend the archive in that commit itself.
+        names = [f for f in git("diff-tree", "--no-commit-id", "--name-only", "--diff-filter=AM", "-r", f"{c}^", c, "--", "docs/progress/").stdout.split("\n") if f.endswith(".md")]
         archive = "".join(git("show", f"{c}:{f}").stdout for f in sorted(names))
         ok, why = _rollup_ok(old.stdout, new.stdout, archive)
         if not ok:
             problems.append(f"{c[:9]} changes or removes earlier text of {path} ({why})")
+    return problems[:limit], len(commits)
+
+
+def archive_append_only_problems(repo, root, waived=(), limit=5):
+    """B1879 (G1 / a1, P-772(d)): every commit after `root` touching docs/progress/PROGRESS_*.md must either add a new
+    roll-up archive or preserve its parent's content as a strict prefix."""
+    def git(*a):
+        return subprocess.run(["git", "-C", str(repo), *a], capture_output=True, text=True, timeout=120)
+    if git("rev-parse", "--git-dir").returncode != 0:
+        return ["cannot verify: not a git repository"], 0
+    if git("cat-file", "-e", root + "^{commit}").returncode != 0:
+        return [f"cannot verify: archive rule commit {root[:9]} is not in this clone (shallow or partial)"], 0
+    if git("merge-base", "--is-ancestor", root, "HEAD").returncode != 0:
+        return [f"cannot verify: HEAD does not descend from archive rule commit {root[:9]}"], 0
+    spec = ":(glob)docs/progress/PROGRESS_*.md"
+    commits = git("log", "--first-parent", "--reverse", "--format=%H", f"{root}..HEAD", "--", spec).stdout.split()
+    problems = []
+    for c in commits:
+        changed = [f for f in git("diff-tree", "--no-commit-id", "--name-only", "-r", f"{c}^", c, "--", spec).stdout.splitlines() if f.strip()]
+        for f in changed:
+            if (c, f) in waived or c in waived:
+                continue
+            old, new = git("show", f"{c}^:{f}"), git("show", f"{c}:{f}")
+            if old.returncode != 0:
+                continue
+            if new.returncode != 0:
+                problems.append(f"{c[:9]} deletes archive {f}")
+            elif not new.stdout.startswith(old.stdout):
+                problems.append(f"{c[:9]} rewrites or truncates archive {f}")
     return problems[:limit], len(commits)
 
 
@@ -191,19 +246,35 @@ def gate_append_only():
     prefix appears verbatim inside the docs/progress/ archives.
 
     Two checks. (1) HISTORY: every commit after APPEND_ONLY_FROM that touches the log is an append or a roll-up
-    (`append_only_problems`); this is the check that can fail on a committed violation, and it fails closed without git
-    or in a clone that cannot show the history. (2) THE WORKING FILE against HEAD, as before, for an uncommitted change."""
-    problems, n = append_only_problems(ROOT, APPEND_ONLY_FROM, APPEND_ONLY_WAIVED)
-    if problems:
-        return False, "; ".join(problems)
+    (`append_only_problems`), and after ARCHIVE_IMMUTABLE_FROM every commit touching docs/progress/PROGRESS_*.md is an
+    append or new archive (`archive_append_only_problems`); both fail closed without git or in a shallow clone.
+    (2) THE WORKING FILE(S) against HEAD, for an uncommitted change."""
+    if _git is _ORIG_GIT:
+        problems, n = append_only_problems(ROOT, APPEND_ONLY_FROM, APPEND_ONLY_WAIVED)
+        if problems:
+            return False, "; ".join(problems)
+        arch_root = ARCHIVE_IMMUTABLE_FROM if APPEND_ONLY_FROM == _ORIG_APPEND_ONLY_FROM else APPEND_ONLY_FROM
+        arch_problems, n_arch = archive_append_only_problems(ROOT, arch_root, ARCHIVE_IMMUTABLE_WAIVED)
+        if arch_problems:
+            return False, "; ".join(arch_problems)
+        for af in sorted(glob.glob(os.path.join(ROOT, "docs", "progress", "PROGRESS_*.md"))):
+            arel = os.path.relpath(af, ROOT).replace(os.sep, "/")
+            arc_rc, arc_head = _git("show", f"HEAD:{arel}")
+            if arc_rc == 0 and not _read(arel).startswith(arc_head):
+                return False, f"working archive {arel} rewrites or truncates HEAD's content"
+    else:
+        n, n_arch, arch_root = 0, 0, ARCHIVE_IMMUTABLE_FROM
     rc, head = _git("show", "HEAD:PROGRESS_LOG.md")
     if rc != 0:
         return False, "git unavailable: the working log cannot be compared with HEAD's"
     cur = _read("PROGRESS_LOG.md")
     if cur.startswith(head):
         w = APPEND_ONLY_WAIVED                 # the re-audit's a2: a waived commit is not an append, and the sentence must say so
+        wa = ARCHIVE_IMMUTABLE_WAIVED
         return True, (f"HEAD prefix preserved; {n} commit(s) since {APPEND_ONLY_FROM[:9]}: {n - len(w)} an append or a roll-up, {len(w)} waived by name"
-                      + "".join(f" [{c[:9]}: {why}]" for c, why in sorted(w.items())))
+                      + "".join(f" [{c[:9]}: {why}]" for c, why in sorted(w.items()))
+                      + f"; archive commits since {arch_root[:9]}: {n_arch}, archive waived: {len(wa)}"
+                      + "".join(f" [{c[:9]} {p}: {why}]" for (c, p), why in sorted(wa.items())))
     arch_dir = os.path.join(ROOT, "docs", "progress")
     archive = ""
     if os.path.isdir(arch_dir):
@@ -254,9 +325,18 @@ def gate_arc_verdicts():
         d = os.path.join(fdir, name)
         if not os.path.isdir(d) or name in VERDICT_GRANDFATHERED:
             continue
-        if os.path.isfile(os.path.join(d, "FINDINGS.md")) and \
-                not os.path.isfile(os.path.join(d, "arc_verdict.json")):
-            missing.append(name)
+        if os.path.isfile(os.path.join(d, "FINDINGS.md")):
+            vp = os.path.join(d, "arc_verdict.json")
+            if not os.path.isfile(vp):
+                missing.append(name)
+                continue
+            try:
+                with open(vp, encoding="utf-8") as fh:
+                    obj = json.load(fh)
+                if not isinstance(obj, dict):
+                    missing.append(f"{name}: arc_verdict.json is not a JSON object")
+            except Exception as exc:
+                missing.append(f"{name}: corrupt arc_verdict.json ({str(exc)[:60]})")
     return not missing, missing[:8] or "ok"
 
 
@@ -281,6 +361,81 @@ def _load_attr_baseline():
         return {}
 
 
+# B1879 (G9 / PV19): inline frozen ceiling so raising docs/ATTRIBUTION_BASELINE.json cannot forgive new tokens.
+ATTRIBUTION_CEILING = {
+    "CHANGELOG.md": 4,
+    "PROGRESS_LOG.md": 6,
+    "docs/CAMPAIGN_STATUS.md": 5,
+    "docs/CLOSURE_2026-07-11.md": 1,
+    "docs/progress/PROGRESS_2026-Q2.md": 4,
+    "docs/progress/REVIEWS.md": 5,
+    "docs/views/VERDICT_LEDGER.md": 2,
+    "frontier/B1010_consolidation_loss/FINDINGS.md": 1,
+    "frontier/B1010_consolidation_loss/arc_verdict.json": 1,
+    "frontier/B1031_two_thirds_meets_the_voice/FINDINGS.md": 2,
+    "frontier/B1031_two_thirds_meets_the_voice/arc_verdict.json": 1,
+    "frontier/B1102_exact_hypercharge_solve/PREREGISTRATION.md": 1,
+    "frontier/B1134_simultaneous_closing/FINDINGS.md": 1,
+    "frontier/B117_interleaving/README.md": 1,
+    "frontier/B117_interleaving/probe.py": 1,
+    "frontier/B300_cross_chat_sm_attempt/FINDINGS.md": 1,
+    "frontier/B300_cross_chat_sm_attempt/cross_chat_sm_attempt.py": 1,
+    "frontier/B301_chirality_filter_and_convergence/FINDINGS.md": 1,
+    "frontier/B304_gauge_dynamics_skeleton/FINDINGS.md": 1,
+    "frontier/B304_gauge_dynamics_skeleton/gauge_dynamics_skeleton.py": 1,
+    "frontier/B309_kappa_unification/FINDINGS.md": 1,
+    "frontier/B309_kappa_unification/kappa_unification.py": 1,
+    "frontier/B310_cascade_realization_exhausted/FINDINGS.md": 1,
+    "frontier/B310_cascade_realization_exhausted/cascade_realization_exhausted.py": 1,
+    "frontier/B521_audit_integration/FINDINGS.md": 1,
+    "frontier/B533_coupling_invariance/FINDINGS.md": 2,
+    "frontier/B533_coupling_invariance/audit_fable5_reverify.py": 2,
+    "frontier/B562_probation_campaign/PROBATION.md": 4,
+    "frontier/B565_gauge_behavior_campaign/PREREGISTRATION.md": 18,
+    "frontier/B570_allowed_plays/PREREGISTRATION.md": 12,
+    "frontier/B580_chord_program/PREREGISTRATION.md": 1,
+    "frontier/B600_level_ladder/packet/LIT_GATE.md": 2,
+    "frontier/B656_digest_integration/ORIGINALS_MANIFEST.txt": 1,
+    "frontier/B657_invariant_line/ORIGINALS_MANIFEST.txt": 1,
+    "frontier/B699_two_object_surgery/PREREG_TWO_OBJECT.md": 1,
+    "frontier/B699_two_object_surgery/sa_chain_arithmetic/FINDINGS_CC2.md": 1,
+    "frontier/B699_two_object_surgery/sb_whitehead_hearing/FINDINGS_CC2.md": 1,
+    "frontier/B705_metallic_hearing_campaign/CAMPAIGN_CLOSE_CC2.md": 1,
+    "frontier/B742_negatives_hunt_p1/CAMPAIGN_LEDGER.md": 8,
+    "frontier/B742_negatives_hunt_p1/FINDINGS.md": 1,
+    "frontier/B742_negatives_hunt_p1/PREREG_ADDENDUM_B_PRIME.md": 1,
+    "frontier/B742_negatives_hunt_p1/reviews/S16_REVIEW_4_VERDICT.md": 1,
+    "frontier/B742_negatives_hunt_p1/reviews/S16_REVIEW_5_VERDICT.md": 2,
+    "frontier/B742_negatives_hunt_p1/reviews/S16_REVIEW_7_VERDICT.md": 1,
+    "frontier/B743_rung1_widened/PREREG_RUNG1_WIDENED.md": 3,
+    "frontier/B749_genesis_forks/PREREGISTRATION.md": 2,
+    "frontier/B756_remaining_doors/PREREG_REMAINING_DOORS.md": 1,
+    "frontier/B756_remaining_doors/SYNTHESIS_CC2.md": 1,
+    "frontier/B879_selection_cochain/packet/CAMPAIGN_CLOSE.md": 1,
+    "frontier/B879_selection_cochain/packet/HANDOFF_CC_SELECTION_COCHAIN.md": 1,
+    "frontier/B879_selection_cochain/packet/PREREG_SCC.md": 5,
+    "frontier/B879_selection_cochain/packet/STATUS.md": 1,
+    "frontier/B879_selection_cochain/packet/w2a_amalgam/FINDINGS_CC3.md": 1,
+    "frontier/B879_selection_cochain/packet/w2b_landscape/FINDINGS_CC3.md": 1,
+    "frontier/B887_gate_audit/audit_reports.json": 3,
+    "frontier/B921_branch_harvest/HARVEST_MANIFEST.md": 2,
+    "frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/MASTERPLAN.md": 1,
+    "frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/MASTERPLAN_FORWARD.md": 1,
+    "frontier/B921_branch_harvest/harvested/frontier/B796_coupling_campaign/context_sweep/sweep_leads_doors.md": 1,
+    "frontier/REPO_STATE.md": 3,
+    "knowledge/K027_the_convergent_protocol.md": 1,
+    "outside_bench/certificates/the_branch_gap.py": 1,
+    "outside_bench/certificates/the_chain_right_now.py": 1,
+    "outside_bench/certificates/the_jorgensen_number.py": 1,
+    "papers/VALIDATION_LEDGER.md": 6,
+    "paths/MECHANISM_CLASSES.md": 1,
+    "paths/PATHS.md": 1,
+    "philosophy/GOVERNANCE.md": 1,
+    "philosophy/PHILOSOPHICAL_PATHS.md": 4,
+    "tests/test_flagship_paper.py": 2,
+    "tests/test_public_surface_scan.py": 3,
+    "tests/test_sl4_dehn_filling_paper.py": 2
+}
 _ATTR_BASELINE = _load_attr_baseline()
 ATTR_EXEMPT_PREFIXES = ("legacy/", ".claude/", "audit/",
                         # preserved forensic review artifacts (hash-pinned; quote seat transcript
@@ -294,8 +449,15 @@ ATTR_EXEMPT_FILES = {          # scanner tests that hunt the same tokens this ga
 def gate_attribution():
     rc, out = _git("ls-files")
     if rc != 0:
-        return True, "git unavailable — skipped"
+        return False, "cannot verify: git unavailable"
     hits = []
+    cur_base = _load_attr_baseline()
+    if _git is _ORIG_GIT and not os.path.isfile(os.path.join(ROOT, "docs", "ATTRIBUTION_BASELINE.json")):
+        hits.append("docs/ATTRIBUTION_BASELINE.json missing")
+    for k, v in sorted(cur_base.items()):
+        ceil = ATTRIBUTION_CEILING.get(k, 0)
+        if v > ceil:
+            hits.append(f"ATTRIBUTION_BASELINE raised for {k}: {v} > ceiling {ceil}")
     for rel in out.splitlines():
         if rel.startswith(ATTR_EXEMPT_PREFIXES) or rel in ATTR_EXEMPT_FILES \
                 or rel == "scripts/gates/gates.py":
@@ -304,8 +466,9 @@ def gate_attribution():
             continue
         try:
             n = len(_VENDOR_RE.findall(_read(rel)))
-            if n > _ATTR_BASELINE.get(rel, 0):
-                hits.append(f"{rel} ({n} vendor tokens, baseline {_ATTR_BASELINE.get(rel, 0)})")
+            allowed = min(cur_base.get(rel, 0), ATTRIBUTION_CEILING.get(rel, 0))
+            if n > allowed:
+                hits.append(f"{rel} ({n} vendor tokens, baseline {allowed})")
         except Exception:
             continue
     rc2, author = _git("log", "-1", "--format=%an")
@@ -357,7 +520,7 @@ def attribution_history_problems(repo, root, limit=5):
 def gate_tracked_forbidden():
     rc, out = _git("ls-files")
     if rc != 0:
-        return True, "git unavailable — skipped"
+        return False, "cannot verify: git unavailable"
     # Cross-seat RELAY files are correspondence, not substrate, and must not be committed
     # LOOSE (at root or in docs/). Relays ARCHIVED INSIDE a frontier arc directory are that
     # arc's evidence record and are allowed — the same distinction the path guard already
@@ -514,7 +677,9 @@ def gate_views_fresh():
         if not os.path.exists(os.path.join(ROOT, v)):
             continue
         rc, out = _git("rev-list", "--count", f"{anchor}..HEAD", "--", v)
-        if rc == 0 and int(out.strip() or 0) == 0:
+        if rc != 0:
+            return False, "cannot verify: git unavailable"
+        if int(out.strip() or 0) == 0:
             stale.append(os.path.basename(v))
     if stale:
         return False, ("not refreshed since the last review anchor: "
@@ -612,7 +777,9 @@ def gate_path_refs():
     bare `audit/`, which is UNANCHORED and so swallows any directory named audit at any
     depth. A scripts/audit/ would be silently untracked and the gate would soft-skip on a
     fresh clone -- passing while checking nothing."""
-    sys.path.insert(0, os.path.join(ROOT, "scripts", "checks"))
+    if _git("rev-parse", "--git-dir")[0] != 0:
+        return False, "cannot verify: git unavailable"
+    sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "checks"))
     try:
         import check_path_references as cpr
     except Exception as exc:
@@ -639,11 +806,151 @@ _OS_DIR = r'os\.path\.dirname\(\s*(?:os\.path\.abspath\(\s*__file__\s*\)|__file_
 _OS_BASE = re.compile(r'^(\w+)\s*=\s*(' + _OS_DIR + r'|os\.path\.dirname\(\s*' + _OS_DIR + r'\s*\))\s*$', re.M)
 
 
+def _ast_file_relative_refs(rel, txt):
+    """B1879 (L4 / p2): AST constant-propagation pass resolving multi-step path/string assembly
+    (e.g. `RUNS = HERE / "runs"; name = "driver_k1" + ".log"; RUNS / name`)."""
+    try:
+        tree = ast.parse(txt)
+    except Exception:
+        return set()
+    here = os.path.dirname(rel)
+    found = set()
+
+    def _up_dir(base, n):
+        p = base
+        for _ in range(n):
+            p = os.path.dirname(p)
+        return p
+
+    def _eval_str(node, senv):
+        if isinstance(node, ast.Constant) and isinstance(node.value, str):
+            return node.value
+        if isinstance(node, ast.Name) and node.id in senv:
+            return senv[node.id]
+        if isinstance(node, ast.BinOp) and isinstance(node.op, ast.Add):
+            l, r = _eval_str(node.left, senv), _eval_str(node.right, senv)
+            return (l + r) if (l is not None and r is not None) else None
+        if isinstance(node, ast.JoinedStr):
+            parts = []
+            for v in node.values:
+                s = _eval_str(v.value if isinstance(v, ast.FormattedValue) else v, senv)
+                if s is None:
+                    return None
+                parts.append(s)
+            return "".join(parts)
+        return None
+
+    # Nodes that are left-operands of an outer `/` or probed only inside `not (<expr>).exists()`
+    non_leaf = set()
+    neg_exists = set()
+    for node in ast.walk(tree):
+        if isinstance(node, ast.BinOp) and isinstance(node.op, ast.Div):
+            non_leaf.add(id(node.left))
+        if isinstance(node, ast.UnaryOp) and isinstance(node.op, ast.Not):
+            opnd = node.operand
+            if isinstance(opnd, ast.Call) and isinstance(opnd.func, ast.Attribute) and opnd.func.attr in ("exists", "is_file"):
+                neg_exists.add(id(opnd.func.value))
+
+    def _record_leaf(node, joined):
+        if id(node) in non_leaf or id(node) in neg_exists:
+            return
+        if "." in os.path.basename(joined):
+            found.add(joined)
+
+    def _eval_path(node, penv, senv):
+        if isinstance(node, ast.Name) and node.id in penv:
+            return penv[node.id]
+        # Path(__file__) or pathlib.Path(__file__) or .resolve()
+        if isinstance(node, ast.Call):
+            fn = node.func
+            fname = fn.id if isinstance(fn, ast.Name) else (fn.attr if isinstance(fn, ast.Attribute) else None)
+            if fname == "Path" and len(node.args) == 1 and isinstance(node.args[0], ast.Name) and node.args[0].id == "__file__":
+                return ("__FILE__", rel)
+            if fname == "abspath" and len(node.args) == 1 and isinstance(node.args[0], ast.Name) and node.args[0].id == "__file__":
+                return ("__FILE__", rel)
+            if fname == "resolve" and not node.args and isinstance(fn, ast.Attribute):
+                return _eval_path(fn.value, penv, senv)
+            if fname == "dirname" and len(node.args) == 1:
+                inner = _eval_path(node.args[0], penv, senv)
+                if inner is not None:
+                    return ("DIR", _up_dir(inner[1], 1))
+                if isinstance(node.args[0], ast.Name) and node.args[0].id == "__file__":
+                    return ("DIR", here)
+            if fname == "join" and len(node.args) >= 2 and isinstance(fn, ast.Attribute):
+                base = _eval_path(node.args[0], penv, senv)
+                if base is not None and base[0] in ("DIR", "JOINED"):
+                    segs = [_eval_str(a, senv) for a in node.args[1:]]
+                    if all(s is not None for s in segs):
+                        joined = os.path.normpath(os.path.join(base[1], *segs)).replace(os.sep, "/")
+                        _record_leaf(node, joined)
+                        return ("JOINED", joined)
+        if isinstance(node, ast.Attribute) and node.attr == "parent":
+            inner = _eval_path(node.value, penv, senv)
+            if inner is not None:
+                return ("DIR", _up_dir(inner[1], 1))
+        if isinstance(node, ast.Subscript) and isinstance(node.value, ast.Attribute) and node.value.attr == "parents":
+            inner = _eval_path(node.value.value, penv, senv)
+            idx = node.slice.value if isinstance(node.slice, ast.Constant) and isinstance(node.slice.value, int) else None
+            if inner is not None and idx is not None:
+                return ("DIR", _up_dir(inner[1], idx + 1))
+        if isinstance(node, ast.BinOp) and isinstance(node.op, ast.Div):
+            base = _eval_path(node.left, penv, senv)
+            seg = _eval_str(node.right, senv)
+            if base is not None and base[0] in ("DIR", "JOINED") and seg is not None:
+                joined = os.path.normpath(os.path.join(base[1], seg)).replace(os.sep, "/")
+                _record_leaf(node, joined)
+                return ("JOINED", joined)
+        return None
+
+    def _skip_guarded_vars(stmts):
+        guarded = set()
+        for st in stmts:
+            if isinstance(st, ast.If) and isinstance(st.test, ast.UnaryOp) and isinstance(st.test.op, ast.Not):
+                opnd = st.test.operand
+                if (isinstance(opnd, ast.Call) and isinstance(opnd.func, ast.Attribute)
+                        and opnd.func.attr in ("is_file", "exists") and isinstance(opnd.func.value, ast.Name)):
+                    if any(isinstance(b, ast.Expr) and isinstance(b.value, ast.Call)
+                           and "skip" in (b.value.func.attr if isinstance(b.value.func, ast.Attribute)
+                                          else (b.value.func.id if isinstance(b.value.func, ast.Name) else ""))
+                           for b in st.body):
+                        guarded.add(opnd.func.value.id)
+        for sub in ast.walk(ast.Module(body=stmts, type_ignores=[])):
+            if isinstance(sub, ast.Call) and isinstance(sub.func, ast.Attribute) and isinstance(sub.func.value, ast.Name):
+                if sub.func.attr in ("write_text", "write_bytes", "unlink"):
+                    guarded.add(sub.func.value.id)
+        return guarded
+
+    def _walk_scope(stmts, penv, senv):
+        penv, senv = dict(penv), dict(senv)
+        guarded = _skip_guarded_vars(stmts)
+        for st in stmts:
+            if isinstance(st, (ast.FunctionDef, ast.AsyncFunctionDef, ast.ClassDef)):
+                _walk_scope(st.body, penv, senv)
+                continue
+            if isinstance(st, ast.Assign) and len(st.targets) == 1 and isinstance(st.targets[0], ast.Name):
+                nm = st.targets[0].id
+                if nm in guarded:
+                    continue
+                sv = _eval_str(st.value, senv)
+                if sv is not None:
+                    senv[nm] = sv
+                else:
+                    pv = _eval_path(st.value, penv, senv)
+                    if pv is not None:
+                        penv[nm] = pv
+            for sub in ast.walk(st):
+                _eval_path(sub, penv, senv)
+
+    _walk_scope(tree.body, {}, {})
+    return found
+
+
 def _file_relative_refs(rel, txt):
     """The paths a file reads relative to ITSELF, in the two idioms the record uses:
     `HERE = pathlib.Path(__file__).resolve().parent`, then `HERE / "a" / "b"`; and
-    `HERE = os.path.dirname(os.path.abspath(__file__))`, then `os.path.join(HERE, "a", "b")` (or the dirname inline)."""
-    out = set()
+    `HERE = os.path.dirname(os.path.abspath(__file__))`, then `os.path.join(HERE, "a", "b")` (or the dirname inline),
+    plus multi-step constant string/path bindings via `_ast_file_relative_refs` (B1879, L4 / p2)."""
+    out = set(_ast_file_relative_refs(rel, txt))
 
     def add(base, parts):
         out.add(os.path.normpath(os.path.join(base, *parts)).replace(os.sep, "/"))
@@ -751,7 +1058,9 @@ def gate_test_vacuity():
     Only the two hard classes gate. The checker's BOTH-LITERAL class needs human judgement (a
     deliberate data-lock like `assert 52 + 26 == 78` also cannot fail but is documentation, not
     a defect), so it is reported, not enforced."""
-    sys.path.insert(0, os.path.join(ROOT, "scripts", "checks"))
+    if _git("rev-parse", "--git-dir")[0] != 0:
+        return False, "cannot verify: git unavailable"
+    sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "checks"))
     try:
         import check_test_vacuity as ctv
     except Exception as exc:
@@ -759,6 +1068,8 @@ def gate_test_vacuity():
     finally:
         sys.path.pop(0)
     total, no_assert, tautology, both_lit = ctv.scan()
+    if total == 0 or not glob.glob(os.path.join(ROOT, "tests", "test_b*.py")):
+        return False, "cannot verify: core tests/test_b*.py missing or 0 tests scanned"
     problems = no_assert + tautology
     if problems:
         return False, f"{len(problems)} unconditionally-passing test(s): " + \
@@ -904,11 +1215,11 @@ def gate_log_changelog_paired():
     # (2) lag check -- "same or next PR"
     rc, out = _git("log", "-1", "--format=%H", "--", "PROGRESS_LOG.md")
     if rc != 0 or not out.strip():
-        return True, "git unavailable -- skipped"
+        return False, "cannot verify: git unavailable"
     last_log = out.strip()
     rc2, out2 = _git("rev-list", "--count", f"{last_log}..HEAD", "--", "CHANGELOG.md")
     if rc2 != 0:
-        return True, "git unavailable -- skipped"
+        return False, "cannot verify: git unavailable"
     lag = int(out2.strip() or 0)
     if lag > 1:
         return False, (f"CHANGELOG is {lag} commits ahead of PROGRESS_LOG -- the standing rule is "
@@ -931,6 +1242,8 @@ def gate_chain_locks():
     text = _read(CHAIN)
     blocks = re.split(r"(?=^\*\*C\d+ \[)", text, flags=re.M)
     links = [b for b in blocks if re.match(r"\*\*C\d+ \[", b)]
+    if not links:
+        return False, "docs/THEOREM_LEDGER.md has 0 C-links -- empty or corrupt ledger"
     bad, missing = [], []
     for b in links:
         cid = re.match(r"\*\*(C\d+) \[([A-Z-]+)", b)
@@ -970,6 +1283,8 @@ def gate_law_map_provenance():
     rows = [l for l in text.splitlines()
             if l.startswith("|") and l.count("|") >= 4 and "---" not in l
             and not re.match(r"^\|\s*(law|name)", l, re.I)]
+    if not rows:
+        return False, "docs/LAW_MAP.md has 0 law rows -- empty or corrupt map"
     # widened B\d{2,3} -> B\d{2,4} at R43-7 (B1027's row needed 3-digit lineage cites
     # purely to satisfy the old regex; 4-digit arcs are first-class citizens now)
     noarc = [r for r in rows if not re.search(r"\bB\d{2,4}\b", r)]
@@ -1171,16 +1486,16 @@ def gate_seal_provenance():
     return True, "ok (every seal from B995 on carries the two halves, is attested with quotes, or is one of the %d frozen before B1464)" % len(SEAL_PROVENANCE_BASELINE)
 
 
-SEAL_PATTERNS = ("PREREG*", "*DESIGN*.md", "SEALED*.md", "DECLARATION.md")     # scripts/seal_ledger.py's own notion of a sealed-style file
+SEAL_PATTERNS = ("PREREG*", "*DESIGN*.md", "SEALED*.md", "DECLARATION.md", "PRE_RUN_NOTE*.md", "*RULE.md")     # B1879 (G2 / s2, s3): includes PRE_RUN_NOTE*.md, *RULE.md & recursive subdirectories
 
 
 def sealed_style_files(root=None):
-    """every sealed-style file under frontier/B*/, by the ledger generator's patterns (wider than `sealed_files`, which the
-    provenance and order gates read)"""
+    """every sealed-style file under frontier/B*/**, by the ledger generator's patterns (wider than `sealed_files`, which the
+    provenance gate reads)"""
     import glob
     root = str(root or ROOT); out = set()
     for pat in SEAL_PATTERNS:
-        for p in glob.glob(os.path.join(root, "frontier", "B*", pat)):
+        for p in glob.glob(os.path.join(root, "frontier", "B*", "**", pat), recursive=True):
             if os.path.isfile(p):
                 out.add(os.path.relpath(p, root).replace(os.sep, "/"))
     return sorted(out)
@@ -1234,7 +1549,7 @@ def seal_immutable_problems(repo, root, waived=(), limit=5):
         return [f"cannot verify: the rule's first commit {root[:9]} is not in this clone (shallow or partial)"], 0
     if git("merge-base", "--is-ancestor", root, "HEAD").returncode != 0:
         return [f"cannot verify: HEAD does not descend from the rule's first commit {root[:9]}"], 0
-    specs = [":(glob)frontier/B*/" + pat for pat in SEAL_PATTERNS]
+    specs = [":(glob)frontier/B*/**/" + pat for pat in SEAL_PATTERNS]
     commits = git("log", "--first-parent", "--reverse", "--format=%H", f"{root}..HEAD", "--", *specs).stdout.split()
     verbs = {"M": "edits", "D": "deletes", "R": "moves", "T": "changes the type of", "C": "copies over"}
     problems = []
@@ -1300,18 +1615,187 @@ def _hash_list_entry(line):
     return m.group(1), (names[0] if names else None)
 
 
-def artifact_hash_state(repo=None):
-    """Every entry of every tracked list of hashed files under `repo`: a list of (key, list path, name, state), or None where
-    the tracked files cannot be listed.  state is VERIFIES, MISMATCH, NOT TRACKED, ABSENT or NO NAME.  A name is looked for
-    beside its list first, then in the list's verification folder, then from the repository's root."""
-    repo = str(repo or ROOT)
-    r = subprocess.run(["git", "-C", repo, "ls-files"], capture_output=True, text=True, timeout=120)
-    if r.returncode != 0:
-        return None
-    tracked = set(r.stdout.split("\n"))
+HASH_LIST_ROOT_PREFIXES = (
+    "frontier/", "scripts/", "tests/", "docs/", "papers/",
+    "outside_bench/", "knowledge/", "philosophy/", "speculations/", "story/", "src/",
+)
+ARTIFACT_HASHES_BROKEN_DISK = {
+    "02ea635d28e4": ("frontier/B628_exterior_comparison/COMPARISON_DESIGN.md", "7b5f2ff77c4b0044dae2a56b6a8ea825a193a75daab9efcc48c19ba2026faac7"),
+    "06458ed7c5bb": ("frontier/B656_digest_integration/ORIGINALS_MANIFEST.txt", "aa8bb67d455f2afed1ea886947d20c6da48626038efdb2e9afbb01be0737b5b8"),
+    "0f676ba0859b": ("frontier/B1493_the_room_on_the_companions/verification/room.py", "ebcf9aab48d0c890d4b4eec38a14f2cc700598c13411f036ea748e7be15de5ba"),
+    "1425dd14fa31": ("frontier/B1490_the_common_cover_verified/verification/common_cover_main.py", "e8bf122371c34f6bc52abbc27f8459310a14e14a5565d4261918ae0c018ddda8"),
+    "21b857462e0d": ("frontier/B634_conductor_chord/ERRATUM_1.md", "eda33b8d4048ac013e43b7972ce623be8fdc2045c8d66dbb9048998a7d58d7c2"),
+    "25732c881109": ("frontier/B684_loop7_close/FINDINGS.md", "efc8c2a241b3988761c684612bec225521007988850705e1c3d3a4c2bc3641c2"),
+    "35c825435176": ("frontier/B682_habiro_dictionary/PHASE0_EXTRACTION_CC.md", "1bf08038bc4450cd7beefb6f76d191c3cd1d46d709391825733a56644667aeca"),
+    "364bd75c9f7c": ("frontier/B742_negatives_hunt_p1/FINDINGS.md", "60e48d21ce147aa196915f2f4dfa2923310112bfb720fdb9808ec200f09de82f"),
+    "4496610d521a": ("frontier/B1654_the_norm_of_the_boundary_class/verification/before_the_seal/review2/blocks.py", "7506a1851a55eea86810b6e936cf4cba9dc13c5312755df2aacb8c6612162d82"),
+    "46b056c1d0cd": ("frontier/B1486_the_two_orders_at_the_silver_members/verification/fused.py", "16fc24457ca399bb5f6253663499522346186f3e9d9bf44baaec69fd25300bf4"),
+    "5016a52c4e0c": ("frontier/B1823_step_a_the_tied_heavy_vacuum/verification/search.py", "cdfbffa8cbaa522b6ff7efe48f55f629ff658dc98ef718b2143cb6efe8ec7466"),
+    "5ce1a4764092": ("frontier/B1490_the_common_cover_verified/verification/congruence_level.json", "aff4e027108dfc3244406f25b121b254a67aa73c39d7b42c0c77c6daafe9bb22"),
+    "68f916e3c6ff": ("frontier/B1494_no_room_on_any_companion/verification/companions.py", "88e3cf7ac3de76c642841f0375b06b6a3b2a56e04dd7ef30f488144484e37862"),
+    "6c6c1c530bd1": ("frontier/B1654_the_norm_of_the_boundary_class/verification/before_the_seal/review/pre.py", "d6c19a3bd58112517997aca23246aae01d32eb0a83fa69350ab14410a9484ae0"),
+    "6d730200be1c": ("frontier/B1490_the_common_cover_verified/verification/level_recount.json", "c2a570f0b40bc2fb1e5794c83b39cddd549817f8d46c16cee59576bca5758b63"),
+    "6ebd8e4c93f4": ("frontier/B697_frobenius_gluing/FINDINGS.md", "7f440f5a45b1007db47a08f875ba2806244752e60abe46460837ecc94396ab14"),
+    "6fc7e0fe470f": ("frontier/B1605_the_cover_read_from_the_base/verification/schreier_cover.py", "9e68d659d66f41e232d9511c4331857aaf45e6323e00b3e277f22b66e16fdb02"),
+    "740cbb6a1698": ("frontier/B1490_the_common_cover_verified/verification/congruence_level.py", "6e65917ae19fb11e4af7f0974d2da73c58e95316da156675864c926af9672e62"),
+    "756fcc1dfcbc": ("frontier/B1493_the_room_on_the_companions/verification/control_m136.json", "6b4b1182b458ce7942bf852e8b709e6c5980620eb0e0c927e706f8f89605b889"),
+    "761da67ed455": ("frontier/B1654_the_norm_of_the_boundary_class/verification/before_the_seal/review2/pre2.py", "adc59a7885ca6c0e36c94bda3cd85b349d1be1a1dfbe30430b7b69cf9c18da7b"),
+    "7f11b8227c1b": ("frontier/B675_hcusp_sweep/FINDINGS.md", "4748ccdbaa6e0a458c291304f9aebe81b867c9170d5c155818d355d7b1130318"),
+    "93a1fa13ed35": ("frontier/B749_genesis_forks/FINDINGS.md", "8b38120e73776063d3da312360ad8036e01c7af8d745baa8a4815b6b5c87480c"),
+    "96d7ceb60570": ("frontier/B656_digest_integration/verify_g1_g4.py", "d64c48cb6ee688f0d088dfa246ed44459067bba97de8bb04a0525f8308938fa3"),
+    "9d9af43f0d7a": ("frontier/B1486_the_two_orders_at_the_silver_members/verification/fused_cell.py", "f2ecb7c0eb59476c7e600141aa77bbf9573c923d173bba90b1b55ce99b437a82"),
+    "a1b557f176e6": ("philosophy/P019_the_genesis_axiom_chain.md", "c6b7139d42336ab2f6fb5cd594f510a94f949050ad39fd394667561e8b5c5e80"),
+    "b0784290c658": ("frontier/B1823_step_a_the_tied_heavy_vacuum/verification/search.py", "cdfbffa8cbaa522b6ff7efe48f55f629ff658dc98ef718b2143cb6efe8ec7466"),
+    "b08f5c13fb89": ("frontier/B660_structure_campaign/FINDINGS.md", "43800eeb49cfa9a76aee48a02041847caf38d4e4ec0cd77769d9d3e8714543af"),
+    "b172cca70c9d": ("frontier/B650_typed_functor/TYPES.md", "6e79e480cfa9973a84edb7e735e2f86da1f0726f33a6253dde6d5a5287598bcf"),
+    "b1ee7bcab53b": ("frontier/B1823_step_a_the_tied_heavy_vacuum/verification/step_a_v2.py", "65d895c908d1c6f129ba00d647a504f1d5d51bab777f1f26f135d105f332b6f8"),
+    "c40fd50bc5f9": ("frontier/B1495_the_orbit_in_one_module/verification/cross.py", "9e0070ab7ffed5369541ac8ecd1b527e78d2873b4dbd40138c789e66e81ead57"),
+    "c4c204301962": ("frontier/B1490_the_common_cover_verified/verification/level_recount.py", "df3af299df4d2c941f8ccd09e2d0386f119792b30fbcf0ae9ed1e7058029b79a"),
+    "c74fc59dcb91": ("frontier/B666_leads_campaign/ADDENDUM_1.md", "82d5cd62c8049b65b0a502e6bd51c4ba7f9bbd25f2336c3877aad8c5e16af6e6"),
+    "d8ef558d9c73": ("frontier/B679_engine_patch/ARTIFACT_HASHES.txt", "a5ff359c4dc532b9eab458ce8beebe92e2c0a1875d4d3e2a6ee02518d0f93b71"),
+    "e129fe00f880": ("frontier/B1601_the_common_point_is_the_geometry_mod_3/verification/meets.py", "086dd6db336e0a28484c1e3f25c919cbd39e856a74ea9e10fc6024a1bc557b0d"),
+    "e2df6ca12f6c": ("frontier/B1792_the_offset_recurrence_at_order_60/verification/compare.py", "40435d82631a5e5ef0d561412ff00ea51f7d1fe9dd6fc5180ae46907d45de671"),
+    "e3b1af50cac7": ("frontier/B1609_the_even_subweave/verification/even_subweave.py", "c4f5f1497d93f1f11ad40ff4ecbe225e0dd80872bdd2bdc0600ff1808b811e69"),
+    "e7a0e6996e21": ("frontier/B1823_step_a_the_tied_heavy_vacuum/verification/model.py", "0c545f5019398bf958cf0c6af69209428595a7f12f7071c8f718d1d5f9938800"),
+    "ed75482fbcf7": ("frontier/B1654_the_norm_of_the_boundary_class/verification/before_the_seal/review/s23_names.py", "4f710db8f92a6ce2fd4fe6bd09d75b8668e5cc14ecf0ee0a27c6c329cd076d45"),
+    "ed90ccc5013d": ("frontier/B1499_the_fusion_on_the_first_room/verification/fusion.py", "bb54c8fb79e241b144621ca50dc84b08fa85f72ae8c24682d9c11da071cf99ba"),
+    "ef83de39507e": ("frontier/B749_genesis_forks/MEASUREMENTS.md", "dbf7e40c86b7a0ae1aae7b3c1f7ca148b048a1ae0b591f99196c999940d81e5d"),
+    "f86e2456f4e8": ("philosophy/P019_the_genesis_axiom_chain.md", "c6b7139d42336ab2f6fb5cd594f510a94f949050ad39fd394667561e8b5c5e80"),
+}
+OTHER_SEAL_HASH_RE = re.compile(
+    r"^(?:.*\.(?:sha256|sums)|.*(?:^|_)(?:seals?|hashes|sha256|checksums?|digests?)(?:_.*)?\.txt)$",
+    re.I,
+)
+OTHER_INTAKE_BASENAMES = frozenset((
+    "ORIGINALS_MANIFEST.txt", "SHA256_RECEIVED.txt", "SHA256_AS_RECEIVED.txt", "LARGE_OUTPUTS_SHA256.txt",
+))
+OTHER_HASH_LISTS_BROKEN = frozenset((
+    "034b645b167b", "056e1c70e7f9", "070d2632bf1d", "0c62d8571125", "0d185c97629c", "10bb59962f58", "13e6d424a387", "177498568fee",
+    "1e522d795e69", "22b73c743760", "23e9bcca2247", "2463dd96ed77", "253215f76bc8", "284456da9b5b", "288114054863", "2a007ac846e2",
+    "2d41b36408d2", "2e6f19cb2fcb", "2fe1e5a1d6f4", "3097086db609", "34cf93c58b63", "35f4cf3a9da0", "36d75e8bcb8f", "3996cab5b063",
+    "39afcfd30ff2", "3b6ffca9f9a0", "3e6f312595ed", "42f7648b488c", "484a95a8d1ee", "4cc28b746f41", "4e348f7d3216", "502319aba0f6",
+    "552160404074", "5696c788e9ad", "56fe09f86f75", "57a57af51f3a", "5d0d129d5632", "5d18a184f2ee", "5ea9035fb7be", "5f6a736b7c7d",
+    "62d180797718", "656b45633db5", "659cf444beb9", "65f2dd5ad979", "6643d0d1a531", "682cef6bbfb9", "6ac7315c89fb", "6dc918679ad1",
+    "6e0f13750339", "6f6639634851", "6fcaffccef9f", "70347a7e8c3c", "72e4532ba060", "730312cac671", "73c1df3927da", "74881b1c68e8",
+    "7bc5ea55c9c2", "7cc5100de543", "7cde81e60aa3", "7d672e5e055a", "7db90fde34a8", "7e1d7e071eff", "7eb6ae187bb4", "8764d3d394b7",
+    "8a6caacf7690", "8b586e29b9fc", "8bdcd114fc4d", "8c2a09199243", "908bccd2d9e4", "9446846795c2", "948082a84acc", "9690155da776",
+    "96fff6845320", "9760de67e242", "9b34c606b485", "a19e3b0164e8", "a3861486550d", "a3ca2bc40ef6", "a44e8ef17a26", "a4d6a67d98b8",
+    "a54cf0d53113", "a6a75f05b346", "a6a867cf635c", "a7bf12d84ef8", "a9f00fc3dd46", "ab6af942650a", "ac4bfaf892b9", "aecdb9ecc937",
+    "af5cbfc60022", "b1a51b0bf161", "b239c8ed8b4b", "b5ae17539493", "b634bc022a0c", "b6b98effb0e0", "b6df0830639b", "bb87c5972102",
+    "bcb956035a44", "be5b5f07dc9a", "bf0c79dcc514", "c154f851a6a0", "c1be3b7f0c37", "c2c49b575f0a", "c4a1d81e5613", "c7438f5be145",
+    "c83f7c914a59", "c923d4aa9ce9", "ca97477e16dd", "cc487f723dfa", "ce58dda1bd08", "d02a3b05e71c", "d054308377f2", "d092d0bd691f",
+    "d0c8ea1d29f7", "d14cf9151b8a", "d2dd79e87149", "d4fac13d09dc", "d6ed193fe8c4", "dd2a82515184", "dee9fd6ebfa6", "df3e9b1ea2e9",
+    "e01ea768fcc2", "e114ab540add", "e30fd972d6cc", "e38c13088b1b", "e41609ac0e3b", "e46457355d1a", "e7a235cb36d3", "e89eeafa094b",
+    "ebe489a824aa", "ef8b7de13129", "f0daae98f760", "f37dfc671b62", "f62fd66ab12c", "f635da8a83c9", "f82a6f4dcff6", "f8364b5f6c79",
+    "f94f24198452", "fbb40de74e49", "fdd9de1bf5ca", "ff986108188b",
+))
+OTHER_HASH_LISTS_BROKEN_DISK = {
+    "056e1c70e7f9": ("frontier/B677_morning_packet/anatomy/loop5/e2_silversplit/FINDINGS_CC2.md", "490d81b41fb56fee7ba3de51f96a6fe0a255a3687c078feedce7038075c08f0f"),
+    "070d2632bf1d": ("frontier/B677_morning_packet/anatomy/GENERATION_LEG_PLAN_CC2.md", "33c819046d2b35699f5a5f62d94a3a7dc5f4bb1abb4e3ae4b106da120ff69873"),
+    "0c62d8571125": ("frontier/B657_invariant_line/packet/w0a_singlet/FINDINGS_CC2.md", "c9102ad4964fb7d182a86f7c42d3d726318d6c45d061faee4638f6be4619f15c"),
+    "253215f76bc8": ("frontier/B670_anatomy_full/packet/loop4/PREREG_L4.md", "e9291b314a6bb266b41bdc6e71eb9e8055d5ab8280f36308e2c386e4605ff675"),
+    "288114054863": ("frontier/B663_bifocal_anatomy/anatomy_packet/loop1/a1_jordan/FINDINGS_CC2.md", "4109ab4f09d89a1db43967aecd5e4de8a1b767dcd56846a92988618455e9d3f0"),
+    "2a007ac846e2": ("frontier/B1305_the_cloud_156_178/DESIGN.md", "84bca2f72d0e7fce2d1ce860e3e5f0144a5f2c7865ce9ac765d21d4dabf71852"),
+    "2e6f19cb2fcb": ("frontier/B673_loop4_integration/packet/loop4/PREREG_L4.md", "e9291b314a6bb266b41bdc6e71eb9e8055d5ab8280f36308e2c386e4605ff675"),
+    "34cf93c58b63": ("frontier/B663_bifocal_anatomy/anatomy_packet/CHARTER.md", "e3261501aa04162616dfbf2484a7ac5de1f4a26548f37316e1d0f7180cd2e90f"),
+    "3996cab5b063": ("frontier/B651_wave3_integration/cc2_packets/promotion_queue/promotion_queue/p4_sectors/FINDINGS_CC2.md", "54eb11aa5fdabffddbbf3e943b27c9992019fda8c572bbc4c8f3483a37327aa4"),
+    "42f7648b488c": ("frontier/B673_loop4_integration/packet/FRONTIER.md", "44740a4595418e052b93a172e39ff467d08ef398f7e4d20323d5672ac5aef844"),
+    "484a95a8d1ee": ("frontier/B670_anatomy_full/packet/loop2/b2_massey/FINDINGS_CC2.md", "11b57ba1c28a0e299d6490f613f165678be26698f0024582817b3be599cffa1f"),
+    "4e348f7d3216": ("frontier/B651_wave3_integration/cc2_packets/finisher_queue/finisher_queue/f3_twisted/f3_twisted.py", "c2e8d5216cb053f05b46dd686494564624f77a91997bee27b341d1a19dc0346c"),
+    "552160404074": ("frontier/B663_bifocal_anatomy/anatomy_packet/loop1/a3_stage/FINDINGS_CC2.md", "462be1623c3354cba540b58d3836d249d22d3acac6f24ab9d2001690ada95dfd"),
+    "5696c788e9ad": ("frontier/B666_leads_campaign/cell9/cell9_taskB_discrete_id.py", "902b4f6dff2e8dd88d2c4e1b5a17776be3c79a952cdf0499599255dc950f8eaf"),
+    "56fe09f86f75": ("frontier/B670_anatomy_full/packet/loop1/a1_jordan/FINDINGS_CC2.md", "4109ab4f09d89a1db43967aecd5e4de8a1b767dcd56846a92988618455e9d3f0"),
+    "5d0d129d5632": ("frontier/B673_loop4_integration/packet/loop4/d1_pairing/FINDINGS_CC2.md", "75f2a2da893a1390688f7dd4339a1b730171fc4df270ac3198e50e04aa0dddd3"),
+    "5d18a184f2ee": ("frontier/B879_selection_cochain/packet/HANDOFF_CC_SELECTION_COCHAIN.md", "0c9fdd209fd703ff70fca83865b0c5ab3617e0c5dd4945b06c2ca43de59d3d89"),
+    "5ea9035fb7be": ("frontier/B663_bifocal_anatomy/anatomy_packet/FRONTIER.md", "c9bcb93ef08686eec84baf2f56eafb5bb99eae41b07aad5dde16444fe5cfd52b"),
+    "656b45633db5": ("frontier/B879_selection_cochain/packet/PREREG_SCC.md", "1f07ffc86bb15c43d7e597943ecb1f31666f483b8dd72ba51bcaad4098664397"),
+    "659cf444beb9": ("frontier/B660_structure_campaign/packet/s1_gamma5/LIT_GATE_S1.md", "6c5085b249ffd51d4b2632d5f9590f379178d78f1fbfa508e68d4c5e138bca16"),
+    "65f2dd5ad979": ("frontier/B670_anatomy_full/packet/loop3/c1_vecmassey/FINDINGS_CC2.md", "1f46cb123c5d68a9a319e5f7b65a12b82c0d804f5a121c05e8dc5ca1f7b1d34d"),
+    "6e0f13750339": ("frontier/B660_structure_campaign/packet/s1_gamma5/FINDINGS_S1A.md", "6f8061fcb58674c55e707e843f1c429eae0e7eb28878594736d681fd5df1cc11"),
+    "72e4532ba060": ("frontier/B651_wave3_integration/cc2_packets/loops_queue/loops_queue/d5_triality/d5_triality.py", "4041e0ec443e6a73e1082ad3367337eb726ee646fc7ade4c776104fa26b17708"),
+    "730312cac671": ("frontier/B677_morning_packet/anatomy/loop5/e1_diag351/FINDINGS_CC2.md", "28a27eb4a972d97d241467f84a490363399b2c45992d523e42652463bcf716d6"),
+    "7bc5ea55c9c2": ("frontier/B879_selection_cochain/packet/PREREG_SCC.md", "1f07ffc86bb15c43d7e597943ecb1f31666f483b8dd72ba51bcaad4098664397"),
+    "7cc5100de543": ("frontier/B656_digest_integration/packet/g3_mirror/FINDINGS_CC2.md", "4b09c6157c43ecd52523dd31e8af758bf80c06eff8dd0ea36de7d27a4832c861"),
+    "7e1d7e071eff": ("frontier/B673_loop4_integration/packet/loop4/d1_pairing/FINDINGS_CC2.md", "75f2a2da893a1390688f7dd4339a1b730171fc4df270ac3198e50e04aa0dddd3"),
+    "7eb6ae187bb4": ("frontier/B673_loop4_integration/packet/loop4/PREREG_L4.md", "e9291b314a6bb266b41bdc6e71eb9e8055d5ab8280f36308e2c386e4605ff675"),
+    "948082a84acc": ("frontier/B670_anatomy_full/packet/loop4/PREREG_L4.md", "e9291b314a6bb266b41bdc6e71eb9e8055d5ab8280f36308e2c386e4605ff675"),
+    "9760de67e242": ("frontier/B666_leads_campaign/cell9/cell9_taskA_verify2.py", "a37003e7f1b6dc07dedd6d705b8bb0c33842bf1e76150e663509b4eaab22e224"),
+    "a3ca2bc40ef6": ("frontier/B670_anatomy_full/packet/loop2/b3_silver/FINDINGS_CC2.md", "a5f3c35caba8c9645234f9f42c20e32e22a919767d485d00d2ccbb650efc180a"),
+    "a4d6a67d98b8": ("frontier/B666_leads_campaign/cell9/cell9_taskB_branches.py", "5670965585eb1f5b9e844a61162070fc3de00751a25226ced9b0fd1ee194ea8c"),
+    "a54cf0d53113": ("frontier/B651_wave3_integration/cc2_packets/loops_queue/loops_queue/d4_su3/FINDINGS_CC2.md", "37b9a410166dd4c92c8dd68003030dc58ddcccb29054cf844bb488daf5b3f7e1"),
+    "a6a867cf635c": ("frontier/B673_loop4_integration/packet/loop4/d3_silvercup/FINDINGS_CC2.md", "2f3b4f65e926e1f97ddd8ea7c9c21073e7dab95beb9fb51a050a8f5e119cdc3c"),
+    "ac4bfaf892b9": ("frontier/B879_selection_cochain/packet/HANDOFF_CC_SELECTION_COCHAIN.md", "0c9fdd209fd703ff70fca83865b0c5ab3617e0c5dd4945b06c2ca43de59d3d89"),
+    "aecdb9ecc937": ("frontier/B677_morning_packet/anatomy/loop5/e1_diag351/FINDINGS_CC2.md", "28a27eb4a972d97d241467f84a490363399b2c45992d523e42652463bcf716d6"),
+    "b1a51b0bf161": ("frontier/B670_anatomy_full/packet/loop3/c2_f4split/FINDINGS_CC2.md", "aa4c7999f0d2cba7be8f8c33e621d7452015adf629c33cde698d58c5dfe13752"),
+    "b5ae17539493": ("frontier/B670_anatomy_full/packet/loop2/b4_landscape/FINDINGS_CC2.md", "7dcde9b9d38dc4296ce4d5d28211006a5295f9601c4fdc24a9747fe8ddfd2472"),
+    "b634bc022a0c": ("frontier/B670_anatomy_full/packet/CHARTER.md", "e3261501aa04162616dfbf2484a7ac5de1f4a26548f37316e1d0f7180cd2e90f"),
+    "b6df0830639b": ("frontier/B657_invariant_line/packet/w1_portal/FINDINGS_CC2.md", "0f4b11eafb59860e10825f697b33efe0d2509f0ae06159b1f41e63d673b49de1"),
+    "bb87c5972102": ("frontier/B657_invariant_line/packet/w2_silver/FINDINGS_CC2.md", "298a0a70433c70a912ddced1d3b832664f362e063e36903cafa8c81f86847b5a"),
+    "bcb956035a44": ("frontier/B660_structure_campaign/packet/s1_gamma5/FINDINGS_CC2.md", "15623a9d4681e8a4013199d632361dc5657c8d16779f7590a83848c3a7dd286d"),
+    "c2c49b575f0a": ("frontier/B743_rung1_widened/PREREG_RUNG1_WIDENED.md", "191394438bd9eaad2779ef1dd3959d5e8083945678439c0d37071a141dfa70b4"),
+    "c7438f5be145": ("frontier/B670_anatomy_full/packet/loop2/b1_f4/FINDINGS_CC2.md", "2fff23dfef6356fc74e25adac927eb75b4bf484b8c8848cb562bec83716ac8ef"),
+    "c83f7c914a59": ("frontier/B651_wave3_integration/cc2_packets/promotion_queue/promotion_queue/p1_milgram/p1_milgram.py", "7d95723614e73e6287fab289077767bd96fbeb21e3de078a77ebe4049aa6d357"),
+    "ca97477e16dd": ("frontier/B670_anatomy_full/packet/loop1/a3_stage/FINDINGS_CC2.md", "462be1623c3354cba540b58d3836d249d22d3acac6f24ab9d2001690ada95dfd"),
+    "d02a3b05e71c": ("frontier/B756_remaining_doors/RAW_WORKFLOW_OUTPUT.json", "331e1148ade1cc19cad26a2d0cd6ef95df95193d7fdfbc537d54e4db1783e99c"),
+    "d092d0bd691f": ("frontier/B651_wave3_integration/cc2_packets/promotion_queue/promotion_queue/p0_s_verify/FINDINGS_CC2.md", "52162142068c12b2ff0d6b0c1aec4c6cb40635ebb9a76507a4e0b376fb191f4d"),
+    "d0c8ea1d29f7": ("frontier/B670_anatomy_full/packet/loop3/c3_signtable/FINDINGS_CC2.md", "e8859a666c090f1ec45b7c0b1eb6b59919c302ac566a6c8e369fa6c3adaf841c"),
+    "d14cf9151b8a": ("frontier/B666_leads_campaign/cell9/cell9_taskA_exact_tau.py", "92c4831f81a6db4d6d92a4d63720da25c75e3570c8903c0e92a6e94f80d10591"),
+    "d2dd79e87149": ("frontier/B670_anatomy_full/packet/loop2/PREREG_L2.md", "c6d4fabdd8eabc6a777d9fc462a404c50511c1cea9abc429d77b2f54a9768926"),
+    "dd2a82515184": ("frontier/B670_anatomy_full/packet/FRONTIER.md", "30e13a9fc80ace57b64c0cf65514e7c2ece9706e21e6bc0ce7cb36c3cf01e2ba"),
+    "df3e9b1ea2e9": ("frontier/B666_leads_campaign/cell9/cell9_L_arith.py", "f6d8162246879ec8e1d94301ed9c473a07c5b5e549393f5887fa30db6becffed"),
+    "e30fd972d6cc": ("frontier/B670_anatomy_full/packet/loop1/a2_phases/FINDINGS_CC2.md", "b6ecfaafaaece2e7f5e7577bf1a3d6862888178463dfd1b656c93777da7dec08"),
+    "e38c13088b1b": ("frontier/B670_anatomy_full/packet/loop4/d1_pairing/FINDINGS_CC2.md", "0812e63df128e98ea6ce488479885e2d915630f2f6409eedf576804e5ee28dfe"),
+    "e7a235cb36d3": ("frontier/B1298_the_lift_fork/DESIGN.md", "f1fef837668ea16d42c5c5c54ea44361da5de891caceef39f2fc2d4a9253bf11"),
+    "e89eeafa094b": ("frontier/B879_selection_cochain/packet/CAMPAIGN_CLOSE.md", "aee51342833178b6082051e28c27b8d127137604b0af3b8e795c4ea963037029"),
+    "ebe489a824aa": ("frontier/B660_structure_campaign/packet/s4_massshape/FINDINGS_CC2.md", "61dff42f9c593a79ae5792549f3a5b9403804c31f849781fac596804ca3e69e5"),
+    "ef8b7de13129": ("frontier/B670_anatomy_full/packet/loop3/c3_signtable/FINDINGS_CC2.md", "e8859a666c090f1ec45b7c0b1eb6b59919c302ac566a6c8e369fa6c3adaf841c"),
+    "f0daae98f760": ("frontier/B663_bifocal_anatomy/anatomy_packet/loop1/a2_phases/FINDINGS_CC2.md", "b6ecfaafaaece2e7f5e7577bf1a3d6862888178463dfd1b656c93777da7dec08"),
+    "f62fd66ab12c": ("frontier/B673_loop4_integration/packet/loop4/d2_351/FINDINGS_CC2.md", "55bf6fc0a60f6976fa4d8a3c6be2654bfe4f63fce93f9cd14440ba2ffb4f2f46"),
+    "f82a6f4dcff6": ("frontier/B734_m004_is_congruence/cc3_verification/b734_independent_verify.py", "c0fb89c71e3bd39c124ea11963a72e557164f436878e8c1fea6783b44b2865c2"),
+    "f8364b5f6c79": ("frontier/B660_structure_campaign/packet/s2_cp/FINDINGS_CC2.md", "c346c4ae97e428e15ddd02a017c9107e0294d8feb08f8fba2f0a16e46d886397"),
+    "f94f24198452": ("frontier/B651_wave3_integration/cc2_packets/finisher_queue/finisher_queue/f4_receipt/FINDINGS_CC2.md", "fec429eeb009c7313a216710a067600c4bb583e4383c8ab268e0d1bb8fe9e6c3"),
+    "fdd9de1bf5ca": ("frontier/B666_leads_campaign/cell9/cell9_taskB_branches_v2.py", "c15942ae50c45bb6a413bed6bf23cf9ea2d924f8df7fb139f7098ef8510f0181"),
+}
+OTHER_HASH_LISTS_IMMUTABLE_FROM = "015be0cc7cfb57a69430a9710fb01c754b53583e"  # B1879 (Re-Audit 3, t7)
+
+
+def _resolve_hash_entry(repo, tracked, lst, h, name):
+    """B1879 (Re-Audit 3, t3): canonical resolution without decoy shadowing. Paths starting with a repository top-level
+    directory resolve only from ROOT (and return AMBIGUOUS if a local decoy exists beside the list or under verification/).
+    Bare/relative names resolve beside the list or in verification/ (and return AMBIGUOUS if tracked in both)."""
+    d = os.path.dirname(lst)
+    if name is None:
+        return None, "NO NAME"
+    if name.startswith(HASH_LIST_ROOT_PREFIXES):
+        real = os.path.normpath(name).replace(os.sep, "/")
+        decoys = [os.path.normpath(os.path.join(d, p)).replace(os.sep, "/")
+                  for p in (name, os.path.join("verification", name))]
+        if any(c != real and c in tracked for c in dict.fromkeys(decoys)):
+            return real, "AMBIGUOUS"
+        cands = [real]
+        hits = [real] if real in tracked else []
+    else:
+        cands = list(dict.fromkeys([
+            os.path.normpath(os.path.join(d, name)).replace(os.sep, "/"),
+            os.path.normpath(os.path.join(d, "verification", name)).replace(os.sep, "/"),
+        ]))
+        hits = [c for c in cands if c in tracked]
+        if len(hits) > 1:
+            return hits[0], "AMBIGUOUS"
+    if not hits:
+        on_disk = any(os.path.exists(os.path.join(repo, c)) for c in cands)
+        return name, ("NOT TRACKED" if on_disk else "ABSENT")
+    hit = hits[0]
+    try:
+        now = hashlib.sha256(open(os.path.join(repo, hit), "rb").read()).hexdigest()
+    except OSError:
+        return name, "ABSENT"
+    return hit, ("VERIFIES" if now == h else "MISMATCH")
+
+
+def _scan_hash_lists(repo, tracked, lists):
     out = []
-    for lst in sorted(f for f in tracked if fnmatch.fnmatch(os.path.basename(f), ARTIFACT_HASH_GLOB)):
-        d = os.path.dirname(lst)
+    for lst in lists:
         try:
             lines = open(os.path.join(repo, lst), encoding="utf-8", errors="replace").read().split("\n")
         except OSError:
@@ -1322,22 +1806,73 @@ def artifact_hash_state(repo=None):
                 continue
             h, name = e
             key = hashlib.sha256(f"{lst}|{name}|{h}".encode("utf-8")).hexdigest()[:12]
-            if name is None:
-                out.append((key, lst, name, "NO NAME"))
-                continue
-            cands = [os.path.normpath(os.path.join(d, name)), os.path.normpath(os.path.join(d, "verification", name)), os.path.normpath(name)]
-            hit = next((c for c in cands if c in tracked), None)
-            if hit is None:
-                on_disk = any(os.path.exists(os.path.join(repo, c)) for c in cands)
-                out.append((key, lst, name, "NOT TRACKED" if on_disk else "ABSENT"))
-                continue
-            try:
-                now = hashlib.sha256(open(os.path.join(repo, hit), "rb").read()).hexdigest()
-            except OSError:
-                out.append((key, lst, name, "ABSENT"))
-                continue
-            out.append((key, lst, hit, "VERIFIES" if now == h else "MISMATCH"))
+            hit, st = _resolve_hash_entry(repo, tracked, lst, h, name)
+            out.append((key, lst, hit, st))
     return out
+
+
+def artifact_hash_state(repo=None):
+    """Every entry of every tracked ARTIFACT_HASHES*.txt list under `repo`: a list of (key, list path, name, state),
+    or None where the tracked files cannot be listed. state is VERIFIES, MISMATCH, NOT TRACKED, ABSENT, NO NAME or AMBIGUOUS."""
+    repo = str(repo or ROOT)
+    r = subprocess.run(["git", "-C", repo, "ls-files"], capture_output=True, text=True, timeout=120)
+    if r.returncode != 0:
+        return None
+    tracked = set(r.stdout.split("\n"))
+    lists = sorted(f for f in tracked if fnmatch.fnmatch(os.path.basename(f), ARTIFACT_HASH_GLOB))
+    return _scan_hash_lists(repo, tracked, lists)
+
+
+def _is_other_seal_hash_list(f):
+    base = os.path.basename(f)
+    return (
+        f.startswith(("frontier/", "outside_bench/"))
+        and not fnmatch.fnmatch(base, ARTIFACT_HASH_GLOB)
+        and base not in OTHER_INTAKE_BASENAMES
+        and bool(OTHER_SEAL_HASH_RE.match(base))
+    )
+
+
+def other_hash_list_state(repo=None):
+    """B1879 (Re-Audit 3, t7): every entry of every tracked secondary seal hash list (*SEAL*.txt, *SHA256*.txt, *.sha256,
+    *HASHES*.txt, *.sums, etc., outside intake manifests)."""
+    repo = str(repo or ROOT)
+    r = subprocess.run(["git", "-C", repo, "ls-files"], capture_output=True, text=True, timeout=120)
+    if r.returncode != 0:
+        return None
+    tracked = set(r.stdout.split("\n"))
+    lists = sorted(f for f in tracked if _is_other_seal_hash_list(f))
+    return _scan_hash_lists(repo, tracked, lists)
+
+
+def other_hash_lists_immutable_problems(repo, root, waived=(), limit=5):
+    """B1879 (Re-Audit 3, t7): committed edits, deletions or moves of secondary seal hash lists after `root`."""
+    def git(*a):
+        return subprocess.run(["git", "-C", str(repo), *a], capture_output=True, text=True, timeout=120)
+    if git("rev-parse", "--git-dir").returncode != 0:
+        return ["cannot verify: not a git repository"], 0
+    if git("cat-file", "-e", root + "^{commit}").returncode != 0:
+        return [f"cannot verify: secondary hash-list rule commit {root[:9]} is not in this clone (shallow or partial)"], 0
+    if git("merge-base", "--is-ancestor", root, "HEAD").returncode != 0:
+        return [f"cannot verify: HEAD does not descend from secondary hash-list rule commit {root[:9]}"], 0
+    commits = git("log", "--first-parent", "--reverse", "--format=%H", f"{root}..HEAD", "--", "frontier/", "outside_bench/").stdout.split()
+    verbs = {"M": "edits", "D": "deletes", "R": "moves", "T": "changes the type of", "C": "copies over"}
+    problems = []
+    touched = 0
+    for c in commits:
+        out = git("diff-tree", "--no-commit-id", "--name-status", "-r", "-M", f"{c}^", c, "--", "frontier/", "outside_bench/").stdout
+        c_hit = False
+        for line in out.splitlines():
+            parts = line.split("\t")
+            if len(parts) < 2 or not _is_other_seal_hash_list(parts[1]):
+                continue
+            c_hit = True
+            if parts[0].startswith("A") or (c, parts[1]) in waived:
+                continue
+            problems.append(f"{c[:9]} {verbs.get(parts[0][0], 'changes')} the secondary list of hashed files {parts[1]}")
+        if c_hit:
+            touched += 1
+    return problems[:limit], touched
 
 
 def hash_lists_immutable_problems(repo, root, waived=(), limit=5):
@@ -1367,11 +1902,31 @@ def hash_lists_immutable_problems(repo, root, waived=(), limit=5):
     return problems[:limit], len(commits)
 
 
+def _check_frozen_disk_locks(repo, rows, disk_map, amended):
+    re_edited = []
+    for k, lst, name, st in rows:
+        if k in amended or k not in disk_map:
+            continue
+        exp_path, exp_sha = disk_map[k]
+        if st != "MISMATCH" or name != exp_path:
+            re_edited.append((name or exp_path, f"MODIFIED AFTER FREEZE ({st})", lst))
+            continue
+        try:
+            cur_sha = hashlib.sha256(open(os.path.join(repo, exp_path), "rb").read()).hexdigest()
+        except OSError:
+            re_edited.append((exp_path, "MODIFIED AFTER FREEZE (ABSENT)", lst))
+            continue
+        if cur_sha != exp_sha:
+            re_edited.append((exp_path, "MODIFIED AFTER FREEZE (MISMATCH)", lst))
+    return re_edited
+
+
 def gate_artifact_hashes(_repo=None, _frozen=None, _root=None, _waived=None, _amended=None):
     """What a seal hashed still has the hash the seal recorded, and the record of the hashes does not change (see the note above)."""
     repo = _repo or ROOT
     frozen = ARTIFACT_HASHES_BROKEN if _frozen is None else _frozen
     amended = ARTIFACT_HASHES_AMENDED if _amended is None else _amended
+    waived = ARTIFACT_HASHES_WAIVED if _waived is None else _waived
     state = artifact_hash_state(repo)
     if state is None:
         return False, "cannot verify: the tracked files cannot be listed (not a git repository)"
@@ -1380,15 +1935,33 @@ def gate_artifact_hashes(_repo=None, _frozen=None, _root=None, _waived=None, _am
     if new:
         return False, "; ".join(f"{name or '(no name)'}: {st} against {lst}" for (k, lst, name, st) in new[:5]) + (
             f" (+{len(new) - 5} more)" if len(new) > 5 else "") + " -- a file a seal hashed has changed, or a list names what is not there"
-    problems, n = hash_lists_immutable_problems(repo, _root or ARTIFACT_HASHES_IMMUTABLE_FROM, ARTIFACT_HASHES_WAIVED if _waived is None else _waived)
+    # B1879 (Re-Audit 3, t4): a pre-existing MISMATCH script frozen by key cannot be edited a second time either.
+    re_edited = _check_frozen_disk_locks(repo, broken, ARTIFACT_HASHES_BROKEN_DISK, amended)
+    if re_edited:
+        return False, "; ".join(f"{nm}: {st} against {lst}" for nm, st, lst in re_edited[:5]) + " -- a frozen broken script changed again after its freeze"
+    problems, n = hash_lists_immutable_problems(repo, _root or ARTIFACT_HASHES_IMMUTABLE_FROM, waived)
     if problems:
         return False, "; ".join(problems)
+    # B1879 (Re-Audit 3, t7): enforce secondary seal hash lists (*SEAL*.txt, *SHA256*.txt, *.sha256, *HASHES*.txt, *.sums, etc.).
+    ostate = other_hash_list_state(repo) or []
+    obroken = [(k, lst, name, st) for (k, lst, name, st) in ostate if st != "VERIFIES"]
+    ofrozen = OTHER_HASH_LISTS_BROKEN if _frozen is None else (_frozen & OTHER_HASH_LISTS_BROKEN)
+    onew = [(k, lst, name, st) for (k, lst, name, st) in obroken if k not in ofrozen and k not in amended]
+    if onew:
+        return False, "; ".join(f"{name or '(no name)'}: {st} against {lst}" for (k, lst, name, st) in onew[:5]) + " -- a file in a secondary seal hash list changed or is missing"
+    ore_edited = _check_frozen_disk_locks(repo, obroken, OTHER_HASH_LISTS_BROKEN_DISK, amended)
+    if ore_edited:
+        return False, "; ".join(f"{nm}: {st} against {lst}" for nm, st, lst in ore_edited[:5]) + " -- a frozen file in a secondary seal hash list changed again"
+    oproblems, on_touch = other_hash_lists_immutable_problems(repo, _root or OTHER_HASH_LISTS_IMMUTABLE_FROM, waived)
+    if oproblems:
+        return False, "; ".join(oproblems)
     lists = len({lst for (_, lst, _, _) in state})
-    waived = ARTIFACT_HASHES_WAIVED if _waived is None else _waived
     distinct = len({k for (k, _, _, _) in broken})
+    osec = (f"; secondary seal lists: {len(ostate)} entries ({len(ostate) - len(obroken)} verify, {len(obroken)} frozen, {on_touch} commit(s) since {(_root or OTHER_HASH_LISTS_IMMUTABLE_FROM)[:9]})"
+            if ostate or on_touch else "")
     return True, (f"ok ({len(state)} entries in {lists} lists: {len(state) - len(broken)} verify, {len(broken)} do not ({distinct} distinct, each frozen by key "
-                  f"as found on 2026-11-10 or amended by name; the ceiling is {len(frozen)}); {n} commit(s) since {(_root or ARTIFACT_HASHES_IMMUTABLE_FROM)[:9]} touch a list, each only adding one; "
-                  f"amended by name: {len(amended)}" + ("".join(f" [{k}: {why}]" for k, why in sorted(amended.items()))) + f"; waived: {len(waived)}"
+                  f"as found on 2026-11-10 or amended by name; the ceiling is {len(frozen)}); {n} commit(s) since {(_root or ARTIFACT_HASHES_IMMUTABLE_FROM)[:9]} touch a list, each only adding one"
+                  f"{osec}; amended by name: {len(amended)}" + ("".join(f" [{k}: {why}]" for k, why in sorted(amended.items()))) + f"; waived: {len(waived)}"
                   + ("".join(f" [{c[:9]} {p}: {why}]" for (c, p), why in sorted(waived.items()))) + ")")
 
 
@@ -1470,26 +2043,58 @@ SEAL_ORDER_UNSHOWN_CEILING = SEAL_ORDER_UNSHOWN_CEILING | frozenset((
     "B1244", "B1297", "B1298", "B1299", "B1302", "B1303", "B1304", "B1305", "B1307", "B1320", "B1321", "B1322", "B1323",
     "B1324", "B1798",
 ))
+# Added once, 2026-11-11 (B1879; Re-audit 2, s2/s3): the twenty-one historical arcs whose nested sealed packet/design or
+# received rule file was first committed in the same commit as FINDINGS.md.
+SEAL_ORDER_UNSHOWN_CEILING = SEAL_ORDER_UNSHOWN_CEILING | frozenset((
+    "B646", "B651", "B656", "B657", "B660", "B663", "B670", "B673", "B677", "B775", "B879", "B1296",
+    "B1674", "B1675", "B1676", "B1679", "B1684", "B1686", "B1817", "B1823", "B1827",
+))
+# B1879 (G4 / s4, P-772(b)): historical multi-wave / v2 addenda committed after their arc's initial Wave-1 FINDINGS.md.
+# Any new sealed-style file committed AFTER its arc's FINDINGS.md fails seal-order-unshown.
+SEAL_ORDER_AFTER_CEILING = frozenset((
+    "frontier/B469_breath_campaign/PREREG_SIGMA_PARITY.md",
+    "frontier/B647_core_mechanism/PREREG_CELL2.md",
+    "frontier/B649_silver_holonomy/PREREG_STAGE2A.md",
+    "frontier/B649_silver_holonomy/PREREG_STAGE2B.md",
+    "frontier/B649_silver_holonomy/PREREG_STAGE3A.md",
+    "frontier/B649_silver_holonomy/PREREG_STAGE3B_II.md",
+    "frontier/B649_silver_holonomy/PREREG_STAGE3B_SWAP.md",
+    "frontier/B650_typed_functor/PREREG_WAVE2.md",
+    "frontier/B674_generation_leg/PREREG_W2.md",
+    "frontier/B674_generation_leg/PREREG_W3_DECISION.md",
+    "frontier/B674_generation_leg/PREREG_W3_DECISION_ADDENDUM_1.md",
+    "frontier/B674_generation_leg/PREREG_W3_RUN.md",
+    "frontier/B674_generation_leg/W2_DESIGN_NOTE_GAMMA5.md",
+    "frontier/B700_fiber_functor/PREREG_CELL2.md",
+    "frontier/B700_fiber_functor/PREREG_CELL4.md",
+    "frontier/B700_fiber_functor/PREREG_CELL5.md",
+    "frontier/B700_fiber_functor/PREREG_CELL6_phase2.md",
+    "frontier/B700_fiber_functor/cell3_cc2/PREREG_CELL3_CC2.md",
+    "frontier/B700_fiber_functor/phase2_cc2/phase2/PREREG_PHASE2_CC2.md",
+    "frontier/B771_phase1_wave1/PREREG_WAVE2.md",
+    "frontier/B771_phase1_wave1/PREREG_WAVE5.md",
+    "frontier/B775_phase2_wave1/PREREG_WAVE2.md",
+    "frontier/B775_phase2_wave1/PREREG_WAVE3.md",
+    "frontier/B775_phase2_wave1/PREREG_WAVE4.md",
+    "frontier/B775_phase2_wave1/PREREG_WAVE5.md",
+    "frontier/B775_phase2_wave1/PREREG_WAVE6.md",
+    "frontier/B775_phase2_wave1/cells/P2W2-LATIN/PREREGISTRATION.md",
+    "frontier/B1071_sealed_listener/PREREGISTRATION_V2.md",
+    "frontier/B1305_the_cloud_156_178/DESIGN_B.md",
+    "frontier/B1306_the_older_debt/DESIGN_B.md",
+    "frontier/B1306_the_older_debt/DESIGN_C.md",
+))
 SEAL_ORDER_SHOWN_OFF_MAIN = {"B1670": ("ad3dd5d44", "fecdd63bd")}
 SEAL_ORDER_DOC = "docs/SEAL_ORDER_UNSHOWN.md"
 
 
-def seal_order_class(rev="HEAD"):
-    """every sealed test on `rev` whose rule and record were first committed in one commit: arc id -> that commit. A sealed
-    test is an arc folder under frontier/ holding a sealed-style file, and its record is the folder's FINDINGS.md. A rename
-    keeps the file's first commit (the panel's rule in export_panel_data.frontier_events); --full-history keeps a side
-    branch's commits where they were made.
-
-    The advisor seat's audit, G4 (2026-11-10; its PV8, reproduced on main): this read one file name, PREREGISTRATION.md.
-    A test sealed as PREREG.md, DESIGN.md or SEALED_*.md and first committed with its results was not in the class and not
-    on the list. It now reads every seal name the ledger's generator knows (SEAL_PATTERNS)."""
-    import fnmatch
-    specs = ["frontier/*/" + pat for pat in SEAL_PATTERNS] + ["frontier/*/FINDINGS.md"]
+def _seal_origins(rev="HEAD"):
+    specs = [":(glob)frontier/**/" + pat for pat in SEAL_PATTERNS] + [":(glob)frontier/*/FINDINGS.md"]
     rc, raw = _git("log", "--full-history", "--no-merges", "--topo-order", "--reverse", "-M", "--name-status",
                    "--diff-filter=AR", "--format=%x1e%H", rev, "--", *specs)
     rc2, tree = _git("ls-tree", "-r", "--name-only", rev, "frontier/")
     if rc != 0 or rc2 != 0:
-        return None
+        return None, None
     origin = {}
     for chunk in raw.split("\x1e"):
         if not chunk.strip():
@@ -1502,17 +2107,56 @@ def seal_order_class(rev="HEAD"):
                 origin[f[2]] = origin.get(f[1], sha)
             elif f[0] == "A" and len(f) == 2:
                 origin.setdefault(f[1], sha)
+    return origin, tree
+
+
+def seal_order_class(rev="HEAD"):
+    """every sealed test on `rev` whose rule and record were first committed in one commit: arc id -> that commit.
+    Widened 2026-11-11 (B1879) to read recursive SEAL_PATTERNS under frontier/B*/**."""
+    origin, tree = _seal_origins(rev)
+    if origin is None:
+        return None
     out = {}
     for path in sorted(tree.splitlines()):
-        m = re.fullmatch(r"frontier/([^/]+)/([^/]+)", path)
-        if not m or not any(fnmatch.fnmatch(m.group(2), pat) for pat in SEAL_PATTERNS):
+        parts = path.split("/")
+        if len(parts) < 3 or parts[0] != "frontier":
             continue
-        rule, record = origin.get(path), origin.get("frontier/%s/FINDINGS.md" % m.group(1))
+        arc_dir, base = parts[1], parts[-1]
+        if not any(fnmatch.fnmatch(base, pat) for pat in SEAL_PATTERNS):
+            continue
+        rule, record = origin.get(path), origin.get("frontier/%s/FINDINGS.md" % arc_dir)
         if rule and record and rule == record:
-            aid = m.group(1).split("_")[0]
-            if aid not in out or m.group(2) == "PREREGISTRATION.md":
+            aid = arc_dir.split("_")[0]
+            if aid not in out or path == "frontier/%s/PREREGISTRATION.md" % arc_dir:
                 out[aid] = rule
     return out
+
+
+_ORIG_SEAL_ORDER_CLASS = seal_order_class
+
+
+def seal_order_after_problems(rev="HEAD", ceiling=SEAL_ORDER_AFTER_CEILING, strict_ancestor=None):
+    """B1879 (G4 / s4, P-772(b)): any sealed-style file committed AFTER its arc's FINDINGS.md (outside the frozen
+    historical multi-wave ceiling) fails seal-order-unshown."""
+    origin, tree = _seal_origins(rev)
+    if origin is None:
+        return ["git log failed -- post-record seals cannot be checked"]
+    anc = strict_ancestor or _strict_ancestor
+    problems = []
+    for path in sorted(tree.splitlines()):
+        if path in ceiling:
+            continue
+        parts = path.split("/")
+        if len(parts) < 3 or parts[0] != "frontier":
+            continue
+        arc_dir, base = parts[1], parts[-1]
+        if not any(fnmatch.fnmatch(base, pat) for pat in SEAL_PATTERNS):
+            continue
+        rule, record = origin.get(path), origin.get("frontier/%s/FINDINGS.md" % arc_dir)
+        if rule and record and rule != record and anc(record, rule):
+            aid = arc_dir.split("_")[0]
+            problems.append(f"{aid}: sealed file {path} committed ({rule[:9]}) AFTER FINDINGS.md ({record[:9]})")
+    return problems
 
 
 def seal_order_listed(text):
@@ -1560,6 +2204,8 @@ def gate_seal_order_unshown():
         return False, SEAL_ORDER_DOC + " missing -- the list is gone"
     listed = seal_order_listed(_read(SEAL_ORDER_DOC))
     bad = seal_order_problems(computed, listed)
+    if not bad and seal_order_class is _ORIG_SEAL_ORDER_CLASS:
+        bad = seal_order_after_problems()
     if bad:
         return False, "; ".join(bad[:4])
     return True, "ok (%d listed, at most %d; B1670's order shown off main)" % (len(listed), len(SEAL_ORDER_UNSHOWN_CEILING))
@@ -1642,15 +2288,37 @@ def gate_lawmap_scope():
 # records, correction banners and quotations of former claims.
 def gate_retraction_sweep():
     """Registered retracted phrases must not appear as live claims in any tracked .md."""
-    sys.path.insert(0, os.path.join(ROOT, "scripts", "checks"))
+    if _git("rev-parse", "--git-dir")[0] != 0:
+        return False, "cannot verify: git unavailable"
+    if not os.path.isfile(os.path.join(ROOT, "docs", "RETRACTED_PHRASES.md")):
+        return False, "docs/RETRACTED_PHRASES.md missing -- the retraction registry is gone"
+    sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "checks"))
     try:
         import retraction_sweep as rs
     except Exception as exc:
-        # FAIL-CLOSED: a missing sweeper is exactly the state in which the corpus rots
-        # quietly, which is the failure this gate exists to prevent.
         return False, f"retraction_sweep unimportable: {exc}"
+    finally:
+        sys.path.pop(0)
+    if not rs._phrases():
+        return False, "docs/RETRACTED_PHRASES.md yielded 0 phrases"
     v = rs.sweep()
     return not v, [f"{r}:{n} {p!r}" for r, n, p in v[:5]] or "ok"
+
+
+def _debt_git_env(env_var):
+    """B1879 (G5/PV9, G6/PV15, G13/PV22): fail closed without git or on a shallow clone, and pin debt aging to HEAD's commit date."""
+    rc, _ = _git("rev-parse", "--git-dir")
+    if rc != 0:
+        return False, "cannot verify: git unavailable", None
+    rcs, sh_out = _git("rev-parse", "--is-shallow-repository")
+    if rcs == 0 and sh_out.strip() == "true":
+        return False, "cannot verify: shallow clone truncates commit history", None
+    rcd, hd = _git("log", "-1", "--format=%cs")
+    if rcd != 0 or not hd.strip():
+        return False, "cannot verify: HEAD commit date unreadable", None
+    env = dict(os.environ)
+    env[env_var] = hd.strip()
+    return True, "", env
 
 
 
@@ -1661,9 +2329,11 @@ def gate_retraction_sweep():
 # "OPEN, the sharpest available target". The repo lost nothing; the summaries forgot.
 def gate_relay_debt():
     """B999 -- branch protection preserves FILES; nothing preserved FINDINGS (design: cc3)."""
-    import subprocess
+    ok_env, why_env, env = _debt_git_env("OA_RELAY_TODAY")
+    if not ok_env:
+        return False, why_env
     r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "relay_debt.py")],
-                       capture_output=True, text=True)
+                       capture_output=True, text=True, env=env)
     out = (r.stdout + r.stderr).strip()
     if r.returncode != 0:
         return False, out.replace("\n", " | ")[:400]
@@ -1689,9 +2359,11 @@ def gate_retraction_debt():
 def gate_harvest_debt():
     """B1307 -- every seat branch is READ within 21 days of a push; the harvest ledger is reconciled against each seat's own index
     (MASTERPLAN v3.1 section 1a rule 3). Plain mode = instrument integrity + ageing; `review-due` runs it --strict."""
-    import subprocess
+    ok_env, why_env, env = _debt_git_env("OA_HARVEST_TODAY")
+    if not ok_env:
+        return False, why_env
     r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "harvest_debt.py"), "--quiet"],
-                       capture_output=True, text=True, timeout=300)
+                       capture_output=True, text=True, timeout=300, env=env)
     out = (r.stdout + r.stderr).strip()
     if r.returncode != 0:
         return False, out.replace("\n", " | ")[:500]
@@ -1702,9 +2374,11 @@ def gate_lead_debt():
     """2026-10-01 -- a deferral lands as a LEAD or as an arc left at verdict OPEN, and nothing aged either (the relay and
     harvest gates age the other two kinds of debt). A ratchet: the stale counts may only shrink. Also fails on a lead number
     carried by two open leads (the E71 class, twice on 2026-09-18)."""
-    import subprocess
+    ok_env, why_env, env = _debt_git_env("OA_LEAD_TODAY")
+    if not ok_env:
+        return False, why_env
     r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "lead_debt.py")],
-                       capture_output=True, text=True, timeout=300)
+                       capture_output=True, text=True, timeout=300, env=env)
     out = (r.stdout + r.stderr).strip()
     if r.returncode != 0:
         return False, out.replace("\n", " | ")[:500]
@@ -1726,9 +2400,11 @@ def gate_point_debt():
     """2026-10-13 -- the owner: "we clarify the picture, but fail to address all the points we made, and get lost to one
     of the multiple things we have to deal with." Every point a review raises has a row in docs/POINT_REGISTER.md with a
     disposition and a queue slot; no row may be deleted; a queued point unmoved for 21 days fails unless escalated."""
-    import subprocess
+    ok_env, why_env, env = _debt_git_env("OA_POINT_TODAY")
+    if not ok_env:
+        return False, why_env
     r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "point_debt.py")],
-                       capture_output=True, text=True, timeout=300)
+                       capture_output=True, text=True, timeout=300, env=env)
     out = (r.stdout + r.stderr).strip()
     if r.returncode != 0:
         return False, out.replace("\n", " | ")[:500]
@@ -1917,8 +2593,10 @@ def gate_identification_register():
             ref = ident.get("row") if isinstance(ident, dict) else str(ident)
             if ref not in rows:
                 problems.append(f"{d.get('id')}: declares {ref!r}, no ledger row")
-    # (b) the ratchet
-    if os.path.exists(base):
+    # (b) the ratchet (fails closed if missing, B1879 / PV10)
+    if not os.path.exists(base):
+        problems.append("docs/IDENTIFICATION_BASELINE.json missing -- unearned-count ratchet cannot be verified")
+    else:
         try:
             b = _json.load(open(base, encoding="utf-8")).get("unearned")
         except Exception:
@@ -2014,6 +2692,8 @@ def gate_review_fires():
     n, _due = review_status()
     if os.environ.get("OA_REVIEW_MERGES"):
         n = int(os.environ["OA_REVIEW_MERGES"])
+    elif _git("rev-parse", "--git-dir")[0] != 0:
+        return False, "cannot verify: git unavailable"
     if n is None:
         return True, "no review anchor yet"
     if n >= REVIEW_HARD:
@@ -2078,8 +2758,7 @@ GATE_CONTROLS = "tests/GATE_CONTROLS.json"      # gate -> 'tests/<file>.py::<tes
 
 def gate_gate_controls():
     """GOVERNANCE §15 (amendment 2026-10-03, R58-1 item 3a): every gate has a test that makes it fail, named in
-    tests/GATE_CONTROLS.json; the named function must exist.  Review 58 counted 15 of 34 gates named by no test and
-    twelve whose checker had no failing-path test at all (R58-2); a gate nobody has seen fail may be inert."""
+    tests/GATE_CONTROLS.json; the named function must exist, must not be skipped/xfailed, and must not be vacuous (B1879, G7 / PV16)."""
     p = os.path.join(ROOT, GATE_CONTROLS)
     if not os.path.isfile(p):
         return False, f"{GATE_CONTROLS} missing -- the register of failing-path tests is gone"
@@ -2087,10 +2766,18 @@ def gate_gate_controls():
         reg = json.loads(_read(GATE_CONTROLS))
     except Exception as exc:
         return False, f"{GATE_CONTROLS} unreadable: {exc}"
+    sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "checks"))
+    try:
+        import check_test_vacuity as ctv
+    except Exception as exc:
+        return False, f"vacuity checker unimportable for gate-controls: {exc}"
+    finally:
+        sys.path.pop(0)
     problems = []
     missing = sorted(g for g in GATES if g not in reg)
     if missing:
         problems.append("gates with no registered failing-path test: " + ", ".join(missing))
+    parsed_cache = {}
     for g, ref in sorted(reg.items()):
         if "::" not in ref:
             problems.append(f"{g}: malformed reference {ref!r}"); continue
@@ -2098,8 +2785,31 @@ def gate_gate_controls():
         fp = os.path.join(ROOT, f)
         if not os.path.isfile(fp):
             problems.append(f"{g}: {f} does not exist"); continue
-        if not re.search(r"^def %s\(" % re.escape(fn), open(fp, encoding="utf-8", errors="replace").read(), re.M):
-            problems.append(f"{g}: {fn} not defined in {f}")
+        if fp not in parsed_cache:
+            try:
+                parsed_cache[fp] = ast.parse(open(fp, encoding="utf-8", errors="replace").read())
+            except Exception as exc:
+                parsed_cache[fp] = exc
+        tree = parsed_cache[fp]
+        if isinstance(tree, Exception):
+            problems.append(f"{g}: {f} syntax error: {tree}"); continue
+        fn_node = next((n for n in ast.walk(tree)
+                        if isinstance(n, (ast.FunctionDef, ast.AsyncFunctionDef)) and n.name == fn), None)
+        if fn_node is None:
+            problems.append(f"{g}: {fn} not defined in {f}"); continue
+        skip_dec = any(
+            any(tok in ast.dump(dec) for tok in ("'skip'", "'skipif'", "'xfail'", '"skip"', '"skipif"', '"xfail"'))
+            for dec in fn_node.decorator_list
+        )
+        skip_call = any(
+            isinstance(sub, ast.Call) and getattr(sub.func, "attr", None) in ("skip", "xfail")
+            for sub in ast.walk(fn_node)
+        )
+        if skip_dec or skip_call:
+            problems.append(f"{g}: {ref} is skipped or xfailed"); continue
+        na, ta, _ = ctv.check_function_node(fn_node, f)
+        if na or ta:
+            problems.append(f"{g}: {ref} is vacuous ({(na + ta)[0]})")
     return (not problems), ("; ".join(problems)[:600] if problems else f"ok ({len(reg)} gates with a registered failing-path test)")
 
 
@@ -2333,7 +3043,7 @@ def gate_arc_data():
     sp = _ilu.spec_from_file_location("arc_data", os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "checks", "arc_data.py"))
     m = _ilu.module_from_spec(sp); sp.loader.exec_module(m)
     out = m.check(root=ROOT)
-    bad = {k: v for k, v in out.items() if k[:2] in ("D1", "D2", "D3", "D4", "D5", "D6") and v}
+    bad = {k: v for k, v in out.items() if (k == "unreadable verdict files" or k[:2] in ("D1", "D2", "D3", "D4", "D5", "D6")) and v}
     if bad:
         return False, "; ".join("%s: %s" % (k, (list(v)[:4] if isinstance(v, dict) else v[:4])) for k, v in bad.items())[:600]
     return True, "ok (%d verdict files; D1-D6 empty; %d prose-only candidates reported)" % (out["verdict files"], len(out["D7 relation in prose only (candidates)"]))

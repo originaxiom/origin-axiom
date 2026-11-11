@@ -38,6 +38,10 @@ EXEMPT_FILES = {
     # exactly like RETRACTED_PHRASES.md above. Same principle: a record that may not name the claim it
     # withdraws cannot withdraw it.
     "frontier/B1424_the_referees_defects/ADDENDUM_2026-09-18_THE_DIAGNOSIS_WAS_WRONG.md",
+    # Added 2026-11-11 (B1879, P-154): governance ledgers that quote retracted phrases in order to
+    # record the error class or track the repair debt are retraction records, not live claims.
+    "docs/ERROR_LEDGER.md",
+    "docs/POINT_REGISTER.md",
 }
 EXEMPT_BASENAMES = ("PRIOR_ART_HYPERCHARGE.md", "PRIOR_ART_MAASS.md",
                     "PRIOR_ART_VEV.md", "PRIOR_ART_RANK_REDUCTION.md",
@@ -51,6 +55,11 @@ EXEMPT_PREFIXES = ("frontier/B967_", "frontier/B964_", "frontier/B963_", "fronti
                    # arc and its addendum, B1235 the arc that retracted it, B1163 the addenda it
                    # corrected, B1326 the sweep's own widening. Quoting the phrase there is right.
                    "frontier/B1181_", "frontier/B1235_", "frontier/B1163_", "frontier/B1326_",
+                   # added 2026-11-11 (B1879, P-154): B1632, B1635, B1641 carry explicit scope-retraction
+                   # banners/addenda (RETRACTED_PHRASES.md 2026-10-14 block) and B1648 IS the scope-repair
+                   # arc that withdraws their unqualified reading; docs/handoffs/ is dated archival mail.
+                   "frontier/B1632_", "frontier/B1635_", "frontier/B1641_", "frontier/B1648_",
+                   "docs/handoffs/",
                    "docs/atlas/", "docs/views/")
 
 # A line is a MENTION (allowed) if it carries any of these near the phrase.
@@ -69,6 +78,8 @@ MENTION_CUES = re.compile(
     # added 2026-09-10 (B1326): a line calling a method orientation-blind is discussing the
     # defect, not asserting the claim -- CAMPAIGN_STATUS names B1181's phrase in exactly that way.
     r"orientation-blind|38/112|38 of 112|"
+    # added 2026-11-11 (B1879, P-154): explicit negative-grading cues in candidate/audit ledgers.
+    r"negative as sealed|is dead|"
     # added 2026-09-07 (the doc-currency read at B1296): "refuted" -- the corpus's commonest retraction
     # verb -- was not a cue, so every line that SAYS a phrase is refuted (B1253 FINDINGS: "It is refuted";
     # CAMPAIGN_STATUS: "this arc's own headline REFUTED") read as a live use the moment the phrase was
@@ -105,16 +116,24 @@ def _phrases():
                 phrase, tail = m.group(1).strip(), m.group(2).strip()
                 if not tail or tail.startswith("("):
                     out.append(phrase)
-                # else: a READING is retracted, not the phrase, and the bare phrase stays
-                # legitimate. Two live examples, both of which a naive widening got WRONG here
-                # before this comment was written:
-                #   * "sin^2 theta_W = 3/8" READ AS selecting E6/the knot -- the NUMBER is fine and
-                #     appears correctly in README, GOVERNANCE and twelve docs (~25 uses);
-                #   * "the class restricts to c" / eps described as "mirror-odd" -- MIRROR-ODD is a
-                #     correct, load-bearing term for the ORIENTATION bit (B1168, B1169); only its
-                #     application to eps was retracted.
-                # Sweeping either bare phrase reds correct work. When a row retracts a reading, the
-                # registry must add a separate row for any phrase it wants swept.
+                continue
+            # FORMAT 3 (used from 2026-10-07 on; widened 2026-11-11, B1879 / P-154 / PV17):
+            # unquoted 3-column markdown tables  | retracted phrase (source) | replacement | why |
+            if line.lstrip().startswith("|"):
+                cols = [c.strip() for c in line.strip().strip("|").split("|")]
+                if len(cols) >= 3:
+                    c0 = cols[0]
+                    low0 = c0.lower()
+                    if (not c0 or c0.isdigit() or re.fullmatch(r"[-:\s]+", c0)
+                            or low0 in ("phrase", "#", "id", "row")
+                            or low0.startswith("retracted phrase")):
+                        continue
+                    # Same load-bearing distinction as FORMAT 2: skip rows that retract only a reading.
+                    if re.search(r"(?:\u2014|--|-)\s*read\s+(?:as|of)\b", c0, re.I):
+                        continue
+                    cleaned = re.sub(r"\s*\([^()]*\)\s*$", "", c0).strip().strip("`").strip()
+                    if len(cleaned) >= 8:
+                        out.append(cleaned)
     return out
 
 

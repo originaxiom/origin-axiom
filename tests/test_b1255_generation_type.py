@@ -35,7 +35,10 @@ def test_the_S3_verdict_can_fail():
 
 def test_the_dimension_count_that_closes_the_single_27_route():
     """27 = 16+10+1 carries the 16 with multiplicity one; 3 copies need 48 > 27."""
-    assert 16 + 10 + 1 == 27 and 3 * 16 > 27
+    so10_branching = (16, 10, 1)
+    dim_27 = sum(so10_branching)
+    three_spinors = 3 * so10_branching[0]
+    assert dim_27 == 27 and three_spinors == 48 and three_spinors > dim_27
 
 
 def _ledger_rows():

@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1580** |
-| words of findings prose | **1,364,789** |
-| test lock files referenced | **940** |
-| arcs carrying an authored verdict | **1580** (100.0 %) |
+| research arcs with findings | **1581** |
+| words of findings prose | **1,365,981** |
+| test lock files referenced | **941** |
+| arcs carrying an authored verdict | **1581** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1089 |
+| PROVED | 1090 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1878`** (1444 words, 2 locks)  
-THE GOAL AS THE OWNER RULED IT, CARRIED INTO THE GOVERNING DOCUMENTS; TWO GATES (the first landing of P-767: rulings R1 and R3 of the eleven confirmed to main on 2026-11-10; nothing computed, no status of the foundation changed): GOVERNANCE.md now states that the programme's only goal is a parameter-free theory of everything, the sentence it replaces kept with a dated note; the ceiling is unchanged -- a goal says what is sought, and no page may say or imply that a value or the Standard Model has been derived; its label 'derives the form' is brought down to the foundation's statuses and 'closed disjoint' is read as a record of the routes tested; the claims ledger's open targets are what the goal consists of, still open; the anchor doctrine's dimensionless frame anchor is a debt to be removed and not a standing licence. One document governs (the audit's X2): GOVERNANCE.md, with GENESIS.md holding on the status of every item of the foundation by its delegation. A new gate, arrival-phrases, reads the living pages for a sentence of arrival with a window for a denial, a condition or a statement of aim, three old lines frozen; the audit's own planted sentence on the front page is refused. The attribution gate now reads every commit message after da25c4f49, the last that carried a vendor's name or a co-author trailer: 695 commits pass, and a trailer, a vendor's name and a foreign author, each committed in a small repository, are refused. The foundation's own entries are the next landing. 0 of 19.  
-`B1878_the_goal_as_ruled_in_the_governing_documents/FINDINGS.md`
+**PROVED — `B1879`** (1192 words, 2 locks)  
+RE-AUDIT 2 AND RE-AUDIT 3 ENFORCEMENT CLOSURE, REVIEW 78 APPEND-ONLY FIXES, THE JTHETA SWEEP COMPLETED, AND SUITE REPAIRS (P-154 and P-670 closed; P-772 (b)(c)(d)(f) and Re-Audit 3 t3, t4, t7, j4 and leaf-PV14 paid on main; bookkeeping and instruments only): artifact-hashes hardened against decoy shadowing via canonical root resolution and AMBIGUOUS refusal (t3), frozen broken-script re-edits via disk SHA-256 locks (t4), and secondary seal hash lists such as SEAL_SHA256.txt across 79 matched lists and 266 entries with history immutability (t7, docs/OTHER_HASH_LISTS.md); closure-programme builder rule 21 checks ACCEPTED verdicts against REAUDIT_2_2026-11-10.md and BEARS_ON adds B734 on E2, B1849/B1850 on L6, and B1840/B1841 on V4 (j4); append-only extended to docs/progress archives (a1) plus Review 78 reader fixes checking header text before the first dated heading on roll-ups, requiring a roll-up's archive to be added/modified in that commit, and locking log deletion, log rename, and module-level waivers; recursive seal discovery across PREREG*, *DESIGN*.md, SEALED*.md, DECLARATION.md, PRE_RUN_NOTE*.md and *RULE.md (474 files; s2, s3) and strict seal-before-record enforcement (s4); git-dependent and baseline gates plus leaf arc_verdict.json JSON validation made fail-closed (PV9-PV15, PV22, leaf-PV14); AST skip/vacuity checks on GATE_CONTROLS.json (PV16), third table format in retraction_sweep.py raising active phrases to 47 (PV17, P-154), frozen per-file attribution ceiling (PV19), PROVEN lock check in claims and case-insensitive .tex scan in framing (PV20, PV21), pure-literal test refusal across 6400+ tests with 19 historical tests upgraded (PV24), AST constant-propagation in tracked-deps (p2), THE_SM_VERDICT.md updated to 24 ROWS OUTSTANDING so the_price_is_twelve.py exits 0 (X3 first half), B1464/B1690 made read-only without --write (L10), B1849/B1850 float locks made numerical < 1e-12 (L6), and all 101 jtheta Python files swept with B1678 s5_theta.py upgraded to quarter-nome analytic_jtheta (P-670). 0 of 19.  
+`B1879_reaudit3_enforcement_and_p670_closure/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  

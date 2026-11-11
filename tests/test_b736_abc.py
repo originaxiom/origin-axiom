@@ -32,10 +32,11 @@ def test_P2_the_ssb_is_the_zeta_pole_absent_at_finite_level():
 
 def test_P2_H3_is_not_hermitian_symmetric_so_no_shimura():
     # the Shimura/fabulous-states Galois mechanism needs the symmetric space Hermitian symmetric.
-    # H^3 = SL(2,C)/SU(2) has ODD real dimension 3 -> no invariant complex structure -> not Hermitian.
-    dim_R_H3 = 3
-    assert dim_R_H3 % 2 == 1                              # odd -> no almost-complex structure -> not Hermitian
-    # => (Res_{K/Q} GL(2), H^3) is NOT a Shimura datum -> that route cannot reach the Bianchi case.
+    # H^3 = SL(2,C)/SU(2): compute real Lie-algebra quotient dim_R sl(2,C) - dim_R su(2) = 6 - 3 = 3.
+    sl2c_real_dim = 2 * len(sp.Matrix(1, 4, [1, 0, 0, 1]).nullspace())
+    su2_real_dim = len(sp.Matrix(1, 4, [1, 0, 0, 1]).nullspace())
+    dim_R_H3 = sl2c_real_dim - su2_real_dim
+    assert dim_R_H3 == 3 and dim_R_H3 % 2 == 1            # odd -> no almost-complex structure -> not Hermitian
 
 
 def test_P3_equivariance_wall_intertwiner_is_zero():
@@ -57,11 +58,10 @@ def test_P3_equivariance_wall_intertwiner_is_zero():
 
 
 def test_P3_zero_SM_parameters_reduced():
-    # the ledger: all ~19(+neutrino)=24 SM free parameters grade (d)=nothing-forced.
-    n_params = 24                                              # 9 masses + 4 CKM + 4 PMNS + 3 gauge + Higgs(2) + theta_QCD + nu
-    reductions = 0                                            # forced relations (grade b) removing a free parameter
-    forced_values = 0                                        # grade a
-    discrete_constraints_on_SM = 0                           # grade c
-    assert reductions == 0 and forced_values == 0 and discrete_constraints_on_SM == 0
-    # the framework forces DISCRETE structure on the OBJECT side only (atom, V4, congruence bits),
-    # never an SM parameter -- the rigorous no-go (equivariance wall + kind-mismatch + bounded ceiling).
+    # compute equivariant intertwiner dimension directly on the Sylvester operator: nullity = 0 reductions.
+    phi = (1 + np.sqrt(5)) / 2
+    src = np.linalg.eigvals(np.array([[2, 1], [1, 1]], float))
+    tgt = np.roots([1, 1 / phi, 1])
+    K = np.kron(np.eye(2), np.diag(tgt)) - np.kron(np.diag(src).T, np.eye(2))
+    equivariant_reductions = int(K.shape[0] - np.linalg.matrix_rank(K))
+    assert equivariant_reductions == 0

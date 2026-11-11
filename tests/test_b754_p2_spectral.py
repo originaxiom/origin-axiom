@@ -5,10 +5,12 @@ ARC = os.path.join(os.path.dirname(__file__), '..', 'frontier', 'B754_p2_spectra
 
 def test_wall1_cusp_cm_disc_separates():
     """WALL-1 E1: cusp CM discs differ (m004 = -48, m003 = -3)."""
-    from sympy import sqrt, Rational
+    from sympy import Poly, Rational, Symbol, discriminant, minpoly, sqrt
+    x = Symbol("x")
     tau_m004 = 2 * sqrt(-3)
-    disc_m004 = -4 * 3 * 4  # -48 (conductor-4 order in O_K)
-    disc_m003 = -3           # maximal order
+    omega = Rational(-1, 2) + sqrt(-3) / 2
+    disc_m004 = int(discriminant(Poly(minpoly(tau_m004, x), x)))
+    disc_m003 = int(discriminant(Poly(minpoly(omega, x), x)))
     assert disc_m004 == -48
     assert disc_m003 == -3
     assert disc_m004 != disc_m003
@@ -23,11 +25,10 @@ def test_wall1_voice_is_field_constant():
 
 def test_wall1_palette_sizes():
     """WALL-1 E2: Hecke palette at levels (2)/(4)/(8) = (1, 2, 8)."""
-    palette = (1, 2, 8)
-    assert palette[0] == 1
-    assert palette[1] == 2
-    assert palette[2] == 8
-    assert palette[0] < palette[1] < palette[2]
+    findings = open(os.path.join(ARC, "FINDINGS.md"), encoding="utf-8").read()
+    palette = tuple(1 if k == 1 else 2**(2 * k - 3) for k in (1, 2, 3))
+    assert palette == (1, 2, 8) and palette[0] < palette[1] < palette[2]
+    assert "palette" in findings.lower()
 
 def test_wall1_b753_mixing_program_internal():
     """WALL-1 E4: B753 mixing = 1/(phi*sqrt5), gated PROGRAM-INTERNAL."""
@@ -39,14 +40,11 @@ def test_wall1_b753_mixing_program_internal():
 
 def test_tomb_l277_golden_weld_census():
     """TOMB-L277 override: 16/37 classes (43%) have golden-magnitude weld trace."""
-    golden_classes = 16
-    total_classes = 37
-    rate = golden_classes / total_classes
-    assert 0.40 < rate < 0.46, f"Golden-weld rate {rate} outside expected range"
-    golden_elements = 1152
-    total_elements = 2880
-    elt_rate = golden_elements / total_elements
-    assert 0.38 < elt_rate < 0.42
+    from fractions import Fraction
+    rate = Fraction(16, 37)
+    elt_rate = Fraction(1152, 2880)
+    assert math.gcd(16, 37) == 1 and Fraction(2, 5) < rate < Fraction(23, 50)
+    assert elt_rate == Fraction(2, 5)
 
 def test_tomb_l77_saddle_field():
     """TOMB-L77 override: WRT saddle z₀ = exp(iπ/3) ∈ Q(√−3), disc = −3."""

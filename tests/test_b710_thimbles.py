@@ -22,5 +22,12 @@ def test_frw_quartic_four_complex_saddles():
     assert all(abs(sp.im(r)) > 1e-9 for r in roots) or any(abs(sp.im(r)) > 1e-9 for r in roots)
 
 def test_orbit_counts_differ():
-    # the discriminating skeleton fact: mod-conjugation orbit count 1 (fig-8) vs 2 (FRW)
-    assert 1 != 2
+    # mod-sign/conjugation magnitude-imag orbit count: 1 real pair (fig-8) vs 2 distinct conjugate pairs (FRW)
+    mp.mp.dps = 30
+    Vol = 2 * mp.im(mp.polylog(2, mp.e**(1j * mp.pi / 3)))
+    fig8_orbits = {(round(float(abs(mp.re(s))), 8), round(float(abs(mp.im(s))), 8)) for s in (Vol, -Vol)}
+    N = sp.symbols('N')
+    A, B, C = sp.Rational(3)**2/36, 3 - sp.Rational(3)*(0+2)/2, -sp.Rational(3)*(2-0)**2/4
+    roots = sp.nroots(sp.expand(3*A*N**4 + B*N**2 - C), n=30)
+    frw_conj_orbits = {(round(float(sp.re(r)), 6), round(float(abs(sp.im(r))), 6)) for r in roots}
+    assert len(fig8_orbits) == 1 and len(frw_conj_orbits) == 2 and len(fig8_orbits) != len(frw_conj_orbits)

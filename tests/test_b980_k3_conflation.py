@@ -25,7 +25,8 @@ def test_G_Lambda_is_dimensionless_only_in_four_dimensions():
 
 def test_the_three_dimensional_ratio_is_ell_over_G():
     """Witten eq 2.2: k_L + k_R = ell/(8G); dimensionless because [G_3] = L^1."""
-    assert (3 - 2) + (-1) == 0, "G_3 * sqrt|Lambda| must be dimensionless"
+    dim_G = lambda d: d - 2
+    assert dim_G(3) + (-1) == 0 and dim_G(4) + (-1) != 0, "G_3 * sqrt|Lambda| must be dimensionless in d=3 only"
 
 
 def test_the_algebra_was_never_wrong():

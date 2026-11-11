@@ -4911,30 +4911,6 @@
   "weave_or_thread": "n/a"
  },
  {
-  "id": "P:154",
-  "layer": "15 debts",
-  "kind": "debt",
-  "grade": "DEBT",
-  "text": "The retraction sweep never reads RETRACTED_PHRASES' 2026-10-07 and 2026-10-08 tables (hand-swept clean at S297).",
-  "pins": [
-   [
-    "docs/POINT_REGISTER.md",
-    ". P-154 — "
-   ]
-  ],
-  "rows": [
-   "P-154"
-  ],
-  "arcs": [],
-  "note": "",
-  "rank": 43,
-  "debt_class": "a check that cannot fail, an instrument or a seal claim under a banked result",
-  "rows_live": {
-   "P-154": "QUEUED"
-  },
-  "weave_or_thread": "n/a"
- },
- {
   "id": "P:155",
   "layer": "15 debts",
   "kind": "debt",
@@ -6323,30 +6299,6 @@
   "debt_class": "added by B1833 (S300; the brainstorms re-read)",
   "rows_live": {
    "P-653": "QUEUED"
-  },
-  "weave_or_thread": "n/a"
- },
- {
-  "id": "P:670",
-  "layer": "15 debts",
-  "kind": "debt",
-  "grade": "DEBT",
-  "text": "the F_a evaluator is wrong by a phase for Re τ ≥ 1; any banked evaluation outside the strip rests on it.",
-  "pins": [
-   [
-    "docs/POINT_REGISTER.md",
-    ". P-670 — "
-   ]
-  ],
-  "rows": [
-   "P-670"
-  ],
-  "arcs": [],
-  "note": "",
-  "rank": 74,
-  "debt_class": "added by B1833 (S300; the brainstorms re-read)",
-  "rows_live": {
-   "P-670": "QUEUED"
   },
   "weave_or_thread": "n/a"
  },

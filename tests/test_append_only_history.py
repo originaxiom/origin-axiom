@@ -165,5 +165,5 @@ def test_without_a_repository_no_gate_prints_a_bare_ok(tmp_path):
     assert lines["FAIL  append-only"].strip().startswith("FAIL  append-only: cannot verify")
     for gate in ("attribution", "tracked-forbidden", "log-changelog-paired"):
         hit = [l for k, l in lines.items() if k.endswith("  " + gate)]
-        assert len(hit) == 1 and hit[0].strip().startswith("SKIP") and "skipped" in hit[0], (gate, hit)
+        assert len(hit) == 1 and hit[0].strip().startswith("FAIL") and "cannot verify" in hit[0], (gate, hit)
     assert not any(l.strip() == "PASS  %s: ok" % g for l in out.splitlines() for g in ("attribution", "tracked-forbidden", "log-changelog-paired", "append-only"))

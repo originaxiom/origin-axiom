@@ -11,7 +11,9 @@ class TestUnmovednessTheorem:
         assert all((g ^ v ^ g) == v for g in range(8) for v in V4)
 
     def test_aut_v4_is_s3(self):
-        assert (4 - 1) * (4 - 2) == 6  # |GL(2,F2)|
+        gl2_f2 = [(a, b, c, d) for a in (0, 1) for b in (0, 1)
+                  for c in (0, 1) for d in (0, 1) if (a * d - b * c) % 2 == 1]
+        assert len(gl2_f2) == 6  # |GL(2,F2)| = |Aut(V4)| = |S3|
 
 
 class TestFrameTorsor:

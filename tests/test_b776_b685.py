@@ -20,7 +20,8 @@ def test_r7_exact_and_v5_plateau():
 
 def test_symprod_trajectory_to_anchor():
     # the symmetrised product is pure-3 through order 50 at 3^73; on the linear line to 3^146@100
-    assert 73 * 2 == 146  # 3^73 @ order 50 -> 3^146 @ order 100 (B685's anchor)
+    slope = sp.Rational(73, 50)
+    assert int(slope * 100) == 146  # 3^73 @ order 50 -> 3^146 @ order 100 (B685's anchor)
 
 
 def test_symprod_anchor_reproduced_through_105():

@@ -20,8 +20,9 @@ def test_rung4_single_ratios_are_hints_only():
 
 def test_monodromy_is_hyperbolic_not_a_bang():
     # sigma = [[2,1],[1,1]] : tr=3>2 pseudo-Anosov (suspension flow), not a CPT gluing
-    tr = 2 + 1
-    det = 2 * 1 - 1 * 1
+    import sympy as sp
+    sigma = sp.Matrix([[2, 1], [1, 1]])
+    tr, det = int(sigma.trace()), int(sigma.det())
     assert tr == 3 and tr > 2 and det == 1
 
 def test_two_zz2_have_opposite_canonicity():

@@ -219,15 +219,15 @@
 | P-739 | QUEUED | THE TUBE'S τ BEYOND k = 1, ON MAIN |
 | P-744 | QUEUED | THE READ-OUT BY A STATE ON THE HYPERBOLIC METRIC |
 
-## The register's open debts, by class (81)
+## The register's open debts, by class (79)
 
 | class | debts | the first by load |
 |---|---|---|
 | bears on current work: the strip candidate (P-585), the live prediction P10, or B1825's own machinery | 16 | P-355: B1829 candidate family P-585 (and B1742 order-5 rows) rest on the c=3 / D=9 identity, which is Georgi-Jarlskog by construction and sits 3-14 sigma fro |
 | a false or stale statement in a foundation or front document | 18 | P-589: Corrections that reached their arcs but not the law map: 20 rows fixed at S297; owed the eight member-scope addenda and the same screen over GENESIS a |
-| a check that cannot fail, an instrument or a seal claim under a banked result | 13 | P-605: GENESIS v1.12 (l. 481) and COSMOLOGY_LEDGER row 4 call checked work unchecked (B1208 LEG 4). |
+| a check that cannot fail, an instrument or a seal claim under a banked result | 12 | P-605: GENESIS v1.12 (l. 481) and COSMOLOGY_LEDGER row 4 call checked work unchecked (B1208 LEG 4). |
 | an unverified premise or seat result under a banked structural result | 23 | P-156: B1606/B1652's D2 ±3 index rests on the end condition and dim Λ+ - 3. |
-| added by B1833 (S300; the brainstorms re-read) | 4 | P-653: GENESIS's foundation lock has never been tested as a whole (L240 (h)); its swept page of what the record lacks (g) dropped from the carry. |
+| added by B1833 (S300; the brainstorms re-read) | 3 | P-653: GENESIS's foundation lock has never been tested as a whole (L240 (h)); its swept page of what the record lacks (g) dropped from the carry. |
 | added at S305 (the closure prepared) | 3 | P-688: the confirmation cards (P-585, P-638) cannot be sealed the day B1839 passes without the frozen-row instrument at the exact end, the PMNS card's owed c |
 | added at S306k (the web seat's open-book relay) | 1 | P-733: B1010's consolidation list cites B132's 'm = 1 uniquely coherent', computed under a same-handed convention whose m = 1 word is not LR. |
 | added at S306o (the advisor seat's audit, 2026-11-10) | 1 | P-757: the gates, seals and locks under every banked result: 24 of the audit's 27 planted violations pass undetected on main, the two it grades critical amon |

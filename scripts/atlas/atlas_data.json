@@ -16237,6 +16237,29 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1879": {
+   "slug": "reaudit3 enforcement and p670 closure",
+   "motifs": [
+    "measurement",
+    "closing",
+    "figure_eight",
+    "torsion"
+   ],
+   "refs": [
+    "B734",
+    "B967",
+    "L10",
+    "L4",
+    "L6",
+    "L7",
+    "S305",
+    "V4"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B187": {
    "slug": "interacting open collective",
    "motifs": [

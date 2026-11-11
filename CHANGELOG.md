@@ -1,5 +1,21 @@
 # Changelog
 
+## S306q RE-AUDIT 2 AND RE-AUDIT 3 ENFORCEMENT CLOSURE, REVIEW 78 APPEND-ONLY FIXES, THE JTHETA SWEEP COMPLETED, AND SUITE REPAIRS (B1879; P-154, P-670, P-772, P-757) (2026-11-11)
+
+- **Harvested from the advisor seat (`6ab74390`):** its third re-audit (`REAUDIT_3_2026-11-11.md`), `reaudit3/plants.py` (16 cases), and the leaf-`arc_verdict.json` update to `planted_violations.py` (`PV14`), recorded as harvest row 1671 and in `docs/RELAY_LEDGER.md`.
+- **`Re-Audit 3` residuals closed (`t3, t4, t7, j4` and leaf `PV14`):**
+  - `t3` (decoy shadowing): `artifact-hashes` resolves top-level repository paths strictly from the root and refuses bare/relative names that match more than one tracked candidate (`AMBIGUOUS`).
+  - `t4` (re-editing a frozen broken script): pre-existing `MISMATCH` entries frozen by key are also pinned to their exact SHA-256 on disk at `015be0cc7`, refusing any second edit (`MODIFIED AFTER FREEZE`).
+  - `t7` (secondary seal hash lists): all tracked `<sha256>  <path>` lists outside `ARTIFACT_HASHES*.txt` are measured (`docs/OTHER_HASH_LISTS.md`: 79 matched lists, 266 entries — 126 verify, 140 historical mismatches frozen) and enforced with history immutability from `015be0cc7`, catching `SEAL_SHA256.txt`.
+  - `j4` and `BEARS_ON` (`B1861`): Rule 21 in `build_programme.py` checks `ACCEPTED` against `REAUDIT_2_2026-11-10.md` at `e7703f2ec`; `BEARS_ON` adds `B734` and `tests/test_b734_m004_congruence.py` on `E2`, `B1849`/`B1850` on `L6`, and `B1840`/`B1841` on `V4`.
+  - Leaf `PV14`: both `arc-verdicts` and `arc-data` parse every `arc_verdict.json` (including leaf arcs with no dependents) and fail closed on corrupt JSON.
+- **`P-772(b)(c)(d)(f)`, `Review 78` reader additions, and `P-757` gates (`PV9–PV24, p2`):**
+  - `append-only` (`G1 / a1`, `P-772(d)`): extended to `docs/progress/PROGRESS_*.md` archives after `015be0cc7`; roll-ups verify header text before the first dated heading and require the archive file to be added or modified in that commit; committed log deletion, log rename, and module-level `APPEND_ONLY_WAIVED` are locked.
+  - `seal-immutable` / `seal-order` (`G2 / s2, s3`, `G4 / s4`): recursive discovery across `PREREG*`, `*DESIGN*.md`, `SEALED*.md`, `DECLARATION.md`, `PRE_RUN_NOTE*.md`, and `*RULE.md` (`474` files) and strict seal-before-record enforcement.
+  - Fail-closed git/baseline checks (`PV9–PV15, PV22`), AST skip/vacuity checks on `GATE_CONTROLS.json` (`PV16`), Format-3 parsing in `retraction_sweep.py` (`47` active phrases; `P-154` closed), inline `ATTRIBUTION_CEILING` (`PV19`), `CLAIMS.md` `Proven` lock check and case-insensitive `.tex` framing scan (`PV20, PV21`), pure-literal test refusal across `6 400+` tests (`PV24`), and AST constant propagation in `tracked-deps` (`p2`).
+- **Suite repairs and `P-670` closed (`DONE`):** `docs/THE_SM_VERDICT.md` updated to `24 ROWS OUTSTANDING` so `the_price_is_twelve.py` exits `0` (`X3` first half; `test_b1873` updated with a dated note); `B1464` and `B1690` made read-only without `--write` (`L10`); `B1849` and `B1850` residual locks made numerical `< 1e-12` (`L6`); all `101` `jtheta` Python files swept with `B1678`'s `s5_theta.py` upgraded to holomorphic quarter-nome `analytic_jtheta` and verified at $\operatorname{Re}(2\tau) > 1$ (`P-670`). 15 locks (`tests/test_b1879_reaudit3_and_enforcement.py`).
+- 0 of 19.
+
 ## S306p THE GOAL AS THE OWNER RULED IT, IN THE GOVERNING DOCUMENTS; TWO GATES (B1878; P-767's first landing); THE SIX ARCS WHOSE SEALED SCRIPTS CHANGED, READ (P-772) (2026-11-11)
 
 - **The goal (the owner's first ruling of the eleven).** `GOVERNANCE.md` now says: the programme's only goal is a parameter-free theory of everything. The sentence it replaces, "The goal is not a theory of everything", is kept, with a dated note beside it.

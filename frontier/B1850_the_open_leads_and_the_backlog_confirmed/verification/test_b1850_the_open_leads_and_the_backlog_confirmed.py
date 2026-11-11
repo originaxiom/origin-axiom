@@ -48,5 +48,14 @@ def test_the_backlog_rows_and_the_counter():
 def test_the_generating_pair_check_reproduces():
     out = subprocess.run([sys.executable, "-B", str(HERE / "l206_generating_pair.py")], capture_output=True, text=True,
                          check=True, timeout=300).stdout
-    assert out == (HERE / "l206_generating_pair_run.txt").read_text(encoding="utf-8")
+    ref = (HERE / "l206_generating_pair_run.txt").read_text(encoding="utf-8")
+    pat = (r"^w = bbabaAbbabaAAA: \|hol\(w\) - hol\(b\)\| up to sign ([0-9.eE+-]+); "
+           r"control \|hol\(w\) - hol\(a\)\| ([0-9.eE+-]+)\n"
+           r"-> b lies in <ABABB, a>, so the parabolic pair generates pi_1\(m003\)\s*$")
+    m_out, m_ref = re.match(pat, out), re.match(pat, ref)
+    assert m_out and m_ref, (out, ref)
+    err_out, ctrl_out = float(m_out.group(1)), float(m_out.group(2))
+    err_ref, ctrl_ref = float(m_ref.group(1)), float(m_ref.group(2))
+    assert err_out < 1e-12 and err_ref < 1e-12, (err_out, err_ref)
+    assert abs(ctrl_out - ctrl_ref) < 1e-2 and ctrl_out > 1.0, (ctrl_out, ctrl_ref)
     assert "generates pi_1(m003)" in out

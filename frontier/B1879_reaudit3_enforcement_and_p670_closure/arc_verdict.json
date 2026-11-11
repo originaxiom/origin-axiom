@@ -1,0 +1,36 @@
+{
+ "id": "B1879",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1878",
+  "B1877",
+  "B1874",
+  "B1873",
+  "B1865",
+  "B1864",
+  "B1863",
+  "B1862",
+  "B1861",
+  "B1838",
+  "B1464",
+  "B967"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the advisor seat's planted-violation suites and second and third re-audits (planted_violations.py @ 701d12ff7 and leaf-PV14 update @ 6ab743907; REAUDIT_2_2026-11-10.md and further_plants.py @ d59e36d8; REAUDIT_3_2026-11-11.md and reaudit3/plants.py @ 6ab743907): all remaining uncaught planted cases reproduced and closed by gate refusals, programme builder rule 21, and unit locks; per B1874 rule 20, findings read in REAUDIT_2 stay marked for the seat's re-read"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (repository enforcement gates, seal provenance, closure-programme builder, test locks, and holomorphic Jacobi theta evaluators)",
+  "object": "the 52 repository gates in scripts/gates/gates.py; 474 recursive sealed-style files; 189 ARTIFACT_HASHES*.txt lists and 79 secondary seal hash lists; 47 retracted phrases across tracked files; 6400+ test functions; 101 tracked Python files calling jtheta",
+  "reach": "general",
+  "hypotheses": "historical pre-015be0cc7 exceptions are frozen by explicit path, disk SHA-256, or per-file ceiling and may only shrink; no Standard Model datum or held-out target is touched"
+ },
+ "claim_one_line": "RE-AUDIT 2 AND RE-AUDIT 3 ENFORCEMENT CLOSURE, REVIEW 78 APPEND-ONLY FIXES, THE JTHETA SWEEP COMPLETED, AND SUITE REPAIRS (P-154 and P-670 closed; P-772 (b)(c)(d)(f) and Re-Audit 3 t3, t4, t7, j4 and leaf-PV14 paid on main; bookkeeping and instruments only): artifact-hashes hardened against decoy shadowing via canonical root resolution and AMBIGUOUS refusal (t3), frozen broken-script re-edits via disk SHA-256 locks (t4), and secondary seal hash lists such as SEAL_SHA256.txt across 79 matched lists and 266 entries with history immutability (t7, docs/OTHER_HASH_LISTS.md); closure-programme builder rule 21 checks ACCEPTED verdicts against REAUDIT_2_2026-11-10.md and BEARS_ON adds B734 on E2, B1849/B1850 on L6, and B1840/B1841 on V4 (j4); append-only extended to docs/progress archives (a1) plus Review 78 reader fixes checking header text before the first dated heading on roll-ups, requiring a roll-up's archive to be added/modified in that commit, and locking log deletion, log rename, and module-level waivers; recursive seal discovery across PREREG*, *DESIGN*.md, SEALED*.md, DECLARATION.md, PRE_RUN_NOTE*.md and *RULE.md (474 files; s2, s3) and strict seal-before-record enforcement (s4); git-dependent and baseline gates plus leaf arc_verdict.json JSON validation made fail-closed (PV9-PV15, PV22, leaf-PV14); AST skip/vacuity checks on GATE_CONTROLS.json (PV16), third table format in retraction_sweep.py raising active phrases to 47 (PV17, P-154), frozen per-file attribution ceiling (PV19), PROVEN lock check in claims and case-insensitive .tex scan in framing (PV20, PV21), pure-literal test refusal across 6400+ tests with 19 historical tests upgraded (PV24), AST constant-propagation in tracked-deps (p2), THE_SM_VERDICT.md updated to 24 ROWS OUTSTANDING so the_price_is_twelve.py exits 0 (X3 first half), B1464/B1690 made read-only without --write (L10), B1849/B1850 float locks made numerical < 1e-12 (L6), and all 101 jtheta Python files swept with B1678 s5_theta.py upgraded to quarter-nome analytic_jtheta (P-670). 0 of 19.",
+ "weave_or_thread": "neither (a process and instrument arc)"
+}

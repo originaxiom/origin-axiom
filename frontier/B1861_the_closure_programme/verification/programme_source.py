@@ -266,7 +266,7 @@ DEBT_TO_WP = {
     "P-643": "WP-0.1",   # a front document states pre-registered successors the record did not take
     "P-733": "WP-0.1",   # a consolidation list cites a uniqueness computed under another convention
     "P-653": "WP-0.3",   # the foundation lock has never been tested as a whole
-    "P-670": "WP-0.3",   # an evaluator wrong by a phase outside the strip
+    # P-670 closed in B1879 (2026-11-11)
     "P-687": "WP-0.2",   # the end card's census rests on an unproved cache and has no third opinion
     "P-688": "WP-0.2",   # the confirmation cards cannot be sealed without three owed instruments
     "P-646": "WP-0.4",   # a banked arc consumes a bridge artifact owed since August
@@ -519,12 +519,12 @@ FINDINGS["X4"]["wp"] = "WP-0.11"      # closes with the declared domain
 # finding that names nothing, and holds every package with a REPOSITORY finding upstream of the sealed card.
 REPO = "REPOSITORY"
 BEARS_ON = {
-    "E1": ["B997"], "E2": ["docs/THEOREM_LEDGER.md"], "E3": ["B1856", "B1853", "B1855", "B1857", "docs/THE_TAU_READOUT_RULE.md"],
+    "E1": ["B997"], "E2": ["docs/THEOREM_LEDGER.md", "B734", "tests/test_b734_m004_congruence.py"], "E3": ["B1856", "B1853", "B1855", "B1857", "docs/THE_TAU_READOUT_RULE.md"],
     "E4": ["B952"], "E5": ["B892"], "E6": ["B862"], "E7": ["B1028"], "E8": ["B854"], "E9": ["B1854"], "E10": ["README.md"],
     "E11": ["docs/LITERATURE_CONTEXT_2026-07-15.md", "CLAIMS.md"], "E12": ["B884", "B915", "B1852", "B1853", "B1857"], "E13": ["B567"],
     "G1": [REPO], "G2": [REPO], "G3": [REPO], "G4": [REPO], "G5": [REPO], "G6": [REPO], "G7": [REPO], "G8": [REPO], "G9": [REPO],
     "G10": [REPO], "G11": [REPO], "G12": [REPO], "G13": [REPO], "G14": [REPO],
-    "L1": [REPO], "L2": [REPO], "L3": ["docs/THEOREM_LEDGER.md", "B730", "B1096"], "L4": ["B1854"], "L5": ["B1847"], "L6": [REPO],
+    "L1": [REPO], "L2": [REPO], "L3": ["docs/THEOREM_LEDGER.md", "B734", "B730", "B1096"], "L4": ["B1854"], "L5": ["B1847"], "L6": [REPO, "B1849", "B1850"],
     "L7": [REPO], "L8": ["B866", "B892", "B952"], "L9": [REPO], "L10": [REPO, "B1464", "B1690"],
     "M1": [REPO], "M2": ["G:ROOT", "docs/UNIQUENESS_THEOREM.md", "docs/THE_CLAIM.md"], "M3": ["G:ROOT"], "M4": ["docs/THEOREM_LEDGER.md"],
     "M5": ["TAG:LAMBDA", "GENESIS.md", "docs/THE_WEAVE.md"], "M6": ["B1221", "papers/P3_THE_PAPER/SPEC.md"], "M7": ["B1855"], "M8": ["B1850"],
@@ -533,7 +533,7 @@ BEARS_ON = {
     "P2": ["docs/POINT_REGISTER.md"], "P3": ["B861", "B862", "B863", "B994", "B1028"], "P4": ["B653", "B723", "CLAIMS.md"],
     "P5": ["docs/THE_TAU_READOUT_RULE.md"], "P6": ["docs/INDEX.md"], "P7": [REPO],
     "R1": [REPO], "R2": [REPO],
-    "V1": [REPO, "V:SIX", "B1726", "B1753"], "V2": [REPO, "V:SIX", "B1720", "B1735"], "V3": [REPO, "B1757"], "V4": [REPO, "V:SIX"],
+    "V1": [REPO, "V:SIX", "B1726", "B1753"], "V2": [REPO, "V:SIX", "B1720", "B1735"], "V3": [REPO, "B1757"], "V4": [REPO, "V:SIX", "B1840", "B1841"],
     "V5": [REPO, "docs/LOOK_LEDGER.md", "B1658", "B1724"],
     "W1": [REPO], "W2": [REPO], "W3": ["TERMINOLOGY.md"], "W4": [REPO], "W5": ["B1291"], "W6": ["W:LAW"], "W7": ["W:CLOCK"],
     "X1": ["GOVERNANCE.md", "CLAIMS.md"], "X2": ["GOVERNANCE.md", "GENESIS.md", "CLAIMS.md"],
@@ -578,6 +578,24 @@ U("G9", "FIXED", "B1878: the attribution gate reads every commit message on the 
 SINCE_REAUDIT["E3"] = ("B1877", "the correction carried to B1853, B1855, B1857 and the read-out rule's page, as the re-audit asked, and to B1856's verdict line and the register's row P-738; a lock that fails wherever the old form stands unmarked")
 SINCE_REAUDIT["E4"] = ("B1877", "'commuting' carried to B952's verdict line, its results file and the requirements ledger, where the reader of Review 78 found the lemma uncorrected")
 SINCE_REAUDIT["E8"] = ("B1877", "the scope carried to the verdict block at the top of B854's findings")
+# B1879 (2026-11-11): RE-AUDIT 3 RESIDUALS, PLANTED-VIOLATION CLOSURES (PV9..PV22, PV24), P-154 AND P-670.  As in B1878,
+# "FIXED" is main's word and the builder lists each newly fixed finding as fixed and not yet re-audited.
+U("G5", "FIXED", "B1879: all ten git-dependent gates fail closed without .git (PV9), and missing IDENTIFICATION_BASELINE.json (PV10), RETRACTED_PHRASES.md (PV11), tests/test_b*.py (PV12), or emptied LAW_MAP.md / THEOREM_LEDGER.md (PV13) all fail closed")
+U("G6", "FIXED", "B1879: relay-debt, harvest-debt, lead-debt and point-debt pin their reference date to HEAD's commit date via _debt_git_env (PV15), so identical commits never turn red as wall-clock days pass")
+U("G7", "FIXED", "B1879: gate-controls parses every registered test AST and refuses skipped, xfailed, no-assert or tautologous control functions (PV16)")
+U("G8", "FIXED", "B1879: retraction_sweep parses Format-3 unquoted first-cell rows (P-154, PV17), sweeping all 29 active rows of docs/RETRACTED_PHRASES.md")
+U("G9", "FIXED", "B1878 + B1879: commit messages on the first-parent line after da25c4f49 are checked (PV18, B1878), and ATTRIBUTION_CEILING freezes the per-file token ceiling inside gates.py so raising docs/ATTRIBUTION_BASELINE.json cannot forgive added vendor tokens (PV19, B1879)")
+U("G10", "FIXED", "B1879: gate_claims requires every PROVEN row in CLAIMS.md to cite a tests/*.py lock (PV20), and gate_framing scans .tex files and matches banned phrases case-insensitively (PV21)")
+U("G13", "FIXED", "B1879: _debt_git_env fails closed on shallow clones (`git rev-parse --is-shallow-repository == true`) with an explicit shallow-clone message (PV22)")
+U("G14", "FIXED", "B1879: gate_arc_data fails closed on `unreadable verdict files`, catching truncated or invalid leaf arc_verdict.json files that no other arc depends on (re-audit 3's corrected PV14)")
+U("L4", "PARTLY FIXED", "B1879: _ast_file_relative_refs tracks multi-step constant path bindings (`SUB = HERE / ...; p = SUB / ...`) against git check-ignore (re-audit 2's p2). Left, as before: B1854's lock reads committed transcripts rather than re-running multi-hour drivers")
+U("L6", "FIXED", "B1879: B1849's and B1850's locks parse printed floats numerically (`pytest.approx(..., abs=1e-12)`) rather than comparing rounded decimal strings")
+U("L7", "FIXED", "B1879: check_test_vacuity treats both-literal assertions (`assert 1 != 2`) as a hard failure (PV24), and the 19 legacy literal-only tests in tests/test_b*.py are upgraded to recomputing assertions")
+U("L10", "FIXED", "B1879: seal_census.py and B1690's main_w81_w83.py write tracked artifacts only when `--write` is passed, so running the test suite leaves `git status` clean")
+U("X3", "PARTLY FIXED", "B1879: outside_bench/certificates/the_price_is_twelve.py now exits 0 ('24 ROWS OUTSTANDING' recorded on docs/THE_SM_VERDICT.md) and is locked by tests/test_b1879_reaudit3_and_enforcement.py. Left: B1266's typed AXIOMS = 4 constant vs computing one unified price from the graph (WP-0.12, P-773)")
+SINCE_REAUDIT["G1"] = ("B1879", "archive_append_only_problems enforces append-only history on docs/progress/PROGRESS_*.md from 015be0cc7 (a1); _rollup_ok checks any header before the first dated heading and requires the roll-up commit itself to add or modify the archive; waivers remain loud (B1874, accepted at re-audit 3)")
+SINCE_REAUDIT["G2"] = ("B1879", "re-audit 3's three residuals on B1874 closed: canonical hash-entry resolution without decoy shadowing (t3), present disk-digest locks on the pre-existing broken scripts (t4), and secondary seal hash lists (*SEAL*.txt, *SHA256*.txt, *.sha256, *HASHES*.txt, *.sums; 79 files, 266 entries) enforced and history-locked (t7); plus SEAL_PATTERNS widened to PRE_RUN_NOTE*.md, *RULE.md and recursive subdirectories (s2, s3)")
+SINCE_REAUDIT["G4"] = ("B1879", "seal_order_after_problems refuses any sealed arc whose rule was first committed strictly after its FINDINGS.md beyond the seven pre-existing historical exceptions frozen in SEAL_ORDER_AFTER_BASELINE (s4)")
 
 # the owner's rulings of 2026-11-10 AS RELAYED by the advisor seat. The relay's own rule, and main's: each is confirmed with the
 # owner once before main acts on it. Main asked on 2026-11-10 about the eleven then relayed; the owner answered main the same day,

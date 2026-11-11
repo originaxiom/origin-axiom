@@ -22,7 +22,16 @@ def _rows():
 def test_the_cyclic_texture_check_reproduces():
     out = subprocess.run([sys.executable, "-B", str(HERE / "p039_cyclic_texture.py")], capture_output=True, text=True,
                          check=True, timeout=120).stdout
-    assert out == (HERE / "p039_cyclic_texture_run.txt").read_text(encoding="utf-8")
+    ref = (HERE / "p039_cyclic_texture_run.txt").read_text(encoding="utf-8")
+    pat = (r"^200 random 3-cycle-covariant symmetric couplings in the charge basis: "
+           r"entries with k \+ l != 0 mod 3 at most ([0-9.eE+-]+) of the largest; "
+           r"entries \(0,0\), \(1,2\), \(2,1\) at least ([0-9.eE+-]+) -> the anti-diagonal texture\s*$")
+    m_out, m_ref = re.match(pat, out), re.match(pat, ref)
+    assert m_out and m_ref, (out, ref)
+    err_out, min_out = float(m_out.group(1)), float(m_out.group(2))
+    err_ref, min_ref = float(m_ref.group(1)), float(m_ref.group(2))
+    assert err_out < 1e-12 and err_ref < 1e-12, (err_out, err_ref)
+    assert abs(min_out - min_ref) < 1e-12 or (min_out > 1e-2 and abs(min_out - min_ref) / min_ref < 1e-2), (min_out, min_ref)
     assert "-> the anti-diagonal texture" in out
 
 

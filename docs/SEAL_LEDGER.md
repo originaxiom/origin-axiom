@@ -38,21 +38,22 @@ hash-first status.*
 | frontier/B1065_amendment_controls/PREREGISTRATION.md | b8440d68 | 69436c06e | 1 | yes |
 | frontier/B1066_lane3_nomination/PREREGISTRATION.md | ad21f28f | 74d87f311 | 1 | yes |
 | frontier/B1071_sealed_listener/PREREGISTRATION_V1_SUPERSEDED.md | f0b7726d | 7c029802d | 2 | yes |
-| frontier/B1071_sealed_listener/PREREGISTRATION_V2.md | f4af5002 | 7c029802d | 2 | yes |
+| frontier/B1071_sealed_listener/PREREGISTRATION_V2.md | f4af5002 | 349dcc777 | 1 | yes |
 | frontier/B1075_moduli_crossing/PREREGISTRATION.md | 64414dbf | da50e0a4d | 1 | yes |
 | frontier/B1102_exact_hypercharge_solve/PREREGISTRATION.md | 85546173 | 6b206a14c | 1 | NO |
 | frontier/B1104_fourd_suspension/PREREGISTRATION.md | f6c65592 | 6683c0a28 | 1 | NO |
 | frontier/B1137_regulator_probe/PREREG.md | f299c0da | d192367e9 | 1 | yes |
 | frontier/B1244_gate5_audit/PREREG.md | 53d04ea6 | 8b6c380fc | 1 | yes |
+| frontier/B1296_the_charge_locus_parity_lock/verification/DESIGN.md | 67b4963e | 120d272ac | 1 | NO |
 | frontier/B1297_the_spectral_cover_index/PREREG.md | 75e55a88 | 120d272ac | 1 | yes |
 | frontier/B1297_the_spectral_cover_index/PREREG.sha256 | af1b1326 | 120d272ac | 1 | NO |
 | frontier/B1297_the_spectral_cover_index/PREREG_C4.md | 16918308 | 120d272ac | 1 | yes |
-| frontier/B1298_the_lift_fork/DESIGN.md | f1fef837 | 7f6262089 | 2 | NO |
+| frontier/B1298_the_lift_fork/DESIGN.md | f1fef837 | 7f6262089 | 2 | yes |
 | frontier/B1299_the_period_2_duality/DESIGN.md | 71b6ed8f | 5a70e8cd4 | 1 | yes |
 | frontier/B1302_the_sibling_m202/DESIGN.md | 811873b0 | 31dd52b91 | 1 | yes |
 | frontier/B1303_the_sm_closings_z_prime/DESIGN.md | 9f44f4c3 | eefb17144 | 1 | yes |
 | frontier/B1304_the_audit_seats_4d_model/DESIGN.md | 866bd71e | e324df060 | 1 | yes |
-| frontier/B1305_the_cloud_156_178/DESIGN.md | 84bca2f7 | dd99f07ce | 1 | NO |
+| frontier/B1305_the_cloud_156_178/DESIGN.md | 84bca2f7 | dd99f07ce | 1 | yes |
 | frontier/B1305_the_cloud_156_178/DESIGN_B.md | fa793cf2 | 977665a5d | 1 | yes |
 | frontier/B1306_the_older_debt/DESIGN_A.md | 815f34be | d61db0fce | 1 | yes |
 | frontier/B1306_the_older_debt/DESIGN_B.md | d9d61f4b | e998ef28f | 1 | yes |
@@ -150,8 +151,15 @@ hash-first status.*
 | frontier/B1666_the_layers_robust/PREREGISTRATION.md | df6f13d1 | aac14a72c | 1 | yes |
 | frontier/B1667_the_canonical_cusp/PREREGISTRATION.md | 83689a5d | ca1c08efb | 1 | yes |
 | frontier/B1670_the_price_of_the_nineteen/PREREGISTRATION.md | de17fa3d | 5a16562ac | 1 | yes |
+| frontier/B1674_the_weaves_anomaly_verified/verification/received/W101_RULE.md | 9000ac2f | 7dada32f9 | 1 | yes |
+| frontier/B1675_no_thread_keeps_a_record_verified/verification/received/W34_RULE.md | dc3adaa7 | 7dada32f9 | 1 | yes |
+| frontier/B1676_the_tick_on_the_weave_verified/verification/received/W107_RULE.md | 55d8d317 | b1b7f00a0 | 1 | yes |
 | frontier/B1677_the_common_point_and_the_record_count/PREREGISTRATION.md | 85f3fb67 | 33a40692b | 1 | yes |
+| frontier/B1679_the_common_point_for_every_n_verified/verification/received/W108_RULE.md | b7666e89 | 931f22262 | 1 | yes |
 | frontier/B1680_the_common_point_in_higher_targets/PREREGISTRATION.md | 20074d73 | 8b91162f8 | 1 | yes |
+| frontier/B1684_w59_on_main/verification/received/W59_RULE.md | d6adb7d3 | a157f0f74 | 1 | yes |
+| frontier/B1686_w60_w62_on_main/verification/received/W60_RULE.md | 8e32b1f0 | 78c458547 | 1 | yes |
+| frontier/B1686_w60_w62_on_main/verification/received/W62_RULE.md | 7a3a15ff | 78c458547 | 1 | yes |
 | frontier/B1693_the_bound_against_the_masses/PREREGISTRATION.md | ffe0a6e1 | aa36d2667 | 1 | yes |
 | frontier/B1694_the_parameter_free_curve/PREREGISTRATION.md | a6d90f7e | 90edb73e3 | 1 | yes |
 | frontier/B1695_one_line_one_tau_the_unique_section/PREREGISTRATION.md | aced715b | fc3bf0684 | 1 | yes |
@@ -180,10 +188,15 @@ hash-first status.*
 | frontier/B1798_the_six_graded_under_the_class_choosing_null/DESIGN.md | 507ab9a5 | c6038b155 | 1 | NO |
 | frontier/B1811_the_symmetry_selection_values_against_the_six/PREREGISTRATION.md | 0ce51ca6 | 316457df6 | 1 | yes |
 | frontier/B1814_the_measured_world_as_a_draw_from_the_weaves_own_measure/PREREGISTRATION.md | fe4ef1ac | 86cb26b30 | 1 | yes |
+| frontier/B1817_the_frames_own_lepton_down_factor_at_the_cusp/verification/STRAND_A_DESIGN.md | 8323df49 | 066e3bda9 | 1 | NO |
+| frontier/B1823_step_a_the_tied_heavy_vacuum/verification/DRAFT_DESIGN_AS_REFEREED.md | 38b75500 | eb41a8e4d | 1 | yes |
 | frontier/B1825_step_b_the_nine_from_one_address/PREREGISTRATION.md | f84ceaf7 | fa25925fc | 1 | yes |
+| frontier/B1827_the_framing_ledger/verification/scans/DESIGN_NOTE.md | c39d0d33 | fdfbb2dfa | 2 | NO |
 | frontier/B1839_the_end_card/PREREGISTRATION.md | dc05a5c4 | c70b356f0 | 1 | yes |
+| frontier/B1839_the_end_card/PRE_RUN_NOTE.md | 8db3cef1 | 7ab1624aa | 3 | NO |
 | frontier/B1840_the_principled_ends/DECLARATION.md | 74eadd5c | 83c52cb0c | 4 | NO |
-| frontier/B1841_the_principled_ends_card/PREREGISTRATION.md | b1198766 | 29b0e5b39 | 1 | NO |
+| frontier/B1841_the_principled_ends_card/PREREGISTRATION.md | b1198766 | 29b0e5b39 | 1 | yes |
+| frontier/B1841_the_principled_ends_card/PRE_RUN_NOTE.md | ada19e87 | b05b62fca | 1 | NO |
 | frontier/B367_value_map/PREREGISTRATION.md | 0023d02d | 4492f4771 | 1 | NO |
 | frontier/B370_massey_depth2/PREREGISTRATION.md | c32c2166 | d49cd33c1 | 1 | NO |
 | frontier/B372_level45_sweeper/PREREGISTRATION.md | 5cff9321 | e0082c8cf | 1 | NO |
@@ -290,7 +303,7 @@ hash-first status.*
 | frontier/B614_null_model/NULL_MODEL_DESIGN.md | 9a189f49 | 25b2bf7ac | 1 | yes |
 | frontier/B616_heldout/HELDOUT_DESIGN.md | a11491e6 | f594f35aa | 1 | yes |
 | frontier/B627_silver_heldout/SEALED_SILVER_TORSIONS.md | 6275fc85 | bbf0ac9ae | 1 | yes |
-| frontier/B628_exterior_comparison/COMPARISON_DESIGN.md | 7b5f2ff7 | 40070adc0 | 2 | NO |
+| frontier/B628_exterior_comparison/COMPARISON_DESIGN.md | 7b5f2ff7 | 40070adc0 | 2 | yes |
 | frontier/B629_interaction_values/SEALED_INTERACTION_VALUES.md | 0ec9ac39 | eba209cbb | 1 | yes |
 | frontier/B630_matrix_comparison_design/COMPARISON_DESIGN.md | e217e623 | 7fe71d6e5 | 1 | yes |
 | frontier/B632_cubic_route/PREREGISTRATION.md | dab6948b | eb5a70787 | 1 | yes |
@@ -304,6 +317,12 @@ hash-first status.*
 | frontier/B642_galois_ear/PREREGISTRATION.md | 84680043 | 53dab53bf | 1 | yes |
 | frontier/B643_flip_symmetry/PREREGISTRATION.md | 76d64ba0 | 2797776b6 | 1 | yes |
 | frontier/B644_mckay_comparison/PREREGISTRATION.md | b77e5bdf | 6326874ce | 1 | yes |
+| frontier/B646_wave2_integration/cc2_packets/next_queue/next_queue/n1_counting/PREREG_N1.md | aa47092d | 2511e4ff1 | 1 | yes |
+| frontier/B646_wave2_integration/cc2_packets/next_queue/next_queue/n2_clock_law/PREREG_N2.md | 8393e404 | 2511e4ff1 | 1 | yes |
+| frontier/B646_wave2_integration/cc2_packets/next_queue/next_queue/n3_fine_grid/PREREG_N3.md | 09246f08 | 2511e4ff1 | 1 | yes |
+| frontier/B646_wave2_integration/cc2_packets/proof_queue/proof_queue/q1_level8/PREREG_Q1.md | f3b19098 | 2511e4ff1 | 1 | yes |
+| frontier/B646_wave2_integration/cc2_packets/proof_queue/proof_queue/q2_conductor/PREREG_Q2.md | 287bfe86 | 2511e4ff1 | 1 | yes |
+| frontier/B646_wave2_integration/cc2_packets/residuals/level_ladder_campaign/PREREG_L7.md | 0c4df92d | 2511e4ff1 | 1 | yes |
 | frontier/B647_core_mechanism/PREREG_CELL2.md | d3e4faad | a75150682 | 1 | yes |
 | frontier/B649_silver_holonomy/PREREGISTRATION.md | 429a344c | a75150682 | 1 | yes |
 | frontier/B649_silver_holonomy/PREREG_STAGE2A.md | 4dc3eacd | 569d6c1f3 | 1 | yes |
@@ -312,18 +331,35 @@ hash-first status.*
 | frontier/B649_silver_holonomy/PREREG_STAGE3B_II.md | 5dd14ee0 | 3f0f1b913 | 1 | yes |
 | frontier/B649_silver_holonomy/PREREG_STAGE3B_SWAP.md | 3d0d45f7 | 53288455d | 1 | yes |
 | frontier/B650_typed_functor/PREREG_WAVE2.md | a2c77a6c | 524a5a2a0 | 1 | yes |
+| frontier/B651_wave3_integration/cc2_packets/finisher_queue/finisher_queue/f3_twisted/PREREG_F3.md | 9320e6f9 | 16a059073 | 1 | yes |
+| frontier/B651_wave3_integration/cc2_packets/loops_queue/loops_queue/d2_melody/PREREG_D2.md | 633c87bb | 16a059073 | 1 | yes |
+| frontier/B651_wave3_integration/cc2_packets/loops_queue/loops_queue/d3_child/PREREG_D3.md | 75d69af3 | 16a059073 | 1 | yes |
+| frontier/B651_wave3_integration/cc2_packets/loops_queue/loops_queue/d4_su3/PREREG_D4.md | 9f6767ca | 16a059073 | 1 | yes |
+| frontier/B651_wave3_integration/cc2_packets/loops_queue/loops_queue/d5_triality/PREREG_D5.md | 4145e2da | 16a059073 | 1 | yes |
+| frontier/B651_wave3_integration/cc2_packets/promotion_queue/promotion_queue/p4_sectors/PREREG_P4.md | baed2eed | 16a059073 | 1 | yes |
 | frontier/B652_gate_b/PREREG_GATEB.md | c8cae450 | 2b43c6285 | 1 | yes |
 | frontier/B653_phase_c_probe/COMPARISON_DESIGN_C2.md | 864909ce | 7edb50400 | 1 | yes |
 | frontier/B654_listening_synthesis/PREREGISTRATION.md | 299c7a4c | f196c8e53 | 1 | yes |
 | frontier/B655_beta_adjudication/PREREGISTRATION.md | fcc8cb8b | 48a9df89f | 1 | yes |
+| frontier/B656_digest_integration/packet/PREREG_DIGEST.md | 5848c32d | 32465251a | 1 | yes |
+| frontier/B657_invariant_line/packet/PREREG_IL.md | 9d8aa8ff | 1b6aae890 | 1 | yes |
 | frontier/B658_order4_flips/PREREGISTRATION.md | 0c4a1115 | 55a97bdcf | 1 | yes |
+| frontier/B660_structure_campaign/packet/PREREG_SQ.md | 711773fe | 6a85d931f | 1 | yes |
+| frontier/B663_bifocal_anatomy/anatomy_packet/loop1/PREREG_L1.md | 247ace23 | 20fdceba6 | 1 | yes |
 | frontier/B669_track_h_adjudication/PREREG_H1.md | d5f025bf | 32ccc8056 | 1 | yes |
+| frontier/B670_anatomy_full/packet/loop1/PREREG_L1.md | 247ace23 | 64422589b | 1 | yes |
+| frontier/B670_anatomy_full/packet/loop2/PREREG_L2.md | c6d4fabd | 64422589b | 1 | yes |
+| frontier/B670_anatomy_full/packet/loop3/PREREG_L3.md | f32fbfff | 64422589b | 1 | yes |
+| frontier/B670_anatomy_full/packet/loop4/PREREG_L4.md | e9291b31 | 64422589b | 1 | yes |
+| frontier/B673_loop4_integration/packet/loop4/PREREG_L4.md | e9291b31 | 33f43a7b5 | 1 | yes |
 | frontier/B674_generation_leg/PREREG_W2.md | b4c9a6bb | 2f61c0f44 | 1 | yes |
 | frontier/B674_generation_leg/PREREG_W3_DECISION.md | 563a2858 | 98485229f | 1 | yes |
 | frontier/B674_generation_leg/PREREG_W3_DECISION_ADDENDUM_1.md | f99e8b59 | 345db2ca4 | 1 | yes |
 | frontier/B674_generation_leg/PREREG_W3_RUN.md | 83c50a35 | 816b3aa39 | 1 | yes |
 | frontier/B674_generation_leg/W2_DESIGN_NOTE_GAMMA5.md | 7c91973a | 2bb44d0df | 1 | yes |
 | frontier/B675_hcusp_sweep/PREREG_ADDENDUM_OUTCOMES.md | 4b78e219 | 8e0540b68 | 1 | yes |
+| frontier/B677_morning_packet/anatomy/loop5/PREREG_L5.md | 7cc62400 | fe0c41939 | 1 | yes |
+| frontier/B677_morning_packet/generation_leg/PREREG_G1.md | d65eece2 | fe0c41939 | 1 | NO |
 | frontier/B688_eisenstein_campaign/LOOP_E3_DESIGN.md | 046d2130 | 6a8cd2ed5 | 1 | NO |
 | frontier/B698_the_meeting_probed/PREREG_LEG_A.md | 1e51ae30 | 746bd23c1 | 1 | yes |
 | frontier/B699_two_object_surgery/PREREG_TWO_OBJECT.md | 29ede3e1 | af6dcf2be | 1 | NO |
@@ -332,6 +368,8 @@ hash-first status.*
 | frontier/B700_fiber_functor/PREREG_CELL4.md | 7323661c | a44b55a85 | 1 | yes |
 | frontier/B700_fiber_functor/PREREG_CELL5.md | c8292c34 | 8579f6723 | 1 | yes |
 | frontier/B700_fiber_functor/PREREG_CELL6_phase2.md | 0eb5026b | bc78dcc73 | 1 | yes |
+| frontier/B700_fiber_functor/cell3_cc2/PREREG_CELL3_CC2.md | f6d54fd6 | 8579f6723 | 1 | yes |
+| frontier/B700_fiber_functor/phase2_cc2/phase2/PREREG_PHASE2_CC2.md | 7a9b113a | b31470bfe | 1 | yes |
 | frontier/B706_rung2_sm_freedom/PREREG.md | 3af39f7f | 427cfd9f3 | 1 | yes |
 | frontier/B708_kim_seam/PREREG.md | 96ebff1d | 174afae4c | 1 | yes |
 | frontier/B709_turok_marriage_adjudication/PREREGISTRATION.md | 93879b9d | bb55a7c05 | 1 | yes |
@@ -397,6 +435,8 @@ hash-first status.*
 | frontier/B775_phase2_wave1/PREREG_WAVE4.md | ddf99ceb | 6a00582cc | 1 | yes |
 | frontier/B775_phase2_wave1/PREREG_WAVE5.md | e1510ac7 | 85660ca0a | 1 | yes |
 | frontier/B775_phase2_wave1/PREREG_WAVE6.md | 3402b906 | 4e5e6aad3 | 1 | yes |
+| frontier/B775_phase2_wave1/cells/P2-WELD/PREREGISTRATION.md | 6fd9f86a | d2d89a1bf | 1 | NO |
+| frontier/B775_phase2_wave1/cells/P2W2-LATIN/PREREGISTRATION.md | 9e91a4e6 | 06963769c | 1 | NO |
 | frontier/B776_b685_homework/PREREGISTRATION.md | 0cdfcf44 | 9ab7073fe | 1 | yes |
 | frontier/B778_cleanup/PREREGISTRATION.md | 5339a247 | 4e319b56b | 1 | yes |
 | frontier/B780_galois_reversal_gate/PREREGISTRATION.md | deb8f276 | cb7ca083c | 1 | NO |
@@ -422,6 +462,8 @@ hash-first status.*
 | frontier/B842_face_attachment/PREREGISTRATION.md | 29273395 | cba74fd8c | 1 | yes |
 | frontier/B849_order_parameter/PREREGISTRATION.md | facb8c03 | 9ffdd971f | 1 | yes |
 | frontier/B850_length_spectrum_type/PREREGISTRATION.md | f9d13b4d | 7ca82db06 | 1 | yes |
+| frontier/B879_selection_cochain/packet/DESIGN_DA.md | d7082991 | c6bee8fa8 | 1 | yes |
+| frontier/B879_selection_cochain/packet/PREREG_SCC.md | 1f07ffc8 | c6bee8fa8 | 2 | yes |
 | frontier/B890_foreign_pair/PREREGISTRATION.md | ea66fc34 | 36c9068bb | 1 | yes |
 | frontier/B891_matter_extension/PREREGISTRATION.md | a08398c5 | e2b14f1a5 | 1 | yes |
 | frontier/B897_27_under_g20/PREREGISTRATION.md | e293f095 | 0e1cdf4c0 | 1 | yes |
@@ -443,9 +485,11 @@ hash-first status.*
 | frontier/B959_nontoral_rank4/PREREGISTRATION.md | 6c5d76e6 | 4c3c47756 | 1 | yes |
 | frontier/B995_separating_and_rare/PREREGISTRATION.md | a356e987 | 3bae686c2 | 1 | yes |
 
-*Totals: 432 sealed documents; 145 unrecorded with single-commit provenance (content = banked content); 11 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
+*Totals: 474 sealed documents; 149 unrecorded with single-commit provenance (content = banked content); 11 unrecorded AND amended after banking (current hash ≠ sealed hash — see each arc's trail).*
 
 ## Reservation & verdict rows (APPEND-ONLY — the collision protocol; preserved by the generator)
+
+
 
 
 

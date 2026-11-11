@@ -151,3 +151,34 @@ above: git cannot show the order, and that is all it shows. From here the list m
 | B1323 | `frontier/B1323_the_genesis_upgrades`: `DESIGN.md` | `b9157703c` | 2026-09-09 |
 | B1324 | `frontier/B1324_arc_b_and_the_dictionary`: `DESIGN.md` | `abb16e858` | 2026-09-09 |
 | B1798 | `frontier/B1798_the_six_graded_under_the_class_choosing_null`: `DESIGN.md` | `c6038b155` | 2026-10-28 |
+
+## Added 2026-11-11 (B1879): nested sealed-style files and received rule files in the same commit (21)
+
+*Re-audit 2, findings G2/G4 (`s2`, `s3`), closed in B1879. Widening `SEAL_PATTERNS` to include `PRE_RUN_NOTE*.md` and
+`*RULE.md` and walking subdirectories (`frontier/B*/**`) brings twenty-one historical arcs whose nested sealed packet,
+design note or received rule was first committed together with `FINDINGS.md` into the gate's sight. They are entered
+once, by name; from here the ceiling may only shrink.*
+
+| test | folder and sealed file | the one commit | date |
+|---|---|---|---|
+| B646 | `frontier/B646_wave2_integration`: `cc2_packets/.../PREREG_*.md` (6) | `2511e4ff1` | 2026-07-16 |
+| B651 | `frontier/B651_wave3_integration`: `cc2_packets/.../PREREG_*.md` (6) | `16a059073` | 2026-07-16 |
+| B656 | `frontier/B656_digest_integration`: `packet/PREREG_DIGEST.md` | `32465251a` | 2026-07-17 |
+| B657 | `frontier/B657_invariant_line`: `packet/PREREG_IL.md` | `1b6aae890` | 2026-07-17 |
+| B660 | `frontier/B660_structure_campaign`: `packet/PREREG_SQ.md` | `6a85d931f` | 2026-07-17 |
+| B663 | `frontier/B663_bifocal_anatomy`: `anatomy_packet/loop1/PREREG_L1.md` | `20fdceba6` | 2026-07-17 |
+| B670 | `frontier/B670_anatomy_full`: `packet/loop1..4/PREREG_L1..4.md` | `64422589b` | 2026-07-17 |
+| B673 | `frontier/B673_loop4_integration`: `packet/loop4/PREREG_L4.md` | `33f43a7b5` | 2026-07-17 |
+| B677 | `frontier/B677_morning_packet`: `anatomy/loop5/PREREG_L5.md`, `generation_leg/PREREG_G1.md` | `fe0c41939` | 2026-07-18 |
+| B775 | `frontier/B775_phase2_wave1`: `cells/P2-WELD/PREREGISTRATION.md` | `d2d89a1bf` | 2026-07-24 |
+| B879 | `frontier/B879_selection_cochain`: `packet/DESIGN_DA.md`, `packet/PREREG_SCC.md` | `c6bee8fa8` | 2026-08-03 |
+| B1296 | `frontier/B1296_the_charge_locus_parity_lock`: `verification/DESIGN.md` | `120d272ac` | 2026-09-08 |
+| B1674 | `frontier/B1674_the_weaves_anomaly_verified`: `verification/received/W101_RULE.md` | `7dada32f9` | 2026-10-20 |
+| B1675 | `frontier/B1675_no_thread_keeps_a_record_verified`: `verification/received/W34_RULE.md` | `7dada32f9` | 2026-10-20 |
+| B1676 | `frontier/B1676_the_tick_on_the_weave_verified`: `verification/received/W107_RULE.md` | `b1b7f00a0` | 2026-10-20 |
+| B1679 | `frontier/B1679_the_common_point_for_every_n_verified`: `verification/received/W108_RULE.md` | `931f22262` | 2026-10-20 |
+| B1684 | `frontier/B1684_w59_on_main`: `verification/received/W59_RULE.md` | `a157f0f74` | 2026-10-21 |
+| B1686 | `frontier/B1686_w60_w62_on_main`: `verification/received/W60_RULE.md`, `verification/received/W62_RULE.md` | `78c458547` | 2026-10-21 |
+| B1817 | `frontier/B1817_the_frames_own_lepton_down_factor_at_the_cusp`: `verification/STRAND_A_DESIGN.md` | `066e3bda9` | 2026-10-29 |
+| B1823 | `frontier/B1823_step_a_the_tied_heavy_vacuum`: `verification/DRAFT_DESIGN_AS_REFEREED.md` | `eb41a8e4d` | 2026-10-30 |
+| B1827 | `frontier/B1827_the_framing_ledger`: `verification/scans/DESIGN_NOTE.md` | `fdfbb2dfa` | 2026-11-03 |

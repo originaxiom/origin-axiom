@@ -24,7 +24,8 @@ def test_the_recount_runs_and_says_what_the_findings_quote():
     out = subprocess.run([sys.executable, "-B", str(HERE / "read_checks.py")], capture_output=True, text=True, check=True, timeout=300).stdout
     for s in ("every one is in a package upstream of the sealed card: True", "the sealed card now waits on the suite and on the comparison's own instruments: True",
               "packages marked started while a need has not started: 0", "every finding names what it bears on: True",
-              "the script the foundation cites for the live price exits 1"):
+              # 2026-11-11 (B1879): X3's first half mended ('24 ROWS OUTSTANDING' added to docs/THE_SM_VERDICT.md and locked in tests/test_b1879_reaudit3_and_enforcement.py); was 'exits 1' at B1873
+              "the script the foundation cites for the live price exits 0"):
         assert s in out, s
     sealed = (HERE / "read_checks_run.txt").read_text(encoding="utf-8")
     assert "joined to nothing: 64" in sealed and "an exit with no objection on the page: 8" in sealed

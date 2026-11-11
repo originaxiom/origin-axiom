@@ -93,4 +93,5 @@ out["W81_rhoQ_multiplicity_on_Q8"] = spins.get(1, 0) + 2 * spins.get(3, 0)
 out["W81_each_character_multiplicity_on_Q8"] = spins.get(2, 0)
 out["W81_trivial_on_Q8"] = spins.get(0, 0)
 print(json.dumps(out, indent=1))
-json.dump(out, open(HERE / "main_w81_w83.json", "w"), indent=1)
+if __name__ == "__main__" and "--write" in __import__("sys").argv:
+    json.dump(out, open(HERE / "main_w81_w83.json", "w"), indent=1)
