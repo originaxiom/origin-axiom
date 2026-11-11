@@ -10,11 +10,12 @@
 | | |
 |---|---|
 | date | 2026-11-11 |
-| the package in hand | WP-0.7, enforcement. Main changed the owners at `e5f9d09cd` (its note of 2026-11-11, "the five packages are yours") |
-| the step | step 3 done: `wp_0_7/WHY_EACH_CASE_PASSES.md`. Step 4 next: the first mend, the helper that makes a gate a function of the commit (PV9, PV15, PV22). Building on `e5f9d09cd` |
-| waiting on | nothing |
+| the package in hand | WP-0.7, enforcement |
+| the step | step 4, **series 1 of 4 sent**: four patches, built on `ea41e6fc9` and applied here on `8d90a5b2a` (`ADVISOR_TO_CC_2026-11-11_WP_0_7_SERIES_1_FOUR_PATCHES.md`; `wp_0_7/series_1/`). PV9, PV22 and PV15 mended, and one rule of the seat's own. The suite on its end: 11 of 21, from 8 |
+| next, in this order | (1) as auditor: main's two mends in WP-0.8 that wait on this seat, the finding E2 (`c61dc18e6`) and the finding E5 (`a3e20450b`). (2) as builder: series 2, what is deleted or emptied (PV10, PV11, PV12, PV13, PV19), built on the end of series 1 |
+| waiting on | main's verdict on series 1. It blocks nothing here; if main changes the series, series 2 is rebased |
 | blocked | no |
-| packages delivered | 0 of 5 |
+| packages delivered | 0 of 5 (one series of the first package sent) |
 
 (The section is numbered 9 and stands first, so that its number does not move when the page grows.)
 
@@ -95,6 +96,13 @@ The order is main's own (enforcement, then labels, then the count) and follows e
 - **Two packages wait on main's own:** WP-0.12 on the map kept complete (WP-0.6), WP-5.1 on the checks that cannot
   fail (WP-0.3).
 
+**Entered 2026-11-11 from main's note** (`CC_TO_ADVISOR_2026-11-11_THE_PUBLIC_FORM_SCRUTINISED.md`, § 4):
+
+- **WP-0.12** is built so that the part of the graph upstream of the claimed values can be projected out as the
+  statement's graph. One graph, built once.
+- **WP-5.1** is built so that the generator can be pointed at another set of files. Every file it hashes is in the
+  repository it is in.
+
 ## 6. The plan for the package in hand: WP-0.7
 
 **The baseline, taken today** (`tools/planted_violations_main_818d17f46_out.txt`): five controls caught; 8 of 21
@@ -105,8 +113,9 @@ caught.
 | planted and not caught: 13 | **what is deleted or emptied passes:** PV10 (the identification baseline deleted, three unearned rows added), PV11 (the list of retracted phrases deleted), PV12 (every lock in `tests/` deleted), PV13 (the law map and the theorem ledger emptied). **A gate is not a function of the commit:** PV9 (an export with no git), PV15 (three gates read the date), PV22 (a shallow clone). **The wording gates:** PV17 (retracted phrases added after a cut-off date), PV20 (a proven row of the claims that cites no lock), PV21 (a banned phrase in a `.tex` file, and in capitals). **The rest:** PV16 (every gate's control pointed at a skipped trivial test), PV19 (a baseline raised in the commit that adds the tokens), PV24 (a test whose only assert is `assert 1 != 2`) |
 | listed as manual: 6 | PV5 (a sealed file edited and a ledger row added with the new digest), PV7 (the generated ledger rows rebuilt twice must agree), PV23 (a one-thread negative worded about the object); and PV25, PV26, PV27, for which no gate exists (a lock that reads an ignored file, a lock that compares printed numbers as text, a test run that writes to a tracked file) |
 
-Main counts four manual and three with no gate; the suite lists six, three of them with no gate. To be reconciled
-with main before the first patch.
+Main counts four manual and three with no gate; the suite lists six, three of them with no gate. **Not yet
+reconciled.** This page said it would be before the first patch; it was not, and series 1 touches none of those
+cases. It is reconciled before the series that does (series 4).
 
 **What main measured and handed over, taken as the starting facts:** fourteen gates read git directly or through a
 checker; three checkers read the wall clock; 23 tests in `tests/` have no assert that can fail, and the vacuity
@@ -118,9 +127,9 @@ fourteen times; widening the framing gate costs one exemption.
 | 1 | the baseline | done: 8 of 21 at `818d17f46` |
 | 2 | main names the commit to build on, and changes the owner | done: `e5f9d09cd`. Main has sealed 53 unseen cases of its own for this package (sha256 `06d73fbb…6ff893`) |
 | 3 | each case read against the gate's code; one line each on why it passes | done: `wp_0_7/WHY_EACH_CASE_PASSES.md` |
-| 4 | the cases mended one at a time, in a scratch clone at main's commit: the test first and failing, then the mend | each commit's test fails on the commit before and passes on it |
-| 5 | the whole series checked: the 53 gates, main's own tests of the gates, the suite, on a clean clone and with no wall clock | 21 of 21, and nothing else turns red |
-| 6 | delivered: the series as patch files, one for each commit, with a table of case, mend, test and what main should re-run | one relay |
+| 4 | the cases mended one at a time, in a scratch clone at main's commit: the test first and failing, then the mend | each commit's test fails on the commit before and passes on it. **Series 1 done** (PV9, PV22, PV15); series 2 (PV10, PV11, PV12, PV13, PV19), series 3 (PV17, PV20, PV21, PV16, PV24) and series 4 (the six manual cases) to come |
+| 5 | each series checked before it is sent: the 53 gates, **main's own tests of the gates at the base and on the series**, the suite, this seat's own variants committed before they run | nothing turns red that was not red at the base. At the last series: 21 of 21 |
+| 6 | delivered: each series as patch files, one for each commit, with a table of case, mend, test and what was run | one note for each series, sent when it is ready (main: "a patch is not a relay, send it when it is ready") |
 | 7 | main's verdict and the web seat's cold read answered | main lands it and marks WP-0.7 done |
 
 **How the series arrives.** Main asked for a branch and a relay. This seat may push to one branch only, and that
@@ -131,8 +140,8 @@ commit. If main wants a branch to fetch, a second branch needs the owner's leave
 
 | # | item | state | whose move |
 |---|---|---|---|
-| 1 | the five packages of § 5 | 0 of 5 delivered; WP-0.7 in hand | this seat, once main names the commit |
-| 2 | re-audit of each package main closes; WP-0.8 first | waiting | main closes one |
+| 1 | the five packages of § 5 | 0 of 5 delivered; WP-0.7 in hand, series 1 of 4 sent | main verifies series 1; this seat builds series 2 |
+| 2 | re-audit of each package main closes; WP-0.8 first | **two of main's mends wait on this seat:** the finding E2 (`c61dc18e6`, the knot group's congruence level) and the finding E5 (`a3e20450b`, the walls on the line of the second measurement) | this seat, next |
 | 3 | ORD-a, the order before the card | **closed.** Main refused the two variants at `e5f9d09cd`; re-run here at `038df6984`, all three plants refused | — |
 | 4 | V1, the card | main read it once: B in all three decisive cells. This seat's verdict given: B, not A for N2 | main: P-786 (the sentence on every page, the window's ends as a choice, the same count on the candidate's null) |
 | 5 | GEN-a, a generated page compared in every clone | main says closed at B1886 | this seat checks it at the next re-audit it is asked for |
@@ -141,7 +150,7 @@ commit. If main wants a branch to fetch, a second branch needs the owner's leave
 | 8 | READ-a, a read-out on the whole against the eight conditions | main typed the web seat's card against them (B1885) | main, when it writes its own design |
 | 9 | the foundation at version 1.65, checked against the criteria | held | this seat, when main closes the foundation's packages (WP-0.1, WP-0.10) |
 | 10 | the owner's scoreboard page | live at the owner's address; refreshed when he asks | becomes the output of WP-0.12 |
-| 11 | the opinion on the repository, and the read of the agy lane's blueprint | main read both, confirmed the counts and gave the owner its recommendation (P-787): three parts, built at the seal. At the owner's word this seat has now asked main to attack it and to add to it, and to have the web seat read it cold | main; the decision is the owner's |
+| 11 | the opinion on the repository, and the read of the agy lane's blueprint | **answered by main** (B1888, `0a3c8c6e7`): four of the eight points hold; the rebuild holds with a first deliverable; the archive is a signed tag and a dated deposit, not a second repository; a check counts by five conditions, not by who wrote it; the candidate's chain is 14 arcs by its code, where the lists give 736. Main has asked the web seat for a cold read | the owner decides the form; the web seat reads |
 | 12 | the public structure in three parts | parked until the card is sealed | — |
 | 13 | readers of another family, for the ambiguity attack | cannot be done by this seat | the owner, if he wants it |
 

@@ -1,0 +1,24 @@
+=== the tests of 6ae18eb46 run on the commit before it, ea41e6fc9:
+FAILED test_on_an_export_the_ten_gates_that_need_git_do_not_pass
+FAILED test_an_export_a_copy_and_a_folder_inside_another_repository_are_all_read_as_exports
+FAILED test_in_a_clone_no_gate_is_refused
+FAILED test_a_gate_is_one_thing_in_the_table_and_under_its_own_name
+FAILED test_a_test_may_still_drive_a_gate_on_a_tree_of_its_own
+FAILED test_a_gate_that_is_not_in_the_table_answers_the_same_with_git_as_without
+FAILED test_a_gate_listed_as_reading_the_tracked_files_only_reads_nothing_of_the_past
+7 failed in 1.47s
+=== the tests of 6f37a1df6 run on the commit before it, 6ae18eb46:
+        """PV22, the refusal.  The planted case ran `lead-debt` on a clone fifty commits deep and it passed."""
+FAILED test_a_shallow_clone_is_read_as_shallow_at_any_depth
+FAILED test_on_a_shallow_clone_every_gate_that_reads_the_past_is_refused_and_says_why
+2 failed, 7 passed in 14.72s
+=== the tests of 089d7f882 run on the commit before it, 6f37a1df6:
+FAILED test_a_debt_gate_answers_the_same_whatever_day_the_environment_names
+FAILED test_no_gate_and_no_checker_reads_the_wall_clock
+FAILED test_the_day_is_decided_in_one_place_and_in_one_order
+FAILED test_a_gate_listed_as_reading_the_tracked_files_only_reads_nothing_of_the_past
+4 failed, 8 passed in 45.98s
+=== the tests of 903600bd9 run on the commit before it, 089d7f882:
+FAILED test_a_commit_dated_before_its_parent_is_refused_as_a_day
+FAILED test_the_debt_gates_do_not_answer_on_a_day_that_cannot_be_trusted
+2 failed, 12 passed in 45.47s

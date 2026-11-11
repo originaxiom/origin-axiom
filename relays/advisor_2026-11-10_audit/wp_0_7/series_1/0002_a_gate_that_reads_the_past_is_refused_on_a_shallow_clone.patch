@@ -1,0 +1,135 @@
+From 6f37a1df6ce84aef7efd1073f4787e66743023e0 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Wed, 11 Nov 2026 15:06:24 +0000
+Subject: [PATCH 2/4] WP-0.7, enforcement (cld-advisor's patch 2, built on
+ ea41e6fc9): A GATE THAT READS THE PAST IS REFUSED ON A SHALLOW CLONE (the
+ seat's planted case PV22). On a clone fifty commits deep lead-debt dated
+ every arc by the history that was there and passed; on the same clone
+ seal-order-unshown accused an arc whose first commit lay beyond the cut. A
+ cut history gives a wrong answer either way. checkout_state now reads a
+ shallow clone as shallow, at any depth, and the twelve gates of READS_HISTORY
+ are refused on one in plain words, with what to run; the seven that ask only
+ which files are tracked have all they need and are not refused. A clone made
+ with a depth that reaches the first commit cuts nothing and is a full clone.
+ The lock: two tests added to
+ tests/test_gates_are_a_function_of_the_commit.py, both failing on the commit
+ before (a shallow clone read as full; lead-debt answering ok). 0 of 19.
+
+---
+ scripts/gates/gates.py                        | 27 ++++++++----
+ ...test_gates_are_a_function_of_the_commit.py | 41 ++++++++++++++++++-
+ 2 files changed, 59 insertions(+), 9 deletions(-)
+
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 47b86dc0f..9dd7a6ff5 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -43,21 +43,28 @@ def _git(*args):
+ # has not looked.  What kind of tree this is, is read here once; the table READS_GIT below says which gates it concerns; and
+ # each gate of that table is replaced, below the table, by a gate that asks this first and is refused where it cannot look.
+ def checkout_state(repo=None):
+-    """'full' or 'export': what the tree at `repo` is to git.  'export' is a tree with no repository of its own: an archive,
+-    a copy, or a folder that merely sits inside some other repository (git would then answer for the outer one)."""
++    """'full', 'shallow' or 'export': what the tree at `repo` is to git.  'export' is a tree with no repository of its own: an
++    archive, a copy, or a folder that merely sits inside some other repository (git would then answer for the outer one).
++    'shallow' is a clone whose history is cut (PV22): what it holds of the past is whatever its depth happened to keep."""
+     repo = os.path.realpath(str(repo or ROOT))
+     try:
+-        r = subprocess.run(["git", "-C", repo, "rev-parse", "--show-toplevel"], capture_output=True, text=True, timeout=30)
++        r = subprocess.run(["git", "-C", repo, "rev-parse", "--show-toplevel", "--is-shallow-repository"],
++                           capture_output=True, text=True, timeout=30)
+     except Exception:
+         return "export"
+-    top = r.stdout.strip()
+-    if r.returncode != 0 or not top or os.path.realpath(top) != repo:
++    out = r.stdout.split("\n")
++    if r.returncode != 0 or len(out) < 2 or not out[0] or os.path.realpath(out[0]) != repo:
+         return "export"
+-    return "full"
++    return "shallow" if out[1].strip() == "true" else "full"
+ 
+ 
+ REFUSED_EXPORT = ("refused: there is no git repository here (an export, or a copy of the tree). This gate reads %s, and "
+                   "without git it cannot. Run it in a clone")
++# PV22: on a clone fifty commits deep `lead-debt` dated every arc by the history that was there and passed, and `seal-order-
++# unshown` accused an arc whose first commit lay beyond the cut.  A cut history gives a wrong answer either way, so a gate
++# that reads the past does not answer on one, however deep the clone.
++REFUSED_SHALLOW = ("refused: this clone is shallow. This gate reads the history, and a history that is cut can hide what the "
++                   "gate looks for, or accuse what is only out of sight. Fetch the rest (git fetch --unshallow) and run it again")
+ 
+ 
+ # --- gate: framing lock (GOVERNANCE §2/§8 + the campaign-banned phrasings) ---------------
+@@ -2686,8 +2693,12 @@ def _refusing(name, fn):
+     """the gate `fn` of the table READS_GIT, refused in plain words where it cannot look.  Called with arguments (a test
+     driving the gate on a tree of its own) it is the gate itself."""
+     def gate(*args, **kwargs):
+-        if not args and not kwargs and checkout_state() == "export":
+-            return False, REFUSED_EXPORT % ("the history" if name in READS_HISTORY else "which files are tracked")
++        if not args and not kwargs:
++            state = checkout_state()
++            if state == "export":
++                return False, REFUSED_EXPORT % ("the history" if name in READS_HISTORY else "which files are tracked")
++            if state == "shallow" and name in READS_HISTORY:
++                return False, REFUSED_SHALLOW
+         return fn(*args, **kwargs)
+     gate.__name__, gate.__doc__, gate.__wrapped__ = fn.__name__, fn.__doc__, fn
+     return gate
+diff --git a/tests/test_gates_are_a_function_of_the_commit.py b/tests/test_gates_are_a_function_of_the_commit.py
+index c844b4fb7..2589d183a 100644
+--- a/tests/test_gates_are_a_function_of_the_commit.py
++++ b/tests/test_gates_are_a_function_of_the_commit.py
+@@ -4,7 +4,10 @@ The seat's planted case PV9: the gates were run on a `git archive` export, where
+ need it passed.  Three answered "skipped" and returned a pass.  Six asked git for the tracked files, were given none, and
+ found nothing wrong among none ("ok (0 tests, 0 vacuous)", "ok (0 citations resolve)").
+ 
+-Each test here makes the situation and runs the gate.  The first test fails on the commit before this file's."""
++PV22: on a clone fifty commits deep, `lead-debt` read the history that was there and passed.  A gate that reads the past
++is refused on a shallow clone, whatever its depth.
++
++Each test here makes the situation and runs the gate.  The first test of each case fails on the commit before it."""
+ import ast
+ import importlib.util
+ import pathlib
+@@ -78,6 +81,42 @@ def test_an_export_a_copy_and_a_folder_inside_another_repository_are_all_read_as
+     assert g.checkout_state(tmp_path / "nothing_here") == "export"
+ 
+ 
++def test_a_shallow_clone_is_read_as_shallow_at_any_depth(tmp_path):
++    """PV22, the reading.  A clone of depth 1, and one of a depth greater than the history it was cut from."""
++    g = _gates()
++    repo = _small_repo(tmp_path)
++    for n in range(3):
++        (repo / "sub" / "page.md").write_text("a page, edit %d\n" % n, encoding="utf-8")
++        _git(repo, "commit", "-q", "-a", "-m", "edit %d" % n)
++    one = tmp_path / "depth_one"
++    subprocess.run(["git", "clone", "-q", "--depth", "1", "file://" + str(repo), str(one)], check=True, capture_output=True)
++    assert g.checkout_state(one) == "shallow"
++    three = tmp_path / "depth_three"
++    subprocess.run(["git", "clone", "-q", "--depth", "3", "file://" + str(repo), str(three)], check=True, capture_output=True)
++    assert g.checkout_state(three) == "shallow"
++    whole = tmp_path / "whole"
++    subprocess.run(["git", "clone", "-q", "file://" + str(repo), str(whole)], check=True, capture_output=True)
++    assert g.checkout_state(whole) == "full"
++    # a depth that reaches the first commit cuts nothing, and git does not call such a clone shallow
++    deep = tmp_path / "deeper_than_the_history"
++    subprocess.run(["git", "clone", "-q", "--depth", "50", "file://" + str(repo), str(deep)], check=True, capture_output=True)
++    assert g.checkout_state(deep) == "full"
++
++
++def test_on_a_shallow_clone_every_gate_that_reads_the_past_is_refused_and_says_why(monkeypatch):
++    """PV22, the refusal.  The planted case ran `lead-debt` on a clone fifty commits deep and it passed."""
++    g = _gates()
++    monkeypatch.setattr(g, "checkout_state", lambda repo=None: "shallow", raising=False)
++    ok, detail = g.GATES["lead-debt"]()
++    assert ok is False and "shallow" in detail.lower(), ("lead-debt", ok, detail)
++    for name in sorted(g.READS_HISTORY):
++        ok, detail = g.GATES[name]()
++        assert ok is False and "refused" in detail and "shallow" in detail, (name, detail)
++    # a gate that asks only which files are tracked has all it needs on a shallow clone, and is not refused
++    for name in sorted(g.READS_TRACKED):
++        assert "refused" not in str(g.GATES[name]()[1]), name
++
++
+ def test_in_a_clone_no_gate_is_refused():
+     g = _gates()
+     assert g.checkout_state() == "full", "this lock is run in a clone"

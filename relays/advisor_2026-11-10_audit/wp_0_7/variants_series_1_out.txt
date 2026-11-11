@@ -1,0 +1,16 @@
+variants on the series at c38643180
+e1  HOLDS     the tree copied without its .git: 20 gates of READS_GIT, 20 refused in plain words, 0 pass
+e2  HOLDS     the export inside another repository that tracks it: 20 gates of READS_GIT, 20 refused in plain words, 0 pass
+e3  HOLDS     a clone, with git off the PATH: 20 gates of READS_GIT, 20 refused in plain words, 0 pass
+e4  HOLDS     the copy with an empty .git folder: 20 gates of READS_GIT, 20 refused in plain words, 0 pass
+e5  HOLDS     the copy with a .git file pointing nowhere: 20 gates of READS_GIT, 20 refused in plain words, 0 pass
+s1  HOLDS     depth 1: 14 of 14 history gates refused as shallow; 0 of 6 tracked-file gates refused
+s2  HOLDS     depth 500: 14 of 14 history gates refused as shallow; 0 of 6 tracked-file gates refused
+s3  HOLDS     cut by date: 14 of 14 history gates refused as shallow; 0 of 6 tracked-file gates refused
+s4  HOLDS     a full clone cut to depth 5 by a fetch: 14 of 14 history gates refused as shallow; 0 of 6 tracked-file gates refused
+d1  HOLDS     the four seams set to a word that is no date: 4 of 4 gates answer as with no seam
+d2  HOLDS     a commit dated sixty days back (57d6dbe6d): 4 of 4 debt gates refused, naming it
+d3  HOLDS     a rightly dated commit on top: 4 of 4 still refused, naming 57d6dbe6d
+d4  read-out  a commit dated sixty days on: lead-debt fails (lead-debt: 55 open leads of 98, 26 stale (baseline 26); 96 OPEN arcs, ); point-debt fails (point-debt: 787 points, 268 open -- 84 debts (oldest 89 days), 130 lea); relay-debt fails (relay-debt: 630 banked, 68 declined, 45 open |   relay-debt: 42 UNESCA); harvest-debt passes
+
+expectations that hold: 12 of 12
