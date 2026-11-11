@@ -1,0 +1,267 @@
+{
+ "R1": {
+  "W5 [[a,b],[5c,d]] W5^-1": "[[d, -c], [-5*b, a]]",
+  "equals [[d,-c],[-5b,a]]": true
+ },
+ "R2": {
+  "reduced forms of discriminant -20": [
+   [
+    1,
+    0,
+    5
+   ],
+   [
+    2,
+    2,
+    3
+   ]
+  ],
+  "d of gamma, up to sign, by class": {
+   "(1, 0, 5)": [
+    1
+   ],
+   "(2, 2, 3)": [
+    2
+   ]
+  },
+  "matrices examined": 63
+ },
+ "R3": {
+  "|t - (1/s - 11 - s)| at z": "9.783e-39",
+  "|s(delta w) + 1/s(w)| at w = 0.37 + 0.23 i": "8.1342e-40",
+  "|s(-conj z) - conj s(z)|": "0.0",
+  "over t = +5 sqrt5": {
+   "roots real": true,
+   "product": "-1"
+  },
+  "over t = -5 sqrt5": {
+   "roots real": true,
+   "product": "-1"
+  },
+  "over t = -11 + 2i": [
+   "-I"
+  ],
+  "over t = -11 - 2i": [
+   "I"
+  ]
+ },
+ "R4": {
+  "group elements": 8,
+  "commuting": true,
+  "table": {
+   "p1": {
+    "stabiliser": [
+     "1",
+     "W",
+     "mirror",
+     "W.mirror"
+    ],
+    "orbit": [
+     "p1",
+     "p2"
+    ]
+   },
+   "p2": {
+    "stabiliser": [
+     "1",
+     "W",
+     "mirror",
+     "W.mirror"
+    ],
+    "orbit": [
+     "p1",
+     "p2"
+    ]
+   },
+   "p3": {
+    "stabiliser": [
+     "1",
+     "mirror",
+     "delta.W",
+     "delta.W.mirror"
+    ],
+    "orbit": [
+     "p3",
+     "p4"
+    ]
+   },
+   "p4": {
+    "stabiliser": [
+     "1",
+     "mirror",
+     "delta.W",
+     "delta.W.mirror"
+    ],
+    "orbit": [
+     "p3",
+     "p4"
+    ]
+   },
+   "p5": {
+    "stabiliser": [
+     "1",
+     "delta",
+     "W.mirror",
+     "delta.W.mirror"
+    ],
+    "orbit": [
+     "p5",
+     "p6"
+    ]
+   },
+   "p6": {
+    "stabiliser": [
+     "1",
+     "delta",
+     "W.mirror",
+     "delta.W.mirror"
+    ],
+    "orbit": [
+     "p5",
+     "p6"
+    ]
+   }
+  },
+  "orbits": [
+   [
+    "p1",
+    "p2"
+   ],
+   [
+    "p3",
+    "p4"
+   ],
+   [
+    "p5",
+    "p6"
+   ]
+  ],
+  "a point fixed by the whole group": []
+ },
+ "R5": {
+  "numerator of j(t) - j(125/t)": "-(t**2 - 125)*(t**2 - 14*t + 125)*(t**2 + 4*t + 125)*(t**2 + 18*t + 125)*(t**2 + 22*t + 125)",
+  "quadratic factors": {
+   "t**2 - 14*t + 125": {
+    "multiplicity": 1,
+    "j at its roots": [
+     "-884736"
+    ],
+    "|root|^2": [
+     "125"
+    ]
+   },
+   "t**2 - 125": {
+    "multiplicity": 1,
+    "j at its roots": [
+     "632000 + 282880*sqrt(5)",
+     "632000 - 282880*sqrt(5)"
+    ],
+    "|root|^2": [
+     "125"
+    ]
+   },
+   "t**2 + 4*t + 125": {
+    "multiplicity": 1,
+    "j at its roots": [
+     "287496"
+    ],
+    "|root|^2": [
+     "125"
+    ]
+   },
+   "t**2 + 18*t + 125": {
+    "multiplicity": 1,
+    "j at its roots": [
+     "-32768"
+    ],
+    "|root|^2": [
+     "125"
+    ]
+   },
+   "t**2 + 22*t + 125": {
+    "multiplicity": 1,
+    "j at its roots": [
+     "1728"
+    ],
+    "|root|^2": [
+     "125"
+    ]
+   }
+  },
+  "|j(z) - (t^2 + 250 t + 3125)^3/t^5| / |j|, numerically": "1.7413e-40",
+  "points": 10
+ },
+ "R6": {
+  "|-11 + 2i|^2": 125,
+  "(5 sqrt 5)^2": 125,
+  "W.mirror at z: |t(1/(5 conj z)) - 125/conj(t(z))|": "9.5879e-40",
+  "mirror at z: |t(-conj z) - conj t(z)|": "0.0"
+ },
+ "R7": {
+  "LR": [
+   1,
+   1,
+   1,
+   2
+  ],
+  "F squared": [
+   1,
+   1,
+   1,
+   2
+  ],
+  "F squared is LR": true,
+  "det F": -1,
+  "v F mod 5": [
+   3,
+   4
+  ],
+  "3 v mod 5": [
+   3,
+   4
+  ],
+  "F = S^-1 m as matrices": true,
+  "|F(z) - S^-1(m(z))| at a point": "0.0",
+  "v S mod 5 (a multiple of v: S keeps the line)": [
+   3,
+   4
+  ],
+  "v m mod 5 (+-v: m keeps the twin)": [
+   4,
+   2
+  ],
+  "det m": -1
+ },
+ "R8": {
+  "fixed set of t -> 125/t on the quotient by t ~ conj(t)": "t^2 = 125, or |t|^2 = 125",
+  "special points on the arc |t|^2 = 125": [
+   "t = +5 sqrt 5",
+   "t = -5 sqrt 5",
+   "t = -11 +- 2i (one point of the quotient)"
+  ],
+  "stationary points forced on the arc": "the two ends (isolated fixed points of the holomorphic W) and the point over i (elliptic)"
+ },
+ "R9": {
+  "|E1_chi| at (2+i)/5, (-2+i)/5 for chi(2) = +i": [
+   "0.305236",
+   "8.11719e-42"
+  ],
+  "|E1_chi| at (2+i)/5, (-2+i)/5 for chi(2) = -i": [
+   "8.11719e-42",
+   "0.305236"
+  ],
+  "mirror: |E1_chi(-conj z) - conj(E1_chibar(z))|": "0.0",
+  "W: E1_chi(Wz)/(z E1_chibar(z)) at two points": [
+   "(1.17557050458 - 1.90211303259j)",
+   "(1.17557050458 - 1.90211303259j)"
+  ],
+  "|E2*| at the two elliptic points": [
+   "1.13668e-40",
+   "1.13668e-40"
+  ],
+  "E2*/(E1_chi E1_chibar) at two points": [
+   "(-40.0 - 1.9963431187e-40j)",
+   "(-40.0 + 8.30336439029e-41j)"
+  ]
+ }
+}
