@@ -1,0 +1,25 @@
+H1, H2  the run of 6: sectors by the number of golden periods k (post hoc)
+    k = 1  v0.M = +v0   mark v0:   [(1, 60, 1, ['0.5']), (2, 35, 2, ['0.300865', '0.699135'])]
+                        mark 2.v0: [(1, 35, 2, ['0.300865', '0.699135']), (2, 60, 1, ['0.5'])]
+    k = 2  v0.M = -v0   mark v0:   [(1, 145, 2, ['0.391512', '0.608488']), (2, 95, 2, ['0.225903', '0.774097'])]
+                        mark 2.v0: [(1, 95, 2, ['0.225903', '0.774097']), (2, 145, 2, ['0.391512', '0.608488'])]
+    k = 3  v0.M = +v0   mark v0:   [(1, 350, 1, ['0.5']), (2, 250, 2, ['0.182225', '0.817775'])]
+                        mark 2.v0: [(1, 250, 2, ['0.182225', '0.817775']), (2, 350, 1, ['0.5'])]
+    k = 4  v0.M = -v0   mark v0:   [(1, 905, 2, ['0.420657', '0.579343']), (2, 655, 2, ['0.152882', '0.847118'])]
+                        mark 2.v0: [(1, 655, 2, ['0.152882', '0.847118']), (2, 905, 2, ['0.420657', '0.579343'])]
+    k = 5  v0.M = +v0   mark v0:   [(1, 2340, 1, ['0.5']), (2, 1715, 2, ['0.131702', '0.868298'])]
+                        mark 2.v0: [(1, 1715, 2, ['0.131702', '0.868298']), (2, 2340, 1, ['0.5'])]
+    k = 6  v0.M = -v0   mark v0:   [(1, 6115, 2, ['0.43929', '0.56071']), (2, 4490, 2, ['0.115679', '0.884321'])]
+                        mark 2.v0: [(1, 4490, 2, ['0.115679', '0.884321']), (2, 6115, 2, ['0.43929', '0.56071'])]
+    k = 7  v0.M = +v0   mark v0:   [(1, 15980, 1, ['0.5']), (2, 11755, 2, ['0.103133', '0.896867'])]
+                        mark 2.v0: [(1, 11755, 2, ['0.103133', '0.896867']), (2, 15980, 1, ['0.5'])]
+    k = 8  v0.M = -v0   mark v0:   [(1, 41825, 2, ['0.451091', '0.548909']), (2, 30775, 2, ['0.0930418', '0.906958'])]
+                        mark 2.v0: [(1, 30775, 2, ['0.0930418', '0.906958']), (2, 41825, 2, ['0.451091', '0.548909'])]
+
+H3  the declared word for (2,2,2) (post hoc)
+    the specification's string L^2 R^2 L^2, k = 1: word LLRRLLLR  runs [2, 3, 1, 2]  trace 29  keeps +-v0 by rows: False, by columns: False;  M - I: (1, 27)  M + I: (1, 31);  keeps some line of order 5 up to sign: False
+    the specification's string L^2 R^2 L^2, k = 2: word LLRRLLLRLR  runs [2, 3, 1, 1, 1, 2]  trace 77  keeps +-v0 by rows: False, by columns: False;  M - I: (1, 75)  M + I: (1, 79);  keeps some line of order 5 up to sign: True
+    the specification's string L^2 R^2 L^2, k = 3: word LLRRLLLRLRLR  runs [2, 3, 1, 1, 1, 1, 1, 2]  trace 202  keeps +-v0 by rows: False, by columns: False;  M - I: (2, 100)  M + I: (2, 102);  keeps some line of order 5 up to sign: True
+    L^2 R^2 L^2 R, k = 1: word LLRRLLRLR  runs [2, 2, 1, 1, 1, 2]  trace 58  keeps +-v0 by rows: True, by columns: True;  M - I: (1, 56)  M + I: (1, 60);  keeps some line of order 5 up to sign: True
+    L^2 R^2 L^2 R, k = 2: word LLRRLLRLRLR  runs [2, 2, 1, 1, 1, 1, 1, 2]  trace 152  keeps +-v0 by rows: True, by columns: True;  M - I: (5, 30)  M + I: (1, 154);  keeps some line of order 5 up to sign: True
+    L^2 R^2 L^2 R, k = 3: word LLRRLLRLRLRLR  runs [2, 2, 1, 1, 1, 1, 1, 1, 1, 2]  trace 398  keeps +-v0 by rows: True, by columns: True;  M - I: (1, 396)  M + I: (1, 400);  keeps some line of order 5 up to sign: True
