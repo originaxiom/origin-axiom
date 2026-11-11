@@ -1,0 +1,22 @@
+a control on the lane's H4: how often does an unselected point clear the same bar? (the lane's function, unchanged; 4 processes)
+X0  the lane's point 0.251539779 + 0.369767144i: 2 of 96 clear both bands (the lane reports 2); reduced height 1.8488357091486123
+X1  the circle: 120 points evenly in angle, 120 evaluated; 80 clear the bar (66.7%); mean number of the 96 that clear it 3.08
+       angle  26.8 to  32.6 degrees, reduced height 1.009 to 1.206:  0 of 12 clear the bar
+       angle  33.2 to  39.0 degrees, reduced height 1.224 to 1.407:  0 of 12 clear the bar
+       angle  39.5 to  45.3 degrees, reduced height 1.423 to 1.590:  0 of 12 clear the bar
+       angle  45.9 to  51.7 degrees, reduced height 1.605 to 1.754:  8 of 12 clear the bar
+       angle  52.2 to  58.0 degrees, reduced height 1.767 to 1.897: 12 of 12 clear the bar
+       angle  58.5 to  64.4 degrees, reduced height 1.908 to 2.016: 12 of 12 clear the bar
+       angle  64.9 to  70.7 degrees, reduced height 2.025 to 2.110: 12 of 12 clear the bar
+       angle  71.2 to  77.0 degrees, reduced height 2.117 to 2.179: 12 of 12 clear the bar
+       angle  77.6 to  83.4 degrees, reduced height 2.184 to 2.221: 12 of 12 clear the bar
+       angle  83.9 to  89.7 degrees, reduced height 2.223 to 2.236: 12 of 12 clear the bar
+X3  the circle by the height of the reduced point: upper half 60 of 60 clear the bar, lower half 20 of 60
+X2  the domain: 200 points evenly in hyperbolic area below height 3 (seed 20261111), 200 evaluated; 39 clear the bar (19.5%); mean number of the 96 that clear it 0.85
+       reduced height 1.0 to 1.5:   0 of 119 clear the bar
+       reduced height 1.5 to 2.0:  25 of  50 clear the bar
+       reduced height 2.0 to 2.5:  10 of  10 clear the bar
+       reduced height 2.5 to 3.5:   4 of   4 clear the bar
+points the lane's function could not evaluate: 0
+total 2569 s in 4 processes
+control exit 0
