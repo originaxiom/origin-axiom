@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1591 |
-| … PROVED | 1099 |
+| arcs with a verdict file | 1592 |
+| … PROVED | 1100 |
 | … NEGATIVE | 383 |
 | … OPEN | 97 |
 | … RETRACTED | 12 |
@@ -24,13 +24,14 @@
 | … OWNER | 6 |
 | … DONE | 505 |
 | … DECLINED | 12 |
-| harvest rows (the last number) | 1700 |
+| harvest rows (the last number) | 1706 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1890 | PROVED | THE FIRST PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7), BUILT BY THE ADVISOR SEAT, VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED: four patches under the rule that a gate is a function of the commit (a gate that needs… |
 | B1889 | PROVED | THE SEATS, DIGESTED AT THE OWNER'S WORD (a measurement of the harvest ledger as it stood on main at 338b14fe3, with five read-only readers' themes whose quotes are checked; nothing in the mathematics is computed, no dat… |
 | B1888 | PROVED | THE REPOSITORY'S PUBLIC FORM, SCRUTINISED BY MAIN AT THE OWNER'S WORD (a measurement of the record and main's judgement on the advisor seat's three-part proposal; no data file opened): BY ITS CODE THE CANDIDATE USES AT… |
 | B1887 | PROVED | THE WEB SEAT'S CHECK OF THE AGY LANE'S LOOP, VERIFIED ON MAIN BY ANOTHER ROUTE (thread facts about single histories and their bundles, and one classical fact about root lattices; data-free; 35 checks, none failing; for… |
@@ -42,7 +43,6 @@
 | B1881 | PROVED | THE WEB SEAT'S TWO RELAYS OF 2026-11-11 ON THE MISSING READ-OUT OF THE WHOLE, VERIFIED ON MAIN WITH MAIN'S OWN CODE (P-776; B1872 § 3, B1875 § 7; data-free; 65 checks, none failing; nothing selected and nothing compared… |
 | B1880 | PROVED | THE ADVISOR SEAT'S THIRD AND FOURTH RE-AUDITS OF MAIN, HARVESTED, REPRODUCED AND ANSWERED (re-audit 3 of main at b28dceea8, re-audit 4 at 015be0cc7; data-free, gates and the programme's builder only): every residual the… |
 | B1879 | PROVED | THE WEAVE'S THEOREMS WITH THE EXCHANGE ADDED: THE COMPUTATION THE OWNER ASKED FOR BEFORE DECIDING HOW 'THE TICK IS AN ACT' STANDS WITH 'EVEN TICKS OBSERVED' (P-769, P-771; data-free; it decides nothing and says what eac… |
-| B1878 | PROVED | THE GOAL AS THE OWNER RULED IT, CARRIED INTO THE GOVERNING DOCUMENTS; TWO GATES (the first landing of P-767: rulings R1 and R3 of the eleven confirmed to main on 2026-11-10; nothing computed, no status of the foundation… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -58,6 +58,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p THE FIRST PATCH SERIES FOR ENFORCEMENT, VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (WP-0.7; B1890); THE FINDING E7 FIXED AND ACCEPTED (WP-0.8); TWO SEATS NAME THEMSELVES (2026-11-11)
 - S306p THE SEATS' PAGES, THE CARD AND THE LISTENER: MAIN DIRECTS THE SEATS AND NOBODY RELAYS BY HAND (the owner's ruling; P-795, with P-794, P-796, P-797) (2026-11-11)
 - S306p THE ADVISOR SEAT'S SIXTH RE-AUDIT TAKEN (WP-0.8): THE FINDING E5 IS FIXED AND ACCEPTED; THE FINDING E2'S ONE LINE IS MENDED (P-792, P-793) (2026-11-11)
 - S306p THE SEATS, DIGESTED AT THE OWNER'S WORD, AND MAIN'S PROPOSAL FOR THE LOCK (B1889; P-788, P-790, P-791) (2026-11-11)
@@ -65,11 +66,10 @@
 - S306p THE ERRORS IN THE MATHEMATICS, THE SECOND OF THE NINE LEFT (WP-0.8): A SCAN THAT NEVER REFINED, REPLACED BY THE JOINT EIGENVALUES (E5) (2026-11-11)
 - S306p THE REPOSITORY'S PUBLIC FORM, SCRUTINISED AT THE OWNER'S WORD (B1888; P-787) (2026-11-11)
 - S306p THE ERRORS IN THE MATHEMATICS, THE FIRST OF NINE (WP-0.8): THE KNOT GROUP'S CONGRUENCE LEVEL IS (4), AND THE LOCK NOW SAYS SO (E2) (2026-11-11)
-- S306p THE FIVE PACKAGES HANDED TO THE ADVISOR SEAT (P-785), ITS RESIDUAL ON THE ORDER CLOSED, MAIN'S UNSEEN CASES SEALED (2026-11-11)
 
 ## The latest campaign line
 
-LATEST (2026-11-11, S306p: THE SEATS' PAGES, THE CARD AND THE LISTENER (the owner's ruling, P-795), AND THE ADVISOR SEAT'S SIXTH RE-AUDIT TAKEN (WP-0.8).** Main directs the seats and nobody relays by hand: one page for each seat under docs/seats/, one protocol page, a listener each seat runs (scripts/seats/listen.py), a card before each piece of work, approved once. Four seats verify and the advisor seat builds (P-792, P-794): the SM seat verifies the physical lane; the web seat re-audits main's corrections and verifies the agy lane's theorems and the SM seat's items under 21 banked arcs; agy-exp verifies pure mathematics; agy-002 derives three headline results again from their statements;…
+LATEST (2026-11-11, S306p: B1890 — THE FIRST PATCH SERIES FOR ENFORCEMENT VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (WP-0.7); THE FINDING E7 FIXED AND ACCEPTED (WP-0.8).** Four patches of the advisor seat's, under the rule that a gate is a function of the commit, are on main. Eight of main's nine unseen cases hold (an export with an empty git directory; the five gates the seat's list did not name; every date variable and a stubbed clock 400 days on; depth 1, depth 50 and a hand-cut clone); one does not, a repository with no commit, where nine gates pass with nothing to look at: the seat's to close, pinned by a lock. E7 is accepted by the seat's seventh re-audit: thirteen findings fixed a…
 
 ## Completeness (nothing skipped silently)
 

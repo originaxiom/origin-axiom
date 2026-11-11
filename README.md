@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.65) of 2026-11-11 |
-| arcs with a verdict | 1591: 1099 PROVED, 383 NEGATIVE, 97 OPEN, 12 RETRACTED |
+| arcs with a verdict | 1592: 1100 PROVED, 383 NEGATIVE, 97 OPEN, 12 RETRACTED |
 | points in the register | 799: 282 open (queued, leads, waiting for the owner), 517 closed |
 | the last review | Review 78 (2026-11-11), anchor `38d2a36dc` |
-| the last landing | S306p THE SEATS' PAGES, THE CARD AND THE LISTENER: MAIN DIRECTS THE SEATS AND NOBODY RELAYS BY HAND (the owner's ruling; P-795, with P-794, P-796, P-… |
+| the last landing | S306p THE FIRST PATCH SERIES FOR ENFORCEMENT, VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (WP-0.7; B1890); THE FINDING E7 FIXED AND ACCEPTED (WP-0.8… |
 <!-- STATE:END -->
 
 ## Start here

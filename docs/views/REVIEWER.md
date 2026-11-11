@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1591** |
-| words of findings prose | **1,392,367** |
+| research arcs with findings | **1592** |
+| words of findings prose | **1,393,877** |
 | test lock files referenced | **940** |
-| arcs carrying an authored verdict | **1591** (100.0 %) |
+| arcs carrying an authored verdict | **1592** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1099 |
+| PROVED | 1100 |
 | NEGATIVE | 383 |
 | OPEN | 97 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1889`** (3856 words, 0 locks)  
-THE SEATS, DIGESTED AT THE OWNER'S WORD (a measurement of the harvest ledger as it stood on main at 338b14fe3, with five read-only readers' themes whose quotes are checked; nothing in the mathematics is computed, no data file is opened, the agy lane is read through the mask only): THE SEATS HAVE SENT 1686 ITEMS AND MAIN HAS RECOMPUTED 377 OF THEM ITSELF, of which 349 held and 28 differed, the fault being main's in at least three of those; 455 were read without recomputation, 560 are registered and were never fully read (239 of them the physical lane's and its fork lane's, 160 the SM seat's), 233 were closed by triage and 55 are not read, 46 of those from seats that have ended. Every row falls to exactly one of 23 seats. FOUR SEATS ARE WORKING: the web seat (233 items; 69 recomputed, 58 held), the advisor seat (46; an audit of 73 findings, of which main has reproduced or mended all but three a reader alone saw), the agy lane (32; value-free mathematics verified in part in ten rows, a refutation, a decline or a correction in fourteen, read through the mask) and the physical lane (308 and 53 on its fork; 31 recomputed and none differing, two thirds registered only). The readers flagged 74 items as not used and possibly bearing on the goal, which main has not judged (P-791). MAIN IS THE ONLY BUILDER NAMED FOR 26 OF THE PLAN'S 43 PACKAGES AND 18 OF ITS 26 PACKAGES OF MATHEMATICS ARE NOT STARTED. The page ends in main's proposal for the lock the owner asked for, NOT IN FORCE: the programme in three stages with two of them side by side; a role for each seat by its record; verification in a ring, no seat verifying its own work; one card for each piece of work, approved once; and three things only the owner can settle (the standard, the team, the order).  
-`B1889_the_seats_digested/FINDINGS.md`
+**PROVED — `B1890`** (1464 words, 0 locks)  
+THE FIRST PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7), BUILT BY THE ADVISOR SEAT, VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED: four patches under the rule that a gate is a function of the commit (a gate that needs git is refused where there is none; a gate that reads the past is refused on a shallow clone; a gate's day is the commit's and not the clock's; a commit dated before its parent is not trusted for its day). EIGHT OF MAIN'S NINE UNSEEN CASES HOLD: on an export with an empty .git directory all 20 gates of the table are refused, the five gates the seat's own list of ten did not name among them; with the five date variables set 400 days on and 30 days back, and with the system's date stubbed 400 days on, no gate of 53 changes its line; at depth 1, at depth 50 and on a full clone cut by a hand-written shallow file, all 14 gates that read the past are refused. ONE DOES NOT HOLD: a folder initialised as a repository with no commit is read as a full clone, and nine gates that have nothing to look at pass there; it is the seat's to close in a later series. Each patch's lock fails on the commit before it in the numbers the seat gave (7 of 7, 2, 4, 2); the series' lock passes (14); main's 47 test files that name a gate pass once the views are generated; 53 gates pass. Not run: the whole suite on a fresh clone, and the seat's planted suite, whose 11 of 21 is the seat's count.  
+`B1890_the_first_enforcement_series_verified_and_landed/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  

@@ -16508,6 +16508,15 @@
    "status": "open",
    "domain": "arithmetic"
   },
+  "B1890": {
+   "slug": "the first enforcement series verified and landed",
+   "motifs": [],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B189": {
    "slug": "omega causal dimension",
    "motifs": [
