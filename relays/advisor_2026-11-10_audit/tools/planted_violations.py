@@ -10,10 +10,12 @@ whether the violation was CAUGHT (a named gate returned False) or NOT CAUGHT. Th
 DIR must be outside the repository (it will hold a full checkout). Exit status = the number of cases NOT CAUGHT.
 The CTL cases are controls: violations the gates catch today. If a control is not reported CAUGHT the instrument
 is not valid on that commit and its other lines are not to be read.
-Cases that cannot be automated here are listed as MANUAL with the finding that describes them.
+Since 2026-11-11 no case is listed as MANUAL: the six that were are planted by the suite itself.  Before any case is read,
+the gates the cases name are run on the clean clone: a case whose gates are all red there reads COULD-NOT-RUN.  A case
+added since that date has a TWIN, the same plant with the violation taken out, on which the same gates must pass.
 Standard library only. Read-only on the repository it is run from.
 """
-import argparse, base64, glob, json, os, re, shutil, subprocess, sys, datetime
+import argparse, base64, glob, hashlib, json, os, re, shutil, subprocess, sys, datetime
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.abspath(os.path.join(HERE, "..", "..", ".."))
@@ -143,6 +145,128 @@ def pv24(c):
 
 
 # ---- controls: violations the gates DO catch today; the instrument is valid only if it reports them CAUGHT ----------
+def ask(c, expr):
+    """what the clone's own gates' file answers for one expression"""
+    code = "import sys, json; sys.path.insert(0, 'scripts/gates'); import gates\nprint('@@' + json.dumps(%s))\n" % expr
+    r = sh([sys.executable, "-B", "-c", code], c)
+    m = re.search(r"@@(.*)", r.stdout)
+    if not m: raise RuntimeError("the gates' file did not answer: " + (r.stderr or r.stdout)[-200:])
+    return json.loads(m.group(1))
+
+
+_SEALED = "frontier/B1841_the_principled_ends_card/PREREGISTRATION.md"
+
+
+def _dated_row(c, rel, text, what):
+    led = read(c, "docs/SEAL_LEDGER.md")
+    write(c, "docs/SEAL_LEDGER.md", led.rstrip("\n") + "\n\n| 2026-11-11 | B1841 %s | `%s` | `%s` |\n" % (what, rel, hashlib.sha256(text.encode("utf-8")).hexdigest()))
+
+
+def pv5(c):
+    new = read(c, _SEALED) + "\nP9 (added after the seal): pass.\n"
+    write(c, _SEALED, new)
+    h8 = hashlib.sha256(new.encode("utf-8")).hexdigest()[:8]
+    led = read(c, "docs/SEAL_LEDGER.md")
+    m = re.search(r"^\| " + re.escape(_SEALED) + r" \| ([0-9a-f]{8}) \|", led, re.M)
+    if not m: raise RuntimeError("no generated row for the sealed file found")
+    write(c, "docs/SEAL_LEDGER.md", led[:m.start(1)] + h8 + led[m.end(1):])     # the generated row is made to agree with the edit
+    _dated_row(c, _SEALED, new, "a planted re-seal")                            # and a dated row carries the whole new digest
+    return "the edit; its generated row moved from %s to %s; a dated row with the whole new digest" % (m.group(1), h8)
+
+
+def pv5_twin(c):
+    """the same act done as the rule allows: the amendment is a new file beside the seal, with its own two rows"""
+    rel = _SEALED.replace("PREREGISTRATION.md", "PREREGISTRATION_AMENDMENT_1.md")
+    new = "# An amendment beside the seal (planted)\n\nP9 (added after the seal, in a file of its own): pass.\n"
+    write(c, rel, new)
+    led = read(c, "docs/SEAL_LEDGER.md")
+    m = re.search(r"^\| " + re.escape(_SEALED) + r" \|[^\n]*\n", led, re.M)
+    if not m: raise RuntimeError("no generated row for the sealed file found")
+    write(c, "docs/SEAL_LEDGER.md", led[:m.end()] + "| %s | %s | 000000000 | 1 | NO |\n" % (rel, hashlib.sha256(new.encode("utf-8")).hexdigest()[:8]) + led[m.end():])
+    _dated_row(c, rel, new, "a planted amendment beside the seal")
+
+
+def _a_negative(c, claim):
+    src = json.loads(open(glob.glob(os.path.join(c, "frontier", "B1857_*", "arc_verdict.json"))[0], encoding="utf-8").read())
+    src.update(id="B9003", verdict="NEGATIVE", depends_on=[], claim_one_line=claim)
+    d = "frontier/B9003_a_planted_negative_on_one_thread/"
+    write(c, d + "arc_verdict.json", json.dumps(src, indent=1) + "\n")
+    write(c, d + "FINDINGS.md", "# FINDINGS\n\n" + claim + "\n")
+
+
+def pv23(c):
+    before = ask(c, "gates.member_scope_hits()")
+    for arc, _phrase in before:
+        found = glob.glob(os.path.join(c, "frontier", arc + "_*", "arc_verdict.json"))
+        if len(found) == 1: break
+    else: raise RuntimeError("no old line worded about the object on this commit")
+    d = json.loads(open(found[0], encoding="utf-8").read())
+    d["claim_one_line"] = re.sub(r"(?i)\bthe object\b", "the member m003", d["claim_one_line"])     # the old line now names a member
+    open(found[0], "w", encoding="utf-8").write(json.dumps(d, indent=1, ensure_ascii=False) + "\n")
+    _a_negative(c, "PLANTED: on the one thread LLR the object cannot carry a third generation.")
+    after = ask(c, "gates.member_scope_hits()")
+    return "%d such lines before, %d after: %s reworded to name a member, B9003 added" % (len(before), len(after), arc)
+
+
+def pv23_twin(c):
+    _a_negative(c, "PLANTED: on the one thread LLR the member m004 cannot carry a third generation.")
+
+
+def _a_lock_that_reads(c, name, commit_it):
+    d = "frontier/B9002_a_planted_lock/verification/"
+    write(c, d + "test_b9002_a_planted_lock.py",
+          'import pathlib\n\nHERE = pathlib.Path(__file__).resolve().parent\n\n\ndef test_the_run_reproduces():\n'
+          '    assert "converged" in (HERE / "%s").read_text()\n' % name)
+    if commit_it: write(c, d + name, "converged\n")
+
+
+def pv25(c): _a_lock_that_reads(c, "run.log", False)          # .gitignore holds *.log: a clean checkout will not have the file
+
+def pv25_twin(c): _a_lock_that_reads(c, "run.txt", True)
+
+
+def _a_lock_through_a_second_name(c, name, commit_it):
+    """the form of the lock the gate's own note names (B1671's): the root, then the arc, then its folder, then the file"""
+    arc = "B9005_a_planted_lock_with_two_names"
+    write(c, "tests/test_b9005_a_planted_lock_with_two_names.py",
+          'import pathlib\n\nROOT = pathlib.Path(__file__).resolve().parents[1]\nA = ROOT / "frontier" / "%s"\nV = A / "verification"\n\n\n'
+          'def test_the_run_reproduces():\n    assert "converged" in (V / "%s").read_text()\n' % (arc, name))
+    write(c, "frontier/%s/verification/README.md" % arc, "# a planted arc\n")
+    if commit_it: write(c, "frontier/%s/verification/%s" % (arc, name), "converged\n")
+
+
+def pv32(c): _a_lock_through_a_second_name(c, "run.log", False)
+
+def pv32_twin(c): _a_lock_through_a_second_name(c, "run.txt", True)
+
+
+def _a_lock_that_runs(c, check):
+    d = "frontier/B9004_a_planted_lock_that_runs_a_script/verification/"
+    write(c, d + "third.py", "print('one third = %.17f' % (1 / 3))\n")
+    write(c, d + "test_b9004_a_planted_lock_that_runs_a_script.py",
+          'import pathlib, subprocess, sys\n\nHERE = pathlib.Path(__file__).resolve().parent\n\n\ndef test_the_run_reproduces():\n'
+          '    out = subprocess.run([sys.executable, str(HERE / "third.py")], capture_output=True, text=True).stdout\n' + check)
+
+
+def pv26(c): _a_lock_that_runs(c, '    assert "one third = 0.33333333333333331" in out\n')
+
+def pv26_twin(c): _a_lock_that_runs(c, '    assert abs(float(out.split("=")[1]) - 1 / 3) < 1e-12\n')
+
+
+def _edit_a_lock(c, above):
+    rel = "tests/test_derived_potential.py"                 # a lock that no list of hashes names
+    t = read(c, rel)
+    m = re.search(r"^def (test_\w+)\(", t, re.M)
+    if not m: raise RuntimeError("no test function found in " + rel)
+    write(c, rel, t[:m.start()] + "import pytest as _planted_pytest\n\n\n" + above + t[m.start():])
+    return m.group(1)
+
+
+def pv31(c): return "a skip mark on " + _edit_a_lock(c, "@_planted_pytest.mark.skip(reason='planted')\n")
+
+def pv31_twin(c): return "a comment above " + _edit_a_lock(c, "# a comment, and no mark\n")
+
+
 def pv30(c):
     head = sh(["git", "rev-parse", "--short=9", "HEAD"], c).stdout.strip()
     write(c, "docs/progress/REVIEWS.md", read(c, "docs/progress/REVIEWS.md")
@@ -203,16 +327,27 @@ CASES = [
     ("PV20", "G10", "a PROVEN row in CLAIMS.md that cites no lock", pv20, True, None, ["claims"]),
     ("PV21", "G10", "a banned phrase in a .tex file and a capitalised variant in README.md", pv21, True, None, ["framing"]),
     ("PV24", "L7", "a test whose only assert is `assert 1 != 2`", pv24, True, None, ["test-vacuity"]),
+    # added 2026-11-11 (series 4): the cases this suite listed as manual, planted by the suite itself; and M5's
+    ("PV5", "G2", "edit a sealed file and write its new digest into both of the ledger's rows, commit", pv5, True, None, ["seal-immutable", "seal-digests", "seal-ledger-current"]),
+    ("PV23", "W1", "a new NEGATIVE worded about the object, and an old one reworded so the count stays, commit", pv23, True, None, ["member-scope"]),
+    ("PV25", "L4", "an arc's own lock that reads a file git ignores, commit", pv25, True, None, ["tracked-deps"]),
+    ("PV32", "L4", "a lock in tests/ that names an ignored file through a second name, commit", pv32, True, None, ["tracked-deps"]),
+    ("PV26", "L6", "a lock that runs a script and pins a float it prints, as text, commit", pv26, True, None, ["test-vacuity"]),
+    ("PV31", "new", "a test of a lock that no hash list names is made to skip, commit (M5)", pv31, True, None, ["test-vacuity"]),
     # added 2026-11-11 (series 4): found on main's f9e70c167 while reading main's page on the periodic review
     ("PV30", "new", "a sentence on the reviews' page that names the head as an anchor, commit", pv30, True, None, ["review-fires"]),
 ]
-MANUAL = [
-    ("PV5", "G2", "edit a sealed file and append a ledger row with the new digest (needs the ledger's row shapes)"),
-    ("PV7", "G3", "remove the generated ledger rows and regenerate twice; the two runs must agree"),
-    ("PV23", "W1", "a new one-thread NEGATIVE worded about the object, plus one old line reworded"),
-    ("PV25", "L4", "a lock that reads a git-ignored file -- no gate exists today"),
-    ("PV26", "L6", "a lock that compares printed floats as text -- no gate exists today"),
-    ("PV27", "L10", "a test run that writes to a tracked file -- no gate exists today"),
+MANUAL = []          # until 2026-11-11 six cases stood here; the suite now plants them itself (PV5, PV7, PV23, PV25, PV26, PV27)
+
+# Added 2026-11-11 (series 4).  A twin is the same plant with the violation taken out: every gate its case names must PASS on
+# it.  A twin that fails means the gate fires on the plant's shape and not on the violation, and its case cannot be read.
+TWINS = [
+    ("PV5", "the amendment as a new file beside the seal, with its two rows", pv5_twin, ["seal-immutable", "seal-digests", "seal-ledger-current"]),
+    ("PV23", "the same new NEGATIVE worded about the member", pv23_twin, ["member-scope"]),
+    ("PV25", "the same lock reading a file that is committed", pv25_twin, ["tracked-deps"]),
+    ("PV32", "the same lock reading a file that is committed", pv32_twin, ["tracked-deps"]),
+    ("PV26", "the same lock comparing the number as a number", pv26_twin, ["test-vacuity"]),
+    ("PV31", "the same lock edited with no mark", pv31_twin, ["test-vacuity"]),
 ]
 
 
@@ -250,6 +385,65 @@ def special_shallow(c, work):
     r = run_gates(d, ["lead-debt"])["lead-debt"]
     ok = (r[0] is False) and ("shallow" in r[1].lower())
     return ok, "lead-debt on the shallow clone: %s (%s)" % ("PASS" if r[0] else "FAIL", r[1][:90])
+
+
+_GEN_ROW = re.compile(r"^\| frontier/B[^ |]+ \| [0-9a-f]{8} \|.*$", re.M)
+
+
+def _ledger_rebuilt_twice(c):
+    """remove the ledger's generated rows, run the generator twice: (rows after the first run, after the second, what it printed)"""
+    rel = "docs/SEAL_LEDGER.md"
+    write(c, rel, _GEN_ROW.sub("", read(c, rel)))
+    runs, said = [], []
+    for _ in range(2):
+        r = sh([sys.executable, "-B", os.path.join("scripts", "seal_ledger.py")], c)
+        runs.append(_GEN_ROW.findall(read(c, rel))); said.append((r.stdout.strip().splitlines() or ["(nothing printed)"])[-1])
+    return runs[0], runs[1], said
+
+
+def special_ledger_twice(c, work):
+    """PV7: the seal ledger's generated rows, removed and rebuilt twice, must come out the same both times."""
+    committed = _GEN_ROW.findall(read(c, "docs/SEAL_LEDGER.md"))
+    if not committed: return None, "no generated row found in the ledger"
+    first, second, said = _ledger_rebuilt_twice(c)
+    differ = sum(1 for a, b in zip(first, second) if a != b) + abs(len(first) - len(second))
+    # the twin: the same two runs with the generator made to read the ledger as evidence for itself, as it did when the case
+    # was found.  The two runs must then DIFFER, or this case cannot tell a mended generator from an unmended one.
+    sh(["git", "checkout", "-q", "--", "docs/SEAL_LEDGER.md"], c)
+    gen = read(c, "scripts/seal_ledger.py")
+    old = '        if rel_t == "docs/SEAL_LEDGER.md":\n            continue\n'
+    if old in gen:
+        write(c, "scripts/seal_ledger.py", gen.replace(old, ""))
+        t1, t2, _ = _ledger_rebuilt_twice(c)
+        twin = sum(1 for a, b in zip(t1, t2) if a != b) + abs(len(t1) - len(t2))
+        tells = "with the generator reading its own ledger again, %d rows differ between the two runs" % twin
+    else:
+        twin, tells = (1 if differ else 0), "the generator has no line that leaves its own ledger out: it is as it was when the case was found"
+    if differ == 0 and twin == 0: return None, "the two runs agree, and they agree with the old fault planted too: the case cannot tell (%s)" % tells
+    return (differ == 0 and len(first) == len(committed)), ("%d generated rows removed; rebuilt: %d, then %d; rows that differ between the two runs: %d; "
+            "the generator printed '%s', then '%s'; %s" % (len(committed), len(first), len(second), differ, said[0], said[1], tells))
+
+
+def _a_test_that_writes(c, name, where):
+    write(c, "tests/" + name,
+          "import pathlib\n\nROOT = pathlib.Path(__file__).resolve().parents[1]\n\n\ndef test_it_reproduces(tmp_path):\n"
+          "    p = %s\n    p.write_text('a line written by a test run\\n')\n    assert p.read_text()\n" % where)
+    sh(["git", "add", "-A"], c); sh(["git"] + WHO + ["commit", "-q", "-m", "a planted test (PV27)"], c)
+    r = sh([sys.executable, "-B", "-m", "pytest", "-q", "-p", "no:cacheprovider", "tests/" + name], c, env=dict(os.environ, PYTHONDONTWRITEBYTECODE="1"))
+    changed = sh(["git", "status", "--porcelain", "--untracked-files=no"], c).stdout.split()
+    sh(["git", "checkout", "-q", "--", "."], c)
+    return r.returncode, (r.stdout + r.stderr), changed
+
+
+def special_writes_tracked(c, work):
+    """PV27: a test run that writes to a tracked file must end red, and name the file."""
+    rc, out, changed = _a_test_that_writes(c, "test_zz_planted_writes_a_tracked_file.py", "ROOT / 'CHANGELOG.md'")
+    if "CHANGELOG.md" not in changed: return None, "the planted test did not change the tracked file: " + out[-160:]
+    rc2, out2, changed2 = _a_test_that_writes(c, "test_zz_planted_writes_nothing_tracked.py", "tmp_path / 'CHANGELOG.md'")
+    if rc2 != 0 or changed2: return None, "the twin, which writes under a temporary folder, ended with status %d: the case cannot be read" % rc2
+    caught = rc != 0 and "CHANGELOG.md" in out
+    return caught, ("the run of a test that rewrites CHANGELOG.md ended with status %d and %s the file; the twin that writes under a temporary folder ended with status 0"
+                    % (rc, "names" if "CHANGELOG.md" in out else "does not name"))
 
 
 def special_seams(c, work):
@@ -291,6 +485,12 @@ def main():
     reset = lambda: (sh(["git", "reset", "-q", "--hard", base], c), sh(["git", "clean", "-fdq"], c))
     rows, missed, invalid = [], 0, 0
     print("planted-violation suite at %s (%s)\n" % (a.ref, base[:9]))
+    # Added 2026-11-11: a case can be read only if the gates it names pass before anything is planted.  A gate that is red on
+    # the clean clone would read every case that names it as CAUGHT.
+    named = sorted({g for row in CONTROLS + CASES for g in row[6]})
+    clean = run_gates(c, named)
+    red_before = sorted(g for g in named if clean[g][0] is not True)
+    print("the %d gates the cases name, on the clean clone: %s\n" % (len(named), "all pass" if not red_before else "RED BEFORE ANY PLANT: " + ", ".join(red_before)))
     for pid, finding, what, mut, commit, msg, gates in CONTROLS + CASES:
         if only and pid not in only: continue
         if pid == "PV1": print()
@@ -300,8 +500,8 @@ def main():
             if commit:
                 sh(["git", "add", "-A"], c); sh(["git"] + WHO + ["commit", "-q", "-m", msg or "a planted violation (%s)" % pid], c)
             res = run_gates(c, gates)
-            caught = [g for g, r in res.items() if r[0] is False]
-            ok = bool(caught)
+            caught = [g for g, r in res.items() if r[0] is False and g not in red_before]
+            ok = bool(caught) if not all(g in red_before for g in gates) else None
             detail = "; ".join("%s=%s" % (g, "FAIL" if r[0] is False else "PASS" if r[0] else "?") for g, r in res.items())
         except Exception as exc:
             ok, detail, note = None, "COULD NOT PLANT: %r" % (exc,), ""
@@ -310,18 +510,37 @@ def main():
         else: missed += ok is False
         rows.append((pid, finding, tag, what, detail + ((" [" + note + "]") if note else "")))
         print("%-5s %-4s %-13s %s\n      %s" % rows[-1])
-    reset()
-    for pid, fn in (("PV9", special_export), ("PV15", special_dates), ("PV22", special_shallow), ("PV28", special_seams), ("PV29", special_redirect)):
+    print()
+    twin_fails = 0
+    for pid, what, mut, gates in TWINS:
         if only and pid not in only: continue
+        reset()
+        try:
+            note = mut(c) or ""
+            sh(["git", "add", "-A"], c); sh(["git"] + WHO + ["commit", "-q", "-m", "a twin with no violation (%s)" % pid], c)
+            res = run_gates(c, gates)
+            fails = [g for g, r in res.items() if r[0] is not True and g not in red_before]
+            detail = "; ".join("%s=%s" % (g, "FAIL: " + r[1][:110] if r[0] is False else "PASS" if r[0] else "?") for g, r in res.items())
+        except Exception as exc:
+            fails, detail, note = ["could not plant"], "COULD NOT PLANT: %r" % (exc,), ""
+        twin_fails += bool(fails)
+        print("%-5s twin %-12s %s\n      %s" % (pid, "FAILS" if fails else "PASSES", what, detail + ((" [" + note + "]") if note else "")))
+    print()
+    for pid, fn in (("PV9", special_export), ("PV15", special_dates), ("PV22", special_shallow), ("PV28", special_seams), ("PV29", special_redirect),
+                    ("PV7", special_ledger_twice), ("PV27", special_writes_tracked)):
+        if only and pid not in only: continue
+        reset()
         try: ok, detail = fn(c, work)
         except Exception as exc: ok, detail = None, "COULD NOT RUN: %r" % (exc,)
         tag = "CAUGHT" if ok else "COULD-NOT-RUN" if ok is None else "NOT CAUGHT"
         missed += ok is False
-        print("%-5s %-4s %-13s %s\n      %s" % (pid, {"PV9": "G5", "PV15": "G6", "PV22": "G13", "PV28": "G6", "PV29": "G5"}[pid], tag, fn.__doc__.split(":")[1].strip()[:90], detail))
+        print("%-5s %-4s %-13s %s\n      %s" % (pid, {"PV9": "G5", "PV15": "G6", "PV22": "G13", "PV28": "G6", "PV29": "G5", "PV7": "G3", "PV27": "L10"}[pid], tag, fn.__doc__.split(":")[1].strip()[:90], detail))
     if not only:
         print()
         for pid, finding, what in MANUAL: print("%-5s %-4s %-13s %s" % (pid, finding, "MANUAL", what))
+    reset()
     print("\ncontrols not reported CAUGHT: %d%s" % (invalid, "  -- THE INSTRUMENT IS NOT VALID ON THIS COMMIT" if invalid else ""))
+    print("twins that do not pass: %d%s" % (twin_fails, "  -- THE CASE OF EACH SUCH TWIN IS NOT TO BE READ" if twin_fails else ""))
     print("NOT CAUGHT: %d" % missed)
     sys.exit(missed + 100 * invalid)
 
