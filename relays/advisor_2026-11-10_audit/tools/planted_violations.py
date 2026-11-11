@@ -289,7 +289,7 @@ def _own_lock(c, folder):
 
 
 _NEW = "B9020_a_planted_arc_with_a_grade"
-_V = "frontier/" + _NEW + "/verification/"
+_NEW_DIR = "frontier/" + _NEW + "/verification/"
 _SCRIPT = "print(sum(range(10)))\n"
 _LOCK = "def test_the_sum():\n    assert sum(range(10)) == 45\n"
 
@@ -302,20 +302,20 @@ def pv34(c): _grade(c, _NEW, grade="proved beyond doubt", grade_evidence=[])
 
 def pv34_twin(c): _grade(c, _NEW, grade="process", grade_evidence=[])
 
-def pv35(c): _grade(c, _NEW, grade="exact computation", grade_evidence=[_V + "sum.py", _V + "test_b9020_the_sum.py"])
+def pv35(c): _grade(c, _NEW, grade="exact computation", grade_evidence=[_NEW_DIR + "sum.py", _NEW_DIR + "test_b9020_the_sum.py"])
 
 
 def pv35_twin(c):
-    pv35(c); write(c, _V + "sum.py", _SCRIPT); write(c, _V + "test_b9020_the_sum.py", _LOCK)
+    pv35(c); write(c, _NEW_DIR + "sum.py", _SCRIPT); write(c, _NEW_DIR + "test_b9020_the_sum.py", _LOCK)
 
 
 def pv36(c):
-    _grade(c, _NEW, grade="numerical estimate", grade_evidence=[_V + "sum.py"]); write(c, _V + "sum.py", _SCRIPT)
+    _grade(c, _NEW, grade="numerical estimate", grade_evidence=[_NEW_DIR + "sum.py"]); write(c, _NEW_DIR + "sum.py", _SCRIPT)
 
 
 def pv36_twin(c):
-    _grade(c, _NEW, grade="numerical estimate", grade_evidence=[_V + "sum.py", _V + "sum_run.txt"])
-    write(c, _V + "sum.py", _SCRIPT); write(c, _V + "sum_run.txt", "45\n")
+    _grade(c, _NEW, grade="numerical estimate", grade_evidence=[_NEW_DIR + "sum.py", _NEW_DIR + "sum_run.txt"])
+    write(c, _NEW_DIR + "sum.py", _SCRIPT); write(c, _NEW_DIR + "sum_run.txt", "45\n")
 
 
 def _sealed(c, held, of):
