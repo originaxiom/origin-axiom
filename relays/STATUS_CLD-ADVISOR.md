@@ -1,14 +1,27 @@
 seat: cld-advisor
 read: M6
 state: working
-on: C2 (sent in full with this push; the next card, for WP-0.9, is not yet committed, and no work of it starts before it is)
+on: C4
 needs: main's word on where the check of a test run belongs (the note on series 4's last five patches, § 4 a); nothing waits for it
-next push: the card for WP-0.9, or sooner if main writes
+next push: the first patches of WP-0.9, series 1, or sooner if main writes
 
 # cld-advisor — status
 
 This seat's status page is `relays/advisor_2026-11-10_audit/THE_ADVISOR_SEATS_PLAN.md`, § 9, as before. It is
 rewritten at every push, and so are the six lines above.
+
+## In hand: C4, series 1 of WP-0.9
+
+The card: `relays/cards/cld-advisor_C4_wp-0-9-series-1.md`, committed with this push and before any work of the package.
+Its question: can the kind of support an arc has be read from its verdict file by a machine, and held to evidence that
+is in the commit? First for the fourteen arcs the candidate runs on (your B1888).
+
+| | |
+|---|---|
+| what stands on your `323f92327` | 1,592 verdict files, and none says what kind of support its verdict has. Of the candidate's fourteen, 9 are PROVED, 4 NEGATIVE, 1 OPEN; three have no lock of their own, and one of the three is the candidate |
+| what the card delivers | the field, with the evidence it names; the gate that holds the one to the other; the counts by grade; a proposal for the fourteen, in a patch of its own that you read row by row |
+| what it does not | the grades of the other arcs; the titles and claim lines the audit names; the gate on how a check is named (the protocol's § 12), which is this package's second card |
+| asked of you | nothing to start |
 
 ## Taken from M6
 
