@@ -355,7 +355,7 @@ def test_a_gate_that_is_not_in_the_table_answers_the_same_with_git_as_without(tm
     not in the table, answers differently and fails this."""
     g = _gates()
     others = sorted(set(g.GATES) - g.READS_GIT)
-    assert len(others) >= 30
+    assert len(others) >= 29          # 2026-11-11 (series 3, PV16): gate-controls now reads the past and is in the table; 29 are left
     with_git = {name: g.GATES[name]() for name in others}
     monkeypatch.setenv("GIT_DIR", str(tmp_path / "no_repository_here"))
     g2 = _gates()

@@ -414,3 +414,98 @@ def test_on_this_repository_every_row_of_the_registry_is_read():
     ok, detail = g.GATES["retraction-sweep"]()
     assert ok is True, detail
     assert "by name" in detail and "shorten the table" not in detail
+
+
+# ---- PV16: the controls gate checked that a control's name is defined, and nothing of the control ----------------------
+_CONTROL_OK = ("def test_the_gate_fails_on_a_planted_case():\n    answers = sorted([False, True])\n    assert answers[0] is False\n")
+
+
+def _controls_repo(tmp_path, name, controls_file):
+    """a small repository whose every gate has the same honest control, in tests/test_controls.py"""
+    names = sorted(_gates().GATES)
+    reg = {g: "tests/test_controls.py::test_the_gate_fails_on_a_planted_case" for g in names}
+    files = {"tests/test_controls.py": controls_file, "tests/GATE_CONTROLS.json": json.dumps(reg, indent=1) + "\n"}
+    return _scratch(tmp_path / name, files), reg
+
+
+def _repoint(repo, reg, gate, ref, more=None):
+    files = {"tests/GATE_CONTROLS.json": json.dumps(dict(reg, **{gate: ref}), indent=1) + "\n"}
+    files.update(more or {})
+    _commit(repo, "a control pointed elsewhere", files)
+
+
+def test_a_control_whose_function_is_not_there_fails_the_controls_gate(tmp_path):
+    """the control: this held before the series"""
+    repo, reg = _controls_repo(tmp_path, "control", _CONTROL_OK)
+    assert _gate(repo, "gate-controls")[0] is True
+    _repoint(repo, reg, "framing", "tests/test_controls.py::test_that_is_not_there")
+    ok, detail = _gate(repo, "gate-controls")
+    assert ok is False and "not defined" in detail
+
+
+def test_every_control_pointed_at_a_skipped_trivial_test_fails_the_controls_gate(tmp_path):
+    """PV16 as planted: one skipped test for every gate, whose only line is an assert between constants"""
+    names = sorted(_gates().GATES)
+    planted = "import pytest\n" + "".join(
+        "\n\n@pytest.mark.skip(reason='planted')\ndef test_control_%s():\n    assert True is not False\n" % g.replace("-", "_") for g in names)
+    reg = {g: "tests/test_zz_planted_controls.py::test_control_%s" % g.replace("-", "_") for g in names}
+    repo = _scratch(tmp_path, {"tests/test_zz_planted_controls.py": planted, "tests/GATE_CONTROLS.json": json.dumps(reg, indent=1) + "\n"})
+    ok, detail = _gate(repo, "gate-controls")
+    assert ok is False, "every gate's control is a skipped test that asserts nothing of it, and the controls gate passed: " + detail
+    assert "is skipped" in detail
+
+
+_NO_CONTROL = {
+    "a skipif mark": ("import pytest\n\n\n@pytest.mark.skipif(True, reason='x')\n" + _CONTROL_OK, "is skipped"),
+    "an xfail mark": ("import pytest\n\n\n@pytest.mark.xfail\n" + _CONTROL_OK, "is skipped"),
+    "a skip in its body": ("import pytest\n\n\ndef test_the_gate_fails_on_a_planted_case():\n    pytest.skip('not today')\n    assert sorted([2, 1])[0] == 1\n", "may skip itself"),
+    "an importorskip in its body": ("import pytest\n\n\ndef test_the_gate_fails_on_a_planted_case():\n    pytest.importorskip('a_package_nobody_has')\n"
+                                    "    assert sorted([2, 1])[0] == 1\n", "may skip itself"),
+    "a module marked skip": ("import pytest\n\npytestmark = pytest.mark.skip(reason='the whole file')\n\n\n" + _CONTROL_OK, "module marked"),
+    "a module that may skip at import": ("import pytest\n\npytest.importorskip('a_package_nobody_has')\n\n\n" + _CONTROL_OK, "skip itself at import"),
+    "no assert": ("def test_the_gate_fails_on_a_planted_case():\n    sorted([2, 1])\n", "asserts nothing"),
+    "no assert that can fail": ("def test_the_gate_fails_on_a_planted_case():\n    assert True is not False\n", "no assert that can fail"),
+    "a method of a class, not a test of the file": ("class TestIt:\n    def test_the_gate_fails_on_a_planted_case(self):\n        assert sorted([2, 1])[0] == 1\n", ""),
+}
+
+
+def test_a_control_that_cannot_control_is_refused_in_every_form(tmp_path):
+    for name, (body, words) in _NO_CONTROL.items():
+        repo, reg = _controls_repo(tmp_path, name.replace(" ", "_").replace(",", ""), body)
+        ok, detail = _gate(repo, "gate-controls")
+        assert ok is False, f"a control that cannot control ({name}) passed the controls gate: {detail}"
+        assert words in detail, (name, detail)
+
+
+def test_a_control_pointed_at_another_test_has_left_the_register(tmp_path):
+    """the rule of series 2, for the register of controls: a gate pointed at another test, however honest that test looks, is
+    a row that left.  It needs a recorded act."""
+    repo, reg = _controls_repo(tmp_path, "repoint", _CONTROL_OK)
+    assert _gate(repo, "gate-controls")[0] is True
+    other = "def test_something_else():\n    assert sorted([2, 1])[0] == 1\n"
+    _repoint(repo, reg, "framing", "tests/test_other.py::test_something_else", {"tests/test_other.py": other})
+    ok, detail = _gate(repo, "gate-controls")
+    assert ok is False, "a gate's control was pointed at another test with no record, and the controls gate passed: " + detail
+    assert "1 control(s) left tests/GATE_CONTROLS.json" in detail and "framing -> tests/test_controls.py" in detail
+    # the recorded act
+    p = repo / "scripts" / "gates" / "gates.py"
+    src = p.read_text(encoding="utf-8")
+    assert src.count("LEFT_BY_NAME = {}") == 1
+    key = "framing -> tests/test_controls.py::test_the_gate_fails_on_a_planted_case"
+    p.write_text(src.replace("LEFT_BY_NAME = {}", "LEFT_BY_NAME = {%r: {%r: %r}}" % ("tests/GATE_CONTROLS.json", key, "2026-11-12 -- replaced by a control that plants the case in a file")), encoding="utf-8")
+    _commit(repo, "the act recorded")
+    ok, detail = _gate(repo, "gate-controls")
+    assert ok is True and "1 control(s) left by name" in detail, detail
+
+
+def test_on_this_repository_every_control_is_read_and_none_is_refused():
+    g = _gates()
+    ok, detail = g.GATES["gate-controls"]()
+    assert ok is True, detail
+    assert "each read: none is kept from running" in detail, "the controls gate does not say that it read the controls: " + detail
+    assert g.result_line("gate-controls", ok, detail).strip().startswith("PASS")          # the runner prints a sentence with the word "skipped" as a skip
+    reg = json.loads((ROOT / "tests" / "GATE_CONTROLS.json").read_text(encoding="utf-8"))
+    assert len(reg) == len(g.GATES)
+    for gate, ref in reg.items():
+        f, fn = ref.split("::")
+        assert g.control_cannot_control((ROOT / f).read_text(encoding="utf-8"), fn) is None, gate

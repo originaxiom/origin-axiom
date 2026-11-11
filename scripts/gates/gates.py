@@ -2736,7 +2736,60 @@ def gate_carry_age():
 GATE_CONTROLS = "tests/GATE_CONTROLS.json"      # gate -> 'tests/<file>.py::<test function that makes it FAIL>'
 
 
-def gate_gate_controls():
+# WP-0.7 (PV16): the gate checked that the named function is defined in the named file, and nothing of the function.  With
+# every gate's control pointed at a skipped test whose only line was `assert True is not False`, it passed.  Three things are
+# now read, none of them by running a test (that is the suite's):
+#   (1) the control is not skipped: no skip or xfail mark on it or on its module, and no call that skips in its body;
+#   (2) the control can fail: it is not a test with no assert, nor one in which no assert can fail (the vacuity checker's classes);
+#   (3) a control does not leave the register without a recorded act (the rule of series 2): a gate pointed at another test is a
+#       row that left and a row that came, and the one that left is named in LEFT_BY_NAME with its date and why.
+# What this does not show is that the control turns ITS gate red.  That takes a run with the gate made unable to fail.
+_SKIPS = re.compile(r"\b(skip|skipif|xfail|importorskip)\b")
+
+
+def control_cannot_control(src, fn_name):
+    """why the test function `fn_name` of the source `src` cannot stand as a gate's control, or None.  Read, not run."""
+    import ast
+    try:
+        tree = ast.parse(src)
+    except SyntaxError as exc:
+        return f"is in a file that does not parse ({exc.msg}, line {exc.lineno})"
+    fn = next((n for n in tree.body if isinstance(n, (ast.FunctionDef, ast.AsyncFunctionDef)) and n.name == fn_name), None)
+    if fn is None:
+        return "is not a test function at the top level of its file"
+    for d in fn.decorator_list:
+        if _SKIPS.search(ast.unparse(d)):
+            return f"is skipped or expected to fail by its mark ({ast.unparse(d)[:60]})"
+    for n in tree.body:                                   # the module's own mark, or a skip at import
+        if isinstance(n, ast.Assign) and any(isinstance(t, ast.Name) and t.id == "pytestmark" for t in n.targets) and _SKIPS.search(ast.unparse(n.value)):
+            return f"is in a module marked {ast.unparse(n.value)[:60]}"
+        if isinstance(n, ast.Expr) and isinstance(n.value, ast.Call) and _SKIPS.search(ast.unparse(n.value.func)):
+            return f"is in a module that may skip itself at import ({ast.unparse(n.value)[:60]})"
+    for n in ast.walk(fn):
+        if isinstance(n, ast.Call) and _SKIPS.search(ast.unparse(n.func)):
+            return f"may skip itself ({ast.unparse(n)[:60]})"
+    sys.path.insert(0, os.path.join(ROOT, "scripts", "checks"))
+    try:
+        import check_test_vacuity as ctv
+    except Exception as exc:
+        return f"cannot be read: the vacuity checker is missing or unimportable ({exc})"
+    finally:
+        sys.path.pop(0)
+    asserts = [n for n in ast.walk(fn) if isinstance(n, ast.Assert)]
+    calls = {getattr(getattr(n, "func", None), "attr", None) for n in ast.walk(fn) if isinstance(n, ast.Call)}
+    if not asserts and not (ctv._OK_CALLS & calls):
+        return "asserts nothing"
+    if ctv.cannot_fail(fn):
+        return "holds no assert that can fail"
+    return None
+
+
+def _control_rows(text):
+    """the rows of the register of controls, 'gate -> its control', read line by line"""
+    return {f"{g} -> {ref}" for g, ref in re.findall(r'^\s*"([^"]+)"\s*:\s*"([^"]+)"', text, flags=re.M)}
+
+
+def gate_gate_controls(_anchor=None):
     """GOVERNANCE §15 (amendment 2026-10-03, R58-1 item 3a): every gate has a test that makes it fail, named in
     tests/GATE_CONTROLS.json; the named function must exist.  Review 58 counted 15 of 34 gates named by no test and
     twelve whose checker had no failing-path test at all (R58-2); a gate nobody has seen fail may be inert."""
@@ -2758,9 +2811,19 @@ def gate_gate_controls():
         fp = os.path.join(ROOT, f)
         if not os.path.isfile(fp):
             problems.append(f"{g}: {f} does not exist"); continue
-        if not re.search(r"^def %s\(" % re.escape(fn), open(fp, encoding="utf-8", errors="replace").read(), re.M):
-            problems.append(f"{g}: {fn} not defined in {f}")
-    return (not problems), ("; ".join(problems)[:600] if problems else f"ok ({len(reg)} gates with a registered failing-path test)")
+        src = open(fp, encoding="utf-8", errors="replace").read()
+        if not re.search(r"^def %s\(" % re.escape(fn), src, re.M):
+            problems.append(f"{g}: {fn} not defined in {f}"); continue
+        why = control_cannot_control(src, fn)             # PV16: the control itself is read
+        if why:
+            problems.append(f"{g}: its control {fn} {why}")
+    if problems:
+        return False, "; ".join(problems)[:600]
+    gone, note = left_the_ledger(GATE_CONTROLS, _control_rows, _read(GATE_CONTROLS), "control", _anchor)
+    if gone:
+        return False, gone
+    return True, (f"ok ({len(reg)} gates with a registered failing-path test, each read: none is kept from running by a mark or a call, "
+                  "none is unable to fail)") + note
 
 
 REVIEW_CORE_FROM = 59                                   # binds the first review written after the rule
@@ -3125,7 +3188,8 @@ READS_HISTORY = frozenset({                       # reads commits before HEAD, o
     "append-only", "artifact-hashes", "attribution", "closure-generated", "harvest-debt", "lead-debt",
     "log-changelog-paired", "point-debt", "relay-debt", "review-fires", "seal-immutable", "seal-order-unshown", "views-fresh",
     "views-generated",                            # the four debt gates: the commit's day, and that time has not run backwards
-    "chain-locks", "identification-register", "law-map-provenance", "retraction-sweep", "test-vacuity"})     # nothing leaves a ledger: what a page has held since NOTHING_LEAVES_FROM
+    "chain-locks", "identification-register", "law-map-provenance", "retraction-sweep", "test-vacuity",      # nothing leaves a ledger: what a page has held since NOTHING_LEAVES_FROM
+    "gate-controls"})                             # the same rule for the register of controls (series 3, PV16)
 READS_GIT = READS_TRACKED | READS_HISTORY
 
 
