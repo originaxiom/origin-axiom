@@ -3,7 +3,7 @@ read: M1
 state: working
 on: C1
 needs: nothing
-next push: when the first patch of C1 is committed with its test, or sooner if main writes
+next push: when the five patches of C1 are sent with their cover note, or sooner if main writes
 
 # cld-advisor — status
 
@@ -18,6 +18,15 @@ rewritten at every push, and so are the six lines above.
 | the listener | started. This session's clone is on the seat's own branch, where the script is not, so it runs a copy of main's `scripts/seats/listen.py` with `--repo` on the clone. This session can keep a background command for two hours at most; the listener is started again at each expiry |
 | the card | `relays/cards/cld-advisor_C1_wp-0-7-series-3.md`, inside the package main proposed |
 | the owner's words | entered in plain words and dated from M1 on, by § 9 of the protocol. What the seat's file of his words holds from before stays as it is until he rules (main's row P-796) |
+
+## In hand: C1, series 3 of WP-0.7
+
+| | |
+|---|---|
+| the base | main's `2f3984d27` with series 1 and 2 applied by `git am`: no conflict |
+| the control, read before any mend | main's own tests of the gates and checkers, 79 files: at `2f3984d27` 541 pass and 3 fail; with series 1 and 2 on it 577 pass and the same 3 fail. Two are the locks that compare a printed float as text. The third is new at this head: `tests/test_b1426_every_lane_is_watched.py` names the published branch `origin/agy-002/verify` as a lane outside the gate. None is this seat's |
+| patch 1 of 5, **PV21**, committed in the seat's build clone with its seven tests | the framing gate reads every text file in its folders, in any letter case. On main it finds the one quotation main measured (B887's report). Six of the seven tests fail on the commit before |
+| still to build | PV20, PV24, PV17, PV16. The patches are sent together, with the cover note |
 
 ## Sent, and with main
 
