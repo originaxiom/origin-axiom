@@ -1,0 +1,18 @@
+level 5: the unit 1.618034, R = pi / (2 ln unit) = 3.264251303; ideals of norm up to 320: 141; c multiplicative to 0.0e+00; c(2..7) = +0.0000 +0.0000 +1.0000 -1.0000 +0.0000 +0.0000
+      sine, odd under the exchange: 2.9e-11; sine, even under the exchange: 2.0e+00; cosine, odd under the exchange: 1.6e+00; cosine, even under the exchange: 1.7e+00
+      a state: the sine series, odd under the exchange.  Greatest density on the circle above height 0.07: at 0.2515398 + 0.3697671 i (angle 55.774 degrees), reduced height 1.8488; at the arc's ends the density is 1.5e-27 and 2.5e-32 of that; local maxima within 0.1% of the greatest: 1
+level 13: the unit 3.302776, R = pi / (2 ln unit) = 1.314734421; ideals of norm up to 320: 211; c multiplicative to 6.7e-16; c(2..7) = +0.0000 -1.4649 +1.0000 +0.0000 +0.0000 +0.0000
+      sine, odd under the exchange: 1.8e-12; sine, even under the exchange: 2.0e+00; cosine, odd under the exchange: 1.3e+00; cosine, even under the exchange: 1.6e+00
+      a state: the sine series, odd under the exchange.  Greatest density on the circle above height 0.07: at 0.2683712 + 0.0700000 i (angle 14.619 degrees), reduced height 0.9100; at the arc's ends the density is 1.0e+00 and 1.4e-33 of that; local maxima within 0.1% of the greatest: 0
+level 17: the unit 8.123106, R = pi / (2 ln unit) = 0.749886341; ideals of norm up to 320: 323; c multiplicative to 6.7e-16; c(2..7) = -0.3690 +0.0000 -0.8638 +0.0000 +0.0000 +0.0000
+      sine, odd under the exchange: 5.1e-13; sine, even under the exchange: 2.0e+00; cosine, odd under the exchange: 1.2e+00; cosine, even under the exchange: 1.9e+00
+      a state: the sine series, odd under the exchange.  Greatest density on the circle above height 0.07: at 0.2322144 + 0.0700000 i (angle 16.775 degrees), reduced height 1.1900; at the arc's ends the density is 1.0e+00 and 1.4e-33 of that; local maxima within 0.1% of the greatest: 0
+level 29: the unit 5.192582, R = pi / (2 ln unit) = 0.953598000; ideals of norm up to 320: 194; c multiplicative to 2.0e-15; c(2..7) = +0.0000 +0.0000 +1.0000 -0.7268 +0.0000 -1.8730
+      sine, odd under the exchange: 3.8e-13; sine, even under the exchange: 2.0e+00; cosine, odd under the exchange: 1.4e+00; cosine, even under the exchange: 1.0e+00
+      a state: the sine series, odd under the exchange.  Greatest density on the circle above height 0.07: at 0.1566404 + 0.0997324 i (angle 32.485 degrees), reduced height 2.8922; at the arc's ends the density is 7.0e-01 and 5.1e-33 of that; local maxima within 0.1% of the greatest: 1
+
+Z0  level 5 again: HOLDS
+Z1  a state of the same recipe at each of the levels 13, 17, 29: HOLDS
+Z2  the peak lies off the mirror lines: level 13 yes (sine series), level 17 yes (sine series), level 29 yes (sine series): HOLDS
+Z3  the reduced height differs from level 5's 1.8488 by more than 0.05: level 13: 0.9100, level 17: 1.1900, level 29: 2.8922: HOLDS
+other levels exit 0
