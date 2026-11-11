@@ -15758,8 +15758,8 @@
     "golden"
    ],
    "refs": [],
-   "obstacle": null,
-   "obstacle_conf": 0,
+   "obstacle": "selector",
+   "obstacle_conf": 1,
    "status": "dead",
    "domain": "dynamics"
   },
@@ -15787,7 +15787,7 @@
     "amphichiral_cp"
    ],
    "refs": [],
-   "obstacle": "particle_dict",
+   "obstacle": "selector",
    "obstacle_conf": 1,
    "status": "banked",
    "domain": "arithmetic"
@@ -15917,7 +15917,7 @@
     "L9"
    ],
    "obstacle": "cancellation",
-   "obstacle_conf": 3,
+   "obstacle_conf": 4,
    "status": "dead",
    "domain": "arithmetic"
   },
@@ -16117,14 +16117,15 @@
    "slug": "all histories together the exact facts verified",
    "motifs": [
     "golden",
+    "amphichiral_cp",
     "torsion",
     "wrt_quantum"
    ],
    "refs": [
     "B990"
    ],
-   "obstacle": null,
-   "obstacle_conf": 0,
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 1,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -16209,6 +16210,20 @@
    "obstacle_conf": 3,
    "status": "banked",
    "domain": "dynamics"
+  },
+  "B1877": {
+   "slug": "review 78 the decadal review",
+   "motifs": [
+    "closing"
+   ],
+   "refs": [
+    "B854",
+    "B952"
+   ],
+   "obstacle": "cancellation",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
   },
   "B187": {
    "slug": "interacting open collective",

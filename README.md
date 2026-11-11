@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.64) of 2026-11-10 |
-| arcs with a verdict | 1578: 1087 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 775: 267 open (queued, leads, waiting for the owner), 508 closed |
-| the last review | Review 77 (2026-11-10), anchor `10641a1b2` |
-| the last landing | S306p TWO SEATS' SEALED RUNS VERIFIED ON MAIN: A SINGLE STATE IS NOT KEPT UNDER COMPOSITION (B1875); THE FOUR REMAINING ATTACKS ON THE PRINCIPLE'S DR… |
+| arcs with a verdict | 1579: 1088 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
+| points in the register | 776: 264 open (queued, leads, waiting for the owner), 512 closed |
+| the last review | Review 78 (2026-11-11), anchor `38d2a36dc` |
+| the last landing | S306p REVIEW 78, THE DECADAL REVIEW (B1877); THE OWNER'S RULINGS OF 2026-11-11 (P-771, P-774) (2026-11-11) |
 <!-- STATE:END -->
 
 ## Start here
