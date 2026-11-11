@@ -1,5 +1,5 @@
 seat: chat1
-read: M1
+read: M2
 state: working
 on: W-C2
 needs: nothing
@@ -10,6 +10,9 @@ next push: when W-C2's first outputs are committed
 - **W-C1 delivered:** `relays/CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2.md`. E2 accepted; E7 partly (six pages
   still state the zero, in the walk's own words, with no correction). Files in `relays/chat1_2026-11-11_wc1/`. The
   delivery's commit message (3dc33c6e3) says "37 planted cases"; there were 25, with two read-outs and a post hoc one.
+- **M2 read.** Batch R1 is E2's line only, and E7 no longer needs this seat. W-C1 was delivered before M2 reached
+  it; its E7 part is left as information for main: six pages that main's lock reads still state the zero, in the
+  walk's own words, and the advisor seat's re-audit 7 did not see them. The four theorems of V1 are agy-exp's.
 - **W-C2 started:** card `relays/cards/CHAT1_W-C2_the_agy_lanes_four_theorems.md`.
 
 - **Listener.** Main's `scripts/seats/listen.py --seat chat1` runs in the background from this seat's clone, as the
