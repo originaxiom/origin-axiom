@@ -1,0 +1,4983 @@
+{
+  "engine": "Phase 2: The 3D Cusped Hyperbolic & Chiral-Boundary Engine",
+  "data_firewall": "0 of 19 empirical numbers imported",
+  "elapsed_seconds": 307.332,
+  "preregistration_seal": {
+    "plan_file": "PREREGISTRATION_PHASE2.md",
+    "seal_file": "SEAL_SHA256.txt",
+    "expected_sha256": "d92bec8593456d1d82003975d81f5ec21a3af5ced804313da040fff6c61827cf",
+    "actual_sha256": "d92bec8593456d1d82003975d81f5ec21a3af5ced804313da040fff6c61827cf",
+    "seal_intact": true
+  },
+  "calibration_gate": {
+    "gate": "Step 2: Textbook Calibration Gate",
+    "all_calibrations_passed": true,
+    "hyperbolic_m004_calibration": {
+      "m004_snappy_volume": 2.0298832128193074,
+      "b_pp_LR_penner_vol_err": 3.1086244689504383e-15,
+      "b_pm_LR_penner_vol_err": 3.1086244689504383e-15,
+      "tet_bloch_wigner_err": 1.5543122344752192e-15,
+      "max_intra_penner_err": 0.0,
+      "max_inter_gluing_err": 0.0,
+      "b_pp_LR_cusp_err": 9.410054791201439e-65,
+      "b_pm_LR_cusp_err": 0.0
+    },
+    "fem_cover_equivalence_calibration": {
+      "manifold": "b+-LR (2 tets) vs 5-cusp cover (10 tets)",
+      "n_sub": 4,
+      "untwisted_zero_mode_abs": 7.59881044762063e-15,
+      "q_sector_E0": {
+        "q=0": 26.650217695233888,
+        "q=1": 6.834702957423848,
+        "q=2": 6.834702957423663,
+        "q=3": 6.834702957423857,
+        "q=4": 6.834702957423809
+      },
+      "base_union_first_10_evals": [
+        -7.59881044762063e-15,
+        6.834702957423663,
+        6.834702957423809,
+        6.834702957423848,
+        6.834702957423857,
+        19.68196444819742,
+        19.681964448197448,
+        19.681964448197448,
+        19.681964448197462,
+        25.824848640381987
+      ],
+      "cover_first_10_evals": [
+        6.706722305824118e-14,
+        6.8347029574236,
+        6.834702957423721,
+        6.834702957423721,
+        6.834702957423842,
+        19.681964448197387,
+        19.681964448197387,
+        19.68196444819751,
+        19.68196444819751,
+        25.824848640382022
+      ],
+      "base_vs_cover_max_eval_err": 1.270095140171179e-13,
+      "truncated_volume_convergence": {
+        "n_sub=3": 1.2574735551744283,
+        "n_sub=4": 1.4955701417815126,
+        "n_sub=6": 1.6993878755342564
+      }
+    },
+    "overlap_dirac_index_calibration": {
+      "lattice_L": 10,
+      "max_ginsparg_wilson_err": 3.1086244689504383e-15,
+      "max_index_err": 1.3322676295501878e-14,
+      "max_haar_scrambling_err": 1.4654943925052066e-14,
+      "flux_scan": {
+        "c1=-3": {
+          "n_zero_plus": 0,
+          "n_zero_minus": 3,
+          "index_svd": -3,
+          "max_zero_sval": 2.57694069686156e-15,
+          "haar_sval_err": 1.7763568394002505e-15
+        },
+        "c1=-2": {
+          "n_zero_plus": 0,
+          "n_zero_minus": 2,
+          "index_svd": -2,
+          "max_zero_sval": 2.1178095797899327e-15,
+          "haar_sval_err": 1.3988810110276972e-14
+        },
+        "c1=-1": {
+          "n_zero_plus": 0,
+          "n_zero_minus": 1,
+          "index_svd": -1,
+          "max_zero_sval": 2.1220346520605203e-15,
+          "haar_sval_err": 6.439293542825908e-15
+        },
+        "c1=+0": {
+          "n_zero_plus": 1,
+          "n_zero_minus": 1,
+          "index_svd": 0,
+          "max_zero_sval": 2.1278083124716847e-15,
+          "haar_sval_err": 2.886579864025407e-15
+        },
+        "c1=+1": {
+          "n_zero_plus": 1,
+          "n_zero_minus": 0,
+          "index_svd": 1,
+          "max_zero_sval": 2.6177781311741954e-15,
+          "haar_sval_err": 1.199040866595169e-14
+        },
+        "c1=+2": {
+          "n_zero_plus": 2,
+          "n_zero_minus": 0,
+          "index_svd": 2,
+          "max_zero_sval": 2.092312533546142e-15,
+          "haar_sval_err": 1.4654943925052066e-14
+        },
+        "c1=+3": {
+          "n_zero_plus": 3,
+          "n_zero_minus": 0,
+          "index_svd": 3,
+          "max_zero_sval": 2.4270132943452748e-15,
+          "haar_sval_err": 3.3306690738754696e-15
+        }
+      }
+    }
+  },
+  "gate1_3d_twisted_throat": {
+    "gate": "Gate 1: True 3D Hyperbolic Pinched Throat vs. Sol Split",
+    "negative_control_L2RLR": {
+      "label": "neg_ctrl_L2RLR",
+      "word": "LLRLR",
+      "extends_golden_v5": false,
+      "rejected_by_bundle_gate": true
+    },
+    "primary_catalog": {
+      "golden_bg_LR": {
+        "label": "golden_bg_LR",
+        "word": "LR",
+        "num_letters_tets": 2,
+        "extends_golden_v5": true,
+        "direct_rank1_manifold": "b+-LR",
+        "opposite_rank2_manifold": "b++LR",
+        "homology_direct": "Z/5 + Z",
+        "torsion_5_rank": 1,
+        "snappy_volume": 2.0298832128193074,
+        "tet_bw_volumes": [
+          1.0149416064096537,
+          1.0149416064096537
+        ],
+        "horo_min_edge_by_layer": [
+          0.537284965911771,
+          0.537284965911771
+        ],
+        "pinched_throat_layers": [
+          0,
+          1
+        ],
+        "thickest_volume_layers": [
+          0,
+          1
+        ],
+        "margulis_geodesic_check": {
+          "found_shortest_geodesic": true,
+          "shortest_real_length": 0.862554627662061,
+          "shortest_torsion_angle": -2.680673187849125,
+          "shortest_multiplicity": 2,
+          "cover_5cusp_lift": {
+            "cover_shortest_real_len": 2.6339157938496403,
+            "cover_shortest_mult": 15,
+            "ratio_to_base_l1": 3.053622007673673,
+            "shortest_throat_is_z5_charged": false,
+            "shortest_throat_is_z5_trivial": false
+          }
+        },
+        "mesh_convergence": {
+          "n_sub=3": {
+            "untwisted_S1_neumann": {
+              "E0": 28.604492066620246,
+              "rel_gap": 0.7618976736353514,
+              "mult": 1,
+              "prob_peaks": [
+                0,
+                1
+              ],
+              "dens_peaks": [
+                0,
+                1
+              ],
+              "layer_probs": [
+                0.5,
+                0.5000000000000001
+              ]
+            },
+            "twisted_q1_cusp_unram_neumann": {
+              "E0": 9.523645512110463,
+              "E1_next": 22.695866364476064,
+              "rel_gap": 1.3831070083000816,
+              "mult": 1,
+              "prob_peaks": [
+                0,
+                1
+              ],
+              "dens_peaks": [
+                0,
+                1
+              ],
+              "single_prob_peak": false,
+              "single_dens_peak": false,
+              "layer_probs": [
+                0.5000000000000001,
+                0.5
+              ],
+              "layer_density_ratio": [
+                1.0000000000000002,
+                1.0
+              ],
+              "tau_expectation": [
+                0.5,
+                0.8660254037844387
+              ]
+            },
+            "twisted_q1_cusp_unram_dirichlet": {
+              "E0": 22.695866364476082,
+              "rel_gap": 0.4645470497709361,
+              "mult": 1,
+              "prob_peaks": [
+                0,
+                1
+              ],
+              "dens_peaks": [
+                0,
+                1
+              ],
+              "single_prob_peak": false,
+              "layer_probs": [
+                0.4999999999999991,
+                0.500000000000001
+              ]
+            },
+            "twisted_q2_cusp_unram_neumann": {
+              "E0": 9.523645512110502,
+              "rel_gap": 1.383107008300073,
+              "mult": 1,
+              "prob_peaks": [
+                0,
+                1
+              ],
+              "dens_peaks": [
+                0,
+                1
+              ],
+              "single_prob_peak": false,
+              "layer_probs": [
+                0.4999999999999997,
+                0.5000000000000003
+              ]
+            }
+          },
+          "n_sub=4": {
+            "untwisted_S1_neumann": {
+              "E0": 26.650217695233888,
+              "rel_gap": 0.08494715541833982,
+              "mult": 1,
+              "prob_peaks": [
+                0,
+                1
+              ],
+              "dens_peaks": [
+                0,
+                1
+              ],
+              "layer_probs": [
+                0.5000000000000004,
+                0.4999999999999996
+              ]
+            },
+            "twisted_q1_cusp_unram_neumann": {
+              "E0": 6.834702957423848,
+              "E1_next": 19.68196444819742,
+              "rel_gap": 1.879710291845074,
+              "mult": 1,
+              "prob_peaks": [
+                0,
+                1
+              ],
+              "dens_peaks": [
+                0,
+                1
+              ],
+              "single_prob_peak": false,
+              "single_dens_peak": false,
+              "layer_probs": [
+                0.5,
+                0.4999999999999999
+              ],
+              "layer_density_ratio": [
+                1.0,
+                0.9999999999999998
+              ],
+              "tau_expectation": [
+                0.49999999999999994,
+                0.8660254037844385
+              ]
+            },
+            "twisted_q1_cusp_unram_dirichlet": {
+              "E0": 17.277642387583995,
+              "rel_gap": 0.139157994284062,
+              "mult": 1,
+              "prob_peaks": [
+                0,
+                1
+              ],
+              "dens_peaks": [
+                0,
+                1
+              ],
+              "single_prob_peak": false,
+              "layer_probs": [
+                0.5000000000000018,
+                0.49999999999999817
+              ]
+            },
+            "twisted_q2_cusp_unram_neumann": {
+              "E0": 6.834702957423663,
+              "rel_gap": 1.8797102918451583,
+              "mult": 1,
+              "prob_peaks": [
+                0,
+                1
+              ],
+              "dens_peaks": [
+                0,
+                1
+              ],
+              "single_prob_peak": false,
+              "layer_probs": [
+                0.4999999999999999,
+                0.5000000000000001
+              ]
+            }
+          },
+          "n_sub=5": {
+            "untwisted_S1_neumann": {
+              "E0": 18.050649547619862,
+              "rel_gap": 0.5821498713226971,
+              "mult": 1,
+              "prob_peaks": [
+                0,
+                1
+              ],
+              "dens_peaks": [
+                0,
+                1
+              ],
+              "layer_probs": [
+                0.49999999999999956,
+                0.5000000000000004
+              ]
+            },
+            "twisted_q1_cusp_unram_neumann": {
+              "E0": 5.507666697550895,
+              "E1_next": 18.46605052534052,
+              "rel_gap": 2.3527901268157447,
+              "mult": 1,
+              "prob_peaks": [
+                0,
+                1
+              ],
+              "dens_peaks": [
+                0,
+                1
+              ],
+              "single_prob_peak": false,
+              "single_dens_peak": false,
+              "layer_probs": [
+                0.5,
+                0.5
+              ],
+              "layer_density_ratio": [
+                1.0,
+                1.0
+              ],
+              "tau_expectation": [
+                0.5,
+                0.8660254037844386
+              ]
+            },
+            "twisted_q1_cusp_unram_dirichlet": {
+              "E0": 12.712737839530334,
+              "rel_gap": 0.4525628356718182,
+              "mult": 1,
+              "prob_peaks": [
+                0,
+                1
+              ],
+              "dens_peaks": [
+                0,
+                1
+              ],
+              "single_prob_peak": false,
+              "layer_probs": [
+                0.49999999999999944,
+                0.5000000000000006
+              ]
+            },
+            "twisted_q2_cusp_unram_neumann": {
+              "E0": 5.507666697550919,
+              "rel_gap": 2.352790126815738,
+              "mult": 1,
+              "prob_peaks": [
+                0,
+                1
+              ],
+              "dens_peaks": [
+                0,
+                1
+              ],
+              "single_prob_peak": false,
+              "layer_probs": [
+                0.5000000000000001,
+                0.4999999999999998
+              ]
+            }
+          }
+        },
+        "cusp_ramified_q1_dirichlet": [
+          {
+            "line_idx": 0,
+            "E0": 8.895205900930378,
+            "rel_gap": 1.292883346260101,
+            "mult": 1,
+            "prob_peaks": [
+              0,
+              1
+            ],
+            "dens_peaks": [
+              0,
+              1
+            ],
+            "single_prob_peak": false
+          },
+          {
+            "line_idx": 1,
+            "E0": 8.895205900930403,
+            "rel_gap": 1.2928833462600813,
+            "mult": 1,
+            "prob_peaks": [
+              0,
+              1
+            ],
+            "dens_peaks": [
+              0,
+              1
+            ],
+            "single_prob_peak": false
+          },
+          {
+            "line_idx": 2,
+            "E0": 11.194742579388478,
+            "rel_gap": 0.777355364798653,
+            "mult": 1,
+            "prob_peaks": [
+              0,
+              1
+            ],
+            "dens_peaks": [
+              0,
+              1
+            ],
+            "single_prob_peak": false
+          },
+          {
+            "line_idx": 3,
+            "E0": 11.19474257938846,
+            "rel_gap": 0.7773553647986549,
+            "mult": 1,
+            "prob_peaks": [
+              0,
+              1
+            ],
+            "dens_peaks": [
+              0,
+              1
+            ],
+            "single_prob_peak": false
+          }
+        ],
+        "opposite_convention_2fold_cover": {
+          "cover_manifold": "b++LRLR",
+          "n_sub": 3,
+          "E0": 6.916528458950417,
+          "rel_gap": 0.3769401179556004,
+          "mult": 1,
+          "folded_base_layer_probs": [
+            0.5,
+            0.49999999999999994
+          ],
+          "argmax_folded_layer": 0
+        },
+        "headline_finest_q1": {
+          "n_sub": 5,
+          "E0": 5.507666697550895,
+          "rel_gap": 2.3527901268157447,
+          "ground_multiplicity": 1,
+          "prob_peak_layers": [
+            0,
+            1
+          ],
+          "density_peak_layers": [
+            0,
+            1
+          ],
+          "single_prob_peak": false,
+          "single_density_peak": false,
+          "tau_pleated_expectation": [
+            0.5,
+            0.8660254037844386
+          ]
+        }
+      },
+      "(6)_LLLLLLRLR": {
+        "label": "(6)_LLLLLLRLR",
+        "word": "LLLLLLRLR",
+        "num_letters_tets": 9,
+        "extends_golden_v5": true,
+        "direct_rank1_manifold": "b++LLLLLLRLR",
+        "opposite_rank2_manifold": "b+-LLLLLLRLR",
+        "homology_direct": "Z/20 + Z",
+        "torsion_5_rank": 1,
+        "snappy_volume": 5.586361607662566,
+        "tet_bw_volumes": [
+          0.8711429574444478,
+          0.5739289056860561,
+          0.28108547459655975,
+          0.21491082748118762,
+          0.28108547459655975,
+          0.5739289056860561,
+          0.8711429574444478,
+          0.9595680523636257,
+          0.9595680523636257
+        ],
+        "horo_min_edge_by_layer": [
+          0.17455121675310967,
+          0.08604942337874864,
+          0.061923714672568936,
+          0.061923714672568936,
+          0.061923714672568936,
+          0.08604942337874864,
+          0.17455121675310967,
+          0.2606084632291386,
+          0.2606084632291386
+        ],
+        "pinched_throat_layers": [
+          2,
+          3,
+          4
+        ],
+        "thickest_volume_layers": [
+          7,
+          8
+        ],
+        "margulis_geodesic_check": {
+          "found_shortest_geodesic": true,
+          "shortest_real_length": 0.1848698045116112,
+          "shortest_torsion_angle": -0.8021024422395617,
+          "shortest_multiplicity": 1,
+          "cover_5cusp_lift": {
+            "cover_shortest_real_len": 0.9243490225577236,
+            "cover_shortest_mult": 1,
+            "ratio_to_base_l1": 4.999999999998201,
+            "shortest_throat_is_z5_charged": true,
+            "shortest_throat_is_z5_trivial": false
+          }
+        },
+        "mesh_convergence": {
+          "n_sub=3": {
+            "untwisted_S1_neumann": {
+              "E0": 6.413172521092337,
+              "rel_gap": 0.7769795588584764,
+              "mult": 1,
+              "prob_peaks": [
+                3
+              ],
+              "dens_peaks": [
+                3
+              ],
+              "layer_probs": [
+                0.03197675348969732,
+                0.0700501708180855,
+                0.18219613748249394,
+                0.22221976029301188,
+                0.18219613748248764,
+                0.07005017081808095,
+                0.03197675348969821,
+                0.10466705806322327,
+                0.10466705806322144
+              ]
+            },
+            "twisted_q1_cusp_unram_neumann": {
+              "E0": 6.99905153237944,
+              "E1_next": 15.214155076781383,
+              "rel_gap": 1.1737452576819487,
+              "mult": 1,
+              "prob_peaks": [
+                7
+              ],
+              "dens_peaks": [
+                0,
+                6
+              ],
+              "single_prob_peak": true,
+              "single_dens_peak": false,
+              "layer_probs": [
+                0.20307594105474153,
+                0.05936017428262116,
+                0.022327219248225123,
+                0.015961163131197317,
+                0.02232721924822522,
+                0.05936017428262173,
+                0.20307594105474186,
+                0.2072560838488126,
+                0.20725608384881347
+              ],
+              "layer_density_ratio": [
+                1.3002862829296713,
+                0.5998229704135624,
+                0.46426935981983186,
+                0.43638416702176847,
+                0.4642693598198341,
+                0.5998229704135682,
+                1.300286282929673,
+                1.161227015307793,
+                1.1612270153077977
+              ],
+              "tau_expectation": [
+                0.1451959775877145,
+                1.4686748735876007
+              ]
+            },
+            "twisted_q1_cusp_unram_dirichlet": {
+              "E0": 24.40148600707228,
+              "rel_gap": 0.22139409007464966,
+              "mult": 1,
+              "prob_peaks": [
+                7
+              ],
+              "dens_peaks": [
+                7
+              ],
+              "single_prob_peak": true,
+              "layer_probs": [
+                0.13806464894541184,
+                0.007416119620313644,
+                9.714905861648127e-05,
+                7.5765951339725264e-06,
+                9.714905861649514e-05,
+                0.007416119620314565,
+                0.13806464894542894,
+                0.35441829407809494,
+                0.3544182940780692
+              ]
+            },
+            "twisted_q2_cusp_unram_neumann": {
+              "E0": 6.2822914985102,
+              "rel_gap": 0.42148609629757094,
+              "mult": 1,
+              "prob_peaks": [
+                0,
+                6
+              ],
+              "dens_peaks": [
+                0,
+                6
+              ],
+              "single_prob_peak": false,
+              "layer_probs": [
+                0.21318014506339605,
+                0.08345256633446325,
+                0.02126351918601239,
+                0.01263595654538227,
+                0.0212635191860123,
+                0.08345256633446423,
+                0.21318014506339894,
+                0.17578579114343656,
+                0.1757857911434339
+              ]
+            }
+          },
+          "n_sub=4": {
+            "untwisted_S1_neumann": {
+              "E0": 5.876576689197686,
+              "rel_gap": 0.9612689058465064,
+              "mult": 1,
+              "prob_peaks": [
+                3
+              ],
+              "dens_peaks": [
+                3
+              ],
+              "layer_probs": [
+                0.032325119226359375,
+                0.0748258456304738,
+                0.18656013514383452,
+                0.22498678355120333,
+                0.18656013514384379,
+                0.07482584563047913,
+                0.03232511922635813,
+                0.09379550822372293,
+                0.09379550822372497
+              ]
+            },
+            "twisted_q1_cusp_unram_neumann": {
+              "E0": 7.185286143163157,
+              "E1_next": 10.989743557831387,
+              "rel_gap": 0.5294789015867091,
+              "mult": 1,
+              "prob_peaks": [
+                7
+              ],
+              "dens_peaks": [
+                0,
+                6
+              ],
+              "single_prob_peak": true,
+              "single_dens_peak": false,
+              "layer_probs": [
+                0.20415800916161345,
+                0.05519030241747457,
+                0.019279503297113528,
+                0.01352211745799766,
+                0.019279503297113188,
+                0.055190302417471956,
+                0.2041580091616027,
+                0.2146111263948036,
+                0.21461112639480925
+              ],
+              "layer_density_ratio": [
+                1.3072775232294531,
+                0.5511247687377673,
+                0.3954556696939633,
+                0.3642106328689138,
+                0.3954556696939567,
+                0.5511247687377414,
+                1.307277523229384,
+                1.2168081384318161,
+                1.2168081384318483
+              ],
+              "tau_expectation": [
+                0.14831970501339348,
+                1.4484394036929686
+              ]
+            },
+            "twisted_q1_cusp_unram_dirichlet": {
+              "E0": 14.88290879242094,
+              "rel_gap": 0.632141472489726,
+              "mult": 1,
+              "prob_peaks": [
+                7
+              ],
+              "dens_peaks": [
+                7
+              ],
+              "single_prob_peak": true,
+              "layer_probs": [
+                0.17540589509643476,
+                0.015138454799329888,
+                0.001896170082428714,
+                0.0009579121120318304,
+                0.0018961700824285913,
+                0.01513845479932847,
+                0.1754058950964335,
+                0.3070805239657929,
+                0.3070805239657914
+              ]
+            },
+            "twisted_q2_cusp_unram_neumann": {
+              "E0": 4.926436962110923,
+              "rel_gap": 0.7014680656559896,
+              "mult": 1,
+              "prob_peaks": [
+                0,
+                6
+              ],
+              "dens_peaks": [
+                0,
+                6
+              ],
+              "single_prob_peak": false,
+              "layer_probs": [
+                0.20223886422498338,
+                0.08840731889241346,
+                0.02436046505246349,
+                0.014327057933306912,
+                0.024360465052464413,
+                0.08840731889241629,
+                0.20223886422498175,
+                0.17782982286348054,
+                0.17782982286348978
+              ]
+            }
+          },
+          "n_sub=5": {
+            "untwisted_S1_neumann": {
+              "E0": 5.592930880609032,
+              "rel_gap": 1.084874236233232,
+              "mult": 1,
+              "prob_peaks": [
+                3
+              ],
+              "dens_peaks": [
+                3
+              ],
+              "layer_probs": [
+                0.03343739670039947,
+                0.0785569681317766,
+                0.1883991772188204,
+                0.2260364841108732,
+                0.18839917721881877,
+                0.07855696813177424,
+                0.033437396700399497,
+                0.08658821589356892,
+                0.08658821589356887
+              ]
+            },
+            "twisted_q1_cusp_unram_neumann": {
+              "E0": 7.380789159327334,
+              "E1_next": 8.63056430880005,
+              "rel_gap": 0.16932811959454724,
+              "mult": 1,
+              "prob_peaks": [
+                7
+              ],
+              "dens_peaks": [
+                7
+              ],
+              "single_prob_peak": true,
+              "single_dens_peak": true,
+              "layer_probs": [
+                0.19997649128742087,
+                0.047615277180036025,
+                0.014585749735117493,
+                0.010092485204208702,
+                0.014585749735117899,
+                0.0476152771800386,
+                0.1999764912874312,
+                0.23277623919532017,
+                0.232776239195309
+              ],
+              "layer_density_ratio": [
+                1.2808812166909829,
+                0.4724996621806546,
+                0.29684809072150936,
+                0.26946739038641837,
+                0.2968480907215178,
+                0.4724996621806804,
+                1.2808812166910486,
+                1.3283238648189772,
+                1.3283238648189133
+              ],
+              "tau_expectation": [
+                0.15617453347508006,
+                1.4146984269600897
+              ]
+            },
+            "twisted_q1_cusp_unram_dirichlet": {
+              "E0": 12.0068298741954,
+              "rel_gap": 0.7897060291505008,
+              "mult": 1,
+              "prob_peaks": [
+                7
+              ],
+              "dens_peaks": [
+                7
+              ],
+              "single_prob_peak": true,
+              "layer_probs": [
+                0.18751190387051458,
+                0.022047432326508045,
+                0.0041129777968131435,
+                0.0023479877358356964,
+                0.00411297779681294,
+                0.022047432326505464,
+                0.18751190387049468,
+                0.2851536921382462,
+                0.28515369213826935
+              ]
+            },
+            "twisted_q2_cusp_unram_neumann": {
+              "E0": 4.184316538996569,
+              "rel_gap": 0.9250009057105905,
+              "mult": 1,
+              "prob_peaks": [
+                0,
+                6
+              ],
+              "dens_peaks": [
+                0,
+                6
+              ],
+              "single_prob_peak": false,
+              "layer_probs": [
+                0.19725963892505963,
+                0.08909782643991691,
+                0.025484178560905683,
+                0.01525635507487776,
+                0.025484178560914054,
+                0.08909782643995096,
+                0.19725963892509704,
+                0.18053017853665276,
+                0.18053017853662515
+              ]
+            }
+          }
+        },
+        "cusp_ramified_q1_dirichlet": [
+          {
+            "line_idx": 0,
+            "E0": 12.883920744950274,
+            "rel_gap": 0.44303445321766105,
+            "mult": 1,
+            "prob_peaks": [
+              7
+            ],
+            "dens_peaks": [
+              7
+            ],
+            "single_prob_peak": true
+          },
+          {
+            "line_idx": 1,
+            "E0": 12.883920744950943,
+            "rel_gap": 0.4430344532175116,
+            "mult": 1,
+            "prob_peaks": [
+              7
+            ],
+            "dens_peaks": [
+              7
+            ],
+            "single_prob_peak": true
+          },
+          {
+            "line_idx": 2,
+            "E0": 12.292611977294424,
+            "rel_gap": 0.6604561038660582,
+            "mult": 1,
+            "prob_peaks": [
+              7
+            ],
+            "dens_peaks": [
+              7
+            ],
+            "single_prob_peak": true
+          },
+          {
+            "line_idx": 3,
+            "E0": 12.292611977296167,
+            "rel_gap": 0.6604561038657998,
+            "mult": 1,
+            "prob_peaks": [
+              7
+            ],
+            "dens_peaks": [
+              7
+            ],
+            "single_prob_peak": true
+          }
+        ],
+        "opposite_convention_2fold_cover": {
+          "cover_manifold": "b++LLLLLLRLRLLLLLLRLR",
+          "n_sub": 3,
+          "E0": 6.999051532379438,
+          "rel_gap": 0.5075140987631304,
+          "mult": 1,
+          "folded_base_layer_probs": [
+            0.2030759410547434,
+            0.05936017428262228,
+            0.02232721924822506,
+            0.015961163131197522,
+            0.022327219248225137,
+            0.05936017428262173,
+            0.2030759410547415,
+            0.20725608384881183,
+            0.20725608384881147
+          ],
+          "argmax_folded_layer": 7
+        },
+        "headline_finest_q1": {
+          "n_sub": 5,
+          "E0": 7.380789159327334,
+          "rel_gap": 0.16932811959454724,
+          "ground_multiplicity": 1,
+          "prob_peak_layers": [
+            7
+          ],
+          "density_peak_layers": [
+            7
+          ],
+          "single_prob_peak": true,
+          "single_density_peak": true,
+          "tau_pleated_expectation": [
+            0.15617453347508006,
+            1.4146984269600897
+          ]
+        }
+      },
+      "(1,6)_LRRRRRRLR": {
+        "label": "(1,6)_LRRRRRRLR",
+        "word": "LRRRRRRLR",
+        "num_letters_tets": 9,
+        "extends_golden_v5": true,
+        "direct_rank1_manifold": "b++LRRRRRRLR",
+        "opposite_rank2_manifold": "b+-LRRRRRRLR",
+        "homology_direct": "Z/20 + Z",
+        "torsion_5_rank": 1,
+        "snappy_volume": 5.586361607662566,
+        "tet_bw_volumes": [
+          0.9595680523636256,
+          0.871142957444448,
+          0.573928905686056,
+          0.2810854745965593,
+          0.21491082748118762,
+          0.2810854745965593,
+          0.573928905686056,
+          0.871142957444448,
+          0.9595680523636256
+        ],
+        "horo_min_edge_by_layer": [
+          0.2606084632291386,
+          0.17455121675310967,
+          0.08604942337874864,
+          0.061923714672568936,
+          0.061923714672568936,
+          0.061923714672568936,
+          0.08604942337874864,
+          0.17455121675310967,
+          0.2606084632291386
+        ],
+        "pinched_throat_layers": [
+          3,
+          4,
+          5
+        ],
+        "thickest_volume_layers": [
+          0,
+          8
+        ],
+        "margulis_geodesic_check": {
+          "found_shortest_geodesic": true,
+          "shortest_real_length": 0.1848698045116112,
+          "shortest_torsion_angle": 0.8021024422395617,
+          "shortest_multiplicity": 1,
+          "cover_5cusp_lift": null
+        },
+        "mesh_convergence": {
+          "n_sub=3": {
+            "untwisted_S1_neumann": {
+              "E0": 6.413172521091978,
+              "rel_gap": 0.7769795588585623,
+              "mult": 1,
+              "prob_peaks": [
+                4
+              ],
+              "dens_peaks": [
+                4
+              ],
+              "layer_probs": [
+                0.10466705806321637,
+                0.031976753489694254,
+                0.07005017081808931,
+                0.18219613748249286,
+                0.22221976029301077,
+                0.18219613748249247,
+                0.07005017081808666,
+                0.03197675348969682,
+                0.1046670580632205
+              ]
+            },
+            "twisted_q1_cusp_unram_neumann": {
+              "E0": 6.999051532379909,
+              "E1_next": 15.214155076781283,
+              "rel_gap": 1.1737452576817888,
+              "mult": 1,
+              "prob_peaks": [
+                0
+              ],
+              "dens_peaks": [
+                1,
+                7
+              ],
+              "single_prob_peak": true,
+              "single_dens_peak": false,
+              "layer_probs": [
+                0.20725608384880834,
+                0.20307594105474025,
+                0.059360174282622774,
+                0.022327219248225786,
+                0.01596116313119782,
+                0.02232721924822587,
+                0.05936017428262363,
+                0.20307594105474475,
+                0.20725608384881078
+              ],
+              "layer_density_ratio": [
+                1.161227015307769,
+                1.300286282929663,
+                0.5998229704135786,
+                0.46426935981984563,
+                0.43638416702178173,
+                0.46426935981984746,
+                0.5998229704135875,
+                1.3002862829296915,
+                1.1612270153077826
+              ],
+              "tau_expectation": [
+                -0.14519597758771258,
+                1.468674873587607
+              ]
+            },
+            "twisted_q1_cusp_unram_dirichlet": {
+              "E0": 24.401486007071945,
+              "rel_gap": 0.22139409007465152,
+              "mult": 1,
+              "prob_peaks": [
+                0
+              ],
+              "dens_peaks": [
+                0
+              ],
+              "single_prob_peak": true,
+              "layer_probs": [
+                0.35441829407808123,
+                0.1380646489454174,
+                0.007416119620313818,
+                9.71490586164827e-05,
+                7.576595133971872e-06,
+                9.714905861648771e-05,
+                0.007416119620314008,
+                0.13806464894542084,
+                0.3544182940780857
+              ]
+            },
+            "twisted_q2_cusp_unram_neumann": {
+              "E0": 6.28229149851023,
+              "rel_gap": 0.42148609629764494,
+              "mult": 1,
+              "prob_peaks": [
+                1,
+                7
+              ],
+              "dens_peaks": [
+                1,
+                7
+              ],
+              "single_prob_peak": false,
+              "layer_probs": [
+                0.17578579114343432,
+                0.21318014506339913,
+                0.08345256633446703,
+                0.021263519186012724,
+                0.012635956545382139,
+                0.02126351918601214,
+                0.08345256633446381,
+                0.21318014506339625,
+                0.17578579114343237
+              ]
+            }
+          },
+          "n_sub=4": {
+            "untwisted_S1_neumann": {
+              "E0": 5.876576689197929,
+              "rel_gap": 0.9612689058463889,
+              "mult": 1,
+              "prob_peaks": [
+                4
+              ],
+              "dens_peaks": [
+                4
+              ],
+              "layer_probs": [
+                0.09379550822372054,
+                0.03232511922635793,
+                0.07482584563047874,
+                0.18656013514384154,
+                0.22498678355120375,
+                0.18656013514383918,
+                0.07482584563047448,
+                0.03232511922636053,
+                0.09379550822372347
+              ]
+            },
+            "twisted_q1_cusp_unram_neumann": {
+              "E0": 7.18528614316293,
+              "E1_next": 10.989743557831876,
+              "rel_gap": 0.5294789015868254,
+              "mult": 1,
+              "prob_peaks": [
+                0
+              ],
+              "dens_peaks": [
+                1,
+                7
+              ],
+              "single_prob_peak": true,
+              "single_dens_peak": false,
+              "layer_probs": [
+                0.21461112639479762,
+                0.2041580091615991,
+                0.05519030241747459,
+                0.019279503297114444,
+                0.013522117457998561,
+                0.019279503297114742,
+                0.0551903024174773,
+                0.20415800916161514,
+                0.21461112639480862
+              ],
+              "layer_density_ratio": [
+                1.2168081384317826,
+                1.3072775232293614,
+                0.5511247687377675,
+                0.39545566969398216,
+                0.36421063286893823,
+                0.3954556696939887,
+                0.5511247687377948,
+                1.3072775232294642,
+                1.2168081384318445
+              ],
+              "tau_expectation": [
+                -0.14831970501339137,
+                1.448439403692979
+              ]
+            },
+            "twisted_q1_cusp_unram_dirichlet": {
+              "E0": 14.882908792420873,
+              "rel_gap": 0.632141472489772,
+              "mult": 1,
+              "prob_peaks": [
+                0
+              ],
+              "dens_peaks": [
+                0
+              ],
+              "single_prob_peak": true,
+              "layer_probs": [
+                0.30708052396579244,
+                0.17540589509643634,
+                0.015138454799328786,
+                0.0018961700824286457,
+                0.0009579121120318584,
+                0.0018961700824286754,
+                0.015138454799328769,
+                0.17540589509643353,
+                0.3070805239657911
+              ]
+            },
+            "twisted_q2_cusp_unram_neumann": {
+              "E0": 4.926436962111283,
+              "rel_gap": 0.7014680656558157,
+              "mult": 1,
+              "prob_peaks": [
+                1,
+                7
+              ],
+              "dens_peaks": [
+                1,
+                7
+              ],
+              "single_prob_peak": false,
+              "layer_probs": [
+                0.17782982286348092,
+                0.20223886422497422,
+                0.08840731889241242,
+                0.024360465052464104,
+                0.014327057933306873,
+                0.024360465052464232,
+                0.08840731889241722,
+                0.20223886422498855,
+                0.17782982286349147
+              ]
+            }
+          },
+          "n_sub=5": {
+            "untwisted_S1_neumann": {
+              "E0": 5.592930880610334,
+              "rel_gap": 1.0848742362328159,
+              "mult": 1,
+              "prob_peaks": [
+                4
+              ],
+              "dens_peaks": [
+                4
+              ],
+              "layer_probs": [
+                0.08658821589355291,
+                0.03343739670039217,
+                0.07855696813178537,
+                0.18839917721883293,
+                0.22603648411088323,
+                0.1883991772188298,
+                0.07855696813178159,
+                0.0334373967003911,
+                0.08658821589355092
+              ]
+            },
+            "twisted_q1_cusp_unram_neumann": {
+              "E0": 7.380789159325042,
+              "E1_next": 8.6305643087999,
+              "rel_gap": 0.16932811959489005,
+              "mult": 1,
+              "prob_peaks": [
+                0
+              ],
+              "dens_peaks": [
+                0
+              ],
+              "single_prob_peak": true,
+              "single_dens_peak": true,
+              "layer_probs": [
+                0.23277623919531137,
+                0.19997649128741946,
+                0.04761527718003504,
+                0.014585749735116593,
+                0.010092485204207932,
+                0.01458574973511658,
+                0.04761527718003677,
+                0.19997649128743084,
+                0.23277623919532536
+              ],
+              "layer_density_ratio": [
+                1.328323864818927,
+                1.2808812166909738,
+                0.4724996621806448,
+                0.29684809072149104,
+                0.2694673903863978,
+                0.29684809072149093,
+                0.4724996621806622,
+                1.2808812166910466,
+                1.328323864819007
+              ],
+              "tau_expectation": [
+                -0.15617453347508148,
+                1.4146984269600824
+              ]
+            },
+            "twisted_q1_cusp_unram_dirichlet": {
+              "E0": 12.006829874195711,
+              "rel_gap": 0.7897060291505101,
+              "mult": 1,
+              "prob_peaks": [
+                0
+              ],
+              "dens_peaks": [
+                0
+              ],
+              "single_prob_peak": true,
+              "layer_probs": [
+                0.2851536921382644,
+                0.18751190387048883,
+                0.02204743232650343,
+                0.004112977796812188,
+                0.0023479877358352362,
+                0.004112977796812487,
+                0.022047432326505783,
+                0.18751190387050545,
+                0.2851536921382722
+              ]
+            },
+            "twisted_q2_cusp_unram_neumann": {
+              "E0": 4.18431653899734,
+              "rel_gap": 0.9250009057108178,
+              "mult": 1,
+              "prob_peaks": [
+                1,
+                7
+              ],
+              "dens_peaks": [
+                1,
+                7
+              ],
+              "single_prob_peak": false,
+              "layer_probs": [
+                0.1805301785366391,
+                0.1972596389250687,
+                0.08909782643993085,
+                0.02548417856090904,
+                0.015256355074877175,
+                0.02548417856090995,
+                0.08909782643993579,
+                0.19725963892508125,
+                0.18053017853664824
+              ]
+            }
+          }
+        },
+        "cusp_ramified_q1_dirichlet": [
+          {
+            "line_idx": 0,
+            "E0": 12.883920744950641,
+            "rel_gap": 0.4430344532176182,
+            "mult": 1,
+            "prob_peaks": [
+              0
+            ],
+            "dens_peaks": [
+              0
+            ],
+            "single_prob_peak": true
+          },
+          {
+            "line_idx": 1,
+            "E0": 12.883920744951755,
+            "rel_gap": 0.4430344532174979,
+            "mult": 1,
+            "prob_peaks": [
+              0
+            ],
+            "dens_peaks": [
+              0
+            ],
+            "single_prob_peak": true
+          },
+          {
+            "line_idx": 2,
+            "E0": 12.292611977295845,
+            "rel_gap": 0.6604561038658368,
+            "mult": 1,
+            "prob_peaks": [
+              0
+            ],
+            "dens_peaks": [
+              0
+            ],
+            "single_prob_peak": true
+          },
+          {
+            "line_idx": 3,
+            "E0": 12.29261197729447,
+            "rel_gap": 0.6604561038660953,
+            "mult": 1,
+            "prob_peaks": [
+              0
+            ],
+            "dens_peaks": [
+              0
+            ],
+            "single_prob_peak": true
+          }
+        ],
+        "opposite_convention_2fold_cover": {
+          "cover_manifold": "b++LRRRRRRLRLRRRRRRLR",
+          "n_sub": 3,
+          "E0": 6.999051532379706,
+          "rel_gap": 0.5075140987631761,
+          "mult": 1,
+          "folded_base_layer_probs": [
+            0.20725608384881122,
+            0.20307594105474203,
+            0.05936017428262272,
+            0.022327219248225554,
+            0.01596116313119783,
+            0.022327219248225606,
+            0.059360174282623364,
+            0.20307594105474194,
+            0.20725608384880978
+          ],
+          "argmax_folded_layer": 0
+        },
+        "headline_finest_q1": {
+          "n_sub": 5,
+          "E0": 7.380789159325042,
+          "rel_gap": 0.16932811959489005,
+          "ground_multiplicity": 1,
+          "prob_peak_layers": [
+            0
+          ],
+          "density_peak_layers": [
+            0
+          ],
+          "single_prob_peak": true,
+          "single_density_peak": true,
+          "tau_pleated_expectation": [
+            -0.15617453347508148,
+            1.4146984269600824
+          ]
+        }
+      },
+      "(2,1,2,1,2)": {
+        "label": "(2,1,2,1,2)",
+        "word": "LLRLLRLLRLR",
+        "num_letters_tets": 11,
+        "extends_golden_v5": true,
+        "direct_rank1_manifold": "b+-LLRLLRLLRLR",
+        "opposite_rank2_manifold": "b++LLRLLRLLRLR",
+        "homology_direct": "Z/140 + Z",
+        "torsion_5_rank": 1,
+        "snappy_volume": 10.089681841596857,
+        "tet_bw_volumes": [
+          0.9682539089331164,
+          0.7710658892983404,
+          0.9671896632708421,
+          0.965964810862709,
+          0.7456784456459576,
+          0.965964810862709,
+          0.9671896632708421,
+          0.7710658892983404,
+          0.9682539089331164,
+          0.9995274256104419,
+          0.9995274256104419
+        ],
+        "horo_min_edge_by_layer": [
+          0.17102058776141046,
+          0.16138415274366436,
+          0.16138415274366436,
+          0.15769177266310686,
+          0.15769177266310686,
+          0.15769177266310686,
+          0.16138415274366436,
+          0.16138415274366436,
+          0.17102058776141046,
+          0.2145629639864949,
+          0.2145629639864949
+        ],
+        "pinched_throat_layers": [
+          3,
+          4,
+          5
+        ],
+        "thickest_volume_layers": [
+          9,
+          10
+        ],
+        "margulis_geodesic_check": {
+          "found_shortest_geodesic": true,
+          "shortest_real_length": 0.6371033429579099,
+          "shortest_torsion_angle": -1.3717282579979777,
+          "shortest_multiplicity": 1,
+          "cover_5cusp_lift": null
+        },
+        "mesh_convergence": {
+          "n_sub=3": {
+            "untwisted_S1_neumann": {
+              "E0": 2.9046968838505096,
+              "rel_gap": 0.003140449330567818,
+              "mult": 1,
+              "prob_peaks": [
+                1,
+                7
+              ],
+              "dens_peaks": [
+                1,
+                7
+              ],
+              "layer_probs": [
+                0.11076222526017834,
+                0.14908920882298238,
+                0.1367858191613698,
+                0.06084497538053704,
+                0.012665666095057551,
+                0.06084497537962353,
+                0.13678581916055582,
+                0.1490892088231861,
+                0.11076222526119685,
+                0.03618493832795517,
+                0.03618493832735729
+              ]
+            },
+            "twisted_q1_cusp_unram_neumann": {
+              "E0": 2.1936164669923945,
+              "E1_next": 6.4845746327079965,
+              "rel_gap": 1.9561113942579094,
+              "mult": 1,
+              "prob_peaks": [
+                4
+              ],
+              "dens_peaks": [
+                4
+              ],
+              "single_prob_peak": true,
+              "single_dens_peak": true,
+              "layer_probs": [
+                0.011527991759996992,
+                0.0316853502031357,
+                0.12691307871329952,
+                0.2152602150934133,
+                0.21615464844010274,
+                0.21526021509341392,
+                0.12691307871330018,
+                0.031685350203136044,
+                0.011527991759997037,
+                0.006536040010102148,
+                0.006536040010102227
+              ],
+              "layer_density_ratio": [
+                0.1202071972955753,
+                0.4150321173852753,
+                1.326382952725227,
+                2.256259378733344,
+                2.9309577994347245,
+                2.25625937873335,
+                1.326382952725234,
+                0.4150321173852797,
+                0.12020719729557579,
+                0.06549737402940954,
+                0.06549737402941033
+              ],
+              "tau_expectation": [
+                -0.2223984499576978,
+                1.2923292740145498
+              ]
+            },
+            "twisted_q1_cusp_unram_dirichlet": {
+              "E0": 18.331349408037266,
+              "rel_gap": 0.06568725875365793,
+              "mult": 1,
+              "prob_peaks": [
+                3,
+                5
+              ],
+              "dens_peaks": [
+                4
+              ],
+              "single_prob_peak": false,
+              "layer_probs": [
+                0.006544347696082219,
+                0.032843541184364444,
+                0.1265908837576825,
+                0.22333703356793644,
+                0.22015668445497888,
+                0.22333703356793155,
+                0.12659088375767655,
+                0.03284354118436129,
+                0.006544347696080537,
+                0.0006058515664524426,
+                0.0006058515664530049
+              ]
+            },
+            "twisted_q2_cusp_unram_neumann": {
+              "E0": 4.73058547825595,
+              "rel_gap": 0.8072332891711087,
+              "mult": 1,
+              "prob_peaks": [
+                4
+              ],
+              "dens_peaks": [
+                4
+              ],
+              "single_prob_peak": true,
+              "layer_probs": [
+                0.017719323074285757,
+                0.016679891834744515,
+                0.0812512089574796,
+                0.22974695003463738,
+                0.2818214492087829,
+                0.22974695003463858,
+                0.08125120895748007,
+                0.016679891834744578,
+                0.017719323074285916,
+                0.013691901494460507,
+                0.013691901494460309
+              ]
+            }
+          },
+          "n_sub=4": {
+            "untwisted_S1_neumann": {
+              "E0": 3.046103137744721,
+              "rel_gap": 0.010438537872263703,
+              "mult": 1,
+              "prob_peaks": [
+                1,
+                7
+              ],
+              "dens_peaks": [
+                1,
+                7
+              ],
+              "layer_probs": [
+                0.11147889041673217,
+                0.1494159059433307,
+                0.1365284569992532,
+                0.060146502075910255,
+                0.012315578088585773,
+                0.06014650207531087,
+                0.13652845699871788,
+                0.14941590594346027,
+                0.11147889041739653,
+                0.0362724555208465,
+                0.0362724555204558
+              ]
+            },
+            "twisted_q1_cusp_unram_neumann": {
+              "E0": 2.067787298142434,
+              "E1_next": 6.299728995435862,
+              "rel_gap": 2.046603971837495,
+              "mult": 1,
+              "prob_peaks": [
+                3,
+                5
+              ],
+              "dens_peaks": [
+                4
+              ],
+              "single_prob_peak": false,
+              "single_dens_peak": true,
+              "layer_probs": [
+                0.017388369258995843,
+                0.03571966279678811,
+                0.12735874480690226,
+                0.20693086251601145,
+                0.20240113323018966,
+                0.2069308625160057,
+                0.12735874480689593,
+                0.03571966279678535,
+                0.017388369258994993,
+                0.011401794006215176,
+                0.011401794006215426
+              ],
+              "layer_density_ratio": [
+                0.18127954331761337,
+                0.4677059660539934,
+                1.330229801521126,
+                2.1664758750800965,
+                2.742423645265554,
+                2.166475875080036,
+                1.3302298015210599,
+                0.46770596605395715,
+                0.18127954331760449,
+                0.11453448061155956,
+                0.11453448061156207
+              ],
+              "tau_expectation": [
+                -0.21049554412587357,
+                1.2880160484415821
+              ]
+            },
+            "twisted_q1_cusp_unram_dirichlet": {
+              "E0": 7.416591065207005,
+              "rel_gap": 0.4912498900202853,
+              "mult": 1,
+              "prob_peaks": [
+                4
+              ],
+              "dens_peaks": [
+                4
+              ],
+              "single_prob_peak": true,
+              "layer_probs": [
+                0.004922452744020108,
+                0.0286265970720866,
+                0.10396525061684571,
+                0.224444371955039,
+                0.2742561663879913,
+                0.2244443719550409,
+                0.10396525061684521,
+                0.028626597072085837,
+                0.004922452744019957,
+                0.0009132444180128075,
+                0.000913244418012668
+              ]
+            },
+            "twisted_q2_cusp_unram_neumann": {
+              "E0": 4.463417921714312,
+              "rel_gap": 0.7964866588131644,
+              "mult": 1,
+              "prob_peaks": [
+                4
+              ],
+              "dens_peaks": [
+                4
+              ],
+              "single_prob_peak": true,
+              "layer_probs": [
+                0.015272883295453779,
+                0.019958996270591948,
+                0.08998128507404528,
+                0.22921072872417728,
+                0.2714473850625962,
+                0.22921072872417392,
+                0.0899812850740431,
+                0.019958996270590706,
+                0.015272883295452268,
+                0.009852414104437353,
+                0.009852414104438073
+              ]
+            }
+          }
+        },
+        "cusp_ramified_q1_dirichlet": [
+          {
+            "line_idx": 0,
+            "E0": 7.417345879288778,
+            "rel_gap": 0.5083081739742444,
+            "mult": 1,
+            "prob_peaks": [
+              4
+            ],
+            "dens_peaks": [
+              4
+            ],
+            "single_prob_peak": true
+          },
+          {
+            "line_idx": 1,
+            "E0": 7.416879138917414,
+            "rel_gap": 0.4956942017831893,
+            "mult": 1,
+            "prob_peaks": [
+              4
+            ],
+            "dens_peaks": [
+              4
+            ],
+            "single_prob_peak": true
+          },
+          {
+            "line_idx": 2,
+            "E0": 7.416879138917329,
+            "rel_gap": 0.49569420178319545,
+            "mult": 1,
+            "prob_peaks": [
+              4
+            ],
+            "dens_peaks": [
+              4
+            ],
+            "single_prob_peak": true
+          },
+          {
+            "line_idx": 3,
+            "E0": 7.417345879288742,
+            "rel_gap": 0.5083081739742622,
+            "mult": 1,
+            "prob_peaks": [
+              4
+            ],
+            "dens_peaks": [
+              4
+            ],
+            "single_prob_peak": true
+          }
+        ],
+        "opposite_convention_2fold_cover": {
+          "cover_manifold": "b++LLRLLRLLRLRLLRLLRLLRLR",
+          "n_sub": 3,
+          "E0": 2.193616466992399,
+          "rel_gap": 0.00699185861384634,
+          "mult": 1,
+          "folded_base_layer_probs": [
+            0.011527991759997091,
+            0.03168535020313629,
+            0.1269130787133006,
+            0.2152602150934143,
+            0.21615464844010274,
+            0.2152602150934128,
+            0.1269130787132994,
+            0.03168535020313585,
+            0.011527991759996862,
+            0.0065360400101020545,
+            0.006536040010102148
+          ],
+          "argmax_folded_layer": 4
+        },
+        "headline_finest_q1": {
+          "n_sub": 4,
+          "E0": 2.067787298142434,
+          "rel_gap": 2.046603971837495,
+          "ground_multiplicity": 1,
+          "prob_peak_layers": [
+            3,
+            5
+          ],
+          "density_peak_layers": [
+            4
+          ],
+          "single_prob_peak": false,
+          "single_density_peak": true,
+          "tau_pleated_expectation": [
+            -0.21049554412587357,
+            1.2880160484415821
+          ]
+        }
+      },
+      "(2,1,1,1,2)": {
+        "label": "(2,1,1,1,2)",
+        "word": "LLRLRLLRLR",
+        "num_letters_tets": 10,
+        "extends_golden_v5": true,
+        "direct_rank1_manifold": "b+-LLRLRLLRLR",
+        "opposite_rank2_manifold": "b++LLRLRLLRLR",
+        "homology_direct": "Z/10 + Z/10 + Z",
+        "torsion_5_rank": 2,
+        "snappy_volume": 9.503403931035798,
+        "tet_bw_volumes": [
+          0.9749979199193052,
+          0.7977152449615443,
+          0.9749979199193052,
+          1.0019954403588724,
+          1.0019954403588724,
+          0.9749979199193052,
+          0.7977152449615443,
+          0.9749979199193052,
+          1.0019954403588724,
+          1.0019954403588724
+        ],
+        "horo_min_edge_by_layer": [
+          0.17934446356293282,
+          0.17934446356293282,
+          0.17934446356293282,
+          0.22059103944030378,
+          0.22059103944030378,
+          0.17934446356293282,
+          0.17934446356293282,
+          0.17934446356293282,
+          0.22059103944030378,
+          0.22059103944030378
+        ],
+        "pinched_throat_layers": [
+          0,
+          1,
+          2,
+          5,
+          6,
+          7
+        ],
+        "thickest_volume_layers": [
+          3,
+          4,
+          8,
+          9
+        ],
+        "margulis_geodesic_check": {
+          "found_shortest_geodesic": true,
+          "shortest_real_length": 0.6970567929896474,
+          "shortest_torsion_angle": -1.4387706636656703,
+          "shortest_multiplicity": 2,
+          "cover_5cusp_lift": null
+        },
+        "mesh_convergence": {
+          "n_sub=3": {
+            "untwisted_S1_neumann": {
+              "E0": 3.231683947574526,
+              "rel_gap": 0.007510764396720046,
+              "mult": 1,
+              "prob_peaks": [
+                1,
+                6
+              ],
+              "dens_peaks": [
+                1,
+                6
+              ],
+              "layer_probs": [
+                0.12772155629366352,
+                0.16091038473879485,
+                0.12772155629370452,
+                0.041823251336929,
+                0.04182325133690419,
+                0.12772155629366605,
+                0.1609103847387979,
+                0.1277215562937068,
+                0.041823251336929636,
+                0.04182325133690346
+              ]
+            },
+            "twisted_q1_cusp_unram_neumann": {
+              "E0": 2.2369250340770845,
+              "E1_next": 6.661135522236419,
+              "rel_gap": 1.9778090104770476,
+              "mult": 1,
+              "prob_peaks": [
+                1
+              ],
+              "dens_peaks": [
+                1
+              ],
+              "single_prob_peak": true,
+              "single_dens_peak": true,
+              "layer_probs": [
+                0.21470690088006067,
+                0.22404211172514235,
+                0.21470690088005576,
+                0.12427985944498252,
+                0.039206210160149746,
+                0.009080515335562457,
+                0.0014109166333430066,
+                0.009080515335563097,
+                0.039206210160152494,
+                0.1242798594449879
+              ],
+              "layer_density_ratio": [
+                2.098242032329312,
+                2.6773306726937878,
+                2.098242032329263,
+                1.1743084352625368,
+                0.3704557078785656,
+                0.08874013305669894,
+                0.016860626557998876,
+                0.08874013305670517,
+                0.37045570787859144,
+                1.1743084352625879
+              ],
+              "tau_expectation": [
+                -0.100697917121079,
+                1.1265375113655323
+              ]
+            },
+            "twisted_q1_cusp_unram_dirichlet": {
+              "E0": 16.437962865435416,
+              "rel_gap": 0.11415547149297965,
+              "mult": 1,
+              "prob_peaks": [
+                0,
+                2
+              ],
+              "dens_peaks": [
+                1
+              ],
+              "single_prob_peak": false,
+              "layer_probs": [
+                0.18989586423311516,
+                0.17412122706304708,
+                0.18989586423312568,
+                0.15102732071933686,
+                0.0644875414452226,
+                0.007126400913551873,
+                0.0008045183145079445,
+                0.0071264009135513185,
+                0.06448754144521694,
+                0.1510273207193245
+              ]
+            },
+            "twisted_q2_cusp_unram_neumann": {
+              "E0": 4.467817833178348,
+              "rel_gap": 0.21416033352129168,
+              "mult": 1,
+              "prob_peaks": [
+                5,
+                7
+              ],
+              "dens_peaks": [
+                6
+              ],
+              "single_prob_peak": false,
+              "layer_probs": [
+                0.050568289441069864,
+                0.050181987351052906,
+                0.05056828944107,
+                0.032167668037341626,
+                0.09850615394655537,
+                0.19598014708254952,
+                0.19537349563391393,
+                0.1959801470825498,
+                0.09850615394655529,
+                0.03216766803734147
+              ]
+            }
+          },
+          "n_sub=4": {
+            "untwisted_S1_neumann": {
+              "E0": 3.3611170319435058,
+              "rel_gap": 0.023186846129243256,
+              "mult": 1,
+              "prob_peaks": [
+                1,
+                6
+              ],
+              "dens_peaks": [
+                1,
+                6
+              ],
+              "layer_probs": [
+                0.1278011116740494,
+                0.1610974914661421,
+                0.1278011116741194,
+                0.04165014259286837,
+                0.041650142592823625,
+                0.12780111167404767,
+                0.16109749146614033,
+                0.12780111167411728,
+                0.04165014259286734,
+                0.041650142592824534
+              ]
+            },
+            "twisted_q1_cusp_unram_neumann": {
+              "E0": 2.133689760705969,
+              "E1_next": 6.4884134656847445,
+              "rel_gap": 2.04093574669353,
+              "mult": 1,
+              "prob_peaks": [
+                1
+              ],
+              "dens_peaks": [
+                1
+              ],
+              "single_prob_peak": true,
+              "single_dens_peak": true,
+              "layer_probs": [
+                0.21031431116171811,
+                0.21509861305207467,
+                0.2103143111617149,
+                0.12588731351606072,
+                0.042649312330600965,
+                0.012119367826346258,
+                0.0029607772784738065,
+                0.012119367826346213,
+                0.04264931233060123,
+                0.12588731351606303
+              ],
+              "layer_density_ratio": [
+                2.053549729898091,
+                2.5677692689751392,
+                2.0535497298980596,
+                1.1909794677468184,
+                0.40349145502089534,
+                0.1183358583106212,
+                0.03534468586324323,
+                0.11833585831062075,
+                0.4034914550208978,
+                1.1909794677468404
+              ],
+              "tau_expectation": [
+                -0.09366585585144738,
+                1.1245660438436835
+              ]
+            },
+            "twisted_q1_cusp_unram_dirichlet": {
+              "E0": 6.893385415168067,
+              "rel_gap": 0.5366963988079239,
+              "mult": 1,
+              "prob_peaks": [
+                1
+              ],
+              "dens_peaks": [
+                1
+              ],
+              "single_prob_peak": true,
+              "layer_probs": [
+                0.21747773974835677,
+                0.2549176708851777,
+                0.21747773974835216,
+                0.1118677540608228,
+                0.03699359918494822,
+                0.005808867724468988,
+                0.0007864076776255224,
+                0.005808867724469311,
+                0.03699359918495045,
+                0.1118677540608281
+              ]
+            },
+            "twisted_q2_cusp_unram_neumann": {
+              "E0": 4.029159811505032,
+              "rel_gap": 0.32514022864860587,
+              "mult": 1,
+              "prob_peaks": [
+                5,
+                7
+              ],
+              "dens_peaks": [
+                6
+              ],
+              "single_prob_peak": false,
+              "layer_probs": [
+                0.07467357060037577,
+                0.07354837806885595,
+                0.07467357060037556,
+                0.04968305087037076,
+                0.09384012983193131,
+                0.16472248743644965,
+                0.16061314445289113,
+                0.1647224874364486,
+                0.09384012983193071,
+                0.04968305087037046
+              ]
+            }
+          }
+        },
+        "cusp_ramified_q1_dirichlet": [
+          {
+            "line_idx": 0,
+            "E0": 9.086405454048549,
+            "rel_gap": 0.040698851737865346,
+            "mult": 1,
+            "prob_peaks": [
+              6
+            ],
+            "dens_peaks": [
+              6
+            ],
+            "single_prob_peak": true
+          },
+          {
+            "line_idx": 1,
+            "E0": 9.102862284394664,
+            "rel_gap": 0.03668316022768356,
+            "mult": 1,
+            "prob_peaks": [
+              6
+            ],
+            "dens_peaks": [
+              6
+            ],
+            "single_prob_peak": true
+          },
+          {
+            "line_idx": 2,
+            "E0": 9.102862284394654,
+            "rel_gap": 0.03668316022768321,
+            "mult": 1,
+            "prob_peaks": [
+              6
+            ],
+            "dens_peaks": [
+              6
+            ],
+            "single_prob_peak": true
+          },
+          {
+            "line_idx": 3,
+            "E0": 9.086405454048474,
+            "rel_gap": 0.040698851737866075,
+            "mult": 1,
+            "prob_peaks": [
+              6
+            ],
+            "dens_peaks": [
+              6
+            ],
+            "single_prob_peak": true
+          }
+        ],
+        "opposite_convention_2fold_cover": {
+          "cover_manifold": "b++LLRLRLLRLRLLRLRLLRLR",
+          "n_sub": 3,
+          "E0": 3.2165657354777357,
+          "rel_gap": 0.00821334780582119,
+          "mult": 1,
+          "folded_base_layer_probs": [
+            0.2498636424902339,
+            0.10818263060278882,
+            0.04685555143160303,
+            0.018838016381663034,
+            0.007664423648005608,
+            0.010399021510366452,
+            0.0139334847778083,
+            0.07945883812832703,
+            0.18619375948889244,
+            0.27861063154031135
+          ],
+          "argmax_folded_layer": 9
+        },
+        "headline_finest_q1": {
+          "n_sub": 4,
+          "E0": 2.133689760705969,
+          "rel_gap": 2.04093574669353,
+          "ground_multiplicity": 1,
+          "prob_peak_layers": [
+            1
+          ],
+          "density_peak_layers": [
+            1
+          ],
+          "single_prob_peak": true,
+          "single_density_peak": true,
+          "tau_pleated_expectation": [
+            -0.09366585585144738,
+            1.1245660438436835
+          ]
+        }
+      },
+      "(2,1^8,2)": {
+        "label": "(2,1^8,2)",
+        "word": "LLRLRLRLRLRRLR",
+        "num_letters_tets": 14,
+        "extends_golden_v5": true,
+        "direct_rank1_manifold": "b+-LLRLRLRLRLRRLR",
+        "opposite_rank2_manifold": "b++LLRLRLRLRLRRLR",
+        "homology_direct": "Z/2 + Z/340 + Z",
+        "torsion_5_rank": 1,
+        "snappy_volume": 13.618627523558063,
+        "tet_bw_volumes": [
+          0.9604578374638394,
+          0.8267785475330465,
+          0.9781275876854294,
+          1.0061847420145296,
+          1.01314587165044,
+          1.0145918833387202,
+          1.0147455835153127,
+          1.0145918833387206,
+          1.01314587165044,
+          1.0061847420145291,
+          0.9781275876854296,
+          0.8267785475330461,
+          0.960457837463839,
+          1.0053090006707404
+        ],
+        "horo_min_edge_by_layer": [
+          0.15760907355888845,
+          0.1547972676649095,
+          0.1547972676649095,
+          0.19500722503739124,
+          0.19752813567568683,
+          0.20671303663725388,
+          0.20869127687082878,
+          0.20671303663725388,
+          0.19752813567568683,
+          0.19500722503739124,
+          0.1547972676649095,
+          0.1547972676649095,
+          0.15760907355888845,
+          0.19134240216764414
+        ],
+        "pinched_throat_layers": [
+          1,
+          2,
+          10,
+          11
+        ],
+        "thickest_volume_layers": [
+          6
+        ],
+        "margulis_geodesic_check": {
+          "found_shortest_geodesic": true,
+          "shortest_real_length": 0.7342491160789991,
+          "shortest_torsion_angle": -1.4715873555727397,
+          "shortest_multiplicity": 1,
+          "cover_5cusp_lift": null
+        },
+        "mesh_convergence": {
+          "n_sub=3": {
+            "untwisted_S1_neumann": {
+              "E0": 1.5350416301427767,
+              "rel_gap": 0.001506279184084344,
+              "mult": 1,
+              "prob_peaks": [
+                3,
+                9
+              ],
+              "dens_peaks": [
+                3,
+                9
+              ],
+              "layer_probs": [
+                0.029228839238979138,
+                0.07000233529181982,
+                0.1266938814476778,
+                0.13298898375540757,
+                0.0940365010748783,
+                0.03648565940432717,
+                0.009266085601468813,
+                0.03648565940586694,
+                0.09403650107672658,
+                0.13298898375597412,
+                0.12669388144671223,
+                0.07000233529023872,
+                0.02922883923755844,
+                0.011861513972364405
+              ]
+            },
+            "twisted_q1_cusp_unram_neumann": {
+              "E0": 2.7070751105558237,
+              "E1_next": 6.465526470381833,
+              "rel_gap": 1.3883808931530954,
+              "mult": 1,
+              "prob_peaks": [
+                9
+              ],
+              "dens_peaks": [
+                9
+              ],
+              "single_prob_peak": true,
+              "single_dens_peak": true,
+              "layer_probs": [
+                0.0002361339818194325,
+                4.5001165054294395e-05,
+                2.2463247418840175e-05,
+                9.305838985729661e-05,
+                0.0012842565459134354,
+                0.009371902765210233,
+                0.05332283181232927,
+                0.15631929567510533,
+                0.267304116941703,
+                0.2711191909046018,
+                0.16904986606861147,
+                0.051516108226819325,
+                0.014091860713528886,
+                0.006223913562027263
+              ],
+              "layer_density_ratio": [
+                0.003357850219017915,
+                0.00074451413968277,
+                0.0003138372625780119,
+                0.0012569077261528592,
+                0.017220658630694444,
+                0.1254613332453062,
+                0.7137122921337162,
+                2.0926409224142226,
+                3.584293934946053,
+                3.6619138401048366,
+                2.361820008341958,
+                0.8522995115797507,
+                0.20038775113476234,
+                0.08413492587628284
+              ],
+              "tau_expectation": [
+                0.39291853107642183,
+                0.9734047150053824
+              ]
+            },
+            "twisted_q1_cusp_unram_dirichlet": {
+              "E0": 15.26529724669497,
+              "rel_gap": 0.1784675714286404,
+              "mult": 1,
+              "prob_peaks": [
+                8
+              ],
+              "dens_peaks": [
+                8
+              ],
+              "single_prob_peak": true,
+              "layer_probs": [
+                1.884730748031945e-05,
+                1.2800962246623394e-06,
+                1.689933726383795e-05,
+                0.0001969517701691857,
+                0.0005736923674566762,
+                0.006734815204920702,
+                0.06840876190801863,
+                0.20418051341887652,
+                0.34111034892332287,
+                0.2666308623577332,
+                0.09159691304216463,
+                0.017984688982328093,
+                0.0023464406925424847,
+                0.00019898459149810948
+              ]
+            },
+            "twisted_q2_cusp_unram_neumann": {
+              "E0": 2.7070751105557633,
+              "rel_gap": 1.3883808931531352,
+              "mult": 1,
+              "prob_peaks": [
+                3
+              ],
+              "dens_peaks": [
+                3
+              ],
+              "single_prob_peak": true,
+              "layer_probs": [
+                0.014091860713528855,
+                0.05151610822681937,
+                0.16904986606861178,
+                0.27111919090460174,
+                0.2673041169417029,
+                0.15631929567510544,
+                0.053322831812329226,
+                0.00937190276521021,
+                0.001284256545913428,
+                9.305838985729154e-05,
+                2.2463247418835062e-05,
+                4.5001165054289136e-05,
+                0.00023613398181942087,
+                0.006223913562027184
+              ]
+            }
+          },
+          "n_sub=4": {
+            "untwisted_S1_neumann": {
+              "E0": 1.6354076292799253,
+              "rel_gap": 0.0034469666759310022,
+              "mult": 1,
+              "prob_peaks": [
+                3,
+                9
+              ],
+              "dens_peaks": [
+                3,
+                9
+              ],
+              "layer_probs": [
+                0.029510387486096204,
+                0.07054139377920869,
+                0.1268407428936399,
+                0.1325369749723576,
+                0.093518978037341,
+                0.036407404448846444,
+                0.009332136048042509,
+                0.03640740444938322,
+                0.09351897803798297,
+                0.1325369749725522,
+                0.1268407428932988,
+                0.07054139377865266,
+                0.02951038748559861,
+                0.011956100716999003
+              ]
+            },
+            "twisted_q1_cusp_unram_neumann": {
+              "E0": 2.580111732210252,
+              "E1_next": 6.074605955592753,
+              "rel_gap": 1.3543964704152343,
+              "mult": 1,
+              "prob_peaks": [
+                9
+              ],
+              "dens_peaks": [
+                9
+              ],
+              "single_prob_peak": true,
+              "single_dens_peak": true,
+              "layer_probs": [
+                0.0012237229088773232,
+                0.00039511548727237005,
+                0.00044868724098057785,
+                0.0008921478492150955,
+                0.0029502329654165988,
+                0.0125481116273924,
+                0.05658215413563758,
+                0.15494303053252145,
+                0.257055457703225,
+                0.26075147202726945,
+                0.16862722912307582,
+                0.05564071660538904,
+                0.01898075124896045,
+                0.008961170544766727
+              ],
+              "layer_density_ratio": [
+                0.01738493450391204,
+                0.006527308351327749,
+                0.0062615354794179024,
+                0.012058278460444811,
+                0.03959203575231574,
+                0.16813047345227983,
+                0.7580145497705473,
+                2.07606099269117,
+                3.4496763445516048,
+                3.52431927223941,
+                2.353232455735856,
+                0.9191847089553795,
+                0.2696518263280336,
+                0.1212219593322096
+              ],
+              "tau_expectation": [
+                0.3852991906466386,
+                0.9754904398905578
+              ]
+            },
+            "twisted_q1_cusp_unram_dirichlet": {
+              "E0": 7.099910359070063,
+              "rel_gap": 0.4698090108244514,
+              "mult": 1,
+              "prob_peaks": [
+                8
+              ],
+              "dens_peaks": [
+                8
+              ],
+              "single_prob_peak": true,
+              "layer_probs": [
+                4.496647685795194e-05,
+                3.6429994952059405e-06,
+                5.737807586548706e-06,
+                6.438164976309427e-05,
+                0.0005427827944886601,
+                0.0072533336947372936,
+                0.056684716390175804,
+                0.17175069841619559,
+                0.2981091654167217,
+                0.27248852542999646,
+                0.142053104287269,
+                0.04290516705821822,
+                0.007150392259722713,
+                0.000943385318771708
+              ]
+            },
+            "twisted_q2_cusp_unram_neumann": {
+              "E0": 2.580111732210245,
+              "rel_gap": 1.3543964704152742,
+              "mult": 1,
+              "prob_peaks": [
+                3
+              ],
+              "dens_peaks": [
+                3
+              ],
+              "single_prob_peak": true,
+              "layer_probs": [
+                0.018980751248960374,
+                0.05564071660538981,
+                0.16862722912307632,
+                0.26075147202726906,
+                0.25705545770322524,
+                0.15494303053252198,
+                0.05658215413563773,
+                0.012548111627392214,
+                0.002950232965416236,
+                0.0008921478492148672,
+                0.0004486872409804442,
+                0.0003951154872723144,
+                0.0012237229088771858,
+                0.008961170544766332
+              ]
+            }
+          }
+        },
+        "cusp_ramified_q1_dirichlet": [
+          {
+            "line_idx": 0,
+            "E0": 7.099856762914138,
+            "rel_gap": 0.472172045410294,
+            "mult": 1,
+            "prob_peaks": [
+              8
+            ],
+            "dens_peaks": [
+              8
+            ],
+            "single_prob_peak": true
+          },
+          {
+            "line_idx": 1,
+            "E0": 7.0998898860229644,
+            "rel_gap": 0.470689891772569,
+            "mult": 1,
+            "prob_peaks": [
+              8
+            ],
+            "dens_peaks": [
+              8
+            ],
+            "single_prob_peak": true
+          },
+          {
+            "line_idx": 2,
+            "E0": 7.099889886023117,
+            "rel_gap": 0.47068989177253234,
+            "mult": 1,
+            "prob_peaks": [
+              8
+            ],
+            "dens_peaks": [
+              8
+            ],
+            "single_prob_peak": true
+          },
+          {
+            "line_idx": 3,
+            "E0": 7.099856762914222,
+            "rel_gap": 0.472172045410274,
+            "mult": 1,
+            "prob_peaks": [
+              8
+            ],
+            "dens_peaks": [
+              8
+            ],
+            "single_prob_peak": true
+          }
+        ],
+        "opposite_convention_2fold_cover": {
+          "cover_manifold": "b++LLRLRLRLRLRRLRLLRLRLRLRLRRLR",
+          "n_sub": 3,
+          "E0": 2.7070751105557767,
+          "rel_gap": 4.3967941368359804e-05,
+          "mult": 1,
+          "folded_base_layer_probs": [
+            0.0002361339818194224,
+            4.5001165054293e-05,
+            2.246324741883579e-05,
+            9.305838985728949e-05,
+            0.0012842565459133955,
+            0.00937190276521013,
+            0.05332283181232913,
+            0.15631929567510555,
+            0.2673041169417032,
+            0.2711191909046019,
+            0.16904986606861158,
+            0.05151610822681938,
+            0.014091860713528779,
+            0.006223913562027158
+          ],
+          "argmax_folded_layer": 9
+        },
+        "headline_finest_q1": {
+          "n_sub": 4,
+          "E0": 2.580111732210252,
+          "rel_gap": 1.3543964704152343,
+          "ground_multiplicity": 1,
+          "prob_peak_layers": [
+            9
+          ],
+          "density_peak_layers": [
+            9
+          ],
+          "single_prob_peak": true,
+          "single_density_peak": true,
+          "tau_pleated_expectation": [
+            0.3852991906466386,
+            0.9754904398905578
+          ]
+        }
+      }
+    },
+    "enantiomer_6_vs_1_6_E0_diff": 2.291500322826323e-12,
+    "run6_3d_verdict": {
+      "ground_eigenvalue_nondegenerate_mult_eq_1": true,
+      "lowest_twisted_orbit_q2": {
+        "E0_n5": 4.184316538996569,
+        "rel_gap_n5": 0.9250009057105905,
+        "mult": 1,
+        "prob_peak_layers": [
+          0,
+          6
+        ],
+        "density_peak_layers": [
+          0,
+          6
+        ],
+        "throat_center_prob_P3": 0.01525635507487776,
+        "shoulder_probs_P0_P6": [
+          0.19725963892505963,
+          0.19725963892509704
+        ]
+      },
+      "secondary_twisted_orbit_q1": {
+        "E0_n5": 7.380789159327334,
+        "rel_gap_n5": 0.16932811959454724,
+        "mult": 1,
+        "merged_plateau_peak": [
+          7
+        ],
+        "anti_apex_pair_probs_P7_P8": [
+          0.23277623919532017,
+          0.232776239195309
+        ],
+        "throat_center_prob_P3": 0.010092485204208702
+      },
+      "palindromic_Z2_isometry_prob_symmetry_err": 3.7414515929867775e-14,
+      "E0_n5": 7.380789159327334,
+      "rel_gap_n5": 0.16932811959454724,
+      "prob_peak_layers": [
+        7
+      ],
+      "density_peak_layers": [
+        7
+      ],
+      "pinched_throat_layers": [
+        2,
+        3,
+        4
+      ],
+      "thickest_volume_layers": [
+        7,
+        8
+      ],
+      "single_prob_peak": true,
+      "single_density_peak": true,
+      "margulis_throat_is_z5_charged": true
+    },
+    "bounded_family_A6_3d_summary": {
+      "tested_unique_words": 176,
+      "bundle_extending_count": 18,
+      "nondegenerate_ground_eigenvalue_count": 18,
+      "single_prob_peak_count": 14,
+      "single_density_peak_count": 13,
+      "sorted_by_volume": [
+        {
+          "runs": [
+            1
+          ],
+          "word": "LRLR",
+          "letters": 4,
+          "volume": 4.059766425638615,
+          "direct_manifold": "b++LRLR",
+          "E0_q1": 6.834702957423781,
+          "rel_gap_q1": 0.015149744324321576,
+          "mult_q1": 1,
+          "prob_peaks_q1": [
+            0
+          ],
+          "dens_peaks_q1": [
+            0
+          ],
+          "single_prob_peak": true,
+          "single_dens_peak": true,
+          "tau_pleated_expectation": [
+            0.5,
+            0.8660254037844386
+          ]
+        },
+        {
+          "runs": [
+            6
+          ],
+          "word": "LLLLLLRLR",
+          "letters": 9,
+          "volume": 5.586361607662566,
+          "direct_manifold": "b++LLLLLLRLR",
+          "E0_q1": 7.185286143163157,
+          "rel_gap_q1": 0.5294789015867091,
+          "mult_q1": 1,
+          "prob_peaks_q1": [
+            7
+          ],
+          "dens_peaks_q1": [
+            0,
+            6
+          ],
+          "single_prob_peak": true,
+          "single_dens_peak": false,
+          "tau_pleated_expectation": [
+            0.14831970501339348,
+            1.4484394036929686
+          ]
+        },
+        {
+          "runs": [
+            1,
+            6
+          ],
+          "word": "LRRRRRRLR",
+          "letters": 9,
+          "volume": 5.586361607662566,
+          "direct_manifold": "b++LRRRRRRLR",
+          "E0_q1": 7.18528614316293,
+          "rel_gap_q1": 0.5294789015868254,
+          "mult_q1": 1,
+          "prob_peaks_q1": [
+            0
+          ],
+          "dens_peaks_q1": [
+            1,
+            7
+          ],
+          "single_prob_peak": true,
+          "single_dens_peak": false,
+          "tau_pleated_expectation": [
+            -0.14831970501339137,
+            1.448439403692979
+          ]
+        },
+        {
+          "runs": [
+            1,
+            1,
+            1
+          ],
+          "word": "LRLRLR",
+          "letters": 6,
+          "volume": 6.089649638457922,
+          "direct_manifold": "b+-LRLRLR",
+          "E0_q1": 6.8347029574237395,
+          "rel_gap_q1": 0.19989597403009532,
+          "mult_q1": 1,
+          "prob_peaks_q1": [
+            3
+          ],
+          "dens_peaks_q1": [
+            3
+          ],
+          "single_prob_peak": true,
+          "single_dens_peak": true,
+          "tau_pleated_expectation": [
+            0.5000000000000001,
+            0.8660254037844388
+          ]
+        },
+        {
+          "runs": [
+            6,
+            1,
+            1
+          ],
+          "word": "LLLLLLRLRLR",
+          "letters": 11,
+          "volume": 7.651806891462043,
+          "direct_manifold": "b+-LLLLLLRLRLR",
+          "E0_q1": 8.26978943048639,
+          "rel_gap_q1": 0.07452058864719857,
+          "mult_q1": 1,
+          "prob_peaks_q1": [
+            7,
+            10
+          ],
+          "dens_peaks_q1": [
+            7,
+            10
+          ],
+          "single_prob_peak": false,
+          "single_dens_peak": false,
+          "tau_pleated_expectation": [
+            0.017044277783259558,
+            1.2408002005799723
+          ]
+        },
+        {
+          "runs": [
+            1,
+            1,
+            6
+          ],
+          "word": "LRLLLLLLRLR",
+          "letters": 11,
+          "volume": 7.651806891462043,
+          "direct_manifold": "b+-LRLLLLLLRLR",
+          "E0_q1": 5.259275288297179,
+          "rel_gap_q1": 0.3629450805244767,
+          "mult_q1": 1,
+          "prob_peaks_q1": [
+            2,
+            8
+          ],
+          "dens_peaks_q1": [
+            2,
+            8
+          ],
+          "single_prob_peak": false,
+          "single_dens_peak": false,
+          "tau_pleated_expectation": [
+            0.05256149977668117,
+            1.383792425939767
+          ]
+        },
+        {
+          "runs": [
+            1,
+            6,
+            1
+          ],
+          "word": "LRRRRRRLRLR",
+          "letters": 11,
+          "volume": 7.651806891462043,
+          "direct_manifold": "b+-LRRRRRRLRLR",
+          "E0_q1": 8.26978943048708,
+          "rel_gap_q1": 0.0745205886470609,
+          "mult_q1": 1,
+          "prob_peaks_q1": [
+            0,
+            8
+          ],
+          "dens_peaks_q1": [
+            0,
+            8
+          ],
+          "single_prob_peak": false,
+          "single_dens_peak": false,
+          "tau_pleated_expectation": [
+            -0.017044277783298013,
+            1.2408002005800187
+          ]
+        },
+        {
+          "runs": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "word": "LRLRLRLR",
+          "letters": 8,
+          "volume": 8.11953285127723,
+          "direct_manifold": "b++LRLRLRLR",
+          "E0_q1": 6.834702957423765,
+          "rel_gap_q1": 0.015149744324310176,
+          "mult_q1": 1,
+          "prob_peaks_q1": [
+            1
+          ],
+          "dens_peaks_q1": [
+            1
+          ],
+          "single_prob_peak": true,
+          "single_dens_peak": true,
+          "tau_pleated_expectation": [
+            0.5,
+            0.8660254037844387
+          ]
+        },
+        {
+          "runs": [
+            3,
+            1,
+            3
+          ],
+          "word": "LLLRLLLRLR",
+          "letters": 10,
+          "volume": 8.126197552894727,
+          "direct_manifold": "b++LLLRLLLRLR",
+          "E0_q1": 3.509834812425435,
+          "rel_gap_q1": 0.9943642655215722,
+          "mult_q1": 1,
+          "prob_peaks_q1": [
+            3
+          ],
+          "dens_peaks_q1": [
+            3
+          ],
+          "single_prob_peak": true,
+          "single_dens_peak": true,
+          "tau_pleated_expectation": [
+            -0.17835186055139715,
+            1.4812235547472778
+          ]
+        },
+        {
+          "runs": [
+            1,
+            3,
+            1,
+            3
+          ],
+          "word": "LRRRLRRRLR",
+          "letters": 10,
+          "volume": 8.126197552894727,
+          "direct_manifold": "b++LRRRLRRRLR",
+          "E0_q1": 6.761317395438577,
+          "rel_gap_q1": 0.35221500744433654,
+          "mult_q1": 1,
+          "prob_peaks_q1": [
+            4
+          ],
+          "dens_peaks_q1": [
+            4
+          ],
+          "single_prob_peak": true,
+          "single_dens_peak": true,
+          "tau_pleated_expectation": [
+            0.12007583486505738,
+            1.415353645442489
+          ]
+        },
+        {
+          "runs": [
+            2,
+            2,
+            2
+          ],
+          "word": "LLRRLLRLR",
+          "letters": 9,
+          "volume": 8.440220211706873,
+          "direct_manifold": "b+-LLRRLLRLR",
+          "E0_q1": 7.821990474427068,
+          "rel_gap_q1": 0.05569635001953798,
+          "mult_q1": 1,
+          "prob_peaks_q1": [
+            3
+          ],
+          "dens_peaks_q1": [
+            3
+          ],
+          "single_prob_peak": true,
+          "single_dens_peak": true,
+          "tau_pleated_expectation": [
+            -0.012297744678913501,
+            1.0551188602865427
+          ]
+        },
+        {
+          "runs": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "word": "LRRLLRRLR",
+          "letters": 9,
+          "volume": 8.440220211706873,
+          "direct_manifold": "b+-LRRLLRRLR",
+          "E0_q1": 3.4223568449351225,
+          "rel_gap_q1": 1.09388830459544,
+          "mult_q1": 1,
+          "prob_peaks_q1": [
+            4
+          ],
+          "dens_peaks_q1": [
+            4
+          ],
+          "single_prob_peak": true,
+          "single_dens_peak": true,
+          "tau_pleated_expectation": [
+            -0.006635935058938813,
+            1.0515167947866597
+          ]
+        },
+        {
+          "runs": [
+            3,
+            2,
+            3
+          ],
+          "word": "LLLRRLLLRLR",
+          "letters": 11,
+          "volume": 9.321943914640164,
+          "direct_manifold": "b++LLLRRLLLRLR",
+          "E0_q1": 1.9596767304741252,
+          "rel_gap_q1": 1.9408816953433545,
+          "mult_q1": 1,
+          "prob_peaks_q1": [
+            2
+          ],
+          "dens_peaks_q1": [
+            1
+          ],
+          "single_prob_peak": true,
+          "single_dens_peak": true,
+          "tau_pleated_expectation": [
+            0.0386214807237634,
+            1.2674714460272984
+          ]
+        },
+        {
+          "runs": [
+            2,
+            1,
+            1,
+            1,
+            2
+          ],
+          "word": "LLRLRLLRLR",
+          "letters": 10,
+          "volume": 9.503403931035798,
+          "direct_manifold": "b+-LLRLRLLRLR",
+          "E0_q1": 2.133689760705969,
+          "rel_gap_q1": 2.04093574669353,
+          "mult_q1": 1,
+          "prob_peaks_q1": [
+            1
+          ],
+          "dens_peaks_q1": [
+            1
+          ],
+          "single_prob_peak": true,
+          "single_dens_peak": true,
+          "tau_pleated_expectation": [
+            -0.09366585585144738,
+            1.1245660438436835
+          ]
+        },
+        {
+          "runs": [
+            2,
+            1,
+            2,
+            1,
+            2
+          ],
+          "word": "LLRLLRLLRLR",
+          "letters": 11,
+          "volume": 10.089681841596857,
+          "direct_manifold": "b+-LLRLLRLLRLR",
+          "E0_q1": 2.067787298142434,
+          "rel_gap_q1": 2.046603971837495,
+          "mult_q1": 1,
+          "prob_peaks_q1": [
+            3,
+            5
+          ],
+          "dens_peaks_q1": [
+            4
+          ],
+          "single_prob_peak": false,
+          "single_dens_peak": true,
+          "tau_pleated_expectation": [
+            -0.21049554412587357,
+            1.2880160484415821
+          ]
+        },
+        {
+          "runs": [
+            2,
+            2,
+            2,
+            1,
+            1
+          ],
+          "word": "LLRRLLRLRLR",
+          "letters": 11,
+          "volume": 10.476971377387542,
+          "direct_manifold": "b++LLRRLLRLRLR",
+          "E0_q1": 2.2406714467816755,
+          "rel_gap_q1": 1.7801020060845039,
+          "mult_q1": 1,
+          "prob_peaks_q1": [
+            5
+          ],
+          "dens_peaks_q1": [
+            5
+          ],
+          "single_prob_peak": true,
+          "single_dens_peak": true,
+          "tau_pleated_expectation": [
+            -0.11561521092947331,
+            1.045819823742583
+          ]
+        },
+        {
+          "runs": [
+            1,
+            1,
+            2,
+            2,
+            2
+          ],
+          "word": "LRLLRRLLRLR",
+          "letters": 11,
+          "volume": 10.476971377387542,
+          "direct_manifold": "b++LRLLRRLLRLR",
+          "E0_q1": 2.240671446781368,
+          "rel_gap_q1": 1.7801020060848693,
+          "mult_q1": 1,
+          "prob_peaks_q1": [
+            7
+          ],
+          "dens_peaks_q1": [
+            7
+          ],
+          "single_prob_peak": true,
+          "single_dens_peak": true,
+          "tau_pleated_expectation": [
+            -0.11561521092947132,
+            1.0458198237425835
+          ]
+        },
+        {
+          "runs": [
+            1,
+            2,
+            2,
+            2,
+            1
+          ],
+          "word": "LRRLLRRLRLR",
+          "letters": 11,
+          "volume": 10.476971377387542,
+          "direct_manifold": "b++LRRLLRRLRLR",
+          "E0_q1": 2.2406714467815103,
+          "rel_gap_q1": 1.7801020060847002,
+          "mult_q1": 1,
+          "prob_peaks_q1": [
+            2
+          ],
+          "dens_peaks_q1": [
+            2
+          ],
+          "single_prob_peak": true,
+          "single_dens_peak": true,
+          "tau_pleated_expectation": [
+            0.1156152109294716,
+            1.0458198237425844
+          ]
+        }
+      ]
+    }
+  },
+  "gate2_mostow_rigidity": {
+    "gate": "Gate 2: Mostow-Prasad Topological Rigidity Readout",
+    "golden_background": {
+      "b++LR": {
+        "spec": "b++LR",
+        "homology": "Z",
+        "volume": 2.0298832128193074,
+        "chern_simons": -7.696817306851103e-66,
+        "complex_volume": [
+          2.0298832128193074,
+          -1.5192908393215678e-64
+        ],
+        "parity_sin_4pi_cs": -9.672105882890482e-65,
+        "is_amphicheiral": true,
+        "cusp_modulus_shortest": [
+          9.410054791201439e-65,
+          3.4641016151377544
+        ],
+        "tau_cusp_F": [
+          9.410054791201439e-65,
+          3.4641016151377544
+        ],
+        "shortest_geodesic_length": 1.0870701449957392,
+        "shortest_geodesic_torsion": -1.7227684498700904,
+        "shortest_geodesic_mult": 1,
+        "tau_tube_F": [
+          -0.39147481203597456,
+          1.6459843193198251
+        ],
+        "dual_tau_tube_F": [
+          -0.39147481203597456,
+          1.6459843193198251
+        ]
+      },
+      "b+-LR": {
+        "spec": "b+-LR",
+        "homology": "Z/5 + Z",
+        "volume": 2.0298832128193074,
+        "chern_simons": 0.25,
+        "complex_volume": [
+          2.0298832128193074,
+          4.934802200544679
+        ],
+        "parity_sin_4pi_cs": 1.2246467991473532e-16,
+        "is_amphicheiral": true,
+        "cusp_modulus_shortest": [
+          0.5,
+          0.8660254037844386
+        ],
+        "tau_cusp_F": [
+          0.5,
+          0.8660254037844386
+        ],
+        "shortest_geodesic_length": 0.862554627662061,
+        "shortest_geodesic_torsion": -2.680673187849125,
+        "shortest_geodesic_mult": 2,
+        "tau_tube_F": [
+          -0.2569791346113098,
+          1.416594229869161
+        ],
+        "dual_tau_tube_F": [
+          -0.2569791346113098,
+          1.416594229869161
+        ]
+      }
+    },
+    "A_one_minimal_volume": {
+      "min_volume": 5.586361607662566,
+      "winner_count": 2,
+      "winners_are_enantiomeric_pair": true,
+      "winners": [
+        {
+          "runs": [
+            6
+          ],
+          "word": "LLLLLLRLR",
+          "spec": "b++LLLLLLRLR",
+          "volume": 5.586361607662566,
+          "chern_simons": -0.0735980239091038,
+          "parity_sin_4pi_cs": -0.7985365255728752,
+          "tau_cusp_F": [
+            -0.29022091002019185,
+            1.3671502097536914
+          ],
+          "shortest_geodesic_length": 0.1848698045116112,
+          "shortest_geodesic_torsion": -0.8021024422395617,
+          "tau_tube_F": [
+            0.43826166096578323,
+            1.7143819875794077
+          ],
+          "dual_tau_tube_F": [
+            0.4382616609657841,
+            1.7143819875794075
+          ]
+        },
+        {
+          "runs": [
+            1,
+            6
+          ],
+          "word": "LRRRRRRLR",
+          "spec": "b++LRRRRRRLR",
+          "volume": 5.586361607662566,
+          "chern_simons": 0.0735980239091038,
+          "parity_sin_4pi_cs": 0.7985365255728752,
+          "tau_cusp_F": [
+            0.29022091002019185,
+            1.3671502097536914
+          ],
+          "shortest_geodesic_length": 0.1848698045116112,
+          "shortest_geodesic_torsion": 0.8021024422395617,
+          "tau_tube_F": [
+            -0.43826166096578323,
+            1.7143819875794077
+          ],
+          "dual_tau_tube_F": [
+            -0.4382616609657841,
+            1.7143819875794075
+          ]
+        }
+      ]
+    },
+    "A_one_thinnest_margulis_throat": {
+      "min_shortest_geodesic_length": 0.1848698045116112,
+      "winner_words": [
+        "LLLLLLRLR",
+        "LRRRRRRLR"
+      ]
+    },
+    "A_all_partition_aggregation": {
+      "raw_A6_family_size": 18,
+      "intrinsic_parity_closed_size": 16,
+      "raw_L_start_boltzmann_tau_cusp_F": [
+        0.03360503270071882,
+        1.5120018675279792
+      ],
+      "raw_L_start_truncation_parity_bias": 0.012800277561688963,
+      "boltzmann_tau_cusp_F": [
+        0.0,
+        1.3019208522715562
+      ],
+      "boltzmann_net_parity_sum": 0.0,
+      "complex_volume_Z": [
+        -0.03177072513092011,
+        0.0
+      ],
+      "complex_volume_tau_cusp_F": [
+        -0.0,
+        18.99184822387986
+      ]
+    },
+    "all_extending_A6_mostow_table": [
+      {
+        "runs": [
+          1
+        ],
+        "word": "LRLR",
+        "letters": 4,
+        "extension_sign_b_pp": 1,
+        "direct_prefix": "b++",
+        "direct": {
+          "spec": "b++LRLR",
+          "homology": "Z/5 + Z",
+          "volume": 4.059766425638615,
+          "chern_simons": -2.1166247593840534e-65,
+          "complex_volume": [
+            4.059766425638615,
+            -4.1780498081343114e-64
+          ],
+          "parity_sin_4pi_cs": -2.6598291177948824e-64,
+          "is_amphicheiral": true,
+          "cusp_modulus_shortest": [
+            -2.0551977684389535e-64,
+            1.7320508075688772
+          ],
+          "tau_cusp_F": [
+            -2.0551977684389535e-64,
+            1.7320508075688772
+          ],
+          "shortest_geodesic_length": 1.0870701449957392,
+          "shortest_geodesic_torsion": -1.7227684498700904,
+          "shortest_geodesic_mult": 2,
+          "tau_tube_F": [
+            -0.39147481203597456,
+            1.6459843193198251
+          ],
+          "dual_tau_tube_F": [
+            -0.39147481203597456,
+            1.6459843193198251
+          ]
+        },
+        "opposite": {
+          "spec": "b+-LRLR",
+          "homology": "Z/3 + Z/3 + Z",
+          "volume": 4.059766425638615,
+          "chern_simons": 0.25,
+          "complex_volume": [
+            4.059766425638615,
+            4.934802200544679
+          ],
+          "parity_sin_4pi_cs": 1.2246467991473532e-16,
+          "is_amphicheiral": true,
+          "cusp_modulus_shortest": [
+            0.14285714285714285,
+            0.989743318610787
+          ],
+          "tau_cusp_F": [
+            0.14285714285714285,
+            0.989743318610787
+          ],
+          "shortest_geodesic_length": 1.0870701449957392,
+          "shortest_geodesic_torsion": -1.7227684498700904,
+          "shortest_geodesic_mult": 2,
+          "tau_tube_F": [
+            -0.39147481203597456,
+            1.6459843193198251
+          ],
+          "dual_tau_tube_F": [
+            -0.39147481203597456,
+            1.6459843193198251
+          ]
+        }
+      },
+      {
+        "runs": [
+          6
+        ],
+        "word": "LLLLLLRLR",
+        "letters": 9,
+        "extension_sign_b_pp": 1,
+        "direct_prefix": "b++",
+        "direct": {
+          "spec": "b++LLLLLLRLR",
+          "homology": "Z/20 + Z",
+          "volume": 5.586361607662566,
+          "chern_simons": -0.0735980239091038,
+          "complex_volume": [
+            5.586361607662566,
+            -1.4527667613695414
+          ],
+          "parity_sin_4pi_cs": -0.7985365255728752,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            -0.29022091002019185,
+            1.3671502097536914
+          ],
+          "tau_cusp_F": [
+            -0.29022091002019185,
+            1.3671502097536914
+          ],
+          "shortest_geodesic_length": 0.1848698045116112,
+          "shortest_geodesic_torsion": -0.8021024422395617,
+          "shortest_geodesic_mult": 1,
+          "tau_tube_F": [
+            0.43826166096578323,
+            1.7143819875794077
+          ],
+          "dual_tau_tube_F": [
+            0.4382616609657841,
+            1.7143819875794075
+          ]
+        },
+        "opposite": {
+          "spec": "b+-LLLLLLRLR",
+          "homology": "Z/24 + Z",
+          "volume": 5.586361607662566,
+          "chern_simons": 0.1764019760908962,
+          "complex_volume": [
+            5.586361607662566,
+            3.482035439175138
+          ],
+          "parity_sin_4pi_cs": 0.7985365255728756,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            0.4604470831155219,
+            1.5475261023201874
+          ],
+          "tau_cusp_F": [
+            0.4604470831155219,
+            1.5475261023201874
+          ],
+          "shortest_geodesic_length": 0.1848698045116112,
+          "shortest_geodesic_torsion": -0.8021024422395617,
+          "shortest_geodesic_mult": 1,
+          "tau_tube_F": [
+            0.43826166096578323,
+            1.7143819875794077
+          ],
+          "dual_tau_tube_F": [
+            0.4382616609657841,
+            1.7143819875794075
+          ]
+        }
+      },
+      {
+        "runs": [
+          1,
+          6
+        ],
+        "word": "LRRRRRRLR",
+        "letters": 9,
+        "extension_sign_b_pp": 1,
+        "direct_prefix": "b++",
+        "direct": {
+          "spec": "b++LRRRRRRLR",
+          "homology": "Z/20 + Z",
+          "volume": 5.586361607662566,
+          "chern_simons": 0.0735980239091038,
+          "complex_volume": [
+            5.586361607662566,
+            1.4527667613695414
+          ],
+          "parity_sin_4pi_cs": 0.7985365255728752,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            0.29022091002019185,
+            1.3671502097536914
+          ],
+          "tau_cusp_F": [
+            0.29022091002019185,
+            1.3671502097536914
+          ],
+          "shortest_geodesic_length": 0.1848698045116112,
+          "shortest_geodesic_torsion": 0.8021024422395617,
+          "shortest_geodesic_mult": 1,
+          "tau_tube_F": [
+            -0.43826166096578323,
+            1.7143819875794077
+          ],
+          "dual_tau_tube_F": [
+            -0.4382616609657841,
+            1.7143819875794075
+          ]
+        },
+        "opposite": {
+          "spec": "b+-LRRRRRRLR",
+          "homology": "Z/24 + Z",
+          "volume": 5.586361607662566,
+          "chern_simons": -0.1764019760908962,
+          "complex_volume": [
+            5.586361607662566,
+            -3.482035439175138
+          ],
+          "parity_sin_4pi_cs": -0.7985365255728756,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            -0.4604470831155219,
+            1.5475261023201874
+          ],
+          "tau_cusp_F": [
+            -0.4604470831155219,
+            1.5475261023201874
+          ],
+          "shortest_geodesic_length": 0.1848698045116112,
+          "shortest_geodesic_torsion": 0.8021024422395617,
+          "shortest_geodesic_mult": 1,
+          "tau_tube_F": [
+            -0.43826166096578323,
+            1.7143819875794077
+          ],
+          "dual_tau_tube_F": [
+            -0.4382616609657841,
+            1.7143819875794075
+          ]
+        }
+      },
+      {
+        "runs": [
+          1,
+          1,
+          1
+        ],
+        "word": "LRLRLR",
+        "letters": 6,
+        "extension_sign_b_pp": -1,
+        "direct_prefix": "b+-",
+        "direct": {
+          "spec": "b+-LRLRLR",
+          "homology": "Z/2 + Z/10 + Z",
+          "volume": 6.089649638457922,
+          "chern_simons": 0.25,
+          "complex_volume": [
+            6.089649638457922,
+            4.934802200544679
+          ],
+          "parity_sin_4pi_cs": 1.2246467991473532e-16,
+          "is_amphicheiral": true,
+          "cusp_modulus_shortest": [
+            0.5,
+            0.8660254037844386
+          ],
+          "tau_cusp_F": [
+            0.5,
+            0.8660254037844386
+          ],
+          "shortest_geodesic_length": 1.0870701449957392,
+          "shortest_geodesic_torsion": -1.7227684498700904,
+          "shortest_geodesic_mult": 3,
+          "tau_tube_F": [
+            -0.39147481203597456,
+            1.6459843193198251
+          ],
+          "dual_tau_tube_F": [
+            -0.39147481203597456,
+            1.6459843193198251
+          ]
+        },
+        "opposite": {
+          "spec": "b++LRLRLR",
+          "homology": "Z/4 + Z/4 + Z",
+          "volume": 6.089649638457922,
+          "chern_simons": -8.466499037536214e-65,
+          "complex_volume": [
+            6.089649638457922,
+            -1.6712199232537246e-63
+          ],
+          "parity_sin_4pi_cs": -1.063931647117953e-63,
+          "is_amphicheiral": true,
+          "cusp_modulus_shortest": [
+            5.273516543701375e-65,
+            1.1547005383792515
+          ],
+          "tau_cusp_F": [
+            5.273516543701375e-65,
+            1.1547005383792515
+          ],
+          "shortest_geodesic_length": 1.0870701449957392,
+          "shortest_geodesic_torsion": -1.7227684498700904,
+          "shortest_geodesic_mult": 3,
+          "tau_tube_F": [
+            -0.39147481203597456,
+            1.6459843193198251
+          ],
+          "dual_tau_tube_F": [
+            -0.39147481203597456,
+            1.6459843193198251
+          ]
+        }
+      },
+      {
+        "runs": [
+          6,
+          1,
+          1
+        ],
+        "word": "LLLLLLRLRLR",
+        "letters": 11,
+        "extension_sign_b_pp": -1,
+        "direct_prefix": "b+-",
+        "direct": {
+          "spec": "b+-LLLLLLRLRLR",
+          "homology": "Z/60 + Z",
+          "volume": 7.651806891462043,
+          "chern_simons": 0.17481277332638953,
+          "complex_volume": [
+            7.651806891462043,
+            3.4506658339775416
+          ],
+          "parity_sin_4pi_cs": 0.8103976714467157,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            -0.23028840174867538,
+            1.1027525772637654
+          ],
+          "tau_cusp_F": [
+            -0.23028840174867538,
+            1.1027525772637654
+          ],
+          "shortest_geodesic_length": 0.18519963223382882,
+          "shortest_geodesic_torsion": -0.8133186699528423,
+          "shortest_geodesic_mult": 1,
+          "tau_tube_F": [
+            0.3445437567593981,
+            1.6724155646838543
+          ],
+          "dual_tau_tube_F": [
+            0.3445437567593981,
+            1.672415564683854
+          ]
+        },
+        "opposite": {
+          "spec": "b++LLLLLLRLRLR",
+          "homology": "Z/56 + Z",
+          "volume": 7.651806891462043,
+          "chern_simons": -0.07518722667361045,
+          "complex_volume": [
+            7.651806891462043,
+            -1.4841363665671379
+          ],
+          "parity_sin_4pi_cs": -0.8103976714467154,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            0.37190887967676656,
+            1.014505233921017
+          ],
+          "tau_cusp_F": [
+            0.37190887967676656,
+            1.014505233921017
+          ],
+          "shortest_geodesic_length": 0.18519963223382882,
+          "shortest_geodesic_torsion": -0.8133186699528423,
+          "shortest_geodesic_mult": 1,
+          "tau_tube_F": [
+            0.3445437567593981,
+            1.6724155646838543
+          ],
+          "dual_tau_tube_F": [
+            0.3445437567593981,
+            1.672415564683854
+          ]
+        }
+      },
+      {
+        "runs": [
+          1,
+          1,
+          6
+        ],
+        "word": "LRLLLLLLRLR",
+        "letters": 11,
+        "extension_sign_b_pp": -1,
+        "direct_prefix": "b+-",
+        "direct": {
+          "spec": "b+-LRLLLLLLRLR",
+          "homology": "Z/60 + Z",
+          "volume": 7.651806891462043,
+          "chern_simons": 0.17481277332638953,
+          "complex_volume": [
+            7.651806891462043,
+            3.4506658339775416
+          ],
+          "parity_sin_4pi_cs": 0.8103976714467157,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            -0.23028840174867538,
+            1.1027525772637654
+          ],
+          "tau_cusp_F": [
+            -0.23028840174867538,
+            1.1027525772637654
+          ],
+          "shortest_geodesic_length": 0.18519963223382882,
+          "shortest_geodesic_torsion": -0.8133186699528423,
+          "shortest_geodesic_mult": 1,
+          "tau_tube_F": [
+            0.3445437567593981,
+            1.6724155646838543
+          ],
+          "dual_tau_tube_F": [
+            0.3445437567593981,
+            1.672415564683854
+          ]
+        },
+        "opposite": {
+          "spec": "b++LRLLLLLLRLR",
+          "homology": "Z/56 + Z",
+          "volume": 7.651806891462043,
+          "chern_simons": -0.07518722667361045,
+          "complex_volume": [
+            7.651806891462043,
+            -1.4841363665671379
+          ],
+          "parity_sin_4pi_cs": -0.8103976714467154,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            0.37190887967676656,
+            1.014505233921017
+          ],
+          "tau_cusp_F": [
+            0.37190887967676656,
+            1.014505233921017
+          ],
+          "shortest_geodesic_length": 0.18519963223382882,
+          "shortest_geodesic_torsion": -0.8133186699528423,
+          "shortest_geodesic_mult": 1,
+          "tau_tube_F": [
+            0.3445437567593981,
+            1.6724155646838543
+          ],
+          "dual_tau_tube_F": [
+            0.3445437567593981,
+            1.672415564683854
+          ]
+        }
+      },
+      {
+        "runs": [
+          1,
+          6,
+          1
+        ],
+        "word": "LRRRRRRLRLR",
+        "letters": 11,
+        "extension_sign_b_pp": -1,
+        "direct_prefix": "b+-",
+        "direct": {
+          "spec": "b+-LRRRRRRLRLR",
+          "homology": "Z/60 + Z",
+          "volume": 7.651806891462043,
+          "chern_simons": -0.17481277332638953,
+          "complex_volume": [
+            7.651806891462043,
+            -3.4506658339775416
+          ],
+          "parity_sin_4pi_cs": -0.8103976714467157,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            0.23028840174867538,
+            1.1027525772637654
+          ],
+          "tau_cusp_F": [
+            0.23028840174867538,
+            1.1027525772637654
+          ],
+          "shortest_geodesic_length": 0.18519963223382882,
+          "shortest_geodesic_torsion": 0.8133186699528423,
+          "shortest_geodesic_mult": 1,
+          "tau_tube_F": [
+            -0.3445437567593981,
+            1.6724155646838543
+          ],
+          "dual_tau_tube_F": [
+            -0.3445437567593981,
+            1.672415564683854
+          ]
+        },
+        "opposite": {
+          "spec": "b++LRRRRRRLRLR",
+          "homology": "Z/56 + Z",
+          "volume": 7.651806891462043,
+          "chern_simons": 0.07518722667361045,
+          "complex_volume": [
+            7.651806891462043,
+            1.4841363665671379
+          ],
+          "parity_sin_4pi_cs": 0.8103976714467154,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            -0.37190887967676656,
+            1.014505233921017
+          ],
+          "tau_cusp_F": [
+            -0.37190887967676656,
+            1.014505233921017
+          ],
+          "shortest_geodesic_length": 0.18519963223382882,
+          "shortest_geodesic_torsion": 0.8133186699528423,
+          "shortest_geodesic_mult": 1,
+          "tau_tube_F": [
+            -0.3445437567593981,
+            1.6724155646838543
+          ],
+          "dual_tau_tube_F": [
+            -0.3445437567593981,
+            1.672415564683854
+          ]
+        }
+      },
+      {
+        "runs": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "word": "LRLRLRLR",
+        "letters": 8,
+        "extension_sign_b_pp": 1,
+        "direct_prefix": "b++",
+        "direct": {
+          "spec": "b++LRLRLRLR",
+          "homology": "Z/3 + Z/15 + Z",
+          "volume": 8.11953285127723,
+          "chern_simons": -1.4623952883017096e-64,
+          "complex_volume": [
+            8.11953285127723,
+            -2.886652594710979e-63
+          ],
+          "parity_sin_4pi_cs": -1.8377001177491913e-63,
+          "is_amphicheiral": true,
+          "cusp_modulus_shortest": [
+            -3.4881584108499477e-64,
+            1.1547005383792515
+          ],
+          "tau_cusp_F": [
+            -3.4881584108499477e-64,
+            1.1547005383792515
+          ],
+          "shortest_geodesic_length": 1.0870701449957392,
+          "shortest_geodesic_torsion": -1.7227684498700904,
+          "shortest_geodesic_mult": 4,
+          "tau_tube_F": [
+            -0.39147481203597456,
+            1.6459843193198251
+          ],
+          "dual_tau_tube_F": [
+            -0.39147481203597456,
+            1.6459843193198251
+          ]
+        },
+        "opposite": {
+          "spec": "b+-LRLRLRLR",
+          "homology": "Z/7 + Z/7 + Z",
+          "volume": 8.11953285127723,
+          "chern_simons": 0.25,
+          "complex_volume": [
+            8.11953285127723,
+            4.934802200544679
+          ],
+          "parity_sin_4pi_cs": 1.2246467991473532e-16,
+          "is_amphicheiral": true,
+          "cusp_modulus_shortest": [
+            0.5,
+            1.1547005383792515
+          ],
+          "tau_cusp_F": [
+            0.5,
+            1.1547005383792515
+          ],
+          "shortest_geodesic_length": 1.0870701449957392,
+          "shortest_geodesic_torsion": -1.7227684498700904,
+          "shortest_geodesic_mult": 4,
+          "tau_tube_F": [
+            -0.39147481203597456,
+            1.6459843193198251
+          ],
+          "dual_tau_tube_F": [
+            -0.39147481203597456,
+            1.6459843193198251
+          ]
+        }
+      },
+      {
+        "runs": [
+          3,
+          1,
+          3
+        ],
+        "word": "LLLRLLLRLR",
+        "letters": 10,
+        "extension_sign_b_pp": 1,
+        "direct_prefix": "b++",
+        "direct": {
+          "spec": "b++LLLRLLLRLR",
+          "homology": "Z/2 + Z/30 + Z",
+          "volume": 8.126197552894727,
+          "chern_simons": -0.07683334004992115,
+          "complex_volume": [
+            8.126197552894727,
+            -1.516629342214194
+          ],
+          "parity_sin_4pi_cs": -0.8223427550045308,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            -0.4089130252378128,
+            0.9450081100806863
+          ],
+          "tau_cusp_F": [
+            -0.4089130252378128,
+            0.9450081100806863
+          ],
+          "shortest_geodesic_length": 0.44508571170149386,
+          "shortest_geodesic_torsion": -1.1757167777943072,
+          "shortest_geodesic_mult": 2,
+          "tau_tube_F": [
+            -0.3257441908538894,
+            1.7695115973352336
+          ],
+          "dual_tau_tube_F": [
+            -0.3257441908538894,
+            1.7695115973352336
+          ]
+        },
+        "opposite": {
+          "spec": "b+-LLLRLLLRLR",
+          "homology": "Z/2 + Z/32 + Z",
+          "volume": 8.126197552894727,
+          "chern_simons": 0.17316665995007885,
+          "complex_volume": [
+            8.126197552894727,
+            3.418172858330485
+          ],
+          "parity_sin_4pi_cs": 0.8223427550045309,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            -0.10105760451266053,
+            1.0484512862473028
+          ],
+          "tau_cusp_F": [
+            -0.10105760451266053,
+            1.0484512862473028
+          ],
+          "shortest_geodesic_length": 0.44508571170149386,
+          "shortest_geodesic_torsion": -1.1757167777943072,
+          "shortest_geodesic_mult": 2,
+          "tau_tube_F": [
+            -0.3257441908538894,
+            1.7695115973352336
+          ],
+          "dual_tau_tube_F": [
+            -0.3257441908538894,
+            1.7695115973352336
+          ]
+        }
+      },
+      {
+        "runs": [
+          1,
+          3,
+          1,
+          3
+        ],
+        "word": "LRRRLRRRLR",
+        "letters": 10,
+        "extension_sign_b_pp": 1,
+        "direct_prefix": "b++",
+        "direct": {
+          "spec": "b++LRRRLRRRLR",
+          "homology": "Z/2 + Z/30 + Z",
+          "volume": 8.126197552894727,
+          "chern_simons": 0.07683334004992115,
+          "complex_volume": [
+            8.126197552894727,
+            1.516629342214194
+          ],
+          "parity_sin_4pi_cs": 0.8223427550045308,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            0.4089130252378128,
+            0.9450081100806863
+          ],
+          "tau_cusp_F": [
+            0.4089130252378128,
+            0.9450081100806863
+          ],
+          "shortest_geodesic_length": 0.44508571170149386,
+          "shortest_geodesic_torsion": 1.1757167777943072,
+          "shortest_geodesic_mult": 2,
+          "tau_tube_F": [
+            0.3257441908538894,
+            1.7695115973352336
+          ],
+          "dual_tau_tube_F": [
+            0.3257441908538894,
+            1.7695115973352336
+          ]
+        },
+        "opposite": {
+          "spec": "b+-LRRRLRRRLR",
+          "homology": "Z/2 + Z/32 + Z",
+          "volume": 8.126197552894727,
+          "chern_simons": -0.17316665995007885,
+          "complex_volume": [
+            8.126197552894727,
+            -3.418172858330485
+          ],
+          "parity_sin_4pi_cs": -0.8223427550045309,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            0.10105760451266053,
+            1.0484512862473028
+          ],
+          "tau_cusp_F": [
+            0.10105760451266053,
+            1.0484512862473028
+          ],
+          "shortest_geodesic_length": 0.44508571170149386,
+          "shortest_geodesic_torsion": 1.1757167777943072,
+          "shortest_geodesic_mult": 2,
+          "tau_tube_F": [
+            0.3257441908538894,
+            1.7695115973352336
+          ],
+          "dual_tau_tube_F": [
+            0.3257441908538894,
+            1.7695115973352336
+          ]
+        }
+      },
+      {
+        "runs": [
+          2,
+          2,
+          2
+        ],
+        "word": "LLRRLLRLR",
+        "letters": 9,
+        "extension_sign_b_pp": -1,
+        "direct_prefix": "b+-",
+        "direct": {
+          "spec": "b+-LLRRLLRLR",
+          "homology": "Z/60 + Z",
+          "volume": 8.440220211706873,
+          "chern_simons": 0.22823543678435254,
+          "complex_volume": [
+            8.440220211706873,
+            4.505186942742796
+          ],
+          "parity_sin_4pi_cs": 0.27010450357146737,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            0.3562049241791929,
+            1.1479183026739301
+          ],
+          "tau_cusp_F": [
+            0.3562049241791929,
+            1.1479183026739301
+          ],
+          "shortest_geodesic_length": 0.7798699124731867,
+          "shortest_geodesic_torsion": -1.5022765762482924,
+          "shortest_geodesic_mult": 2,
+          "tau_tube_F": [
+            0.29458174910657986,
+            1.710301033068129
+          ],
+          "dual_tau_tube_F": [
+            0.2945817491065803,
+            1.7103010330681294
+          ]
+        },
+        "opposite": {
+          "spec": "b++LLRRLLRLR",
+          "homology": "Z/56 + Z",
+          "volume": 8.440220211706873,
+          "chern_simons": -0.021764563215647462,
+          "complex_volume": [
+            8.440220211706873,
+            -0.42961525780188353
+          ],
+          "parity_sin_4pi_cs": -0.2701045035714673,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            -0.1437950758208071,
+            1.1479183026739301
+          ],
+          "tau_cusp_F": [
+            -0.1437950758208071,
+            1.1479183026739301
+          ],
+          "shortest_geodesic_length": 0.7798699124731867,
+          "shortest_geodesic_torsion": -1.5022765762482924,
+          "shortest_geodesic_mult": 2,
+          "tau_tube_F": [
+            0.29458174910657986,
+            1.710301033068129
+          ],
+          "dual_tau_tube_F": [
+            0.2945817491065803,
+            1.7103010330681294
+          ]
+        }
+      },
+      {
+        "runs": [
+          1,
+          2,
+          2,
+          2
+        ],
+        "word": "LRRLLRRLR",
+        "letters": 9,
+        "extension_sign_b_pp": -1,
+        "direct_prefix": "b+-",
+        "direct": {
+          "spec": "b+-LRRLLRRLR",
+          "homology": "Z/60 + Z",
+          "volume": 8.440220211706873,
+          "chern_simons": -0.22823543678435254,
+          "complex_volume": [
+            8.440220211706873,
+            -4.505186942742796
+          ],
+          "parity_sin_4pi_cs": -0.27010450357146737,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            -0.3562049241791929,
+            1.1479183026739301
+          ],
+          "tau_cusp_F": [
+            -0.3562049241791929,
+            1.1479183026739301
+          ],
+          "shortest_geodesic_length": 0.7798699124731867,
+          "shortest_geodesic_torsion": 1.5022765762482924,
+          "shortest_geodesic_mult": 2,
+          "tau_tube_F": [
+            -0.29458174910657986,
+            1.710301033068129
+          ],
+          "dual_tau_tube_F": [
+            -0.2945817491065803,
+            1.7103010330681294
+          ]
+        },
+        "opposite": {
+          "spec": "b++LRRLLRRLR",
+          "homology": "Z/56 + Z",
+          "volume": 8.440220211706873,
+          "chern_simons": 0.021764563215647462,
+          "complex_volume": [
+            8.440220211706873,
+            0.42961525780188353
+          ],
+          "parity_sin_4pi_cs": 0.2701045035714673,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            0.1437950758208071,
+            1.1479183026739301
+          ],
+          "tau_cusp_F": [
+            0.1437950758208071,
+            1.1479183026739301
+          ],
+          "shortest_geodesic_length": 0.7798699124731867,
+          "shortest_geodesic_torsion": 1.5022765762482924,
+          "shortest_geodesic_mult": 2,
+          "tau_tube_F": [
+            -0.29458174910657986,
+            1.710301033068129
+          ],
+          "dual_tau_tube_F": [
+            -0.2945817491065803,
+            1.7103010330681294
+          ]
+        }
+      },
+      {
+        "runs": [
+          3,
+          2,
+          3
+        ],
+        "word": "LLLRRLLLRLR",
+        "letters": 11,
+        "extension_sign_b_pp": 1,
+        "direct_prefix": "b++",
+        "direct": {
+          "spec": "b++LLLRRLLLRLR",
+          "homology": "Z/5 + Z/20 + Z",
+          "volume": 9.321943914640164,
+          "chern_simons": -0.05975172691948671,
+          "complex_volume": [
+            9.321943914640164,
+            -1.179451813954511
+          ],
+          "parity_sin_4pi_cs": -0.6822694749689023,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            -0.33997457220431443,
+            1.158705916069267
+          ],
+          "tau_cusp_F": [
+            -0.33997457220431443,
+            1.158705916069267
+          ],
+          "shortest_geodesic_length": 0.5144280086415449,
+          "shortest_geodesic_torsion": -1.2669301819230874,
+          "shortest_geodesic_mult": 2,
+          "tau_tube_F": [
+            0.2574485915077682,
+            1.7287067843775237
+          ],
+          "dual_tau_tube_F": [
+            0.25744859150776733,
+            1.7287067843775235
+          ]
+        },
+        "opposite": {
+          "spec": "b+-LLLRRLLLRLR",
+          "homology": "Z/104 + Z",
+          "volume": 9.321943914640164,
+          "chern_simons": 0.19024827308051329,
+          "complex_volume": [
+            9.321943914640164,
+            3.7553503865901683
+          ],
+          "parity_sin_4pi_cs": 0.6822694749689026,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            0.16002542779568557,
+            1.158705916069267
+          ],
+          "tau_cusp_F": [
+            0.16002542779568557,
+            1.158705916069267
+          ],
+          "shortest_geodesic_length": 0.5144280086415449,
+          "shortest_geodesic_torsion": -1.2669301819230874,
+          "shortest_geodesic_mult": 2,
+          "tau_tube_F": [
+            0.2574485915077682,
+            1.7287067843775237
+          ],
+          "dual_tau_tube_F": [
+            0.25744859150776733,
+            1.7287067843775235
+          ]
+        }
+      },
+      {
+        "runs": [
+          2,
+          1,
+          1,
+          1,
+          2
+        ],
+        "word": "LLRLRLLRLR",
+        "letters": 10,
+        "extension_sign_b_pp": -1,
+        "direct_prefix": "b+-",
+        "direct": {
+          "spec": "b+-LLRLRLLRLR",
+          "homology": "Z/10 + Z/10 + Z",
+          "volume": 9.503403931035798,
+          "chern_simons": 0.20676258700543504,
+          "complex_volume": [
+            9.503403931035798,
+            4.081329877378926
+          ],
+          "parity_sin_4pi_cs": 0.5169956024288834,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            0.2191036481336405,
+            1.274407846935385
+          ],
+          "tau_cusp_F": [
+            0.2191036481336405,
+            1.274407846935385
+          ],
+          "shortest_geodesic_length": 0.6970567929896474,
+          "shortest_geodesic_torsion": -1.4387706636656703,
+          "shortest_geodesic_mult": 2,
+          "tau_tube_F": [
+            -0.4631289577091797,
+            1.713546187879516
+          ],
+          "dual_tau_tube_F": [
+            -0.4631289577091793,
+            1.7135461878795164
+          ]
+        },
+        "opposite": {
+          "spec": "b++LLRLRLLRLR",
+          "homology": "Z/2 + Z/48 + Z",
+          "volume": 9.503403931035798,
+          "chern_simons": -0.04323741299456495,
+          "complex_volume": [
+            9.503403931035798,
+            -0.8534723231657529
+          ],
+          "parity_sin_4pi_cs": -0.5169956024288831,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            -0.2808963518663595,
+            1.274407846935385
+          ],
+          "tau_cusp_F": [
+            -0.2808963518663595,
+            1.274407846935385
+          ],
+          "shortest_geodesic_length": 0.6970567929896474,
+          "shortest_geodesic_torsion": -1.4387706636656703,
+          "shortest_geodesic_mult": 2,
+          "tau_tube_F": [
+            -0.4631289577091797,
+            1.713546187879516
+          ],
+          "dual_tau_tube_F": [
+            -0.4631289577091793,
+            1.7135461878795164
+          ]
+        }
+      },
+      {
+        "runs": [
+          2,
+          1,
+          2,
+          1,
+          2
+        ],
+        "word": "LLRLLRLLRLR",
+        "letters": 11,
+        "extension_sign_b_pp": -1,
+        "direct_prefix": "b+-",
+        "direct": {
+          "spec": "b+-LLRLLRLLRLR",
+          "homology": "Z/140 + Z",
+          "volume": 10.089681841596857,
+          "chern_simons": 0.18656132327052086,
+          "complex_volume": [
+            10.089681841596857,
+            3.6825729144475745
+          ],
+          "parity_sin_4pi_cs": 0.7153982565857386,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            0.10675038514574813,
+            1.2994385441911456
+          ],
+          "tau_cusp_F": [
+            0.10675038514574813,
+            1.2994385441911456
+          ],
+          "shortest_geodesic_length": 0.6371033429579099,
+          "shortest_geodesic_torsion": -1.3717282579979777,
+          "shortest_geodesic_mult": 1,
+          "tau_tube_F": [
+            -0.23227297026460603,
+            1.7499322274666114
+          ],
+          "dual_tau_tube_F": [
+            -0.23227297026460647,
+            1.7499322274666114
+          ]
+        },
+        "opposite": {
+          "spec": "b++LLRLLRLLRLR",
+          "homology": "Z/136 + Z",
+          "volume": 10.089681841596857,
+          "chern_simons": -0.06343867672947914,
+          "complex_volume": [
+            10.089681841596857,
+            -1.2522292860971047
+          ],
+          "parity_sin_4pi_cs": -0.7153982565857383,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            -0.39324961485425186,
+            1.2994385441911456
+          ],
+          "tau_cusp_F": [
+            -0.39324961485425186,
+            1.2994385441911456
+          ],
+          "shortest_geodesic_length": 0.6371033429579099,
+          "shortest_geodesic_torsion": -1.3717282579979777,
+          "shortest_geodesic_mult": 1,
+          "tau_tube_F": [
+            -0.23227297026460603,
+            1.7499322274666114
+          ],
+          "dual_tau_tube_F": [
+            -0.23227297026460647,
+            1.7499322274666114
+          ]
+        }
+      },
+      {
+        "runs": [
+          2,
+          2,
+          2,
+          1,
+          1
+        ],
+        "word": "LLRRLLRLRLR",
+        "letters": 11,
+        "extension_sign_b_pp": 1,
+        "direct_prefix": "b++",
+        "direct": {
+          "spec": "b++LLRRLLRLRLR",
+          "homology": "Z/5 + Z/30 + Z",
+          "volume": 10.476971377387542,
+          "chern_simons": -0.021839590665100005,
+          "complex_volume": [
+            10.476971377387542,
+            -0.4310962402925222
+          ],
+          "parity_sin_4pi_cs": -0.27101216235590686,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            -0.14551936962319423,
+            1.4398085489314423
+          ],
+          "tau_cusp_F": [
+            -0.14551936962319423,
+            1.4398085489314423
+          ],
+          "shortest_geodesic_length": 0.786082818583033,
+          "shortest_geodesic_torsion": -1.5084615471808946,
+          "shortest_geodesic_mult": 2,
+          "tau_tube_F": [
+            0.27573130620663244,
+            1.7070346293651968
+          ],
+          "dual_tau_tube_F": [
+            0.275731306206632,
+            1.7070346293651968
+          ]
+        },
+        "opposite": {
+          "spec": "b+-LLRRLLRLRLR",
+          "homology": "Z/154 + Z",
+          "volume": 10.476971377387542,
+          "chern_simons": 0.2281604093349,
+          "complex_volume": [
+            10.476971377387542,
+            4.503705960252157
+          ],
+          "parity_sin_4pi_cs": 0.27101216235590675,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            0.35448063037680577,
+            1.4398085489314423
+          ],
+          "tau_cusp_F": [
+            0.35448063037680577,
+            1.4398085489314423
+          ],
+          "shortest_geodesic_length": 0.786082818583033,
+          "shortest_geodesic_torsion": -1.5084615471808946,
+          "shortest_geodesic_mult": 2,
+          "tau_tube_F": [
+            0.27573130620663244,
+            1.7070346293651968
+          ],
+          "dual_tau_tube_F": [
+            0.275731306206632,
+            1.7070346293651968
+          ]
+        }
+      },
+      {
+        "runs": [
+          1,
+          1,
+          2,
+          2,
+          2
+        ],
+        "word": "LRLLRRLLRLR",
+        "letters": 11,
+        "extension_sign_b_pp": 1,
+        "direct_prefix": "b++",
+        "direct": {
+          "spec": "b++LRLLRRLLRLR",
+          "homology": "Z/5 + Z/30 + Z",
+          "volume": 10.476971377387542,
+          "chern_simons": -0.021839590665100005,
+          "complex_volume": [
+            10.476971377387542,
+            -0.4310962402925222
+          ],
+          "parity_sin_4pi_cs": -0.27101216235590686,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            -0.14551936962319423,
+            1.4398085489314423
+          ],
+          "tau_cusp_F": [
+            -0.14551936962319423,
+            1.4398085489314423
+          ],
+          "shortest_geodesic_length": 0.786082818583033,
+          "shortest_geodesic_torsion": -1.5084615471808946,
+          "shortest_geodesic_mult": 2,
+          "tau_tube_F": [
+            0.27573130620663244,
+            1.7070346293651968
+          ],
+          "dual_tau_tube_F": [
+            0.275731306206632,
+            1.7070346293651968
+          ]
+        },
+        "opposite": {
+          "spec": "b+-LRLLRRLLRLR",
+          "homology": "Z/154 + Z",
+          "volume": 10.476971377387542,
+          "chern_simons": 0.2281604093349,
+          "complex_volume": [
+            10.476971377387542,
+            4.503705960252157
+          ],
+          "parity_sin_4pi_cs": 0.27101216235590675,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            0.35448063037680577,
+            1.4398085489314423
+          ],
+          "tau_cusp_F": [
+            0.35448063037680577,
+            1.4398085489314423
+          ],
+          "shortest_geodesic_length": 0.786082818583033,
+          "shortest_geodesic_torsion": -1.5084615471808946,
+          "shortest_geodesic_mult": 2,
+          "tau_tube_F": [
+            0.27573130620663244,
+            1.7070346293651968
+          ],
+          "dual_tau_tube_F": [
+            0.275731306206632,
+            1.7070346293651968
+          ]
+        }
+      },
+      {
+        "runs": [
+          1,
+          2,
+          2,
+          2,
+          1
+        ],
+        "word": "LRRLLRRLRLR",
+        "letters": 11,
+        "extension_sign_b_pp": 1,
+        "direct_prefix": "b++",
+        "direct": {
+          "spec": "b++LRRLLRRLRLR",
+          "homology": "Z/5 + Z/30 + Z",
+          "volume": 10.476971377387542,
+          "chern_simons": 0.021839590665100005,
+          "complex_volume": [
+            10.476971377387542,
+            0.4310962402925222
+          ],
+          "parity_sin_4pi_cs": 0.27101216235590686,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            0.14551936962319423,
+            1.4398085489314423
+          ],
+          "tau_cusp_F": [
+            0.14551936962319423,
+            1.4398085489314423
+          ],
+          "shortest_geodesic_length": 0.786082818583033,
+          "shortest_geodesic_torsion": 1.5084615471808946,
+          "shortest_geodesic_mult": 2,
+          "tau_tube_F": [
+            -0.27573130620663244,
+            1.7070346293651968
+          ],
+          "dual_tau_tube_F": [
+            -0.275731306206632,
+            1.7070346293651968
+          ]
+        },
+        "opposite": {
+          "spec": "b+-LRRLLRRLRLR",
+          "homology": "Z/154 + Z",
+          "volume": 10.476971377387542,
+          "chern_simons": -0.2281604093349,
+          "complex_volume": [
+            10.476971377387542,
+            -4.503705960252157
+          ],
+          "parity_sin_4pi_cs": -0.27101216235590675,
+          "is_amphicheiral": false,
+          "cusp_modulus_shortest": [
+            -0.35448063037680577,
+            1.4398085489314423
+          ],
+          "tau_cusp_F": [
+            -0.35448063037680577,
+            1.4398085489314423
+          ],
+          "shortest_geodesic_length": 0.786082818583033,
+          "shortest_geodesic_torsion": 1.5084615471808946,
+          "shortest_geodesic_mult": 2,
+          "tau_tube_F": [
+            -0.27573130620663244,
+            1.7070346293651968
+          ],
+          "dual_tau_tube_F": [
+            -0.275731306206632,
+            1.7070346293651968
+          ]
+        }
+      }
+    ]
+  },
+  "gate3_topological_chirality": {
+    "gate": "Gate 3: Topological Handedness & 4D Chiral Matter Index",
+    "negative_control_zero_flux_torus_index": 0,
+    "so10_su3c_smooth_flux_obstruction": {
+      "fractional_00000111_is_e8_integral": false,
+      "minimal_00000222_is_e8_integral": true,
+      "commutes_with_so10_and_su3c": true,
+      "overlap_index_lepton_16_1": 3,
+      "overlap_index_quark_16_3": -1,
+      "family_universal_16_possible_on_smooth_T2_without_holonomy": false
+    },
+    "su5_gut_semisimple_trace_and_z5_projection": {
+      "tested_e8_integral_su5_commuting_coroots": 486,
+      "max_unprojected_5perp_index_sum": 0,
+      "sample_coroot_slot_indices": [
+        {
+          "h_coroot": [
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5
+          ],
+          "five_slot_overlap_indices": [
+            -1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "unprojected_sum": 0
+        },
+        {
+          "h_coroot": [
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5,
+            0.5,
+            0.5
+          ],
+          "five_slot_overlap_indices": [
+            -1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "unprojected_sum": 0
+        },
+        {
+          "h_coroot": [
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5,
+            0.5,
+            -0.5,
+            0.5
+          ],
+          "five_slot_overlap_indices": [
+            -1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "unprojected_sum": 0
+        },
+        {
+          "h_coroot": [
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5,
+            0.5,
+            0.5,
+            -0.5
+          ],
+          "five_slot_overlap_indices": [
+            -1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "unprojected_sum": 0
+        },
+        {
+          "h_coroot": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            -1.0,
+            0.0
+          ],
+          "five_slot_overlap_indices": [
+            0,
+            1,
+            0,
+            0,
+            -1
+          ],
+          "unprojected_sum": 0
+        }
+      ],
+      "minimal_z5_projected_3gen_coroots": [
+        {
+          "h_coroot": [
+            -1.5,
+            -1.5,
+            -1.5,
+            -1.5,
+            -1.5,
+            -0.5,
+            -0.5,
+            0.5
+          ],
+          "norm_sq": 12.0,
+          "five_slot_overlap_indices": [
+            -3,
+            1,
+            1,
+            1,
+            0
+          ],
+          "unprojected_sum": 0
+        },
+        {
+          "h_coroot": [
+            -1.5,
+            -1.5,
+            -1.5,
+            -1.5,
+            -1.5,
+            -0.5,
+            0.5,
+            -0.5
+          ],
+          "norm_sq": 12.0,
+          "five_slot_overlap_indices": [
+            -3,
+            1,
+            1,
+            0,
+            1
+          ],
+          "unprojected_sum": 0
+        },
+        {
+          "h_coroot": [
+            -1.5,
+            -1.5,
+            -1.5,
+            -1.5,
+            -1.5,
+            0.5,
+            -0.5,
+            -0.5
+          ],
+          "norm_sq": 12.0,
+          "five_slot_overlap_indices": [
+            -3,
+            1,
+            0,
+            1,
+            1
+          ],
+          "unprojected_sum": 0
+        },
+        {
+          "h_coroot": [
+            -1.5,
+            -1.5,
+            -1.5,
+            -1.5,
+            -1.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "norm_sq": 12.0,
+          "five_slot_overlap_indices": [
+            -3,
+            0,
+            1,
+            1,
+            1
+          ],
+          "unprojected_sum": 0
+        }
+      ],
+      "haar_multiflavor_scrambling_sval_err": 9.103828801926284e-15,
+      "haar_scrambled_4block_3gen_kernel_diff": 12
+    },
+    "aps_chiral_cusp_boundary_test": {
+      "sealed_periodic_index": 0,
+      "chiral_aps_cusp_index": 1,
+      "aps_haar_scrambling_err": 8.881784197001252e-16
+    },
+    "spatial_3d_parity_and_weak_handedness": {
+      "golden_bg_b_pm_LR_sin4piCS": 1.2246467991473532e-16,
+      "run6_b_pp_LLLLLLRLR_sin4piCS": -0.7985365255728752,
+      "mirror_1_6_b_pp_LRRRRRRLR_sin4piCS": 0.7985365255728752,
+      "enantiomer_cs_cancellation_err": 0.0,
+      "parity_even_riemannian_lr_action_diff_on_run6": 0.0,
+      "cs_coupled_lr_split_on_amphicheiral_LR": 0.0,
+      "cs_coupled_lr_split_on_run6": -9.518555384828673,
+      "cs_coupled_lr_split_on_mirror_1_6": 9.518555384828673,
+      "enantiomer_lr_split_reversal_err": 0.0,
+      "selected_sector_on_run6_for_positive_eta": "so(5)_+ (w_R massless, w_L heavy)",
+      "wL_mass2_in_so5_minus": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "wR_mass2_in_so5_minus": [
+        8.323678795018134,
+        8.323678795018134,
+        8.323678795018134
+      ]
+    }
+  },
+  "phase2_summary_ledger": [
+    {
+      "gate": "Step 2: Textbook Calibration Gate",
+      "verdict": "PASSED_TO_1E_12",
+      "headline": "m004 vol err=3.11e-15; base-vs-5cover FEM err=1.27e-13; Overlap AS index err=1.33e-14; Haar err=1.47e-14."
+    },
+    {
+      "gate": "Gate 1: 3D Hyperbolic Pinched Throat vs. Sol Split",
+      "verdict": "COMPLETED_EXACT_3D_VERDICT",
+      "headline": "Run (6) mult=1 in all sectors; lowest twisted orbit (E0=4.1843, gap=0.9250) evacuates Z/5Z-charged throat (P3=0.0153) into 2 symmetric shoulder peaks [0, 6], while secondary orbit (E0=7.3808) sits on anti-apex pair [7,8] (Z2 isometry err=3.74e-14)."
+    },
+    {
+      "gate": "Gate 2: Mostow-Prasad Topological Rigidity Readout",
+      "verdict": "COMPLETED_RIGID_ENANTIOMER_PAIR",
+      "headline": "A-one min Vol=5.58636161 selects enantiomer pair ['LLLLLLRLR', 'LRRRRRRLR'] (enantiomers=True); A-all Boltzmann net parity sum=0.00e+00."
+    },
+    {
+      "gate": "Gate 3: Topological Handedness & 4D Chiral Matter",
+      "verdict": "EXACT_FLUX_OBSTRUCTION_AND_Z5_PROJECTION_PROVED",
+      "headline": "Zero-flux index=0; smooth so(10)xsu(3)_c minimal coroot (0^5,2,2,2) gives lepton=+3 vs quark=-1; unprojected su(5)_GUT 5_perp trace=0; Z/5Z-projected slot achieves |ind|=3; APS chiral cusp index=1; parity-even 3D L/R diff=0.00e+00, CS enantiomer reversal err=0.00e+00."
+    }
+  ]
+}

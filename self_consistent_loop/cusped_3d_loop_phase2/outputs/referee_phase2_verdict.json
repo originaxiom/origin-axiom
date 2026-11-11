@@ -1,0 +1,72 @@
+{
+  "referee": "Zero-Trust Independent Referee \u2014 Phase 2 (Guardrail 6)",
+  "all_checks_passed": true,
+  "preregistration_seal_verified": true,
+  "ast_zero_import_audit": {
+    "checked_script": "referee_cusped_phase2.py",
+    "imported_modules": [
+      "__future__",
+      "ast",
+      "hashlib",
+      "itertools",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "scipy.linalg",
+      "scipy.sparse",
+      "scipy.special",
+      "snappy",
+      "snappy.geometric_structure.cusp_neighborhood.complex_cusp_cross_section",
+      "sys",
+      "typing"
+    ],
+    "forbidden_imports_found": [],
+    "zero_producer_imports_verified": true
+  },
+  "check1_klein_dirichlet_and_mpmath_gluing": {
+    "m004_klein_dirichlet_vol_err": 3.1086244689504383e-15,
+    "run6_klein_dirichlet_vol_err": 3.019806626980426e-14,
+    "mpmath_bw_vol_diff": 0.0,
+    "algebraic_gluing_eq_err": 3.7238012298709097e-16,
+    "verified": true
+  },
+  "check2_cover45_keast5_spectrum": {
+    "cover_tets": 45,
+    "cover_n_dof": 360,
+    "cover_zero_mode_abs": 1.2145374071105671e-13,
+    "cover_first_nonzero_E0_keast5": 6.348370562520369,
+    "producer_min_twisted_E0_keast4": 6.2822914985102,
+    "quadrature_keast5_vs_keast4_rel_diff": 0.010518305943912204,
+    "cover_real_mult": 2,
+    "inferred_single_q_mult": 1,
+    "producer_single_q_mult": 1,
+    "verified": true
+  },
+  "check3_mostow_and_enantiomers": {
+    "enantiomer_vol_diff": 0.0,
+    "enantiomer_cs_sum_err": 0.0,
+    "amphicheiral_LR_sin4piCS": 1.2246467991473532e-16,
+    "margulis_5fold_lift_ratio_err": 9.734435479913373e-13,
+    "verified": true
+  },
+  "check4_landau_dirac_and_adv_haar": {
+    "h_00000111_integral": false,
+    "h_00000222_integral": true,
+    "h_su5_12norm_integral": true,
+    "su5_5slot_charges": [
+      -3,
+      0,
+      1,
+      1,
+      1
+    ],
+    "independent_overlap_gw_err": 2.6645352591003757e-15,
+    "independent_overlap_index_lepton": 3,
+    "independent_overlap_index_quark": -1,
+    "adversarial_haar_err": 1.7763568394002505e-15,
+    "matches_producer": true,
+    "verified": true
+  }
+}
