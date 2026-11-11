@@ -1,0 +1,32 @@
+{
+ "eq1_residual": "0",
+ "arcsin_integral": "pi/sqrt(B)",
+ "eq3_cases": [
+  {
+   "t": "0.7",
+   "L": "1.3",
+   "ell": "1.3",
+   "numeric": "0.14439584416435",
+   "closed": "0.14439584416435",
+   "rel_dev": "0.0"
+  },
+  {
+   "t": "1.9",
+   "L": "2.6",
+   "ell": "1.3",
+   "numeric": "0.020013025198308",
+   "closed": "0.020013025198308",
+   "rel_dev": "1.47e-17"
+  }
+ ],
+ "laplace_integral": "exp(-L*a)/L",
+ "geometric_identity_residual": "0",
+ "eq9_L_C": "18*A_13(2)/5 - 12*A_32(1)/5 - 12*A_32(2)/5 - 18*B_13(3/2)/5 + 12*B_32(3/2)/5 + 12*B_32(5/2)/5",
+ "eq9_holds": true,
+ "vacuum_weights": [
+  "0",
+  "0"
+ ],
+ "PLANTED_no_exp_minus_t_over_4_caught": true,
+ "all_claims_hold_and_plants_caught": true
+}

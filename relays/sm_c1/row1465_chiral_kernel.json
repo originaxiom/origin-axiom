@@ -1,0 +1,237 @@
+{
+ "pole_bound": {
+  "-6": [
+   -3,
+   -3
+  ],
+  "-5": [
+   -3,
+   -3
+  ],
+  "-4": [
+   -2,
+   -2
+  ],
+  "-3": [
+   -2,
+   -2
+  ],
+  "-2": [
+   -1,
+   -1
+  ],
+  "-1": [
+   -1,
+   -1
+  ],
+  "0": [
+   0,
+   0
+  ],
+  "1": [
+   0,
+   0
+  ],
+  "2": [
+   0,
+   0
+  ],
+  "3": [
+   1,
+   1
+  ],
+  "4": [
+   1,
+   1
+  ],
+  "5": [
+   2,
+   2
+  ],
+  "6": [
+   2,
+   2
+  ],
+  "7": [
+   3,
+   3
+  ]
+ },
+ "table": {
+  "0": {
+   "O": {
+    "N": 1,
+    "gauge": 1,
+    "H3": 1
+   },
+   "eta": {
+    "N": 2,
+    "gauge": 0,
+    "H3": 0
+   },
+   "X7": {
+    "N": 0,
+    "gauge": 0,
+    "H3": 0
+   }
+  },
+  "1": {
+   "O": {
+    "N": 3,
+    "gauge": 0,
+    "H3": 0
+   },
+   "eta": {
+    "N": 1,
+    "gauge": 0,
+    "H3": 0
+   },
+   "X7": {
+    "N": 1,
+    "gauge": 0,
+    "H3": 0
+   }
+  },
+  "2": {
+   "O": {
+    "N": 2,
+    "gauge": 0,
+    "H3": 0
+   },
+   "eta": {
+    "N": 2,
+    "gauge": 0,
+    "H3": 0
+   },
+   "X7": {
+    "N": 2,
+    "gauge": 0,
+    "H3": 0
+   }
+  },
+  "3": {
+   "O": {
+    "N": 3,
+    "gauge": 0,
+    "H3": 0
+   },
+   "eta": {
+    "N": 3,
+    "gauge": 0,
+    "H3": 0
+   },
+   "X7": {
+    "N": 3,
+    "gauge": 0,
+    "H3": 0
+   }
+  },
+  "4": {
+   "O": {
+    "N": 4,
+    "gauge": 0,
+    "H3": 0
+   },
+   "eta": {
+    "N": 4,
+    "gauge": 0,
+    "H3": 0
+   },
+   "X7": {
+    "N": 4,
+    "gauge": 0,
+    "H3": 0
+   }
+  }
+ },
+ "planted": {
+  "compact_bound_changes_table": true,
+  "N_with_compact_bound": {
+   "0": {
+    "O": 1,
+    "eta": 3,
+    "X7": 1
+   },
+   "1": {
+    "O": 3,
+    "eta": 2,
+    "X7": 2
+   },
+   "2": {
+    "O": 3,
+    "eta": 3,
+    "X7": 3
+   },
+   "3": {
+    "O": 4,
+    "eta": 4,
+    "X7": 4
+   },
+   "4": {
+    "O": 5,
+    "eta": 5,
+    "X7": 5
+   }
+  }
+ },
+ "roster": {
+  "order7_for_all_nonzero_charges": true,
+  "mult_10": 2,
+  "mult_5": 4,
+  "gauge_singlets_from_24b": 12,
+  "mixed_24g_charge5": 0,
+  "principal_dims_ok": true
+ },
+ "beta": {
+  "trivial": {
+   "kappa": 3,
+   "chiral_dim": 128,
+   "claimed_chiral_dim": 128,
+   "b": [
+    "10",
+    "10",
+    "10"
+   ],
+   "claimed_b": [
+    10,
+    10,
+    10
+   ],
+   "h21_h31": [
+    "0",
+    "0"
+   ]
+  },
+  "nontrivial": {
+   "kappa": 1,
+   "chiral_dim": 104,
+   "claimed_chiral_dim": 104,
+   "b": [
+    "10",
+    "6",
+    "4"
+   ],
+   "claimed_b": [
+    10,
+    6,
+    4
+   ],
+   "h21_h31": [
+    "-4",
+    "-6"
+   ]
+  }
+ },
+ "zero_wilson": {
+  "mult_5": 6,
+  "mult_10": 2
+ },
+ "checks": {
+  "pole_bound": true,
+  "table": true,
+  "roster": true,
+  "beta": true,
+  "zero_wilson": true
+ },
+ "all_claims_hold_and_plants_caught": true
+}

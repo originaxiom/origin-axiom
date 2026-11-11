@@ -1,0 +1,50 @@
+{
+ "eq1_d1d0_constant": "0",
+ "eq2_constant_a": {
+  "Delta0_minus_L": "0",
+  "Delta2_minus_L": "0",
+  "Delta1_minus_diagL": "[0, 0]"
+ },
+ "varying_a_d1d0": "0",
+ "varying_a_residuals": {
+  "Delta0_minus_L": "-u(t)*Derivative(a(t), t)",
+  "Delta2_minus_L": "u(t)*Derivative(a(t), t)",
+  "Delta1_minus_diagL": "[z1(t)*Derivative(a(t), t), -z2(t)*Derivative(a(t), t)]"
+ },
+ "eq4_alt_sum": "0",
+ "eq4_p_weighted_alt_sum": "0",
+ "eq5_sum_minus_Fweak": "0",
+ "eq5_weights_at_0": [
+  20,
+  10,
+  30
+ ],
+ "eq6_cases": [
+  {
+   "mu": "1.3",
+   "nu": "0.4",
+   "integral": "0.8999999999999999997765542",
+   "mu_minus_nu": "0.9",
+   "abs_dev": "2.2345e-19"
+  },
+  {
+   "mu": "2.7",
+   "nu": "2.2",
+   "integral": "0.4999999999999999999999411",
+   "mu_minus_nu": "0.5",
+   "abs_dev": "5.8902e-23"
+  },
+  {
+   "mu": "0.05",
+   "nu": "3.0",
+   "integral": "-2.949999999999999999571563",
+   "mu_minus_nu": "-2.95",
+   "abs_dev": "4.2844e-19"
+  }
+ ],
+ "eq6_exact": "mu - nu",
+ "PLANTED_varying_k_d1d0_nonzero": "-u(t)*Derivative(k(t), t)",
+ "PLANTED_wrong_histogram_caught": true,
+ "PLANTED_wrong_ratio_caught": true,
+ "all_claims_hold_and_plants_caught": true
+}

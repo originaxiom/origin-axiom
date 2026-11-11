@@ -1,0 +1,125 @@
+{
+ "row1420_indices": {
+  "5": {
+   "colour": "1/2",
+   "weak": "1/2",
+   "hyper": "1/2",
+   "equal": true,
+   "dim": 5
+  },
+  "10": {
+   "colour": "3/2",
+   "weak": "3/2",
+   "hyper": "3/2",
+   "equal": true,
+   "dim": 10
+  },
+  "24": {
+   "colour": "5",
+   "weak": "5",
+   "hyper": "5",
+   "equal": true,
+   "dim": 24
+  }
+ },
+ "row1421": {
+  "5": {
+   "D21": {
+    "mine": {
+     "-2": "-1/5",
+     "3": "1/5"
+    },
+    "claimed": {
+     "-2": "-1/5",
+     "3": "1/5"
+    },
+    "equal": true,
+    "sum_of_coefficients": "0"
+   },
+   "D31": {
+    "mine": {
+     "-2": "3/10",
+     "3": "-3/10"
+    },
+    "claimed": {
+     "-2": "3/10",
+     "3": "-3/10"
+    },
+    "equal": true,
+    "sum_of_coefficients": "0"
+   }
+  },
+  "10": {
+   "D21": {
+    "mine": {
+     "-4": "-4/5",
+     "1": "7/5",
+     "6": "-3/5"
+    },
+    "claimed": {
+     "-4": "-4/5",
+     "1": "7/5",
+     "6": "-3/5"
+    },
+    "equal": true,
+    "sum_of_coefficients": "0"
+   },
+   "D31": {
+    "mine": {
+     "-4": "-3/10",
+     "1": "9/10",
+     "6": "-3/5"
+    },
+    "claimed": {
+     "-4": "-3/10",
+     "1": "9/10",
+     "6": "-3/5"
+    },
+    "equal": true,
+    "sum_of_coefficients": "0"
+   }
+  },
+  "24": {
+   "D21": {
+    "mine": {
+     "-5": "-1",
+     "0": "2",
+     "5": "-1"
+    },
+    "claimed": {
+     "-5": "-1",
+     "0": "2",
+     "5": "-1"
+    },
+    "equal": true,
+    "sum_of_coefficients": "0"
+   },
+   "D31": {
+    "mine": {
+     "-5": "-3/2",
+     "0": "3",
+     "5": "-3/2"
+    },
+    "claimed": {
+     "-5": "-3/2",
+     "0": "3",
+     "5": "-3/2"
+    },
+    "equal": true,
+    "sum_of_coefficients": "0"
+   }
+  }
+ },
+ "row1421_all_six_reproduced": true,
+ "row1421_differences_vanish_for_equal_H": true,
+ "PLANTED_doublet_alone": {
+  "indices": [
+   "0",
+   "1/2",
+   "3/10"
+  ],
+  "caught_as_unequal": true
+ },
+ "PLANTED_wrong_D21_10_caught": true,
+ "all_claims_hold_and_plants_caught": true
+}

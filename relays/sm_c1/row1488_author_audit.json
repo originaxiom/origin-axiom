@@ -1,0 +1,30 @@
+{
+ "B21_holds": true,
+ "B31_holds": true,
+ "BC_holds": true,
+ "BC": "6*Psi2/5 - 6*Psi3/5 - 12*T1/5 + 9*T4/5 + 3*T6/5",
+ "h_C": "12*d2/5 - 12*d3/5",
+ "h_C_holds": true,
+ "countercontrol": {
+  "order7_nontrivial_spin": [
+   "-4",
+   "-6"
+  ],
+  "order2_trivial_spin": [
+   "-4/5",
+   "6/5"
+  ],
+  "det": "-48/5"
+ },
+ "K0_form_holds": true,
+ "norms_hold": true,
+ "PLANTED_order7_alias_on_order2_line": {
+  "vector": [
+   "0",
+   "0"
+  ],
+  "caught": true
+ },
+ "countercontrol_holds": true,
+ "all_claims_hold_and_plants_caught": true
+}

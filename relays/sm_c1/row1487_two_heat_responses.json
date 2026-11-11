@@ -1,0 +1,58 @@
+{
+ "eq4_shift": "a - 2",
+ "eq4_explicit_form_residual": "0",
+ "eq6_recurrence": true,
+ "eq7_reflection": true,
+ "table": {
+  "0": {
+   "Phi": "-2*E + 2*O",
+   "minus_claimed": "0",
+   "eq11_check": "0"
+  },
+  "1": {
+   "Phi": "2*E - 2*O*x",
+   "minus_claimed": "0",
+   "eq11_check": "0"
+  },
+  "2": {
+   "Phi": "2*x*(-E*x + O)",
+   "minus_claimed": "0",
+   "eq11_check": "0"
+  },
+  "3": {
+   "Phi": "2*x**2*(E - O*x**2)",
+   "minus_claimed": "0",
+   "eq11_check": "0"
+  },
+  "4": {
+   "Phi": "2*x**4*(-E*x**2 + O)",
+   "minus_claimed": "0",
+   "eq11_check": "0"
+  }
+ },
+ "eq12": {
+  "B21": "-2*Phi0_2 - 2*Psi2/5 + 2*Psi3/5 + 8*T1/5 - 8*T3/5",
+  "B31": "-3*Phi0_2 + 3*Psi2/5 - 3*Psi3/5 + 3*T1/5 - 3*T3/5",
+  "holds": true
+ },
+ "eq13": {
+  "B_C": "6*Psi2/5 - 6*Psi3/5 - 9*T1/5 + 9*T3/5",
+  "holds": true
+ },
+ "eq15": {
+  "h_C": "12*dL2/5 - 12*dL3/5",
+  "holds": true
+ },
+ "light_limits": {
+  "trivial": [
+   "0",
+   "0"
+  ],
+  "nontrivial": [
+   "-4",
+   "-6"
+  ]
+ },
+ "PLANTED_wrong_class_changes_B21": true,
+ "all_claims_hold_and_plants_caught": true
+}
