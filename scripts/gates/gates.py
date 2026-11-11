@@ -43,21 +43,28 @@ def _git(*args):
 # has not looked.  What kind of tree this is, is read here once; the table READS_GIT below says which gates it concerns; and
 # each gate of that table is replaced, below the table, by a gate that asks this first and is refused where it cannot look.
 def checkout_state(repo=None):
-    """'full' or 'export': what the tree at `repo` is to git.  'export' is a tree with no repository of its own: an archive,
-    a copy, or a folder that merely sits inside some other repository (git would then answer for the outer one)."""
+    """'full', 'shallow' or 'export': what the tree at `repo` is to git.  'export' is a tree with no repository of its own: an
+    archive, a copy, or a folder that merely sits inside some other repository (git would then answer for the outer one).
+    'shallow' is a clone whose history is cut (PV22): what it holds of the past is whatever its depth happened to keep."""
     repo = os.path.realpath(str(repo or ROOT))
     try:
-        r = subprocess.run(["git", "-C", repo, "rev-parse", "--show-toplevel"], capture_output=True, text=True, timeout=30)
+        r = subprocess.run(["git", "-C", repo, "rev-parse", "--show-toplevel", "--is-shallow-repository"],
+                           capture_output=True, text=True, timeout=30)
     except Exception:
         return "export"
-    top = r.stdout.strip()
-    if r.returncode != 0 or not top or os.path.realpath(top) != repo:
+    out = r.stdout.split("\n")
+    if r.returncode != 0 or len(out) < 2 or not out[0] or os.path.realpath(out[0]) != repo:
         return "export"
-    return "full"
+    return "shallow" if out[1].strip() == "true" else "full"
 
 
 REFUSED_EXPORT = ("refused: there is no git repository here (an export, or a copy of the tree). This gate reads %s, and "
                   "without git it cannot. Run it in a clone")
+# PV22: on a clone fifty commits deep `lead-debt` dated every arc by the history that was there and passed, and `seal-order-
+# unshown` accused an arc whose first commit lay beyond the cut.  A cut history gives a wrong answer either way, so a gate
+# that reads the past does not answer on one, however deep the clone.
+REFUSED_SHALLOW = ("refused: this clone is shallow. This gate reads the history, and a history that is cut can hide what the "
+                   "gate looks for, or accuse what is only out of sight. Fetch the rest (git fetch --unshallow) and run it again")
 
 
 # --- gate: framing lock (GOVERNANCE §2/§8 + the campaign-banned phrasings) ---------------
@@ -2686,8 +2693,12 @@ def _refusing(name, fn):
     """the gate `fn` of the table READS_GIT, refused in plain words where it cannot look.  Called with arguments (a test
     driving the gate on a tree of its own) it is the gate itself."""
     def gate(*args, **kwargs):
-        if not args and not kwargs and checkout_state() == "export":
-            return False, REFUSED_EXPORT % ("the history" if name in READS_HISTORY else "which files are tracked")
+        if not args and not kwargs:
+            state = checkout_state()
+            if state == "export":
+                return False, REFUSED_EXPORT % ("the history" if name in READS_HISTORY else "which files are tracked")
+            if state == "shallow" and name in READS_HISTORY:
+                return False, REFUSED_SHALLOW
         return fn(*args, **kwargs)
     gate.__name__, gate.__doc__, gate.__wrapped__ = fn.__name__, fn.__doc__, fn
     return gate

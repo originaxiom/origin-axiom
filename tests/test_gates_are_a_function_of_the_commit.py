@@ -4,7 +4,10 @@ The seat's planted case PV9: the gates were run on a `git archive` export, where
 need it passed.  Three answered "skipped" and returned a pass.  Six asked git for the tracked files, were given none, and
 found nothing wrong among none ("ok (0 tests, 0 vacuous)", "ok (0 citations resolve)").
 
-Each test here makes the situation and runs the gate.  The first test fails on the commit before this file's."""
+PV22: on a clone fifty commits deep, `lead-debt` read the history that was there and passed.  A gate that reads the past
+is refused on a shallow clone, whatever its depth.
+
+Each test here makes the situation and runs the gate.  The first test of each case fails on the commit before it."""
 import ast
 import importlib.util
 import pathlib
@@ -76,6 +79,42 @@ def test_an_export_a_copy_and_a_folder_inside_another_repository_are_all_read_as
     assert g.checkout_state(repo / "sub") == "export"
     # a folder that does not exist
     assert g.checkout_state(tmp_path / "nothing_here") == "export"
+
+
+def test_a_shallow_clone_is_read_as_shallow_at_any_depth(tmp_path):
+    """PV22, the reading.  A clone of depth 1, and one of a depth greater than the history it was cut from."""
+    g = _gates()
+    repo = _small_repo(tmp_path)
+    for n in range(3):
+        (repo / "sub" / "page.md").write_text("a page, edit %d\n" % n, encoding="utf-8")
+        _git(repo, "commit", "-q", "-a", "-m", "edit %d" % n)
+    one = tmp_path / "depth_one"
+    subprocess.run(["git", "clone", "-q", "--depth", "1", "file://" + str(repo), str(one)], check=True, capture_output=True)
+    assert g.checkout_state(one) == "shallow"
+    three = tmp_path / "depth_three"
+    subprocess.run(["git", "clone", "-q", "--depth", "3", "file://" + str(repo), str(three)], check=True, capture_output=True)
+    assert g.checkout_state(three) == "shallow"
+    whole = tmp_path / "whole"
+    subprocess.run(["git", "clone", "-q", "file://" + str(repo), str(whole)], check=True, capture_output=True)
+    assert g.checkout_state(whole) == "full"
+    # a depth that reaches the first commit cuts nothing, and git does not call such a clone shallow
+    deep = tmp_path / "deeper_than_the_history"
+    subprocess.run(["git", "clone", "-q", "--depth", "50", "file://" + str(repo), str(deep)], check=True, capture_output=True)
+    assert g.checkout_state(deep) == "full"
+
+
+def test_on_a_shallow_clone_every_gate_that_reads_the_past_is_refused_and_says_why(monkeypatch):
+    """PV22, the refusal.  The planted case ran `lead-debt` on a clone fifty commits deep and it passed."""
+    g = _gates()
+    monkeypatch.setattr(g, "checkout_state", lambda repo=None: "shallow", raising=False)
+    ok, detail = g.GATES["lead-debt"]()
+    assert ok is False and "shallow" in detail.lower(), ("lead-debt", ok, detail)
+    for name in sorted(g.READS_HISTORY):
+        ok, detail = g.GATES[name]()
+        assert ok is False and "refused" in detail and "shallow" in detail, (name, detail)
+    # a gate that asks only which files are tracked has all it needs on a shallow clone, and is not refused
+    for name in sorted(g.READS_TRACKED):
+        assert "refused" not in str(g.GATES[name]()[1]), name
 
 
 def test_in_a_clone_no_gate_is_refused():
