@@ -1,0 +1,72 @@
+commit 26998f6c7: 53 gates, 53 distinct controls
+
+E1  the control run, no gate changed: 53 of 53 controls pass
+    with the stub, the runner prints 53 PASS of 56 lines (every gate made unable to fail)
+
+with every gate unable to fail:
+  37 controls FAIL (they depend on their gate's answer)
+  16 controls still PASS (they do not)
+  0 could not be read (not passing in the control run)
+
+the controls that still pass:
+  carry-age                    tests/test_b1461_governance_delta.py::test_carry_age_fails_on_a_third_carry_without_disposition
+  doc-currency                 tests/test_doc_currency_gate.py::test_a_planted_stale_document_is_caught
+  doc-facts                    tests/test_doc_facts.py::test_doc_facts_fails_on_a_stale_present_tense_version
+  genesis-cited                tests/test_genesis_gate.py::test_it_fails_four_ways
+  harvest-debt                 tests/test_harvest_debt_gate.py::test_selftest_passes_and_can_fail
+  lead-debt                    tests/test_lead_debt_gate.py::test_the_ratchet_fails_in_the_far_future
+  path-refs                    tests/test_gate_failing_paths.py::test_path_refs_fails_on_a_dangling_backticked_path
+  point-debt                   tests/test_point_debt_gate.py::test_the_gate_fails_on_a_deleted_point
+  pretense-phrases             tests/test_gate_failing_paths.py::test_pretense_phrases_fails_on_a_claimed_external_verification_and_spares_the_disclaimer
+  relay-debt                   tests/test_relay_debt_gate.py::test_stale_unescalated_fails_in_the_far_future
+  representation-sweep         tests/test_gate_failing_paths.py::test_representation_sweep_fails_on_a_substantial_arc_cited_nowhere
+  retraction-sweep             tests/test_gate_failing_paths.py::test_retraction_sweep_fails_on_a_retracted_phrase_in_a_living_file
+  review-core                  tests/test_b1461_governance_delta.py::test_review_core_fails_on_an_entry_without_its_three_lines
+  seal-provenance              tests/test_gate_failing_paths.py::test_seal_provenance_fails_on_a_new_seal_without_the_two_halves
+  seen-first                   tests/test_seen_first_gate.py::test_the_gate_fails_and_passes
+  test-vacuity                 tests/test_gate_failing_paths.py::test_test_vacuity_fails_on_a_test_with_no_assert
+
+the controls that fail, as a control should:
+  append-only                  FAILED  tests/test_append_only_history.py::test_the_gate_itself_fails_on_a_committed_deletion
+  arc-data                     FAILED  tests/test_gate_failing_paths.py::test_arc_data_fails_on_a_dependency_on_nothing
+  arc-verdicts                 FAILED  tests/test_gate_failing_paths.py::test_arc_verdicts_fails_on_findings_without_a_verdict_file
+  arrival-phrases              FAILED  tests/test_arrival_phrases.py::test_a_sentence_of_arrival_on_a_living_page_is_refused
+  artifact-hashes              FAILED  tests/test_artifact_hashes.py::test_the_gate_itself_fails_on_main_when_one_frozen_entry_is_forgotten
+  atlas-fresh                  FAILED  tests/test_gate_failing_paths.py::test_atlas_fresh_fails_when_an_arc_dir_is_not_in_the_atlas
+  atlas-lexicon-current        FAILED  tests/test_b823_blind_triage.py::test_gate_FAILS_on_an_untriaged_arc
+  attribution                  FAILED  tests/test_gate_failing_paths.py::test_attribution_fails_on_a_vendor_token_above_baseline
+  chain-locks                  FAILED  tests/test_gate_failing_paths.py::test_chain_locks_fails_on_a_theorem_link_with_a_prose_lock
+  claims                       FAILED  tests/test_gate_failing_paths.py::test_claims_fails_on_a_missing_section_and_a_dead_evidence_path
+  closure-generated            FAILED  tests/test_closure_generated.py::test_a_stale_map_is_refused
+  firewall-oneway              FAILED  tests/test_gate_failing_paths.py::test_firewall_oneway_fails_on_a_speculation_row_in_proven
+  framing                      FAILED  tests/test_gate_failing_paths.py::test_framing_fails_on_a_banned_phrase_in_a_root_page
+  gate-controls                FAILED  tests/test_b1461_governance_delta.py::test_gate_controls_fails_on_an_unregistered_gate_and_a_missing_function
+  id-collisions                FAILED  tests/test_gate_failing_paths.py::test_id_collisions_fails_on_two_arcs_with_one_number
+  identification-register      FAILED  tests/test_b1231_identification.py::test_the_ratchet_bites
+  inputs-scoreboard            FAILED  tests/test_gate_failing_paths.py::test_inputs_scoreboard_fails_on_an_earned_joint_with_no_basis
+  knowledge-index              FAILED  tests/test_gate_failing_paths.py::test_knowledge_index_fails_on_an_unindexed_explainer
+  law-map-provenance           FAILED  tests/test_gate_failing_paths.py::test_law_map_provenance_fails_on_a_row_citing_no_arc
+  lawmap-scope                 FAILED  tests/test_gate_failing_paths.py::test_lawmap_scope_fails_on_an_unscoped_row_over_a_heavily_scoped_arc
+  log-changelog-paired         FAILED  tests/test_b827_progresslog_recovery.py::test_the_gate_can_fail_on_a_shadow_file
+  member-scope                 FAILED  tests/test_gate_failing_paths.py::test_member_scope_fails_on_a_new_negative_that_says_the_object_and_spares_a_named_member
+  practices-register           FAILED  tests/test_gate_failing_paths.py::test_practices_register_fails_when_a_gate_has_no_row
+  retraction-debt              FAILED  tests/test_gate_failing_paths.py::test_retraction_debt_fails_when_its_checker_exits_nonzero
+  review-actions               FAILED  tests/test_b844_review_gate.py::test_the_gate_passes_and_can_still_fail
+  review-fires                 FAILED  tests/test_b1461_governance_delta.py::test_review_fires_past_twice_the_period_unless_waived
+  seal-digests                 FAILED  tests/test_gate_failing_paths.py::test_seal_digests_fails_on_a_digest_that_does_not_recompute
+  seal-immutable               FAILED  tests/test_seal_immutable.py::test_the_gate_itself_fails_on_a_post_seal_edit
+  seal-ledger-current          FAILED  tests/test_seal_immutable.py::test_pv6_a_ledger_row_changed_by_hand_is_refused
+  seal-order-unshown           FAILED  tests/test_gate_failing_paths.py::test_seal_order_unshown_fails_on_a_new_member_an_addition_and_a_stale_row
+  seat-positive-verified       FAILED  tests/test_gate_failing_paths.py::test_seat_positive_verified_fails_on_an_undeclared_or_unverified_seat_result
+  supersession-backlinks       FAILED  tests/test_b1290_index_formula.py::test_the_backlink_gate_CAN_fail
+  theorem-registry             FAILED  tests/test_gate_failing_paths.py::test_theorem_registry_fails_on_a_creates_law_arc_absent_from_the_registry
+  tracked-deps                 FAILED  tests/test_b1238_seat_harvest_40a3_bronze_octic.py::test_tracked_deps_gate_is_green_and_bites
+  tracked-forbidden            FAILED  tests/test_b1290_index_formula.py::test_the_relay_gate_CAN_fail_and_spares_the_sanctioned_location
+  views-fresh                  FAILED  tests/test_gate_failing_paths.py::test_views_fresh_fails_when_no_view_moved_since_the_anchor
+  views-generated              FAILED  tests/test_gate_failing_paths.py::test_views_generated_fails_when_a_generator_is_missing
+
+EXPECTATIONS
+  E1  every control passes with no gate changed: holds
+  E2  the 13 named controls still pass: holds
+  E3  at least 20 controls fail: holds (37)
+  E4  read-out: 3 of the 40 that name their gate still pass: path-refs, representation-sweep, test-vacuity
