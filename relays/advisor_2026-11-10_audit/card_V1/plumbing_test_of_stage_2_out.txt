@@ -1,0 +1,76 @@
+a plumbing test of stage 2 on planted targets: 2000 rows a planted seed, each moved by a step of 0.05; the tail read at 5%
+   4 of 4 seeds (102 s)
+N1 wf|seat    best 5% of 4000 targets (200):
+      bottom end: lost without layer 1:    7, loss 0.0350 [0.0142, 0.0708]; rows' share 0.0667; ratio 0.53   (best row there: 7; lost without layer 3 instead: 11)
+      top    end: lost without layer 1:   22, loss 0.1100 [0.0702, 0.1618]; rows' share 0.0667; ratio 1.65   (best row there: 22; lost without layer 3 instead: 18)
+      where the best rows lie, share by height: 2.05 0.035  2.15 0.075  2.25 0.055  2.35 0.035  2.45 0.085  2.55 0.075  2.65 0.045  2.75 0.035  2.85 0.055  2.95 0.095  3.05 0.100  3.15 0.050  3.25 0.090  3.35 0.060  3.45 0.110
+      ALL targets, best row on: bottom layer 1 0.0673, top layer 1 0.0705, both 0.1378
+      DECISIVE CELL -> B: an end is like other rows (bottom B, top B)
+N1 wf|cov     best 5% of 4000 targets (200):
+      bottom end: lost without layer 1:    7, loss 0.0350 [0.0142, 0.0708]; rows' share 0.0667; ratio 0.53   (best row there: 7; lost without layer 3 instead: 11)
+      top    end: lost without layer 1:   22, loss 0.1100 [0.0702, 0.1618]; rows' share 0.0667; ratio 1.65   (best row there: 22; lost without layer 3 instead: 18)
+      where the best rows lie, share by height: 2.05 0.035  2.15 0.075  2.25 0.055  2.35 0.035  2.45 0.085  2.55 0.075  2.65 0.050  2.75 0.035  2.85 0.055  2.95 0.095  3.05 0.100  3.15 0.045  3.25 0.090  3.35 0.060  3.45 0.110
+      ALL targets, best row on: bottom layer 1 0.0680, top layer 1 0.0705, both 0.1385
+N1 wf|free    best 5% of 4000 targets (200):
+      bottom end: lost without layer 1:    9, loss 0.0450 [0.0208, 0.0837]; rows' share 0.0667; ratio 0.67   (best row there: 9; lost without layer 3 instead: 11)
+      top    end: lost without layer 1:   17, loss 0.0850 [0.0503, 0.1326]; rows' share 0.0667; ratio 1.28   (best row there: 17; lost without layer 3 instead: 18)
+      where the best rows lie, share by height: 2.05 0.045  2.15 0.060  2.25 0.055  2.35 0.065  2.45 0.085  2.55 0.070  2.65 0.045  2.75 0.095  2.85 0.040  2.95 0.065  3.05 0.080  3.15 0.055  3.25 0.090  3.35 0.065  3.45 0.085
+      ALL targets, best row on: bottom layer 1 0.0675, top layer 1 0.0707, both 0.1383
+N2 chi2|seat  best 5% of 4000 targets (200):
+      bottom end: lost without layer 1:   14, loss 0.0700 [0.0388, 0.1147]; rows' share 0.0717; ratio 0.98   (best row there: 14; lost without layer 3 instead: 18)
+      top    end: lost without layer 1:   13, loss 0.0650 [0.0351, 0.1086]; rows' share 0.0673; ratio 0.97   (best row there: 13; lost without layer 3 instead: 9)
+      where the best rows lie, share by height: [2.0, 2.2) 0.230  [2.2, 2.4) 0.115  [2.4, 2.6) 0.220  [2.6, 2.8) 0.140  [2.8, 3.0) 0.115  [3.0, 3.2) 0.060  [3.2, 3.4) 0.060  [3.4, 3.6) 0.060
+      ALL targets, best row on: bottom layer 1 0.0607, top layer 1 0.0688, both 0.1295
+      DECISIVE CELL -> B: an end is like other rows (bottom B, top B)
+N2 chi2|cov   best 5% of 4000 targets (200):
+      bottom end: lost without layer 1:   15, loss 0.0750 [0.0426, 0.1207]; rows' share 0.0717; ratio 1.05   (best row there: 15; lost without layer 3 instead: 17)
+      top    end: lost without layer 1:   13, loss 0.0650 [0.0351, 0.1086]; rows' share 0.0673; ratio 0.97   (best row there: 13; lost without layer 3 instead: 8)
+      where the best rows lie, share by height: [2.0, 2.2) 0.210  [2.2, 2.4) 0.125  [2.4, 2.6) 0.235  [2.6, 2.8) 0.140  [2.8, 3.0) 0.115  [3.0, 3.2) 0.055  [3.2, 3.4) 0.060  [3.4, 3.6) 0.060
+      ALL targets, best row on: bottom layer 1 0.0602, top layer 1 0.0688, both 0.1290
+N2 chi2|free  best 5% of 4000 targets (200):
+      bottom end: lost without layer 1:   14, loss 0.0700 [0.0388, 0.1147]; rows' share 0.0717; ratio 0.98   (best row there: 14; lost without layer 3 instead: 20)
+      top    end: lost without layer 1:   19, loss 0.0950 [0.0582, 0.1444]; rows' share 0.0673; ratio 1.41   (best row there: 19; lost without layer 3 instead: 15)
+      where the best rows lie, share by height: [2.0, 2.2) 0.220  [2.2, 2.4) 0.100  [2.4, 2.6) 0.170  [2.6, 2.8) 0.150  [2.8, 3.0) 0.140  [3.0, 3.2) 0.095  [3.2, 3.4) 0.040  [3.4, 3.6) 0.085
+      ALL targets, best row on: bottom layer 1 0.0628, top layer 1 0.0688, both 0.1315
+N2 wf|seat    best 5% of 4000 targets (200):
+      bottom end: lost without layer 1:   16, loss 0.0800 [0.0464, 0.1267]; rows' share 0.0717; ratio 1.11   (best row there: 16; lost without layer 3 instead: 19)
+      top    end: lost without layer 1:   14, loss 0.0700 [0.0388, 0.1147]; rows' share 0.0673; ratio 1.04   (best row there: 14; lost without layer 3 instead: 10)
+      where the best rows lie, share by height: [2.0, 2.2) 0.225  [2.2, 2.4) 0.115  [2.4, 2.6) 0.255  [2.6, 2.8) 0.150  [2.8, 3.0) 0.065  [3.0, 3.2) 0.060  [3.2, 3.4) 0.070  [3.4, 3.6) 0.060
+      ALL targets, best row on: bottom layer 1 0.0635, top layer 1 0.0688, both 0.1323
+      DECISIVE CELL -> B: an end is like other rows (bottom B, top B)
+N2 wf|cov     best 5% of 4000 targets (200):
+      bottom end: lost without layer 1:   15, loss 0.0750 [0.0426, 0.1207]; rows' share 0.0717; ratio 1.05   (best row there: 15; lost without layer 3 instead: 20)
+      top    end: lost without layer 1:   15, loss 0.0750 [0.0426, 0.1207]; rows' share 0.0673; ratio 1.11   (best row there: 15; lost without layer 3 instead: 10)
+      where the best rows lie, share by height: [2.0, 2.2) 0.225  [2.2, 2.4) 0.115  [2.4, 2.6) 0.265  [2.6, 2.8) 0.145  [2.8, 3.0) 0.060  [3.0, 3.2) 0.060  [3.2, 3.4) 0.065  [3.4, 3.6) 0.065
+      ALL targets, best row on: bottom layer 1 0.0633, top layer 1 0.0688, both 0.1320
+N2 wf|free    best 5% of 4000 targets (200):
+      bottom end: lost without layer 1:   14, loss 0.0700 [0.0388, 0.1147]; rows' share 0.0717; ratio 0.98   (best row there: 14; lost without layer 3 instead: 20)
+      top    end: lost without layer 1:   16, loss 0.0800 [0.0464, 0.1267]; rows' share 0.0673; ratio 1.19   (best row there: 16; lost without layer 3 instead: 13)
+      where the best rows lie, share by height: [2.0, 2.2) 0.240  [2.2, 2.4) 0.105  [2.4, 2.6) 0.180  [2.6, 2.8) 0.145  [2.8, 3.0) 0.130  [3.0, 3.2) 0.080  [3.2, 3.4) 0.045  [3.4, 3.6) 0.075
+      ALL targets, best row on: bottom layer 1 0.0622, top layer 1 0.0688, both 0.1310
+the audit's figure, candidates: N1 wf|seat | top layer 1 | banked_seeds                            0.0725
+the audit's figure, candidates: N1 wf|seat | top layer 1 | all_seeds                               0.0705
+the audit's figure, candidates: N1 wf|seat | both ends, layer 1 | banked_seeds                     0.1400
+the audit's figure, candidates: N1 wf|seat | both ends, layer 1 | all_seeds                        0.1378
+the audit's figure, candidates: N2 chi2|seat | top layer 1 | banked_seeds                          0.0660
+the audit's figure, candidates: N2 chi2|seat | top layer 1 | all_seeds                             0.0688
+the audit's figure, candidates: N2 chi2|seat | Im tau [3.4, 3.6) | banked_seeds                    0.0620
+the audit's figure, candidates: N2 chi2|seat | Im tau [3.4, 3.6) | all_seeds                       0.0643
+the audit's figure, candidates: N2 chi2|seat | the ten highest heights | banked_seeds              0.0750
+the audit's figure, candidates: N2 chi2|seat | the ten highest heights | all_seeds                 0.0770
+the audit's figure, candidates: N2 wf|seat | top layer 1 | banked_seeds                            0.0660
+the audit's figure, candidates: N2 wf|seat | top layer 1 | all_seeds                               0.0688
+the audit's 20% reproduced by one of them (17% to 23%): False
+null exit 0
+
+P0  ran to its last line and wrote its files (v1_controls.json, v1_null.json): HOLDS
+      N1 wf|seat     B: an end is like other rows (bottom B, top B)
+      N2 chi2|seat   B: an end is like other rows (bottom B, top B)
+      N2 wf|seat     B: an end is like other rows (bottom B, top B)
+P1  every decisive cell reads B: HOLDS
+      N1, worst factor, bottom layer 1: planted there 0.0670 of the targets; best row found there 0.0673
+      N1, worst factor, top    layer 1: planted there 0.0703 of the targets; best row found there 0.0705
+      N2, worst factor, bottom layer 1: planted there 0.0617 of the targets; best row found there 0.0635
+      N2, worst factor, top    layer 1: planted there 0.0688 of the targets; best row found there 0.0688
+P2  the best row is found where the target was planted (greatest gap of a layer's share 0.0018): HOLDS
+plumbing test exit 0
