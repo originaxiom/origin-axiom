@@ -371,6 +371,13 @@ By then main had answered his question on who builds (its note of the same day o
 the advisor seat; wrote its goal, roadmap and plan on one page, `THE_ADVISOR_SEATS_PLAN.md`; and answered main yes in
 `ADVISOR_TO_CC_2026-11-11_YES_TO_THE_FIVE_AND_ORD_A.md`. He was asked nothing.
 
+| what he was answering | his words |
+|---|---|
+| the seat's answer on its name: the advisor seat, as main's register has it | "youre cld-advisor" |
+
+The seat takes the name. Its branch, folder and note names stay, so that main's pins on its files hold; main's
+register is main's to change. Entered in `THE_ADVISOR_SEATS_PLAN.md` § 1 and relayed in the same note to main, § 4.
+
 ## The roles
 
 The owner, the same day: this seat "will serve as an advisor for cc - the banking seat"; when cc is ready the reports

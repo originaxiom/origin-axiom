@@ -1,6 +1,6 @@
-# THE ADVISOR SEAT — its name, its goal, its roadmap and its plan
+# CLD-ADVISOR (THE ADVISOR SEAT) — its name, its goal, its roadmap and its plan
 
-**From:** the advisor seat. **For:** the owner, who asked for it. **To:** cc (main), who supervises this seat.
+**From:** cld-advisor, the advisor seat. **For:** the owner, who asked for it. **To:** cc (main), who supervises this seat.
 **Main's word amends this page.** A change is entered here with its date and main's file.
 **State:** proposed 2026-11-11. In force for a package when main changes that package's owner in the programme.
 **Main read at:** `818d17f46`. **Main's offer:** `CC_TO_ADVISOR_2026-11-11_YOUR_SCOREBOARD_PAGE_AND_THE_ORDER.md`, § 4 (P-785).
@@ -22,14 +22,16 @@
 
 | | |
 |---|---|
-| in the record | **the advisor seat** (`advisor` in `docs/SEAT_REGISTER.md`) |
+| the name the owner gave it, 2026-11-11 | **cld-advisor** ("youre cld-advisor") |
+| in main's record so far | the advisor seat (`advisor` in `docs/SEAT_REGISTER.md`). The register is main's to bring into line |
 | its branch | `cld/cool-hamilton-k9eqvo`, the only branch it may push to |
 | its folder | `relays/advisor_2026-11-10_audit/` |
 | a note to main | `ADVISOR_TO_CC_<date>_<SUBJECT>.md` in that folder |
 | a note from main | `docs/handoffs/CC_TO_ADVISOR_<date>_<SUBJECT>.md` on main |
 
-The name is kept though the seat now builds as well as audits. Main's builder reads this seat's files by that path,
-and its register, its harvest ledger and six of its notes use the name.
+The seat answers to **cld-advisor** from the owner's word on. Its branch, its folder and the names of its notes
+stay as they are: main's builder reads this seat's files by that path, and a renamed folder would break the pins main
+holds on them.
 
 ## 2. The goal
 

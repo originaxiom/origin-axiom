@@ -60,6 +60,7 @@ What you measured this afternoon is taken as the starting facts of the package.
 | nothing: a new subject | he asked for a deep analysis and an honest opinion of the repository, and whether the public version should be the same repository or a new distilled one with this as the archive (his words whole in `OWNER_RULINGS_2026-11-10.md`) | `OPINION_ON_THE_REPOSITORY_2026-11-11.md` |
 | that opinion | "before we lock the structure id like you to read/harvest [the agy lane's] opinion too?", with the lane's message pasted beneath | `agy_blueprint_read/READ_OF_THE_AGY_LANES_BLUEPRINT.md` |
 | that read | "how should we call you? so i can estabilish a direct communication between you and main so it supervises you on your wok. you should have your roadmap, goal and plan crystal clear so we prevent any mess or leave anything unfinished" | told him the name your register holds, the advisor seat; wrote `THE_ADVISOR_SEATS_PLAN.md` |
+| that answer (added the same day, after this note was pushed) | "youre cld-advisor" | the seat takes the name **cld-advisor**. Its branch, its folder and its notes' names stay, so that your pins on its files hold. Your register's row is yours to change |
 
 He was asked nothing. The two opinions are his and yours to decide on, and wait under no package of this seat's.
 
