@@ -1,0 +1,250 @@
+From 5ace1e6e586476d9cb3d577e0a47a7d4da82f353 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Wed, 11 Nov 2026 20:23:39 +0000
+Subject: [PATCH 4/6] WP-0.7, enforcement (cld-advisor's series 3, patch 4;
+ built on b80c68991 with series 2 applied): A REPOSITORY WITH NO COMMIT IS NOT
+ A FULL CLONE (main's unseen case U9.b, B1890; the rule of series 1). A folder
+ made a repository with 'git init', holding an export's files and no commit,
+ was its own top level, so checkout_state read it as a full clone; the four
+ debt gates were refused for want of a commit to take a day from, and nine
+ gates of the table passed with nothing to look at. It is PV9 with git present
+ and silent, and none of the seat's twelve variants tried it. checkout_state
+ now has two more words. 'empty': a repository that holds no commit, or whose
+ commit holds no file. 'untracked': a repository whose commit does not hold
+ the gates that are being run; this is the seat's own variant of main's case,
+ a note committed and the whole tree beside it untracked, where git has
+ something to say about something else and eight gates of the table passed.
+ Every gate of the table is refused on either, in plain words, as on an
+ export. Four forms are locked, each an export's files in a fresh repository:
+ no commit; the files added and not committed; an empty commit with the files
+ beside it; a commit that holds a note. What it does not reach: a tree that is
+ partly tracked, where the gates are committed and other files beside them are
+ not; the push hook's clean worktree is what answers that. TWO TESTS OF MAIN'S
+ CHANGE, each with a dated note: B1890's lock pins the gap and asks that its
+ line be changed in the commit that closes it (it now reads 'empty'; its name
+ still says the gap is there, and renaming it is main's); and
+ tests/test_gate_failing_paths.py::test_views_generated_fails_when_a_generator_is_missing
+ commits its page, since a repository with an index and no commit is now
+ refused before the gate looks for its generators. The lock: three tests added
+ to tests/test_gates_are_a_function_of_the_commit.py; on the commit before,
+ two fail, the first naming seven gates that pass (main saw nine; two of them
+ have read the past since series 2 and fail closed). 0 of 19.
+
+---
+ ..._enforcement_series_verified_and_landed.py |  8 +-
+ scripts/gates/gates.py                        | 37 ++++++--
+ tests/test_gate_failing_paths.py              |  5 ++
+ ...test_gates_are_a_function_of_the_commit.py | 89 +++++++++++++++++++
+ 4 files changed, 131 insertions(+), 8 deletions(-)
+
+diff --git a/frontier/B1890_the_first_enforcement_series_verified_and_landed/verification/test_b1890_the_first_enforcement_series_verified_and_landed.py b/frontier/B1890_the_first_enforcement_series_verified_and_landed/verification/test_b1890_the_first_enforcement_series_verified_and_landed.py
+index 0f9b97985..2e956b411 100644
+--- a/frontier/B1890_the_first_enforcement_series_verified_and_landed/verification/test_b1890_the_first_enforcement_series_verified_and_landed.py
++++ b/frontier/B1890_the_first_enforcement_series_verified_and_landed/verification/test_b1890_the_first_enforcement_series_verified_and_landed.py
+@@ -55,12 +55,16 @@ def test_the_one_that_does_not_hold_is_stated_as_it_was_found():
+ 
+ def test_the_gap_is_still_there_and_this_lock_is_told_when_it_is_closed(tmp_path):
+     """A repository with no commit is read as a full clone.  When a later series closes it, this assertion is changed in the
+-    same commit to the word the patch gives such a folder: a mend that arrives unannounced fails here."""
++    same commit to the word the patch gives such a folder: a mend that arrives unannounced fails here.
++
++    Closed 2026-11-11 by the advisor seat's series 3: such a folder is read as "empty", and every gate of the table is refused
++    there (tests/test_gates_are_a_function_of_the_commit.py, three forms).  The line below is changed in that commit, as this
++    lock asks.  The page and the committed run stand as they were found."""
+     g = _gates()
+     repo = tmp_path / "initialised_and_empty"
+     repo.mkdir()
+     assert subprocess.run(["git", "-C", str(repo), "init", "-q"], capture_output=True).returncode == 0
+-    assert g.checkout_state(repo) == "full"
++    assert g.checkout_state(repo) == "empty"
+     assert g.checkout_state(tmp_path / "no_such_folder") == "export"          # the control: where there is no repository it says so
+ 
+ 
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 3db69269a..c4c0cbb81 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -43,18 +43,33 @@ def _git(*args):
+ # has not looked.  What kind of tree this is, is read here once; the table READS_GIT below says which gates it concerns; and
+ # each gate of that table is replaced, below the table, by a gate that asks this first and is refused where it cannot look.
+ def checkout_state(repo=None):
+-    """'full', 'shallow' or 'export': what the tree at `repo` is to git.  'export' is a tree with no repository of its own: an
+-    archive, a copy, or a folder that merely sits inside some other repository (git would then answer for the outer one).
+-    'shallow' is a clone whose history is cut (PV22): what it holds of the past is whatever its depth happened to keep."""
++    """'full', 'shallow', 'empty', 'untracked' or 'export': what the tree at `repo` is to git.  'export' is a tree with no
++    repository of its own: an archive, a copy, or a folder that merely sits inside some other repository (git would then answer
++    for the outer one).  'empty' is a repository that holds no commit, or whose commit holds no file (main's unseen case U9.b,
++    B1890): git is there and has nothing to say, whatever stands in the folder or in the index.  'untracked' is a repository
++    whose commit does not hold the gates that are being run: git has something to say, about something else (the seat's own
++    variant of U9.b: a note committed, and the tree beside it).  'shallow' is a clone whose history is cut (PV22): what it
++    holds of the past is whatever its depth happened to keep."""
+     repo = os.path.realpath(str(repo or ROOT))
+     try:
+         r = subprocess.run(["git", "-C", repo, "rev-parse", "--show-toplevel", "--is-shallow-repository"],
+                            capture_output=True, text=True, timeout=30)
++        out = r.stdout.split("\n")
++        if r.returncode != 0 or len(out) < 2 or not out[0] or os.path.realpath(out[0]) != repo:
++            return "export"
++        held = subprocess.run(["git", "-C", repo, "ls-tree", "--name-only", "HEAD"], capture_output=True, text=True, timeout=30)
+     except Exception:
+         return "export"
+-    out = r.stdout.split("\n")
+-    if r.returncode != 0 or len(out) < 2 or not out[0] or os.path.realpath(out[0]) != repo:
+-        return "export"
++    if held.returncode != 0 or not held.stdout.strip():
++        return "empty"
++    own = "scripts/gates/gates.py"                        # where a folder holds the gates, its commit must hold them too
++    if os.path.isfile(os.path.join(repo, *own.split("/"))):
++        try:
++            mine = subprocess.run(["git", "-C", repo, "ls-tree", "--name-only", "HEAD", "--", own], capture_output=True, text=True, timeout=30)
++        except Exception:
++            return "export"
++        if mine.returncode != 0 or not mine.stdout.strip():
++            return "untracked"
+     return "shallow" if out[1].strip() == "true" else "full"
+ 
+ 
+@@ -121,6 +136,12 @@ REFUSED_EXPORT = ("refused: there is no git repository here (an export, or a cop
+ # that reads the past does not answer on one, however deep the clone.
+ REFUSED_SHALLOW = ("refused: this clone is shallow. This gate reads the history, and a history that is cut can hide what the "
+                    "gate looks for, or accuse what is only out of sight. Fetch the rest (git fetch --unshallow) and run it again")
++# Main's unseen case U9.b (B1890): a folder made a repository with `git init`, holding an export's files and no commit, was read
++# as a full clone, and nine gates of the table passed there with nothing to look at -- PV9 again, with git present and silent.
++REFUSED_EMPTY = ("refused: this repository holds no commit, or a commit with no file in it. This gate reads %s, and git has "
++                 "nothing to say here, whatever stands in the folder. A gate is a function of the commit: run it in a clone")
++REFUSED_UNTRACKED = ("refused: the commit of this repository does not hold the gates that are being run. This gate reads %s, and "
++                     "git would answer here for another tree than the one in this folder. A gate is a function of the commit: run it in a clone")
+ 
+ 
+ # --- nothing leaves a ledger, and no ceiling rises, without a recorded act (the closure programme's WP-0.7; the advisor seat's
+@@ -3093,6 +3114,10 @@ def _refusing(name, fn):
+             state = checkout_state()
+             if state == "export":
+                 return False, REFUSED_EXPORT % ("the history" if name in READS_HISTORY else "which files are tracked")
++            if state == "empty":
++                return False, REFUSED_EMPTY % ("the history" if name in READS_HISTORY else "which files are tracked")
++            if state == "untracked":
++                return False, REFUSED_UNTRACKED % ("the history" if name in READS_HISTORY else "which files are tracked")
+             if state == "shallow" and name in READS_HISTORY:
+                 return False, REFUSED_SHALLOW
+         return fn(*args, **kwargs)
+diff --git a/tests/test_gate_failing_paths.py b/tests/test_gate_failing_paths.py
+index 3c0d5e874..f9a8bb605 100644
+--- a/tests/test_gate_failing_paths.py
++++ b/tests/test_gate_failing_paths.py
+@@ -82,7 +82,12 @@ def test_test_vacuity_fails_on_a_test_with_no_assert(tmp_path, monkeypatch):
+ def test_views_generated_fails_when_a_generator_is_missing(tmp_path, monkeypatch):
+     # 2026-11-11 (WP-0.7, the advisor seat's patch 1): the folder is made a repository. This gate reads git, and on a folder
+     # with none it is now refused before it looks for its generators. What this test pins is the missing generator.
++    # 2026-11-11 (its series 3, main's unseen case U9.b): and the page is committed. A repository that holds no commit is now
++    # refused as well, before the gate looks for its generators.
++    import subprocess
+     (tmp_path / "a.md").write_text("a page\n"); _git_repo_with(tmp_path, "a.md")
++    subprocess.run(["git", "-C", str(tmp_path), "-c", "user.name=t", "-c", "user.email=t@example.invalid", "commit", "-q", "-m", "a page"],
++                   check=True, capture_output=True)
+     monkeypatch.setattr(gates, "ROOT", str(tmp_path))
+     ok, why = gates.gate_views_generated(); assert ok is False and "generator missing" in why
+ 
+diff --git a/tests/test_gates_are_a_function_of_the_commit.py b/tests/test_gates_are_a_function_of_the_commit.py
+index ce9c56b32..5b133ee1c 100644
+--- a/tests/test_gates_are_a_function_of_the_commit.py
++++ b/tests/test_gates_are_a_function_of_the_commit.py
+@@ -89,6 +89,95 @@ def test_an_export_a_copy_and_a_folder_inside_another_repository_are_all_read_as
+     assert g.checkout_state(tmp_path / "nothing_here") == "export"
+ 
+ 
++def _exported(tmp_path, name):
++    """a folder that holds an export of a small repository's files: the gates, their checkers and a page"""
++    import shutil
++    src = tmp_path / (name + "_source")
++    skip = shutil.ignore_patterns("__pycache__", "*.pyc")
++    shutil.copytree(ROOT / "scripts" / "gates", src / "scripts" / "gates", ignore=skip)
++    shutil.copytree(ROOT / "scripts" / "checks", src / "scripts" / "checks", ignore=skip)
++    (src / "README.md").write_text("# a page\n", encoding="utf-8")
++    _git(src, "init", "-q")
++    _git(src, "add", "-A")
++    _git(src, "commit", "-q", "-m", "a small repository")
++    out = tmp_path / name
++    out.mkdir()
++    tar = subprocess.run(["git", "-C", str(src), "archive", "HEAD"], capture_output=True, check=True).stdout
++    subprocess.run(["tar", "-x", "-C", str(out)], input=tar, check=True)
++    return out
++
++
++_RUN_THE_TABLE = ("import sys, json, importlib.util\n"
++                  "sys.dont_write_bytecode = True\n"
++                  "s = importlib.util.spec_from_file_location('scratch_gates', 'scripts/gates/gates.py')\n"
++                  "g = importlib.util.module_from_spec(s); s.loader.exec_module(g)\n"
++                  "out = {}\n"
++                  "for name in sorted(g.READS_GIT):\n"
++                  "    try:\n"
++                  "        ok, detail = g.GATES[name]()\n"
++                  "    except Exception as exc:\n"
++                  "        ok, detail = False, 'raised: %r' % (exc,)\n"
++                  "    out[name] = [bool(ok), str(detail)]\n"
++                  "print(json.dumps([getattr(g, 'checkout_state')(), out]))\n")
++
++
++def _the_table_there(folder):
++    """every gate of the table READS_GIT, run by the folder's own copy of the gates: (what the folder is to git, the answers)"""
++    import json
++    r = subprocess.run([sys.executable, "-B", "-c", _RUN_THE_TABLE], cwd=str(folder), capture_output=True, text=True)
++    assert r.returncode == 0, r.stderr[-800:]
++    state, out = json.loads(r.stdout.strip().splitlines()[-1])
++    return state, out
++
++
++def test_a_repository_with_no_commit_is_not_a_full_clone_and_no_gate_of_the_table_passes_there(tmp_path):
++    """Main's unseen case U9.b (B1890): an export's files in a folder made a repository with `git init`, and no commit.  It
++    was read as a full clone, and nine gates of the table passed with nothing to look at.  Three forms of it."""
++    forms = {}
++    forms["git init and no commit"] = _exported(tmp_path, "initialised")
++    _git(forms["git init and no commit"], "init", "-q")
++    forms["the files added and not committed"] = _exported(tmp_path, "added")
++    _git(forms["the files added and not committed"], "init", "-q")
++    _git(forms["the files added and not committed"], "add", "-A")
++    forms["a commit that holds no file, the files beside it"] = _exported(tmp_path, "empty_commit")
++    _git(forms["a commit that holds no file, the files beside it"], "init", "-q")
++    _git(forms["a commit that holds no file, the files beside it"], "commit", "-q", "--allow-empty", "-m", "nothing")
++    for form, folder in forms.items():
++        state, out = _the_table_there(folder)
++        passing = sorted(name for name, (ok, detail) in out.items() if ok)
++        assert not passing, f"{form}: read as {state!r}, and these gates of the table pass with nothing to look at: " + ", ".join(passing)
++        assert state == "empty", (form, state)
++        assert len(out) >= 20 and all("refused" in detail and "no commit" in detail for ok, detail in out.values()), (form, out)
++
++
++def test_a_repository_whose_commit_does_not_hold_the_gates_is_not_a_full_clone_either(tmp_path):
++    """The seat's own variant of U9.b: the repository holds one commit, with a note in it, and the export's files stand beside
++    it untracked.  Git has something to say there, about something else, and eight gates of the table passed on the whole tree."""
++    folder = _exported(tmp_path, "a_note_committed")
++    _git(folder, "init", "-q")
++    (folder / "A_NOTE_OF_ITS_OWN.txt").write_text("the only file this repository holds\n", encoding="utf-8")
++    _git(folder, "add", "A_NOTE_OF_ITS_OWN.txt")
++    _git(folder, "commit", "-q", "-m", "a note")
++    state, out = _the_table_there(folder)
++    passing = sorted(name for name, (ok, detail) in out.items() if ok)
++    assert not passing, f"read as {state!r}, and these gates of the table pass on a tree the commit does not hold: " + ", ".join(passing)
++    assert state == "untracked"
++    assert all("refused" in detail and "does not hold the gates" in detail for ok, detail in out.values()), out
++
++
++def test_a_repository_that_holds_a_commit_with_a_file_is_not_empty(tmp_path):
++    """the other side: the smallest repository that has something to say is read as full, and its gates answer"""
++    g = _gates()
++    assert g.checkout_state(_small_repo(tmp_path)) == "full"
++    folder = _exported(tmp_path, "committed")
++    _git(folder, "init", "-q")
++    _git(folder, "add", "-A")
++    _git(folder, "commit", "-q", "-m", "the export, committed")
++    state, out = _the_table_there(folder)
++    assert state == "full"
++    assert not any("no commit" in detail for ok, detail in out.values()), out
++
++
+ def test_a_shallow_clone_is_read_as_shallow_at_any_depth(tmp_path):
+     """PV22, the reading.  A clone of depth 1, and one of a depth greater than the history it was cut from."""
+     g = _gates()
+-- 
+2.43.0
+

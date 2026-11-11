@@ -13,13 +13,15 @@
 |---|---|
 | date | 2026-11-11 |
 | the role, by the owner's ruling to main (M1 on this seat's page; main's rows P-792, P-795) | **builder only.** Five packages: WP-0.7, WP-0.9, WP-0.11, WP-0.12, WP-5.1. It is no longer an auditor: the re-audit of main's corrections has passed to another seat. It hears main on its page, `docs/seats/cld-advisor.md`, through the listener, and the owner no longer relays |
-| read | M1 |
-| on | **C1: WP-0.7, series 3** (`relays/cards/cld-advisor_C1_wp-0-7-series-3.md`): the wording gates (PV17, PV20, PV21), a control that is run (PV16), an assert between literals (PV24) |
-| sent, and with main | series 1 (four patches; main has read every line and is running its unseen cases; its verdict comes as M2) and series 2 (six patches, sent at `636e90e4e`). The planted suite on their end: 16 of 21, from 8 |
-| also with main | a seventh re-audit (E7), sent before this seat had read the ruling: main's to take or leave. Proposals: how the record refers to the assistants; the public form, the website and the history |
-| waiting on | nothing that blocks. Main's verdicts on the two series |
+| read | M2 |
+| on | **C1 is sent: WP-0.7, series 3**, six patches (`ADVISOR_TO_CC_2026-11-11_WP_0_7_SERIES_3_SIX_PATCHES.md`): the wording gates (PV17, PV20, PV21), the controls gate (PV16), a test in which no assert can fail (PV24), and the gap main's unseen case U9.b found in series 1. Now on **C2: series 4**, the six cases the suite lists as manual (`relays/cards/cld-advisor_C2_wp-0-7-series-4.md`) |
+| sent, and with main | **series 1 is landed** as sent (M2; main's B1890; eight of main's nine unseen cases held, the ninth is mended in series 3). Series 2 (six patches) is received; main's unseen cases for it are next. Series 3 is sent with this push. The planted suite on their end: **21 of 21** of its automated cases, from 8 |
+| asked of main | one thing, for patch `0005` of series 3: its word, row by row, on the nineteen rows of the registry of retracted phrases that the sweep did not read (the note's § 5). The series does not wait for it |
+| told to main | series 2, on main's new head, turns one assertion of B1890's lock red (the table of series 1 pinned at 6 and 14; series 2 makes it 4 and 19). Sixteen of main's 53 gate controls do not depend on their gate's answer (a read-out). A page of the paper shows a withdrawn sentence with no correction |
+| also with main | the seventh re-audit (E7) is taken by main (M2); the seat sends no more. The three additions on how the sessions are named are in main's proposal to the owner |
+| waiting on | nothing that blocks. Main's verdicts on series 2 and 3 |
 | blocked | no |
-| packages delivered | 0 of 5 (two of four series of the first package sent) |
+| packages delivered | 0 of 5 (three of four series of the first package sent; the first is landed) |
 
 (The section is numbered 9 and stands first, so that its number does not move when the page grows.)
 
@@ -134,7 +136,7 @@ fourteen times; widening the framing gate costs one exemption.
 | 1 | the baseline | done: 8 of 21 at `818d17f46` |
 | 2 | main names the commit to build on, and changes the owner | done: `e5f9d09cd`. Main has sealed 53 unseen cases of its own for this package (sha256 `06d73fbb…6ff893`) |
 | 3 | each case read against the gate's code; one line each on why it passes | done: `wp_0_7/WHY_EACH_CASE_PASSES.md` |
-| 4 | the cases mended one at a time, in a scratch clone at main's commit: the test first and failing, then the mend | each commit's test fails on the commit before and passes on it. **Series 1 done** (PV9, PV22, PV15); series 2 (PV10, PV11, PV12, PV13, PV19), series 3 (PV17, PV20, PV21, PV16, PV24) and series 4 (the six manual cases) to come |
+| 4 | the cases mended one at a time, in a scratch clone at main's commit: the test first and failing, then the mend | each commit's test fails on the commit before and passes on it. **Series 1 landed** (PV9, PV22, PV15). **Series 2 sent** (PV10, PV11, PV12, PV13, PV19). **Series 3 sent** (PV21, PV20, PV24, PV17, PV16, and main's U9.b). Series 4 (the six manual cases) to come |
 | 5 | each series checked before it is sent: the 53 gates, **main's own tests of the gates at the base and on the series**, the suite, this seat's own variants committed before they run | nothing turns red that was not red at the base. At the last series: 21 of 21 |
 | 6 | delivered: each series as patch files, one for each commit, with a table of case, mend, test and what was run | one note for each series, sent when it is ready (main: "a patch is not a relay, send it when it is ready") |
 | 7 | main's verdict and the web seat's cold read answered | main lands it and marks WP-0.7 done |
@@ -147,13 +149,13 @@ commit. If main wants a branch to fetch, a second branch needs the owner's leave
 
 | # | item | state | whose move |
 |---|---|---|---|
-| 1 | the five packages of § 5 | 0 of 5 delivered; WP-0.7: series 1 and 2 of 4 sent, the suite at 16 of 21; series 3 on card C1 | this seat builds series 3; main verifies the two series |
+| 1 | the five packages of § 5 | 0 of 5 delivered; WP-0.7: series 1 landed, series 2 and 3 of 4 sent, the suite at 21 of 21 of its automated cases; series 4 is the six manual cases | main verifies series 2 and 3; this seat builds series 4 on card C2 |
 | 2 | re-audit of each package main closes | **closed** by the owner's ruling to main (M1): it has passed to another seat. Sent before that: seven re-audits, the last two of E5 (accepted), E2 (partly; main has since mended the line) and E7 (accepted; main's to take or leave) | — |
 | 3 | ORD-a, the order before the card | **closed.** Main refused the two variants at `e5f9d09cd`; re-run here at `038df6984`, all three plants refused | — |
 | 4 | V1, the card | main read it once: B in all three decisive cells. This seat's verdict given: B, not A for N2 | main: P-786 (the sentence on every page, the window's ends as a choice, the same count on the candidate's null) |
 | 5 | GEN-a, a generated page compared in every clone | main says closed at B1886 | this seat checks it at the next re-audit it is asked for |
 | 6 | HASH-d, a list of hashes hidden in a page | open; main holds it as its own third thing | main |
-| 7 | VAC-a, tests that cannot fail | open; inside WP-0.7 (PV24) and main's WP-0.3 | this seat for PV24; main for the rest |
+| 7 | VAC-a, tests that cannot fail | PV24 is mended in series 3: the gate refuses a test in which no assert can fail; 26 on main are held by name, as found. The rest is main's WP-0.3 | main: series 3, and the 26 |
 | 8 | READ-a, a read-out on the whole against the eight conditions | main typed the web seat's card against them (B1885) | main, when it writes its own design |
 | 9 | the foundation at version 1.65, checked against the criteria | held | this seat, when main closes the foundation's packages (WP-0.1, WP-0.10) |
 | 10 | the owner's scoreboard page | live at the owner's address; refreshed when he asks | becomes the output of WP-0.12 |

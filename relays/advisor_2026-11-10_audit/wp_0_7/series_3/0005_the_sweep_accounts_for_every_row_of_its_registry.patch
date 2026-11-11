@@ -1,0 +1,502 @@
+From ba5a65b8cc2c42cf9e781be2eabe7c485e96a8db Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Wed, 11 Nov 2026 20:23:39 +0000
+Subject: [PATCH 5/6] WP-0.7, enforcement (cld-advisor's series 3, patch 5;
+ built on b80c68991 with series 2 applied): A GATE READS ALL IT IS ABOUT --
+ THE RETRACTION SWEEP (the seat's planted case PV17; main's own point P-154,
+ queued since 2026-10-15). The sweep's reader knew two shapes of row. The
+ registry's tables from 2026-10-07 on hold the phrase unquoted in the first
+ cell, and those rows were passed over in silence: 19 rows of 54, with the
+ gate saying 'ok'. Two phrases of such rows, pasted into the front page,
+ passed. THE READER now accounts for every row of every table (rows_in): a row
+ is swept; or it retracts a reading of a phrase and is not; or it is in no
+ shape the reader knows, and then the gate refuses the registry. A third shape
+ is read: an unquoted first cell is the phrase, without the bracketed note
+ that ends it. The 29 phrases read before are read as before, in the same
+ order; 17 more are swept. THE SEAT'S PROPOSAL, ROW BY ROW, FOR MAIN TO
+ OVERRULE: two of the 19 rows retract a reading by their own words ('read as a
+ law', 'read of the family') and are named in NOT_SWEPT_BY_NAME, read and not
+ swept; the other 17 are swept, the nine of the table of 2026-10-14 among
+ them, which the registry's own note calls descriptive because their phrases
+ still stand in their arcs' titles. That reason is met another way: where a
+ newly read phrase already stood, the line is held by its file and its phrase
+ in STANDS_AS_FOUND, and the phrase is swept everywhere else. 15 of the 17
+ stand nowhere; four stand in 12 lines. Eleven are records. The twelfth is
+ not: the paper's table of candidate claims shows the first words of B1632's
+ claim line, the sentence the registry says is withdrawn, with no correction
+ in sight; it is held as found and named to main. ALSO, found by the seat's
+ own test: a line that carries a word of mention is never a violation, so a
+ registered phrase that itself holds such a word can never fire; the gate
+ refuses one (main's registry has none). The gate's sentence says what it
+ read. The registry is not touched; its note on the table of 2026-10-14, and
+ its paragraph of 2026-10-15 on the unparsed shape, are main's to rewrite if
+ it takes this. SERIES 2'S LOCK changes in two ways, each with a dated note:
+ two assertions pinned a bare 'ok' from the sweep and now read its sentence;
+ and its made-up phrases said 'retracted', a word of mention, so that the
+ sweep now refuses them, and are renamed (main's tests found this on the
+ series, the seat's had not: it had run that lock before the check was added).
+ The lock: nine tests added to tests/test_a_gate_reads_all_it_is_about.py; on
+ the commit before, eight fail, four of them because the sweep passes. 0 of
+ 19.
+
+---
+ scripts/checks/retraction_sweep.py         | 184 ++++++++++++++++-----
+ scripts/gates/gates.py                     |  29 +++-
+ tests/test_a_gate_reads_all_it_is_about.py | 121 ++++++++++++++
+ tests/test_nothing_leaves_a_ledger.py      |  20 ++-
+ 4 files changed, 300 insertions(+), 54 deletions(-)
+
+diff --git a/scripts/checks/retraction_sweep.py b/scripts/checks/retraction_sweep.py
+index 83bd84148..c64e72ff0 100644
+--- a/scripts/checks/retraction_sweep.py
++++ b/scripts/checks/retraction_sweep.py
+@@ -84,48 +84,102 @@ def _phrases():
+         return phrases_in(fh.read())
+ 
+ 
+-def phrases_in(text):
+-    """the retracted phrases a registry's text holds, line by line (so that the gate can read the registry as it was at an
+-    earlier commit, and see what has left it)"""
++# WP-0.7 (the advisor seat's planted case PV17; main's own point P-154, queued since 2026-10-15).  The reader knew two shapes of
++# row.  The tables added from 2026-10-07 on hold the phrase UNQUOTED in the first cell, and those rows were not read: 19 rows of
++# 54, in silence -- the gate said "ok" and nothing of what it had not read.  Two phrases of such rows, pasted into the front
++# page, passed.  Now every row of every table is accounted for (`rows_in`): it is swept, or it retracts a reading and is not, or
++# it is in no shape this reader knows -- and then the gate refuses the registry, where before it passed over the row.
++#
++# FORMAT 3, an unquoted first cell:  | the phrase (its source) | why | the current statement |
++# The phrase is the cell without the bracketed note that ends it.  An unquoted row has no tail to say that only a READING is
++# retracted, so such a row is named here, with the reason, and is read and not swept.
++NOT_SWEPT_BY_NAME = {      # the row's first cell, whole -> "the date -- why it is not swept"
++    "the swap is genuine exactly when 1 lies outside the coset \u03b7\u2080K \u2014 read as a law (B1474 \u00a73)":
++        "2026-11-11 -- a reading is retracted (as a law); as a description of the witnesses found the sentence stands",
++    "no centralizer construction reaches chiral matter at rank four \u2014 read of the family rather than of the root (THE_SM_VERDICT \u00a72.1)":
++        "2026-11-11 -- a reading is retracted (of the family); of the root the sentence stands, scoped on the page",
++}
++_RULE = re.compile(r"\|\s*:?-{2,}")
++
++
++def _without_its_note(cell):
++    """a first cell without the bracketed note that ends it:  `the phrase (B1634)` -> `the phrase`.  Only the last bracket,
++    and only if a space stands before it, so that `reading (+3, +1) (B1602)` keeps its own bracket."""
++    cell = cell.strip()
++    if not cell.endswith(")"):
++        return cell
++    depth = 0
++    for i in range(len(cell) - 1, -1, -1):
++        if cell[i] == ")":
++            depth += 1
++        elif cell[i] == "(":
++            depth -= 1
++            if depth == 0:
++                return cell[:i].rstrip() if i > 0 and cell[i - 1] == " " and cell[:i].strip() else cell
++    return cell
++
++
++def rows_in(text):
++    """Every row of every table of a registry's text, in order, as (kind, phrase, first cell).  The kind is "swept"; or
++    "reading" -- the row retracts a reading of a phrase, and the phrase, which is legitimate otherwise, is not swept; or
++    "unread" -- the row is in no shape this reader knows, and the gate refuses it."""
+     out = []
+-    if text:                                     # an empty registry holds no phrase
+-        for line in text.split("\n"):
+-            # FORMAT 1 (the original numbered table):  | 7 | `phrase` | arc | why |
+-            m = re.match(r"\|\s*\d+\s*\|\s*`([^`]+)`", line)
+-            if m:
+-                out.append(m.group(1).strip()); continue
+-            # FORMAT 2 (used from 2026-08-28 on):  | "phrase" <tail> | arc, date | why |
+-            # WIDENED 2026-09-06 (Review 55, blocker). The registry grew a second table shape and
+-            # this parser only knew the first, so it read 9 of 21 rows -- the gate that CERTIFIES
+-            # retraction discipline was blind to 12 phrases, among them "cell 2 is queued and
+-            # unrun", live in docs/ERROR_LEDGER.md at the time. Error class E66, inside the
+-            # instrument the corpus's mechanical greens rest on.
+-            #
+-            # THE TAIL IS LOAD-BEARING AND A NAIVE WIDENING IS WRONG. Some rows retract a PHRASE
+-            # ("excess transitive reach" (of the Omega-DAG...)); others retract only a READING of a
+-            # phrase that is otherwise perfectly legitimate -- "sin^2 theta_W = 3/8" READ AS
+-            # selecting E6/the knot. Sweeping the bare number would red ~25 correct uses across
+-            # README, GOVERNANCE and twelve docs. So: take the phrase only when the tail is EMPTY
+-            # or a PARENTHETICAL scope note; skip when the tail restricts a reading. A "/"-joined
+-            # tail carries a second retracted phrase and both are taken.
+-            m = re.match(r'\|\s*["\u201c]([^"\u201d]+)["\u201d](.*?)\|', line)
+-            if m:
+-                phrase, tail = m.group(1).strip(), m.group(2).strip()
+-                if not tail or tail.startswith("("):
+-                    out.append(phrase)
+-                # else: a READING is retracted, not the phrase, and the bare phrase stays
+-                # legitimate. Two live examples, both of which a naive widening got WRONG here
+-                # before this comment was written:
+-                #   * "sin^2 theta_W = 3/8" READ AS selecting E6/the knot -- the NUMBER is fine and
+-                #     appears correctly in README, GOVERNANCE and twelve docs (~25 uses);
+-                #   * "the class restricts to c" / eps described as "mirror-odd" -- MIRROR-ODD is a
+-                #     correct, load-bearing term for the ORIENTATION bit (B1168, B1169); only its
+-                #     application to eps was retracted.
+-                # Sweeping either bare phrase reds correct work. When a row retracts a reading, the
+-                # registry must add a separate row for any phrase it wants swept.
++    lines = (text or "").split("\n")
++    for i, line in enumerate(lines):
++        if not line.startswith("|") or _RULE.match(line):
++            continue
++        if i + 1 < len(lines) and _RULE.match(lines[i + 1]):
++            continue                                              # a header: the row above a rule
++        cell = line.split("|")[1].strip() if line.count("|") >= 2 else ""
++        # FORMAT 1 (the original numbered table):  | 7 | `phrase` | arc | why |
++        m = re.match(r"\|\s*\d+\s*\|\s*`([^`]+)`", line)
++        if m:
++            out.append(("swept", m.group(1).strip(), cell)); continue
++        # FORMAT 2 (used from 2026-08-28 on):  | "phrase" <tail> | arc, date | why |
++        # WIDENED 2026-09-06 (Review 55, blocker). The registry grew a second table shape and
++        # this parser only knew the first, so it read 9 of 21 rows -- the gate that CERTIFIES
++        # retraction discipline was blind to 12 phrases, among them "cell 2 is queued and
++        # unrun", live in docs/ERROR_LEDGER.md at the time. Error class E66, inside the
++        # instrument the corpus's mechanical greens rest on.
++        #
++        # THE TAIL IS LOAD-BEARING AND A NAIVE WIDENING IS WRONG. Some rows retract a PHRASE
++        # ("excess transitive reach" (of the Omega-DAG...)); others retract only a READING of a
++        # phrase that is otherwise perfectly legitimate -- "sin^2 theta_W = 3/8" READ AS
++        # selecting E6/the knot. Sweeping the bare number would red ~25 correct uses across
++        # README, GOVERNANCE and twelve docs. So: take the phrase only when the tail is EMPTY
++        # or a PARENTHETICAL scope note; skip when the tail restricts a reading. A "/"-joined
++        # tail carries a second retracted phrase and both are taken.
++        m = re.match(r'\|\s*["\u201c]([^"\u201d]+)["\u201d](.*?)\|', line)
++        if m:
++            phrase, tail = m.group(1).strip(), m.group(2).strip()
++            out.append(("swept" if (not tail or tail.startswith("(")) else "reading", phrase, cell))
++            # else: a READING is retracted, not the phrase, and the bare phrase stays
++            # legitimate. Two live examples, both of which a naive widening got WRONG here
++            # before this comment was written:
++            #   * "sin^2 theta_W = 3/8" READ AS selecting E6/the knot -- the NUMBER is fine and
++            #     appears correctly in README, GOVERNANCE and twelve docs (~25 uses);
++            #   * "the class restricts to c" / eps described as "mirror-odd" -- MIRROR-ODD is a
++            #     correct, load-bearing term for the ORIENTATION bit (B1168, B1169); only its
++            #     application to eps was retracted.
++            # Sweeping either bare phrase reds correct work. When a row retracts a reading, the
++            # registry must add a separate row for any phrase it wants swept.
++            continue
++        # FORMAT 3 (used from 2026-10-07 on; read since 2026-11-11):  | the phrase (its source) | why | now |
++        if cell in NOT_SWEPT_BY_NAME:
++            out.append(("reading", _without_its_note(cell), cell)); continue
++        phrase = _without_its_note(cell)
++        if not phrase or phrase.isdigit() or phrase[0] in '"\u201c`':
++            out.append(("unread", None, cell)); continue          # an empty cell, a bare number, a quote that does not close
++        out.append(("swept", phrase, cell))
+     return out
+ 
+ 
++def phrases_in(text):
++    """the retracted phrases a registry's text holds, in order (so that the gate can read the registry as it was at an
++    earlier commit, and see what has left it): the phrase of every row that is swept"""
++    return [phrase for kind, phrase, cell in rows_in(text) if kind == "swept"]
++
++
+ def _tracked_md():
+     """Every tracked surface a claim can live on -- .md, .tex AND .py.
+ 
+@@ -166,11 +220,42 @@ def _flatten(line):
+     return line
+ 
+ 
+-def sweep():
++# WHERE A PHRASE ALREADY STOOD ON THE DAY THE SWEEP FIRST READ ITS ROW (2026-11-11).  Twelve lines, for four of the nineteen
++# phrases; the other fifteen stand nowhere.  Each is held by its file and its phrase, as found: the phrase is swept in every
++# other file, and a second phrase in the same file is a violation.  Eleven are records: an arc's own title or findings under
++# its dated correction, the addendum or the ledger row that quotes what it scopes, a relay as it was sent.  The twelfth is not.
++STANDS_AS_FOUND = {        # (file, phrase) -> what the instance is
++    ("docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-08_THE_PRINCIPLES_TICK_AND_THE_TWO_HANDS.md", "the sense of the root's 3-cycle as the chirality bit"):
++        "a relay as sent; the line says the candidate is dead",
++    ("docs/ERROR_LEDGER.md", "every coupling is degenerate at \u03c9"): "the error ledger's row (E53, instance 31) quotes the sentence it records",
++    ("docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-09_THE_COUPLINGS_AND_THE_GOLDEN_SPECTRUM.md", "every coupling is degenerate at \u03c9"):
++        "a relay as sent, four days before the sentence was scoped",
++    ("frontier/B1635_couplings_on_the_ruled_branch/ADDENDUM_2026-10-13_omega_and_the_ansatz.md", "every coupling is degenerate at \u03c9"):
++        "the addendum that scopes the sentence quotes it in its title",
++    ("frontier/B1635_couplings_on_the_ruled_branch/FINDINGS.md", "every coupling is degenerate at \u03c9"):
++        "the arc's findings as first written; its addendum of 2026-10-13 scopes them",
++    ("docs/POINT_REGISTER.md", "the only lifts that agree with the ruled moves"): "the register's row P-122 quotes the title it scopes",
++    ("frontier/B1641_w46_on_main_and_the_two_objects/ADDENDUM_2026-10-14_scoped_at_review_63.md", "the only lifts that agree with the ruled moves"):
++        "the addendum that scopes the title quotes it",
++    ("frontier/B1641_w46_on_main_and_the_two_objects/FINDINGS.md", "the only lifts that agree with the ruled moves"):
++        "the arc's title as first written; its claim line carries the scope (B1648)",
++    ("frontier/B1648_the_scope_repairs/FINDINGS.md", "the only lifts that agree with the ruled moves"): "the scope repairs' own table quotes it",
++    ("frontier/B1648_the_scope_repairs/verification/apply_scope.py", "the only lifts that agree with the ruled moves"):
++        "the script that wrote the scope quotes it",
++    ("frontier/B1632_w45_verified_on_main/FINDINGS.md", "the weave's lifts on T form only a projective representation"):
++        "the arc's title as first written (sealed, and NEGATIVE as sealed)",
++    ("papers/P3_THE_PAPER/CLAIM_CANDIDATES.md", "the weave's lifts on T form only a projective representation"):
++        "NOT A RECORD: the paper's table of candidate claims shows the first words of B1632's claim line, the withdrawn "
++        "sentence, with no correction in sight. Held as found, and named to main as a finding",
++}
++
++
++def sweep_all():
++    """(the live uses of a registered phrase that nothing allows, the standing instances that were met)"""
+     phrases = [(p, re.compile(re.escape(p), re.I)) for p in _phrases()]
+-    violations = []
++    violations, met = [], set()
+     if not phrases:
+-        return violations
++        return violations, met
+     for rel in _tracked_md():
+         if (rel in EXEMPT_FILES or rel.startswith(EXEMPT_PREFIXES)
+                 or os.path.basename(rel) in EXEMPT_BASENAMES):
+@@ -196,12 +281,25 @@ def sweep():
+                 continue
+             for phrase, rx in live:
+                 if rx.search(flat):
+-                    violations.append((rel, n, phrase))
+-    return violations
++                    if (rel, phrase) in STANDS_AS_FOUND:
++                        met.add((rel, phrase))
++                    else:
++                        violations.append((rel, n, phrase))
++    return violations, met
++
++
++def sweep():
++    """the live uses of a registered phrase that nothing allows, as this function has always returned them"""
++    return sweep_all()[0]
+ 
+ 
+ if __name__ == "__main__":
+     v = sweep()
++    if os.path.exists(REGISTRY):
++        with open(REGISTRY, encoding="utf-8") as fh:
++            kinds = [k for k, _p, _c in rows_in(fh.read())]
++        print(f"rows of the registry: {len(kinds)} -- {kinds.count('swept')} swept, {kinds.count('reading')} that retract a reading "
++              f"and are not swept, {kinds.count('unread')} in no shape this reader knows")
+     print(f"registered retracted phrases: {len(_phrases())}")
+     print(f"tracked .md/.tex/.py files swept: {len(_tracked_md())}")
+     print(f"live-claim violations: {len(v)}")
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index c4c0cbb81..1eccd883a 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -2225,11 +2225,34 @@ def gate_retraction_sweep(_anchor=None):
+     rel = os.path.relpath(rs.REGISTRY, ROOT).replace(os.sep, "/")
+     if not os.path.isfile(rs.REGISTRY):
+         return False, f"{rel} missing -- with no registry the sweep reads no phrase and would sweep for nothing"
+-    gone, note = left_the_ledger(rel, rs.phrases_in, _read(rel), "retracted phrase", _anchor)
++    text = _read(rel)
++    # PV17 (WP-0.7; main's P-154): the reader knew two shapes of row and passed over the rest in silence.  Every row is now
++    # accounted for, and one that is in no shape the reader knows is refused, not skipped.
++    rows = rs.rows_in(text)
++    unread = [cell for kind, _phrase, cell in rows if kind == "unread"]
++    if unread:
++        return False, (f"{len(unread)} row(s) of {rel} are in no shape the sweep reads: " + "; ".join(repr(c[:60]) for c in unread[:4])
++                       + ". A row the sweep cannot read is a phrase nobody sweeps: put the phrase in quotes or in backticks, or "
++                         "alone in the first cell; a row that retracts only a reading is named in NOT_SWEPT_BY_NAME")
++    # a line that carries a mention cue ("withdrawn", "corrected", ...) is a mention and never a violation.  So a phrase that
++    # itself holds such a word can never fire: it is registered, and swept by nothing.  (Found by the seat's own test.)
++    mute = [phrase for kind, phrase, _cell in rows if kind == "swept" and rs.MENTION_CUES.search(rs._flatten(phrase))]
++    if mute:
++        return False, (f"{len(mute)} registered phrase(s) hold a word the sweep reads as a mention, so no line that carries one can "
++                       "ever be a violation: " + "; ".join(repr(m[:60]) for m in mute[:4]) + ". Register the phrase without that word")
++    gone, note = left_the_ledger(rel, rs.phrases_in, text, "retracted phrase", _anchor)
+     if gone:
+         return False, gone
+-    v = rs.sweep()
+-    return not v, [f"{r}:{n} {p!r}" for r, n, p in v[:5]] or "ok" + note
++    v, met = rs.sweep_all()
++    if v:
++        return False, [f"{r}:{n} {p!r}" for r, n, p in v[:5]]
++    kinds = [kind for kind, _phrase, _cell in rows]
++    named = [cell for _kind, _phrase, cell in rows if cell in rs.NOT_SWEPT_BY_NAME]
++    idle = len(rs.NOT_SWEPT_BY_NAME) - len(named) + len(set(rs.STANDS_AS_FOUND) - met)
++    return True, (f"ok ({len(rows)} rows of the registry read: {kinds.count('swept')} swept, {kinds.count('reading')} that retract a reading "
++                  f"and are not swept" + (f", {len(named)} of them by name" if named else "")
++                  + (f"; {len(met)} standing instance(s) of a phrase held by name as found" if met else "")
++                  + (f"; {idle} name(s) in the sweep's tables meet nothing now: shorten the table" if idle else "") + ")" + note)
+ 
+ 
+ 
+diff --git a/tests/test_a_gate_reads_all_it_is_about.py b/tests/test_a_gate_reads_all_it_is_about.py
+index 7b3337083..501487024 100644
+--- a/tests/test_a_gate_reads_all_it_is_about.py
++++ b/tests/test_a_gate_reads_all_it_is_about.py
+@@ -294,3 +294,124 @@ def test_the_tests_in_which_no_assert_can_fail_are_held_by_name():
+     found = set(ctv.read_locks()["CANNOT-FAIL"])
+     assert found <= held, sorted(found - held)
+     assert "tests/test_b710_thimbles.py::test_orbit_counts_differ" in held          # the one the planted case was written after
++
++
++# ---- PV17: the sweep read two shapes of row of its registry, and passed over the rest in silence -----------------------
++# The phrases here are made up, so that this file holds none that main's registry sweeps.
++_REG_HEAD = "# The registry\n\n| # | phrase | arc | why |\n|---|---|---|---|\n| 1 | `the lamp is always green` | B1 | it was wrong |\n\n"
++_UNQUOTED = ("## Added later: phrasings withdrawn in a later window\n\n| withdrawn phrase | why | the current statement |\n|---|---|---|\n"
++             "| the gadget is forced, and no choice is made (B7) | two choices exist | a convention |\n"
++             "| a third carrier, reading (+3, +1) (B8) | noise | the pair is alone |\n")
++
++
++def _sweep_repo(tmp_path, name, registry, pages):
++    files = {"docs/RETRACTED_PHRASES.md": registry}
++    files.update(pages)
++    return _scratch(tmp_path / name, files)
++
++
++def _in_the_sweeps_table(repo, table, entry):
++    """an entry in the small repository's own copy of one of the sweep's two tables, as main would write one"""
++    p = repo / "scripts" / "checks" / "retraction_sweep.py"
++    src = p.read_text(encoding="utf-8")
++    assert src.count(table + " = {") == 1, "no table %s in the sweep" % table
++    p.write_text(src.replace(table + " = {", table + " = {" + entry + ",", 1), encoding="utf-8")
++    _commit(repo, "an entry in " + table)
++
++
++def test_a_registered_phrase_in_a_numbered_row_is_swept(tmp_path):
++    """the control: this held before the series"""
++    repo = _sweep_repo(tmp_path, "control", _REG_HEAD, {"README.md": "We find that the lamp is always green, as before.\n"})
++    ok, detail = _gate(repo, "retraction-sweep")
++    assert ok is False and "README.md" in detail
++
++
++def test_a_phrase_in_an_unquoted_row_is_swept(tmp_path):
++    """PV17 as planted: a row whose phrase stands unquoted in the first cell, and the phrase on the front page"""
++    repo = _sweep_repo(tmp_path, "pv17", _REG_HEAD + _UNQUOTED, {"README.md": "# A page\n\nThe gadget is forced, and no choice is made.\n"})
++    ok, detail = _gate(repo, "retraction-sweep")
++    assert ok is False, "a phrase of an unquoted row of the registry stands on the front page, and the sweep passed: " + detail
++    assert "README.md" in detail and "the gadget is forced" in detail
++
++
++def test_the_note_that_ends_an_unquoted_cell_is_not_part_of_the_phrase(tmp_path):
++    repo = _sweep_repo(tmp_path, "note", _REG_HEAD + _UNQUOTED, {"docs/PAGE.md": "There is a third carrier, reading (+3, +1), we said.\n"})
++    ok, detail = _gate(repo, "retraction-sweep")
++    assert ok is False, "the phrase without its source note passed the sweep: " + detail
++    assert "reading (+3, +1)" in detail and "(B8)" not in detail
++
++
++def test_a_row_in_no_shape_the_sweep_reads_is_refused(tmp_path):
++    for name, row in (("a_number_and_no_backticks", "| 2 | a sentence with no backticks | B2 | why |"),
++                      ("a_quote_that_does_not_close", '| "a sentence whose quote does not close | B2 | why |'),
++                      ("an_empty_first_cell", "|  | B2 | why |")):
++        repo = _sweep_repo(tmp_path, name, _REG_HEAD + "| h | h | h |\n|---|---|---|\n" + row + "\n", {"README.md": "# A page\n"})
++        ok, detail = _gate(repo, "retraction-sweep")
++        assert ok is False, f"a row the sweep cannot read ({name}) was passed over in silence: {detail}"
++        assert "in no shape the sweep reads" in detail
++
++
++def test_a_registered_phrase_that_can_never_fire_is_refused(tmp_path):
++    """the sweep allows any line that carries a word of mention (a retraction's own vocabulary), so a registered phrase that
++    holds such a word is swept by nothing.  This seat's first made-up phrase for these tests was one, and its control passed."""
++    registry = _REG_HEAD + "| 2 | `the result was formerly exact` | B2 | it was not |\n"
++    repo = _sweep_repo(tmp_path, "mute", registry, {"README.md": "# A page\n\nThe result was formerly exact.\n"})
++    ok, detail = _gate(repo, "retraction-sweep")
++    assert ok is False, "a registered phrase that no line can violate, and the sweep passed: " + detail
++    assert "can ever be a violation" in detail and "formerly exact" in detail
++
++
++def test_a_row_named_as_a_reading_is_read_and_not_swept(tmp_path):
++    pages = {"README.md": "# A page\n\nThe gadget is forced, and no choice is made.\n"}
++    repo = _sweep_repo(tmp_path, "reading", _REG_HEAD + _UNQUOTED, pages)
++    assert _gate(repo, "retraction-sweep")[0] is False
++    _in_the_sweeps_table(repo, "NOT_SWEPT_BY_NAME", '"the gadget is forced, and no choice is made (B7)": "2026-11-11 -- only a reading of it is withdrawn"')
++    ok, detail = _gate(repo, "retraction-sweep")
++    assert ok is True, detail
++    assert "1 that retract a reading and are not swept, 1 of them by name" in detail
++
++
++def test_where_a_phrase_already_stood_it_is_held_by_its_file_and_its_phrase(tmp_path):
++    title = "# B7: the gadget is forced, and no choice is made\n\nCorrected below.\n"
++    pages = {"frontier/B7_the_gadget/FINDINGS.md": title, "README.md": "# A page\n"}
++    repo = _sweep_repo(tmp_path, "stands", _REG_HEAD + _UNQUOTED, pages)
++    ok, detail = _gate(repo, "retraction-sweep")
++    assert ok is False and "frontier/B7_the_gadget/FINDINGS.md" in detail
++    _in_the_sweeps_table(repo, "STANDS_AS_FOUND", '("frontier/B7_the_gadget/FINDINGS.md", "the gadget is forced, and no choice is made"): "the title as first written"')
++    ok, detail = _gate(repo, "retraction-sweep")
++    assert ok is True and "1 standing instance(s) of a phrase held by name as found" in detail, detail
++    # the phrase is swept everywhere else
++    _commit(repo, "the phrase on the front page", {"README.md": "# A page\n\nThe gadget is forced, and no choice is made.\n"})
++    ok, detail = _gate(repo, "retraction-sweep")
++    assert ok is False and "README.md" in detail and "FINDINGS.md" not in detail
++    # and the file is held for that phrase alone
++    _commit(repo, "another phrase in the held file", {"README.md": "# A page\n", "frontier/B7_the_gadget/FINDINGS.md": title + "And the lamp is always green there.\n"})
++    ok, detail = _gate(repo, "retraction-sweep")
++    assert ok is False and "FINDINGS.md" in detail and "the lamp is always green" in detail
++
++
++def test_the_sweep_says_how_many_rows_it_read(tmp_path):
++    reading = '| "a sentence" read as more than it says | B3 | only the reading |\n'
++    repo = _sweep_repo(tmp_path, "says", _REG_HEAD + _UNQUOTED + reading, {"README.md": "# A page\n"})
++    ok, detail = _gate(repo, "retraction-sweep")
++    assert ok is True, detail
++    assert "4 rows of the registry read: 3 swept, 1 that retract a reading and are not swept" in detail, "the sweep does not say what it read: " + detail
++
++
++def test_on_this_repository_every_row_of_the_registry_is_read():
++    """no row is passed over; the rows that only retract a reading, and the lines where a phrase already stood, are by name"""
++    g = _gates()
++    sys.path.insert(0, str(ROOT / "scripts" / "checks"))
++    try:
++        import retraction_sweep as rs
++    finally:
++        sys.path.pop(0)
++    rows = getattr(rs, "rows_in", lambda text: [("unread", None, "the reader accounts for no row")])((ROOT / "docs" / "RETRACTED_PHRASES.md").read_text(encoding="utf-8"))
++    kinds = [kind for kind, _phrase, _cell in rows]
++    assert "unread" not in kinds and kinds.count("swept") >= 46 and kinds.count("reading") >= 8, kinds
++    swept = [phrase for kind, phrase, _cell in rows if kind == "swept"]
++    assert any(p.startswith("the convention ") and p.endswith("no choice is made") for p in swept)       # a row the planted case took its phrase from
++    assert len(rs.NOT_SWEPT_BY_NAME) == 2 and len(rs.STANDS_AS_FOUND) == 12                             # a new name shows here as well
++    ok, detail = g.GATES["retraction-sweep"]()
++    assert ok is True, detail
++    assert "by name" in detail and "shorten the table" not in detail
+diff --git a/tests/test_nothing_leaves_a_ledger.py b/tests/test_nothing_leaves_a_ledger.py
+index 1b2083cb2..c9b7ccc14 100644
+--- a/tests/test_nothing_leaves_a_ledger.py
++++ b/tests/test_nothing_leaves_a_ledger.py
+@@ -131,14 +131,17 @@ def test_the_rule_reads_main_from_its_anchor_and_nothing_is_named_yet():
+ 
+ 
+ # ---- PV11: the registry of retracted phrases -----------------------------------------------------------------------------
++# 2026-11-11 (series 3, PV17): the made-up phrases here said "retracted", which is a word of mention: a line that carries one is
++# never a violation, so such a phrase can never fire, and the sweep now refuses a registry that holds one.  They are renamed.
+ _REGISTRY = ("# Retracted phrases\n\n| # | phrase | arc | why |\n|---|---|---|---|\n"
+-             "| 1 | `the first retracted phrase` | B1 | it was wrong |\n| 2 | `the second retracted phrase` | B2 | so was this |\n")
++             "| 1 | `the first sentence taken back` | B1 | it was wrong |\n| 2 | `the second sentence taken back` | B2 | so was this |\n")
+ 
+ 
+ def test_the_registry_of_retracted_phrases_deleted_turns_the_sweep_red(tmp_path):
+     """PV11 as planted.  With no registry the sweep read no phrase, swept for nothing and passed."""
+     repo, anchor = _scratch(tmp_path, {"docs/RETRACTED_PHRASES.md": _REGISTRY})
+-    assert _gate(repo, "retraction-sweep", anchor) == (True, "ok")
++    ok, detail = _gate(repo, "retraction-sweep", anchor)        # 2026-11-11 (series 3, PV17): the sweep now says what it read
++    assert ok is True and detail.startswith("ok (") and "by name" not in detail
+     _commit(repo, "the registry is deleted", delete=["docs/RETRACTED_PHRASES.md"])
+     ok, detail = _gate(repo, "retraction-sweep", anchor)
+     assert ok is False and "RETRACTED_PHRASES.md missing" in detail
+@@ -146,17 +149,17 @@ def test_the_registry_of_retracted_phrases_deleted_turns_the_sweep_red(tmp_path)
+ 
+ def test_a_phrase_that_leaves_the_registry_turns_the_sweep_red_unless_it_is_named(tmp_path):
+     repo, anchor = _scratch(tmp_path, {"docs/RETRACTED_PHRASES.md": _REGISTRY})
+-    thinned = "\n".join(l for l in _REGISTRY.split("\n") if "second retracted" not in l)
++    thinned = "\n".join(l for l in _REGISTRY.split("\n") if "second sentence" not in l)
+     _commit(repo, "one phrase leaves the registry", {"docs/RETRACTED_PHRASES.md": thinned})
+     ok, detail = _gate(repo, "retraction-sweep", anchor)
+-    assert ok is False and "1 retracted phrase(s) left docs/RETRACTED_PHRASES.md" in detail and "the second retracted phrase" in detail
++    assert ok is False and "1 retracted phrase(s) left docs/RETRACTED_PHRASES.md" in detail and "the second sentence taken back" in detail
+     # emptied, not deleted: the file is there and holds no phrase
+     _commit(repo, "the registry is emptied", {"docs/RETRACTED_PHRASES.md": "# Retracted phrases\n"})
+     ok, detail = _gate(repo, "retraction-sweep", anchor)
+     assert ok is False and "2 retracted phrase(s) left" in detail
+     # the recorded act: the phrase named in the gate, with its date and what became of it
+     _commit(repo, "one phrase back", {"docs/RETRACTED_PHRASES.md": thinned})
+-    _name_in_the_gate(repo, "docs/RETRACTED_PHRASES.md", "the second retracted phrase", "2026-11-11 -- the retraction was itself withdrawn (B3)")
++    _name_in_the_gate(repo, "docs/RETRACTED_PHRASES.md", "the second sentence taken back", "2026-11-11 -- the retraction was itself withdrawn (B3)")
+     _commit(repo, "and the other named")
+     ok, detail = _gate(repo, "retraction-sweep", anchor)
+     assert ok is True and "1 retracted phrase(s) left by name" in detail and "withdrawn (B3)" in detail
+@@ -168,11 +171,12 @@ def test_a_phrase_that_leaves_the_registry_turns_the_sweep_red_unless_it_is_name
+ 
+ def test_a_phrase_added_after_the_anchor_and_then_removed_has_left_too(tmp_path):
+     repo, anchor = _scratch(tmp_path, {"docs/RETRACTED_PHRASES.md": _REGISTRY})
+-    _commit(repo, "a third phrase is registered", {"docs/RETRACTED_PHRASES.md": _REGISTRY + "| 3 | `the third retracted phrase` | B3 | later |\n"})
+-    assert _gate(repo, "retraction-sweep", anchor) == (True, "ok")
++    _commit(repo, "a third phrase is registered", {"docs/RETRACTED_PHRASES.md": _REGISTRY + "| 3 | `the third sentence taken back` | B3 | later |\n"})
++    ok, detail = _gate(repo, "retraction-sweep", anchor)        # 2026-11-11 (series 3, PV17): the sweep now says what it read
++    assert ok is True and detail.startswith("ok (") and "by name" not in detail
+     _commit(repo, "and quietly dropped", {"docs/RETRACTED_PHRASES.md": _REGISTRY})
+     ok, detail = _gate(repo, "retraction-sweep", anchor)
+-    assert ok is False and "the third retracted phrase" in detail
++    assert ok is False and "the third sentence taken back" in detail
+ 
+ 
+ # ---- PV13: the law map and the theorem ledger ---------------------------------------------------------------------------
+-- 
+2.43.0
+

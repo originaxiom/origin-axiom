@@ -1,0 +1,464 @@
+From dbe2e09522a94806952eddb03318b1e1c2f54eb8 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Wed, 11 Nov 2026 20:23:39 +0000
+Subject: [PATCH 3/6] WP-0.7, enforcement (cld-advisor's series 3, patch 3;
+ built on b80c68991 with series 2 applied): A GATE READS ALL IT IS ABOUT --
+ THE VACUITY GATE (the seat's planted case PV24). The checker listed an assert
+ between two literals 'for review', and the gate refused only a test with no
+ assert and a tautology: a test whose only assert was 'assert 1 != 2' passed,
+ and main has one by that name. And the scan read tests/ alone, never the
+ arcs' own locks. THE CHECKER has a fourth class, CANNOT-FAIL: a test in which
+ no assert can fail, each being made of hand-written literals alone, and true.
+ It is decided by working the expression out (literals, their arithmetic and
+ comparisons, an entry taken from one; never a call), so that 'assert False'
+ under an 'if' and 'assert 1 == 0' are not in it; and a name counts as a
+ literal only if it is bound once at the top of the test and used nowhere but
+ in asserts, so that a flag set on two paths, or a list handed to a call, is
+ not. One literal assert among real ones stays in the review queue, whose
+ count does not move. THE GATE refuses the class, and reads every tracked
+ lock: 303 test functions in 73 arcs' own files, where all four classes now
+ apply and find nothing. On main the class finds 26 test functions, each read
+ by this seat; they are held by name, as found, in CANNOT_FAIL_AS_FOUND, a
+ ceiling that may only shrink. (Main counted 23 by a reading this seat does
+ not have; three more that cannot fail call a builtin on literals and are
+ outside the class, which stops at a call.) scan() returns what it always has.
+ The lock: six tests added to tests/test_a_gate_reads_all_it_is_about.py, with
+ eight shapes that must be refused and nine that must not; on the commit
+ before, four fail, three of them because the gate passes. 0 of 19.
+
+---
+ scripts/checks/check_test_vacuity.py       | 185 +++++++++++++++++++--
+ scripts/gates/gates.py                     |  47 +++++-
+ tests/test_a_gate_reads_all_it_is_about.py |  99 ++++++++++-
+ 3 files changed, 313 insertions(+), 18 deletions(-)
+
+diff --git a/scripts/checks/check_test_vacuity.py b/scripts/checks/check_test_vacuity.py
+index be38ab3b5..f1982c63d 100644
+--- a/scripts/checks/check_test_vacuity.py
++++ b/scripts/checks/check_test_vacuity.py
+@@ -26,9 +26,25 @@ deliberate data-lock written as arithmetic (`assert 52 + 26 == 78`, recording th
+ is F4's plus the 26). Those cannot fail either, but they are documentation of banked dimensions
+ rather than mistakes. Judge each; do not quote the raw count as a defect total.
+ 
++A FOURTH CLASS, 2026-11-11 (the closure programme's WP-0.7, the advisor seat's planted case PV24):
++
++  CANNOT-FAIL    a test function in which NO assert can fail: each one is made of hand-written
++                 literals alone, and is true.  `assert 1 != 2` as a test's only assert was counted
++                 above "for review" and refused by nothing.
++
++One literal assert among real ones is documentation, and stays in the queue above.  A test whose
++every assert is one is a NO-ASSERT test with a sentence in it, and is refused like one.  The class
++is decided by working the expression out (`_value`), so that `assert False` under an `if`, or
++`assert 1 == 0, "unreachable"`, which fail when they are reached, are not in it; and a name counts
++as a literal only if nothing else in the test could have changed it (`_fixed_names`).
++
++Since the same day the scan reads every tracked lock: tests/, and the arcs' own (a file named
++test_*.py anywhere), which it had never read.
++
+ Run:  python3 scripts/checks/check_test_vacuity.py [--both-literal]
+ """
+ import ast
++import operator
+ import os
+ import subprocess
+ import sys
+@@ -108,11 +124,143 @@ def _is_literal(node, lit):
+     return False
+ 
+ 
+-def scan():
+-    out = subprocess.run(["git", "-C", ROOT, "ls-files", "tests/*.py"],
++_UNARY = {ast.USub: operator.neg, ast.UAdd: operator.pos, ast.Not: operator.not_, ast.Invert: operator.invert}
++_BINARY = {ast.Add: operator.add, ast.Sub: operator.sub, ast.Mult: operator.mul, ast.Div: operator.truediv,
++           ast.FloorDiv: operator.floordiv, ast.Mod: operator.mod, ast.Pow: operator.pow,
++           ast.BitAnd: operator.and_, ast.BitOr: operator.or_, ast.BitXor: operator.xor}
++_COMPARE = {ast.Eq: operator.eq, ast.NotEq: operator.ne, ast.Lt: operator.lt, ast.LtE: operator.le,
++            ast.Gt: operator.gt, ast.GtE: operator.ge, ast.Is: operator.is_, ast.IsNot: operator.is_not,
++            ast.In: lambda a, b: a in b, ast.NotIn: lambda a, b: a not in b}
++
++
++def _value(node, names):
++    """The value of an expression made of hand-written literals alone: their arithmetic, their comparisons,
++    an entry taken out of one.  Raises on anything else: a call, an attribute, a name that is not in
++    `names`.  A call is a computation, whatever it calls, and this function works none out."""
++    if isinstance(node, ast.Constant):
++        return node.value
++    if isinstance(node, ast.Name):
++        return names[node.id]
++    if isinstance(node, ast.Tuple):
++        return tuple(_value(e, names) for e in node.elts)
++    if isinstance(node, ast.List):
++        return [_value(e, names) for e in node.elts]
++    if isinstance(node, ast.Set):
++        return {_value(e, names) for e in node.elts}
++    if isinstance(node, ast.Dict):
++        return {_value(k, names): _value(v, names) for k, v in zip(node.keys, node.values)}
++    if isinstance(node, ast.UnaryOp):
++        return _UNARY[type(node.op)](_value(node.operand, names))
++    if isinstance(node, ast.BinOp):
++        a, b = _value(node.left, names), _value(node.right, names)
++        numbers = isinstance(a, (int, float, complex)) and isinstance(b, (int, float, complex))
++        if isinstance(node.op, ast.Mult) and not numbers:
++            raise ValueError("a repeated sequence is not worked out here")
++        if isinstance(node.op, ast.Pow) and not (numbers and abs(a) <= 10 ** 6 and abs(b) <= 64):
++            raise ValueError("a large power is not worked out here")
++        return _BINARY[type(node.op)](a, b)
++    if isinstance(node, ast.IfExp):
++        return _value(node.body if _value(node.test, names) else node.orelse, names)
++    if isinstance(node, ast.Subscript) and not isinstance(node.slice, ast.Slice):
++        return _value(node.value, names)[_value(node.slice, names)]
++    if isinstance(node, ast.BoolOp):
++        for v in node.values:                         # `and` and `or` as Python reads them, left to right
++            last = _value(v, names)
++            if bool(last) != isinstance(node.op, ast.And):
++                return last
++        return last
++    if isinstance(node, ast.Compare):
++        left = _value(node.left, names)
++        for op, c in zip(node.ops, node.comparators):
++            right = _value(c, names)
++            if not _COMPARE[type(op)](left, right):
++                return False
++            left = right
++        return True
++    raise ValueError("not a literal")
++
++
++def _fixed_names(fn):
++    """The names of a test whose value nothing in the test can have changed, with those values.
++
++    Stricter than `_literal_names`, because this class refuses where that one only queues.  A name is
++    here only if it is bound once, by a plain assignment at the top level of the function, to an
++    expression of literals; is not mutated (`_disqualified`); and is used nowhere but inside an assert
++    or inside another such binding -- a list handed to a call may come back filled."""
++    bad = _disqualified(fn)
++    bound = {}
++    for n in ast.walk(fn):
++        targets = []
++        if isinstance(n, ast.Assign):
++            targets = n.targets
++        elif isinstance(n, (ast.AnnAssign, ast.AugAssign, ast.NamedExpr)):
++            targets = [n.target]
++        elif isinstance(n, (ast.For, ast.AsyncFor, ast.comprehension)):
++            targets = [n.target]
++        elif isinstance(n, (ast.With, ast.AsyncWith)):
++            targets = [i.optional_vars for i in n.items if i.optional_vars is not None]
++        elif isinstance(n, ast.ExceptHandler) and n.name:
++            bound[n.name] = bound.get(n.name, 0) + 1
++        elif isinstance(n, (ast.Global, ast.Nonlocal)):
++            bad.update(n.names)
++        elif isinstance(n, (ast.Import, ast.ImportFrom)):
++            bad.update((a.asname or a.name).split(".")[0] for a in n.names)
++        elif isinstance(n, ast.Delete):
++            targets = n.targets
++        for t in targets:
++            for x in ast.walk(t):
++                if isinstance(x, ast.Name):
++                    bound[x.id] = bound.get(x.id, 0) + 1
++    bad.update(a.arg for a in ast.walk(fn) if isinstance(a, ast.arg))          # an argument is given, not written
++    top = [n for n in fn.body if isinstance(n, ast.Assign) and len(n.targets) == 1 and isinstance(n.targets[0], ast.Name)
++           and n.targets[0].id not in bad and bound.get(n.targets[0].id) == 1]
++    inside = set()                                   # every Name node that sits in an assert, or in one of those bindings
++    for n in [a for a in ast.walk(fn) if isinstance(a, ast.Assert)] + top:
++        inside.update(id(x) for x in ast.walk(n) if isinstance(x, ast.Name))
++    elsewhere = {x.id for x in ast.walk(fn) if isinstance(x, ast.Name) and id(x) not in inside}
++    names = {}
++    for n in top:                                    # in the order written: a binding may use the ones above it
++        name = n.targets[0].id
++        if name in elsewhere:
++            continue
++        try:
++            names[name] = _value(n.value, names)
++        except Exception:
++            pass
++    return names
++
++
++def cannot_fail(fn):
++    """True when the test function has asserts and none of them can fail: each is made of literals
++    alone, and is true.  An assert that works out false fails when it is reached, and so can fail."""
++    asserts = [n for n in ast.walk(fn) if isinstance(n, ast.Assert)]
++    calls = {getattr(n.func, "attr", None) or getattr(n.func, "id", None) for n in ast.walk(fn) if isinstance(n, ast.Call)}
++    if not asserts or (_OK_CALLS & calls) or any("assert" in str(c).lower() for c in calls):
++        return False                                 # pytest.raises and the like, or a call such as assert_allclose, can fail
++    if any(isinstance(x, (ast.Call, ast.Attribute)) for a in asserts for x in ast.walk(a.test)):
++        return False                                 # the common case, decided before the names are read: something is computed
++    names = _fixed_names(fn)
++    for a in asserts:
++        try:
++            if not _value(a.test, names):
++                return False
++        except Exception:
++            return False                             # something is computed: the assert can fail
++    return True
++
++
++def _lock_files():
++    """every tracked file the scan reads: tests/*.py as before, and the arcs' own locks, a file named test_*.py anywhere"""
++    out = subprocess.run(["git", "-C", ROOT, "ls-files", "tests/*.py", ":(glob)**/test_*.py"],
+                          capture_output=True, text=True, timeout=60).stdout
+-    no_assert, tautology, both_lit, total = [], [], [], 0
+-    for rel in out.split():
++    return sorted(set(out.split()))
++
++
++def read_locks():
++    """One pass over every tracked lock.  Returns a table: the four classes, each a list of findings, and
++    under "total" the number of test functions read, in tests/ and elsewhere."""
++    r = {"NO-ASSERT": [], "TAUTOLOGY": [], "BOTH-LITERAL": [], "CANNOT-FAIL": [], "total": {"tests": 0, "elsewhere": 0}}
++    for rel in _lock_files():
+         try:
+             tree = ast.parse(open(os.path.join(ROOT, rel), encoding="utf-8").read())
+         except Exception:
+@@ -121,33 +269,46 @@ def scan():
+             if not (isinstance(fn, (ast.FunctionDef, ast.AsyncFunctionDef))
+                     and fn.name.startswith("test")):
+                 continue
+-            total += 1
++            r["total"]["tests" if rel.startswith("tests/") else "elsewhere"] += 1
+             asserts = [n for n in ast.walk(fn) if isinstance(n, ast.Assert)]
+             calls = {getattr(getattr(n, "func", None), "attr", None)
+                      for n in ast.walk(fn) if isinstance(n, ast.Call)}
+             if not asserts and not (_OK_CALLS & calls):
+-                no_assert.append(f"{rel}::{fn.name}")
++                r["NO-ASSERT"].append(f"{rel}::{fn.name}")
+                 continue
++            if cannot_fail(fn):
++                r["CANNOT-FAIL"].append(f"{rel}::{fn.name}")
+             bad = _disqualified(fn)
+             lit = _literal_names(fn, bad)
+             for a in asserts:
+                 t = a.test
+                 if isinstance(t, ast.Constant) and bool(t.value):
+-                    tautology.append(f"{rel}::{fn.name}:{a.lineno}  (assert {t.value!r})")
++                    r["TAUTOLOGY"].append(f"{rel}::{fn.name}:{a.lineno}  (assert {t.value!r})")
+                     continue
+                 if isinstance(t, ast.Compare) and len(t.ops) == 1:
+                     same = ast.dump(t.left) == ast.dump(t.comparators[0])
+                     if isinstance(t.ops[0], ast.Eq) and same:
+-                        tautology.append(f"{rel}::{fn.name}:{a.lineno}  (assert X == X)")
++                        r["TAUTOLOGY"].append(f"{rel}::{fn.name}:{a.lineno}  (assert X == X)")
+                     elif isinstance(t.ops[0], (ast.Eq, ast.NotEq)) and \
+                             _is_literal(t.left, lit) and _is_literal(t.comparators[0], lit):
+-                        both_lit.append(f"{rel}::{fn.name}:{a.lineno}")
+-    return total, no_assert, tautology, both_lit
++                        r["BOTH-LITERAL"].append(f"{rel}::{fn.name}:{a.lineno}")
++    return r
++
++
++def scan():
++    """the three first classes over tests/, as this function has always returned them"""
++    r = read_locks()
++    mine = lambda xs: [x for x in xs if x.startswith("tests/")]
++    return r["total"]["tests"], mine(r["NO-ASSERT"]), mine(r["TAUTOLOGY"]), mine(r["BOTH-LITERAL"])
+ 
+ 
+ def main():
+-    total, no_assert, tautology, both_lit = scan()
+-    print(f"test functions scanned: {total}")
++    r = read_locks()
++    total, no_assert, tautology, both_lit = r["total"]["tests"] + r["total"]["elsewhere"], r["NO-ASSERT"], r["TAUTOLOGY"], r["BOTH-LITERAL"]
++    print(f"test functions scanned: {total} ({r['total']['elsewhere']} of them in the arcs' own locks)")
++    print(f"CANNOT-FAIL (the gate refuses one that is not held by name): {len(r['CANNOT-FAIL'])}")
++    for x in r["CANNOT-FAIL"]:
++        print("   ", x)
+     print(f"NO-ASSERT: {len(no_assert)}")
+     for x in no_assert:
+         print("   ", x)
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 5921c17c9..3db69269a 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -1042,6 +1042,36 @@ def locks_that_left(anchor=None, repo=None, named=None):
+     return None, note
+ 
+ 
++# WP-0.7 (PV24): the checker listed an assert between two literals "for review", and the gate refused only a test with no assert
++# and a tautology.  A test whose only assert was `assert 1 != 2` passed; main has one, by that name.  The checker now has a fourth
++# class, CANNOT-FAIL: a test in which no assert can fail, each being made of literals alone and true.  The gate refuses it.  One
++# literal assert among real ones stays in the review queue, as before.  The scan had read tests/ only; it now reads the arcs'
++# own locks as well, and all four classes apply there.  The tests of this class that stood on 2026-11-11 are held by name, as
++# found: a ceiling that may only shrink.  Mending one (an assert on something computed) takes it off this list.
++CANNOT_FAIL_AS_FOUND = frozenset((          # 26 test functions, as found on 2026-11-11; each was read by the seat that built the class
++    "tests/test_b1017_recount.py::test_the_two_closings_differ_on_both_discriminants",
++    "tests/test_b1233_zai_audit.py::test_class_bit_is_not_our_c",
++    "tests/test_b1233_zai_audit.py::test_two_is_inert_in_both_ends_and_splits_in_the_meeting",
++    "tests/test_b1255_generation_type.py::test_the_dimension_count_that_closes_the_single_27_route",
++    "tests/test_b1407_l209.py::test_branch_B_dies_on_the_tie",
++    "tests/test_b237_silver_2O.py::test_2O_is_double_cover_of_S4_order",
++    "tests/test_b428_spin_walls.py::test_involution_cascade", "tests/test_b521.py::test_gateA_seam_disc_minus15",
++    "tests/test_b545.py::test_c1_class_on_level", "tests/test_b553.py::test_sl5_dimension_is_n2_minus_1_not_rank",
++    "tests/test_b568_results.py::test_aq4_salience_exists", "tests/test_b582_chiral_play.py::test_closure_dimension_is_full",
++    "tests/test_b709_turok.py::test_monodromy_is_hyperbolic_not_a_bang",
++    "tests/test_b710_thimbles.py::test_orbit_counts_differ", "tests/test_b714_spine.py::test_no_order3_symmetry_route",
++    "tests/test_b723_observer.py::test_observer_is_a_phase_transition_not_one_state",
++    "tests/test_b724_seeing.py::test_Path1_only_common_integer_is_forced_prime_3",
++    "tests/test_b736_abc.py::test_P2_H3_is_not_hermitian_symmetric_so_no_shimura",
++    "tests/test_b736_abc.py::test_P3_zero_SM_parameters_reduced",
++    "tests/test_b754_p2_spectral.py::test_tomb_l277_golden_weld_census",
++    "tests/test_b754_p2_spectral.py::test_wall1_cusp_cm_disc_separates",
++    "tests/test_b754_p2_spectral.py::test_wall1_palette_sizes", "tests/test_b769_audit.py::test_aut_v4_is_s3",
++    "tests/test_b776_b685.py::test_symprod_trajectory_to_anchor", "tests/test_b778_cleanup.py::test_darkhyp_count_identity",
++    "tests/test_b980_k3_conflation.py::test_the_three_dimensional_ratio_is_ell_over_G",
++))
++
++
+ def gate_test_vacuity(_anchor=None):
+     """No test may be unconditionally-passing: no NO-ASSERT, no TAUTOLOGY.
+ 
+@@ -1061,17 +1091,28 @@ def gate_test_vacuity(_anchor=None):
+         return False, f"vacuity checker missing or unimportable: {exc}"   # fail-closed
+     finally:
+         sys.path.pop(0)
+-    total, no_assert, tautology, both_lit = ctv.scan()
+-    problems = no_assert + tautology
++    r = ctv.read_locks()                                 # every tracked lock: tests/, and the arcs' own
++    total, elsewhere = r["total"]["tests"], r["total"]["elsewhere"]
++    both_lit = [x for x in r["BOTH-LITERAL"] if x.startswith("tests/")]
++    problems = r["NO-ASSERT"] + r["TAUTOLOGY"]
+     if problems:
+         return False, f"{len(problems)} unconditionally-passing test(s): " + \
+                       "; ".join(problems[:5])
++    # PV24: a test in which no assert can fail
++    new = [t for t in r["CANNOT-FAIL"] if t not in CANNOT_FAIL_AS_FOUND]
++    if new:
++        return False, (f"{len(new)} test(s) in which no assert can fail: " + "; ".join(new[:5])
++                       + ". Each assert is made of literals alone: assert on something the test computes")
+     # PV12 (WP-0.7): this gate counts the tests that cannot fail among the tests present, and with every lock deleted it
+     # counted none among none and passed.  A lock does not leave without a recorded retirement.
+     gone, note = locks_that_left(_anchor)
+     if gone:
+         return False, gone
+-    return True, f"ok ({total} tests, 0 vacuous; {len(both_lit)} both-literal for review)" + note
++    held = [t for t in r["CANNOT-FAIL"] if t in CANNOT_FAIL_AS_FOUND]
++    healed = len(CANNOT_FAIL_AS_FOUND) - len(held) if held else 0
++    return True, (f"ok ({total} tests, 0 vacuous; {len(both_lit)} both-literal for review; {elsewhere} more in the arcs' own locks, 0 vacuous"
++                  + (f"; {len(held)} in which no assert can fail, held by name as found" if held else "")
++                  + (f", and {healed} of that table mended or gone: shorten the table" if healed else "") + ")" + note)
+ 
+ 
+ def gate_views_generated():
+diff --git a/tests/test_a_gate_reads_all_it_is_about.py b/tests/test_a_gate_reads_all_it_is_about.py
+index 4cc823654..7b3337083 100644
+--- a/tests/test_a_gate_reads_all_it_is_about.py
++++ b/tests/test_a_gate_reads_all_it_is_about.py
+@@ -55,16 +55,20 @@ def _scratch(tmp_path, files):
+     return repo
+ 
+ 
+-_RUN = ("import sys, json, importlib.util\n"
++_RUN = ("import sys, json, inspect, subprocess, importlib.util\n"
+         "sys.dont_write_bytecode = True\n"
+         "s = importlib.util.spec_from_file_location('scratch_gates', 'scripts/gates/gates.py')\n"
+         "g = importlib.util.module_from_spec(s); s.loader.exec_module(g)\n"
+-        "r = g.GATES[%r]()\n"
++        "gate = g.GATES[%r]\n"
++        "takes = '_anchor' in inspect.signature(getattr(gate, '__wrapped__', gate)).parameters\n"
++        "first = subprocess.run(['git', 'rev-list', '--max-parents=0', 'HEAD'], capture_output=True, text=True).stdout.strip()\n"
++        "r = gate(_anchor=first) if takes else gate()\n"
+         "print(json.dumps([bool(r[0]), r[1] if isinstance(r[1], str) else ' | '.join(map(str, r[1]))]))\n")
+ 
+ 
+ def _gate(repo, name):
+-    """the gate `name` of the small repository's own copy of the gates"""
++    """the gate `name` of the small repository's own copy of the gates.  A gate that reads the past from an anchor (series 2)
++    is given the small repository's first commit as its anchor."""
+     r = subprocess.run([sys.executable, "-B", "-c", _RUN % name], cwd=str(repo), capture_output=True, text=True)
+     assert r.returncode == 0, r.stderr[-800:]
+     ok, detail = json.loads(r.stdout.strip().splitlines()[-1])
+@@ -201,3 +205,92 @@ def test_the_one_proven_row_without_a_lock_is_held_by_name():
+     ok, detail = g.GATES["claims"]()
+     assert ok is True, detail
+     assert "by name" in detail
++
++
++# ---- PV24: the vacuity gate refused a test with no assert, and not a test in which no assert can fail ------------------
++_REAL = "def test_real():\n    assert sum([1, 2]) == 3\n"
++
++
++def _vacuity(tmp_path, name, body, where="tests/test_planted.py"):
++    repo = _scratch(tmp_path / name, {"tests/test_real.py": _REAL, where: body})
++    return _gate(repo, "test-vacuity")
++
++
++def test_a_test_with_no_assert_fails_the_vacuity_gate(tmp_path):
++    """the control: this held before the series"""
++    ok, detail = _vacuity(tmp_path, "control", "def test_nothing():\n    pass\n")
++    assert ok is False and "test_nothing" in detail
++
++
++def test_a_test_whose_only_assert_is_between_two_literals_fails_the_vacuity_gate(tmp_path):
++    """PV24 as planted"""
++    ok, detail = _vacuity(tmp_path, "pv24", "def test_orbit_counts_differ():\n    assert 1 != 2\n")
++    assert ok is False, "a test whose only assert is `assert 1 != 2`, and the vacuity gate passed: " + detail
++    assert "tests/test_planted.py::test_orbit_counts_differ" in detail
++
++
++_CANNOT_FAIL = {
++    "another operator": "def test_x():\n    assert 1 < 2\n",
++    "a name bound to a literal": "def test_x():\n    n = 5\n    assert n * n - 1 == 24\n    assert n - 1 == 4\n",
++    "and, or, in": "def test_x():\n    assert 2 + 2 == 4 and 'a' in 'abc' or 0 > 1\n",
++    "an entry of a literal table": "def test_x():\n    t = {'a': 1.8, 'b': 0.9}\n    assert t['a'] > 1.5 and t['b'] < 1.0\n",
++    "identity of constants": "def test_x():\n    assert True is not False\n",
++    "a small power": "def test_x():\n    assert 63 + 6 + 1 + 11 == 81 == 3**4\n",
++    "a call beside it": "def test_x():\n    unused = sorted([3, 1])\n    assert 1 != 2\n",
++    "in a loop over something computed": "def test_x():\n    for row in sorted([3, 1]):\n        assert 52 + 26 == 78\n",
++}
++
++
++def test_every_shape_of_a_test_in_which_no_assert_can_fail_is_refused(tmp_path):
++    for name, body in _CANNOT_FAIL.items():
++        ok, detail = _vacuity(tmp_path, name.replace(" ", "_").replace(",", ""), body)
++        assert ok is False, f"a test in which no assert can fail ({name}) passed the vacuity gate: {detail}"
++        assert "no assert can fail" in detail and "test_x" in detail
++
++
++_CAN_FAIL = {
++    "one literal assert among real ones": "def test_x():\n    assert 52 + 26 == 78\n    assert sum([1, 2]) == 3\n",
++    "assert False under a condition": "def test_x():\n    for v in sorted([3, 1]):\n        if v > 5:\n            assert False, v\n",
++    "an assert that is false when reached": "def test_x():\n    for v in sorted([3, 1]):\n        if v > 5:\n            assert 1 == 0, 'unreachable'\n",
++    "a flag set on two paths": ("def test_x():\n    try:\n        int('x')\n        raised = False\n    except ValueError:\n        raised = True\n"
++                                "    assert raised is True\n"),
++    "a list handed to a call": "def _fill(xs):\n    xs.append(1)\n\n\ndef test_x():\n    seen = []\n    _fill(seen)\n    assert seen == [1]\n",
++    "an argument": "import pytest\n\n\n@pytest.mark.parametrize('n', [3])\ndef test_x(n):\n    assert n == 3\n",
++    "a name bound under a condition": "def test_x():\n    if sum([1, 2]) == 3:\n        n = 3\n    assert n == 3\n",
++    "a call in the assert": "def test_x():\n    assert len([1, 2]) == 2\n",
++    "a call named assert": "def _assert_close(a, b):\n    assert abs(a - b) < 1e-9\n\n\ndef test_x():\n    _assert_close(sum([1, 2]), 3)\n    assert 78 == 52 + 26\n",
++}
++
++
++def test_a_test_that_can_fail_is_not_refused(tmp_path):
++    """the other side: nothing here is in the class, and the gate passes.  (`a call in the assert` cannot fail either; the
++    class stops at a call, which is a computation whatever it calls, and this pins where it stops.)"""
++    for name, body in _CAN_FAIL.items():
++        ok, detail = _vacuity(tmp_path, name.replace(" ", "_"), body)
++        assert ok is True, f"a test that can fail ({name}) was refused by the vacuity gate: {detail}"
++
++
++def test_the_vacuity_gate_reads_an_arcs_own_lock(tmp_path):
++    arc = "frontier/B1_an_arc/verification/test_b1_an_arc.py"
++    ok, detail = _vacuity(tmp_path, "arc_no_assert", "def test_nothing():\n    pass\n", where=arc)
++    assert ok is False, "an arc's own lock with a test that asserts nothing, and the vacuity gate passed: " + detail
++    assert arc in detail
++    ok, detail = _vacuity(tmp_path, "arc_literal", "def test_x():\n    assert 1 != 2\n", where=arc)
++    assert ok is False and arc in detail
++    ok, detail = _vacuity(tmp_path, "arc_real", _REAL.replace("test_real", "test_b1"), where=arc)
++    assert ok is True and "1 more in the arcs' own locks" in detail, "the gate does not say that it read the arc's lock: " + detail
++
++
++def test_the_tests_in_which_no_assert_can_fail_are_held_by_name():
++    """26 stood on this repository on the day the rule came.  A 27th fails the gate, and a new name in the table shows here."""
++    g = _gates()
++    held = getattr(g, "CANNOT_FAIL_AS_FOUND", None)
++    assert held is not None and len(held) == 26, "no table of the tests held by name, or not the 26 that were found"
++    sys.path.insert(0, str(ROOT / "scripts" / "checks"))
++    try:
++        import check_test_vacuity as ctv
++    finally:
++        sys.path.pop(0)
++    found = set(ctv.read_locks()["CANNOT-FAIL"])
++    assert found <= held, sorted(found - held)
++    assert "tests/test_b710_thimbles.py::test_orbit_counts_differ" in held          # the one the planted case was written after
+-- 
+2.43.0
+

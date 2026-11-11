@@ -1,0 +1,252 @@
+From df3df786f82cca71fb2b14d8361d0f4e4c20890b Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Wed, 11 Nov 2026 20:23:39 +0000
+Subject: [PATCH 6/6] WP-0.7, enforcement (cld-advisor's series 3, patch 6;
+ built on b80c68991 with series 2 applied): A GATE READS ALL IT IS ABOUT --
+ THE CONTROLS GATE (the seat's planted case PV16). The gate checked that the
+ function a gate's control names is defined in the file it names, and nothing
+ of the function: with every gate pointed at a skipped test whose only line
+ was 'assert True is not False', it passed. Three things are now read, none by
+ running a test, which is the suite's: (1) THE CONTROL IS NOT SKIPPED: no
+ skip, skipif or xfail mark on it; no such mark on its module, and no skip at
+ the module's import; no call that skips in its body. (2) THE CONTROL CAN
+ FAIL: it is a test function at the top level of its file, with an assert, and
+ not one in which no assert can fail (the class of patch 3). (3) A CONTROL
+ DOES NOT LEAVE THE REGISTER WITHOUT A RECORDED ACT, the rule of series 2: a
+ gate pointed at another test, however honest that test looks, is a row that
+ left, and is named in LEFT_BY_NAME with its date and why. The gate therefore
+ reads the past and joins the table of series 1 (4 gates ask which files are
+ tracked, 20 read the past, 29 need no git; the floor in that table's lock
+ moves from 30 to 29, with a dated note). On main all 53 controls pass the
+ three, and the register has not changed since the anchor; in the last 600
+ commits it was changed 14 times. WHAT THIS DOES NOT SHOW, and the case asked
+ for: that a control turns ITS gate red. That takes a run with the gate made
+ unable to fail; the seat's note has what such a run reads on main. The lock:
+ five tests added to tests/test_a_gate_reads_all_it_is_about.py, with nine
+ forms of a control that cannot control; on the commit before, four fail,
+ three of them because the gate passes. 0 of 19.
+
+---
+ scripts/gates/gates.py                        | 74 ++++++++++++++-
+ tests/test_a_gate_reads_all_it_is_about.py    | 95 +++++++++++++++++++
+ ...test_gates_are_a_function_of_the_commit.py |  2 +-
+ 3 files changed, 165 insertions(+), 6 deletions(-)
+
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 1eccd883a..33dd805b3 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -2736,7 +2736,60 @@ def gate_carry_age():
+ GATE_CONTROLS = "tests/GATE_CONTROLS.json"      # gate -> 'tests/<file>.py::<test function that makes it FAIL>'
+ 
+ 
+-def gate_gate_controls():
++# WP-0.7 (PV16): the gate checked that the named function is defined in the named file, and nothing of the function.  With
++# every gate's control pointed at a skipped test whose only line was `assert True is not False`, it passed.  Three things are
++# now read, none of them by running a test (that is the suite's):
++#   (1) the control is not skipped: no skip or xfail mark on it or on its module, and no call that skips in its body;
++#   (2) the control can fail: it is not a test with no assert, nor one in which no assert can fail (the vacuity checker's classes);
++#   (3) a control does not leave the register without a recorded act (the rule of series 2): a gate pointed at another test is a
++#       row that left and a row that came, and the one that left is named in LEFT_BY_NAME with its date and why.
++# What this does not show is that the control turns ITS gate red.  That takes a run with the gate made unable to fail.
++_SKIPS = re.compile(r"\b(skip|skipif|xfail|importorskip)\b")
++
++
++def control_cannot_control(src, fn_name):
++    """why the test function `fn_name` of the source `src` cannot stand as a gate's control, or None.  Read, not run."""
++    import ast
++    try:
++        tree = ast.parse(src)
++    except SyntaxError as exc:
++        return f"is in a file that does not parse ({exc.msg}, line {exc.lineno})"
++    fn = next((n for n in tree.body if isinstance(n, (ast.FunctionDef, ast.AsyncFunctionDef)) and n.name == fn_name), None)
++    if fn is None:
++        return "is not a test function at the top level of its file"
++    for d in fn.decorator_list:
++        if _SKIPS.search(ast.unparse(d)):
++            return f"is skipped or expected to fail by its mark ({ast.unparse(d)[:60]})"
++    for n in tree.body:                                   # the module's own mark, or a skip at import
++        if isinstance(n, ast.Assign) and any(isinstance(t, ast.Name) and t.id == "pytestmark" for t in n.targets) and _SKIPS.search(ast.unparse(n.value)):
++            return f"is in a module marked {ast.unparse(n.value)[:60]}"
++        if isinstance(n, ast.Expr) and isinstance(n.value, ast.Call) and _SKIPS.search(ast.unparse(n.value.func)):
++            return f"is in a module that may skip itself at import ({ast.unparse(n.value)[:60]})"
++    for n in ast.walk(fn):
++        if isinstance(n, ast.Call) and _SKIPS.search(ast.unparse(n.func)):
++            return f"may skip itself ({ast.unparse(n)[:60]})"
++    sys.path.insert(0, os.path.join(ROOT, "scripts", "checks"))
++    try:
++        import check_test_vacuity as ctv
++    except Exception as exc:
++        return f"cannot be read: the vacuity checker is missing or unimportable ({exc})"
++    finally:
++        sys.path.pop(0)
++    asserts = [n for n in ast.walk(fn) if isinstance(n, ast.Assert)]
++    calls = {getattr(getattr(n, "func", None), "attr", None) for n in ast.walk(fn) if isinstance(n, ast.Call)}
++    if not asserts and not (ctv._OK_CALLS & calls):
++        return "asserts nothing"
++    if ctv.cannot_fail(fn):
++        return "holds no assert that can fail"
++    return None
++
++
++def _control_rows(text):
++    """the rows of the register of controls, 'gate -> its control', read line by line"""
++    return {f"{g} -> {ref}" for g, ref in re.findall(r'^\s*"([^"]+)"\s*:\s*"([^"]+)"', text, flags=re.M)}
++
++
++def gate_gate_controls(_anchor=None):
+     """GOVERNANCE §15 (amendment 2026-10-03, R58-1 item 3a): every gate has a test that makes it fail, named in
+     tests/GATE_CONTROLS.json; the named function must exist.  Review 58 counted 15 of 34 gates named by no test and
+     twelve whose checker had no failing-path test at all (R58-2); a gate nobody has seen fail may be inert."""
+@@ -2758,9 +2811,19 @@ def gate_gate_controls():
+         fp = os.path.join(ROOT, f)
+         if not os.path.isfile(fp):
+             problems.append(f"{g}: {f} does not exist"); continue
+-        if not re.search(r"^def %s\(" % re.escape(fn), open(fp, encoding="utf-8", errors="replace").read(), re.M):
+-            problems.append(f"{g}: {fn} not defined in {f}")
+-    return (not problems), ("; ".join(problems)[:600] if problems else f"ok ({len(reg)} gates with a registered failing-path test)")
++        src = open(fp, encoding="utf-8", errors="replace").read()
++        if not re.search(r"^def %s\(" % re.escape(fn), src, re.M):
++            problems.append(f"{g}: {fn} not defined in {f}"); continue
++        why = control_cannot_control(src, fn)             # PV16: the control itself is read
++        if why:
++            problems.append(f"{g}: its control {fn} {why}")
++    if problems:
++        return False, "; ".join(problems)[:600]
++    gone, note = left_the_ledger(GATE_CONTROLS, _control_rows, _read(GATE_CONTROLS), "control", _anchor)
++    if gone:
++        return False, gone
++    return True, (f"ok ({len(reg)} gates with a registered failing-path test, each read: none is kept from running by a mark or a call, "
++                  "none is unable to fail)") + note
+ 
+ 
+ REVIEW_CORE_FROM = 59                                   # binds the first review written after the rule
+@@ -3125,7 +3188,8 @@ READS_HISTORY = frozenset({                       # reads commits before HEAD, o
+     "append-only", "artifact-hashes", "attribution", "closure-generated", "harvest-debt", "lead-debt",
+     "log-changelog-paired", "point-debt", "relay-debt", "review-fires", "seal-immutable", "seal-order-unshown", "views-fresh",
+     "views-generated",                            # the four debt gates: the commit's day, and that time has not run backwards
+-    "chain-locks", "identification-register", "law-map-provenance", "retraction-sweep", "test-vacuity"})     # nothing leaves a ledger: what a page has held since NOTHING_LEAVES_FROM
++    "chain-locks", "identification-register", "law-map-provenance", "retraction-sweep", "test-vacuity",      # nothing leaves a ledger: what a page has held since NOTHING_LEAVES_FROM
++    "gate-controls"})                             # the same rule for the register of controls (series 3, PV16)
+ READS_GIT = READS_TRACKED | READS_HISTORY
+ 
+ 
+diff --git a/tests/test_a_gate_reads_all_it_is_about.py b/tests/test_a_gate_reads_all_it_is_about.py
+index 501487024..acff031ba 100644
+--- a/tests/test_a_gate_reads_all_it_is_about.py
++++ b/tests/test_a_gate_reads_all_it_is_about.py
+@@ -415,3 +415,98 @@ def test_on_this_repository_every_row_of_the_registry_is_read():
+     ok, detail = g.GATES["retraction-sweep"]()
+     assert ok is True, detail
+     assert "by name" in detail and "shorten the table" not in detail
++
++
++# ---- PV16: the controls gate checked that a control's name is defined, and nothing of the control ----------------------
++_CONTROL_OK = ("def test_the_gate_fails_on_a_planted_case():\n    answers = sorted([False, True])\n    assert answers[0] is False\n")
++
++
++def _controls_repo(tmp_path, name, controls_file):
++    """a small repository whose every gate has the same honest control, in tests/test_controls.py"""
++    names = sorted(_gates().GATES)
++    reg = {g: "tests/test_controls.py::test_the_gate_fails_on_a_planted_case" for g in names}
++    files = {"tests/test_controls.py": controls_file, "tests/GATE_CONTROLS.json": json.dumps(reg, indent=1) + "\n"}
++    return _scratch(tmp_path / name, files), reg
++
++
++def _repoint(repo, reg, gate, ref, more=None):
++    files = {"tests/GATE_CONTROLS.json": json.dumps(dict(reg, **{gate: ref}), indent=1) + "\n"}
++    files.update(more or {})
++    _commit(repo, "a control pointed elsewhere", files)
++
++
++def test_a_control_whose_function_is_not_there_fails_the_controls_gate(tmp_path):
++    """the control: this held before the series"""
++    repo, reg = _controls_repo(tmp_path, "control", _CONTROL_OK)
++    assert _gate(repo, "gate-controls")[0] is True
++    _repoint(repo, reg, "framing", "tests/test_controls.py::test_that_is_not_there")
++    ok, detail = _gate(repo, "gate-controls")
++    assert ok is False and "not defined" in detail
++
++
++def test_every_control_pointed_at_a_skipped_trivial_test_fails_the_controls_gate(tmp_path):
++    """PV16 as planted: one skipped test for every gate, whose only line is an assert between constants"""
++    names = sorted(_gates().GATES)
++    planted = "import pytest\n" + "".join(
++        "\n\n@pytest.mark.skip(reason='planted')\ndef test_control_%s():\n    assert True is not False\n" % g.replace("-", "_") for g in names)
++    reg = {g: "tests/test_zz_planted_controls.py::test_control_%s" % g.replace("-", "_") for g in names}
++    repo = _scratch(tmp_path, {"tests/test_zz_planted_controls.py": planted, "tests/GATE_CONTROLS.json": json.dumps(reg, indent=1) + "\n"})
++    ok, detail = _gate(repo, "gate-controls")
++    assert ok is False, "every gate's control is a skipped test that asserts nothing of it, and the controls gate passed: " + detail
++    assert "is skipped" in detail
++
++
++_NO_CONTROL = {
++    "a skipif mark": ("import pytest\n\n\n@pytest.mark.skipif(True, reason='x')\n" + _CONTROL_OK, "is skipped"),
++    "an xfail mark": ("import pytest\n\n\n@pytest.mark.xfail\n" + _CONTROL_OK, "is skipped"),
++    "a skip in its body": ("import pytest\n\n\ndef test_the_gate_fails_on_a_planted_case():\n    pytest.skip('not today')\n    assert sorted([2, 1])[0] == 1\n", "may skip itself"),
++    "an importorskip in its body": ("import pytest\n\n\ndef test_the_gate_fails_on_a_planted_case():\n    pytest.importorskip('a_package_nobody_has')\n"
++                                    "    assert sorted([2, 1])[0] == 1\n", "may skip itself"),
++    "a module marked skip": ("import pytest\n\npytestmark = pytest.mark.skip(reason='the whole file')\n\n\n" + _CONTROL_OK, "module marked"),
++    "a module that may skip at import": ("import pytest\n\npytest.importorskip('a_package_nobody_has')\n\n\n" + _CONTROL_OK, "skip itself at import"),
++    "no assert": ("def test_the_gate_fails_on_a_planted_case():\n    sorted([2, 1])\n", "asserts nothing"),
++    "no assert that can fail": ("def test_the_gate_fails_on_a_planted_case():\n    assert True is not False\n", "no assert that can fail"),
++    "a method of a class, not a test of the file": ("class TestIt:\n    def test_the_gate_fails_on_a_planted_case(self):\n        assert sorted([2, 1])[0] == 1\n", ""),
++}
++
++
++def test_a_control_that_cannot_control_is_refused_in_every_form(tmp_path):
++    for name, (body, words) in _NO_CONTROL.items():
++        repo, reg = _controls_repo(tmp_path, name.replace(" ", "_").replace(",", ""), body)
++        ok, detail = _gate(repo, "gate-controls")
++        assert ok is False, f"a control that cannot control ({name}) passed the controls gate: {detail}"
++        assert words in detail, (name, detail)
++
++
++def test_a_control_pointed_at_another_test_has_left_the_register(tmp_path):
++    """the rule of series 2, for the register of controls: a gate pointed at another test, however honest that test looks, is
++    a row that left.  It needs a recorded act."""
++    repo, reg = _controls_repo(tmp_path, "repoint", _CONTROL_OK)
++    assert _gate(repo, "gate-controls")[0] is True
++    other = "def test_something_else():\n    assert sorted([2, 1])[0] == 1\n"
++    _repoint(repo, reg, "framing", "tests/test_other.py::test_something_else", {"tests/test_other.py": other})
++    ok, detail = _gate(repo, "gate-controls")
++    assert ok is False, "a gate's control was pointed at another test with no record, and the controls gate passed: " + detail
++    assert "1 control(s) left tests/GATE_CONTROLS.json" in detail and "framing -> tests/test_controls.py" in detail
++    # the recorded act
++    p = repo / "scripts" / "gates" / "gates.py"
++    src = p.read_text(encoding="utf-8")
++    assert src.count("LEFT_BY_NAME = {}") == 1
++    key = "framing -> tests/test_controls.py::test_the_gate_fails_on_a_planted_case"
++    p.write_text(src.replace("LEFT_BY_NAME = {}", "LEFT_BY_NAME = {%r: {%r: %r}}" % ("tests/GATE_CONTROLS.json", key, "2026-11-12 -- replaced by a control that plants the case in a file")), encoding="utf-8")
++    _commit(repo, "the act recorded")
++    ok, detail = _gate(repo, "gate-controls")
++    assert ok is True and "1 control(s) left by name" in detail, detail
++
++
++def test_on_this_repository_every_control_is_read_and_none_is_refused():
++    g = _gates()
++    ok, detail = g.GATES["gate-controls"]()
++    assert ok is True, detail
++    assert "each read: none is kept from running" in detail, "the controls gate does not say that it read the controls: " + detail
++    assert g.result_line("gate-controls", ok, detail).strip().startswith("PASS")          # the runner prints a sentence with the word "skipped" as a skip
++    reg = json.loads((ROOT / "tests" / "GATE_CONTROLS.json").read_text(encoding="utf-8"))
++    assert len(reg) == len(g.GATES)
++    for gate, ref in reg.items():
++        f, fn = ref.split("::")
++        assert g.control_cannot_control((ROOT / f).read_text(encoding="utf-8"), fn) is None, gate
+diff --git a/tests/test_gates_are_a_function_of_the_commit.py b/tests/test_gates_are_a_function_of_the_commit.py
+index 5b133ee1c..71794d6e2 100644
+--- a/tests/test_gates_are_a_function_of_the_commit.py
++++ b/tests/test_gates_are_a_function_of_the_commit.py
+@@ -355,7 +355,7 @@ def test_a_gate_that_is_not_in_the_table_answers_the_same_with_git_as_without(tm
+     not in the table, answers differently and fails this."""
+     g = _gates()
+     others = sorted(set(g.GATES) - g.READS_GIT)
+-    assert len(others) >= 30
++    assert len(others) >= 29          # 2026-11-11 (series 3, PV16): gate-controls now reads the past and is in the table; 29 are left
+     with_git = {name: g.GATES[name]() for name in others}
+     monkeypatch.setenv("GIT_DIR", str(tmp_path / "no_repository_here"))
+     g2 = _gates()
+-- 
+2.43.0
+

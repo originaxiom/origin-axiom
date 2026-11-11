@@ -1,0 +1,258 @@
+From 18ce22aa190ad3d46dfc23d062d2917c060ccaa9 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Wed, 11 Nov 2026 20:23:39 +0000
+Subject: [PATCH 1/6] WP-0.7, enforcement (cld-advisor's series 3, patch 1;
+ built on b80c68991 with series 2 applied): A GATE READS ALL IT IS ABOUT --
+ THE FRAMING GATE (the seat's planted case PV21). The gate read three kinds of
+ file, .md, .py and .txt, and compared letter for letter: a banned phrase in a
+ .tex file under papers/ passed, and so did one in capitals on the front page.
+ Review 38's own audit of the gate said so in August (B887), in a .json the
+ gate did not read. THE RULE, which the patches after this one share: a gate
+ reads the whole of what it is about; what it does not read it counts in its
+ sentence; and what stood on the day the rule came is held by name. HERE: the
+ gate reads every file in its folders that is text, whatever its name ends in,
+ and compares as a reader does: in one letter case, a phrase broken over two
+ lines as the phrase, a typesetter's apostrophe as an apostrophe, a word in
+ emphasis as the word. Not read, and counted in the sentence: a file that is
+ not text, and a file above 5 MB, which is data and not a page (the largest
+ page is 2.4 MB). On main the wider reading finds one thing, as main measured:
+ B887's report, which quotes a banned phrase to say what the gate misses; it
+ joins the gate's exemptions by name. The gate takes 2.5 s where it took 0.4.
+ The lock: tests/test_a_gate_reads_all_it_is_about.py, seven tests, each in a
+ small repository of its own; on the commit before, six fail, four of them
+ because the gate passes, and the control holds. 0 of 19.
+
+---
+ scripts/gates/gates.py                     |  47 +++++--
+ tests/test_a_gate_reads_all_it_is_about.py | 140 +++++++++++++++++++++
+ 2 files changed, 178 insertions(+), 9 deletions(-)
+ create mode 100644 tests/test_a_gate_reads_all_it_is_about.py
+
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 60ce11bd3..e1406e296 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -223,36 +223,65 @@ BANNED = [
+     "the one kind of number the firewall permits",
+ ]
+ FRAMING_EXEMPT = {"GOVERNANCE.md", "scripts/gates/gates.py", "tests/test_repo_gates.py",
+-                  "docs/atlas/FAILURE_ATLAS.md"}   # the failure register quotes what it bans
++                  "docs/atlas/FAILURE_ATLAS.md",   # the failure register quotes what it bans
++                  # found when the gate first read a .json, 2026-11-11 (WP-0.7, PV21), and frozen as found: Review 38's audit of
++                  # this gate, which quotes a banned phrase to say that the gate compares letter for letter
++                  "frontier/B887_gate_audit/audit_reports.json"}
+ FRAMING_SCOPE_DIRS = ("docs", "frontier", "knowledge", "papers", "speculations",
+                       "philosophy", "story", "src", "scripts")
++# WP-0.7 (PV21): the gate read three kinds of file, .md, .py and .txt, and compared letter for letter.  A banned phrase in a .tex
++# file passed, and so did one in capitals: B887's audit said so in August, in a .json the gate did not read.  It now reads every
++# file in its folders that is text, whatever its name ends in, and compares as a reader does (_framing_plain).  What it does
++# not read it counts in its sentence: a file that is not text, and a file above FRAMING_MAX_BYTES, which is data and not a page
++# (the largest page on 2026-11-11 is 2.4 MB; the files above the limit are censuses, .jsonl and .json).
++FRAMING_MAX_BYTES = 5_000_000
++
++
++def _framing_plain(text):
++    """a text as the framing gate compares it: in one letter case, its apostrophes plain, its marks of emphasis gone, and every
++    run of white space a single space, so that a phrase broken over two lines is the phrase"""
++    for a, b in (("\u2019", "'"), ("\u2018", "'"), ("*", ""), ("`", "")):
++        text = text.replace(a, b)
++    return " ".join(text.split()).casefold()
+ 
+ 
+ def gate_framing():
+     hits = []
+-    # R37-1 repair: scan ALL root-level .md files, not a hardcoded name list --
++    # R37-1 repair: scan ALL root-level files, not a hardcoded name list --
+     # the audit injected a banned phrase into WORKING_RULES.md and this gate passed
+     # (root files outside the old 8-name list were never scanned).
+-    files = sorted(n for n in os.listdir(ROOT)
+-                   if n.endswith(".md") and os.path.isfile(os.path.join(ROOT, n)))
++    files = sorted(n for n in os.listdir(ROOT) if os.path.isfile(os.path.join(ROOT, n)))
+     for d in FRAMING_SCOPE_DIRS:
+         for dirpath, _dirs, names in os.walk(os.path.join(ROOT, d)):
+             if ".git" in dirpath or "__pycache__" in dirpath:
+                 continue
+             for n in names:
+-                if n.endswith((".md", ".py", ".txt")):
+-                    files.append(os.path.relpath(os.path.join(dirpath, n), ROOT))
++                files.append(os.path.relpath(os.path.join(dirpath, n), ROOT))
++    banned = [(phrase, _framing_plain(phrase)) for phrase in BANNED]
++    read = exempt = large = not_text = 0
+     for rel in files:
+         if rel.replace(os.sep, "/") in FRAMING_EXEMPT:
++            exempt += 1
+             continue
+         try:
++            if os.path.getsize(os.path.join(ROOT, rel)) > FRAMING_MAX_BYTES:
++                large += 1
++                continue
+             text = _read(rel)
++        except UnicodeDecodeError:
++            not_text += 1
++            continue
+         except Exception:
+             continue
+-        for phrase in BANNED:
+-            if phrase in text:
++        read += 1
++        plain = _framing_plain(text)
++        for phrase, as_read in banned:
++            if as_read in plain:
+                 hits.append((rel, phrase))
+-    return not hits, hits[:10]
++    if hits:
++        return False, hits[:10]
++    return True, (f"ok ({read} text files read, in any letter case; not read: {large} above {FRAMING_MAX_BYTES // 1_000_000} MB, "
++                  f"{not_text} that are not text; {exempt} that quote what the gate bans, exempt by name)")
+ 
+ 
+ # --- gate: claims-ledger integrity --------------------------------------------------------
+diff --git a/tests/test_a_gate_reads_all_it_is_about.py b/tests/test_a_gate_reads_all_it_is_about.py
+new file mode 100644
+index 000000000..1db63d017
+--- /dev/null
++++ b/tests/test_a_gate_reads_all_it_is_about.py
+@@ -0,0 +1,140 @@
++"""A gate reads all it is about, and what it does not read it says (the closure programme's WP-0.7, series 3; built by the
++advisor seat and verified by main).
++
++The seat's planted cases PV16, PV17, PV20, PV21 and PV24.  Five gates passed because each read less than it is about: three
++kinds of file of many, two shapes of row of three, a control's name and not the control, a cited lock and not whether one is
++cited, an assert and not whether it can fail.  After this series each of the five reads the whole of what it is about, counts
++in its sentence what it did not read, and holds by name what stood on the day the rule came.
++
++Each test makes the situation in a small repository of its own, which holds this repository's gates and checkers and a few
++pages, and runs the gate there.  Nothing in the environment moves a gate."""
++import importlib.util
++import json
++import pathlib
++import shutil
++import subprocess
++import sys
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++
++
++def _gates():
++    spec = importlib.util.spec_from_file_location("gates_for_the_reach_rule", ROOT / "scripts" / "gates" / "gates.py")
++    g = importlib.util.module_from_spec(spec)
++    spec.loader.exec_module(g)
++    return g
++
++
++def _git(repo, *a):
++    r = subprocess.run(["git", "-C", str(repo), "-c", "user.name=t", "-c", "user.email=t@example.invalid", *a], capture_output=True, text=True)
++    assert r.returncode == 0, r.stderr
++    return r.stdout.strip()
++
++
++def _commit(repo, message, files=None):
++    for rel, text in (files or {}).items():
++        p = repo / rel
++        p.parent.mkdir(parents=True, exist_ok=True)
++        if isinstance(text, bytes):
++            p.write_bytes(text)
++        else:
++            p.write_text(text, encoding="utf-8")
++    _git(repo, "add", "-A")
++    _git(repo, "commit", "-q", "--allow-empty", "-m", message)
++    return _git(repo, "rev-parse", "HEAD")
++
++
++def _scratch(tmp_path, files):
++    """a small repository holding this repository's gates and checkers, and `files`, committed"""
++    repo = tmp_path / "repo"
++    skip = shutil.ignore_patterns("__pycache__", "*.pyc")
++    shutil.copytree(ROOT / "scripts" / "gates", repo / "scripts" / "gates", ignore=skip)
++    shutil.copytree(ROOT / "scripts" / "checks", repo / "scripts" / "checks", ignore=skip)
++    _git(repo, "init", "-q")
++    _commit(repo, "a small repository", files)
++    return repo
++
++
++_RUN = ("import sys, json, importlib.util\n"
++        "sys.dont_write_bytecode = True\n"
++        "s = importlib.util.spec_from_file_location('scratch_gates', 'scripts/gates/gates.py')\n"
++        "g = importlib.util.module_from_spec(s); s.loader.exec_module(g)\n"
++        "r = g.GATES[%r]()\n"
++        "print(json.dumps([bool(r[0]), r[1] if isinstance(r[1], str) else ' | '.join(map(str, r[1]))]))\n")
++
++
++def _gate(repo, name):
++    """the gate `name` of the small repository's own copy of the gates"""
++    r = subprocess.run([sys.executable, "-B", "-c", _RUN % name], cwd=str(repo), capture_output=True, text=True)
++    assert r.returncode == 0, r.stderr[-800:]
++    ok, detail = json.loads(r.stdout.strip().splitlines()[-1])
++    return ok, detail
++
++
++# ---- PV21: the framing gate read three kinds of file, and compared letter for letter -----------------------------------
++def _banned():
++    """one of the gate's banned phrases, taken from the gate and not typed here"""
++    phrase = _gates().BANNED[2]
++    assert "'" in phrase and " " in phrase          # the tests below break it at a space and change its apostrophe
++    return phrase
++
++
++def test_a_banned_phrase_written_as_the_gate_holds_it_fails_the_framing_gate(tmp_path):
++    """the control: this held before the series"""
++    repo = _scratch(tmp_path, {"docs/PAGE.md": "In this note " + _banned() + ".\n"})
++    ok, detail = _gate(repo, "framing")
++    assert ok is False and "docs/PAGE.md" in detail
++
++
++def test_a_banned_phrase_in_a_tex_file_fails_the_framing_gate(tmp_path):
++    repo = _scratch(tmp_path, {"papers/note.tex": "In this note " + _banned() + ".\n"})
++    ok, detail = _gate(repo, "framing")
++    assert ok is False, "a banned phrase in a .tex file under papers/, and the framing gate passed: " + detail
++    assert "papers/note.tex" in detail
++
++
++def test_a_banned_phrase_in_capitals_fails_the_framing_gate(tmp_path):
++    repo = _scratch(tmp_path, {"README.md": "# A page\n\n" + _banned().upper() + ".\n"})
++    ok, detail = _gate(repo, "framing")
++    assert ok is False, "a banned phrase in capitals on the front page, and the framing gate passed: " + detail
++    assert "README.md" in detail
++
++
++def test_a_banned_phrase_is_read_as_a_reader_reads_it(tmp_path):
++    """broken over two lines; with the apostrophe a typesetter sets; with a word in emphasis"""
++    phrase = _banned()
++    first, rest = phrase.split(" ", 1)
++    for name, text in (("two_lines", first + "\n" + rest), ("apostrophe", phrase.replace("'", "’")),
++                       ("emphasis", first + " **" + rest.split(" ", 1)[0] + "** " + rest.split(" ", 1)[1])):
++        repo = _scratch(tmp_path / name, {"docs/PAGE.md": "It is said that " + text + ", and more.\n"})
++        ok, detail = _gate(repo, "framing")
++        assert ok is False, f"a banned phrase ({name}) passed the framing gate: {detail}"
++
++
++def test_the_framing_gate_reads_a_file_whatever_its_name_ends_in(tmp_path):
++    phrase = _banned()
++    for rel in ("docs/page.rst", "frontier/B1_an_arc/arc_verdict.json", "papers/refs.bib", "story/chapter", "NOTES"):
++        text = json.dumps({"claim_one_line": phrase}) if rel.endswith(".json") else "Here: " + phrase + "\n"
++        repo = _scratch(tmp_path / rel.replace("/", "_"), {rel: text})
++        ok, detail = _gate(repo, "framing")
++        assert ok is False, f"a banned phrase in {rel} passed the framing gate: {detail}"
++        assert rel in detail
++
++
++def test_the_framing_gate_says_what_it_did_not_read(tmp_path):
++    limit = getattr(_gates(), "FRAMING_MAX_BYTES", 5_000_000)
++    data = "0123456789abcdef\n" * (limit // 17 + 2)                                    # a file above the limit: data, not a page
++    repo = _scratch(tmp_path, {"docs/PAGE.md": "A page that claims nothing.\n", "frontier/B1_an_arc/census.jsonl": data,
++                               "frontier/B1_an_arc/picture.png": b"\x89PNG\r\n\x1a\n\xff\xfe\x00\x00"})
++    ok, detail = _gate(repo, "framing")
++    assert ok is True, detail
++    assert "1 above" in detail and "1 that are not text" in detail, "the gate does not say what it did not read: " + detail
++
++
++def test_what_the_framing_gate_exempts_is_held_by_name():
++    """an exemption is a file in which a banned phrase may stand.  A new one shows here as well as in the gate."""
++    g = _gates()
++    assert g.FRAMING_EXEMPT == {"GOVERNANCE.md", "scripts/gates/gates.py", "tests/test_repo_gates.py", "docs/atlas/FAILURE_ATLAS.md",
++                                "frontier/B887_gate_audit/audit_reports.json"}
++    ok, detail = g.GATES["framing"]()
++    assert ok is True, detail
+-- 
+2.43.0
+
