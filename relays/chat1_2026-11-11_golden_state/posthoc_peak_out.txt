@@ -1,0 +1,17 @@
+POST HOC to the golden state card (60 digits)
+Q2  root of the derivative along the circle: theta = 0.973438236830841822596166166079
+    z = 0.25153977814359360526645954197 + 0.369767142958202424431940551215 i
+    difference from the amended run's theta: 3.83e-21
+Q1  the seat's point: gradient of f^2 relative to the peak = (-2.2211e-29, 1.3326e-28);  density / peak - 1 = 0.0
+Q1  the lane's point: gradient of f^2 relative to the peak = (-5.7748e-8, -1.1009e-7);  density / peak - 1 = -9.3361e-17
+    Newton from the lane's point, step 1: moved 1.5e-9; now 1.04e-17 from the seat's point
+    Newton from the lane's point, step 2: moved 1.04e-17; now 1.7e-30 from the seat's point
+    Newton from the lane's point, step 3: moved 5.84e-33; now 1.69e-30 from the seat's point
+    Newton from the lane's point, step 4: moved 4.86e-48; now 1.69e-30 from the seat's point
+    Newton from the lane's point, step 5: moved 7.87e-55; now 1.69e-30 from the seat's point
+    Newton from the lane's point, step 6: moved 1.22e-54; now 1.69e-30 from the seat's point
+    after Newton: z = 0.2515397781435936052664595 + 0.3697671429582024244319406 i;  |z|^2 - 1/5 = 1.05e-30
+    the lane's point: |z|^2 - 1/5 = 1.33e-9;  distance from the seat's point 1.502e-9
+Q4  Hessian of f^2 at the peak, relative to the peak, Cartesian eigenvalues: -76.66222046, -82.8567852
+    in polar coordinates (radius, angle): d2/dr2 = -82.8567852, d2/dtheta2 = -15.33244409, mixed = -1.791e-14 (each relative to the peak)
+Q3  local maxima on the whole grid above one twentieth of the peak (x, y, value/peak): [('0.21', '0.16', '0.28220195'), ('0.43', '0.16', '0.19469353'), ('0.25', '0.37', '0.99990568')]
