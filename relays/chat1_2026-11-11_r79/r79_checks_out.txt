@@ -13,15 +13,19 @@ K1  exact 95% intervals, k of 1000:
      143  [0.1219, 0.1662]
      159  [0.1369, 0.1832]
     thresholds for A: 133.3 (r = 1/15) and 134.6 (r = 0.0673)
-K2  identifiers at v1.64: 42; at 323f92327: 45; common: 42; first status word changed: []; new: ['FK16', 'PF5', 'SE3']
+K2  rows with no status word this route knows: ['F-AP', 'F-CI', 'F-FC', 'F-HE', 'FK1', 'FK11', 'GM5b']
+K2  items whose row only begins with an identifier, new since v1.64: ['FK16', 'PF5', 'SE3']
+K2  identifiers at v1.64: 29 (22 with a status word); at 323f92327: 29; common: 29; first status word changed: []; new: []; T-ROOT matched: True
+K2b rows of tables with a Status column: 19 at v1.64, 21 at 323f92327; common 19; status changed: 0; rows gone: 0; rows new: 2
 K3  M1: members ['WP-0.6'] -> 1 packages
 K3  M2: members ['C0', 'C1', 'C2', 'C3', 'C4'] -> 38 packages
 K3  M3: members ['C5'] -> 4 packages
 K3  packages: 43; in no milestone: [('WP-6.1', ('C6', 'NOT STARTED'))]; in more than one: [('WP-0.6', ('C0', 'STARTED'), 2)]
 K4  first-parent commits after da25c4f49 up to B1878's landing 7480c2426: 696; messages with a trailer or a vendor's name: 0
+K5  B1886's lock at 323f92327: 6 passed in 0.29s
 Q   B1882 frontier/B1882_the_v1_card_run_on_main/FINDINGS.md: found
-Q   B1883 frontier/B1883_where_we_stand/WHERE_WE_STAND.md: found
 Q   B1886 ROADMAP.md: found
+Q   B1886 frontier/B1886_the_foundation_at_version_1_65/FINDINGS.md: found
 Q   B1886 frontier/B1886_the_foundation_at_version_1_65/verification/test_b1886_the_foundation_at_version_1_65.py: found
 Q   B1888 frontier/B1888_the_public_form_scrutinised/verification/candidate_chain.py: found
 Q   B1888 frontier/B1888_the_public_form_scrutinised/FINDINGS.md: found
