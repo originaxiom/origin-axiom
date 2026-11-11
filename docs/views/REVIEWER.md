@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1580** |
-| words of findings prose | **1,364,789** |
+| research arcs with findings | **1581** |
+| words of findings prose | **1,366,849** |
 | test lock files referenced | **940** |
-| arcs carrying an authored verdict | **1580** (100.0 %) |
+| arcs carrying an authored verdict | **1581** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1089 |
+| PROVED | 1090 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1878`** (1444 words, 2 locks)  
-THE GOAL AS THE OWNER RULED IT, CARRIED INTO THE GOVERNING DOCUMENTS; TWO GATES (the first landing of P-767: rulings R1 and R3 of the eleven confirmed to main on 2026-11-10; nothing computed, no status of the foundation changed): GOVERNANCE.md now states that the programme's only goal is a parameter-free theory of everything, the sentence it replaces kept with a dated note; the ceiling is unchanged -- a goal says what is sought, and no page may say or imply that a value or the Standard Model has been derived; its label 'derives the form' is brought down to the foundation's statuses and 'closed disjoint' is read as a record of the routes tested; the claims ledger's open targets are what the goal consists of, still open; the anchor doctrine's dimensionless frame anchor is a debt to be removed and not a standing licence. One document governs (the audit's X2): GOVERNANCE.md, with GENESIS.md holding on the status of every item of the foundation by its delegation. A new gate, arrival-phrases, reads the living pages for a sentence of arrival with a window for a denial, a condition or a statement of aim, three old lines frozen; the audit's own planted sentence on the front page is refused. The attribution gate now reads every commit message after da25c4f49, the last that carried a vendor's name or a co-author trailer: 695 commits pass, and a trailer, a vendor's name and a foreign author, each committed in a small repository, are refused. The foundation's own entries are the next landing. 0 of 19.  
-`B1878_the_goal_as_ruled_in_the_governing_documents/FINDINGS.md`
+**PROVED — `B1879`** (2045 words, 0 locks)  
+THE WEAVE'S THEOREMS WITH THE EXCHANGE ADDED: THE COMPUTATION THE OWNER ASKED FOR BEFORE DECIDING HOW 'THE TICK IS AN ACT' STANDS WITH 'EVEN TICKS OBSERVED' (P-769, P-771; data-free; it decides nothing and says what each decision costs): most of what the closure map holds about the weave is unchanged when histories of an odd number of ticks take part -- the two fixed characters, the walk's measure exactly (a run has length r with probability 2^-r in the grammar of L and the tick as in that of L and R), no fixed point of the modulus, one end for each of the 22 odd histories to 7 letters. What changes is the hand: on the weave's six-dimensional space the 96 elements and two pieces become 192 and one, the triplet is half of one irreducible six, the group contains its own generalised CP (the triplet's indicator twisted by the exchange is +1 for any lift), and a three whose sign is the hand has no sign left. One thing gets stronger: the tick alone fixes exactly the trivial character and the quaternion point, where the record needs both two-act moves together, so the place where the records sit is singled out by the single founding act; done twice the tick fixes a curve. Whether the joined six is a real representation depends on a phase of the exchange's lift that nothing fixes, so no such statement is made. Not restated: the two negatives that compare with measurement. WITH THIS RESULT IN HAND THE OWNER RULED (2026-11-11, to main, 'A condition to derive'): every tick is in the ledger; 'only even ticks are observed' is no longer a ruling but a condition the weight must deliver; the chiral three stays as conditional as it was; the budget's orientation bit is a named condition to derive, not a declared choice. 0 of 19.  
+`B1879_the_weaves_theorems_with_the_exchange/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  

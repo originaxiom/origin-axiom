@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1580 |
-| … PROVED | 1089 |
+| arcs with a verdict file | 1581 |
+| … PROVED | 1090 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1879 | PROVED | THE WEAVE'S THEOREMS WITH THE EXCHANGE ADDED: THE COMPUTATION THE OWNER ASKED FOR BEFORE DECIDING HOW 'THE TICK IS AN ACT' STANDS WITH 'EVEN TICKS OBSERVED' (P-769, P-771; data-free; it decides nothing and says what eac… |
 | B1878 | PROVED | THE GOAL AS THE OWNER RULED IT, CARRIED INTO THE GOVERNING DOCUMENTS; TWO GATES (the first landing of P-767: rulings R1 and R3 of the eleven confirmed to main on 2026-11-10; nothing computed, no status of the foundation… |
 | B1877 | PROVED | REVIEW 78 (run at the thirty-third commit after Review 77; S306o-S306p): three of Review 77's eight items resolved (what concentrates under the move count, B1868; the register-to-field join, B1866; the closure map and p… |
 | B1876 | PROVED | THE FOUR REMAINING ATTACKS ON THE PRINCIPLE'S DRAFT: THE ADVISOR SEAT'S SEALED RUN VERIFIED ON MAIN (P-771, P-769; data-free, integers and SnapPy; the seat's code not run): all sixteen sealed hypotheses come out on main… |
@@ -42,7 +43,6 @@
 | B1870 | PROVED | THE AUDIT'S BACKLOG, REPRODUCED ON MAIN (the owner's approval of one multi-agent run for it; bookkeeping only): of the 34 findings of the advisor seat's audit that nobody had reproduced on main, main's own re-runs of 16… |
 | B1869 | PROVED | THE FOUNDING PRINCIPLE READ AS A SELECTION RULE: THE ADVISOR SEAT'S SEALED RUN RE-DERIVED ON MAIN (the owner's confirmed ruling to try it; P-762; data-free, exact integers, exhaustive to 20 letters; the seat's code not… |
 | B1868 | PROVED | WHAT CONCENTRATES UNDER THE MOVE COUNT: THE WEB SEAT'S SEALED CARD VERIFIED ON MAIN (P-756 (b), the modulus's side; data-free; the seat's code read and not run; main's own code and another method, a quadrature against M… |
-| B1867 | PROVED | THE ADVISOR SEAT'S TOP-DOWN READING OF THE PRINCIPLE AND ITS LINE-OR-LOOP RULE, SCRUTINISED (the refetch the owner ordered; three notes read in full, none of the seat's code run, data-free): every fact main could test r… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -55,6 +55,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p THE WEAVE'S THEOREMS WITH THE EXCHANGE ADDED, AND THE OWNER'S RULING ON IT: EVEN TICKS ARE A CONDITION TO DERIVE (B1879; P-769, P-771) (2026-11-11)
 - S306p THE GOAL AS THE OWNER RULED IT, IN THE GOVERNING DOCUMENTS; TWO GATES (B1878; P-767's first landing); THE SIX ARCS WHOSE SEALED SCRIPTS CHANGED, READ (P-772) (2026-11-11)
 - S306p REVIEW 78, THE DECADAL REVIEW (B1877); THE OWNER'S RULINGS OF 2026-11-11 (P-771, P-774) (2026-11-11)
 - S306p TWO SEATS' SEALED RUNS VERIFIED ON MAIN: A SINGLE STATE IS NOT KEPT UNDER COMPOSITION (B1875); THE FOUR REMAINING ATTACKS ON THE PRINCIPLE'S DRAFT (B1876; P-774, P-775) (2026-11-11)
@@ -62,11 +63,10 @@
 - S306o (at the owner's word) THE CLOSURE PROGRAMME READ BY A NON-AUTHOR: FOUR REPAIRS, THREE CORRECTIONS TO MAIN'S OWN RECORD, ONE DEBT (B1873; P-773) (2026-11-10)
 - S306o (later) THE OWNER'S RULING ON THE LAW'S READING; ONE TICK OR TWO ACTS VERIFIED (B1871); ALL HISTORIES TOGETHER DEFINED AND ITS FACTS VERIFIED (B1872) (2026-11-10)
 - S306o (the owner's multi-agent run for the audit backlog) THE AUDIT'S BACKLOG REPRODUCED ON MAIN (B1870), AND THE PRINCIPLE AS A SELECTION RULE VERIFIED (B1869; P-762) (2026-11-10)
-- S306o (the second fetch of the evening) WHAT CONCENTRATES UNDER THE MOVE COUNT: THE WEB SEAT'S CARD VERIFIED ON MAIN (B1868; P-756 answered on the modulus's side; P-755 put to the owner) (2026-11-10)
 
 ## The latest campaign line
 
-LATEST (2026-11-11, S306p: B1878 — THE GOAL AS THE OWNER RULED IT, IN THE GOVERNING DOCUMENTS (P-767's first landing): GOVERNANCE.md states that the programme's only goal is a parameter-free theory of everything, the sentence it replaces kept beside a dated note; the ceiling is unchanged (a goal says what is sought; 0 of 19); its label and firewall are brought to the foundation's statuses; one document governs, with GENESIS.md holding on statuses by its delegation. Two gates: `arrival-phrases` fails on a sentence of arrival on a living page (the audit's planted sentence refused), and `attribution` now reads every commit message after `da25c4f49`. Also: the six arcs whose sealed scripts chan…
+LATEST (2026-11-11, S306p: B1879 — THE WEAVE'S THEOREMS WITH THE EXCHANGE ADDED, AND THE OWNER'S RULING ON IT. Computed at the owner's word ('After the computation'): with histories of an odd number of ticks taking part, the two fixed characters, the walk's measure (exactly), the absence of a fixed modulus and one end per history are unchanged; what changes is the hand — the triplet joins its conjugate into one irreducible six, the group contains its own CP, and a three whose sign is the hand has no sign left; and the tick alone fixes exactly the trivial character and the quaternion point, where the record needed both moves. THE OWNER RULED, with the result in hand ('A condition to derive')…
 
 ## Completeness (nothing skipped silently)
 

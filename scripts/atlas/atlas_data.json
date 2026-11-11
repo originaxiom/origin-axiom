@@ -16237,6 +16237,30 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1879": {
+   "slug": "the weaves theorems with the exchange",
+   "motifs": [
+    "measurement",
+    "closing",
+    "choice",
+    "trace_map",
+    "golden",
+    "amphichiral_cp",
+    "lorentzian"
+   ],
+   "refs": [
+    "B18",
+    "B26",
+    "B28",
+    "B30",
+    "B344",
+    "B497"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 11,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B187": {
    "slug": "interacting open collective",
    "motifs": [
