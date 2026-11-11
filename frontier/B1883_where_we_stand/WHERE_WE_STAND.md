@@ -55,12 +55,12 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 | C5 | The pre-comparison seal and independent challenge | 4 | 0 | 1 | 3 |
 | C6 | Dimensional calibration and empirical comparison | 1 | 0 | 0 | 1 |
 
-- **The map:** 272 nodes, of which 131 still need a path to a result.
+- **The map:** 275 nodes, of which 134 still need a path to a result.
 - **Debts on the map:** 83, of which 66 are joined to no node yet.
 
 ## 4. What is still put in by hand
 
-- **38 independent choices on main's spine,** which are 46 items: 1 ansatz, 8 axiom, 9 bit, 16 discrete, 7 identification, 5 real.
+- **39 independent choices on main's spine,** which are 47 items: 1 ansatz, 9 axiom, 9 bit, 16 discrete, 7 identification, 5 real.
 - **7 more** are supplied by the lanes' model.
 - **An exit is on the table for 9** of the choices: a way it could stop being a choice. None has been taken.
 - **19 results are conditional.** The headline ones, with the open choices under each: G:ROOT on 2, MC:Z6 on 3, V:SIX on 15, W:INDEX3 on 3.
@@ -70,7 +70,7 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 | UNTOUCHED | 11 |
 | BACK-EDGE NAMED | 6 |
 | DICTIONARY | 6 |
-| ADMITTED | 3 |
+| ADMITTED | 4 |
 | KEPT | 3 |
 | ONE CLAUSE SHORT | 3 |
 | PRESSED | 3 |
@@ -81,7 +81,7 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 
 - **73 findings:** reproduced 42, partly fixed 15, fixed 11, reader 4, open 1.
 - **15 carry the auditing seat's own verdict.** Fixed by main and not yet read by that seat: none.
-- **Changed by main since the seat last read them:** E4, E8, G2, G9, X1.
+- **Changed by main since the seat last read them:** E4, E8.
 
 ## 6. The record's own list
 

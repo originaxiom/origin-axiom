@@ -41,15 +41,30 @@ def test_a_stale_map_is_refused():
         assert not ok and ("frontier/B1858_the_closure_map/%s is not its builder's output" % name) in why, (name, why)
 
 
-def test_a_stale_programme_is_refused_or_visibly_skipped():
+def test_a_stale_programme_is_refused_in_every_clone(monkeypatch):
+    """As first written, a clone without the seats' pinned revisions skipped the page's whole comparison, and a count changed by
+    hand on the page passed there (the advisor seat's fifth re-audit, its case g1).  The page no longer depends on the clone:
+    it is compared everywhere, and only the check of the seats' quoted words is skipped where their branches are absent."""
     g = _gates()
-    _, skipped = g.closure_generated_problems()
     for name in ("PROGRAMME.md", "PROGRAMME.json"):
         ok, why = g.gate_closure_generated(_read=_stale(PROG / name))
-        if skipped:                                              # a clone without the seats' pinned revisions: said so, never a bare ok
-            assert ok and "skipped in part" in why and g.result_line("closure-generated", ok, why).strip().startswith("SKIP")
-        else:
-            assert not ok and ("frontier/B1861_the_closure_programme/%s is not its builder's output" % name) in why, (name, why)
+        assert not ok and ("frontier/B1861_the_closure_programme/%s is not its builder's output" % name) in why, (name, why)
+    # the same in a clone that holds no seat's branch: git answers that no revision is there
+    import subprocess
+    real = subprocess.run
+    def no_seats(cmd, *a, **k):
+        if isinstance(cmd, (list, tuple)) and "cat-file" in cmd:
+            return subprocess.CompletedProcess(cmd, 1, b"", b"")
+        return real(cmd, *a, **k)
+    monkeypatch.setattr(subprocess, "run", no_seats)
+    problems, skipped = g.closure_generated_problems()
+    assert not problems and skipped and "quotes of other seats, not its page" in skipped[0], (problems, skipped)
+    ok, why = g.gate_closure_generated()
+    assert ok and "every generated page compared with its builder; skipped in part" in why
+    assert g.result_line("closure-generated", ok, why).strip().startswith("SKIP")          # said so, never a bare ok
+    for name in ("PROGRAMME.md", "PROGRAMME.json"):
+        ok, why = g.gate_closure_generated(_read=_stale(PROG / name))
+        assert not ok and ("frontier/B1861_the_closure_programme/%s is not its builder's output" % name) in why, (name, why)
 
 
 def test_a_stale_status_page_is_refused():

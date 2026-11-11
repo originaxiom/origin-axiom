@@ -5,7 +5,7 @@
 3. packages marked started while a need has not started: 0 [] (the read: five); the same five are now held as given: {'WP-3.2': ['WP-3.1'], 'WP-4.1': ['WP-2.5'], 'WP-4.3': ['WP-4.2', 'WP-1.7']}
 4. a finding's fields: ['note', 'short', 'state', 'trail', 'was', 'wp']; every finding names what it bears on: True; with the re-audit's verdict kept apart for 15
    filed by content and not by the audit's letter: X3 in WP-0.12, X4 in WP-0.11, W6 and W7 in WP-1.6
-5. the budget: 38 choices, 46 items by kind {'axiom': 8, 'identification': 7, 'bit': 9, 'discrete': 16, 'real': 5, 'ansatz': 1}; the charge premise at level five is typed {'bit': 1, 'discrete': 1}
-   routes: {'UNTOUCHED': 11, 'FORCING ARGUED': 2, 'PRESSED': 3, 'ONE CLAUSE SHORT': 3, 'BACK-EDGE NAMED': 6, 'ADMITTED': 3, 'DICTIONARY': 6, 'KEPT': 3, 'RIGID': 1}; an exit with no objection on the page: 9 (the read: 8, of which 5 are back-edges named and not built)
+5. the budget: 39 choices, 47 items by kind {'axiom': 9, 'identification': 7, 'bit': 9, 'discrete': 16, 'real': 5, 'ansatz': 1}; the charge premise at level five is typed {'bit': 1, 'discrete': 1}
+   routes: {'UNTOUCHED': 11, 'FORCING ARGUED': 2, 'PRESSED': 3, 'ONE CLAUSE SHORT': 3, 'BACK-EDGE NAMED': 6, 'ADMITTED': 4, 'DICTIONARY': 6, 'KEPT': 3, 'RIGID': 1}; an exit with no objection on the page: 9 (the read: 8, of which 5 are back-edges named and not built)
 6. the script the foundation cites for the live price exits 1: - VERDICT: the live figure '24 ROWS OUTSTANDING' is not stated in the verdict doc; files under tests, scripts or the workflow that run it: 0
 7. still not joined to the map, and registered: 66 debts with no edge; the identification ledger's unearned rows (one is named on the map); no bit or discrete choice carries its alternatives (fields of an input: ['form', 'grades', 'kinds', 'members', 'name', 'note', 'packages', 'weave_or_thread'])

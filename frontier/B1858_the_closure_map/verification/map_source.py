@@ -77,8 +77,9 @@ N("G:GM4", "1 grammar", "premise", "POSTULATED", "The carrier is the once-punctu
 N("G:GM5a", "1 grammar", "premise", "POSTULATED", "Updates are reversible (GL(2, ℤ)).", [(GEN, "| GM5a | Reversible updates (GL(2,ℤ)) | POSTULATED |")])
 N("G:GM5b", "1 grammar", "choice", "CHOSEN", "Inverse moves are legal: adopted by the owner's ruling, on a reading of PF1 chosen by the mathematics, not derived.",
   [(GEN, "| GM5b | Inverse moves are legal | **ADOPTED [v1.48]**"), (GEN, "A reading of PF1's cancelling chosen by the math, not a derivation.")], arcs=["B1662"])
-N("G:GM5c", "1 grammar", "fork", "OPEN", "Is the record swap P a legal move? Open as a fork; the owner's ruling is 'even ticks observed': the observed weave is ⟨L, R⟩.",
-  [(GEN, "| GM5c | The record swap P is a legal move | OPEN |"), (GEN, "GM5c: **even ticks observed**")], arcs=["B1607", "B1609", "B1610", "B1611"])
+N("G:GM5c", "1 grammar", "fork", "OPEN", "Is the record swap P a legal move? Open as a fork. Since v1.65 the tick is carried as an act, and 'even ticks observed' is a condition the weight has to deliver, no longer a ruling: an outcome of the whole is a point the mirror fixes or a pair it exchanges, and only a pair delivers it.",
+  [(GEN, "| GM5c | The record swap P is a legal move | OPEN |"), (GEN, "GM5c: **even ticks observed**"), (GEN, "is no longer recorded as a ruling"),
+   (GEN, "The criterion is necessary and is not shown sufficient")], arcs=["B1607", "B1609", "B1610", "B1611", "B1879", "B1881"])
 N("G:GM5d", "1 grammar", "choice", "CHOSEN", "Positivity: the choice of side of the mirror.",
   [(GEN, "| GM5d | Counts are non-negative (positivity) | CHOSEN |"), (GEN, "positivity becomes the choice of side, still CHOSEN")])
 
@@ -91,9 +92,13 @@ N("G:SE1", "2 states and root", "premise", "POSTULATED", "The selection criterio
   [(GEN, "| SE1 | **The selection criterion: the root's first homology is torsion-free.** | POSTULATED |")])
 N("G:T-ROOT", "2 states and root", "theorem", "DERIVED", "What SE1 selects: exactly the class of LR (m004) and the class of the golden matrix LP (m000).",
   [(GEN, "So H₁ is torsion-free exactly for the class of LR (trace 3: **m004**) and the class of the golden matrix LP")], arcs=["B197"])
-N("G:SE2", "2 states and root", "choice", "CHOSEN", "Orientation: of the two, take the orientable one, m004. The chain's most fragile link; eight walls pass through the amphichirality it brings.",
+N("G:SE2", "2 states and root", "choice", "CHOSEN", "Orientation: of the two, take the orientable one, m004. The chain's most fragile link; eight walls pass through the amphichirality it brings. Since v1.65 a named condition to derive, not a declared choice; it is not derived and the budget keeps its bit.",
   [(GEN, "| SE2 | **Orientation**: of the two, take the orientable one, m004, the orientation double cover of m000 | CHOSEN |"),
-   (GEN, "The most fragile link of the chain (fork FK2).")], arcs=["B1234"])
+   (GEN, "The most fragile link of the chain (fork FK2)."), (GEN, "That is not derived, and it is not counted as derived")], arcs=["B1234", "B1879"])
+# v1.65 (B1886): the ground, entered by main as a tagged postulate
+N("G:SE3", "2 states and root", "premise", "POSTULATED", "The ground is the act itself, the tick; its level is the prime its discriminant is, 5. Main's entry, tagged: nothing computed can decide it, and the reading that gives the level is part of the postulate.",
+  [(GEN, "| SE3 **[v1.65]** | **The ground is the act itself: the tick.** Its level is the prime that its discriminant is, 5. | POSTULATED (main's entry, tagged; 2026-11-11) |"),
+   (GEN, "By which reading the level is 5 is part of the postulate")], rows=["P-767", "P-774"], arcs=["B1876", "B1884"])
 N("G:ROOT", "2 states and root", "theorem", "CONDITIONAL", "Given GM3, GM4, SE1 and SE2 the root is m004, the figure-eight knot complement. A conditional reconstruction of a chosen sector, not a derivation from nothing.",
   [(GEN, "Given GM3, GM4, SE1 and SE2, the root is m004, the figure-eight knot complement"),
    (GEN, "So the genesis is a conditional reconstruction of a chosen sector. It is not a derivation of m004 from nothing.")])
@@ -147,6 +152,11 @@ N("W:DRAW", "3 weave", "theorem", "NEGATIVE", "The measured six read as a draw f
 N("G:FK2", "3 weave", "fork", "CHOSEN", "Orientation (SE2): what would settle it is a derived reason for orientability, or carrying both m004 and m000.",
   [(GEN, "| FK2 | Orientation (SE2) | CHOSEN |")])
 N("G:FK3", "3 weave", "fork", "OPEN", "The swap P: a legal move, and of what type.", [(GEN, "| FK3 | The swap P: legal move, and of what type | OPEN |")])
+# v1.65 (B1886): the claim as an item, and the fork that the criterion for the owner's condition is short of
+N("G:PF5", "3 weave", "fork", "OPEN", "The claim: the whole has one self-consistent outcome, one orbit of the whole. It is what the programme sets out to establish; nothing is derived from it. Symmetry cannot supply the outcome, and neither can the greatest reading.",
+  [(GEN, "| PF5 **[v1.65]** | **The claim: the whole has one self-consistent outcome.**"), (GEN, "Nothing in this file is derived from it")], rows=["P-761", "P-767", "P-776"], arcs=["B1867", "B1881"])
+N("G:FK16", "3 weave", "fork", "OPEN", "The observer's place: if the outcome of the whole is a pair that the mirror exchanges, what puts an observer at one member.",
+  [(GEN, "| FK16 **[v1.65]** | The observer's place: if the outcome of the whole is a pair that the mirror exchanges, what puts an observer at one member? | OPEN |")], rows=["P-776"], arcs=["B1881"])
 N("G:FK5", "3 weave", "fork", "OPEN", "Faithful F₂ against its abelian quotient.", [(GEN, "| FK5 | Faithful F₂ against its abelian quotient (GM4) | OPEN |")], rows=["P-321"])
 N("G:FK7", "3 weave", "fork", "OPEN", "The deck: gauged or kept.", [(GEN, "| FK7 | The deck: gauged or kept | OPEN |")])
 N("G:FK8", "3 weave", "fork", "OPEN", "The join: which maps carry physical data between states.", [(GEN, "| FK8 | The join: which maps carry physical data between states | OPEN |")])
@@ -610,9 +620,10 @@ for _id in ("G:PF1", "G:PF2", "G:PF3", "G:PF1-FORM", "G:GM1", "G:GM2", "G:GM3", 
             "G:XGEN-PHYS", "W:Q8", "W:T", "W:G96", "W:HANDS", "W:NOMOD", "W:NOVAL", "TAG:LAMBDA", "TAG:UNIT",
             "W:INDEX3", "W:LAW", "W:MEASURE", "W:WALK", "W:CLOCK", "W:FLAT-SUM", "W:NO-ATOM", "W:DRAW",
             "G:FK3", "G:FK5", "G:FK8", "G:FK9", "G:FK10", "G:FK11", "G:FK12", "G:FK13", "G:FK14", "G:FK15",
-            "G:GAP1", "G:GAP2", "G:GAP3", "G:GAP4", "G:GAP5", "G:GAP6", "PR:P10"):
+            "G:GAP1", "G:GAP2", "G:GAP3", "G:GAP4", "G:GAP5", "G:GAP6", "PR:P10",
+            "G:PF5", "G:FK16"):                     # v1.65: the claim is about the whole; the observer's place is asked of the whole's outcome
     WT[_id] = "weave"
-for _id in ("G:SE1", "G:T-ROOT", "G:SE2", "G:ROOT", "G:FK2", "G:FK7",
+for _id in ("G:SE1", "G:T-ROOT", "G:SE2", "G:SE3", "G:ROOT", "G:FK2", "G:FK7",       # v1.65: the ground is one history, the tick
             "MC:HYP", "MC:PRICE", "MC:ALG", "MC:Z6", "MC:Y", "MC:END", "MC:CUBIC", "MC:GEN", "MC:CS0", "MC:REACH",
             "V:SIX", "V:WALL", "T:RULE", "T:FRAMING", "T:POINT-WEIGHT", "T:CHARGE5", "T:MINIM", "T:RE", "T:IM",
             "SC:RATIO", "SC:R2", "SC:R4", "SC:PREMISE", "SC:CARD",

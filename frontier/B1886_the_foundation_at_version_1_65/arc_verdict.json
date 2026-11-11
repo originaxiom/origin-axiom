@@ -1,0 +1,31 @@
+{
+ "id": "B1886",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1879",
+  "B1881",
+  "B1884",
+  "B1876",
+  "B1878",
+  "B1861",
+  "B1858"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the advisor seat: its sort of the owner's rulings (rulings_sorted/ @ 3dcc6319) and its read of B1881 § 6 (REAUDIT_5 @ 9ff91c3b7); the web seat: its card on what level a ground names (@ b744aa1e), verified on main in B1884"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (the foundation's statement and the pages that read it)",
+  "object": "GENESIS.md at version 1.65",
+  "domain": "wording and typing only; no computation is made here",
+  "not_covered": "the five untagged suppositions of the advisor seat's sort; the count computed from each value's ancestry (package WP-0.12); any read-out on the whole"
+ },
+ "claim_one_line": "THE FOUNDATION AT VERSION 1.65 (P-767's second landing): the owner's statements of 2026-11-10 and 2026-11-11 entered in GENESIS.md under the working rule of 2026-11-11, by which a ruling sets a goal, a standard, an order of work or a meaning and never a fact. NO STATUS CELL OF AN EXISTING ITEM CHANGES (compared row by row with the committed v1.64). Three items are new: PF5, the claim that the whole has one self-consistent outcome, one orbit of the whole -- OPEN, since it is what the programme sets out to establish and nothing is derived from it, with what would refute it entered in the falsifier register; SE3, the ground is the act itself, the tick, at the level its discriminant gives -- POSTULATED as main's entry, tagged and counted, because nothing computed can decide it and the owner's choice of it came from a menu the rule no longer admits; and FK16, what puts an observer at one member of a pair the mirror exchanges -- OPEN. One sentence is re-typed: 'even ticks observed' (v1.33) is no longer recorded as the owner's ruling and is a condition the weight has to deliver, with the criterion of B1881 for delivering it, necessary and not shown sufficient; the swap stays OPEN with the tick carried as an act, and the orientation stays CHOSEN, named as a condition to derive and not counted as derived. The owner's statements of what he means by the principle are entered as wording. The line on which document holds is scoped to statuses. With it: three nodes on the closure map, and one more axiom in the input budget, the ground. It derives nothing and earns no value. 0 of 19.",
+ "weave_or_thread": "n/a (wording and typing of the foundation; the new items carry their own labels on the map: the claim and the observer's place weave, the ground thread)"
+}

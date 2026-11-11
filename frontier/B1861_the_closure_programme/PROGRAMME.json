@@ -8,17 +8,17 @@
   "E6": "accepted",
   "E8": "partly, as main says",
   "G1": "accepted, with three residuals (re-audit 2); the second, a waiver that hides its violation, accepted as mended (re-audit 3). Left: the log's archives, and history before the rule",
-  "G2": "accepted, with three residuals (re-audit 3, of the gate for the scripts a seal hashed): a copy standing in for the real file, a frozen entry changing again, and lists under other names",
+  "G2": "accepted, with three residuals (re-audit 3, of the gate for the scripts a seal hashed); all three accepted as mended (re-audit 5), the third for text files: a list of hashes kept in a page or a data file is still not read",
   "G3": "accepted",
   "G4": "accepted; one case open (a rule committed after its record)",
-  "G9": "accepted, with one residual (re-audit 4): a commit that arrives by a merge is not read",
+  "G9": "accepted, with one residual (re-audit 4); the residual accepted as mended (re-audit 5): every reachable commit is read",
   "L5": "accepted",
-  "X1": "accepted (re-audit 4); the gate that guards the ceiling is a tripwire, and two of the seat's planted sentences passed it for a defect and not a limit",
+  "X1": "accepted (re-audit 4); its two planted sentences that passed for a defect, and the reach, accepted as mended (re-audit 5). A sentence of arrival in other words still passes: the gate is a tripwire",
   "X2": "agreed: partly (re-audit 4); GENESIS.md's own line still says that it holds"
  },
  "accepted_at": [
-  "015be0cc7",
-  "REAUDIT_4_2026-11-11.md"
+  "16b82acda",
+  "REAUDIT_5_2026-11-11.md"
  ],
  "also": {
   "D:01": [
@@ -700,6 +700,10 @@
   "the generations as three images of one value": [
    "DICTIONARY",
    ""
+  ],
+  "the ground": [
+   "ADMITTED",
+   "the principle allows the act as the ground and does not force it. With every history a ground the record's rule has four root classes and no order (B1876); the act as the ground names one without ranking. No route out of the budget is named: it is a definition."
   ],
   "the lepton factor": [
    "UNTOUCHED",
@@ -1711,6 +1715,26 @@
    ],
    "name": "the selection criterion",
    "note": "other criteria select other objects",
+   "packages": [
+    "WP-1.5"
+   ],
+   "weave_or_thread": [
+    "thread"
+   ]
+  },
+  {
+   "form": false,
+   "grades": [
+    "POSTULATED"
+   ],
+   "kinds": {
+    "axiom": 1
+   },
+   "members": [
+    "G:SE3"
+   ],
+   "name": "the ground",
+   "note": "the ground is the act itself, the tick (GENESIS v1.65, SE3): a definition the frame needs, which nothing computed can decide; main's entry, tagged. Its level follows by the discriminant and is not a further input (B1884)",
    "packages": [
     "WP-1.5"
    ],
@@ -3209,12 +3233,12 @@
    ],
    "node_grades": {
     "CHOSEN": 5,
-    "OPEN": 2
+    "OPEN": 3
    },
    "node_labels": {
     "n/a": 1,
     "thread": 3,
-    "weave": 3
+    "weave": 4
    },
    "nodes": [
     "G:GM5c",
@@ -3223,7 +3247,8 @@
     "G:FK2",
     "S:S02",
     "FL:03",
-    "G:GM5d"
+    "G:GM5d",
+    "G:FK16"
    ],
    "obligation": "C1",
    "owner": "main",
@@ -3278,15 +3303,16 @@
     "CHOSEN": 4,
     "DUTY": 1,
     "OPEN": 4,
-    "POSTULATED": 1
+    "POSTULATED": 2
    },
    "node_labels": {
     "n/a": 4,
-    "thread": 2,
+    "thread": 3,
     "weave": 4
    },
    "nodes": [
     "G:SE1",
+    "G:SE3",
     "G:FK9",
     "G:GAP4",
     "G:XGEN-PHYS",
@@ -3351,18 +3377,19 @@
    "node_grades": {
     "CHOSEN": 3,
     "LANE-PROPOSED": 1,
-    "OPEN": 1
+    "OPEN": 2
    },
    "node_labels": {
     "thread": 2,
-    "weave": 3
+    "weave": 4
    },
    "nodes": [
     "W:LAW",
     "W:CLOCK",
     "W:FLAT-SUM",
     "T:POINT-WEIGHT",
-    "T:MINIM"
+    "T:MINIM",
+    "G:PF5"
    ],
    "obligation": "C1",
    "owner": "main; the owner for the law's reading",
@@ -4967,6 +4994,10 @@
   "REAUDIT_4_2026-11-11.md": [
    "58ae45c70",
    "015be0cc7"
+  ],
+  "REAUDIT_5_2026-11-11.md": [
+   "9ff91c3b7",
+   "16b82acda"
   ]
  },
  "released": {
@@ -5147,18 +5178,6 @@
   "E8": [
    "B1877",
    "the scope carried to the verdict block at the top of B854's findings"
-  ],
-  "G2": [
-   "B1880",
-   "the third re-audit's three residuals, each reproduced on main and then closed in the gate: a name that could be read as more than one tracked file is refused (two old entries declared by name); every entry that does not verify is frozen with the state it was found in, so a frozen file that changes again fails (417 keys in a table whose own hash the gate pins); and a list of hashed files is known by its content, whatever it is called (80 more lists, 750 entries; a list under another name cannot be edited, deleted or moved from 3e25c8ec3 on). Left of this finding, as before: a rule under a name outside the seal patterns, a sealed-style file one folder down, and a rule committed after its record"
-  ],
-  "G9": [
-   "B1880",
-   "the fourth re-audit's residual: every commit reachable from the tip after da25c4f49 is read, the merged ones too; a trailer, and a foreign author, on a side branch merged in with a clean message are each refused in a committed test"
-  ],
-  "X1": [
-   "B1880",
-   "the fourth re-audit's planted sentences r2, r3, r5 and r6: the excusing words are whole words ('claim' no longer passes for 'aim'), they excuse only inside the sentence that carries the phrase, every tracked page under docs/ at any depth and every .tex and .md under papers/ is read, and the three old lines are frozen by key and not by count. r4, a sentence of arrival in other words, still passes: the gate is a tripwire for the phrases it lists"
   ]
  },
  "stats": {
@@ -5170,23 +5189,22 @@
    "READER": 4,
    "REPRODUCED": 42
   },
-  "audit_findings_checked_at_the_seats_revision": 73,
   "budget": {
    "ansatz": 1,
-   "axiom": 8,
+   "axiom": 9,
    "bit": 9,
    "discrete": 16,
    "identification": 7,
    "real": 5
   },
-  "budget_items": 46,
+  "budget_items": 47,
   "candidate_frame_joints": 13,
   "conditional_headlines_released_by_closing_one_choice": 0,
   "conditional_results": 19,
   "debts": 83,
   "debts_on_the_map_joined_to_nothing": 66,
   "exits_by_kind": {
-   "ADMITTED": 3,
+   "ADMITTED": 4,
    "BACK-EDGE NAMED": 6,
    "DICTIONARY": 6,
    "FORCING ARGUED": 2,
@@ -5198,10 +5216,7 @@
   },
   "findings_main_changed_since_the_re_audit": [
    "E4",
-   "E8",
-   "G2",
-   "G9",
-   "X1"
+   "E8"
   ],
   "findings_that_bear_on_the_repository_as_a_whole": 34,
   "findings_that_name_arcs_nodes_or_pages_only": 39,
@@ -5218,14 +5233,13 @@
    "W:INDEX3",
    "V:SIX"
   ],
-  "independent_choices": 38,
+  "independent_choices": 39,
   "inputs_with_an_exit_on_the_table": 9,
   "lanes_supplied_inputs": 7,
   "map_dependencies_between_packages": 21,
-  "map_nodes": 272,
-  "nodes_assigned": 131,
-  "nodes_needing_a_path": 131,
-  "not_checked_in_this_clone": [],
+  "map_nodes": 275,
+  "nodes_assigned": 134,
+  "nodes_needing_a_path": 134,
   "open_choices_under_each_conditional_headline": {
    "G:ROOT": 2,
    "MC:Z6": 3,
@@ -5272,7 +5286,7 @@
    "WP-0.7",
    "WP-0.9"
   ],
-  "present_inputs": 64,
+  "present_inputs": 65,
   "relayed_rulings": 17,
   "rules_of_the_comparison": 12,
   "rulings_asked": 0,
@@ -5285,9 +5299,7 @@
    "WP-3.5",
    "WP-4.5"
   ],
-  "verdict_rows_read_in_the_seats_files": 18,
-  "waves": 8,
-  "work_order_quotes_checked": 8
+  "waves": 8
  },
  "tallies": [
   "MC:PRICE"
@@ -5375,6 +5387,18 @@
    [
     "REAUDIT_2_2026-11-10.md",
     "| **G2** sealed files | **accepted for what it covers**; the cover is too narrow |"
+   ],
+   [
+    "REAUDIT_5_2026-11-11.md",
+    "| **HASH-a** one way to read a listed name | a name that could be read as more than one tracked file is refused | the decoy (t3), and a decoy in the verification folder: both refused | **accepted** |"
+   ],
+   [
+    "REAUDIT_5_2026-11-11.md",
+    "| **HASH-b** a frozen entry holds what was found |"
+   ],
+   [
+    "REAUDIT_5_2026-11-11.md",
+    "| **HASH-c** every list of hashed files, whatever its name |"
    ]
   ],
   "G3": [
@@ -5393,6 +5417,10 @@
    [
     "REAUDIT_4_2026-11-11.md",
     "| **G9** the attribution rule is not gated as worded | FIXED | **accepted, with one residual** |"
+   ],
+   [
+    "REAUDIT_5_2026-11-11.md",
+    "| **ATTR-a** every reachable commit | done | a trailer and another author on a merged side branch (c3, c4): refused | **accepted** |"
    ]
   ],
   "L5": [
@@ -5405,6 +5433,14 @@
    [
     "REAUDIT_4_2026-11-11.md",
     "| **X1** twelve places cap the goal | FIXED | **accepted** |"
+   ],
+   [
+    "REAUDIT_5_2026-11-11.md",
+    "| **ARR-a** the excusing words |"
+   ],
+   [
+    "REAUDIT_5_2026-11-11.md",
+    "| **ARR-b** the reach | every page under `docs/` and the papers' sources: 548 pages | a `.tex` file and a page below `docs/` (r5, r6): refused | **accepted** |"
    ]
   ],
   "X2": [

@@ -1,8 +1,8 @@
 written: PROGRAMME.md, PROGRAMME.json
 {
- "map_nodes": 272,
- "nodes_needing_a_path": 131,
- "nodes_assigned": 131,
+ "map_nodes": 275,
+ "nodes_needing_a_path": 134,
+ "nodes_assigned": 134,
  "conditional_results": 19,
  "debts": 83,
  "packages": 43,
@@ -42,25 +42,25 @@ written: PROGRAMME.md, PROGRAMME.json
    "WP-4.1"
   ]
  ],
- "independent_choices": 38,
+ "independent_choices": 39,
  "budget": {
-  "axiom": 8,
+  "axiom": 9,
   "bit": 9,
   "discrete": 16,
   "real": 5,
   "ansatz": 1,
   "identification": 7
  },
- "budget_items": 46,
+ "budget_items": 47,
  "rules_of_the_comparison": 12,
  "lanes_supplied_inputs": 7,
- "present_inputs": 64,
+ "present_inputs": 65,
  "candidate_frame_joints": 13,
  "exits_by_kind": {
   "KEPT": 3,
   "FORCING ARGUED": 2,
   "ONE CLAUSE SHORT": 3,
-  "ADMITTED": 3,
+  "ADMITTED": 4,
   "PRESSED": 3,
   "RIGID": 1,
   "BACK-EDGE NAMED": 6,
@@ -85,13 +85,10 @@ written: PROGRAMME.md, PROGRAMME.json
  ],
  "findings_with_a_re_audit_verdict": 15,
  "fixed_and_not_yet_re_audited": [],
- "verdict_rows_read_in_the_seats_files": 18,
+ "verdict_rows_read_in_the_seats_files": 24,
  "findings_main_changed_since_the_re_audit": [
   "E4",
-  "E8",
-  "G2",
-  "G9",
-  "X1"
+  "E8"
  ],
  "audit_findings": 73,
  "audit_findings_by_state": {

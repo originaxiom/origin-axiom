@@ -12,7 +12,7 @@ by a quote that the builder checks.*
 | CONDITIONAL | proved given named premises, a tag or a numerical identification | 18 |
 | RECORD | a fact about the record's own state, checked at its source | 2 |
 | CONFIRMED | a registered falsifiable claim that observation has confirmed | 1 |
-| POSTULATED | assumed by the foundation | 11 |
+| POSTULATED | assumed by the foundation | 12 |
 | TAGGED | a tagged working postulate (the owner's ruling) | 2 |
 | CHOSEN | a fork settled by choice, the alternative kept | 42 |
 | UNSTATED | a commitment the construction makes without stating it | 6 |
@@ -20,7 +20,7 @@ by a quote that the builder checks.*
 | ANSATZ | a posited form with no derivation | 1 |
 | READING | passes a sealed screen; not a prediction | 1 |
 | NEGATIVE | a banked negative, scoped | 12 |
-| OPEN | not settled | 36 |
+| OPEN | not settled | 38 |
 | LANE-REVIEWED | a seat's proof with a non-authoring review inside its lane; not verified on main | 1 |
 | LANE-PROPOSED | a seat's hand proof, count or estimate, unreviewed; not verified on main | 7 |
 | LANE-INPUT | an input the seat's own ledger prices as supplied, unselected or unearned | 7 |
@@ -47,7 +47,7 @@ by a quote that the builder checks.*
 | G:GM4 | POSTULATED | weave | The carrier is the once-punctured torus. The puncture is conditional on faithful word data; faithfulness and the surface category stay premises. | GENESIS.md; P-321 (QUEUED) |
 | G:GM5a | POSTULATED | weave | Updates are reversible (GL(2, ℤ)). | GENESIS.md |
 | G:GM5b | CHOSEN | weave | Inverse moves are legal: adopted by the owner's ruling, on a reading of PF1 chosen by the mathematics, not derived. | GENESIS.md; B1662 |
-| G:GM5c | OPEN | weave | Is the record swap P a legal move? Open as a fork; the owner's ruling is 'even ticks observed': the observed weave is ⟨L, R⟩. | GENESIS.md; B1607; B1609; B1610 |
+| G:GM5c | OPEN | weave | Is the record swap P a legal move? Open as a fork. Since v1.65 the tick is carried as an act, and 'even ticks observed' is a condition the weight has to deliver, no longer a ruling: an outcome of the whole is a point the mirror fixes or a pair it exchanges, and only a pair delivers it. | GENESIS.md; B1607; B1609; B1610 |
 | G:GM5d | CHOSEN | weave | Positivity: the choice of side of the mirror. | GENESIS.md |
 
 ## 2. The states and the root
@@ -56,7 +56,8 @@ by a quote that the builder checks.*
 |---|---|---|---|---|
 | G:ROOT | CONDITIONAL | thread | Given GM3, GM4, SE1 and SE2 the root is m004, the figure-eight knot complement. A conditional reconstruction of a chosen sector, not a derivation from nothing. | GENESIS.md |
 | G:SE1 | POSTULATED | thread | The selection criterion: the root's first homology is torsion-free. Other criteria select other objects and are kept. | GENESIS.md |
-| G:SE2 | CHOSEN | thread | Orientation: of the two, take the orientable one, m004. The chain's most fragile link; eight walls pass through the amphichirality it brings. | GENESIS.md; B1234 |
+| G:SE2 | CHOSEN | thread | Orientation: of the two, take the orientable one, m004. The chain's most fragile link; eight walls pass through the amphichirality it brings. Since v1.65 a named condition to derive, not a declared choice; it is not derived and the budget keeps its bit. | GENESIS.md; B1234; B1879 |
+| G:SE3 | POSTULATED | thread | The ground is the act itself, the tick; its level is the prime its discriminant is, 5. Main's entry, tagged: nothing computed can decide it, and the reading that gives the level is part of the postulate. | GENESIS.md; B1876; B1884; P-767 (QUEUED); P-774 (DONE) |
 | G:T-ROOT | DERIVED | thread | What SE1 selects: exactly the class of LR (m004) and the class of the golden matrix LP (m000). | GENESIS.md; B197 |
 | G:XGEN | DERIVED | list | The generated state space: 758 signed word states to length 12, realising 536 manifolds. | GENESIS.md; B1434; B1439 |
 | G:XGEN-PHYS | OPEN | weave | Not derived: that every state occurs in one history, that the states are realised together, that any arrow is physical time. | GENESIS.md |
@@ -71,6 +72,7 @@ by a quote that the builder checks.*
 | G:FK13 | CHOSEN | weave | Which family is the object: ruled by argument from the principle (the word states it generates); revisable by a better argument. | GENESIS.md; B1480 |
 | G:FK14 | OPEN | weave | The ends: does the genesis generate states with several ends, or are generations not ends? | GENESIS.md; B1487; B1491; B1492 |
 | G:FK15 | OPEN | weave | The field's genesis: forced to exist, not forced which. | GENESIS.md |
+| G:FK16 | OPEN | weave | The observer's place: if the outcome of the whole is a pair that the mirror exchanges, what puts an observer at one member. | GENESIS.md; B1881; P-776 (QUEUED) |
 | G:FK2 | CHOSEN | thread | Orientation (SE2): what would settle it is a derived reason for orientability, or carrying both m004 and m000. | GENESIS.md |
 | G:FK3 | OPEN | weave | The swap P: a legal move, and of what type. | GENESIS.md |
 | G:FK5 | OPEN | weave | Faithful F₂ against its abelian quotient. | GENESIS.md; P-321 (QUEUED) |
@@ -83,6 +85,7 @@ by a quote that the builder checks.*
 | G:GAP4 | OPEN | weave | Selection and coincidence: a selection rule and a null model must be fixed before a match counts; nothing on the record clears the bar. | GENESIS.md |
 | G:GAP5 | OPEN | weave | Dynamics: nothing on the record has been turned into a potential, a breaking or a running that fixes a value. | GENESIS.md; P-138 (QUEUED) |
 | G:GAP6 | OPEN | weave | The flatness: a flat frame reaches discrete data through the boundary and cannot reach continuous moduli. | GENESIS.md |
+| G:PF5 | OPEN | weave | The claim: the whole has one self-consistent outcome, one orbit of the whole. It is what the programme sets out to establish; nothing is derived from it. Symmetry cannot supply the outcome, and neither can the greatest reading. | GENESIS.md; B1867; B1881; P-761 (QUEUED); P-767 (QUEUED); P-776 (QUEUED) |
 | TAG:LAMBDA | TAGGED | weave | Λ, the dictionary's link, is a tagged working postulate: results computed with it carry 'given Λ'. | GENESIS.md |
 | TAG:UNIT | TAGGED | weave | One unit of end data at the weave's cusp is a tagged working postulate; no datum the principle forces supplies it. | GENESIS.md; B1629 |
 | W:CLOCK | CHOSEN | weave | The clock: whether the weave is counted by moves or followed by geometric length. Nothing on the record forces it. | frontier/B1815_the_records_walk_has_minkowskis_exit_law_exactly/arc_verdict.json; B1815; P-439 (QUEUED); P-438 (DONE) |

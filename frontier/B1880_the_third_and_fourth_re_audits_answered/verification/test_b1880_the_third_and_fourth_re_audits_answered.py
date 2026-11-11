@@ -129,16 +129,19 @@ def test_the_ceilings_gate_as_mended():
 
 
 def test_the_programme_holds_the_two_re_audits():
+    """the programme goes on taking re-audits, so this holds what cannot change without a fault: the two re-audits answered here
+    are there with their commits, every finding main marks fixed has the seat's verdict, and E3 is one of them"""
     prog = json.loads((ROOT / "frontier" / "B1861_the_closure_programme" / "PROGRAMME.json").read_text(encoding="utf-8"))
-    assert prog["reaudits"] == {"REAUDIT_2_2026-11-10.md": ["b5034197b", "ab97082c0"], "REAUDIT_3_2026-11-11.md": ["6ab743907", "b28dceea8"], "REAUDIT_4_2026-11-11.md": ["58ae45c70", "015be0cc7"]}
+    assert prog["reaudits"]["REAUDIT_3_2026-11-11.md"] == ["6ab743907", "b28dceea8"] and prog["reaudits"]["REAUDIT_4_2026-11-11.md"] == ["58ae45c70", "015be0cc7"]
     st = prog["stats"]
-    assert st["fixed_and_not_yet_re_audited"] == [] and st["findings_with_a_re_audit_verdict"] == 15
-    assert st["findings_main_changed_since_the_re_audit"] == ["E4", "E8", "G2", "G9", "X1"]
+    assert st["fixed_and_not_yet_re_audited"] == [] and st["findings_with_a_re_audit_verdict"] >= 15
     f = prog["findings"]
     fixed = sorted(k for k, v in f.items() if v["state"] == "FIXED")
-    assert fixed == sorted(["G1", "G2", "G3", "G4", "G9", "E3", "E6", "E10", "E13", "L5", "X1"])
+    assert set(["G1", "G2", "G3", "G4", "G9", "E3", "E6", "E10", "E13", "L5", "X1"]) <= set(fixed)
     assert all(prog["accepted"][k].startswith("accepted") for k in fixed)
-    assert f["G14"]["state"] == "PARTLY FIXED" and f["E3"]["state"] == "FIXED"
+    assert f["G14"]["state"] in ("PARTLY FIXED", "FIXED") and f["E3"]["state"] == "FIXED"
+    for fid in ("G2", "G9", "X1"):
+        assert any(r[0] in ("REAUDIT_3_2026-11-11.md", "REAUDIT_4_2026-11-11.md") for r in prog["verdict_rows"][fid])
 
 
 def test_the_record_carries_the_harvest_and_the_arc():

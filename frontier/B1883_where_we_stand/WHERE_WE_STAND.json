@@ -9,10 +9,7 @@
   },
   "changed_by_main_since_its_re_audit": [
    "E4",
-   "E8",
-   "G2",
-   "G9",
-   "X1"
+   "E8"
   ],
   "findings": 73,
   "fixed_and_not_yet_re_audited": [],
@@ -25,8 +22,8 @@
  "map": {
   "debts": 83,
   "debts_joined_to_nothing": 66,
-  "nodes": 272,
-  "nodes_that_need_a_path": 131
+  "nodes": 275,
+  "nodes_that_need_a_path": 134
  },
  "milestones": [
   {
@@ -186,7 +183,7 @@
  "put_in_by_hand": {
   "by_kind": {
    "ansatz": 1,
-   "axiom": 8,
+   "axiom": 9,
    "bit": 9,
    "discrete": 16,
    "identification": 7,
@@ -200,7 +197,7 @@
   },
   "conditional_results": 19,
   "exits_by_kind": {
-   "ADMITTED": 3,
+   "ADMITTED": 4,
    "BACK-EDGE NAMED": 6,
    "DICTIONARY": 6,
    "FORCING ARGUED": 2,
@@ -210,8 +207,8 @@
    "RIGID": 1,
    "UNTOUCHED": 11
   },
-  "independent_choices": 38,
-  "items": 46,
+  "independent_choices": 39,
+  "items": 47,
   "supplied_by_the_lanes_model": 7,
   "with_an_exit_on_the_table": 9
  },

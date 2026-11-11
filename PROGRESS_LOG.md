@@ -19302,3 +19302,27 @@ any comparison.
 
 0 of 19.
 
+## 2026-11-11 — S306p: the foundation document, brought up to date with two days of decisions
+
+The foundation is the one page that says what the programme assumes, what it derives, what it chooses and what it
+leaves open. Two days of the owner's decisions had not reached it. They are in it now, with one change in how they
+are written down.
+
+**The change.** The owner decides goals, standards, the order of work, and what he means. He does not decide facts.
+So where an earlier note said "the owner ruled that X is so", the page now says one of three things: X is open and
+this computation will decide it; or X is an assumption main has made, labelled and counted; or X is what the owner
+means by a word.
+
+**What that did to the page.**
+
+- The programme's central claim, that the whole has exactly one self-consistent outcome, is written down as open,
+  with a plain statement of what would prove it wrong. It was not written down at all before.
+- The starting point of everything, "the founding step is the ground", is an assumption of main's, counted as one
+  more input.
+- "Only the even steps are seen" is no longer a decision. It is a condition the theory must produce.
+- A new open question is named: if the answer comes as a left and right pair, what puts an observer on one side?
+
+Nothing that was already on the page changed its standing. Nothing was derived, and no value was earned.
+
+0 of 19.
+

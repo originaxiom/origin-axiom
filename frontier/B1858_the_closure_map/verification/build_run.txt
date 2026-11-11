@@ -1,5 +1,5 @@
 {
- "nodes": 272,
+ "nodes": 275,
  "edges": 286,
  "by_grade": {
   "ANSATZ": 1,
@@ -15,8 +15,8 @@
   "LANE-PROPOSED": 7,
   "LANE-REVIEWED": 1,
   "NEGATIVE": 12,
-  "OPEN": 36,
-  "POSTULATED": 11,
+  "OPEN": 38,
+  "POSTULATED": 12,
   "READING": 1,
   "RECORD": 2,
   "TAGGED": 2,
@@ -25,8 +25,8 @@
  "by_layer": {
   "0 principle": 4,
   "1 grammar": 8,
-  "2 states and root": 6,
-  "3 weave": 36,
+  "2 states and root": 7,
+  "3 weave": 38,
   "4 structure": 12,
   "5 values": 26,
   "6 tau": 9,
@@ -40,17 +40,17 @@
   "14 closure": 11,
   "15 debts": 83
  },
- "pins_checked_on_main": 259,
+ "pins_checked_on_main": 267,
  "pins_checked_on_seat_branches": 39,
  "seat_pins_unavailable_in_this_clone": 0,
- "register_rows_cited": 129,
+ "register_rows_cited": 133,
  "open_debts": 83,
  "weave_or_thread": {
   "list": 5,
   "n/a": 136,
   "record": 7,
-  "thread": 78,
-  "weave": 46
+  "thread": 79,
+  "weave": 48
  }
 }
 ALL PINS CHECK

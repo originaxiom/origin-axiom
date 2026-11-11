@@ -1,5 +1,20 @@
 # Changelog
 
+## S306p THE FOUNDATION AT VERSION 1.65 (B1886; P-767's second landing) (2026-11-11)
+
+- **What it is.** The owner's statements of 2026-11-10 and 2026-11-11, entered in `GENESIS.md` under the working rule of 2026-11-11: a ruling sets a goal, a standard, an order of work or a meaning, and never a fact.
+- **No status cell of an existing item changes.** The lock compares every older row with the committed v1.64.
+- **Three new items.**
+  - **PF5, the claim:** the whole has one self-consistent outcome, one orbit of the whole. OPEN: it is what the programme sets out to establish, and nothing is derived from it. What would refute it is now in the falsifier register.
+  - **SE3, the ground:** the ground is the act itself, the tick, at the level its discriminant gives. POSTULATED as main's entry, tagged and counted: nothing computed can decide it, and the owner's choice of it came from a menu the rule no longer admits.
+  - **FK16, the observer's place:** if the outcome is a pair the mirror exchanges, what puts an observer at one member. OPEN.
+- **One sentence re-typed.** "Even ticks observed" (v1.33) is no longer recorded as the owner's ruling. It is a condition the weight has to deliver, with a criterion for delivering it that is necessary and not shown sufficient. The swap stays OPEN with the tick carried as an act; the orientation stays CHOSEN, named as a condition to derive and not counted as derived.
+- **The owner's statements of what he means by the principle** are entered as wording.
+- **The sentence on which document holds** is scoped to statuses (the audit's finding X2).
+- **With it:** three nodes on the closure map; one more axiom in the input budget, the ground (39 inputs, 47 items at this landing); the programme's own claim in the falsifier register.
+- **Not done:** the five untagged suppositions; the count computed from each value's ancestry.
+- 0 of 19.
+
 ## S306p THE TEAM'S MORNING HARVESTED: A STATUS PAGE (B1883), THE GROUND'S LEVEL VERIFIED (B1884), THE V1 CARD SEALED FOR ITS RUN (B1882), TWO AGY BRANCHES REGISTERED (P-781) (2026-11-11)
 
 - **Why.** While main worked on its last landing, the advisor seat, the web seat and the agy lane pushed again: the advisor's six items at the owner's word, a third card from the web seat, and two new branches of the agy lane. The owner had asked main for the seats' progress and the message did not arrive. This landing is that harvest, as far as main has read.

@@ -100,18 +100,18 @@ P("WP-1.4", "C1", "The swap and the hand",
   "Is one sheet of the orientation double cover selected by anything, or are the swap and the orientation two declared bits?", "DECIDE",
   "state what a derivation would need: a weight under which the weave's state breaks the mirror by itself (so this waits on WP-1.6); or carry both sheets. Computed and verified on main (B1871, the advisor seat's sealed run): with the owner's founding rule, the tick, as an act, both sheets exist and the orientation is no choice; the tick adds about half as many histories again, each with no hand, doubles the moves' group from level three, exchanges the two level-five lines, and joins the weave's triplet to its conjugate, so it gives no hand. Whether the tick is an act is asked of the owner (P-771); three debts come first (P-769) At level 5 the exchange is a scalar: up to scalars the group is the same 60 elements and every departure to 14 letters is allowed or not exactly as before (B1876), so the record's level-5 premises do not depend on whether the tick is an act.",
   "a proved selection; or two declared bits with their observable consequences written down", "main", ["WP-1.6"], "NOT STARTED",
-  ["P-764", "P-766", "P-769", "P-771"], ["G:GM5c", "G:FK3", "G:SE2", "G:FK2", "S:S02", "FL:03", "G:GM5d"])
+  ["P-764", "P-766", "P-769", "P-771"], ["G:GM5c", "G:FK3", "G:SE2", "G:FK2", "S:S02", "FL:03", "G:GM5d", "G:FK16"])
 P("WP-1.5", "C1", "The root, selection, and thread results",
   "Under the weave's rule no thread is chosen: which results survive as statements about the weave, and is the root anything more than an origin of coordinates?", "DECIDE",
   "the structural theorem off the root: run its frame on the weave's own surface or on every thread (it has only ever been run on m004). Done on main (B1869): the founding principle read as a selection rule picks the run of six only when the level is put in, ties under the other sense of detection, and gives no single run on the silver and bronze backgrounds; the allowed set is verified to 20 letters, and the criterion stays an input",
   "FK9 ruled; every headline result labelled; the structural theorem restated at the level it is proved at", "main", ["WP-1.6"], "NOT STARTED",
-  ["P-755", "P-764"], ["G:SE1", "G:FK9", "G:GAP4", "G:XGEN-PHYS", "G:FK13", "MC:REACH", "FL:08", "FL:18", "FL:27", "D:12"])
+  ["P-755", "P-764"], ["G:SE1", "G:SE3", "G:FK9", "G:GAP4", "G:XGEN-PHYS", "G:FK13", "MC:REACH", "FL:08", "FL:18", "FL:27", "D:12"])
 P("WP-1.6", "C1", "The law and the weight",
   "If everything allowed happens, what weighs it: does the execution itself force a weight, and does that weight single out one outcome?", "DECIDE",
   "on the record: the height's law under each clock, the walk's exit law, the sealed draw test. Concentration under the move count, on the modulus's side, is answered (B1868, the web seat's sealed card verified on main): no atom, by a theorem; no concentration of mass; the density against area sharpens at one symmetric point and holds no weight there; under area nothing sharpens. So a declared clock gives a typical history and no value. Not computed by anyone: a rate function with a unique maximiser. The owner has ruled on the law's reading (P-755): the law is what takes part; the move count is not adopted as the weight; the weight stays open. 'Together' is defined (B1872, the web seat's definition verified): the joint action of the allowed histories on the shared records, which needs the allowed set closed under composition and its data on the shared records; read through what it fixes it selects nothing. Next: a read-out on the allowed subweave as a whole that its fixed data do not determine -- the minima of the joint action's own functional, or an index of the family over its quotient -- of which the record holds none; and the first back-edge's condition shown closed under composition, or restated as such a read-out",
   "a weight that the grammar forces and under which one outcome is singled out, proved; or two distinct self-consistent outcomes exhibited, which refutes the claim of one outcome as the owner has stated it. A declared clock with typicality as what is predicted is the picture the owner has ruled against (relayed by the advisor seat and confirmed to main on 2026-11-10): it would be recorded as the claim not met, and it closes nothing",
   "main; the owner for the law's reading", [], "STARTED",
-  ["P-755", "P-756", "P-439", "P-758", "P-761", "P-762", "P-765", "P-770"], ["W:LAW", "W:CLOCK", "W:FLAT-SUM", "T:POINT-WEIGHT", "T:MINIM"])
+  ["P-755", "P-756", "P-439", "P-758", "P-761", "P-762", "P-765", "P-770"], ["W:LAW", "W:CLOCK", "W:FLAT-SUM", "T:POINT-WEIGHT", "T:MINIM", "G:PF5"])
 P("WP-1.7", "C1", "The dictionary",
   "Which mathematical object is which field, and by what right?", "DERIVE",
   "two routes, kept apart: by derivation, through the parent and the join (WP-1.8, WP-3.2); by sealed prediction under GENESIS's rule (WP-5.3)",
@@ -634,6 +634,27 @@ SINCE_REAUDIT["G9"] = ("B1880", "the fourth re-audit's residual: every commit re
 SINCE_REAUDIT["X1"] = ("B1880", "the fourth re-audit's planted sentences r2, r3, r5 and r6: the excusing words are whole words ('claim' no longer passes for 'aim'), they excuse only inside the sentence that carries the phrase, every tracked page under docs/ at any depth and every .tex and .md under papers/ is read, and the three old lines are frozen by key and not by count. r4, a sentence of arrival in other words, still passes: the gate is a tripwire for the phrases it lists")
 del SINCE_REAUDIT["G1"]                    # the third re-audit read B1874's change to the waivers and accepted it; nothing later
 
+# B1886 (2026-11-11): THE SEAT'S FIFTH RE-AUDIT, of main at 16b82acda (B1880 and B1881).  It accepts all seven of its acceptance
+# rows for the residuals of re-audits 3 and 4, and so has read what main changed in G2, G9 and X1.  Its rows are quoted by
+# acceptance row and not by finding, so each stands beside the finding's verdict in force as a further row, and the verdict's
+# own wording says what the fifth re-audit added.  Its one new residual (a page not compared where the seat's branch is
+# absent, its case g1) is closed in the same landing: the generated files no longer depend on the clone.
+REAUDITS["REAUDIT_5_2026-11-11.md"] = ("9ff91c3b7", "16b82acda")
+VERDICT_ROWS["G2"] += [("REAUDIT_5_2026-11-11.md", "| **HASH-a** one way to read a listed name | a name that could be read as more than one tracked file is refused | the decoy (t3), and a decoy in the verification folder: both refused | **accepted** |"),
+                       ("REAUDIT_5_2026-11-11.md", "| **HASH-b** a frozen entry holds what was found |"),
+                       ("REAUDIT_5_2026-11-11.md", "| **HASH-c** every list of hashed files, whatever its name |")]
+VERDICT_ROWS["G9"] += [("REAUDIT_5_2026-11-11.md", "| **ATTR-a** every reachable commit | done | a trailer and another author on a merged side branch (c3, c4): refused | **accepted** |")]
+VERDICT_ROWS["X1"] += [("REAUDIT_5_2026-11-11.md", "| **ARR-a** the excusing words |"),
+                       ("REAUDIT_5_2026-11-11.md", "| **ARR-b** the reach | every page under `docs/` and the papers' sources: 548 pages | a `.tex` file and a page below `docs/` (r5, r6): refused | **accepted** |")]
+ACCEPTED.update({
+    "G2": "accepted, with three residuals (re-audit 3, of the gate for the scripts a seal hashed); all three accepted as mended (re-audit 5), the third for text files: a list of hashes kept in a page or a data file is still not read",
+    "G9": "accepted, with one residual (re-audit 4); the residual accepted as mended (re-audit 5): every reachable commit is read",
+    "X1": "accepted (re-audit 4); its two planted sentences that passed for a defect, and the reach, accepted as mended (re-audit 5). A sentence of arrival in other words still passes: the gate is a tripwire",
+})
+for _fid in ("G2", "G9", "X1"):
+    SINCE_REAUDIT.pop(_fid, None)          # the fifth re-audit read what main had changed there (B1880)
+ACCEPTED_AT = ("16b82acda", "REAUDIT_5_2026-11-11.md")
+
 # B1882 (2026-11-11): the audit's one open finding has its sealed card.  The state stays OPEN until the card's second stage has run.
 U("V1", "OPEN", "the advisor seat has sealed a card for it (null-only, for the nulls of B1726 and B1753: does an end of the window in the height of the modulus move the count of well-fitted random targets), run its planted controls, and left the deciding count to main. Main read the card and its script in full, re-ran the controls on its own machine with the same counts, and sealed its own note and expectations before the run (B1882). The second stage has not run at this landing. Earlier (B1870): the audit's figure has no tracked source, and the audit does not say which null it measured")
 
@@ -804,6 +825,7 @@ I("reversible updates", {"axiom": 1}, ["G:GM5a"])
 I("inverse moves are legal", {"bit": 1}, ["G:GM5b"])
 I("positivity: the side of the mirror", {"bit": 1}, ["G:GM5d"])
 I("the selection criterion", {"discrete": 1}, ["G:SE1"], "other criteria select other objects")
+I("the ground", {"axiom": 1}, ["G:SE3"], "the ground is the act itself, the tick (GENESIS v1.65, SE3): a definition the frame needs, which nothing computed can decide; main's entry, tagged. Its level follows by the discriminant and is not a further input (B1884)")
 I("the orientation", {"bit": 1}, ["G:SE2", "G:FK2", "S:S02", "FL:03"], "one choice under four names; the scoreboard lists it as a CHOSEN joint")
 I("which family is the object", {"discrete": 1}, ["G:FK13"])
 I("the dictionary's link Λ", {"identification": 1}, ["TAG:LAMBDA"])
@@ -864,6 +886,7 @@ EXITS = {
     "inverse moves are legal": ("FORCING ARGUED", "adopted by the owner on B1662's argument; the ledger agrees: there must be something to cancel with."),
     "positivity: the side of the mirror": ("FORCING ARGUED", "the ledger: forced up to the sign. Main (B1867): the normal form is a theorem, checked on every hyperbolic matrix with entries up to five; the sign is a separate bit, and the selection criterion decides it if that criterion stands."),
     "the selection criterion": ("ONE CLAUSE SHORT", "the ledger: a fixed character is a place where nothing happened. Main (B1867): as an exclusion this removes every departure too (the run of six fixes twenty); as a minimum it is the reading GENESIS already grades an interpretation. LR is the one word with a single fixed character, so this row carries the whole selection of the object. For the departure, the principle read as 'the least that no counted level detects' picks the run of six only when the level is put in (B1869). A second route is named and is not open (B1876, the advisor seat's sealed run verified on main): if the ground is the act itself, exactly one history is made of one atom, the tick, and its level is 5 with nothing ranked; that needs the owner's word that the tick is an act (P-771) and a clause saying what a ground is (P-774). With every history as a ground the record's rule has four root classes and no order. BOTH GIVEN BY THE OWNER on 2026-11-11, to main: the tick is an act, and a ground is the act itself. The route is then a postulate, to be written with its own number (P-767); it is not a derivation, and this entry keeps its kind until the foundation is amended."),
+    "the ground": ("ADMITTED", "the principle allows the act as the ground and does not force it. With every history a ground the record's rule has four root classes and no order (B1876); the act as the ground names one without ranking. No route out of the budget is named: it is a definition."),
     "the orientation": ("BACK-EDGE NAMED", "the owner's ruling of 2026-11-11, to main, with B1879's computation in hand: every tick is in the ledger; that only even ticks are observed is no longer a ruling but a condition the weight must deliver. So this input has a named condition downstream that it must satisfy, and none is built: it is not derived and is not counted as derived. [Was PRESSED: the ledger: the principle does not force it and may speak against it. The non-orientable sibling is the alternative. Verified on main (B1871): if the tick, the owner's founding rule, is an act, both sheets exist and this is no choice; it supplies no hand. Asked of the owner (P-771). RULED BY THE OWNER on 2026-11-11, to main: the tick is an act. The owner's ruling of 2026-10-08, 'even ticks observed', also stands; how the two stand together waits on a computation, at the owner's word (P-769). So this entry keeps its kind: nothing yet says that the orientation has stopped being a choice.]"),
     "which family is the object": ("UNTOUCHED", ""),
     "the dictionary's link Λ": ("DICTIONARY", ""),

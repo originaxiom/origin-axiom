@@ -56,7 +56,12 @@ def test_the_programme_covers_the_map():
 def test_the_committed_files_are_the_builders_output():
     assert (ARC / "PROGRAMME.md").read_text(encoding="utf-8") == bp.render(B)
     j = json.loads((ARC / "PROGRAMME.json").read_text(encoding="utf-8"))
-    assert j["stats"] == json.loads(json.dumps(B["stats"]))
+    # what a clone could or could not check of other seats' words is not written to the files (B1886): the page is the same in
+    # every clone, so the gate can compare it everywhere
+    assert j["stats"] == {k: v for k, v in json.loads(json.dumps(B["stats"])).items() if k not in bp.CLONE_DEPENDENT}
+    assert not set(bp.CLONE_DEPENDENT) & set(j["stats"]) and "NOT CHECKED" not in (ARC / "PROGRAMME.md").read_text(encoding="utf-8")
+    for name, text in bp.generated(B).items():
+        assert (ARC / name).read_text(encoding="utf-8") == text, name
     assert [w["id"] for w in j["packages"]] == [w["id"] for w in B["packages"]]
 
 
@@ -268,7 +273,7 @@ def test_the_refusals_about_the_audit_can_fire():
 
 def test_the_foundations_count_is_corrected():
     g = (ARC.parents[1] / "GENESIS.md").read_text(encoding="utf-8")
-    assert "when all seven hold" in g and "**Version 1.64" in g and "7. *Worth spending.*" in g
+    assert "when all seven hold" in g and "- **v1.64 · 2026-11-10 · main B1861.**" in g and "7. *Worth spending.*" in g       # the correction's own log entry; the page has moved on
 
 
 def test_every_input_says_how_it_could_leave_and_the_refusal_can_fire():
@@ -381,7 +386,8 @@ def test_the_joins_the_seals_rule_needs_and_each_refusal_can_fire():
         assert any("names an arc that is not on main: B99999" in x for x in f)
     # the exits: three forcing arguments are one clause short and are not counted as exits
     assert st["exits_by_kind"]["ONE CLAUSE SHORT"] == 3 and st["inputs_with_an_exit_on_the_table"] == 9      # 8 until the owner named the orientation's condition (2026-11-11)
-    assert st["budget"]["bit"] == 9 and st["budget_items"] == 46          # the charge premise is two choices under one name (B1869)
+    assert st["budget"]["bit"] == 9 and st["budget_items"] == 47          # the charge premise is two choices under one name (B1869); 46 until the ground was entered as an axiom (GENESIS v1.65, B1886)
+    assert st["budget"]["axiom"] == 9 and st["independent_choices"] == 39
     assert not _refusals()
 
 
@@ -542,7 +548,7 @@ def test_the_refusals_about_the_seats_verdicts_can_fire():
     re-audit's verdict RETYPED as "accepted" in main's own file, built.  A verdict is now read in the seat's own file."""
     st = B["stats"]
     assert st["verdict_rows_read_in_the_seats_files"] == (sum(len(v) for v in S.VERDICT_ROWS.values()) if SEATS else 0)
-    assert set(S.VERDICT_ROWS) == set(S.ACCEPTED) and len(S.REAUDITS) == 3
+    assert set(S.VERDICT_ROWS) == set(S.ACCEPTED) and len(S.REAUDITS) == 4
     keep = copy.deepcopy((S.FINDINGS, S.ACCEPTED, S.VERDICT_ROWS, S.SINCE_REAUDIT))
     def restore():
         S.FINDINGS.clear(); S.FINDINGS.update(copy.deepcopy(keep[0]))
@@ -583,7 +589,7 @@ def test_the_refusals_about_the_seats_verdicts_can_fire():
     assert not _refusals()
     # the page says which re-audit read which commit of main, and the three widened entries of "bears on" are there
     page = (ARC / "PROGRAMME.md").read_text(encoding="utf-8")
-    assert "re-audit 2 read main at `ab97082c0`; re-audit 3 read main at `b28dceea8`; re-audit 4 read main at `015be0cc7`" in page
+    assert "re-audit 2 read main at `ab97082c0`; re-audit 3 read main at `b28dceea8`; re-audit 4 read main at `015be0cc7`; re-audit 5 read main at `16b82acda`" in page
     assert "B734" in S.BEARS_ON["E2"] and "B1850" in S.BEARS_ON["L6"] and "B1841" in S.BEARS_ON["V4"]
 
 

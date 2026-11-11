@@ -100,3 +100,16 @@ the neutrinos, B1612) is a flavon-frame reading. On the ruled branch the modulus
 ones (i-type points), so one τ cannot give both. P10 therefore needs two moduli or a breaking agent the principle does not
 name; P10′ was read in the frame where all of G is flavour and has the same status on the ruled branch. Neither entry is
 withdrawn: each tests a frame, and a failure kills that reading, not the weave.*
+
+## The programme's own claim (added 2026-11-11; GENESIS v1.65, PF5; B1886)
+
+The eight entries above are about readings of the object as physics. This one is about the programme itself. It was
+missing: the record stated what would refute a reading and never what would refute its own claim.
+
+| | claim | what would refute it | sharpness | status |
+|---|---|---|---|---|
+| PF5 | the whole has one self-consistent outcome: one orbit of the whole, where what is read from the whole is among what takes part and reading it again returns it | (a) two distinct self-consistent outcomes of the joint action, exhibited; or (b) a proof that the allowed histories admit no read-out that closes | **S3** — a theory-state, not an observation. It becomes mechanical only when "self-consistent" is a computable condition on a stated weight, which is not yet written (P-776) | OPEN: neither refuted nor supported. Known so far: symmetry confines a single outcome and does not place it, and "the greatest" has no outcome in the record's flat-fibre instrument (B1881). Neither is evidence for (a) or (b) |
+
+*What a failure would contradict:* the programme's claim as the owner has stated it, not any reading of the object and
+not the mathematics on record.
+

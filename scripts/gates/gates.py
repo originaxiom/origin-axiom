@@ -1605,13 +1605,17 @@ def closure_generated_problems(root=None, _read=None):
             files = None if fails else mod.generated(B)
         if fails:
             problems.append(f"{what}'s builder refuses: {fails[0]}" + (f" (+{len(fails) - 1} more)" if len(fails) > 1 else ""))
-        elif missing:
-            skipped.append(f"{what} (this clone does not hold: {', '.join(missing)})")
-        else:
-            for name, text in files.items():
-                g = root / arc / name
-                if not g.is_file() or read(g) != text:
-                    problems.append(f"{arc}/{name} is not its builder's output (run verification/{script} --write)")
+            continue
+        # The page is compared in EVERY clone.  As first written, a clone that did not hold a seat's branch skipped the whole
+        # comparison, because the builder wrote "not checked" into the page; a count changed by hand on the page then passed in a
+        # fresh clone (the advisor seat's fifth re-audit, its case g1).  The page no longer depends on the clone (B1886); what a
+        # clone cannot check is the seats' quoted words, and that is said here and nothing else is skipped.
+        for name, text in files.items():
+            g = root / arc / name
+            if not g.is_file() or read(g) != text:
+                problems.append(f"{arc}/{name} is not its builder's output (run verification/{script} --write)")
+        if missing:
+            skipped.append(f"{what}'s quotes of other seats, not its page (this clone does not hold: {', '.join(missing)})")
     return problems, skipped
 
 
@@ -1621,7 +1625,7 @@ def gate_closure_generated(_read=None):
     if problems:
         return False, "; ".join(problems[:4]) + (f" (+{len(problems) - 4} more)" if len(problems) > 4 else "")
     if skipped:
-        return True, "skipped in part: " + "; ".join(skipped)
+        return True, "every generated page compared with its builder; skipped in part: " + "; ".join(skipped)
     return True, "ok"
 
 

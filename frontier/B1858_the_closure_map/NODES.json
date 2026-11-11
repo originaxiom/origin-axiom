@@ -225,7 +225,7 @@
   "layer": "1 grammar",
   "kind": "fork",
   "grade": "OPEN",
-  "text": "Is the record swap P a legal move? Open as a fork; the owner's ruling is 'even ticks observed': the observed weave is ⟨L, R⟩.",
+  "text": "Is the record swap P a legal move? Open as a fork. Since v1.65 the tick is carried as an act, and 'even ticks observed' is a condition the weight has to deliver, no longer a ruling: an outcome of the whole is a point the mirror fixes or a pair it exchanges, and only a pair delivers it.",
   "pins": [
    [
     "GENESIS.md",
@@ -234,6 +234,14 @@
    [
     "GENESIS.md",
     "GM5c: **even ticks observed**"
+   ],
+   [
+    "GENESIS.md",
+    "is no longer recorded as a ruling"
+   ],
+   [
+    "GENESIS.md",
+    "The criterion is necessary and is not shown sufficient"
    ]
   ],
   "rows": [],
@@ -241,7 +249,9 @@
    "B1607",
    "B1609",
    "B1610",
-   "B1611"
+   "B1611",
+   "B1879",
+   "B1881"
   ],
   "note": "",
   "rows_live": {},
@@ -317,7 +327,7 @@
   "layer": "2 states and root",
   "kind": "choice",
   "grade": "CHOSEN",
-  "text": "Orientation: of the two, take the orientable one, m004. The chain's most fragile link; eight walls pass through the amphichirality it brings.",
+  "text": "Orientation: of the two, take the orientable one, m004. The chain's most fragile link; eight walls pass through the amphichirality it brings. Since v1.65 a named condition to derive, not a declared choice; it is not derived and the budget keeps its bit.",
   "pins": [
    [
     "GENESIS.md",
@@ -326,16 +336,53 @@
    [
     "GENESIS.md",
     "The most fragile link of the chain (fork FK2)."
+   ],
+   [
+    "GENESIS.md",
+    "That is not derived, and it is not counted as derived"
    ]
   ],
   "rows": [],
   "arcs": [
-   "B1234"
+   "B1234",
+   "B1879"
   ],
   "note": "",
   "rows_live": {},
   "weave_or_thread": "thread",
   "genesis_status_cell": "CHOSEN"
+ },
+ {
+  "id": "G:SE3",
+  "layer": "2 states and root",
+  "kind": "premise",
+  "grade": "POSTULATED",
+  "text": "The ground is the act itself, the tick; its level is the prime its discriminant is, 5. Main's entry, tagged: nothing computed can decide it, and the reading that gives the level is part of the postulate.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "| SE3 **[v1.65]** | **The ground is the act itself: the tick.** Its level is the prime that its discriminant is, 5. | POSTULATED (main's entry, tagged; 2026-11-11) |"
+   ],
+   [
+    "GENESIS.md",
+    "By which reading the level is 5 is part of the postulate"
+   ]
+  ],
+  "rows": [
+   "P-767",
+   "P-774"
+  ],
+  "arcs": [
+   "B1876",
+   "B1884"
+  ],
+  "note": "",
+  "rows_live": {
+   "P-767": "QUEUED",
+   "P-774": "DONE"
+  },
+  "weave_or_thread": "thread",
+  "genesis_status_cell": "POSTULATED (main's entry, tagged; 2026-11-11)"
  },
  {
   "id": "G:T-ROOT",
@@ -529,6 +576,31 @@
   "arcs": [],
   "note": "",
   "rows_live": {},
+  "weave_or_thread": "weave",
+  "genesis_status_cell": "OPEN"
+ },
+ {
+  "id": "G:FK16",
+  "layer": "3 weave",
+  "kind": "fork",
+  "grade": "OPEN",
+  "text": "The observer's place: if the outcome of the whole is a pair that the mirror exchanges, what puts an observer at one member.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "| FK16 **[v1.65]** | The observer's place: if the outcome of the whole is a pair that the mirror exchanges, what puts an observer at one member? | OPEN |"
+   ]
+  ],
+  "rows": [
+   "P-776"
+  ],
+  "arcs": [
+   "B1881"
+  ],
+  "note": "",
+  "rows_live": {
+   "P-776": "QUEUED"
+  },
   "weave_or_thread": "weave",
   "genesis_status_cell": "OPEN"
  },
@@ -773,6 +845,40 @@
   "note": "",
   "rows_live": {},
   "weave_or_thread": "weave"
+ },
+ {
+  "id": "G:PF5",
+  "layer": "3 weave",
+  "kind": "fork",
+  "grade": "OPEN",
+  "text": "The claim: the whole has one self-consistent outcome, one orbit of the whole. It is what the programme sets out to establish; nothing is derived from it. Symmetry cannot supply the outcome, and neither can the greatest reading.",
+  "pins": [
+   [
+    "GENESIS.md",
+    "| PF5 **[v1.65]** | **The claim: the whole has one self-consistent outcome.**"
+   ],
+   [
+    "GENESIS.md",
+    "Nothing in this file is derived from it"
+   ]
+  ],
+  "rows": [
+   "P-761",
+   "P-767",
+   "P-776"
+  ],
+  "arcs": [
+   "B1867",
+   "B1881"
+  ],
+  "note": "",
+  "rows_live": {
+   "P-761": "QUEUED",
+   "P-767": "QUEUED",
+   "P-776": "QUEUED"
+  },
+  "weave_or_thread": "weave",
+  "genesis_status_cell": "OPEN |"
  },
  {
   "id": "TAG:LAMBDA",
