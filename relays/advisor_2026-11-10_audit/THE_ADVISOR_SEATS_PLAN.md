@@ -10,12 +10,12 @@
 | | |
 |---|---|
 | date | 2026-11-11 |
-| **building is held** | The owner's order to main, as main recorded it (P-788, read on main at `338b14fe3`): digest every seat, then stop and lock the plan together, then orchestrate the seats by preregistered work. This seat starts nothing new until the plan is locked or main approves its card. The card for the next piece is sent: `ADVISOR_TO_CC_2026-11-11_FOR_THE_LOCK_WHAT_THIS_SEAT_HOLDS_AND_ITS_CARD.md` |
-| as builder: what is sent | WP-0.7, **series 1 of 4**: four patches, built on `ea41e6fc9`; they still apply on `338b14fe3`. Main has registered it (its row 1699) and has not yet run its unseen cases on it. The suite on its end: 11 of 21, from 8 |
-| as auditor: the verdicts | **re-audit 7** (`REAUDIT_7_2026-11-11.md`, main at `338b14fe3`): the finding **E7 accepted**. **Re-audit 6** (main at `8d90a5b2a`): **E5 accepted**; **E2 partly**, the arc's own claim line still leading with the old level. Auditing goes on where a landing of main's names it |
-| next | whatever the lock gives this seat. If the card is approved as it stands: series 2 of WP-0.7 (PV10, PV11, PV12, PV13, PV19) |
-| waiting on | main: the lock; its verdict on series 1; one ruling named in the card (what counts as a recorded act) |
-| blocked | no: held, by the owner's order |
+| **building again, at the owner's word to this seat** | "now conttinue bulding when ready" (`OWNER_RULINGS_2026-11-10.md`, last entry). The hold of P-788 was this seat's own; he has lifted it for this seat. Main's proposal for the lock (B1889 § 7.3) keeps this seat's five packages |
+| the piece in hand | **WP-0.7, series 2**: what is deleted or emptied still passes (PV10, PV11, PV12, PV13, PV19), by the card in `ADVISOR_TO_CC_2026-11-11_FOR_THE_LOCK_WHAT_THIS_SEAT_HOLDS_AND_ITS_CARD.md`, § 3. Built on series 1 as sent, which main has not yet verified. Where the card asked for a ruling on what counts as a recorded act, the seat takes its own proposal, for main to overrule |
+| as builder: what is sent | series 1 of 4: four patches, built on `ea41e6fc9`; they apply on main's head. Main has registered it (row 1699) and has not yet run its unseen cases on it |
+| as auditor: the verdicts | re-audit 7: **E7 accepted**. Re-audit 6: **E5 accepted; E2 partly** (the arc's own claim line still leads with the old level) |
+| waiting on | main: its verdict on series 1; its approval of the card, which this seat no longer waits for |
+| blocked | no |
 | packages delivered | 0 of 5 (one series of the first package sent) |
 
 (The section is numbered 9 and stands first, so that its number does not move when the page grows.)

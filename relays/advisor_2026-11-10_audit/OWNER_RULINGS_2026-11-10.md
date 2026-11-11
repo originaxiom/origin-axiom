@@ -463,6 +463,16 @@ keep it so and make that checkable by others -- refuse forced pushes and deletio
 archive date a snapshot, and one note on what the distilled copy was. Five of main's gates already pin commits and
 would turn red on a rewriting. Written out in `OPINION_ON_THE_REPOSITORY_2026-11-11.md`, § 14. He was asked nothing.
 
+| what he was answering | his words |
+|---|---|
+| the seat's answer that the history is not an issue and is not to be touched | "great, thanks. now conttinue bulding when ready." |
+
+**An instruction to this seat, from the owner.** The seat had held its building on reading his order to main
+(P-788) and had sent main its card for the next piece. With these words it builds again: series 2 of WP-0.7, by the
+card as sent. It builds on series 1 as sent, which main has not yet verified, and where the card asked main for a
+ruling (what counts as a recorded act) it takes its own proposal, said in the card, for main to overrule. This binds
+the seat, not main: main's lock is main's and the owner's. He was asked nothing.
+
 ## The roles
 
 The owner, the same day: this seat "will serve as an advisor for cc - the banking seat"; when cc is ready the reports
