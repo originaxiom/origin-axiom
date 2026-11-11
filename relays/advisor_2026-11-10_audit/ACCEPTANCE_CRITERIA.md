@@ -211,3 +211,15 @@ closure map does not yet join by an edge, and close the smaller gaps found in th
 | KIND-a | Every bit and every discrete choice of the budget carries its alternatives and their number, or the word "unbounded" and what bounds it. A choice from an unbounded list is typed as real, or its bound is counted as an input. | Remove the alternatives from one input: refused. |
 | KIND-b | The builder reconciles the budget's identifications with the identification ledger: each unearned row is under an input, or listed as off the present spine with the reason. One price is printed, and every older price line points to it. | Add an unearned row to the ledger: the builder refuses until the row is placed. |
 | STATE-a | A finding's state keeps "fixed" (main's word, with the fixing arc) apart from "accepted" (the re-audit's, with its commit). | None needed: a field. |
+
+## 13. What a seal hashed, and the re-audit's verdict (added 2026-11-11, after re-audit 3)
+
+Source: `REAUDIT_3_2026-11-11.md`, with `reaudit3/plants.py` and its output. Main's gate for the lists of hashed files
+(B1874) is accepted for what it reads. These rows are its three residuals and one of the programme's.
+
+| Item | Accepted when | Planted case |
+|---|---|---|
+| HASH-a | A listed name is resolved in one declared way, and a name that could be read as more than one tracked file is refused. | Copies of a hashed instrument placed where the gate looks first, then the real file changed (re-audit 3, t3): refused. |
+| HASH-b | An entry that did not verify when the gate was built is frozen together with the hash its file has now, so a further change to that file is a new mismatch. | One of the frozen scripts changed again (t4): refused. |
+| HASH-c | Every tracked file that records seal hashes is read by the gate, whatever its name, or its family is listed with the reason it is not a seal. | A new arc whose list is named otherwise; its instrument changed after the seal (t7): refused. |
+| STATE-b | The re-audit's verdict shown beside a finding is checked against the advisor seat's file at the commit the field names, as the seat's quoted sentences already are; "not checked" is printed where the clone does not hold that commit. | A verdict retyped as "accepted" in the programme's source, with the finding marked fixed (j4): refused. |

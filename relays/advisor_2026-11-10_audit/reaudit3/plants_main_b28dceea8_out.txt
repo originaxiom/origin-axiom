@@ -1,0 +1,76 @@
+re-audit 3: plants at b28dceea8 
+
+t1   CAUGHT      the second re-audit's case again: one line added to the candidate's hashed census.py
+       artifact-hashes    FAIL  frontier/B1841_the_principled_ends_card/verification/census.py: MISMATCH against frontier/B1841_the_principled_ends_card/ARTIFACT_HASHES.txt -- a file a seal hashed has changed, or a list names what is not there
+       expected by the seat before running: caught
+t2   CAUGHT      the same, with the list rewritten to the new hash in the same commit
+       artifact-hashes    FAIL  82c17efad edits the list of hashed files frontier/B1841_the_principled_ends_card/ARTIFACT_HASHES.txt
+       expected by the seat before running: caught, by the list's history
+t3   NOT CAUGHT  a decoy: copies of a hashed instrument (exact_end_web_seat.py) placed beside the two lists that name it from the root, then the real file changed
+       artifact-hashes    PASS  ok (1497 entries in 189 lists: 1430 verify, 67 do not (63 distinct, each frozen by key as found on 2026-11-10 or amended by name; the ceiling is 63); 0 commit(s) since 270a27ee6 touch a list, each only adding one; amended by name:
+       seal-immutable     PASS  ok (0 commit(s) since 76a4ff388 touch a sealed-style file, each only adding one, or waived by name; waived: 0)
+       tracked-forbidden  PASS  []
+       arc-data           PASS  ok (1578 verdict files; D1-D6 empty; 177 prose-only candidates reported)
+       path-refs          PASS  ok (6375 citations resolve)
+       expected by the seat before running: NOT caught by any of the five: the gate looks for a name beside its list before it looks from the root, and takes the first it finds
+
+(frozen entries that are scripts whose hash does not verify: 23; planting on: frontier/B1486_the_two_orders_at_the_silver_members/verification/fused.py)
+t4   NOT CAUGHT  a script whose entry is one of the 63 frozen as found: changed again
+       artifact-hashes    PASS  ok (1497 entries in 189 lists: 1430 verify, 67 do not (63 distinct, each frozen by key as found on 2026-11-10 or amended by name; the ceiling is 63); 0 commit(s) since 270a27ee6 touch a list, each only adding one; amended by name:
+       expected by the seat before running: NOT caught: the freeze is of a key, and a key does not hold the file's present content
+t5   CAUGHT      the candidate's hashed census.py deleted
+       artifact-hashes    FAIL  verification/census.py: ABSENT against frontier/B1841_the_principled_ends_card/ARTIFACT_HASHES.txt -- a file a seal hashed has changed, or a list names what is not there
+       expected by the seat before running: caught
+t6   CAUGHT      the script changed and a second list added beside the first, the old entry's key named nowhere
+       artifact-hashes    FAIL  frontier/B1841_the_principled_ends_card/verification/census.py: MISMATCH against frontier/B1841_the_principled_ends_card/ARTIFACT_HASHES.txt -- a file a seal hashed has changed, or a list names what is not there
+       expected by the seat before running: caught: the old entry no longer verifies
+t7   NOT CAUGHT  a new arc whose list of hashed files is named SEAL_SHA256.txt; its instrument changed after the seal
+       artifact-hashes    PASS  ok (1497 entries in 189 lists: 1430 verify, 67 do not (63 distinct, each frozen by key as found on 2026-11-10 or amended by name; the ceiling is 63); 0 commit(s) since 270a27ee6 touch a list, each only adding one; amended by name:
+       seal-immutable     PASS  ok (1 commit(s) since 76a4ff388 touch a sealed-style file, each only adding one, or waived by name; waived: 0)
+       expected by the seat before running: NOT caught: the gate reads lists named ARTIFACT_HASHES*.txt only
+
+(tracked files that hold lines of the form '<sha256>  <file name>' under a name the gate does not read: 70 files, 664 lines)
+        107  frontier/B646_wave2_integration/cc2_packets/ORIGINALS_MANIFEST.txt
+         76  frontier/B651_wave3_integration/cc2_packets/ORIGINALS_MANIFEST.txt
+         63  frontier/B670_anatomy_full/ORIGINALS_MANIFEST.txt
+         34  frontier/B677_morning_packet/anatomy/SEALS.txt
+         25  frontier/B673_loop4_integration/packet/SEALS.txt
+         22  frontier/B670_anatomy_full/packet/SEALS.txt
+         22  frontier/B677_morning_packet/ORIGINALS_MANIFEST.txt
+         21  frontier/B657_invariant_line/ORIGINALS_MANIFEST.txt
+
+t9   CAUGHT      the gate on a clone of depth 3 (the rule's first commit is not in it)
+       artifact-hashes    FAIL  cannot verify: the rule's first commit 270a27ee6 is not in this clone (shallow or partial)
+       expected by the seat before running: fails closed, and says why
+w1   NOT CAUGHT  200 lines of the log deleted, then waived by name in the next commit
+       append-only        PASS  HEAD prefix preserved; 13 commit(s) since f31729801: 12 an append or a roll-up, 1 waived by name [4aa3f17d3: a reason typed by whoever deleted the lines]
+       the gate's sentence names '4aa3f17d3': True
+       the gate's sentence names 'a reason typed': True
+       expected by the seat before running: passes, and now the gate's sentence names the commit and the reason
+       the runner's own printed line names the waiver: True | ['  PASS  append-only: HEAD prefix preserved; 13 commit(s) since f31729801: 12 an append or a roll-up, 1 waived by name [4aa3f17d3: a reason typed by whoever deleted the lines]']
+w2   NOT CAUGHT  a criterion appended to the candidate's sealed file, then waived by name in the next commit
+       seal-immutable     PASS  ok (1 commit(s) since 76a4ff388 touch a sealed-style file, each only adding one, or waived by name; waived: 1 [8f392342e frontier/B1841_the_principled_ends_card/PREREGISTRATION.md: a reason typed by whoever edited the seal])
+       the gate's sentence names '8f392342e': True
+       the gate's sentence names 'a reason typed': True
+       expected by the seat before running: passes, and now the sentence names the commit, the file and the reason
+
+j1   REFUSED     a finding's 'bears on' line removed (E3)
+       REFUSED: finding E3 names nothing it bears on (an arc, a node of the map, a tracked path, or the repository as a whole)
+       expected by the seat before running: refused (rule 16)
+j2   REFUSED     a package marked started under a need that has not started (WP-2.3 under WP-2.1)
+       REFUSED: WP-2.3 is marked STARTED while WP-2.1, which it cannot be worked before, has not started (use GIVEN for work done first and conditional)
+       expected by the seat before running: refused (rule 18)
+j3   REFUSED     a finding the re-audit did not accept marked FIXED (E3)
+       REFUSED: finding E3 is marked FIXED and the re-audit says the correction was not carried everywhere
+       expected by the seat before running: refused (rule 19)
+j4   BUILT       the same, with the re-audit's verdict retyped as 'accepted' in main's own file
+       expected by the seat before running: BUILT: the verdict is main's transcription, and nothing checks it against the seat's file
+j5   REFUSED     the sealed card made not to wait on the suite (WP-0.5 dropped from every need of the card)
+       REFUSED: the sealed card does not wait on WP-0.5, which holds what no value's own list can show (R1, R2)
+       expected by the seat before running: refused (rule 17)
+
+clone reset to b28dceea8 | clean: True
+
+real	0m52.298s
+user	0m41.314s
+sys	0m11.516s

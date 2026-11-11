@@ -137,6 +137,14 @@ are its candidates' threads.
 > histories that B1857 found with a single state, compose them, and ask whether the composite has one. If not,
 > back-edge A in this form closes nothing for the weave, and what is left of it is (A-read) as a read-out on one
 > history.
+>
+> **Dated note, 2026-11-11: the test was run, and (A-adm) is withdrawn as a rule about what is allowed.** The web
+> seat ran it as a sealed card the same night and main verified it with its own code (B1875). Two histories with a
+> single state and the same departure compose to a history whose apex is in two places: 18 of the 36 composites
+> tested, each by an exact symmetry of the composite's own word. Being single is a property of one history's own
+> cycle of heights. So back-edge A, in the form designed here, closes nothing for the weave. What is left is
+> (A-read) on one history, labelled a thread's. The tests A0 to A7 below are kept as written and none is to be
+> run as a test of the weave.
 
 ### 3b. Other principles that could pick a history (the owner's question, 2026-11-10)
 

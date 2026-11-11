@@ -99,8 +99,18 @@ def pv13(c):
     write(c, "docs/LAW_MAP.md", "# LAW MAP\n"); write(c, "docs/THEOREM_LEDGER.md", "# THEOREM LEDGER\n")
 
 def pv14(c):
-    f = glob.glob(os.path.join(c, "frontier/B1857_*/arc_verdict.json"))[0]
+    # Corrected 2026-11-11 (re-audit 3): the first version truncated B1857's verdict file. Once a later arc named B1857
+    # as a dependency, the gate failed on the missing dependency and the case read CAUGHT for a reason that is not the
+    # finding. The finding is that an unreadable verdict file is dropped without a word; so the case now truncates a
+    # verdict file that no other arc depends on.
+    files = sorted(glob.glob(os.path.join(c, "frontier/B*_*/arc_verdict.json")))
+    deps = set()
+    for f in files:
+        try: deps |= set(json.load(open(f)).get("depends_on") or [])
+        except Exception: pass
+    f = next(f for f in files if re.match(r"(B\d+)_", os.path.basename(os.path.dirname(f))).group(1) not in deps)
     open(f, "w").write(open(f).read()[:200])
+    return "truncated %s, which no arc depends on" % os.path.relpath(os.path.dirname(f), c)
 
 def pv16(c):
     reg = json.loads(read(c, "tests/GATE_CONTROLS.json"))

@@ -326,3 +326,14 @@ was that before this exercise. What the exercise adds is that the draft leaves n
 | the input budget (B1861) | if the ground is the act, the selection criterion leaves the budget the way the orientation does; if every history is a ground, the root is one of four classes and the criterion is a ranking |
 | the closure map | clause 8's two readings are a fork the map does not yet carry |
 | the weight | unchanged: B1813 and P-107 stand; this exercise found no clause that fixes the counting rule |
+
+## 13. Dated corrections, 2026-11-11, after main's verification (B1876 § 5). The text above is kept as written.
+
+| where | correction |
+|---|---|
+| H5, § 2 and § 5.1 | The list 3, 4, 5, 9, 21 counts a shorter history done twice as a history of its own. The script did so and this page did not say so. Counting primitive histories only, 7 joins the list: at trace 7 the third history is L·R done twice. The first part of H5 (L·R alone at its trace) is unaffected. |
+| H8, § 3 and § 5.1 | "23 of the 58 traces" that the golden ground fails to detect includes its own trace. Besides its own: 22. |
+| § 4, the row for H10 | Main's record holds part of it: B1871's row T4 ("L, R and the bare exchange have a rational fixed direction; the tick has the golden one"), which came from this seat's own earlier sealed run. Not on record: naming a ground without a ranking. So five of the six statements were absent from the record, and the sixth in part. The attack's verdict is unchanged. |
+| H16, § 7 | The count holds for every history, since every history keeps the odd form. Main checked it on the 77 two-act words to 8 letters. It says nothing special about a history with no hand. |
+| § 10 | Main identified the factor: (5 + √21)/2 = 4.7913, the larger root of t² − 5t + 1, which the record holds as the adjoint torsion at the geometric representation (B98). Observed to four digits on three departures and not proved; registered by main as a lead (P-775). |
+| § 5.4 and the design of back-edge A | The web seat ran the composition test the same night and main verified it (B1875): a single state is not kept under composition. |
