@@ -40,7 +40,7 @@ pins where the limit lies.
                                                                                  are held by test and not by file
     w17  a lock reads what os.popen gave                                         red
     w18  one of the fourteen named tests is given a second pin                   PASSES: a named test is held whole
-    w19  a lock formats the float inside its own process                         PASSES: not a process
+    w19  a lock computes the float inside its own process and formats it there   PASSES: not a process
     w20  the process is started in a module beside the lock                      PASSES: another module is not read
   a test run and the tracked files (the run's status)
     w21  an arc's own lock, run alone by its path, rewrites a tracked file       the run fails and names the file
@@ -50,6 +50,11 @@ pins where the limit lies.
     w24  a parallel run in which one test rewrites a tracked file                the run fails, and says so once
     w25  a test leaves a new file that is not tracked                            PASSES: a file that is not tracked is
                                                                                  not the check's
+
+  w19 AS FIRST WRITTEN planted `assert '%.17f' % (1 / 3) == '0.33333333333333331'`, and expected the gate to pass.  In the
+  first run (variants_series_4_part_2_first_run_out.txt, 24 of 25) it read FAILS: the gate was red, and rightly, by the rule
+  of series 3 -- that assert is made of literals alone and cannot fail.  The plant did not ask what the variant meant.  It
+  now computes the float by a call, so that the assert can fail, and was rewritten before the run that judges it.
 """
 import sys, os, re, json, shutil, subprocess
 
@@ -222,8 +227,8 @@ assert t.count(pin) == 1
 write(HELD, t.replace(pin, pin + '\n    assert "+0.866025404" in out')); commit("planted: a second pin in a named test")
 r = gate("test-vacuity"); line("w18", r[0] is True, "a second pin in one of the fourteen named tests: the gate passes (a limit)")
 
-lock("def test_it():\n    assert '%.17f' % (1 / 3) == '0.33333333333333331'\n")
-r = gate("test-vacuity"); line("w19", r[0] is True, "the float formatted inside the lock's own process: the gate passes (a limit)")
+lock("import math\n\n\ndef test_it():\n    assert '%.17f' % math.sqrt(1 / 9) == '0.33333333333333331'\n")
+r = gate("test-vacuity"); line("w19", r[0] is True, "the float computed and formatted inside the lock's own process: the gate %s" % ("passes (a limit)" if r[0] else "says: " + r[1][:160]))
 
 lock("import runner_beside_the_lock\n\n\ndef test_it():\n    assert 'one third = 0.33333333333333331' in runner_beside_the_lock.printed()\n",
      {D + "runner_beside_the_lock.py": "import pathlib, subprocess, sys\n\n\ndef printed():\n    return subprocess.run([sys.executable, str(pathlib.Path(__file__).with_name('third.py'))], capture_output=True, text=True).stdout\n",

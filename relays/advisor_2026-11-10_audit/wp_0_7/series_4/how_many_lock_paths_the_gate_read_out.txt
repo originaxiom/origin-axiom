@@ -1,0 +1,15 @@
+at 323f92327: 1614 locks; 0 do not parse
+paths of files that the locks name beside themselves, read from the syntax tree: 3355
+of them read by the pattern reader, the gate's only reader before the patch:     1463 (44 in 100)
+with a part that is computed, read by neither:                                   317
+read by the pattern reader alone: 655 -- 644 a folder, 11 a pattern
+paths read from the tree that the commit does not hold: 9; of them git would ignore: 1
+     absent  docs/NO_SUCH_FILE.md <- tests/test_readme_front_door.py
+     absent  docs/PROGRESS_LOG.md <- tests/test_b827_progresslog_recovery.py
+     absent  docs/REVIEWS.md <- tests/test_b830_masterplan.py
+     IGNORED docs/workdesk/the_ledger_desk.html <- tests/test_workdesk_builds.py
+     absent  frontier/B1322_l204_verified/verification/v10_direction_points.json <- tests/test_b1322_l204_verified.py
+     absent  frontier/B519_re_mining/FINDINGS.md <- tests/test_b819_frame_gap.py
+     absent  frontier/B519_re_mining/FINDINGS.md <- tests/test_b826_b519_verdict.py
+     absent  frontier/P3_depth_exposure/arc_verdict.json <- tests/test_b1176_record_surface_wave.py
+     absent  scripts/checks/_e57_plant_untracked_tool.py <- tests/test_b1238_seat_harvest_40a3_bronze_octic.py
