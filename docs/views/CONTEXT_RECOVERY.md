@@ -24,7 +24,7 @@
 | … OWNER | 4 |
 | … DONE | 503 |
 | … DECLINED | 12 |
-| harvest rows (the last number) | 1697 |
+| harvest rows (the last number) | 1698 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p THE ERRORS IN THE MATHEMATICS, THE SECOND OF THE NINE LEFT (WP-0.8): A SCAN THAT NEVER REFINED, REPLACED BY THE JOINT EIGENVALUES (E5) (2026-11-11)
 - S306p THE REPOSITORY'S PUBLIC FORM, SCRUTINISED AT THE OWNER'S WORD (B1888; P-787) (2026-11-11)
 - S306p THE ERRORS IN THE MATHEMATICS, THE FIRST OF NINE (WP-0.8): THE KNOT GROUP'S CONGRUENCE LEVEL IS (4), AND THE LOCK NOW SAYS SO (E2) (2026-11-11)
 - S306p THE FIVE PACKAGES HANDED TO THE ADVISOR SEAT (P-785), ITS RESIDUAL ON THE ORDER CLOSED, MAIN'S UNSEEN CASES SEALED (2026-11-11)
@@ -63,11 +64,10 @@
 - S306p THE FOURTH HARVEST: THE WEB SEAT'S TWO CARDS VERIFIED (B1885, B1887), THE WORK ORDER MENDED AT THE OWNER'S QUESTION (P-782), THE OLD RELAYS KEPT LOCAL (P-779) (2026-11-11)
 - S306p THE FOUNDATION AT VERSION 1.65 (B1886; P-767's second landing) (2026-11-11)
 - S306p THE TEAM'S MORNING HARVESTED: A STATUS PAGE (B1883), THE GROUND'S LEVEL VERIFIED (B1884), THE V1 CARD SEALED FOR ITS RUN (B1882), TWO AGY BRANCHES REGISTERED (P-781) (2026-11-11)
-- S306p TWO SEATS HARVESTED AND VERIFIED: THE ADVISOR SEAT'S THIRD AND FOURTH RE-AUDITS ANSWERED (B1880), AND THE WEB SEAT'S TWO RELAYS ON THE READ-OUT OF THE WHOLE VERIFIED (B1881) (2026-11-11)
 
 ## The latest campaign line
 
-LATEST (2026-11-11, S306p: B1888 — THE REPOSITORY'S PUBLIC FORM, SCRUTINISED AT THE OWNER'S WORD (P-787).** The advisor seat's three-part proposal (the archive, a small statement, a separate check) attacked on the eight points it named, with one new measurement: by its code the candidate uses at most 14 arcs, 17 Python files and 3,032 lines, where the arcs' own lists give 736 arcs upstream; its derivation half does not reach the measured values, which enter at one module of the comparison half. Five points hold, two hold with a change, and the independence of the check does not hold as stated: main gives five conditions that can be checked. A statement built today would hold no earned value…
+LATEST (2026-11-11, S306p: WP-0.8, THE ERRORS IN THE MATHEMATICS — E5 MENDED, AWAITING ITS RE-AUDIT.** B892's real-line scan never refined (its golden-section step runs only when the grid finds nothing, and the grid always finds the plane stratum), so it could not exclude a real nullity-14 point. Main's first mend, a finer scan with a bound between grid points, failed its own checks: the matrices are scaled over fourteen orders of magnitude. The right instrument is the joint diagonalisation of s1, x14, x16 and x22, which commute: the nullity at every point of the line is read off their weights, it jumps at finite t only at four purely imaginary points (14 at one conjugate pair, 18 at the ot…
 
 ## Completeness (nothing skipped silently)
 

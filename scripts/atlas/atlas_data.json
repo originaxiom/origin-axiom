@@ -15886,6 +15886,7 @@
     "measurement",
     "closing",
     "feedback",
+    "figure_eight",
     "golden",
     "z3_generation",
     "firewall"
@@ -32800,7 +32801,7 @@
     "B892"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 20,
+   "obstacle_conf": 21,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -33150,6 +33151,7 @@
     "lorentzian"
    ],
    "refs": [
+    "B854",
     "B874",
     "B876",
     "B884",
@@ -33160,7 +33162,7 @@
     "S1"
    ],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 6,
+   "obstacle_conf": 7,
    "status": "banked",
    "domain": "arithmetic"
   },
