@@ -1,0 +1,24 @@
+re-audit of the finding E7 at main 338b14fe3
+a1   HOLDS  prices typed in the walk's source: 11, of which 0.0: 11
+a2   HOLDS  the walk as it stands: exit 0; lines that print 0.000: 15 -- e.g. "[0.000 bits] A1-A6 -> the object (up to orientation)  <- B14"
+     tracked files the walk changed by running: none
+a3   HOLDS  B997's line holds the matched phrase: True; its correction: True; the walk's check on it: passes
+a4   HOLDS  verdict OPEN; in the correction, before the claim as first asserted: the family declaration: yes; the selection within the family: yes; the principal embedding: yes; one endpoint, of dimension 14: yes
+
+B    read-out: tracked text files that state the zero: 6 under the lock's records of what was said at the time; 10 that carry the correction; 2 that do neither:
+       README.md  (1 line)  | the last landing | S306p THE ERRORS IN THE MATHEMATICS, THE THIRD OF THE NINE LEFT (WP-0.8): "0.000 BITS OF DESIGNER FREEDOM" WAS ELEVEN ZEROS TYPED
+       frontier/B1222_symmetry_vanishing_thesis/arc_verdict.json  (1 line)  {"id":"B1222","verdict":"NEGATIVE","instrument":false,"creates_law":false,"creates_law_reviewed":{"date":"2026-08-31","arc":"B1222","decision":"false"
+
+c0   HOLDS  NOT CAUGHT  expected not caught  nothing planted
+r1   HOLDS  CAUGHT      expected caught      the verdict set back to PROVED  [red: test_verdict_json]
+r2   HOLDS  CAUGHT      expected caught      the correction removed from the claim line  [red: test_every_page_that_states_the_zero_carries_the_correction, test_verdict_json]
+r3   HOLDS  CAUGHT      expected caught      a new page under docs/ states the zero  [red: test_every_page_that_states_the_zero_carries_the_correction]
+r4   HOLDS  NOT CAUGHT  expected not caught  the same statement over two lines
+r5   HOLDS  NOT CAUGHT  expected not caught  "no designer freedom at all"
+r6   HOLDS  NOT CAUGHT  expected not caught  r3's sentence in a new .tex file under papers/
+r7   HOLDS  CAUGHT      expected caught      r3's sentence appended to the root README  [red: test_every_page_that_states_the_zero_carries_the_correction]
+r8   HOLDS  CAUGHT      expected caught      the correction removed from docs/THE_CLAIM.md  [red: test_every_page_that_states_the_zero_carries_the_correction]
+r9   HOLDS  CAUGHT      expected caught      one of the eleven prices typed 1.0 in the walk  [red: test_links_all_cited_and_zero, test_outputs_and_arithmetic, test_the_zero_is_typed_and_the_check_is_a_substring_match]
+r10  HOLDS  NOT CAUGHT  expected not caught  a new arc_verdict.json whose claim line states the zero
+
+expectations that hold: 15 of 15
