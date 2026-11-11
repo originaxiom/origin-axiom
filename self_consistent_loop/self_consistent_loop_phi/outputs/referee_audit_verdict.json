@@ -1,0 +1,53 @@
+{
+  "referee": "Zero-Trust Independent Referee (Guardrail 6)",
+  "all_checks_passed": true,
+  "preregistration_seal_verified": true,
+  "ast_zero_import_audit": {
+    "ast_checked_file": "referee_phi_loop.py",
+    "imported_modules": [
+      "__future__",
+      "ast",
+      "fractions",
+      "hashlib",
+      "json",
+      "math",
+      "mpmath",
+      "numpy",
+      "pathlib",
+      "sys",
+      "typing"
+    ],
+    "forbidden_imports_found": [],
+    "zero_producer_imports_verified": true
+  },
+  "sector1_dynkin_and_adv_modular": {
+    "independent_winners": [
+      "E_8"
+    ],
+    "gram_symmetry_err": 0.0,
+    "adversarial_SL2Z_E8_theta_err": 1.8748583725369346e-15,
+    "matches_producer_winner": true
+  },
+  "sector2_sinc_dvr_and_torsion": {
+    "sinc_dvr_vs_fd_E0_S1_rel_diff": 5.085247422405417e-09,
+    "sinc_dvr_vs_fd_E0_T_rel_diff": 4.103609668757436e-10,
+    "s_star_S1_diff_vs_producer": 4.440892098500626e-16,
+    "s_star_T_diff_vs_producer": 7.172040739078511e-14,
+    "independent_T0_circle_shift_on_6_k1": 0.300865005615119,
+    "independent_L2RLR_extends": false,
+    "verified": true
+  },
+  "sector3_mpmath_and_adv_gamma5": {
+    "adversarial_Gamma5_matrix_invariance_err": 3.015214156857932e-15,
+    "mpmath_grad_norm_at_omega": 3.944304526105059e-20,
+    "e8_248_y2_rel_diff_vs_producer": 0.0,
+    "verified": true
+  },
+  "sector4_clifford_spin16_and_adv_haar": {
+    "clifford_spin16_commutant_dim": 46,
+    "clifford_spinor_u3c_singlets": 0,
+    "clifford_coset22_trace_diff": 0.0,
+    "adversarial_haar_248_err": 2.2737367544323206e-13,
+    "matches_producer_dim_46": true
+  }
+}

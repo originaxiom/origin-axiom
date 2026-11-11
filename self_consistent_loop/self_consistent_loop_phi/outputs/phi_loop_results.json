@@ -1,0 +1,4699 @@
+{
+  "engine": "Self-Consistent Fixed-Point Loop Engine Phi(X*) = X*",
+  "data_firewall": "0 of 19 empirical numbers imported",
+  "elapsed_seconds": 20.928,
+  "preregistration_seal": {
+    "plan_file": "PREREGISTRATION_PLAN.md",
+    "seal_file": "SEAL_SHA256.txt",
+    "expected_sha256": "d42cedad6e6f54dc26f0b1ee20a0951c9f6ba167b671b9ec1a08215664312eda",
+    "actual_sha256": "d42cedad6e6f54dc26f0b1ee20a0951c9f6ba167b671b9ec1a08215664312eda",
+    "seal_intact": true
+  },
+  "sector1_BE1": {
+    "sector": "BE-1 (Cusp Modular Sewing & Parent Algebra Closure)",
+    "H1_1_unique_E8_closure": true,
+    "H1_2_center_and_3branch_orbit": true,
+    "upstream_status": "CLOSED_GIVEN_1_STRUCTURAL_PREMISE (non-trivial irreducible root-lattice current algebra at the cusp)",
+    "catalogue_summary": {
+      "total_tested": 95,
+      "sewed_winners": [
+        "E_8"
+      ],
+      "cartan_det1_non_self_dual_traps": [
+        {
+          "algebra": "G_2",
+          "det_cartan": 1,
+          "det_gram": 3
+        },
+        {
+          "algebra": "F_4",
+          "det_cartan": 1,
+          "det_gram": 4
+        }
+      ],
+      "sample_determinants": {
+        "A_2": {
+          "det_gram": 3,
+          "det_cartan": 3
+        },
+        "B_2": {
+          "det_gram": 4,
+          "det_cartan": 2
+        },
+        "C_3": {
+          "det_gram": 4,
+          "det_cartan": 2
+        },
+        "D_4": {
+          "det_gram": 4,
+          "det_cartan": 4
+        },
+        "G_2": {
+          "det_gram": 3,
+          "det_cartan": 1
+        },
+        "F_4": {
+          "det_gram": 4,
+          "det_cartan": 1
+        },
+        "E_6": {
+          "det_gram": 3,
+          "det_cartan": 3
+        },
+        "E_7": {
+          "det_gram": 2,
+          "det_cartan": 2
+        },
+        "E_8": {
+          "det_gram": 1,
+          "det_cartan": 1
+        }
+      }
+    },
+    "poisson_theta_sewing": {
+      "tau_test_re": 0.23,
+      "tau_test_im": 1.17,
+      "A2": {
+        "T_err": 4.336808689942018e-19,
+        "single_channel_S_gap": 0.24946876777210542,
+        "poisson_dual_identity_err": 4.454424009010536e-16
+      },
+      "D4": {
+        "T_err": 3.469446951953614e-18,
+        "single_channel_S_gap": 0.47663767201811663,
+        "poisson_dual_identity_err": 4.47545209131181e-16
+      },
+      "E8": {
+        "explicit_norm2_shell_count": 240,
+        "explicit_norm4_shell_count": 2160,
+        "T_err": 2.237726045655905e-16,
+        "single_channel_S_err": 4.965068306494546e-16
+      }
+    },
+    "e8_center_and_weave": {
+      "total_roots": 240,
+      "decomposition_D5_D3": {
+        "D5_roots": 40,
+        "D3_roots": 12,
+        "mixed_10_6": 60,
+        "spinor_16_4": 64,
+        "spinor_16bar_4bar": 64
+      },
+      "err_X_minus_h4_eq_zeta_Spin10": 4.898587196589413e-16,
+      "err_minus1_SU4_eq_minus1_Spin10": 7.34788079488412e-16,
+      "weave_branch_orbit_size": 3,
+      "weave_branch_orbit": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "q8_common_point_invariance_err": 0.0
+    }
+  },
+  "sector2_BE2": {
+    "sector": "BE-2 (Bundle-Extension & Twisted Eigenstate Loop P-761 / P-744)",
+    "geometric_scope": "Exact unwrapped Teichmuller/Sol geodesic bundle PDE + exact SnapPy cusped hyperbolic 3-manifold invariants; full 3D cusped Hejhal twisted PDE without free area A remains open (P-744).",
+    "instrument_calibration": {
+      "harmonic_oscillator_rel_err": 6.233652324486424e-11,
+      "cosh_richardson_err_q10": 6.465405988365092e-10,
+      "cosh_E0_q10": 12.296951846319365,
+      "cosh_E1_q10": 17.00682796198097,
+      "cosh_high_q2500_asymp_rel_diff": 5.0966898894095755e-08,
+      "instrument_calibrated": true
+    },
+    "golden_background_A0": {
+      "m": 1,
+      "word": "LR",
+      "matrix": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "trace": 3,
+      "snf_W_minus_I": [
+        1,
+        1
+      ],
+      "snf_W_plus_I": [
+        1,
+        5
+      ],
+      "det_W_minus_I": 1,
+      "det_W_plus_I": 5,
+      "untwisted_torsion_trivial": true,
+      "twisted_torsion_is_cyclic": true,
+      "intrinsic_twisted_level_N": 5,
+      "background_K_minus_pm_pairs": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "background_K_minus_cyclic_lines_count": 1,
+      "background_K_plus_pm_pairs": [],
+      "unique_intrinsic_cyclic_line": true
+    },
+    "history_catalog_A1_A4": {
+      "(6)": {
+        "k=1": {
+          "name": "(6)_k1",
+          "word": "LLLLLLRLR",
+          "letter_count": 9,
+          "trace": 22,
+          "geodesic_length_ell": 6.177939809689206,
+          "geodesic_equiv_err": 1.0501497843383934e-15,
+          "cosh_law_err": 6.217248937900877e-15,
+          "S1_A1": {
+            "extends": true,
+            "extension_sign": 1,
+            "area_A": 1.0,
+            "E0": 13.19758994706976,
+            "E1_next_distinct": 18.085823332938674,
+            "rel_gap_after_conjugate_pair": 0.3703883364670108,
+            "raw_complex_multiplicity": 2,
+            "unoriented_class_multiplicity": 1,
+            "distinct_circle_peaks_count": 1,
+            "distinct_circle_peaks": [
+              0.0
+            ],
+            "is_single_unoriented_state": true,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.0,
+            "apex_height_H": 3.6514837167011076,
+            "tau_fundamental_domain": [
+              4.440892098500626e-16,
+              3.6514837167011076
+            ],
+            "winning_scaled_K": [
+              0,
+              -1
+            ]
+          },
+          "T_A1": {
+            "extends": true,
+            "extension_sign": 1,
+            "area_A": 1.0,
+            "E0": 6.694011133411673,
+            "E1_next_distinct": 7.524579273559438,
+            "rel_gap_after_conjugate_pair": 0.12407630097926908,
+            "raw_complex_multiplicity": 2,
+            "unoriented_class_multiplicity": 2,
+            "distinct_circle_peaks_count": 2,
+            "distinct_circle_peaks": [
+              0.3008650056151903,
+              0.6991349943848097
+            ],
+            "is_single_unoriented_state": false,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.3008650056151903,
+            "apex_height_H": 7.824607964359519,
+            "tau_fundamental_domain": [
+              0.4782608695652186,
+              1.1113211311699018
+            ],
+            "winning_scaled_K": [
+              1,
+              -8
+            ]
+          },
+          "T_area_scan": {
+            "0.0100": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 0.01,
+              "E0": 520.4870920736333,
+              "E1_next_distinct": 552.5012335561904,
+              "rel_gap_after_conjugate_pair": 0.06150804116008325,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 2,
+              "distinct_circle_peaks_count": 2,
+              "distinct_circle_peaks": [
+                0.3008650056151903,
+                0.6991349943848097
+              ],
+              "is_single_unoriented_state": false,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.6991349943848097,
+              "apex_height_H": 7.824607964359517,
+              "tau_fundamental_domain": [
+                -0.4782608695652173,
+                1.1113211311699023
+              ],
+              "winning_scaled_K": [
+                1,
+                2
+              ]
+            },
+            "0.1000": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 0.1,
+              "E0": 55.538587370334184,
+              "E1_next_distinct": 63.093163379465004,
+              "rel_gap_after_conjugate_pair": 0.13602391358563937,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 2,
+              "distinct_circle_peaks_count": 2,
+              "distinct_circle_peaks": [
+                0.3008650056151903,
+                0.6991349943848097
+              ],
+              "is_single_unoriented_state": false,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.3008650056151903,
+              "apex_height_H": 7.824607964359519,
+              "tau_fundamental_domain": [
+                0.4782608695652186,
+                1.1113211311699018
+              ],
+              "winning_scaled_K": [
+                1,
+                -8
+              ]
+            },
+            "1.0000": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 1.0,
+              "E0": 6.694011133411673,
+              "E1_next_distinct": 7.524579273559438,
+              "rel_gap_after_conjugate_pair": 0.12407630097926908,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 2,
+              "distinct_circle_peaks_count": 2,
+              "distinct_circle_peaks": [
+                0.3008650056151903,
+                0.6991349943848097
+              ],
+              "is_single_unoriented_state": false,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.3008650056151903,
+              "apex_height_H": 7.824607964359519,
+              "tau_fundamental_domain": [
+                0.4782608695652186,
+                1.1113211311699018
+              ],
+              "winning_scaled_K": [
+                1,
+                -8
+              ]
+            },
+            "6.2832": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 6.283185307179586,
+              "E0": 1.494280519426787,
+              "E1_next_distinct": 1.653000956911009,
+              "rel_gap_after_conjugate_pair": 0.10621863527010834,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 2,
+              "distinct_circle_peaks_count": 2,
+              "distinct_circle_peaks": [
+                0.3008650056151903,
+                0.6991349943848097
+              ],
+              "is_single_unoriented_state": false,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.3008650056151903,
+              "apex_height_H": 7.824607964359519,
+              "tau_fundamental_domain": [
+                0.4782608695652186,
+                1.1113211311699018
+              ],
+              "winning_scaled_K": [
+                1,
+                -8
+              ]
+            }
+          },
+          "T0_ds_circle_T_vs_S1": 0.3008650056151903,
+          "T0_dtau_F_T_vs_S1": 2.584793883521442,
+          "T0_read_depends_on_data": true,
+          "punctured_fibre_check": {
+            "S1_puncture_cos_sin_splitting": 0.02,
+            "T_extension_sign": 1,
+            "T_ground_subspace_dim_after_scalar_puncture": 1,
+            "T_scalar_puncture_splitting": 0.0
+          },
+          "snappy": {
+            "snappy_manifold": "b++LLLLLLRLR",
+            "solution_type": "all tetrahedra positively oriented",
+            "homology": "Z/20 + Z",
+            "hyperbolic_volume": 5.586361607662567,
+            "m004_unit_volume": 2.029883212819307
+          }
+        },
+        "k=2": {
+          "name": "(6)_k2",
+          "word": "LLLLLLRLRLR",
+          "letter_count": 11,
+          "trace": 58,
+          "geodesic_length_ell": 8.120291225496807,
+          "geodesic_equiv_err": 9.345671037911906e-16,
+          "cosh_law_err": 2.2737367544323206e-13,
+          "S1_A1": {
+            "extends": true,
+            "extension_sign": 1,
+            "area_A": 1.0,
+            "E0": 13.292236208180942,
+            "E1_next_distinct": 18.19885468387123,
+            "rel_gap_after_conjugate_pair": 0.3691341621412372,
+            "raw_complex_multiplicity": 2,
+            "unoriented_class_multiplicity": 1,
+            "distinct_circle_peaks_count": 1,
+            "distinct_circle_peaks": [
+              0.0
+            ],
+            "is_single_unoriented_state": true,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.0,
+            "apex_height_H": 3.6228441865473595,
+            "tau_fundamental_domain": [
+              0.0,
+              3.6228441865473595
+            ],
+            "winning_scaled_K": [
+              0,
+              -1
+            ]
+          },
+          "T_A1": {
+            "extends": true,
+            "extension_sign": -1,
+            "area_A": 1.0,
+            "E0": 6.8451706984212946,
+            "E1_next_distinct": 7.472674192150399,
+            "rel_gap_after_conjugate_pair": 0.09167097817937923,
+            "raw_complex_multiplicity": 4,
+            "unoriented_class_multiplicity": 2,
+            "distinct_circle_peaks_count": 2,
+            "distinct_circle_peaks": [
+              0.22590256478703782,
+              0.7740974352129621
+            ],
+            "is_single_unoriented_state": false,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.7740974352129621,
+            "apex_height_H": 7.627040392731281,
+            "tau_fundamental_domain": [
+              -0.44262295081967196,
+              1.1284268777770463
+            ],
+            "winning_scaled_K": [
+              -1,
+              -2
+            ]
+          },
+          "T_area_scan": {
+            "0.0100": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 0.01,
+              "E0": 533.760928930671,
+              "E1_next_distinct": 566.1838964947862,
+              "rel_gap_after_conjugate_pair": 0.06074436289121219,
+              "raw_complex_multiplicity": 4,
+              "unoriented_class_multiplicity": 2,
+              "distinct_circle_peaks_count": 2,
+              "distinct_circle_peaks": [
+                0.22590256478703782,
+                0.7740974352129621
+              ],
+              "is_single_unoriented_state": false,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.7740974352129621,
+              "apex_height_H": 7.627040392731281,
+              "tau_fundamental_domain": [
+                -0.44262295081967196,
+                1.1284268777770463
+              ],
+              "winning_scaled_K": [
+                -1,
+                -2
+              ]
+            },
+            "0.1000": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 0.1,
+              "E0": 56.910176392567124,
+              "E1_next_distinct": 62.619805167422875,
+              "rel_gap_after_conjugate_pair": 0.10032702649646803,
+              "raw_complex_multiplicity": 4,
+              "unoriented_class_multiplicity": 2,
+              "distinct_circle_peaks_count": 2,
+              "distinct_circle_peaks": [
+                0.22590256478703782,
+                0.7740974352129621
+              ],
+              "is_single_unoriented_state": false,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.7740974352129621,
+              "apex_height_H": 7.627040392731281,
+              "tau_fundamental_domain": [
+                -0.44262295081967196,
+                1.1284268777770463
+              ],
+              "winning_scaled_K": [
+                -1,
+                -2
+              ]
+            },
+            "1.0000": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 1.0,
+              "E0": 6.8451706984212946,
+              "E1_next_distinct": 7.472674192150399,
+              "rel_gap_after_conjugate_pair": 0.09167097817937923,
+              "raw_complex_multiplicity": 4,
+              "unoriented_class_multiplicity": 2,
+              "distinct_circle_peaks_count": 2,
+              "distinct_circle_peaks": [
+                0.22590256478703782,
+                0.7740974352129621
+              ],
+              "is_single_unoriented_state": false,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.7740974352129621,
+              "apex_height_H": 7.627040392731281,
+              "tau_fundamental_domain": [
+                -0.44262295081967196,
+                1.1284268777770463
+              ],
+              "winning_scaled_K": [
+                -1,
+                -2
+              ]
+            },
+            "6.2832": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 6.283185307179586,
+              "E0": 1.523285363818838,
+              "E1_next_distinct": 1.6431265610955959,
+              "rel_gap_after_conjugate_pair": 0.07867284759850843,
+              "raw_complex_multiplicity": 4,
+              "unoriented_class_multiplicity": 2,
+              "distinct_circle_peaks_count": 2,
+              "distinct_circle_peaks": [
+                0.22590256478703782,
+                0.7740974352129621
+              ],
+              "is_single_unoriented_state": false,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.7740974352129621,
+              "apex_height_H": 7.627040392731281,
+              "tau_fundamental_domain": [
+                -0.44262295081967196,
+                1.1284268777770463
+              ],
+              "winning_scaled_K": [
+                -1,
+                -2
+              ]
+            }
+          },
+          "T0_ds_circle_T_vs_S1": 0.22590256478703785,
+          "T0_dtau_F_T_vs_S1": 2.5333836635782676,
+          "T0_read_depends_on_data": true,
+          "punctured_fibre_check": {
+            "S1_puncture_cos_sin_splitting": 0.02,
+            "T_extension_sign": -1,
+            "T_ground_subspace_dim_after_scalar_puncture": 2,
+            "T_scalar_puncture_splitting": 0.0
+          },
+          "snappy": {
+            "snappy_manifold": "b++LLLLLLRLRLR",
+            "solution_type": "all tetrahedra positively oriented",
+            "homology": "Z/56 + Z",
+            "hyperbolic_volume": 7.651806891462044,
+            "m004_unit_volume": 2.029883212819307
+          }
+        },
+        "k=3": {
+          "name": "(6)_k3",
+          "word": "LLLLLLRLRLRLR",
+          "letter_count": 13,
+          "trace": 152,
+          "geodesic_length_ell": 10.047674470974922,
+          "geodesic_equiv_err": 4.454986726742938e-16,
+          "cosh_law_err": 3.126388037344441e-13,
+          "S1_A1": {
+            "extends": true,
+            "extension_sign": 1,
+            "area_A": 1.0,
+            "E0": 13.305938246699162,
+            "E1_next_distinct": 18.215212836411844,
+            "rel_gap_after_conjugate_pair": 0.3689536580353917,
+            "raw_complex_multiplicity": 2,
+            "unoriented_class_multiplicity": 1,
+            "distinct_circle_peaks_count": 1,
+            "distinct_circle_peaks": [
+              0.0
+            ],
+            "is_single_unoriented_state": true,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.0,
+            "apex_height_H": 3.6187343222787294,
+            "tau_fundamental_domain": [
+              -4.440892098500626e-16,
+              3.6187343222787294
+            ],
+            "winning_scaled_K": [
+              0,
+              -1
+            ]
+          },
+          "T_A1": {
+            "extends": true,
+            "extension_sign": 1,
+            "area_A": 1.0,
+            "E0": 6.866969471458481,
+            "E1_next_distinct": 7.465223342470892,
+            "rel_gap_after_conjugate_pair": 0.08712050832597436,
+            "raw_complex_multiplicity": 2,
+            "unoriented_class_multiplicity": 2,
+            "distinct_circle_peaks_count": 2,
+            "distinct_circle_peaks": [
+              0.18222505239555856,
+              0.8177749476044414
+            ],
+            "is_single_unoriented_state": false,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.18222505239555856,
+            "apex_height_H": 7.599342076785328,
+            "tau_fundamental_domain": [
+              0.4375,
+              1.130854475712103
+            ],
+            "winning_scaled_K": [
+              1,
+              -8
+            ]
+          },
+          "T_area_scan": {
+            "0.0100": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 0.01,
+              "E0": 535.6768229835365,
+              "E1_next_distinct": 568.1583715191558,
+              "rel_gap_after_conjugate_pair": 0.06063646426722042,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 2,
+              "distinct_circle_peaks_count": 2,
+              "distinct_circle_peaks": [
+                0.18222505239555856,
+                0.8177749476044414
+              ],
+              "is_single_unoriented_state": false,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.8177749476044414,
+              "apex_height_H": 7.599342076785332,
+              "tau_fundamental_domain": [
+                -0.43750000000000044,
+                1.1308544757121026
+              ],
+              "winning_scaled_K": [
+                1,
+                2
+              ]
+            },
+            "0.1000": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 0.1,
+              "E0": 57.108100022282116,
+              "E1_next_distinct": 62.551869921167295,
+              "rel_gap_after_conjugate_pair": 0.0953239539883337,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 2,
+              "distinct_circle_peaks_count": 2,
+              "distinct_circle_peaks": [
+                0.18222505239555856,
+                0.8177749476044414
+              ],
+              "is_single_unoriented_state": false,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.18222505239555856,
+              "apex_height_H": 7.599342076785328,
+              "tau_fundamental_domain": [
+                0.4375,
+                1.130854475712103
+              ],
+              "winning_scaled_K": [
+                1,
+                -8
+              ]
+            },
+            "1.0000": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 1.0,
+              "E0": 6.866969471458481,
+              "E1_next_distinct": 7.465223342470892,
+              "rel_gap_after_conjugate_pair": 0.08712050832597436,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 2,
+              "distinct_circle_peaks_count": 2,
+              "distinct_circle_peaks": [
+                0.18222505239555856,
+                0.8177749476044414
+              ],
+              "is_single_unoriented_state": false,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.18222505239555856,
+              "apex_height_H": 7.599342076785328,
+              "tau_fundamental_domain": [
+                0.4375,
+                1.130854475712103
+              ],
+              "winning_scaled_K": [
+                1,
+                -8
+              ]
+            },
+            "6.2832": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 6.283185307179586,
+              "E0": 1.5274636075342676,
+              "E1_next_distinct": 1.6417086897976627,
+              "rel_gap_after_conjugate_pair": 0.07479397983682051,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 2,
+              "distinct_circle_peaks_count": 2,
+              "distinct_circle_peaks": [
+                0.18222505239555856,
+                0.8177749476044414
+              ],
+              "is_single_unoriented_state": false,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.8177749476044414,
+              "apex_height_H": 7.599342076785332,
+              "tau_fundamental_domain": [
+                -0.43750000000000044,
+                1.1308544757121026
+              ],
+              "winning_scaled_K": [
+                1,
+                2
+              ]
+            }
+          },
+          "T0_ds_circle_T_vs_S1": 0.18222505239555856,
+          "T0_dtau_F_T_vs_S1": 2.526054706642827,
+          "T0_read_depends_on_data": true,
+          "punctured_fibre_check": {
+            "S1_puncture_cos_sin_splitting": 0.02,
+            "T_extension_sign": 1,
+            "T_ground_subspace_dim_after_scalar_puncture": 1,
+            "T_scalar_puncture_splitting": 0.0
+          },
+          "snappy": {
+            "snappy_manifold": "b++LLLLLLRLRLRLR",
+            "solution_type": "all tetrahedra positively oriented",
+            "homology": "Z/150 + Z",
+            "hyperbolic_volume": 9.689043309259633,
+            "m004_unit_volume": 2.029883212819307
+          }
+        }
+      },
+      "(2,1,2,1,2)": {
+        "k=1": {
+          "name": "(2,1,2,1,2)_k1",
+          "word": "LLRLLRLLRLR",
+          "letter_count": 11,
+          "trace": 138,
+          "geodesic_length_ell": 9.85440234208776,
+          "geodesic_equiv_err": 4.441535937489467e-16,
+          "cosh_law_err": 7.958078640513122e-13,
+          "S1_A1": {
+            "extends": true,
+            "extension_sign": 1,
+            "area_A": 1.0,
+            "E0": 26.33277857694147,
+            "E1_next_distinct": 26.94702811267066,
+            "rel_gap_after_conjugate_pair": 0.023326423147273297,
+            "raw_complex_multiplicity": 2,
+            "unoriented_class_multiplicity": 1,
+            "distinct_circle_peaks_count": 1,
+            "distinct_circle_peaks": [
+              0.2643837471166534
+            ],
+            "is_single_unoriented_state": true,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.2643837471166534,
+            "apex_height_H": 1.7248188310660344,
+            "tau_fundamental_domain": [
+              4.440892098500626e-16,
+              1.7248188310660335
+            ],
+            "winning_scaled_K": [
+              -1,
+              3
+            ]
+          },
+          "T_A1": {
+            "extends": true,
+            "extension_sign": -1,
+            "area_A": 1.0,
+            "E0": 1.650011136370612,
+            "E1_next_distinct": 3.220871720963515,
+            "rel_gap_after_conjugate_pair": 0.9520302923822624,
+            "raw_complex_multiplicity": 2,
+            "unoriented_class_multiplicity": 1,
+            "distinct_circle_peaks_count": 1,
+            "distinct_circle_peaks": [
+              0.2643837471166534
+            ],
+            "is_single_unoriented_state": true,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.2643837471166534,
+            "apex_height_H": 43.12047077665086,
+            "tau_fundamental_domain": [
+              4.440892098500626e-16,
+              1.7248188310660335
+            ],
+            "winning_scaled_K": [
+              -1,
+              3
+            ]
+          },
+          "T_area_scan": {
+            "0.0100": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 0.01,
+              "E0": 98.38157154499851,
+              "E1_next_distinct": 112.15888633924818,
+              "rel_gap_after_conjugate_pair": 0.14003958849090048,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.2643837471166534
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.2643837471166534,
+              "apex_height_H": 43.12047077665086,
+              "tau_fundamental_domain": [
+                4.440892098500626e-16,
+                1.7248188310660335
+              ],
+              "winning_scaled_K": [
+                -1,
+                3
+              ]
+            },
+            "0.1000": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 0.1,
+              "E0": 11.355747081800112,
+              "E1_next_distinct": 15.87210849739284,
+              "rel_gap_after_conjugate_pair": 0.3977159215558009,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.2643837471166534
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.2643837471166534,
+              "apex_height_H": 43.12047077665086,
+              "tau_fundamental_domain": [
+                4.440892098500626e-16,
+                1.7248188310660335
+              ],
+              "winning_scaled_K": [
+                -1,
+                3
+              ]
+            },
+            "1.0000": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 1.0,
+              "E0": 1.650011136370612,
+              "E1_next_distinct": 3.220871720963515,
+              "rel_gap_after_conjugate_pair": 0.9520302923822624,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.2643837471166534
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.2643837471166534,
+              "apex_height_H": 43.12047077665086,
+              "tau_fundamental_domain": [
+                4.440892098500626e-16,
+                1.7248188310660335
+              ],
+              "winning_scaled_K": [
+                -1,
+                3
+              ]
+            },
+            "6.2832": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 6.283185307179586,
+              "E0": 0.4689655672806751,
+              "E1_next_distinct": 1.2003365198272722,
+              "rel_gap_after_conjugate_pair": 1.5595408353485207,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.2643837471166534
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.2643837471166534,
+              "apex_height_H": 43.12047077665086,
+              "tau_fundamental_domain": [
+                4.440892098500626e-16,
+                1.7248188310660335
+              ],
+              "winning_scaled_K": [
+                -1,
+                3
+              ]
+            }
+          },
+          "T0_ds_circle_T_vs_S1": 0.0,
+          "T0_dtau_F_T_vs_S1": 0.0,
+          "T0_read_depends_on_data": false,
+          "punctured_fibre_check": {
+            "S1_puncture_cos_sin_splitting": 0.02,
+            "T_extension_sign": -1,
+            "T_ground_subspace_dim_after_scalar_puncture": 2,
+            "T_scalar_puncture_splitting": 0.0
+          },
+          "snappy": {
+            "snappy_manifold": "b++LLRLLRLLRLR",
+            "solution_type": "all tetrahedra positively oriented",
+            "homology": "Z/136 + Z",
+            "hyperbolic_volume": 10.089681841596857,
+            "m004_unit_volume": 2.029883212819307
+          }
+        },
+        "k=2": {
+          "name": "(2,1,2,1,2)_k2",
+          "word": "LLRLLRLLRLRLR",
+          "letter_count": 13,
+          "trace": 362,
+          "geodesic_length_ell": 11.783273161427454,
+          "geodesic_equiv_err": 2.7545511444709847e-18,
+          "cosh_law_err": 5.002220859751105e-12,
+          "S1_A1": {
+            "extends": true,
+            "extension_sign": 1,
+            "area_A": 1.0,
+            "E0": 26.347545593691052,
+            "E1_next_distinct": 27.049910509828518,
+            "rel_gap_after_conjugate_pair": 0.026657698100943705,
+            "raw_complex_multiplicity": 2,
+            "unoriented_class_multiplicity": 1,
+            "distinct_circle_peaks_count": 1,
+            "distinct_circle_peaks": [
+              0.22076288793551008
+            ],
+            "is_single_unoriented_state": true,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.22076288793551008,
+            "apex_height_H": 1.723783214742668,
+            "tau_fundamental_domain": [
+              -8.881784197001252e-16,
+              1.7237832147426697
+            ],
+            "winning_scaled_K": [
+              -1,
+              3
+            ]
+          },
+          "T_A1": {
+            "extends": true,
+            "extension_sign": 1,
+            "area_A": 1.0,
+            "E0": 1.6507655125511151,
+            "E1_next_distinct": 3.2220395505492347,
+            "rel_gap_after_conjugate_pair": 0.9518456898035456,
+            "raw_complex_multiplicity": 1,
+            "unoriented_class_multiplicity": 1,
+            "distinct_circle_peaks_count": 1,
+            "distinct_circle_peaks": [
+              0.22076288793551008
+            ],
+            "is_single_unoriented_state": true,
+            "is_strictly_simple_complex_mode": true,
+            "s_star": 0.22076288793551008,
+            "apex_height_H": 43.094580368566696,
+            "tau_fundamental_domain": [
+              -8.881784197001252e-16,
+              1.7237832147426697
+            ],
+            "winning_scaled_K": [
+              1,
+              -3
+            ]
+          },
+          "T_area_scan": {
+            "0.0100": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 0.01,
+              "E0": 98.43860855506543,
+              "E1_next_distinct": 112.21998766820961,
+              "rel_gap_after_conjugate_pair": 0.1399997350169272,
+              "raw_complex_multiplicity": 1,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.22076288793551008
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": true,
+              "s_star": 0.22076288793551008,
+              "apex_height_H": 43.094580368566696,
+              "tau_fundamental_domain": [
+                -8.881784197001252e-16,
+                1.7237832147426697
+              ],
+              "winning_scaled_K": [
+                1,
+                -3
+              ]
+            },
+            "0.1000": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 0.1,
+              "E0": 11.361890609556575,
+              "E1_next_distinct": 15.879540448528152,
+              "rel_gap_after_conjugate_pair": 0.39761426986207266,
+              "raw_complex_multiplicity": 1,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.22076288793551008
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": true,
+              "s_star": 0.22076288793551008,
+              "apex_height_H": 43.094580368566696,
+              "tau_fundamental_domain": [
+                -8.881784197001252e-16,
+                1.7237832147426697
+              ],
+              "winning_scaled_K": [
+                1,
+                -3
+              ]
+            },
+            "1.0000": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 1.0,
+              "E0": 1.6507655125511151,
+              "E1_next_distinct": 3.2220395505492347,
+              "rel_gap_after_conjugate_pair": 0.9518456898035456,
+              "raw_complex_multiplicity": 1,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.22076288793551008
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": true,
+              "s_star": 0.22076288793551008,
+              "apex_height_H": 43.094580368566696,
+              "tau_fundamental_domain": [
+                -8.881784197001252e-16,
+                1.7237832147426697
+              ],
+              "winning_scaled_K": [
+                1,
+                -3
+              ]
+            },
+            "6.2832": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 6.283185307179586,
+              "E0": 0.46913603580502733,
+              "E1_next_distinct": 1.2006790083756267,
+              "rel_gap_after_conjugate_pair": 1.5593408238514173,
+              "raw_complex_multiplicity": 1,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.22076288793551008
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": true,
+              "s_star": 0.22076288793551008,
+              "apex_height_H": 43.094580368566696,
+              "tau_fundamental_domain": [
+                -8.881784197001252e-16,
+                1.7237832147426697
+              ],
+              "winning_scaled_K": [
+                1,
+                -3
+              ]
+            }
+          },
+          "T0_ds_circle_T_vs_S1": 0.0,
+          "T0_dtau_F_T_vs_S1": 0.0,
+          "T0_read_depends_on_data": false,
+          "punctured_fibre_check": {
+            "S1_puncture_cos_sin_splitting": 0.02,
+            "T_extension_sign": 1,
+            "T_ground_subspace_dim_after_scalar_puncture": 1,
+            "T_scalar_puncture_splitting": 0.0
+          },
+          "snappy": {
+            "snappy_manifold": "b++LLRLLRLLRLRLR",
+            "solution_type": "all tetrahedra positively oriented",
+            "homology": "Z/3 + Z/120 + Z",
+            "hyperbolic_volume": 12.131918626222005,
+            "m004_unit_volume": 2.029883212819307
+          }
+        },
+        "k=3": {
+          "name": "(2,1,2,1,2)_k3",
+          "word": "LLRLLRLLRLRLRLR",
+          "letter_count": 15,
+          "trace": 948,
+          "geodesic_length_ell": 13.708706779079492,
+          "geodesic_equiv_err": 8.131177480462382e-17,
+          "cosh_law_err": 2.9103830456733704e-11,
+          "S1_A1": {
+            "extends": true,
+            "extension_sign": 1,
+            "area_A": 1.0,
+            "E0": 26.349696244315236,
+            "E1_next_distinct": 27.06488531028394,
+            "rel_gap_after_conjugate_pair": 0.027142212924864434,
+            "raw_complex_multiplicity": 2,
+            "unoriented_class_multiplicity": 1,
+            "distinct_circle_peaks_count": 1,
+            "distinct_circle_peaks": [
+              0.18971326745395145
+            ],
+            "is_single_unoriented_state": true,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.18971326745395145,
+            "apex_height_H": 1.7236325278054754,
+            "tau_fundamental_domain": [
+              4.440892098500626e-16,
+              1.723632527805476
+            ],
+            "winning_scaled_K": [
+              -1,
+              3
+            ]
+          },
+          "T_A1": {
+            "extends": true,
+            "extension_sign": -1,
+            "area_A": 1.0,
+            "E0": 1.6508753560205023,
+            "E1_next_distinct": 3.222209571308251,
+            "rel_gap_after_conjugate_pair": 0.9518188090683656,
+            "raw_complex_multiplicity": 2,
+            "unoriented_class_multiplicity": 1,
+            "distinct_circle_peaks_count": 1,
+            "distinct_circle_peaks": [
+              0.18971326745395145
+            ],
+            "is_single_unoriented_state": true,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.18971326745395145,
+            "apex_height_H": 43.09081319513689,
+            "tau_fundamental_domain": [
+              4.440892098500626e-16,
+              1.723632527805476
+            ],
+            "winning_scaled_K": [
+              -1,
+              3
+            ]
+          },
+          "T_area_scan": {
+            "0.0100": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 0.01,
+              "E0": 98.44691178970119,
+              "E1_next_distinct": 112.22888550937925,
+              "rel_gap_after_conjugate_pair": 0.13999396699328293,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.18971326745395145
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.18971326745395145,
+              "apex_height_H": 43.09081319513689,
+              "tau_fundamental_domain": [
+                4.440892098500626e-16,
+                1.723632527805476
+              ],
+              "winning_scaled_K": [
+                -1,
+                3
+              ]
+            },
+            "0.1000": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 0.1,
+              "E0": 11.362784942604625,
+              "E1_next_distinct": 15.88062259926591,
+              "rel_gap_after_conjugate_pair": 0.3975995039492218,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.18971326745395145
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.18971326745395145,
+              "apex_height_H": 43.09081319513689,
+              "tau_fundamental_domain": [
+                4.440892098500626e-16,
+                1.723632527805476
+              ],
+              "winning_scaled_K": [
+                -1,
+                3
+              ]
+            },
+            "1.0000": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 1.0,
+              "E0": 1.6508753560205023,
+              "E1_next_distinct": 3.222209571308251,
+              "rel_gap_after_conjugate_pair": 0.9518188090683656,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.18971326745395145
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.18971326745395145,
+              "apex_height_H": 43.09081319513689,
+              "tau_fundamental_domain": [
+                4.440892098500626e-16,
+                1.723632527805476
+              ],
+              "winning_scaled_K": [
+                -1,
+                3
+              ]
+            },
+            "6.2832": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 6.283185307179586,
+              "E0": 0.46916085474494706,
+              "E1_next_distinct": 1.200728867947619,
+              "rel_gap_after_conjugate_pair": 1.5593117068566578,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.18971326745395145
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.18971326745395145,
+              "apex_height_H": 43.09081319513689,
+              "tau_fundamental_domain": [
+                4.440892098500626e-16,
+                1.723632527805476
+              ],
+              "winning_scaled_K": [
+                -1,
+                3
+              ]
+            }
+          },
+          "T0_ds_circle_T_vs_S1": 0.0,
+          "T0_dtau_F_T_vs_S1": 0.0,
+          "T0_read_depends_on_data": false,
+          "punctured_fibre_check": {
+            "S1_puncture_cos_sin_splitting": 0.02,
+            "T_extension_sign": -1,
+            "T_ground_subspace_dim_after_scalar_puncture": 2,
+            "T_scalar_puncture_splitting": 0.0
+          },
+          "snappy": {
+            "snappy_manifold": "b++LLRLLRLLRLRLRLR",
+            "solution_type": "all tetrahedra positively oriented",
+            "homology": "Z/946 + Z",
+            "hyperbolic_volume": 14.164380417863114,
+            "m004_unit_volume": 2.029883212819307
+          }
+        }
+      },
+      "(2,1,1,1,2)": {
+        "k=1": {
+          "name": "(2,1,1,1,2)_k1",
+          "word": "LLRLRLLRLR",
+          "letter_count": 10,
+          "trace": 98,
+          "geodesic_length_ell": 9.16972667824471,
+          "geodesic_equiv_err": 4.510536972685579e-16,
+          "cosh_law_err": 1.1641532182693481e-10,
+          "S1_A1": {
+            "extends": true,
+            "extension_sign": 1,
+            "area_A": 1.0,
+            "E0": 27.713671345316353,
+            "E1_next_distinct": 34.908923096373094,
+            "rel_gap_after_conjugate_pair": 0.2596282412893934,
+            "raw_complex_multiplicity": 4,
+            "unoriented_class_multiplicity": 2,
+            "distinct_circle_peaks_count": 2,
+            "distinct_circle_peaks": [
+              0.0,
+              0.5
+            ],
+            "is_single_unoriented_state": false,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.5,
+            "apex_height_H": 1.6329931618554523,
+            "tau_fundamental_domain": [
+              0.0,
+              1.6329931618554532
+            ],
+            "winning_scaled_K": [
+              -3,
+              -2
+            ]
+          },
+          "T_A1": {
+            "extends": true,
+            "extension_sign": -1,
+            "area_A": 1.0,
+            "E0": 2.1507738055225407,
+            "E1_next_distinct": 3.9781406823911984,
+            "rel_gap_after_conjugate_pair": 0.849632291492731,
+            "raw_complex_multiplicity": 2,
+            "unoriented_class_multiplicity": 1,
+            "distinct_circle_peaks_count": 1,
+            "distinct_circle_peaks": [
+              0.25
+            ],
+            "is_single_unoriented_state": true,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.25,
+            "apex_height_H": 30.618621784789728,
+            "tau_fundamental_domain": [
+              0.4999999999999998,
+              1.2247448713915878
+            ],
+            "winning_scaled_K": [
+              -1,
+              3
+            ]
+          },
+          "T_area_scan": {
+            "0.0100": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 0.01,
+              "E0": 137.02719219542013,
+              "E1_next_distinct": 153.33184360508574,
+              "rel_gap_after_conjugate_pair": 0.1189884368820232,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.25
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.25,
+              "apex_height_H": 30.618621784789728,
+              "tau_fundamental_domain": [
+                0.4999999999999998,
+                1.2247448713915878
+              ],
+              "winning_scaled_K": [
+                -1,
+                3
+              ]
+            },
+            "0.1000": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 0.1,
+              "E0": 15.493716155209553,
+              "E1_next_distinct": 20.81087399098745,
+              "rel_gap_after_conjugate_pair": 0.34318157003218847,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.25
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.25,
+              "apex_height_H": 30.618621784789728,
+              "tau_fundamental_domain": [
+                0.4999999999999998,
+                1.2247448713915878
+              ],
+              "winning_scaled_K": [
+                -1,
+                3
+              ]
+            },
+            "1.0000": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 1.0,
+              "E0": 2.1507738055225407,
+              "E1_next_distinct": 3.9781406823911984,
+              "rel_gap_after_conjugate_pair": 0.849632291492731,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.25
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.25,
+              "apex_height_H": 30.618621784789728,
+              "tau_fundamental_domain": [
+                0.4999999999999998,
+                1.2247448713915878
+              ],
+              "winning_scaled_K": [
+                -1,
+                3
+              ]
+            },
+            "6.2832": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 6.283185307179586,
+              "E0": 0.5798805129091675,
+              "E1_next_distinct": 1.4175635011910193,
+              "rel_gap_after_conjugate_pair": 1.444578615134574,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.25
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.25,
+              "apex_height_H": 30.618621784789728,
+              "tau_fundamental_domain": [
+                0.4999999999999998,
+                1.2247448713915878
+              ],
+              "winning_scaled_K": [
+                -1,
+                3
+              ]
+            }
+          },
+          "T0_ds_circle_T_vs_S1": 0.25,
+          "T0_dtau_F_T_vs_S1": 0.6454972243679041,
+          "T0_read_depends_on_data": true,
+          "punctured_fibre_check": {
+            "S1_puncture_cos_sin_splitting": 0.02,
+            "T_extension_sign": -1,
+            "T_ground_subspace_dim_after_scalar_puncture": 2,
+            "T_scalar_puncture_splitting": 0.0
+          },
+          "snappy": {
+            "snappy_manifold": "b++LLRLRLLRLR",
+            "solution_type": "all tetrahedra positively oriented",
+            "homology": "Z/2 + Z/48 + Z",
+            "hyperbolic_volume": 9.503403931035798,
+            "m004_unit_volume": 2.029883212819307
+          }
+        },
+        "k=2": {
+          "name": "(2,1,1,1,2)_k2",
+          "word": "LLRLRLLRLRLR",
+          "letter_count": 12,
+          "trace": 257,
+          "geodesic_length_ell": 11.098121888553443,
+          "geodesic_equiv_err": 4.558986887619717e-16,
+          "cosh_law_err": 5.201172825763933e-12,
+          "S1_A1": {
+            "extends": true,
+            "extension_sign": 1,
+            "area_A": 1.0,
+            "E0": 27.816589290067935,
+            "E1_next_distinct": 35.02565084448714,
+            "rel_gap_after_conjugate_pair": 0.2591641081242566,
+            "raw_complex_multiplicity": 4,
+            "unoriented_class_multiplicity": 2,
+            "distinct_circle_peaks_count": 2,
+            "distinct_circle_peaks": [
+              0.0,
+              0.41242080980107604
+            ],
+            "is_single_unoriented_state": false,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.41242080980107604,
+            "apex_height_H": 1.6265330239304077,
+            "tau_fundamental_domain": [
+              -0.006329113924059326,
+              1.626533023930413
+            ],
+            "winning_scaled_K": [
+              -3,
+              8
+            ]
+          },
+          "T_A1": {
+            "extends": true,
+            "extension_sign": 1,
+            "area_A": 1.0,
+            "E0": 2.1521186129788634,
+            "E1_next_distinct": 3.980131853523991,
+            "rel_gap_after_conjugate_pair": 0.849401714905888,
+            "raw_complex_multiplicity": 1,
+            "unoriented_class_multiplicity": 1,
+            "distinct_circle_peaks_count": 1,
+            "distinct_circle_peaks": [
+              0.20621040490053824
+            ],
+            "is_single_unoriented_state": true,
+            "is_strictly_simple_complex_mode": true,
+            "s_star": 0.20621040490053824,
+            "apex_height_H": 30.59431164059594,
+            "tau_fundamental_domain": [
+              0.4999999999999998,
+              1.223772465623838
+            ],
+            "winning_scaled_K": [
+              1,
+              -3
+            ]
+          },
+          "T_area_scan": {
+            "0.0100": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 0.01,
+              "E0": 137.1328346834051,
+              "E1_next_distinct": 153.44386536712054,
+              "rel_gap_after_conjugate_pair": 0.11894329116270574,
+              "raw_complex_multiplicity": 1,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.20621040490053824
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": true,
+              "s_star": 0.20621040490053824,
+              "apex_height_H": 30.59431164059594,
+              "tau_fundamental_domain": [
+                0.4999999999999998,
+                1.223772465623838
+              ],
+              "winning_scaled_K": [
+                1,
+                -3
+              ]
+            },
+            "0.1000": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 0.1,
+              "E0": 15.504970360860316,
+              "E1_next_distinct": 20.824149381941286,
+              "rel_gap_after_conjugate_pair": 0.3430628306461224,
+              "raw_complex_multiplicity": 1,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.20621040490053824
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": true,
+              "s_star": 0.20621040490053824,
+              "apex_height_H": 30.59431164059594,
+              "tau_fundamental_domain": [
+                0.4999999999999998,
+                1.223772465623838
+              ],
+              "winning_scaled_K": [
+                1,
+                -3
+              ]
+            },
+            "1.0000": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 1.0,
+              "E0": 2.1521186129788634,
+              "E1_next_distinct": 3.980131853523991,
+              "rel_gap_after_conjugate_pair": 0.849401714905888,
+              "raw_complex_multiplicity": 1,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.20621040490053824
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": true,
+              "s_star": 0.20621040490053824,
+              "apex_height_H": 30.59431164059594,
+              "tau_fundamental_domain": [
+                0.4999999999999998,
+                1.223772465623838
+              ],
+              "winning_scaled_K": [
+                1,
+                -3
+              ]
+            },
+            "6.2832": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 6.283185307179586,
+              "E0": 0.5801730814394885,
+              "E1_next_distinct": 1.418123030178553,
+              "rel_gap_after_conjugate_pair": 1.4443102852341863,
+              "raw_complex_multiplicity": 1,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.20621040490053824
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": true,
+              "s_star": 0.20621040490053824,
+              "apex_height_H": 30.59431164059594,
+              "tau_fundamental_domain": [
+                0.4999999999999998,
+                1.223772465623838
+              ],
+              "winning_scaled_K": [
+                1,
+                -3
+              ]
+            }
+          },
+          "T0_ds_circle_T_vs_S1": 0.2062104049005378,
+          "T0_dtau_F_T_vs_S1": 0.6469816372467976,
+          "T0_read_depends_on_data": true,
+          "punctured_fibre_check": {
+            "S1_puncture_cos_sin_splitting": 0.02,
+            "T_extension_sign": 1,
+            "T_ground_subspace_dim_after_scalar_puncture": 1,
+            "T_scalar_puncture_splitting": 0.0
+          },
+          "snappy": {
+            "snappy_manifold": "b++LLRLRLLRLRLR",
+            "solution_type": "all tetrahedra positively oriented",
+            "homology": "Z/255 + Z",
+            "hyperbolic_volume": 11.543848629508533,
+            "m004_unit_volume": 2.029883212819307
+          }
+        },
+        "k=3": {
+          "name": "(2,1,1,1,2)_k3",
+          "word": "LLRLRLLRLRLRLR",
+          "letter_count": 14,
+          "trace": 673,
+          "geodesic_length_ell": 13.023486243571709,
+          "geodesic_equiv_err": 1.7284723728260704e-16,
+          "cosh_law_err": 1.7053025658242404e-11,
+          "S1_A1": {
+            "extends": true,
+            "extension_sign": 1,
+            "area_A": 1.0,
+            "E0": 27.831573027066984,
+            "E1_next_distinct": 35.04264282382303,
+            "rel_gap_after_conjugate_pair": 0.259096738432394,
+            "raw_complex_multiplicity": 4,
+            "unoriented_class_multiplicity": 2,
+            "distinct_circle_peaks_count": 2,
+            "distinct_circle_peaks": [
+              0.0,
+              0.3513627711737064
+            ],
+            "is_single_unoriented_state": false,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.0,
+            "apex_height_H": 1.625596686534388,
+            "tau_fundamental_domain": [
+              0.007246376811594013,
+              1.625596686534388
+            ],
+            "winning_scaled_K": [
+              0,
+              -1
+            ]
+          },
+          "T_A1": {
+            "extends": true,
+            "extension_sign": -1,
+            "area_A": 1.0,
+            "E0": 2.1523144705490647,
+            "E1_next_distinct": 3.9804218269015177,
+            "rel_gap_after_conjugate_pair": 0.84936814827347,
+            "raw_complex_multiplicity": 2,
+            "unoriented_class_multiplicity": 1,
+            "distinct_circle_peaks_count": 1,
+            "distinct_circle_peaks": [
+              0.17568138558685342
+            ],
+            "is_single_unoriented_state": true,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.17568138558685342,
+            "apex_height_H": 30.590774010238015,
+            "tau_fundamental_domain": [
+              0.49999999999999933,
+              1.2236309604095206
+            ],
+            "winning_scaled_K": [
+              -1,
+              3
+            ]
+          },
+          "T_area_scan": {
+            "0.0100": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 0.01,
+              "E0": 137.14822237364078,
+              "E1_next_distinct": 153.46018093590015,
+              "rel_gap_after_conjugate_pair": 0.1189367115369514,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.17568138558685342
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.17568138558685342,
+              "apex_height_H": 30.590774010238015,
+              "tau_fundamental_domain": [
+                0.49999999999999933,
+                1.2236309604095206
+              ],
+              "winning_scaled_K": [
+                -1,
+                3
+              ]
+            },
+            "0.1000": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 0.1,
+              "E0": 15.506609655275728,
+              "E1_next_distinct": 20.82608276701267,
+              "rel_gap_after_conjugate_pair": 0.34304552897074625,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.17568138558685342
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.17568138558685342,
+              "apex_height_H": 30.590774010238015,
+              "tau_fundamental_domain": [
+                0.49999999999999933,
+                1.2236309604095206
+              ],
+              "winning_scaled_K": [
+                -1,
+                3
+              ]
+            },
+            "1.0000": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 1.0,
+              "E0": 2.1523144705490647,
+              "E1_next_distinct": 3.9804218269015177,
+              "rel_gap_after_conjugate_pair": 0.84936814827347,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.17568138558685342
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.17568138558685342,
+              "apex_height_H": 30.590774010238015,
+              "tau_fundamental_domain": [
+                0.49999999999999933,
+                1.2236309604095206
+              ],
+              "winning_scaled_K": [
+                -1,
+                3
+              ]
+            },
+            "6.2832": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 6.283185307179586,
+              "E0": 0.5802156914508615,
+              "E1_next_distinct": 1.4182045181080867,
+              "rel_gap_after_conjugate_pair": 1.4442712236233868,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.17568138558685342
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.17568138558685342,
+              "apex_height_H": 30.590774010238015,
+              "tau_fundamental_domain": [
+                0.49999999999999933,
+                1.2236309604095206
+              ],
+              "winning_scaled_K": [
+                -1,
+                3
+              ]
+            }
+          },
+          "T0_ds_circle_T_vs_S1": 0.17568138558685342,
+          "T0_dtau_F_T_vs_S1": 0.6359108256228957,
+          "T0_read_depends_on_data": true,
+          "punctured_fibre_check": {
+            "S1_puncture_cos_sin_splitting": 0.02,
+            "T_extension_sign": -1,
+            "T_ground_subspace_dim_after_scalar_puncture": 2,
+            "T_scalar_puncture_splitting": 0.0
+          },
+          "snappy": {
+            "snappy_manifold": "b++LLRLRLLRLRLRLR",
+            "solution_type": "all tetrahedra positively oriented",
+            "homology": "Z/671 + Z",
+            "hyperbolic_volume": 13.57593603375736,
+            "m004_unit_volume": 2.029883212819307
+          }
+        }
+      },
+      "(2,2,2)": {
+        "k=1": {
+          "name": "(2,2,2)_k1",
+          "word": "LLRRLLLR",
+          "letter_count": 8,
+          "trace": 29,
+          "geodesic_length_ell": 6.732209285850218,
+          "geodesic_equiv_err": 4.526473304282324e-16,
+          "cosh_law_err": 2.7284841053187847e-12,
+          "S1_A1": {
+            "extends": true,
+            "extension_sign": 1,
+            "area_A": 1.0,
+            "E0": 22.255972320447444,
+            "E1_next_distinct": 28.128217098475833,
+            "rel_gap_after_conjugate_pair": 0.26385029121524045,
+            "raw_complex_multiplicity": 2,
+            "unoriented_class_multiplicity": 1,
+            "distinct_circle_peaks_count": 1,
+            "distinct_circle_peaks": [
+              0.5955843052291969
+            ],
+            "is_single_unoriented_state": true,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.5955843052291969,
+            "apex_height_H": 2.066496591641348,
+            "tau_fundamental_domain": [
+              -0.3571428571428572,
+              2.0664965916413482
+            ],
+            "winning_scaled_K": [
+              -1,
+              -1
+            ]
+          },
+          "T_A1": {
+            "extends": false
+          },
+          "T_area_scan": {
+            "0.0100": {
+              "extends": false
+            },
+            "0.1000": {
+              "extends": false
+            },
+            "1.0000": {
+              "extends": false
+            },
+            "6.2832": {
+              "extends": false
+            }
+          },
+          "T0_ds_circle_T_vs_S1": null,
+          "T0_dtau_F_T_vs_S1": null,
+          "T0_read_depends_on_data": false,
+          "punctured_fibre_check": null,
+          "snappy": {
+            "snappy_manifold": "b++LLRRLLLR",
+            "solution_type": "all tetrahedra positively oriented",
+            "homology": "Z/27 + Z",
+            "hyperbolic_volume": 6.798625679561555,
+            "m004_unit_volume": 2.029883212819307
+          }
+        },
+        "k=2": {
+          "name": "(2,2,2)_k2",
+          "word": "LLRRLLLRLR",
+          "letter_count": 10,
+          "trace": 77,
+          "geodesic_length_ell": 8.687273433321595,
+          "geodesic_equiv_err": 4.475317741893458e-16,
+          "cosh_law_err": 4.263256414560601e-14,
+          "S1_A1": {
+            "extends": true,
+            "extension_sign": 1,
+            "area_A": 1.0,
+            "E0": 22.672401546703693,
+            "E1_next_distinct": 29.156618204078026,
+            "rel_gap_after_conjugate_pair": 0.28599602225715975,
+            "raw_complex_multiplicity": 2,
+            "unoriented_class_multiplicity": 1,
+            "distinct_circle_peaks_count": 1,
+            "distinct_circle_peaks": [
+              0.4545552611473458
+            ],
+            "is_single_unoriented_state": true,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.4545552611473458,
+            "apex_height_H": 2.025632147150079,
+            "tau_fundamental_domain": [
+              -0.3947368421052697,
+              2.0256321471500764
+            ],
+            "winning_scaled_K": [
+              -2,
+              5
+            ]
+          },
+          "T_A1": {
+            "extends": false
+          },
+          "T_area_scan": {
+            "0.0100": {
+              "extends": false
+            },
+            "0.1000": {
+              "extends": false
+            },
+            "1.0000": {
+              "extends": false
+            },
+            "6.2832": {
+              "extends": false
+            }
+          },
+          "T0_ds_circle_T_vs_S1": null,
+          "T0_dtau_F_T_vs_S1": null,
+          "T0_read_depends_on_data": false,
+          "punctured_fibre_check": null,
+          "snappy": {
+            "snappy_manifold": "b++LLRRLLLRLR",
+            "solution_type": "all tetrahedra positively oriented",
+            "homology": "Z/75 + Z",
+            "hyperbolic_volume": 8.8872379947106,
+            "m004_unit_volume": 2.029883212819307
+          }
+        },
+        "k=3": {
+          "name": "(2,2,2)_k3",
+          "word": "LLRRLLLRLRLR",
+          "letter_count": 12,
+          "trace": 202,
+          "geodesic_length_ell": 10.616486378198003,
+          "geodesic_equiv_err": 3.0922801212002193e-16,
+          "cosh_law_err": 2.842170943040401e-14,
+          "S1_A1": {
+            "extends": true,
+            "extension_sign": 1,
+            "area_A": 1.0,
+            "E0": 22.732126800983735,
+            "E1_next_distinct": 29.225206136197503,
+            "rel_gap_after_conjugate_pair": 0.28563448515221107,
+            "raw_complex_multiplicity": 2,
+            "unoriented_class_multiplicity": 1,
+            "distinct_circle_peaks_count": 1,
+            "distinct_circle_peaks": [
+              0.371151127224358
+            ],
+            "is_single_unoriented_state": true,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.371151127224358,
+            "apex_height_H": 2.019900987672402,
+            "tau_fundamental_domain": [
+              -0.4000000000000141,
+              2.019900987672401
+            ],
+            "winning_scaled_K": [
+              -2,
+              5
+            ]
+          },
+          "T_A1": {
+            "extends": false
+          },
+          "T_area_scan": {
+            "0.0100": {
+              "extends": false
+            },
+            "0.1000": {
+              "extends": false
+            },
+            "1.0000": {
+              "extends": false
+            },
+            "6.2832": {
+              "extends": false
+            }
+          },
+          "T0_ds_circle_T_vs_S1": null,
+          "T0_dtau_F_T_vs_S1": null,
+          "T0_read_depends_on_data": false,
+          "punctured_fibre_check": null,
+          "snappy": {
+            "snappy_manifold": "b++LLRRLLLRLRLR",
+            "solution_type": "all tetrahedra positively oriented",
+            "homology": "Z/2 + Z/100 + Z",
+            "hyperbolic_volume": 10.929267658467026,
+            "m004_unit_volume": 2.029883212819307
+          }
+        }
+      },
+      "(2,1^8,2)": {
+        "k=1": {
+          "name": "(2,1^8,2)_k1",
+          "word": "LLRLRLRLRLRRLR",
+          "letter_count": 14,
+          "trace": 678,
+          "geodesic_length_ell": 13.038290225051686,
+          "geodesic_equiv_err": 4.453218304792617e-16,
+          "cosh_law_err": 1.862645149230957e-09,
+          "S1_A1": {
+            "extends": true,
+            "extension_sign": 1,
+            "area_A": 1.0,
+            "E0": 28.263569476829627,
+            "E1_next_distinct": 35.532314876900635,
+            "rel_gap_after_conjugate_pair": 0.2571771908013919,
+            "raw_complex_multiplicity": 4,
+            "unoriented_class_multiplicity": 2,
+            "distinct_circle_peaks_count": 2,
+            "distinct_circle_peaks": [
+              0.0,
+              0.7192404091665916
+            ],
+            "is_single_unoriented_state": false,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.7192404091665916,
+            "apex_height_H": 1.5990496465591417,
+            "tau_fundamental_domain": [
+              0.018867924528303437,
+              1.5990496465591422
+            ],
+            "winning_scaled_K": [
+              -2,
+              -1
+            ]
+          },
+          "T_A1": {
+            "extends": true,
+            "extension_sign": -1,
+            "area_A": 1.0,
+            "E0": 2.2313161742880854,
+            "E1_next_distinct": 4.097049234713734,
+            "rel_gap_after_conjugate_pair": 0.836158085494505,
+            "raw_complex_multiplicity": 2,
+            "unoriented_class_multiplicity": 1,
+            "distinct_circle_peaks_count": 1,
+            "distinct_circle_peaks": [
+              0.1716124148186718
+            ],
+            "is_single_unoriented_state": true,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.1716124148186718,
+            "apex_height_H": 29.224010781942866,
+            "tau_fundamental_domain": [
+              0.44827586206896375,
+              1.1689604312777135
+            ],
+            "winning_scaled_K": [
+              -1,
+              3
+            ]
+          },
+          "T_area_scan": {
+            "0.0100": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 0.01,
+              "E0": 143.36955982437223,
+              "E1_next_distinct": 160.052990419421,
+              "rel_gap_after_conjugate_pair": 0.11636661656411573,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.1716124148186718
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.1716124148186718,
+              "apex_height_H": 29.224010781942866,
+              "tau_fundamental_domain": [
+                0.44827586206896375,
+                1.1689604312777135
+              ],
+              "winning_scaled_K": [
+                -1,
+                3
+              ]
+            },
+            "0.1000": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 0.1,
+              "E0": 16.16892522963594,
+              "E1_next_distinct": 21.606064551097855,
+              "rel_gap_after_conjugate_pair": 0.33627091746928317,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.1716124148186718
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.1716124148186718,
+              "apex_height_H": 29.224010781942866,
+              "tau_fundamental_domain": [
+                0.44827586206896375,
+                1.1689604312777135
+              ],
+              "winning_scaled_K": [
+                -1,
+                3
+              ]
+            },
+            "1.0000": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 1.0,
+              "E0": 2.2313161742880854,
+              "E1_next_distinct": 4.097049234713734,
+              "rel_gap_after_conjugate_pair": 0.836158085494505,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.1716124148186718
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.1716124148186718,
+              "apex_height_H": 29.224010781942866,
+              "tau_fundamental_domain": [
+                0.44827586206896375,
+                1.1689604312777135
+              ],
+              "winning_scaled_K": [
+                -1,
+                3
+              ]
+            },
+            "6.2832": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 6.283185307179586,
+              "E0": 0.5973600381769008,
+              "E1_next_distinct": 1.4508816487528742,
+              "rel_gap_after_conjugate_pair": 1.428822746799165,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.1716124148186718
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.1716124148186718,
+              "apex_height_H": 29.224010781942866,
+              "tau_fundamental_domain": [
+                0.44827586206896375,
+                1.1689604312777135
+              ],
+              "winning_scaled_K": [
+                -1,
+                3
+              ]
+            }
+          },
+          "T0_ds_circle_T_vs_S1": 0.45237200565208013,
+          "T0_dtau_F_T_vs_S1": 0.6077564560943131,
+          "T0_read_depends_on_data": true,
+          "punctured_fibre_check": {
+            "S1_puncture_cos_sin_splitting": 0.02,
+            "T_extension_sign": -1,
+            "T_ground_subspace_dim_after_scalar_puncture": 2,
+            "T_scalar_puncture_splitting": 0.0
+          },
+          "snappy": {
+            "snappy_manifold": "b++LLRLRLRLRLRRLR",
+            "solution_type": "all tetrahedra positively oriented",
+            "homology": "Z/2 + Z/338 + Z",
+            "hyperbolic_volume": 13.618627523558064,
+            "m004_unit_volume": 2.029883212819307
+          }
+        },
+        "k=2": {
+          "name": "(2,1^8,2)_k2",
+          "word": "LLRLRLRLRLRRLRLR",
+          "letter_count": 16,
+          "trace": 1767,
+          "geodesic_length_ell": 14.95407630408339,
+          "geodesic_equiv_err": 2.443558762721832e-16,
+          "cosh_law_err": 4.76837158203125e-07,
+          "S1_A1": {
+            "extends": true,
+            "extension_sign": 1,
+            "area_A": 1.0,
+            "E0": 27.99953718288708,
+            "E1_next_distinct": 35.23308485792301,
+            "rel_gap_after_conjugate_pair": 0.25834525863009516,
+            "raw_complex_multiplicity": 4,
+            "unoriented_class_multiplicity": 2,
+            "distinct_circle_peaks_count": 2,
+            "distinct_circle_peaks": [
+              0.0,
+              0.6284395705968256
+            ],
+            "is_single_unoriented_state": false,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.0,
+            "apex_height_H": 1.6151726399796387,
+            "tau_fundamental_domain": [
+              0.002742230347349217,
+              1.6151726399796384
+            ],
+            "winning_scaled_K": [
+              0,
+              -1
+            ]
+          },
+          "T_A1": {
+            "extends": true,
+            "extension_sign": 1,
+            "area_A": 1.0,
+            "E0": 2.2294511951603466,
+            "E1_next_distinct": 4.094303678824644,
+            "rel_gap_after_conjugate_pair": 0.8364625732612967,
+            "raw_complex_multiplicity": 1,
+            "unoriented_class_multiplicity": 1,
+            "distinct_circle_peaks_count": 1,
+            "distinct_circle_peaks": [
+              0.15022610467263103
+            ],
+            "is_single_unoriented_state": true,
+            "is_strictly_simple_complex_mode": true,
+            "s_star": 0.15022610467263103,
+            "apex_height_H": 29.25494814797556,
+            "tau_fundamental_domain": [
+              0.4470198675496684,
+              1.170197925919022
+            ],
+            "winning_scaled_K": [
+              1,
+              -3
+            ]
+          },
+          "T_area_scan": {
+            "0.0100": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 0.01,
+              "E0": 143.22235279306128,
+              "E1_next_distinct": 159.8970908700285,
+              "rel_gap_after_conjugate_pair": 0.11642552822086494,
+              "raw_complex_multiplicity": 1,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.15022610467263103
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": true,
+              "s_star": 0.15022610467263103,
+              "apex_height_H": 29.25494814797556,
+              "tau_fundamental_domain": [
+                0.4470198675496684,
+                1.170197925919022
+              ],
+              "winning_scaled_K": [
+                1,
+                -3
+              ]
+            },
+            "0.1000": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 0.1,
+              "E0": 16.15326416964515,
+              "E1_next_distinct": 21.587649193033236,
+              "rel_gap_after_conjugate_pair": 0.33642643160632874,
+              "raw_complex_multiplicity": 1,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.15022610467263103
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": true,
+              "s_star": 0.15022610467263103,
+              "apex_height_H": 29.25494814797556,
+              "tau_fundamental_domain": [
+                0.4470198675496684,
+                1.170197925919022
+              ],
+              "winning_scaled_K": [
+                1,
+                -3
+              ]
+            },
+            "1.0000": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 1.0,
+              "E0": 2.2294511951603466,
+              "E1_next_distinct": 4.094303678824644,
+              "rel_gap_after_conjugate_pair": 0.8364625732612967,
+              "raw_complex_multiplicity": 1,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.15022610467263103
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": true,
+              "s_star": 0.15022610467263103,
+              "apex_height_H": 29.25494814797556,
+              "tau_fundamental_domain": [
+                0.4470198675496684,
+                1.170197925919022
+              ],
+              "winning_scaled_K": [
+                1,
+                -3
+              ]
+            },
+            "6.2832": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 6.283185307179586,
+              "E0": 0.5969562664855537,
+              "E1_next_distinct": 1.4501145298611027,
+              "rel_gap_after_conjugate_pair": 1.4291805133369773,
+              "raw_complex_multiplicity": 1,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.15022610467263103
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": true,
+              "s_star": 0.15022610467263103,
+              "apex_height_H": 29.25494814797556,
+              "tau_fundamental_domain": [
+                0.4470198675496684,
+                1.170197925919022
+              ],
+              "winning_scaled_K": [
+                1,
+                -3
+              ]
+            }
+          },
+          "T0_ds_circle_T_vs_S1": 0.15022610467263103,
+          "T0_dtau_F_T_vs_S1": 0.6287965609570418,
+          "T0_read_depends_on_data": true,
+          "punctured_fibre_check": {
+            "S1_puncture_cos_sin_splitting": 0.02,
+            "T_extension_sign": 1,
+            "T_ground_subspace_dim_after_scalar_puncture": 1,
+            "T_scalar_puncture_splitting": 0.0
+          },
+          "snappy": {
+            "snappy_manifold": "b++LLRLRLRLRLRRLRLR",
+            "solution_type": "all tetrahedra positively oriented",
+            "homology": "Z/1765 + Z",
+            "hyperbolic_volume": 15.625541225335178,
+            "m004_unit_volume": 2.029883212819307
+          }
+        },
+        "k=3": {
+          "name": "(2,1^8,2)_k3",
+          "word": "LLRLRLRLRLRRLRLRLR",
+          "letter_count": 18,
+          "trace": 4623,
+          "geodesic_length_ell": 16.877598154396622,
+          "geodesic_equiv_err": 4.796881965283937e-16,
+          "cosh_law_err": 3.814697265625e-06,
+          "S1_A1": {
+            "extends": true,
+            "extension_sign": 1,
+            "area_A": 1.0,
+            "E0": 27.960807130678784,
+            "E1_next_distinct": 35.189177975193054,
+            "rel_gap_after_conjugate_pair": 0.2585179608990347,
+            "raw_complex_multiplicity": 4,
+            "unoriented_class_multiplicity": 2,
+            "distinct_circle_peaks_count": 2,
+            "distinct_circle_peaks": [
+              0.0,
+              0.5569923718754579
+            ],
+            "is_single_unoriented_state": false,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.5569923718754579,
+            "apex_height_H": 1.6175645792093662,
+            "tau_fundamental_domain": [
+              0.0003498950314544391,
+              1.6175645792096818
+            ],
+            "winning_scaled_K": [
+              -13,
+              -8
+            ]
+          },
+          "T_A1": {
+            "extends": true,
+            "extension_sign": -1,
+            "area_A": 1.0,
+            "E0": 2.229177626694839,
+            "E1_next_distinct": 4.093900958852532,
+            "rel_gap_after_conjugate_pair": 0.8365072885297544,
+            "raw_complex_multiplicity": 2,
+            "unoriented_class_multiplicity": 1,
+            "distinct_circle_peaks_count": 1,
+            "distinct_circle_peaks": [
+              0.1331833529195868
+            ],
+            "is_single_unoriented_state": true,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.1331833529195868,
+            "apex_height_H": 29.259490932787774,
+            "tau_fundamental_domain": [
+              0.4468354430379746,
+              1.1703796373115114
+            ],
+            "winning_scaled_K": [
+              -1,
+              3
+            ]
+          },
+          "T_area_scan": {
+            "0.0100": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 0.01,
+              "E0": 143.2007651273699,
+              "E1_next_distinct": 159.8742271062414,
+              "rel_gap_after_conjugate_pair": 0.11643416823954322,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.1331833529195868
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.1331833529195868,
+              "apex_height_H": 29.259490932787774,
+              "tau_fundamental_domain": [
+                0.4468354430379746,
+                1.1703796373115114
+              ],
+              "winning_scaled_K": [
+                -1,
+                3
+              ]
+            },
+            "0.1000": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 0.1,
+              "E0": 16.150967264361363,
+              "E1_next_distinct": 21.584948331609024,
+              "rel_gap_after_conjugate_pair": 0.3364492651309036,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.1331833529195868
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.1331833529195868,
+              "apex_height_H": 29.259490932787774,
+              "tau_fundamental_domain": [
+                0.4468354430379746,
+                1.1703796373115114
+              ],
+              "winning_scaled_K": [
+                -1,
+                3
+              ]
+            },
+            "1.0000": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 1.0,
+              "E0": 2.229177626694839,
+              "E1_next_distinct": 4.093900958852532,
+              "rel_gap_after_conjugate_pair": 0.8365072885297544,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.1331833529195868
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.1331833529195868,
+              "apex_height_H": 29.259490932787774,
+              "tau_fundamental_domain": [
+                0.4468354430379746,
+                1.1703796373115114
+              ],
+              "winning_scaled_K": [
+                -1,
+                3
+              ]
+            },
+            "6.2832": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 6.283185307179586,
+              "E0": 0.5968970406179686,
+              "E1_next_distinct": 1.4500019959932935,
+              "rel_gap_after_conjugate_pair": 1.42923301226641,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 1,
+              "distinct_circle_peaks_count": 1,
+              "distinct_circle_peaks": [
+                0.1331833529195868
+              ],
+              "is_single_unoriented_state": true,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.1331833529195868,
+              "apex_height_H": 29.259490932787774,
+              "tau_fundamental_domain": [
+                0.4468354430379746,
+                1.1703796373115114
+              ],
+              "winning_scaled_K": [
+                -1,
+                3
+              ]
+            }
+          },
+          "T0_ds_circle_T_vs_S1": 0.4238090189558711,
+          "T0_dtau_F_T_vs_S1": 0.6319206570758331,
+          "T0_read_depends_on_data": true,
+          "punctured_fibre_check": {
+            "S1_puncture_cos_sin_splitting": 0.02,
+            "T_extension_sign": -1,
+            "T_ground_subspace_dim_after_scalar_puncture": 2,
+            "T_scalar_puncture_splitting": 0.0
+          },
+          "snappy": {
+            "snappy_manifold": "b++LLRLRLRLRLRRLRLRLR",
+            "solution_type": "all tetrahedra positively oriented",
+            "homology": "Z/4621 + Z",
+            "hyperbolic_volume": 17.6506381460342,
+            "m004_unit_volume": 2.029883212819307
+          }
+        }
+      },
+      "golden_bg": {
+        "k=1": {
+          "name": "golden_bg_k1",
+          "word": "LRLR",
+          "letter_count": 4,
+          "trace": 7,
+          "geodesic_length_ell": 3.8496946004768278,
+          "geodesic_equiv_err": 4.494775313252277e-16,
+          "cosh_law_err": 5.684341886080802e-14,
+          "S1_A1": {
+            "extends": true,
+            "extension_sign": 1,
+            "area_A": 1.0,
+            "E0": 39.57399863138933,
+            "E1_next_distinct": 48.22072541915263,
+            "rel_gap_after_conjugate_pair": 0.21849515052302254,
+            "raw_complex_multiplicity": 8,
+            "unoriented_class_multiplicity": 4,
+            "distinct_circle_peaks_count": 4,
+            "distinct_circle_peaks": [
+              0.0,
+              0.25,
+              0.5,
+              0.75
+            ],
+            "is_single_unoriented_state": false,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.5,
+            "apex_height_H": 1.1180339887498951,
+            "tau_fundamental_domain": [
+              0.5,
+              1.1180339887498953
+            ],
+            "winning_scaled_K": [
+              -1,
+              -1
+            ]
+          },
+          "T_A1": {
+            "extends": true,
+            "extension_sign": 1,
+            "area_A": 1.0,
+            "E0": 9.001827685565894,
+            "E1_next_distinct": 12.995777280181699,
+            "rel_gap_after_conjugate_pair": 0.4436820759210886,
+            "raw_complex_multiplicity": 2,
+            "unoriented_class_multiplicity": 2,
+            "distinct_circle_peaks_count": 2,
+            "distinct_circle_peaks": [
+              0.25,
+              0.75
+            ],
+            "is_single_unoriented_state": false,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.25,
+            "apex_height_H": 5.5901699437494745,
+            "tau_fundamental_domain": [
+              0.4999999999999998,
+              1.1180339887498947
+            ],
+            "winning_scaled_K": [
+              1,
+              -3
+            ]
+          },
+          "T_area_scan": {
+            "0.0100": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 0.01,
+              "E0": 725.064800525365,
+              "E1_next_distinct": 762.8953743328251,
+              "rel_gap_after_conjugate_pair": 0.05217543836088721,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 2,
+              "distinct_circle_peaks_count": 2,
+              "distinct_circle_peaks": [
+                0.25,
+                0.75
+              ],
+              "is_single_unoriented_state": false,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.25,
+              "apex_height_H": 5.5901699437494745,
+              "tau_fundamental_domain": [
+                0.4999999999999998,
+                1.1180339887498947
+              ],
+              "winning_scaled_K": [
+                1,
+                -3
+              ]
+            },
+            "0.1000": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 0.1,
+              "E0": 76.62527311388779,
+              "E1_next_distinct": 88.75482280295404,
+              "rel_gap_after_conjugate_pair": 0.1582969847433778,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 2,
+              "distinct_circle_peaks_count": 2,
+              "distinct_circle_peaks": [
+                0.25,
+                0.75
+              ],
+              "is_single_unoriented_state": false,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.25,
+              "apex_height_H": 5.5901699437494745,
+              "tau_fundamental_domain": [
+                0.4999999999999998,
+                1.1180339887498947
+              ],
+              "winning_scaled_K": [
+                1,
+                -3
+              ]
+            },
+            "1.0000": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 1.0,
+              "E0": 9.001827685565894,
+              "E1_next_distinct": 12.995777280181699,
+              "rel_gap_after_conjugate_pair": 0.4436820759210886,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 2,
+              "distinct_circle_peaks_count": 2,
+              "distinct_circle_peaks": [
+                0.25,
+                0.75
+              ],
+              "is_single_unoriented_state": false,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.25,
+              "apex_height_H": 5.5901699437494745,
+              "tau_fundamental_domain": [
+                0.4999999999999998,
+                1.1180339887498947
+              ],
+              "winning_scaled_K": [
+                1,
+                -3
+              ]
+            },
+            "6.2832": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 6.283185307179586,
+              "E0": 1.93188647634654,
+              "E1_next_distinct": 3.6512293788473094,
+              "rel_gap_after_conjugate_pair": 0.8899813335575911,
+              "raw_complex_multiplicity": 2,
+              "unoriented_class_multiplicity": 2,
+              "distinct_circle_peaks_count": 2,
+              "distinct_circle_peaks": [
+                0.25,
+                0.75
+              ],
+              "is_single_unoriented_state": false,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.25,
+              "apex_height_H": 5.5901699437494745,
+              "tau_fundamental_domain": [
+                0.4999999999999998,
+                1.1180339887498947
+              ],
+              "winning_scaled_K": [
+                1,
+                -3
+              ]
+            }
+          },
+          "T0_ds_circle_T_vs_S1": 0.25,
+          "T0_dtau_F_T_vs_S1": 7.021666937153402e-16,
+          "T0_read_depends_on_data": true,
+          "punctured_fibre_check": {
+            "S1_puncture_cos_sin_splitting": 0.02,
+            "T_extension_sign": 1,
+            "T_ground_subspace_dim_after_scalar_puncture": 1,
+            "T_scalar_puncture_splitting": 0.0
+          },
+          "snappy": {
+            "snappy_manifold": "b++LRLR",
+            "solution_type": "all tetrahedra positively oriented",
+            "homology": "Z/5 + Z",
+            "hyperbolic_volume": 4.059766425638614,
+            "m004_unit_volume": 2.029883212819307
+          }
+        },
+        "k=2": {
+          "name": "golden_bg_k2",
+          "word": "LRLRLR",
+          "letter_count": 6,
+          "trace": 18,
+          "geodesic_length_ell": 5.774541900715241,
+          "geodesic_equiv_err": 4.836931990858464e-16,
+          "cosh_law_err": 5.684341886080801e-13,
+          "S1_A1": {
+            "extends": true,
+            "extension_sign": 1,
+            "area_A": 1.0,
+            "E0": 39.57399863138933,
+            "E1_next_distinct": 48.22072541915265,
+            "rel_gap_after_conjugate_pair": 0.21849515052302307,
+            "raw_complex_multiplicity": 8,
+            "unoriented_class_multiplicity": 6,
+            "distinct_circle_peaks_count": 6,
+            "distinct_circle_peaks": [
+              0.0,
+              0.16666666666666669,
+              0.33333333333333337,
+              0.5,
+              0.6666666666666666,
+              0.8333333333333333
+            ],
+            "is_single_unoriented_state": false,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.5,
+            "apex_height_H": 1.1180339887498945,
+            "tau_fundamental_domain": [
+              0.5000000000000003,
+              1.118033988749894
+            ],
+            "winning_scaled_K": [
+              -2,
+              -1
+            ]
+          },
+          "T_A1": {
+            "extends": true,
+            "extension_sign": -1,
+            "area_A": 1.0,
+            "E0": 9.001827685565894,
+            "E1_next_distinct": 12.9957772801817,
+            "rel_gap_after_conjugate_pair": 0.44368207592108877,
+            "raw_complex_multiplicity": 6,
+            "unoriented_class_multiplicity": 3,
+            "distinct_circle_peaks_count": 3,
+            "distinct_circle_peaks": [
+              0.16666666666666669,
+              0.5,
+              0.8333333333333333
+            ],
+            "is_single_unoriented_state": false,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.5,
+            "apex_height_H": 5.590169943749476,
+            "tau_fundamental_domain": [
+              0.5000000000000003,
+              1.118033988749894
+            ],
+            "winning_scaled_K": [
+              -4,
+              -3
+            ]
+          },
+          "T_area_scan": {
+            "0.0100": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 0.01,
+              "E0": 725.064800525365,
+              "E1_next_distinct": 762.8953743328251,
+              "rel_gap_after_conjugate_pair": 0.05217543836088721,
+              "raw_complex_multiplicity": 6,
+              "unoriented_class_multiplicity": 3,
+              "distinct_circle_peaks_count": 3,
+              "distinct_circle_peaks": [
+                0.16666666666666669,
+                0.5,
+                0.8333333333333333
+              ],
+              "is_single_unoriented_state": false,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.8333333333333333,
+              "apex_height_H": 5.5901699437494745,
+              "tau_fundamental_domain": [
+                0.5,
+                1.1180339887498947
+              ],
+              "winning_scaled_K": [
+                -1,
+                -2
+              ]
+            },
+            "0.1000": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 0.1,
+              "E0": 76.62527311388779,
+              "E1_next_distinct": 88.75482280295404,
+              "rel_gap_after_conjugate_pair": 0.1582969847433778,
+              "raw_complex_multiplicity": 6,
+              "unoriented_class_multiplicity": 3,
+              "distinct_circle_peaks_count": 3,
+              "distinct_circle_peaks": [
+                0.16666666666666669,
+                0.5,
+                0.8333333333333333
+              ],
+              "is_single_unoriented_state": false,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.5,
+              "apex_height_H": 5.590169943749476,
+              "tau_fundamental_domain": [
+                0.5000000000000003,
+                1.118033988749894
+              ],
+              "winning_scaled_K": [
+                -4,
+                -3
+              ]
+            },
+            "1.0000": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 1.0,
+              "E0": 9.001827685565894,
+              "E1_next_distinct": 12.9957772801817,
+              "rel_gap_after_conjugate_pair": 0.44368207592108877,
+              "raw_complex_multiplicity": 6,
+              "unoriented_class_multiplicity": 3,
+              "distinct_circle_peaks_count": 3,
+              "distinct_circle_peaks": [
+                0.16666666666666669,
+                0.5,
+                0.8333333333333333
+              ],
+              "is_single_unoriented_state": false,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.5,
+              "apex_height_H": 5.590169943749476,
+              "tau_fundamental_domain": [
+                0.5000000000000003,
+                1.118033988749894
+              ],
+              "winning_scaled_K": [
+                -4,
+                -3
+              ]
+            },
+            "6.2832": {
+              "extends": true,
+              "extension_sign": -1,
+              "area_A": 6.283185307179586,
+              "E0": 1.9318864763465387,
+              "E1_next_distinct": 3.6512293788473085,
+              "rel_gap_after_conjugate_pair": 0.889981333557592,
+              "raw_complex_multiplicity": 6,
+              "unoriented_class_multiplicity": 3,
+              "distinct_circle_peaks_count": 3,
+              "distinct_circle_peaks": [
+                0.16666666666666669,
+                0.5,
+                0.8333333333333333
+              ],
+              "is_single_unoriented_state": false,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.5,
+              "apex_height_H": 5.590169943749476,
+              "tau_fundamental_domain": [
+                0.5000000000000003,
+                1.118033988749894
+              ],
+              "winning_scaled_K": [
+                -4,
+                -3
+              ]
+            }
+          },
+          "T0_ds_circle_T_vs_S1": 0.0,
+          "T0_dtau_F_T_vs_S1": 0.0,
+          "T0_read_depends_on_data": false,
+          "punctured_fibre_check": {
+            "S1_puncture_cos_sin_splitting": 0.02,
+            "T_extension_sign": -1,
+            "T_ground_subspace_dim_after_scalar_puncture": 2,
+            "T_scalar_puncture_splitting": 0.0
+          },
+          "snappy": {
+            "snappy_manifold": "b++LRLRLR",
+            "solution_type": "all tetrahedra positively oriented",
+            "homology": "Z/4 + Z/4 + Z",
+            "hyperbolic_volume": 6.08964963845792,
+            "m004_unit_volume": 2.029883212819307
+          }
+        },
+        "k=3": {
+          "name": "golden_bg_k3",
+          "word": "LRLRLRLR",
+          "letter_count": 8,
+          "trace": 47,
+          "geodesic_length_ell": 7.6993892009536555,
+          "geodesic_equiv_err": 3.165870343657673e-17,
+          "cosh_law_err": 1.3096723705530167e-10,
+          "S1_A1": {
+            "extends": true,
+            "extension_sign": 1,
+            "area_A": 1.0,
+            "E0": 39.57399863138933,
+            "E1_next_distinct": 48.22072541915263,
+            "rel_gap_after_conjugate_pair": 0.21849515052302254,
+            "raw_complex_multiplicity": 8,
+            "unoriented_class_multiplicity": 8,
+            "distinct_circle_peaks_count": 8,
+            "distinct_circle_peaks": [
+              0.0,
+              0.125,
+              0.25,
+              0.3749999999999999,
+              0.5,
+              0.625,
+              0.75,
+              0.875
+            ],
+            "is_single_unoriented_state": false,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.625,
+            "apex_height_H": 1.1180339887498953,
+            "tau_fundamental_domain": [
+              0.5000000000000008,
+              1.1180339887498942
+            ],
+            "winning_scaled_K": [
+              -2,
+              -1
+            ]
+          },
+          "T_A1": {
+            "extends": true,
+            "extension_sign": 1,
+            "area_A": 1.0,
+            "E0": 9.001827685565894,
+            "E1_next_distinct": 12.995777280181702,
+            "rel_gap_after_conjugate_pair": 0.443682075921089,
+            "raw_complex_multiplicity": 4,
+            "unoriented_class_multiplicity": 4,
+            "distinct_circle_peaks_count": 4,
+            "distinct_circle_peaks": [
+              0.125,
+              0.37500000000000006,
+              0.6250000000000001,
+              0.875
+            ],
+            "is_single_unoriented_state": false,
+            "is_strictly_simple_complex_mode": false,
+            "s_star": 0.6250000000000001,
+            "apex_height_H": 5.590169943749472,
+            "tau_fundamental_domain": [
+              0.49999999999999906,
+              1.1180339887498947
+            ],
+            "winning_scaled_K": [
+              -4,
+              -3
+            ]
+          },
+          "T_area_scan": {
+            "0.0100": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 0.01,
+              "E0": 725.0648005253648,
+              "E1_next_distinct": 762.8953743328251,
+              "rel_gap_after_conjugate_pair": 0.052175438360887366,
+              "raw_complex_multiplicity": 4,
+              "unoriented_class_multiplicity": 4,
+              "distinct_circle_peaks_count": 4,
+              "distinct_circle_peaks": [
+                0.125,
+                0.37500000000000006,
+                0.6250000000000001,
+                0.875
+              ],
+              "is_single_unoriented_state": false,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.6250000000000001,
+              "apex_height_H": 5.590169943749472,
+              "tau_fundamental_domain": [
+                0.49999999999999906,
+                1.1180339887498947
+              ],
+              "winning_scaled_K": [
+                -4,
+                -3
+              ]
+            },
+            "0.1000": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 0.1,
+              "E0": 76.62527311388779,
+              "E1_next_distinct": 88.75482280295408,
+              "rel_gap_after_conjugate_pair": 0.15829698474337836,
+              "raw_complex_multiplicity": 4,
+              "unoriented_class_multiplicity": 4,
+              "distinct_circle_peaks_count": 4,
+              "distinct_circle_peaks": [
+                0.125,
+                0.37500000000000006,
+                0.6250000000000001,
+                0.875
+              ],
+              "is_single_unoriented_state": false,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.6250000000000001,
+              "apex_height_H": 5.590169943749472,
+              "tau_fundamental_domain": [
+                0.49999999999999906,
+                1.1180339887498947
+              ],
+              "winning_scaled_K": [
+                -4,
+                -3
+              ]
+            },
+            "1.0000": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 1.0,
+              "E0": 9.001827685565894,
+              "E1_next_distinct": 12.995777280181702,
+              "rel_gap_after_conjugate_pair": 0.443682075921089,
+              "raw_complex_multiplicity": 4,
+              "unoriented_class_multiplicity": 4,
+              "distinct_circle_peaks_count": 4,
+              "distinct_circle_peaks": [
+                0.125,
+                0.37500000000000006,
+                0.6250000000000001,
+                0.875
+              ],
+              "is_single_unoriented_state": false,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.6250000000000001,
+              "apex_height_H": 5.590169943749472,
+              "tau_fundamental_domain": [
+                0.49999999999999906,
+                1.1180339887498947
+              ],
+              "winning_scaled_K": [
+                -4,
+                -3
+              ]
+            },
+            "6.2832": {
+              "extends": true,
+              "extension_sign": 1,
+              "area_A": 6.283185307179586,
+              "E0": 1.9318864763465387,
+              "E1_next_distinct": 3.6512293788473085,
+              "rel_gap_after_conjugate_pair": 0.889981333557592,
+              "raw_complex_multiplicity": 4,
+              "unoriented_class_multiplicity": 4,
+              "distinct_circle_peaks_count": 4,
+              "distinct_circle_peaks": [
+                0.125,
+                0.37500000000000006,
+                0.6250000000000001,
+                0.875
+              ],
+              "is_single_unoriented_state": false,
+              "is_strictly_simple_complex_mode": false,
+              "s_star": 0.37500000000000006,
+              "apex_height_H": 5.590169943749476,
+              "tau_fundamental_domain": [
+                0.4999999999999992,
+                1.1180339887498942
+              ],
+              "winning_scaled_K": [
+                -4,
+                7
+              ]
+            }
+          },
+          "T0_ds_circle_T_vs_S1": 1.1102230246251565e-16,
+          "T0_dtau_F_T_vs_S1": 1.7772239894833365e-15,
+          "T0_read_depends_on_data": false,
+          "punctured_fibre_check": {
+            "S1_puncture_cos_sin_splitting": 0.02,
+            "T_extension_sign": 1,
+            "T_ground_subspace_dim_after_scalar_puncture": 1,
+            "T_scalar_puncture_splitting": 0.0
+          },
+          "snappy": {
+            "snappy_manifold": "b++LRLRLRLR",
+            "solution_type": "all tetrahedra positively oriented",
+            "homology": "Z/3 + Z/15 + Z",
+            "hyperbolic_volume": 8.119532851277228,
+            "m004_unit_volume": 2.029883212819307
+          }
+        }
+      }
+    },
+    "charge2_control_on_6_k1": {
+      "name": "(6)_k1_charge2",
+      "word": "LLLLLLRLR",
+      "letter_count": 9,
+      "trace": 22,
+      "geodesic_length_ell": 6.177939809689206,
+      "geodesic_equiv_err": 1.0501497843383934e-15,
+      "cosh_law_err": 4.547473508864641e-13,
+      "S1_A1": {
+        "extends": true,
+        "extension_sign": 1,
+        "area_A": 1.0,
+        "E0": 13.19758994706976,
+        "E1_next_distinct": 18.085823332938674,
+        "rel_gap_after_conjugate_pair": 0.3703883364670108,
+        "raw_complex_multiplicity": 2,
+        "unoriented_class_multiplicity": 1,
+        "distinct_circle_peaks_count": 1,
+        "distinct_circle_peaks": [
+          0.0
+        ],
+        "is_single_unoriented_state": true,
+        "is_strictly_simple_complex_mode": false,
+        "s_star": 0.0,
+        "apex_height_H": 3.6514837167011076,
+        "tau_fundamental_domain": [
+          4.440892098500626e-16,
+          3.6514837167011076
+        ],
+        "winning_scaled_K": [
+          0,
+          -1
+        ]
+      },
+      "T_A1": {
+        "extends": true,
+        "extension_sign": 1,
+        "area_A": 1.0,
+        "E0": 10.789637517855736,
+        "E1_next_distinct": 14.78938045043521,
+        "rel_gap_after_conjugate_pair": 0.3707022525974865,
+        "raw_complex_multiplicity": 1,
+        "unoriented_class_multiplicity": 1,
+        "distinct_circle_peaks_count": 1,
+        "distinct_circle_peaks": [
+          0.5
+        ],
+        "is_single_unoriented_state": true,
+        "is_strictly_simple_complex_mode": true,
+        "s_star": 0.5,
+        "apex_height_H": 4.564354645876383,
+        "tau_fundamental_domain": [
+          0.5000000000000004,
+          1.3693063937629149
+        ],
+        "winning_scaled_K": [
+          -3,
+          -1
+        ]
+      },
+      "T_area_scan": {
+        "1.0000": {
+          "extends": true,
+          "extension_sign": 1,
+          "area_A": 1.0,
+          "E0": 10.789637517855736,
+          "E1_next_distinct": 14.78938045043521,
+          "rel_gap_after_conjugate_pair": 0.3707022525974865,
+          "raw_complex_multiplicity": 1,
+          "unoriented_class_multiplicity": 1,
+          "distinct_circle_peaks_count": 1,
+          "distinct_circle_peaks": [
+            0.5
+          ],
+          "is_single_unoriented_state": true,
+          "is_strictly_simple_complex_mode": true,
+          "s_star": 0.5,
+          "apex_height_H": 4.564354645876383,
+          "tau_fundamental_domain": [
+            0.5000000000000004,
+            1.3693063937629149
+          ],
+          "winning_scaled_K": [
+            -3,
+            -1
+          ]
+        }
+      },
+      "T0_ds_circle_T_vs_S1": 0.5,
+      "T0_dtau_F_T_vs_S1": 2.3363076281460313,
+      "T0_read_depends_on_data": true,
+      "punctured_fibre_check": {
+        "S1_puncture_cos_sin_splitting": 0.02,
+        "T_extension_sign": 1,
+        "T_ground_subspace_dim_after_scalar_puncture": 1,
+        "T_scalar_puncture_splitting": 0.0
+      },
+      "snappy": {
+        "snappy_manifold": "b++LLLLLLRLR",
+        "solution_type": "all tetrahedra positively oriented",
+        "homology": "Z/20 + Z",
+        "hyperbolic_volume": 5.586361607662567,
+        "m004_unit_volume": 2.029883212819307
+      }
+    },
+    "planted_negative_control_extension": {
+      "name": "neg_ctrl_L2RLR",
+      "word": "LLRLR",
+      "letter_count": 5,
+      "trace": 10,
+      "geodesic_length_ell": 4.584863339122355,
+      "geodesic_equiv_err": 5.200468367758596e-16,
+      "cosh_law_err": 7.105427357601002e-15,
+      "S1_A1": {
+        "extends": true,
+        "extension_sign": 1,
+        "area_A": 1.0,
+        "E0": 27.713671345316353,
+        "E1_next_distinct": 34.908923096373094,
+        "rel_gap_after_conjugate_pair": 0.2596282412893934,
+        "raw_complex_multiplicity": 2,
+        "unoriented_class_multiplicity": 1,
+        "distinct_circle_peaks_count": 1,
+        "distinct_circle_peaks": [
+          0.0
+        ],
+        "is_single_unoriented_state": true,
+        "is_strictly_simple_complex_mode": false,
+        "s_star": 0.0,
+        "apex_height_H": 1.6329931618554523,
+        "tau_fundamental_domain": [
+          0.0,
+          1.632993161855452
+        ],
+        "winning_scaled_K": [
+          0,
+          -1
+        ]
+      },
+      "T_A1": {
+        "extends": false
+      },
+      "T_area_scan": {
+        "0.0100": {
+          "extends": false
+        },
+        "0.1000": {
+          "extends": false
+        },
+        "1.0000": {
+          "extends": false
+        },
+        "6.2832": {
+          "extends": false
+        }
+      },
+      "T0_ds_circle_T_vs_S1": null,
+      "T0_dtau_F_T_vs_S1": null,
+      "T0_read_depends_on_data": false,
+      "punctured_fibre_check": null,
+      "snappy": {
+        "snappy_manifold": "b++LLRLR",
+        "solution_type": "all tetrahedra positively oriented",
+        "homology": "Z/8 + Z",
+        "hyperbolic_volume": 4.751701965517898,
+        "m004_unit_volume": 2.029883212819307
+      }
+    },
+    "bounded_family_A6_k1": {
+      "bounds": {
+        "max_runs": 5,
+        "max_sum": 8,
+        "k_close": 1
+      },
+      "tested_non_trivial_departures": 213,
+      "bundle_extending_count": 18,
+      "single_unoriented_state_count": 11,
+      "strictly_simple_line_mode_count": 6,
+      "cheapest_by_letters": [
+        {
+          "runs": [
+            1,
+            6
+          ],
+          "word": "LRRRRRRLR",
+          "letters": 9,
+          "geodesic_length": 6.177939809689206,
+          "extension_sign": 1,
+          "s_star_T": 0.8760708088660947,
+          "apex_H_T": 4.564354645876383,
+          "tau_F_T": [
+            0.49999999999999994,
+            1.3693063937629153
+          ],
+          "raw_complex_mult": 1,
+          "unoriented_mult": 1,
+          "distinct_peaks": 1
+        },
+        {
+          "runs": [
+            2,
+            2,
+            2
+          ],
+          "word": "LLRRLLRLR",
+          "letters": 9,
+          "geodesic_length": 8.120291225496807,
+          "extension_sign": -1,
+          "s_star_T": 0.22590256478703788,
+          "apex_H_T": 18.114220932736803,
+          "tau_F_T": [
+            -2.220446049250313e-16,
+            1.380131118684708
+          ],
+          "raw_complex_mult": 2,
+          "unoriented_mult": 1,
+          "distinct_peaks": 1
+        },
+        {
+          "runs": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "word": "LRRLLRRLR",
+          "letters": 9,
+          "geodesic_length": 8.120291225496807,
+          "extension_sign": -1,
+          "s_star_T": 0.8915121417985261,
+          "apex_H_T": 5.175491695067657,
+          "tau_F_T": [
+            0.4999999999999996,
+            1.2076147288491197
+          ],
+          "raw_complex_mult": 2,
+          "unoriented_mult": 1,
+          "distinct_peaks": 1
+        },
+        {
+          "runs": [
+            2,
+            2,
+            2,
+            1
+          ],
+          "word": "LLRRLLRLR",
+          "letters": 9,
+          "geodesic_length": 8.120291225496807,
+          "extension_sign": -1,
+          "s_star_T": 0.22590256478703788,
+          "apex_H_T": 18.114220932736803,
+          "tau_F_T": [
+            -2.220446049250313e-16,
+            1.380131118684708
+          ],
+          "raw_complex_mult": 2,
+          "unoriented_mult": 1,
+          "distinct_peaks": 1
+        },
+        {
+          "runs": [
+            3,
+            1,
+            3
+          ],
+          "word": "LLLRLLLRLR",
+          "letters": 10,
+          "geodesic_length": 8.253748275582243,
+          "extension_sign": 1,
+          "s_star_T": 0.18598600958917536,
+          "apex_H_T": 19.364916731037088,
+          "tau_F_T": [
+            0.41176470588235253,
+            0.9112901991076279
+          ],
+          "raw_complex_mult": 1,
+          "unoriented_mult": 1,
+          "distinct_peaks": 1
+        }
+      ],
+      "cheapest_by_geodesic_length": [
+        {
+          "runs": [
+            1,
+            6
+          ],
+          "word": "LRRRRRRLR",
+          "letters": 9,
+          "geodesic_length": 6.177939809689206,
+          "extension_sign": 1,
+          "s_star_T": 0.8760708088660947,
+          "apex_H_T": 4.564354645876383,
+          "tau_F_T": [
+            0.49999999999999994,
+            1.3693063937629153
+          ],
+          "raw_complex_mult": 1,
+          "unoriented_mult": 1,
+          "distinct_peaks": 1
+        },
+        {
+          "runs": [
+            2,
+            2,
+            2
+          ],
+          "word": "LLRRLLRLR",
+          "letters": 9,
+          "geodesic_length": 8.120291225496807,
+          "extension_sign": -1,
+          "s_star_T": 0.22590256478703788,
+          "apex_H_T": 18.114220932736803,
+          "tau_F_T": [
+            -2.220446049250313e-16,
+            1.380131118684708
+          ],
+          "raw_complex_mult": 2,
+          "unoriented_mult": 1,
+          "distinct_peaks": 1
+        },
+        {
+          "runs": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "word": "LRRLLRRLR",
+          "letters": 9,
+          "geodesic_length": 8.120291225496807,
+          "extension_sign": -1,
+          "s_star_T": 0.8915121417985261,
+          "apex_H_T": 5.175491695067657,
+          "tau_F_T": [
+            0.4999999999999996,
+            1.2076147288491197
+          ],
+          "raw_complex_mult": 2,
+          "unoriented_mult": 1,
+          "distinct_peaks": 1
+        },
+        {
+          "runs": [
+            2,
+            2,
+            2,
+            1
+          ],
+          "word": "LLRRLLRLR",
+          "letters": 9,
+          "geodesic_length": 8.120291225496807,
+          "extension_sign": -1,
+          "s_star_T": 0.22590256478703788,
+          "apex_H_T": 18.114220932736803,
+          "tau_F_T": [
+            -2.220446049250313e-16,
+            1.380131118684708
+          ],
+          "raw_complex_mult": 2,
+          "unoriented_mult": 1,
+          "distinct_peaks": 1
+        },
+        {
+          "runs": [
+            3,
+            1,
+            3
+          ],
+          "word": "LLLRLLLRLR",
+          "letters": 10,
+          "geodesic_length": 8.253748275582243,
+          "extension_sign": 1,
+          "s_star_T": 0.18598600958917536,
+          "apex_H_T": 19.364916731037088,
+          "tau_F_T": [
+            0.41176470588235253,
+            0.9112901991076279
+          ],
+          "raw_complex_mult": 1,
+          "unoriented_mult": 1,
+          "distinct_peaks": 1
+        }
+      ],
+      "strictly_simple_line_survivors": [
+        {
+          "runs": [
+            1,
+            6
+          ],
+          "word": "LRRRRRRLR",
+          "letters": 9,
+          "geodesic_length": 6.177939809689206,
+          "extension_sign": 1,
+          "s_star_T": 0.8760708088660947,
+          "apex_H_T": 4.564354645876383,
+          "tau_F_T": [
+            0.49999999999999994,
+            1.3693063937629153
+          ],
+          "raw_complex_mult": 1,
+          "unoriented_mult": 1,
+          "distinct_peaks": 1
+        },
+        {
+          "runs": [
+            3,
+            1,
+            3
+          ],
+          "word": "LLLRLLLRLR",
+          "letters": 10,
+          "geodesic_length": 8.253748275582243,
+          "extension_sign": 1,
+          "s_star_T": 0.18598600958917536,
+          "apex_H_T": 19.364916731037088,
+          "tau_F_T": [
+            0.41176470588235253,
+            0.9112901991076279
+          ],
+          "raw_complex_mult": 1,
+          "unoriented_mult": 1,
+          "distinct_peaks": 1
+        },
+        {
+          "runs": [
+            3,
+            1,
+            3,
+            1
+          ],
+          "word": "LLLRLLLRLR",
+          "letters": 10,
+          "geodesic_length": 8.253748275582243,
+          "extension_sign": 1,
+          "s_star_T": 0.18598600958917536,
+          "apex_H_T": 19.364916731037088,
+          "tau_F_T": [
+            0.41176470588235253,
+            0.9112901991076279
+          ],
+          "raw_complex_mult": 1,
+          "unoriented_mult": 1,
+          "distinct_peaks": 1
+        },
+        {
+          "runs": [
+            3,
+            2,
+            3
+          ],
+          "word": "LLLRRLLLRLR",
+          "letters": 11,
+          "geodesic_length": 9.24975336509101,
+          "extension_sign": 1,
+          "s_star_T": 0.22851941532850953,
+          "apex_H_T": 31.8688719599549,
+          "tau_F_T": [
+            0.0,
+            1.2747548783981963
+          ],
+          "raw_complex_mult": 1,
+          "unoriented_mult": 1,
+          "distinct_peaks": 1
+        },
+        {
+          "runs": [
+            1,
+            1,
+            2,
+            2,
+            2
+          ],
+          "word": "LRLLRRLLRLR",
+          "letters": 11,
+          "geodesic_length": 10.047674470974922,
+          "extension_sign": 1,
+          "s_star_T": 0.4008666786209775,
+          "apex_H_T": 18.093671611393653,
+          "tau_F_T": [
+            1.1102230246251565e-16,
+            1.3816985594155162
+          ],
+          "raw_complex_mult": 1,
+          "unoriented_mult": 1,
+          "distinct_peaks": 1
+        },
+        {
+          "runs": [
+            2,
+            2,
+            2,
+            1,
+            1
+          ],
+          "word": "LLRRLLRLRLR",
+          "letters": 11,
+          "geodesic_length": 10.047674470974922,
+          "extension_sign": 1,
+          "s_star_T": 0.1822250523955586,
+          "apex_H_T": 18.09367161139366,
+          "tau_F_T": [
+            -2.220446049250313e-16,
+            1.381698559415515
+          ],
+          "raw_complex_mult": 1,
+          "unoriented_mult": 1,
+          "distinct_peaks": 1
+        }
+      ]
+    },
+    "metallic_siblings_T4": {
+      "m=1": {
+        "background": {
+          "m": 1,
+          "word": "LR",
+          "matrix": [
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "trace": 3,
+          "snf_W_minus_I": [
+            1,
+            1
+          ],
+          "snf_W_plus_I": [
+            1,
+            5
+          ],
+          "det_W_minus_I": 1,
+          "det_W_plus_I": 5,
+          "untwisted_torsion_trivial": true,
+          "twisted_torsion_is_cyclic": true,
+          "intrinsic_twisted_level_N": 5,
+          "background_K_minus_pm_pairs": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "background_K_minus_cyclic_lines_count": 1,
+          "background_K_plus_pm_pairs": [],
+          "unique_intrinsic_cyclic_line": true
+        },
+        "minimal_invisible_run_history": {
+          "word": "LLLLLLRLR",
+          "extends": true,
+          "extension_sign": 1,
+          "is_single_unoriented_state": false,
+          "is_strictly_simple_complex_mode": false,
+          "T0_read_depends_on_data": true,
+          "s_star_S1": 0.0,
+          "s_star_T": 0.3008650056151903,
+          "tau_F_S1": [
+            4.440892098500626e-16,
+            3.6514837167011076
+          ],
+          "tau_F_T": [
+            0.4782608695652186,
+            1.1113211311699018
+          ]
+        }
+      },
+      "m=2": {
+        "background": {
+          "m": 2,
+          "word": "LLRR",
+          "matrix": [
+            [
+              5,
+              2
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "trace": 6,
+          "snf_W_minus_I": [
+            2,
+            2
+          ],
+          "snf_W_plus_I": [
+            2,
+            4
+          ],
+          "det_W_minus_I": 4,
+          "det_W_plus_I": 8,
+          "untwisted_torsion_trivial": false,
+          "twisted_torsion_is_cyclic": false,
+          "intrinsic_twisted_level_N": 4,
+          "background_K_minus_pm_pairs": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "background_K_minus_cyclic_lines_count": 2,
+          "background_K_plus_pm_pairs": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "unique_intrinsic_cyclic_line": false
+        },
+        "minimal_invisible_run_history": {
+          "word": "LLLLLLRRLLRR",
+          "extends": true,
+          "extension_sign": 1,
+          "is_single_unoriented_state": false,
+          "is_strictly_simple_complex_mode": false,
+          "T0_read_depends_on_data": true,
+          "s_star_S1": 0.0,
+          "s_star_T": 0.7116977627101628,
+          "tau_F_S1": [
+            -4.440892098500626e-16,
+            3.4156502553198655
+          ],
+          "tau_F_T": [
+            -0.12264150943396257,
+            1.2567015090327815
+          ]
+        }
+      },
+      "m=3": {
+        "background": {
+          "m": 3,
+          "word": "LLLRRR",
+          "matrix": [
+            [
+              10,
+              3
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "trace": 11,
+          "snf_W_minus_I": [
+            3,
+            3
+          ],
+          "snf_W_plus_I": [
+            1,
+            13
+          ],
+          "det_W_minus_I": 9,
+          "det_W_plus_I": 13,
+          "untwisted_torsion_trivial": false,
+          "twisted_torsion_is_cyclic": true,
+          "intrinsic_twisted_level_N": 13,
+          "background_K_minus_pm_pairs": [
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              10
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              12
+            ],
+            [
+              6,
+              4
+            ]
+          ],
+          "background_K_minus_cyclic_lines_count": 1,
+          "background_K_plus_pm_pairs": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "unique_intrinsic_cyclic_line": false
+        },
+        "minimal_invisible_run_history": {
+          "word": "LLLLLLLLLLLLLLLLRRRLLLRRR",
+          "extends": true,
+          "extension_sign": 1,
+          "is_single_unoriented_state": true,
+          "is_strictly_simple_complex_mode": true,
+          "T0_read_depends_on_data": false,
+          "s_star_S1": 0.0,
+          "s_star_T": 1.760506099642055e-17,
+          "tau_F_S1": [
+            -8.881784197001252e-16,
+            8.30297500534561
+          ],
+          "tau_F_T": [
+            1.7763568394002505e-15,
+            8.30297500534561
+          ]
+        }
+      },
+      "m=4": {
+        "background": {
+          "m": 4,
+          "word": "LLLLRRRR",
+          "matrix": [
+            [
+              17,
+              4
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "trace": 18,
+          "snf_W_minus_I": [
+            4,
+            4
+          ],
+          "snf_W_plus_I": [
+            2,
+            10
+          ],
+          "det_W_minus_I": 16,
+          "det_W_plus_I": 20,
+          "untwisted_torsion_trivial": false,
+          "twisted_torsion_is_cyclic": false,
+          "intrinsic_twisted_level_N": 10,
+          "background_K_minus_pm_pairs": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              8
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              9
+            ],
+            [
+              4,
+              7
+            ]
+          ],
+          "background_K_minus_cyclic_lines_count": 3,
+          "background_K_plus_pm_pairs": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "unique_intrinsic_cyclic_line": false
+        },
+        "minimal_invisible_run_history": {
+          "word": "LLLLLLLLLLLLLLRRRRLLLLRRRR",
+          "extends": true,
+          "extension_sign": 1,
+          "is_single_unoriented_state": false,
+          "is_strictly_simple_complex_mode": false,
+          "T0_read_depends_on_data": true,
+          "s_star_S1": 0.0,
+          "s_star_T": 0.1317016606107529,
+          "tau_F_S1": [
+            0.0,
+            7.236097782030804
+          ],
+          "tau_F_T": [
+            -0.12670920692798404,
+            2.2625173557306884
+          ]
+        }
+      }
+    },
+    "falsifier_verdicts": {
+      "T0_loop_read_depends_on_data_on_6_k1": true,
+      "T3_non_extending_L2RLR_rejected": true,
+      "T3_mirror_21112_rejected_in_S1": true,
+      "T3_mirror_21112_rejected_in_T": false,
+      "SURPRISE_run6_single_in_S1_but_mirror_split_in_T": true,
+      "A6_multiple_single_state_histories_exist": true,
+      "m1_uniquely_has_trivial_Kplus_and_cyclic_Kminus": true
+    }
+  },
+  "sector3_BE3": {
+    "sector": "BE-3 (Weave & Torsion 1-Loop Effective Potential P-629 / X:TAU)",
+    "modular_and_jacobi_identities": {
+      "det2d_sl2z_err": 2.7755575615628914e-16,
+      "jacobi_2d_parity_product_err": 6.217248937900877e-15,
+      "e3_6d_sl2z_err": 8.881784197001252e-16,
+      "parity_6d_minus_15_16_err": 2.6645352591003757e-15,
+      "order5_torsion_modular_err": 3.9968028886505635e-15
+    },
+    "all_sl2z_potentials_stationary_at_i_and_omega": true,
+    "any_forced_1loop_stabilizes_interior_tau_off_i_omega": false,
+    "trivial_wilson_line_beats_all_N2_to_6": true,
+    "any_single_torsion_line_holds_finite_Im_tau_alone": false,
+    "upstream_status": "NEGATIVE_AT_1LOOP (Every parameter-free weave/E8 1-loop potential lands on orbifold omega/i, selects trivial Wilson line w=0 globally, or runs to Im(tau)->inf; stabilizing finite Im(tau) off {i, omega} requires a forced non-perturbative/topological/multi-sector mechanism).",
+    "sl2z_candidates": {
+      "C0_four_2D_bosonic": {
+        "at_i": {
+          "value": -0.33160608012421866,
+          "grad": [
+            0.0,
+            -6.491077247364964e-19
+          ],
+          "grad_norm": 6.491077247364964e-19,
+          "hessian_eigenvalues": [
+            -0.29821132491542846,
+            1.2982113249154539
+          ],
+          "is_local_minimum": false,
+          "is_saddle": true
+        },
+        "at_omega": {
+          "value": -0.35277508515727546,
+          "grad": [
+            2.311115933264683e-24,
+            1.6661605134882855e-19
+          ],
+          "grad_norm": 1.666160513648572e-19,
+          "hessian_eigenvalues": [
+            0.6666666666666737,
+            0.666666666666685
+          ],
+          "is_local_minimum": true,
+          "is_saddle": false
+        },
+        "heights_y_2_5_8": [
+          0.01496751015575426,
+          2.240255482429089,
+          4.911844506773054
+        ],
+        "box_minimizer_xy": [
+          0.5,
+          0.8660239647055028
+        ],
+        "box_min_value": -0.35277508515658496,
+        "outcome": "ORBIFOLD_OMEGA (exp(2pi i/3))"
+      },
+      "C0_four_6D_fermionic_sign": {
+        "at_i": {
+          "value": 0.2911821009752402,
+          "grad": [
+            0.0,
+            -1.1010703270177156e-18
+          ],
+          "grad_norm": 1.1010703270177156e-18,
+          "hessian_eigenvalues": [
+            -0.455048655123779,
+            2.202141260975217
+          ],
+          "is_local_minimum": false,
+          "is_saddle": true
+        },
+        "at_omega": {
+          "value": 0.2588285342002135,
+          "grad": [
+            0.0,
+            3.1835795314416004e-19
+          ],
+          "grad_norm": 3.1835795314416004e-19,
+          "hessian_eigenvalues": [
+            1.0353141368008545,
+            1.035314136800855
+          ],
+          "is_local_minimum": true,
+          "is_saddle": false
+        },
+        "heights_y_2_5_8": [
+          1.055535116035246,
+          15.902093352165602,
+          65.11234190788696
+        ],
+        "box_minimizer_xy": [
+          0.5,
+          0.8660253832062279
+        ],
+        "box_min_value": 0.2588285342002136,
+        "outcome": "ORBIFOLD_OMEGA (exp(2pi i/3))"
+      },
+      "C0_four_6D_bosonic_sign": {
+        "at_i": {
+          "value": -0.2911821009752402,
+          "grad": [
+            0.0,
+            1.1010703270177156e-18
+          ],
+          "grad_norm": 1.1010703270177156e-18,
+          "hessian_eigenvalues": [
+            -2.202141260975217,
+            0.455048655123779
+          ],
+          "is_local_minimum": false,
+          "is_saddle": true
+        },
+        "at_omega": {
+          "value": -0.2588285342002135,
+          "grad": [
+            0.0,
+            -3.1835795314416004e-19
+          ],
+          "grad_norm": 3.1835795314416004e-19,
+          "hessian_eigenvalues": [
+            -1.035314136800855,
+            -1.0353141368008545
+          ],
+          "is_local_minimum": false,
+          "is_saddle": false
+        },
+        "heights_y_2_5_8": [
+          -1.055535116035246,
+          -15.902093352165602,
+          -65.11234190788696
+        ],
+        "box_minimizer_xy": [
+          0.14561757731359237,
+          8.0
+        ],
+        "box_min_value": -65.11234190788696,
+        "outcome": "RUNS_TO_CUSP (Im tau -> +inf)"
+      },
+      "E8_248_3branch_weave_6D": {
+        "at_i": {
+          "value": -2236.2785354898447,
+          "grad": [
+            0.0,
+            8.456221294787414e-15
+          ],
+          "grad_norm": 8.456221294787414e-15,
+          "hessian_eigenvalues": [
+            -16912.444884289667,
+            3494.7736713506183
+          ],
+          "is_local_minimum": false,
+          "is_saddle": true
+        },
+        "at_omega": {
+          "value": -1987.80314265764,
+          "grad": [
+            0.0,
+            -2.4449931230592883e-15
+          ],
+          "grad_norm": 2.4449931230592883e-15,
+          "hessian_eigenvalues": [
+            -7951.21257063056,
+            -7951.212570630558
+          ],
+          "is_local_minimum": false,
+          "is_saddle": false
+        },
+        "heights_y_2_5_8": [
+          -8106.509691150688,
+          -122128.07694463183,
+          -500062.78585257183
+        ],
+        "box_minimizer_xy": [
+          -0.5,
+          8.0
+        ],
+        "box_min_value": -500062.78585257183,
+        "outcome": "RUNS_TO_CUSP (Im tau -> +inf)"
+      }
+    },
+    "torsion_scan_N1_to_6": {
+      "orders": {
+        "N=1": {
+          "num_primitive_lines": 1,
+          "best_line_at_y2": [
+            0,
+            0
+          ],
+          "best_V_bos_at_y2": -16.888561856563935,
+          "sample_lines": [
+            {
+              "line_ab": [
+                0,
+                0
+              ],
+              "B6_cusp_coeff_sign": -0.023809523809523808,
+              "min_V_bos_y2": -16.888561856563935,
+              "argmin_Re_tau_y2": 0.0,
+              "min_V_bos_y6": -439.56006954015413,
+              "box_opt_xy": [
+                0.0,
+                8.0
+              ],
+              "finite_height_stabilized": false
+            }
+          ]
+        },
+        "N=2": {
+          "num_primitive_lines": 3,
+          "best_line_at_y2": [
+            1,
+            0
+          ],
+          "best_V_bos_at_y2": -15.705135172199146,
+          "sample_lines": [
+            {
+              "line_ab": [
+                0,
+                1
+              ],
+              "B6_cusp_coeff_sign": 0.023065476190476192,
+              "min_V_bos_y2": 15.72383345266297,
+              "argmin_Re_tau_y2": 0.0,
+              "min_V_bos_y6": 425.75807132260786,
+              "box_opt_xy": [
+                0.0,
+                0.8
+              ],
+              "finite_height_stabilized": false
+            },
+            {
+              "line_ab": [
+                1,
+                0
+              ],
+              "B6_cusp_coeff_sign": -0.023809523809523808,
+              "min_V_bos_y2": -15.705135172199146,
+              "argmin_Re_tau_y2": -0.5,
+              "min_V_bos_y6": -439.4285776870894,
+              "box_opt_xy": [
+                -0.5,
+                8.0
+              ],
+              "finite_height_stabilized": false
+            },
+            {
+              "line_ab": [
+                1,
+                1
+              ],
+              "B6_cusp_coeff_sign": 0.023065476190476192,
+              "min_V_bos_y2": 15.768825960613981,
+              "argmin_Re_tau_y2": -0.5,
+              "min_V_bos_y6": 425.7580714404919,
+              "box_opt_xy": [
+                -0.5,
+                0.8
+              ],
+              "finite_height_stabilized": false
+            }
+          ]
+        },
+        "N=3": {
+          "num_primitive_lines": 4,
+          "best_line_at_y2": [
+            1,
+            0
+          ],
+          "best_V_bos_at_y2": -15.975994930526532,
+          "sample_lines": [
+            {
+              "line_ab": [
+                0,
+                1
+              ],
+              "B6_cusp_coeff_sign": 0.011855771115030375,
+              "min_V_bos_y2": 8.002075252492864,
+              "argmin_Re_tau_y2": 0.0,
+              "min_V_bos_y6": 218.84178133360126,
+              "box_opt_xy": [
+                0.0,
+                0.8
+              ],
+              "finite_height_stabilized": false
+            },
+            {
+              "line_ab": [
+                1,
+                0
+              ],
+              "B6_cusp_coeff_sign": -0.023809523809523808,
+              "min_V_bos_y2": -15.975994930526532,
+              "argmin_Re_tau_y2": -0.5,
+              "min_V_bos_y6": -439.45868832648097,
+              "box_opt_xy": [
+                -0.5,
+                8.0
+              ],
+              "finite_height_stabilized": false
+            },
+            {
+              "line_ab": [
+                1,
+                1
+              ],
+              "B6_cusp_coeff_sign": 0.011855771115030375,
+              "min_V_bos_y2": 8.058245989566107,
+              "argmin_Re_tau_y2": 0.5,
+              "min_V_bos_y6": 218.84178888932234,
+              "box_opt_xy": [
+                0.5,
+                0.8
+              ],
+              "finite_height_stabilized": false
+            },
+            {
+              "line_ab": [
+                1,
+                2
+              ],
+              "B6_cusp_coeff_sign": 0.011855771115030361,
+              "min_V_bos_y2": 8.058245989566098,
+              "argmin_Re_tau_y2": -0.5,
+              "min_V_bos_y6": 218.84178888932212,
+              "box_opt_xy": [
+                -0.5,
+                0.8
+              ],
+              "finite_height_stabilized": false
+            }
+          ]
+        },
+        "N=4": {
+          "num_primitive_lines": 6,
+          "best_line_at_y2": [
+            1,
+            0
+          ],
+          "best_V_bos_at_y2": -16.259594435240484,
+          "sample_lines": [
+            {
+              "line_ab": [
+                0,
+                1
+              ],
+              "B6_cusp_coeff_sign": 0.0003603980654761918,
+              "min_V_bos_y2": 0.054596643932858395,
+              "argmin_Re_tau_y2": 0.0,
+              "min_V_bos_y6": 6.652258416141763,
+              "box_opt_xy": [
+                -1.9407109597412905e-08,
+                0.8
+              ],
+              "finite_height_stabilized": false
+            },
+            {
+              "line_ab": [
+                1,
+                0
+              ],
+              "B6_cusp_coeff_sign": -0.023809523809523808,
+              "min_V_bos_y2": -16.259594435240484,
+              "argmin_Re_tau_y2": -0.25,
+              "min_V_bos_y6": -439.49021449321344,
+              "box_opt_xy": [
+                -0.25,
+                8.0
+              ],
+              "finite_height_stabilized": false
+            },
+            {
+              "line_ab": [
+                1,
+                1
+              ],
+              "B6_cusp_coeff_sign": 0.0003603980654761918,
+              "min_V_bos_y2": 0.11398290471907847,
+              "argmin_Re_tau_y2": 0.5,
+              "min_V_bos_y6": 6.652320349763733,
+              "box_opt_xy": [
+                0.5,
+                0.8
+              ],
+              "finite_height_stabilized": false
+            },
+            {
+              "line_ab": [
+                1,
+                2
+              ],
+              "B6_cusp_coeff_sign": 0.023065476190476192,
+              "min_V_bos_y2": 15.768808960897317,
+              "argmin_Re_tau_y2": -0.5,
+              "min_V_bos_y6": 425.7580714404919,
+              "box_opt_xy": [
+                -0.5,
+                0.8
+              ],
+              "finite_height_stabilized": false
+            }
+          ]
+        },
+        "N=5": {
+          "num_primitive_lines": 12,
+          "best_line_at_y2": [
+            1,
+            0
+          ],
+          "best_V_bos_at_y2": -16.443100336298723,
+          "sample_lines": [
+            {
+              "line_ab": [
+                0,
+                1
+              ],
+              "B6_cusp_coeff_sign": -0.006913523809523807,
+              "min_V_bos_y2": -4.997491105807158,
+              "argmin_Re_tau_y2": 0.0,
+              "min_V_bos_y6": -127.6154282395484,
+              "box_opt_xy": [
+                0.0,
+                8.0
+              ],
+              "finite_height_stabilized": false
+            },
+            {
+              "line_ab": [
+                0,
+                2
+              ],
+              "B6_cusp_coeff_sign": 0.0188144761904762,
+              "min_V_bos_y2": 12.798114144388556,
+              "argmin_Re_tau_y2": 0.0,
+              "min_V_bos_y6": 347.29025287163057,
+              "box_opt_xy": [
+                0.0,
+                0.8
+              ],
+              "finite_height_stabilized": false
+            },
+            {
+              "line_ab": [
+                1,
+                0
+              ],
+              "B6_cusp_coeff_sign": -0.023809523809523808,
+              "min_V_bos_y2": -16.443100336298723,
+              "argmin_Re_tau_y2": 0.0,
+              "min_V_bos_y6": -439.5105946986557,
+              "box_opt_xy": [
+                3.1988764491618225e-07,
+                8.0
+              ],
+              "finite_height_stabilized": false
+            },
+            {
+              "line_ab": [
+                1,
+                1
+              ],
+              "B6_cusp_coeff_sign": -0.006913523809523807,
+              "min_V_bos_y2": -4.942954490272716,
+              "argmin_Re_tau_y2": 0.5,
+              "min_V_bos_y6": -127.61524557527521,
+              "box_opt_xy": [
+                0.5,
+                8.0
+              ],
+              "finite_height_stabilized": false
+            }
+          ]
+        },
+        "N=6": {
+          "num_primitive_lines": 12,
+          "best_line_at_y2": [
+            1,
+            0
+          ],
+          "best_V_bos_at_y2": -16.560403169760882,
+          "sample_lines": [
+            {
+              "line_ab": [
+                0,
+                1
+              ],
+              "B6_cusp_coeff_sign": -0.011485278267685674,
+              "min_V_bos_y2": -8.186488729294947,
+              "argmin_Re_tau_y2": 0.0,
+              "min_V_bos_y6": -212.00548935837816,
+              "box_opt_xy": [
+                0.0,
+                8.0
+              ],
+              "finite_height_stabilized": false
+            },
+            {
+              "line_ab": [
+                1,
+                0
+              ],
+              "B6_cusp_coeff_sign": -0.023809523809523808,
+              "min_V_bos_y2": -16.560403169760882,
+              "argmin_Re_tau_y2": 0.0,
+              "min_V_bos_y6": -439.52362257490796,
+              "box_opt_xy": [
+                0.0,
+                8.0
+              ],
+              "finite_height_stabilized": false
+            },
+            {
+              "line_ab": [
+                1,
+                1
+              ],
+              "B6_cusp_coeff_sign": -0.011485278267685674,
+              "min_V_bos_y2": -8.139030569556018,
+              "argmin_Re_tau_y2": 0.5,
+              "min_V_bos_y6": -212.005154375759,
+              "box_opt_xy": [
+                0.5,
+                8.0
+              ],
+              "finite_height_stabilized": false
+            },
+            {
+              "line_ab": [
+                1,
+                2
+              ],
+              "B6_cusp_coeff_sign": 0.011855771115030375,
+              "min_V_bos_y2": 8.010960896837451,
+              "argmin_Re_tau_y2": 0.5,
+              "min_V_bos_y6": 218.84178133397808,
+              "box_opt_xy": [
+                0.5,
+                0.8
+              ],
+              "finite_height_stabilized": false
+            }
+          ]
+        }
+      },
+      "global_winner_across_N1_to_6": {
+        "N": 1,
+        "line": [
+          0,
+          0
+        ],
+        "min_val_at_y2": -16.888561856563935
+      },
+      "trivial_line_N1_is_global_minimum": true
+    }
+  },
+  "sector4_BE4": {
+    "sector": "BE-4 (Exhaustive 46D u(3)_c-Neutral Core & Chirality Back-Edge WP-3.3 / X:HAND)",
+    "e8_jacobi_err": 0.0,
+    "commutant_u3_c": {
+      "dim": 46,
+      "largest_zero_sval": 1.8129866073473578e-16,
+      "smallest_nonzero_sval": 1.5,
+      "explicit_46_commutator_err": 0.0,
+      "structured_subspace_dims": {
+        "wL_(1,0)": 3,
+        "wR_(0,1)": 3,
+        "octL_(3,0)": 7,
+        "octR_(0,3)": 7,
+        "coset_(2,2)": 25,
+        "u1_BL": 1,
+        "total_rank": 46
+      }
+    },
+    "takagi_so10_lift_err": 6.661338147750939e-16,
+    "wL_wR_commutator_err": 2.0990154059319366e-16,
+    "su2L_preserving_subspace_dim": 11,
+    "weak_splitting_tests": {
+      "self_dual_omega16_lr_eigenvalue_diff": 5.329070518200751e-15,
+      "pure_coset_22_max_trace_diff": 1.0658141036401503e-14,
+      "pure_coset_22_min_wL_trace": 17.999999999999986,
+      "normal_octR_mu_hat_err": 0.0,
+      "normal_octR_wL_eigenvalues": [
+        4.6947562458036845e-30,
+        5.8738967555898206e-30,
+        8.608301790275688e-30
+      ],
+      "normal_octR_wR_eigenvalues": [
+        0.7261554272710743,
+        16.578829866262716,
+        18.69501470646621
+      ],
+      "mirror_L_vs_R_killing_action_diff": 1.7763568394002505e-14
+    },
+    "haar_basis_scrambling_guardrail3": {
+      "unitary_248_orthogonality_err": 1.3322676295501878e-15,
+      "haar_248_weak_mass_eigenvalue_err": 7.105427357601002e-15,
+      "haar_64_independent_LR_dirac_err": 9.992007221626409e-16,
+      "passed": true
+    },
+    "chiral_index_test": {
+      "trials_across_46D_core": 20,
+      "max_conjugate_kernel_asymmetry": 0,
+      "max_conjugate_singular_value_diff": 3.9968028886505635e-14,
+      "lepton_sector_16_dim": 16,
+      "static_algebraic_4D_chirality_possible": false
+    },
+    "upstream_status": "PARTIAL_CLOSURE_AND_EXACT_NO_GO: (1) Pure (2,2)_25 coset cannot split Tr M^2(w_R) > Tr M^2(w_L) and always breaks SU(2)_L; (2) Exactly an 11D subspace (so(5)_- (+) u(1)_{B-L}) preserves SU(2)_L and gives M^2(w_R) > 0 at mu_hat = 0, but sits in a Z_2-symmetric pair with so(5)_+ (spontaneous L/R parity choice required); (3) Static 46D backgrounds have 0 conjugate chiral index asymmetry."
+  },
+  "upstream_closure_ledger": [
+    {
+      "upstream_node": "X:PARENT (Parent Lie algebra g and rank r)",
+      "sector": "BE-1",
+      "status": "CLOSED_TO_1_STRUCTURAL_PREMISE",
+      "result": "Unique winner across 95 crystallographic algebras (1 <= r <= 24) under Euclidean Gram (T, S) single-channel sewing: ['E_8']."
+    },
+    {
+      "upstream_node": "SE1/SE2 & Level N=5 / Line +-(1,2) on metallic backgrounds L^m R^m",
+      "sector": "BE-2 (A0 & T4)",
+      "status": "NARROWED_UNIQUELY_AMONG_METALLIC_BACKGROUNDS",
+      "result": "m=1 (LR) uniquely has trivial untwisted torsion |det(W0-I)|=1 and 1 cyclic inversion-twisted line K^-(W0)=Z/5Z (intrinsic level N=5, pm_pairs=[[1, 2], [2, 4]])."
+    },
+    {
+      "upstream_node": "T:POINT-WEIGHT & History Departure H via Twisted Eigenstate Readout",
+      "sector": "BE-2 (A1-A6, T0-T3)",
+      "status": "NON_TAUTOLOGICAL_LOOP_REFUTES_NAIVE_RUN6_SINGLE_STATE_IN_SOL_MODEL",
+      "result": "T0ReadDependsOnData=True; L2RLRRejected=True; Mirror21112RejectedInS1=True; SurpriseRun6MirrorSplitInT=True; BoundedFamilySingleStateCount=11."
+    },
+    {
+      "upstream_node": "X:TAU & X:WEIGHT (1-Loop Weave / Torsion Modulus Stabilization)",
+      "sector": "BE-3 (P-629)",
+      "status": "PROVED_NEGATIVE_AT_1LOOP",
+      "result": "StationaryAt_i_omega=True; InteriorMinimumOffOrbifold=False; TrivialLineGlobalMin=True."
+    },
+    {
+      "upstream_node": "X:HAND (Left-Right w_L/w_R Splitting & 4D Chiral Matter Index)",
+      "sector": "BE-4 (WP-3.3)",
+      "status": "EXACT_ALGEBRAIC_SPLIT_AND_INDEX_NO_GO_PROVED",
+      "result": "NeutralCoreDim=46 (45 D5 + 1); PureCoset25TraceDiff=1.07e-14 (exact tie); SU2LPreservingSubspaceDim=11 (splits w_R > w_L iff Z2 self-duality broken); Static4DChiralIndexDiff=0 (requires topological flux / boundary)."
+    }
+  ]
+}
