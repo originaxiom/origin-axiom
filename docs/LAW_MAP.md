@@ -519,3 +519,50 @@ row is said row by row.
   cannot fail.
 
 No standing row is contradicted. One row is corrected in a word (B952).
+
+<!-- doc-currency read 2026-11-11: the tick, all histories together, the review, the goal in the governing documents, the exchange added, two seats' relays verified (B1871-B1881) -->
+
+## CURRENCY READ — 2026-11-11 (B1871–B1881)
+
+The wave read against every standing row. Five of the eleven arcs are about the record-machine and add no law
+(B1873, B1874, B1877, B1878, B1880). What bears on a row is said row by row.
+
+- **A scope said for a standing row, with no change to it.** THE THREE'S HAND IS THE ORIENTATION SHEET (B1609, B1610)
+  is a statement about the two-act weave. With the exchange of the two records added to the moves, the triplet and its
+  conjugate are one irreducible piece of dimension six, the group has 192 elements where it had 96, and it contains
+  its own generalised CP (B1879, on main's own matrices; the triplet's indicator twisted by the exchange is +1
+  whatever the lift). So the hand is exactly what the exchange removes. The index of three is argued to lose its sign
+  there and was not recomputed.
+- **A law-level addition on the weave, proved on main (B1879):** the single tick (a to ab, b to a) fixes exactly two
+  characters of the two records' free group, the trivial one and the quaternion point. Three lines: a fixed character
+  has all three traces equal to one number t with t² = 2t. The record's theorem needed both two-act moves for the
+  same two points; done twice, the tick fixes a curve. It stands beside the rows on the quaternion point and changes
+  none.
+- **A computed fact beside THE WALK'S EXIT LAW (B1815):** a run has length r with probability 2⁻ʳ in the grammar of L
+  and the tick, as in that of L and R, exactly, on all 165 triples of runs that fit in 12 letters (B1879). The row's
+  scope clause stands.
+- **Exact facts on the allowed moves at level 5, with no row claimed.** The moves that keep the golden ground's mark
+  up to sign have index 12, and those that keep its line index 6 (B1872, corrected at Review 78: of the positive
+  words to 12 letters 1,376 keep the line, 694 keep the mark and 682 carry it to its twin). The two quotients, their
+  elliptic points, the dual involution's two fixed points of discriminant −20, the group of order 8 and its exactly
+  three pairs are classical and are verified on main (B1881, the web seat's relay). One statement of that relay is a
+  small theorem and is elementary: a function unchanged by a group of symmetries is greatest at one point only where
+  every symmetry fixes that point.
+- **Enumerated, with the mechanism shown case by case, and not a row:** a history with a single apex does not stay
+  single under composition (18 of 36 composites, each by a symmetry of the composite's own word; B1875, the web
+  seat's card verified on main). The tick is multiplication by 3 on the line and exchanges the two twins (B1871). The
+  four atoms L, R, F, F′ and the relations F·R = L·F and F·F′ = L·L (B1876).
+- **A statement about one instrument, derived on main (B1881):** in the record's flat-fibre instrument, what lies
+  beyond g golden periods of ground reaches a run's height reduced by φ⁻⁴ᵍ, because one period is the map
+  x to 1/(1 + 1/(1 + x)), which fixes 1/φ with derivative φ⁻⁴ there. A run of n keeps the line exactly when n is 1
+  mod 5, with own value (n − 1)/2 + √5/2, so the allowed readings have a least and no greatest. It is a thread
+  instrument on a chosen clock, and the row for the walk's law is not touched by it.
+- **Observed and not proved, and therefore not a row:** on the hyperbolic metric a departure's invariants settle by
+  the factor (5 + √21)/2 per added period (B1876; P-775).
+- **About the record-machine (section G's subject):** the scripts a seal hashed are gated, under any name of list,
+  with every unverified entry frozen as it was found (B1874, B1880); a sentence of arrival is refused on every page
+  read, the papers among them (B1878, B1880); the audit's findings stand at 11 fixed, 15 partly fixed, 42 reproduced
+  by main, 4 by a reader, 1 open, and every one main marks fixed has the auditing seat's verdict (B1880).
+
+No standing row is contradicted, and none is changed. One row's scope is said (B1609, B1610).
+

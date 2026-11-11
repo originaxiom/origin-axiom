@@ -5,6 +5,7 @@ The builder reads the closure map as generated (B1858), the register, the scoreb
 and, where this clone holds them, the work order's and the advisor seat's revisions. In a clone without those revisions
 the tests that need them are SKIPPED, visibly; nothing is counted as passed."""
 import contextlib
+import copy
 import importlib.util
 import json
 import pathlib
@@ -352,15 +353,18 @@ def test_the_joins_the_seals_rule_needs_and_each_refusal_can_fire():
     with planted(lambda: w43["needs"].append("WP-4.2"), restore43) as f:
         assert any("WP-4.3 is marked STARTED while WP-4.2" in x for x in f)
     # 19: fixed is main's word; the re-audit's verdict is kept apart, and a finding it did not accept cannot be marked fixed
-    # fixed by main after the second re-audit and not read by that seat: listed, never shown as accepted (B1878's two)
-    assert st["findings_with_a_re_audit_verdict"] == len(S.ACCEPTED) and st["fixed_and_not_yet_re_audited"] == ["G9", "X1"]
-    assert S.FINDINGS["E3"]["state"] == "PARTLY FIXED" and S.FINDINGS["E3"]["was"][0] != "PARTLY FIXED"
-    e3 = dict(S.FINDINGS["E3"])
-    def restore_e3():
-        S.FINDINGS["E3"].clear()
-        S.FINDINGS["E3"].update(e3)
-    with planted(lambda: S.FINDINGS["E3"].__setitem__("state", "FIXED"), restore_e3) as f:
-        assert any("finding E3 is marked FIXED and the re-audit" in x for x in f)
+    # fixed by main and not read by that seat: listed, never shown as accepted.  B1878's two (G9, X1) stood here until the seat's
+    # fourth re-audit read them; with it every finding main marks fixed has the seat's verdict (B1880)
+    assert st["findings_with_a_re_audit_verdict"] == len(S.ACCEPTED) and st["fixed_and_not_yet_re_audited"] == []
+    # E3 was PARTLY FIXED until the fourth re-audit accepted it; E4's verdict is still "partly", and marking it fixed is refused
+    assert S.FINDINGS["E3"]["state"] == "FIXED" and "PARTLY FIXED" in [t[0] for t in S.FINDINGS["E3"]["trail"]] and S.ACCEPTED["E3"].startswith("accepted")
+    assert S.FINDINGS["E4"]["state"] == "PARTLY FIXED" and S.ACCEPTED["E4"].startswith("partly")
+    e4 = dict(S.FINDINGS["E4"])
+    def restore_e4():
+        S.FINDINGS["E4"].clear()
+        S.FINDINGS["E4"].update(e4)
+    with planted(lambda: S.FINDINGS["E4"].__setitem__("state", "FIXED"), restore_e4) as f:
+        assert any("finding E4 is marked FIXED and the re-audit" in x for x in f)
     # 20: what main changed after the re-audit is shown as not re-read; an entry for a finding with no verdict, or an arc not on main, is refused
     assert st["findings_main_changed_since_the_re_audit"] == sorted(S.SINCE_REAUDIT) and set(S.SINCE_REAUDIT) <= set(S.ACCEPTED)
     page = (ARC / "PROGRAMME.md").read_text(encoding="utf-8")
@@ -533,7 +537,57 @@ def fired_by(test_functions, monkeypatch):
     return fired
 
 
-PLANTING_TESTS = ("test_the_refusals_about_the_map_can_fire", "test_the_refusals_about_the_packages_and_the_budget_can_fire",
+def test_the_refusals_about_the_seats_verdicts_can_fire():
+    """B1880, rule 21 (the advisor seat's third re-audit, its case j4): a finding the re-audit did not accept, marked FIXED with the
+    re-audit's verdict RETYPED as "accepted" in main's own file, built.  A verdict is now read in the seat's own file."""
+    st = B["stats"]
+    assert st["verdict_rows_read_in_the_seats_files"] == (sum(len(v) for v in S.VERDICT_ROWS.values()) if SEATS else 0)
+    assert set(S.VERDICT_ROWS) == set(S.ACCEPTED) and len(S.REAUDITS) == 3
+    keep = copy.deepcopy((S.FINDINGS, S.ACCEPTED, S.VERDICT_ROWS, S.SINCE_REAUDIT))
+    def restore():
+        S.FINDINGS.clear(); S.FINDINGS.update(copy.deepcopy(keep[0]))
+        S.ACCEPTED.clear(); S.ACCEPTED.update(keep[1])
+        S.VERDICT_ROWS.clear(); S.VERDICT_ROWS.update(copy.deepcopy(keep[2]))
+        S.SINCE_REAUDIT.clear(); S.SINCE_REAUDIT.update(keep[3])
+    # j4 itself: E4's verdict is "partly"; mark it FIXED and retype the verdict
+    def j4():
+        S.FINDINGS["E4"]["state"] = "FIXED"
+        S.ACCEPTED["E4"] = "accepted"
+    with planted(j4, restore) as f:
+        assert any("the programme's verdict on E4 does not begin with the seat's own words in its row ('partly')" in x for x in f), f[:4]
+    # ... and with the seat's row retyped to match: the row is not in the seat's file
+    def j4_row():
+        j4()
+        S.VERDICT_ROWS["E4"] = [("REAUDIT_2_2026-11-10.md", "| **E4** B952's lemma | **accepted** |")]
+    with planted(j4_row, restore) as f:
+        if SEATS:
+            assert any("the seat's REAUDIT_2_2026-11-10.md does not hold the row quoted for E4" in x for x in f), f[:4]
+    # ... and with another finding's row borrowed: the row does not name the finding
+    def j4_borrowed():
+        j4()
+        S.VERDICT_ROWS["E4"] = [S.VERDICT_ROWS["E6"][0]]
+    with planted(j4_borrowed, restore) as f:
+        assert any("the row that carries the verdict in force on E4 does not name that finding" in x for x in f), f[:4]
+    def others():
+        S.ACCEPTED["E7"] = "accepted"                                   # a verdict with no row
+        S.VERDICT_ROWS["E6"] = [("REAUDIT_9_2099-01-01.md", S.VERDICT_ROWS["E6"][0][1])]
+        S.VERDICT_ROWS["E9"] = [("REAUDIT_2_2026-11-10.md", "| **E9** a row |")]      # a row for a finding with no verdict
+    with planted(others, restore) as f:
+        for want in ("the re-audit's verdict on E7 has no row of the seat's file behind it",
+                     "a verdict row for E6 names a re-audit the programme does not hold: REAUDIT_9_2099-01-01.md",
+                     "a row of a re-audit is quoted for E9, which has no verdict here"):
+            assert any(want in x for x in f), (want, f[:4])
+    # a verdict that begins with the seat's "accepted" and goes on to say the correction was not carried: still not fixed
+    with planted(lambda: S.ACCEPTED.__setitem__("E6", "accepted in the arc; not carried to two places that state the old form"), restore) as f:
+        assert any("finding E6 is marked FIXED and the re-audit says the correction was not carried everywhere" in x for x in f), f[:4]
+    assert not _refusals()
+    # the page says which re-audit read which commit of main, and the three widened entries of "bears on" are there
+    page = (ARC / "PROGRAMME.md").read_text(encoding="utf-8")
+    assert "re-audit 2 read main at `ab97082c0`; re-audit 3 read main at `b28dceea8`; re-audit 4 read main at `015be0cc7`" in page
+    assert "B734" in S.BEARS_ON["E2"] and "B1850" in S.BEARS_ON["L6"] and "B1841" in S.BEARS_ON["V4"]
+
+
+PLANTING_TESTS = ("test_the_refusals_about_the_seats_verdicts_can_fire", "test_the_refusals_about_the_map_can_fire", "test_the_refusals_about_the_packages_and_the_budget_can_fire",
                   "test_the_refusals_about_the_audit_can_fire", "test_the_order_does_not_ignore_the_map", "test_the_audit_is_carried_finding_by_finding",
                   "test_every_input_says_how_it_could_leave_and_the_refusal_can_fire", "test_the_joins_the_seals_rule_needs_and_each_refusal_can_fire",
                   "test_the_refusals_review_78s_reader_found_unplanted_can_fire")
@@ -549,7 +603,7 @@ def test_every_refusal_of_the_builder_fires_in_this_lock(monkeypatch):
     fired = fired_by([g[name] for name in PLANTING_TESTS], monkeypatch)
     never = [tpl for tpl, rx in _refusal_patterns() if not any(rx.fullmatch(m) for m in fired)]
     if not SEATS:
-        never = [t for t in never if not t.startswith(("a work-order quote", "the work order does not say", "the relayed ruling", "the advisor seat's"))]
+        never = [t for t in never if not t.startswith(("a work-order quote", "the work order does not say", "the relayed ruling", "the advisor seat's", "the seat's %s does not hold"))]
     assert not never, never
 
 

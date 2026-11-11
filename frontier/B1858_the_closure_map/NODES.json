@@ -6517,5 +6517,29 @@
    "P-773": "QUEUED"
   },
   "weave_or_thread": "n/a"
+ },
+ {
+  "id": "P:777",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "342 entries of lists of hashed files under other names do not verify and are frozen as found, not read: what each list records is owed, family by family (the advisor seat's acceptance row HASH-c).",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-777 — "
+   ]
+  ],
+  "rows": [
+   "P-777"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 82,
+  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "rows_live": {
+   "P-777": "QUEUED"
+  },
+  "weave_or_thread": "n/a"
  }
 ]

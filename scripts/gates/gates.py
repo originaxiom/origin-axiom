@@ -9,6 +9,7 @@ Design rules: no network, no heavy imports, stdlib only; a gate returns (ok, det
 whitelists are explicit frozen constants in this file (auditable, versioned).
 """
 import base64
+import collections
 import fnmatch
 import hashlib
 import json
@@ -326,9 +327,12 @@ _TRAILER_RE = re.compile(r"^\s*co-authored-by\s*:", re.I | re.M)
 
 
 def attribution_history_problems(repo, root, limit=5):
-    """(problems, commits read) for the commits on `repo`'s first-parent line after `root`: each is authored `originaxiom` and
-    its message carries no vendor token and no co-author trailer.  A pure function of the commit graph.  With no repository it
-    reports nothing (the caller says 'skipped'); where a repository is there and the history cannot be read, it fails closed."""
+    """(problems, commits read) for EVERY commit reachable from `repo`'s HEAD and not from `root`: each is authored `originaxiom`
+    and its message carries no vendor token and no co-author trailer.  A pure function of the commit graph.  With no repository it
+    reports nothing (the caller says 'skipped'); where a repository is there and the history cannot be read, it fails closed.
+    As first written (B1878) it read the first-parent line only, and a commit that arrived by a merge was not read (the advisor
+    seat's fourth re-audit, its cases c3 and c4: a trailer, and a foreign author, on a side branch merged in with a clean message).
+    Main's history is one line, so nothing on main was affected; from B1880 every reachable commit is read, the merged ones too."""
     def git(*a):
         return subprocess.run(["git", "-C", str(repo), *a], capture_output=True, text=True, timeout=120)
     if git("rev-parse", "--git-dir").returncode != 0:
@@ -337,7 +341,7 @@ def attribution_history_problems(repo, root, limit=5):
         return [f"cannot verify: the commit the attribution rule is read from, {root[:9]}, is not in this clone (shallow or partial)"], 0
     if git("merge-base", "--is-ancestor", root, "HEAD").returncode != 0:
         return [f"cannot verify: HEAD does not descend from {root[:9]}, the commit the attribution rule is read from"], 0
-    out = git("log", "--first-parent", "--format=%H%x00%an%x00%B%x01", f"{root}..HEAD").stdout
+    out = git("log", "--format=%H%x00%an%x00%B%x01", f"{root}..HEAD").stdout
     problems, n = [], 0
     for rec in out.split("\x01"):
         if "\x00" not in rec:
@@ -1340,17 +1344,131 @@ def artifact_hash_state(repo=None):
     return out
 
 
+# THE SAME RULE FOR A LIST UNDER ANY NAME, FOR A NAME THAT COULD MEAN TWO FILES, AND FOR A FROZEN ENTRY (B1880; the advisor seat's
+# third re-audit, 2026-11-11, its planted cases t3, t4 and t7, each reproduced on main before this was written):
+#   t3  a list names a file found from the repository's root; a COPY with the sealed content is added where the gate looks first
+#       (beside the list), and the real file is then free to change.  338 of the 1,497 entries were found from the root, and 177
+#       files only so; eight are the candidate's.  Now: a name that could be read as more than one tracked file is refused, unless
+#       HASH_LIST_RESOLVED declares which one is meant (two old entries, each naming the file beside its list).
+#   t4  the 63 entries that did not verify were frozen by a key of the list, the name and the RECORDED hash; the key did not hold
+#       what the file is now, so a frozen file could change again unseen (23 of them are scripts).  Now: each frozen entry is
+#       frozen with the state it was found in -- for a file that does not match, the hash of its content as found.
+#   t7  the gate read ARTIFACT_HASHES*.txt only; a seal list under another name was not read.  Now: a tracked text file is a list
+#       of hashed files BY CONTENT (at least a quarter of its lines are a hash and a file name), whatever it is called.
+# The frozen table is a tracked file whose own hash is pinned here, so that changing it is a change to this source.
+HASH_LIST_SUFFIXES = (".txt", ".sha256", ".sha", ".sums", ".sha256sum", ".lst", ".manifest", "")
+HASH_LIST_MIN_SHARE = 0.25                 # measured 2026-11-11: every list on main is at 0.375 or above (6 lines of 16), every run output that prints a hash at 0.06 or below
+HASH_LIST_MAX_BYTES = 2_000_000
+HASH_LISTS_BY_CONTENT_FROM = "3e25c8ec3d0bbe99b969206d28b408ebde140942"     # the rule for lists under other names is read in history from this commit on (2026-11-11)
+HASH_LISTS_FROZEN_FILE = "scripts/gates/hash_lists_frozen.json"
+HASH_LISTS_FROZEN_SHA256 = "01621ae48200b20c3e50d8974844aa09fc0ee291ff050b24fcbbf57a42cd7bdc"     # 417 keys, as found on 2026-11-11 (B1880)
+HASH_LIST_RESOLVED = {                     # key -> the tracked file the entry is declared to mean, where its name could be read as more than one
+    "e47b80624906": "frontier/B688_eisenstein_campaign/GOVERNANCE.md",       # the arc's own copy of the page as it stood, beside its list; not the living page at the root
+    "e637319e4a92": "frontier/B936_cohomology_reading/results.json",         # the arc's own results, beside its list; not the file of the same name at the root
+}
+
+
+def is_hash_list(name, text):
+    """whether a tracked file is a list of hashed files: by its name (ARTIFACT_HASHES*.txt), or by its content"""
+    base = os.path.basename(name)
+    if fnmatch.fnmatch(base, ARTIFACT_HASH_GLOB):
+        return True
+    if os.path.splitext(base)[1].lower() not in HASH_LIST_SUFFIXES or not _HEX64.search(text):
+        return False
+    lines = [l.strip() for l in text.split("\n") if l.strip() and not l.strip().startswith("#")]
+    n = sum(1 for l in lines if (_hash_list_entry(l) or (None, None))[1] is not None)
+    return n >= 1 and n >= HASH_LIST_MIN_SHARE * len(lines)
+
+
+def hash_list_state(repo=None, _resolved=None):
+    """Every entry of every tracked list of hashed files under `repo`, whatever the list is called: a list of
+    (key, list path, file or name, state, signature), or None where the tracked files cannot be listed.  state is VERIFIES,
+    MISMATCH, NOT TRACKED, ABSENT, NO NAME or AMBIGUOUS.  The signature is what a frozen entry is held to: 'M:' and the first 16
+    hex digits of the file's content hash for a mismatch, 'N' where no tracked file is named (absent, or on disk and not tracked:
+    the same in every clone), 'X' for a hash with no name.  A name is looked for beside its list, then in the list's verification
+    folder, then from the repository's root; if more than one of those is a tracked file the entry is AMBIGUOUS."""
+    repo = str(repo or ROOT)
+    r = subprocess.run(["git", "-C", repo, "ls-files"], capture_output=True, text=True, timeout=120)
+    if r.returncode != 0:
+        return None
+    tracked = set(r.stdout.split("\n")); tracked.discard("")
+    resolved = HASH_LIST_RESOLVED if _resolved is None else _resolved
+    out = []
+    for lst in sorted(tracked):
+        base = os.path.basename(lst)
+        named = fnmatch.fnmatch(base, ARTIFACT_HASH_GLOB)
+        if not named and os.path.splitext(base)[1].lower() not in HASH_LIST_SUFFIXES:
+            continue
+        full = os.path.join(repo, lst)
+        try:
+            if not named and os.path.getsize(full) > HASH_LIST_MAX_BYTES:
+                continue
+            text = open(full, encoding="utf-8", errors="replace").read()
+        except OSError:
+            continue
+        if not is_hash_list(lst, text):
+            continue
+        d = os.path.dirname(lst)
+        for line in text.split("\n"):
+            e = _hash_list_entry(line.strip())
+            if e is None:
+                continue
+            h, name = e
+            key = hashlib.sha256(f"{lst}|{name}|{h}".encode("utf-8")).hexdigest()[:12]
+            if name is None:
+                out.append((key, lst, name, "NO NAME", "X"))
+                continue
+            every = [os.path.normpath(os.path.join(d, name)), os.path.normpath(os.path.join(d, "verification", name)), os.path.normpath(name)]
+            cands = []
+            for c in every:
+                if c in tracked and c not in cands:
+                    cands.append(c)
+            if not cands:
+                on_disk = any(os.path.exists(os.path.join(repo, c)) for c in every)
+                out.append((key, lst, name, "NOT TRACKED" if on_disk else "ABSENT", "N"))
+                continue
+            if len(cands) > 1 and resolved.get(key) not in cands:
+                out.append((key, lst, name, "AMBIGUOUS", "A:" + " or ".join(cands)))
+                continue
+            hit = resolved[key] if len(cands) > 1 else cands[0]
+            try:
+                now = hashlib.sha256(open(os.path.join(repo, hit), "rb").read()).hexdigest()
+            except OSError:
+                out.append((key, lst, name, "ABSENT", "N"))
+                continue
+            out.append((key, lst, hit, "VERIFIES" if now == h else "MISMATCH", "V" if now == h else "M:" + now[:16]))
+    return out
+
+
+def hash_lists_frozen(repo=None):
+    """the frozen entries of this repository, key -> signature, from the tracked table; None if the table is not the one pinned here"""
+    try:
+        raw = open(os.path.join(str(repo or ROOT), HASH_LISTS_FROZEN_FILE), "rb").read()
+    except OSError:
+        return None
+    if hashlib.sha256(raw).hexdigest() != HASH_LISTS_FROZEN_SHA256:
+        return None
+    return json.loads(raw.decode("utf-8"))["frozen"]
+
+
+def _history_guards(git, root, what):
+    if git("rev-parse", "--git-dir").returncode != 0:
+        return "cannot verify: not a git repository"
+    if git("cat-file", "-e", root + "^{commit}").returncode != 0:
+        return f"cannot verify: {what} {root[:9]} is not in this clone (shallow or partial)"
+    if git("merge-base", "--is-ancestor", root, "HEAD").returncode != 0:
+        return f"cannot verify: HEAD does not descend from {what} {root[:9]}"
+    return None
+
+
 def hash_lists_immutable_problems(repo, root, waived=(), limit=5):
     """The committed changes to a list of hashed files on `repo`'s first-parent line after `root`: (problems, commits read).
     A pure function of the commit graph, as seal_immutable_problems is; it fails closed where history cannot be read."""
     def git(*a):
         return subprocess.run(["git", "-C", str(repo), *a], capture_output=True, text=True, timeout=120)
-    if git("rev-parse", "--git-dir").returncode != 0:
-        return ["cannot verify: not a git repository"], 0
-    if git("cat-file", "-e", root + "^{commit}").returncode != 0:
-        return [f"cannot verify: the rule's first commit {root[:9]} is not in this clone (shallow or partial)"], 0
-    if git("merge-base", "--is-ancestor", root, "HEAD").returncode != 0:
-        return [f"cannot verify: HEAD does not descend from the rule's first commit {root[:9]}"], 0
+    bad = _history_guards(git, root, "the rule's first commit")
+    if bad:
+        return [bad], 0
     spec = ":(glob)**/" + ARTIFACT_HASH_GLOB
     commits = git("log", "--first-parent", "--reverse", "--format=%H", f"{root}..HEAD", "--", spec).stdout.split()
     verbs = {"M": "edits", "D": "deletes", "R": "moves", "T": "changes the type of", "C": "copies over"}
@@ -1367,27 +1485,84 @@ def hash_lists_immutable_problems(repo, root, waived=(), limit=5):
     return problems[:limit], len(commits)
 
 
-def gate_artifact_hashes(_repo=None, _frozen=None, _root=None, _waived=None, _amended=None):
-    """What a seal hashed still has the hash the seal recorded, and the record of the hashes does not change (see the note above)."""
+def hash_lists_by_content_problems(repo, root, waived=(), limit=5):
+    """The same rule for a list under any other name: on `repo`'s first-parent line after `root`, no commit edits, deletes or moves
+    a file that WAS a list of hashed files by content in the commit before: (problems, commits read).  One call reads the names
+    each commit changed; a changed file of a listed suffix is then read as it stood in the parent."""
+    def git(*a):
+        return subprocess.run(["git", "-C", str(repo), *a], capture_output=True, text=True, timeout=300)
+    bad = _history_guards(git, root, "the first commit of the rule for lists under other names")
+    if bad:
+        return [bad], 0
+    r = git("log", "--first-parent", "--reverse", "-M", "--name-status", "--diff-merges=first-parent", "--format=%x01%H", f"{root}..HEAD")
+    if r.returncode != 0:
+        return ["cannot verify: the history after %s cannot be read (%s)" % (root[:9], r.stderr.strip().split("\n")[0][:80])], 0
+    verbs = {"M": "edits", "D": "deletes", "R": "moves", "T": "changes the type of", "C": "copies over"}
+    problems, n = [], 0
+    for rec in r.stdout.split("\x01"):
+        rows = [l for l in rec.split("\n") if l.strip()]
+        if not rows:
+            continue
+        c = rows[0].strip(); n += 1
+        for line in rows[1:]:
+            parts = line.split("\t")
+            if len(parts) < 2 or parts[0].startswith("A"):
+                continue
+            path = parts[1]
+            base = os.path.basename(path)
+            if fnmatch.fnmatch(base, ARTIFACT_HASH_GLOB) or os.path.splitext(base)[1].lower() not in HASH_LIST_SUFFIXES:
+                continue                               # the named lists have their own rule and their own first commit
+            before = git("show", f"{c}^:{path}")
+            if before.returncode != 0 or len(before.stdout) > HASH_LIST_MAX_BYTES or not is_hash_list(path, before.stdout):
+                continue
+            if (c, path) in waived:
+                continue
+            problems.append(f"{c[:9]} {verbs.get(parts[0][0], 'changes')} the list of hashed files {path}")
+    return problems[:limit], n
+
+
+def gate_artifact_hashes(_repo=None, _frozen=None, _root=None, _waived=None, _amended=None, _resolved=None, _root2=None):
+    """What a seal hashed still has the hash the seal recorded, and the record of the hashes does not change (see the notes above).
+    `_frozen` is a test's own allowance: a set of keys (the entry may be in any state) or a table key -> signature (the entry must
+    still be in that state).  On main it is the tracked table, and each frozen entry is held to the state it was found in."""
     repo = _repo or ROOT
-    frozen = ARTIFACT_HASHES_BROKEN if _frozen is None else _frozen
     amended = ARTIFACT_HASHES_AMENDED if _amended is None else _amended
-    state = artifact_hash_state(repo)
+    waived = ARTIFACT_HASHES_WAIVED if _waived is None else _waived
+    frozen = hash_lists_frozen(repo) if _frozen is None else _frozen
+    if frozen is None:
+        return False, f"cannot verify: {HASH_LISTS_FROZEN_FILE} is missing or is not the table this gate pins by hash"
+    state = hash_list_state(repo, _resolved)
     if state is None:
         return False, "cannot verify: the tracked files cannot be listed (not a git repository)"
-    broken = [(k, lst, name, st) for (k, lst, name, st) in state if st != "VERIFIES"]
-    new = [(k, lst, name, st) for (k, lst, name, st) in broken if k not in frozen and k not in amended]
+    broken = [e for e in state if e[3] != "VERIFIES"]
+    twice = [e for e in broken if e[3] == "AMBIGUOUS"]
+    if twice:
+        return False, "; ".join(f"{name} in {lst} could be read as more than one tracked file ({sig[2:]})" for (k, lst, name, st, sig) in twice[:3]) + (
+            f" (+{len(twice) - 3} more)" if len(twice) > 3 else "") + " -- a copy must not stand in for the file a seal hashed: remove it, or declare which file is meant"
+    new = [e for e in broken if e[0] not in frozen and e[0] not in amended]
     if new:
-        return False, "; ".join(f"{name or '(no name)'}: {st} against {lst}" for (k, lst, name, st) in new[:5]) + (
+        return False, "; ".join(f"{name or '(no name)'}: {st} against {lst}" for (k, lst, name, st, sig) in new[:5]) + (
             f" (+{len(new) - 5} more)" if len(new) > 5 else "") + " -- a file a seal hashed has changed, or a list names what is not there"
-    problems, n = hash_lists_immutable_problems(repo, _root or ARTIFACT_HASHES_IMMUTABLE_FROM, ARTIFACT_HASHES_WAIVED if _waived is None else _waived)
+    if isinstance(frozen, dict):
+        again = [e for e in broken if e[0] in frozen and e[0] not in amended and frozen[e[0]] != e[4]]
+        if again:
+            return False, "; ".join(f"{name or '(no name)'} against {lst}: frozen as {frozen[k]}, now {sig}" for (k, lst, name, st, sig) in again[:5]) + (
+                f" (+{len(again) - 5} more)" if len(again) > 5 else "") + " -- an entry frozen as it was found has changed again"
+    problems, n = hash_lists_immutable_problems(repo, _root or ARTIFACT_HASHES_IMMUTABLE_FROM, waived)
     if problems:
         return False, "; ".join(problems)
-    lists = len({lst for (_, lst, _, _) in state})
-    waived = ARTIFACT_HASHES_WAIVED if _waived is None else _waived
-    distinct = len({k for (k, _, _, _) in broken})
-    return True, (f"ok ({len(state)} entries in {lists} lists: {len(state) - len(broken)} verify, {len(broken)} do not ({distinct} distinct, each frozen by key "
-                  f"as found on 2026-11-10 or amended by name; the ceiling is {len(frozen)}); {n} commit(s) since {(_root or ARTIFACT_HASHES_IMMUTABLE_FROM)[:9]} touch a list, each only adding one; "
+    problems2, n2 = hash_lists_by_content_problems(repo, _root2 or _root or HASH_LISTS_BY_CONTENT_FROM, waived)
+    if problems2:
+        return False, "; ".join(problems2)
+    lists = len({e[1] for e in state})
+    other = len({e[1] for e in state if not fnmatch.fnmatch(os.path.basename(e[1]), ARTIFACT_HASH_GLOB)})
+    distinct = len({e[0] for e in broken})
+    healed = len(set(frozen) - {e[0] for e in broken}) if _frozen is None else 0
+    return True, (f"ok ({len(state)} entries in {lists} lists: {len(state) - len(broken)} verify, {len(broken)} do not ({distinct} distinct, each frozen "
+                  f"in the state it was found in, or amended by name; the table holds {len(frozen)}"
+                  + (f", of which {healed} now verify or are gone: shorten the table" if healed else "") + f"); {other} of the lists are under another name than "
+                  f"{ARTIFACT_HASH_GLOB}, found by content; {n} commit(s) since {(_root or ARTIFACT_HASHES_IMMUTABLE_FROM)[:9]} touch a named list, each only adding one; "
+                  f"{n2} commit(s) since {(_root2 or _root or HASH_LISTS_BY_CONTENT_FROM)[:9]} read for a change to a list under another name; "
                   f"amended by name: {len(amended)}" + ("".join(f" [{k}: {why}]" for k, why in sorted(amended.items()))) + f"; waived: {len(waived)}"
                   + ("".join(f" [{c[:9]} {p}: {why}]" for (c, p), why in sorted(waived.items()))) + ")")
 
@@ -1695,7 +1870,19 @@ def gate_harvest_debt():
     out = (r.stdout + r.stderr).strip()
     if r.returncode != 0:
         return False, out.replace("\n", " | ")[:500]
-    return True, "ok"
+    # A seat whose branch has moved past its pin is not a failure for 21 days, and the gate said a bare "ok" meanwhile: on
+    # 2026-11-11 the advisor seat's third re-audit sat fetched and unread for eight hours while main landed twice (B1880).  The
+    # sentence now names every seat past its pin, and the runner prints it at every push.
+    return True, harvest_sentence(out)
+
+
+def harvest_sentence(tool_output):
+    """the harvest gate's sentence from the tool's own lines: which seats have commits past their pin, and how many"""
+    past = re.findall(r"^\s+(\S+)\s+head \S+ pin \S+ \(\+(\d+) commits?\)", tool_output, re.M)
+    past = [(seat, int(n)) for seat, n in past if int(n) > 0]
+    if not past:
+        return "ok (no seat's branch is past its pin in this clone)"
+    return "ok within the 21 days -- UNREAD: " + ", ".join("%s +%d commit(s) past its pin" % p for p in past) + " (read them at this landing)"
 
 
 def gate_lead_debt():
@@ -2182,38 +2369,88 @@ ARRIVAL_PHRASES = ("the standard model is derived", "the standard model has been
                    "all nineteen are derived", "all nineteen derived", "19 of 19 derived", "19 of 19 earned", "nineteen of nineteen",
                    "the values are derived", "the masses are derived", "the couplings are derived")
 ARRIVAL_NEGATION = PRETENSE_NEGATION + ("none", "nothing", "0 of 19", "neither", "nor ", "cannot", "would", "whether", "if ", "until", "goal", "aim", "seek", "sought", "to be ")
+# The list above is the rule as first written (B1878) and is kept for the record.  The advisor seat's fourth re-audit planted
+# "We claim that the Standard Model is derived." and it passed: the excusing words were matched as PIECES of words, and "claim"
+# contains "aim" ("minor" contains "nor", "nonetheless" contains "none").  From B1880 the excusing words are whole words, and they
+# excuse only inside the sentence that carries the phrase (its case r3: "Nothing stands in the way now. The Standard Model is
+# derived." passed on the word of the sentence before).
+_ARRIVAL_NEG_RE = re.compile(r"(?<![a-z0-9])(?:not|no|never|without|none|nothing|neither|nor|cannot|would|whether|if|until|unless|"
+                             r"goals?|aim(?:s|ed)?|seeks?|sought|0 of 19|to be)(?![a-z0-9])|n't(?![a-z0-9])")
+_ARRIVAL_SENTENCE_END = re.compile(r"[.!?](?=[\s\"'*_)\]])|\n\s*\n|\n\s*(?:[-*+>]|\d+[.)])\s|\n\s*#+\s|\|")
 ARRIVAL_EXEMPT = PRETENSE_EXEMPT + ("GOVERNANCE.md", "docs/README_HISTORY.md", "docs/POINT_REGISTER.md", "docs/LEAD_REGISTER.md", "docs/OPEN_LEADS.md",
                                     "docs/LOOK_LEDGER.md", "docs/FAILURE_ATLAS.md")      # the page that states the rule; dated history; registers that quote what was said
 ARRIVAL_BASELINE = 3      # frozen at B1878 (2026-11-11), may only shrink: a plan of 2026-07-24 ("the program derived the Standard Model's
                           # grammar"), a dated state page ("derives the Standard Model's gauge skeleton ... and derives none of its numbers"),
                           # and the owner's question of 2026-08-09, quoted ("... that our program is a theory of everything ...")
+# From B1880 the old lines are frozen by KEY, not by count (a count lets one old line be traded for a new sentence), and the reach
+# is every tracked page under docs/ at any depth and every tracked .tex or .md under papers/ (the seat's r5 and r6: the papers are
+# where a sentence of arrival would do most harm, and they were not read).  ARRIVAL_FROZEN is filled by measurement at the rule's
+# commit; a key in it that no longer matches anything is reported, so the list can only be shortened.
+ARRIVAL_REACH = (("", ".md", False), ("docs", ".md", True), ("papers", ".md", True), ("papers", ".tex", True))     # (folder, suffix, any depth)
+ARRIVAL_FROZEN = frozenset(("704ca4704908",      # docs/CLOSURE_MASTERPLAN.md, a plan of 2026-07-24: "the program derived the Standard Model's *grammar*"
+                            "86b7eaa2768f",      # docs/THE_STATE_2026-09-06.md, a dated state page: "derives the Standard Model's gauge skeleton ... and derives none of"
+                            "518c8ca26d3b"))     # docs/WHAT_WOULD_COUNT.md, the owner's question of 2026-08-09, quoted
+
+
+def _arrival_files(root):
+    """the pages the rule reads under `root`: tracked files where `root` is a git checkout (a gate is a function of the commit, and an
+    untracked draft is not a page), every file on disk where it is not (a test's small tree)"""
+    r = subprocess.run(["git", "-C", root, "ls-files"], capture_output=True, text=True, timeout=120) if os.path.isdir(os.path.join(root, ".git")) or os.path.isfile(os.path.join(root, ".git")) else None
+    if r is not None and r.returncode == 0:
+        names = [f for f in r.stdout.split("\n") if f]
+    else:
+        names = [os.path.relpath(os.path.join(d, f), root) for d, _, fs in os.walk(root) for f in fs]
+    out = []
+    for rel in sorted(names):
+        rel = rel.replace(os.sep, "/")
+        for folder, suffix, deep in ARRIVAL_REACH:
+            if not rel.endswith(suffix): continue
+            head = os.path.dirname(rel)
+            if (head == folder) or (deep and folder and head.startswith(folder + "/")):
+                out.append(rel); break
+    return out
+
+
+def arrival_sentences(root=None):
+    """every sentence of arrival on a page the rule reads that no word of its own sentence excuses: (key, page, phrase, sentence)"""
+    root = str(root or ROOT); out = []
+    for rel in _arrival_files(root):
+        if rel in ARRIVAL_EXEMPT: continue
+        try:
+            low = open(os.path.join(root, rel), errors="replace").read().lower()
+        except OSError:
+            continue
+        for p in ARRIVAL_PHRASES:
+            for m in re.finditer(re.escape(p), low):
+                before = low[max(0, m.start() - 400):m.start()]
+                ends = [e.end() for e in _ARRIVAL_SENTENCE_END.finditer(before)]
+                own = re.sub(r"\s+", " ", before[ends[-1]:] if ends else before[-64:])        # the phrase's own sentence, up to the phrase
+                if _ARRIVAL_NEG_RE.search(" " + own[-160:] + " "): continue      # a denial, a condition or a statement of aim, in its own sentence
+                after = low[m.end():m.end() + 200]
+                stop = _ARRIVAL_SENTENCE_END.search(after)
+                sentence = (own[-160:] + p + re.sub(r"\s+", " ", after[:stop.start()] if stop else after[:64])).strip()
+                key = hashlib.sha256(("%s|%s|%s" % (rel, p, sentence)).encode("utf-8")).hexdigest()[:12]
+                out.append((key, rel, p, sentence))
+    return out
 
 
 def arrival_hits(root=None):
-    import glob
-    root = str(root or ROOT); hits = []
-    files = sorted(glob.glob(os.path.join(root, "docs", "*.md")) + glob.glob(os.path.join(root, "*.md")))
-    for f in files:
-        rel = os.path.relpath(f, root)
-        if rel in ARRIVAL_EXEMPT: continue
-        low = open(f, errors="replace").read().lower()
-        for p in ARRIVAL_PHRASES:
-            n = 0
-            for m in re.finditer(re.escape(p), low):
-                window = " " + re.sub(r"\s+", " ", low[max(0, m.start() - 64):m.start()])       # a denial may open a line or a file
-                if any(neg in window for neg in ARRIVAL_NEGATION): continue          # a denial, a condition or a statement of aim is not arrival
-                n += 1
-            if n: hits.append((rel, p, n))
-    return hits
+    """(page, phrase, count) for the sentences of arrival that are not frozen by key"""
+    c = collections.Counter((rel, p) for key, rel, p, _ in arrival_sentences(root) if key not in ARRIVAL_FROZEN)
+    return [(rel, p, n) for (rel, p), n in sorted(c.items())]
 
 
 def gate_arrival_phrases(_root=None, _baseline=None):
-    """The aim may be stated and arrival may not (GOVERNANCE.md § 1 and § 2 as amended at the owner's ruling)."""
-    base = ARRIVAL_BASELINE if _baseline is None else _baseline
+    """The aim may be stated and arrival may not (GOVERNANCE.md § 1 and § 2 as amended at the owner's ruling).  `_baseline` is a
+    test's own allowance of unfrozen sentences; on main it is 0, the old lines being frozen by key."""
+    base = 0 if _baseline is None else _baseline
+    sents = arrival_sentences(_root)
     hits = arrival_hits(_root); n = sum(c for _, _, c in hits)
     if n > base:
-        return False, "%d sentence(s) of arrival on living pages (baseline %d): " % (n, base) + "; ".join("%s: %s x%d" % h for h in hits[:5])
-    return True, "ok (%d on living pages, baseline %d%s)" % (n, base, "; lower the baseline" if n < base else "")
+        return False, "%d sentence(s) of arrival on the pages read (allowed %d): " % (n, base) + "; ".join("%s: %s x%d" % h for h in hits[:5])
+    present = {k for k, *_ in sents}
+    gone = len(ARRIVAL_FROZEN - present) if _root is None else 0
+    return True, "ok (0 new on the pages read; %d old line(s) frozen by key%s)" % (len(ARRIVAL_FROZEN & present) if _root is None else 0, "; %d frozen key(s) match nothing now: shorten the list" % gone if gone else "")
 
 
 # --- gate: a negative about one member may not call it "the object" (the owner's rule, 2026-10-04) ------------------
@@ -2333,6 +2570,12 @@ def gate_arc_data():
     sp = _ilu.spec_from_file_location("arc_data", os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "checks", "arc_data.py"))
     m = _ilu.module_from_spec(sp); sp.loader.exec_module(m)
     out = m.check(root=ROOT)
+    # A verdict file that cannot be read was dropped from the count without a word, and every check after it passed on the files
+    # that were left (the advisor seat's planted case PV14: one file cut to invalid JSON, the gate green and its count one lower;
+    # its third re-audit, 2026-11-11, planted it on a file nothing depends on).  An unreadable verdict file fails the gate.
+    if out.get("unreadable verdict files"):
+        return False, "%d verdict file(s) cannot be read as JSON: " % len(out["unreadable verdict files"]) + "; ".join(
+            "%s (%s)" % (folder, why) for folder, why in out["unreadable verdict files"][:4])
     bad = {k: v for k, v in out.items() if k[:2] in ("D1", "D2", "D3", "D4", "D5", "D6") and v}
     if bad:
         return False, "; ".join("%s: %s" % (k, (list(v)[:4] if isinstance(v, dict) else v[:4])) for k, v in bad.items())[:600]
@@ -2412,7 +2655,7 @@ def run_all():
 # advisor seat's second re-audit (its cases a2 and s5): a waiver made its violation vanish from the gate's own sentence. Main
 # found one thing more when mending it (B1874): the runner printed a bare "ok" for every pass, so a gate's sentence, waivers
 # and all, never reached the reader.
-PRINTS_ITS_SENTENCE = ("append-only", "seal-immutable", "artifact-hashes")
+PRINTS_ITS_SENTENCE = ("append-only", "seal-immutable", "artifact-hashes", "arrival-phrases", "harvest-debt")
 
 
 def result_line(name, ok, detail):

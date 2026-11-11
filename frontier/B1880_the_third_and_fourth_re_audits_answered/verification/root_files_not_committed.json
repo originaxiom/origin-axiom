@@ -1,0 +1,412 @@
+{
+ "what": "files in the repository's root on main's machine that are not committed, as found on 2026-11-11: names, sizes and hashes only. No content of any of them is in this file. Each of the 56 with no tracked copy is an outbound relay of main's or a relay received in the old convention; whether they are committed is the owner's call (P-779).",
+ "found": "2026-11-11",
+ "files": [
+  {
+   "name": "CC_TO_ALL_SEATS_2026-08-27_B1169_QUALIA_PARITY_VERIFY.md",
+   "bytes": 4184,
+   "sha256": "defbaa4b46129ca8031aaf51a77b67fb3240cb95c195c6c4e674037175e8b889",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_ALL_SEATS_2026-09-08_HARVEST_NUMBERING.md",
+   "bytes": 4120,
+   "sha256": "393b0aa05c2d5c6ae68521b801f21ef664b844b0615b97ed5d361790802e5c25",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": "frontier/B1297_the_spectral_cover_index/CC_TO_ALL_SEATS_2026-09-08_HARVEST_NUMBERING.md"
+  },
+  {
+   "name": "CC_TO_CC3_2026-08-22_NEEDS_SPECIALIST_LIT_SEARCH.md",
+   "bytes": 7703,
+   "sha256": "64164f3de7c1a5928c1759a8c2092feb2790fb5c4228f698976408ed14a7f68a",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CC3_2026-08-26_B8142_CLOSED_FRIED_REFUTED_AND_EXACTCHECK_CRASH.md",
+   "bytes": 3775,
+   "sha256": "f654b28965428f814da4837361e8bc4ea4734fbeac5a05a741444a8e3890dbdb",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CC3_2026-08-26_CODEX_PAPER_AUDITS_R010-R014.md",
+   "bytes": 4239,
+   "sha256": "97943249a6fb7d836370df9c41a6b30f554f10f1fcbc8fe6b83b162ff0bcd266",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CC3_2026-08-26_CUSP_SEPARATOR_IS_ORIENTATION_BLIND.md",
+   "bytes": 2930,
+   "sha256": "97e37f1754e1b3ec9834760a842e88f89e33eca5ab21e0b005c89c4f4d524235",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CC3_2026-08-27_B8147_ADOPTED.md",
+   "bytes": 1720,
+   "sha256": "be90b39c46ed262eea9ed37df7c9e0160ed6fb237d855e49b5d9e70329fc6abd",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CC3_2026-08-27_B8152_VERIFIED_FAMILY_IS_112.md",
+   "bytes": 1895,
+   "sha256": "1f9934629a9f70b1b39bc48d69008ee08236a4c419151fb06c141ef3c9406cb3",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CC3_2026-08-27_PAPERS_RELAY.md",
+   "bytes": 3704,
+   "sha256": "e8732030e3c558d82496a21b6309f6af45d36826aec403d5e22ee9ceb430a5b3",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CC3_2026-08-27_RESEND_NINE_RELAYS.md",
+   "bytes": 2861,
+   "sha256": "a0cb85ccb7eab11bdb3e0813857e5a34a26c3438ccd7c2100def716481de7a12",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CC3_2026-08-27_SEAM_HARVEST_B8144_45_46_LANDED.md",
+   "bytes": 2499,
+   "sha256": "020cea1d874fb03db8132a6054c726dac7406197e8d8883b6ef8fae1a247fe97",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CC3_2026-08-27_TORSION_MIRROR_PARITY_ASK.md",
+   "bytes": 2322,
+   "sha256": "720fbd860f75fa69627d50b241aa85ca9f9dd93e7ffbb9242aa4d3ead998f19c",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CC3_2026-08-28_WELCOME_BACK_STATE_HANDOFF.md",
+   "bytes": 3717,
+   "sha256": "f4fb3ac4b5472fb37e916aaf36a474e19605a5fbbbe9a291ec700f7f76fcc6bd",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CC3_2026-08-29_B8154_VERIFIED_AND_TWO_ORPHANS.md",
+   "bytes": 2457,
+   "sha256": "2b0533c10d739483826abf00da968d65e50b1b48810435b76582b0b911212055",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CC3_2026-08-29_STALE_VERIFIER_FLAG.md",
+   "bytes": 1494,
+   "sha256": "d93c070a9e1c8f38b893c56d7b2adb76e76daa7fe434702337f31cd3cf7832f4",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CC3_2026-09-02_B8070_SCRIPT_PRINTS_REFUTED_COMPUTATION.md",
+   "bytes": 1261,
+   "sha256": "8d83eb0726eb29dde3105404ab89e29b77afe3f92fd9defb2713ad69fada9a3a",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CLOUD_2026-08-25_AUDIT_RECONCILED_AND_SP2_BANKED.md",
+   "bytes": 4219,
+   "sha256": "8741317e5796cc792ffaebd4c9d0bfeada5f694744516b1aba85951ab797476c",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CLOUD_2026-08-26_MASTERPLAN_GO_AND_COORDINATION.md",
+   "bytes": 1814,
+   "sha256": "30b4d0355d669f802633230accc9c1c0c855d1854d580e929c19f305269dee3d",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CLOUD_2026-08-26_SEAM_E_CLOSE_AND_CHARTER_CONVERGENCE.md",
+   "bytes": 5308,
+   "sha256": "6860fe59c494670818b0dc3a391a4d00ced7d063dd7c614904eb416b2db40aac",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CLOUD_2026-08-27_C5_RESOLVED_C6_IS_THE_DECIDER.md",
+   "bytes": 2746,
+   "sha256": "a87ec8313e2f161ebbd317ab937a9dc1cc6b55a559666232bcd0d1e62c7d0fea",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CLOUD_2026-08-27_G1_ARENA_RESCOPE.md",
+   "bytes": 3195,
+   "sha256": "0fcfaa4e91551def2beb9c47b72fa02bfbc2f54d9bee6d93dd2d57c2601a6917",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CLOUD_2026-08-28_REGISTER_CORRECTIONS_AND_LEE.md",
+   "bytes": 4282,
+   "sha256": "b06652379d30e5f0b1843eb43e0fc0f87f020195912c5eb6cbf5ed39d4beefb1",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CLOUD_2026-08-29_FOUR_MEMOS_VERIFIED_TWO_CORRECTIONS.md",
+   "bytes": 4683,
+   "sha256": "87387ba04066cea8e62b4e4cb2b19e6387434ca7f7f838eb2c38aadf62669ff8",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CLOUD_2026-08-30_E53_CONVERGENCE_AND_GATE_C_VERIFIED.md",
+   "bytes": 5140,
+   "sha256": "b079f867956676a4fa31700080fea79faf61a08c8e0c344cb2aa82384553149c",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CLOUD_2026-08-30_HOSTILE_READ_ACCEPTED.md",
+   "bytes": 3491,
+   "sha256": "d1818c9b5603a7735d713d8454297dfed9f42f543e3a33124b727fcc4316635c",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CLOUD_2026-08-30_VNEG_VERIFIED_AND_ONE_ARTIFACT_GAP.md",
+   "bytes": 3012,
+   "sha256": "83874a69d47eac0a862dd5fda1f85b1797e594b2a43d46f3a445339f083895ee",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CLOUD_2026-08-31_HEARTBEAT_H9_CORRECTION.md",
+   "bytes": 2609,
+   "sha256": "c0ee8cbdac1a666c36ea2df60fb9a00c6f3b217658004c9a9522e674c389465b",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CLOUD_2026-08-31_SEND_THE_SEVENTEEN_ATOMS.md",
+   "bytes": 2520,
+   "sha256": "fb2a38baa596f490db93fd9bb1ab47f6faee703478bafc6f151a205d242bb0b7",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CLOUD_2026-09-02_R49_SENTENCE_NOT_ON_MAIN.md",
+   "bytes": 1079,
+   "sha256": "5bc3d2a6be2a37fe9ff28376c4cc7ee27b9c19a9edd7f2f69b9abef57065b930",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CLOUD_CODEX_2026-08-26_CHARTER_C3_VERIFIED_C4_REFUTATION_CANDIDATE.md",
+   "bytes": 4263,
+   "sha256": "6c1cbc16c403950e14c585bea639461a0cd21e2caa2bc56ede7b0b45e42da1b9",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CLOUD_CODEX_2026-08-27_C4PRIME_RESOLVED.md",
+   "bytes": 1661,
+   "sha256": "8eb4707948c6ec90b383352515b2abb97c243d5839901048d4ee6417409f9e80",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CLOUD_CODEX_2026-08-27_C4_CONSTRUCTIVELY_RESOLVED.md",
+   "bytes": 2829,
+   "sha256": "71138946ce19ddc0817144986f78e30dbdad0211ca330b77aeae864ae1adfd91",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CODEX_2026-08-26_MC1_INDEPENDENT_REIMPLEMENTATION.md",
+   "bytes": 1364,
+   "sha256": "d7cd65a119efe30da6bb6307368c4df136504e3a205d50baf905ad7a685b27e5",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CODEX_2026-08-26_MSSM_PROVENANCE_DEBT.md",
+   "bytes": 3136,
+   "sha256": "139fb04a72daf35a03f5dfbc3f1c3bcfa32598a40710c017b6ee73fa0c08f432",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CODEX_2026-08-26_R017_VERIFIED_D1_PAID.md",
+   "bytes": 2203,
+   "sha256": "ace7851712e96c67215aa9cf51aa9622cd92ee2d74378cffc08125b4dff03c1d",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CODEX_2026-08-27_R015_R016_ADOPTED_TWO_ASKS.md",
+   "bytes": 2722,
+   "sha256": "76deca611896f4234ec2c48047dc1abf7fdcd3248249f885d1a3dae3378f6e82",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CODEX_2026-08-27_R023_DOWN_EVALUATOR_COMMISSION.md",
+   "bytes": 2329,
+   "sha256": "11e622aeed575d27c3197c1a43ffc9f7d645c72f01a31507df0221593ac03516",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CODEX_2026-08-29_HARVEST_AND_PUSH.md",
+   "bytes": 4944,
+   "sha256": "c967aa60163ed986779f557631ba9442ca9c7038568aacbdf925725b1ee84f23",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CODEX_2026-08-29_THE_LEPTON_CHARACTER_DATUM.md",
+   "bytes": 3703,
+   "sha256": "f089f495738f0b0e93297e85452cbaba259ca9b34dded4908347a16d051b57dc",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CODEX_2026-08-30_R028_VERIFIED_R029_IS_OURS.md",
+   "bytes": 4000,
+   "sha256": "5311b1596f38cdab5b5b2a9802398f7d2d3a033a882166424935f0f8900f7af2",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CODEX_2026-08-31_C2_THE_Z12_CHARACTER_ASSIGNMENT.md",
+   "bytes": 3116,
+   "sha256": "144765c61b8deb161e668bd76c8025e0157865545a7a71d2c2e90a83cfb71785",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CODEX_2026-08-31_FINAL_HOSTILE_READ_COMMISSION.md",
+   "bytes": 3373,
+   "sha256": "f743d23c48cd0535cb1c7f18e4cdec684dd16303c95a30fae3c99202c15f6f33",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CODEX_2026-09-02_R035_VERIFIED_B1236.md",
+   "bytes": 2390,
+   "sha256": "a998df702806d6b05a73e6a628757d1ece7dff6d78156010666072498872ab05",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CODEX_2026-09-02_R036_VERIFIED_R034_REGISTERED.md",
+   "bytes": 2765,
+   "sha256": "88d76c43a6a5db1dccaa28306e6fd9457b5e97e374882122b08a8b0315a11edf",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CODEX_2026-09-02_R037_R039_VERIFIED_R040_QUEUED.md",
+   "bytes": 2728,
+   "sha256": "4a2658cefe4bfa62cd88a4c0350b5e13e73b0b0c9d1b02dc629f7491bc4795d2",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CODEX_2026-09-02_R040_VERIFIED_AND_SHARPENED.md",
+   "bytes": 4536,
+   "sha256": "fb3dc8bf389a0326ea2e4939bf386028a314e3c5958267bf2bcbb47d47cc5fbf",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_CODEX_2026-10-02_FOUR_OF_YOUR_RECORDS_WERE_ALREADY_VERIFIED.md",
+   "bytes": 1311,
+   "sha256": "7cd4eddcb2b260b29886a7b912178891b7d283c10970353e50d322a0da034a92",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_FAB5CLOUD_2026-09-02_HARVEST_B1235.md",
+   "bytes": 3647,
+   "sha256": "a74f9a59857fe79a8c30fc7b97cde33a8519f1d5e285374d8f3fdc5d359821e0",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_FC_2026-09-02_R31_R38_HARVESTED.md",
+   "bytes": 2820,
+   "sha256": "6dd46ae27202f1f1fe60d818226262680823cbbc028b42b17ad47bec2c34da56",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_FC_2026-09-02_R39_R41_WE_HARVESTED.md",
+   "bytes": 3510,
+   "sha256": "8cddc97869ee66551225e35f0b05fc31ba1fe0007eeead75e7077b5a0262a81b",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_FC_2026-09-02_R42_R50_HARVESTED.md",
+   "bytes": 1931,
+   "sha256": "53ce9540345e325a97434ba3abc74a10b50f884e3106aaa33c0d5beebb0e2b31",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_FC_2026-09-02_R51_R52_PHASE_E_HARVESTED.md",
+   "bytes": 4833,
+   "sha256": "9c4b6e446b172825ae95cfaf73ea668e36e20f784b755c4f8700930c092afc67",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_REVIEW_2026-09-18_THE_COMMIT_COUNT_IS_A_CLONE_ARTEFACT.md",
+   "bytes": 3878,
+   "sha256": "1adcebe9d5ecda5be2e6db6f593d438f82a7078ad3eb2a54d88cd9ea3da98946",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_SM_2026-10-02_THE_PERIODIC_CURVES_AND_YOUR_Q8_LINE.md",
+   "bytes": 2911,
+   "sha256": "7c4996409eec478481249a4a2eb4a5cdc9200dea1f5242db804434b6a3d3e50a",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CC_TO_ZAI_2026-09-01_AUDIT_REPLY_AND_THREE_CHECKS.md",
+   "bytes": 11445,
+   "sha256": "36112fc15e0b85e358a488e68105552e4592032fababed15b8be6676cd0b9878",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md",
+   "bytes": 10497,
+   "sha256": "dcecd70b3943cff28ae68da05d98b99ba6cb4be353175fddebbe6b3041a3b210",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": "frontier/B1303_the_sm_closings_z_prime/CHAT1_TO_CC_2026-09-08_SESSION_RELAY.md"
+  },
+  {
+   "name": "CODEX_TO_CC_2026-08-30_WAVE7_UPSTREAM_DELTA.md",
+   "bytes": 1710,
+   "sha256": "e5e2aa96d61ac7349eb05a651d72721ba1c4526c4e3bb7d852481d92da450994",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  },
+  {
+   "name": "CODEX_TO_CC_2026-08-30_WAVE8_UPSTREAM_HOSTILE.md",
+   "bytes": 5374,
+   "sha256": "4a583ecdd881562fa4cbfaf6703597d113648fb482d8bae60c4d75e624df6cdd",
+   "has_a_relay_ledger_row": true,
+   "identical_tracked_copy": null
+  }
+ ]
+}

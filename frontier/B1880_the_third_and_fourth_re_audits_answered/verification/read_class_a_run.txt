@@ -1,0 +1,22 @@
+THE FILES OF CLASSES A AND B UNDER LISTS WITH OTHER NAMES (SEVEN AND TWO): THE SEALED VERSION AGAINST TODAY'S
+  frontier/B666_leads_campaign/cell9/cell9_taskB_discrete_id.py
+     sealed content last at a9bbd0894 (2026-07-17); changed by 5dd1acbfd 2026-07-17; lines removed and added -3 +5; equal after the path and attribution substitutions: True
+  frontier/B666_leads_campaign/cell9/cell9_taskA_verify2.py
+     sealed content last at a9bbd0894 (2026-07-17); changed by 5dd1acbfd 2026-07-17; lines removed and added -3 +5; equal after the path and attribution substitutions: True
+  frontier/B666_leads_campaign/cell9/cell9_taskB_branches.py
+     sealed content last at a9bbd0894 (2026-07-17); changed by 5dd1acbfd 2026-07-17; lines removed and added -1 +3; equal after the path and attribution substitutions: True
+  frontier/B756_remaining_doors/RAW_WORKFLOW_OUTPUT.json
+     sealed content last at 894e36e03 (2026-07-22); changed by 603ab5af5 2026-07-23, 566b6a3f2 2026-07-22; lines removed and added -28 +28; equal after the path and attribution substitutions: True
+  frontier/B666_leads_campaign/cell9/cell9_taskA_exact_tau.py
+     sealed content last at a9bbd0894 (2026-07-17); changed by 5dd1acbfd 2026-07-17; lines removed and added -5 +7; equal after the path and attribution substitutions: True
+  frontier/B666_leads_campaign/cell9/cell9_L_arith.py
+     sealed content last at a9bbd0894 (2026-07-17); changed by 5dd1acbfd 2026-07-17; lines removed and added -1 +3; equal after the path and attribution substitutions: True
+  frontier/B666_leads_campaign/cell9/cell9_taskB_branches_v2.py
+     sealed content last at a9bbd0894 (2026-07-17); changed by 5dd1acbfd 2026-07-17; lines removed and added -1 +3; equal after the path and attribution substitutions: True
+  frontier/B879_selection_cochain/packet/HANDOFF_CC_SELECTION_COCHAIN.md
+     sealed content last at c6bee8fa8 (2026-08-03); changed by 0fdf4c7bd 2026-08-05; lines removed and added -1 +1; equal after the path and attribution substitutions: True
+  frontier/B1298_the_lift_fork/DESIGN.md
+     sealed content last at 7f6262089 (2026-09-08); changed by eefb17144 2026-09-08; lines removed and added -1 +1; equal after the path and attribution substitutions: True
+
+files: 9; equal to their sealed version after the substitutions: 9
+so in none of them did a line of mathematics, a threshold or a datum change: a local path was made relative, or a name was redacted.

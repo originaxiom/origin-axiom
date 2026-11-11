@@ -112,3 +112,20 @@ def test_p541_a_pin_behind_its_rows_is_reported():
     assert H.pin_lag(["ba8bb3f5e", "4bfc7ab46"], after) == ["ba8bb3f5e"]
     assert H.pin_lag(["ba8bb3f5e"], set()) == []           # the pin at the head: nothing after it
     assert H.CITED_RE.findall("relays/X.md @ `ba8bb3f5e` and the seat's branch @ 2d3ea1842") == ["ba8bb3f5e", "2d3ea1842"]
+
+
+def test_the_gates_sentence_names_every_seat_past_its_pin():
+    """B1880: a seat's branch past its pin is no failure for 21 days, and the gate said a bare "ok" meanwhile; on 2026-11-11 a
+    re-audit sat fetched and unread for eight hours while main landed twice.  The sentence names the seats, and the runner prints it."""
+    spec = importlib.util.spec_from_file_location("gates_for_harvest_sentence", ROOT / "scripts" / "gates" / "gates.py")
+    g = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(g)
+    out = ("  harvest-debt (2026-11-11): 822 seat-index ids across 22 seats\n"
+           "    sm       head 47228ae8 pin 47228ae8 (+0 commits) index 144 rows 463 | NEW unrowed 0\n"
+           "    chat1    head 8ff3f7e5 pin 8718d467 (+9 commits) index 105 rows 234 | NEW unrowed 2\n"
+           "    advisor  head 58ae45c7 pin 459dd72f (+1 commit) index 0 rows 27 | NEW unrowed 0\n")
+    s = g.harvest_sentence(out)
+    assert "UNREAD: chat1 +9 commit(s) past its pin, advisor +1 commit(s) past its pin" in s and "sm" not in s
+    assert g.harvest_sentence(out.replace("+9", "+0").replace("+1 commit)", "+0 commits)")) == "ok (no seat's branch is past its pin in this clone)"
+    assert "harvest-debt" in g.PRINTS_ITS_SENTENCE
+    assert g.result_line("harvest-debt", True, s).startswith("  PASS  harvest-debt: ok within the 21 days -- UNREAD: chat1")

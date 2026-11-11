@@ -482,3 +482,46 @@ merged items die with their host, drafts stay in the audit room, and retired fra
 **Enforced by:** `point-debt` (rules 7–9, the owner line, the carry scan); the review template (M5); M7 is MANUAL. They are
 registered in `docs/PRACTICES.md`.
 
+## Rule (2026-11-11, the owner's instruction to main — adopted): ONE CHANNEL TO THE OWNER, AND A QUESTION OF FACT IS NEVER PUT TO HIM
+
+**What happened.** On 2026-11-10 and 2026-11-11 three seats put the same questions to the owner: whether the tick is an
+act, what a ground is, what closing means. To one seat he answered "no preference". To main he chose, each time, the
+option main had recommended, and main recorded four rulings. The advisor seat then sorted the 111 rulings on record
+(its `rulings_sorted/` @ `7726eeed`): 81 decisions and 16 statements of what he means, which are his to make; 11
+suppositions about the mathematics or the world, none of which began as his own statement. Asked by main whether the
+advisor seat's proposed rule should bind main as well, the owner answered, verbatim:
+
+> "what you recomend so we fix this once for all. i got asked same ruling questions from multiple seats, its
+> confusing. this shouldnt happen, you are main"
+
+**The rule, for every seat.** Points 1 to 4 are the advisor seat's proposal, to which the owner answered that seat
+"i agree". Points 5 and 6 are main's, at the owner's word above.
+
+1. **What a ruling is.** The owner rules on a goal, a standard, an order of work, and on what he means. Only these are
+   called rulings.
+2. **What the mathematics can decide is computed, not asked.** Both branches are carried until a computation decides,
+   and the register row names that computation.
+3. **What nothing can decide is a tagged postulate.** Main enters it with its own identifier. It is counted in the
+   input budget, and everything built on it says "given X". It is never recorded as the owner's ruling, and he may
+   strike or replace it at any time.
+4. **No seat puts a question of fact to the owner,** as a choice or otherwise, with or without a recommendation.
+5. **One channel.** Only main puts questions to the owner. A seat with a question for him writes it to main in a relay,
+   marked as a question for the owner. Main first sweeps the record for a standing answer, joins it with the same
+   question from other seats, sorts it by points 1 to 3, and puts to him only what is his by point 1: once, with any
+   standing ruling on the item quoted beside it.
+6. **What the owner says to a seat.** The seat records his words verbatim, with the question he was answering, relays
+   them to main, and asks him nothing further. Main enters a statement of the first kind in the register as his,
+   without asking him to repeat it, unless it conflicts with a standing ruling; then main asks once and quotes both. A
+   statement about the mathematics is handled by points 2 and 3, whoever heard it. Every report of main to the owner
+   lists what was entered this way, so that he can strike any of it.
+
+**What it replaces.** Main no longer asks the owner to confirm what he said to another seat (practice 8 of Review 78,
+as it stood). **What it re-types.** Main's four questions of 2026-11-11 were of the kind point 4 forbids. Their answers
+are re-typed at the foundation's next version: the tick as an act is a supposition and was handled by computation
+(B1879); a ground as the act is a tagged postulate of main's; the three sentences on the principle's wording and what
+closing means are statements of what the owner means, and are his.
+
+**Enforced by:** MANUAL. Registered in `docs/PRACTICES.md` (practice 14 of 2026-11-11). Owed: one ledger of the owner's
+rulings on main, built from the advisor seat's sort with each entry checked at its source, so that a seat reads the
+answer and does not ask (P-780).
+

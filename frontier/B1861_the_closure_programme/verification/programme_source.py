@@ -274,6 +274,7 @@ DEBT_TO_WP = {
     "P-757": "WP-0.7",   # the advisor seat's audit: enforcement first; its other classes are assigned finding by finding
     "P-772": "WP-0.7",   # its second re-audit: what the seals do not yet protect
     "P-773": "WP-0.12",  # its read of this page as a non-author: the debts and the identifications joined to the map
+    "P-777": "WP-0.7",   # its third re-audit: the lists of hashed files under other names, frozen as found and not yet read
 }
 
 # ---------------------------------------------------------------- the certificate
@@ -519,12 +520,12 @@ FINDINGS["X4"]["wp"] = "WP-0.11"      # closes with the declared domain
 # finding that names nothing, and holds every package with a REPOSITORY finding upstream of the sealed card.
 REPO = "REPOSITORY"
 BEARS_ON = {
-    "E1": ["B997"], "E2": ["docs/THEOREM_LEDGER.md"], "E3": ["B1856", "B1853", "B1855", "B1857", "docs/THE_TAU_READOUT_RULE.md"],
+    "E1": ["B997"], "E2": ["docs/THEOREM_LEDGER.md", "B734", "tests/test_b734_m004_congruence.py"], "E3": ["B1856", "B1853", "B1855", "B1857", "docs/THE_TAU_READOUT_RULE.md"],
     "E4": ["B952"], "E5": ["B892"], "E6": ["B862"], "E7": ["B1028"], "E8": ["B854"], "E9": ["B1854"], "E10": ["README.md"],
     "E11": ["docs/LITERATURE_CONTEXT_2026-07-15.md", "CLAIMS.md"], "E12": ["B884", "B915", "B1852", "B1853", "B1857"], "E13": ["B567"],
     "G1": [REPO], "G2": [REPO], "G3": [REPO], "G4": [REPO], "G5": [REPO], "G6": [REPO], "G7": [REPO], "G8": [REPO], "G9": [REPO],
     "G10": [REPO], "G11": [REPO], "G12": [REPO], "G13": [REPO], "G14": [REPO],
-    "L1": [REPO], "L2": [REPO], "L3": ["docs/THEOREM_LEDGER.md", "B730", "B1096"], "L4": ["B1854"], "L5": ["B1847"], "L6": [REPO],
+    "L1": [REPO], "L2": [REPO], "L3": ["docs/THEOREM_LEDGER.md", "B730", "B1096"], "L4": ["B1854"], "L5": ["B1847"], "L6": [REPO, "B1849", "B1850"],
     "L7": [REPO], "L8": ["B866", "B892", "B952"], "L9": [REPO], "L10": [REPO, "B1464", "B1690"],
     "M1": [REPO], "M2": ["G:ROOT", "docs/UNIQUENESS_THEOREM.md", "docs/THE_CLAIM.md"], "M3": ["G:ROOT"], "M4": ["docs/THEOREM_LEDGER.md"],
     "M5": ["TAG:LAMBDA", "GENESIS.md", "docs/THE_WEAVE.md"], "M6": ["B1221", "papers/P3_THE_PAPER/SPEC.md"], "M7": ["B1855"], "M8": ["B1850"],
@@ -533,7 +534,7 @@ BEARS_ON = {
     "P2": ["docs/POINT_REGISTER.md"], "P3": ["B861", "B862", "B863", "B994", "B1028"], "P4": ["B653", "B723", "CLAIMS.md"],
     "P5": ["docs/THE_TAU_READOUT_RULE.md"], "P6": ["docs/INDEX.md"], "P7": [REPO],
     "R1": [REPO], "R2": [REPO],
-    "V1": [REPO, "V:SIX", "B1726", "B1753"], "V2": [REPO, "V:SIX", "B1720", "B1735"], "V3": [REPO, "B1757"], "V4": [REPO, "V:SIX"],
+    "V1": [REPO, "V:SIX", "B1726", "B1753"], "V2": [REPO, "V:SIX", "B1720", "B1735"], "V3": [REPO, "B1757"], "V4": [REPO, "V:SIX", "B1840", "B1841"],
     "V5": [REPO, "docs/LOOK_LEDGER.md", "B1658", "B1724"],
     "W1": [REPO], "W2": [REPO], "W3": ["TERMINOLOGY.md"], "W4": [REPO], "W5": ["B1291"], "W6": ["W:LAW"], "W7": ["W:CLOCK"],
     "X1": ["GOVERNANCE.md", "CLAIMS.md"], "X2": ["GOVERNANCE.md", "GENESIS.md", "CLAIMS.md"],
@@ -578,6 +579,59 @@ U("G9", "FIXED", "B1878: the attribution gate reads every commit message on the 
 SINCE_REAUDIT["E3"] = ("B1877", "the correction carried to B1853, B1855, B1857 and the read-out rule's page, as the re-audit asked, and to B1856's verdict line and the register's row P-738; a lock that fails wherever the old form stands unmarked")
 SINCE_REAUDIT["E4"] = ("B1877", "'commuting' carried to B952's verdict line, its results file and the requirements ledger, where the reader of Review 78 found the lemma uncorrected")
 SINCE_REAUDIT["E8"] = ("B1877", "the scope carried to the verdict block at the top of B854's findings")
+
+# B1880 (2026-11-11): THE SEAT'S THIRD AND FOURTH RE-AUDITS (of main at b28dceea8 and at 015be0cc7), harvested and answered.
+# (1) Three entries of "what each finding bears on" are widened as the third re-audit asked (E2, L6, V4, above): main checked that
+#     each named arc and file exists and is what the finding is about.
+# (2) Its case j4: a finding the re-audit did not accept was marked FIXED here, with the re-audit's verdict retyped as "accepted"
+#     in this file, and the builder built.  The verdict was main's transcription and nothing checked it against the seat's file.
+#     From here each verdict names the re-audit that gave it and carries that file's own row, verbatim; the builder reads the row
+#     in the seat's file at the seat's commit, refuses a verdict with no row, a row that is not there, and a verdict whose leading
+#     word is not in its row; and prints NOT CHECKED where the clone does not hold the seat's commit.
+REAUDITS = {     # the re-audit's file -> (the seat's commit that holds it, main's commit that it read)
+    "REAUDIT_2_2026-11-10.md": ("b5034197b", "ab97082c0"),
+    "REAUDIT_3_2026-11-11.md": ("6ab743907", "b28dceea8"),
+    "REAUDIT_4_2026-11-11.md": ("58ae45c70", "015be0cc7"),
+}
+VERDICT_ROWS = {     # finding -> rows of the seat's files; the FIRST is the verdict in force and names the finding; the rest are further rows quoted
+    "G1": [("REAUDIT_2_2026-11-10.md", "| **G1** the append-only gate | **accepted**, with three residuals |"),
+           ("REAUDIT_3_2026-11-11.md", "| **waivers print themselves** (B1874; residuals a2 and s5) | **accepted** |")],
+    "G2": [("REAUDIT_3_2026-11-11.md", "| **the scripts a seal hashed** (B1874; the largest residual of G2) | **accepted, with three residuals** |"),
+           ("REAUDIT_2_2026-11-10.md", "| **G2** sealed files | **accepted for what it covers**; the cover is too narrow |")],
+    "G3": [("REAUDIT_2_2026-11-10.md", "| **G3** the ledger's self-certification | **accepted** |")],
+    "G4": [("REAUDIT_2_2026-11-10.md", "| **G4** seal filenames | **accepted**; one case of the finding still open |")],
+    "E13": [("REAUDIT_2_2026-11-10.md", "| **E13** B567's 21 eigenvalues | **accepted** |")],
+    "E6": [("REAUDIT_2_2026-11-10.md", "| **E6** B862's kernel | **accepted** |")],
+    "E10": [("REAUDIT_2_2026-11-10.md", "| **E10** the README's arc lookup | **accepted** |")],
+    "L5": [("REAUDIT_2_2026-11-10.md", "| **L5** B1847's lock | **accepted** |")],
+    "E3": [("REAUDIT_4_2026-11-11.md", "| **E3** the premise's two signs | PARTLY FIXED | **accepted** |"),
+           ("REAUDIT_2_2026-11-10.md", "| **E3** B1856's premise | **accepted in the arc; not propagated** |")],
+    "E4": [("REAUDIT_2_2026-11-10.md", "| **E4** B952's lemma | **partly**, as you say |")],
+    "E8": [("REAUDIT_2_2026-11-10.md", "| **E8** B854's scope | **partly**, as you say |")],
+    "E11": [("REAUDIT_2_2026-11-10.md", "| **E11** three statements | **partly**, as you say |")],
+    "G9": [("REAUDIT_4_2026-11-11.md", "| **G9** the attribution rule is not gated as worded | FIXED | **accepted, with one residual** |")],
+    "X1": [("REAUDIT_4_2026-11-11.md", "| **X1** twelve places cap the goal | FIXED | **accepted** |")],
+    "X2": [("REAUDIT_4_2026-11-11.md", "| **X2** three documents each claim supremacy | PARTLY FIXED | **agreed: partly** |")],
+}
+# The verdicts as they stand after the fourth re-audit.  A verdict is of main at the commit its re-audit read, and says nothing of
+# a later one: what main changed after it is in SINCE_REAUDIT, listed as not re-read by the seat.
+ACCEPTED_AT = ("015be0cc7", "REAUDIT_4_2026-11-11.md")       # the latest re-audit; each verdict's own re-audit is in VERDICT_ROWS
+ACCEPTED.update({
+    "G1": "accepted, with three residuals (re-audit 2); the second, a waiver that hides its violation, accepted as mended (re-audit 3). Left: the log's archives, and history before the rule",
+    "G2": "accepted, with three residuals (re-audit 3, of the gate for the scripts a seal hashed): a copy standing in for the real file, a frozen entry changing again, and lists under other names",
+    "E3": "accepted (re-audit 4): carried to the four places the second re-audit named, each with a dated note",
+    "G9": "accepted, with one residual (re-audit 4): a commit that arrives by a merge is not read",
+    "X1": "accepted (re-audit 4); the gate that guards the ceiling is a tripwire, and two of the seat's planted sentences passed it for a defect and not a limit",
+    "X2": "agreed: partly (re-audit 4); GENESIS.md's own line still says that it holds",
+})
+U("E3", "FIXED", "carried on 2026-11-11 (Review 78, B1877) to the four places the second re-audit named -- B1853, B1855, B1857 and the read-out rule's page -- and to B1856's own verdict line and the register's row P-738; a lock fails if the old form stands anywhere in the record without the correction beside it. The seat's fourth re-audit read it at 015be0cc7 and accepted it; its own test of the lock: the old form in the lock's words on a new page fails, in other words it passes -- a tripwire")
+U("G14", "PARTLY FIXED", "B1880: of the finding's four parts, two are met in part. A verdict file that cannot be read as JSON now fails the gate arc-data and is named (the seat's planted case PV14, which passed with the count one lower; a committed test plants it on an arc nothing depends on). And the old lines of the arrival gate are frozen by key and not by count. Left: the other baselines that are counts and not named sets; the ESCALATED markers that never expire; an id matched as a substring of a longer id")
+for _fid in ("E3",):
+    SINCE_REAUDIT.pop(_fid, None)          # the fourth re-audit read what main had changed there
+SINCE_REAUDIT["G2"] = ("B1880", "the third re-audit's three residuals, each reproduced on main and then closed in the gate: a name that could be read as more than one tracked file is refused (two old entries declared by name); every entry that does not verify is frozen with the state it was found in, so a frozen file that changes again fails (417 keys in a table whose own hash the gate pins); and a list of hashed files is known by its content, whatever it is called (80 more lists, 750 entries; a list under another name cannot be edited, deleted or moved from 3e25c8ec3 on). Left of this finding, as before: a rule under a name outside the seal patterns, a sealed-style file one folder down, and a rule committed after its record")
+SINCE_REAUDIT["G9"] = ("B1880", "the fourth re-audit's residual: every commit reachable from the tip after da25c4f49 is read, the merged ones too; a trailer, and a foreign author, on a side branch merged in with a clean message are each refused in a committed test")
+SINCE_REAUDIT["X1"] = ("B1880", "the fourth re-audit's planted sentences r2, r3, r5 and r6: the excusing words are whole words ('claim' no longer passes for 'aim'), they excuse only inside the sentence that carries the phrase, every tracked page under docs/ at any depth and every .tex and .md under papers/ is read, and the three old lines are frozen by key and not by count. r4, a sentence of arrival in other words, still passes: the gate is a tripwire for the phrases it lists")
+del SINCE_REAUDIT["G1"]                    # the third re-audit read B1874's change to the waivers and accepted it; nothing later
 
 # the owner's rulings of 2026-11-10 AS RELAYED by the advisor seat. The relay's own rule, and main's: each is confirmed with the
 # owner once before main acts on it. Main asked on 2026-11-10 about the eleven then relayed; the owner answered main the same day,

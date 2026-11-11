@@ -28,7 +28,7 @@ def test_the_recount_runs_and_says_what_the_findings_quote():
         assert s in out, s
     sealed = (HERE / "read_checks_run.txt").read_text(encoding="utf-8")
     # 8 at the read; 9 since the owner named the orientation's condition on 2026-11-11 (B1879), which the run now prints
-    assert "joined to nothing: 64" in sealed and "an exit with no objection on the page: 9" in sealed
+    assert "joined to nothing: 65" in sealed and "an exit with no objection on the page: 9" in sealed          # 64 until P-777 was registered (B1880)
 
 
 def test_the_four_repairs_are_in_force():
@@ -46,8 +46,9 @@ def test_the_four_repairs_are_in_force():
     unread = P["stats"]["fixed_and_not_yet_re_audited"]
     assert fixed and sorted(k for k in fixed if k not in P["accepted"]) == sorted(unread)
     assert all(P["accepted"][k].startswith("accepted") for k in fixed if k in P["accepted"])
-    assert len([k for k in fixed if k in P["accepted"]]) == 8
-    assert F["E3"]["state"] == "PARTLY FIXED" and F["X3"]["wp"] == "WP-0.12" and F["X4"]["wp"] == "WP-0.11"
+    # eight when this lock was written; eleven after the seat's fourth re-audit read B1878's two and accepted E3 (B1880)
+    assert len([k for k in fixed if k in P["accepted"]]) == 11 and unread == []
+    assert F["E3"]["state"] == "FIXED" and F["X3"]["wp"] == "WP-0.12" and F["X4"]["wp"] == "WP-0.11"
     # the control: a finding about the repository filed in a package the card does not wait on would be seen here
     outside = [w for w in PK if w not in up and w != "WP-5.3" and not w.startswith(("WP-5.4", "WP-6"))]
     assert not any(F[k]["wp"] in outside for k in repo)

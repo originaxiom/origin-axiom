@@ -497,6 +497,38 @@ def build(nodes=None, edges=None):
             fails.append("finding %s is marked FIXED and the re-audit did not accept it: %s" % (fid, verdict))
         elif S.FINDINGS[fid]["state"] == "FIXED" and "not carried" in verdict:
             fails.append("finding %s is marked FIXED and the re-audit says the correction was not carried everywhere" % fid)
+    # ---- 21 (B1880; the advisor seat's third re-audit, its case j4): a verdict is the seat's, so it is read in the seat's file.
+    # Each verdict has a row of the re-audit that gave it, verbatim; the first row names the finding and its bold words are the
+    # verdict in force, with which the programme's own wording must begin.
+    reaudit_text = {}
+    for fname, (srev, mrev) in S.REAUDITS.items():
+        reaudit_text[fname] = seat_file(srev, S.ADVISOR[1] + "/" + fname)
+        if reaudit_text[fname] is None and "the advisor seat's re-audits" not in unchecked:
+            unchecked.append("the advisor seat's re-audits")
+    verdicts_checked = 0
+    for fid, verdict in S.ACCEPTED.items():
+        rows_ = S.VERDICT_ROWS.get(fid)
+        if not rows_:
+            fails.append("the re-audit's verdict on %s has no row of the seat's file behind it" % fid)
+            continue
+        for k, (fname, row) in enumerate(rows_):
+            if fname not in S.REAUDITS:
+                fails.append("a verdict row for %s names a re-audit the programme does not hold: %s" % (fid, fname))
+                continue
+            if reaudit_text[fname] is not None:
+                if norm(row) not in reaudit_text[fname]:
+                    fails.append("the seat's %s does not hold the row quoted for %s: %r" % (fname, fid, row))
+                else:
+                    verdicts_checked += 1
+            if k == 0:
+                if not re.search(r"(?<![A-Za-z0-9])%s(?![0-9])" % re.escape(fid), row):
+                    fails.append("the row that carries the verdict in force on %s does not name that finding: %r" % (fid, row))
+                said = re.findall(r"\*\*([^*]+)\*\*", row)
+                if not said or not norm(verdict).lower().startswith(norm(said[-1]).lower()):
+                    fails.append("the programme's verdict on %s does not begin with the seat's own words in its row (%r): %r" % (fid, said[-1] if said else "", verdict))
+    for fid in S.VERDICT_ROWS:
+        if fid not in S.ACCEPTED:
+            fails.append("a row of a re-audit is quoted for %s, which has no verdict here" % fid)
     fixed_unread = sorted(fid for fid, f in S.FINDINGS.items() if f["state"] == "FIXED" and fid not in S.ACCEPTED)
     for fid, (arc_, what_) in S.SINCE_REAUDIT.items():
         if fid not in S.ACCEPTED:
@@ -560,7 +592,7 @@ def build(nodes=None, edges=None):
         findings_that_bear_on_the_repository_as_a_whole=sum(1 for fid in S.FINDINGS if S.REPO in S.BEARS_ON.get(fid, [])),
         findings_that_name_arcs_nodes_or_pages_only=sum(1 for fid in S.FINDINGS if S.BEARS_ON.get(fid) and S.REPO not in S.BEARS_ON[fid]),
         debts_on_the_map_joined_to_nothing=len(unjoined), packages_the_sealed_card_must_wait_on_for_that=sorted(must),
-        findings_with_a_re_audit_verdict=len(S.ACCEPTED), fixed_and_not_yet_re_audited=fixed_unread,
+        findings_with_a_re_audit_verdict=len(S.ACCEPTED), fixed_and_not_yet_re_audited=fixed_unread, verdict_rows_read_in_the_seats_files=verdicts_checked,
         findings_main_changed_since_the_re_audit=sorted(S.SINCE_REAUDIT),
         audit_findings=len(S.FINDINGS), audit_findings_by_state={s: fstate.get(s, 0) for s in S.FINDING_STATES}, relayed_rulings=len(S.RULINGS),
         rulings_confirmed_by_the_owner_to_main=len(confirmed), rulings_not_confirmed=len(S.NOT_CONFIRMED), rulings_asked=len(S.RULINGS) - len(confirmed) - len(S.NOT_CONFIRMED),
@@ -759,7 +791,9 @@ def render(B):
           "FIXED: main meets the whole row as main reads it; that seat's re-audit decides.", "",
           "Two more columns, added at the advisor seat's read of this page as a non-author. *Bears on* names what the finding touches:",
           "arcs, nodes of the map, pages, or REPOSITORY for a property of the repository as a whole that a seal depends on. *The",
-          "re-audit* is that seat's verdict on main's fix, at main's commit `%s`; it is kept apart from main's own word." % S.ACCEPTED_AT[0], "",
+          "re-audit* is that seat's verdict on main's fix, kept apart from main's own word. Each verdict is of main at the commit its",
+          "re-audit read (%s), and each is read in the row of the seat's own file." % "; ".join(
+              "%s read main at `%s`" % (f.split("_20")[0].replace("REAUDIT_", "re-audit "), m) for f, (srev, m) in sorted(S.REAUDITS.items())), "",
           "| finding | what it says | package | bears on | on main | the re-audit | what main did or checked |", "|---|---|---|---|---|---|---|"]
     for fid in sorted(S.FINDINGS, key=fkey):
         f = S.FINDINGS[fid]
@@ -804,7 +838,7 @@ def generated(B):
     out = dict(stats=B["stats"], packages=B["packages"], waits=B["waits"], closure=B["closure"], debt_of=B["debt_of"],
                inputs=S.INPUTS, rules=S.RULES, tallies=S.TALLIES, certificate=S.CERTIFICATE, value_status=S.VALUE_STATUS,
                seal_rule=S.SEAL_RULE, findings=S.FINDINGS, rulings=S.RULINGS, confirmed=S.CONFIRMED, confirmation=list(S.CONFIRMATION), opinion=S.OPINION, not_confirmed=S.NOT_CONFIRMED, confirmed_later={k: list(v) for k, v in S.CONFIRMED_LATER.items()}, direct_rulings=[list(r) for r in S.DIRECT_RULINGS],
-               bears_on=S.BEARS_ON, accepted=S.ACCEPTED, accepted_at=list(S.ACCEPTED_AT), since_reaudit={k: list(v) for k, v in S.SINCE_REAUDIT.items()}, released=B["released"], map_dependencies=B["proj"],
+               bears_on=S.BEARS_ON, accepted=S.ACCEPTED, accepted_at=list(S.ACCEPTED_AT), reaudits={k: list(v) for k, v in S.REAUDITS.items()}, verdict_rows={k: [list(r) for r in v] for k, v in S.VERDICT_ROWS.items()}, since_reaudit={k: list(v) for k, v in S.SINCE_REAUDIT.items()}, released=B["released"], map_dependencies=B["proj"],
                given=S.GIVEN, also=S.ALSO, exits={k: list(v) for k, v in S.EXITS.items()}, exit_kinds=S.EXIT_KINDS)
     return {"PROGRAMME.md": render(B), "PROGRAMME.json": json.dumps(out, indent=1, ensure_ascii=False, sort_keys=True) + "\n"}
 

@@ -1,0 +1,33 @@
+{
+ "id": "B1881",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1872",
+  "B1875",
+  "B1879",
+  "B1857",
+  "B1733",
+  "B1809",
+  "B1853",
+  "B1876",
+  "B1858"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the web seat (chat1): CHAT1_TO_CC_2026-11-11_WHAT_SYMMETRY_ALLOWS_A_STATE_OF_THE_WHOLE.md and CHAT1_TO_CC_2026-11-11_THE_READ_OUT_AS_A_VALUE.md @ 8ff3f7e5, each read in full; every exact fact and every cell re-derived by main's own code, none of the seat's code run"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (the two level-5 quotients of the upper half-plane and their symmetries; the record's flat-fibre instrument on run sequences)",
+  "object": "the allowed subweave at level 5 with the mark of the golden ground; cyclic run sequences",
+  "domain": "level 5 only, which is put in; a read-out built from the quotient alone; the flat-fibre instrument on a chosen clock, with gaps to 19 golden periods and runs to 26",
+  "not_covered": "any other level; a state that uses the tori and a content; the hyperbolic metric; a weight or a state, of which none is computed; any comparison of a point named here with a value of the modulus on record"
+ },
+ "claim_one_line": "THE WEB SEAT'S TWO RELAYS OF 2026-11-11 ON THE MISSING READ-OUT OF THE WHOLE, VERIFIED ON MAIN WITH MAIN'S OWN CODE (P-776; B1872 § 3, B1875 § 7; data-free; 65 checks, none failing; nothing selected and nothing compared): (A) WHAT SYMMETRY ALLOWS A STATE OF THE WHOLE -- a function unchanged by a group of symmetries is greatest on a set the group carries to itself, so it is greatest at one point only where every symmetry fixes that point; at level 5, with the mark of the golden ground: the moves keeping one twin up to sign have index 12, cusp widths 1, 1, 5, 5 and no elliptic point; those keeping the line have index 6, widths 1, 5 and two elliptic points; the dual involution has exactly two fixed points, of discriminant -20, at t = +5 sqrt 5 and -5 sqrt 5 for t = (eta(tau)/eta(5 tau))^6, and with the mirror it fixes the circle |t|^2 = 125; with two acts and one twin as the mark no point is fixed by every symmetry and exactly three pairs exist; with the line as the mark, two points; with the tick an act the mark's mirror is a move and what is left is an arc with those two points as its ends; the ten points where the torus is isomorphic to its quotient by the marked line are the roots of (t^2-125)(t^2+22t+125)(t^2+4t+125)(t^2+18t+125)(t^2-14t+125), of discriminants -20, -4, -16, -11, -19. (B) THE READ-OUT AS A VALUE, in the record's flat-fibre instrument -- as the golden gaps lengthen a history reads the own value of its deepest departure; a run of n keeps the line exactly when n = 1 mod 5 and its own value is (n-1)/2 + sqrt5/2, so the allowed readings have a least, sqrt5/2, and no greatest; at short gaps the apex can sit at the shallower of two departures and a composite can read below its factor; every printed number reproduced. MAIN ADDS: the rate is derived (one golden period is x -> 1/(1 + 1/(1 + x)), with derivative phi^-4 at its fixed point), where the seat observed it; the seat's convention and B1872's name one allowed set (47,988 run sequences, no exception); and a criterion, main's reading and not a result -- with the tick an act an outcome of the whole is either a point the mirror fixes or a pair it exchanges, and 'only even ticks are observed', which the owner ruled the weight must deliver, is delivered exactly when the outcome is such a pair; on the arc that excludes its two ends. Symmetry confines a single outcome and the greatest has none: neither places a value. 0 of 19.",
+ "weave_or_thread": "weave (part A: the joint action of the allowed moves on the quotient and what its symmetries force); part B is a weave question put to a thread instrument, and says so"
+}

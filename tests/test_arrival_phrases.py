@@ -48,15 +48,55 @@ def test_the_aim_a_denial_and_a_condition_pass(tmp_path):
         assert g.arrival_hits(_page(tmp_path, sentence + "\n")) == [], sentence
 
 
-def test_the_gate_is_green_on_this_repository_and_its_baseline_can_only_shrink():
+def test_the_gate_is_green_on_this_repository_and_its_old_lines_are_frozen_by_key():
+    """B1878 froze three old lines by COUNT; a count lets an old line be traded for a new sentence.  From B1880 each is frozen by
+    a key of its page, its phrase and its sentence, and a sentence that is not one of the three fails."""
     g = _gates()
     ok, why = g.gate_arrival_phrases()
-    assert ok, why
-    hits = g.arrival_hits()
-    assert sum(c for _, _, c in hits) == g.ARRIVAL_BASELINE == 3 and sorted(h[0] for h in hits) == [
-        "docs/CLOSURE_MASTERPLAN.md", "docs/THE_STATE_2026-09-06.md", "docs/WHAT_WOULD_COUNT.md"]
-    ok, why = g.gate_arrival_phrases(_baseline=g.ARRIVAL_BASELINE - 1)          # one more than the frozen three would fail
-    assert not ok and "baseline 2" in why
+    assert ok and "3 old line(s) frozen by key" in why, why
+    sents = g.arrival_sentences()
+    assert sorted(k for k, *_ in sents) == sorted(g.ARRIVAL_FROZEN) and len(g.ARRIVAL_FROZEN) == g.ARRIVAL_BASELINE == 3
+    assert sorted(rel for _, rel, _, _ in sents) == ["docs/CLOSURE_MASTERPLAN.md", "docs/THE_STATE_2026-09-06.md", "docs/WHAT_WOULD_COUNT.md"]
+    assert g.arrival_hits() == []
+    keep = g.ARRIVAL_FROZEN
+    try:
+        g.ARRIVAL_FROZEN = frozenset(sorted(keep)[1:])                              # one of the three no longer frozen: the gate fails
+        ok, why = g.gate_arrival_phrases()
+        assert not ok and "1 sentence(s) of arrival" in why, why
+        g.ARRIVAL_FROZEN = keep | {"0" * 12}                                        # a key that matches nothing is reported
+        ok, why = g.gate_arrival_phrases()
+        assert ok and "1 frozen key(s) match nothing now" in why, why
+    finally:
+        g.ARRIVAL_FROZEN = keep
+
+
+def test_the_advisor_seats_six_planted_sentences(tmp_path):
+    """the seat's fourth re-audit (2026-11-11), its cases r1 to r6, planted by main on a small tree.  r2 passed the gate as first
+    written because the excusing words were matched as pieces of words ('claim' holds 'aim'); r3 because a word of denial anywhere
+    in the 64 characters before the phrase excused it; r5 and r6 because the papers and the folders below docs/ were not read.  r4
+    is in other words and is not caught: the gate is a tripwire for the phrases it lists, and says so."""
+    g = _gates()
+    def planted(text, name="README.md"):
+        root = tmp_path / ("t%d" % len(list(tmp_path.iterdir()))); f = root / name
+        f.parent.mkdir(parents=True, exist_ok=True); f.write_text(text, encoding="utf-8")
+        return g.gate_arrival_phrases(_root=root, _baseline=0)[0]
+    assert not planted("The Standard Model is derived.\n")                                             # r1
+    assert not planted("We claim that the Standard Model is derived.\n")                               # r2
+    assert not planted("Nothing stands in the way now. The Standard Model is derived.\n")              # r3
+    assert planted("All nineteen parameters now follow from the object with no free input.\n")         # r4: other words, NOT caught
+    assert not planted("\\section{Result}\nThe Standard Model is derived.\n", "papers/P9/tex/sections/s09.tex")   # r5
+    assert not planted("The Standard Model is derived.\n", "docs/progress/NOTE.md")                    # r6
+    # the same defect in the other excusing words, and the excuses that must still hold
+    assert not planted("A minor point: the Standard Model is derived.\n")                              # 'minor' holds 'nor'
+    assert not planted("Nonetheless the Standard Model is derived.\n")                                 # 'nonetheless' holds 'none'
+    assert not planted("We proclaim it. The Standard Model is derived!\n")
+    assert not planted("- no value is fitted\n- the Standard Model is derived\n")                     # a denial in the bullet before
+    assert not planted("| nothing is assumed | the Standard Model is derived |\n")                     # a denial in the cell before
+    assert planted("We do not claim that the Standard Model is derived.\n")
+    assert planted("The paper doesn't say that the Standard Model is derived.\n")
+    assert planted("Our aim is a page on which the Standard Model is derived.\n")
+    assert planted("It aims to show that the Standard Model is derived; it has not.\n")
+    assert planted("an untracked note\n", "audit/draft/NOTE.md")                                       # outside the reach: not a page
 
 
 def test_the_statement_of_aim_is_no_longer_banned_and_the_governing_page_says_why():

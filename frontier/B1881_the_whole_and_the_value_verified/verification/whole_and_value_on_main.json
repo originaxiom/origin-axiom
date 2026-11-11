@@ -1,0 +1,167 @@
+{
+ "E1 the quotient of one twin: index 12, widths 1 1 5 5, no elliptic point, genus 0": true,
+ "E1 the quotient of the line: index 6, widths 1 5, two elliptic points of order 2, genus 0": true,
+ "E2 S keeps exactly two lines: the mark's, and the line of v T^-1": true,
+ "E2 so the elliptic points are i and -1 + i in the mark's frame": true,
+ "E2 the elliptic element S sends v to 2v: it keeps the line and exchanges the twins": true,
+ "E2 the other elliptic element T^-1 S T squares to -1 and sends v to +-2v": true,
+ "E2 the twin exchange squares into the group of one twin": true,
+ "the frame change g0 has (0,1) g0 = v and determinant 1": true,
+ "E3 W = g0^-1 [[0,-1],[5,0]] g0 = [[-3,-14],[1,3]], det 5, W^2 = -5": true,
+ "E3 (R1) W5 [[a,b],[5c,d]] W5^-1 = [[d,-c],[-5b,a]], symbolically": true,
+ "E3 the fixed points fall into exactly the two form classes (1,0,5) and (2,2,3) of discriminant -20": true,
+ "E3 any two fixed points with the same form are related by an element of the group: exactly two fixed points": true,
+ "E3 (R2) gamma = W5^-1 M has d = +-1 mod 5 in the class (1,0,5) and +-2 in (2,2,3), for every one found": true,
+ "E3 at every one the kernel of the fixing matrix on the points of order 5 is the mark (0, b)": true,
+ "E3 (Q5) the mirror normalises the group: [[a,b],[5c,d]] -> [[a,-b],[-5c,d]]": true,
+ "E3 the fixed point i/sqrt5 is on the mirror's axis; the other, 1/2 + i/(2 sqrt5), goes to its translate by -1": true,
+ "E3 W5 and the mirror each exchange the two elliptic points (+-2 + i)/5": true,
+ "E4 t(z) t(-1/(5z)) = 125 at a point with no symmetry": true,
+ "E4 t = +5 sqrt5 at i/sqrt5 and -5 sqrt5 at 1/2 + i/(2 sqrt5)": true,
+ "E4 the elliptic points are t = -11 +- 2i": true,
+ "E4 the mirror is t -> conj t": true,
+ "E4 so W with the mirror is t -> 125/conj t, with fixed set |t|^2 = 125; both fixed points and both elliptic points lie on it": true,
+ "E5 t = 1/s - 11 - s at a point with no symmetry": true,
+ "E5 the twin exchange is s -> -1/s (the move [[2,-1],[5,-2]])": true,
+ "E5 the mirror is s -> conj s": true,
+ "E5 s -> (beta s + 1)/(s - beta) is an involution and lifts t -> 125/t": true,
+ "E5 its product with the twin exchange is the other lift, also an involution": true,
+ "E5 the three holomorphic involutions have two fixed points each, six in all, no point common to two": true,
+ "E5 the twin exchange fixes s = +-i, over the two elliptic points t = -11 -+ 2i": true,
+ "E5 W fixes the two twins over one of t = +-5 sqrt5, and W with the twin exchange the two over the other": true,
+ "E5 the twin exchange, W and the mirror generate a group of order 8 on the sphere": true,
+ "E5 the six points fall into exactly three pairs, each point with a stabiliser of order 4; no point is fixed by the whole group": true,
+ "the classical formulas: j(tau) = (t^2+250t+3125)^3/t^5 and j(5 tau) = (t^2+10t+5)^3/t, at a point with no symmetry": true,
+ "E6 it is -(t^2-125)(t^2+22t+125)(t^2+4t+125)(t^2+18t+125)(t^2-14t+125): ten points": true,
+ "E6 all ten lie on |t|^2 = 125, and j there is 1728, -32768, 287496, -884736 (discriminants -4, -11, -16, -19) and the two conjugates of discriminant -20": true,
+ "E6 the pair over i is among the ten: t^2 + 22t + 125 has the roots -11 +- 2i and j = 1728 there": true,
+ "E7 the ground [[1,1],[1,2]] has v as its row line; F^2 is the ground; det F = -1; v F = 3v": true,
+ "E7 F = S^-1 m with m = [[-1,-1],[0,1]], m^2 = 1, and m keeps +-v": true,
+ "E7 on tau: F is tau -> 1/(conj tau + 1), which is S^-1 after tau -> -conj(tau) - 1": true,
+ "E7 so if the tick is an act the mark's mirror is a move of the group that keeps the line (S keeps the line: v S^-1 = 2v)": true,
+ "E8 each odd character's weight-1 series vanishes at one elliptic point and not at the other, the two characters at different points": true,
+ "E8 E2(tau) - 5 E2(5 tau) vanishes at both elliptic points": true,
+ "E8 and is a constant times the product of the two weight-1 series (the same ratio at two points)": true,
+ "A_numbers": {
+  "quotient_one_twin": [
+   12,
+   [
+    1,
+    1,
+    5,
+    5
+   ],
+   0,
+   0,
+   "0"
+  ],
+  "quotient_line": [
+   6,
+   [
+    1,
+    5
+   ],
+   2,
+   0,
+   "0"
+  ],
+  "W": [
+   -3,
+   -14,
+   1,
+   3
+  ],
+  "fixed_point_matrices_found": 97,
+  "form_classes": {
+   "(1, 0, 5)": 51,
+   "(2, 2, 3)": 46
+  },
+  "j_at_the_ten_points": {
+   "t**2 + 22*t + 125": [
+    "1728"
+   ],
+   "t**2 + 4*t + 125": [
+    "287496"
+   ],
+   "t**2 + 18*t + 125": [
+    "-32768"
+   ],
+   "t**2 - 14*t + 125": [
+    "-884736"
+   ],
+   "t**2 - 125": [
+    "632000 + 282880*sqrt(5)",
+    "632000 - 282880*sqrt(5)"
+   ]
+  },
+  "weight_2_over_product_of_weight_1": "(-40.0 - 5.14948440186e-31j)"
+ },
+ "E9 (r + x + y)/2 is sqrt(tr^2 - 4)/(2c) for the word started at that run, on (2,1,2,1,2) closed by two periods": true,
+ "E9 (V0) own values 3.618034, 6.118034 and 1.723607": true,
+ "E9 (V3) the runs 6, 11, 16, 21, 26 keep the line; their own values are (n-1)/2 + sqrt5/2 to 1e-40 and increase": true,
+ "E9 (V3) the control, a run of 7, does not keep the line": true,
+ "E9 a run of n keeps the line exactly when n = 1 mod 5 (n to 40)": true,
+ "E9 by hand: n/2 + 1/phi = (n-1)/2 + sqrt5/2": true,
+ "E10 (V1) copies of (6): 0.019, 0.0028, 5.9e-5, 2.7e-8, 5.4e-15, the same for two, three and four copies to two figures": true,
+ "E10 (V1) copies of (11): 0.023 at k = 1; copies of (2,1,2,1,2): 0.00069 at k = 1": true,
+ "E10 (V1) the distances fall strictly with k and are below 1e-12 at k = 16, in all nine cases": true,
+ "E10 (V1) the rate between k = 8 and 16 is 1.924847 per golden period in all nine cases, against 4 ln phi = 1.924847": true,
+ "E10 (V1) two copies tie exactly (to 1e-100); the spread of three and of four falls with k": true,
+ "E10 the rate derived: the derivative of one golden period at its fixed point is phi^-4, so the factor tends to phi^4 = 6.854102": true,
+ "E10 the step ratios for two copies of (6) are 6.935, 6.866, 6.856, 6.8543, 6.8541, tending to phi^4": true,
+ "E10 (V2) in all five the apex is unique, at a run of the deepest departure; the distance falls strictly and is below 6e-15 at k = 16": true,
+ "E11 (6) with one period on both sides reads 3.6515 against 3.6180, nearly one percent (0.92); (11) is 0.65 percent off": true,
+ "E11 a composite can read below its factor: (6)_1 (6)_2 reads 3.6371, below (6)_1 alone": true,
+ "E11 A = (2,1,1,4,4) and B = (2,1,2,4,4) keep the line; own values 2.418183 and 2.423508": true,
+ "E11 the apex can sit at the shallower departure: in A_1 B_2 it is in A at 2.425956; in A_2 B_3, A_4 B_5, A_8 B_9 it is in B": true,
+ "E11 and for every gap from 2 to 12 it is in B (the referee's statement)": true,
+ "the least apex over every cyclic run sequence of even length to 6 with runs to 5 is the ground's own, sqrt5/2 (16275 sequences)": true,
+ "the own values of the allowed single runs increase without bound: 5m/2 + sqrt5/2 for the run of 5m + 1": true,
+ "B_numbers": {
+  "own": {
+   "(6)": "3.61803398875",
+   "(11)": "6.11803398875",
+   "(2,1,2,1,2)": "1.72360679775"
+  },
+  "copies_of_6_distances": [
+   "0.019",
+   "0.0028",
+   "5.9e-5",
+   "2.7e-8",
+   "5.4e-15"
+  ],
+  "rate": "1.924847303",
+  "four_ln_phi": "1.9248473",
+  "step_ratios": [
+   "6.935086",
+   "6.865766",
+   "6.855801",
+   "6.85435",
+   "6.854138",
+   "6.854107"
+  ],
+  "phi4": "6.854101966",
+  "A_then_B_apex_by_gap": {
+   "1": "A",
+   "2": "B",
+   "3": "B",
+   "4": "B",
+   "5": "B",
+   "6": "B",
+   "7": "B",
+   "8": "B",
+   "9": "B",
+   "10": "B",
+   "11": "B",
+   "12": "B"
+  },
+  "conventions": {
+   "agree": 47988,
+   "differ": 0,
+   "differ_against_reversed": 0,
+   "differ_against_rotated": 8366,
+   "first_difference": null
+  }
+ },
+ "E12 the two conventions name one allowed set (as written, reversed, or rotated by one run)": true
+}

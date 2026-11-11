@@ -3,19 +3,22 @@
   "E10": "accepted",
   "E11": "partly, as main says",
   "E13": "accepted",
-  "E3": "accepted in the arc; not carried to the three arcs and the page that state the old form",
+  "E3": "accepted (re-audit 4): carried to the four places the second re-audit named, each with a dated note",
   "E4": "partly, as main says",
   "E6": "accepted",
   "E8": "partly, as main says",
-  "G1": "accepted, with three residuals (the log's archives; a waiver hides its violation; history before the rule)",
-  "G2": "accepted for what it covers; the scripts a seal hashed are unguarded",
+  "G1": "accepted, with three residuals (re-audit 2); the second, a waiver that hides its violation, accepted as mended (re-audit 3). Left: the log's archives, and history before the rule",
+  "G2": "accepted, with three residuals (re-audit 3, of the gate for the scripts a seal hashed): a copy standing in for the real file, a frozen entry changing again, and lists under other names",
   "G3": "accepted",
   "G4": "accepted; one case open (a rule committed after its record)",
-  "L5": "accepted"
+  "G9": "accepted, with one residual (re-audit 4): a commit that arrives by a merge is not read",
+  "L5": "accepted",
+  "X1": "accepted (re-audit 4); the gate that guards the ceiling is a tripwire, and two of the seat's planted sentences passed it for a defect and not a limit",
+  "X2": "agreed: partly (re-audit 4); GENESIS.md's own line still says that it holds"
  },
  "accepted_at": [
-  "ab97082c0",
-  "REAUDIT_2_2026-11-10.md"
+  "015be0cc7",
+  "REAUDIT_4_2026-11-11.md"
  ],
  "also": {
   "D:01": [
@@ -93,7 +96,9 @@
    "B567"
   ],
   "E2": [
-   "docs/THEOREM_LEDGER.md"
+   "docs/THEOREM_LEDGER.md",
+   "B734",
+   "tests/test_b734_m004_congruence.py"
   ],
   "E3": [
    "B1856",
@@ -185,7 +190,9 @@
    "B1847"
   ],
   "L6": [
-   "REPOSITORY"
+   "REPOSITORY",
+   "B1849",
+   "B1850"
   ],
   "L7": [
    "REPOSITORY"
@@ -292,7 +299,9 @@
   ],
   "V4": [
    "REPOSITORY",
-   "V:SIX"
+   "V:SIX",
+   "B1840",
+   "B1841"
   ],
   "V5": [
    "REPOSITORY",
@@ -551,7 +560,8 @@
   "P-733": "WP-0.1",
   "P-757": "WP-0.7",
   "P-772": "WP-0.7",
-  "P-773": "WP-0.12"
+  "P-773": "WP-0.12",
+  "P-777": "WP-0.7"
  },
  "direct_rulings": [
   [
@@ -805,13 +815,17 @@
    "wp": "WP-0.8"
   },
   "E3": {
-   "note": "carried on 2026-11-11 (Review 78, B1877) to the four places the second re-audit named -- B1853, B1855, B1857 and the read-out rule's page -- and to two more that the review found: B1856's own verdict line still opened with the old form, and the register's row P-738 stated it. A lock now fails if the old form stands anywhere in the record without the correction beside it. Left: the seat's re-read",
+   "note": "carried on 2026-11-11 (Review 78, B1877) to the four places the second re-audit named -- B1853, B1855, B1857 and the read-out rule's page -- and to B1856's own verdict line and the register's row P-738; a lock fails if the old form stands anywhere in the record without the correction beside it. The seat's fourth re-audit read it at 015be0cc7 and accepted it; its own test of the lock: the old form in the lock's words on a new page fails, in other words it passes -- a tripwire",
    "short": "B1856: a parity gap in 'invisible to every state'",
-   "state": "PARTLY FIXED",
+   "state": "FIXED",
    "trail": [
     [
      "PARTLY FIXED",
      "B1856 says that invisible to every state is E = +1, gives the split 338 and 305 and names parity superselection (B1862). Not carried to B1853, B1855, B1857 or the read-out rule's page, which still state the old form with no pointer: main's own propagation fault, found by the seat's second re-audit (P-772)"
+    ],
+    [
+     "PARTLY FIXED",
+     "carried on 2026-11-11 (Review 78, B1877) to the four places the second re-audit named -- B1853, B1855, B1857 and the read-out rule's page -- and to two more that the review found: B1856's own verdict line still opened with the old form, and the register's row P-738 stated it. A lock now fails if the old form stands anywhere in the record without the correction beside it. Left: the seat's re-read"
     ]
    ],
    "was": [
@@ -907,9 +921,15 @@
    "wp": "WP-0.7"
   },
   "G14": {
-   "note": "main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a verdict file cut to invalid JSON is skipped by the gate that reads it; it is noticed only where the arc has dependants, and by a view generator",
+   "note": "B1880: of the finding's four parts, two are met in part. A verdict file that cannot be read as JSON now fails the gate arc-data and is named (the seat's planted case PV14, which passed with the count one lower; a committed test plants it on an arc nothing depends on). And the old lines of the arrival gate are frozen by key and not by count. Left: the other baselines that are counts and not named sets; the ESCALATED markers that never expire; an id matched as a substring of a longer id",
    "short": "baselines are counts, markers never expire, ids match as substrings",
-   "state": "REPRODUCED",
+   "state": "PARTLY FIXED",
+   "trail": [
+    [
+     "REPRODUCED",
+     "main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a verdict file cut to invalid JSON is skipped by the gate that reads it; it is noticed only where the arc has dependants, and by a view generator"
+    ]
+   ],
    "was": [
     "READER",
     "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a verdict file cut to invalid JSON is skipped by the gate that reads it; it is noticed only where the arc has dependants, and by a view generator"
@@ -2667,7 +2687,8 @@
    "closure_nodes": [],
    "debts": [
     "P-757",
-    "P-772"
+    "P-772",
+    "P-777"
    ],
    "findings": [
     "G1",
@@ -4859,6 +4880,20 @@
    "wave": 7
   }
  ],
+ "reaudits": {
+  "REAUDIT_2_2026-11-10.md": [
+   "b5034197b",
+   "ab97082c0"
+  ],
+  "REAUDIT_3_2026-11-11.md": [
+   "6ab743907",
+   "b28dceea8"
+  ],
+  "REAUDIT_4_2026-11-11.md": [
+   "58ae45c70",
+   "015be0cc7"
+  ]
+ },
  "released": {
   "A:A07": [
    "FA:F4"
@@ -5030,10 +5065,6 @@
   "The owner has confirmed the ruling on the count (2026-11-10): the headline is to be printed from the graph and typed nowhere -- confirmed, refuted, predictions registered, not reached. Until that is built (WP-0.12) the typed count stands and is marked as typed."
  ],
  "since_reaudit": {
-  "E3": [
-   "B1877",
-   "the correction carried to B1853, B1855, B1857 and the read-out rule's page, as the re-audit asked, and to B1856's verdict line and the register's row P-738; a lock that fails wherever the old form stands unmarked"
-  ],
   "E4": [
    "B1877",
    "'commuting' carried to B952's verdict line, its results file and the requirements ledger, where the reader of Review 78 found the lemma uncorrected"
@@ -5042,23 +5073,27 @@
    "B1877",
    "the scope carried to the verdict block at the top of B854's findings"
   ],
-  "G1": [
-   "B1874",
-   "the second of its three residuals: both gates put every waiver, with its reason, in their sentence and count waived commits apart from appends; and the runner, which printed a bare ok for every pass, now prints those sentences whole (a waived violation committed in a small repository is named in the printed line). Left: the log's archives, and the history before the rule"
-  ],
   "G2": [
-   "B1874",
-   "the re-audit's largest residual: a gate reads every list of hashed files (189 lists, 1497 entries), a listed file cannot change, and a list cannot be edited, deleted or moved; the 63 entries that did not verify are frozen by key; eleven tests on committed planted violations, the seat's own case among them. Left of this finding: a rule under a name outside the seal patterns, and a sealed-style file one folder deeper"
+   "B1880",
+   "the third re-audit's three residuals, each reproduced on main and then closed in the gate: a name that could be read as more than one tracked file is refused (two old entries declared by name); every entry that does not verify is frozen with the state it was found in, so a frozen file that changes again fails (417 keys in a table whose own hash the gate pins); and a list of hashed files is known by its content, whatever it is called (80 more lists, 750 entries; a list under another name cannot be edited, deleted or moved from 3e25c8ec3 on). Left of this finding, as before: a rule under a name outside the seal patterns, a sealed-style file one folder down, and a rule committed after its record"
+  ],
+  "G9": [
+   "B1880",
+   "the fourth re-audit's residual: every commit reachable from the tip after da25c4f49 is read, the merged ones too; a trailer, and a foreign author, on a side branch merged in with a clean message are each refused in a committed test"
+  ],
+  "X1": [
+   "B1880",
+   "the fourth re-audit's planted sentences r2, r3, r5 and r6: the excusing words are whole words ('claim' no longer passes for 'aim'), they excuse only inside the sentence that carries the phrase, every tracked page under docs/ at any depth and every .tex and .md under papers/ is read, and the three old lines are frozen by key and not by count. r4, a sentence of arrival in other words, still passes: the gate is a tripwire for the phrases it lists"
   ]
  },
  "stats": {
   "audit_findings": 73,
   "audit_findings_by_state": {
-   "FIXED": 10,
+   "FIXED": 11,
    "OPEN": 1,
    "PARTLY FIXED": 15,
    "READER": 4,
-   "REPRODUCED": 43
+   "REPRODUCED": 42
   },
   "audit_findings_checked_at_the_seats_revision": 73,
   "budget": {
@@ -5073,8 +5108,8 @@
   "candidate_frame_joints": 13,
   "conditional_headlines_released_by_closing_one_choice": 0,
   "conditional_results": 19,
-  "debts": 81,
-  "debts_on_the_map_joined_to_nothing": 64,
+  "debts": 82,
+  "debts_on_the_map_joined_to_nothing": 65,
   "exits_by_kind": {
    "ADMITTED": 3,
    "BACK-EDGE NAMED": 6,
@@ -5087,19 +5122,16 @@
    "UNTOUCHED": 11
   },
   "findings_main_changed_since_the_re_audit": [
-   "E3",
    "E4",
    "E8",
-   "G1",
-   "G2"
-  ],
-  "findings_that_bear_on_the_repository_as_a_whole": 34,
-  "findings_that_name_arcs_nodes_or_pages_only": 39,
-  "findings_with_a_re_audit_verdict": 12,
-  "fixed_and_not_yet_re_audited": [
+   "G2",
    "G9",
    "X1"
   ],
+  "findings_that_bear_on_the_repository_as_a_whole": 34,
+  "findings_that_name_arcs_nodes_or_pages_only": 39,
+  "findings_with_a_re_audit_verdict": 15,
+  "fixed_and_not_yet_re_audited": [],
   "forcing_arguments_one_clause_short": 3,
   "headline_results_not_yet_results_on_main": [
    "T:IM",
@@ -5115,7 +5147,7 @@
   "inputs_with_an_exit_on_the_table": 9,
   "lanes_supplied_inputs": 7,
   "map_dependencies_between_packages": 21,
-  "map_nodes": 270,
+  "map_nodes": 271,
   "nodes_assigned": 131,
   "nodes_needing_a_path": 131,
   "not_checked_in_this_clone": [],
@@ -5178,6 +5210,7 @@
    "WP-3.5",
    "WP-4.5"
   ],
+  "verdict_rows_read_in_the_seats_files": 18,
   "waves": 8,
   "work_order_quotes_checked": 8
  },
@@ -5202,6 +5235,110 @@
    "an ancestor has no recomputing lock, no script in tracked files, or no declared domain"
   ]
  ],
+ "verdict_rows": {
+  "E10": [
+   [
+    "REAUDIT_2_2026-11-10.md",
+    "| **E10** the README's arc lookup | **accepted** |"
+   ]
+  ],
+  "E11": [
+   [
+    "REAUDIT_2_2026-11-10.md",
+    "| **E11** three statements | **partly**, as you say |"
+   ]
+  ],
+  "E13": [
+   [
+    "REAUDIT_2_2026-11-10.md",
+    "| **E13** B567's 21 eigenvalues | **accepted** |"
+   ]
+  ],
+  "E3": [
+   [
+    "REAUDIT_4_2026-11-11.md",
+    "| **E3** the premise's two signs | PARTLY FIXED | **accepted** |"
+   ],
+   [
+    "REAUDIT_2_2026-11-10.md",
+    "| **E3** B1856's premise | **accepted in the arc; not propagated** |"
+   ]
+  ],
+  "E4": [
+   [
+    "REAUDIT_2_2026-11-10.md",
+    "| **E4** B952's lemma | **partly**, as you say |"
+   ]
+  ],
+  "E6": [
+   [
+    "REAUDIT_2_2026-11-10.md",
+    "| **E6** B862's kernel | **accepted** |"
+   ]
+  ],
+  "E8": [
+   [
+    "REAUDIT_2_2026-11-10.md",
+    "| **E8** B854's scope | **partly**, as you say |"
+   ]
+  ],
+  "G1": [
+   [
+    "REAUDIT_2_2026-11-10.md",
+    "| **G1** the append-only gate | **accepted**, with three residuals |"
+   ],
+   [
+    "REAUDIT_3_2026-11-11.md",
+    "| **waivers print themselves** (B1874; residuals a2 and s5) | **accepted** |"
+   ]
+  ],
+  "G2": [
+   [
+    "REAUDIT_3_2026-11-11.md",
+    "| **the scripts a seal hashed** (B1874; the largest residual of G2) | **accepted, with three residuals** |"
+   ],
+   [
+    "REAUDIT_2_2026-11-10.md",
+    "| **G2** sealed files | **accepted for what it covers**; the cover is too narrow |"
+   ]
+  ],
+  "G3": [
+   [
+    "REAUDIT_2_2026-11-10.md",
+    "| **G3** the ledger's self-certification | **accepted** |"
+   ]
+  ],
+  "G4": [
+   [
+    "REAUDIT_2_2026-11-10.md",
+    "| **G4** seal filenames | **accepted**; one case of the finding still open |"
+   ]
+  ],
+  "G9": [
+   [
+    "REAUDIT_4_2026-11-11.md",
+    "| **G9** the attribution rule is not gated as worded | FIXED | **accepted, with one residual** |"
+   ]
+  ],
+  "L5": [
+   [
+    "REAUDIT_2_2026-11-10.md",
+    "| **L5** B1847's lock | **accepted** |"
+   ]
+  ],
+  "X1": [
+   [
+    "REAUDIT_4_2026-11-11.md",
+    "| **X1** twelve places cap the goal | FIXED | **accepted** |"
+   ]
+  ],
+  "X2": [
+   [
+    "REAUDIT_4_2026-11-11.md",
+    "| **X2** three documents each claim supremacy | PARTLY FIXED | **agreed: partly** |"
+   ]
+  ]
+ },
  "waits": {
   "FA:F1": {
    "axioms": [

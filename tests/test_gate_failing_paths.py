@@ -331,6 +331,19 @@ def test_arc_data_fails_on_a_dependency_on_nothing(tmp_path, monkeypatch):
     ok, why = gates.gate_arc_data(); assert ok is False and "B99991" in why
 
 
+def test_arc_data_fails_on_a_verdict_file_that_cannot_be_read(tmp_path, monkeypatch):
+    """the advisor seat's planted case PV14 (its third re-audit, 2026-11-11): a verdict file cut to invalid JSON, on an arc that
+    nothing depends on.  It was dropped from the count and the gate stayed green; it fails now and names the folder (B1880)."""
+    for name, body in (("B99990_a", '{"id": "B99990"}'), ("B99991_b", '{"id": "B99991", "claim_one_line": "cut off he')):
+        d = tmp_path / "frontier" / name; d.mkdir(parents=True)
+        (d / "arc_verdict.json").write_text(body, encoding="utf-8")
+    monkeypatch.setattr(gates, "ROOT", str(tmp_path))
+    ok, why = gates.gate_arc_data()
+    assert ok is False and "cannot be read as JSON" in why and "B99991_b" in why, why
+    (tmp_path / "frontier" / "B99991_b" / "arc_verdict.json").write_text('{"id": "B99991"}', encoding="utf-8")
+    ok, why = gates.gate_arc_data(); assert ok is True and "2 verdict files" in why, why
+
+
 def test_inputs_scoreboard_fails_on_an_earned_joint_with_no_basis(tmp_path, monkeypatch):
     """P-418/P-661: a joint typed FORCED-BY-MAIN must name an existing registry or law-map row; the page must be current"""
     import shutil

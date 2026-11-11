@@ -1,5 +1,25 @@
 # Changelog
 
+## S306p TWO SEATS HARVESTED AND VERIFIED: THE ADVISOR SEAT'S THIRD AND FOURTH RE-AUDITS ANSWERED (B1880), AND THE WEB SEAT'S TWO RELAYS ON THE READ-OUT OF THE WHOLE VERIFIED (B1881) (2026-11-11)
+
+- **Why now.** The owner asked what else main had not harvested. Measured at the fetch: the advisor seat two commits past its pin (its re-audits 3 and 4 of main), the web seat nine (two relays). Main had fetched re-audit 3 eight hours earlier and not read it.
+- **B1880, the re-audits.** Every residual the seat planted is reproduced on main, with the seat's own counts, and nine are closed, each with the planted case as a committed test:
+  - **the scripts a seal hashed:** a copy can no longer stand in for the sealed file (a name that could mean two tracked files is refused); a frozen entry is frozen with the state it was found in, so it cannot change again unseen; and a list of hashed files is known by its content under any name. 80 more lists and 750 entries were not being read: 396 verify, 354 do not. Of those, nine whose sealed content had changed are each equal to the sealed version after a path repair or a redacted name; three raw hashes are verified by decompressing the tracked files, two of them in the candidate's chain; 342 are frozen as found and not read (P-777);
+  - **the ceiling's gate had a defect of main's, a day old:** "We claim that the Standard Model is derived" passed, because "claim" contains "aim". Whole words now, inside the phrase's own sentence; the papers and every folder below docs/ are read; the old lines are frozen by key. A sentence of arrival in other words still passes;
+  - **the attribution gate** reads every reachable commit, the merged ones too;
+  - **the programme** reads each of the seat's verdicts in the seat's own file; an unreadable verdict file fails its gate.
+  - With the fourth re-audit all eleven findings main marks fixed have the seat's verdict. What main changed here the seat has not read.
+  - **The harvest gate now names every seat past its pin at every push.** It passed in silence for 21 days before.
+- **B1881, the two relays.** 65 checks with main's own code, none failing; nothing selected, nothing compared with any value on record:
+  - **what symmetry allows:** a read-out built from the whole's quotient alone is greatest at one point only where every symmetry fixes that point. At level 5: with two acts and one twin, nowhere (exactly three pairs); with the line, at two points; with the tick an act, on an arc with those two points as its ends;
+  - **what a history reads,** in the record's flat-fibre instrument: its deepest departure's own value, in the limit of long gaps. The allowed readings have a least and no greatest, so the whole read by its greatest has no outcome;
+  - **main adds:** the rate is derived (φ⁴ per golden period), where the seat observed it; the two conventions name one allowed set; and a criterion, main's reading and not a result: with the tick an act an outcome is a point the mirror fixes or a pair it exchanges, and "only even ticks are observed" is delivered exactly when it is a pair.
+- **Recorded and told to the owner:** the web seat records the owner as having "no preference" on three questions whose answers to main were each the option main recommended. Each such ruling enters the foundation as a postulate chosen at main's recommendation.
+- **A working rule, at the owner's word** ("what you recomend so we fix this once for all. i got asked same ruling questions from multiple seats … you are main"): one channel to the owner, and no question of fact is put to him. A ruling sets a goal, a standard, an order of work or a meaning; what the mathematics can decide is computed; what nothing can decide is a tagged postulate that main enters; only main asks him, once. It is in WORKING_RULES.md, binding every seat, and relayed to all (P-780). Main's four menu questions of this morning were of the forbidden kind and are re-typed at the foundation's next version.
+- **Three of the owner's messages sat undelivered in the session's queue for up to ninety minutes** while main worked on this landing; he asked for the seats' progress and got silence. Main reads the queue at each landing and after every long command.
+- **Also found:** fifty-six outbound relays of August to October exist only in main's working tree, each with a ledger row. Committing them is the owner's call (P-779); a copy and a list of hashes are made meanwhile.
+- 0 of 19.
+
 ## S306p THE WEAVE'S THEOREMS WITH THE EXCHANGE ADDED, AND THE OWNER'S RULING ON IT: EVEN TICKS ARE A CONDITION TO DERIVE (B1879; P-769, P-771) (2026-11-11)
 
 - **Why it was computed.** The owner ruled the tick an act. An earlier ruling (2026-10-08) says even ticks are what is observed. Asked how the two stand together, the owner answered "After the computation".

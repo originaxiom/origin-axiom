@@ -19227,3 +19227,51 @@ decision; it is something the theory has to deliver, through whatever weighs the
 three stays as conditional as it was, and now the condition has a name.
 
 0 of 19.
+
+## 2026-11-11 — S306p: two other seats' overnight work, read late, checked and answered
+
+Two of the other seats worked overnight. Main had fetched their work and not read it, one of them for eight hours.
+The owner asked what else was unread, and this entry is the answer.
+
+**The auditor's two reports.** The auditing seat re-checked the safeguards main built yesterday. It accepted them and
+then showed how to get round three.
+
+- A file that a sealed test depends on could be swapped for a changed one, by leaving an untouched copy where the
+  safeguard looks first. That is closed.
+- The safeguard that stops any page from saying the theory has arrived let the sentence through if it began "We
+  claim that". The word "claim" contains "aim", and the safeguard took that for a statement of aim. That was main's
+  mistake, a day old. It is closed, and the test for it now uses the sentences a person would write.
+- A list of sealed files was only watched if it had one particular name. Eighty more lists exist under other names.
+  They are all watched now.
+
+Each of the seat's tricks is now a permanent test. Thirteen of its twenty-one older tricks still work, and that is
+recorded.
+
+**The mathematician's two notes.** The other seat asked: what could possibly single out one answer from the whole?
+
+- Symmetry cannot. A quantity that respects every symmetry of the whole can peak at a single place only where all
+  the symmetries agree. For the case in hand that is nowhere, or two special points, or a curve between them,
+  depending on a choice the owner made today. Symmetry says where one answer could sit. It does not put one there.
+- "Take the biggest" cannot either. In the measuring device the record uses, the allowed histories have a smallest
+  reading and no largest.
+
+Main checked every number in both notes with its own programs. All of it holds.
+
+**What follows.** The owner decided today that every step of the founding act is real, and that "only the even steps
+are seen" is something the theory must produce. Main can now say what producing it would look like: the answer has
+to come as a mirror pair, left and right, and not as a single point that is its own mirror image. That is a test to
+apply later, not a result.
+
+**One more thing found.** Fifty-six old messages from main to other seats were never saved in the public record.
+They exist on one machine. Whether to publish them is the owner's decision.
+
+**A rule about asking the owner.** Three seats, main among them, had been asking the owner to decide mathematical
+questions by picking from options. He said it was confusing and told main to fix it for good. The rule now binding
+every seat: the owner decides goals, standards, the order of work, and what he means. A question the mathematics can
+answer is computed. A question nothing can answer is written down as an assumption, counted as one. And only main
+asks him anything, once.
+
+Main also has to record a plain failure of its own: three of the owner's messages did not reach it for up to ninety
+minutes during this work, and he was left without an answer.
+
+0 of 19.

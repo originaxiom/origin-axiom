@@ -90,3 +90,12 @@ The seat's modules were read for their definitions only. 0 of 19.
   B1855 and not re-run on main (P-741). Conserving more levels does not deepen the departure without bound.
 - **Unchanged:** HL1, HL2, and the selections under no premise, the line premise, and charge at 5. The run of 6 under
   charge at 5 is the seat's proved case, corroborated on main.
+
+## Dated note (2026-11-11, S306p; B1881, the web seat's card on the read-out as a value)
+
+- **The depth lcm(S)/2 + √5/2 is, as a number, the own value of every single run that keeps the line.** In the
+  record's flat-fibre instrument a run of n has own value (n − 1)/2 + √5/2 when it is closed by a long golden ground,
+  and it keeps the line exactly when n ≡ 1 mod 5 (checked on main to n = 40, and to 10⁻⁴⁰ for 6, 11, 16, 21, 26).
+- **This is the depth only, not the selection.** The runs of 16, 21 and 26 lie where the note above says the charge
+  law's selection is refuted. Their own values still follow the formula, and they grow without bound.
+

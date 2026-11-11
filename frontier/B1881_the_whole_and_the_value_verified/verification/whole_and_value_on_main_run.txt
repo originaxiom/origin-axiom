@@ -1,0 +1,132 @@
+PART A. WHAT SYMMETRY ALLOWS A STATE OF THE WHOLE
+A1. the two quotients (the seat's Q1)
+   one twin up to sign: index 12, cusp widths [1, 1, 5, 5], elliptic points of order 2: 0, of order 3: 0, genus 0
+   the line:            index 6, cusp widths [1, 5], elliptic points of order 2: 2, of order 3: 0, genus 0
+   [ok] E1 the quotient of one twin: index 12, widths 1 1 5 5, no elliptic point, genus 0
+   [ok] E1 the quotient of the line: index 6, widths 1 5, two elliptic points of order 2, genus 0
+A2. the elliptic points of the line's quotient (Q2, Q3)
+   the lines that S keeps: [(1, 2), (1, 3)]; v S^-1 = (2, 1) = 2v: True
+   [ok] E2 S keeps exactly two lines: the mark's, and the line of v T^-1 -- [(1, 2), (1, 3)]
+   [ok] E2 so the elliptic points are i and -1 + i in the mark's frame
+   [ok] E2 the elliptic element S sends v to 2v: it keeps the line and exchanges the twins
+   [ok] E2 the other elliptic element T^-1 S T squares to -1 and sends v to +-2v -- (-1, -2, 1, 1)
+   [ok] E2 the twin exchange squares into the group of one twin
+A3. the dual involution and its fixed points (Q4, Q5, Q6, R1, R2)
+   [ok] the frame change g0 has (0,1) g0 = v and determinant 1
+   [ok] E3 W = g0^-1 [[0,-1],[5,0]] g0 = [[-3,-14],[1,3]], det 5, W^2 = -5 -- (-3, -14, 1, 3)
+   [ok] E3 (R1) W5 [[a,b],[5c,d]] W5^-1 = [[d,-c],[-5b,a]], symbolically
+   trace-0 matrices of determinant 5 in the coset found: 97; their forms reduce to: {'(1, 0, 5)': 51, '(2, 2, 3)': 46}
+   [ok] E3 the fixed points fall into exactly the two form classes (1,0,5) and (2,2,3) of discriminant -20
+   [ok] E3 any two fixed points with the same form are related by an element of the group: exactly two fixed points
+   [ok] E3 (R2) gamma = W5^-1 M has d = +-1 mod 5 in the class (1,0,5) and +-2 in (2,2,3), for every one found -- {'(1, 0, 5)': [1], '(2, 2, 3)': [2]}
+   [ok] E3 at every one the kernel of the fixing matrix on the points of order 5 is the mark (0, b)
+   [ok] E3 (Q5) the mirror normalises the group: [[a,b],[5c,d]] -> [[a,-b],[-5c,d]] -- an identity of matrices
+   [ok] E3 the fixed point i/sqrt5 is on the mirror's axis; the other, 1/2 + i/(2 sqrt5), goes to its translate by -1
+   [ok] E3 W5 and the mirror each exchange the two elliptic points (+-2 + i)/5
+A4. the coordinate t (Q7, R6)
+   [ok] E4 t(z) t(-1/(5z)) = 125 at a point with no symmetry
+   [ok] E4 t = +5 sqrt5 at i/sqrt5 and -5 sqrt5 at 1/2 + i/(2 sqrt5)
+   t at (2+i)/5: (-11.0 - 2.0j) ; t at (-2+i)/5: (-11.0 + 2.0j)
+   [ok] E4 the elliptic points are t = -11 +- 2i
+   [ok] E4 the mirror is t -> conj t
+   [ok] E4 so W with the mirror is t -> 125/conj t, with fixed set |t|^2 = 125; both fixed points and both elliptic points lie on it
+A5. the coordinate s of the quotient of one twin, and the three pairs (R3, R4, Q6)
+   [ok] E5 t = 1/s - 11 - s at a point with no symmetry
+   [ok] E5 the twin exchange is s -> -1/s (the move [[2,-1],[5,-2]])
+   [ok] E5 the mirror is s -> conj s
+   [ok] E5 s -> (beta s + 1)/(s - beta) is an involution and lifts t -> 125/t
+   [ok] E5 its product with the twin exchange is the other lift, also an involution
+   fixed by the twin exchange: [-I, I], at t = ['-11 + 2*I', '-11 - 2*I']
+   fixed by W: [-5*sqrt(5)/2 - 11/2 + sqrt(110*sqrt(5) + 250)/2, -sqrt(110*sqrt(5) + 250)/2 - 5*sqrt(5)/2 - 11/2], at t = ['5*sqrt(5)']
+   fixed by W with the twin exchange: [-5*sqrt(5)*sqrt(110*sqrt(5) + 250)/4 - 11/2 + 5*sqrt(5)/2 + 11*sqrt(110*sqrt(5) + 250)/4, -11*sqrt(110*sqrt(5) + 250)/4 - 11/2 + 5*sqrt(5)/2 + 5*sqrt(5)*sqrt(110*sqrt(5) + 250)/4], at t = ['-5*sqrt(5)']
+   [ok] E5 the three holomorphic involutions have two fixed points each, six in all, no point common to two
+   [ok] E5 the twin exchange fixes s = +-i, over the two elliptic points t = -11 -+ 2i
+   [ok] E5 W fixes the two twins over one of t = +-5 sqrt5, and W with the twin exchange the two over the other -- {'the twin exchange': {'-11 + 2*I', '-11 - 2*I'}, 'W': {'5*sqrt(5)'}, 'W with the twin exchange': {'-5*sqrt(5)'}}
+   [ok] E5 the twin exchange, W and the mirror generate a group of order 8 on the sphere -- 8
+   orbits of the six points: sizes [2, 2, 2]; stabiliser orders [4, 4, 4, 4, 4, 4]
+   [ok] E5 the six points fall into exactly three pairs, each point with a stabiliser of order 4; no point is fixed by the whole group
+A6. where the torus is isomorphic to its quotient by the marked line (R5)
+   [ok] the classical formulas: j(tau) = (t^2+250t+3125)^3/t^5 and j(5 tau) = (t^2+10t+5)^3/t, at a point with no symmetry
+   j(tau) - j(5 tau), cleared of denominators: -(t**2 - 125)*(t**2 - 14*t + 125)*(t**2 + 4*t + 125)*(t**2 + 18*t + 125)*(t**2 + 22*t + 125)
+   [ok] E6 it is -(t^2-125)(t^2+22t+125)(t^2+4t+125)(t^2+18t+125)(t^2-14t+125): ten points
+   t**2 + 22*t + 125  j = ['1728']
+   t**2 + 4*t + 125   j = ['287496']
+   t**2 + 18*t + 125  j = ['-32768']
+   t**2 - 14*t + 125  j = ['-884736']
+   t**2 - 125         j = ['632000 + 282880*sqrt(5)', '632000 - 282880*sqrt(5)']
+   [ok] E6 all ten lie on |t|^2 = 125, and j there is 1728, -32768, 287496, -884736 (discriminants -4, -11, -16, -19) and the two conjugates of discriminant -20 -- [-884736, -32768, 1728, 287496]
+   [ok] E6 the pair over i is among the ten: t^2 + 22t + 125 has the roots -11 +- 2i and j = 1728 there
+A7. the tick (R7, R8)
+   [ok] E7 the ground [[1,1],[1,2]] has v as its row line; F^2 is the ground; det F = -1; v F = 3v
+   [ok] E7 F = S^-1 m with m = [[-1,-1],[0,1]], m^2 = 1, and m keeps +-v
+   [ok] E7 on tau: F is tau -> 1/(conj tau + 1), which is S^-1 after tau -> -conj(tau) - 1
+   [ok] E7 so if the tick is an act the mark's mirror is a move of the group that keeps the line (S keeps the line: v S^-1 = 2v)
+   then the quotient is the line's with each point joined to its mirror image, t ~ conj t; W becomes t -> 125/t with 125/conj t,
+   and its fixed set is the image of |t|^2 = 125: an arc from +5 sqrt5 through the point over i to -5 sqrt5
+A8. weight 1 and weight 2 at the elliptic points (R9)
+   |E1 with chi(2) = +i| at (2+i)/5 = 0.30523624
+   |E1 with chi(2) = +i| at (-2+i)/5 = 1.0696158e-31
+   |E1 with chi(2) = -i| at (2+i)/5 = 1.0696158e-31
+   |E1 with chi(2) = -i| at (-2+i)/5 = 0.30523624
+   [ok] E8 each odd character's weight-1 series vanishes at one elliptic point and not at the other, the two characters at different points -- [(-1, '(2+i)/5'), (1, '(-2+i)/5')]
+   [ok] E8 E2(tau) - 5 E2(5 tau) vanishes at both elliptic points
+   [ok] E8 and is a constant times the product of the two weight-1 series (the same ratio at two points) -- (-40.0 - 5.149484402e-31j)
+
+PART B. THE READ-OUT AS A VALUE
+B1. the instrument, two ways
+   [ok] E9 (r + x + y)/2 is sqrt(tr^2 - 4)/(2c) for the word started at that run, on (2,1,2,1,2) closed by two periods
+   own value of (6)          3.61803398875
+   own value of (11)         6.11803398875
+   own value of (2,1,2,1,2)  1.72360679775
+   [ok] E9 (V0) own values 3.618034, 6.118034 and 1.723607
+B2. the single runs (V3)
+   run of  6: own value 3.618033989, (n-1)/2 + sqrt5/2 to 1e-40: True, keeps the line: True
+   run of 11: own value 6.118033989, (n-1)/2 + sqrt5/2 to 1e-40: True, keeps the line: True
+   run of 16: own value 8.618033989, (n-1)/2 + sqrt5/2 to 1e-40: True, keeps the line: True
+   run of 21: own value 11.11803399, (n-1)/2 + sqrt5/2 to 1e-40: True, keeps the line: True
+   run of 26: own value 13.61803399, (n-1)/2 + sqrt5/2 to 1e-40: True, keeps the line: True
+   [ok] E9 (V3) the runs 6, 11, 16, 21, 26 keep the line; their own values are (n-1)/2 + sqrt5/2 to 1e-40 and increase
+   [ok] E9 (V3) the control, a run of 7, does not keep the line
+   [ok] E9 a run of n keeps the line exactly when n = 1 mod 5 (n to 40)
+   [ok] E9 by hand: n/2 + 1/phi = (n-1)/2 + sqrt5/2
+B3. copies of one departure (V1)
+   2 copies of (6)          distance from the own value at k = 1, 2, 4, 8, 16: 0.019 0.0028 5.9e-5 2.7e-8 5.4e-15 ; rate 1.924847
+   3 copies of (6)          distance from the own value at k = 1, 2, 4, 8, 16: 0.019 0.0028 5.9e-5 2.7e-8 5.4e-15 ; rate 1.924847
+   4 copies of (6)          distance from the own value at k = 1, 2, 4, 8, 16: 0.019 0.0028 5.9e-5 2.7e-8 5.4e-15 ; rate 1.924847
+   2 copies of (11)         distance from the own value at k = 1, 2, 4, 8, 16: 0.023 0.0033 6.9e-5 3.1e-8 6.4e-15 ; rate 1.924847
+   3 copies of (11)         distance from the own value at k = 1, 2, 4, 8, 16: 0.023 0.0033 6.9e-5 3.1e-8 6.4e-15 ; rate 1.924847
+   4 copies of (11)         distance from the own value at k = 1, 2, 4, 8, 16: 0.023 0.0033 6.9e-5 3.1e-8 6.4e-15 ; rate 1.924847
+   2 copies of (2,1,2,1,2)  distance from the own value at k = 1, 2, 4, 8, 16: 0.00069 0.0001 2.2e-6 9.7e-10 2.0e-16 ; rate 1.924847
+   3 copies of (2,1,2,1,2)  distance from the own value at k = 1, 2, 4, 8, 16: 0.00069 0.0001 2.2e-6 9.7e-10 2.0e-16 ; rate 1.924847
+   4 copies of (2,1,2,1,2)  distance from the own value at k = 1, 2, 4, 8, 16: 0.00069 0.0001 2.2e-6 9.7e-10 2.0e-16 ; rate 1.924847
+   [ok] E10 (V1) copies of (6): 0.019, 0.0028, 5.9e-5, 2.7e-8, 5.4e-15, the same for two, three and four copies to two figures -- ['0.019', '0.0028', '5.9e-5', '2.7e-8', '5.4e-15']
+   [ok] E10 (V1) copies of (11): 0.023 at k = 1; copies of (2,1,2,1,2): 0.00069 at k = 1
+   [ok] E10 (V1) the distances fall strictly with k and are below 1e-12 at k = 16, in all nine cases
+   [ok] E10 (V1) the rate between k = 8 and 16 is 1.924847 per golden period in all nine cases, against 4 ln phi = 1.924847
+   [ok] E10 (V1) two copies tie exactly (to 1e-100); the spread of three and of four falls with k
+   [ok] E10 the rate derived: the derivative of one golden period at its fixed point is phi^-4, so the factor tends to phi^4 = 6.854102
+   step ratios for two copies of (6), k to k + 1, k = 1..6: 6.9351 6.8658 6.8558 6.8543 6.8541 6.8541
+   [ok] E10 the step ratios for two copies of (6) are 6.935, 6.866, 6.856, 6.8543, 6.8541, tending to phi^4 -- ['6.93509', '6.86577', '6.8558', '6.85435', '6.85414', '6.85411']
+B4. different departures (V2)
+   (6)(11)              apex at a run of (11)  at every k; distance from its own value: 0.019 0.0028 5.9e-5 2.7e-8 5.4e-15
+   (11)(2,1,2,1,2)      apex at a run of (11)  at every k; distance from its own value: 0.0091 0.0013 2.8e-5 1.3e-8 2.6e-15
+   (6)(6)(11)           apex at a run of (11)  at every k; distance from its own value: 0.0028 0.0004 8.5e-6 3.9e-9 7.9e-16
+   (11)(6)(2,1,2,1,2)   apex at a run of (11)  at every k; distance from its own value: 0.017 0.0024 5.2e-5 2.3e-8 4.8e-15
+   (6)(2,1,2,1,2)       apex at a run of (6)   at every k; distance from its own value: 0.0091 0.0013 2.8e-5 1.3e-8 2.6e-15
+   [ok] E10 (V2) in all five the apex is unique, at a run of the deepest departure; the distance falls strictly and is below 6e-15 at k = 16
+B5. short gaps (the seat's checks after its review)
+   [ok] E11 (6) with one period on both sides reads 3.6515 against 3.6180, nearly one percent (0.92); (11) is 0.65 percent off -- 3.65148, 0.925%, 0.648%
+   [ok] E11 a composite can read below its factor: (6)_1 (6)_2 reads 3.6371, below (6)_1 alone -- 3.63714
+   [ok] E11 A = (2,1,1,4,4) and B = (2,1,2,4,4) keep the line; own values 2.418183 and 2.423508 -- 2.418183 2.4235079
+   A_k B_(k+1): the apex is in A at k = 1 (2.425956), B at k = 2 (2.423658), B at k = 4 (2.423511), B at k = 8 (2.423508)
+   [ok] E11 the apex can sit at the shallower departure: in A_1 B_2 it is in A at 2.425956; in A_2 B_3, A_4 B_5, A_8 B_9 it is in B
+   [ok] E11 and for every gap from 2 to 12 it is in B (the referee's statement) -- ABBBBBBBBBBB
+B6. no greatest, and a least
+   [ok] the least apex over every cyclic run sequence of even length to 6 with runs to 5 is the ground's own, sqrt5/2 (16275 sequences) -- 1.118033989
+   [ok] the own values of the allowed single runs increase without bound: 5m/2 + sqrt5/2 for the run of 5m + 1 -- from E9, by hand and to 1e-40 for m = 1..5
+B7. main's own question: one allowed set in the two conventions?
+   run sequences of length 2, 4, 6 with runs to 6: the two conventions agree on 47988 and differ on 0 (first: None)
+   against main's convention read on the REVERSED sequence they differ on 0; on the sequence ROTATED by one run, on 8366
+   [ok] E12 the two conventions name one allowed set, as written (0 differ), reversed (0) or rotated by one run (8366)
+
+CHECKS: 65, FAILING: 0

@@ -97,3 +97,37 @@ def test_this_repository_since_the_last_commit_that_carried_one():
     assert g._VENDOR_RE.search(last) or g._TRAILER_RE.search(last)                 # the commit the rule is read from is itself one that carried one
     ok, why = g.gate_attribution()
     assert ok and "each by originaxiom" in why
+
+
+def _side_branch_merged(repo, message, author="originaxiom"):
+    """a commit on a side branch, brought onto the line by a merge commit whose own message and author are clean"""
+    _git(repo, "checkout", "-q", "-b", "side")
+    (repo / "b.txt").write_text("side\n", encoding="utf-8")
+    _git(repo, "add", "b.txt", author=author)
+    _git(repo, "commit", "-q", "-m", message, author=author)
+    side = _git(repo, "rev-parse", "HEAD")
+    _git(repo, "checkout", "-q", "main")
+    _commit(repo, "the line moves on")
+    _git(repo, "merge", "-q", "--no-ff", "-m", "a merge with a clean message", "side")
+    return side
+
+
+def test_a_trailer_on_a_commit_that_arrives_by_a_merge_is_refused(tmp_path):
+    """the advisor seat's fourth re-audit (2026-11-11), its case c3: the gate read the first-parent line, so a commit of a side
+    branch, merged in with a clean message, was not read.  Every commit reachable from the tip is read now."""
+    g = _gates()
+    repo, root = _repo(tmp_path)
+    side = _side_branch_merged(repo, "side work\n\nCo-Authored-By: somebody <s@example.invalid>")
+    problems, n = g.attribution_history_problems(repo, root)
+    assert n == 3 and problems == ["%s: a co-author trailer in the commit message" % side[:9]], (problems, n)
+    first_parent_only = subprocess.run(["git", "-C", str(repo), "log", "--first-parent", "--format=%H", root + "..HEAD"], capture_output=True, text=True).stdout.split()
+    assert side not in first_parent_only and len(first_parent_only) == 2          # the old reading saw two clean commits and passed
+
+
+def test_a_foreign_author_on_a_commit_that_arrives_by_a_merge_is_refused(tmp_path):
+    """the same re-audit's case c4"""
+    g = _gates()
+    repo, root = _repo(tmp_path)
+    side = _side_branch_merged(repo, "side work, in plain words", author="somebody else")
+    problems, n = g.attribution_history_problems(repo, root)
+    assert n == 3 and problems == ["%s: authored by 'somebody else', not originaxiom" % side[:9]], (problems, n)

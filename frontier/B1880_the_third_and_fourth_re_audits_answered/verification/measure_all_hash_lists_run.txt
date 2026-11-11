@@ -1,0 +1,79 @@
+1. THE NAMED LISTS, AS B1874'S GATE READ THEM
+   entries: 1497 in 189 lists; verify 1430; do not 67 (63 distinct keys)
+   a name first found: beside the list 1137, from the root 338
+   files that every list naming them finds only from the root: 177
+   the candidate's list (B1841_the_principled_ends_card): 21 entries resolved, 19 of them from the root
+   of those, files that NO other list reads where they stand (found only from the root by every list naming them): 8
+      frontier/B1691_the_exponents_at_the_two_fixed_points/verification/the_exponents.py
+      frontier/B1753_the_six_on_the_five_ality_lines/verification/census.jsonl
+      frontier/B1798_the_six_graded_under_the_class_choosing_null/verification/b1753_all266/census_ext.jsonl.gz
+      frontier/B1798_the_six_graded_under_the_class_choosing_null/verification/b1753_all266/census_ext_tail.jsonl.gz
+      frontier/B1798_the_six_graded_under_the_class_choosing_null/verification/referee/cnull.py
+      frontier/B1798_the_six_graded_under_the_class_choosing_null/verification/referee/cnull_b1753_all_5001_5010_c0.333_5.json
+      frontier/B1838_the_end/verification/exact_end_web_seat.py
+      frontier/B1839_the_end_card/verification/accessory.jsonl
+   frozen entries that are scripts whose hash does not verify: 23 entries, 21 distinct files
+
+2. EVERY LIST OF HASHED FILES, BY CONTENT
+   lists: 269 (189 named ARTIFACT_HASHES*.txt, 80 under another name)
+   entries: 2247; ABSENT 196, MISMATCH 189, NO NAME 1, NOT TRACKED 35, VERIFIES 1826
+   under another name: 750 entries; ABSENT 188, MISMATCH 144, NOT TRACKED 22, VERIFIES 396
+   family (file name)           lists entries  verify mismatch   no file
+   ORIGINALS_MANIFEST.txt           9     366     202       79        85
+   SEALS.txt                       18     177      65       56        56
+   VENDORED_FROM.txt                5      65      65        0         0
+   SHA256_RECEIVED.txt              7      41       0        0        41
+   DESIGN.sha256                   13      16      13        2         1
+   SHA256_AS_RECEIVED.txt           2      11       0        0        11
+   P1_FREEZE_HASHES.txt             1      10       0        0        10
+   ARTIFACT_SHA256_partial.txt      1       9       3        6         0
+   b666c1_script_hashes.txt         1       7       7        0         0
+   HASHES.txt                       1       6       5        1         0
+   SEAL.txt                         1       5       4        0         1
+   HARVEST_HASHES.txt               1       4       4        0         0
+   SEAL_Q3.txt                      1       4       4        0         0
+   SHA256SUMS                       1       3       3        0         0
+   cell8_hashes.txt                 1       3       3        0         0
+   PREREG.sha256                    1       2       2        0         0
+   DESIGN_B.sha256                  2       2       2        0         0
+   LARGE_OUTPUTS_SHA256.txt         1       2       0        0         2
+   RAW_SHA256.txt                   1       2       0        0         2
+   INTEGRATION_HASHES.txt           1       2       2        0         0
+   SEAL_Q1.txt                      1       2       2        0         0
+   b666w35_script_hashes.txt        1       2       2        0         0
+   seal.txt                         2       2       2        0         0
+   DESIGN_A.sha256                  1       1       1        0         0
+   DESIGN_C.sha256                  1       1       1        0         0
+   census.jsonl.sha256              1       1       0        0         1
+   SEAL_Q2.txt                      1       1       1        0         0
+   r4_predictions_SEALED.sha256     1       1       1        0         0
+   output.txt.sha256                1       1       1        0         0
+   L192_THE_BIT_PREREG.sha256       1       1       1        0         0
+   the share of a file's lines that are a hash and a name: lowest among the lists 0.375; highest among the 10 files that print a hash and are not lists 0.059; the rule's line is 0.25
+
+3. THE ENTRIES UNDER OTHER NAMES THAT DO NOT VERIFY, BY WHAT THE HISTORY SAYS
+   A     7  a script or an output whose recorded content was on main at some commit and has changed since
+   B     2  a page whose recorded content was on main at some commit and has been written on since
+   C   135  no version with the recorded hash in the file's history on main
+   D    22  the list names a file that is on main's machine and not tracked
+   E   188  the list names a file that is not in the repository
+   class A, by arc: B666 6, B756 1
+      5696c788e9ad  frontier/B666_leads_campaign/cell9/cell9_taskB_discrete_id.py  sealed content last at a9bbd0894 (2026-07-17)
+      9760de67e242  frontier/B666_leads_campaign/cell9/cell9_taskA_verify2.py  sealed content last at a9bbd0894 (2026-07-17)
+      a4d6a67d98b8  frontier/B666_leads_campaign/cell9/cell9_taskB_branches.py  sealed content last at a9bbd0894 (2026-07-17)
+      d02a3b05e71c  frontier/B756_remaining_doors/RAW_WORKFLOW_OUTPUT.json  sealed content last at 894e36e03 (2026-07-22)
+      d14cf9151b8a  frontier/B666_leads_campaign/cell9/cell9_taskA_exact_tau.py  sealed content last at a9bbd0894 (2026-07-17)
+      df3e9b1ea2e9  frontier/B666_leads_campaign/cell9/cell9_L_arith.py  sealed content last at a9bbd0894 (2026-07-17)
+      fdd9de1bf5ca  frontier/B666_leads_campaign/cell9/cell9_taskB_branches_v2.py  sealed content last at a9bbd0894 (2026-07-17)
+   class B: 5d18a184f2ee  frontier/B879_selection_cochain/packet/HANDOFF_CC_SELECTION_COCHAIN.md  sealed content last at c6bee8fa8 (2026-08-03)
+   class B: e7a235cb36d3  frontier/B1298_the_lift_fork/DESIGN.md  sealed content last at 7f6262089 (2026-09-08)
+   entries that name an uncompressed file tracked only as its gzip: 3; the gzip decompresses to the recorded hash in 3
+      frontier/B1786_the_slope_principle_out_of_sample/verification/census.jsonl.gz  (census.jsonl.sha256)
+      frontier/B1798_the_six_graded_under_the_class_choosing_null/verification/b1753_all266/census_ext.jsonl.gz  (RAW_SHA256.txt)
+      frontier/B1798_the_six_graded_under_the_class_choosing_null/verification/b1753_all266/census_ext_tail.jsonl.gz  (RAW_SHA256.txt)
+
+4. THE FROZEN TABLE
+   keys: 417 (63 of them the 63 of 2026-11-10); by state: M 185, N 231, X 1
+   ambiguous entries, declared by name in the gate and not frozen: 2
+   sha256 of the table: 01621ae48200b20c3e50d8974844aa09fc0ee291ff050b24fcbbf57a42cd7bdc
+   written: scripts/gates/hash_lists_frozen.json

@@ -152,9 +152,23 @@ def test_the_gate_itself_fails_on_main_when_one_frozen_entry_is_forgotten():
     ok, why = g.gate_artifact_hashes()
     assert ok, why
     assert len(g.ARTIFACT_HASHES_BROKEN) == 63
+    table = g.hash_lists_frozen()
+    assert table is not None and set(g.ARTIFACT_HASHES_BROKEN) <= set(table) and len(table) == 417
     one = sorted(g.ARTIFACT_HASHES_BROKEN)[0]
-    ok, why = g.gate_artifact_hashes(_frozen=g.ARTIFACT_HASHES_BROKEN - {one})
+    ok, why = g.gate_artifact_hashes(_frozen={k: v for k, v in table.items() if k != one})
     assert not ok and ("MISMATCH" in why or "ABSENT" in why or "NOT TRACKED" in why or "NO NAME" in why), why
+    # B1880: a frozen entry is held to the state it was found in; with one state altered in the table the gate fails and names it
+    k = next(k for k in sorted(table) if table[k].startswith("M:"))
+    ok, why = g.gate_artifact_hashes(_frozen=dict(table, **{k: "M:" + "0" * 16}))
+    assert not ok and "has changed again" in why and "frozen as M:0000000000000000" in why, why
+    # and the table is the one the gate pins by hash: with another pin, nothing is verified
+    pin = g.HASH_LISTS_FROZEN_SHA256
+    try:
+        g.HASH_LISTS_FROZEN_SHA256 = "0" * 64
+        ok, why = g.gate_artifact_hashes()
+        assert not ok and "cannot verify" in why and "hash_lists_frozen.json" in why, why
+    finally:
+        g.HASH_LISTS_FROZEN_SHA256 = pin
     assert "artifact-hashes" in g.GATES
 
 
@@ -202,3 +216,141 @@ def test_the_runner_prints_the_whole_sentence_of_a_gate_that_holds_waivers():
     assert g.result_line("append-only", False, "cannot verify").strip() == "FAIL  append-only: cannot verify"
     src = (ROOT / "scripts" / "gates" / "gates.py").read_text(encoding="utf-8")
     assert "print(result_line(name, ok, detail))" in src
+
+
+# ---- B1880: the advisor seat's third re-audit (2026-11-11), its planted cases t3, t4 and t7, each committed here ------------
+TOOL = "frontier/B9001_an_instrument/tool.py"
+CAND = "frontier/B9003_the_candidate"
+
+
+def _repo_with_a_list_that_reads_from_the_root(tmp_path, name="c"):
+    """an instrument with no list of its own, and another arc's list that names it by its path from the repository's root"""
+    repo, root = _repo(tmp_path, name)
+    _write(repo, TOOL, CODE)
+    _write(repo, CAND + "/ARTIFACT_HASHES.txt", "%s  %s\n" % (_sha(CODE), TOOL))
+    _git(repo, "commit", "-q", "-m", "the candidate seals an instrument of another arc")
+    return repo, root
+
+
+def test_t3_a_copy_does_not_stand_in_for_the_file_a_seal_hashed(tmp_path):
+    """t3: a copy with the sealed content is added where the gate looks first, beside the list, and the real file is changed.  No
+    list is edited.  As B1874 read it every entry verifies; the gate now refuses a name that could be read as two tracked files."""
+    g = _gates()
+    repo, root = _repo_with_a_list_that_reads_from_the_root(tmp_path)
+    assert _gate(g, repo, root)[0]
+    _write(repo, CAND + "/" + TOOL, CODE)                                          # the copy, where the gate looks first
+    _write(repo, TOOL, CODE.replace("THRESHOLD = 5", "THRESHOLD = 50"))            # the real instrument, changed
+    _git(repo, "commit", "-q", "-m", "two files added beside the list, and the instrument changed")
+    assert all(st == "VERIFIES" for (_, _, _, st) in g.artifact_hash_state(repo))   # B1874's reading: all is well
+    ok, why = _gate(g, repo, root)
+    assert not ok and "could be read as more than one tracked file" in why and "tool.py" in why, why
+    key = next(e[0] for e in g.hash_list_state(repo) if e[3] == "AMBIGUOUS")
+    ok, why = g.gate_artifact_hashes(_repo=repo, _frozen=frozenset(), _root=root, _resolved={key: TOOL})
+    assert not ok and "MISMATCH" in why, why                                       # declared to mean the real file: it has changed
+    # the copy alone, the real file untouched, is refused too: a second file under a sealed name is not left to chance
+    repo2, root2 = _repo_with_a_list_that_reads_from_the_root(tmp_path, "c2")
+    _write(repo2, CAND + "/" + TOOL, CODE)
+    _git(repo2, "commit", "-q", "-m", "a copy beside the list")
+    assert not _gate(g, repo2, root2)[0]
+
+
+def test_t4_a_frozen_entry_that_changes_again_is_refused(tmp_path):
+    """t4: an entry that did not verify was frozen by a key of the list, the name and the recorded hash.  The key does not hold
+    what the file is now, so the file could change again unseen.  Frozen with its state, a further change is a new mismatch."""
+    g = _gates()
+    repo, root = _repo(tmp_path)
+    _write(repo, SCRIPT, CODE + "# changed once, before the rule\n")
+    _git(repo, "commit", "-q", "-m", "the state the rule found")
+    key, sig = next((e[0], e[4]) for e in g.hash_list_state(repo) if e[3] == "MISMATCH")
+    assert sig.startswith("M:") and len(sig) == 18
+    assert _gate(g, repo, root, frozen={key: sig})[0]
+    _write(repo, SCRIPT, CODE + "# changed once, before the rule\nTHRESHOLD = 50\n")
+    _git(repo, "commit", "-q", "-m", "a frozen file edited further")
+    assert _gate(g, repo, root, frozen=frozenset({key}))[0]                         # frozen by key alone, as before: not seen
+    ok, why = _gate(g, repo, root, frozen={key: sig})
+    assert not ok and "has changed again" in why and "census.py" in why, why
+    # a frozen entry that comes to verify is healed, and passes
+    _write(repo, SCRIPT, CODE)
+    _git(repo, "commit", "-q", "-m", "the sealed content restored")
+    assert _gate(g, repo, root, frozen={key: sig})[0]
+    # 'no tracked file' is one state in every clone, on disk or not
+    _write(repo, ARC + "/ARTIFACT_HASHES_MORE.txt", "%s  verification/local_only.py\n" % _sha("x"))
+    _git(repo, "commit", "-q", "-m", "a list naming a file that is not tracked")
+    k2, s2 = next((e[0], e[4]) for e in g.hash_list_state(repo) if e[3] == "ABSENT")
+    (repo / ARC / "verification" / "local_only.py").write_text("x", encoding="utf-8")       # on this machine, not tracked
+    assert [(e[3], e[4]) for e in g.hash_list_state(repo) if e[0] == k2] == [("NOT TRACKED", "N")] and s2 == "N"
+    assert _gate(g, repo, root, frozen={k2: "N"})[0]
+
+
+def test_t7_a_seal_list_under_another_name_is_read(tmp_path):
+    """t7: a new arc whose list is named SEAL_SHA256.txt; its instrument changed after the seal.  The gate read
+    ARTIFACT_HASHES*.txt only.  A list of hashed files is now known by its content."""
+    g = _gates()
+    repo, root = _repo(tmp_path)
+    arc = "frontier/B9004_a_new_arc"
+    _write(repo, arc + "/verification/instrument.py", CODE)
+    _write(repo, arc + "/SEAL_SHA256.txt", "sealed before the run\n%s  verification/instrument.py\n" % _sha(CODE))
+    _git(repo, "commit", "-q", "-m", "a seal under another name")
+    ok, why = _gate(g, repo, root)
+    assert ok and "2 entries in 2 lists: 2 verify" in why and "1 of the lists are under another name" in why, why
+    _write(repo, arc + "/verification/instrument.py", CODE.replace("THRESHOLD = 5", "THRESHOLD = 50"))
+    _git(repo, "commit", "-q", "-m", "the instrument changed after the seal")
+    assert len(g.artifact_hash_state(repo)) == 1                                    # B1874's reading does not see the list at all
+    ok, why = _gate(g, repo, root)
+    assert not ok and "MISMATCH" in why and "instrument.py" in why and "SEAL_SHA256.txt" in why, why
+
+
+def test_a_list_under_another_name_cannot_be_edited_deleted_or_moved(tmp_path):
+    g = _gates()
+    arc = "frontier/B9004_a_new_arc"
+    def sealed(name):
+        repo, root = _repo(tmp_path, name)
+        _write(repo, arc + "/verification/instrument.py", CODE)
+        _write(repo, arc + "/SEAL_SHA256.txt", "%s  verification/instrument.py\n" % _sha(CODE))
+        _git(repo, "commit", "-q", "-m", "a seal under another name")
+        return repo, root
+    repo, root = sealed("e1")
+    new = CODE.replace("THRESHOLD = 5", "THRESHOLD = 50")
+    _write(repo, arc + "/verification/instrument.py", new)
+    _write(repo, arc + "/SEAL_SHA256.txt", "%s  verification/instrument.py\n" % _sha(new))
+    _git(repo, "commit", "-q", "-m", "the instrument and its list rewritten together")
+    assert all(e[3] == "VERIFIES" for e in g.hash_list_state(repo))
+    ok, why = _gate(g, repo, root)
+    assert not ok and "edits the list of hashed files" in why and "SEAL_SHA256.txt" in why, why
+    repo, root = sealed("e2")
+    _git(repo, "rm", "-q", arc + "/SEAL_SHA256.txt")
+    _git(repo, "commit", "-q", "-m", "the list removed")
+    ok, why = _gate(g, repo, root)
+    assert not ok and "deletes the list of hashed files" in why, why
+    repo, root = sealed("e3")
+    _write(repo, arc + "/SEAL_SHA256.txt", "\n".join(["a note"] * 40) + "\n%s  verification/instrument.py\n" % _sha(CODE))
+    _git(repo, "commit", "-q", "-m", "the list buried in notes until it no longer reads as one")
+    assert not g.is_hash_list(arc + "/SEAL_SHA256.txt", (repo / arc / "SEAL_SHA256.txt").read_text(encoding="utf-8"))
+    ok, why = _gate(g, repo, root)
+    assert not ok and "edits the list of hashed files" in why, why                  # the parent's version was a list: history says so
+    # a waiver by name is the only way through, and it is printed
+    c = _git(repo, "rev-parse", "HEAD")
+    ok, why = _gate(g, repo, root, waived={(c, arc + "/SEAL_SHA256.txt"): "the owner's reason"})
+    assert ok and "waived: 1" in why and "the owner's reason" in why, why
+
+
+def test_what_is_a_list_and_what_only_prints_a_hash(tmp_path):
+    g = _gates()
+    h = _sha("x")
+    assert g.is_hash_list("a/ARTIFACT_HASHES.txt", "no hash here\n")               # by its name
+    assert g.is_hash_list("a/SEALS.txt", "%s  PREREG.md\n%s  run.py\n" % (h, h))
+    assert g.is_hash_list("a/DESIGN.sha256", "%s  DESIGN.md\n" % h)
+    assert g.is_hash_list("a/SHA256SUMS", "%s  a.py\n" % h)
+    assert g.is_hash_list("a/VENDORED_FROM.txt", "\n".join(["a note"] * 5 + ["%s  a.py" % h] * 3) + "\n")       # 3 of 8
+    assert not g.is_hash_list("a/run_output.txt", "\n".join(["a line of output"] * 30 + ["%s  a.py" % h]) + "\n")   # 1 of 31
+    assert not g.is_hash_list("a/NOTES.md", "%s  a.py\n" % h)                      # a page is not read as a list: a generated manifest is rebuilt at every landing
+    assert not g.is_hash_list("a/seal.txt", "sha256: %s\n" % h)                    # a hash with no file name seals nothing the gate can check
+    # a run output that prints a hash can be regenerated freely
+    repo, root = _repo(tmp_path)
+    out = "frontier/B9002_a_sealed_run/verification/run_output.txt"
+    _write(repo, out, "\n".join(["a line of output"] * 30 + ["%s  census.py" % _sha(CODE)]) + "\n")
+    _git(repo, "commit", "-q", "-m", "a run output")
+    _write(repo, out, "\n".join(["another line"] * 30 + ["%s  census.py" % _sha(CODE)]) + "\n")
+    _git(repo, "commit", "-q", "-m", "the run output regenerated")
+    assert _gate(g, repo, root)[0]
+

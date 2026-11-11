@@ -1,0 +1,287 @@
+{
+ "named_lists": {
+  "entries": 1497,
+  "lists": 189,
+  "do_not_verify": 67,
+  "distinct_keys": 63,
+  "first_found": {
+   "from the root": 338,
+   "beside the list": 1137
+  },
+  "files_found_only_from_the_root": 177,
+  "candidate_entries": 21,
+  "candidate_entries_from_the_root": 19,
+  "candidate_files_no_other_list_reads": [
+   "frontier/B1691_the_exponents_at_the_two_fixed_points/verification/the_exponents.py",
+   "frontier/B1753_the_six_on_the_five_ality_lines/verification/census.jsonl",
+   "frontier/B1798_the_six_graded_under_the_class_choosing_null/verification/b1753_all266/census_ext.jsonl.gz",
+   "frontier/B1798_the_six_graded_under_the_class_choosing_null/verification/b1753_all266/census_ext_tail.jsonl.gz",
+   "frontier/B1798_the_six_graded_under_the_class_choosing_null/verification/referee/cnull.py",
+   "frontier/B1798_the_six_graded_under_the_class_choosing_null/verification/referee/cnull_b1753_all_5001_5010_c0.333_5.json",
+   "frontier/B1838_the_end/verification/exact_end_web_seat.py",
+   "frontier/B1839_the_end_card/verification/accessory.jsonl"
+  ],
+  "frozen_script_entries_that_do_not_verify": 23,
+  "frozen_scripts_that_do_not_verify": 21
+ },
+ "all_lists": {
+  "lists": 269,
+  "under_another_name": 80,
+  "entries": 2247,
+  "states": {
+   "VERIFIES": 1826,
+   "MISMATCH": 189,
+   "ABSENT": 196,
+   "NOT TRACKED": 35,
+   "NO NAME": 1
+  },
+  "under_another_name_states": {
+   "VERIFIES": 396,
+   "MISMATCH": 144,
+   "ABSENT": 188,
+   "NOT TRACKED": 22
+  },
+  "families": {
+   "ARTIFACT_SHA256_partial.txt": {
+    "MISMATCH": 6,
+    "VERIFIES": 3,
+    "lists": 1
+   },
+   "DESIGN.sha256": {
+    "VERIFIES": 13,
+    "MISMATCH": 2,
+    "ABSENT": 1,
+    "lists": 13
+   },
+   "DESIGN_A.sha256": {
+    "VERIFIES": 1,
+    "lists": 1
+   },
+   "DESIGN_B.sha256": {
+    "VERIFIES": 2,
+    "lists": 2
+   },
+   "DESIGN_C.sha256": {
+    "VERIFIES": 1,
+    "lists": 1
+   },
+   "HARVEST_HASHES.txt": {
+    "VERIFIES": 4,
+    "lists": 1
+   },
+   "HASHES.txt": {
+    "MISMATCH": 1,
+    "VERIFIES": 5,
+    "lists": 1
+   },
+   "INTEGRATION_HASHES.txt": {
+    "VERIFIES": 2,
+    "lists": 1
+   },
+   "L192_THE_BIT_PREREG.sha256": {
+    "VERIFIES": 1,
+    "lists": 1
+   },
+   "LARGE_OUTPUTS_SHA256.txt": {
+    "ABSENT": 2,
+    "lists": 1
+   },
+   "ORIGINALS_MANIFEST.txt": {
+    "VERIFIES": 202,
+    "ABSENT": 66,
+    "MISMATCH": 79,
+    "NOT TRACKED": 19,
+    "lists": 9
+   },
+   "P1_FREEZE_HASHES.txt": {
+    "ABSENT": 10,
+    "lists": 1
+   },
+   "PREREG.sha256": {
+    "VERIFIES": 2,
+    "lists": 1
+   },
+   "RAW_SHA256.txt": {
+    "ABSENT": 2,
+    "lists": 1
+   },
+   "SEAL.txt": {
+    "VERIFIES": 4,
+    "ABSENT": 1,
+    "lists": 1
+   },
+   "SEALS.txt": {
+    "VERIFIES": 65,
+    "ABSENT": 54,
+    "NOT TRACKED": 2,
+    "MISMATCH": 56,
+    "lists": 18
+   },
+   "SEAL_Q1.txt": {
+    "VERIFIES": 2,
+    "lists": 1
+   },
+   "SEAL_Q2.txt": {
+    "VERIFIES": 1,
+    "lists": 1
+   },
+   "SEAL_Q3.txt": {
+    "VERIFIES": 4,
+    "lists": 1
+   },
+   "SHA256SUMS": {
+    "VERIFIES": 3,
+    "lists": 1
+   },
+   "SHA256_AS_RECEIVED.txt": {
+    "ABSENT": 11,
+    "lists": 2
+   },
+   "SHA256_RECEIVED.txt": {
+    "ABSENT": 41,
+    "lists": 7
+   },
+   "VENDORED_FROM.txt": {
+    "VERIFIES": 65,
+    "lists": 5
+   },
+   "b666c1_script_hashes.txt": {
+    "VERIFIES": 7,
+    "lists": 1
+   },
+   "b666w35_script_hashes.txt": {
+    "VERIFIES": 2,
+    "lists": 1
+   },
+   "cell8_hashes.txt": {
+    "VERIFIES": 3,
+    "lists": 1
+   },
+   "census.jsonl.sha256": {
+    "NOT TRACKED": 1,
+    "lists": 1
+   },
+   "output.txt.sha256": {
+    "VERIFIES": 1,
+    "lists": 1
+   },
+   "r4_predictions_SEALED.sha256": {
+    "VERIFIES": 1,
+    "lists": 1
+   },
+   "seal.txt": {
+    "VERIFIES": 2,
+    "lists": 2
+   }
+  },
+  "lowest_share_among_lists": 0.375,
+  "highest_share_among_files_that_are_not_lists": 0.0588
+ },
+ "other_names_not_verifying": {
+  "classes": {
+   "B": 2,
+   "C": 135,
+   "E": 188,
+   "D": 22,
+   "A": 7
+  },
+  "what": {
+   "A": "a script or an output whose recorded content was on main at some commit and has changed since",
+   "B": "a page whose recorded content was on main at some commit and has been written on since",
+   "C": "no version with the recorded hash in the file's history on main",
+   "D": "the list names a file that is on main's machine and not tracked",
+   "E": "the list names a file that is not in the repository"
+  },
+  "class_A": [
+   {
+    "key": "5696c788e9ad",
+    "list": "frontier/B666_leads_campaign/cell9/ARTIFACT_SHA256_partial.txt",
+    "file": "frontier/B666_leads_campaign/cell9/cell9_taskB_discrete_id.py",
+    "sealed_content_last_at": "a9bbd0894",
+    "date": "2026-07-17"
+   },
+   {
+    "key": "9760de67e242",
+    "list": "frontier/B666_leads_campaign/cell9/ARTIFACT_SHA256_partial.txt",
+    "file": "frontier/B666_leads_campaign/cell9/cell9_taskA_verify2.py",
+    "sealed_content_last_at": "a9bbd0894",
+    "date": "2026-07-17"
+   },
+   {
+    "key": "a4d6a67d98b8",
+    "list": "frontier/B666_leads_campaign/cell9/ARTIFACT_SHA256_partial.txt",
+    "file": "frontier/B666_leads_campaign/cell9/cell9_taskB_branches.py",
+    "sealed_content_last_at": "a9bbd0894",
+    "date": "2026-07-17"
+   },
+   {
+    "key": "d02a3b05e71c",
+    "list": "frontier/B756_remaining_doors/SEALS.txt",
+    "file": "frontier/B756_remaining_doors/RAW_WORKFLOW_OUTPUT.json",
+    "sealed_content_last_at": "894e36e03",
+    "date": "2026-07-22"
+   },
+   {
+    "key": "d14cf9151b8a",
+    "list": "frontier/B666_leads_campaign/cell9/ARTIFACT_SHA256_partial.txt",
+    "file": "frontier/B666_leads_campaign/cell9/cell9_taskA_exact_tau.py",
+    "sealed_content_last_at": "a9bbd0894",
+    "date": "2026-07-17"
+   },
+   {
+    "key": "df3e9b1ea2e9",
+    "list": "frontier/B666_leads_campaign/cell9/ARTIFACT_SHA256_partial.txt",
+    "file": "frontier/B666_leads_campaign/cell9/cell9_L_arith.py",
+    "sealed_content_last_at": "a9bbd0894",
+    "date": "2026-07-17"
+   },
+   {
+    "key": "fdd9de1bf5ca",
+    "list": "frontier/B666_leads_campaign/cell9/ARTIFACT_SHA256_partial.txt",
+    "file": "frontier/B666_leads_campaign/cell9/cell9_taskB_branches_v2.py",
+    "sealed_content_last_at": "a9bbd0894",
+    "date": "2026-07-17"
+   }
+  ],
+  "class_B": [
+   {
+    "key": "5d18a184f2ee",
+    "list": "frontier/B879_selection_cochain/packet/SEALS.txt",
+    "file": "frontier/B879_selection_cochain/packet/HANDOFF_CC_SELECTION_COCHAIN.md",
+    "sealed_content_last_at": "c6bee8fa8",
+    "date": "2026-08-03"
+   },
+   {
+    "key": "e7a235cb36d3",
+    "list": "frontier/B1298_the_lift_fork/DESIGN.sha256",
+    "file": "frontier/B1298_the_lift_fork/DESIGN.md",
+    "sealed_content_last_at": "7f6262089",
+    "date": "2026-09-08"
+   }
+  ]
+ },
+ "raw_hashes_checked_against_the_tracked_gzip": [
+  {
+   "list": "frontier/B1786_the_slope_principle_out_of_sample/verification/census.jsonl.sha256",
+   "names": "census.jsonl",
+   "tracked_gzip": "frontier/B1786_the_slope_principle_out_of_sample/verification/census.jsonl.gz",
+   "decompresses_to_the_recorded_hash": true
+  },
+  {
+   "list": "frontier/B1798_the_six_graded_under_the_class_choosing_null/verification/b1753_all266/RAW_SHA256.txt",
+   "names": "b1753_all266/census_ext.jsonl",
+   "tracked_gzip": "frontier/B1798_the_six_graded_under_the_class_choosing_null/verification/b1753_all266/census_ext.jsonl.gz",
+   "decompresses_to_the_recorded_hash": true
+  },
+  {
+   "list": "frontier/B1798_the_six_graded_under_the_class_choosing_null/verification/b1753_all266/RAW_SHA256.txt",
+   "names": "b1753_all266/census_ext_tail.jsonl",
+   "tracked_gzip": "frontier/B1798_the_six_graded_under_the_class_choosing_null/verification/b1753_all266/census_ext_tail.jsonl.gz",
+   "decompresses_to_the_recorded_hash": true
+  }
+ ],
+ "frozen_table": {
+  "keys": 417,
+  "sha256": "01621ae48200b20c3e50d8974844aa09fc0ee291ff050b24fcbbf57a42cd7bdc"
+ }
+}

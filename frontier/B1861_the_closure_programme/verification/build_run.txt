@@ -1,10 +1,10 @@
 written: PROGRAMME.md, PROGRAMME.json
 {
- "map_nodes": 270,
+ "map_nodes": 271,
  "nodes_needing_a_path": 131,
  "nodes_assigned": 131,
  "conditional_results": 19,
- "debts": 81,
+ "debts": 82,
  "packages": 43,
  "packages_by_obligation": {
   "C0": 12,
@@ -71,7 +71,7 @@ written: PROGRAMME.md, PROGRAMME.json
  "forcing_arguments_one_clause_short": 3,
  "findings_that_bear_on_the_repository_as_a_whole": 34,
  "findings_that_name_arcs_nodes_or_pages_only": 39,
- "debts_on_the_map_joined_to_nothing": 64,
+ "debts_on_the_map_joined_to_nothing": 65,
  "packages_the_sealed_card_must_wait_on_for_that": [
   "WP-0.1",
   "WP-0.11",
@@ -83,25 +83,23 @@ written: PROGRAMME.md, PROGRAMME.json
   "WP-0.7",
   "WP-0.9"
  ],
- "findings_with_a_re_audit_verdict": 12,
- "fixed_and_not_yet_re_audited": [
-  "G9",
-  "X1"
- ],
+ "findings_with_a_re_audit_verdict": 15,
+ "fixed_and_not_yet_re_audited": [],
+ "verdict_rows_read_in_the_seats_files": 18,
  "findings_main_changed_since_the_re_audit": [
-  "E3",
   "E4",
   "E8",
-  "G1",
-  "G2"
+  "G2",
+  "G9",
+  "X1"
  ],
  "audit_findings": 73,
  "audit_findings_by_state": {
   "OPEN": 1,
   "READER": 4,
-  "REPRODUCED": 43,
+  "REPRODUCED": 42,
   "PARTLY FIXED": 15,
-  "FIXED": 10
+  "FIXED": 11
  },
  "relayed_rulings": 17,
  "rulings_confirmed_by_the_owner_to_main": 15,

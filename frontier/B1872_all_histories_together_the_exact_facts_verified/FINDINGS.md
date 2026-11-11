@@ -80,6 +80,13 @@ non-trivial stabiliser lie over the symmetric point, where the record warns that
 
 None of the three is ruled.
 
+*[Dated note, 2026-11-11 (B1881; the web seat's relay on what symmetry allows a state of the whole, verified on
+main). On the third row: with two acts and one twin as the mark, the symmetries of the quotient fix no point, and
+every place comes at least as a pair. There are exactly three pairs: the two twins over each of the dual
+involution's two fixed points, and the two points over i. So an intrinsic read-out can have one place, up to the
+twin, only at one of those two fixed points. The owner has since ruled the tick an act (B1879 § 7); the mark's mirror
+is then a move, and what is left is an arc with those two points as its ends.]*
+
 ## Seen first
 
 - **The repo sweep:** the seat's seven sweeps were read with its relay. The record holds the lines of order 5 thread
