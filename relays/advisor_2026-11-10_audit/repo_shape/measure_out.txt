@@ -1,0 +1,50 @@
+main at 323f92327: 17197 tracked files, 767 MB in the working tree
+files above 5 MB: 22, 543 MB, 71% of the tree; between 1 and 5 MB: 29 files, 70 MB
+
+MB     added      in a hash its own other   file
+                  list      scripts arcs'  
+85     2026-10-27 yes       2       6       frontier/B1755_the_six_on_the_lines_of_order_13_to_20/verification/census.jsonl
+56     2026-10-24 yes       1       13      frontier/B1749_the_six_at_fresh_apexes/verification/census.jsonl
+40     2026-10-27 no        0       2       frontier/B1786_the_slope_principle_out_of_sample/verification/census.jsonl.gz
+39     2026-10-23 no        2       3       frontier/B1732_the_two_ingredients_with_the_fixed_higgs/verification/census.jsonl
+39     2026-10-23 no        3       28      frontier/B1726_the_two_ingredients_replicated/verification/census.jsonl
+38     2026-10-23 yes       2       7       frontier/B1740_the_non_null_higgs_under_the_standard_models_reading/verification/census.jsonl
+33     2026-10-23 yes       3       21      frontier/B1741_tau_from_the_thread_rule_the_line_free/verification/census.jsonl
+26     2026-10-23 no        2       4       frontier/B1725_the_two_ingredients_on_main/received/two_ingredients_census.jsonl
+25     2026-10-22 no        2       2       frontier/B1713_the_complement_and_the_mixing/verification/the_complement_and_mixing.json
+22     2026-10-28 no        0       1       frontier/B1798_the_six_graded_under_the_class_choosing_null/verification/b1753_all266/census_ext.jsonl.gz
+20     2026-11-05 no        2       2       frontier/B1839_the_end_card/verification/norms.npz
+19     2026-07-18 no        1       0       frontier/B677_morning_packet/anatomy/loop5/e1_diag351/_leftnull_L351.json
+18     2026-10-24 yes       1       8       frontier/B1753_the_six_on_the_five_ality_lines/verification/census.jsonl
+18     2026-10-22 no        2       2       frontier/B1723_the_golden_valley/verification/the_golden_valley.json
+15     2026-10-29 yes       5       0       frontier/B1814_the_measured_world_as_a_draw_from_the_weaves_own_measure/verification/census.jsonl
+12     2026-10-24 no        2       3       frontier/B1748_the_heavy_generations_from_the_geometry/verification/census.jsonl
+8      2026-10-28 no        0       0       frontier/B1798_the_six_graded_under_the_class_choosing_null/verification/kd_b1749_5001_7500.npz
+7      2026-10-28 no        1       0       frontier/B1798_the_six_graded_under_the_class_choosing_null/verification/kd_b1753_all_5001_7500.npz
+6      2026-09-16 no        0       2       frontier/B1418_the_family_as_the_object/verification/c2_modules_compact.json
+6      2026-10-22 no        2       3       frontier/B1712_the_weave_census_of_lines/verification/the_line_census_masses.json
+5      2026-10-23 no        1       0       frontier/B1734_the_thread_rule_with_the_two_ingredients/verification/allorders.json
+5      2026-07-17 no        3       0       frontier/B666_leads_campaign/cellA2/ckpt_phase1.json
+
+.md pages: 4278  {'frontier': 3259, 'docs': 378, 'outside_bench': 289, 'papers': 131, 'speculations': 80, 'knowledge': 31, 'legacy': 31, 'philosophy': 28, '(root)': 17, 'story': 15, 'paths': 11, 'core': 4}
+at the root and directly under docs/: 151; of them with a mark in their first lines that says current or frozen: 3
+of them, named as a status, a plan, a claim or a start: 19
+   CLAIMS.md                                            last changed 2026-11-11
+   GENESIS.md                                           last changed 2026-11-11
+   README.md                                            last changed 2026-11-11
+   ROADMAP.md                                           last changed 2026-11-11
+   docs/CAMPAIGN_STATUS.md                              last changed 2026-11-11
+   docs/CLOSURE_MASTERPLAN.md                           last changed 2026-07-24
+   docs/MAINS_PLAN.md                                   last changed 2026-11-03
+   docs/MASTERPLAN.md                                   last changed 2026-11-11
+   docs/PARAMETER_CLOSURE_MASTERPLAN.md                 last changed 2026-08-29
+   docs/README_HISTORY.md                               last changed 2026-10-30
+   docs/RECONTEXT_AUDIT_AND_MASTERPLAN_2026-07.md       last changed 2026-07-03
+   docs/ROADMAP.md                                      last changed 2026-09-02
+   docs/ROADMAP_TOE.md                                  last changed 2026-08-09
+   docs/STRUCTURE_TO_NATURE_MASTERPLAN.md               last changed 2026-08-18
+   docs/THE_CHAIN_STATUS.md                             last changed 2026-11-10
+   docs/THE_CLAIM.md                                    last changed 2026-11-11
+   docs/THE_FOUNDATION_LOCK_PLAN.md                     last changed 2026-10-03
+   docs/THE_STATE_2026-09-06.md                         last changed 2026-09-15
+   docs/UNIFIED_STATE.md                                last changed 2026-08-21

@@ -552,3 +552,78 @@ them red at the next push. The fourth patch of this seat's first series adds one
 model or carry a co-author line, and 15 commits authored under a vendor's name. The answer is the same: they are not
 rewritten. Main's sentence on how the work was done (B1888 § 4 G) says it openly, and that is the honest form.
 
+
+## 15. Pruning, the data files, and the pages that disagree
+
+*2026-11-11, later. The owner asked this seat three things about the shape of this repository, which stays the place of
+work: whether it should be pruned; whether the large data files can be taken out so that it is lighter; and what to do
+about the pages that contradict each other, which he sees as the main cause of confusion for a first reader. The seat's
+answers are below, with what it measured. They are a view for main and for him, and no ruling. Measured on main at
+`323f92327` by `repo_shape/measure.py`; its output is beside it. Computed once.*
+
+### 15.1 What deleting does, and what it does not
+
+| | |
+|---|---|
+| a file deleted in a new commit | breaks no history. Every earlier commit still holds it, and no commit's id changes |
+| what it does not do | make the repository lighter to clone. The history keeps the bytes. Only the working folder shrinks |
+| what would make a clone lighter | rewriting the history to purge the file. That changes every commit id after the file first appeared, and the seals, the reviews' anchors, the ids typed into the ledgers and every session's branch rest on those ids. **Not to be done** (§ 14) |
+| what cannot be deleted or moved under the repository's own rules | a sealed file and a file that a list of hashes names (a gate refuses the edit, the deletion and the move); a lock, once series 2 lands; a row of a ledger; the progress log. And a path that a page or a script cites: the governing page forbids renaming a banked path |
+
+So pruning here is **retiring by a recorded act**: what leaves is named, with why, and with the last commit that holds
+it. Series 2 of this seat's package is the gate that makes a thing that left visible. Before it lands, a deletion can
+pass unseen: five of the planted cases were that. **The order:** land series 2, then prune by rule.
+
+### 15.2 The data files
+
+| | |
+|---|---|
+| the working tree | 767 MB in 17,197 files |
+| files above 5 MB | 22, and they are 543 MB, 71% of the tree. Nineteen are outputs of arcs B1712 to B1839, of 2026-10-22 to 2026-11-05 |
+| of the 22, named in a list of hashes | 6: they are sealed evidence |
+| of the 22, named by scripts of other arcs | 16. One census is named by 28 scripts outside its own arc, another by 21 (by the file's name and its arc's number in the script's text: a wide reading) |
+| a clone of the repository | about 0.8 GB as packed here |
+
+**Not to be purged.** Deleting them does not lighten a clone; purging them from the history is a rewriting; six are
+sealed; and the later arcs read them. What gives a lighter repository:
+
+1. **A partial clone, today, with nothing changed:** `git clone --filter=blob:limit=1m`. The whole history and every
+   commit id, and a large file is fetched only when something opens it. How much it saves was not measured.
+2. **No new data file above a size without a recorded act.** A census is committed as its script, its hash and a small
+   sample; the file itself goes to the dated deposit main already plans. It is one more ceiling of the kind series 2
+   holds, and this seat can add it to its package if main wants it.
+3. **The public repository carries none of them.**
+
+### 15.3 The pages that disagree
+
+| | |
+|---|---|
+| pages (`.md`) tracked | 4,278; 3,259 of them inside the arcs |
+| what a first reader meets: the root and the pages directly under `docs/` | 151 |
+| of the 151, with a mark in their first lines that says current or frozen | 3 |
+| of the 151, named as a status, a plan, a claim or a start | 19: five masterplans, three roadmaps, four pages of state or status, two plans, and the front page and its history, the claim, the claims and the foundation |
+| of those 19, last changed before October | 8 |
+
+A reader who finds two pages that disagree cannot tell which is the live one. Most of them are not wrong: each was true
+on the day it was written. **Deleting is mostly the wrong tool,** because what was claimed, and when, is part of the
+project's evidence. What mends it, cheapest first:
+
+1. **Every page says what it is in its first line:** current; generated, and from what; a record of a date; or
+   superseded, and by which page. A gate refuses a page at the root or directly under `docs/` that does not. This is
+   mechanical. It belongs with the labels (WP-0.9), or with the front door, as main chooses.
+2. **One page for each job:** one status, one plan, one claim, one start. The others become records that point to it.
+   A true duplicate, or a draft that holds nothing found elsewhere, is retired by a recorded act.
+3. **A fact has one home, and every other page that shows it is generated from that home.** A typed copy drifts. Main
+   generates the views, the map and the status page already; the headline count is this seat's WP-0.12.
+4. **The front door links only pages that are current.** That is main's package.
+5. **A correction reaches every copy of the old statement.** The sweep of retracted phrases does this for the phrases
+   it holds; series 3 makes it read every row.
+
+### 15.4 The machinery, and what the agy lane's point was
+
+In this repository the machinery is source already: the gates, their checkers, the push hook and the tests that hold
+them are tracked code, and this seat's first package hardens them. The lane's point was another one (§ 13): a copy of
+the pages that starts a history of its own carries none of the seals. The agreed form avoids it: the light repository
+is built from this one by a script, each file pinned to a commit, a path and a hash here, with a checker of its own.
+That is in the plan and is not built; its generator is WP-5.1, the last of this seat's five. What stands in its way
+today is § 3: the candidate's scripts reach into other arcs by path.

@@ -19,6 +19,13 @@ the series, each a further form of one this seat has mended, and each with a pla
 - **a sentence moves the review's anchor.** The count of landings since the last review is taken from the last
   `anchor-commit:` anywhere on the reviews' page, and no gate ties that line to a review's entry.
 
+**Amended again 2026-11-11, before any mend of it, by M5.** One of main's thirteen unseen cases for series 2 was caught
+by accident: a test made to skip was caught because its file's hash is listed, and by no gate that looks for a skip. A
+test outside the lists could be made to skip unseen. It joins the series as a case: **a lock that is made to skip.**
+How it could come out wrong: a lock may skip for an honest reason (a package that is not installed, a slow lane), so
+the rule cannot be that no lock skips; it may be only that a skip added after an anchor needs a recorded act, as a
+ceiling of series 2 does.
+
 ## 2. What is delivered, and what done means
 
 | | |

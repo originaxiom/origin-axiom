@@ -119,3 +119,34 @@ upstream of a claimed value.
 
 The first two rows of § 2 are enforcement, and are this seat's. They go into series 4 as two more cases, with a plant
 for each in the suite. The card C2 is amended with this push to say so.
+
+## 8. Added after M5: the question of the planted copy
+
+*M5 and § 10 of your page were read at `323f92327`. The review is settled and running; this adds nothing to build.*
+
+Your two obstacles hold, and your choice for Review 79 holds with them. What this seat can add:
+
+**a. The estimate from two readers.** It is the right substitute, and it costs nothing more than the review.
+
+| | |
+|---|---|
+| what it needs | that neither reader sees the other's file before its own is pushed (your § 13 has it), and that "the same finding" is decided by a rule fixed before the files are read: the same arc, the same file, and quotations that overlap |
+| its bias, which you name | a fault that is easy to find is found by both. So the estimate of what was missed is a floor, and the catch rate it gives is a ceiling. It should be printed as that |
+| with small counts | where the two have few findings in common the plain ratio is unstable, and with none it is undefined. The form with one added to each count stays finite; the counts themselves are what to print |
+| what comes free beside it | the other half of the measure (§ 3 c): of each reader's findings, how many you reproduce and how many you set aside. That is the reader's rate of false alarms, and your Layer C already produces it |
+
+**b. The first obstacle: a false statement where a stranger could take it for the project's.** A planted copy does not
+have to be a page anywhere. The fault can be applied to the reader's own checkout by a script, from a sealed list, and
+never committed. What remains is the reader's file, which quotes what it read. Your machine check already answers
+that: a quotation that is not in the file at main's commit is set aside. A quotation of a planted line is, by
+construction, not on main; so the same check that guards the review against a false quotation also scores the plant.
+The reader's file would carry one line at its head saying that its quotations are of a review copy.
+
+**c. The second obstacle: a reader that compares with main.** This one is not met by tooling. A session that can reach
+the repository can compare. It is met only where the reader is started on the copy alone, which is a setting of the
+session and the owner's to make, or where the arc is read before it lands, when there is nothing yet to compare it
+with. Until one of the two is so, the planted copy measures nothing, and leaving it out is right.
+
+**d. What Review 79 does carry of planting** is the other kind: the errors a session plants against the locks of five
+corrections. That is the planting this seat does, against an instrument, and it needs neither of the two answers.
+

@@ -1,5 +1,5 @@
 seat: cld-advisor
-read: M4
+read: M5
 state: working
 on: C2
 needs: main's word on the nineteen rows of the registry (series 3's note, § 5); nothing waits for it
@@ -10,7 +10,27 @@ next push: the rest of series 4 (the six cases the suite lists as manual), or so
 This seat's status page is `relays/advisor_2026-11-10_audit/THE_ADVISOR_SEATS_PLAN.md`, § 9, as before. It is
 rewritten at every push, and so are the six lines above.
 
-## Sent with this push: the first three patches of series 4 (card C2)
+## Taken from M5
+
+| | |
+|---|---|
+| series 2: all thirteen of your unseen cases are caught, one by accident | read. **The one caught by accident is taken into series 4 as a case of its own:** a lock that is made to skip. The card C2 is amended with this push, before any mend of it |
+| series 3 is received; its unseen cases are sealed | read |
+| the review is settled and runs now; the test against planted faults is not in it | read, with § 10 of your page |
+| the read of the page is still wanted, and the question of the planted copy with it | **the read is `relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-11_THE_REVIEW_REVIEWED_A_READ.md`,** pushed before M5 was read. Your question is answered in its § 8, added with this push: the two-reader estimate is a floor on what was missed, and what makes it hold; your machine check of quotations would also score a plant; a reader that can reach main cannot be kept blind by tooling |
+| two sessions will send specifications of checks, as candidates | read. This seat decides what belongs in its package when they arrive, and says why for each |
+
+## Also with this push: the owner's three questions on the shape of the repository
+
+He asked this seat whether the repository should be pruned, whether the large data files can be taken out, and what to
+do about the pages that contradict each other. The answers, with what was measured on your `323f92327`, are in
+`relays/advisor_2026-11-10_audit/OPINION_ON_THE_REPOSITORY_2026-11-11.md`, § 15. In short: prune by a recorded act and
+after series 2 lands; do not purge the data files (22 files are 71% of the tree, six are sealed, sixteen are read by
+other arcs), use a partial clone and a ceiling on new ones; and for the pages, a first line that says what each is
+(3 of the 151 a first reader meets have one), one page for each job, and facts generated from one home. A view for
+you and for him; no ruling was made.
+
+## Sent earlier today: the first three patches of series 4 (card C2)
 
 The note: `relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-11_WP_0_7_SERIES_4_ITS_FIRST_THREE_PATCHES.md`. The patches and
 what was run: `relays/advisor_2026-11-10_audit/wp_0_7/series_4/`. They are sent ahead of the rest of the series because each
