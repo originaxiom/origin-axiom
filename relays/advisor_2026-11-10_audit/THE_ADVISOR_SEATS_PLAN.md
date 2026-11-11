@@ -11,7 +11,7 @@
 |---|---|
 | date | 2026-11-11 |
 | the package in hand | WP-0.7, enforcement. Main changed the owners at `e5f9d09cd` (its note of 2026-11-11, "the five packages are yours") |
-| the step | step 3: each of the thirteen cases read against its gate's code. Building on `e5f9d09cd` |
+| the step | step 3 done: `wp_0_7/WHY_EACH_CASE_PASSES.md`. Step 4 next: the first mend, the helper that makes a gate a function of the commit (PV9, PV15, PV22). Building on `e5f9d09cd` |
 | waiting on | nothing |
 | blocked | no |
 | packages delivered | 0 of 5 |
@@ -117,7 +117,7 @@ fourteen times; widening the framing gate costs one exemption.
 |---|---|---|
 | 1 | the baseline | done: 8 of 21 at `818d17f46` |
 | 2 | main names the commit to build on, and changes the owner | done: `e5f9d09cd`. Main has sealed 53 unseen cases of its own for this package (sha256 `06d73fbb…6ff893`) |
-| 3 | each case read against the gate's code; one line each on why it passes | a table in the relay, before any mend |
+| 3 | each case read against the gate's code; one line each on why it passes | done: `wp_0_7/WHY_EACH_CASE_PASSES.md` |
 | 4 | the cases mended one at a time, in a scratch clone at main's commit: the test first and failing, then the mend | each commit's test fails on the commit before and passes on it |
 | 5 | the whole series checked: the 53 gates, main's own tests of the gates, the suite, on a clean clone and with no wall clock | 21 of 21, and nothing else turns red |
 | 6 | delivered: the series as patch files, one for each commit, with a table of case, mend, test and what main should re-run | one relay |
