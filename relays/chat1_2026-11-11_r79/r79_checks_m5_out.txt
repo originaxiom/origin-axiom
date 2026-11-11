@@ -1,4 +1,16 @@
-Q   B1726 frontier/B1726_the_two_ingredients_replicated/FINDINGS.md: found
-Q   B1886 ROADMAP.md: found
-Q   the heading "VIEW REFRESH — 2026-11-11 (Review 78)" in ROADMAP.md: found
-Q   quotations checked: 2; not found: 0
+Q   table: B1726 frontier/B1726_the_two_ingredients_replicated/FINDINGS.md: found
+Q   table: B1726 frontier/B1726_the_two_ingredients_replicated/FINDINGS.md: found
+Q   table: B1886 GENESIS.md: found
+Q   table: (the governing pages) WORKING_RULES.md: found
+Q   table: B1886 ROADMAP.md: found
+Q   note: frontier/B1726_the_two_ingredients_replicated/FINDINGS.md "1.5 to 2": found
+Q   note: ROADMAP.md "VIEW REFRESH — 2026-11-11 (Review 78)": found
+Q   note: docs/seats/README.md "recomputed with separate code": found
+Q   note: docs/seats/README.md "these words and no others": found
+Q   note: docs/seats/README.md "recomputed independently": found
+Q   note: docs/seats/README.md "REPRODUCED, DIFFERS, or CANNOT CHECK": found
+Q   note: frontier/B892_second_measurement/FINDINGS.md "accepts this mend": found
+Q   note: frontier/B1726_the_two_ingredients_replicated/FINDINGS.md "decided by the advisor seat's sealed card": found
+Q   note: frontier/B1753_the_six_on_the_five_ality_lines/FINDINGS.md "decided by the advisor seat's sealed card": found
+Q   note: frontier/B1882_the_v1_card_run_on_main/FINDINGS.md "in all three cells": found
+Q   quotations checked: 15; not found: 0
