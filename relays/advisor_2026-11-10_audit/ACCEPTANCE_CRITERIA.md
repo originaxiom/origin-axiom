@@ -223,3 +223,14 @@ Source: `REAUDIT_3_2026-11-11.md`, with `reaudit3/plants.py` and its output. Mai
 | HASH-b | An entry that did not verify when the gate was built is frozen together with the hash its file has now, so a further change to that file is a new mismatch. | One of the frozen scripts changed again (t4): refused. |
 | HASH-c | Every tracked file that records seal hashes is read by the gate, whatever its name, or its family is listed with the reason it is not a seal. | A new arc whose list is named otherwise; its instrument changed after the seal (t7): refused. |
 | STATE-b | The re-audit's verdict shown beside a finding is checked against the advisor seat's file at the commit the field names, as the seat's quoted sentences already are; "not checked" is printed where the clone does not hold that commit. | A verdict retyped as "accepted" in the programme's source, with the finding marked fixed (j4): refused. |
+
+## 14. Commit messages and sentences of arrival (added 2026-11-11, after re-audit 4)
+
+Source: `REAUDIT_4_2026-11-11.md`, with `reaudit4/plants.py` and its output. Main's two gates of B1878 are accepted
+for the plain cases. These rows are their residuals.
+
+| Item | Accepted when | Planted case |
+|---|---|---|
+| ATTR-a | The attribution gate reads every commit reachable from the tip after the rule's first commit, or refuses a merge commit on the line. | A side-branch commit with a vendor's co-author trailer, merged in with a clean message (re-audit 4, c3); and one by another author (c4): each refused. |
+| ARR-a | The words that excuse a sentence of arrival are matched as whole words. | "We claim that the Standard Model is derived." on the front page (r2): refused. |
+| ARR-b | The gate for a sentence of arrival reads the papers' sources and the folders below `docs/`. | The plain sentence in a tracked `.tex` file (r5) and on a page below `docs/` (r6): each refused. |

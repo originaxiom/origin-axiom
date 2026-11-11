@@ -134,8 +134,9 @@ def pv20(c):
     write(c, "CLAIMS.md", s[:j + 1] + "| P999 | A planted proven claim that cites no lock. | (no lock) |\n" + s[j + 1:])
 
 def pv21(c):
-    write(c, "papers/planted_pv21.tex", "We are working toward the full SM.\n")
-    write(c, "README.md", read(c, "README.md") + "\nTOWARD THE FULL SM.\n")
+    # Changed 2026-11-11 with ctl4, for the same reason: a phrase the list still holds.
+    write(c, "papers/planted_pv21.tex", "In this note we derived Einstein's equations.\n")
+    write(c, "README.md", read(c, "README.md") + "\nWE DERIVED EINSTEIN'S EQUATIONS.\n")
 
 def pv24(c):
     write(c, "tests/test_zz_planted_literal.py", "def test_orbit_counts_differ():\n    assert 1 != 2\n")
@@ -156,7 +157,10 @@ def ctl3(c):
     write(c, "docs/planted_ctl3.md", "written with %s\n" % _V)
 
 def ctl4(c):
-    write(c, "README.md", read(c, "README.md") + "\nThis is a step toward the full SM.\n")
+    # Changed 2026-11-11 (re-audit 4): the control used the phrase "toward the full SM". Main took that phrase off the
+    # banned list at the owner's ruling on the goal (B1878): it states an aim. The control now uses a phrase the list
+    # still holds.
+    write(c, "README.md", read(c, "README.md") + "\nThis note says that we derived Einstein's equations.\n")
 
 def ctl5(c):
     write(c, "tests/test_zz_planted_tautology.py", "def test_nothing():\n    assert True\n")

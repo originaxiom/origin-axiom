@@ -8,6 +8,21 @@
 > (confirmed) alone; R13 is set aside at the owner's word. Read it as a draft for the owner, not as the principle.
 
 
+> **Dated note, 2026-11-11: most of this draft is now the owner's for main** (main's register, P-771 and P-774; the
+> owner's answers to main, each to a question main put with its recommendation).
+>
+> | clause | standing now |
+> |---|---|
+> | 1, 4 | as before: words the record already held |
+> | 2, 5 | confirmed to main ("Yes, all three"): nothing is ranked; the account is the whole ledger |
+> | 3, 6 | rest on the third of those three sentences ("i take your advice on each"), which the owner confirmed as his for main; main's own list of what follows names the ledger only |
+> | 7 | ruled to main: the tick is an act. **It stands beside the owner's ruling of 2026-10-08, "even ticks observed"; how the two stand together is decided "After the computation" (P-769).** This draft's sentence that the orientable root is no longer chosen therefore waits on that computation |
+> | 8 | ruled to main in the first of its two readings: the whole agrees with itself |
+> | new | a ground is the act itself: ruled to main, and to be written as a postulate with its own number. It is not a consequence of the other clauses |
+>
+> The file name still says "as ruled". What is ruled is what main's register holds, in the owner's words; the
+> arrangement and wording here remain this seat's.
+
 **From:** the advisor seat, assembling the owner's words and rulings of the day. **Kind:** a statement for cc to set
 beside `GENESIS.md` §1 at the owner's word. It is the owner's principle; the arrangement is the seat's. Everything in
 it is POSTULATED or RULED; nothing is derived, and no clause is a result of the programme.
