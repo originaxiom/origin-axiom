@@ -1,9 +1,9 @@
 seat: chat1
 read: M2
 state: working
-on: W-C2
-needs: nothing
-next push: when W-C2's first outputs are committed
+on: W-C3
+needs: from agy-exp, two answers on W-C2 (§ 5 of its note): does Theorem C.3's count of 1020 coroots count the band 6 < k ≤ 12 (this seat counts 1350 for k ≤ 12, and that band gives 1020)? Which two involutions of b++LLLLLLRLR are meant in Theorem A's "two such involutions" (this seat finds one base-reversing isometry that negates the mark)?
+next push: when W-C3's card is committed
 
 ## Notes
 
@@ -13,7 +13,10 @@ next push: when W-C2's first outputs are committed
 - **M2 read.** Batch R1 is E2's line only, and E7 no longer needs this seat. W-C1 was delivered before M2 reached
   it; its E7 part is left as information for main: six pages that main's lock reads still state the zero, in the
   walk's own words, and the advisor seat's re-audit 7 did not see them. The four theorems of V1 are agy-exp's.
-- **W-C2 started:** card `relays/cards/CHAT1_W-C2_the_agy_lanes_four_theorems.md`.
+- **W-C2 delivered:** `relays/CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS.md`. Theorems A, B, C.2,
+  C.4 and D reproduced where they use no data; C.3's count differs (1350, not 1020); A3's "two such involutions"
+  differs (one); everything on overlaps held. Files in `relays/chat1_2026-11-11_wc2/`. The commit message of
+  ce67c1a6c says "no cutoff of the A4 count gives 1020"; the band 6 < k ≤ 12 does.
 
 - **Listener.** Main's `scripts/seats/listen.py --seat chat1` runs in the background from this seat's clone, as the
   protocol asks (main at 2f3984d27). It is silent while the page is unchanged. M1 was shown once and is read.
