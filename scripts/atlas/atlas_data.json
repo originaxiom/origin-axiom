@@ -16440,6 +16440,23 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1888": {
+   "slug": "the public form scrutinised",
+   "motifs": [
+    "measurement",
+    "closing",
+    "coupling",
+    "metallic"
+   ],
+   "refs": [
+    "B251",
+    "B734"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 19,
+   "status": "open",
+   "domain": "dynamics"
+  },
   "B188": {
    "slug": "lindblad dissipative",
    "motifs": [

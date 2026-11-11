@@ -13,8 +13,8 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1589 |
-| … PROVED | 1098 |
+| arcs with a verdict file | 1590 |
+| … PROVED | 1099 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
@@ -24,13 +24,14 @@
 | … OWNER | 4 |
 | … DONE | 503 |
 | … DECLINED | 12 |
-| harvest rows (the last number) | 1696 |
+| harvest rows (the last number) | 1697 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1888 | PROVED | THE REPOSITORY'S PUBLIC FORM, SCRUTINISED BY MAIN AT THE OWNER'S WORD (a measurement of the record and main's judgement on the advisor seat's three-part proposal; no data file opened): BY ITS CODE THE CANDIDATE USES AT… |
 | B1887 | PROVED | THE WEB SEAT'S CHECK OF THE AGY LANE'S LOOP, VERIFIED ON MAIN BY ANOTHER ROUTE (thread facts about single histories and their bundles, and one classical fact about root lattices; data-free; 35 checks, none failing; for… |
 | B1886 | PROVED | THE FOUNDATION AT VERSION 1.65 (P-767's second landing): the owner's statements of 2026-11-10 and 2026-11-11 entered in GENESIS.md under the working rule of 2026-11-11, by which a ruling sets a goal, a standard, an orde… |
 | B1885 | PROVED | THE WEB SEAT'S CARD ON THE GOLDEN STATE, VERIFIED ON MAIN CELL BY CELL (a weave object, conditional on stated choices; data-free; 30 digits; 32 checks, of which the one that fails is main's own guess at how closely the… |
@@ -42,20 +43,20 @@
 | B1879 | PROVED | THE WEAVE'S THEOREMS WITH THE EXCHANGE ADDED: THE COMPUTATION THE OWNER ASKED FOR BEFORE DECIDING HOW 'THE TICK IS AN ACT' STANDS WITH 'EVEN TICKS OBSERVED' (P-769, P-771; data-free; it decides nothing and says what eac… |
 | B1878 | PROVED | THE GOAL AS THE OWNER RULED IT, CARRIED INTO THE GOVERNING DOCUMENTS; TWO GATES (the first landing of P-767: rulings R1 and R3 of the eleven confirmed to main on 2026-11-10; nothing computed, no status of the foundation… |
 | B1877 | PROVED | REVIEW 78 (run at the thirty-third commit after Review 77; S306o-S306p): three of Review 77's eight items resolved (what concentrates under the move count, B1868; the register-to-field join, B1866; the closure map and p… |
-| B1876 | PROVED | THE FOUR REMAINING ATTACKS ON THE PRINCIPLE'S DRAFT: THE ADVISOR SEAT'S SEALED RUN VERIFIED ON MAIN (P-771, P-769; data-free, integers and SnapPy; the seat's code not run): all sixteen sealed hypotheses come out on main… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
 - ** P-081** — the reply to the outside reader, approached carefully so the contact is not lost: in his own context (one of his videos as the opening), short, honest about shapes-not-sizes and the missing field, the corrected PDF atta… → *a draft prepared outside the tree for the owner's edit (it opens from his 2021 explainer of the Standard Model's equation); the edit and the send are the owner…*
 - ** P-082** — a second outside reader, later, approached in his own context (relating to his videos), after the first correspondence → *later, at the owner's word; nothing prepared until then [2026-11-04, the owner confirmed: paused until a result passes a level-2 confirmation] [2026-11-11, the…*
 - ** P-253** — the chain gap's top entries (Review 67's R66-3, declined there because the chain is the frozen paper's spine): B1098, B959, B1100, B952, B1086, B1000, B1484, B1070 (coverage_candidates.py --chain-gap) — adjudicate each… → *asked of the owner: whether and when to open a draft after p9-draft9; until then the chain-gap list stays recorded here and nothing is due (S231) [earlier: Q3…*
-- ** P-787** — THE PUBLIC FORM OF THE REPOSITORY: THIS ONE, OR A DISTILLED ONE WITH THIS AS THE ARCHIVE (the owner to the advisor seat, 2026-11-11, asking for a deep analysis and an honest opinion and whether the public version should… → *2026-11-11, 14:27 TO 14:30 UTC, THE OWNER TO MAIN, verbatim, three messages: (a) "id like to add a license so comercial derivations of our work can benefit us…*
+- ** P-787** — THE PUBLIC FORM OF THE REPOSITORY: THIS ONE, OR A DISTILLED ONE WITH THIS AS THE ARCHIVE (the owner to the advisor seat, 2026-11-11, asking for a deep analysis and an honest opinion and whether the public version should… → *2026-11-11, LATER STILL: THE OWNER ASKED, THROUGH THE ADVISOR SEAT, FOR MAIN'S REVIEW, ENRICHMENT AND SCRUTINY OF THE PROPOSAL ("did u inform main about the re…*
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
 
 ## The last landings (CHANGELOG)
 
+- S306p THE REPOSITORY'S PUBLIC FORM, SCRUTINISED AT THE OWNER'S WORD (B1888; P-787) (2026-11-11)
 - S306p THE ERRORS IN THE MATHEMATICS, THE FIRST OF NINE (WP-0.8): THE KNOT GROUP'S CONGRUENCE LEVEL IS (4), AND THE LOCK NOW SAYS SO (E2) (2026-11-11)
 - S306p THE FIVE PACKAGES HANDED TO THE ADVISOR SEAT (P-785), ITS RESIDUAL ON THE ORDER CLOSED, MAIN'S UNSEEN CASES SEALED (2026-11-11)
 - S306p THE V1 CARD READ (B1882): AN END OF THE WINDOW IS LIKE OTHER ROWS, BY A HAIR; THE AUDIT'S FIGURE IS REAL AND IS NOT ABOUT RARITY (2026-11-11)
@@ -63,11 +64,10 @@
 - S306p THE FOUNDATION AT VERSION 1.65 (B1886; P-767's second landing) (2026-11-11)
 - S306p THE TEAM'S MORNING HARVESTED: A STATUS PAGE (B1883), THE GROUND'S LEVEL VERIFIED (B1884), THE V1 CARD SEALED FOR ITS RUN (B1882), TWO AGY BRANCHES REGISTERED (P-781) (2026-11-11)
 - S306p TWO SEATS HARVESTED AND VERIFIED: THE ADVISOR SEAT'S THIRD AND FOURTH RE-AUDITS ANSWERED (B1880), AND THE WEB SEAT'S TWO RELAYS ON THE READ-OUT OF THE WHOLE VERIFIED (B1881) (2026-11-11)
-- S306p THE WEAVE'S THEOREMS WITH THE EXCHANGE ADDED, AND THE OWNER'S RULING ON IT: EVEN TICKS ARE A CONDITION TO DERIVE (B1879; P-769, P-771) (2026-11-11)
 
 ## The latest campaign line
 
-LATEST (2026-11-11, S306p: WP-0.8, THE ERRORS IN THE MATHEMATICS — E2 MENDED, AWAITING ITS RE-AUDIT.** The figure-eight knot group's congruence level is (4): by main's own computation its image has index 6 at (2) and 12 at (4) in SL(2, O₃/I)/{±1}, the group PSL(2, O₃) maps to, and 2 is inert. The chain's lock had asserted (8), the reading in the quotient by every central unit of square one. The lock is rewritten to assert the level in the standard group, with the ambient orders counted, and to fail if any page states the old level with no correction in the same file; the correction is carried to the two verdict lines, the law map, the theorem registry, the error ledger and twelve other page…
+LATEST (2026-11-11, S306p: B1888 — THE REPOSITORY'S PUBLIC FORM, SCRUTINISED AT THE OWNER'S WORD (P-787).** The advisor seat's three-part proposal (the archive, a small statement, a separate check) attacked on the eight points it named, with one new measurement: by its code the candidate uses at most 14 arcs, 17 Python files and 3,032 lines, where the arcs' own lists give 736 arcs upstream; its derivation half does not reach the measured values, which enter at one module of the comparison half. Five points hold, two hold with a change, and the independence of the check does not hold as stated: main gives five conditions that can be checked. A statement built today would hold no earned value…
 
 ## Completeness (nothing skipped silently)
 

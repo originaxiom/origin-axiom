@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1589** |
-| words of findings prose | **1,384,527** |
+| research arcs with findings | **1590** |
+| words of findings prose | **1,386,954** |
 | test lock files referenced | **940** |
-| arcs carrying an authored verdict | **1589** (100.0 %) |
+| arcs carrying an authored verdict | **1590** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1098 |
+| PROVED | 1099 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1887`** (2727 words, 0 locks)  
-THE WEB SEAT'S CHECK OF THE AGY LANE'S LOOP, VERIFIED ON MAIN BY ANOTHER ROUTE (thread facts about single histories and their bundles, and one classical fact about root lattices; data-free; 35 checks, none failing; for P-781): of the 95 irreducible root systems of rank 1 to 24 exactly one has an even root lattice of determinant 1, E8, with every determinant equal to its closed form, and the domain leaves out two even lattices of determinant 1, E8 + E8 and D16+; the metallic word L^m R^m minus the identity has invariants (m, m) for m to 12, so only m = 1 gives a knot complement, as B251 and B591 already hold; on the record's flat-fibre instrument, with classes of least |Q| found by a complete enumeration within one period of the axis and not by a box, the run of 6 closed by k golden periods has one untwisted class of least |Q| (every second Fibonacci number), and under the twist the web seat's table holds to six figures -- k = 1: one class half a period from the apex in the mark's sector and a mirror pair 0.300865 of a period either side in the other; k = 2: pairs at 0.391512 and 0.225903; k = 3: one class at one half and a pair at 0.182225 -- with both sectors pairs for every even k to 8, so the agy lane's summary of the run of 6 is that of one golden period; the pair is the same two integer vectors (2, 1) and (8, -1) at every k, 1.83 to 1.86 of arclength from the apex and inside the run's tube, which reaches 2.09 to 2.10; no twisted sector has its least class at the apex; with columns in place of rows the two sectors change places, by hand (charge q becomes 3q) and by the run; two words in the lane's specification are other histories than it names and do not keep the mark, L^2 R^2 L^2 (LR)^k with runs 2, 2, 3, 1 and L^2 (RL)^4 R L^2 R (LR)^k with nine ones, and the words with the intended runs do; the run of 6 is its own reverse and not its own mirror, its bundle has the group Z/2 + Z/2, is not amphicheiral and has the record's Chern-Simons values, two of its four isometries reverse the base and all keep the orientation, and the bundle of L^5 R L^2 R^2 has none that reverses the base; main adds that in the bundles of LLRLRR and LLLRLRRR the isometry that reverses the base reverses the orientation. Not verified by anyone here: the lane's spectra, overlaps, gates and its fourth phase. Nothing of the lane's is adopted. 0 of 19.  
-`B1887_the_loop_check_verified/FINDINGS.md`
+**PROVED — `B1888`** (2427 words, 0 locks)  
+THE REPOSITORY'S PUBLIC FORM, SCRUTINISED BY MAIN AT THE OWNER'S WORD (a measurement of the record and main's judgement on the advisor seat's three-part proposal; no data file opened): BY ITS CODE THE CANDIDATE USES AT MOST 14 ARCS, 17 Python files and 3,032 lines, where the arcs' own lists put 736 arcs upstream of it; its derivation half, the census, is 13 files and 2,252 lines in 11 arcs and does not reach the measured values, which enter at one module of the comparison half (B1841's look, B1839's look, B1741's comparison, the one file of measured masses that 50 scripts of the whole tree name); six of its ten direct dependencies are reached by code and four are not, B1656's coupling entering as two copied helper files. So the proposal's central step, a statement rebuilt in a few thousand lines, is realistic, and the separation of the measured values is cheaper than feared. Of the eight weak points the seat named: the short chain, 'not now', the measured values kept apart, one graph and one generator hold; the rebuild holds with a first deliverable, the list of what it needed that the foundation does not state; the archive is better a signed tag and a dated deposit than a second repository; and the independence of the check does not hold as stated, a seat not being independent by being named so -- main gives five conditions that can be checked (written from the statement's text alone; expectations sealed before any number; a log of files opened; one read by another family or a person; what it lacked recorded as inputs). Main adds what a statement built today would hold (0 of 19 earned; three conditional headline results, one reading that passed a sealed screen, two a lane's; 39 inputs), the spine a stranger should read, the state of the count of looks, what must be mended before the archive is tagged, a sentence on how the work was done, and that the candidate's census takes seven hours, so the check needs a short form and a full one. Would change four things, add seven, thinks three wrong (736 as the size of the rebuild; a check in under a minute; independence by name) and cannot judge four. The days quoted are estimates; main agreed with the proposal before being asked to break it. 0 of 19.  
+`B1888_the_public_form_scrutinised/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  
