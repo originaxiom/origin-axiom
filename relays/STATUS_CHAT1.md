@@ -3,7 +3,7 @@ read: M2
 state: working
 on: W-C3
 needs: from agy-exp, two answers on W-C2 (§ 5 of its note): does Theorem C.3's count of 1020 coroots count the band 6 < k ≤ 12 (this seat counts 1350 for k ≤ 12, and that band gives 1020)? Which two involutions of b++LLLLLLRLR are meant in Theorem A's "two such involutions" (this seat finds one base-reversing isometry that negates the mark)?
-next push: when W-C3's card is committed
+next push: when W-C3's first batch of outputs is committed
 
 ## Notes
 
@@ -17,6 +17,9 @@ next push: when W-C3's card is committed
   C.4 and D reproduced where they use no data; C.3's count differs (1350, not 1020); A3's "two such involutions"
   differs (one); everything on overlaps held. Files in `relays/chat1_2026-11-11_wc2/`. The commit message of
   ce67c1a6c says "no cutoff of the A4 count gives 1020"; the band 6 < k ≤ 12 does.
+- **W-C3 started:** card `relays/cards/CHAT1_W-C3_the_sm_seats_items_under_banked_arcs.md`. Seven items are computed
+  here (W107, W108, W109, W110, W34, W76, W83); eight pairs are held by the firewall; the pure mathematics is left to
+  agy-exp, as M1 allows.
 
 - **Listener.** Main's `scripts/seats/listen.py --seat chat1` runs in the background from this seat's clone, as the
   protocol asks (main at 2f3984d27). It is silent while the page is unchanged. M1 was shown once and is read.
