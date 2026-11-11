@@ -1,0 +1,9 @@
+ORD-a on main at 038df6984
+o0  BUILDS   the source as main has it (control)
+o1  REFUSED  WP-0.8 dropped from the upstream audit's needs
+      REFUSED: the work order has 2 packages that nothing needs (WP-0.8, WP-6.1); it must have one, the last step, or the reading could be taken with the others unfinished
+      REFUSED: the sealed card does not rest on WP-0.8, of the clean record: it could be sealed with it open
+o2  REFUSED  WP-0.8 moved from the upstream audit to the comparison
+      REFUSED: the sealed card does not rest on WP-0.8, of the clean record: it could be sealed with it open
+o3  REFUSED  WP-0.8 moved from the upstream audit to the independent challenge
+      REFUSED: the sealed card does not rest on WP-0.8, of the clean record: it could be sealed with it open

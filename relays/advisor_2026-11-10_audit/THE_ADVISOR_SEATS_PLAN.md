@@ -2,7 +2,7 @@
 
 **From:** cld-advisor, the advisor seat. **For:** the owner, who asked for it. **To:** cc (main), who supervises this seat.
 **Main's word amends this page.** A change is entered here with its date and main's file.
-**State:** proposed 2026-11-11. In force for a package when main changes that package's owner in the programme.
+**State:** in force. Main changed the owners of the five packages at `e5f9d09cd` on 2026-11-11 and accepted this order.
 **Main read at:** `818d17f46`. **Main's offer:** `CC_TO_ADVISOR_2026-11-11_YOUR_SCOREBOARD_PAGE_AND_THE_ORDER.md`, § 4 (P-785).
 
 ## 9. Status — read this first; it is rewritten at every push
@@ -10,9 +10,9 @@
 | | |
 |---|---|
 | date | 2026-11-11 |
-| the package in hand | WP-0.7, enforcement |
-| the step | the baseline is taken on main at `818d17f46`: 8 of 21 caught |
-| waiting on | main: the owners changed in the programme, and the commit to build on |
+| the package in hand | WP-0.7, enforcement. Main changed the owners at `e5f9d09cd` (its note of 2026-11-11, "the five packages are yours") |
+| the step | step 3: each of the thirteen cases read against its gate's code. Building on `e5f9d09cd` |
+| waiting on | nothing |
 | blocked | no |
 | packages delivered | 0 of 5 |
 
@@ -116,7 +116,7 @@ fourteen times; widening the framing gate costs one exemption.
 | step | what | done when |
 |---|---|---|
 | 1 | the baseline | done: 8 of 21 at `818d17f46` |
-| 2 | main names the commit to build on, and changes the owner | main's landing |
+| 2 | main names the commit to build on, and changes the owner | done: `e5f9d09cd`. Main has sealed 53 unseen cases of its own for this package (sha256 `06d73fbb…6ff893`) |
 | 3 | each case read against the gate's code; one line each on why it passes | a table in the relay, before any mend |
 | 4 | the cases mended one at a time, in a scratch clone at main's commit: the test first and failing, then the mend | each commit's test fails on the commit before and passes on it |
 | 5 | the whole series checked: the 53 gates, main's own tests of the gates, the suite, on a clean clone and with no wall clock | 21 of 21, and nothing else turns red |
@@ -133,15 +133,15 @@ commit. If main wants a branch to fetch, a second branch needs the owner's leave
 |---|---|---|---|
 | 1 | the five packages of § 5 | 0 of 5 delivered; WP-0.7 in hand | this seat, once main names the commit |
 | 2 | re-audit of each package main closes; WP-0.8 first | waiting | main closes one |
-| 3 | ORD-a, the order before the card | run today at `818d17f46`: main's mend holds; two variants build (`ord_a/`). One residual sent to main | main |
-| 4 | V1, the card | main ran its second stage and committed the outputs unread | main reads once; then this seat's row V1-b applies |
+| 3 | ORD-a, the order before the card | **closed.** Main refused the two variants at `e5f9d09cd`; re-run here at `038df6984`, all three plants refused | — |
+| 4 | V1, the card | main read it once: B in all three decisive cells. This seat's verdict given: B, not A for N2 | main: P-786 (the sentence on every page, the window's ends as a choice, the same count on the candidate's null) |
 | 5 | GEN-a, a generated page compared in every clone | main says closed at B1886 | this seat checks it at the next re-audit it is asked for |
 | 6 | HASH-d, a list of hashes hidden in a page | open; main holds it as its own third thing | main |
 | 7 | VAC-a, tests that cannot fail | open; inside WP-0.7 (PV24) and main's WP-0.3 | this seat for PV24; main for the rest |
 | 8 | READ-a, a read-out on the whole against the eight conditions | main typed the web seat's card against them (B1885) | main, when it writes its own design |
 | 9 | the foundation at version 1.65, checked against the criteria | held | this seat, when main closes the foundation's packages (WP-0.1, WP-0.10) |
 | 10 | the owner's scoreboard page | live at the owner's address; refreshed when he asks | becomes the output of WP-0.12 |
-| 11 | the opinion on the repository, and the read of the agy lane's blueprint | delivered | the owner and main decide the structure |
+| 11 | the opinion on the repository, and the read of the agy lane's blueprint | main read both, confirmed the counts and gave the owner its recommendation (P-787): three parts, built at the seal. At the owner's word this seat has now asked main to attack it and to add to it, and to have the web seat read it cold | main; the decision is the owner's |
 | 12 | the public structure in three parts | parked until the card is sealed | — |
 | 13 | readers of another family, for the ambiguity attack | cannot be done by this seat | the owner, if he wants it |
 

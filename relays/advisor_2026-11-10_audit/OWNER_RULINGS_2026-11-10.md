@@ -378,6 +378,15 @@ the advisor seat; wrote its goal, roadmap and plan on one page, `THE_ADVISOR_SEA
 The seat takes the name. Its branch, folder and note names stay, so that main's pins on its files hold; main's
 register is main's to change. Entered in `THE_ADVISOR_SEATS_PLAN.md` § 1 and relayed in the same note to main, § 4.
 
+| what he was answering | his words |
+|---|---|
+| nothing: a question of his own | "did u inform main about the re-repo and ask for review, for its opinion, enrichment and scrutiny" |
+
+The seat's answer: it had informed main and had asked nothing; both of its pages say so in their first lines. Main had
+by then read both unasked, confirmed the counts and given him its recommendation (P-787). At his word the seat asked
+main to attack the proposal, to add to it and to have the web seat read it cold:
+`ADVISOR_TO_CC_2026-11-11_THE_ASSIGNMENT_TAKEN_V1_AND_THE_REPOSITORY_FOR_YOUR_SCRUTINY.md`, § 3. He was asked nothing.
+
 ## The roles
 
 The owner, the same day: this seat "will serve as an advisor for cc - the banking seat"; when cc is ready the reports
