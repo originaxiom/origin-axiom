@@ -3,7 +3,8 @@
 
 Usage: quote_check.py FINDINGS.json OUT.json [REPO]
 
-FINDINGS.json is a list of {"id", "arc", "file", "quote"}. Each quote must occur verbatim in `git show COMMIT:file`.
+FINDINGS.json is a list of {"id", "arc", "file", "quote"[, "commit"]}. Each quote must occur verbatim in
+`git show COMMIT:file`, COMMIT being the row's own commit where it names one (M4's rows: main at 0dda7b472).
 Control: a copy of the first quote with one character changed must be reported missing, or the check is broken."""
 import json
 import subprocess
@@ -16,18 +17,18 @@ repo = sys.argv[3] if len(sys.argv) > 3 else "."
 cache = {}
 
 
-def text(path):
-    if path not in cache:
-        r = subprocess.run(["git", "-C", repo, "show", f"{COMMIT}:{path}"], capture_output=True)
-        cache[path] = r.stdout.decode("utf-8") if r.returncode == 0 else None
-    return cache[path]
+def text(path, commit=COMMIT):
+    if (commit, path) not in cache:
+        r = subprocess.run(["git", "-C", repo, "show", f"{commit}:{path}"], capture_output=True)
+        cache[(commit, path)] = r.stdout.decode("utf-8") if r.returncode == 0 else None
+    return cache[(commit, path)]
 
 
 out = {"commit": COMMIT, "rows": []}
 for r in rows:
-    t = text(r["file"])
+    t = text(r["file"], r.get("commit", COMMIT))
     found = t is not None and r["quote"] in t
-    out["rows"].append({"id": r["id"], "file": r["file"], "file_exists": t is not None, "quote_found": found,
+    out["rows"].append({"id": r["id"], "commit": r.get("commit", COMMIT)[:9], "file": r["file"], "file_exists": t is not None, "quote_found": found,
                         "occurrences": t.count(r["quote"]) if t else 0})
 first = rows[0]
 q = first["quote"]

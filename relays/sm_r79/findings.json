@@ -376,5 +376,68 @@
   "arc": "lock E3",
   "file": "frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py",
   "quote": "(r\"invisibility to every state\\)\", r\"E = \\+I|E ≡ \\+I\", \"E3\"),"
+ },
+ {
+  "id": "M4-1",
+  "arc": "window",
+  "commit": "0dda7b472",
+  "file": "scripts/gates/gates.py",
+  "quote": "if _ARRIVAL_NEG_RE.search(\" \" + own[-160:] + \" \"): continue"
+ },
+ {
+  "id": "M4-2",
+  "arc": "window",
+  "commit": "0dda7b472",
+  "file": "scripts/gates/gates.py",
+  "quote": "ARRIVAL_PHRASES = (\"the standard model is derived\", \"the standard model has been derived\""
+ },
+ {
+  "id": "M4-3",
+  "arc": "window",
+  "commit": "0dda7b472",
+  "file": "scripts/checks/point_debt.py",
+  "quote": "test or a look ahead, then the date of HEAD's commit. Never the wall clock. OA_POINT_REGISTER overrides the file."
+ },
+ {
+  "id": "M4-3b",
+  "arc": "window",
+  "commit": "0dda7b472",
+  "file": "scripts/checks/harvest_debt.py",
+  "quote": "overrides = dict(kv.split(\"=\", 1) for kv in os.environ.get(\"OA_HARVEST_PIN_OVERRIDE\", \"\").split(\",\") if \"=\" in kv)"
+ },
+ {
+  "id": "M4-3c",
+  "arc": "window",
+  "commit": "0dda7b472",
+  "file": "scripts/checks/commit_day.py",
+  "quote": "Each gate passes the date of HEAD's commit this way, so nothing in the"
+ },
+ {
+  "id": "M4-4",
+  "arc": "window",
+  "commit": "0dda7b472",
+  "file": "scripts/checks/relay_debt.py",
+  "quote": "It moves with every commit, so it cannot"
+ },
+ {
+  "id": "M4-4b",
+  "arc": "window",
+  "commit": "0dda7b472",
+  "file": "scripts/gates/gates.py",
+  "quote": "WHAT THIS DOES NOT BOUND: between its parent's date and the real time, a commit's date is its maker's to choose."
+ },
+ {
+  "id": "M4-5",
+  "arc": "window",
+  "commit": "0dda7b472",
+  "file": "scripts/seats/listen.py",
+  "quote": "state_file.write_text(json.dumps({\"blob\": blob, \"read\": max([state[\"read\"]] + list(ms))}), encoding=\"utf-8\")"
+ },
+ {
+  "id": "M4-5b",
+  "arc": "window",
+  "commit": "0dda7b472",
+  "file": "scripts/seats/listen.py",
+  "quote": "rc, page, _ = git(\"show\", \"%s/main:%s\" % (remote, path), cwd=cwd)"
  }
 ]

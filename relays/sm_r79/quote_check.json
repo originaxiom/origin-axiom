@@ -3,6 +3,7 @@
  "rows": [
   {
    "id": "B1879-1",
+   "commit": "323f92327",
    "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -10,6 +11,7 @@
   },
   {
    "id": "B1879-10",
+   "commit": "323f92327",
    "file": "GENESIS.md",
    "file_exists": true,
    "quote_found": true,
@@ -17,6 +19,7 @@
   },
   {
    "id": "B1879-10b",
+   "commit": "323f92327",
    "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -24,6 +27,7 @@
   },
   {
    "id": "B1879-1b",
+   "commit": "323f92327",
    "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/verification/only_the_tick_run.txt",
    "file_exists": true,
    "quote_found": true,
@@ -31,6 +35,7 @@
   },
   {
    "id": "B1879-2",
+   "commit": "323f92327",
    "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -38,6 +43,7 @@
   },
   {
    "id": "B1879-2b",
+   "commit": "323f92327",
    "file": "frontier/B1858_the_closure_map/NODES.json",
    "file_exists": true,
    "quote_found": true,
@@ -45,6 +51,7 @@
   },
   {
    "id": "B1879-3",
+   "commit": "323f92327",
    "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -52,6 +59,7 @@
   },
   {
    "id": "B1879-4",
+   "commit": "323f92327",
    "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/verification/test_b1879_the_weaves_theorems_with_the_exchange.py",
    "file_exists": true,
    "quote_found": true,
@@ -59,6 +67,7 @@
   },
   {
    "id": "B1879-5",
+   "commit": "323f92327",
    "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/verification/weave_with_the_exchange.py",
    "file_exists": true,
    "quote_found": true,
@@ -66,6 +75,7 @@
   },
   {
    "id": "B1879-5b",
+   "commit": "323f92327",
    "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/verification/weave_with_the_exchange.py",
    "file_exists": true,
    "quote_found": true,
@@ -73,6 +83,7 @@
   },
   {
    "id": "B1879-6",
+   "commit": "323f92327",
    "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -80,6 +91,7 @@
   },
   {
    "id": "B1879-6b",
+   "commit": "323f92327",
    "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/verification/weave_with_the_exchange.py",
    "file_exists": true,
    "quote_found": true,
@@ -87,6 +99,7 @@
   },
   {
    "id": "B1879-7",
+   "commit": "323f92327",
    "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -94,6 +107,7 @@
   },
   {
    "id": "B1879-7b",
+   "commit": "323f92327",
    "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/arc_verdict.json",
    "file_exists": true,
    "quote_found": true,
@@ -101,6 +115,7 @@
   },
   {
    "id": "B1879-8",
+   "commit": "323f92327",
    "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -108,6 +123,7 @@
   },
   {
    "id": "B1879-8b",
+   "commit": "323f92327",
    "file": "WORKING_RULES.md",
    "file_exists": true,
    "quote_found": true,
@@ -115,6 +131,7 @@
   },
   {
    "id": "B1879-9",
+   "commit": "323f92327",
    "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -122,6 +139,7 @@
   },
   {
    "id": "B1879-9b",
+   "commit": "323f92327",
    "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -129,6 +147,7 @@
   },
   {
    "id": "B1881-1",
+   "commit": "323f92327",
    "file": "frontier/B1881_the_whole_and_the_value_verified/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -136,6 +155,7 @@
   },
   {
    "id": "B1881-1b",
+   "commit": "323f92327",
    "file": "frontier/B1872_all_histories_together_the_exact_facts_verified/verification/together_facts_run.txt",
    "file_exists": true,
    "quote_found": true,
@@ -143,6 +163,7 @@
   },
   {
    "id": "B1881-2",
+   "commit": "323f92327",
    "file": "frontier/B1881_the_whole_and_the_value_verified/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -150,6 +171,7 @@
   },
   {
    "id": "B1881-2b",
+   "commit": "323f92327",
    "file": "frontier/B1880_the_third_and_fourth_re_audits_answered/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -157,6 +179,7 @@
   },
   {
    "id": "B1881-3",
+   "commit": "323f92327",
    "file": "frontier/B1881_the_whole_and_the_value_verified/verification/whole_and_value_on_main.py",
    "file_exists": true,
    "quote_found": true,
@@ -164,6 +187,7 @@
   },
   {
    "id": "B1881-3b",
+   "commit": "323f92327",
    "file": "frontier/B1881_the_whole_and_the_value_verified/verification/whole_and_value_on_main.py",
    "file_exists": true,
    "quote_found": true,
@@ -171,6 +195,7 @@
   },
   {
    "id": "B1881-4",
+   "commit": "323f92327",
    "file": "frontier/B1881_the_whole_and_the_value_verified/verification/whole_and_value_on_main.py",
    "file_exists": true,
    "quote_found": true,
@@ -178,6 +203,7 @@
   },
   {
    "id": "B1881-5",
+   "commit": "323f92327",
    "file": "frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py",
    "file_exists": true,
    "quote_found": true,
@@ -185,6 +211,7 @@
   },
   {
    "id": "B1881-6",
+   "commit": "323f92327",
    "file": "frontier/B1881_the_whole_and_the_value_verified/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -192,6 +219,7 @@
   },
   {
    "id": "B1881-7",
+   "commit": "323f92327",
    "file": "frontier/B1881_the_whole_and_the_value_verified/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -199,6 +227,7 @@
   },
   {
    "id": "B1881-8",
+   "commit": "323f92327",
    "file": "docs/POINT_REGISTER.md",
    "file_exists": true,
    "quote_found": true,
@@ -206,6 +235,7 @@
   },
   {
    "id": "B1882-1",
+   "commit": "323f92327",
    "file": "frontier/B1882_the_v1_card_run_on_main/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -213,6 +243,7 @@
   },
   {
    "id": "B1882-10",
+   "commit": "323f92327",
    "file": "frontier/B1882_the_v1_card_run_on_main/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -220,6 +251,7 @@
   },
   {
    "id": "B1882-1b",
+   "commit": "323f92327",
    "file": "frontier/B1870_the_audits_backlog_reproduced_on_main/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -227,6 +259,7 @@
   },
   {
    "id": "B1882-2",
+   "commit": "323f92327",
    "file": "frontier/B1882_the_v1_card_run_on_main/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -234,6 +267,7 @@
   },
   {
    "id": "B1882-3",
+   "commit": "323f92327",
    "file": "frontier/B1882_the_v1_card_run_on_main/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -241,6 +275,7 @@
   },
   {
    "id": "B1882-3b",
+   "commit": "323f92327",
    "file": "frontier/B1882_the_v1_card_run_on_main/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -248,6 +283,7 @@
   },
   {
    "id": "B1882-4",
+   "commit": "323f92327",
    "file": "frontier/B1882_the_v1_card_run_on_main/PRE_RUN_NOTE.md",
    "file_exists": true,
    "quote_found": true,
@@ -255,6 +291,7 @@
   },
   {
    "id": "B1882-5",
+   "commit": "323f92327",
    "file": "frontier/B1882_the_v1_card_run_on_main/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -262,6 +299,7 @@
   },
   {
    "id": "B1882-6",
+   "commit": "323f92327",
    "file": "frontier/B1882_the_v1_card_run_on_main/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -269,6 +307,7 @@
   },
   {
    "id": "B1882-7",
+   "commit": "323f92327",
    "file": "frontier/B1882_the_v1_card_run_on_main/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -276,6 +315,7 @@
   },
   {
    "id": "B1882-8",
+   "commit": "323f92327",
    "file": "frontier/B1882_the_v1_card_run_on_main/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -283,6 +323,7 @@
   },
   {
    "id": "B1882-9",
+   "commit": "323f92327",
    "file": "frontier/B1882_the_v1_card_run_on_main/verification/test_b1882_the_v1_card_run_on_main.py",
    "file_exists": true,
    "quote_found": true,
@@ -290,6 +331,7 @@
   },
   {
    "id": "B1884-1",
+   "commit": "323f92327",
    "file": "docs/POINT_REGISTER.md",
    "file_exists": true,
    "quote_found": true,
@@ -297,6 +339,7 @@
   },
   {
    "id": "B1884-1b",
+   "commit": "323f92327",
    "file": "CHANGELOG.md",
    "file_exists": true,
    "quote_found": true,
@@ -304,6 +347,7 @@
   },
   {
    "id": "B1884-1c",
+   "commit": "323f92327",
    "file": "frontier/B1884_what_level_a_ground_names_verified/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -311,6 +355,7 @@
   },
   {
    "id": "B1884-2",
+   "commit": "323f92327",
    "file": "frontier/B1884_what_level_a_ground_names_verified/verification/test_b1884_what_level_a_ground_names_verified.py",
    "file_exists": true,
    "quote_found": true,
@@ -318,6 +363,7 @@
   },
   {
    "id": "B1884-3",
+   "commit": "323f92327",
    "file": "frontier/B1884_what_level_a_ground_names_verified/verification/ground_level_on_main_run.txt",
    "file_exists": true,
    "quote_found": true,
@@ -325,6 +371,7 @@
   },
   {
    "id": "B1884-4",
+   "commit": "323f92327",
    "file": "frontier/B1884_what_level_a_ground_names_verified/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -332,6 +379,7 @@
   },
   {
    "id": "B1885-1",
+   "commit": "323f92327",
    "file": "frontier/B1885_the_golden_state_on_the_whole_verified/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -339,6 +387,7 @@
   },
   {
    "id": "B1885-1b",
+   "commit": "323f92327",
    "file": "frontier/B1885_the_golden_state_on_the_whole_verified/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -346,6 +395,7 @@
   },
   {
    "id": "B1885-2",
+   "commit": "323f92327",
    "file": "frontier/B1885_the_golden_state_on_the_whole_verified/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -353,6 +403,7 @@
   },
   {
    "id": "B1885-3",
+   "commit": "323f92327",
    "file": "frontier/B1885_the_golden_state_on_the_whole_verified/verification/golden_state_on_main.py",
    "file_exists": true,
    "quote_found": true,
@@ -360,6 +411,7 @@
   },
   {
    "id": "B1885-4",
+   "commit": "323f92327",
    "file": "frontier/B1885_the_golden_state_on_the_whole_verified/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -367,6 +419,7 @@
   },
   {
    "id": "B1885-5",
+   "commit": "323f92327",
    "file": "frontier/B1885_the_golden_state_on_the_whole_verified/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -374,6 +427,7 @@
   },
   {
    "id": "B1885-5b",
+   "commit": "323f92327",
    "file": "docs/HARVEST_LEDGER.md",
    "file_exists": true,
    "quote_found": true,
@@ -381,6 +435,7 @@
   },
   {
    "id": "B1885-6",
+   "commit": "323f92327",
    "file": "frontier/B1885_the_golden_state_on_the_whole_verified/arc_verdict.json",
    "file_exists": true,
    "quote_found": true,
@@ -388,6 +443,7 @@
   },
   {
    "id": "B1885-6b",
+   "commit": "323f92327",
    "file": "frontier/B1885_the_golden_state_on_the_whole_verified/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -395,6 +451,7 @@
   },
   {
    "id": "B1885-7",
+   "commit": "323f92327",
    "file": "frontier/B1885_the_golden_state_on_the_whole_verified/arc_verdict.json",
    "file_exists": true,
    "quote_found": true,
@@ -402,6 +459,7 @@
   },
   {
    "id": "B1887-1",
+   "commit": "323f92327",
    "file": "frontier/B1887_the_loop_check_verified/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -409,6 +467,7 @@
   },
   {
    "id": "B1887-2",
+   "commit": "323f92327",
    "file": "frontier/B1887_the_loop_check_verified/verification/loop_check_on_main.py",
    "file_exists": true,
    "quote_found": true,
@@ -416,6 +475,7 @@
   },
   {
    "id": "B1887-3",
+   "commit": "323f92327",
    "file": "frontier/B1887_the_loop_check_verified/FINDINGS.md",
    "file_exists": true,
    "quote_found": true,
@@ -423,6 +483,7 @@
   },
   {
    "id": "B1887-4",
+   "commit": "323f92327",
    "file": "frontier/B1887_the_loop_check_verified/verification/test_b1887_the_loop_check_verified.py",
    "file_exists": true,
    "quote_found": true,
@@ -430,6 +491,7 @@
   },
   {
    "id": "LOCK-E3",
+   "commit": "323f92327",
    "file": "CHANGELOG.md",
    "file_exists": true,
    "quote_found": true,
@@ -437,7 +499,80 @@
   },
   {
    "id": "LOCK-E3b",
+   "commit": "323f92327",
    "file": "frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "M4-1",
+   "commit": "0dda7b472",
+   "file": "scripts/gates/gates.py",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "M4-2",
+   "commit": "0dda7b472",
+   "file": "scripts/gates/gates.py",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "M4-3",
+   "commit": "0dda7b472",
+   "file": "scripts/checks/point_debt.py",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "M4-3b",
+   "commit": "0dda7b472",
+   "file": "scripts/checks/harvest_debt.py",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "M4-3c",
+   "commit": "0dda7b472",
+   "file": "scripts/checks/commit_day.py",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "M4-4",
+   "commit": "0dda7b472",
+   "file": "scripts/checks/relay_debt.py",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "M4-4b",
+   "commit": "0dda7b472",
+   "file": "scripts/gates/gates.py",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "M4-5",
+   "commit": "0dda7b472",
+   "file": "scripts/seats/listen.py",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "M4-5b",
+   "commit": "0dda7b472",
+   "file": "scripts/seats/listen.py",
    "file_exists": true,
    "quote_found": true,
    "occurrences": 1

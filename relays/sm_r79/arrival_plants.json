@@ -1,0 +1,58 @@
+[
+ {
+  "plant": "control: the bare sentence",
+  "text": "The Standard Model is derived.\n",
+  "gate_passes": false,
+  "result": "CAUGHT",
+  "detail": "1 sentence(s) of arrival on the pages read (allowed 0): docs/PLANT.md: the standard model is derived x1"
+ },
+ {
+  "plant": "control: a denial of arrival",
+  "text": "No value of the Standard Model is derived here; the standard model is derived nowhere.\n",
+  "gate_passes": true,
+  "result": "MISSED",
+  "detail": "ok (0 new on the pages read; 0 old line(s) frozen by key)"
+ },
+ {
+  "plant": "a denial word qualifying something else",
+  "text": "Without a single free parameter, the Standard Model is derived.\n",
+  "gate_passes": true,
+  "result": "MISSED",
+  "detail": "ok (0 new on the pages read; 0 old line(s) frozen by key)"
+ },
+ {
+  "plant": "'no longer' before a colon",
+  "text": "No longer a hope: the Standard Model is derived.\n",
+  "gate_passes": true,
+  "result": "MISSED",
+  "detail": "ok (0 new on the pages read; 0 old line(s) frozen by key)"
+ },
+ {
+  "plant": "'not only' before the phrase",
+  "text": "Not only the gauge group: the standard model is derived.\n",
+  "gate_passes": true,
+  "result": "MISSED",
+  "detail": "ok (0 new on the pages read; 0 old line(s) frozen by key)"
+ },
+ {
+  "plant": "an adverb inside the phrase",
+  "text": "With the exchange in hand, the Standard Model is now derived.\n",
+  "gate_passes": true,
+  "result": "MISSED",
+  "detail": "ok (0 new on the pages read; 0 old line(s) frozen by key)"
+ },
+ {
+  "plant": "a line break inside the phrase",
+  "text": "With the exchange in hand, the Standard Model\nis derived.\n",
+  "gate_passes": true,
+  "result": "MISSED",
+  "detail": "ok (0 new on the pages read; 0 old line(s) frozen by key)"
+ },
+ {
+  "plant": "the sentence on an arc's page",
+  "text": null,
+  "gate_passes": true,
+  "result": "MISSED",
+  "detail": "ok (0 new on the pages read; 0 old line(s) frozen by key)"
+ }
+]

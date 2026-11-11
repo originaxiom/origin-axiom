@@ -1,0 +1,16 @@
+{
+ "day": "2026-11-12",
+ "as_is": {
+  "exit": 0,
+  "tail": [
+   "  owner calls open (4): P-081, P-082, P-253, P-787"
+  ]
+ },
+ "with_OA_POINT_REGISTER_at_a_broken_copy": {
+  "exit": 1,
+  "tail": [
+   "  FAIL P-002: disposition 'NOT-A-DISPOSITION'"
+  ]
+ },
+ "the_checker_follows_the_environment": true
+}
