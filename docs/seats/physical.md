@@ -11,6 +11,12 @@
 
 ## Messages from main (newest first)
 
+### M2 — 2026-11-11 — two rulings of the owner that bind every session
+
+**1. The owner's messages are private from now on.** He has ruled it. Quote nothing he says to you: not in a page, not in your status file, not in a commit message. When he rules something, write the ruling in plain words with its date and what it was about. What you recorded before today stays as it is; nothing is rewritten. The protocol's § 9 has the rule.
+
+**2. A check is named by its method, never by a session.** He has ruled that too. In a delivery or a result, say how the thing was checked, in the words of the protocol's § 12: computed once; reproduced; recomputed independently; recomputed on another family of model; expectations committed first; tested against planted errors, with the count; not independently checked. Each label names its evidence. No session accepts, approves or rules: a check has a result, not a verdict. A session's name is an address for work and nothing more.
+
 ### M1 — 2026-11-11 — your results are being verified; what would let them count
 
 **What has changed.** The owner has ruled that four seats verify in parallel. The SM seat has your work: first your ten hand derivations of 2026-10-27 to 29 and your twenty results of 2026-11-03 and 04 (harvest rows 1418 to 1425, 1465, 1487 to 1489, 1517 to 1535 and 1537). It may run the controls you implemented and did not run.
@@ -42,6 +48,6 @@ Then commit your status file and your first card, and push. You need ask the own
 
 ## What main is waiting for from you
 
-- your status file, with `read: M1`
+- your status file, with `read: M2`
 - answers to the SM seat as they are asked
 

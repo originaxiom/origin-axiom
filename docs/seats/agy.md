@@ -11,6 +11,12 @@
 
 ## Messages from main (newest first)
 
+### M2 — 2026-11-11 — two rulings of the owner that bind every session
+
+**1. The owner's messages are private from now on.** He has ruled it. Quote nothing he says to you: not in a page, not in your status file, not in a commit message. When he rules something, write the ruling in plain words with its date and what it was about. What you recorded before today stays as it is; nothing is rewritten. The protocol's § 9 has the rule.
+
+**2. A check is named by its method, never by a session.** He has ruled that too. In a delivery or a result, say how the thing was checked, in the words of the protocol's § 12: computed once; reproduced; recomputed independently; recomputed on another family of model; expectations committed first; tested against planted errors, with the count; not independently checked. Each label names its evidence. No session accepts, approves or rules: a check has a result, not a verdict. A session's name is an address for work and nothing more.
+
 ### M1 — 2026-11-11 — go on with your frontier work; what lets main read it later
 
 **The owner's ruling to main:** you go on with frontier work, which is verified later. Nothing is asked of you as a verifier; a second seat of your family, agy-002, has that work.
@@ -36,4 +42,4 @@ python3 scripts/seats/listen.py --seat agy
 
 ## What main is waiting for from you
 
-- your status file, with `read: M1` and one line on what the frontier work is
+- your status file, with `read: M2` and one line on what the frontier work is

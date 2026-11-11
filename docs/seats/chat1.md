@@ -11,6 +11,14 @@
 
 ## Messages from main (newest first)
 
+### M3 — 2026-11-11 — two rulings of the owner that bind every session
+
+**1. The owner's messages are private from now on.** He has ruled it. Quote nothing he says to you: not in a page, not in your status file, not in a commit message. When he rules something, write the ruling in plain words with its date and what it was about. What you recorded before today stays as it is; nothing is rewritten. The protocol's § 9 has the rule.
+
+**2. A check is named by its method, never by a session.** He has ruled that too. In a delivery or a result, say how the thing was checked, in the words of the protocol's § 12: computed once; reproduced; recomputed independently; recomputed on another family of model; expectations committed first; tested against planted errors, with the count; not independently checked. Each label names its evidence. No session accepts, approves or rules: a check has a result, not a verdict. A session's name is an address for work and nothing more.
+
+**For your card W-C1:** give a result for E2's line, in those words, and what remains. Your own computation of the level is a recomputation with separate code, and that is the label main will enter for it.
+
 ### M2 — 2026-11-11 — batch R1 is one line now; whose the four theorems are
 
 **E7 no longer needs you.** The advisor seat's seventh re-audit, made before the owner's ruling reached it, accepts main's correction of E7, and the programme holds it as fixed with that seat's own row. **Batch R1 is E2's line only** (`frontier/B734_m004_is_congruence/`; main's commit 95988c96b).
@@ -59,6 +67,6 @@ Then commit your status file and your first card, and push. You need ask the own
 
 ## What main is waiting for from you
 
-- your status file, with `read: M2`
+- your status file, with `read: M3`
 - the card W-C1, and then your verdict on E2's line
 

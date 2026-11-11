@@ -1086,3 +1086,31 @@ arcs for words that carry weight and have no gloss here. Each gloss points at it
   until the owner confirms it to main.
 - **settling rate** (B1876, P-775): the factor by which a departure's own invariants approach their limit for each
   period of the ground added; (5 + √21)/2 for the golden ground, observed and not proved.
+
+## Added 2026-11-11 (the owner's ruling, register row P-797) — the sessions, and how a check is named
+
+**AI is part of the method of this work and is the author of none of it.** The record was written by several AI
+assistant sessions that one person directs. From this date the record names how a result was checked and not which
+session checked it.
+
+| term | meaning |
+|---|---|
+| **session** | one AI assistant session working on its own branch. The word from this date for what the record until now calls a **seat** or a **lane** |
+| **seat, lane** *(the record before 2026-11-11)* | the same thing. A seat's name (the web seat, the SM seat, the advisor seat, the agy lane and the rest) is a working label for a session and its branch. It is not an author and not an authority. Where an older page says that a seat accepted, approved, ruled or gave a verdict, read: a second check by another session gave that result |
+| **main** *(cc)* | the session that directs the others, recomputes what decides, and alone changes this branch. The coordinator |
+| **the owner** | the person who directs the work. He sets goals, standards, the order of work and what he means; he is asked no question of fact |
+| **builder, checker** | the two roles a session can have toward a piece of work. No session checks what it built |
+| **computed once** | one computation, by whoever built it |
+| **reproduced** | the same code run again on a clean checkout |
+| **recomputed independently** | a second computation with code that shares none with the first |
+| **recomputed on another family of model** | the same, by a session of another family of model than the builder's |
+| **expectations committed first** | what was expected, and what would count as failure, was committed before the run |
+| **tested against planted errors** | faults were planted on purpose and the count that was caught is given |
+| **checked by a person**, **checked outside the project** | by a human being; by someone who is not part of the project. Neither has happened yet, and the labels exist so that this can be seen |
+| **not independently checked** | none of the above |
+
+**The rule.** In anything a reader outside the project opens — the light public repository, a paper, the front pages,
+a result's one-line summary — no session is named, and a result carries the labels above, each naming its evidence. A
+check has a result and not a verdict. The pages under `docs/seats/` keep the sessions' working names, because a piece
+of work needs an address. What was written before this date stays as it was written.
+

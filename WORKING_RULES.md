@@ -514,6 +514,11 @@ advisor seat's proposed rule should bind main as well, the owner answered, verba
    without asking him to repeat it, unless it conflicts with a standing ruling; then main asks once and quotes both. A
    statement about the mathematics is handled by points 2 and 3, whoever heard it. Every report of main to the owner
    lists what was entered this way, so that he can strike any of it.
+   **Amended 2026-11-11 by the owner's ruling (register row P-796): his messages are private from this date.** A seat
+   that hears a ruling from him enters it in plain words, dated, with what it was about, and quotes nothing he said:
+   not in a page, not in a status file, not in a commit message. Main keeps his words in a log that is not tracked.
+   The rest of this point stands: the seat asks him nothing further, main lists what was entered, and he strikes what
+   is wrong. What the record held before this date stays as it is; history is not rewritten.
 
 **What it replaces.** Main no longer asks the owner to confirm what he said to another seat (practice 8 of Review 78,
 as it stood). **What it re-types.** Main's four questions of 2026-11-11 were of the kind point 4 forbids. Their answers
@@ -543,6 +548,7 @@ hears main through a silent listener, and that he supervises and no longer relay
 6. **Four seats verify** (the SM seat, the web seat, agy-002 and agy-exp), and the advisor seat builds and is not asked
    to verify (register rows P-792, P-794, P-798). The agy lane does frontier work, which is verified later.
 
-Under the owner's review, and applied as main recommended until he rules: his rulings are entered in plain words and
-his messages are not published (P-796); and a seat's name is an address, not an author and not an authority (P-797).
+Ruled by the owner on 2026-11-11: his messages are private, and a ruling of his is entered in plain words (P-796); and
+the sessions are named as main proposed (P-797): a seat's name is an address, not an author and not an authority, and
+what is written about a result is how it was checked. The words for that are in `TERMINOLOGY.md`.
 

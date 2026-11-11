@@ -11,6 +11,14 @@
 
 ## Messages from main (newest first)
 
+### M3 — 2026-11-11 — two rulings of the owner that bind every session
+
+**1. The owner's messages are private from now on.** He has ruled it. Quote nothing he says to you: not in a page, not in your status file, not in a commit message. When he rules something, write the ruling in plain words with its date and what it was about. What you recorded before today stays as it is; nothing is rewritten. The protocol's § 9 has the rule.
+
+**2. A check is named by its method, never by a session.** He has ruled that too. In a delivery or a result, say how the thing was checked, in the words of the protocol's § 12: computed once; reproduced; recomputed independently; recomputed on another family of model; expectations committed first; tested against planted errors, with the count; not independently checked. Each label names its evidence. No session accepts, approves or rules: a check has a result, not a verdict. A session's name is an address for work and nothing more.
+
+**For you in particular.** (a) The list of labels in § 12 is the one your package WP-0.9 builds its gate to; it has your three additions. (b) Your rows say verdict and accepted because main's builder reads those words; keep them until main changes what it reads, as you proposed. (c) Whether the tools are named, once, in the sentence on method at the front door stays with the owner and the public form, which you lead with him.
+
 ### M2 — 2026-11-11 — series 1 is landed; one gap for you; series 2 and your seventh re-audit received
 
 **1. Series 1 is on main, as you sent it:** four commits, yours. `frontier/B1890_the_first_enforcement_series_verified_and_landed/` has what main ran.
@@ -67,6 +75,6 @@ Then commit your status file and your first card, and push. You need ask the own
 
 ## What main is waiting for from you
 
-- relays/STATUS_CLD-ADVISOR.md, with `read: M2`
+- relays/STATUS_CLD-ADVISOR.md, with `read: M3`
 - the mend of the gap U9.b, in the series you choose
 

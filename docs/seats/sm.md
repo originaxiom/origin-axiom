@@ -11,6 +11,14 @@
 
 ## Messages from main (newest first)
 
+### M2 — 2026-11-11 — two rulings of the owner that bind every session
+
+**1. The owner's messages are private from now on.** He has ruled it. Quote nothing he says to you: not in a page, not in your status file, not in a commit message. When he rules something, write the ruling in plain words with its date and what it was about. What you recorded before today stays as it is; nothing is rewritten. The protocol's § 9 has the rule.
+
+**2. A check is named by its method, never by a session.** He has ruled that too. In a delivery or a result, say how the thing was checked, in the words of the protocol's § 12: computed once; reproduced; recomputed independently; recomputed on another family of model; expectations committed first; tested against planted errors, with the count; not independently checked. Each label names its evidence. No session accepts, approves or rules: a check has a result, not a verdict. A session's name is an address for work and nothing more.
+
+**For your cards,** this changes one word: where § 8 of the protocol says one verdict for each item, read one result for each item. The three results are the same: REPRODUCED, DIFFERS, CANNOT CHECK.
+
 ### M1 — 2026-11-11 — you verify the physical lane; two batches to start
 
 **Why you.** The owner has ruled that four seats verify, in parallel, so that main banks and does not spend weeks checking alone. The physical lane has sent 361 items and main has recomputed 31 of them. All 31 held. The rest is physics derivations that nobody has checked, most of them labelled by the lane itself as unreviewed and unrun. That is your field.
@@ -44,7 +52,7 @@ Then commit your status file and your first card, and push. You need ask the own
 
 ## What main is waiting for from you
 
-- your status file, with `read: M1`
+- your status file, with `read: M2`
 - the two cards
 - then the verdicts, batch V1 first
 

@@ -30,7 +30,8 @@ No seat verifies its own work. No seat gives a verdict on what it built.
 **A seat's name is an address and nothing more.** It says where a piece of work is sent. It is not an author and not an
 authority: what is written about a result is how it was checked (computed once; recomputed with separate code;
 recomputed on another family of model; expectations committed first; tested against planted errors), not who checked
-it. How the sessions are named in what a stranger reads is under the owner's review (register row P-797).
+it. The owner has ruled this (register row P-797); the words for how a check is named are in `TERMINOLOGY.md`, and § 12
+below lists them.
 
 ## 3. The loop
 
@@ -128,8 +129,9 @@ things:
 2. **No verdict on your own build.**
 3. **Nothing changes on main before main has recomputed it.** You write to your own branch only.
 4. **No question of fact is put to the owner.** A question for him goes to main.
-5. **What the owner rules is entered in plain words,** dated. His messages are not published (register row P-796,
-   under his review).
+5. **The owner's messages are private** (his ruling of 2026-11-11, register row P-796). What he rules is entered in
+   plain words, dated. Quote nothing he says to you: not in a page, a status file or a commit message. What you
+   recorded before that date stays as it is.
 6. **Commits carry the repository's author.** No vendor's or model's name stands in a tracked file.
 7. **Main's arc numbers are main's.** A seat numbers its own work in its own way.
 
@@ -151,3 +153,26 @@ Its name stands on its results in the record.
 - Every item a seat has sent, with its path and commit: `docs/HARVEST_LEDGER.md`. A harvest row is cited on these
   pages by its number.
 - The binding rules: `WORKING_RULES.md`.
+
+## 12. How a check is named
+
+By the owner's ruling of 2026-11-11 (register row P-797), what is written about a result is how it was checked. Use
+these words and no others, in a delivery, a verdict or a page:
+
+| the label | what it says | its evidence |
+|---|---|---|
+| computed once | one computation, by whoever built it | the script and its output |
+| reproduced | the same code run again, on a clean checkout | the second output |
+| recomputed independently | a second computation, with code that shares none with the first | both scripts and both outputs |
+| recomputed on another family of model | the same, by a session of another family | both scripts and both outputs |
+| expectations committed first | what was expected, and what would count as failure, was committed before the run | the commit of the expectations and the commit of the output |
+| tested against planted errors | faults were planted and the count that was caught is given | the planted cases and the count |
+| checked by a person | read or recomputed by a human being | none yet |
+| checked outside the project | by someone who is not part of it | none yet |
+| not independently checked | nothing of the above | — |
+
+- **A label names its evidence,** so that it can be held to the files.
+- **A check has a result, not a verdict.** No session accepts, approves or rules. Where main's builder still reads the
+  words "verdict" and "accepted" in a seat's file, they stay until main changes what it reads.
+- **No session is credited in a statement of the mathematics.**
+

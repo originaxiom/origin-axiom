@@ -1,5 +1,13 @@
 # Changelog
 
+## S306p THREE RULINGS OF THE OWNER, APPLIED: HIS MESSAGES ARE PRIVATE; A CHECK IS NAMED BY ITS METHOD AND NEVER BY A SESSION; THE DISTILLED REPOSITORY IS PUBLIC AND STAYS ON THE LIST (P-796, P-797, P-793, P-800) (2026-11-11)
+
+- **His messages are private from now on, and history is not rewritten.** The working rules' point on what he says to a seat is amended: a ruling is entered in plain words and nothing he said is quoted, in a page, a status file or a commit message. Main keeps his words in a log that is not tracked.
+- **A check is named by its method.** The terminology page has the words: session, for what the record called a seat or a lane; nine labels for how a result was checked, each naming its evidence; a check has a result and not a verdict. It says what the old names meant, so that the record before this date can be read. The seats' pages keep their working names, as addresses.
+- **Every seat has both rulings as a message on its page.**
+- **The distilled repository.** He ruled that it be forgotten if it is not public and cannot be read. It is public: main fetched it, fifteen commits and 65 files. So it stays, as a small harvest.
+- **This landing advanced no package.** 0 of 19.
+
 ## S306p THE FIRST PATCH SERIES FOR ENFORCEMENT, VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (WP-0.7; B1890); THE FINDING E7 FIXED AND ACCEPTED (WP-0.8); TWO SEATS NAME THEMSELVES (2026-11-11)
 
 - **Landed: four patches of the advisor seat's, as it sent them.** One rule: a gate is a function of the commit. A gate that needs git is refused where there is none; a gate that reads the past is refused on a shallow clone; a gate's day is the commit's and not the clock's; a commit dated before its parent is not trusted for its day.

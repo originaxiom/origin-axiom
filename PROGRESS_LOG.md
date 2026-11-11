@@ -19635,3 +19635,17 @@ seat's check. Six are left.
 
 0 of 19.
 
+## 2026-11-11 — Three decisions of the owner, put into the rules (S306p)
+
+**His messages are private from now on.** Until today the record quoted what he said, word for word, to show that a decision was his. He has decided that this ends. From now a decision of his is written down in plain words with its date, and nothing he said is quoted anywhere in the repository. What was already written stays; the history is not changed.
+
+**The AI sessions are named by what they did, not by who they are.** The record used internal names for the sessions, and sometimes wrote as if a session had the authority to accept or approve a result. From now a result says how it was checked: computed once, run again, recalculated with separate code, recalculated by a different kind of AI, checked against deliberately planted errors, and so on. Each of these words must point to the files that show it. The glossary explains the old names so that older pages can still be read.
+
+**The second repository.** He said to forget it if it could not be read. It can: it is public and small. So it stays on the list of things to check.
+
+**Every session has been told,** on its own page.
+
+**Which piece of the plan moved.** None.
+
+0 of 19.
+
