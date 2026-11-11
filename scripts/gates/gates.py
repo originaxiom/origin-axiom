@@ -223,36 +223,65 @@ BANNED = [
     "the one kind of number the firewall permits",
 ]
 FRAMING_EXEMPT = {"GOVERNANCE.md", "scripts/gates/gates.py", "tests/test_repo_gates.py",
-                  "docs/atlas/FAILURE_ATLAS.md"}   # the failure register quotes what it bans
+                  "docs/atlas/FAILURE_ATLAS.md",   # the failure register quotes what it bans
+                  # found when the gate first read a .json, 2026-11-11 (WP-0.7, PV21), and frozen as found: Review 38's audit of
+                  # this gate, which quotes a banned phrase to say that the gate compares letter for letter
+                  "frontier/B887_gate_audit/audit_reports.json"}
 FRAMING_SCOPE_DIRS = ("docs", "frontier", "knowledge", "papers", "speculations",
                       "philosophy", "story", "src", "scripts")
+# WP-0.7 (PV21): the gate read three kinds of file, .md, .py and .txt, and compared letter for letter.  A banned phrase in a .tex
+# file passed, and so did one in capitals: B887's audit said so in August, in a .json the gate did not read.  It now reads every
+# file in its folders that is text, whatever its name ends in, and compares as a reader does (_framing_plain).  What it does
+# not read it counts in its sentence: a file that is not text, and a file above FRAMING_MAX_BYTES, which is data and not a page
+# (the largest page on 2026-11-11 is 2.4 MB; the files above the limit are censuses, .jsonl and .json).
+FRAMING_MAX_BYTES = 5_000_000
+
+
+def _framing_plain(text):
+    """a text as the framing gate compares it: in one letter case, its apostrophes plain, its marks of emphasis gone, and every
+    run of white space a single space, so that a phrase broken over two lines is the phrase"""
+    for a, b in (("\u2019", "'"), ("\u2018", "'"), ("*", ""), ("`", "")):
+        text = text.replace(a, b)
+    return " ".join(text.split()).casefold()
 
 
 def gate_framing():
     hits = []
-    # R37-1 repair: scan ALL root-level .md files, not a hardcoded name list --
+    # R37-1 repair: scan ALL root-level files, not a hardcoded name list --
     # the audit injected a banned phrase into WORKING_RULES.md and this gate passed
     # (root files outside the old 8-name list were never scanned).
-    files = sorted(n for n in os.listdir(ROOT)
-                   if n.endswith(".md") and os.path.isfile(os.path.join(ROOT, n)))
+    files = sorted(n for n in os.listdir(ROOT) if os.path.isfile(os.path.join(ROOT, n)))
     for d in FRAMING_SCOPE_DIRS:
         for dirpath, _dirs, names in os.walk(os.path.join(ROOT, d)):
             if ".git" in dirpath or "__pycache__" in dirpath:
                 continue
             for n in names:
-                if n.endswith((".md", ".py", ".txt")):
-                    files.append(os.path.relpath(os.path.join(dirpath, n), ROOT))
+                files.append(os.path.relpath(os.path.join(dirpath, n), ROOT))
+    banned = [(phrase, _framing_plain(phrase)) for phrase in BANNED]
+    read = exempt = large = not_text = 0
     for rel in files:
         if rel.replace(os.sep, "/") in FRAMING_EXEMPT:
+            exempt += 1
             continue
         try:
+            if os.path.getsize(os.path.join(ROOT, rel)) > FRAMING_MAX_BYTES:
+                large += 1
+                continue
             text = _read(rel)
+        except UnicodeDecodeError:
+            not_text += 1
+            continue
         except Exception:
             continue
-        for phrase in BANNED:
-            if phrase in text:
+        read += 1
+        plain = _framing_plain(text)
+        for phrase, as_read in banned:
+            if as_read in plain:
                 hits.append((rel, phrase))
-    return not hits, hits[:10]
+    if hits:
+        return False, hits[:10]
+    return True, (f"ok ({read} text files read, in any letter case; not read: {large} above {FRAMING_MAX_BYTES // 1_000_000} MB, "
+                  f"{not_text} that are not text; {exempt} that quote what the gate bans, exempt by name)")
 
 
 # --- gate: claims-ledger integrity --------------------------------------------------------
