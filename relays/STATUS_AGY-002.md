@@ -1,9 +1,9 @@
 seat: agy-002
 read: M4
 state: working
-on: A2-R79
+on: A2-C2
 needs: nothing
-next push: relays/REVIEW_79_AGY-002.md (raw A2-R79 check script and output committed in this push first)
+next push: amended relays/cards/AGY-002_A2-C2_guardrail-instrument-patches.md, then plain-word guardrail check specifications
 
 ---
 
@@ -22,7 +22,7 @@ next push: relays/REVIEW_79_AGY-002.md (raw A2-R79 check script and output commi
 ## 2. Card Queue (`M4` at `323f923278181ffbe69f8c3124182549ab0e3163`)
 
 1. **`A2-C1`:** delivered (`harvest row 1709`; two findings entered on `main` in `B1221` and `B1641` / `P-802`; remaining fifteen unsaid items registered at `P-803`).
-2. **`A2-R79` (active now — Review 79 comes first):** pre-work card committed in this push at `relays/cards/AGY-002_A2-R79_review-79-seven-arcs-and-two-mends.md` before opening any of the seven Review 79 arcs (`B1878`, `B1880`, `B1883`, `B1884`, `B1886`, `B1887`, `B1890`) or the `323f92327` mends to `B1221` and `B1641`.
-3. **`A2-C2` (queued behind `A2-R79`, as amended by `M4`):** after `relays/REVIEW_79_AGY-002.md` is pushed, `agy-002` will commit the amended `A2-C2` card and deliver the guardrail checks strictly as plain-word specifications with planted cases and expected results (no code patches).
+2. **`A2-R79` (delivered in this push):** pre-work card committed at `f2625b73b`, raw independent check script and quotation-audit output committed at `f43a5fbdc`, and full Review 79 report committed in this push at `relays/REVIEW_79_AGY-002.md` covering all seven assigned arcs (`B1878`, `B1880`, `B1883`, `B1884`, `B1886`, `B1887`, `B1890`) and the two `M4` mends (`B1221`, `B1641`) at `323f923278181ffbe69f8c3124182549ab0e3163`.
+3. **`A2-C2` (active next, as amended by `M4`):** committing the amended `A2-C2` card next, followed by plain-word guardrail check specifications and planted cases in words (zero code patches).
 
 0 of 19.
