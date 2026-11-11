@@ -1,0 +1,20 @@
+   grid: layer 1 is the lowest and the highest value, layer 2 the next, layer 3 the next                            ok
+   uneven: bottom layer 1 takes heights until it holds 3 points (2.0, 2.0, 2.1); top takes 3.6 and the three at 3.5 ok
+   uneven: layer 2 starts where layer 1 ended (bottom 2.3 x 3; top 3.4, 3.3, 3.3)                                   ok
+   summarise: the best 1% is the 200 smallest statistics, and its count on a mask equals a count by hand (10)       ok
+   summarise: the rows' share is the mask's mean (40 of 600)                                                        ok
+   summarise: with rows drawn evenly, the share of all targets on a mask is the rows' share within its 99.9% interval ok
+   clopper: 0 of 100 gives [0, 0.0362]                                                                              ok
+   chi_best: three planted rows found again (rows 3, 17, 44)                                                        ok
+   chi_best with rows removed: the row returned is an index into the full table, and the nearest left               ok
+   leave_out_loss equals a recount of every target, at the top, the bottom and an inner layer (88, 88, 101)         ok
+   toy, targets spread evenly and beyond both ends: an end layer costs about what any layer costs (ratios 0.88 and 0.88): read as B ok
+   toy, half the targets crowded at and beyond the top end: the top is a lever (ratio 6.67): read as A at the top   ok
+   toy, no target above height 20: the top end adds nothing (ratio 0.00): read as C at the top, B at the bottom     ok
+   verdict: 300 of 1000 lost at the top (ratio 4.5), 60 at the bottom: read as A, top A and bottom B                ok
+   verdict: 60 and 70 of 1000 lost (ratios about 1): read as B                                                      ok
+   verdict: 10 and 20 of 1000 lost (ratios under 0.5): read as C                                                    ok
+   verdict: 4 of 30 lost where the rows' share is 0.067 (ratio 2.0, but the interval reaches below the share): read as B, not A ok
+   verdict: the control failed: read as NOT VALID whatever the counts                                               ok
+selftest: every check holds
+selftest exit 0

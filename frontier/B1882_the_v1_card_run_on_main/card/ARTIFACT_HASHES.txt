@@ -1,0 +1,5 @@
+# sealed in the seal commit, before either stage ran: sha256 of the card's page and of its instrument
+edc875643bfd489a46f115e3a83b6737b1f9c3546e976cafd4b9b9cdc2694d0b  PREREGISTRATION.md
+beef66a2caa96faed30c9263ba2edb3192b2846e86a03c634fa930077b4ed9a8  v1_card.py
+# the toy self-test's output, as it stood at the seal (not an instrument)
+0ed0cdcb494920146a3845739c28c5c258fdeee2e9ef450eb89d508fbc2d0714  selftest_out.txt

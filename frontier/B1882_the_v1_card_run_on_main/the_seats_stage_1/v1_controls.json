@@ -1,0 +1,481 @@
+{
+ "N1": {
+  "rows": 47880,
+  "points": 90,
+  "layers": [
+   {
+    "bottom_points": 6,
+    "top_points": 6
+   },
+   {
+    "bottom_points": 6,
+    "top_points": 6
+   },
+   {
+    "bottom_points": 6,
+    "top_points": 6
+   }
+  ],
+  "rows_share": {
+   "bottom layer 1": 0.06666666666666667,
+   "top layer 1": 0.06666666666666667,
+   "bottom layer 2": 0.06666666666666667,
+   "top layer 2": 0.06666666666666667,
+   "bottom layer 3": 0.06666666666666667,
+   "top layer 3": 0.06666666666666667
+  },
+  "K1": {
+   "wf|seat": {
+    "planted": 495,
+    "found_at_zero": 495,
+    "at_the_planted_point": 495,
+    "at_the_planted_height": 495,
+    "largest_statistic": 0.0,
+    "holds": true
+   },
+   "wf|cov": {
+    "planted": 495,
+    "found_at_zero": 495,
+    "at_the_planted_point": 495,
+    "at_the_planted_height": 495,
+    "largest_statistic": 0.0,
+    "holds": true
+   },
+   "wf|free": {
+    "planted": 495,
+    "found_at_zero": 495,
+    "at_the_planted_point": 495,
+    "at_the_planted_height": 495,
+    "largest_statistic": 0.0,
+    "holds": true
+   },
+   "wf_targets_per_second_three_menus": 90.40407106918863,
+   "holds": true
+  },
+  "K2": {
+   "wf|seat|bottom|planted in layer 1": {
+    "planted": 3192,
+    "fitted_at_zero_with_every_row": 3192,
+    "lost_without_layer_1": 3192,
+    "expected": "all",
+    "holds": true
+   },
+   "wf|cov|bottom|planted in layer 1": {
+    "planted": 3192,
+    "fitted_at_zero_with_every_row": 3192,
+    "lost_without_layer_1": 3192,
+    "expected": "all",
+    "holds": true
+   },
+   "wf|free|bottom|planted in layer 1": {
+    "planted": 3192,
+    "fitted_at_zero_with_every_row": 3192,
+    "lost_without_layer_1": 3192,
+    "expected": "all",
+    "holds": true
+   },
+   "wf|seat|bottom|planted in layer 3": {
+    "planted": 3192,
+    "fitted_at_zero_with_every_row": 3192,
+    "lost_without_layer_1": 0,
+    "expected": "none",
+    "holds": true
+   },
+   "wf|cov|bottom|planted in layer 3": {
+    "planted": 3192,
+    "fitted_at_zero_with_every_row": 3192,
+    "lost_without_layer_1": 0,
+    "expected": "none",
+    "holds": true
+   },
+   "wf|free|bottom|planted in layer 3": {
+    "planted": 3192,
+    "fitted_at_zero_with_every_row": 3192,
+    "lost_without_layer_1": 0,
+    "expected": "none",
+    "holds": true
+   },
+   "wf|seat|top|planted in layer 1": {
+    "planted": 3192,
+    "fitted_at_zero_with_every_row": 3192,
+    "lost_without_layer_1": 3192,
+    "expected": "all",
+    "holds": true
+   },
+   "wf|cov|top|planted in layer 1": {
+    "planted": 3192,
+    "fitted_at_zero_with_every_row": 3192,
+    "lost_without_layer_1": 3192,
+    "expected": "all",
+    "holds": true
+   },
+   "wf|free|top|planted in layer 1": {
+    "planted": 3192,
+    "fitted_at_zero_with_every_row": 3192,
+    "lost_without_layer_1": 3192,
+    "expected": "all",
+    "holds": true
+   },
+   "wf|seat|top|planted in layer 3": {
+    "planted": 3192,
+    "fitted_at_zero_with_every_row": 3192,
+    "lost_without_layer_1": 0,
+    "expected": "none",
+    "holds": true
+   },
+   "wf|cov|top|planted in layer 3": {
+    "planted": 3192,
+    "fitted_at_zero_with_every_row": 3192,
+    "lost_without_layer_1": 0,
+    "expected": "none",
+    "holds": true
+   },
+   "wf|free|top|planted in layer 3": {
+    "planted": 3192,
+    "fitted_at_zero_with_every_row": 3192,
+    "lost_without_layer_1": 0,
+    "expected": "none",
+    "holds": true
+   },
+   "wf_holds": true
+  },
+  "K3": {
+   "wf|bottom": {
+    "planted": 3192,
+    "dropped_as_twins": 0,
+    "landed_on_the_nearest_layer_left": 2305,
+    "share": 0.7221177944862155,
+    "ci95": [
+     0.7062224188554176,
+     0.7376051903566785
+    ],
+    "landed_on_the_far_end": 3,
+    "rows_share_of_that_layer_in_the_narrowed_window": 0.09090909090909091,
+    "ratio": 7.94329573934837
+   },
+   "wf|top": {
+    "planted": 3192,
+    "dropped_as_twins": 0,
+    "landed_on_the_nearest_layer_left": 2368,
+    "share": 0.7418546365914787,
+    "ci95": [
+     0.7262994915136302,
+     0.7569654129041544
+    ],
+    "landed_on_the_far_end": 0,
+    "rows_share_of_that_layer_in_the_narrowed_window": 0.09090909090909091,
+    "ratio": 8.160401002506266
+   }
+  },
+  "rows_with_an_exact_twin": 0,
+  "seconds": 624.7402153015137
+ },
+ "N2": {
+  "rows": 21408,
+  "points": 223,
+  "layers": [
+   {
+    "bottom_points": 16,
+    "top_points": 15
+   },
+   {
+    "bottom_points": 15,
+    "top_points": 16
+   },
+   {
+    "bottom_points": 16,
+    "top_points": 15
+   }
+  ],
+  "rows_share": {
+   "bottom layer 1": 0.07174887892376682,
+   "top layer 1": 0.06726457399103139,
+   "bottom layer 2": 0.06726457399103139,
+   "top layer 2": 0.07174887892376682,
+   "bottom layer 3": 0.07174887892376682,
+   "top layer 3": 0.06726457399103139
+  },
+  "K1": {
+   "chi2|seat": {
+    "planted": 222,
+    "found_at_zero": 222,
+    "at_the_planted_point": 130,
+    "at_the_planted_height": 222,
+    "largest_statistic": 1.4551915228366852e-11,
+    "holds": true
+   },
+   "chi2|cov": {
+    "planted": 222,
+    "found_at_zero": 222,
+    "at_the_planted_point": 130,
+    "at_the_planted_height": 222,
+    "largest_statistic": 1.4551915228366852e-11,
+    "holds": true
+   },
+   "chi2|free": {
+    "planted": 222,
+    "found_at_zero": 222,
+    "at_the_planted_point": 137,
+    "at_the_planted_height": 222,
+    "largest_statistic": 1.4551915228366852e-11,
+    "holds": true
+   },
+   "chi2_targets_per_second_three_menus": 235.33983915813673,
+   "wf|seat": {
+    "planted": 222,
+    "found_at_zero": 222,
+    "at_the_planted_point": 222,
+    "at_the_planted_height": 222,
+    "largest_statistic": 0.0,
+    "holds": true
+   },
+   "wf|cov": {
+    "planted": 222,
+    "found_at_zero": 222,
+    "at_the_planted_point": 222,
+    "at_the_planted_height": 222,
+    "largest_statistic": 0.0,
+    "holds": true
+   },
+   "wf|free": {
+    "planted": 222,
+    "found_at_zero": 222,
+    "at_the_planted_point": 222,
+    "at_the_planted_height": 222,
+    "largest_statistic": 0.0,
+    "holds": true
+   },
+   "wf_targets_per_second_three_menus": 238.78556816669374,
+   "holds": true
+  },
+  "K2": {
+   "chi2|seat|bottom|planted in layer 1": {
+    "planted": 1536,
+    "fitted_at_zero_with_every_row": 1536,
+    "lost_without_layer_1": 1536,
+    "expected": "all",
+    "holds": true
+   },
+   "chi2|cov|bottom|planted in layer 1": {
+    "planted": 1536,
+    "fitted_at_zero_with_every_row": 1536,
+    "lost_without_layer_1": 1536,
+    "expected": "all",
+    "holds": true
+   },
+   "chi2|free|bottom|planted in layer 1": {
+    "planted": 1536,
+    "fitted_at_zero_with_every_row": 1536,
+    "lost_without_layer_1": 1536,
+    "expected": "all",
+    "holds": true
+   },
+   "chi2|seat|bottom|planted in layer 3": {
+    "planted": 1536,
+    "fitted_at_zero_with_every_row": 1536,
+    "lost_without_layer_1": 0,
+    "expected": "none",
+    "holds": true
+   },
+   "chi2|cov|bottom|planted in layer 3": {
+    "planted": 1536,
+    "fitted_at_zero_with_every_row": 1536,
+    "lost_without_layer_1": 0,
+    "expected": "none",
+    "holds": true
+   },
+   "chi2|free|bottom|planted in layer 3": {
+    "planted": 1536,
+    "fitted_at_zero_with_every_row": 1536,
+    "lost_without_layer_1": 0,
+    "expected": "none",
+    "holds": true
+   },
+   "chi2|seat|top|planted in layer 1": {
+    "planted": 1440,
+    "fitted_at_zero_with_every_row": 1440,
+    "lost_without_layer_1": 1440,
+    "expected": "all",
+    "holds": true
+   },
+   "chi2|cov|top|planted in layer 1": {
+    "planted": 1440,
+    "fitted_at_zero_with_every_row": 1440,
+    "lost_without_layer_1": 1440,
+    "expected": "all",
+    "holds": true
+   },
+   "chi2|free|top|planted in layer 1": {
+    "planted": 1440,
+    "fitted_at_zero_with_every_row": 1440,
+    "lost_without_layer_1": 1440,
+    "expected": "all",
+    "holds": true
+   },
+   "chi2|seat|top|planted in layer 3": {
+    "planted": 1440,
+    "fitted_at_zero_with_every_row": 1440,
+    "lost_without_layer_1": 0,
+    "expected": "none",
+    "holds": true
+   },
+   "chi2|cov|top|planted in layer 3": {
+    "planted": 1440,
+    "fitted_at_zero_with_every_row": 1440,
+    "lost_without_layer_1": 0,
+    "expected": "none",
+    "holds": true
+   },
+   "chi2|free|top|planted in layer 3": {
+    "planted": 1440,
+    "fitted_at_zero_with_every_row": 1440,
+    "lost_without_layer_1": 0,
+    "expected": "none",
+    "holds": true
+   },
+   "chi2_holds": true,
+   "wf|seat|bottom|planted in layer 1": {
+    "planted": 1536,
+    "fitted_at_zero_with_every_row": 1536,
+    "lost_without_layer_1": 1536,
+    "expected": "all",
+    "holds": true
+   },
+   "wf|cov|bottom|planted in layer 1": {
+    "planted": 1536,
+    "fitted_at_zero_with_every_row": 1536,
+    "lost_without_layer_1": 1536,
+    "expected": "all",
+    "holds": true
+   },
+   "wf|free|bottom|planted in layer 1": {
+    "planted": 1536,
+    "fitted_at_zero_with_every_row": 1536,
+    "lost_without_layer_1": 1536,
+    "expected": "all",
+    "holds": true
+   },
+   "wf|seat|bottom|planted in layer 3": {
+    "planted": 1536,
+    "fitted_at_zero_with_every_row": 1536,
+    "lost_without_layer_1": 0,
+    "expected": "none",
+    "holds": true
+   },
+   "wf|cov|bottom|planted in layer 3": {
+    "planted": 1536,
+    "fitted_at_zero_with_every_row": 1536,
+    "lost_without_layer_1": 0,
+    "expected": "none",
+    "holds": true
+   },
+   "wf|free|bottom|planted in layer 3": {
+    "planted": 1536,
+    "fitted_at_zero_with_every_row": 1536,
+    "lost_without_layer_1": 0,
+    "expected": "none",
+    "holds": true
+   },
+   "wf|seat|top|planted in layer 1": {
+    "planted": 1440,
+    "fitted_at_zero_with_every_row": 1440,
+    "lost_without_layer_1": 1440,
+    "expected": "all",
+    "holds": true
+   },
+   "wf|cov|top|planted in layer 1": {
+    "planted": 1440,
+    "fitted_at_zero_with_every_row": 1440,
+    "lost_without_layer_1": 1440,
+    "expected": "all",
+    "holds": true
+   },
+   "wf|free|top|planted in layer 1": {
+    "planted": 1440,
+    "fitted_at_zero_with_every_row": 1440,
+    "lost_without_layer_1": 1440,
+    "expected": "all",
+    "holds": true
+   },
+   "wf|seat|top|planted in layer 3": {
+    "planted": 1440,
+    "fitted_at_zero_with_every_row": 1440,
+    "lost_without_layer_1": 0,
+    "expected": "none",
+    "holds": true
+   },
+   "wf|cov|top|planted in layer 3": {
+    "planted": 1440,
+    "fitted_at_zero_with_every_row": 1440,
+    "lost_without_layer_1": 0,
+    "expected": "none",
+    "holds": true
+   },
+   "wf|free|top|planted in layer 3": {
+    "planted": 1440,
+    "fitted_at_zero_with_every_row": 1440,
+    "lost_without_layer_1": 0,
+    "expected": "none",
+    "holds": true
+   },
+   "wf_holds": true
+  },
+  "K3": {
+   "chi2|bottom": {
+    "planted": 1536,
+    "dropped_as_twins": 0,
+    "landed_on_the_nearest_layer_left": 1214,
+    "share": 0.7903645833333334,
+    "ci95": [
+     0.7691369327211746,
+     0.8104759944339432
+    ],
+    "landed_on_the_far_end": 0,
+    "rows_share_of_that_layer_in_the_narrowed_window": 0.09937888198757763,
+    "ratio": 7.953043619791668
+   },
+   "chi2|top": {
+    "planted": 1440,
+    "dropped_as_twins": 0,
+    "landed_on_the_nearest_layer_left": 1094,
+    "share": 0.7597222222222222,
+    "ci95": [
+     0.7367908769168889,
+     0.7815889773125936
+    ],
+    "landed_on_the_far_end": 38,
+    "rows_share_of_that_layer_in_the_narrowed_window": 0.09316770186335403,
+    "ratio": 8.154351851851851
+   },
+   "wf|bottom": {
+    "planted": 1536,
+    "dropped_as_twins": 0,
+    "landed_on_the_nearest_layer_left": 1316,
+    "share": 0.8567708333333334,
+    "ci95": [
+     0.8382453917260797,
+     0.8739202324749915
+    ],
+    "landed_on_the_far_end": 0,
+    "rows_share_of_that_layer_in_the_narrowed_window": 0.09937888198757763,
+    "ratio": 8.621256510416668
+   },
+   "wf|top": {
+    "planted": 1440,
+    "dropped_as_twins": 0,
+    "landed_on_the_nearest_layer_left": 1004,
+    "share": 0.6972222222222222,
+    "ci95": [
+     0.6727591185224414,
+     0.7208780584628247
+    ],
+    "landed_on_the_far_end": 88,
+    "rows_share_of_that_layer_in_the_narrowed_window": 0.09316770186335403,
+    "ratio": 7.483518518518519
+   }
+  },
+  "rows_with_an_exact_twin": 0,
+  "seconds": 192.7097270488739
+ },
+ "K1_holds": true
+}
