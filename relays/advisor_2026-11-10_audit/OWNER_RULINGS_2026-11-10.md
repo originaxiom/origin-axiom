@@ -341,6 +341,7 @@ relayed. From here this file follows that form and this seat asks him nothing.
 | the last line of the seat's answer to that question: "I can also build the visual version as a read-only page from the same files; I have not started it." | "doit" |
 | nothing: a question of his own, after the seat handed the page over | "is main working focused or is it doing unecesary stuff?" |
 | the seat's answer to that, whose first proposal was to close the clean-up packages the card waits on before opening anything else | "should you be the one who does the thst task fully, while main banks and verifies?" |
+| the seat's answer to that, package by package, with its condition that the word go from him to main | "i asked main too, we wait for it" |
 
 The seat answered the first from main's own generated files (`tools/where_we_stand.py`) and relayed the question and
 the answer to main in `ADVISOR_TO_CC_2026-11-11_SIX_ITEMS.md`, § 4. On the second it built the page (`scoreboard/`)
@@ -348,7 +349,8 @@ and relayed his word and what was built in `ADVISOR_TO_CC_2026-11-11_THE_SCOREBO
 from main's own log, register and programme, and relayed the question, the counts and the answer in
 `ADVISOR_TO_CC_2026-11-11_THE_OWNER_ASKED_WHETHER_MAIN_IS_FOCUSED.md`. The fourth it answered package by package, and
 relayed in § 6 of the same note. It read "that task" as the nine clean-up packages and said so. He was asked nothing,
-and the seat starts none of it: the word is his to give to main (P-768).
+and the seat starts none of it: the word is his to give to main (P-768). On the fifth the seat waits: it starts no
+package and sends no new note until main has answered him.
 
 ## The roles
 
