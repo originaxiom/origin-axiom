@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1583** |
-| words of findings prose | **1,372,431** |
+| research arcs with findings | **1585** |
+| words of findings prose | **1,374,593** |
 | test lock files referenced | **940** |
-| arcs carrying an authored verdict | **1583** (100.0 %) |
+| arcs carrying an authored verdict | **1585** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1092 |
+| PROVED | 1094 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1881`** (2841 words, 0 locks)  
-THE WEB SEAT'S TWO RELAYS OF 2026-11-11 ON THE MISSING READ-OUT OF THE WHOLE, VERIFIED ON MAIN WITH MAIN'S OWN CODE (P-776; B1872 § 3, B1875 § 7; data-free; 65 checks, none failing; nothing selected and nothing compared): (A) WHAT SYMMETRY ALLOWS A STATE OF THE WHOLE -- a function unchanged by a group of symmetries is greatest on a set the group carries to itself, so it is greatest at one point only where every symmetry fixes that point; at level 5, with the mark of the golden ground: the moves keeping one twin up to sign have index 12, cusp widths 1, 1, 5, 5 and no elliptic point; those keeping the line have index 6, widths 1, 5 and two elliptic points; the dual involution has exactly two fixed points, of discriminant -20, at t = +5 sqrt 5 and -5 sqrt 5 for t = (eta(tau)/eta(5 tau))^6, and with the mirror it fixes the circle |t|^2 = 125; with two acts and one twin as the mark no point is fixed by every symmetry and exactly three pairs exist; with the line as the mark, two points; with the tick an act the mark's mirror is a move and what is left is an arc with those two points as its ends; the ten points where the torus is isomorphic to its quotient by the marked line are the roots of (t^2-125)(t^2+22t+125)(t^2+4t+125)(t^2+18t+125)(t^2-14t+125), of discriminants -20, -4, -16, -11, -19. (B) THE READ-OUT AS A VALUE, in the record's flat-fibre instrument -- as the golden gaps lengthen a history reads the own value of its deepest departure; a run of n keeps the line exactly when n = 1 mod 5 and its own value is (n-1)/2 + sqrt5/2, so the allowed readings have a least, sqrt5/2, and no greatest; at short gaps the apex can sit at the shallower of two departures and a composite can read below its factor; every printed number reproduced. MAIN ADDS: the rate is derived (one golden period is x -> 1/(1 + 1/(1 + x)), with derivative phi^-4 at its fixed point), where the seat observed it; the seat's convention and B1872's name one allowed set (47,988 run sequences, no exception); and a criterion, main's reading and not a result -- with the tick an act an outcome of the whole is either a point the mirror fixes or a pair it exchanges, and 'only even ticks are observed', which the owner ruled the weight must deliver, is delivered exactly when the outcome is such a pair; on the arc that excludes its two ends. Symmetry confines a single outcome and the greatest has none: neither places a value. 0 of 19.  
-`B1881_the_whole_and_the_value_verified/FINDINGS.md`
+**PROVED — `B1884`** (1159 words, 0 locks)  
+THE WEB SEAT'S SEALED CARD ON WHAT LEVEL A GROUND NAMES, VERIFIED ON MAIN (a thread result on the ground; integers; 17 checks, none failing; for the foundation's entry on the ground, P-767): the tick F, add and exchange, has F^2 the ground and determinant -1; det(F - I) = -1 and det(F + I) = 1, so the tick keeps no vector up to sign at any level, by hand and by brute force to N = 200, while its square keeps four at N = 5 and none elsewhere; for determinant -1 and trace s the two determinants are -s and s (checked on all 87 non-negative matrices of determinant -1 with entries to 8), so among histories with an odd number of ticks only the tick and its other side have no line of their own; the lines kept as sets by the tick and by its square are as many as the roots of x^2 - x - 1 modulo N -- exactly one at N = 5 and at no other N to 200, two at 11, 19, 29 and on -- so 'a canonical invariant' selects 5 only when it means the only invariant line; at level 5 the tick moves its line's four vectors in one orbit and exchanges the twins. So the tick has its level by the discriminant, which it shares with its square, and not by the rule of own lines, which gives it none; the foundation's entry for the ground is to say which reading it uses, and given the ground and that reading the level is not a further input. The same counts hold in main's own convention. Nothing leaves the budget: the ground is a postulate. 0 of 19.  
+`B1884_what_level_a_ground_names_verified/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  

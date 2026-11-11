@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.64) of 2026-11-10 |
-| arcs with a verdict | 1583: 1092 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 780: 268 open (queued, leads, waiting for the owner), 512 closed |
+| arcs with a verdict | 1585: 1094 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
+| points in the register | 781: 269 open (queued, leads, waiting for the owner), 512 closed |
 | the last review | Review 78 (2026-11-11), anchor `38d2a36dc` |
-| the last landing | S306p TWO SEATS HARVESTED AND VERIFIED: THE ADVISOR SEAT'S THIRD AND FOURTH RE-AUDITS ANSWERED (B1880), AND THE WEB SEAT'S TWO RELAYS ON THE READ-OUT… |
+| the last landing | S306p THE TEAM'S MORNING HARVESTED: A STATUS PAGE (B1883), THE GROUND'S LEVEL VERIFIED (B1884), THE V1 CARD SEALED FOR ITS RUN (B1882), TWO AGY BRANC… |
 <!-- STATE:END -->
 
 ## Start here

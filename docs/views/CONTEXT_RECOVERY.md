@@ -13,24 +13,26 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1583 |
-| … PROVED | 1092 |
+| arcs with a verdict file | 1585 |
+| … PROVED | 1094 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 780 |
-| … QUEUED | 260 |
+| register points | 781 |
+| … QUEUED | 261 |
 | … LEAD | 4 |
 | … OWNER | 4 |
 | … DONE | 500 |
 | … DECLINED | 12 |
-| harvest rows (the last number) | 1675 |
+| harvest rows (the last number) | 1686 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1884 | PROVED | THE WEB SEAT'S SEALED CARD ON WHAT LEVEL A GROUND NAMES, VERIFIED ON MAIN (a thread result on the ground; integers; 17 checks, none failing; for the foundation's entry on the ground, P-767): the tick F, add and exchange… |
+| B1883 | PROVED | WHERE WE STAND: HOW FAR THE RECORD IS FROM THE FINAL READING, AS ONE GENERATED PAGE (an instrument, at the owner's question of 2026-11-11, 'how far are we from ... 100% ready for the final reading? the dynamic scoreboar… |
 | B1881 | PROVED | THE WEB SEAT'S TWO RELAYS OF 2026-11-11 ON THE MISSING READ-OUT OF THE WHOLE, VERIFIED ON MAIN WITH MAIN'S OWN CODE (P-776; B1872 § 3, B1875 § 7; data-free; 65 checks, none failing; nothing selected and nothing compared… |
 | B1880 | PROVED | THE ADVISOR SEAT'S THIRD AND FOURTH RE-AUDITS OF MAIN, HARVESTED, REPRODUCED AND ANSWERED (re-audit 3 of main at b28dceea8, re-audit 4 at 015be0cc7; data-free, gates and the programme's builder only): every residual the… |
 | B1879 | PROVED | THE WEAVE'S THEOREMS WITH THE EXCHANGE ADDED: THE COMPUTATION THE OWNER ASKED FOR BEFORE DECIDING HOW 'THE TICK IS AN ACT' STANDS WITH 'EVEN TICKS OBSERVED' (P-769, P-771; data-free; it decides nothing and says what eac… |
@@ -41,8 +43,6 @@
 | B1874 | PROVED | THE SCRIPTS A SEAL HASHED: MEASURED, AND GATED (the advisor seat's second re-audit, its planted case that no gate saw; bookkeeping only): 189 tracked lists of hashed files hold 1497 entries; 1430 verify against the trac… |
 | B1873 | PROVED | THE CLOSURE PROGRAMME READ BY A NON-AUTHOR: WHAT HELD, WHAT IS REPAIRED, WHAT IS OWED (the owner's word to fetch the advisor seat's read; bookkeeping only): the read's counts reproduce on main's own files, and its cause… |
 | B1872 | PROVED | 'ALL ALLOWED HISTORIES TOGETHER': THE WEB SEAT'S DEFINITION READ, AND ITS EXACT FACTS VERIFIED ON MAIN (the owner's confirmed ruling that the claim is about all allowed histories together; data-free, integers only; the… |
-| B1871 | PROVED | ONE TICK OR TWO ACTS: THE ADVISOR SEAT'S SEALED RUN VERIFIED ON MAIN, AND WHAT THE TICK DOES TO THE WEAVE'S THREE (P-769; data-free, integers and SnapPy; the seat's code not run): the seat's result holds in every part.… |
-| B1870 | PROVED | THE AUDIT'S BACKLOG, REPRODUCED ON MAIN (the owner's approval of one multi-agent run for it; bookkeeping only): of the 34 findings of the advisor seat's audit that nobody had reproduced on main, main's own re-runs of 16… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p THE TEAM'S MORNING HARVESTED: A STATUS PAGE (B1883), THE GROUND'S LEVEL VERIFIED (B1884), THE V1 CARD SEALED FOR ITS RUN (B1882), TWO AGY BRANCHES REGISTERED (P-781) (2026-11-11)
 - S306p TWO SEATS HARVESTED AND VERIFIED: THE ADVISOR SEAT'S THIRD AND FOURTH RE-AUDITS ANSWERED (B1880), AND THE WEB SEAT'S TWO RELAYS ON THE READ-OUT OF THE WHOLE VERIFIED (B1881) (2026-11-11)
 - S306p THE WEAVE'S THEOREMS WITH THE EXCHANGE ADDED, AND THE OWNER'S RULING ON IT: EVEN TICKS ARE A CONDITION TO DERIVE (B1879; P-769, P-771) (2026-11-11)
 - S306p THE GOAL AS THE OWNER RULED IT, IN THE GOVERNING DOCUMENTS; TWO GATES (B1878; P-767's first landing); THE SIX ARCS WHOSE SEALED SCRIPTS CHANGED, READ (P-772) (2026-11-11)
@@ -63,17 +64,16 @@
 - S306p TWO SEATS' SEALED RUNS VERIFIED ON MAIN: A SINGLE STATE IS NOT KEPT UNDER COMPOSITION (B1875); THE FOUR REMAINING ATTACKS ON THE PRINCIPLE'S DRAFT (B1876; P-774, P-775) (2026-11-11)
 - S306o (the re-audit's largest item) THE SCRIPTS A SEAL HASHED: MEASURED, AND GATED (B1874; P-772 in part) (2026-11-10)
 - S306o (at the owner's word) THE CLOSURE PROGRAMME READ BY A NON-AUTHOR: FOUR REPAIRS, THREE CORRECTIONS TO MAIN'S OWN RECORD, ONE DEBT (B1873; P-773) (2026-11-10)
-- S306o (later) THE OWNER'S RULING ON THE LAW'S READING; ONE TICK OR TWO ACTS VERIFIED (B1871); ALL HISTORIES TOGETHER DEFINED AND ITS FACTS VERIFIED (B1872) (2026-11-10)
 
 ## The latest campaign line
 
-LATEST (2026-11-11, S306p, later: TWO SEATS HARVESTED AND VERIFIED — B1880 AND B1881.** The owner asked what else was unharvested; at the fetch the advisor seat was two commits past its pin (its third and fourth re-audits of main; the third had sat fetched and unread for eight hours) and the web seat nine (two relays). **B1880:** every residual the re-audits planted is reproduced on main with the seat's own counts and nine are closed, each with its planted case as a committed test -- a copy can no longer stand in for a file a seal hashed; a frozen entry is held to the state it was found in; a list of hashed files is known by its content under any name (80 more lists, 750 entries; 342 that d…
+LATEST (2026-11-11, S306p, the third harvest of the day: B1882, B1883, B1884.** The advisor seat's six items, the web seat's third card and two new branches of the agy lane, taken in as far as main has read. **B1883:** a generated page says how far the record is from the final reading (frontier/B1883_where_we_stand/WHERE_WE_STAND.md): not ready; the sealed card not started; every number read from the programme, the map, the scoreboard and the register, and compared with its builder at every push. **B1884:** the web seat's card on what level a ground names is verified (17 checks): the tick has its level by its discriminant and not by the rule of own lines; exactly one line is kept as a set a…
 
 ## Completeness (nothing skipped silently)
 
 | check | count | first items |
 |---|---|---|
-| arc folders without a verdict file (scripts/checks/arc_data.py classifies them; its resolved R-classes are not defects) | 41 | B1840_the_principled_ends, B1842_the_closure_instruments, B263_t41_cs_levels, B452_ethogram_dictionary, B473_criticality_program, B501_universe_word |
-| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 158 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
+| arc folders without a verdict file (scripts/checks/arc_data.py classifies them; its resolved R-classes are not defects) | 42 | B1840_the_principled_ends, B1842_the_closure_instruments, B1882_the_v1_card_run_on_main, B263_t41_cs_levels, B452_ethogram_dictionary, B473_criticality_program |
+| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 160 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
 | register rows not in the 7-cell form | 0 | — |
 

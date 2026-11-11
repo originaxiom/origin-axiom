@@ -16339,6 +16339,36 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1883": {
+   "slug": "where we stand",
+   "motifs": [
+    "closing"
+   ],
+   "refs": [],
+   "obstacle": null,
+   "obstacle_conf": 0,
+   "status": "open",
+   "domain": "topology"
+  },
+  "B1884": {
+   "slug": "what level a ground names verified",
+   "motifs": [
+    "figure_eight",
+    "torsion"
+   ],
+   "refs": [
+    "H13",
+    "P0",
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B188": {
    "slug": "lindblad dissipative",
    "motifs": [
