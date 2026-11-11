@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.64) of 2026-11-10 |
-| arcs with a verdict | 1582: 1091 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 776: 260 open (queued, leads, waiting for the owner), 516 closed |
+| arcs with a verdict | 1583: 1092 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
+| points in the register | 776: 259 open (queued, leads, waiting for the owner), 517 closed |
 | the last review | Review 78 (2026-11-11), anchor `38d2a36dc` |
-| the last landing | S306r COMPLETE WEAVE-THEOREM RESTATEMENT FOR THE GROUP WITH THE EXCHANGE, AXIS MINKOWSKI EXPONENT ANSWERED, ADJOINT SETTLING PROVED, AND LEVEL-5 / VA… |
+| the last landing | S306t SEALED EXECUTION OF B1881 COMPLETED: WHOLE-SUBWEAVE TWIN-ODD MAASS SPECTRUM, GOLDEN-REGULATOR GROUND STATE, UNIQUE FRICKE-CIRCLE PEAK ORBIT, AN… |
 <!-- STATE:END -->
 
 ## Start here

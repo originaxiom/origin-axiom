@@ -13,16 +13,16 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1582 |
-| … PROVED | 1091 |
+| arcs with a verdict file | 1583 |
+| … PROVED | 1092 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
 | register points | 776 |
-| … QUEUED | 253 |
+| … QUEUED | 252 |
 | … LEAD | 4 |
 | … OWNER | 3 |
-| … DONE | 504 |
+| … DONE | 505 |
 | … DECLINED | 12 |
 | harvest rows (the last number) | 1673 |
 | the Standard Model's 19 derived | 0 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1881 | PROVED | P-776's pre-registered whole-subweave twin-odd hyperbolic Laplacian read-out on L^2_cusp(Gamma_0(5), chi_5) and auxiliary R10-A/B/C locks pass their two-commit sealed test (conditional weave result on stated choices, da… |
 | B1880 | PROVED | P-769's complete weave-theorem restatement, P-770's axis exponent questions, P-775's adjoint settling theorem, and the web seat's level-5 and flat-fibre value cards are proved and verified on main (data-free, 0 of 19):… |
 | B1879 | PROVED | RE-AUDIT 2 AND RE-AUDIT 3 ENFORCEMENT CLOSURE, REVIEW 78 APPEND-ONLY FIXES, THE JTHETA SWEEP COMPLETED, AND SUITE REPAIRS (P-154 and P-670 closed; P-772 (b)(c)(d)(f) and Re-Audit 3 t3, t4, t7, j4 and leaf-PV14 paid on m… |
 | B1878 | PROVED | THE GOAL AS THE OWNER RULED IT, CARRIED INTO THE GOVERNING DOCUMENTS; TWO GATES (the first landing of P-767: rulings R1 and R3 of the eleven confirmed to main on 2026-11-10; nothing computed, no status of the foundation… |
@@ -42,7 +43,6 @@
 | B1872 | PROVED | 'ALL ALLOWED HISTORIES TOGETHER': THE WEB SEAT'S DEFINITION READ, AND ITS EXACT FACTS VERIFIED ON MAIN (the owner's confirmed ruling that the claim is about all allowed histories together; data-free, integers only; the… |
 | B1871 | PROVED | ONE TICK OR TWO ACTS: THE ADVISOR SEAT'S SEALED RUN VERIFIED ON MAIN, AND WHAT THE TICK DOES TO THE WEAVE'S THREE (P-769; data-free, integers and SnapPy; the seat's code not run): the seat's result holds in every part.… |
 | B1870 | PROVED | THE AUDIT'S BACKLOG, REPRODUCED ON MAIN (the owner's approval of one multi-agent run for it; bookkeeping only): of the 34 findings of the advisor seat's audit that nobody had reproduced on main, main's own re-runs of 16… |
-| B1869 | PROVED | THE FOUNDING PRINCIPLE READ AS A SELECTION RULE: THE ADVISOR SEAT'S SEALED RUN RE-DERIVED ON MAIN (the owner's confirmed ruling to try it; P-762; data-free, exact integers, exhaustive to 20 letters; the seat's code not… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -55,18 +55,18 @@
 
 ## The last landings (CHANGELOG)
 
+- S306t SEALED EXECUTION OF B1881 COMPLETED: WHOLE-SUBWEAVE TWIN-ODD MAASS SPECTRUM, GOLDEN-REGULATOR GROUND STATE, UNIQUE FRICKE-CIRCLE PEAK ORBIT, AND OUT-OF-SAMPLE FR-FIB HIERARCHY TEST (P-776, P-76…
+- S306s (seal) B1881 PRE-REGISTERED AND HASH-PINNED BEFORE EXECUTION: WHOLE-SUBWEAVE TWIN-ODD HYPERBOLIC LAPLACIAN OPERATOR, R10-A/B/C LOCKS, AND DATA-FREE FR-FIB HIERARCHY TEST (P-776, P-761) (2026-11…
 - S306r COMPLETE WEAVE-THEOREM RESTATEMENT FOR THE GROUP WITH THE EXCHANGE, AXIS MINKOWSKI EXPONENT ANSWERED, ADJOINT SETTLING PROVED, AND LEVEL-5 / VALUE CARDS VERIFIED (B1880; P-769, P-770, P-775) (2…
 - S306q RE-AUDIT 2 AND RE-AUDIT 3 ENFORCEMENT CLOSURE, REVIEW 78 APPEND-ONLY FIXES, THE JTHETA SWEEP COMPLETED, AND SUITE REPAIRS (B1879; P-154, P-670, P-772, P-757) (2026-11-11)
 - S306p THE GOAL AS THE OWNER RULED IT, IN THE GOVERNING DOCUMENTS; TWO GATES (B1878; P-767's first landing); THE SIX ARCS WHOSE SEALED SCRIPTS CHANGED, READ (P-772) (2026-11-11)
 - S306p REVIEW 78, THE DECADAL REVIEW (B1877); THE OWNER'S RULINGS OF 2026-11-11 (P-771, P-774) (2026-11-11)
 - S306p TWO SEATS' SEALED RUNS VERIFIED ON MAIN: A SINGLE STATE IS NOT KEPT UNDER COMPOSITION (B1875); THE FOUR REMAINING ATTACKS ON THE PRINCIPLE'S DRAFT (B1876; P-774, P-775) (2026-11-11)
 - S306o (the re-audit's largest item) THE SCRIPTS A SEAL HASHED: MEASURED, AND GATED (B1874; P-772 in part) (2026-11-10)
-- S306o (at the owner's word) THE CLOSURE PROGRAMME READ BY A NON-AUTHOR: FOUR REPAIRS, THREE CORRECTIONS TO MAIN'S OWN RECORD, ONE DEBT (B1873; P-773) (2026-11-10)
-- S306o (later) THE OWNER'S RULING ON THE LAW'S READING; ONE TICK OR TWO ACTS VERIFIED (B1871); ALL HISTORIES TOGETHER DEFINED AND ITS FACTS VERIFIED (B1872) (2026-11-10)
 
 ## The latest campaign line
 
-LATEST (2026-11-11, S306p: B1878 — THE GOAL AS THE OWNER RULED IT, IN THE GOVERNING DOCUMENTS (P-767's first landing): GOVERNANCE.md states that the programme's only goal is a parameter-free theory of everything, the sentence it replaces kept beside a dated note; the ceiling is unchanged (a goal says what is sought; 0 of 19); its label and firewall are brought to the foundation's statuses; one document governs, with GENESIS.md holding on statuses by its delegation. Two gates: `arrival-phrases` fails on a sentence of arrival on a living page (the audit's planted sentence refused), and `attribution` now reads every commit message after `da25c4f49`. Also: the six arcs whose sealed scripts chan…
+LATEST (2026-11-11, S306t: B1881 — THE WHOLE-SUBWEAVE TWIN-ODD HYPERBOLIC LAPLACIAN OPERATOR DESIGNED, SEALED BEFORE RUNNING (`8aafb6945`), AND EXECUTED (`P-776` closed, data-free, 0 of 19). On $X_1(5)$ (index 12) and $X_0(5)$ (index 6), the sector odd under exchanging the twins is $L^2_{\text{cusp}}(\Gamma_0(5), \chi_5)$ (zero mode excluded, oldspace identically zero). Proved by symmetry before running and confirmed across 27 eigenstates (15 newform clusters in $R \in [0.8, 11.0]$): every state vanishes at both order-2 elliptic points; skew-adjoint inert Hecke operators $T_p$ ($p \equiv \pm 2 \pmod 5$) anticommute with Fricke $W_5$, splitting newforms into Class A non-degenerate $\mathbb{Q…
 
 ## Completeness (nothing skipped silently)
 

@@ -16322,6 +16322,28 @@
    "status": "banked",
    "domain": "arithmetic"
   },
+  "B1881": {
+   "slug": "p776 twin odd operator and whole subweave readout",
+   "motifs": [
+    "feedback",
+    "kappa",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum",
+    "firewall"
+   ],
+   "refs": [
+    "H1",
+    "H3",
+    "H4"
+   ],
+   "obstacle": "particle_dict",
+   "obstacle_conf": 9,
+   "status": "banked",
+   "domain": "arithmetic"
+  },
   "B188": {
    "slug": "lindblad dissipative",
    "motifs": [

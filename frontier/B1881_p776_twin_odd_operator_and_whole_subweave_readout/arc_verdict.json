@@ -1,0 +1,11 @@
+{
+  "arc_dir": "B1881_p776_twin_odd_operator_and_whole_subweave_readout",
+  "claim_one_line": "P-776's pre-registered whole-subweave twin-odd hyperbolic Laplacian read-out on L^2_cusp(Gamma_0(5), chi_5) and auxiliary R10-A/B/C locks pass their two-commit sealed test (conditional weave result on stated choices, data-free, 0 of 19): the ground state is the non-degenerate Class A Q(sqrt 5) real-multiplication singleton R_1 = pi/(2 ln phi) = 3.264251302636499 (eps_J = eps_5 = -1, c_2 = c_3 = c_6 = 0, c_4 = +1, c_5 = -1; lowest Class B Kramers doublet R_2 = 4.893781291438453), forced to vanish at both elliptic points and mirror lines, with a unique global peak orbit on the Fricke circle C_0 at tau_Maass* = 0.25153978 + 0.36976714i (orbit size 2 on X_0(5), 4 on X_1(5), reducing to -+0.25769889 + 1.84883572i in F_SL2(Z)), where 2 of 96 unmodified FR-FIB H=I configurations clear bounded S-DECADE and |J| > 1e-8 under (S, S, S) at L_2 on (1/5, 0) and (2/5, 0) while 0 of 96 pass under (St, S, S).",
+  "date": "2026-11-11",
+  "id": "B1881",
+  "locks": [
+    "frontier/B1881_p776_twin_odd_operator_and_whole_subweave_readout/verification/subweave_p776_and_hierarchy.py",
+    "tests/test_b1881_p776_whole_subweave_readout.py"
+  ],
+  "verdict": "PROVED"
+}

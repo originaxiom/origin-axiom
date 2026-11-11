@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1582** |
-| words of findings prose | **1,368,806** |
-| test lock files referenced | **942** |
-| arcs carrying an authored verdict | **1582** (100.0 %) |
+| research arcs with findings | **1583** |
+| words of findings prose | **1,371,018** |
+| test lock files referenced | **943** |
+| arcs carrying an authored verdict | **1583** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1091 |
+| PROVED | 1092 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1880`** (2825 words, 1 locks)  
-P-769's complete weave-theorem restatement, P-770's axis exponent questions, P-775's adjoint settling theorem, and the web seat's level-5 and flat-fibre value cards are proved and verified on main (data-free, 0 of 19): {F, F'}^{2k} bijects onto {L, R}^{2k} while <L, R, P> = GL_2(Z) preserves 8 weave theorems + B1866 verbatim and changes W:T/W:G96 (G_96 -> G_192 fusing 3 (+) 3bar -> 6), W:INDEX3, B1859 (doubling at N in {3,4,6,7,8,9,11,12}), and B1872 (X_1(5) index 12 -> X_0(5) index 6) outside even ticks; alpha(1/y)=alpha(y), alpha(sqrt(3/2))=0.97220 != alpha(sqrt(6))=0.98905, alpha(phi)=0.98084 < 1; hyperbolic settling rate (5+sqrt(21))/2 (golden), 9+4*sqrt(5) (silver), 54.06268 (bronze) proved via Goldman symplecticity vs flat-fibre phi^4 with unbounded depths (n-1)/2+sqrt(5)/2.  
-`B1880_p769_weave_theorems_p770_p775_and_value_card/FINDINGS.md`
+**PROVED — `B1881`** (2212 words, 1 locks)  
+P-776's pre-registered whole-subweave twin-odd hyperbolic Laplacian read-out on L^2_cusp(Gamma_0(5), chi_5) and auxiliary R10-A/B/C locks pass their two-commit sealed test (conditional weave result on stated choices, data-free, 0 of 19): the ground state is the non-degenerate Class A Q(sqrt 5) real-multiplication singleton R_1 = pi/(2 ln phi) = 3.264251302636499 (eps_J = eps_5 = -1, c_2 = c_3 = c_6 = 0, c_4 = +1, c_5 = -1; lowest Class B Kramers doublet R_2 = 4.893781291438453), forced to vanish at both elliptic points and mirror lines, with a unique global peak orbit on the Fricke circle C_0 at tau_Maass* = 0.25153978 + 0.36976714i (orbit size 2 on X_0(5), 4 on X_1(5), reducing to -+0.25769889 + 1.84883572i in F_SL2(Z)), where 2 of 96 unmodified FR-FIB H=I configurations clear bounded S-DECADE and |J| > 1e-8 under (S, S, S) at L_2 on (1/5, 0) and (2/5, 0) while 0 of 96 pass under (St, S, S).  
+`B1881_p776_twin_odd_operator_and_whole_subweave_readout/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  
