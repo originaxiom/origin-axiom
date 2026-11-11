@@ -1,0 +1,19 @@
+C2
+    roots 240; d5 roots 40; a2 roots 6; H orthogonal to both: True
+    (0,..,1,1,1) in E8: False; H in E8: True; spinor roots with even minus signs in the first five: 64 = 16 + 48; H pairs [Fraction(3, 1)] and [Fraction(-1, 1)]
+C3
+    nonzero A4 vectors with (1/2)|h|^2 <= 12: 1350; least (1/2)|h|^2 with |h_1| = N: {1: '1', 2: '3', 3: '6', 4: '10'}; Phi(L^6RLR) = -2, Phi(L^5RL^2R^2) = -1
+C4
+    signature (1, 9); det Q = -1; F^2 = 0; S0^2 = -1; S0.F = 1; alphas orthogonal to F and S0: True; Gram = -Cartan(E8) up to order: True; det = 1; roots 240
+    chi = 3 + 9 = 12; C^2 = 35; C.K = -5; genus 16; C.F = 5; ramification over P^1 = 40; flux pairs 9
+D
+    the four grades match (10,5), (10b,5b), (5,10b), (5b,10) with the chains as listed and reversed
+    the four grades match (10,5), (10b,5b), (5,10b), (5b,10) with the chains reversed and as listed
+    simple roots valid: True; grade sizes by the coefficient of the node of mark 5 modulo 5: {0: 40, 1: 50, 2: 50, 3: 50, 4: 50}; roots in grade 0: 40; control (node of mark 6): {0: 38, 1: 36, 2: 45, 3: 40, 4: 45, 5: 36}
+    charges: 10 x 10 x phi(3): True; 10 x 5b x phi(2): True; 2 q_S = 0 forces q_S in [0]; 5b x S x phi(3): True
+
+C2: REPRODUCED
+C3: NOT REPRODUCED
+C4: REPRODUCED
+D: REPRODUCED
+CONTROLS: as they must
