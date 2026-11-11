@@ -443,6 +443,17 @@ repositories, and none of their commits, about 525, is in its chain. What bridge
 the seat read, and what it would do are in `OPINION_ON_THE_REPOSITORY_2026-11-11.md`, § 12. The seat did not look at
 the four earlier repositories: they are outside what its session may read. He was asked nothing.
 
+| what he was answering | his words |
+|---|---|
+| the seat's account of the cut of 2026-05-22 and the four earlier repositories | "no no, its all ok with old archived ones, i was worried that after starting this current origin axiom we broke the chain, and i believe agy pointed it out, the one who wrote the recomendation you digested. can u check it if theres something there, or i misunderstood while fast reading" |
+
+**What he stated:** the four earlier repositories are in order. **What he asked:** whether the chain was broken after
+this repository was started, as he believed the agy lane had said. The seat checked the lane's reports and the
+history itself and answered: the lane wrote about a separate distilled copy of four commits, `oa-distill`, as the
+reason not to publish a copy without history; it did not say this repository's chain is broken; and by eight checks
+it is not. Written out in `OPINION_ON_THE_REPOSITORY_2026-11-11.md`, § 13, with the script and its output in
+`chain_check/`. He was asked nothing.
+
 ## The roles
 
 The owner, the same day: this seat "will serve as an advisor for cc - the banking seat"; when cc is ready the reports

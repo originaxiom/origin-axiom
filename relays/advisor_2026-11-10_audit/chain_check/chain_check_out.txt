@@ -1,0 +1,10 @@
+checked at origin/main = e6298271a
+1. a full clone: yes
+2. commits: 4163; on main's own line: 2993; first commits (no parent): 1 -- 517783f2f 2026-05-22 Initialize the Origin Axiom canonical repository
+3. merges: 733; of them joining two histories with no common ancestor: 0
+4. commits on main's own line dated before their parent: 0; the longest pause: 13.0 days, from 2026-09-18 to 2026-10-01
+5. main's own line around the distilled repository's dates (its head is dated 2026-09-03): 08-29: 15, 08-30: 23, 08-31: 28, 09-01: 4, 09-02: 7, 09-03: 4, 09-04: 2, 09-05: 9, 09-06: 40, 09-07: 3, 09-08: 13
+6. tags: 29.  Marking a commit that is in main's history: 15, dated 2026-05-22 to 2026-10-20.  Not in it: 14, of which 14 are named archive/ or retired/ (seats' branches kept as tags); others: none
+7. commit ids typed into the two logs and the progress pages at the time (7 pages, 128 ids): in main's history: 85; in the repository, on a seat's branch or tag: 39; not found: 4
+   not found: fa6195c1 (PROGRESS_LOG.md:16369); c8135212 (CHANGELOG.md:919); 370f26bd3 (CHANGELOG.md:1450); 884e825f (CHANGELOG.md:13623)
+8. the distilled repository's head, 1002235a8, in this repository: no; refs on any remote that name 'distill': 0

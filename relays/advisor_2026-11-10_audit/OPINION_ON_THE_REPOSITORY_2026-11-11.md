@@ -467,3 +467,66 @@ this session may read.
 - **This is the cut not to make again.** § 9's rule, never two places of work, is the same lesson: the public
   package is a release of this repository and does not start a history of its own work.
 
+## 13. The distilled repository of September, and whether this repository's chain was broken: it was not
+
+The owner corrected § 12 as well: the four earlier repositories are in order. His worry was that the chain was
+broken **after** this repository was started, and he believed the agy lane had pointed it out. The seat checked the
+lane's reports and then the history itself. The checks are one script, `chain_check/chain_check.py`, with its output
+beside it; it was written after the answers were seen and says so.
+
+### 13.1 What the agy lane wrote
+
+| where | its words |
+|---|---|
+| its X-ray, the header | "Companion Distill Checkout (Read-Only): `oa-distill-2026-11-10` (`HEAD = 1002235`, `2026-09-03`, `4` commits)" |
+| its X-ray, the diagram | "`oa-distill/main` (1002235, 2026-09-03): Stale 4-Commit Rewrite Attempt (Frozen at B1485)" |
+| its blueprint, the four options | "Option 2: Rewrite History (`oa-distill` `1002235` Model)" … "Destroys git seal history (fatal flaw of `oa-distill`)" |
+| its blueprint, the summary | "why `oa-distill` `1002235`'s history-erasing model also fails" |
+
+**So the lane wrote about a separate repository, `oa-distill`,** a distilled copy of four commits, and gave it as the
+reason not to make a copy without history the public repository. It did not write that this repository's chain is
+broken. The two were easy to run together on a fast read.
+
+### 13.2 What main's record says that repository was
+
+Review 46: "the distillation proposal (lab + curated-repo split) is REGISTERED, PENDING the owner's go — nothing
+outward moves"; then "the distillation skeleton: built in-lab, held blind for the owner". Review 54, of 2026-09-03,
+names "oa-distill's STATEMENTS.md, omission real at 09-02T18:21, fixed by `1002235` at 09-03T12:18". A skeleton built
+beside this repository, not a rewriting of it. The log also holds the rule: "history rewrites are owner-only".
+
+### 13.3 What this repository's history shows (main at `e6298271a`)
+
+| check | read |
+|---|---|
+| first commits | one, of 2026-05-22 |
+| merges that join two histories with no common ancestor | 0 of 733 |
+| main's own line around 2026-09-02 and 09-03 | commits every day from 08-29 to 09-08 |
+| commits on main's own line dated before their parent | 0 of 2,993 |
+| tags that mark a point of main's line | 15, dated 2026-05-22 to 2026-10-20: every one is still in main's history |
+| the other 14 tags | all named `archive/` or `retired/`: seats' branches kept as tags, never merged |
+| commit ids typed into the logs at the time | 128: 85 in main's history, 39 on seats' branches or tags, 4 not found |
+| the distilled repository's head, `1002235a8` | not in this repository, and no ref names it |
+
+Of the four ids not found, the changelog itself calls one a "pre-amend commit … (never published)"; the other three
+are single ids with no pattern.
+
+**The chain of this repository was not broken.** A rewriting leaves no mark in a graph, so the graph alone cannot
+prove there was none; what answers it is that the names given at the time, tags and ids from every month, are all
+still there. The host's own activity record would settle it beyond that, and only the owner can read it.
+
+### 13.4 Three small things
+
+- **One detail of the lane's description does not fit the dates.** It calls the copy "frozen at B1485" with a head of
+  2026-09-03; on main B1485 was first committed on 2026-10-06. The conclusion does not rest on it.
+- **Where that copy is now, this seat does not know.** It is not in this repository, and nothing outside it was
+  looked at. If it is public anywhere, a four-commit copy from September is what a visitor could mistake for the
+  claim.
+- **A correction to § 12.3, item 3.** The first commit is tagged. The progress page calls the tag
+  `phase0-governance-freeze`; on the remote it is `phaseA-foundation-freeze`. A name, not a missing tag.
+
+### 13.5 What it means for the public package
+
+The lane's objection to the September copy is right, and it is the same as § 9's rule from the other side: a copy
+that starts its own history carries none of the seals. The package of § 9 keeps them by pinning this repository, not
+by copying it.
+
