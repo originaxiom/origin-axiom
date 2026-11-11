@@ -13,24 +13,26 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1581 |
-| … PROVED | 1090 |
+| arcs with a verdict file | 1583 |
+| … PROVED | 1092 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 776 |
-| … QUEUED | 257 |
+| register points | 780 |
+| … QUEUED | 260 |
 | … LEAD | 4 |
-| … OWNER | 3 |
+| … OWNER | 4 |
 | … DONE | 500 |
 | … DECLINED | 12 |
-| harvest rows (the last number) | 1670 |
+| harvest rows (the last number) | 1675 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1881 | PROVED | THE WEB SEAT'S TWO RELAYS OF 2026-11-11 ON THE MISSING READ-OUT OF THE WHOLE, VERIFIED ON MAIN WITH MAIN'S OWN CODE (P-776; B1872 § 3, B1875 § 7; data-free; 65 checks, none failing; nothing selected and nothing compared… |
+| B1880 | PROVED | THE ADVISOR SEAT'S THIRD AND FOURTH RE-AUDITS OF MAIN, HARVESTED, REPRODUCED AND ANSWERED (re-audit 3 of main at b28dceea8, re-audit 4 at 015be0cc7; data-free, gates and the programme's builder only): every residual the… |
 | B1879 | PROVED | THE WEAVE'S THEOREMS WITH THE EXCHANGE ADDED: THE COMPUTATION THE OWNER ASKED FOR BEFORE DECIDING HOW 'THE TICK IS AN ACT' STANDS WITH 'EVEN TICKS OBSERVED' (P-769, P-771; data-free; it decides nothing and says what eac… |
 | B1878 | PROVED | THE GOAL AS THE OWNER RULED IT, CARRIED INTO THE GOVERNING DOCUMENTS; TWO GATES (the first landing of P-767: rulings R1 and R3 of the eleven confirmed to main on 2026-11-10; nothing computed, no status of the foundation… |
 | B1877 | PROVED | REVIEW 78 (run at the thirty-third commit after Review 77; S306o-S306p): three of Review 77's eight items resolved (what concentrates under the move count, B1868; the register-to-field join, B1866; the closure map and p… |
@@ -41,20 +43,20 @@
 | B1872 | PROVED | 'ALL ALLOWED HISTORIES TOGETHER': THE WEB SEAT'S DEFINITION READ, AND ITS EXACT FACTS VERIFIED ON MAIN (the owner's confirmed ruling that the claim is about all allowed histories together; data-free, integers only; the… |
 | B1871 | PROVED | ONE TICK OR TWO ACTS: THE ADVISOR SEAT'S SEALED RUN VERIFIED ON MAIN, AND WHAT THE TICK DOES TO THE WEAVE'S THREE (P-769; data-free, integers and SnapPy; the seat's code not run): the seat's result holds in every part.… |
 | B1870 | PROVED | THE AUDIT'S BACKLOG, REPRODUCED ON MAIN (the owner's approval of one multi-agent run for it; bookkeeping only): of the 34 findings of the advisor seat's audit that nobody had reproduced on main, main's own re-runs of 16… |
-| B1869 | PROVED | THE FOUNDING PRINCIPLE READ AS A SELECTION RULE: THE ADVISOR SEAT'S SEALED RUN RE-DERIVED ON MAIN (the owner's confirmed ruling to try it; P-762; data-free, exact integers, exhaustive to 20 letters; the seat's code not… |
-| B1868 | PROVED | WHAT CONCENTRATES UNDER THE MOVE COUNT: THE WEB SEAT'S SEALED CARD VERIFIED ON MAIN (P-756 (b), the modulus's side; data-free; the seat's code read and not run; main's own code and another method, a quadrature against M… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
 - ** P-081** — the reply to the outside reader, approached carefully so the contact is not lost: in his own context (one of his videos as the opening), short, honest about shapes-not-sizes and the missing field, the corrected PDF atta… → *a draft prepared outside the tree for the owner's edit (it opens from his 2021 explainer of the Standard Model's equation); the edit and the send are the owner…*
 - ** P-082** — a second outside reader, later, approached in his own context (relating to his videos), after the first correspondence → *later, at the owner's word; nothing prepared until then [2026-11-04, the owner confirmed: paused until a result passes a level-2 confirmation] [2026-11-11, the…*
 - ** P-253** — the chain gap's top entries (Review 67's R66-3, declined there because the chain is the frozen paper's spine): B1098, B959, B1100, B952, B1086, B1000, B1484, B1070 (coverage_candidates.py --chain-gap) — adjudicate each… → *asked of the owner: whether and when to open a draft after p9-draft9; until then the chain-gap list stays recorded here and nothing is due (S231) [earlier: Q3…*
+- ** P-779** — FIFTY-SIX OUTBOUND RELAYS OF MAIN'S, OF 2026-08-22 TO 2026-10-02, EXIST ONLY IN MAIN'S WORKING TREE (found on 2026-11-11 when the owner asked what else was unharvested): files in the repository's root, never committed,… → *main's recommendation: commit them under docs/handoffs/, where relays have lived since 2026-09-15, after a read of each for a name, a local path or export cont…*
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
 
 ## The last landings (CHANGELOG)
 
+- S306p TWO SEATS HARVESTED AND VERIFIED: THE ADVISOR SEAT'S THIRD AND FOURTH RE-AUDITS ANSWERED (B1880), AND THE WEB SEAT'S TWO RELAYS ON THE READ-OUT OF THE WHOLE VERIFIED (B1881) (2026-11-11)
 - S306p THE WEAVE'S THEOREMS WITH THE EXCHANGE ADDED, AND THE OWNER'S RULING ON IT: EVEN TICKS ARE A CONDITION TO DERIVE (B1879; P-769, P-771) (2026-11-11)
 - S306p THE GOAL AS THE OWNER RULED IT, IN THE GOVERNING DOCUMENTS; TWO GATES (B1878; P-767's first landing); THE SIX ARCS WHOSE SEALED SCRIPTS CHANGED, READ (P-772) (2026-11-11)
 - S306p REVIEW 78, THE DECADAL REVIEW (B1877); THE OWNER'S RULINGS OF 2026-11-11 (P-771, P-774) (2026-11-11)
@@ -62,11 +64,10 @@
 - S306o (the re-audit's largest item) THE SCRIPTS A SEAL HASHED: MEASURED, AND GATED (B1874; P-772 in part) (2026-11-10)
 - S306o (at the owner's word) THE CLOSURE PROGRAMME READ BY A NON-AUTHOR: FOUR REPAIRS, THREE CORRECTIONS TO MAIN'S OWN RECORD, ONE DEBT (B1873; P-773) (2026-11-10)
 - S306o (later) THE OWNER'S RULING ON THE LAW'S READING; ONE TICK OR TWO ACTS VERIFIED (B1871); ALL HISTORIES TOGETHER DEFINED AND ITS FACTS VERIFIED (B1872) (2026-11-10)
-- S306o (the owner's multi-agent run for the audit backlog) THE AUDIT'S BACKLOG REPRODUCED ON MAIN (B1870), AND THE PRINCIPLE AS A SELECTION RULE VERIFIED (B1869; P-762) (2026-11-10)
 
 ## The latest campaign line
 
-LATEST (2026-11-11, S306p: B1879 — THE WEAVE'S THEOREMS WITH THE EXCHANGE ADDED, AND THE OWNER'S RULING ON IT. Computed at the owner's word ('After the computation'): with histories of an odd number of ticks taking part, the two fixed characters, the walk's measure (exactly), the absence of a fixed modulus and one end per history are unchanged; what changes is the hand — the triplet joins its conjugate into one irreducible six, the group contains its own CP, and a three whose sign is the hand has no sign left; and the tick alone fixes exactly the trivial character and the quaternion point, where the record needed both moves. THE OWNER RULED, with the result in hand ('A condition to derive')…
+LATEST (2026-11-11, S306p, later: TWO SEATS HARVESTED AND VERIFIED — B1880 AND B1881.** The owner asked what else was unharvested; at the fetch the advisor seat was two commits past its pin (its third and fourth re-audits of main; the third had sat fetched and unread for eight hours) and the web seat nine (two relays). **B1880:** every residual the re-audits planted is reproduced on main with the seat's own counts and nine are closed, each with its planted case as a committed test -- a copy can no longer stand in for a file a seal hashed; a frozen entry is held to the state it was found in; a list of hashed files is known by its content under any name (80 more lists, 750 entries; 342 that d…
 
 ## Completeness (nothing skipped silently)
 

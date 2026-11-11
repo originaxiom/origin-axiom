@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1581** |
-| words of findings prose | **1,366,849** |
+| research arcs with findings | **1583** |
+| words of findings prose | **1,372,431** |
 | test lock files referenced | **940** |
-| arcs carrying an authored verdict | **1581** (100.0 %) |
+| arcs carrying an authored verdict | **1583** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1090 |
+| PROVED | 1092 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1879`** (2045 words, 0 locks)  
-THE WEAVE'S THEOREMS WITH THE EXCHANGE ADDED: THE COMPUTATION THE OWNER ASKED FOR BEFORE DECIDING HOW 'THE TICK IS AN ACT' STANDS WITH 'EVEN TICKS OBSERVED' (P-769, P-771; data-free; it decides nothing and says what each decision costs): most of what the closure map holds about the weave is unchanged when histories of an odd number of ticks take part -- the two fixed characters, the walk's measure exactly (a run has length r with probability 2^-r in the grammar of L and the tick as in that of L and R), no fixed point of the modulus, one end for each of the 22 odd histories to 7 letters. What changes is the hand: on the weave's six-dimensional space the 96 elements and two pieces become 192 and one, the triplet is half of one irreducible six, the group contains its own generalised CP (the triplet's indicator twisted by the exchange is +1 for any lift), and a three whose sign is the hand has no sign left. One thing gets stronger: the tick alone fixes exactly the trivial character and the quaternion point, where the record needs both two-act moves together, so the place where the records sit is singled out by the single founding act; done twice the tick fixes a curve. Whether the joined six is a real representation depends on a phase of the exchange's lift that nothing fixes, so no such statement is made. Not restated: the two negatives that compare with measurement. WITH THIS RESULT IN HAND THE OWNER RULED (2026-11-11, to main, 'A condition to derive'): every tick is in the ledger; 'only even ticks are observed' is no longer a ruling but a condition the weight must deliver; the chiral three stays as conditional as it was; the budget's orientation bit is a named condition to derive, not a declared choice. 0 of 19.  
-`B1879_the_weaves_theorems_with_the_exchange/FINDINGS.md`
+**PROVED — `B1881`** (2841 words, 0 locks)  
+THE WEB SEAT'S TWO RELAYS OF 2026-11-11 ON THE MISSING READ-OUT OF THE WHOLE, VERIFIED ON MAIN WITH MAIN'S OWN CODE (P-776; B1872 § 3, B1875 § 7; data-free; 65 checks, none failing; nothing selected and nothing compared): (A) WHAT SYMMETRY ALLOWS A STATE OF THE WHOLE -- a function unchanged by a group of symmetries is greatest on a set the group carries to itself, so it is greatest at one point only where every symmetry fixes that point; at level 5, with the mark of the golden ground: the moves keeping one twin up to sign have index 12, cusp widths 1, 1, 5, 5 and no elliptic point; those keeping the line have index 6, widths 1, 5 and two elliptic points; the dual involution has exactly two fixed points, of discriminant -20, at t = +5 sqrt 5 and -5 sqrt 5 for t = (eta(tau)/eta(5 tau))^6, and with the mirror it fixes the circle |t|^2 = 125; with two acts and one twin as the mark no point is fixed by every symmetry and exactly three pairs exist; with the line as the mark, two points; with the tick an act the mark's mirror is a move and what is left is an arc with those two points as its ends; the ten points where the torus is isomorphic to its quotient by the marked line are the roots of (t^2-125)(t^2+22t+125)(t^2+4t+125)(t^2+18t+125)(t^2-14t+125), of discriminants -20, -4, -16, -11, -19. (B) THE READ-OUT AS A VALUE, in the record's flat-fibre instrument -- as the golden gaps lengthen a history reads the own value of its deepest departure; a run of n keeps the line exactly when n = 1 mod 5 and its own value is (n-1)/2 + sqrt5/2, so the allowed readings have a least, sqrt5/2, and no greatest; at short gaps the apex can sit at the shallower of two departures and a composite can read below its factor; every printed number reproduced. MAIN ADDS: the rate is derived (one golden period is x -> 1/(1 + 1/(1 + x)), with derivative phi^-4 at its fixed point), where the seat observed it; the seat's convention and B1872's name one allowed set (47,988 run sequences, no exception); and a criterion, main's reading and not a result -- with the tick an act an outcome of the whole is either a point the mirror fixes or a pair it exchanges, and 'only even ticks are observed', which the owner ruled the weight must deliver, is delivered exactly when the outcome is such a pair; on the arc that excludes its two ends. Symmetry confines a single outcome and the greatest has none: neither places a value. 0 of 19.  
+`B1881_the_whole_and_the_value_verified/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  

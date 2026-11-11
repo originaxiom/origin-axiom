@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.64) of 2026-11-10 |
-| arcs with a verdict | 1581: 1090 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 776: 264 open (queued, leads, waiting for the owner), 512 closed |
+| arcs with a verdict | 1583: 1092 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
+| points in the register | 780: 268 open (queued, leads, waiting for the owner), 512 closed |
 | the last review | Review 78 (2026-11-11), anchor `38d2a36dc` |
-| the last landing | S306p THE WEAVE'S THEOREMS WITH THE EXCHANGE ADDED, AND THE OWNER'S RULING ON IT: EVEN TICKS ARE A CONDITION TO DERIVE (B1879; P-769, P-771) (2026-11… |
+| the last landing | S306p TWO SEATS HARVESTED AND VERIFIED: THE ADVISOR SEAT'S THIRD AND FOURTH RE-AUDITS ANSWERED (B1880), AND THE WEB SEAT'S TWO RELAYS ON THE READ-OUT… |
 <!-- STATE:END -->
 
 ## Start here

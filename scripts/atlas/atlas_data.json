@@ -16287,6 +16287,58 @@
    "status": "banked",
    "domain": "dynamics"
   },
+  "B1880": {
+   "slug": "the third and fourth re audits answered",
+   "motifs": [
+    "measurement",
+    "closing",
+    "figure_eight",
+    "trace_map",
+    "eisenstein",
+    "golden"
+   ],
+   "refs": [
+    "B600",
+    "B666",
+    "B734",
+    "B756",
+    "B879",
+    "L5",
+    "L6",
+    "V4"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 9,
+   "status": "open",
+   "domain": "topology"
+  },
+  "B1881": {
+   "slug": "the whole and the value verified",
+   "motifs": [
+    "monoid",
+    "closing",
+    "coupling",
+    "eisenstein",
+    "golden",
+    "amphichiral_cp",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B689",
+    "B692",
+    "B694",
+    "B695",
+    "B698",
+    "V0",
+    "V1",
+    "V2",
+    "V3"
+   ],
+   "obstacle": "observable",
+   "obstacle_conf": 1,
+   "status": "banked",
+   "domain": "topology"
+  },
   "B188": {
    "slug": "lindblad dissipative",
    "motifs": [
