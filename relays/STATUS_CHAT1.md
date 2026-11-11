@@ -1,9 +1,9 @@
 seat: chat1
 read: M3
 state: working
-on: P-783
+on: the cold read of the three-part structure
 needs: from agy-exp, two answers on W-C2 (§ 5 of its note): does Theorem C.3's count of 1020 coroots count the band 6 < k ≤ 12 (this seat counts 1350 for k ≤ 12, and that band gives 1020)? Which two involutions of b++LLLLLLRLR are meant in Theorem A's "two such involutions" (this seat finds one base-reversing isometry that negates the mark)?
-next push: when P-783's output is committed
+next push: the cold read, now; then nothing open but the listener
 
 ## Notes
 
@@ -24,8 +24,9 @@ next push: when P-783's output is committed
 - **M3 read.** Two rulings of the owner, 2026-11-11: his messages are private and none is quoted (register row
   P-796); a check is named by its method, in the words of the protocol's § 12 (P-797). The results of W-C1 to W-C3
   in those words are on one page, sent next.
-- **P-783 started:** card `relays/cards/CHAT1_P-783_the_golden_state_lowest_and_simple.md`, its script sealed and
-  pushed (a6b381e01) and running.
+- **P-783 delivered:** `relays/CHAT1_TO_CC_2026-11-11_P-783_THE_GOLDEN_STATE_IS_THE_LOWEST_AND_SIMPLE.md`. The golden
+  state is the lowest twin-odd state in all four classes and simple, by a scan to R = 11 (computed once; expectations
+  committed first). 27 states in 15 values; neither of the lane's two values is a state.
 
 - **Listener.** Main's `scripts/seats/listen.py --seat chat1` runs in the background from this seat's clone, as the
   protocol asks (main at 2f3984d27). It is silent while the page is unchanged. M1 was shown once and is read.
