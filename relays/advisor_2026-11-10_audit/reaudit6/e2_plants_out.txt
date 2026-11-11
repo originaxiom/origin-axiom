@@ -1,0 +1,16 @@
+planted cases against tests/test_b734_m004_congruence.py at main 8d90a5b2a
+c0   NOT CAUGHT  expected not caught  HOLDS  nothing planted
+p1   CAUGHT      expected caught      HOLDS  a new page under docs/ states level (8) for m004  [red: test_every_page_that_stated_level_8_carries_the_correction]
+p2   NOT CAUGHT  expected not caught  HOLDS  the same statement over two lines
+p3   NOT CAUGHT  expected not caught  HOLDS  "a congruence subgroup of level 8", no brackets
+p4   NOT CAUGHT  expected not caught  HOLDS  "first becomes congruence at Γ((8))"
+p5   NOT CAUGHT  expected not caught  HOLDS  p1's sentence in a new .tex file under papers/
+p6   NOT CAUGHT  expected not caught  HOLDS  p1's sentence appended to the root README
+p7   CAUGHT      expected caught      HOLDS  the correction removed from B733's FINDINGS  [red: test_every_page_that_stated_level_8_carries_the_correction]
+p8   CAUGHT      expected caught      HOLDS  the lock's generator B replaced by [[1,0],[1,1]]  [red: test_m004_is_congruence_at_level_4, test_the_old_reading_was_the_quotient_by_every_central_unit]
+p9   CAUGHT      expected caught      HOLDS  the correction removed from B734's verdict line  [red: test_every_page_that_stated_level_8_carries_the_correction]
+p10  NOT CAUGHT  expected not caught  HOLDS  a new arc_verdict.json whose claim line states level (8)
+p11  NOT CAUGHT  expected not caught  HOLDS  p1's sentence added to docs/LAW_MAP.md, which carries the correction elsewhere
+s1   TRUE   the generated spine's line for B734 states the old level and holds no correction: - **B734** `PROVED` `test_b734_m004_congruence.py` — π₁(m004) reaches the geometric index 12 at level (2)³=(8), so the figure-eight knot group IS a congruence subgroup — three 2-adic levels deeper than i
+
+expectations that hold: 12 of 12 (and s1 is true)
