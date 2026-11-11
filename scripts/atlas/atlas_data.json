@@ -16471,6 +16471,21 @@
    "status": "open",
    "domain": "dynamics"
   },
+  "B1889": {
+   "slug": "the seats digested",
+   "motifs": [
+    "measurement",
+    "closing",
+    "firewall"
+   ],
+   "refs": [
+    "B915"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "open",
+   "domain": "dynamics"
+  },
   "B188": {
    "slug": "lindblad dissipative",
    "motifs": [

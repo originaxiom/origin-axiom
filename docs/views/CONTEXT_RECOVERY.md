@@ -13,24 +13,25 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1590 |
-| … PROVED | 1098 |
+| arcs with a verdict file | 1591 |
+| … PROVED | 1099 |
 | … NEGATIVE | 383 |
 | … OPEN | 97 |
 | … RETRACTED | 12 |
-| register points | 789 |
-| … QUEUED | 266 |
+| register points | 791 |
+| … QUEUED | 268 |
 | … LEAD | 4 |
 | … OWNER | 4 |
 | … DONE | 503 |
 | … DECLINED | 12 |
-| harvest rows (the last number) | 1699 |
+| harvest rows (the last number) | 1700 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1889 | PROVED | THE SEATS, DIGESTED AT THE OWNER'S WORD (a measurement of the harvest ledger as it stood on main at 338b14fe3, with five read-only readers' themes whose quotes are checked; nothing in the mathematics is computed, no dat… |
 | B1888 | PROVED | THE REPOSITORY'S PUBLIC FORM, SCRUTINISED BY MAIN AT THE OWNER'S WORD (a measurement of the record and main's judgement on the advisor seat's three-part proposal; no data file opened): BY ITS CODE THE CANDIDATE USES AT… |
 | B1887 | PROVED | THE WEB SEAT'S CHECK OF THE AGY LANE'S LOOP, VERIFIED ON MAIN BY ANOTHER ROUTE (thread facts about single histories and their bundles, and one classical fact about root lattices; data-free; 35 checks, none failing; for… |
 | B1886 | PROVED | THE FOUNDATION AT VERSION 1.65 (P-767's second landing): the owner's statements of 2026-11-10 and 2026-11-11 entered in GENESIS.md under the working rule of 2026-11-11, by which a ruling sets a goal, a standard, an orde… |
@@ -42,7 +43,6 @@
 | B1880 | PROVED | THE ADVISOR SEAT'S THIRD AND FOURTH RE-AUDITS OF MAIN, HARVESTED, REPRODUCED AND ANSWERED (re-audit 3 of main at b28dceea8, re-audit 4 at 015be0cc7; data-free, gates and the programme's builder only): every residual the… |
 | B1879 | PROVED | THE WEAVE'S THEOREMS WITH THE EXCHANGE ADDED: THE COMPUTATION THE OWNER ASKED FOR BEFORE DECIDING HOW 'THE TICK IS AN ACT' STANDS WITH 'EVEN TICKS OBSERVED' (P-769, P-771; data-free; it decides nothing and says what eac… |
 | B1878 | PROVED | THE GOAL AS THE OWNER RULED IT, CARRIED INTO THE GOVERNING DOCUMENTS; TWO GATES (the first landing of P-767: rulings R1 and R3 of the eleven confirmed to main on 2026-11-10; nothing computed, no status of the foundation… |
-| B1877 | PROVED | REVIEW 78 (run at the thirty-third commit after Review 77; S306o-S306p): three of Review 77's eight items resolved (what concentrates under the move count, B1868; the register-to-field join, B1866; the closure map and p… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p THE SEATS, DIGESTED AT THE OWNER'S WORD, AND MAIN'S PROPOSAL FOR THE LOCK (B1889; P-788, P-790, P-791) (2026-11-11)
 - S306p THE ERRORS IN THE MATHEMATICS, THE THIRD OF THE NINE LEFT (WP-0.8): "0.000 BITS OF DESIGNER FREEDOM" WAS ELEVEN ZEROS TYPED BY HAND (E7) (2026-11-11)
 - S306p THE ERRORS IN THE MATHEMATICS, THE SECOND OF THE NINE LEFT (WP-0.8): A SCAN THAT NEVER REFINED, REPLACED BY THE JOINT EIGENVALUES (E5) (2026-11-11)
 - S306p THE REPOSITORY'S PUBLIC FORM, SCRUTINISED AT THE OWNER'S WORD (B1888; P-787) (2026-11-11)
@@ -63,11 +64,10 @@
 - S306p THE FIVE PACKAGES HANDED TO THE ADVISOR SEAT (P-785), ITS RESIDUAL ON THE ORDER CLOSED, MAIN'S UNSEEN CASES SEALED (2026-11-11)
 - S306p THE V1 CARD READ (B1882): AN END OF THE WINDOW IS LIKE OTHER ROWS, BY A HAIR; THE AUDIT'S FIGURE IS REAL AND IS NOT ABOUT RARITY (2026-11-11)
 - S306p THE FOURTH HARVEST: THE WEB SEAT'S TWO CARDS VERIFIED (B1885, B1887), THE WORK ORDER MENDED AT THE OWNER'S QUESTION (P-782), THE OLD RELAYS KEPT LOCAL (P-779) (2026-11-11)
-- S306p THE FOUNDATION AT VERSION 1.65 (B1886; P-767's second landing) (2026-11-11)
 
 ## The latest campaign line
 
-LATEST (2026-11-11, S306p: WP-0.8, THE ERRORS IN THE MATHEMATICS — E7 MENDED, AWAITING ITS RE-AUDIT.** B1028's headline, no retroactive freedom in the whole chain and machine-checked, was a sum of eleven prices typed 0.0, with a check that a phrase is a substring of the cited arc's claim line; the check still passes on B997's line, corrected on 2026-11-10 to say the door set is {1, 4}. B1028's verdict is OPEN. Its claim line names what is not priced (the family declaration; the selection within the family; the choice of the principal embedding) and the one endpoint it credits, the algebra of dimension 14, with the claim as first asserted kept. The correction is carried to the roadmap, the c…
+LATEST (2026-11-11, S306p: B1889 — THE SEATS DIGESTED AT THE OWNER'S WORD, AND MAIN'S PROPOSAL FOR THE LOCK (P-788, P-790, P-791).** The seats have sent 1,686 items; main has recomputed 377 (349 held, 28 differed); 455 read; 560 registered and never fully read (239 the physical lane's, 160 the SM seat's); 233 closed by triage; 55 not read. Every row falls to one of 23 seats. Four seats are working, each with a card of what its record shows. Five readers' themes, 430 of 436 quotes exact. 74 items flagged as not used and possibly bearing on the goal, not judged (P-791). For 26 of 43 packages main is the only builder named. THE PROPOSAL IS NOT IN FORCE: three stages, two of them side by side;…
 
 ## Completeness (nothing skipped silently)
 

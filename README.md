@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.65) of 2026-11-11 |
-| arcs with a verdict | 1590: 1098 PROVED, 383 NEGATIVE, 97 OPEN, 12 RETRACTED |
-| points in the register | 789: 274 open (queued, leads, waiting for the owner), 515 closed |
+| arcs with a verdict | 1591: 1099 PROVED, 383 NEGATIVE, 97 OPEN, 12 RETRACTED |
+| points in the register | 791: 276 open (queued, leads, waiting for the owner), 515 closed |
 | the last review | Review 78 (2026-11-11), anchor `38d2a36dc` |
-| the last landing | S306p THE ERRORS IN THE MATHEMATICS, THE THIRD OF THE NINE LEFT (WP-0.8): "0.000 BITS OF DESIGNER FREEDOM" WAS ELEVEN ZEROS TYPED BY HAND (E7) (2026-… |
+| the last landing | S306p THE SEATS, DIGESTED AT THE OWNER'S WORD, AND MAIN'S PROPOSAL FOR THE LOCK (B1889; P-788, P-790, P-791) (2026-11-11) |
 <!-- STATE:END -->
 
 ## Start here
