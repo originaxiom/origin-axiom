@@ -1,0 +1,29 @@
+W-C1, E2: the congruence level of the figure-eight knot group, by the seat's own route
+    C0  a w = w b, w = b a^-1 b^-1 a        relator = (((1, 0), (0, 0)), ((0, 0), (1, 0)))   holds (up to sign): True
+    C0  a w = w b, w = b^-1 a b a^-1        relator = (((1, 0), (0, 0)), ((0, 0), (1, 0)))   holds (up to sign): True
+    C0  b w = w a, w = a^-1 b a b^-1        relator = (((1, 0), (0, 0)), ((0, 0), (1, 0)))   holds (up to sign): True
+X0: HOLDS
+
+C1  images modulo 2^k
+    I = (2): |image| = 10;  -I in image: True;  |SL(2, O/I)| = 60;  index in SL/{+-1} = 6
+    I = (4): |image| = 320;  -I in image: True;  |SL(2, O/I)| = 3840;  index in SL/{+-1} = 12
+    I = (8): |image| = 20480;  -I in image: True;  |SL(2, O/I)| = 245760;  index in SL/{+-1} = 12
+X1: HOLDS
+X2: HOLDS
+
+C2  the index from volumes
+    L(2, chi_-3) = 0.78130241289648629687;  vol(H^3/PSL(2,O)) = 0.1691569344016089375;  vol(m004) = 2.02988321281930725 (SnapPy ManifoldHP)
+    ratio = 12.0
+X3: HOLDS
+
+C3  the level
+    2 inert in Z[w]: True;  ideals containing (8): (1), (2), (4), (8)
+    Gamma(4) in G: True;  Gamma(2) in G: False
+    so the level is (4): True
+X4: HOLDS
+
+CONTROL  -1 in place of -w
+    modulo (2): |image| = 6;  index = 10
+X5: HOLDS
+
+EXPECTATIONS: 6 of 6 hold
