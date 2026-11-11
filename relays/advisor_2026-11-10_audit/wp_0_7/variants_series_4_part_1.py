@@ -29,13 +29,18 @@ limit of a mend, stated in the note, and the variant pins where the limit lies.
   the review's anchor
     u8   the sentence that names the head as an anchor, inside a fenced block
          of the last review's entry                                             review-fires red
-    u9   an older review's anchor retyped (Review 77's)                         review-fires PASSES: older entries are not
-                                                                                re-judged
+    u9   an older review's anchor retyped (Review 77's)                         review-fires says nothing of the anchor:
+                                                                                older entries are not re-judged
     u10  a whole made-up entry, Review 79, landed in two commits as a review
          is landed                                                              review-fires PASSES and counts from it: a
                                                                                 review that was not run is not a slip
-    u11  the last review's heading retitled in a later commit                   review-fires PASSES: the review is known by
-                                                                                its number
+    u11  the last review's heading retitled in a later commit                   review-fires says nothing of the anchor: the
+                                                                                review is known by its number
+
+  u9 AND u11 AS FIRST WRITTEN expected the gate to pass.  In the first run (variants_series_4_part_1_first_run_out.txt, 9 of
+  11) both read FAILS, and neither on the anchor: the planted commit took the count of landings since the last review to 50,
+  where main's waiver ends, and the gate fired on the count.  The harness had tied the expectation to the count.  The two
+  now ask what they meant, that the gate says nothing of the anchor, and were rewritten before the run that judges them.
 """
 import sys, os, re, json, shutil, subprocess
 
@@ -172,7 +177,7 @@ reset(); heads = [(int(m.group(1)), m.start()) for m in re.finditer(r"^# Review 
 last = max(heads); before = [h for h in heads if h[0] == last[0] - 1][0]
 older = page[before[1]:last[1]]; typed = re.findall(r"anchor-commit: `([0-9a-f]{7,40})`", older)[-1]
 write(PAGE, page[:before[1]] + older.replace("`%s`" % typed, "`%s`" % head) + page[last[1]:]); commit("planted: an older review's anchor retyped")
-r = one(); line("u9", r[0] is True, "Review %d's anchor retyped: passes (%s)" % (before[0], r[1][:70]))
+r = one(); line("u9", "anchor" not in r[1] and "entry of Review" not in r[1], "Review %d's anchor retyped: the gate says nothing of the anchor (%s)" % (before[0], r[1][:70]))
 reset(); n = last[0] + 1
 entry = "\n# Review %d (2026-11-12) — a review that was not run\n\nfresh-clone: PASS @ %s\nsample seed: %s\ngate controls: 53 registered\n\n### Action items (Review %d)\n\n- [x] R%d-1 nothing\n" % (n, head, head, n, n)
 write(PAGE, page + entry); landed = commit("planted: a made-up review")
@@ -180,6 +185,6 @@ write(PAGE, page + entry + "\n**anchor-commit: `%s`**\n" % landed); commit("plan
 r = one(); line("u10", r[0] is True and r[1].startswith("1 merges since the last review"), "a whole made-up entry, landed in two commits: passes and counts from it (%s)" % r[1][:60])
 reset(); title = re.search(r"^# Review %d .*$" % last[0], page, re.M).group(0)
 write(PAGE, page.replace(title, title + " (retitled)")); commit("planted: the last review's heading retitled")
-r = one(); line("u11", r[0] is True, "the last review's heading retitled: passes (%s)" % r[1][:70])
+r = one(); line("u11", "anchor" not in r[1] and "entry of Review" not in r[1], "the last review's heading retitled: the gate says nothing of the anchor (%s)" % r[1][:70])
 
 print("\n%d of %d expectations hold" % (sum(results), len(results)))

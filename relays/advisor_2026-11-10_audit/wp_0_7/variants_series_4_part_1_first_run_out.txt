@@ -1,0 +1,15 @@
+variants on the patches at a568d979a
+u1   HOLDS  10 variables named OA_... set at once, all 53 gates: 0 change their line
+u2   HOLDS  review-due with two of the variables set: prints the same (47 lines)
+u3   HOLDS  the whole tree exported, GIT_DIR pointing at the clone: read as 'redirected'; 24 of 24 refused, 0 pass
+u4   HOLDS  the clone, GIT_INDEX_FILE pointing at an empty file: read as 'redirected'; 24 of 24 refused, 0 pass
+u5   HOLDS  the clone, GIT_WORK_TREE pointing at an empty folder: read as 'export'; 24 of 24 refused, 0 pass
+u6   HOLDS  the clone, GIT_DIR naming its own .git: read as 'full'; refused as redirected: 0
+u7   HOLDS  a linked worktree with GIT_DIR naming the clone's .git: read as 'redirected'; 24 of 24 refused, 0 pass
+     (the same worktree with no variable set is read as 'full')
+u8   HOLDS  an anchor line inside a fenced block at the end of the page: the entry of Review 78 names an anchor 2 time(s), 2 of them on a line of its own: a review has one anchor, on 
+u9   FAILS  Review 77's anchor retyped: passes (50 merges since the last review (>= 40): the review FIRES -- run it (s)
+u10  HOLDS  a whole made-up entry, landed in two commits: passes and counts from it (1 merges since the last review (fires at 40))
+u11  FAILS  the last review's heading retitled: passes (50 merges since the last review (>= 40): the review FIRES -- run it (s)
+
+9 of 11 expectations hold
