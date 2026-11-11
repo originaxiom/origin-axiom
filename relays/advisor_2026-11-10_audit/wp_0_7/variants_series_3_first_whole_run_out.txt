@@ -1,0 +1,26 @@
+variants on the series at 42a745ca4
+control: the five gates pass on the series as it stands
+t1   HOLDS  a banned phrase in a .tex under papers/: ('papers/planted_note.tex', 'the universe is a figure-eight knot')
+t2   HOLDS  in capitals in an arc's verdict file: ('frontier/B9999_planted_arc/arc_verdict.json', 'the universe is a figure-eight knot')
+t3   HOLDS  broken over two lines: ('docs/PLANTED_PAGE.md', 'the universe is a figure-eight knot')
+t4   HOLDS  in a 6 MB data file: passes; files above the limit 22 -> 23
+t5   HOLDS  the exempt report copied under another name: ('frontier/B887_gate_audit/audit_reports_copy.json', 'the universe is a figure-eight knot')
+t6   HOLDS  a proven row whose evidence is an arc's folder: 1 row(s) of the locked tables cite no lock: P998. A proven or certified row names the test that locks it
+t7   HOLDS  P51 given a lock: ok (86 rows in the locked tables, 86 citing a lock; 0 held by name as found without one; 1 of the table now cite one or are gone: shorten the table (P51))
+t8   HOLDS  a row of the certified data cut to no evidence: 1 row(s) of the locked tables cite no lock: E3. A proven or certified row names the test that locks it
+t9   HOLDS  the planted test in one of 74 arcs' own locks: 1 test(s) in which no assert can fail: frontier/B1859_the_door_set_is_one_and_four/verification/test_b1859_the_door_set_
+t10  HOLDS  a held test copied under the same name into another file: 1 test(s) in which no assert can fail: tests/test_zz_planted_copy.py::test_the_two_closings_differ_on_both_discriminants
+t11  HOLDS  `assert len([1, 2]) == 2` as a test's only assert: passes (the class stops at a call)
+t12  HOLDS  one of the 26 mended: he arcs' own locks, 0 vacuous; 25 in which no assert can fail, held by name as found, and 1 of that table mended or gone: shorten the table)
+t13  HOLDS  17 newly swept phrases, each pasted alone on the front page: 17 caught
+t14  HOLDS  the two rows named as readings, their sentences on the front page: passes (read and not swept)
+t15  HOLDS  a row with a bare number and no backticks: 1 row(s) of docs/RETRACTED_PHRASES.md are in no shape the sweep reads: '12'. A row the sweep cannot read is a phrase nob
+t16  HOLDS  a newly swept phrase in capitals, in emphasis, in a .tex: papers/planted_note.tex:2 "both hands are one bit, the founding torsor's swap bit"
+t17  HOLDS  a second instance of a held phrase in the file that holds it: passes (held by file and phrase, not by line)
+t18  HOLDS  the framing gate pointed at the claims gate's control: 1 control(s) left tests/GATE_CONTROLS.json since e6298271a with no record: framing -> tests/test_gate_failing_paths.py::test_frami
+t19  HOLDS  the framing gate's control marked skip where it stands: framing: its control test_framing_fails_on_a_banned_phrase_in_a_root_page is skipped or expected to fail by its mark (pytest.mark.
+t20  HOLDS  the framing gate's control replaced, under its own name, by an assert on something else: passes (reading cannot show it)
+t21  HOLDS  the whole tree in a folder made a repository, no commit: read as 'empty'; 24 of 24 gates of the table refused, 0 pass
+t22  HOLDS  the same with one commit that holds only a note: read as 'full'; of 24 gates of the table 4 are refused, 12 fail otherwise, 8 PASS: arrival-phrases, closure-generated, log-changelog-paired, path-refs, review-fires, tracked-deps, tracked-forbidden, views-fresh
+
+22 of 22 expectations hold

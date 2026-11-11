@@ -38,8 +38,12 @@ of a mend, stated in the note, and the variant pins where the limit lies.
     t20  one control's body replaced by an assert on something else             gate-controls PASSES: reading cannot show it
   the gap of series 1 (main's U9.b)
     t21  the whole tree exported into a folder made a repository, no commit     every gate of the table refused, none passes
-    t22  the same, with one commit that holds only a note                       read as full: git has something to say, about
-                                                                                something else.  PASSES are counted: read-out
+    t22  the same, with one commit that holds only a note                       read as untracked: every gate of the table
+                                                                                refused, none passes
+
+  t22 AS FIRST WRITTEN expected the folder to be read as full, and counted the gates that pass: a read-out.  The first whole
+  run (variants_series_3_first_whole_run_out.txt) read 8 of 24 passing there.  The seat then closed it, in the patch that
+  closes main's case, and the expectation above was written before the run that judges it.
 """
 import sys, os, re, json, shutil, subprocess
 
@@ -227,8 +231,8 @@ for tag, with_commit in (("t21", False), ("t22", True)):
         line(tag, state == "empty" and not passing and len(refused) == len(out), "the whole tree in a folder made a repository, no commit: read as %r; %d of %d gates of the table refused, %d pass" % (
             state, len(refused), len(out), len(passing)))
     else:
-        line(tag, state == "full", "the same with one commit that holds only a note: read as %r; of %d gates of the table %d are refused, %d fail otherwise, %d PASS: %s" % (
-            state, len(out), len(refused), len(out) - len(refused) - len(passing), len(passing), ", ".join(passing) or "none"))
+        line(tag, state == "untracked" and not passing and len(refused) == len(out), "the same with one commit that holds only a note: read as %r; %d of %d gates of the table refused, %d pass%s" % (
+            state, len(refused), len(out), len(passing), (": " + ", ".join(passing)) if passing else ""))
     shutil.rmtree(folder, ignore_errors=True)
 
 print("\n%d of %d expectations hold" % (sum(results), len(results)))
