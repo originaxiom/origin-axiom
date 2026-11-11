@@ -43,18 +43,33 @@ def _git(*args):
 # has not looked.  What kind of tree this is, is read here once; the table READS_GIT below says which gates it concerns; and
 # each gate of that table is replaced, below the table, by a gate that asks this first and is refused where it cannot look.
 def checkout_state(repo=None):
-    """'full', 'shallow' or 'export': what the tree at `repo` is to git.  'export' is a tree with no repository of its own: an
-    archive, a copy, or a folder that merely sits inside some other repository (git would then answer for the outer one).
-    'shallow' is a clone whose history is cut (PV22): what it holds of the past is whatever its depth happened to keep."""
+    """'full', 'shallow', 'empty', 'untracked' or 'export': what the tree at `repo` is to git.  'export' is a tree with no
+    repository of its own: an archive, a copy, or a folder that merely sits inside some other repository (git would then answer
+    for the outer one).  'empty' is a repository that holds no commit, or whose commit holds no file (main's unseen case U9.b,
+    B1890): git is there and has nothing to say, whatever stands in the folder or in the index.  'untracked' is a repository
+    whose commit does not hold the gates that are being run: git has something to say, about something else (the seat's own
+    variant of U9.b: a note committed, and the tree beside it).  'shallow' is a clone whose history is cut (PV22): what it
+    holds of the past is whatever its depth happened to keep."""
     repo = os.path.realpath(str(repo or ROOT))
     try:
         r = subprocess.run(["git", "-C", repo, "rev-parse", "--show-toplevel", "--is-shallow-repository"],
                            capture_output=True, text=True, timeout=30)
+        out = r.stdout.split("\n")
+        if r.returncode != 0 or len(out) < 2 or not out[0] or os.path.realpath(out[0]) != repo:
+            return "export"
+        held = subprocess.run(["git", "-C", repo, "ls-tree", "--name-only", "HEAD"], capture_output=True, text=True, timeout=30)
     except Exception:
         return "export"
-    out = r.stdout.split("\n")
-    if r.returncode != 0 or len(out) < 2 or not out[0] or os.path.realpath(out[0]) != repo:
-        return "export"
+    if held.returncode != 0 or not held.stdout.strip():
+        return "empty"
+    own = "scripts/gates/gates.py"                        # where a folder holds the gates, its commit must hold them too
+    if os.path.isfile(os.path.join(repo, *own.split("/"))):
+        try:
+            mine = subprocess.run(["git", "-C", repo, "ls-tree", "--name-only", "HEAD", "--", own], capture_output=True, text=True, timeout=30)
+        except Exception:
+            return "export"
+        if mine.returncode != 0 or not mine.stdout.strip():
+            return "untracked"
     return "shallow" if out[1].strip() == "true" else "full"
 
 
@@ -121,6 +136,12 @@ REFUSED_EXPORT = ("refused: there is no git repository here (an export, or a cop
 # that reads the past does not answer on one, however deep the clone.
 REFUSED_SHALLOW = ("refused: this clone is shallow. This gate reads the history, and a history that is cut can hide what the "
                    "gate looks for, or accuse what is only out of sight. Fetch the rest (git fetch --unshallow) and run it again")
+# Main's unseen case U9.b (B1890): a folder made a repository with `git init`, holding an export's files and no commit, was read
+# as a full clone, and nine gates of the table passed there with nothing to look at -- PV9 again, with git present and silent.
+REFUSED_EMPTY = ("refused: this repository holds no commit, or a commit with no file in it. This gate reads %s, and git has "
+                 "nothing to say here, whatever stands in the folder. A gate is a function of the commit: run it in a clone")
+REFUSED_UNTRACKED = ("refused: the commit of this repository does not hold the gates that are being run. This gate reads %s, and "
+                     "git would answer here for another tree than the one in this folder. A gate is a function of the commit: run it in a clone")
 
 
 # --- nothing leaves a ledger, and no ceiling rises, without a recorded act (the closure programme's WP-0.7; the advisor seat's
@@ -3093,6 +3114,10 @@ def _refusing(name, fn):
             state = checkout_state()
             if state == "export":
                 return False, REFUSED_EXPORT % ("the history" if name in READS_HISTORY else "which files are tracked")
+            if state == "empty":
+                return False, REFUSED_EMPTY % ("the history" if name in READS_HISTORY else "which files are tracked")
+            if state == "untracked":
+                return False, REFUSED_UNTRACKED % ("the history" if name in READS_HISTORY else "which files are tracked")
             if state == "shallow" and name in READS_HISTORY:
                 return False, REFUSED_SHALLOW
         return fn(*args, **kwargs)

@@ -89,6 +89,95 @@ def test_an_export_a_copy_and_a_folder_inside_another_repository_are_all_read_as
     assert g.checkout_state(tmp_path / "nothing_here") == "export"
 
 
+def _exported(tmp_path, name):
+    """a folder that holds an export of a small repository's files: the gates, their checkers and a page"""
+    import shutil
+    src = tmp_path / (name + "_source")
+    skip = shutil.ignore_patterns("__pycache__", "*.pyc")
+    shutil.copytree(ROOT / "scripts" / "gates", src / "scripts" / "gates", ignore=skip)
+    shutil.copytree(ROOT / "scripts" / "checks", src / "scripts" / "checks", ignore=skip)
+    (src / "README.md").write_text("# a page\n", encoding="utf-8")
+    _git(src, "init", "-q")
+    _git(src, "add", "-A")
+    _git(src, "commit", "-q", "-m", "a small repository")
+    out = tmp_path / name
+    out.mkdir()
+    tar = subprocess.run(["git", "-C", str(src), "archive", "HEAD"], capture_output=True, check=True).stdout
+    subprocess.run(["tar", "-x", "-C", str(out)], input=tar, check=True)
+    return out
+
+
+_RUN_THE_TABLE = ("import sys, json, importlib.util\n"
+                  "sys.dont_write_bytecode = True\n"
+                  "s = importlib.util.spec_from_file_location('scratch_gates', 'scripts/gates/gates.py')\n"
+                  "g = importlib.util.module_from_spec(s); s.loader.exec_module(g)\n"
+                  "out = {}\n"
+                  "for name in sorted(g.READS_GIT):\n"
+                  "    try:\n"
+                  "        ok, detail = g.GATES[name]()\n"
+                  "    except Exception as exc:\n"
+                  "        ok, detail = False, 'raised: %r' % (exc,)\n"
+                  "    out[name] = [bool(ok), str(detail)]\n"
+                  "print(json.dumps([getattr(g, 'checkout_state')(), out]))\n")
+
+
+def _the_table_there(folder):
+    """every gate of the table READS_GIT, run by the folder's own copy of the gates: (what the folder is to git, the answers)"""
+    import json
+    r = subprocess.run([sys.executable, "-B", "-c", _RUN_THE_TABLE], cwd=str(folder), capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr[-800:]
+    state, out = json.loads(r.stdout.strip().splitlines()[-1])
+    return state, out
+
+
+def test_a_repository_with_no_commit_is_not_a_full_clone_and_no_gate_of_the_table_passes_there(tmp_path):
+    """Main's unseen case U9.b (B1890): an export's files in a folder made a repository with `git init`, and no commit.  It
+    was read as a full clone, and nine gates of the table passed with nothing to look at.  Three forms of it."""
+    forms = {}
+    forms["git init and no commit"] = _exported(tmp_path, "initialised")
+    _git(forms["git init and no commit"], "init", "-q")
+    forms["the files added and not committed"] = _exported(tmp_path, "added")
+    _git(forms["the files added and not committed"], "init", "-q")
+    _git(forms["the files added and not committed"], "add", "-A")
+    forms["a commit that holds no file, the files beside it"] = _exported(tmp_path, "empty_commit")
+    _git(forms["a commit that holds no file, the files beside it"], "init", "-q")
+    _git(forms["a commit that holds no file, the files beside it"], "commit", "-q", "--allow-empty", "-m", "nothing")
+    for form, folder in forms.items():
+        state, out = _the_table_there(folder)
+        passing = sorted(name for name, (ok, detail) in out.items() if ok)
+        assert not passing, f"{form}: read as {state!r}, and these gates of the table pass with nothing to look at: " + ", ".join(passing)
+        assert state == "empty", (form, state)
+        assert len(out) >= 20 and all("refused" in detail and "no commit" in detail for ok, detail in out.values()), (form, out)
+
+
+def test_a_repository_whose_commit_does_not_hold_the_gates_is_not_a_full_clone_either(tmp_path):
+    """The seat's own variant of U9.b: the repository holds one commit, with a note in it, and the export's files stand beside
+    it untracked.  Git has something to say there, about something else, and eight gates of the table passed on the whole tree."""
+    folder = _exported(tmp_path, "a_note_committed")
+    _git(folder, "init", "-q")
+    (folder / "A_NOTE_OF_ITS_OWN.txt").write_text("the only file this repository holds\n", encoding="utf-8")
+    _git(folder, "add", "A_NOTE_OF_ITS_OWN.txt")
+    _git(folder, "commit", "-q", "-m", "a note")
+    state, out = _the_table_there(folder)
+    passing = sorted(name for name, (ok, detail) in out.items() if ok)
+    assert not passing, f"read as {state!r}, and these gates of the table pass on a tree the commit does not hold: " + ", ".join(passing)
+    assert state == "untracked"
+    assert all("refused" in detail and "does not hold the gates" in detail for ok, detail in out.values()), out
+
+
+def test_a_repository_that_holds_a_commit_with_a_file_is_not_empty(tmp_path):
+    """the other side: the smallest repository that has something to say is read as full, and its gates answer"""
+    g = _gates()
+    assert g.checkout_state(_small_repo(tmp_path)) == "full"
+    folder = _exported(tmp_path, "committed")
+    _git(folder, "init", "-q")
+    _git(folder, "add", "-A")
+    _git(folder, "commit", "-q", "-m", "the export, committed")
+    state, out = _the_table_there(folder)
+    assert state == "full"
+    assert not any("no commit" in detail for ok, detail in out.values()), out
+
+
 def test_a_shallow_clone_is_read_as_shallow_at_any_depth(tmp_path):
     """PV22, the reading.  A clone of depth 1, and one of a depth greater than the history it was cut from."""
     g = _gates()
