@@ -1,0 +1,170 @@
+{
+ "T": [
+  [
+   3,
+   3,
+   3,
+   0
+  ],
+  [
+   5,
+   7,
+   3,
+   4
+  ],
+  [
+   7,
+   8,
+   6,
+   2
+  ]
+ ],
+ "K1": [
+  [
+   3,
+   3,
+   1,
+   2
+  ],
+  [
+   5,
+   5,
+   1,
+   4
+  ],
+  [
+   7,
+   7,
+   1,
+   6
+  ]
+ ],
+ "J_S_per_block": {
+  "1": {
+   "L_and_R": {
+    "private": 0,
+    "all": 0
+   },
+   "L_R_P_minusI": {
+    "private": 0,
+    "all": 0
+   },
+   "L": {
+    "private": 0,
+    "all": 1
+   },
+   "R": {
+    "private": 0,
+    "all": 1
+   },
+   "P": {
+    "private": 0,
+    "all": 2
+   },
+   "minusI": {
+    "private": 0,
+    "all": 3
+   }
+  },
+  "2": {
+   "L_and_R": {
+    "private": 0,
+    "all": 0
+   },
+   "L_R_P_minusI": {
+    "private": 0,
+    "all": 0
+   },
+   "L": {
+    "private": 1,
+    "all": 1
+   },
+   "R": {
+    "private": 1,
+    "all": 1
+   },
+   "P": {
+    "private": 2,
+    "all": 3
+   },
+   "minusI": {
+    "private": 0,
+    "all": 3
+   }
+  },
+  "3": {
+   "L_and_R": {
+    "private": 0,
+    "all": 0
+   },
+   "L_R_P_minusI": {
+    "private": 0,
+    "all": 0
+   },
+   "L": {
+    "private": 0,
+    "all": 1
+   },
+   "R": {
+    "private": 0,
+    "all": 1
+   },
+   "P": {
+    "private": 1,
+    "all": 4
+   },
+   "minusI": {
+    "private": 0,
+    "all": 6
+   }
+  }
+ },
+ "S_rank_three": {
+  "L": 1,
+  "R": 1,
+  "P": 2,
+  "L_and_R": 0,
+  "L_R_P_minusI": 0
+ },
+ "S_rank_four": {
+  "L": 1,
+  "R": 1,
+  "P": 3,
+  "L_and_R": 0,
+  "L_R_P_minusI": 0
+ },
+ "words": 745,
+ "up_to_swap": 379,
+ "N": {
+  "first letter applied last": {
+   "states": 758,
+   "keep_a_private_class": {
+    "1": 0,
+    "2": 0,
+    "3": 0
+   },
+   "keep_a_class_of_H1": {
+    "1": 758,
+    "2": 622,
+    "3": 758
+   }
+  },
+  "first letter applied first": {
+   "states": 758,
+   "keep_a_private_class": {
+    "1": 0,
+    "2": 0,
+    "3": 0
+   },
+   "keep_a_class_of_H1": {
+    "1": 758,
+    "2": 622,
+    "3": 758
+   }
+  }
+ },
+ "N_gap": [
+  0.0009988432350148298,
+  1.8360191056567607e-16
+ ]
+}
