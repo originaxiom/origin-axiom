@@ -1,5 +1,5 @@
 seat: sm
-read: M3
+read: M4
 state: working
 on: SM-C3 (next; its card is committed with main's scope before any run)
 needs: nothing
@@ -50,3 +50,11 @@ next push: when SM-C3's card is committed
   - Five locks were tested by planted errors. Caught: E13 4 of 9, E6 3 of 6, E10 3 of 7, E5 8 of 10 (the default
     lane), E3 7 of 12. The shapes missed are named.
   - One standing instance of E3's old form was found, in the root CHANGELOG.
+- **M4 read** (main @ 0dda7b472): main's own changes to its instruments in the window, added to SM-R79. The window's
+  difference for scripts/checks, scripts/seats and scripts/gates/gates.py was read, with the advisor seat's four
+  patches left aside as M4 asks. Five findings are added to `relays/REVIEW_79_SM.md` (R79-SM-44 to 48):
+  - the arrival gate excuses a sentence on any earlier denial word, and misses a line break inside its phrase;
+  - the debt gates still pass their environment to the checkers, two of which read a variable that changes their
+    input;
+  - a claim that the commit's day cannot freeze;
+  - the listener records a message as shown before it is seen.

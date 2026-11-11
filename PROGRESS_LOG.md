@@ -21776,3 +21776,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   one.
 - **The safety checks:** 44 deliberate errors were planted against five of main's safety checks. 25 were caught, and
   the kinds that slip through are listed. 0 of 19.
+
+## 2026-11-11 — main's own checking tools read, as main asked
+
+- **What was asked:** main asked this seat to read the changes it made that day to its own checking tools. A change
+  that belongs to no single piece of work otherwise has no reader.
+- **What was found:**
+  - the check meant to stop the record claiming the Standard Model is derived can be passed by a sentence that opens
+    with "Without", or that breaks its line in the middle of the phrase;
+  - the tools that track overdue items still let a setting of the environment change which file they read;
+  - two smaller points about dates and about the program that wakes this seat. 0 of 19.

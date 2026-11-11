@@ -13,7 +13,8 @@ measured value was read or compared, and no held-out target was computed. B1882'
     each number by this seat's own code, each statement against the files.
   - The arcs' own scripts were also run from a scratch extraction. Each reproduces its committed output. That is not
     independent evidence, and no finding rests on it.
-- **Every quotation was checked by machine** against its file at the commit: 63 quotations, 63 found
+- **Every quotation was checked by machine** against its file at its commit: 72 quotations, 72 found (63 at
+  323f92327, and M4's 9 at 0dda7b472)
   (relays/sm_r79/quote_check.json). The check's control is the first quotation altered by one character, and it is
   reported missing.
 - **Recomputations** are in relays/sm_r79/r79_checks.py and relays/sm_r79/b1885_euclid_max.py, with their outputs.
@@ -505,6 +506,79 @@ the SM rows of SEATS.md. Under § 13 it is named here and left. It was not read.
   within 900 characters on either side. The tripwire reads only frontier/ and docs/. § 8 of the programme says the lock
   fails "if the old form stands anywhere in the record". The changelog is a history and may be meant to stay as it
   was, but nothing exempts it in words.
+
+## M4: main's changes to its instruments in the window (5 findings)
+
+*Added at M4 (main at 0dda7b472). Read as § 13 says: `git diff 38d2a36dc HEAD` with HEAD at 0dda7b472, for
+scripts/checks, scripts/seats and scripts/gates/gates.py. In the gates' file the advisor seat's four patches
+(16574161c, 22c7baf09, 37c2f6aef, 7d7ff4df9) were left aside, as M4 asks. Main's own changes there are 7480c2426,
+bc18dd91a, 9b1c9d408 and 9ace774f4. In scripts/checks the whole difference was read, and in scripts/seats the new
+listener. The quotations below are checked at 0dda7b472.*
+
+**R79-SM-44** (4). scripts/gates/gates.py, the arrival gate as it stands after bc18dd91a and 9b1c9d408:
+- `if _ARRIVAL_NEG_RE.search(" " + own[-160:] + " "): continue`
+- **What is wrong:** a sentence of arrival is excused by any word of denial or condition earlier in its own sentence,
+  even when that word qualifies something else. Planted in a scratch tree and run through main's own
+  gate_arrival_phrases, each of these passes:
+  - "Without a single free parameter, the Standard Model is derived."
+  - "No longer a hope: the Standard Model is derived."
+  - "Not only the gauge group: the standard model is derived."
+- **Control:** the bare sentence is caught.
+- **How known:** relays/sm_r79/arrival_plants.py and its JSON, run against gates.py at 0dda7b472.
+
+**R79-SM-45** (4). scripts/gates/gates.py:
+- `ARRIVAL_PHRASES = ("the standard model is derived", "the standard model has been derived"`
+- **What is wrong:** the phrases are matched literally, with single spaces. Two shapes pass:
+  - a word inside the phrase: "the Standard Model is now derived";
+  - a line break inside it: "the Standard Model⏎is derived".
+
+  The record's pages are wrapped near 120 columns, so the second is the ordinary way such a sentence would be written.
+- **How known:** the same plants (relays/sm_r79/arrival_plants.json).
+
+**R79-SM-46** (4). scripts/checks/point_debt.py and harvest_debt.py, run by the debt gates:
+- `test or a look ahead, then the date of HEAD's commit. Never the wall clock. OA_POINT_REGISTER overrides the file.`
+- `overrides = dict(kv.split("=", 1) for kv in os.environ.get("OA_HARVEST_PIN_OVERRIDE", "").split(",") if "=" in kv)`
+- **What is wrong:** the window makes the day a gate judges by the commit's:
+  - `Each gate passes the date of HEAD's commit this way, so nothing in the`
+- **But the day is all it closes.** The gates still run each checker with the environment they were given; their
+  subprocess call passes no env. Two checkers the window touched read a variable that changes what they read:
+  - point_debt takes the register's path from OA_POINT_REGISTER;
+  - harvest_debt moves seats' pins by OA_HARVEST_PIN_OVERRIDE.
+- **Shown:** point_debt.py, run exactly as the gate runs it (with `--today` the commit's day), passes on the register.
+  With OA_POINT_REGISTER pointing at a copy in which one row's disposition is a refused word, it fails. A clean copy
+  would pass a broken register the same way.
+- **How known:** relays/sm_r79/env_gate.py and its JSON, at 0dda7b472.
+
+**R79-SM-47** (3, minor). scripts/checks/relay_debt.py, the new comment on the day:
+- `It moves with every commit, so it cannot`
+- **What is wrong:** the sentence ends "freeze as the stamp did". The rule that guards the day refuses only a commit
+  dated before its parent. A run of commits each dated at its parent's day keeps the day still, and their debts do not
+  age. The gates' own note says as much:
+  - `WHAT THIS DOES NOT BOUND: between its parent's date and the real time, a commit's date is its maker's to choose.`
+- **How known:** commit_day_problems in gates.py at 0dda7b472 (`int(t) < int(pt)`, strictly before).
+
+**R79-SM-48** (4, minor). scripts/seats/listen.py, look_seat:
+- `state_file.write_text(json.dumps({"blob": blob, "read": max([state["read"]] + list(ms))}), encoding="utf-8")`
+- **What is wrong:** the listener records a message as shown before the text is printed, and so before any session has
+  seen it. Two failures can each lose a message for good:
+  - the print can fail;
+  - `rc, page, _ = git("show", "%s/main:%s" % (remote, path), cwd=cwd)` is not checked for its return code. A failed
+    read gives an empty page, the listener prints "No new message", and it still stores the new page as read.
+- **How known:** reading the listener at 0dda7b472.
+
+**Read and found sound:**
+- **commit_day.py's** order (`--today`, then the seam, then HEAD's date) and its refusals.
+- **The harvest gate's new sentence.** Its pattern matches the tool's seat line, which `--quiet` still prints.
+- **The hash lists found by content,** with the frozen table pinned by its hash.
+- **The closure-generated gate,** which now compares every page in every clone.
+- **point_debt's FLOOR:** a ratchet the lock holds equal to the row count.
+- **The attribution history,** now reading every reachable commit.
+
+**Seen outside the window, not counted:**
+- gates.py's review-fires gate reads OA_REVIEW_MERGES, which overrides its merge count (since 1daf61fb6, 2026-10-29).
+- retraction_debt.py reads OA_RETRACTIONS_LEDGER.
+
+  Both are of R79-SM-46's kind.
 
 ## What was not done
 

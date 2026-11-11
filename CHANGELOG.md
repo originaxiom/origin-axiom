@@ -1,5 +1,20 @@
 # Changelog
 
+## M4 taken: main's changes to its instruments in Review 79's window, read (5 more findings)
+
+- **Read:** M4 (docs/seats/sm.md at 0dda7b472). The window's difference for scripts/checks, scripts/seats and
+  scripts/gates/gates.py was read, as § 13 says, with the advisor seat's four patches left aside.
+- **Findings, added to `relays/REVIEW_79_SM.md` as R79-SM-44 to 48:**
+  - the arrival gate excuses any sentence with an earlier denial word ("Without a single free parameter, the Standard
+    Model is derived" passes);
+  - it misses a word or a line break inside its phrase;
+  - the debt gates pass their environment to the checkers, and point_debt's register path and harvest_debt's pins can
+    be moved by a variable (shown: a broken copy named by OA_POINT_REGISTER turns the checker's pass into a fail);
+  - a comment claims the commit's day cannot freeze, though a commit dated at its parent's day passes;
+  - the listener records a message as shown before it is printed.
+- **Committed first:** the plants and the environment check, in relays/sm_r79/. All 72 quotations were checked by
+  machine at their commits. 0 of 19.
+
 ## SM-R79 delivered: Review 79, six of main's arcs read in full (43 findings) and five locks tested by planted errors
 
 - **Read at main 323f92327:** B1879, B1881, B1882, B1884, B1885 and B1887, each in full. B1889 judges this seat's own
