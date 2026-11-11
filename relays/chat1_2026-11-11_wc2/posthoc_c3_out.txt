@@ -1,0 +1,18 @@
+P1  Rademacher (post hoc)
+    LLLLLLRLR: #L = 7, #R = 2; Phi over the rotations ['-2']; Psi over the rotations ['-5']
+    LLLLLRLLRR: #L = 7, #R = 3; Phi over the rotations ['-1']; Psi over the rotations ['-4']
+P2  the count of A4 vectors (post hoc)
+    k = 1: 20 vectors; cumulative 20; cumulative up to sign 10
+    k = 2: 30 vectors; cumulative 50; cumulative up to sign 25
+    k = 3: 60 vectors; cumulative 110; cumulative up to sign 55
+    k = 4: 60 vectors; cumulative 170; cumulative up to sign 85
+    k = 5: 120 vectors; cumulative 290; cumulative up to sign 145
+    k = 6: 40 vectors; cumulative 330; cumulative up to sign 165
+    k = 7: 180 vectors; cumulative 510; cumulative up to sign 255
+    k = 8: 150 vectors; cumulative 660; cumulative up to sign 330
+    k = 9: 140 vectors; cumulative 800; cumulative up to sign 400
+    k = 10: 130 vectors; cumulative 930; cumulative up to sign 465
+    k = 11: 240 vectors; cumulative 1170; cumulative up to sign 585
+    k = 12: 180 vectors; cumulative 1350; cumulative up to sign 675
+    k = 13: 360 vectors; cumulative 1710; cumulative up to sign 855
+    k = 14: 120 vectors; cumulative 1830; cumulative up to sign 915
