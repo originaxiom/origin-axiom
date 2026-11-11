@@ -1,0 +1,41 @@
+A1  THE CHARACTERS of the two records' free group, written (tr a, tr b, tr ab)
+    control: the four trace maps agree with matrices on 20 random pairs: True
+    control: each map keeps kappa = x^2 + y^2 + z^2 - xyz - 2: True
+    the move a -> a, b -> ab alone     fixes a set of positive dimension; a Groebner basis: [z*(x - 2), y - z]
+    the move a -> ab, b -> b alone     fixes a set of positive dimension; a Groebner basis: [x - z, z*(y - 2)]
+    the two moves together             fixes finitely many characters: [(0, 0, 0), (2, 2, 2)]
+    the exchange alone                 fixes a set of positive dimension; a Groebner basis: [x - y]
+    the two moves and the exchange     fixes finitely many characters: [(0, 0, 0), (2, 2, 2)]
+    THE TICK ALONE                     fixes finitely many characters: [(0, 0, 0), (2, 2, 2)]
+    the tick done twice                fixes a set of positive dimension; a Groebner basis: [x*z - x - z, y - z]
+    the tick done twice is (x, y, z) -> (x*z - y, z, x*z**2 - x - y*z); its fixed set: [{x: y/(y - 1), z: y}]
+    on that curve, the points with kappa = -2 (a parabolic commutator, the hyperbolic structure's condition): [(0, 0, 0), (3/2 - sqrt(3)*I/2, 3/2 + sqrt(3)*I/2, 3/2 + sqrt(3)*I/2), (3/2 + sqrt(3)*I/2, 3/2 - sqrt(3)*I/2, 3/2 - sqrt(3)*I/2)]
+    (0,0,0) lies on the curve: True; (2,2,2) lies on it: True
+
+A2  THE WALK: every word of 12 letters, in the grammar of L and R and in the grammar of L and the tick
+    triples of first runs that fit in 12 letters with the third run closed: 165
+    the two grammars give every triple the same number of words: True;  that number is 2^(12 - r1 - r2 - r3) for every triple: True
+
+A3  THE MODULUS: a matrix of determinant -1 acts by tau -> (a conj(tau) + b)/(c conj(tau) + d)
+    the tick [[1,1],[1,0]]       fixed points satisfy  -u**2 + u - v**2 + 1 = 0  and  -v = 0   ->  [{u: 1/2 - sqrt(5)/2, v: 0}, {u: 1/2 + sqrt(5)/2, v: 0}]
+    the exchange [[0,1],[1,0]]   fixed points satisfy  -u**2 - v**2 + 1 = 0  and  0 = 0   ->  [{u: -sqrt(-(v - 1)*(v + 1))}, {u: sqrt(-(v - 1)*(v + 1))}]
+    [[-1,0],[0,1]]               fixed points satisfy  -2*u = 0  and  0 = 0   ->  [{u: 0}]
+    [[-1,1],[0,1]]               fixed points satisfy  1 - 2*u = 0  and  0 = 0   ->  [{u: 1/2}]
+    (v > 0 on the half-plane: the tick's two equations force v = 0, so it fixes no point; the other three fix a line or a circle)
+
+A4  THE ENDS: every history with an odd number of runs and at most 7 letters (primitive)
+    histories: 22; each has one end: True; none is orientable: True
+
+B   THE SIX-DIMENSIONAL SPACE, on the matrices main's own module builds (B1610's)
+    the two acts generate 96 matrices; with the exchange: 192
+    matrices commuting with all of them (a count of pieces when the pieces differ): 2 under the two acts, 1 with the exchange
+    invariant bilinear forms: 2 under the two acts, 1 with the exchange
+    L and the tick (L followed by the exchange) generate 192 matrices; the same set as the two acts with the exchange: True
+    L and the tick (the exchange followed by L) generate 192 matrices; the same set as the two acts with the exchange: True
+    the two acts' two pieces have dimensions 3 and 3
+    the first piece's character is not real somewhere: True; the second's is its complex conjugate: True
+    plain indicator of the first piece, (1/|G|) sum of chi(g^2): -0.000000   (0: neither real nor quaternionic)
+    the exchange carries the first piece into the second: residual 2.49e-15
+    the exchange carries the two acts' group to itself: True;  the first piece's indicator twisted by it, (1/|G|) sum of chi(g s g s^-1): 1.000000 -0.000000i
+    the same with the exchange's matrix multiplied by i: 1.000000   (the automorphism is the same, so the number must be)
+    plain indicator of the whole six-dimensional space with the exchange: -1.000 with main's lift, 1.000 with i times it

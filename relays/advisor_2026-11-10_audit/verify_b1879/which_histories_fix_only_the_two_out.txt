@@ -1,0 +1,18 @@
+which histories fix only the trivial character (2,2,2) and the quaternion point (0,0,0)?
+a history is a cyclic word in L (add) and F (the tick); 'odd' = an odd number of ticks
+word     ticks its fixed characters               only the two?
+F        odd   2 point(s): [(0, 0, 0), (2, 2, 2)] YES
+FL       odd   3 point(s): [(-2, 2, -2), (0, 0, 0), (2, 2, 2)] no
+FLL      odd   a set of positive dimension        no
+FFL      even  a set of positive dimension        no
+FLLL     odd   a set of positive dimension        no
+FFLL     even  a set of positive dimension        no
+FFFL     odd   a set of positive dimension        no
+FLLLL    odd   a set of positive dimension        no
+FFLLL    even  a set of positive dimension        no
+FLFLL    even  a set of positive dimension        no
+FFFLL    odd   a set of positive dimension        no
+FFLFL    odd   a set of positive dimension        no
+FFFFL    even  a set of positive dimension        no
+
+histories of at most 5 letters that fix only the two: ['F']
