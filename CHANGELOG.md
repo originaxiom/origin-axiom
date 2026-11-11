@@ -1,5 +1,21 @@
 # Changelog
 
+## SM-C2 closed: the physical lane's twenty results of 2026-11-03 and 04 — twenty REPRODUCED; M1 complete
+
+- **Checked with this seat's own code** (`relays/sm_c2/`, committed before the note): every identity, coefficient,
+  count and quoted scope that decides.
+  - It covers the two-loop running and the rescaling invariant, the CP¹ orbit metric, the flat family and its
+    centralizer, the generic roster, the order-ten and order-three cubics with √(8/5), the electroweak branch and its
+    W/Z matching, the complete kernel, the neutral lift and family, the register-to-spin map, the spin/flavour twist,
+    and the register/flavour Gram and quartic test.
+  - The two intakes were checked against their sources.
+  - Each check runs a planted error, and every one was caught. These include the card's two: row 1530's flipped sign
+    and row 1521's dropped χ¹⁰ condition.
+- **The lane's unrun controls**, six packages and 44 tests, were run once each as found: all OK.
+- **Row 1527's measured-angle comparison** is CANNOT CHECK under the firewall; it was not made.
+- **The verdicts** are in `relays/SM_C2_VERDICTS.md`, conditional on the source constructions each item names. With
+  SM-C1, M1 is complete: thirty items, thirty verdicts. 0 of 19.
+
 ## SM-C1 closed: the physical lane's ten hand derivations of 2026-10-27 to 29 — ten REPRODUCED
 
 - **Checked with this seat's own code** (`relays/sm_c1/`, committed before the note): every identity, coefficient and

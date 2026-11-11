@@ -21738,3 +21738,13 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   numerics. Each check was also fed deliberately wrong inputs, to prove it could catch a mistake.
 - **What was found:** all ten hold, as conditional results resting on the model the other seat built. Three slips were
   in this seat's own checking code, not in the physics; each is disclosed where it was fixed. 0 of 19.
+
+## 2026-11-11 — the other twenty pieces checked, and all twenty hold
+
+- **What was checked:** the second batch of the assignment, twenty newer results from the same seat. They cover how
+  its model breaks the electroweak symmetry, which particles stay massless, how an existing field gives some of them
+  mass, and how a finite symmetry acts on the whole model. The other seat had also written 44 automatic tests and never
+  run them; this seat ran them, and all pass.
+- **What was found:** all twenty hold, again as conditional results resting on the other seat's model. One part of
+  one item would mean comparing a predicted angle with its measured value; that is outside this seat's rules for this
+  work, so it was not done. The whole assignment is now finished: thirty pieces, thirty verdicts. 0 of 19.
