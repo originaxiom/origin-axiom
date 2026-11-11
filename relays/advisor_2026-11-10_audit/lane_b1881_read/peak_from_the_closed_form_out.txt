@@ -1,0 +1,10 @@
+R = pi / (2 ln phi) = 3.264251302636497; ideals of norm up to 90: 39
+Y0  c(1..12) = 1.000000  0.000000  0.000000  1.000000  -1.000000  0.000000  0.000000  0.000000  1.000000  0.000000  -1.113184  0.000000
+    c(2) = c(3) = 0, c(4) = +1, c(5) = -1, c(11) = -1.113183957920 (the lane prints -1.113183957920): HOLDS
+    multiplicative on coprime arguments, greatest gap 0.00e+00
+Y1  psi(-1/(5z)) + psi(z) at 20 points, as a share of the greatest |psi| among them: 8.48e-12: HOLDS
+    psi at the two ends of the arc (forced zeros): -6.72e-14 and 8.53e-19
+Y2  the maximum of psi^2 on the circle: at 0.2515398 + 0.3697671 i (angle 55.7739 degrees); the lane's point 0.2515398 + 0.3697671 i: HOLDS
+    psi^2 there 0.000030 (not normalised); the greatest value on the circle more than 3 degrees away, as a share of it: 0.9809
+Y3  the greatest psi^2 on a grid of the domain off the circle: 0.000030 at 0.2525 + 0.3731 i, which is 0.9995 of the circle's maximum: HOLDS
+closed form exit 0
