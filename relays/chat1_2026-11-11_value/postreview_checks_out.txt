@@ -1,0 +1,11 @@
+own values: A 2.41818304  B 2.423507871
+A closed by 1 period keeps the line: {'g v mod 5': [1, 3], 'v^T g mod 5': [1, 3], 'column': True, 'row': True}
+B closed by 1 period keeps the line: {'g v mod 5': [1, 3], 'v^T g mod 5': [1, 3], 'column': True, 'row': True}
+A closed by 1 then B closed by 2 : apex 2.425956224 in A | best of A 2.425956224 | best of B 2.424539515 | the composite keeps the line: True
+A closed by 2 then B closed by 3 : apex 2.423658265 in B | best of A 2.419310441 | best of B 2.423658265 | the composite keeps the line: True
+A closed by 4 then B closed by 5 : apex 2.423511072 in B | best of A 2.418207014 | best of B 2.423511072 | the composite keeps the line: True
+A closed by 8 then B closed by 9 : apex 2.423507873 in B | best of A 2.418183051 | best of B 2.423507873 | the composite keeps the line: True
+run of 6 with one period on both sides: 3.651483717 own 3.618033989 off by 0.9245 percent
+run of 11 with one period on both sides: 6.157651067 own 6.118033989 off by 0.6475 percent
+(6) closed by 1: 3.651483717 | (6) closed by 1 then by 2: 3.637138368 | below: True
+step ratios of the distance, two copies of (6), k to k + 1: ['6.93509', '6.86577', '6.8558', '6.85435', '6.85414'] | phi^4 = 6.8541
