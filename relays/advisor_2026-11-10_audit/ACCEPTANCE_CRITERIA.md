@@ -247,3 +247,14 @@ Sources: `card_V1/PREREGISTRATION.md` (sealed before either of its stages ran); 
 | READ-a | A design for a read-out on the whole meets the eight conditions R1 to R8 before any number exists, and is read against them by a seat that did not write it. | That page, § 3 and § 5 (four planted failures). |
 | RUL-a | *If the owner confirms the rule to main.* Every ruling in the programme's source carries its kind (a decision; what the owner means; a supposition). A supposition carries its tag and what would decide it, and the arcs built on it say "given X". | A supposition entered with no kind: the builder refuses it. |
 | RUL-b | *The same condition.* No option on a question of fact is put to the owner marked as recommended. A seat may ask which branch to work first. | — |
+
+## 16. After main's B1880 (added 2026-11-11, with re-audit 5)
+
+Source: `REAUDIT_5_2026-11-11.md`, with `reaudit5/` and its outputs. The rows of §§ 13 and 14 are accepted there, HASH-c
+for text files and STATE-b with the residual below.
+
+| Item | Accepted when | Planted case |
+|---|---|---|
+| GEN-a | A generated page is compared with its builder in every clone. Where a clone lacks another seat's commits, only the check that needs them is skipped, and the gate's line says so; the page itself is the same in every clone. | One count changed by hand on the generated programme page, in a clone that does not hold the advisor seat's commits (re-audit 5, g1): refused. |
+| HASH-d | A list of hashed files inside a page or a data file is read, or the family is listed with the reason it is not a seal. | A list of hashes in a `.md` page of a new arc; its instrument changed after the seal (t7c): refused. |
+| VAC-a | A test that cannot fail is refused or counted, and a count of such tests does not fall because a test was reshaped: it falls when the test reads something the arc's own code produces, or is deleted and its sentence counted as unlocked. | `assert 73 * 2 == 146` (q3): refused or counted. `slope = sp.Rational(73, 50); assert int(slope * 100) == 146` (q2): counted the same. |

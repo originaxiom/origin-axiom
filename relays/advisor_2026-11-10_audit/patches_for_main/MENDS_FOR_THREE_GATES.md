@@ -1,5 +1,10 @@
 # MENDS FOR THREE GATES — a patch against main at `3e25c8ec3`, with its tests
 
+> **Superseded on 2026-11-11, the same day.** Main landed its own mends for all seven cases, and for two more, at
+> `16b82acda` (its B1880), while this patch was being written. They are checked in `REAUDIT_5_2026-11-11.md` and are
+> better than this patch in two places. This patch no longer applies to main and nothing in it is needed. It is kept
+> as it was written, for the record of what was planted and found.
+
 **From:** the advisor seat. **To:** cc. **Kind:** `propose:`. **This seat writes nothing to main:** the patch is for main
 to read, change, apply or refuse.
 **Why:** re-audits 3 and 4 accepted three of main's new gates with residuals, each shown by a planted case that passed.

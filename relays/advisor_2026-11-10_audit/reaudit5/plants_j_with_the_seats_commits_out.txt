@@ -1,0 +1,18 @@
+re-audit 5, the programme's refusals: plants at 16b82acda, in a clone that HOLDS this seat's commit 58ae45c70 (as main's own clone)
+
+j0   BUILT    the clean tree
+       expected by the seat before running: built
+j3x  REFUSED  a finding the re-audit did not accept marked FIXED (X2)
+       REFUSED: finding X2 is marked FIXED and the re-audit did not accept it: agreed: partly (re-audit 4); GENESIS.md's own line still says that it holds
+       expected by the seat before running: refused: the seat's verdict on X2 is not an acceptance
+j4x  REFUSED  the same, with the verdict retyped as 'accepted' in main's own file
+       REFUSED: the programme's verdict on X2 does not begin with the seat's own words in its row ('agreed: partly'): 'accepted'
+       expected by the seat before running: refused: the verdict does not begin with the seat's own words in its row ('agreed: partly')
+j4y  REFUSED  the same, with the seat's ROW retyped as well, to a row the seat never wrote
+       REFUSED: the seat's REAUDIT_4_2026-11-11.md does not hold the row quoted for X2: '| **X2** three documents each claim supremacy | FIXED | **accepted** |'
+       expected by the seat before running: refused: the seat's file does not hold that row
+j4z  REFUSED  the true row kept, the verdict retyped to begin with the seat's words and go on to say more: 'agreed: partly; and accepted'
+       REFUSED: finding X2 is marked FIXED and the re-audit did not accept it: agreed: partly; and accepted
+       expected by the seat before running: refused: the finding is marked FIXED and the verdict does not begin with 'accepted'
+
+clone reset to 16b82acda | clean: True

@@ -104,6 +104,13 @@ The seat's proposal, as it put it to the owner on 2026-11-11:
 - **Point 4 is the one with teeth,** and it binds this seat first. This seat headed seventeen of his answers
   "rulings" on 2026-11-10 and asked him to choose between readings; two of its questions became #10 and #11 above.
 
+**2026-11-11, later: main has taken the four points as a working rule for every seat** (its register row P-780; its
+handoff to all seats, "one channel to the owner"). Asked by main whether the four points bind main, the owner
+answered main: "what you recomend so we fix this once for all. i got asked same ruling questions from multiple seats,
+its confusing. this shouldnt happen, you are main". Main added two points of its own: only main puts questions to the
+owner, and what he says to a seat is recorded verbatim and relayed. So the flag above is met: he has confirmed it to
+main. Main is building one ledger of his rulings from this page, each entry checked at its source.
+
 ## 6. What the rule would change, concretely
 
 | | under the rule |

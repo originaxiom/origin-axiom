@@ -1,0 +1,31 @@
+variants on the lane's gates: plants at 16b82acda 
+
+clean tree: artifact-hashes      PASS  ok (2247 entries in 269 lists: 1826 verify, 421 do not (417 distinct, each frozen in the state it was found in, or amended by name; the table holds 41
+clean tree: seal-immutable       PASS  ok (0 commit(s) since 76a4ff388 touch a sealed-style file, each only adding one, or waived by name; waived: 0)
+clean tree: seal-digests         PASS  ok (46 sealed digests recomputed and matching)
+clean tree: seal-ledger-current  PASS  ok (432 sealed files listed, each row's hash recomputed)
+
+t4b   CAUGHT      a frozen entry that is not a script (frontier/B1490_the_common_cover_verified/verification/congruence_level.json), changed again by one line
+        artifact-hashes      FAIL  frontier/B1490_the_common_cover_verified/verification/congruence_level.json against frontier/B1490_the_common_cover_verified/ARTIFACT_HASHES.txt: frozen as M:aff4e027108dfc32, now M:35fbc9bda66da19a -- an entry frozen as it was fo
+        expected by the seat before running: caught: the lane's table holds 41 entries, of every kind of file
+t4c   CAUGHT      a frozen entry that is not a script (frontier/B628_exterior_comparison/COMPARISON_DESIGN.md), changed again by one line
+        artifact-hashes      FAIL  frontier/B628_exterior_comparison/COMPARISON_DESIGN.md against frontier/B598_l85_campaign/ARTIFACT_HASHES.txt: frozen as M:7b5f2ff77c4b0044, now M:5da3724f65f1a81e -- an entry frozen as it was found has changed again
+        seal-immutable       FAIL  c574f5cbd edits the sealed file frontier/B628_exterior_comparison/COMPARISON_DESIGN.md
+        seal-ledger-current  FAIL  frontier/B628_exterior_comparison/COMPARISON_DESIGN.md: the ledger's hash 7b5f2ff7 is not the file's
+        expected by the seat before running: caught: the lane's table holds 41 entries, of every kind of file
+t7a   CAUGHT      a new arc (frontier/B9003_a_sealed_run) whose list of hashed files is named SEAL_SHA256.txt; its instrument changed after the seal
+        artifact-hashes      FAIL  frontier/B9003_a_sealed_run/verification/tool.py: MISMATCH against frontier/B9003_a_sealed_run/SEAL_SHA256.txt -- a file a seal hashed has changed, or a list names what is not there
+        expected by the seat before running: caught: the seat's published case, as a control
+t7b   CAUGHT      a new arc (frontier/B9003_a_sealed_run) whose list of hashed files is named MANIFEST.txt; its instrument changed after the seal
+        artifact-hashes      FAIL  frontier/B9003_a_sealed_run/verification/tool.py: MISMATCH against frontier/B9003_a_sealed_run/MANIFEST.txt -- a file a seal hashed has changed, or a list names what is not there
+        expected by the seat before running: NOT caught: the lane recognises a list by its file name, and this name is not in its pattern
+t7c   NOT CAUGHT  a new arc (frontier/B9003_a_sealed_run) whose list of hashed files is named PINS.md; its instrument changed after the seal
+        expected by the seat before running: NOT caught, for the same reason
+t7d   CAUGHT      a new arc (papers/P99_a_sealed_note) whose list of hashed files is named SEAL_SHA256.txt; its instrument changed after the seal
+        artifact-hashes      FAIL  papers/P99_a_sealed_note/verification/tool.py: MISMATCH against papers/P99_a_sealed_note/SEAL_SHA256.txt -- a file a seal hashed has changed, or a list names what is not there
+        expected by the seat before running: NOT caught: the lane reads such lists under frontier/ and outside_bench/ only
+t3b   CAUGHT      a decoy in the list's verification folder (frontier/B1434_the_architecture_census/ARTIFACT_HASHES.txt names frontier/B1432_the_three_fold_cover_fires_off_the_lift/verification/cover_census.py from the root), then the real file changed
+        artifact-hashes      FAIL  frontier/B1432_the_three_fold_cover_fires_off_the_lift/verification/cover_census.py: MISMATCH against frontier/B1434_the_architecture_census/ARTIFACT_HASHES.txt; frontier/B1432_the_three_fold_cover_fires_off_the_lift/verification/
+        expected by the seat before running: caught: the lane reads a name that starts with frontier/ from the root, and refuses a second candidate
+
+clone reset to 16b82acda | clean: True

@@ -329,6 +329,19 @@ The seat answered with a list of six things it could do and proposed a rule in f
   him as choices. Two of those became suppositions in main's record within a day ("the tick is an act"; "a ground is
   the act itself"). Point 4 of the rule binds this seat first.
 
+## 2026-11-11, later: main's rule on one channel, and one more question of the owner's
+
+Main has made the four points a working rule for every seat, at the owner's word to main (P-780), and added that only
+main puts questions to him and that what he says to a seat is recorded verbatim, with what he was answering, and
+relayed. From here this file follows that form and this seat asks him nothing.
+
+| what he was answering | his words |
+|---|---|
+| nothing: a question of his own to this seat, while it was at work on the six items | "how far are we from our initial goal of getting 100% ready for the final reading? the dynamic scoreboard we talked?" |
+
+The seat answered from main's own generated files (`tools/where_we_stand.py`) and relayed the question and the answer
+to main in `ADVISOR_TO_CC_2026-11-11_SIX_ITEMS.md`, § 4.
+
 ## The roles
 
 The owner, the same day: this seat "will serve as an advisor for cc - the banking seat"; when cc is ready the reports

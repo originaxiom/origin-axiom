@@ -1,0 +1,19 @@
+re-audit 5, the programme's refusals: plants at 16b82acda, in a clone that does NOT hold this seat's commit 58ae45c70 (as a fresh clone of main alone)
+
+j0   BUILT    the clean tree
+       THE PROGRAMME COVERS THE MAP; NOT CHECKED IN THIS CLONE: the advisor seat's re-audits
+       expected by the seat before running: built, and it prints that the seat's re-audits are not checked in this clone
+j3x  REFUSED  a finding the re-audit did not accept marked FIXED (X2)
+       REFUSED: finding X2 is marked FIXED and the re-audit did not accept it: agreed: partly (re-audit 4); GENESIS.md's own line still says that it holds
+       expected by the seat before running: refused: the seat's verdict on X2 is not an acceptance
+j4x  REFUSED  the same, with the verdict retyped as 'accepted' in main's own file
+       REFUSED: the programme's verdict on X2 does not begin with the seat's own words in its row ('agreed: partly'): 'accepted'
+       expected by the seat before running: refused: the verdict does not begin with the seat's own words in its row ('agreed: partly')
+j4y  BUILT    the same, with the seat's ROW retyped as well, to a row the seat never wrote
+       THE PROGRAMME COVERS THE MAP; NOT CHECKED IN THIS CLONE: the advisor seat's re-audits
+       expected by the seat before running: BUILT, with 'not checked' printed: the row cannot be read where the seat's commit is absent
+j4z  REFUSED  the true row kept, the verdict retyped to begin with the seat's words and go on to say more: 'agreed: partly; and accepted'
+       REFUSED: finding X2 is marked FIXED and the re-audit did not accept it: agreed: partly; and accepted
+       expected by the seat before running: refused: the finding is marked FIXED and the verdict does not begin with 'accepted'
+
+clone reset to 16b82acda | clean: True

@@ -1,0 +1,18 @@
+variants on the lane's gate against tests that cannot fail: plants at 16b82acda 
+
+clean tree: test-vacuity PASS  ok (6437 tests, 0 vacuous; 97 both-literal for review)
+
+q1   NOT CAUGHT  tests/test_b776_b685.py put back as main has it (it holds: assert 73 * 2 == 146)
+       the gate: ok (6437 tests, 0 vacuous; 97 both-literal for review)
+       expected by the seat before running: caught: the plain form is what the lane's gate refuses, which is why the lane rewrote it
+q2   NOT CAUGHT  a new test whose only line is the lane's rewrite: slope = sp.Rational(73, 50); assert int(slope * 100) == 146
+       the gate: ok (6438 tests, 0 vacuous; 97 both-literal for review)
+       expected by the seat before running: NOT caught: it cannot fail either, and the gate does not see it
+q3   NOT CAUGHT  a new test whose only line is the plain form: assert 73 * 2 == 146
+       the gate: ok (6438 tests, 0 vacuous; 98 both-literal for review)
+       expected by the seat before running: caught (a control)
+q4   NOT CAUGHT  a new test whose only lines are another of the lane's rewrites: strata = (63, 6, 1, 11); assert sum(strata) == 81 == pow(3, 4)
+       the gate: ok (6438 tests, 0 vacuous; 97 both-literal for review)
+       expected by the seat before running: NOT caught
+
+clone reset to 16b82acda | clean: True
