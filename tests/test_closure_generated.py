@@ -52,6 +52,17 @@ def test_a_stale_programme_is_refused_or_visibly_skipped():
             assert not ok and ("frontier/B1861_the_closure_programme/%s is not its builder's output" % name) in why, (name, why)
 
 
+def test_a_stale_status_page_is_refused():
+    """B1883: the page that says how far the record is from the final reading is generated from the programme, the map and the
+    scoreboard's data, and is compared with its builder at every push like the two it reads"""
+    g = _gates()
+    here = ROOT / "frontier" / "B1883_where_we_stand"
+    for name in ("WHERE_WE_STAND.md", "WHERE_WE_STAND.json"):
+        ok, why = g.gate_closure_generated(_read=_stale(here / name))
+        assert not ok and ("frontier/B1883_where_we_stand/%s is not its builder's output" % name) in why, (name, why)
+    assert [c[0].split("/")[1].split("_")[0] for c in g.CLOSURE_GENERATED] == ["B1858", "B1861", "B1883"]       # in the order they must be built
+
+
 def test_the_gate_is_registered_with_a_control_and_a_practice():
     import json
     g = _gates()

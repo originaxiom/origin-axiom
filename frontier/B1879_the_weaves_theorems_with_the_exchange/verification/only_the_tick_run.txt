@@ -1,0 +1,20 @@
+WHICH HISTORIES OF AT MOST FIVE LETTERS FIX EXACTLY THE TRIVIAL CHARACTER AND THE QUATERNION POINT?
+histories (cyclic words in L and F with at least one F, not a power): 13
+   F      (1 tick): finitely many, 2; besides the two: none
+   FL     (1 tick): finitely many, 3; besides the two: (-2, 2, -2)
+   FLL    (1 tick): a set of positive dimension
+   FFL    (2 ticks): a set of positive dimension
+   FLLL   (1 tick): a set of positive dimension
+   FFLL   (2 ticks): a set of positive dimension
+   FFFL   (3 ticks): a set of positive dimension
+   FLLLL  (1 tick): a set of positive dimension
+   FFLLL  (2 ticks): a set of positive dimension
+   FLFLL  (2 ticks): a set of positive dimension
+   FFFLL  (3 ticks): a set of positive dimension
+   FFLFL  (3 ticks): a set of positive dimension
+   FFFFL  (4 ticks): a set of positive dimension
+
+exactly the two: F
+the two and finitely many more: FL
+a set of positive dimension: 11 of 13
+the tick alone is the only history of at most five letters that fixes exactly the two: True

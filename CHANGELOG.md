@@ -1,5 +1,17 @@
 # Changelog
 
+## S306p THE TEAM'S MORNING HARVESTED: A STATUS PAGE (B1883), THE GROUND'S LEVEL VERIFIED (B1884), THE V1 CARD SEALED FOR ITS RUN (B1882), TWO AGY BRANCHES REGISTERED (P-781) (2026-11-11)
+
+- **Why.** While main worked on its last landing, the advisor seat, the web seat and the agy lane pushed again: the advisor's six items at the owner's word, a third card from the web seat, and two new branches of the agy lane. The owner had asked main for the seats' progress and the message did not arrive. This landing is that harvest, as far as main has read.
+- **B1883, where we stand.** The owner asked a seat how far the record is from ready for the final reading. The advisor seat answered with a script over main's own files. Main now generates that answer as a page, compared with its builder at every push and quoted in every report. Ready means the sealed card is done and every package it waits on is done; nothing softer is counted. Nothing is typed in it. It is not yet the count as an output that the owner's ruling asks for, and it says so.
+- **B1884, what level a ground names.** The web seat's sealed card, verified with main's own integer code (17 checks). The tick has its level by its discriminant, 5, which it shares with its square. The rule of a history's own lines gives the tick no line at any level. Exactly one line is kept as a set at level 5 and at no other level to 200. So the foundation's entry for the ground must say which reading it uses.
+- **B1882, the V1 card, sealed for its run.** The advisor seat sealed a card for the one audit finding main still holds open, ran its planted controls, and left the deciding count to main. Main read the card and its script in full, re-ran the controls with the same counts, and sealed its own note and expectations in a commit of their own. The second stage runs after this landing is pushed. It is null-only: no measured target enters any statistic.
+- **B1879, one sharper fact.** The advisor seat recomputed main's morning arc with its own code; all of it agrees. Its added fact is reproduced by main: among the thirteen histories of at most five letters, the single tick is the only one that fixes exactly the trivial character and the quaternion point.
+- **The gate for a sentence of arrival, joined with the advisor seat's own mend.** The two differed in one place each; both hold now, and the seat's sentences are in main's tests.
+- **Two branches of the agy lane registered and pinned, not read** (P-781): gates that by the advisor seat's run catch 21 of 21 planted violations; the weave's theorems with the tick; a claimed proof of the settling rate; a sealed read-out on the whole that ends in a comparison with measurement; and a loop in four phases. Its relay to main is read through the mask. Nothing is adopted and nothing compared. Its arc numbers B1879 to B1881 collide with main's and are cited as agy:B1879 to agy:B1881.
+- **The advisor seat's acceptance test for a read-out on the whole is taken for main's design** (P-776): eight conditions, written before any number.
+- 0 of 19.
+
 ## S306p TWO SEATS HARVESTED AND VERIFIED: THE ADVISOR SEAT'S THIRD AND FOURTH RE-AUDITS ANSWERED (B1880), AND THE WEB SEAT'S TWO RELAYS ON THE READ-OUT OF THE WHOLE VERIFIED (B1881) (2026-11-11)
 
 - **Why now.** The owner asked what else main had not harvested. Measured at the fetch: the advisor seat two commits past its pin (its re-audits 3 and 4 of main), the web seat nine (two relays). Main had fetched re-audit 3 eight hours earlier and not read it.

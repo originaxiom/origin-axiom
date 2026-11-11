@@ -561,7 +561,8 @@
   "P-757": "WP-0.7",
   "P-772": "WP-0.7",
   "P-773": "WP-0.12",
-  "P-777": "WP-0.7"
+  "P-777": "WP-0.7",
+  "P-781": "WP-0.4"
  },
  "direct_rulings": [
   [
@@ -1271,9 +1272,15 @@
    "wp": "WP-0.5"
   },
   "V1": {
-   "note": "not checked, and why (B1870): the audit's figure has no tracked source, and deciding it needs a computation on the nulls that belongs behind a sealed card. Main's checker found that the later nulls take the best over 223 apexes and 266 lines and not over a plain grid, so the audit does not say which null it measured",
+   "note": "the advisor seat has sealed a card for it (null-only, for the nulls of B1726 and B1753: does an end of the window in the height of the modulus move the count of well-fitted random targets), run its planted controls, and left the deciding count to main. Main read the card and its script in full, re-ran the controls on its own machine with the same counts, and sealed its own note and expectations before the run (B1882). The second stage has not run at this landing. Earlier (B1870): the audit's figure has no tracked source, and the audit does not say which null it measured",
    "short": "every specificity null has an unpriced window",
    "state": "OPEN",
+   "trail": [
+    [
+     "OPEN",
+     "not checked, and why (B1870): the audit's figure has no tracked source, and deciding it needs a computation on the nulls that belongs behind a sealed card. Main's checker found that the later nulls take the best over 223 apexes and 266 lines and not over a plain grid, so the audit does not say which null it measured"
+    ]
+   ],
    "was": [
     "OPEN",
     ""
@@ -2334,10 +2341,77 @@
    "D:14 rests on E:J3"
   ]
  },
+ "milestones": [
+  [
+   "M1",
+   "the dependency map is complete",
+   "every package's nodes are in the map, every map node that needs a path has a package (this builder's check), and WP-0.6 holds at every landing",
+   [
+    "WP-0.6"
+   ]
+  ],
+  [
+   "M2",
+   "the physical construction is verified",
+   "every package of C1 to C4 is closed at its acceptance; main adds that C0's classes are empty upstream of what is claimed (the work order's own second status does not ask that)",
+   [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4"
+   ]
+  ],
+  [
+   "M3",
+   "the predictions are ready for comparison",
+   "every package of C5 is closed: the certificate, the upstream audit, the sealed card, the independent challenge",
+   [
+    "C5"
+   ]
+  ]
+ ],
  "not_confirmed": {
   "stress-test the principle": "im not very sure about it, i wouldnt take it for granted",
   "the gap, for every seat": "it was in other context"
  },
+ "obligations": [
+  [
+   "C0",
+   "The record is clean under the claim",
+   "added by main: the work order does not mention the record's own open debts, and the advisor seat's audit of 2026-11-10 found the enforcement under them weaker than it says"
+  ],
+  [
+   "C1",
+   "Foundational generation and selection",
+   "the work order's C1"
+  ],
+  [
+   "C2",
+   "One physical action, stationary background and response",
+   "the work order's C2"
+  ],
+  [
+   "C3",
+   "Complete field content and interactions",
+   "the work order's C3"
+  ],
+  [
+   "C4",
+   "States, quantum dynamics, parameters and gravity",
+   "the work order's C4"
+  ],
+  [
+   "C5",
+   "The pre-comparison seal and independent challenge",
+   "the work order's C5"
+  ],
+  [
+   "C6",
+   "Dimensional calibration and empirical comparison",
+   "the work order's C6"
+  ]
+ ],
  "opinion": {
   "attribution": "agree; already the practice. The gate does not read commit messages and should",
   "no rule picks a next thing": "agree as wording: it matches the computations, in which every 'least' on record returns what was put in. It is not yet a mathematical object",
@@ -2579,7 +2653,8 @@
     "P-492",
     "P-571",
     "P-646",
-    "P-698"
+    "P-698",
+    "P-781"
    ],
    "findings": [],
    "first": "the register's ranked debts of this class",
@@ -5108,8 +5183,8 @@
   "candidate_frame_joints": 13,
   "conditional_headlines_released_by_closing_one_choice": 0,
   "conditional_results": 19,
-  "debts": 82,
-  "debts_on_the_map_joined_to_nothing": 65,
+  "debts": 83,
+  "debts_on_the_map_joined_to_nothing": 66,
   "exits_by_kind": {
    "ADMITTED": 3,
    "BACK-EDGE NAMED": 6,
@@ -5147,7 +5222,7 @@
   "inputs_with_an_exit_on_the_table": 9,
   "lanes_supplied_inputs": 7,
   "map_dependencies_between_packages": 21,
-  "map_nodes": 271,
+  "map_nodes": 272,
   "nodes_assigned": 131,
   "nodes_needing_a_path": 131,
   "not_checked_in_this_clone": [],

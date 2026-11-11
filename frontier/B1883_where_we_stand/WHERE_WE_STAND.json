@@ -1,0 +1,246 @@
+{
+ "audit": {
+  "by_state": {
+   "FIXED": 11,
+   "OPEN": 1,
+   "PARTLY FIXED": 15,
+   "READER": 4,
+   "REPRODUCED": 42
+  },
+  "changed_by_main_since_its_re_audit": [
+   "E4",
+   "E8",
+   "G2",
+   "G9",
+   "X1"
+  ],
+  "findings": 73,
+  "fixed_and_not_yet_re_audited": [],
+  "with_the_seats_verdict": 15
+ },
+ "calibration_and_comparison": {
+  "id": "WP-6.1",
+  "status": "NOT STARTED"
+ },
+ "map": {
+  "debts": 83,
+  "debts_joined_to_nothing": 66,
+  "nodes": 272,
+  "nodes_that_need_a_path": 131
+ },
+ "milestones": [
+  {
+   "done": 0,
+   "id": "M1",
+   "name": "the dependency map is complete",
+   "not_started": 0,
+   "packages": 1,
+   "started": 1
+  },
+  {
+   "done": 1,
+   "id": "M2",
+   "name": "the physical construction is verified",
+   "not_started": 22,
+   "packages": 38,
+   "started": 15
+  },
+  {
+   "done": 0,
+   "id": "M3",
+   "name": "the predictions are ready for comparison",
+   "not_started": 3,
+   "packages": 4,
+   "started": 1
+  }
+ ],
+ "not_checked_in_this_clone": [],
+ "obligations": {
+  "C0": "The record is clean under the claim",
+  "C1": "Foundational generation and selection",
+  "C2": "One physical action, stationary background and response",
+  "C3": "Complete field content and interactions",
+  "C4": "States, quantum dynamics, parameters and gravity",
+  "C5": "The pre-comparison seal and independent challenge",
+  "C6": "Dimensional calibration and empirical comparison"
+ },
+ "packages": {
+  "all": 43,
+  "by_obligation": {
+   "C0": {
+    "all": 12,
+    "done": 0,
+    "not_started": 4,
+    "started": 8
+   },
+   "C1": {
+    "all": 9,
+    "done": 1,
+    "not_started": 7,
+    "started": 1
+   },
+   "C2": {
+    "all": 5,
+    "done": 0,
+    "not_started": 4,
+    "started": 1
+   },
+   "C3": {
+    "all": 5,
+    "done": 0,
+    "not_started": 4,
+    "started": 1
+   },
+   "C4": {
+    "all": 7,
+    "done": 0,
+    "not_started": 3,
+    "started": 4
+   },
+   "C5": {
+    "all": 4,
+    "done": 0,
+    "not_started": 3,
+    "started": 1
+   },
+   "C6": {
+    "all": 1,
+    "done": 0,
+    "not_started": 1,
+    "started": 0
+   }
+  },
+  "done": 1,
+  "not_started": 26,
+  "started": 16,
+  "with_no_owner": [
+   "WP-1.8",
+   "WP-1.9",
+   "WP-3.5",
+   "WP-4.5"
+  ]
+ },
+ "packages_the_card_waits_on": {
+  "done": 0,
+  "each": [
+   [
+    "WP-0.1",
+    "STARTED",
+    "False or stale statements in foundation and front documents"
+   ],
+   [
+    "WP-0.11",
+    "STARTED",
+    "The weave discipline, mechanised"
+   ],
+   [
+    "WP-0.12",
+    "NOT STARTED",
+    "The count as an output, and the map on the desk"
+   ],
+   [
+    "WP-0.2",
+    "NOT STARTED",
+    "Debts that bear on current work"
+   ],
+   [
+    "WP-0.3",
+    "STARTED",
+    "Checks that cannot fail, instruments and seal claims"
+   ],
+   [
+    "WP-0.4",
+    "NOT STARTED",
+    "Unverified premises and seat results under banked results"
+   ],
+   [
+    "WP-0.5",
+    "STARTED",
+    "A green full suite on a fresh clone"
+   ],
+   [
+    "WP-0.7",
+    "STARTED",
+    "Enforcement that enforces"
+   ],
+   [
+    "WP-0.9",
+    "NOT STARTED",
+    "Labels as strong as the content"
+   ]
+  ],
+  "ids": [
+   "WP-0.1",
+   "WP-0.11",
+   "WP-0.12",
+   "WP-0.2",
+   "WP-0.3",
+   "WP-0.4",
+   "WP-0.5",
+   "WP-0.7",
+   "WP-0.9"
+  ],
+  "not_started": 4,
+  "started": 5
+ },
+ "put_in_by_hand": {
+  "by_kind": {
+   "ansatz": 1,
+   "axiom": 8,
+   "bit": 9,
+   "discrete": 16,
+   "identification": 7,
+   "real": 5
+  },
+  "conditional_headlines": {
+   "G:ROOT": 2,
+   "MC:Z6": 3,
+   "V:SIX": 15,
+   "W:INDEX3": 3
+  },
+  "conditional_results": 19,
+  "exits_by_kind": {
+   "ADMITTED": 3,
+   "BACK-EDGE NAMED": 6,
+   "DICTIONARY": 6,
+   "FORCING ARGUED": 2,
+   "KEPT": 3,
+   "ONE CLAUSE SHORT": 3,
+   "PRESSED": 3,
+   "RIGID": 1,
+   "UNTOUCHED": 11
+  },
+  "independent_choices": 38,
+  "items": 46,
+  "supplied_by_the_lanes_model": 7,
+  "with_an_exit_on_the_table": 9
+ },
+ "ready_for_the_final_reading": false,
+ "register": {
+  "by_kind": {
+   "DEBT": 83,
+   "LEAD": 129,
+   "OWNER": 4,
+   "PROCESS": 53
+  },
+  "open": 269,
+  "owner_calls_open": [
+   "P-081",
+   "P-082",
+   "P-253",
+   "P-779"
+  ],
+  "points": 781
+ },
+ "rows_the_scoreboard_lists": 23,
+ "the_count_as_an_output": {
+  "id": "WP-0.12",
+  "status": "NOT STARTED"
+ },
+ "the_sealed_card": {
+  "id": "WP-5.3",
+  "status": "NOT STARTED"
+ },
+ "values_earned": 0,
+ "values_in_all": 19
+}

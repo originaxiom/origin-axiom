@@ -6541,5 +6541,29 @@
    "P-777": "QUEUED"
   },
   "weave_or_thread": "n/a"
+ },
+ {
+  "id": "P:781",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "the agy lane's two branches of 2026-11-11 are registered and not read: gates, the weave with the tick, a claimed proof of the settling rate, and a read-out on the whole that ends in a comparison main has not read; three seats are already checking it.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-781 — "
+   ]
+  ],
+  "rows": [
+   "P-781"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 83,
+  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "rows_live": {
+   "P-781": "QUEUED"
+  },
+  "weave_or_thread": "n/a"
  }
 ]

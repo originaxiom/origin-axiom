@@ -63,26 +63,28 @@ def test_every_planted_case_of_the_two_re_audits_has_its_test_in_the_suite():
 
 
 def test_the_measured_state_is_the_gates_and_the_frozen_table_is_the_one_pinned():
-    state = G.hash_list_state()
+    """The measurement is of 2026-11-11 and is a file; the tree goes on taking new seals.  So the measured counts are checked as
+    recorded, and the live state is held to what cannot move without a fault: nothing that verified then is missing now, and
+    what does not verify is exactly the frozen table.  (This lock first pinned the live counts; the next sealed card, a day
+    later, added a list and failed it.)"""
     a = DATA["all_lists"]
+    assert (a["lists"], a["under_another_name"], a["entries"]) == (269, 80, 2247)
+    assert a["states"]["VERIFIES"] == 1826 and "AMBIGUOUS" not in a["states"]
+    assert a["under_another_name_states"]["VERIFIES"] == 396 and a["under_another_name_states"]["MISMATCH"] == 144
+    assert a["under_another_name_states"].get("ABSENT", 0) + a["under_another_name_states"].get("NOT TRACKED", 0) == 210       # a clone has no untracked files
+    assert a["lowest_share_among_lists"] == 0.375 > G.HASH_LIST_MIN_SHARE > 0.06 >= a["highest_share_among_files_that_are_not_lists"]      # 6 lines of 16, against 1 of 17
+    state = G.hash_list_state()
     lists = {e[1] for e in state}
     other = {l for l in lists if not fnmatch.fnmatch(os.path.basename(l), G.ARTIFACT_HASH_GLOB)}
-    assert (len(lists), len(other), len(state)) == (a["lists"], a["under_another_name"], a["entries"]) == (269, 80, 2247)
-    counts = {}
-    for e in state:
-        counts[e[3]] = counts.get(e[3], 0) + 1
-    assert counts == a["states"] and counts["VERIFIES"] == 1826 and "AMBIGUOUS" not in counts
-    assert a["under_another_name_states"] == {"VERIFIES": 396, "MISMATCH": 144, "ABSENT": 188, "NOT TRACKED": 22} or (
-        a["under_another_name_states"]["VERIFIES"] == 396 and a["under_another_name_states"]["MISMATCH"] == 144
-        and a["under_another_name_states"].get("ABSENT", 0) + a["under_another_name_states"].get("NOT TRACKED", 0) == 210)     # a clone has no untracked files
+    assert len(lists) >= 269 and len(other) >= 80 and len(state) >= 2247
+    assert sum(1 for e in state if e[3] == "VERIFIES") >= 1826 and not [e for e in state if e[3] == "AMBIGUOUS"]
     table = G.hash_lists_frozen()
     assert table is not None and len(table) == DATA["frozen_table"]["keys"] == 417
     assert hashlib.sha256((ROOT / G.HASH_LISTS_FROZEN_FILE).read_bytes()).hexdigest() == DATA["frozen_table"]["sha256"] == G.HASH_LISTS_FROZEN_SHA256
     broken = {e[0]: e[4] for e in state if e[3] != "VERIFIES"}
     assert broken == table                                    # every entry that does not verify is in the table with its state, and nothing else is
-    assert a["lowest_share_among_lists"] == 0.375 > G.HASH_LIST_MIN_SHARE > 0.06 >= a["highest_share_among_files_that_are_not_lists"]      # 6 lines of 16, against 1 of 17
     ok, why = G.gate_artifact_hashes()
-    assert ok and "2247 entries in 269 lists: 1826 verify" in why and "80 of the lists are under another name" in why, why
+    assert ok and "the table holds 417" in why and "of the lists are under another name" in why, why
 
 
 def test_the_two_entries_declared_by_name_each_mean_the_file_beside_their_list():

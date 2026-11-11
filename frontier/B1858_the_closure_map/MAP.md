@@ -25,7 +25,7 @@ by a quote that the builder checks.*
 | LANE-PROPOSED | a seat's hand proof, count or estimate, unreviewed; not verified on main | 7 |
 | LANE-INPUT | an input the seat's own ledger prices as supplied, unselected or unearned | 7 |
 | DUTY | something the full goal requires and nobody has done | 16 |
-| DEBT | a result the record uses is owed a check or a correction | 82 |
+| DEBT | a result the record uses is owed a check or a correction | 83 |
 | CLOSURE | one missing dependency under several names | 11 |
 
 ## 0. The principle
@@ -378,3 +378,4 @@ by a quote that the builder checks.*
 | 80 | P-772 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | what the seals do not yet protect: the scripts a seal hashed, a rule under another name or one folder deeper, a rule committed after its record; a waiver that hides its violation; the log's archives; and one correction of main's not carried to the arcs that state the old form. |
 | 81 | P-773 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | the programme's own rule for a seal cannot be evaluated: 63 of 80 debts and the unearned identifications are joined to nothing on the map, no choice carries its alternatives, and three prices stand unreconciled. |
 | 82 | P-777 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | 342 entries of lists of hashed files under other names do not verify and are frozen as found, not read: what each list records is owed, family by family (the advisor seat's acceptance row HASH-c). |
+| 83 | P-781 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | the agy lane's two branches of 2026-11-11 are registered and not read: gates, the weave with the tick, a claimed proof of the settling rate, and a read-out on the whole that ends in a comparison main has not read; three seats are already checking it. |

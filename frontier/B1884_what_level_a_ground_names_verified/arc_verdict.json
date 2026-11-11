@@ -1,0 +1,30 @@
+{
+ "id": "B1884",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1876",
+  "B1879",
+  "B1872",
+  "B1733",
+  "B1845",
+  "B1323"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the web seat (chat1): CHAT1_TO_CC_2026-11-11_WHAT_LEVEL_A_GROUND_NAMES.md and its sealed card @ b744aa1e, read in full; every prediction re-derived by main's own code, none of the seat's code run"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (integer matrices of the two acts and the tick, acting on the lines of order N)",
+  "object": "one history, the ground: the tick and its square",
+  "domain": "N from 2 to 200; non-negative matrices with entries to 8; the seven other root histories to N = 60",
+  "not_covered": "what all allowed histories do together; whether a ground must have a level; whether the level is physical"
+ },
+ "claim_one_line": "THE WEB SEAT'S SEALED CARD ON WHAT LEVEL A GROUND NAMES, VERIFIED ON MAIN (a thread result on the ground; integers; 17 checks, none failing; for the foundation's entry on the ground, P-767): the tick F, add and exchange, has F^2 the ground and determinant -1; det(F - I) = -1 and det(F + I) = 1, so the tick keeps no vector up to sign at any level, by hand and by brute force to N = 200, while its square keeps four at N = 5 and none elsewhere; for determinant -1 and trace s the two determinants are -s and s (checked on all 87 non-negative matrices of determinant -1 with entries to 8), so among histories with an odd number of ticks only the tick and its other side have no line of their own; the lines kept as sets by the tick and by its square are as many as the roots of x^2 - x - 1 modulo N -- exactly one at N = 5 and at no other N to 200, two at 11, 19, 29 and on -- so 'a canonical invariant' selects 5 only when it means the only invariant line; at level 5 the tick moves its line's four vectors in one orbit and exchanges the twins. So the tick has its level by the discriminant, which it shares with its square, and not by the rule of own lines, which gives it none; the foundation's entry for the ground is to say which reading it uses, and given the ground and that reading the level is not a further input. The same counts hold in main's own convention. Nothing leaves the budget: the ground is a postulate. 0 of 19.",
+ "weave_or_thread": "thread (facts about one history, the ground; where it speaks of the mark it is a thread's reading of a datum of the weave)"
+}

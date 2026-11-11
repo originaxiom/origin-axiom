@@ -1574,6 +1574,7 @@ def gate_artifact_hashes(_repo=None, _frozen=None, _root=None, _waived=None, _am
 CLOSURE_GENERATED = (
     ("frontier/B1858_the_closure_map", "build_map.py", "the closure map"),
     ("frontier/B1861_the_closure_programme", "build_programme.py", "the closure programme"),
+    ("frontier/B1883_where_we_stand", "build_where_we_stand.py", "the status page"),       # reads the two above and the scoreboard's data: built last (B1883)
 )
 
 
@@ -2374,8 +2375,12 @@ ARRIVAL_NEGATION = PRETENSE_NEGATION + ("none", "nothing", "0 of 19", "neither",
 # contains "aim" ("minor" contains "nor", "nonetheless" contains "none").  From B1880 the excusing words are whole words, and they
 # excuse only inside the sentence that carries the phrase (its case r3: "Nothing stands in the way now. The Standard Model is
 # derived." passed on the word of the sentence before).
-_ARRIVAL_NEG_RE = re.compile(r"(?<![a-z0-9])(?:not|no|never|without|none|nothing|neither|nor|cannot|would|whether|if|until|unless|"
-                             r"goals?|aim(?:s|ed)?|seeks?|sought|0 of 19|to be)(?![a-z0-9])|n't(?![a-z0-9])")
+# Joined with the advisor seat's own mend of the same day (its patches_for_main/ @ 7726eeed, read after main's was pushed).  The
+# two differed in one place each: the seat's lets a word of aim run on ("seeking", "aiming", "goals"), which main's refused in an
+# honest sentence; main's lets any "...n't" excuse ("doesn't say that ..."), which the seat's refused.  Both hold now: the words
+# of denial and condition are whole words, the words of aim are matched from their start and may run on.
+_ARRIVAL_NEG_RE = re.compile(r"(?<![a-z0-9])(?:(?:not|no|never|without|none|nothing|neither|nor|cannot|whether|if|until|unless|sought|0 of 19|to be)(?![a-z0-9])"
+                             r"|(?:aim|goal|seek|would)[a-z']*)|n't(?![a-z0-9])")
 _ARRIVAL_SENTENCE_END = re.compile(r"[.!?](?=[\s\"'*_)\]])|\n\s*\n|\n\s*(?:[-*+>]|\d+[.)])\s|\n\s*#+\s|\|")
 ARRIVAL_EXEMPT = PRETENSE_EXEMPT + ("GOVERNANCE.md", "docs/README_HISTORY.md", "docs/POINT_REGISTER.md", "docs/LEAD_REGISTER.md", "docs/OPEN_LEADS.md",
                                     "docs/LOOK_LEDGER.md", "docs/FAILURE_ATLAS.md")      # the page that states the rule; dated history; registers that quote what was said

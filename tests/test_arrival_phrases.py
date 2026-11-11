@@ -99,6 +99,27 @@ def test_the_advisor_seats_six_planted_sentences(tmp_path):
     assert planted("an untracked note\n", "audit/draft/NOTE.md")                                       # outside the reach: not a page
 
 
+def test_the_advisor_seats_own_sentences_for_its_mend_of_the_same_gate(tmp_path):
+    """The advisor seat wrote its own mend of this gate the same morning (its patches_for_main/ @ 7726eeed) and tested it on
+    these sentences.  Main's first mend refused one honest sentence of them ("We are seeking a frame in which ..."), and the
+    seat's refused one that main's passed ("The paper doesn't say that ...").  The two are joined, and both lists hold."""
+    g = _gates()
+    def planted(text):
+        root = tmp_path / ("s%d" % len(list(tmp_path.iterdir())))
+        root.mkdir(); (root / "README.md").write_text(text + "\n", encoding="utf-8")
+        return g.gate_arrival_phrases(_root=root, _baseline=0)[0]
+    for sentence in ("We claim that the Standard Model is derived.", "A minor point: the Standard Model is derived.",
+                     "The motif is plain: the values are derived.", "Nonetheless the Standard Model is derived.",
+                     "Nevertheless, the values are derived.", "Now the Standard Model is derived.", "Notably, the values are derived."):
+        assert not planted(sentence), sentence                                    # a word that only contains, or begins like, an excusing word
+    for sentence in ("The programme aims to show that the Standard Model is derived.", "Among its goals: that the values are derived.",
+                     "It wouldn't follow that the Standard Model is derived.", "We are seeking a frame in which the values are derived.",
+                     "None of this says that the Standard Model is derived.", "We never say that the values are derived.",
+                     "(Not yet: the Standard Model is derived only in the sense of its grammar.)",
+                     "The paper doesn't say that the Standard Model is derived.", "It is aiming at a page where the values are derived."):
+        assert planted(sentence), sentence                                        # an honest sentence of aim, denial or condition
+
+
 def test_the_statement_of_aim_is_no_longer_banned_and_the_governing_page_says_why():
     g = _gates()
     assert "toward the full SM" not in g.BANNED and len(g.BANNED) == 8

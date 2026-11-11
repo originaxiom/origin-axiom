@@ -1,0 +1,28 @@
+THE WEB SEAT'S CARD ON WHAT LEVEL A GROUND NAMES, ON MAIN
+   [ok] G0 F = L P is [[0,1],[1,1]]; F^2 = L R; F'^2 = R L; P L P = R; F' = R F R^-1; det F = det F' = -1
+   [ok] G0 v0 = (1,3): v0 L R = -v0 and v0 F = 3 v0 modulo 5
+   [ok] G1 det(F - I) = -1, det(F + I) = 1; det(LR - I) = -1, det(LR + I) = 5
+   [ok] G1 to N = 200: the tick and its other side keep no primitive vector up to sign at any N
+   [ok] G1 to N = 200: the tick's square, entered at either place, keeps four at N = 5 and none elsewhere
+   [ok] G2 the lines kept as sets by each of the four equal the roots of x^2 - x - 1 modulo N, for every N to 200
+   [ok] G2 and the roots of x^2 - 3x + 1 are as many (the tick's square)
+   N to 200 at which a line is kept: [5, 11, 19, 29, 31, 41, 55, 59, 61, 71, 79, 89, 95, 101, 109, 121, 131, 139, 145, 149, 151, 155, 179, 181, 191, 199]
+   [ok] G2 exactly one line is kept at N = 5 and at no other N to 200; elsewhere there are two or none
+   [ok] G2 rho is as the card says: 1 at 5, 0 at 25, 0 at 2, 2 at a prime that is +-1 modulo 5, 0 at one that is +-2
+   [ok] G2 rho is multiplicative on the N to 200 that are products of two coprime parts
+   [ok] G3 at N = 5 the tick and its other side move their line's four vectors in one orbit of length 4; the square in two of length 2 -- ([4], [4], [2, 2], [2, 2])
+   [ok] G4 non-negative matrices with entries to 8: 174 of determinant +-1, 87 of determinant -1 -- (174, 87)
+   [ok] G4 those with det(g - I) and det(g + I) both units (no line of their own at any level) are exactly the tick and its other side -- [(0, 1, 1, 1), (1, 1, 1, 0)]
+   [ok] G4 by hand, on all 87: det(g - I) = -trace and det(g + I) = trace
+   [ok] G4 and by brute force to N = 40: the same two keep no vector up to sign -- 2
+   [ok] G5 in B1872's convention: the ground [[2,1],[1,1]] keeps (1,2) up to sign at N = 5, four vectors there and none at another N to 60; its tick keeps none -- ((1, 1, 1, 0), (2, 1, 1, 1))
+   L2R   trace 4, discriminant 12: exactly one line kept at N = [2, 3, 6]; a vector kept up to sign at N = [2, 3, 6]
+   LR2   trace 4, discriminant 12: exactly one line kept at N = [2, 3, 6]; a vector kept up to sign at N = [2, 3, 6]
+   L3R   trace 5, discriminant 21: exactly one line kept at N = [3, 7, 21]; a vector kept up to sign at N = [3, 7]
+   LR3   trace 5, discriminant 21: exactly one line kept at N = [3, 7, 21]; a vector kept up to sign at N = [3, 7]
+   L4R   trace 6, discriminant 32: exactly one line kept at N = [2]; a vector kept up to sign at N = [2, 4, 8]
+   LR4   trace 6, discriminant 32: exactly one line kept at N = [2]; a vector kept up to sign at N = [2, 4, 8]
+   L2R2  trace 6, discriminant 32: exactly one line kept at N = none; a vector kept up to sign at N = [2, 4]
+   [ok] the seat's table of the seven other root histories (reported there, not predicted) is reproduced to N = 60 -- {'L2R': ([2, 3, 6], [2, 3, 6]), 'LR2': ([2, 3, 6], [2, 3, 6]), 'L3R': ([3, 7, 21], [3, 7]), 'LR3': ([3, 7, 21], [3, 7]), 'L4R': ([2], [2, 4, 8]), 'LR4': ([2], [2, 4, 8]), 'L2R2': ([], [2, 4])}
+
+CHECKS: 17, FAILING: 0

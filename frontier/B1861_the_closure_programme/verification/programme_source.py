@@ -275,6 +275,7 @@ DEBT_TO_WP = {
     "P-772": "WP-0.7",   # its second re-audit: what the seals do not yet protect
     "P-773": "WP-0.12",  # its read of this page as a non-author: the debts and the identifications joined to the map
     "P-777": "WP-0.7",   # its third re-audit: the lists of hashed files under other names, frozen as found and not yet read
+    "P-781": "WP-0.4",   # the agy lane's two branches of 2026-11-11: seat results registered and not yet verified by main
 }
 
 # ---------------------------------------------------------------- the certificate
@@ -632,6 +633,9 @@ SINCE_REAUDIT["G2"] = ("B1880", "the third re-audit's three residuals, each repr
 SINCE_REAUDIT["G9"] = ("B1880", "the fourth re-audit's residual: every commit reachable from the tip after da25c4f49 is read, the merged ones too; a trailer, and a foreign author, on a side branch merged in with a clean message are each refused in a committed test")
 SINCE_REAUDIT["X1"] = ("B1880", "the fourth re-audit's planted sentences r2, r3, r5 and r6: the excusing words are whole words ('claim' no longer passes for 'aim'), they excuse only inside the sentence that carries the phrase, every tracked page under docs/ at any depth and every .tex and .md under papers/ is read, and the three old lines are frozen by key and not by count. r4, a sentence of arrival in other words, still passes: the gate is a tripwire for the phrases it lists")
 del SINCE_REAUDIT["G1"]                    # the third re-audit read B1874's change to the waivers and accepted it; nothing later
+
+# B1882 (2026-11-11): the audit's one open finding has its sealed card.  The state stays OPEN until the card's second stage has run.
+U("V1", "OPEN", "the advisor seat has sealed a card for it (null-only, for the nulls of B1726 and B1753: does an end of the window in the height of the modulus move the count of well-fitted random targets), run its planted controls, and left the deciding count to main. Main read the card and its script in full, re-ran the controls on its own machine with the same counts, and sealed its own note and expectations before the run (B1882). The second stage has not run at this landing. Earlier (B1870): the audit's figure has no tracked source, and the audit does not say which null it measured")
 
 # the owner's rulings of 2026-11-10 AS RELAYED by the advisor seat. The relay's own rule, and main's: each is confirmed with the
 # owner once before main acts on it. Main asked on 2026-11-10 about the eleven then relayed; the owner answered main the same day,

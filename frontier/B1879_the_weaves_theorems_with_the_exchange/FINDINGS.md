@@ -116,6 +116,26 @@ That is the third reading of § 6, and it is now the owner's ruling to main, not
 
 What this does not do: it supplies no hand. It says where a hand would have to come from.
 
+## 8. Dated addition, 2026-11-11: checked by the advisor seat, and one sharper fact
+
+The advisor seat recomputed every statement of this arc that can be computed, with its own code (its `verify_b1879/`
+@ `7726eeed`; not blind, since main had landed the result first). All of it agrees.
+
+It put one question more, after its check: every history fixes the two universal characters; which histories fix
+nothing else? Main checked its answer with main's own code (`verification/only_the_tick.py`, exact, by Groebner
+bases over the rationals):
+
+| history, in the grammar of L (add) and F (the tick) | the characters it fixes |
+|---|---|
+| **F** | **the trivial character and the quaternion point, and nothing else** |
+| FL | those two, and (−2, 2, −2) |
+| the other eleven of at most five letters | a set of positive dimension |
+
+- **So § 3 holds in a stronger form.** Among the thirteen histories of at most five letters, the single tick is the
+  only one whose fixed characters are exactly those two. The square of the tick, which is the root, is one of the
+  eleven.
+- **Not proved beyond five letters.** The fact is the advisor seat's; main reproduced it.
+
 ## Seen first
 
 - **The repo sweep:** `VERDICT topic-sweep` for the tick's fixed characters and the trace map's fixed points finds 21

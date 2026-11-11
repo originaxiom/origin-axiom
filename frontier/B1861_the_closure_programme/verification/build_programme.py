@@ -838,7 +838,7 @@ def generated(B):
     out = dict(stats=B["stats"], packages=B["packages"], waits=B["waits"], closure=B["closure"], debt_of=B["debt_of"],
                inputs=S.INPUTS, rules=S.RULES, tallies=S.TALLIES, certificate=S.CERTIFICATE, value_status=S.VALUE_STATUS,
                seal_rule=S.SEAL_RULE, findings=S.FINDINGS, rulings=S.RULINGS, confirmed=S.CONFIRMED, confirmation=list(S.CONFIRMATION), opinion=S.OPINION, not_confirmed=S.NOT_CONFIRMED, confirmed_later={k: list(v) for k, v in S.CONFIRMED_LATER.items()}, direct_rulings=[list(r) for r in S.DIRECT_RULINGS],
-               bears_on=S.BEARS_ON, accepted=S.ACCEPTED, accepted_at=list(S.ACCEPTED_AT), reaudits={k: list(v) for k, v in S.REAUDITS.items()}, verdict_rows={k: [list(r) for r in v] for k, v in S.VERDICT_ROWS.items()}, since_reaudit={k: list(v) for k, v in S.SINCE_REAUDIT.items()}, released=B["released"], map_dependencies=B["proj"],
+               bears_on=S.BEARS_ON, milestones=[list(m) for m in S.MILESTONES], obligations=[list(o) for o in S.OBLIGATIONS], accepted=S.ACCEPTED, accepted_at=list(S.ACCEPTED_AT), reaudits={k: list(v) for k, v in S.REAUDITS.items()}, verdict_rows={k: [list(r) for r in v] for k, v in S.VERDICT_ROWS.items()}, since_reaudit={k: list(v) for k, v in S.SINCE_REAUDIT.items()}, released=B["released"], map_dependencies=B["proj"],
                given=S.GIVEN, also=S.ALSO, exits={k: list(v) for k, v in S.EXITS.items()}, exit_kinds=S.EXIT_KINDS)
     return {"PROGRAMME.md": render(B), "PROGRAMME.json": json.dumps(out, indent=1, ensure_ascii=False, sort_keys=True) + "\n"}
 

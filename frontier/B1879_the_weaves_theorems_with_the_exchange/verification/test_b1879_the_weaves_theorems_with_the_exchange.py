@@ -64,3 +64,20 @@ def test_the_sealed_run_and_the_findings():
               "and it is main's suggestion, not a result", "the index itself is not recomputed here",
               '> "A condition to derive (Recommended)"', "it supplies no hand"):
         assert s in FINDINGS, s
+
+
+def test_the_single_tick_is_the_only_short_history_that_fixes_exactly_the_two():
+    """the advisor seat's sharper fact (2026-11-11), reproduced by main: recomputed here for the words to three letters, and
+    read from the sealed run for all thirteen"""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("only_the_tick_b1879", HERE / "only_the_tick.py")
+    m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
+    assert len(m.classes(5)) == 13 and m.classes(3) == ["F", "FL", "FLL", "FFL"]
+    assert m.fixed("F") == ("finite", {(2, 2, 2), (0, 0, 0)})
+    kind, pts = m.fixed("FL")
+    assert kind == "finite" and pts == {(2, 2, 2), (0, 0, 0), (-2, 2, -2)}
+    assert m.fixed("FF")[0] == "positive dimension" and m.fixed("FLL")[0] == "positive dimension"
+    run = (HERE / "only_the_tick_run.txt").read_text(encoding="utf-8")
+    assert "exactly the two: F\n" in run and "a set of positive dimension: 11 of 13" in run
+    assert "the tick alone is the only history of at most five letters that fixes exactly the two: True" in run
+

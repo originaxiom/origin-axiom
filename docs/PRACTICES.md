@@ -1395,7 +1395,7 @@ Three practices came out of the field stage's last window. Each answers a slip t
 5. **A seal covers what it hashed** (B1874; the advisor seat's second re-audit). A file named in a list of hashed files
    does not change, and the list is not edited, deleted or moved. An amendment is a new list with the old entry named.
    GATED (`artifact-hashes`).
-6. **A generated page is compared with its builder at every push** (R77-7). GATED (`closure-generated`).
+6. **A generated page is compared with its builder at every push** (R77-7). GATED (`closure-generated`). *[2026-11-11, B1883: the page that says how far the record is from the final reading is generated and compared the same way, after the two builders it reads.]*
 7. **A live count in prose is absent, or a lock compares it** (Review 77's practice 8, broken within a day). B1861's
    findings hold one such line. GATED for that arc; elsewhere the practice of Review 77 stands as written.
 8. **A relayed sentence of the owner is not a ruling for main** (P-768; the owner, 2026-11-10). Main records it as

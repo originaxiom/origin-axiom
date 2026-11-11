@@ -19275,3 +19275,30 @@ Main also has to record a plain failure of its own: three of the owner's message
 minutes during this work, and he was left without an answer.
 
 0 of 19.
+
+## 2026-11-11 — S306p: the rest of the team's morning, and a page that says how far we are
+
+The owner had asked main what the other seats were doing, and the question did not reach main for an hour and a
+half. By then three of them had done a morning's work. This entry is what main has taken in so far.
+
+**How far are we?** The owner asked that of another seat. The honest answer is now a page that main rebuilds at
+every step, so it cannot go stale: not ready. No value has been earned. The final test has not been started, and of
+the nine pieces of housekeeping it has to wait for, none is finished and five are under way.
+
+**One audit question is about to be settled.** An auditor suspected that an earlier statistical check was flattered
+by where its search window happened to end. Nobody had measured it. The auditor wrote a sealed test and, properly,
+refused to run the deciding part itself. Main checked the test, wrote down what it expects, and will run it next.
+It uses random targets only; no real measurement enters.
+
+**One foundation sentence was tested and holds, with a caution.** The founding step is tied to the number 5. A seat
+checked the three ways the record could justify that. One works. One does not apply to the founding step at all.
+One works only if worded exactly. The foundation will have to say which it uses.
+
+**The largest piece is not yet read.** Another lane built, in one morning, its own version of main's last three
+pieces of work and a first attempt at the central missing object, and ended by comparing a result with
+measurement. Main has registered it, read its covering letter, and adopted nothing. Two other seats are already
+checking it. Main will check every part of it that needs no measurement, with its own programs, before looking at
+any comparison.
+
+0 of 19.
+

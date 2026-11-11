@@ -178,6 +178,17 @@ SEATS = [
     # head (rows 1629-1633, B1861).
     dict(key="advisor", label="the advisor seat (2026-11-10)", branch="cool-hamilton-k9eqvo",
          remotes=("origin",), cell=("advisor seat",)),
+    # ADDED 2026-11-11 (S306p), found by the lane survey at the owner's "refetch": two more branches of the agy lane, both forked
+    # from main at 015be0cc7 the same morning.  `agy/stage4-sync-2026-11-11` works as if it were main: gates, tests, the registers
+    # and the governing pages edited on the branch, and three arcs under main's own next numbers (B1879 to B1881), which collide
+    # with main's.  `agy/self-consistent-loop-2026-11-11` holds a loop in four phases, each with a preregistration and a report.
+    # Registered so that they are watched, pinned at their heads so they carry no items (rows 1676 to 1678): main reads the lane
+    # only through the mask, runs none of its code, verifies and re-banks under main's numbers, cites the lane's items as
+    # agy:Bnnnn, and treats every value claim as unverified (P-390's rule).
+    dict(key="agysync", label="the agy lane (stage4-sync-2026-11-11)", branch="stage4-sync-2026-11-11",
+         remotes=("origin",), cell=("agy lane",)),
+    dict(key="agyloop", label="the agy lane (self-consistent-loop-2026-11-11)", branch="self-consistent-loop-2026-11-11",
+         remotes=("origin",), cell=("agy lane",)),
     # ADDED 2026-10-03 (B1461), found by the lane survey in S44's suite: a one-commit branch pushed to both remotes
     # at 01:18 UTC that day, an illustration under art/ with no programme content and an author field that is not
     # the repository's. Not a seat; registered so that it is watched, pinned at its head so it carries no items;

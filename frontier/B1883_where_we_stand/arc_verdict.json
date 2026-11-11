@@ -1,0 +1,26 @@
+{
+ "id": "B1883",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1861",
+  "B1858"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the advisor seat: tools/where_we_stand.py @ 3dcc6319, read; the idea and the order of the sections are its; no code of it is run or copied"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (a generated page over the programme, the map, the scoreboard's data and the register)",
+  "object": "the record's own state",
+  "domain": "main at a landing; the page is as old as the landing that built it",
+  "not_covered": "the count computed from each value's ancestry on the map (package WP-0.12); unread seat work; the planted-violation count"
+ },
+ "claim_one_line": "WHERE WE STAND: HOW FAR THE RECORD IS FROM THE FINAL READING, AS ONE GENERATED PAGE (an instrument, at the owner's question of 2026-11-11, 'how far are we from ... 100% ready for the final reading? the dynamic scoreboard we talked?'; after the advisor seat's script of the same morning): the page says in one line whether the record is ready for the final reading -- ready means the sealed card is done and every package it must wait on is done -- and then gives the final reading's parts, the three milestones, the work order by state and by obligation, what is still put in by hand and how each choice could leave, the audit's findings by state, and the open points with the calls that are the owner's. Nothing is typed: every number is read from the closure programme's data, the closure map, the scoreboard's data file and the point register, and the builder refuses to write where two of its sources disagree (five refusals, each planted in the lock). The gate that compares generated pages with their builders runs it at every push, after the two builders it reads. It is not the count as an output that the owner's ruling asks for: the headline is still read from the programme's own counts and its denominator is a typed constant, and the page says so. Its numbers are not repeated in this arc, because they move at every landing. 0 of 19.",
+ "weave_or_thread": "n/a (no statement about the object)"
+}
