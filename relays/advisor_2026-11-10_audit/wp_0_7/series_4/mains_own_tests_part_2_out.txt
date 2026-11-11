@@ -1,0 +1,25 @@
+main's own tests of the gates and checkers, and this seat's locks: the files that name a gate, a checker or a thing the series changes.
+89 files in all; each tree is given the ones it holds.  Run by:  python3 -B -m pytest -q -p no:cacheprovider -p no:randomly -rf --tb=no FILES
+
+==== at main's 323f92327
+     4 failed, 573 passed, 12 skipped, 1 warning in 479.16s (0:07:59)
+     fails: frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py::test_the_generating_pair_check_reproduces
+     fails: tests/test_b1306_the_older_debt.py::test_slice_d_every_index_id_has_a_row_and_scheduled_is_counted
+     fails: tests/test_b1449_silent_receipts.py::test_the_decisive_test_of_b469_reproduces_with_the_fix_live
+     fails: tests/test_b1461_governance_delta.py::test_the_waiver_file_exists_with_the_grammar_and_no_live_waiver
+
+==== at the base of the five patches: series 2, series 3 and the first three patches of series 4 on 323f92327, in one commit
+     5 failed, 641 passed, 12 skipped, 1 warning in 495.92s (0:08:15)
+     fails: frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py::test_the_generating_pair_check_reproduces
+     fails: frontier/B1890_the_first_enforcement_series_verified_and_landed/verification/test_b1890_the_first_enforcement_series_verified_and_landed.py::test_the_series_is_on_main
+     fails: tests/test_b1306_the_older_debt.py::test_slice_d_every_index_id_has_a_row_and_scheduled_is_counted
+     fails: tests/test_b1449_silent_receipts.py::test_the_decisive_test_of_b469_reproduces_with_the_fix_live
+     fails: tests/test_b1461_governance_delta.py::test_the_waiver_file_exists_with_the_grammar_and_no_live_waiver
+
+==== on the series: series 2, 3 and 4 on 323f92327, with the views generated, in one commit
+     5 failed, 674 passed, 12 skipped, 1 warning in 582.05s (0:09:42)
+     fails: frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py::test_the_generating_pair_check_reproduces
+     fails: frontier/B1890_the_first_enforcement_series_verified_and_landed/verification/test_b1890_the_first_enforcement_series_verified_and_landed.py::test_the_series_is_on_main
+     fails: tests/test_b1306_the_older_debt.py::test_slice_d_every_index_id_has_a_row_and_scheduled_is_counted
+     fails: tests/test_b1449_silent_receipts.py::test_the_decisive_test_of_b469_reproduces_with_the_fix_live
+     fails: tests/test_b1461_governance_delta.py::test_the_waiver_file_exists_with_the_grammar_and_no_live_waiver

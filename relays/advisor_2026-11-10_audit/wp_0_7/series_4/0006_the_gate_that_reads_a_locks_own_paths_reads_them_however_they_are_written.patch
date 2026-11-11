@@ -1,0 +1,450 @@
+From 89ab57c430017e9e783d2ebe32e1041bceba2474 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Wed, 11 Nov 2026 22:54:00 +0000
+Subject: [PATCH 6/8] WP-0.7, enforcement (cld-advisor's series 4, patch 6;
+ built on 323f92327 with series 2, series 3 and the first five patches of
+ series 4 applied): THE GATE THAT READS A LOCK'S OWN PATHS READS THEM HOWEVER
+ THEY ARE WRITTEN (a further form of the seat's planted case PV25; the suite's
+ PV32). A lock may not read a file git does not have. The gate read the paths
+ a lock names beside itself by a pattern: a name bound in one line to the
+ file's folder, then that name followed by double-quoted parts. Measured on
+ main's 323f92327 that is 1,463 of the 3,355 such paths in the 1,614 locks. It
+ did not read a path that goes through a second name, which is how the lock of
+ B1671 is written, the arc this scope was made for; nor single quotes, a path
+ given in one line, joinpath, with_name, with_suffix, os.path.realpath, or a
+ name bound inside a test. A lock written in any of these ways could read an
+ ignored file and pass. THE MEND: the lock's syntax tree is read for what each
+ expression stands for, whatever it is called: the file, its folder, a parent,
+ a name that stands for one of these in its own scope, and a constant part
+ added by a slash, os.path.join, joinpath, with_name or with_suffix. A name
+ that a function binds is that function's and hides the module's name there
+ only; a name bound to two things in one scope is read as neither. The pattern
+ reader is kept beside the tree, so nothing is read less than it was. The
+ gate's sentence says how many paths it read and how many have a part that is
+ computed and are not read: on this tree 4,023 and 320. One path that git
+ ignores is named by a lock today, a built page that .gitignore names and
+ whose test skips where it was not built; it is held by name as found. What it
+ does not reach: a part that is computed; a path held in an attribute of a
+ class; a pattern given to glob; a name bound to two things. The lock: six
+ tests added to tests/test_a_gate_reads_all_it_is_about.py, ten ways of
+ writing the path and with_suffix. Tested against planted errors, 11 of 11
+ ways; computed once. 0 of 19.
+
+---
+ scripts/gates/gates.py                     | 240 ++++++++++++++++++++-
+ tests/test_a_gate_reads_all_it_is_about.py | 111 ++++++++++
+ 2 files changed, 348 insertions(+), 3 deletions(-)
+
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 7cbd31f34..97f26d6a8 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -8,6 +8,7 @@ Run manually:  python3 scripts/gates/gates.py            (all gates, verdict per
+ Design rules: no network, no heavy imports, stdlib only; a gate returns (ok, detail);
+ whitelists are explicit frozen constants in this file (auditable, versioned).
+ """
++import ast
+ import base64
+ import collections
+ import fnmatch
+@@ -959,7 +960,7 @@ _OS_DIR = r'os\.path\.dirname\(\s*(?:os\.path\.abspath\(\s*__file__\s*\)|__file_
+ _OS_BASE = re.compile(r'^(\w+)\s*=\s*(' + _OS_DIR + r'|os\.path\.dirname\(\s*' + _OS_DIR + r'\s*\))\s*$', re.M)
+ 
+ 
+-def _file_relative_refs(rel, txt):
++def _file_relative_refs_by_pattern(rel, txt):
+     """The paths a file reads relative to ITSELF, in the two idioms the record uses:
+     `HERE = pathlib.Path(__file__).resolve().parent`, then `HERE / "a" / "b"`; and
+     `HERE = os.path.dirname(os.path.abspath(__file__))`, then `os.path.join(HERE, "a", "b")` (or the dirname inline)."""
+@@ -987,6 +988,226 @@ def _file_relative_refs(rel, txt):
+     return out
+ 
+ 
++# THE PATHS A LOCK NAMES BESIDE ITSELF, READ BY THE SYNTAX TREE (the advisor seat's series 4; its planted case PV32, 2026-11-11).
++# The reader above knows two idioms, written one way: a name bound in one line to the file's folder, and then that name followed
++# by double-quoted parts.  Measured on main's 323f92327 it read 2,118 of the 5,554 such paths in the 1,614 locks.  It did not
++# read a path that goes through a second name -- `V = A / "verification"`, then `V / "run.log"`, which is how the lock of B1671
++# is written, the arc this scope was made for -- nor single quotes, nor a path given in one line, nor joinpath, with_name or
++# with_suffix, nor a name bound inside a test.  The tree is read instead: what an expression stands for, whatever it is called.
++_SAME_PATH = ("Path", "pathlib.Path", "PurePath", "pathlib.PurePath", "str", "os.fspath", "os.path.abspath", "os.path.realpath",
++              "os.path.normpath", "abspath", "realpath", "normpath")
++_NOT_A_NAME = re.compile(r"[*?\[%{]")          # a pattern or a template, not the name of one file
++
++
++def _dotted(node):
++    parts = []
++    while isinstance(node, ast.Attribute):
++        parts.append(node.attr); node = node.value
++    if not isinstance(node, ast.Name):
++        return None
++    return ".".join([node.id] + parts[::-1])
++
++
++def _is_text(node):
++    return isinstance(node, ast.Constant) and isinstance(node.value, str)
++
++
++def _joined(base, *parts):
++    p = os.path.normpath(os.path.join(base, *parts)).replace(os.sep, "/")
++    return None if (p.startswith(("/", "..")) or p == ".") else p
++
++
++def _own_path(node, bases, rel):
++    """(the repository path an expression stands for, whether a constant part was added to get it), where the expression is
++    built from the file's own place: `__file__`, its folder, a parent of it, a name that stands for one of these.  None
++    where it is not, or where a part of it is computed."""
++    if isinstance(node, ast.Name):
++        if node.id == "__file__":
++            return rel, False
++        return (bases[node.id], False) if node.id in bases else None
++    if isinstance(node, ast.BinOp) and isinstance(node.op, ast.Div):
++        left = _own_path(node.left, bases, rel)
++        if left is None or not _is_text(node.right):
++            return None
++        p = _joined(left[0], node.right.value)
++        return (p, True) if p else None
++    if isinstance(node, ast.Attribute) and node.attr == "parent":
++        b = _own_path(node.value, bases, rel)
++        return (os.path.dirname(b[0]), b[1]) if b else None
++    if isinstance(node, ast.Subscript) and isinstance(node.value, ast.Attribute) and node.value.attr == "parents":
++        b = _own_path(node.value.value, bases, rel)
++        k = node.slice
++        if b is None or not (isinstance(k, ast.Constant) and isinstance(k.value, int) and 0 <= k.value < 12):
++            return None
++        p = b[0]
++        for _ in range(k.value + 1):
++            p = os.path.dirname(p)
++        return p, b[1]
++    if isinstance(node, ast.Call) and not node.keywords:
++        name = _dotted(node.func)
++        if name in _SAME_PATH and len(node.args) == 1:
++            return _own_path(node.args[0], bases, rel)
++        if name in ("os.path.dirname", "dirname") and len(node.args) == 1:
++            b = _own_path(node.args[0], bases, rel)
++            return (os.path.dirname(b[0]), b[1]) if b else None
++        if name in ("os.path.join", "join") and len(node.args) > 1:
++            b = _own_path(node.args[0], bases, rel)
++            if b is None or not all(_is_text(a) for a in node.args[1:]):
++                return None
++            p = _joined(b[0], *[a.value for a in node.args[1:]])
++            return (p, True) if p else None
++        if isinstance(node.func, ast.Attribute):
++            b = _own_path(node.func.value, bases, rel)
++            if b is None:
++                return None
++            how = node.func.attr
++            if how in ("resolve", "absolute", "expanduser") and not node.args:
++                return b
++            if not (node.args and all(_is_text(a) for a in node.args)):
++                return None
++            if how == "joinpath":
++                p = _joined(b[0], *[a.value for a in node.args])
++            elif how == "with_name" and len(node.args) == 1:
++                p = _joined(os.path.dirname(b[0]), node.args[0].value)
++            elif how == "with_suffix" and len(node.args) == 1:
++                p = _joined(os.path.splitext(b[0])[0] + node.args[0].value)
++            else:
++                return None
++            return (p, True) if p else None
++    return None
++
++
++_A_SCOPE = (ast.FunctionDef, ast.AsyncFunctionDef, ast.Lambda, ast.ClassDef)
++
++
++def _scope_nodes(scope):
++    """the nodes of one scope: all that is under `scope` and not inside a function, a lambda or a class nested in it (the
++    nested one is itself listed: it binds its name here, and is read as a scope of its own)"""
++    out, stack = [], list(ast.iter_child_nodes(scope))
++    while stack:
++        n = stack.pop()
++        out.append(n)
++        if not isinstance(n, _A_SCOPE):
++            stack.extend(ast.iter_child_nodes(n))
++    return out
++
++
++def _bound_here(scope, nodes):
++    """name -> what it is bound to in this scope: the value of each plain assignment, None for any other binding"""
++    bound = {}
++
++    def other(target):
++        for m in ast.walk(target):
++            if isinstance(m, ast.Name):
++                bound.setdefault(m.id, []).append(None)
++    if isinstance(scope, (ast.FunctionDef, ast.AsyncFunctionDef, ast.Lambda)):
++        a = scope.args
++        for arg in a.posonlyargs + a.args + a.kwonlyargs + [x for x in (a.vararg, a.kwarg) if x]:
++            bound.setdefault(arg.arg, []).append(None)
++    for n in nodes:
++        if isinstance(n, ast.Assign):
++            for t in n.targets:
++                if isinstance(t, ast.Name):
++                    bound.setdefault(t.id, []).append(n.value)
++                else:
++                    other(t)
++        elif isinstance(n, (ast.AnnAssign, ast.NamedExpr)):
++            if isinstance(n.target, ast.Name) and n.value is not None:
++                bound.setdefault(n.target.id, []).append(n.value)
++            else:
++                other(n.target)
++        elif isinstance(n, (ast.AugAssign, ast.For, ast.AsyncFor, ast.comprehension)):
++            other(n.target)
++        elif isinstance(n, (ast.With, ast.AsyncWith)):
++            for item in n.items:
++                if item.optional_vars is not None:
++                    other(item.optional_vars)
++        elif isinstance(n, (ast.FunctionDef, ast.AsyncFunctionDef, ast.ClassDef)):
++            bound.setdefault(n.name, []).append(None)
++        elif isinstance(n, (ast.Import, ast.ImportFrom)):
++            for al in n.names:
++                bound.setdefault((al.asname or al.name).split(".")[0], []).append(None)
++        elif isinstance(n, ast.ExceptHandler) and n.name:
++            bound.setdefault(n.name, []).append(None)
++        elif isinstance(n, (ast.Global, ast.Nonlocal)):
++            for name in n.names:
++                bound.setdefault(name, []).append(None)
++    return bound
++
++
++def _own_paths(rel, txt):
++    """What a file names beside itself, read from its syntax tree: (the paths, how many more have a part that is computed and
++    are not read, whether the file could be parsed).  A path is reported once, whole: `HERE / "runs" / "k1.txt"` is one path.
++    A line that only binds a name to a folder to build on (`V = A / "verification"`) names no file and is not reported.
++
++    A name stands for a place where every binding of it in its own scope gives the same place.  A name bound in a function
++    is that function's: it hides the module's name there and nowhere else.  A name that a function declares global is read
++    as no place at all."""
++    try:
++        tree = ast.parse(txt)
++    except (SyntaxError, ValueError):
++        return set(), 0, False
++    declared = {name for n in ast.walk(tree) if isinstance(n, (ast.Global, ast.Nonlocal)) for name in n.names}
++    whole, inside, folders = {}, set(), set()
++    computed = [0]
++
++    def read(scope, outer):
++        nodes = _scope_nodes(scope)
++        bound = _bound_here(scope, nodes)
++        bases = {k: v for k, v in outer.items() if k not in bound}
++        moved = True
++        while moved:
++            moved = False
++            for name, values in bound.items():
++                if name in bases or name in declared or any(v is None for v in values):
++                    continue
++                got = {(_own_path(v, bases, rel) or (None,))[0] for v in values}
++                if len(got) == 1 and None not in got:
++                    bases[name] = got.pop(); moved = True
++        for n in nodes:
++            if isinstance(n, ast.Assign) and len(n.targets) == 1 and isinstance(n.targets[0], ast.Name):
++                got = _own_path(n.value, bases, rel)
++                if got and got[1] and "." not in os.path.basename(got[0]):
++                    folders.add(id(n.value))
++            if not isinstance(n, (ast.BinOp, ast.Call)):
++                continue
++            got = _own_path(n, bases, rel)
++            name = None
++            if isinstance(n, ast.BinOp):
++                source = n.left if isinstance(n.op, ast.Div) else None
++            else:
++                name = _dotted(n.func)
++                source = n.args[0] if (name in ("os.path.join", "join") and n.args) else (n.func.value if isinstance(n.func, ast.Attribute) else None)
++            if got and got[1]:
++                whole[id(n)] = got[0]
++                if source is not None:
++                    inside.update(id(d) for d in ast.walk(source))
++            elif got is None and source is not None and _own_path(source, bases, rel) is not None:
++                if isinstance(n, ast.BinOp) or name in ("os.path.join", "join") or n.func.attr in ("joinpath", "with_name", "with_suffix"):
++                    computed[0] += 1
++        for n in nodes:
++            if isinstance(n, _A_SCOPE):
++                # what a class binds in its body is an attribute, and is not a name inside its methods
++                read(n, outer if isinstance(scope, ast.ClassDef) else bases)
++    read(tree, {})
++    paths = {p for i, p in whole.items() if i not in inside and i not in folders and not _NOT_A_NAME.search(p)}
++    return paths, computed[0], True
++
++
++def _file_relative_refs(rel, txt):
++    """The paths a file names relative to ITSELF: by the syntax tree, and by the pattern reader that was here before it, so
++    that nothing is read less than it was."""
++    return _own_paths(rel, txt)[0] | _file_relative_refs_by_pattern(rel, txt)
++
++
++# A path that git ignores and that a lock names beside itself, as found on 2026-11-11 when the gate first read every form:
++# the path -> the lock that names it.  One: a built page, ignored by name in .gitignore; its test skips where the page was
++# not built.  The list may only shrink.
++LOCKS_IGNORED_PATHS_AS_FOUND = {
++    "docs/workdesk/the_ledger_desk.html": "tests/test_workdesk_builds.py",
++}
++
++
+ def _git_would_ignore(paths):
+     """which of these repository-relative paths git would ignore, whether or not they exist on disk"""
+     if not paths:
+@@ -1028,6 +1249,7 @@ def gate_tracked_deps(_plant=None):
+     lit = re.compile(r"(?:scripts|frontier|docs|tests|data|paper)/[\w./-]+\.(?:py|sh|json|md|txt|csv)")
+     chain = re.compile(r'ROOT(?:\s*/\s*"[^"]+")+')
+     bad, absent = {}, {}
++    read, computed, by_pattern_only = 0, 0, 0
+     sources = sorted(tracked) + ([_plant[0]] if _plant else [])
+     for rel in sources:
+         core = rel.startswith(("tests/", "scripts/")) and rel.endswith(".py")
+@@ -1043,7 +1265,11 @@ def gate_tracked_deps(_plant=None):
+             refs |= set(lit.findall(txt))
+             for ch in chain.findall(txt):
+                 refs.add("/".join(re.findall(r'"([^"]+)"', ch)))
+-        own = _file_relative_refs(rel, txt) if lock else set()
++        own = set()
++        if lock:
++            by_tree, n_computed, parsed = _own_paths(rel, txt)
++            own = by_tree | _file_relative_refs_by_pattern(rel, txt)
++            read += len(own); computed += n_computed; by_pattern_only += not parsed
+         refs |= own
+         for r in refs:
+             if r not in tracked and os.path.isfile(os.path.join(ROOT, r)):
+@@ -1051,12 +1277,20 @@ def gate_tracked_deps(_plant=None):
+         for r in own:
+             if r not in tracked and not os.path.isdir(os.path.join(ROOT, r)):
+                 absent.setdefault(r, rel)
++    held = 0
+     for r in sorted(_git_would_ignore(set(absent) - set(bad))):
++        if LOCKS_IGNORED_PATHS_AS_FOUND.get(r) == absent[r]:
++            held += 1
++            continue
+         bad.setdefault(r, absent[r] + " (git ignores this path: a clean checkout will not have it)")
+     if bad:
+         pairs = [f"{r} <- {src}" for r, src in sorted(bad.items())]
+         return False, f"{len(pairs)} untracked-but-referenced path(s): " + "; ".join(pairs[:5])
+-    return True, "ok"
++    gone = len(LOCKS_IGNORED_PATHS_AS_FOUND) - held if not _plant else 0
++    return True, ("ok (%d paths that the locks name beside themselves read, in any way they are written; %d more have a part that is computed and are not read%s; "
++                  "%d that git ignores held by name as found%s)" % (
++                      read, computed, "; %d lock(s) that do not parse read by pattern only" % by_pattern_only if by_pattern_only else "",
++                      held, "; %d of the named no longer stand: shorten the list" % gone if gone > 0 else ""))
+ 
+ 
+ _LOCK_FILE = re.compile(r"(^|/)test_[^/]*\.py$")
+diff --git a/tests/test_a_gate_reads_all_it_is_about.py b/tests/test_a_gate_reads_all_it_is_about.py
+index 3a45916d3..dc6fc2945 100644
+--- a/tests/test_a_gate_reads_all_it_is_about.py
++++ b/tests/test_a_gate_reads_all_it_is_about.py
+@@ -586,3 +586,114 @@ def test_on_this_repository_the_old_lines_are_held_by_name():
+     assert set(_the_old_arcs()) <= set(named)
+     ok, detail = g.gate_member_scope()
+     assert ok is True and "held by name" in detail, detail
++
++
++# ---- PV25's further forms (series 4; the suite's PV32): the gate read a lock's own paths in one way of writing them -----
++# A lock may not read a file git does not have.  The gate read the paths a lock names beside itself by a pattern: a name
++# bound in one line to the file's folder, then that name followed by double-quoted parts.  On main's 323f92327 that is 1,463
++# of the 3,355 such paths.  The lock of B1671, the arc the rule was made for, goes through a second name and was not read.
++_ARC = "frontier/B1_x/verification"
++_LOCK = _ARC + "/test_b1_x.py"
++_HERE = "import pathlib\nHERE = pathlib.Path(__file__).resolve().parent\n\n\n"
++_WAYS = {       # a way of writing it -> (the lock's path, its text with %s for the file's name, the folder the file is in)
++    "through a second name, as the lock of B1671 does": ("tests/test_b1_x.py",
++        'import pathlib\nROOT = pathlib.Path(__file__).resolve().parents[1]\nA = ROOT / "frontier" / "B1_x"\nV = A / "verification"\n\n\n'
++        'def test_it():\n    assert (V / "%s").read_text()\n', _ARC),
++    "in single quotes": (_LOCK, _HERE + "def test_it():\n    assert (HERE / '%s').read_text()\n", _ARC),
++    "in one line from the file": (_LOCK, 'import pathlib\nLOG = pathlib.Path(__file__).resolve().parent / "%s"\n\n\ndef test_it():\n    assert LOG.read_text()\n', _ARC),
++    "with no name at all": (_LOCK, 'from pathlib import Path\n\n\ndef test_it():\n    assert (Path(__file__).parent / "%s").read_text()\n', _ARC),
++    "by joinpath": (_LOCK, _HERE + 'def test_it():\n    assert HERE.joinpath("%s").read_text()\n', _ARC),
++    "by with_name": (_LOCK, 'import pathlib\n\n\ndef test_it():\n    assert pathlib.Path(__file__).with_name("%s").read_text()\n', _ARC),
++    "by a name bound inside the test": (_LOCK, 'import pathlib\n\n\ndef test_it():\n    here = pathlib.Path(__file__).resolve().parent\n    assert (here / "%s").read_text()\n', _ARC),
++    "by os.path.join through a second name": (_LOCK, 'import os\nH = os.path.dirname(os.path.abspath(__file__))\nD = os.path.join(H, "runs")\n\n\n'
++        'def test_it():\n    assert open(os.path.join(D, "%s")).read()\n', _ARC + "/runs"),
++    "by os.path.realpath": (_LOCK, 'import os\n\n\ndef test_it():\n    assert open(os.path.join(os.path.dirname(os.path.realpath(__file__)), "%s")).read()\n', _ARC),
++    "where another test uses the name for something else": (_LOCK, _HERE + 'V = HERE / "runs"\n\n\ndef test_other():\n    V = [[3, -1], [1, 0]]\n    assert V[0][0] == 3\n\n\n'
++        'def test_it():\n    assert (V / "%s").read_text()\n', _ARC + "/runs"),
++}
++
++
++def _a_repository_that_ignores_logs(tmp_path):
++    return _scratch(tmp_path, {".gitignore": "*.log\n", "README.md": "a small repository\n"})
++
++
++def test_a_lock_that_names_an_ignored_file_beside_itself_fails_the_gate(tmp_path):
++    """the control: this held before the series, in the one way of writing it that the gate read"""
++    repo = _a_repository_that_ignores_logs(tmp_path)
++    assert _gate(repo, "tracked-deps")[0] is True
++    _commit(repo, "a lock", {_LOCK: _HERE + 'def test_it():\n    assert (HERE / "run.log").read_text()\n'})
++    ok, detail = _gate(repo, "tracked-deps")
++    assert ok is False and "run.log" in detail and "git ignores this path" in detail, detail
++
++
++def test_however_a_lock_writes_the_path_of_an_ignored_file_it_is_refused(tmp_path):
++    repo = _a_repository_that_ignores_logs(tmp_path)
++    passed = []
++    for way, (lock, text, _folder) in _WAYS.items():
++        _commit(repo, "a lock that names an ignored file " + way, {lock: text % "run.log"})
++        ok, detail = _gate(repo, "tracked-deps")
++        if ok or "run.log" not in detail:
++            passed.append(way)
++        _git(repo, "rm", "-q", lock); _commit(repo, "the lock taken out again")
++    # and the file that has the lock's own name with another ending
++    _commit(repo, "a lock", {_LOCK: 'import pathlib\n\n\ndef test_it():\n    assert pathlib.Path(__file__).with_suffix(".log").read_text()\n'})
++    ok, detail = _gate(repo, "tracked-deps")
++    if ok or "test_b1_x.log" not in detail:
++        passed.append("by with_suffix")
++    assert not passed, "a lock names a file that git ignores, so that no clean checkout has it, and the gate passes where the path is written: " + "; ".join(passed)
++
++
++def test_the_same_locks_pass_where_the_file_is_committed(tmp_path):
++    """the other side: every way of writing it, naming a file the commit holds"""
++    repo = _a_repository_that_ignores_logs(tmp_path)
++    for way, (lock, text, folder) in _WAYS.items():
++        _commit(repo, "a lock that names a committed file " + way, {lock: text % "run.txt", folder + "/run.txt": "converged\n"})
++        ok, detail = _gate(repo, "tracked-deps")
++        assert ok is True, (way, detail)
++        _git(repo, "rm", "-q", "-r", lock, folder + "/run.txt"); _commit(repo, "taken out again")
++
++
++def test_what_is_not_the_name_of_one_file_beside_the_lock_is_not_refused(tmp_path):
++    repo = _a_repository_that_ignores_logs(tmp_path)
++    for what, files in {
++        "a file under the test's temporary folder": {_LOCK: 'def test_it(tmp_path):\n    (tmp_path / "run.log").write_text("x")\n    assert (tmp_path / "run.log").read_text()\n'},
++        "a pattern given to glob": {_LOCK: _HERE + 'def test_it():\n    assert not list(HERE.glob("*.log"))\n'},
++        "a part that is computed": {_LOCK: _HERE + 'def test_it():\n    assert not (HERE / ("run_%d.log" % 3)).exists()\n'},
++        "a name that the module binds to two things": {_LOCK: _HERE + 'P = HERE / "a.txt"\nP = len("abc")\n\n\ndef test_it():\n    assert P == 3 or (P / "run.log")\n'},
++        "a generator, which may keep a cache": {_ARC + "/make_runs.py": _HERE + 'CACHE = (HERE / "cache.log")\n'},
++    }.items():
++        _commit(repo, what, files)
++        ok, detail = _gate(repo, "tracked-deps")
++        assert ok is True, (what, detail)
++        for rel in files:
++            _git(repo, "rm", "-q", rel)
++        _commit(repo, "taken out again")
++
++
++def test_the_gate_says_how_many_paths_it_read_and_how_many_it_did_not(tmp_path):
++    repo = _a_repository_that_ignores_logs(tmp_path)
++    _commit(repo, "a lock", {_ARC + "/a.txt": "a\n", _ARC + "/b.txt": "b\n",
++                             _LOCK: _HERE + 'def test_it():\n    k = 3\n    assert (HERE / "a.txt").read_text() and (HERE / \'b.txt\').read_text() and not (HERE / ("run_%d.txt" % k)).exists()\n'})
++    ok, detail = _gate(repo, "tracked-deps")
++    assert ok is True, detail
++    assert "2 paths that the locks name beside themselves read" in detail and "1 more have a part that is computed" in detail, detail
++    assert _gates().result_line("tracked-deps", ok, detail).startswith("  PASS  tracked-deps: ok (2 paths"), "the runner does not print the sentence"
++
++
++def test_on_this_repository_every_path_a_lock_names_beside_itself_is_read():
++    g = _gates()
++    by_tree = getattr(g, "_own_paths", None)
++    assert by_tree is not None, "the gate reads a lock's own paths by a pattern, in one way of writing them"
++    tracked = subprocess.run(["git", "-C", str(ROOT), "ls-files", "tests", "frontier"], capture_output=True, text=True).stdout.split("\n")
++    locks = [f for f in tracked if f.rsplit("/", 1)[-1].startswith("test_") and f.endswith(".py")]
++    n = 0
++    for rel in locks:
++        txt = (ROOT / rel).read_text(encoding="utf-8", errors="replace")
++        paths, _computed, parsed = by_tree(rel, txt)
++        assert parsed, rel
++        n += len(paths)
++        assert g._file_relative_refs_by_pattern(rel, txt) <= g._file_relative_refs(rel, txt), rel      # nothing is read less than it was
++    assert n >= 3300, n                              # 3,355 on main's 323f92327; the pattern read 1,463 of them
++    assert g.LOCKS_IGNORED_PATHS_AS_FOUND == {"docs/workdesk/the_ledger_desk.html": "tests/test_workdesk_builds.py"}
++    ok, detail = g.gate_tracked_deps()
++    assert ok is True and "1 that git ignores held by name as found" in detail, detail
+-- 
+2.43.0
+

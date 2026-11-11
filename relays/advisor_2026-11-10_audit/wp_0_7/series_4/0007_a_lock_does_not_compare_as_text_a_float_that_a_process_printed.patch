@@ -1,0 +1,437 @@
+From cee04dc2c0c19de0b1d50aafff0d6255ca4fdc1a Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Wed, 11 Nov 2026 23:03:01 +0000
+Subject: [PATCH 7/8] WP-0.7, enforcement (cld-advisor's series 4, patch 7;
+ built on 323f92327 with series 2, series 3 and the first six patches of
+ series 4 applied): A LOCK DOES NOT COMPARE, AS TEXT, A FLOAT THAT A PROCESS
+ PRINTED (the seat's planted case PV26). The last digits a process prints for
+ a float depend on the machine and its libraries. A lock that compares them as
+ text passes where it was written and can fail on a clean checkout elsewhere,
+ for no fault of the result; four locks on main do so on the machine that
+ found the class. No gate read the form. THE MEND: the checker of the vacuity
+ gate reads it from the lock's syntax tree. The form is a test that starts a
+ process, itself or through a function or a fixture of its file or through a
+ name its file binds to what a process gave, and asserts on text that holds a
+ float with six or more digits after the point, or with an exponent, where
+ that part of the assert is about what the process gave. The text is a
+ literal, a text constant of the module, or a committed file that the assert
+ compares for equality with what the process gave. In such a file a zero
+ printed with a sign is read as a float too: it keeps the sign of what it was
+ before rounding, and one lock on main, written to hold integers and eighth
+ roots only, fails here by three such signs. A part of an assert that says
+ something is not there pins nothing; a process whose command is git is not
+ counted. A test of the form that is not named fails the gate, with the mend
+ in its sentence: read the number out and compare it as a number. Fifteen
+ tests stood on the day of the rule, six that compare a whole transcript and
+ nine that hold a literal; they are held by name as found, and are main's to
+ mend. The gate's sentence counts them, counts the whole transcripts it does
+ not refuse because no such number stands in them (seven on this tree), and
+ counts an assert that compares what a process gave with a file the gate could
+ not find. What it does not reach: whether a printed float is stable is not in
+ the commit, so the gate reads a form and not a fault; a float printed inside
+ the test's own process and captured; a process started in another module; a
+ float of fewer digits; text compared through a helper. The lock: six tests
+ added to tests/test_a_gate_reads_all_it_is_about.py, ten ways of pinning and
+ eight that are not the form. Tested against planted errors, 10 of 10 ways;
+ computed once. 0 of 19.
+
+---
+ scripts/checks/check_test_vacuity.py       | 197 ++++++++++++++++++++-
+ scripts/gates/gates.py                     |  41 ++++-
+ tests/test_a_gate_reads_all_it_is_about.py |  96 ++++++++++
+ 3 files changed, 331 insertions(+), 3 deletions(-)
+
+diff --git a/scripts/checks/check_test_vacuity.py b/scripts/checks/check_test_vacuity.py
+index c04c05151..6bedba2ca 100644
+--- a/scripts/checks/check_test_vacuity.py
++++ b/scripts/checks/check_test_vacuity.py
+@@ -288,6 +288,188 @@ def switches(src):
+     return out
+ 
+ 
++# A LOCK THAT COMPARES, AS TEXT, A FLOAT THAT A PROCESS PRINTED (the advisor seat's audit, L6; its planted case PV26).
++# The last digits a process prints for a float depend on the machine and its libraries: such a lock passes where it was
++# written and can fail on a clean checkout elsewhere, for no fault of the result.  Whether a printed float is stable is not
++# in the commit.  The form is: a test that starts a process -- itself, through a function or a fixture of its file, or
++# through a name its file binds to what a process gave -- and asserts on text that holds a float with six or more digits
++# after the point, or with an exponent.  The text is a literal in the assert, a text constant of the module, or a committed
++# file that the assert compares for equality.  A process whose command is git is not counted: it prints no float.
++# In a committed file compared whole, a zero printed with a sign is read as a float too.  A float that is zero to the digits
++# printed keeps the sign of what it was before rounding, and that sign is the machine's (`'%+.0f' % -1e-17` is "-0").  One
++# lock on main compared a transcript written to hold "integers and eighth roots only", and failed on the machine that found
++# the class by three such signs.  In a literal the same sign is as often a count printed with its sign, and is not read.
++_STARTS = {"run", "check_output", "check_call", "call", "Popen", "getoutput", "getstatusoutput"}
++_A_PRINTED_FLOAT = re.compile(r"\d\.\d{6,}|\d\.\d+[eE][-+]?\d+")
++_A_SIGNED_ZERO = re.compile(r"(?<![\w.])[-+]0(?![\w.])")
++_A_FILE_NAME = re.compile(r"[\w.\-/]+\.\w+")
++
++
++def _process_names(tree):
++    """(the names this file gives the subprocess module, those it gives os, the bare names under which it can start a process)"""
++    sub, osn, bare = set(), set(), set()
++    for n in ast.walk(tree):
++        if isinstance(n, ast.Import):
++            for al in n.names:
++                if al.name == "subprocess":
++                    sub.add(al.asname or "subprocess")
++                elif al.name == "os":
++                    osn.add(al.asname or "os")
++        elif isinstance(n, ast.ImportFrom):
++            for al in n.names:
++                if (n.module == "subprocess" and al.name in _STARTS) or (n.module == "os" and al.name in ("system", "popen")):
++                    bare.add(al.asname or al.name)
++    return sub, osn, bare
++
++
++def _is_git(call):
++    first = call.args[0] if call.args else None
++    if isinstance(first, (ast.List, ast.Tuple)) and first.elts:
++        first = first.elts[0]
++    return isinstance(first, ast.Constant) and isinstance(first.value, str) and first.value.split()[:1] == ["git"]
++
++
++def _reaches_a_process(node, names, starters, held):
++    """does anything under `node` start a process, call a function of this file that does, or read a name bound to one?"""
++    sub, osn, bare = names
++    for n in ast.walk(node):
++        if isinstance(n, ast.Call):
++            f = n.func
++            if isinstance(f, ast.Name) and f.id in starters:
++                return True
++            started = (isinstance(f, ast.Name) and f.id in bare) or (
++                isinstance(f, ast.Attribute) and isinstance(f.value, ast.Name) and (
++                    (f.value.id in sub and f.attr in _STARTS) or (f.value.id in osn and f.attr in ("system", "popen"))))
++            if started and not _is_git(n):
++                return True
++        elif isinstance(n, ast.Name) and isinstance(n.ctx, ast.Load) and n.id in held:
++            return True
++    return False
++
++
++def _module_level(tree):
++    """the statements a module runs when it is imported: its body, and what is nested in an if, a try or a with"""
++    out, stack = [], list(tree.body)
++    while stack:
++        n = stack.pop()
++        out.append(n)
++        if isinstance(n, (ast.If, ast.Try, ast.With)):
++            for part in ("body", "orelse", "finalbody"):
++                stack.extend(getattr(n, part, []))
++            for h in getattr(n, "handlers", []):
++                stack.extend(h.body)
++    return out
++
++
++def printed_floats(rel, tree, find=None, read=None):
++    """The tests of one lock that compare, as text, a float a process printed.  Returns (findings, unread, whole): findings
++    is a list of (test name, line, what the text is); unread counts the asserts that compare what a process gave with a file
++    this reader could not find; whole counts those that compare it with a committed file in which no such number stands.
++    `find(name)` gives the tracked path a file name stands for, `read(path)` its text."""
++    names = _process_names(tree)
++    level = _module_level(tree)
++    funcs = {n.name: n for n in level if isinstance(n, (ast.FunctionDef, ast.AsyncFunctionDef))}
++    binds = [(n.targets[0].id, n.value) for n in level
++             if isinstance(n, ast.Assign) and len(n.targets) == 1 and isinstance(n.targets[0], ast.Name)]
++    texts = {name: v.value for name, v in binds if isinstance(v, ast.Constant) and isinstance(v.value, str)}
++    starters, held, moved = set(), set(), True
++    while moved:
++        moved = False
++        for name, fn in funcs.items():
++            if name not in starters and _reaches_a_process(fn, names, starters, held):
++                starters.add(name); moved = True
++        for name, value in binds:
++            if name not in held and _reaches_a_process(value, names, starters, held):
++                held.add(name); moved = True
++    findings, unread, whole = [], 0, 0
++    for fn in ast.walk(tree):
++        if not (isinstance(fn, (ast.FunctionDef, ast.AsyncFunctionDef)) and fn.name.startswith("test")):
++            continue
++        params = {a.arg for a in fn.args.posonlyargs + fn.args.args + fn.args.kwonlyargs}
++        # the names that, inside this test, hold what a process gave: a fixture of this file that starts one, a name the module
++        # bound to one, and whatever the test binds from either
++        given, moved = set(held) | (params & starters), True
++        gives = lambda node: _reaches_a_process(node, names, starters, given)
++        while moved:
++            moved = False
++            for n in ast.walk(fn):
++                pairs = []
++                if isinstance(n, ast.Assign):
++                    pairs = [(t, n.value) for t in n.targets]
++                elif isinstance(n, (ast.AnnAssign, ast.NamedExpr)) and n.value is not None:
++                    pairs = [(n.target, n.value)]
++                elif isinstance(n, (ast.For, ast.AsyncFor, ast.comprehension)):
++                    pairs = [(n.target, n.iter)]
++                elif isinstance(n, (ast.With, ast.AsyncWith)):
++                    pairs = [(item.optional_vars, item.context_expr) for item in n.items if item.optional_vars is not None]
++                for target, value in pairs:
++                    if gives(value):
++                        for m in ast.walk(target):
++                            if isinstance(m, ast.Name) and m.id not in given:
++                                given.add(m.id); moved = True
++        if not (given or gives(fn)):
++            continue
++        for a in ast.walk(fn):
++            if not isinstance(a, ast.Assert):
++                continue
++            for unit in _parts_of(a.test):
++                if not gives(unit):
++                    continue                             # this part of the assert compares nothing a process gave
++                said = [c.value for c in ast.walk(unit) if isinstance(c, ast.Constant) and isinstance(c.value, str)]
++                said += [texts[n.id] for n in ast.walk(unit) if isinstance(n, ast.Name) and n.id in texts]
++                if any(_A_PRINTED_FLOAT.search(t) for t in said):
++                    findings.append((fn.name, a.lineno, "a literal"))
++                    continue
++                if not (isinstance(unit, ast.Compare) and any(isinstance(op, ast.Eq) for op in unit.ops)):
++                    continue
++                for side in [unit.left] + unit.comparators:
++                    reads = any(isinstance(c, ast.Call) and (getattr(c.func, "attr", None) in ("read_text", "read") or getattr(c.func, "id", None) == "open")
++                                for c in ast.walk(side))
++                    if not reads or gives(side):
++                        continue                         # the side that is compared with what the process gave, and is a file
++                    cands = [c.value for c in ast.walk(side) if isinstance(c, ast.Constant) and isinstance(c.value, str) and _A_FILE_NAME.fullmatch(c.value)]
++                    path = next((p for p in (find(c) for c in cands) if p), None) if find else None
++                    if path is None:
++                        unread += 1
++                    elif _A_PRINTED_FLOAT.search(read(path)) or _A_SIGNED_ZERO.search(read(path)):
++                        findings.append((fn.name, a.lineno, "the committed file " + path))
++                    else:
++                        whole += 1
++    return findings, unread, whole
++
++
++def _parts_of(test):
++    """the parts of an assert that each say one thing: the operands of its `and`s and `or`s.  A part that says something is
++    NOT there (`not in`, `!=`, `not ...`) pins nothing and is left out."""
++    if isinstance(test, ast.BoolOp):
++        for v in test.values:
++            yield from _parts_of(v)
++    elif isinstance(test, ast.UnaryOp) and isinstance(test.op, ast.Not):
++        return
++    elif isinstance(test, ast.Compare) and all(isinstance(op, (ast.NotIn, ast.NotEq)) for op in test.ops):
++        return
++    else:
++        yield test
++
++
++def _finder(rel, tracked):
++    """for one lock: the tracked file a bare file name stands for -- beside the lock, or the only tracked file of that name"""
++    def find(name):
++        beside = os.path.normpath(os.path.join(os.path.dirname(rel), name)).replace(os.sep, "/")
++        if beside in tracked:
++            return beside
++        ends = [t for t in tracked if t.endswith("/" + name.lstrip("./"))]
++        return ends[0] if len(ends) == 1 else None
++    return find
++
++
++def _read_tracked(path):
++    try:
++        return open(os.path.join(ROOT, path), encoding="utf-8", errors="replace").read()
++    except OSError:
++        return ""
++
++
+ def _lock_files():
+     """every tracked file the scan reads: tests/*.py as before, and the arcs' own locks, a file named test_*.py anywhere"""
+     out = subprocess.run(["git", "-C", ROOT, "ls-files", "tests/*.py", ":(glob)**/test_*.py"],
+@@ -298,12 +480,23 @@ def _lock_files():
+ def read_locks():
+     """One pass over every tracked lock.  Returns a table: the four classes, each a list of findings, and
+     under "total" the number of test functions read, in tests/ and elsewhere."""
+-    r = {"NO-ASSERT": [], "TAUTOLOGY": [], "BOTH-LITERAL": [], "CANNOT-FAIL": [], "total": {"tests": 0, "elsewhere": 0}}
++    r = {"NO-ASSERT": [], "TAUTOLOGY": [], "BOTH-LITERAL": [], "CANNOT-FAIL": [], "PRINTED-FLOAT": [], "PRINTED-FLOAT-UNREAD": 0,
++         "WHOLE-TRANSCRIPT": 0, "total": {"tests": 0, "elsewhere": 0}}
++    tracked = None
+     for rel in _lock_files():
+         try:
+-            tree = ast.parse(open(os.path.join(ROOT, rel), encoding="utf-8").read())
++            src = open(os.path.join(ROOT, rel), encoding="utf-8").read()
++            tree = ast.parse(src)
+         except Exception:
+             continue
++        if "subprocess" in src or "popen" in src or "system" in src:
++            if tracked is None:
++                tracked = set(subprocess.run(["git", "-C", ROOT, "ls-files"], capture_output=True, text=True).stdout.split("\n"))
++            found, unread, whole = printed_floats(rel, tree, _finder(rel, tracked), _read_tracked)
++            for name in sorted({f[0] for f in found}):
++                r["PRINTED-FLOAT"].append(f"{rel}::{name}")
++            r["PRINTED-FLOAT-UNREAD"] += unread
++            r["WHOLE-TRANSCRIPT"] += whole
+         for fn in ast.walk(tree):
+             if not (isinstance(fn, (ast.FunctionDef, ast.AsyncFunctionDef))
+                     and fn.name.startswith("test")):
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 97f26d6a8..4976a898f 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -1423,6 +1423,33 @@ CANNOT_FAIL_AS_FOUND = frozenset((          # 26 test functions, as found on 202
+ ))
+ 
+ 
++# A LOCK THAT COMPARES, AS TEXT, A FLOAT THAT A PROCESS PRINTED (the advisor seat's audit, L6; its planted case PV26, 2026-11-11).
++# Such a lock passes where it was written and can fail on a clean checkout elsewhere: the last digits a process prints for a
++# float depend on the machine and its libraries.  Four of the tests below fail so on the machine that found the class.  The
++# checker reads the form (scripts/checks/check_test_vacuity.py, printed_floats); a test of that form that is not named here
++# fails the gate.  These fifteen stood on the day the rule came: six compare a whole committed transcript for equality (in one
++# of them the float is a zero printed with a sign), nine hold the float in a literal.  Each is main's to mend, by reading the
++# number and comparing it as a number; the list may only shrink.  Computed once by the checker's class, each then read once;
++# not independently checked.
++PRINTED_FLOAT_AS_FOUND = frozenset((
++    "frontier/B1849_the_leads_confirmed_one_by_one/verification/test_b1849_the_leads_confirmed_one_by_one.py::test_the_cyclic_texture_check_reproduces",
++    "frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py::test_the_generating_pair_check_reproduces",
++    "frontier/B1852_the_tubes_real_part_by_topology/verification/test_b1852_the_tubes_real_part_by_topology.py::test_the_apex_real_part_exact",
++    "frontier/B1854_the_tubes_tau_beyond_k1_on_main/verification/test_b1854_the_tubes_tau_beyond_k1_on_main.py::test_the_extrapolation_reproduces",
++    "frontier/B1856_charge_or_symmetry_at_five_verified/verification/test_b1856_charge_or_symmetry_at_five_verified.py::test_the_weil5_check_reproduces",
++    "frontier/B1857_the_read_out_by_a_state_checked/verification/test_b1857_the_read_out_by_a_state_checked.py::test_the_checks_reproduce",
++    "frontier/B1866_the_agy_lanes_join_relay_scrutinised/verification/test_b1866_the_agy_lanes_join_relay_scrutinised.py::test_the_scrutiny_reproduces",
++    "tests/test_b1303_the_sm_closings_z_prime.py::test_q2_the_fcnc_fork_reproduces_by_RUNNING",
++    "tests/test_b1304_the_audit_seats_4d_model.py::test_the_b915_residual_reproduces_by_RUNNING",
++    "tests/test_b1305_the_cloud_156_178.py::test_the_partial_filling_witness_and_27_triples_reproduce_by_RUNNING",
++    "tests/test_b1429_stabiliser.py::test_the_two_chern_simons_values_rerun",
++    "tests/test_b1449_silent_receipts.py::test_the_decisive_test_of_b469_reproduces_with_the_fix_live",
++    "tests/test_b600_level_ladder.py::test_ladder",
++    "tests/test_b609_sealed_values.py::test_e3_spectra",
++    "tests/test_b610_m136_weld.py::test_b610_slice1",
++))
++
++
+ def gate_test_vacuity(_anchor=None):
+     """No test may be unconditionally-passing: no NO-ASSERT, no TAUTOLOGY.
+ 
+@@ -1454,6 +1481,11 @@ def gate_test_vacuity(_anchor=None):
+     if new:
+         return False, (f"{len(new)} test(s) in which no assert can fail: " + "; ".join(new[:5])
+                        + ". Each assert is made of literals alone: assert on something the test computes")
++    # PV26: a lock that compares, as text, a float that a process printed
++    pins = [t for t in r["PRINTED-FLOAT"] if t not in PRINTED_FLOAT_AS_FOUND]
++    if pins:
++        return False, (f"{len(pins)} test(s) compare, as text, a float that a process printed: " + "; ".join(pins[:5])
++                       + ". The last digits depend on the machine: read the number out and compare it as a number, within a tolerance")
+     # PV12 (WP-0.7): this gate counts the tests that cannot fail among the tests present, and with every lock deleted it
+     # counted none among none and passed.  A lock does not leave without a recorded retirement.
+     gone, note = locks_that_left(_anchor)
+@@ -1465,9 +1497,16 @@ def gate_test_vacuity(_anchor=None):
+     note += note_off
+     held = [t for t in r["CANNOT-FAIL"] if t in CANNOT_FAIL_AS_FOUND]
+     healed = len(CANNOT_FAIL_AS_FOUND) - len(held) if held else 0
++    pinned = [t for t in r["PRINTED-FLOAT"] if t in PRINTED_FLOAT_AS_FOUND]
++    unpinned = len(PRINTED_FLOAT_AS_FOUND) - len(pinned) if pinned else 0
++    unread, whole = r["PRINTED-FLOAT-UNREAD"], r["WHOLE-TRANSCRIPT"]
+     return True, (f"ok ({total} tests, 0 vacuous; {len(both_lit)} both-literal for review; {elsewhere} more in the arcs' own locks, 0 vacuous"
+                   + (f"; {len(held)} in which no assert can fail, held by name as found" if held else "")
+-                  + (f", and {healed} of that table mended or gone: shorten the table" if healed else "") + ")" + note)
++                  + (f", and {healed} of that table mended or gone: shorten the table" if healed else "")
++                  + (f"; {len(pinned)} that compare, as text, a float a process printed, held by name as found" if pinned else "")
++                  + (f", and {unpinned} of that table mended or gone: shorten the table" if unpinned else "")
++                  + (f"; {whole} more compare the whole of what a process printed with a committed file in which no such number stands" if whole else "")
++                  + (f"; {unread} that compare what a process gave with a file this gate could not find" if unread else "") + ")" + note)
+ 
+ 
+ def gate_views_generated():
+diff --git a/tests/test_a_gate_reads_all_it_is_about.py b/tests/test_a_gate_reads_all_it_is_about.py
+index dc6fc2945..58392dad9 100644
+--- a/tests/test_a_gate_reads_all_it_is_about.py
++++ b/tests/test_a_gate_reads_all_it_is_about.py
+@@ -697,3 +697,99 @@ def test_on_this_repository_every_path_a_lock_names_beside_itself_is_read():
+     assert g.LOCKS_IGNORED_PATHS_AS_FOUND == {"docs/workdesk/the_ledger_desk.html": "tests/test_workdesk_builds.py"}
+     ok, detail = g.gate_tracked_deps()
+     assert ok is True and "1 that git ignores held by name as found" in detail, detail
++
++
++# ---- PV26 (series 4): a lock that compares, as text, a float that a process printed ------------------------------------
++# The last digits a process prints for a float depend on the machine.  Such a lock passes where it was written and can
++# fail on a clean checkout elsewhere.  No gate read the form.
++_THIRD = "print('one third = %.17f' % (1 / 3))\n"
++_RUNS = "import pathlib, subprocess, sys\nHERE = pathlib.Path(__file__).resolve().parent\n\n\n"
++_OUT = "    out = subprocess.run([sys.executable, str(HERE / 'third.py')], capture_output=True, text=True).stdout\n"
++_PINS = {       # a way a lock can compare, as text, a float that a process printed -> the lock, and any file beside it
++    "a literal that must be in what was printed": (_RUNS + "def test_it():\n" + _OUT + "    assert 'one third = 0.33333333333333331' in out\n", {}),
++    "the whole of a committed transcript": (_RUNS + "def test_it():\n" + _OUT + "    assert out == (HERE / 'third_run.txt').read_text()\n",
++                                            {"third_run.txt": "one third = 0.33333333333333331\n"}),
++    "the whole of a committed transcript in which a zero is printed with a sign": (
++        _RUNS + "def test_it():\n" + _OUT + "    assert out == (HERE / 'third_run.txt').read_text()\n",
++        {"third.py": "print('S^2 = %+.0f%+.0fi' % (-1e-17, 1.0))\n", "third_run.txt": "S^2 = -0+1i\n"}),
++    "through a function of the lock's file": (_RUNS + "def _printed():\n" + _OUT + "    return out\n\n\ndef test_it():\n    assert _printed().startswith('one third = 0.3333333333')\n", {}),
++    "through a fixture of the lock's file": ("import pytest\n" + _RUNS + "@pytest.fixture\ndef printed():\n" + _OUT + "    return out\n\n\n"
++                                             "def test_it(printed):\n    assert printed.count('0.33333333333333331') == 1\n", {}),
++    "through a name the module binds when it is imported": (_RUNS + _OUT.replace("    out", "OUT") + "\n\ndef test_it():\n    assert 'one third = 0.33333333333333331' in OUT\n", {}),
++    "a line taken out of what was printed": (_RUNS + "def test_it():\n" + _OUT + "    line = [l for l in out.splitlines() if l.startswith('one')][0]\n"
++                                             "    assert line == 'one third = 0.33333333333333331'\n", {}),
++    "a text constant of the module": (_RUNS + "WANT = 'one third = 0.33333333333333331'\n\n\ndef test_it():\n" + _OUT + "    assert WANT in out\n", {}),
++    "a float printed with an exponent": (_RUNS + "def test_it():\n" + _OUT + "    assert 'residual 2.22e-16' in out\n", {}),
++    "by check_output, under another name for the module": ("import pathlib, sys\nimport subprocess as sp\nHERE = pathlib.Path(__file__).resolve().parent\n\n\n"
++                                                           "def test_it():\n    out = sp.check_output([sys.executable, str(HERE / 'third.py')], text=True)\n"
++                                                           "    assert 'one third = 0.33333333333333331' in out\n", {}),
++}
++_DOES_NOT_PIN = {
++    "the number read out and compared as a number": _RUNS + "def test_it():\n" + _OUT + "    assert abs(float(out.split('=')[1]) - 1 / 3) < 1e-12\n",
++    "a word that must be in what was printed": _RUNS + "def test_it():\n" + _OUT + "    assert 'one third' in out and out.rstrip().endswith('1')\n",
++    "a float with few digits": _RUNS + "def test_it():\n" + _OUT + "    assert 'one third = 0.333' in out\n",
++    "a float that must NOT be in what was printed": _RUNS + "def test_it():\n" + _OUT + "    assert '0.99999999' not in out and out\n",
++    "a float in a committed page, in a test that starts no process": "import pathlib\nHERE = pathlib.Path(__file__).resolve().parent\n\n\n"
++                                                                     "def test_it():\n    assert 'one third = 0.33333333333333331' in (HERE / 'page.md').read_text()\n",
++    "a float in a committed page, beside a process that is asked something else": _RUNS + "def test_it():\n" + _OUT
++        + "    assert out\n    assert 'one third = 0.33333333333333331' in (HERE / 'page.md').read_text()\n",
++    "a count printed with its sign, in a literal": _RUNS + "def test_it():\n" + _OUT + "    assert 'no marker: +0' in out or out\n",
++    "what git printed": "import subprocess\n\n\ndef test_it():\n    out = subprocess.run(['git', 'log', '-1', '--format=%s'], capture_output=True, text=True).stdout\n"
++                        "    assert '0.33333333333333331' in out or out\n",
++}
++
++
++def _a_lock_that_runs(tmp_path, name, lock, beside=None):
++    files = {"tests/test_real.py": _REAL, _ARC + "/third.py": _THIRD, _ARC + "/page.md": "one third = 0.33333333333333331\n", _LOCK: lock}
++    files.update({_ARC + "/" + k: v for k, v in (beside or {}).items()})
++    return _gate(_scratch(tmp_path / name, files), "test-vacuity")
++
++
++def test_a_lock_that_pins_a_float_a_process_printed_fails_the_vacuity_gate(tmp_path):
++    """PV26 as the suite plants it"""
++    lock, beside = _PINS["a literal that must be in what was printed"]
++    ok, detail = _a_lock_that_runs(tmp_path, "pv26", lock, beside)
++    assert ok is False, "a lock runs a script and compares, as text, a float it printed to seventeen digits, and the vacuity gate reads: " + detail
++    assert _LOCK + "::test_it" in detail and "compare it as a number" in detail
++
++
++def test_every_way_of_comparing_a_printed_float_as_text_is_refused(tmp_path):
++    passed = []
++    for n, (way, (lock, beside)) in enumerate(_PINS.items()):
++        ok, detail = _a_lock_that_runs(tmp_path, "way%d" % n, lock, beside)
++        if ok or "a float that a process printed" not in detail:
++            passed.append(way)
++    assert not passed, "a lock compares, as text, a float that a process printed, and the gate passes for: " + "; ".join(passed)
++
++
++def test_a_lock_that_compares_the_number_as_a_number_is_not_refused(tmp_path):
++    """the other side: what is not the form passes"""
++    for n, (what, lock) in enumerate(_DOES_NOT_PIN.items()):
++        ok, detail = _a_lock_that_runs(tmp_path, "not%d" % n, lock)
++        assert ok is True, (what, detail)
++
++
++def test_a_whole_transcript_that_holds_no_such_number_passes_and_is_counted(tmp_path):
++    lock = _RUNS + "def test_it():\n" + _OUT + "    assert out == (HERE / 'third_run.txt').read_text()\n"
++    ok, detail = _a_lock_that_runs(tmp_path, "whole", lock, {"third.py": "print('the orbits: 3, of sizes 1, 3 and 12')\n", "third_run.txt": "the orbits: 3, of sizes 1, 3 and 12\n"})
++    assert ok is True, detail
++    assert "1 more compare the whole of what a process printed with a committed file in which no such number stands" in detail, detail
++
++
++def test_a_transcript_the_gate_cannot_find_is_counted_and_said(tmp_path):
++    lock = _RUNS + "def test_it():\n" + _OUT + "    assert out == (HERE / ('third_%s.txt' % 'run')).read_text()\n"
++    ok, detail = _a_lock_that_runs(tmp_path, "unread", lock, {"third_run.txt": "one third = 0.33333333333333331\n"})
++    assert ok is True, detail
++    assert "1 that compare what a process gave with a file this gate could not find" in detail, detail
++
++
++def test_the_tests_that_pin_a_printed_float_are_held_by_name():
++    g = _gates()
++    named = getattr(g, "PRINTED_FLOAT_AS_FOUND", None)
++    assert named is not None, "the gates hold no list of the tests that compare a printed float as text"
++    assert len(named) == 15
++    for t in named:
++        rel, name = t.split("::")
++        assert ("def %s(" % name) in (ROOT / rel).read_text(encoding="utf-8"), t
++    ok, detail = g.gate_test_vacuity()
++    assert ok is True and "that compare, as text, a float a process printed, held by name as found" in detail, detail
+-- 
+2.43.0
+

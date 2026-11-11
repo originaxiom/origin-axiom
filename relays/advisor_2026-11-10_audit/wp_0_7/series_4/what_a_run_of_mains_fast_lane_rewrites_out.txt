@@ -1,0 +1,35 @@
+one run of main's fast lane, at main's 323f92327, in a clean worktree, by cld-advisor on 2026-11-11
+
+    python3 -B -m pytest -q -p no:randomly -p no:cacheprovider -n 2 -m "not slow"
+
+(main's own runner is scripts/run_suite.sh --fast; this is its command with two workers, and with the cache and
+the bytecode not written. No variable named OA_... was set.)
+
+the run's last line: 19 failed, 8364 passed, 61 skipped, 1 warning in 2666.84s (0:44:26)
+
+TRACKED FILES CHANGED BY THE RUN (git status --porcelain --untracked-files=no, after it): 2
+    M frontier/B1464_the_aged_items_paid_and_the_seal_gates_read_every_seal/verification/seal_census.json
+     M frontier/B1690_free_cusps_rigidity_and_the_tribunal_cells/verification/main_w81_w83.json
+
+new files left by the run that are neither tracked nor ignored: 0
+
+THE 19 TESTS THAT FAILED IN THIS RUN, ON THIS MACHINE (not this seat's to judge; § 6 of the cover note says what was seen of each):
+    frontier/B1849_the_leads_confirmed_one_by_one/verification/test_b1849_the_leads_confirmed_one_by_one.py::test_the_cyclic_texture_check_reproduces
+    frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py::test_the_generating_pair_check_reproduces
+    frontier/B1866_the_agy_lanes_join_relay_scrutinised/verification/test_b1866_the_agy_lanes_join_relay_scrutinised.py::test_the_scrutiny_reproduces
+    tests/test_arc_verdict_schema.py::test_schema[B1880_the_third_and_fourth_re_audits_answered]
+    tests/test_arc_verdict_schema.py::test_schema[B1881_the_whole_and_the_value_verified]
+    tests/test_arc_verdict_schema.py::test_schema[B1882_the_v1_card_run_on_main]
+    tests/test_arc_verdict_schema.py::test_schema[B1883_where_we_stand]
+    tests/test_arc_verdict_schema.py::test_schema[B1884_what_level_a_ground_names_verified]
+    tests/test_arc_verdict_schema.py::test_schema[B1885_the_golden_state_on_the_whole_verified]
+    tests/test_arc_verdict_schema.py::test_schema[B1886_the_foundation_at_version_1_65]
+    tests/test_arc_verdict_schema.py::test_schema[B1887_the_loop_check_verified]
+    tests/test_arc_verdict_schema.py::test_schema[B1888_the_public_form_scrutinised]
+    tests/test_arc_verdict_schema.py::test_schema[B1889_the_seats_digested]
+    tests/test_arc_verdict_schema.py::test_schema[B1890_the_first_enforcement_series_verified_and_landed]
+    tests/test_b1306_the_older_debt.py::test_slice_d_every_index_id_has_a_row_and_scheduled_is_counted
+    tests/test_b1449_silent_receipts.py::test_the_decisive_test_of_b469_reproduces_with_the_fix_live
+    tests/test_b1461_governance_delta.py::test_the_waiver_file_exists_with_the_grammar_and_no_live_waiver
+    tests/test_b805_forcing.py::test_gaps_are_reported_not_hidden
+    tests/test_b805_forcing.py::test_graph_builds_and_separates_authored_edges_from_attachment

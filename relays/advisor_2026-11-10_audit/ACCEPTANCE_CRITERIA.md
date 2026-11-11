@@ -41,6 +41,10 @@ is not valid. **At `217e37c4f`: 5 of 5 controls CAUGHT, 21 of 21 automated cases
 (`tools/planted_violations_out.txt`). PV5, PV7, PV23 and PV25–PV27 are not automated; the script lists them as
 MANUAL. The re-audit runs this script on the fix commit; the target is 0 NOT CAUGHT with the controls still CAUGHT.
 
+*Added 2026-11-11 (WP-0.7, series 4): the six are planted by the script itself now, and none is listed as manual. It
+plants 32 cases: these 27, and PV28 to PV32, which were found after this page was written. Each case added since has a
+twin with no violation, on which the same gates must pass.*
+
 | # | Planted violation | Gate that must fail | Finding |
 |---|---|---|---|
 | PV1 | delete lines 200–400 of `PROGRESS_LOG.md`, commit | `append-only` | G1 |

@@ -1,0 +1,277 @@
+From da8e47592ec3ff34f44c398de32ea2a528e32d8c Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Wed, 11 Nov 2026 23:05:07 +0000
+Subject: [PATCH 8/8] WP-0.7, enforcement (cld-advisor's series 4, patch 8;
+ built on 323f92327 with series 2, series 3 and the first seven patches of
+ series 4 applied): A TEST RUN LEAVES THE TRACKED FILES AS IT FOUND THEM (the
+ seat's planted case PV27). A gate reads the files on disk. A test that
+ rewrites a tracked file changes what every gate and every later test reads,
+ in nobody's commit, and the run ended with status 0. THE MEND is a check of
+ the run, and it is not a gate: a gate reads a commit, and what a run does is
+ not in one. A conftest at the repository's root, so that it holds for every
+ lock, in tests/ and in the arcs' own folders: when a run starts and when it
+ ends it asks git which tracked files differ from the commit and takes the
+ hash of each; a tracked file whose state changed in between fails the run, by
+ name, though every test passed. A file that was already changed before the
+ run is not the run's, unless the run changes it further. A test that puts
+ back what it changed passes. In a parallel run the workers do not compare;
+ the run's own process does, once. Where git gives no answer the run says that
+ it could not compare, and is not failed for it. Like a gate, the check is not
+ moved by the environment: git is asked about the checkout at the root with
+ the variables that send it elsewhere taken out, so that setting one does not
+ switch the check off. Two tracked files are rewritten by main's suite today,
+ found by one run of the fast lane at 323f92327: a census that is recomputed
+ and written over the committed counts, and a result file that is recomputed
+ and differs here in its last digit. They are held by name as found, the run
+ says so each time, and they are main's to mend. What it does not reach: a
+ file that is not tracked; a run that is killed before it ends; the slow lane
+ was not run here, so a test of it that writes a tracked file is not yet named
+ and will fail its run by name. The lock:
+ tests/test_a_test_run_leaves_the_tracked_files_as_it_found_them.py, ten
+ tests; on the commit before, eight fail, the first because a run that rewrote
+ a tracked file ended with status 0. Tested against planted errors; computed
+ once. 0 of 19.
+
+---
+ conftest.py                                   |  96 ++++++++++++++
+ ...aves_the_tracked_files_as_it_found_them.py | 125 ++++++++++++++++++
+ 2 files changed, 221 insertions(+)
+ create mode 100644 conftest.py
+ create mode 100644 tests/test_a_test_run_leaves_the_tracked_files_as_it_found_them.py
+
+diff --git a/conftest.py b/conftest.py
+new file mode 100644
+index 000000000..10dfefb18
+--- /dev/null
++++ b/conftest.py
+@@ -0,0 +1,96 @@
++"""A test run leaves the tracked files as it found them (the advisor seat's audit, L10; its planted case PV27; 2026-11-11).
++
++A gate reads the files on disk.  A test that rewrites a tracked file changes what every gate and every later test reads,
++and the change is in nobody's commit.  Two tests did so on the day the rule came: a census that is recomputed and written
++over the committed counts, and a result file that is recomputed and can differ in its last digit.
++
++This file is at the root so that it holds for every lock, in tests/ and in the arcs' own folders.  When a run starts and
++when it ends it asks git which tracked files differ from the commit, and takes the hash of each.  A tracked file whose
++state changed in between fails the run, by name.  The files named below are held as found; the list may only shrink.
++
++It is a check of the run and not a gate: a gate reads a commit, and what a run does is not in one.  Like a gate, it is not
++moved by the environment: git is asked about the checkout at the root, with the variables that send it elsewhere taken out.
++"""
++import hashlib
++import os
++import subprocess
++
++ROOT = os.path.dirname(os.path.abspath(__file__))
++_GIT_REDIRECTS = ("GIT_DIR", "GIT_WORK_TREE", "GIT_INDEX_FILE", "GIT_OBJECT_DIRECTORY", "GIT_COMMON_DIR")
++
++WRITTEN_BY_A_TEST_AS_FOUND = {          # a tracked file -> the test that rewrites it, as found on 2026-11-11
++    "frontier/B1464_the_aged_items_paid_and_the_seal_gates_read_every_seal/verification/seal_census.json":
++        "tests/test_b1464_aged_items.py::test_the_seal_census_live: a census recomputed and written over the committed counts",
++    "frontier/B1690_free_cusps_rigidity_and_the_tribunal_cells/verification/main_w81_w83.json":
++        "tests/test_b1690_free_cusps_rigidity_and_the_tribunal_cells.py: a result recomputed, which can differ in a last digit",
++}
++
++
++def tracked_state(root=ROOT):
++    """the tracked files that differ from the commit, each with the hash of what is on disk ("gone" for one that is not
++    there); None where git cannot say"""
++    here = {k: v for k, v in os.environ.items() if k not in _GIT_REDIRECTS}
++    try:
++        r = subprocess.run(["git", "--no-optional-locks", "-C", root, "status", "--porcelain=v1", "-z", "--untracked-files=no"],
++                           capture_output=True, timeout=600, env=here)
++    except (OSError, subprocess.SubprocessError):
++        return None
++    if r.returncode != 0:
++        return None
++    state, entries, i = {}, r.stdout.decode("utf-8", "surrogateescape").split("\0"), 0
++    while i < len(entries):
++        entry = entries[i]
++        i += 1
++        if len(entry) < 4:
++            continue
++        if entry[0] in "RC":
++            i += 1                                   # a rename or a copy is followed by the path it came from
++        path = entry[3:]
++        try:
++            with open(os.path.join(root, path), "rb") as f:
++                state[path] = hashlib.sha256(f.read()).hexdigest()
++        except OSError:
++            state[path] = "gone"
++    return state
++
++
++def changed_by_the_run(before, after):
++    """(the tracked files whose state a run changed and that are not held by name, those that are)"""
++    moved = sorted(p for p in set(before) | set(after) if before.get(p) != after.get(p))
++    return [p for p in moved if p not in WRITTEN_BY_A_TEST_AS_FOUND], [p for p in moved if p in WRITTEN_BY_A_TEST_AS_FOUND]
++
++
++def pytest_sessionstart(session):
++    if hasattr(session.config, "workerinput"):
++        return                                       # a worker of a parallel run: the run's own process compares, once
++    session.config._tracked_before = tracked_state()
++
++
++def pytest_sessionfinish(session, exitstatus):
++    config = session.config
++    if hasattr(config, "workerinput") or not hasattr(config, "_tracked_before"):
++        return
++    before, after = config._tracked_before, tracked_state()
++    if before is None or after is None:
++        config._tracked_report = (None, None)
++        return
++    new, held = changed_by_the_run(before, after)
++    config._tracked_report = (new, held)
++    if new and int(session.exitstatus) == 0:
++        session.exitstatus = 1                       # every test passed, and the run is not clean
++
++
++def pytest_terminal_summary(terminalreporter, exitstatus, config):
++    report = getattr(config, "_tracked_report", None)
++    if report is None:
++        return
++    new, held = report
++    say = terminalreporter.write_line
++    if new is None:
++        say("the tracked files could not be compared before and after this run: git gave no answer here")
++        return
++    if held:
++        say("%d tracked file(s) rewritten by this run, held by name as found: %s" % (len(held), ", ".join(held)))
++    if new:
++        say("THIS RUN CHANGED %d TRACKED FILE(S) AND FAILS FOR IT: %s" % (len(new), ", ".join(new)), red=True, bold=True)
++        say("a test writes under its temporary folder, or puts back what it changed. Each file is as the run left it: git diff shows the change")
+diff --git a/tests/test_a_test_run_leaves_the_tracked_files_as_it_found_them.py b/tests/test_a_test_run_leaves_the_tracked_files_as_it_found_them.py
+new file mode 100644
+index 000000000..80abc38aa
+--- /dev/null
++++ b/tests/test_a_test_run_leaves_the_tracked_files_as_it_found_them.py
+@@ -0,0 +1,125 @@
++"""A test run leaves the tracked files as it found them (the closure programme's WP-0.7, series 4; the seat's planted case PV27).
++
++A test that rewrites a tracked file changes what every gate reads after it, in nobody's commit.  The run compares the
++tracked files before and after, in the conftest at the repository's root, and fails by name for a file it changed.
++
++Each test makes a small repository of its own, which holds this repository's root conftest, one tracked page and one
++test, and runs that test there in a process of its own."""
++import importlib.util
++import os
++import pathlib
++import shutil
++import subprocess
++import sys
++
++import pytest
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++_WRITES = "import pathlib\nROOT = pathlib.Path(__file__).resolve().parents[1]\n\n\ndef test_it(tmp_path):\n%s"
++
++
++def _git(repo, *a):
++    r = subprocess.run(["git", "-C", str(repo), "-c", "user.name=t", "-c", "user.email=t@example.invalid", *a], capture_output=True, text=True)
++    assert r.returncode == 0, r.stderr
++    return r.stdout.strip()
++
++
++def _repo(tmp_path, body, git=True, table=None):
++    """a small repository: the root conftest of this one (where there is one), a tracked page, and a test with `body`"""
++    repo = tmp_path / "repo"
++    (repo / "tests").mkdir(parents=True)
++    if (ROOT / "conftest.py").is_file():
++        text = (ROOT / "conftest.py").read_text(encoding="utf-8")
++        (repo / "conftest.py").write_text(text + ("\nWRITTEN_BY_A_TEST_AS_FOUND.update(%r)\n" % table if table else ""), encoding="utf-8")
++    (repo / "pyproject.toml").write_text('[tool.pytest.ini_options]\ntestpaths = ["tests"]\n', encoding="utf-8")
++    (repo / "PAGE.md").write_text("a page that the commit holds\n", encoding="utf-8")
++    (repo / "tests" / "test_one.py").write_text(_WRITES % body, encoding="utf-8")
++    if git:
++        _git(repo, "init", "-q"); _git(repo, "add", "-A"); _git(repo, "commit", "-q", "-m", "a small repository")
++    return repo
++
++
++def _run(repo, *more, **also):
++    env = {k: v for k, v in os.environ.items() if not k.startswith(("PYTEST_", "GIT_"))}
++    env["PYTHONDONTWRITEBYTECODE"] = "1"
++    env.update(also)
++    r = subprocess.run([sys.executable, "-B", "-m", "pytest", "-q", "-p", "no:cacheprovider", *more], cwd=str(repo), env=env, capture_output=True, text=True)
++    return r.returncode, r.stdout + r.stderr
++
++
++def test_a_run_that_writes_under_its_temporary_folder_passes(tmp_path):
++    """the control: this held before the series"""
++    rc, out = _run(_repo(tmp_path, "    (tmp_path / 'PAGE.md').write_text('written by a test\\n')\n    assert (tmp_path / 'PAGE.md').read_text()\n"))
++    assert rc == 0 and "1 passed" in out, out
++
++
++def test_a_run_that_rewrites_a_tracked_file_fails_and_names_the_file(tmp_path):
++    """PV27 as planted"""
++    rc, out = _run(_repo(tmp_path, "    (ROOT / 'PAGE.md').write_text('written by a test\\n')\n    assert (ROOT / 'PAGE.md').read_text()\n"))
++    assert "1 passed" in out, out
++    assert rc != 0, "a test run rewrote a tracked file, every test passed, and the run ended with status 0"
++    assert "CHANGED 1 TRACKED FILE(S)" in out and "PAGE.md" in out, out
++
++
++def test_a_run_that_removes_a_tracked_file_fails_too(tmp_path):
++    rc, out = _run(_repo(tmp_path, "    (ROOT / 'PAGE.md').unlink()\n    assert not (ROOT / 'PAGE.md').exists()\n"))
++    assert rc != 0 and "PAGE.md" in out, "a test run removed a tracked file and ended with status %d" % rc
++
++
++def test_a_test_that_puts_back_what_it_changed_passes(tmp_path):
++    body = ("    p = ROOT / 'PAGE.md'\n    was = p.read_text()\n    try:\n        p.write_text('planted for a moment\\n')\n        assert p.read_text() != was\n"
++            "    finally:\n        p.write_text(was)\n")
++    rc, out = _run(_repo(tmp_path, body))
++    assert rc == 0 and "1 passed" in out, out
++
++
++def test_a_file_that_was_changed_before_the_run_is_not_the_runs(tmp_path):
++    repo = _repo(tmp_path, "    assert (ROOT / 'PAGE.md').read_text()\n")
++    (repo / "PAGE.md").write_text("work in hand, not committed\n", encoding="utf-8")
++    rc, out = _run(repo)
++    assert rc == 0, out
++    # and where the run changes it further, it is the run's
++    (repo / "tests" / "test_one.py").write_text(_WRITES % "    (ROOT / 'PAGE.md').write_text('changed again by a test\\n')\n    assert True is not None\n", encoding="utf-8")
++    rc, out = _run(repo)
++    assert rc != 0 and "PAGE.md" in out, "a test run changed further a file that was already changed, and ended with status %d" % rc
++
++
++def test_a_file_held_by_name_is_said_and_does_not_fail_the_run(tmp_path):
++    repo = _repo(tmp_path, "    (ROOT / 'PAGE.md').write_text('written by a test\\n')\n    assert (ROOT / 'PAGE.md').read_text()\n", table={"PAGE.md": "a test that stood on the day of the rule"})
++    rc, out = _run(repo)
++    assert rc == 0 and "1 tracked file(s) rewritten by this run, held by name as found: PAGE.md" in out, out
++
++
++def test_a_parallel_run_is_compared_once_by_the_runs_own_process(tmp_path):
++    pytest.importorskip("xdist")
++    rc, out = _run(_repo(tmp_path, "    (ROOT / 'PAGE.md').write_text('written by a test\\n')\n    assert (ROOT / 'PAGE.md').read_text()\n"), "-n", "2")
++    assert rc != 0 and out.count("CHANGED 1 TRACKED FILE(S)") == 1, out
++
++
++def test_where_git_cannot_say_the_run_says_so_and_is_not_failed_for_it(tmp_path):
++    rc, out = _run(_repo(tmp_path, "    assert (ROOT / 'PAGE.md').read_text()\n", git=False))
++    assert rc == 0, out
++    assert "could not be compared" in out, "a run in a folder that is not a checkout says nothing of what it could not compare"
++
++
++def test_gits_own_variables_do_not_switch_the_check_off(tmp_path):
++    """the rule of this series for a gate, kept by the check of the run: nothing in the environment moves it"""
++    repo = _repo(tmp_path, "    (ROOT / 'PAGE.md').write_text('written by a test\\n')\n    assert (ROOT / 'PAGE.md').read_text()\n")
++    nowhere = tmp_path / "not_a_repository"
++    nowhere.mkdir()
++    for name, value in (("GIT_DIR", str(nowhere)), ("GIT_INDEX_FILE", str(nowhere / "an_index_that_is_not_there")), ("GIT_WORK_TREE", str(nowhere))):
++        _git(repo, "checkout", "-q", "--", "PAGE.md")
++        rc, out = _run(repo, **{name: value})
++        assert rc != 0 and "PAGE.md" in out and "could not be compared" not in out, "with %s set, a run that rewrote a tracked file ended with status %d" % (name, rc)
++
++
++def test_on_this_repository_the_check_is_at_the_root_and_two_files_are_held_by_name():
++    assert (ROOT / "conftest.py").is_file(), "no conftest at the repository's root: a test run is not compared with the commit"
++    spec = importlib.util.spec_from_file_location("the_root_conftest", ROOT / "conftest.py")
++    c = importlib.util.module_from_spec(spec); spec.loader.exec_module(c)
++    assert len(c.WRITTEN_BY_A_TEST_AS_FOUND) == 2
++    tracked = set(subprocess.run(["git", "-C", str(ROOT), "ls-files"], capture_output=True, text=True).stdout.split("\n"))
++    for path, why in c.WRITTEN_BY_A_TEST_AS_FOUND.items():
++        assert path in tracked and (ROOT / why.split("::")[0].split(":")[0]).is_file(), path
++    assert c.changed_by_the_run({"a": "1"}, {"a": "2", "b": "3"}) == (["a", "b"], [])
++    assert c.changed_by_the_run({"a": "1"}, {"a": "1"}) == ([], [])
+-- 
+2.43.0
+

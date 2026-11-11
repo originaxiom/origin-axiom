@@ -1,0 +1,269 @@
+From 8986bc4f1b042b3158a65041069d32e9bf1d4633 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Wed, 11 Nov 2026 22:26:10 +0000
+Subject: [PATCH 4/8] WP-0.7, enforcement (cld-advisor's series 4, patch 4;
+ built on 323f92327 with series 2, series 3 and the first three patches of
+ series 4 applied): A TEST OF A LOCK IS NOT SWITCHED OFF WITHOUT A RECORDED
+ ACT (main's unseen case for series 2 that was caught by accident, M5). A test
+ made to skip was caught only because its file's hash is listed; no gate
+ looked for a skip, and a test outside the lists could be switched off unseen.
+ THE MEND is the rule of series 2, taken down from the lock file to the test:
+ since the anchor, a test function does not leave its lock, and does not gain
+ a way not to run, without a recorded act. What can keep a test from running
+ is read from the lock's source and not by running it: a skip, skipif or xfail
+ mark on the test, on its class or on its module; a call in its body that
+ skips; a skip at the module's import; a module told that it holds no test. A
+ test that left is named under 'tests' in LEFT_BY_NAME; one that may now skip,
+ under 'skips' in RAISED_BY_NAME. A new test may come with a skip, as main's
+ slow lanes do; a lock added after the anchor is held to what it was when it
+ was added; a skip may be taken off freely. On main nothing is named: since
+ the anchor no test has left a lock and none has gained a skip; in the last
+ thousand commits five locks lost eight tests and four tests gained a skip,
+ about one such act in a hundred commits. What it does not reach: a skip that
+ a helper or a fixture decides; a test whose body is rewritten to assert
+ something else; a test that runs only where a variable is set and nobody sets
+ it. The lock: six tests added to tests/test_nothing_leaves_a_ledger.py, eight
+ forms of a switch; on the commit before, four fail because the gate passes.
+ Tested against planted errors, 11 of 11 forms; computed once. 0 of 19.
+
+---
+ scripts/checks/check_test_vacuity.py  | 39 +++++++++++++
+ scripts/gates/gates.py                | 64 +++++++++++++++++++++
+ tests/test_nothing_leaves_a_ledger.py | 82 +++++++++++++++++++++++++++
+ 3 files changed, 185 insertions(+)
+
+diff --git a/scripts/checks/check_test_vacuity.py b/scripts/checks/check_test_vacuity.py
+index f1982c63d..c04c05151 100644
+--- a/scripts/checks/check_test_vacuity.py
++++ b/scripts/checks/check_test_vacuity.py
+@@ -46,6 +46,7 @@ Run:  python3 scripts/checks/check_test_vacuity.py [--both-literal]
+ import ast
+ import operator
+ import os
++import re
+ import subprocess
+ import sys
+ 
+@@ -249,6 +250,44 @@ def cannot_fail(fn):
+     return True
+ 
+ 
++_SWITCH = re.compile(r"\b(skip|skipif|xfail|importorskip)\b")
++
++
++def switches(src):
++    """What can keep each test of a lock from running, read from the lock's source and not by running it.
++
++    Returns a table: for each test function (a method as Class.name) the number of skip, skipif and xfail marks on it or
++    on its class, and of the calls in its body that skip; and under "" the module's own: a `pytestmark` that skips, a
++    skip at import, `__test__ = False`.  None where the source does not parse.
++
++    Added 2026-11-11 (WP-0.7, series 4).  One of main's unseen cases made a test skip, and it was caught only because
++    the file's hash was listed: no gate looked for a skip.  The gate holds this table to what it was (gates.py,
++    tests_switched_off): a test does not leave its lock, and does not gain a way not to run, without a recorded act."""
++    try:
++        tree = ast.parse(src)
++    except SyntaxError:
++        return None
++    out = {"": 0}
++    for n in tree.body:
++        if isinstance(n, ast.Assign) and any(isinstance(t, ast.Name) and t.id == "pytestmark" for t in n.targets) and _SWITCH.search(ast.unparse(n.value)):
++            out[""] += 1
++        if isinstance(n, ast.Assign) and any(isinstance(t, ast.Name) and t.id == "__test__" for t in n.targets) and ast.unparse(n.value) == "False":
++            out[""] += 1
++        if isinstance(n, ast.Expr) and isinstance(n.value, ast.Call) and _SWITCH.search(ast.unparse(n.value.func)):
++            out[""] += 1
++
++    def visit(body, prefix, inherited):
++        for n in body:
++            if isinstance(n, ast.ClassDef):
++                visit(n.body, prefix + n.name + ".", inherited + sum(1 for d in n.decorator_list if _SWITCH.search(ast.unparse(d))))
++            elif isinstance(n, (ast.FunctionDef, ast.AsyncFunctionDef)) and n.name.startswith("test"):
++                marks = sum(1 for d in n.decorator_list if _SWITCH.search(ast.unparse(d)))
++                calls = sum(1 for x in ast.walk(n) if isinstance(x, ast.Call) and _SWITCH.search(ast.unparse(x.func)))
++                out[prefix + n.name] = inherited + marks + calls
++    visit(tree.body, "", 0)
++    return out
++
++
+ def _lock_files():
+     """every tracked file the scan reads: tests/*.py as before, and the arcs' own locks, a file named test_*.py anywhere"""
+     out = subprocess.run(["git", "-C", ROOT, "ls-files", "tests/*.py", ":(glob)**/test_*.py"],
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index cb8ff5f08..6f9fe193c 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -1099,6 +1099,66 @@ def locks_that_left(anchor=None, repo=None, named=None):
+     return None, note
+ 
+ 
++# WP-0.7, series 4 (main's unseen case for series 2 that was caught by accident, M5): a test made to skip was caught only because
++# its file's hash is listed; no gate looked for a skip, and a test outside the lists could be switched off unseen.  The rule of
++# series 2, taken down to the test: since NOTHING_LEAVES_FROM, a test function does not leave its lock, and does not gain a way
++# not to run (a skip, skipif or xfail mark on it, on its class or on its module; a call in its body that skips), without a
++# recorded act.  A new test may come with a skip: main's slow lanes do.  A lock that was added after the anchor is held to
++# what it was when it was added.  Read, not run: a skip that a helper or a fixture decides is not seen.
++def tests_switched_off(anchor=None, repo=None, left=None, raised=None):
++    """(problem, note), as left_the_ledger returns them.  The named ones are under "tests" in LEFT_BY_NAME (a test that
++    left, as 'path::name') and under "skips" in RAISED_BY_NAME (a test that may now skip)."""
++    anchor = anchor or NOTHING_LEAVES_FROM
++    repo = str(repo or ROOT)
++    git, why = _since_the_anchor(anchor, repo)
++    if why:
++        return why, ""
++    sys.path.insert(0, os.path.join(ROOT, "scripts", "checks"))
++    try:
++        import check_test_vacuity as ctv
++    except Exception as exc:
++        return f"cannot verify: the vacuity checker is missing or unimportable ({exc})", ""
++    finally:
++        sys.path.pop(0)
++    left = LEFT_BY_NAME.get("tests", {}) if left is None else left
++    raised = RAISED_BY_NAME.get("skips", {}) if raised is None else raised
++    gone, can_skip, by_name = [], [], []
++    for line in git("diff", "--name-status", "-M", anchor, "--", ":(glob)**/test_*.py").stdout.splitlines():
++        parts = line.split("\t")
++        status, old, new = parts[0][:1], parts[1], parts[-1]
++        if status == "A":                                   # added after the anchor: held to what it was when it was added
++            first = git("log", "--first-parent", "--diff-filter=A", "--format=%H", f"{anchor}..HEAD", "--", new).stdout.split()
++            if not first:
++                continue                                    # not committed yet: nothing to hold it to
++            was = git("show", f"{first[-1]}:{new}")
++        elif status in "MR":
++            was = git("show", f"{anchor}:{old}")
++        else:
++            continue                                        # deleted: the file's own leaving is locks_that_left's
++        full = os.path.join(repo, new)
++        if was.returncode != 0 or not os.path.isfile(full):
++            continue
++        before, now = ctv.switches(was.stdout), ctv.switches(open(full, encoding="utf-8", errors="replace").read())
++        if before is None:
++            continue
++        if now is None:
++            gone.append(f"{new} (it no longer parses)")
++            continue
++        for name, n in sorted(before.items()):
++            key = f"{new}::{name}" if name else f"{new} (the whole file)"
++            if name and name not in now:
++                (by_name if str(left.get(key, "")).strip() else gone).append(key)
++            elif now.get(name, 0) > n:
++                (by_name if str(raised.get(key, "")).strip() else can_skip).append(key)
++    note = f"; {len(by_name)} test(s) left a lock or may now skip, by name since {anchor[:9]}" if by_name else ""
++    if gone or can_skip:
++        return ((f"{len(gone)} test(s) left a lock" + (": " + "; ".join(gone[:4]) if gone else "") + f", and {len(can_skip)} may now skip"
++                 + (": " + "; ".join(can_skip[:4]) if can_skip else "") + f", since {anchor[:9]} with no record. A test does not leave its lock, "
++                 "and is not given a way not to run, without a recorded act: put it back, or name it under 'tests' in LEFT_BY_NAME or "
++                 "under 'skips' in RAISED_BY_NAME, with its date and why"), note)
++    return None, note
++
++
+ # WP-0.7 (PV24): the checker listed an assert between two literals "for review", and the gate refused only a test with no assert
+ # and a tautology.  A test whose only assert was `assert 1 != 2` passed; main has one, by that name.  The checker now has a fourth
+ # class, CANNOT-FAIL: a test in which no assert can fail, each being made of literals alone and true.  The gate refuses it.  One
+@@ -1165,6 +1225,10 @@ def gate_test_vacuity(_anchor=None):
+     gone, note = locks_that_left(_anchor)
+     if gone:
+         return False, gone
++    off, note_off = tests_switched_off(_anchor)          # series 4: a test that left its lock, or that may now skip
++    if off:
++        return False, off
++    note += note_off
+     held = [t for t in r["CANNOT-FAIL"] if t in CANNOT_FAIL_AS_FOUND]
+     healed = len(CANNOT_FAIL_AS_FOUND) - len(held) if held else 0
+     return True, (f"ok ({total} tests, 0 vacuous; {len(both_lit)} both-literal for review; {elsewhere} more in the arcs' own locks, 0 vacuous"
+diff --git a/tests/test_nothing_leaves_a_ledger.py b/tests/test_nothing_leaves_a_ledger.py
+index c9b7ccc14..44fa717cc 100644
+--- a/tests/test_nothing_leaves_a_ledger.py
++++ b/tests/test_nothing_leaves_a_ledger.py
+@@ -379,6 +379,88 @@ def test_on_main_no_lock_has_left_since_the_anchor():
+     assert g.locks_that_left() == (None, "")
+ 
+ 
++
++# ---- a test of a lock is not switched off (series 4; main's unseen case for series 2 that was caught by accident) ------
++_OFF = {
++    "a skip mark": lambda t: t.replace("def test_one(", "import pytest\n\n\n@pytest.mark.skip(reason='not now')\ndef test_one("),
++    "a skipif mark": lambda t: t.replace("def test_one(", "import pytest\n\n\n@pytest.mark.skipif(True, reason='x')\ndef test_one("),
++    "an xfail mark": lambda t: t.replace("def test_one(", "import pytest\n\n\n@pytest.mark.xfail\ndef test_one("),
++    "a call that skips, in its body": lambda t: "import pytest\n\n\n" + t.replace("    assert", "    pytest.skip('not now')\n    assert"),
++    "an importorskip in its body": lambda t: "import pytest\n\n\n" + t.replace("    assert", "    pytest.importorskip('a_package_nobody_has')\n    assert"),
++    "a mark on the whole module": lambda t: "import pytest\n\npytestmark = pytest.mark.skip(reason='the whole file')\n\n\n" + t,
++    "a skip at the module's import": lambda t: "import pytest\n\npytest.importorskip('a_package_nobody_has')\n\n\n" + t,
++    "the module told it holds no test": lambda t: "__test__ = False\n\n\n" + t,
++}
++
++
++def test_a_test_made_to_skip_turns_the_vacuity_gate_red_in_every_form(tmp_path):
++    """the case as main ran it: a test of a lock that no list of hashes names is made to skip.  No gate looked for a skip."""
++    for name, switch_off in _OFF.items():
++        repo, anchor = _scratch(tmp_path / name.replace(" ", "_").replace(",", "").replace("'", ""), _LOCKS)
++        assert _gate(repo, "test-vacuity", anchor)[0] is True
++        _commit(repo, "a test is switched off: " + name, {"tests/test_one.py": switch_off(_LOCKS["tests/test_one.py"])})
++        ok, detail = _gate(repo, "test-vacuity", anchor)
++        assert ok is False, f"a test of a lock was switched off ({name}), and the vacuity gate passed: {detail}"
++        assert "may now skip" in detail and "tests/test_one.py" in detail, (name, detail)
++
++
++def test_a_test_that_may_now_skip_passes_only_by_a_recorded_act(tmp_path):
++    repo, anchor = _scratch(tmp_path, _LOCKS)
++    _commit(repo, "a test is made to skip", {"tests/test_one.py": _OFF["a skipif mark"](_LOCKS["tests/test_one.py"])})
++    ok, detail = _gate(repo, "test-vacuity", anchor)
++    assert ok is False, "a test of a lock was given a skipif mark with no record, and the vacuity gate passed: " + detail
++    assert "tests/test_one.py::test_one" in detail
++    p = repo / "scripts" / "gates" / "gates.py"
++    src = p.read_text(encoding="utf-8")
++    assert src.count("RAISED_BY_NAME = {}") == 1
++    p.write_text(src.replace("RAISED_BY_NAME = {}", "RAISED_BY_NAME = {'skips': {'tests/test_one.py::test_one': '2026-11-12 -- it needs a package the review machine lacks'}}"), encoding="utf-8")
++    _commit(repo, "the act recorded")
++    ok, detail = _gate(repo, "test-vacuity", anchor)
++    assert ok is True and "1 test(s) left a lock or may now skip, by name" in detail, detail
++
++
++def test_a_test_function_that_leaves_its_lock_has_left(tmp_path):
++    """renamed so that it is no longer collected, or deleted, with the file kept: the lock stands and tests less"""
++    two = _LOCKS["tests/test_one.py"] + "\n\ndef test_one_more():\n    assert sum([2, 2]) == 4\n"
++    repo, anchor = _scratch(tmp_path, dict(_LOCKS, **{"tests/test_one.py": two}))
++    _commit(repo, "a test renamed out of collection", {"tests/test_one.py": two.replace("def test_one_more(", "def _test_one_more(")})
++    ok, detail = _gate(repo, "test-vacuity", anchor)
++    assert ok is False, "a test function was renamed so that it is not collected, and the vacuity gate passed: " + detail
++    assert "1 test(s) left a lock: tests/test_one.py::test_one_more" in detail
++    _name_in_the_gate(repo, "tests", "tests/test_one.py::test_one_more", "2026-11-12 -- the claim it locked was corrected (B12); its lock was rewritten")
++    _commit(repo, "the act recorded")
++    ok, detail = _gate(repo, "test-vacuity", anchor)
++    assert ok is True and "by name" in detail, detail
++
++
++def test_a_new_test_may_come_with_a_skip_and_a_skip_may_be_taken_off(tmp_path):
++    """the other side.  Main's slow lanes are tests that come with a skipif; a new lock may hold one; and a skip that is
++    removed is no rise.  None of these needs a record."""
++    marked = "import pytest\n\n\n@pytest.mark.skipif(True, reason='slow')\ndef test_slow():\n    assert sum([1, 2]) == 3\n"
++    repo, anchor = _scratch(tmp_path, dict(_LOCKS, **{"tests/test_marked.py": marked}))
++    _commit(repo, "a new test with a skip, in a lock that was there", {"tests/test_one.py": _LOCKS["tests/test_one.py"] + "\n\nimport pytest\n\n\n@pytest.mark.skipif(True, reason='slow')\ndef test_one_slow():\n    assert sum([1, 2]) == 3\n"})
++    _commit(repo, "a new lock that holds a skip", {"tests/test_new.py": marked.replace("test_slow", "test_new_slow")})
++    _commit(repo, "a skip taken off", {"tests/test_marked.py": marked.replace("@pytest.mark.skipif(True, reason='slow')\n", "")})
++    ok, detail = _gate(repo, "test-vacuity", anchor)
++    assert ok is True and "by name" not in detail, detail
++
++
++def test_a_lock_added_after_the_anchor_is_held_to_what_it_was_when_it_was_added(tmp_path):
++    repo, anchor = _scratch(tmp_path, _LOCKS)
++    late = "def test_late():\n    assert sum([1, 2]) == 3\n"
++    _commit(repo, "a lock added after the anchor", {"frontier/B11_an_arc/verification/test_b11_late.py": late})
++    assert _gate(repo, "test-vacuity", anchor)[0] is True
++    _commit(repo, "and switched off", {"frontier/B11_an_arc/verification/test_b11_late.py": "import pytest\n\n\n@pytest.mark.skip(reason='x')\n" + late})
++    ok, detail = _gate(repo, "test-vacuity", anchor)
++    assert ok is False, "a lock added after the anchor was switched off, and the vacuity gate passed: " + detail
++    assert "test_b11_late.py::test_late" in detail
++
++
++def test_on_this_repository_no_test_has_been_switched_off_since_the_anchor():
++    g = _gates()
++    problem, note = getattr(g, "tests_switched_off", lambda: ("the gates do not look for a test that is switched off", ""))()
++    assert problem is None and note == "", (problem, note)
++
+ # ---- PV19: a ceiling the same commit could raise ------------------------------------------------------------------------
+ def test_a_baseline_count_raised_with_the_tokens_it_allows_turns_the_attribution_gate_red(monkeypatch):
+     """PV19 as planted, on this repository's own gate.  The plant goes in through the gate's readers and no tracked file is
+-- 
+2.43.0
+

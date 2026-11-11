@@ -1,0 +1,107 @@
+
+==== patch 1: 8986bc4f1 -- A TEST OF A LOCK IS NOT SWITCHED OFF WITHOUT A RECORDED ACT (main's unseen case for series 2 that was caught b
+     its 6 tests, on the commit before (c961af689):
+     E   AssertionError: a lock added after the anchor was switched off, and the vacuity gate passed: ok (2 tests, 0 vacuous; 0 both-literal for review; 2 more in the arcs' own locks, 0 vacuous)
+     tests/test_nothing_leaves_a_ledger.py:455: AssertionError: a lock added after the anchor was switched off, and t
+     E   AssertionError: a test function was renamed so that it is not collected, and the vacuity gate passed: ok (2 tests, 0 vacuous; 0 both-literal for review; 1 more in the arcs' own locks, 0 vacuous)
+     tests/test_nothing_leaves_a_ledger.py:428: AssertionError: a test function was renamed so that it is not collect
+     E   AssertionError: a test of a lock was switched off (a skip mark), and the vacuity gate passed: ok (2 tests, 0 vacuous; 0 both-literal for review; 1 more in the arcs' own locks, 0 vacuous)
+     tests/test_nothing_leaves_a_ledger.py:403: AssertionError: a test of a lock was switched off (a skip mark), and 
+     E   AssertionError: a test of a lock was given a skipif mark with no record, and the vacuity gate passed: ok (2 tests, 0 vacuous; 0 both-literal for review; 1 more in the arcs' own locks, 0 vacuous)
+     tests/test_nothing_leaves_a_ledger.py:411: AssertionError: a test of a lock was given a skipif mark with no reco
+        E   AssertionError: ('the gates do not look for a test that is switched off', '')
+        tests/test_nothing_leaves_a_ledger.py:462: AssertionError: ('the gates do not look for a test that is switched off', '')
+     PASSED tests/test_nothing_leaves_a_ledger.py::test_a_new_test_may_come_with_a_skip_and_a_skip_may_be_taken_off
+     FAILED tests/test_nothing_leaves_a_ledger.py::test_a_lock_added_after_the_anchor_is_held_to_what_it_was_when_it_was_added
+     FAILED tests/test_nothing_leaves_a_ledger.py::test_a_test_function_that_leaves_its_lock_has_left
+     FAILED tests/test_nothing_leaves_a_ledger.py::test_a_test_made_to_skip_turns_the_vacuity_gate_red_in_every_form
+     FAILED tests/test_nothing_leaves_a_ledger.py::test_a_test_that_may_now_skip_passes_only_by_a_recorded_act
+     FAILED tests/test_nothing_leaves_a_ledger.py::test_on_this_repository_no_test_has_been_switched_off_since_the_anchor
+     5 failed, 1 passed in 4.13s
+
+==== patch 2: c7d125d90 -- THE OLD LINES THAT CALL ONE MEMBER'S RESULT THE OBJECT'S ARE HELD BY NAME (the seat's planted case PV23). The 
+     its 5 tests, on the commit before (8986bc4f1):
+        E   AssertionError: a new NEGATIVE says the object for one member's result, an old line was reworded in the same commit, and the gate reads: ok (8 on the record, baseline 8)
+        tests/test_a_gate_reads_all_it_is_about.py:556: AssertionError: a new NEGATIVE says the object for one member's result, an old line was reworded in the same commit, and the gate reads: ok (8 on the record, baseline 8)
+        E   AssertionError: a second arc took an old arc's number and says the object, and the gate reads: ok (8 on the record, baseline 8)
+        tests/test_a_gate_reads_all_it_is_about.py:568: AssertionError: a second arc took an old arc's number and says the object, and the gate reads: ok (8 on the record, baseline 8)
+        E   AssertionError: ok (7 on the record, baseline 8; lower the baseline)
+        tests/test_a_gate_reads_all_it_is_about.py:576: AssertionError: ok (7 on the record, baseline 8; lower the baseline)
+        E   AssertionError: the gates hold the old lines as a count and not by name
+        tests/test_a_gate_reads_all_it_is_about.py:582: AssertionError: the gates hold the old lines as a count and not by name
+     PASSED tests/test_a_gate_reads_all_it_is_about.py::test_one_more_negative_about_the_object_fails_the_member_scope_gate
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_new_negative_does_not_pass_because_an_old_line_was_reworded
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_an_arc_that_takes_an_old_arcs_number_is_not_the_old_arc
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_an_old_line_that_is_mended_passes_and_the_gate_says_the_list_can_shrink
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_on_this_repository_the_old_lines_are_held_by_name
+     4 failed, 1 passed in 1.89s
+
+==== patch 3: 89ab57c43 -- THE GATE THAT READS A LOCK'S OWN PATHS READS THEM HOWEVER THEY ARE WRITTEN (a further form of the seat's plant
+     its 6 tests, on the commit before (c7d125d90):
+        E   AssertionError: a lock names a file that git ignores, so that no clean checkout has it, and the gate passes where the path is written: through a second name, as the lock of B1671 does; in single quotes; in one line from the fi
+        tests/test_a_gate_reads_all_it_is_about.py:643: AssertionError: a lock names a file that git ignores, so that no clean checkout has it, and the gate passes where the path is written: through a second name, as the lock of B1671 doe
+        E   AssertionError: the gate reads a lock's own paths by a pattern, in one way of writing them
+        tests/test_a_gate_reads_all_it_is_about.py:686: AssertionError: the gate reads a lock's own paths by a pattern, in one way of writing them
+        E   AssertionError: ok
+        tests/test_a_gate_reads_all_it_is_about.py:679: AssertionError: ok
+     PASSED tests/test_a_gate_reads_all_it_is_about.py::test_a_lock_that_names_an_ignored_file_beside_itself_fails_the_gate
+     PASSED tests/test_a_gate_reads_all_it_is_about.py::test_the_same_locks_pass_where_the_file_is_committed
+     PASSED tests/test_a_gate_reads_all_it_is_about.py::test_what_is_not_the_name_of_one_file_beside_the_lock_is_not_refused
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_however_a_lock_writes_the_path_of_an_ignored_file_it_is_refused
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_on_this_repository_every_path_a_lock_names_beside_itself_is_read
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_the_gate_says_how_many_paths_it_read_and_how_many_it_did_not
+     3 failed, 3 passed in 7.46s
+
+==== patch 4: cee04dc2c -- A LOCK DOES NOT COMPARE, AS TEXT, A FLOAT THAT A PROCESS PRINTED (the seat's planted case PV26). The last digi
+     its 6 tests, on the commit before (89ab57c43):
+        E   AssertionError: a lock runs a script and compares, as text, a float it printed to seventeen digits, and the vacuity gate reads: ok (1 tests, 0 vacuous; 0 both-literal for review; 1 more in the arcs' own locks, 0 vacuous)
+        tests/test_a_gate_reads_all_it_is_about.py:752: AssertionError: a lock runs a script and compares, as text, a float it printed to seventeen digits, and the vacuity gate reads: ok (1 tests, 0 vacuous; 0 both-literal for review; 1 m
+        E   AssertionError: ok (1 tests, 0 vacuous; 0 both-literal for review; 1 more in the arcs' own locks, 0 vacuous)
+        tests/test_a_gate_reads_all_it_is_about.py:783: AssertionError: ok (1 tests, 0 vacuous; 0 both-literal for review; 1 more in the arcs' own locks, 0 vacuous)
+        E   AssertionError: ok (1 tests, 0 vacuous; 0 both-literal for review; 1 more in the arcs' own locks, 0 vacuous)
+        tests/test_a_gate_reads_all_it_is_about.py:776: AssertionError: ok (1 tests, 0 vacuous; 0 both-literal for review; 1 more in the arcs' own locks, 0 vacuous)
+        E   AssertionError: a lock compares, as text, a float that a process printed, and the gate passes for: a literal that must be in what was printed; the whole of a committed transcript; the whole of a committed transcript in which a
+        tests/test_a_gate_reads_all_it_is_about.py:762: AssertionError: a lock compares, as text, a float that a process printed, and the gate passes for: a literal that must be in what was printed; the whole of a committed transcript; th
+        E   AssertionError: the gates hold no list of the tests that compare a printed float as text
+        tests/test_a_gate_reads_all_it_is_about.py:789: AssertionError: the gates hold no list of the tests that compare a printed float as text
+     PASSED tests/test_a_gate_reads_all_it_is_about.py::test_a_lock_that_compares_the_number_as_a_number_is_not_refused
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_lock_that_pins_a_float_a_process_printed_fails_the_vacuity_gate
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_transcript_the_gate_cannot_find_is_counted_and_said
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_whole_transcript_that_holds_no_such_number_passes_and_is_counted
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_every_way_of_comparing_a_printed_float_as_text_is_refused
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_the_tests_that_pin_a_printed_float_are_held_by_name
+     5 failed, 1 passed in 4.50s
+
+==== patch 5: da8e47592 -- A TEST RUN LEAVES THE TRACKED FILES AS IT FOUND THEM (the seat's planted case PV27). A gate reads the files on
+     its 10 tests, on the commit before (cee04dc2c):
+        E   AssertionError: .                                                                        [100%]
+           1 passed in 0.37s
+         assert (0 == 0 and '1 tracked file(s) rewritten by this run, held by name as found: PAGE.md' in '.                                                                        [100%]\n1 passed in 0.37s\n')
+        tests/test_a_test_run_leaves_the_tracked_files_as_it_found_them.py:90: AssertionError: .                                                                        [100%]
+        E   AssertionError: a test run changed further a file that was already changed, and ended with status 0
+        tests/test_a_test_run_leaves_the_tracked_files_as_it_found_them.py:84: AssertionError: a test run changed further a file that was already changed, and ended with status 0
+        E   AssertionError: bringing up nodes...
+           1 passed in 0.55s
+        tests/test_a_test_run_leaves_the_tracked_files_as_it_found_them.py:96: AssertionError: bringing up nodes...
+        E   AssertionError: a test run removed a tracked file and ended with status 0
+        tests/test_a_test_run_leaves_the_tracked_files_as_it_found_them.py:66: AssertionError: a test run removed a tracked file and ended with status 0
+     E   AssertionError: a test run rewrote a tracked file, every test passed, and the run ended with status 0
+     tests/test_a_test_run_leaves_the_tracked_files_as_it_found_them.py:60: AssertionError: a test run rewrote a trac
+        E   AssertionError: with GIT_DIR set, a run that rewrote a tracked file ended with status 0
+        tests/test_a_test_run_leaves_the_tracked_files_as_it_found_them.py:113: AssertionError: with GIT_DIR set, a run that rewrote a tracked file ended with status 0
+        E   AssertionError: no conftest at the repository's root: a test run is not compared with the commit
+        tests/test_a_test_run_leaves_the_tracked_files_as_it_found_them.py:117: AssertionError: no conftest at the repository's root: a test run is not compared with the commit
+        E   AssertionError: a run in a folder that is not a checkout says nothing of what it could not compare
+         assert 'could not be compared' in '.                                                                        [100%]\n1 passed in 0.01s\n'
+        tests/test_a_test_run_leaves_the_tracked_files_as_it_found_them.py:102: AssertionError: a run in a folder that is not a checkout says nothing of what it could not compare
+     PASSED tests/test_a_test_run_leaves_the_tracked_files_as_it_found_them.py::test_a_run_that_writes_under_its_temporary_folder_passes
+     PASSED tests/test_a_test_run_leaves_the_tracked_files_as_it_found_them.py::test_a_test_that_puts_back_what_it_changed_passes
+     FAILED tests/test_a_test_run_leaves_the_tracked_files_as_it_found_them.py::test_a_file_held_by_name_is_said_and_does_not_fail_the_run
+     FAILED tests/test_a_test_run_leaves_the_tracked_files_as_it_found_them.py::test_a_file_that_was_changed_before_the_run_is_not_the_runs
+     FAILED tests/test_a_test_run_leaves_the_tracked_files_as_it_found_them.py::test_a_parallel_run_is_compared_once_by_the_runs_own_process
+     FAILED tests/test_a_test_run_leaves_the_tracked_files_as_it_found_them.py::test_a_run_that_removes_a_tracked_file_fails_too
+     FAILED tests/test_a_test_run_leaves_the_tracked_files_as_it_found_them.py::test_a_run_that_rewrites_a_tracked_file_fails_and_names_the_file
+     FAILED tests/test_a_test_run_leaves_the_tracked_files_as_it_found_them.py::test_gits_own_variables_do_not_switch_the_check_off
+     FAILED tests/test_a_test_run_leaves_the_tracked_files_as_it_found_them.py::test_on_this_repository_the_check_is_at_the_root_and_two_files_are_held_by_name
+     FAILED tests/test_a_test_run_leaves_the_tracked_files_as_it_found_them.py::test_where_git_cannot_say_the_run_says_so_and_is_not_failed_for_it
+     8 failed, 2 passed in 4.65s

@@ -1,0 +1,28 @@
+variants on the patches at 4da223c53
+w1   HOLDS  a module-wide skip mark on a real lock: 0 test(s) left a lock, and 1 may now skip: tests/test_derived_potential.py (the whole file), since e6298271a with no record. A test does not leave its
+w2   HOLDS  a skip called in the body of test_the_checks_reproduce, in an arc's own lock: 0 test(s) left a lock, and 1 may now skip: frontier/B1857_the_read_out_by_a_state_checked/verification/test_b1857_the_read_out_by_a_state_ch
+w3   HOLDS  one test function deleted from a real lock: 1 test(s) left a lock: tests/test_derived_potential.py::test_gradient_flow_relation, and 0 may now skip, since e6298271a with no record. A test does n
+w4   HOLDS  a lock moved to another name with one test marked: 0 test(s) left a lock, and 1 may now skip: tests/test_derived_potential_moved.py::test_potential_derivative_is_the_golden_polynomial, since e6298271a 
+w5   HOLDS  a function of the lock's file decides the skip: the gate passes (a limit) -- ok (6580 tests, 0 vacuous; 97 both-literal for review; 308 m
+w6   HOLDS  a test's body rewritten to assert something else: the gate passes (a limit) -- ok (6580 tests, 0 vacuous; 97 both-literal for review; 308 m
+w7   HOLDS  a new NEGATIVE in another of the gate's phrases: 1 NEGATIVE verdict line(s) say 'the object' for one member's result, in an arc that is not one of the 8 held by name as found: B9010_a_planted_negativ
+w8   HOLDS  an old arc's folder renamed, its line as it was: 1 NEGATIVE verdict line(s) say 'the object' for one member's result, in an arc that is not one of the 8 held by name as found: B429_bosonic_rigidity_r
+w9   HOLDS  a new NEGATIVE about one thread that avoids every phrase: the gate passes (a limit) -- ok (8 on the record, each held by name as found; baseline 8)
+w10  HOLDS  B1671's lock as it is, one log out of the commit and on disk: 1 untracked-but-referenced path(s): frontier/B1671_the_dedekind_phase_verified/verification/my_verify4.log <- tests/test_b1671_the_dedekind_phase_verified.py
+w11  HOLDS  the same, the log gone from disk: 1 untracked-but-referenced path(s): frontier/B1671_the_dedekind_phase_verified/verification/my_verify4.log <- tests/test_b1671_the_dedekind_phase_verified.py (git ignores this path: a clean checkout w
+w12  HOLDS  a file inside a folder that .gitignore names: 1 untracked-but-referenced path(s): frontier/B9011_a_planted_arc/verification/audit/notes.txt <- frontier/B9011_a_planted_arc/verification/test_b9011_a_planted_arc.py (gi
+w13  HOLDS  up from the folder and down again to an ignored file: 1 untracked-but-referenced path(s): frontier/B9011_a_planted_arc/verification/run.log <- frontier/B9011_a_planted_arc/verification/test_b9011_a_planted_arc.py (git ignore
+w14  HOLDS  the folder kept in an attribute of a class: the gate passes (a limit)
+w15  HOLDS  the file's name built with an f-string: the gate passes, and counts 324 with a computed part where it counted 323
+w16  HOLDS  a new test beside a named one, pinning a printed float: 1 test(s) compare, as text, a float that a process printed: tests/test_b610_m136_weld.py::test_a_planted_second_test. The last digits depend on the machine: read the numb
+w17  HOLDS  what os.popen gave, compared with a literal: 1 test(s) compare, as text, a float that a process printed: frontier/B9011_a_planted_arc/verification/test_b9011_a_planted_arc.py::test_it. The last d
+w18  HOLDS  a second pin in one of the fourteen named tests: the gate passes (a limit)
+w19  HOLDS  the float computed and formatted inside the lock's own process: the gate passes (a limit)
+w20  HOLDS  the process started in a module beside the lock: the gate passes (a limit)
+w21  HOLDS  an arc's own lock, run alone, rewrites CHANGELOG.md: the run ends with status 1 and names the file
+w22  HOLDS  main's test that rewrites the census, run alone: the run ends with status 0 and says: 1 tracked file(s) rewritten by this run, held by name as found: frontier/B1464_the_aged_items_paid_and_the_seal_gates_read_every_seal/verification/sea
+w23  HOLDS  a test changes the mode of a tracked file: the run ends with status 1 and names the file
+w24  HOLDS  a parallel run in which one test rewrites CHANGELOG.md: status 1; the run says so 1 time(s)
+w25  HOLDS  a test leaves a new file that is not tracked: the run ends with status 0 (a limit)
+
+25 of 25 expectations hold

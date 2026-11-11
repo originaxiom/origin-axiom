@@ -13,15 +13,15 @@
 |---|---|
 | date | 2026-11-11 |
 | the role, by the owner's ruling to main (M1 on this seat's page; main's rows P-792, P-795) | **builder only.** Five packages: WP-0.7, WP-0.9, WP-0.11, WP-0.12, WP-5.1. It is no longer an auditor: the re-audit of main's corrections has passed to another seat. It hears main on its page, `docs/seats/cld-advisor.md`, through the listener, and the owner no longer relays |
-| read | M5 |
-| on | **C1 is sent: WP-0.7, series 3**, six patches (`ADVISOR_TO_CC_2026-11-11_WP_0_7_SERIES_3_SIX_PATCHES.md`): the wording gates (PV17, PV20, PV21), the controls gate (PV16), a test in which no assert can fail (PV24), and the gap main's unseen case U9.b found in series 1. **C3 is sent:** the read main asked in M4 of its page on the periodic review (`ADVISOR_TO_CC_2026-11-11_THE_REVIEW_REVIEWED_A_READ.md`), a note and not a build. Now on **C2: series 4** (`relays/cards/cld-advisor_C2_wp-0-7-series-4.md`). **Its first three patches are sent** (`ADVISOR_TO_CC_2026-11-11_WP_0_7_SERIES_4_ITS_FIRST_THREE_PATCHES.md`): no variable in the environment moves a gate, of the project's own or of git's, and the last review's anchor is the commit in which the review landed. The suite reads 24 of 24 with them. Still to build: the six cases the suite lists as manual, and the one M5 names, a lock that is made to skip |
-| sent, and with main | **series 1 is landed** as sent (M2; main's B1890; eight of main's nine unseen cases held, the ninth is mended in series 3). Series 2 (six patches) is received; main's unseen cases for it are next. Series 3 is sent (twice: after M3 three phrases that named a session as a check were reworded, with no code changed). The planted suite on their end: **21 of 21** of its automated cases, from 8 |
-| asked of main | one thing, for patch `0005` of series 3: its word, row by row, on the nineteen rows of the registry of retracted phrases that the sweep did not read (the note's § 5). The series does not wait for it |
+| read | M6 |
+| on | **C2 is sent in full: WP-0.7, series 4**, eight patches in two notes (`ADVISOR_TO_CC_2026-11-11_WP_0_7_SERIES_4_ITS_FIRST_THREE_PATCHES.md`, `…_ITS_LAST_FIVE_PATCHES.md`). The first three: nothing but the commit moves a gate. The last five: a test of a lock made to skip (main's unseen case, M5); PV23, the old lines held by name; PV32, a lock's own paths read however they are written; PV26, a float that a process printed compared as text; PV27, a test run that rewrites a tracked file. **C1 and C3 are sent** (series 3; the read of main's page on the periodic review, taken into Review 79 by M6). **Between cards now:** the card for WP-0.9 is next |
+| sent, and with main | **series 1 is landed** as sent (M2; main's B1890). Series 2: all thirteen of main's unseen cases caught (M5); to be read and landed. Series 3: received; main's word on its nineteen rows is yes, as proposed (M6). Series 4: the first three received (M6), the last five sent with this push. Main's order is series 2, 3, then 4, after Review 79's entry. The planted suite: **32 cases, none listed as manual; 32 of 32 on the end of series 4**; 14 of 32 on main's `323f92327` |
+| asked of main | one thing: where the check of a test run belongs (the note on series 4's last five patches, § 4 a). Nothing waits for it |
 | told to main | series 2, on main's new head, turns one assertion of B1890's lock red (the table of series 1 pinned at 6 and 14; series 2 makes it 4 and 19). Sixteen of main's 53 gate controls do not depend on their gate's answer (a read-out). A page of the paper shows a withdrawn sentence with no correction |
 | also with main | the seventh re-audit (E7) is taken by main (M2); the seat sends no more. The three additions on how the sessions are named are in main's proposal to the owner |
-| waiting on | nothing that blocks. Main's verdicts on series 2 and 3 |
+| waiting on | nothing that blocks. Main's unseen cases and its read of series 2, 3 and 4 |
 | blocked | no |
-| packages delivered | 0 of 5 (three of four series of the first package sent; the first is landed) |
+| packages delivered | 0 of 5 (all four series of the first package are sent; the first is landed) |
 
 (The section is numbered 9 and stands first, so that its number does not move when the page grows.)
 
@@ -122,9 +122,10 @@ caught.
 | planted and not caught: 13 | **what is deleted or emptied passes:** PV10 (the identification baseline deleted, three unearned rows added), PV11 (the list of retracted phrases deleted), PV12 (every lock in `tests/` deleted), PV13 (the law map and the theorem ledger emptied). **A gate is not a function of the commit:** PV9 (an export with no git), PV15 (three gates read the date), PV22 (a shallow clone). **The wording gates:** PV17 (retracted phrases added after a cut-off date), PV20 (a proven row of the claims that cites no lock), PV21 (a banned phrase in a `.tex` file, and in capitals). **The rest:** PV16 (every gate's control pointed at a skipped trivial test), PV19 (a baseline raised in the commit that adds the tokens), PV24 (a test whose only assert is `assert 1 != 2`) |
 | listed as manual: 6 | PV5 (a sealed file edited and a ledger row added with the new digest), PV7 (the generated ledger rows rebuilt twice must agree), PV23 (a one-thread negative worded about the object); and PV25, PV26, PV27, for which no gate exists (a lock that reads an ignored file, a lock that compares printed numbers as text, a test run that writes to a tracked file) |
 
-Main counts four manual and three with no gate; the suite lists six, three of them with no gate. **Not yet
-reconciled.** This page said it would be before the first patch; it was not, and series 1 touches none of those
-cases. It is reconciled before the series that does (series 4).
+Main counts four manual and three with no gate; the suite lists six, three of them with no gate. **Reconciled in
+series 4** (the note on its last five patches, § 7): the six were PV5, PV7 and PV25, which main had mended and the
+suite could not yet plant, and PV23, PV26 and PV27, which had no gate. The suite plants all six now, and none is
+listed as manual.
 
 **What main measured and handed over, taken as the starting facts:** fourteen gates read git directly or through a
 checker; three checkers read the wall clock; 23 tests in `tests/` have no assert that can fail, and the vacuity
@@ -136,8 +137,8 @@ fourteen times; widening the framing gate costs one exemption.
 | 1 | the baseline | done: 8 of 21 at `818d17f46` |
 | 2 | main names the commit to build on, and changes the owner | done: `e5f9d09cd`. Main has sealed 53 unseen cases of its own for this package (sha256 `06d73fbb…6ff893`) |
 | 3 | each case read against the gate's code; one line each on why it passes | done: `wp_0_7/WHY_EACH_CASE_PASSES.md` |
-| 4 | the cases mended one at a time, in a scratch clone at main's commit: the test first and failing, then the mend | each commit's test fails on the commit before and passes on it. **Series 1 landed** (PV9, PV22, PV15). **Series 2 sent** (PV10, PV11, PV12, PV13, PV19). **Series 3 sent** (PV21, PV20, PV24, PV17, PV16, and main's U9.b). Series 4 (the six manual cases) to come |
-| 5 | each series checked before it is sent: the 53 gates, **main's own tests of the gates at the base and on the series**, the suite, this seat's own variants committed before they run | nothing turns red that was not red at the base. At the last series: 21 of 21 |
+| 4 | the cases mended one at a time, in a scratch clone at main's commit: the test first and failing, then the mend | each commit's test fails on the commit before and passes on it. **Series 1 landed** (PV9, PV22, PV15). **Series 2 sent** (PV10, PV11, PV12, PV13, PV19). **Series 3 sent** (PV21, PV20, PV24, PV17, PV16, and main's U9.b). **Series 4 sent** (PV28, PV29, PV30; main's case of a lock made to skip; PV23, PV32, PV26, PV27; and PV5, PV7 and PV25 planted by the suite) |
+| 5 | each series checked before it is sent: the 53 gates, **main's own tests of the gates at the base and on the series**, the suite, this seat's own variants committed before they run | nothing turns red that was not red at the base. At the last series: 32 of 32 |
 | 6 | delivered: each series as patch files, one for each commit, with a table of case, mend, test and what was run | one note for each series, sent when it is ready (main: "a patch is not a relay, send it when it is ready") |
 | 7 | main's verdict and the web seat's cold read answered | main lands it and marks WP-0.7 done |
 
@@ -149,7 +150,7 @@ commit. If main wants a branch to fetch, a second branch needs the owner's leave
 
 | # | item | state | whose move |
 |---|---|---|---|
-| 1 | the five packages of § 5 | 0 of 5 delivered; WP-0.7: series 1 landed; series 2, series 3 and the first three patches of series 4 sent; the suite at 24 of 24 of the cases it plants by itself; the rest of series 4 is the six manual cases | main verifies what is sent; this seat builds the rest of series 4 on card C2 |
+| 1 | the five packages of § 5 | 0 of 5 delivered; WP-0.7: series 1 landed; series 2, 3 and 4 sent, twenty patches; the suite plants 32 cases and lists none as manual, and reads 32 of 32 on the end of series 4 | main verifies what is sent and lands it; this seat writes the card for WP-0.9 |
 | 2 | re-audit of each package main closes | **closed** by the owner's ruling to main (M1): it has passed to another seat. Sent before that: seven re-audits, the last two of E5 (accepted), E2 (partly; main has since mended the line) and E7 (accepted; main's to take or leave) | — |
 | 3 | ORD-a, the order before the card | **closed.** Main refused the two variants at `e5f9d09cd`; re-run here at `038df6984`, all three plants refused | — |
 | 4 | V1, the card | main read it once: B in all three decisive cells. This seat's verdict given: B, not A for N2 | main: P-786 (the sentence on every page, the window's ends as a choice, the same count on the candidate's null) |
