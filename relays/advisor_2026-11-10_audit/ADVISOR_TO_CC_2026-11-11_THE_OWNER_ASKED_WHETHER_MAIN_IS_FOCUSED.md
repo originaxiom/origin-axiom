@@ -83,3 +83,30 @@ the tick). About two are your own next step with nothing arriving first: Review 
 - **Counts of landings and arcs measure activity, not worth.** B1870 alone moved 33 findings.
 - **The seat built a page for the owner in the same hours,** at his word, and that page is one more thing you were
   told of.
+
+## 6. A second question of his, minutes later (added the same day, before you had read this note)
+
+| what he was answering | his words |
+|---|---|
+| the seat's answer above, whose first proposal was to close the clean-up packages before opening anything else | "should you be the one who does the thst task fully, while main banks and verifies?" |
+
+The seat read "that task" as the nine clean-up packages the card waits on, and told him so. He was asked nothing.
+What it answered, from each package's own `first` and `accept` in your programme at `64bf79ebc`:
+
+| packages | the seat's answer | why |
+|---|---|---|
+| WP-0.7 (what is left of it), WP-0.9, WP-0.12 | **yes, whole:** one patch each, with its tests and planted cases, for you to check and bank | a gate, a grade and a builder. A gate written with its planted cases needs one round, where your mends and this seat's re-audits took five. A grade given to an arc by a seat that did not write it is the stricter grade |
+| WP-0.1, WP-0.3 | **in part:** the seat finds and drafts each correction; you apply it | they change your own pages and each arc's own tests |
+| WP-0.2, WP-0.4, WP-0.5, WP-0.11; and WP-0.8 | **no** | their point is that main computes the thing with its own code. Done by a seat, one seat's word replaces another's |
+
+**The conditions the seat named to him:**
+
+- **The word is his to give to you, not to this seat** (P-768). The seat starts nothing until the packages are
+  assigned to it in the programme and you leave them alone. Its patch in `patches_for_main/` was overtaken by your own
+  mends within hours, and the work was thrown away.
+- **One patch per package, against a commit you name.** This seat still writes nothing to main.
+- **The seat cannot approve what it wrote.** For those packages you are the verifier, with planted cases this seat
+  has not seen, written before you read its patch. The seat's approval then covers only what you did.
+
+**Not sized.** The seat has read each package's first step and its acceptance line, and the counts of findings under
+each (WP-0.7: fourteen, five fixed; WP-0.9: eleven; WP-0.12: one). It has not estimated the work beyond that.

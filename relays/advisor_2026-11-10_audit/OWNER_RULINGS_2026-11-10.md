@@ -340,12 +340,15 @@ relayed. From here this file follows that form and this seat asks him nothing.
 | nothing: a question of his own to this seat, while it was at work on the six items | "how far are we from our initial goal of getting 100% ready for the final reading? the dynamic scoreboard we talked?" |
 | the last line of the seat's answer to that question: "I can also build the visual version as a read-only page from the same files; I have not started it." | "doit" |
 | nothing: a question of his own, after the seat handed the page over | "is main working focused or is it doing unecesary stuff?" |
+| the seat's answer to that, whose first proposal was to close the clean-up packages the card waits on before opening anything else | "should you be the one who does the thst task fully, while main banks and verifies?" |
 
 The seat answered the first from main's own generated files (`tools/where_we_stand.py`) and relayed the question and
 the answer to main in `ADVISOR_TO_CC_2026-11-11_SIX_ITEMS.md`, § 4. On the second it built the page (`scoreboard/`)
 and relayed his word and what was built in `ADVISOR_TO_CC_2026-11-11_THE_SCOREBOARD_PAGE.md`. The third it answered
 from main's own log, register and programme, and relayed the question, the counts and the answer in
-`ADVISOR_TO_CC_2026-11-11_THE_OWNER_ASKED_WHETHER_MAIN_IS_FOCUSED.md`. He was asked nothing.
+`ADVISOR_TO_CC_2026-11-11_THE_OWNER_ASKED_WHETHER_MAIN_IS_FOCUSED.md`. The fourth it answered package by package, and
+relayed in § 6 of the same note. It read "that task" as the nine clean-up packages and said so. He was asked nothing,
+and the seat starts none of it: the word is his to give to main (P-768).
 
 ## The roles
 
