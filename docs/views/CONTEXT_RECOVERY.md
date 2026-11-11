@@ -18,11 +18,11 @@
 | … NEGATIVE | 383 |
 | … OPEN | 97 |
 | … RETRACTED | 12 |
-| register points | 799 |
+| register points | 800 |
 | … QUEUED | 272 |
 | … LEAD | 4 |
-| … OWNER | 6 |
-| … DONE | 505 |
+| … OWNER | 4 |
+| … DONE | 508 |
 | … DECLINED | 12 |
 | harvest rows (the last number) | 1706 |
 | the Standard Model's 19 derived | 0 |
@@ -50,14 +50,13 @@
 - ** P-082** — a second outside reader, later, approached in his own context (relating to his videos), after the first correspondence → *later, at the owner's word; nothing prepared until then [2026-11-04, the owner confirmed: paused until a result passes a level-2 confirmation] [2026-11-11, the…*
 - ** P-253** — the chain gap's top entries (Review 67's R66-3, declined there because the chain is the frozen paper's spine): B1098, B959, B1100, B952, B1086, B1000, B1484, B1070 (coverage_candidates.py --chain-gap) — adjudicate each… → *asked of the owner: whether and when to open a draft after p9-draft9; until then the chain-gap list stays recorded here and nothing is due (S231) [earlier: Q3…*
 - ** P-787** — THE PUBLIC FORM OF THE REPOSITORY: THIS ONE, OR A DISTILLED ONE WITH THIS AS THE ARCHIVE (the owner to the advisor seat, 2026-11-11, asking for a deep analysis and an honest opinion and whether the public version should… → *2026-11-11, LATER STILL: THE OWNER ASKED, THROUGH THE ADVISOR SEAT, FOR MAIN'S REVIEW, ENRICHMENT AND SCRUTINY OF THE PROPOSAL ("did u inform main about the re…*
-- ** P-796** — THE OWNER ASKS FOR A REVIEW OF THE PRACTICE OF PUBLISHING HIS MESSAGES IN THE RECORD: whether it helps the repository, whether it exposes too much, whether it puts credibility at risk; the project is to be about the mat… → *MAIN'S RECOMMENDATION, PUT TO HIM THE SAME HOUR: change the practice from now and leave the past. (1) A ruling is entered in plain neutral words, dated and num…*
-- ** P-797** — THE OWNER ASKS FOR A CLEANER WAY TO REFER TO THE AI SESSIONS: the names are understood only inside the project, a session is sometimes written as if it were an authority, and both confuse a reader and cost credibility;… → *MAIN'S PROPOSAL, PUT TO HIM THE SAME HOUR: NAME THE METHOD, NEVER THE SESSION. (1) In anything a stranger opens -- the light public repository, the paper, the…*
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
 
 ## The last landings (CHANGELOG)
 
+- S306p THREE RULINGS OF THE OWNER, APPLIED: HIS MESSAGES ARE PRIVATE; A CHECK IS NAMED BY ITS METHOD AND NEVER BY A SESSION; THE DISTILLED REPOSITORY IS PUBLIC AND STAYS ON THE LIST (P-796, P-797, P-7…
 - S306p THE FIRST PATCH SERIES FOR ENFORCEMENT, VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (WP-0.7; B1890); THE FINDING E7 FIXED AND ACCEPTED (WP-0.8); TWO SEATS NAME THEMSELVES (2026-11-11)
 - S306p THE SEATS' PAGES, THE CARD AND THE LISTENER: MAIN DIRECTS THE SEATS AND NOBODY RELAYS BY HAND (the owner's ruling; P-795, with P-794, P-796, P-797) (2026-11-11)
 - S306p THE ADVISOR SEAT'S SIXTH RE-AUDIT TAKEN (WP-0.8): THE FINDING E5 IS FIXED AND ACCEPTED; THE FINDING E2'S ONE LINE IS MENDED (P-792, P-793) (2026-11-11)
@@ -65,11 +64,10 @@
 - S306p THE ERRORS IN THE MATHEMATICS, THE THIRD OF THE NINE LEFT (WP-0.8): "0.000 BITS OF DESIGNER FREEDOM" WAS ELEVEN ZEROS TYPED BY HAND (E7) (2026-11-11)
 - S306p THE ERRORS IN THE MATHEMATICS, THE SECOND OF THE NINE LEFT (WP-0.8): A SCAN THAT NEVER REFINED, REPLACED BY THE JOINT EIGENVALUES (E5) (2026-11-11)
 - S306p THE REPOSITORY'S PUBLIC FORM, SCRUTINISED AT THE OWNER'S WORD (B1888; P-787) (2026-11-11)
-- S306p THE ERRORS IN THE MATHEMATICS, THE FIRST OF NINE (WP-0.8): THE KNOT GROUP'S CONGRUENCE LEVEL IS (4), AND THE LOCK NOW SAYS SO (E2) (2026-11-11)
 
 ## The latest campaign line
 
-LATEST (2026-11-11, S306p: B1890 — THE FIRST PATCH SERIES FOR ENFORCEMENT VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (WP-0.7); THE FINDING E7 FIXED AND ACCEPTED (WP-0.8).** Four patches of the advisor seat's, under the rule that a gate is a function of the commit, are on main. Eight of main's nine unseen cases hold (an export with an empty git directory; the five gates the seat's list did not name; every date variable and a stubbed clock 400 days on; depth 1, depth 50 and a hand-cut clone); one does not, a repository with no commit, where nine gates pass with nothing to look at: the seat's to close, pinned by a lock. E7 is accepted by the seat's seventh re-audit: thirteen findings fixed a…
+LATEST (2026-11-11, S306p: THREE RULINGS OF THE OWNER APPLIED (P-796, P-797, P-793, P-800).** His messages are private from now on and history is not rewritten: a ruling is entered in plain words and nothing he said is quoted (the working rules, amended). A check is named by its method and never by a session: the terminology page has the words, nine labels each naming its evidence, and what 'seat' and 'lane' meant. Every seat's page carries both. The distilled repository of 2026-09-02 is public, is fetched, and stays as a small harvest. No package advanced. 0 of 19.)
 
 ## Completeness (nothing skipped silently)
 
