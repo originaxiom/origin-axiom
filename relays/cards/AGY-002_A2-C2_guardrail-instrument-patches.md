@@ -1,8 +1,8 @@
 # Card `A2-C2`: Static AST and Commit-Tree Guardrail Patches for Enforcement Package `WP-0.7`
 
 - **Seat:** `agy-002` (`origin/agy-002/verify`)
-- **Card ID:** `A2-C2` (proposed by `agy-002` at `main`'s invitation in `docs/seats/agy-002.md` under `M2`, `2026-11-11`; **waiting on `main`'s word before any build or run**)
-- **Base commit on `main` named for all patches:** `b80c6899143681754efb8fdcd2b447b2c03faab2` (or any newer `main` commit `main` names when approving)
+- **Card ID:** `A2-C2` (proposed at `main`'s invitation in `docs/seats/agy-002.md` under `M2`, `2026-11-11`; updated under `M3` for `docs/seats/README.md` § 9 and § 12; **waiting on `main`'s word before any build or run**)
+- **Base commit on `main` named for all patches:** `69f66fbf3128ceeda53dacaaa70f78d943a4d988` (`scripts/gates/gates.py` is identical to `b80c6899143681754efb8fdcd2b447b2c03faab2`)
 - **Mask & data rule:** zero measured values, zero physical constants, zero held-out targets (`0 of 19`); prose written in plain words so every count and condition reads clearly through `main`'s number-hiding mask.
 
 ---
@@ -29,7 +29,7 @@ Nothing is built or run before `main` approves this card (`docs/seats/README.md`
    - **Patch Three (`"0003-wp07-lock-producer-import-ban.patch"`):** Enforces the zero-trust lock and referee countercheck rule:
      - Static AST and path scanner over lock tests and verification scripts flagging (a) direct or dynamic imports or subprocess invocations of a frontier producer script under test (`import`, `from ... import`, `importlib`, `runpy`, `exec`, `subprocess`), and (b) passive echo locks that read only a producer's pre-written output JSON without performing an independent recomputation, while cleanly exempting declared schema-only or gate-infrastructure unit tests.
 2. **In-memory synthetic adversarial and benign test script plus verbatim raw output** in `"relays/a2_c2/"` (committed before the delivery summary), exercising all six planted patterns and benign controls purely on in-memory synthetic commit trees.
-3. **Closing delivery note** in `relays/` naming exact patch paths, base commit `b80c6899143681754efb8fdcd2b447b2c03faab2`, what was left out, and claiming **zero verdict** on our own build (`main` runs its own unseen planted cases and brings whatever holds to `WP-0.7`).
+3. **Closing delivery note** in `relays/` naming exact patch paths, base commit `69f66fbf3128ceeda53dacaaa70f78d943a4d988`, what was left out, and stating how the build was checked in the exact words of `docs/seats/README.md` § 12 (`expectations committed first`; `tested against planted errors`, with six planted fault trees and five clean controls counted; `not independently checked` until `main` runs its own unseen planted cases on `WP-0.7`). Zero result or check label beyond those facts is claimed on our own build.
 
 ---
 
