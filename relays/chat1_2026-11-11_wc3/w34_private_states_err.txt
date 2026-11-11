@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "w34_private_states.py", line 324, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "w34_private_states.py", line 212, in main
+    table.append(ranks_exact(rho, k))
+                 ~~~~~~~~~~~^^^^^^^^
+  File "w34_private_states.py", line 149, in ranks_exact
+    dimV, rhoV, B, Res, rhoc = block_data(rho, k)
+                               ~~~~~~~~~~^^^^^^^^
+  File "w34_private_states.py", line 144, in block_data
+    rhoc = rho_word({x: rhoV[x] for x in ('a', 'b')}, c_word)
+  File "w34_private_states.py", line 80, in rho_word
+    M = M * (rho[g] if e == 1 else rho[g].inv())
+        ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  File "/usr/local/lib/python3.13/site-packages/sympy/core/decorators.py", line 118, in binary_op_wrapper
+    return func(self, other)
+  File "/usr/local/lib/python3.13/site-packages/sympy/matrices/matrixbase.py", line 2819, in __mul__
+    return self.multiply(other)
+           ~~~~~~~~~~~~~^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/sympy/matrices/matrixbase.py", line 2846, in multiply
+    raise ShapeError(f"Matrix size mismatch: {self.shape} * {other.shape}.")
+sympy.matrices.exceptions.ShapeError: Matrix size mismatch: (2, 2) * (3, 3).
+exit 1

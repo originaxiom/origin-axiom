@@ -1,0 +1,6 @@
+K1  LLR mirror-symmetric (rotation, reversal): (False, False); LR: (True, True)
+W76a {'threads': 8798, 'mirror_symmetric': 248, 'rotation_only': 12, 'reversal_only': 210, 'both': 26, 'threads_to_12': 745, 'mirror_symmetric_to_12': 55}
+W76b 248 bundles; geometric: 248; largest |CS| as returned: 2.95e-15; outside the rule: 0 []
+W83a {'K2_orthogonal_to_one_root': 126, 'orthogonal_to_A2': 72, 'gamma_in_that_E6': True, 'orthogonal_also_to_gamma': 30, 'rank': 5, 'components': 1}
+K3   {'choice': (0, 1, 1, 1), 'order': 96, 'commutant_on_T': 1}
+W83b trace-free commutant on 6 = T (x) 2_q: {"the weave's lifts": 0, 'S3, the permutation triplet': 1, 'trivial': 8}

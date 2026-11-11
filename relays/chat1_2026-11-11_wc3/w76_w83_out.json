@@ -1,0 +1,76 @@
+{
+ "K1": [
+  [
+   false,
+   false
+  ],
+  [
+   true,
+   true
+  ]
+ ],
+ "W76a": {
+  "threads": 8798,
+  "mirror_symmetric": 248,
+  "rotation_only": 12,
+  "reversal_only": 210,
+  "both": 26,
+  "threads_to_12": 745,
+  "mirror_symmetric_to_12": 55
+ },
+ "W76b": {
+  "n": 248,
+  "largest_abs_cs": 2.9472147072043262e-15,
+  "outside": [],
+  "sample": [
+   [
+    "LR",
+    "all tetrahedra positively oriented",
+    -1.4623584425059633e-16
+   ],
+   [
+    "LLRR",
+    "all tetrahedra positively oriented",
+    6.749346657719831e-17
+   ],
+   [
+    "LLLRRR",
+    "all tetrahedra positively oriented",
+    -8.999128876959774e-17
+   ],
+   [
+    "LLRLRR",
+    "all tetrahedra positively oriented",
+    -8.999128876959774e-17
+   ],
+   [
+    "LLRRLR",
+    "all tetrahedra positively oriented",
+    8.999128876959774e-17
+   ]
+  ]
+ },
+ "W83a": {
+  "K2_orthogonal_to_one_root": 126,
+  "orthogonal_to_A2": 72,
+  "gamma_in_that_E6": true,
+  "orthogonal_also_to_gamma": 30,
+  "rank": 5,
+  "components": 1
+ },
+ "K3": {
+  "choice": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "order": 96,
+  "commutant_on_T": 1
+ },
+ "W83b": {
+  "the weave's lifts": 0,
+  "S3, the permutation triplet": 1,
+  "trivial": 8
+ }
+}
