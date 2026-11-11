@@ -1,0 +1,193 @@
+"""A gate is a function of the commit (the closure programme's WP-0.7, built by the advisor seat and verified by main).
+
+The seat's planted case PV9: the gates were run on a `git archive` export, where there is no git, and nine of the ten that
+need it passed.  Three answered "skipped" and returned a pass.  Six asked git for the tracked files, were given none, and
+found nothing wrong among none ("ok (0 tests, 0 vacuous)", "ok (0 citations resolve)").
+
+Each test here makes the situation and runs the gate.  The first test fails on the commit before this file's."""
+import ast
+import importlib.util
+import pathlib
+import re
+import subprocess
+
+ROOT = pathlib.Path(__file__).resolve().parents[1]
+
+# the ten gates the planted case names: all ten need git
+PV9 = ["append-only", "attribution", "tracked-forbidden", "log-changelog-paired", "views-fresh", "path-refs", "test-vacuity",
+       "retraction-sweep", "review-fires", "harvest-debt"]
+
+
+def _gates():
+    spec = importlib.util.spec_from_file_location("gates_for_the_commit_rule", ROOT / "scripts" / "gates" / "gates.py")
+    g = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(g)
+    return g
+
+
+def _git(repo, *a):
+    r = subprocess.run(["git", "-C", str(repo), "-c", "user.name=t", "-c", "user.email=t@example.invalid", *a], capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+    return r.stdout.strip()
+
+
+def _small_repo(tmp_path):
+    repo = tmp_path / "repo"
+    (repo / "sub").mkdir(parents=True)
+    (repo / "sub" / "page.md").write_text("a page\n", encoding="utf-8")
+    _git(repo, "init", "-q")
+    _git(repo, "add", "-A")
+    _git(repo, "commit", "-q", "-m", "one page")
+    return repo
+
+
+def test_on_an_export_the_ten_gates_that_need_git_do_not_pass(tmp_path, monkeypatch):
+    """PV9.  No git is made here the way an export has none: every git call, the gates' own and their checkers', is sent to
+    a repository that does not exist."""
+    monkeypatch.setenv("GIT_DIR", str(tmp_path / "no_repository_here"))
+    g = _gates()
+    passing = sorted(name for name in PV9 if g.GATES[name]()[0])
+    assert not passing, "with no git these gates still pass: %s" % ", ".join(passing)
+    for name in sorted(g.READS_GIT):
+        ok, detail = g.GATES[name]()
+        assert ok is False and "refused" in detail and "no git repository" in detail, (name, detail)
+
+
+def test_an_export_a_copy_and_a_folder_inside_another_repository_are_all_read_as_exports(tmp_path):
+    g = _gates()
+    repo = _small_repo(tmp_path)
+    assert g.checkout_state(repo) == "full"
+    # the push hook gates each commit in a detached worktree: that is a full checkout
+    wt = tmp_path / "worktree"
+    _git(repo, "worktree", "add", "-q", "--detach", str(wt), "HEAD")
+    assert g.checkout_state(wt) == "full"
+    # an export
+    export = tmp_path / "export"
+    export.mkdir()
+    tar = subprocess.run(["git", "-C", str(repo), "archive", "HEAD"], capture_output=True, check=True).stdout
+    subprocess.run(["tar", "-x", "-C", str(export)], input=tar, check=True)
+    assert g.checkout_state(export) == "export"
+    # the same export unpacked INSIDE another repository: git would answer for the outer one
+    inner = repo / "unpacked_here"
+    inner.mkdir()
+    subprocess.run(["tar", "-x", "-C", str(inner)], input=tar, check=True)
+    assert g.checkout_state(inner) == "export"
+    # a folder of the repository is not the repository
+    assert g.checkout_state(repo / "sub") == "export"
+    # a folder that does not exist
+    assert g.checkout_state(tmp_path / "nothing_here") == "export"
+
+
+def test_in_a_clone_no_gate_is_refused():
+    g = _gates()
+    assert g.checkout_state() == "full", "this lock is run in a clone"
+    assert g.GATES["tracked-forbidden"]()[0] is True
+
+
+def test_a_gate_is_one_thing_in_the_table_and_under_its_own_name():
+    """Main's rule R60-4: a test names the gate it controls (`GATES["path-refs"] is gate_path_refs`).  The refusal does not make
+    two things of one gate.  Every gate is the same object in GATES and under its own name, so a gate called by its name is
+    refused as well; and the gates of the table, and only those, were replaced."""
+    g = _gates()
+    for name, fn in g.GATES.items():
+        assert getattr(g, fn.__name__) is fn, name
+        assert hasattr(fn, "__wrapped__") == (name in g.READS_GIT), name
+    assert len({fn.__name__ for fn in g.GATES.values()}) == len(g.GATES)
+
+
+def test_a_test_may_still_drive_a_gate_on_a_tree_of_its_own(tmp_path, monkeypatch):
+    """Called with arguments, a gate of the table is the gate itself: it is not asked where it runs."""
+    g = _gates()
+    monkeypatch.setenv("GIT_DIR", str(tmp_path / "no_repository_here"))
+    calls = []
+    gate = g._refusing("tracked-forbidden", lambda *a, **k: calls.append((a, k)) or (True, "driven"))
+    ok, detail = gate()
+    assert ok is False and "refused" in detail and not calls
+    assert gate("a tree of its own") == (True, "driven") and calls == [(("a tree of its own",), {})]
+
+
+# ---- the table is held to the code ------------------------------------------------------------------------------------------
+def test_a_gate_that_is_not_in_the_table_answers_the_same_with_git_as_without(tmp_path, monkeypatch):
+    """The table READS_GIT says which gates need git.  Every other gate is run twice here, in the clone and with git taken
+    away, and must say the same thing word for word.  A gate that calls git, by itself or through any script it runs, and is
+    not in the table, answers differently and fails this."""
+    g = _gates()
+    others = sorted(set(g.GATES) - g.READS_GIT)
+    assert len(others) >= 30
+    with_git = {name: g.GATES[name]() for name in others}
+    monkeypatch.setenv("GIT_DIR", str(tmp_path / "no_repository_here"))
+    g2 = _gates()
+    differ = [name for name in others if tuple(map(str, g2.GATES[name]())) != tuple(map(str, with_git[name]))]
+    assert not differ, "these gates answer differently without git and are not in READS_GIT: %s" % ", ".join(differ)
+
+
+_SUB = re.compile(r'''(?:_git|git)\(\s*["']([a-z-]+)["']|\[\s*["']git["']\s*,(?:\s*["']-C["']\s*,[^,\]]+,)?\s*["']([a-z-]+)["']''')
+_PAST = {"log", "rev-list", "diff-tree", "merge-base", "cat-file", "show", "ls-tree", "for-each-ref", "diff", "fetch",
+         "ls-remote", "tag", "describe", "blame", "reflog"}
+
+
+def _used_part(path, names):
+    """the source of the functions `names` of the script at `path`, of the functions of that script they call, and of the
+    script's own top-level statements (which run when it is loaded)"""
+    src = path.read_text(encoding="utf-8", errors="replace")
+    tree = ast.parse(src)
+    funcs = {n.name: n for n in tree.body if isinstance(n, ast.FunctionDef)}
+    top = [ast.get_source_segment(src, n) or "" for n in tree.body if not isinstance(n, (ast.FunctionDef, ast.ClassDef))]
+    seen, todo = set(), [n for n in names if n in funcs]
+    while todo:
+        name = todo.pop()
+        if name in seen:
+            continue
+        seen.add(name)
+        todo += [n.func.id for n in ast.walk(funcs[name]) if isinstance(n, ast.Call) and isinstance(n.func, ast.Name) and n.func.id in funcs]
+    return "\n".join(top + [ast.get_source_segment(src, funcs[n]) for n in sorted(seen)])
+
+
+def _git_subcommands(gate_function_name):
+    """the git subcommands in a gate's own code, in the functions of gates.py it calls, and in what it uses of the scripts under
+    scripts/ that it names.  A script that is run is read whole.  A script imported as a module is read in the functions the
+    gate calls on it, with what those call."""
+    path = ROOT / "scripts" / "gates" / "gates.py"
+    src = path.read_text(encoding="utf-8")
+    funcs = {n.name: n for n in ast.parse(src).body if isinstance(n, ast.FunctionDef)}
+    scripts = {}
+    for p in (ROOT / "scripts").rglob("*.py"):
+        if p != path:
+            scripts.setdefault(p.name, []).append(p)
+
+    def reach(name, seen):
+        if name in seen or name not in funcs:
+            return seen
+        seen.add(name)
+        for n in ast.walk(funcs[name]):
+            if isinstance(n, ast.Call) and isinstance(n.func, ast.Name):
+                reach(n.func.id, seen)
+        return seen
+
+    text = "\n".join(ast.get_source_segment(src, funcs[f]) for f in sorted(reach(gate_function_name, set())))
+    as_module = {}
+    for module, alias in re.findall(r"\bimport (\w+)(?: as (\w+))?", text):
+        if module + ".py" in scripts:
+            as_module.setdefault(module + ".py", set()).update(re.findall(r"\b%s\.(\w+)\(" % (alias or module), text))
+    for script in sorted(set(re.findall(r'["\']([\w.-]+\.py)["\']', text)) - set(as_module)):
+        for p in scripts.get(script, []):
+            text += "\n" + p.read_text(encoding="utf-8", errors="replace")
+    for script, names in sorted(as_module.items()):
+        for p in scripts.get(script, []):
+            text += "\n" + _used_part(p, names)
+    return {a or b for a, b in _SUB.findall(text)}
+
+
+def test_a_gate_listed_as_reading_the_tracked_files_only_reads_nothing_of_the_past():
+    g = _gates()
+    assert not (g.READS_TRACKED & g.READS_HISTORY)
+    assert g.READS_GIT <= set(g.GATES), "the table names a gate that is not there: %s" % sorted(g.READS_GIT - set(g.GATES))
+    seen_any = 0
+    for name in sorted(g.READS_TRACKED):
+        used = _git_subcommands(g.GATES[name].__wrapped__.__name__)
+        seen_any += bool(used)
+        assert not (used & _PAST), "%s is listed as reading the tracked files only and calls git %s" % (name, sorted(used & _PAST))
+    assert seen_any == len(g.READS_TRACKED), "the source scan no longer sees the git calls of the gates it is meant to read"
+    # and the scan does see the past where it is read: three gates of READS_HISTORY, by their own code
+    for name in ("append-only", "lead-debt", "views-fresh"):
+        assert _git_subcommands(g.GATES[name].__wrapped__.__name__) & _PAST, name

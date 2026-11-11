@@ -80,6 +80,9 @@ def test_test_vacuity_fails_on_a_test_with_no_assert(tmp_path, monkeypatch):
 
 
 def test_views_generated_fails_when_a_generator_is_missing(tmp_path, monkeypatch):
+    # 2026-11-11 (WP-0.7, the advisor seat's patch 1): the folder is made a repository. This gate reads git, and on a folder
+    # with none it is now refused before it looks for its generators. What this test pins is the missing generator.
+    (tmp_path / "a.md").write_text("a page\n"); _git_repo_with(tmp_path, "a.md")
     monkeypatch.setattr(gates, "ROOT", str(tmp_path))
     ok, why = gates.gate_views_generated(); assert ok is False and "generator missing" in why
 

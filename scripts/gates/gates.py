@@ -37,6 +37,29 @@ def _git(*args):
         return 1, str(exc)
 
 
+# --- a gate is a function of the commit (the closure programme's WP-0.7; the advisor seat's planted case PV9) -------------
+# Where there was no git at all -- a `git archive` export, a copy of the tree -- nine gates passed: three answered "skipped",
+# and six asked git for the tracked files, were given none, and found nothing wrong among none.  A gate that could not look
+# has not looked.  What kind of tree this is, is read here once; the table READS_GIT below says which gates it concerns; and
+# each gate of that table is replaced, below the table, by a gate that asks this first and is refused where it cannot look.
+def checkout_state(repo=None):
+    """'full' or 'export': what the tree at `repo` is to git.  'export' is a tree with no repository of its own: an archive,
+    a copy, or a folder that merely sits inside some other repository (git would then answer for the outer one)."""
+    repo = os.path.realpath(str(repo or ROOT))
+    try:
+        r = subprocess.run(["git", "-C", repo, "rev-parse", "--show-toplevel"], capture_output=True, text=True, timeout=30)
+    except Exception:
+        return "export"
+    top = r.stdout.strip()
+    if r.returncode != 0 or not top or os.path.realpath(top) != repo:
+        return "export"
+    return "full"
+
+
+REFUSED_EXPORT = ("refused: there is no git repository here (an export, or a copy of the tree). This gate reads %s, and "
+                  "without git it cannot. Run it in a clone")
+
+
 # --- gate: framing lock (GOVERNANCE §2/§8 + the campaign-banned phrasings) ---------------
 BANNED = [
     "the gluing creates causal structure",
@@ -2646,6 +2669,35 @@ GATES = {
     "member-scope": gate_member_scope,
     "seat-positive-verified": gate_seat_positive_verified,
 }
+
+
+# Which gates reach git, and for what.  The table is held to the code by a lock (tests/test_gates_are_a_function_of_the_commit.py):
+# every gate NOT listed here must give the same answer with git as without it, so a new gate that calls git and is not listed
+# fails that lock; and a gate listed as reading the tracked files only may not call a git command that reads the past.
+READS_TRACKED = frozenset({                       # asks git which files are tracked, and nothing of the past
+    "arrival-phrases", "path-refs", "relay-debt", "retraction-sweep", "test-vacuity", "tracked-deps", "tracked-forbidden"})
+READS_HISTORY = frozenset({                       # reads commits before HEAD, or other seats' branches
+    "append-only", "artifact-hashes", "attribution", "closure-generated", "harvest-debt", "lead-debt",
+    "log-changelog-paired", "review-fires", "seal-immutable", "seal-order-unshown", "views-fresh", "views-generated"})
+READS_GIT = READS_TRACKED | READS_HISTORY
+
+
+def _refusing(name, fn):
+    """the gate `fn` of the table READS_GIT, refused in plain words where it cannot look.  Called with arguments (a test
+    driving the gate on a tree of its own) it is the gate itself."""
+    def gate(*args, **kwargs):
+        if not args and not kwargs and checkout_state() == "export":
+            return False, REFUSED_EXPORT % ("the history" if name in READS_HISTORY else "which files are tracked")
+        return fn(*args, **kwargs)
+    gate.__name__, gate.__doc__, gate.__wrapped__ = fn.__name__, fn.__doc__, fn
+    return gate
+
+
+# Each gate of the table is replaced by the gate that asks first whether it can look -- in GATES and under its own name, so
+# that it is one thing whichever way it is reached (`GATES["path-refs"] is gate_path_refs` holds as before) and a gate called
+# by its own name is refused as well.  A gate that is not in the table is left exactly as it was.
+for _name in sorted(READS_GIT):
+    GATES[_name] = globals()[GATES[_name].__name__] = _refusing(_name, GATES[_name])
 
 
 

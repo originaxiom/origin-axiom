@@ -152,7 +152,11 @@ def test_the_gate_is_green_on_this_repository():
 
 def test_without_a_repository_no_gate_prints_a_bare_ok(tmp_path):
     """PV9, in part: on an export with no repository the append-only gate FAILS, and a gate that checks nothing there is
-    printed SKIP with its own words. Before, the runner printed 'ok' for every pass and hid the word 'skipped'."""
+    printed SKIP with its own words. Before, the runner printed 'ok' for every pass and hid the word 'skipped'.
+
+    2026-11-11 (WP-0.7, the advisor seat's patch 1): a gate that needs git is now REFUSED where there is none, so on an
+    export these four are printed FAIL with the refusal's words and none of them is printed SKIP. What this test pinned --
+    no bare ok where nothing was checked -- holds more strongly; the words it reads are the refusal's now."""
     import shutil
     import sys
     exp = tmp_path / "export"
@@ -162,8 +166,7 @@ def test_without_a_repository_no_gate_prints_a_bare_ok(tmp_path):
     shutil.copy(ROOT / "PROGRESS_LOG.md", exp / "PROGRESS_LOG.md")
     out = subprocess.run([sys.executable, str(exp / "scripts" / "gates" / "gates.py")], capture_output=True, text=True, cwd=str(exp), timeout=600).stdout
     lines = {l.split(":")[0].strip(): l for l in out.splitlines() if l.strip().startswith(("PASS", "FAIL", "SKIP"))}
-    assert lines["FAIL  append-only"].strip().startswith("FAIL  append-only: cannot verify")
-    for gate in ("attribution", "tracked-forbidden", "log-changelog-paired"):
+    for gate in ("append-only", "attribution", "tracked-forbidden", "log-changelog-paired"):
         hit = [l for k, l in lines.items() if k.endswith("  " + gate)]
-        assert len(hit) == 1 and hit[0].strip().startswith("SKIP") and "skipped" in hit[0], (gate, hit)
+        assert len(hit) == 1 and hit[0].strip().startswith("FAIL  %s: refused: there is no git repository here" % gate), (gate, hit)
     assert not any(l.strip() == "PASS  %s: ok" % g for l in out.splitlines() for g in ("attribution", "tracked-forbidden", "log-changelog-paired", "append-only"))
