@@ -267,6 +267,67 @@ def pv31(c): return "a skip mark on " + _edit_a_lock(c, "@_planted_pytest.mark.s
 def pv31_twin(c): return "a comment above " + _edit_a_lock(c, "# a comment, and no mark\n")
 
 
+# ---- WP-0.9, series 1 (card C4): the grade of a verdict file says more than its evidence -----------------------------------
+_CHAIN_ARC = "B1612_the_mixing_patterns_the_weave_fixes"          # one of the fourteen arcs the candidate runs on (main's B1888)
+
+
+def _grade(c, folder, **fields):
+    """write the fields into the verdict file of `folder`; a folder that is not there is made, as a new PROVED arc"""
+    p = os.path.join(c, "frontier", folder, "arc_verdict.json")
+    if os.path.isfile(p):
+        d = json.loads(open(p, encoding="utf-8").read())
+    else:
+        d = json.loads(open(glob.glob(os.path.join(c, "frontier", "B1857_*", "arc_verdict.json"))[0], encoding="utf-8").read())
+        d.update(id=folder.split("_")[0], verdict="PROVED", depends_on=[], claim_one_line="PLANTED: a new arc with a grade.")
+        write(c, "frontier/%s/FINDINGS.md" % folder, "# FINDINGS\n\nA planted arc.\n")
+    d.update(fields)
+    write(c, "frontier/%s/arc_verdict.json" % folder, json.dumps(d, indent=1, ensure_ascii=False) + "\n")
+
+
+def _own_lock(c, folder):
+    return sorted(glob.glob(os.path.join(c, "frontier", folder, "verification", "test_*.py")))[0][len(c) + 1:]
+
+
+_NEW = "B9020_a_planted_arc_with_a_grade"
+_V = "frontier/" + _NEW + "/verification/"
+_SCRIPT = "print(sum(range(10)))\n"
+_LOCK = "def test_the_sum():\n    assert sum(range(10)) == 45\n"
+
+
+def pv33(c): _grade(c, _CHAIN_ARC, grade="theorem", grade_evidence=["frontier/%s/FINDINGS.md" % _CHAIN_ARC])
+
+def pv33_twin(c): _grade(c, _CHAIN_ARC, grade="theorem", grade_evidence=[_own_lock(c, _CHAIN_ARC)])
+
+def pv34(c): _grade(c, _NEW, grade="proved beyond doubt", grade_evidence=[])
+
+def pv34_twin(c): _grade(c, _NEW, grade="process", grade_evidence=[])
+
+def pv35(c): _grade(c, _NEW, grade="exact computation", grade_evidence=[_V + "sum.py", _V + "test_b9020_the_sum.py"])
+
+
+def pv35_twin(c):
+    pv35(c); write(c, _V + "sum.py", _SCRIPT); write(c, _V + "test_b9020_the_sum.py", _LOCK)
+
+
+def pv36(c):
+    _grade(c, _NEW, grade="numerical estimate", grade_evidence=[_V + "sum.py"]); write(c, _V + "sum.py", _SCRIPT)
+
+
+def pv36_twin(c):
+    _grade(c, _NEW, grade="numerical estimate", grade_evidence=[_V + "sum.py", _V + "sum_run.txt"])
+    write(c, _V + "sum.py", _SCRIPT); write(c, _V + "sum_run.txt", "45\n")
+
+
+def _sealed(c, held, of):
+    _grade(c, _NEW, grade="sealed cells held", grade_evidence=["frontier/%s/PREREGISTRATION.md" % _NEW], grade_cells=[held, of])
+    write(c, "frontier/%s/PREREGISTRATION.md" % _NEW, "# A planted seal\n\nThirteen cells.\n")
+
+
+def pv37(c): _sealed(c, 14, 13)
+
+def pv37_twin(c): _sealed(c, 7, 13)
+
+
 def pv30(c):
     head = sh(["git", "rev-parse", "--short=9", "HEAD"], c).stdout.strip()
     write(c, "docs/progress/REVIEWS.md", read(c, "docs/progress/REVIEWS.md")
@@ -334,6 +395,12 @@ CASES = [
     ("PV32", "L4", "a lock in tests/ that names an ignored file through a second name, commit", pv32, True, None, ["tracked-deps"]),
     ("PV26", "L6", "a lock that runs a script and pins a float it prints, as text, commit", pv26, True, None, ["test-vacuity"]),
     ("PV31", "new", "a test of a lock that no hash list names is made to skip, commit (M5)", pv31, True, None, ["test-vacuity"]),
+    # added 2026-11-11 (WP-0.9, series 1): a grade that says more than its evidence
+    ("PV33", "M1", "an arc the candidate runs on is graded a theorem and names no lock, commit", pv33, True, None, ["arc-data"]),
+    ("PV34", "M1", "a new arc with a grade that is not one of the five words, commit", pv34, True, None, ["arc-data"]),
+    ("PV35", "M1", "a new arc graded an exact computation, naming a script and a lock that are not there, commit", pv35, True, None, ["arc-data"]),
+    ("PV36", "M1", "a new arc graded a numerical estimate, naming a script and no output, commit", pv36, True, None, ["arc-data"]),
+    ("PV37", "M1", "a new arc graded sealed cells held, with more cells held than were sealed, commit", pv37, True, None, ["arc-data"]),
     # added 2026-11-11 (series 4): found on main's f9e70c167 while reading main's page on the periodic review
     ("PV30", "new", "a sentence on the reviews' page that names the head as an anchor, commit", pv30, True, None, ["review-fires"]),
 ]
@@ -348,6 +415,11 @@ TWINS = [
     ("PV32", "the same lock reading a file that is committed", pv32_twin, ["tracked-deps"]),
     ("PV26", "the same lock comparing the number as a number", pv26_twin, ["test-vacuity"]),
     ("PV31", "the same lock edited with no mark", pv31_twin, ["test-vacuity"]),
+    ("PV33", "the same arc graded a theorem and naming its own lock", pv33_twin, ["arc-data"]),
+    ("PV34", "the same new arc graded a process", pv34_twin, ["arc-data"]),
+    ("PV35", "the same, with the script and a lock that can fail in the commit", pv35_twin, ["arc-data"]),
+    ("PV36", "the same, naming the script and its committed output", pv36_twin, ["arc-data"]),
+    ("PV37", "the same, with seven of thirteen cells held", pv37_twin, ["arc-data"]),
 ]
 
 

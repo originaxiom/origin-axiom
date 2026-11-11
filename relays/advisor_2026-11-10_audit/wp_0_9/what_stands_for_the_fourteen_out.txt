@@ -1,0 +1,25 @@
+the fourteen arcs the candidate runs on (main's B1888), read at 323f92327
+
+arc                                                  verdict   sealed-style files           locks  tests scripts outputs    pins
+B1612_the_mixing_patterns_the_weave_fixes            PROVED    PREREGISTRATION.md               1      3       3       6       0
+B1637_fits_on_the_ruled_branch                       PROVED    PREREGISTRATION.md               1      3       2       4       0
+B1654_the_norm_of_the_boundary_class                 PROVED    PREREGISTRATION.md               1      3      58       2       0
+B1667_the_canonical_cusp                             PROVED    PREREGISTRATION.md               1      2       4       5       0
+B1691_the_exponents_at_the_two_fixed_points          PROVED    none                             1      5      12       8       0
+B1720_the_thread_fixes_the_point                     NEGATIVE  PREREGISTRATION.md               1      3       4       4       0
+B1723_the_golden_valley                              NEGATIVE  PREREGISTRATION.md               1      4       3       4       0
+B1726_the_two_ingredients_replicated                 PROVED    PREREGISTRATION.md               1      3       3       7       0
+B1741_tau_from_the_thread_rule_the_line_free         PROVED    PREREGISTRATION.md               1      3       4       8       0
+B1753_the_six_on_the_five_ality_lines                PROVED    PREREGISTRATION.md               1      3       2       5       0
+B1798_the_six_graded_under_the_class_choosing_null   NEGATIVE  DESIGN.md                        1      4      12      16       0
+B1838_the_end                                        OPEN      none                             0      0       5       5       0
+B1839_the_end_card                                   NEGATIVE  PREREGISTRATION.md               0      0       2       6       0
+B1841_the_principled_ends_card                       PROVED    PREREGISTRATION.md               0      0       6      10       0
+
+tests: the number of test functions in the arc's locks; in brackets, how many of them have no assert that can fail.
+pins: tests of the arc's locks that compare, as text, a float that a process printed.
+
+verdicts: 9 PROVED, 4 NEGATIVE, 1 OPEN
+with no lock of its own: B1838, B1839, B1841
+with no sealed-style file: B1691, B1838
+with a test that pins a printed float: none
