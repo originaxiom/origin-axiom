@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1591** |
-| words of findings prose | **1,391,468** |
+| words of findings prose | **1,392,367** |
 | test lock files referenced | **940** |
 | arcs carrying an authored verdict | **1591** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1889`** (3610 words, 0 locks)  
+**PROVED — `B1889`** (3856 words, 0 locks)  
 THE SEATS, DIGESTED AT THE OWNER'S WORD (a measurement of the harvest ledger as it stood on main at 338b14fe3, with five read-only readers' themes whose quotes are checked; nothing in the mathematics is computed, no data file is opened, the agy lane is read through the mask only): THE SEATS HAVE SENT 1686 ITEMS AND MAIN HAS RECOMPUTED 377 OF THEM ITSELF, of which 349 held and 28 differed, the fault being main's in at least three of those; 455 were read without recomputation, 560 are registered and were never fully read (239 of them the physical lane's and its fork lane's, 160 the SM seat's), 233 were closed by triage and 55 are not read, 46 of those from seats that have ended. Every row falls to exactly one of 23 seats. FOUR SEATS ARE WORKING: the web seat (233 items; 69 recomputed, 58 held), the advisor seat (46; an audit of 73 findings, of which main has reproduced or mended all but three a reader alone saw), the agy lane (32; value-free mathematics verified in part in ten rows, a refutation, a decline or a correction in fourteen, read through the mask) and the physical lane (308 and 53 on its fork; 31 recomputed and none differing, two thirds registered only). The readers flagged 74 items as not used and possibly bearing on the goal, which main has not judged (P-791). MAIN IS THE ONLY BUILDER NAMED FOR 26 OF THE PLAN'S 43 PACKAGES AND 18 OF ITS 26 PACKAGES OF MATHEMATICS ARE NOT STARTED. The page ends in main's proposal for the lock the owner asked for, NOT IN FORCE: the programme in three stages with two of them side by side; a role for each seat by its record; verification in a ring, no seat verifying its own work; one card for each piece of work, approved once; and three things only the owner can settle (the standard, the team, the order).  
 `B1889_the_seats_digested/FINDINGS.md`
 

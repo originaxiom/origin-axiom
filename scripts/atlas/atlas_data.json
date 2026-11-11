@@ -16482,7 +16482,7 @@
     "B915"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 3,
+   "obstacle_conf": 4,
    "status": "open",
    "domain": "dynamics"
   },
@@ -29491,6 +29491,7 @@
   "B734": {
    "slug": "m004 is congruence",
    "motifs": [
+    "coupling",
     "figure_eight",
     "trace_map",
     "metallic",
@@ -29499,7 +29500,8 @@
    "refs": [
     "B701",
     "B731",
-    "B732"
+    "B732",
+    "B942"
    ],
    "obstacle": "measure",
    "obstacle_conf": 1,
@@ -33173,10 +33175,12 @@
     "measurement",
     "closing",
     "coupling",
+    "figure_eight",
     "metallic",
     "eisenstein",
     "golden",
-    "lorentzian"
+    "lorentzian",
+    "firewall"
    ],
    "refs": [
     "B854",
@@ -33190,7 +33194,7 @@
     "S1"
    ],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 7,
+   "obstacle_conf": 8,
    "status": "banked",
    "domain": "arithmetic"
   },

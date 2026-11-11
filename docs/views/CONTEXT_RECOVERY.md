@@ -18,11 +18,11 @@
 | … NEGATIVE | 383 |
 | … OPEN | 97 |
 | … RETRACTED | 12 |
-| register points | 791 |
-| … QUEUED | 268 |
+| register points | 799 |
+| … QUEUED | 272 |
 | … LEAD | 4 |
-| … OWNER | 4 |
-| … DONE | 503 |
+| … OWNER | 6 |
+| … DONE | 505 |
 | … DECLINED | 12 |
 | harvest rows (the last number) | 1700 |
 | the Standard Model's 19 derived | 0 |
@@ -50,24 +50,26 @@
 - ** P-082** — a second outside reader, later, approached in his own context (relating to his videos), after the first correspondence → *later, at the owner's word; nothing prepared until then [2026-11-04, the owner confirmed: paused until a result passes a level-2 confirmation] [2026-11-11, the…*
 - ** P-253** — the chain gap's top entries (Review 67's R66-3, declined there because the chain is the frozen paper's spine): B1098, B959, B1100, B952, B1086, B1000, B1484, B1070 (coverage_candidates.py --chain-gap) — adjudicate each… → *asked of the owner: whether and when to open a draft after p9-draft9; until then the chain-gap list stays recorded here and nothing is due (S231) [earlier: Q3…*
 - ** P-787** — THE PUBLIC FORM OF THE REPOSITORY: THIS ONE, OR A DISTILLED ONE WITH THIS AS THE ARCHIVE (the owner to the advisor seat, 2026-11-11, asking for a deep analysis and an honest opinion and whether the public version should… → *2026-11-11, LATER STILL: THE OWNER ASKED, THROUGH THE ADVISOR SEAT, FOR MAIN'S REVIEW, ENRICHMENT AND SCRUTINY OF THE PROPOSAL ("did u inform main about the re…*
+- ** P-796** — THE OWNER ASKS FOR A REVIEW OF THE PRACTICE OF PUBLISHING HIS MESSAGES IN THE RECORD: whether it helps the repository, whether it exposes too much, whether it puts credibility at risk; the project is to be about the mat… → *MAIN'S RECOMMENDATION, PUT TO HIM THE SAME HOUR: change the practice from now and leave the past. (1) A ruling is entered in plain neutral words, dated and num…*
+- ** P-797** — THE OWNER ASKS FOR A CLEANER WAY TO REFER TO THE AI SESSIONS: the names are understood only inside the project, a session is sometimes written as if it were an authority, and both confuse a reader and cost credibility;… → *MAIN'S PROPOSAL, PUT TO HIM THE SAME HOUR: NAME THE METHOD, NEVER THE SESSION. (1) In anything a stranger opens -- the light public repository, the paper, the…*
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
 
 ## The last landings (CHANGELOG)
 
+- S306p THE SEATS' PAGES, THE CARD AND THE LISTENER: MAIN DIRECTS THE SEATS AND NOBODY RELAYS BY HAND (the owner's ruling; P-795, with P-794, P-796, P-797) (2026-11-11)
+- S306p THE ADVISOR SEAT'S SIXTH RE-AUDIT TAKEN (WP-0.8): THE FINDING E5 IS FIXED AND ACCEPTED; THE FINDING E2'S ONE LINE IS MENDED (P-792, P-793) (2026-11-11)
 - S306p THE SEATS, DIGESTED AT THE OWNER'S WORD, AND MAIN'S PROPOSAL FOR THE LOCK (B1889; P-788, P-790, P-791) (2026-11-11)
 - S306p THE ERRORS IN THE MATHEMATICS, THE THIRD OF THE NINE LEFT (WP-0.8): "0.000 BITS OF DESIGNER FREEDOM" WAS ELEVEN ZEROS TYPED BY HAND (E7) (2026-11-11)
 - S306p THE ERRORS IN THE MATHEMATICS, THE SECOND OF THE NINE LEFT (WP-0.8): A SCAN THAT NEVER REFINED, REPLACED BY THE JOINT EIGENVALUES (E5) (2026-11-11)
 - S306p THE REPOSITORY'S PUBLIC FORM, SCRUTINISED AT THE OWNER'S WORD (B1888; P-787) (2026-11-11)
 - S306p THE ERRORS IN THE MATHEMATICS, THE FIRST OF NINE (WP-0.8): THE KNOT GROUP'S CONGRUENCE LEVEL IS (4), AND THE LOCK NOW SAYS SO (E2) (2026-11-11)
 - S306p THE FIVE PACKAGES HANDED TO THE ADVISOR SEAT (P-785), ITS RESIDUAL ON THE ORDER CLOSED, MAIN'S UNSEEN CASES SEALED (2026-11-11)
-- S306p THE V1 CARD READ (B1882): AN END OF THE WINDOW IS LIKE OTHER ROWS, BY A HAIR; THE AUDIT'S FIGURE IS REAL AND IS NOT ABOUT RARITY (2026-11-11)
-- S306p THE FOURTH HARVEST: THE WEB SEAT'S TWO CARDS VERIFIED (B1885, B1887), THE WORK ORDER MENDED AT THE OWNER'S QUESTION (P-782), THE OLD RELAYS KEPT LOCAL (P-779) (2026-11-11)
 
 ## The latest campaign line
 
-LATEST (2026-11-11, S306p: B1889 — THE SEATS DIGESTED AT THE OWNER'S WORD, AND MAIN'S PROPOSAL FOR THE LOCK (P-788, P-790, P-791).** The seats have sent 1,686 items; main has recomputed 377 (349 held, 28 differed); 455 read; 560 registered and never fully read (239 the physical lane's, 160 the SM seat's); 233 closed by triage; 55 not read. Every row falls to one of 23 seats. Four seats are working, each with a card of what its record shows. Five readers' themes, 430 of 436 quotes exact. 74 items flagged as not used and possibly bearing on the goal, not judged (P-791). For 26 of 43 packages main is the only builder named. THE PROPOSAL IS NOT IN FORCE: three stages, two of them side by side;…
+LATEST (2026-11-11, S306p: THE SEATS' PAGES, THE CARD AND THE LISTENER (the owner's ruling, P-795), AND THE ADVISOR SEAT'S SIXTH RE-AUDIT TAKEN (WP-0.8).** Main directs the seats and nobody relays by hand: one page for each seat under docs/seats/, one protocol page, a listener each seat runs (scripts/seats/listen.py), a card before each piece of work, approved once. Four seats verify and the advisor seat builds (P-792, P-794): the SM seat verifies the physical lane; the web seat re-audits main's corrections and verifies the agy lane's theorems and the SM seat's items under 21 banked arcs; agy-exp verifies pure mathematics; agy-002 derives three headline results again from their statements;…
 
 ## Completeness (nothing skipped silently)
 
