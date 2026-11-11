@@ -1,5 +1,27 @@
 # Changelog
 
+## S306p THE SEATS' PAGES, THE CARD AND THE LISTENER: MAIN DIRECTS THE SEATS AND NOBODY RELAYS BY HAND (the owner's ruling; P-795, with P-794, P-796, P-797) (2026-11-11)
+
+- **The ruling.** Main organises communication with every seat and directs them across one another; each seat hears main through a silent listener; the owner supervises and no longer relays. Main takes it as the lock of the plan of B1889 § 7 as amended, with its own recommendation on the two points left open, for him to change.
+- **One page for each seat, on main** (`docs/seats/`): its role, its record in a line, its first work, what main waits for. One page of protocol all seats share.
+- **The listener** (`scripts/seats/listen.py`). A seat runs it in the background; it fetches every ten minutes and wakes the seat only when its page has changed. Main runs it on the seats' branches and is shown names and commits only, since some lanes are read through a mask. It fetches and does nothing else. A lock holds it: a seat is told of each message once, of nothing when nothing is new, and a listener that cannot look says so.
+- **The card.** One page before a piece of work. A card main proposed is approved when the seat commits it; main checks no step.
+- **Who checks whom,** by the owner's ruling that four seats verify and the advisor seat builds (P-792, P-794): the SM seat verifies the physical lane (30 items to start); the web seat re-audits main's corrections, verifies the agy lane's four theorems and the SM seat's items under 21 banked arcs; agy-exp verifies the pure mathematics of the SM seat (40 items) and of the web seat; agy-002, a second seat of the agy family, derives three headline results again from their statements alone. The agy lane itself goes on with frontier work, verified later (P-798).
+- **The rule is in the working rules.** Six points.
+- **Two things the owner put under review,** applied as main recommended until he rules: his rulings are entered in plain words and his messages are no longer published (P-796); a seat's name is an address, not an author and not an authority (P-797). From this entry on the record follows the first.
+- **This landing advanced no package.** It makes the packages workable by more than one seat at a time. 0 of 19.
+
+## S306p THE ADVISOR SEAT'S SIXTH RE-AUDIT TAKEN (WP-0.8): THE FINDING E5 IS FIXED AND ACCEPTED; THE FINDING E2'S ONE LINE IS MENDED (P-792, P-793) (2026-11-11)
+
+- **E5, accepted.** The seat computed the claim again by another route, exactly over the rationals where it can be. The programme holds it as fixed, with the seat's own row. **Twelve of the audit's findings are now fixed and re-audited. Of its thirteen errors in the mathematics, five are fixed and re-audited, two are mended and wait for a re-audit (E2, E7), and six are partly fixed and still to be worked (E1, E4, E8, E9, E11, E12).**
+- **What the seat noted, run by main.** Main's instrument took one of the cubic's three real roots, and the structure paper speaks of all three. Main ran it at each: the walls are purely imaginary at all three, and they are the seat's values to nine digits. So that sentence of the paper has a computation of main's behind it.
+- **A fact about main's own instrument.** Its condition number and its residual are not the same from one run to the next on one machine: the solver chooses the basis inside an eigenspace. Nothing rested on them. The script and the findings say so.
+- **E2, partly: one line.** B734's own line still led with the old level, and the generated spine showed only that. The line now leads with the correction, and a test holds the order.
+- **The sweep is wider, and it found three more places.** It now sees the statement over two lines, without brackets, in a paper's source, in the README and in an arc's verdict line. It found B942's verdict line, a note among the open leads and a row of the relay ledger, each corrected. A gloss withdrawn in September is withdrawn in the three places it still stood.
+- **It is the seat's last re-audit.** The owner ruled that the advisor seat builds and is not asked to verify (P-792). E2 and E7 wait for a seat that did not build the mends.
+- **The owner's question on continuity, answered from the record (P-793).** A second public repository was started on 2026-09-02 as a distillation and filled by a seat since retired. It has its own history, is not in main's record, and nothing of it was verified. It was not repaired; it was left. This repository's own chain is whole. Harvesting that repository is owed.
+- **This landing advanced** WP-0.8. No package closed. 0 of 19.
+
 ## S306p THE SEATS, DIGESTED AT THE OWNER'S WORD, AND MAIN'S PROPOSAL FOR THE LOCK (B1889; P-788, P-790, P-791) (2026-11-11)
 
 - **Why.** The owner: "did you process and harvest all branches? should you make that priority, so you underatabd what seats you have in disposal and whats their capacity"; and then that after the digest "we should stop and reorganize the work, so we lock the plan together me and you".

@@ -52,8 +52,17 @@ The TRUTH (two-seat converged): congruence, level (2)³=(8).
   base-rate-defying, computed by both seats, pending an external cross-check before treating as
   textbook-settled. (The COMPUTATION is solid — index 12 at level 8, verified twice; the caveat is
   literature replication of a Serre-defying statement.)
+  [2026-11-11, from the advisor seat's sixth re-audit: the gloss that the group defies a base rate is withdrawn here as well. The theorem ledger withdrew it on 2026-09-16 (its link C9: Baker and Reid, 2018, state that the figure-eight complement is a congruence manifold), and it had stayed standing on this page.]
 - m004's OWN observer (the level-(8) group) and whether B701 acts as its outer automorphism is the
   live next door (cc2 next-stage 1).
 
 Two-seat: cc2 computed level (8); cc verified + corrects B731. Credit cc2. The object-level observer
 EXISTS for the knot (level (2)³), correcting B731's NO-GO. Nothing to CLAIMS; pure math.
+
+## Dated note, 2026-11-11, later: the advisor seat's sixth re-audit of this mend
+
+- **The lock and the mathematics are accepted.** The seat computed every number again in code that shares none with the lock: the image's orders 10, 320 and 20480; the ambient orders, counted two ways; the index 6, 12, 12 in SL/{±1}; the old reading 6, 6, 12; and that 2 is inert.
+- **Its verdict was "partly", for one line.** This arc's own claim line still led with level (8). The generated spine keeps a line's first 150 characters, so it showed the old claim alone, marked as proved. The line now leads with the correction, and the claim as first asserted follows it. A test holds the order.
+- **A wording point.** The lock's docstring called its second generator Riley's. It is the inverse of the conjugate of Riley's. The pair generates the same group and every number stands.
+- **The sweep is widened.** Six shapes of the old statement that passed are now seen: over two lines; with no brackets; as Γ((8)); in a `.tex` file; in the README; as an arc's verdict line. The wider sweep found three places on main that the first had missed, each now corrected: B942's verdict line, a dated note among the open leads, and a row of the relay ledger.
+- **Not counted as fixed** until the line is read again by a seat that did not build the mend.

@@ -6,8 +6,8 @@
  "W5 a direct rank computation agrees with the count from the weights: at the four walls, just beside each (12), at six real points (12) and at pure x16 (30)": true,
  "numbers": {
   "commutator": 4.980869644978989e-18,
-  "residual": 2.1024717006751287e-14,
-  "cond_eigvec": 30.773711186289102,
+  "residual": 3.455700295081431e-14,
+  "cond_eigvec": 11.758431535262224,
   "cond_balance": 337983528959956.1,
   "t1": -0.0019380502097204346,
   "z_s1": 46,
@@ -15,7 +15,7 @@
   "plane": 30,
   "walls": [
    [
-    -0.04641301161159871,
+    -0.04641301161159872,
     6,
     18
    ],
@@ -30,7 +30,7 @@
     14
    ],
    [
-    0.05152616072901097,
+    0.05152616072901096,
     2,
     14
    ]
@@ -49,6 +49,6 @@
    6,
    6
   ],
-  "largest_real_part_over_modulus": 5.814563444664838e-17
+  "largest_real_part_over_modulus": 8.071160827337933e-18
  }
 }

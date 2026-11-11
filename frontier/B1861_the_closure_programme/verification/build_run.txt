@@ -83,10 +83,11 @@ written: PROGRAMME.md, PROGRAMME.json
   "WP-0.7",
   "WP-0.9"
  ],
- "findings_with_a_re_audit_verdict": 15,
+ "findings_with_a_re_audit_verdict": 17,
  "fixed_and_not_yet_re_audited": [],
- "verdict_rows_read_in_the_seats_files": 24,
+ "verdict_rows_read_in_the_seats_files": 26,
  "findings_main_changed_since_the_re_audit": [
+  "E2",
   "E4",
   "E8"
  ],
@@ -95,8 +96,8 @@ written: PROGRAMME.md, PROGRAMME.json
   "OPEN": 0,
   "READER": 3,
   "REPRODUCED": 40,
-  "PARTLY FIXED": 19,
-  "FIXED": 11
+  "PARTLY FIXED": 18,
+  "FIXED": 12
  },
  "relayed_rulings": 17,
  "rulings_confirmed_by_the_owner_to_main": 15,

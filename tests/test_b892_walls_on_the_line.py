@@ -53,7 +53,29 @@ def test_the_scans_sentence_carries_its_correction():
     assert wall["wall_points"] == [[1.5707963267948966, 30]]
 
 
-@pytest.mark.skipif(not os.environ.get("OA_SLOW"), reason="OA_SLOW=1: rebuilds E6's structure constants and diagonalises again (over a minute)")
+def test_the_walls_at_all_three_roots_are_purely_imaginary():
+    """2026-11-11, from the advisor seat's sixth re-audit: the structure paper's skeleton says of this line that no real point
+    of nullity 14 exists "at all three Galois roots", and main's instrument took one.  The dimensions are the same at conjugate
+    roots; whether a wall is real is not.  walls_at_the_three_roots.py runs main's instrument at each."""
+    T = json.loads((V / "walls_at_the_three_roots.json").read_text(encoding="utf-8"))
+    checks = {k: v for k, v in T.items() if isinstance(v, bool)}
+    assert len(checks) == 4 and all(checks.values())
+    assert "CHECKS: 4, FAILING: 0" in (V / "walls_at_the_three_roots_run.txt").read_text(encoding="utf-8")
+    roots = T["roots"]
+    assert len(roots) == 3 and roots[0]["t"] < 0 < roots[1]["t"] < roots[2]["t"]
+    seat = [(0.0464130116, 0.0515261607), (0.0339621153, 0.0304159681), (0.0057855638, 0.2158521452)]     # the advisor seat's read-out, its own code
+    for r, (w18, w14) in zip(roots, seat):
+        assert r["counts"] == [46, 30, 12] and r["direct_ranks_agree"] is True
+        assert sorted((m, n) for _, m, n in r["walls"]) == [(2, 14), (2, 14), (6, 18), (6, 18)]
+        assert r["largest_real_part_over_modulus"] < 1e-12 and abs(sum(t for t, _, _ in r["walls"])) < 1e-12
+        assert abs(max(t for t, m, n in r["walls"] if n == 18) - w18) < 1e-9 and abs(max(t for t, m, n in r["walls"] if n == 14) - w14) < 1e-9
+    # the first root is the s1 of this arc: its walls are those of the instrument's own run
+    assert all(abs(a[0] - b[0]) < 1e-12 for a, b in zip(sorted(roots[0]["walls"]), sorted(N["walls"])))
+    sk = (ROOT / "papers" / "structure_paper" / "SKELETON.md").read_text(encoding="utf-8")
+    assert "no real nullity-14 point exists" in sk and "**all three** Galois roots" in sk      # the sentence this run stands behind
+
+
+@pytest.mark.skipif(not os.environ.get("OA_SLOW"), reason="OA_SLOW=1: rebuilds E6's structure constants and diagonalises again (about 80 seconds on main's machine, 38 on the advisor seat's)")
 def test_the_joint_weights_recomputed():
     spec = importlib.util.spec_from_file_location("walls_on_the_line_lock", V / "walls_on_the_line.py")
     m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
@@ -65,3 +87,16 @@ def test_the_joint_weights_recomputed():
     ts = [(-W["x14"][i] / W["x16"][i]) for i in Z if i not in plane]
     assert len(Z) == 46 and len(plane) == 30 and len(ts) == 16 and max(abs(t.real) / abs(t) for t in ts) < 1e-9
     assert m.nullity_direct(Bal, 0.3, DIM)[0] == 12 and m.nullity_direct(Bal, 1j * max(t.imag for t in ts), DIM)[0] == 14
+
+
+@pytest.mark.skipif(not os.environ.get("OA_SLOW"), reason="OA_SLOW=1: the instrument at the other two real roots (about three minutes more)")
+def test_the_other_two_roots_recomputed():
+    import numpy as np
+    spec = importlib.util.spec_from_file_location("walls_at_the_three_roots_lock", V / "walls_at_the_three_roots.py")
+    m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
+    roots = sorted(r.real for r in np.roots(m.w.CUBIC) if abs(r.imag) < 1e-9 * abs(r))
+    assert len(roots) == 3
+    for k in (1, 2):
+        g = m.at_root(roots[k])
+        assert g["counts"] == [46, 30, 12] and g["largest_real_part_over_modulus"] < 1e-9 and g["direct_ranks_agree"]
+        assert abs(max(t for t, _, n in g["walls"] if n == 14) - m.SEAT[k][1]) < 1e-9

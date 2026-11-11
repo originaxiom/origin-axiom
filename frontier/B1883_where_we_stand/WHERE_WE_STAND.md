@@ -79,18 +79,20 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 
 ## 5. The audit of 2026-11-10
 
-- **73 findings:** reproduced 40, partly fixed 19, fixed 11, reader 3, open 0.
-- **15 carry the auditing seat's own verdict.** Fixed by main and not yet read by that seat: none.
-- **Changed by main since the seat last read them:** E4, E8.
+- **73 findings:** reproduced 40, partly fixed 18, fixed 12, reader 3, open 0.
+- **17 carry the auditing seat's own verdict.** Fixed by main and not yet read by that seat: none.
+- **Changed by main since the seat last read them:** E2, E4, E8.
 
 ## 6. The record's own list
 
-- **791 points registered, 276 open:** 132 lead, 84 debt, 56 process, 4 owner.
-- **Calls that are the owner's to make (4):**
+- **799 points registered, 282 open:** 133 lead, 84 debt, 59 process, 6 owner.
+- **Calls that are the owner's to make (6):**
   - P-081: the reply to the outside reader, approached carefully so the contact is not lost: in his own context (one of his videos as the opening), short, honest…
   - P-082: a second outside reader, later, approached in his own context (relating to his videos), after the first correspondence
   - P-253: the chain gap's top entries (Review 67's R66-3, declined there because the chain is the frozen paper's spine): B1098, B959, B1100, B952, B1086, B1000,…
   - P-787: THE PUBLIC FORM OF THE REPOSITORY: THIS ONE, OR A DISTILLED ONE WITH THIS AS THE ARCHIVE (the owner to the advisor seat, 2026-11-11, asking for a deep…
+  - P-796: THE OWNER ASKS FOR A REVIEW OF THE PRACTICE OF PUBLISHING HIS MESSAGES IN THE RECORD: whether it helps the repository, whether it exposes too much, wh…
+  - P-797: THE OWNER ASKS FOR A CLEANER WAY TO REFER TO THE AI SESSIONS: the names are understood only inside the project, a session is sometimes written as if i…
 
 ## 7. What this page does not know
 

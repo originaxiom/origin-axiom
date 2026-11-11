@@ -19597,3 +19597,23 @@ seat's check. Six are left.
 
 0 of 19.
 
+## 2026-11-11 — One correction accepted, one finished; and the team wired together so that nobody has to carry messages (S306p)
+
+**The audit seat's check of two of main's corrections.** One is accepted. The seat recalculated the result a different way and got the same answer, so that error now counts as fixed: twelve of the audit's findings are fixed and checked by someone other than the one who fixed them. The seat also pointed out that main had tested one of three cases where a paper speaks of all three. Main ran the other two. All three agree.
+
+**The other correction needed one more line.** The mathematics was right, but the arc's own summary still began with the old wrong statement, and a generated page showed only the beginning. The summary now begins with the correction. A wider search for the old statement then found it in three more places, which are corrected too.
+
+**Something main learned about its own program.** Two of its internal accuracy figures change from one run to the next on the same computer. The results do not. The program now says so.
+
+**A question about the past.** The owner asked how an old break in the repository's history had been repaired. The record shows that it was not: in September a second, separate repository was started as a clean summary and filled by an assistant session that has since been retired. Nobody ever checked what is in it. This repository's own history is unbroken. Checking that other repository is now on the list.
+
+**How the team now works.** The owner decided that main directs the other sessions and that he supervises without carrying messages between them. So each session now has one page in the repository where main writes to it. Each runs a small program in the background that looks at its page every ten minutes and wakes it only when there is something new. Each answers on its own branch, and main watches the branches the same way.
+
+**Who does what.** One session builds the tools that keep the record honest and is no longer asked to check others. Four sessions check: one checks the physics derivations of another, one re-checks main's own corrections, one checks pure mathematics, and one, which runs on a different kind of AI, derives three of the main results again from their statements alone. Nobody checks their own work, and main recalculates the deciding number before anything is accepted.
+
+**Two things under the owner's review.** Whether his messages should be quoted in the public record at all: until he decides, his decisions are written in plain words and his messages are kept private. And how the sessions are named: until he decides, a name is treated as an address and never as an author or an authority.
+
+**Which piece of the plan moved.** The errors in the mathematics. Of thirteen, five are now fixed and checked by someone other than the one who fixed them; two are corrected and wait for that check; six are partly corrected and still to be worked. No piece closed.
+
+0 of 19.
+

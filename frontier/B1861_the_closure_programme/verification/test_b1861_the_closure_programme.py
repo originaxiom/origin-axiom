@@ -548,7 +548,10 @@ def test_the_refusals_about_the_seats_verdicts_can_fire():
     re-audit's verdict RETYPED as "accepted" in main's own file, built.  A verdict is now read in the seat's own file."""
     st = B["stats"]
     assert st["verdict_rows_read_in_the_seats_files"] == (sum(len(v) for v in S.VERDICT_ROWS.values()) if SEATS else 0)
-    assert set(S.VERDICT_ROWS) == set(S.ACCEPTED) and len(S.REAUDITS) == 4
+    assert set(S.VERDICT_ROWS) == set(S.ACCEPTED)
+    # 2026-11-11: this line pinned the number of re-audits at four, and the seat's sixth made it five.  What it holds now is the
+    # rule: every re-audit a verdict row names is registered with its two commits, and none is registered that no row names.
+    assert {f for rows in S.VERDICT_ROWS.values() for f, _ in rows} == set(S.REAUDITS) and len(S.REAUDITS) >= 4
     keep = copy.deepcopy((S.FINDINGS, S.ACCEPTED, S.VERDICT_ROWS, S.SINCE_REAUDIT))
     def restore():
         S.FINDINGS.clear(); S.FINDINGS.update(copy.deepcopy(keep[0]))

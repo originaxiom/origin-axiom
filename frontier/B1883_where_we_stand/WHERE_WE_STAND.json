@@ -1,19 +1,20 @@
 {
  "audit": {
   "by_state": {
-   "FIXED": 11,
+   "FIXED": 12,
    "OPEN": 0,
-   "PARTLY FIXED": 19,
+   "PARTLY FIXED": 18,
    "READER": 3,
    "REPRODUCED": 40
   },
   "changed_by_main_since_its_re_audit": [
+   "E2",
    "E4",
    "E8"
   ],
   "findings": 73,
   "fixed_and_not_yet_re_audited": [],
-  "with_the_seats_verdict": 15
+  "with_the_seats_verdict": 17
  },
  "calibration_and_comparison": {
   "id": "WP-6.1",
@@ -216,18 +217,20 @@
  "register": {
   "by_kind": {
    "DEBT": 84,
-   "LEAD": 132,
-   "OWNER": 4,
-   "PROCESS": 56
+   "LEAD": 133,
+   "OWNER": 6,
+   "PROCESS": 59
   },
-  "open": 276,
+  "open": 282,
   "owner_calls_open": [
    "P-081",
    "P-082",
    "P-253",
-   "P-787"
+   "P-787",
+   "P-796",
+   "P-797"
   ],
-  "points": 791
+  "points": 799
  },
  "rows_the_scoreboard_lists": 23,
  "the_count_as_an_output": {

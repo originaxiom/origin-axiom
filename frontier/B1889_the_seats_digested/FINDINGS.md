@@ -205,6 +205,25 @@ waits on every package of stage 1.
 | the agy lane's four theorems | the web seat | one relay (row 1696) |
 | the web seat's | the SM seat or the explore seat | 19 items registered |
 
+**Amended on 2026-11-11 by three things the owner said to main after this page was landed** (register rows P-792, P-794). The two tables above are kept as they were written.
+
+- **The advisor seat builds and is not asked to verify.** Its re-audit of main's corrections ends with its sixth, which it had already sent.
+- **Four seats verify:** the SM seat, the web seat, agy-exp and a second seat of the agy family, agy-002. The agy lane itself goes on with frontier work, which is verified later (P-798).
+- **No new seat is needed** for the final challenge. The two agy seats are of another family of model than the builders.
+
+Main's proposal for who checks whom with those four, put to him and not yet answered:
+
+| whose work | checked by |
+|---|---|
+| the physical lane's | the SM seat |
+| the SM seat's | the web seat where it touches data; agy-exp where it is pure mathematics |
+| the web seat's | the SM seat; agy-exp where it is pure mathematics |
+| the agy lane's theorems | the web seat |
+| main's own corrections and new arcs | the web seat; agy-002 derives the headline results again from their statements |
+| what the advisor seat builds | main, with its unseen cases |
+
+Two guardrails for the two agy seats: only work that uses no measured data, and main recomputes the deciding number before it banks.
+
 **First what the plan rests on, not everything:** the 26 debts of the package "unverified premises and seat results
 under banked results", and those 21 arcs. The rest is verified when a card needs it.
 

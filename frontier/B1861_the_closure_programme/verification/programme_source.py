@@ -254,6 +254,11 @@ for _i, _o in (("WP-0.7", _BUILDS), ("WP-0.9", _BUILDS),
 assert _wp("WP-0.2")["status"] == "NOT STARTED" and _wp("WP-0.4")["status"] == "NOT STARTED"
 _wp("WP-0.2")["status"] = "STARTED"
 _wp("WP-0.4")["status"] = "STARTED"
+# 2026-11-11, the owner to main (P-792, P-794): the advisor seat builds what it started and is not asked to verify; four seats
+# verify (the SM seat, the web seat and the two agy seats).  The advisor seat's sixth re-audit, sent before that word, is its last.
+for _i in ("WP-0.1", "WP-0.8"):
+    assert _wp(_i)["owner"] == "main; the advisor seat re-audits"
+    _wp(_i)["owner"] = "main; re-audited by one of the four verifying seats, none of which builds it (the SM seat, the web seat, the two agy seats); by the advisor seat through its sixth re-audit"
 
 # GIVEN: a package may be WORKED before these close, and its result is then conditional on them. `needs` is the order of work;
 # `needs` and GIVEN together are what a package's nodes rest on. The builder refuses the source when a `requires`, `applies-under`
@@ -694,6 +699,31 @@ U("E2", "PARTLY FIXED", "MENDED ON MAIN, AND NOT COUNTED AS FIXED UNTIL THE ADVI
 U("E5", "PARTLY FIXED", "MENDED ON MAIN, AND NOT COUNTED AS FIXED UNTIL THE ADVISOR SEAT HAS RE-AUDITED IT. The scan's sentence is corrected where it stands, in B892's findings and verdict line, with the old text kept: the golden-section step never ran, and a 120-point grid shows nothing between its nodes. What excludes a real nullity-14 point is now computed on main (B892's verification/walls_on_the_line.py): s1, x14, x16 and x22 commute and diagonalise together, so the joint nullity at every point of the line is read off their weights; it jumps at finite t only at four purely imaginary points, 14 at one conjugate pair and 18 at the other, and is 12 at every real point but pure x16, with a direct rank computation agreeing at the walls, beside them and at six real points. The same run verifies the mechanism B874's addendum records as the solo seat's: 34 active weights in seven proportionality classes of sizes 2, 2, 6, 6, 6, 6, 6, three real and two conjugate pairs. Main's first attempt, a finer scan with a bound between grid points, failed its own checks, the matrices being scaled over fourteen orders of magnitude. Before (main's own reading): the refinement runs only when the grid finds nothing, and the grid lands on the wall, so it never runs")
 
 U("E7", "PARTLY FIXED", "MENDED ON MAIN, AND NOT COUNTED AS FIXED UNTIL THE ADVISOR SEAT HAS RE-AUDITED IT. B1028's verdict is OPEN and its headline number is withdrawn as a measurement: the walk sums eleven prices typed 0.0 and asserts the sum is 0.0, and its check is a substring match that still passes on B997's line, since corrected to say the door set is {1, 4}. The claim line names what is not priced (the family declaration, by the ledger's own addendum; the selection within the family; the choice of the principal embedding) and the one endpoint credited, the algebra of dimension 14; the claim as first asserted is kept after the correction. The correction is carried to the roadmap, the claim page, the framework page and seven other pages, and a lock fails if any page states the zero without it; the lock also shows the fault on the walk itself. Before (main's own count): eleven typed zeros are summed and asserted to be zero; the arc's addendum says one row is unpriced and its verdict line was not changed")
+
+# THE SEAT'S SIXTH RE-AUDIT (2026-11-11), of main at 8d90a5b2a: main's first two mends of the errors in the mathematics.  E5 it
+# accepts, having computed the claim again by another route; E2 it accepts in part, the lock and the mathematics being accepted
+# and the arc's own claim line still leading with the old level.  Main changed that line the same day, and what it changed is
+# listed as not re-read by a seat.  It is the last re-audit asked of this seat: the owner, to main on 2026-11-11, has it build
+# its five packages and nothing else, and the re-audit of main's mends goes to another seat (P-792).
+REAUDITS["REAUDIT_6_2026-11-11.md"] = ("72929e16e", "8d90a5b2a")
+VERDICT_ROWS["E5"] = [("REAUDIT_6_2026-11-11.md", "| **E5** B892's scan never refines | PARTLY FIXED: mended, not counted | **accepted** |")]
+VERDICT_ROWS["E2"] = [("REAUDIT_6_2026-11-11.md", "| **E2** the knot group's congruence level | PARTLY FIXED: mended, not counted | **partly.** The lock and the mathematics are accepted.")]
+ACCEPTED.update({
+    "E5": "accepted (re-audit 6): the claim computed again by another route, exactly over the rationals where it can be and at 60 digits where it cannot; two notes, neither a residual, both since run or recorded by main",
+    "E2": "partly. The lock and the mathematics are accepted (re-audit 6); the arc's own claim line still led with level (8), and the generated spine showed only that",
+})
+ACCEPTED_AT = ("8d90a5b2a", "REAUDIT_6_2026-11-11.md")
+U("E5", "FIXED", "the scan's sentence is corrected where it stands, with the old text kept, and what excludes a real point of nullity 14 is computed on main: the joint weights of four commuting elements (B892's "
+  "verification/walls_on_the_line.py), all four finite walls purely imaginary. THE ADVISOR SEAT'S SIXTH RE-AUDIT ACCEPTS IT, having computed the claim again by another route. Of its two notes main has since run the "
+  "first: the instrument at each of the cubic's three real roots, where the walls are purely imaginary at all three and equal the seat's values to nine digits (walls_at_the_three_roots.py), so the structure "
+  "paper's sentence about all three roots has a computation of main's behind it. The second stands as a choice the lock states: the recomputation is in the slow lane. A figure main's landing message quoted "
+  "differs from the committed run's; main found the figures differ from run to run on one machine and says so in the script and the findings; nothing rests on them")
+U("E2", "PARTLY FIXED", "the knot group's congruence level is (4): the lock asserts it in the standard quotient, and the correction stands on every page that stated (8). THE ADVISOR SEAT'S SIXTH RE-AUDIT ACCEPTS THE "
+  "LOCK AND THE MATHEMATICS, every number computed again in code that shares none with the lock, AND GIVES 'PARTLY' FOR ONE LINE: B734's own claim line still led with level (8), and the generated spine showed only "
+  "that. MENDED BY MAIN THE SAME DAY AND NOT RE-READ BY A SEAT: the line leads with the correction and a test holds the order; the lock's docstring no longer calls its second generator Riley's; the sweep sees six "
+  "more shapes of the old statement and found three places it had missed (B942's verdict line, a note among the open leads, a row of the relay ledger), each corrected; the gloss that the group defies a base rate, "
+  "withdrawn in the theorem ledger on 2026-09-16, is withdrawn in the three places it still stood")
+SINCE_REAUDIT["E2"] = ("B734", "the claim line leads with the correction, and a test holds the order; the docstring's wording; the sweep widened to the shapes the re-audit planted, with three more places corrected; the withdrawn gloss withdrawn where it stood")
 
 # the owner's rulings of 2026-11-10 AS RELAYED by the advisor seat. The relay's own rule, and main's: each is confirmed with the
 # owner once before main acts on it. Main asked on 2026-11-10 about the eleven then relayed; the owner answered main the same day,

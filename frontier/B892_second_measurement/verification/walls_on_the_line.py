@@ -9,6 +9,12 @@ MAIN'S FIRST ATTEMPT, WHICH FAILED AND IS NOT KEPT: a fine scan in double precis
 value can move between grid points.  The matrices are scaled over thirteen orders of magnitude (the balancing below has
 condition number 3.5e13), the bound was a hundred thousand times larger than the quantity it had to bound, and three of
 that script's four checks failed.  A scan is the wrong instrument for this claim.
+[2026-11-11, later, from the advisor seat's sixth re-audit: the figure in the brackets, and the condition number 12 and the
+off-diagonal part 3.5e-14 that main's landing message quoted, are not those of the run first committed with this file, which
+printed 3.4e+14, 30.8 and 2.1e-14.  MAIN THEN RAN THE FILE TWICE MORE ON THE SAME MACHINE: one run gave the committed figures
+byte for byte, the next gave 11.8 and 3.5e-14, and the last digit of two wall values moved.  Inside an eigenspace of
+dimension above one the basis is the solver's choice, and it is not the same from run to run.  Nothing rests on those
+figures: the counts and the walls, to nine digits, are what the run asserts and what the lock holds.]
 
 THE RIGHT INSTRUMENT.  s1, x14, x16 and x22 commute and are diagonalisable, so they have joint eigenvectors, and on each
 one the four act by numbers (a weight).  The joint centraliser of s1 and y = x14 + t x16 is spanned by the eigenvectors
@@ -90,9 +96,11 @@ def balance(G, sweeps=60):
     return d
 
 
-def joint_weights():
+def joint_weights(root=None):
+    """`root`: a real root of the cubic; the smallest one where none is given, which is the s1 of this arc and of this file's run.
+    (The parameter was added on 2026-11-11 for walls_at_the_three_roots.py; with no argument nothing here is changed.)"""
     DIM, A = build()
-    t1 = 13 * min(r.real for r in np.roots(CUBIC) if abs(r.imag) < 1e-9 * abs(r))
+    t1 = 13 * (min(r.real for r in np.roots(CUBIC) if abs(r.imag) < 1e-9 * abs(r)) if root is None else root)
     X = {"s1": A[8] + t1 * A[16], "x14": A[14], "x16": A[16], "x22": A[22]}
     rel = lambda U, V: np.linalg.norm(U @ V - V @ U) / (np.linalg.norm(U) * np.linalg.norm(V))
     comm = max(rel(X[a], X[b]) for a in X for b in X if a < b)

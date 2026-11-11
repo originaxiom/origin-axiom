@@ -51,6 +51,25 @@ prime), **derived = 11** (≥ by the prime; ≤ by the wall-centrality argument)
   > proportionality classes of sizes 2, 2, 6, 6, 6, 6, 6, three real and four in two conjugate pairs. Main's first
   > attempt at a mend, a finer scan with a bound between grid points, failed its own checks: the matrices are scaled
   > over fourteen orders of magnitude, and a scan is the wrong instrument here.
+  >
+  > **Dated note, 2026-11-11, later: the advisor seat's sixth re-audit accepts this mend, and main ran what it noted.**
+  > - **Accepted.** The seat computed the claim again by another route: the six brackets of the four elements vanish
+  >   exactly over the rationals; the counts 30 and 12 are exact ranks; at 60 digits one basis diagonalises all four to
+  >   9e-41; the four walls are main's to 40 digits; a control finds a real wall where one is known.
+  > - **The other two roots.** Main's instrument took s₁ at the smallest of the cubic's three real roots, and the
+  >   structure paper's skeleton says the same of all three. Whether a wall is real has to be computed at each. Main ran
+  >   its instrument at all three (`verification/walls_at_the_three_roots.py`, expectations written first, not blind):
+  >   at each root the counts are 46, 30 and 12 and the finite walls are four purely imaginary points, ±0.0464130116 i
+  >   and ±0.0515261607 i; ±0.0339621153 i and ±0.0304159681 i; ±0.0057855638 i and ±0.2158521452 i (nullity 18 and 14
+  >   in each pair). They are the seat's values to nine digits. **So at no Galois root is there a real point of nullity
+  >   14 on the line.**
+  > - **Figures that are not the same from run to run.** The landing's message and the script's header quoted a
+  >   condition number of 12 and an off-diagonal part of 3.5e-14; the run first committed printed 30.8 and 2.1e-14. Main
+  >   ran the file twice more on the same machine: once it gave the committed figures byte for byte, once the others.
+  >   Inside an eigenspace of dimension above one the basis is the solver's choice. Nothing rests on those figures; the
+  >   counts and the walls, to nine digits, are what the lock holds. The run committed now is the last one made.
+  > - **The slow lane.** Three of the lock's four first tests read the committed run; the recomputation is in the slow
+  >   lane, where it took about 80 seconds on main's machine and 38 on the seat's. It stays there, and the lock says so.
 - Reading, fenced: the second measurement's charge lives in the complexification; its real
   avatar belongs to the compact-direction story (layer 8) — connecting the SMT directly to
   W7's signature question. Whether a real wall point exists elsewhere in C: open.

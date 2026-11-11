@@ -1,0 +1,25 @@
+B892: THE WALLS ON THE LINE OF THE SECOND MEASUREMENT AT EACH OF THE CUBIC'S THREE REAL ROOTS
+   root 1: t = 13 x the root = -0.00193805; weights that vanish on s1, on x16 too, on both: [46, 30, 12]; commutator 5.0e-18, off-diagonal part 2.1e-14
+        wall at t = -0.0515261607 i: 2 weights, nullity 14
+        wall at t = -0.0464130116 i: 6 weights, nullity 18
+        wall at t = +0.0464130116 i: 6 weights, nullity 18
+        wall at t = +0.0515261607 i: 2 weights, nullity 14
+        largest real part of a wall over its modulus: 5.8e-17; direct ranks agree: True
+   root 2: t = 13 x the root = +0.00039822; weights that vanish on s1, on x16 too, on both: [46, 30, 12]; commutator 7.2e-19, off-diagonal part 1.9e-14
+        wall at t = -0.0339621153 i: 6 weights, nullity 18
+        wall at t = -0.0304159681 i: 2 weights, nullity 14
+        wall at t = +0.0304159681 i: 2 weights, nullity 14
+        wall at t = +0.0339621153 i: 6 weights, nullity 18
+        largest real part of a wall over its modulus: 4.3e-17; direct ranks agree: True
+   root 3: t = 13 x the root = +0.00568524; weights that vanish on s1, on x16 too, on both: [46, 30, 12]; commutator 3.4e-18, off-diagonal part 1.7e-14
+        wall at t = -0.2158521452 i: 2 weights, nullity 14
+        wall at t = -0.0057855638 i: 6 weights, nullity 18
+        wall at t = +0.0057855638 i: 6 weights, nullity 18
+        wall at t = +0.2158521452 i: 2 weights, nullity 14
+        largest real part of a wall over its modulus: 3.2e-16; direct ranks agree: True
+   [ok] R1 three real roots, and at each the counts are 46, 30, 12
+   [ok] R2 at each root the finite walls are four purely imaginary points, two of six weights and two of two, in conjugate pairs -- largest real part over modulus at the three roots: 5.8e-17, 4.3e-17, 3.2e-16
+   [ok] R3 a direct rank computation agrees at every wall, beside it, and at three real points, at each root
+   [ok] R4 the wall values are the advisor seat's, to nine digits, at all three roots
+
+CHECKS: 4, FAILING: 0

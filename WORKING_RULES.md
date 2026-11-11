@@ -525,3 +525,24 @@ closing means are statements of what the owner means, and are his.
 rulings on main, built from the advisor seat's sort with each entry checked at its source, so that a seat reads the
 answer and does not ask (P-780).
 
+## Rule (2026-11-11, the owner's ruling to main, register row P-795 — adopted): THE SEATS' PAGES, THE CARD AND THE LISTENER
+
+The owner ruled that main organises communication with every seat and directs them across one another, that each seat
+hears main through a silent listener, and that he supervises and no longer relays. The whole of it is one page,
+`docs/seats/README.md`. What binds:
+
+1. **One page for each seat, on main.** Main writes to a seat in `docs/seats/` and nowhere else, in numbered messages.
+2. **A listener.** Each seat runs `scripts/seats/listen.py` in the background. It fetches every ten minutes and wakes the
+   seat only when its page has changed. Main runs the same listener on the seats' branches.
+3. **A status file.** Each seat keeps one at a fixed place on its own branch and rewrites it at every push.
+4. **A card before a piece of work.** One page committed first: what will be delivered, what done means, how it could
+   come out wrong, what it rests on and must not touch, one control that must fail if the work is broken, and what it
+   needs. A card main proposed is approved when the seat commits it. Main approves a card and checks no step.
+5. **No seat verifies its own work, and none gives a verdict on what it built.** Main recomputes what decides before
+   anything changes on main.
+6. **Four seats verify** (the SM seat, the web seat, agy-002 and agy-exp), and the advisor seat builds and is not asked
+   to verify (register rows P-792, P-794, P-798). The agy lane does frontier work, which is verified later.
+
+Under the owner's review, and applied as main recommended until he rules: his rulings are entered in plain words and
+his messages are not published (P-796); and a seat's name is an address, not an author and not an authority (P-797).
+

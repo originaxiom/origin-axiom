@@ -3,8 +3,10 @@
   "E10": "accepted",
   "E11": "partly, as main says",
   "E13": "accepted",
+  "E2": "partly. The lock and the mathematics are accepted (re-audit 6); the arc's own claim line still led with level (8), and the generated spine showed only that",
   "E3": "accepted (re-audit 4): carried to the four places the second re-audit named, each with a dated note",
   "E4": "partly, as main says",
+  "E5": "accepted (re-audit 6): the claim computed again by another route, exactly over the rationals where it can be and at 60 digits where it cannot; two notes, neither a residual, both since run or recorded by main",
   "E6": "accepted",
   "E8": "partly, as main says",
   "G1": "accepted, with three residuals (re-audit 2); the second, a waiver that hides its violation, accepted as mended (re-audit 3). Left: the log's archives, and history before the rule",
@@ -17,8 +19,8 @@
   "X2": "agreed: partly (re-audit 4); GENESIS.md's own line still says that it holds"
  },
  "accepted_at": [
-  "16b82acda",
-  "REAUDIT_5_2026-11-11.md"
+  "8d90a5b2a",
+  "REAUDIT_6_2026-11-11.md"
  ],
  "also": {
   "D:01": [
@@ -815,9 +817,15 @@
    "wp": "WP-0.8"
   },
   "E2": {
-   "note": "MENDED ON MAIN, AND NOT COUNTED AS FIXED UNTIL THE ADVISOR SEAT HAS RE-AUDITED IT (a builder gives no verdict on what it built; that holds for main too). Main's own computation, in its own code: the knot group's image has order 10, 320 and 20480 at (2), (4) and (8); in SL(2, O/I)/{+-1}, the group PSL(2, O_3) maps to, its index is 6 at (2) and 12 at (4), and 2 is inert, so the level is (4), as the ledger's link C9 has said since 2026-09-16. The lock asserted level (8), which is the reading in the quotient by every central unit of square one (four at (4), of which the image holds two). The lock now asserts the level in the standard group with the ambient orders counted, keeps the old reading as what it is, and fails if any page states the old level for this group with no correction in the same file; the correction is carried to the two verdict lines, the law map's two rows, the theorem registry, the error ledger's E21 and E22, and ten other pages, six of which the lock's own sweep found after main's search had missed them. Before (the reader's): the lock's own function gives index 6 at level 4 and 12 at level 8 under its quotient by every central unit; under the standard quotient the index is already 12 at level 4",
+   "note": "the knot group's congruence level is (4): the lock asserts it in the standard quotient, and the correction stands on every page that stated (8). THE ADVISOR SEAT'S SIXTH RE-AUDIT ACCEPTS THE LOCK AND THE MATHEMATICS, every number computed again in code that shares none with the lock, AND GIVES 'PARTLY' FOR ONE LINE: B734's own claim line still led with level (8), and the generated spine showed only that. MENDED BY MAIN THE SAME DAY AND NOT RE-READ BY A SEAT: the line leads with the correction and a test holds the order; the lock's docstring no longer calls its second generator Riley's; the sweep sees six more shapes of the old statement and found three places it had missed (B942's verdict line, a note among the open leads, a row of the relay ledger), each corrected; the gloss that the group defies a base rate, withdrawn in the theorem ledger on 2026-09-16, is withdrawn in the three places it still stood",
    "short": "a chain lock asserts the wrong congruence level",
    "state": "PARTLY FIXED",
+   "trail": [
+    [
+     "PARTLY FIXED",
+     "MENDED ON MAIN, AND NOT COUNTED AS FIXED UNTIL THE ADVISOR SEAT HAS RE-AUDITED IT (a builder gives no verdict on what it built; that holds for main too). Main's own computation, in its own code: the knot group's image has order 10, 320 and 20480 at (2), (4) and (8); in SL(2, O/I)/{+-1}, the group PSL(2, O_3) maps to, its index is 6 at (2) and 12 at (4), and 2 is inert, so the level is (4), as the ledger's link C9 has said since 2026-09-16. The lock asserted level (8), which is the reading in the quotient by every central unit of square one (four at (4), of which the image holds two). The lock now asserts the level in the standard group with the ambient orders counted, keeps the old reading as what it is, and fails if any page states the old level for this group with no correction in the same file; the correction is carried to the two verdict lines, the law map's two rows, the theorem registry, the error ledger's E21 and E22, and ten other pages, six of which the lock's own sweep found after main's search had missed them. Before (the reader's): the lock's own function gives index 6 at level 4 and 12 at level 8 under its quotient by every central unit; under the standard quotient the index is already 12 at level 4"
+    ]
+   ],
    "was": [
     "READER",
     "main's reader ran the lock's own function: index 6 at level 4 and 12 at level 8 under the lock's quotient by every central unit; under the standard quotient by ±1 the index is already 12 at level 4, as the ledger's own note says"
@@ -855,9 +863,15 @@
    "wp": "WP-0.8"
   },
   "E5": {
-   "note": "MENDED ON MAIN, AND NOT COUNTED AS FIXED UNTIL THE ADVISOR SEAT HAS RE-AUDITED IT. The scan's sentence is corrected where it stands, in B892's findings and verdict line, with the old text kept: the golden-section step never ran, and a 120-point grid shows nothing between its nodes. What excludes a real nullity-14 point is now computed on main (B892's verification/walls_on_the_line.py): s1, x14, x16 and x22 commute and diagonalise together, so the joint nullity at every point of the line is read off their weights; it jumps at finite t only at four purely imaginary points, 14 at one conjugate pair and 18 at the other, and is 12 at every real point but pure x16, with a direct rank computation agreeing at the walls, beside them and at six real points. The same run verifies the mechanism B874's addendum records as the solo seat's: 34 active weights in seven proportionality classes of sizes 2, 2, 6, 6, 6, 6, 6, three real and two conjugate pairs. Main's first attempt, a finer scan with a bound between grid points, failed its own checks, the matrices being scaled over fourteen orders of magnitude. Before (main's own reading): the refinement runs only when the grid finds nothing, and the grid lands on the wall, so it never runs",
+   "note": "the scan's sentence is corrected where it stands, with the old text kept, and what excludes a real point of nullity 14 is computed on main: the joint weights of four commuting elements (B892's verification/walls_on_the_line.py), all four finite walls purely imaginary. THE ADVISOR SEAT'S SIXTH RE-AUDIT ACCEPTS IT, having computed the claim again by another route. Of its two notes main has since run the first: the instrument at each of the cubic's three real roots, where the walls are purely imaginary at all three and equal the seat's values to nine digits (walls_at_the_three_roots.py), so the structure paper's sentence about all three roots has a computation of main's behind it. The second stands as a choice the lock states: the recomputation is in the slow lane. A figure main's landing message quoted differs from the committed run's; main found the figures differ from run to run on one machine and says so in the script and the findings; nothing rests on them",
    "short": "B892's scan never refines",
-   "state": "PARTLY FIXED",
+   "state": "FIXED",
+   "trail": [
+    [
+     "PARTLY FIXED",
+     "MENDED ON MAIN, AND NOT COUNTED AS FIXED UNTIL THE ADVISOR SEAT HAS RE-AUDITED IT. The scan's sentence is corrected where it stands, in B892's findings and verdict line, with the old text kept: the golden-section step never ran, and a 120-point grid shows nothing between its nodes. What excludes a real nullity-14 point is now computed on main (B892's verification/walls_on_the_line.py): s1, x14, x16 and x22 commute and diagonalise together, so the joint nullity at every point of the line is read off their weights; it jumps at finite t only at four purely imaginary points, 14 at one conjugate pair and 18 at the other, and is 12 at every real point but pure x16, with a direct rank computation agreeing at the walls, beside them and at six real points. The same run verifies the mechanism B874's addendum records as the solo seat's: 34 active weights in seven proportionality classes of sizes 2, 2, 6, 6, 6, 6, 6, three real and two conjugate pairs. Main's first attempt, a finer scan with a bound between grid points, failed its own checks, the matrices being scaled over fourteen orders of magnitude. Before (main's own reading): the refinement runs only when the grid finds nothing, and the grid lands on the wall, so it never runs"
+    ]
+   ],
    "was": [
     "REPRODUCED",
     "main's own reading: the refinement runs only when the grid finds nothing, and the grid lands on the wall, so it never runs"
@@ -2519,7 +2533,7 @@
    "node_labels": {},
    "nodes": [],
    "obligation": "C0",
-   "owner": "main; the advisor seat re-audits",
+   "owner": "main; re-audited by one of the four verifying seats, none of which builds it (the SM seat, the web seat, the two agy seats); by the advisor seat through its sixth re-audit",
    "question": "Does any living page still state something the record has corrected?",
    "rests_on": [],
    "rows": [
@@ -2883,7 +2897,7 @@
    "node_labels": {},
    "nodes": [],
    "obligation": "C0",
-   "owner": "main; the advisor seat re-audits",
+   "owner": "main; re-audited by one of the four verifying seats, none of which builds it (the SM seat, the web seat, the two agy seats); by the advisor seat through its sixth re-audit",
    "question": "Is every statement the audit found wrong corrected where it stands, with a lock that computes it?",
    "rests_on": [],
    "rows": [
@@ -5031,6 +5045,10 @@
   "REAUDIT_5_2026-11-11.md": [
    "9ff91c3b7",
    "16b82acda"
+  ],
+  "REAUDIT_6_2026-11-11.md": [
+   "72929e16e",
+   "8d90a5b2a"
   ]
  },
  "released": {
@@ -5204,6 +5222,10 @@
   "The owner has confirmed the ruling on the count (2026-11-10): the headline is to be printed from the graph and typed nowhere -- confirmed, refuted, predictions registered, not reached. Until that is built (WP-0.12) the typed count stands and is marked as typed."
  ],
  "since_reaudit": {
+  "E2": [
+   "B734",
+   "the claim line leads with the correction, and a test holds the order; the docstring's wording; the sweep widened to the shapes the re-audit planted, with three more places corrected; the withdrawn gloss withdrawn where it stood"
+  ],
   "E4": [
    "B1877",
    "'commuting' carried to B952's verdict line, its results file and the requirements ledger, where the reader of Review 78 found the lemma uncorrected"
@@ -5216,9 +5238,9 @@
  "stats": {
   "audit_findings": 73,
   "audit_findings_by_state": {
-   "FIXED": 11,
+   "FIXED": 12,
    "OPEN": 0,
-   "PARTLY FIXED": 19,
+   "PARTLY FIXED": 18,
    "READER": 3,
    "REPRODUCED": 40
   },
@@ -5248,12 +5270,13 @@
    "UNTOUCHED": 11
   },
   "findings_main_changed_since_the_re_audit": [
+   "E2",
    "E4",
    "E8"
   ],
   "findings_that_bear_on_the_repository_as_a_whole": 34,
   "findings_that_name_arcs_nodes_or_pages_only": 39,
-  "findings_with_a_re_audit_verdict": 15,
+  "findings_with_a_re_audit_verdict": 17,
   "fixed_and_not_yet_re_audited": [],
   "forcing_arguments_one_clause_short": 3,
   "headline_results_not_yet_results_on_main": [
@@ -5374,6 +5397,12 @@
     "| **E13** B567's 21 eigenvalues | **accepted** |"
    ]
   ],
+  "E2": [
+   [
+    "REAUDIT_6_2026-11-11.md",
+    "| **E2** the knot group's congruence level | PARTLY FIXED: mended, not counted | **partly.** The lock and the mathematics are accepted."
+   ]
+  ],
   "E3": [
    [
     "REAUDIT_4_2026-11-11.md",
@@ -5388,6 +5417,12 @@
    [
     "REAUDIT_2_2026-11-10.md",
     "| **E4** B952's lemma | **partly**, as you say |"
+   ]
+  ],
+  "E5": [
+   [
+    "REAUDIT_6_2026-11-11.md",
+    "| **E5** B892's scan never refines | PARTLY FIXED: mended, not counted | **accepted** |"
    ]
   ],
   "E6": [

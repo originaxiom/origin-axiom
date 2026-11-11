@@ -1,0 +1,110 @@
+{
+ "R1 three real roots, and at each the counts are 46, 30, 12": true,
+ "R2 at each root the finite walls are four purely imaginary points, two of six weights and two of two, in conjugate pairs": true,
+ "R3 a direct rank computation agrees at every wall, beside it, and at three real points, at each root": true,
+ "R4 the wall values are the advisor seat's, to nine digits, at all three roots": true,
+ "roots": [
+  {
+   "t": -0.0019380502097204346,
+   "commutator": 4.980869644978989e-18,
+   "residual": 2.1024717006751287e-14,
+   "counts": [
+    46,
+    30,
+    12
+   ],
+   "walls": [
+    [
+     -0.05152616072901097,
+     2,
+     14
+    ],
+    [
+     -0.04641301161159871,
+     6,
+     18
+    ],
+    [
+     0.04641301161159872,
+     6,
+     18
+    ],
+    [
+     0.05152616072901097,
+     2,
+     14
+    ]
+   ],
+   "largest_real_part_over_modulus": 5.814563444664838e-17,
+   "direct_ranks_agree": true
+  },
+  {
+   "t": 0.00039822150125035273,
+   "commutator": 7.174114404328135e-19,
+   "residual": 1.944048002458904e-14,
+   "counts": [
+    46,
+    30,
+    12
+   ],
+   "walls": [
+    [
+     -0.033962115292560956,
+     6,
+     18
+    ],
+    [
+     -0.03041596811399004,
+     2,
+     14
+    ],
+    [
+     0.030415968113990048,
+     2,
+     14
+    ],
+    [
+     0.033962115292560956,
+     6,
+     18
+    ]
+   ],
+   "largest_real_part_over_modulus": 4.279082074870755e-17,
+   "direct_ranks_agree": true
+  },
+  {
+   "t": 0.005685236871735385,
+   "commutator": 3.3958768804752964e-18,
+   "residual": 1.6968198206006515e-14,
+   "counts": [
+    46,
+    30,
+    12
+   ],
+   "walls": [
+    [
+     -0.2158521451857025,
+     2,
+     14
+    ],
+    [
+     -0.005785563778475813,
+     6,
+     18
+    ],
+    [
+     0.005785563778475812,
+     6,
+     18
+    ],
+    [
+     0.21585214518570256,
+     2,
+     14
+    ]
+   ],
+   "largest_real_part_over_modulus": 3.2396046644477612e-16,
+   "direct_ranks_agree": true
+  }
+ ]
+}

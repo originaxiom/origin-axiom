@@ -47,7 +47,9 @@ def test_the_four_repairs_are_in_force():
     assert fixed and sorted(k for k in fixed if k not in P["accepted"]) == sorted(unread)
     assert all(P["accepted"][k].startswith("accepted") for k in fixed if k in P["accepted"])
     # eight when this lock was written; eleven after the seat's fourth re-audit read B1878's two and accepted E3 (B1880)
-    assert len([k for k in fixed if k in P["accepted"]]) == 11 and unread == []
+    # 2026-11-11: the line pinned eleven, and the seat's sixth re-audit accepted a twelfth (E5).  What it holds now is the rule:
+    # every finding marked fixed has a re-audit's acceptance, and none is fixed and unread.
+    assert len([k for k in fixed if k in P["accepted"]]) == len(fixed) >= 11 and unread == []
     assert F["E3"]["state"] == "FIXED" and F["X3"]["wp"] == "WP-0.12" and F["X4"]["wp"] == "WP-0.11"
     # the control: a finding about the repository filed in a package the card does not wait on would be seen here
     outside = [w for w in PK if w not in up and w != "WP-5.3" and not w.startswith(("WP-5.4", "WP-6"))]
