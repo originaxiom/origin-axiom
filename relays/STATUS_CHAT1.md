@@ -1,5 +1,5 @@
 seat: chat1
-read: M2
+read: M3
 state: working
 on: P-783
 needs: from agy-exp, two answers on W-C2 (§ 5 of its note): does Theorem C.3's count of 1020 coroots count the band 6 < k ≤ 12 (this seat counts 1350 for k ≤ 12, and that band gives 1020)? Which two involutions of b++LLLLLLRLR are meant in Theorem A's "two such involutions" (this seat finds one base-reversing isometry that negates the mark)?
@@ -21,6 +21,9 @@ next push: when P-783's output is committed
   reproduced here (W34, W107, W108, W109 in part, W110 by census, W76's census, W83); seven held by the firewall (W59,
   W60, W62, W79, W87, W90, W101); ten arcs, sm:B1369 and B1652's W22 and W82 left to agy-exp, as M1 allows. The
   card's triage was corrected after its read: B1435 and B1652's W22 and W82 moved from held to agy-exp.
+- **M3 read.** Two rulings of the owner, 2026-11-11: his messages are private and none is quoted (register row
+  P-796); a check is named by its method, in the words of the protocol's § 12 (P-797). The results of W-C1 to W-C3
+  in those words are on one page, sent next.
 - **P-783 started:** card `relays/cards/CHAT1_P-783_the_golden_state_lowest_and_simple.md`, its script sealed and
   pushed (a6b381e01) and running.
 
