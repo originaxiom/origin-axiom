@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1585** |
-| words of findings prose | **1,374,593** |
+| research arcs with findings | **1586** |
+| words of findings prose | **1,375,844** |
 | test lock files referenced | **940** |
-| arcs carrying an authored verdict | **1585** (100.0 %) |
+| arcs carrying an authored verdict | **1586** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1094 |
+| PROVED | 1095 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1884`** (1159 words, 0 locks)  
-THE WEB SEAT'S SEALED CARD ON WHAT LEVEL A GROUND NAMES, VERIFIED ON MAIN (a thread result on the ground; integers; 17 checks, none failing; for the foundation's entry on the ground, P-767): the tick F, add and exchange, has F^2 the ground and determinant -1; det(F - I) = -1 and det(F + I) = 1, so the tick keeps no vector up to sign at any level, by hand and by brute force to N = 200, while its square keeps four at N = 5 and none elsewhere; for determinant -1 and trace s the two determinants are -s and s (checked on all 87 non-negative matrices of determinant -1 with entries to 8), so among histories with an odd number of ticks only the tick and its other side have no line of their own; the lines kept as sets by the tick and by its square are as many as the roots of x^2 - x - 1 modulo N -- exactly one at N = 5 and at no other N to 200, two at 11, 19, 29 and on -- so 'a canonical invariant' selects 5 only when it means the only invariant line; at level 5 the tick moves its line's four vectors in one orbit and exchanges the twins. So the tick has its level by the discriminant, which it shares with its square, and not by the rule of own lines, which gives it none; the foundation's entry for the ground is to say which reading it uses, and given the ground and that reading the level is not a further input. The same counts hold in main's own convention. Nothing leaves the budget: the ground is a postulate. 0 of 19.  
-`B1884_what_level_a_ground_names_verified/FINDINGS.md`
+**PROVED — `B1886`** (1251 words, 0 locks)  
+THE FOUNDATION AT VERSION 1.65 (P-767's second landing): the owner's statements of 2026-11-10 and 2026-11-11 entered in GENESIS.md under the working rule of 2026-11-11, by which a ruling sets a goal, a standard, an order of work or a meaning and never a fact. NO STATUS CELL OF AN EXISTING ITEM CHANGES (compared row by row with the committed v1.64). Three items are new: PF5, the claim that the whole has one self-consistent outcome, one orbit of the whole -- OPEN, since it is what the programme sets out to establish and nothing is derived from it, with what would refute it entered in the falsifier register; SE3, the ground is the act itself, the tick, at the level its discriminant gives -- POSTULATED as main's entry, tagged and counted, because nothing computed can decide it and the owner's choice of it came from a menu the rule no longer admits; and FK16, what puts an observer at one member of a pair the mirror exchanges -- OPEN. One sentence is re-typed: 'even ticks observed' (v1.33) is no longer recorded as the owner's ruling and is a condition the weight has to deliver, with the criterion of B1881 for delivering it, necessary and not shown sufficient; the swap stays OPEN with the tick carried as an act, and the orientation stays CHOSEN, named as a condition to derive and not counted as derived. The owner's statements of what he means by the principle are entered as wording. The line on which document holds is scoped to statuses. With it: three nodes on the closure map, and one more axiom in the input budget, the ground. It derives nothing and earns no value. 0 of 19.  
+`B1886_the_foundation_at_version_1_65/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  

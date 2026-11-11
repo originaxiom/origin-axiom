@@ -16369,6 +16369,18 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1886": {
+   "slug": "the foundation at version 1 65",
+   "motifs": [
+    "closing",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 1,
+   "status": "open",
+   "domain": "topology"
+  },
   "B188": {
    "slug": "lindblad dissipative",
    "motifs": [
