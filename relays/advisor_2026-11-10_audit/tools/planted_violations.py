@@ -143,6 +143,12 @@ def pv24(c):
 
 
 # ---- controls: violations the gates DO catch today; the instrument is valid only if it reports them CAUGHT ----------
+def pv30(c):
+    head = sh(["git", "rev-parse", "--short=9", "HEAD"], c).stdout.strip()
+    write(c, "docs/progress/REVIEWS.md", read(c, "docs/progress/REVIEWS.md")
+          + "\n\nA note, not a review: the gates were run at **anchor-commit: `%s`** today.\n" % head)
+
+
 def ctl1(c):
     write(c, "PROGRESS_LOG.md", "# an uncommitted replacement of the log\n")
 
@@ -197,6 +203,8 @@ CASES = [
     ("PV20", "G10", "a PROVEN row in CLAIMS.md that cites no lock", pv20, True, None, ["claims"]),
     ("PV21", "G10", "a banned phrase in a .tex file and a capitalised variant in README.md", pv21, True, None, ["framing"]),
     ("PV24", "L7", "a test whose only assert is `assert 1 != 2`", pv24, True, None, ["test-vacuity"]),
+    # added 2026-11-11 (series 4): found on main's f9e70c167 while reading main's page on the periodic review
+    ("PV30", "new", "a sentence on the reviews' page that names the head as an anchor, commit", pv30, True, None, ["review-fires"]),
 ]
 MANUAL = [
     ("PV5", "G2", "edit a sealed file and append a ledger row with the new digest (needs the ledger's row shapes)"),
@@ -244,6 +252,30 @@ def special_shallow(c, work):
     return ok, "lead-debt on the shallow clone: %s (%s)" % ("PASS" if r[0] else "FAIL", r[1][:90])
 
 
+def special_seams(c, work):
+    """PV28: three gates with the project's own variables set must print what they print without them."""
+    empty = os.path.join(work, "a_page_with_no_row.md")
+    open(empty, "w", encoding="utf-8").write("# a page with no row\n")
+    names = ["review-fires", "point-debt", "retraction-debt"]
+    env = {"OA_REVIEW_MERGES": "0", "OA_POINT_REGISTER": empty, "OA_RETRACTIONS_LEDGER": empty}
+    a, b = run_gates(c, names), run_gates(c, names, env)
+    diff = [g for g in names if a[g] != b[g]]
+    return (not diff), "with OA_REVIEW_MERGES, OA_POINT_REGISTER and OA_RETRACTIONS_LEDGER set, the line changes for: %s" % (", ".join(diff) or "none")
+
+
+def special_redirect(c, work):
+    """PV29: on an export, with GIT_DIR pointing at a real clone, no git-dependent gate may report PASS."""
+    d = os.path.join(work, "export_redirected"); shutil.rmtree(d, ignore_errors=True); os.makedirs(d)
+    tar = subprocess.run(["git", "archive", "HEAD"], cwd=c, capture_output=True, check=True).stdout
+    subprocess.run(["tar", "-x", "-C", d], input=tar, check=True)
+    need = ["append-only", "attribution", "tracked-forbidden", "log-changelog-paired", "views-fresh", "path-refs",
+            "test-vacuity", "retraction-sweep", "review-fires", "harvest-debt"]
+    res = run_gates(d, need, {"GIT_DIR": os.path.join(c, ".git")})
+    passing = sorted(g for g, r in res.items() if r[0])
+    shutil.rmtree(d, ignore_errors=True)
+    return (not passing), "gates that PASS on an export when GIT_DIR points at a clone: %s" % (", ".join(passing) or "none")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--ref", default="origin/main"); ap.add_argument("--work", required=True); ap.add_argument("--only", default="")
@@ -279,13 +311,13 @@ def main():
         rows.append((pid, finding, tag, what, detail + ((" [" + note + "]") if note else "")))
         print("%-5s %-4s %-13s %s\n      %s" % rows[-1])
     reset()
-    for pid, fn in (("PV9", special_export), ("PV15", special_dates), ("PV22", special_shallow)):
+    for pid, fn in (("PV9", special_export), ("PV15", special_dates), ("PV22", special_shallow), ("PV28", special_seams), ("PV29", special_redirect)):
         if only and pid not in only: continue
         try: ok, detail = fn(c, work)
         except Exception as exc: ok, detail = None, "COULD NOT RUN: %r" % (exc,)
         tag = "CAUGHT" if ok else "COULD-NOT-RUN" if ok is None else "NOT CAUGHT"
         missed += ok is False
-        print("%-5s %-4s %-13s %s\n      %s" % (pid, {"PV9": "G5", "PV15": "G6", "PV22": "G13"}[pid], tag, fn.__doc__.split(":")[1].strip()[:90], detail))
+        print("%-5s %-4s %-13s %s\n      %s" % (pid, {"PV9": "G5", "PV15": "G6", "PV22": "G13", "PV28": "G6", "PV29": "G5"}[pid], tag, fn.__doc__.split(":")[1].strip()[:90], detail))
     if not only:
         print()
         for pid, finding, what in MANUAL: print("%-5s %-4s %-13s %s" % (pid, finding, "MANUAL", what))
