@@ -1,0 +1,28 @@
+W-C1: planted cases against the locks of B734 and B1028 (main at 2f3984d27; a scratch clone per case)
+  E2-0 baseline                                                  expected PASSES got PASSES as expected  
+  E2-1 the arc's line no longer leads with the correction        expected CAUGHT got CAUGHT as expected  [test_the_arcs_own_line_leads_with_the_correction]
+  E2-2 the ambient order at (4) typed as the quotient's          expected CAUGHT got CAUGHT as expected  [test_the_ambient_orders_are_counted_and_two_is_inert, test_m004_is_congruence_at_level_4, test_the_old_reading_was_the_quotient_by_every_central_unit]
+  E2-3 a new page under docs/ states level (8)                   expected CAUGHT got CAUGHT as expected  [test_every_page_that_stated_level_8_carries_the_correction]
+  E2-4 the foundation states level (8)                           expected PASSES got PASSES as expected  
+  E2-5 the claims ledger states level (8)                        expected PASSES got PASSES as expected  
+  E2-6 the knot named 4_1                                        expected PASSES got PASSES as expected  
+  E2-7 "contains Gamma(8) and not Gamma(4)"                      expected PASSES got PASSES as expected  
+  E2-8 "level 2 cubed"                                           expected PASSES got PASSES as expected  
+  E2-9 the programme page states level (8)                       expected PASSES got PASSES as expected  
+  E2-10 a page that carries the correction states level (8) again expected PASSES got PASSES as expected  
+  E2-11 another arc's verdict line states level (8)              expected CAUGHT got CAUGHT as expected  [test_every_page_that_stated_level_8_carries_the_correction]
+  E2-12 a .tex source states level (8)                           expected CAUGHT got CAUGHT as expected  [test_every_page_that_stated_level_8_carries_the_correction]
+  E7-0 baseline                                                  expected PASSES got PASSES as expected  
+  E7-1 the verdict back to PROVED                                expected CAUGHT got CAUGHT as expected  [test_verdict_json]
+  E7-2 the line no longer leads with the correction              expected CAUGHT got CAUGHT as expected  [test_verdict_json]
+  E7-3 a new page under docs/ states the zero                    expected CAUGHT got CAUGHT as expected  [test_every_page_that_states_the_zero_carries_the_correction]
+  E7-4 the foundation states the zero                            expected CAUGHT got CAUGHT as expected  [test_every_page_that_states_the_zero_carries_the_correction]
+  E7-5 the zero in other words                                   expected PASSES got PASSES as expected  
+  E7-6 "0 bits"                                                  expected PASSES got PASSES as expected  
+  E7-7 a .tex source states the zero                             expected PASSES got PASSES as expected  
+  E7-8 another arc's verdict line states the zero                expected PASSES got PASSES as expected  
+  E7-9 one price changed in the walk                             expected CAUGHT got CAUGHT as expected  [test_links_all_cited_and_zero, test_outputs_and_arithmetic, test_the_zero_is_typed_and_the_check_is_a_substring_match]
+  E7-10 the programme page states the zero                       expected PASSES got PASSES as expected  
+  E7-11 a page that carries the correction states the zero again expected PASSES got PASSES as expected  
+
+as expected: 25 of 25

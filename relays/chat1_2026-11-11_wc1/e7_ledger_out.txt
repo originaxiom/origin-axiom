@@ -1,0 +1,22 @@
+W-C1, E7: the freedom ledger's walk, read by the seat's own route (main at <the seat's checkout of main at 2f3984d27>)
+Y1  price keywords in links(): 11; all the literal 0.0: True; verdict() sums them alone: True; asserts the zero: True
+Y2  B997: verdict PROVED; holds "UNIQUE METALLIC GRAMMAR": True; "INFINITE FAMILY": True; the correction: True; begins "CORRECTED": False
+Y3  the walk run as a script: exit 0; prints "outcome: COMPRESSION": True; prints "0.000 retroactive designer bits": True; prints the correction: False
+Y4  the arcs the links cite (10 calls):
+    B14                                      verdict PROVED   begins CORRECTED: False phrases present: True
+    B997                                     verdict PROVED   begins CORRECTED: False phrases present: True
+    B1010                                    verdict PROVED   begins CORRECTED: False phrases present: True
+    B266                                     verdict PROVED   begins CORRECTED: False phrases present: True
+    B1019                                    verdict PROVED   begins CORRECTED: False phrases present: True
+    B266                                     verdict PROVED   begins CORRECTED: False phrases present: True
+    B884                                     verdict PROVED   begins CORRECTED: False phrases present: True
+    B994                                     verdict PROVED   begins CORRECTED: False phrases present: True
+    B863                                     verdict PROVED   begins CORRECTED: False phrases present: True
+    B897                                     verdict PROVED   begins CORRECTED: False phrases present: True
+Y5  dim su(3) + su(2) + u(1)^3 = 14; dim su(3) + su(2) + u(1) = 12; difference 2
+
+Y1: HOLDS
+Y2: HOLDS
+Y3: HOLDS
+Y5: HOLDS
+EXPECTATIONS: 4 of 4 hold
