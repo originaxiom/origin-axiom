@@ -1,6 +1,6 @@
-From ba5a65b8cc2c42cf9e781be2eabe7c485e96a8db Mon Sep 17 00:00:00 2001
+From 8f19f313172e7ed6c39c4f46e4fb83599b50528a Mon Sep 17 00:00:00 2001
 From: originaxiom <originaxiom@users.noreply.github.com>
-Date: Wed, 11 Nov 2026 20:23:39 +0000
+Date: Wed, 11 Nov 2026 21:04:49 +0000
 Subject: [PATCH 5/6] WP-0.7, enforcement (cld-advisor's series 3, patch 5;
  built on b80c68991 with series 2 applied): A GATE READS ALL IT IS ABOUT --
  THE RETRACTION SWEEP (the seat's planted case PV17; main's own point P-154,
@@ -266,7 +266,7 @@ index 83bd84148..c64e72ff0 100644
      print(f"tracked .md/.tex/.py files swept: {len(_tracked_md())}")
      print(f"live-claim violations: {len(v)}")
 diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
-index c4c0cbb81..1eccd883a 100644
+index 97bfa6f31..b6054a74d 100644
 --- a/scripts/gates/gates.py
 +++ b/scripts/gates/gates.py
 @@ -2225,11 +2225,34 @@ def gate_retraction_sweep(_anchor=None):
@@ -308,10 +308,10 @@ index c4c0cbb81..1eccd883a 100644
  
  
 diff --git a/tests/test_a_gate_reads_all_it_is_about.py b/tests/test_a_gate_reads_all_it_is_about.py
-index 7b3337083..501487024 100644
+index f6883d343..25a0ebc22 100644
 --- a/tests/test_a_gate_reads_all_it_is_about.py
 +++ b/tests/test_a_gate_reads_all_it_is_about.py
-@@ -294,3 +294,124 @@ def test_the_tests_in_which_no_assert_can_fail_are_held_by_name():
+@@ -293,3 +293,124 @@ def test_the_tests_in_which_no_assert_can_fail_are_held_by_name():
      found = set(ctv.read_locks()["CANNOT-FAIL"])
      assert found <= held, sorted(found - held)
      assert "tests/test_b710_thimbles.py::test_orbit_counts_differ" in held          # the one the planted case was written after

@@ -1,20 +1,20 @@
 each patch's own tests, run on the commit before the patch: the test files as the patch leaves them, the code as it was
 (local paths removed; nothing else edited)
 
-==== patch 1: 18ce22aa1 -- A GATE READS ALL IT IS ABOUT -- THE FRAMING GATE (the seat's planted case PV21). The gate read three kinds of 
+==== patch 1: 8314bc0a5 -- A GATE READS ALL IT IS ABOUT -- THE FRAMING GATE (the seat's planted case PV21). The gate read three kinds of 
      its 7 tests, on the commit before (a5c12d4fa):
      E   AssertionError: a banned phrase in a .tex file under papers/, and the framing gate passed: 
-     tests/test_a_gate_reads_all_it_is_about.py:92: AssertionError: a banned phrase in a .tex file under papers/, and the
+     tests/test_a_gate_reads_all_it_is_about.py:91: AssertionError: a banned phrase in a .tex file under papers/, and the
      E   AssertionError: a banned phrase in capitals on the front page, and the framing gate passed: 
-     tests/test_a_gate_reads_all_it_is_about.py:99: AssertionError: a banned phrase in capitals on the front page, and th
+     tests/test_a_gate_reads_all_it_is_about.py:98: AssertionError: a banned phrase in capitals on the front page, and th
      E   AssertionError: a banned phrase (two_lines) passed the framing gate: 
-     tests/test_a_gate_reads_all_it_is_about.py:111: AssertionError: a banned phrase (two_lines) passed the framing gate:
+     tests/test_a_gate_reads_all_it_is_about.py:110: AssertionError: a banned phrase (two_lines) passed the framing gate:
      E   AssertionError: a banned phrase in docs/page.rst passed the framing gate: 
-     tests/test_a_gate_reads_all_it_is_about.py:120: AssertionError: a banned phrase in docs/page.rst passed the framing 
+     tests/test_a_gate_reads_all_it_is_about.py:119: AssertionError: a banned phrase in docs/page.rst passed the framing 
         E   AssertionError: the gate does not say what it did not read: 
-        tests/test_a_gate_reads_all_it_is_about.py:131: AssertionError: the gate does not say what it did not read:
+        tests/test_a_gate_reads_all_it_is_about.py:130: AssertionError: the gate does not say what it did not read:
         E   AssertionError: assert {'GOVERNANCE....epo_gates.py'} == {'GOVERNANCE....epo_gates.py'}
-        tests/test_a_gate_reads_all_it_is_about.py:137: AssertionError: assert {'GOVERNANCE....epo_gates.py'} == {'GOVERNANCE....epo_gates.py'}
+        tests/test_a_gate_reads_all_it_is_about.py:136: AssertionError: assert {'GOVERNANCE....epo_gates.py'} == {'GOVERNANCE....epo_gates.py'}
      PASSED tests/test_a_gate_reads_all_it_is_about.py::test_a_banned_phrase_written_as_the_gate_holds_it_fails_the_framing_gate
      FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_banned_phrase_in_a_tex_file_fails_the_framing_gate
      FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_banned_phrase_in_capitals_fails_the_framing_gate
@@ -22,48 +22,48 @@ each patch's own tests, run on the commit before the patch: the test files as th
      FAILED tests/test_a_gate_reads_all_it_is_about.py::test_the_framing_gate_reads_a_file_whatever_its_name_ends_in
      FAILED tests/test_a_gate_reads_all_it_is_about.py::test_the_framing_gate_says_what_it_did_not_read
      FAILED tests/test_a_gate_reads_all_it_is_about.py::test_what_the_framing_gate_exempts_is_held_by_name
-     6 failed, 1 passed in 1.40s
+     6 failed, 1 passed in 1.35s
 
-==== patch 2: 96fdfac67 -- A GATE READS ALL IT IS ABOUT -- THE CLAIMS GATE (the seat's planted case PV20). The gate checked that a cited 
-     its 6 tests, on the commit before (18ce22aa1):
+==== patch 2: f3b2fbc8c -- A GATE READS ALL IT IS ABOUT -- THE CLAIMS GATE (the seat's planted case PV20). The gate checked that a cited 
+     its 6 tests, on the commit before (8314bc0a5):
      E   AssertionError: a row of the table that says it is test-locked cites no lock, and the claims gate passed: 
-     tests/test_a_gate_reads_all_it_is_about.py:176: AssertionError: a row of the table that says it is test-locked cites
+     tests/test_a_gate_reads_all_it_is_about.py:175: AssertionError: a row of the table that says it is test-locked cites
      E   AssertionError: a proven row that cites no lock, and the claims gate passed: 
-     tests/test_a_gate_reads_all_it_is_about.py:169: AssertionError: a proven row that cites no lock, and the claims gate
+     tests/test_a_gate_reads_all_it_is_about.py:168: AssertionError: a proven row that cites no lock, and the claims gate
      E   AssertionError: a proven row cites a file with no test in it, and the claims gate passed: 
-     tests/test_a_gate_reads_all_it_is_about.py:183: AssertionError: a proven row cites a file with no test in it, and th
+     tests/test_a_gate_reads_all_it_is_about.py:182: AssertionError: a proven row cites a file with no test in it, and th
         E   AssertionError: no table of the rows held by name
-        tests/test_a_gate_reads_all_it_is_about.py:198: AssertionError: no table of the rows held by name
+        tests/test_a_gate_reads_all_it_is_about.py:197: AssertionError: no table of the rows held by name
         E   AssertionError: the gate does not say what it read: 
-        tests/test_a_gate_reads_all_it_is_about.py:192: AssertionError: the gate does not say what it read:
+        tests/test_a_gate_reads_all_it_is_about.py:191: AssertionError: the gate does not say what it read:
      PASSED tests/test_a_gate_reads_all_it_is_about.py::test_a_cited_lock_that_is_not_there_fails_the_claims_gate
      FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_certified_row_that_cites_no_lock_fails_the_claims_gate
      FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_proven_row_that_cites_no_lock_fails_the_claims_gate
      FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_row_that_cites_a_file_holding_no_test_fails_the_claims_gate
      FAILED tests/test_a_gate_reads_all_it_is_about.py::test_the_one_proven_row_without_a_lock_is_held_by_name
      FAILED tests/test_a_gate_reads_all_it_is_about.py::test_the_rows_that_are_not_locked_need_no_lock
-     5 failed, 1 passed in 1.24s
+     5 failed, 1 passed in 2.21s
 
-==== patch 3: dbe2e0952 -- A GATE READS ALL IT IS ABOUT -- THE VACUITY GATE (the seat's planted case PV24). The checker listed an assert 
-     its 6 tests, on the commit before (96fdfac67):
+==== patch 3: 1b017468a -- A GATE READS ALL IT IS ABOUT -- THE VACUITY GATE (the seat's planted case PV24). The checker listed an assert 
+     its 6 tests, on the commit before (f3b2fbc8c):
      E   AssertionError: a test whose only assert is `assert 1 != 2`, and the vacuity gate passed: ok (2 tests, 0 vacuous; 1 both-literal for review)
-     tests/test_a_gate_reads_all_it_is_about.py:228: AssertionError: a test whose only assert is `assert 1 != 2`, and the
+     tests/test_a_gate_reads_all_it_is_about.py:227: AssertionError: a test whose only assert is `assert 1 != 2`, and the
      E   AssertionError: a test in which no assert can fail (another operator) passed the vacuity gate: ok (2 tests, 0 vacuous; 0 both-literal for review)
-     tests/test_a_gate_reads_all_it_is_about.py:247: AssertionError: a test in which no assert can fail (another operator
+     tests/test_a_gate_reads_all_it_is_about.py:246: AssertionError: a test in which no assert can fail (another operator
         E   AssertionError: no table of the tests held by name, or not the 26 that were found
-        tests/test_a_gate_reads_all_it_is_about.py:288: AssertionError: no table of the tests held by name, or not the 26 that were found
+        tests/test_a_gate_reads_all_it_is_about.py:287: AssertionError: no table of the tests held by name, or not the 26 that were found
      E   AssertionError: an arc's own lock with a test that asserts nothing, and the vacuity gate passed: ok (1 tests, 0 vacuous; 0 both-literal for review)
-     tests/test_a_gate_reads_all_it_is_about.py:276: AssertionError: an arc's own lock with a test that asserts nothing, 
+     tests/test_a_gate_reads_all_it_is_about.py:275: AssertionError: an arc's own lock with a test that asserts nothing, 
      PASSED tests/test_a_gate_reads_all_it_is_about.py::test_a_test_that_can_fail_is_not_refused
      PASSED tests/test_a_gate_reads_all_it_is_about.py::test_a_test_with_no_assert_fails_the_vacuity_gate
      FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_test_whose_only_assert_is_between_two_literals_fails_the_vacuity_gate
      FAILED tests/test_a_gate_reads_all_it_is_about.py::test_every_shape_of_a_test_in_which_no_assert_can_fail_is_refused
      FAILED tests/test_a_gate_reads_all_it_is_about.py::test_the_tests_in_which_no_assert_can_fail_are_held_by_name
      FAILED tests/test_a_gate_reads_all_it_is_about.py::test_the_vacuity_gate_reads_an_arcs_own_lock
-     4 failed, 2 passed in 2.66s
+     4 failed, 2 passed in 2.46s
 
-==== patch 4: 5ace1e6e5 -- A REPOSITORY WITH NO COMMIT IS NOT A FULL CLONE (main's unseen case U9.b, B1890; the rule of series 1). A fold
-     its 3 tests, on the commit before (dbe2e0952):
+==== patch 4: 3ed661937 -- A REPOSITORY WITH NO COMMIT IS NOT A FULL CLONE (main's unseen case U9.b, B1890; the rule of series 1). A fold
+     its 3 tests, on the commit before (1b017468a):
         E   AssertionError: read as 'full', and these gates of the table pass on a tree the commit does not hold: arrival-phrases, log-changelog-paired, path-refs, review-fires, tracked-deps, tracked-forbidden, views-fresh
         tests/test_gates_are_a_function_of_the_commit.py:163: AssertionError: read as 'full', and these gates of the table pass on a tree the commit does not hold: arrival-phrases, log-changelog-paired, path-refs, review-fires, tracked-de
         E   AssertionError: git init and no commit: read as 'full', and these gates of the table pass with nothing to look at: arrival-phrases, log-changelog-paired, path-refs, review-fires, tracked-deps, tracked-forbidden, views-fresh
@@ -71,22 +71,22 @@ each patch's own tests, run on the commit before the patch: the test files as th
      PASSED tests/test_gates_are_a_function_of_the_commit.py::test_a_repository_that_holds_a_commit_with_a_file_is_not_empty
      FAILED tests/test_gates_are_a_function_of_the_commit.py::test_a_repository_whose_commit_does_not_hold_the_gates_is_not_a_full_clone_either
      FAILED tests/test_gates_are_a_function_of_the_commit.py::test_a_repository_with_no_commit_is_not_a_full_clone_and_no_gate_of_the_table_passes_there
-     2 failed, 1 passed in 1.71s
+     2 failed, 1 passed in 1.56s
 
-==== patch 5: ba5a65b8c -- A GATE READS ALL IT IS ABOUT -- THE RETRACTION SWEEP (the seat's planted case PV17; main's own point P-154, qu
-     its 9 tests, on the commit before (5ace1e6e5):
+==== patch 5: 8f19f3131 -- A GATE READS ALL IT IS ABOUT -- THE RETRACTION SWEEP (the seat's planted case PV17; main's own point P-154, qu
+     its 9 tests, on the commit before (3ed661937):
      E   AssertionError: a phrase of an unquoted row of the registry stands on the front page, and the sweep passed: ok
-     tests/test_a_gate_reads_all_it_is_about.py:333: AssertionError: a phrase of an unquoted row of the registry stands o
+     tests/test_a_gate_reads_all_it_is_about.py:332: AssertionError: a phrase of an unquoted row of the registry stands o
      E   AssertionError: a registered phrase that no line can violate, and the sweep passed: ok
-     tests/test_a_gate_reads_all_it_is_about.py:360: AssertionError: a registered phrase that no line can violate, and th
+     tests/test_a_gate_reads_all_it_is_about.py:359: AssertionError: a registered phrase that no line can violate, and th
      E   AssertionError: a row the sweep cannot read (a_number_and_no_backticks) was passed over in silence: ok
-     tests/test_a_gate_reads_all_it_is_about.py:350: AssertionError: a row the sweep cannot read (a_number_and_no_backtic
+     tests/test_a_gate_reads_all_it_is_about.py:349: AssertionError: a row the sweep cannot read (a_number_and_no_backtic
         E   AssertionError: ['unread']
-        tests/test_a_gate_reads_all_it_is_about.py:411: AssertionError: ['unread']
+        tests/test_a_gate_reads_all_it_is_about.py:410: AssertionError: ['unread']
      E   AssertionError: the phrase without its source note passed the sweep: ok
-     tests/test_a_gate_reads_all_it_is_about.py:340: AssertionError: the phrase without its source note passed the sweep:
+     tests/test_a_gate_reads_all_it_is_about.py:339: AssertionError: the phrase without its source note passed the sweep:
         E   AssertionError: the sweep does not say what it read: ok
-        tests/test_a_gate_reads_all_it_is_about.py:398: AssertionError: the sweep does not say what it read: ok
+        tests/test_a_gate_reads_all_it_is_about.py:397: AssertionError: the sweep does not say what it read: ok
      PASSED tests/test_a_gate_reads_all_it_is_about.py::test_a_registered_phrase_in_a_numbered_row_is_swept
      FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_phrase_in_an_unquoted_row_is_swept
      FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_registered_phrase_that_can_never_fire_is_refused
@@ -96,21 +96,21 @@ each patch's own tests, run on the commit before the patch: the test files as th
      FAILED tests/test_a_gate_reads_all_it_is_about.py::test_the_note_that_ends_an_unquoted_cell_is_not_part_of_the_phrase
      FAILED tests/test_a_gate_reads_all_it_is_about.py::test_the_sweep_says_how_many_rows_it_read
      FAILED tests/test_a_gate_reads_all_it_is_about.py::test_where_a_phrase_already_stood_it_is_held_by_its_file_and_its_phrase
-     8 failed, 1 passed in 1.77s
+     8 failed, 1 passed in 1.89s
 
-==== patch 6: df3df786f -- A GATE READS ALL IT IS ABOUT -- THE CONTROLS GATE (the seat's planted case PV16). The gate checked that the fu
-     its 5 tests, on the commit before (ba5a65b8c):
+==== patch 6: 60f42fdc7 -- A GATE READS ALL IT IS ABOUT -- THE CONTROLS GATE (the seat's planted case PV16). The gate checked that the fu
+     its 5 tests, on the commit before (8f19f3131):
      E   AssertionError: a gate's control was pointed at another test with no record, and the controls gate passed: ok (53 gates with a registered failing-path test)
-     tests/test_a_gate_reads_all_it_is_about.py:489: AssertionError: a gate's control was pointed at another test with no
+     tests/test_a_gate_reads_all_it_is_about.py:488: AssertionError: a gate's control was pointed at another test with no
      E   AssertionError: a control that cannot control (a skipif mark) passed the controls gate: ok (53 gates with a registered failing-path test)
-     tests/test_a_gate_reads_all_it_is_about.py:477: AssertionError: a control that cannot control (a skipif mark) passed
+     tests/test_a_gate_reads_all_it_is_about.py:476: AssertionError: a control that cannot control (a skipif mark) passed
      E   AssertionError: every gate's control is a skipped test that asserts nothing of it, and the controls gate passed: ok (53 gates with a registered failing-path test)
-     tests/test_a_gate_reads_all_it_is_about.py:455: AssertionError: every gate's control is a skipped test that asserts 
+     tests/test_a_gate_reads_all_it_is_about.py:454: AssertionError: every gate's control is a skipped test that asserts 
         E   AssertionError: the controls gate does not say that it read the controls: ok (53 gates with a registered failing-path test)
-        tests/test_a_gate_reads_all_it_is_about.py:506: AssertionError: the controls gate does not say that it read the controls: ok (53 gates with a registered failing-path test)
+        tests/test_a_gate_reads_all_it_is_about.py:505: AssertionError: the controls gate does not say that it read the controls: ok (53 gates with a registered failing-path test)
      PASSED tests/test_a_gate_reads_all_it_is_about.py::test_a_control_whose_function_is_not_there_fails_the_controls_gate
      FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_control_pointed_at_another_test_has_left_the_register
      FAILED tests/test_a_gate_reads_all_it_is_about.py::test_a_control_that_cannot_control_is_refused_in_every_form
      FAILED tests/test_a_gate_reads_all_it_is_about.py::test_every_control_pointed_at_a_skipped_trivial_test_fails_the_controls_gate
      FAILED tests/test_a_gate_reads_all_it_is_about.py::test_on_this_repository_every_control_is_read_and_none_is_refused
-     4 failed, 1 passed in 1.45s
+     4 failed, 1 passed in 1.79s

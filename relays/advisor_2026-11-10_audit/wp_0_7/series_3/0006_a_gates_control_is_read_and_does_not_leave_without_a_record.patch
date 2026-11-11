@@ -1,6 +1,6 @@
-From df3df786f82cca71fb2b14d8361d0f4e4c20890b Mon Sep 17 00:00:00 2001
+From 60f42fdc7d8950ac8debee97219067cedbe0e653 Mon Sep 17 00:00:00 2001
 From: originaxiom <originaxiom@users.noreply.github.com>
-Date: Wed, 11 Nov 2026 20:23:39 +0000
+Date: Wed, 11 Nov 2026 21:04:49 +0000
 Subject: [PATCH 6/6] WP-0.7, enforcement (cld-advisor's series 3, patch 6;
  built on b80c68991 with series 2 applied): A GATE READS ALL IT IS ABOUT --
  THE CONTROLS GATE (the seat's planted case PV16). The gate checked that the
@@ -33,7 +33,7 @@ Subject: [PATCH 6/6] WP-0.7, enforcement (cld-advisor's series 3, patch 6;
  3 files changed, 165 insertions(+), 6 deletions(-)
 
 diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
-index 1eccd883a..33dd805b3 100644
+index b6054a74d..797432432 100644
 --- a/scripts/gates/gates.py
 +++ b/scripts/gates/gates.py
 @@ -2736,7 +2736,60 @@ def gate_carry_age():
@@ -132,10 +132,10 @@ index 1eccd883a..33dd805b3 100644
  
  
 diff --git a/tests/test_a_gate_reads_all_it_is_about.py b/tests/test_a_gate_reads_all_it_is_about.py
-index 501487024..acff031ba 100644
+index 25a0ebc22..e4dc63efb 100644
 --- a/tests/test_a_gate_reads_all_it_is_about.py
 +++ b/tests/test_a_gate_reads_all_it_is_about.py
-@@ -415,3 +415,98 @@ def test_on_this_repository_every_row_of_the_registry_is_read():
+@@ -414,3 +414,98 @@ def test_on_this_repository_every_row_of_the_registry_is_read():
      ok, detail = g.GATES["retraction-sweep"]()
      assert ok is True, detail
      assert "by name" in detail and "shorten the table" not in detail

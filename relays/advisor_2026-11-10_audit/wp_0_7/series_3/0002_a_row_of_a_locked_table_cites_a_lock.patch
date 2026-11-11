@@ -1,6 +1,6 @@
-From 96fdfac6706e59113a6e0682b13834a52969fbd8 Mon Sep 17 00:00:00 2001
+From f3b2fbc8c70be237fa0f4c89c980c793cf8ecdbf Mon Sep 17 00:00:00 2001
 From: originaxiom <originaxiom@users.noreply.github.com>
-Date: Wed, 11 Nov 2026 20:23:39 +0000
+Date: Wed, 11 Nov 2026 21:04:48 +0000
 Subject: [PATCH 2/6] WP-0.7, enforcement (cld-advisor's series 3, patch 2;
  built on b80c68991 with series 2 applied): A GATE READS ALL IT IS ABOUT --
  THE CLAIMS GATE (the seat's planted case PV20). The gate checked that a cited
@@ -10,10 +10,10 @@ Subject: [PATCH 2/6] WP-0.7, enforcement (cld-advisor's series 3, patch 2;
  now cites a lock: a file tests/.../test_*.py, which is there, as before, and
  which holds a test. Conditional, open and dead rows need none. On main 86
  rows are in the two tables and 85 cite a lock; the one that does not, P51, is
- held by name as found (main's count, and the seat's), in
- CITES_NO_LOCK_AS_FOUND, a ceiling that may only shrink: the sentence counts
- it, and says when the table can be shortened. The gate's sentence now says
- what it read. The lock: six tests added to
+ held by name as found (computed once here; main's handover names the same
+ row), in CITES_NO_LOCK_AS_FOUND, a ceiling that may only shrink: the sentence
+ counts it, and says when the table can be shortened. The gate's sentence now
+ says what it read. The lock: six tests added to
  tests/test_a_gate_reads_all_it_is_about.py; on the commit before, five fail,
  three of them because the gate passes, and the control holds. 0 of 19.
 
@@ -23,7 +23,7 @@ Subject: [PATCH 2/6] WP-0.7, enforcement (cld-advisor's series 3, patch 2;
  2 files changed, 104 insertions(+), 1 deletion(-)
 
 diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
-index e1406e296..5921c17c9 100644
+index e1406e296..c8d379fcb 100644
 --- a/scripts/gates/gates.py
 +++ b/scripts/gates/gates.py
 @@ -288,6 +288,30 @@ def gate_framing():
@@ -35,7 +35,7 @@ index e1406e296..5921c17c9 100644
 +# ("test-locked") -- and each row of the two now cites a lock: a file tests/.../test_*.py, which is there and holds a test.  One
 +# row did not on 2026-11-11.  It is held by name, as found: a ceiling that may only shrink.
 +CLAIMS_LOCKED_SECTIONS = ("## Proven", "## Certified data")
-+CITES_NO_LOCK_AS_FOUND = frozenset(("P51",))            # its evidence names two arcs' folders and no test file (main's count, and the seat's)
++CITES_NO_LOCK_AS_FOUND = frozenset(("P51",))            # its evidence names two arcs' folders and no test file (computed once here; main's handover names the same row)
 +_A_LOCK = re.compile(r"`(tests/[A-Za-z0-9_./]*test_[A-Za-z0-9_]+\.py)`")
 +
 +
@@ -83,10 +83,10 @@ index e1406e296..5921c17c9 100644
  
  # --- gate: the one-way firewall (no speculative room cited as claim evidence) -------------
 diff --git a/tests/test_a_gate_reads_all_it_is_about.py b/tests/test_a_gate_reads_all_it_is_about.py
-index 1db63d017..4cc823654 100644
+index ee471f345..e60adc7c2 100644
 --- a/tests/test_a_gate_reads_all_it_is_about.py
 +++ b/tests/test_a_gate_reads_all_it_is_about.py
-@@ -138,3 +138,66 @@ def test_what_the_framing_gate_exempts_is_held_by_name():
+@@ -137,3 +137,66 @@ def test_what_the_framing_gate_exempts_is_held_by_name():
                                  "frontier/B887_gate_audit/audit_reports.json"}
      ok, detail = g.GATES["framing"]()
      assert ok is True, detail

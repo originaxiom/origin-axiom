@@ -1,4 +1,4 @@
-commit df3df786f: 53 gates, 53 distinct controls
+commit 60f42fdc7: 53 gates, 53 distinct controls
 
 E1  the control run, no gate changed: 53 of 53 controls pass
     with the stub, the runner prints 53 PASS of 56 lines (every gate made unable to fail)

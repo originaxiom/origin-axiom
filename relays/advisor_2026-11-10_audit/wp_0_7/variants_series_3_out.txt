@@ -1,4 +1,4 @@
-variants on the series at a30a4168d
+variants on the series at 5dfd0ae59
 control: the five gates pass on the series as it stands
 t1   HOLDS  a banned phrase in a .tex under papers/: ('papers/planted_note.tex', 'the universe is a figure-eight knot')
 t2   HOLDS  in capitals in an arc's verdict file: ('frontier/B9999_planted_arc/arc_verdict.json', 'the universe is a figure-eight knot')

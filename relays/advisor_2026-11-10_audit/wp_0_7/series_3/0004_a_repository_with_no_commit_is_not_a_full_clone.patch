@@ -1,6 +1,6 @@
-From 5ace1e6e586476d9cb3d577e0a47a7d4da82f353 Mon Sep 17 00:00:00 2001
+From 3ed6619374c743a7436ddd6ccd90e4134c3c717f Mon Sep 17 00:00:00 2001
 From: originaxiom <originaxiom@users.noreply.github.com>
-Date: Wed, 11 Nov 2026 20:23:39 +0000
+Date: Wed, 11 Nov 2026 21:04:48 +0000
 Subject: [PATCH 4/6] WP-0.7, enforcement (cld-advisor's series 3, patch 4;
  built on b80c68991 with series 2 applied): A REPOSITORY WITH NO COMMIT IS NOT
  A FULL CLONE (main's unseen case U9.b, B1890; the rule of series 1). A folder
@@ -61,7 +61,7 @@ index 0f9b97985..2e956b411 100644
  
  
 diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
-index 3db69269a..c4c0cbb81 100644
+index 106fe3957..97bfa6f31 100644
 --- a/scripts/gates/gates.py
 +++ b/scripts/gates/gates.py
 @@ -43,18 +43,33 @@ def _git(*args):

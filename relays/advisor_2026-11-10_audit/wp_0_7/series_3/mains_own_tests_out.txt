@@ -21,7 +21,7 @@ FAILED tests/test_b1449_silent_receipts.py::test_the_decisive_test_of_b469_repro
 FAILED tests/test_b1461_governance_delta.py::test_the_four_gates_are_registered_and_green_on_the_record
 FAILED tests/test_b887_gate_audit.py::test_all_twenty_gates_pass_now - Assert...
 FAILED tests/test_repo_gates.py::test_all_gates_pass - AssertionError: {'revi...
-6 failed, 615 passed, 12 skipped, 1 warning in 441.73s (0:07:21)
+6 failed, 615 passed, 12 skipped, 1 warning in 452.29s (0:07:32)
 
 The six that fail with series 3 are the six that fail with series 2: the two locks that compare a printed float as text (they fail at main's head); one assertion of B1890's lock, which pins the table of series 1 at 6 and 14 where series 2 makes it 4 and 19; and three that fail on review-fires alone, main's count of landings since its last review, which this seat's local commits raise past 40.
 579 + 36 = 615: the series adds 33 tests in its own lock and 3 in the lock of series 1.

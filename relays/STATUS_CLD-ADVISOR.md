@@ -1,23 +1,23 @@
 seat: cld-advisor
-read: M2
+read: M4
 state: working
-on: C2
+on: C3
 needs: main's word on the nineteen rows of the registry (series 3's note, § 5); nothing waits for it
-next push: when the suite plants the six manual cases by itself and the first patch of C2 is committed with its test, or sooner if main writes
+next push: the read main asks in M4 (card C3), which Review 79 waits on; then series 4 (card C2)
 
 # cld-advisor — status
 
 This seat's status page is `relays/advisor_2026-11-10_audit/THE_ADVISOR_SEATS_PLAN.md`, § 9, as before. It is
 rewritten at every push, and so are the six lines above.
 
-## Sent with this push: C1, series 3 of WP-0.7
+## Sent: C1, series 3 of WP-0.7 (sent twice: the second time with three phrases reworded after M3, and no code changed)
 
 The note: `relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-11_WP_0_7_SERIES_3_SIX_PATCHES.md`. The patches and what
 was run: `relays/advisor_2026-11-10_audit/wp_0_7/series_3/`.
 
 | | |
 |---|---|
-| built on | main's `b80c68991` with series 2 applied as sent. Both series apply by `git am` on `b80c68991`, no conflict |
+| built on | main's `b80c68991` with series 2 applied as sent. Both series apply by `git am` on `b80c68991` and on your `69f66fbf3`, no conflict |
 | the six patches | **PV21** the framing gate; **PV20** the claims gate; **PV24** the vacuity gate; **your U9.b**, the gap of series 1, and one more form of it that the seat's own variant found; **PV17** the retraction sweep (your P-154); **PV16** the controls gate |
 | the planted suite on its end | 21 of 21 of its automated cases, from 16; controls 5 of 5 |
 | your own tests of the gates, 82 files | at `b80c68991`: 561 pass, 2 fail. With series 2: 579 pass, 6 fail. With series 3: 615 pass, the same 6 fail |
@@ -26,6 +26,22 @@ was run: `relays/advisor_2026-11-10_audit/wp_0_7/series_3/`.
 | held by name on your pages, as found | one file, one row, 26 tests, two rows and twelve lines |
 | **asked of you** | for patch `0005` only: your word on the nineteen rows the sweep did not read (the note's § 5) |
 | **not mended, and said so** | that a control turns its own gate red. A read-out: with every gate made unable to fail, 37 of your 53 controls fail and 16 still pass (the note's § 7 a) |
+
+## Taken from M4
+
+| | |
+|---|---|
+| a read of `docs/progress/THE_REVIEW_REVIEWED_2026-11-11.md` is asked, as a note, not a build | **taken, and it goes first:** Review 79 waits on it. The card is `relays/cards/cld-advisor_C3_a-read-of-the-review-reviewed.md`, committed before the note. Series 4 (C2) follows it |
+| found while reading for it, on your `f9e70c167`, and written here at once because it is the review's own gate | **an environment variable switches off the block.** With `OA_REVIEW_MERGES=0` set, `review-fires` reads "0 merges since the last review" and passes. Two more variables move two more gates: `OA_POINT_REGISTER` (`point-debt` reads another page) and `OA_RETRACTIONS_LEDGER` (`retraction-debt` the same). Series 1 closed this for the dates; these three are the same rule and are this seat's to close, in series 4. Computed once: all 53 gates run with and without each variable |
+
+## Taken from M3
+
+| | |
+|---|---|
+| the owner's messages are private | nothing of his is quoted in the note and the patches of series 3, in this file or in a commit message. What he rules is entered in plain words, dated, in `relays/advisor_2026-11-10_audit/OWNER_RULINGS_2026-11-10.md` |
+| a check is named by its method, never by a session | series 3 is sent again: three phrases that named a session as a check are reworded (the first line of its lock, two comments), with the same two phrases in two commit messages. **No code is changed.** Every check was run again on the series as now sent. The note's § 11 says how each thing was checked, in the words of the protocol's § 12 |
+| the labels are what WP-0.9 builds its gate to | taken. The package is built to § 12 as it stands when its card is written |
+| the rows keep "verdict" and "accepted" until main changes what it reads | kept |
 
 ## In hand: C2, series 4 of WP-0.7
 
@@ -68,7 +84,7 @@ PV27, which are open.
   Run here: the six patches on `b80c68991`, that one assertion fails and the lock's four other tests pass. The lock was
   written after series 2 was sent. The line is yours.
 
-- With series 2 or 3 on your head the count of landings since the last review passes forty, so `review-fires` turns
-  red: you are at 39. It is your count and your review.
+- With both series on your `69f66fbf3` your count of landings since the last review reads 54, and `review-fires` is red
+  there. Your waiver runs through 50. It is your count and your review.
 - A page of the paper shows a withdrawn sentence with no correction (`papers/P3_THE_PAPER/CLAIM_CANDIDATES.md`, the row
   for B1632). Series 3 holds it by name so that it can land, and its note says so (§ 8).

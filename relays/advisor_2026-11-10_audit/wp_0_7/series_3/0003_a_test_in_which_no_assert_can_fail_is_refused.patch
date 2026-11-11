@@ -1,6 +1,6 @@
-From dbe2e09522a94806952eddb03318b1e1c2f54eb8 Mon Sep 17 00:00:00 2001
+From 1b017468a680d9a3d3d2bba9339e24807dad33cc Mon Sep 17 00:00:00 2001
 From: originaxiom <originaxiom@users.noreply.github.com>
-Date: Wed, 11 Nov 2026 20:23:39 +0000
+Date: Wed, 11 Nov 2026 21:04:48 +0000
 Subject: [PATCH 3/6] WP-0.7, enforcement (cld-advisor's series 3, patch 3;
  built on b80c68991 with series 2 applied): A GATE READS ALL IT IS ABOUT --
  THE VACUITY GATE (the seat's planted case PV24). The checker listed an assert
@@ -17,14 +17,15 @@ Subject: [PATCH 3/6] WP-0.7, enforcement (cld-advisor's series 3, patch 3;
  not. One literal assert among real ones stays in the review queue, whose
  count does not move. THE GATE refuses the class, and reads every tracked
  lock: 303 test functions in 73 arcs' own files, where all four classes now
- apply and find nothing. On main the class finds 26 test functions, each read
- by this seat; they are held by name, as found, in CANNOT_FAIL_AS_FOUND, a
- ceiling that may only shrink. (Main counted 23 by a reading this seat does
- not have; three more that cannot fail call a builtin on literals and are
- outside the class, which stops at a call.) scan() returns what it always has.
- The lock: six tests added to tests/test_a_gate_reads_all_it_is_about.py, with
- eight shapes that must be refused and nine that must not; on the commit
- before, four fail, three of them because the gate passes. 0 of 19.
+ apply and find nothing. On main the class finds 26 test functions (computed
+ once; each then read once; not independently checked); they are held by name,
+ as found, in CANNOT_FAIL_AS_FOUND, a ceiling that may only shrink. (Main
+ counted 23 by a reading this seat does not have; three more that cannot fail
+ call a builtin on literals and are outside the class, which stops at a call.)
+ scan() returns what it always has. The lock: six tests added to
+ tests/test_a_gate_reads_all_it_is_about.py, with eight shapes that must be
+ refused and nine that must not; on the commit before, four fail, three of
+ them because the gate passes. 0 of 19.
 
 ---
  scripts/checks/check_test_vacuity.py       | 185 +++++++++++++++++++--
@@ -266,7 +267,7 @@ index be38ab3b5..f1982c63d 100644
      for x in no_assert:
          print("   ", x)
 diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
-index 5921c17c9..3db69269a 100644
+index c8d379fcb..106fe3957 100644
 --- a/scripts/gates/gates.py
 +++ b/scripts/gates/gates.py
 @@ -1042,6 +1042,36 @@ def locks_that_left(anchor=None, repo=None, named=None):
@@ -279,7 +280,7 @@ index 5921c17c9..3db69269a 100644
 +# literal assert among real ones stays in the review queue, as before.  The scan had read tests/ only; it now reads the arcs'
 +# own locks as well, and all four classes apply there.  The tests of this class that stood on 2026-11-11 are held by name, as
 +# found: a ceiling that may only shrink.  Mending one (an assert on something computed) takes it off this list.
-+CANNOT_FAIL_AS_FOUND = frozenset((          # 26 test functions, as found on 2026-11-11; each was read by the seat that built the class
++CANNOT_FAIL_AS_FOUND = frozenset((          # 26 test functions, as found on 2026-11-11: computed once by the checker's class, each then read once; not independently checked
 +    "tests/test_b1017_recount.py::test_the_two_closings_differ_on_both_discriminants",
 +    "tests/test_b1233_zai_audit.py::test_class_bit_is_not_our_c",
 +    "tests/test_b1233_zai_audit.py::test_two_is_inert_in_both_ends_and_splits_in_the_meeting",
@@ -339,10 +340,10 @@ index 5921c17c9..3db69269a 100644
  
  def gate_views_generated():
 diff --git a/tests/test_a_gate_reads_all_it_is_about.py b/tests/test_a_gate_reads_all_it_is_about.py
-index 4cc823654..7b3337083 100644
+index e60adc7c2..f6883d343 100644
 --- a/tests/test_a_gate_reads_all_it_is_about.py
 +++ b/tests/test_a_gate_reads_all_it_is_about.py
-@@ -55,16 +55,20 @@ def _scratch(tmp_path, files):
+@@ -54,16 +54,20 @@ def _scratch(tmp_path, files):
      return repo
  
  
@@ -366,7 +367,7 @@ index 4cc823654..7b3337083 100644
      r = subprocess.run([sys.executable, "-B", "-c", _RUN % name], cwd=str(repo), capture_output=True, text=True)
      assert r.returncode == 0, r.stderr[-800:]
      ok, detail = json.loads(r.stdout.strip().splitlines()[-1])
-@@ -201,3 +205,92 @@ def test_the_one_proven_row_without_a_lock_is_held_by_name():
+@@ -200,3 +204,92 @@ def test_the_one_proven_row_without_a_lock_is_held_by_name():
      ok, detail = g.GATES["claims"]()
      assert ok is True, detail
      assert "by name" in detail

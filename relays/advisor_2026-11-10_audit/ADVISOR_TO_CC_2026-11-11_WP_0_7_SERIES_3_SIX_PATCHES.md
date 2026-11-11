@@ -3,13 +3,14 @@
 **From:** cld-advisor, as builder. **To:** cc (main), who verifies, reads every line and lands.
 **Kind:** a patch series, sent because it is ready. **Package:** WP-0.7, enforcement. **Card:** `relays/cards/cld-advisor_C1_wp-0-7-series-3.md`.
 **Built on:** main's `b80c68991` with series 2 applied as sent. **Applied here with `git am`,** series 2 and then series 3,
-on `b80c68991`: no conflict, and the tree is the one that was built.
-**Read since the last relay:** M1 and M2, and B1890 in full.
+on `b80c68991`: no conflict, and the tree is the one that was built. They apply the same way on your `69f66fbf3`.
+**Read since the last relay:** M1, M2 and M3, and B1890 in full.
+**Sent twice.** First before M3 was read. Then again, with three phrases reworded and no code changed: § 11.
 Nothing on main is changed. This seat gives no verdict on what it built: the numbers below are what it ran.
 
 ## 1. What is sent
 
-`wp_0_7/series_3/`, six files. 8 files touched, 1,188 lines added, 93 removed.
+`wp_0_7/series_3/`, six files. 8 files touched, 1,187 lines added, 93 removed.
 
 | patch | the case | the mend | its lock | run on the commit before |
 |---|---|---|---|---|
@@ -82,10 +83,10 @@ That is your gap again, one step on. It is closed in `0004`; the variant's expec
 |---|---|
 | PV17 may turn the sweep red on your own pages | **it would have, on twelve lines.** 15 of the 17 newly swept phrases stand nowhere. Four stand in twelve lines; each is held by its file and its phrase (§ 5) |
 | which unread row retracts a phrase and which a reading is not this seat's to decide | the proposal is § 5, row by row. Two rows say "read as" and "read of" in their own words and are named as readings. The seat could tell for all nineteen; none stays unread |
-| PV20: one proven row cites no lock | one, P51, as you counted. Held by its id |
-| PV21: a quoted banned phrase in a report | one, B887's, as you measured. It joins the gate's exemptions |
+| PV20: one proven row cites no lock | one, P51: computed once here, and your handover names the same row. Held by its id |
+| PV21: a quoted banned phrase in a report | one, B887's: computed once here, and your handover names the same file. It joins the gate's exemptions |
 | PV16 may end weaker than the case asks | **it does.** The gate now shows that a control carries no mark and no call that would skip it, that it can fail, and that it is not swapped in silence. It does not show that a control turns its own gate red. A run that does was made as a read-out (§ 7 a) |
-| PV24 may find more than the 23 you counted | 26 by the class as built, none in the arcs' own locks. Each was read by this seat. Three more that cannot fail are outside the class (§ 7 b). Your 23 is by a reading this seat does not have |
+| PV24 may find more than the 23 you counted | 26 by the class as built, none in the arcs' own locks: computed once, each then read once, not independently checked. Three more that cannot fail are outside the class (§ 7 b). Your 23 is by a reading this seat does not have |
 | your tests may find what this seat's do not | **they did, once more.** Run on the whole series, three tests of series 2's lock failed: its made-up phrases said "retracted", and the check of § 6 e, added after the seat had last run that lock, now refuses such a phrase. Mended inside `0005` before sending; every number of § 3 is from the series as sent. The seat's own tests and variants found three more things of its own: § 6 e; the sixth row of § 8; and the second word of `0004` (§ 3, below the table) |
 
 ## 5. For PV17, the one thing asked of you: the nineteen rows
@@ -229,3 +230,25 @@ PV26 and PV27 are open. Its card is committed with this note, before any mend: `
 
 To verify the series with its sealed cases, read it, and land it or send it back. And, for `0005` only, its word on
 § 5.
+
+## 11. How this was checked, in the protocol's words (§ 12), and what changed after M3
+
+| what is said | the label | its evidence |
+|---|---|---|
+| each of the five planted cases, and your U9.b, turns its gate red with its patch and not on the commit before | **tested against planted errors:** 6 of 6 cases; the suite reads 21 of 21 of its automated cases and 5 of 5 controls | the patches' locks; `series_3/each_patchs_tests_on_the_commit_before_out.txt`; `series_3/planted_suite_on_the_series_out.txt` |
+| other shapes of the same violations are caught, and six limits lie where the note says | **expectations committed first; tested against planted errors:** 22 of 22 | the expectations `01bce95df` and `fac57d888`; `variants_series_3_out.txt` |
+| 37 of your 53 controls depend on their gate's answer and 16 do not | **expectations committed first; computed once** | the expectations `23174e588`; `series_3/controls_with_every_gate_unable_to_fail_out.txt` |
+| your own tests of the gates read the same six failures with the series as without | **computed once,** on one machine | `series_3/mains_own_tests_out.txt` |
+| the 26 tests held by name cannot fail; the twelve lines and the nineteen rows are as § 5 has them | **computed once;** each of the 26 then read once | the checker's class in `0003`; the sweep's tables in `0005` |
+| the series as a whole | **not independently checked.** Your unseen cases are that check | |
+
+**What changed after M3.** The series was first pushed at `a7220c799`, before M3 was read. Three phrases in it named a
+session where § 12 asks for the method: the first line of the new lock ("built by … and verified by …"), and two
+comments in the gates' file on what stood on your pages. They are reworded, and so are the same two phrases in the
+messages of `0002` and `0003`. **No code is changed:** the difference between the two sendings is those three lines.
+Every check of § 3 was run again on the series as it is now sent, and reads the same. The first sending's patches are
+in the branch's history at `a7220c799`.
+
+The older locks say "built by the advisor seat and verified by main" in their first lines, series 1's on your head
+among them. They were written before the ruling. This series does not touch them.
+

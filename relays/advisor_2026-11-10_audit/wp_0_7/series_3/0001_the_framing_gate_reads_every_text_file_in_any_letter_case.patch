@@ -1,6 +1,6 @@
-From 18ce22aa190ad3d46dfc23d062d2917c060ccaa9 Mon Sep 17 00:00:00 2001
+From 8314bc0a5686bd6bfd39dd586d3b66bb59241975 Mon Sep 17 00:00:00 2001
 From: originaxiom <originaxiom@users.noreply.github.com>
-Date: Wed, 11 Nov 2026 20:23:39 +0000
+Date: Wed, 11 Nov 2026 21:04:48 +0000
 Subject: [PATCH 1/6] WP-0.7, enforcement (cld-advisor's series 3, patch 1;
  built on b80c68991 with series 2 applied): A GATE READS ALL IT IS ABOUT --
  THE FRAMING GATE (the seat's planted case PV21). The gate read three kinds of
@@ -24,8 +24,8 @@ Subject: [PATCH 1/6] WP-0.7, enforcement (cld-advisor's series 3, patch 1;
 
 ---
  scripts/gates/gates.py                     |  47 +++++--
- tests/test_a_gate_reads_all_it_is_about.py | 140 +++++++++++++++++++++
- 2 files changed, 178 insertions(+), 9 deletions(-)
+ tests/test_a_gate_reads_all_it_is_about.py | 139 +++++++++++++++++++++
+ 2 files changed, 177 insertions(+), 9 deletions(-)
  create mode 100644 tests/test_a_gate_reads_all_it_is_about.py
 
 diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
@@ -109,12 +109,11 @@ index 60ce11bd3..e1406e296 100644
  # --- gate: claims-ledger integrity --------------------------------------------------------
 diff --git a/tests/test_a_gate_reads_all_it_is_about.py b/tests/test_a_gate_reads_all_it_is_about.py
 new file mode 100644
-index 000000000..1db63d017
+index 000000000..ee471f345
 --- /dev/null
 +++ b/tests/test_a_gate_reads_all_it_is_about.py
-@@ -0,0 +1,140 @@
-+"""A gate reads all it is about, and what it does not read it says (the closure programme's WP-0.7, series 3; built by the
-+advisor seat and verified by main).
+@@ -0,0 +1,139 @@
++"""A gate reads all it is about, and what it does not read it says (the closure programme's WP-0.7, series 3).
 +
 +The seat's planted cases PV16, PV17, PV20, PV21 and PV24.  Five gates passed because each read less than it is about: three
 +kinds of file of many, two shapes of row of three, a control's name and not the control, a cited lock and not whether one is

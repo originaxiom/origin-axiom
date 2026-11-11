@@ -1,4 +1,4 @@
-planted-violation suite at refs/wp07/s3etip (a30a4168d)
+planted-violation suite at refs/wp07/s3ftip (5dfd0ae59)
 
 CTL1  G1   CAUGHT        an UNCOMMITTED replacement of PROGRESS_LOG.md
       append-only=FAIL
