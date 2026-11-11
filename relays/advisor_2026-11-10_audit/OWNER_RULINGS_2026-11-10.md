@@ -309,6 +309,26 @@ only on the owner's word:
 Done, sealed before the run: `principle_top_down/attacks_B_to_E/`. Its result puts two questions to the owner (what a
 ground is; what clause 8 means) and rules on neither.
 
+## 2026-11-11: the owner on his own rulings, and six items (said to this seat; not a ruling for main)
+
+The owner asked this seat what it could do, and then:
+
+> "also anqueation, are my own rulings my own traps? because i believe some of the things either are what they are or
+> smth else, agnostic of my opinion or ruling"
+
+The seat answered with a list of six things it could do and proposed a rule in four points (both are in
+`rulings_sorted/THE_RULINGS_SORTED.md`, § 5). The owner's answer, whole:
+
+> "i agree, do all on hour proposed list and inform main"
+
+- **What it settles for this seat:** the six items are done or handed over (`ADVISOR_TO_CC_2026-11-11_SIX_ITEMS.md`).
+- **What it does not settle:** the four points are not a ruling for main until the owner confirms them to main
+  (P-768). The seat relays his words and asks main to put the four points to him.
+- **Its kind, by the proposed rule itself:** a practice, which is his to set.
+- **What it says about this file:** the seat headed seventeen of his answers "rulings" and put questions of fact to
+  him as choices. Two of those became suppositions in main's record within a day ("the tick is an act"; "a ground is
+  the act itself"). Point 4 of the rule binds this seat first.
+
 ## The roles
 
 The owner, the same day: this seat "will serve as an advisor for cc - the banking seat"; when cc is ready the reports

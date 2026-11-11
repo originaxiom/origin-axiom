@@ -136,7 +136,7 @@ number in the arc's computation (in a scratch copy) and run its lock. The lock m
 
 | Finding | Accepted when |
 |---|---|
-| V1 | The census is extended in Im τ until fewer than 1% of random targets have their best fit on a boundary row, or the band is priced in the null; rarities are re-read under one counted look. |
+| V1 | The census is extended in Im τ until fewer than 1% of random targets have their best fit on a boundary row, or the band is priced in the null; rarities are re-read under one counted look. **2026-11-11: replaced by rows V1-a and V1-b of § 15.** This row measured the wrong population: with rows drawn evenly a fifteenth of all random targets sit on each end, so no finite window could meet it. |
 | V2 | One uncertainty model per quantity, stated before the fit. Any floor is in the headline beside the χ². |
 | V3 | Every number cited as evidence has its script and output in tracked files, or is marked "untracked, not reproducible". |
 | V4 | B1841 re-graded with the end-condition menu priced as a family (or with the late entry excluded) and with the plan's c arms; the scoreboard row does not say "nothing fitted". |
@@ -232,5 +232,18 @@ for the plain cases. These rows are their residuals.
 | Item | Accepted when | Planted case |
 |---|---|---|
 | ATTR-a | The attribution gate reads every commit reachable from the tip after the rule's first commit, or refuses a merge commit on the line. | A side-branch commit with a vendor's co-author trailer, merged in with a clean message (re-audit 4, c3); and one by another author (c4): each refused. |
-| ARR-a | The words that excuse a sentence of arrival are matched as whole words. | "We claim that the Standard Model is derived." on the front page (r2): refused. |
+| ARR-a | The words that excuse a sentence of arrival are matched as whole words. **2026-11-11, later: "whole words" was this seat's, and too strict.** Writing the mend showed that "aims", "goals" and "wouldn't" would then stop excusing an honest sentence. Accepted when the words are matched from the start of a word, with the longer words that assert ("nonetheless", "nevertheless") excepted: `patches_for_main/`. | "We claim that the Standard Model is derived." on the front page (r2): refused. |
 | ARR-b | The gate for a sentence of arrival reads the papers' sources and the folders below `docs/`. | The plain sentence in a tracked `.tex` file (r5) and on a page below `docs/` (r6): each refused. |
+
+## 15. V1 by a sealed card; a read-out on the whole; the kinds of ruling (added 2026-11-11, with the six items)
+
+Sources: `card_V1/PREREGISTRATION.md` (sealed before either of its stages ran); `ACCEPTANCE_FOR_THE_READ_OUT_ON_THE_WHOLE.md`;
+`rulings_sorted/THE_RULINGS_SORTED.md`.
+
+| Item | Accepted when | Planted case, or where it is fixed |
+|---|---|---|
+| V1-a | The card's second stage, the null, is run by main, its outputs committed unread and then read once; or main refuses it and says why. The seat that made the claim does not run it. | The card, § 10. Its first stage (planted controls, no random target) is this seat's and is run. |
+| V1-b | Each decisive cell is acted on as the card fixed before any number. **A:** the census is extended at that end until the new end reads B or C; a re-read of a rarity is then one counted look, under the owner's hold. **B:** each quoted rarity names its window, and the window's two ends are listed as a choice. **C:** nothing. | The card, § 6. |
+| READ-a | A design for a read-out on the whole meets the eight conditions R1 to R8 before any number exists, and is read against them by a seat that did not write it. | That page, § 3 and § 5 (four planted failures). |
+| RUL-a | *If the owner confirms the rule to main.* Every ruling in the programme's source carries its kind (a decision; what the owner means; a supposition). A supposition carries its tag and what would decide it, and the arcs built on it say "given X". | A supposition entered with no kind: the builder refuses it. |
+| RUL-b | *The same condition.* No option on a question of fact is put to the owner marked as recommended. A seat may ask which branch to work first. | — |

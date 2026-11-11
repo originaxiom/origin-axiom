@@ -1,0 +1,51 @@
+re-audit 4: plants at dc77650a1 
+
+clean tree: arrival-phrases    PASS  ok (3 on living pages, baseline 3)
+clean tree: attribution        PASS  ok (701 commit(s) since da25c4f49 read: each by originaxiom, no vendor token and no co-author trailer in its message)
+clean tree: closure-generated  PASS  ok
+
+r1   CAUGHT      README.md <- 'The Standard Model is derived.'
+       arrival-phrases    FAIL  4 sentence(s) of arrival on living pages (baseline 3): README.md: the standard model is derived x1; docs/CLOSURE_MASTERPLAN.md: derived the standard model x1; docs/THE_STATE_2026-09-06.md: derives the standard 
+       expected by the seat before running: caught (the audit's own planted sentence)
+r2   CAUGHT      README.md <- 'We claim that the Standard Model is derived.'
+       arrival-phrases    FAIL  4 sentence(s) of arrival on living pages (baseline 3): README.md: the standard model is derived x1; docs/CLOSURE_MASTERPLAN.md: derived the standard model x1; docs/THE_STATE_2026-09-06.md: derives the standard 
+       expected by the seat before running: NOT caught: the list of words that excuse a sentence holds 'aim', and 'claim' contains it
+r3   NOT CAUGHT  README.md <- 'Nothing stands in the way now. The Standard Model is derived.'
+       arrival-phrases    PASS  ok (3 on living pages, baseline 3)
+       expected by the seat before running: NOT caught: 'Nothing' stands within the window before the phrase
+r4   NOT CAUGHT  README.md <- 'All nineteen parameters now follow from the object with no free input.'
+       arrival-phrases    PASS  ok (3 on living pages, baseline 3)
+       expected by the seat before running: NOT caught: other words (main discloses this limit)
+r5   CAUGHT      papers/P10_theta_triplet_note/tex/main.tex <- 'The Standard Model is derived.'
+       arrival-phrases    FAIL  4 sentence(s) of arrival on living pages (baseline 3): docs/CLOSURE_MASTERPLAN.md: derived the standard model x1; docs/THE_STATE_2026-09-06.md: derives the standard model x1; docs/WHAT_WOULD_COUNT.md: is a theo
+       expected by the seat before running: NOT caught: the gate reads the root pages and docs/*.md only
+r6   CAUGHT      docs/handoffs/PLANTED_NOTE.md <- 'The Standard Model is derived.'
+       arrival-phrases    FAIL  4 sentence(s) of arrival on living pages (baseline 3): docs/CLOSURE_MASTERPLAN.md: derived the standard model x1; docs/THE_STATE_2026-09-06.md: derives the standard model x1; docs/WHAT_WOULD_COUNT.md: is a theo
+       expected by the seat before running: NOT caught: a folder below docs/ is not read
+c1   CAUGHT      a commit on the line whose message carries a co-author trailer naming a vendor
+       attribution        FAIL  ['56ca70eb6: a vendor token in the commit message', '56ca70eb6: a co-author trailer in the commit message']
+       expected by the seat before running: caught
+c2   CAUGHT      a commit on the line by another author
+       attribution        FAIL  ['last-commit author: someone-else', "73bd5e5e1: authored by 'someone-else', not originaxiom"]
+       expected by the seat before running: caught
+c3   CAUGHT      the same trailer on a commit of a side branch, merged into the line with a clean message
+       attribution        FAIL  ['8eaa96091: a vendor token in the commit message', '8eaa96091: a co-author trailer in the commit message']
+       expected by the seat before running: NOT caught: the gate reads the first-parent line, and the trailer is on the second parent's side
+c4   CAUGHT      a commit by another author on a side branch, merged into the line
+       attribution        FAIL  ["0790a7113: authored by 'someone-else', not originaxiom"]
+       expected by the seat before running: NOT caught, for the same reason
+g1   CAUGHT      one count on the generated programme page changed by hand
+       closure-generated  FAIL  frontier/B1861_the_closure_programme/PROGRAMME.md is not its builder's output (run verification/build_programme.py --write)
+       expected by the seat before running: caught
+g2   CAUGHT      one node's grade changed by hand in the generated map (the orientation choice typed DERIVED)
+       closure-generated  FAIL  frontier/B1858_the_closure_map/NODES.json is not its builder's output (run verification/build_map.py --write); the closure programme's builder refuses: WP-1.4 names a node that needs no closure path: G:SE2 (DER
+       expected by the seat before running: caught
+
+p1   CAUGHT      a new page states: 'The premise at level 5 is a charge (invisibility to every state), and nothing more need be said.'
+       the lock: 1 failed in 4.19s
+       expected by the seat before running: caught: the old form in the lock's own words, with no correction beside it
+p2   NOT CAUGHT  a new page states: 'The premise at level 5 is a charge, which no state of any kind can detect.'
+       the lock: 1 passed in 4.15s
+       expected by the seat before running: NOT caught: the same old claim in other words
+
+clone reset to dc77650a1 | clean: True

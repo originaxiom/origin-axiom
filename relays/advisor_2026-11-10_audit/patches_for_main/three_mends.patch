@@ -1,0 +1,398 @@
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index c9f730c14..b31d4396e 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -337,7 +337,9 @@ def attribution_history_problems(repo, root, limit=5):
+         return [f"cannot verify: the commit the attribution rule is read from, {root[:9]}, is not in this clone (shallow or partial)"], 0
+     if git("merge-base", "--is-ancestor", root, "HEAD").returncode != 0:
+         return [f"cannot verify: HEAD does not descend from {root[:9]}, the commit the attribution rule is read from"], 0
+-    out = git("log", "--first-parent", "--format=%H%x00%an%x00%B%x01", f"{root}..HEAD").stdout
++    # Every commit reachable from the tip and not from `root`, a merged side branch's commits included (the advisor seat's
++    # re-audit 4, cases c3 and c4): the first-parent line alone leaves what a merge brings in unread.
++    out = git("log", "--format=%H%x00%an%x00%B%x01", f"{root}..HEAD").stdout
+     problems, n = [], 0
+     for rec in out.split("\x01"):
+         if "\x00" not in rec:
+@@ -1281,6 +1283,60 @@ ARTIFACT_HASHES_BROKEN = frozenset((          # 63 entries, as found on 2026-11-
+     "cb74650a43c6", "d8ef558d9c73", "da15d6f062e9", "e129fe00f880", "e2df6ca12f6c", "e3b1af50cac7", "e7a0d80c61dc", "e7a0e6996e21",
+     "e8640674a562", "ed75482fbcf7", "ed90ccc5013d", "ef83de39507e", "efc217e26982", "f86e2456f4e8", "ffbed605bc39",
+ ))
++# HOW A LISTED NAME IS READ (the advisor seat's re-audit 3, case t3).  A name that starts with one of the repository's top-level
++# folders is read from the root and nowhere else; any other name is read beside its list, or in the list's verification folder,
++# and never from the root.  Every one of the 1497 entries of 2026-11-11 is read the same way under this rule as before it.
++# Before, the gate took the first of three places that held a tracked file, so a copy with the sealed content, added beside a list
++# that names a file from the root, was read in place of the real file.  The folders are a fixed list: a list computed from the
++# tree could be changed by adding a folder.  A name that both rules could claim is refused as AMBIGUOUS.
++ARTIFACT_ROOT_FOLDERS = ("core", "docs", "frontier", "knowledge", "legacy", "outside_bench", "packaging", "papers", "paths",
++                         "philosophy", "scripts", "speculations", "src", "story", "tests")
++# WHAT A FROZEN ENTRY HOLDS (re-audit 3, case t4).  The 63 keys above are made of the list, the name and the RECORDED hash, so a
++# frozen file could be changed again unseen.  For each frozen entry whose file is tracked, the first 16 hex digits of the file's
++# sha256 as it stood when this table was written (3e25c8ec3) are held here; a further change is a new mismatch.
++ARTIFACT_HASHES_BROKEN_AS_FOUND = {
++    "02ea635d28e4": "7b5f2ff77c4b0044",
++    "06458ed7c5bb": "aa8bb67d455f2afe",
++    "0f676ba0859b": "ebcf9aab48d0c890",
++    "1425dd14fa31": "e8bf122371c34f6b",
++    "21b857462e0d": "eda33b8d4048ac01",
++    "25732c881109": "efc8c2a241b39887",
++    "35c825435176": "1bf08038bc4450cd",
++    "364bd75c9f7c": "60e48d21ce147aa1",
++    "4496610d521a": "7506a1851a55eea8",
++    "46b056c1d0cd": "16fc24457ca399bb",
++    "5016a52c4e0c": "cdfbffa8cbaa522b",
++    "5ce1a4764092": "aff4e027108dfc32",
++    "68f916e3c6ff": "88e3cf7ac3de76c6",
++    "6c6c1c530bd1": "d6c19a3bd5811251",
++    "6d730200be1c": "c2a570f0b40bc2fb",
++    "6ebd8e4c93f4": "7f440f5a45b1007d",
++    "6fc7e0fe470f": "9e68d659d66f41e2",
++    "740cbb6a1698": "6e65917ae19fb11e",
++    "756fcc1dfcbc": "6b4b1182b458ce79",
++    "761da67ed455": "adc59a7885ca6c0e",
++    "7f11b8227c1b": "4748ccdbaa6e0a45",
++    "93a1fa13ed35": "8b38120e73776063",
++    "96d7ceb60570": "d64c48cb6ee688f0",
++    "9d9af43f0d7a": "f2ecb7c0eb59476c",
++    "a1b557f176e6": "c6b7139d42336ab2",
++    "b0784290c658": "cdfbffa8cbaa522b",
++    "b08f5c13fb89": "43800eeb49cfa9a7",
++    "b172cca70c9d": "6e79e480cfa9973a",
++    "b1ee7bcab53b": "65d895c908d1c6f1",
++    "c40fd50bc5f9": "9e0070ab7ffed536",
++    "c4c204301962": "df3af299df4d2c94",
++    "c74fc59dcb91": "82d5cd62c8049b65",
++    "d8ef558d9c73": "a5ff359c4dc532b9",
++    "e129fe00f880": "086dd6db336e0a28",
++    "e2df6ca12f6c": "40435d82631a5e5e",
++    "e3b1af50cac7": "c4f5f1497d93f1f1",
++    "e7a0e6996e21": "0c545f5019398bf9",
++    "ed75482fbcf7": "4f710db8f92a6ce2",
++    "ed90ccc5013d": "bb54c8fb79e241b1",
++    "ef83de39507e": "dbf7e40c86b7a0ae",
++    "f86e2456f4e8": "c6b7139d42336ab2",
++}
+ ARTIFACT_HASHES_IMMUTABLE_FROM = "270a27ee6c500c4f883cdd6a0e33558b89b71e5a"     # the rule is read in history from this commit on (2026-11-10)
+ ARTIFACT_HASHES_WAIVED = {}                                                # (full sha, path) -> the owner's reason
+ # A disclosed amendment after this rule: the changed file's new hash goes into a NEW list beside the old one, and the old entry's
+@@ -1302,8 +1358,9 @@ def _hash_list_entry(line):
+ 
+ def artifact_hash_state(repo=None):
+     """Every entry of every tracked list of hashed files under `repo`: a list of (key, list path, name, state), or None where
+-    the tracked files cannot be listed.  state is VERIFIES, MISMATCH, NOT TRACKED, ABSENT or NO NAME.  A name is looked for
+-    beside its list first, then in the list's verification folder, then from the repository's root."""
++    the tracked files cannot be listed.  state is VERIFIES, MISMATCH, NOT TRACKED, ABSENT, NO NAME or AMBIGUOUS.  A name that
++    starts with one of ARTIFACT_ROOT_FOLDERS is read from the repository's root; any other name beside its list or in the
++    list's verification folder.  A second tracked file where the name could also be read makes the entry AMBIGUOUS."""
+     repo = str(repo or ROOT)
+     r = subprocess.run(["git", "-C", repo, "ls-files"], capture_output=True, text=True, timeout=120)
+     if r.returncode != 0:
+@@ -1325,8 +1382,17 @@ def artifact_hash_state(repo=None):
+             if name is None:
+                 out.append((key, lst, name, "NO NAME"))
+                 continue
+-            cands = [os.path.normpath(os.path.join(d, name)), os.path.normpath(os.path.join(d, "verification", name)), os.path.normpath(name)]
+-            hit = next((c for c in cands if c in tracked), None)
++            beside = [os.path.normpath(os.path.join(d, name)), os.path.normpath(os.path.join(d, "verification", name))]
++            from_root = os.path.normpath(name)
++            if "/" in name and name.split("/")[0] in ARTIFACT_ROOT_FOLDERS:
++                cands, other = [from_root], [c for c in beside if c in tracked and c != from_root]
++            else:
++                cands, other = beside, []
++            present = [c for c in dict.fromkeys(cands) if c in tracked]
++            if other or len(present) > 1:
++                out.append((key, lst, name, "AMBIGUOUS"))        # a second tracked file stands where this name could also be read
++                continue
++            hit = present[0] if present else None
+             if hit is None:
+                 on_disk = any(os.path.exists(os.path.join(repo, c)) for c in cands)
+                 out.append((key, lst, name, "NOT TRACKED" if on_disk else "ABSENT"))
+@@ -1367,7 +1433,7 @@ def hash_lists_immutable_problems(repo, root, waived=(), limit=5):
+     return problems[:limit], len(commits)
+ 
+ 
+-def gate_artifact_hashes(_repo=None, _frozen=None, _root=None, _waived=None, _amended=None):
++def gate_artifact_hashes(_repo=None, _frozen=None, _root=None, _waived=None, _amended=None, _as_found=None):
+     """What a seal hashed still has the hash the seal recorded, and the record of the hashes does not change (see the note above)."""
+     repo = _repo or ROOT
+     frozen = ARTIFACT_HASHES_BROKEN if _frozen is None else _frozen
+@@ -1377,6 +1443,15 @@ def gate_artifact_hashes(_repo=None, _frozen=None, _root=None, _waived=None, _am
+         return False, "cannot verify: the tracked files cannot be listed (not a git repository)"
+     broken = [(k, lst, name, st) for (k, lst, name, st) in state if st != "VERIFIES"]
+     new = [(k, lst, name, st) for (k, lst, name, st) in broken if k not in frozen and k not in amended]
++    as_found = _as_found if _as_found is not None else (ARTIFACT_HASHES_BROKEN_AS_FOUND if _frozen is None else {})
++    for (k, lst, name, st) in broken:
++        if st == "MISMATCH" and k in frozen and k in as_found:
++            try:
++                now = hashlib.sha256(open(os.path.join(str(repo), name), "rb").read()).hexdigest()[:16]
++            except OSError:
++                now = ""
++            if now != as_found[k]:
++                new.append((k, lst, name, "CHANGED AGAIN since it was frozen"))
+     if new:
+         return False, "; ".join(f"{name or '(no name)'}: {st} against {lst}" for (k, lst, name, st) in new[:5]) + (
+             f" (+{len(new) - 5} more)" if len(new) > 5 else "") + " -- a file a seal hashed has changed, or a list names what is not there"
+@@ -2184,6 +2259,16 @@ ARRIVAL_PHRASES = ("the standard model is derived", "the standard model has been
+ ARRIVAL_NEGATION = PRETENSE_NEGATION + ("none", "nothing", "0 of 19", "neither", "nor ", "cannot", "would", "whether", "if ", "until", "goal", "aim", "seek", "sought", "to be ")
+ ARRIVAL_EXEMPT = PRETENSE_EXEMPT + ("GOVERNANCE.md", "docs/README_HISTORY.md", "docs/POINT_REGISTER.md", "docs/LEAD_REGISTER.md", "docs/OPEN_LEADS.md",
+                                     "docs/LOOK_LEDGER.md", "docs/FAILURE_ATLAS.md")      # the page that states the rule; dated history; registers that quote what was said
++# The excusing words are matched from the START of a word (the advisor seat's re-audit 4, case r2).  Matched as pieces, "aim"
++# excused "We claim that the Standard Model is derived", "nor " excused "minor", "if " excused "motif".  A word may still run
++# on, so that "aims", "goals", "seeking" and "wouldn't" excuse as before; two may not, because the longer word asserts:
++# "none" does not excuse through "nonetheless", nor "never" through "nevertheless".  A trailing space in the list is kept.
++ARRIVAL_NEGATION_WHOLE = ("none", "never")
++_ARRIVAL_NEG_RE = re.compile("|".join(r"(?<![a-z0-9])" + re.escape(_t.lstrip()) + (r"(?![a-z0-9])" if _t.strip() in ARRIVAL_NEGATION_WHOLE else "")
++                                      for _t in sorted(set(ARRIVAL_NEGATION), key=len, reverse=True)))
++# The reach (re-audit 4, cases r5 and r6): the root pages and docs/*.md, and also the folders below docs/ and the papers'
++# sources.  Measured at 3e25c8ec3 before widening: no sentence of arrival in any of the 397 added files.
++ARRIVAL_REACH = (("docs", "*.md"), ("", "*.md"), ("docs", "**/*.md"), ("papers", "**/*.tex"), ("papers", "**/*.md"))
+ ARRIVAL_BASELINE = 3      # frozen at B1878 (2026-11-11), may only shrink: a plan of 2026-07-24 ("the program derived the Standard Model's
+                           # grammar"), a dated state page ("derives the Standard Model's gauge skeleton ... and derives none of its numbers"),
+                           # and the owner's question of 2026-08-09, quoted ("... that our program is a theory of everything ...")
+@@ -2192,7 +2277,7 @@ ARRIVAL_BASELINE = 3      # frozen at B1878 (2026-11-11), may only shrink: a pla
+ def arrival_hits(root=None):
+     import glob
+     root = str(root or ROOT); hits = []
+-    files = sorted(glob.glob(os.path.join(root, "docs", "*.md")) + glob.glob(os.path.join(root, "*.md")))
++    files = sorted({f for d, pat in ARRIVAL_REACH for f in glob.glob(os.path.join(root, d, pat), recursive=True)})
+     for f in files:
+         rel = os.path.relpath(f, root)
+         if rel in ARRIVAL_EXEMPT: continue
+@@ -2201,7 +2286,7 @@ def arrival_hits(root=None):
+             n = 0
+             for m in re.finditer(re.escape(p), low):
+                 window = " " + re.sub(r"\s+", " ", low[max(0, m.start() - 64):m.start()])       # a denial may open a line or a file
+-                if any(neg in window for neg in ARRIVAL_NEGATION): continue          # a denial, a condition or a statement of aim is not arrival
++                if _ARRIVAL_NEG_RE.search(window): continue          # a denial, a condition or a statement of aim is not arrival
+                 n += 1
+             if n: hits.append((rel, p, n))
+     return hits
+diff --git a/tests/test_three_mends_after_the_reaudits.py b/tests/test_three_mends_after_the_reaudits.py
+new file mode 100644
+index 000000000..93b5791b8
+--- /dev/null
++++ b/tests/test_three_mends_after_the_reaudits.py
+@@ -0,0 +1,224 @@
++"""Three mends to three gates, proposed by the advisor seat after its re-audits 3 and 4 (2026-11-11).
++
++Each case below was planted by that seat on main and passed the gate as it stood:
++    t3   a copy with the sealed content, placed where the gate looked first, let the real file change unseen
++    t4   a file whose mismatch was frozen by key could change again
++    r2   "We claim that the Standard Model is derived." was excused, because "claim" contains "aim"
++    r5   a sentence of arrival in a paper's source was not read
++    r6   a sentence of arrival on a page in a folder below docs/ was not read
++    c3   a co-author trailer on a commit that arrives by a merge was not read
++    c4   another author's commit that arrives by a merge was not read
++Each test builds a small repository or a page, plants the case, and runs the gate."""
++import hashlib
++import importlib.util
++import pathlib
++import subprocess
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++ARC = "frontier/B9002_a_sealed_run"
++SCRIPT = ARC + "/verification/census.py"
++LIST = ARC + "/ARTIFACT_HASHES.txt"
++ELSEWHERE = "frontier/B9001_an_instrument/verification/tool.py"
++CODE = "THRESHOLD = 5\nprint('the count is at most', THRESHOLD)\n"
++
++
++def _gates():
++    spec = importlib.util.spec_from_file_location("gates_for_three_mends", ROOT / "scripts" / "gates" / "gates.py")
++    g = importlib.util.module_from_spec(spec)
++    spec.loader.exec_module(g)
++    return g
++
++
++def _git(repo, *a, author="originaxiom"):
++    r = subprocess.run(["git", "-C", str(repo), "-c", "user.name=" + author, "-c", "user.email=x@example.invalid", *a], capture_output=True, text=True)
++    assert r.returncode == 0, r.stderr
++    return r.stdout.strip()
++
++
++def _write(repo, rel, body):
++    f = repo / rel
++    f.parent.mkdir(parents=True, exist_ok=True)
++    f.write_text(body, encoding="utf-8")
++    _git(repo, "add", rel)
++
++
++def _sha(text):
++    return hashlib.sha256(text.encode("utf-8")).hexdigest()
++
++
++def _repo(tmp_path, name="r"):
++    repo = tmp_path / name
++    repo.mkdir()
++    _git(repo, "init", "-q", "-b", "main")
++    _write(repo, "a.txt", "0 " + name + "\n")
++    _git(repo, "commit", "-q", "-m", "the first commit of " + name)
++    return repo, _git(repo, "rev-parse", "HEAD")
++
++
++def _gate(g, repo, root, frozen=frozenset(), as_found=None):
++    return g.gate_artifact_hashes(_repo=repo, _frozen=frozen, _root=root, _waived={}, _amended={}, _as_found=as_found)
++
++
++# ---------------------------------------------------------------- the hashed scripts: how a listed name is read
++def test_t3_a_copy_beside_the_list_does_not_stand_in_for_the_real_file(tmp_path):
++    g = _gates()
++    repo, root = _repo(tmp_path)
++    _write(repo, ELSEWHERE, CODE)
++    _write(repo, LIST, "%s  %s\n" % (_sha(CODE), ELSEWHERE))                       # the list names a file from the repository's root
++    _git(repo, "commit", "-q", "-m", "the seal")
++    ok, why = _gate(g, repo, root)
++    assert ok and "1 entries in 1 lists: 1 verify" in why, why
++    _write(repo, ELSEWHERE, CODE.replace("THRESHOLD = 5", "THRESHOLD = 50"))       # the real file changes ...
++    _write(repo, ARC + "/" + ELSEWHERE, CODE)                                      # ... and a copy with the sealed content is put beside the list
++    _git(repo, "commit", "-q", "-m", "the instrument changed, with a copy of the old one where the gate looked first")
++    assert [st for (_, _, _, st) in g.artifact_hash_state(repo)] == ["AMBIGUOUS"]
++    ok, why = _gate(g, repo, root)
++    assert not ok and "AMBIGUOUS" in why, why
++    _git(repo, "rm", "-q", ARC + "/" + ELSEWHERE)
++    _git(repo, "commit", "-q", "-m", "the copy removed")
++    ok, why = _gate(g, repo, root)
++    assert not ok and "MISMATCH" in why and "tool.py" in why, why                  # without the copy the change shows
++
++
++def test_a_name_is_read_one_way(tmp_path):
++    """a name that starts with a top-level folder is read from the root; any other name beside its list, and never from the root"""
++    g = _gates()
++    repo, root = _repo(tmp_path)
++    _write(repo, SCRIPT, CODE)
++    _write(repo, LIST, "%s  verification/census.py\n" % _sha(CODE))
++    _git(repo, "commit", "-q", "-m", "the seal")
++    assert [(name, st) for (_, _, name, st) in g.artifact_hash_state(repo)] == [(SCRIPT, "VERIFIES")]
++    _git(repo, "rm", "-q", SCRIPT)
++    _write(repo, "verification/census.py", CODE)                                   # the hashed file is gone from its place; its content stands at the root
++    _git(repo, "commit", "-q", "-m", "the hashed file moved to the root")
++    assert [st for (_, _, _, st) in g.artifact_hash_state(repo)] == ["ABSENT"]
++
++
++def test_every_entry_of_this_repository_is_read_without_ambiguity():
++    g = _gates()
++    state = g.artifact_hash_state()
++    assert len(state) >= 1497 and not [e for e in state if e[3] == "AMBIGUOUS"]
++    tops = {f.split("/")[0] for f in subprocess.run(["git", "-C", str(ROOT), "ls-files"], capture_output=True, text=True).stdout.split("\n") if "/" in f}
++    assert set(g.ARTIFACT_ROOT_FOLDERS) <= tops                                    # every folder the rule names exists
++
++
++# ---------------------------------------------------------------- the hashed scripts: what a frozen entry holds
++def test_t4_a_frozen_file_that_changes_again_is_refused(tmp_path):
++    g = _gates()
++    repo, root = _repo(tmp_path)
++    _write(repo, SCRIPT, CODE)
++    _write(repo, LIST, "%s  verification/census.py\n" % _sha(CODE))
++    _git(repo, "commit", "-q", "-m", "the seal")
++    changed = CODE.replace("THRESHOLD = 5", "THRESHOLD = 50")
++    _write(repo, SCRIPT, changed)
++    _git(repo, "commit", "-q", "-m", "changed after the seal; found later, and frozen as found")
++    (key, _lst, _name, st), = g.artifact_hash_state(repo)
++    assert st == "MISMATCH"
++    frozen, as_found = frozenset({key}), {key: _sha(changed)[:16]}
++    ok, why = _gate(g, repo, root, frozen, as_found)
++    assert ok, why                                                                 # frozen as found: it passes
++    _write(repo, SCRIPT, changed.replace("THRESHOLD = 50", "THRESHOLD = 500"))
++    _git(repo, "commit", "-q", "-m", "and changed once more")
++    ok, why = _gate(g, repo, root, frozen, as_found)
++    assert not ok and "CHANGED AGAIN since it was frozen" in why, why
++    ok, why = _gate(g, repo, root, frozen, {})                                     # without the table the second change is not seen: the gap
++    assert ok, why
++
++
++def test_the_frozen_entries_of_this_repository_stand_as_found():
++    g = _gates()
++    state = {k: (name, st) for (k, _lst, name, st) in g.artifact_hash_state()}
++    for k, h in g.ARTIFACT_HASHES_BROKEN_AS_FOUND.items():
++        assert k in g.ARTIFACT_HASHES_BROKEN and state[k][1] == "MISMATCH", k
++        assert hashlib.sha256((ROOT / state[k][0]).read_bytes()).hexdigest()[:16] == h, state[k][0]
++    assert {k for k, (_n, st) in state.items() if st == "MISMATCH" and k in g.ARTIFACT_HASHES_BROKEN} == set(g.ARTIFACT_HASHES_BROKEN_AS_FOUND)
++    ok, why = g.gate_artifact_hashes()
++    assert ok, why
++
++
++# ---------------------------------------------------------------- a sentence of arrival: the excusing words, and the reach
++def _page(tmp_path, text, name="README.md"):
++    (tmp_path / "docs").mkdir(exist_ok=True)
++    f = tmp_path / name
++    f.parent.mkdir(parents=True, exist_ok=True)
++    f.write_text(text, encoding="utf-8")
++    return tmp_path
++
++
++def test_r2_a_word_that_only_contains_an_excusing_word_does_not_excuse(tmp_path):
++    g = _gates()
++    for sentence in ("We claim that the Standard Model is derived.",               # "aim" in "claim"
++                     "A minor point: the Standard Model is derived.",              # "nor " in "minor "
++                     "The motif is plain: the values are derived.",                # "if " in "motif "
++                     "Nonetheless the Standard Model is derived.",                 # "none" in "nonetheless"
++                     "Nevertheless, the values are derived."):                     # "never" in "nevertheless"
++        assert g.arrival_hits(_page(tmp_path, sentence + "\n")), sentence
++        ok, why = g.gate_arrival_phrases(_root=tmp_path, _baseline=0)
++        assert not ok, sentence
++
++
++def test_an_excusing_word_may_still_run_on(tmp_path):
++    g = _gates()
++    for sentence in ("The programme aims to show that the Standard Model is derived.",
++                     "Among its goals: that the values are derived.",
++                     "It wouldn't follow that the Standard Model is derived.",
++                     "We are seeking a frame in which the values are derived.",
++                     "None of this says that the Standard Model is derived.",
++                     "We never say that the values are derived.",
++                     "(Not yet: the Standard Model is derived only in the sense of its grammar.)"):
++        assert g.arrival_hits(_page(tmp_path, sentence + "\n")) == [], sentence
++
++
++def test_r5_r6_the_papers_and_the_folders_below_docs_are_read(tmp_path):
++    g = _gates()
++    root = _page(tmp_path, "Nothing of the kind is said on this page.\n")
++    assert g.arrival_hits(root) == []
++    _page(tmp_path, "With this result the Standard Model is derived.\n", "papers/a_paper/main.tex")
++    _page(tmp_path, "With this result the Standard Model is derived.\n", "docs/handoffs/A_NOTE.md")
++    assert sorted(h[0] for h in g.arrival_hits(root)) == ["docs/handoffs/A_NOTE.md", "papers/a_paper/main.tex"]
++
++
++def test_the_wider_reach_finds_nothing_new_on_this_repository():
++    g = _gates()
++    hits = g.arrival_hits()
++    assert sum(c for _, _, c in hits) == g.ARRIVAL_BASELINE == 3
++    assert sorted(h[0] for h in hits) == ["docs/CLOSURE_MASTERPLAN.md", "docs/THE_STATE_2026-09-06.md", "docs/WHAT_WOULD_COUNT.md"]
++
++
++# ---------------------------------------------------------------- commit messages: what a merge brings in
++def _commit(repo, message, author="originaxiom", name="a.txt"):
++    f = repo / name
++    f.write_text((f.read_text(encoding="utf-8") if f.exists() else "") + "x\n", encoding="utf-8")
++    _git(repo, "add", name, author=author)
++    _git(repo, "commit", "-q", "-m", message, author=author)
++    return _git(repo, "rev-parse", "HEAD")
++
++
++def _merged(tmp_path, message, author="originaxiom"):
++    repo, root = _repo(tmp_path)
++    _git(repo, "checkout", "-q", "-b", "side")
++    bad = _commit(repo, message, author=author)
++    _git(repo, "checkout", "-q", "main")
++    _commit(repo, "the line moves on", name="b.txt")
++    _git(repo, "merge", "-q", "--no-ff", "-m", "the side branch merged, with a clean message", "side")
++    return repo, root, bad
++
++
++def test_c3_a_trailer_on_a_commit_that_arrives_by_a_merge_is_refused(tmp_path):
++    g = _gates()
++    repo, root, bad = _merged(tmp_path, "work on a side branch\n\nCo-Authored-By: somebody <s@example.invalid>")
++    problems, n = g.attribution_history_problems(repo, root)
++    assert n == 3 and problems == ["%s: a co-author trailer in the commit message" % bad[:9]], (n, problems)
++
++
++def test_c4_another_author_on_a_commit_that_arrives_by_a_merge_is_refused(tmp_path):
++    g = _gates()
++    repo, root, bad = _merged(tmp_path, "work on a side branch", author="somebody-else")
++    problems, n = g.attribution_history_problems(repo, root)
++    assert n == 3 and problems == ["%s: authored by 'somebody-else', not originaxiom" % bad[:9]], (n, problems)
++
++
++def test_a_clean_merge_passes(tmp_path):
++    g = _gates()
++    repo, root, _ = _merged(tmp_path, "work on a side branch")
++    assert g.attribution_history_problems(repo, root) == ([], 3)
