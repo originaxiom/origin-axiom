@@ -84,7 +84,10 @@ written: PROGRAMME.md, PROGRAMME.json
   "WP-0.9"
  ],
  "findings_with_a_re_audit_verdict": 12,
- "fixed_and_not_yet_re_audited": [],
+ "fixed_and_not_yet_re_audited": [
+  "G9",
+  "X1"
+ ],
  "findings_main_changed_since_the_re_audit": [
   "E3",
   "E4",
@@ -96,15 +99,15 @@ written: PROGRAMME.md, PROGRAMME.json
  "audit_findings_by_state": {
   "OPEN": 1,
   "READER": 4,
-  "REPRODUCED": 46,
-  "PARTLY FIXED": 14,
-  "FIXED": 8
+  "REPRODUCED": 43,
+  "PARTLY FIXED": 15,
+  "FIXED": 10
  },
  "relayed_rulings": 17,
  "rulings_confirmed_by_the_owner_to_main": 15,
  "rulings_not_confirmed": 2,
  "rulings_asked": 0,
- "rulings_given_to_main_directly": 2,
+ "rulings_given_to_main_directly": 3,
  "headline_results_that_are_conditional_results": [
   "G:ROOT",
   "MC:Z6",

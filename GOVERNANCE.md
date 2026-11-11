@@ -2,11 +2,22 @@
 
 **Status:** Phase 0 — locked. Amendments require a logged entry in `PROGRESS_LOG.md`.
 **Last updated:** 2026-07-03
+**Amended:** 2026-11-11 — the goal (§ 1); the one governing document (below); § 2's label and firewall brought to the
+foundation's statuses. Each amended passage keeps its original text, with a dated note beside it. Logged in
+`PROGRESS_LOG.md` (S306p).
 
 This file is the **constitution** of the consolidated Origin Axiom repository. It exists for
 one reason: the project has a documented history of generating a small, genuine mathematical
 core and then over-narrating it as physics. Governance is the mechanism that keeps the two
 apart. Every other file in this repo is subordinate to the rules here.
+
+> **[Amended 2026-11-11, at the owner's ruling (said on 2026-11-10 and confirmed to main the same day, the first of eleven; register rows P-758 and P-767; carried out at B1878), with the advisor seat's audit finding X2: three
+> files each said that it prevails.]** This file is the one governing document. It states the goal and the rules.
+> Two files hold by its delegation, not beside it:
+> - **`GENESIS.md` holds on the status of every item of the foundation.** Where § 2 below says more than
+>   `GENESIS.md`'s statuses allow, `GENESIS.md` is right and § 2 is the passage to fix.
+> - **`CLAIMS.md` is the ledger of claims,** governed by this file. It was last brought up to date on 2026-07-04.
+>   Where it and `GENESIS.md` differ on a status, `GENESIS.md` holds.
 
 ---
 
@@ -22,6 +33,15 @@ To investigate the Origin Axiom — *existence as a frustrated cancellation* —
 
 The goal is **not** a theory of everything. The goal is a body of work an external expert
 could clone, run, audit, and trust.
+
+> **[Amended 2026-11-11, at the owner's ruling (said on 2026-11-10 and confirmed to main the same day, the first of eleven; register rows P-758 and P-767; carried out at B1878).]** The first sentence above
+> is outdated and no longer holds. **The programme's only goal is a parameter-free theory of everything.** The second
+> sentence stands: it is the standard the work is held to, whatever the goal.
+>
+> **A goal says what is sought. It does not say what has been reached.** What the programme may say it has reached is
+> fixed by § 2, as amended below, and by `GENESIS.md`'s statuses. Today that is: no value derived, 0 of 19. A page may
+> state the aim. A page that says or implies arrival breaches the framing lock, and the gate `arrival-phrases` fails
+> on it.
 
 ---
 
@@ -44,6 +64,18 @@ apply to itself is:
 > G_Newton. The value question has been tested from every route and is **closed disjoint** — the
 > structure is the object's, the values are the observer's.
 
+> **[Amended 2026-11-11 (the same ruling; the audit's findings X1 and X2).]** The label's ceiling is kept. Two things
+> in it change.
+> 1. **"Derives" is brought down to the foundation's statuses.** `GENESIS.md` grades the structural results as
+>    conditional on stated premises, and the closure map shows the root, the structural theorem and the chiral three
+>    each waiting on open choices (B1858, B1861). The strongest label is: *a mathematical investigation that derives,
+>    given the premises `GENESIS.md` lists, the form of Standard-Model structure from one object.* The two fences
+>    below stand.
+> 2. **"Closed disjoint" is a record of the routes tested, not a limit on the goal.** The negatives stand as
+>    negatives, and the theorems among them as theorems, on the routes and frames they cover. They do not say that the
+>    goal is given up. What they rule out is listed in `GENESIS.md`, and the goal is pursued through what they leave
+>    open.
+
 *(Two fences held inside that label, because they are the difference between a theorem and an
 exhibit: the **family count three** is EXHIBITED in E₈'s 27×3 but NOT forced — the object does not
 force E₈, B1033/B1138; and the hypercharge **direction** is forced while its **normalization** is a
@@ -62,6 +94,11 @@ generation, Lorentz, a graviton slot. What it never supplies is the *contents* �
 honest negatives). "We have the form, not the contents" is the one-line statement of the
 firewall; the form now reaches structural depth, but any prose that lets the object *produce a
 value* (rather than the form a value would fill) has breached it.
+
+> **[Amended 2026-11-11 (the same ruling).]** "Never supplies" and "the observer's, not outputs" describe the record
+> to date. They are no longer a doctrine about what the programme seeks. **The firewall, as it now stands: prose may
+> say that deriving the values is the goal; prose that says or implies that a value has been derived, before that
+> value has passed the acceptance criteria, has breached it.** The count is 0 of 19.
 
 ---
 

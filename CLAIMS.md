@@ -4,6 +4,11 @@
 `GOVERNANCE.md`. Every result must appear here with an ID, a status label, and an evidence
 pointer. Prose elsewhere in the repo may not exceed the label of the claim it rests on.
 
+> **[2026-11-11, with `GOVERNANCE.md` as amended that day:]** `GOVERNANCE.md` is the one governing document. On the
+> status of an item of the foundation, `GENESIS.md` holds. This ledger was last brought up to date on 2026-07-04; the
+> present state of the programme is in `GENESIS.md` and in the closure programme
+> (`frontier/B1861_the_closure_programme/PROGRAMME.md`).
+
 **Status labels:** `proven` · `conditional` · `open` · `dead` (see `GOVERNANCE.md` §3).
 **Evidence** points to the test that locks the claim. Every `proven` claim is locked
 by passing tests. P1–P10 were frozen at tag `phaseA-foundation-freeze`; P11–P13 were added in
@@ -188,6 +193,10 @@ the gates. `E`-ids.)*
 ---
 
 ## Open — research targets (Phase B / `frontier/`). NOT partial results.
+
+> **[Amended 2026-11-11, at the owner's ruling (`GOVERNANCE.md` § 1 as amended; register rows P-758 and P-767).]** The
+> programme's only goal is a parameter-free theory of everything. So O1 to O7 are not side targets: together with the
+> values, they are what the goal consists of. **Their status is unchanged: open, and none a partial result.**
 
 | ID | Target |
 |---|---|

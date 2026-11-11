@@ -50,5 +50,6 @@
  "seal-order-unshown": "tests/test_gate_failing_paths.py::test_seal_order_unshown_fails_on_a_new_member_an_addition_and_a_stale_row",
  "seal-immutable": "tests/test_seal_immutable.py::test_the_gate_itself_fails_on_a_post_seal_edit",
  "artifact-hashes": "tests/test_artifact_hashes.py::test_the_gate_itself_fails_on_main_when_one_frozen_entry_is_forgotten",
- "closure-generated": "tests/test_closure_generated.py::test_a_stale_map_is_refused"
+ "closure-generated": "tests/test_closure_generated.py::test_a_stale_map_is_refused",
+ "arrival-phrases": "tests/test_arrival_phrases.py::test_a_sentence_of_arrival_on_a_living_page_is_refused"
 }

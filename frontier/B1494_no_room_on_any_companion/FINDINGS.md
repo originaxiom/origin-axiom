@@ -79,6 +79,9 @@ companions of the companions.
 
 ## 5. Disclosed
 
+- *[Added 2026-11-11 (the reading B1874 owed; P-772).]* **One line of the sealed `companions.py` was changed after the seal
+  and was not disclosed here until now:** an import path that was one folder off. It changes no computation. As
+  sealed, the script could not have imported the module that path names.
 - **A second route for the companion builds, added after the seal.** The sealed `companions.py` enumerates every cover
   of degree |T| and keeps the one with |T| cusps; SnapPy's enumeration at degree 12 did not finish in the hour, so the
   enumeration route was stopped at |T| ≤ 10 (`r0_companions_run.txt`; the stopped run kept as

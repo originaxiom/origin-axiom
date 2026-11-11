@@ -65,6 +65,26 @@ def sealed_version(path, h):
     return None
 
 
+# MAIN'S READING OF CLASS A, entry by entry (added 2026-11-11; B1874 said it was owed, P-772).  For each: what changed after the
+# seal, whether the arc's findings disclose it, and whether it bears on how the arc's result was obtained.  Read from the diff
+# since the commit that last held the sealed content, and from the arc's findings; nothing was re-run.
+READING = {
+    "46b056c1d0cd": ("a guard that refuses to count a non-representation", "disclosed (its § 3; a dated note at Review 74)", "no: it changes no count on a representation"),
+    "9d9af43f0d7a": ("one line of the mathematics corrected -- the sealed code's block was not a cocycle, and the sealed run's own first-order check read 140 where 0 was due; a third step size added; a stalled seed recorded as an outcome",
+                     "disclosed in full (its § 3); the sealed run's output is kept", "YES: every reported number is the corrected instrument's. The predictions and priors were not changed, and the seal's own check is what caught the error"),
+    "1425dd14fa31": ("a group's name corrected in the text, and the script's body moved into a function", "disclosed (its § 3 on the two conventions; Review 74)", "no number changed; main has not re-run the moved code here"),
+    "5ce1a4764092": ("a note added to the output, saying which group its field counts", "disclosed (as above)", "no: the data lines are identical"),
+    "740cbb6a1698": ("the group's name corrected in the text", "disclosed (as above)", "no"),
+    "6d730200be1c": ("a note added to the output", "disclosed (as above)", "no: the data lines are identical"),
+    "c4c204301962": ("the group's name corrected in the text", "disclosed (as above)", "no"),
+    "68f916e3c6ff": ("an import path, one folder off", "NOT disclosed until 2026-11-11: its § 5 tells of a second route added after the seal, and not of this line; a dated note is added", "no, on the mathematics; but the script as sealed could not have imported the module that path names"),
+    "c40fd50bc5f9": ("an import path, one folder short", "disclosed (\"corrected before any reading, the only change\")", "no"),
+    "ed90ccc5013d": ("the convergence threshold loosened from 1e-40 to 1e-30 after the sealed run stalled at the arithmetic floor; one step size dropped",
+                     "disclosed (its § 3); the sealed run's output is kept", "YES: two sealed cells are reported as holding under the loosened criterion, where under the sealed one the instrument skipped the count; the arc's negative rests on that reading. A dated note now marks both cells post hoc"),
+    "96d7ceb60570": ("an absolute path made relative", "a hygiene commit; nothing to disclose", "no"),
+}
+
+
 def main():
     E = entries()
     lists = sorted({e[1] for e in E})
@@ -98,8 +118,10 @@ def main():
             rows["B"].append(f"| `{key}` | {arc} | `{short}` | sealed version last at `{sv[0]}` ({sv[1]}); since then {delta} |")
         else:
             marked = bool(MARK.search((ROOT / hit).read_text(encoding="utf-8", errors="replace")))
+            what, disclosed, bears = READING[key]                                   # a class-A entry with no reading stops the build
             rows["A"].append(f"| `{key}` | {arc} | `{short}` | sealed version last at `{sv[0]}` ({sv[1]}); since then {delta}; "
-                             + ("the change is marked in the file" if marked else "the file does not mark the change") + " |")
+                             + ("the change is marked in the file" if marked else "the file does not mark the change")
+                             + f" | {what} | {disclosed} | {bears} |")
     n = {c: len(v) for c, v in rows.items()}
     arcsA = sorted({r.split(" | ")[1] for r in rows["A"]})
     unmarked = [r for r in rows["A"] if "does not mark" in r]
@@ -131,8 +153,11 @@ def main():
                 "| G | an earlier version's hash; the list records the current version too, and that verifies | %d |" % n["G"], "",
                 "**What a row means.** It is a fact about a hash and a file, and not a verdict on an arc. Class A is the one that matters",
                 "for a result: the instrument on main differs from the one the seal named. The page says whether the file itself marks the",
-                "change. Whether the arc's findings disclose it, and whether it bears on the arc's result, is owed a reading arc by arc",
-                "(P-772). Class B is expected of a page that later took a dated note. Class G is an amendment the list itself records.",
+                "change. **Read on 2026-11-11, entry by entry** (the last three columns of class A): what changed after the seal, whether the",
+                "arc's findings disclose it, and whether it bears on how the result was obtained. Two of the eleven do: one corrected line",
+                "of mathematics (B1486) and one loosened convergence criterion (B1499). Both are disclosed in their arcs. One change, an",
+                "import path (B1494), was not disclosed until this reading. Nothing was re-run for the reading.",
+                "Class B is expected of a page that later took a dated note. Class G is an amendment the list itself records.",
                 "Classes C to F are entries that never described a tracked file.", ""]
         titles = {"A": "A script or an output that a seal hashed, changed since", "B": "A page that went on being written",
                   "C": "No version with the recorded hash in the file's history", "D": "Named by a list, on main's machine, not tracked",
@@ -140,7 +165,9 @@ def main():
                   "G": "An earlier version's hash beside the current one"}
         body = []
         for c in "ABCDEFG":
-            body += ["## %s. %s (%d)" % (c, titles[c], n[c]), "", "| key | arc | file | what main found |", "|---|---|---|---|"] + rows[c] + [""]
+            cols = ("| key | arc | file | what main found | what changed after the seal | disclosed in the arc's findings | bears on the result |", "|---|---|---|---|---|---|---|") if c == "A" else (
+                "| key | arc | file | what main found |", "|---|---|---|---|")
+            body += ["## %s. %s (%d)" % (c, titles[c], n[c]), ""] + list(cols) + rows[c] + [""]
         (ROOT / "docs" / "ARTIFACT_HASHES_BROKEN.md").write_text("\n".join(head + body), encoding="utf-8")
         say("written: docs/ARTIFACT_HASHES_BROKEN.md")
 

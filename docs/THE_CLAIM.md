@@ -72,6 +72,16 @@ coupling, and which then supplied its own coupling frame, would be inconsistent.
 **"Parameter-free" keeps its exact banked meaning — zero *free* dimensionless parameters** — an
 anchor declared in advance and subtracted from the score is not free.
 
+> **[Dated note, 2026-11-11, at the owner's rulings (`GOVERNANCE.md` § 1 as amended; the claim is one self-consistent
+> outcome; register rows P-758 and P-767).]** The licence above was written when the programme did not seek the
+> values. Under the goal as it now stands:
+> - **The one dimensionful anchor stays.** Nobody derives the unit.
+> - **The dimensionless frame anchor is a debt against the claim, to be removed. It is not a standing licence.** Until
+>   it is removed, a result that uses it is typed as resting on a declared input, priced as before, and counted in
+>   the input budget (`frontier/B1861_the_closure_programme/PROGRAMME.md`).
+> - **The three theorems this section cites stand.** They say where a value cannot come from, and so where the work
+>   has to look: at what all allowed histories do together, not at one of them.
+
 ## §3 — THE PREDICTION CHANNEL (the one real wall, and the road onto it)
 
 After the re-sort (B1013), **one wall is real: the value layer** — tested under seal, twice,

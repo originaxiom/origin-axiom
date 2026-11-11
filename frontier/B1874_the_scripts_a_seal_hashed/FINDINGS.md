@@ -97,8 +97,31 @@ instruments it imports, and all of those entries verify today.
 | a sealed-style file one folder below its arc's top level | open |
 | a rule committed after its record | open |
 | the log's archives are not append-only | open |
-| the premise's two signs not carried to four places | open |
+| the premise's two signs not carried to four places | open *[carried at Review 78, 2026-11-11]* |
 | a file name built in two steps escapes the static read of tracked files | open; the dynamic form is the fresh-clone suite |
+
+## Dated addition, 2026-11-11: the six arcs, read (the reading § 2 said was owed; P-772)
+
+Main read each of the eleven entries of class A: the change since the commit that last held the sealed content, and
+the arc's findings. Nothing was re-run.
+
+| arc | what changed after the seal | disclosed in its findings | bears on how the result was obtained |
+|---|---|---|---|
+| B1486, one script | one line of the mathematics was corrected: the sealed code's block was not a cocycle, and the sealed run's own first-order check read 140 where 0 was due | yes, in full; the sealed run's output is kept | **yes.** Every reported number is the corrected instrument's. The predictions and priors were not changed. The seal's own check is what caught the error |
+| B1486, the other script | a guard that refuses to count a non-representation | yes | no |
+| B1490, three scripts and two outputs | a group's name corrected in the text; a note added to each output; one script's body moved into a function | yes | no number changed. Main has not re-run the moved code |
+| B1494 | an import path, one folder off | **no, until this reading** | not on the mathematics. As sealed, the script could not have imported the module the path names |
+| B1495 | an import path, one folder short | yes | no |
+| B1499 | the convergence threshold loosened from 10⁻⁴⁰ to 10⁻³⁰ after the sealed run stalled at the arithmetic floor | yes | **yes.** Two sealed cells are reported as holding under the loosened criterion; under the sealed one the instrument skipped the count. The arc's negative rests on that reading |
+| B656 | an absolute path made relative | nothing to disclose | no |
+
+**So of eleven changes, two bear on a result, and both were already disclosed where a reader of the arc would find
+them.** What was missing was the label. B1499's two cells now carry a dated note saying they are post hoc readings,
+and its verdict line and B1486's say what was changed after the seal. B1494's undisclosed line is disclosed.
+
+**What this does not settle.** A seal exists so that the criterion cannot move after the result is seen. In B1499 it
+moved, for a stated numerical reason. Whether that arc's negative should be regraded is a judgement on the arc, and
+this reading does not make it. It is noted on the register row.
 
 ## Seen first
 

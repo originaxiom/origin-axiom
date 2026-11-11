@@ -39,7 +39,13 @@ def test_the_four_repairs_are_in_force():
     assert {"WP-0.2", "WP-0.5"} <= set(PK["WP-5.3"]["needs"])
     assert not [(w, x) for w in PK for x in PK[w]["needs_all"] if not PK[w]["status"].startswith("NOT STARTED") and PK[x]["status"].startswith("NOT STARTED")]
     fixed = [k for k, f in F.items() if f["state"] == "FIXED"]
-    assert fixed and all(P["accepted"].get(k, "").startswith("accepted") for k in fixed)
+    # "fixed" is main's word and the re-audit's verdict is a field apart: a fixed finding either carries that seat's acceptance,
+    # or is listed as fixed and not yet re-audited.  (When this lock was written all eight fixed ones were accepted; main has
+    # fixed more since, and those are shown as not yet read by that seat, never as accepted.)
+    unread = P["stats"]["fixed_and_not_yet_re_audited"]
+    assert fixed and sorted(k for k in fixed if k not in P["accepted"]) == sorted(unread)
+    assert all(P["accepted"][k].startswith("accepted") for k in fixed if k in P["accepted"])
+    assert len([k for k in fixed if k in P["accepted"]]) == 8
     assert F["E3"]["state"] == "PARTLY FIXED" and F["X3"]["wp"] == "WP-0.12" and F["X4"]["wp"] == "WP-0.11"
     # the control: a finding about the repository filed in a package the card does not wait on would be seen here
     outside = [w for w in PK if w not in up and w != "WP-5.3" and not w.startswith(("WP-5.4", "WP-6"))]

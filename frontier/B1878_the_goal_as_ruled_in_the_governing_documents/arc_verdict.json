@@ -1,0 +1,28 @@
+{
+ "id": "B1878",
+ "verdict": "PROVED",
+ "instrument": true,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1861",
+  "B1870",
+  "B1874",
+  "B1877"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the advisor seat's audit, findings X1, X2 and G9, and its record of the owner's rulings R1 and R3 (relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-10_AUDIT_FINDINGS.md, ACCEPTANCE_CRITERIA.md and OWNER_RULINGS_2026-11-10.md @ 459dd72f): the rulings were confirmed by the owner to main on 2026-11-10 (P-758); the proposal for carrying out R1 is the seat's, confirmed as written; the wording of each amended passage is main's"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "none (a governance arc: the governing documents and two gates)",
+  "object": "GOVERNANCE.md, CLAIMS.md, docs/THE_CLAIM.md; the gates framing, arrival-phrases and attribution; the 2965 commits of the first-parent line",
+  "reach": "general",
+  "hypotheses": "the amendments are main's wording of a ruling the owner gave in one sentence and confirmed through a seat's proposal; which file governs was main's choice, the ruling naming none; the arrival check is a list of phrases with a window and not a reading of the page; no status of the foundation is changed here"
+ },
+ "claim_one_line": "THE GOAL AS THE OWNER RULED IT, CARRIED INTO THE GOVERNING DOCUMENTS; TWO GATES (the first landing of P-767: rulings R1 and R3 of the eleven confirmed to main on 2026-11-10; nothing computed, no status of the foundation changed): GOVERNANCE.md now states that the programme's only goal is a parameter-free theory of everything, the sentence it replaces kept with a dated note; the ceiling is unchanged -- a goal says what is sought, and no page may say or imply that a value or the Standard Model has been derived; its label 'derives the form' is brought down to the foundation's statuses and 'closed disjoint' is read as a record of the routes tested; the claims ledger's open targets are what the goal consists of, still open; the anchor doctrine's dimensionless frame anchor is a debt to be removed and not a standing licence. One document governs (the audit's X2): GOVERNANCE.md, with GENESIS.md holding on the status of every item of the foundation by its delegation. A new gate, arrival-phrases, reads the living pages for a sentence of arrival with a window for a denial, a condition or a statement of aim, three old lines frozen; the audit's own planted sentence on the front page is refused. The attribution gate now reads every commit message after da25c4f49, the last that carried a vendor's name or a co-author trailer: 695 commits pass, and a trailer, a vendor's name and a foreign author, each committed in a small repository, are refused. The foundation's own entries are the next landing. 0 of 19.",
+ "weave_or_thread": "neither (a governance arc)"
+}

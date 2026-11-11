@@ -1,5 +1,21 @@
 # Changelog
 
+## S306p THE GOAL AS THE OWNER RULED IT, IN THE GOVERNING DOCUMENTS; TWO GATES (B1878; P-767's first landing); THE SIX ARCS WHOSE SEALED SCRIPTS CHANGED, READ (P-772) (2026-11-11)
+
+- **The goal (the owner's first ruling of the eleven).** `GOVERNANCE.md` now says: the programme's only goal is a parameter-free theory of everything. The sentence it replaces, "The goal is not a theory of everything", is kept, with a dated note beside it.
+- **The ceiling did not move.** A goal says what is sought. No page may say or imply that a value, or the Standard Model, has been derived. The count is 0 of 19.
+- **Amended with it, each keeping its original text:**
+  - the label "derives the form" is brought down to the foundation's statuses: derives, given the premises `GENESIS.md` lists;
+  - "closed disjoint" is read as a record of the routes tested, not a limit on the goal;
+  - the claims ledger's open targets are what the goal consists of, and are still open;
+  - the anchor doctrine's dimensionless frame anchor is a debt to be removed, not a standing licence.
+- **One document governs** (the audit's finding X2): `GOVERNANCE.md`. `GENESIS.md` holds on the status of every item of the foundation, by its delegation. Which file governs was main's choice; the ruling names none.
+- **A new gate, `arrival-phrases`:** it reads the living pages for a sentence of arrival, with a window for a denial, a condition or a statement of aim. The audit's own planted sentence, added to the front page, is refused. Three old lines are frozen.
+- **The attribution gate reads commit messages** (the third ruling; the audit's G9): every commit after `da25c4f49` (2026-09-16), the last that carried a vendor's name or a co-author trailer. 695 commits pass. A trailer, a vendor's name and a foreign author, each committed in a small repository, are refused.
+- **The six arcs whose sealed scripts changed after their seal, read entry by entry** (a dated addition to B1874). Of eleven changes two bear on how a result was obtained, and both were already disclosed in their arcs: one corrected line of mathematics (B1486) and one loosened convergence criterion (B1499). B1499's two cells now carry a post hoc label. One change, an import path (B1494), was not disclosed until now. Whether B1499's negative should be regraded is not settled here.
+- **Left of P-767:** the foundation at version 1.65 (the claim, the closed loop, the law and the weight, the tick, the ground), then the computed count and the map.
+- 0 of 19.
+
 ## S306p REVIEW 78, THE DECADAL REVIEW (B1877); THE OWNER'S RULINGS OF 2026-11-11 (P-771, P-774) (2026-11-11)
 
 - **The review** ran at the thirty-third commit after Review 77 (due at the twentieth; the push gate fires at 40). Its entry is in `docs/progress/REVIEWS.md`.
@@ -18,7 +34,7 @@
   - **"the ledger must close" means that the whole agrees with itself** (P-774);
   - the outreach stays paused and the paper stays frozen (P-081, P-082, P-253);
   - a second compliance note to the agy lane was approved (P-697) and then not needed: read through the mask at its head, the lane had already mended all three points. A short acknowledgement went instead.
-- **What the first and third rulings give together:** the mark is both twins, so the allowed subweave at level 5 is the eigenline's stabiliser, of index 6.
+- **How the ruling on the tick stands with an earlier one is open, at the owner's word.** The foundation holds the ruling of 2026-10-08, "even ticks observed" (the swap is part of the act, not a symmetry of what is observed; the observed weave is the two-act one, where the three is chiral). Main had not put it beside its question, and first wrote here that the mark is then both twins and the allowed subweave the eigenline's stabiliser; that holds only if today's ruling replaces the earlier one. Corrected the same day, before the push. Asked, the owner answered "After the computation": both stand side by side until main has computed the weave's theorems for the group with the exchange (P-769).
 - **None of the rulings is carried into a governing document here.** That is P-767, and the review's first item.
 - Registered: P-776, the read-out on the whole, to be stated before anything is computed. Thirteen glosses, three classes' new instances, nine practices. 0 of 19.
 

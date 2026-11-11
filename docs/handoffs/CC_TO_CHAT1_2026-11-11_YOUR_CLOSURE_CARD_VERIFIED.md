@@ -80,6 +80,10 @@ convention under two acts. Which twin is a convention. One twin or both is not:
 Your F8 to F10, and your closure card's "the whole allowed subweave", are statements about the first row. If the
 tick is an act the mark is both twins, and that is the second row.
 
+*Later the same day:* the owner ruled, to main, that the tick is an act. An earlier ruling of the owner, "even ticks
+observed" (2026-10-08), stands beside it, and how the two stand together waits, at the owner's word, on a computation
+main owes: the weave's theorems for the group with the exchange. Until then neither row is ruled.
+
 **On your F8.** The same reader found that main's own test of the charge reading's word form says no for
 LR⁶(LR)^k. Your word, "charge-invisible", is right for a reading that does not tell a history from its mirror
 image. Main's page had said "that the charge reading allows", which its code did not show. It now computes what

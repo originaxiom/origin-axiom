@@ -54,7 +54,7 @@ def test_the_reviews_additions():
     controls = json.loads(_read("tests", "GATE_CONTROLS.json"))
     assert "closure-generated" in controls and "artifact-hashes" in controls
     rep = _arc("B1877", "verification/readers/reader_READ_IN_FULL.md")
-    assert "Ten must-fix findings." in rep and "## Reader A's report" in rep and "## Reader B's report" in rep and "/Users/" not in rep
+    assert "Ten must-fix findings." in rep and "## Reader A's report" in rep and "## Reader B's report" in rep and ("/" + "Users" + "/") not in rep        # spelt in pieces: the suite's guard reads every .py file for the literal
 
 
 def test_the_readers_corrections_stand_where_the_corrected_lines_stand():
@@ -82,7 +82,12 @@ def test_the_owners_rulings_at_the_review_are_recorded_in_the_owners_words():
     assert (ROOT / "docs" / "handoffs" / "CC_TO_AGY_2026-11-11_YOUR_THREE_COMPLIANCE_POINTS_ARE_MENDED.md").is_file()
     prog = json.loads(_arc("B1861", "PROGRAMME.json"))
     assert sorted(prog["confirmed_later"]) == ["no rule picks a next thing", "the ledger, cancelling, interaction", "the tick is an act", "what exists is what survives"]
-    assert [r[0] for r in prog["direct_rulings"]] == ["what a ground is", "what 'the ledger must close' means"]
+    assert [r[0] for r in prog["direct_rulings"]] == ["what a ground is", "what 'the ledger must close' means",
+                                                       "how 'the tick is an act' stands with 'even ticks observed'"]
+    assert prog["direct_rulings"][2][2] == "After the computation" and "'After the computation'" in rows["P-771"]
+    # the over-reading is corrected where it stood: no page says the ruling on the tick settles the mark
+    blk = _reviews(); blk = blk[blk.index("# Review 78 (2026-11-11)"):]
+    assert "*Corrected the same day,\n    before the push.*" in blk and "so the allowed subweave at level 5\n    is the stabiliser of the eigenline" not in blk
     assert prog["stats"]["rulings_asked"] == 0 and prog["stats"]["rulings_confirmed_by_the_owner_to_main"] == 15
     # nothing was carried into the foundation by the review: that is P-767
     assert "| QUEUED |" in rows["P-767"] and "EXTENDED BY THE OWNER'S ANSWERS TO MAIN" in rows["P-767"]

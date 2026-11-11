@@ -20,25 +20,28 @@ list after it is committed.*
 
 **What a row means.** It is a fact about a hash and a file, and not a verdict on an arc. Class A is the one that matters
 for a result: the instrument on main differs from the one the seal named. The page says whether the file itself marks the
-change. Whether the arc's findings disclose it, and whether it bears on the arc's result, is owed a reading arc by arc
-(P-772). Class B is expected of a page that later took a dated note. Class G is an amendment the list itself records.
+change. **Read on 2026-11-11, entry by entry** (the last three columns of class A): what changed after the seal, whether the
+arc's findings disclose it, and whether it bears on how the result was obtained. Two of the eleven do: one corrected line
+of mathematics (B1486) and one loosened convergence criterion (B1499). Both are disclosed in their arcs. One change, an
+import path (B1494), was not disclosed until this reading. Nothing was re-run for the reading.
+Class B is expected of a page that later took a dated note. Class G is an amendment the list itself records.
 Classes C to F are entries that never described a tracked file.
 
 ## A. A script or an output that a seal hashed, changed since (11)
 
-| key | arc | file | what main found |
-|---|---|---|---|
-| `46b056c1d0cd` | B1486_the_two_orders_at_the_silver_members | `verification/fused.py` | sealed version last at `385c6891e` (2026-10-07); since then +5 −0 lines; the change is marked in the file |
-| `9d9af43f0d7a` | B1486_the_two_orders_at_the_silver_members | `verification/fused_cell.py` | sealed version last at `385c6891e` (2026-10-07); since then +10 −3 lines; the change is marked in the file |
-| `1425dd14fa31` | B1490_the_common_cover_verified | `verification/common_cover_main.py` | sealed version last at `080189f89` (2026-10-07); since then +33 −21 lines; the file does not mark the change |
-| `5ce1a4764092` | B1490_the_common_cover_verified | `verification/congruence_level.json` | sealed version last at `080189f89` (2026-10-07); since then +3 −2 lines; the file does not mark the change |
-| `740cbb6a1698` | B1490_the_common_cover_verified | `verification/congruence_level.py` | sealed version last at `080189f89` (2026-10-07); since then +3 −2 lines; the file does not mark the change |
-| `6d730200be1c` | B1490_the_common_cover_verified | `verification/level_recount.json` | sealed version last at `080189f89` (2026-10-07); since then +3 −2 lines; the file does not mark the change |
-| `c4c204301962` | B1490_the_common_cover_verified | `verification/level_recount.py` | sealed version last at `080189f89` (2026-10-07); since then +2 −1 lines; the file does not mark the change |
-| `68f916e3c6ff` | B1494_no_room_on_any_companion | `verification/companions.py` | sealed version last at `0b45b1fb0` (2026-10-07); since then +1 −1 lines; the file does not mark the change |
-| `c40fd50bc5f9` | B1495_the_orbit_in_one_module | `verification/cross.py` | sealed version last at `3c1fadd9e` (2026-10-07); since then +1 −1 lines; the change is marked in the file |
-| `ed90ccc5013d` | B1499_the_fusion_on_the_first_room | `verification/fusion.py` | sealed version last at `10786bcca` (2026-10-07); since then +7 −3 lines; the change is marked in the file |
-| `96d7ceb60570` | B656_digest_integration | `verify_g1_g4.py` | sealed version last at `32465251a` (2026-07-17); since then +2 −1 lines; the file does not mark the change |
+| key | arc | file | what main found | what changed after the seal | disclosed in the arc's findings | bears on the result |
+|---|---|---|---|---|---|---|
+| `46b056c1d0cd` | B1486_the_two_orders_at_the_silver_members | `verification/fused.py` | sealed version last at `385c6891e` (2026-10-07); since then +5 −0 lines; the change is marked in the file | a guard that refuses to count a non-representation | disclosed (its § 3; a dated note at Review 74) | no: it changes no count on a representation |
+| `9d9af43f0d7a` | B1486_the_two_orders_at_the_silver_members | `verification/fused_cell.py` | sealed version last at `385c6891e` (2026-10-07); since then +10 −3 lines; the change is marked in the file | one line of the mathematics corrected -- the sealed code's block was not a cocycle, and the sealed run's own first-order check read 140 where 0 was due; a third step size added; a stalled seed recorded as an outcome | disclosed in full (its § 3); the sealed run's output is kept | YES: every reported number is the corrected instrument's. The predictions and priors were not changed, and the seal's own check is what caught the error |
+| `1425dd14fa31` | B1490_the_common_cover_verified | `verification/common_cover_main.py` | sealed version last at `080189f89` (2026-10-07); since then +33 −21 lines; the file does not mark the change | a group's name corrected in the text, and the script's body moved into a function | disclosed (its § 3 on the two conventions; Review 74) | no number changed; main has not re-run the moved code here |
+| `5ce1a4764092` | B1490_the_common_cover_verified | `verification/congruence_level.json` | sealed version last at `080189f89` (2026-10-07); since then +3 −2 lines; the file does not mark the change | a note added to the output, saying which group its field counts | disclosed (as above) | no: the data lines are identical |
+| `740cbb6a1698` | B1490_the_common_cover_verified | `verification/congruence_level.py` | sealed version last at `080189f89` (2026-10-07); since then +3 −2 lines; the file does not mark the change | the group's name corrected in the text | disclosed (as above) | no |
+| `6d730200be1c` | B1490_the_common_cover_verified | `verification/level_recount.json` | sealed version last at `080189f89` (2026-10-07); since then +3 −2 lines; the file does not mark the change | a note added to the output | disclosed (as above) | no: the data lines are identical |
+| `c4c204301962` | B1490_the_common_cover_verified | `verification/level_recount.py` | sealed version last at `080189f89` (2026-10-07); since then +2 −1 lines; the file does not mark the change | the group's name corrected in the text | disclosed (as above) | no |
+| `68f916e3c6ff` | B1494_no_room_on_any_companion | `verification/companions.py` | sealed version last at `0b45b1fb0` (2026-10-07); since then +1 −1 lines; the file does not mark the change | an import path, one folder off | NOT disclosed until 2026-11-11: its § 5 tells of a second route added after the seal, and not of this line; a dated note is added | no, on the mathematics; but the script as sealed could not have imported the module that path names |
+| `c40fd50bc5f9` | B1495_the_orbit_in_one_module | `verification/cross.py` | sealed version last at `3c1fadd9e` (2026-10-07); since then +1 −1 lines; the change is marked in the file | an import path, one folder short | disclosed ("corrected before any reading, the only change") | no |
+| `ed90ccc5013d` | B1499_the_fusion_on_the_first_room | `verification/fusion.py` | sealed version last at `10786bcca` (2026-10-07); since then +7 −3 lines; the change is marked in the file | the convergence threshold loosened from 1e-40 to 1e-30 after the sealed run stalled at the arithmetic floor; one step size dropped | disclosed (its § 3); the sealed run's output is kept | YES: two sealed cells are reported as holding under the loosened criterion, where under the sealed one the instrument skipped the count; the arc's negative rests on that reading. A dated note now marks both cells post hoc |
+| `96d7ceb60570` | B656_digest_integration | `verify_g1_g4.py` | sealed version last at `32465251a` (2026-07-17); since then +2 −1 lines; the file does not mark the change | an absolute path made relative | a hygiene commit; nothing to disclose | no |
 
 ## B. A page that went on being written (11)
 

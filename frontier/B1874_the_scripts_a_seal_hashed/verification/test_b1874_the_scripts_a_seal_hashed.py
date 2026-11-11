@@ -34,6 +34,11 @@ def test_the_page_lists_the_frozen_keys_and_no_others():
     page = (ROOT / "docs" / "ARTIFACT_HASHES_BROKEN.md").read_text(encoding="utf-8")
     keys = set(re.findall(r"^\| `([0-9a-f]{12})` \|", page, re.M))
     assert keys == set(g.ARTIFACT_HASHES_BROKEN) and len(keys) == 63
+    # every entry of class A carries main's reading of 2026-11-11: what changed, whether it is disclosed, whether it bears on the result
+    a = page[page.index("## A. "):page.index("## B. ")]
+    rows = [l for l in a.splitlines() if re.match(r"^\| `[0-9a-f]{12}` \|", l)]
+    assert len(rows) == 11 and all(len(l.strip("|").split(" | ")) == 7 for l in rows)
+    assert sum(1 for l in rows if l.rstrip(" |").split(" | ")[-1].startswith("YES")) == 2
     state = g.artifact_hash_state()
     broken = {k for (k, _, _, st) in state if st != "VERIFIES"}
     assert broken <= set(g.ARTIFACT_HASHES_BROKEN)                       # nothing new is broken; the ceiling may only shrink

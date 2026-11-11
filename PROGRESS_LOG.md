@@ -19169,3 +19169,37 @@ The other three: outreach stays paused, the paper stays frozen, and a note to an
 needed because that session had already fixed what the note would have asked for.
 
 Still 0 of 19.
+
+## 2026-11-11 — S306p: a correction to the entry above, made the same day
+
+The entry above says that the owner's first and third decisions "change which histories are allowed". That was said
+too soon. An earlier decision of the owner, from 8 October, already says something about the founding step: the swap
+belongs to the step, and what is observed is the two-step weave. Main had not put that earlier decision beside its
+question, and then read more into the new answer than it holds.
+
+Asked how the two decisions stand together, the owner answered: after the computation. So both stand side by side.
+Main first works out what the extra histories do to the weave's theorems, and then asks again.
+
+## 2026-11-11 — S306p: the constitution now says what the programme is for
+
+The repository's constitution said, since its first day: "The goal is not a theory of everything." The owner ruled
+yesterday that this is outdated. Today the constitution says so. The old sentence is kept, with a dated note beside
+it: the programme's only goal is a theory of everything with no free parameters.
+
+What did not change is what the programme may claim to have done. Saying where you are going is allowed. Saying you
+have arrived is not, and nothing has arrived: no value has been derived. A new check reads the main pages for any
+sentence that claims arrival and refuses it. It was tried with the very sentence an outside checker had suggested, and
+it refused it.
+
+Three files each used to say that it had the last word. Now one does, and it says which other file to believe about
+the status of each result.
+
+A second check was mended. The rule is that every commit is the owner's, with no tool named in it. The check used to
+look only at files. It now reads the commit messages themselves.
+
+One piece of owed reading was done as well. Six older pieces of work had a program changed after it was sealed. Each
+was read. In two the change mattered to the result, and both had said so openly at the time; one of them now carries
+a plain label that its result was read after the rule was loosened. One small change had never been mentioned and is
+mentioned now.
+
+Next: the owner's other rulings go into the foundation document itself. 0 of 19.

@@ -42,7 +42,9 @@ BANNED = [
     "the universe is a figure-eight knot",
     "we derived Einstein's equations",
     "Fibonacci anyon physics",
-    "toward the full SM",
+    # "toward the full SM" stood here until 2026-11-11. It states an aim, and the owner has ruled that the aim is the goal
+    # (the first of the eleven rulings confirmed to main on 2026-11-10; P-758, P-767; B1878).  What stays banned is a
+    # statement of arrival: the gate `arrival-phrases`, below.
     "everything changes",
     "impossibility boundary completed",
     "dynamical derivation starts here",
@@ -310,7 +312,45 @@ def gate_attribution():
     author_ok = (rc2 != 0) or (author.strip() == "originaxiom")
     if not author_ok:
         hits.append(f"last-commit author: {author.strip()}")
-    return not hits, hits[:10]
+    # the owner's ruling R3 (confirmed to main 2026-11-10; the advisor seat's finding G9): the rule is about commits, and this
+    # gate read only tracked files and the last commit's author.  It now reads every commit message after ATTRIBUTION_FROM.
+    problems, n = attribution_history_problems(ROOT, ATTRIBUTION_FROM)
+    hits += problems
+    return not hits, (hits[:10] if hits else f"ok ({n} commit(s) since {ATTRIBUTION_FROM[:9]} read: each by originaxiom, no vendor token and no co-author trailer in its message)")
+
+
+# The rule is read in history AFTER this commit: the most recent one on the first-parent line whose message carries a vendor
+# token or a co-author trailer (2026-09-16; 693 commits at or before it do).  The 696 after it, to Review 78, all pass.
+ATTRIBUTION_FROM = "da25c4f497adf5b137f95e5f5ee98d6513c159d9"
+_TRAILER_RE = re.compile(r"^\s*co-authored-by\s*:", re.I | re.M)
+
+
+def attribution_history_problems(repo, root, limit=5):
+    """(problems, commits read) for the commits on `repo`'s first-parent line after `root`: each is authored `originaxiom` and
+    its message carries no vendor token and no co-author trailer.  A pure function of the commit graph.  With no repository it
+    reports nothing (the caller says 'skipped'); where a repository is there and the history cannot be read, it fails closed."""
+    def git(*a):
+        return subprocess.run(["git", "-C", str(repo), *a], capture_output=True, text=True, timeout=120)
+    if git("rev-parse", "--git-dir").returncode != 0:
+        return [], 0
+    if git("cat-file", "-e", root + "^{commit}").returncode != 0:
+        return [f"cannot verify: the commit the attribution rule is read from, {root[:9]}, is not in this clone (shallow or partial)"], 0
+    if git("merge-base", "--is-ancestor", root, "HEAD").returncode != 0:
+        return [f"cannot verify: HEAD does not descend from {root[:9]}, the commit the attribution rule is read from"], 0
+    out = git("log", "--first-parent", "--format=%H%x00%an%x00%B%x01", f"{root}..HEAD").stdout
+    problems, n = [], 0
+    for rec in out.split("\x01"):
+        if "\x00" not in rec:
+            continue
+        h, an, body = rec.strip("\n").split("\x00", 2)
+        n += 1
+        if an.strip() != "originaxiom":
+            problems.append(f"{h[:9]}: authored by {an.strip()!r}, not originaxiom")
+        if _VENDOR_RE.search(body):
+            problems.append(f"{h[:9]}: a vendor token in the commit message")
+        if _TRAILER_RE.search(body):
+            problems.append(f"{h[:9]}: a co-author trailer in the commit message")
+    return problems[:limit], n
 
 
 # --- gate: forbidden tracked artifacts -----------------------------------------------------
@@ -2132,6 +2172,50 @@ def gate_pretense_phrases():
         return False, "%d pretense phrase(s) on living pages (baseline %d): " % (n, PRETENSE_BASELINE) + "; ".join("%s: %s x%d" % h for h in hits[:5])
     return True, "ok (%d on living pages, baseline %d%s)" % (n, PRETENSE_BASELINE, "; lower the baseline" if n < PRETENSE_BASELINE else "")
 
+# --- the goal may be stated; arrival may not (the owner's ruling R1, confirmed to main 2026-11-10; B1878) --------------------
+# GOVERNANCE.md § 1, as amended: the programme's only goal is a parameter-free theory of everything.  A goal says what is sought.
+# The framing lock's ceiling is unchanged: no page says or implies that a value, or the Standard Model, HAS BEEN derived.  This
+# gate reads the living pages for a sentence of arrival, with a negation window ("no value of the Standard Model is derived" is
+# the record's own sentence and passes), held to a frozen baseline of old lines that may only shrink.
+ARRIVAL_PHRASES = ("the standard model is derived", "the standard model has been derived", "derives the standard model", "derived the standard model",
+                   "we derive the standard model", "is a theory of everything", "the theory of everything is", "a theory of everything has been",
+                   "all nineteen are derived", "all nineteen derived", "19 of 19 derived", "19 of 19 earned", "nineteen of nineteen",
+                   "the values are derived", "the masses are derived", "the couplings are derived")
+ARRIVAL_NEGATION = PRETENSE_NEGATION + ("none", "nothing", "0 of 19", "neither", "nor ", "cannot", "would", "whether", "if ", "until", "goal", "aim", "seek", "sought", "to be ")
+ARRIVAL_EXEMPT = PRETENSE_EXEMPT + ("GOVERNANCE.md", "docs/README_HISTORY.md", "docs/POINT_REGISTER.md", "docs/LEAD_REGISTER.md", "docs/OPEN_LEADS.md",
+                                    "docs/LOOK_LEDGER.md", "docs/FAILURE_ATLAS.md")      # the page that states the rule; dated history; registers that quote what was said
+ARRIVAL_BASELINE = 3      # frozen at B1878 (2026-11-11), may only shrink: a plan of 2026-07-24 ("the program derived the Standard Model's
+                          # grammar"), a dated state page ("derives the Standard Model's gauge skeleton ... and derives none of its numbers"),
+                          # and the owner's question of 2026-08-09, quoted ("... that our program is a theory of everything ...")
+
+
+def arrival_hits(root=None):
+    import glob
+    root = str(root or ROOT); hits = []
+    files = sorted(glob.glob(os.path.join(root, "docs", "*.md")) + glob.glob(os.path.join(root, "*.md")))
+    for f in files:
+        rel = os.path.relpath(f, root)
+        if rel in ARRIVAL_EXEMPT: continue
+        low = open(f, errors="replace").read().lower()
+        for p in ARRIVAL_PHRASES:
+            n = 0
+            for m in re.finditer(re.escape(p), low):
+                window = " " + re.sub(r"\s+", " ", low[max(0, m.start() - 64):m.start()])       # a denial may open a line or a file
+                if any(neg in window for neg in ARRIVAL_NEGATION): continue          # a denial, a condition or a statement of aim is not arrival
+                n += 1
+            if n: hits.append((rel, p, n))
+    return hits
+
+
+def gate_arrival_phrases(_root=None, _baseline=None):
+    """The aim may be stated and arrival may not (GOVERNANCE.md § 1 and § 2 as amended at the owner's ruling)."""
+    base = ARRIVAL_BASELINE if _baseline is None else _baseline
+    hits = arrival_hits(_root); n = sum(c for _, _, c in hits)
+    if n > base:
+        return False, "%d sentence(s) of arrival on living pages (baseline %d): " % (n, base) + "; ".join("%s: %s x%d" % h for h in hits[:5])
+    return True, "ok (%d on living pages, baseline %d%s)" % (n, base, "; lower the baseline" if n < base else "")
+
+
 # --- gate: a negative about one member may not call it "the object" (the owner's rule, 2026-10-04) ------------------
 MEMBER_SCOPE_BASELINE = 8      # frozen 2026-10-04 (B1476's landing): B1157, B1338, B1407, B429, B713, B760, B959, B960 -- may only shrink
 _MS_WIDE = re.compile(r"\b(family|commensurability class|every member|112|siblings?|all members|members of|the thirteen|m003|t12835|t12839|s958|v2873)\b", re.I)
@@ -2304,6 +2388,7 @@ GATES = {
     "seal-immutable": gate_seal_immutable,
     "artifact-hashes": gate_artifact_hashes,
     "closure-generated": gate_closure_generated,
+    "arrival-phrases": gate_arrival_phrases,
     "seal-order-unshown": gate_seal_order_unshown,
     "pretense-phrases": gate_pretense_phrases,
     "member-scope": gate_member_scope,

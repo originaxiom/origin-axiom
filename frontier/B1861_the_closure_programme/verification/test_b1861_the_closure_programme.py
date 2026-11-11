@@ -149,7 +149,8 @@ def test_the_audit_is_carried_finding_by_finding():
     # eleven by the owner's answer of 2026-11-10; the four asked later (P-771) each by the owner's own answer of 2026-11-11; none is left asked
     assert len(S.CONFIRMED) == 11 and len(S.CONFIRMED_LATER) == 4 and st["rulings_confirmed_by_the_owner_to_main"] == 15
     assert st["rulings_not_confirmed"] == len(S.NOT_CONFIRMED) == 2 and st["rulings_asked"] == 0
-    assert st["rulings_given_to_main_directly"] == len(S.DIRECT_RULINGS) == 2      # the ground is the act; 'close' means the whole agrees (P-774)
+    # the ground is the act; 'close' means the whole agrees (P-774); and how the tick's ruling stands with 'even ticks observed': after the computation
+    assert st["rulings_given_to_main_directly"] == len(S.DIRECT_RULINGS) == 3 and S.DIRECT_RULINGS[2][2] == "After the computation"
     assert not set(S.NOT_CONFIRMED) & set(S.CONFIRMED) and all(S.NOT_CONFIRMED.values())
     assert [n for n, q, ps in S.RULINGS][:11] == S.CONFIRMED and sorted(S.OPINION) == sorted(list(S.CONFIRMED) + list(S.CONFIRMED_LATER))
     assert sorted(S.CONFIRMED_LATER) == sorted(n for n, q, ps in S.RULINGS[13:])           # the four relayed last, each answered by the owner on 2026-11-11
@@ -350,7 +351,8 @@ def test_the_joins_the_seals_rule_needs_and_each_refusal_can_fire():
     with planted(lambda: w43["needs"].append("WP-4.2"), restore43) as f:
         assert any("WP-4.3 is marked STARTED while WP-4.2" in x for x in f)
     # 19: fixed is main's word; the re-audit's verdict is kept apart, and a finding it did not accept cannot be marked fixed
-    assert st["findings_with_a_re_audit_verdict"] == len(S.ACCEPTED) and st["fixed_and_not_yet_re_audited"] == []
+    # fixed by main after the second re-audit and not read by that seat: listed, never shown as accepted (B1878's two)
+    assert st["findings_with_a_re_audit_verdict"] == len(S.ACCEPTED) and st["fixed_and_not_yet_re_audited"] == ["G9", "X1"]
     assert S.FINDINGS["E3"]["state"] == "PARTLY FIXED" and S.FINDINGS["E3"]["was"][0] != "PARTLY FIXED"
     e3 = dict(S.FINDINGS["E3"])
     def restore_e3():

@@ -8573,7 +8573,7 @@ report is in its `verification/readers/`.
   - The law's reading is ruled (P-755): the law is what takes part; the move count is not adopted as the weight; the
     weight stays open as the object of the closed loop.
   - None of the eleven is yet carried into a governing document (P-767).
-- **Eight seats' results verified on main,** each data-free, with main's own code and none of the seat's:
+- **Eight results of the seats verified on main,** each data-free, with main's own code and none of the seat's:
   the register-to-field join (B1866); a bundle's symmetries read off its word, and the forcing ledger's facts (B1867);
   nothing holds weight under the move count (B1868); the principle as a selection rule picks the run of 6 only when
   level 5 is put in (B1869); one tick or two acts (B1871); "all allowed histories together" defined (B1872); a
@@ -8654,7 +8654,8 @@ report is in its `verification/readers/`.
     passes while the old wording stands elsewhere, and a check that cannot fail passes by construction. Both kinds
     are now covered by locks that can fail (§ 4).
 
-fresh-clone: NOT YET RUN -- the run is made at the review's landing and recorded on this line in the commit after it
+fresh-clone: PASS @ cc01f56b9 (gates all PASS; belt ok) (after the anchor line, the view refresh and the views; the review's landing is 38d2a36dc)
+fresh-clone suite, the review's own commits: FAIL @ cc01f56b9 (4 failed, 8280 passed, 70 skipped): the two standing ones, and two that are this review's -- its own lock carried a literal local path prefix, which the suite's guard forbids in every script; spelt in pieces in the next commit
 fresh-clone suite: FAIL @ b28dceea8 (2 failed, 8266 passed, 70 skipped, 7 warnings); failing: tests/test_b805_forcing.py::test_gaps_are_reported_not_hidden, tests/test_b805_forcing.py::test_graph_builds_and_separates_authored_edges_from_attachment (both standing, P-239; none from the window)
 sample seed: 10641a1b2; read in full: B1861, B1862, B1863, B1865, B1872
 gate controls: 52 registered failing-path tests; unregistered: none
@@ -8671,8 +8672,13 @@ gate controls: 52 registered failing-path tests; unregistered: none
   - the three sentences on the principle's wording are the owner's for main (P-771);
   - a ground is the act itself (P-774);
   - "the ledger must close" means that the whole agrees with itself (P-774).
-  - **What follows from the first and third together:** the mark is both twins, so the allowed subweave at level 5
-    is the stabiliser of the eigenline, of index 6. B1872's facts describe the index-12 group of one twin.
+  - **How the first stands with an earlier ruling is open, at the owner's word.** The foundation already holds the
+    owner's ruling of 2026-10-08, "even ticks observed": the swap is part of the act and is not a symmetry of what
+    is observed, so the observed weave is the two-act one, and there the three is chiral. Main did not put that
+    ruling beside its question. It then wrote here that the mark is both twins and the allowed subweave the
+    eigenline's stabiliser, which holds only if today's ruling replaces the earlier one. *Corrected the same day,
+    before the push.* Asked how the two stand together, the owner answered: "After the computation". Both rulings
+    stand side by side until main has computed the weave's theorems for the group with the exchange (P-769).
   - None is carried into a governing document by this review. That is the first action item.
 - **Also decided by the owner at the review:** the outreach stays paused and the paper stays frozen (P-081, P-082,
   P-253). A second compliance note to the agy lane was approved (P-697), and was then not needed: read through the
@@ -8691,7 +8697,8 @@ gate controls: 52 registered failing-path tests; unregistered: none
   1. **P-776, the read-out on the whole, stated before anything is computed.** At level 5 the allowed subweave is a
      classical congruence group, and its quotient is a curve the record already holds. A state of the whole is a
      function on that curve. The first step is a design: the operator, its ingredients, what symmetry alone forces,
-     and what would count as failure. The owner's rulings fix which curve: the eigenline's, with the exchange.
+     and what would count as failure. Which curve it is depends on how the two rulings on the tick stand together,
+     which waits on a computation (P-769).
   2. **P-767:** the owner's rulings written into the foundation: the tick as an act, the ground as a postulate with
      its own number, the closed loop as a postulate with its falsifier, and "one outcome" as one orbit of the whole.
   3. **P-769's third debt:** the weave's theorems restated for the group with the exchange, at the levels where it
@@ -8712,6 +8719,9 @@ gate controls: 52 registered failing-path tests; unregistered: none
 - **Review 77's practice 8** (no hand-copied live counts) was broken by B1861 on the day it was adopted.
 - **The pattern.** Every one of these was found by someone who had not written the arc: a seat's re-audit, a reader,
   or a lock that reads the whole record. Main's own re-reading found none of the four that were banked.
+- **One more, at the review itself.** Main put a question to the owner on the tick without the owner's standing
+  ruling on the same item beside it, and then over-read the answer (§ 3). The sweep that precedes any claim of
+  absence precedes a question to the owner too.
 - **The rules are in PRACTICES, "Review 78's practices"** (nine items; five are gated).
 
 ## 5. The provenance spot-sweep
@@ -8733,8 +8743,8 @@ None promoted. 0 of 19.
 - **Held-out targets:** none computed or compared. The owner's hold (P-709) stands.
 - **The masked reading.** The agy lanes were read only through the sealed mask. The physical lane's own review of the
   join was read through the second mask at the binding minimum (B1866 § 6).
-- **Relayed sentences.** Seventeen sentences of the owner reached main through a seat. Main acts on the eleven the
-  owner confirmed to main, and on no other (P-768).
+- **Relayed sentences.** Seventeen sentences of the owner reached main through a seat. Main acts on those the owner
+  has confirmed to main, eleven on 2026-11-10 and four at this review, and on no other (P-768).
 - **Readers.** One multi-agent run, approved by the owner for the audit's backlog (B1870): eight readers returned
   commands and main ran every one before a state changed. This review's two readers worked the same way.
 - **A harness fault that cost the owner two answers:** prompts typed during a long turn were not delivered until
@@ -8746,12 +8756,12 @@ None promoted. 0 of 19.
 - [ ] R78-2: P-772 — the rest of the second re-audit: the six arcs whose sealed scripts changed, read one by one; the seal's order; the seal patterns at any depth; the log's archives, with the append-only gate's untested branches (owner: cc)
 - [ ] R78-3: P-773 — the debts and the unearned identifications joined to the map, an alternative written for every bit and discrete choice, and one price: the certificate script the foundation cites repaired or retired (owner: cc)
 - [ ] R78-4: P-757 — the planted violations that still pass, each closed by a committed planted test or declared open by design (owner: cc)
-- [ ] R78-5: P-776 — the read-out on the whole stated before anything is computed: the quotient by the eigenline's stabiliser with the exchange, the operator and its ingredients, what symmetry forces, what would count as failure; the web seat's two relays on the weave's own action read in full first (owner: cc)
+- [ ] R78-5: P-776 — the read-out on the whole stated before anything is computed: the quotient for each reading of the mark, the operator and its ingredients, what symmetry forces, what would count as failure; the web seat's two relays on the weave's own action read in full first (owner: cc)
 - [ ] R78-6: P-749 (e) — the lanes' paired current pole re-derived on main with main's own algebra (carried from R77-3; owner: cc)
 - [ ] R78-7: P-746 — main's own review of the physical lane's two sealed packets: acceptance by the schema or a dated refusal (carried from R77-4; owner: cc)
 - [ ] R78-8: P-747 and P-318's next item — the agy lane's Theorems C, D and E and its P-321 note verified on main or declined with a reason; the retraction row for 'the unique metallic grammar' (carried from R77-5; owner: cc)
 - [ ] R78-9: P-745 — the seven process arcs escalated at S306n, each resolved or declared open by design (carried from R77-6; owner: cc)
 - [ ] R78-10: P-739 — the tube at k = 3: the mesher's two unlabelled translation checks given messages first, then the stop diagnosed (carried from R77-8; owner: cc)
-- [ ] R78-11: P-769 — the tick's debts, now due since the owner ruled it an act: the record's structures at the levels where the group doubles, and the weave's theorems restated for the group with the exchange (owner: cc)
+- [ ] R78-11: P-769 — the computation the owner asked for before deciding how 'the tick is an act' stands with 'even ticks observed': the weave's theorems restated for the group with the exchange, and the record's structures at the levels where the group doubles (owner: cc)
 
 **anchor-commit: `38d2a36dc`**

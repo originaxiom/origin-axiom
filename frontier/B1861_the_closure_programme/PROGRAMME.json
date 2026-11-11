@@ -575,6 +575,16 @@
     "WP-0.10"
    ],
    "one outcome is one orbit of the whole, not one history picked; the closing selects nothing by itself, and a value can only be read from the whole, which needs the weight"
+  ],
+  [
+   "how 'the tick is an act' stands with 'even ticks observed'",
+   "On 2026-10-08 you ruled 'even ticks observed' ... Today you ruled that the tick is an act and both kinds of history are in the ledger. I did not remind you of the first ruling when I asked. How do the two stand together?",
+   "After the computation",
+   "2026-11-11",
+   [
+    "WP-1.4"
+   ],
+   "both rulings stand side by side and the foundation records both; their relation is decided after main has computed the weave's theorems for the group with the exchange (P-769). Until then nothing says that the orientation has stopped being a choice, or that the mark is both twins"
   ]
  ],
  "exit_kinds": {
@@ -695,7 +705,7 @@
   ],
   "the orientation": [
    "PRESSED",
-   "the ledger: the principle does not force it and may speak against it. The non-orientable sibling is the alternative. Verified on main (B1871): if the tick, the owner's founding rule, is an act, both sheets exist and this is no choice; it supplies no hand. Asked of the owner (P-771). RULED BY THE OWNER on 2026-11-11, to main: the tick is an act. The foundation is not yet amended (P-767); until it is, this entry keeps its kind, and nothing is built on the added histories before the debts of P-769."
+   "the ledger: the principle does not force it and may speak against it. The non-orientable sibling is the alternative. Verified on main (B1871): if the tick, the owner's founding rule, is an act, both sheets exist and this is no choice; it supplies no hand. Asked of the owner (P-771). RULED BY THE OWNER on 2026-11-11, to main: the tick is an act. The owner's ruling of 2026-10-08, 'even ticks observed', also stands; how the two stand together waits on a computation, at the owner's word (P-769). So this entry keeps its kind: nothing yet says that the orientation has stopped being a choice."
   ],
   "the principle's mathematical form": [
    "PRESSED",
@@ -950,9 +960,15 @@
    "wp": "WP-0.7"
   },
   "G9": {
-   "note": "main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a commit message carrying a co-author trailer passed; so did vendor tokens added with their baseline raised in the same commit",
+   "note": "B1878: the attribution gate reads every commit message on the first-parent line after da25c4f49, the last that carried a vendor's name or a co-author trailer; 695 commits pass; a trailer, a vendor's name and a foreign author, each committed in a small repository, are refused, and the gate fails closed where that history is not in the clone (tests/test_attribution_history.py)",
    "short": "the attribution gate never reads a commit message",
-   "state": "REPRODUCED",
+   "state": "FIXED",
+   "trail": [
+    [
+     "REPRODUCED",
+     "main ran the seat's own planted violation in a scratch clone of main at 30dd1fea7 (B1865): not caught. Earlier, by main's reader: main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a commit message carrying a co-author trailer passed; so did vendor tokens added with their baseline raised in the same commit"
+    ]
+   ],
    "was": [
     "READER",
     "main's reader planted the audit's violation in a scratch clone of today's main and ran the gate on the clean tree at that commit: a commit message carrying a co-author trailer passed; so did vendor tokens added with their baseline raised in the same commit"
@@ -1328,9 +1344,15 @@
    "wp": "WP-1.6"
   },
   "X1": {
-   "note": "main re-ran the deciding commands itself (B1870): GOVERNANCE.md:23 says the goal is not a theory of everything, and neither it nor CLAIMS.md has changed since the audit. The owner has confirmed the goal to main (P-758); amending the places is the first step of P-767. One of the audit's twelve places (THE_CLAIM.md, lines 58 to 71) is the anchor doctrine and is doubtful as a cap",
+   "note": "B1878: the places that cap the goal are amended together, each keeping its original text beside a dated note -- GOVERNANCE.md's goal sentence, its label and its firewall paragraph; the claims ledger's open targets; the anchor doctrine; and the gate, which no longer bans a statement of aim. The ceiling is kept and gated: a sentence of arrival on a living page fails `arrival-phrases`, the audit's own planted sentence on the front page among them. The audit's list also names two results of the foundation (FK11, GAP6); a ruling does not amend a result, and the amended text says they stand",
    "short": "twelve places in the governing documents cap the goal",
-   "state": "REPRODUCED",
+   "state": "FIXED",
+   "trail": [
+    [
+     "REPRODUCED",
+     "main re-ran the deciding commands itself (B1870): GOVERNANCE.md:23 says the goal is not a theory of everything, and neither it nor CLAIMS.md has changed since the audit. The owner has confirmed the goal to main (P-758); amending the places is the first step of P-767. One of the audit's twelve places (THE_CLAIM.md, lines 58 to 71) is the anchor doctrine and is doubtful as a cap"
+    ]
+   ],
    "was": [
     "OPEN",
     "the owner confirmed the ruling on the goal to main on 2026-11-10; the amendment of the twelve places is the next step of its package and is not made yet"
@@ -1338,9 +1360,15 @@
    "wp": "WP-0.10"
   },
   "X2": {
-   "note": "main re-ran the deciding commands itself (B1870): three files each say they win a disagreement: GOVERNANCE.md:6-9, GENESIS.md:29, CLAIMS.md:3",
+   "note": "B1878: GOVERNANCE.md is named the one governing document, with GENESIS.md holding on the status of every item of the foundation by its delegation and CLAIMS.md a ledger under both; GOVERNANCE.md's permitted label is brought down to GENESIS.md's statuses. Left: GENESIS.md's own line ('this file holds'), which only an arc at its next version may note",
    "short": "three documents each claim supremacy",
-   "state": "REPRODUCED",
+   "state": "PARTLY FIXED",
+   "trail": [
+    [
+     "REPRODUCED",
+     "main re-ran the deciding commands itself (B1870): three files each say they win a disagreement: GOVERNANCE.md:6-9, GENESIS.md:29, CLAIMS.md:3"
+    ]
+   ],
    "was": [
     "OPEN",
     "the same landing names one governing document; not made yet"
@@ -2291,7 +2319,7 @@
   "the headline's form": "agree, with one safeguard: the second number's list is frozen at a named commit before any comparison",
   "the ledger, cancelling, interaction": "agree as wording: 'the whole ledger' and 'a third thing that is kept' can be adopted; neither is yet a mathematical object, and the same definition is owed as for all histories together",
   "the map on the desk": "agree; every status computed by the weakest link, so the picture cannot look better than the mathematics",
-  "the tick is an act": "admit it: it is the founding rule's single step, nothing forbids it, and it makes the root's mirror symmetry a consequence. It removes the orientation as a choice by keeping both and supplies no hand. Build nothing on the added histories before the three debts are computed (P-769)",
+  "the tick is an act": "admit it: it is the founding rule's single step, nothing forbids it, and it makes the root's mirror symmetry a consequence. It supplies no hand. Build nothing on the added histories before the three debts are computed (P-769). MAIN'S OPINION AS FIRST GIVEN ALSO SAID that it removes the orientation as a choice; that was said without the owner's standing ruling of 2026-10-08 ('even ticks observed') beside it, and is withdrawn until the two are related",
   "the weave discipline": "agree with all five; the second-thread control is the most valuable; plenitude enters the foundation with the weight listed as open",
   "what exists is what survives": "agree as wording: nothing is ranked least or first, so every selection by rank is a selection on one thread and is labelled so",
   "what self-consistent means": "agree; on main's map no result returns to fix an input (B1867). The loop is an equation and not a circular argument, and it is not shown to be the only route"
@@ -2776,7 +2804,7 @@
     "X1",
     "X2"
    ],
-   "first": "the owner confirmed to main, on 2026-11-10, the rulings the advisor seat had relayed (the first eleven; P-758). Next, in one landing: the twelve places that cap the goal are amended together, each keeping its original text with a dated note, and the gate that bans a statement of aim is taught the difference between an aim and an arrival, with a planted test. The claim ceiling does not move: what may be asserted as achieved stays at what the record has earned",
+   "first": "the owner confirmed to main, on 2026-11-10, the rulings the advisor seat had relayed (the first eleven; P-758). Next, in one landing: the twelve places that cap the goal are amended together, each keeping its original text with a dated note, and the gate that bans a statement of aim is taught the difference between an aim and an arrival, with a planted test. The claim ceiling does not move: what may be asserted as achieved stays at what the record has earned. DONE FOR THE GOAL AND THE GOVERNING DOCUMENT (B1878, 2026-11-11): GOVERNANCE.md states the goal once and is named the one governing document, with GENESIS.md holding on statuses by its delegation; the label and the firewall are brought to the foundation's statuses; a gate fails on a sentence of arrival, the audit's planted one among them. Left: the foundation's own entries for the claim, the closed loop, the tick and the ground, at its version 1.65, and its own line on which file holds",
    "given": [],
    "id": "WP-0.10",
    "intent": "DECLARE",
@@ -5015,11 +5043,11 @@
  "stats": {
   "audit_findings": 73,
   "audit_findings_by_state": {
-   "FIXED": 8,
+   "FIXED": 10,
    "OPEN": 1,
-   "PARTLY FIXED": 14,
+   "PARTLY FIXED": 15,
    "READER": 4,
-   "REPRODUCED": 46
+   "REPRODUCED": 43
   },
   "audit_findings_checked_at_the_seats_revision": 73,
   "budget": {
@@ -5057,7 +5085,10 @@
   "findings_that_bear_on_the_repository_as_a_whole": 34,
   "findings_that_name_arcs_nodes_or_pages_only": 39,
   "findings_with_a_re_audit_verdict": 12,
-  "fixed_and_not_yet_re_audited": [],
+  "fixed_and_not_yet_re_audited": [
+   "G9",
+   "X1"
+  ],
   "forcing_arguments_one_clause_short": 3,
   "headline_results_not_yet_results_on_main": [
    "T:IM",
@@ -5128,7 +5159,7 @@
   "rules_of_the_comparison": 12,
   "rulings_asked": 0,
   "rulings_confirmed_by_the_owner_to_main": 15,
-  "rulings_given_to_main_directly": 2,
+  "rulings_given_to_main_directly": 3,
   "rulings_not_confirmed": 2,
   "unowned": [
    "WP-1.8",

@@ -681,8 +681,9 @@ readers. At the review the owner ruled four things about the foundation.**
   principle's draft fixes the acts and selects nothing after (B1876). The one open object is the weight.
 - **The owner's rulings, to main:** the eleven of 2026-11-10 (P-758), the law's reading (P-755), and on 2026-11-11
   the tick is an act, three sentences on the principle's wording, a ground is the act itself, and "the ledger must
-  close" means the whole agrees with itself (P-771, P-774). So the mark is both twins, and the allowed subweave at
-  level 5 is the eigenline's stabiliser. None is yet written into a governing document (P-767).
+  close" means the whole agrees with itself (P-771, P-774). How the ruling on the tick stands with the earlier one,
+  "even ticks observed" (2026-10-08), waits on a computation, at the owner's word (P-769). None is yet written
+  into a governing document (P-767).
 - **Corrected at this review:** three corrections that had not reached every place; a check that could not fail
   ("the twins come together"), whose repair shows that one twin or both as the mark is a real choice.
 - **Next:** R78-1 to R78-11 (docs/progress/REVIEWS.md): the owner's rulings carried into the foundation; the rest of

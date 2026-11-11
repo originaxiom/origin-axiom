@@ -21,6 +21,10 @@ this page says what the review did that an arc can lock. Process only: no value 
   close" means that the whole agrees with itself; the outreach stays paused; the paper stays frozen; and a compliance
   note to the agy lane was approved, which turned out not to be needed. The first four are rulings to main (P-771,
   P-774) and are carried out under P-767, not here.
+- **One of the four questions was put badly, and main over-read its answer.** The foundation holds a ruling of
+  2026-10-08 on the same item, "even ticks observed". Main did not put it beside the question on the tick. Asked the
+  same day how the two stand together, the owner answered "After the computation". Both stand side by side until
+  main has computed the weave's theorems for the group with the exchange (P-769).
 
 ## 2. What the review changed
 
@@ -63,6 +67,10 @@ this page says what the review did that an arc can lock. Process only: no value 
 - **Main had re-read none of the ten faults out of its own arcs.** Each was found by a reader, by a seat's re-audit,
   or by a lock that reads the whole record.
 - **The review ran thirteen commits after it fell due.**
+- **The review's own lock failed the suite on a fresh clone:** it carried a literal local path prefix, which the
+  suite's guard forbids in every script. Found by the full suite on the review's commit and mended before the push.
+- **Main first wrote, in six places, that the ruling on the tick makes the mark both twins.** That holds only if the
+  ruling replaces "even ticks observed". Each place was corrected before the push.
 
 ## Reproduce
 

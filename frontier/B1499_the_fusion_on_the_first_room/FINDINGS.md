@@ -14,8 +14,8 @@ As sealed (B1498's sweep): B1486 (the method and its pattern: the fusions count 
 | | sealed prediction | prior | result |
 |---|---|---|---|
 | **F1** | each order a cocycle; the mixed direction c + d unobstructed at second order | 75% | **HOLDS**: first-order residuals ~10⁻³⁸; the mixed direction's second-order residual 2.5·10⁻³⁶ against ∥Q∥ = 2155 (rank of the linear map 34) |
-| **F2** | a converged fusion with commutant dimension one | 70% | **HOLDS** at ε = 0.1: the Newton iteration reaches the arithmetic floor (residual ~10⁻³⁶, relative ~10⁻³⁹; see §3), at distance 2.34 from the split point; commutant dimension 1, no invariant line, no dual invariant line — irreducible; the same at ε = 0.02 (commutant 1, no invariant lines) |
-| **F3** | every converged fusion counts (0, 0) | 70% | **HOLDS**: (I, I(Λ²)) = (0, 0), with n = n* = 0 — no interior class on either side; the same at ε = 0.02 |
+| **F2** | a converged fusion with commutant dimension one | 70% | **HOLDS** at ε = 0.1: the Newton iteration reaches the arithmetic floor (residual ~10⁻³⁶, relative ~10⁻³⁹; see §3), at distance 2.34 from the split point; commutant dimension 1, no invariant line, no dual invariant line — irreducible; the same at ε = 0.02 (commutant 1, no invariant lines) *[Dated note 2026-11-11 (the reading B1874 owed; P-772): read under the convergence criterion as loosened after the sealed run (§ 3). Under the sealed threshold the instrument skipped this count. By the seal's own rule this cell is a post hoc reading.]* |
+| **F3** | every converged fusion counts (0, 0) | 70% | **HOLDS**: (I, I(Λ²)) = (0, 0), with n = n* = 0 — no interior class on either side; the same at ε = 0.02 *[Dated note 2026-11-11 (the reading B1874 owed; P-772): read under the convergence criterion as loosened after the sealed run (§ 3). Under the sealed threshold the instrument skipped this count. By the seal's own rule this cell is a post hoc reading.]* |
 | **F4** | some irreducible fusion has I ≠ 0 | 20% | **FAILS** |
 
 The split point's own readings: S = V ⊕ 1 counts (0, 0) (n = n* = 3); W₁ = the extension by c counts (0, −1); W₂ by
