@@ -4,7 +4,7 @@ import glob, json, pathlib
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 A = ROOT / "frontier" / "B1643_the_crossings_census"
 CITED = {"B856": "PROVED", "B915": "NEGATIVE", "B925": "NEGATIVE", "B929": "PROVED", "B1005": "NEGATIVE",
-         "B1027": "NEGATIVE", "B1063": "NEGATIVE", "B1066": "NEGATIVE", "B1028": "PROVED", "B1241": "OPEN",
+         "B1027": "NEGATIVE", "B1063": "NEGATIVE", "B1066": "NEGATIVE", "B1028": "OPEN", "B1241": "OPEN",     # B1028: PROVED until 2026-11-11 (the audit's E7); the census carries the correction
          "B1020": "PROVED", "B926": "PROVED", "B927": "PROVED", "B1642": "NEGATIVE", "B1612": "PROVED",
          "B1625": "PROVED", "B1628": "NEGATIVE"}
 

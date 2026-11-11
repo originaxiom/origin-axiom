@@ -1,5 +1,8 @@
 # B1028 — FINDINGS: the global freedom ledger
 
+> **CORRECTED 2026-11-11 (the audit's finding E7): the freedom ledger's zero is not a computed quantity. Its eleven links are each priced at zero by hand, and its check is that a phrase is found in the cited arc's claim line. Not priced: the family declaration (the ledger's own addendum of 2026-08-12); the selection within the family, since B997's uniqueness was corrected on 2026-11-10 (the door set is {1, 4}; the golden is unique among primitive grammars only); and the choice of the principal embedding, which the ledger does not list and to which the cascade's landing is scoped (B854). The one endpoint it credits is the algebra of dimension 14, su(3) ⊕ su(2) ⊕ u(1)³, two abelian factors more than the Standard Model's (B892 as corrected by B1237). B1028's verdict is OPEN.** What stands is the list of the eleven links, each with the arc it cites and the flags it raises. The text below is kept as it was written; the sealed preregistration is untouched.
+
+
 **Seat:** cc · **Date:** 2026-08-11 · **Prereg sealed e13d09a5 BEFORE compute** (in
 `ARTIFACT_HASHES.txt`, seal pushed at 82e2ee7b). Campaign: THE WHY CAMPAIGN, Lane I-1.
 Compute: `b1028_walk.py` — a **self-checking desk audit**: every 0-priced link opens the

@@ -3,9 +3,9 @@
   "by_state": {
    "FIXED": 11,
    "OPEN": 0,
-   "PARTLY FIXED": 18,
+   "PARTLY FIXED": 19,
    "READER": 3,
-   "REPRODUCED": 41
+   "REPRODUCED": 40
   },
   "changed_by_main_since_its_re_audit": [
    "E4",
@@ -216,18 +216,18 @@
  "register": {
   "by_kind": {
    "DEBT": 84,
-   "LEAD": 130,
+   "LEAD": 131,
    "OWNER": 4,
-   "PROCESS": 54
+   "PROCESS": 55
   },
-  "open": 272,
+  "open": 274,
   "owner_calls_open": [
    "P-081",
    "P-082",
    "P-253",
    "P-787"
   ],
-  "points": 787
+  "points": 789
  },
  "rows_the_scoreboard_lists": 23,
  "the_count_as_an_output": {

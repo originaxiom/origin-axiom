@@ -19539,3 +19539,41 @@ audit seat's check. Seven are left.
 
 0 of 19.
 
+## 2026-11-11 — S306p: the third known error: a zero that nobody computed
+
+**The claim that was wrong.** One of our summary results said that in building the whole chain, from the starting
+assumptions to the shape of the Standard Model, we had made no free choices at all: "0.000 bits of designer
+freedom, machine-checked". It was graded as proved, and three of our front pages quoted it.
+
+**What it really was.** The program behind it adds up eleven numbers. Each of the eleven is a zero that someone
+typed in. Its "machine check" only looks whether certain words appear in the summary line of another result. It
+still passes today for a result that was corrected yesterday to say something different.
+
+**What was never priced.** Three choices: which family of objects we look in; which member of that family we take,
+now that we know two members pass the test and not one; and one technical choice of how one structure sits inside
+another. The result also counted two different end points as if they were one.
+
+**What main did.** The result is no longer graded as proved. Its summary line now says what is not priced and which
+end point it can honestly claim. The same correction now stands on every page that quoted the zero, and an
+automatic check fails if any page states it without the correction.
+
+**What still stands.** The list of the eleven steps and what each rests on. What the chain's freedom really costs is
+an open question.
+
+**Which piece of the plan moved.** The errors in the mathematics: the third of nine is mended and waits for the audit
+seat's check. Six are left.
+
+0 of 19.
+
+**Later, at the same landing: what the team sent, and what the owner asked for next.**
+
+**The audit seat's first delivery as a builder.** It sent four small changes to our automatic checks. Their common idea: a check must give the same answer whenever and wherever it is run on the same version of the repository. Three of our checks gave different answers depending on the day, and nine passed on a copy of the repository that has no history at all, where they had nothing to look at. Main has read its note in full. Main has not yet tried the changes. Before any of it is accepted, main runs its own hidden test cases on them, which the seat has not seen.
+
+**The agy lane's two notes.** Read in full, through the mask that hides its numbers. It proposes six rules for trusting a result, and one of them is exactly the fault mended above: no proof by a typed zero. It also states four mathematical results that use no measured data. None is checked yet and none is taken over.
+
+**What the owner asked for next.** In his words: first digest what every seat has done, "so you understand what seats you have in disposal and whats their capacity"; then stop, and lock the plan together; then main directs the seats, each of which writes down beforehand what it will do, "in an empowering way, not babysitting each step". The first count for that digest: the seats have sent 1,685 items over two months. Main has recomputed 377 of them itself. It has read 453 more, only registered 560, closed 233 by pointing at other work, and not read 56.
+
+**A slip of main's own.** One line of live numbers in the plan's summary page was refreshed the wrong way. An automatic check caught it before anything was committed.
+
+0 of 19.
+

@@ -871,9 +871,13 @@
    "wp": "WP-0.8"
   },
   "E7": {
-   "note": "main's own count: eleven typed zeros are summed and asserted to be zero; the arc's addendum says one row is unpriced and its verdict line was not changed",
+   "note": "MENDED ON MAIN, AND NOT COUNTED AS FIXED UNTIL THE ADVISOR SEAT HAS RE-AUDITED IT. B1028's verdict is OPEN and its headline number is withdrawn as a measurement: the walk sums eleven prices typed 0.0 and asserts the sum is 0.0, and its check is a substring match that still passes on B997's line, since corrected to say the door set is {1, 4}. The claim line names what is not priced (the family declaration, by the ledger's own addendum; the selection within the family; the choice of the principal embedding) and the one endpoint credited, the algebra of dimension 14; the claim as first asserted is kept after the correction. The correction is carried to the roadmap, the claim page, the framework page and seven other pages, and a lock fails if any page states the zero without it; the lock also shows the fault on the walk itself. Before (main's own count): eleven typed zeros are summed and asserted to be zero; the arc's addendum says one row is unpriced and its verdict line was not changed",
    "short": "B1028's zero is a sum of typed zeros",
-   "state": "REPRODUCED",
+   "state": "PARTLY FIXED",
+   "was": [
+    "REPRODUCED",
+    "main's own count: eleven typed zeros are summed and asserted to be zero; the arc's addendum says one row is unpriced and its verdict line was not changed"
+   ],
    "wp": "WP-0.8"
   },
   "E8": {
@@ -5214,9 +5218,9 @@
   "audit_findings_by_state": {
    "FIXED": 11,
    "OPEN": 0,
-   "PARTLY FIXED": 18,
+   "PARTLY FIXED": 19,
    "READER": 3,
-   "REPRODUCED": 41
+   "REPRODUCED": 40
   },
   "budget": {
    "ansatz": 1,

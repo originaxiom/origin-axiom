@@ -54,6 +54,7 @@ trivial · invariant content zero · symmetric support empty.
   about the field, not a symmetry of the object.**
 - **the h = 0 locus** is a *word* property — the diagonal-free weld matrices (B1110) — not a
   symmetry statement.
+- [CORRECTED 2026-11-11 (the audit's finding E7): the freedom ledger's zero is not a computed quantity. Its eleven links are each priced at zero by hand, and its check is that a phrase is found in the cited arc's claim line. Not priced: the family declaration (the ledger's own addendum of 2026-08-12); the selection within the family, since B997's uniqueness was corrected on 2026-11-10 (the door set is {1, 4}; the golden is unique among primitive grammars only); and the choice of the principal embedding, which the ledger does not list and to which the cascade's landing is scoped (B854). The one endpoint it credits is the algebra of dimension 14, su(3) ⊕ su(2) ⊕ u(1)³, two abelian factors more than the Standard Model's (B892 as corrected by B1237). B1028's verdict is OPEN.]
 - **designer freedom 0.000 bits** is a meta-accounting over the chain, not an object vanishing at
   all; including it in the pattern was sloppy.
 

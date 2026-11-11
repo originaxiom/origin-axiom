@@ -1,5 +1,21 @@
 # Changelog
 
+## S306p THE ERRORS IN THE MATHEMATICS, THE THIRD OF THE NINE LEFT (WP-0.8): "0.000 BITS OF DESIGNER FREEDOM" WAS ELEVEN ZEROS TYPED BY HAND (E7) (2026-11-11)
+
+- **The finding.** B1028, the freedom ledger, said the whole chain from the axioms to the Standard Model's skeleton has "0.000 bits of retroactive designer freedom, machine-checked", and was graded PROVED. The roadmap, the claim page and the framework page quote it.
+- **What the walk does.** It sums eleven prices that are each typed 0.0 in its source and asserts the sum is 0.0. Its check is that a phrase is found in the cited arc's claim line.
+- **The check does not track a correction.** It still passes on B997's line, which has since been corrected to say the opposite of what the link needs: the door set is {1, 4}, so the golden is unique among primitive grammars only.
+- **Not priced:** the family declaration, which the ledger's own addendum of 2026-08-12 had already restated as unpriced without the verdict changing; the selection within the family; and the choice of the principal embedding, which the ledger does not list.
+- **The endpoint.** The ledger credits both "the Standard Model" and an algebra of dimension 14. The one it can credit is the second, which is two abelian factors more than the Standard Model's.
+- **Done.** B1028's verdict is OPEN and its claim line says all of this, with the claim as first asserted kept after it. The correction stands on the roadmap, the claim page, the framework page and seven other pages. A lock fails if any page states the zero without it, and shows the fault on the walk itself.
+- **What stands:** the list of the eleven links with the arc cited for each, and the output side's floor as an accounting under its declared rules. What the chain's freedom costs is open.
+- **This landing advanced** WP-0.8. Mended on main; counted as fixed when the advisor seat has re-audited it. Six are left. **No package closed.**
+- **The owner's order for what comes next (P-788), recorded word for word:** digest every seat, then stop and lock the plan together, then orchestrate the seats by preregistered work, "in an empowering way, not babysitting each step". The errors package pauses here at three mended. The first count for the digest: of the 1,685 items the seats ever sent, 349 are verified by main's own code, 453 read, 560 registered without a full read, 233 closed by triage, 56 not read.
+- **What the chain's freedom costs is now an open question with its own row (P-789).** Its successor on the record is the input budget.
+- **The ninth harvest of the day.** The advisor seat sent the first of four patch series for the enforcement package: four patches under one rule, a gate is a function of the commit. Its relay and its plan page are read in full (harvest row 1699). Nothing of it is on main until main has run its own unseen cases on it; that is owed. The agy lane's note to the owner and its relay on the loop are read in full through the mask (row 1696): six guardrails, three proposed routes and four data-free theorems, none verified, none adopted. Its seven reports are not read.
+- **A fault of main's own, caught by a lock before the commit.** Main refreshed the one line of live counts in the programme's findings from the wrong object and dropped its quote mark. The lock that compares that line with the builder's failed. The line is the builder's again.
+- 0 of 19.
+
 ## S306p THE ERRORS IN THE MATHEMATICS, THE SECOND OF THE NINE LEFT (WP-0.8): A SCAN THAT NEVER REFINED, REPLACED BY THE JOINT EIGENVALUES (E5) (2026-11-11)
 
 - **The finding.** B892 said a real-line scan, "120-point + golden-section", showed that no real point of nullity 14 exists on the line of the second measurement, "now a fact". The golden-section step sits under `if not found:`, and the grid always finds a known point, so the refinement never ran.

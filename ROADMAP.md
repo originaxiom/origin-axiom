@@ -34,7 +34,7 @@
 > same windows is pre-committed, so a ~2× tighter δ_CP fit decides ±120° either way). The response
 > is **THE WHY CAMPAIGN** (`docs/THE_WHY_CAMPAIGN.md`): make "cannot be coincidence" computable or
 > find the illusion's address. Its first cells banked: the **freedom ledger** prices the whole
-> chain's retroactive designer freedom at **0.000 bits** against a 4.585-bit conservative output
+> chain's retroactive designer freedom at **0.000 bits** [CORRECTED 2026-11-11 (the audit's finding E7): the freedom ledger's zero is not a computed quantity. Its eleven links are each priced at zero by hand, and its check is that a phrase is found in the cited arc's claim line. Not priced: the family declaration (the ledger's own addendum of 2026-08-12); the selection within the family, since B997's uniqueness was corrected on 2026-11-10 (the door set is {1, 4}; the golden is unique among primitive grammars only); and the choice of the principal embedding, which the ledger does not list and to which the cascade's landing is scoped (B854). The one endpoint it credits is the algebra of dimension 14, su(3) ⊕ su(2) ⊕ u(1)³, two abelian factors more than the Standard Model's (B892 as corrected by B1237). B1028's verdict is OPEN.] against a 4.585-bit conservative output
 > floor (COMPRESSION — the stop rule does not fire); the **invariant ring** proves θ = c∘r is the
 > value-kernel of the frame action (the legitimately-predictable set = the real subring; the
 > non-invariant remainder is exactly the one sign the crossing paid for). The counted input floor

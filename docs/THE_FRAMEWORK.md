@@ -292,7 +292,7 @@ against a conservative output-side floor of **4.585 bits** in declared ambient c
 (the global form: 2.0 bits; the endpoint: 1.585 bits; mass-in-the-cubic: 1.0 bit), with
 several genuinely free credits — the hypercharge continuum, the generation triple, the
 Yukawa pattern — left deliberately uncounted on the output side. Under that comparison
-the chain's retroactive designer freedom prices to **0.000 bits** (`docs/THE_CLAIM.md`
+the chain's retroactive designer freedom prices to **0.000 bits** [CORRECTED 2026-11-11 (the audit's finding E7): the freedom ledger's zero is not a computed quantity. Its eleven links are each priced at zero by hand, and its check is that a phrase is found in the cited arc's claim line. Not priced: the family declaration (the ledger's own addendum of 2026-08-12); the selection within the family, since B997's uniqueness was corrected on 2026-11-10 (the door set is {1, 4}; the golden is unique among primitive grammars only); and the choice of the principal embedding, which the ledger does not list and to which the cascade's landing is scoped (B854). The one endpoint it credits is the algebra of dimension 14, su(3) ⊕ su(2) ⊕ u(1)³, two abelian factors more than the Standard Model's (B892 as corrected by B1237). B1028's verdict is OPEN.] (`docs/THE_CLAIM.md`
 §1, B1028/B1030, verdict **COMPRESSION**) — a number the programme's own record flags,
 in the open, as a deliberately conservative comparison rather than a triumphant one; the
 floor could be drawn more generously in either direction, and nothing above forces one

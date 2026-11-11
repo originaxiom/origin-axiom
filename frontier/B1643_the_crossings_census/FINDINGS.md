@@ -48,7 +48,7 @@ Antusch, Hinze and Saad, arXiv:2510.01312 (the double ratio, as data); Barger, a
 1. **Every crossing identified by fiat.** Each attempt read a number of the object (a trace, a period, a phase, a
    probability) as a physical number. The record priced that step as the master identification I-13, UNEARNED
    (B1241). The seals killed each identification cleanly. The failures are failures of the dictionary, not of the
-   structure: the chain from the principle to the SM skeleton has zero retroactive designer freedom (B1028, COMPRESSION).
+   structure: the chain from the principle to the SM skeleton has zero retroactive designer freedom (B1028, COMPRESSION). [CORRECTED 2026-11-11 (the audit's finding E7): the freedom ledger's zero is not a computed quantity. Its eleven links are each priced at zero by hand, and its check is that a phrase is found in the cited arc's claim line. Not priced: the family declaration (the ledger's own addendum of 2026-08-12); the selection within the family, since B997's uniqueness was corrected on 2026-11-10 (the door set is {1, 4}; the golden is unique among primitive grammars only); and the choice of the principal embedding, which the ledger does not list and to which the cascade's landing is scoped (B854). The one endpoint it credits is the algebra of dimension 14, su(3) ⊕ su(2) ⊕ u(1)³, two abelian factors more than the Standard Model's (B892 as corrected by B1237). B1028's verdict is OPEN.]
 2. **The admissible lanes are almost spent** (B1020, the KIND_TABLE).
    - The coupling channel to the mixing sector is the only fully open lane. Its tones, probability and phases rows are
      consumed (B1066, B1027 + B1063); only the "mirror" row remains, and B1349 advised not spending it.

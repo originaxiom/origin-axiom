@@ -79,13 +79,13 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 
 ## 5. The audit of 2026-11-10
 
-- **73 findings:** reproduced 41, partly fixed 18, fixed 11, reader 3, open 0.
+- **73 findings:** reproduced 40, partly fixed 19, fixed 11, reader 3, open 0.
 - **15 carry the auditing seat's own verdict.** Fixed by main and not yet read by that seat: none.
 - **Changed by main since the seat last read them:** E4, E8.
 
 ## 6. The record's own list
 
-- **787 points registered, 272 open:** 130 lead, 84 debt, 54 process, 4 owner.
+- **789 points registered, 274 open:** 131 lead, 84 debt, 55 process, 4 owner.
 - **Calls that are the owner's to make (4):**
   - P-081: the reply to the outside reader, approached carefully so the contact is not lost: in his own context (one of his videos as the opening), short, honest…
   - P-082: a second outside reader, later, approached in his own context (relating to his videos), after the first correspondence

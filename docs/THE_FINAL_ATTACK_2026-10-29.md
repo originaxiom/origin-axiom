@@ -22,7 +22,7 @@ decisive. 0 of 19.*
 - **The null:** the same length for random worlds under the same framework. The support is informative only if random
   worlds need long addresses or have none.
 - This makes the scoreboard (P-418) and the nulls (P-412, B1798) one number. B1028 priced the structural chain this way
-  (0.000 bits of designer freedom); the value layer has never been priced in one number.
+  (0.000 bits of designer freedom) [CORRECTED 2026-11-11 (the audit's finding E7): the freedom ledger's zero is not a computed quantity. Its eleven links are each priced at zero by hand, and its check is that a phrase is found in the cited arc's claim line. Not priced: the family declaration (the ledger's own addendum of 2026-08-12); the selection within the family, since B997's uniqueness was corrected on 2026-11-10 (the door set is {1, 4}; the golden is unique among primitive grammars only); and the choice of the principal embedding, which the ledger does not list and to which the cascade's landing is scoped (B854). The one endpoint it credits is the algebra of dimension 14, su(3) ⊕ su(2) ⊕ u(1)³, two abelian factors more than the Standard Model's (B892 as corrected by B1237). B1028's verdict is OPEN.]; the value layer has never been priced in one number.
 
 ## 2. Where the programme stands, priced
 

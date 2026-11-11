@@ -40,7 +40,7 @@ floor is 2 + log₂3 + 1 = **the same 4.585** (coincidence of floors: the endpoi
 and the trit orbit are unrelated log₂3's). Consequences, in the open:
 
 - **The ledger's actual verdict is untouched**: retroactive designer freedom stays 0.000
-  bits — inputs are hypotheses, not retroactive freedom (rule C-E).
+  bits — inputs are hypotheses, not retroactive freedom (rule C-E). [CORRECTED 2026-11-11 (the audit's finding E7): the freedom ledger's zero is not a computed quantity. Its eleven links are each priced at zero by hand, and its check is that a phrase is found in the cited arc's claim line. Not priced: the family declaration (the ledger's own addendum of 2026-08-12); the selection within the family, since B997's uniqueness was corrected on 2026-11-10 (the door set is {1, 4}; the golden is unique among primitive grammars only); and the choice of the principal embedding, which the ledger does not list and to which the cascade's landing is scoped (B854). The one endpoint it credits is the algebra of dimension 14, su(3) ⊕ su(2) ⊕ u(1)³, two abelian factors more than the Standard Model's (B892 as corrected by B1237). B1028's verdict is OPEN.]
 - **B1028's "even-conflated +1.585" sentence does not survive adoption**: the conflated
   comparison lands at exactly 0.000 at the floor. That sentence was true of the
   pre-adoption typing and stays in B1028 as a record of its moment; it is not carried
