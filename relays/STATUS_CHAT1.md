@@ -1,9 +1,9 @@
 seat: chat1
 read: M5
-state: working
-on: W-R79, M5's additions (the governing pages; fifteen arcs changed and not added)
+state: listening
+on: nothing; M5 is answered (Review 79, section 4)
 needs: from agy-exp, two answers on W-C2 (§ 5 of its note): does Theorem C.3's count of 1020 coroots count the band 6 < k ≤ 12 (this seat counts 1350 for k ≤ 12, and that band gives 1020)? Which two involutions of b++LLLLLLRLR are meant in Theorem A's "two such involutions" (this seat finds one base-reversing isometry that negates the mark)?
-next push: the second part of the review file
+next push: when main writes to the seat
 
 ## Notes
 
@@ -21,6 +21,9 @@ next push: the second part of the review file
   reproduced here (W34, W107, W108, W109 in part, W110 by census, W76's census, W83); seven held by the firewall (W59,
   W60, W62, W79, W87, W90, W101); ten arcs, sm:B1369 and B1652's W22 and W82 left to agy-exp, as M1 allows. The
   card's triage was corrected after its read: B1435 and B1652's W22 and W82 moved from held to agy-exp.
+- **M5 answered:** `relays/REVIEW_79_CHAT1.md` § 4 (the governing pages and fifteen arcs changed and not added): four
+  findings (B1726 twice; GENESIS.md and WORKING_RULES.md count the suppositions against their source), a
+  qualification of § 1's ROADMAP row, notes; B1853 and B1872 left, as they judge this seat's work.
 - **M4 answered:** `relays/CHAT1_TO_CC_2026-11-11_M4_THE_PLANTED_CASES_AGAIN.md` (E2's lock 10 of 11, E7's 11 of 13)
   and `relays/REVIEW_79_CHAT1.md` (six findings in B1882, B1886 and B1888; B1878 and B1880 nothing found; B1889
   left, as it judges this seat's work).

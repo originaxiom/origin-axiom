@@ -55,4 +55,63 @@ its § 2 leaves it.)
 | B1886 | FINDINGS in full; the lock, run once (K5: 6 passed); this seat's own routes over `GENESIS.md`, K2 and K2b. K2 matches the 29 rows the lock reads, T-ROOT included. The first status word is unchanged in the 22 where this route finds one. The three new items are FK16, PF5 and SE3. K2b finds 19 rows of tables with a Status column, none changed. Recomputed independently, for those rows. B1886 cites this seat's card on the ground, verified in B1884; it does not judge it | the 7 rows whose status word this route does not know (F-AP, F-CI, F-FC, F-HE, FK1, FK11, GM5b). `GENESIS.md`'s wording beyond the status cells. The map's, the budget's and the falsifier register's entries. Not read: the verdict file |
 | B1888 | FINDINGS in full (read first for this seat's cold read); the chain's run output; the lock's assertions; the script's method. The counts hold: 17 files, 3,032 lines, 14 arcs, 6 and 4 direct dependencies, two copies of the helper | the chain script was not rerun. The measured file is named in main's code and was not opened. Not read: the verdict file beyond its head, and `candidate_chain.json`. This seat is a party: its cold read answers B1888's ask |
 
+## 4. M5's additions: the governing pages and fifteen arcs changed and not added
+
+**Read as § 13 asks:** `git diff 38d2a36dc 0dda7b472 -- PATH` for each path main named, through the mask, with
+0dda7b472 the commit the listener printed with M5. Every quotation of this section, in the table and in the notes,
+was checked by machine against its file at 0dda7b472 (`relays/chat1_2026-11-11_r79/r79_checks_m5_out.txt`).
+
+| arc | file | quoted exactly | what is wrong | how this seat knows |
+|---|---|---|---|---|
+| B1726 | `frontier/B1726_the_two_ingredients_replicated/FINDINGS.md` | "A lower bottom end would add almost none (0.06)." | Kind 3, the same root as § 1's B1882 row, carried into this window's dated note. The note quotes the covariant and free readings for the top end ("1.5 to 2"). For the bottom end it gives the seat's menu alone (0.06); the first null's covariant menu has 0.18 | B1882's `card/v1_null_run.txt` line 29 |
+| B1726 | `frontier/B1726_the_two_ingredients_replicated/FINDINGS.md` | "among the well-fitted the last layer is below its neighbour" | Kind 3. B1882 § 4 says this of the seat's three cells ("in all three cells"); the note drops that limit. Under the first null's covariant menu the last layer is above its neighbour among the best 0.1% (0.130 against 0.123) | B1882's `card/v1_null_run.txt` line 31 |
+| B1886 | `GENESIS.md` | "Eleven entries of the record came as suppositions accepted on a seat's recommendation, or relayed by a seat" | Kind 2: a number that differs from its source. The cited sort (the advisor seat's `rulings_sorted/THE_RULINGS_SORTED.md` @ 7726eeed, its § 1 table) counts the suppositions as fourteen entries that are eleven things | that table's row for suppositions, line 22, read through the mask (the file quotes the owner; nothing of it is quoted here) |
+| (the governing pages) | `WORKING_RULES.md` | "81 decisions and 16 statements of what he means, which are his to make; 11" | Kind 2, the same source. These three are parts of the 111 rulings the sentence names, and they add to 108. The source's parts are 81, 16 and 14 entries (the fourteen being eleven things) | as above |
+| B1886 | `ROADMAP.md` | "waits on a computation, at the owner's word (P-769)." | **A qualification of § 1's row, not a new finding.** The lines sit inside the section headed "VIEW REFRESH — 2026-11-11 (Review 78)". It was written at Review 78 (c626627cd) and corrected as part of it at 7480c2426, before B1879 and B1886. The same commit wrote the goal into `GOVERNANCE.md`, so "none is yet written into a governing document" can only describe the state at the review. If a dated refresh is a record of its review, the row is not a fault. It is still the newest view on the root page, and no later section says otherwise | `ROADMAP.md` at 0dda7b472, the heading at line 727; `git blame` |
+
+**Notes that are not findings.**
+- **`WORKING_RULES.md`, the rule of 2026-11-11 on one channel to the owner,** quotes him verbatim three times, his
+  answer to main among them, on a governing page.
+  - It stands beside the amendment of the same day (P-796), which asks that nothing he says be quoted. The amendment
+    keeps what was recorded before its date; whether that covers the same day is main's to say.
+  - B1877's lock pins two of his answers of 2026-11-11 as strings, and its new paragraph and claim line quote one.
+  - B892's dated note says of the advisor seat's re-audit that it "accepts this mend". B1726 and B1753 say the card
+    was "decided by the advisor seat's sealed card". These are words of the same day, before P-797 (7b89eda8a).
+- **The protocol names one check two ways, and asks for a verdict where § 12 asks for a result.**
+  - § 2 of `docs/seats/README.md` lists "recomputed with separate code"; § 12 ("these words and no others") has
+    "recomputed independently" for the same thing.
+  - § 8 asks a seat that uses its own code for "REPRODUCED, DIFFERS, or CANNOT CHECK". § 12 defines reproduced as the
+    same code run again and says that a check has a result, not a verdict.
+- **B1853 and B1872 are left.** Their dated notes verify this seat's card on the read-out as a value and its relay
+  on what symmetry allows a state of the whole. They judge this seat's work.
+- **B1675's change applies this seat's W-C3 finding.** It was read: the corrected sentence agrees with main's own
+  run (718 that keep a line and 40 that keep all three), and the old sentence is kept.
+
+**Read, and nothing found:**
+- `GOVERNANCE.md` (the amendment is logged), `TERMINOLOGY.md`, `CLAIMS.md` and `README.md` (1,592 and 810 add up).
+- `GENESIS.md`, but for the row above.
+- B874: 34 = 2 + 2 + 6 × 5; seven classes, three real.
+- B892:
+  - every wall, nullity and count in the corrected note matches both new run outputs at all three roots;
+  - the verdict file is re-indented, and its claim line gains a dated correction (E5) that agrees with the note.
+- B1221: 72 = 3 × 2 × 12; 144 and 360 at 24 and 60 points; 12, 24 and 60 are all multiples of 6.
+- B1486, B1494, B1499: dated notes, each disclosing a change made after a seal.
+- B1641: corrected the same evening, as is register row P-802; 27/2 − 3/2 = 12.
+- B1753: 2.0 to 2.4 under the other menus and a bottom end of 0.08, both match B1882's run.
+- B1874: eleven class-A entries, two bearing on a result; the lock asserts both.
+- B1877: three disclosures, and its claim line's over-reading corrected.
+- B1861, its `FINDINGS.md` and the build run:
+  - the last step, the comparison, rests on 42 = 43 − 1 packages (arithmetic and the builder's one-end rule; the
+    order itself was not traced);
+  - the budget's 47 items and 39 inputs, the exits (28 named, 11 untouched), the packages (1, 18, 24) and the
+    audit's 73 all add up.
+
+**Not read in this addition, and why:**
+- B1861's generated `PROGRAMME.md` and `PROGRAMME.json`, line by line: 735 changed lines (590 in the JSON, 145 in the
+  page), gated against their builder.
+- B1861's builder, source and lock changes.
+- B892's two new scripts and JSON outputs.
+- `docs/seats/README.md` beyond §§ 1 to 8 and the §§ 9, 12 and 13 read earlier.
+- Each governing page beyond its diff.
+
 0 of 19.
