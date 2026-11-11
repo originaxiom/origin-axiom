@@ -1,0 +1,83 @@
+{
+ "as_of": "338b14fe3db9528c69ef901a20e4930d0e7f023e",
+ "readers": {
+  "reader_G1_sm.txt": {
+   "quotes": 98,
+   "tally": {
+    "EXACT": 97,
+    "EXACT, ANOTHER ROW NAMED ON THE LINE": 1
+   },
+   "not_exact": []
+  },
+  "reader_G2_web.txt": {
+   "quotes": 106,
+   "tally": {
+    "ELSEWHERE": 1,
+    "EXACT": 105
+   },
+   "not_exact": [
+    {
+     "line": 123,
+     "verdict": "ELSEWHERE",
+     "quote": "VERIFIED WITH CORRECTIONS"
+    }
+   ]
+  },
+  "reader_G3_physical.txt": {
+   "quotes": 75,
+   "tally": {
+    "ELSEWHERE": 2,
+    "EXACT": 71,
+    "EXACT, ANOTHER ROW NAMED ON THE LINE": 1,
+    "NOT FOUND": 1
+   },
+   "not_exact": [
+    {
+     "line": 1,
+     "verdict": "ELSEWHERE",
+     "quote": "at headline level"
+    },
+    {
+     "line": 40,
+     "verdict": "ELSEWHERE",
+     "quote": "read in full by a reader pass"
+    },
+    {
+     "line": 50,
+     "verdict": "NOT FOUND",
+     "quote": "at headline level ... not re-run on main"
+    }
+   ]
+  },
+  "reader_G4_small_live.txt": {
+   "quotes": 86,
+   "tally": {
+    "EXACT": 86
+   },
+   "not_exact": []
+  },
+  "reader_G5_retired.txt": {
+   "quotes": 71,
+   "tally": {
+    "ELSEWHERE": 1,
+    "EXACT": 63,
+    "EXACT, ANOTHER ROW NAMED ON THE LINE": 6,
+    "NOT FOUND": 1
+   },
+   "not_exact": [
+    {
+     "line": 28,
+     "verdict": "ELSEWHERE",
+     "quote": "headline and claims level"
+    },
+    {
+     "line": 53,
+     "verdict": "NOT FOUND",
+     "quote": "SCHEDULED (no main text names it, slice D backlog)"
+    }
+   ]
+  }
+ },
+ "quotes": 436,
+ "exact": 430
+}

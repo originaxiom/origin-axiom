@@ -1,5 +1,19 @@
 # Changelog
 
+## S306p THE SEATS, DIGESTED AT THE OWNER'S WORD, AND MAIN'S PROPOSAL FOR THE LOCK (B1889; P-788, P-790, P-791) (2026-11-11)
+
+- **Why.** The owner: "did you process and harvest all branches? should you make that priority, so you underatabd what seats you have in disposal and whats their capacity"; and then that after the digest "we should stop and reorganize the work, so we lock the plan together me and you".
+- **The count.** The seats have sent 1,686 items in two months. Main has recomputed 377 of them itself: 349 held, 28 differed, and in at least three of the 28 the fault was main's. 455 were read without recomputation. 560 are registered and were never fully read, 239 of them the physical lane's and 160 the SM seat's. 233 were closed by triage. 55 are not read, 46 of them from seats that have ended.
+- **Every row falls to exactly one of 23 seats.** 130 rows were filed under names that match no registered seat; they are sorted, and the sorting is on the page.
+- **Four seats are working:** the web seat, the advisor seat, the agy lane and the physical lane. Each has a card that says what its record shows and where it has been wrong.
+- **How it was made.** The counts are generated from the harvest ledger at one commit and a lock recomputes them. Five read-only readers on the cheaper tier grouped the rows by theme; 430 of their 436 quotes are in the row they name word for word, and the other six are not used. Main read for itself the 28 rows that differed, the 55 not read and every row the cards name.
+- **What the record holds and has not used.** The readers flagged 74 items as possibly bearing on the goal. Main has judged none of them; sorting them is P-791.
+- **Main is the narrow place.** For 26 of the plan's 43 packages main is the only builder named, and 18 of the 26 packages of mathematics are not started.
+- **The proposal for the lock, not in force.** The programme in three stages, the first two side by side; a role for each seat by its record; verification in a ring, since no seat verifies its own work (the owner asked the same afternoon whether a parallel seat can verify while main banks: P-790); one card for each piece of work, approved once; three things only the owner can settle.
+- **Two faults of main's own.** Its first cut filed the independent audit lane's two rows under the physical lane. A planted case in the new lock found that the generator crashed on a row no seat claims. Both are mended.
+- **The tenth harvest of the day: the advisor seat's sixth re-audit (row 1700).** Of main's first two mends of the errors in the mathematics: the finding E5 is accepted, computed again by another route; the finding E2 is accepted in part, because B734's own line still leads with the old level and the generated spine shows only that. Both verdicts are entered and the line mended at the next landing. The owner's question to that seat is recorded with it: "one question, how did we fix the continuity issye we had with repo?".
+- **This landing advanced no package.** It is the digest the owner asked for before the plan is locked. 0 of 19.
+
 ## S306p THE ERRORS IN THE MATHEMATICS, THE THIRD OF THE NINE LEFT (WP-0.8): "0.000 BITS OF DESIGNER FREEDOM" WAS ELEVEN ZEROS TYPED BY HAND (E7) (2026-11-11)
 
 - **The finding.** B1028, the freedom ledger, said the whole chain from the axioms to the Standard Model's skeleton has "0.000 bits of retroactive designer freedom, machine-checked", and was graded PROVED. The roadmap, the claim page and the framework page quote it.

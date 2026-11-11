@@ -1,0 +1,86 @@
+PART 1 - SEAT CARDS (536 rows total; "review" seat has 0 rows)
+
+SEAT: cloud, 213 rows, 2026-09-08 to 2026-10-04
+WHAT IT DID: An outside-bench seat that wrote numbered memos on knot-complement, colored-Jones, cusp-census and certificate work. Main harvested them in slices (B1305, B1306, B1414, B1469), and most rows are memo-by-memo backlog entries closed at B1850 or graded "earlier".
+BY CLASS: verified 50, registered 53, closed by triage 83, read 1, differed 5, unread 21. Note: many "verified" rows are VERIFIED-EARLIER or ALREADY ON MAIN (the grade is another arc's) and not a fresh recomputation.
+HELD UP: Row 43: "B1295 (2026-09-07) was main's independent derivation to degree 10; this arc extends it to 12". Row 89: "VERIFIED from the arXiv SOURCE with own code".
+DID NOT HOLD: Row 53: "a scratch file on the seat's machine (E57-shaped)". Rows 579, 598, 604, 605 each: "DISPUTED, adjudicated in B1414" (memos 203, 222, 228, 229). Class-verified/registered rows that also show faults: row 38 "the negative control fails on main's tree only through this arc's own DESIGN and saved cloud table"; row 39 (ARC line) "FALSE for 66 of the 77 irregular covers to degree 10"; row 44 "VERIFIED-DIFFERS on one framing (the mirror-odd quantity is the block centre, not c)"; row 47 "the tangent mistaken for the curve; Gelfond and Lehmer sections void"; row 91 "the table it rested on came from eq (32)'s defective recursion".
+
+SEAT: cc3 (paper seat) with braver, 99 rows (93 + 6), 2026-09-08 to 2026-09-16
+WHAT IT DID: A paper-writing seat that sent numbered B80xx/B81xx items on the SU(3) level-2 representation, the ℚ(√−3) family, the 109-flat arrangement and related checks. Braver was a branch with questions and a literature harvest.
+BY CLASS: cc3 verified 25, registered 26, closed 36, differed 1, unread 5. Braver: closed 4, differed 1, unread 1. Combined: v25 r26 c40 d2 u6.
+HELD UP: Row 102: "by an independent complete invariant (Gauss reduction cycles)". Row 624: "all six steps re-run here, rc 0; forward pointer added to B1160".
+DID NOT HOLD: Row 625: "REFUTED on main: the narrow class group of discriminant 148 has order 3". Row 321 (same item): "B1416 refuted B8148's m = 12 count by its own recount (row 625)". Row 626 (registered): "a refutation of cc3's own earlier assembly claim". Braver row 37: "\"structure only\" is wrong about that paper".
+
+SEAT: fc (physics seat), 78 rows, 2026-09-08 to 2026-09-16
+WHAT IT DID: A retired physics seat whose numbered reports (R1-R72, H1, H2) cover Lie-algebra lifts, family counts, and the m202 sibling. Most rows are the 2026-09-09 backlog, closed at B1850 by pointing to arcs B1235-B1241.
+BY CLASS: verified 14, registered 6, closed 45, differed 1, unread 12.
+HELD UP: Row 105: "from the Cartan matrix alone: 170 labellings mod the centre". Row 631: "VERIFIED on main (own grid code, B1417; fc's grid re-run earlier in B1298)".
+DID NOT HOLD: Row 33: "R49's rank count is right for the REGULAR" embedding, but "B1140 stands with the scope clause" (so fc's room claim was scoped, not overturned). Weaker: row 24 count "recorded as fc records it, not re-derived as a spectrum".
+
+SEAT: codex, 46 rows, 2026-09-09 to 2026-09-16
+WHAT IT DID: A review seat whose numbered items R001-R040 are certificates and audits; main mostly cross-referenced them to earlier arcs.
+BY CLASS: verified 9, registered 18, closed 13, unread 6.
+HELD UP: Row 108: "VERIFIED and REPAIRED on main". Row 629: "re-run here: rc 0, 3 PASS, 125 tail lifts give one observable".
+DID NOT HOLD: No row is class=differed. Row 108 says main repaired the ratchet and registered I-29 as UNEARNED.
+
+SEAT: sep16 (lane "xb"), 34 rows, 2026-09-18 to 2026-10-04
+WHAT IT DID: A lane of 34 numbered arcs (xB001-xB034). Main read most only at "headline and claims level" and listed their claims about main's record in lead L245.
+BY CLASS: verified 10, registered 22, differed 1, unread 1.
+HELD UP: Row 641: "CS(m004) = 0 and CS(m003) = 1/4 recomputed here". Row 849: "B742's 30 reconfirmed + 2 revived tallied directly".
+DID NOT HOLD: Row 850 (differed): "the lane's five counter-examples are real and its instrument an anti-homomorphism". Partly verified, with false claims: row 842 "'never visited / never met' false (B98, 2026-06-06)"; row 851 "'no arc dropped A5' false (B302, B266)"; row 859 "the 'census observation' claim false".
+
+SEAT: qor5up (consolidation seat), 30 rows, 2026-09-09
+WHAT IT DID: A consolidation seat whose items B1025-B1054 were all closed by pointing at a digest ledger (B1060) that grades them.
+BY CLASS: closed 30; all others 0.
+HELD UP: (class closed, not verified) Row 498: "qB1029 ACCEPTED, rebuilt on main's bench." Row 517: "qB1048 ACCEPTED, its boundary rebuilt on main's bench (B426 addendum)."
+DID NOT HOLD: Row 508: "qB1039 CORRECTED, rebuilt on main's bench; addendum landed."
+
+SEAT: hostile (hostile-review seat), 28 rows, 2026-09-08 to 2026-09-09
+WHAT IT DID: A hostile-review seat whose memos largely duplicate the cloud seat's "golden_gate" memos. Main later found it had marked several as unnamed when they were already verified on main.
+BY CLASS: verified 15, registered 6, closed 6, differed 1.
+HELD UP: Row 331: "re-derived on main with main's own code, B1143". Row 114: "on 16 geodesics of m004 to length 3.0".
+DID NOT HOLD: Row 34: "the sentence is an unasserted verdict string beside a number that does not test it".
+
+SEAT: sessionrelay, 8 rows, 2026-09-09
+WHAT IT DID: A session-relay handoff covering the word-order mirror, "no arrow" and the Goldman/Fricke prior-art gate. Main reproduced its scripts and recorded the identity in an addendum on B497.
+BY CLASS: verified 4, registered 2, closed 1, differed 1.
+HELD UP: Row 94: "and NEW to main as an explicit identity". Row 92: "is sharper and enters the hint ledger with credit".
+DID NOT HOLD: Row 93 (differed, in the seat's favour): "B1083's correction never reached B766's title" (error was main's). Row 96: "SUPERSEDED-BY-SEAT as to its sealed wording" (seat refuted its own G3).
+
+PART 2 - THE UNREAD ROWS (46)
+
+Cloud (21), all "SCHEDULED (no main text names it, slice D backlog)" unless noted:
+371 memo 122; 374 memo 125 [note: "The memo's PC04 verdict and its permanence claim (P4, nonvanishing cofactors) are on no arc."]; 381 memo 132; 384 memo 135; 392 to 396 memos 143 to 147; 409, 410, 411 memos 160 to 162; 414 memo 165 [note: "THE_CHAIN_STATUS still says λ has no acceptance criterion"]; 416 memo 167; 418 memo 171; 448 memo 59 [note: "the centre identification and the dimension-297 commutant are unverified."]; 450 memo 61; 461 memo 72; 465 memo 76; 466 memo 77; 474 memo 85.
+cc3 (5): 245 B8068; 249 B8072; 266 B8092 [note: "No main arc engaged B8092's findings"]; 297 B8124; 299 B8126.
+braver (1): 493 tierB_opening.
+fc (12): 137 H2; 138 R1; 139 R10; 146 R17; 162 R31 [note: "B1237 lists R31 among MATCH items it explicitly did not recompute."]; 171 R4 [note: "R04's B994 provenance defect (no producing script, no lock) remains unaddressed."]; 181 R5; 185 R53; 186 R54; 187 R55; 189 R57 [note: "That pointer collides with fc R57; fix it before closing."]; 201 R9.
+codex (6): 207 R006 [note: "no main arc read codex R006. Content is on main; fits NO-LOAD."]; 208 R007 [note: "no main text names R007 or OA-C1070. Content is on main; fits NO-LOAD."]; 214 R013; 219 R018; 224 R023; 237 R031D (superseded by verified row 629).
+sep16 (1): 642 xB001, xB002: "RECEIVED, NOT READ" (the lane's other 21 arcs were backlog under a pin).
+
+What they are: mostly backlog memos or reports never named by any main arc, plus a few where a later reader (2026-11-06) declined to confirm an earlier closure. The rows give no direct reason to call any one important, but two link to open leads. Row 214 (codex R013) is named as the base of P-613: row 309 says "Paper II's 109-flat lattice is the one P-613 rests on (via codex R013)", and row 322 says "B8149 narrows codex R013's residue, on which P-613 rests". Row 187 (fc R55) bears on the open lead P-615: row 350 says "bears on the open lead P-615 (fc R55's γ₅ = T assignment)". Rows 374, 414, 448 and 171 each state a specific unverified claim or defect.
+
+PART 3 - REGISTERED AND POSSIBLY IMPORTANT
+
+1. Row 3 (fc): "I-28 UNEARNED, joins I-27's source". Adds a further unearned identification, so it bears on the input count.
+2. Row 39 (cloud): "B1297's missing B1227 anchor fixed (E53)". An error in main's own record; its ARC line also says a clause is false for most irregular covers.
+3. Row 98 (sessionrelay): "no computation on main connects the Fricke-surface node to the McKay kernel". A gated hint not yet a lead; could become a structural route.
+4. Row 107 (fc): "main has no exact e₈ bracket table". An instrument gap behind the order-three-lift results.
+5. Row 113 (hostile): "as the seat's typed negative". A negative result that may kill a typing route.
+6. Row 572 (cloud memo 196): "Addendum 1's word-identity finding is REPRODUCE-AND-BANK and NOT yet cited on main". A finding not yet on main (row 387 says B1414 later reproduced it).
+7. Row 578 (cloud memo 202): "REPRODUCE-AND-BANK for cell 1 and the Coxeter-duality framing (genuinely new, not yet on main)". Possibly new structure.
+8. Row 626 (cc3): "a refutation of cc3's own earlier assembly claim; main's entrance argument (B266's arithmetic chain) never relied on it". Kills a route, and main says it did not depend on it.
+9. Row 628 (cc3): "answered NEGATIVELY in B1416". The requested theorem from the ℚ(√−3) family to 2T fails for 35 of 112 members, a route-killing negative.
+10. Row 630 (codex): "OA-C1184 (a finite RCFT receiver for m004) open". An open question bearing directly on the object.
+11. Row 876 (cloud memo 236): "registered as a tool gap". The duplicate-detection tool does not scan the paper's main file, an instrument weakness.
+12. Row 873 (sep16 xB034): "6 claim(s) about main's record and 3 ask(s), listed in lead L245 to verify". Unverified claims about main's work; rows 856 and 869 have the same form with 6 claims each.
+
+PART 4 - CLOSED BY TRIAGE (218 rows)
+
+Most were closed at R76-1/B1850 on one of three grounds. A later main arc reproduced or adopted the item (CLOSED-HANDLED, e.g. B1201, B1237, B1240, B1147). Or no B1600+ arc or open row names it (CLOSED-NO-LOAD-NO-LEAD). Or an open lead carries it (CARRIED by P-613, P-615, P-528, P-606, P-492). The 30 qor5up rows rest on a digest-ledger grade, mostly ACCEPTED-WEAK, and a few rows (571, 594) say only SUPERSEDED. The NO-LOAD-NO-LEAD ground is an absence-of-citation test and is the weakest in kind, and some HANDLED closures say the check was partial:
+- Row 351: "The 953 generator follows but was not separately checked."
+- Row 451: "It was banked cited-only; RELAY row 78 says not re-run."
+- Row 178: "L198 is still open and, per B1850's note, still owes the R46 certificates."
+- Row 159: "It is an adoptable certificate, but no current result needs the family's shapes to be exact."
+- Row 510: "3 of 10 checks are environment-bound."
+(Row 463 also notes "P-606 disputes B1161's degree-2 reasoning", and the 2026-11-06 notes on unread rows show the first reader's HANDLED verdicts were sometimes unfounded.)

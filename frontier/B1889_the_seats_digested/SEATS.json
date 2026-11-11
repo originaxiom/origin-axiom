@@ -1,0 +1,1878 @@
+{
+ "as_of": "338b14fe3db9528c69ef901a20e4930d0e7f023e",
+ "rows": 1686,
+ "last_row": 1699,
+ "totals": {
+  "verified": 349,
+  "differed": 28,
+  "read": 455,
+  "registered": 560,
+  "closed by triage": 233,
+  "not read": 55,
+  "other": 6
+ },
+ "seats": [
+  {
+   "key": "chat1",
+   "name": "the web seat (chat1)",
+   "state": "working",
+   "reads": "directly",
+   "rows": 233,
+   "by_class": {
+    "verified": 58,
+    "differed": 11,
+    "read": 135,
+    "registered": 19,
+    "closed by triage": 2,
+    "not read": 5,
+    "other": 3
+   },
+   "recomputed": 69,
+   "recomputed_share": 0.296,
+   "first": "2026-09-08",
+   "last": "2026-11-11"
+  },
+  {
+   "key": "advisor",
+   "name": "the advisor seat (cld-advisor)",
+   "state": "working",
+   "reads": "directly",
+   "rows": 46,
+   "by_class": {
+    "verified": 2,
+    "differed": 0,
+    "read": 40,
+    "registered": 3,
+    "closed by triage": 0,
+    "not read": 1,
+    "other": 0
+   },
+   "recomputed": 2,
+   "recomputed_share": 0.043,
+   "first": "2026-11-10",
+   "last": "2026-11-11"
+  },
+  {
+   "key": "agy",
+   "name": "the agy lane (four branches)",
+   "state": "working",
+   "reads": "through the mask only; its code is never run",
+   "rows": 32,
+   "by_class": {
+    "verified": 4,
+    "differed": 0,
+    "read": 22,
+    "registered": 3,
+    "closed by triage": 0,
+    "not read": 0,
+    "other": 3
+   },
+   "recomputed": 4,
+   "recomputed_share": 0.125,
+   "first": "2026-10-27",
+   "last": "2026-11-11"
+  },
+  {
+   "key": "audit",
+   "name": "the physical lane (the audit seat)",
+   "state": "working",
+   "reads": "its purely mathematical files, through the second mask",
+   "rows": 308,
+   "by_class": {
+    "verified": 31,
+    "differed": 0,
+    "read": 87,
+    "registered": 187,
+    "closed by triage": 3,
+    "not read": 0,
+    "other": 0
+   },
+   "recomputed": 31,
+   "recomputed_share": 0.101,
+   "first": "2026-09-08",
+   "last": "2026-11-10"
+  },
+  {
+   "key": "auditfork",
+   "name": "the physical lane's fork lane",
+   "state": "quiet since 2026-10-13",
+   "reads": "as the physical lane",
+   "rows": 53,
+   "by_class": {
+    "verified": 0,
+    "differed": 0,
+    "read": 1,
+    "registered": 52,
+    "closed by triage": 0,
+    "not read": 0,
+    "other": 0
+   },
+   "recomputed": 0,
+   "recomputed_share": 0.0,
+   "first": "2026-09-20",
+   "last": "2026-10-13"
+  },
+  {
+   "key": "explore",
+   "name": "the explore seat",
+   "state": "quiet since 2026-11-07",
+   "reads": "directly",
+   "rows": 5,
+   "by_class": {
+    "verified": 5,
+    "differed": 0,
+    "read": 0,
+    "registered": 0,
+    "closed by triage": 0,
+    "not read": 0,
+    "other": 0
+   },
+   "recomputed": 5,
+   "recomputed_share": 1.0,
+   "first": "2026-11-07",
+   "last": "2026-11-07"
+  },
+  {
+   "key": "sm",
+   "name": "the SM-derivation seat",
+   "state": "quiet since 2026-11-06",
+   "reads": "directly",
+   "rows": 463,
+   "by_class": {
+    "verified": 119,
+    "differed": 5,
+    "read": 166,
+    "registered": 160,
+    "closed by triage": 10,
+    "not read": 3,
+    "other": 0
+   },
+   "recomputed": 124,
+   "recomputed_share": 0.268,
+   "first": "2026-09-08",
+   "last": "2026-11-06"
+  },
+  {
+   "key": "independent",
+   "name": "the independent audit lane",
+   "state": "quiet since 2026-11-03",
+   "reads": "directly",
+   "rows": 2,
+   "by_class": {
+    "verified": 2,
+    "differed": 0,
+    "read": 0,
+    "registered": 0,
+    "closed by triage": 0,
+    "not read": 0,
+    "other": 0
+   },
+   "recomputed": 2,
+   "recomputed_share": 1.0,
+   "first": "2026-11-03",
+   "last": "2026-11-04"
+  },
+  {
+   "key": "referee",
+   "name": "the referee lane",
+   "state": "quiet since 2026-10-17",
+   "reads": "directly",
+   "rows": 4,
+   "by_class": {
+    "verified": 1,
+    "differed": 1,
+    "read": 1,
+    "registered": 1,
+    "closed by triage": 0,
+    "not read": 0,
+    "other": 0
+   },
+   "recomputed": 2,
+   "recomputed_share": 0.5,
+   "first": "2026-10-04",
+   "last": "2026-10-20"
+  },
+  {
+   "key": "weavearchive",
+   "name": "the weave archive (an import, not a seat)",
+   "state": "one import, 2026-10-13",
+   "reads": "directly",
+   "rows": 1,
+   "by_class": {
+    "verified": 0,
+    "differed": 0,
+    "read": 1,
+    "registered": 0,
+    "closed by triage": 0,
+    "not read": 0,
+    "other": 0
+   },
+   "recomputed": 0,
+   "recomputed_share": 0.0,
+   "first": "2026-10-13",
+   "last": "2026-10-13"
+  },
+  {
+   "key": "banking",
+   "name": "the owner's other workspace (one handoff)",
+   "state": "one handoff, 2026-10-13",
+   "reads": "directly",
+   "rows": 1,
+   "by_class": {
+    "verified": 0,
+    "differed": 0,
+    "read": 1,
+    "registered": 0,
+    "closed by triage": 0,
+    "not read": 0,
+    "other": 0
+   },
+   "recomputed": 0,
+   "recomputed_share": 0.0,
+   "first": "2026-10-13",
+   "last": "2026-10-13"
+  },
+  {
+   "key": "lp",
+   "name": "the listening thread",
+   "state": "ended 2026-10-06",
+   "reads": "directly",
+   "rows": 2,
+   "by_class": {
+    "verified": 0,
+    "differed": 0,
+    "read": 0,
+    "registered": 2,
+    "closed by triage": 0,
+    "not read": 0,
+    "other": 0
+   },
+   "recomputed": 0,
+   "recomputed_share": 0.0,
+   "first": "2026-10-07",
+   "last": "2026-10-07"
+  },
+  {
+   "key": "hypatia",
+   "name": "a session lane (one commit)",
+   "state": "ended 2026-10-06",
+   "reads": "directly",
+   "rows": 0,
+   "by_class": {
+    "verified": 0,
+    "differed": 0,
+    "read": 0,
+    "registered": 0,
+    "closed by triage": 0,
+    "not read": 0,
+    "other": 0
+   },
+   "recomputed": 0,
+   "recomputed_share": null,
+   "first": null,
+   "last": null
+  },
+  {
+   "key": "cloud",
+   "name": "the cloud seat (the outside bench)",
+   "state": "ended 2026-09-18",
+   "reads": "directly",
+   "rows": 213,
+   "by_class": {
+    "verified": 50,
+    "differed": 5,
+    "read": 1,
+    "registered": 53,
+    "closed by triage": 83,
+    "not read": 21,
+    "other": 0
+   },
+   "recomputed": 55,
+   "recomputed_share": 0.258,
+   "first": "2026-09-08",
+   "last": "2026-10-04"
+  },
+  {
+   "key": "cc3",
+   "name": "cc3 (the paper seat)",
+   "state": "ended 2026-09",
+   "reads": "directly",
+   "rows": 93,
+   "by_class": {
+    "verified": 25,
+    "differed": 1,
+    "read": 0,
+    "registered": 26,
+    "closed by triage": 36,
+    "not read": 5,
+    "other": 0
+   },
+   "recomputed": 26,
+   "recomputed_share": 0.28,
+   "first": "2026-09-09",
+   "last": "2026-09-16"
+  },
+  {
+   "key": "braver",
+   "name": "cc3's braver-questions branch",
+   "state": "ended 2026-09",
+   "reads": "directly",
+   "rows": 6,
+   "by_class": {
+    "verified": 0,
+    "differed": 1,
+    "read": 0,
+    "registered": 0,
+    "closed by triage": 4,
+    "not read": 1,
+    "other": 0
+   },
+   "recomputed": 1,
+   "recomputed_share": 0.167,
+   "first": "2026-09-08",
+   "last": "2026-09-09"
+  },
+  {
+   "key": "fc",
+   "name": "the physics seat (fc)",
+   "state": "retired 2026-10-04 at the owner's word",
+   "reads": "directly",
+   "rows": 78,
+   "by_class": {
+    "verified": 14,
+    "differed": 1,
+    "read": 0,
+    "registered": 6,
+    "closed by triage": 45,
+    "not read": 12,
+    "other": 0
+   },
+   "recomputed": 15,
+   "recomputed_share": 0.192,
+   "first": "2026-09-08",
+   "last": "2026-09-16"
+  },
+  {
+   "key": "codex",
+   "name": "the codex seat",
+   "state": "ended 2026-09",
+   "reads": "directly",
+   "rows": 46,
+   "by_class": {
+    "verified": 9,
+    "differed": 0,
+    "read": 0,
+    "registered": 18,
+    "closed by triage": 13,
+    "not read": 6,
+    "other": 0
+   },
+   "recomputed": 9,
+   "recomputed_share": 0.196,
+   "first": "2026-09-09",
+   "last": "2026-09-16"
+  },
+  {
+   "key": "sep16",
+   "name": "the sep16 seat (xB arcs)",
+   "state": "ended 2026-09-29",
+   "reads": "directly",
+   "rows": 34,
+   "by_class": {
+    "verified": 10,
+    "differed": 1,
+    "read": 0,
+    "registered": 22,
+    "closed by triage": 0,
+    "not read": 1,
+    "other": 0
+   },
+   "recomputed": 11,
+   "recomputed_share": 0.324,
+   "first": "2026-09-18",
+   "last": "2026-10-04"
+  },
+  {
+   "key": "qor5up",
+   "name": "the consolidation seat",
+   "state": "ended 2026-09",
+   "reads": "directly",
+   "rows": 30,
+   "by_class": {
+    "verified": 0,
+    "differed": 0,
+    "read": 0,
+    "registered": 0,
+    "closed by triage": 30,
+    "not read": 0,
+    "other": 0
+   },
+   "recomputed": 0,
+   "recomputed_share": 0.0,
+   "first": "2026-09-09",
+   "last": "2026-09-09"
+  },
+  {
+   "key": "hostile",
+   "name": "the hostile-review seat",
+   "state": "ended 2026-08",
+   "reads": "directly",
+   "rows": 28,
+   "by_class": {
+    "verified": 15,
+    "differed": 1,
+    "read": 0,
+    "registered": 6,
+    "closed by triage": 6,
+    "not read": 0,
+    "other": 0
+   },
+   "recomputed": 16,
+   "recomputed_share": 0.571,
+   "first": "2026-09-08",
+   "last": "2026-09-09"
+  },
+  {
+   "key": "review",
+   "name": "the paper-review seat",
+   "state": "ended 2026-10-01",
+   "reads": "directly",
+   "rows": 0,
+   "by_class": {
+    "verified": 0,
+    "differed": 0,
+    "read": 0,
+    "registered": 0,
+    "closed by triage": 0,
+    "not read": 0,
+    "other": 0
+   },
+   "recomputed": 0,
+   "recomputed_share": null,
+   "first": null,
+   "last": null
+  },
+  {
+   "key": "sessionrelay",
+   "name": "a session relay (one handoff)",
+   "state": "one handoff, 2026-09-09",
+   "reads": "directly",
+   "rows": 8,
+   "by_class": {
+    "verified": 4,
+    "differed": 1,
+    "read": 0,
+    "registered": 2,
+    "closed by triage": 1,
+    "not read": 0,
+    "other": 0
+   },
+   "recomputed": 5,
+   "recomputed_share": 0.625,
+   "first": "2026-09-09",
+   "last": "2026-09-09"
+  }
+ ],
+ "rows_no_seat_claims": [],
+ "rows_two_seats_claim": [],
+ "sorted_by_main": [
+  {
+   "filed_as": "physics seat",
+   "seat": "fc",
+   "rows": 78
+  },
+  {
+   "filed_as": "audit seat, fork lane",
+   "seat": "auditfork",
+   "rows": 53
+  },
+  {
+   "filed_as": "hostile-review seat",
+   "seat": "hostile",
+   "rows": 27
+  },
+  {
+   "filed_as": "physical-bridge lane",
+   "seat": "audit",
+   "rows": 24
+  },
+  {
+   "filed_as": "audit lane",
+   "seat": "audit",
+   "rows": 17
+  },
+  {
+   "filed_as": "the session-relay seat",
+   "seat": "sessionrelay",
+   "rows": 8
+  },
+  {
+   "filed_as": "audit seat",
+   "seat": "audit",
+   "rows": 8
+  },
+  {
+   "filed_as": "referee lane",
+   "seat": "referee",
+   "rows": 4
+  },
+  {
+   "filed_as": "the physical lane",
+   "seat": "audit",
+   "rows": 2
+  },
+  {
+   "filed_as": "cloud seat",
+   "seat": "hostile",
+   "rows": 1
+  },
+  {
+   "filed_as": "banking seat",
+   "seat": "banking",
+   "rows": 1
+  },
+  {
+   "filed_as": "independent audit lane",
+   "seat": "independent",
+   "rows": 1
+  },
+  {
+   "filed_as": "the independent audit lane",
+   "seat": "independent",
+   "rows": 1
+  }
+ ],
+ "not_read": [
+  {
+   "n": 125,
+   "seat": "sm",
+   "date": "2026-09-09",
+   "item": "sm:B1269",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57) ["
+  },
+  {
+   "n": 137,
+   "seat": "fc",
+   "date": "2026-09-09",
+   "item": "H2",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 138,
+   "seat": "fc",
+   "date": "2026-09-09",
+   "item": "R1",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 139,
+   "seat": "fc",
+   "date": "2026-09-09",
+   "item": "R10",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 146,
+   "seat": "fc",
+   "date": "2026-09-09",
+   "item": "R17",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 162,
+   "seat": "fc",
+   "date": "2026-09-09",
+   "item": "R31",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57) ["
+  },
+  {
+   "n": 171,
+   "seat": "fc",
+   "date": "2026-09-09",
+   "item": "R4",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57) ["
+  },
+  {
+   "n": 181,
+   "seat": "fc",
+   "date": "2026-09-09",
+   "item": "R5",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 185,
+   "seat": "fc",
+   "date": "2026-09-09",
+   "item": "R53",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 186,
+   "seat": "fc",
+   "date": "2026-09-09",
+   "item": "R54",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 187,
+   "seat": "fc",
+   "date": "2026-09-09",
+   "item": "R55",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 189,
+   "seat": "fc",
+   "date": "2026-09-09",
+   "item": "R57",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57) ["
+  },
+  {
+   "n": 201,
+   "seat": "fc",
+   "date": "2026-09-09",
+   "item": "R9",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 207,
+   "seat": "codex",
+   "date": "2026-09-09",
+   "item": "R006",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57) ["
+  },
+  {
+   "n": 208,
+   "seat": "codex",
+   "date": "2026-09-09",
+   "item": "R007",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57) ["
+  },
+  {
+   "n": 214,
+   "seat": "codex",
+   "date": "2026-09-09",
+   "item": "R013",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 219,
+   "seat": "codex",
+   "date": "2026-09-09",
+   "item": "R018",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 224,
+   "seat": "codex",
+   "date": "2026-09-09",
+   "item": "R023",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 237,
+   "seat": "codex",
+   "date": "2026-09-09",
+   "item": "R031D",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 245,
+   "seat": "cc3",
+   "date": "2026-09-09",
+   "item": "B8068",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 249,
+   "seat": "cc3",
+   "date": "2026-09-09",
+   "item": "B8072",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 266,
+   "seat": "cc3",
+   "date": "2026-09-09",
+   "item": "B8092",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57) ["
+  },
+  {
+   "n": 297,
+   "seat": "cc3",
+   "date": "2026-09-09",
+   "item": "B8124",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 299,
+   "seat": "cc3",
+   "date": "2026-09-09",
+   "item": "B8126",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 371,
+   "seat": "cloud",
+   "date": "2026-09-09",
+   "item": "memo 122",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 374,
+   "seat": "cloud",
+   "date": "2026-09-09",
+   "item": "memo 125",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57) ["
+  },
+  {
+   "n": 381,
+   "seat": "cloud",
+   "date": "2026-09-09",
+   "item": "memo 132",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 384,
+   "seat": "cloud",
+   "date": "2026-09-09",
+   "item": "memo 135",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 392,
+   "seat": "cloud",
+   "date": "2026-09-09",
+   "item": "memo 143",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 393,
+   "seat": "cloud",
+   "date": "2026-09-09",
+   "item": "memo 144",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 394,
+   "seat": "cloud",
+   "date": "2026-09-09",
+   "item": "memo 145",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 395,
+   "seat": "cloud",
+   "date": "2026-09-09",
+   "item": "memo 146",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 396,
+   "seat": "cloud",
+   "date": "2026-09-09",
+   "item": "memo 147",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 409,
+   "seat": "cloud",
+   "date": "2026-09-09",
+   "item": "memo 160",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 410,
+   "seat": "cloud",
+   "date": "2026-09-09",
+   "item": "memo 161",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 411,
+   "seat": "cloud",
+   "date": "2026-09-09",
+   "item": "memo 162",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 414,
+   "seat": "cloud",
+   "date": "2026-09-09",
+   "item": "memo 165",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57) ["
+  },
+  {
+   "n": 416,
+   "seat": "cloud",
+   "date": "2026-09-09",
+   "item": "memo 167",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 418,
+   "seat": "cloud",
+   "date": "2026-09-09",
+   "item": "memo 171",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 448,
+   "seat": "cloud",
+   "date": "2026-09-09",
+   "item": "memo 59",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57) ["
+  },
+  {
+   "n": 450,
+   "seat": "cloud",
+   "date": "2026-09-09",
+   "item": "memo 61",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 461,
+   "seat": "cloud",
+   "date": "2026-09-09",
+   "item": "memo 72",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 465,
+   "seat": "cloud",
+   "date": "2026-09-09",
+   "item": "memo 76",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 466,
+   "seat": "cloud",
+   "date": "2026-09-09",
+   "item": "memo 77",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 474,
+   "seat": "cloud",
+   "date": "2026-09-09",
+   "item": "memo 85",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 493,
+   "seat": "braver",
+   "date": "2026-09-09",
+   "item": "tierB_opening",
+   "says": "SCHEDULED (no main text names it — the slice D backlog, read before Review 57)"
+  },
+  {
+   "n": 642,
+   "seat": "sep16",
+   "date": "2026-09-18",
+   "item": "xB001, xB002",
+   "says": "RECEIVED, NOT READ (rowed 2026-09-18 so the debt is visible; the lane's other 21"
+  },
+  {
+   "n": 676,
+   "seat": "sm",
+   "date": "2026-10-02",
+   "item": "sm:B1501",
+   "says": "NOT RE-RUN TO COMPLETION; ITS OWN CHECK DIFFERS [R63, 2026-10-14: was \"VERIFIED-"
+  },
+  {
+   "n": 1331,
+   "seat": "chat1",
+   "date": "2026-10-23",
+   "item": "line_selection_control.py and precision_check.py (51dffa347, committed before their runs; ",
+   "says": "QUEUED (P-316: read with ZERO_FREE_HOLOMORPHIC's result)"
+  },
+  {
+   "n": 1332,
+   "seat": "chat1",
+   "date": "2026-10-23",
+   "item": "RIGID_TAU_HOLOMORPHIC, sealed (rule 336c71280, committed and pushed before its script; con",
+   "says": "QUEUED (result pending; P-316) [S200: outputs 0361a70aa (rigid_tau.npz, 3 265 po"
+  },
+  {
+   "n": 1336,
+   "seat": "sm",
+   "date": "2026-10-23",
+   "item": "W142 rule (1cb26b8d9; relay 238): the third opinion on B1735 (P-342) with an audit of its ",
+   "says": "QUEUED (result pending; P-342)"
+  },
+  {
+   "n": 1338,
+   "seat": "chat1",
+   "date": "2026-10-23",
+   "item": "ZERO_FREE_HOLOMORPHIC, the result (dfc078a79; outputs f921f7253, comparison c8de16a57; pos",
+   "says": "UNREAD under B1740's pledge (its F₋₂ rows); read after B1740's outputs are commi"
+  },
+  {
+   "n": 1340,
+   "seat": "chat1",
+   "date": "2026-10-23",
+   "item": "the framing read-outs (framing_readouts.py 026556089 → 5cedca1d8; framing_readouts2.py f4d",
+   "says": "UNREAD under B1740's pledge (they read the zero-free directions' rows)"
+  },
+  {
+   "n": 1342,
+   "seat": "chat1",
+   "date": "2026-10-23",
+   "item": "TWO_HIGGS, the result (8040bebd2; post hoc two_higgs_posthoc2.py 006134efc → 13794b4dd aft",
+   "says": "UNREAD under B1740's pledge (F₋₂ in the menu); read after B1740's outputs are co"
+  },
+  {
+   "n": 1698,
+   "seat": "advisor",
+   "date": "2026-11-11",
+   "item": "ITS FIRST WORKING PAGE ON ENFORCEMENT (WP-0.7, step 3): why each of the thirteen planted c",
+   "says": "REGISTERED; NOT READ (S306p): a working page of the package the seat builds, not"
+  }
+ ],
+ "other": [
+  {
+   "n": 1406,
+   "seat": "agy",
+   "leads_with": "AUDITED (S223; B1784, four read-only auditors from the lane'"
+  },
+  {
+   "n": 1511,
+   "seat": "agy",
+   "leads_with": "DECLINED (S287; post-hoc fits, never sealed, targets hard-co"
+  },
+  {
+   "n": 1567,
+   "seat": "chat1",
+   "leads_with": "PROVED (read and checked by main) (S305c: L1 uniqueness by L"
+  },
+  {
+   "n": 1602,
+   "seat": "chat1",
+   "leads_with": "RULED (S306d), relayed in docs/handoffs/CC_TO_CHAT1_2026-11-"
+  },
+  {
+   "n": 1643,
+   "seat": "agy",
+   "leads_with": "SCRUTINISED AT THE OWNER'S WORD (S306o; B1866): read in full"
+  },
+  {
+   "n": 1654,
+   "seat": "chat1",
+   "leads_with": "RECOMPUTED BY MAIN, ENTRY FOR ENTRY (S306o; B1868 § 4): stab"
+  }
+ ],
+ "differed": [
+  {
+   "n": 14,
+   "seat": "chat1",
+   "item": "§1(b) −1 ∈ W(F₄) ⟹ \"for ANY manifold and ANY sl₂-factored E₆ represent"
+  },
+  {
+   "n": 22,
+   "seat": "sm",
+   "item": "sm:B1282 `verification/sibling_germ.py`"
+  },
+  {
+   "n": 33,
+   "seat": "fc",
+   "item": "R49 spacetime64 room"
+  },
+  {
+   "n": 34,
+   "seat": "hostile",
+   "item": "`spacetime64.py` certificate (memos 27/33)"
+  },
+  {
+   "n": 37,
+   "seat": "braver",
+   "item": "B796 coupling-campaign literature harvest, `lit_prior_art_sm_topology`"
+  },
+  {
+   "n": 53,
+   "seat": "cloud",
+   "item": "memo 182 THE_52_CONSTANT (`park_rmatrix_check.py`, `park_52_blocks.py`"
+  },
+  {
+   "n": 82,
+   "seat": "chat1",
+   "item": "chat1 (owner-relayed package, 2026-09-08): the Asselmeyer-Maluga corpu"
+  },
+  {
+   "n": 86,
+   "seat": "sm",
+   "item": "`docs/PRIOR_ART_ASSELMEYER_MALUGA_2026-09-08.md` (+ the tower relay's "
+  },
+  {
+   "n": 93,
+   "seat": "sessionrelay",
+   "item": "§3 \"there is no arrow\" + the retitle ask (S063, B766)"
+  },
+  {
+   "n": 527,
+   "seat": "chat1",
+   "item": "`THE_ASSEMBLED_PICTURE.md` + 28 verify scripts"
+  },
+  {
+   "n": 528,
+   "seat": "chat1",
+   "item": "`HANDOFF_2026-09-15_UNBANKED.md` + `QUESTION_R29_character_blindness.m"
+  },
+  {
+   "n": 529,
+   "seat": "chat1",
+   "item": "`CLOSURE_HANDOFF_with_reasoning.md`"
+  },
+  {
+   "n": 533,
+   "seat": "sm",
+   "item": "sm:B1353 THE ISOLATED ENHANCEMENT POINT"
+  },
+  {
+   "n": 579,
+   "seat": "cloud",
+   "item": "memo 203"
+  },
+  {
+   "n": 598,
+   "seat": "cloud",
+   "item": "memo 222"
+  },
+  {
+   "n": 604,
+   "seat": "cloud",
+   "item": "memo 228"
+  },
+  {
+   "n": 605,
+   "seat": "cloud",
+   "item": "memo 229"
+  },
+  {
+   "n": 625,
+   "seat": "cc3",
+   "item": "B8148 (re-read)"
+  },
+  {
+   "n": 677,
+   "seat": "sm",
+   "item": "sm:B1502"
+  },
+  {
+   "n": 836,
+   "seat": "sm",
+   "item": "sm:B1531"
+  },
+  {
+   "n": 850,
+   "seat": "sep16",
+   "item": "xB011"
+  },
+  {
+   "n": 878,
+   "seat": "referee",
+   "item": "REPO SWEEP 2026-10-01"
+  },
+  {
+   "n": 1502,
+   "seat": "chat1",
+   "item": "P-512, THE QUARTER RELATION DERIVED (a derivation and its sealed check"
+  },
+  {
+   "n": 1503,
+   "seat": "chat1",
+   "item": "P-510, THE KIND CLAUSE FOR THE FRAME (an options note; it rules nothin"
+  },
+  {
+   "n": 1505,
+   "seat": "chat1",
+   "item": "THE PREMISE MAP (item 5.1 of THE WEB SEAT'S ATTACK; a reading; its own"
+  },
+  {
+   "n": 1507,
+   "seat": "chat1",
+   "item": "I-31, WHAT COULD DECIDE IT (item 3.1 of THE WEB SEAT'S ATTACK; a desig"
+  },
+  {
+   "n": 1508,
+   "seat": "chat1",
+   "item": "P-530, THE SECTOR ASSIGNMENT FROM THE OBJECT (item 3.3; a design study"
+  },
+  {
+   "n": 1509,
+   "seat": "chat1",
+   "item": "P-531, WHICH TYPING FIXES THE GENERATIONS' METRIC (a design study; its"
+  }
+ ],
+ "working": [
+  "chat1",
+  "advisor",
+  "agy",
+  "audit"
+ ],
+ "flagged": [
+  {
+   "n": 1229,
+   "reader": "G1_sm",
+   "seat": "sm",
+   "klass": "read",
+   "date": "2026-10-15",
+   "item": "W94: the symmetric null Higgs at ω, a down/lepton relation with no free size (rule 2aaf5d271, corrected a91526cd5 before any code; script fe96bd2f6; o",
+   "carried_by": [
+    "P-173",
+    "P-174"
+   ]
+  },
+  {
+   "n": 1282,
+   "reader": "G1_sm",
+   "seat": "sm",
+   "klass": "registered",
+   "date": "2026-10-22",
+   "item": "W112, the skeleton's significance: W69's forced menu fits the hierarchy within a factor 1.81 at δ = 0.0227 from ω, but 14% of random targets fit as we",
+   "carried_by": []
+  },
+  {
+   "n": 1286,
+   "reader": "G1_sm",
+   "seat": "sm",
+   "klass": "registered",
+   "date": "2026-10-22",
+   "item": "W116, the seed's marks: no closed geodesic of a thread selects τ — all 40 lines up to length 8 hold the quarks with a degree of freedom to spare, the ",
+   "carried_by": []
+  },
+  {
+   "n": 1447,
+   "reader": "G1_sm",
+   "seat": "sm",
+   "klass": "read",
+   "date": "2026-10-28",
+   "item": "THE RIDDLE (relay §316; a reading the owner judged legitimate; NOTE \"Reading: THE RIDDLE\"): everything the principle forces is symmetric under the mov",
+   "carried_by": []
+  },
+  {
+   "n": 1451,
+   "reader": "G1_sm",
+   "seat": "sm",
+   "klass": "read",
+   "date": "2026-10-28",
+   "item": "W174, the skeleton census (relays §321–§322; rule 44e5994e0, script 843bb643a, output f2b1461d9 committed unread): no forced exponent pattern on recor",
+   "carried_by": []
+  },
+  {
+   "n": 1457,
+   "reader": "G1_sm",
+   "seat": "sm",
+   "klass": "read",
+   "date": "2026-10-28",
+   "item": "relay §326 (132005fdd; at the owner's \"GO\" on the seat's open items): P-277 answered yes by W175 — the frame's own one-loop potential has CP-violating",
+   "carried_by": [
+    "P-277",
+    "P-287"
+   ]
+  },
+  {
+   "n": 1325,
+   "reader": "G1_sm",
+   "seat": "sm",
+   "klass": "read",
+   "date": "2026-10-23",
+   "item": "W137, the joint frame's Yukawas, the step the owner approved after W136 (rule `W137_RULE.md` and relay 228 cdf2241b8, committed and pushed before the ",
+   "carried_by": [
+    "P-094",
+    "P-294",
+    "P-302",
+    "P-314",
+    "P-323",
+    "P-328"
+   ]
+  },
+  {
+   "n": 1445,
+   "reader": "G1_sm",
+   "seat": "sm",
+   "klass": "read",
+   "date": "2026-10-28",
+   "item": "W171 (relay §314; rule 7e63c09dc, script 318022bf6, one failed launch disclosed and fixed at 759cb31eb, output a01a1f1a7 committed unread; post hoc e7",
+   "carried_by": []
+  },
+  {
+   "n": 1301,
+   "reader": "G1_sm",
+   "seat": "sm",
+   "klass": "read",
+   "date": "2026-10-22",
+   "item": "W123, the Higgs route to the cusp's unit (rule bcc3686a3; script 8a2e3ed4b; output 28a2c4bd3; recorded ec94facca; relay 206) and its exact second rout",
+   "carried_by": [
+    "P-288"
+   ]
+  },
+  {
+   "n": 1309,
+   "reader": "G1_sm",
+   "seat": "sm",
+   "klass": "read",
+   "date": "2026-10-22",
+   "item": "W130 (rule 9fa9f9862, corrected d580d3ea4 before the script; script 8d686cb6a; output 41bf0838f; recorded 82cd8ab97; relay 216) and relay 214 (0fe50f3",
+   "carried_by": [
+    "P-298"
+   ]
+  },
+  {
+   "n": 1360,
+   "reader": "G1_sm",
+   "seat": "sm",
+   "klass": "read",
+   "date": "2026-10-24",
+   "item": "THE BREAKING CHAIN (`docs/dossiers/the_weave_2026-10-07/THE_BREAKING_CHAIN_2026-10-24.md`, 68bacdbb1; relay §252), a reading at the owner's \"nothing i",
+   "carried_by": [
+    "P-132",
+    "P-327",
+    "P-367"
+   ]
+  },
+  {
+   "n": 1390,
+   "reader": "G1_sm",
+   "seat": "sm",
+   "klass": "read",
+   "date": "2026-10-24",
+   "item": "W155 (rule 9f4115201; script 53aa3c3ee; output 1d281eb24 unread; recorded 75dab2c98; relays §272–§273), at the owner's \"lets do themall\": the census o",
+   "carried_by": [
+    "P-380",
+    "P-384"
+   ]
+  },
+  {
+   "n": 1438,
+   "reader": "G1_sm",
+   "seat": "sm",
+   "klass": "read",
+   "date": "2026-10-28",
+   "item": "W167 (rule b46c2b484 with W168's, relay §306, committed before the scripts; script 0150492e7 committed before its run; output 093472cb4 committed unre",
+   "carried_by": []
+  },
+  {
+   "n": 1441,
+   "reader": "G1_sm",
+   "seat": "sm",
+   "klass": "read",
+   "date": "2026-10-28",
+   "item": "W170 (rule 7e245cba1, relay §311, committed before its script; script 241e2fe01 committed before its runs; part V's frozen pairs 955e958f0 and part S'",
+   "carried_by": []
+  },
+  {
+   "n": 1450,
+   "reader": "G1_sm",
+   "seat": "sm",
+   "klass": "read",
+   "date": "2026-10-28",
+   "item": "the weave's own sum over threads as a selection on τ (relay §320; a design reading, no rule): a thread forces a curve on τ, not a point (the position ",
+   "carried_by": []
+  },
+  {
+   "n": 1331,
+   "reader": "G2_web",
+   "seat": "chat1",
+   "klass": "not read",
+   "date": "2026-10-23",
+   "item": "line_selection_control.py and precision_check.py (51dffa347, committed before their runs; outputs d6960128d committed before read; post hoc, labelled,",
+   "carried_by": [
+    "P-316"
+   ]
+  },
+  {
+   "n": 1461,
+   "reader": "G2_web",
+   "seat": "chat1",
+   "klass": "read",
+   "date": "2026-10-28",
+   "item": "THE AUDIT, main's arcs (§3.4 of the same relay, at the owner's \"check the integrity of calculations and sctipts which les to negatives\"; five read-onl",
+   "carried_by": [
+    "P-345"
+   ]
+  },
+  {
+   "n": 1462,
+   "reader": "G2_web",
+   "seat": "chat1",
+   "klass": "read",
+   "date": "2026-10-28",
+   "item": "THE AUDIT, the SM seat's W172 and W174 (§3.5 of the same relay; recomputed with the SM seat's own W172 and W175 modules, audit_checks parts F and G): ",
+   "carried_by": []
+  },
+  {
+   "n": 1463,
+   "reader": "G2_web",
+   "seat": "chat1",
+   "klass": "read",
+   "date": "2026-10-28",
+   "item": "THE AUDIT, the seat's own notes (§3.1–§3.3 and §4 of the same relay; dated corrections appended in 40c7305ac to THE CLASS AND THE END, P323_RESULT.md ",
+   "carried_by": [
+    "P-323"
+   ]
+  },
+  {
+   "n": 1464,
+   "reader": "G2_web",
+   "seat": "chat1",
+   "klass": "read",
+   "date": "2026-10-28",
+   "item": "THE TWO W's, an addendum after main's B1802 (1f36d7270, one paragraph rewrapped at f1a60708b; refereed read-only, its one blocking finding on the cove",
+   "carried_by": []
+  },
+  {
+   "n": 1459,
+   "reader": "G2_web",
+   "seat": "chat1",
+   "klass": "read",
+   "date": "2026-10-28",
+   "item": "THE EXACT END (§1 of the relay THE EXACT END, THE SELECTOR AND THE AUDIT, 40c7305ac; refereed read-only, nine blocking findings of scope or wording ap",
+   "carried_by": [
+    "P-323",
+    "P-410",
+    "P-595"
+   ]
+  },
+  {
+   "n": 1455,
+   "reader": "G2_web",
+   "seat": "chat1",
+   "klass": "read",
+   "date": "2026-10-28",
+   "item": "THE HOROCYCLE AND THE HEIGHT, the result (rule SEALED 1dd36cfba, script 5832fde1d, census 8de923cea and cells 84a323125 committed unread, post hoc ffa",
+   "carried_by": []
+  },
+  {
+   "n": 1443,
+   "reader": "G2_web",
+   "seat": "chat1",
+   "klass": "read",
+   "date": "2026-10-28",
+   "item": "P-323's result note and relay (51c25548c; refereed read-only, the blocking finding and every correction applied, each cited number computed in the lab",
+   "carried_by": [
+    "P-323"
+   ]
+  },
+  {
+   "n": 1469,
+   "reader": "G2_web",
+   "seat": "chat1",
+   "klass": "read",
+   "date": "2026-10-29",
+   "item": "its relay CHAT1_TO_CC_AND_SM_2026-10-29_THE_FRAME_NULL_RESULT (37693fe0c; rule sealed e56a311ce, script 427a3220e, outputs 85b1b7de1; refereed read-on",
+   "carried_by": [
+    "P-412"
+   ]
+  },
+  {
+   "n": 1516,
+   "reader": "G2_web",
+   "seat": "chat1",
+   "klass": "read",
+   "date": "2026-11-03",
+   "item": "THE CHANNEL NORMS' PAIR SUMS AND B1788'S TWO HYPOTHESES (a derivation with checks; scripts 6f16af477, 62ddc3389, f54ae3d16; outputs d52fd021c, e862b96",
+   "carried_by": [
+    "P-292",
+    "P-337",
+    "P-404",
+    "P-524",
+    "P-559"
+   ]
+  },
+  {
+   "n": 1640,
+   "reader": "G2_web",
+   "seat": "chat1",
+   "klass": "read",
+   "date": "2026-11-10",
+   "item": "THE WEAVE'S OWN ACTION ON τ, GRADED BY THE CLAUSE (the owner's 'weave form first'; data-free; nothing computed): the record's inventories graded candi",
+   "carried_by": []
+  },
+  {
+   "n": 1641,
+   "reader": "G2_web",
+   "seat": "chat1",
+   "klass": "registered",
+   "date": "2026-11-10",
+   "item": "THE CONTENT, ASKED IN WEAVE FORM (GENESIS FK11; the owner's choice of 2026-11-10; data-free; nothing computed): before any value, does the joint actio",
+   "carried_by": []
+  },
+  {
+   "n": 1619,
+   "reader": "G2_web",
+   "seat": "chat1",
+   "klass": "registered",
+   "date": "2026-11-10",
+   "item": "R2'S EXACT BLOCK IS, ON THE RECORD, A PURE NUMBER OF THE OBJECT (relay 882633150; main's proposed next work, the first of P-722's three candidates; da",
+   "carried_by": [
+    "P-719",
+    "P-722"
+   ]
+  },
+  {
+   "n": 1186,
+   "reader": "G2_web",
+   "seat": "chat1",
+   "klass": "read",
+   "date": "2026-10-15",
+   "item": "THE NEGATIVES, AUDITED (relay CHAT1_TO_CC_2026-10-15_THE_NEGATIVES_AUDITED and AUDIT_OF_THE_NEGATIVES, 0bbc19dc0), at the owner's question of 01:36",
+   "carried_by": [
+    "P-149"
+   ]
+  },
+  {
+   "n": 1087,
+   "reader": "G3_physical",
+   "seat": "auditfork",
+   "klass": "read",
+   "date": "2026-10-13",
+   "item": "genesis_root_review_2026_10_11: a foundations audit and work plan against GENESIS v1.41 (B1634's correction taken; W52/W53 read as a finite optimisati",
+   "carried_by": []
+  },
+  {
+   "n": 1111,
+   "reader": "G3_physical",
+   "seat": "audit",
+   "klass": "read",
+   "date": "2026-10-13",
+   "item": "The geometric spin descent and the raw residue audit (sealed 861454234 and b50727678 at 22:12, published b1eb2af33): the global geometric-spin transit",
+   "carried_by": [
+    "P-105"
+   ]
+  },
+  {
+   "n": 1112,
+   "reader": "G3_physical",
+   "seat": "audit",
+   "klass": "read",
+   "date": "2026-10-13",
+   "item": "Cross-seat replays (d50f80083; post-result archival, disclosed): main's golden records reproduced exactly equal to the originals; the SM seat's W56 K1",
+   "carried_by": [
+    "P-107"
+   ]
+  },
+  {
+   "n": 1394,
+   "reader": "G3_physical",
+   "seat": "audit",
+   "klass": "read",
+   "date": "2026-10-24",
+   "item": "the analytical successors on P210, all marked unreviewed, none run: FOUNDATION_SCOPE_AND_P210 (887e7084a; main's corrections credited; narrow propagat",
+   "carried_by": [
+    "P-386"
+   ]
+  },
+  {
+   "n": 1408,
+   "reader": "G3_physical",
+   "seat": "audit",
+   "klass": "read",
+   "date": "2026-10-27",
+   "item": "2026-10-24 to 10-26 (267420db7 → f21d1d66d): the radial vacuum flow from the existing action and its ten unrun controls; its independent radial review",
+   "carried_by": [
+    "P-386",
+    "P-392"
+   ]
+  },
+  {
+   "n": 1420,
+   "reader": "G3_physical",
+   "seat": "audit",
+   "klass": "read",
+   "date": "2026-10-27",
+   "item": "its relay PHYSICAL_TO_MAIN_AGY_SM_CHAT1_2026-10-27_UNIVERSAL_END_RELATIVE_THRESHOLD (0a8082283), with UNIVERSAL_SU5_END_AND_RELATIVE_GAUGE_THRESHOLD.m",
+   "carried_by": []
+  },
+  {
+   "n": 1465,
+   "reader": "G3_physical",
+   "seat": "audit",
+   "klass": "read",
+   "date": "2026-10-28",
+   "item": "its relay PHYSICAL_TO_MAIN_AGY_SM_CHAT1_2026-10-27_ACTUAL_CHIRAL_KERNEL_AND_SPIN_RUNNING (1a4791de8), with PARALLEL_PHASE_CHIRAL_KERNEL_AND_LIGHT_RUNN",
+   "carried_by": []
+  },
+  {
+   "n": 1486,
+   "reader": "G3_physical",
+   "seat": "audit",
+   "klass": "read",
+   "date": "2026-10-29",
+   "item": "its all-head intake (CROSS_SEAT_SYNC_2026_10_29) and relay SYNC_AND_TWO_HEAT_RESPONSES: 14 heads at stated pins; main's briefing and plan read in full",
+   "carried_by": []
+  },
+  {
+   "n": 1487,
+   "reader": "G3_physical",
+   "seat": "audit",
+   "klass": "read",
+   "date": "2026-10-29",
+   "item": "TWO_HEAT_RESPONSES_AND_SCALE_FREE_COUPLING (custody JSON): an unreviewed authored conditional proof, no script or number — the full relative physical ",
+   "carried_by": [
+    "P-396"
+   ]
+  },
+  {
+   "n": 1488,
+   "reader": "G3_physical",
+   "seat": "audit",
+   "klass": "read",
+   "date": "2026-10-29",
+   "item": "the author audit of that note: unspecialised charge coefficients; h_C = (12/5)[δ(L²) − δ(L³)]; a full-family countercontrol (light-running vectors (−4",
+   "carried_by": []
+  },
+  {
+   "n": 1518,
+   "reader": "G3_physical",
+   "seat": "audit",
+   "klass": "read",
+   "date": "2026-11-03",
+   "item": "the nontrivial-spin light cubic vanishes pointwise (conditional EFT zero Yukawa; trivial-spin control nonzero); a fixed-frame rescaling-anomaly invari",
+   "carried_by": []
+  },
+  {
+   "n": 1521,
+   "reader": "G3_physical",
+   "seat": "audit",
+   "klass": "read",
+   "date": "2026-11-03",
+   "item": "the parent's light roster is generic (all four spins) iff χ³ ≠ 1 and χ¹⁰ ≠ 1 (108 exceptional characters; least order 4; order 7 not needed); order-te",
+   "carried_by": [
+    "P-592"
+   ]
+  },
+  {
+   "n": 1522,
+   "reader": "G3_physical",
+   "seat": "audit",
+   "klass": "read",
+   "date": "2026-11-03",
+   "item": "at exact Wilson order ten (η = χ⁵) the same parent has an actual nonzero light cubic (Lie coefficient −5, a nonzero ∫ω∧ω̄ overlap) with extra vector-l",
+   "carried_by": []
+  },
+  {
+   "n": 1523,
+   "reader": "G3_physical",
+   "seat": "audit",
+   "klass": "read",
+   "date": "2026-11-03",
+   "item": "intake of the owner's three-lens proposal (residue, recurrence, non-splitting): six corrections (GL(1,ℤ) scope; the Fibonacci matrix's transpose; MᵀJM",
+   "carried_by": []
+  },
+  {
+   "n": 1525,
+   "reader": "G3_physical",
+   "seat": "audit",
+   "klass": "read",
+   "date": "2026-11-03",
+   "item": "an exact classical electroweak branch of the same action at Wilson order three (G = √10·Y0, [G, G†] = H; all residuals zero; stabilizer su3 ⊕ u1_em); ",
+   "carried_by": []
+  },
+  {
+   "n": 1535,
+   "reader": "G3_physical",
+   "seat": "audit",
+   "klass": "read",
+   "date": "2026-11-03",
+   "item": "the simultaneous spin/flavour sign twist is a global isometry of the whole parent (all fields, mass map, domains); four combined classes ε_eff remain ",
+   "carried_by": []
+  },
+  {
+   "n": 1536,
+   "reader": "G3_physical",
+   "seat": "audit",
+   "klass": "read",
+   "date": "2026-11-03",
+   "item": "its source audit of the agy lane's renewed nineteen-parameter/ToE claim (agy @ 36f1c3aad): the selected order-5 point is off U's eigenline and no orde",
+   "carried_by": []
+  },
+  {
+   "n": 1538,
+   "reader": "G3_physical",
+   "seat": "audit",
+   "klass": "read",
+   "date": "2026-11-03",
+   "item": "its audit of the agy lane's Theorems 10–13 (agy @ dcae538ab): T10's anti-invariant order-5 orbit and an explicit SU(2) mapping-torus extension kept, w",
+   "carried_by": []
+  },
+  {
+   "n": 1626,
+   "reader": "G3_physical",
+   "seat": "audit",
+   "klass": "registered",
+   "date": "2026-11-10",
+   "item": "SM3_AND_GRAVITY_COMPLETION_CHECKLIST_2026_11_08 (what completion would mean: three levels — a conditional model, a derivation from the foundation, the",
+   "carried_by": [
+    "P-748"
+   ]
+  },
+  {
+   "n": 1628,
+   "reader": "G3_physical",
+   "seat": "audit",
+   "klass": "read",
+   "date": "2026-11-10",
+   "item": "bda89f04a → 521e6f241: 85 commits, 74 relays (22 reviews of the agy lane's work orders; 52 to main and the seats) — two acceptance requests, the indep",
+   "carried_by": [
+    "P-746",
+    "P-749",
+    "P-752"
+   ]
+  },
+  {
+   "n": 1637,
+   "reader": "G4_small_live",
+   "seat": "advisor",
+   "klass": "registered",
+   "date": "2026-11-10",
+   "item": "BACK-EDGE A, THE STATE: a design written before any computing (it takes up P-744; the scalar Laplacian's lowest state is the constant, so it is B1846'",
+   "carried_by": [
+    "P-744"
+   ]
+  },
+  {
+   "n": 1698,
+   "reader": "G4_small_live",
+   "seat": "advisor",
+   "klass": "not read",
+   "date": "2026-11-11",
+   "item": "ITS FIRST WORKING PAGE ON ENFORCEMENT (WP-0.7, step 3): why each of the thirteen planted cases still passes, read in the gates' code at main's handove",
+   "carried_by": [
+    "P-757"
+   ]
+  },
+  {
+   "n": 1632,
+   "reader": "G4_small_live",
+   "seat": "advisor",
+   "klass": "read",
+   "date": "2026-11-10",
+   "item": "TWO PROPOSALS: THE COUNT AS AN OUTPUT (one derivation graph from the foundation to every output; a value's status by the weakest link; the headline pr",
+   "carried_by": []
+  },
+  {
+   "n": 1633,
+   "reader": "G4_small_live",
+   "seat": "advisor",
+   "klass": "read",
+   "date": "2026-11-10",
+   "item": "A DRY RUN OF THE VALUE-CHAIN CERTIFICATE ON THE RECORD'S CANDIDATE (data-free; nothing compared with measurement)",
+   "carried_by": []
+  },
+  {
+   "n": 1656,
+   "reader": "G4_small_live",
+   "seat": "advisor",
+   "klass": "registered",
+   "date": "2026-11-10",
+   "item": "TWO FURTHER SENTENCES OF THE OWNER AS THE SEAT RECORDS THEM (its R14: 'selected to depart further' was not meant to be taken literally, the difference",
+   "carried_by": [
+    "P-768"
+   ]
+  },
+  {
+   "n": 1688,
+   "reader": "G4_small_live",
+   "seat": "advisor",
+   "klass": "read",
+   "date": "2026-11-11",
+   "item": "ITS READ OF THE AGY LANE'S BRANCH stage4-sync: the lane's read-out on the whole against the seat's eight conditions; the lane's state and peak recompu",
+   "carried_by": [
+    "P-781"
+   ]
+  },
+  {
+   "n": 1622,
+   "reader": "G4_small_live",
+   "seat": "agy",
+   "klass": "registered",
+   "date": "2026-11-10",
+   "item": "THE P000 → F₂ → SL(2, ℤ) → WEAVE → M_φ PURE-LOGIC BRIDGE, HARDENED (relay of 2026-11-07, read through the mask; offered against P-321, with P-221 and ",
+   "carried_by": [
+    "P-211",
+    "P-221",
+    "P-321",
+    "P-747"
+   ]
+  },
+  {
+   "n": 1586,
+   "reader": "G4_small_live",
+   "seat": "agy",
+   "klass": "read",
+   "date": "2026-11-06",
+   "item": "Stages 21–22.5 (1ea5ddfe1, 3514ecb4c, ed9911f1c, f183117d8): the 266-line S₄ commutant census and a 23-observable ledger; wave 1 (the Farey transition",
+   "carried_by": [
+    "P-717"
+   ]
+  },
+  {
+   "n": 1596,
+   "reader": "G4_small_live",
+   "seat": "agy",
+   "klass": "read",
+   "date": "2026-11-06",
+   "item": "Stages 26–27 (f9f0be480, 315a00e5f): the one-process level k = N = 5 with criterion K; P-723's stages A–D re-done; a level-5 WRT and ħ = 2π/5 audit; '",
+   "carried_by": [
+    "P-723",
+    "P-725"
+   ]
+  },
+  {
+   "n": 1588,
+   "reader": "G4_small_live",
+   "seat": "agy",
+   "klass": "read",
+   "date": "2026-11-06",
+   "item": "Stage 24 (a4cb3625a; Theorems 134–136): P-720's asks — the frame's exact modular weights and 'minimal-Kähler weight insufficiency', the basis-covarian",
+   "carried_by": [
+    "P-719",
+    "P-720",
+    "P-721"
+   ]
+  },
+  {
+   "n": 1676,
+   "reader": "G4_small_live",
+   "seat": "agy",
+   "klass": "read",
+   "date": "2026-11-11",
+   "item": "ITS RELAY TO MAIN AND THE OWNER: its opinion of the record; what it landed on its branch under the numbers B1879 to B1881 (the re-audits' residuals an",
+   "carried_by": [
+    "P-780",
+    "P-781"
+   ]
+  },
+  {
+   "n": 1678,
+   "reader": "G4_small_live",
+   "seat": "agy",
+   "klass": "registered",
+   "date": "2026-11-11",
+   "item": "ITS BRANCH self-consistent-loop: a loop in four phases, each with a preregistration, a seal list, a solver, a referee and a report",
+   "carried_by": [
+    "P-781"
+   ]
+  },
+  {
+   "n": 1696,
+   "reader": "G4_small_live",
+   "seat": "agy",
+   "klass": "read",
+   "date": "2026-11-11",
+   "item": "ITS AUDIT OPINION AND REPOSITORY-SPLIT PROPOSAL WITH SEVEN REPORTS AND A FOLDER OF RECEIPTS (22 files on its first branch), AND A RELAY TO MAIN AND TH",
+   "carried_by": [
+    "P-781",
+    "P-787"
+   ]
+  },
+  {
+   "n": 3,
+   "reader": "G5_retired",
+   "seat": "fc",
+   "klass": "registered",
+   "date": "2026-09-08",
+   "item": "R72 §7 relay, the identification ask",
+   "carried_by": []
+  },
+  {
+   "n": 39,
+   "reader": "G5_retired",
+   "seat": "cloud",
+   "klass": "registered",
+   "date": "2026-09-08",
+   "item": "memo 170 THE_ONE_WALL §1–§2 (the join; covers inherit amphichirality)",
+   "carried_by": []
+  },
+  {
+   "n": 98,
+   "reader": "G5_retired",
+   "seat": "sessionrelay",
+   "klass": "registered",
+   "date": "2026-09-09",
+   "item": "§8 the flagged candidate: the κ = −2 node is the quaternion character = Q₈ = ker(2T → ℤ/3)",
+   "carried_by": []
+  },
+  {
+   "n": 107,
+   "reader": "G5_retired",
+   "seat": "fc",
+   "klass": "registered",
+   "date": "2026-09-09",
+   "item": "R67 exact e₈ and the three lifts (`r67_exact_e8_lifts.py`)",
+   "carried_by": []
+  },
+  {
+   "n": 113,
+   "reader": "G5_retired",
+   "seat": "hostile",
+   "klass": "registered",
+   "date": "2026-09-09",
+   "item": "memo 20 AW_TYPING (`aw_typing.py`, `aw_typing2.py`) — NEGATIVE",
+   "carried_by": []
+  },
+  {
+   "n": 572,
+   "reader": "G5_retired",
+   "seat": "cloud",
+   "klass": "registered",
+   "date": "2026-09-16",
+   "item": "memo 196",
+   "carried_by": []
+  },
+  {
+   "n": 578,
+   "reader": "G5_retired",
+   "seat": "cloud",
+   "klass": "registered",
+   "date": "2026-09-16",
+   "item": "memo 202",
+   "carried_by": []
+  },
+  {
+   "n": 626,
+   "reader": "G5_retired",
+   "seat": "cc3",
+   "klass": "registered",
+   "date": "2026-09-16",
+   "item": "B8080 (the assembly refutation, via the RULING_BANDS relay)",
+   "carried_by": []
+  },
+  {
+   "n": 628,
+   "reader": "G5_retired",
+   "seat": "cc3",
+   "klass": "registered",
+   "date": "2026-09-16",
+   "item": "B8123 (re-read) + B8107 (re-read)",
+   "carried_by": []
+  },
+  {
+   "n": 630,
+   "reader": "G5_retired",
+   "seat": "codex",
+   "klass": "registered",
+   "date": "2026-09-16",
+   "item": "WAVE9_QUESTION_MAP (OA-C1176–C1184)",
+   "carried_by": []
+  },
+  {
+   "n": 876,
+   "reader": "G5_retired",
+   "seat": "cloud",
+   "klass": "registered",
+   "date": "2026-10-04",
+   "item": "memo 236",
+   "carried_by": []
+  },
+  {
+   "n": 873,
+   "reader": "G5_retired",
+   "seat": "sep16",
+   "klass": "registered",
+   "date": "2026-10-04",
+   "item": "xB034",
+   "carried_by": []
+  }
+ ]
+}

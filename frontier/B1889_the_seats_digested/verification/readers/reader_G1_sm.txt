@@ -1,0 +1,190 @@
+SEAT: SM-derivation seat (sm). 463 rows, 2026-09-08 to 2026-11-06. Class totals from the class= field: verified 119, differed 5, registered 160, read 166, closed by triage 10, unread 3.
+
+KIND OF WORK (rough shares, my judgement): building new results 50%; verifying or reproducing main's results 15% (the "third opinions" on main's arcs); auditing main's record 10%; proposing ideas or routes 10%; process and governance 15% (relays, rules sealed before scripts, desk, look ledger).
+
+THEMES
+
+THEME: Tower, Fox-calculus and V10 verifications, plus slice-D backlog closures
+ROWS: 5-135
+DELIVERED: Exact computations on the object's tower, germs and Z-prime vacuum; main then checked them and closed a backlog of older items.
+WHAT MAIN DID: verified 22, differed 2, registered 9, read 1, closed by triage 8, unread 1. Mostly recomputed with main's own code; the backlog rows were closed against other work.
+HELD UP:
+- 5: "twelve signs exact over ℚ(ζ₁₂) in SnapPy's presentation"
+- 28: "re-derived with own code (`b1303_zprime.py`): 85 F-flat sets, nine branches all paired"
+- 115: "main's own Fox calculus at the four banked 100-digit points (`B1322`)"
+DID NOT HOLD:
+- 22: "the CLAIM stands on three benches and the script has an environment sensitivity"
+- 86: "main's Entry 5 and B1306 A were wrong; corrected on seven surfaces" (in the seat's favour)
+- 78 (class verified, count slip): "595 short of its own receipt; claim unaffected"
+
+THEME: E6 apex, Joyce orbifold and level-count family
+ROWS: 531-535, 610-622, 639, 640, 643
+DELIVERED: A run of E6, K3 and Wilson-line structural results, and a census of doublet backgrounds over the tower levels.
+WHAT MAIN DID: verified 16, differed 1, registered 4. Re-derived with main's code, several from scratch.
+HELD UP:
+- 639: "re-run here with code written from scratch"
+- 643: "All three of its numbers reproduce"
+- 532: "both locus points recomputed in the seat's own presentation"
+DID NOT HOLD:
+- 533: "fourteen members computed, not 'all enumerated'"
+- 640 (verified, qualified): "is not a proof as stated — the bound in the data is a₁ ≤ 2"
+
+THEME: Package registration, B1367-B1515 (generation hunt on the cusped family)
+ROWS: 644-696
+DELIVERED: Dozens of sealed census results and negatives on candidate generation structures. Many were first registered at headline level.
+WHAT MAIN DID: verified 14, differed 1, registered 37, unread 1. A few were later partly verified or found already on main. Many rows carry reader notes on over-wide headlines.
+HELD UP:
+- 684: "h¹(A) = h¹(A*) = 1 at the four exceptional points and 0 at two controls"
+- 665: "the same 13 of B1186's 112 members have a non-integral trace"
+- 695: "its ten checks re-derived on main by other routes, all agreeing"
+DID NOT HOLD:
+- 677: "it reads b₃(CP³) = 1 where its committed log has 0"
+- 676 (unread): "the arc's own post-run reproducibility check reports a mismatch for one class"
+- 649: "the headline's grouping of the two non-uniform patterns disagrees with the log's table"
+- 650: "§0 still carries the 30/4 split that the arc's own caveat withdraws"
+- 653: "arc_verdict.json still carries the withdrawn claim that the web seat's word map fails"
+- 659: "6 of 13 fail as shipped until paths are mapped"
+- 662: "is not true of the first run"
+- 664: "the verdict field says PROVED where the sealed outcome is MIXED"
+- 667: "the PROVED is wider than the proof"
+- 672: "the body was not rewritten to match the arc's own §7 scope correction"
+- 678: "turns a not-forced into a cannot (reader)"
+- 690: "is looser than the evidence"
+
+THEME: Genesis page adoptions and Bar contract, B1516-B1532
+ROWS: 822-837
+DELIVERED: Proposed text for main's GENESIS page and checks on the twist and swap structure.
+WHAT MAIN DID: verified 9, differed 1, registered 4, closed by triage 1, read 1. Several were adopted as main's own versions after re-derivation.
+HELD UP:
+- 822: "the reversal identity, the 536 classes, the isometry-signature partition and main's census by manifold (87 of 536) re-derived"
+- 826: "P = conj(nM) ∘ swap re-derived on main in SnapPy's holonomy"
+- 831: "C1 and C3's content re-derived on main"
+DID NOT HOLD:
+- 836: "it found the phrase on main (L17, B849, B853) where main's sweep had said none" (seat corrects main)
+
+THEME: Sealed reach-class negatives and room searches, B1533-B1547
+ROWS: 886-906
+DELIVERED: Sealed negative searches for three generations on specific covers, and lemmas on how large the "room" can be.
+WHAT MAIN DID: verified 4, registered 13, closed by triage 1. Mostly headline-level; the proofs were later checked in part.
+HELD UP:
+- 888: "Theorem C's proof read step by step and checked"
+- 894: "the seat's sealed code on main's bench from a pinned worktree"
+- 897: "Lemma F's proof checked, step (2) re-derived independently"
+DID NOT HOLD: none classed differed.
+
+THEME: The weave, W1-W23
+ROWS: 907-961
+DELIVERED: A new construction (the "weave") with theorems on parity sectors, a chiral triplet and Euler-characteristic counts, many labelled as readings.
+WHAT MAIN DID: verified 13, read 1, registered 41. Main's own code reproduced the computed parts; readings were registered as readings.
+HELD UP:
+- 911: "W1, the parity lemma, W2, W3 by main's own code; W4 by representation theory"
+- 913: "the seat's four rows at order 2 reproduced exactly"
+- 920: "under L and R a group of order exactly 96 (the sign adds nothing), commutant 2"
+DID NOT HOLD: none classed differed. Row 933 records an erratum on the seat's own claim: "The erratum taken: an Euler characteristic of a self-dual module is not chiral".
+
+THEME: Weave to flavour: modular-flavour fits, field and Wilson-line work, W38-W77
+ROWS: 1049-1151
+DELIVERED: Sealed rules and runs on couplings, free-number counts, fits to data, and the Higgs/field question.
+WHAT MAIN DID: verified 8, registered 37, read 29. Main re-fitted and found one seat claim over-stated, then withdrew that finding.
+HELD UP:
+- 1073: "(B1634: the census exactly, the residual table, the theta identification exactly)"
+- 1109: "every cell reproduced by main's own lattice and code written from the rule"
+- 1105: "every computed cell reproduced by main's own code"
+DID NOT HOLD:
+- 1091: "so 'refuted on one sentence' is withdrawn and W54's sentence stands" (main's finding was withdrawn in the seat's favour)
+- 1084: "W53's masses-only 163 an overestimate"
+- 1151: "B1637's corrections to W53 and W54 are withdrawn"
+- 1117: "gives exactly 0 : 1 : 1 (not 0 : 1 : 2) on all 27 lines" (a line-tie corrected)
+- 1075: "no arc recomputes W51"
+
+THEME: Blind checks of main's arcs and relays, W78-W100
+ROWS: 1152-1262
+DELIVERED: Independent re-runs of main's arcs on the seat's own code, a hostile paper read, and many relay sections.
+WHAT MAIN DID: verified 9, registered 5, read 43. Most relays were read; the checks of main were largely confirmed by main's own code.
+HELD UP:
+- 1192: "its numbers equal B1656's sealed run to every printed digit"
+- 1156: "growth confirmed on main by an independent route"
+- 1191: "the rerun's JSON equal to the recorded one"
+DID NOT HOLD:
+- 1191 (scope): "Q3 failed as worded, honestly recorded"
+- 1236: "against main's P4, which keeps the quarks off the null cone"
+- 1237: "so 'before main's run' is corrected"
+
+THEME: Paper checks and the record-count theorems, W101-W111
+ROWS: 1263-1281
+DELIVERED: The weave's anomaly table, the observer-layer table, drafts 7-8 of the paper, and proofs of the record-count results.
+WHAT MAIN DID: verified 9, read 6. Re-derived on main; one "VERIFIED" was later downgraded to "reproduced".
+HELD UP:
+- 1263: "both scripts re-run byte-identically"
+- 1271: "every count reproduced by main's own route"
+- 1276: "the proof re-derived step by step"
+DID NOT HOLD:
+- 1275: "W108's census was re-run, not re-derived"
+- 1264: "needs its definition in the text, and the private space at rank three is four-dimensional"
+- 1263: "C1's failure confirmed and disclosed"
+
+THEME: Eight tests, closed universes, 4d gravity, field-forced results, W112-W140
+ROWS: 1282-1334
+DELIVERED: Sealed tests of whether the skeleton fits, the Yukawa structure, 4d lifts, and a third opinion on a main arc.
+WHAT MAIN DID: verified 5, registered 10, read 14. Computed parts verified; readings stayed readings.
+HELD UP:
+- 1329: "VERIFIED on main (B1735); P-304 DONE"
+- 1333: "VERIFIED on main (B1738; main's own code); P-338 DONE"
+- 1293: "on main in its computed parts"
+DID NOT HOLD: none classed differed. 1294 limits the check: "the reduction of the 4d index to Riemann–Roch on the base is the seat's reading".
+
+THEME: Third opinions on main's looks, then the Riddle and effective-action readings, W141-W176
+ROWS: 1335-1458
+DELIVERED: Blind re-runs of main's sealed comparisons, plus a long run of sealed one-loop and class tests, almost all negative, and the "Riddle" reading.
+WHAT MAIN DID: verified 2, unread 1, read 58. The seat's own results were read, quotes checked, and mostly not recomputed on main.
+HELD UP:
+- 1335: "the 116 distinct points and 74 shared recounted from census.json"
+- 1341: "dated corrections on B1735"
+DID NOT HOLD: none classed differed. Rows 1454 and 1436 show the seat correcting main: "the correction ACCEPTED and widened by main" and "Review 71's dated correction".
+
+THEME: Reproduction of the seat's own W177-W180, desk, and Nov closure cards
+ROWS: 1471-1589
+DELIVERED: Exact-series re-derivations, cusp-ladder census, the ledger desk proposal, and data-free design checks for the closure cards.
+WHAT MAIN DID: verified 8, read 13. Bit-for-bit reproductions, with wording caveats.
+HELD UP:
+- 1496: "main's verifier reran it unchanged"
+- 1576: "the_card_budget.py re-run on main, output identical"
+- 1578: "re-run on main, output identical"
+DID NOT HOLD (wording or scope caveats, none classed differed):
+- 1498: "the FK11 ask is premature for the 46 unsettled pairs (23 lines) neither arc determined"
+- 1497: "wording: 'settled' is a 0.005-tolerance statement on the integer-λ lines"
+- 1496: "the 'first correction 24.9' is the leading term"
+- 1542: "the headline is broader than its two-point scope"
+- 1540: "its recount of 10 cites no script, which main had found itself"
+- 1543: "FL-05's 'no action on record' overstated"
+
+UNUSED AND POSSIBLY IMPORTANT
+- 1229 (read): ITEM "the symmetric null Higgs at ω, a down/lepton relation with no free size". A relation with no free size; main did not verify it.
+- 1282 (registered): "but 14% of random targets fit as well (p = 0.139), and the first generation fails at every fit". A null showing how weak the skeleton fit is.
+- 1286 (registered): "no closed geodesic of a thread selects τ". A route-killer for fixing τ from threads.
+- 1447 (read): "everything the principle forces is symmetric under the moves and the mirror, the data are not". States the core obstacle to deriving values.
+- 1451 (read): "no forced exponent pattern on record". Kills a route to the hierarchy.
+- 1457 (read): "P-277 answered yes by W175 — the frame's own one-loop potential has CP-violating minima on every mirror-free slope-2/5 class". A positive result on CP, not recomputed on main.
+- 1325 (read): "the full symmetrisation of det(ψ_a, ψ_b, ψ_c) is 0, so there is no tree-level Yukawa". A structural statement about the Yukawa.
+- 1445 (read): "no order N = 2–16 gives all three sectors a non-zero surface Yukawa while keeping them apart". Kills a surface-frame route.
+- 1301 (read): "a forced Higgs with least remainder gives n = 1 and three generations — FK10 reduced to FK15". Would remove one input (the cusp unit), but its exact script was only queued.
+- 1309 (read): "so the principle forbids the zero of exactly one field, the fibre's uniformizing Higgs". Bears on whether a field is forced.
+- 1360 (read): "every computed dynamics lands on a symmetric point". A route-level conclusion.
+- 1390 (read): "masses never change a cusp's leading term, so every content that runs still runs". Closes one fork of the Higgs-direction route at one loop.
+- 1438 (read): "the global minimum is the trivial line w = 0 at all 38 rows". Bears on whether the hypercharge line is forced.
+- 1441 (read): "no flavour number derived, the counted choices named". The seat's sealed score; main only read it.
+- 1450 (read): "any sum over all threads is mirror-even whatever its weights". Kills a selection-by-sum route.
+
+TRACK RECORD
+The seat produced exact, reproducible computations: most rows main recomputed held (119 verified, only 5 differed, rows 22, 86, 533, 677, 836), and several "differed" rows were in the seat's favour or were wording (86, 836, 533). It has repeatedly caught faults in main's record (86, 836, 826, 1156, 1454, 1436). Its recurring weaknesses are headlines wider than the proof or file (649, 664, 667, 672, 678, 690), stale verdict files (653, 650), scripts that fail on another bench (22, 677), and fits where its W54 sentence was first called refuted, then restored (1091). Its relative counts of tree-level negatives (W112-W176) were registered or read only, so their reuse is unverified. About 55% of rows are registered or read only, so much of its output was never recomputed on main.
+
+STATED LIMITS
+- 79: "its limits verbatim — vector-like, one light generation, massless at tree level, SM × U(1)²"
+- 534: "main has no independent formal-branch machinery and says so"
+- 894: "Not a method-independent check"
+- 676: "NOT RE-RUN TO COMPLETION; ITS OWN CHECK DIFFERS"
+- 961: "main has not heard the rulings from the owner directly and records them as the seat states them"
+- 1229: "a candidate, not a derivation"
+- 1191: "a scoreboard under W66's a = 0.10, not a test of the principle"
+- 1498: "c stays one discrete input, never set (P-488)"
+- 1437: "every quote checked on the seat's branch by main, the cited numbers spot-checked"

@@ -1,0 +1,174 @@
+SEAT: audit seat, later called the physical lane or physical-bridge lane (310 rows, branch audit), plus the fork lane (53 rows, branch auditfork). Class counts from the class= fields, all 363 rows: registered 239 (187 audit, 52 fork), read 88 (87 audit, 1 fork), verified 33, closed by triage 3, differed 0, unread 0. Main never marked a row "differed". Corrections appear only as notes inside verified or read rows. The fork lane differs in that 52 of its 53 rows are bare file names registered "at headline level" with nothing run, and its one read row is 1087.
+
+KIND OF WORK (rough, my estimate from the rows, not stated by them): building new results 40% (the seat's own derivations, proofs and unrun control packages); verifying or reproducing main's results 5%; auditing the record of main and other seats 25%; proposing ideas or routes 5%; process and governance 25% (relays, handoffs, work orders, indexes).
+
+THEMES
+
+THEME: Early model extensions R1-R12
+ROWS: 25, 54-64, 76
+DELIVERED: A baseline audit and a chain of conditional physical-model extensions (gauge running, vacuum, Higgs sector, alignment, family action, boundary index).
+WHAT MAIN DID: verified 11, registered 2. Main reproduced the seat's suites, priced the inputs into its ledger, and reproduced a defect in main's B915 (row 55).
+HELD UP:
+ 25: "with B1291 (parity) and with fc/main on m202 as the two-cusped witness"
+ 56: "its suite re-run: `test_physical_bridge_vacuum*` pass"
+ 59: "with its two preserved failures reproduced here as its state"
+DID NOT HOLD: Rows 56, 57, 58, 60, 61 and 62 were downgraded from "VERIFIED" to "REPRODUCED". Row 56: "VERIFIED as the seat's" until Review 66, P-125
+
+THEME: Cusp, holonomy and index R13-R20, plus upstream audits
+ROWS: 26, 65-75
+DELIVERED: Conditional cusp fields, global singular and weighted-cohomology counts, holonomy spectrum and equivariance, a partial-filling witness, and audits of main's earlier windows.
+WHAT MAIN DID: registered 9, verified 3. It re-derived the order-3 fixed-character locus and the (Z/2)^3 in G2 claim with its own code.
+HELD UP:
+ 72: "VERIFIED (the locus) with main's own data"
+ 73: "VERIFIED by three benches"
+ 75: "VERIFIED with own exact code"
+DID NOT HOLD: Row 71: "a different quantity from the seat's analytic 'three/zero'"
+
+THEME: R21-R31 anomaly, mass-flux and Poisson lane, plus 15 reader reports
+ROWS: 524-526, 536-560
+DELIVERED: Eleven further model rows and fifteen status and intake documents.
+WHAT MAIN DID: closed by triage 3, verified 1, registered 9, read 15. It ran the test suites and registered them; reader reports cover the documents.
+HELD UP:
+ 536: "the exact positive recomputed: I = +1, semisimplification 0, non-split base"
+ 544: "its self-corrected C3 locus agrees with B1304"
+ 545: "three light Dirac PAIRS, not unpaired generations, as the seat says"
+DID NOT HOLD: none (rows 538 and 542 narrow main's earlier B1351 and B1341, so the seat corrected main).
+
+THEME: Oct-2 bulk batch (B1457): cone, neutral, parent, source, Yukawa packages and relays
+ROWS: 697-821, 838-841
+DELIVERED: About 60 named analytic packages, each with its proof file, and 15 relays on boundary, signed level, source current and genesis reconciliation.
+WHAT MAIN DID: registered 118, verified 11. Most registered rows say "read in full by a reader pass". Verified rows are mostly "PARTLY VERIFIED": the algebraic identity was re-derived and the analytic steps were read.
+HELD UP:
+ 704: "re-derived exactly for every q > 0 (B1455)"
+ 739: "AGREES WITH MAIN"
+ 795: "is m207, H₁ = ℤ ⊕ ℤ/3 ⊕ ℤ/3, double cover t12839"
+DID NOT HOLD: none.
+
+THEME: Oct 3-8 audit-lane batch (B1619): Wilson, gluing, mixing, flat-domain proofs
+ROWS: 962-979, 981, 983, 985-987, 989, 990, 992-995, 1004, 1008, 1011-1014
+DELIVERED: Named reports and proofs on register action, joined Wilson lines, affine spin, mixed current, gluing freedom, mixing selection and Chern-Simons sector scope.
+WHAT MAIN DID: registered 35, all "at headline level ... not re-run on main".
+HELD UP: none.
+DID NOT HOLD: none.
+
+THEME: Fork lane batch (B1619): silver boundary, projective, monomial, balanced-parent packages
+ROWS: 980-1048 (fork, 52 rows) and 1087
+DELIVERED: Bare-named reports on silver boundary, projective cover and pairing, monomial gauge loci, SL5 seeds and parent admission. Row 1087 is a foundations audit and work plan against the genesis document.
+WHAT MAIN DID: registered 52 at headline level, read 1. The carrier-premise results in 1087 are "owed a verification reading".
+HELD UP: none.
+DID NOT HOLD: none.
+
+THEME: Weave, gauge completion, replays and cross-seat audit, Oct 8-15
+ROWS: 1055, 1056, 1077-1080, 1086, 1108, 1111-1113, 1136-1138, 1154, 1155, 1170-1172, 1175-1179, 1189, 1203-1205
+DELIVERED: Sealed-before-execution tests, a cross-seat replay of main's and other seats' results, a prediction of one of main's own failures, and a standing audit rule.
+WHAT MAIN DID: read 18, registered 9, verified 1. Main reran row 1154 from a clean archive, credited the seat in addenda (1078, 1111, 1176), and confirmed its P-140 hypothesis in 1203.
+HELD UP:
+ 1154: "both outputs byte-identical to the lane's receipt"
+ 1056: "checked on the lane (commit `f5da7ce4a` publishes the instability)"
+ 1111: "credited in B1642's addendum and P-105 (three routes agree)"
+DID NOT HOLD: none were wrong. Row 1138 carries a disclosed caveat: "the run began before the failure was seen, so it is not a remotely preregistered run"
+
+THEME: Reorientation reports and the word-architecture audit, Oct 16-20
+ROWS: 1245, 1251, 1255, 1260, 1272, 1273
+DELIVERED: Commit-range bundles of sealed tests and specification reports, and a word-architecture audit of the lifted register and related claims.
+WHAT MAIN DID: read 5 (mostly headline level), verified 1. Row 1273 was re-implemented with main's code (B1678) and later corrected.
+HELD UP:
+ 1273: "every algebraic claim re-implemented with main's own code, none failed"
+DID NOT HOLD: Row 1273, corrected 2026-10-22: "claim 20 and part of claim 11 NOT CHECKABLE AS STATED"
+
+THEME: P210 execution package, review and acceptance
+ROWS: 1393-1395, 1405, 1408, 1484, 1485, 1492
+DELIVERED: A sealed response-verification design, a hash-pinned admission wrapper, analytic successor notes, an independent review, and one executed run of ten checks.
+WHAT MAIN DID: read 6, verified 2. Main recomputed the bound hashes and reran the ten checks.
+HELD UP:
+ 1484: "main recomputed the bound hashes from its own objects"
+ 1492: "main's reader reran the ten checks from the seat's commit"
+ 1405: "the three bindings and all 39 pins verify unchanged since the seal"
+DID NOT HOLD: none.
+
+THEME: Audits of other lanes' claims (agy, independent audit, web seat)
+ROWS: 1407, 1466, 1486, 1512, 1536, 1538, 1550
+DELIVERED: Source audits of the agy lane and an independent audit, with a review of the web seat's unification test and its check script.
+WHAT MAIN DID: read 5, verified 2. It checked quotes at source, re-ran parts, and agreed with its own B1784 and B1826.
+HELD UP:
+ 1407: "an independent audit agreeing with main's B1784"
+ 1512: "main re-ran the read-out, c_s across sectors, the vanishing"
+ 1550: "REPRODUCED and DIGESTED"
+DID NOT HOLD: Row 1512: "σ_b ≡ 0 only where 12p₂ ∈ ℤ; on (1/4, odd/8) it is non-zero off Re τ ∈ ℤ". Row 1538: "'differs by order 10' corrected — it differs by 14–30 on three of four lines checked"
+
+THEME: Gauge-threshold, heat-kernel and chiral-kernel hand proofs, Oct 27-29
+ROWS: 1418, 1420-1423, 1425, 1465, 1487-1489
+DELIVERED: Unreviewed hand derivations on end-relative thresholds, Wilson coefficients, scale dependence, ghost weights, a chiral kernel, and a coupling combination free of common scale.
+WHAT MAIN DID: read 10. Main checked the finite algebra with sympy or mpmath and left the analytic cores unchecked.
+HELD UP:
+ 1418: "d1 d0 = 0 for any profile a(t)"
+ 1421: "all six coefficients reproduced exactly from the branchings"
+ 1422: "Z(0) = −h, the scale law and I(μ) all exact (Frullani)"
+DID NOT HOLD: none.
+
+THEME: Nov-3 physical-bridge lane hand derivations and unrun controls
+ROWS: 1517-1535, 1537
+DELIVERED: Light cubic and roster results, an exact classical electroweak branch, a fermion kernel, neutral-family kernels, a flavour twist, and about 40 controls implemented but unrun.
+WHAT MAIN DID: read 20, all through one reader's report, with nothing recomputed.
+HELD UP: none. Row 1517 only "supports B1822".
+DID NOT HOLD: none were wrong. Row 1533: "its 'independent review' 52e6571dd was the lane's own sub-agent, not independent under main's rule"
+
+THEME: Nov 4-5 Pin2/E8 lift and sector-index controls
+ROWS: 1555, 1556, 1572, 1579
+DELIVERED: A compensator lift, geometric spin transport, five unrun index controls, and source repairs.
+WHAT MAIN DID: read 4. It checked the algebra on its own code in 1555 and by hand in 1556.
+HELD UP:
+ 1555: "ALGEBRA VERIFIED ON MAIN'S CODE"
+ 1556: "the coercivity steps, the index's end map and the density identities verified by hand"
+DID NOT HOLD: Row 1555: "the Spin(10) relations hold with B = (agy's kc_j_10)⁻¹, not kc_j_10 (P-674)"
+
+THEME: Governance, handoffs, programme contracts and joint review with main (Oct 29-Nov 10)
+ROWS: 1490, 1491, 1624-1628, 1644-1646
+DELIVERED: Branch-governance policy, a graded progress summary, a research contract, a completion checklist, a precalibration closure handoff, and a pre-bank review of the agy lane's join relay with hand calculations.
+WHAT MAIN DID: registered 5, read 4, verified 1. Main took the handoff into its plan (P-748) and checked the review's findings with its own exact computation.
+HELD UP:
+ 1645: "F4 verified (every move fixes one character, the stabiliser of one background two)"
+ 1645: "F5 verified (an element of order 4 acts trivially on all 240 roots)"
+ 1644: "the same decision as main's, reached independently"
+DID NOT HOLD: none (in 1645 main disclosed its own miss).
+
+UNUSED AND POSSIBLY IMPORTANT (all classed read or registered, none verified)
+1087: "the carrier premise weakened by exact cocycle descent; positive-word fidelity". A foundations claim still owed a verification reading.
+1111: "literal B1642 raw tensor is skew, rank ≤ 2, nonzero raw spectrum 1:1:0, not the symmetric golden matrix". A found error in main's B1642, credited but not recomputed.
+1112: "W57's invariant-measure uniqueness premise scoped by an explicit bounded positive invariant-density counterexample". A scope limit on another seat's premise, queued as P-107.
+1394: "the Q8-fixed matrix state is rank two, not a point residue, and B1656's null residues cannot realize it with finite weights". It could kill a route; unverified.
+1408: "a reduction counts only if an independent choice disappears without returning as a hidden metric, boundary, normalization, measure, selection rule or fitted datum". A test for counting removed inputs.
+1420: "the universal end cancels in α₂⁻¹ − α₁⁻¹ and α₃⁻¹ − α₁⁻¹". A conditional normalisation reduction; main checked only the multiplet fact.
+1465: "the spin and Wilson choices are not derived; V3's three modes alone are not three generations". It names exactly which choices remain open.
+1486: "one cell passes on any numeric ratio; the script exits 0 with a false cell". A fault in another seat's check script.
+1487: "is free of common scale and matching switch on the nonexceptional flat-character family". An instrument claim; the analytic core is unchecked.
+1488: "no single combination is scale-free across the admitted family". A negative that limits 1487.
+1518: "the nontrivial-spin light cubic vanishes pointwise (conditional EFT zero Yukawa; trivial-spin control nonzero)". A conditional zero with a control.
+1521: "the parent's light roster is generic (all four spins) iff χ³ ≠ 1 and χ¹⁰ ≠ 1". An exact condition on which choices matter.
+1522: "at exact Wilson order ten (η = χ⁵) the same parent has an actual nonzero light cubic". A case where the generic zero-cubic fails.
+1523: "q indispensable, Sp(2,𝔽₂) forces q = 1 = B1707's content". Six corrections to the owner's three-lens proposal.
+1525: "an exact classical electroweak branch of the same action at Wilson order three". An exact branch whose amplitude and state are unselected.
+1535: "four combined classes ε_eff remain — no 16-to-4 reduction; a measurer may still see the factors". A negative on a proposed reduction.
+1536: "the selected order-5 point is off U's eigenline and no order-5 rank-one character is fixed by A³". Faults in another lane's nineteen-parameter claim.
+1538: "T12's quartic β still wrong (three g₁ coefficients at 1/3, three yt² terms absent, no pole matching)". It is not certified at source by main.
+1626: "three levels — a conditional model, a derivation from the foundation, the full goal — and fourteen duties". A completion skeleton that main took for its closure queue.
+1628: "an external audit package with a preliminary reproduction". The external audit is still owed on main (P-752).
+The 52 fork rows and the 35 audit rows of the B1619 batch are bare file names that I cannot judge. They include names such as "selection_null_review_2026_10_04" (row 1005) and "whole_picture_audit_2026_09_20" (row 1018).
+
+TRACK RECORD
+The seat's reproducible work held up: every verified row is an agreement or a partial verification, and none is a refutation (rows 25, 55-64, 72, 73, 75, 536, 704, 739, 795, 1154, 1273, 1484, 1492, 1645). It found a real defect in main's B915 (row 55) and predicted the failure of main's B1642 before main's results were out (row 1111). Its overstatements are mostly labels: "VERIFIED" was relabelled "REPRODUCED" (rows 56-62), and its independent audit and word-architecture claims needed later qualifiers (rows 1273, 1512, 1538). It is careful about grades, with "unreviewed, unrun" stated on its own proofs (rows 1393-1394, 1465, 1522). Roughly 66% of its rows are registered only, so most of its analytic content has never been checked by main.
+
+STATED LIMITS
+ 55: "the threshold/mass calculation REGISTERED as the seat's conditional model"
+ 1055: "same-author checks by the lane's own word; not re-run on main"
+ 1136: "the lane's own grade: authored, not independently accepted"
+ 1176: "an original-code replay of main's B1651, not an independent implementation"
+ 1405: "the reviewer's independence is self-attested under the same git identity with no session record"
+ 1423: "main's independent review owed before any value on this route is used (P-396)"
+ 1466: "every quote checked on the seat's branch by main; not recomputed on main"
+ 1522: "hand derivation, source audit or controls implemented and unrun — nothing computed with a committed output"
+ 1533: "its 'independent review' 52e6571dd was the lane's own sub-agent, not independent under main's rule"
+ 1579: "software evidence and source repairs of the lane's own instruments"
+ 1624: "its grades taken as the lane's own"
+ 1628: "the hand proofs are the lane's own, unreviewed and unrun by its own labels"
+ 1646: "the mask hides most digits, so main reports its own numbers"

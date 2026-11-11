@@ -1,0 +1,208 @@
+SEAT: web seat (chat1). 233 rows, 2026-09-08 to 2026-11-11.
+
+KIND OF WORK (rough shares of the 233 rows): building new results 30% (sealed-card tests, derivations, exact-integer facts); verifying or reproducing main's results 15%; auditing main's record for faults 20%; proposing ideas or routes 20% (design studies, readings, options notes); process and governance 15% (bars, ledgers, listeners, opinions on rules).
+
+THEMES (13; themes G, H and IJ each end with a note on the "unread" rows, since only they carry that class)
+
+THEME: Sept 2026 relays, and the first owner-relayed packages
+ROWS: 11-20, 27, 35, 36, 82, 527-530, 632
+DELIVERED: Small checks of main's Standard-Model closure work, a fixed-line law, and prior-art notes. Then four large handoff packages whose scripts main reran.
+WHAT MAIN DID: 19 rows: verified 8, differed 5, registered 4, closed by triage 2. Mostly confirmations; the packages came back "VERIFIED-DIFFERS" with named corrections.
+HELD UP:
+- 13: "re-run in B1303: 1364/1364, RC=0"
+- 527: "34/34 of its checks reproduced"
+- 528: "h¹(m004; 27) = 3 verified by Fox calculus at 500 bits"
+DID NOT HOLD:
+- 13: "is an E54 instance on their bench" (the seat's "0 files" count)
+- 14: "it does NOT generalise sm:B1280 Theorem 2, which is about the GERM"
+- 35: "bookkeeping VERIFIED-DIFFERS"
+- 36: "the figure-eight knot is not in the paper (E68 check)" (main's own later correction shows the seat was right here)
+- 82: "the figure-eight knot is named in none of the sixteen papers" (same later correction)
+- 527: "differs on two misgraded inputs, one reasoning error (m009), one record misstatement"
+- 528: "census-bias numbers do not reproduce and carry an unstated selection"
+- 529: "REFUTED: Maschke governs finite-group modules, not π₁-modules"
+- 530: "two Betti sums misprinted"
+
+THEME: First-background census, the field stage, the scale and the root-share check (Oct 7-14)
+ROWS: 899, 1088, 1120-1123, 1139-1145
+DELIVERED: A census of first backgrounds, a passage to the field, the cusp condensate, and the scale test with sealed cells.
+WHAT MAIN DID: 13 rows: verified 4, read 6, registered 3. Main recomputed four sealed or checked items on its own code in B1650.
+HELD UP:
+- 1120: "recomputed on main's code to 2e-31 with controls"
+- 1121: "byte-identical, with the SM seat's W70 code used verbatim"
+- 1139: "rerun in a clean checkout, every cell as committed"
+DID NOT HOLD:
+- 899: "the length reading does not hold as a law"
+- 1123: "omits its own word weight (0.41 each with it)"
+- 1139: "the script crashed instead of reporting"
+- 1120: "O3, the cusp-to-null step (Simpson's table, from memory"
+
+THEME: Thread frame, selection principle and post-hoc readouts (Oct 14-15)
+ROWS: 1161-1164, 1183-1188, 1198-1202
+DELIVERED: Sealed thread-frame tests, a selection-principle report, an audit of negatives, and post-hoc completions.
+WHAT MAIN DID: 15 rows: read 13, registered 2. No recomputation on main.
+HELD UP: none by main's recomputation.
+DID NOT HOLD:
+- 1185: "its identities I1–I3 and its H-PART and H-THETA2 entries are void, as the seat records"
+- 1200: "L1 failed as worded on a double-precision floor"
+
+THEME: The root's line, twisted units and low threads (Oct 15-17)
+ROWS: 1211-1214, 1221-1225, 1234, 1235, 1241-1244, 1249, 1250, 1254, 1258, 1259
+DELIVERED: Closure law, cusp criterion, twisted-unit instruments and null draws. Sealed tests: the twisted units on low threads (the Standard Model's fit worse than the nulls) and an S-shape replication that did not replicate.
+WHAT MAIN DID: 20 rows, all read. Main later banked two as verified (B1668).
+HELD UP:
+- 1241: "verified and banked on main as B1668"
+- 1244: "effect nil at the precision reported"
+- 1254: "The cusp note reproduces B1667's η⁴ control to every printed digit"
+DID NOT HOLD: none found by main. The seat's own negatives are rows 1241, 1249 and 1234.
+
+THEME: Zero-free reading, lepton null, selection map and ingredients (Oct 21-23)
+ROWS: 1279, 1291, 1292, 1296, 1297, 1300, 1303-1306, 1308, 1310, 1312, 1315-1317, 1320, 1321
+DELIVERED: A family-wide lepton null (not evidence), an ingredients map, a sealed two-ingredient selection test, an exploratory B−L line and second-Higgs route (negative), and a check of the SM seat's W133.
+WHAT MAIN DID: 18 rows: verified 1, registered 3, read 14. Main reproduced the sealed numbers, then recalibrated them by counting the menu of ingredients.
+HELD UP:
+- 1279: "the equivalence checked from B1679 (i) and (ii)"
+- 1303: "reproduces the sealed numbers exactly"
+- 1316: "the extension (the ε = +1 lines) and the proof sketch reproduced with main's own code"
+DID NOT HOLD:
+- 1303: "so the six's specificity depends on the reading rule"
+- 1308: "which main found covariant (P-297)"
+- 1321: "EXPLORATORY, not evidence of specificity"
+
+THEME: Sealed tests of the zero-free, tick-line and two-Higgs menus, and the precision bar (Oct 23)
+ROWS: 1322, 1323, 1327, 1328, 1330-1332, 1337-1340, 1342-1346, 1349
+DELIVERED: A run of sealed tests, a standing precision bar, post-hoc fits, and an attack on single-Higgs readings.
+WHAT MAIN DID: 17 rows: verified 1, read 9, registered 2, unread 5. The five unread (1331, 1332, 1338, 1340, 1342) were held back under main's "B1740 pledge" and mostly read later (1343, 1337). The bar was adopted (1330).
+HELD UP:
+- 1344: "every number checked reproduced"
+DID NOT HOLD:
+- 1327: "The record does not mention B1732, B1731 or the determinant reading."
+- 1328: "The seat should add both runs to its record in a dated note"
+- 1344: "by construction of the line family"
+
+THEME: The attack on one-Higgs readings: reading tests, e9, plan and replies (Oct 24)
+ROWS: 1350-1355, 1362-1369, 1373, 1374, 1381-1387, 1392
+DELIVERED: Lemmas on the coupling, a sealed reading test (no row passes), a quaternion-Higgs result, an audit of hand-made parts, a literature dictionary, and opinions on a weave sentence and the ladder rule.
+WHAT MAIN DID: 24 rows: verified 3, registered 2, read 19. Main verified the locks and the e9 result.
+HELD UP:
+- 1354: "VERIFIED on main on a seeded sample of forty rows"
+- 1364: "VERIFIED on main (audit/verify_split/e9_check.py)"
+- 1352: "the seven locks VERIFIED on main"
+DID NOT HOLD: none found by main. In 1386 main's own clause was the one corrected.
+
+THEME: Look ledger, unification-scale test, checking pass on B1786, process relays, then P-323, horocycle, exact end and audit of main's arcs (Oct 24-28)
+ROWS: 1398-1401, 1404, 1411, 1412, 1414, 1424, 1428, 1430, 1432, 1443, 1444, 1455, 1456, 1459-1464
+DELIVERED: A sealed negative on the unification scale, a checking pass on main's B1786 with five text corrections, the strong-angle and horocycle sealed cells, exact twisted norms, and an audit of main's arcs and the SM seat's W172 and W174.
+WHAT MAIN DID: 22 rows: verified 1, read 21. 1424 was reproduced in main's own code; 1459's data-free half was reproduced in Review 74; 1428's corrections were applied to B1786.
+HELD UP:
+- 1424: "finds nothing lower than reported and nothing below 21.67"
+- 1459: "was REPRODUCED on main at S238"
+- 1428: "every correction applied to B1786"
+DID NOT HOLD:
+- 1424: "stage A is not converged at the gate"
+- 1399: "correcting its first count to the ledger's definition"
+- 1412: "need Linux or coreutils and bash ≥ 4"
+- 1461: "the scope corrections to B1739, B1740 and B1790 await main's own check" (the seat says main's arcs are overstated)
+
+THEME: Opinions, workdesk, scoreboard, critical line and the cone (Oct 28-29)
+ROWS: 1467-1470, 1472, 1473, 1475-1483
+DELIVERED: Rule opinions, workdesk defects, a frame null (intermediate), exact counts of fibre isogenies and flux classes, the Farey critical line, B1813's limits, two scoreboard rows, and signature and isotropy controls.
+WHAT MAIN DID: 15 rows: verified 9, read 6. Every checked item reproduced.
+HELD UP:
+- 1472: "the fixed points of LR and RL on P¹(ℤ/k) for k ≤ 130 are nonzero exactly on the seat's rule"
+- 1473: "main's own recount, audit/verify_two_fluxes/recount.py"
+- 1475: "P(0) = log 2 to 10⁻¹⁶"
+DID NOT HOLD:
+- 1478: "the row counts I-33's T-NORM by hand and does not count the generations' metric"
+- 1479: same note (Review 74)
+- 1481: "eight labelled cells, not seven"
+
+THEME: Final act's bar, design studies verified with corrections, and the audit of main (Oct 30 to Nov 3)
+ROWS: 1493-1495, 1502-1509, 1513-1516
+DELIVERED: A sealed bar for the final comparison, a map of the chain, derivations and design studies (quarter relation, kind clause, I-31, sector assignment, metric typing), and a review of where main might be wrong.
+WHAT MAIN DID: 15 rows: verified 1, differed 6, read 8. The design studies came back "VERIFIED WITH CORRECTIONS".
+HELD UP:
+- 1493: "main checked the seal's sha-256"
+- 1502: "the sealed check rerun from a copy, six of six cells PASS"
+- 1503: "the script rerun twice, every substantive cell byte for byte"
+DID NOT HOLD:
+- 1502: "DERIVED at leading order, conditional on B1788 § 5 (a)–(c)"
+- 1503: "the evaluator assumes T-NORM uncomputed"
+- 1505: "the headline's map is the seat's reading"
+- 1507: "the 6d numerics not reproduced"
+- 1508: "B1798 is not a sealed search (B1726 and B1749 hold the zero line)"
+- 1509: "Table B's three ι rows are not stabilisers"
+- 1506 (read): "its card sentence not adopted"
+
+THEME: Nov 4-5 scripts reproduced and the principled ends
+ROWS: 1544, 1545, 1551, 1553, 1554, 1557, 1559, 1564-1567, 1573-1575
+DELIVERED: Many small scripts, each committed before its run, on the frame's forced relations, the strong-angle rule, singlet laws, the density Higgs, the principled ends, and a third opinion on a census.
+WHAT MAIN DID: 14 rows: verified 11, read 2, other 1 ("PROVED", read and checked). Main reran nearly all.
+HELD UP:
+- 1545: "Theorems 1–2 re-run on main's tree from the seat's script with one worker"
+- 1566: "each correction checked by main"
+- 1573: "match norms.npz to 2.0 × 10⁻¹⁴"
+DID NOT HOLD:
+- 1554: "REFUTED as worded"
+- 1553: "wrong for up-only, which keeps 1"
+- 1564: "one misstatement corrected"
+- 1544: "16 null-direction rows skipped at the numerical floor in its environment"
+
+THEME: The departure, the run of 6 and level 5, the clock and the scale (Nov 6-10)
+ROWS: 1584-1587, 1590, 1591, 1593-1595, 1597-1599, 1601-1603, 1605-1607, 1609-1611, 1614, 1618-1620, 1634
+DELIVERED: Preregistered exact checks on which line-invisible defect is selected, level-5 minimality, the point read-out, the clock (data-free), the chiral premise and the open-book reading, attacks on R2 and R4, and the tube's τ.
+WHAT MAIN DID: 25 rows: verified 11, read 12, other 1 (a ruling), registered 1. Most scripts were rerun with identical output.
+HELD UP:
+- 1584: "VERIFIED (S305t), main's own code"
+- 1585: "re-run on main, output identical"
+- 1618: "its apex table re-derived exactly on main"
+DID NOT HOLD:
+- 1620: "its ∣Re τ∣ at k = 7 is six hundred times its stated error"
+- 1585: "the hypothesis that least excess length among line-invisible defects selects the single run of 6 FAILS" (the seat's own hypothesis)
+- 1602: "R2 stays CHOSEN"
+- 1611: "the card fails P-728's count either way — not sealable"
+- 1606: "stage29_geometry_check.py fails on main in SnapPy's Dirichlet construction"
+
+THEME: Weave-form definitions, the move count and the golden state (Nov 10-11)
+ROWS: 1640-1642, 1652-1654, 1662, 1663, 1666, 1667, 1674, 1675, 1685, 1686, 1690, 1691
+DELIVERED: Exact integer facts on the weave and A-all, a sealed card on what concentrates under the move count, a closure test, a read-out value, the symmetry of a state of the whole, and checks of the agy lane's loop.
+WHAT MAIN DID: 16 rows: verified 8, read 5, registered 2, other 1. Main re-derived every cell it ran.
+HELD UP:
+- 1652: "VERIFIED BY MAIN'S OWN CODE AND ANOTHER METHOD"
+- 1654: "RECOMPUTED BY MAIN, ENTRY FOR ENTRY"
+- 1685: "17 checks with main's own code, none failing"
+DID NOT HOLD:
+- 1652: "Not verified by main: the five points off the imaginary axis"
+- 1691: "its fifth expectation fails on the two counts it names"
+- 1686: "one fails as worded"
+
+UNUSED AND POSSIBLY IMPORTANT
+- 1331 (unread): "on the zero-free census the tick's line (2/5, 4/5) ranks first of 266 for the six and the nine". It is a line-selection control, and the result was queued behind later sealed tests.
+- 1461 (read): "but the r^0.52 law is a property of the median, not a law". It is an audit of main's B1739, B1740 and B1790, and the scope corrections await main's check.
+- 1462 (read): "with the bosons' weight 0 (matter only) the X-minimum leaves the mirror point at all 16 row heights". It challenges "robustly" in the SM seat's W172, and was read but not recomputed.
+- 1463 (read): "J_phys = −J_code (the Yukawa built as Qᵀ Y u^c); P-323 stands and is understated". It is a sign finding on main's code and an amendment to rows 1443, 1455 and 1456.
+- 1464 (read): "SU(5)-breaking fibre line of the frame's kind is the restriction of a flat SU(5) bundle on the figure-eight complement". It is a proven tension for the six's lines, and was read, not recomputed.
+- 1459 (read): "the reading: B1726's rule L = L_max(Im τ) (called by B1741, B1749, B1786 and the horocycle test) has lost its geometric ground". The data-free half was reproduced on main, but the sealed look was not re-run.
+- 1455 (read): "H2, THE DECISIVE CELL, NOT ABSORBED — no shift of τ within the window turns L₂'s six into L_max's". It shows the horocycle is a counted discrete input, and was not recomputed.
+- 1443 (read): "so no counterterm holomorphic in τ makes θ̄ constant there". It bears on whether the strong angle stays an input.
+- 1469 (read): "rare at one test, not after the look count". It is a frame null, a calibration against random frames, and was not recomputed.
+- 1516 (read): "THE CHANNEL NORMS' PAIR SUMS AND B1788'S TWO HYPOTHESES (a derivation with checks". The kernel lemma and the claim that hypothesis (c) alone suffices are marked "NOT YET VERIFIED on main".
+- 1640 (read, headline only): "the record's inventories graded candidate by candidate against THE_WEAVE's clause, and none qualifies, so no minimum is computed". It is a route-killing grading of main's candidate actions on τ.
+- 1641 (registered, headline only): "before any value, does the joint action force a content". It asks whether the action forces a content, which bears on removing choices.
+- 1619 (registered): "R2'S EXACT BLOCK IS, ON THE RECORD, A PURE NUMBER OF THE OBJECT". It has an argument for the scale identification, which main kept CHOSEN.
+- 1186 (read): "THE NEGATIVES, AUDITED". It is an audit of main's negatives, with asks taken into B1652's addendum but not re-run.
+
+TRACK RECORD: The seat is strongest at preregistered, sealed, data-free exact checks. Main reproduced most of what it reran: 1344, 1354, 1364, 1424, 1472-1482, 1545, 1584-1610 and 1652-1691, usually byte-identical or entry for entry. It also finds real faults in main: 1428 produced corrections applied to B1786, 1461-1463 queued scope corrections, and 1618 found an error in B1852 (P-751). It has been wrong or overstated in the early handoff packages (14, 527-529: a scope overreach, misgraded inputs, and a Maschke argument "REFUTED"). Other cases are 1620 (error understated), 1553 (a commit subject wrong), 1554 (a mis-worded identification), and rows 35, 1424 and 1505-1509, where its work needed correction. Several of its own hypotheses failed their sealed tests (1249, 1296, 1424, 1585). The earliest negatives were relayed as findings, not hidden, and the seat disclosed late runs itself.
+
+STATED LIMITS
+- 1291: "not re-run on main"
+- 1141: "findings read in full; not recomputed on main"
+- 1303: "Not yet verified with main's instrument"
+- 1328: "EXPLORATORY, data-fitted, no evidential weight"
+- 1368: "not re-transcribed on main"
+- 1459: "was not re-run on main — P-595"
+- 1606: "NOT run by main (the mask rule)"
+- 1620: "the members themselves not recomputed on main beyond k = 2"
+- 1686: "it read the lane through the mask and ran none of its code"
+- 1297: "the ruling not first-hand to main"
+- 1424: "Both searches can miss narrow near-conic basins"

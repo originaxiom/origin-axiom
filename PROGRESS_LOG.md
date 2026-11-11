@@ -19577,3 +19577,23 @@ seat's check. Six are left.
 
 0 of 19.
 
+## 2026-11-11 — What every seat has done, on one page, and a proposal for how to work from here (B1889)
+
+**Why this was done.** The owner asked main to stop pressing on alone and first understand the whole team: what each of the other working sessions, the "seats", has delivered, and what each can be relied on for. After that, he and main fix the plan together, and main directs the seats.
+
+**What the count shows.** Over two months the seats have sent main 1,686 separate items. Main has recalculated 377 of them with its own programs. Of those, 349 came out the same and 28 came out different, and in at least three of the 28 it was main that had been wrong. Another 455 were read but not recalculated. 560 were only noted down and never read in full. 233 were closed by pointing at later work. 55 have not been read.
+
+**What that means.** Most of what the team has produced has been filed and not used. The largest unread piles belong to two seats that do physics: 239 items from one, 160 from the other.
+
+**The team today.** Four seats are working. One is best at exact checks that are written down before they are run. One audits main's own record and now also builds the tools that keep the record honest. One is very fast and inventive, runs on a different kind of AI, and has been wrong often enough that nothing of its is taken without a second calculation. One writes physics derivations in volume: nothing of its that main recalculated has been wrong, but two thirds of it was never checked.
+
+**How the page was made.** The numbers are computed from the record, and an automatic check recomputes them. Five cheaper helper readers sorted the items into themes. Every sentence they quoted was checked against the record by a program: 430 of 436 matched word for word, and the six that did not are not used.
+
+**The proposal, which is not yet in force.** Split the remaining work between the seats, so that the clean-up and the mathematics go on side by side. Each seat writes one page before it starts: what it will deliver, how it could turn out wrong, and what done means. Main approves that page once and does not check each step. No seat checks its own work: the seats check each other in a ring, and main recalculates the deciding number before anything is accepted. Three things are for the owner alone: how much must be re-checked before work starts, which seats take part, and whether the two tracks run side by side.
+
+**While this was being written, the audit seat sent its check of two of main's corrections.** One it accepts: it recalculated the result a different way and got the same answer. The other it accepts only in part: the calculation is right, but one summary line still begins with the old, wrong statement, and an automatically generated page shows only that beginning. Main changes the line next.
+
+**Which piece of the plan moved.** None. This is the survey the owner asked for before the plan is fixed.
+
+0 of 19.
+

@@ -1,0 +1,232 @@
+SEAT: advisor (45 rows; class counts: read 39, verified 2, registered 3, unread 1)
+KIND OF WORK: building new results 10% / verifying or reproducing main's results 10% / auditing main's record 35% / proposing ideas or routes 25% / process and governance 20%.
+
+THEME: Audits and re-audits of main (planted violations)
+ROWS: 1629, 1630, 1639, 1651, 1660, 1664, 1665, 1671, 1672, 1673, 1687
+DELIVERED: A 73-finding audit, acceptance criteria with 27 planted violations, a runnable violation suite, and five re-audits of main's fixes, each with planted cases.
+WHAT MAIN DID: read 11 (all of them). Main reproduced the findings, ran the suite in a scratch clone and mended the residuals; banked nothing on the audit's word (1629).
+HELD UP:
+- 1671: "EVERY RESIDUAL REPRODUCED ON MAIN AND MENDED"
+- 1651: "it confirms B1865's count and names the same fifteen as main's enforcement package"
+- 1664: "ITS COUNTS RECOMPUTED ON MAIN; FOUR OF ITS SEVEN ROWS MET"
+DID NOT HOLD:
+- 1629: "The audit's own details corrected in nine places"
+- 1665: "the script it names fails on main and is run by nothing"
+
+THEME: Relayed owner sentences and the rulings ledger
+ROWS: 1631, 1635, 1648, 1649, 1656, 1659, 1679
+DELIVERED: Relays of the owner's sentences as numbered "rulings", a sort of 111 inventory entries, and a rule for how rulings are recorded.
+WHAT MAIN DID: read 5, registered 2. Main acted on none of the relayed rulings and put them to the owner. Main adopted the seat's rule for every seat (1679).
+HELD UP: none by recomputation; this theme is process.
+DID NOT HOLD:
+- 1656: "NOT RULINGS FOR MAIN; NOT ACTED ON"
+- 1648: "THE RULING UNCONFIRMED TO MAIN"
+
+THEME: The principle, the claim as a loop, the tick, the attacks
+ROWS: 1632, 1633, 1636, 1637, 1638, 1647, 1650, 1655, 1657, 1658, 1661, 1668, 1669, 1670, 1680
+DELIVERED: Designs for the count as an output and a first back-edge. Sealed data-free runs on the principle as a selection rule, on the elementary act (two acts or one tick), and on four attacks on its draft. A top-down reading of the principle. Five readers and a judge on ambiguity.
+WHAT MAIN DID: read 12, verified 2, registered 1. Main re-derived the hypotheses, integer facts and computations with its own code. It disputed some arguments, and it banked none of the draft's clauses.
+HELD UP:
+- 1638: "main's own enumeration to 20 letters on three backgrounds reproduces all seven hypotheses"
+- 1658: "all four computations re-derived by main's own code, the orientation covers on 22 histories where the seat checked 8"
+- 1668: "ALL SIXTEEN HYPOTHESES RE-DERIVED ON MAIN"
+DID NOT HOLD:
+- 1647: "one of its rows is a word written twice; three rows argued forced need a clause its formal statement does not contain"
+- 1670: "by the seat's own note the admission form of that back-edge closes nothing for the weave"
+- 1668: "The draft's clauses are not banked"
+
+THEME: The V1 card, read-out acceptance, and reads of the agy lane's branch
+ROWS: 1681, 1683, 1684, 1688, 1689
+DELIVERED: A sealed card for the audit's one open finding, an acceptance test for a read-out on the whole, a recomputation of the web seat's relays, and a read of the agy branch.
+WHAT MAIN DID: read 5. Main re-ran stage one and reproduced the counts. It built its own page from the seat's status script. It did not open the seat's outputs on the agy branch (1688).
+HELD UP:
+- 1681: "every count its controls judge by is the same on main's machine"
+- 1684: "its recomputation agrees with main's (B1881)"
+- 1688: "the lane's state and peak stand, by a second route"
+DID NOT HOLD:
+- 1681: "one read-out count differs by one; main judges it not a look"
+
+THEME: Enforcement tooling, order of work, focus
+ROWS: 1682, 1692, 1693, 1694, 1698
+DELIVERED: A patch mending three gates, a scoreboard script, an eighteen-hour focus reading with five proposals, a handover of five packages, and a first enforcement working page.
+WHAT MAIN DID: read 4, unread 1. Main compared the patch with its own mends, took the proposals and enforced the order fix. The page in 1698 was not read.
+HELD UP:
+- 1692: "Its numbers at 8f0b03814 are those of main's own status page at that commit"
+- 1693: "ITS READING IS MAIN'S OWN, AND ITS FIVE PROPOSALS ARE TAKEN"
+- 1694: "Its count of the manual cases is right where main's was not"
+DID NOT HOLD:
+- 1682: "They differed in one place each on the excusing words"
+
+THEME: The repository's public form
+ROWS: 1695, 1697
+DELIVERED: An opinion on what to hand to the world, with its own plan page, and a proposal put to main for scrutiny.
+WHAT MAIN DID: read 2. Main recounted the measurements and attacked the proposal on its eight points.
+HELD UP:
+- 1695: "main's own recount confirms its measurements"
+DID NOT HOLD:
+- 1697: "the independence of the check does not hold as stated"
+
+UNUSED AND POSSIBLY IMPORTANT:
+- 1637 (registered): "the scalar Laplacian's lowest state is the constant, so it is B1846's weight and no back-edge". It is a design for a possible loop route, never read in full; later notes (1670, 1673) withdraw part of it.
+- 1698 (unread): "why each of the thirteen planted cases still passes, read in the gates' code at main's handover commit, before any mend". It is a ready diagnosis of the enforcement faults.
+- 1632 (read): "one derivation graph from the foundation to every output; a value's status by the weakest link; the headline printed from the graph". It is the design of the count as an output, entered as WP-0.12, which is not started (1692).
+- 1633 (read): "A DRY RUN OF THE VALUE-CHAIN CERTIFICATE ON THE RECORD'S CANDIDATE (data-free; nothing compared with measurement)". It was not re-run on main, and it is a test instrument.
+- 1656 (registered): "its R15: what exists is what survives". Main says that, if the owner confirms it, two inputs of the budget are touched.
+- 1688 (read): "a control on the lane's test against bands of measurement". Main's own check of the lane's state and peak is still owed.
+
+TRACK RECORD: The seat is strongest as an auditor and re-auditor. Main reproduced its findings and residuals (1629, 1651, 1671, 1672, 1687), and its two sealed runs verified (1638, 1658). Its attack results were re-derived on main (1668). It has also been wrong or overstated. It corrected nine details of its own audit (1629). A script it named fails on main (1665). The admission form of its first back-edge fails (1670). One of its read-out counts differs by one on main (1681). Its patch differed from main's on one word rule (1682), and its independence claim for the check fails (1697). Its relayed "rulings" were downgraded to relayed sentences (1656, 1648).
+
+STATED LIMITS:
+- 1655: "Its readers are instances of one model family, as it discloses; main was not a reader."
+- 1629: "Nothing is banked from the audit's word"
+- 1668: "Its table of twenty-one negatives is judgement and is recorded at the seat's grade."
+- 1688: "READ IN FULL (the page); ITS OUTPUTS NOT OPENED"
+- 1648: "Main has read the formal statement and cannot be one of its blind readers"
+
+---
+
+SEAT: agy (32 rows; class counts: read 21, verified 4, other 3, registered 3, unread 1)
+KIND OF WORK: building new results 55% / verifying or reproducing main's results 5% / auditing main's record 15% / proposing ideas or routes 15% / process and governance 10%.
+
+THEME: Early frontier branch and the first audit relays
+ROWS: 1406, 1510, 1511
+DELIVERED: 27 commits on its own branch, a full audit of main's read-out with theorems, and an elevation plan with theorems 7-14.
+WHAT MAIN DID: verified 1, other 2 (one "AUDITED", one "DECLINED"). Main re-banked what was sound and declined the rest as post hoc.
+HELD UP:
+- 1406: "agy:B1758 SOUND, re-banked as main's B1758 after main's runs"
+- 1510: "the corner inversion at B1825's address, exactly the lane's table"
+DID NOT HOLD:
+- 1406: "agy:B1762–B1764 post hoc fits presented as selections"
+- 1510: "The (a)-replacement not verified (P-559)"
+- 1511: "the closures refuted by the independent lane's recomputation"
+
+THEME: Theorem stages 15-18 read through the mask (2026-11-03 to 11-05)
+ROWS: 1539, 1547, 1548, 1549, 1558, 1560, 1561, 1562, 1563, 1568, 1571, 1580
+DELIVERED: Theorems 15 to 111 in stages, post hoc and unsealed, with a rebuttal of seven of main's findings (1561).
+WHAT MAIN DID: read 12. Main checked the value-free parts on its own code, with credit for some, and refuted or declined the rest. It banked some pieces (1562, 1568, 1580).
+HELD UP:
+- 1548: "main re-ran every check, identical"
+- 1558: "THE VALUE-FREE MATHEMATICS VERIFIED ON MAIN'S CODE"
+- 1563: "the adjoint Wada polynomial verified with credit"
+DID NOT HOLD:
+- 1539: "Theorem 16C is not a proof (ad hoc ±1 to reach cot(π/20))"
+- 1560: "spectral faithfulness and Theorem 66's construction refuted"
+- 1561: "MAIN STANDS ON SIX, ONE MOOT"
+- 1562: "the covariance selection refuted"
+- 1563: "Theorem 88's gate cannot find violations by meaning"
+- 1568: "Theorem 59 still wrong"
+- 1571: "the GAP1 'proof' not one"
+- 1558: "everything else refuted or declined (P-672)"
+
+THEME: Stages 19-29 (Yukawa identity, census, level-5 work, tube identity)
+ROWS: 1581, 1582, 1586, 1588, 1592, 1596, 1600, 1604, 1608
+DELIVERED: Identities, a commutant census, a converse law, level-5 audits and a Margulis-tube identity.
+WHAT MAIN DID: verified 2, read 7. Main verified two of them in part. It read the rest through the mask at title or headline level, with their own claims owed main's check. Its 1608 comment is that the lane removed an unsealed evaluation.
+HELD UP:
+- 1581: "holds on main to 2 × 10⁻¹⁴ (2000 random complex inputs; it fails with a₀ ≠ 0)"
+- 1582: "the converse holds on main with no exception either way"
+- 1604: "Theorem 154's identity VERIFIED by main with SnapPy's own shapes"
+DID NOT HOLD:
+- 1582: "the menu reduction is NOT data-free"
+- 1604: "Theorem 156's 'zero continuous parameters' contradicts the record's scoreboard"
+- 1608: "the coupling evaluation it removed was a firewall breach in spirit"
+
+THEME: Pure-logic closures and the register-to-field join
+ROWS: 1621, 1622, 1643
+DELIVERED: Five pure-logic debt closures (Theorems A-E), a hardened pure-logic bridge, and a join of register to field.
+WHAT MAIN DID: verified 1, registered 1, other 1. Main verified Theorem B and part of A, and ten claims of the join. The rest is owed main's check.
+HELD UP:
+- 1621: "Theorem B verified by main's own code"
+- 1643: "ten of its claims verified by main's own computation and none found wrong"
+DID NOT HOLD: none.
+
+THEME: Branches and relays of 2026-11-10 and 11-11
+ROWS: 1623, 1676, 1677, 1678, 1696
+DELIVERED: 91 commits and 31 relays, an opinion of the record with a proposal to split the repository, a branch with edited gates and a prototype, a four-phase loop branch, and seven reports.
+WHAT MAIN DID: read 2, registered 2, unread 1. Main adopted nothing and ran none of the lane's code.
+HELD UP: none by main's own check. In 1676 the advisor seat's run (reported by main) has the lane's gates catching 21 of 21 planted violations, against main's 8.
+DID NOT HOLD: none.
+
+UNUSED AND POSSIBLY IMPORTANT:
+- 1622 (registered): "THE P000 → F₂ → SL(2, ℤ) → WEAVE → M_φ PURE-LOGIC BRIDGE, HARDENED". Two halves for P-321 are owed main's verification and could move a foundation step.
+- 1586 (read): "the palindrome reflection said to eliminate the hand at Re ½". It would remove a choice if it holds. Main's own check is owed.
+- 1596 (read): "the one-process level k = N = 5 with criterion K". It is read by title only.
+- 1588 (read): "the basis-covariant effective coupling along L⁵R(LR)⁵, a level-4 holonomy law". It is owed main's check.
+- 1676 (read): "a sealed design and run of a read-out on the whole, ending in a test against bands of measurement". It is a new sealed instrument. Main has not read its comparison with measurement and does not adopt it.
+- 1678 (registered): "a loop in four phases, each with a preregistration, a seal list, a solver, a referee and a report". It bears on the closed-loop route. Only the README was read.
+- 1696 (unread): "ITS AUDIT OPINION AND REPOSITORY-SPLIT PROPOSAL WITH SEVEN REPORTS AND A FOLDER OF RECEIPTS". Main has not read the seven reports.
+
+TRACK RECORD: The seat produces a very large volume of theorems and branches. Much of it is value-free mathematics that main later checked, and some of that held and was banked with credit (1558, 1562, 1563, 1568, 1580, 1581, 1582, 1604, 1621, 1643). Its early work was post hoc fits presented as selections (1406, 1511). Later stages repeatedly overclaimed (1539 Theorem 16C, 1582, 1604 Theorem 156), exposed held-out targets (1539, 1547) and made an unsealed evaluation breach (1608). Most of its later stages were read only at title or headline level (1586, 1588, 1592, 1596, 1623), so their claims were never fully used. In 1677 it edits main's governing pages on its own branch, which main does not take.
+
+STATED LIMITS:
+- 1539: "READ, EVERY VALUE CLAIM UNVERIFIED"
+- 1623: "each is a hand proof or a documentary ledger under a run ticket, marked unreviewed with no code run"
+- 1676: "NOTHING ADOPTED, NOTHING COMPARED"
+- 1696: "the lane is read only through the mask and none of its code is run"
+- 1511: "post-hoc fits, never sealed, targets hard-coded in the lane's source"
+
+---
+
+SEAT: explore (5 rows; class counts: verified 5)
+KIND OF WORK: building new results 80% / verifying or reproducing main's results 0% / auditing main's record 0% / proposing ideas or routes 15% / process and governance 5%.
+
+THEME: Least-volume departure and the level premise as a conservation law
+ROWS: 1612, 1613
+DELIVERED: Pre-registered runs on the least-volume departure and on a conservation law.
+WHAT MAIN DID: verified 2. Main reproduced each with its own code (B1853) and accepted the reading of 1612.
+HELD UP:
+- 1612: "with main's own code (B1853): 643 rung-invisible defects in R1"
+- 1613: "HL2 only ±I conserve every golden background's class at N = 2..5"
+DID NOT HOLD:
+- 1613: "the charge law a range-scoped candidate (P-737)"
+
+THEME: The charge law and the ramified prime
+ROWS: 1615, 1616
+DELIVERED: A charge-law run, with post-run counterexamples, and a level-5 Weil representation test.
+WHAT MAIN DID: verified 2 (one in part). Main re-derived the six counterexamples and reproduced the level-5 results (B1855, B1856).
+HELD UP:
+- 1615: "the six counterexamples re-derived exactly on main's code (B1855)"
+- 1616: "HQ0 (120 elements, 121 repeats, 0 clashes), HQ1, HQ2, HQ3 (traces 1 − φ, φ), HQ4 all reproduced"
+DID NOT HOLD: none. In 1615 the refutation is banked and the proof only cited.
+
+THEME: The read-out by a state
+ROWS: 1617
+DELIVERED: A pre-registered state read-out, with a post hoc item that the seat flagged.
+WHAT MAIN DID: verified 1 (in part). Main re-ran the cosh law, the apex state and the multiplicities (B1857).
+HELD UP:
+- 1617: "the cosh law (4.7e-38), the state at the apex (Hellmann–Feynman)"
+DID NOT HOLD:
+- 1617: "its seen-first sweep missed docs/THE_TAU_READOUT_RULE.md, disclosed"
+
+UNUSED AND POSSIBLY IMPORTANT: none qualify, since all five rows are class verified. Some parts were not re-run (1615 Lemma B; 1617 HS1-HS5 spectra, HS7, the volume gap).
+
+TRACK RECORD: Every row was verified, in full or in part, on main's own code (1612, 1613, 1615, 1616, 1617). The seat pre-registered each run and committed outputs unread (1612, 1613, 1615, 1616, 1617). It kept a crashed attempt (1613, 1615) and disclosed a missed sweep (1617). It never overclaimed in these rows. Main scoped some readings: the charge law is a range-scoped candidate (1613) and the state reads only the Teichmüller apex (1617).
+
+STATED LIMITS:
+- 1615: "Lemma B and the exhaustive shortest-path search not re-run (P-741)"
+- 1617: "HS1–HS5's spectra, HS7 and the volume gap not re-run"
+- 1613: "the speculation a LEAD (P-738)"
+
+---
+
+CARDS
+
+referee (4 rows: registered 1, differed 1, read 1, verified 1)
+Reports and sealed arcs from an outside referee: round-5 and repo-sweep reports (877, 878), and a branch with two sealed arcs on the price list of the nineteen and the Dedekind phase (1261, 1266).
+Main re-banked the Dedekind phase under its own number and renumbered the branch after number collisions. 878 differed on the paper's claims-table row: "the claims-table row rewritten to the prose's state (main.tex)".
+1266 held: "B1670's seal intact and its import byte-identical, banked with scope notes". In 1261 the price list was "not yet verified" at that time.
+
+lp (2 rows: registered 2)
+LP01, a sealed search for common covers of m004 with chiral class members, with its run (900, 901).
+Main verified it (B1490): the congruence level was recounted in both quotients, and both covers were rebuilt by main's own coset action.
+901 held: "every number as the seat's table". Bears on the ends fork FK14.
+
+banking (1 row: read 1)
+A handoff through Joining Gate 11, with Gates 4-7 graded by the seat itself as conditional laboratory results (1089).
+Main read it only at headline level and queued the gates for verification (P-063, P-064, P-074).
+1089: "Gates 9 and 11 QUEUED for verification on main"; nothing in the row shows they were verified.
+
+weavearchive (1 row: read 1)
+The owner's thirteen earlier weave runs with an independent audit, including a proof of the golden spectrum and a reproduction of B1635's coupling table (1090).
+Main read it and recorded the priority of the golden proof. It took the ω counterexample, the conjugate and −I into B1640.
+1090: "the coupling table counted as an independent reproduction of B1635's K1". No recomputation by main is stated, and the quaternion and mod-3 scopes are left for the outreach PDF to restore (P-050).
