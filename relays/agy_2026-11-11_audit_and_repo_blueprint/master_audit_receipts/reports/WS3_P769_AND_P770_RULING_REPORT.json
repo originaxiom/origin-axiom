@@ -1,0 +1,134 @@
+{
+  "P769": {
+    "mod5_orders_and_involutions": {
+      "G0_two_acts_LR": {
+        "order": 120,
+        "involutions": 1
+      },
+      "G1_single_tick_sigma": {
+        "order": 20,
+        "involutions": 1
+      },
+      "G2_two_odd_ticks": {
+        "order": 240,
+        "involutions": 31
+      },
+      "G3_tick_plus_swap": {
+        "order": 240,
+        "involutions": 31
+      }
+    },
+    "sl2_f3_surjections": {
+      "m000_sl2_f3_surjections": 48,
+      "m004_sl2_f3_surjections": 48
+    },
+    "run6_orientable_in_two_odd_ticks": false,
+    "ruling_table": [
+      {
+        "theorem_or_wall": "Root 3-manifold volume & chirality (`SE2` / `FK2`)",
+        "two_acts_LR": "m004: Vol = 2*V_0 = 2.029883, amphicheiral (|Isom|=8), causes 8 mirror walls",
+        "one_tick_pure_sigma": "m000: Vol = V_0 = 1.014942, CHIRAL (1 regular ideal tetrahedron)",
+        "two_odd_ticks_sigmaL_sigmaR": "Two chiral roots m000 & mirror m000*, paired by P*sigma_L*P = sigma_R",
+        "tick_plus_swap_sigmaL_P": "m000 root + explicit period-2 reflection P",
+        "status_under_tick": "GAINS root chirality on single thread, but P-symmetric <sigma_L, sigma_R> STILL selects mirror pairs (`B1867`)"
+      },
+      {
+        "theorem_or_wall": "E_6 fundamental-group entry `|Hom_surj(pi_1, SL(2,3))| = 48`",
+        "two_acts_LR": "SURVIVES (48 surjections)",
+        "one_tick_pure_sigma": "SURVIVES WORD-FOR-WORD (48 surjections)",
+        "two_odd_ticks_sigmaL_sigmaR": "SURVIVES (48 per root)",
+        "tick_plus_swap_sigmaL_P": "SURVIVES (48 on m000)",
+        "status_under_tick": "SURVIVES WORD-FOR-WORD"
+      },
+      {
+        "theorem_or_wall": "Non-abelian weave branching & positive departures (`L^6 R L R`)",
+        "two_acts_LR": "Full SL_2(N) positive monoid; `L^6 R L R` has length 9 (`det = +1`)",
+        "one_tick_pure_sigma": "FAILS CATASTROPHICALLY: `<sigma>` is abelian (`Z`), 0 branching, 0 departures",
+        "two_odd_ticks_sigmaL_sigmaR": "FAILS ON ODD LENGTHS: `det=+1` sector is `{L,R}^{2k}` (even lengths only), MISSING `L^6 R L R` (len 9) & `L^4 R L R` (len 7)!",
+        "tick_plus_swap_sigmaL_P": "Recovers `L = sigma_L P`, `R = P sigma_L`, but breaks `GM3` (`P^2 = I_2` torsion!)",
+        "status_under_tick": "FAILS unless restricted/rebuilt on orientation cover"
+      },
+      {
+        "theorem_or_wall": "McKay `2I = SL(2,5) -> E_8` own-conductor door (`B997` / `B1859`)",
+        "two_acts_LR": "Order 120 (`SL_2(F_5)`), 1 unique central involution -> embeds in `SU(2)`",
+        "one_tick_pure_sigma": "FAILS: cyclic order 20 != 120 (`1` involution), no `2I`",
+        "two_odd_ticks_sigmaL_sigmaR": "FAILS ON FULL GROUP: order 240 (`SL_2^+-(F_5)`) has 31 involutions -> CANNOT embed in `SU(2)`; SURVIVES ONLY on `det=+1` cover",
+        "tick_plus_swap_sigmaL_P": "FAILS ON FULL GROUP: order 240 has 31 involutions; SURVIVES ONLY on `det=+1` cover",
+        "status_under_tick": "SURVIVES ONLY ON ORIENTATION DOUBLE COVER (`det = +1`)"
+      },
+      {
+        "theorem_or_wall": "Holomorphic modular forms & W21 Kahler/Hodge-Riemann positivity (`GM5c`)",
+        "two_acts_LR": "Preserves `H` holomorphically (`tau -> (a tau+b)/(c tau+d)`) and `i dz ^ dbar{z} > 0`",
+        "one_tick_pure_sigma": "Reverses `T^2` orientation every tick (`tau -> (a bar{tau}+b)/(c bar{tau}+d)`)",
+        "two_odd_ticks_sigmaL_sigmaR": "Odd steps conjugate holomorphic theta triplet (`theta_j -> bar{theta_j}`), making 3-gen bundle achiral (`B1607`)",
+        "tick_plus_swap_sigmaL_P": "Same anti-holomorphic Kahler sign reversal on every odd move",
+        "status_under_tick": "SURVIVES ONLY ON ORIENTATION DOUBLE COVER (`det = +1`)"
+      }
+    ]
+  },
+  "P770_axis_exponents": [
+    {
+      "y": 1.0,
+      "y_squared": 1.0,
+      "alpha_exponent": 0.8431016485328643,
+      "density_exponent_alpha_minus_1": -0.1568983514671357,
+      "label": "1 (S: x -> 1/x, deg 1)"
+    },
+    {
+      "y": 1.4142135623730951,
+      "y_squared": 2.0000000000000004,
+      "alpha_exponent": 0.9218662616481412,
+      "density_exponent_alpha_minus_1": -0.07813373835185877,
+      "label": "sqrt(2) (W_2: x -> 2/x, deg 2)"
+    },
+    {
+      "y": 0.7071067811865475,
+      "y_squared": 0.4999999999999999,
+      "alpha_exponent": 0.9218662616481319,
+      "density_exponent_alpha_minus_1": -0.0781337383518681,
+      "label": "1/sqrt(2) (W_2^-1: x -> 1/(2x), deg 2)"
+    },
+    {
+      "y": 2.0,
+      "y_squared": 4.0,
+      "alpha_exponent": 1.0263253900334466,
+      "density_exponent_alpha_minus_1": 0.026325390033446583,
+      "label": "2 (x -> 4/x, dyadic deg 4)"
+    },
+    {
+      "y": 1.7320508075688772,
+      "y_squared": 2.9999999999999996,
+      "alpha_exponent": 1.0081473912126402,
+      "density_exponent_alpha_minus_1": 0.008147391212640187,
+      "label": "sqrt(3) (W_3: x -> 3/x, deg 3)"
+    },
+    {
+      "y": 1.5,
+      "y_squared": 2.25,
+      "alpha_exponent": 0.9895135996753704,
+      "density_exponent_alpha_minus_1": -0.010486400324629552,
+      "label": "3/2 (x -> 9/(4x))"
+    },
+    {
+      "y": 2.23606797749979,
+      "y_squared": 5.000000000000001,
+      "alpha_exponent": 1.0728136347371267,
+      "density_exponent_alpha_minus_1": 0.07281363473712665,
+      "label": "sqrt(5) (W_5: x -> 5/x, deg 5)"
+    },
+    {
+      "y": 1.618033988749895,
+      "y_squared": 2.618033988749895,
+      "alpha_exponent": 0.9817729331921615,
+      "density_exponent_alpha_minus_1": -0.018227066807838477,
+      "label": "golden_phi ((1+sqrt(5))/2)"
+    },
+    {
+      "y": 1.34,
+      "y_squared": 1.7956000000000003,
+      "alpha_exponent": 0.9935974535803607,
+      "density_exponent_alpha_minus_1": -0.006402546419639332,
+      "label": "1.34 (generic control)"
+    }
+  ]
+}

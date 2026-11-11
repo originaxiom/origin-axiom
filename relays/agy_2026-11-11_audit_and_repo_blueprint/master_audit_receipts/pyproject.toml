@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "origin-axiom-zero-trust-verify"
+version = "1.2.0"
+description = "Standalone Zero-Trust Mathematical-Physics Audit & Referee Suite for origin-axiom"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy==2.4.0",
+    "scipy==1.16.3",
+    "sympy==1.14.0",
+    "mpmath==1.3.0",
+    "pytest==9.0.3",
+    "pytest-xdist==3.8.0",
+]
+
+[project.optional-dependencies]
+topology = [
+    "snappy==3.3.2",
+    "cypari==2.5.6",
+    "python-flint==0.9.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "--strict-markers"

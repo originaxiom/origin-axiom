@@ -7,6 +7,19 @@
 **Cross-Seat Heads Read & Verified:** Advisor seat at `6ab7439073a27bc38da7aa44ed80744ec2a5b221` (`REAUDIT_3_2026-11-11.md`, `reaudit3/plants.py`, leaf `PV14`); Web seat at `78605086e86fa11ce47998b8b3ff75773ccacb58` (`whole_level5_facts` and flat-fibre value card)  
 **Headline Status:** **`0 of 19` earned** (`0` held-out targets read; aim permitted under `P-758`/`P-767`; statements of arrival banned).
 
+## Included Full Unabridged Companion Documents & Runnable Code in This Packet
+
+- **Complete Restructure Proposal & Breakthrough Blueprint (Unabridged 354-line Engineering Spec):** `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/03_FULL_RESTRUCTURE_PROPOSAL_AND_BREAKTHROUGH_BLUEPRINT.md` (includes the exact directory & module layout for the distilled repo, the unified derivation-graph YAML schema, the mandatory terminology translation rules, the 12 lean scientific gates replacing the 53 metadata gates, the Pillar-3 verification package architecture, and the modular adoption menu for `main`).
+- **Complete Repository X-Ray:** `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/01_REPO_CRYSTAL_CLEAR_XRAY.md`
+- **Zero-Trust Full Audit Plan:** `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/02_ZERO_TRUST_FULL_AUDIT_PLAN.md`
+- **Stage 1–4 Complete Execution Reports:**
+  - `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/04_STAGE1_ZERO_TRUST_AUDIT_REPORT.md`
+  - `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/06_STAGE2_WORKSTREAMS_REPORT.md`
+  - `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/08_STAGE3_EXECUTION_REPORT.md`
+  - `relays/agy_2026-11-11_audit_and_repo_blueprint/full_reports/10_STAGE4_COMPLETE_EXECUTION_REPORT.md`
+- **Runnable 328 KB Distilled Core & Referee Prototype (`THM-CORE-01`..`06`, `6/6` tests passing in `6.1s`):** `relays/agy_2026-11-11_audit_and_repo_blueprint/core_prototype_reference/`
+- **Unified `v4.0.0` Cryptographic Verification Certificate & Master Audit Modules:** `relays/agy_2026-11-11_audit_and_repo_blueprint/master_audit_receipts/VERIFICATION_CERTIFICATE.json` and `relays/agy_2026-11-11_audit_and_repo_blueprint/master_audit_receipts/src/`
+
 ---
 
 ## 1. Honest & Objective Opinion on the Work

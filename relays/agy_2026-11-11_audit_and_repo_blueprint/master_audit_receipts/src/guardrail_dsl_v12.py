@@ -1,0 +1,1899 @@
+#!/usr/bin/env python3
+"""
+guardrail_dsl_v12.py
+====================
+Zero-Trust Scientific & Modeling Domain-Specific Language (DSL) and
+Static/Dynamic Verification Compiler (v1.2 — MPV-1..MPV-6 + G1/G2/G3 Hardened).
+
+Enforces the Six Mathematical-Physics & Quantitative Modeling Guardrails
+plus First-Class Equivariant Cochain Complexes via Python AST static analysis,
+cryptographic gate sealing, and runtime tracked/phantom types:
+
+  - Guardrail 1 (No Zero-Bit Credit for Post-Inspection Selection):
+      * Static AST check (`@stabilization_potential`) rejects potentials V(x)
+        that reference target identifiers (`tau_target`, `tau_star`, `tau_golden`,
+        etc.) or subtract any non-zero constant expression `(x - <const_expr>)`
+        from a coordinate argument.
+      * Dynamic gradient/Hessian check verifies ||grad V(x*)|| < 1e-8 and
+        lambda_min(Hess V(x*)) > 0 (with NaN/Inf protection) from a target-free action.
+      * Epistemic selection-bit tracker (`select_from`, `@zero_bit_prediction`)
+        automatically charges +log2(N) bits for discrete candidate scans, tracks
+        active ledger scan events on a call-stack audit log (defeating raw float
+        taint-stripping), and blocks unpriced post-selection claims.
+  - Guardrail 2 (Ban Proof by Literal Flag/Zero Assignment):
+      * Static AST scanner (`@theorem`, `@observable`) recursively inspects return
+        statements, nested dicts/tuples/lists, `dict(...)` calls, local variable
+        aliases, subscript assignments `d['k'] = 0.0`, and pure constant-folded
+        arithmetic expressions (`1.0 - 1.0`, `0 * norm`), rejecting any hardcoded
+        boolean or zero claim before execution.
+  - Guardrail 3 (Mandatory Unitary Basis-Scrambling Gate):
+      * `FramedMatrix` + `@observable(haar_samples=50, tol=1e-12)` blocks single-Dirac
+        left-right SVD overlaps (`V.T @ U`, `U.conj().T @ V`, `np.matmul`, `np.dot`,
+        `np.einsum`), enforces optional `distinct_right_frames=True` schema checks,
+        and runs 50 independent Haar-random unitary frame rotations M -> U_L M U_R^dagger
+        with strict NaN/Inf rejection.
+  - Guardrail 4 (Literature Benchmark Gate Before RGE Integration):
+      * `GatedRGEIntegrator` checks differential variable scaling (`ln_mu` vs
+        `ln_mu2` vs `t_2pi`) and cryptographically seals `.integrate_model()` behind
+        an unforgeable HMAC-SHA256 token issued only when `.verify_literature_benchmark()`
+        reproduces a published reference trajectory to <= 1e-3 relative error
+        (defeating direct `rge._benchmark_verified = True` attribute tampering).
+  - Guardrail 5 (Strict Non-Dimensionalization of Input Ledgers):
+      * `LedgerContext` and `TrackedValue` allow at most ONE dimensionful anchor
+        (e.g. `v_EW` or `USD`) and require all predictions to be non-dimensionalized
+        before ledger closure; any second dimensionful scale must be explicitly
+        imported and priced as a dimensionless ratio.
+  - Guardrail 6 (Zero-Trust Countercheck Rule for Referee Scripts):
+      * Static AST scanner + runtime call guard (`@producer`, `@referee`)
+        forbids any `@referee` function from importing, calling, aliasing, or
+        dynamically looking up (`getattr`, `globals`, `eval`) a `@producer`
+        function or reading cached producer output dictionaries/files.
+  - First-Class Equivariant Cochain Complex (`EquivariantCochainComplex`):
+      * Verifies ||d_{k+1} d_k||_F < 1e-12, verifies that all declared symmetry
+        intertwiners A_k are non-singular/invertible (blocking the A_k = 0 trivial
+        intertwiner cheat) and satisfy ||A_{k+1} d_k^{(+)} - eta_k d_k^{(-)} A_k||_F < 1e-12
+        with strict NaN/Inf rejection, and computes exact cohomology Betti numbers.
+"""
+
+from __future__ import annotations
+
+import ast
+import dataclasses
+import functools
+import hashlib
+import hmac
+import inspect
+import json
+import math
+import os
+import pathlib
+import textwrap
+from typing import Any, Callable, Dict, List, Optional, Sequence, Set, Tuple, Union
+
+import numpy as np
+
+
+# ============================================================================
+# Custom Compiler & Runtime Exceptions
+# ============================================================================
+
+class GuardrailCompilerError(Exception):
+    """Base exception for all static and dynamic guardrail violations."""
+
+
+class Guardrail1PostInspectionError(GuardrailCompilerError):
+    """Raised when a potential embeds its target vacuum or fails stabilization."""
+
+
+class Guardrail1UnpricedScanError(GuardrailCompilerError):
+    """Raised when discrete candidate selection bits are hidden in a 0-bit claim."""
+
+
+class Guardrail2LiteralClaimError(GuardrailCompilerError):
+    """Raised when a @theorem or @observable returns a hardcoded literal flag/zero."""
+
+
+class Guardrail3IllegalLeftRightOverlapError(GuardrailCompilerError):
+    """Raised when extracting left-right overlap V^T U or U^dagger V of a Dirac matrix."""
+
+
+class Guardrail3BasisDependenceError(GuardrailCompilerError):
+    """Raised when an @observable varies under Haar unitary basis scrambling."""
+
+
+class Guardrail4BenchmarkGateError(GuardrailCompilerError):
+    """Raised when RGE integration runs without or fails a literature benchmark."""
+
+
+class Guardrail5UnpricedScaleError(GuardrailCompilerError):
+    """Raised when a ledger uses >1 dimensionful anchor or leaves outputs dimensionful."""
+
+
+class Guardrail6ProducerEchoError(GuardrailCompilerError):
+    """Raised when a @referee function calls, imports, aliases, or echoes a @producer."""
+
+
+class ComplexChainError(GuardrailCompilerError):
+    """Raised when adjacent cochain differentials fail d_{k+1} d_k = 0."""
+
+
+class IntertwinerError(GuardrailCompilerError):
+    """Raised when a claimed symmetry operator is singular or fails to intertwine differentials."""
+
+
+# ============================================================================
+# Global Registries & Cryptographic Nonces
+# ============================================================================
+
+PRODUCER_REGISTRY: Set[str] = set()
+_ACTIVE_REFEREE_STACK: List[str] = []
+_ACTIVE_ZERO_BIT_SCAN_LOG: List[List[Tuple[str, float]]] = []
+_RGE_GATE_SECRET: bytes = os.urandom(32)
+
+
+class ProducerOutputDict(dict):
+    """Tainted dictionary returned by a @producer function."""
+
+    def __init__(self, *args: Any, producer_name: str = "<unknown>", **kwargs: Any) -> None:
+        super().__init__(*args, **kwargs)
+        self.producer_name = producer_name
+
+
+# ============================================================================
+# Module 1: Static AST Guardrail Scanner (Guardrails 1, 2, 3, 6)
+# ============================================================================
+
+def _parse_function_ast(fn: Callable[..., Any]) -> ast.FunctionDef:
+    """Parse and return the top-level ast.FunctionDef of a Python callable."""
+    try:
+        src = textwrap.dedent(inspect.getsource(fn))
+    except OSError as exc:
+        raise GuardrailCompilerError(
+            f"Cannot inspect source code of {fn.__name__} for AST verification."
+        ) from exc
+    tree = ast.parse(src)
+    for node in tree.body:
+        if isinstance(node, (ast.FunctionDef, ast.AsyncFunctionDef)):
+            return node  # type: ignore[return-value]
+    raise GuardrailCompilerError(f"No FunctionDef found in AST of {fn.__name__}.")
+
+
+def _is_pure_constant_expr(node: ast.AST, allowed_var_names: Set[str]) -> bool:
+    """
+    Return True if `node` is a non-trivial expression built purely out of
+    numeric constants and math/numpy functions (e.g. `1.0 - 1.0`, `(1 + math.sqrt(5))/2`)
+    with zero reference to any dynamic variable in `allowed_var_names`.
+    """
+    has_constant = False
+    for sub in ast.walk(node):
+        if isinstance(sub, ast.Name):
+            if sub.id in allowed_var_names:
+                return False
+            if sub.id not in {"math", "np", "numpy", "cmath", "sqrt", "pi", "e", "cos", "sin", "exp", "log"}:
+                return False
+        elif isinstance(sub, ast.Constant) and isinstance(sub.value, (int, float, complex)):
+            has_constant = True
+    return has_constant
+
+
+def _is_forbidden_literal_node(node: ast.AST, local_vars: Optional[Set[str]] = None) -> Tuple[bool, str]:
+    """
+    Check whether an AST expression node is:
+      1. A hardcoded boolean (`True`, `False`) or numeric zero literal (`0`, `0.0`, `-0.0`, `0j`),
+      2. A multiplication by literal zero (`0 * expr` or `expr * 0.0`),
+      3. A pure constant arithmetic expression with no variable dependency (e.g. `1.0 - 1.0`).
+    """
+    if isinstance(node, ast.Constant):
+        if isinstance(node.value, bool):
+            return True, f"boolean literal `{node.value!r}`"
+        if isinstance(node.value, (int, float, complex)) and node.value == 0:
+            return True, f"zero literal `{node.value!r}`"
+    if isinstance(node, ast.UnaryOp) and isinstance(node.op, (ast.UAdd, ast.USub)):
+        is_lit, desc = _is_forbidden_literal_node(node.operand, local_vars)
+        if is_lit:
+            return True, f"signed {desc}"
+    if isinstance(node, ast.BinOp):
+        # Catch `0 * expr` or `expr * 0`
+        if isinstance(node.op, ast.Mult):
+            for side in (node.left, node.right):
+                if isinstance(side, ast.Constant) and isinstance(side.value, (int, float, complex)) and side.value == 0:
+                    return True, f"zero-multiplier expression `{ast.unparse(node)}`"
+        # Catch constant-folded arithmetic like `1.0 - 1.0`
+        if local_vars is not None and _is_pure_constant_expr(node, local_vars):
+            return True, f"constant-folded expression `{ast.unparse(node)}`"
+    return False, ""
+
+
+def _inspect_returned_ast_expr(
+    node: ast.AST,
+    tainted_locals: Dict[str, str],
+    computed_vars: Set[str],
+    fn_name: str,
+    lineno: int,
+) -> None:
+    """Recursively inspect an AST return expression (including nested dicts/tuples/lists/dict() calls)."""
+    is_lit, desc = _is_forbidden_literal_node(node, computed_vars)
+    if is_lit:
+        raise Guardrail2LiteralClaimError(
+            f"[Guardrail 2 AST Violation in `{fn_name}` line {lineno}]: "
+            f"Return of hardcoded {desc} is forbidden. "
+            f"Compute the explicit operator residual or norm instead."
+        )
+    if isinstance(node, ast.Name) and node.id in tainted_locals:
+        raise Guardrail2LiteralClaimError(
+            f"[Guardrail 2 AST Violation in `{fn_name}` line {lineno}]: "
+            f"Returned variable `{node.id}` holds hardcoded "
+            f"{tainted_locals[node.id]}. Proof by literal assignment is banned."
+        )
+    if isinstance(node, ast.Dict):
+        for key_node, val_node in zip(node.keys, node.values):
+            if val_node is None:
+                continue
+            _inspect_returned_ast_expr(val_node, tainted_locals, computed_vars, fn_name, lineno)
+    elif isinstance(node, (ast.Tuple, ast.List, ast.Set)):
+        for elt in node.elts:
+            _inspect_returned_ast_expr(elt, tainted_locals, computed_vars, fn_name, lineno)
+    elif isinstance(node, ast.Call) and isinstance(node.func, ast.Name) and node.func.id == "dict":
+        for kw in node.keywords:
+            if kw.value is not None:
+                _inspect_returned_ast_expr(kw.value, tainted_locals, computed_vars, fn_name, lineno)
+
+
+def scan_ast_guardrail2_no_literal_claims(fn: Callable[..., Any]) -> None:
+    """
+    Static AST Scanner for Guardrail 2:
+    Bans returning hardcoded boolean or zero literals directly, via local
+    variable aliasing (`flag = True; return flag`), subscript mutation
+    (`d['k'] = 0.0; return d`), nested containers, `dict(k=0.0)`, or
+    constant-folded arithmetic (`1.0 - 1.0`, `0.0 * norm`).
+    """
+    fn_def = _parse_function_ast(fn)
+    arg_names = {arg.arg for arg in fn_def.args.args}
+
+    # Collect all local variable names that are non-trivially computed
+    computed_vars: Set[str] = set(arg_names)
+    tainted_locals: Dict[str, str] = {}
+    pure_literal_containers: Set[str] = set()
+
+    def _is_pure_literal_container(expr: ast.AST) -> bool:
+        if isinstance(expr, ast.Constant):
+            return True
+        if isinstance(expr, (ast.Tuple, ast.List, ast.Set)):
+            return all(_is_pure_literal_container(e) for e in expr.elts)
+        if isinstance(expr, ast.Dict):
+            return all((k is None or _is_pure_literal_container(k)) for k in expr.keys) and all(
+                (v is not None and _is_pure_literal_container(v)) for v in expr.values
+            )
+        return False
+
+    for node in ast.walk(fn_def):
+        if isinstance(node, ast.Assign):
+            is_lit, desc = _is_forbidden_literal_node(node.value, computed_vars)
+            is_const_box = _is_pure_literal_container(node.value) and not isinstance(node.value, ast.Constant)
+            for target in node.targets:
+                if isinstance(target, ast.Name):
+                    if is_lit:
+                        tainted_locals[target.id] = desc
+                    elif is_const_box:
+                        pure_literal_containers.add(target.id)
+                    else:
+                        computed_vars.add(target.id)
+                elif isinstance(target, ast.Subscript) and isinstance(target.value, ast.Name):
+                    if is_lit:
+                        tainted_locals[target.value.id] = (
+                            f"subscript assignment `{ast.unparse(target)} = {desc}`"
+                        )
+        elif isinstance(node, ast.AnnAssign) and node.value is not None:
+            is_lit, desc = _is_forbidden_literal_node(node.value, computed_vars)
+            if isinstance(node.target, ast.Name):
+                if is_lit:
+                    tainted_locals[node.target.id] = desc
+                else:
+                    computed_vars.add(node.target.id)
+
+    def _only_pure_literals(expr: ast.AST) -> bool:
+        if isinstance(expr, ast.Constant):
+            return True
+        if isinstance(expr, ast.Name):
+            return expr.id in pure_literal_containers
+        if isinstance(expr, ast.Subscript):
+            return _only_pure_literals(expr.value) and _only_pure_literals(expr.slice)
+        if isinstance(expr, (ast.Tuple, ast.List, ast.Set)):
+            return all(_only_pure_literals(e) for e in expr.elts)
+        return False
+
+    for node in ast.walk(fn_def):
+        if isinstance(node, ast.Assert) and isinstance(node.test, ast.Compare):
+            operands = [node.test.left] + list(node.test.comparators)
+            if all(_only_pure_literals(op) for op in operands):
+                raise Guardrail2LiteralClaimError(
+                    f"[Guardrail 2 AST Violation in `{fn.__name__}` line {node.lineno}]: "
+                    f"Tautological comparison of hand-typed literal containers `{ast.unparse(node.test)}` "
+                    f"(B1246-class cheat) is forbidden."
+                )
+        if isinstance(node, ast.Return) and node.value is not None:
+            _inspect_returned_ast_expr(
+                node.value, tainted_locals, computed_vars, fn.__name__, node.lineno
+            )
+
+
+def scan_ast_guardrail3_no_dirac_lr_overlap(fn: Callable[..., Any]) -> None:
+    """
+    Static AST Scanner for Guardrail 3:
+    Detects expressions combining left singular vectors `U` and right singular
+    vectors `V`/`Vh` from `svd(...)` of a single Dirac matrix via `@`, `np.matmul`,
+    `np.dot`, or `np.einsum`.
+    """
+    fn_def = _parse_function_ast(fn)
+    svd_lr_pairs: List[Tuple[str, str]] = []
+
+    for node in ast.walk(fn_def):
+        if isinstance(node, ast.Assign) and isinstance(node.value, ast.Call):
+            call_str = ast.unparse(node.value.func) if hasattr(ast, "unparse") else ""
+            if "svd" in call_str.lower():
+                if len(node.targets) == 1 and isinstance(node.targets[0], ast.Tuple):
+                    elts = node.targets[0].elts
+                    if len(elts) == 3 and all(isinstance(e, ast.Name) for e in elts):
+                        u_name = elts[0].id  # type: ignore[attr-defined]
+                        v_name = elts[2].id  # type: ignore[attr-defined]
+                        svd_lr_pairs.append((u_name, v_name))
+
+    if not svd_lr_pairs:
+        return
+
+    for node in ast.walk(fn_def):
+        if isinstance(node, ast.BinOp) and isinstance(node.op, ast.MatMult):
+            names_left = {n.id for n in ast.walk(node.left) if isinstance(n, ast.Name)}
+            names_right = {n.id for n in ast.walk(node.right) if isinstance(n, ast.Name)}
+            for u_name, v_name in svd_lr_pairs:
+                if (u_name in names_left and v_name in names_right) or (
+                    v_name in names_left and u_name in names_right
+                ):
+                    raise Guardrail3IllegalLeftRightOverlapError(
+                        f"[Guardrail 3 AST Violation in `{fn.__name__}` line {node.lineno}]: "
+                        f"Illegal left-right Dirac SVD overlap `{ast.unparse(node)}` "
+                        f"between `{u_name}` and `{v_name}`."
+                    )
+        elif isinstance(node, ast.Call):
+            func_str = ast.unparse(node.func) if hasattr(ast, "unparse") else ""
+            if any(k in func_str for k in ("matmul", "dot", "einsum", "vdot", "inner")):
+                arg_names = {
+                    n.id
+                    for a in node.args
+                    for n in ast.walk(a)
+                    if isinstance(n, ast.Name)
+                }
+                for u_name, v_name in svd_lr_pairs:
+                    if u_name in arg_names and v_name in arg_names:
+                        raise Guardrail3IllegalLeftRightOverlapError(
+                            f"[Guardrail 3 AST Violation in `{fn.__name__}` line {node.lineno}]: "
+                            f"Illegal left-right Dirac SVD overlap in `{ast.unparse(node)}` "
+                            f"combining `{u_name}` and `{v_name}`."
+                        )
+
+
+def scan_ast_guardrail6_no_producer_in_referee(fn: Callable[..., Any]) -> None:
+    """
+    Static AST Scanner for Guardrail 6 (v1.2 G2-Hardened):
+    Rejects any @referee function whose AST:
+      - imports or calls a @producer function or any `frontier` module,
+      - references any symbol in PRODUCER_REGISTRY (even as a function-pointer alias!),
+      - invokes dynamic reflection (`getattr`, `globals`, `locals`, `eval`, `exec`),
+      - reads cached files, JSON, numpy archives, or runs subprocesses (`open`,
+        `read_text`, `read_bytes`, `json.load`, `json.loads`, `np.load`, `pickle`, `subprocess`).
+    """
+    fn_def = _parse_function_ast(fn)
+    forbidden_keywords = {"producer", "cached_producer", "producer_output", "frontier"} | set(
+        PRODUCER_REGISTRY
+    )
+    banned_reflection = {"getattr", "globals", "locals", "eval", "exec", "__import__", "open"}
+    banned_io_modules = {"subprocess", "pickle", "shelve", "importlib"}
+    banned_io_attrs = {"read_text", "read_bytes", "load", "loads", "loadtxt", "genfromtxt", "popen", "system"}
+
+    for node in ast.walk(fn_def):
+        if isinstance(node, ast.Import):
+            for alias in node.names:
+                if any(k in alias.name for k in forbidden_keywords) or alias.name.split(".")[0] in banned_io_modules:
+                    raise Guardrail6ProducerEchoError(
+                        f"[Guardrail 6 AST Violation in referee `{fn.__name__}` line {node.lineno}]: "
+                        f"Referee script cannot import forbidden producer/IO module `{alias.name}`."
+                    )
+        elif isinstance(node, ast.ImportFrom):
+            mod_name = node.module or ""
+            if mod_name.split(".")[0] in banned_io_modules:
+                raise Guardrail6ProducerEchoError(
+                    f"[Guardrail 6 AST Violation in referee `{fn.__name__}` line {node.lineno}]: "
+                    f"Referee script cannot import from IO/subprocess module `{mod_name}`."
+                )
+            for alias in node.names:
+                if (
+                    any(k in mod_name for k in forbidden_keywords)
+                    or alias.name in PRODUCER_REGISTRY
+                    or "producer" in alias.name.lower()
+                ):
+                    raise Guardrail6ProducerEchoError(
+                        f"[Guardrail 6 AST Violation in referee `{fn.__name__}` line {node.lineno}]: "
+                        f"Referee script cannot import `{alias.name}` from `{mod_name}`."
+                    )
+        elif isinstance(node, ast.Name):
+            if node.id in PRODUCER_REGISTRY or "producer" in node.id.lower():
+                raise Guardrail6ProducerEchoError(
+                    f"[Guardrail 6 AST Violation in referee `{fn.__name__}` line {node.lineno}]: "
+                    f"Referee function `{fn.__name__}` references producer symbol `{node.id}`."
+                )
+            if node.id in banned_reflection or node.id in banned_io_modules:
+                raise Guardrail6ProducerEchoError(
+                    f"[Guardrail 6 AST Violation in referee `{fn.__name__}` line {node.lineno}]: "
+                    f"Dynamic reflection or file IO `{node.id}` is forbidden in `@referee` functions."
+                )
+        elif isinstance(node, ast.Attribute):
+            if node.attr in PRODUCER_REGISTRY or "producer" in node.attr.lower():
+                raise Guardrail6ProducerEchoError(
+                    f"[Guardrail 6 AST Violation in referee `{fn.__name__}` line {node.lineno}]: "
+                    f"Referee function `{fn.__name__}` accesses producer attribute `.{node.attr}`."
+                )
+            if node.attr in banned_io_attrs:
+                raise Guardrail6ProducerEchoError(
+                    f"[Guardrail 6 AST Violation in referee `{fn.__name__}` line {node.lineno}]: "
+                    f"File/JSON/archive read `.{node.attr}(...)` is forbidden inside `@referee`."
+                )
+
+
+def scan_ast_guardrail1_potential_target_free(
+    fn: Callable[..., Any],
+    forbidden_target_identifiers: Optional[Set[str]] = None,
+) -> None:
+    """
+    Static AST Scanner for Guardrail 1 (Target-in-Potential):
+    Rejects any stabilization potential V(x) that:
+      1. References a target identifier (`tau_target`, `tau_star`, `x_star`,
+         `tau_golden`, `target_vacuum`, etc.), or
+      2. Subtracts any non-zero constant expression `(x - <const_expr>)` directly
+         from a coordinate argument `x` (including obfuscated expressions like
+         `(x - (1 + math.sqrt(5))/2)**2`) or uses any non-integer float literal
+         shift in a subtraction.
+    """
+    fn_def = _parse_function_ast(fn)
+    arg_names = {arg.arg for arg in fn_def.args.args}
+    default_forbidden = {
+        "tau_target",
+        "tau_star",
+        "tau_golden",
+        "x_target",
+        "x_star",
+        "target_vacuum",
+        "re_tau_star",
+        "im_tau_star",
+    }
+    if forbidden_target_identifiers:
+        default_forbidden |= set(forbidden_target_identifiers)
+
+    for node in ast.walk(fn_def):
+        if isinstance(node, ast.Name) and node.id not in arg_names:
+            low = node.id.lower()
+            if (
+                node.id in default_forbidden
+                or "target" in low
+                or "star" in low
+                or "golden" in low
+            ):
+                raise Guardrail1PostInspectionError(
+                    f"[Guardrail 1 AST Violation in potential `{fn.__name__}` line {node.lineno}]: "
+                    f"Potential V(x) references target coordinate identifier `{node.id}`. "
+                    f"Stabilization potentials must be defined independently of the target vacuum."
+                )
+        if isinstance(node, ast.BinOp) and isinstance(node.op, ast.Sub):
+            # Case A: Direct coordinate shift `x - <const_expr>` where left is bare coordinate `x`
+            if isinstance(node.left, ast.Name) and node.left.id in arg_names:
+                if _is_pure_constant_expr(node.right, arg_names):
+                    if not (
+                        isinstance(node.right, ast.Constant)
+                        and node.right.value == 0
+                    ):
+                        raise Guardrail1PostInspectionError(
+                            f"[Guardrail 1 AST Violation in potential `{fn.__name__}` line {node.lineno}]: "
+                            f"Potential V(x) embeds hardcoded coordinate shift "
+                            f"`({ast.unparse(node.left)} - {ast.unparse(node.right)})`. "
+                            f"Hand-planting the minimum coordinate in V(x) is banned."
+                        )
+            # Case B: Any non-integer float constant or irrational math call on right of subtraction
+            if isinstance(node.right, ast.Constant):
+                val = node.right.value
+                if isinstance(val, float) and not val.is_integer():
+                    raise Guardrail1PostInspectionError(
+                        f"[Guardrail 1 AST Violation in potential `{fn.__name__}` line {node.lineno}]: "
+                        f"Potential V(x) embeds tuned non-integer float constant `{val!r}` in `{ast.unparse(node)}`."
+                    )
+            elif _is_pure_constant_expr(node.right, arg_names):
+                raise Guardrail1PostInspectionError(
+                    f"[Guardrail 1 AST Violation in potential `{fn.__name__}` line {node.lineno}]: "
+                    f"Potential V(x) embeds constant target expression `{ast.unparse(node.right)}` in `{ast.unparse(node)}`."
+                )
+
+
+# ============================================================================
+# Decorators for Module 1 & Module 6 (@theorem, @producer, @referee, @stabilization_potential)
+# ============================================================================
+
+def _assert_all_numeric_leaves_finite(val: Any, fn_name: str, key_path: str = "return") -> None:
+    """v1.2 G1-Hardened: Reject NaN or Inf on EVERY numeric leaf of a @theorem or @referee output."""
+    if isinstance(val, (int, float, complex, np.number)):
+        if not np.isfinite(val):
+            raise GuardrailCompilerError(
+                f"[G1 Non-Finite Output Violation in `{fn_name}` at `{key_path}`]: "
+                f"Output contains NaN or Inf ({val!r})."
+            )
+    elif isinstance(val, np.ndarray):
+        if val.dtype.kind in {"i", "u", "f", "c"} and not np.all(np.isfinite(val)):
+            raise GuardrailCompilerError(
+                f"[G1 Non-Finite Output Violation in `{fn_name}` at `{key_path}`]: "
+                f"Array output contains NaN or Inf."
+            )
+    elif isinstance(val, dict):
+        for k, v in val.items():
+            _assert_all_numeric_leaves_finite(v, fn_name, key_path=f"{key_path}.{k}")
+    elif isinstance(val, (tuple, list, set, frozenset)):
+        for idx, item in enumerate(val):
+            _assert_all_numeric_leaves_finite(item, fn_name, key_path=f"{key_path}[{idx}]")
+
+
+def _check_runtime_theorem_value(val: Any, fn_name: str, tol: float, key_path: str = "return") -> None:
+    """Recursively validate runtime return values of a @theorem function."""
+    _assert_all_numeric_leaves_finite(val, fn_name, key_path=key_path)
+    if isinstance(val, bool):
+        raise Guardrail2LiteralClaimError(
+            f"[Guardrail 2 Runtime Violation in `{fn_name}` at `{key_path}`]: "
+            f"@theorem returned boolean `{val}`; return computed operator residual `< {tol}` instead."
+        )
+    if isinstance(val, dict):
+        for k, v in val.items():
+            _check_runtime_theorem_value(v, fn_name, tol, key_path=f"{key_path}.{k}")
+            if any(
+                tag in str(k).lower()
+                for tag in ("residual", "error", "diff", "violation")
+            ):
+                arr = np.asarray(v, dtype=float)
+                if not np.all(np.isfinite(arr)):
+                    raise GuardrailCompilerError(
+                        f"[@theorem `{fn_name}` Verification Failed]: `{k}` contains NaN or Inf."
+                    )
+                val_float = float(np.max(np.abs(arr)))
+                if val_float >= tol:
+                    raise GuardrailCompilerError(
+                        f"[@theorem `{fn_name}` Verification Failed]: "
+                        f"`{k}` = {val_float:.3e} exceeds tolerance {tol:.1e}."
+                    )
+    elif isinstance(val, (tuple, list)):
+        for idx, item in enumerate(val):
+            _check_runtime_theorem_value(item, fn_name, tol, key_path=f"{key_path}[{idx}]")
+
+
+def theorem(tol: float = 1e-12) -> Callable[[Callable[..., Any]], Callable[..., Any]]:
+    """
+    Decorator for mathematical-physics theorems and operator identities.
+    1. Statically scans the function's AST at decoration time for Guardrail 2
+       violations (hardcoded booleans, zeros, or constant-folded expressions).
+    2. At runtime, recursively verifies that no booleans are returned and that all
+       residual norms ('residual', 'error', 'diff', 'violation') are finite and `< tol`.
+    """
+    def decorator(fn: Callable[..., Any]) -> Callable[..., Any]:
+        scan_ast_guardrail2_no_literal_claims(fn)
+
+        @functools.wraps(fn)
+        def wrapper(*args: Any, **kwargs: Any) -> Any:
+            result = fn(*args, **kwargs)
+            _check_runtime_theorem_value(result, fn.__name__, tol)
+            return result
+
+        return wrapper
+
+    return decorator
+
+
+def producer(fn: Callable[..., Any]) -> Callable[..., Any]:
+    """
+    Decorator marking a function as a model Producer (Guardrail 6).
+    Registers the function name in PRODUCER_REGISTRY and blocks calls if a
+    @referee context is currently active on the call stack.
+    """
+    PRODUCER_REGISTRY.add(fn.__name__)
+
+    @functools.wraps(fn)
+    def wrapper(*args: Any, **kwargs: Any) -> Any:
+        if _ACTIVE_REFEREE_STACK:
+            active_ref = _ACTIVE_REFEREE_STACK[-1]
+            raise Guardrail6ProducerEchoError(
+                f"[Guardrail 6 Runtime Violation]: Referee `{active_ref}` attempted to call "
+                f"producer `{fn.__name__}` dynamically."
+            )
+        res = fn(*args, **kwargs)
+        if isinstance(res, dict):
+            return ProducerOutputDict(res, producer_name=fn.__name__)
+        return res
+
+    return wrapper
+
+
+def referee(fn: Callable[..., Any]) -> Callable[..., Any]:
+    """
+    Decorator marking a function as an independent Referee / Audit check (Guardrail 6).
+    1. Statically scans the AST to forbid importing, calling, aliasing, or reflecting
+       any @producer.
+    2. Statically scans the AST for Guardrail 2 literal flags/zeros.
+    3. Pushes a referee context at runtime and rejects any ProducerOutputDict input/output.
+    """
+    scan_ast_guardrail6_no_producer_in_referee(fn)
+    scan_ast_guardrail2_no_literal_claims(fn)
+
+    @functools.wraps(fn)
+    def wrapper(*args: Any, **kwargs: Any) -> Any:
+        for a in list(args) + list(kwargs.values()):
+            if isinstance(a, ProducerOutputDict):
+                raise Guardrail6ProducerEchoError(
+                    f"[Guardrail 6 Runtime Violation in referee `{fn.__name__}`]: "
+                    f"Referee received tainted `ProducerOutputDict` from `{a.producer_name}`. "
+                    f"Referee scripts must reconstruct operators from scratch."
+                )
+        _ACTIVE_REFEREE_STACK.append(fn.__name__)
+        try:
+            res = fn(*args, **kwargs)
+        finally:
+            _ACTIVE_REFEREE_STACK.pop()
+        if isinstance(res, ProducerOutputDict):
+            raise Guardrail6ProducerEchoError(
+                f"[Guardrail 6 Runtime Violation in referee `{fn.__name__}`]: "
+                f"Referee echoed a `ProducerOutputDict`."
+            )
+        _assert_all_numeric_leaves_finite(res, fn.__name__)
+        return res
+
+    return wrapper
+
+
+def stabilization_potential(
+    forbidden_target_identifiers: Optional[Set[str]] = None,
+    grad_tol: float = 1e-8,
+    eps: float = 1e-6,
+) -> Callable[[Callable[..., float]], Callable[..., float]]:
+    """
+    Decorator for dynamical stabilization potentials V(x) (Guardrail 1).
+    1. Statically scans the AST to forbid referencing target coordinates or
+       embedding hardcoded coordinate shifts `(x - <const_expr>)**2`.
+    2. Attaches `.verify_minimum(x_candidate)` which computes the numerical
+       gradient and Hessian at `x_candidate` and asserts `||grad V|| < grad_tol`
+       and `lambda_min(Hess V) > 0`.
+    """
+    def decorator(fn: Callable[..., float]) -> Callable[..., float]:
+        scan_ast_guardrail1_potential_target_free(fn, forbidden_target_identifiers)
+
+        @functools.wraps(fn)
+        def wrapper(*args: Any, **kwargs: Any) -> float:
+            val = float(fn(*args, **kwargs))
+            if not math.isfinite(val):
+                raise Guardrail1PostInspectionError(
+                    f"Potential `{fn.__name__}` evaluated to non-finite value {val}."
+                )
+            return val
+
+        def verify_minimum(x_candidate: Union[float, Sequence[float], np.ndarray]) -> Dict[str, Any]:
+            x = np.asarray(x_candidate, dtype=float).ravel()
+            if not np.all(np.isfinite(x)):
+                raise Guardrail1PostInspectionError("Candidate vacuum coordinate contains NaN/Inf.")
+            n = x.size
+            grad = np.zeros(n, dtype=float)
+            hess = np.zeros((n, n), dtype=float)
+            f0 = wrapper(x if n > 1 else float(x[0]))
+
+            for i in range(n):
+                dx_i = np.zeros(n, dtype=float)
+                dx_i[i] = eps
+                fp = wrapper((x + dx_i) if n > 1 else float(x[0] + eps))
+                fm = wrapper((x - dx_i) if n > 1 else float(x[0] - eps))
+                grad[i] = (fp - fm) / (2.0 * eps)
+                hess[i, i] = (fp - 2.0 * f0 + fm) / (eps ** 2)
+                for j in range(i + 1, n):
+                    dx_j = np.zeros(n, dtype=float)
+                    dx_j[j] = eps
+                    fpp = wrapper(x + dx_i + dx_j)
+                    fpm = wrapper(x + dx_i - dx_j)
+                    fmp = wrapper(x - dx_i + dx_j)
+                    fmm = wrapper(x - dx_i - dx_j)
+                    hij = (fpp - fpm - fmp + fmm) / (4.0 * eps * eps)
+                    hess[i, j] = hij
+                    hess[j, i] = hij
+
+            grad_norm = float(np.linalg.norm(grad))
+            eigvals = np.linalg.eigvalsh(hess)
+            min_eig = float(np.min(eigvals))
+            if not math.isfinite(grad_norm) or grad_norm >= grad_tol:
+                raise Guardrail1PostInspectionError(
+                    f"[Guardrail 1 Stabilization Failure in `{fn.__name__}`]: "
+                    f"Candidate vacuum {x.tolist()} is not a stationary point: "
+                    f"||grad V|| = {grad_norm:.3e} >= {grad_tol:.1e}."
+                )
+            if not math.isfinite(min_eig) or min_eig <= 0.0:
+                raise Guardrail1PostInspectionError(
+                    f"[Guardrail 1 Stabilization Failure in `{fn.__name__}`]: "
+                    f"Candidate vacuum {x.tolist()} is unstable (min Hessian eigenvalue = {min_eig:.3e} <= 0)."
+                )
+            return {
+                "x_star": x.tolist(),
+                "potential_value": f0,
+                "grad_norm": grad_norm,
+                "min_hessian_eigval": min_eig,
+            }
+
+        wrapper.verify_minimum = verify_minimum  # type: ignore[attr-defined]
+        return wrapper
+
+    return decorator
+
+
+# ============================================================================
+# Module 2: Epistemic Taint & Single-Anchor Type System (Guardrails 1 & 5)
+# ============================================================================
+
+def _parse_unit_map(unit: Union[str, Dict[str, int], None]) -> Dict[str, int]:
+    """Normalize a unit specification into a canonical exponent dictionary."""
+    if unit is None or unit == "" or unit == "1" or unit == "dimensionless":
+        return {}
+    if isinstance(unit, dict):
+        return {k: v for k, v in unit.items() if v != 0}
+    return {unit: 1}
+
+
+def _format_unit_map(unit_map: Dict[str, int]) -> str:
+    if not unit_map:
+        return "1"
+    parts = []
+    for k in sorted(unit_map.keys()):
+        exp = unit_map[k]
+        parts.append(k if exp == 1 else f"{k}^{exp}")
+    return "*".join(parts)
+
+
+@dataclasses.dataclass(frozen=True)
+class TrackedValue:
+    """
+    Epistemically tracked numerical value carrying:
+      - `value`: float or numpy array
+      - `unit_map`: canonical dict of dimension exponents (e.g. `{"GeV": 1}`)
+      - `selection_events`: frozenset of `(event_id, bits)` tuples from discrete scans
+      - `empirical_sources`: frozenset of imported empirical parameter names
+      - `anchor_sources`: frozenset of dimensionful anchor names
+    """
+    value: Union[float, np.ndarray]
+    unit_map: Dict[str, int] = dataclasses.field(default_factory=dict)
+    selection_events: frozenset[Tuple[str, float]] = dataclasses.field(default_factory=frozenset)
+    empirical_sources: frozenset[str] = dataclasses.field(default_factory=frozenset)
+    anchor_sources: frozenset[str] = dataclasses.field(default_factory=frozenset)
+
+    @property
+    def unit(self) -> str:
+        return _format_unit_map(self.unit_map)
+
+    @property
+    def is_dimensionless(self) -> bool:
+        return len(self.unit_map) == 0
+
+    @property
+    def selection_bits(self) -> float:
+        return float(sum(bits for _, bits in self.selection_events))
+
+    def _coerce_other(self, other: Any) -> "TrackedValue":
+        if isinstance(other, TrackedValue):
+            return other
+        if isinstance(other, (int, float, np.number, np.ndarray)):
+            return TrackedValue(value=float(other) if isinstance(other, (int, float, np.number)) else other)
+        raise TypeError(f"Cannot combine TrackedValue with {type(other)!r}")
+
+    def _merge_metadata(
+        self, other: "TrackedValue", new_unit_map: Dict[str, int]
+    ) -> Tuple[Dict[str, int], frozenset[Tuple[str, float]], frozenset[str], frozenset[str]]:
+        merged_anchors = self.anchor_sources | other.anchor_sources
+        if len(merged_anchors) > 1:
+            raise Guardrail5UnpricedScaleError(
+                f"[Guardrail 5 Violation]: Expression combines multiple independent "
+                f"dimensionful anchors {sorted(merged_anchors)}. Fixing an energy/currency "
+                f"unit allows at most ONE dimensionful anchor; import the second scale "
+                f"as an explicit dimensionless ratio."
+            )
+        return (
+            {k: v for k, v in new_unit_map.items() if v != 0},
+            self.selection_events | other.selection_events,
+            self.empirical_sources | other.empirical_sources,
+            merged_anchors,
+        )
+
+    def __add__(self, other: Any) -> "TrackedValue":
+        o = self._coerce_other(other)
+        if self.unit_map != o.unit_map:
+            raise Guardrail5UnpricedScaleError(
+                f"[Guardrail 5 Dimensional Mismatch]: Cannot add `{self.unit}` and `{o.unit}`."
+            )
+        u, sel, emp, anc = self._merge_metadata(o, dict(self.unit_map))
+        return TrackedValue(self.value + o.value, u, sel, emp, anc)
+
+    def __radd__(self, other: Any) -> "TrackedValue":
+        return self.__add__(other)
+
+    def __sub__(self, other: Any) -> "TrackedValue":
+        o = self._coerce_other(other)
+        if self.unit_map != o.unit_map:
+            raise Guardrail5UnpricedScaleError(
+                f"[Guardrail 5 Dimensional Mismatch]: Cannot subtract `{o.unit}` from `{self.unit}`."
+            )
+        u, sel, emp, anc = self._merge_metadata(o, dict(self.unit_map))
+        return TrackedValue(self.value - o.value, u, sel, emp, anc)
+
+    def __rsub__(self, other: Any) -> "TrackedValue":
+        o = self._coerce_other(other)
+        return o.__sub__(self)
+
+    def __mul__(self, other: Any) -> "TrackedValue":
+        o = self._coerce_other(other)
+        new_u = dict(self.unit_map)
+        for k, exp in o.unit_map.items():
+            new_u[k] = new_u.get(k, 0) + exp
+        u, sel, emp, anc = self._merge_metadata(o, new_u)
+        return TrackedValue(self.value * o.value, u, sel, emp, anc)
+
+    def __rmul__(self, other: Any) -> "TrackedValue":
+        return self.__mul__(other)
+
+    def __truediv__(self, other: Any) -> "TrackedValue":
+        o = self._coerce_other(other)
+        new_u = dict(self.unit_map)
+        for k, exp in o.unit_map.items():
+            new_u[k] = new_u.get(k, 0) - exp
+        u, sel, emp, anc = self._merge_metadata(o, new_u)
+        return TrackedValue(self.value / o.value, u, sel, emp, anc)
+
+    def __rtruediv__(self, other: Any) -> "TrackedValue":
+        o = self._coerce_other(other)
+        return o.__truediv__(self)
+
+    def __pow__(self, power: Union[int, float]) -> "TrackedValue":
+        if not self.is_dimensionless and not float(power).is_integer():
+            raise Guardrail5UnpricedScaleError(
+                f"[Guardrail 5 Violation]: Non-integer power {power} on dimensionful unit `{self.unit}`."
+            )
+        p_int = int(power) if float(power).is_integer() else 0
+        new_u = {k: v * p_int for k, v in self.unit_map.items() if v * p_int != 0}
+        return TrackedValue(
+            self.value ** power,
+            new_u,
+            self.selection_events,
+            self.empirical_sources,
+            self.anchor_sources,
+        )
+
+
+class LedgerContext:
+    """
+    Parameter-Reduction & Input-Pricing Ledger enforcing Guardrail 5 (Single-Anchor
+    Non-Dimensionalization) and Guardrail 1 (Selection-Bit Accounting).
+    """
+
+    def __init__(self, name: str = "default_ledger") -> None:
+        self.name = name
+        self.anchor_name: Optional[str] = None
+        self.anchor_unit: Optional[str] = None
+        self.anchor_value: Optional[TrackedValue] = None
+        self.imported_ratios: Dict[str, TrackedValue] = {}
+        self.scan_counter: int = 0
+        self.scan_history: List[Tuple[str, float]] = []
+
+    def declare_anchor(self, name: str, value: float, unit: str) -> TrackedValue:
+        """
+        Declare the single allowed dimensionful anchor (e.g. `v_EW = 246.22 GeV`).
+        Raises Guardrail5UnpricedScaleError if a second dimensionful anchor is declared.
+        """
+        unit_map = _parse_unit_map(unit)
+        if not unit_map:
+            raise Guardrail5UnpricedScaleError(
+                f"[Guardrail 5 Violation]: Anchor `{name}` must carry a dimensionful unit."
+            )
+        if self.anchor_name is not None:
+            raise Guardrail5UnpricedScaleError(
+                f"[Guardrail 5 Violation in Ledger `{self.name}`]: Cannot declare second "
+                f"dimensionful anchor `{name}` ({unit}); anchor `{self.anchor_name}` "
+                f"({self.anchor_unit}) is already fixed. Express `{name}/{self.anchor_name}` "
+                f"via `import_dimensionless_ratio()` so it is priced as an empirical input."
+            )
+        self.anchor_name = name
+        self.anchor_unit = unit
+        tv = TrackedValue(
+            value=float(value),
+            unit_map=unit_map,
+            anchor_sources=frozenset({name}),
+        )
+        self.anchor_value = tv
+        return tv
+
+    def import_dimensionless_ratio(
+        self, name: str, value_in_anchor_units: float, anchor: Optional[TrackedValue] = None
+    ) -> TrackedValue:
+        """
+        Import an additional empirical scale as an explicit dimensionless ratio
+        relative to the single ledger anchor (or as a standalone dimensionless input),
+        pricing it in `empirical_sources`.
+        """
+        anc = anchor or self.anchor_value
+        ratio_val = (
+            float(value_in_anchor_units) / float(anc.value)
+            if anc is not None
+            else float(value_in_anchor_units)
+        )
+        tv = TrackedValue(
+            value=ratio_val,
+            unit_map={},
+            empirical_sources=frozenset({name}),
+            anchor_sources=anc.anchor_sources if anc is not None else frozenset(),
+        )
+        self.imported_ratios[name] = tv
+        return tv
+
+    def select_from(
+        self,
+        candidates: Sequence[Any],
+        score_fn: Callable[[Any], float],
+        label: str = "discrete_scan",
+    ) -> TrackedValue:
+        """
+        Evaluate `score_fn(c)` across `N = len(candidates)` discrete candidates
+        (lattice points, algebraic moduli, backtest strategies) and return the
+        best candidate wrapped in a `TrackedValue` automatically charged with
+        `+log2(N)` selection bits (Guardrail 1).
+        Also records the scan event on `_ACTIVE_ZERO_BIT_SCAN_LOG` so taint-stripping
+        via `TrackedValue(float(picked.value))` cannot hide a scan inside `@zero_bit_prediction`.
+        """
+        n = len(candidates)
+        if n == 0:
+            raise ValueError("select_from requires at least one candidate.")
+        best_c = min(candidates, key=score_fn)
+        bits = math.log2(n) if n > 1 else 0.0
+        self.scan_counter += 1
+        event_id = f"{label}#{self.scan_counter}(N={n})"
+        if bits > 0.0:
+            self.scan_history.append((event_id, bits))
+            if _ACTIVE_ZERO_BIT_SCAN_LOG:
+                _ACTIVE_ZERO_BIT_SCAN_LOG[-1].append((event_id, bits))
+        if isinstance(best_c, TrackedValue):
+            return TrackedValue(
+                value=best_c.value,
+                unit_map=dict(best_c.unit_map),
+                selection_events=best_c.selection_events | ({(event_id, bits)} if bits > 0 else frozenset()),
+                empirical_sources=best_c.empirical_sources,
+                anchor_sources=best_c.anchor_sources,
+            )
+        return TrackedValue(
+            value=best_c,
+            unit_map={},
+            selection_events=frozenset({(event_id, bits)}) if bits > 0 else frozenset(),
+        )
+
+    def finalize_prediction(self, prediction: TrackedValue) -> Dict[str, Any]:
+        """
+        Verify that a final prediction is non-dimensionalized (e.g. `m_i / v_EW`)
+        and return its complete epistemic cost ledger.
+        """
+        if not prediction.is_dimensionless:
+            raise Guardrail5UnpricedScaleError(
+                f"[Guardrail 5 Violation in Ledger `{self.name}`]: Final prediction carries "
+                f"un-normalized dimension `{prediction.unit}`. Divide by the anchor "
+                f"`{self.anchor_name}` to form a dimensionless ratio before counting inputs."
+            )
+        return {
+            "dimensionless_value": float(np.asarray(prediction.value)),
+            "unit": prediction.unit,
+            "selection_bits": prediction.selection_bits,
+            "selection_events": sorted(list(prediction.selection_events)),
+            "empirical_sources": sorted(list(prediction.empirical_sources)),
+            "empirical_input_count": len(prediction.empirical_sources),
+            "anchor_used": sorted(list(prediction.anchor_sources)),
+        }
+
+
+def zero_bit_prediction(fn: Callable[..., TrackedValue]) -> Callable[..., TrackedValue]:
+    """
+    Decorator enforcing Guardrail 1 on functions claiming a 0-bit parameter-free
+    prediction: raises `Guardrail1UnpricedScanError` if:
+      - the returned `TrackedValue` accumulated any discrete selection bits (`selection_bits > 0`),
+      - any `select_from()` scan occurred on the call stack during execution (even if the
+        caller tried to strip the `TrackedValue` wrapper via `float(picked.value)`!), or
+      - the returned value depends on imported empirical parameters (`len(empirical_sources) > 0`).
+    """
+    @functools.wraps(fn)
+    def wrapper(*args: Any, **kwargs: Any) -> TrackedValue:
+        _ACTIVE_ZERO_BIT_SCAN_LOG.append([])
+        try:
+            res = fn(*args, **kwargs)
+            ambient_scans = list(_ACTIVE_ZERO_BIT_SCAN_LOG[-1])
+        finally:
+            _ACTIVE_ZERO_BIT_SCAN_LOG.pop()
+
+        if not isinstance(res, TrackedValue):
+            raise GuardrailCompilerError(
+                f"`@zero_bit_prediction` function `{fn.__name__}` must return a `TrackedValue`."
+            )
+        all_events = set(res.selection_events) | set(ambient_scans)
+        total_bits = sum(b for _, b in all_events)
+        if total_bits > 0.0:
+            events_str = ", ".join(f"{ev}: {b:.2f} bits" for ev, b in sorted(all_events))
+            raise Guardrail1UnpricedScanError(
+                f"[Guardrail 1 Anti-Texas-Sharpshooter Violation in `{fn.__name__}`]: "
+                f"Function claims 0 selection bits, but execution incurred "
+                f"{total_bits:.2f} bits from post-inspection candidate scan(s) "
+                f"[{events_str}]."
+            )
+        if len(res.empirical_sources) > 0:
+            raise Guardrail1UnpricedScanError(
+                f"[Guardrail 1 Violation in `{fn.__name__}`]: Function claims a pure 0-bit "
+                f"prediction but depends on imported empirical input(s) {sorted(res.empirical_sources)}."
+            )
+        return res
+
+    return wrapper
+
+
+# ============================================================================
+# Module 3: Haar Unitary Basis-Scrambling Gate (Guardrail 3)
+# ============================================================================
+
+def haar_random_unitary(n: int, rng: np.random.Generator) -> np.ndarray:
+    """
+    Generate an n x n Haar-distributed random unitary matrix on U(n) via
+    QR factorization of a complex Ginibre ensemble with Mezzadri phase correction.
+    """
+    z = (rng.standard_normal((n, n)) + 1j * rng.standard_normal((n, n))) / math.sqrt(2.0)
+    q, r = np.linalg.qr(z)
+    d = np.diag(r)
+    ph = np.where(np.abs(d) > 0, d / np.abs(d), 1.0 + 0.0j)
+    return q * ph[np.newaxis, :]
+
+
+@dataclasses.dataclass
+class FramedMatrix:
+    """
+    A matrix annotated with its left and right gauge/flavor Hilbert-space frame names.
+    Under a basis change {f -> U_f}:
+      - Standard Dirac/operator transformation: M -> U_{left_frame} @ M @ U_{right_frame}^dagger
+      - Majorana symmetric transformation (when `is_majorana_symmetric=True` and
+        `left_frame == right_frame`): M -> U_f @ M @ U_f^T
+    """
+    matrix: np.ndarray
+    left_frame: str
+    right_frame: str
+    is_majorana_symmetric: bool = False
+
+    def __post_init__(self) -> None:
+        self.matrix = np.asarray(self.matrix, dtype=complex)
+        if self.matrix.ndim != 2:
+            raise ValueError("FramedMatrix requires a 2D array.")
+        if not np.all(np.isfinite(self.matrix)):
+            raise Guardrail3BasisDependenceError("FramedMatrix entries contain NaN or Inf.")
+        if self.is_majorana_symmetric:
+            if self.left_frame != self.right_frame:
+                raise Guardrail3IllegalLeftRightOverlapError(
+                    f"Majorana symmetric matrix must have matching left_frame and right_frame, "
+                    f"got `{self.left_frame}` vs `{self.right_frame}`."
+                )
+            sym_err = float(np.linalg.norm(self.matrix - self.matrix.T))
+            if sym_err > 1e-12:
+                raise Guardrail3IllegalLeftRightOverlapError(
+                    f"Matrix declared `is_majorana_symmetric=True` is not symmetric "
+                    f"(||M - M^T|| = {sym_err:.3e})."
+                )
+
+    def transform(self, frame_unitaries: Dict[str, np.ndarray]) -> "FramedMatrix":
+        u_l = frame_unitaries[self.left_frame]
+        if self.is_majorana_symmetric:
+            new_m = u_l @ self.matrix @ u_l.T
+        else:
+            u_r = frame_unitaries[self.right_frame]
+            new_m = u_l @ self.matrix @ u_r.conj().T
+        return FramedMatrix(
+            matrix=new_m,
+            left_frame=self.left_frame,
+            right_frame=self.right_frame,
+            is_majorana_symmetric=self.is_majorana_symmetric,
+        )
+
+    def extract_left_right_overlap(self) -> np.ndarray:
+        """
+        Attempt to extract U^dagger V (or V^T U) from a single matrix M = U Sigma V^dagger.
+        Strictly blocked by Guardrail 3 unless `is_majorana_symmetric=True`.
+        """
+        if not self.is_majorana_symmetric:
+            raise Guardrail3IllegalLeftRightOverlapError(
+                f"[Guardrail 3 Violation]: Cannot extract physical mixing angles from "
+                f"the left-right overlap of a single Dirac matrix (`{self.left_frame}` -> "
+                f"`{self.right_frame}`) because U_L and U_R rotate independently."
+            )
+        u, _, vh = np.linalg.svd(self.matrix)
+        return u.conj().T @ vh.conj().T
+
+
+def observable(
+    haar_samples: int = 50,
+    tol: float = 1e-12,
+    seed: int = 20261109,
+    distinct_right_frames: bool = False,
+) -> Callable[[Callable[..., Any]], Callable[..., Any]]:
+    """
+    Decorator for physical observables extracted from Yukawa/mass/operator matrices (Guardrail 3).
+    1. Statically scans the AST for Guardrail 2 (literal claims) and Guardrail 3
+       (illegal single-Dirac SVD left-right overlap `V.T @ U` / `U.conj().T @ V` / `np.matmul`).
+    2. If `distinct_right_frames=True`, enforces that distinct Dirac `FramedMatrix`
+       inputs do not share a falsely merged right-handed frame name.
+    3. At runtime, evaluates the observable on the user's input `FramedMatrix` objects,
+       then generates `haar_samples` (default 50) independent Haar-random unitary
+       transformations for every frame, scrambles all `FramedMatrix` inputs, and
+       asserts that the output is finite and invariant to `< tol` (`1e-12`).
+    """
+    def decorator(fn: Callable[..., Any]) -> Callable[..., Any]:
+        scan_ast_guardrail2_no_literal_claims(fn)
+        scan_ast_guardrail3_no_dirac_lr_overlap(fn)
+
+        @functools.wraps(fn)
+        def wrapper(*args: Any, **kwargs: Any) -> Any:
+            base_val = fn(*args, **kwargs)
+            base_arr = np.asarray(base_val, dtype=complex)
+            if not np.all(np.isfinite(base_arr)):
+                raise Guardrail3BasisDependenceError(
+                    f"[Guardrail 3 Violation in `{fn.__name__}`]: Observable returned NaN or Inf."
+                )
+
+            frame_dims: Dict[str, int] = {}
+            right_frames_seen: List[str] = []
+
+            def _collect_frames(obj: Any) -> None:
+                if isinstance(obj, FramedMatrix):
+                    r, c = obj.matrix.shape
+                    if not obj.is_majorana_symmetric and obj.left_frame == obj.right_frame:
+                        raise Guardrail3IllegalLeftRightOverlapError(
+                            f"[Guardrail 3 Frame Collision in `{fn.__name__}`]: Dirac matrix "
+                            f"cannot share identical left_frame and right_frame `{obj.left_frame}` "
+                            f"when `is_majorana_symmetric=False`."
+                        )
+                    right_frames_seen.append(obj.right_frame)
+                    for f_name, dim in ((obj.left_frame, r), (obj.right_frame, c)):
+                        if f_name in frame_dims and frame_dims[f_name] != dim:
+                            raise ValueError(
+                                f"Inconsistent dimension for frame `{f_name}`: "
+                                f"{frame_dims[f_name]} vs {dim}."
+                            )
+                        frame_dims[f_name] = dim
+                elif isinstance(obj, (list, tuple)):
+                    for item in obj:
+                        _collect_frames(item)
+                elif isinstance(obj, dict):
+                    for item in obj.values():
+                        _collect_frames(item)
+
+            _collect_frames(args)
+            _collect_frames(kwargs)
+
+            if not frame_dims:
+                raise Guardrail3BasisDependenceError(
+                    f"[Guardrail 3 Violation in `{fn.__name__}`]: `@observable` requires at "
+                    f"least one `FramedMatrix` argument so basis-invariance can be tested."
+                )
+            if distinct_right_frames and len(right_frames_seen) != len(set(right_frames_seen)):
+                raise Guardrail3BasisDependenceError(
+                    f"[Guardrail 3 Frame Collision in `{fn.__name__}`]: `distinct_right_frames=True` "
+                    f"requires independent right-handed frames for each sector, got {right_frames_seen}."
+                )
+
+            def _transform_obj(obj: Any, unitaries: Dict[str, np.ndarray]) -> Any:
+                if isinstance(obj, FramedMatrix):
+                    return obj.transform(unitaries)
+                if isinstance(obj, list):
+                    return [_transform_obj(x, unitaries) for x in obj]
+                if isinstance(obj, tuple):
+                    return tuple(_transform_obj(x, unitaries) for x in obj)
+                if isinstance(obj, dict):
+                    return {k: _transform_obj(v, unitaries) for k, v in obj.items()}
+                return obj
+
+            rng = np.random.default_rng(seed)
+            for sample_idx in range(haar_samples):
+                unitaries = {
+                    f_name: haar_random_unitary(dim, rng)
+                    for f_name, dim in frame_dims.items()
+                }
+                s_args = _transform_obj(args, unitaries)
+                s_kwargs = _transform_obj(kwargs, unitaries)
+                s_val = fn(*s_args, **s_kwargs)
+                s_arr = np.asarray(s_val, dtype=complex)
+                if not np.all(np.isfinite(s_arr)):
+                    raise Guardrail3BasisDependenceError(
+                        f"[Guardrail 3 Haar Scrambling NaN/Inf in `{fn.__name__}`]: "
+                        f"Observable evaluated to NaN/Inf on sample #{sample_idx + 1}."
+                    )
+                dev = float(np.max(np.abs(s_arr - base_arr)))
+                if not math.isfinite(dev) or dev >= tol:
+                    raise Guardrail3BasisDependenceError(
+                        f"[Guardrail 3 Haar Basis-Scrambling Failure in `{fn.__name__}`]: "
+                        f"Claimed observable changed by {dev:.3e} >= {tol:.1e} on Haar unitary "
+                        f"sample #{sample_idx + 1}/{haar_samples} across frames {sorted(frame_dims.keys())}. "
+                        f"The extracted quantity is basis-dependent and unphysical!"
+                    )
+
+            return base_val
+
+        return wrapper
+
+    return decorator
+
+
+# ============================================================================
+# Module 4: Literature Benchmark Gate for RGE Integration (Guardrail 4)
+# ============================================================================
+
+class GatedRGEIntegrator:
+    """
+    Renormalization Group Equation (RGE) ODE Integrator enforcing Guardrail 4:
+      1. Explicitly tracks the differential variable (`ln_mu`, `ln_mu2`, or `t_2pi`).
+      2. Cryptographically seals `.integrate_model()` behind an HMAC-SHA256 token
+         issued only when `.verify_literature_benchmark(...)` reproduces a published
+         reference trajectory to `<= rtol` (default `1e-3`, >= 3 significant figures).
+         Direct mutation `rge._benchmark_verified = True` is detected and blocked!
+    """
+
+    VALID_LOG_VARIABLES: Dict[str, float] = {
+        "ln_mu": 1.0,
+        "ln_mu2": 2.0,
+        "t_2pi": 1.0 / (2.0 * math.pi),
+    }
+
+    def __init__(
+        self,
+        rhs_fn: Callable[[float, np.ndarray], np.ndarray],
+        log_variable: str = "ln_mu",
+        declared_multiplier_to_dln_mu: Optional[float] = None,
+    ) -> None:
+        if log_variable not in self.VALID_LOG_VARIABLES:
+            raise Guardrail4BenchmarkGateError(
+                f"Invalid log_variable `{log_variable}`; must be one of "
+                f"{sorted(self.VALID_LOG_VARIABLES.keys())}."
+            )
+        expected_mult = self.VALID_LOG_VARIABLES[log_variable]
+        if declared_multiplier_to_dln_mu is not None:
+            if abs(declared_multiplier_to_dln_mu - expected_mult) > 1e-12:
+                raise Guardrail4BenchmarkGateError(
+                    f"[Guardrail 4 Differential Variable Mismatch]: For `{log_variable}`, "
+                    f"d(var)/d(ln mu) is {expected_mult:.6g}, but user declared "
+                    f"{declared_multiplier_to_dln_mu:.6g} (check 4*pi / factor-of-2 conventions!)."
+                )
+        self.rhs_fn = rhs_fn
+        self.log_variable = log_variable
+        self.multiplier_to_dln_mu = expected_mult
+        self._benchmark_verified: bool = False
+        self._seal_token: Optional[str] = None
+        self.benchmark_receipt: Optional[Dict[str, Any]] = None
+
+    def _compute_hmac_seal(self, receipt: Dict[str, Any]) -> str:
+        payload = json.dumps(
+            {
+                "instance_id": id(self),
+                "rhs_id": id(self.rhs_fn),
+                "log_variable": self.log_variable,
+                "receipt": receipt,
+            },
+            sort_keys=True,
+        ).encode("utf-8")
+        return hmac.new(_RGE_GATE_SECRET, payload, hashlib.sha256).hexdigest()
+
+    def _rk4_integrate_ln_mu(
+        self,
+        y0: np.ndarray,
+        mu_init: float,
+        mu_final: float,
+        n_steps: int = 2000,
+        v0: float = 0.0,
+    ) -> np.ndarray:
+        if mu_init <= 0.0 or mu_final <= 0.0:
+            raise ValueError("Energy scales mu_init and mu_final must be positive.")
+        total_dln_mu = math.log(mu_final / mu_init)
+        h = total_dln_mu / float(n_steps)
+        y = np.asarray(y0, dtype=float).copy()
+        s = self.multiplier_to_dln_mu
+        tau = 0.0
+        for _ in range(n_steps):
+            # v1.2 G3-Hardened: pass exact declared variable stage `v0 + s * (tau + c_i * h)`
+            k1 = s * np.asarray(self.rhs_fn(v0 + s * tau, y), dtype=float)
+            k2 = s * np.asarray(self.rhs_fn(v0 + s * (tau + 0.5 * h), y + 0.5 * h * k1), dtype=float)
+            k3 = s * np.asarray(self.rhs_fn(v0 + s * (tau + 0.5 * h), y + 0.5 * h * k2), dtype=float)
+            k4 = s * np.asarray(self.rhs_fn(v0 + s * (tau + h), y + h * k3), dtype=float)
+            y = y + (h / 6.0) * (k1 + 2.0 * k2 + 2.0 * k3 + k4)
+            tau += h
+        if not np.all(np.isfinite(y)):
+            raise Guardrail4BenchmarkGateError(
+                "[Guardrail 4 Integration Failure]: RGE trajectory diverged to NaN/Inf (Landau pole or rate bug)."
+            )
+        return y
+
+    def verify_literature_benchmark(
+        self,
+        y0: Union[float, Sequence[float], np.ndarray],
+        mu_init: float,
+        mu_target: float,
+        published_target: Union[float, Sequence[float], np.ndarray],
+        rtol: float = 1e-3,
+        citation: str = "Literature Benchmark",
+        n_steps: int = 2000,
+    ) -> Dict[str, Any]:
+        """
+        Run the integrator on a published reference benchmark and verify agreement
+        to `<= rtol` (at least 3 significant figures, `rtol <= 1e-3`).
+        """
+        if rtol > 1e-3:
+            raise Guardrail4BenchmarkGateError(
+                f"[Guardrail 4 Violation]: Benchmark tolerance rtol={rtol} is looser than "
+                f"the mandatory 3-significant-figure gate (1e-3)."
+            )
+        y_init = np.atleast_1d(np.asarray(y0, dtype=float))
+        y_pub = np.atleast_1d(np.asarray(published_target, dtype=float))
+        y_num = self._rk4_integrate_ln_mu(y_init, mu_init, mu_target, n_steps=n_steps)
+
+        rel_err = float(np.max(np.abs(y_num - y_pub) / np.maximum(np.abs(y_pub), 1e-15)))
+        if not math.isfinite(rel_err) or rel_err > rtol:
+            self._benchmark_verified = False
+            self._seal_token = None
+            raise Guardrail4BenchmarkGateError(
+                f"[Guardrail 4 Benchmark Gate Failed for `{citation}`]: "
+                f"Integrated value {y_num.tolist()} at mu={mu_target:g} deviates from "
+                f"published benchmark {y_pub.tolist()} by relative error {rel_err:.3e} > {rtol:.1e}. "
+                f"Check differential variable scaling (`ln_mu` vs `ln_mu2` vs `t_2pi`) and running sign!"
+            )
+
+        receipt = {
+            "citation": citation,
+            "log_variable": self.log_variable,
+            "mu_init": mu_init,
+            "mu_target": mu_target,
+            "integrated_value": y_num.tolist(),
+            "published_target": y_pub.tolist(),
+            "relative_error": rel_err,
+            "rtol_gate": rtol,
+        }
+        self.benchmark_receipt = receipt
+        self._benchmark_verified = True
+        self._seal_token = self._compute_hmac_seal(receipt)
+        return receipt
+
+    def integrate_model(
+        self,
+        y0: Union[float, Sequence[float], np.ndarray],
+        mu_init: float,
+        mu_final: float,
+        n_steps: int = 2000,
+    ) -> np.ndarray:
+        """
+        Integrate model UV/IR boundary conditions ONLY after `.verify_literature_benchmark()`
+        has succeeded and issued a valid cryptographic HMAC seal.
+        """
+        if not self._benchmark_verified or self.benchmark_receipt is None or self._seal_token is None:
+            raise Guardrail4BenchmarkGateError(
+                "[Guardrail 4 Gate Locked]: Cannot call `.integrate_model()` before passing "
+                "`.verify_literature_benchmark()` to <= 1e-3 relative error."
+            )
+        expected_seal = self._compute_hmac_seal(self.benchmark_receipt)
+        if not hmac.compare_digest(self._seal_token, expected_seal):
+            raise Guardrail4BenchmarkGateError(
+                "[Guardrail 4 Tamper Detection]: `_benchmark_verified` or `rhs_fn` was mutated "
+                "without passing `.verify_literature_benchmark()`!"
+            )
+        y_init = np.atleast_1d(np.asarray(y0, dtype=float))
+        return self._rk4_integrate_ln_mu(y_init, mu_init, mu_final, n_steps=n_steps)
+
+
+# ============================================================================
+# Module 5: First-Class Equivariant Cochain Complex
+# ============================================================================
+
+@dataclasses.dataclass
+class IntertwinerSpec:
+    """
+    Specification of an equivariant cochain intertwiner at degree k:
+      A_{k+1} @ d_k^{(source)} = eta_k * d_k^{(target)} @ A_k
+    If `target_differential` is None, `d_k` of the complex itself is used.
+    """
+    degree: int
+    op_k: np.ndarray
+    op_k_plus_1: np.ndarray
+    eta_phase: complex = 1.0 + 0.0j
+    target_differential: Optional[np.ndarray] = None
+    name: str = "symmetry_intertwiner"
+
+
+class EquivariantCochainComplex:
+    """
+    First-class cochain complex C^0 --d_0--> C^1 --d_1--> ... --d_{m-1}--> C^m
+    that automatically verifies at instantiation:
+      1. Dimension compatibility and finite entries (no NaN/Inf) of all d_k.
+      2. Exact nilpotency ||d_{k+1} @ d_k||_F < tol (1e-12) for all k.
+      3. Non-singularity (invertibility) of all symmetry operators A_k, A_{k+1}
+         and exact equivariance ||A_{k+1} d_k - eta_k d'_k A_k||_F < tol (1e-12).
+      4. Cohomology Betti numbers beta_k = dim ker(d_k) - rank(d_{k-1}) and
+         Euler characteristic conservation sum (-1)^k dim C^k == sum (-1)^k beta_k.
+    """
+
+    def __init__(
+        self,
+        differentials: Sequence[np.ndarray],
+        grading_dims: Optional[Sequence[int]] = None,
+        intertwiners: Optional[Sequence[IntertwinerSpec]] = None,
+        tol: float = 1e-12,
+    ) -> None:
+        self.differentials: List[np.ndarray] = [
+            np.asarray(d, dtype=complex) for d in differentials
+        ]
+        self.tol = tol
+
+        for k, d_k in enumerate(self.differentials):
+            if not np.all(np.isfinite(d_k)):
+                raise ComplexChainError(f"Differential d_{k} contains NaN or Inf.")
+
+        if grading_dims is not None:
+            self.grading_dims = list(grading_dims)
+        else:
+            if not self.differentials:
+                raise ValueError("Provide either differentials or grading_dims.")
+            self.grading_dims = [self.differentials[0].shape[1]] + [
+                d.shape[0] for d in self.differentials
+            ]
+
+        if len(self.grading_dims) != len(self.differentials) + 1:
+            raise ComplexChainError(
+                f"Expected {len(self.differentials) + 1} grading dims, got {len(self.grading_dims)}."
+            )
+
+        # 1. Verify shapes
+        for k, d_k in enumerate(self.differentials):
+            expected_shape = (self.grading_dims[k + 1], self.grading_dims[k])
+            if d_k.shape != expected_shape:
+                raise ComplexChainError(
+                    f"Differential d_{k} has shape {d_k.shape}, expected {expected_shape}."
+                )
+
+        # 2. Verify d_{k+1} @ d_k == 0
+        self.chain_residuals: List[float] = []
+        for k in range(len(self.differentials) - 1):
+            comp = self.differentials[k + 1] @ self.differentials[k]
+            res = float(np.linalg.norm(comp, ord="fro"))
+            self.chain_residuals.append(res)
+            if not math.isfinite(res) or res >= self.tol:
+                raise ComplexChainError(
+                    f"[ComplexChainError at degree {k}->{k+2}]: "
+                    f"||d_{k+1} @ d_{k}||_F = {res:.3e} >= {self.tol:.1e} (d^2 != 0)."
+                )
+
+        # 3. Verify declared symmetry intertwiners (including invertibility check!)
+        self.intertwiner_residuals: Dict[str, float] = {}
+        if intertwiners:
+            for spec in intertwiners:
+                k = spec.degree
+                d_src = self.differentials[k]
+                d_tgt = (
+                    np.asarray(spec.target_differential, dtype=complex)
+                    if spec.target_differential is not None
+                    else d_src
+                )
+                a_k = np.asarray(spec.op_k, dtype=complex)
+                a_kp1 = np.asarray(spec.op_k_plus_1, dtype=complex)
+                if not np.all(np.isfinite(a_k)) or not np.all(np.isfinite(a_kp1)):
+                    raise IntertwinerError(
+                        f"[IntertwinerError in `{spec.name}`]: Operator contains NaN or Inf."
+                    )
+                for label_op, mat_op, exp_dim in (
+                    (f"A_{k}", a_k, self.grading_dims[k]),
+                    (f"A_{k+1}", a_kp1, self.grading_dims[k + 1]),
+                ):
+                    if mat_op.shape != (exp_dim, exp_dim):
+                        raise IntertwinerError(
+                            f"[IntertwinerError in `{spec.name}`]: `{label_op}` has shape "
+                            f"{mat_op.shape}, expected {(exp_dim, exp_dim)}."
+                        )
+                    if exp_dim > 0:
+                        rk = int(np.linalg.matrix_rank(mat_op, tol=1e-10))
+                        if rk < exp_dim:
+                            raise IntertwinerError(
+                                f"[IntertwinerError in `{spec.name}`]: Symmetry operator `{label_op}` "
+                                f"is singular (rank {rk} < {exp_dim}); trivial/zero intertwiners are banned."
+                            )
+                if abs(spec.eta_phase) < 1e-12 or not cmath_isfinite(spec.eta_phase):
+                    raise IntertwinerError(
+                        f"[IntertwinerError in `{spec.name}`]: Invalid phase factor `{spec.eta_phase}`."
+                    )
+                diff = a_kp1 @ d_src - complex(spec.eta_phase) * (d_tgt @ a_k)
+                res = float(np.linalg.norm(diff, ord="fro"))
+                self.intertwiner_residuals[spec.name] = res
+                if not math.isfinite(res) or res >= self.tol:
+                    raise IntertwinerError(
+                        f"[IntertwinerError in `{spec.name}` at degree {k}]: "
+                        f"||A_{k+1} d_{k} - ({spec.eta_phase}) d'_{k} A_{k}||_F = "
+                        f"{res:.3e} >= {self.tol:.1e}."
+                    )
+
+        # 4. Compute ranks and Betti numbers
+        self.ranks: List[int] = [
+            int(np.linalg.matrix_rank(d, tol=1e-10)) if d.size > 0 else 0
+            for d in self.differentials
+        ]
+        self.betti_numbers: List[int] = []
+        m = len(self.grading_dims)
+        for k in range(m):
+            dim_c_k = self.grading_dims[k]
+            rank_out = self.ranks[k] if k < len(self.ranks) else 0
+            rank_in = self.ranks[k - 1] if k > 0 else 0
+            nullity = dim_c_k - rank_out
+            beta_k = nullity - rank_in
+            if beta_k < 0:
+                raise ComplexChainError(f"Negative Betti number {beta_k} at degree {k}.")
+            self.betti_numbers.append(beta_k)
+
+        self.euler_characteristic = sum(
+            ((-1) ** k) * d for k, d in enumerate(self.grading_dims)
+        )
+        euler_cohom = sum(
+            ((-1) ** k) * b for k, b in enumerate(self.betti_numbers)
+        )
+        if self.euler_characteristic != euler_cohom:
+            raise ComplexChainError(
+                f"Euler characteristic mismatch: chain {self.euler_characteristic} vs "
+                f"cohomology {euler_cohom}."
+            )
+
+
+def cmath_isfinite(z: complex) -> bool:
+    return math.isfinite(z.real) and math.isfinite(z.imag)
+
+
+# ============================================================================
+# Demonstration Suite: 6 Adversarial Cheats Caught + Honest Golden Spikes Passed
+# ============================================================================
+
+def run_compiler_demonstration() -> Dict[str, Any]:
+    """
+    Execute the baseline demonstration of `guardrail_dsl`:
+      Part A: 6 Adversarial "Cheating / Buggy" Programs (proving the compiler catches all 6).
+      Part B: Honest Passing Programs (Golden Spikes & Koszul Complex).
+    """
+    caught_cheats: Dict[str, Dict[str, Any]] = {}
+
+    # Cheat 1A (Guardrail 1 Static): Hand-planted target in stabilization potential
+    try:
+        @stabilization_potential()
+        def fake_potential_with_planted_target(tau: float) -> float:
+            tau_golden = 1.61803398875
+            return (tau - tau_golden) ** 2
+
+        raise AssertionError("Should have raised Guardrail1PostInspectionError")
+    except Guardrail1PostInspectionError as exc:
+        caught_cheats["guardrail_1_static_planted_target"] = {
+            "caught": True,
+            "error_type": type(exc).__name__,
+            "message": str(exc),
+        }
+
+    # Cheat 1B (Guardrail 1 Dynamic): Quant/Physics discrete scan claiming 0 bits
+    try:
+        ledger_g1 = LedgerContext("quant_backtest_ledger")
+
+        @zero_bit_prediction
+        def overfitted_quant_sharpe() -> TrackedValue:
+            candidates = [0.5 + 0.05 * k for k in range(64)]
+            return ledger_g1.select_from(
+                candidates, score_fn=lambda x: abs(x - 1.85), label="strategy_grid_search"
+            )
+
+        _ = overfitted_quant_sharpe()
+        raise AssertionError("Should have raised Guardrail1UnpricedScanError")
+    except Guardrail1UnpricedScanError as exc:
+        caught_cheats["guardrail_1_dynamic_unpriced_scan"] = {
+            "caught": True,
+            "error_type": type(exc).__name__,
+            "message": str(exc),
+        }
+
+    # Cheat 2 (Guardrail 2 Static): AI reward-hacker returning literal 0.0 / True
+    try:
+        @theorem()
+        def reward_hacked_strong_cp_proof() -> Dict[str, Any]:
+            bar_theta_qcd = 0.0
+            return {
+                "extends_to_cover": True,
+                "bar_theta_QCD": bar_theta_qcd,
+            }
+
+        raise AssertionError("Should have raised Guardrail2LiteralClaimError")
+    except Guardrail2LiteralClaimError as exc:
+        caught_cheats["guardrail_2_static_literal_claim"] = {
+            "caught": True,
+            "error_type": type(exc).__name__,
+            "message": str(exc),
+        }
+
+    # Cheat 3 (Guardrail 3 Dynamic): Extracting a basis-dependent matrix entry
+    try:
+        @observable(haar_samples=50, tol=1e-12)
+        def fake_mixing_angle_from_single_yukawa(y_u: FramedMatrix) -> float:
+            return float(np.abs(y_u.matrix[0, 1]) / np.linalg.norm(y_u.matrix, ord="fro"))
+
+        rng = np.random.default_rng(42)
+        y_mat = rng.standard_normal((3, 3)) + 1j * rng.standard_normal((3, 3))
+        _ = fake_mixing_angle_from_single_yukawa(
+            FramedMatrix(y_mat, left_frame="Q_L", right_frame="u_R")
+        )
+        raise AssertionError("Should have raised Guardrail3BasisDependenceError")
+    except Guardrail3BasisDependenceError as exc:
+        caught_cheats["guardrail_3_dynamic_haar_scrambling"] = {
+            "caught": True,
+            "error_type": type(exc).__name__,
+            "message": str(exc),
+        }
+
+    # Cheat 4 (Guardrail 4 Dynamic): RGE Integrator with d/d(ln mu^2) vs d/d(ln mu) bug
+    try:
+        b_coeff = 4.0 / 3.0
+
+        def rge_rhs_per_ln_mu(_t: float, _y: np.ndarray) -> np.ndarray:
+            return np.array([-b_coeff / (2.0 * math.pi)])
+
+        buggy_rge = GatedRGEIntegrator(rge_rhs_per_ln_mu, log_variable="ln_mu2")
+        mu_z = 91.1876
+        mu_uv = 1.0e16
+        alpha_inv_mz = 127.955
+        exact_alpha_inv_uv = alpha_inv_mz - (b_coeff / (2.0 * math.pi)) * math.log(mu_uv / mu_z)
+        buggy_rge.verify_literature_benchmark(
+            y0=[alpha_inv_mz],
+            mu_init=mu_z,
+            mu_target=mu_uv,
+            published_target=[exact_alpha_inv_uv],
+            rtol=1e-3,
+            citation="1-Loop Abelian Benchmark (arXiv:1307.3536 / 1804.01925)",
+        )
+        raise AssertionError("Should have raised Guardrail4BenchmarkGateError")
+    except Guardrail4BenchmarkGateError as exc:
+        caught_cheats["guardrail_4_benchmark_gate_bug"] = {
+            "caught": True,
+            "error_type": type(exc).__name__,
+            "message": str(exc),
+        }
+
+    # Cheat 5 (Guardrail 5 Dynamic): Second unpriced dimensionful scale M_Z alongside v_EW
+    try:
+        ledger_g5 = LedgerContext("sm_mass_ledger")
+        _v_ew = ledger_g5.declare_anchor("v_EW", 246.21965, "GeV")
+        _m_z = ledger_g5.declare_anchor("M_Z", 91.1876, "GeV")
+        raise AssertionError("Should have raised Guardrail5UnpricedScaleError")
+    except Guardrail5UnpricedScaleError as exc:
+        caught_cheats["guardrail_5_second_dimensionful_anchor"] = {
+            "caught": True,
+            "error_type": type(exc).__name__,
+            "message": str(exc),
+        }
+
+    # Cheat 6 (Guardrail 6 Static): Referee script calling a @producer function
+    try:
+        @producer
+        def compute_producer_yukawa_claim() -> Dict[str, float]:
+            return {"jarlskog": 3.08e-5}
+
+        @referee
+        def lazy_referee_echo() -> Dict[str, float]:
+            out = compute_producer_yukawa_claim()
+            return {"residual": abs(out["jarlskog"] - 3.08e-5)}
+
+        raise AssertionError("Should have raised Guardrail6ProducerEchoError")
+    except Guardrail6ProducerEchoError as exc:
+        caught_cheats["guardrail_6_static_referee_echo"] = {
+            "caught": True,
+            "error_type": type(exc).__name__,
+            "message": str(exc),
+        }
+
+    # Part B: Honest Passing Programs
+    @stabilization_potential()
+    def honest_fibonacci_potential(x: float) -> float:
+        return (x * x - x - 1.0) ** 2
+
+    phi_golden = 0.5 * (1.0 + math.sqrt(5.0))
+    stab_receipt = honest_fibonacci_potential.verify_minimum(phi_golden)
+
+    @observable(haar_samples=50, tol=1e-12, distinct_right_frames=True)
+    def honest_ckm_jarlskog_commutator_trace(
+        y_u: FramedMatrix, y_d: FramedMatrix
+    ) -> float:
+        h_u_raw = y_u.matrix @ y_u.matrix.conj().T
+        h_d_raw = y_d.matrix @ y_d.matrix.conj().T
+        h_u = h_u_raw / np.real(np.trace(h_u_raw))
+        h_d = h_d_raw / np.real(np.trace(h_d_raw))
+        comm = h_u @ h_d - h_d @ h_u
+        comm3 = comm @ comm @ comm
+        return float(np.imag(np.trace(comm3)))
+
+    rng_honest = np.random.default_rng(20261109)
+    yu_honest = FramedMatrix(
+        rng_honest.standard_normal((3, 3)) + 1j * rng_honest.standard_normal((3, 3)),
+        left_frame="Q_L",
+        right_frame="u_R",
+    )
+    yd_honest = FramedMatrix(
+        rng_honest.standard_normal((3, 3)) + 1j * rng_honest.standard_normal((3, 3)),
+        left_frame="Q_L",
+        right_frame="d_R",
+    )
+    jarlskog_trace_val = honest_ckm_jarlskog_commutator_trace(yu_honest, yd_honest)
+
+    @referee
+    @theorem(tol=1e-12)
+    def honest_referee_strong_cp_phase() -> Dict[str, float]:
+        omega = np.exp(2j * math.pi / 3.0)
+        f3 = np.array(
+            [[1.0, 1.0, 1.0], [1.0, omega, omega ** 2], [1.0, omega ** 2, omega]],
+            dtype=complex,
+        ) / math.sqrt(3.0)
+        d_u = np.diag([0.05, 0.25, 1.0])
+        d_d = np.diag([0.03, 0.15, 0.8])
+        y_u_mat = f3 @ d_u @ f3.conj().T
+        y_d_mat = f3 @ d_d @ f3.conj().T
+        det_prod = np.linalg.det(y_u_mat @ y_d_mat)
+        arg_det = float(abs(math.atan2(det_prod.imag, det_prod.real)))
+        unitarity_res = float(np.linalg.norm(f3 @ f3.conj().T - np.eye(3), ord="fro"))
+        return {
+            "arg_det_Yu_Yd_residual": arg_det,
+            "fourier_unitarity_residual": unitarity_res,
+        }
+
+    strong_cp_receipt = honest_referee_strong_cp_phase()
+
+    b_coeff = 4.0 / 3.0
+
+    def honest_rge_rhs(_t: float, _y: np.ndarray) -> np.ndarray:
+        return np.array([-b_coeff / (2.0 * math.pi)])
+
+    honest_rge = GatedRGEIntegrator(
+        honest_rge_rhs, log_variable="ln_mu", declared_multiplier_to_dln_mu=1.0
+    )
+    mu_z = 91.1876
+    mu_uv = 1.0e16
+    alpha_inv_mz = 127.955
+    exact_alpha_inv_uv = alpha_inv_mz - (b_coeff / (2.0 * math.pi)) * math.log(mu_uv / mu_z)
+    bench_receipt = honest_rge.verify_literature_benchmark(
+        y0=[alpha_inv_mz],
+        mu_init=mu_z,
+        mu_target=mu_uv,
+        published_target=[exact_alpha_inv_uv],
+        rtol=1e-3,
+        citation="1-Loop Abelian Benchmark (arXiv:1307.3536)",
+    )
+    model_ir_to_gut = honest_rge.integrate_model([127.955], mu_z, 2.0e16)
+
+    honest_ledger = LedgerContext("honest_ew_ledger")
+    v_ew = honest_ledger.declare_anchor("v_EW", 246.21965, "GeV")
+    r_mz = honest_ledger.import_dimensionless_ratio("M_Z/v_EW", 91.1876, anchor=v_ew)
+    m_pred_gev = v_ew * (r_mz * 0.5)
+    m_pred_dimless = m_pred_gev / v_ew
+    ledger_receipt = honest_ledger.finalize_prediction(m_pred_dimless)
+
+    d0_koszul = np.array([[-0.0], [-1.0], [1.0], [0.0]], dtype=complex)
+    d1_koszul = np.array(
+        [
+            [1.0, 0.0, 0.0, 0.0],
+            [0.0, 1.0, 1.0, 0.0],
+            [0.0, 0.0, 0.0, 1.0],
+        ],
+        dtype=complex,
+    )
+    a0_sym = np.array([[1.0]], dtype=complex)
+    a1_sym = np.array(
+        [
+            [0.0, 0.0, 0.0, 1.0],
+            [0.0, 0.0, -1.0, 0.0],
+            [0.0, -1.0, 0.0, 0.0],
+            [1.0, 0.0, 0.0, 0.0],
+        ],
+        dtype=complex,
+    )
+    a2_sym = np.array(
+        [
+            [0.0, 0.0, 1.0],
+            [0.0, -1.0, 0.0],
+            [1.0, 0.0, 0.0],
+        ],
+        dtype=complex,
+    )
+    koszul_complex = EquivariantCochainComplex(
+        differentials=[d0_koszul, d1_koszul],
+        grading_dims=[1, 4, 3],
+        intertwiners=[
+            IntertwinerSpec(
+                degree=0,
+                op_k=a0_sym,
+                op_k_plus_1=a1_sym,
+                eta_phase=1.0,
+                name="Z4_Koszul_deg0",
+            ),
+            IntertwinerSpec(
+                degree=1,
+                op_k=a1_sym,
+                op_k_plus_1=a2_sym,
+                eta_phase=1.0,
+                name="Z4_Koszul_deg1",
+            ),
+        ],
+    )
+
+    return {
+        "compiler_version": "1.1.0-redteam-hardened",
+        "caught_adversarial_cheats": caught_cheats,
+        "all_6_cheats_caught": len(caught_cheats) >= 6 and all(
+            v["caught"] for v in caught_cheats.values()
+        ),
+        "honest_verifications": {
+            "guardrail_1_fibonacci_stabilization": stab_receipt,
+            "guardrail_2_6_strong_cp_referee": strong_cp_receipt,
+            "guardrail_3_haar_invariant_jarlskog_trace": jarlskog_trace_val,
+            "guardrail_4_rge_benchmark_receipt": bench_receipt,
+            "guardrail_4_gut_scale_coupling": model_ir_to_gut.tolist(),
+            "guardrail_5_non_dimensionalized_ledger": ledger_receipt,
+            "module_5_koszul_cochain_complex": {
+                "grading_dims": koszul_complex.grading_dims,
+                "ranks": koszul_complex.ranks,
+                "betti_numbers": koszul_complex.betti_numbers,
+                "euler_characteristic": koszul_complex.euler_characteristic,
+                "chain_residuals": koszul_complex.chain_residuals,
+                "intertwiner_residuals": koszul_complex.intertwiner_residuals,
+            },
+        },
+    }
+
+
+if __name__ == "__main__":
+    summary = run_compiler_demonstration()
+    out_dir = pathlib.Path(__file__).resolve().parent
+    receipt_path = out_dir / "guardrail_dsl_receipt.json"
+    receipt_json = json.dumps(summary, indent=2, sort_keys=True)
+    receipt_path.write_text(receipt_json + "\n", encoding="utf-8")
+    receipt_sha256 = hashlib.sha256(receipt_path.read_bytes()).hexdigest()
+    print("======================================================================")
+    print("GUARDRAIL_DSL v1.1 COMPILER & RUNTIME VERIFICATION SUMMARY")
+    print("======================================================================")
+    print(f"All 6 adversarial cheats caught : {summary['all_6_cheats_caught']}")
+    for k, v in summary["caught_adversarial_cheats"].items():
+        print(f"  [BLOCKED] {k}: {v['error_type']}")
+    print("----------------------------------------------------------------------")
+    hv = summary["honest_verifications"]
+    print(
+        f"  [PASSED] Guardrail 1 Stabilization ||grad V(phi)|| = "
+        f"{hv['guardrail_1_fibonacci_stabilization']['grad_norm']:.3e}"
+    )
+    print(
+        f"  [PASSED] Guardrail 2 & 6 Strong-CP Referee res     = "
+        f"{hv['guardrail_2_6_strong_cp_referee']['arg_det_Yu_Yd_residual']:.3e}"
+    )
+    print(
+        f"  [PASSED] Guardrail 3 Haar 50-Sample Invariant J_tr = "
+        f"{hv['guardrail_3_haar_invariant_jarlskog_trace']:.6e}"
+    )
+    print(
+        f"  [PASSED] Guardrail 4 Benchmark Gate rel_err        = "
+        f"{hv['guardrail_4_rge_benchmark_receipt']['relative_error']:.3e}"
+    )
+    print(
+        f"  [PASSED] Guardrail 5 Dimensionless Ledger unit     = "
+        f"`{hv['guardrail_5_non_dimensionalized_ledger']['unit']}` "
+        f"(inputs={hv['guardrail_5_non_dimensionalized_ledger']['empirical_input_count']})"
+    )
+    print(
+        f"  [PASSED] Module 5 Koszul Cochain Complex Betti     = "
+        f"{hv['module_5_koszul_cochain_complex']['betti_numbers']} "
+        f"(||d1 d0||_F = {hv['module_5_koszul_cochain_complex']['chain_residuals'][0]:.3e})"
+    )
+    print("----------------------------------------------------------------------")
+    print(f"Receipt written to: {receipt_path}")
+    print(f"Receipt SHA-256   : {receipt_sha256}")

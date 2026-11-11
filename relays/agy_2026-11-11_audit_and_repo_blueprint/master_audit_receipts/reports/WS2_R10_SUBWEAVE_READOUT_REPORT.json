@@ -1,0 +1,504 @@
+{
+  "level5_infinite_psl2z_schreier_proof": {
+    "index_in_psl2z": 12,
+    "defects_strictly_plus_I_mod5": true,
+    "schreier_generator_count": 6,
+    "unfactored_schreier_generators": 0,
+    "max_word_depth_for_full_index12_generation": 4
+  },
+  "idempotent_galois_triviality_N2_to_7": [
+    {
+      "N": 2,
+      "psl2_mod_N_order": 6,
+      "omega1_size": 3,
+      "omega0_size": 3,
+      "fix_stab_omega1": [
+        [
+          0,
+          1
+        ]
+      ],
+      "fix_stab_omega1_size": 1,
+      "extra_marked_lines_outside_eigenline": [],
+      "idempotent_cl_cl_eq_cl": true,
+      "fix_stab_omega0": [
+        [
+          0,
+          1
+        ]
+      ],
+      "fix_stab_omega0_size": 1
+    },
+    {
+      "N": 3,
+      "psl2_mod_N_order": 12,
+      "omega1_size": 4,
+      "omega0_size": 4,
+      "fix_stab_omega1": [
+        [
+          0,
+          1
+        ]
+      ],
+      "fix_stab_omega1_size": 1,
+      "extra_marked_lines_outside_eigenline": [],
+      "idempotent_cl_cl_eq_cl": true,
+      "fix_stab_omega0": [
+        [
+          0,
+          1
+        ]
+      ],
+      "fix_stab_omega0_size": 1
+    },
+    {
+      "N": 4,
+      "psl2_mod_N_order": 24,
+      "omega1_size": 6,
+      "omega0_size": 6,
+      "fix_stab_omega1": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "fix_stab_omega1_size": 2,
+      "extra_marked_lines_outside_eigenline": [
+        [
+          2,
+          1
+        ]
+      ],
+      "idempotent_cl_cl_eq_cl": true,
+      "fix_stab_omega0": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "fix_stab_omega0_size": 2
+    },
+    {
+      "N": 5,
+      "psl2_mod_N_order": 60,
+      "omega1_size": 12,
+      "omega0_size": 6,
+      "fix_stab_omega1": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "fix_stab_omega1_size": 2,
+      "extra_marked_lines_outside_eigenline": [],
+      "idempotent_cl_cl_eq_cl": true,
+      "fix_stab_omega0": [
+        [
+          0,
+          1
+        ]
+      ],
+      "fix_stab_omega0_size": 1
+    },
+    {
+      "N": 6,
+      "psl2_mod_N_order": 72,
+      "omega1_size": 12,
+      "omega0_size": 12,
+      "fix_stab_omega1": [
+        [
+          0,
+          1
+        ]
+      ],
+      "fix_stab_omega1_size": 1,
+      "extra_marked_lines_outside_eigenline": [],
+      "idempotent_cl_cl_eq_cl": true,
+      "fix_stab_omega0": [
+        [
+          0,
+          1
+        ]
+      ],
+      "fix_stab_omega0_size": 1
+    },
+    {
+      "N": 7,
+      "psl2_mod_N_order": 168,
+      "omega1_size": 24,
+      "omega0_size": 8,
+      "fix_stab_omega1": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "fix_stab_omega1_size": 3,
+      "extra_marked_lines_outside_eigenline": [],
+      "idempotent_cl_cl_eq_cl": true,
+      "fix_stab_omega0": [
+        [
+          0,
+          1
+        ]
+      ],
+      "fix_stab_omega0_size": 1
+    }
+  ],
+  "R10A_mayer_selberg_subweave_spectrum": [
+    {
+      "N": 2,
+      "X1": {
+        "index_d": 3,
+        "trivial_lambda1": 1.0000000000000073,
+        "trivial_lambda2_wirsing_sq": 0.0922112193297167,
+        "subweave_gauss_spectral_radius": 0.5319945758192113,
+        "subweave_mayer_spectral_radius": 0.2830182287010636,
+        "subweave_spectral_gap": 0.7169817712989364,
+        "subweave_fredholm_det_at_s1": 1.3418846226499288
+      },
+      "X0": {
+        "index_d": 3,
+        "trivial_lambda1": 1.0000000000000073,
+        "trivial_lambda2_wirsing_sq": 0.0922112193297167,
+        "subweave_gauss_spectral_radius": 0.5319945758192113,
+        "subweave_mayer_spectral_radius": 0.2830182287010636,
+        "subweave_spectral_gap": 0.7169817712989364,
+        "subweave_fredholm_det_at_s1": 1.3418846226499288
+      }
+    },
+    {
+      "N": 3,
+      "X1": {
+        "index_d": 4,
+        "trivial_lambda1": 1.000000000000007,
+        "trivial_lambda2_wirsing_sq": 0.09221121932971715,
+        "subweave_gauss_spectral_radius": 0.4952213808771758,
+        "subweave_mayer_spectral_radius": 0.24524421607789687,
+        "subweave_spectral_gap": 0.7547557839221031,
+        "subweave_fredholm_det_at_s1": 1.3222753986745173
+      },
+      "X0": {
+        "index_d": 4,
+        "trivial_lambda1": 1.000000000000007,
+        "trivial_lambda2_wirsing_sq": 0.09221121932971715,
+        "subweave_gauss_spectral_radius": 0.4952213808771758,
+        "subweave_mayer_spectral_radius": 0.24524421607789687,
+        "subweave_spectral_gap": 0.7547557839221031,
+        "subweave_fredholm_det_at_s1": 1.3222753986745173
+      }
+    },
+    {
+      "N": 4,
+      "X1": {
+        "index_d": 6,
+        "trivial_lambda1": 1.0000000000000075,
+        "trivial_lambda2_wirsing_sq": 0.09221121932971689,
+        "subweave_gauss_spectral_radius": 0.531994575819214,
+        "subweave_mayer_spectral_radius": 0.2830182287010642,
+        "subweave_spectral_gap": 0.7169817712989358,
+        "subweave_fredholm_det_at_s1": 1.6472231479301804
+      },
+      "X0": {
+        "index_d": 6,
+        "trivial_lambda1": 1.0000000000000075,
+        "trivial_lambda2_wirsing_sq": 0.09221121932971689,
+        "subweave_gauss_spectral_radius": 0.531994575819214,
+        "subweave_mayer_spectral_radius": 0.2830182287010642,
+        "subweave_spectral_gap": 0.7169817712989358,
+        "subweave_fredholm_det_at_s1": 1.6472231479301804
+      }
+    },
+    {
+      "N": 5,
+      "X1": {
+        "index_d": 12,
+        "trivial_lambda1": 1.0000000000000075,
+        "trivial_lambda2_wirsing_sq": 0.09221121932971699,
+        "subweave_gauss_spectral_radius": 0.5700414392774963,
+        "subweave_mayer_spectral_radius": 0.32494724249356,
+        "subweave_spectral_gap": 0.67505275750644,
+        "subweave_fredholm_det_at_s1": 1.1990952183128336
+      },
+      "X0": {
+        "index_d": 6,
+        "trivial_lambda1": 1.000000000000008,
+        "trivial_lambda2_wirsing_sq": 0.0922112193297172,
+        "subweave_gauss_spectral_radius": 0.489224685894491,
+        "subweave_mayer_spectral_radius": 0.239340793288563,
+        "subweave_spectral_gap": 0.760659206711437,
+        "subweave_fredholm_det_at_s1": 1.2040809572509101
+      }
+    },
+    {
+      "N": 6,
+      "X1": {
+        "index_d": 12,
+        "trivial_lambda1": 1.0000000000000075,
+        "trivial_lambda2_wirsing_sq": 0.09221121932971695,
+        "subweave_gauss_spectral_radius": 0.5319945758192127,
+        "subweave_mayer_spectral_radius": 0.28301822870106386,
+        "subweave_spectral_gap": 0.7169817712989361,
+        "subweave_fredholm_det_at_s1": 1.6608555708687407
+      },
+      "X0": {
+        "index_d": 12,
+        "trivial_lambda1": 1.0000000000000075,
+        "trivial_lambda2_wirsing_sq": 0.09221121932971695,
+        "subweave_gauss_spectral_radius": 0.5319945758192127,
+        "subweave_mayer_spectral_radius": 0.28301822870106386,
+        "subweave_spectral_gap": 0.7169817712989361,
+        "subweave_fredholm_det_at_s1": 1.6608555708687407
+      }
+    },
+    {
+      "N": 7,
+      "X1": {
+        "index_d": 24,
+        "trivial_lambda1": 1.0000000000000073,
+        "trivial_lambda2_wirsing_sq": 0.09221121932971708,
+        "subweave_gauss_spectral_radius": 0.5357355354711271,
+        "subweave_mayer_spectral_radius": 0.2870125639665353,
+        "subweave_spectral_gap": 0.7129874360334647,
+        "subweave_fredholm_det_at_s1": 1.5480314162928628
+      },
+      "X0": {
+        "index_d": 8,
+        "trivial_lambda1": 1.0000000000000073,
+        "trivial_lambda2_wirsing_sq": 0.09221121932971703,
+        "subweave_gauss_spectral_radius": 0.47016589245500456,
+        "subweave_mayer_spectral_radius": 0.22105596642801234,
+        "subweave_spectral_gap": 0.7789440335719877,
+        "subweave_fredholm_det_at_s1": 1.3828071381635718
+      }
+    }
+  ],
+  "R10B_isogeny_ray_singer_minima": [
+    {
+      "N": 2,
+      "fricke_tau_imag": 0.7071067811865476,
+      "V_fricke": 1.1349408806990395,
+      "fricke_grad_norm": 0.0,
+      "fricke_hessian_diag_dxx_dyy": [
+        -1.0395418327827204,
+        3.0395418327938053
+      ],
+      "fricke_is_local_min": false,
+      "global_min_tau": [
+        -0.5,
+        0.5
+      ],
+      "V_global_min": 1.054688280995672,
+      "global_min_grad_norm": 1.8306364353717248e-29
+    },
+    {
+      "N": 3,
+      "fricke_tau_imag": 0.5773502691896257,
+      "V_fricke": 1.2645683361492637,
+      "fricke_grad_norm": 4.513898307157584e-36,
+      "fricke_hessian_diag_dxx_dyy": [
+        -2.4656370903489004,
+        5.465637090377984
+      ],
+      "fricke_is_local_min": false,
+      "global_min_tau": [
+        -0.5,
+        0.28867513459481287
+      ],
+      "V_global_min": 1.033519275962615,
+      "global_min_grad_norm": 4.754791757352273e-27
+    },
+    {
+      "N": 4,
+      "fricke_tau_imag": 0.5,
+      "V_fricke": 1.4012618712756446,
+      "fricke_grad_norm": 3.009265538105056e-36,
+      "fricke_hessian_diag_dxx_dyy": [
+        -4.385690599297676,
+        8.385690599357282
+      ],
+      "fricke_is_local_min": false,
+      "global_min_tau": [
+        -0.3727588662340775,
+        0.16193642312114379
+      ],
+      "V_global_min": 1.0460806338289277,
+      "global_min_grad_norm": 3.047011965015478e-35
+    },
+    {
+      "N": 5,
+      "fricke_tau_imag": 0.4472135954999579,
+      "V_fricke": 1.5368891192045164,
+      "fricke_grad_norm": 6.018531076210112e-36,
+      "fricke_hessian_diag_dxx_dyy": [
+        -6.710926025393888,
+        11.710926025498807
+      ],
+      "fricke_is_local_min": false,
+      "global_min_tau": [
+        -0.4,
+        0.2
+      ],
+      "V_global_min": 1.054688280995672,
+      "global_min_grad_norm": 2.1818632372459727e-35
+    },
+    {
+      "N": 6,
+      "fricke_tau_imag": 0.408248290463863,
+      "V_fricke": 1.6692207536677985,
+      "fricke_grad_norm": 9.027796614315168e-36,
+      "fricke_hessian_diag_dxx_dyy": [
+        -9.391698219438576,
+        15.391698219605454
+      ],
+      "fricke_is_local_min": false,
+      "global_min_tau": [
+        -0.37852085824196213,
+        0.1529334055804521
+      ],
+      "V_global_min": 1.0451863173516323,
+      "global_min_grad_norm": 1.8196105800956468e-35
+    },
+    {
+      "N": 7,
+      "fricke_tau_imag": 0.37796447300922725,
+      "V_fricke": 1.7976694607397348,
+      "fricke_grad_norm": 1.8055593228630336e-35,
+      "fricke_hessian_diag_dxx_dyy": [
+        -12.394808660632254,
+        19.39480866087938
+      ],
+      "fricke_is_local_min": false,
+      "global_min_tau": [
+        -0.35714285714285715,
+        0.12371791482634838
+      ],
+      "V_global_min": 1.033519275962615,
+      "global_min_grad_norm": 1.7845710139555203e-35
+    }
+  ],
+  "R10C_marked_torsion_ray_singer_X1_minima": [
+    {
+      "N": 2,
+      "omega1_index": 3,
+      "winning_sheet": [
+        1,
+        1
+      ],
+      "tau0_star_in_F": [
+        2.3879312850786236e-79,
+        1.7320508075688772
+      ],
+      "abs_tau0_star_sq": 3.0,
+      "V_X1_global_min": 0.3403720954026698,
+      "grad_norm": 7.227489400211608e-32,
+      "hessian_min_eig": 0.16666666666654031,
+      "spontaneously_breaks_re_tau_0_and_half": false
+    },
+    {
+      "N": 3,
+      "omega1_index": 4,
+      "winning_sheet": [
+        1,
+        1
+      ],
+      "tau0_star_in_F": [
+        0.5,
+        0.8660254037844386
+      ],
+      "abs_tau0_star_sq": 1.0,
+      "V_X1_global_min": 0.8504172278512635,
+      "grad_norm": 0.07905616950730199,
+      "hessian_min_eig": -366204956574.30164,
+      "spontaneously_breaks_re_tau_0_and_half": false
+    },
+    {
+      "N": 4,
+      "omega1_index": 6,
+      "winning_sheet": [
+        2,
+        1
+      ],
+      "tau0_star_in_F": [
+        -0.5,
+        1.909577241391726
+      ],
+      "abs_tau0_star_sq": 3.8964852408412347,
+      "V_X1_global_min": 0.3529581175712381,
+      "grad_norm": 4.7739646773335555e-33,
+      "hessian_min_eig": 0.00048594625457051274,
+      "spontaneously_breaks_re_tau_0_and_half": false
+    },
+    {
+      "N": 5,
+      "omega1_index": 12,
+      "winning_sheet": [
+        2,
+        2
+      ],
+      "tau0_star_in_F": [
+        0.11220419602202969,
+        0.9936851706627456
+      ],
+      "abs_tau0_star_sq": 1.0,
+      "V_X1_global_min": 0.42119146072493824,
+      "grad_norm": 5.695696404866594e-38,
+      "hessian_min_eig": 0.008343092423946388,
+      "spontaneously_breaks_re_tau_0_and_half": true
+    },
+    {
+      "N": 6,
+      "omega1_index": 12,
+      "winning_sheet": [
+        3,
+        2
+      ],
+      "tau0_star_in_F": [
+        1.894582881676184e-41,
+        1.8428137562098523
+      ],
+      "abs_tau0_star_sq": 3.395962540076265,
+      "V_X1_global_min": 0.3475096603668231,
+      "grad_norm": 1.4105932504018691e-37,
+      "hessian_min_eig": 0.059292885613692385,
+      "spontaneously_breaks_re_tau_0_and_half": false
+    },
+    {
+      "N": 7,
+      "omega1_index": 24,
+      "winning_sheet": [
+        3,
+        3
+      ],
+      "tau0_star_in_F": [
+        0.07962220871488526,
+        1.480520683135701
+      ],
+      "abs_tau0_star_sq": 2.1982811893132395,
+      "V_X1_global_min": 0.38749098279023714,
+      "grad_norm": 4.794375842615255e-38,
+      "hessian_min_eig": 0.11994562224172514,
+      "spontaneously_breaks_re_tau_0_and_half": true
+    }
+  ]
+}

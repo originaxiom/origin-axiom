@@ -1,0 +1,205 @@
+{
+  "certificate_version": "4.0.0",
+  "generated_at_utc": "2026-11-11T08:09:30.112150+00:00",
+  "python_version": "3.12.1",
+  "platform": "macOS-15.1-x86_64-i386-64bit",
+  "audited_repository_pins": {
+    "origin_main_audit_snapshot": "ab97082c03fe6946a80f8ab5e51e6ec847677679",
+    "origin_cld_cool_hamilton_stage1": "e7703f2ec16ca0a6f5c1e117329bea19a6570e61",
+    "origin_chat1_web_seat_stage1": "a711bd189d4cdf197492ad6d9a121a48e6bf2d14",
+    "stage3_preserved_branch_head": "55aa4c69a274ce7e2b5c7bf5d62079a135780f74",
+    "stage4_origin_main_base": "015be0cc7cfb57a69430a9710fb01c754b53583e",
+    "stage4_advisor_seat_head": "6ab7439073a27bc38da7aa44ed80744ec2a5b221",
+    "stage4_web_seat_head": "78605086e86fa11ce47998b8b3ff75773ccacb58",
+    "stage4_execution_branch_commit_a_b1881": "8aafb69456d191ee46a3b0d064cc1498de435888",
+    "stage4_execution_branch_head": "39a5ab4f4ee5bff39ea4a601ee224e1fcc819ff7",
+    "core_prototype_main_head": "7481b4a7bd62c05392bf635d7f6c5f9421de1192",
+    "reference_clone_audit_clean": true,
+    "reference_clone_distill_clean": true,
+    "stage4_branch_clean": true,
+    "core_prototype_clean": true
+  },
+  "stage2_workstream_summary": {
+    "WS5_p670_jtheta_sweep": "101 files swept (40 variable-order classified; B1678 s5_theta.py 2*tau half-strip hazard caught; B1821 cm_zero_line T-shift verified)",
+    "WS4_gate_hardening_and_e3": "43/43 controls + planted violations caught (0 false positives); 214 live ARTIFACT_HASHES audited (34 SHA mismatches, 22 missing targets); E3 scope patches generated",
+    "WS3_p769_and_p770": "P-769 1-tick vs 2-acts ruling table + odd-length exclusion & 31-involution McKay obstruction; P-770 S-duality + Fricke crossover alpha(sqrt(N))",
+    "WS2_subweave_r10": "Infinite-PSL2Z Schreier generation of +-Gamma_1(5); R10-A Mayer-Selberg N=5 extremality; R10-B Fricke saddle/circle theorem; R10-C X_1(5) first spontaneous Re(tau)!=0,1/2 vacuum",
+    "WS1_cc_relay_hygiene": "relays/audit_2026-11-10_zero_trust/AUDIT_SEAT_TO_CC_2026-11-10.md verified clean across all 7 live origin/main hygiene gates"
+  },
+  "stage3_execution_summary": {
+    "preserved_branch": "agy/stage3-execution-2026-11-11 (55aa4c69a on b28dceea8)",
+    "B1877_B1878_B1879": "Pre-Review-78 baseline enforcement closure, P-769/P-770/P-775 proofs, and R10-A/B/C whole-subweave read-out"
+  },
+  "stage4_execution_summary": {
+    "branch": "agy/stage4-sync-2026-11-11 rebased onto live origin/main @ 015be0cc7 (Review 78 = B1877, P-767 first landing = B1878)",
+    "live_gates": "53/53 PASS (exit 0, 0 waivers across append-only, seal-immutable, artifact-hashes, closure-generated, arrival-phrases, pretense-phrases)",
+    "B1879_reaudit2_and_reaudit3_closure": "Closed all Re-Audit 2 (s2, s3, s4, a1, p2) + Re-Audit 3 (t3 decoy resolution, t4 frozen broken-script disk lock, t7 79 secondary hash lists, j4 REAUDIT_2 transcription rule 21 + BEARS_ON E2/L6/V4) + planted_violations.py 21/21 (incl. leaf PV14) + Review 78 append-only reader fixes + X3/L6/L10 + P-154 DONE + P-670 101-file holomorphic jtheta sweep DONE",
+    "B1880_p769_weave_theorems_p770_p775": "Complete P-769 weave-theorem restatement (#1 in line on 015be0cc7: Two-Tick Bijection {F,F'}^{2k} -> {L,R}^{2k} & Odd-Tick Coset across all 46 weave nodes + B1859/B1866/B1872, 8 mirror walls, Debts 1-3), P-770 DONE, P-775 DONE, and independent verification/harvest of web seat whole_level5_facts (4965845af) & value card (78605086e)",
+    "B1881_sealed_p776_twin_odd_maass_operator": "Two-commit sealed P-776 execution (Commit A 8aafb6945 -> Commit B): SL_2(Z) Hejhal benchmark R_1^-=9.53369526135; 27 states (15 newforms, 0 oldforms) in L^2_cusp(Gamma_0(5), chi_5) for R in [0.8, 11.0]; ground state Class A Q(sqrt 5) singleton R_1 = pi/(2 ln phi) = 3.264251302636499 (2.22e-15, eps_J=eps_5=-1), lowest Class B Kramers doublet R_2 = 4.893781291438453 (split 8.88e-16); unique global peak on C_0 at tau_Maass* = 0.251539778829130 + 0.369767144294671i; out of sample 2/96 unmodified FR-FIB H=I pass under (S,S,S) at L_2 on cusp-0 twin lines (1/5,0) and (2/5,0) while 0/96 pass under (St,S,S); conditional weave result (0 of 19)",
+    "adversarial_plant_suites": "planted_violations.py 21/21 CAUGHT (0 NOT CAUGHT, incl. leaf PV14); further_plants.py 9/9 unwaived CAUGHT (w1, w2 loud waivers); reaudit3/plants.py t1..t9 ALL CAUGHT, j1..j5 ALL REFUSED, w1..w2 loud waivers",
+    "origin_axiom_core_prototype": "Standalone 328 KB distilled verification package (Guardrails 1-6 + THM-CORE-01..06): ============================== 6 passed in 6.39s ==============================="
+  },
+  "pytest_summary": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python3 -B -m pytest -v",
+    "return_code": 0,
+    "tail_line": "=================== 39 passed, 1 warning in 67.49s (0:01:07) ==================="
+  },
+  "rge_benchmarks": {
+    "buttazzo_2013_log10_mu0_lam_zero": 9.643524176603353,
+    "buttazzo_2013_log10_Lambda_B_barrier": 10.252077945691212,
+    "buttazzo_2013_log10_Lambda_I_instability": 10.362190289505087,
+    "rk4_t2pi_vs_dop853_rel_err_at_1e9_GeV": 2.2724039258936795e-12
+  },
+  "referee_theorem_results": {
+    "2A_parabolic_lorentzian_boundary": {
+      "lorentzian_det": -2.0,
+      "max_real_root": 1.618033988749895,
+      "residual": 5.551115123125783e-16
+    },
+    "2A_weave_semigroup_commutator_crt": {
+      "distinct_words_up_to_8": 510.0,
+      "sl2_z3_order": 24.0,
+      "sl2_z5_order": 120.0,
+      "residual": 0.0
+    },
+    "2A_b1859_metallic_mckay_doors": {
+      "order_m1": 120.0,
+      "order_m2": 32.0,
+      "order_m4": 120.0,
+      "door_count": 2.0,
+      "residual": 0.0
+    },
+    "2A_b1815_minkowski_exit_law": {
+      "asymmetric_control_defect": 0.0125,
+      "p_positive_at_quarter": 0.75,
+      "residual": 0.0
+    },
+    "2B_hyperbolic_volumes_snappy_b1852": {
+      "vol_bloch_wigner": 2.0298832128193074,
+      "vol_snappy_m004": 2.029883212819307,
+      "l6rlr_trace": 22.0,
+      "residual": 4.440892098500626e-16
+    },
+    "2C_e8_e6_f4_cascade_cl6": {
+      "e8_root_count": 240.0,
+      "e6_root_count": 72.0,
+      "f4_root_count": 48.0,
+      "so6_j_centralizer_dim": 9.0,
+      "residual": 0.0
+    },
+    "2C_b862_p604_global_form_z6k": {
+      "kernel_order_k1": 6.0,
+      "kernel_order_k2": 12.0,
+      "kernel_order_k5": 30.0,
+      "residual": 1.1014548776725543e-14
+    },
+    "2D_analytic_theta_triplet_identities": {
+      "tested_points": 4.0,
+      "residual": 8.080694247494899e-51
+    },
+    "2D_explicit_dirac_pct_parity": {
+      "eig_P": -1.0,
+      "eig_C": 1.0,
+      "eig_T": -1.0,
+      "cpt_product": 1.0,
+      "residual": 0.0
+    },
+    "3A_p670_sheet_jump_quantification": {
+      "ckm_l1_shift_at_tau_1p5": 0.0006566616750672792,
+      "sv_ratio_l1_shift_at_tau_1p5": 0.001359592244966108,
+      "a0_sheet_flip_magnitude": 2.0,
+      "residual": 6.210979122160071e-46
+    },
+    "4A_b1866_metaplectic_chi9_and_signs": {
+      "weave_group_order": 96.0,
+      "oneform_group_order": 24.0,
+      "stabiliser_sign_L2": -0.9999999999999996,
+      "stabiliser_sign_S": 0.9999999999999998,
+      "residual": 6.010984557184401e-16
+    },
+    "4B_p746_kahler_yukawa_invariance": {
+      "top_sv_invariant": 0.12548966478024384,
+      "abs_jarlskog": 4.870665681156887e-47,
+      "residual": 4.629926185987405e-16
+    },
+    "4C_bp1_rademacher_and_bp3_ruelle": {
+      "psi_l4rlr": 3.0,
+      "psi_l6rlr": 5.0,
+      "ruelle_lambda1": 1.000000000000002,
+      "wirsing_lambda2": -0.3036630028986556,
+      "residual": 7.704947790898586e-14
+    },
+    "WS5_p670_full_sweep_b1678_and_cm_t_shift": {
+      "residual": 4.0682323066590176e-40,
+      "bilateral_vs_producer_max_diff": 2.300367188509942e-41,
+      "sheet_law_max_diff": 2.608078597638145e-41,
+      "jacobi_quartic_outside_strip_diff": 3.595923339664472e-41,
+      "b1678_half_strip_bug_confirm_diff": 2.545912049023265e-41,
+      "b1678_half_strip_fixed_diff": 3.538928670818671e-41,
+      "cm_d15_t_shift_analytic_diff": 4.0682323066590176e-40
+    },
+    "WS4_e3_weil_parity_superselection": {
+      "residual": 5.901165900158057e-16,
+      "sl2_f5_homomorphism_err": 5.901165900158057e-16,
+      "rho_minus_I_eigenvalue_err": 4.440892098500626e-16,
+      "unselected_state_overlap": 1.3877787807814457e-17,
+      "run6_defect_plus_I_err": 0.0
+    },
+    "WS3_p769_root_tick_vs_two_acts_and_p770": {
+      "residual": 4.440892098500626e-16,
+      "vol_m000_vs_bloch_wigner_diff": 2.220446049250313e-16,
+      "vol_m004_vs_2x_m000_diff": 4.440892098500626e-16,
+      "sl2_f3_surjection_count_diff": 0.0,
+      "mod5_mckay_involution_diff": 0.0,
+      "even_length_bijection_diff": 0.0,
+      "p770_s_duality_axis_diff": 2.220446049250313e-16
+    },
+    "WS2_r10_subweave_mayer_kronecker_and_x1": {
+      "residual": 3.9898639947466563e-14,
+      "weave_sl2z_factorization_err": 0.0,
+      "mayer_lambda1_err": 8.881784197001252e-16,
+      "mayer_wirsing_sq_err": 3.9898639947466563e-14,
+      "mayer_legendre_vs_chebyshev_subweave_err": 9.43689570931383e-16,
+      "kronecker_siegel_factorization_max_err": 1.1754943508222875e-38,
+      "r10b_fricke_stationarity_max_err": 1.7632415262334313e-38,
+      "r10b_gamma0_fricke_invariance_err": 2.0571151139390031e-38,
+      "r10c_gamma1_invariance_err": 1.2930437859045163e-37,
+      "r10c_siegel_harmonic_laplacian_err": 4.568033461759782e-24,
+      "r10c_x1_5_unit_circle_norm_err": 5.421949041125983e-20
+    }
+  },
+  "referee_suite_count": 17,
+  "max_theorem_residual_across_all_suites": 7.704947790898586e-14,
+  "file_sha256_digests": {
+    "pyproject.toml": "efef771a4bbfc4f55ae63361e713b7c671f1efdf72e3328454491b8e6b8454f0",
+    "relays/audit_2026-11-10_zero_trust/AUDIT_SEAT_TO_CC_2026-11-10.md": "86533b0f462bec9df9e13d7c1906adc3b6ab26850a4ba576de5065032846a0fe",
+    "reports/01_ORIGIN_AXIOM_CRYSTAL_CLEAR_XRAY.md": "4535b1a4a9064e2d7ebb83b022f20cf6b6912f24949f4b2be2e3a359c2334c68",
+    "reports/02_ZERO_TRUST_FULL_AUDIT_AND_VERIFICATION_PLAN.md": "0f70bb6dc57729c5fb9e685ccfe7b6c10407f2041d73ce4207798ccb8bc5d1c4",
+    "reports/03_STRATEGIC_OPINION_BREAKTHROUGH_VECTORS_AND_PUBLIC_REPO_BLUEPRINT.md": "f7d76f1d585535c8b0daa77c445a755af8dde6476ef2ecfb9d825905e635aebb",
+    "reports/04_FULL_ZERO_TRUST_AUDIT_EXECUTION_REPORT.md": "9d996aa56d670ee495ad2167d485afef111e7d75470fe49b8a1337b9c9e42b19",
+    "reports/ARTIFACT_HASHES_LIVE_AUDIT.json": "23602949f6ef8d60011a1500ce3e3229d03ed49e521198223588e700f1ff76f9",
+    "reports/E3_PROPAGATION_PATCHES.md": "d5c79852cb1916a07b5b2a5899528f255cc36d27cc3197cb0a7f60ee8c8ac6dd",
+    "reports/P670_COMPLETE_SWEEP_LEDGER.json": "f258f53acd85cb0dd8e6a9349432a4328f121364ad433430f623b8d207d4751a",
+    "reports/WS2_R10_SUBWEAVE_READOUT_REPORT.json": "c0a30537117de2e2119110a3929142d14d8c0b1a23cc9e1645948c06bbb6a0ba",
+    "reports/WS3_P769_AND_P770_RULING_REPORT.json": "2ccdc5f196ab15be027487f10c6ca26f286b9ce4a5625975867c82cb5e5a8f9b",
+    "requirements-core.lock": "9ce2f4c989e4ba7faf865bc88d92345267b6ab0dda939b6c3786a536c174cf1d",
+    "requirements-topology.lock": "67ce02411fe3c5aea9d711988272769ef33bf4c6c8b8f8c6d0f137119cea834e",
+    "scripts/generate_verification_certificate.py": "5ec6d89d2a2a617691b261d664209648830a7c003ff6d59590b3eea908e0c27c",
+    "src/guardrail_dsl_v12.py": "433d464dc040edeceb4de7a81ebaf0fa86a9fe5edeeb52830cba818549f23ca6",
+    "src/ws2_subweave_r10_spectral_and_arakelov.py": "ce6c9498e118f29544b111ba413b9d49af4bdfa1f279986d51bdf6676e9ec2b2",
+    "src/ws3_p769_root_tick_vs_two_acts_and_p770.py": "f9fe832f40dd3841399a025cecb18451fee41d312fda8ede3432031e21841a8d",
+    "src/ws4_gate_hardening_v2.py": "0e8e2539b48dff34f249eb1deabad98722094e2a35d391b5ba0adbe894688d09",
+    "src/ws5_p670_full_sweep_and_analytic_fix.py": "5da2b214e138c24de080cf7cb92596d9d85e0e210c6c23914dd456c40fc3c7cd",
+    "tests/test_phase0_cleanroom_audit.py": "5857284308d686cb56509613c0d4225dfc1113c4fa21deb30ad24087666091cd",
+    "tests/test_phase1_guardrail_dsl_v12.py": "814ab5d23bd36c51ac43b730664f5bc4df71abc54764531a4910ff8e19bf1dab",
+    "tests/test_phase2_pure_math_spine.py": "be5fc0433bb5dbec6bd6648acca329c7075ae6813fd6e0c1c4811844becce4fb",
+    "tests/test_phase3_bugs_and_rge_benchmarks.py": "d2ac43abe75da3cddb59ae45f83b439d4ff52df84ea940b3929dc69d89e43fdc",
+    "tests/test_phase4_controls_breakthroughs_and_mdl.py": "e04a9ba35d70031d6c097f0bcedda321eacb369254589186a868750ef96bec01",
+    "tests/test_ws1_relay_hygiene_gates.py": "dea28021b51cd41bb094d920ed283c91c55a7ba0ef078f8ae5c6e0ea4454f4a3",
+    "tests/test_ws2_subweave_r10_readouts.py": "fdbf01b56d01f9a7d96bf932382d61e04379cde3ede5527edd6c4ceec59b588c",
+    "tests/test_ws3_p769_and_p770.py": "4c7279891e2940a971a64fcf901d65191bd1f277c993c71e5e4f6fe222e99c24",
+    "tests/test_ws4_all_38_plants_sealed.py": "9ec04ba3fda1736c984c0256e98d63ecbb363e194d3de451aad7e939141def7f",
+    "tests/test_ws5_p670_closure.py": "a328fb2e33ea1276dac1da558fb84283631c4dce7c9494bb6859ed02fde03bac"
+  },
+  "certificate_self_sha256": "9126986518b8d472304d874ec32324badce904c8892b8012381e2a0dbf295db2"
+}

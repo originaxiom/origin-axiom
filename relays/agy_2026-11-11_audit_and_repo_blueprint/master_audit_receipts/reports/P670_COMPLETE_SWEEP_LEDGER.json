@@ -1,0 +1,1395 @@
+{
+  "audited_ref": "origin/main",
+  "audited_commit": "ab97082c03fe6946a80f8ab5e51e6ec847677679",
+  "total_jtheta_py_files": 101,
+  "bucket_counts": {
+    "direct_12": 34,
+    "variable_order": 40,
+    "safe_34_only": 22,
+    "non_call_mention": 5
+  },
+  "variable_order_verdict_breakdown": {
+    "SAFE_COMMITTED_STRIP_LATENT_HELPER": 32,
+    "SAFE_INTENTIONAL_CONTROL": 1,
+    "FIXED_EXPLICIT_Q4_SHIFT": 4,
+    "BOUNDARY_HAZARD_DOUBLED_TAU": 1,
+    "SAFE_DOCSTRING_PSEUDOCALL": 2
+  },
+  "entries": [
+    {
+      "file": "frontier/B1634_w50_on_main/verification/post_seal_w50.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "2",
+        "n"
+      ],
+      "detected_mpc_reals": [
+        0.13,
+        -0.31,
+        0.4,
+        0.8,
+        -0.7,
+        0.05
+      ],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1634_w50_on_main/verification/w50_on_main.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "n"
+      ],
+      "detected_mpc_reals": [
+        0.13,
+        -0.31
+      ],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1650_chat1s_field_and_scale_notes_verified/verification/main_recheck.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "n"
+      ],
+      "detected_mpc_reals": [
+        0.13,
+        -0.31,
+        0.4,
+        0.0
+      ],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1650_chat1s_field_and_scale_notes_verified/verification/test_b1650_chat1s_field_notes_verified.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "n"
+      ],
+      "detected_mpc_reals": [
+        0.21
+      ],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1651_where_a_higgs_can_couple/verification/controls.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "n",
+        "2",
+        "4",
+        "3"
+      ],
+      "detected_mpc_reals": [
+        0.11,
+        0.3,
+        -0.7,
+        1.37,
+        0.3
+      ],
+      "verdict": "SAFE_INTENTIONAL_CONTROL",
+      "note": "Compares mp.jtheta inside |Re(tau)|=0.11 and tests explicit series at Re(tau)=1.37."
+    },
+    {
+      "file": "frontier/B1651_where_a_higgs_can_couple/verification/szego_check.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "n",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.0,
+        0.3,
+        -0.2,
+        0.31,
+        1.1
+      ],
+      "verdict": "FIXED_EXPLICIT_Q4_SHIFT",
+      "note": "Routes n in {3,4} to mp.jtheta and shifts n in {1,2} with explicit exp(i*pi*tau/4)."
+    },
+    {
+      "file": "frontier/B1651_where_a_higgs_can_couple/verification/where_a_higgs_couples.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "n",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.13
+      ],
+      "verdict": "FIXED_EXPLICIT_Q4_SHIFT",
+      "note": "Routes n in {3,4} to mp.jtheta and shifts n in {1,2} with explicit exp(i*pi*tau/4)."
+    },
+    {
+      "file": "frontier/B1653_the_rank_of_a_point_coupling/design_v1/the_rank_of_a_point_coupling_v2.py",
+      "bucket": "safe_34_only",
+      "first_arg_tokens": [
+        "3",
+        "4",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.0,
+        0.13,
+        -0.31,
+        0.21,
+        0.33,
+        -0.4
+      ],
+      "verdict": "SAFE_THETA_3_4_INTEGER_POWERS",
+      "note": "Calls only jtheta(3, ...) / jtheta(4, ...), which expand in integer powers of q = exp(i*pi*tau)."
+    },
+    {
+      "file": "frontier/B1653_the_rank_of_a_point_coupling/design_v1/twisted_zero_mode_v1.py",
+      "bucket": "safe_34_only",
+      "first_arg_tokens": [
+        "3",
+        "4",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.0,
+        0.13,
+        -0.31,
+        0.21,
+        0.33,
+        -0.4
+      ],
+      "verdict": "SAFE_THETA_3_4_INTEGER_POWERS",
+      "note": "Calls only jtheta(3, ...) / jtheta(4, ...), which expand in integer powers of q = exp(i*pi*tau)."
+    },
+    {
+      "file": "frontier/B1653_the_rank_of_a_point_coupling/verification/before_the_seal/review/rv3_check2.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "n",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.0,
+        0.13,
+        -0.31,
+        0.21,
+        0.33,
+        -0.4
+      ],
+      "verdict": "FIXED_EXPLICIT_Q4_SHIFT",
+      "note": "Routes n in {3,4} to mp.jtheta and shifts n in {1,2} with explicit exp(i*pi*tau/4)."
+    },
+    {
+      "file": "frontier/B1653_the_rank_of_a_point_coupling/verification/before_the_seal/review/rv_check3.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "n",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.13,
+        0.6,
+        -0.31
+      ],
+      "verdict": "FIXED_EXPLICIT_Q4_SHIFT",
+      "note": "Routes n in {3,4} to mp.jtheta and shifts n in {1,2} with explicit exp(i*pi*tau/4)."
+    },
+    {
+      "file": "frontier/B1653_the_rank_of_a_point_coupling/verification/the_rank_of_a_point_coupling.py",
+      "bucket": "safe_34_only",
+      "first_arg_tokens": [
+        "3",
+        "4",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.0,
+        0.13,
+        -0.31,
+        0.21,
+        0.33,
+        -0.4
+      ],
+      "verdict": "SAFE_THETA_3_4_INTEGER_POWERS",
+      "note": "Calls only jtheta(3, ...) / jtheta(4, ...), which expand in integer powers of q = exp(i*pi*tau)."
+    },
+    {
+      "file": "frontier/B1654_the_norm_of_the_boundary_class/design_v1/the_norm_of_the_boundary_class_v1.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "1",
+        "r",
+        "r",
+        "1",
+        "r",
+        "1",
+        "r",
+        "r"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1654_the_norm_of_the_boundary_class/verification/before_the_seal/ebar_check.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "1",
+        "r",
+        "r",
+        "1"
+      ],
+      "detected_mpc_reals": [
+        0.13,
+        0.0,
+        0.0
+      ],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1654_the_norm_of_the_boundary_class/verification/before_the_seal/review/s1_conventions.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "r",
+        "r"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1654_the_norm_of_the_boundary_class/verification/before_the_seal/review/s1b_theta_abs.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "r"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1654_the_norm_of_the_boundary_class/verification/before_the_seal/review2/t02_K24.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "r",
+        "1",
+        "r",
+        "r",
+        "1",
+        "r"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1654_the_norm_of_the_boundary_class/verification/before_the_seal/review2/t02b_K24.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "1",
+        "r",
+        "r",
+        "r",
+        "1"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1654_the_norm_of_the_boundary_class/verification/before_the_seal/review2/t05_n0_pairing_bite.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "r",
+        "r",
+        "1"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1654_the_norm_of_the_boundary_class/verification/before_the_seal/review2/t07_W_near0.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "1",
+        "r",
+        "r",
+        "1"
+      ],
+      "detected_mpc_reals": [
+        0.21,
+        0.4,
+        0.0,
+        -0.45
+      ],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1654_the_norm_of_the_boundary_class/verification/before_the_seal/route_b.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "1",
+        "r",
+        "r",
+        "1"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1654_the_norm_of_the_boundary_class/verification/before_the_seal/szego_tame_check.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "r",
+        "1"
+      ],
+      "detected_mpc_reals": [
+        0.13
+      ],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1654_the_norm_of_the_boundary_class/verification/the_norm_of_the_boundary_class.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "1",
+        "r",
+        "r",
+        "1",
+        "r",
+        "1",
+        "r",
+        "r"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1656_the_electrons_zero/design_v1/the_electrons_zero_v1.py",
+      "bucket": "safe_34_only",
+      "first_arg_tokens": [
+        "3",
+        "4",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.0
+      ],
+      "verdict": "SAFE_THETA_3_4_INTEGER_POWERS",
+      "note": "Calls only jtheta(3, ...) / jtheta(4, ...), which expand in integer powers of q = exp(i*pi*tau)."
+    },
+    {
+      "file": "frontier/B1656_the_electrons_zero/verification/the_electrons_zero.py",
+      "bucket": "safe_34_only",
+      "first_arg_tokens": [
+        "3",
+        "4",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.0
+      ],
+      "verdict": "SAFE_THETA_3_4_INTEGER_POWERS",
+      "note": "Calls only jtheta(3, ...) / jtheta(4, ...), which expand in integer powers of q = exp(i*pi*tau)."
+    },
+    {
+      "file": "frontier/B1657_the_symmetric_point/design_v1/the_symmetric_point_v1.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "j",
+        "3"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1657_the_symmetric_point/verification/before_the_seal/review/ind1.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "j",
+        "1",
+        "1",
+        "1"
+      ],
+      "detected_mpc_reals": [
+        0.13,
+        0.13,
+        -0.21,
+        0.33,
+        0.05
+      ],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1657_the_symmetric_point/verification/before_the_seal/review/ind2.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "j",
+        "1"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1657_the_symmetric_point/verification/before_the_seal/review/ind3.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "j",
+        "1"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1657_the_symmetric_point/verification/before_the_seal/review/ind8.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "j",
+        "1"
+      ],
+      "detected_mpc_reals": [
+        0.0,
+        0.0
+      ],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1657_the_symmetric_point/verification/before_the_seal/review/run_copy.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "j",
+        "3"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1657_the_symmetric_point/verification/before_the_seal/review2/my.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "j",
+        "1",
+        "1"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1657_the_symmetric_point/verification/the_symmetric_point.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "j",
+        "j",
+        "3"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1663_the_pull_backs_strength/verification/before_the_seal/motion_defect.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "j"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1664_the_layers/verification/before_the_seal/d_automorphy.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2",
+        "3"
+      ],
+      "detected_mpc_reals": [
+        0.13,
+        -0.31,
+        0.4
+      ],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "frontier/B1664_the_layers/verification/before_the_seal/motion_defect.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "j"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1673_dynamical_selection_cp_violation_and_mass_emergence/verification/main_check/v.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "1"
+      ],
+      "detected_mpc_reals": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "frontier/B1674_the_weaves_anomaly_verified/verification/main_check/v1_independent.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "3",
+        "4",
+        "2) branch defect\nt=mp.mpc(0.3",
+        "2"
+      ],
+      "detected_mpc_reals": [
+        0.13,
+        -0.21,
+        0.31,
+        0.137,
+        -0.3,
+        0.5
+      ],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1674_the_weaves_anomaly_verified/verification/received/the_weaves_anomaly.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.137,
+        -0.284,
+        0.41,
+        0.137,
+        -0.284,
+        0.41
+      ],
+      "verdict": "AFFECTED_DISCLOSED_B1674",
+      "note": "B1674 C1 branch defect disclosed in arc FINDINGS."
+    },
+    {
+      "file": "frontier/B1674_the_weaves_anomaly_verified/verification/received/the_weaves_anomaly_posthoc.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2",
+        "2",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.137,
+        -0.284,
+        0.41
+      ],
+      "verdict": "AFFECTED_DISCLOSED_B1674",
+      "note": "B1674 C1 branch defect disclosed in arc FINDINGS."
+    },
+    {
+      "file": "frontier/B1678_the_lifted_register_verified/verification/main_check/s5_theta.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "k"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "BOUNDARY_HAZARD_DOUBLED_TAU",
+      "note": "Calls th(2, z, 2*tau) via nome exp(i*pi*(2*tau)), shrinking safe domain to |Re(tau)| < 0.5; committed tau=-0.5+i*sqrt(3)/2 hits Re(2*tau)=-1.0 cut boundary and any 0.5 < |Re(tau)| < 1 flips c1/c2 from +1 to -1."
+    },
+    {
+      "file": "frontier/B1691_the_exponents_at_the_two_fixed_points/verification/before_the_instrument/basis_check.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.13,
+        -0.3
+      ],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "frontier/B1691_the_exponents_at_the_two_fixed_points/verification/correction/b1656_funcs.py",
+      "bucket": "safe_34_only",
+      "first_arg_tokens": [
+        "3",
+        "4",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.0
+      ],
+      "verdict": "SAFE_THETA_3_4_INTEGER_POWERS",
+      "note": "Calls only jtheta(3, ...) / jtheta(4, ...), which expand in integer powers of q = exp(i*pi*tau)."
+    },
+    {
+      "file": "frontier/B1692_the_cusp_with_a_twisted_line_per_sector/verification/b1653_funcs.py",
+      "bucket": "safe_34_only",
+      "first_arg_tokens": [
+        "3",
+        "4",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.0
+      ],
+      "verdict": "SAFE_THETA_3_4_INTEGER_POWERS",
+      "note": "Calls only jtheta(3, ...) / jtheta(4, ...), which expand in integer powers of q = exp(i*pi*tau)."
+    },
+    {
+      "file": "frontier/B1692_the_cusp_with_a_twisted_line_per_sector/verification/correction/b1656_funcs.py",
+      "bucket": "safe_34_only",
+      "first_arg_tokens": [
+        "3",
+        "4",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.0
+      ],
+      "verdict": "SAFE_THETA_3_4_INTEGER_POWERS",
+      "note": "Calls only jtheta(3, ...) / jtheta(4, ...), which expand in integer powers of q = exp(i*pi*tau)."
+    },
+    {
+      "file": "frontier/B1694_the_parameter_free_curve/verification/b1656_funcs.py",
+      "bucket": "safe_34_only",
+      "first_arg_tokens": [
+        "3",
+        "4",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.0
+      ],
+      "verdict": "SAFE_THETA_3_4_INTEGER_POWERS",
+      "note": "Calls only jtheta(3, ...) / jtheta(4, ...), which expand in integer powers of q = exp(i*pi*tau)."
+    },
+    {
+      "file": "frontier/B1695_one_line_one_tau_the_unique_section/verification/b1656_funcs.py",
+      "bucket": "safe_34_only",
+      "first_arg_tokens": [
+        "3",
+        "4",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.0
+      ],
+      "verdict": "SAFE_THETA_3_4_INTEGER_POWERS",
+      "note": "Calls only jtheta(3, ...) / jtheta(4, ...), which expand in integer powers of q = exp(i*pi*tau)."
+    },
+    {
+      "file": "frontier/B1696_tau_is_the_cusp_shape/verification/b1656_funcs.py",
+      "bucket": "safe_34_only",
+      "first_arg_tokens": [
+        "3",
+        "4",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.0
+      ],
+      "verdict": "SAFE_THETA_3_4_INTEGER_POWERS",
+      "note": "Calls only jtheta(3, ...) / jtheta(4, ...), which expand in integer powers of q = exp(i*pi*tau)."
+    },
+    {
+      "file": "frontier/B1698_the_order5_lines/verification/b1656_funcs.py",
+      "bucket": "safe_34_only",
+      "first_arg_tokens": [
+        "3",
+        "4",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.0
+      ],
+      "verdict": "SAFE_THETA_3_4_INTEGER_POWERS",
+      "note": "Calls only jtheta(3, ...) / jtheta(4, ...), which expand in integer powers of q = exp(i*pi*tau)."
+    },
+    {
+      "file": "frontier/B1699_the_coupling_strength_and_tau/verification/b1656_funcs.py",
+      "bucket": "safe_34_only",
+      "first_arg_tokens": [
+        "3",
+        "4",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.0
+      ],
+      "verdict": "SAFE_THETA_3_4_INTEGER_POWERS",
+      "note": "Calls only jtheta(3, ...) / jtheta(4, ...), which expand in integer powers of q = exp(i*pi*tau)."
+    },
+    {
+      "file": "frontier/B1701_w63_on_main/verification/b1656_funcs.py",
+      "bucket": "safe_34_only",
+      "first_arg_tokens": [
+        "3",
+        "4",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.0
+      ],
+      "verdict": "SAFE_THETA_3_4_INTEGER_POWERS",
+      "note": "Calls only jtheta(3, ...) / jtheta(4, ...), which expand in integer powers of q = exp(i*pi*tau)."
+    },
+    {
+      "file": "frontier/B1702_the_other_cusp_shapes/verification/b1656_funcs.py",
+      "bucket": "safe_34_only",
+      "first_arg_tokens": [
+        "3",
+        "4",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.0
+      ],
+      "verdict": "SAFE_THETA_3_4_INTEGER_POWERS",
+      "note": "Calls only jtheta(3, ...) / jtheta(4, ...), which expand in integer powers of q = exp(i*pi*tau)."
+    },
+    {
+      "file": "frontier/B1703_the_line_census/verification/b1656_funcs.py",
+      "bucket": "safe_34_only",
+      "first_arg_tokens": [
+        "3",
+        "4",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.0
+      ],
+      "verdict": "SAFE_THETA_3_4_INTEGER_POWERS",
+      "note": "Calls only jtheta(3, ...) / jtheta(4, ...), which expand in integer powers of q = exp(i*pi*tau)."
+    },
+    {
+      "file": "frontier/B1711_the_order9_lines/verification/b1656_funcs.py",
+      "bucket": "safe_34_only",
+      "first_arg_tokens": [
+        "3",
+        "4",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.0
+      ],
+      "verdict": "SAFE_THETA_3_4_INTEGER_POWERS",
+      "note": "Calls only jtheta(3, ...) / jtheta(4, ...), which expand in integer powers of q = exp(i*pi*tau)."
+    },
+    {
+      "file": "frontier/B1712_the_weave_census_of_lines/verification/b1656_funcs.py",
+      "bucket": "safe_34_only",
+      "first_arg_tokens": [
+        "3",
+        "4",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.0
+      ],
+      "verdict": "SAFE_THETA_3_4_INTEGER_POWERS",
+      "note": "Calls only jtheta(3, ...) / jtheta(4, ...), which expand in integer powers of q = exp(i*pi*tau)."
+    },
+    {
+      "file": "frontier/B1713_the_complement_and_the_mixing/verification/b1656_funcs.py",
+      "bucket": "safe_34_only",
+      "first_arg_tokens": [
+        "3",
+        "4",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.0
+      ],
+      "verdict": "SAFE_THETA_3_4_INTEGER_POWERS",
+      "note": "Calls only jtheta(3, ...) / jtheta(4, ...), which expand in integer powers of q = exp(i*pi*tau)."
+    },
+    {
+      "file": "frontier/B1716_the_zeros_derived/verification/b1656_funcs.py",
+      "bucket": "safe_34_only",
+      "first_arg_tokens": [
+        "3",
+        "4",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.0
+      ],
+      "verdict": "SAFE_THETA_3_4_INTEGER_POWERS",
+      "note": "Calls only jtheta(3, ...) / jtheta(4, ...), which expand in integer powers of q = exp(i*pi*tau)."
+    },
+    {
+      "file": "frontier/B1720_the_thread_fixes_the_point/verification/b1656_funcs.py",
+      "bucket": "safe_34_only",
+      "first_arg_tokens": [
+        "3",
+        "4",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.0
+      ],
+      "verdict": "SAFE_THETA_3_4_INTEGER_POWERS",
+      "note": "Calls only jtheta(3, ...) / jtheta(4, ...), which expand in integer powers of q = exp(i*pi*tau)."
+    },
+    {
+      "file": "frontier/B1723_the_golden_valley/verification/b1656_funcs.py",
+      "bucket": "safe_34_only",
+      "first_arg_tokens": [
+        "3",
+        "4",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.0
+      ],
+      "verdict": "SAFE_THETA_3_4_INTEGER_POWERS",
+      "note": "Calls only jtheta(3, ...) / jtheta(4, ...), which expand in integer powers of q = exp(i*pi*tau)."
+    },
+    {
+      "file": "frontier/B1739_the_higgs_is_nearly_null/verification/the_higgs_is_nearly_null.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2",
+        "3",
+        "4",
+        "2",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "frontier/B1790_the_reading_not_derived_in_the_frame/verification/referee/identity.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.3,
+        0.27,
+        -0.41
+      ],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed pts have Re(tau) in {-0.41, 0.27, 0.30} subset (-1, 1); helper unsafe outside (-1, 1)."
+    },
+    {
+      "file": "frontier/B1806_the_third_fixed_point_and_a_proxy_corrected/verification/referee/referee_check.py",
+      "bucket": "non_call_mention",
+      "first_arg_tokens": [],
+      "detected_mpc_reals": [
+        0.0,
+        -0.45,
+        1.0,
+        -0.7,
+        0.8,
+        0.3
+      ],
+      "verdict": "SAFE_NO_CALL",
+      "note": "Docstring, comment, or symbol reference without `jtheta(...)` call."
+    },
+    {
+      "file": "frontier/B1810_the_symmetry_selection_value_table/verification/referee/rf4_route_B.py",
+      "bucket": "non_call_mention",
+      "first_arg_tokens": [],
+      "detected_mpc_reals": [
+        0.0
+      ],
+      "verdict": "SAFE_NO_CALL",
+      "note": "Docstring, comment, or symbol reference without `jtheta(...)` call."
+    },
+    {
+      "file": "frontier/B1810_the_symmetry_selection_value_table/verification/referee/rf_common.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "frontier/B1810_the_symmetry_selection_value_table/verification/symmetry_selection_table.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "frontier/B1821_the_frames_mirror_symmetry_in_re_tau/verification/cm_zero_line.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "HASH_PINNED_LATENT_OUTSIDE_STRIP",
+      "note": "cm_table.py wraps stored Re(tau) into [0, 0.9375], but T-shift tau->tau+1 flips all 9 F_a signs."
+    },
+    {
+      "file": "frontier/B1821_the_frames_mirror_symmetry_in_re_tau/verification/sym_check_relative.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "frontier/B1822_t_norm_on_the_frames_matter/verification/referee/independent.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "1",
+        "3"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "frontier/B1823_step_a_the_tied_heavy_vacuum/verification/main/rerun_arbiter/model.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "frontier/B1823_step_a_the_tied_heavy_vacuum/verification/main/rerun_stableF/model.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "frontier/B1823_step_a_the_tied_heavy_vacuum/verification/model.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "frontier/B1823_step_a_the_tied_heavy_vacuum/verification/referee/rerun/model.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "frontier/B1824_two_declared_directions_are_one/verification/a0_identity_main.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "frontier/B1832_the_agy_lanes_digested/verification/apply/apply_b1832.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.0,
+        0.31
+      ],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "frontier/B1832_the_agy_lanes_digested/verification/frontier/check_b1761_i_residue.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "frontier/B1832_the_agy_lanes_digested/verification/frontier/check_genus3_eta_torsion.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "n"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1832_the_agy_lanes_digested/verification/frontier/check_residue_theta_products.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "a"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1832_the_agy_lanes_digested/verification/phases_t10_t13/c2_modular_identities.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "n"
+      ],
+      "detected_mpc_reals": [
+        0.0,
+        0.31,
+        -0.4,
+        0.13
+      ],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1832_the_agy_lanes_digested/verification/phases_t10_t13/c3d_mirror_matrix_random.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "frontier/B1832_the_agy_lanes_digested/verification/phases_t10_t13/c3e_mirror_per_sector_control_main.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "frontier/B1832_the_agy_lanes_digested/verification/phases_t10_t13/frame_common.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "frontier/B1832_the_agy_lanes_digested/verification/t14_t22/check7_t17_t15C_stage2.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.25,
+        0.0,
+        -0.37
+      ],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "frontier/B1832_the_agy_lanes_digested/verification/t23_t28_relays/c1_t24_flux_casimir.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "1",
+        "1",
+        "p"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "frontier/B1832_the_agy_lanes_digested/verification/test_b1832_the_agy_lanes_digested.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.0,
+        0.31
+      ],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "frontier/B1836_the_seats_past_s300_verified/verification/main/theta2_branch.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "frontier/B1836_the_seats_past_s300_verified/verification/readers/A/c36b_f10_branch.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SAFE_SHEET_LAW_DEMONSTRATION",
+      "note": "Explicitly demonstrates and tests the P-670 (-i)^floor((Re tau+1)/2) sheet jump."
+    },
+    {
+      "file": "frontier/B1837_agy_stages_8_9_and_the_density_higgs/verification/stage9/c5_higgs_identities.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "frontier/B1838_the_end/verification/s304_checks/p3_misc.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2",
+        "1",
+        "1",
+        "2",
+        "2"
+      ],
+      "detected_mpc_reals": [
+        0.0
+      ],
+      "verdict": "SAFE_SHEET_LAW_DEMONSTRATION",
+      "note": "Explicitly demonstrates and tests the P-670 (-i)^floor((Re tau+1)/2) sheet jump."
+    },
+    {
+      "file": "frontier/B1838_the_end/verification/s304_checks/p3b_cross_kernel_on_main.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "1"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "frontier/B639_conjtheta_cubic/b639_conjtheta.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "M) (prereg 7075dd63..."
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SAFE_DOCSTRING_PSEUDOCALL",
+      "note": "Regex matched prose `theta(M)` in docstring; no `mp.jtheta` call."
+    },
+    {
+      "file": "frontier/B639_conjtheta_cubic/b639_repair.py",
+      "bucket": "non_call_mention",
+      "first_arg_tokens": [],
+      "detected_mpc_reals": [],
+      "verdict": "SAFE_NO_CALL",
+      "note": "Docstring, comment, or symbol reference without `jtheta(...)` call."
+    },
+    {
+      "file": "frontier/B639_conjtheta_cubic/b639_stage2.py",
+      "bucket": "non_call_mention",
+      "first_arg_tokens": [],
+      "detected_mpc_reals": [],
+      "verdict": "SAFE_NO_CALL",
+      "note": "Docstring, comment, or symbol reference without `jtheta(...)` call."
+    },
+    {
+      "file": "frontier/B666_leads_campaign/cell8/cell8_fiberpaired.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "M): exact\nrealization via theta_27 o conj"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SAFE_DOCSTRING_PSEUDOCALL",
+      "note": "Regex matched prose `theta(M)` in docstring; no `mp.jtheta` call."
+    },
+    {
+      "file": "frontier/B742_negatives_hunt_p1/recompute/TOMB-L247/recompute.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "1"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "papers/P10_theta_triplet_note/checks/nilpotent.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "k"
+      ],
+      "detected_mpc_reals": [
+        0.3,
+        -0.17,
+        0.45,
+        0.0,
+        0.0
+      ],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "papers/P10_theta_triplet_note/checks/period_phase.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2",
+        "3"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "tests/test_b1634_w50_on_main.py",
+      "bucket": "variable_order",
+      "first_arg_tokens": [
+        "n"
+      ],
+      "detected_mpc_reals": [
+        0.4
+      ],
+      "verdict": "SAFE_COMMITTED_STRIP_LATENT_HELPER",
+      "note": "Committed tau test points lie strictly inside (-1, 1), but helper is unsafe if reused at |Re(tau)| >= 1."
+    },
+    {
+      "file": "tests/test_b1674_the_weaves_anomaly_verified.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [
+        0.1,
+        -0.3
+      ],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "tests/test_b1723_the_golden_valley.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "tests/test_b1824_two_declared_directions_are_one.py",
+      "bucket": "direct_12",
+      "first_arg_tokens": [
+        "2",
+        "3",
+        "4"
+      ],
+      "detected_mpc_reals": [],
+      "verdict": "SWEPT_MAIN_S305",
+      "note": "Direct jtheta(1/2) call site swept in S305."
+    },
+    {
+      "file": "tests/test_b638_b639.py",
+      "bucket": "non_call_mention",
+      "first_arg_tokens": [],
+      "detected_mpc_reals": [],
+      "verdict": "SAFE_NO_CALL",
+      "note": "Docstring, comment, or symbol reference without `jtheta(...)` call."
+    }
+  ]
+}

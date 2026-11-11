@@ -1,0 +1,304 @@
+{
+  "audited_ref": "origin/main",
+  "audited_commit": "ab97082c03fe6946a80f8ab5e51e6ec847677679",
+  "total_manifests": 214,
+  "verified_ok_entries": 1394,
+  "sha256_mismatch_count": 34,
+  "missing_target_count": 22,
+  "sha256_mismatches": [
+    {
+      "manifest": "frontier/B1486_the_two_orders_at_the_silver_members/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B1486_the_two_orders_at_the_silver_members/verification/fused.py",
+      "expected_sha256": "2831b9f2432707a8f917933fa8fa97b8c696628e0d51aea304eb204f91b2cca5",
+      "actual_sha256": "16fc24457ca399bb5f6253663499522346186f3e9d9bf44baaec69fd25300bf4"
+    },
+    {
+      "manifest": "frontier/B1486_the_two_orders_at_the_silver_members/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B1486_the_two_orders_at_the_silver_members/verification/fused_cell.py",
+      "expected_sha256": "dcc8d25271d96653cb5ac6693a5c121e4b692de7e079b163472510755a49b1ca",
+      "actual_sha256": "f2ecb7c0eb59476c7e600141aa77bbf9573c923d173bba90b1b55ce99b437a82"
+    },
+    {
+      "manifest": "frontier/B1490_the_common_cover_verified/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B1490_the_common_cover_verified/verification/common_cover_main.py",
+      "expected_sha256": "aa5c123c74df502890e5c838db44c6a0290d7d405c6b7957cf7a2c6d27786884",
+      "actual_sha256": "e8bf122371c34f6bc52abbc27f8459310a14e14a5565d4261918ae0c018ddda8"
+    },
+    {
+      "manifest": "frontier/B1490_the_common_cover_verified/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B1490_the_common_cover_verified/verification/congruence_level.py",
+      "expected_sha256": "d50a0de5e91c98818d42a828321ecbad93c61810db87a5d11de66bb9eb93b496",
+      "actual_sha256": "6e65917ae19fb11e4af7f0974d2da73c58e95316da156675864c926af9672e62"
+    },
+    {
+      "manifest": "frontier/B1490_the_common_cover_verified/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B1490_the_common_cover_verified/verification/congruence_level.json",
+      "expected_sha256": "fddcaebe0736bd5d159a900464883a85892f878cce0f87d9cadc6a8d9b27771b",
+      "actual_sha256": "aff4e027108dfc3244406f25b121b254a67aa73c39d7b42c0c77c6daafe9bb22"
+    },
+    {
+      "manifest": "frontier/B1490_the_common_cover_verified/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B1490_the_common_cover_verified/verification/level_recount.py",
+      "expected_sha256": "620a9ebedfa6dfe8f65b8948c5f68819b1a7f0d6a420ae39c8f6359c41cf7e40",
+      "actual_sha256": "df3af299df4d2c941f8ccd09e2d0386f119792b30fbcf0ae9ed1e7058029b79a"
+    },
+    {
+      "manifest": "frontier/B1490_the_common_cover_verified/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B1490_the_common_cover_verified/verification/level_recount.json",
+      "expected_sha256": "3040d93b6c5aa0003e14b24926e39cf69176d208a85a2438d8eae77a5be1838f",
+      "actual_sha256": "c2a570f0b40bc2fb1e5794c83b39cddd549817f8d46c16cee59576bca5758b63"
+    },
+    {
+      "manifest": "frontier/B1493_the_room_on_the_companions/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B1493_the_room_on_the_companions/verification/room.py",
+      "expected_sha256": "a5c9629a999afcfe3ecd07e15e9eb584fe9804f610826c892c36065ad255a273",
+      "actual_sha256": "ebcf9aab48d0c890d4b4eec38a14f2cc700598c13411f036ea748e7be15de5ba"
+    },
+    {
+      "manifest": "frontier/B1493_the_room_on_the_companions/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B1493_the_room_on_the_companions/verification/control_m136.json",
+      "expected_sha256": "568774f0c0a4cfe92707d2f95e171da250281ef46b142bd83a932be419928847",
+      "actual_sha256": "6b4b1182b458ce7942bf852e8b709e6c5980620eb0e0c927e706f8f89605b889"
+    },
+    {
+      "manifest": "frontier/B1494_no_room_on_any_companion/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B1494_no_room_on_any_companion/verification/companions.py",
+      "expected_sha256": "e6ff405466e433ae74faeeba61f5a424fa834169e3569abcf47b163aa1cc1784",
+      "actual_sha256": "88e3cf7ac3de76c642841f0375b06b6a3b2a56e04dd7ef30f488144484e37862"
+    },
+    {
+      "manifest": "frontier/B1495_the_orbit_in_one_module/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B1495_the_orbit_in_one_module/verification/cross.py",
+      "expected_sha256": "f0a34a5afcce773f572fb70fa37a0bb3cac2a0b9743cc28f678aa0e7328b403a",
+      "actual_sha256": "9e0070ab7ffed5369541ac8ecd1b527e78d2873b4dbd40138c789e66e81ead57"
+    },
+    {
+      "manifest": "frontier/B1499_the_fusion_on_the_first_room/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B1499_the_fusion_on_the_first_room/verification/fusion.py",
+      "expected_sha256": "70aba1e00ab856510792b420f4ed4b3c2677f7222f703fb35e7822126b77e60b",
+      "actual_sha256": "bb54c8fb79e241b144621ca50dc84b08fa85f72ae8c24682d9c11da071cf99ba"
+    },
+    {
+      "manifest": "frontier/B1792_the_offset_recurrence_at_order_60/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B1792_the_offset_recurrence_at_order_60/verification/compare.py",
+      "expected_sha256": "32a2e00086b0477565ce486a88149abfcc422c357d5f9f0e9ef132bdb1fa944f",
+      "actual_sha256": "40435d82631a5e5ef0d561412ff00ea51f7d1fe9dd6fc5180ae46907d45de671"
+    },
+    {
+      "manifest": "frontier/B1823_step_a_the_tied_heavy_vacuum/verification/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B1823_step_a_the_tied_heavy_vacuum/verification/model.py",
+      "expected_sha256": "32fb9b97a0fb8f591286e12407d335849a2dec1851651801127514f7e4d3981c",
+      "actual_sha256": "0c545f5019398bf958cf0c6af69209428595a7f12f7071c8f718d1d5f9938800"
+    },
+    {
+      "manifest": "frontier/B1823_step_a_the_tied_heavy_vacuum/verification/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B1823_step_a_the_tied_heavy_vacuum/verification/search.py",
+      "expected_sha256": "f5a6583e0bb53dd6002ef667ab18cc56f68cd07e4a60c96a96500c997c456420",
+      "actual_sha256": "cdfbffa8cbaa522b6ff7efe48f55f629ff658dc98ef718b2143cb6efe8ec7466"
+    },
+    {
+      "manifest": "frontier/B1823_step_a_the_tied_heavy_vacuum/verification/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B1823_step_a_the_tied_heavy_vacuum/verification/search.py",
+      "expected_sha256": "17fbbd3cd1b611b8ab7a57b10bf687846c446a844057c18e0849d71712e6550f",
+      "actual_sha256": "cdfbffa8cbaa522b6ff7efe48f55f629ff658dc98ef718b2143cb6efe8ec7466"
+    },
+    {
+      "manifest": "frontier/B1823_step_a_the_tied_heavy_vacuum/verification/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B1823_step_a_the_tied_heavy_vacuum/verification/step_a_v2.py",
+      "expected_sha256": "849a67502ef0478960b46a03da92c78b03ca3b8a56398fe90997733109f6a710",
+      "actual_sha256": "65d895c908d1c6f129ba00d647a504f1d5d51bab777f1f26f135d105f332b6f8"
+    },
+    {
+      "manifest": "frontier/B598_l85_campaign/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B628_exterior_comparison/COMPARISON_DESIGN.md",
+      "expected_sha256": "7c9ca77e0d603f97f7a85e8e949f8fefc5d65f8cdacd3afbf8a2d75f09057880",
+      "actual_sha256": "7b5f2ff77c4b0044dae2a56b6a8ea825a193a75daab9efcc48c19ba2026faac7"
+    },
+    {
+      "manifest": "frontier/B598_l85_campaign/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B634_conductor_chord/ERRATUM_1.md",
+      "expected_sha256": "ae5da99d4e09562f8e1a7b0545d575d31665bb0fbd4204ffb6556744ef430112",
+      "actual_sha256": "eda33b8d4048ac013e43b7972ce623be8fdc2045c8d66dbb9048998a7d58d7c2"
+    },
+    {
+      "manifest": "frontier/B650_typed_functor/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B650_typed_functor/TYPES.md",
+      "expected_sha256": "306d6cde531eda5270eb44afd802a90f267abece0c61b120b2db16cadcc76a8c",
+      "actual_sha256": "6e79e480cfa9973a84edb7e735e2f86da1f0726f33a6253dde6d5a5287598bcf"
+    },
+    {
+      "manifest": "frontier/B656_digest_integration/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B656_digest_integration/ORIGINALS_MANIFEST.txt",
+      "expected_sha256": "54fb0b6a6e5ee5de8dea6b1a460bb8d6d4d60ff2b3f825f23fe019f9e227ad88",
+      "actual_sha256": "aa8bb67d455f2afed1ea886947d20c6da48626038efdb2e9afbb01be0737b5b8"
+    },
+    {
+      "manifest": "frontier/B656_digest_integration/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B656_digest_integration/verify_g1_g4.py",
+      "expected_sha256": "377525a2676e24548ac75c1e46805907e9a5b2fda7a47b778d2d0d2773a473ec",
+      "actual_sha256": "d64c48cb6ee688f0d088dfa246ed44459067bba97de8bb04a0525f8308938fa3"
+    },
+    {
+      "manifest": "frontier/B660_structure_campaign/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B660_structure_campaign/FINDINGS.md",
+      "expected_sha256": "dca4334f909e09f1a2996d83e6fb1cbd156c86f990ac77eaa081e5f1c10389aa",
+      "actual_sha256": "43800eeb49cfa9a76aee48a02041847caf38d4e4ec0cd77769d9d3e8714543af"
+    },
+    {
+      "manifest": "frontier/B666_leads_campaign/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B666_leads_campaign/ADDENDUM_1.md",
+      "expected_sha256": "c8461cf3a57344efed0a3c3d39617808c2734bfea347b184bb872ba1dc187bbf",
+      "actual_sha256": "82d5cd62c8049b65b0a502e6bd51c4ba7f9bbd25f2336c3877aad8c5e16af6e6"
+    },
+    {
+      "manifest": "frontier/B675_hcusp_sweep/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B675_hcusp_sweep/FINDINGS.md",
+      "expected_sha256": "b6b1b67d7d763bcb1aab6f2fc1ea6d8c771a45af96d38a099a31c7a3af0986ee",
+      "actual_sha256": "4748ccdbaa6e0a458c291304f9aebe81b867c9170d5c155818d355d7b1130318"
+    },
+    {
+      "manifest": "frontier/B679_engine_patch/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B679_engine_patch/ARTIFACT_HASHES.txt",
+      "expected_sha256": "40cd9275951d67edb4894952abc59f4bd774944f46223e0079aa391cf1c1400e",
+      "actual_sha256": "a5ff359c4dc532b9eab458ce8beebe92e2c0a1875d4d3e2a6ee02518d0f93b71"
+    },
+    {
+      "manifest": "frontier/B682_habiro_dictionary/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B682_habiro_dictionary/PHASE0_EXTRACTION_CC.md",
+      "expected_sha256": "c315618d76ea66d7e368c532aa50c3e46758d9f09de26e8315ccf18a84186f44",
+      "actual_sha256": "1bf08038bc4450cd7beefb6f76d191c3cd1d46d709391825733a56644667aeca"
+    },
+    {
+      "manifest": "frontier/B684_loop7_close/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B684_loop7_close/FINDINGS.md",
+      "expected_sha256": "47572288ab966c34fab78bb50c4980b334dea8fc5488e3046241a9cb93acbaa4",
+      "actual_sha256": "efc8c2a241b3988761c684612bec225521007988850705e1c3d3a4c2bc3641c2"
+    },
+    {
+      "manifest": "frontier/B697_frobenius_gluing/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B697_frobenius_gluing/FINDINGS.md",
+      "expected_sha256": "273146ac93bb39f6d9137d25057be2c23a02123392584aba54154471a1e66877",
+      "actual_sha256": "7f440f5a45b1007db47a08f875ba2806244752e60abe46460837ecc94396ab14"
+    },
+    {
+      "manifest": "frontier/B742_negatives_hunt_p1/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B742_negatives_hunt_p1/FINDINGS.md",
+      "expected_sha256": "a905b9fe000c812bab1eb7d5145ab8c9117d0ff907baa6eab18118b73657eabc",
+      "actual_sha256": "60e48d21ce147aa196915f2f4dfa2923310112bfb720fdb9808ec200f09de82f"
+    },
+    {
+      "manifest": "frontier/B749_genesis_forks/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B749_genesis_forks/MEASUREMENTS.md",
+      "expected_sha256": "33bdf7d8dbcc5d2d9b1a4f092d4a251891dea5a90eed64605e9871a0fefe6866",
+      "actual_sha256": "dbf7e40c86b7a0ae1aae7b3c1f7ca148b048a1ae0b591f99196c999940d81e5d"
+    },
+    {
+      "manifest": "frontier/B749_genesis_forks/ARTIFACT_HASHES.txt",
+      "resolved_target": "philosophy/P019_the_genesis_axiom_chain.md",
+      "expected_sha256": "efb3a40a8dd56f747ae0882f4b0f77ea2504bd1d20384788e57a154f3ee923ba",
+      "actual_sha256": "c6b7139d42336ab2f6fb5cd594f510a94f949050ad39fd394667561e8b5c5e80"
+    },
+    {
+      "manifest": "frontier/B749_genesis_forks/ARTIFACT_HASHES.txt",
+      "resolved_target": "philosophy/P019_the_genesis_axiom_chain.md",
+      "expected_sha256": "9fab1ea1db5d784c61a5cc5802aeb7e8d8005dc498b80ca59b76c3b3e2f1b32d",
+      "actual_sha256": "c6b7139d42336ab2f6fb5cd594f510a94f949050ad39fd394667561e8b5c5e80"
+    },
+    {
+      "manifest": "frontier/B749_genesis_forks/ARTIFACT_HASHES.txt",
+      "resolved_target": "frontier/B749_genesis_forks/FINDINGS.md",
+      "expected_sha256": "d6de605bbd89ef28dcba82633a33e5bc0d065a0ccc0151d06580ebacca96b70d",
+      "actual_sha256": "8b38120e73776063d3da312360ad8036e01c7af8d745baa8a4815b6b5c87480c"
+    }
+  ],
+  "missing_targets": [
+    {
+      "manifest": "frontier/B1786_the_slope_principle_out_of_sample/verification/census.jsonl.sha256",
+      "declared_target": "census.jsonl"
+    },
+    {
+      "manifest": "frontier/B1823_step_a_the_tied_heavy_vacuum/verification/ARTIFACT_HASHES.txt",
+      "declared_target": "DESIGN.md"
+    },
+    {
+      "manifest": "frontier/B1823_step_a_the_tied_heavy_vacuum/verification/ARTIFACT_HASHES.txt",
+      "declared_target": "step_a_v2_run_D_crashed_overflow.txt"
+    },
+    {
+      "manifest": "frontier/B1823_step_a_the_tied_heavy_vacuum/verification/ARTIFACT_HASHES.txt",
+      "declared_target": "DESIGN.md"
+    },
+    {
+      "manifest": "frontier/B1839_the_end_card/ARTIFACT_HASHES.txt",
+      "declared_target": "relays/chat1_2026-10-28_exact_end/exact_end_look.json"
+    },
+    {
+      "manifest": "frontier/B653_phase_c_probe/ARTIFACT_HASHES.txt",
+      "declared_target": "PREDICTION.md"
+    },
+    {
+      "manifest": "frontier/B653_phase_c_probe/ARTIFACT_HASHES.txt",
+      "declared_target": "EXTRACTION.md"
+    },
+    {
+      "manifest": "frontier/B653_phase_c_probe/ARTIFACT_HASHES.txt",
+      "declared_target": "REPORT.md"
+    },
+    {
+      "manifest": "frontier/B674_generation_leg/w2_gate_cc2/ARTIFACT_HASHES.txt",
+      "declared_target": "frontier/B674_generation_leg/w2_gate_cc2/w2_run.log"
+    },
+    {
+      "manifest": "frontier/B678_d4_annex/ARTIFACT_HASHES.txt",
+      "declared_target": "d4_k1.log"
+    },
+    {
+      "manifest": "frontier/B678_d4_annex/ARTIFACT_HASHES.txt",
+      "declared_target": "d4_k10.log"
+    },
+    {
+      "manifest": "frontier/B678_d4_annex/ARTIFACT_HASHES.txt",
+      "declared_target": "d4_k11.log"
+    },
+    {
+      "manifest": "frontier/B678_d4_annex/ARTIFACT_HASHES.txt",
+      "declared_target": "d4_k12.log"
+    },
+    {
+      "manifest": "frontier/B678_d4_annex/ARTIFACT_HASHES.txt",
+      "declared_target": "d4_k2.log"
+    },
+    {
+      "manifest": "frontier/B678_d4_annex/ARTIFACT_HASHES.txt",
+      "declared_target": "d4_k3.log"
+    },
+    {
+      "manifest": "frontier/B678_d4_annex/ARTIFACT_HASHES.txt",
+      "declared_target": "d4_k4.log"
+    },
+    {
+      "manifest": "frontier/B678_d4_annex/ARTIFACT_HASHES.txt",
+      "declared_target": "d4_k5.log"
+    },
+    {
+      "manifest": "frontier/B678_d4_annex/ARTIFACT_HASHES.txt",
+      "declared_target": "d4_k6.log"
+    },
+    {
+      "manifest": "frontier/B678_d4_annex/ARTIFACT_HASHES.txt",
+      "declared_target": "d4_k7.log"
+    },
+    {
+      "manifest": "frontier/B678_d4_annex/ARTIFACT_HASHES.txt",
+      "declared_target": "d4_k8.log"
+    },
+    {
+      "manifest": "frontier/B678_d4_annex/ARTIFACT_HASHES.txt",
+      "declared_target": "d4_k9.log"
+    },
+    {
+      "manifest": "frontier/B936_cohomology_reading/ARTIFACT_HASHES.txt",
+      "declared_target": "before"
+    }
+  ]
+}

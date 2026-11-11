@@ -1,0 +1,6 @@
+# Phase 0 Pinned Topology & Exact Arithmetic Lock (Python 3.12.1)
+# Fixes Clean-Checkout Trap 3 (85 importorskip sites across snappy, cypari, flint)
+-r requirements-core.lock
+snappy==3.3.2
+cypari==2.5.6
+python-flint==0.9.0
