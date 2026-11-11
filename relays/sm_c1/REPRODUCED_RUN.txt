@@ -1,0 +1,13 @@
+The same code run again, on a clean checkout (protocol § 12, label: reproduced).
+Checkout: a fresh worktree of this branch at 868170ce5, nothing else in it. Each script was run once from its
+folder, writing to a separate output path; each second output is compared byte for byte with the committed one.
+Environment: python 3.11.18, sympy 1.14.0, mpmath 1.3.0, numpy 2.4.6.
+
+row1418_gauge_complex.py exit=0 stderr_bytes=0 second_output_sha256=b2b2d1f1783d9f533d8ba311436720c3c515c65d7cca22331c78e0de4cdb02af byte-identical
+row1420_1421_su5_indices.py exit=0 stderr_bytes=0 second_output_sha256=ce9cf7657db889ad1a5b2ec780e1bded0c7a2fe5ffd78578220328879d3e5936 byte-identical
+row1422_relative_heat.py exit=0 stderr_bytes=0 second_output_sha256=34820f2b5dab4e47547e0b95f5abeda78fa94f1d1e790024a0fc5cde2b6c7a4b byte-identical
+row1425_loop_weights.py exit=0 stderr_bytes=0 second_output_sha256=646e7ef48cfb93b367f782189f7a4f514586f482d64ed7b7859d5ba7ea94927f byte-identical
+row1465_chiral_kernel.py exit=0 stderr_bytes=0 second_output_sha256=5755838afe25e921bb401ef838854a907ddbd3c53cf0ab3901c8049fa40dc7fe byte-identical
+row1487_two_heat_responses.py exit=0 stderr_bytes=0 second_output_sha256=952de1461f6fd2688600ac4c5f1df0e1603ec044cb908eb842a825e5d353c1e2 byte-identical
+row1488_author_audit.py exit=0 stderr_bytes=0 second_output_sha256=b05f4d94be6a9599cb819f2ed47da93ab69a5792134620de991f1c0ed4623a16 byte-identical
+row1489_geodesic_trace.py exit=0 stderr_bytes=0 second_output_sha256=b0e9a6938073ed4f79f098071496de2843ea4e7547bc5cec30acecf149d6eab3 byte-identical

@@ -1,0 +1,20 @@
+The same code run again, on a clean checkout (protocol § 12, label: reproduced).
+Checkout: a fresh worktree of this branch at 868170ce5, nothing else in it. Each script was run once from its
+folder, writing to a separate output path; each second output is compared byte for byte with the committed one.
+Environment: python 3.11.18, sympy 1.14.0, mpmath 1.3.0, numpy 2.4.6.
+
+row1517_tnorm_intake.py exit=0 stderr_bytes=0 second_output_sha256=945e208bf83b67c22340edfa4e6d62049357a7986223b10d09cb1de05a476206 byte-identical
+row1518_invariant_and_cubic.py exit=0 stderr_bytes=0 second_output_sha256=05664f5a0cf1088926d0e2692b681aa6b234dd1c691a8b866d753a52e3a29c3e byte-identical
+row1518_two_loop.py exit=0 stderr_bytes=0 second_output_sha256=619cce2b409936d6d055ee2273b4cb52433a89d2f42c063c3486bda3c1510fc3 byte-identical
+row1519_orbit_metric.py exit=0 stderr_bytes=0 second_output_sha256=3129cc7ca75e026472bc46dcbfd21d5e250c05a143a8787bd12a0c4b9f00a398 byte-identical
+row1520_flat_family.py exit=0 stderr_bytes=0 second_output_sha256=7136704420fb3ae1a7479bc963a7b0ccf10816ca0c11d16040c76b2b0ec50bf1 byte-identical
+row1521_generic_roster.py exit=0 stderr_bytes=0 second_output_sha256=90f8945b0959cd2e91ef3e68b78614c060efe7117023d11442a63553626483d5 byte-identical
+row1522_1524_cubics.py exit=0 stderr_bytes=0 second_output_sha256=df740e96e8b400884e8a97a08c310697954033f1c2ad8e8b55917bcfe4e64fec byte-identical
+row1523_three_lens.py exit=0 stderr_bytes=0 second_output_sha256=3c17f942e973c66a885ca8256ffa4c64151211aacb589488fe0e0e88d5d7054a byte-identical
+row1525_ew_branch.py exit=0 stderr_bytes=0 second_output_sha256=a2b6fb73b58e059f7b5d2c8f701067f4cf0f5ae994c9b67c521b4885b388f6e3 byte-identical
+row1527_vector_matching.py exit=0 stderr_bytes=0 second_output_sha256=77e86a9c2cd7c971d834094cae234c2cda48d84fd5277a69f1aa5da24f9bd0ca byte-identical
+row1528_two_triple_kernel.py exit=0 stderr_bytes=0 second_output_sha256=b7a833b5948ff9aee75c28429019fa342310bc4bd4d1553ef84582679f7a1d11 byte-identical
+row1530_neutral_lift.py exit=0 stderr_bytes=0 second_output_sha256=7da28ac16b53f35b3e2cb00a2d5d9cc46597b280ddfbe0071bdda1a85961d003 byte-identical
+row1532_neutral_family.py exit=0 stderr_bytes=0 second_output_sha256=eca45ddf7cb420777e41cfa3562167d8bd89f814e2c2277faf1c1987617208b5 byte-identical
+row1534_1535_spin.py exit=0 stderr_bytes=0 second_output_sha256=95591d2c40214b3726f5d7d0b2574edfa0c770ca2d205c807e3fd2aaca196488 byte-identical
+row1537_register_flavour.py exit=0 stderr_bytes=0 second_output_sha256=0d493c16f350cb8d5d2680ed92c38865a38b521f51db8049e58a2fc97e769e41 byte-identical
