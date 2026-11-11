@@ -18,13 +18,13 @@
 | … NEGATIVE | 383 |
 | … OPEN | 97 |
 | … RETRACTED | 12 |
-| register points | 801 |
-| … QUEUED | 273 |
+| register points | 805 |
+| … QUEUED | 277 |
 | … LEAD | 4 |
 | … OWNER | 4 |
 | … DONE | 508 |
 | … DECLINED | 12 |
-| harvest rows (the last number) | 1706 |
+| harvest rows (the last number) | 1711 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p REVIEW 79 OPENED UNDER THE OWNER'S RULING (P-805); THE FIVE SESSIONS' FIRST DELIVERIES REGISTERED; TWO FINDINGS OF A SECOND DERIVATION CHECKED ON MAIN AND ENTERED (WP-0.8, WP-0.4; P-802, P-803,…
 - S306p THREE RULINGS OF THE OWNER, APPLIED: HIS MESSAGES ARE PRIVATE; A CHECK IS NAMED BY ITS METHOD AND NEVER BY A SESSION; THE DISTILLED REPOSITORY IS PUBLIC AND STAYS ON THE LIST (P-796, P-797, P-7…
 - S306p THE FIRST PATCH SERIES FOR ENFORCEMENT, VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (WP-0.7; B1890); THE FINDING E7 FIXED AND ACCEPTED (WP-0.8); TWO SEATS NAME THEMSELVES (2026-11-11)
 - S306p THE SEATS' PAGES, THE CARD AND THE LISTENER: MAIN DIRECTS THE SEATS AND NOBODY RELAYS BY HAND (the owner's ruling; P-795, with P-794, P-796, P-797) (2026-11-11)
@@ -63,11 +64,10 @@
 - S306p THE SEATS, DIGESTED AT THE OWNER'S WORD, AND MAIN'S PROPOSAL FOR THE LOCK (B1889; P-788, P-790, P-791) (2026-11-11)
 - S306p THE ERRORS IN THE MATHEMATICS, THE THIRD OF THE NINE LEFT (WP-0.8): "0.000 BITS OF DESIGNER FREEDOM" WAS ELEVEN ZEROS TYPED BY HAND (E7) (2026-11-11)
 - S306p THE ERRORS IN THE MATHEMATICS, THE SECOND OF THE NINE LEFT (WP-0.8): A SCAN THAT NEVER REFINED, REPLACED BY THE JOINT EIGENVALUES (E5) (2026-11-11)
-- S306p THE REPOSITORY'S PUBLIC FORM, SCRUTINISED AT THE OWNER'S WORD (B1888; P-787) (2026-11-11)
 
 ## The latest campaign line
 
-LATEST (2026-11-11, S306p: THREE RULINGS OF THE OWNER APPLIED (P-796, P-797, P-793, P-800).** His messages are private from now on and history is not rewritten: a ruling is entered in plain words and nothing he said is quoted (the working rules, amended). A check is named by its method and never by a session: the terminology page has the words, nine labels each naming its evidence, and what 'seat' and 'lane' meant. Every seat's page carries both. The distilled repository of 2026-09-02 is public, is fetched, and stays as a small harvest. No package advanced. 0 of 19.)
+LATEST (2026-11-11, S306p: REVIEW 79 OPENED UNDER THE OWNER'S RULING (P-805); THE FIVE SESSIONS' FIRST DELIVERIES REGISTERED (harvest rows 1707 to 1711).** Every arc of the window, thirteen, is read in full by two sessions that built none of it; main answers every finding; the waiver is not extended; the test against planted faults is not done this time, and said. Two findings of agy-002's second derivation are checked on main and entered: B1221's control row is a grid's size, and the unit at the cusp is one unit on each of three lines (P-802). The web seat's three findings on main's own corrections are reproduced on main and mended (P-804): ten statements of the freedom ledger's zero now c…
 
 ## Completeness (nothing skipped silently)
 

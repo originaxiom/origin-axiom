@@ -22,9 +22,9 @@ nothing in this block is typed by hand.*
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.65) of 2026-11-11 |
 | arcs with a verdict | 1592: 1100 PROVED, 383 NEGATIVE, 97 OPEN, 12 RETRACTED |
-| points in the register | 801: 281 open (queued, leads, waiting for the owner), 520 closed |
+| points in the register | 805: 285 open (queued, leads, waiting for the owner), 520 closed |
 | the last review | Review 78 (2026-11-11), anchor `38d2a36dc` |
-| the last landing | S306p THREE RULINGS OF THE OWNER, APPLIED: HIS MESSAGES ARE PRIVATE; A CHECK IS NAMED BY ITS METHOD AND NEVER BY A SESSION; THE DISTILLED REPOSITORY… |
+| the last landing | S306p REVIEW 79 OPENED UNDER THE OWNER'S RULING (P-805); THE FIVE SESSIONS' FIRST DELIVERIES REGISTERED; TWO FINDINGS OF A SECOND DERIVATION CHECKED… |
 <!-- STATE:END -->
 
 ## Start here
