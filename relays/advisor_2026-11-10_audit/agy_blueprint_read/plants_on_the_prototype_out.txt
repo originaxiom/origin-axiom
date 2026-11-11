@@ -1,0 +1,16 @@
+K1  CAUGHT       control: a literal target in a potential             Guardrail1PostInspectionError
+K2  CAUGHT       control: a theorem returning a literal zero          Guardrail2LiteralClaimError
+K3  CAUGHT       control: a referee naming the producer               Guardrail6ProducerEchoError
+A1  CAUGHT       a potential with its target in a local variable      Guardrail1PostInspectionError
+A2  NOT CAUGHT   the potential multiplied out                         returned {'x_star': [1.618033988749895], 'potential_value': -2.618033988749895,
+B1  NOT CAUGHT   a theorem returning float("0")                       returned {'bar_theta_qcd': 0.0}
+B2  CAUGHT       a theorem returning len("a") == 1                    Guardrail2LiteralClaimError
+B3  CAUGHT       a theorem returning a residual times zero            Guardrail2LiteralClaimError
+C1  NOT CAUGHT   an integrator benchmarked against its own output     returned 0.10195133400420031
+D1  NOT CAUGHT   a second scale as a bare number                      returned {'dimensionless_value': 0.3703506198631994, 'unit': '1', 'selection_bi
+E1  CAUGHT       a referee handed the producer as an argument         Guardrail6ProducerEchoError
+E2  CAUGHT       a referee reading a stored file with numpy           Guardrail6ProducerEchoError
+E3  CAUGHT       a referee reaching the producer through sys.modules  Guardrail6ProducerEchoError
+
+controls reported CAUGHT: 3 of 3
+plants: 6 CAUGHT, 4 NOT CAUGHT, 0 did not run
