@@ -19486,3 +19486,31 @@ the audit seat has checked it, because whoever fixes a thing does not also appro
 
 0 of 19.
 
+## 2026-11-11 — S306p: the plan for what the world is handed, tested hard at the owner's request
+
+**What was asked.** The audit seat proposed that the world should get three things: this repository kept whole as
+the archive, a small readable statement of the claim, and a separate check. The owner asked main to review it, add
+to it, and try to break it.
+
+**The one thing main measured.** The proposal rests on the worry that the current best candidate cannot be taken
+out of the record: on paper it depends on 736 earlier pieces of work. Main followed the candidate's actual programs,
+file by file. It really uses at most 14 pieces: 17 program files, about 3,000 lines. And the part that computes what
+the theory predicts never opens the file of measured values; only the part that compares does, through one file.
+
+**What that means.** The central step of the proposal works. A small statement can be rebuilt, and keeping the
+measurements away from the derivation is easier than feared.
+
+**Where the proposal is weak.** It says the check should be written by a seat that wrote none of the statement.
+That is not enough: several seats are the same kind of assistant and all have read the record. Main gave five
+conditions that can actually be checked, such as writing the check from the statement's text alone, and sealing its
+expectations before it sees any number.
+
+**What main added.** What such a statement would honestly say if it were written today: no value earned, three
+results that hold only under stated assumptions, one candidate that passed a first screen, and 39 things put in by
+hand. That is why the answer to "should we build it now" is still no. Also: a full check takes seven hours of
+computing, so it needs a ten-minute version as well.
+
+**Which piece of the plan moved.** None. This was the owner's request, outside the plan's order.
+
+0 of 19.
+

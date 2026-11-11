@@ -1,0 +1,122 @@
+{
+ "start": [
+  "frontier/B1841_the_principled_ends_card/verification/census.py",
+  "frontier/B1841_the_principled_ends_card/verification/look.py"
+ ],
+ "python": [
+  "frontier/B1841_the_principled_ends_card/verification/census.py",
+  "frontier/B1841_the_principled_ends_card/verification/look.py",
+  "frontier/B1839_the_end_card/verification/census.py",
+  "frontier/B1839_the_end_card/verification/look.py",
+  "frontier/B1753_the_six_on_the_five_ality_lines/verification/census.py",
+  "frontier/B1838_the_end/verification/exact_end_web_seat.py",
+  "frontier/B1741_tau_from_the_thread_rule_the_line_free/verification/census.py",
+  "frontier/B1741_tau_from_the_thread_rule_the_line_free/verification/compare.py",
+  "frontier/B1753_the_six_on_the_five_ality_lines/verification/compare.py",
+  "frontier/B1720_the_thread_fixes_the_point/verification/thread_geometry.py",
+  "frontier/B1726_the_two_ingredients_replicated/verification/census.py",
+  "frontier/B1667_the_canonical_cusp/verification/the_canonical_cusp.py",
+  "frontier/B1691_the_exponents_at_the_two_fixed_points/verification/correction/b1656_funcs.py",
+  "frontier/B1691_the_exponents_at_the_two_fixed_points/verification/the_exponents.py",
+  "frontier/B1723_the_golden_valley/verification/b1656_funcs.py",
+  "frontier/B1654_the_norm_of_the_boundary_class/verification/the_norm_of_the_boundary_class.py",
+  "frontier/B1691_the_exponents_at_the_two_fixed_points/verification/qseries.py"
+ ],
+ "other": [
+  "frontier/B1839_the_end_card/verification/census_controls.json",
+  "frontier/B1839_the_end_card/verification/census_run.txt",
+  "frontier/B1839_the_end_card/verification/norms.npz",
+  "frontier/B1839_the_end_card/verification/norms_index.json",
+  "frontier/B1841_the_principled_ends_card/verification/census_controls.json",
+  "frontier/B1841_the_principled_ends_card/verification/census_run.txt",
+  "frontier/B1841_the_principled_ends_card/verification/norms.npz",
+  "frontier/B1841_the_principled_ends_card/verification/norms_index.json",
+  "frontier/B1839_the_end_card/verification/look.json",
+  "frontier/B1839_the_end_card/verification/look_run.txt",
+  "frontier/B1841_the_principled_ends_card/verification/look.json",
+  "frontier/B1841_the_principled_ends_card/verification/look_run.txt",
+  "frontier/B1753_the_six_on_the_five_ality_lines/verification/census_run.txt",
+  "frontier/B1741_tau_from_the_thread_rule_the_line_free/verification/census_run.txt",
+  "frontier/B1798_the_six_graded_under_the_class_choosing_null/verification/b1753_all266/census_ext.jsonl.gz",
+  "frontier/B1798_the_six_graded_under_the_class_choosing_null/verification/b1753_all266/census_ext_tail.jsonl.gz",
+  "frontier/B1798_the_six_graded_under_the_class_choosing_null/verification/referee/cnull_b1753_all_5001_5010_c0.333_5.json",
+  "frontier/B1726_the_two_ingredients_replicated/verification/control.json",
+  "frontier/B1741_tau_from_the_thread_rule_the_line_free/verification/control.json",
+  "frontier/B1753_the_six_on_the_five_ality_lines/verification/control.json",
+  "frontier/B1667_the_canonical_cusp/verification/the_canonical_cusp.json",
+  "frontier/B1720_the_thread_fixes_the_point/verification/the_thread_census.json",
+  "frontier/B1612_the_mixing_patterns_the_weave_fixes/verification/comparison.json",
+  "frontier/B1612_the_mixing_patterns_the_weave_fixes/verification/data.json",
+  "frontier/B1637_fits_on_the_ruled_branch/received/HZ2021_running_masses_MZ.json",
+  "frontier/B1726_the_two_ingredients_replicated/verification/comparison.json",
+  "frontier/B1741_tau_from_the_thread_rule_the_line_free/verification/comparison.json",
+  "frontier/B1753_the_six_on_the_five_ality_lines/verification/comparison.json",
+  "frontier/B1667_the_canonical_cusp/verification/the_canonical_cusp_run.txt",
+  "frontier/B1691_the_exponents_at_the_two_fixed_points/verification/the_exponents.json",
+  "frontier/B1654_the_norm_of_the_boundary_class/verification/the_norm_of_the_boundary_class.json",
+  "frontier/B1654_the_norm_of_the_boundary_class/verification/the_norm_of_the_boundary_class_run.txt"
+ ],
+ "arcs": [
+  "B1612_the_mixing_patterns_the_weave_fixes",
+  "B1637_fits_on_the_ruled_branch",
+  "B1654_the_norm_of_the_boundary_class",
+  "B1667_the_canonical_cusp",
+  "B1691_the_exponents_at_the_two_fixed_points",
+  "B1720_the_thread_fixes_the_point",
+  "B1723_the_golden_valley",
+  "B1726_the_two_ingredients_replicated",
+  "B1741_tau_from_the_thread_rule_the_line_free",
+  "B1753_the_six_on_the_five_ality_lines",
+  "B1798_the_six_graded_under_the_class_choosing_null",
+  "B1838_the_end",
+  "B1839_the_end_card",
+  "B1841_the_principled_ends_card"
+ ],
+ "lines": 3032,
+ "other_bytes": 54370704,
+ "upstream_by_lists": 736,
+ "arcs_in_chain": 14,
+ "direct_reached": [
+  "B1667",
+  "B1741",
+  "B1753",
+  "B1798",
+  "B1838",
+  "B1839"
+ ],
+ "direct_not_reached": [
+  "B1656",
+  "B1728",
+  "B1742",
+  "B1840"
+ ],
+ "measured_reached": true,
+ "route": [
+  "frontier/B1841_the_principled_ends_card/verification/look.py",
+  "frontier/B1839_the_end_card/verification/look.py",
+  "frontier/B1741_tau_from_the_thread_rule_the_line_free/verification/compare.py",
+  "frontier/B1637_fits_on_the_ruled_branch/received/HZ2021_running_masses_MZ.json"
+ ],
+ "namers_in_chain": [
+  "frontier/B1741_tau_from_the_thread_rule_the_line_free/verification/compare.py"
+ ],
+ "namers_in_tree": 51,
+ "halves": {
+  "census.py": {
+   "python": 13,
+   "arcs": 11,
+   "reaches_measured": false,
+   "lines": 2252
+  },
+  "look.py": {
+   "python": 17,
+   "arcs": 14,
+   "reaches_measured": true,
+   "lines": 3032
+  }
+ },
+ "copies": [
+  "B1691/b1656_funcs.py",
+  "B1723/b1656_funcs.py"
+ ]
+}

@@ -1,0 +1,25 @@
+THE CANDIDATE'S OWN SCRIPTS: census.py, look.py
+THE CHAIN OF CODE (an upper bound): 17 Python files, 3032 lines; 32 other files named, 54.4 MB; in 14 arc folders
+   B1612_the_mixing_patterns_the_weave_fixes                       0 python,  2 other
+   B1637_fits_on_the_ruled_branch                                  0 python,  1 other
+   B1654_the_norm_of_the_boundary_class                            1 python,  2 other
+   B1667_the_canonical_cusp                                        1 python,  2 other
+   B1691_the_exponents_at_the_two_fixed_points                     3 python,  1 other
+   B1720_the_thread_fixes_the_point                                1 python,  1 other
+   B1723_the_golden_valley                                         1 python,  0 other
+   B1726_the_two_ingredients_replicated                            1 python,  2 other
+   B1741_tau_from_the_thread_rule_the_line_free                    2 python,  3 other
+   B1753_the_six_on_the_five_ality_lines                           2 python,  3 other
+   B1798_the_six_graded_under_the_class_choosing_null              0 python,  3 other
+   B1838_the_end                                                   1 python,  0 other
+   B1839_the_end_card                                              2 python,  6 other
+   B1841_the_principled_ends_card                                  2 python,  6 other
+   outside the arcs: none
+BY THE ARCS' OWN LISTS: 736 arcs upstream of the candidate (10 direct).  IN THE CHAIN OF CODE: 14 arcs, the candidate included; 0 of them are not on the lists' upstream
+   the candidate's ten direct dependencies that the code reaches: ['B1667', 'B1741', 'B1753', 'B1798', 'B1838', 'B1839']; that it does not: ['B1656', 'B1728', 'B1742', 'B1840']
+THE MEASURED VALUES (HZ2021_running_masses_MZ.json): reached by the chain: True
+   by this route: B1841/look.py  ->  B1839/look.py  ->  B1741/compare.py  ->  B1637/HZ2021_running_masses_MZ.json
+   from census.py  alone: 13 Python files, 2252 lines, 11 arcs; reaches the measured values: False
+   from look.py    alone: 17 Python files, 3032 lines, 14 arcs; reaches the measured values: True
+   helpers of other arcs present as copies in the chain: B1691/b1656_funcs.py, B1723/b1656_funcs.py
+   Python files of the chain that name that file: 1 (B1741/compare.py); in the whole tree: 51

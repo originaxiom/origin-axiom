@@ -1,5 +1,18 @@
 # Changelog
 
+## S306p THE REPOSITORY'S PUBLIC FORM, SCRUTINISED AT THE OWNER'S WORD (B1888; P-787) (2026-11-11)
+
+- **Why.** The owner asked, through the advisor seat, for main's review, enrichment and scrutiny of the proposal that what is handed to the world be three parts: this repository as the archive, a small statement, and a separate check. The seat named eight places where its own proposal is weakest.
+- **One new measurement.** By the arcs' own lists the candidate has 736 arcs upstream. By its code it uses at most 14: 17 Python files, 3,032 lines. Its derivation half is 13 files and 2,252 lines and does not reach the measured values; they enter at one module of the comparison half.
+- **So the proposal's central step holds:** a statement rebuilt in a few thousand lines is realistic, and keeping the measured values apart is cheaper than feared.
+- **Of the eight points:** five hold; two hold with a change (the rebuild's first deliverable is the list of what it needed that the foundation does not state; the archive is a signed tag and a dated deposit, not a second repository); one does not hold as stated, the independence of the check. A seat is not independent by being named so. Main gives five conditions that can be checked.
+- **Main adds:** what a statement built today would hold (no earned value; three conditional headline results; one candidate that passed a sealed screen; 39 inputs); the spine a stranger should read; the state of the count of looks; what must be mended before the archive is tagged; a sentence on how the work was done; and that the candidate's census takes seven hours, so the check needs a short form and a full one.
+- **The advisor seat's verdict on its own finding V1 is entered:** B, as the card reads, and no second card. Its lesson is taken into P-786.
+- **The web seat is asked for a cold read,** as the one seat that wrote neither the proposal nor the rival nor an agreement.
+- **Main's chain script stopped at the candidate's two files on its first run,** a failure its own header named in advance. Mended, and held by the lock.
+- **This landing advanced no package of the work order.** It answers the owner's request. The repository's structure does not change before he decides.
+- 0 of 19.
+
 ## S306p THE ERRORS IN THE MATHEMATICS, THE FIRST OF NINE (WP-0.8): THE KNOT GROUP'S CONGRUENCE LEVEL IS (4), AND THE LOCK NOW SAYS SO (E2) (2026-11-11)
 
 - **The finding.** A lock of the theorem chain asserted that the figure-eight knot group is congruence "at level (8)". The chain's own note had said level (4) since 2026-09-16. No one on main had checked the finding; a reader had.
