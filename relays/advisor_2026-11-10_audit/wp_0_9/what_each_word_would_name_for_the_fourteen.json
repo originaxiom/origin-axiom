@@ -1,0 +1,305 @@
+{
+ "B1612_the_mixing_patterns_the_weave_fixes": {
+  "verdict": "PROVED",
+  "theorem": [
+   "tests/test_b1612_the_mixing_patterns_the_weave_fixes.py"
+  ],
+  "exact computation": [
+   "tests/test_b1612_the_mixing_patterns_the_weave_fixes.py",
+   "frontier/B1612_the_mixing_patterns_the_weave_fixes/verification/compare.py"
+  ],
+  "numerical estimate": [
+   "frontier/B1612_the_mixing_patterns_the_weave_fixes/verification/compare.py",
+   "frontier/B1612_the_mixing_patterns_the_weave_fixes/verification/compare_run.txt"
+  ],
+  "sealed cells held": [
+   "frontier/B1612_the_mixing_patterns_the_weave_fixes/PREREGISTRATION.md"
+  ],
+  "counts": {
+   "locks": 1,
+   "scripts": 3,
+   "outputs": 6,
+   "seals": 1
+  }
+ },
+ "B1637_fits_on_the_ruled_branch": {
+  "verdict": "PROVED",
+  "theorem": [
+   "tests/test_b1637_fits_on_the_ruled_branch.py"
+  ],
+  "exact computation": [
+   "tests/test_b1637_fits_on_the_ruled_branch.py",
+   "frontier/B1637_fits_on_the_ruled_branch/verification/cusp_precision_audit.py"
+  ],
+  "numerical estimate": [
+   "frontier/B1637_fits_on_the_ruled_branch/verification/cusp_precision_audit.py",
+   "frontier/B1637_fits_on_the_ruled_branch/received/HZ2021_running_masses_MZ.json"
+  ],
+  "sealed cells held": [
+   "frontier/B1637_fits_on_the_ruled_branch/PREREGISTRATION.md"
+  ],
+  "counts": {
+   "locks": 1,
+   "scripts": 2,
+   "outputs": 4,
+   "seals": 1
+  }
+ },
+ "B1654_the_norm_of_the_boundary_class": {
+  "verdict": "PROVED",
+  "theorem": [
+   "tests/test_b1654_the_norm_of_the_boundary_class.py"
+  ],
+  "exact computation": [
+   "tests/test_b1654_the_norm_of_the_boundary_class.py",
+   "frontier/B1654_the_norm_of_the_boundary_class/design_v1/the_norm_of_the_boundary_class_v1.py"
+  ],
+  "numerical estimate": [
+   "frontier/B1654_the_norm_of_the_boundary_class/design_v1/the_norm_of_the_boundary_class_v1.py",
+   "frontier/B1654_the_norm_of_the_boundary_class/verification/the_norm_of_the_boundary_class.json"
+  ],
+  "sealed cells held": [
+   "frontier/B1654_the_norm_of_the_boundary_class/PREREGISTRATION.md"
+  ],
+  "counts": {
+   "locks": 1,
+   "scripts": 58,
+   "outputs": 2,
+   "seals": 1
+  }
+ },
+ "B1667_the_canonical_cusp": {
+  "verdict": "PROVED",
+  "theorem": [
+   "tests/test_b1667_the_canonical_cusp.py"
+  ],
+  "exact computation": [
+   "tests/test_b1667_the_canonical_cusp.py",
+   "frontier/B1667_the_canonical_cusp/verification/before_the_seal/canonical_cusp_draft.py"
+  ],
+  "numerical estimate": [
+   "frontier/B1667_the_canonical_cusp/verification/before_the_seal/canonical_cusp_draft.py",
+   "frontier/B1667_the_canonical_cusp/verification/before_the_seal/commutator_subgroup_run.txt"
+  ],
+  "sealed cells held": [
+   "frontier/B1667_the_canonical_cusp/PREREGISTRATION.md"
+  ],
+  "counts": {
+   "locks": 1,
+   "scripts": 4,
+   "outputs": 5,
+   "seals": 1
+  }
+ },
+ "B1691_the_exponents_at_the_two_fixed_points": {
+  "verdict": "PROVED",
+  "theorem": [
+   "tests/test_b1691_the_exponents_at_the_two_fixed_points.py"
+  ],
+  "exact computation": [
+   "tests/test_b1691_the_exponents_at_the_two_fixed_points.py",
+   "frontier/B1691_the_exponents_at_the_two_fixed_points/verification/before_the_instrument/basis_check.py"
+  ],
+  "numerical estimate": [
+   "frontier/B1691_the_exponents_at_the_two_fixed_points/verification/before_the_instrument/basis_check.py",
+   "frontier/B1691_the_exponents_at_the_two_fixed_points/verification/correction/the_lift_at_finite_L.json"
+  ],
+  "sealed cells held": [],
+  "counts": {
+   "locks": 1,
+   "scripts": 12,
+   "outputs": 8,
+   "seals": 0
+  }
+ },
+ "B1720_the_thread_fixes_the_point": {
+  "verdict": "NEGATIVE",
+  "theorem": [
+   "tests/test_b1720_the_thread_fixes_the_point.py"
+  ],
+  "exact computation": [
+   "tests/test_b1720_the_thread_fixes_the_point.py",
+   "frontier/B1720_the_thread_fixes_the_point/verification/b1656_funcs.py"
+  ],
+  "numerical estimate": [
+   "frontier/B1720_the_thread_fixes_the_point/verification/b1656_funcs.py",
+   "frontier/B1720_the_thread_fixes_the_point/verification/compare_run.txt"
+  ],
+  "sealed cells held": [
+   "frontier/B1720_the_thread_fixes_the_point/PREREGISTRATION.md"
+  ],
+  "counts": {
+   "locks": 1,
+   "scripts": 4,
+   "outputs": 4,
+   "seals": 1
+  }
+ },
+ "B1723_the_golden_valley": {
+  "verdict": "NEGATIVE",
+  "theorem": [
+   "tests/test_b1723_the_golden_valley.py"
+  ],
+  "exact computation": [
+   "tests/test_b1723_the_golden_valley.py",
+   "frontier/B1723_the_golden_valley/verification/b1656_funcs.py"
+  ],
+  "numerical estimate": [
+   "frontier/B1723_the_golden_valley/verification/b1656_funcs.py",
+   "frontier/B1723_the_golden_valley/verification/compare_run.txt"
+  ],
+  "sealed cells held": [
+   "frontier/B1723_the_golden_valley/PREREGISTRATION.md"
+  ],
+  "counts": {
+   "locks": 1,
+   "scripts": 3,
+   "outputs": 4,
+   "seals": 1
+  }
+ },
+ "B1726_the_two_ingredients_replicated": {
+  "verdict": "PROVED",
+  "theorem": [
+   "tests/test_b1726_the_two_ingredients_replicated.py"
+  ],
+  "exact computation": [
+   "tests/test_b1726_the_two_ingredients_replicated.py",
+   "frontier/B1726_the_two_ingredients_replicated/verification/census.py"
+  ],
+  "numerical estimate": [
+   "frontier/B1726_the_two_ingredients_replicated/verification/census.py",
+   "frontier/B1726_the_two_ingredients_replicated/verification/census.jsonl"
+  ],
+  "sealed cells held": [
+   "frontier/B1726_the_two_ingredients_replicated/PREREGISTRATION.md"
+  ],
+  "counts": {
+   "locks": 1,
+   "scripts": 3,
+   "outputs": 7,
+   "seals": 1
+  }
+ },
+ "B1741_tau_from_the_thread_rule_the_line_free": {
+  "verdict": "PROVED",
+  "theorem": [
+   "tests/test_b1741_tau_from_the_thread_rule_the_line_free.py"
+  ],
+  "exact computation": [
+   "tests/test_b1741_tau_from_the_thread_rule_the_line_free.py",
+   "frontier/B1741_tau_from_the_thread_rule_the_line_free/verification/c1_diagnosis.py"
+  ],
+  "numerical estimate": [
+   "frontier/B1741_tau_from_the_thread_rule_the_line_free/verification/c1_diagnosis.py",
+   "frontier/B1741_tau_from_the_thread_rule_the_line_free/verification/c1_diagnosis.json"
+  ],
+  "sealed cells held": [
+   "frontier/B1741_tau_from_the_thread_rule_the_line_free/PREREGISTRATION.md"
+  ],
+  "counts": {
+   "locks": 1,
+   "scripts": 4,
+   "outputs": 8,
+   "seals": 1
+  }
+ },
+ "B1753_the_six_on_the_five_ality_lines": {
+  "verdict": "PROVED",
+  "theorem": [
+   "tests/test_b1753_the_six_on_the_five_ality_lines.py"
+  ],
+  "exact computation": [
+   "tests/test_b1753_the_six_on_the_five_ality_lines.py",
+   "frontier/B1753_the_six_on_the_five_ality_lines/verification/census.py"
+  ],
+  "numerical estimate": [
+   "frontier/B1753_the_six_on_the_five_ality_lines/verification/census.py",
+   "frontier/B1753_the_six_on_the_five_ality_lines/verification/census.jsonl"
+  ],
+  "sealed cells held": [
+   "frontier/B1753_the_six_on_the_five_ality_lines/PREREGISTRATION.md"
+  ],
+  "counts": {
+   "locks": 1,
+   "scripts": 2,
+   "outputs": 5,
+   "seals": 1
+  }
+ },
+ "B1798_the_six_graded_under_the_class_choosing_null": {
+  "verdict": "NEGATIVE",
+  "theorem": [
+   "tests/test_b1798_the_six_graded_under_the_class_choosing_null.py"
+  ],
+  "exact computation": [
+   "tests/test_b1798_the_six_graded_under_the_class_choosing_null.py",
+   "frontier/B1798_the_six_graded_under_the_class_choosing_null/verification/analyse.py"
+  ],
+  "numerical estimate": [
+   "frontier/B1798_the_six_graded_under_the_class_choosing_null/verification/analyse.py",
+   "frontier/B1798_the_six_graded_under_the_class_choosing_null/verification/b1753_all266/census_ext_run.txt"
+  ],
+  "sealed cells held": [
+   "frontier/B1798_the_six_graded_under_the_class_choosing_null/DESIGN.md"
+  ],
+  "counts": {
+   "locks": 1,
+   "scripts": 12,
+   "outputs": 16,
+   "seals": 1
+  }
+ },
+ "B1838_the_end": {
+  "verdict": "OPEN",
+  "theorem": [],
+  "exact computation": [],
+  "numerical estimate": [
+   "frontier/B1838_the_end/verification/exact_end_web_seat.py",
+   "frontier/B1838_the_end/verification/s304_checks/p1_zeta_end.json"
+  ],
+  "sealed cells held": [],
+  "counts": {
+   "locks": 0,
+   "scripts": 5,
+   "outputs": 5,
+   "seals": 0
+  }
+ },
+ "B1839_the_end_card": {
+  "verdict": "NEGATIVE",
+  "theorem": [],
+  "exact computation": [],
+  "numerical estimate": [
+   "frontier/B1839_the_end_card/verification/census.py",
+   "frontier/B1839_the_end_card/verification/accessory.jsonl"
+  ],
+  "sealed cells held": [
+   "frontier/B1839_the_end_card/PREREGISTRATION.md"
+  ],
+  "counts": {
+   "locks": 0,
+   "scripts": 2,
+   "outputs": 6,
+   "seals": 1
+  }
+ },
+ "B1841_the_principled_ends_card": {
+  "verdict": "PROVED",
+  "theorem": [],
+  "exact computation": [],
+  "numerical estimate": [
+   "frontier/B1841_the_principled_ends_card/verification/census.py",
+   "frontier/B1841_the_principled_ends_card/verification/census_controls.json"
+  ],
+  "sealed cells held": [
+   "frontier/B1841_the_principled_ends_card/PREREGISTRATION.md"
+  ],
+  "counts": {
+   "locks": 0,
+   "scripts": 6,
+   "outputs": 10,
+   "seals": 1
+  }
+ }
+}

@@ -1,0 +1,21 @@
+for each arc the candidate runs on, read at 323f92327: could its own files carry the word?  (yes = the files the word asks are there)
+
+arc                                                  verdict   theorem  exact comp.  num. est.  sealed cells held      process
+B1612_the_mixing_patterns_the_weave_fixes            PROVED    yes      yes          yes        yes, with its count    yes
+B1637_fits_on_the_ruled_branch                       PROVED    yes      yes          yes        yes, with its count    yes
+B1654_the_norm_of_the_boundary_class                 PROVED    yes      yes          yes        yes, with its count    yes
+B1667_the_canonical_cusp                             PROVED    yes      yes          yes        yes, with its count    yes
+B1691_the_exponents_at_the_two_fixed_points          PROVED    yes      yes          yes        NO                     yes
+B1720_the_thread_fixes_the_point                     NEGATIVE  yes      yes          yes        yes, with its count    yes
+B1723_the_golden_valley                              NEGATIVE  yes      yes          yes        yes, with its count    yes
+B1726_the_two_ingredients_replicated                 PROVED    yes      yes          yes        yes, with its count    yes
+B1741_tau_from_the_thread_rule_the_line_free         PROVED    yes      yes          yes        yes, with its count    yes
+B1753_the_six_on_the_five_ality_lines                PROVED    yes      yes          yes        yes, with its count    yes
+B1798_the_six_graded_under_the_class_choosing_null   NEGATIVE  yes      yes          yes        yes, with its count    yes
+B1838_the_end                                        OPEN      NO       NO           yes        NO                     yes
+B1839_the_end_card                                   NEGATIVE  NO       NO           yes        yes, with its count    yes
+B1841_the_principled_ends_card                       PROVED    NO       NO           yes        yes, with its count    yes
+
+in all: a theorem 11 of 14; an exact computation 11; a numerical estimate 14; sealed cells held 12; a process 14.
+"yes" says that files of the kind the word asks stand in the arc's own folder (or, for a lock, in tests/ under its number).
+It does not say that the word is true of the arc: that is read from the arc, and it is main's to say.
