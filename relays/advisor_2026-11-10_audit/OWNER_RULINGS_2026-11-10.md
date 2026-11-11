@@ -454,6 +454,15 @@ reason not to publish a copy without history; it did not say this repository's c
 it is not. Written out in `OPINION_ON_THE_REPOSITORY_2026-11-11.md`, § 13, with the script and its output in
 `chain_check/`. He was asked nothing.
 
+| what he was answering | his words |
+|---|---|
+| the seat's finding that this repository's chain was not broken | "whats the best approach to fix that history issue, or its not an issue at all" |
+
+The seat's answer, as its own view: it is not an issue and the history is not to be touched; what is worth doing is to
+keep it so and make that checkable by others -- refuse forced pushes and deletions on the host, have an outside
+archive date a snapshot, and one note on what the distilled copy was. Five of main's gates already pin commits and
+would turn red on a rewriting. Written out in `OPINION_ON_THE_REPOSITORY_2026-11-11.md`, § 14. He was asked nothing.
+
 ## The roles
 
 The owner, the same day: this seat "will serve as an advisor for cc - the banking seat"; when cc is ready the reports

@@ -530,3 +530,25 @@ The lane's objection to the September copy is right, and it is the same as § 9'
 that starts its own history carries none of the seals. The package of § 9 keeps them by pinning this repository, not
 by copying it.
 
+## 14. "Whats the best approach to fix that history issue, or its not an issue at all"
+
+**It is not an issue, and the history is not to be touched.** Nothing in § 13 is broken, so there is nothing to
+repair; and the one way to make it an issue is to "fix" a history by rewriting it. What is worth doing is to keep it
+as it is and make that checkable by others. The seat's own view:
+
+| what | who | why |
+|---|---|---|
+| on the host, refuse a forced push to `main` and the deletion of `main` and of its tags | the owner: it is a setting of the repository | "history rewrites are owner-only" stands in the log as an aside (line 13273) and in no governing page. The host can enforce it, so that the chain cannot be broken by accident |
+| a snapshot of the repository taken and dated by an outside archive, now and at each seal | the owner, or main at his word: it sends the project's name outside | an intact chain is evidence only as far as someone else can say it existed at the time (§ 9) |
+| one dated note on what `oa-distill` was and that it is superseded; and, if that copy is public anywhere, the same sentence at its door | main, and the owner for the copy | the owner and the agy lane's description both tripped on it |
+| nothing else | | |
+
+**What already guards it.** Five of main's gates pin a commit by its full id and refuse where the head does not
+descend from it (`APPEND_ONLY_FROM`, `ATTRIBUTION_FROM`, `SEAL_IMMUTABLE_FROM`, `ARTIFACT_HASHES_IMMUTABLE_FROM`,
+`HASH_LISTS_BY_CONTENT_FROM`); four of the pins are of 2026-11-10. A rewriting from before those commits would turn
+them red at the next push. The fourth patch of this seat's first series adds one more of the kind.
+
+**The one history question that is real is another one.** § 7 counted 2,285 commit messages that name a vendor or a
+model or carry a co-author line, and 15 commits authored under a vendor's name. The answer is the same: they are not
+rewritten. Main's sentence on how the work was done (B1888 § 4 G) says it openly, and that is the honest form.
+
