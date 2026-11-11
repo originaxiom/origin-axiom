@@ -889,7 +889,47 @@ def gate_tracked_deps(_plant=None):
     return True, "ok"
 
 
-def gate_test_vacuity():
+_LOCK_FILE = re.compile(r"(^|/)test_[^/]*\.py$")
+
+
+def locks_that_left(anchor=None, repo=None, named=None):
+    """the lock files (tracked files named test_*.py, in tests/ or in an arc) the repository has held since the anchor and
+    holds no longer.  A lock that was moved is where it went, and has not left.  Returns (problem, note), as left_the_ledger
+    does; the named ones are under "locks" in LEFT_BY_NAME."""
+    anchor = anchor or NOTHING_LEAVES_FROM
+    repo = str(repo or ROOT)
+    git, why = _since_the_anchor(anchor, repo)
+    if why:
+        return why, ""
+    held = {n for n in git("ls-tree", "-r", "--name-only", anchor).stdout.splitlines() if _LOCK_FILE.search(n)}
+    moved = {}
+    log = git("log", "--first-parent", "--reverse", "-M", "--name-status", "--format=", f"{anchor}..HEAD", "--", ":(glob)**/test_*.py")
+    for line in log.stdout.splitlines():
+        parts = line.split("\t")
+        if parts[0].startswith("R") and len(parts) == 3:
+            moved[parts[1]] = parts[2]
+            held.add(parts[2])
+        elif parts[0].startswith(("A", "C")):
+            held.add(parts[-1])
+    tracked = set(git("ls-files", "--", ":(glob)**/test_*.py").stdout.splitlines())
+
+    def there(n):
+        return n in tracked and os.path.isfile(os.path.join(repo, n))
+
+    def still(n, seen=()):
+        return there(n) or (n in moved and n not in seen and still(moved[n], seen + (n,)))
+    named = LEFT_BY_NAME.get("locks", {}) if named is None else named
+    gone = sorted(n for n in held if not still(n))
+    loose = [n for n in gone if not str(named.get(n, "")).strip()]
+    by_name = [n for n in gone if n not in loose]
+    note = f"; {len(by_name)} lock file(s) left by name since {anchor[:9]}: " + "; ".join(f"{n} ({named[n]})" for n in by_name[:4]) if by_name else ""
+    if loose:
+        return (f"{len(loose)} lock file(s) left the repository since {anchor[:9]} with no record: " + "; ".join(loose[:4])
+                + ". A lock is not deleted without a recorded retirement: put it back, or name it under 'locks' in LEFT_BY_NAME with its date and why"), note
+    return None, note
+
+
+def gate_test_vacuity(_anchor=None):
     """No test may be unconditionally-passing: no NO-ASSERT, no TAUTOLOGY.
 
     The programme's ledger already carries this failure twice (E31 vacuous verification; MB12
@@ -913,7 +953,12 @@ def gate_test_vacuity():
     if problems:
         return False, f"{len(problems)} unconditionally-passing test(s): " + \
                       "; ".join(problems[:5])
-    return True, f"ok ({total} tests, 0 vacuous; {len(both_lit)} both-literal for review)"
+    # PV12 (WP-0.7): this gate counts the tests that cannot fail among the tests present, and with every lock deleted it
+    # counted none among none and passed.  A lock does not leave without a recorded retirement.
+    gone, note = locks_that_left(_anchor)
+    if gone:
+        return False, gone
+    return True, f"ok ({total} tests, 0 vacuous; {len(both_lit)} both-literal for review)" + note
 
 
 def gate_views_generated():
@@ -2877,12 +2922,12 @@ GATES = {
 # every gate NOT listed here must give the same answer with git as without it, so a new gate that calls git and is not listed
 # fails that lock; and a gate listed as reading the tracked files only may not call a git command that reads the past.
 READS_TRACKED = frozenset({                       # asks git which files are tracked, and nothing of the past
-    "arrival-phrases", "path-refs", "test-vacuity", "tracked-deps", "tracked-forbidden"})
+    "arrival-phrases", "path-refs", "tracked-deps", "tracked-forbidden"})
 READS_HISTORY = frozenset({                       # reads commits before HEAD, or other seats' branches
     "append-only", "artifact-hashes", "attribution", "closure-generated", "harvest-debt", "lead-debt",
     "log-changelog-paired", "point-debt", "relay-debt", "review-fires", "seal-immutable", "seal-order-unshown", "views-fresh",
     "views-generated",                            # the four debt gates: the commit's day, and that time has not run backwards
-    "chain-locks", "identification-register", "law-map-provenance", "retraction-sweep"})     # nothing leaves a ledger: what a page has held since NOTHING_LEAVES_FROM
+    "chain-locks", "identification-register", "law-map-provenance", "retraction-sweep", "test-vacuity"})     # nothing leaves a ledger: what a page has held since NOTHING_LEAVES_FROM
 READS_GIT = READS_TRACKED | READS_HISTORY
 
 

@@ -313,3 +313,60 @@ def test_the_rule_of_the_raises_on_its_own():
     assert "removed or changed" in g.baseline_rise({"unearned": 5, "_baseline_raises": []}, then)[0]
     assert "does not go up" in g.baseline_rise(grow(5, [r(6, 5)]), then)[0]
     assert g.baseline_rise(grow(99, []), None) == (None, "")                             # no baseline at the anchor: not re-judged
+
+
+# ---- PV12: the locks themselves -----------------------------------------------------------------------------------------
+_LOCK = "def test_%s():\n    assert sum([1, 2]) == 3\n"
+_LOCKS = {"tests/test_one.py": _LOCK % "one", "tests/test_two.py": _LOCK % "two", "frontier/B11_an_arc/verification/test_b11_an_arc.py": _LOCK % "three"}
+
+
+def test_every_lock_deleted_turns_the_vacuity_gate_red(tmp_path):
+    """PV12 as planted.  The gate counted the tests that cannot fail among the tests present; among none it counted none."""
+    repo, anchor = _scratch(tmp_path, _LOCKS)
+    ok, detail = _gate(repo, "test-vacuity", anchor)
+    assert ok is True and "2 tests, 0 vacuous" in detail and "by name" not in detail
+    _commit(repo, "every lock in tests/ deleted", delete=["tests/test_one.py", "tests/test_two.py"])
+    ok, detail = _gate(repo, "test-vacuity", anchor)
+    assert ok is False and "2 lock file(s) left the repository" in detail and "tests/test_one.py" in detail
+
+
+def test_one_lock_deleted_turns_the_gate_red_unless_its_retirement_is_recorded(tmp_path):
+    repo, anchor = _scratch(tmp_path, _LOCKS)
+    _commit(repo, "an arc's own lock deleted", delete=["frontier/B11_an_arc/verification/test_b11_an_arc.py"])
+    ok, detail = _gate(repo, "test-vacuity", anchor)
+    assert ok is False and "1 lock file(s) left" in detail and "test_b11_an_arc.py" in detail
+    _name_in_the_gate(repo, "locks", "frontier/B11_an_arc/verification/test_b11_an_arc.py", "2026-11-11 -- the arc is retracted (B12); its lock retired with it")
+    _commit(repo, "the retirement recorded")
+    ok, detail = _gate(repo, "test-vacuity", anchor)
+    assert ok is True and "1 lock file(s) left by name" in detail and "retired with it" in detail
+
+
+def test_a_lock_that_is_moved_has_not_left_and_one_added_and_dropped_has(tmp_path):
+    repo, anchor = _scratch(tmp_path, _LOCKS)
+    _git(repo, "mv", "tests/test_one.py", "tests/test_one_renamed.py")
+    _commit(repo, "a lock renamed")
+    assert _gate(repo, "test-vacuity", anchor)[0] is True
+    _git(repo, "mv", "tests/test_one_renamed.py", "tests/test_one_again.py")
+    _commit(repo, "and renamed again")
+    assert _gate(repo, "test-vacuity", anchor)[0] is True
+    _commit(repo, "a lock added after the anchor", {"tests/test_late.py": _LOCK % "late"})
+    _commit(repo, "and dropped", delete=["tests/test_late.py"])
+    ok, detail = _gate(repo, "test-vacuity", anchor)
+    assert ok is False and "tests/test_late.py" in detail and "test_one" not in detail
+
+
+def test_a_lock_gone_from_the_disk_or_from_the_index_has_left_before_any_commit_says_so(tmp_path):
+    repo, anchor = _scratch(tmp_path, _LOCKS)
+    (repo / "tests" / "test_two.py").unlink()                                   # deleted, not committed
+    ok, detail = _gate(repo, "test-vacuity", anchor)
+    assert ok is False and "tests/test_two.py" in detail
+    _git(repo, "checkout", "--", "tests/test_two.py")
+    assert _gate(repo, "test-vacuity", anchor)[0] is True
+    _git(repo, "rm", "-q", "--cached", "tests/test_two.py")                     # on the disk still, and no longer tracked
+    ok, detail = _gate(repo, "test-vacuity", anchor)
+    assert ok is False and "tests/test_two.py" in detail
+
+
+def test_on_main_no_lock_has_left_since_the_anchor():
+    g = _gates()
+    assert g.locks_that_left() == (None, "")
