@@ -1,0 +1,56 @@
+K0  trapezoid against mpmath, largest error relative to exp(-pi R/2): 7.96e-11 (rule 1e-9)
+C1  golden coefficients at R0 (a_1 = 1): {'a2': np.float64(-0.0), 'a3': np.float64(-0.0), 'a4': np.float64(1.0), 'a5': np.float64(-1.0), 'a9': np.float64(1.0), 'a11': np.float64(-1.1131839579)}; largest error 8.89e-13 (rule 1e-6)
+C3  automorphy error at R0 + 0.1, class (-1,-1): 2.61e-01 (rule above 1e-3)
+CLASS (sigma, epsilon) = (-1, -1): 10 eigenvalues to R = 11; 0 failed the second truncation; 67 sign changes rejected
+    R = 3.2642513026  (error 1.8e-13; a_1 = 1; next coefficient 2.4e-14; automorphy 4.7e-13)
+    R = 4.8937812914  (error 7.1e-15; a_2 = 1, a_1 = 1; next coefficient 5.3e-16; automorphy 3.5e-15)
+    R = 6.2149037377  (error 1.4e-14; a_2 = 1, a_1 = 1; next coefficient 8.2e-16; automorphy 5.4e-14)
+    R = 6.9638742407  (error 8.9e-16; a_1 = 1, a_2 = 1; next coefficient 2.1e-14; automorphy 9.8e-15)
+    R = 7.7360920284  (error 4.9e-14; a_1 = 1, a_2 = 1; next coefficient 1.1e-13; automorphy 1.8e-13)
+    R = 8.7545035832  (error 7.5e-14; a_1 = 1, a_2 = 1; next coefficient 1.3e-12; automorphy 2.4e-12)
+    R = 8.9232624074  (error 1.8e-12; a_2 = 1, a_1 = 1; next coefficient 5.6e-12; automorphy 1.3e-12)
+    R = 9.7927539079  (error 1.8e-12; a_1 = 1; next coefficient 2.6e-12; automorphy 6.9e-11)
+    R = 10.0596584255  (error 6.6e-13; a_1 = 1, a_2 = 1; next coefficient 1.4e-12; automorphy 1.9e-11)
+    R = 10.5733379644  (error 4.2e-11; a_1 = 1, a_2 = 1; next coefficient 2.2e-11; automorphy 1.3e-11)
+CLASS (sigma, epsilon) = (-1, +1): 8 eigenvalues to R = 11; 0 failed the second truncation; 63 sign changes rejected
+    R = 4.8937812914  (error 1.6e-14; a_2 = 1, a_1 = 1; next coefficient 4.7e-15; automorphy 6.1e-14)
+    R = 6.2149037377  (error 3.0e-14; a_1 = 1, a_2 = 1; next coefficient 3.3e-13; automorphy 3.5e-13)
+    R = 6.9638742407  (error 0.0e+00; a_2 = 1, a_1 = 1; next coefficient 5.7e-13; automorphy 1.5e-13)
+    R = 7.7360920284  (error 1.3e-14; a_1 = 1, a_2 = 1; next coefficient 5.8e-14; automorphy 1.5e-13)
+    R = 8.7545035832  (error 4.9e-12; a_1 = 1, a_2 = 1; next coefficient 5.3e-11; automorphy 3.1e-11)
+    R = 8.9232624074  (error 5.6e-13; a_1 = 1; next coefficient 3.2e-12; automorphy 4.4e-12)
+    R = 10.0596584255  (error 2.1e-13; a_1 = 1, a_2 = 1; next coefficient 3.8e-12; automorphy 3.2e-12)
+    R = 10.5733379644  (error 7.5e-11; a_2 = 1, a_1 = 1; next coefficient 1.9e-10; automorphy 1.1e-10)
+CLASS (sigma, epsilon) = (+1, -1): 3 eigenvalues to R = 11; 1 failed the second truncation; 72 sign changes rejected
+    R = 7.4946304901  (error 1.6e-14; a_1 = 1; next coefficient 3.5e-14; automorphy 7.9e-14)
+    R = 10.1305739828  (error 9.1e-12; a_2 = 1; next coefficient 1.1e-10; automorphy 2.1e-10)
+    R = 10.9484540107  (error 6.2e-13; a_2 = 1, a_1 = 1; next coefficient 4.7e-10; automorphy 6.1e-10)
+    not confirmed by the second truncation: R = 9.2608655254 (None)
+CLASS (sigma, epsilon) = (+1, +1): 4 eigenvalues to R = 11; 1 failed the second truncation; 67 sign changes rejected
+    R = 6.5285026053  (error 4.0e-14; a_1 = 1; next coefficient 1.7e-13; automorphy 1.6e-13)
+    R = 9.2608655254  (error 1.2e-13; a_1 = 1, a_2 = 1; next coefficient 8.2e-14; automorphy 4.9e-12)
+    R = 10.1305739828  (error 3.8e-12; a_2 = 1; next coefficient 1.1e-10; automorphy 1.2e-10)
+    R = 10.9484540107  (error 1.2e-11; a_1 = 1, a_2 = 1; next coefficient 7.1e-11; automorphy 9.3e-11)
+    not confirmed by the second truncation: R = 7.4946304901 (None)
+L   lowest by class: {'(-1, -1)': 3.2642513026363216, '(-1, 1)': 4.893781291438453, '(1, -1)': 7.494630490056716, '(1, 1)': 6.528502605272951}; R0 = 3.2642513026; HOLDS
+S   at R0, the two smallest scaled singular values over the median, by class: {'(-1, -1)': [1.6935022304447485e-15, 0.9369078275803633], '(-1, 1)': [0.738688477221752, 0.9322107436646513], '(1, -1)': [0.22759942033785283, 0.9389282937303449], '(1, 1)': [0.06336404649510084, 0.9295965840814573]}; HOLDS
+C2  classes carrying the next forms of the golden field: {'pi/ln phi': ['(1, 1)'], '3 pi/(2 ln phi)': ['(-1, -1)']}
+X   exceptional eigenvalues R = i t, 0 < t < 1/2, by class: {'(-1, -1)': {'found': [], 'rejected': 0}, '(-1, 1)': {'found': [], 'rejected': 0}, '(1, -1)': {'found': [], 'rejected': 0}, '(1, 1)': {'found': [], 'rejected': 0}}; HOLDS
+REPORTED  states to R = 11: 25; distinct values: 15
+    3.2642513026  [(-1, -1)]
+    4.8937812914  [(-1, -1), (-1, 1)]   doublet
+    6.2149037377  [(-1, 1), (-1, -1)]   doublet
+    6.5285026053  [(1, 1)]
+    6.9638742407  [(-1, 1), (-1, -1)]   doublet
+    7.4946304901  [(1, -1)]
+    7.7360920284  [(-1, 1), (-1, -1)]   doublet
+    8.7545035832  [(-1, -1), (-1, 1)]   doublet
+    8.9232624074  [(-1, -1), (-1, 1)]   doublet
+    9.2608655254  [(1, 1)]
+    9.7927539079  [(-1, -1)]
+    10.0596584255  [(-1, 1), (-1, -1)]   doublet
+    10.1305739828  [(1, -1), (1, 1)]   doublet
+    10.5733379644  [(-1, 1), (-1, -1)]   doublet
+    10.9484540107  [(1, -1), (1, 1)]   doublet
+REPORTED  the lane's value 5.8442600315: {'(-1, -1)': {'nearest_eigenvalue_distance': 0.3706437062076766, 'smallest_scaled_singular': 0.24278530560275566}, '(-1, 1)': {'nearest_eigenvalue_distance': 0.3706437062076642, 'smallest_scaled_singular': 0.3298150989379231}, '(1, -1)': {'nearest_eigenvalue_distance': 1.6503704585567158, 'smallest_scaled_singular': 0.1171277684038759}, '(1, 1)': {'nearest_eigenvalue_distance': 0.6842425737729512, 'smallest_scaled_singular': 0.2882605379148182}}
+REPORTED  the lane's value 6.6632356489: {'(-1, -1)': {'nearest_eigenvalue_distance': 0.30063859178007846, 'smallest_scaled_singular': 0.4842079867764433}, '(-1, 1)': {'nearest_eigenvalue_distance': 0.3006385917800696, 'smallest_scaled_singular': 0.14006335691066343}, '(1, -1)': {'nearest_eigenvalue_distance': 0.8313948411567162, 'smallest_scaled_singular': 0.1852181063921989}, '(1, 1)': {'nearest_eigenvalue_distance': 0.1347330436270484, 'smallest_scaled_singular': 0.0034910328662665522}}
