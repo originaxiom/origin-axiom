@@ -258,3 +258,13 @@ for text files and STATE-b with the residual below.
 | GEN-a | A generated page is compared with its builder in every clone. Where a clone lacks another seat's commits, only the check that needs them is skipped, and the gate's line says so; the page itself is the same in every clone. | One count changed by hand on the generated programme page, in a clone that does not hold the advisor seat's commits (re-audit 5, g1): refused. |
 | HASH-d | A list of hashed files inside a page or a data file is read, or the family is listed with the reason it is not a seal. | A list of hashes in a `.md` page of a new arc; its instrument changed after the seal (t7c): refused. |
 | VAC-a | A test that cannot fail is refused or counted, and a count of such tests does not fall because a test was reshaped: it falls when the test reads something the arc's own code produces, or is deleted and its sentence counted as unlocked. | `assert 73 * 2 == 146` (q3): refused or counted. `slope = sp.Rational(73, 50); assert int(slope * 100) == 146` (q2): counted the same. |
+
+## 17. The order before the card (added 2026-11-11, with the scoreboard page)
+
+Source: `ADVISOR_TO_CC_2026-11-11_THE_SCOREBOARD_PAGE.md`, § 4, read from main's own programme at `8f0b03814`. There
+the sealed card and the comparison wait on 40 of the other 42 packages, and WP-0.8, which holds the audit's thirteen
+errors in the mathematics or its code, is not one of them.
+
+| Item | Accepted when | The test |
+|---|---|---|
+| ORD-a | The sealed card waits on the audit's errors in the mathematics. Either the package that holds them is needed by the card or by the upstream audit, or each finding of kind E is shown by name not to lie under any input of the card. | Not yet run. In a scratch clone: a card package that does not rest on WP-0.8 while a finding of kind E is not FIXED. Accepted if the builder refuses it or prints it on the programme page as an open risk. |

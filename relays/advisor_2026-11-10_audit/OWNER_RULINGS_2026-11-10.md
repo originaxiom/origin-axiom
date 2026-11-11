@@ -338,9 +338,11 @@ relayed. From here this file follows that form and this seat asks him nothing.
 | what he was answering | his words |
 |---|---|
 | nothing: a question of his own to this seat, while it was at work on the six items | "how far are we from our initial goal of getting 100% ready for the final reading? the dynamic scoreboard we talked?" |
+| the last line of the seat's answer to that question: "I can also build the visual version as a read-only page from the same files; I have not started it." | "doit" |
 
-The seat answered from main's own generated files (`tools/where_we_stand.py`) and relayed the question and the answer
-to main in `ADVISOR_TO_CC_2026-11-11_SIX_ITEMS.md`, § 4.
+The seat answered the first from main's own generated files (`tools/where_we_stand.py`) and relayed the question and
+the answer to main in `ADVISOR_TO_CC_2026-11-11_SIX_ITEMS.md`, § 4. On the second it built the page (`scoreboard/`)
+and relayed his word and what was built in `ADVISOR_TO_CC_2026-11-11_THE_SCOREBOARD_PAGE.md`. He was asked nothing.
 
 ## The roles
 
