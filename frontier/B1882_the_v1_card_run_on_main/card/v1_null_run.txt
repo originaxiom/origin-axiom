@@ -1,0 +1,83 @@
+THE V1 CARD, stage null; this script sha256 beef66a2caa96fae
+   25 of 500 seeds (510 s)
+   50 of 500 seeds (869 s)
+   75 of 500 seeds (1268 s)
+   100 of 500 seeds (1682 s)
+   125 of 500 seeds (2102 s)
+   150 of 500 seeds (2518 s)
+   175 of 500 seeds (2928 s)
+   200 of 500 seeds (3339 s)
+   225 of 500 seeds (3869 s)
+   250 of 500 seeds (4257 s)
+   275 of 500 seeds (4730 s)
+   300 of 500 seeds (5113 s)
+   325 of 500 seeds (5539 s)
+   350 of 500 seeds (5975 s)
+   375 of 500 seeds (6369 s)
+   400 of 500 seeds (6787 s)
+   425 of 500 seeds (7263 s)
+   450 of 500 seeds (7733 s)
+   475 of 500 seeds (8287 s)
+   500 of 500 seeds (8625 s)
+N1 wf|seat    best 0.1% of 1000000 targets (1000):
+      bottom end: lost without layer 1:    4, loss 0.0040 [0.0011, 0.0102]; rows' share 0.0667; ratio 0.06   (best row there: 4; lost without layer 3 instead: 15)
+      top    end: lost without layer 1:  109, loss 0.1090 [0.0904, 0.1300]; rows' share 0.0667; ratio 1.64   (best row there: 111; lost without layer 3 instead: 151)
+      where the best rows lie, share by height: 2.05 0.004  2.15 0.007  2.25 0.015  2.35 0.019  2.45 0.026  2.55 0.044  2.65 0.035  2.75 0.077  2.85 0.077  2.95 0.090  3.05 0.097  3.15 0.111  3.25 0.152  3.35 0.135  3.45 0.111
+      ALL targets, best row on: bottom layer 1 0.0026, top layer 1 0.2059, both 0.2085
+      DECISIVE CELL -> B: an end is like other rows (bottom C, top B)
+N1 wf|cov     best 0.1% of 1000000 targets (1000):
+      bottom end: lost without layer 1:   12, loss 0.0120 [0.0062, 0.0209]; rows' share 0.0667; ratio 0.18   (best row there: 12; lost without layer 3 instead: 17)
+      top    end: lost without layer 1:  130, loss 0.1300 [0.1098, 0.1524]; rows' share 0.0667; ratio 1.95   (best row there: 130; lost without layer 3 instead: 151)
+      where the best rows lie, share by height: 2.05 0.012  2.15 0.006  2.25 0.018  2.35 0.030  2.45 0.031  2.55 0.041  2.65 0.056  2.75 0.076  2.85 0.073  2.95 0.064  3.05 0.093  3.15 0.096  3.25 0.151  3.35 0.123  3.45 0.130
+      ALL targets, best row on: bottom layer 1 0.0108, top layer 1 0.2589, both 0.2697
+N1 wf|free    best 0.1% of 1000000 targets (1000):
+      bottom end: lost without layer 1:    3, loss 0.0030 [0.0006, 0.0087]; rows' share 0.0667; ratio 0.04   (best row there: 3; lost without layer 3 instead: 12)
+      top    end: lost without layer 1:  128, loss 0.1280 [0.1079, 0.1503]; rows' share 0.0667; ratio 1.92   (best row there: 129; lost without layer 3 instead: 152)
+      where the best rows lie, share by height: 2.05 0.003  2.15 0.004  2.25 0.013  2.35 0.019  2.45 0.024  2.55 0.035  2.65 0.052  2.75 0.054  2.85 0.069  2.95 0.081  3.05 0.093  3.15 0.123  3.25 0.154  3.35 0.147  3.45 0.129
+      ALL targets, best row on: bottom layer 1 0.0042, top layer 1 0.2218, both 0.2261
+N2 chi2|seat  best 0.1% of 1000000 targets (1000):
+      bottom end: lost without layer 1:    6, loss 0.0060 [0.0022, 0.0130]; rows' share 0.0717; ratio 0.08   (best row there: 6; lost without layer 3 instead: 4)
+      top    end: lost without layer 1:  134, loss 0.1340 [0.1135, 0.1567]; rows' share 0.0673; ratio 1.99   (best row there: 144; lost without layer 3 instead: 109)
+      where the best rows lie, share by height: [2.0, 2.2) 0.014  [2.2, 2.4) 0.033  [2.4, 2.6) 0.128  [2.6, 2.8) 0.144  [2.8, 3.0) 0.185  [3.0, 3.2) 0.180  [3.2, 3.4) 0.189  [3.4, 3.6) 0.127
+      ALL targets, best row on: bottom layer 1 0.0006, top layer 1 0.2524, both 0.2530
+      DECISIVE CELL -> B: an end is like other rows (bottom C, top B)
+N2 chi2|cov   best 0.1% of 1000000 targets (1000):
+      bottom end: lost without layer 1:    4, loss 0.0040 [0.0011, 0.0102]; rows' share 0.0717; ratio 0.06   (best row there: 5; lost without layer 3 instead: 9)
+      top    end: lost without layer 1:  140, loss 0.1400 [0.1191, 0.1631]; rows' share 0.0673; ratio 2.08   (best row there: 148; lost without layer 3 instead: 112)
+      where the best rows lie, share by height: [2.0, 2.2) 0.018  [2.2, 2.4) 0.048  [2.4, 2.6) 0.119  [2.6, 2.8) 0.152  [2.8, 3.0) 0.176  [3.0, 3.2) 0.171  [3.2, 3.4) 0.185  [3.4, 3.6) 0.131
+      ALL targets, best row on: bottom layer 1 0.0033, top layer 1 0.3296, both 0.3329
+N2 chi2|free  best 0.1% of 1000000 targets (1000):
+      bottom end: lost without layer 1:    7, loss 0.0070 [0.0028, 0.0144]; rows' share 0.0717; ratio 0.10   (best row there: 7; lost without layer 3 instead: 9)
+      top    end: lost without layer 1:  143, loss 0.1430 [0.1219, 0.1662]; rows' share 0.0673; ratio 2.13   (best row there: 149; lost without layer 3 instead: 105)
+      where the best rows lie, share by height: [2.0, 2.2) 0.018  [2.2, 2.4) 0.038  [2.4, 2.6) 0.122  [2.6, 2.8) 0.153  [2.8, 3.0) 0.187  [3.0, 3.2) 0.165  [3.2, 3.4) 0.183  [3.4, 3.6) 0.134
+      ALL targets, best row on: bottom layer 1 0.0009, top layer 1 0.2534, both 0.2543
+N2 wf|seat    best 0.1% of 1000000 targets (1000):
+      bottom end: lost without layer 1:    6, loss 0.0060 [0.0022, 0.0130]; rows' share 0.0717; ratio 0.08   (best row there: 7; lost without layer 3 instead: 4)
+      top    end: lost without layer 1:  132, loss 0.1320 [0.1116, 0.1546]; rows' share 0.0673; ratio 1.96   (best row there: 138; lost without layer 3 instead: 107)
+      where the best rows lie, share by height: [2.0, 2.2) 0.014  [2.2, 2.4) 0.033  [2.4, 2.6) 0.133  [2.6, 2.8) 0.157  [2.8, 3.0) 0.184  [3.0, 3.2) 0.166  [3.2, 3.4) 0.189  [3.4, 3.6) 0.124
+      ALL targets, best row on: bottom layer 1 0.0005, top layer 1 0.1764, both 0.1768
+      DECISIVE CELL -> B: an end is like other rows (bottom C, top B)
+N2 wf|cov     best 0.1% of 1000000 targets (1000):
+      bottom end: lost without layer 1:    7, loss 0.0070 [0.0028, 0.0144]; rows' share 0.0717; ratio 0.10   (best row there: 8; lost without layer 3 instead: 7)
+      top    end: lost without layer 1:  159, loss 0.1590 [0.1369, 0.1832]; rows' share 0.0673; ratio 2.36   (best row there: 162; lost without layer 3 instead: 108)
+      where the best rows lie, share by height: [2.0, 2.2) 0.019  [2.2, 2.4) 0.041  [2.4, 2.6) 0.127  [2.6, 2.8) 0.158  [2.8, 3.0) 0.172  [3.0, 3.2) 0.165  [3.2, 3.4) 0.171  [3.4, 3.6) 0.147
+      ALL targets, best row on: bottom layer 1 0.0032, top layer 1 0.2946, both 0.2978
+N2 wf|free    best 0.1% of 1000000 targets (1000):
+      bottom end: lost without layer 1:    6, loss 0.0060 [0.0022, 0.0130]; rows' share 0.0717; ratio 0.08   (best row there: 7; lost without layer 3 instead: 6)
+      top    end: lost without layer 1:  159, loss 0.1590 [0.1369, 0.1832]; rows' share 0.0673; ratio 2.36   (best row there: 164; lost without layer 3 instead: 102)
+      where the best rows lie, share by height: [2.0, 2.2) 0.017  [2.2, 2.4) 0.033  [2.4, 2.6) 0.112  [2.6, 2.8) 0.158  [2.8, 3.0) 0.182  [3.0, 3.2) 0.174  [3.2, 3.4) 0.180  [3.4, 3.6) 0.144
+      ALL targets, best row on: bottom layer 1 0.0008, top layer 1 0.1775, both 0.1783
+the audit's figure, candidates: N1 wf|seat | top layer 1 | banked_seeds                            0.2037
+the audit's figure, candidates: N1 wf|seat | top layer 1 | all_seeds                               0.2059
+the audit's figure, candidates: N1 wf|seat | both ends, layer 1 | banked_seeds                     0.2064
+the audit's figure, candidates: N1 wf|seat | both ends, layer 1 | all_seeds                        0.2085
+the audit's figure, candidates: N2 chi2|seat | top layer 1 | banked_seeds                          0.2531
+the audit's figure, candidates: N2 chi2|seat | top layer 1 | all_seeds                             0.2524
+the audit's figure, candidates: N2 chi2|seat | Im tau [3.4, 3.6) | banked_seeds                    0.2352
+the audit's figure, candidates: N2 chi2|seat | Im tau [3.4, 3.6) | all_seeds                       0.2349
+the audit's figure, candidates: N2 chi2|seat | the ten highest heights | banked_seeds              0.2761
+the audit's figure, candidates: N2 chi2|seat | the ten highest heights | all_seeds                 0.2754
+the audit's figure, candidates: N2 wf|seat | top layer 1 | banked_seeds                            0.1747
+the audit's figure, candidates: N2 wf|seat | top layer 1 | all_seeds                               0.1764
+the audit's 20% reproduced by one of them (17% to 23%): True
+null exit 0
