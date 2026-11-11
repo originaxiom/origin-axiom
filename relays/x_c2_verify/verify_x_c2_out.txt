@@ -1,0 +1,5 @@
+CARD X-C2 INDEPENDENT VERIFICATION OUTPUT
+controls_all_fired: True
+row 1464 (@ f1a60708): REPRODUCED | C1=True | orders={'2': 3, '5': 10, '10': 30, '25': 50, '30': 60} | noncentral_proj_conj=100
+row 1516 (@ e40d0fb1): DIFFERS | C2=True | census={'order_le_12_mod_sign': 266, 'slope_lines': 40, 'slope_12p2_int': 36, 'slope_12p2_nonint': 4, 'quark_re0_zero_lines': 18, 'quark_re0_ord12': 16, 'quark_re0_ord4': 2, 'll_re0_zero_lines': 8} | hyp_a=95,95,7,0 | literal_fail=48
+row 1640 (@ 3c34dd90): REPRODUCED | C3=True | candidates=13 | qualifying=0 | sec7_commits=23

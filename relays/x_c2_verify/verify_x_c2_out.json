@@ -1,0 +1,167 @@
+{
+  "card": "X-C2",
+  "seat": "agy-exp",
+  "controls_all_fired": true,
+  "results": [
+    {
+      "row": 1464,
+      "commit_read": "f1a60708",
+      "verdict": "REPRODUCED",
+      "control_C1_fired": true,
+      "det_LR_minus_I": 1,
+      "det_RL_minus_I": 1,
+      "su5_conjugacy_collisions": 0,
+      "strict_no_conj": {
+        "total": 1,
+        "central": 1,
+        "noncentral_any": 0,
+        "noncentral_order25": 0
+      },
+      "strict_with_conj": {
+        "total": 5,
+        "central": 5,
+        "noncentral_any": 0,
+        "noncentral_order25": 0
+      },
+      "proj_no_conj": {
+        "total": 25,
+        "central": 25,
+        "noncentral_any": 0,
+        "noncentral_order25": 0
+      },
+      "proj_with_conj": {
+        "total": 125,
+        "central": 25,
+        "noncentral_any": 100,
+        "noncentral_order25": 100
+      },
+      "orders_mod_N": {
+        "2": 3,
+        "5": 10,
+        "10": 30,
+        "25": 50,
+        "30": 60
+      },
+      "min_k_plus": {
+        "2": [
+          3
+        ],
+        "5": [
+          2,
+          10
+        ],
+        "10": [
+          6,
+          30
+        ],
+        "25": [
+          10,
+          50
+        ],
+        "30": [
+          12,
+          60
+        ]
+      },
+      "min_k_minus": {
+        "2": [
+          3
+        ],
+        "5": [
+          1,
+          5
+        ],
+        "10": [
+          3,
+          15
+        ],
+        "25": [
+          5,
+          25
+        ],
+        "30": []
+      },
+      "counted_class_std_periods_plus": [
+        6,
+        30,
+        30,
+        30,
+        30
+      ],
+      "counted_class_std_periods_minus": [
+        3,
+        15,
+        15,
+        15,
+        15
+      ],
+      "gl2z_moves_all_5_to_30": true,
+      "gl2z_moves_order25_carrier_to_10": true,
+      "w176_bound_vs_equality": {
+        "abs_tr_minus_2": 2,
+        "fixed_count": 2,
+        "dividing_order_count": 4
+      }
+    },
+    {
+      "row": 1516,
+      "commit_read": "e40d0fb1",
+      "verdict": "DIFFERS",
+      "section_6_firewall_note": "CANNOT CHECK on section 6's disclosed empirical ratio comparison (excluded under M1 firewall; sections 1-5 and 7 are pure mathematics and REPRODUCED in full)",
+      "control_C2_fired": true,
+      "max_multiplier_err_log10": -49,
+      "max_liouville_ratio_err_log10": -50,
+      "max_S_invariance_err_log10": -49,
+      "quad_vs_series_err_log10": -13,
+      "max_pair_sum_err_log10": -49,
+      "census_counts": {
+        "order_le_12_mod_sign": 266,
+        "slope_lines": 40,
+        "slope_12p2_int": 36,
+        "slope_12p2_nonint": 4,
+        "quark_re0_zero_lines": 18,
+        "quark_re0_ord12": 16,
+        "quark_re0_ord4": 2,
+        "ll_re0_zero_lines": 8
+      },
+      "hyp_a_counts": {
+        "total_cases": 183,
+        "min_margin_jk": "0",
+        "min_margin_1i": "0",
+        "ties_jk": 95,
+        "ties_1i": 95,
+        "ties_both": 7,
+        "ties_neither": 0,
+        "literal_wording_failures_le_20": 48,
+        "literal_wording_failures_le_12": [
+          "3/11:down",
+          "2/7:down",
+          "3/10:down",
+          "3/10:lep",
+          "4/11:up",
+          "4/11:down",
+          "4/11:lep",
+          "3/8:up",
+          "2/5:up"
+        ]
+      },
+      "max_laurent_parity_err_log10": -50,
+      "gauss_digamma_err_log10": -50
+    },
+    {
+      "row": 1640,
+      "commit_read": "3c34dd90",
+      "verdict": "REPRODUCED",
+      "control_C3_fired": true,
+      "stationarity_grad_i_log10": -33,
+      "stationarity_grad_omega_log10": -33,
+      "elliptic_fixed_points_N_4_to_30": 0,
+      "jacobi_2d_parity_err_log10": -50,
+      "exact_6d_parity_coeff": "-15/16",
+      "eisenstein_s3_lattice_rel_err_log10": -7,
+      "candidates_graded": 13,
+      "candidates_qualifying": 0,
+      "section_7_commits_verified": 23
+    }
+  ]
+}

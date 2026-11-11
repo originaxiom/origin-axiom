@@ -1,0 +1,2 @@
+7261a640026466261223929d2924da19f42f6eb2b5cb35683786fb1a27656cfb  relays/x_c2_verify/verify_x_c2_out.json
+f5c05bd1b744b4b2f5f64599fa3c750c9d370109c2d49dedc4eb114ab0065484  relays/x_c2_verify/verify_x_c2_out.txt
