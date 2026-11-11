@@ -1,0 +1,5 @@
+level  5  R = 3.264251  greatest density over the region at 0.251540 + 0.369767 i  (inside the region: a true local maximum);  D |z|^2 = 1.00000 (on the circle);  reduced to -0.25770 + 1.84884 i;  the greatest on the region's floor is 0.945 of it
+level 13  R = 1.314734  greatest density over the region at 0.269231 + 0.066617 i  (inside the region: a true local maximum);  D |z|^2 = 1.00000 (on the circle);  reduced to +0.50000 + 0.86603 i;  the greatest on the region's floor is 0.894 of it
+level 17  R = 0.749886  greatest density over the region at 0.235294 + 0.058824 i  (inside the region: a true local maximum);  D |z|^2 = 1.00000 (on the circle);  reduced to -0.00000 + 1.00000 i;  the greatest on the region's floor is 0.980 of it
+level 29  R = 0.953598  greatest density over the region at 0.281387 + 0.068851 i  (inside the region: a true local maximum);  D |z|^2 = 2.43365 (off the circle);  reduced to +0.44257 + 1.02840 i;  the greatest on the region's floor is 0.984 of it
+post hoc exit 0
