@@ -19514,3 +19514,28 @@ computing, so it needs a ten-minute version as well.
 
 0 of 19.
 
+## 2026-11-11 — S306p: the second known error in the mathematics, and a lesson about instruments
+
+**The error.** An older result said: "we scanned along a line and refined the search, and there is no real point
+where a certain jump happens; this is now a fact." The refining step was written so that it only ran if the first
+coarse pass found nothing, and the coarse pass always found something. So the refinement never ran, and a coarse
+pass of 120 points cannot rule out something hiding between two of them.
+
+**Main's first repair did not work.** Main wrote a much finer scan with a mathematical guarantee about the gaps
+between points. It failed its own checks. The numbers in this problem differ in size by a factor of a hundred
+trillion, and the guarantee was thousands of times too weak to mean anything. The lesson: a finer version of the
+wrong tool is still the wrong tool.
+
+**The repair that works.** The four quantities involved can all be put in their simplest form at once. Once they
+are, the places where the jump happens can simply be read off, everywhere on the line and not only at sampled
+points. There are four such places, and all four are imaginary numbers. So on the real line there is none, which
+is what the old result claimed, now with a reason that holds.
+
+**A bonus.** Another seat had explained, weeks ago, why no real point could exist, and that explanation had been
+recorded as theirs without being checked here. The same computation checks it: it is right.
+
+**Which piece of the plan moved.** The errors in the mathematics: the second of nine is mended and waits for the
+audit seat's check. Seven are left.
+
+0 of 19.
+

@@ -1,5 +1,16 @@
 # Changelog
 
+## S306p THE ERRORS IN THE MATHEMATICS, THE SECOND OF THE NINE LEFT (WP-0.8): A SCAN THAT NEVER REFINED, REPLACED BY THE JOINT EIGENVALUES (E5) (2026-11-11)
+
+- **The finding.** B892 said a real-line scan, "120-point + golden-section", showed that no real point of nullity 14 exists on the line of the second measurement, "now a fact". The golden-section step sits under `if not found:`, and the grid always finds a known point, so the refinement never ran.
+- **Main's first mend failed.** A finer scan with a bound on how fast a singular value moves between grid points: three of its four checks failed. The matrices are scaled over fourteen orders of magnitude and the bound was useless. A scan is the wrong instrument for this claim.
+- **The right instrument.** The four elements commute and diagonalise together, so the nullity at every point of the line, real or complex, is read off their joint weights. On the centraliser of the first measurement, of dimension 46, twelve weights vanish on both directions and thirty on one.
+- **The result.** The nullity jumps at finite points only at four, all purely imaginary: 14 at one conjugate pair and 18 at the other. On the real line it is 12 at every point but the one known point. A direct rank computation agrees at the four walls, beside them and at six real points.
+- **Verified on main with it:** the mechanism another seat had given for why no real point exists, recorded until now as that seat's: 34 active weights in seven proportionality classes of sizes 2, 2, 6, 6, 6, 6, 6, three real and four in two conjugate pairs.
+- **The correction stands where the sentence stood,** in B892's findings and verdict line, with the old text kept, and as a dated note in B874. The script that was run is unchanged.
+- **This landing advanced** WP-0.8. The finding is mended on main and is counted as fixed only when the advisor seat has re-audited it. Seven are left. **No package closed.**
+- 0 of 19.
+
 ## S306p THE REPOSITORY'S PUBLIC FORM, SCRUTINISED AT THE OWNER'S WORD (B1888; P-787) (2026-11-11)
 
 - **Why.** The owner asked, through the advisor seat, for main's review, enrichment and scrutiny of the proposal that what is handed to the world be three parts: this repository as the archive, a small statement, and a separate check. The seat named eight places where its own proposal is weakest.

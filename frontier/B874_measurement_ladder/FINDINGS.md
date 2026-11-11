@@ -106,6 +106,10 @@ this arc's negative into a two-field statement:
   takes exactly one of a pair. The 14-locus is a conjugate pair of size-2 lines; its
   real shadow is the 16-stratum. The same argument removes real 20 and real 26 —
   B892's "no real nullity-14 point" now has a reason rather than a scan.
+  > *Dated note 2026-11-11 (the audit's finding E5; main):* the mechanism above was recorded as theirs. It is now
+  > computed on main (`frontier/B892_second_measurement/verification/walls_on_the_line.py`): the 34 active weights on
+  > z(s₁) fall into seven proportionality classes of sizes 2, 2, 6, 6, 6, 6, 6, three real and four in two conjugate
+  > pairs. And the scan it replaces had never refined, so the reason was needed more than this sentence says.
 - **The terminus is not real.** The A₂⊕A₁ point — the su(3)⊕su(2)⊕u(1)³ landing of the
   second measurement (B892's y*) — is not a real point. The Second Measurement Theorem
   lives over K̄; "skips SU(5)" is a statement over ℝ. Scope words added in place here

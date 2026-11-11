@@ -1,0 +1,26 @@
+B892: EVERY WALL ON THE LINE OF THE SECOND MEASUREMENT, FROM THE JOINT EIGENVALUES
+   dimension 78; the balancing scales the basis over a factor 3.4e+14; the joint eigenvectors' matrix has condition number 30.8
+   [ok] W1 the four ad-matrices commute and one change of basis diagonalises all four -- largest relative commutator 5.0e-18, off-diagonal part after diagonalising 2.1e-14
+   [ok] W2 ad(s1) has 46 vanishing weights; 12 of them vanish on x14 and x16 too, and 30 on x16 -- 46, 12, 30; the smallest weight of s1 that does not vanish is 1.000 of the largest
+   the walls at finite t = -weight(x14)/weight(x16), in the normalisation of B854's invariants:
+      t = -0.0464130116 i   (its weights agree to 3.0e-16): 6 weights, nullity 18
+      t = +0.0464130116 i   (its weights agree to 3.0e-16): 6 weights, nullity 18
+      t = -0.0515261607 i   (its weights agree to 1.3e-16): 2 weights, nullity 14
+      t = +0.0515261607 i   (its weights agree to 3.4e-28): 2 weights, nullity 14
+   [ok] W3 the walls at finite t are four, all purely imaginary: nullity 14 at a conjugate pair and nullity 18 at another; so on the real line the nullity is 12 at every point but pure x16 -- largest real part over modulus 5.8e-17
+   the active weights on z(s1): 34, in 7 proportionality classes of sizes [2, 2, 6, 6, 6, 6, 6]; real classes [6, 6, 6]; the others in conjugate pairs: True
+   [ok] W4 the 34 active weights fall into seven proportionality classes of sizes 2, 2, 6, 6, 6, 6, 6: three real, four in two conjugate pairs (the mechanism B874's addendum records as the solo seat's)
+      direct rank at t = -0.0464130 i       nullity 18 (from the weights: 18)
+      direct rank at t = +0.0464130 i       nullity 18 (from the weights: 18)
+      direct rank at t = -0.0515262 i       nullity 14 (from the weights: 14)
+      direct rank at t = +0.0515262 i       nullity 14 (from the weights: 14)
+      direct rank at t = 0 (real)           nullity 12 (from the weights: 12)
+      direct rank at t = 0.0515262 (real)   nullity 12 (from the weights: 12)
+      direct rank at t = -0.046413 (real)   nullity 12 (from the weights: 12)
+      direct rank at t = 1 (real)           nullity 12 (from the weights: 12)
+      direct rank at t = -7.3 (real)        nullity 12 (from the weights: 12)
+      direct rank at t = 1000 (real)        nullity 12 (from the weights: 12)
+      direct rank at pure x16               nullity 30 (from the weights: 30)
+   [ok] W5 a direct rank computation agrees with the count from the weights: at the four walls, just beside each (12), at six real points (12) and at pure x16 (30)
+
+CHECKS: 5, FAILING: 0

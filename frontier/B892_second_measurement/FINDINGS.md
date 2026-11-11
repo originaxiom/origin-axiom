@@ -38,6 +38,19 @@ prime), **derived = 11** (≥ by the prime; ≤ by the wall-centrality argument)
 - **The real-line scan** (120-point + golden-section, 30 digits): on the real (x₁₄,x₁₆)
   projective line the ONLY jump is the known plane stratum (nullity 30 at pure x₁₆); **no
   real nullity-14 point exists there** — consistent, and now a fact, not an absence.
+  > **CORRECTED 2026-11-11 (the audit's finding E5; main).** The scan did not show this. Its golden-section step sits
+  > under `if not found:`, the 120-point grid always finds the plane stratum, and so the refinement never ran. A
+  > 120-point grid cannot exclude a point between its nodes, and "now a fact" was too strong for it. **What does show
+  > it** is `verification/walls_on_the_line.py`: s₁, x₁₄, x₁₆ and x₂₂ commute and diagonalise together, so the joint
+  > nullity at every point of the line, real or complex, is read off their joint weights. On z(s₁), of dimension 46,
+  > 12 weights vanish on x₁₄ and x₁₆ (the generic nullity) and 30 on x₁₆ (the plane stratum). The nullity jumps at
+  > finite t only at four points, all purely imaginary: 14 at t = ±0.0515261607 i and 18 at t = ±0.0464130116 i, in
+  > the normalisation y = x₁₄ + t x₁₆ of B854's invariants. **So on the real line the nullity is 12 at every point but
+  > pure x₁₆.** A direct rank computation agrees at the four walls, beside them, and at six real points. It also
+  > verifies on main the mechanism B874's addendum records as the solo seat's: the 34 active weights fall into seven
+  > proportionality classes of sizes 2, 2, 6, 6, 6, 6, 6, three real and four in two conjugate pairs. Main's first
+  > attempt at a mend, a finer scan with a bound between grid points, failed its own checks: the matrices are scaled
+  > over fourteen orders of magnitude, and a scan is the wrong instrument here.
 - Reading, fenced: the second measurement's charge lives in the complexification; its real
   avatar belongs to the compact-direction story (layer 8) — connecting the SMT directly to
   W7's signature question. Whether a real wall point exists elsewhere in C: open.

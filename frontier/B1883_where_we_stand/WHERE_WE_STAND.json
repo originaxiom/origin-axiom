@@ -3,9 +3,9 @@
   "by_state": {
    "FIXED": 11,
    "OPEN": 0,
-   "PARTLY FIXED": 17,
+   "PARTLY FIXED": 18,
    "READER": 3,
-   "REPRODUCED": 42
+   "REPRODUCED": 41
   },
   "changed_by_main_since_its_re_audit": [
    "E4",

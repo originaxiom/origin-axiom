@@ -855,9 +855,13 @@
    "wp": "WP-0.8"
   },
   "E5": {
-   "note": "main's own reading: the refinement runs only when the grid finds nothing, and the grid lands on the wall, so it never runs",
+   "note": "MENDED ON MAIN, AND NOT COUNTED AS FIXED UNTIL THE ADVISOR SEAT HAS RE-AUDITED IT. The scan's sentence is corrected where it stands, in B892's findings and verdict line, with the old text kept: the golden-section step never ran, and a 120-point grid shows nothing between its nodes. What excludes a real nullity-14 point is now computed on main (B892's verification/walls_on_the_line.py): s1, x14, x16 and x22 commute and diagonalise together, so the joint nullity at every point of the line is read off their weights; it jumps at finite t only at four purely imaginary points, 14 at one conjugate pair and 18 at the other, and is 12 at every real point but pure x16, with a direct rank computation agreeing at the walls, beside them and at six real points. The same run verifies the mechanism B874's addendum records as the solo seat's: 34 active weights in seven proportionality classes of sizes 2, 2, 6, 6, 6, 6, 6, three real and two conjugate pairs. Main's first attempt, a finer scan with a bound between grid points, failed its own checks, the matrices being scaled over fourteen orders of magnitude. Before (main's own reading): the refinement runs only when the grid finds nothing, and the grid lands on the wall, so it never runs",
    "short": "B892's scan never refines",
-   "state": "REPRODUCED",
+   "state": "PARTLY FIXED",
+   "was": [
+    "REPRODUCED",
+    "main's own reading: the refinement runs only when the grid finds nothing, and the grid lands on the wall, so it never runs"
+   ],
    "wp": "WP-0.8"
   },
   "E6": {
@@ -5210,9 +5214,9 @@
   "audit_findings_by_state": {
    "FIXED": 11,
    "OPEN": 0,
-   "PARTLY FIXED": 17,
+   "PARTLY FIXED": 18,
    "READER": 3,
-   "REPRODUCED": 42
+   "REPRODUCED": 41
   },
   "budget": {
    "ansatz": 1,
