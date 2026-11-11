@@ -1,0 +1,238 @@
+{
+  "referee": "Phase 4 AST-Isolated Zero-Import Referee (Guardrails 1-6)",
+  "all_referee_checks_passed": true,
+  "ast_guardrail_scan": {
+    "scanned_python_files": [
+      "src/phase4_loop/__init__.py",
+      "src/phase4_loop/calibration_gate.py",
+      "src/phase4_loop/gate1_vacuum_selection.py",
+      "src/phase4_loop/gate2_dp9_cusp_cap.py",
+      "src/phase4_loop/gate3_quark_lepton_unification.py",
+      "src/phase4_loop/phase4_core.py",
+      "src/phase4_loop/phase4_engine.py",
+      "scripts/referee_phase4.py",
+      "tests/test_phase4.py"
+    ],
+    "num_scanned_files": 9,
+    "forbidden_referee_imports": [],
+    "forbidden_pdg_float_hits_in_src": [],
+    "forbidden_literal_flag_hits_in_src": [],
+    "passed": true
+  },
+  "seal_integrity_audit": {
+    "seals": {
+      "phase1": {
+        "directory": "self_consistent_loop_phi",
+        "document": "PREREGISTRATION_PLAN.md",
+        "expected_sha256": "d42cedad6e6f54dc26f0b1ee20a0951c9f6ba167b671b9ec1a08215664312eda",
+        "actual_sha256": "d42cedad6e6f54dc26f0b1ee20a0951c9f6ba167b671b9ec1a08215664312eda",
+        "intact": true
+      },
+      "phase2": {
+        "directory": "cusped_3d_loop_phase2",
+        "document": "PREREGISTRATION_PHASE2.md",
+        "expected_sha256": "d92bec8593456d1d82003975d81f5ec21a3af5ced804313da040fff6c61827cf",
+        "actual_sha256": "d92bec8593456d1d82003975d81f5ec21a3af5ced804313da040fff6c61827cf",
+        "intact": true
+      },
+      "phase3": {
+        "directory": "relational_yukawa_phase3",
+        "document": "PREREGISTRATION_PHASE3.md",
+        "expected_sha256": "64039873eb88506cefb788a2ca0ba8a2e9578e0a45f91476aa7a94b1536cd48a",
+        "actual_sha256": "64039873eb88506cefb788a2ca0ba8a2e9578e0a45f91476aa7a94b1536cd48a",
+        "intact": true
+      },
+      "phase4": {
+        "directory": "unification_cap_lepton_phase4",
+        "document": "PREREGISTRATION_PHASE4.md",
+        "expected_sha256": "7cc9965761c0497533147382e3f8ace80dd9582d1296f03abe64a09331a0b4f6",
+        "actual_sha256": "7cc9965761c0497533147382e3f8ace80dd9582d1296f03abe64a09331a0b4f6",
+        "intact": true
+      }
+    },
+    "passed": true
+  },
+  "mpmath_50digit_fox_wada_countercheck": {
+    "mpmath_dps": 55,
+    "max_textbook_m004_m003_err": 4.078315292499078e-56,
+    "max_unramified_k0_torsion": 0.0,
+    "max_ramified_cyclotomic_product5_err": 1.5497598111496496e-54,
+    "manifolds_checked": {
+      "b+-LR": {
+        "num_unramified_torsion_lines": 1,
+        "num_ramified_torsion_lines": 4
+      },
+      "b++LLLRLL": {
+        "num_unramified_torsion_lines": 1,
+        "num_ramified_torsion_lines": 4
+      },
+      "b++LLLLLLRLR": {
+        "num_unramified_torsion_lines": 1,
+        "num_ramified_torsion_lines": 4
+      },
+      "b+-LLLLLRLLRR": {
+        "num_unramified_torsion_lines": 1,
+        "num_ramified_torsion_lines": 4
+      },
+      "b++LLLLLLLRRLLR": {
+        "num_unramified_torsion_lines": 1,
+        "num_ramified_torsion_lines": 4
+      },
+      "b++LLLLLRLLRRLR": {
+        "num_unramified_torsion_lines": 1,
+        "num_ramified_torsion_lines": 4
+      }
+    },
+    "passed": true
+  },
+  "dp9_weyl_reflection_countercheck": {
+    "weyl_orbit_root_count": 240,
+    "det_gram": 1,
+    "orthogonal_and_norm_minus2": true,
+    "k_vis_eq_k_min_3": true,
+    "fmw_genus_and_ramification": [
+      16,
+      40
+    ],
+    "unramified_00_allowed_by_bulk_c2_alone": true,
+    "matches_producer_gate2": true,
+    "passed": true
+  },
+  "keast11_fem_and_25trial_haar_countercheck": {
+    "keast11_degree4_exactness_err": 5.551115123125783e-17,
+    "reversible_6_max_abs_jarlskog": 1.5621857156530804e-16,
+    "max_25trial_adversarial_haar_err": 9.792167077193881e-14,
+    "max_keast11_vs_q14_eigenvalue_rel_diff": 9.54269505245875e-05,
+    "max_keast11_vs_q14_angle_diff_deg": 0.04204869914437381,
+    "max_keast11_vs_q14_jarlskog_rel_diff": 0.020295505352470548,
+    "manifold_comparisons": {
+      "reversible_6": {
+        "keast11_E0_q2_q1": [
+          13.58105311830854,
+          15.06279084584328
+        ],
+        "producer_q14_E0_q2_q1": [
+          13.5814000828821,
+          15.064228379219514
+        ],
+        "keast11_ckm_deg": [
+          88.67561844228136,
+          45.72985851044976,
+          23.262454510744863
+        ],
+        "producer_q14_ckm_deg": [
+          88.68578909400993,
+          45.72903586730572,
+          23.259007363223162
+        ],
+        "keast11_pmns_kk_deg": [
+          86.09392743507469,
+          3.543458773338291,
+          1.2736769570445043
+        ],
+        "producer_q14_pmns_kk_deg": [
+          86.09822143897134,
+          3.5454729055621312,
+          1.2716343177595801
+        ],
+        "keast11_pmns_weinberg_deg": [
+          86.20602921144601,
+          2.393876479209642,
+          0.738059201600157
+        ],
+        "producer_q14_pmns_weinberg_deg": [
+          86.2182873618582,
+          2.392822754507625,
+          0.736683300174995
+        ],
+        "keast11_rel_j_ckm": 5.814179861020315e-17,
+        "producer_q14_rel_j_ckm": -5.947306202078057e-19
+      },
+      "global_min_irreversible_719": {
+        "keast11_E0_q2_q1": [
+          10.006209861896476,
+          16.000930770898645
+        ],
+        "producer_q14_E0_q2_q1": [
+          10.006655316207576,
+          16.00195965902833
+        ],
+        "keast11_ckm_deg": [
+          83.71631307030404,
+          58.25152936053795,
+          19.380205814900304
+        ],
+        "producer_q14_ckm_deg": [
+          83.74512752188575,
+          58.2717155652842,
+          19.403044429107332
+        ],
+        "keast11_pmns_kk_deg": [
+          35.177214608121155,
+          2.3829055808433175,
+          12.571163135268135
+        ],
+        "producer_q14_pmns_kk_deg": [
+          35.19991528003634,
+          2.3668942645586903,
+          12.558862639096644
+        ],
+        "keast11_pmns_weinberg_deg": [
+          35.23907613864519,
+          6.380935798113771,
+          4.927560223808653
+        ],
+        "producer_q14_pmns_weinberg_deg": [
+          35.26427302246557,
+          6.368022175548197,
+          4.914424502388045
+        ],
+        "keast11_rel_j_ckm": 1.943320100996063e-06,
+        "producer_q14_rel_j_ckm": 2.1462751545207685e-06
+      },
+      "departure_irreversible_5122": {
+        "keast11_E0_q2_q1": [
+          9.778469729846513,
+          13.294623093459654
+        ],
+        "producer_q14_E0_q2_q1": [
+          9.778796750335564,
+          13.29517442274438
+        ],
+        "keast11_ckm_deg": [
+          19.04246316463044,
+          12.18417724902925,
+          1.677606513609295
+        ],
+        "producer_q14_ckm_deg": [
+          19.05008714142129,
+          12.226225948173624,
+          1.6788628703313313
+        ],
+        "keast11_pmns_kk_deg": [
+          21.54634167266507,
+          4.059389568121803,
+          2.09329639125187
+        ],
+        "producer_q14_pmns_kk_deg": [
+          21.53428894343947,
+          4.05326783646934,
+          2.0878826797765346
+        ],
+        "keast11_pmns_weinberg_deg": [
+          29.030410399654855,
+          5.338119186430118,
+          6.177656852160808
+        ],
+        "producer_q14_pmns_weinberg_deg": [
+          29.024402811762148,
+          5.334268786840478,
+          6.174408446317658
+        ],
+        "keast11_rel_j_ckm": 3.168691815505661e-05,
+        "producer_q14_rel_j_ckm": 3.170399527497286e-05
+      }
+    },
+    "passed": true
+  }
+}
