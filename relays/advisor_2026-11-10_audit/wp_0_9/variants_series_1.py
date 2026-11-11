@@ -29,6 +29,10 @@ limit of the mend, stated in its patch, and the variant pins where the limit lie
                                                                                       carries a grade now; the front page
                                                                                       reads 1 theorem and 1099 with no grade,
                                                                                       and the gate on the views passes
+
+  THE FIRST RUN (variants_series_1_first_run_out.txt) stopped at y3, and y1 and y2 held.  The harness looked for an arc's lock
+  in the arc's own folder; B1612 and B1637 keep theirs in tests/, under their number.  No expectation is changed: the harness
+  now finds a lock where the gate itself looks for one.
 """
 import sys, os, re, json, glob, shutil, subprocess
 
@@ -95,6 +99,13 @@ def grade(folder, **fields):
     return gate()
 
 
+def lock_of(folder):
+    """the arc's own lock: in its folder, or in tests/ under its number"""
+    found = sorted(glob.glob(path("frontier/%s/verification/test_*.py" % folder)) + glob.glob(path("tests/test_%s_*.py" % folder.split("_")[0].lower())))
+    assert found, folder
+    return os.path.relpath(found[0], clone)
+
+
 def own(folder, pattern):
     found = sorted(glob.glob(path("frontier/%s/%s" % (folder, pattern)), recursive=True))
     assert found, (folder, pattern)
@@ -116,11 +127,11 @@ r = grade(CAND, grade="theorem", grade_evidence=["tests/test_seal_immutable.py"]
 line("y1", r[0] is False and CAND in r[1], "the candidate graded a theorem, naming a lock that is not its own: %s" % r[1][:170])
 r = grade(CAND, grade="exact computation", grade_evidence=[own(CAND, "**/*.py")])
 line("y2", r[0] is False and CAND in r[1], "the candidate graded an exact computation, naming one of its scripts: %s" % r[1][:170])
-r = grade(A, grade="theorem", grade_evidence=[own(B, "verification/test_*.py")])
+r = grade(A, grade="theorem", grade_evidence=[lock_of(B)])
 line("y3", r[0] is False and A in r[1], "B1612 graded a theorem, naming B1637's lock: %s" % r[1][:170])
-r = grade(A, grade=["theorem"], grade_evidence=[own(A, "verification/test_*.py")])
+r = grade(A, grade=["theorem"], grade_evidence=[lock_of(A)])
 line("y4", r[0] is False and A in r[1], "a grade given as a list of one word: %s" % r[1][:150])
-r = grade(A, grade="Theorem", grade_evidence=[own(A, "verification/test_*.py")])
+r = grade(A, grade="Theorem", grade_evidence=[lock_of(A)])
 line("y5", r[0] is False and A in r[1], "the word with a capital letter: %s" % r[1][:150])
 r = grade(A, grade="theorem", grade_evidence=["frontier/%s/verification" % A])
 line("y6", r[0] is False and A in r[1], "a folder named as evidence: %s" % r[1][:150])
@@ -132,7 +143,7 @@ line("y8", r[0] is True, "the candidate graded sealed cells held with a made-up 
 r = grade(A, grade="process")
 line("y9", r[0] is True and "1 process" in r[1], "a PROVED arc that is not an instrument graded a process: the gate passes and prints it (a limit) -- %s" % re.search(r"\d+ carry a grade[^;]*", r[1]).group(0) if r[0] else "the gate says: " + r[1][:170])
 
-r = grade(A, grade="theorem", grade_evidence=[own(A, "verification/test_*.py")])
+r = grade(A, grade="theorem", grade_evidence=[lock_of(A)])
 said = "1 of the named carry one now: shorten the list" in r[1] and "13 of the 14" in r[1]
 sh([sys.executable, "-B", "scripts/views/generate.py"], cwd=clone); sh([sys.executable, "-B", "scripts/views/spine.py"], cwd=clone)
 front = [l for l in open(path("README.md"), encoding="utf-8").read().splitlines() if l.startswith("| the PROVED, by the grade")]

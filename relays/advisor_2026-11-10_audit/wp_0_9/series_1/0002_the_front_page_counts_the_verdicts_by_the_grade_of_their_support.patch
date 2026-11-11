@@ -1,0 +1,112 @@
+From 82668a06ca1d5feb3e745f5303656ca5225fe4a3 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Wed, 11 Nov 2026 23:54:05 +0000
+Subject: [PATCH 2/2] WP-0.9, labels as strong as the content (cld-advisor's
+ series 1, patch 2; built on 323f92327 with series 2, 3 and 4 of WP-0.7 and
+ patch 1 of this series applied): THE FRONT PAGE COUNTS THE VERDICTS BY THE
+ GRADE OF THEIR SUPPORT. The front page's generated block says how many arcs
+ are PROVED and how many NEGATIVE, and nothing of what kind of support those
+ words have. Two rows are added under that count, computed from the verdict
+ files as the count is: the PROVED by grade, and the NEGATIVE by grade, in the
+ programme's five words. A verdict file that carries no grade is counted as
+ that; a word that is not one of the five is counted apart. Today they read
+ 1,100 carry no grade and 383 carry no grade, which is the state of the record
+ and is now on its front page. The five words stand in the generator as they
+ stand in the checker, and the lock holds the two to each other. The row that
+ was there is not changed, and the test of main's that reads it passes. The
+ front page and one view are generated pages and are not in this patch: they
+ are regenerated at landing, as before. The lock: one test added to
+ tests/test_a_grade_is_held_to_its_evidence.py; on the commit before it fails
+ because nothing counts by grade. Computed once. 0 of 19.
+
+---
+ scripts/views/generate.py                     | 22 +++++++++++++++
+ tests/test_a_grade_is_held_to_its_evidence.py | 28 +++++++++++++++++++
+ 2 files changed, 50 insertions(+)
+
+diff --git a/scripts/views/generate.py b/scripts/views/generate.py
+index 239ff6698..64f95195f 100644
+--- a/scripts/views/generate.py
++++ b/scripts/views/generate.py
+@@ -358,6 +358,25 @@ def view_context_recovery(arcs, kills):
+     return "\n".join(out) + "\n"
+ 
+ 
++# The programme's five words for the kind of support a verdict has (WP-0.9; the advisor seat's audit, M1: "PROVED means at
++# least five things").  scripts/checks/arc_data.py holds the same five and the gate on the arcs' data holds each to its evidence.
++GRADES = ("theorem", "exact computation", "numerical estimate", "sealed cells held", "process")
++
++
++def by_grade(records, verdict):
++    """the verdict files that carry `verdict`, counted by the grade of their support.  What carries no grade is counted as that."""
++    kinds = Counter()
++    for r in records:
++        if r.get("verdict") != verdict:
++            continue
++        g = r.get("grade")
++        kinds["none" if g is None else g if g in GRADES else "other"] += 1
++    parts = ["%d %s" % (kinds[g], g) for g in GRADES if kinds.get(g)]
++    if kinds.get("other"):
++        parts.append("%d with a word that is not one of the five" % kinds["other"])
++    return (", ".join(parts) + "; " if parts else "") + "%d carry no grade" % kinds.get("none", 0)
++
++
+ README = os.path.join(ROOT, "README.md")
+ README_STATE = re.compile(r"(<!-- STATE:BEGIN[^\n]*-->\n)(.*?)(<!-- STATE:END -->)", re.S)
+ 
+@@ -378,6 +397,7 @@ def view_readme_state(arcs):
+     gv = re.search(r"\*\*Version (\d+\.\d+) · (\d{4}-\d{2}-\d{2})", rd("GENESIS.md"))
+     goal = re.search(r"Its state is \*\*(\d+) of 19\*\*", rd("docs/MAIN_GOAL.md"))
+     verdicts = Counter((a.get("verdict_record") or {}).get("verdict") for a in arcs if (a.get("verdict_record") or {}).get("verdict"))
++    records = [a.get("verdict_record") or {} for a in arcs]
+     cells = [l.strip().strip("|").split(" | ") for l in rd("docs/POINT_REGISTER.md").splitlines() if l.startswith("| P-")]
+     disp = [c[4].strip() if len(c) == 7 else "" for c in cells]
+     n_open = sum(1 for d in disp if d.startswith(("QUEUED", "LEAD", "OWNER")))
+@@ -393,6 +413,8 @@ def view_readme_state(arcs):
+            "| the foundations | `GENESIS.md` (v%s) of %s |" % (gv.group(1), gv.group(2)) if gv else "| the foundations | `GENESIS.md` |",
+            "| arcs with a verdict | %d: %d PROVED, %d NEGATIVE, %d OPEN, %d RETRACTED |" % (
+                sum(verdicts.values()), verdicts.get("PROVED", 0), verdicts.get("NEGATIVE", 0), verdicts.get("OPEN", 0), verdicts.get("RETRACTED", 0)),
++           "| the PROVED, by the grade of their support | %s |" % by_grade(records, "PROVED"),
++           "| the NEGATIVE, by the grade of their support | %s |" % by_grade(records, "NEGATIVE"),
+            "| points in the register | %d: %d open (queued, leads, waiting for the owner), %d closed |" % (len(cells), n_open, n_closed),
+            "| the last review | %s |" % (("Review %s (%s), anchor %s" % (heads[-1].group(1), heads[-1].group(2), "`%s`" % anchor.group(1) if anchor else "pending")) if heads else "—"),
+            "| the last landing | %s |" % clip(land, 150).replace("|", "∣"),
+diff --git a/tests/test_a_grade_is_held_to_its_evidence.py b/tests/test_a_grade_is_held_to_its_evidence.py
+index 238377ba8..110cd656f 100644
+--- a/tests/test_a_grade_is_held_to_its_evidence.py
++++ b/tests/test_a_grade_is_held_to_its_evidence.py
+@@ -200,3 +200,31 @@ def test_on_this_repository_the_chain_is_mains_fourteen_and_the_gate_passes():
+         assert (ROOT / "frontier" / folder / "arc_verdict.json").is_file(), folder
+     ok, detail = g.gate_arc_data()
+     assert ok is True and "arcs the candidate runs on owe one, held by name as found" in detail, detail
++
++
++# ---- the headline counts, by grade ------------------------------------------------------------------------------------
++def _views():
++    spec = importlib.util.spec_from_file_location("generate_for_the_grade_rule", ROOT / "scripts" / "views" / "generate.py")
++    v = importlib.util.module_from_spec(spec)
++    spec.loader.exec_module(v)
++    return v
++
++
++def test_the_front_page_counts_the_verdicts_by_the_grade_of_their_support():
++    v = _views()
++    by_grade = getattr(v, "by_grade", None)
++    assert by_grade is not None, "the front page prints how many arcs are PROVED and nothing of what kind of support they have"
++    records = [{"verdict": "PROVED", "grade": "theorem"}, {"verdict": "PROVED", "grade": "theorem"}, {"verdict": "PROVED", "grade": "numerical estimate"},
++               {"verdict": "PROVED"}, {"verdict": "PROVED"}, {"verdict": "PROVED", "grade": "beyond doubt"}, {"verdict": "NEGATIVE", "grade": "sealed cells held"}, {}]
++    assert by_grade(records, "PROVED") == "2 theorem, 1 numerical estimate, 1 with a word that is not one of the five; 2 carry no grade"
++    assert by_grade(records, "NEGATIVE") == "1 sealed cells held; 0 carry no grade"
++    assert by_grade([], "PROVED") == "0 carry no grade"
++    # the five words are the checker's five, in the checker's order
++    spec = importlib.util.spec_from_file_location("arc_data_for_the_grade_rule", ROOT / "scripts" / "checks" / "arc_data.py")
++    a = importlib.util.module_from_spec(spec); spec.loader.exec_module(a)
++    assert tuple(v.GRADES) == tuple(a.GRADES)
++    # and the block the front page carries holds the two rows, computed from this repository's verdict files
++    block = v.view_readme_state(v.collect()[0])
++    proved = [l for l in block.splitlines() if l.startswith("| the PROVED, by the grade of their support |")]
++    negative = [l for l in block.splitlines() if l.startswith("| the NEGATIVE, by the grade of their support |")]
++    assert len(proved) == 1 and len(negative) == 1 and "carry no grade" in proved[0], block
+-- 
+2.43.0
+

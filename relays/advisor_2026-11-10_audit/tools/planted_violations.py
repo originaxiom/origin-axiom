@@ -285,7 +285,11 @@ def _grade(c, folder, **fields):
 
 
 def _own_lock(c, folder):
-    return sorted(glob.glob(os.path.join(c, "frontier", folder, "verification", "test_*.py")))[0][len(c) + 1:]
+    """the arc's own lock: in its folder, or in tests/ under its number"""
+    found = sorted(glob.glob(os.path.join(c, "frontier", folder, "verification", "test_*.py"))
+                   + glob.glob(os.path.join(c, "tests", "test_%s_*.py" % folder.split("_")[0].lower())))
+    if not found: raise RuntimeError("no lock of its own found for " + folder)
+    return found[0][len(c) + 1:]
 
 
 _NEW = "B9020_a_planted_arc_with_a_grade"

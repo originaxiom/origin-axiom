@@ -1,0 +1,425 @@
+From 278ec44505ddeae4447db589e0e24c00a7e9f862 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Wed, 11 Nov 2026 23:52:24 +0000
+Subject: [PATCH 1/2] WP-0.9, labels as strong as the content (cld-advisor's
+ series 1, patch 1; built on 323f92327 with series 2, 3 and 4 of WP-0.7
+ applied): THE GRADE OF A VERDICT IS HELD TO THE EVIDENCE IT NAMES (the
+ audit's M1: PROVED means at least five things). A verdict file says PROVED,
+ NEGATIVE, OPEN or RETRACTED, and nothing of what kind of support the word
+ has. Of 1,592 verdict files none carries such a field. THE FIELD: grade, one
+ of the programme's five words (theorem, exact computation, numerical
+ estimate, sealed cells held, process), and grade_evidence, the files of the
+ arc it rests on. THE GATE is arc-data, which already holds the arcs' data to
+ itself; no gate is added. Where a grade stands: the word is one of the five;
+ every file it names is in the tree; and the files are of the kind the word
+ asks. A theorem names a lock of its own in which an assert can fail. An exact
+ computation names its script and such a lock. A numerical estimate names its
+ script and the committed output of it. Sealed cells held names its sealed
+ file, and grade_cells as held and sealed, with held no more than sealed. A
+ process names nothing. The evidence is the arc's own: under its folder, or a
+ lock in tests/ that carries its number. WHO MUST CARRY ONE: the arcs the
+ candidate runs on, fourteen by main's measurement in B1888. That list is
+ typed in the gates' file and its lock holds it to main's own file; it is
+ computed when the graph of WP-0.12 stands. None of the fourteen carries a
+ grade today, so all fourteen are held by name as owing one, and the list may
+ only shrink; an arc of the chain with no grade that is not named fails. No
+ verdict file is changed by this patch, and no arc is graded by it: a grade is
+ a judgement on an arc's content, and it is main's. What it does not reach:
+ the gate reads a form. That a lock can fail does not make it a proof of the
+ claim; that a script and an output are named does not make the estimate
+ sound; the count of cells held is the arc's own word. The five words are not
+ the nine labels of how a result was checked. The lock:
+ tests/test_a_grade_is_held_to_its_evidence.py, seven tests, eleven ways a
+ grade says more than its evidence; on the commit before, six fail and the
+ control holds. Tested against planted errors, 11 of 11 ways; computed once. 0
+ of 19.
+
+---
+ scripts/checks/arc_data.py                    | 100 ++++++++-
+ scripts/gates/gates.py                        |  35 ++-
+ tests/test_a_grade_is_held_to_its_evidence.py | 202 ++++++++++++++++++
+ 3 files changed, 335 insertions(+), 2 deletions(-)
+ create mode 100644 tests/test_a_grade_is_held_to_its_evidence.py
+
+diff --git a/scripts/checks/arc_data.py b/scripts/checks/arc_data.py
+index d68b2029e..2ed74eaf2 100644
+--- a/scripts/checks/arc_data.py
++++ b/scripts/checks/arc_data.py
+@@ -33,7 +33,7 @@ defect (D5): it belongs in rests_on_seat (built on; VERIFIED) or cites_seat (gat
+ Report-only: it exits 0 unless --strict is given and a defect class D1-D6 is non-empty.
+     python3 scripts/checks/arc_data.py [--json OUT] [--branches] [--strict]
+ """
+-import collections, glob, json, os, re, subprocess, sys
++import ast, collections, fnmatch, glob, importlib.util, json, os, re, subprocess, sys
+ 
+ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+ ARC = re.compile(r"B\d+[A-Za-z]?")
+@@ -154,6 +154,104 @@ def check(root=ROOT, branches=False):
+     return out
+ 
+ 
++# THE GRADE OF A VERDICT (the closure programme's WP-0.9, series 1; the advisor seat's audit, M1: "PROVED means at least five
++# things").  A verdict file says PROVED, NEGATIVE, OPEN or RETRACTED.  The field `grade` says what kind of support that word
++# has, in one of the programme's five words, and `grade_evidence` names the files of the arc it rests on.  The gate holds the
++# word to what it names.  It reads a form: that a theorem names a lock in which an assert can fail, not that the lock proves
++# the claim.  The five words are not the nine labels of how a result was checked (docs/seats/README.md, § 12): a grade says
++# what the support is, a label says who looked at it and how.
++GRADES = ("theorem", "exact computation", "numerical estimate", "sealed cells held", "process")
++GRADE_ASKS = {
++    "theorem": "a lock of its own in which an assert can fail",
++    "exact computation": "its script, and a lock of its own in which an assert can fail",
++    "numerical estimate": "its script and the committed output of it",
++    "sealed cells held": "its sealed file, and grade_cells as [held, sealed] with held no more than sealed",
++    "process": "nothing",
++}
++SEAL_PATTERNS = ("PREREG*", "*DESIGN*.md", "SEALED*.md", "DECLARATION.md")          # as scripts/seal_ledger.py names a sealed-style file
++
++
++def _vacuity():
++    sp = importlib.util.spec_from_file_location("check_test_vacuity_for_the_grades", os.path.join(os.path.dirname(os.path.abspath(__file__)), "check_test_vacuity.py"))
++    m = importlib.util.module_from_spec(sp); sp.loader.exec_module(m)
++    return m
++
++
++def _a_lock_that_can_fail(path, ctv):
++    """a file named test_*.py that holds at least one test in which an assert can fail"""
++    if not (os.path.basename(path).startswith("test_") and path.endswith(".py")):
++        return False
++    try:
++        tree = ast.parse(open(path, encoding="utf-8").read())
++    except Exception:
++        return False
++    for fn in ast.walk(tree):
++        if isinstance(fn, (ast.FunctionDef, ast.AsyncFunctionDef)) and fn.name.startswith("test"):
++            asserts = [n for n in ast.walk(fn) if isinstance(n, ast.Assert)]
++            calls = {getattr(getattr(n, "func", None), "attr", None) for n in ast.walk(fn) if isinstance(n, ast.Call)}
++            if (asserts or (ctv._OK_CALLS & calls)) and not ctv.cannot_fail(fn):
++                return True
++    return False
++
++
++def _its_own(folder, arc_id, path):
++    """is this path the arc's own: under its folder, or a lock in tests/ that carries its number?"""
++    if path.startswith("frontier/%s/" % folder):
++        return True
++    return bool(re.match(r"tests/test_%s_[^/]*\.py$" % re.escape(str(arc_id).lower()), path))
++
++
++def grade_problems(root=ROOT, chain=(), owed=()):
++    """The grades the verdict files carry, each held to the evidence it names.  `chain` is the arcs that must carry one (the
++    arcs the candidate runs on); `owed` the ones among them that are let off by name until they do.  Returns the classes G1
++    to G4, each a list of [folder, what is wrong]; under "grades" how many verdict files carry each word; under "owed" the
++    arcs of the chain that carry none and are named; under "paid" the named ones that carry one now."""
++    V, _folders, _bad = load(root)
++    ctv = _vacuity()
++    g1, g2, g3, g4 = [], [], [], []
++    count, still_owed, paid = collections.Counter(), [], []
++    for folder, d in sorted(V.items()):
++        if not isinstance(d, dict):
++            continue
++        grade = d.get("grade")
++        if grade is None:
++            if "grade_evidence" in d or "grade_cells" in d:
++                g1.append([folder, "evidence for a grade, and no grade"])
++            elif folder in chain:
++                (still_owed if folder in owed else g4).append(folder if folder in owed else [folder, "the candidate runs on it, it carries no grade, and it is not named among those that owe one"])
++            continue
++        if grade not in GRADES:
++            g1.append([folder, "%r is not one of: %s" % (grade, ", ".join(GRADES))])
++            continue
++        count[grade] += 1
++        if folder in owed:
++            paid.append(folder)
++        ev = d.get("grade_evidence", [])
++        if not isinstance(ev, list) or not all(isinstance(e, str) and e.strip() for e in ev):
++            g2.append([folder, "grade_evidence is a list of paths"])
++            continue
++        gone = [e for e in ev if os.path.isabs(e) or ".." in e.replace("\\", "/").split("/") or not os.path.isfile(os.path.join(root, e))]
++        if gone:
++            g2.append([folder, "not a file in the tree: " + ", ".join(gone[:3])])
++            continue
++        own = [e for e in ev if _its_own(folder, d.get("id"), e)]
++        locks = [e for e in own if _a_lock_that_can_fail(os.path.join(root, e), ctv)]
++        scripts = [e for e in own if e.endswith(".py") and not os.path.basename(e).startswith("test_")]
++        outputs = [e for e in own if not e.endswith(".py")]
++        seals = [e for e in own if e.count("/") == 2 and any(fnmatch.fnmatch(os.path.basename(e), pat) for pat in SEAL_PATTERNS)]
++        cells = d.get("grade_cells")
++        held = (isinstance(cells, list) and len(cells) == 2 and all(isinstance(c, int) and not isinstance(c, bool) for c in cells)
++                and 0 <= cells[0] <= cells[1] and cells[1] >= 1)
++        enough = {"theorem": bool(locks), "exact computation": bool(locks and scripts), "numerical estimate": bool(scripts and outputs),
++                  "sealed cells held": bool(seals and held), "process": True}[grade]
++        if not enough:
++            other = [e for e in ev if e not in own]
++            g3.append([folder, "%s asks %s%s" % (grade, GRADE_ASKS[grade], "; named and not the arc's own: " + ", ".join(other[:2]) if other else "")])
++    return {"G1 a grade that is not one of the five words": g1, "G2 a grade whose evidence is not in the tree": g2,
++            "G3 a grade that says more than the evidence it names": g3, "G4 an arc the candidate runs on with no grade": g4,
++            "grades": dict(count), "owed": still_owed, "paid": paid}
++
++
+ def main():
+     br = "--branches" in sys.argv; out = check(branches=br)
+     if "--json" in sys.argv:
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 4976a898f..f085d1973 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -3533,6 +3533,28 @@ def gate_seat_positive_verified(reader=None):
+     return True, "ok (%d declared seat dependencies, all VERIFIED or REPRODUCED on main)" % len(rests)
+ 
+ 
++# THE GRADE OF A VERDICT (the closure programme's WP-0.9, series 1; the advisor seat's audit, M1).  The checker holds a grade to
++# the evidence it names (scripts/checks/arc_data.py, grade_problems).  Two lists stand here.
++# GRADE_CHAIN: the arcs that must carry a grade, which are the arcs the candidate runs on.  The list is TYPED, from main's own
++# measurement in B1888 (candidate_chain.json, "arcs"), and its lock holds it to that file; it is computed when the graph of
++# WP-0.12 stands.  GRADE_OWED_AS_FOUND: the arcs of that list that carried no grade on the day the rule came, all fourteen.
++# An arc of the chain with no grade passes only while it is named there; the list may only shrink.
++GRADE_CHAIN = (
++    "B1612_the_mixing_patterns_the_weave_fixes", "B1637_fits_on_the_ruled_branch", "B1654_the_norm_of_the_boundary_class",
++    "B1667_the_canonical_cusp", "B1691_the_exponents_at_the_two_fixed_points", "B1720_the_thread_fixes_the_point",
++    "B1723_the_golden_valley", "B1726_the_two_ingredients_replicated", "B1741_tau_from_the_thread_rule_the_line_free",
++    "B1753_the_six_on_the_five_ality_lines", "B1798_the_six_graded_under_the_class_choosing_null", "B1838_the_end",
++    "B1839_the_end_card", "B1841_the_principled_ends_card",
++)
++GRADE_OWED_AS_FOUND = frozenset((
++    "B1612_the_mixing_patterns_the_weave_fixes", "B1637_fits_on_the_ruled_branch", "B1654_the_norm_of_the_boundary_class",
++    "B1667_the_canonical_cusp", "B1691_the_exponents_at_the_two_fixed_points", "B1720_the_thread_fixes_the_point",
++    "B1723_the_golden_valley", "B1726_the_two_ingredients_replicated", "B1741_tau_from_the_thread_rule_the_line_free",
++    "B1753_the_six_on_the_five_ality_lines", "B1798_the_six_graded_under_the_class_choosing_null", "B1838_the_end",
++    "B1839_the_end_card", "B1841_the_principled_ends_card",
++))
++
++
+ def gate_arc_data():
+     """P-420 phase 0 (the owner's GO, 2026-10-29): the arcs' machine-readable data a generated desk reads must not
+     contradict itself. scripts/checks/arc_data.py's defect classes D1-D6 must be empty: a duplicated id (beyond the
+@@ -3552,7 +3574,18 @@ def gate_arc_data():
+     bad = {k: v for k, v in out.items() if k[:2] in ("D1", "D2", "D3", "D4", "D5", "D6") and v}
+     if bad:
+         return False, "; ".join("%s: %s" % (k, (list(v)[:4] if isinstance(v, dict) else v[:4])) for k, v in bad.items())[:600]
+-    return True, "ok (%d verdict files; D1-D6 empty; %d prose-only candidates reported)" % (out["verdict files"], len(out["D7 relation in prose only (candidates)"]))
++    # WP-0.9: a grade is held to the evidence it names; an arc the candidate runs on carries one, or is named as owing it
++    g = m.grade_problems(root=ROOT, chain=GRADE_CHAIN, owed=GRADE_OWED_AS_FOUND)
++    wrong = [(k, v) for k, v in g.items() if k[:1] == "G" and k[1:2].isdigit() and v]
++    if wrong:
++        return False, "; ".join("%s: %s" % (k, "; ".join("%s (%s)" % (r[0], r[1]) for r in v[:3])) for k, v in wrong)[:700]
++    n = sum(g["grades"].values())
++    words = ", ".join("%d %s" % (g["grades"][w], w) for w in m.GRADES if g["grades"].get(w))
++    return True, ("ok (%d verdict files; D1-D6 empty; %d prose-only candidates reported; %d carry a grade, each held to the evidence it names%s; "
++                  "%d of the %d arcs the candidate runs on owe one, held by name as found%s; that list of %d is typed here from B1888)" % (
++                      out["verdict files"], len(out["D7 relation in prose only (candidates)"]), n, " (%s)" % words if words else "",
++                      len(g["owed"]), len(GRADE_CHAIN), "; %d of the named carry one now: shorten the list" % len(g["paid"]) if g["paid"] else "",
++                      len(GRADE_CHAIN)))
+ 
+ 
+ GATES = {
+diff --git a/tests/test_a_grade_is_held_to_its_evidence.py b/tests/test_a_grade_is_held_to_its_evidence.py
+new file mode 100644
+index 000000000..238377ba8
+--- /dev/null
++++ b/tests/test_a_grade_is_held_to_its_evidence.py
+@@ -0,0 +1,202 @@
++"""The grade of a verdict is held to the evidence it names (the closure programme's WP-0.9, series 1; the audit's M1).
++
++A verdict file said PROVED, NEGATIVE, OPEN or RETRACTED, and nothing of what kind of support the word has: a theorem, an
++exact computation, a numerical estimate, sealed cells that held, or the record's own process.  The field `grade` says it,
++`grade_evidence` names the files it rests on, and the gate on the arcs' data holds the one to the other.
++
++Each test makes the situation in a small repository of its own, which holds this repository's gates and checkers and one or
++two arcs, and runs the gate there."""
++import importlib.util
++import json
++import pathlib
++import shutil
++import subprocess
++import sys
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++ARC = "B9_an_arc"
++HERE = "frontier/" + ARC + "/"
++LOCK = "def test_the_sum():\n    assert sum(range(10)) == 45\n"
++CANNOT_FAIL = "def test_the_sum():\n    assert 2 + 2 == 4\n"
++FILES = {        # what an arc may hold, by a short name
++    "findings": (HERE + "FINDINGS.md", "# FINDINGS\n\nAn arc.\n"),
++    "lock": (HERE + "verification/test_b9_an_arc.py", LOCK),
++    "a lock in tests/": ("tests/test_b9_an_arc.py", LOCK),
++    "a lock that cannot fail": (HERE + "verification/test_b9_cannot_fail.py", CANNOT_FAIL),
++    "script": (HERE + "verification/sum.py", "print(sum(range(10)))\n"),
++    "output": (HERE + "verification/sum_run.txt", "45\n"),
++    "seal": (HERE + "PREREGISTRATION.md", "# A seal\n\nThirteen cells.\n"),
++    "another arc's lock": ("frontier/B8_another_arc/verification/test_b8_another_arc.py", LOCK),
++}
++
++
++def _gates():
++    spec = importlib.util.spec_from_file_location("gates_for_the_grade_rule", ROOT / "scripts" / "gates" / "gates.py")
++    g = importlib.util.module_from_spec(spec)
++    spec.loader.exec_module(g)
++    return g
++
++
++def _git(repo, *a):
++    r = subprocess.run(["git", "-C", str(repo), "-c", "user.name=t", "-c", "user.email=t@example.invalid", *a], capture_output=True, text=True)
++    assert r.returncode == 0, r.stderr
++    return r.stdout.strip()
++
++
++def _verdict(folder=ARC, **fields):
++    d = {"id": folder.split("_")[0], "verdict": "PROVED", "instrument": False, "claim_one_line": "an arc", "depends_on": []}
++    d.update(fields)
++    return json.dumps(d, indent=1) + "\n"
++
++
++def _repo(tmp_path, holds, edit_gates=None, **fields):
++    """a small repository: this repository's gates and checkers, and one arc that holds the named files and whose verdict
++    file carries `fields`"""
++    repo = tmp_path / "repo"
++    if repo.exists():
++        shutil.rmtree(repo)
++    skip = shutil.ignore_patterns("__pycache__", "*.pyc")
++    shutil.copytree(ROOT / "scripts" / "gates", repo / "scripts" / "gates", ignore=skip)
++    shutil.copytree(ROOT / "scripts" / "checks", repo / "scripts" / "checks", ignore=skip)
++    if edit_gates:
++        p = repo / "scripts" / "gates" / "gates.py"
++        p.write_text(edit_gates(p.read_text(encoding="utf-8")), encoding="utf-8")
++    files = dict(FILES[name] for name in holds)
++    files[HERE + "arc_verdict.json"] = _verdict(**fields)
++    files.setdefault(HERE + "FINDINGS.md", FILES["findings"][1])
++    if "another arc's lock" in holds:
++        files["frontier/B8_another_arc/arc_verdict.json"] = _verdict("B8_another_arc")
++        files["frontier/B8_another_arc/FINDINGS.md"] = "# FINDINGS\n\nAnother arc.\n"
++    for rel, text in files.items():
++        (repo / rel).parent.mkdir(parents=True, exist_ok=True)
++        (repo / rel).write_text(text, encoding="utf-8")
++    _git(repo, "init", "-q"); _git(repo, "add", "-A"); _git(repo, "commit", "-q", "-m", "a small repository")
++    return repo
++
++
++_RUN = ("import sys, json, importlib.util\nsys.dont_write_bytecode = True\n"
++        "s = importlib.util.spec_from_file_location('scratch_gates', 'scripts/gates/gates.py')\n"
++        "g = importlib.util.module_from_spec(s); s.loader.exec_module(g)\n"
++        "r = g.GATES['arc-data']()\nprint(json.dumps([bool(r[0]), r[1] if isinstance(r[1], str) else ' | '.join(map(str, r[1]))]))\n")
++
++
++def _gate(repo):
++    r = subprocess.run([sys.executable, "-B", "-c", _RUN], cwd=str(repo), capture_output=True, text=True)
++    assert r.returncode == 0, r.stderr[-800:]
++    return json.loads(r.stdout.strip().splitlines()[-1])
++
++
++def _paths(*names):
++    return [FILES[n][0] for n in names]
++
++
++def test_a_verdict_file_with_no_grade_passes_as_it_did(tmp_path):
++    """the control: this held before the series, and holds after it.  The field is asked of no arc that does not owe it"""
++    ok, detail = _gate(_repo(tmp_path, ["lock"]))
++    assert ok is True and "1 verdict files" in detail, detail
++
++
++def test_a_grade_that_is_not_one_of_the_five_words_is_refused(tmp_path):
++    ok, detail = _gate(_repo(tmp_path, ["lock"], grade="proved beyond doubt", grade_evidence=_paths("lock")))
++    assert ok is False, "a verdict file carries a grade that is not one of the programme's five words, and the gate reads: " + detail
++    assert ARC in detail and "one of" in detail
++    ok, detail = _gate(_repo(tmp_path, ["lock"], grade_evidence=_paths("lock")))
++    assert ok is False and "no grade" in detail, "evidence for a grade and no grade: " + detail
++
++
++def test_a_grade_whose_evidence_is_not_in_the_tree_is_refused(tmp_path):
++    ok, detail = _gate(_repo(tmp_path, ["script"], grade="exact computation", grade_evidence=_paths("script", "lock")))
++    assert ok is False, "a grade names a lock that is not in the tree, and the gate reads: " + detail
++    assert "test_b9_an_arc.py" in detail
++    for bad in ("../outside.py", "/etc/hostname"):
++        ok, detail = _gate(_repo(tmp_path, ["lock"], grade="theorem", grade_evidence=_paths("lock") + [bad]))
++        assert ok is False, (bad, detail)
++
++
++_MORE_THAN_ITS_EVIDENCE = {       # a grade that says more than what it names -> (the files the arc holds, the fields of its verdict file)
++    "a theorem that names its findings page": (["findings"], dict(grade="theorem", grade_evidence=_paths("findings"))),
++    "a theorem that names a lock in which no assert can fail": (["a lock that cannot fail"], dict(grade="theorem", grade_evidence=_paths("a lock that cannot fail"))),
++    "a theorem that names nothing": ([], dict(grade="theorem", grade_evidence=[])),
++    "a theorem that names another arc's lock": (["another arc's lock"], dict(grade="theorem", grade_evidence=_paths("another arc's lock"))),
++    "an exact computation that names a lock and no script": (["lock"], dict(grade="exact computation", grade_evidence=_paths("lock"))),
++    "an exact computation that names a script and no lock": (["script"], dict(grade="exact computation", grade_evidence=_paths("script"))),
++    "a numerical estimate that names a script and no output": (["script"], dict(grade="numerical estimate", grade_evidence=_paths("script"))),
++    "sealed cells held that names no sealed file": (["lock"], dict(grade="sealed cells held", grade_evidence=_paths("lock"), grade_cells=[7, 13])),
++    "sealed cells held with no count": (["seal"], dict(grade="sealed cells held", grade_evidence=_paths("seal"))),
++    "sealed cells held with more held than sealed": (["seal"], dict(grade="sealed cells held", grade_evidence=_paths("seal"), grade_cells=[14, 13])),
++    "sealed cells held with a count that is not a pair of whole numbers": (["seal"], dict(grade="sealed cells held", grade_evidence=_paths("seal"), grade_cells=["7", "13"])),
++}
++
++
++def test_each_word_asks_its_own_kind_of_evidence(tmp_path):
++    passed = []
++    for what, (holds, fields) in _MORE_THAN_ITS_EVIDENCE.items():
++        ok, detail = _gate(_repo(tmp_path, holds, **fields))
++        if ok or ARC not in detail:
++            passed.append(what)
++    assert not passed, "a grade says more than the evidence it names, and the gate passes for: " + "; ".join(passed)
++
++
++_HELD = {
++    "theorem": (["lock"], dict(grade="theorem", grade_evidence=_paths("lock"))),
++    "theorem, its lock in tests/": (["a lock in tests/"], dict(grade="theorem", grade_evidence=_paths("a lock in tests/"))),
++    "exact computation": (["lock", "script"], dict(grade="exact computation", grade_evidence=_paths("lock", "script"))),
++    "numerical estimate": (["script", "output"], dict(grade="numerical estimate", grade_evidence=_paths("script", "output"))),
++    "sealed cells held": (["seal"], dict(grade="sealed cells held", grade_evidence=_paths("seal"), grade_cells=[7, 13])),
++    "process": ([], dict(grade="process")),
++}
++
++
++def test_a_grade_with_its_evidence_passes_for_each_of_the_five_words(tmp_path):
++    """the other side"""
++    for what, (holds, fields) in _HELD.items():
++        ok, detail = _gate(_repo(tmp_path, holds, **fields))
++        assert ok is True, (what, detail)
++        assert "1 carry a grade, each held to the evidence it names (1 %s)" % fields["grade"] in detail, (what, detail)
++    g = _gates()
++    assert g.result_line("arc-data", ok, detail).startswith("  PASS  arc-data: ok (1 verdict files"), "the runner does not print the sentence"
++
++
++def _first_of_the_chain():
++    chain = getattr(_gates(), "GRADE_CHAIN", None)
++    assert chain, "the gates name no arc that owes a grade"
++    return chain[0]
++
++
++def test_an_arc_the_candidate_runs_on_owes_a_grade_and_is_held_by_name(tmp_path):
++    folder = _first_of_the_chain()
++    files = {"frontier/%s/arc_verdict.json" % folder: _verdict(folder), "frontier/%s/FINDINGS.md" % folder: "# FINDINGS\n"}
++
++    def with_the_arc(repo):
++        for rel, text in files.items():
++            (repo / rel).parent.mkdir(parents=True, exist_ok=True)
++            (repo / rel).write_text(text, encoding="utf-8")
++        _git(repo, "add", "-A"); _git(repo, "commit", "-q", "-m", "an arc the candidate runs on")
++        return repo
++    ok, detail = _gate(with_the_arc(_repo(tmp_path, ["lock"])))
++    assert ok is True and "1 of the 14 arcs the candidate runs on owe one, held by name as found" in detail, detail
++    # taken off the list of those that owe one, and still with no grade, it fails
++    repo = with_the_arc(_repo(tmp_path, ["lock"], edit_gates=lambda text: _only_from_owed(text, folder)))
++    ok, detail = _gate(repo)
++    assert ok is False and folder in detail, "an arc the candidate runs on has no grade and is on no list, and the gate reads: " + detail
++
++
++def _only_from_owed(text, folder):
++    """the gates' text with `folder` taken out of the list of the arcs that owe a grade, and left in the chain"""
++    head, tail = text.split("GRADE_OWED_AS_FOUND = frozenset((", 1)
++    assert ('"%s",' % folder) in tail.split("))", 1)[0]
++    body, rest = tail.split("))", 1)
++    return head + "GRADE_OWED_AS_FOUND = frozenset((" + body.replace('"%s",' % folder, "", 1) + "))" + rest
++
++
++def test_on_this_repository_the_chain_is_mains_fourteen_and_the_gate_passes():
++    g = _gates()
++    chain = getattr(g, "GRADE_CHAIN", None)
++    assert chain is not None, "the gates hold no list of the arcs the candidate runs on"
++    measured = json.loads(sorted((ROOT / "frontier").glob("B1888_*/verification/candidate_chain.json"))[0].read_text(encoding="utf-8"))["arcs"]
++    assert list(chain) == measured and len(chain) == 14          # typed in the gates' file, and held here to main's own measurement
++    assert set(g.GRADE_OWED_AS_FOUND) <= set(chain)
++    for folder in chain:
++        assert (ROOT / "frontier" / folder / "arc_verdict.json").is_file(), folder
++    ok, detail = g.gate_arc_data()
++    assert ok is True and "arcs the candidate runs on owe one, held by name as found" in detail, detail
+-- 
+2.43.0
+

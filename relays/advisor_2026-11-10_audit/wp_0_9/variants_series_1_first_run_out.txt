@@ -1,0 +1,5 @@
+variants on the patches at faf26b665
+y1   HOLDS  the candidate graded a theorem, naming a lock that is not its own: G3 a grade that says more than the evidence it names: B1841_the_principled_ends_card (theorem asks a lock of its own in which an assert can fail; named and not the arc's 
+y2   HOLDS  the candidate graded an exact computation, naming one of its scripts: G3 a grade that says more than the evidence it names: B1841_the_principled_ends_card (exact computation asks its script, and a lock of its own in which an assert can fail
+
+(the run stopped here: the harness looked for the lock of B1637 in the arc's own folder, and that arc keeps its lock in tests/)
