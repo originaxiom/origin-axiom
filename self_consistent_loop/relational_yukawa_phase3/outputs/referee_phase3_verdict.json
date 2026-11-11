@@ -1,0 +1,68 @@
+{
+  "referee": "AST-Isolated Zero-Import Referee \u2014 Phase 3 (Guardrail 6)",
+  "all_referee_checks_passed": true,
+  "check0_ast_firewall_and_seals": {
+    "check0_passed": true,
+    "referee_producer_imports_count": 0,
+    "illegal_imports": [],
+    "empirical_firewall_violations": [],
+    "phase3_seal_intact": true,
+    "phase3_sha256": "64039873eb88506cefb788a2ca0ba8a2e9578e0a45f91476aa7a94b1536cd48a",
+    "phase2_seal_intact": true,
+    "phase2_sha256": "d92bec8593456d1d82003975d81f5ec21a3af5ced804313da040fff6c61827cf",
+    "phase1_seal_intact": true,
+    "phase1_sha256": "d42cedad6e6f54dc26f0b1ee20a0951c9f6ba167b671b9ec1a08215664312eda"
+  },
+  "check1_keast5_45tet_cover_and_yukawa": {
+    "check1_passed": true,
+    "keast5_deg3_monomial_err": 6.938893903907228e-18,
+    "cover45_run6_forbidden_z5_overlap": 2.706420077141135e-17,
+    "cover45_run6_ranks": [
+      3,
+      3
+    ],
+    "cover45_run6_exact_zero_ckm_entries": 4,
+    "cover45_run6_jarlskog": 3.767666289725969e-31,
+    "irrev_5_1_2_2_keast5_max_jarlskog": 9.397407064086357e-05,
+    "producer_q14_max_jarlskog": 9.446121955760281e-05,
+    "keast5_vs_q14_rel_diff": 0.005157131349994721,
+    "irrev_5_1_2_2_keast5_min_ckm_entry": 0.029406459660366004,
+    "irrev_enantiomer_jarlskog_reversal_err": 1.7076184216646695e-18,
+    "irrev_relational_jarlskog_collapse_err": 1.7076184216646695e-18
+  },
+  "check2_mpmath50_relational_quotient": {
+    "check2_passed": true,
+    "mpmath50_enantiomer_collapse_err": 0.0,
+    "amphicheiral_controls_err": 0.0,
+    "run6_tau_cusp_rel_vs_producer_err": 0.0
+  },
+  "check3_keast5_spin_flux_palindrome": {
+    "check3_passed": true,
+    "keast5_run6_spin_flux_palindrome_err": 6.938893903907228e-17,
+    "keast5_run6_layer_probs": [
+      0.203771460171801,
+      0.05873335642437756,
+      0.02107591016005222,
+      0.014790066798871846,
+      0.02107591016005218,
+      0.05873335642437749,
+      0.20377146017180098,
+      0.20902423984433327,
+      0.20902423984433333
+    ],
+    "keast5_5122_single_peak_gap": 0.016997594251087184
+  },
+  "check4_e8_tadpole_and_haar25": {
+    "check4_passed": true,
+    "e8_dynkin_instanton_err": 0.0,
+    "independent_k_inst_mins": {
+      "4": 10,
+      "3": 6,
+      "2": 3,
+      "1": 1
+    },
+    "matches_producer_thresholds": true,
+    "dedekind_reciprocity_err": 6.661338147750939e-16,
+    "adversarial_haar25_max_err": 1.1102230246251565e-15
+  }
+}
