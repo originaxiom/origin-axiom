@@ -387,6 +387,19 @@ by then read both unasked, confirmed the counts and given him its recommendation
 main to attack the proposal, to add to it and to have the web seat read it cold:
 `ADVISOR_TO_CC_2026-11-11_THE_ASSIGNMENT_TAKEN_V1_AND_THE_REPOSITORY_FOR_YOUR_SCRUTINY.md`, § 3. He was asked nothing.
 
+| what he was answering | his words |
+|---|---|
+| the seat's report of 2026-11-11, 16:15 UTC, on the first patch series and the sixth re-audit | "one question, how did we fix the continuity issye we had with repo?" |
+
+The seat found no issue recorded under that name: not in the transcript of its own session, not in its files, and not
+in main's record of this month (main's last use of the word is Review 50, of 2026-08-27, where a gate was made to
+hold the items carried from one review to the next). It told him so, and answered the two things of its own that
+the words could mean. (1) Its own work from one session to the next: it lost its context twice; everything it makes
+is committed and pushed to its branch, § 9 of its plan is rewritten at every push, his words are in this file, and
+its next step is scheduled. (2) The tie between this repository and a public one: not fixed, proposed. Main's B1888
+has the archive as a signed tag and a dated deposit of this same repository, with the public statement pinning the
+tag's commit; the form is his to decide. He was asked nothing.
+
 ## The roles
 
 The owner, the same day: this seat "will serve as an advisor for cc - the banking seat"; when cc is ready the reports
