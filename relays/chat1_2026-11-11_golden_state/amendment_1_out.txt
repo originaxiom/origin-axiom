@@ -1,0 +1,49 @@
+AMENDMENT 1: the sealed card with the control's enumeration corrected; all else as sealed
+THE GOLDEN STATE ON THE WHOLE, AND WHERE ITS DENSITY PEAKS
+R = pi/(2 ln phi) = 3.264251302636496906731534;  1/4 + R^2 = 10.90533656676406691743989
+
+G0  controls
+    (a) psi unchanged by units: 12 cases, worst difference 4.5835e-40
+    (b) ideal counts for n <= 60 against sum of chi over divisors: mismatches []
+    (c) coefficients for n <= 60, enumeration against Euler product: worst difference 1.5612e-39
+    c(2), c(3), c(4), c(5), c(9), c(11), c(19) = 0.0, 0.0, 1.0, -1.0, 1.0, -1.11318395792048, -0.171571737964802
+G0: HOLDS
+
+G1  automorphy at four points
+    worst relative error of f(g z) - chi(d) f(z): 1.3661e-39
+    the cosine series, same test on E1 and E2: worst relative error 8.5176
+G1: HOLDS
+
+G2  the dual involution z -> -1/(5z)
+    f(-1/(5z)) / f(z) = -1.0, -1.0
+G2: HOLDS
+
+G4  the arc of |z|^2 = 1/5 from the elliptic point to i/sqrt 5
+    121 samples; local maxima at sample(s) [55]
+    the maximum: theta = 0.9734382368308418226 (in units of pi: 0.30985501437257512908); last Newton step 0.0
+    z* = 0.2515397781435936053 + 0.3697671429582024244 i;   |z*|^2 - 1/5 = 0.0;   f(z*)^2 = 2.96558072221802e-5 (not normalised)
+G4: HOLDS
+
+G3  zeros, relative to the peak value
+    |f| at (2 + i)/5            / |f(z*)| = 1.5862e-41
+    |f| at (-2 + i)/5           / |f(z*)| = 1.5862e-41
+    |f| at i/sqrt 5             / |f(z*)| = 0.0
+    |f| at 1/2 + i/(2 sqrt 5)   / |f(z*)| = 7.995e-43
+G3: HOLDS
+
+G5  two dimensions
+    gradient of f^2 at z*, relative to the peak: (-1.2e-17, 1.46e-16)
+    Hessian eigenvalues of f^2 at z*, relative to the peak: -76.66222, -82.856785
+    grid of 3577 points: greatest value / peak = 0.9999056792 at 0.25 + 0.37 i; distance from z*: 0.001557
+    local maxima on the grid inside D above one twentieth of the peak (x, y, value/peak): []
+G5: FAILS
+
+G6  against the point the lane reports
+    |z* - the lane's point| = 1.502e-9
+G6: FAILS
+
+REPORTED  z* = 0.2515397781435936053 + 0.3697671429582024244 i
+          the mirror image is -conj(z*); the two are one orbit of the mirror
+          t(z*) = (-6.2035630581073558701 - 9.3013872827705497501j);  |t|^2 = 125.0;  arg t / pi = -0.68722953790862051895
+
+PREDICTIONS: 5 of 7 hold  (G0 holds, G1 holds, G2 holds, G4 holds, G3 holds, G5 FAILS, G6 FAILS)
