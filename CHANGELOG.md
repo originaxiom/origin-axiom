@@ -1,5 +1,12 @@
 # Changelog
 
+## S306s (seal) B1881 PRE-REGISTERED AND HASH-PINNED BEFORE EXECUTION: WHOLE-SUBWEAVE TWIN-ODD HYPERBOLIC LAPLACIAN OPERATOR, R10-A/B/C LOCKS, AND DATA-FREE FR-FIB HIERARCHY TEST (P-776, P-761) (2026-11-11)
+
+- **Commit A (pre-run seal):** `frontier/B1881_p776_twin_odd_operator_and_whole_subweave_readout/PREREGISTRATION.md` (`87925a99`), `frontier/B1881_p776_twin_odd_operator_and_whole_subweave_readout/verification/subweave_p776_and_hierarchy.py` (`abcb2fb3`), and `frontier/B1881_p776_twin_odd_operator_and_whole_subweave_readout/ARTIFACT_HASHES.txt` committed prior to running any level-5 Maass computation (`C4` or `H4`).
+- **Pre-computation theorems proved by symmetry alone (`PREREGISTRATION.md` §1):** equivalence of the $\delta_{\text{twin}}$-odd sector on $X_1(5)$ with $L^2_{\text{cusp}}(\Gamma_0(5), \chi_5)$ on $X_0(5)$ (zero mode excluded, oldspace identically zero); exact Fricke fundamental domain $\mathcal{F}^+$ of area $\pi$ and floor $y_{\min} = 1/5$; forced vanishing at both elliptic points $z_{e,1}, z_{e,2} = (\pm 2 + i)/5$ and boundary arcs; Hecke–Fricke anticommutation $W_5 T_p = -T_p W_5$ ($p \equiv \pm 2 \pmod 5$) splitting newforms into Class A non-degenerate $\mathbb{Q}(\sqrt{5})$ real-multiplication singletons ($R_1^{\text{RM}, -} = \frac{\pi}{2\ln\varphi} = 3.26425168315\dots$) and Class B Kramers doublets ($R_k^+ = R_k^-$); and pre-computation orbit-vs-`CP` dichotomy for the $\mathrm{O}(\dim E_1)$-invariant trace density $\rho_1(z)$.
+- **Cells sealed (`C0–C4`, `H1–H4`):** `C0` halting $\mathrm{SL}_2(\mathbb{Z})$ Hejhal (1983) benchmark (`Guardrail 4`), `B1667` control, `T`/`S` covariance, and Haar basis-scrambling (`Guardrail 3`); `C1–C3` disclosed `R10-A/B/C` regression locks; `C4` unrun `P-776` twin-odd Maass scan over $R \in [0.8, 11.0]$; `H1–H3` disclosed Ray–Singer bracket locks; `H4` unrun out-of-sample `FR-FIB` bounded `S-DECADE` + `|J| > 1e-8` test across both $X_1(5)$ representatives $\tau_{\text{Maass}}^*$ and $W_5(\tau_{\text{Maass}}^*)$ (declared prior: `FAIL`, `80%`).
+- 0 of 19.
+
 ## S306r COMPLETE WEAVE-THEOREM RESTATEMENT FOR THE GROUP WITH THE EXCHANGE, AXIS MINKOWSKI EXPONENT ANSWERED, ADJOINT SETTLING PROVED, AND LEVEL-5 / VALUE CARDS VERIFIED (B1880; P-769, P-770, P-775) (2026-11-11)
 
 - **`P-769` ("After the computation") completed on main (`p769_weave_theorems_and_walls.py`):**

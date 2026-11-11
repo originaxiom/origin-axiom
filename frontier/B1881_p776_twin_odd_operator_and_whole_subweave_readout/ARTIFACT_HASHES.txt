@@ -1,0 +1,3 @@
+# B1881 pre-run SHA-256 seal manifest (Commit A, 2026-11-11; before executing subweave_p776_and_hierarchy.py)
+87925a996419561a6dd30706f5b5cc792de3324224f3c7b5727c4de92125e2d2  PREREGISTRATION.md
+abcb2fb3721580a5de859b9815e776edbabab3598e40cbe892506a1454dec6ad  verification/subweave_p776_and_hierarchy.py

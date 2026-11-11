@@ -19239,3 +19239,12 @@ and chiral grounds, contrasting cleanly with the flat-fibre instrument's fourth-
 level-five depths, both re-derived independently from scratch.
 
 Still 0 of 19.
+
+
+## 2026-11-11 — S306s (seal): the twin-odd hyperbolic operator on the whole level-five subweave, designed and sealed before running
+
+Before any level-five calculation is run, the whole-subweave operator on the twelve-fold and six-fold level-five quotient curves is written down in full, its symmetry laws are proved by algebra alone, and both the design and the measurement program are locked by cryptographic hash. Choosing the sector odd under exchanging the two twin markings removes the constant zero mode and leaves the cuspidal states of the intrinsic hyperbolic Laplacian with the quadratic character modulo five. Pure symmetry forces every such state to vanish at both order-two elliptic points, splits the spectrum into non-degenerate real-multiplication states quantized by the golden regulator and two-fold degenerate pairs linked by skew-adjoint inert Hecke operators anticommuting with the dual involution, and forces any mirror-odd ground-state density peak off all mirror lines into a single symmetry orbit.
+
+The sealed run will first check the numerical solver against published full-modular-group eigenvalues, lock the auxiliary transfer and analytic-torsion operators, locate the ground state and global density peak of the twin-odd level-five operator, and test whether that peak produces three-sector multi-decade mass hierarchies and Jarlskog violation in the unmodified flat-fibre Yukawa frame with no measured physics read.
+
+Still 0 of 19.
