@@ -483,6 +483,18 @@ co-author. **What he asked:** that a cleaner way be proposed. The seat measured 
 main, `PROPOSAL_HOW_TO_REFER_TO_THE_ASSISTANTS.md`: say what was done and not who did it; roles, not nicknames; only
 the author decides; no rewriting of what is written. He was asked nothing.
 
+| what he was answering | his words |
+|---|---|
+| nothing: sent while the seat was building | "i told main the same thing and it said this:" followed by main's answer, passed on in full |
+
+**Main's words, relayed by the owner; they are main's and stand on main's record, not here.** As relayed: name the
+method, never the seat; fixed labels a stranger can check from the files; no session as the subject of a verb of
+authority; "session" for "seat", with role names; one sentence on method at the front door; the past stays. Main
+holds it as an open call for the owner and has renamed nothing. The seat's answer: the two proposals are one in
+substance and main's is the base; three additions offered (a label for a plain reproduction; labels for a person and
+for outside the project; each label naming its evidence, so that a gate can hold it). Written as § 7 of
+`PROPOSAL_HOW_TO_REFER_TO_THE_ASSISTANTS.md`. He was asked nothing.
+
 ## The roles
 
 The owner, the same day: this seat "will serve as an advisor for cc - the banking seat"; when cc is ready the reports

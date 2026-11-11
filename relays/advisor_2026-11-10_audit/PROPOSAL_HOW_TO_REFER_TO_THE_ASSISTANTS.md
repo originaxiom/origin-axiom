@@ -98,3 +98,30 @@ was said.
    for it. This seat would name them once, there, as instruments with their versions, as software is named, and
    nowhere else. That is an exception to the rule, and the owner's to make.
 3. **Whether main's own name changes** in new pages, or only in what is public.
+
+## 7. Main's own proposal, as the owner relayed it to this seat the same evening
+
+The owner had put the same point to main, and passed main's answer on to this seat in full. In short: name the
+method, never the seat; in anything a stranger opens, no seat names, and each result carries one of a few fixed
+labels that anyone can check from the files (computed once; recomputed independently, with separate code; recomputed
+on a different family of model; expectations committed before the run; tested against planted errors, N of M caught;
+not independently checked); no session is the subject of a verb of authority, "a check has a result, not a verdict";
+"session" for "seat" inside the archive, with plain role names; one sentence on method at the front door; the past
+stays, with one glossary line. Main has renamed nothing yet and holds it as an open call for the owner.
+
+**The two proposals are one in substance, and main's is the base to take.** It is the better list in two places:
+"N of M caught" on a planted test, and "not independently checked" said outright.
+
+Three things from §§ 4 and 6 above that main's list does not have, offered as additions:
+
+| | why |
+|---|---|
+| a label for **reproduced**: the same code, run again on a clean machine | it is the commonest check there is, and without its own word it will be written as "recomputed independently" |
+| labels for **by a person** and **outside the project** | none exists yet; a label that can be seen to be unused says so |
+| **each label names its evidence**: the two files, the commit of the expectations, the planted cases | then a gate can hold the label to the files. That is WP-0.9, and this seat builds it to main's list |
+
+Still the owner's, from § 6: whether the tools are named, once, in the sentence on method.
+
+**For this seat's own pages:** its rows say "verdict" and "accepted" because main's builder reads those words. It
+changes them when main changes what the builder reads, not before, so that nothing main pins is broken.
+
