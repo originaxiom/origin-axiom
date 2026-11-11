@@ -1,0 +1,4 @@
+Q   B1726 frontier/B1726_the_two_ingredients_replicated/FINDINGS.md: found
+Q   B1886 ROADMAP.md: found
+Q   the heading "VIEW REFRESH — 2026-11-11 (Review 78)" in ROADMAP.md: found
+Q   quotations checked: 2; not found: 0
