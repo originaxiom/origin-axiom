@@ -54,16 +54,20 @@ def _scratch(tmp_path, files):
     return repo
 
 
-_RUN = ("import sys, json, importlib.util\n"
+_RUN = ("import sys, json, inspect, subprocess, importlib.util\n"
         "sys.dont_write_bytecode = True\n"
         "s = importlib.util.spec_from_file_location('scratch_gates', 'scripts/gates/gates.py')\n"
         "g = importlib.util.module_from_spec(s); s.loader.exec_module(g)\n"
-        "r = g.GATES[%r]()\n"
+        "gate = g.GATES[%r]\n"
+        "takes = '_anchor' in inspect.signature(getattr(gate, '__wrapped__', gate)).parameters\n"
+        "first = subprocess.run(['git', 'rev-list', '--max-parents=0', 'HEAD'], capture_output=True, text=True).stdout.strip()\n"
+        "r = gate(_anchor=first) if takes else gate()\n"
         "print(json.dumps([bool(r[0]), r[1] if isinstance(r[1], str) else ' | '.join(map(str, r[1]))]))\n")
 
 
 def _gate(repo, name):
-    """the gate `name` of the small repository's own copy of the gates"""
+    """the gate `name` of the small repository's own copy of the gates.  A gate that reads the past from an anchor (series 2)
+    is given the small repository's first commit as its anchor."""
     r = subprocess.run([sys.executable, "-B", "-c", _RUN % name], cwd=str(repo), capture_output=True, text=True)
     assert r.returncode == 0, r.stderr[-800:]
     ok, detail = json.loads(r.stdout.strip().splitlines()[-1])
@@ -200,3 +204,92 @@ def test_the_one_proven_row_without_a_lock_is_held_by_name():
     ok, detail = g.GATES["claims"]()
     assert ok is True, detail
     assert "by name" in detail
+
+
+# ---- PV24: the vacuity gate refused a test with no assert, and not a test in which no assert can fail ------------------
+_REAL = "def test_real():\n    assert sum([1, 2]) == 3\n"
+
+
+def _vacuity(tmp_path, name, body, where="tests/test_planted.py"):
+    repo = _scratch(tmp_path / name, {"tests/test_real.py": _REAL, where: body})
+    return _gate(repo, "test-vacuity")
+
+
+def test_a_test_with_no_assert_fails_the_vacuity_gate(tmp_path):
+    """the control: this held before the series"""
+    ok, detail = _vacuity(tmp_path, "control", "def test_nothing():\n    pass\n")
+    assert ok is False and "test_nothing" in detail
+
+
+def test_a_test_whose_only_assert_is_between_two_literals_fails_the_vacuity_gate(tmp_path):
+    """PV24 as planted"""
+    ok, detail = _vacuity(tmp_path, "pv24", "def test_orbit_counts_differ():\n    assert 1 != 2\n")
+    assert ok is False, "a test whose only assert is `assert 1 != 2`, and the vacuity gate passed: " + detail
+    assert "tests/test_planted.py::test_orbit_counts_differ" in detail
+
+
+_CANNOT_FAIL = {
+    "another operator": "def test_x():\n    assert 1 < 2\n",
+    "a name bound to a literal": "def test_x():\n    n = 5\n    assert n * n - 1 == 24\n    assert n - 1 == 4\n",
+    "and, or, in": "def test_x():\n    assert 2 + 2 == 4 and 'a' in 'abc' or 0 > 1\n",
+    "an entry of a literal table": "def test_x():\n    t = {'a': 1.8, 'b': 0.9}\n    assert t['a'] > 1.5 and t['b'] < 1.0\n",
+    "identity of constants": "def test_x():\n    assert True is not False\n",
+    "a small power": "def test_x():\n    assert 63 + 6 + 1 + 11 == 81 == 3**4\n",
+    "a call beside it": "def test_x():\n    unused = sorted([3, 1])\n    assert 1 != 2\n",
+    "in a loop over something computed": "def test_x():\n    for row in sorted([3, 1]):\n        assert 52 + 26 == 78\n",
+}
+
+
+def test_every_shape_of_a_test_in_which_no_assert_can_fail_is_refused(tmp_path):
+    for name, body in _CANNOT_FAIL.items():
+        ok, detail = _vacuity(tmp_path, name.replace(" ", "_").replace(",", ""), body)
+        assert ok is False, f"a test in which no assert can fail ({name}) passed the vacuity gate: {detail}"
+        assert "no assert can fail" in detail and "test_x" in detail
+
+
+_CAN_FAIL = {
+    "one literal assert among real ones": "def test_x():\n    assert 52 + 26 == 78\n    assert sum([1, 2]) == 3\n",
+    "assert False under a condition": "def test_x():\n    for v in sorted([3, 1]):\n        if v > 5:\n            assert False, v\n",
+    "an assert that is false when reached": "def test_x():\n    for v in sorted([3, 1]):\n        if v > 5:\n            assert 1 == 0, 'unreachable'\n",
+    "a flag set on two paths": ("def test_x():\n    try:\n        int('x')\n        raised = False\n    except ValueError:\n        raised = True\n"
+                                "    assert raised is True\n"),
+    "a list handed to a call": "def _fill(xs):\n    xs.append(1)\n\n\ndef test_x():\n    seen = []\n    _fill(seen)\n    assert seen == [1]\n",
+    "an argument": "import pytest\n\n\n@pytest.mark.parametrize('n', [3])\ndef test_x(n):\n    assert n == 3\n",
+    "a name bound under a condition": "def test_x():\n    if sum([1, 2]) == 3:\n        n = 3\n    assert n == 3\n",
+    "a call in the assert": "def test_x():\n    assert len([1, 2]) == 2\n",
+    "a call named assert": "def _assert_close(a, b):\n    assert abs(a - b) < 1e-9\n\n\ndef test_x():\n    _assert_close(sum([1, 2]), 3)\n    assert 78 == 52 + 26\n",
+}
+
+
+def test_a_test_that_can_fail_is_not_refused(tmp_path):
+    """the other side: nothing here is in the class, and the gate passes.  (`a call in the assert` cannot fail either; the
+    class stops at a call, which is a computation whatever it calls, and this pins where it stops.)"""
+    for name, body in _CAN_FAIL.items():
+        ok, detail = _vacuity(tmp_path, name.replace(" ", "_"), body)
+        assert ok is True, f"a test that can fail ({name}) was refused by the vacuity gate: {detail}"
+
+
+def test_the_vacuity_gate_reads_an_arcs_own_lock(tmp_path):
+    arc = "frontier/B1_an_arc/verification/test_b1_an_arc.py"
+    ok, detail = _vacuity(tmp_path, "arc_no_assert", "def test_nothing():\n    pass\n", where=arc)
+    assert ok is False, "an arc's own lock with a test that asserts nothing, and the vacuity gate passed: " + detail
+    assert arc in detail
+    ok, detail = _vacuity(tmp_path, "arc_literal", "def test_x():\n    assert 1 != 2\n", where=arc)
+    assert ok is False and arc in detail
+    ok, detail = _vacuity(tmp_path, "arc_real", _REAL.replace("test_real", "test_b1"), where=arc)
+    assert ok is True and "1 more in the arcs' own locks" in detail, "the gate does not say that it read the arc's lock: " + detail
+
+
+def test_the_tests_in_which_no_assert_can_fail_are_held_by_name():
+    """26 stood on this repository on the day the rule came.  A 27th fails the gate, and a new name in the table shows here."""
+    g = _gates()
+    held = getattr(g, "CANNOT_FAIL_AS_FOUND", None)
+    assert held is not None and len(held) == 26, "no table of the tests held by name, or not the 26 that were found"
+    sys.path.insert(0, str(ROOT / "scripts" / "checks"))
+    try:
+        import check_test_vacuity as ctv
+    finally:
+        sys.path.pop(0)
+    found = set(ctv.read_locks()["CANNOT-FAIL"])
+    assert found <= held, sorted(found - held)
+    assert "tests/test_b710_thimbles.py::test_orbit_counts_differ" in held          # the one the planted case was written after

@@ -1042,6 +1042,36 @@ def locks_that_left(anchor=None, repo=None, named=None):
     return None, note
 
 
+# WP-0.7 (PV24): the checker listed an assert between two literals "for review", and the gate refused only a test with no assert
+# and a tautology.  A test whose only assert was `assert 1 != 2` passed; main has one, by that name.  The checker now has a fourth
+# class, CANNOT-FAIL: a test in which no assert can fail, each being made of literals alone and true.  The gate refuses it.  One
+# literal assert among real ones stays in the review queue, as before.  The scan had read tests/ only; it now reads the arcs'
+# own locks as well, and all four classes apply there.  The tests of this class that stood on 2026-11-11 are held by name, as
+# found: a ceiling that may only shrink.  Mending one (an assert on something computed) takes it off this list.
+CANNOT_FAIL_AS_FOUND = frozenset((          # 26 test functions, as found on 2026-11-11: computed once by the checker's class, each then read once; not independently checked
+    "tests/test_b1017_recount.py::test_the_two_closings_differ_on_both_discriminants",
+    "tests/test_b1233_zai_audit.py::test_class_bit_is_not_our_c",
+    "tests/test_b1233_zai_audit.py::test_two_is_inert_in_both_ends_and_splits_in_the_meeting",
+    "tests/test_b1255_generation_type.py::test_the_dimension_count_that_closes_the_single_27_route",
+    "tests/test_b1407_l209.py::test_branch_B_dies_on_the_tie",
+    "tests/test_b237_silver_2O.py::test_2O_is_double_cover_of_S4_order",
+    "tests/test_b428_spin_walls.py::test_involution_cascade", "tests/test_b521.py::test_gateA_seam_disc_minus15",
+    "tests/test_b545.py::test_c1_class_on_level", "tests/test_b553.py::test_sl5_dimension_is_n2_minus_1_not_rank",
+    "tests/test_b568_results.py::test_aq4_salience_exists", "tests/test_b582_chiral_play.py::test_closure_dimension_is_full",
+    "tests/test_b709_turok.py::test_monodromy_is_hyperbolic_not_a_bang",
+    "tests/test_b710_thimbles.py::test_orbit_counts_differ", "tests/test_b714_spine.py::test_no_order3_symmetry_route",
+    "tests/test_b723_observer.py::test_observer_is_a_phase_transition_not_one_state",
+    "tests/test_b724_seeing.py::test_Path1_only_common_integer_is_forced_prime_3",
+    "tests/test_b736_abc.py::test_P2_H3_is_not_hermitian_symmetric_so_no_shimura",
+    "tests/test_b736_abc.py::test_P3_zero_SM_parameters_reduced",
+    "tests/test_b754_p2_spectral.py::test_tomb_l277_golden_weld_census",
+    "tests/test_b754_p2_spectral.py::test_wall1_cusp_cm_disc_separates",
+    "tests/test_b754_p2_spectral.py::test_wall1_palette_sizes", "tests/test_b769_audit.py::test_aut_v4_is_s3",
+    "tests/test_b776_b685.py::test_symprod_trajectory_to_anchor", "tests/test_b778_cleanup.py::test_darkhyp_count_identity",
+    "tests/test_b980_k3_conflation.py::test_the_three_dimensional_ratio_is_ell_over_G",
+))
+
+
 def gate_test_vacuity(_anchor=None):
     """No test may be unconditionally-passing: no NO-ASSERT, no TAUTOLOGY.
 
@@ -1061,17 +1091,28 @@ def gate_test_vacuity(_anchor=None):
         return False, f"vacuity checker missing or unimportable: {exc}"   # fail-closed
     finally:
         sys.path.pop(0)
-    total, no_assert, tautology, both_lit = ctv.scan()
-    problems = no_assert + tautology
+    r = ctv.read_locks()                                 # every tracked lock: tests/, and the arcs' own
+    total, elsewhere = r["total"]["tests"], r["total"]["elsewhere"]
+    both_lit = [x for x in r["BOTH-LITERAL"] if x.startswith("tests/")]
+    problems = r["NO-ASSERT"] + r["TAUTOLOGY"]
     if problems:
         return False, f"{len(problems)} unconditionally-passing test(s): " + \
                       "; ".join(problems[:5])
+    # PV24: a test in which no assert can fail
+    new = [t for t in r["CANNOT-FAIL"] if t not in CANNOT_FAIL_AS_FOUND]
+    if new:
+        return False, (f"{len(new)} test(s) in which no assert can fail: " + "; ".join(new[:5])
+                       + ". Each assert is made of literals alone: assert on something the test computes")
     # PV12 (WP-0.7): this gate counts the tests that cannot fail among the tests present, and with every lock deleted it
     # counted none among none and passed.  A lock does not leave without a recorded retirement.
     gone, note = locks_that_left(_anchor)
     if gone:
         return False, gone
-    return True, f"ok ({total} tests, 0 vacuous; {len(both_lit)} both-literal for review)" + note
+    held = [t for t in r["CANNOT-FAIL"] if t in CANNOT_FAIL_AS_FOUND]
+    healed = len(CANNOT_FAIL_AS_FOUND) - len(held) if held else 0
+    return True, (f"ok ({total} tests, 0 vacuous; {len(both_lit)} both-literal for review; {elsewhere} more in the arcs' own locks, 0 vacuous"
+                  + (f"; {len(held)} in which no assert can fail, held by name as found" if held else "")
+                  + (f", and {healed} of that table mended or gone: shorten the table" if healed else "") + ")" + note)
 
 
 def gate_views_generated():
