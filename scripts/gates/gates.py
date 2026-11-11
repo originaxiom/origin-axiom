@@ -1069,7 +1069,12 @@ def gate_log_changelog_paired():
 CHAIN = "docs/THEOREM_LEDGER.md"
 
 
-def gate_chain_locks():
+def _chain_links(text):
+    """the links THE CHAIN holds, by their ids"""
+    return re.findall(r"^\*\*(C\d+) \[", text, re.M)
+
+
+def gate_chain_locks(_anchor=None):
     """Every link in THE CHAIN must cite a resolvable test lock -- its OWN admission rule.
 
     THE CHAIN's stated admission bar is "exact statement + banked computation location + green
@@ -1099,15 +1104,31 @@ def gate_chain_locks():
         problems.append("links citing no resolvable lock: " + ", ".join(bad))
     if missing:
         problems.append("locks cited but absent: " + ", ".join(missing))
+    # PV13 (WP-0.7): emptied, the ledger had no link that could fail.  No link leaves THE CHAIN without a record.
+    gone, note = left_the_ledger(CHAIN, _chain_links, text, "link", _anchor)
+    if gone:
+        problems.append(gone)
     if problems:
         return False, "THE CHAIN -- " + "; ".join(problems)
-    return True, f"ok ({len(links)} links, every non-AXIOM one locked)"
+    return True, f"ok ({len(links)} links, every non-AXIOM one locked)" + note
 
 
 LAW_MAP = "docs/LAW_MAP.md"
 
 
-def gate_law_map_provenance():
+def _law_titles(text):
+    """the laws a page holds, each by the bold title of its row's first cell (what follows the title in that cell is a note,
+    and a note may grow)"""
+    out = []
+    for l in text.splitlines():
+        if l.startswith("|") and l.count("|") >= 4 and "---" not in l and not re.match(r"^\|\s*(law|name)", l, re.I):
+            cell = l.split("|")[1]
+            m = re.search(r"\*\*(.+?)\*\*", cell)
+            out.append(re.sub(r"\s+", " ", m.group(1) if m else cell).strip())
+    return out
+
+
+def gate_law_map_provenance(_anchor=None):
     """LAW_MAP rows must be traceable, and any lock they cite must resolve.
 
     Review 33 (R33-4) measured LAW_MAP at 113 rows with 5 test locks (4 %) and NO gate touching
@@ -1131,10 +1152,14 @@ def gate_law_map_provenance():
                         "; ".join(r.split("|")[1].strip()[:40] for r in noarc[:3]))
     if broken:
         problems.append("cited locks absent: " + ", ".join(broken[:3]))
+    # PV13 (WP-0.7): emptied, the page had no row that could fail.  No law leaves it without a record.
+    gone, note = left_the_ledger(LAW_MAP, _law_titles, text, "law", _anchor)
+    if gone:
+        problems.append(gone)
     if problems:
         return False, "LAW_MAP provenance -- " + "; ".join(problems)
     locked = sum(1 for r in rows if re.search(r"tests/test_[a-z0-9_]+\.py", r))
-    return True, f"ok ({len(rows)} rows all traceable; {locked} locked -- index, not ledger)"
+    return True, f"ok ({len(rows)} rows all traceable; {locked} locked -- index, not ledger)" + note
 
 
 # B806. A HIGH-WATER MARK, not a budget: raising it must be a deliberate, recorded act.
@@ -2799,7 +2824,7 @@ READS_HISTORY = frozenset({                       # reads commits before HEAD, o
     "append-only", "artifact-hashes", "attribution", "closure-generated", "harvest-debt", "lead-debt",
     "log-changelog-paired", "point-debt", "relay-debt", "review-fires", "seal-immutable", "seal-order-unshown", "views-fresh",
     "views-generated",                            # the four debt gates: the commit's day, and that time has not run backwards
-    "retraction-sweep"})                          # nothing leaves a ledger: what the page has held since NOTHING_LEAVES_FROM
+    "chain-locks", "law-map-provenance", "retraction-sweep"})     # nothing leaves a ledger: what a page has held since NOTHING_LEAVES_FROM
 READS_GIT = READS_TRACKED | READS_HISTORY
 
 

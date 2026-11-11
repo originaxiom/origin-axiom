@@ -170,3 +170,63 @@ def test_a_phrase_added_after_the_anchor_and_then_removed_has_left_too(tmp_path)
     _commit(repo, "and quietly dropped", {"docs/RETRACTED_PHRASES.md": _REGISTRY})
     ok, detail = _gate(repo, "retraction-sweep", anchor)
     assert ok is False and "the third retracted phrase" in detail
+
+
+# ---- PV13: the law map and the theorem ledger ---------------------------------------------------------------------------
+_LAWS = ("# The law map\n\n| law | statement | status | source | tension |\n|---|---|---|---|---|\n"
+         "| **The first law (B11)** | a statement | PROVED | B11 | - |\n"
+         "| **The second law (B12)** | another | PROVED | B12 | - |\n"
+         "| **The third law (B13)** | a third | PROVED | B13 | - |\n")
+_CHAIN = ("# THE CHAIN\n\n**C1 [THEOREM].** A first link. Lock: `tests/test_a.py`.\n\n"
+          "**C2 [THEOREM].** A second link. Lock: `tests/test_a.py`.\n\n**C3 [AXIOM].** A declared choice.\n")
+_PAGES = {"docs/LAW_MAP.md": _LAWS, "docs/THEOREM_LEDGER.md": _CHAIN, "tests/test_a.py": "def test_a():\n    assert 1 + 1 == 2\n"}
+
+
+def test_the_law_map_and_the_theorem_ledger_emptied_turn_their_gates_red(tmp_path):
+    """PV13 as planted.  Each gate checked every row it found, and with no rows nothing could fail."""
+    repo, anchor = _scratch(tmp_path, _PAGES)
+    ok, detail = _gate(repo, "law-map-provenance", anchor)
+    assert ok is True and "3 rows all traceable" in detail and "by name" not in detail
+    ok, detail = _gate(repo, "chain-locks", anchor)
+    assert ok is True and "3 links" in detail and "by name" not in detail
+    _commit(repo, "both pages emptied", {"docs/LAW_MAP.md": "# The law map\n", "docs/THEOREM_LEDGER.md": "# THE CHAIN\n"})
+    ok, detail = _gate(repo, "law-map-provenance", anchor)
+    assert ok is False and "3 law(s) left docs/LAW_MAP.md" in detail and "The first law (B11)" in detail
+    ok, detail = _gate(repo, "chain-locks", anchor)
+    assert ok is False and "3 link(s) left docs/THEOREM_LEDGER.md" in detail and "C1" in detail
+
+
+def test_one_law_or_one_link_removed_turns_its_gate_red_unless_it_is_named(tmp_path):
+    repo, anchor = _scratch(tmp_path, _PAGES)
+    fewer_laws = "\n".join(l for l in _LAWS.split("\n") if "second law" not in l)
+    fewer_links = _CHAIN.replace("**C2 [THEOREM].** A second link. Lock: `tests/test_a.py`.\n\n", "")
+    _commit(repo, "one row and one link removed", {"docs/LAW_MAP.md": fewer_laws, "docs/THEOREM_LEDGER.md": fewer_links})
+    ok, detail = _gate(repo, "law-map-provenance", anchor)
+    assert ok is False and "1 law(s) left" in detail and "The second law (B12)" in detail
+    ok, detail = _gate(repo, "chain-locks", anchor)
+    assert ok is False and "1 link(s) left" in detail and "C2" in detail
+    _name_in_the_gate(repo, "docs/LAW_MAP.md", "The second law (B12)", "2026-11-11 -- merged into the first law's row")
+    _commit(repo, "the law's leaving is recorded")
+    ok, detail = _gate(repo, "law-map-provenance", anchor)
+    assert ok is True and "1 law(s) left by name" in detail and "merged into the first law" in detail
+    assert _gate(repo, "chain-locks", anchor)[0] is False                    # the link was not named, and is still missed
+
+
+def test_a_law_keeps_its_place_when_its_row_is_added_to_and_loses_it_when_its_title_changes(tmp_path):
+    """A note may grow after the title, and the rest of the row may be corrected: the law is still there.  A changed title is
+    a law that left and one that came, and that is a recorded act."""
+    repo, anchor = _scratch(tmp_path, _PAGES)
+    grown = _LAWS.replace("| **The first law (B11)** | a statement |", "| **The first law (B11)** [scope: a note added later] | a statement, corrected (B14) |")
+    _commit(repo, "a note and a correction", {"docs/LAW_MAP.md": grown})
+    assert _gate(repo, "law-map-provenance", anchor)[0] is True
+    _commit(repo, "a title is changed", {"docs/LAW_MAP.md": grown.replace("**The third law (B13)**", "**The third law, for the median only (B13)**")})
+    ok, detail = _gate(repo, "law-map-provenance", anchor)
+    assert ok is False and "The third law (B13)" in detail
+
+
+def test_on_main_the_two_pages_hold_everything_they_held_at_the_anchor():
+    g = _gates()
+    for path, keys in ((g.LAW_MAP, g._law_titles), (g.CHAIN, g._chain_links)):
+        text = (ROOT / path).read_text(encoding="utf-8")
+        assert len(keys(text)) == len(set(keys(text))) > 50, path                      # each row and each link has a name of its own
+        assert g.left_the_ledger(path, keys, text) == (None, ""), path
