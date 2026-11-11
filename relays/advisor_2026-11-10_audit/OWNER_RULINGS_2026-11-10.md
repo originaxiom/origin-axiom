@@ -354,6 +354,14 @@ and the seat starts none of it: the word is his to give to main (P-768). On the 
 package and sends no new note until main has answered him. The sixth it answered with measurements and two outside
 reads, in `OPINION_ON_THE_REPOSITORY_2026-11-11.md`, which is for him and for main to read at its next batch.
 
+| what he was answering | his words |
+|---|---|
+| the seat's opinion on the repository | "before we lock the structure id like you to read/harvest [the agy lane's] opinion too?" Beneath it he pasted the lane's own message naming its branch, `agy/stage4-sync-2026-11-11` at `e67dcd5e6`, and its folder |
+
+One name in his sentence is replaced: it is the lane's model, and the attribution rule keeps a vendor's name out of
+tracked files. The seat read the lane's proposal, ran its prototype and planted cheats against its guardrails:
+`agy_blueprint_read/READ_OF_THE_AGY_LANES_BLUEPRINT.md`. He was asked nothing.
+
 ## The roles
 
 The owner, the same day: this seat "will serve as an advisor for cc - the banking seat"; when cc is ready the reports
