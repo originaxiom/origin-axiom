@@ -1,0 +1,29 @@
+variants on the lane's gates: plants at b4ddb600b 
+
+clean tree: artifact-hashes      PASS  ok (1499 entries in 190 lists: 1432 verify, 67 do not (63 distinct, each frozen by key as found on 2026-11-10 or amended by name; the ceiling is 63); 
+clean tree: seal-immutable       PASS  ok (1 commit(s) since 76a4ff388 touch a sealed-style file, each only adding one, or waived by name; waived: 0)
+clean tree: seal-digests         PASS  ok (46 sealed digests recomputed and matching)
+clean tree: seal-ledger-current  PASS  ok (475 sealed files listed, each row's hash recomputed)
+
+t4b   CAUGHT      a frozen entry that is not a script (frontier/B1490_the_common_cover_verified/verification/congruence_level.json), changed again by one line
+        artifact-hashes      FAIL  frontier/B1490_the_common_cover_verified/verification/congruence_level.json: MODIFIED AFTER FREEZE (MISMATCH) against frontier/B1490_the_common_cover_verified/ARTIFACT_HASHES.txt -- a frozen broken script changed again after its f
+        expected by the seat before running: caught: the lane's table holds 41 entries, of every kind of file
+t4c   CAUGHT      a frozen entry that is not a script (frontier/B628_exterior_comparison/COMPARISON_DESIGN.md), changed again by one line
+        artifact-hashes      FAIL  frontier/B628_exterior_comparison/COMPARISON_DESIGN.md: MODIFIED AFTER FREEZE (MISMATCH) against frontier/B598_l85_campaign/ARTIFACT_HASHES.txt -- a frozen broken script changed again after its freeze
+        seal-immutable       FAIL  15e971eb2 edits the sealed file frontier/B628_exterior_comparison/COMPARISON_DESIGN.md
+        seal-ledger-current  FAIL  frontier/B628_exterior_comparison/COMPARISON_DESIGN.md: the ledger's hash 7b5f2ff7 is not the file's
+        expected by the seat before running: caught: the lane's table holds 41 entries, of every kind of file
+t7a   CAUGHT      a new arc (frontier/B9003_a_sealed_run) whose list of hashed files is named SEAL_SHA256.txt; its instrument changed after the seal
+        artifact-hashes      FAIL  frontier/B9003_a_sealed_run/verification/tool.py: MISMATCH against frontier/B9003_a_sealed_run/SEAL_SHA256.txt -- a file in a secondary seal hash list changed or is missing
+        expected by the seat before running: caught: the seat's published case, as a control
+t7b   NOT CAUGHT  a new arc (frontier/B9003_a_sealed_run) whose list of hashed files is named MANIFEST.txt; its instrument changed after the seal
+        expected by the seat before running: NOT caught: the lane recognises a list by its file name, and this name is not in its pattern
+t7c   NOT CAUGHT  a new arc (frontier/B9003_a_sealed_run) whose list of hashed files is named PINS.md; its instrument changed after the seal
+        expected by the seat before running: NOT caught, for the same reason
+t7d   NOT CAUGHT  a new arc (papers/P99_a_sealed_note) whose list of hashed files is named SEAL_SHA256.txt; its instrument changed after the seal
+        expected by the seat before running: NOT caught: the lane reads such lists under frontier/ and outside_bench/ only
+t3b   CAUGHT      a decoy in the list's verification folder (frontier/B1434_the_architecture_census/ARTIFACT_HASHES.txt names frontier/B1432_the_three_fold_cover_fires_off_the_lift/verification/cover_census.py from the root), then the real file changed
+        artifact-hashes      FAIL  frontier/B1432_the_three_fold_cover_fires_off_the_lift/verification/cover_census.py: MISMATCH against frontier/B1434_the_architecture_census/ARTIFACT_HASHES.txt; frontier/B1432_the_three_fold_cover_fires_off_the_lift/verification/
+        expected by the seat before running: caught: the lane reads a name that starts with frontier/ from the root, and refuses a second candidate
+
+clone reset to b4ddb600b | clean: True

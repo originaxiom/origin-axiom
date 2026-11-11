@@ -1,0 +1,936 @@
+verify_web_seat_relays.py -- independent re-derivation of the exact claims of two notes
+(data-free mathematics; nothing here is measured or compared with a measured value)
+
+==============================================================================================================
+PART 1.   note 1: "THE READ-OUT AS A VALUE"   (cyclic run sequences; heights; departures)
+==============================================================================================================
+
+Definitions used (the note, section 1): H_i = (r_i + x_i + y_i)/2 with x_i, y_i the continued fractions
+read forward and backward round the cycle; the apex is the greatest H_i; the own value of a departure is
+its apex when closed by 60 golden periods; the offset of a run is (x_i - y_i)/2.
+"D closed by g golden periods" is read as D followed by 2g+1 runs of 1 (the note: L^n R (LR)^k, and
+"L^6 R L R" = runs (6,1,1,1) for one period).  A composite of m factors at k has gaps k, k+1, ..., k+m-1.
+The request describes a golden period as a pair of runs (1,1); read literally, "(6) closed by one period"
+would be the run sequence (6,1,1).  Both readings are evaluated under the claim on L^6 R L R below.
+
+self-check of the instrument on 46 cyclic words (313 runs): the definition equals the integer form
+   sqrt(D)/(2 q_i) exactly in 313 of 313 runs; largest difference from a 500-term numerical continued
+   fraction: 2e-139
+
+self-check of the comparison: 5 of 5 claimed values accepted as printed; 10 of 10 rejected once their last
+   printed digit is changed by one unit
+
+[  1] N1-s4: the ground (all runs 1) reads sqrt5/2.
+      note : sqrt5/2
+      here : H^2 = 5/4 exactly at every run (cycle lengths 2, 4, 10, 40); H = 1.11803398875
+      => AGREE
+
+[  2] N1-s3: phi^2 is LR's eigenvalue; phi^4 = 6.8541; 4 ln phi = 1.924847.
+      note : phi^4 = 6.8541; 4 ln phi = 1.924847 (result file 1.9248473)
+      here : phi^2 is a root of the characteristic polynomial of LR: True; phi^4 = 6.8541019662; 4 ln phi = 1.9248473002
+         . LR = [1, 1, 1, 2] (trace 3, determinant 1)
+      => AGREE
+
+[  3] N1-s2: own value of (6) (apex when closed by 60 golden periods).
+      note : 3.6180339887498948482 (text 3.618034)
+      here : 3.6180339887498948482
+         . apex at run 1 of the departure, unique: True; its offset (x-y)/2 is exactly zero: True
+         . exact value in an infinite ground: 5/2 + (1/2)*sqrt5 = 3.618033988749894848204587;  60-period value minus limit, in absolute value: 1.57e-51
+      => AGREE
+
+[  4] N1-s2: own value of (11) (apex when closed by 60 golden periods).
+      note : 6.1180339887498948482 (text 6.118034)
+      here : 6.1180339887498948482
+         . apex at run 1 of the departure, unique: True; its offset (x-y)/2 is exactly zero: True
+         . exact value in an infinite ground: 5 + (1/2)*sqrt5 = 6.118033988749894848204587;  60-period value minus limit, in absolute value: 1.86e-51
+      => AGREE
+
+[  5] N1-s2: own value of (2,1,2,1,2) (apex when closed by 60 golden periods).
+      note : 1.7236067977499789696 (text 1.723607)
+      here : 1.7236067977499789696
+         . apex at run 3 of the departure, unique: True; its offset (x-y)/2 is exactly zero: True
+         . exact value in an infinite ground: 3/2 + (1/10)*sqrt5 = 1.723606797749978969640917;  60-period value minus limit, in absolute value: 5.77e-53
+      => AGREE
+
+[  6] N1-V0: own values of (6) and (2,1,2,1,2) equal the record's two apexes to 1e-6.
+      note : holds; the apexes are 3.618034 and 1.723607
+      here : differences 1.13e-8 and 2.02e-7
+         . the two apexes are the record's printed six-place values (the findings of B1857 on the main line)
+      => AGREE
+
+--------------------------------------------------------------------------------------------------------------
+V1: copies of one departure.  Per row: k | apex at a copy | spread | distance | offset
+  distance = greatest (copy height - own value) over the copies (it equals apex - own value: see each case);
+  offset   = greatest absolute (x - y)/2 over the copies;  spread = greatest - least copy height.
+--------------------------------------------------------------------------------------------------------------
+[  7] N1-V1: (6) x 2: distance, offset, spread at k = 1,2,4,8,16 and the rate.
+      note : distance 0.01910438, 0.002754743, 5.8523989e-5, 2.6516323e-8, 5.4438833e-15; rate 1.924847303
+      here : distance 0.01910438, 0.002754743, 5.8523989e-5, 2.6516323e-8, 5.4438833e-15; rate 1.924847303
+         . k= 1 | here: True | exactly 0 | 0.01910438 | 0.014285714 || note: True | 0.0 | 0.01910438 | 0.014285714 || same
+         . k= 2 | here: True | exactly 0 | 0.002754743 | 0.0020542317 || note: True | 3.1115076e-61 | 0.002754743 | 0.0020542317 || same
+         . k= 4 | here: True | exactly 0 | 5.8523989e-5 | 4.3621643e-5 || note: True | 3.1115076e-61 | 5.8523989e-5 | 4.3621643e-5 || same
+         . k= 8 | here: True | exactly 0 | 2.6516323e-8 | 1.9764101e-8 || note: True | 0.0 | 2.6516323e-8 | 1.9764101e-8 || same
+         . k=16 | here: True | exactly 0 | 5.4438833e-15 | 4.0576311e-15 || note: True | 0.0 | 5.4438833e-15 | 4.0576311e-15 || same
+         . rate ln(d8/d16)/8: here 1.924847303, note 1.924847303; 4 ln phi = 1.9248473
+         . every copy reads above the own value: True; distance at the apex equals the greatest over copies: True
+         . sealed rule for this case (apex at a copy; falls strictly; below 1e-12 at k=16; rate within 5%; spread zero): True
+      => AGREE
+
+[  8] N1-V1: (6) x 3: distance, offset, spread at k = 1,2,4,8,16 and the rate.
+      note : distance 0.019095226, 0.0027545521, 5.8523903e-5, 2.6516323e-8, 5.4438833e-15; rate 1.924847303
+      here : distance 0.019095226, 0.0027545521, 5.8523903e-5, 2.6516323e-8, 5.4438833e-15; rate 1.924847303
+         . k= 1 | here: True | 0.016335024 | 0.019095226 | 0.016344781 || note: True | 0.016335024 | 0.019095226 | 0.016344781 || same
+         . k= 2 | here: True | 0.0023532085 | 0.0027545521 | 0.0023534123 || note: True | 0.0023532085 | 0.0027545521 | 0.0023534123 || same
+         . k= 4 | here: True | 4.9985625e-5 | 5.8523903e-5 | 4.9985717e-5 || note: True | 4.9985625e-5 | 5.8523903e-5 | 4.9985717e-5 || same
+         . k= 8 | here: True | 2.2647644e-8 | 2.6516323e-8 | 2.2647644e-8 || note: True | 2.2647644e-8 | 2.6516323e-8 | 2.2647644e-8 || same
+         . k=16 | here: True | 4.6496315e-15 | 5.4438833e-15 | 4.6496315e-15 || note: True | 4.6496315e-15 | 5.4438833e-15 | 4.6496315e-15 || same
+         . rate ln(d8/d16)/8: here 1.924847303, note 1.924847303; 4 ln phi = 1.9248473
+         . every copy reads above the own value: True; distance at the apex equals the greatest over copies: True
+         . sealed rule for this case (apex at a copy; falls strictly; below 1e-12 at k=16; rate within 5%; spread falls): True
+      => AGREE
+
+[  9] N1-V1: (6) x 4: distance, offset, spread at k = 1,2,4,8,16 and the rate.
+      note : distance 0.0190946, 0.0027545391, 5.8523897e-5, 2.6516323e-8, 5.4438833e-15; rate 1.924847303
+      here : distance 0.0190946, 0.0027545391, 5.8523897e-5, 2.6516323e-8, 5.4438833e-15; rate 1.924847303
+         . k= 1 | here: True | 0.018693166 | 0.0190946 | 0.016643962 || note: True | 0.018693166 | 0.0190946 | 0.016643962 || same
+         . k= 2 | here: True | 0.0026960108 | 0.0027545391 | 0.0023970362 || note: True | 0.0026960108 | 0.0027545391 | 0.0023970362 || same
+         . k= 4 | here: True | 5.7278191e-5 | 5.8523897e-5 | 5.0914211e-5 || note: True | 5.7278191e-5 | 5.8523897e-5 | 5.0914211e-5 || same
+         . k= 8 | here: True | 2.5951891e-8 | 2.6516323e-8 | 2.3068347e-8 || note: True | 2.5951891e-8 | 2.6516323e-8 | 2.3068347e-8 || same
+         . k=16 | here: True | 5.3280036e-15 | 5.4438833e-15 | 4.7360032e-15 || note: True | 5.3280036e-15 | 5.4438833e-15 | 4.7360032e-15 || same
+         . rate ln(d8/d16)/8: here 1.924847303, note 1.924847303; 4 ln phi = 1.9248473
+         . every copy reads above the own value: True; distance at the apex equals the greatest over copies: True
+         . sealed rule for this case (apex at a copy; falls strictly; below 1e-12 at k=16; rate within 5%; spread falls): True
+      => AGREE
+
+[ 10] N1-V1: (11) x 2: distance, offset, spread at k = 1,2,4,8,16 and the rate.
+      note : distance 0.022643042, 0.0032591373, 6.921934e-5, 3.1362022e-8, 6.4387203e-15; rate 1.924847303
+      here : distance 0.022643042, 0.0032591373, 6.921934e-5, 3.1362022e-8, 6.4387203e-15; rate 1.924847303
+         . k= 1 | here: True | exactly 0 | 0.022643042 | 0.016949153 || note: True | 0.0 | 0.022643042 | 0.016949153 || same
+         . k= 2 | here: True | exactly 0 | 0.0032591373 | 0.0024307244 || note: True | 0.0 | 0.0032591373 | 0.0024307244 || same
+         . k= 4 | here: True | exactly 0 | 6.921934e-5 | 5.159373e-5 || note: True | 0.0 | 6.921934e-5 | 5.159373e-5 || same
+         . k= 8 | here: True | exactly 0 | 3.1362022e-8 | 2.3375871e-8 || note: True | 0.0 | 3.1362022e-8 | 2.3375871e-8 || same
+         . k=16 | here: True | exactly 0 | 6.4387203e-15 | 4.7991388e-15 || note: True | 0.0 | 6.4387203e-15 | 4.7991388e-15 || same
+         . rate ln(d8/d16)/8: here 1.924847303, note 1.924847303; 4 ln phi = 1.9248473
+         . every copy reads above the own value: True; distance at the apex equals the greatest over copies: True
+         . sealed rule for this case (apex at a copy; falls strictly; below 1e-12 at k=16; rate within 5%; spread zero): True
+      => AGREE
+
+[ 11] N1-V1: (11) x 3: distance, offset, spread at k = 1,2,4,8,16 and the rate.
+      note : distance 0.022639238, 0.0032590583, 6.9219304e-5, 3.1362022e-8, 6.4387203e-15; rate 1.924847303
+      here : distance 0.022639238, 0.0032590583, 6.9219304e-5, 3.1362022e-8, 6.4387203e-15; rate 1.924847303
+         . k= 1 | here: True | 0.019377831 | 0.022639238 | 0.019381889 || note: True | 0.019377831 | 0.022639238 | 0.019381889 || same
+         . k= 2 | here: True | 0.002784439 | 0.0032590583 | 0.0027845234 || note: True | 0.002784439 | 0.0032590583 | 0.0027845234 || same
+         . k= 4 | here: True | 5.9120737e-5 | 6.9219304e-5 | 5.9120775e-5 || note: True | 5.9120737e-5 | 6.9219304e-5 | 5.9120775e-5 || same
+         . k= 8 | here: True | 2.6786365e-8 | 3.1362022e-8 | 2.6786365e-8 || note: True | 2.6786365e-8 | 3.1362022e-8 | 2.6786365e-8 || same
+         . k=16 | here: True | 5.4993237e-15 | 6.4387203e-15 | 5.4993237e-15 || note: True | 5.4993237e-15 | 6.4387203e-15 | 5.4993237e-15 || same
+         . rate ln(d8/d16)/8: here 1.924847303, note 1.924847303; 4 ln phi = 1.9248473
+         . every copy reads above the own value: True; distance at the apex equals the greatest over copies: True
+         . sealed rule for this case (apex at a copy; falls strictly; below 1e-12 at k=16; rate within 5%; spread falls): True
+      => AGREE
+
+[ 12] N1-V1: (11) x 4: distance, offset, spread at k = 1,2,4,8,16 and the rate.
+      note : distance 0.022638977, 0.0032590529, 6.9219301e-5, 3.1362022e-8, 6.4387203e-15; rate 1.924847303
+      here : distance 0.022638977, 0.0032590529, 6.9219301e-5, 3.1362022e-8, 6.4387203e-15; rate 1.924847303
+         . k= 1 | here: True | 0.022164321 | 0.022638977 | 0.019735688 || note: True | 0.022164321 | 0.022638977 | 0.019735688 || same
+         . k= 2 | here: True | 0.0031898318 | 0.0032590529 | 0.002836118 || note: True | 0.0031898318 | 0.0032590529 | 0.002836118 || same
+         . k= 4 | here: True | 6.7745952e-5 | 6.9219301e-5 | 6.0218945e-5 || note: True | 6.7745952e-5 | 6.9219301e-5 | 6.0218945e-5 || same
+         . k= 8 | here: True | 3.0694443e-8 | 3.1362022e-8 | 2.7283949e-8 || note: True | 3.0694443e-8 | 3.1362022e-8 | 2.7283949e-8 || same
+         . k=16 | here: True | 6.3016642e-15 | 6.4387203e-15 | 5.6014793e-15 || note: True | 6.3016642e-15 | 6.4387203e-15 | 5.6014793e-15 || same
+         . rate ln(d8/d16)/8: here 1.924847303, note 1.924847303; 4 ln phi = 1.9248473
+         . every copy reads above the own value: True; distance at the apex equals the greatest over copies: True
+         . sealed rule for this case (apex at a copy; falls strictly; below 1e-12 at k=16; rate within 5%; spread falls): True
+      => AGREE
+
+[ 13] N1-V1: (2,1,2,1,2) x 2: distance, offset, spread at k = 1,2,4,8,16 and the rate.
+      note : distance 0.0006942019, 0.00010107303, 2.1507203e-6, 9.7449234e-10, 2.000663e-16; rate 1.924847301
+      here : distance 0.0006942019, 0.00010107303, 2.1507203e-6, 9.7449234e-10, 2.000663e-16; rate 1.924847301
+         . k= 1 | here: True | exactly 0 | 0.0006942019 | 0.00051777701 || note: True | 0.0 | 0.0006942019 | 0.00051777701 || same
+         . k= 2 | here: True | exactly 0 | 0.00010107303 | 7.534281e-5 || note: True | 0.0 | 0.00010107303 | 7.534281e-5 || same
+         . k= 4 | here: True | exactly 0 | 2.1507203e-6 | 1.6030556e-6 || note: True | 1.5557538e-61 | 2.1507203e-6 | 1.6030556e-6 || same
+         . k= 8 | here: True | exactly 0 | 9.7449234e-10 | 7.263437e-10 || note: True | 0.0 | 9.7449234e-10 | 7.263437e-10 || same
+         . k=16 | here: True | exactly 0 | 2.000663e-16 | 1.4912062e-16 || note: True | 0.0 | 2.000663e-16 | 1.4912062e-16 || same
+         . rate ln(d8/d16)/8: here 1.924847301, note 1.924847301; 4 ln phi = 1.9248473
+         . every copy reads above the own value: True; distance at the apex equals the greatest over copies: True
+         . sealed rule for this case (apex at a copy; falls strictly; below 1e-12 at k=16; rate within 5%; spread zero): True
+      => AGREE
+
+[ 14] N1-V1: (2,1,2,1,2) x 3: distance, offset, spread at k = 1,2,4,8,16 and the rate.
+      note : distance 0.00069419342, 0.00010107285, 2.1507202e-6, 9.7449234e-10, 2.000663e-16; rate 1.924847301
+      here : distance 0.00069419342, 0.00010107285, 2.1507202e-6, 9.7449234e-10, 2.000663e-16; rate 1.924847301
+         . k= 1 | here: True | 0.00059311529 | 0.00069419342 | 0.00059312435 || note: True | 0.00059311529 | 0.00069419342 | 0.00059312435 || same
+         . k= 2 | here: True | 8.6330839e-5 | 0.00010107285 | 8.6331031e-5 || note: True | 8.6330839e-5 | 0.00010107285 | 8.6331031e-5 || same
+         . k= 4 | here: True | 1.8369363e-6 | 2.1507202e-6 | 1.8369364e-6 || note: True | 1.8369363e-6 | 2.1507202e-6 | 1.8369364e-6 || same
+         . k= 8 | here: True | 8.3231582e-10 | 9.7449234e-10 | 8.3231582e-10 || note: True | 8.3231582e-10 | 9.7449234e-10 | 8.3231582e-10 || same
+         . k=16 | here: True | 1.7087702e-16 | 2.000663e-16 | 1.7087702e-16 || note: True | 1.7087702e-16 | 2.000663e-16 | 1.7087702e-16 || same
+         . rate ln(d8/d16)/8: here 1.924847301, note 1.924847301; 4 ln phi = 1.9248473
+         . every copy reads above the own value: True; distance at the apex equals the greatest over copies: True
+         . sealed rule for this case (apex at a copy; falls strictly; below 1e-12 at k=16; rate within 5%; spread falls): True
+      => AGREE
+
+[ 15] N1-V1: (2,1,2,1,2) x 4: distance, offset, spread at k = 1,2,4,8,16 and the rate.
+      note : distance 0.00069419284, 0.00010107284, 2.1507202e-6, 9.7449234e-10, 2.000663e-16; rate 1.924847301
+      here : distance 0.00069419284, 0.00010107284, 2.1507202e-6, 9.7449234e-10, 2.000663e-16; rate 1.924847301
+         . k= 1 | here: True | 0.00067945074 | 0.00069419284 | 0.00060411257 || note: True | 0.00067945074 | 0.00069419284 | 0.00060411257 || same
+         . k= 2 | here: True | 9.8922116e-5 | 0.00010107284 | 8.7934089e-5 || note: True | 9.8922116e-5 | 0.00010107284 | 8.7934089e-5 || same
+         . k= 4 | here: True | 2.1049398e-6 | 2.1507202e-6 | 1.8710591e-6 || note: True | 2.1049398e-6 | 2.1507202e-6 | 1.8710591e-6 || same
+         . k= 8 | here: True | 9.5374906e-10 | 9.7449234e-10 | 8.4777695e-10 || note: True | 9.5374906e-10 | 9.7449234e-10 | 8.4777695e-10 || same
+         . k=16 | here: True | 1.9580764e-16 | 2.000663e-16 | 1.7405124e-16 || note: True | 1.9580764e-16 | 2.000663e-16 | 1.7405124e-16 || same
+         . rate ln(d8/d16)/8: here 1.924847301, note 1.924847301; 4 ln phi = 1.9248473
+         . every copy reads above the own value: True; distance at the apex equals the greatest over copies: True
+         . sealed rule for this case (apex at a copy; falls strictly; below 1e-12 at k=16; rate within 5%; spread falls): True
+      => AGREE
+
+[ 16] N1-V1 cell: the sealed rule holds in all nine cases.
+      note : holds, all 9
+      here : rule satisfied in all nine: True
+         . apex positions agree with the integer form (least q_i) in every word: True
+      => AGREE
+
+--------------------------------------------------------------------------------------------------------------
+V2: different departures.  Per row: k | apex unique | at the deepest departure | distance from its own value
+--------------------------------------------------------------------------------------------------------------
+[ 17] N1-V2: (6) (11): apex unique at the deepest departure; distance at k = 1,2,4,8,16.
+      note : deepest (11); distance 0.019106208, 0.0027547811, 5.8524006e-5, 2.6516323e-8, 5.4438833e-15
+      here : deepest (11); distance 0.019106208, 0.0027547811, 5.8524006e-5, 2.6516323e-8, 5.4438833e-15
+         . k= 1 | here: True | True (the run of 11) | 0.019106208 || note: True | True | 0.019106208 || same
+         . k= 2 | here: True | True (the run of 11) | 0.0027547811 || note: True | True | 0.0027547811 || same
+         . k= 4 | here: True | True (the run of 11) | 5.8524006e-5 || note: True | True | 5.8524006e-5 || same
+         . k= 8 | here: True | True (the run of 11) | 2.6516323e-8 || note: True | True | 2.6516323e-8 || same
+         . k=16 | here: True | True (the run of 11) | 5.4438833e-15 || note: True | True | 5.4438833e-15 || same
+         . sealed rule for this case (unique apex at the deepest; falls strictly; below 1e-12 at k=16): True
+      => AGREE
+
+[ 18] N1-V2: (6) (2,1,2,1,2): apex unique at the deepest departure; distance at k = 1,2,4,8,16.
+      note : deepest (6); distance 0.0091230274, 0.0013238191, 2.8153637e-5, 1.275627e-8, 2.6189019e-15
+      here : deepest (6); distance 0.0091230274, 0.0013238191, 2.8153637e-5, 1.275627e-8, 2.6189019e-15
+         . k= 1 | here: True | True (the run of 6) | 0.0091230274 || note: True | True | 0.0091230274 || same
+         . k= 2 | here: True | True (the run of 6) | 0.0013238191 || note: True | True | 0.0013238191 || same
+         . k= 4 | here: True | True (the run of 6) | 2.8153637e-5 || note: True | True | 2.8153637e-5 || same
+         . k= 8 | here: True | True (the run of 6) | 1.275627e-8 || note: True | True | 1.275627e-8 || same
+         . k=16 | here: True | True (the run of 6) | 2.6189019e-15 || note: True | True | 2.6189019e-15 || same
+         . sealed rule for this case (unique apex at the deepest; falls strictly; below 1e-12 at k=16): True
+      => AGREE
+
+[ 19] N1-V2: (11) (2,1,2,1,2): apex unique at the deepest departure; distance at k = 1,2,4,8,16.
+      note : deepest (11); distance 0.0091230738, 0.0013238201, 2.8153637e-5, 1.275627e-8, 2.6189019e-15
+      here : deepest (11); distance 0.0091230738, 0.0013238201, 2.8153637e-5, 1.275627e-8, 2.6189019e-15
+         . k= 1 | here: True | True (the run of 11) | 0.0091230738 || note: True | True | 0.0091230738 || same
+         . k= 2 | here: True | True (the run of 11) | 0.0013238201 || note: True | True | 0.0013238201 || same
+         . k= 4 | here: True | True (the run of 11) | 2.8153637e-5 || note: True | True | 2.8153637e-5 || same
+         . k= 8 | here: True | True (the run of 11) | 1.275627e-8 || note: True | True | 1.275627e-8 || same
+         . k=16 | here: True | True (the run of 11) | 2.6189019e-15 || note: True | True | 2.6189019e-15 || same
+         . sealed rule for this case (unique apex at the deepest; falls strictly; below 1e-12 at k=16): True
+      => AGREE
+
+[ 20] N1-V2: (6) (6) (11): apex unique at the deepest departure; distance at k = 1,2,4,8,16.
+      note : deepest (11); distance 0.0027602025, 0.00040134357, 8.5382782e-6, 3.8686794e-9, 7.9425188e-16
+      here : deepest (11); distance 0.0027602025, 0.00040134357, 8.5382782e-6, 3.8686794e-9, 7.9425188e-16
+         . k= 1 | here: True | True (the run of 11) | 0.0027602025 || note: True | True | 0.0027602025 || same
+         . k= 2 | here: True | True (the run of 11) | 0.00040134357 || note: True | True | 0.00040134357 || same
+         . k= 4 | here: True | True (the run of 11) | 8.5382782e-6 || note: True | True | 8.5382782e-6 || same
+         . k= 8 | here: True | True (the run of 11) | 3.8686794e-9 || note: True | True | 3.8686794e-9 || same
+         . k=16 | here: True | True (the run of 11) | 7.9425188e-16 || note: True | True | 7.9425188e-16 || same
+         . sealed rule for this case (unique apex at the deepest; falls strictly; below 1e-12 at k=16): True
+      => AGREE
+
+[ 21] N1-V2: (11) (6) (2,1,2,1,2): apex unique at the deepest departure; distance at k = 1,2,4,8,16.
+      note : deepest (11); distance 0.016860848, 0.0024290024, 5.1595765e-5, 2.3377173e-8, 4.799406e-15
+      here : deepest (11); distance 0.016860848, 0.0024290024, 5.1595765e-5, 2.3377173e-8, 4.799406e-15
+         . k= 1 | here: True | True (the run of 11) | 0.016860848 || note: True | True | 0.016860848 || same
+         . k= 2 | here: True | True (the run of 11) | 0.0024290024 || note: True | True | 0.0024290024 || same
+         . k= 4 | here: True | True (the run of 11) | 5.1595765e-5 || note: True | True | 5.1595765e-5 || same
+         . k= 8 | here: True | True (the run of 11) | 2.3377173e-8 || note: True | True | 2.3377173e-8 || same
+         . k=16 | here: True | True (the run of 11) | 4.799406e-15 || note: True | True | 4.799406e-15 || same
+         . sealed rule for this case (unique apex at the deepest; falls strictly; below 1e-12 at k=16): True
+      => AGREE
+
+[ 22] N1-V2 cell: the sealed rule holds in all five composites.
+      note : holds, all 5
+      here : rule satisfied in all five: True
+      => AGREE
+
+[ 23] N1-s2: the card has 70 composites (14 cases at five values of k).
+      note : 70
+      here : 70 words evaluated for V1 and V2
+      => AGREE
+
+[ 24] N1-V3: runs 6, 11, 16, 21, 26 keep the line (1,3); the control 7 does not.
+      note : keep: 6, 11, 16, 21, 26; not: 7
+      here : keep: 6, 11, 16, 21, 26; not: 7
+         . n= 6: by columns True, by rows True (the same at closures 0, 1, 2, 5, 60: True); note: True, True
+         . n=11: by columns True, by rows True (the same at closures 0, 1, 2, 5, 60: True); note: True, True
+         . n=16: by columns True, by rows True (the same at closures 0, 1, 2, 5, 60: True); note: True, True
+         . n=21: by columns True, by rows True (the same at closures 0, 1, 2, 5, 60: True); note: True, True
+         . n=26: by columns True, by rows True (the same at closures 0, 1, 2, 5, 60: True); note: True, True
+         . n= 7: by columns False, by rows False (the same at closures 0, 1, 2, 5, 60: True); note: False, False
+      => AGREE
+
+[ 25] N1-V3: their own values are (n-1)/2 + sqrt5/2 to 1e-40, and increase.
+      note : 3.618, 6.118, 8.618, 11.118, 13.618; formula to 1e-40
+      here : 3.618034, 6.118034, 8.618034, 11.11803, 13.61803; greatest distance from the formula 2.09e-51; increasing: True
+         . n= 6: own value 3.6180339887498948482 (note 3.6180339887498948482); distance from (n-1)/2 + sqrt5/2: 1.57e-51
+         . n=11: own value 6.1180339887498948482 (note 6.1180339887498948482); distance from (n-1)/2 + sqrt5/2: 1.86e-51
+         . n=16: own value 8.6180339887498948482 (note 8.6180339887498948482); distance from (n-1)/2 + sqrt5/2: 1.98e-51
+         . n=21: own value 11.118033988749894848 (note 11.118033988749894848); distance from (n-1)/2 + sqrt5/2: 2.04e-51
+         . n=26: own value 13.618033988749894848 (note 13.618033988749894848); distance from (n-1)/2 + sqrt5/2: 2.09e-51
+         . n= 7: own value 4.1180339887498948482 (note 4.1180339887498948482); distance from (n-1)/2 + sqrt5/2: 1.66e-51
+      => AGREE
+
+[ 26] N1-V3 cell: line kept, formula to 1e-40, increasing, control 7 fails.
+      note : holds
+      here : line: True; values: True; increasing: True
+      => AGREE
+
+[ 27] N1-s2: copies of (6): distance 0.019, 0.0028, 5.9e-5, 2.7e-8, 5.4e-15, same for 2, 3, 4 copies.
+      note : 0.019, 0.0028, 5.9e-5, 2.7e-8, 5.4e-15
+      here : 0.019, 0.0028, 5.9e-5, 2.7e-8, 5.4e-15 in all three cases
+         . k= 1: 2, 3, 4 copies: 0.01910438, 0.019095226, 0.0190946  -> to two figures all 0.019: True
+         . k= 2: 2, 3, 4 copies: 0.002754743, 0.0027545521, 0.0027545391  -> to two figures all 0.0028: True
+         . k= 4: 2, 3, 4 copies: 5.8523989e-5, 5.8523903e-5, 5.8523897e-5  -> to two figures all 5.9e-5: True
+         . k= 8: 2, 3, 4 copies: 2.6516323e-8, 2.6516323e-8, 2.6516323e-8  -> to two figures all 2.7e-8: True
+         . k=16: 2, 3, 4 copies: 5.4438833e-15, 5.4438833e-15, 5.4438833e-15  -> to two figures all 5.4e-15: True
+      => AGREE
+
+[ 28] N1-s2: at k = 1 the apex's own offset is 0.014, the greatest over the copies 0.017.
+      note : 0.014; 0.017
+      here : apex's own 0.014286, 0.014286, 0.014286; greatest over copies 0.014286, 0.016345, 0.016644 (2, 3, 4 copies)
+         . 0.017 is the four-copy case; with three copies the greatest is 0.016345, with two it is the apex's own
+      => AGREE
+
+[ 29] N1-s2: copies of (11): 0.023 at k = 1; of (2,1,2,1,2): 0.00069, about 27 times closer.
+      note : 0.023; 0.00069; about 27
+      here : 0.022643; 0.0006942; ratio to copies of (6) 27.52
+         . the ratio is 27.52: "about 27" is a truncation (it rounds to 28); against copies of (11) the ratio is 32.62
+      => AGREE
+
+[ 30] N1-s2: the rate between k = 8 and 16 is 1.924847 in all nine cases.
+      note : 1.924847 in all nine; 4 ln phi = 1.924847
+      here : nine rates from 1.924847301 to 1.924847303; 4 ln phi = 1.9248473
+      => AGREE
+
+[ 31] N1-s2: different departures read the run of 11 (or 6); distance 0.003 to 0.019, then below 6e-15.
+      note : run of 11 in four, run of 6 in (6)(2,1,2,1,2); 0.003 to 0.019 at k=1; below 6e-15 at k=16
+      here : run of 11 in four, run of 6 in (6) (2,1,2,1,2): True; k=1: 0.00276 to 0.01911; k=16: greatest 5.444e-15
+         . (6) (11): the run of 11
+         . (6) (2,1,2,1,2): the run of 6
+         . (11) (2,1,2,1,2): the run of 11
+         . (6) (6) (11): the run of 11
+         . (11) (6) (2,1,2,1,2): the run of 11
+      => AGREE
+
+[ 32] N1-s3: step ratios, two copies of (6): 6.935, 6.866, 6.856, 6.8543, 6.8541.
+      note : 6.935, 6.866, 6.856, 6.8543, 6.8541 (result file: 6.93509, 6.86577, 6.8558, 6.85435, 6.85414); phi^4 = 6.8541
+      here : 6.935086, 6.86576591, 6.85580054, 6.85434972, 6.85413811; phi^4 = 6.85410197
+         . equal to the result file's six figures: True; to the text's figures: [True, True, True, True, True]
+      => AGREE
+
+[ 33] N1-head: the distance falls by a factor tending to phi^4 per golden period.
+      note : factor tends to phi^4 = 6.8541
+      here : ratios converge to phi^4 = 6.85410196625 for all three departures: True
+         . two copies of (6): distance of d(k)/d(k+1) from phi^4 at k = 5, 10, 20, 30: 3.61e-5, 2.39e-9, 1.04e-17, 4.56e-26
+         . two copies of (11): distance of d(k)/d(k+1) from phi^4 at k = 5, 10, 20, 30: 4.16e-5, 2.75e-9, 1.2e-17, 5.25e-26
+         . two copies of (2,1,2,1,2): distance of d(k)/d(k+1) from phi^4 at k = 5, 10, 20, 30: 6.42e-6, 4.25e-10, 1.86e-18, 8.11e-27
+         . run of 6: d(30)*phi^120 = 0.1291569515573738499736082; closed form sqrt5 (n-1)(1+phi^-4)/(2 (n-1+sqrt5) phi^4) = 0.1291569515573738499736082
+         . run of 11: d(30)*phi^120 = 0.1527596092068736744751216; closed form sqrt5 (n-1)(1+phi^-4)/(2 (n-1+sqrt5) phi^4) = 0.1527596092068736744751216
+         . (derived here: [0;1^m,u] - 1/phi = (-1)^(m-1) (u - phi)/((F_(m+1) u + F_m) phi^(m+1)), with m = 2g+1 ones)
+      => AGREE
+
+[ 34] N1-head: with long gaps a history with several departures reads the deepest one.
+      note : reads the deepest in the limit (card: gaps to 19 periods)
+      here : the five composites at k = 20, 30, 31: unique apex at the deepest, distance still falling by phi^4: True
+         . (6) (11): unique apex at the deepest at k = 20, 30, 31: True; distance at k = 30: 1.078e-26; d(30)/d(31) = 6.85410196625
+         . (6) (2,1,2,1,2): unique apex at the deepest at k = 20, 30, 31: True; distance at k = 30: 5.186e-27; d(30)/d(31) = 6.85410196625
+         . (11) (2,1,2,1,2): unique apex at the deepest at k = 20, 30, 31: True; distance at k = 30: 5.186e-27; d(30)/d(31) = 6.85410196625
+         . (6) (6) (11): unique apex at the deepest at k = 20, 30, 31: True; distance at k = 30: 1.573e-27; d(30)/d(31) = 6.85410196625
+         . (11) (6) (2,1,2,1,2): unique apex at the deepest at k = 20, 30, 31: True; distance at k = 30: 9.503e-27; d(30)/d(31) = 6.85410196625
+      => AGREE
+
+[ 35] N1-s3: two copies tie exactly; three and four differ by amounts falling at the same rate.
+      note : exact tie; same rate
+      here : two copies: equal heights exactly, apex attained twice: True; spread rates (k 8 to 16) 1.924847301 to 1.924847303
+         . the note's result file prints 3.1e-61 and 1.6e-61 for three of the fifteen two-copy spreads; exact arithmetic gives 0 (rounding noise there)
+      => AGREE
+
+[ 36] N1-s3: at the card's k = 1 the run of 6 reads half a percent off.
+      note : half a percent
+      here : 0.528 percent
+      => AGREE
+
+[ 37] N1-s3: L^6 R L R reads 3.6515 against 3.6180, nearly one percent.
+      note : 3.6515 (3.651483717); 3.6180; 0.9245 percent
+      here : 3.651483717; 3.618033989; 0.9245 percent
+         . exactly sqrt(40/3): H^2 == 40/3 is True
+         . the other reading of "one period" (runs 6,1,1, an odd cycle) gives 3.535533906, which is not the note's value
+      => AGREE
+
+[ 38] N1-s3: (11) with one period on both sides is 0.65 percent off.
+      note : 0.65 percent (6.157651067 against 6.118033989; 0.6475)
+      here : 6.157651067 against 6.118033989; 0.6475 percent
+      => AGREE
+
+[ 39] N1-s3: (6)_1 (6)_2 reads 3.6371, below (6)_1 alone at 3.6515.
+      note : 3.6371 (3.637138368), below 3.6515
+      here : 3.637138368, below 3.651483717: True
+      => AGREE
+
+[ 40] N1-s3: A = (2,1,1,4,4), B = (2,1,2,4,4) keep the line; own values 2.418183, 2.423508.
+      note : both keep (g v = [1,3], v g = [1,3]); 2.41818304, 2.423507871
+      here : both keep: True (g v = [1, 3], v g = [1, 3] for A_1; [1, 3], [1, 3] for B_1); 2.41818304, 2.423507871
+         . exact limits in an infinite ground: A 895/482 + (121/482)*sqrt5 = 2.41818303999; B 1120/601 + (301/1202)*sqrt5 = 2.42350787124
+         . difference of the two own values: 0.0053248
+      => AGREE
+
+[ 41] N1-s3: in A_1 B_2 the apex is in A, the shallower, at 2.425956.
+      note : apex in A at 2.425956224; best of B 2.424539515; the composite keeps the line
+      here : apex in A at 2.425956224; best of B 2.424539515; keeps the line: True
+      => AGREE
+
+[ 42] N1-s3: in A_2 B_3, A_4 B_5, A_8 B_9 the apex is in B.
+      note : in B at 2.423658265, 2.423511072, 2.423507873
+      here : in B/B/B at 2.423658265, 2.423511072, 2.423507873
+         . A_2 B_3: apex in B at 2.423658265; best of A 2.419310441; best of B 2.423658265; keeps the line True || note: B, 2.423658265, 2.419310441, 2.423658265
+         . A_4 B_5: apex in B at 2.423511072; best of A 2.418207014; best of B 2.423511072; keeps the line True || note: B, 2.423511072, 2.418207014, 2.423511072
+         . A_8 B_9: apex in B at 2.423507873; best of A 2.418183051; best of B 2.423507873; keeps the line True || note: B, 2.423507873, 2.418183051, 2.423507873
+      => AGREE
+
+[ 43] N1-s3: for every gap from 2 to 12 the apex of A_g B_(g+1) is in B.
+      note : in B for g = 2..12
+      here : in B for g = 2,3,4,5,6,7,8,9,10,11,12; also for every g up to 30: True
+      => AGREE
+
+[ 44] N1-s3: the card's departures are 1.89 or more apart in own value.
+      note : 1.89 or more
+      here : least difference 1.894427 (the others 2.5, 4.394427)
+      => AGREE
+
+[ 45] N1-s4: L^n R (LR)^k is a power of LR mod 5 exactly when n = 1 mod 5.
+      note : exactly when n = 1 mod 5 (L^5 = I mod 5); the control 7 is not
+      here : 780 pairs (n up to 60, k up to 12): 0 exceptions; L^5 = I mod 5: True; n = 7 a power: False
+         . LR has order 10 modulo 5
+      => AGREE
+
+[ 46] N1-s4: allowed single runs have own values (n-1)/2 + sqrt5/2: no greatest.
+      note : no greatest own value
+      here : n = 6, 11, ..., 501 and 5e6+1, 5e12+1 all keep the line and match the formula to 1e-40: True
+         . for example n = 5000000000001: own value 2500000000001.11803398875
+         . single runs n below 200 with n not 1 mod 5 that keep the line by rows or columns: none
+      => AGREE
+
+[ 47] N1-s4: the same holds at any finite set of levels.
+      note : holds at any finite set of levels
+      here : five sets of levels tested: True
+         . levels [5]: lcm 5; runs 1 + lcm*j (j = 1, 2, 3) are powers of LR at every level: True
+         . levels [5, 7]: lcm 35; runs 1 + lcm*j (j = 1, 2, 3) are powers of LR at every level: True
+         . levels [3, 5, 11]: lcm 165; runs 1 + lcm*j (j = 1, 2, 3) are powers of LR at every level: True
+         . levels [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]: lcm 27720; runs 1 + lcm*j (j = 1, 2, 3) are powers of LR at every level: True
+         . levels [5, 25, 125]: lcm 125; runs 1 + lcm*j (j = 1, 2, 3) are powers of LR at every level: True
+         . (the general reason: L^m = [[1,0],[m,1]] is the identity mod N exactly when N divides m)
+      => AGREE
+
+[ 48] N1-s4: every apex is at least sqrt5/2 (quoted from the record).
+      note : every apex at least sqrt5/2
+      here : 11590 cyclic words (runs 1 to 4, length up to 8): 0 below sqrt5/2; equality only for the all-ones words (8)
+         . elementary reason: a greatest run r >= 3 gives H > 3/2; r = 2 gives H > (2 + 2/3)/2 = 4/3; both exceed sqrt5/2 = 1.118...
+      => AGREE
+
+[ 49] N1-s2: eight of the 70 composites were already computed by an earlier card.
+      note : 8 of 70
+      here : needs the earlier card's word list; a statement about provenance, not a number of this note
+      => NOT RECOMPUTED
+
+[ 50] N1-s4: at one common fibre area no lightest level is lowest.
+      note : none is lowest (under one stated assumption)
+      here : rests on the record's spectral model; only its input, no greatest height, is recomputed above
+      => NOT RECOMPUTED
+
+--------------------------------------------------------------------------------------------------------------
+Convention for L and R (an ambiguity, not a claim).
+  the notes' (note 2, R7: LR = [[1,1],[1,2]])      line (1, 3) is a line of LR: True 
+       run:closures 0 to 11 at which it keeps that line, by rows and columns:  6:always  11:always  16:always  21:always  26:always  7:never
+  the notes' (note 2, R7: LR = [[1,1],[1,2]])      line (1, 2) is a line of LR: False
+       run:closures 0 to 11 at which it keeps that line, by rows and columns:  6:only at 4,9  11:only at 4,9  16:only at 4,9  21:only at 4,9  26:only at 4,9  7:only at 1,6,11
+  as written in the request (LR = [[2,1],[1,1]])   line (1, 3) is a line of LR: False
+       run:closures 0 to 11 at which it keeps that line, by rows and columns:  6:only at 4,9  11:only at 4,9  16:only at 4,9  21:only at 4,9  26:only at 4,9  7:only at 1,6,11
+  as written in the request (LR = [[2,1],[1,1]])   line (1, 2) is a line of LR: True 
+       run:closures 0 to 11 at which it keeps that line, by rows and columns:  6:always  11:always  16:always  21:always  26:always  7:never
+  With L = [[1,1],[0,1]], R = [[1,0],[1,1]] multiplied left to right, LR = [2, 1, 1, 1] and its line mod 5 is (1,2), not (1,3);
+  (1,3) is then the line of RL, and whether L^n R (LR)^k keeps (1,3) depends on k: it is not a property of the run.
+  The two conventions differ by exchanging L and R (or the reading direction), and every line-keeping statement of
+  note 1 is the same once the mark is taken as LR's own line.  Heights do not depend on it.
+
+==============================================================================================================
+PART 2.   note 2: "WHAT SYMMETRY ALLOWS A STATE OF THE WHOLE"   (level 5; facts Q1 to Q7 and R1 to R9)
+==============================================================================================================
+
+Conventions (the note, section 1): a line of order 5 is a row mod 5; the mark is v = (1,3);
+G_pm = {g in SL(2,Z): v g = +-v mod 5}; G_line = {g: v g = c v mod 5}.  Cosets G\SL(2,Z) are the orbit of the
+mark under right multiplication; cusps are the cycles of T, elliptic points the fixed cosets of S and of ST.
+S = [[0,-1],[1,0]], T = [[1,1],[0,1]].  A matrix of determinant -1 acts by tau -> (a conj(tau) + b)/(c conj(tau) + d).
+
+[ 51] N2-Q1: X_pm has index 12, cusp widths 1,1,5,5, no elliptic point, genus 0.
+      note : index 12; widths [1, 1, 5, 5]; order-2 points 0; order-3 points 0; genus 0
+      here : index 12; widths [1, 1, 5, 5]; order-2 points 0; order-3 points 0; genus 0
+         . genus from the cycle count of S, ST, T as well: 0; Schreier generators found: 4
+      => AGREE
+
+[ 52] N2-Q1: X_line has index 6, cusp widths 1,5, two elliptic points of order 2, genus 0.
+      note : index 6; widths [1, 5]; order-2 points 2; order-3 points 0; genus 0
+      here : index 6; widths [1, 5]; order-2 points 2; order-3 points 0; genus 0
+         . genus from the cycle count of S, ST, T as well: 0; Schreier generators found: 5
+      => AGREE
+
+   (classical formulas for Gamma_0(5), for comparison only: index 5(1 + 1/5) = 6; order-2 points 1 + (-1|5) = 2;
+    order-3 points 1 + (-3|5) = 0; cusps = sum over d | 5 of phi(gcd(d, 5/d)) = 2)
+
+[ 53] N2-s1: they are the classical X_1(5) and X_0(5) in the frame g = [[0,-1],[1,3]].
+      note : g with (0,1) g = v: [0,-1,1,3]
+      here : (0,1) g = v: True; g^-1 Gamma_0(5) g = G_line on generators, both ways: True; same for +-Gamma_1(5) and G_pm: True
+      => AGREE
+
+[ 54] N2-Q2: the elliptic points of X_line are tau = i and tau = -1+i.
+      note : i: e = S, v e = [3,4]; -1+i: e = [-1,-2,1,1], image of i under T^-1, v e = [2,1]; e^2 = -1, e in G_line, not in G_pm, v e = +-2v
+      here : the cosets fixed by S are the lines [(1, 2), (1, 3)], that is v and v T^-1; both elliptic elements as in the note: True
+         . coset representatives found here give tau = (-1) + (1)*i, (0) + (1)*i
+         . i and -1+i are inequivalent under G_line (different cosets): True
+      => AGREE
+
+[ 55] N2-s1: they are i with LR's line and i with RL's.
+      note : LR's line and RL's
+      here : v = (1,3) is a line of LR = [1, 1, 1, 2]: True; v T^-1 = (1, 2) is a line of RL = [2, 1, 1, 1]: True
+      => AGREE
+
+[ 56] N2-Q3: delta = [[-5,-6],[-4,-5]] exchanges the twins; it fixes only the two points over the elliptic points.
+      note : v delta = [3,4]; delta^2 in G_pm; elliptic elements of G_line lie in delta G_pm; fixed points: those over the 2 elliptic points
+      here : v delta = [3, 4] = 3v = -2v; delta^2 in G_pm: True; the cover X_pm -> X_line branches over 2 elliptic points and no cusp
+         . 10 elements of G_line of trace 0 with entries up to 12; outside delta G_pm: 0
+         . Riemann-Hurwitz for the double cover: 2*0 - 2 = 2*(2*0 - 2) + 2
+      => AGREE
+
+[ 57] N2-Q4: W = [[-3,-14],[1,3]] has determinant 5, W^2 = -5, and normalises G_line.
+      note : det 5; W^2 = [-5,0,0,-5]; normalises G_line on all 100 elements tested
+      here : det 5; W^2 = [-5, 0, 0, -5]; W h W^-1 is integral and in G_line for all 5 Schreier generators: True; 100 random words: 100
+         . W = g^-1 W5 g: True
+         . W^2 is a scalar, so W G W^-1 inside G gives equality: the statement holds for the whole group, not a sample
+      => AGREE
+
+[ 58] N2-Q6: W normalises G_pm as well.
+      note : true on all 50 elements tested
+      here : true on all 4 Schreier generators of G_pm: True; 50 random words: 50
+      => AGREE
+
+[ 59] N2-R1: W5 [[a,b],[5c,d]] W5^-1 = [[d,-c],[-5b,a]] with W5 = [[0,-1],[5,0]].
+      note : [[d,-c],[-5b,a]]
+      here : holds on the four basis matrices (the map is linear) and on 200 random integer ones: True
+         . symbolic check (level 5 and a general level N): True
+         . the same identity with any level N in place of 5 (the note: the same involution exists at every level): True
+      => AGREE
+
+[ 60] N2-Q4: W5 exchanges the elliptic points (2+i)/5, (-2+i)/5 and the cusps infinity, 0.
+      note : W5((2+i)/5) = -2/5 + i/5; W5((-2+i)/5) = 2/5 + i/5; infinity to 0, 0 to infinity
+      here : W5((2+i)/5) = (-2/5) + (1/5)*i; W5((-2+i)/5) = (2/5) + (1/5)*i; cusps exchanged: True
+         . (2+i)/5 and (-2+i)/5 are fixed by [[2,-1],[5,-2]] and [[-2,-1],[5,2]] in Gamma_0(5): True
+         . in the mark's frame they are tau = i (after T^5, which lies in G_line) and tau = -1+i: True
+      => AGREE
+
+[ 61] N2-Q4: W's fixed points are two classes of discriminant -20, (1,0,5) and (2,2,3); kernel is the mark.
+      note : classes: 2; kernel of every fixing matrix on the 5-torsion is the mark; examples [-20,-81,5,20] and [-20,-27,15,20]
+      here : 3865 fixing matrices (all with c up to 200 in absolute value): classes [(1, 0, 5), (2, 2, 3)]; kernel not the mark: 0; both examples as in the note: True
+         . a fixing matrix is W5.gamma with trace 5(b - c), and a fixed point in the upper half-plane needs trace^2 < 20: trace 0, so
+         .    M = [[-5c,-d],[5a,5c]] with a d - 5 c^2 = 1, and its fixed point is the root of the form (5a, 10c, d) of discriminant -20
+         . M^2 = -5 fails in 0 cases; reduced form not reduced or of another discriminant in 0 cases
+         . each fixed point is Gamma_0(5)-equivalent to the base point of its class (i/sqrt5, or 1/2 + i/(2 sqrt5)): exceptions 0
+         . so W has exactly two fixed points on X_line, one for each class
+         . in the mark's frame every g^-1 M g kills v mod 5 and lies in W.G_line: exceptions 0
+      => AGREE
+
+[ 62] N2-Q4/R2: sample sizes: 17 and 16 matrices found by class; 63 matrices examined.
+      note : 17, 16; 63
+      here : c up to 6: 63; c up to 4: 19 + 16; c up to 4 with a up to 50: 17 + 16
+         . the note does not state the search boxes; these are sizes of samples, not mathematical claims
+         . 63 is reproduced by all a d = 1 + 5c^2 with c from -6 to 6
+         . 17 + 16 is reproduced by c from -4 to 4 with a <= a_max for any a_max from 46 to 80; without that bound the box gives 19 + 16
+      => NOT RECOMPUTED
+
+[ 63] N2-R2: d of gamma is +-1 mod 5 on the class (1,0,5), +-2 on (2,2,3).
+      note : (1,0,5): [1]; (2,2,3): [2]
+      here : (1, 0, 5): [1]; (2, 2, 3): [2], over 3865 matrices
+         . so both points of X_pm over the first are fixed by W5, and over the second by W5 with the twin exchange (Q6)
+         .    ("both": conjugating a fixing matrix by the twin exchange gives W5.gamma' with the same d up to sign: exceptions 0)
+         .    consistent with R4 below: the twins over t = +5 sqrt5, the class (1,0,5), are the fixed points of the lift of W5
+         . (reason: x^2 + 5y^2 takes values +-1 mod 5 and 2x^2 + 2xy + 3y^2 values +-2 mod 5 on values prime to 5)
+      => AGREE
+
+[ 64] N2-Q4: in the mark's frame W fixes the root of (1,6,14), reduced form (1,0,5).
+      note : (1, 6, 14); (1, 0, 5)
+      here : (1, 6, 14); (1, 0, 5); W fixes -3 + i sqrt5 exactly: True; g carries it to i/sqrt5: True
+      => AGREE
+
+[ 65] N2-Q5: the mirror normalises the group, exchanges the elliptic points, fixes both fixed points of W.
+      note : normalises; exchanges; fixes i/sqrt5; sends 1/2 + i/(2 sqrt5) to T^-1 of it
+      here : normalises (on generators): True; exchanges (2+i)/5 and (-2+i)/5: True; fixes i/sqrt5: True; second point goes to T^-1 of itself: True
+         . i/sqrt5 is fixed by W5 and 1/2 + i/(2 sqrt5) by W5.[[2,-1],[-5,3]] = [[5,-3],[10,-5]]: True
+         . in the mark's frame the mirror with its restoring move is m = T^-1.diag(-1,1) = [[-1,-1],[0,1]], an involution: True
+         .    the bare mirror diag(-1,1) sends v to (4, 3), on the line (1,2): it does not keep the mark; m does (v m = -v)
+         .    m normalises G_line and G_pm on generators: True, True
+         .    m exchanges tau = i and tau = -1+i: True; m sends -3 + i sqrt5 to T^5 of itself, and T^5 is in G_pm: True
+      => AGREE
+
+[ 66] N2-R7: F = [[0,1],[1,1]] has F^2 = LR, det -1, vF = 3v, and F = S^-1 m.
+      note : LR = [1,1,1,2] = F^2; det F = -1; v F = [3,4] = 3v; F = S^-1 m; v S = [3,4]; v m = [4,2]; det m = -1
+      here : F^2 = [1, 1, 1, 2]; det F = -1; v F = [3, 4]; F = S^-1 m: True; v S = [3, 4]; v m = [4, 2]; det m = -1
+         . on tau: m is tau -> -conj(tau) - 1: True; F is S^-1 after m: True (exact, at a rational test point)
+         . v S = 3v: S keeps the line; v m = -v: m keeps the twin up to sign
+         . here LR = [[1,1],[1,2]] is L.R for L = [[1,0],[1,1]], R = [[1,1],[0,1]] (see the remark on conventions in part 1)
+      => AGREE
+
+[ 67] N2-Q7: t(z)t(-1/(5z)) = 125; t = +5sqrt5 at i/sqrt5, -5sqrt5 at 1/2+i/(2sqrt5).
+      note : 125.0; 1.0; -1.0 (errors below 1e-38)
+      here : errors 5.18e-58, 6.22e-61, 1.63e-61
+         . t = (eta(z)/eta(5z))^6 evaluated as q^-1 prod((1-q^n)/(1-q^5n))^6 at 60 digits; z = 0.137 + 0.412 i as in the note
+         . t(i/sqrt5)/(5 sqrt5) = (1.0 + 0.0j); t(1/2 + i/(2 sqrt5))/(5 sqrt5) = (-1.0 - 4.7728718627729873724e-62j)
+      => AGREE
+
+[ 68] N2-s4: those two points are the tori i*sqrt5 (principal class) and (1+i*sqrt5)/2.
+      note : the two classes of discriminant -20; j = 632000 +- 282880 sqrt5
+      here : j at t = +5 sqrt5: 632000 + (282880)*sqrt5; at t = -5 sqrt5: 632000 - (282880)*sqrt5 (exact); equal to j(i sqrt5) and j((1 + i sqrt5)/2) numerically: True
+         . the two points are conjugate over Q and lie in Q(sqrt5): t^2 = 125
+      => AGREE
+
+[ 69] N2-R3: t = 1/s - 11 - s; s(delta w) = -1/s(w); s(-conj z) = conj s(z).
+      note : errors 9.8e-39; 8.1e-40; 0.0
+      here : errors 2.74e-59; 3.11e-59 (greatest over five delta); 0.0
+         . at w = 0.37 + 0.23 i; the delta used: g delta g^-1 = [7, 4, -30, -17] and four more elements of Gamma_0(5) with d = +-2 mod 5
+         . s is unchanged by four elements with d = +-1 mod 5: greatest difference 1.71e-59
+      => AGREE
+
+[ 70] N2-R3: over t = +-5sqrt5 s is real with product -1; over -11+2i, s = -i.
+      note : real, product -1 (both); over -11+2i: -i; over -11-2i: i
+      here : discriminant (11+t)^2 + 4 is positive at t = +-5 sqrt5: True, product -1; s = -i, i are double roots over -11+2i, -11-2i: True
+         . numerically t((2+i)/5) = (-11.0 - 2.0j) with s = (1.2854564e-60 + 1.0j); t((-2+i)/5) = (-11.0 + 2.0j) with s = (1.2854564e-60 - 1.0j)
+         . in the mark's frame: t at tau = i is (-11.0 - 2.0j) and at tau = -1+i is (-11.0 + 2.0j): True
+      => AGREE
+
+[ 71] N2-s4: on X_pm, W is s -> (beta*s+1)/(s-beta), beta = (-11-5sqrt5)/2.
+      note : beta = (-11 - 5 sqrt5)/2
+      here : s(-1/(5z)) against (beta s + 1)/(s - beta) at three points: greatest error 9.36e-61
+         . beta = -phi^5: True
+      => AGREE
+
+[ 72] N2-R4: delta, W, mirror generate a commuting group of 8; stabilisers and orbits of six points.
+      note : 8 elements, commuting; orbits [p1,p2], [p3,p4], [p5,p6]; no point fixed by the whole group
+      here : 8 elements, closed: True, commuting: True; orbits [['p1', 'p2'], ['p3', 'p4'], ['p5', 'p6']]; stabilisers as in the note: True; fixed by all: none
+         . p1: stabiliser ['1', 'W', 'W.mirror', 'mirror'], orbit ['p1', 'p2']
+         . p2: stabiliser ['1', 'W', 'W.mirror', 'mirror'], orbit ['p1', 'p2']
+         . p3: stabiliser ['1', 'delta.W', 'delta.W.mirror', 'mirror'], orbit ['p3', 'p4']
+         . p4: stabiliser ['1', 'delta.W', 'delta.W.mirror', 'mirror'], orbit ['p3', 'p4']
+         . p5: stabiliser ['1', 'W.mirror', 'delta', 'delta.W.mirror'], orbit ['p5', 'p6']
+         . p6: stabiliser ['1', 'W.mirror', 'delta', 'delta.W.mirror'], orbit ['p5', 'p6']
+         . p1, p2 are the roots of s^2 - 2 beta s - 1 (over t = +5 sqrt5), p3, p4 of beta s^2 + 2 s - beta (over t = -5 sqrt5), p5 = -i, p6 = i: exact True
+         . exact stabilisers in Q(sqrt5) and Q(sqrt5)(i) agree with the 60-digit table: True; every element is an involution: True
+      => AGREE
+
+[ 73] N2-s4: on X_pm no point is fixed by every symmetry; exactly three pairs exist.
+      note : none; exactly three pairs
+      here : subgroups of order 4: 7, each with a holomorphic involution: True; their six fixed points have stabilisers of order 4; pairs: 3
+         . twins over t = +5 sqrt5: fixed by W and the mirror; twins over t = -5 sqrt5: by delta.W and the mirror;
+         .    the points over i: fixed by delta, exchanged by W and by the mirror  (as the note says)
+      => AGREE
+
+[ 74] N2-s1: on X_pm modulo the mirror only the point over i is fixed by delta and W.
+      note : the point over i
+      here : delta(s) = s only at s = +-i; delta(s) = conj(s) has no solution; W(i) = -i = conj(i): True
+         . delta(s) = conj(s) would need s conj(s) = -1
+      => AGREE
+
+[ 75] N2-s4: on X_line the symmetries are W, the mirror, their product, and no others.
+      note : a group of order 4
+      here : 2 holomorphic and 2 anti-holomorphic maps keep the cusps {0, infinity} and the cone points {-11+2i, -11-2i}
+         . t -> 125/t exchanges -11+2i and -11-2i: True
+         . decided here as automorphisms of the sphere with two punctures and two cone points (cross-ratios, exact)
+      => AGREE
+
+[ 76] N2-s4: on X_pm the symmetries form a group of order 8.
+      note : order 8, generated by delta, W and the mirror
+      here : 4 Moebius maps permute the four cusps s = 0, infinity, (-11 +- 5 sqrt5)/2; all four are real, so 8 with the mirror
+         . delta, W and delta.W permute the four cusps: True; cross-ratio of the cusps = -123/2 + (55/2)*sqrt5 (not -1, 2, 1/2)
+      => AGREE
+
+[ 77] N2-s4: with the line as mark exactly two points are fixed by every symmetry, t = +-5sqrt5.
+      note : two: t = +-5 sqrt5; the points over i are a mirror pair
+      here : fixed by t -> 125/t: t^2 = 125, two real points, each fixed by the mirror: True; -11+2i and -11-2i are exchanged by both: True
+      => AGREE
+
+[ 78] N2-R6/R8: under the tick the fixed set is the arc of the circle of radius 5sqrt5 through -11+2i.
+      note : (-11+2i)(-11-2i) = 125 = (5 sqrt5)^2; arc from +5 sqrt5 through the point over i to -5 sqrt5
+      here : (-11+2i)(-11-2i) = 125: True; (+-5 sqrt5)^2 = 125: True; the mirror m exchanges tau = i and tau = -1+i: True
+         . t -> 125/t fixes the class of t modulo t ~ conj(t) exactly when 125/t = t or 125/t = conj(t): t^2 = 125 or t conj(t) = 125
+         . modulo the mirror that circle is its upper half: an arc from +5 sqrt5 to -5 sqrt5 through (-11) + (2)*i (imaginary part positive)
+      => AGREE
+
+[ 79] N2-R6: W with the mirror is t -> 125/conj(t); the mirror is t -> conj(t).
+      note : errors 9.6e-40; 0.0
+      here : errors 5.12e-59; 0.0
+         . t(1/(5 conj z)) against 125/conj(t(z)), and t(-conj z) against conj(t(z)), at z = 0.137 + 0.412 i
+      => AGREE
+
+[ 80] N2-R5: j(t) = j(125/t) at ten points, the roots of five given quadratics, all on that circle.
+      note : numerator -(t^2-125)(t^2-14t+125)(t^2+4t+125)(t^2+18t+125)(t^2+22t+125); j: 632000+-282880 sqrt5, -884736, 287496, -32768, 1728
+      here : that product equals (t^2+250t+3125)^3 - t^4 (t^2+10t+5)^3 coefficient by coefficient: True; j at the roots: 632000 + (282880)*sqrt5 and 632000 - (282880)*sqrt5, -884736, 287496, -32768, 1728
+         . sympy factorisation gives the same five factors, each once: True
+         . j(125/t) = (t^2 + 10t + 5)^3/t exactly: True
+         . j(z) against (t^2+250t+3125)^3/t^5 at z = 0.137 + 0.412 i: relative error 6.2e-60 (note: 1.7e-40)
+         . four quadratics t^2 + b t + 125 with b^2 < 500 have conjugate roots of product 125; t^2 = 125 has two real roots: ten points, all with t conj(t) = 125
+         . the pair over i (j = 1728, t^2 + 22t + 125) is among them; the four rational j are those of i, 2i, (1+i sqrt11)/2, (1+i sqrt19)/2 numerically: True
+      => AGREE
+
+[ 81] N2-R9: each weight-1 section vanishes at one elliptic point; its size at the other is 0.305236.
+      note : chi(2) = +i: 0.305236 at (2+i)/5, 8e-42 at (-2+i)/5; chi(2) = -i: 8e-42, 0.305236
+      here : chi(2) = +i: 0.30523624, 1.56e-61; chi(2) = -i: 1.56e-61, 0.30523624
+         . E1_chi = L(0,chi)/2 + sum_n (sum over d dividing n of chi(d)) q^n, constant term (3 + i)/10 for chi(2) = i
+         .    (the normalisation is inferred: it reproduces both 0.305236 and the constant -40 below)
+         . forced by the elliptic element: at (2+i)/5, c z + d = i and chi(-2) i = -chi(2) i, which is -1 exactly when chi(2) = -i
+      => AGREE
+
+[ 82] N2-R9: the mirror and W carry each weight-1 section to the other; the W ratio is constant.
+      note : mirror error 0.0; ratio 1.17557050458 - 1.90211303259 i at two points
+      here : mirror error 0.0; ratio (1.17557050458 - 1.90211303259j) and (1.17557050458 - 1.90211303259j)
+         . ratio = E1_chi(Wz)/(z E1_chibar(z)) with W z = -1/(5z) and chi(2) = +i
+         . the constant is minus the Gauss sum of chi: distance 1.56e-61
+         . for the other character the constant is (-1.17557050458 - 1.90211303259j)
+      => AGREE
+
+[ 83] N2-R9: the weight-2 section vanishes at both elliptic points and is -40 times the product.
+      note : size 1.1e-40 at both; ratio -40.0 at two points
+      here : size 1.96e-60 and 1.96e-60; ratio -40 with errors 5.79e-60 and 1.94e-59
+         . E2* = E2(z) - 5 E2(5z), E2 = 1 - 24 sum sigma(n) q^n (normalisation inferred from the constant -40)
+      => AGREE
+
+[ 84] N2-s3: the listed spaces of forms (weights 1, 2, 4, 5, 6) are one-dimensional.
+      note : 1, 1, 1, 1, 1 (weight 1 each odd character; weight 2; cusp forms of weight 4 and 6; weight 5 each odd character)
+      here : not derived here; the classical dimension formulas, fed with the invariants recomputed above, return 1, 1, 1, 1, 1
+         . these rest on Riemann-Roch (dimension formulas of the literature); only the invariants entering them are recomputed here
+         . eta(z)^4 eta(5z)^4 transforms with weight 4 under the generators of Gamma_0(5), numerically: greatest relative error 2.91e-54
+         . "vanishes nowhere else" follows from the valence formula (weight x index / 12 zeros): 1/2 for weight 1, 1 for weight 2, with index 6
+      => NOT RECOMPUTED
+
+[ 85] N2-s3: no eigenvalue below the continuous spectrum at level 5 (Selberg).
+      note : lambda_1 at least 1/4, a theorem at small level
+      here : a statement of the literature
+      => NOT RECOMPUTED
+
+[ 86] N2-s1: closed geodesics of the quotient are the classes of hyperbolic elements.
+      note : classical correspondence
+      here : a statement of the literature
+      => NOT RECOMPUTED
+
+[ 87] N2-s4: a symmetric C1 function is stationary at isolated fixed points of the symmetries.
+      note : statement with proof (section 4)
+      here : a general lemma, not a finite computation; the fixed sets it is applied to are recomputed above
+      => NOT RECOMPUTED
+
+==============================================================================================================
+REMARKS: DISAGREEMENTS AND AMBIGUITIES
+==============================================================================================================
+Disagreements: none.  Every number recomputed here equals the note's to every digit the note prints.
+
+A0. Sources.  The claimed values are those of the notes' text and of their committed result files
+    (out_value_not_place.json, postreview_checks_out.txt, whole_level5_facts_out.json, whole_level5_facts_2_out.json).
+    The notes' scripts were not run and their code was not read or copied.  A text search for the record's apexes
+    displayed one docstring line of note 1's script and three of an earlier card's script (prose only).  The two
+    apexes used for V0 were read from the record itself (the findings of B1857 on the main line).  For the convention
+    on L and R (A1) the opening lines of the main line's own test of B1872 were read, after this script was written.
+
+A1. Which matrices are L and R (a labelling point; no number depends on it).
+    Note 2's fact R7 prints LR = [[1,1],[1,2]] = F^2, F = [[0,1],[1,1]]: that is L.R for L = [[1,0],[1,1]], R = [[1,1],[0,1]].
+    The request gives L = [[1,1],[0,1]], R = [[1,0],[1,1]], for which L.R = [[2,1],[1,1]].  Computed with both:
+      LR = [1, 1, 1, 2], line (1, 3), a line of LR: True ; run:closures (0 to 11) at which it is kept:  6:always  11:always  16:always  21:always  26:always  7:never
+      LR = [1, 1, 1, 2], line (1, 2), a line of LR: False; run:closures (0 to 11) at which it is kept:  6:only at 4,9  11:only at 4,9  16:only at 4,9  21:only at 4,9  26:only at 4,9  7:only at 1,6,11
+      LR = [2, 1, 1, 1], line (1, 3), a line of LR: False; run:closures (0 to 11) at which it is kept:  6:only at 4,9  11:only at 4,9  16:only at 4,9  21:only at 4,9  26:only at 4,9  7:only at 1,6,11
+      LR = [2, 1, 1, 1], line (1, 2), a line of LR: True ; run:closures (0 to 11) at which it is kept:  6:always  11:always  16:always  21:always  26:always  7:never
+    So with the request's matrices the mark (1,3) is not a line of LR: it is the line of RL, the line of LR is (1,2),
+    and F^2 = RL.  Taken literally (those matrices with v = (1,3)), card cell V3 would fail: whether a run keeps the line
+    then depends on the closure.  The two conventions differ by exchanging L and R; every statement survives once
+    "the mark" is read as LR's own line.  "LR's line is (1,3)" and "F^2 = LR" are true only in the notes' convention.
+
+A2. "Closed by g golden periods".  The note writes L^n R (LR)^k, and L^6 R L R for one period: the departure, one run
+    of 1, then g pairs (1,1), that is 2g+1 runs of 1.  A literal "g pairs (1,1)" would give 2g runs.  For (6) with one
+    period: runs (6,1,1,1) give 3.651483717, the note's value; runs (6,1,1) give 3.535533906, which is not.
+
+A3. "Distance" and "offset" in the result file of V1 are the greatest over the copies.  The greatest distance is always
+    the apex's own (every copy reads above the own value).  For the offset the two differ, as the note's text says:
+    at k = 1 the apex's own offset is 0.014286, 0.014286, 0.014286 with 2, 3, 4 copies of (6); the greatest over copies is 0.014286, 0.016345, 0.016644.
+    The text's "0.017" is the four-copy case.
+
+A4. Two-copy spread.  Exact arithmetic gives 0 in all fifteen rows and the apex is attained exactly twice.  The result
+    file prints 3.1e-61 and 1.6e-61 in three rows: rounding noise, far below the note's tolerance of 1e-45.
+
+A5. "About 27 times closer".  The ratio of the k = 1 distances, copies of (6) to copies of (2,1,2,1,2), is 27.52
+    (it rounds to 28).  Against copies of (11) it is 32.62.
+
+A6. Own values and their exact limits.  60-period own value minus the exact value in an infinite ground:
+      (6)          limit 5/2 + (1/2)*sqrt5      difference 1.57e-51
+      (11)         limit 5 + (1/2)*sqrt5        difference 1.86e-51
+      (2,1,2,1,2)  limit 3/2 + (1/10)*sqrt5     difference 5.77e-53
+      A = (2,1,1,4,4): limit 895/482 + (121/482)*sqrt5;  B = (2,1,2,4,4): limit 1120/601 + (301/1202)*sqrt5
+
+A7. The limit, beyond the card.  The distance of d(k)/d(k+1) from phi^4, two copies, at k = 5 and k = 30:
+      (6)          3.61e-5 and 4.56e-26
+      (11)         4.16e-5 and 5.25e-26
+      (2,1,2,1,2)  6.42e-6 and 8.11e-27
+    Closed form derived here, for two copies of a single run n: d(k) phi^(4k) tends to
+    sqrt5 (n-1)(1+phi^-4)/(2 (n-1+sqrt5) phi^4) = 0.12915695 for n = 6, 0.15275961 for n = 11
+
+A8. V0 rests on the record: the comparison is with the record's printed six-place apexes 3.618034 and 1.723607;
+    the differences are 1.13e-8 and 2.02e-7.
+
+A9. Sample sizes of note 2.  The note does not say which matrices were searched.  "63 matrices examined" is reproduced
+    by every factorisation a d = 1 + 5c^2 with c from -6 to 6 (63).  "17 and 16 found" is not reproduced by the same kind
+    of box: c from -4 to 4 gives 19 + 16.  It is reproduced when a is also bounded, by any bound from 46 to 80.
+    The mathematical claim behind the counts was checked on 3865 matrices (all with c up to 200 in absolute value).
+
+A10. Normalisations in R9.  The note's text does not define E1_chi or E2*.  Used here: E1_chi = L(0,chi)/2 +
+    sum_n (sum over d dividing n of chi(d)) q^n, constant term (3 + i)/10 for chi(2) = i; E2* = E2(z) - 5 E2(5z).
+    They are inferred, and they reproduce both printed numbers (0.305236 and the constant -40).  The zeros, the
+    constancy of the ratios and the mirror relation do not depend on them.
+
+A11. Unstated test elements.  R3 does not say which delta was used in the standard frame, nor R9 which two points.
+    Here s(delta w) = -1/s(w) was checked for g delta g^-1 = [7, 4, -30, -17] and four other elements of Gamma_0(5) with
+    d = +-2 mod 5, and s was found unchanged by four elements with d = +-1 mod 5.
+
+A12. "No others".  That the symmetries of X_line are four and those of X_pm eight was decided here as a statement about
+    conformal and anti-conformal automorphisms of the sphere with its punctures and cone points, by exact cross-ratios:
+    2 + 2 for X_line, 4 + 4 for X_pm.  The note took this from its referee and the literature.
+
+A13. Error sizes.  Where the note prints the size of a numerical error (9.8e-39, 1.7e-40 and the like) the figure is
+    noise at its working precision; here the same identities hold to about 1e-59.  They are compared as "the identity
+    holds", not digit by digit.
+
+A14. A bug of this script, found and fixed while it was written.  The translation step of the Gauss reduction used
+    floor((B + A)/(2A)), which leaves B = -A unreduced: the second class came out as (2,-2,3).  It was noticed because
+    that form is not reduced and a later step found no class named (2,2,3).  The step now gives -A < B <= A.
+    Nothing was tuned to a number of the notes.
+
+==============================================================================================================
+NOT RECOMPUTED, AND WHY
+==============================================================================================================
+[ 49] N1-s2: eight of the 70 composites were already computed by an earlier card.
+      needs the earlier card's word list; a statement about provenance, not a number of this note
+[ 50] N1-s4: at one common fibre area no lightest level is lowest.
+      rests on the record's spectral model; only its input, no greatest height, is recomputed above
+[ 62] N2-Q4/R2: sample sizes: 17 and 16 matrices found by class; 63 matrices examined.
+      c up to 6: 63; c up to 4: 19 + 16; c up to 4 with a up to 50: 17 + 16
+[ 84] N2-s3: the listed spaces of forms (weights 1, 2, 4, 5, 6) are one-dimensional.
+      not derived here; the classical dimension formulas, fed with the invariants recomputed above, return 1, 1, 1, 1, 1
+[ 85] N2-s3: no eigenvalue below the continuous spectrum at level 5 (Selberg).
+      a statement of the literature
+[ 86] N2-s1: closed geodesics of the quotient are the classes of hyperbolic elements.
+      a statement of the literature
+[ 87] N2-s4: a symmetric C1 function is stationary at isolated fixed points of the symmetries.
+      a general lemma, not a finite computation; the fixed sets it is applied to are recomputed above
+Outside the numbered list: the topic sweeps of the record, quotations from the record, priors and the review history
+in both notes, and the notes' readings of what the facts mean.  These are not mathematical claims.
+
+==============================================================================================================
+SUMMARY TABLE
+==============================================================================================================
+Labels: N1, N2 = the note; s1, s2, ... = its section; head = its headline; V0 to V3 = the cells of note 1's sealed card;
+Q1 to Q7 and R1 to R9 = the facts of note 2.  Each row is detailed above under the same number.
+
+| # | claim (at most 20 words) | the note's value | value found here | status |
+|---|---|---|---|---|
+| 1 | N1-s4: the ground (all runs 1) reads sqrt5/2. | sqrt5/2 | H^2 = 5/4 exactly at every run (cycle lengths 2, 4, 10, 40); H = 1.11803398875 | AGREE |
+| 2 | N1-s3: phi^2 is LR's eigenvalue; phi^4 = 6.8541; 4 ln phi = 1.924847. | phi^4 = 6.8541; 4 ln phi = 1.924847 (result file 1.9248473) | phi^2 is a root of the characteristic polynomial of LR: True; phi^4 = 6.8541019662; 4 ln phi = 1.9248473002 | AGREE |
+| 3 | N1-s2: own value of (6) (apex when closed by 60 golden periods). | 3.6180339887498948482 (text 3.618034) | 3.6180339887498948482 | AGREE |
+| 4 | N1-s2: own value of (11) (apex when closed by 60 golden periods). | 6.1180339887498948482 (text 6.118034) | 6.1180339887498948482 | AGREE |
+| 5 | N1-s2: own value of (2,1,2,1,2) (apex when closed by 60 golden periods). | 1.7236067977499789696 (text 1.723607) | 1.7236067977499789696 | AGREE |
+| 6 | N1-V0: own values of (6) and (2,1,2,1,2) equal the record's two apexes to 1e-6. | holds; the apexes are 3.618034 and 1.723607 | differences 1.13e-8 and 2.02e-7 | AGREE |
+| 7 | N1-V1: (6) x 2: distance, offset, spread at k = 1,2,4,8,16 and the rate. | distance 0.01910438, 0.002754743, 5.8523989e-5, 2.6516323e-8, 5.4438833e-15; rate 1.924847303 | distance 0.01910438, 0.002754743, 5.8523989e-5, 2.6516323e-8, 5.4438833e-15; rate 1.924847303 | AGREE |
+| 8 | N1-V1: (6) x 3: distance, offset, spread at k = 1,2,4,8,16 and the rate. | distance 0.019095226, 0.0027545521, 5.8523903e-5, 2.6516323e-8, 5.4438833e-15; rate 1.924847303 | distance 0.019095226, 0.0027545521, 5.8523903e-5, 2.6516323e-8, 5.4438833e-15; rate 1.924847303 | AGREE |
+| 9 | N1-V1: (6) x 4: distance, offset, spread at k = 1,2,4,8,16 and the rate. | distance 0.0190946, 0.0027545391, 5.8523897e-5, 2.6516323e-8, 5.4438833e-15; rate 1.924847303 | distance 0.0190946, 0.0027545391, 5.8523897e-5, 2.6516323e-8, 5.4438833e-15; rate 1.924847303 | AGREE |
+| 10 | N1-V1: (11) x 2: distance, offset, spread at k = 1,2,4,8,16 and the rate. | distance 0.022643042, 0.0032591373, 6.921934e-5, 3.1362022e-8, 6.4387203e-15; rate 1.924847303 | distance 0.022643042, 0.0032591373, 6.921934e-5, 3.1362022e-8, 6.4387203e-15; rate 1.924847303 | AGREE |
+| 11 | N1-V1: (11) x 3: distance, offset, spread at k = 1,2,4,8,16 and the rate. | distance 0.022639238, 0.0032590583, 6.9219304e-5, 3.1362022e-8, 6.4387203e-15; rate 1.924847303 | distance 0.022639238, 0.0032590583, 6.9219304e-5, 3.1362022e-8, 6.4387203e-15; rate 1.924847303 | AGREE |
+| 12 | N1-V1: (11) x 4: distance, offset, spread at k = 1,2,4,8,16 and the rate. | distance 0.022638977, 0.0032590529, 6.9219301e-5, 3.1362022e-8, 6.4387203e-15; rate 1.924847303 | distance 0.022638977, 0.0032590529, 6.9219301e-5, 3.1362022e-8, 6.4387203e-15; rate 1.924847303 | AGREE |
+| 13 | N1-V1: (2,1,2,1,2) x 2: distance, offset, spread at k = 1,2,4,8,16 and the rate. | distance 0.0006942019, 0.00010107303, 2.1507203e-6, 9.7449234e-10, 2.000663e-16; rate 1.924847301 | distance 0.0006942019, 0.00010107303, 2.1507203e-6, 9.7449234e-10, 2.000663e-16; rate 1.924847301 | AGREE |
+| 14 | N1-V1: (2,1,2,1,2) x 3: distance, offset, spread at k = 1,2,4,8,16 and the rate. | distance 0.00069419342, 0.00010107285, 2.1507202e-6, 9.7449234e-10, 2.000663e-16; rate 1.924847301 | distance 0.00069419342, 0.00010107285, 2.1507202e-6, 9.7449234e-10, 2.000663e-16; rate 1.924847301 | AGREE |
+| 15 | N1-V1: (2,1,2,1,2) x 4: distance, offset, spread at k = 1,2,4,8,16 and the rate. | distance 0.00069419284, 0.00010107284, 2.1507202e-6, 9.7449234e-10, 2.000663e-16; rate 1.924847301 | distance 0.00069419284, 0.00010107284, 2.1507202e-6, 9.7449234e-10, 2.000663e-16; rate 1.924847301 | AGREE |
+| 16 | N1-V1 cell: the sealed rule holds in all nine cases. | holds, all 9 | rule satisfied in all nine: True | AGREE |
+| 17 | N1-V2: (6) (11): apex unique at the deepest departure; distance at k = 1,2,4,8,16. | deepest (11); distance 0.019106208, 0.0027547811, 5.8524006e-5, 2.6516323e-8, 5.4438833e-15 | deepest (11); distance 0.019106208, 0.0027547811, 5.8524006e-5, 2.6516323e-8, 5.4438833e-15 | AGREE |
+| 18 | N1-V2: (6) (2,1,2,1,2): apex unique at the deepest departure; distance at k = 1,2,4,8,16. | deepest (6); distance 0.0091230274, 0.0013238191, 2.8153637e-5, 1.275627e-8, 2.6189019e-15 | deepest (6); distance 0.0091230274, 0.0013238191, 2.8153637e-5, 1.275627e-8, 2.6189019e-15 | AGREE |
+| 19 | N1-V2: (11) (2,1,2,1,2): apex unique at the deepest departure; distance at k = 1,2,4,8,16. | deepest (11); distance 0.0091230738, 0.0013238201, 2.8153637e-5, 1.275627e-8, 2.6189019e-15 | deepest (11); distance 0.0091230738, 0.0013238201, 2.8153637e-5, 1.275627e-8, 2.6189019e-15 | AGREE |
+| 20 | N1-V2: (6) (6) (11): apex unique at the deepest departure; distance at k = 1,2,4,8,16. | deepest (11); distance 0.0027602025, 0.00040134357, 8.5382782e-6, 3.8686794e-9, 7.9425188e-16 | deepest (11); distance 0.0027602025, 0.00040134357, 8.5382782e-6, 3.8686794e-9, 7.9425188e-16 | AGREE |
+| 21 | N1-V2: (11) (6) (2,1,2,1,2): apex unique at the deepest departure; distance at k = 1,2,4,8,16. | deepest (11); distance 0.016860848, 0.0024290024, 5.1595765e-5, 2.3377173e-8, 4.799406e-15 | deepest (11); distance 0.016860848, 0.0024290024, 5.1595765e-5, 2.3377173e-8, 4.799406e-15 | AGREE |
+| 22 | N1-V2 cell: the sealed rule holds in all five composites. | holds, all 5 | rule satisfied in all five: True | AGREE |
+| 23 | N1-s2: the card has 70 composites (14 cases at five values of k). | 70 | 70 words evaluated for V1 and V2 | AGREE |
+| 24 | N1-V3: runs 6, 11, 16, 21, 26 keep the line (1,3); the control 7 does not. | keep: 6, 11, 16, 21, 26; not: 7 | keep: 6, 11, 16, 21, 26; not: 7 | AGREE |
+| 25 | N1-V3: their own values are (n-1)/2 + sqrt5/2 to 1e-40, and increase. | 3.618, 6.118, 8.618, 11.118, 13.618; formula to 1e-40 | 3.618034, 6.118034, 8.618034, 11.11803, 13.61803; greatest distance from the formula 2.09e-51; increasing: True | AGREE |
+| 26 | N1-V3 cell: line kept, formula to 1e-40, increasing, control 7 fails. | holds | line: True; values: True; increasing: True | AGREE |
+| 27 | N1-s2: copies of (6): distance 0.019, 0.0028, 5.9e-5, 2.7e-8, 5.4e-15, same for 2, 3, 4 copies. | 0.019, 0.0028, 5.9e-5, 2.7e-8, 5.4e-15 | 0.019, 0.0028, 5.9e-5, 2.7e-8, 5.4e-15 in all three cases | AGREE |
+| 28 | N1-s2: at k = 1 the apex's own offset is 0.014, the greatest over the copies 0.017. | 0.014; 0.017 | apex's own 0.014286, 0.014286, 0.014286; greatest over copies 0.014286, 0.016345, 0.016644 (2, 3, 4 copies) | AGREE |
+| 29 | N1-s2: copies of (11): 0.023 at k = 1; of (2,1,2,1,2): 0.00069, about 27 times closer. | 0.023; 0.00069; about 27 | 0.022643; 0.0006942; ratio to copies of (6) 27.52 | AGREE |
+| 30 | N1-s2: the rate between k = 8 and 16 is 1.924847 in all nine cases. | 1.924847 in all nine; 4 ln phi = 1.924847 | nine rates from 1.924847301 to 1.924847303; 4 ln phi = 1.9248473 | AGREE |
+| 31 | N1-s2: different departures read the run of 11 (or 6); distance 0.003 to 0.019, then below 6e-15. | run of 11 in four, run of 6 in (6)(2,1,2,1,2); 0.003 to 0.019 at k=1; below 6e-15 at k=16 | run of 11 in four, run of 6 in (6) (2,1,2,1,2): True; k=1: 0.00276 to 0.01911; k=16: greatest 5.444e-15 | AGREE |
+| 32 | N1-s3: step ratios, two copies of (6): 6.935, 6.866, 6.856, 6.8543, 6.8541. | 6.935, 6.866, 6.856, 6.8543, 6.8541 (result file: 6.93509, 6.86577, 6.8558, 6.85435, 6.85414); phi^4 = 6.8541 | 6.935086, 6.86576591, 6.85580054, 6.85434972, 6.85413811; phi^4 = 6.85410197 | AGREE |
+| 33 | N1-head: the distance falls by a factor tending to phi^4 per golden period. | factor tends to phi^4 = 6.8541 | ratios converge to phi^4 = 6.85410196625 for all three departures: True | AGREE |
+| 34 | N1-head: with long gaps a history with several departures reads the deepest one. | reads the deepest in the limit (card: gaps to 19 periods) | the five composites at k = 20, 30, 31: unique apex at the deepest, distance still falling by phi^4: True | AGREE |
+| 35 | N1-s3: two copies tie exactly; three and four differ by amounts falling at the same rate. | exact tie; same rate | two copies: equal heights exactly, apex attained twice: True; spread rates (k 8 to 16) 1.924847301 to 1.924847303 | AGREE |
+| 36 | N1-s3: at the card's k = 1 the run of 6 reads half a percent off. | half a percent | 0.528 percent | AGREE |
+| 37 | N1-s3: L^6 R L R reads 3.6515 against 3.6180, nearly one percent. | 3.6515 (3.651483717); 3.6180; 0.9245 percent | 3.651483717; 3.618033989; 0.9245 percent | AGREE |
+| 38 | N1-s3: (11) with one period on both sides is 0.65 percent off. | 0.65 percent (6.157651067 against 6.118033989; 0.6475) | 6.157651067 against 6.118033989; 0.6475 percent | AGREE |
+| 39 | N1-s3: (6)_1 (6)_2 reads 3.6371, below (6)_1 alone at 3.6515. | 3.6371 (3.637138368), below 3.6515 | 3.637138368, below 3.651483717: True | AGREE |
+| 40 | N1-s3: A = (2,1,1,4,4), B = (2,1,2,4,4) keep the line; own values 2.418183, 2.423508. | both keep (g v = [1,3], v g = [1,3]); 2.41818304, 2.423507871 | both keep: True (g v = [1, 3], v g = [1, 3] for A_1; [1, 3], [1, 3] for B_1); 2.41818304, 2.423507871 | AGREE |
+| 41 | N1-s3: in A_1 B_2 the apex is in A, the shallower, at 2.425956. | apex in A at 2.425956224; best of B 2.424539515; the composite keeps the line | apex in A at 2.425956224; best of B 2.424539515; keeps the line: True | AGREE |
+| 42 | N1-s3: in A_2 B_3, A_4 B_5, A_8 B_9 the apex is in B. | in B at 2.423658265, 2.423511072, 2.423507873 | in B/B/B at 2.423658265, 2.423511072, 2.423507873 | AGREE |
+| 43 | N1-s3: for every gap from 2 to 12 the apex of A_g B_(g+1) is in B. | in B for g = 2..12 | in B for g = 2,3,4,5,6,7,8,9,10,11,12; also for every g up to 30: True | AGREE |
+| 44 | N1-s3: the card's departures are 1.89 or more apart in own value. | 1.89 or more | least difference 1.894427 (the others 2.5, 4.394427) | AGREE |
+| 45 | N1-s4: L^n R (LR)^k is a power of LR mod 5 exactly when n = 1 mod 5. | exactly when n = 1 mod 5 (L^5 = I mod 5); the control 7 is not | 780 pairs (n up to 60, k up to 12): 0 exceptions; L^5 = I mod 5: True; n = 7 a power: False | AGREE |
+| 46 | N1-s4: allowed single runs have own values (n-1)/2 + sqrt5/2: no greatest. | no greatest own value | n = 6, 11, ..., 501 and 5e6+1, 5e12+1 all keep the line and match the formula to 1e-40: True | AGREE |
+| 47 | N1-s4: the same holds at any finite set of levels. | holds at any finite set of levels | five sets of levels tested: True | AGREE |
+| 48 | N1-s4: every apex is at least sqrt5/2 (quoted from the record). | every apex at least sqrt5/2 | 11590 cyclic words (runs 1 to 4, length up to 8): 0 below sqrt5/2; equality only for the all-ones words (8) | AGREE |
+| 49 | N1-s2: eight of the 70 composites were already computed by an earlier card. | 8 of 70 | needs the earlier card's word list; a statement about provenance, not a number of this note | NOT RECOMPUTED |
+| 50 | N1-s4: at one common fibre area no lightest level is lowest. | none is lowest (under one stated assumption) | rests on the record's spectral model; only its input, no greatest height, is recomputed above | NOT RECOMPUTED |
+| 51 | N2-Q1: X_pm has index 12, cusp widths 1,1,5,5, no elliptic point, genus 0. | index 12; widths [1, 1, 5, 5]; order-2 points 0; order-3 points 0; genus 0 | index 12; widths [1, 1, 5, 5]; order-2 points 0; order-3 points 0; genus 0 | AGREE |
+| 52 | N2-Q1: X_line has index 6, cusp widths 1,5, two elliptic points of order 2, genus 0. | index 6; widths [1, 5]; order-2 points 2; order-3 points 0; genus 0 | index 6; widths [1, 5]; order-2 points 2; order-3 points 0; genus 0 | AGREE |
+| 53 | N2-s1: they are the classical X_1(5) and X_0(5) in the frame g = [[0,-1],[1,3]]. | g with (0,1) g = v: [0,-1,1,3] | (0,1) g = v: True; g^-1 Gamma_0(5) g = G_line on generators, both ways: True; same for +-Gamma_1(5) and G_pm: True | AGREE |
+| 54 | N2-Q2: the elliptic points of X_line are tau = i and tau = -1+i. | i: e = S, v e = [3,4]; -1+i: e = [-1,-2,1,1], image of i under T^-1, v e = [2,1]; e^2 = -1, e in G_line, not in G_pm, v e = +-2v | the cosets fixed by S are the lines [(1, 2), (1, 3)], that is v and v T^-1; both elliptic elements as in the note: True | AGREE |
+| 55 | N2-s1: they are i with LR's line and i with RL's. | LR's line and RL's | v = (1,3) is a line of LR = [1, 1, 1, 2]: True; v T^-1 = (1, 2) is a line of RL = [2, 1, 1, 1]: True | AGREE |
+| 56 | N2-Q3: delta = [[-5,-6],[-4,-5]] exchanges the twins; it fixes only the two points over the elliptic points. | v delta = [3,4]; delta^2 in G_pm; elliptic elements of G_line lie in delta G_pm; fixed points: those over the 2 elliptic points | v delta = [3, 4] = 3v = -2v; delta^2 in G_pm: True; the cover X_pm -> X_line branches over 2 elliptic points and no cusp | AGREE |
+| 57 | N2-Q4: W = [[-3,-14],[1,3]] has determinant 5, W^2 = -5, and normalises G_line. | det 5; W^2 = [-5,0,0,-5]; normalises G_line on all 100 elements tested | det 5; W^2 = [-5, 0, 0, -5]; W h W^-1 is integral and in G_line for all 5 Schreier generators: True; 100 random words: 100 | AGREE |
+| 58 | N2-Q6: W normalises G_pm as well. | true on all 50 elements tested | true on all 4 Schreier generators of G_pm: True; 50 random words: 50 | AGREE |
+| 59 | N2-R1: W5 [[a,b],[5c,d]] W5^-1 = [[d,-c],[-5b,a]] with W5 = [[0,-1],[5,0]]. | [[d,-c],[-5b,a]] | holds on the four basis matrices (the map is linear) and on 200 random integer ones: True | AGREE |
+| 60 | N2-Q4: W5 exchanges the elliptic points (2+i)/5, (-2+i)/5 and the cusps infinity, 0. | W5((2+i)/5) = -2/5 + i/5; W5((-2+i)/5) = 2/5 + i/5; infinity to 0, 0 to infinity | W5((2+i)/5) = (-2/5) + (1/5)*i; W5((-2+i)/5) = (2/5) + (1/5)*i; cusps exchanged: True | AGREE |
+| 61 | N2-Q4: W's fixed points are two classes of discriminant -20, (1,0,5) and (2,2,3); kernel is the mark. | classes: 2; kernel of every fixing matrix on the 5-torsion is the mark; examples [-20,-81,5,20] and [-20,-27,15,20] | 3865 fixing matrices (all with c up to 200 in absolute value): classes [(1, 0, 5), (2, 2, 3)]; kernel not the mark: 0; both examples as in the note: True | AGREE |
+| 62 | N2-Q4/R2: sample sizes: 17 and 16 matrices found by class; 63 matrices examined. | 17, 16; 63 | c up to 6: 63; c up to 4: 19 + 16; c up to 4 with a up to 50: 17 + 16 | NOT RECOMPUTED |
+| 63 | N2-R2: d of gamma is +-1 mod 5 on the class (1,0,5), +-2 on (2,2,3). | (1,0,5): [1]; (2,2,3): [2] | (1, 0, 5): [1]; (2, 2, 3): [2], over 3865 matrices | AGREE |
+| 64 | N2-Q4: in the mark's frame W fixes the root of (1,6,14), reduced form (1,0,5). | (1, 6, 14); (1, 0, 5) | (1, 6, 14); (1, 0, 5); W fixes -3 + i sqrt5 exactly: True; g carries it to i/sqrt5: True | AGREE |
+| 65 | N2-Q5: the mirror normalises the group, exchanges the elliptic points, fixes both fixed points of W. | normalises; exchanges; fixes i/sqrt5; sends 1/2 + i/(2 sqrt5) to T^-1 of it | normalises (on generators): True; exchanges (2+i)/5 and (-2+i)/5: True; fixes i/sqrt5: True; second point goes to T^-1 of itself: True | AGREE |
+| 66 | N2-R7: F = [[0,1],[1,1]] has F^2 = LR, det -1, vF = 3v, and F = S^-1 m. | LR = [1,1,1,2] = F^2; det F = -1; v F = [3,4] = 3v; F = S^-1 m; v S = [3,4]; v m = [4,2]; det m = -1 | F^2 = [1, 1, 1, 2]; det F = -1; v F = [3, 4]; F = S^-1 m: True; v S = [3, 4]; v m = [4, 2]; det m = -1 | AGREE |
+| 67 | N2-Q7: t(z)t(-1/(5z)) = 125; t = +5sqrt5 at i/sqrt5, -5sqrt5 at 1/2+i/(2sqrt5). | 125.0; 1.0; -1.0 (errors below 1e-38) | errors 5.18e-58, 6.22e-61, 1.63e-61 | AGREE |
+| 68 | N2-s4: those two points are the tori i*sqrt5 (principal class) and (1+i*sqrt5)/2. | the two classes of discriminant -20; j = 632000 +- 282880 sqrt5 | j at t = +5 sqrt5: 632000 + (282880)*sqrt5; at t = -5 sqrt5: 632000 - (282880)*sqrt5 (exact); equal to j(i sqrt5) and j((1 + i sqrt5)/2) numerically: True | AGREE |
+| 69 | N2-R3: t = 1/s - 11 - s; s(delta w) = -1/s(w); s(-conj z) = conj s(z). | errors 9.8e-39; 8.1e-40; 0.0 | errors 2.74e-59; 3.11e-59 (greatest over five delta); 0.0 | AGREE |
+| 70 | N2-R3: over t = +-5sqrt5 s is real with product -1; over -11+2i, s = -i. | real, product -1 (both); over -11+2i: -i; over -11-2i: i | discriminant (11+t)^2 + 4 is positive at t = +-5 sqrt5: True, product -1; s = -i, i are double roots over -11+2i, -11-2i: True | AGREE |
+| 71 | N2-s4: on X_pm, W is s -> (beta*s+1)/(s-beta), beta = (-11-5sqrt5)/2. | beta = (-11 - 5 sqrt5)/2 | s(-1/(5z)) against (beta s + 1)/(s - beta) at three points: greatest error 9.36e-61 | AGREE |
+| 72 | N2-R4: delta, W, mirror generate a commuting group of 8; stabilisers and orbits of six points. | 8 elements, commuting; orbits [p1,p2], [p3,p4], [p5,p6]; no point fixed by the whole group | 8 elements, closed: True, commuting: True; orbits [['p1', 'p2'], ['p3', 'p4'], ['p5', 'p6']]; stabilisers as in the note: True; fixed by all: none | AGREE |
+| 73 | N2-s4: on X_pm no point is fixed by every symmetry; exactly three pairs exist. | none; exactly three pairs | subgroups of order 4: 7, each with a holomorphic involution: True; their six fixed points have stabilisers of order 4; pairs: 3 | AGREE |
+| 74 | N2-s1: on X_pm modulo the mirror only the point over i is fixed by delta and W. | the point over i | delta(s) = s only at s = +-i; delta(s) = conj(s) has no solution; W(i) = -i = conj(i): True | AGREE |
+| 75 | N2-s4: on X_line the symmetries are W, the mirror, their product, and no others. | a group of order 4 | 2 holomorphic and 2 anti-holomorphic maps keep the cusps {0, infinity} and the cone points {-11+2i, -11-2i} | AGREE |
+| 76 | N2-s4: on X_pm the symmetries form a group of order 8. | order 8, generated by delta, W and the mirror | 4 Moebius maps permute the four cusps s = 0, infinity, (-11 +- 5 sqrt5)/2; all four are real, so 8 with the mirror | AGREE |
+| 77 | N2-s4: with the line as mark exactly two points are fixed by every symmetry, t = +-5sqrt5. | two: t = +-5 sqrt5; the points over i are a mirror pair | fixed by t -> 125/t: t^2 = 125, two real points, each fixed by the mirror: True; -11+2i and -11-2i are exchanged by both: True | AGREE |
+| 78 | N2-R6/R8: under the tick the fixed set is the arc of the circle of radius 5sqrt5 through -11+2i. | (-11+2i)(-11-2i) = 125 = (5 sqrt5)^2; arc from +5 sqrt5 through the point over i to -5 sqrt5 | (-11+2i)(-11-2i) = 125: True; (+-5 sqrt5)^2 = 125: True; the mirror m exchanges tau = i and tau = -1+i: True | AGREE |
+| 79 | N2-R6: W with the mirror is t -> 125/conj(t); the mirror is t -> conj(t). | errors 9.6e-40; 0.0 | errors 5.12e-59; 0.0 | AGREE |
+| 80 | N2-R5: j(t) = j(125/t) at ten points, the roots of five given quadratics, all on that circle. | numerator -(t^2-125)(t^2-14t+125)(t^2+4t+125)(t^2+18t+125)(t^2+22t+125); j: 632000+-282880 sqrt5, -884736, 287496, -32768, 1728 | that product equals (t^2+250t+3125)^3 - t^4 (t^2+10t+5)^3 coefficient by coefficient: True; j at the roots: 632000 + (282880)*sqrt5 and 632000 - (282880)*sqrt5, -884736, 287496, -32768, 1728 | AGREE |
+| 81 | N2-R9: each weight-1 section vanishes at one elliptic point; its size at the other is 0.305236. | chi(2) = +i: 0.305236 at (2+i)/5, 8e-42 at (-2+i)/5; chi(2) = -i: 8e-42, 0.305236 | chi(2) = +i: 0.30523624, 1.56e-61; chi(2) = -i: 1.56e-61, 0.30523624 | AGREE |
+| 82 | N2-R9: the mirror and W carry each weight-1 section to the other; the W ratio is constant. | mirror error 0.0; ratio 1.17557050458 - 1.90211303259 i at two points | mirror error 0.0; ratio (1.17557050458 - 1.90211303259j) and (1.17557050458 - 1.90211303259j) | AGREE |
+| 83 | N2-R9: the weight-2 section vanishes at both elliptic points and is -40 times the product. | size 1.1e-40 at both; ratio -40.0 at two points | size 1.96e-60 and 1.96e-60; ratio -40 with errors 5.79e-60 and 1.94e-59 | AGREE |
+| 84 | N2-s3: the listed spaces of forms (weights 1, 2, 4, 5, 6) are one-dimensional. | 1, 1, 1, 1, 1 (weight 1 each odd character; weight 2; cusp forms of weight 4 and 6; weight 5 each odd character) | not derived here; the classical dimension formulas, fed with the invariants recomputed above, return 1, 1, 1, 1, 1 | NOT RECOMPUTED |
+| 85 | N2-s3: no eigenvalue below the continuous spectrum at level 5 (Selberg). | lambda_1 at least 1/4, a theorem at small level | a statement of the literature | NOT RECOMPUTED |
+| 86 | N2-s1: closed geodesics of the quotient are the classes of hyperbolic elements. | classical correspondence | a statement of the literature | NOT RECOMPUTED |
+| 87 | N2-s4: a symmetric C1 function is stationary at isolated fixed points of the symmetries. | statement with proof (section 4) | a general lemma, not a finite computation; the fixed sets it is applied to are recomputed above | NOT RECOMPUTED |
+
+claims whose text exceeds 20 words: none; table cells containing a bar: none
+self-checks of the instrument: exact forms agree: True; numerical continued fractions agree: True;
+self-check of the comparison (a last digit changed is rejected): True
+libraries: mpmath present, sympy present
+
+note 1: 50 claims; AGREE 48; DISAGREE 0; NOT RECOMPUTED 2
+note 2: 37 claims; AGREE 32; DISAGREE 0; NOT RECOMPUTED 5
+FINAL COUNT: 87 claims listed; AGREE 80; DISAGREE 0; NOT RECOMPUTED 7

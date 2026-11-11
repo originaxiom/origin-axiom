@@ -1,0 +1,10 @@
+the curve of lines: (6, [1, 5], 2, 0, Fraction(0, 1)) | the curve of vectors up to sign: (12, [1, 1, 5, 5], 0, 0, Fraction(0, 1))
+the curve of lines: index 6, two cusps of widths 1 and 5, two points of order 2, none of order 3, genus 0              ok
+the curve of vectors up to sign: index 12, four cusps of widths 1, 1, 5, 5, no elliptic point, genus 0                 ok
+a run of 6 closed by three runs of 1 reads 3.651483717 (the reader's value; here 3.651483717)                          ok
+the ground alone reads sqrt 5 / 2 (here 1.11803398875)                                                                 ok
+a run of 6 in a long ground tends to 5/2 + sqrt 5 / 2 = 3.618033989 (here, 41 runs of 1: 3.618033989)                  ok
+in the foundation's letters: LR = (2, 1, 1, 1) keeps the lines [(1, 2)] | RL = (1, 1, 1, 2) keeps the lines [(1, 3)]
+in the foundation's letters LR keeps exactly one line, (1,2); the line (1,3) is RL's, and its only one                 ok
+with L and R exchanged, as the notes write them, LR = [[1,1],[1,2]] and (1,3) is its one line                          ok
+spot checks: every one holds
