@@ -137,3 +137,66 @@ def test_what_the_framing_gate_exempts_is_held_by_name():
                                 "frontier/B887_gate_audit/audit_reports.json"}
     ok, detail = g.GATES["framing"]()
     assert ok is True, detail
+
+
+# ---- PV20: the claims gate checked that a cited lock exists, and not that a proven row cites one -----------------------
+_CLAIMS = ("# Claims\n\n## Proven — exact, checkable\n\n| ID | Claim | Evidence |\n|---|---|---|\n"
+           "| P1 | A proven claim. | `tests/test_p1.py` ✓ |\n%s\n"
+           "## Conditional — given assumptions\n\n| ID | Claim | Named assumption |\n|---|---|---|\n| C1 | A conditional claim. | an assumption |\n\n"
+           "## Certified data — test-locked\n\n| ID | Exhibit | Evidence |\n|---|---|---|\n| E1 | An exhibit. | `tests/test_e1.py` |\n%s\n"
+           "## Open — targets\n\n| ID | Target |\n|---|---|\n| O1 | A target. |\n\n"
+           "## Dead — falsified\n\n| ID | Killed claim | Why it died |\n|---|---|---|\n| D1 | A dead claim. | why |\n")
+_A_TEST = "def test_it():\n    assert sum([1, 2]) == 3\n"
+
+
+def _claims_repo(tmp_path, proven="", certified="", more=None):
+    files = {"CLAIMS.md": _CLAIMS % (proven, certified), "tests/test_p1.py": _A_TEST, "tests/test_e1.py": _A_TEST}
+    files.update(more or {})
+    return _scratch(tmp_path, files)
+
+
+def test_a_cited_lock_that_is_not_there_fails_the_claims_gate(tmp_path):
+    """the control: this held before the series"""
+    repo = _claims_repo(tmp_path, proven="| P2 | Another. | `tests/test_not_there.py` |\n")
+    ok, detail = _gate(repo, "claims")
+    assert ok is False and "tests/test_not_there.py" in detail
+
+
+def test_a_proven_row_that_cites_no_lock_fails_the_claims_gate(tmp_path):
+    repo = _claims_repo(tmp_path, proven="| P999 | A planted proven claim that cites no lock. | (no lock) |\n")
+    ok, detail = _gate(repo, "claims")
+    assert ok is False, "a proven row that cites no lock, and the claims gate passed: " + detail
+    assert "P999" in detail
+
+
+def test_a_certified_row_that_cites_no_lock_fails_the_claims_gate(tmp_path):
+    repo = _claims_repo(tmp_path, certified="| E2 | An exhibit locked by nothing. | `frontier/B1_an_arc` |\n")
+    ok, detail = _gate(repo, "claims")
+    assert ok is False, "a row of the table that says it is test-locked cites no lock, and the claims gate passed: " + detail
+    assert "E2" in detail
+
+
+def test_a_row_that_cites_a_file_holding_no_test_fails_the_claims_gate(tmp_path):
+    repo = _claims_repo(tmp_path, proven="| P2 | Another. | `tests/test_empty.py` |\n", more={"tests/test_empty.py": "# nothing here yet\n"})
+    ok, detail = _gate(repo, "claims")
+    assert ok is False, "a proven row cites a file with no test in it, and the claims gate passed: " + detail
+    assert "tests/test_empty.py" in detail
+
+
+def test_the_rows_that_are_not_locked_need_no_lock(tmp_path):
+    """a conditional, an open and a dead row cite none, and the gate passes: the rule is for the two tables that say locked"""
+    repo = _claims_repo(tmp_path)
+    ok, detail = _gate(repo, "claims")
+    assert ok is True, detail
+    assert "2 rows in the locked tables, 2 citing a lock" in detail, "the gate does not say what it read: " + detail
+
+
+def test_the_one_proven_row_without_a_lock_is_held_by_name():
+    """on this repository one proven row cited no lock on the day the rule came.  It is named, and a second shows here too."""
+    g = _gates()
+    assert getattr(g, "CITES_NO_LOCK_AS_FOUND", None) == frozenset(("P51",)), "no table of the rows held by name"
+    n, without = g.rows_that_cite_no_lock((ROOT / "CLAIMS.md").read_text(encoding="utf-8"))
+    assert set(without) <= g.CITES_NO_LOCK_AS_FOUND, without
+    ok, detail = g.GATES["claims"]()
+    assert ok is True, detail
+    assert "by name" in detail

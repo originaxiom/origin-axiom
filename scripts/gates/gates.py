@@ -288,6 +288,30 @@ def gate_framing():
 LABEL_SECTIONS = ("## Proven", "## Conditional", "## Open", "## Dead", "## Certified data")
 
 
+# WP-0.7 (PV20): the gate checked that a cited lock exists.  It did not ask that a row cite one: a proven row whose evidence read
+# "(no lock)" passed.  Two tables of the claims page say their rows are locked -- Proven ("exact, checkable"), and Certified data
+# ("test-locked") -- and each row of the two now cites a lock: a file tests/.../test_*.py, which is there and holds a test.  One
+# row did not on 2026-11-11.  It is held by name, as found: a ceiling that may only shrink.
+CLAIMS_LOCKED_SECTIONS = ("## Proven", "## Certified data")
+CITES_NO_LOCK_AS_FOUND = frozenset(("P51",))            # its evidence names two arcs' folders and no test file (computed once here; main's handover names the same row)
+_A_LOCK = re.compile(r"`(tests/[A-Za-z0-9_./]*test_[A-Za-z0-9_]+\.py)`")
+
+
+def rows_that_cite_no_lock(text, sections=CLAIMS_LOCKED_SECTIONS):
+    """the rows of the claims page's locked tables: (how many there are, the ids of those that cite no lock)"""
+    heads = [(m.start(), m.group(0)) for m in re.finditer(r"^## .*$", text, flags=re.M)]
+    n, without = 0, []
+    for i, (pos, head) in enumerate(heads):
+        if not head.startswith(tuple(sections)):
+            continue
+        body = text[pos:heads[i + 1][0] if i + 1 < len(heads) else len(text)]
+        for m in re.finditer(r"^\| ([A-Z]+\d+[a-z]?) \|(.*)$", body, flags=re.M):
+            n += 1
+            if not _A_LOCK.search(m.group(2)):
+                without.append(m.group(1))
+    return n, without
+
+
 def gate_claims():
     text = _read("CLAIMS.md")
     problems = []
@@ -306,7 +330,23 @@ def gate_claims():
     for row_id in re.findall(r"^\| ([A-Z]+\d+[a-z]?) \|", text, flags=re.M):
         if not re.fullmatch(r"(P|C|O|D|E)\d+[a-z]?", row_id):
             problems.append(f"malformed claim ID: {row_id}")
-    return not problems, problems[:10]
+    # PV20: a row of a locked table cites a lock, and the lock holds a test
+    n, without = rows_that_cite_no_lock(text)
+    loose = [r for r in without if r not in CITES_NO_LOCK_AS_FOUND]
+    if loose:
+        problems.append(f"{len(loose)} row(s) of the locked tables cite no lock: " + ", ".join(loose[:6])
+                        + ". A proven or certified row names the test that locks it")
+    for path in sorted({m.group(1) for m in _A_LOCK.finditer(text)}):
+        full = os.path.join(ROOT, path)
+        if os.path.isfile(full) and not re.search(r"^\s*def test", open(full, encoding="utf-8", errors="replace").read(), re.M):
+            problems.append(f"a cited lock holds no test: {path}")
+    if problems:
+        return False, problems[:10]
+    held = sorted(r for r in without if r in CITES_NO_LOCK_AS_FOUND)
+    healed = sorted(CITES_NO_LOCK_AS_FOUND - set(without))
+    return True, (f"ok ({n} rows in the locked tables, {n - len(without)} citing a lock; {len(held)} held by name as found without one"
+                  + (": " + ", ".join(held) if held else "")
+                  + (f"; {len(healed)} of the table now cite one or are gone: shorten the table ({', '.join(healed)})" if healed else "") + ")")
 
 
 # --- gate: the one-way firewall (no speculative room cited as claim evidence) -------------
