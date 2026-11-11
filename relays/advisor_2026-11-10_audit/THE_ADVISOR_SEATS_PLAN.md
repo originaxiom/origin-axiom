@@ -10,11 +10,12 @@
 | | |
 |---|---|
 | date | 2026-11-11 |
-| as builder: the package in hand | WP-0.7, enforcement. **Series 1 of 4 sent**: four patches, built on `ea41e6fc9` and applied here on `8d90a5b2a` (`ADVISOR_TO_CC_2026-11-11_WP_0_7_SERIES_1_FOUR_PATCHES.md`; `wp_0_7/series_1/`). The suite on its end: 11 of 21, from 8 |
-| as auditor: the last verdicts | **re-audit 6** (`REAUDIT_6_2026-11-11.md`, main at `8d90a5b2a`): the finding **E5 accepted**; the finding **E2 partly**: the lock and the mathematics accepted, the arc's own claim line still leads with the old level |
-| next, in this order | (1) series 2 of WP-0.7: what is deleted or emptied (PV10, PV11, PV12, PV13, PV19), built on the end of series 1. (2) as auditor, whatever main mends next in WP-0.8, and E2 again when its line is changed |
-| waiting on | main's verdict on series 1. It blocks nothing here; if main changes the series, series 2 is rebased |
-| blocked | no |
+| **building is held** | The owner's order to main, as main recorded it (P-788, read on main at `338b14fe3`): digest every seat, then stop and lock the plan together, then orchestrate the seats by preregistered work. This seat starts nothing new until the plan is locked or main approves its card. The card for the next piece is sent: `ADVISOR_TO_CC_2026-11-11_FOR_THE_LOCK_WHAT_THIS_SEAT_HOLDS_AND_ITS_CARD.md` |
+| as builder: what is sent | WP-0.7, **series 1 of 4**: four patches, built on `ea41e6fc9`; they still apply on `338b14fe3`. Main has registered it (its row 1699) and has not yet run its unseen cases on it. The suite on its end: 11 of 21, from 8 |
+| as auditor: the verdicts | **re-audit 7** (`REAUDIT_7_2026-11-11.md`, main at `338b14fe3`): the finding **E7 accepted**. **Re-audit 6** (main at `8d90a5b2a`): **E5 accepted**; **E2 partly**, the arc's own claim line still leading with the old level. Auditing goes on where a landing of main's names it |
+| next | whatever the lock gives this seat. If the card is approved as it stands: series 2 of WP-0.7 (PV10, PV11, PV12, PV13, PV19) |
+| waiting on | main: the lock; its verdict on series 1; one ruling named in the card (what counts as a recorded act) |
+| blocked | no: held, by the owner's order |
 | packages delivered | 0 of 5 (one series of the first package sent) |
 
 (The section is numbered 9 and stands first, so that its number does not move when the page grows.)
@@ -140,8 +141,8 @@ commit. If main wants a branch to fetch, a second branch needs the owner's leave
 
 | # | item | state | whose move |
 |---|---|---|---|
-| 1 | the five packages of § 5 | 0 of 5 delivered; WP-0.7 in hand, series 1 of 4 sent | main verifies series 1; this seat builds series 2 |
-| 2 | re-audit of each package main closes; WP-0.8 first | **re-audit 6 done** for main's first two mends: E5 accepted; E2 partly (one line to change, then the views). Seven findings of WP-0.8 are left on main's side | main mends; this seat re-audits each as it lands |
+| 1 | the five packages of § 5 | 0 of 5 delivered; WP-0.7 series 1 of 4 sent; **the rest held until the plan is locked** (P-788) | main: the lock, and its verdict on series 1 |
+| 2 | re-audit of each package main closes; WP-0.8 first | three of main's mends re-audited: **E5 accepted, E7 accepted, E2 partly** (one line to change, then the views). WP-0.8 pauses on main's side at six findings left (P-788) | main, when it mends the next; this seat re-audits each as it lands |
 | 3 | ORD-a, the order before the card | **closed.** Main refused the two variants at `e5f9d09cd`; re-run here at `038df6984`, all three plants refused | — |
 | 4 | V1, the card | main read it once: B in all three decisive cells. This seat's verdict given: B, not A for N2 | main: P-786 (the sentence on every page, the window's ends as a choice, the same count on the candidate's null) |
 | 5 | GEN-a, a generated page compared in every clone | main says closed at B1886 | this seat checks it at the next re-audit it is asked for |
