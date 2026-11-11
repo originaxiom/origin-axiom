@@ -1,0 +1,67 @@
+THE V1 CARD, stage controls; this script sha256 beef66a2caa96fae
+N1 (B1726's compare.py): 47880 rows at 90 points; heights 2.0500 ... 3.4500
+   layer 1   bottom:  6 points, heights 2.0500 ... 2.0500, rows' share 0.0667   |   top:  6 points, heights 3.4500 ... 3.4500, rows' share 0.0667
+   layer 2   bottom:  6 points, heights 2.1500 ... 2.1500, rows' share 0.0667   |   top:  6 points, heights 3.3500 ... 3.3500, rows' share 0.0667
+   layer 3   bottom:  6 points, heights 2.2500 ... 2.2500, rows' share 0.0667   |   top:  6 points, heights 3.2500 ... 3.2500, rows' share 0.0667
+   rows whose six planted values another row shares exactly: 0 of 47880 (never planted)
+   K1 wf|seat    planted 495 rows: found at zero 495, at the planted point 495, at the planted height 495; largest statistic 0.00e+00 -> HOLDS
+   K1 wf|cov     planted 495 rows: found at zero 495, at the planted point 495, at the planted height 495; largest statistic 0.00e+00 -> HOLDS
+   K1 wf|free    planted 495 rows: found at zero 495, at the planted point 495, at the planted height 495; largest statistic 0.00e+00 -> HOLDS
+   the wf measure, three menus: 90 targets a second in one process
+   K2 wf   seat bottom planted  3192 rows of layer 1: at zero with every row 3192; lost without layer 1 at that end: 3192 (expected all) -> HOLDS
+   K2 wf   cov  bottom planted  3192 rows of layer 1: at zero with every row 3192; lost without layer 1 at that end: 3192 (expected all) -> HOLDS
+   K2 wf   free bottom planted  3192 rows of layer 1: at zero with every row 3192; lost without layer 1 at that end: 3192 (expected all) -> HOLDS
+   K2 wf   seat bottom planted  3192 rows of layer 3: at zero with every row 3192; lost without layer 1 at that end: 0 (expected none) -> HOLDS
+   K2 wf   cov  bottom planted  3192 rows of layer 3: at zero with every row 3192; lost without layer 1 at that end: 0 (expected none) -> HOLDS
+   K2 wf   free bottom planted  3192 rows of layer 3: at zero with every row 3192; lost without layer 1 at that end: 0 (expected none) -> HOLDS
+   K2 wf   seat top    planted  3192 rows of layer 1: at zero with every row 3192; lost without layer 1 at that end: 3192 (expected all) -> HOLDS
+   K2 wf   cov  top    planted  3192 rows of layer 1: at zero with every row 3192; lost without layer 1 at that end: 3192 (expected all) -> HOLDS
+   K2 wf   free top    planted  3192 rows of layer 1: at zero with every row 3192; lost without layer 1 at that end: 3192 (expected all) -> HOLDS
+   K2 wf   seat top    planted  3192 rows of layer 3: at zero with every row 3192; lost without layer 1 at that end: 0 (expected none) -> HOLDS
+   K2 wf   cov  top    planted  3192 rows of layer 3: at zero with every row 3192; lost without layer 1 at that end: 0 (expected none) -> HOLDS
+   K2 wf   free top    planted  3192 rows of layer 3: at zero with every row 3192; lost without layer 1 at that end: 0 (expected none) -> HOLDS
+   K3 wf   bottom (read-out) 3192 rows of layer 1 against the window without layers 1 and 2 (0 dropped as twins): 2305 find their best fit on the nearest layer left, share 0.7221 [0.7062, 0.7376]; rows' share of it 0.0909; ratio 7.94; on the far end 3
+   K3 wf   top    (read-out) 3192 rows of layer 1 against the window without layers 1 and 2 (0 dropped as twins): 2368 find their best fit on the nearest layer left, share 0.7419 [0.7263, 0.7570]; rows' share of it 0.0909; ratio 8.16; on the far end 0
+N2 (B1753's compare.py, which loads B1741's): 21408 rows at 223 points; heights 2.0133 ... 3.5620
+   layer 1   bottom: 16 points, heights 2.0133 ... 2.0637, rows' share 0.0717   |   top: 15 points, heights 3.3806 ... 3.5620, rows' share 0.0673
+   layer 2   bottom: 15 points, heights 2.0724 ... 2.1265, rows' share 0.0673   |   top: 16 points, heights 3.1722 ... 3.3624, rows' share 0.0717
+   layer 3   bottom: 16 points, heights 2.1403 ... 2.1929, rows' share 0.0717   |   top: 15 points, heights 3.0397 ... 3.1529, rows' share 0.0673
+   rows whose six planted values another row shares exactly: 0 of 21408 (never planted)
+   K1 chi2|seat  planted 222 rows: found at zero 222, at the planted point 130, at the planted height 222; largest statistic 1.46e-11 -> HOLDS
+   K1 chi2|cov   planted 222 rows: found at zero 222, at the planted point 130, at the planted height 222; largest statistic 1.46e-11 -> HOLDS
+   K1 chi2|free  planted 222 rows: found at zero 222, at the planted point 137, at the planted height 222; largest statistic 1.46e-11 -> HOLDS
+   the chi2 measure, three menus: 235 targets a second in one process
+   K1 wf|seat    planted 222 rows: found at zero 222, at the planted point 222, at the planted height 222; largest statistic 0.00e+00 -> HOLDS
+   K1 wf|cov     planted 222 rows: found at zero 222, at the planted point 222, at the planted height 222; largest statistic 0.00e+00 -> HOLDS
+   K1 wf|free    planted 222 rows: found at zero 222, at the planted point 222, at the planted height 222; largest statistic 0.00e+00 -> HOLDS
+   the wf measure, three menus: 239 targets a second in one process
+   K2 chi2 seat bottom planted  1536 rows of layer 1: at zero with every row 1536; lost without layer 1 at that end: 1536 (expected all) -> HOLDS
+   K2 chi2 cov  bottom planted  1536 rows of layer 1: at zero with every row 1536; lost without layer 1 at that end: 1536 (expected all) -> HOLDS
+   K2 chi2 free bottom planted  1536 rows of layer 1: at zero with every row 1536; lost without layer 1 at that end: 1536 (expected all) -> HOLDS
+   K2 chi2 seat bottom planted  1536 rows of layer 3: at zero with every row 1536; lost without layer 1 at that end: 0 (expected none) -> HOLDS
+   K2 chi2 cov  bottom planted  1536 rows of layer 3: at zero with every row 1536; lost without layer 1 at that end: 0 (expected none) -> HOLDS
+   K2 chi2 free bottom planted  1536 rows of layer 3: at zero with every row 1536; lost without layer 1 at that end: 0 (expected none) -> HOLDS
+   K2 chi2 seat top    planted  1440 rows of layer 1: at zero with every row 1440; lost without layer 1 at that end: 1440 (expected all) -> HOLDS
+   K2 chi2 cov  top    planted  1440 rows of layer 1: at zero with every row 1440; lost without layer 1 at that end: 1440 (expected all) -> HOLDS
+   K2 chi2 free top    planted  1440 rows of layer 1: at zero with every row 1440; lost without layer 1 at that end: 1440 (expected all) -> HOLDS
+   K2 chi2 seat top    planted  1440 rows of layer 3: at zero with every row 1440; lost without layer 1 at that end: 0 (expected none) -> HOLDS
+   K2 chi2 cov  top    planted  1440 rows of layer 3: at zero with every row 1440; lost without layer 1 at that end: 0 (expected none) -> HOLDS
+   K2 chi2 free top    planted  1440 rows of layer 3: at zero with every row 1440; lost without layer 1 at that end: 0 (expected none) -> HOLDS
+   K2 wf   seat bottom planted  1536 rows of layer 1: at zero with every row 1536; lost without layer 1 at that end: 1536 (expected all) -> HOLDS
+   K2 wf   cov  bottom planted  1536 rows of layer 1: at zero with every row 1536; lost without layer 1 at that end: 1536 (expected all) -> HOLDS
+   K2 wf   free bottom planted  1536 rows of layer 1: at zero with every row 1536; lost without layer 1 at that end: 1536 (expected all) -> HOLDS
+   K2 wf   seat bottom planted  1536 rows of layer 3: at zero with every row 1536; lost without layer 1 at that end: 0 (expected none) -> HOLDS
+   K2 wf   cov  bottom planted  1536 rows of layer 3: at zero with every row 1536; lost without layer 1 at that end: 0 (expected none) -> HOLDS
+   K2 wf   free bottom planted  1536 rows of layer 3: at zero with every row 1536; lost without layer 1 at that end: 0 (expected none) -> HOLDS
+   K2 wf   seat top    planted  1440 rows of layer 1: at zero with every row 1440; lost without layer 1 at that end: 1440 (expected all) -> HOLDS
+   K2 wf   cov  top    planted  1440 rows of layer 1: at zero with every row 1440; lost without layer 1 at that end: 1440 (expected all) -> HOLDS
+   K2 wf   free top    planted  1440 rows of layer 1: at zero with every row 1440; lost without layer 1 at that end: 1440 (expected all) -> HOLDS
+   K2 wf   seat top    planted  1440 rows of layer 3: at zero with every row 1440; lost without layer 1 at that end: 0 (expected none) -> HOLDS
+   K2 wf   cov  top    planted  1440 rows of layer 3: at zero with every row 1440; lost without layer 1 at that end: 0 (expected none) -> HOLDS
+   K2 wf   free top    planted  1440 rows of layer 3: at zero with every row 1440; lost without layer 1 at that end: 0 (expected none) -> HOLDS
+   K3 chi2 bottom (read-out) 1536 rows of layer 1 against the window without layers 1 and 2 (0 dropped as twins): 1214 find their best fit on the nearest layer left, share 0.7904 [0.7691, 0.8105]; rows' share of it 0.0994; ratio 7.95; on the far end 0
+   K3 chi2 top    (read-out) 1440 rows of layer 1 against the window without layers 1 and 2 (0 dropped as twins): 1094 find their best fit on the nearest layer left, share 0.7597 [0.7368, 0.7816]; rows' share of it 0.0932; ratio 8.15; on the far end 38
+   K3 wf   bottom (read-out) 1536 rows of layer 1 against the window without layers 1 and 2 (0 dropped as twins): 1316 find their best fit on the nearest layer left, share 0.8568 [0.8382, 0.8739]; rows' share of it 0.0994; ratio 8.62; on the far end 0
+   K3 wf   top    (read-out) 1440 rows of layer 1 against the window without layers 1 and 2 (0 dropped as twins): 1004 find their best fit on the nearest layer left, share 0.6972 [0.6728, 0.7209]; rows' share of it 0.0932; ratio 7.48; on the far end 88
+K1 holds for both instruments: True | K2 holds: N1 wf True, N2 chi2 True, N2 wf True
+controls exit 0
