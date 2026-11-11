@@ -310,3 +310,104 @@ be shown: it catches 11 of this seat's 21 planted cases with the first series ap
 - **How much of the mathematics can be machine-checked.** The finite computations, yes. The analytic parts, this seat
   cannot judge.
 
+## 11. The website, as the owner asked for it
+
+He has the domain `originaxiom.org`. He asked how the seat would structure a public website whose content comes
+from the public repository and is updated through it; what function it should have; whether it should be a
+laboratory with personal accounts or read-only; and whether it should hold an interactive visualisation of the whole
+of existence. It is to serve scientists and professionals, lay readers, and curious children. This is the seat's own
+view: a design, and nothing of it is built.
+
+### 11.1 Its function
+
+**The reading room and the instrument panel of the claim.** It explains, it shows where the claim stands today, and it
+lets a visitor test a step. **It is never a source.** Every sentence, number and mark on it is built from a file of
+the public repository at a named release, and says which.
+
+| it is for | it is not for |
+|---|---|
+| explaining the claim at four depths | stating anything the repository does not |
+| showing the live state: k of n, each value against its measurement | holding anybody's personal data |
+| letting a visitor run a step and see the number come out | running long computations for visitors |
+| the public lists: what would refute it, errata, reproductions | discussion; that stays where the code is hosted |
+
+### 11.2 One truth at four depths, not four sites
+
+Every node of the map (a postulate, a step, a value) carries four texts, kept beside it in the repository:
+
+| depth | for | what it is |
+|---|---|---|
+| 1 | a curious child | one sentence and a picture |
+| 2 | a lay reader | a paragraph, no symbols |
+| 3 | a scientist | the mathematics |
+| 4 | a checker | the script, the data, the hash, "run it" |
+
+A visitor turns a dial; the page stays the same page. People do not sort themselves into audiences, and one reader
+moves between depths. **A gate holds the simple texts to the node's grade:** a sentence for a child may not say
+"proved" where the node is conditional. That is WP-0.9's rule, carried to the public prose.
+
+### 11.3 Its parts
+
+| part | what it holds |
+|---|---|
+| the front page | the claim in one sentence; k of n, live; the map, small; three doors: understand it, explore it, check it |
+| the idea | the story in about ten screens, at depths 1 and 2; what is claimed and what is not |
+| the map | the interactive derivation, from the first postulate to each value (§ 11.5) |
+| the numbers | the card: each value, predicted and measured, the date it was sealed; kept up as measurements arrive |
+| check it | the ten-minute check; steps that run in the browser; the full check; who has reproduced it; how to report a failure |
+| what would refute it | the measurements that could, with the experiment and the year |
+| how it was made | the method, the count of looks, the retractions, the timeline; the door to the archive |
+| for teachers and children | guided paths through the map, a glossary of thirty terms, pages to print |
+| what changed | releases and errata, generated |
+
+### 11.4 Laboratory or read-only: neither end
+
+**Read-only content, with real instruments that run on the visitor's own machine, and no personal accounts.**
+
+| | |
+|---|---|
+| independent exploration | yes. The map; switching a choice off and watching which values lose their footing; steps that run in the browser from the repository's own scripts; notes and bookmarks kept in the visitor's browser |
+| personal accounts | no, at the start. Accounts are personal data, and with children among the visitors that is a legal duty of its own; they need security, moderation and a keeper; and a site with members reads as a product before the claim is verified |
+| heavy computation | not on the site. The laboratory is the public repository: anybody clones it, or opens it in a hosted notebook under their own account elsewhere |
+| contributions | where the code is hosted: a failed check is an issue, a reproduction is a change to the list of reproductions |
+| later | if the values hold and there is a keeper, a hosted laboratory can be added. It is the one part that needs an organisation behind it |
+
+### 11.5 The visualisation: yes, as the centre, and as a map of the derivation
+
+**A map of what follows from what, and how sure each step is. Not a picture of existence.**
+
+| rule | why |
+|---|---|
+| every mark is a node or an edge of the repository's graph | then it cannot say more than the claim does, and it cannot drift |
+| colour is the grade: earned, conditional, chosen by hand, open, refuted | the reader sees the state, including what is missing |
+| one map, zoomed: the first postulate at the centre, the values at the rim | intuitive, and the same object for a child and a physicist |
+| a guided path for children: one route from the first distinction to one number | a story told on the true map |
+| known physics shown for context is marked as measured, apart from what is derived | accuracy |
+| nothing is drawn that no node backs: no cosmic animation | that would claim what is not earned |
+| every chart has a table behind it | so that it can be read without seeing it |
+
+It shows exactly as much of existence as the claim has earned the right to draw. If the count reaches n of n, the
+map is the picture he asks for, and it got there by being true at every step before.
+
+The owner's intuition of the principle belongs in the site as an essay, marked as the idea behind the work. The
+claim does not depend on it, and the two are not mixed.
+
+### 11.6 How it is fed
+
+- **Built, not edited.** A script in the public repository builds the whole site from the repository's files at each
+  release. No content system, no database, no server-side code.
+- **Every page names the release it was built from** and links to the file it shows.
+- **The same commit gives the same site,** and a gate checks that. The site is one more generated view.
+- **No trackers and no cookies.** There are children among the visitors, and nothing needs them.
+- **Translations are files in the repository,** keyed by node, under the same gate.
+
+### 11.7 When, and where the seat is unsure
+
+Design it with the package, because it is drawn from the same graph as the scoreboard and WP-0.12. Launch it with the
+seal. Until then the scoreboard is its private preview.
+
+- **Whether to open it before any value is earned.** An honest page reading 0 of 19 is true and is not yet a reason
+  to visit.
+- **How much runs in a browser.** The finite steps do. The seven-hour census does not, and the site should say so.
+- **Who answers the public.** Errata and failed checks need a person, on a clock.
+

@@ -421,6 +421,18 @@ to ten years under three outcomes, the refutation among them. Written out in
 `OPINION_ON_THE_REPOSITORY_2026-11-11.md`, § 10, with where the seat is unsure. He has not yet shared his own. He was
 asked nothing.
 
+| what he was answering | his words |
+|---|---|
+| the seat's vision of the end product | "we should have a public facing website, i already have originaxiom.org domain name. its content should be dynamical, sourced from the public facing repo and updated through the repo. id like to know howd you structure the website and what function would you assign to it." "it should serve both scientists and professionals, as well as laic intellectuals and curious kids. should it serve as a laboratory with ability for personal accounts and independent exploration using the tools we build, or just as a read only, research and curiousity purposes." "shoukd it include the interactive visualization of the whole existence in the most intuitive and scientifically accurate and proffesional way?" |
+
+**What he stated, as distinct from what he asked:** there is to be a public website; he holds the domain; its content
+is sourced from the public repository and updated through it; it serves scientists and professionals, lay readers and
+curious children. The seat's answers to the three questions, each marked as its own view: the site is the reading room
+and the instrument panel of the claim and never a source; one truth at four depths; read-only content with instruments
+that run on the visitor's machine, and no personal accounts at the start; the visualisation yes, as the centre, and
+as a map of the derivation in which every mark is a node of the repository's graph. Written out in
+`OPINION_ON_THE_REPOSITORY_2026-11-11.md`, § 11. He was asked nothing.
+
 ## The roles
 
 The owner, the same day: this seat "will serve as an advisor for cc - the banking seat"; when cc is ready the reports
