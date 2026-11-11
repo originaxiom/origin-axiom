@@ -1,3 +1,4 @@
 P-783, sealed before any run (sha256):
 c5242b7e2dc50ae532aa694ad21833ef795d763be0cac12038159ec69f7df680  p783_spectrum.py
 283f5720e6679a21aae5a242a00bac1ea6219137306869249ac12b6470f11a6e  run.sh
+post hoc, committed before its run: fd9300bfac515a3a708d17f4814a587a786367f4ed593bdc940c718169e88906  posthoc_p783.py
