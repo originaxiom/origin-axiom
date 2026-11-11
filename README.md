@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.65) of 2026-11-11 |
-| arcs with a verdict | 1590: 1099 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 787: 272 open (queued, leads, waiting for the owner), 515 closed |
+| arcs with a verdict | 1590: 1098 PROVED, 383 NEGATIVE, 97 OPEN, 12 RETRACTED |
+| points in the register | 789: 274 open (queued, leads, waiting for the owner), 515 closed |
 | the last review | Review 78 (2026-11-11), anchor `38d2a36dc` |
-| the last landing | S306p THE ERRORS IN THE MATHEMATICS, THE SECOND OF THE NINE LEFT (WP-0.8): A SCAN THAT NEVER REFINED, REPLACED BY THE JOINT EIGENVALUES (E5) (2026-11… |
+| the last landing | S306p THE ERRORS IN THE MATHEMATICS, THE THIRD OF THE NINE LEFT (WP-0.8): "0.000 BITS OF DESIGNER FREEDOM" WAS ELEVEN ZEROS TYPED BY HAND (E7) (2026-… |
 <!-- STATE:END -->
 
 ## Start here

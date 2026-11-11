@@ -914,6 +914,7 @@
     "kappa",
     "metallic",
     "eisenstein",
+    "golden",
     "z3_generation",
     "amphichiral_cp",
     "lorentzian"
@@ -921,9 +922,11 @@
    "refs": [
     "B14",
     "B266",
+    "B854",
     "B863",
     "B864",
     "B884",
+    "B892",
     "B897",
     "B991",
     "B994",
@@ -932,7 +935,7 @@
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 6,
-   "status": "banked",
+   "status": "open",
    "domain": "arithmetic"
   },
   "B1029": {
@@ -982,13 +985,17 @@
   "B1030": {
    "slug": "price lock verification",
    "motifs": [
+    "golden",
     "z3_generation",
     "lorentzian"
    ],
    "refs": [
     "B782",
+    "B854",
+    "B892",
     "B897",
     "B936",
+    "B997",
     "V1",
     "V2",
     "V3",
@@ -5145,6 +5152,7 @@
     "closing",
     "figure_eight",
     "eisenstein",
+    "golden",
     "amphichiral_cp",
     "torsion",
     "wrt_quantum",
@@ -5152,7 +5160,10 @@
     "firewall"
    ],
    "refs": [
-    "B717"
+    "B717",
+    "B854",
+    "B892",
+    "B997"
    ],
    "obstacle": "units_scale",
    "obstacle_conf": 2,
@@ -11714,13 +11725,16 @@
     "firewall"
    ],
    "refs": [
+    "B854",
     "B856",
+    "B892",
     "B915",
     "B925",
     "B926",
     "B927",
     "B929",
     "B936",
+    "B997",
     "P1",
     "P10",
     "P2",
@@ -15886,7 +15900,6 @@
     "measurement",
     "closing",
     "feedback",
-    "figure_eight",
     "golden",
     "z3_generation",
     "firewall"

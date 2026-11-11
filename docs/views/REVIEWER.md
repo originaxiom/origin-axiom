@@ -20,7 +20,7 @@ result, not the debt.
 | | |
 |---|---|
 | research arcs with findings | **1590** |
-| words of findings prose | **1,387,294** |
+| words of findings prose | **1,387,858** |
 | test lock files referenced | **940** |
 | arcs carrying an authored verdict | **1590** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
@@ -33,9 +33,9 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1099 |
+| PROVED | 1098 |
 | NEGATIVE | 383 |
-| OPEN | 96 |
+| OPEN | 97 |
 | RETRACTED | 12 |
 
 ## How the doors were shut

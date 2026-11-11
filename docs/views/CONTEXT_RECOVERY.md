@@ -14,17 +14,17 @@
 | what | count |
 |---|---|
 | arcs with a verdict file | 1590 |
-| … PROVED | 1099 |
+| … PROVED | 1098 |
 | … NEGATIVE | 383 |
-| … OPEN | 96 |
+| … OPEN | 97 |
 | … RETRACTED | 12 |
-| register points | 787 |
-| … QUEUED | 264 |
+| register points | 789 |
+| … QUEUED | 266 |
 | … LEAD | 4 |
 | … OWNER | 4 |
 | … DONE | 503 |
 | … DECLINED | 12 |
-| harvest rows (the last number) | 1698 |
+| harvest rows (the last number) | 1699 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p THE ERRORS IN THE MATHEMATICS, THE THIRD OF THE NINE LEFT (WP-0.8): "0.000 BITS OF DESIGNER FREEDOM" WAS ELEVEN ZEROS TYPED BY HAND (E7) (2026-11-11)
 - S306p THE ERRORS IN THE MATHEMATICS, THE SECOND OF THE NINE LEFT (WP-0.8): A SCAN THAT NEVER REFINED, REPLACED BY THE JOINT EIGENVALUES (E5) (2026-11-11)
 - S306p THE REPOSITORY'S PUBLIC FORM, SCRUTINISED AT THE OWNER'S WORD (B1888; P-787) (2026-11-11)
 - S306p THE ERRORS IN THE MATHEMATICS, THE FIRST OF NINE (WP-0.8): THE KNOT GROUP'S CONGRUENCE LEVEL IS (4), AND THE LOCK NOW SAYS SO (E2) (2026-11-11)
@@ -63,11 +64,10 @@
 - S306p THE V1 CARD READ (B1882): AN END OF THE WINDOW IS LIKE OTHER ROWS, BY A HAIR; THE AUDIT'S FIGURE IS REAL AND IS NOT ABOUT RARITY (2026-11-11)
 - S306p THE FOURTH HARVEST: THE WEB SEAT'S TWO CARDS VERIFIED (B1885, B1887), THE WORK ORDER MENDED AT THE OWNER'S QUESTION (P-782), THE OLD RELAYS KEPT LOCAL (P-779) (2026-11-11)
 - S306p THE FOUNDATION AT VERSION 1.65 (B1886; P-767's second landing) (2026-11-11)
-- S306p THE TEAM'S MORNING HARVESTED: A STATUS PAGE (B1883), THE GROUND'S LEVEL VERIFIED (B1884), THE V1 CARD SEALED FOR ITS RUN (B1882), TWO AGY BRANCHES REGISTERED (P-781) (2026-11-11)
 
 ## The latest campaign line
 
-LATEST (2026-11-11, S306p: WP-0.8, THE ERRORS IN THE MATHEMATICS — E5 MENDED, AWAITING ITS RE-AUDIT.** B892's real-line scan never refined (its golden-section step runs only when the grid finds nothing, and the grid always finds the plane stratum), so it could not exclude a real nullity-14 point. Main's first mend, a finer scan with a bound between grid points, failed its own checks: the matrices are scaled over fourteen orders of magnitude. The right instrument is the joint diagonalisation of s1, x14, x16 and x22, which commute: the nullity at every point of the line is read off their weights, it jumps at finite t only at four purely imaginary points (14 at one conjugate pair, 18 at the ot…
+LATEST (2026-11-11, S306p: WP-0.8, THE ERRORS IN THE MATHEMATICS — E7 MENDED, AWAITING ITS RE-AUDIT.** B1028's headline, no retroactive freedom in the whole chain and machine-checked, was a sum of eleven prices typed 0.0, with a check that a phrase is a substring of the cited arc's claim line; the check still passes on B997's line, corrected on 2026-11-10 to say the door set is {1, 4}. B1028's verdict is OPEN. Its claim line names what is not priced (the family declaration; the selection within the family; the choice of the principal embedding) and the one endpoint it credits, the algebra of dimension 14, with the claim as first asserted kept. The correction is carried to the roadmap, the c…
 
 ## Completeness (nothing skipped silently)
 
