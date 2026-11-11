@@ -123,6 +123,66 @@ REFUSED_SHALLOW = ("refused: this clone is shallow. This gate reads the history,
                    "gate looks for, or accuse what is only out of sight. Fetch the rest (git fetch --unshallow) and run it again")
 
 
+# --- nothing leaves a ledger, and no ceiling rises, without a recorded act (the closure programme's WP-0.7; the advisor seat's
+#     planted cases PV10 to PV13 and PV19) -----------------------------------------------------------------------------------
+# Five gates passed on a page that had been deleted or emptied: a ratchet that ran only if its baseline was there; a sweep with
+# no registry, and so nothing to sweep for; a count of the tests that cannot fail, among none; two checks of every row of a
+# page with no rows.  And one ceiling could be raised by the commit it was meant to stop.  A floor ("not empty") would catch
+# each of those as planted and miss half a page deleted.  The rule is one, and it is read from history, as append-only and
+# seal-immutable are: AFTER NOTHING_LEAVES_FROM, WHAT A LEDGER HAS HELD IT STILL HOLDS, unless it is named in LEFT_BY_NAME
+# with its date and what became of it.  A named entry is a recorded act: it is counted in the gate's own sentence, which
+# the runner prints at every push.
+NOTHING_LEAVES_FROM = "e6298271afcf081413141874361688ecbb42613f"     # read in history from this commit on (2026-11-11); what stands before it is not re-judged
+LEFT_BY_NAME = {}      # the ledger's path -> {what left it: "the date -- what became of it, and why"}.  Empty on 2026-11-11.
+
+
+def _since_the_anchor(anchor, repo=None):
+    """a runner of git in `repo`, or the reason the history cannot be read back to `anchor` (the gate then fails closed)"""
+    repo = str(repo or ROOT)
+
+    def git(*a):
+        return subprocess.run(["git", "-C", repo, *a], capture_output=True, text=True, errors="replace", timeout=180)
+    if git("cat-file", "-e", anchor + "^{commit}").returncode != 0:
+        return None, f"cannot verify: {anchor[:9]}, the commit the rule is read from, is not in this clone (shallow or partial)"
+    if git("merge-base", "--is-ancestor", anchor, "HEAD").returncode != 0:
+        return None, f"cannot verify: HEAD does not descend from {anchor[:9]}, the commit the rule is read from"
+    return git, None
+
+
+def held_since(path, keys, anchor=None, repo=None):
+    """every key the page at `path` has held since the anchor: those it held at the anchor, and those on any line added to it
+    after, on main's own line.  `keys(text)` reads the keys out of a text, line by line.  Returns (set, None), or (None, why
+    the history cannot be read)."""
+    anchor = anchor or NOTHING_LEAVES_FROM
+    git, why = _since_the_anchor(anchor, repo)
+    if why:
+        return None, why
+    then = git("show", f"{anchor}:{path}")
+    held = set(keys(then.stdout)) if then.returncode == 0 else set()          # a page that was not there then held nothing
+    log = git("log", "--first-parent", "--format=", "-p", "--unified=0", f"{anchor}..HEAD", "--", path)
+    added = "\n".join(l[1:] for l in log.stdout.splitlines() if l.startswith("+") and not l.startswith("+++"))
+    return held | set(keys(added)), None
+
+
+def left_the_ledger(path, keys, text, what="row", anchor=None, repo=None, named=None):
+    """what the page has held since the anchor and `text`, the page as it is now, holds no longer.  Returns (problem, note):
+    a problem where something left with no record (or the history cannot be read), and a note for the gate's sentence where
+    something left by name."""
+    anchor = anchor or NOTHING_LEAVES_FROM
+    held, why = held_since(path, keys, anchor, repo)
+    if why:
+        return why, ""
+    named = LEFT_BY_NAME.get(path, {}) if named is None else named
+    gone = sorted(held - set(keys(text)))
+    loose = [k for k in gone if not str(named.get(k, "")).strip()]
+    by_name = [k for k in gone if k not in loose]
+    note = f"; {len(by_name)} {what}(s) left by name since {anchor[:9]}: " + "; ".join(f"{k} ({named[k]})" for k in by_name[:4]) if by_name else ""
+    if loose:
+        return (f"{len(loose)} {what}(s) left {path} since {anchor[:9]} with no record: " + "; ".join(str(k)[:60] for k in loose[:4])
+                + ". Nothing leaves a ledger without a recorded act: put it back, or name it in LEFT_BY_NAME with its date and what became of it"), note
+    return None, note
+
+
 # --- gate: framing lock (GOVERNANCE §2/§8 + the campaign-banned phrasings) ---------------
 BANNED = [
     "the gluing creates causal structure",
@@ -1906,7 +1966,7 @@ def gate_lawmap_scope():
 # live in a row written the same day. This gate sweeps every tracked .md for registered
 # retracted phrases used as LIVE CLAIMS, allowing them as MENTIONS inside retraction
 # records, correction banners and quotations of former claims.
-def gate_retraction_sweep():
+def gate_retraction_sweep(_anchor=None):
     """Registered retracted phrases must not appear as live claims in any tracked .md."""
     sys.path.insert(0, os.path.join(ROOT, "scripts", "checks"))
     try:
@@ -1915,8 +1975,16 @@ def gate_retraction_sweep():
         # FAIL-CLOSED: a missing sweeper is exactly the state in which the corpus rots
         # quietly, which is the failure this gate exists to prevent.
         return False, f"retraction_sweep unimportable: {exc}"
+    # PV11 (WP-0.7): with the registry deleted the sweep read no phrase, swept for nothing and passed.  The registry must be
+    # there, and no phrase leaves it without a record.
+    rel = os.path.relpath(rs.REGISTRY, ROOT).replace(os.sep, "/")
+    if not os.path.isfile(rs.REGISTRY):
+        return False, f"{rel} missing -- with no registry the sweep reads no phrase and would sweep for nothing"
+    gone, note = left_the_ledger(rel, rs.phrases_in, _read(rel), "retracted phrase", _anchor)
+    if gone:
+        return False, gone
     v = rs.sweep()
-    return not v, [f"{r}:{n} {p!r}" for r, n, p in v[:5]] or "ok"
+    return not v, [f"{r}:{n} {p!r}" for r, n, p in v[:5]] or "ok" + note
 
 
 
@@ -2726,11 +2794,12 @@ GATES = {
 # every gate NOT listed here must give the same answer with git as without it, so a new gate that calls git and is not listed
 # fails that lock; and a gate listed as reading the tracked files only may not call a git command that reads the past.
 READS_TRACKED = frozenset({                       # asks git which files are tracked, and nothing of the past
-    "arrival-phrases", "path-refs", "retraction-sweep", "test-vacuity", "tracked-deps", "tracked-forbidden"})
+    "arrival-phrases", "path-refs", "test-vacuity", "tracked-deps", "tracked-forbidden"})
 READS_HISTORY = frozenset({                       # reads commits before HEAD, or other seats' branches
     "append-only", "artifact-hashes", "attribution", "closure-generated", "harvest-debt", "lead-debt",
     "log-changelog-paired", "point-debt", "relay-debt", "review-fires", "seal-immutable", "seal-order-unshown", "views-fresh",
-    "views-generated"})                           # the four debt gates: the commit's day, and that time has not run backwards
+    "views-generated",                            # the four debt gates: the commit's day, and that time has not run backwards
+    "retraction-sweep"})                          # nothing leaves a ledger: what the page has held since NOTHING_LEAVES_FROM
 READS_GIT = READS_TRACKED | READS_HISTORY
 
 
@@ -2782,8 +2851,8 @@ def result_line(name, ok, detail):
     skipped = ok and isinstance(detail, str) and ("skipped" in detail or "unavailable" in detail or "no review anchor" in detail)
     if skipped:
         return f"  SKIP  {name}: {detail}"
-    if ok and name in PRINTS_ITS_SENTENCE and isinstance(detail, str) and detail:
-        return f"  PASS  {name}: {detail}"
+    if ok and isinstance(detail, str) and detail and (name in PRINTS_ITS_SENTENCE or "by name" in detail):
+        return f"  PASS  {name}: {detail}"         # "by name": something left a ledger, or a ceiling rose, with a record (WP-0.7)
     return f"  {'PASS' if ok else 'FAIL'}  {name}: {detail if not ok else 'ok'}"
 
 

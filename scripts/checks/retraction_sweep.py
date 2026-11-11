@@ -77,11 +77,19 @@ MENTION_CUES = re.compile(
 
 
 def _phrases():
-    out = []
+    """the registry's phrases.  With no registry there are none: the gate, not this reader, refuses that state (WP-0.7, PV11)"""
     if not os.path.exists(REGISTRY):
-        return out
+        return []
     with open(REGISTRY, encoding="utf-8") as fh:
-        for line in fh:
+        return phrases_in(fh.read())
+
+
+def phrases_in(text):
+    """the retracted phrases a registry's text holds, line by line (so that the gate can read the registry as it was at an
+    earlier commit, and see what has left it)"""
+    out = []
+    if text:                                     # an empty registry holds no phrase
+        for line in text.split("\n"):
             # FORMAT 1 (the original numbered table):  | 7 | `phrase` | arc | why |
             m = re.match(r"\|\s*\d+\s*\|\s*`([^`]+)`", line)
             if m:
