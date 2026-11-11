@@ -362,6 +362,15 @@ One name in his sentence is replaced: it is the lane's model, and the attributio
 tracked files. The seat read the lane's proposal, ran its prototype and planted cheats against its guardrails:
 `agy_blueprint_read/READ_OF_THE_AGY_LANES_BLUEPRINT.md`. He was asked nothing.
 
+| what he was answering | his words |
+|---|---|
+| the seat's read of the agy lane's blueprint | "how should we call you? so i can estabilish a direct communication between you and main so it supervises you on your wok. you should have your roadmap, goal and plan crystal clear so we prevent any mess or leave anything unfinished" |
+
+By then main had answered his question on who builds (its note of the same day on the scoreboard page and the order,
+§ 4; P-785): yes, on two conditions, for five packages. The seat told him the name main's register already holds,
+the advisor seat; wrote its goal, roadmap and plan on one page, `THE_ADVISOR_SEATS_PLAN.md`; and answered main yes in
+`ADVISOR_TO_CC_2026-11-11_YES_TO_THE_FIVE_AND_ORD_A.md`. He was asked nothing.
+
 ## The roles
 
 The owner, the same day: this seat "will serve as an advisor for cc - the banking seat"; when cc is ready the reports
