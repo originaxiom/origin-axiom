@@ -1,5 +1,18 @@
 # Changelog
 
+## S306p THE WEAVE'S THEOREMS WITH THE EXCHANGE ADDED, AND THE OWNER'S RULING ON IT: EVEN TICKS ARE A CONDITION TO DERIVE (B1879; P-769, P-771) (2026-11-11)
+
+- **Why it was computed.** The owner ruled the tick an act. An earlier ruling (2026-10-08) says even ticks are what is observed. Asked how the two stand together, the owner answered "After the computation".
+- **The result, statement by statement.** When histories of an odd number of ticks take part:
+  - **unchanged:** the two characters the moves fix; the walk's measure, exactly (a run has length r with probability 2⁻ʳ in either grammar); no fixed point of the modulus; one end for each of the 22 odd histories to 7 letters;
+  - **changed, and it is one thing, the hand:** the triplet joins its conjugate into one irreducible six (96 elements and two pieces become 192 and one); the group contains its own generalised CP; a three whose sign is the hand has no sign left;
+  - **stronger:** the tick alone fixes exactly the trivial character and the quaternion point. The record needed both two-act moves for that.
+- **One expectation of main's was not well posed:** whether the joined six is a real representation depends on a phase of the exchange's lift that nothing fixes.
+- **Not restated:** the two negatives that compare with measurement; the index itself, which is argued and not recomputed.
+- **The owner's ruling, with the result in hand** ("A condition to derive"): every tick is in the ledger; "only even ticks are observed" is no longer a ruling but a condition the weight must deliver; the chiral three stays as conditional as it was; the budget's orientation bit is a named condition to derive, not a declared choice. It is not counted as derived.
+- **Two locks mended, both found by the full suite on a fresh clone:** a lock that pins the claims page's line count (the dated notes of B1878 added nine lines), and the paper manifest, which had been rebuilt before its commit was published.
+- 0 of 19.
+
 ## S306p THE GOAL AS THE OWNER RULED IT, IN THE GOVERNING DOCUMENTS; TWO GATES (B1878; P-767's first landing); THE SIX ARCS WHOSE SEALED SCRIPTS CHANGED, READ (P-772) (2026-11-11)
 
 - **The goal (the owner's first ruling of the eleven).** `GOVERNANCE.md` now says: the programme's only goal is a parameter-free theory of everything. The sentence it replaces, "The goal is not a theory of everything", is kept, with a dated note beside it.

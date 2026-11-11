@@ -82,9 +82,14 @@ def test_the_owners_rulings_at_the_review_are_recorded_in_the_owners_words():
     assert (ROOT / "docs" / "handoffs" / "CC_TO_AGY_2026-11-11_YOUR_THREE_COMPLIANCE_POINTS_ARE_MENDED.md").is_file()
     prog = json.loads(_arc("B1861", "PROGRAMME.json"))
     assert sorted(prog["confirmed_later"]) == ["no rule picks a next thing", "the ledger, cancelling, interaction", "the tick is an act", "what exists is what survives"]
-    assert [r[0] for r in prog["direct_rulings"]] == ["what a ground is", "what 'the ledger must close' means",
-                                                       "how 'the tick is an act' stands with 'even ticks observed'"]
+    # the first three are the review's; a fourth was given after it, with the computation in hand (B1879), and the
+    # programme lists the rulings in the order they were given, so the review's three stay the first three
+    assert [r[0] for r in prog["direct_rulings"]][:3] == ["what a ground is", "what 'the ledger must close' means",
+                                                           "how 'the tick is an act' stands with 'even ticks observed'"]
     assert prog["direct_rulings"][2][2] == "After the computation" and "'After the computation'" in rows["P-771"]
+    assert [r[0] for r in prog["direct_rulings"]][3:] == ["'even ticks observed', after the computation"]
+    assert prog["direct_rulings"][3][2] == "A condition to derive (Recommended)"
+    assert "A condition to derive (Recommended)" in rows["P-771"]
     # the over-reading is corrected where it stood: no page says the ruling on the tick settles the mark
     blk = _reviews(); blk = blk[blk.index("# Review 78 (2026-11-11)"):]
     assert "*Corrected the same day,\n    before the push.*" in blk and "so the allowed subweave at level 5\n    is the stabiliser of the eigenline" not in blk

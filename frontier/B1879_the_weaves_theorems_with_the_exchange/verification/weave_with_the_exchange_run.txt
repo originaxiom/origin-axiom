@@ -1,0 +1,32 @@
+PART 1 -- THE CHARACTERS THE MOVES FIX (x = tr a, y = tr b, z = tr ab; exact)
+  the two moves together fix exactly [(0, 0, 0), (2, 2, 2)]: the quaternion point and the trivial character (the record's W:Q8)
+  E1 HOLDS: the exchange fixes both, so with the exchange the same two are fixed and no other
+  one two-act move alone fixes a curve, not points: M1 fixes 2 family(ies) with a free parameter
+  the tick alone fixes exactly [(0, 0, 0), (2, 2, 2)]
+  E2 FAILS, and the failure is the finding: the tick BY ITSELF fixes exactly the trivial character and the quaternion point.
+     The record needs both two-act moves together for that (W:Q8); one act, the founding one, already does it.
+  the tick done twice (the root) fixes a curve again: 1 family(ies) with a free parameter, the quaternion point and the hyperbolic structure's point on it
+PART 2 -- THE WEAVE'S SIX-DIMENSIONAL SPACE (B1610's matrices, main's own): T + conj T
+  the two acts: 96 elements, two pieces (the triplet and its conjugate); with the exchange: 192 elements, one piece
+  L and the tick alone generate the same 192 elements
+  E4 IS NOT WELL POSED: the plain indicator of the six depends on the phase of the exchange's lift -- B1610's lift: 192 elements, indicator -1; i times it: 192 elements, indicator +1
+  what does not depend on the lift: under the two acts the triplet is complex (plain indicator 0), and its indicator twisted by the exchange is +1.000 (the same for either lift: +1.000)
+     So the exchange is a consistent conjugation of the triplet onto its conjugate (the record's B1611: the weave's generalised CP is the record swap), recomputed here.
+  invariant bilinear forms on the six: 2 under the two acts, 1 with the exchange; it pairs the triplet with its conjugate and vanishes on each alone
+  the tick has order 12 on the six; it is not in the two acts' group and its square is
+PART 3 -- THE WALK'S LAW (exact enumeration): the runs of a uniformly random word
+  the first three completed runs of a uniformly random word of 12 letters: the probability of runs (r1, r2, r3) is exactly 2^-(r1+r2+r3) in both grammars, on all 165 triples that fit
+  E5 HOLDS, exactly: a run has length r with probability 2^-r in either grammar, independently, so the move-by-move measure (Minkowski's) is the same.
+     The reason: in L and F a run of r is L^(r-1) F; in L and R a run ends when the letter changes. Each has probability 2^-r.
+PART 4 -- THE ENDS (SnapPy): histories of an odd number of ticks
+  the 22 primitive histories of an odd number of runs to 7 letters: number of ends [1]
+  E6 HOLDS: each has one end. So 'a generated state has one end' (the record's W:ONE-END) holds for them too.
+PART 5 -- THE MODULUS (exact): the moves on the upper half-plane, with the exchange
+  the exchange fixes the unit circle |tau| = 1, pointwise (a mirror)
+  the tick fixes no point of the upper half-plane (its fixed points are the two golden numbers on the boundary): solutions in the half-plane []
+    tau -> -conj(tau)      fixes Re tau = 0
+    tau -> 1 - conj(tau)   fixes Re tau = 1/2
+    tau -> 1/conj(tau)     fixes |tau| = 1
+  so the weave still fixes no point (the record's W:NOMOD, a fortiori: more moves, no more fixed points). What the exchange adds is
+  mirrors: the lines Re tau = 0, Re tau = 1/2 and |tau| = 1, with i and the cube root of unity at their corners.
+ALL CHECKS PASS

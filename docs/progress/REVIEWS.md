@@ -8656,6 +8656,7 @@ report is in its `verification/readers/`.
 
 fresh-clone: PASS @ cc01f56b9 (gates all PASS; belt ok) (after the anchor line, the view refresh and the views; the review's landing is 38d2a36dc)
 fresh-clone suite, the review's own commits: FAIL @ cc01f56b9 (4 failed, 8280 passed, 70 skipped): the two standing ones, and two that are this review's -- its own lock carried a literal local path prefix, which the suite's guard forbids in every script; spelt in pieces in the next commit
+fresh-clone suite, the tip pushed with the review: FAIL @ 015be0cc7 (4 failed, 8296 passed, 70 skipped): the two standing ones, and two of the goal landing's (B1878) -- a lock that pins the claims page's line count, which its dated notes moved, and the paper manifest, rebuilt before its commit was published; both mended in the landing after (B1879's)
 fresh-clone suite: FAIL @ b28dceea8 (2 failed, 8266 passed, 70 skipped, 7 warnings); failing: tests/test_b805_forcing.py::test_gaps_are_reported_not_hidden, tests/test_b805_forcing.py::test_graph_builds_and_separates_authored_edges_from_attachment (both standing, P-239; none from the window)
 sample seed: 10641a1b2; read in full: B1861, B1862, B1863, B1865, B1872
 gate controls: 52 registered failing-path tests; unregistered: none

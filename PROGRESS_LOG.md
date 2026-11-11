@@ -19203,3 +19203,27 @@ a plain label that its result was read after the rule was loosened. One small ch
 mentioned now.
 
 Next: the owner's other rulings go into the foundation document itself. 0 of 19.
+
+## 2026-11-11 — S306p: what the extra histories do, and the owner's decision
+
+The founding step of the theory is "add, then the two sides swap". The owner ruled today that this single step is a
+real step. That adds histories made of an odd number of such steps. An earlier decision said that what is observed is
+the even ones. The owner asked for a computation before saying how the two decisions fit.
+
+The computation asked one thing of every statement the record holds about the whole: does it survive when the odd
+histories take part?
+
+Almost all of it survives untouched: where the records sit, how likely each history is, the fact that nothing pins
+the shape parameter, the fact that each history has one opening.
+
+One thing changes, and only one: handedness. With the odd histories taking part, the three-fold object and its mirror
+image become a single six-fold object. The theory's "three" then has no left or right of its own.
+
+One thing gets stronger. The place where the records sit used to need two different steps to single it out. The
+single founding step singles it out by itself.
+
+With that in hand the owner decided. All the histories exist. That only the even ones are observed is no longer a
+decision; it is something the theory has to deliver, through whatever weighs the histories. The handedness of the
+three stays as conditional as it was, and now the condition has a name.
+
+0 of 19.

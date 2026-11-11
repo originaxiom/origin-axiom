@@ -27,7 +27,8 @@ def test_the_recount_runs_and_says_what_the_findings_quote():
               "the script the foundation cites for the live price exits 1"):
         assert s in out, s
     sealed = (HERE / "read_checks_run.txt").read_text(encoding="utf-8")
-    assert "joined to nothing: 64" in sealed and "an exit with no objection on the page: 8" in sealed
+    # 8 at the read; 9 since the owner named the orientation's condition on 2026-11-11 (B1879), which the run now prints
+    assert "joined to nothing: 64" in sealed and "an exit with no objection on the page: 9" in sealed
 
 
 def test_the_four_repairs_are_in_force():

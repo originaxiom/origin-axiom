@@ -78,7 +78,10 @@ def test_sweep1_claims_md_counts():
     that "base rate" and "prereg" are both zero), but pinned so the distinction is on record.
     """
     t = (ROOT / "CLAIMS.md").read_text(encoding="utf-8")
-    assert len(t.splitlines()) == 231
+    # 231 lines when the sweep was made.  B1878 (2026-11-11) added two dated notes at the owner's ruling on the goal, nine lines,
+    # and no line of the ledger itself changed; the four counts below are as they were.  (The full suite on a fresh clone caught
+    # this pin the same day.)
+    assert len(t.splitlines()) == 240
     lines = lambda term: sum(1 for l in t.splitlines() if re.search(re.escape(term), l, re.I))
     occ = lambda term: len(re.findall(re.escape(term), t, re.I))
     for term, n in (("base rate", 0), ("prereg", 0), ("control", 3), ("generic", 4)):

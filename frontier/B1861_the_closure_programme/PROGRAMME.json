@@ -585,6 +585,17 @@
     "WP-1.4"
    ],
    "both rulings stand side by side and the foundation records both; their relation is decided after main has computed the weave's theorems for the group with the exchange (P-769). Until then nothing says that the orientation has stopped being a choice, or that the mark is both twins"
+  ],
+  [
+   "'even ticks observed', after the computation",
+   "With the computation in hand: your ruling of 2026-10-08 says 'even ticks observed' ... Today you ruled the tick an act. The computation shows the only thing at stake between them is the hand ... How should they stand together?",
+   "A condition to derive (Recommended)",
+   "2026-11-11",
+   [
+    "WP-1.4",
+    "WP-1.6"
+   ],
+   "every tick is in the ledger; 'only even ticks are observed' is no longer a ruling but a condition the weight must deliver; the chiral three stays exactly as conditional as it was; the budget's orientation bit is a named condition to derive, not a declared choice, and is not counted as derived (B1879)"
   ]
  ],
  "exit_kinds": {
@@ -704,8 +715,8 @@
    "the loop note lists the end and the metric on generations as chosen."
   ],
   "the orientation": [
-   "PRESSED",
-   "the ledger: the principle does not force it and may speak against it. The non-orientable sibling is the alternative. Verified on main (B1871): if the tick, the owner's founding rule, is an act, both sheets exist and this is no choice; it supplies no hand. Asked of the owner (P-771). RULED BY THE OWNER on 2026-11-11, to main: the tick is an act. The owner's ruling of 2026-10-08, 'even ticks observed', also stands; how the two stand together waits on a computation, at the owner's word (P-769). So this entry keeps its kind: nothing yet says that the orientation has stopped being a choice."
+   "BACK-EDGE NAMED",
+   "the owner's ruling of 2026-11-11, to main, with B1879's computation in hand: every tick is in the ledger; that only even ticks are observed is no longer a ruling but a condition the weight must deliver. So this input has a named condition downstream that it must satisfy, and none is built: it is not derived and is not counted as derived. [Was PRESSED: the ledger: the principle does not force it and may speak against it. The non-orientable sibling is the alternative. Verified on main (B1871): if the tick, the owner's founding rule, is an act, both sheets exist and this is no choice; it supplies no hand. Asked of the owner (P-771). RULED BY THE OWNER on 2026-11-11, to main: the tick is an act. The owner's ruling of 2026-10-08, 'even ticks observed', also stands; how the two stand together waits on a computation, at the owner's word (P-769). So this entry keeps its kind: nothing yet says that the orientation has stopped being a choice.]"
   ],
   "the principle's mathematical form": [
    "PRESSED",
@@ -5066,12 +5077,12 @@
   "debts_on_the_map_joined_to_nothing": 64,
   "exits_by_kind": {
    "ADMITTED": 3,
-   "BACK-EDGE NAMED": 5,
+   "BACK-EDGE NAMED": 6,
    "DICTIONARY": 6,
    "FORCING ARGUED": 2,
    "KEPT": 3,
    "ONE CLAUSE SHORT": 3,
-   "PRESSED": 4,
+   "PRESSED": 3,
    "RIGID": 1,
    "UNTOUCHED": 11
   },
@@ -5101,7 +5112,7 @@
    "V:SIX"
   ],
   "independent_choices": 38,
-  "inputs_with_an_exit_on_the_table": 8,
+  "inputs_with_an_exit_on_the_table": 9,
   "lanes_supplied_inputs": 7,
   "map_dependencies_between_packages": 21,
   "map_nodes": 270,
@@ -5159,7 +5170,7 @@
   "rules_of_the_comparison": 12,
   "rulings_asked": 0,
   "rulings_confirmed_by_the_owner_to_main": 15,
-  "rulings_given_to_main_directly": 3,
+  "rulings_given_to_main_directly": 4,
   "rulings_not_confirmed": 2,
   "unowned": [
    "WP-1.8",

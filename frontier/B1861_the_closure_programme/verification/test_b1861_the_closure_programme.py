@@ -150,7 +150,8 @@ def test_the_audit_is_carried_finding_by_finding():
     assert len(S.CONFIRMED) == 11 and len(S.CONFIRMED_LATER) == 4 and st["rulings_confirmed_by_the_owner_to_main"] == 15
     assert st["rulings_not_confirmed"] == len(S.NOT_CONFIRMED) == 2 and st["rulings_asked"] == 0
     # the ground is the act; 'close' means the whole agrees (P-774); and how the tick's ruling stands with 'even ticks observed': after the computation
-    assert st["rulings_given_to_main_directly"] == len(S.DIRECT_RULINGS) == 3 and S.DIRECT_RULINGS[2][2] == "After the computation"
+    assert st["rulings_given_to_main_directly"] == len(S.DIRECT_RULINGS) == 4 and S.DIRECT_RULINGS[2][2] == "After the computation"
+    assert S.DIRECT_RULINGS[3][2] == "A condition to derive (Recommended)" and S.EXITS["the orientation"][0] == "BACK-EDGE NAMED"      # ruled with B1879 in hand
     assert not set(S.NOT_CONFIRMED) & set(S.CONFIRMED) and all(S.NOT_CONFIRMED.values())
     assert [n for n, q, ps in S.RULINGS][:11] == S.CONFIRMED and sorted(S.OPINION) == sorted(list(S.CONFIRMED) + list(S.CONFIRMED_LATER))
     assert sorted(S.CONFIRMED_LATER) == sorted(n for n, q, ps in S.RULINGS[13:])           # the four relayed last, each answered by the owner on 2026-11-11
@@ -375,7 +376,7 @@ def test_the_joins_the_seals_rule_needs_and_each_refusal_can_fire():
     with planted(lambda: S.SINCE_REAUDIT.__setitem__("G2", ("B99999", "x")), restore_since) as f:
         assert any("names an arc that is not on main: B99999" in x for x in f)
     # the exits: three forcing arguments are one clause short and are not counted as exits
-    assert st["exits_by_kind"]["ONE CLAUSE SHORT"] == 3 and st["inputs_with_an_exit_on_the_table"] == 8
+    assert st["exits_by_kind"]["ONE CLAUSE SHORT"] == 3 and st["inputs_with_an_exit_on_the_table"] == 9      # 8 until the owner named the orientation's condition (2026-11-11)
     assert st["budget"]["bit"] == 9 and st["budget_items"] == 46          # the charge premise is two choices under one name (B1869)
     assert not _refusals()
 

@@ -164,7 +164,7 @@ three one clause short (B1867 § 3).
 row. It is not a sweep of the record: "untouched" says only that these notes name no route, and the input's package
 holds the record's own. It changes no grade.
 
-**The relayed rulings are thirteen now** *[seventeen since: 15 confirmed (11 on 2026-11-10 and the 4 asked later on 2026-11-11, P-771), 2 not confirmed, and 2 more given to main directly (P-774); corrected 2026-11-11 by Review 78's reader; the live counts are in the last section]* (two more the same evening: to stress-test the principle, and the owner's
+**The relayed rulings are thirteen now** *[seventeen since: 15 confirmed (11 on 2026-11-10 and the 4 asked later on 2026-11-11, P-771), 2 not confirmed, and 2 more given to main directly at the review (P-774; others have been given since, and this bracket does not count them); corrected 2026-11-11 by Review 78's reader; the live counts are in the last section]* (two more the same evening: to stress-test the principle, and the owner's
 statement that the programme is a line and not a loop). The owner confirmed the first eleven to main the same evening, and
 asked for main's opinion on each; both are in `PROGRAMME.md` § 9. The two relayed after main had asked are asked
 (P-758, P-765). Carrying out the eleven is P-767; this arc changes no governing document.
@@ -284,4 +284,4 @@ This is the practice Review 77 named, broken again by the arc written on the day
 The one line below is compared with the builder's output by this arc's lock. If the programme moves and the line is
 not updated, the lock fails.
 
-> LIVE: 38 inputs as the record lists them, 46 items by kind (8 axioms, 9 bits, 16 discrete choices, 5 real numbers, 1 ansatz, 7 identifications); exits: KEPT 3, FORCING ARGUED 2, ONE CLAUSE SHORT 3, ADMITTED 3, PRESSED 4, RIGID 1, BACK-EDGE NAMED 5, DICTIONARY 6, UNTOUCHED 11; an exit on the table for 8; rulings: 17 relayed, 15 confirmed, 2 not confirmed, 0 asked, and 3 given to main directly; findings: OPEN 1, READER 4, REPRODUCED 43, PARTLY FIXED 15, FIXED 10; 43 packages in 8 waves.
+> LIVE: 38 inputs as the record lists them, 46 items by kind (8 axioms, 9 bits, 16 discrete choices, 5 real numbers, 1 ansatz, 7 identifications); exits: KEPT 3, FORCING ARGUED 2, ONE CLAUSE SHORT 3, ADMITTED 3, PRESSED 3, RIGID 1, BACK-EDGE NAMED 6, DICTIONARY 6, UNTOUCHED 11; an exit on the table for 9; rulings: 17 relayed, 15 confirmed, 2 not confirmed, 0 asked, and 4 given to main directly; findings: OPEN 1, READER 4, REPRODUCED 43, PARTLY FIXED 15, FIXED 10; 43 packages in 8 waves.
