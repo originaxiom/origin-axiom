@@ -13,25 +13,27 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1586 |
-| … PROVED | 1095 |
+| arcs with a verdict file | 1588 |
+| … PROVED | 1097 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 781 |
-| … QUEUED | 261 |
+| register points | 785 |
+| … QUEUED | 263 |
 | … LEAD | 4 |
-| … OWNER | 4 |
-| … DONE | 500 |
+| … OWNER | 3 |
+| … DONE | 503 |
 | … DECLINED | 12 |
-| harvest rows (the last number) | 1689 |
+| harvest rows (the last number) | 1692 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1887 | PROVED | THE WEB SEAT'S CHECK OF THE AGY LANE'S LOOP, VERIFIED ON MAIN BY ANOTHER ROUTE (thread facts about single histories and their bundles, and one classical fact about root lattices; data-free; 35 checks, none failing; for… |
 | B1886 | PROVED | THE FOUNDATION AT VERSION 1.65 (P-767's second landing): the owner's statements of 2026-11-10 and 2026-11-11 entered in GENESIS.md under the working rule of 2026-11-11, by which a ruling sets a goal, a standard, an orde… |
+| B1885 | PROVED | THE WEB SEAT'S CARD ON THE GOLDEN STATE, VERIFIED ON MAIN CELL BY CELL (a weave object, conditional on stated choices; data-free; 30 digits; 32 checks, of which the one that fails is main's own guess at how closely the… |
 | B1884 | PROVED | THE WEB SEAT'S SEALED CARD ON WHAT LEVEL A GROUND NAMES, VERIFIED ON MAIN (a thread result on the ground; integers; 17 checks, none failing; for the foundation's entry on the ground, P-767): the tick F, add and exchange… |
 | B1883 | PROVED | WHERE WE STAND: HOW FAR THE RECORD IS FROM THE FINAL READING, AS ONE GENERATED PAGE (an instrument, at the owner's question of 2026-11-11, 'how far are we from ... 100% ready for the final reading? the dynamic scoreboar… |
 | B1881 | PROVED | THE WEB SEAT'S TWO RELAYS OF 2026-11-11 ON THE MISSING READ-OUT OF THE WHOLE, VERIFIED ON MAIN WITH MAIN'S OWN CODE (P-776; B1872 § 3, B1875 § 7; data-free; 65 checks, none failing; nothing selected and nothing compared… |
@@ -41,21 +43,19 @@
 | B1877 | PROVED | REVIEW 78 (run at the thirty-third commit after Review 77; S306o-S306p): three of Review 77's eight items resolved (what concentrates under the move count, B1868; the register-to-field join, B1866; the closure map and p… |
 | B1876 | PROVED | THE FOUR REMAINING ATTACKS ON THE PRINCIPLE'S DRAFT: THE ADVISOR SEAT'S SEALED RUN VERIFIED ON MAIN (P-771, P-769; data-free, integers and SnapPy; the seat's code not run): all sixteen sealed hypotheses come out on main… |
 | B1875 | PROVED | A SINGLE STATE IS NOT KEPT WHEN HISTORIES ARE COMPOSED: THE WEB SEAT'S SEALED CARD VERIFIED ON MAIN (P-761, P-767, P-744, P-766; data-free; a weave question answered with the record's thread instrument for the state; th… |
-| B1874 | PROVED | THE SCRIPTS A SEAL HASHED: MEASURED, AND GATED (the advisor seat's second re-audit, its planted case that no gate saw; bookkeeping only): 189 tracked lists of hashed files hold 1497 entries; 1430 verify against the trac… |
-| B1873 | PROVED | THE CLOSURE PROGRAMME READ BY A NON-AUTHOR: WHAT HELD, WHAT IS REPAIRED, WHAT IS OWED (the owner's word to fetch the advisor seat's read; bookkeeping only): the read's counts reproduce on main's own files, and its cause… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
 - ** P-081** — the reply to the outside reader, approached carefully so the contact is not lost: in his own context (one of his videos as the opening), short, honest about shapes-not-sizes and the missing field, the corrected PDF atta… → *a draft prepared outside the tree for the owner's edit (it opens from his 2021 explainer of the Standard Model's equation); the edit and the send are the owner…*
 - ** P-082** — a second outside reader, later, approached in his own context (relating to his videos), after the first correspondence → *later, at the owner's word; nothing prepared until then [2026-11-04, the owner confirmed: paused until a result passes a level-2 confirmation] [2026-11-11, the…*
 - ** P-253** — the chain gap's top entries (Review 67's R66-3, declined there because the chain is the frozen paper's spine): B1098, B959, B1100, B952, B1086, B1000, B1484, B1070 (coverage_candidates.py --chain-gap) — adjudicate each… → *asked of the owner: whether and when to open a draft after p9-draft9; until then the chain-gap list stays recorded here and nothing is due (S231) [earlier: Q3…*
-- ** P-779** — FIFTY-SIX OUTBOUND RELAYS OF MAIN'S, OF 2026-08-22 TO 2026-10-02, EXIST ONLY IN MAIN'S WORKING TREE (found on 2026-11-11 when the owner asked what else was unharvested): files in the repository's root, never committed,… → *main's recommendation: commit them under docs/handoffs/, where relays have lived since 2026-09-15, after a read of each for a name, a local path or export cont…*
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
 
 ## The last landings (CHANGELOG)
 
+- S306p THE FOURTH HARVEST: THE WEB SEAT'S TWO CARDS VERIFIED (B1885, B1887), THE WORK ORDER MENDED AT THE OWNER'S QUESTION (P-782), THE OLD RELAYS KEPT LOCAL (P-779) (2026-11-11)
 - S306p THE FOUNDATION AT VERSION 1.65 (B1886; P-767's second landing) (2026-11-11)
 - S306p THE TEAM'S MORNING HARVESTED: A STATUS PAGE (B1883), THE GROUND'S LEVEL VERIFIED (B1884), THE V1 CARD SEALED FOR ITS RUN (B1882), TWO AGY BRANCHES REGISTERED (P-781) (2026-11-11)
 - S306p TWO SEATS HARVESTED AND VERIFIED: THE ADVISOR SEAT'S THIRD AND FOURTH RE-AUDITS ANSWERED (B1880), AND THE WEB SEAT'S TWO RELAYS ON THE READ-OUT OF THE WHOLE VERIFIED (B1881) (2026-11-11)
@@ -63,11 +63,10 @@
 - S306p THE GOAL AS THE OWNER RULED IT, IN THE GOVERNING DOCUMENTS; TWO GATES (B1878; P-767's first landing); THE SIX ARCS WHOSE SEALED SCRIPTS CHANGED, READ (P-772) (2026-11-11)
 - S306p REVIEW 78, THE DECADAL REVIEW (B1877); THE OWNER'S RULINGS OF 2026-11-11 (P-771, P-774) (2026-11-11)
 - S306p TWO SEATS' SEALED RUNS VERIFIED ON MAIN: A SINGLE STATE IS NOT KEPT UNDER COMPOSITION (B1875); THE FOUR REMAINING ATTACKS ON THE PRINCIPLE'S DRAFT (B1876; P-774, P-775) (2026-11-11)
-- S306o (the re-audit's largest item) THE SCRIPTS A SEAL HASHED: MEASURED, AND GATED (B1874; P-772 in part) (2026-11-10)
 
 ## The latest campaign line
 
-LATEST (2026-11-11, S306p: B1886 — THE FOUNDATION AT VERSION 1.65 (P-767's second landing).** The owner's statements of 2026-11-10 and 2026-11-11 are in GENESIS.md, typed under the rule of 2026-11-11 (a ruling is never a fact). No status cell of an existing item changes. New: PF5, the claim that the whole has one self-consistent outcome, OPEN, with what would refute it in the falsifier register; SE3, the ground is the act itself, the tick, at the level its discriminant gives, POSTULATED as main's entry and counted as one more axiom; FK16, the observer's place, OPEN. Re-typed: 'even ticks observed' is a condition the weight has to deliver, with a criterion that is necessary and not shown suf…
+LATEST (2026-11-11, S306p, the fourth harvest of the day: B1885, B1887, AND THE WORK ORDER MENDED AT THE OWNER'S QUESTION (P-782).** The owner told main an answer was owed to the web seat, and then asked, with the advisor seat's scoreboard page, whether main works by its own work order. **The answer: inside it, and not in its order** -- one package of 43 done, none closed since the first day, four of the nine clean-up packages the sealed card waits on not started. The order is mended: the upstream audit now needs WP-0.8 (the audit's thirteen errors in the mathematics, on which nothing waited) and the card needs WP-0.10; the builder refuses an order with a second package that nothing needs.…
 
 ## Completeness (nothing skipped silently)
 

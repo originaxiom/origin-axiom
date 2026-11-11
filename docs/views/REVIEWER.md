@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1586** |
-| words of findings prose | **1,375,844** |
+| research arcs with findings | **1588** |
+| words of findings prose | **1,381,408** |
 | test lock files referenced | **940** |
-| arcs carrying an authored verdict | **1586** (100.0 %) |
+| arcs carrying an authored verdict | **1588** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1095 |
+| PROVED | 1097 |
 | NEGATIVE | 383 |
 | OPEN | 96 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1886`** (1251 words, 0 locks)  
-THE FOUNDATION AT VERSION 1.65 (P-767's second landing): the owner's statements of 2026-11-10 and 2026-11-11 entered in GENESIS.md under the working rule of 2026-11-11, by which a ruling sets a goal, a standard, an order of work or a meaning and never a fact. NO STATUS CELL OF AN EXISTING ITEM CHANGES (compared row by row with the committed v1.64). Three items are new: PF5, the claim that the whole has one self-consistent outcome, one orbit of the whole -- OPEN, since it is what the programme sets out to establish and nothing is derived from it, with what would refute it entered in the falsifier register; SE3, the ground is the act itself, the tick, at the level its discriminant gives -- POSTULATED as main's entry, tagged and counted, because nothing computed can decide it and the owner's choice of it came from a menu the rule no longer admits; and FK16, what puts an observer at one member of a pair the mirror exchanges -- OPEN. One sentence is re-typed: 'even ticks observed' (v1.33) is no longer recorded as the owner's ruling and is a condition the weight has to deliver, with the criterion of B1881 for delivering it, necessary and not shown sufficient; the swap stays OPEN with the tick carried as an act, and the orientation stays CHOSEN, named as a condition to derive and not counted as derived. The owner's statements of what he means by the principle are entered as wording. The line on which document holds is scoped to statuses. With it: three nodes on the closure map, and one more axiom in the input budget, the ground. It derives nothing and earns no value. 0 of 19.  
-`B1886_the_foundation_at_version_1_65/FINDINGS.md`
+**PROVED — `B1887`** (2727 words, 0 locks)  
+THE WEB SEAT'S CHECK OF THE AGY LANE'S LOOP, VERIFIED ON MAIN BY ANOTHER ROUTE (thread facts about single histories and their bundles, and one classical fact about root lattices; data-free; 35 checks, none failing; for P-781): of the 95 irreducible root systems of rank 1 to 24 exactly one has an even root lattice of determinant 1, E8, with every determinant equal to its closed form, and the domain leaves out two even lattices of determinant 1, E8 + E8 and D16+; the metallic word L^m R^m minus the identity has invariants (m, m) for m to 12, so only m = 1 gives a knot complement, as B251 and B591 already hold; on the record's flat-fibre instrument, with classes of least |Q| found by a complete enumeration within one period of the axis and not by a box, the run of 6 closed by k golden periods has one untwisted class of least |Q| (every second Fibonacci number), and under the twist the web seat's table holds to six figures -- k = 1: one class half a period from the apex in the mark's sector and a mirror pair 0.300865 of a period either side in the other; k = 2: pairs at 0.391512 and 0.225903; k = 3: one class at one half and a pair at 0.182225 -- with both sectors pairs for every even k to 8, so the agy lane's summary of the run of 6 is that of one golden period; the pair is the same two integer vectors (2, 1) and (8, -1) at every k, 1.83 to 1.86 of arclength from the apex and inside the run's tube, which reaches 2.09 to 2.10; no twisted sector has its least class at the apex; with columns in place of rows the two sectors change places, by hand (charge q becomes 3q) and by the run; two words in the lane's specification are other histories than it names and do not keep the mark, L^2 R^2 L^2 (LR)^k with runs 2, 2, 3, 1 and L^2 (RL)^4 R L^2 R (LR)^k with nine ones, and the words with the intended runs do; the run of 6 is its own reverse and not its own mirror, its bundle has the group Z/2 + Z/2, is not amphicheiral and has the record's Chern-Simons values, two of its four isometries reverse the base and all keep the orientation, and the bundle of L^5 R L^2 R^2 has none that reverses the base; main adds that in the bundles of LLRLRR and LLLRLRRR the isometry that reverses the base reverses the orientation. Not verified by anyone here: the lane's spectra, overlaps, gates and its fourth phase. Nothing of the lane's is adopted. 0 of 19.  
+`B1887_the_loop_check_verified/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  

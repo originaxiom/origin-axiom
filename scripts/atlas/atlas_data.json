@@ -16369,6 +16369,27 @@
    "status": "banked",
    "domain": "topology"
   },
+  "B1885": {
+   "slug": "the golden state on the whole verified",
+   "motifs": [
+    "measurement",
+    "coupling",
+    "figure_eight",
+    "kappa",
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [
+    "B790",
+    "B797",
+    "B922",
+    "H6"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 6,
+   "status": "banked",
+   "domain": "dynamics"
+  },
   "B1886": {
    "slug": "the foundation at version 1 65",
    "motifs": [
@@ -16380,6 +16401,28 @@
    "obstacle_conf": 1,
    "status": "open",
    "domain": "topology"
+  },
+  "B1887": {
+   "slug": "the loop check verified",
+   "motifs": [
+    "closing",
+    "coupling",
+    "kappa",
+    "metallic",
+    "golden",
+    "amphichiral_cp",
+    "torsion",
+    "wrt_quantum"
+   ],
+   "refs": [
+    "B251",
+    "B591",
+    "H15"
+   ],
+   "obstacle": "spacetime_3p1",
+   "obstacle_conf": 2,
+   "status": "banked",
+   "domain": "arithmetic"
   },
   "B188": {
    "slug": "lindblad dissipative",

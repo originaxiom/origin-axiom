@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.65) of 2026-11-11 |
-| arcs with a verdict | 1586: 1095 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 781: 269 open (queued, leads, waiting for the owner), 512 closed |
+| arcs with a verdict | 1588: 1097 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
+| points in the register | 785: 270 open (queued, leads, waiting for the owner), 515 closed |
 | the last review | Review 78 (2026-11-11), anchor `38d2a36dc` |
-| the last landing | S306p THE FOUNDATION AT VERSION 1.65 (B1886; P-767's second landing) (2026-11-11) |
+| the last landing | S306p THE FOURTH HARVEST: THE WEB SEAT'S TWO CARDS VERIFIED (B1885, B1887), THE WORK ORDER MENDED AT THE OWNER'S QUESTION (P-782), THE OLD RELAYS KEP… |
 <!-- STATE:END -->
 
 ## Start here
