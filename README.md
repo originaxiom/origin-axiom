@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.65) of 2026-11-11 |
-| arcs with a verdict | 1588: 1097 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
-| points in the register | 785: 270 open (queued, leads, waiting for the owner), 515 closed |
+| arcs with a verdict | 1589: 1098 PROVED, 383 NEGATIVE, 96 OPEN, 12 RETRACTED |
+| points in the register | 786: 271 open (queued, leads, waiting for the owner), 515 closed |
 | the last review | Review 78 (2026-11-11), anchor `38d2a36dc` |
-| the last landing | S306p THE FOURTH HARVEST: THE WEB SEAT'S TWO CARDS VERIFIED (B1885, B1887), THE WORK ORDER MENDED AT THE OWNER'S QUESTION (P-782), THE OLD RELAYS KEP… |
+| the last landing | S306p THE V1 CARD READ (B1882): AN END OF THE WINDOW IS LIKE OTHER ROWS, BY A HAIR; THE AUDIT'S FIGURE IS REAL AND IS NOT ABOUT RARITY (2026-11-11) |
 <!-- STATE:END -->
 
 ## Start here

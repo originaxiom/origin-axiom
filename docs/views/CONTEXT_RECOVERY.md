@@ -13,13 +13,13 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1588 |
-| … PROVED | 1097 |
+| arcs with a verdict file | 1589 |
+| … PROVED | 1098 |
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 785 |
-| … QUEUED | 263 |
+| register points | 786 |
+| … QUEUED | 264 |
 | … LEAD | 4 |
 | … OWNER | 3 |
 | … DONE | 503 |
@@ -36,13 +36,13 @@
 | B1885 | PROVED | THE WEB SEAT'S CARD ON THE GOLDEN STATE, VERIFIED ON MAIN CELL BY CELL (a weave object, conditional on stated choices; data-free; 30 digits; 32 checks, of which the one that fails is main's own guess at how closely the… |
 | B1884 | PROVED | THE WEB SEAT'S SEALED CARD ON WHAT LEVEL A GROUND NAMES, VERIFIED ON MAIN (a thread result on the ground; integers; 17 checks, none failing; for the foundation's entry on the ground, P-767): the tick F, add and exchange… |
 | B1883 | PROVED | WHERE WE STAND: HOW FAR THE RECORD IS FROM THE FINAL READING, AS ONE GENERATED PAGE (an instrument, at the owner's question of 2026-11-11, 'how far are we from ... 100% ready for the final reading? the dynamic scoreboar… |
+| B1882 | PROVED | THE V1 CARD, RUN ON MAIN AND READ ONCE (the audit's finding that the nulls behind the six's rarities have an unpriced window in the height of the modulus; the advisor seat's sealed card, the deciding count run by main o… |
 | B1881 | PROVED | THE WEB SEAT'S TWO RELAYS OF 2026-11-11 ON THE MISSING READ-OUT OF THE WHOLE, VERIFIED ON MAIN WITH MAIN'S OWN CODE (P-776; B1872 § 3, B1875 § 7; data-free; 65 checks, none failing; nothing selected and nothing compared… |
 | B1880 | PROVED | THE ADVISOR SEAT'S THIRD AND FOURTH RE-AUDITS OF MAIN, HARVESTED, REPRODUCED AND ANSWERED (re-audit 3 of main at b28dceea8, re-audit 4 at 015be0cc7; data-free, gates and the programme's builder only): every residual the… |
 | B1879 | PROVED | THE WEAVE'S THEOREMS WITH THE EXCHANGE ADDED: THE COMPUTATION THE OWNER ASKED FOR BEFORE DECIDING HOW 'THE TICK IS AN ACT' STANDS WITH 'EVEN TICKS OBSERVED' (P-769, P-771; data-free; it decides nothing and says what eac… |
 | B1878 | PROVED | THE GOAL AS THE OWNER RULED IT, CARRIED INTO THE GOVERNING DOCUMENTS; TWO GATES (the first landing of P-767: rulings R1 and R3 of the eleven confirmed to main on 2026-11-10; nothing computed, no status of the foundation… |
 | B1877 | PROVED | REVIEW 78 (run at the thirty-third commit after Review 77; S306o-S306p): three of Review 77's eight items resolved (what concentrates under the move count, B1868; the register-to-field join, B1866; the closure map and p… |
 | B1876 | PROVED | THE FOUR REMAINING ATTACKS ON THE PRINCIPLE'S DRAFT: THE ADVISOR SEAT'S SEALED RUN VERIFIED ON MAIN (P-771, P-769; data-free, integers and SnapPy; the seat's code not run): all sixteen sealed hypotheses come out on main… |
-| B1875 | PROVED | A SINGLE STATE IS NOT KEPT WHEN HISTORIES ARE COMPOSED: THE WEB SEAT'S SEALED CARD VERIFIED ON MAIN (P-761, P-767, P-744, P-766; data-free; a weave question answered with the record's thread instrument for the state; th… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -55,6 +55,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p THE V1 CARD READ (B1882): AN END OF THE WINDOW IS LIKE OTHER ROWS, BY A HAIR; THE AUDIT'S FIGURE IS REAL AND IS NOT ABOUT RARITY (2026-11-11)
 - S306p THE FOURTH HARVEST: THE WEB SEAT'S TWO CARDS VERIFIED (B1885, B1887), THE WORK ORDER MENDED AT THE OWNER'S QUESTION (P-782), THE OLD RELAYS KEPT LOCAL (P-779) (2026-11-11)
 - S306p THE FOUNDATION AT VERSION 1.65 (B1886; P-767's second landing) (2026-11-11)
 - S306p THE TEAM'S MORNING HARVESTED: A STATUS PAGE (B1883), THE GROUND'S LEVEL VERIFIED (B1884), THE V1 CARD SEALED FOR ITS RUN (B1882), TWO AGY BRANCHES REGISTERED (P-781) (2026-11-11)
@@ -62,17 +63,16 @@
 - S306p THE WEAVE'S THEOREMS WITH THE EXCHANGE ADDED, AND THE OWNER'S RULING ON IT: EVEN TICKS ARE A CONDITION TO DERIVE (B1879; P-769, P-771) (2026-11-11)
 - S306p THE GOAL AS THE OWNER RULED IT, IN THE GOVERNING DOCUMENTS; TWO GATES (B1878; P-767's first landing); THE SIX ARCS WHOSE SEALED SCRIPTS CHANGED, READ (P-772) (2026-11-11)
 - S306p REVIEW 78, THE DECADAL REVIEW (B1877); THE OWNER'S RULINGS OF 2026-11-11 (P-771, P-774) (2026-11-11)
-- S306p TWO SEATS' SEALED RUNS VERIFIED ON MAIN: A SINGLE STATE IS NOT KEPT UNDER COMPOSITION (B1875); THE FOUR REMAINING ATTACKS ON THE PRINCIPLE'S DRAFT (B1876; P-774, P-775) (2026-11-11)
 
 ## The latest campaign line
 
-LATEST (2026-11-11, S306p, the fourth harvest of the day: B1885, B1887, AND THE WORK ORDER MENDED AT THE OWNER'S QUESTION (P-782).** The owner told main an answer was owed to the web seat, and then asked, with the advisor seat's scoreboard page, whether main works by its own work order. **The answer: inside it, and not in its order** -- one package of 43 done, none closed since the first day, four of the nine clean-up packages the sealed card waits on not started. The order is mended: the upstream audit now needs WP-0.8 (the audit's thirteen errors in the mathematics, on which nothing waited) and the card needs WP-0.10; the builder refuses an order with a second package that nothing needs.…
+LATEST (2026-11-11, S306p: B1882 — THE V1 CARD READ, ONCE.** The advisor seat's sealed card for the audit's finding V1 (the nulls behind the six's rarities have an unpriced window in the height of the modulus), with the deciding count run by main on random targets only and its outputs committed unread (818d17f46) before they were opened. **All three decisive cells read B, an end of the window is like other rows**: the top layer's loss over its share of the rows is 1.64 for B1726's null and 1.99 and 1.96 for B1753's, against the card's line at 2 -- the last two short of it by less than one target and by three in a thousand; every bottom end reads C. Under the covariant and free menus, which…
 
 ## Completeness (nothing skipped silently)
 
 | check | count | first items |
 |---|---|---|
-| arc folders without a verdict file (scripts/checks/arc_data.py classifies them; its resolved R-classes are not defects) | 42 | B1840_the_principled_ends, B1842_the_closure_instruments, B1882_the_v1_card_run_on_main, B263_t41_cs_levels, B452_ethogram_dictionary, B473_criticality_program |
-| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 161 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
+| arc folders without a verdict file (scripts/checks/arc_data.py classifies them; its resolved R-classes are not defects) | 41 | B1840_the_principled_ends, B1842_the_closure_instruments, B263_t41_cs_levels, B452_ethogram_dictionary, B473_criticality_program, B501_universe_word |
+| verification scripts in folders with no output file beside them (helpers and libraries among them; to classify, P-507) | 162 | `frontier/B1138_structural_completion/verification/memo13_part1_core.py`, `frontier/B1138_structural_completion/verification/memo13_part2_involutions.py`, `frontier/B1138_structural_completion/verification/memo15_family_triplet.py`, `frontier/B1138_structural_completion/verification/my_chevalley.py` |
 | register rows not in the 7-cell form | 0 | — |
 

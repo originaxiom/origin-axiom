@@ -13458,7 +13458,8 @@
     "amphichiral_cp"
    ],
    "refs": [
-    "S238"
+    "S238",
+    "V1"
    ],
    "obstacle": "particle_dict",
    "obstacle_conf": 9,
@@ -14000,7 +14001,8 @@
     "P1",
     "P2",
     "S238",
-    "S275"
+    "S275",
+    "V1"
    ],
    "obstacle": "measure",
    "obstacle_conf": 3,
@@ -16338,6 +16340,20 @@
    "obstacle_conf": 1,
    "status": "banked",
    "domain": "topology"
+  },
+  "B1882": {
+   "slug": "the v1 card run on main",
+   "motifs": [
+    "measurement",
+    "feedback"
+   ],
+   "refs": [
+    "V1"
+   ],
+   "obstacle": "measure",
+   "obstacle_conf": 7,
+   "status": "open",
+   "domain": "dynamics"
   },
   "B1883": {
    "slug": "where we stand",
