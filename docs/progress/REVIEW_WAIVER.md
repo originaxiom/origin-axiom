@@ -11,3 +11,4 @@ that follows a waiver quotes it.
 ## Waivers
 
 - waived 2026-11-05 by the owner through 60 merges: the owner, 2026-11-05: "yes record the waiver until tomorrow" — the decadal review (Review 75) runs on 2026-11-06, after tonight's landings of GENESIS v1.62 (B1843) and the verdicts of B1839 and B1841, so that it reviews the whole day's arc; the cap of 60 merges gives tonight's landings room and no more.
+- waived 2026-11-11 by the owner through 50 merges: asked by main when the gate fired at this date's last landing, he chose a short waiver so that two rulings of his of the same date (his messages are private from now on; a check is named by its method) reach the seats at once; the decadal review, Review 79, is main's next piece of work after that push, before anything else
