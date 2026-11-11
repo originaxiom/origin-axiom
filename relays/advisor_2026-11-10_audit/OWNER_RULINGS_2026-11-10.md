@@ -473,6 +473,16 @@ card as sent. It builds on series 1 as sent, which main has not yet verified, an
 ruling (what counts as a recorded act) it takes its own proposal, said in the card, for main to overrule. This binds
 the seat, not main: main's lock is main's and the owner's. He was asked nothing.
 
+| what he was answering | his words |
+|---|---|
+| nothing: sent while the seat was building | "btw a very confusing thing in our whole repo is this AI seats thing, confusing  naming understood only internally, sometimes presented as some authority, maybe we should propose a cleaner way to refer to the seats idk how, but smth less confusing and credibility damaging. ai is part of the methodology, not co-authors" |
+
+**What he stated:** the naming of the seats is confusing, is understood only inside the project, is sometimes
+presented as an authority, and damages credibility; and the principle that AI is part of the methodology, not a
+co-author. **What he asked:** that a cleaner way be proposed. The seat measured the use and wrote the proposal for
+main, `PROPOSAL_HOW_TO_REFER_TO_THE_ASSISTANTS.md`: say what was done and not who did it; roles, not nicknames; only
+the author decides; no rewriting of what is written. He was asked nothing.
+
 ## The roles
 
 The owner, the same day: this seat "will serve as an advisor for cc - the banking seat"; when cc is ready the reports
