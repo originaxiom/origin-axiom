@@ -1,0 +1,18 @@
+P1  7.4946304901 in class (1, 1):
+    first truncation: scaled singular values 1.56e-11, 3.31e-01
+      root 7.4946304901 (a_1 = 1): distance 4.3e-11, next coefficient 1.1e-12, automorphy 2.2e-13 and 4.0e-13
+      root 7.4946304901 (a_2 = 1): distance 4.3e-11, next coefficient 1.2e-13, automorphy 7.1e-14 and 1.2e-13
+    second truncation: scaled singular values 3.23e-12, 3.32e-01
+      root 7.4946304901 (a_1 = 1): distance 4.3e-11, next coefficient 1.7e-13, automorphy 4.5e-14 and 3.3e-14
+      root 7.4958069157 (a_1 = 1): distance 1.2e-03, next coefficient 3.2e+10, automorphy 1.9e-02 and 2.8e-02
+      root 7.4946304901 (a_2 = 1): distance 4.3e-11, next coefficient 1.1e-14, automorphy 9.5e-14 and 1.6e-13
+P1  9.2608655254 in class (1, -1):
+    first truncation: scaled singular values 1.60e-11, 2.38e-01
+      root 9.2608655254 (a_1 = 1): distance 3.9e-11, next coefficient 2.9e-12, automorphy 3.7e-12 and 3.3e-12
+      root 9.2608655254 (a_2 = 1): distance 4.3e-11, next coefficient 4.9e-11, automorphy 1.0e-11 and 2.6e-11
+    second truncation: scaled singular values 3.16e-11, 1.87e-01
+      root 9.2608655255 (a_1 = 1): distance 8.6e-11, next coefficient 7.2e-10, automorphy 6.0e-10 and 6.2e-10
+      root 9.2621414937 (a_1 = 1): distance 1.3e-03, next coefficient 1.9e-02, automorphy 1.7e-02 and 1.7e-02
+      root 9.2608655254 (a_2 = 1): distance 4.3e-11, next coefficient 1.9e-11, automorphy 9.5e-12 and 1.6e-11
+P2  first truncation, class (+1, +1), R in [6.60, 6.72]: least scaled singular value 1.51e-04 at R = 6.672; at the lane value 3.49e-03; sign changes of H: [{'fix': 'a_1 = 1', 'between': [6.6795, 6.68], 'H': [-170.7472055843389, 832.2906778607845]}]
+P2  second truncation, class (+1, +1), R in [6.60, 6.72]: least scaled singular value 3.65e-06 at R = 6.620; at the lane value 1.13e-02; sign changes of H: [{'fix': 'a_2 = 1', 'between': [6.6045, 6.605], 'H': [-510.4011181552741, 439.76411755188303]}]
