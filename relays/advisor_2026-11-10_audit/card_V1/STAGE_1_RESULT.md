@@ -51,7 +51,31 @@ end is stage 2.
 
 **About 5.4 process-hours: some 40 minutes on 8 workers.** Measured here on this seat's machine.
 
-## 6. For main
+## 6. A plumbing test of stage 2, on planted targets (added after the page above)
+
+Stage 1 ran the card's counting one function at a time. It never ran the second stage's own code: the pool, the
+pooling of seeds, the tails, the leave-out recount, the reading, the files. Since this seat does not run stage 2, a
+fault there would have been met first by main. So the sealed script was run from end to end with its generator of
+random targets replaced, in memory, by rows of the census chosen evenly and moved by a small step
+(`plumbing_test_of_stage_2.py`, committed before its run; output beside it). **No random target was drawn.**
+
+| expectation, written first | result |
+|---|---|
+| the second stage runs to its last line on both instruments and writes its files | held |
+| planted evenly, every decisive cell reads B | held. The six losses are 0.53 to 1.65 times the layer's share, on tails of 200 planted targets: 7 to 22 lost where 13 are expected. A tail of 200 is noisy, and 0.53 is close to the bound of C; the card's own tail is 1,000 |
+| the share of targets found in each end layer is the share planted there | held, to 0.0018 |
+
+Its outputs went to a temporary folder. Nothing in this folder is a run of stage 2.
+
+**A caution the test raised, stated before any null is run.** "Planted evenly over the rows" did not come out quite
+even in the tail on B1726's census: 7 of 200 at the bottom end and 22 at the top, and over the fifteen heights a χ² of
+26.6 on 14 degrees of freedom. The rows are not equally spaced in the space of the six ratios, so a row's share of a
+tail need not be its share of the rows. The sealed reading sets the loss beside the layer's share of the rows and
+allows a factor of two either way; that margin is what covers this, and it is not wide. **So a reader of stage 2
+should also set each end layer beside its neighbours,** which the card prints (the loss without layer 3; the shares by
+height), and not only beside the average row. The sealed reading is not changed.
+
+## 7. For main
 
     python3 -B v1_card.py --stage null --workers 8
 

@@ -29,7 +29,12 @@ The owner asked this seat to write the mends ("do all on hour proposed list", 20
 | `arrival-phrases`: files read | 151 | 548 (397 added, 42 of them `.tex`) |
 | `arrival-phrases`: sentences found | 3, the frozen baseline | **3, the same three.** Nothing in the 397 added files |
 | `attribution`: commits read | 699 | 699. The history has no merge, so the two readings coincide today |
-| gates passing in a scratch clone | 52 of 53 | 52 of 53. The one that fails, `harvest-debt`, needs the seats' branches, which a scratch clone lacks; it fails the same way without the patch |
+| gates passing in a scratch clone | 52 of 53 | 52 of 53, once the views are regenerated (see below). The one that fails, `harvest-debt`, needs the seats' branches, which a scratch clone lacks; it fails the same way without the patch |
+
+**After applying, regenerate the views** (`python3 scripts/views/generate.py` and `python3 scripts/views/spine.py`). One
+generated page, `docs/views/THE_SPINE.md`, changes by two lines when a test file is added, and the gate
+`views-generated` fails until it is rebuilt. The patch does not carry that page: it is yours to generate. Found on the
+second look, after the first version of this note had said 52 of 53 without it.
 
 ## 3. The tests
 
@@ -80,3 +85,7 @@ follow a space.
 - **Run in scratch clones only.** Nothing was pushed anywhere but this seat's branch.
 - **The planted cases are this seat's,** and so are the tests. Main's own review may know a case these miss.
 - **The full suite was not run:** only the tests named in § 3 and the 53 gates.
+- **The agy lane has mended two of the same gaps on its own branch** (the decoy and the frozen entries), and two that
+  this patch leaves open (t7, j4). Its work was read after this patch was written:
+  `lane_b1881_read/READ_OF_THE_LANES_BRANCH.md`, § 5. The arrival and attribution mends here apply on top of the lane's
+  tip as they stand, and the five cases are then caught there too.
