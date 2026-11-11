@@ -10,12 +10,18 @@ that reader's thirteen findings are applied, and its report is in `verification/
 
 - **The programme is one generated page, `PROGRAMME.md`, and it is a check before it is a plan.** Its builder refuses to
   write it in two cases:
+  *[2026-11-11 (Review 78's reader): two were the cases of the first build. The builder now has twenty numbered
+  rules, listed at the head of `verification/build_programme.py`. Until this review 24 of its 72 refusals had never
+  fired in the lock; all 77 fire now.]*
   - a node of the closure map (B1858) that still needs a path is in no package. Such nodes are inputs, open questions,
     lanes' results not verified on main, and duties. All 131 are assigned, in 43 packages under seven obligations;
   - the order of work ignores a dependency that the map itself records.
 - **We are not ready to compare values with measurement.** None of the work order's three milestones is met.
 - **Main's spine holds 38 inputs today, as the record lists them:** 8 axioms, 8 bits, 16 discrete choices, 5 real
-  numbers, 1 ansatz and 7 identifications. The lanes' model adds seven supplied inputs of its own, which are not typed
+  numbers, 1 ansatz and 7 identifications. *[Corrected 2026-11-11 (Review 78's reader): the kinds do not sum to 38
+  and were never meant to. 38 is the number of inputs; counted by kind they were 45 items then and are 46 now, with 9
+  bits, since B1869 found the level-5 premise to be two choices under one name. The live counts are in the last
+  section.]* The lanes' model adds seven supplied inputs of its own, which are not typed
   here. A parameter-free theory may keep the axioms and nothing free.
 - **The premises are in series.** Four of the map's six headline results are conditional results. Beyond the
   foundation's axioms, the root waits on 2 open choices, the structural theorem on 3, the chiral three on 3 and the six
@@ -109,7 +115,7 @@ The work order is the physical lane's (`WORK_ORDER.md` at `521e6f241`, read in f
 
 ## 5. The input budget
 
-- **38 choices as the record lists them, 45 items.** The same choice stands under several names (the orientation under
+- **38 choices as the record lists them, 45 items.** *[46 items since B1869; see the last section.]* The same choice stands under several names (the orientation under
   four), so the budget counts choices. Their independence is the record's listing and is not tested here: the line's
   slope and offset, for one, are two components of one line.
 - **The kinds follow the record's own grades,** and the builder checks them: the scoreboard's 13 borrowed joints of the
@@ -151,13 +157,14 @@ planted controls).
 | untouched | 11 | the three notes name no route |
 
 **An exit is on the table for 12 of the 38.** None is proved or built. [Corrected 2026-11-10 (B1873, the advisor seat's read): 8, not 12 — three of the forcing arguments are one clause short by B1867's own finding and one was withdrawn by its author; of the 8, five are back-edges that are named and not built.] Of the six forcing arguments, main found
+*[Corrected 2026-11-11 (Review 78's reader): the table above is as it stood at this section's first build. Two of its rows have moved since: forcing argued is 2 with 3 more one clause short, and admitted is 3. The live counts are in the last section.]*
 three one clause short (B1867 § 3).
 
 **What the table is and is not.** It is a harvest of three notes onto the budget, with main's checks beside each
 row. It is not a sweep of the record: "untouched" says only that these notes name no route, and the input's package
 holds the record's own. It changes no grade.
 
-**The relayed rulings are thirteen now** (two more the same evening: to stress-test the principle, and the owner's
+**The relayed rulings are thirteen now** *[seventeen since: 15 confirmed (11 on 2026-11-10 and the 4 asked later on 2026-11-11, P-771), 2 not confirmed, and 2 more given to main directly (P-774); corrected 2026-11-11 by Review 78's reader; the live counts are in the last section]* (two more the same evening: to stress-test the principle, and the owner's
 statement that the programme is a line and not a loop). The owner confirmed the first eleven to main the same evening, and
 asked for main's opinion on each; both are in `PROGRAMME.md` § 9. The two relayed after main had asked are asked
 (P-758, P-765). Carrying out the eleven is P-767; this arc changes no governing document.
@@ -246,7 +253,7 @@ is declined.]*
   contradicted the map's own edges; its critique of the work order was unfair in six rows, blaming the work order for
   what the first return had not delivered and for what it had in fact said; its budget disagreed with the record on
   θ̄ and retyped joints against the scoreboard's stated basis; fifteen nodes sat in the wrong package; two of the
-  audit's findings were marked fixed with part of their acceptance row unmet. All are corrected. The reader's report
+  audit's findings were marked fixed with part of their acceptance row unmet. All are corrected. *[Corrected 2026-11-11 (Review 78's reader): thirteen of the reader's findings were accepted and corrected; of the fifteen nodes, twelve were moved and one move was declined, with the map's own edge as the reason.]* The reader's report
   and main's disposition of each finding are in `verification/readers/reader_B1861.md`.
 - **The programme was built before the advisor seat's audit was read,** and rebuilt to hold it. The audit's branch
   appeared on the remote during the session and was found at the fetch after Review 77's push.
@@ -267,3 +274,14 @@ python3 -m pytest -q frontier/B1861_the_closure_programme/verification/
 A clone without the seats' branches still checks the coverage of the map, the order, the debts and the budget. The
 work order's and the advisor seat's words are then not checked: the page says so at its head, the builder's last line
 says so, and the lock skips those tests instead of passing them.
+
+## Live counts, checked by the lock (added at Review 78, 2026-11-11)
+
+The numbers in the prose above are as each was written, with dated corrections beside them. The programme moves at
+every landing and hand-copied counts go stale: Review 78's reader found four that had, within a day of being written.
+This is the practice Review 77 named, broken again by the arc written on the day of that review.
+
+The one line below is compared with the builder's output by this arc's lock. If the programme moves and the line is
+not updated, the lock fails.
+
+> LIVE: 38 inputs as the record lists them, 46 items by kind (8 axioms, 9 bits, 16 discrete choices, 5 real numbers, 1 ansatz, 7 identifications); exits: KEPT 3, FORCING ARGUED 2, ONE CLAUSE SHORT 3, ADMITTED 3, PRESSED 4, RIGID 1, BACK-EDGE NAMED 5, DICTIONARY 6, UNTOUCHED 11; an exit on the table for 8; rulings: 17 relayed, 15 confirmed, 2 not confirmed, 0 asked, and 2 given to main directly; findings: OPEN 1, READER 4, REPRODUCED 46, PARTLY FIXED 14, FIXED 8; 43 packages in 8 waves.

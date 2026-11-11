@@ -17,6 +17,7 @@ massive state, not by a weight (relays/explore_2026-11-07_read_out_by_a_state/; 
   (2,1,2,1,2), not (6).
 - **POST HOC, range-scoped.** By volume, uniqueness removes exactly the two cheaper, mirror-degenerate departures. That
   leaves (6) under both level-5 readings.
+  *[Dated note, 2026-11-11 (B1862's correction of B1856, the audit's finding E3; carried here by Review 78): the charge reading is itself two cases — E ≡ +I, invisible to every state, and E ≡ −I, invisible only under a parity superselection rule. The run of 6 has E ≡ +I, so it stands under either.]*
 - **HS7:** the systole's multiplicity follows the class structure.
 
 ## 2. What main checked (`verification/state_readout_check.py`, `state_readout_check_run.txt`; main's own code)

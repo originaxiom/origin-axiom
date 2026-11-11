@@ -10,9 +10,9 @@ that still needs a path is in no package, or if the order of work ignores a depe
   The map's other nodes are proved, refuted or facts about the record; or they are the 19 conditional results (§ 6), the 81 debts (C0) and the map's own eleven groupings.
 - **43 packages** in 8 waves: not started 26, started 16, done 1.
 - **4 packages have no owner:** WP-1.8, WP-1.9, WP-3.5, WP-4.5.
-- **Main's spine presently holds 38 inputs as the record lists them** (§ 3): 8 axioms, 9 bits, 16 discrete choices, 5 real numbers, 1 ansatz, 7 identifications. The lanes' model adds 7 supplied inputs of its own, not typed here.
+- **Main's spine presently holds 38 inputs as the record lists them** (§ 3). Counted by kind they are 46 items, since one input can hold more than one choice: 8 axioms, 9 bits, 16 discrete choices, 5 real numbers, 1 ansatz, 7 identifications. The lanes' model adds 7 supplied inputs of its own, not typed here.
 - **73 findings of the advisor seat's audit** are each in a package (§ 8): open 1, reader 4, reproduced 46, partly fixed 14, fixed 8.
-- **17 rulings of the owner, as that seat relayed them,** are each mapped to a package. The owner confirmed 11 of them to main on 2026-11-10 and did not confirm 2; 4 more are asked (§ 9).
+- **17 rulings of the owner, as that seat relayed them,** are each mapped to a package. The owner has confirmed 15 of them to main (11 on 2026-11-10, 4 on 2026-11-11) and did not confirm 2; 0 are asked. **2 more rulings were given to main directly** (§ 9).
 
 ## 2. The three milestones
 
@@ -122,8 +122,8 @@ a built one.
 | reversible updates | axiom | ADMITTED | the ledger gave one line for it (an act that merges two sides ends the distinction) with no alternative exhibited; its author has withdrawn it as an exit (the seat's read of this page). |
 | inverse moves are legal | bit | FORCING ARGUED | adopted by the owner on B1662's argument; the ledger agrees: there must be something to cancel with. |
 | positivity: the side of the mirror | bit | FORCING ARGUED | the ledger: forced up to the sign. Main (B1867): the normal form is a theorem, checked on every hyperbolic matrix with entries up to five; the sign is a separate bit, and the selection criterion decides it if that criterion stands. |
-| the selection criterion | discrete | ONE CLAUSE SHORT | the ledger: a fixed character is a place where nothing happened. Main (B1867): as an exclusion this removes every departure too (the run of six fixes twenty); as a minimum it is the reading GENESIS already grades an interpretation. LR is the one word with a single fixed character, so this row carries the whole selection of the object. For the departure, the principle read as 'the least that no counted level detects' picks the run of six only when the level is put in (B1869). A second route is named and is not open (B1876, the advisor seat's sealed run verified on main): if the ground is the act itself, exactly one history is made of one atom, the tick, and its level is 5 with nothing ranked; that needs the owner's word that the tick is an act (P-771) and a clause saying what a ground is (P-774). With every history as a ground the record's rule has four root classes and no order. |
-| the orientation | bit | PRESSED | the ledger: the principle does not force it and may speak against it. The non-orientable sibling is the alternative. Verified on main (B1871): if the tick, the owner's founding rule, is an act, both sheets exist and this is no choice; it supplies no hand. Asked of the owner (P-771). |
+| the selection criterion | discrete | ONE CLAUSE SHORT | the ledger: a fixed character is a place where nothing happened. Main (B1867): as an exclusion this removes every departure too (the run of six fixes twenty); as a minimum it is the reading GENESIS already grades an interpretation. LR is the one word with a single fixed character, so this row carries the whole selection of the object. For the departure, the principle read as 'the least that no counted level detects' picks the run of six only when the level is put in (B1869). A second route is named and is not open (B1876, the advisor seat's sealed run verified on main): if the ground is the act itself, exactly one history is made of one atom, the tick, and its level is 5 with nothing ranked; that needs the owner's word that the tick is an act (P-771) and a clause saying what a ground is (P-774). With every history as a ground the record's rule has four root classes and no order. BOTH GIVEN BY THE OWNER on 2026-11-11, to main: the tick is an act, and a ground is the act itself. The route is then a postulate, to be written with its own number (P-767); it is not a derivation, and this entry keeps its kind until the foundation is amended. |
+| the orientation | bit | PRESSED | the ledger: the principle does not force it and may speak against it. The non-orientable sibling is the alternative. Verified on main (B1871): if the tick, the owner's founding rule, is an act, both sheets exist and this is no choice; it supplies no hand. Asked of the owner (P-771). RULED BY THE OWNER on 2026-11-11, to main: the tick is an act. The foundation is not yet amended (P-767); until it is, this entry keeps its kind, and nothing is built on the added histories before the debts of P-769. |
 | which family is the object | discrete | UNTOUCHED | — |
 | the dictionary's link Λ | identification | DICTIONARY | — |
 | one unit of end data | discrete | UNTOUCHED | — |
@@ -335,7 +335,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **The question:** Is every node upstream of a claimed prediction in the map, at its true grade?
 - **The first step:** fold the map's rebuild into the views step (P-754); extend layer 8 to the lanes' proofs one by one as they are verified.
 - **Closed when:** the map's builder passes at every landing, and no prediction has an upstream node outside it.
-- **Register:** P-754 (QUEUED), P-748 (QUEUED).
+- **Register:** P-754 (DONE), P-748 (QUEUED).
 
 **WP-0.7 — Enforcement that enforces** (DERIVE; STARTED; owner: main; the advisor seat re-audits)
 
@@ -435,7 +435,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **Stated about:** thread 3, weave 3.
 - **Also bears on nodes held elsewhere:** MC:HYP.
 - **Missing dependencies it works on:** X:HAND.
-- **Register:** P-764 (QUEUED), P-766 (QUEUED), P-769 (QUEUED), P-771 (OWNER).
+- **Register:** P-764 (QUEUED), P-766 (QUEUED), P-769 (QUEUED), P-771 (DONE).
 - **Relayed rulings:** the tick is an act.
 
 **WP-1.5 — The root, selection, and thread results** (DECIDE; NOT STARTED; owner: main)
@@ -914,12 +914,12 @@ re-audit* is that seat's verdict on main's fix, at main's commit `ab97082c0`; it
 | L10 | the suite rewrites tracked evidence files | WP-0.3 | REPOSITORY, B1464, B1690 | REPRODUCED | — | main re-ran it in a clean checkout (B1873): two test files pass and leave a tracked evidence file modified (B1464's seal census); the seat saw a second file change on its machine |
 | E1 | B997's uniqueness clause has a counterexample | WP-0.8 | B997 | PARTLY FIXED | — | B1859, the same day and before the audit was read: the door set is {1, 4}, proved for every m and carried to the verdict, the foundation document, the claim page, the law map and the theorem registry, with the old wording kept and a lock that computes it. Left: the acceptance row asks that the register row be split into one row per correction, and it is not |
 | E2 | a chain lock asserts the wrong congruence level | WP-0.8 | docs/THEOREM_LEDGER.md | READER | — | main's reader ran the lock's own function: index 6 at level 4 and 12 at level 8 under the lock's quotient by every central unit; under the standard quotient by ±1 the index is already 12 at level 4, as the ledger's own note says |
-| E3 | B1856: a parity gap in 'invisible to every state' | WP-0.8 | B1856, B1853, B1855, B1857, docs/THE_TAU_READOUT_RULE.md | PARTLY FIXED | accepted in the arc; not carried to the three arcs and the page that state the old form | B1856 says that invisible to every state is E = +1, gives the split 338 and 305 and names parity superselection (B1862). Not carried to B1853, B1855, B1857 or the read-out rule's page, which still state the old form with no pointer: main's own propagation fault, found by the seat's second re-audit (P-772) |
-| E4 | B952's lemma is false as stated | WP-0.8 | B952 | PARTLY FIXED | partly, as main says | B1862: the lemma says 'commuting', with the counterexample in sl(2) computed exactly by a lock; the rank of the cascade's own centralizer is not yet computed by a lock |
+| E3 | B1856: a parity gap in 'invisible to every state' | WP-0.8 | B1856, B1853, B1855, B1857, docs/THE_TAU_READOUT_RULE.md | PARTLY FIXED | accepted in the arc; not carried to the three arcs and the page that state the old form **Main has changed this since (B1877); the seat has not read the change.** | carried on 2026-11-11 (Review 78, B1877) to the four places the second re-audit named -- B1853, B1855, B1857 and the read-out rule's page -- and to two more that the review found: B1856's own verdict line still opened with the old form, and the register's row P-738 stated it. A lock now fails if the old form stands anywhere in the record without the correction beside it. Left: the seat's re-read Since the re-audit (B1877): the correction carried to B1853, B1855, B1857 and the read-out rule's page, as the re-audit asked, and to B1856's verdict line and the register's row P-738; a lock that fails wherever the old form stands unmarked |
+| E4 | B952's lemma is false as stated | WP-0.8 | B952 | PARTLY FIXED | partly, as main says **Main has changed this since (B1877); the seat has not read the change.** | B1862 corrected the lemma in B952's findings only; Review 78's reader found it uncorrected in B952's verdict line, its results file and the requirements ledger, and all three now carry 'commuting' at the sentence (B1877). Left, as before: the rank of the cascade's own centralizer is not yet computed by a lock Since the re-audit (B1877): 'commuting' carried to B952's verdict line, its results file and the requirements ledger, where the reader of Review 78 found the lemma uncorrected |
 | E5 | B892's scan never refines | WP-0.8 | B892 | REPRODUCED | — | main's own reading: the refinement runs only when the grid finds nothing, and the grid lands on the wall, so it never runs |
 | E6 | B862's 'kernel computed exactly' computes nothing | WP-0.8 | B862 | FIXED | accepted | B1862: the kernel is computed from the map in exact arithmetic (the two centres and a complete grid of sixths; a finer grid finds nothing more; cyclic), and the lock runs the same enumeration for another map and gets a different kernel |
 | E7 | B1028's zero is a sum of typed zeros | WP-0.8 | B1028 | REPRODUCED | — | main's own count: eleven typed zeros are summed and asserted to be zero; the arc's addendum says one row is unpriced and its verdict line was not changed |
-| E8 | B854's negative is scoped to one embedding | WP-0.8 | B854 | PARTLY FIXED | partly, as main says | B1862: the consequence sentence and the verdict line are scoped to the principal embedding; the table of the other classes that the acceptance row names has not been located |
+| E8 | B854's negative is scoped to one embedding | WP-0.8 | B854 | PARTLY FIXED | partly, as main says **Main has changed this since (B1877); the seat has not read the change.** | B1862 scoped the consequence sentence and the verdict line; Review 78's reader found the verdict block at the top of B854's findings still unscoped, and it is scoped now (B1877). Left, as before: the table of the other classes that the acceptance row names has not been located Since the re-audit (B1877): the scope carried to the verdict block at the top of B854's findings |
 | E9 | B1854's error is not an estimate | WP-0.8 | B1854 | PARTLY FIXED | — | Review 77, found independently by main's reader: the error is about 0.02 and the value does not confirm the seat's; not yet relabelled a numerical estimate, and no control at that level |
 | E10 | a command in the front page ignores its argument | WP-0.8 | README.md | FIXED | accepted | B1862: the command prints the named arc's status, verdict and claim line; a lock runs it for two arcs and an unknown one |
 | E11 | three small misstatements | WP-0.8 | docs/LITERATURE_CONTEXT_2026-07-15.md, CLAIMS.md | PARTLY FIXED | partly, as main says | B1862: the sine sentence corrected (complex radicals, not real ones), the minimal polynomial recomputed by a lock; the finding's other two parts are not checked |
@@ -971,9 +971,9 @@ main's standing rule for a relayed ruling. Main asked about the 11 then relayed.
 
 So 11 are confirmed, and main's opinion on each, which the owner asked for, is in the table. 2 were relayed after main had
 asked. Asked about those, the owner did not confirm them (the words are in the table): main treats them as no ruling and
-acts on neither. 4 more sentences, recorded by the seat later and marked by it as relayed, are asked of the owner and not
-acted on. A confirmed ruling is carried out in its packages, in landings of its own; this page changes no governing
-document.
+acts on neither. 4 more sentences, recorded by the seat later and marked by it as relayed, were asked of the owner once; the
+owner answered each in a dialog with main, and the question and the chosen answer are in the table. 0 are still asked.
+A confirmed ruling is carried out in its packages, in landings of its own; this page changes no governing document.
 
 | ruling | in the seat's words | state | packages | main's opinion |
 |---|---|---|---|---|
@@ -990,8 +990,16 @@ document.
 | the founding principle as the selection rule | "try the founding principle as the selection rule" | CONFIRMED | WP-1.5, WP-1.6 | worth doing, and the result is honest: the rule picks the run of six only if the level is put in. To be verified on main (P-762) |
 | stress-test the principle | "stress-test the principle; start with the ambiguity attack" | NOT CONFIRMED: the owner, "im not very sure about it, i wouldnt take it for granted" | WP-1.1 | — |
 | the gap, for every seat | "the entire programme is an open one-way line, not a closed loop" | NOT CONFIRMED: the owner, "it was in other context" | WP-1.6, WP-0.11 | — |
-| no rule picks a next thing | "the phrase is not a rule that picks a next thing" | ASKED | WP-1.1, WP-1.5 | — |
-| what exists is what survives | "what cannot be cancelled is kept, all of it" | ASKED | WP-1.1, WP-1.5 | — |
-| the ledger, cancelling, interaction | "The account is the whole ledger." | ASKED | WP-1.1, WP-1.6 | — |
-| the tick is an act | "The tick is an act, and both kinds of history are in the ledger" | ASKED | WP-1.4 | — |
+| no rule picks a next thing | "the phrase is not a rule that picks a next thing" | CONFIRMED 2026-11-11: asked "Three sentences on the principle's wording: are they yours for main as well?", the owner chose "Yes, all three (Recommended)" | WP-1.1, WP-1.5 | agree as wording: it matches the computations, in which every 'least' on record returns what was put in. It is not yet a mathematical object |
+| what exists is what survives | "what cannot be cancelled is kept, all of it" | CONFIRMED 2026-11-11: asked "Three sentences on the principle's wording: are they yours for main as well?", the owner chose "Yes, all three (Recommended)" | WP-1.1, WP-1.5 | agree as wording: nothing is ranked least or first, so every selection by rank is a selection on one thread and is labelled so |
+| the ledger, cancelling, interaction | "The account is the whole ledger." | CONFIRMED 2026-11-11: asked "Three sentences on the principle's wording: are they yours for main as well?", the owner chose "Yes, all three (Recommended)" | WP-1.1, WP-1.6 | agree as wording: 'the whole ledger' and 'a third thing that is kept' can be adopted; neither is yet a mathematical object, and the same definition is owed as for all histories together |
+| the tick is an act | "The tick is an act, and both kinds of history are in the ledger" | CONFIRMED 2026-11-11: asked "Is the tick an act?", the owner chose "Yes, admit it (Recommended)" | WP-1.4 | admit it: it is the founding rule's single step, nothing forbids it, and it makes the root's mirror symmetry a consequence. It removes the orientation as a choice by keeping both and supplies no hand. Build nothing on the added histories before the three debts are computed (P-769) |
+
+**Rulings given to main directly** (no seat relayed them; each is the owner's answer to a question main put, with main's
+recommendation marked in the answer's own label):
+
+| ruling | the question, as put | the owner's answer | date | packages | what it means on main |
+|---|---|---|---|---|---|
+| what a ground is | "What is a ground: the act itself, or any history that exists?" | "The act itself (Recommended)" | 2026-11-11 | WP-1.5, WP-1.4 | one ground, the tick, and one level, 5, named without ranking anything; to be written as a new postulate with its own number, not as derived (B1876: with every history as a ground there are four root classes and no order) |
+| what 'the ledger must close' means | "What does 'the ledger must close' mean: that the whole agrees with itself, or that one value comes out?" | "Whole agrees (Recommended)" | 2026-11-11 | WP-1.6, WP-0.10 | one outcome is one orbit of the whole, not one history picked; the closing selects nothing by itself, and a value can only be read from the whole, which needs the weight |
 

@@ -17,6 +17,8 @@ the facts with its own: seven in B1868, the other four here. Data-free: integers
   level-5 premise allow different words and generate that same group.
 - **Read through what it fixes, it selects nothing.** It keeps both twin lines, never one. It fixes no value of the
   modulus. The loop closes trivially at every level.
+  *[Corrected 2026-11-11 (Review 78): "keeps both twins, never one" is an identity, not a result. See the dated
+  correction at the end.]*
 - **So the definition is done and the read-out is not.** A back-edge needs a quantity taken on the subweave as a
   whole that its fixed data do not determine. Nothing on record supplies one.
 - **The facts hold.** All eleven reproduce on main.
@@ -25,8 +27,8 @@ the facts with its own: seven in B1868, the other four here. Data-free: integers
 
 | | the fact | the seat | main |
 |---|---|---|---|
-| F8 | four histories that the charge reading allows — L⁶R(LR)^k and LR⁶(LR)^k, k = 1, 2 — generate, in the modular group up to sign, a subgroup of index | 12, the whole stabiliser of the line | **12**, by another instrument (coset enumeration on the presentation with one generator of order 2 and one of order 3); the same instrument gives 1 for the whole group and 3 for a subgroup of known index |
-| F9 | positive words of 1 to 12 letters that keep the line; of those, a word that is ±1 at level 5 followed by golden periods | 694; 204 | the same; and every one of the 694 keeps the twin line too |
+| F8 | four histories that the charge reading allows *[made precise 2026-11-11 (Review 78): two of the four are of the charge reading's word form and two are its mirror image; see the end]* — L⁶R(LR)^k and LR⁶(LR)^k, k = 1, 2 — generate, in the modular group up to sign, a subgroup of index | 12, the whole stabiliser of the line | **12**, by another instrument (coset enumeration on the presentation with one generator of order 2 and one of order 3); the same instrument gives 1 for the whole group and 3 for a subgroup of known index |
+| F9 | positive words of 1 to 12 letters that keep the line; of those, a word that is ±1 at level 5 followed by golden periods | 694; 204 | the same; and every one of the 694 keeps the twin line too *[corrected 2026-11-11 (Review 78): that clause is an identity and not a fact about the 694 — the twin is twice the mark]* |
 | F10 | cyclic words of 2 to 12 letters with trace ±2 at level 5; with no rotation that keeps the marked line | 330; 23, the first LLLRLRRR | the same |
 | F11 | the group generated at level 5 by LR and RL | all 120 elements | the same |
 
@@ -37,6 +39,7 @@ What they show, in the relay's words and main's check:
 - **A line belongs on the shared records** (F10, F11). A thread's own line moves with its base point: one thread read
   from its two base points already keeps no line jointly.
 - **The twins come together** (F9). No history that keeps a line keeps it without its twin.
+  *[Corrected 2026-11-11 (Review 78): this is linear algebra and not a finding of the enumeration. See the end.]*
 
 ## 3. What it means for the programme
 
@@ -48,6 +51,7 @@ What they show, in the relay's words and main's check:
   selections made afterwards, and the owner's ruling already places "least" on a thread.
 - **"A single state",** the first back-edge's condition, is part of what is allowed only if it is shown closed under
   composition. Nobody has shown it. Otherwise that back-edge has to be restated as a read-out on the subweave.
+  *[2026-11-11: it is now shown not to be closed, in the record's own instrument for the state (B1875).]*
 - **Which level counts is still a choice** (P-721), and the record's own rule for ladders takes every finite level at
   once.
 
@@ -72,7 +76,7 @@ non-trivial stabiliser lie over the symmetric point, where the record warns that
 |---|---|---|
 | 1 | is "together" the joint action? | Yes. It is the weave's own sentence, which the owner fixed on 2026-10-07; applying it to the allowed set needs no new rule. |
 | 2 | where does "a single state" belong? | Outside what is allowed, until it is shown closed under composition; as a read-out on the subweave it is a candidate, not yet defined. |
-| 3 | one twin or both as the mark? | With two acts it is a convention the joint action does not read. If the tick is an act it is both (§ 3). |
+| 3 | one twin or both as the mark? | With two acts it is a convention the joint action does not read. If the tick is an act it is both (§ 3). *[Corrected 2026-11-11 (Review 78): WHICH twin is a convention. One twin or both is not: it changes the allowed set. See the end.]* |
 
 None of the three is ruled.
 
@@ -98,3 +102,44 @@ None of the three is ruled.
 python3 -B frontier/B1872_all_histories_together_the_exact_facts_verified/verification/together_facts.py
 python3 -m pytest -q frontier/B1872_all_histories_together_the_exact_facts_verified/verification/
 ```
+
+## Dated correction, 2026-11-11 (Review 78: this arc read in full by a reader, every finding checked by main)
+
+**Two things in this arc did not hold as written. Neither changes its verdict on the definition; the second changes
+main's answer to the third fork.**
+
+**1. "The twins come together" is an identity, not a result.**
+- In the record's words a line is a point v up to sign, its twin is 2v, and the eigenline is the group of order 5
+  that holds both. A matrix that keeps ±v keeps ±2v, by linearity. So "every one of the 694 keeps the
+  twin line too" could not have come out otherwise, and the check that printed "True" could not fail.
+- Main wrote that check and counted it as a fact. It was a vacuous check, and the reader found it.
+- **What is a fact, computed now.** Of the positive words of 1 to 12 letters, 1 376 keep LR's eigenline as a set of
+  four points. Of those, 694 keep the mark ±v and 682 carry it to its twin. The first is RLLL.
+- **So the third fork has three options, not two.**
+
+| the mark is | the allowed subweave at level 5 | its index in the modular group, up to sign |
+|---|---|---|
+| the line ±v | the stabiliser of ±v | 12 |
+| its twin ±2v | the same group, by the identity | 12 |
+| the eigenline, both twins as one datum | the stabiliser of the eigenline, twice as large | 6 |
+
+- **Which twin is a convention. One twin or both is not.** It changes what is allowed: to 12 letters, 694 words or
+  1 376.
+- If the tick is an act, it carries the mark to its twin (B1871, B1876), and the mark is then both twins. That is
+  the third row, and it is a different allowed set from the one this arc's facts F8 to F10 describe.
+
+**2. "Four histories that the charge reading allows" said more than the arc computed.**
+- The arc's own test of the charge reading's word form (a positive word that is ±1 modulo 5, followed by golden
+  periods) says yes for L⁶R(LR)^k and no for LR⁶(LR)^k.
+- What holds, each part now checked by the script: the second pair is the first pair's image under the exchange of
+  the letters, read as a cyclic word; all four are a power of LR modulo 5; all four keep the line.
+- The seat's word is "charge-invisible", which is right for a reading that does not tell a history from its mirror
+  image. The index 12 stands.
+
+**Smaller points of the read, applied:**
+- The sentence "the line's stabiliser has index 12" was printed and not computed. It is computed now: 10 of the 120
+  elements modulo 5 keep ±v.
+- "All eleven reproduce on main": four are computed in this arc and seven in B1868, as the opening says.
+
+**The class.** A check that cannot fail, counted as a fact, is the record's vacuity class. Main has written it four
+times in this window and caught three of them itself. This one it did not.

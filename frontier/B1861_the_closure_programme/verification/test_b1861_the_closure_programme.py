@@ -65,6 +65,14 @@ def test_the_order_does_not_ignore_the_map():
     edges = json.loads((bp.MAP / "EDGES.json").read_text(encoding="utf-8"))
     pk = {n: w["id"] for w in S.WP for n in w["nodes"]}
     wp = {w["id"]: w for w in B["packages"]}
+    def before(i, seen=None):
+        """the packages that must be worked before package i: the closure of its needs (rule 6 asks for this, or a direct given)"""
+        seen = set() if seen is None else seen
+        for x in wp[i]["needs_all"]:
+            if x in wp and x not in seen:
+                seen.add(x)
+                before(x, seen)
+        return seen
     cross = 0
     for e in edges:
         if e["kind"] in ("requires", "applies-under"):
@@ -75,7 +83,8 @@ def test_the_order_does_not_ignore_the_map():
             continue
         if a in pk and b in pk and pk[a] != pk[b]:
             cross += 1
-            assert pk[b] in wp[pk[a]]["rests_on"], (a, b, pk[a], pk[b])
+            # Review 78's reader: this asked only for the transitive "rests on", which is weaker than the rule it names
+            assert pk[b] in before(pk[a]) or pk[b] in wp[pk[a]]["given"], (a, b, pk[a], pk[b])
     assert cross >= 20
     # the lanes' results rest on the parent and on the modulus, and the parent has no owner
     for i in ("WP-2.1", "WP-2.3", "WP-3.1", "WP-3.3"):
@@ -137,10 +146,13 @@ def test_the_audit_is_carried_finding_by_finding():
     assert S.FINDINGS["G1"]["wp"] == S.FINDINGS["G2"]["wp"] == "WP-0.7"
     assert st["relayed_rulings"] == len(S.RULINGS) == 17
     # the owner's confirmation to main (2026-11-10) covers the eleven main asked about; the two relayed afterwards are asked
-    assert st["rulings_confirmed_by_the_owner_to_main"] == len(S.CONFIRMED) == 11
-    assert st["rulings_not_confirmed"] == len(S.NOT_CONFIRMED) == 2 and st["rulings_asked"] == 4   # two not confirmed; four more relayed later are asked (P-771)
+    # eleven by the owner's answer of 2026-11-10; the four asked later (P-771) each by the owner's own answer of 2026-11-11; none is left asked
+    assert len(S.CONFIRMED) == 11 and len(S.CONFIRMED_LATER) == 4 and st["rulings_confirmed_by_the_owner_to_main"] == 15
+    assert st["rulings_not_confirmed"] == len(S.NOT_CONFIRMED) == 2 and st["rulings_asked"] == 0
+    assert st["rulings_given_to_main_directly"] == len(S.DIRECT_RULINGS) == 2      # the ground is the act; 'close' means the whole agrees (P-774)
     assert not set(S.NOT_CONFIRMED) & set(S.CONFIRMED) and all(S.NOT_CONFIRMED.values())
-    assert [n for n, q, ps in S.RULINGS][:11] == S.CONFIRMED and sorted(S.OPINION) == sorted(S.CONFIRMED)
+    assert [n for n, q, ps in S.RULINGS][:11] == S.CONFIRMED and sorted(S.OPINION) == sorted(list(S.CONFIRMED) + list(S.CONFIRMED_LATER))
+    assert sorted(S.CONFIRMED_LATER) == sorted(n for n, q, ps in S.RULINGS[13:])           # the four relayed last, each answered by the owner on 2026-11-11
     keep = list(S.CONFIRMED)
     def restore():
         S.CONFIRMED[:] = keep
@@ -260,7 +272,7 @@ def test_every_input_says_how_it_could_leave_and_the_refusal_can_fire():
     """rule 15 (added with B1867): one line per input, of a listed kind; the tallies are the builder's, not typed"""
     st = B["stats"]
     names = [i["name"] for i in S.INPUTS]
-    assert sorted(S.EXITS) == sorted(names) and sum(st["exits_by_kind"].values()) == len(names) == st["independent_choices"]
+    assert sorted(S.EXITS) == sorted(names) and sum(st["exits_by_kind"].values()) == len(names)
     assert st["inputs_with_an_exit_on_the_table"] == sum(1 for n in names if S.EXITS[n][0] in ("FORCING ARGUED", "RIGID", "BACK-EDGE NAMED"))
     # nothing is typed as leaving: no kind says derived, proved or closed
     assert not any(w in " ".join(S.EXIT_KINDS).upper() for w in ("DERIVED", "PROVED", "CLOSED"))
@@ -364,3 +376,182 @@ def test_the_joins_the_seals_rule_needs_and_each_refusal_can_fire():
     assert st["exits_by_kind"]["ONE CLAUSE SHORT"] == 3 and st["inputs_with_an_exit_on_the_table"] == 8
     assert st["budget"]["bit"] == 9 and st["budget_items"] == 46          # the charge premise is two choices under one name (B1869)
     assert not _refusals()
+
+
+# Review 78 (2026-11-11): its reader listed the refusals of the builder that no planted control could make fire.  Each gets one
+# here, and a last test reads the builder's source and fails if a refusal is added without a control that names it.
+def test_the_refusals_review_78s_reader_found_unplanted_can_fire():
+    import copy
+    keep = copy.deepcopy((S.WP, S.ALSO, S.GIVEN, S.INPUTS, S.CONFIRMATION, S.CONFIRMED, S.NOT_CONFIRMED, S.HEADLINES))
+    def restore():
+        S.WP[:] = copy.deepcopy(keep[0])
+        S.ALSO.clear(); S.ALSO.update(copy.deepcopy(keep[1]))
+        S.GIVEN.clear(); S.GIVEN.update(copy.deepcopy(keep[2]))
+        S.INPUTS[:] = copy.deepcopy(keep[3])
+        S.CONFIRMATION = keep[4]
+        S.CONFIRMED[:] = list(keep[5])
+        S.NOT_CONFIRMED.clear(); S.NOT_CONFIRMED.update(copy.deepcopy(keep[6]))
+        S.HEADLINES[:] = list(keep[7])
+    w = lambda: _wp("WP-1.2")
+    a_node = next(iter(S.ALSO))
+    with_A = lambda: next(i for i in S.INPUTS if any(m.startswith("A:") for m in i["members"]))
+    ansatz = lambda: next(i for i in S.INPUTS if "ansatz" in i["kinds"])
+    confirmed0, relayed_unconfirmed = S.CONFIRMED[0], next(n for n, _, _ in S.RULINGS if n not in S.CONFIRMED and n not in S.NOT_CONFIRMED)
+    groups = [
+        # rule 10: a package is whole; rule 5: the order of work
+        [(lambda: w().__setitem__("owner", " "), "WP-1.2 has no owner"),
+         (lambda: w().__setitem__("first", ""), "WP-1.2 has no first"),
+         (lambda: w().__setitem__("accept", ""), "WP-1.2 has no accept"),
+         (lambda: w().__setitem__("status", "PERHAPS"), "WP-1.2: status 'PERHAPS'"),
+         (lambda: w().__setitem__("obligation", "C9"), "WP-1.2: obligation 'C9'"),
+         (lambda: w()["needs"].append("@Z9"), "WP-1.2 needs an unknown obligation: @Z9"),
+         (lambda: w()["needs"].append("WP-9.9"), "WP-1.2 needs an unknown package: WP-9.9")],
+        # rule 10 again, and rule 2: a second package for a node; rule 5: GIVEN
+        [(lambda: S.WP.append(dict(S.WP[0])), "a package id repeats"),
+         (lambda: S.ALSO.__setitem__("ZZ:NOPE", ["WP-1.2"]), "ALSO names a node that is in no package: ZZ:NOPE"),
+         (lambda: S.ALSO[a_node].append("WP-9.9"), "ALSO sends %s to an unknown package: WP-9.9" % a_node),
+         (lambda: S.GIVEN.__setitem__("WP-9.9", ["WP-1.2"]), "GIVEN names an unknown package: WP-9.9"),
+         (lambda: S.GIVEN.setdefault("WP-1.2", []).append("WP-9.8"), "GIVEN names an unknown package under WP-1.2: WP-9.8")],
+        # rule 8: the budget's kinds; rule 9: the candidate frame's joints against the scoreboard
+        [(lambda: S.INPUTS[0]["kinds"].__setitem__("guess", 1), "has an unknown kind: guess"),
+         (lambda: ansatz().__setitem__("kinds", {"discrete": 1}), "an ANSATZ node is not typed as an ansatz"),
+         (lambda: S.INPUTS[1]["members"].append(S.INPUTS[0]["members"][0]), "the budget types a node twice: %s" % S.INPUTS[0]["members"][0]),
+         (lambda: S.INPUTS[0]["members"].append("ZZ:NOPE"), "the budget names a node that is not in the map: ZZ:NOPE"),
+         (lambda: with_A()["members"].remove(next(m for m in with_A()["members"] if m.startswith("A:"))), "are not the scoreboard's borrowed joints")],
+        # rule 13: the owner's confirmations; rule 14: the headline results are nodes of the map
+        [(lambda: setattr(S, "CONFIRMATION", ("", "")), "rulings are marked confirmed with no date or no words of the owner"),
+         (lambda: S.CONFIRMED.append("a ruling nobody relayed"), "a ruling is marked confirmed and is not among the relayed rulings: a ruling nobody relayed"),
+         (lambda: S.NOT_CONFIRMED.__setitem__("another nobody relayed", "words"), "a ruling is marked not confirmed and is not among the relayed rulings: another nobody relayed"),
+         (lambda: S.NOT_CONFIRMED.__setitem__(confirmed0, "words"), "a ruling is marked both confirmed and not confirmed: %s" % confirmed0),
+         (lambda: S.NOT_CONFIRMED.__setitem__(relayed_unconfirmed, ""), "a ruling is marked not confirmed without the owner's words: %s" % relayed_unconfirmed),
+         (lambda: S.HEADLINES.append("ZZ:NOPE"), "a headline result is not in the map: ZZ:NOPE")],
+    ]
+    assert not _refusals()
+    for group in groups:                                     # the plants of a group touch different things, so one build shows them all
+        def apply_all(group=group):
+            for apply, _ in group:
+                apply()
+        with planted(apply_all, restore) as f:
+            for _, want in group:
+                assert any(want in x for x in f), (want, f[:4])
+    assert not _refusals()
+    # rule 13, the later confirmations and the rulings given to main directly
+    keep_later, keep_direct = dict(S.CONFIRMED_LATER), list(S.DIRECT_RULINGS)
+    def restore_later():
+        S.CONFIRMED_LATER.clear(); S.CONFIRMED_LATER.update(keep_later)
+        S.DIRECT_RULINGS[:] = keep_direct
+    def later():
+        S.CONFIRMED_LATER["the tick is an act"] = ("2026-11-11", "Is the tick an act?", "")
+        S.CONFIRMED_LATER[S.CONFIRMED[0]] = ("2026-11-11", "q", "a")
+        S.DIRECT_RULINGS.append(("a ruling with no answer", "q", "", "2026-11-11", ["WP-1.6"], "m"))
+        S.DIRECT_RULINGS.append(("a ruling with no package", "q", "a", "2026-11-11", ["WP-9.9"], "m"))
+        S.DIRECT_RULINGS.append((S.RULINGS[0][0], "q", "a", "2026-11-11", ["WP-1.6"], "m"))
+    with planted(later, restore_later) as f:
+        for want in ("a later confirmation has no date, question or answer of the owner: the tick is an act", "a ruling is confirmed twice: %s" % S.CONFIRMED[0],
+                     "a ruling given to main directly has no date, question, answer or meaning: a ruling with no answer",
+                     "a ruling given to main directly has no package: a ruling with no package",
+                     "a ruling given to main directly bears a relayed ruling's name: %s" % S.RULINGS[0][0]):
+            assert any(want in x for x in f), (want, f[:4])
+    # the six that the recorded run of every planting test still found silent (Review 78): rules 8, 12, 13, 14, 19, 20
+    nodes0 = json.loads((bp.MAP / "NODES.json").read_text(encoding="utf-8"))
+    not_an_input = next(n["id"] for n in nodes0 if n["grade"] not in bp.INPUT_GRADES and n["id"] not in {m for i in S.INPUTS for m in i["members"]})
+    keep6 = copy.deepcopy((S.FINDINGS, S.ADVISOR_QUOTES, S.TOE_LEDGER, S.ACCEPTED, S.SINCE_REAUDIT))
+    def restore6():
+        restore()
+        S.FINDINGS.clear(); S.FINDINGS.update(copy.deepcopy(keep6[0]))
+        S.ADVISOR_QUOTES[:] = list(keep6[1])
+        S.TOE_LEDGER[:] = list(keep6[2])
+        S.ACCEPTED.clear(); S.ACCEPTED.update(keep6[3])
+        S.SINCE_REAUDIT.clear(); S.SINCE_REAUDIT.update(keep6[4])
+    fixed_and_accepted = next(fid for fid, f in S.FINDINGS.items() if f["state"] == "FIXED" and fid in S.ACCEPTED)
+    def six():
+        S.INPUTS[0]["members"].append(not_an_input)
+        S.FINDINGS["E7"]["wp"] = "WP-9.9"
+        S.ADVISOR_QUOTES.append((S.ADVISOR_QUOTES[0][0], "a sentence that seat never wrote"))
+        S.TOE_LEDGER[0] = (S.TOE_LEDGER[0][0], [])
+        S.ACCEPTED[fixed_and_accepted] = "refused"
+        S.SINCE_REAUDIT["G2"] = ("B1874", "")
+    with planted(six, restore6) as f:
+        wants = ["the budget names a node that is not a present input: %s" % not_an_input, "finding E7 is assigned to an unknown package: WP-9.9",
+                 "the checklist row %r has no package" % S.TOE_LEDGER[0][0], "finding %s is marked FIXED and the re-audit did not accept it: refused" % fixed_and_accepted,
+                 "a change since the re-audit says nothing of what changed: G2"]
+        if SEATS:
+            wants.append("does not say: 'a sentence that seat never wrote'")
+        for want in wants:
+            assert any(want in x for x in f), (want, f[:6])
+    assert not _refusals()
+    # rule 5: two packages that need each other
+    def cycle():
+        _wp("WP-1.2")["needs"].append("WP-1.3")
+        _wp("WP-1.3")["needs"].append("WP-1.2")
+    with planted(cycle, restore) as f:
+        assert any("the packages' needs hold a cycle" in x for x in f), f[:4]
+    # rule 11: a quote of the work order with a digit in it (read only where this clone holds the work order's revision)
+    if SEATS:
+        keep_q = dict(S.WORK_ORDER_QUOTES)
+        def restore_q():
+            S.WORK_ORDER_QUOTES.clear()
+            S.WORK_ORDER_QUOTES.update(keep_q)
+        with planted(lambda: S.WORK_ORDER_QUOTES.__setitem__("planted", "milestone 3 of the plan"), restore_q) as f:
+            assert any("a work-order quote carries a digit: planted" in x for x in f), f[:4]
+    # rule 4, on the map itself: a conditional result with every edge to a premise removed
+    nodes = json.loads((bp.MAP / "NODES.json").read_text(encoding="utf-8"))
+    edges = json.loads((bp.MAP / "EDGES.json").read_text(encoding="utf-8"))
+    cond = next(n["id"] for n in nodes if n["grade"] in bp.CONDITIONAL and any(e["src"] == n["id"] and e["kind"] in ("requires", "applies-under") for e in edges))
+    cut = [e for e in edges if not (e["src"] == cond and e["kind"] in ("requires", "applies-under"))]
+    assert any("a conditional result names no premise: %s" % cond in x for x in bp.build(nodes=nodes, edges=cut)["fails"])
+
+
+def _refusal_patterns():
+    """every refusal in the builder's source, as a regular expression that its message matches in full"""
+    import re
+    src = (HERE / "build_programme.py").read_text(encoding="utf-8")
+    templates = re.findall(r'fails\.append\(\s*"((?:[^"\\]|\\.)*)"', src)
+    assert len(templates) >= 70
+    out = []
+    for tpl in templates:
+        parts = re.split(r"%[sdr]", tpl.replace("%%", "%"))
+        out.append((tpl, re.compile(".*?".join(re.escape(p) for p in parts), re.S)))
+    return out
+
+
+def fired_by(test_functions, monkeypatch):
+    """run the given planting tests with the builder recorded, and return every refusal message it issued"""
+    fired = []
+    real = bp.build
+    def recording(*a, **k):
+        out = real(*a, **k)
+        fired.extend(out["fails"])
+        return out
+    monkeypatch.setattr(bp, "build", recording)
+    for fn in test_functions:
+        fn()
+    monkeypatch.setattr(bp, "build", real)
+    return fired
+
+
+PLANTING_TESTS = ("test_the_refusals_about_the_map_can_fire", "test_the_refusals_about_the_packages_and_the_budget_can_fire",
+                  "test_the_refusals_about_the_audit_can_fire", "test_the_order_does_not_ignore_the_map", "test_the_audit_is_carried_finding_by_finding",
+                  "test_every_input_says_how_it_could_leave_and_the_refusal_can_fire", "test_the_joins_the_seals_rule_needs_and_each_refusal_can_fire",
+                  "test_the_refusals_review_78s_reader_found_unplanted_can_fire")
+
+
+def test_every_refusal_of_the_builder_fires_in_this_lock(monkeypatch):
+    """Review 78: a refusal that no planted control can make fire is not known to work.  This test runs every planting test of
+    this file once more with the builder recorded, and asks that each refusal in the builder's source was issued at least
+    once.  A refusal added to the builder without a control fails here.  (Two refusals read a seat's pinned revision and can
+    fire only where this clone holds it; they are excused, by name, in a clone that does not.)"""
+    g = globals()
+    assert all(name in g for name in PLANTING_TESTS)
+    fired = fired_by([g[name] for name in PLANTING_TESTS], monkeypatch)
+    never = [tpl for tpl, rx in _refusal_patterns() if not any(rx.fullmatch(m) for m in fired)]
+    if not SEATS:
+        never = [t for t in never if not t.startswith(("a work-order quote", "the work order does not say", "the relayed ruling", "the advisor seat's"))]
+    assert not never, never
+
+
+def test_the_findings_live_counts_are_the_builders():
+    """Review 78: the one line of live counts in the findings is the builder's own, so the prose cannot carry a stale count silently"""
+    f = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
+    assert "> " + bp.live_line(B["stats"]) + "\n" in f
+    assert f.count("LIVE: ") == 1

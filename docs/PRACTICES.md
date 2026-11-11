@@ -38,6 +38,7 @@ cannot be checked, mark MANUAL and name the mechanism that surfaces it at the de
 | `PROGRESS_LOG.md` is append-only (one constitutional roll-up exception) | **GATED** | `append-only` — reads history from 2026-11-10 (B1863): every commit after `f31729801` that touches the log. Before, it compared the working file with HEAD's and could not fail on a committed change (the advisor seat's audit, G1) |
 | A sealed-style file does not change after its seal: no commit edits, deletes or moves it; an amendment is a new file beside it; a repair is waived by commit and path with the owner's reason | **GATED** | `seal-immutable` — history, from `76a4ff388` (2026-11-10, B1864; the audit's G2). `seal-ledger-current` recomputes every generated row |
 | What a seal hashed does not change after the seal: every entry of every tracked list of hashed files verifies against the tracked file it names, and a list is not edited, deleted or moved once committed; an amendment is a new list beside the old with the old entry named in the gate | **GATED** | `artifact-hashes` — the files' state on every run, and the lists' history from `270a27ee6` (2026-11-10, B1874; the advisor seat's second re-audit, its case s1). 63 entries that did not verify when the gate was written are frozen by key (`docs/ARTIFACT_HASHES_BROKEN.md`), a ceiling that may only shrink |
+| The closure map (B1858) and the closure programme (B1861) are generated files; a committed copy is always its builder's output (Review 77's R77-7, P-754) | **GATED** | `closure-generated` — both builders run on every push and each generated file is compared with the committed one; in a clone that lacks the seats' pinned revisions the programme is reported SKIP, never ok. Control: `tests/test_closure_generated.py` (a stale copy of a generated file is refused, for both builders) |
 | No forbidden artifacts tracked (archives, CI config, surname-bearing files, loose relays) | **GATED** | `tracked-forbidden` |
 | No AI labels, seat labels, or the owner's surname in public docs | **TESTED** | `tests/test_public_surface_scan.py` |
 | The workdesk is generated from the record at a named commit, loads nothing external, and is never hand-edited (P-420) | **TESTED** | `tests/test_workdesk_builds.py` |
@@ -1372,3 +1373,32 @@ Three practices came out of the field stage's last window. Each answers a slip t
    as before. A page points to the generated file for a count, and a dated correction is marked at each line it
    corrects, the verdict line included (E53). MANUAL.
 
+
+## Review 78's practices: a correction carried everywhere, a check that can fail, a refusal with its control, a sentence that is printed, a seal that covers what it hashed — MIXED (adopted 2026-11-11, Review 78, B1877)
+
+1. **A correction is carried to every place the old form stands, and a lock says so** (E53 #39–#41). A lock that checks
+   the new wording is present where the correction was made is half a lock. The other half reads the whole record for
+   the old form and fails wherever it stands without the correction beside it. GATED for B1862's three forms by that
+   arc's lock, with a planted control; MANUAL elsewhere: a correction arc names the old form as a pattern and sweeps
+   `frontier/` and `docs/` for it before it lands.
+2. **A check that prints True is shown able to print False** (E27; B1872's twins). Before a check is counted as a
+   fact, the arc says what outcome would have made it fail. If none could, it is an identity and is written as one.
+   MANUAL; the vacuity gate catches only the literal classes.
+3. **A refusal lands with its planted control** (B1861, found by Review 78's reader: 24 of the programme builder's
+   72 refusals had never fired in its lock). GATED for that builder: its lock runs every planting test with the
+   builder recorded and fails on a refusal that was never issued. MANUAL for other builders.
+4. **A gate's sentence reaches the reader** (B1874). A gate that passes under a waiver, an amendment or a partial skip
+   says so in its sentence, and the runner prints that sentence whole. GATED (`result_line`, with a committed, waived
+   violation as its test).
+5. **A seal covers what it hashed** (B1874; the advisor seat's second re-audit). A file named in a list of hashed files
+   does not change, and the list is not edited, deleted or moved. An amendment is a new list with the old entry named.
+   GATED (`artifact-hashes`).
+6. **A generated page is compared with its builder at every push** (R77-7). GATED (`closure-generated`).
+7. **A live count in prose is absent, or a lock compares it** (Review 77's practice 8, broken within a day). B1861's
+   findings hold one such line. GATED for that arc; elsewhere the practice of Review 77 stands as written.
+8. **A relayed sentence of the owner is not a ruling for main** (P-768; the owner, 2026-11-10). Main records it as
+   relayed, raises it with the owner only when main's work depends on it, and gives its own opinion when it asks.
+   MANUAL.
+9. **A reader returns commands, and main runs them** (the owner's rule for multi-agent runs, 2026-11-10). A reader's
+   finding changes a state only after main has checked it at its source. Review 78's two readers found ten faults in
+   five of main's arcs; all ten were right, and each was checked before it was applied. MANUAL.

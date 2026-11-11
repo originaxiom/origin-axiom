@@ -52,6 +52,7 @@ c262308cc, output 9ca836350, read 91119a381; harvest row 1615). 0 of 19.
   conserving more levels does not deepen the departure without bound.
 - **Still standing:** B1853's HL1 and HL2, and the selections under no premise, under the line premise, and under charge
   at 5. Charge at 5's run of 6 is now proved for all defects.
+  *[Dated note, 2026-11-11 (B1862's correction of B1856, the audit's finding E3; carried here by Review 78): "charge" covers two cases. E ≡ +I is invisible to every state. E ≡ −I acts as the parity operator, so it is invisible only on states of definite parity; that is a further condition, a parity superselection rule. Of the 643 rung-invisible defects of R1, 338 are the first and 305 the second. The run of 6 itself has E ≡ +I.]*
 - **The reading.** Among the charge premises, S = {5}, the ramified prime and the one level where LR fixes a line, is
   exactly where the deep single run is provably least action.
 

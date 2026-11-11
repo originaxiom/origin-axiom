@@ -53,8 +53,18 @@ def is_charge_form(w):
         if 2 * k > len(w): return False
 charge = [w for w in keep if is_charge_form(w)]
 say("F9. positive words of 1 to 12 letters that keep the line: %d; of those, a word that is +-1 mod 5 (possibly empty) followed by golden periods: %d" % (len(keep), len(charge)))
-say("    every one of them keeps the twin line as well: %s" % all(keeps_twins(word(w)) for w in keep))
-assert (len(keep), len(charge)) == (694, 204) and all(keeps_twins(word(w)) for w in keep)
+# REVIEW 78 (2026-11-11), its reader's finding, checked by main: the line printed here before, "every one of them keeps the twin line
+# as well: True", was not a fact about the 694.  The twin is twice the mark, so a matrix that keeps +-v keeps +-2v by linearity, and
+# the check could not fail.  It is kept as what it is, an identity, and the count that is not an identity is put beside it: the
+# words that keep LR's eigenline as a set of four points, and how many of those exchange the mark with its twin.
+twin = ((2 * v0[0]) % 5, (2 * v0[1]) % 5)
+assert all(keeps_twins(word(w)) for w in keep) and twin == act(((2, 0), (0, 2)), v0)       # the identity, by linearity
+set_keep = [w for w in pos if act(word(w), v0) in eig]
+exchange = [w for w in set_keep if act(word(w), v0) in (twin, neg(twin))]
+say("    (that every one of them keeps the twin as well is an identity and not a count: the twin is twice the mark)")
+say("    what is a count: positive words of 1 to 12 letters that keep LR's eigenline as a set of four points: %d; of those %d keep the mark +-v and %d carry it to its twin (first: %s)" % (
+    len(set_keep), len(keep), len(exchange), exchange[0] if exchange else "none"))
+assert (len(keep), len(charge)) == (694, 204) and len(set_keep) == len(keep) + len(exchange)
 
 # ------------------------------------------------------------------ F10: a thread's own line moves with its base point
 def necklace(w): return min(w[s:] + w[:s] for s in range(len(w)))
@@ -109,11 +119,30 @@ def index(words):
     return len(C.table)
 gens_a = ["LLLLLLR" + "LR" * k for k in (1, 2)] + ["LRRRRRR" + "LR" * k for k in (1, 2)]
 assert all(keeps_line(word(w)) for w in gens_a)
+# REVIEW 78 (2026-11-11), its reader's finding, checked by main: the findings called all four "histories that the charge reading
+# allows", and this file's own test of the charge reading's word form says False for two of them.  What holds, each part checked:
+SWAP = str.maketrans("LR", "RL")
+word_form = [is_charge_form(w) for w in gens_a]
+mirror_form = [any(is_charge_form((w[t:] + w[:t]).translate(SWAP)) for t in range(len(w))) for w in gens_a]
+powers = [mod(word("LR" * k)) for k in range(1, 11)]
+assert word_form == [True, True, False, False] and mirror_form[2:] == [True, True] and all(mod(word(w)) in powers for w in gens_a)
+say("    of the four: L^6 R (LR)^k is of the charge reading's word form (a positive word that is +-1 mod 5, then golden periods); L R^6 (LR)^k is not,")
+say("    and is that form's image under the exchange of the letters, read as a cyclic word; all four are a power of LR mod 5")
 ia = index(gens_a)
 ctl = index(["L", "R"])                                                          # the control: the whole group has index 1
 ctl2 = index(["LL", "R"])                                                        # a known answer: < L^2, R > is of index 3 in PSL(2, Z)
-say("    the four histories L^6 R (LR)^k and L R^6 (LR)^k, k = 1, 2, each keeping the line, generate a subgroup of index %d; the line's stabiliser has index 12 (it is the stabiliser mod 5, of order 10 in a group of order 120, up to sign)" % ia)
+G5 = group([Lm, Rm])
+stab5 = [g for g in G5 if act(g, v0) in (v0, neg(v0))]
+stab_index = (len(G5) // 2) // (len(stab5) // 2)                                 # up to sign; reduction mod 5 is onto, so this is the index in PSL(2, Z)
+assert (len(G5), len(stab5), stab_index) == (120, 10, 12) and mod(((-1, 0), (0, -1))) in stab5
+say("    the four histories L^6 R (LR)^k and L R^6 (LR)^k, k = 1, 2, each keeping the line, generate a subgroup of index %d; the line's stabiliser has index %d, computed (%d of the %d elements mod 5 keep +-v, and -1 is among them)" % (ia, stab_index, len(stab5), len(G5)))
 say("    controls of the instrument: < L, R > has index %d; < L^2, R > has index %d" % (ctl, ctl2))
+# Review 78: the mark as one twin (+-v, or +-2v: the same group, by the identity above) against the mark as the whole eigenline.
+# (The record's words: a line of order 5 is a point v up to sign; its twin is 2v; an eigenline is the group of order 5 that holds one pair of twins.)
+line5 = [g for g in G5 if act(g, v0) in eig]
+line_index = (len(G5) // 2) // (len(line5) // 2)
+assert (len(line5), line_index) == (20, 6) and set(stab5) < set(line5)
+say("    the mark as the whole eigenline (both twins as one datum) instead of one twin: %d of the %d elements mod 5 keep the four points as a set, a stabiliser of index %d; so 'one twin or both' changes what is allowed, and 'which twin' does not" % (len(line5), len(G5), line_index))
 assert ia == 12 and ctl == 1 and ctl2 == 3
 # and with one sign only: in SL(2, Z) the histories that are +1 mod 5 generate a group that does not contain -1 -- seen mod 5
 g_plus = group([word(w) for w in gens_a])

@@ -1,5 +1,27 @@
 # Changelog
 
+## S306p REVIEW 78, THE DECADAL REVIEW (B1877); THE OWNER'S RULINGS OF 2026-11-11 (P-771, P-774) (2026-11-11)
+
+- **The review** ran at the thirty-third commit after Review 77 (due at the twentieth; the push gate fires at 40). Its entry is in `docs/progress/REVIEWS.md`.
+- **Two readers read five of main's own arcs in full and found ten faults. Main checked each at its source: all ten are right,** and each is corrected where the corrected line stands.
+  - **Three corrections had not reached every place** (E53 #39–#41), in an arc that corrected exactly that fault. The lemma's "commuting" was missing from B952's verdict line, its results file and the requirements ledger; the premise's two cases from B1856's own verdict line and from B1853, B1855, B1857, the read-out rule's page and a register row; B854's scope from its verdict block. All carried. B1862's lock now fails wherever one of the three old forms stands without its correction beside it.
+  - **One check could not fail.** B1872 banked "the twins come together"; the twin is twice the mark, so it holds by linearity. The count that can fail: of the positive words to 12 letters 1 376 keep the eigenline, 694 keep the mark and 682 carry it to its twin. **So "one twin or both as the mark" is a real choice** (index 12 or 6), and main's answer to that fork is corrected.
+  - **Four hand-copied counts** in the closure programme's findings were stale within a day. One line of live counts is now compared with the builder by the lock.
+  - Of the programme builder's 72 refusals, 24 had never fired in its lock. All 77 fire now, and a test fails if one is added without a control.
+- **A new gate, `closure-generated`** (Review 77's R77-7): the closure map and the closure programme are compared with their builders at every push. It caught a stale programme within minutes.
+- **The loop:** three of Review 77's eight items resolved (B1868, B1866, the gate) and five carried for the first time.
+- **The fresh-clone suite** at b28dceea8: 8 266 passed, 2 failed, 70 skipped. Both failures are standing (P-239).
+- **The owner's rulings at the review,** each to a question main put with its recommendation; the questions and answers are verbatim in the register:
+  - **the tick is an act** (P-771);
+  - **the three sentences on the principle's wording are the owner's for main** (P-771);
+  - **a ground is the act itself** (P-774);
+  - **"the ledger must close" means that the whole agrees with itself** (P-774);
+  - the outreach stays paused and the paper stays frozen (P-081, P-082, P-253);
+  - a second compliance note to the agy lane was approved (P-697) and then not needed: read through the mask at its head, the lane had already mended all three points. A short acknowledgement went instead.
+- **What the first and third rulings give together:** the mark is both twins, so the allowed subweave at level 5 is the eigenline's stabiliser, of index 6.
+- **None of the rulings is carried into a governing document here.** That is P-767, and the review's first item.
+- Registered: P-776, the read-out on the whole, to be stated before anything is computed. Thirteen glosses, three classes' new instances, nine practices. 0 of 19.
+
 ## S306p TWO SEATS' SEALED RUNS VERIFIED ON MAIN: A SINGLE STATE IS NOT KEPT UNDER COMPOSITION (B1875); THE FOUR REMAINING ATTACKS ON THE PRINCIPLE'S DRAFT (B1876; P-774, P-775) (2026-11-11)
 
 - **Fetched at the landing of B1874:** the web seat (`8718d467`) and the advisor seat (`459dd72f`) had both pushed sealed, data-free runs. Both were read in full. None of either seat's code was run. Main re-derived everything it banks with its own code.

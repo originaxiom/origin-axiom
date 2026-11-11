@@ -49,5 +49,6 @@
  "views-generated": "tests/test_gate_failing_paths.py::test_views_generated_fails_when_a_generator_is_missing",
  "seal-order-unshown": "tests/test_gate_failing_paths.py::test_seal_order_unshown_fails_on_a_new_member_an_addition_and_a_stale_row",
  "seal-immutable": "tests/test_seal_immutable.py::test_the_gate_itself_fails_on_a_post_seal_edit",
- "artifact-hashes": "tests/test_artifact_hashes.py::test_the_gate_itself_fails_on_main_when_one_frozen_entry_is_forgotten"
+ "artifact-hashes": "tests/test_artifact_hashes.py::test_the_gate_itself_fails_on_main_when_one_frozen_entry_is_forgotten",
+ "closure-generated": "tests/test_closure_generated.py::test_a_stale_map_is_refused"
 }

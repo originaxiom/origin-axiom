@@ -1352,6 +1352,63 @@ def gate_artifact_hashes(_repo=None, _frozen=None, _root=None, _waived=None, _am
                   + ("".join(f" [{c[:9]} {p}: {why}]" for (c, p), why in sorted(waived.items()))) + ")")
 
 
+# THE CLOSURE MAP AND THE CLOSURE PROGRAMME ARE GENERATED FILES (Review 77's R77-7, P-754; made a gate at Review 78).  Each quotes
+# the register, the scoreboard, the foundation and the record's pages, so each goes stale whenever one of those moves.  Their
+# locks fail when a committed file is not its builder's output -- but the push gate does not run the suite, and for twenty
+# landings both were rebuilt by hand, from memory.  This gate runs both builders on every push and compares.
+CLOSURE_GENERATED = (
+    ("frontier/B1858_the_closure_map", "build_map.py", "the closure map"),
+    ("frontier/B1861_the_closure_programme", "build_programme.py", "the closure programme"),
+)
+
+
+def closure_generated_problems(root=None, _read=None):
+    """(problems, skipped) for the two generated pages: a builder that refuses, or a committed file that is not its builder's
+    output.  The programme quotes two seats at pinned revisions; in a clone that does not hold them its page differs by a
+    line saying so, and it is reported as skipped, visibly, not as passed."""
+    import importlib.util
+    import pathlib as _pl
+    root = _pl.Path(root or ROOT)
+    read = _read or (lambda f: f.read_text(encoding="utf-8"))
+    problems, skipped = [], []
+    for arc, script, what in CLOSURE_GENERATED:
+        f = root / arc / "verification" / script
+        if not f.is_file():
+            problems.append(f"{what}'s builder is not there: {arc}/verification/{script}")
+            continue
+        spec = importlib.util.spec_from_file_location("_gate_" + script[:-3], f)
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        if script == "build_map.py":
+            nodes, edges, stats, fails, notes, rows = mod.build()
+            files = None if fails else mod.generated(nodes, edges, stats, rows)
+            missing = []
+        else:
+            B = mod.build()
+            fails, missing = B["fails"], B["stats"]["not_checked_in_this_clone"]
+            files = None if fails else mod.generated(B)
+        if fails:
+            problems.append(f"{what}'s builder refuses: {fails[0]}" + (f" (+{len(fails) - 1} more)" if len(fails) > 1 else ""))
+        elif missing:
+            skipped.append(f"{what} (this clone does not hold: {', '.join(missing)})")
+        else:
+            for name, text in files.items():
+                g = root / arc / name
+                if not g.is_file() or read(g) != text:
+                    problems.append(f"{arc}/{name} is not its builder's output (run verification/{script} --write)")
+    return problems, skipped
+
+
+def gate_closure_generated(_read=None):
+    """The closure map and the closure programme, as committed, are what their builders generate (see the note above)."""
+    problems, skipped = closure_generated_problems(_read=_read)
+    if problems:
+        return False, "; ".join(problems[:4]) + (f" (+{len(problems) - 4} more)" if len(problems) > 4 else "")
+    if skipped:
+        return True, "skipped in part: " + "; ".join(skipped)
+    return True, "ok"
+
+
 # R76-2 (P-601; Review 74's R74-9): the sealed tests whose order git cannot show -- the rule (PREREGISTRATION.md) and the
 # record (FINDINGS.md) first committed in one commit, the early practice -- frozen as a CEILING that may only shrink.
 # docs/SEAL_ORDER_UNSHOWN.md lists them with each one's commit; the gate recomputes the class from git on every run.
@@ -2246,6 +2303,7 @@ GATES = {
     "seal-ledger-current": gate_seal_ledger_current,
     "seal-immutable": gate_seal_immutable,
     "artifact-hashes": gate_artifact_hashes,
+    "closure-generated": gate_closure_generated,
     "seal-order-unshown": gate_seal_order_unshown,
     "pretense-phrases": gate_pretense_phrases,
     "member-scope": gate_member_scope,

@@ -141,3 +141,66 @@ def test_the_lock_path_gate_fires_in_a_clean_checkout():
     assert not ok and "git ignores this path" in why
     ok, why = g.gate_tracked_deps()
     assert ok, why
+
+
+# Review 78 (2026-11-11): this arc's corrections were each made where they were aimed, and three did not reach every place the
+# corrected statement stood (the reader's finding; the same fault the advisor seat's re-audit had named for E3).  The locks
+# above check that the new wording is present.  This one checks the other half: wherever an old form still stands in the
+# record, the correction stands right beside it.
+OLD_FORMS = (
+    # (the old form, as a regular expression; what must appear within the next 900 characters; which finding)
+    (r"set of semisimple elements contains a maximal torus", r"COMMUT", "E4"),
+    (r"invisibility to every state\)", r"E = \+I|E ≡ \+I", "E3"),
+    (r"no non-abelian continuous symmetry commuting with the holonomy", r"PRINCIPAL", "E8"),
+)
+NOT_READ = ("docs/views/",            # generated from the verdict lines, which are read here
+            "docs/progress/",         # the log's archives are history and are not edited
+            "frontier/B1862_the_audits_first_corrections/",      # this arc quotes the old forms to correct them
+            "/verification/readers/")                            # a reader's report quotes what it found
+
+
+def _hits(root=ROOT):
+    import re
+    out = []
+    files = subprocess.run(["git", "-C", str(root), "ls-files", "frontier", "docs"], capture_output=True, text=True, check=True).stdout.split("\n")
+    for rel in files:
+        if not rel.endswith((".md", ".json")) or any(x in rel for x in NOT_READ):
+            continue
+        try:
+            text = (root / rel).read_text(encoding="utf-8")
+        except (OSError, UnicodeDecodeError):
+            continue
+        for old, marker, fid in OLD_FORMS:
+            for m in re.finditer(old, text, re.I):
+                after = text[m.end():m.end() + 900]
+                out.append((rel, fid, bool(re.search(marker, after, re.I))))
+    return out
+
+
+def test_no_place_still_carries_an_old_form_unmarked():
+    hits = _hits()
+    assert {fid for _, fid, _ in hits} == {"E4", "E3", "E8"}            # the old forms are kept as history, so each is still found somewhere
+    bad = [(rel, fid) for rel, fid, ok in hits if not ok]
+    assert not bad, bad
+    # the places Review 78's reader named, and the one main's sweep added, are among those read
+    read = {rel for rel, _, _ in hits}
+    for rel in ("docs/GUT_REQUIREMENTS_LEDGER.md", "frontier/B1856_charge_or_symmetry_at_five_verified/arc_verdict.json",
+                "frontier/B854_centralizer_exact/FINDINGS.md", "docs/POINT_REGISTER.md"):
+        assert rel in read, rel
+    # in B952's verdict line and results file the correction was put inside the sentence, so the old form is gone from both
+    for rel in ("frontier/B952_gut_ledger_rank/arc_verdict.json", "frontier/B952_gut_ledger_rank/results.json"):
+        text = (ROOT / rel).read_text(encoding="utf-8")
+        assert rel not in read and "[COMMUTING -- corrected 2026-11-10 (B1862" in text, rel
+
+
+def test_that_lock_can_fail(tmp_path):
+    """a planted control: a tracked page that states the lemma without the correction beside it is reported"""
+    def git(*a):
+        r = subprocess.run(["git", "-C", str(tmp_path), "-c", "user.name=t", "-c", "user.email=t@example.invalid", *a], capture_output=True, text=True)
+        assert r.returncode == 0, r.stderr
+    git("init", "-q")
+    (tmp_path / "docs").mkdir()
+    (tmp_path / "docs" / "A.md").write_text("The centralizer of a set of semisimple elements contains a maximal torus, hence has full rank.\n", encoding="utf-8")
+    (tmp_path / "docs" / "B.md").write_text("The centralizer of a set of semisimple elements contains a maximal torus. [Corrected: the elements must COMMUTE.]\n", encoding="utf-8")
+    git("add", "-A")
+    assert sorted(_hits(tmp_path)) == [("docs/A.md", "E4", False), ("docs/B.md", "E4", True)]

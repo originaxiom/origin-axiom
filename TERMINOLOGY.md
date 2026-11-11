@@ -1045,3 +1045,44 @@ the rest. Each gloss points at its source; none adds content.*
 - **the framing ledger** (`docs/FRAMING_LEDGER.md`, B1827): the inventory of what the programme excludes by how it is framed,
   each row FORCED, CHOSEN, READING, UNEARNED or UNSTATED, with its source.
 - **ranges sealed** (`frontier/B1832_the_agy_lanes_digested/verification/SEALED_EXHIBITS.json`; P-679, P-684; Review 75's gloss): line ranges of a seat's files that carry held-out-class literals, pinned by the sha256 of their newline-joined lines at a stated revision so that main's mask never prints them and a change is detected; counted in LOOK_LEDGER when a reader saw them (160 at Review 75).
+
+## Added at Review 78 (2026-11-11) — the window's load-bearing words without a gloss
+
+*The review tool's detector reads claim lines and named six word pairs, none of them a term. Main swept the window's
+arcs for words that carry weight and have no gloss here. Each gloss points at its source; none adds content.*
+
+- **history** (the owner's word, in use since S306n; B1813, B1867, B1871): a closed sequence of the grammar's moves,
+  read as a cyclic word. In the two-act grammar its letters are L and R. Its **runs** are the lengths of its blocks of
+  one letter. A history is a thread; the weave is the joint action of all allowed histories.
+- **ground, golden ground** (B1853, B1869): the periodic history against which a departure is read; the golden ground
+  is LR repeated. "A ground" in the advisor seat's draft of the principle is wider (any history taken as the reference),
+  and that draft does not say which is meant (P-774).
+- **departure** (B1853's definition; B1855, B1869): a stretch of runs of the ground replaced by other runs, written by
+  those runs, as in "the run of 6" or (2,2,2). Its matrix against the ground is E.
+- **the charge reading, the line reading** (B1853, B1856; the two readings of the level-5 premise): a departure is not
+  detected at level 5 when E ≡ ±1 (charge), or when E commutes with the ground's period (line). The charge reading is
+  itself two cases since B1862: E ≡ +1, invisible to every state, and E ≡ −1, invisible only under a parity
+  superselection rule.
+- **line, twin, eigenline, mark** (B1733, P-725; the web seat's relay of 2026-11-10; B1872 as corrected at Review 78):
+  a line of order 5 is a point v of (ℤ/5)² up to sign; its twin is 2v; an eigenline is the group of order 5 that holds
+  one pair of twins. The mark is the datum on the shared records that the allowed histories keep. Which twin is the
+  mark is a convention; one twin or both is not.
+- **allowed subweave** (the web seat's definition, B1872): the group that the allowed histories generate, acting on the
+  shared records. "All allowed histories together" means its joint action.
+- **apex, single** (B1857, B1875): in the flat-fibre model of the state, the apex is the greatest height a history's
+  axis reaches above a run's own class; a history is single when one run attains it. Single is one history's own
+  property and is not kept under composition (B1875).
+- **back-edge, closed loop** (the advisor seat's statement of the claim, 2026-11-10; the owner's rulings R8 and R9,
+  confirmed to main; P-761): a back-edge is a condition computed downstream that an input must satisfy; the closed
+  loop is the claim that the inputs are fixed by such conditions. On main's map no edge returns from a value to a
+  premise (B1867), so the loop is a claim and not a result.
+- **the tick** as an act (B1871, B1876; P-771, the owner's to rule): F = L·P, the founding rule's single step, with
+  F² = LR. With it the histories of an odd number of runs exist, each with no hand. (The older entries above use "the
+  tick" for the same rule as it acts on the triplet.)
+- **planted violation, planted control** (PRACTICES, "gate-controls"; B1865; P-757): a deliberate breach of a rule,
+  committed in a scratch repository or made in memory, that a gate or a builder must refuse. A rule with no planted
+  control is not known to be able to fail.
+- **relayed sentence** (P-768; WORKING_RULES): a sentence of the owner reported by a seat. It is not a ruling for main
+  until the owner confirms it to main.
+- **settling rate** (B1876, P-775): the factor by which a departure's own invariants approach their limit for each
+  period of the ground added; (5 + √21)/2 for the golden ground, observed and not proved.

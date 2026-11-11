@@ -33,6 +33,12 @@ def test_the_six_real_catches_and_the_one_that_is_not():
 
 
 def test_mains_own_planted_tests_exist_for_each_catch():
+    """BY NAME ONLY: this checks that main's planted tests for the catches exist; it does not run them (the suite does).
+    Review 78's reader found the first form of this test said more than it did, and that it never looked at the file the
+    findings name for PV25; both are mended here."""
+    t3 = (ROOT / "tests" / "test_tracked_deps_locks.py").read_text(encoding="utf-8")
+    for name in ("test_a_lock_that_reads_an_untracked_file_is_refused", "test_the_gate_fires_in_a_clean_checkout"):       # PV25
+        assert "def %s(" % name in t3
     t1 = (ROOT / "tests" / "test_append_only_history.py").read_text(encoding="utf-8")
     t2 = (ROOT / "tests" / "test_seal_immutable.py").read_text(encoding="utf-8")
     for name in ("test_pv1_a_committed_deletion_is_refused", "test_pv2_the_log_replaced_by_one_line_is_refused"):

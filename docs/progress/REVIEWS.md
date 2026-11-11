@@ -8541,13 +8541,215 @@ None promoted. 0 of 19.
   magnitudes. They are not on the held-out lists. Main adopted none of them and compared none with anything.
 
 ### Action items (Review 77)
-- [ ] R77-1: P-756 with P-439 — whether anything concentrates under the executed weave: state first what would count (an atom, a stationary point of a function the moves fix, a unique maximiser of a rate function), then compute under the move count (owner: cc)
-- [ ] R77-2: P-753 — the register-to-field join banked as an arc: the weave's triplet as the symmetric square of the level-2 theta doublet, exactly, and which of the lanes' two coherent lifts the moves keep; the physical lane's review asked (owner: cc)
-- [ ] R77-3: P-749 (e) — the lanes' paired current pole re-derived on main with main's own algebra (owner: cc)
-- [ ] R77-4: P-746 — main's own review of the physical lane's two sealed packets: acceptance by the schema or a dated refusal (owner: cc)
-- [ ] R77-5: P-747 and P-318's next item — the agy lane's Theorems C, D and E and its P-321 note verified on main or declined with a reason (owner: cc)
-- [ ] R77-6: P-745 — the seven process arcs escalated at S306n, each resolved or declared open by design (owner: cc)
-- [ ] R77-7: P-754 — the closure map rebuilt in the views step of every landing, with a lock that fails when the generated files lag their sources (owner: cc)
-- [ ] R77-8: P-739 — the tube at k = 3: the mesher's two unlabelled translation checks given messages first, then the stop diagnosed (owner: cc)
+- [x] R77-1: P-756 with P-439 — whether anything concentrates under the executed weave: state first what would count (an atom, a stationary point of a function the moves fix, a unique maximiser of a rate function), then compute under the move count (owner: cc) — RESOLVED: under the move count no value of the modulus holds weight; the density only sharpens, holding no mass, at one symmetric point (B1868, the web seat's sealed card verified by main's own quadrature); P-756 answered
+- [x] R77-2: P-753 — the register-to-field join banked as an arc: the weave's triplet as the symmetric square of the level-2 theta doublet, exactly, and which of the lanes' two coherent lifts the moves keep; the physical lane's review asked (owner: cc) — RESOLVED: the join banked as an arc (B1866): the weave's triplet is a character times the symmetric square of the level-2 doublet; the physical lane's review asked, received and reconciled (§ 6). Which sign, and whether that character is physical, stay open on P-753
+- [>] R77-3: P-749 (e) — the lanes' paired current pole re-derived on main with main's own algebra (owner: cc) — carried to Review 78 as R78-6 (not worked in the window, which went to the audit and to the seats' sealed runs)
+- [>] R77-4: P-746 — main's own review of the physical lane's two sealed packets: acceptance by the schema or a dated refusal (owner: cc) — carried to Review 78 as R78-7 (not worked in the window, which went to the audit and to the seats' sealed runs)
+- [>] R77-5: P-747 and P-318's next item — the agy lane's Theorems C, D and E and its P-321 note verified on main or declined with a reason (owner: cc) — carried to Review 78 as R78-8 (not worked in the window, which went to the audit and to the seats' sealed runs)
+- [>] R77-6: P-745 — the seven process arcs escalated at S306n, each resolved or declared open by design (owner: cc) — carried to Review 78 as R78-9 (not worked in the window, which went to the audit and to the seats' sealed runs)
+- [x] R77-7: P-754 — the closure map rebuilt in the views step of every landing, with a lock that fails when the generated files lag their sources (owner: cc) — RESOLVED at Review 78: the gate `closure-generated` runs both builders at every push and compares each generated file with the committed one (`tests/test_closure_generated.py`); P-754 closed
+- [>] R77-8: P-739 — the tube at k = 3: the mesher's two unlabelled translation checks given messages first, then the stop diagnosed (owner: cc) — carried to Review 78 as R78-10 (not worked in the window, which went to the audit and to the seats' sealed runs)
 
 **anchor-commit: `10641a1b2`**
+
+# Review 78 (2026-11-11) — the plan of all remaining work, an outside audit taken up finding by finding, and ten faults in main's own arcs found by two readers
+
+33 commits since Review 77 (`10641a1b2..b28dceea8`, all on the first-parent line, S306o–S306p). The review fell due at the
+twentieth commit and ran at the thirty-third; the push gate fires at 40. The window has 16 arcs with a verdict (B1861–B1876). Run by main. The process arc is B1877; its readers'
+report is in its `verification/readers/`.
+
+**What the window did:**
+- **The closure programme (B1861).** One generated page holds all the remaining work: the 131 nodes of the closure map
+  that still need a path, each in one of 43 packages, in an order the map's own edges check. The 38 inputs are typed,
+  and each says how it could leave the budget: a route is named for 8, and none is built or proved.
+- **An outside audit, taken up finding by finding** (the advisor seat; B1862–B1865, B1870, B1873, B1874).
+  - Its 73 findings stand at 8 fixed, 14 partly fixed, 46 reproduced by main, 4 by a reader only and 1 open.
+  - Three gates now read history, not the working tree: the log is append-only, a sealed file does not change, and a
+    script that a seal hashed does not change.
+  - Its planted violations, run on main: 6 of 21 are caught and 15 still pass (P-757).
+- **The owner's rulings.**
+  - Eleven relayed rulings confirmed to main, with main's opinion on each as the owner asked (P-758). Two were not
+    confirmed. Four are asked once (P-771).
+  - The law's reading is ruled (P-755): the law is what takes part; the move count is not adopted as the weight; the
+    weight stays open as the object of the closed loop.
+  - None of the eleven is yet carried into a governing document (P-767).
+- **Eight seats' results verified on main,** each data-free, with main's own code and none of the seat's:
+  the register-to-field join (B1866); a bundle's symmetries read off its word, and the forcing ledger's facts (B1867);
+  nothing holds weight under the move count (B1868); the principle as a selection rule picks the run of 6 only when
+  level 5 is put in (B1869); one tick or two acts (B1871); "all allowed histories together" defined (B1872); a
+  single state is not kept under composition (B1875); the four attacks on the principle's draft (B1876).
+- **Still 0 of 19.**
+
+## 1. The loop (Review 77's block)
+
+- **Three of the eight items are resolved.**
+  - **R77-1** (P-756): under the move count no value of the modulus holds weight (B1868). The density only sharpens,
+    holding no mass, at one symmetric point.
+  - **R77-2** (P-753): the join is banked as an arc (B1866). The weave's triplet is a character times the symmetric
+    square of the level-2 doublet; the physical lane's review was asked, received and reconciled. Which sign, and
+    whether that character is physical, stay open on the row.
+  - **R77-7** (P-754): the closure map and the closure programme are compared with their builders at every push
+    (`closure-generated`, added at this review). The gate caught a stale programme within minutes of landing in the
+    working tree.
+- **Five are carried, each for the first time:** R77-3 (the lanes' paired current pole), R77-4 (the physical lane's
+  two sealed packets), R77-5 (the agy lane's Theorems C, D, E), R77-6 (the seven process arcs), R77-8 (the tube at
+  k = 3). The window went to the audit and to the seats' sealed runs instead. They are restated below with new keys.
+
+## 1b. The branch inventory and the seats
+
+- **17 unmerged leaves, every one registered.** All are on one remote only: the owner's mirror is unmounted, so the
+  backup push is owed for this window too.
+- **Every seat is harvested to its head:** rows 1629–1670; pins chat1 `8718d467`, advisor `459dd72f`, audit
+  `6ababf23`, agyaudit `da5c7125`. Harvest debt is zero on every seat.
+- **The harvest's depth is still uneven.** The web seat's and the advisor seat's items are verified on main. Of the
+  physical lane's hand proofs one is read in full and none is re-derived (P-749); its two sealed packets wait (P-746).
+- **Relays open:** outbound 30 (AUDIT_LANE 1, ALL_SEATS 1, SM 3, AGY 8, CHAT1 8, PHYSICAL 4, ADVISOR 5), inbound 5
+  (CODEX 2, CHAT1 2, ADVISOR 1). The two from the web seat are read at headline only and are owed a full reading
+  (the weave's own action on the modulus; the content in weave form). They bear on the first lead below.
+
+## 2. The declared modulus
+
+- **The window:** 33 commits, S306o–S306p.
+- **Read in full, drawn by the anchor's seed:** B1861, B1862, B1863, B1865 and B1872, by two readers
+  (`B1877/verification/readers/reader_READ_IN_FULL.md`). All five are main's own arcs of the two days before the
+  review. The readers ran no suite and returned the commands that decide each finding; main ran them.
+  - **Verdicts:** B1862 FAILS. B1872 FAILS on one claim and one vacuous check. B1861, B1863 and B1865 HOLD WITH NOTES.
+  - **Ten must-fix findings. Main checked each at its source and all ten are right.** Each is applied as a dated
+    correction where the corrected line stands.
+  - **B1862, the substantive one for the record.** The arc corrected eight faults an audit had found, most of them
+    corrections that had not reached every page. Three of its own corrections did the same.
+    - The lemma's "commuting" was put in B952's findings, and B1862 wrote that the sentence "stands in B952's findings
+      only". It stood uncorrected in B952's verdict line, its results file and the requirements ledger.
+    - B1856's verdict line still opened with the old form of the premise; the correction was a bracket at its end.
+    - B854's scope was put in § 6 and not in the verdict block at the top of the same file.
+    - All are carried. The premise's two cases are also carried to the four places the advisor seat's second re-audit
+      had named, and to the register's row P-738, which main's own sweep found.
+    - **The lock now checks the other half.** It reads the whole record for each old form and fails wherever one
+      stands without its correction beside it, with a planted control.
+  - **B1872, the substantive one for the mathematics.** Main had printed "every one of the 694 keeps the twin line as
+    well: True" and banked it as a fact. The twin is twice the mark, so the statement holds by linearity and the
+    check could not fail.
+    - The count that can fail: of the positive words to 12 letters, 1 376 keep the eigenline as a set; 694 keep the
+      mark and 682 carry it to its twin.
+    - **That changes an answer.** Main had told the web seat that "one twin or both as the mark" is a convention.
+      Which twin is a convention. One twin or both is not: the allowed subweave has index 12 or 6.
+    - "Four histories that the charge reading allows" said more than the arc computed. Two are of that reading's
+      word form and two are its mirror image. The index 12 stands.
+  - **B1861:** four hand-copied counts in its findings were stale within a day (the bits, the items, the exits'
+    split, the rulings), and one sentence presented six kinds as if they summed to 38. This is Review 77's practice 8,
+    broken by the arc written on the day that practice was adopted. The findings now hold one line of live counts,
+    and the lock compares it with the builder.
+  - **B1865:** the title said seven violations caught where the arc's own note says six.
+- **From the readers' optional notes, applied:**
+  - The reader listed fourteen refusals of the programme's builder that no planted control could make fire. Main
+    measured it on the commit before the review: of the builder's 72 refusals, 24 had never been issued by any test
+    of its lock. All 77 fire now, and a new test runs every planting test with the builder recorded and fails if a
+    refusal in the builder's source is never issued.
+  - The stabiliser's index in B1872 was a printed constant. It is computed.
+- **Recorded and carried to P-772:** two untested branches of the append-only gate, and a roll-up exception that
+  checks less than its description says.
+- **The locks:** a full suite on a fresh clone of b28dceea8 at eight workers: 8 266 passed, 2 failed, 70 skipped.
+  - **Both failures are standing:** B805's two attachment locks (P-239). None is the window's.
+  - **The suite did not find the window's faults; the readers did.** A lock that checks that a new wording is present
+    passes while the old wording stands elsewhere, and a check that cannot fail passes by construction. Both kinds
+    are now covered by locks that can fail (§ 4).
+
+fresh-clone: NOT YET RUN -- the run is made at the review's landing and recorded on this line in the commit after it
+fresh-clone suite: FAIL @ b28dceea8 (2 failed, 8266 passed, 70 skipped, 7 warnings); failing: tests/test_b805_forcing.py::test_gaps_are_reported_not_hidden, tests/test_b805_forcing.py::test_graph_builds_and_separates_authored_edges_from_attachment (both standing, P-239; none from the window)
+sample seed: 10641a1b2; read in full: B1861, B1862, B1863, B1865, B1872
+gate controls: 52 registered failing-path tests; unregistered: none
+
+## 3. Advancement, and the leads
+
+- **The tables.** No law and no theorem was added. One LAW_MAP row was corrected in place (B952's lemma needs
+  "commuting"). GENESIS moved to v1.64, a correction of a count in its own rule, with no status change.
+- **Nothing moved up a strength class, and nothing moved down.**
+- **Ruled by the owner in the window:** the law's reading (P-755).
+- **Ruled by the owner at the review** (2026-11-11, to main, in a dialog; each question was put with main's
+  recommendation and the owner chose it; the questions and answers are verbatim in the register):
+  - the tick is an act (P-771);
+  - the three sentences on the principle's wording are the owner's for main (P-771);
+  - a ground is the act itself (P-774);
+  - "the ledger must close" means that the whole agrees with itself (P-774).
+  - **What follows from the first and third together:** the mark is both twins, so the allowed subweave at level 5
+    is the stabiliser of the eigenline, of index 6. B1872's facts describe the index-12 group of one twin.
+  - None is carried into a governing document by this review. That is the first action item.
+- **Also decided by the owner at the review:** the outreach stays paused and the paper stays frozen (P-081, P-082,
+  P-253). A second compliance note to the agy lane was approved (P-697), and was then not needed: read through the
+  mask at the lane's head, the lane had already mended all three points. A short acknowledgement went instead.
+- **What the window was, by its own labels.** Of its sixteen arcs seven are process (the programme, the audit's
+  corrections, three gates, the planted violations, the backlog) and nine are verifications of seats' results. Main
+  originated no science arc in the window. What was learned about the weave is mostly negative, and it narrows the
+  field:
+  - under the move count nothing holds weight (B1868);
+  - the principle, read as a selection rule, selects what is put in (B1869);
+  - "single" is one history's property and cannot define what is allowed (B1875);
+  - the principle's draft fixes the acts and selects nothing after that (B1876).
+  - **What is left standing as the open object is one thing: the weight,** or equivalently a read-out on the whole
+    that the joint action itself defines.
+- **The leads that could change the direction, ranked** (data-free first steps):
+  1. **P-776, the read-out on the whole, stated before anything is computed.** At level 5 the allowed subweave is a
+     classical congruence group, and its quotient is a curve the record already holds. A state of the whole is a
+     function on that curve. The first step is a design: the operator, its ingredients, what symmetry alone forces,
+     and what would count as failure. The owner's rulings fix which curve: the eigenline's, with the exchange.
+  2. **P-767:** the owner's rulings written into the foundation: the tick as an act, the ground as a postulate with
+     its own number, the closed loop as a postulate with its falsifier, and "one outcome" as one orbit of the whole.
+  3. **P-769's third debt:** the weave's theorems restated for the group with the exchange, at the levels where it
+     doubles.
+  4. **P-775:** prove that a departure's invariants settle by (5 + √21)/2 per golden period.
+  5. **P-753's open half, P-749 (e), P-746, P-747:** carried from Review 77.
+
+## 4. Error-class recurrence
+
+- **No new class.** Three known classes recurred, each on main's own work.
+- **E53, a correction that does not reach every page: three instances (#39–#41),** all in corrections made in answer
+  to an audit of that very fault. One was found by the advisor seat's re-audit and two by this review's reader.
+- **E27, a check that cannot fail: four instances and a runner.** Three were caught by main while writing. The
+  fourth, B1872's twins, was banked and found by the reader. The gate runner itself printed a bare "ok" for every
+  pass, so no gate's sentence reached the reader (found and mended in B1874).
+- **E52, an instrument wrong while its verdict stood:** B1870 tested a script the audit's finding did not mean and
+  wrote that the finding was partly wrong. Three more were self-caught before a reading.
+- **Review 77's practice 8** (no hand-copied live counts) was broken by B1861 on the day it was adopted.
+- **The pattern.** Every one of these was found by someone who had not written the arc: a seat's re-audit, a reader,
+  or a lock that reads the whole record. Main's own re-reading found none of the four that were banked.
+- **The rules are in PRACTICES, "Review 78's practices"** (nine items; five are gated).
+
+## 5. The provenance spot-sweep
+
+- **Pretense:** 5 283 added lines scanned at the window's last landing, 0 hits in the tool's sweep.
+- **Vocabulary:** the tool lists six word pairs new to the window's claims; none is a term. Main's own sweep of the
+  window's arcs added thirteen glosses to TERMINOLOGY (history, ground, departure, the two readings, line and twin
+  and eigenline, allowed subweave, apex and single, back-edge and closed loop, the tick as an act, planted violation,
+  relayed sentence, settling rate).
+
+## 6. The promotion sweep
+
+None promoted. 0 of 19.
+
+## 7. Protocol integrity
+
+- **No seals by main in the window.** The seats sealed six cards. Main verified each after reading its result, with
+  an independent method, and says so in each arc: the reading was not blind.
+- **Held-out targets:** none computed or compared. The owner's hold (P-709) stands.
+- **The masked reading.** The agy lanes were read only through the sealed mask. The physical lane's own review of the
+  join was read through the second mask at the binding minimum (B1866 § 6).
+- **Relayed sentences.** Seventeen sentences of the owner reached main through a seat. Main acts on the eleven the
+  owner confirmed to main, and on no other (P-768).
+- **Readers.** One multi-agent run, approved by the owner for the audit's backlog (B1870): eight readers returned
+  commands and main ran every one before a state changed. This review's two readers worked the same way.
+- **A harness fault that cost the owner two answers:** prompts typed during a long turn were not delivered until
+  the turn ended. Main now reads the transcript's queue at every landing.
+- **The mirror** is unmounted; the backup push is owed.
+
+### Action items (Review 78)
+- [ ] R78-1: P-767 — the owner's rulings carried into the governing documents: the eleven of 2026-11-10 (the goal and the attribution gate first), the four confirmed and the two given directly on 2026-11-11 (the tick as an act; the wording; the ground as a postulate with its own number; the closed loop as a postulate with its falsifier and one outcome as one orbit), and the budget re-typed by what replaces the orientation and the selection criterion (owner: cc)
+- [ ] R78-2: P-772 — the rest of the second re-audit: the six arcs whose sealed scripts changed, read one by one; the seal's order; the seal patterns at any depth; the log's archives, with the append-only gate's untested branches (owner: cc)
+- [ ] R78-3: P-773 — the debts and the unearned identifications joined to the map, an alternative written for every bit and discrete choice, and one price: the certificate script the foundation cites repaired or retired (owner: cc)
+- [ ] R78-4: P-757 — the planted violations that still pass, each closed by a committed planted test or declared open by design (owner: cc)
+- [ ] R78-5: P-776 — the read-out on the whole stated before anything is computed: the quotient by the eigenline's stabiliser with the exchange, the operator and its ingredients, what symmetry forces, what would count as failure; the web seat's two relays on the weave's own action read in full first (owner: cc)
+- [ ] R78-6: P-749 (e) — the lanes' paired current pole re-derived on main with main's own algebra (carried from R77-3; owner: cc)
+- [ ] R78-7: P-746 — main's own review of the physical lane's two sealed packets: acceptance by the schema or a dated refusal (carried from R77-4; owner: cc)
+- [ ] R78-8: P-747 and P-318's next item — the agy lane's Theorems C, D and E and its P-321 note verified on main or declined with a reason; the retraction row for 'the unique metallic grammar' (carried from R77-5; owner: cc)
+- [ ] R78-9: P-745 — the seven process arcs escalated at S306n, each resolved or declared open by design (carried from R77-6; owner: cc)
+- [ ] R78-10: P-739 — the tube at k = 3: the mesher's two unlabelled translation checks given messages first, then the stop diagnosed (carried from R77-8; owner: cc)
+- [ ] R78-11: P-769 — the tick's debts, now due since the owner ruled it an act: the record's structures at the levels where the group doubles, and the weave's theorems restated for the group with the exchange (owner: cc)

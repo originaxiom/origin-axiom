@@ -84,6 +84,7 @@ lock that recomputes the corrected fact. No physical value is computed and nothi
   stands in B567's findings, its lock, and two dated logs; the logs are history and are not edited. "invisible to
   every state" stands in B1856's findings and verdict line and in the generated verdict view. The lemma's sentence
   stands in B952's findings only.
+  *[Corrected 2026-11-11 (Review 78's reader, each checked by main): that last sentence was false. The lemma also stood, uncorrected, in B952's verdict line, in its results file and in `docs/GUT_REQUIREMENTS_LEDGER.md`. See the dated correction at the end of this page.]*
 - **The literature:** none needed. Each fact is elementary and is recomputed.
 
 ## Disclosed
@@ -102,3 +103,27 @@ python3 -m pytest -q frontier/B1862_the_audits_first_corrections/verification/ t
 python3 -B frontier/B1856_charge_or_symmetry_at_five_verified/verification/parity_split.py
 python3 scripts/atlas/query.py card B1812
 ```
+
+## Dated correction, 2026-11-11 (Review 78: this arc read in full by a reader, every finding checked by main)
+
+**The verdict of the read: this arc's corrections were each made, and three of them did not reach every place the
+corrected statement stood.** That is the fault the corrections were answering, repeated in the answer.
+
+| what this arc said | what the reader found | now |
+|---|---|---|
+| "The lemma's sentence stands in B952's findings only" | it also stood, without "commuting", in B952's verdict line, in its results file, and in `docs/GUT_REQUIREMENTS_LEDGER.md` | carried to all three, each with a dated bracket at the sentence |
+| E3 corrected in "B1856's findings … its verdict line" | the verdict line still opened with the old form; the correction was a bracket at its end | a pointer now stands where the old form stands |
+| E8 corrected in "B854's findings (the sentence)" | § 6 was scoped; the verdict block at the top of the same file was not | scoped there too |
+
+**Also carried on the same day,** as the advisor seat's second re-audit asked (P-772): the two cases under "the charge
+premise" are now stated where B1853, B1855, B1857 and the read-out rule's page use it.
+
+**Why the locks did not catch it.** Each lock checks that the corrected wording is present where the correction was
+made. None checked that the old wording was gone, or marked, everywhere else. The lock now asks that too, over the
+whole of `frontier/` and `docs/`.
+
+**Two smaller points of the read, as they stand:**
+- "Each correction has a lock that recomputes the corrected fact" is true of the six that are mathematics. E8's is a
+  scope note, and its lock reads the note back.
+- This arc made a ninth change that its verdict line does not list: the tracked-files gate now reads paths relative
+  to each lock (§ 2b).

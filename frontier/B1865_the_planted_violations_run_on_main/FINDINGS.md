@@ -1,5 +1,7 @@
 # B1865 — The planted violations, run on main by the advisor seat's own script: seven of twenty-one now caught, fourteen still pass
 
+*[Corrected 2026-11-11 (Review 78's reader): the title counts what the script reports. One of the seven is an artefact of the instrument, as § 1 and "Disclosed" say. **Six are caught.**]*
+
 *Main, 2026-11-10 (S306o). The advisor seat made its planted-violation suite a runnable script
 (`relays/advisor_2026-11-10_audit/tools/planted_violations.py` at `c6c5f12e`; harvest row 1639). Main read the script
 and ran it in a scratch clone against main at `30dd1fea7`, after B1862 to B1864. This arc holds the output. It is that

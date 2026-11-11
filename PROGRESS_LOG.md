@@ -19131,3 +19131,41 @@ bringing them 4.79 times closer. That 4.79 is exactly (5 + √21)/2, a number th
 reason. The match is seen on three cases and is not yet proved.
 
 Neither result moves the count. 0 of 19.
+
+## 2026-11-11 — S306p: the periodic review, and four decisions by the owner
+
+**The review.** Every so often the work stops and checks itself. This time two independent readers were given five
+recent pieces of main's own work and told to find what does not hold. They found ten faults. Main checked every one
+at its source. All ten were right.
+
+The three kinds that matter:
+
+- **Corrections that did not travel.** Three earlier corrections had been made in one place and left uncorrected in
+  others where the same wrong statement stood. The work those corrections belonged to was itself about this very
+  fault. They are now carried everywhere, and a check fails if the old wording stands anywhere without the correction
+  beside it.
+- **A check that could not fail.** One "fact" was true by simple algebra, so testing it proved nothing. Replacing it
+  with a test that can fail gave real information: a choice that had been called a matter of convention is a real
+  choice, and it changes which histories count.
+- **Numbers copied by hand.** Four counts copied from a generated page were out of date within a day. One line of
+  such counts is now compared with the page automatically.
+
+None of the ten was found by main re-reading its own work. Each was found by someone who had not written it.
+
+**The owner's decisions.** Seven things were waiting. Main put each as a question with its recommendation, and the
+owner answered all seven. Four of them shape the foundation:
+
+- The single founding step, the "tick", is a real step of the theory. So there are more histories than before, and
+  the new ones have no handedness.
+- Three sentences about how the principle is worded are the owner's: everything that survives is kept; nothing is
+  ranked first or least; the account is the whole ledger.
+- The starting point of the theory is that step itself, not whichever history one cares to pick.
+- "The books must balance" means the whole is consistent with itself. It does not mean one answer falls out.
+
+Together the first and third change which histories are allowed at the level the work uses. None of this is yet
+written into the governing documents; that is the next piece of work.
+
+The other three: outreach stays paused, the paper stays frozen, and a note to another session turned out not to be
+needed because that session had already fixed what the note would have asked for.
+
+Still 0 of 19.

@@ -401,20 +401,33 @@ def build(nodes=None, edges=None):
         if not ps or any(x not in wp for x in ps):
             fails.append("the relayed ruling %r has no package" % name)
     names_r = [name for name, q, ps in S.RULINGS]
-    for name in S.CONFIRMED:
+    confirmed = list(S.CONFIRMED) + list(S.CONFIRMED_LATER)             # the first eleven by one answer; the later ones each by its own
+    for name, (date_, asked_, answer_) in S.CONFIRMED_LATER.items():
+        if not (date_ and asked_ and answer_):
+            fails.append("a later confirmation has no date, question or answer of the owner: %s" % name)
+        if name in S.CONFIRMED:
+            fails.append("a ruling is confirmed twice: %s" % name)
+    for name, asked_, answer_, date_, ps, means_ in S.DIRECT_RULINGS:
+        if not (date_ and asked_ and answer_ and means_):
+            fails.append("a ruling given to main directly has no date, question, answer or meaning: %s" % name)
+        if not ps or any(x not in wp for x in ps):
+            fails.append("a ruling given to main directly has no package: %s" % name)
+        if name in names_r:
+            fails.append("a ruling given to main directly bears a relayed ruling's name: %s" % name)
+    for name in confirmed:
         if name not in names_r:
             fails.append("a ruling is marked confirmed and is not among the relayed rulings: %s" % name)
         if name not in S.OPINION or not S.OPINION[name]:
             fails.append("the owner asked for main's opinion on every confirmed ruling; none is written for: %s" % name)
     for name in S.OPINION:
-        if name not in S.CONFIRMED:
+        if name not in confirmed:
             fails.append("an opinion is written for a ruling that is not confirmed: %s" % name)
     if S.CONFIRMED and not (S.CONFIRMATION[0] and S.CONFIRMATION[1]):
         fails.append("rulings are marked confirmed with no date or no words of the owner")
     for name, words in S.NOT_CONFIRMED.items():
         if name not in names_r:
             fails.append("a ruling is marked not confirmed and is not among the relayed rulings: %s" % name)
-        if name in S.CONFIRMED:
+        if name in confirmed:
             fails.append("a ruling is marked both confirmed and not confirmed: %s" % name)
         if not words:
             fails.append("a ruling is marked not confirmed without the owner's words: %s" % name)
@@ -550,7 +563,8 @@ def build(nodes=None, edges=None):
         findings_with_a_re_audit_verdict=len(S.ACCEPTED), fixed_and_not_yet_re_audited=fixed_unread,
         findings_main_changed_since_the_re_audit=sorted(S.SINCE_REAUDIT),
         audit_findings=len(S.FINDINGS), audit_findings_by_state={s: fstate.get(s, 0) for s in S.FINDING_STATES}, relayed_rulings=len(S.RULINGS),
-        rulings_confirmed_by_the_owner_to_main=len(S.CONFIRMED), rulings_not_confirmed=len(S.NOT_CONFIRMED), rulings_asked=len(S.RULINGS) - len(S.CONFIRMED) - len(S.NOT_CONFIRMED),
+        rulings_confirmed_by_the_owner_to_main=len(confirmed), rulings_not_confirmed=len(S.NOT_CONFIRMED), rulings_asked=len(S.RULINGS) - len(confirmed) - len(S.NOT_CONFIRMED),
+        rulings_given_to_main_directly=len(S.DIRECT_RULINGS),
         headline_results_that_are_conditional_results=cond_heads,
         headline_results_not_yet_results_on_main=[h for h in S.HEADLINES if h not in waits],
         open_choices_under_each_conditional_headline={h: len(waits[h]["premises"]) for h in cond_heads},
@@ -579,11 +593,12 @@ def render(B):
           % (st["conditional_results"], st["debts"]),
           "- **%d packages** in %d waves: %s." % (st["packages"], st["waves"], ", ".join("%s %d" % (k.lower(), v) for k, v in st["packages_by_status"].items())),
           "- **%d packages have no owner:** %s." % (len(st["unowned"]), ", ".join(st["unowned"]) or "none"),
-          "- **Main's spine presently holds %d inputs as the record lists them** (§ 3): %s. The lanes' model adds %d supplied inputs of its own, not typed here."
-          % (st["independent_choices"], ", ".join("%d %s" % (v, PLURAL[k]) for k, v in st["budget"].items()), st["lanes_supplied_inputs"]),
+          "- **Main's spine presently holds %d inputs as the record lists them** (§ 3). Counted by kind they are %d items, since one input can hold more than one choice: %s. The lanes' model adds %d supplied inputs of its own, not typed here."
+          % (st["independent_choices"], st["budget_items"], ", ".join("%d %s" % (v, PLURAL[k]) for k, v in st["budget"].items()), st["lanes_supplied_inputs"]),
           "- **%d findings of the advisor seat's audit** are each in a package (§ 8): %s." % (st["audit_findings"], ", ".join("%s %d" % (k.lower(), v) for k, v in st["audit_findings_by_state"].items())),
-          "- **%d rulings of the owner, as that seat relayed them,** are each mapped to a package. The owner confirmed %d of them to main on %s and did not confirm %d; %d more are asked (§ 9)." % (
-              st["relayed_rulings"], st["rulings_confirmed_by_the_owner_to_main"], S.CONFIRMATION[0], st["rulings_not_confirmed"], st["rulings_asked"]),
+          "- **%d rulings of the owner, as that seat relayed them,** are each mapped to a package. The owner has confirmed %d of them to main (%d on %s, %d on %s) and did not confirm %d; %d are asked. **%d more rulings were given to main directly** (§ 9)." % (
+              st["relayed_rulings"], st["rulings_confirmed_by_the_owner_to_main"], len(S.CONFIRMED), S.CONFIRMATION[0], len(S.CONFIRMED_LATER),
+              sorted({v[0] for v in S.CONFIRMED_LATER.values()})[-1] if S.CONFIRMED_LATER else "no later date", st["rulings_not_confirmed"], st["rulings_asked"], st["rulings_given_to_main_directly"]),
           ""]
     # ---- milestones
     L += ["## 2. The three milestones", "",
@@ -757,27 +772,48 @@ def render(B):
           "", "> \"%s\"" % S.CONFIRMATION[1], "",
           "So %d are confirmed, and main's opinion on each, which the owner asked for, is in the table. %d were relayed after main had" % (len(S.CONFIRMED), len(S.NOT_CONFIRMED)),
           "asked. Asked about those, the owner did not confirm them (the words are in the table): main treats them as no ruling and",
-          "acts on neither. %d more sentences, recorded by the seat later and marked by it as relayed, are asked of the owner and not" % (len(S.RULINGS) - len(S.CONFIRMED) - len(S.NOT_CONFIRMED)),
-          "acted on. A confirmed ruling is carried out in its packages, in landings of its own; this page changes no governing",
-          "document.", "",
+          "acts on neither. %d more sentences, recorded by the seat later and marked by it as relayed, were asked of the owner once; the" % len(S.CONFIRMED_LATER),
+          "owner answered each in a dialog with main, and the question and the chosen answer are in the table. %d are still asked." % (len(S.RULINGS) - len(S.CONFIRMED) - len(S.CONFIRMED_LATER) - len(S.NOT_CONFIRMED)),
+          "A confirmed ruling is carried out in its packages, in landings of its own; this page changes no governing document.", "",
           "| ruling | in the seat's words | state | packages | main's opinion |", "|---|---|---|---|---|"]
     for name, q, ps in S.RULINGS:
-        L.append("| %s | \"%s\" | %s | %s | %s |" % (name, cell(q), "CONFIRMED" if name in S.CONFIRMED else "NOT CONFIRMED: the owner, \"%s\"" % S.NOT_CONFIRMED[name] if name in S.NOT_CONFIRMED else "ASKED",
+        L.append("| %s | \"%s\" | %s | %s | %s |" % (name, cell(q), "CONFIRMED" if name in S.CONFIRMED else "CONFIRMED %s: asked \"%s\", the owner chose \"%s\"" % S.CONFIRMED_LATER[name] if name in S.CONFIRMED_LATER else "NOT CONFIRMED: the owner, \"%s\"" % S.NOT_CONFIRMED[name] if name in S.NOT_CONFIRMED else "ASKED",
                                                  ", ".join(ps), cell(S.OPINION.get(name, "")) or "—"))
+    L += ["", "**Rulings given to main directly** (no seat relayed them; each is the owner's answer to a question main put, with main's",
+          "recommendation marked in the answer's own label):", "",
+          "| ruling | the question, as put | the owner's answer | date | packages | what it means on main |", "|---|---|---|---|---|---|"]
+    for name, asked_, answer_, date_, ps, means_ in S.DIRECT_RULINGS:
+        L.append("| %s | \"%s\" | \"%s\" | %s | %s | %s |" % (name, cell(asked_), cell(answer_), date_, ", ".join(ps), cell(means_)))
     L.append("")
     return "\n".join(L) + "\n"
+
+
+def live_line(st):
+    """one line of the live counts, for the findings: the arc's lock compares it with the page, so the hand-written prose
+    cannot carry a stale count silently (Review 78: its reader found four that had gone stale within a day)"""
+    return ("LIVE: %d inputs as the record lists them, %d items by kind (%s); exits: %s; an exit on the table for %d; rulings: %d relayed, %d confirmed, "
+            "%d not confirmed, %d asked, and %d given to main directly; findings: %s; %d packages in %d waves." % (
+                st["independent_choices"], st["budget_items"], ", ".join("%d %s" % (v, PLURAL[k]) for k, v in st["budget"].items()),
+                ", ".join("%s %d" % (k, v) for k, v in st["exits_by_kind"].items()), st["inputs_with_an_exit_on_the_table"],
+                st["relayed_rulings"], st["rulings_confirmed_by_the_owner_to_main"], st["rulings_not_confirmed"], st["rulings_asked"], st["rulings_given_to_main_directly"],
+                ", ".join("%s %d" % (k, v) for k, v in st["audit_findings_by_state"].items()), st["packages"], st["waves"]))
+
+
+def generated(B):
+    """the two generated files as text, by name: what --write writes, and what the gate compares the committed files with"""
+    out = dict(stats=B["stats"], packages=B["packages"], waits=B["waits"], closure=B["closure"], debt_of=B["debt_of"],
+               inputs=S.INPUTS, rules=S.RULES, tallies=S.TALLIES, certificate=S.CERTIFICATE, value_status=S.VALUE_STATUS,
+               seal_rule=S.SEAL_RULE, findings=S.FINDINGS, rulings=S.RULINGS, confirmed=S.CONFIRMED, confirmation=list(S.CONFIRMATION), opinion=S.OPINION, not_confirmed=S.NOT_CONFIRMED, confirmed_later={k: list(v) for k, v in S.CONFIRMED_LATER.items()}, direct_rulings=[list(r) for r in S.DIRECT_RULINGS],
+               bears_on=S.BEARS_ON, accepted=S.ACCEPTED, accepted_at=list(S.ACCEPTED_AT), since_reaudit={k: list(v) for k, v in S.SINCE_REAUDIT.items()}, released=B["released"], map_dependencies=B["proj"],
+               given=S.GIVEN, also=S.ALSO, exits={k: list(v) for k, v in S.EXITS.items()}, exit_kinds=S.EXIT_KINDS)
+    return {"PROGRAMME.md": render(B), "PROGRAMME.json": json.dumps(out, indent=1, ensure_ascii=False, sort_keys=True) + "\n"}
 
 
 def main():
     B = build()
     if "--write" in sys.argv and not B["fails"]:
-        (ARC / "PROGRAMME.md").write_text(render(B), encoding="utf-8")
-        out = dict(stats=B["stats"], packages=B["packages"], waits=B["waits"], closure=B["closure"], debt_of=B["debt_of"],
-                   inputs=S.INPUTS, rules=S.RULES, tallies=S.TALLIES, certificate=S.CERTIFICATE, value_status=S.VALUE_STATUS,
-                   seal_rule=S.SEAL_RULE, findings=S.FINDINGS, rulings=S.RULINGS, confirmed=S.CONFIRMED, confirmation=list(S.CONFIRMATION), opinion=S.OPINION, not_confirmed=S.NOT_CONFIRMED,
-                   bears_on=S.BEARS_ON, accepted=S.ACCEPTED, accepted_at=list(S.ACCEPTED_AT), since_reaudit={k: list(v) for k, v in S.SINCE_REAUDIT.items()}, released=B["released"], map_dependencies=B["proj"],
-                   given=S.GIVEN, also=S.ALSO, exits={k: list(v) for k, v in S.EXITS.items()}, exit_kinds=S.EXIT_KINDS)
-        (ARC / "PROGRAMME.json").write_text(json.dumps(out, indent=1, ensure_ascii=False, sort_keys=True) + "\n", encoding="utf-8")
+        for name, text in generated(B).items():
+            (ARC / name).write_text(text, encoding="utf-8")
         print("written: PROGRAMME.md, PROGRAMME.json")
     print(json.dumps(B["stats"], indent=1, ensure_ascii=False))
     for n in B["notes"]:

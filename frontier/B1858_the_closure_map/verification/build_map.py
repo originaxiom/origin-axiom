@@ -416,6 +416,12 @@ def render_queue(nodes, edges, stats, rows):
     return "\n".join(L) + "\n"
 
 
+def generated(nodes, edges, stats, rows):
+    """the four generated files as text, by name: what --write writes, and what the gate compares the committed files with"""
+    return {"NODES.json": json.dumps(nodes, indent=1, ensure_ascii=False) + "\n", "EDGES.json": json.dumps(edges, indent=1, ensure_ascii=False) + "\n",
+            "MAP.md": render_map(nodes, edges, stats), "CLOSURE_QUEUE.md": render_queue(nodes, edges, stats, rows)}
+
+
 def main():
     nodes, edges, stats, fails, notes, rows = build()
     print(json.dumps(stats, indent=1, ensure_ascii=False))
@@ -427,10 +433,8 @@ def main():
             print("  " + f)
         return 1
     if "--write" in sys.argv:
-        (ARC / "NODES.json").write_text(json.dumps(nodes, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
-        (ARC / "EDGES.json").write_text(json.dumps(edges, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
-        (ARC / "MAP.md").write_text(render_map(nodes, edges, stats), encoding="utf-8")
-        (ARC / "CLOSURE_QUEUE.md").write_text(render_queue(nodes, edges, stats, rows), encoding="utf-8")
+        for name, text in generated(nodes, edges, stats, rows).items():
+            (ARC / name).write_text(text, encoding="utf-8")
         print("written: NODES.json, EDGES.json, MAP.md, CLOSURE_QUEUE.md")
     print("ALL PINS CHECK")
     return 0

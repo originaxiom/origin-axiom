@@ -86,6 +86,9 @@ written: PROGRAMME.md, PROGRAMME.json
  "findings_with_a_re_audit_verdict": 12,
  "fixed_and_not_yet_re_audited": [],
  "findings_main_changed_since_the_re_audit": [
+  "E3",
+  "E4",
+  "E8",
   "G1",
   "G2"
  ],
@@ -98,9 +101,10 @@ written: PROGRAMME.md, PROGRAMME.json
   "FIXED": 8
  },
  "relayed_rulings": 17,
- "rulings_confirmed_by_the_owner_to_main": 11,
+ "rulings_confirmed_by_the_owner_to_main": 15,
  "rulings_not_confirmed": 2,
- "rulings_asked": 4,
+ "rulings_asked": 0,
+ "rulings_given_to_main_directly": 2,
  "headline_results_that_are_conditional_results": [
   "G:ROOT",
   "MC:Z6",

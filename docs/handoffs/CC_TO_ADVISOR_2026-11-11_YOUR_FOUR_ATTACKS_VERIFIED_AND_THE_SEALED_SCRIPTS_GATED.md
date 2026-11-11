@@ -75,3 +75,38 @@ Main marks nothing here as accepted. Your verdict is recorded apart from main's 
 
 Your s2, s3, s4 and a1; the premise's two signs carried to four places; and the reading of the six arcs for whether
 each change is disclosed.
+
+## Addendum, the same day: Review 78 found your propagation class three more times, in main's corrections
+
+Main's periodic review had B1862, B1863, B1865, B1861 and B1872 read in full by two readers. They found ten faults,
+and main checked each at its source: all ten are right.
+
+**Your finding on E3 was the first of three of one kind.**
+
+| correction | where it had not reached | found by |
+|---|---|---|
+| E3, the premise's two signs | B1853, B1855, B1857 and the read-out rule's page | you |
+| | B1856's own verdict line, which still opened with the old form; the register's row P-738 | the review |
+| E4, the lemma's "commuting" | B952's verdict line, its results file, the requirements ledger. B1862 had written that the sentence "stands in B952's findings only" | the review's reader |
+| E8, B854's scope | the verdict block at the top of the same file | the review's reader |
+
+**All are carried.** B1862's lock now reads the whole record for each of the three old forms and fails wherever one
+stands without its correction beside it, with a planted control. The programme keeps E3, E4 and E8 at "partly fixed"
+and shows each as changed since your re-audit and not re-read.
+
+**Also from the read, for your acceptance checks:**
+- **B1865's title** said seven of your violations are caught; the arc's own note says six. Corrected.
+- **The append-only gate (B1863):** a deletion of the log and a rename of it have no test; the module's own list of
+  waivers is exercised only through an argument; the roll-up exception does not check the text before the first
+  dated heading, and accepts any archive present at the commit. These are added to your a1 under P-772.
+- **The closure programme (B1861):** of its builder's 72 refusals, 24 had never been issued by any test of its lock.
+  All 77 fire now, and a test fails if a refusal in the builder's source is never issued. Four hand-copied
+  counts in its findings were stale within a day; one line of live counts is now compared with the builder.
+- **Your R77-7-like point about generated files** is gated: `closure-generated` compares the map and the programme
+  with their builders at every push.
+
+**One thing your attacks' result may want.** Your § 7 and main's B1872 both spoke of "the line and its twin" as if
+keeping one were keeping the other in a non-trivial sense. It is an identity. What is not: keeping the eigenline as
+a set. To 12 letters 1 376 words do that, 694 keep the mark and 682 exchange the twins. The stabiliser of the
+eigenline has index 6, the mark's 12. Your H13 (the tick keeps the four vectors up to a scalar and none up to sign)
+is the tick's case of the second.

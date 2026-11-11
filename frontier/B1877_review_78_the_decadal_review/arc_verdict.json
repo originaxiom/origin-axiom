@@ -1,0 +1,34 @@
+{
+ "id": "B1877",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1861",
+  "B1862",
+  "B1863",
+  "B1865",
+  "B1872",
+  "B1874",
+  "B1875",
+  "B1876",
+  "B1860"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the review's two readers (verification/readers/reader_READ_IN_FULL.md): ten must-fix findings, each checked by main at its source before it was applied",
+  "the advisor seat's second re-audit (REAUDIT_2_2026-11-10.md @ d59e36d8; harvest row 1660): its finding that the premise's correction was not carried is closed here on main's side, and its re-read is owed"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the record's own arcs, ledgers and rules over Review 78's window (10641a1b2 to the review's landing)",
+  "object": "the window's sixteen arcs (B1861-B1876), the loop of Review 77's block, the seats' harvest, the tables, five arcs read in full",
+  "reach": "general",
+  "hypotheses": "the review template's required core; the seeded sample read in full by two independent readers who ran no suite and returned commands; the fresh-clone suite at the window's last landing and the fresh-clone gates after the review's landing"
+ },
+ "claim_one_line": "REVIEW 78 (run at the thirty-third commit after Review 77; S306o-S306p): three of Review 77's eight items resolved (what concentrates under the move count, B1868; the register-to-field join, B1866; the closure map and programme compared with their builders at every push, a gate added here) and five carried for the first time; every seat harvested to its head; the seeded arcs B1861, B1862, B1863, B1865, B1872, all main's own, read in full by two readers who found ten faults, every one checked by main at its source and found right: three corrections made in answer to an audit of non-propagation had themselves not reached every place (the lemma's 'commuting' in three files, the premise's two cases in six, B854's scope in its verdict block), now carried, with a lock that fails wherever an old form stands without its correction beside it; one check of main's could not fail ('the twins come together', true by linearity), and the count that can -- 1376 words to 12 letters keep the eigenline, 694 the mark, 682 exchange the twins -- changes main's answer to a fork: which twin is a convention, one twin or both is not (index 12 or 6); four hand-copied counts in the closure programme's findings were stale within a day and are replaced by one line the lock compares with the builder; every refusal of the programme's builder now fires in its lock. No new error class; three known classes recurred on main's own work, each found by someone who had not written the arc. The window originated no science of main's own: it built the plan of all remaining work, took up an outside audit of 73 findings and verified eight results of the seats, which leave one object open, the weight. At the review the owner ruled, to main: the tick is an act; three sentences on the principle's wording are the owner's; a ground is the act itself; 'the ledger must close' means that the whole agrees with itself -- so the mark is both twins and the allowed subweave at level 5 is the eigenline's stabiliser, of index 6. Eleven action items, the owner's rulings carried into the governing documents first. 0 of 19.",
+ "weave_or_thread": "neither (a process arc)"
+}

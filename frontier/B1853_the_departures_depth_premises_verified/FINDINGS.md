@@ -32,6 +32,7 @@ The seat's modules were read for their definitions only. 0 of 19.
   the symmetry reading.
 - **HL2:** at N = 2, 3, 4 and 5, only ±I conserve the (±) conjugacy class of every golden background. So the rung
   premise at N is exactly the charge (superselection) reading.
+  *[Dated note, 2026-11-11 (B1862's correction of B1856, the audit's finding E3; carried here by Review 78): "charge" covers two cases. E ≡ +I is invisible to every state. E ≡ −I acts as the parity operator, so it is invisible only on states of definite parity; that is a further condition, a parity superselection rule. Of the 643 rung-invisible defects of R1, 338 are the first and 305 the second.]*
 - **HL3, the least-length departure under each premise, over R1 ∪ R2:**
   - none: (2), 0.7393;
   - symmetry at 5: (2,1,1,1,2);

@@ -69,7 +69,7 @@ value-matching; nothing promotes to `CLAIMS.md`. Gate 5 untouched.
 defect of the particular computation — it is forced:
 
 > **The centralizer of a set of semisimple elements contains a maximal torus, hence has
-> full rank.** The measurement cascade computes centralizers of charges (torus elements).
+> full rank.** *[Corrected 2026-11-10 (B1862, the audit's finding E4), carried to this page 2026-11-11 by Review 78: the elements must COMMUTE. Without that the statement is false: two semisimple elements of SL(3) that do not commute can have a centralizer of rank less than 2. The cascade's charges are torus elements and commute, so the conclusion below stands.]* The measurement cascade computes centralizers of charges (torus elements).
 > **Therefore every measurement in the cascade is rank-preserving, and no number of them
 > can ever reach rank 4.**
 

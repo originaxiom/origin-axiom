@@ -15,6 +15,7 @@ Reductivity leaves exactly two possibilities for a 4-dimensional centralizer: **
 
 > **VERDICT: all six brackets vanish identically. The centralizer is ABELIAN — u(1)⁴.**
 > **There is no non-abelian continuous symmetry commuting with the holonomy's finite image inside E₆.**
+> *[Scoped 2026-11-10 (B1862, the audit's finding E8); carried to this block 2026-11-11 by Review 78, whose reader found the sentence here still unscoped: both lines hold for the PRINCIPAL embedding of 2T, the only one computed (§ 6, § 7). A non-principal embedding has a different centralizer.]*
 
 ## 1. The computation
 

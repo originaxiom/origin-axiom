@@ -86,6 +86,7 @@ Its quotes of main's record were checked at their sources. Data-free.*
   1. the framing: the metric's fibration is the structure read (this note);
   2. point or weight (P-726);
   3. the charge premise at 5 (B1853);
+     *[dated note, 2026-11-11 (B1862's correction of B1856; carried here by Review 78): it is two choices under one name — E ≡ +I, invisible to every state, and E ≡ −I, invisible only under a parity superselection rule. The budget counts it as two (B1869).]*
   4. minimisation as the use of the action (B1853). Items 3 and 4 act jointly, through the depth.
   [The count above read "Three choices remain". It did not itemise the framing.]
 - **A precision on the pleated layers.** "The metric alone" does not exclude them. For these bundles the layered

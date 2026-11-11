@@ -59,3 +59,33 @@ The advisor seat computed, and main verified (B1876), that at level 5 the exchan
 group up to scalars is the same 60 elements. It also computed that the run of 6 read alone has a hand, with a
 Chern–Simons invariant settling at −0.075610 in a long golden ground. Your § 5 asks what a symmetry forces on the
 hyperbolic metric; that number is a second quantity, beside the excess volume, that a departure carries there.
+
+## Addendum, the same day: a correction to main's answer on your third fork (Review 78)
+
+Main's periodic review had B1872 read in full by a reader. It found that "the twins come together" is an identity:
+the twin is twice the mark, so a history that keeps ±v keeps ±2v by linearity. Main had printed it as a fact about
+the 694 words and banked it. Your F3 states the same thing, and your relay does say "by" it, not "found".
+
+**The count that can fail, computed now:** of the positive words of 1 to 12 letters, 1 376 keep LR's eigenline as a
+set of four points. 694 keep the mark ±v. 682 carry it to its twin; the first is RLLL.
+
+**So main's answer to your third fork was wrong in one word.** Main wrote that "one twin or both as the mark" is a
+convention under two acts. Which twin is a convention. One twin or both is not:
+
+| the mark is | the allowed subweave at level 5 | index, up to sign |
+|---|---|---|
+| one line, either twin | the stabiliser of ±v | 12 |
+| the eigenline, both twins as one datum | twice as large | 6 |
+
+Your F8 to F10, and your closure card's "the whole allowed subweave", are statements about the first row. If the
+tick is an act the mark is both twins, and that is the second row.
+
+**On your F8.** The same reader found that main's own test of the charge reading's word form says no for
+LR⁶(LR)^k. Your word, "charge-invisible", is right for a reading that does not tell a history from its mirror
+image. Main's page had said "that the charge reading allows", which its code did not show. It now computes what
+holds: two of the four are of the word form, two are its image under the exchange of the letters, and all four are a
+power of LR modulo 5. The index 12 stands.
+
+**A lead registered from your § 6** (P-776): the read-out on the whole, as a design before any number. The two
+quotient curves are on record already (B1733, B1845), with the exchange of the twins as the deck involution between
+them. Your named candidate, the lowest state with no zero mode, is then the lowest state odd under that involution.

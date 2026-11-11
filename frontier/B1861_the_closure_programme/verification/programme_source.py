@@ -560,6 +560,17 @@ SINCE_REAUDIT = {
     "G1": ("B1874", "the second of its three residuals: both gates put every waiver, with its reason, in their sentence and count waived commits apart from appends; and the runner, which printed a bare ok for every pass, now prints those sentences whole (a waived violation committed in a small repository is named in the printed line). Left: the log's archives, and the history before the rule"),
 }
 
+# REVIEW 78 (2026-11-11, B1877): its reader read B1862 in full and found that three of its corrections had not reached every place
+# the corrected statement stood -- the fault the seat's second re-audit had named for E3, found here for E4 and E8 as well.  Main
+# checked each at its source, carried all of them, and added a lock that fails wherever an old form stands without its correction
+# beside it.  None is marked fixed by this: E3's re-audit verdict says "not carried", and the seat has not re-read it.
+U("E3", "PARTLY FIXED", "carried on 2026-11-11 (Review 78, B1877) to the four places the second re-audit named -- B1853, B1855, B1857 and the read-out rule's page -- and to two more that the review found: B1856's own verdict line still opened with the old form, and the register's row P-738 stated it. A lock now fails if the old form stands anywhere in the record without the correction beside it. Left: the seat's re-read")
+U("E4", "PARTLY FIXED", "B1862 corrected the lemma in B952's findings only; Review 78's reader found it uncorrected in B952's verdict line, its results file and the requirements ledger, and all three now carry 'commuting' at the sentence (B1877). Left, as before: the rank of the cascade's own centralizer is not yet computed by a lock")
+U("E8", "PARTLY FIXED", "B1862 scoped the consequence sentence and the verdict line; Review 78's reader found the verdict block at the top of B854's findings still unscoped, and it is scoped now (B1877). Left, as before: the table of the other classes that the acceptance row names has not been located")
+SINCE_REAUDIT["E3"] = ("B1877", "the correction carried to B1853, B1855, B1857 and the read-out rule's page, as the re-audit asked, and to B1856's verdict line and the register's row P-738; a lock that fails wherever the old form stands unmarked")
+SINCE_REAUDIT["E4"] = ("B1877", "'commuting' carried to B952's verdict line, its results file and the requirements ledger, where the reader of Review 78 found the lemma uncorrected")
+SINCE_REAUDIT["E8"] = ("B1877", "the scope carried to the verdict block at the top of B854's findings")
+
 # the owner's rulings of 2026-11-10 AS RELAYED by the advisor seat. The relay's own rule, and main's: each is confirmed with the
 # owner once before main acts on it. Main asked on 2026-11-10 about the eleven then relayed; the owner answered main the same day,
 # in the words kept in CONFIRMATION below. The two relayed after main had asked were not covered by that answer; asked about them,
@@ -611,6 +622,30 @@ OPINION = {
     "the fork inside it": "agree: it is the owner's law applied consistently. It closes nothing yet, since the joint read-out of all histories has no definition",
     "the founding principle as the selection rule": "worth doing, and the result is honest: the rule picks the run of six only if the level is put in. To be verified on main (P-762)",
 }
+
+# THE OWNER'S ANSWERS OF 2026-11-11, given to main directly in a dialog, each to a question main put with its recommendation.
+# The questions and the chosen answers are kept verbatim; the owner chose main's recommended answer each time, and the label
+# says so.  The first two answers confirm the four sentences that had been asked once (P-771).  The last two answer the advisor
+# seat's two questions (P-774) and are rulings to main that no seat relayed.  None is carried into a governing document by
+# this file: that is P-767.
+CONFIRMED_LATER = {          # the relayed ruling -> (date, the question as main put it, the owner's chosen answer)
+    "the tick is an act": ("2026-11-11", "Is the tick an act?", "Yes, admit it (Recommended)"),
+    "no rule picks a next thing": ("2026-11-11", "Three sentences on the principle's wording: are they yours for main as well?", "Yes, all three (Recommended)"),
+    "what exists is what survives": ("2026-11-11", "Three sentences on the principle's wording: are they yours for main as well?", "Yes, all three (Recommended)"),
+    "the ledger, cancelling, interaction": ("2026-11-11", "Three sentences on the principle's wording: are they yours for main as well?", "Yes, all three (Recommended)"),
+}
+OPINION.update({
+    "the tick is an act": "admit it: it is the founding rule's single step, nothing forbids it, and it makes the root's mirror symmetry a consequence. It removes the orientation as a choice by keeping both and supplies no hand. Build nothing on the added histories before the three debts are computed (P-769)",
+    "no rule picks a next thing": "agree as wording: it matches the computations, in which every 'least' on record returns what was put in. It is not yet a mathematical object",
+    "what exists is what survives": "agree as wording: nothing is ranked least or first, so every selection by rank is a selection on one thread and is labelled so",
+    "the ledger, cancelling, interaction": "agree as wording: 'the whole ledger' and 'a third thing that is kept' can be adopted; neither is yet a mathematical object, and the same definition is owed as for all histories together",
+})
+DIRECT_RULINGS = [           # (name, the question as main put it, the owner's chosen answer, date, packages, what it means on main)
+    ("what a ground is", "What is a ground: the act itself, or any history that exists?", "The act itself (Recommended)", "2026-11-11", ["WP-1.5", "WP-1.4"],
+     "one ground, the tick, and one level, 5, named without ranking anything; to be written as a new postulate with its own number, not as derived (B1876: with every history as a ground there are four root classes and no order)"),
+    ("what 'the ledger must close' means", "What does 'the ledger must close' mean: that the whole agrees with itself, or that one value comes out?", "Whole agrees (Recommended)", "2026-11-11", ["WP-1.6", "WP-0.10"],
+     "one outcome is one orbit of the whole, not one history picked; the closing selects nothing by itself, and a value can only be read from the whole, which needs the weight"),
+]
 
 ADVISOR_QUOTES = [
     ("OWNER_RULINGS_2026-11-10.md", "cc confirms each with the owner before acting on it"),
@@ -752,8 +787,8 @@ EXITS = {
     "reversible updates": ("ADMITTED", "the ledger gave one line for it (an act that merges two sides ends the distinction) with no alternative exhibited; its author has withdrawn it as an exit (the seat's read of this page)."),
     "inverse moves are legal": ("FORCING ARGUED", "adopted by the owner on B1662's argument; the ledger agrees: there must be something to cancel with."),
     "positivity: the side of the mirror": ("FORCING ARGUED", "the ledger: forced up to the sign. Main (B1867): the normal form is a theorem, checked on every hyperbolic matrix with entries up to five; the sign is a separate bit, and the selection criterion decides it if that criterion stands."),
-    "the selection criterion": ("ONE CLAUSE SHORT", "the ledger: a fixed character is a place where nothing happened. Main (B1867): as an exclusion this removes every departure too (the run of six fixes twenty); as a minimum it is the reading GENESIS already grades an interpretation. LR is the one word with a single fixed character, so this row carries the whole selection of the object. For the departure, the principle read as 'the least that no counted level detects' picks the run of six only when the level is put in (B1869). A second route is named and is not open (B1876, the advisor seat's sealed run verified on main): if the ground is the act itself, exactly one history is made of one atom, the tick, and its level is 5 with nothing ranked; that needs the owner's word that the tick is an act (P-771) and a clause saying what a ground is (P-774). With every history as a ground the record's rule has four root classes and no order."),
-    "the orientation": ("PRESSED", "the ledger: the principle does not force it and may speak against it. The non-orientable sibling is the alternative. Verified on main (B1871): if the tick, the owner's founding rule, is an act, both sheets exist and this is no choice; it supplies no hand. Asked of the owner (P-771)."),
+    "the selection criterion": ("ONE CLAUSE SHORT", "the ledger: a fixed character is a place where nothing happened. Main (B1867): as an exclusion this removes every departure too (the run of six fixes twenty); as a minimum it is the reading GENESIS already grades an interpretation. LR is the one word with a single fixed character, so this row carries the whole selection of the object. For the departure, the principle read as 'the least that no counted level detects' picks the run of six only when the level is put in (B1869). A second route is named and is not open (B1876, the advisor seat's sealed run verified on main): if the ground is the act itself, exactly one history is made of one atom, the tick, and its level is 5 with nothing ranked; that needs the owner's word that the tick is an act (P-771) and a clause saying what a ground is (P-774). With every history as a ground the record's rule has four root classes and no order. BOTH GIVEN BY THE OWNER on 2026-11-11, to main: the tick is an act, and a ground is the act itself. The route is then a postulate, to be written with its own number (P-767); it is not a derivation, and this entry keeps its kind until the foundation is amended."),
+    "the orientation": ("PRESSED", "the ledger: the principle does not force it and may speak against it. The non-orientable sibling is the alternative. Verified on main (B1871): if the tick, the owner's founding rule, is an act, both sheets exist and this is no choice; it supplies no hand. Asked of the owner (P-771). RULED BY THE OWNER on 2026-11-11, to main: the tick is an act. The foundation is not yet amended (P-767); until it is, this entry keeps its kind, and nothing is built on the added histories before the debts of P-769."),
     "which family is the object": ("UNTOUCHED", ""),
     "the dictionary's link Λ": ("DICTIONARY", ""),
     "one unit of end data": ("UNTOUCHED", ""),

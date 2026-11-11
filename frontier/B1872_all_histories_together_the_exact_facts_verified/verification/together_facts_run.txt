@@ -1,9 +1,13 @@
 the marked line: LR mod 5 = ((1, 1), (1, 2)) keeps the points [(1, 3), (2, 1), (3, 4), (4, 2)], acting by -1 on them: True; the line is +-(1, 3) and its twin +-(2, 1)
 F9. positive words of 1 to 12 letters that keep the line: 694; of those, a word that is +-1 mod 5 (possibly empty) followed by golden periods: 204
-    every one of them keeps the twin line as well: True
+    (that every one of them keeps the twin as well is an identity and not a count: the twin is twice the mark)
+    what is a count: positive words of 1 to 12 letters that keep LR's eigenline as a set of four points: 1376; of those 694 keep the mark +-v and 682 carry it to its twin (first: RLLL)
 F10. cyclic words of 2 to 12 letters with trace +-2 mod 5: 330; with no rotation that keeps the marked line: 23 (first: LLLRLRRR)
 F11. the group generated mod 5 by LR and RL has 120 elements (all of SL(2, F5)): read from its two base points one thread keeps no line jointly
 F8. in PSL(2, Z) = < s, u | s^2, u^3 >: R = su and L = suu (checked as matrices up to sign)
-    the four histories L^6 R (LR)^k and L R^6 (LR)^k, k = 1, 2, each keeping the line, generate a subgroup of index 12; the line's stabiliser has index 12 (it is the stabiliser mod 5, of order 10 in a group of order 120, up to sign)
+    of the four: L^6 R (LR)^k is of the charge reading's word form (a positive word that is +-1 mod 5, then golden periods); L R^6 (LR)^k is not,
+    and is that form's image under the exchange of the letters, read as a cyclic word; all four are a power of LR mod 5
+    the four histories L^6 R (LR)^k and L R^6 (LR)^k, k = 1, 2, each keeping the line, generate a subgroup of index 12; the line's stabiliser has index 12, computed (10 of the 120 elements mod 5 keep +-v, and -1 is among them)
     controls of the instrument: < L, R > has index 1; < L^2, R > has index 3
+    the mark as the whole eigenline (both twins as one datum) instead of one twin: 20 of the 120 elements mod 5 keep the four points as a set, a stabiliser of index 6; so 'one twin or both' changes what is allowed, and 'which twin' does not
     as matrices mod 5 those four generate a group of 10 elements; it contains -1: True; the line's stabiliser mod 5 has 10
