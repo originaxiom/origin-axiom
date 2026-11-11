@@ -1,0 +1,79 @@
+WHAT LEVEL DOES A GROUND NAME?  N = 2..200; entries to 8
+
+C0  controls
+    F.F = L.R                True
+    F'.F' = R.L              True
+    P.L.P = R                True
+    F' = R.F.R^-1            True
+    det F = det F' = -1      True
+    v0.(L.R) = -v0 mod 5     True
+    v0.F = 3.v0 mod 5        True
+    F = ((0, 1), (1, 1))   F' = ((1, 1), (1, 0))   L.R = ((1, 1), (1, 2))   R.L = ((2, 1), (1, 1))
+P0: HOLDS
+
+C1  the rule of own lines: (d1, d2) of g - I and of g + I; trace, determinant, discriminant
+    F    tr 1 det -1 disc 5   g - I: (1, 1)   g + I: (1, 1)
+    F'   tr 1 det -1 disc 5   g - I: (1, 1)   g + I: (1, 1)
+    L.R  tr 3 det +1 disc 5   g - I: (1, 1)   g + I: (1, 5)
+    R.L  tr 3 det +1 disc 5   g - I: (1, 1)   g + I: (1, 5)
+P1: HOLDS
+
+C1b, C2  for N = 2..200: vectors kept up to sign; lines kept as sets; roots; rho
+    F    vectors kept up to sign, as (N, number): none at any N
+    F'   vectors kept up to sign, as (N, number): none at any N
+    L.R  vectors kept up to sign, as (N, number): [(5, 4)]
+    R.L  vectors kept up to sign, as (N, number): [(5, 4)]
+P1b: HOLDS
+    F    lines kept, as (N, number): [(5, 1), (11, 2), (19, 2), (29, 2), (31, 2), (41, 2), (55, 2), (59, 2), (61, 2), (71, 2), (79, 2), (89, 2), (95, 2), (101, 2), (109, 2), (121, 2), (131, 2), (139, 2), (145, 2), (149, 2), (151, 2), (155, 2), (179, 2), (181, 2), (191, 2), (199, 2)]
+    F    exactly one line at N = [5]
+    F'   lines kept, as (N, number): [(5, 1), (11, 2), (19, 2), (29, 2), (31, 2), (41, 2), (55, 2), (59, 2), (61, 2), (71, 2), (79, 2), (89, 2), (95, 2), (101, 2), (109, 2), (121, 2), (131, 2), (139, 2), (145, 2), (149, 2), (151, 2), (155, 2), (179, 2), (181, 2), (191, 2), (199, 2)]
+    F'   exactly one line at N = [5]
+    L.R  lines kept, as (N, number): [(5, 1), (11, 2), (19, 2), (29, 2), (31, 2), (41, 2), (55, 2), (59, 2), (61, 2), (71, 2), (79, 2), (89, 2), (95, 2), (101, 2), (109, 2), (121, 2), (131, 2), (139, 2), (145, 2), (149, 2), (151, 2), (155, 2), (179, 2), (181, 2), (191, 2), (199, 2)]
+    L.R  exactly one line at N = [5]
+    R.L  lines kept, as (N, number): [(5, 1), (11, 2), (19, 2), (29, 2), (31, 2), (41, 2), (55, 2), (59, 2), (61, 2), (71, 2), (79, 2), (89, 2), (95, 2), (101, 2), (109, 2), (121, 2), (131, 2), (139, 2), (145, 2), (149, 2), (151, 2), (155, 2), (179, 2), (181, 2), (191, 2), (199, 2)]
+    R.L  exactly one line at N = [5]
+    the four grounds keep the same number of lines at every N: True
+P2: HOLDS -- lines = roots = rho at every N: True; exactly one line only at 5: True
+
+C3  at N = 5: the line each ground keeps, and the orbits on its four non-zero vectors
+    F    line [(1, 3), (2, 1), (3, 4), (4, 2)]   orbit lengths [4]
+    F'   line [(1, 2), (2, 4), (3, 1), (4, 3)]   orbit lengths [4]
+    L.R  line [(1, 3), (2, 1), (3, 4), (4, 2)]   orbit lengths [2, 2]
+    R.L  line [(1, 2), (2, 4), (3, 1), (4, 3)]   orbit lengths [2, 2]
+P3: HOLDS
+
+C4  non-negative matrices with entries 0..8
+    determinant +1 or -1: 174 matrices (B1876, H1 has 174); determinant -1: 87
+    trace 0: 1 matrices; (d1,d2)(g - I), (d1,d2)(g + I) occurring: [((1, 0), (1, 0))]
+    trace 1: 2 matrices; (d1,d2)(g - I), (d1,d2)(g + I) occurring: [((1, 1), (1, 1))]
+    trace 2: 4 matrices; (d1,d2)(g - I), (d1,d2)(g + I) occurring: [((1, 2), (1, 2))]
+    trace 3: 6 matrices; (d1,d2)(g - I), (d1,d2)(g + I) occurring: [((1, 3), (1, 3))]
+    trace 4: 10 matrices; (d1,d2)(g - I), (d1,d2)(g + I) occurring: [((1, 4), (1, 4)), ((2, 2), (2, 2))]
+    trace 5: 10 matrices; (d1,d2)(g - I), (d1,d2)(g + I) occurring: [((1, 5), (1, 5))]
+    with no line of their own at any level: [((0, 1), (1, 1)), ((1, 1), (1, 0))]
+P4: HOLDS
+
+C5  REPORTED, NOT PREDICTED: the other root histories of B1876, H6
+    LLR    tr 4 disc 12   g - I: (1, 2)   g + I: (1, 6)
+           exactly one line at N = [2, 3, 6]
+           vectors kept up to sign, as (N, number): [(2, 1), (3, 2), (6, 2)]
+    LRR    tr 4 disc 12   g - I: (1, 2)   g + I: (1, 6)
+           exactly one line at N = [2, 3, 6]
+           vectors kept up to sign, as (N, number): [(2, 1), (3, 2), (6, 2)]
+    LLLR   tr 5 disc 21   g - I: (1, 3)   g + I: (1, 7)
+           exactly one line at N = [3, 7, 21]
+           vectors kept up to sign, as (N, number): [(3, 2), (7, 6)]
+    LRRR   tr 5 disc 21   g - I: (1, 3)   g + I: (1, 7)
+           exactly one line at N = [3, 7, 21]
+           vectors kept up to sign, as (N, number): [(3, 2), (7, 6)]
+    LLLLR  tr 6 disc 32   g - I: (1, 4)   g + I: (1, 8)
+           exactly one line at N = [2]
+           vectors kept up to sign, as (N, number): [(2, 1), (4, 4), (8, 4)]
+    LRRRR  tr 6 disc 32   g - I: (1, 4)   g + I: (1, 8)
+           exactly one line at N = [2]
+           vectors kept up to sign, as (N, number): [(2, 1), (4, 4), (8, 4)]
+    LLRR   tr 6 disc 32   g - I: (2, 2)   g + I: (2, 4)
+           exactly one line at N = []
+           vectors kept up to sign, as (N, number): [(2, 3), (4, 4)]
+
+PREDICTIONS: 6 of 6 hold  (P0 holds, P1 holds, P1b holds, P2 holds, P3 holds, P4 holds)
