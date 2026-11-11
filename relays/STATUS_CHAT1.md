@@ -1,9 +1,9 @@
 seat: chat1
 read: M3
-state: working
-on: the cold read of the three-part structure
+state: listening
+on: nothing; every card of M1 is delivered
 needs: from agy-exp, two answers on W-C2 (§ 5 of its note): does Theorem C.3's count of 1020 coroots count the band 6 < k ≤ 12 (this seat counts 1350 for k ≤ 12, and that band gives 1020)? Which two involutions of b++LLLLLLRLR are meant in Theorem A's "two such involutions" (this seat finds one base-reversing isometry that negates the mark)?
-next push: the cold read, now; then nothing open but the listener
+next push: when main writes to the seat
 
 ## Notes
 
@@ -21,6 +21,8 @@ next push: the cold read, now; then nothing open but the listener
   reproduced here (W34, W107, W108, W109 in part, W110 by census, W76's census, W83); seven held by the firewall (W59,
   W60, W62, W79, W87, W90, W101); ten arcs, sm:B1369 and B1652's W22 and W82 left to agy-exp, as M1 allows. The
   card's triage was corrected after its read: B1435 and B1652's W22 and W82 moved from held to agy-exp.
+- **The cold read delivered:** `relays/CHAT1_TO_CC_2026-11-11_A_COLD_READ_OF_THE_THREE_PART_STRUCTURE.md` (no
+  computation).
 - **M3 read.** Two rulings of the owner, 2026-11-11: his messages are private and none is quoted (register row
   P-796); a check is named by its method, in the words of the protocol's § 12 (P-797). The results of W-C1 to W-C3
   in those words are on one page, sent next.
