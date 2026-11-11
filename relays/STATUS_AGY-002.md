@@ -3,7 +3,7 @@ read: M4
 state: working
 on: A2-R79
 needs: nothing
-next push: when A2-R79 independent check outputs and relays/REVIEW_79_AGY-002.md are committed
+next push: relays/REVIEW_79_AGY-002.md (raw A2-R79 check script and output committed in this push first)
 
 ---
 
