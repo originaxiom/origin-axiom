@@ -11,13 +11,13 @@ Do the physical lane's ten hand derivations of 2026-10-27 to 2026-10-29 hold as 
 
 ## 2. What will be delivered, and what done means
 
-- **One verdict per item:** REPRODUCED, DIFFERS or CANNOT CHECK. Each comes with the commit read, one line of why,
+- **One result per item:** REPRODUCED, DIFFERS or CANNOT CHECK. Each comes with the commit read, one line of why,
   and where this seat's own check lives.
 - **The checks:** this seat's own code, under relays/sm_c1/, for every identity, count or coefficient that decides.
   For the analytic proofs (rows 1423, 1425's gauge fixing, 1465's raising argument, 1487, 1489), a written step-by-step
   review. Each step is either re-derived or marked as resting on a named hypothesis.
 - **The note:** one closing note in the relays folder names the card it closes and where each thing is.
-- **Done means:** ten verdicts committed, with their checks before the page that reads them.
+- **Done means:** ten results committed, with their checks before the page that reads them.
 
 ## 3. What would count as not reproducing (written before any check)
 
@@ -25,7 +25,7 @@ Do the physical lane's ten hand derivations of 2026-10-27 to 2026-10-29 hold as 
   kernel counts, roster and β coefficients, 1487's scale-free combination, 1488's h_C, running vectors and
   determinant): this seat's own computation gives a different value, sign, factor or structure. The comparison is
   exact (rationals) or symbolic where possible, otherwise at 30 digits.
-  - The verdict is DIFFERS, with both values.
+  - The result is DIFFERS, with both values.
   - A difference only of convention (a normalisation stated elsewhere in the lane's record) is REPRODUCED with the
     convention named.
 - **A proof** (rows 1423, 1425, 1465, 1487, 1489):
@@ -52,14 +52,14 @@ Do the physical lane's ten hand derivations of 2026-10-27 to 2026-10-29 hold as 
 
 ## 5. One control that must fail if the work is broken
 
-**The planted error.** Before the verdicts, the identity and coefficient checks are run once on deliberately wrong
+**The planted error.** Before the results, the identity and coefficient checks are run once on deliberately wrong
 inputs, and each must report the error. The inputs are:
 - the doublet alone, (0, 1/2, 3/10), in row 1420's universality check;
 - one branching coefficient changed by one unit in row 1421's D coefficients;
 - a ghost weight of −2 instead of −3 in row 1425;
 - a spectrum of nonzero total weight in row 1422's Z(0) = −h.
 
-If any planted error passes unreported, every verdict of this card is withheld until the check is mended.
+If any planted error passes unreported, every result of this card is withheld until the check is mended.
 
 ## 6. What is needed from main or another seat
 

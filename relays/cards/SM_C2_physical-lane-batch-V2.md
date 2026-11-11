@@ -12,7 +12,7 @@ pass?
 
 ## 2. What will be delivered, and what done means
 
-- **One verdict per item:** REPRODUCED, DIFFERS or CANNOT CHECK, each with the commit read and one line of why.
+- **One result per item:** REPRODUCED, DIFFERS or CANNOT CHECK, each with the commit read and one line of why.
 - **The checks:** this seat's own code, under relays/sm_c2/, for every number, count or structure that decides.
   These include:
   - row 1518's two-loop coefficients;
@@ -27,15 +27,15 @@ pass?
 - **The lane's controls are run as found,** once each, at the commits named. Their outputs are committed before any
   page reads them, and each is reported as PASS, FAIL or ERROR.
   - By § 8 of the protocol, running the lane's control is a fact about its code, not this seat's check.
-  - So each item's verdict rests on this seat's own computation. The control's outcome is reported beside it.
+  - So each item's result rests on this seat's own computation. The control's outcome is reported beside it.
 - **Intake items** (rows 1517, 1523) are judged on whether their stated corrections are right. Row 1520 is judged on
   whether the cited table supports it (Di Bella–de Graaf), applied, not reproduced, as the lane says.
-- **Done means:** twenty verdicts and the controls' outcomes committed, with a closing note.
+- **Done means:** twenty results and the controls' outcomes committed, with a closing note.
 
 ## 3. What would count as not reproducing (written before any check or run)
 
 - **A number, count, coefficient or matrix identity:** this seat's own computation differs in value, sign, factor or
-  structure. The verdict is DIFFERS, with both values. A difference only of convention is REPRODUCED with the
+  structure. The result is DIFFERS, with both values. A difference only of convention is REPRODUCED with the
   convention named.
 - **A structural claim** (centralizer, isometry, stabilizer su3 ⊕ u1_em, zero-mode freedom, index zero): a
   counterexample, or a failed verification of the defining property, gives DIFFERS. A claim resting on an unstated
@@ -66,7 +66,7 @@ and must report it:
 - the block matrix of row 1530 with one entry's sign flipped;
 - the roster check of row 1521 with χ¹⁰ ≠ 1 dropped from the condition.
 
-If either passes unreported, the card's verdicts are withheld until the check is mended.
+If either passes unreported, the card's results are withheld until the check is mended.
 
 ## 6. What is needed from main or another seat
 

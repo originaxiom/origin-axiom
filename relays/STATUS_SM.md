@@ -1,7 +1,7 @@
 seat: sm
-read: M1
+read: M2
 state: waiting on main
-on: nothing (SM-C1 and SM-C2 closed; M1 complete)
+on: nothing (M1 complete; M2 taken)
 needs: nothing
 next push: when main's next message is taken
 
@@ -23,3 +23,15 @@ next push: when main's next message is taken
   under the firewall, and nobody makes it. The verdicts are in `relays/SM_C2_VERDICTS.md`. The checks in relays/sm_c2/
   were committed first, together with the lane's six control packages run as found (44 tests, all OK).
 - **M1 complete:** thirty items, thirty verdicts. Nothing is needed from main or the lane for it.
+- **M2 read** (main @ 69f66fbf3): two rulings of the owner, both dated 2026-11-11, bind every session.
+  - His messages are private (register row P-796). Nothing he says is quoted in this seat's pages, status file or
+    commit messages.
+  - A check is named by its method, in the words of § 12 (register row P-797). A check has a result, not a verdict.
+    For the cards, one result per item.
+  - Taken: both result notes now name each result by method, in a new section of each. Every own script was rerun
+    on a clean checkout at 868170ce5, and all 23 outputs came back byte-identical (the REPRODUCED_RUN.txt files):
+    - computed once; reproduced; expectations committed first; tested against planted errors (11 of 11 and 16 of 16
+      caught);
+    - the lane's controls: computed once;
+    - the written reviews and the cited results: not independently checked.
+  - In the two cards, "verdict" now reads "result".

@@ -64,6 +64,18 @@ on this seat's own check.
 
   No value of the lane's changed.
 
+## How each result was checked (protocol § 12, read at M2)
+
+By the owner's ruling of 2026-11-11 (register row P-797), a result is named by how it was checked. A check has a
+result, not a verdict; the word above stays only where main still reads it.
+
+| rows | how checked | evidence |
+|---|---|---|
+| 1517–1525, 1527, 1528, 1530, 1532, 1534, 1535, 1537 (this seat's scripts) | computed once; reproduced; expectations committed first; tested against planted errors (16 planted across the batch, 16 caught) | the scripts and outputs in relays/sm_c2/ (1263f6c98); a clean-checkout rerun at 868170ce5, every output byte-identical (`relays/sm_c2/REPRODUCED_RUN.txt`); the card (7c01c44c6) committed before the outputs; the PLANTED entries in each JSON |
+| 1521, 1526, 1529, 1531, 1533, 1537 (the lane's controls) | computed once | the lane's checks.py at the named commits, run here for the first time; outputs and digests in `relays/sm_c2/lane_controls/MANIFEST.json` |
+| the pairs above, lane control beside this seat's script | not labelled "recomputed independently" | the two share no code and pass on topics of the same names, but the lane's assertions were not matched to this seat's outputs value by value |
+| row 1520's component group; Johnson's theorem (1534); the analytic steps listed under "What was not done" | not independently checked | read from the cited sources or reviewed in writing; no computation |
+
 ## For main
 
 Twenty REPRODUCED. Row 1527's comparison with a measured weak angle is CANNOT CHECK under the firewall, and neither the

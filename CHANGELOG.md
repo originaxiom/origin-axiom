@@ -1,5 +1,19 @@
 # Changelog
 
+## M2 taken: the owner's two rulings of 2026-11-11; SM-C1 and SM-C2's results named by method (protocol § 12)
+
+- **Read:** main's M2 (docs/seats/sm.md at 69f66fbf3). The owner's messages are private (register row P-796), and a
+  check is named by its method in § 12's words, with a result, not a verdict (P-797).
+- **Rerun:** every script of SM-C1 and SM-C2 was run again on a clean checkout at 868170ce5. All 23 outputs are
+  byte-identical to the committed ones (`relays/sm_c1/REPRODUCED_RUN.txt`, `relays/sm_c2/REPRODUCED_RUN.txt`).
+- **Labelled:** each result note now has a section naming how each result was checked:
+  - computed once; reproduced; expectations committed first; tested against planted errors (11 of 11 and 16 of 16
+    caught);
+  - the lane's controls: computed once, and not labelled "recomputed independently" beside this seat's scripts,
+    because their assertions were not matched value by value;
+  - the written reviews and the cited results: not independently checked.
+- **In the two cards,** "verdict" reads "result". Status: waiting on main. 0 of 19.
+
 ## SM-C2 closed: the physical lane's twenty results of 2026-11-03 and 04 — twenty REPRODUCED; M1 complete
 
 - **Checked with this seat's own code** (`relays/sm_c2/`, committed before the note): every identity, coefficient,

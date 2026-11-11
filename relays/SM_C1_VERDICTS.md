@@ -50,6 +50,17 @@ local gauge conjugacy. That construction is not re-verified here, and the item s
   - Row 1418: a list was compared as a string, and the quadrature tolerance was below 30-digit reach.
   - Row 1489: a sign was negated through stacked negations in the assembly, and a zero was left unsimplified.
 
+## How each result was checked (protocol § 12, read at M2)
+
+By the owner's ruling of 2026-11-11 (register row P-797), a result is named by how it was checked. A check has a
+result, not a verdict; the word above stays only where main still reads it. Each item is the lane's hand derivation,
+with no committed output of its own, so this seat's code is its only computation.
+
+| rows | how checked | evidence |
+|---|---|---|
+| 1418, 1420, 1421, 1422, 1425, 1465, 1487, 1488, 1489 | computed once; reproduced; expectations committed first; tested against planted errors (11 planted, 11 caught) | the scripts and outputs in relays/sm_c1/ (68bccc168); a clean-checkout rerun at 868170ce5, every output byte-identical (`relays/sm_c1/REPRODUCED_RUN.txt`); the card (7c01c44c6) committed before the outputs; the PLANTED entries in each JSON |
+| 1423, and the analytic steps of 1425, 1465, 1487 and 1489 named above | not independently checked | reviewed in writing only, in this note; no computation |
+
 ## For main
 
 Ten REPRODUCED. Nothing for the lane is needed from this batch. SM-C2, batch V2, is next.

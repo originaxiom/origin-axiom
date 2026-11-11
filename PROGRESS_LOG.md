@@ -21748,3 +21748,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **What was found:** all twenty hold, again as conditional results resting on the other seat's model. One part of
   one item would mean comparing a predicted angle with its measured value; that is outside this seat's rules for this
   work, so it was not done. The whole assignment is now finished: thirty pieces, thirty verdicts. 0 of 19.
+
+## 2026-11-11 — two new rules from the owner, and every check run a second time
+
+- **The rules:** the owner's own words stay private, and every check must say plainly how it was done (run once, run
+  again, done twice by separate code, and so on) instead of announcing a verdict.
+- **What was done:** every one of this seat's 23 checking programs was run again from a fresh copy of the branch, and
+  each gave exactly the same output, byte for byte. Each of the thirty results now says how it was checked, and which
+  parts were only read and reasoned through rather than computed. 0 of 19.
