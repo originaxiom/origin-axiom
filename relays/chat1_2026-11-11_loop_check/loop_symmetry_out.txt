@@ -1,0 +1,39 @@
+THE AGY LANE'S LOOP, PHASES 2 AND 3: SYMMETRY FACTS   (SnapPy 3.3.2)
+
+(6), k = 1   word LLLLLLRLR
+    palindrome: True   own mirror: False   trace 22   keeps +-v0: True   M - I: (1, 20)   M + I: (1, 24)
+    volume 5.5863616077   symmetry group: order 4, abelian True, Z/2 + Z/2   amphicheiral: False   Chern-Simons modulo 1/2: -0.07359802
+    mirror word RRRRRRLRL: same volume True; isometric unoriented True; sum of the two Chern-Simons invariants modulo 1/2: 3.75e-16
+(6), k = 2   word LLLLLLRLRLR
+    palindrome: True   own mirror: False   trace 58   keeps +-v0: True   M - I: (1, 56)   M + I: (1, 60)
+    volume 7.6518068915   symmetry group: order 4, abelian True, Z/2 + Z/2   amphicheiral: False   Chern-Simons modulo 1/2: -0.07518723
+    mirror word RRRRRRLRLRL: same volume True; isometric unoriented True; sum of the two Chern-Simons invariants modulo 1/2: 5.55e-17
+(6), k = 3   word LLLLLLRLRLRLR
+    palindrome: True   own mirror: False   trace 152   keeps +-v0: True   M - I: (1, 150)   M + I: (1, 154)
+    volume 9.6890433093   symmetry group: order 4, abelian True, Z/2 + Z/2   amphicheiral: False   Chern-Simons modulo 1/2: -0.07552121
+    mirror word RRRRRRLRLRLRL: same volume True; isometric unoriented True; sum of the two Chern-Simons invariants modulo 1/2: 3.75e-16
+[5,1,2,2] as a closed word   word LLLLLRLLRR
+    palindrome: False   own mirror: False   trace 43   keeps +-v0: True   M - I: (1, 41)   M + I: (1, 45)
+    volume 7.1960774800   symmetry group: order 2, abelian True, Z/2   amphicheiral: False   Chern-Simons modulo 1/2: -0.06654900
+    mirror word RRRRRLRRLL: same volume True; isometric unoriented True; sum of the two Chern-Simons invariants modulo 1/2: -5.00e-16
+[5,1,2,2] then one golden period   word LLLLLRLLRRLR
+    palindrome: False   own mirror: False   trace 107   keeps +-v0: True   M - I: (1, 105)   M + I: (1, 109)
+    volume 9.0687100580   symmetry group: order 2, abelian True, Z/2   amphicheiral: False   Chern-Simons modulo 1/2: -0.06500116
+    mirror word RRRRRLRRLLRL: same volume True; isometric unoriented True; sum of the two Chern-Simons invariants modulo 1/2: 1.08e-15
+(2,1,2,1,2), k = 1   word LLRLLRLLRLR
+    palindrome: True   own mirror: False   trace 138   keeps +-v0: True   M - I: (1, 136)   M + I: (1, 140)
+    volume 10.0896818416   symmetry group: order 4, abelian True, Z/2 + Z/2   amphicheiral: False   Chern-Simons modulo 1/2: -0.06343868
+    mirror word RRLRRLRRLRL: same volume True; isometric unoriented True; sum of the two Chern-Simons invariants modulo 1/2: 3.33e-16
+(2,1,1,1,2), k = 1   word LLRLRLLRLR
+    palindrome: True   own mirror: False   trace 98   keeps +-v0: True   M - I: (2, 48)   M + I: (10, 10)
+    volume 9.5034039310   symmetry group: order 8, abelian True, Z/2 + Z/2 + Z/2   amphicheiral: False   Chern-Simons modulo 1/2: -0.04323741
+    mirror word RRLRLRRLRL: same volume True; isometric unoriented True; sum of the two Chern-Simons invariants modulo 1/2: -1.18e-16
+golden ground, two periods   word LRLR
+    palindrome: True   own mirror: True   trace 7   keeps +-v0: True   M - I: (1, 5)   M + I: (3, 3)
+    volume 4.0597664256   symmetry group: order 16, abelian False, nonabelian group of order 16   amphicheiral: True   Chern-Simons modulo 1/2: -0.00000000
+    mirror word RLRL: same volume True; isometric unoriented True; sum of the two Chern-Simons invariants modulo 1/2: -5.40e-16
+
+X1: HOLDS
+X2: HOLDS
+X3: HOLDS
+X4: HOLDS
