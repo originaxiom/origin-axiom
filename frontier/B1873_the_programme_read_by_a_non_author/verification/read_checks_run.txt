@@ -1,5 +1,5 @@
 1. debts on the map: 83; joined to a node by an edge: 17; joined to nothing: 66 (the read, one debt earlier: 79, 17, 62)
-2. packages the comparison does not wait on: ['WP-0.10', 'WP-0.8'], holding 15 findings (the read, before the repair: six packages, 31 findings)
+2. packages the comparison does not wait on: [], holding 0 findings (the read, before the repair: six packages, 31 findings)
    findings that bear on the repository as a whole: 34; every one is in a package upstream of the sealed card: True
    the sealed card now waits on the suite and on the comparison's own instruments: True
 3. packages marked started while a need has not started: 0 [] (the read: five); the same five are now held as given: {'WP-3.2': ['WP-3.1'], 'WP-4.1': ['WP-2.5'], 'WP-4.3': ['WP-4.2', 'WP-1.7']}

@@ -1,0 +1,120 @@
+{
+ "the fundamental unit is the golden one, of norm -1, and R = pi/(2 ln phi)": true,
+ "H1 psi does not change when its argument is multiplied by the unit (12 cases)": true,
+ "H1 for n <= 40 the ideals of norm n are as many as the sum of (d/5) over the divisors of n": true,
+ "H1 for n <= 40 the coefficient from the enumeration is the one from the Euler product": true,
+ "H1 c(5) = -1; c(2) = c(3) = c(7) = 0 and c(4) = c(9) = 1; c(11) = 2 sgn cos(...)": true,
+ "H2 f(g z) = (d/5) f(z) on the three generators, at three points": true,
+ "H2 negative control: the cosine series with the same coefficients fails on the two generators with factor -1": true,
+ "H3 f vanishes on the mirror's lines x = 0 and x = 1/2 (a sine series): the state is odd under the mirror": true,
+ "H3 f(-conj z) = -f(z)": true,
+ "H3 f vanishes at both elliptic points (2+i)/5 and (-2+i)/5, where the stabiliser has d = +-2 and (2/5) = -1": true,
+ "H4 under the dual involution f(-1/(5z)) = s f(z) with one sign s at both points": true,
+ "so f vanishes at i/sqrt5 if s = -1; and it vanishes at 1/2 + i/(2 sqrt5), which lies on x = 1/2": true,
+ "H5 on 41 points of the arc from the elliptic point to i/sqrt5 the density has exactly one local maximum, strictly inside": true,
+ "H5 it is a critical point in both directions (the gradient of f^2 is below 1e-15 of the peak)": true,
+ "H5 with a negative definite Hessian": true,
+ "H3 the greatest place is off the mirror's lines: a pair, z and -conj z": true,
+ "A1 (added) the two second derivatives of the density sum to -2 (1/4 + R^2) / y^2 times the peak": true,
+ "A2 (added) f vanishes on the second stretch of the arc, the circle |z - 1/2|^2 = 1/20 (five points)": true,
+ "A3 (added) f is even under the reflection in |z|^2 = 1/5 and odd under the reflection in |z - 1/2|^2 = 1/20": true,
+ "A4 (added) on the grid's points inside the cell outside both circles f has one sign": true,
+ "A5 (added) against the chart's Euclidean area the density f^2/y^2 is greatest elsewhere: between 0.04 and 0.07 from the peak, inside the window, off the circle": true,
+ "H5 on the grid no value exceeds the peak found on the arc, and the grid's greatest value is within 2 per cent of it and beside it": true,
+ "H6 main's point agrees with the one the lane reports to 1e-9": false,
+ "A6 (added) the lane's reported point is within 2e-9 of the greatest place and is not it: the gradient there is above 1e-8 of the peak, and the point is off the circle by more than 1e-9": true,
+ "the point lies on |t|^2 = 125 and off the real axis of t (the mirror's fixed set there)": true,
+ "level_5": {
+  "R": "3.2642513026364969067",
+  "sign_under_the_dual_involution": "-1.0",
+  "angle_degrees": "55.7739025870635",
+  "z_star": [
+   "0.25153977814359360527",
+   "0.36976714295820242443"
+  ],
+  "t_star": [
+   "-6.20356305810736",
+   "-9.30138728277055"
+  ],
+  "hessian_trace_over_peak": "-159.51901",
+  "grid_greatest_over_peak": "0.99973685",
+  "distance_from_the_lanes_reported_point": "1.5e-9",
+  "hessian_eigenvalues_over_peak": [
+   "-82.856785",
+   "-76.66222"
+  ],
+  "trace_wanted": "-159.519005666",
+  "cell": {
+   "points": 14432,
+   "positive": 14432,
+   "negative": 0,
+   "least": "5.96e-6"
+  },
+  "euclidean_density_greatest_at": [
+   "0.255",
+   "0.312933"
+  ],
+  "its_distance_from_the_peak": "0.0569",
+  "at_the_lanes_point": {
+   "gradient_over_peak": "1.24e-7",
+   "deficit_over_peak": "9.34e-17",
+   "off_the_circle": "1.33e-9"
+  }
+ },
+ "level 13: the unit has norm -1 and f(g z) = (d/13) f(z) on three moves (d = 2 with factor -1, d = 3 and d = 1 with factor +1), at two points each": true,
+ "level 13: f vanishes at every elliptic point where the character forces it": true,
+ "level 13: and at the others it does not vanish (the points of order 3)": true,
+ "level_13": {
+  "R": "1.31473442106933",
+  "elliptic_points": [
+   [
+    2,
+    5,
+    -1,
+    "7.86e-31"
+   ],
+   [
+    2,
+    8,
+    -1,
+    "2.29e-31"
+   ],
+   [
+    3,
+    3,
+    1,
+    "1.4"
+   ],
+   [
+    3,
+    9,
+    1,
+    "1.4"
+   ]
+  ]
+ },
+ "level 17: the unit has norm -1 and f(g z) = (d/17) f(z) on three moves (d = 3 with factor -1, d = 2 and d = 1 with factor +1), at two points each": true,
+ "level 17: f vanishes at every elliptic point where the character forces it": true,
+ "level 17: and at the others it does not vanish (the points of order 2)": true,
+ "level_17": {
+  "R": "0.749886340657461",
+  "elliptic_points": [
+   [
+    2,
+    4,
+    1,
+    "1.36"
+   ],
+   [
+    2,
+    13,
+    1,
+    "1.36"
+   ]
+  ]
+ },
+ "H7 by hand: (2/5) = -1; (5/13) = -1 and (3/13) = +1; (4/17) = +1; and level 5 has no point of order 3": true,
+ "failing": [
+  "H6 main's point agrees with the one the lane reports to 1e-9"
+ ]
+}

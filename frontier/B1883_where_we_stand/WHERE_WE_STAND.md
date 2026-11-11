@@ -85,12 +85,11 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 
 ## 6. The record's own list
 
-- **781 points registered, 269 open:** 129 lead, 83 debt, 53 process, 4 owner.
-- **Calls that are the owner's to make (4):**
+- **785 points registered, 270 open:** 130 lead, 83 debt, 54 process, 3 owner.
+- **Calls that are the owner's to make (3):**
   - P-081: the reply to the outside reader, approached carefully so the contact is not lost: in his own context (one of his videos as the opening), short, honest…
   - P-082: a second outside reader, later, approached in his own context (relating to his videos), after the first correspondence
   - P-253: the chain gap's top entries (Review 67's R66-3, declined there because the chain is the frozen paper's spine): B1098, B959, B1100, B952, B1086, B1000,…
-  - P-779: FIFTY-SIX OUTBOUND RELAYS OF MAIN'S, OF 2026-08-22 TO 2026-10-02, EXIST ONLY IN MAIN'S WORKING TREE (found on 2026-11-11 when the owner asked what els…
 
 ## 7. What this page does not know
 

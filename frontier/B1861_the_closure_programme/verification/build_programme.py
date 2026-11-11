@@ -569,6 +569,14 @@ def build(nodes=None, edges=None):
         w["rests_on"] = sorted(rests[i] - {i})
         w["sits_under"] = under.get(i, 0)
         w["also_nodes"] = sorted(n for n, ps in S.ALSO.items() if i in ps)
+    # THE COMPARISON RESTS ON EVERYTHING (2026-11-11; the advisor seat's row ORD-a; P-782).  Until this date nothing waited on
+    # WP-0.8, the errors in the mathematics, or on WP-0.10: the card could be sealed with them open.  A package that nothing
+    # needs is an end of the order.  With one end, and no circle among the needs, every package lies under that end.  With two,
+    # the reading could be taken with one of them unfinished, so the order is refused.
+    ends = sorted(w["id"] for w in wps if not any(w["id"] in x["needs_all"] for x in wps))
+    if len(ends) != 1:
+        fails.append("the work order has %d packages that nothing needs (%s); it must have one, the last step, or the reading could be taken with the others unfinished"
+                     % (len(ends), ", ".join(ends)))
     by_layer = collections.OrderedDict()
     for n in nodes:
         if n["id"] in need:

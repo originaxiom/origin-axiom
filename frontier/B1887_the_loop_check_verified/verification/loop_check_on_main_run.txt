@@ -1,0 +1,71 @@
+A. ROOT LATTICES (shortest roots of norm 2)
+   [ok] M1 there are 95 irreducible root systems of rank 1 to 24
+   [ok] M1 every Gram matrix is integral and even
+   [ok] M1 the determinants are the closed forms: A n+1, B 2^n, C 4, D 4, E6 3, E7 2, E8 1, F4 4, G2 3
+   [ok] M1 exactly one has determinant 1, and it is E8 -- [('E', 8)]
+   [ok] M1 G2 and F4 have Cartan determinant 1 and Gram determinant 3 and 4
+   [ok] M1 (the seat's referee's caution) D16+ is even of determinant 1, and no vector of its second coset has norm 2; E8 + E8 has determinant 1 x 1 -- norm of the spinor weight: 4
+
+B. THE METALLIC WORDS W(m) = L^m R^m
+   [ok] M2 for m = 1..12, W - I has invariants (m, m) and W + I has (1, m^2+4) for odd m, (2, (m^2+4)/2) for even m -- [(1, (1, 1), (1, 5)), (2, (2, 2), (2, 4)), (3, (3, 3), (1, 13)), (4, (4, 4), (2, 10))]
+   [ok] M2 so W - I is invertible over the integers only at m = 1, where W + I has invariants (1, 5)
+
+C. THE RUN OF 6 UNDER THE TWIST (the flat-fibre instrument: the lightest state of a sector sits on its classes of least |Q|)
+   [ok] M3 the run of 6 sends the mark to +1, -1, +1 times itself for k = 1, 2, 3 (and alternates to k = 8) -- [1, -1, 1, -1, 1, -1, 1, -1]
+   [ok] M3 untwisted, the run of 6 has one class of least |Q|, for k = 1..8 -- [3, 8, 21, 55, 144, 377, 987, 2584]
+      k=1 q=1: one at 0.5 (least |Q| 60)
+      k=1 q=2: pair at 0.300865 (least |Q| 35)
+      k=2 q=1: pair at 0.391512 (least |Q| 145)
+      k=2 q=2: pair at 0.225903 (least |Q| 95)
+      k=3 q=1: one at 0.5 (least |Q| 350)
+      k=3 q=2: pair at 0.182225 (least |Q| 250)
+   [ok] M3 the seat's table for k = 1, 2, 3: one class at 1/2 or a mirror pair, at its six-figure places
+   [ok] M3 for even k (2, 4, 6, 8) both sectors are mirror pairs; for odd k (1, 3, 5, 7) the mark's sector is one class at 1/2 and the other a pair -- {1: ('one', 'pair'), 2: ('pair', 'pair'), 3: ('one', 'pair'), 4: ('pair', 'pair'), 5: ('one', 'pair'), 6: ('pair', 'pair'), 7: ('one', 'pair'), 8: ('pair', 'pair')}
+   [ok] M3 for no k from 1 to 8 does a twisted sector have a least class at the apex: the nearest is more than 1.8 of arclength away -- k=1 1.859, k=2 1.834, k=3 1.831, k=4 1.83, k=5 1.83, k=6 1.83, k=7 1.83, k=8 1.83
+   [ok] M3 (the seat's E4) the least classes of each sector lie symmetrically about the apex, k = 1..8
+   [ok] M4 with columns in place of rows and the same mark the two sectors are exchanged (k = 1, 2, 3)
+   [ok] M4 for the mirror word the mark (3, 1) gives the same table, and the mark (1, 2), which is twice it, the exchanged one
+   [ok] M4 by hand: a row vector v kept by M corresponds to the column J v, and J (1, 3) = (3, -1) = 3 (1, 3) modulo 5, so charge q by rows is charge 3q by columns: 1 and 2 change places
+      the apex's vector and the pair's two vectors, by k: {1: ((1, 0), ((2, 1), (8, -1))), 2: ((1, 0), ((2, 1), (8, -1))), 8: ((1, 0), ((2, 1), (8, -1)))}
+      the pair's distance from the apex in arclength: k=1 1.8587, k=2 1.8344, k=3 1.8309, k=4 1.8304, k=5 1.8304, k=6 1.8304, k=7 1.8304, k=8 1.8303
+      the run's own class is the fibre's shortest out to: k=1 2.091, k=2 2.0992, k=3 2.1005, k=4 2.1006, k=5 2.1007, k=6 2.1007, k=7 2.1007, k=8 2.1007
+   [ok] M5 the pair in the sector of twice the mark is the same two integer vectors, beside the same apex vector, for k = 1..8 -- ((1, 0), ((2, 1), (8, -1)))
+   [ok] M5 it lies between 1.82 and 1.87 of arclength from the apex -- 1.859 to 1.83
+   [ok] M5 the run's own class is the fibre's shortest out to 2.09 for k = 1 and 2.10 for k = 2..8, so the pair is inside the tube
+   [ok] M6 (2,1,2,1,2), k = 1, 2, 3: each twisted sector has one class, at the apex; (2,1,1,1,2): two classes untwisted and one in each twisted sector -- [(1, 1, 'one', 'one', 2, 1, 1), (2, 1, 'one', 'one', 2, 1, 1), (3, 1, 'one', 'one', 2, 1, 1)]
+
+D. TWO DECLARED WORDS
+   [ok] M7 L^2 R^2 L^2 (LR)^k has cyclic runs 2, 2, 3, 1, then ones, and does not keep the mark by rows or by columns; with one more R the runs are 2, 2, 2 and it does (k = 1, 2, 3) -- (1, [2, 2, 3, 1], [2, 2, 2])
+   [ok] M7 for k = 1 the declared word has invariants (1, 27) and (1, 31): it keeps no line of order 5 at all -- ((1, 27), (1, 31))
+   [ok] M7 L^2 (RL)^4 R L^2 R (LR)^k has runs 2, nine ones, 2 and does not keep the mark; L^2 (RL)^4 R^2 (LR)^k has 2, eight ones, 2 and does (k = 1, 2, 3)
+   [ok] M7 in the golden sea the apex of (2, 1^8, 2) is 1.617974, the value on record in B1857, and that of (2, 1^9, 2) is 1.618057 -- 1.617974198 and 1.618056829
+
+E. THE BUNDLES (SnapPy)
+   SnapPy 3.3.2
+   (6), k = 1                       palindrome True  own mirror False volume 5.58636161  group Z/2 + Z/2 amphicheiral False CS -0.07360  mirror: isometric True, CS sum 3.6e-16
+   (6), k = 2                       palindrome True  own mirror False volume 7.65180689  group Z/2 + Z/2 amphicheiral False CS -0.07519  mirror: isometric True, CS sum 3.3e-16
+   (6), k = 3                       palindrome True  own mirror False volume 9.68904331  group Z/2 + Z/2 amphicheiral False CS -0.07552  mirror: isometric True, CS sum 3.7e-16
+   [5,1,2,2] closed                 palindrome False own mirror False volume 7.19607748  group Z/2       amphicheiral False CS -0.06655  mirror: isometric True, CS sum -5.6e-16
+   [5,1,2,2] and one golden period  palindrome False own mirror False volume 9.06871006  group Z/2       amphicheiral False CS -0.06500  mirror: isometric True, CS sum 5.4e-16
+   (2,1,2,1,2), k = 1               palindrome True  own mirror False volume 10.08968184  group Z/2 + Z/2 amphicheiral False CS -0.06344  mirror: isometric True, CS sum -6.2e-16
+   (2,1,1,1,2), k = 1               palindrome True  own mirror False volume 9.50340393  group Z/2 + Z/2 + Z/2 amphicheiral False CS -0.04324  mirror: isometric True, CS sum 4.2e-16
+   the golden ground, twice         palindrome True  own mirror True  volume 4.05976643  group nonabelian group of order 16 amphicheiral True  CS -0.00000  mirror: isometric True, CS sum -3.6e-16
+   [ok] M8 the run of 6 (k = 1, 2, 3) is a palindrome and not its own mirror; its bundle has the group Z/2 + Z/2 and is not amphicheiral
+   [ok] M8 its Chern-Simons invariants are the record's: -0.07360, -0.07519, -0.07552 -- [-0.073598, -0.075187, -0.075521]
+   [ok] M8 L^5 R L^2 R^2 is not a palindrome; its bundle has two symmetries and is not amphicheiral
+   [ok] M8 for each of the eight words the mirror word has the same volume, is isometric as an unoriented manifold, and has the opposite Chern-Simons invariant modulo 1/2
+   [ok] M8 the golden ground is a palindrome and its own mirror, and its bundle is amphicheiral
+   [ok] M8 a control that can fail: an amphicheiral bundle has Chern-Simons invariant 0 or 1/4 modulo 1/2, and every bundle here that is not amphicheiral has another value
+   [ok] M9 g = rows (1, 0), (6, -1) has determinant -1 and square 1, sends the mark to minus itself, and turns the run of 6 into its inverse, k = 1..8
+   (6), k = 1           isometries 4; keeping the orientation 4; reversing the base 2 (of which keeping the orientation 2)
+   (6), k = 2           isometries 4; keeping the orientation 4; reversing the base 2 (of which keeping the orientation 2)
+   (6), k = 3           isometries 4; keeping the orientation 4; reversing the base 2 (of which keeping the orientation 2)
+   [5,1,2,2] closed     isometries 2; keeping the orientation 2; reversing the base 0 (of which keeping the orientation 0)
+   LLRLRR               isometries 4; keeping the orientation 2; reversing the base 2 (of which keeping the orientation 0)
+   LLLRLRRR             isometries 4; keeping the orientation 2; reversing the base 2 (of which keeping the orientation 0)
+   the golden ground    isometries 8; keeping the orientation 4; reversing the base 4 (of which keeping the orientation 2)
+   [ok] M9 of the four isometries of the run of 6's bundle two reverse the base, and all four keep the orientation (k = 1, 2, 3)
+   [ok] M9 the bundle of L^5 R L^2 R^2 has no isometry that reverses the base
+   [ok] M9 LLRLRR and LLLRLRRR are not palindromes, and their bundles have an isometry that reverses the base; it reverses the orientation
+
+CHECKS: 35, FAILING: 0

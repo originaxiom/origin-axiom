@@ -112,6 +112,12 @@ The work order is the physical lane's (`WORK_ORDER.md` at `521e6f241`, read in f
     guarded once it closes.
 - **The seal and the comparison come last** and run once per claimed prediction (§ 7). The upstream audit needs every
   package of C1 to C4.
+- **Added 2026-11-11, the order's own end (the advisor seat's row ORD-a; P-782).** The order was checked against the
+  map and not against its own end. Nothing waited on WP-0.8, the audit's thirteen errors in the mathematics or its
+  code, or on WP-0.10, so the card could have been sealed with nine of the thirteen not marked fixed. Main's own read
+  of the programme had printed those two packages since B1873, and they were left standing. Mended: the upstream
+  audit needs WP-0.8 and the sealed card needs WP-0.10, so the last step rests on all 42 other packages. The builder
+  refuses an order with a second package that nothing needs, and the old order is planted in the lock.
 
 ## 5. The input budget
 

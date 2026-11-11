@@ -1,0 +1,48 @@
+LEVEL 5: THE GOLDEN STATE
+   [ok] the fundamental unit is the golden one, of norm -1, and R = pi/(2 ln phi) -- 3.2642513026365
+   [ok] H1 psi does not change when its argument is multiplied by the unit (12 cases)
+   [ok] H1 for n <= 40 the ideals of norm n are as many as the sum of (d/5) over the divisors of n
+   [ok] H1 for n <= 40 the coefficient from the enumeration is the one from the Euler product -- 1.07e-27
+   [ok] H1 c(5) = -1; c(2) = c(3) = c(7) = 0 and c(4) = c(9) = 1; c(11) = 2 sgn cos(...) -- -1.11318395792
+   [ok] H2 f(g z) = (d/5) f(z) on the three generators, at three points -- 2.33e-30
+   [ok] H2 negative control: the cosine series with the same coefficients fails on the two generators with factor -1 -- 3.04
+   [ok] H3 f vanishes on the mirror's lines x = 0 and x = 1/2 (a sine series): the state is odd under the mirror
+   [ok] H3 f(-conj z) = -f(z)
+   [ok] H3 f vanishes at both elliptic points (2+i)/5 and (-2+i)/5, where the stabiliser has d = +-2 and (2/5) = -1 -- 2.41e-66
+   [ok] H4 under the dual involution f(-1/(5z)) = s f(z) with one sign s at both points -- s = -1.0
+   [ok] so f vanishes at i/sqrt5 if s = -1; and it vanishes at 1/2 + i/(2 sqrt5), which lies on x = 1/2 -- f^2/top at i/sqrt5: 0.0
+   [ok] H5 on 41 points of the arc from the elliptic point to i/sqrt5 the density has exactly one local maximum, strictly inside -- [18]
+   the greatest place on the arc: angle 55.7739025871 degrees; z = (0.251539778143593605 + 0.369767142958202424j)
+   [ok] H5 it is a critical point in both directions (the gradient of f^2 is below 1e-15 of the peak) -- -2.26e-30, -1.52e-30
+   [ok] H5 with a negative definite Hessian -- trace -159.52, determinant 6352.0 (in units of the peak)
+   [ok] H3 the greatest place is off the mirror's lines: a pair, z and -conj z -- 0.25153978
+   [ok] A1 (added) the two second derivatives of the density sum to -2 (1/4 + R^2) / y^2 times the peak -- -159.519005666 against -159.519005666
+   the Hessian's two eigenvalues, in units of the peak: -82.8568 and -76.6622
+   [ok] A2 (added) f vanishes on the second stretch of the arc, the circle |z - 1/2|^2 = 1/20 (five points) -- 7.31e-32
+   [ok] A3 (added) f is even under the reflection in |z|^2 = 1/5 and odd under the reflection in |z - 1/2|^2 = 1/20 -- 1.93e-31, 5.54e-31
+   [ok] A4 (added) on the grid's points inside the cell outside both circles f has one sign -- 14432 points: 14432 positive, 0 negative; least |f| there 5.96e-6 of the peak's
+   [ok] A5 (added) against the chart's Euclidean area the density f^2/y^2 is greatest elsewhere: between 0.04 and 0.07 from the peak, inside the window, off the circle -- at z = (0.255 + 0.31293j), 0.0569 from the peak, |z|^2 = 0.16295
+   the grid (99 values of x in (0, 1/2), 205 heights from 0.16 to 2.017): greatest value 0.99973685 of the peak, at z = (0.25 + 0.367779j), |z|^2 = 0.197762
+   [ok] H5 on the grid no value exceeds the peak found on the arc, and the grid's greatest value is within 2 per cent of it and beside it -- above: 0
+   [FAILS] H6 main's point agrees with the one the lane reports to 1e-9 -- distance 1.5e-9
+   A6 (added) at the lane's reported point: the gradient of f^2 is 1.24e-7 of the peak (at main's point 2.72e-30); the density is lower by 9.34e-17 of the peak; |z|^2 - 1/5 = 1.33e-9
+   [ok] A6 (added) the lane's reported point is within 2e-9 of the greatest place and is not it: the gradient there is above 1e-8 of the peak, and the point is off the circle by more than 1e-9 -- distance 1.5e-9
+   [ok] the point lies on |t|^2 = 125 and off the real axis of t (the mirror's fixed set there) -- t = (-6.20356305811 - 9.30138728277j)
+
+THE SAME RECIPE AT LEVELS 13 AND 17: WHERE THE STATE MUST VANISH
+   [ok] level 13: the unit has norm -1 and f(g z) = (d/13) f(z) on three moves (d = 2 with factor -1, d = 3 and d = 1 with factor +1), at two points each -- 4.25e-30
+   level 13, a point of order 2 with d = 5: (d/13) = -1; |f| there is 7.86e-31 of the scale
+   level 13, a point of order 2 with d = 8: (d/13) = -1; |f| there is 2.29e-31 of the scale
+   level 13, a point of order 3 with d = 3: (d/13) = +1; |f| there is 1.4 of the scale
+   level 13, a point of order 3 with d = 9: (d/13) = +1; |f| there is 1.4 of the scale
+   [ok] level 13: f vanishes at every elliptic point where the character forces it -- 2
+   [ok] level 13: and at the others it does not vanish (the points of order 3) -- 2
+   [ok] level 17: the unit has norm -1 and f(g z) = (d/17) f(z) on three moves (d = 3 with factor -1, d = 2 and d = 1 with factor +1), at two points each -- 6.11e-30
+   level 17, a point of order 2 with d = 4: (d/17) = +1; |f| there is 1.36 of the scale
+   level 17, a point of order 2 with d = 13: (d/17) = +1; |f| there is 1.36 of the scale
+   [ok] level 17: f vanishes at every elliptic point where the character forces it
+   [ok] level 17: and at the others it does not vanish (the points of order 2) -- 2
+   [ok] H7 by hand: (2/5) = -1; (5/13) = -1 and (3/13) = +1; (4/17) = +1; and level 5 has no point of order 3
+
+CHECKS: 32, FAILING: 1 -- H6 main's point agrees with the one the lane reports to 1e-9
+H6 is main's expectation as written before the first run; it fails by a factor of 1.5 and is kept as failed.  A6 records what the run shows.

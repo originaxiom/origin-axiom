@@ -19326,3 +19326,66 @@ Nothing that was already on the page changed its standing. Nothing was derived, 
 
 0 of 19.
 
+## 2026-11-11 — S306p: an answer owed to a teammate, and an honest look at whether main follows its own plan
+
+**What happened.** The owner told main that the web seat was owed an answer. He was right: one of its results had
+been checked that morning and never answered, and two more had just arrived. While main was working on them, the
+owner sent a page the advisor seat had built for him, a scoreboard of main's own plan, and asked one question: are
+you working according to this?
+
+**The answer to that question was no, not really.** The plan lists 43 pieces of work in the order they have to be
+done. Everything main did in the last two days belongs to one of those pieces. But main was not choosing its next job
+from the plan. It was choosing whatever a teammate had just sent. The result is on the scoreboard: one piece of 43 is
+finished, and none has been finished since the first day. Of the nine housekeeping pieces that must be done before
+the final test, none is finished and four have not been started.
+
+The advisor seat also found a gap in the plan itself. Nothing in it waited for the piece that holds the thirteen
+known errors in the mathematics. The final test could have gone ahead with nine of them unfixed.
+
+**What changed.**
+
+- The plan now makes the final test wait for the errors in the mathematics, and for the single governing document.
+  The program that builds the plan refuses any version where a piece of work is left that nothing waits for.
+- A new working rule: main takes its next job from the plan, housekeeping first, one piece at a time until it is
+  finished. A teammate's new result gets recorded and waits its turn. Every report says which piece moved.
+
+**The teammate's two results, checked.**
+
+- *A particular wave pattern on the whole structure.* The web seat built a known mathematical object, a wave on the
+  surface that represents all allowed histories together, and asked where it is strongest. Main rebuilt it with its
+  own program and got the same place to eighteen digits. Symmetry alone forces the strongest place to come as a
+  left and right pair. Main also found that the place shifts if you measure "strongest" a slightly different way,
+  so this is not yet a way of picking out one answer. Whether this wave is the lowest one of its kind is not shown.
+  Another lane had reported the same place to fifteen digits; only the first nine are right.
+- *A check of another lane's long chain of claims.* The web seat checked the exact parts of that chain. Main checked
+  the same parts by a different method and agrees on all of them. Two of the histories that lane says it studied are
+  written down wrongly in its own specification, and one of its summaries holds only in the simplest case. Nothing
+  from that lane is taken into the record.
+
+**Main's own mistakes this time.** Four of main's checks failed on their first run, each through main's own fault
+and none through the teammate's: a sum cut off too early, a threshold in the wrong unit, a boundary case. All are
+fixed and written down. One fix, a refusal to compute where the sum is cut too early, caught another of main's
+mistakes an hour later.
+
+**Also decided by the owner:** the old messages between seats that were never published stay unpublished.
+
+**Two questions the owner asked, and what main said.**
+
+- *Is it right to describe existence as a cancellation that cannot complete, or as the drawing of a distinction?*
+  Main's honest opinion, which is an opinion and not a result: the first is what our mathematics actually says. Two
+  steps whose order matters cancel in every view that forgets the order, and one thing is left that cannot cancel.
+  The second is true of everything and so picks out nothing; in our books it is the list of things we still assume.
+  The first has so far only told us where nothing can be. It has not produced a single number yet.
+- *Should the audit seat do the building while main checks and records?* Yes, with two conditions: whoever builds
+  something does not also audit it, and nothing is recorded until main has recomputed it. The offer has gone to
+  that seat.
+
+**A fault of main's.** Three of the owner's messages sat unread for fifty minutes while main worked through one long
+stretch. Main had promised to look for waiting messages regularly and looked once. A small program now looks every
+time main runs anything.
+
+**Still running:** the long random test for the one open audit finding. Its result will be saved before anyone
+reads it.
+
+0 of 19.
+

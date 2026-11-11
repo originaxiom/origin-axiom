@@ -1429,3 +1429,12 @@ Three practices came out of the field stage's last window. Each answers a slip t
     postulate of main's, counted as an input. Only main puts questions to the owner, once, with the standing ruling
     quoted. It replaces practice 8's confirmation step: main enters what he said to a seat, lists it in its next
     report, and asks only where it conflicts with a standing ruling. MANUAL.
+15. **A landing works the order, and names the package it advanced** (the owner to main, 2026-11-11, with the
+    scoreboard page the advisor seat built from main's own files: "are u working according to this"; P-782). Main's
+    answer was: inside the order, and not in its order. Every landing sat in a package, and what chose the next task
+    was what a seat had pushed, so no package closed. From that date main takes its next task from the programme's
+    order: the clean-up packages first, one at a time to done, each with its acceptance test. A seat's new relay gets
+    its row at the landing and waits under its package, unless it re-audits the package being closed or the owner
+    says otherwise. Each landing's report names the package it advanced and says whether one closed. And the order
+    ends in one package: the programme's builder refuses a second package that nothing needs, with the old order
+    planted as its test. MIXED.

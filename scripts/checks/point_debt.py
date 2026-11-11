@@ -51,7 +51,7 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 REGISTER = ROOT / "docs" / "POINT_REGISTER.md"
 LEADS = ROOT / "docs" / "OPEN_LEADS.md"
-FLOOR = 781
+FLOOR = 785
 STALE_DAYS = 21
 M1_START = datetime.date(2026, 11, 4)   # the owner's ruling on P-659: direction leads and drafts age from here
 DRAFT_DAYS = 7

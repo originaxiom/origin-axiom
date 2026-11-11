@@ -55,7 +55,11 @@ def test_the_programme_carries_these_states_with_the_old_ones_kept():
         assert F[fid].get("was", [None])[0] == "OPEN", fid
     for fid in BY_PLANTING:
         assert F[fid].get("was", [None])[0] == "READER", fid
-    assert F["V1"]["state"] == "OPEN" and "not checked" in F["V1"]["note"]
+    # Mended 2026-11-11 (the fourth harvest).  This line pinned V1's live state and a phrase of its live note.  The note was
+    # rewritten when the advisor seat sealed a card for V1 (B1882), and this lock failed on main from that landing until this
+    # one, unseen, because the push gates do not run the suite.  What B1870 established is held as history: the note keeps
+    # B1870's sentence whatever V1's state becomes.
+    assert F["V1"]["state"] in S.FINDING_STATES and "Earlier (B1870): the audit's figure has no tracked source" in F["V1"]["note"]
     states = {}
     for f in F.values():
         states[f["state"]] = states.get(f["state"], 0) + 1

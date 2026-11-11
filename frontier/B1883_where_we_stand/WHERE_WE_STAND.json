@@ -216,18 +216,17 @@
  "register": {
   "by_kind": {
    "DEBT": 83,
-   "LEAD": 129,
-   "OWNER": 4,
-   "PROCESS": 53
+   "LEAD": 130,
+   "OWNER": 3,
+   "PROCESS": 54
   },
-  "open": 269,
+  "open": 270,
   "owner_calls_open": [
    "P-081",
    "P-082",
-   "P-253",
-   "P-779"
+   "P-253"
   ],
-  "points": 781
+  "points": 785
  },
  "rows_the_scoreboard_lists": 23,
  "the_count_as_an_output": {

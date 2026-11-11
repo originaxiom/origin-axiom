@@ -218,12 +218,16 @@ P("WP-4.7", "C4", "The agy lane's complete picture, on main",
   ["P-747", "P-750", "P-624"], ["B:FRAME"])
 
 # ---------------------------------------------------------------- C5, C6 (process packages: they close nodes only through the others)
+# 2026-11-11 (the advisor seat's relay on its scoreboard page, its row ORD-a; P-782): until this date NOTHING waited on WP-0.8,
+# the audit's thirteen errors in the mathematics or its code, nor on WP-0.10, the one governing document.  By the order as it
+# stood the card could be sealed with nine of the thirteen not marked fixed.  The owner's goal is that the mathematics is
+# sure before any value is set beside a measurement, so the upstream audit now needs WP-0.8 and the sealed card needs WP-0.10.
 P("WP-5.1", "C5", "The certificate", "What must every arc that a value uses carry before the value may be sealed?", "DECLARE",
   "the advisor seat's standard adopted, with main's two additions; then the certificate generated for the record's candidate, where a dry run by that seat was refused on six grounds", "the certificate is a generated file, and the seal is refused without it", "main; the advisor seat re-audits", ["WP-0.3", "WP-0.7", "WP-0.11"], "STARTED", ["P-757"], [])
 P("WP-5.2", "C5", "The upstream audit", "For each claimed prediction, is everything under it proved, or a declared input?", "DERIVE",
-  "the map's own table of what each headline result rests on, extended to each claimed prediction", "no open, lane-graded or debt node upstream of a prediction", "main", ["WP-0.6", "WP-0.7", "WP-0.12", "@C1", "@C2", "@C3", "@C4"], "NOT STARTED", [], [])
+  "the map's own table of what each headline result rests on, extended to each claimed prediction", "no open, lane-graded or debt node upstream of a prediction", "main", ["WP-0.6", "WP-0.7", "WP-0.8", "WP-0.12", "@C1", "@C2", "@C3", "@C4"], "NOT STARTED", [], [])
 P("WP-5.3", "C5", "The sealed card", "Is the prediction fixed before the comparison, with its power known?", "DERIVE",
-  "the foundation's rule for earning by prediction (seven conditions), the input-completeness ledger's checklist filled before the seal, the look count from the look ledger, and the power computed from the null alone", "a sealed card that meets all seven conditions, with its certificate", "main; the owner", ["WP-5.1", "WP-5.2", "WP-4.4", "WP-0.1", "WP-0.2", "WP-0.4", "WP-0.5", "WP-0.9"], "NOT STARTED", ["P-709"], ["D:13"])
+  "the foundation's rule for earning by prediction (seven conditions), the input-completeness ledger's checklist filled before the seal, the look count from the look ledger, and the power computed from the null alone", "a sealed card that meets all seven conditions, with its certificate", "main; the owner", ["WP-5.1", "WP-5.2", "WP-4.4", "WP-0.1", "WP-0.2", "WP-0.4", "WP-0.5", "WP-0.9", "WP-0.10"], "NOT STARTED", ["P-709"], ["D:13"])
 P("WP-5.4", "C5", "The independent challenge", "Has someone who did not write it tried to break it?", "VERIFY",
   "a hostile referee and a third opinion for every positive value match (the standing directive); a fresh-clone reproduction by a seat that did not author", "no unanswered finding", "another seat", ["WP-5.3"], "NOT STARTED", [], ["D:14"])
 P("WP-6.1", "C6", "Calibration and comparison", "With one declared unit, do the sealed predictions match?", "OWNER",

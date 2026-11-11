@@ -593,7 +593,26 @@ def test_the_refusals_about_the_seats_verdicts_can_fire():
     assert "B734" in S.BEARS_ON["E2"] and "B1850" in S.BEARS_ON["L6"] and "B1841" in S.BEARS_ON["V4"]
 
 
-PLANTING_TESTS = ("test_the_refusals_about_the_seats_verdicts_can_fire", "test_the_refusals_about_the_map_can_fire", "test_the_refusals_about_the_packages_and_the_budget_can_fire",
+def test_the_last_step_rests_on_every_package_and_the_refusals_can_fire():
+    """2026-11-11, the advisor seat's row ORD-a (its relay on the scoreboard page; P-782).  Until this date nothing waited on
+    WP-0.8, the audit's thirteen errors in the mathematics or its code, or on WP-0.10: by the order as it stood the card could
+    be sealed with nine of the thirteen not marked fixed.  The order now ends in one package, and that package rests on every
+    other one.  What could fail: the old order, planted again, building."""
+    wp = {w["id"]: w for w in B["packages"]}
+    last = [i for i in wp if not any(i in x["needs_all"] for x in wp.values())]
+    assert last == ["WP-6.1"] and set(wp["WP-6.1"]["rests_on"]) == set(wp) - {"WP-6.1"} and len(wp) == 43
+    assert "WP-0.8" in _wp("WP-5.2")["needs"] and "WP-0.10" in _wp("WP-5.3")["needs"]
+    assert wp["WP-0.8"]["blocks"] == ["WP-5.2"] and wp["WP-0.10"]["blocks"] == ["WP-5.3"]
+    # the old order, planted: the upstream audit no longer needs the errors in the mathematics, then the card the governing document;
+    # and an order with two ends of another kind: the comparison no longer needs the independent challenge
+    for holder, dropped in (("WP-5.2", "WP-0.8"), ("WP-5.3", "WP-0.10"), ("WP-6.1", "WP-5.4")):
+        w = _wp(holder); old = list(w["needs"])
+        with planted(lambda: w["needs"].remove(dropped), lambda: w.__setitem__("needs", old)) as f:
+            assert any(x.startswith("the work order has 2 packages that nothing needs (%s, WP-6.1); it must have one" % dropped) for x in f), f
+    assert not _refusals()
+
+
+PLANTING_TESTS = ("test_the_last_step_rests_on_every_package_and_the_refusals_can_fire", "test_the_refusals_about_the_seats_verdicts_can_fire", "test_the_refusals_about_the_map_can_fire", "test_the_refusals_about_the_packages_and_the_budget_can_fire",
                   "test_the_refusals_about_the_audit_can_fire", "test_the_order_does_not_ignore_the_map", "test_the_audit_is_carried_finding_by_finding",
                   "test_every_input_says_how_it_could_leave_and_the_refusal_can_fire", "test_the_joins_the_seals_rule_needs_and_each_refusal_can_fire",
                   "test_the_refusals_review_78s_reader_found_unplanted_can_fire")

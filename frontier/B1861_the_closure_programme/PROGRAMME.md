@@ -217,6 +217,7 @@ Each group rests on itself: no member becomes unconditional before the others.
 | WP-0.7 Enforcement that enforces | Does every gate and every seal fail on a committed violation of what it says it guards? | main; the advisor seat re-audits | STARTED | — |
 | WP-0.9 Labels as strong as the content | Does a verdict word, a title or a claim line ever say more than the arc's own body? | main; the advisor seat re-audits | NOT STARTED | — |
 | WP-0.3 Checks that cannot fail, instruments and seal claims | Can every lock under a banked result fail? | main | STARTED | — |
+| WP-0.8 Errors in the mathematics or its code | Is every statement the audit found wrong corrected where it stands, with a lock that computes it? | main; the advisor seat re-audits | STARTED | — |
 | WP-1.1 The principle, as declared postulates | Are the principle's three faces, and its reading as a commutator trace, the theory's declared axioms? | the owner | DONE (declared; GENESIS v1.5) | — |
 | WP-1.3 The moves | Which of the grammar's remaining postulates follow from the principle, and which are declared? | main | NOT STARTED | — |
 | WP-1.9 The register, the deck and the join between states | Is the order-keeping register part of the state, is the deck gauged, and which maps carry physical data between states? | unowned | NOT STARTED | — |
@@ -226,11 +227,10 @@ Each group rests on itself: no member becomes unconditional before the others.
 | WP-4.6 The predictions already on file | Which registered falsifiable claims are live, and what would test them? | main | STARTED (on file; waiting) | — |
 | WP-4.7 The agy lane's complete picture, on main | Which joints of the agy lane's frame does main verify, which does it refute, and does anything in it stand as a result on main? | main | STARTED | — |
 | WP-0.1 False or stale statements in foundation and front documents | Does any living page still state something the record has corrected? | main; the advisor seat re-audits | STARTED | — |
+| WP-0.10 One governing document, at the owner's goal | Which document governs, and does it state the goal as the owner has ruled it? | main; the owner reads the amended text | STARTED | — |
 | WP-0.2 Debts that bear on current work | Do the value frame's candidate and the live prediction rest on anything unchecked? | main | NOT STARTED | — |
 | WP-0.4 Unverified premises and seat results under banked results | Does a banked structural result rest on a seat's word? | main | NOT STARTED | — |
 | WP-0.5 A green full suite on a fresh clone | Does everything reproduce for a reader with only the repository? | main | STARTED | — |
-| WP-0.10 One governing document, at the owner's goal | Which document governs, and does it state the goal as the owner has ruled it? | main; the owner reads the amended text | STARTED | — |
-| WP-0.8 Errors in the mathematics or its code | Is every statement the audit found wrong corrected where it stands, with a lock that computes it? | main; the advisor seat re-audits | STARTED | — |
 
 **Wave 2**
 
@@ -709,14 +709,14 @@ Each group rests on itself: no member becomes unconditional before the others.
 - **The question:** For each claimed prediction, is everything under it proved, or a declared input?
 - **The first step:** the map's own table of what each headline result rests on, extended to each claimed prediction.
 - **Closed when:** no open, lane-graded or debt node upstream of a prediction.
-- **Needs:** WP-0.6, WP-0.7, WP-0.12, every package of C1, every package of C2, every package of C3, every package of C4.
+- **Needs:** WP-0.6, WP-0.7, WP-0.8, WP-0.12, every package of C1, every package of C2, every package of C3, every package of C4.
 
 **WP-5.3 — The sealed card** (DERIVE; NOT STARTED; owner: main; the owner)
 
 - **The question:** Is the prediction fixed before the comparison, with its power known?
 - **The first step:** the foundation's rule for earning by prediction (seven conditions), the input-completeness ledger's checklist filled before the seal, the look count from the look ledger, and the power computed from the null alone.
 - **Closed when:** a sealed card that meets all seven conditions, with its certificate.
-- **Needs:** WP-5.1, WP-5.2, WP-4.4, WP-0.1, WP-0.2, WP-0.4, WP-0.5, WP-0.9.
+- **Needs:** WP-5.1, WP-5.2, WP-4.4, WP-0.1, WP-0.2, WP-0.4, WP-0.5, WP-0.9, WP-0.10.
 - **Nodes (1):** D:13.
 - **Register:** P-709 (DONE).
 
