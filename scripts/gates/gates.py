@@ -136,6 +136,28 @@ NOTHING_LEAVES_FROM = "e6298271afcf081413141874361688ecbb42613f"     # read in h
 LEFT_BY_NAME = {}      # the ledger's path -> {what left it: "the date -- what became of it, and why"}.  Empty on 2026-11-11.
 
 
+RAISED_BY_NAME = {}    # the ceiling's file -> {the entry that rose: "the date -- why"}.  Empty on 2026-11-11.
+
+
+def ceiling_rises(path, now, then, since="the anchor", named=None):
+    """a table of ceilings (entry -> count), as it is now and as it was at the anchor (None where it was not there then): the
+    entries that stand higher now, an entry that was not listed then having stood at 0.  A ceiling may fall freely.  One that
+    rose is a problem unless it is named in RAISED_BY_NAME with its date and why.  Returns (problem, note)."""
+    if then is None:
+        return None, ""
+    named = RAISED_BY_NAME.get(path, {}) if named is None else named
+    count = lambda v: v if isinstance(v, int) and not isinstance(v, bool) else 0
+    rose = sorted(k for k, v in now.items() if count(v) > count(then.get(k)))
+    loose = [k for k in rose if not str(named.get(k, "")).strip()]
+    by_name = [k for k in rose if k not in loose]
+    note = f"; {len(by_name)} ceiling(s) raised by name since {since}: " + "; ".join(f"{k} ({named[k]})" for k in by_name[:4]) if by_name else ""
+    if loose:
+        return (f"{len(loose)} ceiling(s) in {path} rose since {since} with no record: "
+                + "; ".join(f"{k} {count(then.get(k))} -> {count(now[k])}" for k in loose[:4])
+                + ". A ceiling does not rise without a recorded act: lower it again, or name it in RAISED_BY_NAME with its date and why"), note
+    return None, note
+
+
 def _since_the_anchor(anchor, repo=None):
     """a runner of git in `repo`, or the reason the history cannot be read back to `anchor` (the gate then fails closed)"""
     repo = str(repo or ROOT)
@@ -438,7 +460,23 @@ ATTR_EXEMPT_FILES = {          # scanner tests that hunt the same tokens this ga
     "tests/test_sl4_dehn_filling_paper.py"}
 
 
-def gate_attribution():
+def attribution_baseline_rise(anchor=None, repo=None, named=None):
+    """PV19 (WP-0.7): a file fails this gate when it holds more vendor tokens than the baseline allows it, and the baseline is
+    a tracked file that the commit adding the tokens could raise.  "The footprint can only shrink" is the baseline's own
+    rule; it is now read against the baseline as it was at the anchor.  Returns (problem, note)."""
+    anchor = anchor or NOTHING_LEAVES_FROM
+    git, why = _since_the_anchor(anchor, repo)
+    if why:
+        return why, ""
+    was = git("show", f"{anchor}:docs/ATTRIBUTION_BASELINE.json")
+    try:
+        then = json.loads(was.stdout).get("frozen", {}) if was.returncode == 0 else None
+    except Exception:
+        then = None                                                       # unreadable at the anchor: not re-judged
+    return ceiling_rises("docs/ATTRIBUTION_BASELINE.json", _load_attr_baseline(), then if isinstance(then, dict) else None, anchor[:9], named)
+
+
+def gate_attribution(_anchor=None):
     rc, out = _git("ls-files")
     if rc != 0:
         return True, "git unavailable — skipped"
@@ -463,7 +501,10 @@ def gate_attribution():
     # gate read only tracked files and the last commit's author.  It now reads every commit message after ATTRIBUTION_FROM.
     problems, n = attribution_history_problems(ROOT, ATTRIBUTION_FROM)
     hits += problems
-    return not hits, (hits[:10] if hits else f"ok ({n} commit(s) since {ATTRIBUTION_FROM[:9]} read: each by originaxiom, no vendor token and no co-author trailer in its message)")
+    rise, note = attribution_baseline_rise(_anchor)
+    if rise:
+        hits.append(rise)
+    return not hits, (hits[:10] if hits else f"ok ({n} commit(s) since {ATTRIBUTION_FROM[:9]} read: each by originaxiom, no vendor token and no co-author trailer in its message)" + note)
 
 
 # The rule is read in history AFTER this commit: the most recent one on the first-parent line whose message carries a vendor

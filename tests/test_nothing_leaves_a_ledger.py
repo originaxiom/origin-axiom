@@ -370,3 +370,61 @@ def test_a_lock_gone_from_the_disk_or_from_the_index_has_left_before_any_commit_
 def test_on_main_no_lock_has_left_since_the_anchor():
     g = _gates()
     assert g.locks_that_left() == (None, "")
+
+
+# ---- PV19: a ceiling the same commit could raise ------------------------------------------------------------------------
+def test_a_baseline_count_raised_with_the_tokens_it_allows_turns_the_attribution_gate_red(monkeypatch):
+    """PV19 as planted, on this repository's own gate.  The plant goes in through the gate's readers and no tracked file is
+    touched: three vendor tokens are added to the README as the gate reads it, and the README's count in the baseline is raised
+    by three, as one commit could do.  Before the mend the count met the baseline and the gate passed."""
+    g = _gates()
+    assert g.gate_attribution()[0] is True, "the gate must be green before the plant"
+    token = g._VENDOR_TOKS[0]                                               # built by the gate; no vendor's name is typed here
+    real_read, real_load = g._read, g._load_attr_baseline
+    was = len(g._VENDOR_RE.findall(real_read("README.md")))
+    raised = dict(real_load(), **{"README.md": was + 3})
+    monkeypatch.setattr(g, "_read", lambda rel: real_read(rel) + ("\n" + token) * 3 if rel == "README.md" else real_read(rel))
+    monkeypatch.setattr(g, "_load_attr_baseline", lambda: raised)
+    monkeypatch.setattr(g, "_ATTR_BASELINE", raised)
+    ok, detail = g.gate_attribution()
+    assert ok is False, "three vendor tokens went into the README with a baseline raised to fit them, and the gate passed"
+    assert "1 ceiling(s) in docs/ATTRIBUTION_BASELINE.json rose" in str(detail) and "README.md %d -> %d" % (was, was + 3) in str(detail)
+
+
+def test_a_ceiling_may_fall_freely_and_rises_only_by_name():
+    g = _gates()
+    then = {"a.md": 4, "b.md": 1}
+    rises = lambda now, named=None: g.ceiling_rises("the/baseline.json", now, then, "abc123", named or {})
+    assert rises({"a.md": 4, "b.md": 1}) == (None, "")
+    assert rises({"a.md": 2}) == (None, "")                                              # lowered, and an entry gone: both are falls
+    problem, _ = rises({"a.md": 5, "b.md": 1})
+    assert "1 ceiling(s) in the/baseline.json rose since abc123" in problem and "a.md 4 -> 5" in problem
+    problem, _ = rises({"a.md": 4, "b.md": 1, "new.md": 2})                              # a new entry stood at 0
+    assert "new.md 0 -> 2" in problem
+    problem, note = rises({"a.md": 4, "b.md": 1, "new.md": 2}, {"new.md": "2026-11-11 -- b.md was moved here"})
+    assert problem is None and "1 ceiling(s) raised by name" in note and "moved here" in note
+    assert "rose" in rises({"a.md": 4, "new.md": 2}, {"new.md": "  "})[0]                # a name with no reason is not a record
+    assert g.ceiling_rises("x", {"a.md": 99}, None) == (None, "")                        # no table at the anchor: not re-judged
+    assert g.RAISED_BY_NAME == {}, "a ceiling that rises is named here with its date and why; say so in this lock too"
+
+
+def test_the_attribution_baseline_is_read_as_it_was_at_the_anchor(tmp_path):
+    g = _gates()
+    repo = tmp_path / "small"
+    repo.mkdir()
+    _git(repo, "init", "-q")
+    frozen = lambda counts: json.dumps({"_note": "a ratchet", "frozen": counts}) + "\n"
+    anchor = _commit(repo, "the anchor", {"docs/ATTRIBUTION_BASELINE.json": frozen({"a.md": 2})})
+    _commit(repo, "raised", {"docs/ATTRIBUTION_BASELINE.json": frozen({"a.md": 5})})
+    load_small = lambda: json.loads((repo / "docs" / "ATTRIBUTION_BASELINE.json").read_text())["frozen"]
+    real = g._load_attr_baseline
+    g._load_attr_baseline = load_small
+    try:
+        problem, _ = g.attribution_baseline_rise(anchor, repo)
+        assert "a.md 2 -> 5" in problem
+        (repo / "docs" / "ATTRIBUTION_BASELINE.json").write_text(frozen({"a.md": 1}))
+        assert g.attribution_baseline_rise(anchor, repo) == (None, "")
+        assert "cannot verify" in g.attribution_baseline_rise("0" * 40, repo)[0]
+    finally:
+        g._load_attr_baseline = real
+    assert g.attribution_baseline_rise() == (None, ""), "on main the baseline stands no higher than at the anchor"
