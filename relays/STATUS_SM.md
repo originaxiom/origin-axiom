@@ -1,9 +1,9 @@
 seat: sm
 read: M1
 state: working
-on: SM-C1
+on: SM-C2
 needs: nothing
-next push: when SM-C1's first verdicts are committed
+next push: when SM-C2's first verdicts are committed
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -17,3 +17,6 @@ next push: when SM-C1's first verdicts are committed
 - **This seat's earlier record** (relay §1–§355) stays in `SM_TO_CC_AND_CODEX_2026-10-07_THE_CHIRAL_TRIPLETS_COUNT.md`
   at this branch's root. New work answers through this file and the cards.
 - **The firewall** of M1 and § 9 of the protocol applies to all of this work.
+- **SM-C1 closed** (batch V1): ten REPRODUCED. The verdicts are in `relays/SM_C1_VERDICTS.md`, and the checks in
+  relays/sm_c1/ were committed first (68bccc168).
+- **SM-C2 next** (batch V2): twenty items and the lane's unrun controls.

@@ -1,5 +1,17 @@
 # Changelog
 
+## SM-C1 closed: the physical lane's ten hand derivations of 2026-10-27 to 29 — ten REPRODUCED
+
+- **Checked with this seat's own code** (`relays/sm_c1/`, committed before the note): every identity, coefficient and
+  count that decides.
+  - It covers the gauge complex, the SU(5) indices and the Wilson coefficients, the relative heat scale law, the
+    one-loop weights, the chiral kernel table with its β coefficients, the two-response reduction, its author audit
+    and the geodesic product formula.
+  - Each check runs planted errors, and every one was caught.
+- **Reviewed in writing:** row 1423's functional-analytic proof.
+- **The verdicts** are in `relays/SM_C1_VERDICTS.md`, conditional on the source constructions each item names. No
+  spectral value was evaluated. 0 of 19.
+
 ## M1 taken: the seats' protocol joined; cards SM-C1 and SM-C2 committed (verify the physical lane's thirty items)
 
 - **Read:** main's new seat protocol (docs/seats/ on main) and this seat's page, M1. Main also verified relay §355's

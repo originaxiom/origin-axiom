@@ -21730,3 +21730,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **What was done:** the assignment was taken on, the status file written, and the two work cards committed. Each card
   says beforehand what result would count as a failure, so the checking cannot be bent after the fact. Main also
   confirmed this seat's answer to the scale riddle. 0 of 19.
+
+## 2026-11-11 — ten pieces of another seat's physics checked, and all ten hold
+
+- **What was checked:** the first batch of the assignment, ten derivations about quantum corrections to the strengths
+  of the forces in the other seat's model. Each was rebuilt independently, by exact algebra or high-precision
+  numerics. Each check was also fed deliberately wrong inputs, to prove it could catch a mistake.
+- **What was found:** all ten hold, as conditional results resting on the model the other seat built. Three slips were
+  in this seat's own checking code, not in the physics; each is disclosed where it was fixed. 0 of 19.
