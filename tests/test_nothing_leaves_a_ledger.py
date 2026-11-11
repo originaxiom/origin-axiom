@@ -230,3 +230,86 @@ def test_on_main_the_two_pages_hold_everything_they_held_at_the_anchor():
         text = (ROOT / path).read_text(encoding="utf-8")
         assert len(keys(text)) == len(set(keys(text))) > 50, path                      # each row and each link has a name of its own
         assert g.left_the_ledger(path, keys, text) == (None, ""), path
+
+
+# ---- PV10: the identification register and its baseline -----------------------------------------------------------------
+_IDENT_HEAD = "# The identification ledger\n\n| id | what | a | b | map | acts | state | arc | note |\n|---|---|---|---|---|---|---|---|---|\n"
+_IDENT = _IDENT_HEAD + "| I-1 | one | A | B | x | y | **EARNED** | B11 | - |\n| I-2 | two | A | B | x | y | **UNEARNED** | B12 | - |\n"
+_UNEARNED = "| I-%d | planted | A | B | x | y | **UNEARNED** | B13 | - |\n"
+
+
+def _baseline(unearned, raises=()):
+    return json.dumps({"_note": "the ratchet", "unearned": unearned, "_baseline_raises": list(raises)}, indent=1) + "\n"
+
+
+_REGISTER = {"docs/IDENTIFICATION_LEDGER.md": _IDENT, "docs/IDENTIFICATION_BASELINE.json": _baseline(1)}
+
+
+def test_the_identification_baseline_deleted_and_three_unearned_rows_added_turns_the_gate_red(tmp_path):
+    """PV10 as planted.  The ratchet ran only if its baseline was there."""
+    repo, anchor = _scratch(tmp_path, _REGISTER)
+    assert _gate(repo, "identification-register", anchor) == (True, "ok")
+    _commit(repo, "the baseline deleted, three unearned rows added", {"docs/IDENTIFICATION_LEDGER.md": _IDENT + "".join(_UNEARNED % n for n in (3, 4, 5))},
+            delete=["docs/IDENTIFICATION_BASELINE.json"])
+    ok, detail = _gate(repo, "identification-register", anchor)
+    assert ok is False and "IDENTIFICATION_BASELINE.json missing or unreadable" in detail
+
+
+def test_the_baseline_rises_only_by_a_raise_recorded_in_its_own_list(tmp_path):
+    repo, anchor = _scratch(tmp_path, _REGISTER)
+    three_more = {"docs/IDENTIFICATION_LEDGER.md": _IDENT + "".join(_UNEARNED % n for n in (3, 4, 5))}
+    # raised in the commit that adds the rows, with no record: the count agrees with the baseline, and the baseline rose
+    _commit(repo, "three rows, and the baseline moved to fit them", dict(three_more, **{"docs/IDENTIFICATION_BASELINE.json": _baseline(4)}))
+    ok, detail = _gate(repo, "identification-register", anchor)
+    assert ok is False and "the baseline rose 1 -> 4" in detail and "account for 0" in detail
+    # a record that does not say why is not a record
+    _commit(repo, "a raise with no reason", {"docs/IDENTIFICATION_BASELINE.json": _baseline(4, [{"date": "2026-11-11", "from": 1, "to": 4, "reason": " "}])})
+    ok, detail = _gate(repo, "identification-register", anchor)
+    assert ok is False and "no date, no reason" in detail
+    # the recorded act: the raise in the file's own list, dated, with its reason.  The gate passes and says so
+    raise_ = {"date": "2026-11-11", "from": 1, "to": 4, "row": "I-3, I-4, I-5", "reason": "three identifications registered unearned, each with what would earn it"}
+    _commit(repo, "the raise recorded", {"docs/IDENTIFICATION_BASELINE.json": _baseline(4, [raise_])})
+    ok, detail = _gate(repo, "identification-register", anchor)
+    assert ok is True and "raised 1 time(s) by name" in detail and "1 -> 4 (2026-11-11)" in detail
+    # a recorded raise does not leave the list afterwards
+    _commit(repo, "the record of the raise removed", {"docs/IDENTIFICATION_BASELINE.json": _baseline(4)})
+    ok, detail = _gate(repo, "identification-register", anchor)
+    assert ok is False and "the baseline rose 1 -> 4" in detail
+
+
+def test_the_baseline_may_fall_freely_and_must_hold_a_count(tmp_path):
+    repo, anchor = _scratch(tmp_path, _REGISTER)
+    earned = _IDENT.replace("| I-2 | two | A | B | x | y | **UNEARNED**", "| I-2 | two | A | B | x | y | **EARNED**")
+    _commit(repo, "the unearned row is earned and the baseline lowered", {"docs/IDENTIFICATION_LEDGER.md": earned, "docs/IDENTIFICATION_BASELINE.json": _baseline(0)})
+    assert _gate(repo, "identification-register", anchor) == (True, "ok")
+    for broken in ('{"unearned": "many"}', '{"unearned": null}', "{}", "not json at all", '{"unearned": true}'):
+        _commit(repo, "the baseline no longer holds a count", {"docs/IDENTIFICATION_BASELINE.json": broken + "\n"})
+        ok, detail = _gate(repo, "identification-register", anchor)
+        assert ok is False and "the ratchet cannot be read" in detail, broken
+
+
+def test_a_row_that_leaves_the_identification_ledger_turns_the_gate_red_unless_it_is_named(tmp_path):
+    repo, anchor = _scratch(tmp_path, _REGISTER)
+    _commit(repo, "the unearned row is deleted, which also lowers the count", {"docs/IDENTIFICATION_LEDGER.md": _IDENT_HEAD + "| I-1 | one | A | B | x | y | **EARNED** | B11 | - |\n"})
+    ok, detail = _gate(repo, "identification-register", anchor)
+    assert ok is False and "1 identification(s) left docs/IDENTIFICATION_LEDGER.md" in detail and "I-2" in detail
+    _name_in_the_gate(repo, "docs/IDENTIFICATION_LEDGER.md", "I-2", "2026-11-11 -- a duplicate of I-1, merged into it")
+    _commit(repo, "its leaving recorded")
+    ok, detail = _gate(repo, "identification-register", anchor)
+    assert ok is True and "1 identification(s) left by name" in detail
+
+
+def test_the_rule_of_the_raises_on_its_own():
+    g = _gates()
+    then = {"unearned": 5, "_baseline_raises": [{"date": "d", "from": 4, "to": 5, "reason": "r"}]}
+    grow = lambda b, more: {"unearned": b, "_baseline_raises": then["_baseline_raises"] + more}
+    r = lambda a, b: {"date": "2026-11-12", "from": a, "to": b, "reason": "why"}
+    assert g.baseline_rise(grow(5, []), then) == (None, "")
+    assert g.baseline_rise(grow(3, []), then) == (None, "")                              # it may fall with no record
+    assert "rose 5 -> 6" in g.baseline_rise(grow(6, []), then)[0]
+    assert g.baseline_rise(grow(6, [r(5, 6)]), then)[0] is None
+    assert "rose 5 -> 8" in g.baseline_rise(grow(8, [r(5, 6)]), then)[0]                 # one raise recorded, three taken
+    assert g.baseline_rise(grow(8, [r(5, 6), r(6, 8)]), then)[0] is None
+    assert "removed or changed" in g.baseline_rise({"unearned": 5, "_baseline_raises": []}, then)[0]
+    assert "does not go up" in g.baseline_rise(grow(5, [r(6, 5)]), then)[0]
+    assert g.baseline_rise(grow(99, []), None) == (None, "")                             # no baseline at the anchor: not re-judged
