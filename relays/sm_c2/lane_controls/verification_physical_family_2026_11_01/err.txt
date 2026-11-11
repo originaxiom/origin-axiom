@@ -1,0 +1,21 @@
+test_complete_E8_principal_weight_population (checks.PhysicalFamilyChecks.test_complete_E8_principal_weight_population) ... ok
+test_complete_light_kernel_and_R_spin_control (checks.PhysicalFamilyChecks.test_complete_light_kernel_and_R_spin_control) ... ok
+test_disconnected_torus_action_and_rank_four_control (checks.PhysicalFamilyChecks.test_disconnected_torus_action_and_rank_four_control) ... ok
+test_fixed_state_and_covariant_family_are_different (checks.PhysicalFamilyChecks.test_fixed_state_and_covariant_family_are_different) ... ok
+test_full_two_loop_matrix_and_weighted_row (checks.PhysicalFamilyChecks.test_full_two_loop_matrix_and_weighted_row) ... ok
+test_harmonic_metric_period_covariance_and_scale (checks.PhysicalFamilyChecks.test_harmonic_metric_period_covariance_and_scale) ... ok
+test_inner_register_rejects_quotient_map_extension (checks.PhysicalFamilyChecks.test_inner_register_rejects_quotient_map_extension) ... ok
+test_joint_SM_stratum_and_25_central_points (checks.PhysicalFamilyChecks.test_joint_SM_stratum_and_25_central_points) ... ok
+test_level_four_and_seven_orbits_and_axis_map (checks.PhysicalFamilyChecks.test_level_four_and_seven_orbits_and_axis_map) ... ok
+test_order_ten_jump_and_order_seven_alias_scope (checks.PhysicalFamilyChecks.test_order_ten_jump_and_order_seven_alias_scope) ... ok
+test_principal_module_gram_and_chevalley_J (checks.PhysicalFamilyChecks.test_principal_module_gram_and_chevalley_J) ... ok
+test_projective_orbit_metric_and_second_chart (checks.PhysicalFamilyChecks.test_projective_orbit_metric_and_second_chart) ... ok
+test_real_gauss_eigenline_and_scalar_vector_ratio (checks.PhysicalFamilyChecks.test_real_gauss_eigenline_and_scalar_vector_ratio) ... ok
+test_shear_identity_and_heavy_exchange_controls (checks.PhysicalFamilyChecks.test_shear_identity_and_heavy_exchange_controls) ... ok
+test_uniform_roster_exceptions_and_order_four (checks.PhysicalFamilyChecks.test_uniform_roster_exceptions_and_order_four) ... ok
+test_weighted_determinants_and_copy_frame_change (checks.PhysicalFamilyChecks.test_weighted_determinants_and_copy_frame_change) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 1.497s
+
+OK

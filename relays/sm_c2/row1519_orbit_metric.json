@@ -1,0 +1,35 @@
+{
+ "dim5": {
+  "(5)_eq_t/2": true,
+  "kappa(H^2)=2kappa(EdagE)": true
+ },
+ "dim3": {
+  "(5)_eq_t/2": true,
+  "kappa(H^2)=2kappa(EdagE)": true
+ },
+ "dim4": {
+  "(5)_eq_t/2": true,
+  "kappa(H^2)=2kappa(EdagE)": true
+ },
+ "kappa(EdagE)_five": "20",
+ "N0": "10*pi/g6**2",
+ "2N0/Zt": "1",
+ "(7)_FS": true,
+ "(4)_A=Im(zdag dz)": true,
+ "Re(zdag dz)=0": true,
+ "(7)_Kahler": true,
+ "(7)_chart_d": true,
+ "(8)_shear": true,
+ "positive_solution": {
+  "h1": "-l**2",
+  "h2": "l**2",
+  "r1": "c*l",
+  "r2": "c*l"
+ },
+ "positive_W_eff": "[0]",
+ "positive_K_eff_ok": true,
+ "rejecting_W_eff": "[-c*l**3]",
+ "PLANTED_shear_dropped_W_eff": "[c*l**3]",
+ "PLANTED_caught": true,
+ "all_claims_hold_and_plants_caught": true
+}

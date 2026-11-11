@@ -1,0 +1,10 @@
+test_actual_two_triples_and_quartic_polynomial (checks.RegisterFlavourJointChecks.test_actual_two_triples_and_quartic_polynomial) ... ok
+test_complete_mass_map_flavour_intertwiner (checks.RegisterFlavourJointChecks.test_complete_mass_map_flavour_intertwiner) ... ok
+test_covariant_reference_and_register_composition_controls (checks.RegisterFlavourJointChecks.test_covariant_reference_and_register_composition_controls) ... ok
+test_irreducible_holonomy_gram_constraint (checks.RegisterFlavourJointChecks.test_irreducible_holonomy_gram_constraint) ... ok
+test_three_same_parent_stationary_states_and_readouts (checks.RegisterFlavourJointChecks.test_three_same_parent_stationary_states_and_readouts) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 2.486s
+
+OK

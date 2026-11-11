@@ -1,0 +1,30 @@
+{
+ "neutral_block_eigenvalues": [
+  "0",
+  "8/ell**2"
+ ],
+ "sin2_theta": "3/8",
+ "kappa_tZ2": "1/2",
+ "d_perp": [
+  "1/5",
+  "1/5",
+  "-2/5",
+  "2/5",
+  "-2/5"
+ ],
+ "kappa_dperp2": "14/25",
+ "graded": [
+  "-2/5",
+  "1/5",
+  "2/5",
+  "1/5",
+  "-2/5"
+ ],
+ "graded_is_spin2_m0": true,
+ "neutral_coefficient": "56/15",
+ "charged_coefficient": "4/3",
+ "rho_series": "s/5 + 1",
+ "wedge_coefficient_abs": "2/5",
+ "PLANTED_wrong_P0_eigenvalue_caught": true,
+ "all_claims_hold_and_plants_caught": true
+}

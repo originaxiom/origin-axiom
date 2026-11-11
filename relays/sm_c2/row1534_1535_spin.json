@@ -1,0 +1,180 @@
+{
+ "row1534": {
+  "q_(0,0)": {
+   "refinement": true,
+   "xi(tilde v)=q(v)": true,
+   "Arf": 0,
+   "values": [
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  "q_(0,1)": {
+   "refinement": true,
+   "xi(tilde v)=q(v)": true,
+   "Arf": 0,
+   "values": [
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  "q_(1,0)": {
+   "refinement": true,
+   "xi(tilde v)=q(v)": true,
+   "Arf": 0,
+   "values": [
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  "q_(1,1)": {
+   "refinement": true,
+   "xi(tilde v)=q(v)": true,
+   "Arf": 1,
+   "values": [
+    0,
+    1,
+    1,
+    1
+   ]
+  },
+  "fixed_by_all_SL2F2": [
+   [
+    1,
+    1
+   ]
+  ],
+  "orbit_of_q00_size": 3,
+  "order->(invariant classes, 2^dim ker)": {
+   "2": [
+    [
+     2,
+     2
+    ]
+   ],
+   "3": [
+    [
+     1,
+     1
+    ]
+   ],
+   "1": [
+    [
+     4,
+     4
+    ]
+   ]
+  },
+  "words": {
+   "LR": {
+    "matrix": [
+     [
+      2,
+      1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "mod2_order": 3,
+    "invariant_classes": 1
+   },
+   "L2R": {
+    "matrix": [
+     [
+      3,
+      2
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "mod2_order": 2,
+    "invariant_classes": 2
+   },
+   "L2R2": {
+    "matrix": [
+     [
+      5,
+      2
+     ],
+     [
+      2,
+      1
+     ]
+    ],
+    "mod2_order": 1,
+    "invariant_classes": 4
+   }
+  },
+  "flat_xi_on_bar_a_bar_b_for_q11": [
+   0,
+   0
+  ],
+  "holonomy_signs_relative_to_periodic": {
+   "(0,0)": [
+    -1,
+    -1
+   ],
+   "(0,1)": [
+    -1,
+    1
+   ],
+   "(1,0)": [
+    1,
+    -1
+   ],
+   "(1,1)": [
+    1,
+    1
+   ]
+  },
+  "ok": true
+ },
+ "row1535": {
+  "orbits": 4,
+  "orbit_sizes": [
+   4,
+   4,
+   4,
+   4
+  ],
+  "labels": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    1,
+    0
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "label_is_sum": true,
+  "combined_centres": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "gauge_only_minus_rejected": true,
+  "ok": true
+ },
+ "PLANTED_lift_without_B_breaks_xi": true,
+ "all_claims_hold_and_plants_caught": true
+}

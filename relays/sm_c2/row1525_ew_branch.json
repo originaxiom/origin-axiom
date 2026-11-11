@@ -1,0 +1,55 @@
+{
+ "grades": {
+  "alpha": 1,
+  "beta": 1,
+  "gamma": 1,
+  "delta": 1
+ },
+ "difference_sq_lengths": {
+  "alpha-beta": 4,
+  "alpha-gamma": 4,
+  "alpha-delta": 6,
+  "beta-gamma": 6,
+  "beta-delta": 6,
+  "gamma-delta": 4
+ },
+ "cartan_minus_H_over_10": [
+  "0",
+  "0",
+  "0",
+  "0",
+  "0",
+  "0",
+  "0",
+  "0"
+ ],
+ "d5_checks": {
+  "E5_on_Z_highest": true,
+  "[E,h-]=0": true,
+  "[E,h+]=0": true,
+  "[E,Y0]=0": true,
+  "[H,Y0]=2Y0": true,
+  "[Y0,Y0dag]=H/10": true,
+  "[G,Gdag]=H": true,
+  "[H,G]=2G": true,
+  "[E,G]=0": true,
+  "[E,Edag]=H": true,
+  "kappa(Edag E)=20": true,
+  "kappa(Gdag G)=20": true,
+  "kappa(Edag G)=0": true,
+  "kappa(Y0dag Y0)=2": true,
+  "root_norm_one": true,
+  "vacuum_eq6": true,
+  "[q,r]=0": true
+ },
+ "top_block_of_[Y0,Y0dag]": [
+  "-2/5",
+  "-1/5",
+  "0",
+  "1/5",
+  "2/5"
+ ],
+ "PLANTED_wrong_sign_in_Z_breaks_[E,Y0]": true,
+ "roots_ok": true,
+ "all_claims_hold_and_plants_caught": true
+}

@@ -1,0 +1,26 @@
+{
+ "(a)_beta_11": true,
+ "(a)_pure_SYM": true,
+ "(b)_w.b": {
+  "1": "0",
+  "3": "0"
+ },
+ "(b)_w.C": "0",
+ "(b)_I_identity": true,
+ "(c)_cancellations": [
+  "0",
+  "0",
+  "0"
+ ],
+ "(c)_frame_shift_ok": true,
+ "(d)_dim_ker_ad_Q0_on_gl5": 5,
+ "(d)_cubic_values": [
+  "0",
+  "0",
+  "0",
+  "0",
+  "0"
+ ],
+ "PLANTED_8pi2_fails_SYM_limit": true,
+ "all_claims_hold_and_plants_caught": true
+}

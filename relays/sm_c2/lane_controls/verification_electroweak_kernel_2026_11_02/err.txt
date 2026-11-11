@@ -1,0 +1,11 @@
+test_actual_Koszul_generator_change_and_extreme_grading (checks.ElectroweakKernelChecks.test_actual_Koszul_generator_change_and_extreme_grading) ... ok
+test_charged_roster_pairs_and_massless_up_control (checks.ElectroweakKernelChecks.test_charged_roster_pairs_and_massless_up_control) ... ok
+test_exact_pole_counts_all_spins_and_complete_physical_totals (checks.ElectroweakKernelChecks.test_exact_pole_counts_all_spins_and_complete_physical_totals) ... ok
+test_explicit_two_triple_split_and_orthogonal_form (checks.ElectroweakKernelChecks.test_explicit_two_triple_split_and_orthogonal_form) ... ok
+test_full_D5_A3_population_and_actual_half_spinors (checks.ElectroweakKernelChecks.test_full_D5_A3_population_and_actual_half_spinors) ... ok
+test_full_root_flat_phases_and_colour_EM_assignment (checks.ElectroweakKernelChecks.test_full_root_flat_phases_and_colour_EM_assignment) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 6.335s
+
+OK

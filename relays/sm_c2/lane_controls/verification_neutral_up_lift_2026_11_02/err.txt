@@ -1,0 +1,9 @@
+test_actual_neutral_generator_and_full_residual_compatibility (checks.NeutralUpLiftChecks.test_actual_neutral_generator_and_full_residual_compatibility) ... ok
+test_first_order_physical_mass_blocks_and_exceptional_planes (checks.NeutralUpLiftChecks.test_first_order_physical_mass_blocks_and_exceptional_planes) ... ok
+test_full_complement_schur_and_unbounded_inverse_controls (checks.NeutralUpLiftChecks.test_full_complement_schur_and_unbounded_inverse_controls) ... ok
+test_spin_pole_and_dual_multiplication_data (checks.NeutralUpLiftChecks.test_spin_pole_and_dual_multiplication_data) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 1.187s
+
+OK

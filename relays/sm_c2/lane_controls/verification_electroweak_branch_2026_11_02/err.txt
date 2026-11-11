@@ -1,0 +1,13 @@
+test_actual_D5_roots_and_E8_embedding (checks.ElectroweakBranchChecks.test_actual_D5_roots_and_E8_embedding) ... ok
+test_actual_SM_neutral_stabilizer_and_three_broken_directions (checks.ElectroweakBranchChecks.test_actual_SM_neutral_stabilizer_and_three_broken_directions) ... ok
+test_compact_ten_matrix_metric_and_principal_triple (checks.ElectroweakBranchChecks.test_compact_ten_matrix_metric_and_principal_triple) ... ok
+test_complete_scaled_vacuum_and_backreaction_control (checks.ElectroweakBranchChecks.test_complete_scaled_vacuum_and_backreaction_control) ... ok
+test_highest_doublets_and_actual_involution (checks.ElectroweakBranchChecks.test_highest_doublets_and_actual_involution) ... ok
+test_moment_closure_in_roots_and_matrices (checks.ElectroweakBranchChecks.test_moment_closure_in_roots_and_matrices) ... ok
+test_radius_norm_balance_and_nonzero_domain_comparators (checks.ElectroweakBranchChecks.test_radius_norm_balance_and_nonzero_domain_comparators) ... ok
+test_second_triple_gram_and_independent_flavour_direction (checks.ElectroweakBranchChecks.test_second_triple_gram_and_independent_flavour_direction) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.603s
+
+OK

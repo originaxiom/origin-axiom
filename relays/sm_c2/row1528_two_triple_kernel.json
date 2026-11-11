@@ -1,0 +1,236 @@
+{
+ "joint_eigs_on_ten_(H+,H-)": [
+  [
+   -4,
+   0
+  ],
+  [
+   -2,
+   0
+  ],
+  [
+   0,
+   -4
+  ],
+  [
+   0,
+   -2
+  ],
+  [
+   0,
+   0
+  ],
+  [
+   0,
+   0
+  ],
+  [
+   0,
+   2
+  ],
+  [
+   0,
+   4
+  ],
+  [
+   2,
+   0
+  ],
+  [
+   4,
+   0
+  ]
+ ],
+ "section2": {
+  "BZ_J5_eq_E5_over_sqrt10": true,
+  "UEU^-1=I2xE5": true,
+  "UGU^-1=sigmax_x_E5": true,
+  "UHU^-1=I2xH5": true,
+  "[Hp,Ep]=2Ep": true,
+  "[Hm,Em]=2Em": true,
+  "[Ep,Em]=0": true,
+  "[Ep,Em^dag]=0": true,
+  "[Hp,Hm]=0": true,
+  "[Hp,Em]=0": true,
+  "[Hm,Ep]=0": true,
+  "Hp+Hm=H": true,
+  "rank_Ep=4": true,
+  "rank_Em=4": true,
+  "joint_on_ten": true,
+  "cartan_pairing_reproduces_ten": true
+ },
+ "root_counts_by_source": {
+  "1,15": 12,
+  "10,6": 60,
+  "45,1": 40,
+  "16,4": 64,
+  "16b,4b": 64
+ },
+ "dims_by_source": {
+  "45,1": 45,
+  "1,15": 15,
+  "10,6": 60,
+  "16,4": 64,
+  "16b,4b": 64
+ },
+ "two_triple_modules_per_A3_component": {
+  "1,15": {
+   "(0,0)": 1
+  },
+  "10,6": {
+   "(2,0)": 1,
+   "(0,2)": 1
+  },
+  "45,1": {
+   "(2,2)": 1,
+   "(3,0)": 1,
+   "(0,3)": 1,
+   "(1,0)": 1,
+   "(0,1)": 1
+  },
+  "16,4": {
+   "(3/2,3/2)": 1
+  },
+  "16b,4b": {
+   "(3/2,3/2)": 1
+  }
+ },
+ "diagonal_from_two_triples": {
+  "4": 1,
+  "3": 11,
+  "2": 21,
+  "1": 11,
+  "0": 24
+ },
+ "diagonal_from_row1525_w": {
+  "4": 1,
+  "3": 11,
+  "2": 21,
+  "1": 11,
+  "0": 24
+ },
+ "section3_ok": true,
+ "module_table": {
+  "(0,0)": {
+   "L=chi^0,eta=triv": 3,
+   "L=chi^0,eta=nontriv": 1,
+   "L=chi^1,eta=triv": 0,
+   "L=chi^1,eta=nontriv": 0
+  },
+  "(1,0)": {
+   "L=chi^0,eta=triv": 3,
+   "L=chi^0,eta=nontriv": 3,
+   "L=chi^1,eta=triv": 1,
+   "L=chi^1,eta=nontriv": 1
+  },
+  "(3,0)": {
+   "L=chi^0,eta=triv": 3,
+   "L=chi^0,eta=nontriv": 3,
+   "L=chi^1,eta=triv": 3,
+   "L=chi^1,eta=nontriv": 3
+  },
+  "(2,0)": {
+   "L=chi^0,eta=triv": 2,
+   "L=chi^0,eta=nontriv": 2,
+   "L=chi^1,eta=triv": 2,
+   "L=chi^1,eta=nontriv": 2
+  },
+  "(2,2)": {
+   "L=chi^0,eta=triv": 4,
+   "L=chi^0,eta=nontriv": 2,
+   "L=chi^1,eta=triv": 2,
+   "L=chi^1,eta=nontriv": 2
+  },
+  "(3/2,3/2)": {
+   "L=chi^0,eta=triv": 4,
+   "L=chi^0,eta=nontriv": 2,
+   "L=chi^1,eta=triv": 2,
+   "L=chi^1,eta=nontriv": 2
+  }
+ },
+ "flat_line_exponents_by_source_and_Qem": {
+  "1,15|Qem=-4/3": [
+   1
+  ],
+  "1,15|Qem=0": [
+   0
+  ],
+  "1,15|Qem=4/3": [
+   2
+  ],
+  "10,6|Qem=-2/3": [
+   2
+  ],
+  "10,6|Qem=2/3": [
+   1
+  ],
+  "16,4|Qem=-1/3": [
+   1
+  ],
+  "16,4|Qem=1": [
+   0
+  ],
+  "16b,4b|Qem=-1": [
+   0
+  ],
+  "16b,4b|Qem=1/3": [
+   2
+  ],
+  "45,1|Qem=0": [
+   0
+  ]
+ },
+ "D5_root_QY_charges": [
+  -3,
+  0,
+  3
+ ],
+ "roster": {
+  "nontrivial": {
+   "8_0_mult": 1,
+   "1_0": 15,
+   "3_(2/3)_per_colour": 4,
+   "3b_(-2/3)_per_colour": 4,
+   "3_(-1/3)_per_colour": 2,
+   "3b_(1/3)_per_colour": 2,
+   "1_(+1)": 2,
+   "1_(-1)": 2,
+   "charged_15_modes": 0,
+   "N_chiral": 63,
+   "N_vector": 9,
+   "dim_ker_M_left": 72,
+   "check_15_sum": true
+  },
+  "trivial": {
+   "8_0_mult": 3,
+   "1_0": 19,
+   "3_(2/3)_per_colour": 4,
+   "3b_(-2/3)_per_colour": 4,
+   "3_(-1/3)_per_colour": 2,
+   "3b_(1/3)_per_colour": 2,
+   "1_(+1)": 4,
+   "1_(-1)": 4,
+   "charged_15_modes": 0,
+   "N_chiral": 87,
+   "N_vector": 9,
+   "dim_ker_M_left": 96,
+   "check_15_sum": true
+  }
+ },
+ "checks_ok": {
+  "a": true,
+  "b": true,
+  "c": true,
+  "d": true
+ },
+ "PLANTED_b_floor_everywhere_table": {
+  "(0,0)": 1,
+  "(1,0)": 2,
+  "(3,0)": 4,
+  "(2,0)": 3,
+  "(2,2)": 3,
+  "(3/2,3/2)": 2
+ },
+ "PLANTED_caught": true,
+ "all_claims_hold_and_plants_caught": true
+}

@@ -1,0 +1,269 @@
+{
+ "receipt_kind": "AUTHOR_SELF_AUDIT_METADATA_AND_SOURCE_INTAKE_ONLY",
+ "pins": [
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/DESIGN.md",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "scripts/gates/prospective.py",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "scripts/gates/gates.py",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "scripts/gates/provenance_policy.py",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "scripts/checks/check_path_references.py",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "scripts/checks/check_test_vacuity.py",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "scripts/checks/retraction_sweep.py",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "scripts/checks/relay_debt.py",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "scripts/checks/doc_currency.py",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "scripts/checks/representation_sweep.py",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "scripts/views/generate.py",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "scripts/gates/tracked_state.py",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "scripts/gates/prospective_strict.py",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_v3/run_checks.py",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/run_checks.py",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/checks.py",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/SYMMETRIC_STATE_GREEN_RESPONSE_AND_GRADING.md",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/P210_EXTERIOR_GAP_AND_THRESHOLD_DUTY.md",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/COVARIANT_END_DOMAIN_SCOPE.md",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REGISTERED_COUPLING_TRANSPORT.md",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/REGISTERED_PRINCIPAL_PARTS_AND_GREEN_TRANSPORT.md",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/EXTERIOR_RESPONSE_AND_JOINING.md",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/PROOF.md",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/weave_puncture_operator_2026_10_08/probe.py",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/weave_physical_mass_2026_10_08/PROOF.md",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/weave_curved_action_2026_10_08/PROOF.md",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/weave_end_gaussian_2026_10_09/PROOF.md",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/weave_companion_roster_2026_10_08/PROOF.md",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/ENVIRONMENT.json",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/ENGINEERING_DESIGN.md",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/SOURCE_REVIEW_MANIFEST.json",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/engineering_checks.py",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/engineering/DELEGATION_COUNTER_STRENGTHENING.md",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/engineering/ENVIRONMENT_DISCOVERY.md",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/engineering/FIRST_FAILURE_NORMALIZED.txt",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/engineering/FOURTH_RUN_RESEARCH_RUNTIME.txt",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/engineering/PATH_EXPECTATION_REPAIR.md",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/engineering/SECOND_RUN.txt",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/engineering/THIRD_RUN.txt",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/EXECUTION_REVIEW_DUTIES.md",
+   "rev": "ce2a3a6e3",
+   "match": true
+  }
+ ],
+ "artifacts": [
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/results/attempt_01.jsonl",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/results/attempt_01.log",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/execution_2026_10_29/EXTERNAL_PRELAUNCH.json",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/execution_2026_10_29/OUTCOME.json",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/execution_2026_10_29/launch.stderr.txt",
+   "rev": "ce2a3a6e3",
+   "match": true
+  },
+  {
+   "path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_p210/execution_2026_10_29/launch.stdout.json",
+   "rev": "ce2a3a6e3",
+   "match": true
+  }
+ ],
+ "pins_checked": 40,
+ "pins_matching": 40,
+ "artifacts_checked": 6,
+ "artifacts_matching": 6,
+ "p210_event_counts": {
+  "admitted_start": 1,
+  "test_start": 10,
+  "test_pass": 10,
+  "custody": 1,
+  "finished": 1
+ },
+ "event_counts_recounted_from_jsonl": {
+  "admitted_start": 1,
+  "test_start": 10,
+  "test_pass": 10,
+  "custody": 1,
+  "finished": 1
+ },
+ "recount_ok": true,
+ "recorded_flags": {
+  "expected_test_set_equals_recorded_starts_and_passes": true,
+  "each_recorded_test_starts_and_passes_once": true,
+  "new_scientific_execution": false,
+  "foundational_inputs_removed_by_this_checkpoint": 0
+ },
+ "quotes": {
+  "main_B1822_H=I_CHOSEN": true,
+  "note_constant_move_invariant_class": true,
+  "note_nonconstant_positive_family": true
+ },
+ "PLANTED_altered_digest_reported": true,
+ "all_claims_hold_and_plants_caught": true
+}

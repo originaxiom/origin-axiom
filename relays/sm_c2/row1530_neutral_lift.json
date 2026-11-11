@@ -1,0 +1,25 @@
+{
+ "(a)_K_plus_ok": true,
+ "(a)_K_minus_ok": true,
+ "(b)_coefficients": [
+  "a*d - b*c",
+  "a*d + b*c"
+ ],
+ "(b)_ok": true,
+ "(c)_pole_bounds": {
+  "-2": -1,
+  "-1": -1,
+  "3": 1,
+  "4": 1
+ },
+ "(c)_ok": true,
+ "(d)_determinant": "epsilon**4*m1*m2*m3*m4*psi**4*q**4*(a*d - b*c)**2*(a*d + b*c)**2/(16*a**4*b**4)",
+ "(d)_ratio_free_of_c_d": true,
+ "(d)_ok": true,
+ "(e)_det_identity": true,
+ "(e)_F_over_eps_to_A": true,
+ "(e)_ok": true,
+ "PLANTED_flipped_entry_determinant": "-epsilon**4*m1*m2*m3*m4*psi**4*q**4*(a*d - b*c)*(a*d + b*c)**3/(16*a**4*b**4)",
+ "PLANTED_caught": true,
+ "all_claims_hold_and_plants_caught": true
+}

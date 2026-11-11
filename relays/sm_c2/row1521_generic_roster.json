@@ -1,0 +1,55 @@
+{
+ "(a)_ok": true,
+ "(b)_points_tested": 61056,
+ "(b)_mismatches": 0,
+ "(c)_exceptional_count": 108,
+ "(c)_populations_by_order": {
+  "1": 1,
+  "2": 3,
+  "3": 8,
+  "5": 24,
+  "10": 72
+ },
+ "(c)_least_admissible_order": 4,
+ "(d)_order4_packet": [
+  12,
+  6,
+  true
+ ],
+ "(d)_order7_packet": [
+  48,
+  24,
+  true
+ ],
+ "(e)_L_perm": {
+  "A": "C",
+  "B": "B",
+  "C": "D",
+  "D": "E",
+  "E": "A",
+  "F": "F"
+ },
+ "(e)_R_perm": {
+  "A": "A",
+  "B": "C",
+  "C": "F",
+  "D": "D",
+  "E": "B",
+  "F": "E"
+ },
+ "(e)_ok": true,
+ "(f)_ok": true,
+ "(g)_nonzero_fixed_states": [],
+ "checks_ok": {
+  "a": true,
+  "b": true,
+  "c": true,
+  "d": true,
+  "e": true,
+  "f": true,
+  "g": true
+ },
+ "PLANTED_condition_without_chi10_mismatches": 99,
+ "PLANTED_caught": true,
+ "all_claims_hold_and_plants_caught": true
+}

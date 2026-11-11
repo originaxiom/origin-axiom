@@ -1,0 +1,38 @@
+{
+ "(a)_J_X_J^-1=-X^T": true,
+ "(b)_V_j_multiplicities": {
+  "0": 24,
+  "1": 11,
+  "2": 21,
+  "3": 11,
+  "4": 1
+ },
+ "(b)_from_branching": {
+  "0": 24,
+  "1": 11,
+  "2": 21,
+  "3": 11,
+  "4": 1
+ },
+ "(b)_ok": true,
+ "(c)_fixed_dim": 10,
+ "(d)_norm_ok": true,
+ "(d)_det_Mtau": "1",
+ "(e)_stratum_dim": 2,
+ "(e)_SU5_points": 25,
+ "(e)_example_restores_SU5": false,
+ "(f)_traces_on_sum_zero": [
+  -1,
+  0,
+  1,
+  2,
+  4
+ ],
+ "cited_table": {
+  "source": "arXiv:2407.11801v1, Table 5, printed p. 18",
+  "row": "A4 | c'1 = A4 | dim t = 0 | c'2 = A4 | A = S2",
+  "pdf_sha256": "bd02e6b023550e9b7b6bdfda20c71f0b222133e6b00594d2a1d32480e28bafe7"
+ },
+ "PLANTED_all_plus_J_fails": true,
+ "all_claims_hold_and_plants_caught": true
+}

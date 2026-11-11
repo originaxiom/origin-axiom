@@ -1,0 +1,10 @@
+test_complete_charged_roster_all_neutral_strata (checks.NeutralFullKernelChecks.test_complete_charged_roster_all_neutral_strata) ... ok
+test_fourth_order_transfer_and_exact_survivor_controls (checks.NeutralFullKernelChecks.test_fourth_order_transfer_and_exact_survivor_controls) ... ok
+test_pole_duality_and_long_exact_sequence_rank_accounting (checks.NeutralFullKernelChecks.test_pole_duality_and_long_exact_sequence_rank_accounting) ... ok
+test_shifted_Jordan_elimination_without_scalar_inverse (checks.NeutralFullKernelChecks.test_shifted_Jordan_elimination_without_scalar_inverse) ... ok
+test_tensor_reduction_total_spin_and_Koszul_signs (checks.NeutralFullKernelChecks.test_tensor_reduction_total_spin_and_Koszul_signs) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.622s
+
+OK

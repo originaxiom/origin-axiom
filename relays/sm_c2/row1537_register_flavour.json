@@ -1,0 +1,66 @@
+{
+ "(b)_N_at_|a|=|b|=1/sqrt2": "5/(2*ell**2)",
+ "(c)_traces": {
+  "k(E+dE+)": "10",
+  "k(E-dE-)": "10",
+  "k(H+^2)": "20",
+  "k(H-^2)": "20",
+  "k(H+H-)": "0"
+ },
+ "(d)_forms_match": {
+  "Phi0": true,
+  "PhiL": true,
+  "PhiR": true
+ },
+ "(d)_readout_over_C": [
+  [
+   "2",
+   "1",
+   "1"
+  ],
+  [
+   "1",
+   "2",
+   "1"
+  ],
+  [
+   "1",
+   "1",
+   "2"
+  ]
+ ],
+ "(d)_grams": {
+  "Phi0": [
+   "5/(2*ell**2)",
+   "0",
+   "0",
+   "5/(2*ell**2)"
+  ],
+  "PhiL": [
+   "5/(2*ell**2)",
+   "0",
+   "0",
+   "5/(2*ell**2)"
+  ],
+  "PhiR": [
+   "5/(2*ell**2)",
+   "0",
+   "0",
+   "5/(2*ell**2)"
+  ]
+ },
+ "checks_ok": {
+  "a": true,
+  "b": true,
+  "c": true,
+  "d": true,
+  "e": true
+ },
+ "PLANTED_identity_gL_row": [
+  "2",
+  "1",
+  "1"
+ ],
+ "PLANTED_caught": true,
+ "all_claims_hold_and_plants_caught": true
+}

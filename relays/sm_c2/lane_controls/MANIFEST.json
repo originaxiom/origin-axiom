@@ -1,0 +1,138 @@
+{
+ "what": "The physical lane's implemented, unrun controls, run once each as found (SM-C2, M1 batch V2). Running a lane's control is a fact about its code (protocol section 8); each item's verdict rests on this seat's own check.",
+ "command": "PYTHONHASHSEED=0 PYTHONDONTWRITEBYTECODE=1 SYMPY_GROUND_TYPES=python python3 -I -B -m unittest discover -s <folder holding the lane's checks.py, extracted from the lane commit> -p checks.py -v",
+ "environment": {
+  "python": "3.11.18",
+  "sympy": "1.14.0",
+  "mpmath": "1.3.0",
+  "numpy": "2.4.6"
+ },
+ "files_per_package": {
+  "out.txt": "stdout (empty: unittest reports on stderr)",
+  "err.txt": "stderr, the unittest report",
+  "exit.txt": "exit code"
+ },
+ "packages": [
+  {
+   "package": "verification_physical_family_2026_11_01",
+   "harvest_row": 1521,
+   "lane_commit": "ac28256fc",
+   "lane_path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_physical_family_2026_11_01/checks.py",
+   "checks_py_sha256": "43d335da94e775eae38680999298321cbc03d23de7b36b8905c3a020a2186832",
+   "tests_run": 16,
+   "exit_code": 0,
+   "result": "OK",
+   "per_test": [
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ]
+  },
+  {
+   "package": "verification_electroweak_branch_2026_11_02",
+   "harvest_row": 1526,
+   "lane_commit": "d355ff9a1",
+   "lane_path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_electroweak_branch_2026_11_02/checks.py",
+   "checks_py_sha256": "49b1b3ac3af981e2c8cdb2e8d0a4a284fd66c2abc23692d8c335476c0398439c",
+   "tests_run": 8,
+   "exit_code": 0,
+   "result": "OK",
+   "per_test": [
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ]
+  },
+  {
+   "package": "verification_electroweak_kernel_2026_11_02",
+   "harvest_row": 1529,
+   "lane_commit": "d5c06027b",
+   "lane_path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_electroweak_kernel_2026_11_02/checks.py",
+   "checks_py_sha256": "154e506cdc40fb41d3fe2c56346452d67bbc00a076e078f24ccc485355517d00",
+   "tests_run": 6,
+   "exit_code": 0,
+   "result": "OK",
+   "per_test": [
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ]
+  },
+  {
+   "package": "verification_neutral_up_lift_2026_11_02",
+   "harvest_row": 1531,
+   "lane_commit": "bd0e1eb09",
+   "lane_path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_neutral_up_lift_2026_11_02/checks.py",
+   "checks_py_sha256": "36e29da007491a95d950d569f2d2eb4ed6121c3cc38bb1b5025427170fa10911",
+   "tests_run": 4,
+   "exit_code": 0,
+   "result": "OK",
+   "per_test": [
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ]
+  },
+  {
+   "package": "verification_neutral_full_kernel_2026_11_02",
+   "harvest_row": 1533,
+   "lane_commit": "64b89a473",
+   "lane_path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_neutral_full_kernel_2026_11_02/checks.py",
+   "checks_py_sha256": "33cb0be8f8381e50faa672aa4da2e22b6b7478ed0d74b9d46b4cfbfda86271d5",
+   "tests_run": 5,
+   "exit_code": 0,
+   "result": "OK",
+   "per_test": [
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ]
+  },
+  {
+   "package": "verification_register_flavour_joint_2026_11_03",
+   "harvest_row": 1537,
+   "lane_commit": "e19aa4ddc",
+   "lane_path": "reports/physical_bridge_2026_09_05/word_architecture_audit_2026_10_17/verification_register_flavour_joint_2026_11_03/checks.py",
+   "checks_py_sha256": "d8eead96ab24a14087ef773d4dc20093f0ad9d84887a3446cd6fd711b0867bb3",
+   "tests_run": 5,
+   "exit_code": 0,
+   "result": "OK",
+   "per_test": [
+    "ok",
+    "ok",
+    "ok",
+    "ok",
+    "ok"
+   ]
+  }
+ ],
+ "totals": {
+  "packages": 6,
+  "tests": 44,
+  "all_ok": true
+ }
+}

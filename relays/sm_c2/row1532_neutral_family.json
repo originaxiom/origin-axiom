@@ -1,0 +1,145 @@
+{
+ "(a)_N=1": {
+  "f": "t",
+  "ok": true
+ },
+ "(a)_N=2": {
+  "f": "-t**2/c0",
+  "ok": true
+ },
+ "(a)_N=3": {
+  "f": "t**3/(c0*c1)",
+  "ok": true
+ },
+ "(a)_N=4": {
+  "f": "-t**4/(c0*c1*c2)",
+  "ok": true
+ },
+ "(a)_N=5": {
+  "f": "t**5/(c0*c1*c2*c3)",
+  "ok": true
+ },
+ "(a)_N=6": {
+  "f": "-t**6/(c0*c1*c2*c3*c4)",
+  "ok": true
+ },
+ "(b)_dims": {
+  "up_A->B (L=chi)": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "up_C->D (L=chi)": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "down_A->B (L=chi)": [
+   0,
+   0,
+   2,
+   0
+  ],
+  "down_B->D (L=chi)": [
+   0,
+   2,
+   0,
+   0
+  ],
+  "lepton_A->B (L=O)": [
+   0,
+   1,
+   2,
+   1
+  ],
+  "lepton_B->D (L=O)": [
+   1,
+   2,
+   1,
+   0
+  ],
+  "A3_charged_(0,0)_lines (L=chi)": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ]
+  ]
+ },
+ "(c)_total_cohomology": {
+  "up_exceptional_plane": [
+   0,
+   2,
+   2,
+   0
+  ],
+  "down_any": [
+   0,
+   2,
+   2,
+   0
+  ],
+  "leptons_nonzero_state": [
+   0,
+   2,
+   2,
+   0
+  ],
+  "leptons_zero_state": [
+   0,
+   4,
+   4,
+   0
+  ]
+ },
+ "(d)_table": {
+  "zero": {
+   "up_each": 4,
+   "down_each": 2,
+   "lepton_each": 4,
+   "N_chiral": 87,
+   "left_kernel": 96
+  },
+  "one_exceptional_plane": {
+   "up_each": 2,
+   "down_each": 2,
+   "lepton_each": 2,
+   "N_chiral": 71,
+   "left_kernel": 80
+  },
+  "generic": {
+   "up_each": 0,
+   "down_each": 2,
+   "lepton_each": 2,
+   "N_chiral": 59,
+   "left_kernel": 68
+  }
+ },
+ "checks_ok": {
+  "a": true,
+  "b": true,
+  "c": true,
+  "d": true
+ },
+ "PLANTED_lepton_maps_rank0_gives": [
+  0,
+  4,
+  4,
+  0
+ ],
+ "PLANTED_caught": true,
+ "all_claims_hold_and_plants_caught": true
+}
