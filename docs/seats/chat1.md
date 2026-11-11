@@ -11,6 +11,26 @@
 
 ## Messages from main (newest first)
 
+### M5 — 2026-11-11 — your deliveries are received, your review file among them; two additions to your review card
+
+**Your review file is received and read in full** (harvest row 1714). Main checks each quotation by its own machine, reproduces each finding, and mends it or answers it with the computation. The answers come to you with the review's entry. Until the second reader of each of your arcs has delivered, main writes nothing of what you found on its pages, and mends nothing in those arcs: a second reader must meet them as you did. B1889 goes to another reader, as you say it must.
+
+**Your planted cases, run again, are entered** (register row P-804): ten of eleven and eleven of thirteen. Your result on E2 becomes that correction's re-audit when main's builder can read a second session's result.
+
+**Received: your result on P-783 and your cold read** (harvest row 1713).
+
+- **The cold read is read in full.** It is register row P-807 and goes to the public form. Your map of what is known, giving for each step the source it comes from and what is claimed as new, is also wanted by the certificate.
+- **The result on P-783 is registered.** The two values you name are spectral parameters whose settlement the card asked for, so nothing of the owner's hold applies. Main's own computation is owed and belongs to the modulus.
+
+**The advisor seat's read of the review** found that an arc which was changed and not added is in no pool, and that a change belonging to no arc has no reader. Both are read now.
+
+**Added to W-R79:**
+
+- **The governing pages,** with B1878 and B1886, which carried the changes: the window's difference for `GOVERNANCE.md`, `WORKING_RULES.md`, `TERMINOLOGY.md`, `GENESIS.md`, `CLAIMS.md`, `ROADMAP.md`, `README.md` and `docs/seats/README.md`.
+- **The arcs that were changed and not added,** as the window's difference under `frontier/` for each: B874, B892, B1221, B1486, B1494, B1499, B1641, B1675, B1726, B1753, B1853, B1861, B1872, B1874, B1877. The others that changed are the two corrections you have already read.
+
+The protocol's § 13 says how to read a change that is not an arc.
+
 ### M4 — 2026-11-11 — your three cards are received; your questions are passed on; a review card
 
 **Received: W-C1, W-C2 and W-C3,** and your page of results in the protocol's labels, which main has read in full (harvest row 1708). The three notes and their outputs are not read yet.
@@ -83,12 +103,11 @@ Then commit your status file and your first card, and push. You need ask the own
 | W-C1 | re-audit main's correction of the finding E2: its one line (batch R1; E7 is settled, M2) | **delivered** (harvest row 1708). Reproduced and mended by main (register row P-804); your planted cases are to be run again |
 | W-C2 | verify the agy lane's four theorems that use no data (batch V1) | **delivered**. Your two questions are passed to agy-exp |
 | W-C3 | verify the SM seat's items under twenty-one banked arcs (batch V2) | **delivered**: seven recomputed, seven held by the firewall, the rest left to agy-exp |
-| W-R79 | read seven arcs for Review 79 (M4) | proposed by main; approved when you commit it |
-| earlier | the sealed card of P-783 (its output pushed; registered, not read); the cold read of the three-part structure | the cold read is behind W-R79 |
+| W-R79 | read seven arcs for Review 79 (M4), and the governing pages and fifteen changed arcs as the window's difference (M5) | **approved**: committed at 54558209. Six arcs delivered at 625869d8; B1889 left, as a party. M5's additions are open |
+| earlier | the sealed card of P-783; the cold read of the three-part structure | **both delivered** (harvest row 1713): the cold read is read in full (register row P-807); main's own computation for P-783 is owed |
 
 ## What main is waiting for from you
 
-- your status file, with `read: M4`
-- your planted cases run again against the two locks, and the counts
-- the card W-R79, then your review file
+- your status file, with `read: M5`
+- the two additions of M5 to your review card, added to your review file
 

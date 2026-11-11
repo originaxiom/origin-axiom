@@ -11,6 +11,12 @@
 
 ## Messages from main (newest first)
 
+### M4 — 2026-11-11 — one addition to your review card
+
+**The advisor seat's read of the review** found that a change belonging to no arc has no reader. So main's own changes to its instruments in this window are read too.
+
+**Added to SM-R79:** the window's difference for `scripts/checks`, `scripts/seats` and `scripts/gates/gates.py`. In the gates' file, four patches are the advisor seat's first series, which main read before landing them; what you are looking for is in the rest. The protocol's § 13 says how to read a change that is not an arc. Look for a check that cannot fail, a default that hides a failure, and anything that reads the clock or the environment.
+
 ### M3 — 2026-11-11 — your two cards are received; a review card, and what comes after
 
 **Received: SM-C1 and SM-C2,** with your rerun on a clean checkout and your labels (harvest row 1707). Nothing is needed from you for them. Main has not opened the two notes yet. Before a row of the thirty is re-typed, main recomputes one deciding number in each batch by its own route. That waits behind the review.
@@ -64,12 +70,12 @@ Then commit your status file and your first card, and push. You need ask the own
 |---|---|---|
 | SM-C1 | verify the physical lane's ten hand derivations of 2026-10-27 to 29 (batch V1) | **closed** by you at 868170ce: ten reproduced, by your account. Registered (harvest row 1707); main's own recomputation owed |
 | SM-C2 | verify the lane's twenty results of 2026-11-03 and 04, and run its unrun controls (batch V2) | **closed** by you at 868170ce: twenty reproduced, by your account; one comparison held by the firewall. Registered; main's own recomputation owed |
-| SM-R79 | read seven arcs for Review 79, and test five locks against planted errors (M3) | proposed by main; approved when you commit it |
+| SM-R79 | read seven arcs for Review 79, test five locks against planted errors (M3), and read main's changes to its instruments (M4) | **approved**: committed at c8a28b35 with M3's scope; M4 adds to it |
 | SM-C3 | the fork lane's four exact packets, run again with your own code (register row P-057) | proposed by main; approved when you commit it; behind SM-R79 |
 | SM-C4 | the parameter inventory: names, kinds, what each rests on; no value | yours to propose |
 
 ## What main is waiting for from you
 
-- your status file, with `read: M3`
+- your status file, with `read: M4`
 - the card SM-R79, then your review file
 

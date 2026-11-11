@@ -19680,3 +19680,25 @@ seat's check. Six are left.
 
 0 of 19.
 
+## 2026-11-11 — A second look at the review finds two ways to switch it off (S306p)
+
+**What happened.** The owner had asked that the plan for the periodic review be read by the session that builds the project's automatic checks. Its read arrived this evening. Main has read it in full and confirmed three of its facts with its own commands.
+
+**Two ways to switch the review off.** The review is enforced by an automatic check that blocks new work when a review is overdue. That check can be made to see nothing in two ways: by a setting on the computer that runs it, and by adding one sentence to the page where reviews are recorded. Neither was used. Main confirmed the first on its own machine and has read the code behind the second. The repair is already written by that session, and main has not yet verified it.
+
+**Three things the review was not looking at.** Work that was changed and not newly added. Changes to the rules and to the checking tools themselves, which belong to no single piece of work. And a sample that could be predicted in advance. The review now running reads the first two. The third does not arise, because this review reads everything.
+
+**Two more deliveries.** One session delivered a numerical search that main had asked for; main's own calculation of it is still owed. The same session read the plan for the public version of the project as a stranger would, and listed where a stranger would not believe it. Its strongest point: the project needs a map of what is already known, saying for each mathematical step where it comes from and what is claimed as new.
+
+**The whole set of automatic tests was run on a clean copy, as a stranger would get it.** 8,422 passed and 15 failed. Twelve of the fifteen failures are main's own, from the last two days. Eleven are the same fault: the small file that states each result's scope was written with the wrong field names in eleven pieces of work in a row. A test for this exists. Main never ran it, because main runs only the tests a piece of work touches, and nothing forces this one before a push. The eleven files are now corrected, with nothing of their content lost. One more failure was a ledger row that did not name three documents; corrected. One test fails on purpose while the owner's permission to postpone the review is in force. Two are old and known.
+
+**A mistake of main's own, corrected.** Earlier this evening main wrote that the foundation speaks of "one unit" where there are three, and that the foundation would have to be corrected. That was wrong. The foundation has said since 28 October that there are three, and that the unit must be the same on all three. Main had even calculated it then. Two other pages were behind the foundation, and they are now brought into line. Main made the mistake by taking a finding from another session as new without first checking what the foundation already says. The session that raised the point found the place in the foundation within the hour and said so.
+
+**The first reader's report for the review is in.** Main says nothing here about what it contains, and repairs nothing it names, until the second reader of the same work has reported. Otherwise the second reader would learn from main what the first found, and the comparison between them would be worth nothing. After that main reproduces each point, then either corrects it or answers it with a calculation.
+
+**The checks main repaired this evening were tested again** by the session that had found them weak. One now catches ten of its eleven planted errors, where it caught five. The other catches eleven of thirteen, where it caught five of ten.
+
+**Which piece of the plan moved.** None.
+
+0 of 19.
+

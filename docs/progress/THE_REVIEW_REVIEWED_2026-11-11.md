@@ -216,3 +216,46 @@ The owner ruled that the choices of § 8, and the question of a longer waiver, a
 **What changes after it,** in an arc of its own and with the advisor seat's read: the template, the tools and the
 trigger.
 
+### Added the same evening: what the advisor seat's read changes
+
+The advisor seat's read of this page came in after § 10 was written (harvest row 1712). Main has read it in full and
+reproduced three of its facts. It stands as register row P-806.
+
+**What skipped the review and was not in § 4:**
+
+| what | how |
+|---|---|
+| the block can be switched off from the environment | one variable, kept for the gate's own test, makes the blocking gate read no landings. Reproduced by main |
+| a sentence moves the anchor | the count is taken from the last anchor named anywhere on the reviews' page. No gate ties an anchor to a review's entry |
+| an arc that was changed and not added is in no pool | eleven in this window. One changed its verdict from proved to open |
+| the draw is known while the window is open | the seed is the last review's anchor |
+| a change that belongs to no arc has no reader | ten instruments and governing pages in this window |
+
+**What was wrong in this page:**
+
+- **§ 3 counts a gate's control by its name.** A name is not a control: with every gate made unable to fail, 16 of 53
+  controls still pass, by the seat's third series.
+- **§ 5's Layer A is not a function of the commit alone.** Three of its seven checks read the sessions' branches. What
+  can be said: a function of the commit and of the tips it names, with every age taken between two commits' dates.
+- **§ 5's catch rate is half a measure.** It needs what the readers report that is not there, beside what they catch.
+- **A broken seal** is an instrument's to catch, not a reader's.
+- **The rule that sorts a commit as work** is itself an instrument, and is tested like one.
+
+**What Review 79 takes from it now:**
+
+| | how |
+|---|---|
+| the changed arcs are read | the eleven whose verdict file changed and the fourteen whose findings changed. Six of them were read twice already, in the re-audits and in the web seat's check of two corrections. The rest go to the web seat and agy-exp, as the window's difference |
+| the changes outside any arc are read | the governing pages by the web seat and agy-002, with the two arcs that carried them (B1878, B1886); main's changes to the checkers, the gates' file and the listener by agy-002 and the SM seat |
+| the environment is printed | the entry says which variables of the project were set: none |
+| the instruments carry a count | tested against planted errors, n of N: the advisor seat's suite, run by main on a fresh clone at the review's head |
+| false alarms are counted | for each reader, how many findings held when main reproduced them and how many did not |
+
+**The rule for "the same finding",** written here before a second reader's file on any arc was opened: two findings are the same when they name the same arc and the same file and their quotations overlap. What two readers find in common then gives a ceiling on the rate at which one reading catches a fault, since a fault that is easy to find is found by both. The entry prints the counts, and the estimate with one added to each count where the counts are small.
+
+**One reader changed.** The web seat left B1889, since the arc judges its work; agy-002 reads it in its place, except the part on its own family's sessions.
+
+**What waits:** the two ways to switch the block off are closed by the seat's fourth series, which main has not yet
+verified; the planted copy for readers needs a copy handed over without its history, and a second copy with nothing
+planted as its control.
+

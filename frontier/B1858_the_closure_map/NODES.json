@@ -903,7 +903,7 @@
   "layer": "3 weave",
   "kind": "premise",
   "grade": "TAGGED",
-  "text": "One unit of end data at the weave's cusp is a tagged working postulate; no datum the principle forces supplies it.",
+  "text": "One unit of end data at the weave's cusp, uniform on its three lines, is a tagged working postulate; no datum the principle forces supplies it, and its uniformity is one of four links of the unit, none derived.",
   "pins": [
    [
     "GENESIS.md",
@@ -912,11 +912,16 @@
    [
     "GENESIS.md",
     "nothing the principle forces visits the weave's cusp"
+   ],
+   [
+    "GENESIS.md",
+    "uniform end data; and the least remainder"
    ]
   ],
   "rows": [],
   "arcs": [
-   "B1629"
+   "B1629",
+   "B1796"
   ],
   "note": "",
   "rows_live": {},
@@ -1045,17 +1050,22 @@
   "layer": "3 weave",
   "kind": "theorem",
   "grade": "CONDITIONAL",
-  "text": "Given Λ and the unit, the chiral three is a four-dimensional index (±3) on the weave's own surface.",
+  "text": "Given Λ and the uniform unit, the chiral three is a four-dimensional index (±3) on the weave's own surface; the least datum on one line of the cusp gives one.",
   "pins": [
    [
     "GENESIS.md",
     "So, given Λ and the unit, the chiral three is an index, and FK11's earning condition is met conditionally."
+   ],
+   [
+    "GENESIS.md",
+    "the least uniform datum gives three"
    ]
   ],
   "rows": [],
   "arcs": [
    "B1632",
-   "B1641"
+   "B1641",
+   "B1796"
   ],
   "note": "",
   "rows_live": {},
@@ -6697,30 +6707,6 @@
   "weave_or_thread": "n/a"
  },
  {
-  "id": "P:802",
-  "layer": "15 debts",
-  "kind": "debt",
-  "grade": "DEBT",
-  "text": "the unit at the cusp is one unit on each of three lines and the foundation does not say so; a unit on one line gives one (B1641's note; the foundation's next version).",
-  "pins": [
-   [
-    "docs/POINT_REGISTER.md",
-    ". P-802 — "
-   ]
-  ],
-  "rows": [
-   "P-802"
-  ],
-  "arcs": [],
-  "note": "",
-  "rank": 85,
-  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
-  "rows_live": {
-   "P-802": "QUEUED"
-  },
-  "weave_or_thread": "n/a"
- },
- {
   "id": "P:804",
   "layer": "15 debts",
   "kind": "debt",
@@ -6737,10 +6723,82 @@
   ],
   "arcs": [],
   "note": "",
-  "rank": 86,
+  "rank": 85,
   "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
   "rows_live": {
    "P-804": "QUEUED"
+  },
+  "weave_or_thread": "n/a"
+ },
+ {
+  "id": "P:806",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "the review's block can be switched off in two ways (a variable of the environment; a sentence on the reviews' page), and three things skipped the review that its page did not list.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-806 — "
+   ]
+  ],
+  "rows": [
+   "P-806"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 86,
+  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "rows_live": {
+   "P-806": "QUEUED"
+  },
+  "weave_or_thread": "n/a"
+ },
+ {
+  "id": "P:808",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "what the advisor seat saw on main's pages on the way: sixteen controls that do not depend on their gate, three tests that cannot fail, a withdrawn sentence shown by a page of the paper, and five smaller things.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-808 — "
+   ]
+  ],
+  "rows": [
+   "P-808"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 87,
+  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "rows_live": {
+   "P-808": "QUEUED"
+  },
+  "weave_or_thread": "n/a"
+ },
+ {
+  "id": "P:810",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "the full suite on a fresh clone found eleven verdict files of this window that break the schema, pushed because the schema's test is not a gate and no landing ran it.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-810 — "
+   ]
+  ],
+  "rows": [
+   "P-810"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 88,
+  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "rows_live": {
+   "P-810": "QUEUED"
   },
   "weave_or_thread": "n/a"
  }

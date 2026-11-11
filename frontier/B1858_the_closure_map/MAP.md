@@ -25,7 +25,7 @@ by a quote that the builder checks.*
 | LANE-PROPOSED | a seat's hand proof, count or estimate, unreviewed; not verified on main | 7 |
 | LANE-INPUT | an input the seat's own ledger prices as supplied, unselected or unearned | 7 |
 | DUTY | something the full goal requires and nobody has done | 16 |
-| DEBT | a result the record uses is owed a check or a correction | 86 |
+| DEBT | a result the record uses is owed a check or a correction | 88 |
 | CLOSURE | one missing dependency under several names | 11 |
 
 ## 0. The principle
@@ -87,13 +87,13 @@ by a quote that the builder checks.*
 | G:GAP6 | OPEN | weave | The flatness: a flat frame reaches discrete data through the boundary and cannot reach continuous moduli. | GENESIS.md |
 | G:PF5 | OPEN | weave | The claim: the whole has one self-consistent outcome, one orbit of the whole. It is what the programme sets out to establish; nothing is derived from it. Symmetry cannot supply the outcome, and neither can the greatest reading. | GENESIS.md; B1867; B1881; P-761 (QUEUED); P-767 (QUEUED); P-776 (QUEUED) |
 | TAG:LAMBDA | TAGGED | weave | Λ, the dictionary's link, is a tagged working postulate: results computed with it carry 'given Λ'. | GENESIS.md |
-| TAG:UNIT | TAGGED | weave | One unit of end data at the weave's cusp is a tagged working postulate; no datum the principle forces supplies it. | GENESIS.md; B1629 |
+| TAG:UNIT | TAGGED | weave | One unit of end data at the weave's cusp, uniform on its three lines, is a tagged working postulate; no datum the principle forces supplies it, and its uniformity is one of four links of the unit, none derived. | GENESIS.md; B1629; B1796 |
 | W:CLOCK | CHOSEN | weave | The clock: whether the weave is counted by moves or followed by geometric length. Nothing on the record forces it. | frontier/B1815_the_records_walk_has_minkowskis_exit_law_exactly/arc_verdict.json; B1815; P-439 (QUEUED); P-438 (DONE) |
 | W:DRAW | NEGATIVE | weave | The measured six read as a draw from the weave's own measure: the sealed test does not separate the two clocks, and could not have; consistent, not specific. | frontier/B1814_the_measured_world_as_a_draw_from_the_weaves_own_measure/arc_verdict.json; B1814 |
 | W:FLAT-SUM | LANE-PROPOSED | weave | Any sum over all threads is mirror-even whatever its weights, and the democratic sum is flat by equidistribution; every other form selects only through a number it does not force. The SM seat's reading, read on main with its quotes checked. | docs/HARVEST_LEDGER.md; P-413 (DONE) |
 | W:G96 | DERIVED | weave | The weave's group on T ⊕ T̄ has order 96; its generalized CP is the record swap, so CP is a symmetry exactly when the swap is a move. | GENESIS.md; B1611 |
 | W:HANDS | NEGATIVE | weave | Neither hand is derived on the weave: each is derived only on a subweave the weave does not select. | GENESIS.md; B1607; B1609; B1610 |
-| W:INDEX3 | CONDITIONAL | weave | Given Λ and the unit, the chiral three is a four-dimensional index (±3) on the weave's own surface. | GENESIS.md; B1632; B1641 |
+| W:INDEX3 | CONDITIONAL | weave | Given Λ and the uniform unit, the chiral three is a four-dimensional index (±3) on the weave's own surface; the least datum on one line of the cusp gives one. | GENESIS.md; B1632; B1641; B1796 |
 | W:LAW | OPEN | weave | The law as the owner states it: if something is allowed to happen, it happens. On the record it is the weave's rule of method, and as a physical law a hypothesis to test, not a premise. | GENESIS.md; P-755 (DONE); P-756 (DONE) |
 | W:MEASURE | DERIVED | weave | Run with nothing forced, the threads produce a definite measure for each way of counting them, and the measures differ: counted move by move the weight keeps out of the cusp; counted by geometric length it is hyperbolic area. | frontier/B1813_the_weaves_own_measure_depends_on_how_its_threads_are_counted/arc_verdict.json; B1813; P-437 (DONE); P-439 (QUEUED) |
 | W:MIRROR-EVEN | DERIVED | list | A flat frame's count can tell a module from its dual but cannot see the hand: the class index is mirror-even for every module. | GENESIS.md; B1487 |
@@ -383,5 +383,7 @@ by a quote that the builder checks.*
 | 82 | P-777 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | 342 entries of lists of hashed files under other names do not verify and are frozen as found, not read: what each list records is owed, family by family (the advisor seat's acceptance row HASH-c). |
 | 83 | P-781 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | the agy lane's two branches of 2026-11-11 are registered and not read: gates, the weave with the tick, a claimed proof of the settling rate, and a read-out on the whole that ends in a comparison main has not read; three seats are already checking it. |
 | 84 | P-786 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | what is left of the audit's finding V1 after its card read B: the sentence on every page that quotes either rarity, the window's two ends listed as a choice with their measured price, the same count on the live candidate's null before its card is sealed, and the seat's own verdict. |
-| 85 | P-802 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | the unit at the cusp is one unit on each of three lines and the foundation does not say so; a unit on one line gives one (B1641's note; the foundation's next version). |
-| 86 | P-804 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | what the web seat's check of main's corrections found: six paragraphs that state the freedom ledger's zero with no correction beside it, two sweeps that miss shapes it planted, and a wrong count in B1675's sentence. |
+| 85 | P-804 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | what the web seat's check of main's corrections found: six paragraphs that state the freedom ledger's zero with no correction beside it, two sweeps that miss shapes it planted, and a wrong count in B1675's sentence. |
+| 86 | P-806 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | the review's block can be switched off in two ways (a variable of the environment; a sentence on the reviews' page), and three things skipped the review that its page did not list. |
+| 87 | P-808 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | what the advisor seat saw on main's pages on the way: sixteen controls that do not depend on their gate, three tests that cannot fail, a withdrawn sentence shown by a page of the paper, and five smaller things. |
+| 88 | P-810 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | the full suite on a fresh clone found eleven verdict files of this window that break the schema, pushed because the schema's test is not a gate and no landing ran it. |

@@ -206,6 +206,18 @@ by sessions that built none of what they read, and every arc of the review's win
   with your own code is recomputed independently, for that number.
 - **Where it goes.** One file on your branch, relays/REVIEW_79_NAME.md, with any output you rely on committed
   before it.
+- **Where your card names a change and not an arc,** read the window's difference for the paths it names, with HEAD
+  the commit your listener printed:
+
+```
+git diff 38d2a36dc HEAD -- PATH
+```
+
+- **Main keeps the readings apart.** Until both readers of an arc have delivered, main writes nothing on its pages of
+  what the first found, and mends nothing in that arc that a reader found. What an instrument finds, such as the
+  suite on a fresh clone, is mended at once and said.
+- **Main counts both ways.** For each reader it reports how many findings held when main reproduced them, and how many
+  did not.
 
 The firewall of § 9 holds throughout.
 

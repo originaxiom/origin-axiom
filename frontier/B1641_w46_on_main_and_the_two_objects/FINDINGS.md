@@ -94,11 +94,22 @@ land.
 
 ## Dated note, 2026-11-11: "one unit" means the same unit on each of the three lines; a unit on one line gives one
 
+> **CORRECTED the same evening. This note was wrong about the foundation, in three sentences.** The foundation's row
+> FK10 has said since its version 1.59 (2026-10-28; B1796, register row P-288) what the note below presents as unsaid:
+> with m = (m_P, m_M, m_N) units of end data on the three lines the space has dimension m_P + m_M + m_N; the least
+> datum on one line gives one; the least uniform datum gives three; and "uniform end data" is one of four links of
+> the unit, none derived. B1796 computed it on main, exactly: d(1,0,0), d(0,1,0), d(0,0,1) = 1 1 1, and d(1,1,1) = 3.
+> So nothing is owed to the foundation, and main had the computation. What lagged was this arc, which wrote one
+> integer, and the map's two nodes for the unit and the chiral three, which said "the unit" with no word that it is
+> uniform; both nodes are mended with this correction. **How the error was made:** main wrote the note from a second
+> derivation's finding without first sweeping the foundation for the three-component form. The session whose
+> derivation raised the point found the row within the hour. The three sentences are marked below and kept.
+
 *Raised by a second derivation of the chiral three from its statement alone, on another family of model (agy-002's
 card A2-C1, read through the mask; its code not run). Checked by main on its own formula and its own committed
 numbers.*
 
-- **What this arc and the foundation say.** Given Λ and n units at the cusp, the index is n times the fibre's index:
+- **What this arc says** [written as "what this arc and the foundation say": wrong of the foundation, see above]**.** Given Λ and n units at the cusp, the index is n times the fibre's index:
   +3, 0, −3 at n = −1, 0, 1 for Λ₊ = 0. The cusp's twist is written as one integer n.
 - **What that leaves unsaid.** At the cusp the triplet has three lines, with exponents ⅛, ⅜ and ⅞ (B1634). They are
   distinct, so the three lines are canonical, and the stabiliser of the cusp acts on each by a number. A pole can
@@ -112,9 +123,11 @@ numbers.*
 - **What it changes.** The three of "the chiral three is an index" is the rank of the triplet times a unit that is
   the same on every line. The postulate of the unit, which the record tags, contains that sameness, and neither the
   foundation's sentence nor the map's says so. It is entered as owed to the foundation's next version (register row
-  P-802). The statement stays conditional, as it was: given Λ and the unit.
+  P-802). [Wrong of the foundation, see above: its row FK10 names uniform end data as a link of the
+  unit. The map's two nodes did not, and are mended.] The statement stays conditional, as it was: given Λ and the unit.
 - **What main did not run.** The seat exhibits a section for the one-line unit, from an exact basis of the forms of
-  weight 27/2. Main has not built that basis. What main states is the index, from its own formula.
+  weight 27/2. Main has not built that basis. What main states is the index, from its own formula. [Wrong, see above: B1796 computed the
+  dimensions on main on 2026-10-28, a unit on one line giving one and the uniform unit three.]
 - **One thing the seat says of the record that is not in it.** It quotes the foundation as calling one unit "the
   smallest move-invariant deviation from zero". Main finds no such sentence in the foundation, the claim page, the
   map or this arc. The record's sentence is that one unit of end data is adopted as a working postulate.

@@ -123,11 +123,13 @@ N("W:NOVAL", "3 weave", "theorem", "NEGATIVE", "No parameter of the nineteen and
   arcs=["B1611", "B1612", "B1615", "B1616"])
 N("TAG:LAMBDA", "3 weave", "premise", "TAGGED", "Λ, the dictionary's link, is a tagged working postulate: results computed with it carry 'given Λ'.",
   [(GEN, "FK11: **Λ a tagged working postulate**")])
-N("TAG:UNIT", "3 weave", "premise", "TAGGED", "One unit of end data at the weave's cusp is a tagged working postulate; no datum the principle forces supplies it.",
+N("TAG:UNIT", "3 weave", "premise", "TAGGED", "One unit of end data at the weave's cusp, uniform on its three lines, is a tagged working postulate; no datum the principle forces supplies it, and its uniformity is one of four links of the unit, none derived.",
   [(GEN, "One unit of end data at the weave's cusp is adopted as a working postulate, as Λ is"),
-   (GEN, "nothing the principle forces visits the weave's cusp")], arcs=["B1629"])
-N("W:INDEX3", "3 weave", "theorem", "CONDITIONAL", "Given Λ and the unit, the chiral three is a four-dimensional index (±3) on the weave's own surface.",
-  [(GEN, "So, given Λ and the unit, the chiral three is an index, and FK11's earning condition is met conditionally.")], arcs=["B1632", "B1641"])
+   (GEN, "nothing the principle forces visits the weave's cusp"),
+   (GEN, "uniform end data; and the least remainder")], arcs=["B1629", "B1796"])
+N("W:INDEX3", "3 weave", "theorem", "CONDITIONAL", "Given Λ and the uniform unit, the chiral three is a four-dimensional index (±3) on the weave's own surface; the least datum on one line of the cusp gives one.",
+  [(GEN, "So, given Λ and the unit, the chiral three is an index, and FK11's earning condition is met conditionally."),
+   (GEN, "the least uniform datum gives three")], arcs=["B1632", "B1641", "B1796"])
 
 # the law, and what weighs the allowed (the owner, 2026-11-10; P-755)
 N("W:LAW", "3 weave", "premise", "OPEN", "The law as the owner states it: if something is allowed to happen, it happens. On the record it is the weave's rule of method, and as a physical law a hypothesis to test, not a premise.",

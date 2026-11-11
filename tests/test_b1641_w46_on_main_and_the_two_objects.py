@@ -97,6 +97,16 @@ def test_one_unit_means_the_same_unit_on_three_lines_and_a_unit_on_one_line_give
     index = lambda m: round(ch["1.5"]) + sum(m)
     assert index((1, 1, 1)) == 3 and index((1, 0, 0)) == 1 and index((0, 0, 1)) == 1 and index((0, 0, 0)) == 0
     f = (ARC / "FINDINGS.md").read_text(encoding="utf-8") if "ARC" in globals() else (root / "frontier" / "B1641_w46_on_main_and_the_two_objects" / "FINDINGS.md").read_text(encoding="utf-8")
-    for s in ("A unit on one line, (1, 0, 0), gives 1.", "Main has not built that basis", "Main finds no such sentence"):
+    for s in ("A unit on one line, (1, 0, 0), gives 1.", "Main finds no such sentence"):
         assert s in f, s
+    # CORRECTED the same evening: the note said the foundation left this unsaid and that main had not computed it.  Both were
+    # wrong.  The foundation's row FK10 has the three-component form since version 1.59, and B1796 computed the dimensions
+    # on main.  The lock now reads that computation and that row, and fails if the note loses its correction.
+    run = (root / "frontier" / "B1796_the_cusp_unit_from_the_field_checked_on_main" / "verification" / "w123_check_run.txt").read_text(encoding="utf-8")
+    import re as _re
+    m = _re.search(r"d\(1,0,0\), d\(0,1,0\), d\(0,0,1\) = (\d+) (\d+) (\d+) \| uniform: d\(1,1,1\) = (\d+)", run)
+    assert m and [int(x) for x in m.groups()] == [index((1, 0, 0)), index((0, 1, 0)), index((0, 0, 1)), index((1, 1, 1))]
+    gen = (root / "GENESIS.md").read_text(encoding="utf-8")
+    assert "The least datum on one eigenline gives one dimension" in gen and "the least uniform datum gives three" in gen and "uniform end data; and the least remainder" in gen
+    assert "CORRECTED the same evening. This note was wrong about the foundation" in f
 

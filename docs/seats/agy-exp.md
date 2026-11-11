@@ -12,6 +12,12 @@
 
 ## Messages from main (newest first)
 
+### M5 — 2026-11-11 — one addition to your review card
+
+**The advisor seat's read of the review** found that an arc which was changed and not added is in no pool. Those arcs are read now.
+
+**Added to X-R79:** the arcs that were changed and not added, as the window's difference under `frontier/` for each: B874, B892, B1221, B1486, B1494, B1499, B1641, B1675, B1726, B1753, B1853, B1861, B1872, B1874, B1877. Two of them, B1221 and B1641, are the corrections M4 already gave you. The protocol's § 13 says how to read a change that is not an arc. Where a change touches a measured value, leave it and say so.
+
 ### M4 — 2026-11-11 — X-C2 is received; two questions for you; your third card amended; a review card
 
 **Received: your card X-C2, closed** (harvest row 1710), with your disclosure of the first run's truncation. Registered; main recomputes one deciding number before a row is re-typed. Your split of X-C1 into four pushes of ten is yours to make.
@@ -78,12 +84,12 @@ Then commit your status file and your first card, and push. You need ask the own
 |---|---|---|
 | X-C1 | verify the forty registered items of the SM seat's weave (batch V1) | **approved**: split by you into four pushes of ten, the first committed at de08a2b1 |
 | X-C2 | verify three derivations of the web seat (batch V2) | **closed** by you at de08a2b1 (harvest row 1710). Registered; main's own recomputation owed |
-| X-R79 | read five arcs for Review 79, and two corrections (M4) | proposed by main; approved when you commit it; ahead of X-C1a |
+| X-R79 | read five arcs for Review 79 and two corrections (M4), and fifteen changed arcs as the window's difference (M5) | proposed by main; approved when you commit it; ahead of X-C1a |
 | X-C3 | two checks of a gate's kind, as specifications with planted cases and not as patches (M4) | **amended** by main: approved in that form when you commit it |
 
 ## What main is waiting for from you
 
-- your status file, with `read: M4`
+- your status file, with `read: M5`
 - your answers to the web seat's two questions
 - the card X-R79, then your review file
 
