@@ -1,0 +1,51 @@
+=== the tests of a9607efa6 run on the commit before it, da6a2a69a:
+        """PV11 as planted.  With no registry the sweep read no phrase, swept for nothing and passed."""
+E       assert (True is False)
+E       assert (True is False)
+E       assert (True is False)
+FAILED test_what_a_page_has_held_is_read_from_the_anchor_on
+FAILED test_the_rule_reads_main_from_its_anchor_and_nothing_is_named_yet
+FAILED test_the_registry_of_retracted_phrases_deleted_turns_the_sweep_red
+FAILED test_a_phrase_that_leaves_the_registry_turns_the_sweep_red_unless_it_is_named
+FAILED test_a_phrase_added_after_the_anchor_and_then_removed_has_left_too
+5 failed in 1.75s
+=== the tests of d5c773bc9 run on the commit before it, a9607efa6:
+E       assert (True is False)
+E       assert (True is False)
+E       assert (True is False)
+FAILED test_the_law_map_and_the_theorem_ledger_emptied_turn_their_gates_red
+FAILED test_one_law_or_one_link_removed_turns_its_gate_red_unless_it_is_named
+FAILED test_a_law_keeps_its_place_when_its_row_is_added_to_and_loses_it_when_its_title_changes
+FAILED test_on_main_the_two_pages_hold_everything_they_held_at_the_anchor
+4 failed, 5 passed in 3.42s
+=== the tests of b1880f834 run on the commit before it, d5c773bc9:
+E       assert (True is False)
+E       assert (True is False)
+E       assert (True is False)
+FAILED test_the_identification_baseline_deleted_and_three_unearned_rows_added_turns_the_gate_red
+FAILED test_the_baseline_rises_only_by_a_raise_recorded_in_its_own_list
+FAILED test_the_baseline_may_fall_freely_and_must_hold_a_count
+FAILED test_a_row_that_leaves_the_identification_ledger_turns_the_gate_red_unless_it_is_named
+FAILED test_the_rule_of_the_raises_on_its_own
+5 failed, 9 passed in 6.00s
+=== the tests of 1d4d542ac run on the commit before it, b1880f834:
+E       assert (True is False)
+E       assert (True is False)
+E       assert (True is False)
+E       assert (True is False)
+FAILED test_every_lock_deleted_turns_the_vacuity_gate_red
+FAILED test_one_lock_deleted_turns_the_gate_red_unless_its_retirement_is_recorded
+FAILED test_a_lock_that_is_moved_has_not_left_and_one_added_and_dropped_has
+FAILED test_a_lock_gone_from_the_disk_or_from_the_index_has_left_before_any_commit_says_so
+FAILED test_on_main_no_lock_has_left_since_the_anchor
+5 failed, 14 passed in 7.59s
+=== the tests of b23310d14 run on the commit before it, 1d4d542ac:
+        by three, as one commit could do.  Before the mend the count met the baseline and the gate passed."""
+>       assert ok is False, "three vendor tokens went into the README with a baseline raised to fit them, and the gate passed"
+E       AssertionError: three vendor tokens went into the README with a baseline raised to fit them, and the gate passed
+FAILED test_a_baseline_count_raised_with_the_tokens_it_allows_turns_the_attribution_gate_red
+FAILED test_a_ceiling_may_fall_freely_and_rises_only_by_name
+FAILED test_the_attribution_baseline_is_read_as_it_was_at_the_anchor
+3 failed, 19 passed in 18.32s
+=== the tests of 355b9a55c run on the commit before it, b23310d14:
+22 passed in 18.96s

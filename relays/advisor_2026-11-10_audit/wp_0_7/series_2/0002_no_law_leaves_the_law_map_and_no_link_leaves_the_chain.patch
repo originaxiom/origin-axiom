@@ -1,0 +1,171 @@
+From d5c773bc958fa8a234267e54c2d1ff21c066d2fe Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Wed, 11 Nov 2026 18:04:30 +0000
+Subject: [PATCH 2/6] WP-0.7, enforcement (cld-advisor's series 2, patch 2;
+ built on e6298271a with series 1 applied): NO LAW LEAVES THE LAW MAP AND NO
+ LINK LEAVES THE CHAIN (the seat's planted case PV13). With docs/LAW_MAP.md
+ and docs/THEOREM_LEDGER.md emptied, law-map-provenance and chain-locks
+ passed: each checks every row it finds, and with no rows nothing could fail.
+ Each now asks what its page has held since the anchor (patch 1's rule). A LAW
+ IS KNOWN BY THE BOLD TITLE OF ITS ROW: the rest of the row may be corrected
+ and a note may grow after the title, and the law is still there; a changed
+ title is a law that left and one that came, and is named. Measured on main:
+ 324 rows with 324 distinct titles; in the last 300 commits one title was
+ changed, and one first cell was added to after its title, which this reading
+ does not count. A link is known by its id; none has left in a thousand
+ commits. Main's two tests that drive these gates on a page of one row still
+ fail for the reason they name, and now for this one as well. Both gates read
+ the past and join the table. The lock: four tests added to
+ tests/test_nothing_leaves_a_ledger.py; on the commit before, three fail
+ because the gates pass on the emptied pages. 0 of 19.
+
+---
+ scripts/gates/gates.py                | 35 +++++++++++++---
+ tests/test_nothing_leaves_a_ledger.py | 60 +++++++++++++++++++++++++++
+ 2 files changed, 90 insertions(+), 5 deletions(-)
+
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 5e6de1a4c..3ad628bcd 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -1069,7 +1069,12 @@ def gate_log_changelog_paired():
+ CHAIN = "docs/THEOREM_LEDGER.md"
+ 
+ 
+-def gate_chain_locks():
++def _chain_links(text):
++    """the links THE CHAIN holds, by their ids"""
++    return re.findall(r"^\*\*(C\d+) \[", text, re.M)
++
++
++def gate_chain_locks(_anchor=None):
+     """Every link in THE CHAIN must cite a resolvable test lock -- its OWN admission rule.
+ 
+     THE CHAIN's stated admission bar is "exact statement + banked computation location + green
+@@ -1099,15 +1104,31 @@ def gate_chain_locks():
+         problems.append("links citing no resolvable lock: " + ", ".join(bad))
+     if missing:
+         problems.append("locks cited but absent: " + ", ".join(missing))
++    # PV13 (WP-0.7): emptied, the ledger had no link that could fail.  No link leaves THE CHAIN without a record.
++    gone, note = left_the_ledger(CHAIN, _chain_links, text, "link", _anchor)
++    if gone:
++        problems.append(gone)
+     if problems:
+         return False, "THE CHAIN -- " + "; ".join(problems)
+-    return True, f"ok ({len(links)} links, every non-AXIOM one locked)"
++    return True, f"ok ({len(links)} links, every non-AXIOM one locked)" + note
+ 
+ 
+ LAW_MAP = "docs/LAW_MAP.md"
+ 
+ 
+-def gate_law_map_provenance():
++def _law_titles(text):
++    """the laws a page holds, each by the bold title of its row's first cell (what follows the title in that cell is a note,
++    and a note may grow)"""
++    out = []
++    for l in text.splitlines():
++        if l.startswith("|") and l.count("|") >= 4 and "---" not in l and not re.match(r"^\|\s*(law|name)", l, re.I):
++            cell = l.split("|")[1]
++            m = re.search(r"\*\*(.+?)\*\*", cell)
++            out.append(re.sub(r"\s+", " ", m.group(1) if m else cell).strip())
++    return out
++
++
++def gate_law_map_provenance(_anchor=None):
+     """LAW_MAP rows must be traceable, and any lock they cite must resolve.
+ 
+     Review 33 (R33-4) measured LAW_MAP at 113 rows with 5 test locks (4 %) and NO gate touching
+@@ -1131,10 +1152,14 @@ def gate_law_map_provenance():
+                         "; ".join(r.split("|")[1].strip()[:40] for r in noarc[:3]))
+     if broken:
+         problems.append("cited locks absent: " + ", ".join(broken[:3]))
++    # PV13 (WP-0.7): emptied, the page had no row that could fail.  No law leaves it without a record.
++    gone, note = left_the_ledger(LAW_MAP, _law_titles, text, "law", _anchor)
++    if gone:
++        problems.append(gone)
+     if problems:
+         return False, "LAW_MAP provenance -- " + "; ".join(problems)
+     locked = sum(1 for r in rows if re.search(r"tests/test_[a-z0-9_]+\.py", r))
+-    return True, f"ok ({len(rows)} rows all traceable; {locked} locked -- index, not ledger)"
++    return True, f"ok ({len(rows)} rows all traceable; {locked} locked -- index, not ledger)" + note
+ 
+ 
+ # B806. A HIGH-WATER MARK, not a budget: raising it must be a deliberate, recorded act.
+@@ -2799,7 +2824,7 @@ READS_HISTORY = frozenset({                       # reads commits before HEAD, o
+     "append-only", "artifact-hashes", "attribution", "closure-generated", "harvest-debt", "lead-debt",
+     "log-changelog-paired", "point-debt", "relay-debt", "review-fires", "seal-immutable", "seal-order-unshown", "views-fresh",
+     "views-generated",                            # the four debt gates: the commit's day, and that time has not run backwards
+-    "retraction-sweep"})                          # nothing leaves a ledger: what the page has held since NOTHING_LEAVES_FROM
++    "chain-locks", "law-map-provenance", "retraction-sweep"})     # nothing leaves a ledger: what a page has held since NOTHING_LEAVES_FROM
+ READS_GIT = READS_TRACKED | READS_HISTORY
+ 
+ 
+diff --git a/tests/test_nothing_leaves_a_ledger.py b/tests/test_nothing_leaves_a_ledger.py
+index a2003a1ed..fefbf14d9 100644
+--- a/tests/test_nothing_leaves_a_ledger.py
++++ b/tests/test_nothing_leaves_a_ledger.py
+@@ -170,3 +170,63 @@ def test_a_phrase_added_after_the_anchor_and_then_removed_has_left_too(tmp_path)
+     _commit(repo, "and quietly dropped", {"docs/RETRACTED_PHRASES.md": _REGISTRY})
+     ok, detail = _gate(repo, "retraction-sweep", anchor)
+     assert ok is False and "the third retracted phrase" in detail
++
++
++# ---- PV13: the law map and the theorem ledger ---------------------------------------------------------------------------
++_LAWS = ("# The law map\n\n| law | statement | status | source | tension |\n|---|---|---|---|---|\n"
++         "| **The first law (B11)** | a statement | PROVED | B11 | - |\n"
++         "| **The second law (B12)** | another | PROVED | B12 | - |\n"
++         "| **The third law (B13)** | a third | PROVED | B13 | - |\n")
++_CHAIN = ("# THE CHAIN\n\n**C1 [THEOREM].** A first link. Lock: `tests/test_a.py`.\n\n"
++          "**C2 [THEOREM].** A second link. Lock: `tests/test_a.py`.\n\n**C3 [AXIOM].** A declared choice.\n")
++_PAGES = {"docs/LAW_MAP.md": _LAWS, "docs/THEOREM_LEDGER.md": _CHAIN, "tests/test_a.py": "def test_a():\n    assert 1 + 1 == 2\n"}
++
++
++def test_the_law_map_and_the_theorem_ledger_emptied_turn_their_gates_red(tmp_path):
++    """PV13 as planted.  Each gate checked every row it found, and with no rows nothing could fail."""
++    repo, anchor = _scratch(tmp_path, _PAGES)
++    ok, detail = _gate(repo, "law-map-provenance", anchor)
++    assert ok is True and "3 rows all traceable" in detail and "by name" not in detail
++    ok, detail = _gate(repo, "chain-locks", anchor)
++    assert ok is True and "3 links" in detail and "by name" not in detail
++    _commit(repo, "both pages emptied", {"docs/LAW_MAP.md": "# The law map\n", "docs/THEOREM_LEDGER.md": "# THE CHAIN\n"})
++    ok, detail = _gate(repo, "law-map-provenance", anchor)
++    assert ok is False and "3 law(s) left docs/LAW_MAP.md" in detail and "The first law (B11)" in detail
++    ok, detail = _gate(repo, "chain-locks", anchor)
++    assert ok is False and "3 link(s) left docs/THEOREM_LEDGER.md" in detail and "C1" in detail
++
++
++def test_one_law_or_one_link_removed_turns_its_gate_red_unless_it_is_named(tmp_path):
++    repo, anchor = _scratch(tmp_path, _PAGES)
++    fewer_laws = "\n".join(l for l in _LAWS.split("\n") if "second law" not in l)
++    fewer_links = _CHAIN.replace("**C2 [THEOREM].** A second link. Lock: `tests/test_a.py`.\n\n", "")
++    _commit(repo, "one row and one link removed", {"docs/LAW_MAP.md": fewer_laws, "docs/THEOREM_LEDGER.md": fewer_links})
++    ok, detail = _gate(repo, "law-map-provenance", anchor)
++    assert ok is False and "1 law(s) left" in detail and "The second law (B12)" in detail
++    ok, detail = _gate(repo, "chain-locks", anchor)
++    assert ok is False and "1 link(s) left" in detail and "C2" in detail
++    _name_in_the_gate(repo, "docs/LAW_MAP.md", "The second law (B12)", "2026-11-11 -- merged into the first law's row")
++    _commit(repo, "the law's leaving is recorded")
++    ok, detail = _gate(repo, "law-map-provenance", anchor)
++    assert ok is True and "1 law(s) left by name" in detail and "merged into the first law" in detail
++    assert _gate(repo, "chain-locks", anchor)[0] is False                    # the link was not named, and is still missed
++
++
++def test_a_law_keeps_its_place_when_its_row_is_added_to_and_loses_it_when_its_title_changes(tmp_path):
++    """A note may grow after the title, and the rest of the row may be corrected: the law is still there.  A changed title is
++    a law that left and one that came, and that is a recorded act."""
++    repo, anchor = _scratch(tmp_path, _PAGES)
++    grown = _LAWS.replace("| **The first law (B11)** | a statement |", "| **The first law (B11)** [scope: a note added later] | a statement, corrected (B14) |")
++    _commit(repo, "a note and a correction", {"docs/LAW_MAP.md": grown})
++    assert _gate(repo, "law-map-provenance", anchor)[0] is True
++    _commit(repo, "a title is changed", {"docs/LAW_MAP.md": grown.replace("**The third law (B13)**", "**The third law, for the median only (B13)**")})
++    ok, detail = _gate(repo, "law-map-provenance", anchor)
++    assert ok is False and "The third law (B13)" in detail
++
++
++def test_on_main_the_two_pages_hold_everything_they_held_at_the_anchor():
++    g = _gates()
++    for path, keys in ((g.LAW_MAP, g._law_titles), (g.CHAIN, g._chain_links)):
++        text = (ROOT / path).read_text(encoding="utf-8")
++        assert len(keys(text)) == len(set(keys(text))) > 50, path                      # each row and each link has a name of its own
++        assert g.left_the_ledger(path, keys, text) == (None, ""), path

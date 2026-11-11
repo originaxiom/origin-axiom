@@ -1,0 +1,174 @@
+From 1d4d542ac30f48063deea4c3e8ae88791537c67a Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Wed, 11 Nov 2026 18:09:17 +0000
+Subject: [PATCH 4/6] WP-0.7, enforcement (cld-advisor's series 2, patch 4;
+ built on e6298271a with series 1 applied): A LOCK DOES NOT LEAVE WITHOUT A
+ RECORDED RETIREMENT (the seat's planted case PV12). test-vacuity counts the
+ tests that cannot fail among the tests present; with every lock in tests/
+ deleted it counted none among none and passed. The gate now asks which lock
+ files the repository has held since the anchor -- every tracked file named
+ test_*.py, in tests/ or in an arc, at the anchor or added since -- and each
+ must still be tracked and on the disk, or be named under 'locks' in
+ LEFT_BY_NAME with its date and why. A lock that was moved is where it went
+ and has not left; one deleted from the disk or dropped from the index has
+ left before any commit says so. Measured on main: 553 lock files two thousand
+ commits ago, 1,610 now, and not one deleted or renamed in between; so the
+ rule costs nothing that main does today. A CHANGE FROM WHAT THE SEAT FIRST
+ PROPOSED: a retirement is recorded in the gate's own table, as main's waivers
+ are, and not in a new page beside the tests. The gate reads the past and
+ moves in the table. The lock: five tests added to
+ tests/test_nothing_leaves_a_ledger.py; on the commit before, four fail
+ because the gate passes with its locks gone. 0 of 19.
+
+---
+ scripts/gates/gates.py                | 53 +++++++++++++++++++++++--
+ tests/test_nothing_leaves_a_ledger.py | 57 +++++++++++++++++++++++++++
+ 2 files changed, 106 insertions(+), 4 deletions(-)
+
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 6486a2ae9..99f3c2ffd 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -889,7 +889,47 @@ def gate_tracked_deps(_plant=None):
+     return True, "ok"
+ 
+ 
+-def gate_test_vacuity():
++_LOCK_FILE = re.compile(r"(^|/)test_[^/]*\.py$")
++
++
++def locks_that_left(anchor=None, repo=None, named=None):
++    """the lock files (tracked files named test_*.py, in tests/ or in an arc) the repository has held since the anchor and
++    holds no longer.  A lock that was moved is where it went, and has not left.  Returns (problem, note), as left_the_ledger
++    does; the named ones are under "locks" in LEFT_BY_NAME."""
++    anchor = anchor or NOTHING_LEAVES_FROM
++    repo = str(repo or ROOT)
++    git, why = _since_the_anchor(anchor, repo)
++    if why:
++        return why, ""
++    held = {n for n in git("ls-tree", "-r", "--name-only", anchor).stdout.splitlines() if _LOCK_FILE.search(n)}
++    moved = {}
++    log = git("log", "--first-parent", "--reverse", "-M", "--name-status", "--format=", f"{anchor}..HEAD", "--", ":(glob)**/test_*.py")
++    for line in log.stdout.splitlines():
++        parts = line.split("\t")
++        if parts[0].startswith("R") and len(parts) == 3:
++            moved[parts[1]] = parts[2]
++            held.add(parts[2])
++        elif parts[0].startswith(("A", "C")):
++            held.add(parts[-1])
++    tracked = set(git("ls-files", "--", ":(glob)**/test_*.py").stdout.splitlines())
++
++    def there(n):
++        return n in tracked and os.path.isfile(os.path.join(repo, n))
++
++    def still(n, seen=()):
++        return there(n) or (n in moved and n not in seen and still(moved[n], seen + (n,)))
++    named = LEFT_BY_NAME.get("locks", {}) if named is None else named
++    gone = sorted(n for n in held if not still(n))
++    loose = [n for n in gone if not str(named.get(n, "")).strip()]
++    by_name = [n for n in gone if n not in loose]
++    note = f"; {len(by_name)} lock file(s) left by name since {anchor[:9]}: " + "; ".join(f"{n} ({named[n]})" for n in by_name[:4]) if by_name else ""
++    if loose:
++        return (f"{len(loose)} lock file(s) left the repository since {anchor[:9]} with no record: " + "; ".join(loose[:4])
++                + ". A lock is not deleted without a recorded retirement: put it back, or name it under 'locks' in LEFT_BY_NAME with its date and why"), note
++    return None, note
++
++
++def gate_test_vacuity(_anchor=None):
+     """No test may be unconditionally-passing: no NO-ASSERT, no TAUTOLOGY.
+ 
+     The programme's ledger already carries this failure twice (E31 vacuous verification; MB12
+@@ -913,7 +953,12 @@ def gate_test_vacuity():
+     if problems:
+         return False, f"{len(problems)} unconditionally-passing test(s): " + \
+                       "; ".join(problems[:5])
+-    return True, f"ok ({total} tests, 0 vacuous; {len(both_lit)} both-literal for review)"
++    # PV12 (WP-0.7): this gate counts the tests that cannot fail among the tests present, and with every lock deleted it
++    # counted none among none and passed.  A lock does not leave without a recorded retirement.
++    gone, note = locks_that_left(_anchor)
++    if gone:
++        return False, gone
++    return True, f"ok ({total} tests, 0 vacuous; {len(both_lit)} both-literal for review)" + note
+ 
+ 
+ def gate_views_generated():
+@@ -2877,12 +2922,12 @@ GATES = {
+ # every gate NOT listed here must give the same answer with git as without it, so a new gate that calls git and is not listed
+ # fails that lock; and a gate listed as reading the tracked files only may not call a git command that reads the past.
+ READS_TRACKED = frozenset({                       # asks git which files are tracked, and nothing of the past
+-    "arrival-phrases", "path-refs", "test-vacuity", "tracked-deps", "tracked-forbidden"})
++    "arrival-phrases", "path-refs", "tracked-deps", "tracked-forbidden"})
+ READS_HISTORY = frozenset({                       # reads commits before HEAD, or other seats' branches
+     "append-only", "artifact-hashes", "attribution", "closure-generated", "harvest-debt", "lead-debt",
+     "log-changelog-paired", "point-debt", "relay-debt", "review-fires", "seal-immutable", "seal-order-unshown", "views-fresh",
+     "views-generated",                            # the four debt gates: the commit's day, and that time has not run backwards
+-    "chain-locks", "identification-register", "law-map-provenance", "retraction-sweep"})     # nothing leaves a ledger: what a page has held since NOTHING_LEAVES_FROM
++    "chain-locks", "identification-register", "law-map-provenance", "retraction-sweep", "test-vacuity"})     # nothing leaves a ledger: what a page has held since NOTHING_LEAVES_FROM
+ READS_GIT = READS_TRACKED | READS_HISTORY
+ 
+ 
+diff --git a/tests/test_nothing_leaves_a_ledger.py b/tests/test_nothing_leaves_a_ledger.py
+index 5c2b56336..32f23cdd1 100644
+--- a/tests/test_nothing_leaves_a_ledger.py
++++ b/tests/test_nothing_leaves_a_ledger.py
+@@ -313,3 +313,60 @@ def test_the_rule_of_the_raises_on_its_own():
+     assert "removed or changed" in g.baseline_rise({"unearned": 5, "_baseline_raises": []}, then)[0]
+     assert "does not go up" in g.baseline_rise(grow(5, [r(6, 5)]), then)[0]
+     assert g.baseline_rise(grow(99, []), None) == (None, "")                             # no baseline at the anchor: not re-judged
++
++
++# ---- PV12: the locks themselves -----------------------------------------------------------------------------------------
++_LOCK = "def test_%s():\n    assert sum([1, 2]) == 3\n"
++_LOCKS = {"tests/test_one.py": _LOCK % "one", "tests/test_two.py": _LOCK % "two", "frontier/B11_an_arc/verification/test_b11_an_arc.py": _LOCK % "three"}
++
++
++def test_every_lock_deleted_turns_the_vacuity_gate_red(tmp_path):
++    """PV12 as planted.  The gate counted the tests that cannot fail among the tests present; among none it counted none."""
++    repo, anchor = _scratch(tmp_path, _LOCKS)
++    ok, detail = _gate(repo, "test-vacuity", anchor)
++    assert ok is True and "2 tests, 0 vacuous" in detail and "by name" not in detail
++    _commit(repo, "every lock in tests/ deleted", delete=["tests/test_one.py", "tests/test_two.py"])
++    ok, detail = _gate(repo, "test-vacuity", anchor)
++    assert ok is False and "2 lock file(s) left the repository" in detail and "tests/test_one.py" in detail
++
++
++def test_one_lock_deleted_turns_the_gate_red_unless_its_retirement_is_recorded(tmp_path):
++    repo, anchor = _scratch(tmp_path, _LOCKS)
++    _commit(repo, "an arc's own lock deleted", delete=["frontier/B11_an_arc/verification/test_b11_an_arc.py"])
++    ok, detail = _gate(repo, "test-vacuity", anchor)
++    assert ok is False and "1 lock file(s) left" in detail and "test_b11_an_arc.py" in detail
++    _name_in_the_gate(repo, "locks", "frontier/B11_an_arc/verification/test_b11_an_arc.py", "2026-11-11 -- the arc is retracted (B12); its lock retired with it")
++    _commit(repo, "the retirement recorded")
++    ok, detail = _gate(repo, "test-vacuity", anchor)
++    assert ok is True and "1 lock file(s) left by name" in detail and "retired with it" in detail
++
++
++def test_a_lock_that_is_moved_has_not_left_and_one_added_and_dropped_has(tmp_path):
++    repo, anchor = _scratch(tmp_path, _LOCKS)
++    _git(repo, "mv", "tests/test_one.py", "tests/test_one_renamed.py")
++    _commit(repo, "a lock renamed")
++    assert _gate(repo, "test-vacuity", anchor)[0] is True
++    _git(repo, "mv", "tests/test_one_renamed.py", "tests/test_one_again.py")
++    _commit(repo, "and renamed again")
++    assert _gate(repo, "test-vacuity", anchor)[0] is True
++    _commit(repo, "a lock added after the anchor", {"tests/test_late.py": _LOCK % "late"})
++    _commit(repo, "and dropped", delete=["tests/test_late.py"])
++    ok, detail = _gate(repo, "test-vacuity", anchor)
++    assert ok is False and "tests/test_late.py" in detail and "test_one" not in detail
++
++
++def test_a_lock_gone_from_the_disk_or_from_the_index_has_left_before_any_commit_says_so(tmp_path):
++    repo, anchor = _scratch(tmp_path, _LOCKS)
++    (repo / "tests" / "test_two.py").unlink()                                   # deleted, not committed
++    ok, detail = _gate(repo, "test-vacuity", anchor)
++    assert ok is False and "tests/test_two.py" in detail
++    _git(repo, "checkout", "--", "tests/test_two.py")
++    assert _gate(repo, "test-vacuity", anchor)[0] is True
++    _git(repo, "rm", "-q", "--cached", "tests/test_two.py")                     # on the disk still, and no longer tracked
++    ok, detail = _gate(repo, "test-vacuity", anchor)
++    assert ok is False and "tests/test_two.py" in detail
++
++
++def test_on_main_no_lock_has_left_since_the_anchor():
++    g = _gates()
++    assert g.locks_that_left() == (None, "")

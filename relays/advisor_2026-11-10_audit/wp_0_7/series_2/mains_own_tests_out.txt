@@ -1,0 +1,26 @@
+main's own tests of the gates and checkers, the summary lines of three runs (the full outputs hold sandbox paths and are not committed)
+
+CONTROL -- at main's head e6298271a, no patch applied, 79 test files:
+FAILED frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py::test_the_generating_pair_check_reproduces
+FAILED tests/test_b1449_silent_receipts.py::test_the_decisive_test_of_b469_reproduces_with_the_fix_live
+FAILED tests/test_prepush_clean_tree.py::test_the_commit_is_gated_in_a_clean_worktree_and_removed
+FAILED tests/test_prepush_clean_tree.py::test_a_failing_gate_fails_the_push
+4 failed, 540 passed, 12 skipped, 1 warning in 355.19s (0:05:55)
+   (the two tests of the push hook failed in this run because this seat's disk was full; run again with space, at the same commit: 3 passed)
+
+WITH SERIES 1 -- da6a2a69a (main's head, the four patches of series 1, the views regenerated), the same 79 files and series 1's lock:
+FAILED frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py::test_the_generating_pair_check_reproduces
+FAILED tests/test_b1449_silent_receipts.py::test_the_decisive_test_of_b469_reproduces_with_the_fix_live
+FAILED tests/test_prepush_clean_tree.py::test_the_commit_is_gated_in_a_clean_worktree_and_removed
+FAILED tests/test_prepush_clean_tree.py::test_a_failing_gate_fails_the_push
+4 failed, 554 passed, 12 skipped, 1 warning in 398.17s (0:06:38)
+   (the same two tests of the push hook, for the same reason; run again with space: 3 passed)
+
+WITH SERIES 2 AS SENT -- dc31a7317 (series 1, the six patches of series 2, the views regenerated), the same 79 files and both locks:
+FAILED frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py::test_the_generating_pair_check_reproduces
+FAILED tests/test_b1449_silent_receipts.py::test_the_decisive_test_of_b469_reproduces_with_the_fix_live
+FAILED tests/test_b1461_governance_delta.py::test_the_four_gates_are_registered_and_green_on_the_record
+FAILED tests/test_b887_gate_audit.py::test_all_twenty_gates_pass_now - Assert...
+FAILED tests/test_repo_gates.py::test_all_gates_pass - AssertionError: {'revi...
+5 failed, 575 passed, 12 skipped, 1 warning in 403.37s (0:06:43)
+   (the last three fail on one gate, review-fires: main's count of landings since its last review is 30 at its head and 42 with this seat's twelve commits on top)

@@ -10,13 +10,15 @@
 | | |
 |---|---|
 | date | 2026-11-11 |
-| **building again, at the owner's word to this seat** | "now conttinue bulding when ready" (`OWNER_RULINGS_2026-11-10.md`, last entry). The hold of P-788 was this seat's own; he has lifted it for this seat. Main's proposal for the lock (B1889 § 7.3) keeps this seat's five packages |
-| the piece in hand | **WP-0.7, series 2**: what is deleted or emptied still passes (PV10, PV11, PV12, PV13, PV19), by the card in `ADVISOR_TO_CC_2026-11-11_FOR_THE_LOCK_WHAT_THIS_SEAT_HOLDS_AND_ITS_CARD.md`, § 3. Built on series 1 as sent, which main has not yet verified. Where the card asked for a ruling on what counts as a recorded act, the seat takes its own proposal, for main to overrule |
-| as builder: what is sent | series 1 of 4: four patches, built on `ea41e6fc9`; they apply on main's head. Main has registered it (row 1699) and has not yet run its unseen cases on it |
+| building, at the owner's word to this seat | "now conttinue bulding when ready" (`OWNER_RULINGS_2026-11-10.md`). Main's proposal for the lock (B1889 § 7.3) keeps this seat's five packages |
+| as builder: what is sent | WP-0.7, **series 1 of 4** (four patches: a gate is a function of the commit) and **series 2 of 4** (six patches: nothing leaves a ledger and no ceiling rises without a recorded act; `ADVISOR_TO_CC_2026-11-11_WP_0_7_SERIES_2_SIX_PATCHES.md`). Both apply in order on main's `e6298271a`. The planted suite on their end: **16 of 21**, from 8 |
+| what main has not yet done with them | run its unseen cases on either series. Series 1 is registered (row 1699) |
+| next | series 3 of WP-0.7: the wording gates (PV17, PV20, PV21), a control that is run (PV16), an assert between literals (PV24). Its card is written before it starts |
 | as auditor: the verdicts | re-audit 7: **E7 accepted**. Re-audit 6: **E5 accepted; E2 partly** (the arc's own claim line still leads with the old level) |
-| waiting on | main: its verdict on series 1; its approval of the card, which this seat no longer waits for |
+| proposals with main | how the record refers to the assistants (`PROPOSAL_HOW_TO_REFER_TO_THE_ASSISTANTS.md`; main's own is the base); the public form, the website and the history (`OPINION_ON_THE_REPOSITORY_2026-11-11.md`, §§ 9 to 14) |
+| waiting on | main: its verdict on the two series |
 | blocked | no |
-| packages delivered | 0 of 5 (one series of the first package sent) |
+| packages delivered | 0 of 5 (two of four series of the first package sent) |
 
 (The section is numbered 9 and stands first, so that its number does not move when the page grows.)
 
@@ -141,7 +143,7 @@ commit. If main wants a branch to fetch, a second branch needs the owner's leave
 
 | # | item | state | whose move |
 |---|---|---|---|
-| 1 | the five packages of § 5 | 0 of 5 delivered; WP-0.7 series 1 of 4 sent; **the rest held until the plan is locked** (P-788) | main: the lock, and its verdict on series 1 |
+| 1 | the five packages of § 5 | 0 of 5 delivered; WP-0.7: series 1 and 2 of 4 sent, the suite at 16 of 21 | main verifies the two series; this seat writes the card for series 3 |
 | 2 | re-audit of each package main closes; WP-0.8 first | three of main's mends re-audited: **E5 accepted, E7 accepted, E2 partly** (one line to change, then the views). WP-0.8 pauses on main's side at six findings left (P-788) | main, when it mends the next; this seat re-audits each as it lands |
 | 3 | ORD-a, the order before the card | **closed.** Main refused the two variants at `e5f9d09cd`; re-run here at `038df6984`, all three plants refused | — |
 | 4 | V1, the card | main read it once: B in all three decisive cells. This seat's verdict given: B, not A for N2 | main: P-786 (the sentence on every page, the window's ends as a choice, the same count on the candidate's null) |

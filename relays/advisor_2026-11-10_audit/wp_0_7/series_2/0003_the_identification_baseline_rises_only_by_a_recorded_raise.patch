@@ -1,0 +1,229 @@
+From b1880f8344f80bb7f35f72bdfb7a94e4d45e5344 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Wed, 11 Nov 2026 18:07:20 +0000
+Subject: [PATCH 3/6] WP-0.7, enforcement (cld-advisor's series 2, patch 3;
+ built on e6298271a with series 1 applied): THE IDENTIFICATION BASELINE MUST
+ BE THERE, AND IT RISES ONLY BY A RAISE RECORDED IN ITS OWN LIST (the seat's
+ planted case PV10). The ratchet ran only if its baseline file existed: with
+ docs/IDENTIFICATION_BASELINE.json deleted, three unearned rows went in and
+ the gate passed. The baseline must now be there and hold a count; a file that
+ holds none is said in plain words, where the old gate crashed on one. THE
+ GATE'S OWN STATED RULE IS NOW READ: it says the baseline is raised
+ 'DELIBERATELY with a dated reason', and the file already keeps such raises in
+ a list (_baseline_raises) that nothing read. Against the baseline as it was
+ at the anchor: no raise recorded then has left the list or changed; each
+ raise recorded since has a date, a reason and goes up; and the baseline is no
+ higher than those raises account for. It may fall freely. A raise made by
+ name is counted in the gate's sentence. And no row leaves the ledger without
+ a record (patch 1's rule). Main's own lock on the ratchet, which plants a row
+ through the gate's reader, passes unchanged. The gate reads the past and
+ joins the table. The lock: five tests added to
+ tests/test_nothing_leaves_a_ledger.py; on the commit before, all five fail,
+ the first because the gate passes with its baseline deleted. 0 of 19.
+
+---
+ scripts/gates/gates.py                | 84 ++++++++++++++++++++++-----
+ tests/test_nothing_leaves_a_ledger.py | 83 ++++++++++++++++++++++++++
+ 2 files changed, 154 insertions(+), 13 deletions(-)
+
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 3ad628bcd..6486a2ae9 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -2230,7 +2230,39 @@ def gate_theorem_registry():
+     ok = not missing
+     return ok, ("ok" if ok else f"creates_law arcs missing registry rows: {missing}")
+ 
+-def gate_identification_register():
++def _identification_rows(text):
++    """the rows the identification ledger holds, by their ids"""
++    return re.findall(r"^\|\s*(I-\d+)\s*\|", text, re.M)
++
++
++def baseline_rise(now, then, since="the anchor"):
++    """the ratchet's own file, as it is now and as it was at the anchor (None where it was not there then).  The gate's stated
++    rule is that the baseline is raised "DELIBERATELY with a dated reason", and the file keeps those raises in a list.  So:
++    no raise recorded at the anchor has left the list or changed; each raise recorded since has a date, a reason and goes up;
++    and the baseline is no higher than the raises recorded since account for.  It may fall freely.  Returns (problem, note)."""
++    if then is None:
++        return None, ""
++    b0, b1 = then.get("unearned"), now.get("unearned")
++    r0, r1 = then.get("_baseline_raises") or [], now.get("_baseline_raises") or []
++    if not isinstance(b0, int) or isinstance(b0, bool):
++        return None, ""                                                   # what stood at the anchor is not re-judged
++    if not isinstance(r1, list) or r1[:len(r0)] != r0:
++        return f"a raise of the baseline that was recorded at {since} has been removed or changed: a record does not leave the list", ""
++    new = r1[len(r0):]
++    for e in new:
++        if not (isinstance(e, dict) and str(e.get("date", "")).strip() and str(e.get("reason", "")).strip()
++                and isinstance(e.get("from"), int) and isinstance(e.get("to"), int) and e["to"] > e["from"]):
++            return f"a raise of the baseline recorded since {since} has no date, no reason, or does not go up: {str(e)[:120]}", ""
++    allowed = b0 + sum(e["to"] - e["from"] for e in new)
++    if b1 > allowed:
++        return (f"the baseline rose {b0} -> {b1} since {since}, and the raises recorded since then account for {allowed - b0}. "
++                f"A ceiling does not rise without a recorded act: add the raise to _baseline_raises with its date and its reason"), ""
++    note = (f"; the baseline was raised {len(new)} time(s) by name since {since}: "
++            + "; ".join(f"{e['from']} -> {e['to']} ({e['date']})" for e in new[:4])) if new else ""
++    return None, note
++
++
++def gate_identification_register(_anchor=None):
+     """B1231. The programme's dominant error mode is IDENTIFICATION -- gluing two structures whose
+     labels match, in different places, without a map. B813, B1223, and TWO of this bench's own in a
+     single session (B1228's pi_1-2T-vs-ALE-Gamma; B1230/C-5b's Z/3-vs-module-group, one cell later).
+@@ -2276,18 +2308,44 @@ def gate_identification_register():
+             ref = ident.get("row") if isinstance(ident, dict) else str(ident)
+             if ref not in rows:
+                 problems.append(f"{d.get('id')}: declares {ref!r}, no ledger row")
+-    # (b) the ratchet
+-    if os.path.exists(base):
+-        try:
+-            b = _json.load(open(base, encoding="utf-8")).get("unearned")
+-        except Exception:
+-            b = None
+-        if b is not None and unearned > b:
+-            problems.append(f"UNEARNED increased {b} -> {unearned}: a new identification was made "
+-                            f"without being earned. Earn it, or register what would earn it and "
+-                            f"raise the baseline DELIBERATELY with a dated reason.")
++    # (b) the ratchet.  PV10 (WP-0.7): it ran only if its baseline was there, so with the file deleted three unearned rows went
++    # in unseen.  The baseline must be there and readable; it rises only by a raise recorded in its own list; and no row
++    # leaves the ledger without a record.
++    anchor = _anchor or NOTHING_LEAVES_FROM
++    notes = ""
++    try:
++        now = _json.load(open(base, encoding="utf-8"))
++        b = now.get("unearned") if isinstance(now, dict) else None
++    except Exception as exc:
++        now, b = None, None
++        problems.append(f"docs/IDENTIFICATION_BASELINE.json missing or unreadable ({type(exc).__name__}): the ratchet cannot be read")
++    if now is not None and (not isinstance(b, int) or isinstance(b, bool)):
++        problems.append(f"docs/IDENTIFICATION_BASELINE.json holds no count under 'unearned' ({b!r}): the ratchet cannot be read")
++        b = None
++    if b is not None and unearned > b:
++        problems.append(f"UNEARNED increased {b} -> {unearned}: a new identification was made "
++                        f"without being earned. Earn it, or register what would earn it and "
++                        f"raise the baseline DELIBERATELY with a dated reason.")
++    if b is not None:
++        git, why = _since_the_anchor(anchor)
++        if why:
++            problems.append(why)
++        else:
++            was = git("show", f"{anchor}:docs/IDENTIFICATION_BASELINE.json")
++            try:
++                then = _json.loads(was.stdout) if was.returncode == 0 else None
++            except Exception:
++                then = None                                               # unreadable at the anchor: not re-judged
++            rise, note = baseline_rise(now, then if isinstance(then, dict) else None, anchor[:9])
++            if rise:
++                problems.append(rise)
++            notes += note
++    gone, note = left_the_ledger("docs/IDENTIFICATION_LEDGER.md", _identification_rows, text, "identification", _anchor)
++    if gone:
++        problems.append(gone)
++    notes += note
+     ok = not problems
+-    return ok, ("ok" if ok else problems[:5])
++    return ok, ("ok" + notes if ok else problems[:5])
+ 
+ 
+ def gate_supersession_backlinks():
+@@ -2824,7 +2882,7 @@ READS_HISTORY = frozenset({                       # reads commits before HEAD, o
+     "append-only", "artifact-hashes", "attribution", "closure-generated", "harvest-debt", "lead-debt",
+     "log-changelog-paired", "point-debt", "relay-debt", "review-fires", "seal-immutable", "seal-order-unshown", "views-fresh",
+     "views-generated",                            # the four debt gates: the commit's day, and that time has not run backwards
+-    "chain-locks", "law-map-provenance", "retraction-sweep"})     # nothing leaves a ledger: what a page has held since NOTHING_LEAVES_FROM
++    "chain-locks", "identification-register", "law-map-provenance", "retraction-sweep"})     # nothing leaves a ledger: what a page has held since NOTHING_LEAVES_FROM
+ READS_GIT = READS_TRACKED | READS_HISTORY
+ 
+ 
+diff --git a/tests/test_nothing_leaves_a_ledger.py b/tests/test_nothing_leaves_a_ledger.py
+index fefbf14d9..5c2b56336 100644
+--- a/tests/test_nothing_leaves_a_ledger.py
++++ b/tests/test_nothing_leaves_a_ledger.py
+@@ -230,3 +230,86 @@ def test_on_main_the_two_pages_hold_everything_they_held_at_the_anchor():
+         text = (ROOT / path).read_text(encoding="utf-8")
+         assert len(keys(text)) == len(set(keys(text))) > 50, path                      # each row and each link has a name of its own
+         assert g.left_the_ledger(path, keys, text) == (None, ""), path
++
++
++# ---- PV10: the identification register and its baseline -----------------------------------------------------------------
++_IDENT_HEAD = "# The identification ledger\n\n| id | what | a | b | map | acts | state | arc | note |\n|---|---|---|---|---|---|---|---|---|\n"
++_IDENT = _IDENT_HEAD + "| I-1 | one | A | B | x | y | **EARNED** | B11 | - |\n| I-2 | two | A | B | x | y | **UNEARNED** | B12 | - |\n"
++_UNEARNED = "| I-%d | planted | A | B | x | y | **UNEARNED** | B13 | - |\n"
++
++
++def _baseline(unearned, raises=()):
++    return json.dumps({"_note": "the ratchet", "unearned": unearned, "_baseline_raises": list(raises)}, indent=1) + "\n"
++
++
++_REGISTER = {"docs/IDENTIFICATION_LEDGER.md": _IDENT, "docs/IDENTIFICATION_BASELINE.json": _baseline(1)}
++
++
++def test_the_identification_baseline_deleted_and_three_unearned_rows_added_turns_the_gate_red(tmp_path):
++    """PV10 as planted.  The ratchet ran only if its baseline was there."""
++    repo, anchor = _scratch(tmp_path, _REGISTER)
++    assert _gate(repo, "identification-register", anchor) == (True, "ok")
++    _commit(repo, "the baseline deleted, three unearned rows added", {"docs/IDENTIFICATION_LEDGER.md": _IDENT + "".join(_UNEARNED % n for n in (3, 4, 5))},
++            delete=["docs/IDENTIFICATION_BASELINE.json"])
++    ok, detail = _gate(repo, "identification-register", anchor)
++    assert ok is False and "IDENTIFICATION_BASELINE.json missing or unreadable" in detail
++
++
++def test_the_baseline_rises_only_by_a_raise_recorded_in_its_own_list(tmp_path):
++    repo, anchor = _scratch(tmp_path, _REGISTER)
++    three_more = {"docs/IDENTIFICATION_LEDGER.md": _IDENT + "".join(_UNEARNED % n for n in (3, 4, 5))}
++    # raised in the commit that adds the rows, with no record: the count agrees with the baseline, and the baseline rose
++    _commit(repo, "three rows, and the baseline moved to fit them", dict(three_more, **{"docs/IDENTIFICATION_BASELINE.json": _baseline(4)}))
++    ok, detail = _gate(repo, "identification-register", anchor)
++    assert ok is False and "the baseline rose 1 -> 4" in detail and "account for 0" in detail
++    # a record that does not say why is not a record
++    _commit(repo, "a raise with no reason", {"docs/IDENTIFICATION_BASELINE.json": _baseline(4, [{"date": "2026-11-11", "from": 1, "to": 4, "reason": " "}])})
++    ok, detail = _gate(repo, "identification-register", anchor)
++    assert ok is False and "no date, no reason" in detail
++    # the recorded act: the raise in the file's own list, dated, with its reason.  The gate passes and says so
++    raise_ = {"date": "2026-11-11", "from": 1, "to": 4, "row": "I-3, I-4, I-5", "reason": "three identifications registered unearned, each with what would earn it"}
++    _commit(repo, "the raise recorded", {"docs/IDENTIFICATION_BASELINE.json": _baseline(4, [raise_])})
++    ok, detail = _gate(repo, "identification-register", anchor)
++    assert ok is True and "raised 1 time(s) by name" in detail and "1 -> 4 (2026-11-11)" in detail
++    # a recorded raise does not leave the list afterwards
++    _commit(repo, "the record of the raise removed", {"docs/IDENTIFICATION_BASELINE.json": _baseline(4)})
++    ok, detail = _gate(repo, "identification-register", anchor)
++    assert ok is False and "the baseline rose 1 -> 4" in detail
++
++
++def test_the_baseline_may_fall_freely_and_must_hold_a_count(tmp_path):
++    repo, anchor = _scratch(tmp_path, _REGISTER)
++    earned = _IDENT.replace("| I-2 | two | A | B | x | y | **UNEARNED**", "| I-2 | two | A | B | x | y | **EARNED**")
++    _commit(repo, "the unearned row is earned and the baseline lowered", {"docs/IDENTIFICATION_LEDGER.md": earned, "docs/IDENTIFICATION_BASELINE.json": _baseline(0)})
++    assert _gate(repo, "identification-register", anchor) == (True, "ok")
++    for broken in ('{"unearned": "many"}', '{"unearned": null}', "{}", "not json at all", '{"unearned": true}'):
++        _commit(repo, "the baseline no longer holds a count", {"docs/IDENTIFICATION_BASELINE.json": broken + "\n"})
++        ok, detail = _gate(repo, "identification-register", anchor)
++        assert ok is False and "the ratchet cannot be read" in detail, broken
++
++
++def test_a_row_that_leaves_the_identification_ledger_turns_the_gate_red_unless_it_is_named(tmp_path):
++    repo, anchor = _scratch(tmp_path, _REGISTER)
++    _commit(repo, "the unearned row is deleted, which also lowers the count", {"docs/IDENTIFICATION_LEDGER.md": _IDENT_HEAD + "| I-1 | one | A | B | x | y | **EARNED** | B11 | - |\n"})
++    ok, detail = _gate(repo, "identification-register", anchor)
++    assert ok is False and "1 identification(s) left docs/IDENTIFICATION_LEDGER.md" in detail and "I-2" in detail
++    _name_in_the_gate(repo, "docs/IDENTIFICATION_LEDGER.md", "I-2", "2026-11-11 -- a duplicate of I-1, merged into it")
++    _commit(repo, "its leaving recorded")
++    ok, detail = _gate(repo, "identification-register", anchor)
++    assert ok is True and "1 identification(s) left by name" in detail
++
++
++def test_the_rule_of_the_raises_on_its_own():
++    g = _gates()
++    then = {"unearned": 5, "_baseline_raises": [{"date": "d", "from": 4, "to": 5, "reason": "r"}]}
++    grow = lambda b, more: {"unearned": b, "_baseline_raises": then["_baseline_raises"] + more}
++    r = lambda a, b: {"date": "2026-11-12", "from": a, "to": b, "reason": "why"}
++    assert g.baseline_rise(grow(5, []), then) == (None, "")
++    assert g.baseline_rise(grow(3, []), then) == (None, "")                              # it may fall with no record
++    assert "rose 5 -> 6" in g.baseline_rise(grow(6, []), then)[0]
++    assert g.baseline_rise(grow(6, [r(5, 6)]), then)[0] is None
++    assert "rose 5 -> 8" in g.baseline_rise(grow(8, [r(5, 6)]), then)[0]                 # one raise recorded, three taken
++    assert g.baseline_rise(grow(8, [r(5, 6), r(6, 8)]), then)[0] is None
++    assert "removed or changed" in g.baseline_rise({"unearned": 5, "_baseline_raises": []}, then)[0]
++    assert "does not go up" in g.baseline_rise(grow(5, [r(6, 5)]), then)[0]
++    assert g.baseline_rise(grow(99, []), None) == (None, "")                             # no baseline at the anchor: not re-judged

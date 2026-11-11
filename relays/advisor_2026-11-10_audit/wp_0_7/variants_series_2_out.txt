@@ -1,0 +1,18 @@
+variants on the series at dc31a7317
+control: the six gates pass on the series as it stands
+t1   HOLDS  18 of 35 phrase rows removed: 14 retracted phrase(s) left docs/RETRACTED_PHRASES.md since e6298271a with no record: 174 closings, still 0 ar
+t2   HOLDS  the registry an empty file: 29 retracted phrase(s) left docs/RETRACTED_PHRASES.md since e6298271a with no record: 174 closings, still 0 ar
+t3   HOLDS  ten rows cut: LAW_MAP provenance -- 10 law(s) left docs/LAW_MAP.md since e6298271a with no record: 27-ONLY BREAKING STOPS ONE STEP SHO
+t4   HOLDS  C9 renumbered C99: THE CHAIN -- 1 link(s) left docs/THEOREM_LEDGER.md since e6298271a with no record: C9. Nothing leaves a ledger without a
+t5   HOLDS  a law cut (the gate then: red) and put back (now: passes)
+t6   HOLDS  cut and named: eable; 94 locked -- index, not ledger); 1 law(s) left by name since e6298271a: The one-door theorem (2026-11-11 -- planted: merged into the row above)
+t7   HOLDS  one row, the count raised, no record: the baseline rose 20 -> 21 since e6298271a, and the raises recorded since then account for 0. A ceiling does not rise without a re
+t8   HOLDS  the raise recorded in the file's own list: ok; the baseline was raised 1 time(s) by name since e6298271a: 20 -> 21 (2026-11-11)
+t9   HOLDS  one of 73 arcs' own locks deleted: 1 lock file(s) left the repository since e6298271a with no record: frontier/B1858_the_closure_map/verification/test_b1858_the_closure_map.py. A lock i
+t10  HOLDS  tests/test_b900_cocycle.py renamed: ok (6483 tests, 0 vacuous; 97 both-literal for review)
+t11  HOLDS  a new page and its new entry: 1 ceiling(s) in docs/ATTRIBUTION_BASELINE.json rose since e6298271a with no record: docs/PLANTED_PAGE.md 0 -> 1. A ceiling does not rise without a rec
+t12  HOLDS  a law cut, then the anchor moved past the cut -- the gate: PASSES
+t13  HOLDS  the same -- the lock that pins the anchor: FAILS
+t14  HOLDS  a clone of depth 1: 6 of 6 refused as shallow
+
+expectations that hold: 14 of 14

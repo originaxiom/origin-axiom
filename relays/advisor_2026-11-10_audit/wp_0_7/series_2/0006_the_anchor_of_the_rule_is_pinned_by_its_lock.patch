@@ -1,0 +1,49 @@
+From 355b9a55c6665f15a277244f79e4018fc3a99f9c Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Wed, 11 Nov 2026 18:14:35 +0000
+Subject: [PATCH 6/6] WP-0.7, enforcement (cld-advisor's series 2, patch 6;
+ built on e6298271a with series 1 applied): THE ANCHOR OF THE RULE IS PINNED
+ BY ITS LOCK (the seat's own variant; no planted case of the suite). The five
+ patches before this one read what a ledger has held since
+ NOTHING_LEAVES_FROM. Moved forward past a commit in which a row left, that
+ anchor hides the row: a deletion in one commit and a move of the anchor in
+ the next would pass at the second. The lock now holds the anchor's value, so
+ that whoever moves it changes two places and says why; the gates' file says
+ what the rule does not bound. A chain of anchors, each checked against the
+ one before, would close it and is not built. No gate's code changes: a
+ comment and one assertion. Main may drop this patch and keep the five before
+ it. 0 of 19.
+
+---
+ scripts/gates/gates.py                | 3 +++
+ tests/test_nothing_leaves_a_ledger.py | 3 +++
+ 2 files changed, 6 insertions(+)
+
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 5a50ca252..60ce11bd3 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -132,6 +132,9 @@ REFUSED_SHALLOW = ("refused: this clone is shallow. This gate reads the history,
+ # seal-immutable are: AFTER NOTHING_LEAVES_FROM, WHAT A LEDGER HAS HELD IT STILL HOLDS, unless it is named in LEFT_BY_NAME
+ # with its date and what became of it.  A named entry is a recorded act: it is counted in the gate's own sentence, which
+ # the runner prints at every push.
++# WHAT THIS DOES NOT BOUND: the anchor itself.  Moved forward past a commit in which a row left, it hides that row.  The lock
++# pins its value, so a move shows in two places; a chain of anchors, each checked against the one before, would close it and
++# is not built.
+ NOTHING_LEAVES_FROM = "e6298271afcf081413141874361688ecbb42613f"     # read in history from this commit on (2026-11-11); what stands before it is not re-judged
+ LEFT_BY_NAME = {}      # the ledger's path -> {what left it: "the date -- what became of it, and why"}.  Empty on 2026-11-11.
+ 
+diff --git a/tests/test_nothing_leaves_a_ledger.py b/tests/test_nothing_leaves_a_ledger.py
+index ff4a676a9..1b2083cb2 100644
+--- a/tests/test_nothing_leaves_a_ledger.py
++++ b/tests/test_nothing_leaves_a_ledger.py
+@@ -125,6 +125,9 @@ def test_the_rule_reads_main_from_its_anchor_and_nothing_is_named_yet():
+     assert g.LEFT_BY_NAME == {}, "a row that leaves a ledger is named here with its date and what became of it; say so in this lock too"
+     assert re.fullmatch(r"[0-9a-f]{40}", g.NOTHING_LEAVES_FROM)
+     assert subprocess.run(["git", "-C", str(ROOT), "merge-base", "--is-ancestor", g.NOTHING_LEAVES_FROM, "HEAD"]).returncode == 0
++    # THE ANCHOR IS PINNED HERE.  Moved forward past a commit in which a row left, it would hide that row: the gate reads only
++    # what a page has held since its anchor.  So whoever moves it changes this line too, and says why in the same commit.
++    assert g.NOTHING_LEAVES_FROM == "e6298271afcf081413141874361688ecbb42613f"
+ 
+ 
+ # ---- PV11: the registry of retracted phrases -----------------------------------------------------------------------------
