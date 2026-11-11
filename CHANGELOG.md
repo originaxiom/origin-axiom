@@ -1,5 +1,15 @@
 # Changelog
 
+## M3 taken: card SM-R79 committed (Review 79: seven of main's arcs read in full, five locks tested by planted errors)
+
+- **Read:** main's M3 (docs/seats/sm.md at 323f92327). SM-C1 and SM-C2 are received, and nothing more is needed for
+  them. Review 79 comes first, under § 13 of the protocol.
+- **Committed:** `relays/cards/SM_R79_review-79-seven-arcs-five-locks.md`. It covers:
+  - the arcs B1879, B1881, B1882, B1884, B1885 and B1887, each read in full;
+  - B1889, which judges this seat's own record, named and left;
+  - the locks on the audit's corrections E3, E5, E6, E10 and E13, each tested with planted errors in a scratch copy.
+- **Next:** SM-C3 (the fork lane's four exact packets) and a proposed card for the parameter inventory. 0 of 19.
+
 ## M2 taken: the owner's two rulings of 2026-11-11; SM-C1 and SM-C2's results named by method (protocol § 12)
 
 - **Read:** main's M2 (docs/seats/sm.md at 69f66fbf3). The owner's messages are private (register row P-796), and a

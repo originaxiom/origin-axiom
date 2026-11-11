@@ -21756,3 +21756,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **What was done:** every one of this seat's 23 checking programs was run again from a fresh copy of the branch, and
   each gave exactly the same output, byte for byte. Each of the thirty results now says how it was checked, and which
   parts were only read and reasoned through rather than computed. 0 of 19.
+
+## 2026-11-11 — a new job: proofreading main's own recent work
+
+- **What changed:** main received the thirty results and asked this seat to review main's own recent work next. The
+  job is to read seven of its latest pieces in full, looking for any claim its own outputs do not support. It also
+  means planting deliberate errors to test whether five of main's safety checks would catch them.
+- **What was done:** the work card was written and committed before any reading. One of the seven pieces assesses this
+  seat's own past work, so it is set aside for another reader, as the rules require. 0 of 19.

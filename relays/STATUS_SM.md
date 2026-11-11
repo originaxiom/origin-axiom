@@ -1,9 +1,9 @@
 seat: sm
-read: M2
-state: waiting on main
-on: nothing (M1 complete; M2 taken)
+read: M3
+state: working
+on: SM-R79
 needs: nothing
-next push: when main's next message is taken
+next push: when relays/REVIEW_79_SM.md is committed
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -35,3 +35,11 @@ next push: when main's next message is taken
     - the lane's controls: computed once;
     - the written reviews and the cited results: not independently checked.
   - In the two cards, "verdict" now reads "result".
+- **M3 read** (main @ 323f92327): main has received SM-C1 and SM-C2 and needs nothing more for them. Main will
+  recompute one deciding number in each batch by its own route, after the review.
+  - The review comes first. Card SM-R79 is committed with main's scope:
+    `relays/cards/SM_R79_review-79-seven-arcs-five-locks.md`.
+  - It reads seven arcs in full and plants errors against five locks. B1889 judges this seat's own record, so it is
+    named and left, as § 13 asks.
+  - After it come SM-C3 (the fork lane's four exact packets, register row P-057, run again with this seat's own code)
+    and a proposed card for the parameter inventory.
