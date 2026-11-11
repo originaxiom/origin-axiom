@@ -1,0 +1,13 @@
+planted cases against tests/test_b892_walls_on_the_line.py at main 8d90a5b2a
+c0   NOT CAUGHT  expected not caught  HOLDS  nothing planted, default lane  [3 passed, 1 skipped in 0.14s]
+c1   NOT CAUGHT  expected not caught  HOLDS  nothing planted, slow lane  [4 passed in 37.78s]
+q1   CAUGHT      expected caught      HOLDS  one wall value changed in the committed result  [1 failed, 2 passed, 1 skipped in 0.17s]  [red: test_the_walls_are_four_purely_imaginary_points_and_the_counts_add_up]
+q2   CAUGHT      expected caught      HOLDS  the correction removed from B892's findings  [1 failed, 2 passed, 1 skipped in 0.14s]  [red: test_the_scans_sentence_carries_its_correction]
+q3a  NOT CAUGHT  expected not caught  HOLDS  the instrument broken, the committed run left; default lane  [3 passed, 1 skipped in 0.14s]
+q3b  CAUGHT      expected caught      HOLDS  the instrument broken, the committed run left; slow lane  [1 failed, 3 passed in 39.81s]  [red: test_the_joint_weights_recomputed]
+q4   NOT CAUGHT  expected caught      FAILS  the instrument broken and run, so the committed result is its output  [3 passed, 1 skipped in 0.13s]
+q5   CAUGHT      expected caught      HOLDS  the correction removed from B892's verdict line  [1 failed, 2 passed, 1 skipped in 0.16s]  [red: test_the_scans_sentence_carries_its_correction]
+q6   CAUGHT      expected caught      HOLDS  the old scan's script mended in silence  [1 failed, 2 passed, 1 skipped in 0.18s]  [red: test_the_scans_sentence_carries_its_correction]
+q7   NOT CAUGHT  expected not caught  HOLDS  a new page states the old claim with no correction  [3 passed, 1 skipped in 0.13s]
+
+expectations that hold: 9 of 10

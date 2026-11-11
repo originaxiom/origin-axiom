@@ -1,0 +1,28 @@
+the four ad-matrices diagonalised together at 60 digits: largest off-diagonal part 9.19e-41 of the largest weight
+the cubic's three roots are real: -0.00014908078536311, 3.06324231731041e-5, 0.000437325913210414
+
+root 1, the point x8 + t x16 at t = -0.00193805020972043   (main's s1)
+   weights that vanish there: 46; of them on x16: 30; on x14 and x16: 12; finite walls of the line y = x14 + t x16: 16
+      purely imaginary  t = -0.0464130116116 i     6 weights, nullity 18
+      purely imaginary  t = -0.051526160729 i      2 weights, nullity 14
+      purely imaginary  t = 0.0464130116116 i      6 weights, nullity 18
+      purely imaginary  t = 0.051526160729 i       2 weights, nullity 14
+   => on the real line: NO wall at a finite real t; the nullity is 12 at every real point but pure x16
+
+root 2, the point x8 + t x16 at t = 0.000398221501250353
+   weights that vanish there: 46; of them on x16: 30; on x14 and x16: 12; finite walls of the line y = x14 + t x16: 16
+      purely imaginary  t = -0.030415968114 i      2 weights, nullity 14
+      purely imaginary  t = -0.0339621152926 i     6 weights, nullity 18
+      purely imaginary  t = 0.030415968114 i       2 weights, nullity 14
+      purely imaginary  t = 0.0339621152926 i      6 weights, nullity 18
+   => on the real line: NO wall at a finite real t; the nullity is 12 at every real point but pure x16
+
+root 3, the point x8 + t x16 at t = 0.00568523687173539
+   weights that vanish there: 46; of them on x16: 30; on x14 and x16: 12; finite walls of the line y = x14 + t x16: 16
+      purely imaginary  t = -0.00578556377848 i    6 weights, nullity 18
+      purely imaginary  t = -0.215852145186 i      2 weights, nullity 14
+      purely imaginary  t = 0.00578556377848 i     6 weights, nullity 18
+      purely imaginary  t = 0.215852145186 i       2 weights, nullity 14
+   => on the real line: NO wall at a finite real t; the nullity is 12 at every real point but pure x16
+
+(73 s)
