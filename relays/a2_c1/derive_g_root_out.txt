@@ -1,0 +1,32 @@
+=== 1. ALGEBRAIC FORMULA FOR H_1(M_Phi; Z) AND TRACE SELECTION ===
+LR = [[2, 1], [1, 1]], det(LR) = 1, tr(LR) = 3, H_1(M_LR) rank/torsion = (1, ())
+RL = [[1, 1], [1, 2]], det(RL) = 1, tr(RL) = 3, H_1(M_RL) rank/torsion = (1, ())
+(LR)^(-1) = [[1, -1], [-1, 2]], H_1(M_(LR)^(-1)) rank/torsion = (1, ())
+det=+1 traces with |det(Phi - I)| = 1 in [-20, 20]: [1, 3]
+det=+1 hyperbolic traces (|tr| > 2) with |det(Phi - I)| = 1: [3]
+
+=== 2. EXACT CLASS NUMBER PROOF (DISCRIMINANT D = 5) ===
+All Gauss-reduced indefinite forms of discriminant D = 5: [(-1, 1, 1), (1, 1, -1)]
+Gauss cycle from (1, 1, -1): (1, 1, -1) -> (-1, 1, 1) (via [[0, -1], [1, -1]]) -> (1, 1, -1) (via [[0, -1], [1, 1]])
+Conclusion: narrow class number h^+(5) = 1 and wide class number h(5) = 1.
+Every A in SL(2, Z) with tr(A) = 3 lies in the single SL(2, Z)-conjugacy class of LR.
+
+=== 3. EXHAUSTIVE BOX CENSUS IN GL(2, Z) WITH ENTRIES IN [-8, 8] ===
+Verified 16 hyperbolic SL(2, Z) torsion-free matrices in [-8, 8]^4:
+  100% have tr = 3 and 100% were explicitly conjugated in SL(2, Z) to LR = [[2, 1], [1, 1]].
+
+=== 4. BASED VS UNBASED AMBIGUITY (UNSAID IN G:ROOT) ===
+Explicit C in SL(2, Z) with C^(-1) * RL * C = LR: [[1, -1], [0, 1]]
+Explicit C in SL(2, Z) with C^(-1) * (LR)^(-1) * C = LR: [[0, 1], [-1, 0]]
+Fixed-point quadratic of LR (2 tau + 1 = tau(tau + 1)): tau^2 - tau - 1 = 0
+Fixed-point quadratic of RL (tau + 1 = tau(tau + 2)):   tau^2 + tau - 1 = 0
+=> GM3 + GM4 + SE1 + SE2 determines the unbased conjugacy class [LR] (unmarked manifold m004),
+   NOT the based matrix LR vs RL vs (LR)^(-1), nor an orientation of m004.
+
+=== 5. CONTROLS (CTL-ROOT: ALL MUST FIRE AS PREDICTED) ===
+CTL-ROOT-A (drop SE2, det = -1): LP = [[1, 1], [1, 0]], det=-1, tr=1, hyp=True, H_1=(rk=1, tor=()); count in [-8,8]^4 = 32
+CTL-ROOT-B1 (drop GM3, elliptic tr=1): M=[[1, -1], [1, 0]], hyp=False, H_1=(rk=1, tor=())
+CTL-ROOT-B2 (drop GM3, parabolic L):   L=[[1, 1], [0, 1]], hyp=False, H_1=(rk=2, tor=()) -> ALSO TORSION-FREE (Z^2)!
+CTL-ROOT-C (perturb tr=+3 -> tr=-3, m003): -LR=[[-2, -1], [-1, -1]], H_1=(rk=1, tor=(5,))
+
+ALL G:ROOT CHECKS AND CONTROLS PASSED.

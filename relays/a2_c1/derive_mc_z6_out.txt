@@ -1,0 +1,28 @@
+=== 1. CONSTRUCTING THE 27 OF E_6 DIRECTLY FROM THE E_6 CARTAN MATRIX ===
+Weyl orbit size of varpi_1 = (1,0,0,0,0,0): 27
+Primitive hypercharge pairing <w, 2 a1^v + 4 a3^v + 6 a4^v + 3 a5^v> on 27: gcd = 1
+Sorted q_prim = 6Y multiset on 27: [-4, -4, -4, -3, -3, -3, -3, -2, -2, -2, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 3, 6]
+SU(3)_c x SU(2)_L x U(1)_Y singlets (1, 1)_0 in the 27 (count=2): [(0, 0, 0, 0, 0, -1), (0, 1, 0, 0, 0, -1)]
+Dynkin weight matrix of the two VEV singlets (S, nu^c): [(0, 0, 0, 0, 0, -1), (0, 1, 0, 0, 0, -1)]
+Smith normal form invariant factors of [S; nu^c] over Z: [1, 1]
+=> PROVED: Stab_{E_6^{sc}}(<S>, <nu^c>) has CONNECTED maximal torus (invariant factors [1, 1], ZERO residual finite Z_m gauge factor!).
+Coroot intersection proof inside simply-connected E_6^{sc}:
+  exp(2 pi i t h_Y) in SU(3)_c x SU(2)_L  <=>  6t = m in Z,
+  giving ((m/3) a1^v + (2m/3) a3^v, (m/2) a5^v) mod Q^v = exact cyclic generator of Z(SU(3)) x Z(SU(2)) = Z_6!
+
+=== 2. EXACT DECOMPOSITION OF 27 INTO (SU(3), SU(2))_{q_prim} SUMMANDS & KERNEL K_k ===
+Value of <w, h_Y> on highest weight of (3, 2) quark doublet inside 27: [1]
+Verified: the 11 summands of 27 = 16 + 10 + 1 match the E_6 Cartan weight multiset 27/27.
+k = 1: |K_k(27)| = |K_k(16)| = |K_k(10)| = 6, max_element_order = 6, cyclic = True
+k = 2: |K_k(27)| = |K_k(16)| = |K_k(10)| = 12, max_element_order = 12, cyclic = True
+k = 3: |K_k(27)| = |K_k(16)| = |K_k(10)| = 18, max_element_order = 18, cyclic = True
+k = 4: |K_k(27)| = |K_k(16)| = |K_k(10)| = 24, max_element_order = 24, cyclic = True
+k = 6: |K_k(27)| = |K_k(16)| = |K_k(10)| = 36, max_element_order = 36, cyclic = True
+
+=== 3. CONTROLS (CTL-Z6: ALL MUST FIRE AS PREDICTED) ===
+CTL-Z6-A (non-uniqueness from representation alone): 27 descends cleanly to [SU(3)xSU(2)xU(1)] / Gamma for all 4 subgroup orders [1, 2, 3, 6].
+CTL-Z6-B (SM adjoint-only content): kernel kind = INFINITE, discrete (a,b) pairs = 6 (x continuous U(1); on a 12-point U(1) grid -> 72 = 72 != 6)
+CTL-Z6-C1 (integer-Y singlet e^c=(1,1)_1 only, k=1): |kernel| = 36 (!= 6)
+CTL-Z6-C2 (uncharged doublet (1,2)_0 + integer-Y singlet (1,1)_1): |kernel| = 18 (!= 6)
+
+ALL MC:Z6 CHECKS AND CONTROLS PASSED.

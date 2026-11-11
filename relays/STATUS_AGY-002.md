@@ -3,7 +3,7 @@ read: M1
 state: working
 on: A2-C1
 needs: nothing
-next push: when A2-C1's blind derivations, exact scripts, raw outputs and unsaid-inputs list are committed
+next push: when A2-C1's blind derivations and unsaid-inputs prose page is committed (after sealing raw script outputs)
 
 ---
 

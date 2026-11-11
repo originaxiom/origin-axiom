@@ -1,0 +1,31 @@
+=== 1. EXACT CYCLOTOMIC VERIFICATION OF Mp_2(Z) MULTIPLIER rho_T ===
+Verified over exact Q(zeta_24): rho_T(S_mp)^2 = +i * I_3 = (rho_T(S_mp) * rho_T(T_mp))^3 (ZERO projective defect).
+Sanity check at weight 23/2 (deg 23, containing F_23): dim M_{23/2}(rho_T) = 3
+Verified: conjugate rho_T_bar has rho_T_bar(Z) = -i * I_3, incompatible with weight 3/2 (where j(Z,tau)^(-3) = +i).
+
+=== 2. EXACT INDEX AT n = 0 (WEIGHT 3/2 AND SERRE DUAL WEIGHT 1/2) ===
+At n = 0 cusp units: h^0 = dim M_{3/2}(rho_T) = 0
+Serre dual bound:   dim M_{1/2}(rho_T_bar) = 0  =>  h^1 = dim S_{1/2}(rho_T_bar) = 0
+=> PROVED ALGEBRAICALLY: chi(X(1), V_{3/2}(rho_T, n = 0)) = 0 - 0 = 0,
+   and W_0 = (pi_coarse)_* V_{3/2}(rho_T, 0) = O_{P^1}(-1)^3.
+=> Therefore W_n = W_0 (x) O_{P^1}(n) = O_{P^1}(n - 1)^3 has chi = 3*n for EVERY n in Z (chi = +3 at n = 1, +-3 with 4d grading).
+
+=== 3. DIRECT INDEPENDENT COMPUTATION AT n = 1 VIA x Delta (DEGREE 27 = WEIGHT 27/2) ===
+Direct polynomial intertwiner count dim M_{27/2}(rho_T) [= h^0 at n = 1]: 3
+
+=== 4. CONTROLS (CTL-INDEX3: ALL 6 CHARACTER TWISTS & NON-UNIFORM CUSP UNITS) ===
+Benchmark check (scalar SL(2,Z) weights 0,2,4,6,8,10,12): chi = [1, 0, 1, 1, 1, 1, 2]
+CTL-INDEX3-A (all 6 SL(2,Z) character twists r=0..5 at weight 3/2, n=0): chi = {0: 0, 1: 1, 2: 0, 3: 0, 4: 0, 5: 0}
+CTL-INDEX3-B (conjugate rho_T_bar at weight 3/2): dim at n=0 is 0, dim at n=1 is 0
+  Basis section #1 of M_{27/2}(rho_T): leading w = q^(1/8) powers on (1/8, 3/8, 7/8) lines = (9, 11, 7)
+  Basis section #2 of M_{27/2}(rho_T): leading w = q^(1/8) powers on (1/8, 3/8, 7/8) lines = (9, 3, 7)
+  Basis section #3 of M_{27/2}(rho_T): leading w = q^(1/8) powers on (1/8, 3/8, 7/8) lines = (1, 11, 15)
+CTL-INDEX3-C (parabolic cusp pole vector m=(0, 0, 0), sum=0): dim H^0 = 0
+CTL-INDEX3-C (parabolic cusp pole vector m=(0, 0, 1), sum=1): dim H^0 = 1
+CTL-INDEX3-C (parabolic cusp pole vector m=(0, 1, 0), sum=1): dim H^0 = 1
+CTL-INDEX3-C (parabolic cusp pole vector m=(1, 0, 0), sum=1): dim H^0 = 1
+CTL-INDEX3-C (parabolic cusp pole vector m=(0, 1, 1), sum=2): dim H^0 = 2
+CTL-INDEX3-C (parabolic cusp pole vector m=(1, 0, 1), sum=2): dim H^0 = 2
+CTL-INDEX3-C (parabolic cusp pole vector m=(1, 1, 1), sum=3): dim H^0 = 3
+
+ALL W:INDEX3 CHECKS AND CONTROLS PASSED.
