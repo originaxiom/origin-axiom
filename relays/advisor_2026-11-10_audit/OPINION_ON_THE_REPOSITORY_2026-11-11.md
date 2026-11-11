@@ -222,3 +222,91 @@ independent: before any claim it needs one reader from outside, a person or anot
 **Not done by this seat:** no outside archive was contacted and no snapshot was requested. That sends the project's
 name outside, and it is the owner's to do or to order.
 
+## 10. The seat's vision of the end product, given before the owner shares his
+
+He asked three things: what the end product looks like after (if) the values are got, in structure and detail; how
+it is connected to this repository; and what each is for in five to ten years. This is the seat's own view. It is a
+design, not a measurement, and nothing in it is built.
+
+### 10.1 What the end product is
+
+Not a repository first. **A claim, with the proof that the test of it was fair.** Four objects carry it:
+
+| object | what it is | who reads it |
+|---|---|---|
+| the paper | the claim and its derivation, in the form physics reads | physicists |
+| the package | the light public repository: everything needed to check the paper in an afternoon | anyone who doubts it |
+| the card | the predictions, sealed and dated by someone outside before any measured value was opened | everyone, first |
+| the archive | this repository: how it was found, with every error | almost nobody; whoever asks whether the test was fair |
+
+### 10.2 The package
+
+```
+README            one page: the claim in five sentences; k of n; check it in ten minutes; what would refute it
+CLAIM             what is claimed and what is not; the postulates; every choice put in by hand, counted
+statement/        the derivation, postulates to values: a chapter for each step, the mathematics beside its script
+  values/         one page for each value: where it comes from, and the number with a proved error bound
+card/             the sealed predictions: numbers, uncertainties, the hash, the outside date; later cards after it
+compare/          the measured values with their sources, and the ONE script that opens them; matches and misses
+check/            the recomputation written by others from the text alone: a short form and a full one; who ran it
+looks/            what was tried before the card, how many times, and what a random theory of the same freedom scores
+negatives/        what was refuted on the way, and the retractions
+falsifiers        the measurements that could still refute it, each with the experiment and the year expected
+provenance/       generated: the archive's pinned commit; the map from each claim to its arcs; hashes; the matching run
+method            how the work was done and by whom; what nobody outside has yet verified
+```
+
+Under about two hundred files. A few thousand lines of code. Thirty to sixty pages of prose.
+
+### 10.3 The details that decide whether it can be doubted
+
+| detail | why |
+|---|---|
+| every number is an interval with a proved bound, never a printed float | two of main's own locks fail on this seat's machine today because a float prints differently |
+| no measured value is on the disk while the derivation runs | a prediction that can see its target is not one |
+| "k of n" is computed from each value's ancestry and typed nowhere | the audit's first lesson |
+| the front page is the map: postulates to values, each node coloured by what it rests on | the scoreboard built for the owner becomes the public face, drawn from the same graph |
+| releases are numbered; a changed derivation is a new release with a new card | nobody can say the claim moved |
+| an open list of errata and of failed checks, each answered in public | the archive's honesty, kept up after the seal |
+| reproductions by outsiders are listed with their own code | no arrangement of this project's seats is independent |
+| later: the mathematical core in a proof assistant | tests show the code does what it did; a checked proof shows the mathematics follows |
+
+### 10.4 How it is tied to this repository
+
+| tie | what it is |
+|---|---|
+| the pin | each release names one signed tag of the archive and its outside deposit |
+| the map | every step of the statement names the arcs where it was first found, with their dates and the errors on the way |
+| the matching run | the clean statement gives the same numbers as the chain it replaces |
+| the looks and the seals | extracted from the archive by a script; their worth is the whole history under them |
+| the direction | the package cites the archive; the archive never depends on the package |
+| the two front doors | the archive's first line sends a checker to the package; the package's last line sends a historian to the archive |
+
+Work goes on in the archive after the seal. A later release pins a later tag.
+
+### 10.5 In five to ten years
+
+| if | the package | the archive |
+|---|---|---|
+| the values hold and outsiders reproduce them | the reference: what a paper cites for a number, and the bench others build on. Its card becomes a running record, sealed predictions against each new measurement | a primary source: the proof of priority, and a complete record of one person directing assistants to a result, which nobody else has. Frozen at its tags; cited for how, not for what |
+| some hold and some do not | an honest scorecard, k of n, with the falsifiers deciding the rest | still the place of work |
+| a sealed prediction fails | the record of a clean refutation: a parameter-free proposal that named its own test and met it. That outcome has to be as plain on the front page as success would be; it is what makes success believable | the account of it |
+
+**In every case the package is the claim under test, and the archive is the evidence that the test was fair.**
+
+### 10.6 A third thing
+
+The machinery (seals, gates, the count of looks, planted violations, one channel to the owner) is the most reusable
+thing here, whatever becomes of the physics. In ten years it may be the part most used by others. It is not ready to
+be shown: it catches 11 of this seat's 21 planted cases with the first series applied, and that series is not landed.
+
+### 10.7 Where this seat is unsure
+
+- **Where the principle sits.** The seat would put the numbers and the card first, and the principle as the first
+  postulate in its exact form, with the intuition in an essay the claim never depends on. The owner may want the
+  vision first. Both can exist; they should not be mixed.
+- **Who keeps the package in ten years.** One person and assistants can build it. A reference needs a keeper that
+  outlasts both.
+- **How much of the mathematics can be machine-checked.** The finite computations, yes. The analytic parts, this seat
+  cannot judge.
+

@@ -410,6 +410,17 @@ the provenance generated, the check the one part written outside); three ties a 
 two things, an outside dating of the history and the licence. Written out in
 `OPINION_ON_THE_REPOSITORY_2026-11-11.md`, § 9, for main to read when he asks its opinion. He was asked nothing.
 
+| what he was answering | his words |
+|---|---|
+| the seat's report that it holds its building until the plan is locked | "how would the end product, after (if) we get the values look like? its structure and all other details?" "and its cross conections and relations wirh the current one?" "what would be the role of eafh in 5-10 years?" "id like to see your vision before i share mine" |
+
+The seat gave its own view and marked it as a design, not a measurement: the end product is a claim with the proof
+that its test was fair, carried by four objects (the paper, the package, the card, the archive); the package's
+parts; the details that decide whether it can be doubted; six ties to this repository; and the role of each in five
+to ten years under three outcomes, the refutation among them. Written out in
+`OPINION_ON_THE_REPOSITORY_2026-11-11.md`, § 10, with where the seat is unsure. He has not yet shared his own. He was
+asked nothing.
+
 ## The roles
 
 The owner, the same day: this seat "will serve as an advisor for cc - the banking seat"; when cc is ready the reports
