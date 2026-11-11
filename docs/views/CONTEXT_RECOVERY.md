@@ -49,13 +49,14 @@
 - ** P-081** — the reply to the outside reader, approached carefully so the contact is not lost: in his own context (one of his videos as the opening), short, honest about shapes-not-sizes and the missing field, the corrected PDF atta… → *a draft prepared outside the tree for the owner's edit (it opens from his 2021 explainer of the Standard Model's equation); the edit and the send are the owner…*
 - ** P-082** — a second outside reader, later, approached in his own context (relating to his videos), after the first correspondence → *later, at the owner's word; nothing prepared until then [2026-11-04, the owner confirmed: paused until a result passes a level-2 confirmation] [2026-11-11, the…*
 - ** P-253** — the chain gap's top entries (Review 67's R66-3, declined there because the chain is the frozen paper's spine): B1098, B959, B1100, B952, B1086, B1000, B1484, B1070 (coverage_candidates.py --chain-gap) — adjudicate each… → *asked of the owner: whether and when to open a draft after p9-draft9; until then the chain-gap list stays recorded here and nothing is due (S231) [earlier: Q3…*
-- ** P-787** — THE PUBLIC FORM OF THE REPOSITORY: THIS ONE, OR A DISTILLED ONE WITH THIS AS THE ARCHIVE (the owner to the advisor seat, 2026-11-11, asking for a deep analysis and an honest opinion and whether the public version should… → *BOTH PAGES READ IN FULL THE SAME DAY, AND MAIN'S RECOMMENDATION GIVEN TO THE OWNER (S306p): main's own recount confirms the advisor seat's measurements at 64bf…*
+- ** P-787** — THE PUBLIC FORM OF THE REPOSITORY: THIS ONE, OR A DISTILLED ONE WITH THIS AS THE ARCHIVE (the owner to the advisor seat, 2026-11-11, asking for a deep analysis and an honest opinion and whether the public version should… → *2026-11-11, 14:27 TO 14:30 UTC, THE OWNER TO MAIN, verbatim, three messages: (a) "id like to add a license so comercial derivations of our work can benefit us…*
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
 
 ## The last landings (CHANGELOG)
 
+- S306p THE ERRORS IN THE MATHEMATICS, THE FIRST OF NINE (WP-0.8): THE KNOT GROUP'S CONGRUENCE LEVEL IS (4), AND THE LOCK NOW SAYS SO (E2) (2026-11-11)
 - S306p THE FIVE PACKAGES HANDED TO THE ADVISOR SEAT (P-785), ITS RESIDUAL ON THE ORDER CLOSED, MAIN'S UNSEEN CASES SEALED (2026-11-11)
 - S306p THE V1 CARD READ (B1882): AN END OF THE WINDOW IS LIKE OTHER ROWS, BY A HAIR; THE AUDIT'S FIGURE IS REAL AND IS NOT ABOUT RARITY (2026-11-11)
 - S306p THE FOURTH HARVEST: THE WEB SEAT'S TWO CARDS VERIFIED (B1885, B1887), THE WORK ORDER MENDED AT THE OWNER'S QUESTION (P-782), THE OLD RELAYS KEPT LOCAL (P-779) (2026-11-11)
@@ -63,11 +64,10 @@
 - S306p THE TEAM'S MORNING HARVESTED: A STATUS PAGE (B1883), THE GROUND'S LEVEL VERIFIED (B1884), THE V1 CARD SEALED FOR ITS RUN (B1882), TWO AGY BRANCHES REGISTERED (P-781) (2026-11-11)
 - S306p TWO SEATS HARVESTED AND VERIFIED: THE ADVISOR SEAT'S THIRD AND FOURTH RE-AUDITS ANSWERED (B1880), AND THE WEB SEAT'S TWO RELAYS ON THE READ-OUT OF THE WHOLE VERIFIED (B1881) (2026-11-11)
 - S306p THE WEAVE'S THEOREMS WITH THE EXCHANGE ADDED, AND THE OWNER'S RULING ON IT: EVEN TICKS ARE A CONDITION TO DERIVE (B1879; P-769, P-771) (2026-11-11)
-- S306p THE GOAL AS THE OWNER RULED IT, IN THE GOVERNING DOCUMENTS; TWO GATES (B1878; P-767's first landing); THE SIX ARCS WHOSE SEALED SCRIPTS CHANGED, READ (P-772) (2026-11-11)
 
 ## The latest campaign line
 
-LATEST (2026-11-11, S306p: THE FIVE PACKAGES HANDED TO THE ADVISOR SEAT (P-785).** At the owner's proposal, put to main and to that seat alike: the advisor seat, which he has named cld-advisor, builds enforcement (WP-0.7), labels (WP-0.9), the weave discipline's machinery (WP-0.11), the count as an output (WP-0.12) and the certificate's generator (WP-5.1), as patches in its relay; main verifies each with planted cases the seat has not seen, and lands it. Two conditions, accepted: a builder gives no verdict on what it built; nothing changes state on main before main has recomputed it. Main's 53 unseen cases for the enforcement package are written and their hash is published before the seat's…
+LATEST (2026-11-11, S306p: WP-0.8, THE ERRORS IN THE MATHEMATICS — E2 MENDED, AWAITING ITS RE-AUDIT.** The figure-eight knot group's congruence level is (4): by main's own computation its image has index 6 at (2) and 12 at (4) in SL(2, O₃/I)/{±1}, the group PSL(2, O₃) maps to, and 2 is inert. The chain's lock had asserted (8), the reading in the quotient by every central unit of square one. The lock is rewritten to assert the level in the standard group, with the ambient orders counted, and to fail if any page states the old level with no correction in the same file; the correction is carried to the two verdict lines, the law map, the theorem registry, the error ledger and twelve other page…
 
 ## Completeness (nothing skipped silently)
 

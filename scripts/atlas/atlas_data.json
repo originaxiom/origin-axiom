@@ -29439,7 +29439,7 @@
    ],
    "obstacle": "spacetime_3p1",
    "obstacle_conf": 4,
-   "status": "banked",
+   "status": "open",
    "domain": "arithmetic"
   },
   "B734": {
