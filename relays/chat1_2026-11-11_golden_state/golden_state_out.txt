@@ -1,0 +1,11 @@
+THE GOLDEN STATE ON THE WHOLE, AND WHERE ITS DENSITY PEAKS
+R = pi/(2 ln phi) = 3.264251302636496906731534;  1/4 + R^2 = 10.90533656676406691743989
+
+G0  controls
+    (a) psi unchanged by units: 12 cases, worst difference 4.5835e-40
+    (b) ideal counts for n <= 60 against sum of chi over divisors: mismatches []
+    (c) coefficients for n <= 60, enumeration against Euler product: worst difference 2.1055e-25
+    c(2), c(3), c(4), c(5), c(9), c(11), c(19) = 0.0, 0.0, 1.0, -1.0, 1.0, -1.11318395792048, -0.171571737964802
+G0: FAILS
+
+The card is void: the controls fail.
