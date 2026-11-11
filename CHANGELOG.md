@@ -1,5 +1,11 @@
 # Changelog
 
+## S306p THREE DRAFTS KEPT OUTSIDE THE REPOSITORY, DECLINED WHEN THE DAY CHANGED (P-317, P-384, P-555) (2026-11-12)
+
+- **The gate on the register failed at midnight:** three open rows cite working folders that are not tracked and had not moved for more than seven days. The rule is to land such a draft or to decline it.
+- **All three are declined, each with what that means.** P-317's folder is readers' working notes; nothing rests on it. P-384's and P-555's folders hold read-outs made under the firewall; they are not landed while the owner's hold stands, and the rows now say that the numbers of those read-outs have no tracked evidence and that nothing may rest on them.
+- **This commit advanced no package.** 0 of 19.
+
 ## S306p THE ADVISOR SEAT'S READ OF THE REVIEW TAKEN INTO REVIEW 79 (P-806); TWO MORE DELIVERIES REGISTERED (harvest rows 1712, 1713; P-807) (2026-11-11)
 
 - **The read found two ways to switch the review's block off, and three things that skipped the review and were not on main's page.** A variable of the environment makes the blocking gate read no landings (reproduced by main: 46 read as none); one sentence on the reviews' page moves the anchor; an arc changed and not added is in no pool; the draw is known while the window is open; a change that belongs to no arc has no reader.

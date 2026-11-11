@@ -19702,3 +19702,12 @@ seat's check. Six are left.
 
 0 of 19.
 
+## 2026-11-12 — Three old working drafts settled when the day changed (S306p)
+
+**What happened.** At midnight an automatic check began to fail. Three open items pointed to working notes that main keeps outside the repository, and the notes had not moved for more than seven days. The rule is that such notes are either brought into the repository or declared as not coming.
+
+**What main did.** It declared all three as not coming, and wrote beside each what that means. One is a set of readers' notes that nothing depends on. The other two hold numbers that were read off after looking at measured data. Those numbers are still mentioned in the record, and each now carries a plain statement that it has no evidence in the repository and that nothing may rest on it.
+
+**Which piece of the plan moved.** None.
+
+0 of 19.
