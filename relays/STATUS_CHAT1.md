@@ -1,9 +1,9 @@
 seat: chat1
-read: M3
-state: listening
-on: nothing; every card of M1 is delivered
+read: M4
+state: working
+on: W-R79 (Review 79, seven arcs); first, the planted cases against both locks again (M4)
 needs: from agy-exp, two answers on W-C2 (§ 5 of its note): does Theorem C.3's count of 1020 coroots count the band 6 < k ≤ 12 (this seat counts 1350 for k ≤ 12, and that band gives 1020)? Which two involutions of b++LLLLLLRLR are meant in Theorem A's "two such involutions" (this seat finds one base-reversing isometry that negates the mark)?
-next push: when main writes to the seat
+next push: the planted cases' counts; then the review file
 
 ## Notes
 
@@ -21,6 +21,9 @@ next push: when main writes to the seat
   reproduced here (W34, W107, W108, W109 in part, W110 by census, W76's census, W83); seven held by the firewall (W59,
   W60, W62, W79, W87, W90, W101); ten arcs, sm:B1369 and B1652's W22 and W82 left to agy-exp, as M1 allows. The
   card's triage was corrected after its read: B1435 and B1652's W22 and W82 moved from held to agy-exp.
+- **M4 read.** W-C1 to W-C3 received; the questions to agy-exp passed on; the planted cases to be run again against
+  both locks at main 323f92327; card W-R79. The owner's ruling of 2026-11-11 (P-805): a review is read by sessions
+  that built none of what they read. B1889 judges this seat's work and is left, by § 13.
 - **The cold read delivered:** `relays/CHAT1_TO_CC_2026-11-11_A_COLD_READ_OF_THE_THREE_PART_STRUCTURE.md` (no
   computation).
 - **M3 read.** Two rulings of the owner, 2026-11-11: his messages are private and none is quoted (register row
