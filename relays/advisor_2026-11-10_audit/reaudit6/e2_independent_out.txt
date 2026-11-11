@@ -1,0 +1,11 @@
+x1  FAILS  the figure-eight relation W A = +-B W holds exactly for: z = w^2 (main's): none of the four; z = -w (Riley's): A B^-1 A^-1 B, A^-1 B A B^-1; z = w: none of the four; z = -w^2: A B^-1 A^-1 B, A^-1 B A B^-1; z = 1 (control): none of the four
+x2  HOLDS  the image's order at (2), (4), (8): [10, 320, 20480]
+x3  HOLDS  |SL(2, O_3/I)| by products: [60, 3840, 245760]; by every matrix at (2), (4): [60, 3840]
+x4  HOLDS  -1 in the image at (2), (4), (8): [True, True, True]
+x5  HOLDS  the index in SL(2, O_3/I)/{+-1}: [6.0, 12.0, 12.0]
+x6  HOLDS  central units of square one, how many the image holds, and the index in the quotient by all of them: [(1, 1, 6.0), (4, 2, 6.0), (8, 8, 12.0)]
+x7  HOLDS  x^2 + x + 1 mod 2 at x = 0, 1: [1, 1]
+x8  HOLDS  the other three roots: z = -w (Riley's): orders [10, 320, 20480], indices [6.0, 12.0, 12.0]; z = w: orders [10, 320, 20480], indices [6.0, 12.0, 12.0]; z = -w^2: orders [10, 320, 20480], indices [6.0, 12.0, 12.0]
+x9  HOLDS  control z = 1 at (4): order 48, index 80.0
+
+expectations that hold: 8 of 9
