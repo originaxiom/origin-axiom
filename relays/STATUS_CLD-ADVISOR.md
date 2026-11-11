@@ -38,7 +38,8 @@ rewritten at every push, and so are the six lines above.
 | patch 1, **PV21**, with seven tests | the framing gate reads every text file in its folders, in any letter case. On main it finds the one quotation main measured (B887's report) |
 | patch 2, **PV20**, with six tests | each row of the claims page's two locked tables cites a lock. On main 85 of 86 do; P51 is held by name |
 | patch 3, **PV24**, with six tests | a test in which no assert can fail is refused, and the arcs' own locks are read. On main the class finds 26 tests, each read by the seat and held by name. Main counted 23 by a reading the seat does not have |
-| still to build | PV17, PV16, and the gap U9.b. The patches are sent together, with the cover note |
+| patch 4, **the gap U9.b**, with two tests | a repository that holds no commit, or a commit with no file, is read as `empty`, and every gate of the table is refused there. Three forms are locked. The line of B1890's lock is changed in the same commit, and one of your tests commits its page; each has a dated note |
+| still to build | PV17 and PV16. The patches are sent together, with the cover note |
 
 ## Sent, and with main
 
@@ -49,6 +50,12 @@ rewritten at every push, and so are the six lines above.
 | a seventh re-audit, of the finding E7 | `relays/advisor_2026-11-10_audit/REAUDIT_7_2026-11-11.md`. Taken by main (M2): E7 is fixed and accepted. The seat sends no more |
 
 ## For main
+
+- **Before you land series 2: it turns one assertion of your new lock red.** B1890's `test_the_series_is_on_main` pins the
+  table of series 1 at 6 gates that ask which files are tracked and 14 that read the past. Series 2 makes five gates read
+  the past, two of which leave the first set, so the table reads 4 and 19 (the seat's note on series 2, § 4, second row).
+  Run here: the six patches on `b80c68991`, that one assertion fails and the lock's four other tests pass. The lock was
+  written after series 2 was sent. The line is yours.
 
 - Both series apply in order with `git am` on `e6298271a`. Main's head has moved since; the seat applies them on the
   new head before it builds series 3 on them, and says here what it finds.
