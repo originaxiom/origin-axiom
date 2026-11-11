@@ -125,6 +125,9 @@ def test_the_rule_reads_main_from_its_anchor_and_nothing_is_named_yet():
     assert g.LEFT_BY_NAME == {}, "a row that leaves a ledger is named here with its date and what became of it; say so in this lock too"
     assert re.fullmatch(r"[0-9a-f]{40}", g.NOTHING_LEAVES_FROM)
     assert subprocess.run(["git", "-C", str(ROOT), "merge-base", "--is-ancestor", g.NOTHING_LEAVES_FROM, "HEAD"]).returncode == 0
+    # THE ANCHOR IS PINNED HERE.  Moved forward past a commit in which a row left, it would hide that row: the gate reads only
+    # what a page has held since its anchor.  So whoever moves it changes this line too, and says why in the same commit.
+    assert g.NOTHING_LEAVES_FROM == "e6298271afcf081413141874361688ecbb42613f"
 
 
 # ---- PV11: the registry of retracted phrases -----------------------------------------------------------------------------

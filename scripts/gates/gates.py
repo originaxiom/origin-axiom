@@ -132,6 +132,9 @@ REFUSED_SHALLOW = ("refused: this clone is shallow. This gate reads the history,
 # seal-immutable are: AFTER NOTHING_LEAVES_FROM, WHAT A LEDGER HAS HELD IT STILL HOLDS, unless it is named in LEFT_BY_NAME
 # with its date and what became of it.  A named entry is a recorded act: it is counted in the gate's own sentence, which
 # the runner prints at every push.
+# WHAT THIS DOES NOT BOUND: the anchor itself.  Moved forward past a commit in which a row left, it hides that row.  The lock
+# pins its value, so a move shows in two places; a chain of anchors, each checked against the one before, would close it and
+# is not built.
 NOTHING_LEAVES_FROM = "e6298271afcf081413141874361688ecbb42613f"     # read in history from this commit on (2026-11-11); what stands before it is not re-judged
 LEFT_BY_NAME = {}      # the ledger's path -> {what left it: "the date -- what became of it, and why"}.  Empty on 2026-11-11.
 
