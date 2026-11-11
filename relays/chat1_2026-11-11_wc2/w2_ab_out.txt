@@ -1,0 +1,72 @@
+W-C2, theorems A and B, by the seat's own route (SnapPy 3.3.2)
+
+CONTROLS
+    b++LLRR: |Hom(pi_1, Z/5)| = 5, so H^1(M; F_5) has dimension 1
+    b+-LLRR: |Hom(pi_1, Z/5)| = 5, so H^1(M; F_5) has dimension 1
+
+A1, A2  the seven bundles the lane names
+  b+-LR              H_1 = Z/5 + Z    dim H^1(F_5) = 2   A1 holds   A2 holds
+      ramified   line (0, 1)  peripheral (0, 4)  |tau| for q = 1..4: 1.175570504585, 1.902113032590, 1.902113032590, 1.175570504585  product 5.000000000000
+      base       line (1, 0)  peripheral (0, 1)  |tau| for q = 1..4: 3.077683537175, 0.726542528005, 0.726542528005, 3.077683537175  product 5.000000000000
+      unramified line (1, 1)  peripheral (0, 0)  |tau| for q = 1..4: 0.000000000000, 0.000000000000, 0.000000000000, 0.000000000000  product 0.000000000000
+      ramified   line (1, 2)  peripheral (0, 4)  |tau| for q = 1..4: 1.175570504585, 1.902113032590, 1.902113032590, 1.175570504585  product 5.000000000000
+      ramified   line (1, 3)  peripheral (0, 3)  |tau| for q = 1..4: 1.902113032590, 1.175570504585, 1.175570504585, 1.902113032590  product 5.000000000000
+      ramified   line (1, 4)  peripheral (0, 2)  |tau| for q = 1..4: 1.902113032590, 1.175570504585, 1.175570504585, 1.902113032590  product 5.000000000000
+  b++LLLRLL          H_1 = Z/5 + Z    dim H^1(F_5) = 2   A1 holds   A2 holds
+      base       line (0, 1)  peripheral (0, 1)  |tau| for q = 1..4: 5.428824546345, 4.530768593186, 4.530768593186, 5.428824546345  product 605.000000000000
+      ramified   line (1, 0)  peripheral (0, 2)  |tau| for q = 1..4: 1.902113032590, 1.175570504585, 1.175570504585, 1.902113032590  product 5.000000000000
+      ramified   line (1, 1)  peripheral (0, 3)  |tau| for q = 1..4: 1.902113032590, 1.175570504585, 1.175570504585, 1.902113032590  product 5.000000000000
+      ramified   line (1, 2)  peripheral (0, 4)  |tau| for q = 1..4: 1.175570504585, 1.902113032590, 1.902113032590, 1.175570504585  product 5.000000000000
+      unramified line (1, 3)  peripheral (0, 0)  |tau| for q = 1..4: 0.000000000000, 0.000000000000, 0.000000000000, 0.000000000000  product 0.000000000000
+      ramified   line (1, 4)  peripheral (0, 1)  |tau| for q = 1..4: 1.175570504585, 1.902113032590, 1.902113032590, 1.175570504585  product 5.000000000000
+  b+-RRRRRLR         H_1 = Z/10 + Z   dim H^1(F_5) = 2   A1 holds   A2 holds
+      ramified   line (0, 1)  peripheral (0, 3)  |tau| for q = 1..4: 1.902113032590, 1.175570504585, 1.175570504585, 1.902113032590  product 5.000000000000
+      base       line (1, 0)  peripheral (0, 4)  |tau| for q = 1..4: 7.330937578935, 3.355198088601, 3.355198088601, 7.330937578935  product 605.000000000000
+      ramified   line (1, 1)  peripheral (0, 2)  |tau| for q = 1..4: 1.902113032590, 1.175570504585, 1.175570504585, 1.902113032590  product 5.000000000000
+      unramified line (1, 2)  peripheral (0, 0)  |tau| for q = 1..4: 0.000000000000, 0.000000000000, 0.000000000000, 0.000000000000  product 0.000000000000
+      ramified   line (1, 3)  peripheral (0, 3)  |tau| for q = 1..4: 1.902113032590, 1.175570504585, 1.175570504585, 1.902113032590  product 5.000000000000
+      ramified   line (1, 4)  peripheral (0, 1)  |tau| for q = 1..4: 1.175570504585, 1.902113032590, 1.902113032590, 1.175570504585  product 5.000000000000
+  b++LLLLLLRLR       H_1 = Z/20 + Z   dim H^1(F_5) = 2   A1 holds   A2 holds
+      base       line (0, 0, 1)  peripheral (0, 4)  |tau| for q = 1..4: 18.188586671626, 12.416735274973, 12.416735274973, 18.188586671626  product 51005.000000000000
+      unramified line (1, 4, 0)  peripheral (0, 0)  |tau| for q = 1..4: 0.000000000000, 0.000000000000, 0.000000000000, 0.000000000000  product 0.000000000000
+      ramified   line (1, 4, 1)  peripheral (0, 4)  |tau| for q = 1..4: 1.175570504585, 1.902113032590, 1.902113032590, 1.175570504585  product 5.000000000000
+      ramified   line (1, 4, 2)  peripheral (0, 3)  |tau| for q = 1..4: 1.902113032590, 1.175570504585, 1.175570504585, 1.902113032590  product 5.000000000000
+      ramified   line (1, 4, 3)  peripheral (0, 2)  |tau| for q = 1..4: 1.902113032590, 1.175570504585, 1.175570504585, 1.902113032590  product 5.000000000000
+      ramified   line (1, 4, 4)  peripheral (0, 1)  |tau| for q = 1..4: 1.175570504585, 1.902113032590, 1.902113032590, 1.175570504585  product 5.000000000000
+  b+-RRRRLRRLLR      H_1 = Z/45 + Z   dim H^1(F_5) = 2   A1 holds   A2 holds
+      base       line (0, 1, 0)  peripheral (0, 1)  |tau| for q = 1..4: 37.103715871257, 21.755787012771, 21.755787012771, 37.103715871257  product 651605.000000000116
+      unramified line (1, 0, 4)  peripheral (0, 0)  |tau| for q = 1..4: 0.000000000000, 0.000000000000, 0.000000000000, 0.000000000000  product 0.000000000000
+      ramified   line (1, 1, 4)  peripheral (0, 1)  |tau| for q = 1..4: 1.175570504585, 1.902113032590, 1.902113032590, 1.175570504585  product 5.000000000000
+      ramified   line (1, 2, 4)  peripheral (0, 2)  |tau| for q = 1..4: 1.902113032590, 1.175570504585, 1.175570504585, 1.902113032590  product 5.000000000000
+      ramified   line (1, 3, 4)  peripheral (0, 3)  |tau| for q = 1..4: 1.902113032590, 1.175570504585, 1.175570504585, 1.902113032590  product 5.000000000000
+      ramified   line (1, 4, 4)  peripheral (0, 4)  |tau| for q = 1..4: 1.175570504585, 1.902113032590, 1.902113032590, 1.175570504585  product 5.000000000000
+  b++LLLLLLLRRLLR    H_1 = Z/55 + Z   dim H^1(F_5) = 2   A1 holds   A2 holds
+      base       line (0, 0, 1)  peripheral (0, 1)  |tau| for q = 1..4: 47.961364963947, 30.817324199143, 30.817324199143, 47.961364963947  product 2184604.999999998137
+      unramified line (1, 4, 0)  peripheral (0, 0)  |tau| for q = 1..4: 0.000000000000, 0.000000000000, 0.000000000000, 0.000000000000  product 0.000000000000
+      ramified   line (1, 4, 1)  peripheral (0, 1)  |tau| for q = 1..4: 1.175570504585, 1.902113032590, 1.902113032590, 1.175570504585  product 5.000000000000
+      ramified   line (1, 4, 2)  peripheral (0, 2)  |tau| for q = 1..4: 1.902113032590, 1.175570504585, 1.175570504585, 1.902113032590  product 5.000000000000
+      ramified   line (1, 4, 3)  peripheral (0, 3)  |tau| for q = 1..4: 1.902113032590, 1.175570504585, 1.175570504585, 1.902113032590  product 5.000000000000
+      ramified   line (1, 4, 4)  peripheral (0, 4)  |tau| for q = 1..4: 1.175570504585, 1.902113032590, 1.902113032590, 1.175570504585  product 5.000000000000
+  b++LLLLLRLLRRLR    H_1 = Z/105 + Z  dim H^1(F_5) = 2   A1 holds   A2 holds
+      base       line (0, 0, 1)  peripheral (0, 1)  |tau| for q = 1..4: 90.493905381549, 57.103879805099, 57.103879805099, 90.493905381549  product 26703604.999999992549
+      ramified   line (1, 1, 0)  peripheral (0, 2)  |tau| for q = 1..4: 1.902113032590, 1.175570504585, 1.175570504585, 1.902113032590  product 5.000000000000
+      ramified   line (1, 1, 1)  peripheral (0, 3)  |tau| for q = 1..4: 1.902113032590, 1.175570504585, 1.175570504585, 1.902113032590  product 5.000000000000
+      ramified   line (1, 1, 2)  peripheral (0, 4)  |tau| for q = 1..4: 1.175570504585, 1.902113032590, 1.902113032590, 1.175570504585  product 5.000000000000
+      unramified line (1, 1, 3)  peripheral (0, 0)  |tau| for q = 1..4: 0.000000000000, 0.000000000000, 0.000000000000, 0.000000000000  product 0.000000000000
+      ramified   line (1, 1, 4)  peripheral (0, 1)  |tau| for q = 1..4: 1.175570504585, 1.902113032590, 1.902113032590, 1.175570504585  product 5.000000000000
+A1 and A2 on the seven: REPRODUCED
+
+B  the census under four conventions
+    matrices as written, mark the golden line of LR = (1, 3): 745 necklaces in all; 285 keep the mark
+    matrices as written, mark the golden line of RL = (1, 2): 745 necklaces in all; 285 keep the mark
+    matrices transposed, mark the golden line of LR = (1, 3): 745 necklaces in all; 285 keep the mark
+    matrices transposed, mark the golden line of RL = (1, 2): 745 necklaces in all; 285 keep the mark
+    conventions giving 285: 4 of 4
+    taken: matrices as written, the golden line of LR
+    bundles: 285; oriented classes: 228; unoriented classes: 124 (amphicheiral 20; chiral with group of order >= 4: 70; chiral with group Z/2: 34; other 0)
+    least volume, amphicheiral:      2.0298832128 at b+-LR (H_1 = Z/5 + Z)
+    least volume, chiral, order >= 4: 3.2969024143 at b++LLLRLL, b++RRLRRR (H_1 = Z/5 + Z)
+    least volume, chiral, Z/2:       7.1960774800 at b+-LLLLLRLLRR, b+-LLRRLRRRRR, b+-LRRLLRLLLL, b+-LRRRRRLRRL (H_1 = Z/45 + Z)
+B: counts REPRODUCED; least volumes at the named classes REPRODUCED
+A2' on every bundle of the census: holds on 277 of 285; fails on b++LLLLLRRRRR, b++LLLRLRLLLRR, b++LLRLRLRLLRR, b++LLRRLRLRLRR, b++LLRRRLRLRRR, b++LLLLRLRRRRLR, b+-LLLRRLLRLLRR, b+-LLRRLRRLLRRR
+CONTROL  the census without the mark condition: 745 necklaces (745 expected)
