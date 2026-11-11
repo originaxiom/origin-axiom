@@ -293,3 +293,124 @@ def test_the_tests_in_which_no_assert_can_fail_are_held_by_name():
     found = set(ctv.read_locks()["CANNOT-FAIL"])
     assert found <= held, sorted(found - held)
     assert "tests/test_b710_thimbles.py::test_orbit_counts_differ" in held          # the one the planted case was written after
+
+
+# ---- PV17: the sweep read two shapes of row of its registry, and passed over the rest in silence -----------------------
+# The phrases here are made up, so that this file holds none that main's registry sweeps.
+_REG_HEAD = "# The registry\n\n| # | phrase | arc | why |\n|---|---|---|---|\n| 1 | `the lamp is always green` | B1 | it was wrong |\n\n"
+_UNQUOTED = ("## Added later: phrasings withdrawn in a later window\n\n| withdrawn phrase | why | the current statement |\n|---|---|---|\n"
+             "| the gadget is forced, and no choice is made (B7) | two choices exist | a convention |\n"
+             "| a third carrier, reading (+3, +1) (B8) | noise | the pair is alone |\n")
+
+
+def _sweep_repo(tmp_path, name, registry, pages):
+    files = {"docs/RETRACTED_PHRASES.md": registry}
+    files.update(pages)
+    return _scratch(tmp_path / name, files)
+
+
+def _in_the_sweeps_table(repo, table, entry):
+    """an entry in the small repository's own copy of one of the sweep's two tables, as main would write one"""
+    p = repo / "scripts" / "checks" / "retraction_sweep.py"
+    src = p.read_text(encoding="utf-8")
+    assert src.count(table + " = {") == 1, "no table %s in the sweep" % table
+    p.write_text(src.replace(table + " = {", table + " = {" + entry + ",", 1), encoding="utf-8")
+    _commit(repo, "an entry in " + table)
+
+
+def test_a_registered_phrase_in_a_numbered_row_is_swept(tmp_path):
+    """the control: this held before the series"""
+    repo = _sweep_repo(tmp_path, "control", _REG_HEAD, {"README.md": "We find that the lamp is always green, as before.\n"})
+    ok, detail = _gate(repo, "retraction-sweep")
+    assert ok is False and "README.md" in detail
+
+
+def test_a_phrase_in_an_unquoted_row_is_swept(tmp_path):
+    """PV17 as planted: a row whose phrase stands unquoted in the first cell, and the phrase on the front page"""
+    repo = _sweep_repo(tmp_path, "pv17", _REG_HEAD + _UNQUOTED, {"README.md": "# A page\n\nThe gadget is forced, and no choice is made.\n"})
+    ok, detail = _gate(repo, "retraction-sweep")
+    assert ok is False, "a phrase of an unquoted row of the registry stands on the front page, and the sweep passed: " + detail
+    assert "README.md" in detail and "the gadget is forced" in detail
+
+
+def test_the_note_that_ends_an_unquoted_cell_is_not_part_of_the_phrase(tmp_path):
+    repo = _sweep_repo(tmp_path, "note", _REG_HEAD + _UNQUOTED, {"docs/PAGE.md": "There is a third carrier, reading (+3, +1), we said.\n"})
+    ok, detail = _gate(repo, "retraction-sweep")
+    assert ok is False, "the phrase without its source note passed the sweep: " + detail
+    assert "reading (+3, +1)" in detail and "(B8)" not in detail
+
+
+def test_a_row_in_no_shape_the_sweep_reads_is_refused(tmp_path):
+    for name, row in (("a_number_and_no_backticks", "| 2 | a sentence with no backticks | B2 | why |"),
+                      ("a_quote_that_does_not_close", '| "a sentence whose quote does not close | B2 | why |'),
+                      ("an_empty_first_cell", "|  | B2 | why |")):
+        repo = _sweep_repo(tmp_path, name, _REG_HEAD + "| h | h | h |\n|---|---|---|\n" + row + "\n", {"README.md": "# A page\n"})
+        ok, detail = _gate(repo, "retraction-sweep")
+        assert ok is False, f"a row the sweep cannot read ({name}) was passed over in silence: {detail}"
+        assert "in no shape the sweep reads" in detail
+
+
+def test_a_registered_phrase_that_can_never_fire_is_refused(tmp_path):
+    """the sweep allows any line that carries a word of mention (a retraction's own vocabulary), so a registered phrase that
+    holds such a word is swept by nothing.  This seat's first made-up phrase for these tests was one, and its control passed."""
+    registry = _REG_HEAD + "| 2 | `the result was formerly exact` | B2 | it was not |\n"
+    repo = _sweep_repo(tmp_path, "mute", registry, {"README.md": "# A page\n\nThe result was formerly exact.\n"})
+    ok, detail = _gate(repo, "retraction-sweep")
+    assert ok is False, "a registered phrase that no line can violate, and the sweep passed: " + detail
+    assert "can ever be a violation" in detail and "formerly exact" in detail
+
+
+def test_a_row_named_as_a_reading_is_read_and_not_swept(tmp_path):
+    pages = {"README.md": "# A page\n\nThe gadget is forced, and no choice is made.\n"}
+    repo = _sweep_repo(tmp_path, "reading", _REG_HEAD + _UNQUOTED, pages)
+    assert _gate(repo, "retraction-sweep")[0] is False
+    _in_the_sweeps_table(repo, "NOT_SWEPT_BY_NAME", '"the gadget is forced, and no choice is made (B7)": "2026-11-11 -- only a reading of it is withdrawn"')
+    ok, detail = _gate(repo, "retraction-sweep")
+    assert ok is True, detail
+    assert "1 that retract a reading and are not swept, 1 of them by name" in detail
+
+
+def test_where_a_phrase_already_stood_it_is_held_by_its_file_and_its_phrase(tmp_path):
+    title = "# B7: the gadget is forced, and no choice is made\n\nCorrected below.\n"
+    pages = {"frontier/B7_the_gadget/FINDINGS.md": title, "README.md": "# A page\n"}
+    repo = _sweep_repo(tmp_path, "stands", _REG_HEAD + _UNQUOTED, pages)
+    ok, detail = _gate(repo, "retraction-sweep")
+    assert ok is False and "frontier/B7_the_gadget/FINDINGS.md" in detail
+    _in_the_sweeps_table(repo, "STANDS_AS_FOUND", '("frontier/B7_the_gadget/FINDINGS.md", "the gadget is forced, and no choice is made"): "the title as first written"')
+    ok, detail = _gate(repo, "retraction-sweep")
+    assert ok is True and "1 standing instance(s) of a phrase held by name as found" in detail, detail
+    # the phrase is swept everywhere else
+    _commit(repo, "the phrase on the front page", {"README.md": "# A page\n\nThe gadget is forced, and no choice is made.\n"})
+    ok, detail = _gate(repo, "retraction-sweep")
+    assert ok is False and "README.md" in detail and "FINDINGS.md" not in detail
+    # and the file is held for that phrase alone
+    _commit(repo, "another phrase in the held file", {"README.md": "# A page\n", "frontier/B7_the_gadget/FINDINGS.md": title + "And the lamp is always green there.\n"})
+    ok, detail = _gate(repo, "retraction-sweep")
+    assert ok is False and "FINDINGS.md" in detail and "the lamp is always green" in detail
+
+
+def test_the_sweep_says_how_many_rows_it_read(tmp_path):
+    reading = '| "a sentence" read as more than it says | B3 | only the reading |\n'
+    repo = _sweep_repo(tmp_path, "says", _REG_HEAD + _UNQUOTED + reading, {"README.md": "# A page\n"})
+    ok, detail = _gate(repo, "retraction-sweep")
+    assert ok is True, detail
+    assert "4 rows of the registry read: 3 swept, 1 that retract a reading and are not swept" in detail, "the sweep does not say what it read: " + detail
+
+
+def test_on_this_repository_every_row_of_the_registry_is_read():
+    """no row is passed over; the rows that only retract a reading, and the lines where a phrase already stood, are by name"""
+    g = _gates()
+    sys.path.insert(0, str(ROOT / "scripts" / "checks"))
+    try:
+        import retraction_sweep as rs
+    finally:
+        sys.path.pop(0)
+    rows = getattr(rs, "rows_in", lambda text: [("unread", None, "the reader accounts for no row")])((ROOT / "docs" / "RETRACTED_PHRASES.md").read_text(encoding="utf-8"))
+    kinds = [kind for kind, _phrase, _cell in rows]
+    assert "unread" not in kinds and kinds.count("swept") >= 46 and kinds.count("reading") >= 8, kinds
+    swept = [phrase for kind, phrase, _cell in rows if kind == "swept"]
+    assert any(p.startswith("the convention ") and p.endswith("no choice is made") for p in swept)       # a row the planted case took its phrase from
+    assert len(rs.NOT_SWEPT_BY_NAME) == 2 and len(rs.STANDS_AS_FOUND) == 12                             # a new name shows here as well
+    ok, detail = g.GATES["retraction-sweep"]()
+    assert ok is True, detail
+    assert "by name" in detail and "shorten the table" not in detail

@@ -2225,11 +2225,34 @@ def gate_retraction_sweep(_anchor=None):
     rel = os.path.relpath(rs.REGISTRY, ROOT).replace(os.sep, "/")
     if not os.path.isfile(rs.REGISTRY):
         return False, f"{rel} missing -- with no registry the sweep reads no phrase and would sweep for nothing"
-    gone, note = left_the_ledger(rel, rs.phrases_in, _read(rel), "retracted phrase", _anchor)
+    text = _read(rel)
+    # PV17 (WP-0.7; main's P-154): the reader knew two shapes of row and passed over the rest in silence.  Every row is now
+    # accounted for, and one that is in no shape the reader knows is refused, not skipped.
+    rows = rs.rows_in(text)
+    unread = [cell for kind, _phrase, cell in rows if kind == "unread"]
+    if unread:
+        return False, (f"{len(unread)} row(s) of {rel} are in no shape the sweep reads: " + "; ".join(repr(c[:60]) for c in unread[:4])
+                       + ". A row the sweep cannot read is a phrase nobody sweeps: put the phrase in quotes or in backticks, or "
+                         "alone in the first cell; a row that retracts only a reading is named in NOT_SWEPT_BY_NAME")
+    # a line that carries a mention cue ("withdrawn", "corrected", ...) is a mention and never a violation.  So a phrase that
+    # itself holds such a word can never fire: it is registered, and swept by nothing.  (Found by the seat's own test.)
+    mute = [phrase for kind, phrase, _cell in rows if kind == "swept" and rs.MENTION_CUES.search(rs._flatten(phrase))]
+    if mute:
+        return False, (f"{len(mute)} registered phrase(s) hold a word the sweep reads as a mention, so no line that carries one can "
+                       "ever be a violation: " + "; ".join(repr(m[:60]) for m in mute[:4]) + ". Register the phrase without that word")
+    gone, note = left_the_ledger(rel, rs.phrases_in, text, "retracted phrase", _anchor)
     if gone:
         return False, gone
-    v = rs.sweep()
-    return not v, [f"{r}:{n} {p!r}" for r, n, p in v[:5]] or "ok" + note
+    v, met = rs.sweep_all()
+    if v:
+        return False, [f"{r}:{n} {p!r}" for r, n, p in v[:5]]
+    kinds = [kind for kind, _phrase, _cell in rows]
+    named = [cell for _kind, _phrase, cell in rows if cell in rs.NOT_SWEPT_BY_NAME]
+    idle = len(rs.NOT_SWEPT_BY_NAME) - len(named) + len(set(rs.STANDS_AS_FOUND) - met)
+    return True, (f"ok ({len(rows)} rows of the registry read: {kinds.count('swept')} swept, {kinds.count('reading')} that retract a reading "
+                  f"and are not swept" + (f", {len(named)} of them by name" if named else "")
+                  + (f"; {len(met)} standing instance(s) of a phrase held by name as found" if met else "")
+                  + (f"; {idle} name(s) in the sweep's tables meet nothing now: shorten the table" if idle else "") + ")" + note)
 
 
 

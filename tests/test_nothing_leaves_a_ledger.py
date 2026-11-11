@@ -131,14 +131,17 @@ def test_the_rule_reads_main_from_its_anchor_and_nothing_is_named_yet():
 
 
 # ---- PV11: the registry of retracted phrases -----------------------------------------------------------------------------
+# 2026-11-11 (series 3, PV17): the made-up phrases here said "retracted", which is a word of mention: a line that carries one is
+# never a violation, so such a phrase can never fire, and the sweep now refuses a registry that holds one.  They are renamed.
 _REGISTRY = ("# Retracted phrases\n\n| # | phrase | arc | why |\n|---|---|---|---|\n"
-             "| 1 | `the first retracted phrase` | B1 | it was wrong |\n| 2 | `the second retracted phrase` | B2 | so was this |\n")
+             "| 1 | `the first sentence taken back` | B1 | it was wrong |\n| 2 | `the second sentence taken back` | B2 | so was this |\n")
 
 
 def test_the_registry_of_retracted_phrases_deleted_turns_the_sweep_red(tmp_path):
     """PV11 as planted.  With no registry the sweep read no phrase, swept for nothing and passed."""
     repo, anchor = _scratch(tmp_path, {"docs/RETRACTED_PHRASES.md": _REGISTRY})
-    assert _gate(repo, "retraction-sweep", anchor) == (True, "ok")
+    ok, detail = _gate(repo, "retraction-sweep", anchor)        # 2026-11-11 (series 3, PV17): the sweep now says what it read
+    assert ok is True and detail.startswith("ok (") and "by name" not in detail
     _commit(repo, "the registry is deleted", delete=["docs/RETRACTED_PHRASES.md"])
     ok, detail = _gate(repo, "retraction-sweep", anchor)
     assert ok is False and "RETRACTED_PHRASES.md missing" in detail
@@ -146,17 +149,17 @@ def test_the_registry_of_retracted_phrases_deleted_turns_the_sweep_red(tmp_path)
 
 def test_a_phrase_that_leaves_the_registry_turns_the_sweep_red_unless_it_is_named(tmp_path):
     repo, anchor = _scratch(tmp_path, {"docs/RETRACTED_PHRASES.md": _REGISTRY})
-    thinned = "\n".join(l for l in _REGISTRY.split("\n") if "second retracted" not in l)
+    thinned = "\n".join(l for l in _REGISTRY.split("\n") if "second sentence" not in l)
     _commit(repo, "one phrase leaves the registry", {"docs/RETRACTED_PHRASES.md": thinned})
     ok, detail = _gate(repo, "retraction-sweep", anchor)
-    assert ok is False and "1 retracted phrase(s) left docs/RETRACTED_PHRASES.md" in detail and "the second retracted phrase" in detail
+    assert ok is False and "1 retracted phrase(s) left docs/RETRACTED_PHRASES.md" in detail and "the second sentence taken back" in detail
     # emptied, not deleted: the file is there and holds no phrase
     _commit(repo, "the registry is emptied", {"docs/RETRACTED_PHRASES.md": "# Retracted phrases\n"})
     ok, detail = _gate(repo, "retraction-sweep", anchor)
     assert ok is False and "2 retracted phrase(s) left" in detail
     # the recorded act: the phrase named in the gate, with its date and what became of it
     _commit(repo, "one phrase back", {"docs/RETRACTED_PHRASES.md": thinned})
-    _name_in_the_gate(repo, "docs/RETRACTED_PHRASES.md", "the second retracted phrase", "2026-11-11 -- the retraction was itself withdrawn (B3)")
+    _name_in_the_gate(repo, "docs/RETRACTED_PHRASES.md", "the second sentence taken back", "2026-11-11 -- the retraction was itself withdrawn (B3)")
     _commit(repo, "and the other named")
     ok, detail = _gate(repo, "retraction-sweep", anchor)
     assert ok is True and "1 retracted phrase(s) left by name" in detail and "withdrawn (B3)" in detail
@@ -168,11 +171,12 @@ def test_a_phrase_that_leaves_the_registry_turns_the_sweep_red_unless_it_is_name
 
 def test_a_phrase_added_after_the_anchor_and_then_removed_has_left_too(tmp_path):
     repo, anchor = _scratch(tmp_path, {"docs/RETRACTED_PHRASES.md": _REGISTRY})
-    _commit(repo, "a third phrase is registered", {"docs/RETRACTED_PHRASES.md": _REGISTRY + "| 3 | `the third retracted phrase` | B3 | later |\n"})
-    assert _gate(repo, "retraction-sweep", anchor) == (True, "ok")
+    _commit(repo, "a third phrase is registered", {"docs/RETRACTED_PHRASES.md": _REGISTRY + "| 3 | `the third sentence taken back` | B3 | later |\n"})
+    ok, detail = _gate(repo, "retraction-sweep", anchor)        # 2026-11-11 (series 3, PV17): the sweep now says what it read
+    assert ok is True and detail.startswith("ok (") and "by name" not in detail
     _commit(repo, "and quietly dropped", {"docs/RETRACTED_PHRASES.md": _REGISTRY})
     ok, detail = _gate(repo, "retraction-sweep", anchor)
-    assert ok is False and "the third retracted phrase" in detail
+    assert ok is False and "the third sentence taken back" in detail
 
 
 # ---- PV13: the law map and the theorem ledger ---------------------------------------------------------------------------

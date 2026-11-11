@@ -84,46 +84,100 @@ def _phrases():
         return phrases_in(fh.read())
 
 
-def phrases_in(text):
-    """the retracted phrases a registry's text holds, line by line (so that the gate can read the registry as it was at an
-    earlier commit, and see what has left it)"""
+# WP-0.7 (the advisor seat's planted case PV17; main's own point P-154, queued since 2026-10-15).  The reader knew two shapes of
+# row.  The tables added from 2026-10-07 on hold the phrase UNQUOTED in the first cell, and those rows were not read: 19 rows of
+# 54, in silence -- the gate said "ok" and nothing of what it had not read.  Two phrases of such rows, pasted into the front
+# page, passed.  Now every row of every table is accounted for (`rows_in`): it is swept, or it retracts a reading and is not, or
+# it is in no shape this reader knows -- and then the gate refuses the registry, where before it passed over the row.
+#
+# FORMAT 3, an unquoted first cell:  | the phrase (its source) | why | the current statement |
+# The phrase is the cell without the bracketed note that ends it.  An unquoted row has no tail to say that only a READING is
+# retracted, so such a row is named here, with the reason, and is read and not swept.
+NOT_SWEPT_BY_NAME = {      # the row's first cell, whole -> "the date -- why it is not swept"
+    "the swap is genuine exactly when 1 lies outside the coset \u03b7\u2080K \u2014 read as a law (B1474 \u00a73)":
+        "2026-11-11 -- a reading is retracted (as a law); as a description of the witnesses found the sentence stands",
+    "no centralizer construction reaches chiral matter at rank four \u2014 read of the family rather than of the root (THE_SM_VERDICT \u00a72.1)":
+        "2026-11-11 -- a reading is retracted (of the family); of the root the sentence stands, scoped on the page",
+}
+_RULE = re.compile(r"\|\s*:?-{2,}")
+
+
+def _without_its_note(cell):
+    """a first cell without the bracketed note that ends it:  `the phrase (B1634)` -> `the phrase`.  Only the last bracket,
+    and only if a space stands before it, so that `reading (+3, +1) (B1602)` keeps its own bracket."""
+    cell = cell.strip()
+    if not cell.endswith(")"):
+        return cell
+    depth = 0
+    for i in range(len(cell) - 1, -1, -1):
+        if cell[i] == ")":
+            depth += 1
+        elif cell[i] == "(":
+            depth -= 1
+            if depth == 0:
+                return cell[:i].rstrip() if i > 0 and cell[i - 1] == " " and cell[:i].strip() else cell
+    return cell
+
+
+def rows_in(text):
+    """Every row of every table of a registry's text, in order, as (kind, phrase, first cell).  The kind is "swept"; or
+    "reading" -- the row retracts a reading of a phrase, and the phrase, which is legitimate otherwise, is not swept; or
+    "unread" -- the row is in no shape this reader knows, and the gate refuses it."""
     out = []
-    if text:                                     # an empty registry holds no phrase
-        for line in text.split("\n"):
-            # FORMAT 1 (the original numbered table):  | 7 | `phrase` | arc | why |
-            m = re.match(r"\|\s*\d+\s*\|\s*`([^`]+)`", line)
-            if m:
-                out.append(m.group(1).strip()); continue
-            # FORMAT 2 (used from 2026-08-28 on):  | "phrase" <tail> | arc, date | why |
-            # WIDENED 2026-09-06 (Review 55, blocker). The registry grew a second table shape and
-            # this parser only knew the first, so it read 9 of 21 rows -- the gate that CERTIFIES
-            # retraction discipline was blind to 12 phrases, among them "cell 2 is queued and
-            # unrun", live in docs/ERROR_LEDGER.md at the time. Error class E66, inside the
-            # instrument the corpus's mechanical greens rest on.
-            #
-            # THE TAIL IS LOAD-BEARING AND A NAIVE WIDENING IS WRONG. Some rows retract a PHRASE
-            # ("excess transitive reach" (of the Omega-DAG...)); others retract only a READING of a
-            # phrase that is otherwise perfectly legitimate -- "sin^2 theta_W = 3/8" READ AS
-            # selecting E6/the knot. Sweeping the bare number would red ~25 correct uses across
-            # README, GOVERNANCE and twelve docs. So: take the phrase only when the tail is EMPTY
-            # or a PARENTHETICAL scope note; skip when the tail restricts a reading. A "/"-joined
-            # tail carries a second retracted phrase and both are taken.
-            m = re.match(r'\|\s*["\u201c]([^"\u201d]+)["\u201d](.*?)\|', line)
-            if m:
-                phrase, tail = m.group(1).strip(), m.group(2).strip()
-                if not tail or tail.startswith("("):
-                    out.append(phrase)
-                # else: a READING is retracted, not the phrase, and the bare phrase stays
-                # legitimate. Two live examples, both of which a naive widening got WRONG here
-                # before this comment was written:
-                #   * "sin^2 theta_W = 3/8" READ AS selecting E6/the knot -- the NUMBER is fine and
-                #     appears correctly in README, GOVERNANCE and twelve docs (~25 uses);
-                #   * "the class restricts to c" / eps described as "mirror-odd" -- MIRROR-ODD is a
-                #     correct, load-bearing term for the ORIENTATION bit (B1168, B1169); only its
-                #     application to eps was retracted.
-                # Sweeping either bare phrase reds correct work. When a row retracts a reading, the
-                # registry must add a separate row for any phrase it wants swept.
+    lines = (text or "").split("\n")
+    for i, line in enumerate(lines):
+        if not line.startswith("|") or _RULE.match(line):
+            continue
+        if i + 1 < len(lines) and _RULE.match(lines[i + 1]):
+            continue                                              # a header: the row above a rule
+        cell = line.split("|")[1].strip() if line.count("|") >= 2 else ""
+        # FORMAT 1 (the original numbered table):  | 7 | `phrase` | arc | why |
+        m = re.match(r"\|\s*\d+\s*\|\s*`([^`]+)`", line)
+        if m:
+            out.append(("swept", m.group(1).strip(), cell)); continue
+        # FORMAT 2 (used from 2026-08-28 on):  | "phrase" <tail> | arc, date | why |
+        # WIDENED 2026-09-06 (Review 55, blocker). The registry grew a second table shape and
+        # this parser only knew the first, so it read 9 of 21 rows -- the gate that CERTIFIES
+        # retraction discipline was blind to 12 phrases, among them "cell 2 is queued and
+        # unrun", live in docs/ERROR_LEDGER.md at the time. Error class E66, inside the
+        # instrument the corpus's mechanical greens rest on.
+        #
+        # THE TAIL IS LOAD-BEARING AND A NAIVE WIDENING IS WRONG. Some rows retract a PHRASE
+        # ("excess transitive reach" (of the Omega-DAG...)); others retract only a READING of a
+        # phrase that is otherwise perfectly legitimate -- "sin^2 theta_W = 3/8" READ AS
+        # selecting E6/the knot. Sweeping the bare number would red ~25 correct uses across
+        # README, GOVERNANCE and twelve docs. So: take the phrase only when the tail is EMPTY
+        # or a PARENTHETICAL scope note; skip when the tail restricts a reading. A "/"-joined
+        # tail carries a second retracted phrase and both are taken.
+        m = re.match(r'\|\s*["\u201c]([^"\u201d]+)["\u201d](.*?)\|', line)
+        if m:
+            phrase, tail = m.group(1).strip(), m.group(2).strip()
+            out.append(("swept" if (not tail or tail.startswith("(")) else "reading", phrase, cell))
+            # else: a READING is retracted, not the phrase, and the bare phrase stays
+            # legitimate. Two live examples, both of which a naive widening got WRONG here
+            # before this comment was written:
+            #   * "sin^2 theta_W = 3/8" READ AS selecting E6/the knot -- the NUMBER is fine and
+            #     appears correctly in README, GOVERNANCE and twelve docs (~25 uses);
+            #   * "the class restricts to c" / eps described as "mirror-odd" -- MIRROR-ODD is a
+            #     correct, load-bearing term for the ORIENTATION bit (B1168, B1169); only its
+            #     application to eps was retracted.
+            # Sweeping either bare phrase reds correct work. When a row retracts a reading, the
+            # registry must add a separate row for any phrase it wants swept.
+            continue
+        # FORMAT 3 (used from 2026-10-07 on; read since 2026-11-11):  | the phrase (its source) | why | now |
+        if cell in NOT_SWEPT_BY_NAME:
+            out.append(("reading", _without_its_note(cell), cell)); continue
+        phrase = _without_its_note(cell)
+        if not phrase or phrase.isdigit() or phrase[0] in '"\u201c`':
+            out.append(("unread", None, cell)); continue          # an empty cell, a bare number, a quote that does not close
+        out.append(("swept", phrase, cell))
     return out
+
+
+def phrases_in(text):
+    """the retracted phrases a registry's text holds, in order (so that the gate can read the registry as it was at an
+    earlier commit, and see what has left it): the phrase of every row that is swept"""
+    return [phrase for kind, phrase, cell in rows_in(text) if kind == "swept"]
 
 
 def _tracked_md():
@@ -166,11 +220,42 @@ def _flatten(line):
     return line
 
 
-def sweep():
+# WHERE A PHRASE ALREADY STOOD ON THE DAY THE SWEEP FIRST READ ITS ROW (2026-11-11).  Twelve lines, for four of the nineteen
+# phrases; the other fifteen stand nowhere.  Each is held by its file and its phrase, as found: the phrase is swept in every
+# other file, and a second phrase in the same file is a violation.  Eleven are records: an arc's own title or findings under
+# its dated correction, the addendum or the ledger row that quotes what it scopes, a relay as it was sent.  The twelfth is not.
+STANDS_AS_FOUND = {        # (file, phrase) -> what the instance is
+    ("docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-08_THE_PRINCIPLES_TICK_AND_THE_TWO_HANDS.md", "the sense of the root's 3-cycle as the chirality bit"):
+        "a relay as sent; the line says the candidate is dead",
+    ("docs/ERROR_LEDGER.md", "every coupling is degenerate at \u03c9"): "the error ledger's row (E53, instance 31) quotes the sentence it records",
+    ("docs/handoffs/CC_TO_SM_AND_CODEX_2026-10-09_THE_COUPLINGS_AND_THE_GOLDEN_SPECTRUM.md", "every coupling is degenerate at \u03c9"):
+        "a relay as sent, four days before the sentence was scoped",
+    ("frontier/B1635_couplings_on_the_ruled_branch/ADDENDUM_2026-10-13_omega_and_the_ansatz.md", "every coupling is degenerate at \u03c9"):
+        "the addendum that scopes the sentence quotes it in its title",
+    ("frontier/B1635_couplings_on_the_ruled_branch/FINDINGS.md", "every coupling is degenerate at \u03c9"):
+        "the arc's findings as first written; its addendum of 2026-10-13 scopes them",
+    ("docs/POINT_REGISTER.md", "the only lifts that agree with the ruled moves"): "the register's row P-122 quotes the title it scopes",
+    ("frontier/B1641_w46_on_main_and_the_two_objects/ADDENDUM_2026-10-14_scoped_at_review_63.md", "the only lifts that agree with the ruled moves"):
+        "the addendum that scopes the title quotes it",
+    ("frontier/B1641_w46_on_main_and_the_two_objects/FINDINGS.md", "the only lifts that agree with the ruled moves"):
+        "the arc's title as first written; its claim line carries the scope (B1648)",
+    ("frontier/B1648_the_scope_repairs/FINDINGS.md", "the only lifts that agree with the ruled moves"): "the scope repairs' own table quotes it",
+    ("frontier/B1648_the_scope_repairs/verification/apply_scope.py", "the only lifts that agree with the ruled moves"):
+        "the script that wrote the scope quotes it",
+    ("frontier/B1632_w45_verified_on_main/FINDINGS.md", "the weave's lifts on T form only a projective representation"):
+        "the arc's title as first written (sealed, and NEGATIVE as sealed)",
+    ("papers/P3_THE_PAPER/CLAIM_CANDIDATES.md", "the weave's lifts on T form only a projective representation"):
+        "NOT A RECORD: the paper's table of candidate claims shows the first words of B1632's claim line, the withdrawn "
+        "sentence, with no correction in sight. Held as found, and named to main as a finding",
+}
+
+
+def sweep_all():
+    """(the live uses of a registered phrase that nothing allows, the standing instances that were met)"""
     phrases = [(p, re.compile(re.escape(p), re.I)) for p in _phrases()]
-    violations = []
+    violations, met = [], set()
     if not phrases:
-        return violations
+        return violations, met
     for rel in _tracked_md():
         if (rel in EXEMPT_FILES or rel.startswith(EXEMPT_PREFIXES)
                 or os.path.basename(rel) in EXEMPT_BASENAMES):
@@ -196,12 +281,25 @@ def sweep():
                 continue
             for phrase, rx in live:
                 if rx.search(flat):
-                    violations.append((rel, n, phrase))
-    return violations
+                    if (rel, phrase) in STANDS_AS_FOUND:
+                        met.add((rel, phrase))
+                    else:
+                        violations.append((rel, n, phrase))
+    return violations, met
+
+
+def sweep():
+    """the live uses of a registered phrase that nothing allows, as this function has always returned them"""
+    return sweep_all()[0]
 
 
 if __name__ == "__main__":
     v = sweep()
+    if os.path.exists(REGISTRY):
+        with open(REGISTRY, encoding="utf-8") as fh:
+            kinds = [k for k, _p, _c in rows_in(fh.read())]
+        print(f"rows of the registry: {len(kinds)} -- {kinds.count('swept')} swept, {kinds.count('reading')} that retract a reading "
+              f"and are not swept, {kinds.count('unread')} in no shape this reader knows")
     print(f"registered retracted phrases: {len(_phrases())}")
     print(f"tracked .md/.tex/.py files swept: {len(_tracked_md())}")
     print(f"live-claim violations: {len(v)}")
