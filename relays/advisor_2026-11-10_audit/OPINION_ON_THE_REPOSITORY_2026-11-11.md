@@ -182,3 +182,43 @@ this seat said of main's last eighteen hours. Two things do follow now:
   How much shorter is what a rebuild would show.
 - **The search for credentials used four patterns** and found nothing. That is not a clearance.
 - **This seat is a party.** It is a natural candidate to do the rebuild, and it is the seat that audits main.
+
+## 9. Later the same day: "whats the best way to do it"
+
+The owner asked this seat for its honest opinion on the best way to do it: how the light public repository is tied
+to this one. Main had by then attacked §§ 6 and 7 at his word (B1888). This section is the seat's answer to him. It
+keeps §§ 6 and 7 where main left them standing, takes main's changes, and adds two things.
+
+**The rule that carries the rest: there are never two places of work.** This repository is the only place anything
+is written. The public one is a release built from it and is not edited by hand. Then there is no second history to
+reconcile, and nothing in the public one can drift.
+
+| part of the public repository | how it is made |
+|---|---|
+| the statement | the short chain written again, clean. Main measured it at 14 arcs and about 3,000 lines. It lives in a folder of THIS repository, under the same gates and this seat's audit, and is exported from a tagged commit |
+| the provenance | generated, not written: the tagged commit and its deposit; the map from each claim to the arcs behind it (the part of WP-0.12's graph upstream of the claimed values); the hash of every file (WP-5.1's certificate); and a run that shows the clean chain gives the same numbers as the chain it replaces |
+| the check | the one part written outside: from the statement's text alone, its expectations sealed first, by main's five conditions (B1888 § 3). Under a permissive licence, so that nobody is blocked from running it |
+
+**Three ties, each of which a stranger can check:** the pinned commit; the map; the matching numbers.
+
+**What changes from § 6.** The archive is a signed tag and a dated deposit of this repository, not a second
+repository (main's change, taken). The clean statement is kept here and exported, so the public repository is never
+worked in (new). The check counts by main's five conditions and not by who wrote it (main's change, taken).
+
+**What to do now, and nothing else for the public face:**
+
+1. **Have someone else date the history.** A commit's date is typed by whoever makes the commit; this seat met that
+   the same day, building the gate that takes its day from the commit (`wp_0_7/series_1/`, the fourth patch). So a
+   sceptic can say the record was rewritten last week, and today the only outside witness is the host. A snapshot
+   taken and dated by an outside archive, now and at each seal, makes the history the fact the owner wants it to be.
+   It matters most for a sealed prediction: that it was sealed before the reading has to be someone else's record.
+2. **The licence.** Main's answer to him fits his aim, and this seat adds nothing to it but the same limit: a licence
+   covers the text and the code, not the theory.
+
+**Two things said plainly.** A public page built today would read 0 of 19; building the shell now finishes nothing,
+and the clean-up is what decides the date. And no arrangement of this project's own seats makes the check
+independent: before any claim it needs one reader from outside, a person or another family of model.
+
+**Not done by this seat:** no outside archive was contacted and no snapshot was requested. That sends the project's
+name outside, and it is the owner's to do or to order.
+

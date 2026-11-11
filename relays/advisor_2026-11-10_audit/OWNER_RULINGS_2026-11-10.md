@@ -400,6 +400,16 @@ its next step is scheduled. (2) The tie between this repository and a public one
 has the archive as a signed tag and a dated deposit of this same repository, with the public statement pinning the
 tag's commit; the form is his to decide. He was asked nothing.
 
+| what he was answering | his words |
+|---|---|
+| the seat's answer on continuity: its own work is kept by the branch; the tie between this repository and a public one is proposed, not fixed | "whats the best way to do it - your honest opinion, you know what we want to achieve" |
+
+The seat read "it" as the tie between this repository and the public one, and answered: there are never two places
+of work; the public repository is a release built from this one (the statement written again clean and kept here,
+the provenance generated, the check the one part written outside); three ties a stranger can check; and, now, only
+two things, an outside dating of the history and the licence. Written out in
+`OPINION_ON_THE_REPOSITORY_2026-11-11.md`, § 9, for main to read when he asks its opinion. He was asked nothing.
+
 ## The roles
 
 The owner, the same day: this seat "will serve as an advisor for cc - the banking seat"; when cc is ready the reports

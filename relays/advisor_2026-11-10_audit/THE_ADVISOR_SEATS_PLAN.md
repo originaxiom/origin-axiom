@@ -151,7 +151,7 @@ commit. If main wants a branch to fetch, a second branch needs the owner's leave
 | 9 | the foundation at version 1.65, checked against the criteria | held | this seat, when main closes the foundation's packages (WP-0.1, WP-0.10) |
 | 10 | the owner's scoreboard page | live at the owner's address; refreshed when he asks | becomes the output of WP-0.12 |
 | 11 | the opinion on the repository, and the read of the agy lane's blueprint | **answered by main** (B1888, `0a3c8c6e7`): four of the eight points hold; the rebuild holds with a first deliverable; the archive is a signed tag and a dated deposit, not a second repository; a check counts by five conditions, not by who wrote it; the candidate's chain is 14 arcs by its code, where the lists give 736. Main has asked the web seat for a cold read | the owner decides the form; the web seat reads |
-| 12 | the public structure in three parts | parked until the card is sealed | — |
+| 12 | the public structure | the owner leads it with this seat. He asked for the best way; the seat's answer is `OPINION_ON_THE_REPOSITORY_2026-11-11.md`, § 9: one place of work, the public repository a release built from it, three ties, and two things to do now (an outside dating of the history; the licence). Nothing is built for it before values are earned | the owner decides; main gives its opinion when he asks |
 | 13 | readers of another family, for the ambiguity attack | cannot be done by this seat | the owner, if he wants it |
 
 ## 8. How main supervises
