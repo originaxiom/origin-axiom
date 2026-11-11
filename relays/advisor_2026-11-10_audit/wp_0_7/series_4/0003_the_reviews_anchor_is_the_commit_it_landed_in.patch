@@ -1,0 +1,240 @@
+From aba5c62247e045e69470621fc028e0f8ca0c4915 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Wed, 11 Nov 2026 21:40:55 +0000
+Subject: [PATCH 3/3] WP-0.7, enforcement (cld-advisor's series 4, patch 3;
+ built on f9e70c167 with series 2 and 3 applied): THE ANCHOR OF THE LAST
+ REVIEW IS THE COMMIT IN WHICH THAT REVIEW LANDED (found on main's f9e70c167
+ while reading main's page on the periodic review). The count of landings
+ since the last review was taken from the last 'anchor-commit:' anywhere on
+ the reviews' page. One sentence at the end of that page, naming the head as
+ an anchor, made the count 0, and review-fires, review-core, review-actions
+ and carry-age all passed: the block that holds until the review is run was
+ switched off by a line of prose. On main the anchor is never free: each of
+ the last eight reviews has one anchor, on a line of its own, and it names the
+ commit in which the review's entry landed. THE MEND reads exactly that,
+ before the count is taken: the entry of the last review names an anchor once,
+ on its own line, and nothing after it on the page names another; the anchor
+ is the commit in which that entry's heading landed, read from history; and no
+ older entry stands below it. Where one of these does not hold, review-fires
+ fails with the sentence. It binds from Review 78 on: older entries are in
+ other forms and are not re-judged; a page with no such entry, or a test's own
+ text, is read as before. What it does not reach: a whole entry that is made
+ up, heading and core lines and anchor, which is a review that was not run and
+ not a slip. The review's own script reads its anchor as before; with the gate
+ red on a moved anchor, a push is blocked. The lock:
+ tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py, six tests, each
+ in a small repository where a review is landed as main lands one; on the
+ commit before, five fail, three of them because the gate reads '1 merges
+ since the last review'. Computed once; tested against planted errors, 4 of 4.
+ 0 of 19.
+
+---
+ scripts/gates/gates.py                        |  40 +++++
+ ...views_anchor_is_the_commit_it_landed_in.py | 139 ++++++++++++++++++
+ 2 files changed, 179 insertions(+)
+ create mode 100644 tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py
+
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 3aedddee1..cb8ff5f08 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -2703,11 +2703,51 @@ def review_anchor_date():
+     return out.strip() if rc == 0 and out.strip() else None
+ 
+ 
++# THE ANCHOR OF THE LAST REVIEW IS THE COMMIT IN WHICH THAT REVIEW LANDED (WP-0.7, series 4; found on main's f9e70c167).  The count
++# of landings since the last review was taken from the last 'anchor-commit:' anywhere on the reviews' page.  One sentence added
++# at the end of that page, naming the head as an anchor, made the count 0, and review-fires, review-core, review-actions and
++# carry-age all passed: the review's block was switched off by a line of prose.  On main the anchor is never free: each of the
++# last eight reviews has one anchor, on a line of its own, and it is the commit in which the review's entry landed.  That is
++# now read.  It binds from Review 78 on; older entries are in other forms and are not re-judged.
++ANCHOR_RULE_FROM = 78
++
++
++def review_anchor_problems(text=None):
++    """why the last review's anchor cannot be trusted, as a list of sentences; empty where it can, or where no review entry of
++    the rule's form stands on the page (a page before the rule, or a test's own text)"""
++    text = (_read(REVIEWS) if os.path.exists(os.path.join(ROOT, REVIEWS)) else "") if text is None else text
++    heads = [(int(m.group(1)), m.start()) for m in re.finditer(r"^# Review (\d+) ", text, re.M)]
++    heads = [h for h in heads if h[0] >= ANCHOR_RULE_FROM]
++    if not heads:
++        return []
++    n, pos = max(heads)
++    after = [h for h in heads if h[1] > pos]
++    if after:
++        return [f"the entry of Review {after[0][0]} stands below that of Review {n}: the reviews' page is written in order"]
++    entry = text[pos:]
++    in_any_form = re.findall(r"anchor-commit: `?([0-9a-f]{7,40})`?", entry)
++    own_line = re.findall(r"^\*\*anchor-commit: `([0-9a-f]{7,40})`\*\*[ \t]*$", entry, re.M)
++    if len(in_any_form) != 1 or len(own_line) != 1:
++        return [f"the entry of Review {n} names an anchor {len(in_any_form)} time(s), {len(own_line)} of them on a line of its own: "
++                "a review has one anchor, on its own line, and nothing else on the page may name one after it"]
++    rc, out = _git("log", "--first-parent", "--format=%H", "-S# Review %d " % n, "--", REVIEWS)
++    landed = out.split()[-1] if rc == 0 and out.split() else None
++    if landed is None:
++        return [f"cannot verify: the commit in which the entry of Review {n} landed is not in this history"]
++    if not landed.startswith(own_line[0]):
++        return [f"the anchor of Review {n} is typed {own_line[0][:9]}, and its entry landed in {landed[:9]}: the anchor is the commit "
++                "in which the review landed, and it moves only when a review lands"]
++    return []
++
++
+ def gate_review_fires(_merges=None):
+     """GOVERNANCE §15 (amendment 2026-10-03, R58-1 item 1): past twice its period (REVIEW_HARD merges on main's
+     first-parent line since the last anchor) the decadal review is not a report but a block, unless the owner has
+     waived it by date in REVIEW_WAIVER.  `_merges` is a test's own count, given as an argument: until 2026-11-11 it was the
+     variable OA_REVIEW_MERGES, and anyone who set it to 0 switched the block off."""
++    moved = review_anchor_problems()
++    if moved:
++        return False, moved[0]
+     n, _due = review_status()
+     if _merges is not None:
+         n = int(_merges)
+diff --git a/tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py b/tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py
+new file mode 100644
+index 000000000..537214b5f
+--- /dev/null
++++ b/tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py
+@@ -0,0 +1,139 @@
++"""The anchor of the last review is the commit in which that review landed (the closure programme's WP-0.7, series 4).
++
++The count of landings since the last review was taken from the last `anchor-commit:` anywhere on the reviews' page.  One
++sentence at the end of that page, naming the head as an anchor, made the count 0, and the gate that blocks until the review
++is run passed.  The anchor is now held to the review's own entry and to history: one anchor, on a line of its own, naming
++the commit in which the entry landed.
++
++Each test makes the situation in a small repository of its own, which holds this repository's gates and checkers and a
++reviews' page written as main writes it: the entry in one commit, its anchor in the next."""
++import importlib.util
++import json
++import pathlib
++import shutil
++import subprocess
++import sys
++
++ROOT = pathlib.Path(__file__).resolve().parents[1]
++PAGE = "docs/progress/REVIEWS.md"
++
++
++def _gates():
++    spec = importlib.util.spec_from_file_location("gates_for_the_anchor_rule", ROOT / "scripts" / "gates" / "gates.py")
++    g = importlib.util.module_from_spec(spec)
++    spec.loader.exec_module(g)
++    return g
++
++
++def _git(repo, *a):
++    r = subprocess.run(["git", "-C", str(repo), "-c", "user.name=t", "-c", "user.email=t@example.invalid", *a], capture_output=True, text=True)
++    assert r.returncode == 0, r.stderr
++    return r.stdout.strip()
++
++
++def _commit(repo, message, files=None):
++    for rel, text in (files or {}).items():
++        p = repo / rel
++        p.parent.mkdir(parents=True, exist_ok=True)
++        p.write_text(text, encoding="utf-8")
++    _git(repo, "add", "-A")
++    _git(repo, "commit", "-q", "--allow-empty", "-m", message)
++    return _git(repo, "rev-parse", "--short=9", "HEAD")
++
++
++def _entry(n):
++    return ("# Review %d (2026-11-11) — a review\n\nWhat was read, and what was found.\n\n"
++            "fresh-clone: PASS @ 0000000\nsample seed: 0000000\ngate controls: 53 registered\n\n### Action items (Review %d)\n\n- [x] R%d-1 done\n" % (n, n, n))
++
++
++def _land_a_review(repo, n, page):
++    """as main lands one: the entry in one commit, and in the next the line that names that commit as the anchor"""
++    page = page + ("\n" if page else "") + _entry(n)
++    landed = _commit(repo, "Review %d" % n, {PAGE: page})
++    page = page + "\n**anchor-commit: `%s`**\n" % landed
++    _commit(repo, "the anchor of Review %d" % n, {PAGE: page})
++    return page, landed
++
++
++def _repo(tmp_path):
++    """a small repository with Review 78 landed and three landings after it"""
++    repo = tmp_path / "repo"
++    skip = shutil.ignore_patterns("__pycache__", "*.pyc")
++    shutil.copytree(ROOT / "scripts" / "gates", repo / "scripts" / "gates", ignore=skip)
++    shutil.copytree(ROOT / "scripts" / "checks", repo / "scripts" / "checks", ignore=skip)
++    _git(repo, "init", "-q")
++    _commit(repo, "the gates")
++    page, landed = _land_a_review(repo, 78, "")
++    for i in range(3):
++        _commit(repo, "a landing", {"frontier/B%d_an_arc/FINDINGS.md" % i: "an arc\n"})
++    return repo, page, landed
++
++
++_RUN = ("import sys, json, importlib.util\n"
++        "sys.dont_write_bytecode = True\n"
++        "s = importlib.util.spec_from_file_location('scratch_gates', 'scripts/gates/gates.py')\n"
++        "g = importlib.util.module_from_spec(s); s.loader.exec_module(g)\n"
++        "r = g.GATES['review-fires']()\n"
++        "print(json.dumps([bool(r[0]), str(r[1])]))\n")
++
++
++def _review_fires(repo):
++    r = subprocess.run([sys.executable, "-B", "-c", _RUN], cwd=str(repo), capture_output=True, text=True)
++    assert r.returncode == 0, r.stderr[-800:]
++    ok, detail = json.loads(r.stdout.strip().splitlines()[-1])
++    return ok, detail
++
++
++def test_the_count_is_taken_from_the_commit_in_which_the_review_landed(tmp_path):
++    """the control: this held before the series.  The entry landed, then its anchor, then three landings: four since the review"""
++    repo, page, landed = _repo(tmp_path)
++    ok, detail = _review_fires(repo)
++    assert ok is True and detail.startswith("4 merges since the last review"), detail
++
++
++def test_a_sentence_that_names_the_head_as_an_anchor_does_not_move_the_count(tmp_path):
++    """the case as found: one sentence at the end of the reviews' page"""
++    repo, page, landed = _repo(tmp_path)
++    head = _git(repo, "rev-parse", "--short=9", "HEAD")
++    _commit(repo, "a note", {PAGE: page + "\nA note, not a review: the gates were run at **anchor-commit: `%s`** today.\n" % head})
++    ok, detail = _review_fires(repo)
++    assert ok is False, "one sentence on the reviews' page named the head as an anchor, and the gate that blocks until the review is run reads: " + detail
++    assert "names an anchor 2 time(s)" in detail
++
++
++def test_a_second_anchor_on_a_line_of_its_own_does_not_move_it_either(tmp_path):
++    repo, page, landed = _repo(tmp_path)
++    head = _git(repo, "rev-parse", "--short=9", "HEAD")
++    _commit(repo, "a second anchor", {PAGE: page + "\n**anchor-commit: `%s`**\n" % head})
++    ok, detail = _review_fires(repo)
++    assert ok is False, "a second anchor line was added with no review, and the gate reads: " + detail
++    assert "2 of them on a line of its own" in detail
++
++
++def test_the_typed_anchor_cannot_be_changed_to_a_later_commit(tmp_path):
++    repo, page, landed = _repo(tmp_path)
++    head = _git(repo, "rev-parse", "--short=9", "HEAD")
++    assert page.count("`%s`" % landed) == 1
++    _commit(repo, "the anchor retyped", {PAGE: page.replace("`%s`" % landed, "`%s`" % head)})
++    ok, detail = _review_fires(repo)
++    assert ok is False, "the anchor was retyped to the head with no review, and the gate reads: " + detail
++    assert "its entry landed in " + landed in detail
++
++
++def test_a_review_that_lands_moves_the_anchor(tmp_path):
++    """the other side: the next review, landed as main lands one, is the new anchor, and the count starts again"""
++    repo, page, landed = _repo(tmp_path)
++    page, landed79 = _land_a_review(repo, 79, page)
++    ok, detail = _review_fires(repo)
++    assert ok is True and detail.startswith("1 merges since the last review"), detail
++    # and an entry written above an older one is not the last review
++    _commit(repo, "an entry out of order", {PAGE: page + "\n" + _entry(78).replace("Review 78", "Review 77").replace("R78", "R77") + "\n" + _entry(78)})
++    ok, detail = _review_fires(repo)
++    assert ok is False, detail
++
++
++def test_on_this_repository_the_last_reviews_anchor_is_the_commit_it_landed_in():
++    g = _gates()
++    problems = getattr(g, "review_anchor_problems", lambda: ["the gates do not hold the anchor to its review"])()
++    assert problems == [], problems
++    assert g.ANCHOR_RULE_FROM == 78
+-- 
+2.43.0
+

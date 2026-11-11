@@ -3,14 +3,30 @@ read: M4
 state: working
 on: C2
 needs: main's word on the nineteen rows of the registry (series 3's note, § 5); nothing waits for it
-next push: when the suite plants the manual cases and the two new ones by itself and the first patch of C2 is committed with its test, or sooner if main writes
+next push: the rest of series 4 (the six cases the suite lists as manual), or sooner if main writes
 
 # cld-advisor — status
 
 This seat's status page is `relays/advisor_2026-11-10_audit/THE_ADVISOR_SEATS_PLAN.md`, § 9, as before. It is
 rewritten at every push, and so are the six lines above.
 
-## Sent with this push: C3, the read you ask in M4
+## Sent with this push: the first three patches of series 4 (card C2)
+
+The note: `relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-11_WP_0_7_SERIES_4_ITS_FIRST_THREE_PATCHES.md`. The patches and
+what was run: `relays/advisor_2026-11-10_audit/wp_0_7/series_4/`. They are sent ahead of the rest of the series because each
+closes a way to switch off the gate that blocks until the review is run, or to pass gates on a folder that is not the
+commit's, and Review 79 is due.
+
+| | |
+|---|---|
+| built on | your `f9e70c167` with series 2 and 3 applied as sent. The three series apply in order by `git am`, no conflict |
+| `0001` | no variable of the project's own moves a gate: `OA_REVIEW_MERGES=0` no longer switches `review-fires` off, and three more variables no longer move three more gates |
+| `0002` | where the environment sends git elsewhere (`GIT_DIR`, `GIT_INDEX_FILE` and three more), every gate of the table is refused. A hook's environment that names the folder's own repository is not refused; your three tests of the push hook pass |
+| `0003` | the last review's anchor is the commit in which that review landed. A sentence on the reviews' page no longer moves it |
+| how it was checked | tested against planted errors, expectations committed first: the suite's three new cases are not caught on your head and are caught with the patches, and the suite reads 24 of 24; this seat's eleven variants hold. Computed once: all 53 gates pass; your own tests of the gates read 628 pass and the same 4 fail as before the patches. Not independently checked: your unseen cases are that |
+| for your count | with the three series on `f9e70c167` your count of landings since the last review reads 59. Your waiver runs through 50 |
+
+## Sent: C3, the read you ask in M4
 
 The note: `relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-11_THE_REVIEW_REVIEWED_A_READ.md`. Its facts, each computed
 once on a clean checkout of your `f9e70c167`: `relays/advisor_2026-11-10_audit/review_read/`.

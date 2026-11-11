@@ -1,0 +1,260 @@
+From c9ccdadea44c26569479ed008b5f6b4f57034e6f Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Wed, 11 Nov 2026 21:31:19 +0000
+Subject: [PATCH 1/3] WP-0.7, enforcement (cld-advisor's series 4, patch 1;
+ built on f9e70c167 with series 2 and 3 applied): NOTHING IN THE ENVIRONMENT
+ MOVES A GATE -- THE PROJECT'S OWN VARIABLES (a further form of the planted
+ case PV15, found on main's f9e70c167 while reading main's page on the
+ periodic review). Series 1 closed the rule for the dates. Four other
+ variables still moved a gate: with OA_REVIEW_MERGES=0 set, review-fires read
+ no landings since the last review and passed, so that the block which holds
+ until the review is run could be switched off by anyone; OA_POINT_REGISTER
+ and OA_RETRACTIONS_LEDGER pointed point-debt and retraction-debt at another
+ page; OA_HARVEST_PIN_OVERRIDE replaced a pin of harvest-debt. Each is a seam
+ for a checker's own test. THE MEND: the gates' file reads the environment in
+ one place, a helper that takes every variable named OA_... out of it, and
+ every script a gate starts is handed that helper's environment, the two runs
+ of review-due among them; the review gate takes a test's count as an
+ argument. The checkers keep their seams for their own tests, which start them
+ directly. ONE TEST OF MAIN'S CHANGES, with a dated note: the control of
+ review-fires gave its count through the variable and now gives it as the
+ argument. The lock: three tests added to
+ tests/test_gates_are_a_function_of_the_commit.py: every variable named OA_...
+ that the sources name is set at once, to a value that would move its reader,
+ and five gates must print what they print without them; the code is read for
+ a script started with the whole environment; the argument is there. On the
+ commit before, all three fail, the first naming three gates whose line
+ changes. Computed once; tested against planted errors, 3 of 3. 0 of 19.
+
+---
+ scripts/gates/gates.py                        | 36 ++++++----
+ tests/test_b1461_governance_delta.py          | 11 +--
+ ...test_gates_are_a_function_of_the_commit.py | 69 +++++++++++++++++++
+ 3 files changed, 98 insertions(+), 18 deletions(-)
+
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 797432432..9746acea7 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -118,6 +118,15 @@ def commit_day_problems(repo=None, root=COMMIT_DAY_FROM, limit=3):
+     return problems[:limit]
+ 
+ 
++# NOTHING IN THE ENVIRONMENT MOVES A GATE (WP-0.7; series 1 closed it for the dates, series 4 for the rest).  A checker reads a
++# variable named OA_... so that its own test can point it at a planted page.  Found on main's f9e70c167: with OA_REVIEW_MERGES=0
++# the gate that blocks until the review is run read no landings and passed, and three more variables moved three more gates.
++# A gate takes a test's allowance as an argument, and every script a gate starts is given this environment, without the seams.
++def _no_seams():
++    """the environment for a script that a gate starts: this process's own, without the variables named OA_..."""
++    return {k: v for k, v in os.environ.items() if not k.startswith("OA_")}
++
++
+ def _debt_checker(script, *args, timeout=300):
+     """run a debt checker as its gate does: with the commit's day on the command line, and only where that day can be trusted.
+     Returns (returncode, output); a day that cannot be trusted is returncode 1 with the reason."""
+@@ -125,7 +134,7 @@ def _debt_checker(script, *args, timeout=300):
+     if bad:
+         return 1, "refused: " + "; ".join(bad)
+     r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", script), *args, *_today_args()],
+-                       capture_output=True, text=True, timeout=timeout)
++                       capture_output=True, text=True, timeout=timeout, env=_no_seams())
+     return r.returncode, (r.stdout + r.stderr).strip()
+ 
+ 
+@@ -1184,7 +1193,7 @@ def gate_views_generated():
+ 
+     try:
+         for gen in gens:
+-            r = subprocess.run([sys.executable, gen], capture_output=True, text=True, timeout=300)
++            r = subprocess.run([sys.executable, gen], capture_output=True, text=True, timeout=300, env=_no_seams())
+             if r.returncode != 0:
+                 return False, f"{os.path.basename(gen)} failed: {r.stderr[-200:]}"
+         stale = [f for f, raw in before.items()
+@@ -2278,7 +2287,7 @@ def gate_retraction_debt():
+     """B921-9b -- every RETRACTED arc is NAMED in docs/RETRACTIONS.md, or its retraction is invisible."""
+     import subprocess
+     r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "retraction_debt.py")],
+-                       capture_output=True, text=True, timeout=120)
++                       capture_output=True, text=True, timeout=120, env=_no_seams())
+     out = (r.stdout + r.stderr).strip()
+     if r.returncode != 0:
+         return False, out.replace("\n", " | ")[:500]
+@@ -2322,7 +2331,7 @@ def gate_inputs_scoreboard():
+     borrowed joints named. Fails if the data is malformed (an earned joint without an existing basis) or the page is stale."""
+     import subprocess
+     r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "inputs_scoreboard.py"), "--check"],
+-                       capture_output=True, text=True, timeout=120)
++                       capture_output=True, text=True, timeout=120, env=_no_seams())
+     out = (r.stdout + r.stderr).strip()
+     return r.returncode == 0, (out.splitlines()[-1] if out else "no output")
+ 
+@@ -2415,7 +2424,7 @@ def gate_doc_currency():
+     """B984 -- a living document that no longer reflects the corpus is a silent misinformer."""
+     import subprocess
+     r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "doc_currency.py")],
+-                       capture_output=True, text=True)
++                       capture_output=True, text=True, env=_no_seams())
+     out = (r.stdout + r.stderr).strip()
+     if r.returncode != 0:
+         return False, out.replace("\n", " | ")[:400]
+@@ -2427,7 +2436,7 @@ def gate_doc_facts():
+     doc-currency measures recency and cannot see a stale banner beside a fresh citation."""
+     import subprocess
+     r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "doc_facts.py")],
+-                       capture_output=True, text=True)
++                       capture_output=True, text=True, env=_no_seams())
+     out = (r.stdout + r.stderr).strip()
+     if r.returncode != 0:
+         return False, out.replace("\n", " | ")[:400]
+@@ -2667,13 +2676,14 @@ def review_anchor_date():
+     return out.strip() if rc == 0 and out.strip() else None
+ 
+ 
+-def gate_review_fires():
++def gate_review_fires(_merges=None):
+     """GOVERNANCE §15 (amendment 2026-10-03, R58-1 item 1): past twice its period (REVIEW_HARD merges on main's
+     first-parent line since the last anchor) the decadal review is not a report but a block, unless the owner has
+-    waived it by date in REVIEW_WAIVER.  OA_REVIEW_MERGES overrides the count for the failing-path test."""
++    waived it by date in REVIEW_WAIVER.  `_merges` is a test's own count, given as an argument: until 2026-11-11 it was the
++    variable OA_REVIEW_MERGES, and anyone who set it to 0 switched the block off."""
+     n, _due = review_status()
+-    if os.environ.get("OA_REVIEW_MERGES"):
+-        n = int(os.environ["OA_REVIEW_MERGES"])
++    if _merges is not None:
++        n = int(_merges)
+     if n is None:
+         return True, "no review anchor yet"
+     if n >= REVIEW_HARD:
+@@ -3256,7 +3266,7 @@ if __name__ == "__main__":
+         print(f"merges since last review: {n}; due (>= {REVIEW_EVERY}): {due}")
+         # B1307: a review opens with the harvest debt and cannot close with unread seat results (--strict)
+         r = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "harvest_debt.py"), "--strict", *_today_args()],
+-                           capture_output=True, text=True, timeout=300)
++                           capture_output=True, text=True, timeout=300, env=_no_seams())
+         print((r.stdout + r.stderr).rstrip())
+         # Review 66 (R65-8, P-126): the rule "a review cannot close with unread seat results" is enforced, not advisory
+         sys.exit(r.returncode)
+@@ -3271,12 +3281,12 @@ if __name__ == "__main__":
+     # the owner, 2026-10-13: the open points and the next queue slot are shown on every push, so none is lost
+     import subprocess
+     pr = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "point_debt.py"), *_today_args()],
+-                        capture_output=True, text=True, timeout=300)
++                        capture_output=True, text=True, timeout=300, env=_no_seams())
+     if pr.stdout.strip():
+         print("  " + pr.stdout.strip().splitlines()[0] + " (docs/POINT_REGISTER.md)")
+     # the owner's ruling of 2026-10-29 (P-418): the total-inputs scoreboard is printed beside '0 of 19' on every run
+     sb = subprocess.run([sys.executable, os.path.join(str(ROOT), "scripts", "checks", "inputs_scoreboard.py")],
+-                        capture_output=True, text=True, timeout=120)
++                        capture_output=True, text=True, timeout=120, env=_no_seams())
+     if sb.stdout.strip():
+         print("  " + sb.stdout.strip().splitlines()[-1] + " (docs/TOTAL_INPUTS_SCOREBOARD.md)")
+     sys.exit(worst)
+diff --git a/tests/test_b1461_governance_delta.py b/tests/test_b1461_governance_delta.py
+index ea3818ebe..2af202ef7 100644
+--- a/tests/test_b1461_governance_delta.py
++++ b/tests/test_b1461_governance_delta.py
+@@ -12,15 +12,16 @@ def test_the_four_gates_are_registered_and_green_on_the_record():
+ 
+ 
+ def test_review_fires_past_twice_the_period_unless_waived(monkeypatch):
+-    monkeypatch.setenv("OA_REVIEW_MERGES", "40")
++    # 2026-11-11 (WP-0.7, series 4): the count is given to the gate as an argument.  It was the variable OA_REVIEW_MERGES, and a
++    # variable in the environment moved the gate for anyone: set to 0 it switched the review's block off.
+     monkeypatch.setattr(gates, "_read", lambda rel: "" if rel == gates.REVIEW_WAIVER else open(os.path.join(ROOT, rel)).read())
+-    ok, why = gates.gate_review_fires(); assert ok is False and "FIRES" in why
++    ok, why = gates.gate_review_fires(_merges=40); assert ok is False and "FIRES" in why
+     live = gates.review_anchor_date() or "2026-10-03"   # Review 75: a planted waiver must be dated inside the live window
+     monkeypatch.setattr(gates, "_read", lambda rel: ("- waived %s by the owner through 60 merges: reason\n" % live) if rel == gates.REVIEW_WAIVER else open(os.path.join(ROOT, rel)).read())
+     monkeypatch.setattr(os.path, "isfile", lambda p: True)
+-    ok, why = gates.gate_review_fires(); assert ok is True and "waived" in why
+-    monkeypatch.setenv("OA_REVIEW_MERGES", "61"); assert gates.gate_review_fires()[0] is False   # the waiver expired
+-    monkeypatch.setenv("OA_REVIEW_MERGES", "39"); assert gates.gate_review_fires()[0] is True
++    ok, why = gates.gate_review_fires(_merges=40); assert ok is True and "waived" in why
++    assert gates.gate_review_fires(_merges=61)[0] is False   # the waiver expired
++    assert gates.gate_review_fires(_merges=39)[0] is True
+     assert gates.review_waiver_covers(10, "") is False
+ 
+ 
+diff --git a/tests/test_gates_are_a_function_of_the_commit.py b/tests/test_gates_are_a_function_of_the_commit.py
+index 71794d6e2..2234277cb 100644
+--- a/tests/test_gates_are_a_function_of_the_commit.py
++++ b/tests/test_gates_are_a_function_of_the_commit.py
+@@ -348,6 +348,75 @@ def test_a_test_may_still_drive_a_gate_on_a_tree_of_its_own(tmp_path, monkeypatc
+     assert gate("a tree of its own") == (True, "driven") and calls == [(("a tree of its own",), {})]
+ 
+ 
++# ---- nothing in the environment moves a gate: the project's own variables (series 4) ----------------------------------------
++def _own_variables():
++    """every variable named OA_... that the gates' file or a checker names: read from the sources, so that a new one is met"""
++    names = set()
++    for f in [ROOT / "scripts" / "gates" / "gates.py"] + sorted((ROOT / "scripts" / "checks").glob("*.py")):
++        names.update(re.findall(r"\bOA_[A-Z0-9_]+\b", f.read_text(encoding="utf-8")))
++    return sorted(names)
++
++
++_LINES = ("import sys, json; sys.dont_write_bytecode = True; sys.path.insert(0, 'scripts/gates'); import gates as g\n"
++          "out = {}\n"
++          "for n in sys.argv[1].split(','):\n"
++          "    r = g.GATES[n](); out[n] = [bool(r[0]), r[1] if isinstance(r[1], str) else ' | '.join(map(str, r[1]))]\n"
++          "print(json.dumps(out))\n")
++
++
++def _lines_of(names, env):
++    import json, os
++    r = subprocess.run([sys.executable, "-B", "-c", _LINES, ",".join(names)], cwd=str(ROOT), capture_output=True, text=True,
++                       env=dict({k: v for k, v in os.environ.items() if not k.startswith("OA_")}, PYTHONDONTWRITEBYTECODE="1", **env))
++    assert r.returncode == 0, r.stderr[-600:]
++    return json.loads(r.stdout.strip().splitlines()[-1])
++
++
++def test_no_variable_of_the_projects_own_moves_a_gate(tmp_path):
++    """Found on main's f9e70c167: OA_REVIEW_MERGES=0 switched off the gate that blocks until the review is run; OA_POINT_REGISTER
++    and OA_RETRACTIONS_LEDGER pointed two more gates at another page.  Every such variable is set here at once, to a value that
++    would move its reader, and the gates that have such readers must print what they print without them."""
++    empty = tmp_path / "a_page_with_no_row.md"
++    empty.write_text("# a page with no row\n", encoding="utf-8")
++    names = _own_variables()
++    assert {"OA_POINT_REGISTER", "OA_RETRACTIONS_LEDGER", "OA_HARVEST_PIN_OVERRIDE"} <= set(names), names
++    hostile = {n: ("2099-01-01" if n.endswith("_TODAY") else "0" if n.endswith("_MERGES") else "x=y" if n.endswith("_OVERRIDE")
++                   else str(tmp_path) if n == "OA_ROOT" else str(empty)) for n in names}
++    hostile.setdefault("OA_REVIEW_MERGES", "0")              # the variable the review gate read; no source names it now
++    gates_with_readers = ["review-fires", "point-debt", "retraction-debt", "lead-debt", "relay-debt"]
++    plain, moved = _lines_of(gates_with_readers, {}), _lines_of(gates_with_readers, hostile)
++    changed = sorted(n for n in gates_with_readers if plain[n] != moved[n])
++    assert not changed, "with %d variables of the project's own set, these gates change their line: %s" % (
++        len(hostile), "; ".join("%s: %r" % (n, moved[n][1][:90]) for n in changed))
++
++
++def test_every_script_a_gate_starts_is_given_an_environment_without_the_seams():
++    """the same rule, held to the code: the gates' file reads the environment in one place, the helper that takes the seams
++    out, and every script it starts is handed that helper's environment.  A gate added tomorrow is met here."""
++    src = (ROOT / "scripts" / "gates" / "gates.py").read_text(encoding="utf-8")
++    tree = ast.parse(src)
++    starts, bare = 0, []
++    for n in ast.walk(tree):
++        if isinstance(n, ast.Call) and ast.unparse(n.func) == "subprocess.run" and n.args and ast.unparse(n.args[0]).startswith("[sys.executable"):
++            starts += 1
++            env = next((k.value for k in n.keywords if k.arg == "env"), None)
++            if env is None or ast.unparse(env) != "_no_seams()":
++                bare.append("line %d" % n.lineno)
++    assert starts >= 9
++    assert not bare, "a gate starts a script with the whole environment, seams and all: " + ", ".join(bare)
++    reads = [i + 1 for i, l in enumerate(src.split("\n")) if "os.environ" in l or "getenv" in l]
++    assert len(reads) == 1, "the gates' file reads the environment in %d places: lines %s" % (len(reads), reads)
++
++
++def test_the_review_gate_takes_a_tests_count_as_an_argument():
++    import inspect
++    g = _gates()
++    gate = getattr(g.gate_review_fires, "__wrapped__", g.gate_review_fires)
++    assert "_merges" in inspect.signature(gate).parameters, "the review gate has no argument for a test's count: it is moved from the environment"
++    assert g.gate_review_fires(_merges=0)[0] is True
++    assert "0 merges" in g.gate_review_fires(_merges=0)[1] and "FIRES" in str(g.gate_review_fires(_merges=10 ** 6)[1])
++
++
+ # ---- the table is held to the code ------------------------------------------------------------------------------------------
+ def test_a_gate_that_is_not_in_the_table_answers_the_same_with_git_as_without(tmp_path, monkeypatch):
+     """The table READS_GIT says which gates need git.  Every other gate is run twice here, in the clone and with git taken
+-- 
+2.43.0
+

@@ -1,0 +1,24 @@
+main's own tests of the gates and checkers, the summary lines of three runs (the full outputs hold local paths and are not committed)
+
+CONTROL -- at main's head f9e70c167, no patch applied, 83 test files less the three that the series add:
+FAILED frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py::test_the_generating_pair_check_reproduces
+FAILED tests/test_b1449_silent_receipts.py::test_the_decisive_test_of_b469_reproduces_with_the_fix_live
+FAILED tests/test_b1461_governance_delta.py::test_the_waiver_file_exists_with_the_grammar_and_no_live_waiver
+3 failed, 560 passed, 12 skipped, 1 warning in 385.98s (0:06:25)
+
+WITH SERIES 2 AND 3 -- their twelve patches applied by git am on f9e70c167, the views regenerated:
+FAILED frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py::test_the_generating_pair_check_reproduces
+FAILED frontier/B1890_the_first_enforcement_series_verified_and_landed/verification/test_b1890_the_first_enforcement_series_verified_and_landed.py::test_the_series_is_on_main
+FAILED tests/test_b1449_silent_receipts.py::test_the_decisive_test_of_b469_reproduces_with_the_fix_live
+FAILED tests/test_b1461_governance_delta.py::test_the_waiver_file_exists_with_the_grammar_and_no_live_waiver
+4 failed, 617 passed, 12 skipped, 1 warning in 436.97s (0:07:16)
+
+WITH THE FIRST THREE PATCHES OF SERIES 4 on that, the views regenerated, and their new lock:
+FAILED frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py::test_the_generating_pair_check_reproduces
+FAILED frontier/B1890_the_first_enforcement_series_verified_and_landed/verification/test_b1890_the_first_enforcement_series_verified_and_landed.py::test_the_series_is_on_main
+FAILED tests/test_b1449_silent_receipts.py::test_the_decisive_test_of_b469_reproduces_with_the_fix_live
+FAILED tests/test_b1461_governance_delta.py::test_the_waiver_file_exists_with_the_grammar_and_no_live_waiver
+4 failed, 628 passed, 12 skipped, 1 warning in 466.24s (0:07:46)
+
+The four that fail with the three patches are the four that fail before them: the two locks that compare a printed float as text and main's test that no waiver is live (all three fail at main's head), and one assertion of B1890's lock, which pins the table of series 1 at 6 and 14 where series 2 makes it 4 and 19.
+617 + 11 = 628: the three patches add 5 tests in the lock of series 1 and 6 in a lock of their own.

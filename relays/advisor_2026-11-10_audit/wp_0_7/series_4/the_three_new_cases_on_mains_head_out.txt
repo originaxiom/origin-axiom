@@ -1,0 +1,11 @@
+planted-violation suite at origin/main (f9e70c167)
+
+PV30  new  NOT CAUGHT    a sentence on the reviews' page that names the head as an anchor, commit
+      review-fires=PASS
+PV28  G6   NOT CAUGHT    three gates with the project's own variables set must print what they print without them.
+      with OA_REVIEW_MERGES, OA_POINT_REGISTER and OA_RETRACTIONS_LEDGER set, the line changes for: review-fires, point-debt, retraction-debt
+PV29  G5   NOT CAUGHT    on an export, with GIT_DIR pointing at a real clone, no git-dependent gate may report PASS
+      gates that PASS on an export when GIT_DIR points at a clone: append-only, attribution, harvest-debt, log-changelog-paired, path-refs, retraction-sweep, review-fires, test-vacuity, tracked-forbidden, views-fresh
+
+controls not reported CAUGHT: 0
+NOT CAUGHT: 3

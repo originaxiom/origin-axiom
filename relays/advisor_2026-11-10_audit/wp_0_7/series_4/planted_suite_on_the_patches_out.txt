@@ -1,0 +1,71 @@
+planted-violation suite at refs/wp07/s4atip (a568d979a)
+
+CTL1  G1   CAUGHT        an UNCOMMITTED replacement of PROGRESS_LOG.md
+      append-only=FAIL
+CTL2  G2   CAUGHT        an edit to a digest-covered sealed file, commit
+      seal-digests=FAIL [edited frontier/B890_foreign_pair/PREREGISTRATION.md]
+CTL3  G9   CAUGHT        a vendor name in a new .md file, commit
+      attribution=FAIL
+CTL4  G10  CAUGHT        a banned phrase verbatim in README.md, commit
+      framing=FAIL
+CTL5  L7   CAUGHT        a test whose only assert is `assert True`, commit
+      test-vacuity=FAIL
+
+PV1   G1   CAUGHT        delete lines 200-400 of PROGRESS_LOG.md, commit
+      append-only=FAIL
+PV2   G1   CAUGHT        replace PROGRESS_LOG.md with one line, commit
+      append-only=FAIL
+PV3   G2   CAUGHT        append a criterion to B1841's PREREGISTRATION.md, commit
+      seal-digests=PASS; seal-provenance=PASS; seal-ledger-current=FAIL; seal-order-unshown=PASS
+PV4   G2   CAUGHT        delete a digest-covered sealed file, commit
+      seal-digests=PASS; seal-provenance=PASS; seal-ledger-current=FAIL [deleted frontier/B890_foreign_pair/PREREGISTRATION.md]
+PV6   G2   CAUGHT        hand-edit a generated sha8 in docs/SEAL_LEDGER.md, commit
+      seal-ledger-current=FAIL; seal-digests=PASS [sha8 b1198766 -> deadbeef]
+PV8   G4   CAUGHT        an arc whose seal is PREREG.md, first committed with FINDINGS.md
+      seal-order-unshown=FAIL
+PV10  G5   CAUGHT        delete IDENTIFICATION_BASELINE.json and add three UNEARNED rows
+      identification-register=FAIL
+PV11  G5   CAUGHT        delete docs/RETRACTED_PHRASES.md
+      retraction-sweep=FAIL
+PV12  G5   CAUGHT        delete every tests/test_b*.py
+      test-vacuity=FAIL
+PV13  G5   CAUGHT        empty LAW_MAP.md and THEOREM_LEDGER.md
+      law-map-provenance=FAIL; chain-locks=FAIL
+PV14  G14  CAUGHT        truncate one arc_verdict.json to invalid JSON
+      arc-data=FAIL [truncated frontier/B1001_four_digit_blindspot, which no arc depends on]
+PV16  G7   CAUGHT        point every gate control at a skipped trivial test
+      gate-controls=FAIL
+PV17  G8   CAUGHT        two retracted phrases (rows added after 2026-10-07) pasted into README.md
+      retraction-sweep=FAIL
+PV18  G9   CAUGHT        a commit message with a vendor co-author trailer
+      attribution=FAIL
+PV19  G9   CAUGHT        raise a baseline count and add that many tokens, same commit
+      attribution=FAIL
+PV20  G10  CAUGHT        a PROVEN row in CLAIMS.md that cites no lock
+      claims=FAIL
+PV21  G10  CAUGHT        a banned phrase in a .tex file and a capitalised variant in README.md
+      framing=FAIL
+PV24  L7   CAUGHT        a test whose only assert is `assert 1 != 2`
+      test-vacuity=FAIL
+PV30  new  CAUGHT        a sentence on the reviews' page that names the head as an anchor, commit
+      review-fires=FAIL
+PV9   G5   CAUGHT        the gates on a `git archive` export (no .git). The ten git-dependent gates must not report
+      gates that still PASS with no git: none
+PV15  G6   CAUGHT        three date-reading gates at HEAD's commit date and 60 days later must agree.
+      on 2026-11-11 vs 2027-01-10 the result changes for: none
+PV22  G13  CAUGHT        on a depth-50 clone, a history-reading gate must say that the clone is shallow.
+      lead-debt on the shallow clone: FAIL (refused: this clone is shallow. This gate reads the history, and a history that is cut can)
+PV28  G6   CAUGHT        three gates with the project's own variables set must print what they print without them.
+      with OA_REVIEW_MERGES, OA_POINT_REGISTER and OA_RETRACTIONS_LEDGER set, the line changes for: none
+PV29  G5   CAUGHT        on an export, with GIT_DIR pointing at a real clone, no git-dependent gate may report PASS
+      gates that PASS on an export when GIT_DIR points at a clone: none
+
+PV5   G2   MANUAL        edit a sealed file and append a ledger row with the new digest (needs the ledger's row shapes)
+PV7   G3   MANUAL        remove the generated ledger rows and regenerate twice; the two runs must agree
+PV23  W1   MANUAL        a new one-thread NEGATIVE worded about the object, plus one old line reworded
+PV25  L4   MANUAL        a lock that reads a git-ignored file -- no gate exists today
+PV26  L6   MANUAL        a lock that compares printed floats as text -- no gate exists today
+PV27  L10  MANUAL        a test run that writes to a tracked file -- no gate exists today
+
+controls not reported CAUGHT: 0
+NOT CAUGHT: 0

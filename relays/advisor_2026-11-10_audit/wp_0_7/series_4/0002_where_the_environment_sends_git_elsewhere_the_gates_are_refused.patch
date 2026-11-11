@@ -1,0 +1,170 @@
+From b1c5066b8c31df3ed81e0102f86c3ec3bfb18fdc Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Wed, 11 Nov 2026 21:38:10 +0000
+Subject: [PATCH 2/3] WP-0.7, enforcement (cld-advisor's series 4, patch 2;
+ built on f9e70c167 with series 2 and 3 applied): NOTHING IN THE ENVIRONMENT
+ MOVES A GATE -- GIT'S OWN VARIABLES (a further form of main's unseen case
+ U9.b, found by this seat). Git reads a few variables that send it somewhere
+ else than the folder it is run in. With GIT_DIR pointing at another
+ repository, an export of the tree was read as a full clone, and seven gates
+ of the table passed on it, git answering for the other repository. With
+ GIT_INDEX_FILE pointing at an empty index, a real clone had no tracked file,
+ and the same seven passed. THE MEND: where one of five such variables is set,
+ the places git reads for the folder (its git directory, its top level, its
+ common directory, its index, its objects) are asked for twice, as the
+ environment has it and without those variables; if they differ the folder is
+ read as 'redirected', and every gate of the table is refused in plain words,
+ naming the variable. A hook's environment that names the folder's own
+ repository gives the same places both ways and is not refused: main's three
+ tests of the push hook pass as before. The lock: two tests added to
+ tests/test_gates_are_a_function_of_the_commit.py, three forms and the hook's
+ case; on the commit before, the first fails naming the seven gates that pass.
+ The static test of patch 1 is told of the one new read of the environment.
+ Computed once; tested against planted errors, 3 of 3. 0 of 19.
+
+---
+ scripts/gates/gates.py                        | 36 +++++++++++++++--
+ ...test_gates_are_a_function_of_the_commit.py | 39 +++++++++++++++++--
+ 2 files changed, 68 insertions(+), 7 deletions(-)
+
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 9746acea7..3aedddee1 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -42,14 +42,35 @@ def _git(*args):
+ # and six asked git for the tracked files, were given none, and found nothing wrong among none.  A gate that could not look
+ # has not looked.  What kind of tree this is, is read here once; the table READS_GIT below says which gates it concerns; and
+ # each gate of that table is replaced, below the table, by a gate that asks this first and is refused where it cannot look.
++# Git's own variables that send it to read somewhere else than the folder it is run in.  Found by the seat, 2026-11-11: with
++# GIT_DIR pointing at another repository, an export was read as a full clone and seven gates of the table passed on it, git
++# answering for the other repository; with GIT_INDEX_FILE pointing at an empty index, a real clone had no tracked file and the
++# same seven passed.  A hook's environment may name the folder's own repository: that is not a redirection, and is not refused.
++_GIT_REDIRECTS = ("GIT_DIR", "GIT_WORK_TREE", "GIT_INDEX_FILE", "GIT_OBJECT_DIRECTORY", "GIT_COMMON_DIR")
++
++
++def _where_git_reads(repo, env=None):
++    """the places git reads for the folder `repo`, as real paths: its git directory, its top level, its common directory, its
++    index and its objects.  None where git has no answer."""
++    try:
++        r = subprocess.run(["git", "-C", repo, "rev-parse", "--absolute-git-dir", "--show-toplevel", "--git-common-dir",
++                            "--git-path", "index", "--git-path", "objects"], capture_output=True, text=True, timeout=30, env=env)
++    except Exception:
++        return None
++    if r.returncode != 0:
++        return None
++    return [os.path.realpath(os.path.join(repo, p)) for p in r.stdout.split("\n") if p]
++
++
+ def checkout_state(repo=None):
+-    """'full', 'shallow', 'empty', 'untracked' or 'export': what the tree at `repo` is to git.  'export' is a tree with no
++    """'full', 'shallow', 'empty', 'untracked', 'redirected' or 'export': what the tree at `repo` is to git.  'export' is a tree with no
+     repository of its own: an archive, a copy, or a folder that merely sits inside some other repository (git would then answer
+     for the outer one).  'empty' is a repository that holds no commit, or whose commit holds no file (main's unseen case U9.b,
+     B1890): git is there and has nothing to say, whatever stands in the folder or in the index.  'untracked' is a repository
+     whose commit does not hold the gates that are being run: git has something to say, about something else (the seat's own
+-    variant of U9.b: a note committed, and the tree beside it).  'shallow' is a clone whose history is cut (PV22): what it
+-    holds of the past is whatever its depth happened to keep."""
++    variant of U9.b: a note committed, and the tree beside it).  'redirected' is a folder for which the environment sends git
++    to another repository, index or object store than the folder's own.  'shallow' is a clone whose history is cut (PV22):
++    what it holds of the past is whatever its depth happened to keep."""
+     repo = os.path.realpath(str(repo or ROOT))
+     try:
+         r = subprocess.run(["git", "-C", repo, "rev-parse", "--show-toplevel", "--is-shallow-repository"],
+@@ -57,6 +78,10 @@ def checkout_state(repo=None):
+         out = r.stdout.split("\n")
+         if r.returncode != 0 or len(out) < 2 or not out[0] or os.path.realpath(out[0]) != repo:
+             return "export"
++        if any(os.environ.get(v) for v in _GIT_REDIRECTS):
++            plain = {k: v for k, v in os.environ.items() if k not in _GIT_REDIRECTS}
++            if _where_git_reads(repo) != _where_git_reads(repo, plain):
++                return "redirected"
+         held = subprocess.run(["git", "-C", repo, "ls-tree", "--name-only", "HEAD"], capture_output=True, text=True, timeout=30)
+     except Exception:
+         return "export"
+@@ -149,6 +174,8 @@ REFUSED_SHALLOW = ("refused: this clone is shallow. This gate reads the history,
+ # as a full clone, and nine gates of the table passed there with nothing to look at -- PV9 again, with git present and silent.
+ REFUSED_EMPTY = ("refused: this repository holds no commit, or a commit with no file in it. This gate reads %s, and git has "
+                  "nothing to say here, whatever stands in the folder. A gate is a function of the commit: run it in a clone")
++REFUSED_REDIRECTED = ("refused: the environment sends git to read somewhere else than this folder (%s). This gate reads %s, and git "
++                      "would answer for another place. A gate is a function of the commit in the folder it is run in: unset it")
+ REFUSED_UNTRACKED = ("refused: the commit of this repository does not hold the gates that are being run. This gate reads %s, and "
+                      "git would answer here for another tree than the one in this folder. A gate is a function of the commit: run it in a clone")
+ 
+@@ -3213,6 +3240,9 @@ def _refusing(name, fn):
+                 return False, REFUSED_EXPORT % ("the history" if name in READS_HISTORY else "which files are tracked")
+             if state == "empty":
+                 return False, REFUSED_EMPTY % ("the history" if name in READS_HISTORY else "which files are tracked")
++            if state == "redirected":
++                return False, REFUSED_REDIRECTED % (", ".join(v for v in _GIT_REDIRECTS if os.environ.get(v)),
++                                                   "the history" if name in READS_HISTORY else "which files are tracked")
+             if state == "untracked":
+                 return False, REFUSED_UNTRACKED % ("the history" if name in READS_HISTORY else "which files are tracked")
+             if state == "shallow" and name in READS_HISTORY:
+diff --git a/tests/test_gates_are_a_function_of_the_commit.py b/tests/test_gates_are_a_function_of_the_commit.py
+index 2234277cb..80a50cc82 100644
+--- a/tests/test_gates_are_a_function_of_the_commit.py
++++ b/tests/test_gates_are_a_function_of_the_commit.py
+@@ -121,10 +121,11 @@ _RUN_THE_TABLE = ("import sys, json, importlib.util\n"
+                   "print(json.dumps([getattr(g, 'checkout_state')(), out]))\n")
+ 
+ 
+-def _the_table_there(folder):
++def _the_table_there(folder, env=None):
+     """every gate of the table READS_GIT, run by the folder's own copy of the gates: (what the folder is to git, the answers)"""
+-    import json
+-    r = subprocess.run([sys.executable, "-B", "-c", _RUN_THE_TABLE], cwd=str(folder), capture_output=True, text=True)
++    import json, os
++    r = subprocess.run([sys.executable, "-B", "-c", _RUN_THE_TABLE], cwd=str(folder), capture_output=True, text=True,
++                       env=None if env is None else dict(os.environ, **env))
+     assert r.returncode == 0, r.stderr[-800:]
+     state, out = json.loads(r.stdout.strip().splitlines()[-1])
+     return state, out
+@@ -348,6 +349,35 @@ def test_a_test_may_still_drive_a_gate_on_a_tree_of_its_own(tmp_path, monkeypatc
+     assert gate("a tree of its own") == (True, "driven") and calls == [(("a tree of its own",), {})]
+ 
+ 
++# ---- nothing in the environment moves a gate: git's own variables (series 4) ------------------------------------------------
++def test_where_the_environment_sends_git_elsewhere_no_gate_of_the_table_passes(tmp_path):
++    """GIT_DIR pointing at another repository made an export a full clone, and seven gates of the table passed on it, git
++    answering for the other repository.  GIT_INDEX_FILE pointing at an empty index left a real clone with no tracked file,
++    and the same seven passed."""
++    export = _exported(tmp_path, "a")
++    honest = tmp_path / "a_source"                              # the small repository the export was made from
++    forms = {"an export, GIT_DIR pointing at another repository": (export, {"GIT_DIR": str(honest / ".git")}),
++             "a clone, GIT_INDEX_FILE pointing at an index that is not its own": (honest, {"GIT_INDEX_FILE": str(tmp_path / "no_such_index")}),
++             "a clone, GIT_OBJECT_DIRECTORY pointing at another store": (honest, {"GIT_OBJECT_DIRECTORY": str(tmp_path / "no_such_store")})}
++    for form, (folder, env) in forms.items():
++        state, out = _the_table_there(folder, env)
++        passing = sorted(name for name, (ok, detail) in out.items() if ok)
++        assert not passing, f"{form}: read as {state!r}, and these gates of the table pass: " + ", ".join(passing)
++        assert state in ("redirected", "export"), (form, state)
++        assert all("refused" in detail for ok, detail in out.values()), (form, out)
++    state, out = _the_table_there(export, forms["an export, GIT_DIR pointing at another repository"][1])
++    assert state == "redirected" and all("sends git to read somewhere else" in detail and "GIT_DIR" in detail for ok, detail in out.values()), (state, out)
++
++
++def test_a_hooks_environment_that_names_the_folders_own_repository_is_not_a_redirection(tmp_path):
++    """the other side: git sets such variables for a hook.  Where they name what git would find by itself, nothing is refused."""
++    _exported(tmp_path, "b")
++    honest = tmp_path / "b_source"
++    state, out = _the_table_there(honest, {"GIT_DIR": str(honest / ".git"), "GIT_INDEX_FILE": str(honest / ".git" / "index")})
++    assert state == "full"
++    assert not any("sends git" in detail for ok, detail in out.values()), out
++
++
+ # ---- nothing in the environment moves a gate: the project's own variables (series 4) ----------------------------------------
+ def _own_variables():
+     """every variable named OA_... that the gates' file or a checker names: read from the sources, so that a new one is met"""
+@@ -404,7 +434,8 @@ def test_every_script_a_gate_starts_is_given_an_environment_without_the_seams():
+                 bare.append("line %d" % n.lineno)
+     assert starts >= 9
+     assert not bare, "a gate starts a script with the whole environment, seams and all: " + ", ".join(bare)
+-    reads = [i + 1 for i, l in enumerate(src.split("\n")) if "os.environ" in l or "getenv" in l]
++    # the environment is read for two things only: to take the seams out of it, and to see whether it sends git elsewhere
++    reads = [i + 1 for i, l in enumerate(src.split("\n")) if ("os.environ" in l or "getenv" in l) and "_GIT_REDIRECTS" not in l]
+     assert len(reads) == 1, "the gates' file reads the environment in %d places: lines %s" % (len(reads), reads)
+ 
+ 
+-- 
+2.43.0
+

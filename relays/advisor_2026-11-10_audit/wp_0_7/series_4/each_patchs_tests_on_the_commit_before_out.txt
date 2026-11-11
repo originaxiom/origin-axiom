@@ -1,0 +1,43 @@
+each patch's own tests, run on the commit before the patch: the test files as the patch leaves them, the code as it was
+(local paths removed; nothing else edited)
+
+==== patch 1: c9ccdadea -- NOTHING IN THE ENVIRONMENT MOVES A GATE -- THE PROJECT'S OWN VARIABLES (a further form of the planted case PV1
+     its 3 tests, on the commit before (d78469fa1):
+        E   AssertionError: a gate starts a script with the whole environment, seams and all: line 127, line 2280, line 2324, line 2417, line 2429, line 3273, line 3278, line 3258, line 1187
+        tests/test_gates_are_a_function_of_the_commit.py:406: AssertionError: a gate starts a script with the whole environment, seams and all: line 127, line 2280, line 2324, line 2417, line 2429, line 3273, line 3278, line 3258, line 11
+        E   AssertionError: with 10 variables of the project's own set, these gates change their line: point-debt: 'point-debt: 0 points, 0 open -- 0 debts (oldest 0 days), 0 leads, 0 process; next debt non'; retraction-debt: 'retraction-
+        tests/test_gates_are_a_function_of_the_commit.py:389: AssertionError: with 10 variables of the project's own set, these gates change their line: point-debt: 'point-debt: 0 points, 0 open -- 0 debts (oldest 0 days), 0 leads, 0 proc
+        E   AssertionError: the review gate has no argument for a test's count: it is moved from the environment
+        tests/test_gates_are_a_function_of_the_commit.py:415: AssertionError: the review gate has no argument for a test's count: it is moved from the environment
+     FAILED tests/test_gates_are_a_function_of_the_commit.py::test_every_script_a_gate_starts_is_given_an_environment_without_the_seams
+     FAILED tests/test_gates_are_a_function_of_the_commit.py::test_no_variable_of_the_projects_own_moves_a_gate
+     FAILED tests/test_gates_are_a_function_of_the_commit.py::test_the_review_gate_takes_a_tests_count_as_an_argument
+     3 failed in 16.90s
+
+==== patch 2: b1c5066b8 -- NOTHING IN THE ENVIRONMENT MOVES A GATE -- GIT'S OWN VARIABLES (a further form of main's unseen case U9.b, fou
+     its 2 tests, on the commit before (c9ccdadea):
+        E   AssertionError: an export, GIT_DIR pointing at another repository: read as 'full', and these gates of the table pass: arrival-phrases, log-changelog-paired, path-refs, review-fires, tracked-deps, tracked-forbidden, views-fresh
+        tests/test_gates_are_a_function_of_the_commit.py:365: AssertionError: an export, GIT_DIR pointing at another repository: read as 'full', and these gates of the table pass: arrival-phrases, log-changelog-paired, path-refs, review-f
+     PASSED tests/test_gates_are_a_function_of_the_commit.py::test_a_hooks_environment_that_names_the_folders_own_repository_is_not_a_redirection
+     FAILED tests/test_gates_are_a_function_of_the_commit.py::test_where_the_environment_sends_git_elsewhere_no_gate_of_the_table_passes
+     1 failed, 1 passed in 0.91s
+
+==== patch 3: aba5c6224 -- THE ANCHOR OF THE LAST REVIEW IS THE COMMIT IN WHICH THAT REVIEW LANDED (found on main's f9e70c167 while readi
+     its 6 tests, on the commit before (b1c5066b8):
+        E   AssertionError: 2 merges since the last review (fires at 40)
+        tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py:132: AssertionError: 2 merges since the last review (fires at 40)
+        E   AssertionError: a second anchor line was added with no review, and the gate reads: 1 merges since the last review (fires at 40)
+        tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py:109: AssertionError: a second anchor line was added with no review, and the gate reads: 1 merges since the last review (fires at 40)
+        E   AssertionError: one sentence on the reviews' page named the head as an anchor, and the gate that blocks until the review is run reads: 1 merges since the last review (fires at 40)
+        tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py:100: AssertionError: one sentence on the reviews' page named the head as an anchor, and the gate that blocks until the review is run reads: 1 merges since the last review
+        E   AssertionError: ['the gates do not hold the anchor to its review']
+        tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py:138: AssertionError: ['the gates do not hold the anchor to its review']
+        E   AssertionError: the anchor was retyped to the head with no review, and the gate reads: 1 merges since the last review (fires at 40)
+        tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py:119: AssertionError: the anchor was retyped to the head with no review, and the gate reads: 1 merges since the last review (fires at 40)
+     PASSED tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py::test_the_count_is_taken_from_the_commit_in_which_the_review_landed
+     FAILED tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py::test_a_review_that_lands_moves_the_anchor
+     FAILED tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py::test_a_second_anchor_on_a_line_of_its_own_does_not_move_it_either
+     FAILED tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py::test_a_sentence_that_names_the_head_as_an_anchor_does_not_move_the_count
+     FAILED tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py::test_on_this_repository_the_last_reviews_anchor_is_the_commit_it_landed_in
+     FAILED tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py::test_the_typed_anchor_cannot_be_changed_to_a_later_commit
+     5 failed, 1 passed in 3.49s
