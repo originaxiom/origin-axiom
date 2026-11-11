@@ -21,9 +21,9 @@
   "status": "NOT STARTED"
  },
  "map": {
-  "debts": 84,
-  "debts_joined_to_nothing": 67,
-  "nodes": 276,
+  "debts": 86,
+  "debts_joined_to_nothing": 69,
+  "nodes": 278,
   "nodes_that_need_a_path": 134
  },
  "milestones": [
@@ -162,6 +162,11 @@
     "Enforcement that enforces"
    ],
    [
+    "WP-0.8",
+    "STARTED",
+    "Errors in the mathematics or its code"
+   ],
+   [
     "WP-0.9",
     "NOT STARTED",
     "Labels as strong as the content"
@@ -176,10 +181,11 @@
    "WP-0.4",
    "WP-0.5",
    "WP-0.7",
+   "WP-0.8",
    "WP-0.9"
   ],
   "not_started": 2,
-  "started": 7
+  "started": 8
  },
  "put_in_by_hand": {
   "by_kind": {
@@ -216,19 +222,19 @@
  "ready_for_the_final_reading": false,
  "register": {
   "by_kind": {
-   "DEBT": 84,
-   "LEAD": 133,
+   "DEBT": 86,
+   "LEAD": 134,
    "OWNER": 4,
-   "PROCESS": 60
+   "PROCESS": 61
   },
-  "open": 281,
+  "open": 285,
   "owner_calls_open": [
    "P-081",
    "P-082",
    "P-253",
    "P-787"
   ],
-  "points": 801
+  "points": 805
  },
  "rows_the_scoreboard_lists": 23,
  "the_count_as_an_output": {

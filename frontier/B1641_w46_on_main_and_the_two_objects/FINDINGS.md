@@ -91,3 +91,33 @@ land.
 
 `verification/w46_on_main.py` (sealed, unchanged), `w46_on_main.json`, `w46_run.txt`; the lock
 `tests/test_b1641_w46_on_main_and_the_two_objects.py`.
+
+## Dated note, 2026-11-11: "one unit" means the same unit on each of the three lines; a unit on one line gives one
+
+*Raised by a second derivation of the chiral three from its statement alone, on another family of model (agy-002's
+card A2-C1, read through the mask; its code not run). Checked by main on its own formula and its own committed
+numbers.*
+
+- **What this arc and the foundation say.** Given Λ and n units at the cusp, the index is n times the fibre's index:
+  +3, 0, −3 at n = −1, 0, 1 for Λ₊ = 0. The cusp's twist is written as one integer n.
+- **What that leaves unsaid.** At the cusp the triplet has three lines, with exponents ⅛, ⅜ and ⅞ (B1634). They are
+  distinct, so the three lines are canonical, and the stabiliser of the cusp acts on each by a number. A pole can
+  therefore be allowed on each line separately: three integers (m₁, m₂, m₃), not one.
+- **What the index is then.** In the formula this record uses (B1632's), the cusp enters through the sum of the
+  exponents. Allowing one more order of pole on one line lowers that line's exponent by one and raises the index by
+  one. So the index is m₁ + m₂ + m₃ above its value at no unit, which is 0 (B1634).
+- **So:** the same unit on all three lines, (1, 1, 1), gives 3, and this is the record's ±3: it is the twist by the
+  cusp's divisor, and B1634's own numbers show it, the index being 0 at weight 3/2 and 3 at weight 27/2, twelve higher.
+  **A unit on one line, (1, 0, 0), gives 1.**
+- **What it changes.** The three of "the chiral three is an index" is the rank of the triplet times a unit that is
+  the same on every line. The postulate of the unit, which the record tags, contains that sameness, and neither the
+  foundation's sentence nor the map's says so. It is entered as owed to the foundation's next version (register row
+  P-802). The statement stays conditional, as it was: given Λ and the unit.
+- **What main did not run.** The seat exhibits a section for the one-line unit, from an exact basis of the forms of
+  weight 27/2. Main has not built that basis. What main states is the index, from its own formula.
+- **One thing the seat says of the record that is not in it.** It quotes the foundation as calling one unit "the
+  smallest move-invariant deviation from zero". Main finds no such sentence in the foundation, the claim page, the
+  map or this arc. The record's sentence is that one unit of end data is adopted as a working postulate.
+
+Lock: `tests/test_b1641_w46_on_main_and_the_two_objects.py`, its last test.
+

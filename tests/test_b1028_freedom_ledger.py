@@ -114,32 +114,89 @@ CARRIED = ("frontier/B1028_freedom_ledger/FINDINGS.md", "frontier/B1028_freedom_
            "docs/THE_FINAL_ATTACK_2026-10-29.md", "docs/THE_CROSSINGS_CENSUS_2026-10-13.md", "frontier/B1643_the_crossings_census/FINDINGS.md",
            "frontier/B1030_price_lock_verification/FINDINGS.md", "frontier/B1030_price_lock_verification/arc_verdict.json", "frontier/B1222_symmetry_vanishing_thesis/FINDINGS.md")
 # what was said at the time, or says something else by the same words: the logs, the campaign's status history, the plan of the
-# campaign, other ledgers' own prices, and the programme's pages on the audit
+# campaign, other ledgers' own prices.  The programme's pages on the audit were listed here until 2026-11-11; they are a live page
+# and are read like any other (the second reading's note: a statement in them is read by the next stranger)
 HISTORY = ("PROGRESS_LOG.md", "CHANGELOG.md", "docs/CAMPAIGN_STATUS.md", "docs/progress/", "docs/handoffs/", "docs/views/", "docs/THE_WHY_CAMPAIGN.md", "docs/CROSSING_REQUIREMENTS.md",
            "docs/FIELD_EXPLORATION_REPORT.md", "docs/GRAND_COMPUTATION_v0.md", "docs/THE_FINAL_ACTS_BAR_2026-10-29.md", "frontier/B1015_", "frontier/B1128_", "frontier/B1349_",
-           "frontier/B1861_", "frontier/B1870_", "frontier/B1028_freedom_ledger/ADDENDUM", "frontier/B1028_freedom_ledger/PREREGISTRATION")
+           "frontier/B1028_freedom_ledger/ADDENDUM", "frontier/B1028_freedom_ledger/PREREGISTRATION")
+# the arc's own findings lead with the correction and keep the claim below it as it was asserted: the body is the record
+OWN_RECORD = ("frontier/B1028_freedom_ledger/FINDINGS.md",)
+# the root pages, the same five that the lock on the knot group's level reads
+ROOT_PAGES = ("ROADMAP.md", "README.md", "GENESIS.md", "CLAIMS.md", "GOVERNANCE.md")
+# the zero as the record spelled it: "0.000 bits", and the walk's own words, "0.000 retroactive designer bits", which the sweep
+# did not look for until a second reading found seven statements in them (2026-11-11).  NOT LOOKED FOR: "0 bits" and "no designer
+# freedom"; tried on that date, they hit three pages, each another ledger's own price
+OLD_ZERO = re.compile(r"0\.000\s+(?:retroactive\s+)?(?:designer\s+)?bits|zero\s+(?:retroactive\s+)?designer\s+freedom", re.I)
+ABOUT_LEDGER = re.compile(r"designer|freedom[ -]ledger|B1028", re.I)
+
+
+def _units(text):
+    """what a reader takes in at once: a table's row, and a paragraph's prose joined over its line breaks"""
+    for para in re.split(r"\n\s*\n", text):
+        rows = [l for l in para.split("\n") if l.lstrip().startswith("|")]
+        prose = " ".join(l for l in para.split("\n") if not l.lstrip().startswith("|"))
+        for u in rows + [prose]:
+            yield " ".join(u.split())
+
+
+def _bare_statements(text):
+    """the units of `text` that state the zero with no correction BESIDE it.  Until 2026-11-11 the correction had only to stand
+    somewhere in the same file, and it was read line by line: six pages stated the zero in a paragraph with no correction in it"""
+    return [u for u in _units(text) if OLD_ZERO.search(u) and ABOUT_LEDGER.search(u) and MARK.lower() not in u.lower()]
+
+
+def _swept():
+    """every page that could state it: the .md and .tex files under docs/, frontier/ and papers/, the five root pages, and every
+    arc's verdict line"""
+    seen = set()
+    for top in ("docs", "frontier", "papers"):
+        for ext in ("*.md", "*.tex"):
+            for p in (ROOT / top).rglob(ext):
+                rel = p.relative_to(ROOT).as_posix()
+                if rel not in seen:
+                    seen.add(rel)
+                    try:
+                        yield rel, p.read_text(encoding="utf-8")
+                    except Exception:
+                        continue
+    for rel in ROOT_PAGES:
+        yield rel, (ROOT / rel).read_text(encoding="utf-8")
+    for p in (ROOT / "frontier").glob("*/arc_verdict.json"):
+        try:
+            d = json.loads(p.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        yield p.relative_to(ROOT).as_posix(), "\n\n".join(str(d[k]) for k in ("claim_one_line", "scope", "note") if d.get(k))
 
 
 def test_every_page_that_states_the_zero_carries_the_correction():
     for rel in CARRIED:
         assert MARK.lower() in (ROOT / rel).read_text(encoding="utf-8").lower(), rel
-    old = re.compile(r"0\.000 bits|0\.000 BITS|zero (?:retroactive )?designer freedom", re.I)
-    loose = []
-    for top in ("docs", "frontier", "papers"):
-        for p in (ROOT / top).rglob("*.md"):
-            rel = p.relative_to(ROOT).as_posix()
-            if any(rel.startswith(h) or h in rel for h in HISTORY):
-                continue
-            try:
-                text = p.read_text(encoding="utf-8")
-            except Exception:
-                continue
-            if MARK.lower() in text.lower():
-                continue
-            if any(old.search(line) and re.search(r"designer|freedom ledger|B1028", line) for line in text.splitlines()):
-                loose.append(rel)
-    for rel in ("ROADMAP.md", "README.md", "GENESIS.md", "CLAIMS.md", "GOVERNANCE.md"):
-        text = (ROOT / rel).read_text(encoding="utf-8")
-        if MARK.lower() not in text.lower() and any(old.search(line) and re.search(r"designer|freedom ledger|B1028", line) for line in text.splitlines()):
-            loose.append(rel)
+    loose = {}
+    for rel, text in _swept():
+        if rel in OWN_RECORD or any(rel.startswith(h) or h in rel for h in HISTORY):
+            continue
+        bare = _bare_statements(text)
+        if bare:
+            loose[rel] = len(bare)
     assert not loose, loose
+
+
+def test_the_sweep_sees_what_the_second_reading_found():
+    """The shapes that stood on main on 2026-11-11 and that the sweep, as it then was, let through: the walk's own words; the
+    statement broken over a line; a table's row; and the correction present in the file but not beside the statement."""
+    note = "[CORRECTED 2026-11-11 (the audit's finding E7): " + MARK + ".]"
+    shapes = ("Lane I-1's freedom-ledger number (B1028: 0.000 retroactive designer bits against a 4.585-bit floor)",
+              "assembling the controls with the freedom-ledger number (B1028: 0.000\nretroactive designer bits against a floor) into one statement",
+              "| the global freedom ledger | 0.000 retroactive designer bits against a floor | COMPRESSION (B1028) |",
+              "- a forced skeleton, with zero designer freedom to the SM's structure;",
+              "B1028 lands COMPRESSION: 0.000 bits of retroactive freedom")
+    for s in shapes:
+        assert _bare_statements(s), s
+        assert _bare_statements(s + "\n\nAnother paragraph of the same page. " + note), s        # elsewhere in the file is not beside it
+        assert not _bare_statements(s + " " + note), s                                              # beside it is
+    # what must not be taken for it: another ledger's price, and a sentence that carries the correction
+    for s in ("the price lock costs 0.000 bits of description length in this fit",
+              "the twisted-vs-raw weld convention (0 bits), and the listener member (0 bits)",
+              "what B1028 called zero designer freedom: " + MARK):
+        assert not _bare_statements(s), s

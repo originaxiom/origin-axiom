@@ -6695,5 +6695,53 @@
    "P-786": "QUEUED"
   },
   "weave_or_thread": "n/a"
+ },
+ {
+  "id": "P:802",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "the unit at the cusp is one unit on each of three lines and the foundation does not say so; a unit on one line gives one (B1641's note; the foundation's next version).",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-802 — "
+   ]
+  ],
+  "rows": [
+   "P-802"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 85,
+  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "rows_live": {
+   "P-802": "QUEUED"
+  },
+  "weave_or_thread": "n/a"
+ },
+ {
+  "id": "P:804",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "what the web seat's check of main's corrections found: six paragraphs that state the freedom ledger's zero with no correction beside it, two sweeps that miss shapes it planted, and a wrong count in B1675's sentence.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-804 — "
+   ]
+  ],
+  "rows": [
+   "P-804"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 86,
+  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "rows_live": {
+   "P-804": "QUEUED"
+  },
+  "weave_or_thread": "n/a"
  }
 ]

@@ -28,7 +28,12 @@ def test_the_recount_runs_and_says_what_the_findings_quote():
         assert s in out, s
     sealed = (HERE / "read_checks_run.txt").read_text(encoding="utf-8")
     # 8 at the read; 9 since the owner named the orientation's condition on 2026-11-11 (B1879), which the run now prints
-    assert "joined to nothing: 67" in sealed and "an exit with no objection on the page: 9" in sealed          # 64 until P-777 (B1880), 65 until P-781, 66 until P-786 (B1882) were registered
+    # The count of debts joined to nothing was typed here (64 at the read, then 65, 66, 67): a pin on a live value, edited each time
+    # a debt was registered.  What it stood for is asserted instead: the run's three counts agree
+    import re as _re
+    m = _re.search(r"debts on the map: (\d+); joined to a node by an edge: (\d+); joined to nothing: (\d+)", sealed)
+    assert m and int(m.group(3)) == int(m.group(1)) - int(m.group(2))
+    assert "an exit with no objection on the page: 9" in sealed
 
 
 def test_the_four_repairs_are_in_force():

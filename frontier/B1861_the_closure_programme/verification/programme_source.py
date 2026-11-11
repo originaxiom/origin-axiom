@@ -308,6 +308,8 @@ DEBT_TO_WP = {
     "P-777": "WP-0.7",   # its third re-audit: the lists of hashed files under other names, frozen as found and not yet read
     "P-781": "WP-0.4",   # the agy lane's two branches of 2026-11-11: seat results registered and not yet verified by main
     "P-786": "WP-0.2",   # what is left of the audit's finding V1 after its card read B (B1882): the sentence, the window as a choice, the candidate's null
+    "P-802": "WP-0.1",   # the unit at the cusp is one unit on each of three lines, and the foundation does not say so (B1641's note of 2026-11-11)
+    "P-804": "WP-0.8",   # what the web seat's check of main's own corrections found: six paragraphs, two sweeps, one count
 }
 
 # ---------------------------------------------------------------- the certificate

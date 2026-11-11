@@ -25,7 +25,7 @@ by a quote that the builder checks.*
 | LANE-PROPOSED | a seat's hand proof, count or estimate, unreviewed; not verified on main | 7 |
 | LANE-INPUT | an input the seat's own ledger prices as supplied, unselected or unearned | 7 |
 | DUTY | something the full goal requires and nobody has done | 16 |
-| DEBT | a result the record uses is owed a check or a correction | 84 |
+| DEBT | a result the record uses is owed a check or a correction | 86 |
 | CLOSURE | one missing dependency under several names | 11 |
 
 ## 0. The principle
@@ -383,3 +383,5 @@ by a quote that the builder checks.*
 | 82 | P-777 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | 342 entries of lists of hashed files under other names do not verify and are frozen as found, not read: what each list records is owed, family by family (the advisor seat's acceptance row HASH-c). |
 | 83 | P-781 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | the agy lane's two branches of 2026-11-11 are registered and not read: gates, the weave with the tick, a claimed proof of the settling rate, and a read-out on the whole that ends in a comparison main has not read; three seats are already checking it. |
 | 84 | P-786 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | what is left of the audit's finding V1 after its card read B: the sentence on every page that quotes either rarity, the window's two ends listed as a choice with their measured price, the same count on the live candidate's null before its card is sealed, and the seat's own verdict. |
+| 85 | P-802 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | the unit at the cusp is one unit on each of three lines and the foundation does not say so; a unit on one line gives one (B1641's note; the foundation's next version). |
+| 86 | P-804 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | what the web seat's check of main's corrections found: six paragraphs that state the freedom ledger's zero with no correction beside it, two sweeps that miss shapes it planted, and a wrong count in B1675's sentence. |

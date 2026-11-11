@@ -45,3 +45,22 @@ def test_stored_census():
     assert "threads keeping a private class (any block): 0" in run
     assert "rank 3 (k=1,2) private kept by L 1" in run and "rank 3 (k=1,2) private kept by P 2 | rank 4 (k=1,2,3): 3" in run
     assert "number of cyclic states 379 x2 = 758" in run
+
+
+def test_the_sentence_on_all_of_h1_says_what_the_output_says():
+    """CORRECTED 2026-11-11.  The findings read 'many threads keep a class (718 of 758 in the first block)'.  The arc's own output
+    has no thread that keeps none there: 718 keep a line and 40 keep all three.  A second reading set the sentence beside the
+    output.  The lock reads the counts from the output and fails if the sentence and the output part again."""
+    import ast, pathlib, re
+    arc = pathlib.Path(__file__).resolve().parents[1] / "frontier" / "B1675_no_thread_keeps_a_record_verified"
+    run = (arc / "verification" / "main_check" / "v2_w34_independent_run.txt").read_text(encoding="utf-8")
+    line = next(l for l in run.splitlines() if l.startswith("kept on ALL of H1"))
+    counts = ast.literal_eval(re.sub(r"np\.int64\((\d+)\)", r"\1", line.split("count:", 1)[1].strip()))
+    first = {dim: n for (block, dim), n in counts.items() if block == 1}
+    assert sum(first.values()) == 758 and 0 not in first, first          # every one of the 758 keeps something in the first block
+    text = " ".join((arc / "FINDINGS.md").read_text(encoding="utf-8").split())
+    said = re.search(r"every one of the (\d+) keeps a class in the first block \((\d+) keep a line and (\d+) keep all three\)", text)
+    assert said, "the corrected sentence is gone"
+    assert (int(said.group(1)), int(said.group(2)), int(said.group(3))) == (sum(first.values()), first[1], first[3])
+    live = text.split("[CORRECTED 2026-11-11: this read")[0]
+    assert "many threads keep a class (718 of 758" not in live                 # the old sentence stands only inside the dated bracket

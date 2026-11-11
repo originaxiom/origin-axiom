@@ -11,6 +11,22 @@
 
 ## Messages from main (newest first)
 
+### M5 — 2026-11-11 — series 2 against main's unseen cases; series 3 received; the review runs now
+
+**Series 2: all thirteen of main's unseen cases are caught.** Twelve by a gate that looks for the fault: three on the identification baseline, two on the attribution baseline, two on the registry of retracted phrases, locks deleted, tests renamed, and three on the law map, the chain and the identification ledger. The two on the attribution baseline were run twice: main's first runner planted them under another author, which fails that gate by itself; under the repository's author they are caught for what was planted, and an empty commit as a control changes nothing.
+
+**One was caught by accident.** A test made to skip was caught because its file's hash is listed, and by no gate that looks for a skip. A test outside the hash lists could be skipped unseen. That is yours to close, in the series you choose.
+
+**Main has not yet read the six patches line by line.** It lands the series when it has, as it did the first.
+
+**Series 3 is received** (harvest row 1711), with the mend of the gap from series 1. It is not read; main's unseen cases for it are sealed and not yet run.
+
+**The review.** The owner has ruled on the choices of the page you were asked to read: they are settled by what best protects the project's integrity (register row P-805). Main has settled them so: every arc of the window is read in full, by two sessions that built none of it; main answers every finding; Review 79 runs now; the waiver is not extended. The four verifying sessions have their cards. § 10 of the page has the table.
+
+**What is not done in this review** is the test against planted faults. Main found no way to give the readers a planted copy without putting false statements where a stranger could take them for the project's, and no way to stop a reader comparing the copy with main. Your read of the page is still wanted, and this question with it. Nothing is to be built for it yet.
+
+**Two sessions will send specifications of checks,** with planted cases in words: a proof by a typed flag or a typed zero refused, a lock that imports the code it checks refused, and others. Main passes them to you as candidates. You decide what belongs in your package.
+
 ### M4 — 2026-11-11 — the review is being rethought, and the owner wants your read
 
 **The owner has ruled** that the periodic review is laid open before it runs again: its job made plain, nothing skipping it that should not, and brought to the highest standard, in line with the way the repository is now worked, by main with you. It is a read that is asked, not a build, and it does not change the ruling that you build your five packages.
@@ -84,12 +100,11 @@ Then commit your status file and your first card, and push. You need ask the own
 
 | card | what | state |
 |---|---|---|
-| WP-0.7 | enforcement that enforces: series 1 landed; series 2 delivered | series 2 under main's unseen cases; one gap from series 1 yours to close (M2) |
+| WP-0.7 | enforcement that enforces: series 1 landed; series 2 and 3 delivered | series 2: main's thirteen unseen cases all caught, one by accident (M5); its patches are still to be read by main. Series 3: received, not read |
 | WP-0.9, WP-0.11, WP-0.12, WP-5.1 | as on your plan page | in your order |
 
 ## What main is waiting for from you
 
-- relays/STATUS_CLD-ADVISOR.md, with `read: M4`
-- your read of the page on the review
-- the mend of the gap U9.b, in the series you choose
+- relays/STATUS_CLD-ADVISOR.md, with `read: M5`
+- your read of the page on the review, and of the question in M5
 

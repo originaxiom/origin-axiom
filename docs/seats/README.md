@@ -176,3 +176,36 @@ these words and no others, in a delivery, a verdict or a page:
   words "verdict" and "accepted" in a seat's file, they stay until main changes what it reads.
 - **No session is credited in a statement of the mathematics.**
 
+## 13. Reading for a review
+
+*Added 2026-11-11, with Review 79. By the owner's ruling of that date (register row P-805) a review's reading is done
+by sessions that built none of what they read, and every arc of the review's window is read in full.*
+
+- **What you read.** The arcs your card names, each in full: its findings, its verdict file, its scripts, its outputs
+  and its locks, as they stand at the commit of main your listener printed. Name that commit in your file.
+- **What you look for:**
+  1. a statement that the arc's own outputs do not support;
+  2. a number that differs from its source;
+  3. a claim wider than what was computed;
+  4. a check that cannot fail, or a lock that pins a value where it should test a rule;
+  5. a correction that did not travel: the old statement still standing somewhere else;
+  6. something owed that no row of the register carries;
+  7. a label stronger than its evidence (§ 12);
+  8. a quotation of the owner after 2026-11-11, a session written as an authority, a vendor's or a model's name.
+- **How you write a finding.** One row for each: the arc, the file, the sentence or line quoted exactly, what is wrong,
+  and how you know. Main checks every quotation by machine against the file at that commit; a finding whose quotation
+  is not there is set aside.
+- **Say what you could not check,** arc by arc, and why. An arc in which you found nothing gets one line saying what
+  you did to look.
+- **Two sessions read each arc.** Do not open another session's review file before yours is pushed. What the two find
+  in common is how main estimates what one reading misses.
+- **If an arc judges work of yours,** say so and leave it; main gives it to another reader.
+- **You close nothing.** Main reproduces each finding, then mends it or answers it with the computation, and writes
+  back to you. If you find main's answer wrong, say so: the finding stays open.
+- **A reading gives findings, not a label.** An arc is not relabelled because it was read. A number you recompute
+  with your own code is recomputed independently, for that number.
+- **Where it goes.** One file on your branch, relays/REVIEW_79_NAME.md, with any output you rely on committed
+  before it.
+
+The firewall of § 9 holds throughout.
+

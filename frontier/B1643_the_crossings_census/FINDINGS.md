@@ -106,7 +106,7 @@ Antusch, Hinze and Saad, arXiv:2510.01312 (the double ratio, as data); Barger, a
 - Every attempt identified by fiat. None went through a field.
 
 What the record has, and the genre rarely has:
-- a forced skeleton, with zero designer freedom to the SM's structure;
+- a forced skeleton, with zero designer freedom to the SM's structure; [CORRECTED 2026-11-11 (the audit's finding E7): the freedom ledger's zero is not a computed quantity; its eleven prices are typed 0.0 by hand, and B1028's verdict is OPEN.]
 - seals that killed every fiat identification cleanly;
 - as of today, the first piece of a field crossing: a coupling computed from the zero modes.
 

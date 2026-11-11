@@ -172,3 +172,47 @@ builds. It builds nothing for this yet.
 - **Main wrote the present review's code and ran every review.** It is a party to a judgement on its own instrument.
 - **The count "one in six" is the script's rule,** `max(5, len(arcs) // 6)`. Earlier reviews drew other fractions.
 - **The proposal has not been tried.** The catch rate of a planted review is not known until one has been run.
+
+## 10. Settled on 2026-11-11, and how Review 79 is run
+
+*Added the same day. The sections above are kept as they were written.*
+
+The owner ruled that the choices of § 8, and the question of a longer waiver, are settled by what best protects the project's integrity (register row P-805). Main settles them so:
+
+| the choice | settled |
+|---|---|
+| the standard of reading | every arc of the window is read in full; nothing is sampled |
+| who reads main's work | two sessions for each arc, neither of which built it; main answers every finding and closes nothing on a reader's word |
+| the order | Review 79 runs now, before any more mathematics is banked |
+| the waiver | not extended; main withdraws its recommendation of a longer one, which was for convenience |
+
+**Who reads what.** The window is thirteen arcs, all main's. The rules for a reader are § 13 of `docs/seats/README.md`.
+
+| what | first reader | second reader |
+|---|---|---|
+| B1878, B1880, B1883, B1886 | the web seat | agy-002 |
+| B1879, B1881, B1885 | the SM seat | agy-exp |
+| B1882, B1889 | the web seat | the SM seat |
+| B1884, B1887 | the SM seat | agy-002 |
+| B1888 | the web seat | agy-exp |
+| B1890 | agy-002 | agy-exp |
+| the locks on five corrections that have had one re-audit each (E3, E5, E6, E10, E13) | the SM seat, with errors it plants | — |
+| the two corrections of this date (B1221's control row; the unit on three lines, B1641) | agy-002, which found them | agy-exp |
+
+- **No session reads an arc about its own work.** The web seat reads none of the four arcs that verify its relays
+  and cards; agy-exp does not read the arc on its loop.
+- **The arc that ran a sealed card** (B1882) goes to the two sessions that are not read through a mask.
+
+**What is not done in Review 79, and is said in its entry:**
+
+- **The test against planted faults** (§ 5). Main found no way to give the readers a planted copy without putting
+  false statements where a stranger could take them for the project's, and no way to stop a reader comparing the copy
+  with main. In its place, what the two readers of an arc find in common gives a first estimate of what one reading
+  misses. That estimate flatters the readers: a fault that is easy to find is found by both.
+- **The seven new mechanical checks** (Layer A) are not built. Those that can be done by hand are done by hand, and
+  the entry names which.
+- **The trigger** still counts commits.
+
+**What changes after it,** in an arc of its own and with the advisor seat's read: the template, the tools and the
+trigger.
+

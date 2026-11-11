@@ -159,7 +159,7 @@ conservative output floor, both named risks resolved against the risk) into one 
 statement. It has not been banked as its own cell as of B1101, and it is the single open node
 standing between "the value layer is empty" and "the value layer is empty **because** it was never
 going to hold anything, and here is the computed reason why" — the distinction this campaign's own
-Review-42 reading named without yet closing (`docs/PRICED_DOORS.md`).
+Review-42 reading named without yet closing (`docs/PRICED_DOORS.md`). [CORRECTED 2026-11-11 (the audit's finding E7): the freedom ledger's zero is not a computed quantity; its eleven prices are typed 0.0 by hand, and B1028's verdict is OPEN.]
 
 **This is the tier that decides whether the programme is physics at all — and every currently
 licensed value-shaped attempt has now been made and has failed.** A NEW Tier-2 attempt needs a
@@ -348,7 +348,7 @@ ledger: 0.000 retroactive designer bits against a 4.585-bit floor) — a real, s
 whether the *derivation* is arbitrary, still unassembled into its own sealed cell.
 **Tier-VALUE-COMPRESSION is about whether the measured values compress.** Same word, two different
 objects; both open; neither substitutes for the other, and an arc that cites one for the other is
-citing the wrong compression.
+citing the wrong compression. [CORRECTED 2026-11-11 (the audit's finding E7): the freedom ledger's zero is not a computed quantity; its eleven prices are typed 0.0 by hand, and B1028's verdict is OPEN.]
 
 ### 4A.4 — the guard, stated once and binding
 

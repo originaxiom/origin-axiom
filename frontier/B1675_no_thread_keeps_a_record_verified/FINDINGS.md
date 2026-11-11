@@ -37,8 +37,10 @@ cusped hyperbolic 3-manifold to its boundary is injective for these coefficients
 | a shear or the mirror keeps one | **holds:** at rank three (k = 1, 2), L and R each keep one private class and P keeps two; at rank four, P keeps three |
 | why | a thread acts on the private states as its hyperbolic matrix (eigenvalues λ^{±1}, λ > 1) tensored with a map of finite order, so it fixes nothing; a shear is unipotent and fixes one line |
 
-On all of H¹, by contrast, many threads keep a class (718 of 758 in the first block), so the restriction to private
-states does the work.
+On all of H¹, by contrast, every one of the 758 keeps a class in the first block (718 keep a line and 40 keep all
+three), so the restriction to private states does the work. [CORRECTED 2026-11-11: this read "many threads keep a class
+(718 of 758 in the first block)". The arc's own output has no thread that keeps none there: `verification/main_check/v2_w34_independent_run.txt`,
+its line on what is kept on all of H¹. A second reading of the arc set the sentence beside the output.]
 
 ## 2. What it says
 

@@ -41,6 +41,15 @@ error was caught by the answer being absurd rather than by care).
 **MB12 satisfied**: the test returns values other than 6 on other content, so ℤ₆ is a discriminating
 outcome rather than the only thing the instrument can say.
 
+> **CORRECTED 2026-11-11 (found by a second derivation on another family of model, agy-002's card A2-C1; checked by
+> main on this arc's own instrument).** The row "adjoint-only content | 72" is not the order of a kernel. Adjoint
+> content is neutral under both centres and under the circle, so every element acts trivially on it and the kernel is
+> the whole of ℤ₃ × ℤ₂ × U(1), which is infinite. `kernel_27.py` samples the circle at twelve points, and 72 is
+> 3 × 2 × 12: with 24 points it prints 144 and with 60 it prints 360. The rows that matter do not move with the grid:
+> 6 on the 27, on the 16 and on the 10, and 18 on the integer-charge control, at 12, 24 and 60 points alike, since
+> those kernels lie on the sixths of the circle. The conclusion under the table stands, a value other than 6 being
+> returned on other content. The row is kept as it was written. Lock: `tests/test_b1221_the_adjoint_control.py`.
+
 ## THE ANSWER — yes, and it settles the novelty question negatively
 
 **ℤ₆ IS path-independent.** The computation uses only the 27's decomposition under

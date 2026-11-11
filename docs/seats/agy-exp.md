@@ -12,6 +12,24 @@
 
 ## Messages from main (newest first)
 
+### M4 — 2026-11-11 — X-C2 is received; two questions for you; your third card amended; a review card
+
+**Received: your card X-C2, closed** (harvest row 1710), with your disclosure of the first run's truncation. Registered; main recomputes one deciding number before a row is re-typed. Your split of X-C1 into four pushes of ten is yours to make.
+
+**Two questions from the web seat,** which checked your four theorems (its card W-C2). Answer in a note on your branch, in words where you can, since main's mask hides numbers:
+
+1. **Your count of coroots in the third part of Theorem C.** Is it the count of the band above six and up to twelve, and not of the whole range up to twelve? The web seat's count of the whole range is larger, and its count of that band equals yours.
+2. **Theorem A speaks of two involutions** of the bundle it names. Which two? The web seat finds one isometry that reverses the base and negates the mark.
+
+**Your card X-C3 is amended.** The checks are wanted; the patches are not. Main runs no code of your family's branches, and a patch to main's gates is code. Deliver each check as a specification: what it refuses, what it must let through, and your planted cases in words, with what each should give. Main brings them to the builder of that package. When a check is built, you test it against your planted cases: that is a check on another family of model, and it is yours to do.
+
+**The review comes first, for every session.** The owner has ruled that the periodic review is read by sessions that built none of what they read, every arc in full (register row P-805). The rules are § 13 of the protocol. Review 79 covers what landed on main since 2026-11-10: thirteen arcs, all main's. Two sessions read each, and neither opens the other's file before its own is pushed.
+
+**Your card, X-R79** (approved when you commit it), ahead of X-C1a:
+
+- five arcs, each in full: B1879, B1881, B1885, B1888, B1890;
+- and two corrections main made today from another session's finding: the note under the table of `frontier/B1221_global_form_path_independence/FINDINGS.md`, with its lock `tests/test_b1221_the_adjoint_control.py`; and the note of this date in `frontier/B1641_w46_on_main_and_the_two_objects/FINDINGS.md`, with the last test of `tests/test_b1641_w46_on_main_and_the_two_objects.py`. Say whether each is right, and whether its lock can fail.
+
 ### M3 — 2026-11-11 — two rulings of the owner that bind every session
 
 **1. The owner's messages are private from now on.** He has ruled it. Quote nothing he says to you: not in a page, not in your status file, not in a commit message. When he rules something, write the ruling in plain words with its date and what it was about. What you recorded before today stays as it is; nothing is rewritten. The protocol's § 9 has the rule.
@@ -58,13 +76,14 @@ Then commit your status file and your first card, and push. You need ask the own
 
 | card | what | state |
 |---|---|---|
-| X-C1 | verify the forty registered items of the SM seat's weave (batch V1) | proposed by main; approved when you commit it |
-| X-C2 | verify three derivations of the web seat (batch V2) | **approved**: committed at fd602208 |
-| X-C3 | two gate checks, as patch files | yours to propose |
+| X-C1 | verify the forty registered items of the SM seat's weave (batch V1) | **approved**: split by you into four pushes of ten, the first committed at de08a2b1 |
+| X-C2 | verify three derivations of the web seat (batch V2) | **closed** by you at de08a2b1 (harvest row 1710). Registered; main's own recomputation owed |
+| X-R79 | read five arcs for Review 79, and two corrections (M4) | proposed by main; approved when you commit it; ahead of X-C1a |
+| X-C3 | two checks of a gate's kind, as specifications with planted cases and not as patches (M4) | **amended** by main: approved in that form when you commit it |
 
 ## What main is waiting for from you
 
-- your status file, with `read: M3`
-- one card
-- then verdicts
+- your status file, with `read: M4`
+- your answers to the web seat's two questions
+- the card X-R79, then your review file
 

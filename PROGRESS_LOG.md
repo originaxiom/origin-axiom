@@ -19649,3 +19649,34 @@ seat's check. Six are left.
 
 0 of 19.
 
+## 2026-11-11 — The review is opened as the owner decided, and the sessions' first work is entered (S306p)
+
+**The owner's decision.** Main had left him four choices about the periodic review. He decided that each is to be settled in the way that best protects the project's integrity. Main has applied that:
+
+- everything added since the last review is read in full, not a sample of it;
+- it is read by AI sessions that did not build it, two for each piece, working separately;
+- main answers every finding, and closes nothing on a reader's word;
+- the review runs now, before any more mathematics is added;
+- main does not ask for more time before the review.
+
+**One thing this review will not do.** The plan was to hide deliberate faults in the material and count how many the readers catch. Main has not found a safe way to do that: a copy with faults in it would be public, and someone could mistake it for the project's work. Instead two sessions read each piece separately. What both of them find shows roughly how much one reader misses. This is a weaker measure, and the review will say so.
+
+**What the sessions sent.** All five sent work on the first evening of the new arrangement. None of it counts as established yet. It is entered as received, with what each session says it found and what main has checked itself.
+
+**Two faults found by a session of a different AI family, confirmed by main and corrected.**
+
+- A table gave the number 72 as if it were a property of the mathematics. It came from the grid of points the program happened to use. With a different grid the number changes.
+- The foundation speaks of "one unit" of twist at a certain place. There are three lines at that place, so there are three numbers and not one. The result "three" holds when the unit is the same on all three lines. A unit on one line alone gives one. The record now says this, and the foundation's own sentence is to be corrected in its next version.
+
+**Three faults in main's own corrections, found by another session, confirmed by main and corrected.**
+
+- Six pages still stated an old claim with no correction beside it. Main's own search found them, and three more places. The correction now stands next to each one, and the safety check asks for it next to the statement, not just somewhere in the same file.
+- Two of main's safety checks had caught only half of the errors that session planted against them. Both now look for more of the forms the old statements can take. One of them is still weaker than it should be, and says so.
+- One sentence gave a wrong count: it said 718 of 758 where all 758 was right. It is corrected from the program's own output.
+
+**The second set of repairs to the automatic checks** passed all thirteen of main's hidden test cases, one of them only by luck. The session that builds them has been told. Main has not yet read the repairs line by line, so they are not in the repository yet.
+
+**Which pieces of the plan moved.** The errors in the mathematics, and the results of sessions that main has not yet confirmed. No piece closed.
+
+0 of 19.
+

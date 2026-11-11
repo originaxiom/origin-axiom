@@ -1,4 +1,4 @@
-1. debts on the map: 84; joined to a node by an edge: 17; joined to nothing: 67 (the read, one debt earlier: 79, 17, 62)
+1. debts on the map: 86; joined to a node by an edge: 17; joined to nothing: 69 (the read, one debt earlier: 79, 17, 62)
 2. packages the comparison does not wait on: [], holding 0 findings (the read, before the repair: six packages, 31 findings)
    findings that bear on the repository as a whole: 34; every one is in a package upstream of the sealed card: True
    the sealed card now waits on the suite and on the comparison's own instruments: True
@@ -8,4 +8,4 @@
 5. the budget: 39 choices, 47 items by kind {'axiom': 9, 'identification': 7, 'bit': 9, 'discrete': 16, 'real': 5, 'ansatz': 1}; the charge premise at level five is typed {'bit': 1, 'discrete': 1}
    routes: {'UNTOUCHED': 11, 'FORCING ARGUED': 2, 'PRESSED': 3, 'ONE CLAUSE SHORT': 3, 'BACK-EDGE NAMED': 6, 'ADMITTED': 4, 'DICTIONARY': 6, 'KEPT': 3, 'RIGID': 1}; an exit with no objection on the page: 9 (the read: 8, of which 5 are back-edges named and not built)
 6. the script the foundation cites for the live price exits 1: - VERDICT: the live figure '24 ROWS OUTSTANDING' is not stated in the verdict doc; files under tests, scripts or the workflow that run it: 0
-7. still not joined to the map, and registered: 67 debts with no edge; the identification ledger's unearned rows (one is named on the map); no bit or discrete choice carries its alternatives (fields of an input: ['form', 'grades', 'kinds', 'members', 'name', 'note', 'packages', 'weave_or_thread'])
+7. still not joined to the map, and registered: 69 debts with no edge; the identification ledger's unearned rows (one is named on the map); no bit or discrete choice carries its alternatives (fields of an input: ['form', 'grades', 'kinds', 'members', 'name', 'note', 'packages', 'weave_or_thread'])

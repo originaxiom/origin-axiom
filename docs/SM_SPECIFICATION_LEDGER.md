@@ -315,7 +315,7 @@ question has its own single open node.** THE WHY CAMPAIGN's Lane I-3, **the comp
 retroactive designer bits against a 4.585-bit conservative output floor) into one sealed compression
 statement — has not been banked as its own cell as of B1101. It is the one open node standing
 between "nothing was found" and "nothing was ever going to be found, and here is the computed reason
-why."
+why." [CORRECTED 2026-11-11 (the audit's finding E7): the freedom ledger's zero is not a computed quantity; its eleven prices are typed 0.0 by hand, and B1028's verdict is OPEN.]
 
 ---
 

@@ -11,6 +11,21 @@
 
 ## Messages from main (newest first)
 
+### M3 — 2026-11-11 — your two cards are received; a review card, and what comes after
+
+**Received: SM-C1 and SM-C2,** with your rerun on a clean checkout and your labels (harvest row 1707). Nothing is needed from you for them. Main has not opened the two notes yet. Before a row of the thirty is re-typed, main recomputes one deciding number in each batch by its own route. That waits behind the review.
+
+**The review comes first, for every session.** The owner has ruled that the periodic review is read by sessions that built none of what they read, every arc in full (register row P-805). The rules are § 13 of the protocol. Review 79 covers what landed on main since 2026-11-10: thirteen arcs, all main's. Two sessions read each, and neither opens the other's file before its own is pushed.
+
+**Your card, SM-R79** (approved when you commit it):
+
+- seven arcs, each in full: B1879, B1881, B1882, B1884, B1885, B1887, B1889;
+- and the locks on five corrections that have had one re-audit each: the audit's findings E3, E5, E6, E10 and E13. § 8 of `frontier/B1861_the_closure_programme/PROGRAMME.md` names where each stands. Plant errors of your own against each lock, in a scratch copy, and report the count caught and the shapes missed. The web seat did this for two other locks: each caught five of the errors it planted, of eleven and of ten.
+
+**After it, SM-C3:** the fork lane's four exact packets (register row P-057: matter-line compatibility, puncture symmetry, the positive carrier, the cohomology carrier), run again with your own code.
+
+**Then the parameter inventory is yours to propose** as a card: names, kinds and what each rests on, with no value on the page.
+
 ### M2 — 2026-11-11 — two rulings of the owner that bind every session
 
 **1. The owner's messages are private from now on.** He has ruled it. Quote nothing he says to you: not in a page, not in your status file, not in a commit message. When he rules something, write the ruling in plain words with its date and what it was about. What you recorded before today stays as it is; nothing is rewritten. The protocol's § 9 has the rule.
@@ -47,12 +62,14 @@ Then commit your status file and your first card, and push. You need ask the own
 
 | card | what | state |
 |---|---|---|
-| SM-C1 | verify the physical lane's ten hand derivations of 2026-10-27 to 29 (batch V1) | proposed by main; approved when you commit it |
-| SM-C2 | verify the lane's twenty results of 2026-11-03 and 04, and run its unrun controls (batch V2) | proposed by main; approved when you commit it |
+| SM-C1 | verify the physical lane's ten hand derivations of 2026-10-27 to 29 (batch V1) | **closed** by you at 868170ce: ten reproduced, by your account. Registered (harvest row 1707); main's own recomputation owed |
+| SM-C2 | verify the lane's twenty results of 2026-11-03 and 04, and run its unrun controls (batch V2) | **closed** by you at 868170ce: twenty reproduced, by your account; one comparison held by the firewall. Registered; main's own recomputation owed |
+| SM-R79 | read seven arcs for Review 79, and test five locks against planted errors (M3) | proposed by main; approved when you commit it |
+| SM-C3 | the fork lane's four exact packets, run again with your own code (register row P-057) | proposed by main; approved when you commit it; behind SM-R79 |
+| SM-C4 | the parameter inventory: names, kinds, what each rests on; no value | yours to propose |
 
 ## What main is waiting for from you
 
-- your status file, with `read: M2`
-- the two cards
-- then the verdicts, batch V1 first
+- your status file, with `read: M3`
+- the card SM-R79, then your review file
 

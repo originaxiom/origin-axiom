@@ -7,7 +7,7 @@ data file and the point register.*
 
 ## 1. In one line
 
-**Ready for the final reading: NO.** 0 of 19 values earned. The sealed card (WP-5.3) is NOT STARTED; of the 9 packages it must wait on, 0 are done, 7 started and 2 not started.
+**Ready for the final reading: NO.** 0 of 19 values earned. The sealed card (WP-5.3) is NOT STARTED; of the 10 packages it must wait on, 0 are done, 8 started and 2 not started.
 
 The final reading is a sealed set of predictions set beside measurement. It happens once, after everything below.
 
@@ -31,6 +31,7 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 | WP-0.4 | Unverified premises and seat results under banked results | STARTED |
 | WP-0.5 | A green full suite on a fresh clone | STARTED |
 | WP-0.7 | Enforcement that enforces | STARTED |
+| WP-0.8 | Errors in the mathematics or its code | STARTED |
 | WP-0.9 | Labels as strong as the content | NOT STARTED |
 
 **The three milestones:**
@@ -55,8 +56,8 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 | C5 | The pre-comparison seal and independent challenge | 4 | 0 | 1 | 3 |
 | C6 | Dimensional calibration and empirical comparison | 1 | 0 | 0 | 1 |
 
-- **The map:** 276 nodes, of which 134 still need a path to a result.
-- **Debts on the map:** 84, of which 67 are joined to no node yet.
+- **The map:** 278 nodes, of which 134 still need a path to a result.
+- **Debts on the map:** 86, of which 69 are joined to no node yet.
 
 ## 4. What is still put in by hand
 
@@ -85,7 +86,7 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 
 ## 6. The record's own list
 
-- **801 points registered, 281 open:** 133 lead, 84 debt, 60 process, 4 owner.
+- **805 points registered, 285 open:** 134 lead, 86 debt, 61 process, 4 owner.
 - **Calls that are the owner's to make (4):**
   - P-081: the reply to the outside reader, approached carefully so the contact is not lost: in his own context (one of his videos as the opening), short, honest…
   - P-082: a second outside reader, later, approached in his own context (relating to his videos), after the first correspondence

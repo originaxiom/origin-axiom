@@ -62,3 +62,41 @@ def test_post_seal_rho_T_S_squared_is_i():
     assert np.allclose(rS @ rS, 1j * np.eye(3), atol=1e-9)
     assert not np.allclose(rS @ rS, -1j * np.eye(3), atol=1e-6)                             # bite: not the conjugate's scalar
 
+
+def test_one_unit_means_the_same_unit_on_three_lines_and_a_unit_on_one_line_gives_one():
+    """2026-11-11 (raised by agy-002's second derivation; checked on main's own formula and numbers).  The record writes the
+    cusp's twist as one integer n.  The cusp has three lines with distinct exponents, so there are three integers, and the
+    index is their sum above its value at no unit.  What could fail: the exponents not being distinct (then a line would not
+    be canonical); the index at no unit not being 0; the unit on all three lines not giving 3; or the formula's shift law
+    failing on the one case where every dimension is classical."""
+    import cmath
+    import json as _json
+    import math
+    import pathlib as _pl
+    root = _pl.Path(__file__).resolve().parents[1]
+    w50 = _json.loads((root / "frontier" / "B1634_w50_on_main" / "verification" / "w50_on_main.json").read_text(encoding="utf-8"))
+    ch = w50["V4"]["allowed_weights_chi"]
+    assert abs(ch["1.5"]) < 1e-9                                        # no unit: the index is 0
+    assert abs(ch["13.5"] - ch["1.5"] - 3) < 1e-9                       # the unit on all three lines is the cusp's divisor, weight + 12: 3
+    b1634 = (root / "frontier" / "B1634_w50_on_main" / "FINDINGS.md").read_text(encoding="utf-8")
+    assert "T's exponents (⅛, ⅜, ⅞)" in b1634 and len({1, 3, 7}) == 3   # three distinct exponents: three canonical lines
+
+    # the shift law, on the trivial character, where every dimension is classical: B1632's formula with d = 1
+    def alpha(z):
+        a = (cmath.phase(z) / (2 * math.pi)) % 1          # the exponent in [0, 1) ...
+        return 0.0 if a > 1 - 1e-9 else a                 # ... a root of unity computed in floating point may sit a hair below 1
+
+    def chi(k, shift=0):
+        return 1 + k / 12 - alpha(cmath.exp(1j * math.pi * k / 2)) - alpha(1 / cmath.exp(1j * math.pi * k / 3)) - (0 - shift)
+
+    classical = {0: 1, 4: 1, 6: 1, 8: 1, 10: 1, 12: 2, 14: 1, 16: 2}       # dim M_k of the full modular group
+    for k, dim in classical.items():
+        assert round(chi(k)) == dim, k
+        assert round(chi(k, shift=1)) == classical.get(k + 12, dim + 1) == dim + 1     # one more order of pole on the one line: + 1
+    # so on three lines the index above its value at no unit is m1 + m2 + m3
+    index = lambda m: round(ch["1.5"]) + sum(m)
+    assert index((1, 1, 1)) == 3 and index((1, 0, 0)) == 1 and index((0, 0, 1)) == 1 and index((0, 0, 0)) == 0
+    f = (ARC / "FINDINGS.md").read_text(encoding="utf-8") if "ARC" in globals() else (root / "frontier" / "B1641_w46_on_main_and_the_two_objects" / "FINDINGS.md").read_text(encoding="utf-8")
+    for s in ("A unit on one line, (1, 0, 0), gives 1.", "Main has not built that basis", "Main finds no such sentence"):
+        assert s in f, s
+
