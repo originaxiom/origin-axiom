@@ -1,0 +1,8 @@
+pages E7's lock reads, outside its history and without the correction, with a paragraph that states the zero: 6
+    docs/LEAD_REGISTER.md                                   lines 208-208   on one line: True    the lock's own test would see it: False
+    docs/PRICED_DOORS.md                                    lines 286-286   on one line: True    the lock's own test would see it: False
+    docs/SM_SPECIFICATION_LEDGER.md                         lines 312-318   on one line: False   the lock's own test would see it: False
+    docs/THE_PROGRAMME_SO_FAR.md                            lines 417-438   on one line: True    the lock's own test would see it: False
+    docs/MASTERPLAN.md                                      lines 283-283   on one line: True    the lock's own test would see it: False
+    docs/WHAT_WOULD_COUNT.md                                lines 153-162   on one line: True    the lock's own test would see it: False
+    docs/WHAT_WOULD_COUNT.md                                lines 343-351   on one line: True    the lock's own test would see it: False
