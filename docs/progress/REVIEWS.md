@@ -8753,3 +8753,5 @@ None promoted. 0 of 19.
 - [ ] R78-9: P-745 — the seven process arcs escalated at S306n, each resolved or declared open by design (carried from R77-6; owner: cc)
 - [ ] R78-10: P-739 — the tube at k = 3: the mesher's two unlabelled translation checks given messages first, then the stop diagnosed (carried from R77-8; owner: cc)
 - [ ] R78-11: P-769 — the tick's debts, now due since the owner ruled it an act: the record's structures at the levels where the group doubles, and the weave's theorems restated for the group with the exchange (owner: cc)
+
+**anchor-commit: `38d2a36dc`**
