@@ -18,13 +18,13 @@
 | … NEGATIVE | 383 |
 | … OPEN | 96 |
 | … RETRACTED | 12 |
-| register points | 786 |
+| register points | 787 |
 | … QUEUED | 264 |
 | … LEAD | 4 |
-| … OWNER | 3 |
+| … OWNER | 4 |
 | … DONE | 503 |
 | … DECLINED | 12 |
-| harvest rows (the last number) | 1692 |
+| harvest rows (the last number) | 1696 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
@@ -49,12 +49,14 @@
 - ** P-081** — the reply to the outside reader, approached carefully so the contact is not lost: in his own context (one of his videos as the opening), short, honest about shapes-not-sizes and the missing field, the corrected PDF atta… → *a draft prepared outside the tree for the owner's edit (it opens from his 2021 explainer of the Standard Model's equation); the edit and the send are the owner…*
 - ** P-082** — a second outside reader, later, approached in his own context (relating to his videos), after the first correspondence → *later, at the owner's word; nothing prepared until then [2026-11-04, the owner confirmed: paused until a result passes a level-2 confirmation] [2026-11-11, the…*
 - ** P-253** — the chain gap's top entries (Review 67's R66-3, declined there because the chain is the frozen paper's spine): B1098, B959, B1100, B952, B1086, B1000, B1484, B1070 (coverage_candidates.py --chain-gap) — adjudicate each… → *asked of the owner: whether and when to open a draft after p9-draft9; until then the chain-gap list stays recorded here and nothing is due (S231) [earlier: Q3…*
+- ** P-787** — THE PUBLIC FORM OF THE REPOSITORY: THIS ONE, OR A DISTILLED ONE WITH THIS AS THE ARCHIVE (the owner to the advisor seat, 2026-11-11, asking for a deep analysis and an honest opinion and whether the public version should… → *BOTH PAGES READ IN FULL THE SAME DAY, AND MAIN'S RECOMMENDATION GIVEN TO THE OWNER (S306p): main's own recount confirms the advisor seat's measurements at 64bf…*
 
 ## The queue's head (QUEUED in slot Q1, newest first)
 
 
 ## The last landings (CHANGELOG)
 
+- S306p THE FIVE PACKAGES HANDED TO THE ADVISOR SEAT (P-785), ITS RESIDUAL ON THE ORDER CLOSED, MAIN'S UNSEEN CASES SEALED (2026-11-11)
 - S306p THE V1 CARD READ (B1882): AN END OF THE WINDOW IS LIKE OTHER ROWS, BY A HAIR; THE AUDIT'S FIGURE IS REAL AND IS NOT ABOUT RARITY (2026-11-11)
 - S306p THE FOURTH HARVEST: THE WEB SEAT'S TWO CARDS VERIFIED (B1885, B1887), THE WORK ORDER MENDED AT THE OWNER'S QUESTION (P-782), THE OLD RELAYS KEPT LOCAL (P-779) (2026-11-11)
 - S306p THE FOUNDATION AT VERSION 1.65 (B1886; P-767's second landing) (2026-11-11)
@@ -62,11 +64,10 @@
 - S306p TWO SEATS HARVESTED AND VERIFIED: THE ADVISOR SEAT'S THIRD AND FOURTH RE-AUDITS ANSWERED (B1880), AND THE WEB SEAT'S TWO RELAYS ON THE READ-OUT OF THE WHOLE VERIFIED (B1881) (2026-11-11)
 - S306p THE WEAVE'S THEOREMS WITH THE EXCHANGE ADDED, AND THE OWNER'S RULING ON IT: EVEN TICKS ARE A CONDITION TO DERIVE (B1879; P-769, P-771) (2026-11-11)
 - S306p THE GOAL AS THE OWNER RULED IT, IN THE GOVERNING DOCUMENTS; TWO GATES (B1878; P-767's first landing); THE SIX ARCS WHOSE SEALED SCRIPTS CHANGED, READ (P-772) (2026-11-11)
-- S306p REVIEW 78, THE DECADAL REVIEW (B1877); THE OWNER'S RULINGS OF 2026-11-11 (P-771, P-774) (2026-11-11)
 
 ## The latest campaign line
 
-LATEST (2026-11-11, S306p: B1882 — THE V1 CARD READ, ONCE.** The advisor seat's sealed card for the audit's finding V1 (the nulls behind the six's rarities have an unpriced window in the height of the modulus), with the deciding count run by main on random targets only and its outputs committed unread (818d17f46) before they were opened. **All three decisive cells read B, an end of the window is like other rows**: the top layer's loss over its share of the rows is 1.64 for B1726's null and 1.99 and 1.96 for B1753's, against the card's line at 2 -- the last two short of it by less than one target and by three in a thousand; every bottom end reads C. Under the covariant and free menus, which…
+LATEST (2026-11-11, S306p: THE FIVE PACKAGES HANDED TO THE ADVISOR SEAT (P-785).** At the owner's proposal, put to main and to that seat alike: the advisor seat, which he has named cld-advisor, builds enforcement (WP-0.7), labels (WP-0.9), the weave discipline's machinery (WP-0.11), the count as an output (WP-0.12) and the certificate's generator (WP-5.1), as patches in its relay; main verifies each with planted cases the seat has not seen, and lands it. Two conditions, accepted: a builder gives no verdict on what it built; nothing changes state on main before main has recomputed it. Main's 53 unseen cases for the enforcement package are written and their hash is published before the seat's…
 
 ## Completeness (nothing skipped silently)
 
