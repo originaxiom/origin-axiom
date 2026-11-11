@@ -433,6 +433,16 @@ that run on the visitor's machine, and no personal accounts at the start; the vi
 as a map of the derivation in which every mark is a node of the repository's graph. Written out in
 `OPINION_ON_THE_REPOSITORY_2026-11-11.md`, § 11. He was asked nothing.
 
+| what he was answering | his words |
+|---|---|
+| the seat's two guesses at "the continuity issue", neither of them right | "for the continuity, as i remember at some point we wanted to cfeate a “distilled” repo and interrupted the commit chain.. smth like that" |
+
+With his description the seat found it in the record, where the word "continuity" had found nothing: this repository
+was created on 2026-05-22 as the single canonical home, with one first commit that supersedes four earlier
+repositories, and none of their commits, about 525, is in its chain. What bridged it that day, the five loose ends
+the seat read, and what it would do are in `OPINION_ON_THE_REPOSITORY_2026-11-11.md`, § 12. The seat did not look at
+the four earlier repositories: they are outside what its session may read. He was asked nothing.
+
 ## The roles
 
 The owner, the same day: this seat "will serve as an advisor for cc - the banking seat"; when cc is ready the reports

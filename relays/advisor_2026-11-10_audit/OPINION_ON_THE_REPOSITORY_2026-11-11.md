@@ -411,3 +411,59 @@ seal. Until then the scoreboard is its private preview.
 - **How much runs in a browser.** The finite steps do. The seven-hour census does not, and the site should say so.
 - **Who answers the public.** Errata and failed checks need a person, on a clock.
 
+## 12. The cut of 2026-05-22: what the owner remembered, found in the record
+
+He said of "the continuity issue": "as i remember at some point we wanted to cfeate a 'distilled' repo and interrupted
+the commit chain". The seat had found nothing under the word "continuity" (§ 9 was its answer to the wrong
+question). Under his description the record has it, in this repository's first commit and its first progress page.
+Read on main at `338b14fe3`. **The four earlier repositories themselves were not looked at:** they are outside what
+this session may read.
+
+### 12.1 What happened
+
+| | |
+|---|---|
+| the day | 2026-05-22 |
+| before it | four repositories: `origin-axiom-framework` (2025-12-09 to 2026-01-20, 489 commits), `origin-axiom-theta-star` (9), `origin-axiom-obstruction` (7), `00_origin-axiom` (20); and, on the owner's disk, the May 2026 sessions and two earlier eras |
+| the act | this repository was created as "the single canonical home", with one first commit: "Supersedes four prior repositories" |
+| why | the earlier approach was judged to be parameter-fitting, and the work turned |
+| the name | `origin-axiom` had been an earlier name of the largest of the four. The address that once led to its 489 commits leads here |
+| the chain today | 4,161 commits, **one first commit, no two histories joined.** Unbroken since that day. Nothing before it is in the chain: about 525 commits |
+
+### 12.2 What bridged it, the same day
+
+| | where |
+|---|---|
+| the four were kept, each given a "superseded by" commit on its README and archived read-only | `docs/progress/PROGRESS_2026-Q2.md` |
+| their names, dates, counts and final commit hashes | `legacy/github-repos.md`, `PROVENANCE.md` |
+| the May sessions' text, and the SHA-256 of 62 bundles and 21 files of the raw archive | `legacy/reports/`, `legacy/reports/MANIFEST.json` |
+| the raw archive itself, about 4 GB, of which the first era is about 3.6 GB | the owner's disk; ignored by git. Three transcripts hold other people's personal data and stay private |
+| the rule | `legacy/` is never edited and is never a source of claims |
+
+**So the cut was bridged by reference. It was not joined.**
+
+### 12.3 Loose ends
+
+1. **Two pages contradict the log.** `legacy/github-repos.md` still says the archiving is "pending";
+   `PROVENANCE.md` says "public, not archived as of this audit". The progress page says it was done that day.
+2. **The recorded final hashes were taken before the "superseded by" commits.** If those were added on top, each
+   recorded hash is now the commit before the last. For whoever can read the four to confirm.
+3. **A tag the record names is not there.** The progress page says the first state was tagged
+   `phase0-governance-freeze`. The remote has 29 tags and that is not one of them.
+4. **The raw archive is on one disk.** The committed hashes cover the May bundles. The first era is "not yet
+   audited in detail", in the record's own words.
+5. **Nothing outside dates any of it.**
+
+### 12.4 What the seat would do, in its own view
+
+- Confirm that the four are archived and that each recorded hash is in its repository.
+- Deposit the four with an outside archive that dates them, and with them a manifest of the raw archive, the two
+  earlier eras included. The private transcripts stay private; their hashes can be public.
+- Optionally bring the four histories into this repository as tags, `archive/<name>`, as main already does for
+  retired seats' branches. Then the whole record sits in one place and each recorded hash is checked with one
+  command. Not merged: main's history and its gates stay as they are.
+- One dated note where the record is read, in `PROVENANCE.md`, since `legacy/` is never edited: what was done on
+  2026-05-22, the heads after the pointer commits, and the deposits.
+- **This is the cut not to make again.** § 9's rule, never two places of work, is the same lesson: the public
+  package is a release of this repository and does not start a history of its own work.
+
