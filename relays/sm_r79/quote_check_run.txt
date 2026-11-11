@@ -1,0 +1,6 @@
+{
+ "commit": "323f923278181ffbe69f8c3124182549ab0e3163",
+ "control_altered_quote_reported_missing": true,
+ "all_found": true,
+ "ok": true
+}

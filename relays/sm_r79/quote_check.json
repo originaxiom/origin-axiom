@@ -1,0 +1,449 @@
+{
+ "commit": "323f923278181ffbe69f8c3124182549ab0e3163",
+ "rows": [
+  {
+   "id": "B1879-1",
+   "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1879-10",
+   "file": "GENESIS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1879-10b",
+   "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1879-1b",
+   "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/verification/only_the_tick_run.txt",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1879-2",
+   "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1879-2b",
+   "file": "frontier/B1858_the_closure_map/NODES.json",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1879-3",
+   "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1879-4",
+   "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/verification/test_b1879_the_weaves_theorems_with_the_exchange.py",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1879-5",
+   "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/verification/weave_with_the_exchange.py",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1879-5b",
+   "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/verification/weave_with_the_exchange.py",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1879-6",
+   "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1879-6b",
+   "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/verification/weave_with_the_exchange.py",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1879-7",
+   "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1879-7b",
+   "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/arc_verdict.json",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1879-8",
+   "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1879-8b",
+   "file": "WORKING_RULES.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1879-9",
+   "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1879-9b",
+   "file": "frontier/B1879_the_weaves_theorems_with_the_exchange/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1881-1",
+   "file": "frontier/B1881_the_whole_and_the_value_verified/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1881-1b",
+   "file": "frontier/B1872_all_histories_together_the_exact_facts_verified/verification/together_facts_run.txt",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1881-2",
+   "file": "frontier/B1881_the_whole_and_the_value_verified/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1881-2b",
+   "file": "frontier/B1880_the_third_and_fourth_re_audits_answered/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1881-3",
+   "file": "frontier/B1881_the_whole_and_the_value_verified/verification/whole_and_value_on_main.py",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1881-3b",
+   "file": "frontier/B1881_the_whole_and_the_value_verified/verification/whole_and_value_on_main.py",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1881-4",
+   "file": "frontier/B1881_the_whole_and_the_value_verified/verification/whole_and_value_on_main.py",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1881-5",
+   "file": "frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1881-6",
+   "file": "frontier/B1881_the_whole_and_the_value_verified/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1881-7",
+   "file": "frontier/B1881_the_whole_and_the_value_verified/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1881-8",
+   "file": "docs/POINT_REGISTER.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1882-1",
+   "file": "frontier/B1882_the_v1_card_run_on_main/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1882-10",
+   "file": "frontier/B1882_the_v1_card_run_on_main/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1882-1b",
+   "file": "frontier/B1870_the_audits_backlog_reproduced_on_main/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1882-2",
+   "file": "frontier/B1882_the_v1_card_run_on_main/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1882-3",
+   "file": "frontier/B1882_the_v1_card_run_on_main/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1882-3b",
+   "file": "frontier/B1882_the_v1_card_run_on_main/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1882-4",
+   "file": "frontier/B1882_the_v1_card_run_on_main/PRE_RUN_NOTE.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1882-5",
+   "file": "frontier/B1882_the_v1_card_run_on_main/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1882-6",
+   "file": "frontier/B1882_the_v1_card_run_on_main/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1882-7",
+   "file": "frontier/B1882_the_v1_card_run_on_main/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1882-8",
+   "file": "frontier/B1882_the_v1_card_run_on_main/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1882-9",
+   "file": "frontier/B1882_the_v1_card_run_on_main/verification/test_b1882_the_v1_card_run_on_main.py",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1884-1",
+   "file": "docs/POINT_REGISTER.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1884-1b",
+   "file": "CHANGELOG.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1884-1c",
+   "file": "frontier/B1884_what_level_a_ground_names_verified/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1884-2",
+   "file": "frontier/B1884_what_level_a_ground_names_verified/verification/test_b1884_what_level_a_ground_names_verified.py",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1884-3",
+   "file": "frontier/B1884_what_level_a_ground_names_verified/verification/ground_level_on_main_run.txt",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1884-4",
+   "file": "frontier/B1884_what_level_a_ground_names_verified/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1885-1",
+   "file": "frontier/B1885_the_golden_state_on_the_whole_verified/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1885-1b",
+   "file": "frontier/B1885_the_golden_state_on_the_whole_verified/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1885-2",
+   "file": "frontier/B1885_the_golden_state_on_the_whole_verified/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1885-3",
+   "file": "frontier/B1885_the_golden_state_on_the_whole_verified/verification/golden_state_on_main.py",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1885-4",
+   "file": "frontier/B1885_the_golden_state_on_the_whole_verified/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1885-5",
+   "file": "frontier/B1885_the_golden_state_on_the_whole_verified/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1885-5b",
+   "file": "docs/HARVEST_LEDGER.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1885-6",
+   "file": "frontier/B1885_the_golden_state_on_the_whole_verified/arc_verdict.json",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1885-6b",
+   "file": "frontier/B1885_the_golden_state_on_the_whole_verified/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1885-7",
+   "file": "frontier/B1885_the_golden_state_on_the_whole_verified/arc_verdict.json",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1887-1",
+   "file": "frontier/B1887_the_loop_check_verified/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1887-2",
+   "file": "frontier/B1887_the_loop_check_verified/verification/loop_check_on_main.py",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1887-3",
+   "file": "frontier/B1887_the_loop_check_verified/FINDINGS.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "B1887-4",
+   "file": "frontier/B1887_the_loop_check_verified/verification/test_b1887_the_loop_check_verified.py",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "LOCK-E3",
+   "file": "CHANGELOG.md",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  },
+  {
+   "id": "LOCK-E3b",
+   "file": "frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py",
+   "file_exists": true,
+   "quote_found": true,
+   "occurrences": 1
+  }
+ ],
+ "control_altered_quote_reported_missing": true,
+ "all_found": true,
+ "ok": true
+}

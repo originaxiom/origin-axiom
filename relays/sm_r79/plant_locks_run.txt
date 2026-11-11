@@ -1,0 +1,95 @@
+E13  findings_count_reverted                CAUGHT
+E13  dated_bracket_removed                  CAUGHT
+E13  old_count_not_kept                     CAUGHT
+E13  count_split_at_branch_cut              CAUGHT
+E13  wrong_half_in_the_weil_matrix          MISSED
+E13  multiplicity_list_wrong_in_findings    MISSED
+E13  bound_misstated_in_findings            MISSED
+E13  old_count_in_verdict_line              MISSED
+E13  old_count_on_another_page              MISSED
+E6   hand_condition_back_respelt            MISSED
+E6   kernel_hard_coded                      MISSED
+E6   exponents_swapped                      CAUGHT
+E6   grid_half_scanned                      CAUGHT
+E6   dated_note_removed                     CAUGHT
+E6   results_file_stale                     MISSED
+E10  argument_ignored_again                 CAUGHT
+E10  verdict_field_wrong                    CAUGHT
+E10  verdict_file_of_another_arc            MISSED
+E10  claim_line_dropped                     MISSED
+E10  status_hard_coded                      MISSED
+E10  verdict_hard_coded                     MISSED
+E10  unknown_arc_prints_corpus              CAUGHT
+E5   wall_gets_a_real_part                  CAUGHT
+E5   one_wall_shifted                       CAUGHT
+E5   a_check_false_run_text_unchanged       CAUGHT
+E5   class_pattern_changed                  CAUGHT
+E5   findings_correction_removed            CAUGHT
+E5   b874_note_removed                      CAUGHT
+E5   skeleton_narrowed                      CAUGHT
+E5   faulty_script_silently_fixed           CAUGHT
+E5   old_sentence_on_another_page           MISSED
+E5   instrument_broken_fast_lane            MISSED  (slow lane: CAUGHT)
+E3   old_form_on_a_new_page                 CAUGHT
+E3   old_form_paraphrased                   MISSED
+E3   old_form_broken_across_a_line          MISSED
+E3   spoof_marker_beside_it                 MISSED
+E3   old_form_in_a_text_file                MISSED
+E3   old_form_in_an_excluded_folder         MISSED
+E3   correction_too_far_away                CAUGHT
+E3   parity_split_miscounts                 CAUGHT
+E3   findings_counts_removed                CAUGHT
+E3   verdict_line_unmarked                  CAUGHT
+E3   tau_page_note_removed                  CAUGHT
+E3   b1855_note_removed                     CAUGHT
+{
+ "E13": {
+  "planted": 9,
+  "caught": 4,
+  "missed": [
+   "wrong_half_in_the_weil_matrix",
+   "multiplicity_list_wrong_in_findings",
+   "bound_misstated_in_findings",
+   "old_count_in_verdict_line",
+   "old_count_on_another_page"
+  ]
+ },
+ "E6": {
+  "planted": 6,
+  "caught": 3,
+  "missed": [
+   "hand_condition_back_respelt",
+   "kernel_hard_coded",
+   "results_file_stale"
+  ]
+ },
+ "E10": {
+  "planted": 7,
+  "caught": 3,
+  "missed": [
+   "verdict_file_of_another_arc",
+   "claim_line_dropped",
+   "status_hard_coded",
+   "verdict_hard_coded"
+  ]
+ },
+ "E3": {
+  "planted": 12,
+  "caught": 7,
+  "missed": [
+   "old_form_paraphrased",
+   "old_form_broken_across_a_line",
+   "spoof_marker_beside_it",
+   "old_form_in_a_text_file",
+   "old_form_in_an_excluded_folder"
+  ]
+ },
+ "E5": {
+  "planted": 10,
+  "caught": 8,
+  "missed": [
+   "old_sentence_on_another_page",
+   "instrument_broken_fast_lane"
+  ]
+ }
+}

@@ -1,0 +1,432 @@
+{
+ "clone_head": "323f923278181ffbe69f8c3124182549ab0e3163",
+ "baseline": {
+  "E13": {
+   "passes_unaltered": true,
+   "tail": "1 passed in 18.68s"
+  },
+  "E6": {
+   "passes_unaltered": true,
+   "tail": "1 passed in 0.23s"
+  },
+  "E10": {
+   "passes_unaltered": true,
+   "tail": "1 passed in 0.36s"
+  },
+  "E3": {
+   "passes_unaltered": true,
+   "tail": "3 passed in 5.85s"
+  },
+  "E5": {
+   "passes_unaltered": true,
+   "tail": "4 passed, 2 skipped in 0.13s"
+  }
+ },
+ "plants": [
+  {
+   "lock": "E13",
+   "plant": "findings_count_reverted",
+   "rule_broken": "the corrected count stands in B567's findings",
+   "shape": "the old value restored in place",
+   "result": "CAUGHT",
+   "tail": "1 failed in 13.60s"
+  },
+  {
+   "lock": "E13",
+   "plant": "dated_bracket_removed",
+   "rule_broken": "the correction is dated and attributed",
+   "shape": "the dated bracket's opening deleted",
+   "result": "CAUGHT",
+   "tail": "1 failed in 10.02s"
+  },
+  {
+   "lock": "E13",
+   "plant": "old_count_not_kept",
+   "rule_broken": "the old count is kept as history beside the correction",
+   "shape": "the quoted old count reworded",
+   "result": "CAUGHT",
+   "tail": "1 failed in 7.83s"
+  },
+  {
+   "lock": "E13",
+   "plant": "count_split_at_branch_cut",
+   "rule_broken": "count on the lattice of the order's roots, not by angle",
+   "shape": "the original mistake re-made in code",
+   "result": "CAUGHT",
+   "tail": "1 failed in 3.59s"
+  },
+  {
+   "lock": "E13",
+   "plant": "wrong_half_in_the_weil_matrix",
+   "rule_broken": "the Weil matrix uses the inverse of 2 mod N",
+   "shape": "s = N // 2 instead of (N + 1) // 2",
+   "result": "MISSED",
+   "tail": "1 passed in 6.66s"
+  },
+  {
+   "lock": "E13",
+   "plant": "multiplicity_list_wrong_in_findings",
+   "rule_broken": "the findings' multiplicity list equals the computation",
+   "shape": "two entries changed, sum kept at 165",
+   "result": "MISSED",
+   "tail": "1 passed in 2.13s"
+  },
+  {
+   "lock": "E13",
+   "plant": "bound_misstated_in_findings",
+   "rule_broken": "with order 20 there are at most 20",
+   "shape": "the stated bound changed to 21",
+   "result": "MISSED",
+   "tail": "1 passed in 1.16s"
+  },
+  {
+   "lock": "E13",
+   "plant": "old_count_in_verdict_line",
+   "rule_broken": "the corrected count travels to the verdict line",
+   "shape": "21 added to B567's claim line",
+   "result": "MISSED",
+   "tail": "1 passed in 8.78s"
+  },
+  {
+   "lock": "E13",
+   "plant": "old_count_on_another_page",
+   "rule_broken": "the corrected count travels to every page",
+   "shape": "a new tracked page states 21",
+   "result": "MISSED",
+   "tail": "1 passed in 9.40s"
+  },
+  {
+   "lock": "E6",
+   "plant": "hand_condition_back_respelt",
+   "rule_broken": "the kernel is computed from the map, not a hand-derived condition",
+   "shape": "the old exp(6ia) = 1 test restored, spelt exp(1j * 6 * a)",
+   "result": "MISSED",
+   "tail": "1 passed in 0.31s"
+  },
+  {
+   "lock": "E6",
+   "plant": "kernel_hard_coded",
+   "rule_broken": "the kernel is computed from the map",
+   "shape": "the six triples returned without building the map",
+   "result": "MISSED",
+   "tail": "1 passed in 0.32s"
+  },
+  {
+   "lock": "E6",
+   "plant": "exponents_swapped",
+   "rule_broken": "the map is diag(A e^{-2ia}, B e^{3ia})",
+   "shape": "the two exponents exchanged",
+   "result": "CAUGHT",
+   "tail": "1 failed in 0.33s"
+  },
+  {
+   "lock": "E6",
+   "plant": "grid_half_scanned",
+   "rule_broken": "the grid of sixths is scanned completely",
+   "shape": "only half the grid scanned",
+   "result": "CAUGHT",
+   "tail": "1 failed in 0.30s"
+  },
+  {
+   "lock": "E6",
+   "plant": "dated_note_removed",
+   "rule_broken": "the correction is dated in the findings",
+   "shape": "the dated note's marker deleted",
+   "result": "CAUGHT",
+   "tail": "1 failed in 0.30s"
+  },
+  {
+   "lock": "E6",
+   "plant": "results_file_stale",
+   "rule_broken": "the committed results equal the computation",
+   "shape": "results.json's kernel changed to Z3",
+   "result": "MISSED",
+   "tail": "1 passed in 0.24s"
+  },
+  {
+   "lock": "E10",
+   "plant": "argument_ignored_again",
+   "rule_broken": "card <arc> prints that arc",
+   "shape": "the corpus card printed whatever the id",
+   "result": "CAUGHT",
+   "tail": "1 failed in 0.39s"
+  },
+  {
+   "lock": "E10",
+   "plant": "verdict_field_wrong",
+   "rule_broken": "the verdict line shows the verdict",
+   "shape": "the status field printed as the verdict",
+   "result": "CAUGHT",
+   "tail": "1 failed in 0.39s"
+  },
+  {
+   "lock": "E10",
+   "plant": "verdict_file_of_another_arc",
+   "rule_broken": "the verdict and claim are the named arc's",
+   "shape": "B1812's verdict file read for every arc",
+   "result": "MISSED",
+   "tail": "1 passed in 0.48s"
+  },
+  {
+   "lock": "E10",
+   "plant": "claim_line_dropped",
+   "rule_broken": "the card prints the claim line",
+   "shape": "the claim line not printed",
+   "result": "MISSED",
+   "tail": "1 passed in 0.44s"
+  },
+  {
+   "lock": "E10",
+   "plant": "status_hard_coded",
+   "rule_broken": "the card prints the arc's status",
+   "shape": "every arc shown as [banked]",
+   "result": "MISSED",
+   "tail": "1 passed in 0.43s"
+  },
+  {
+   "lock": "E10",
+   "plant": "verdict_hard_coded",
+   "rule_broken": "the verdict line shows the arc's verdict",
+   "shape": "every arc shown as NEGATIVE",
+   "result": "MISSED",
+   "tail": "1 passed in 0.50s"
+  },
+  {
+   "lock": "E10",
+   "plant": "unknown_arc_prints_corpus",
+   "rule_broken": "an unknown arc is reported as unknown",
+   "shape": "the corpus card printed for an unknown id",
+   "result": "CAUGHT",
+   "tail": "1 failed in 0.47s"
+  },
+  {
+   "lock": "E5",
+   "plant": "wall_gets_a_real_part",
+   "rule_broken": "no wall has a real part",
+   "shape": "the committed ratio set to 0.3",
+   "result": "CAUGHT",
+   "tail": "1 failed, 3 passed, 2 skipped in 0.14s"
+  },
+  {
+   "lock": "E5",
+   "plant": "one_wall_shifted",
+   "rule_broken": "the walls come in conjugate pairs at the computed values",
+   "shape": "one wall moved by 1e-6",
+   "result": "CAUGHT",
+   "tail": "2 failed, 2 passed, 2 skipped in 0.14s"
+  },
+  {
+   "lock": "E5",
+   "plant": "a_check_false_run_text_unchanged",
+   "rule_broken": "every committed check holds",
+   "shape": "one boolean check set false",
+   "result": "CAUGHT",
+   "tail": "1 failed, 3 passed, 2 skipped in 0.14s"
+  },
+  {
+   "lock": "E5",
+   "plant": "class_pattern_changed",
+   "rule_broken": "the seven classes are as computed",
+   "shape": "one class 6 -> 8",
+   "result": "CAUGHT",
+   "tail": "1 failed, 3 passed, 2 skipped in 0.14s"
+  },
+  {
+   "lock": "E5",
+   "plant": "findings_correction_removed",
+   "rule_broken": "the scan's sentence carries its correction",
+   "shape": "the CORRECTED marker reworded",
+   "result": "CAUGHT",
+   "tail": "1 failed, 3 passed, 2 skipped in 0.14s"
+  },
+  {
+   "lock": "E5",
+   "plant": "b874_note_removed",
+   "rule_broken": "the correction travels to B874",
+   "shape": "B874's dated note reworded",
+   "result": "CAUGHT",
+   "tail": "1 failed, 3 passed, 2 skipped in 0.13s"
+  },
+  {
+   "lock": "E5",
+   "plant": "skeleton_narrowed",
+   "rule_broken": "the paper's sentence covers all three roots",
+   "shape": "'all three' narrowed to one root",
+   "result": "CAUGHT",
+   "tail": "1 failed, 3 passed, 2 skipped in 0.15s"
+  },
+  {
+   "lock": "E5",
+   "plant": "faulty_script_silently_fixed",
+   "rule_broken": "the old fault is kept in the script as it was run",
+   "shape": "the 'if not found:' guard removed",
+   "result": "CAUGHT",
+   "tail": "1 failed, 3 passed, 2 skipped in 0.18s"
+  },
+  {
+   "lock": "E5",
+   "plant": "old_sentence_on_another_page",
+   "rule_broken": "the correction travels to every page",
+   "shape": "a new tracked page repeats the old exclusion",
+   "result": "MISSED",
+   "tail": "4 passed, 2 skipped in 0.13s"
+  },
+  {
+   "lock": "E5",
+   "plant": "instrument_broken_fast_lane",
+   "rule_broken": "the committed numbers come from the instrument as it stands",
+   "shape": "the instrument's nullity made a rank; outputs not rerun (fast lane)",
+   "result": "MISSED",
+   "tail": "4 passed, 2 skipped in 0.13s",
+   "slow_lane": "CAUGHT",
+   "slow_tail": "1 failed in 55.73s"
+  },
+  {
+   "lock": "E3",
+   "plant": "old_form_on_a_new_page",
+   "rule_broken": "no old form stands without the correction beside it",
+   "shape": "the exact old form, uncorrected",
+   "result": "CAUGHT",
+   "tail": "1 failed, 2 passed in 5.79s"
+  },
+  {
+   "lock": "E3",
+   "plant": "old_form_paraphrased",
+   "rule_broken": "no old form stands without the correction beside it",
+   "shape": "'invisible to every state', uncorrected",
+   "result": "MISSED",
+   "tail": "3 passed in 6.04s"
+  },
+  {
+   "lock": "E3",
+   "plant": "old_form_broken_across_a_line",
+   "rule_broken": "no old form stands without the correction beside it",
+   "shape": "the exact form split by a newline",
+   "result": "MISSED",
+   "tail": "3 passed in 6.37s"
+  },
+  {
+   "lock": "E3",
+   "plant": "spoof_marker_beside_it",
+   "rule_broken": "the correction stands beside the old form",
+   "shape": "an unrelated 'E = +I' within 900 characters",
+   "result": "MISSED",
+   "tail": "3 passed in 5.94s"
+  },
+  {
+   "lock": "E3",
+   "plant": "old_form_in_a_text_file",
+   "rule_broken": "no old form stands anywhere in the record",
+   "shape": "the exact old form in a .txt file",
+   "result": "MISSED",
+   "tail": "3 passed in 5.49s"
+  },
+  {
+   "lock": "E3",
+   "plant": "old_form_in_an_excluded_folder",
+   "rule_broken": "no old form stands anywhere in the record",
+   "shape": "the exact old form under docs/views/",
+   "result": "MISSED",
+   "tail": "3 passed in 5.94s"
+  },
+  {
+   "lock": "E3",
+   "plant": "correction_too_far_away",
+   "rule_broken": "the correction stands beside the old form",
+   "shape": "the marker 1000 characters after it",
+   "result": "CAUGHT",
+   "tail": "1 failed, 2 passed in 5.63s"
+  },
+  {
+   "lock": "E3",
+   "plant": "parity_split_miscounts",
+   "rule_broken": "338 have E = +I and 305 have E = -I",
+   "shape": "one class of E = -I counted as +I",
+   "result": "CAUGHT",
+   "tail": "1 failed, 2 passed in 5.83s"
+  },
+  {
+   "lock": "E3",
+   "plant": "findings_counts_removed",
+   "rule_broken": "the findings carry the split",
+   "shape": "the count sentence reworded",
+   "result": "CAUGHT",
+   "tail": "1 failed, 2 passed in 5.86s"
+  },
+  {
+   "lock": "E3",
+   "plant": "verdict_line_unmarked",
+   "rule_broken": "the verdict line carries the correction",
+   "shape": "the CORRECTED marker removed from the claim line",
+   "result": "CAUGHT",
+   "tail": "1 failed, 2 passed in 5.66s"
+  },
+  {
+   "lock": "E3",
+   "plant": "tau_page_note_removed",
+   "rule_broken": "the correction travels to the read-out rule's page",
+   "shape": "the carried-here marker reworded",
+   "result": "CAUGHT",
+   "tail": "1 failed, 2 passed in 5.89s"
+  },
+  {
+   "lock": "E3",
+   "plant": "b1855_note_removed",
+   "rule_broken": "the correction travels to B1855",
+   "shape": "the carried-here marker reworded in B1855",
+   "result": "CAUGHT",
+   "tail": "1 failed, 2 passed in 6.17s"
+  }
+ ],
+ "summary": {
+  "E13": {
+   "planted": 9,
+   "caught": 4,
+   "missed": [
+    "wrong_half_in_the_weil_matrix",
+    "multiplicity_list_wrong_in_findings",
+    "bound_misstated_in_findings",
+    "old_count_in_verdict_line",
+    "old_count_on_another_page"
+   ]
+  },
+  "E6": {
+   "planted": 6,
+   "caught": 3,
+   "missed": [
+    "hand_condition_back_respelt",
+    "kernel_hard_coded",
+    "results_file_stale"
+   ]
+  },
+  "E10": {
+   "planted": 7,
+   "caught": 3,
+   "missed": [
+    "verdict_file_of_another_arc",
+    "claim_line_dropped",
+    "status_hard_coded",
+    "verdict_hard_coded"
+   ]
+  },
+  "E3": {
+   "planted": 12,
+   "caught": 7,
+   "missed": [
+    "old_form_paraphrased",
+    "old_form_broken_across_a_line",
+    "spoof_marker_beside_it",
+    "old_form_in_a_text_file",
+    "old_form_in_an_excluded_folder"
+   ]
+  },
+  "E5": {
+   "planted": 10,
+   "caught": 8,
+   "missed": [
+    "old_sentence_on_another_page",
+    "instrument_broken_fast_lane"
+   ]
+  }
+ }
+}
