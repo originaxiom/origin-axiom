@@ -1,0 +1,17 @@
+v1  HOLDS  brackets among the four invariants that do not vanish: none of 6
+v2  HOLDS  dim(z(x8) ∩ z(x16)), exactly over Q: 30
+v3  HOLDS  dim(z(x8) ∩ z(x14) ∩ z(x16)), exactly over Q: 12
+    (the algebra loaded and the exact part done in 39 s)
+v4  HOLDS  the largest off-diagonal part, over the largest weight, for x8, x14, x16, x22: 1.4e-42, 9.19e-41, 5.96e-42, 6.27e-41; the eigenvectors' matrix times its inverse, in the 1-norm: 1.271e+17
+    (the weights done at 71 s)
+v5  HOLDS  weights that vanish on s1: 46; the smallest that does not is 1.0 of the largest; the largest that does is 7.85e-62 of it
+v6  HOLDS  of those, vanish on x16: 30; on x14 and x16: 12
+v7  HOLDS  the 16 finite walls t = -w14/w16: 6 at +0.0464130116 i; 6 at -0.0464130116 i; 2 at +0.0515261607 i; 2 at -0.0515261607 i; the largest real part over the modulus: 2.0e-62
+    the walls of nullity 18, |t| to 40 digits: 0.04641301161159871336332971404684249672225
+    the walls of nullity 14, |t| to 40 digits: 0.05152616072901096977636137259662066847936
+v8  HOLDS  so, at every real t, no weight beyond the generic 12 vanishes on s1 and on x14 + t x16: the nullity is 12 there (it is 30 at pure x16)
+v9  HOLDS  control, the line x8 + t x16: at the real point t1 = -0.001938050209720433301 vanish 16 weights beyond the 30 that vanish on both (z(s1) = 46)
+    read-out, no expectation: the other real walls of that line, with how many weights vanish at each: t = 0.00039822150125: 16; t = 0.00568523687174: 16
+    read-out: the cubic's roots times 13: -0.00193805020972043, 0.000398221501250353, 0.00568523687173539
+
+expectations that hold: 9 of 9      (71 s)
