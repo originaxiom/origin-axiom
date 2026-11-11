@@ -7,16 +7,17 @@
 
 ## 9. Status — read this first; it is rewritten at every push
 
+**The six lines main's protocol asks for are in `relays/STATUS_CLD-ADVISOR.md`.** This table says the same at more length.
+
 | | |
 |---|---|
 | date | 2026-11-11 |
-| building, at the owner's word to this seat | "now conttinue bulding when ready" (`OWNER_RULINGS_2026-11-10.md`). Main's proposal for the lock (B1889 § 7.3) keeps this seat's five packages |
-| as builder: what is sent | WP-0.7, **series 1 of 4** (four patches: a gate is a function of the commit) and **series 2 of 4** (six patches: nothing leaves a ledger and no ceiling rises without a recorded act; `ADVISOR_TO_CC_2026-11-11_WP_0_7_SERIES_2_SIX_PATCHES.md`). Both apply in order on main's `e6298271a`. The planted suite on their end: **16 of 21**, from 8 |
-| what main has not yet done with them | run its unseen cases on either series. Series 1 is registered (row 1699) |
-| next | series 3 of WP-0.7: the wording gates (PV17, PV20, PV21), a control that is run (PV16), an assert between literals (PV24). Its card is written before it starts |
-| as auditor: the verdicts | re-audit 7: **E7 accepted**. Re-audit 6: **E5 accepted; E2 partly** (the arc's own claim line still leads with the old level) |
-| proposals with main | how the record refers to the assistants (`PROPOSAL_HOW_TO_REFER_TO_THE_ASSISTANTS.md`; main's own is the base); the public form, the website and the history (`OPINION_ON_THE_REPOSITORY_2026-11-11.md`, §§ 9 to 14) |
-| waiting on | main: its verdict on the two series |
+| the role, by the owner's ruling to main (M1 on this seat's page; main's rows P-792, P-795) | **builder only.** Five packages: WP-0.7, WP-0.9, WP-0.11, WP-0.12, WP-5.1. It is no longer an auditor: the re-audit of main's corrections has passed to another seat. It hears main on its page, `docs/seats/cld-advisor.md`, through the listener, and the owner no longer relays |
+| read | M1 |
+| on | **C1: WP-0.7, series 3** (`relays/cards/cld-advisor_C1_wp-0-7-series-3.md`): the wording gates (PV17, PV20, PV21), a control that is run (PV16), an assert between literals (PV24) |
+| sent, and with main | series 1 (four patches; main has read every line and is running its unseen cases; its verdict comes as M2) and series 2 (six patches, sent at `636e90e4e`). The planted suite on their end: 16 of 21, from 8 |
+| also with main | a seventh re-audit (E7), sent before this seat had read the ruling: main's to take or leave. Proposals: how the record refers to the assistants; the public form, the website and the history |
+| waiting on | nothing that blocks. Main's verdicts on the two series |
 | blocked | no |
 | packages delivered | 0 of 5 (two of four series of the first package sent) |
 
@@ -53,6 +54,9 @@ It is reached when all of these hold on main:
 | the five packages below are landed by main and closed | 0 of 5 |
 
 ## 3. Two roles, kept apart
+
+**Amended 2026-11-11 by the owner's ruling to main (M1 on this seat's page): this seat builds and is not asked to
+verify. The auditor's row below is closed; what it had sent as auditor stands as sent.**
 
 Main's two conditions, accepted as written.
 
@@ -143,8 +147,8 @@ commit. If main wants a branch to fetch, a second branch needs the owner's leave
 
 | # | item | state | whose move |
 |---|---|---|---|
-| 1 | the five packages of § 5 | 0 of 5 delivered; WP-0.7: series 1 and 2 of 4 sent, the suite at 16 of 21 | main verifies the two series; this seat writes the card for series 3 |
-| 2 | re-audit of each package main closes; WP-0.8 first | three of main's mends re-audited: **E5 accepted, E7 accepted, E2 partly** (one line to change, then the views). WP-0.8 pauses on main's side at six findings left (P-788) | main, when it mends the next; this seat re-audits each as it lands |
+| 1 | the five packages of § 5 | 0 of 5 delivered; WP-0.7: series 1 and 2 of 4 sent, the suite at 16 of 21; series 3 on card C1 | this seat builds series 3; main verifies the two series |
+| 2 | re-audit of each package main closes | **closed** by the owner's ruling to main (M1): it has passed to another seat. Sent before that: seven re-audits, the last two of E5 (accepted), E2 (partly; main has since mended the line) and E7 (accepted; main's to take or leave) | — |
 | 3 | ORD-a, the order before the card | **closed.** Main refused the two variants at `e5f9d09cd`; re-run here at `038df6984`, all three plants refused | — |
 | 4 | V1, the card | main read it once: B in all three decisive cells. This seat's verdict given: B, not A for N2 | main: P-786 (the sentence on every page, the window's ends as a choice, the same count on the candidate's null) |
 | 5 | GEN-a, a generated page compared in every clone | main says closed at B1886 | this seat checks it at the next re-audit it is asked for |
@@ -158,6 +162,10 @@ commit. If main wants a branch to fetch, a second branch needs the owner's leave
 | 13 | readers of another family, for the ambiguity attack | cannot be done by this seat | the owner, if he wants it |
 
 ## 8. How main supervises
+
+**From 2026-11-11 the protocol is main's page `docs/seats/README.md`:** main writes on `docs/seats/cld-advisor.md`; this
+seat hears it through the listener, answers in `relays/STATUS_CLD-ADVISOR.md`, and commits a card before each piece
+of work. The table below is how it stood before, and is kept.
 
 | | |
 |---|---|

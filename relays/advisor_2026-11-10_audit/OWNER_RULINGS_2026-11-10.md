@@ -495,6 +495,18 @@ substance and main's is the base; three additions offered (a label for a plain r
 for outside the project; each label naming its evidence, so that a gate can hold it). Written as § 7 of
 `PROPOSAL_HOW_TO_REFER_TO_THE_ASSISTANTS.md`. He was asked nothing.
 
+### From here on, in plain words
+
+*2026-11-11. Main's protocol for every seat (`docs/seats/README.md` on main, § 9) says that what the owner rules is
+entered in plain words and dated, and that his messages are not published; he is reviewing the practice (main's row
+P-796). From this entry on this file does that. What stands above is as it was written and stays until he rules.*
+
+| date | what was ruled or asked, and how it reached this seat | what the seat did |
+|---|---|---|
+| 2026-11-11 | To this seat: it is to go on building when it is ready | built and sent series 2 of WP-0.7 |
+| 2026-11-11 | To this seat: the naming of the AI sessions confuses a reader and costs credibility, a session is sometimes written as an authority, and AI is part of the method and not a co-author; a cleaner way is to be proposed. He then passed on main's own proposal | wrote `PROPOSAL_HOW_TO_REFER_TO_THE_ASSISTANTS.md`; took main's as the base and offered three additions |
+| 2026-11-11 | To main, read by this seat on its page (M1; main's rows P-792, P-794, P-795, P-798): this seat builds what it started and is not drawn into verification; four other seats verify; main directs every seat, each seat hears main through a listener, and the owner supervises and no longer relays | took the role of builder only; started the listener; committed its status file and its first card |
+
 ## The roles
 
 The owner, the same day: this seat "will serve as an advisor for cc - the banking seat"; when cc is ready the reports
