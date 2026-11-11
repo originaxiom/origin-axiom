@@ -1,0 +1,9 @@
+phase 1 | hashes in the seal file: 1 | pre-registration files and whether their sha256 is in the seal: [('PREREGISTRATION_PLAN.md', True)]
+   script referee_phi_loop.py | imports: ['__future__', 'ast', 'fractions', 'hashlib', 'json', 'math', 'mpmath', 'numpy', 'pathlib', 'sys', 'typing'] | imports the engine package ['phi_loop'] : False
+   engine source lines: 2571 | output files: ['phi_loop_results.json', 'referee_audit_verdict.json']
+phase 2 | hashes in the seal file: 1 | pre-registration files and whether their sha256 is in the seal: [('PREREGISTRATION_PHASE2.md', True)]
+   script referee_cusped_phase2.py | imports: ['__future__', 'ast', 'hashlib', 'itertools', 'json', 'math', 'mpmath', 'numpy', 'pathlib', 'scipy', 'snappy', 'sys', 'typing'] | imports the engine package ['cusped_loop'] : False
+   engine source lines: 2707 | output files: ['phase2_results.json', 'referee_phase2_verdict.json']
+phase 3 | hashes in the seal file: 1 | pre-registration files and whether their sha256 is in the seal: [('PREREGISTRATION_PHASE3.md', True)]
+   script referee_relational_phase3.py | imports: ['__future__', 'ast', 'hashlib', 'itertools', 'json', 'math', 'mpmath', 'numpy', 'pathlib', 'scipy', 'snappy', 'typing'] | imports the engine package ['relational_loop'] : False
+   engine source lines: 3527 | output files: ['phase3_results.json', 'referee_phase3_verdict.json']

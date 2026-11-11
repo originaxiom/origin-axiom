@@ -1,0 +1,13 @@
+K1  the declared word for (2,1^8,2) (post hoc)
+    the specification's string, k = 1: word LLRLRLRLRLRLLRLR  runs [1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 2]  trace 1762  keeps +-v0 by rows: False, by columns: False;  M - I: (2, 880)  M + I: (2, 882)
+    the specification's string, k = 2: word LLRLRLRLRLRLLRLRLR  runs [1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 2]  trace 4621  keeps +-v0 by rows: False, by columns: False;  M - I: (1, 4619)  M + I: (1, 4623)
+    the specification's string, k = 3: word LLRLRLRLRLRLLRLRLRLR  runs [1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 2]  trace 12101  keeps +-v0 by rows: False, by columns: False;  M - I: (1, 12099)  M + I: (1, 12103)
+    L^2 (R L)^4 R^2, k = 1: word LLRLRLRLRLRRLR  runs [1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 2]  trace 678  keeps +-v0 by rows: True, by columns: True;  M - I: (2, 338)  M + I: (2, 340)
+    L^2 (R L)^4 R^2, k = 2: word LLRLRLRLRLRRLRLR  runs [1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 2]  trace 1767  keeps +-v0 by rows: True, by columns: True;  M - I: (1, 1765)  M + I: (1, 1769)
+    L^2 (R L)^4 R^2, k = 3: word LLRLRLRLRLRRLRLRLR  runs [1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 2]  trace 4623  keeps +-v0 by rows: True, by columns: True;  M - I: (1, 4621)  M + I: (1, 4625)
+
+K2  the reversal of the run of 6 (post hoc)
+    det g = -1;  g.g = ((1, 0), (0, 1));  v0.g modulo 5 = (4, 2)
+    k = 1: g M g^-1 = M^-1: True
+    k = 2: g M g^-1 = M^-1: True
+    k = 3: g M g^-1 = M^-1: True
