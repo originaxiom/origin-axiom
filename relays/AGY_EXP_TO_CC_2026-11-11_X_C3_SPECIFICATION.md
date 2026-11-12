@@ -93,19 +93,19 @@ Check Two **must let through** (exit status zero):
 
 ### E. Planted Test Cases for Check Two (Expectations Committed Before Build)
 
-Each case below is a synthetic `tests/test_b9999_planted.py` snippet paired with a dummy `frontier/B9999_planted/produce.py` and `frontier/B9999_planted/out.json`:
+Each case below is a synthetic tests/test_b9999_planted.py snippet paired with a dummy frontier/B9999_planted/produce.py and frontier/B9999_planted/out.json:
 
-- **Planted Breach `P2-1` (Direct `sys.path` + producer import):** `test_b9999_planted.py` appends `frontier/B9999_planted` to `sys.path`, runs `from produce import run_claim`, and asserts `run_claim()["count"] == 48`.
-  - **Expected result:** **REFUSED** (flags `sys.path` injection + producer import from `frontier/B9999_planted`).
+- **Planted Breach `P2-1` (Direct `sys.path` + producer import):** `test_b9999_planted.py` appends frontier/B9999_planted to `sys.path`, runs `from produce import run_claim`, and asserts `run_claim()["count"] == 48`.
+  - **Expected result:** **REFUSED** (flags `sys.path` injection + producer import from frontier/B9999_planted).
 - **Planted Breach `P2-2` (`importlib.util.spec_from_file_location` evasion):** `test_b9999_planted.py` loads `ROOT / "frontier" / "B9999_planted" / "produce.py"` via `spec_from_file_location` + `exec_module` without touching `sys.path`, then asserts on `mod.RESULT`.
   - **Expected result:** **REFUSED** (flags dynamic module load targeting `frontier/`).
-- **Planted Breach `P2-3` (`subprocess.run` re-execution evasion):** `test_b9999_planted.py` runs `subprocess.run([sys.executable, str(ROOT / "frontier/B9999_planted/produce.py")], check=True)` and asserts exit code zero.
+- **Planted Breach `P2-3` (`subprocess.run` re-execution evasion):** `test_b9999_planted.py` runs `subprocess.run([sys.executable, str(ROOT / "frontier" / "B9999_planted" / "produce.py")], check=True)` and asserts exit code zero.
   - **Expected result:** **REFUSED** (flags subprocess execution of a `frontier/` producer script inside a lock).
-- **Planted Breach `P2-4` (Pure JSON echo lock with zero recomputation):** `test_b9999_planted.py` imports only `json` and `pathlib`, loads `frontier/B9999_planted/out.json`, and asserts `data["status"] == "PROVED" and data["orbits"] == 2800` with zero algebraic or numerical computation anywhere in the test file.
+- **Planted Breach `P2-4` (Pure JSON echo lock with zero recomputation):** `test_b9999_planted.py` imports only `json` and `pathlib`, loads frontier/B9999_planted/out.json, and asserts `data["status"] == "PROVED" and data["orbits"] == 2800` with zero algebraic or numerical computation anywhere in the test file.
   - **Expected result:** **REFUSED** (flags pure artifact-echo lock lacking independent computation).
 - **Planted Legitimate Control `L2-1` (Pure independent recomputation lock):** `test_b9999_planted.py` imports `itertools` and `numpy`, constructs the presentation matrices of the group from scratch, computes the orbit count `n_orb` via explicit breadth-first closure, and asserts `n_orb == 2800`.
   - **Expected result:** **PASSED** (zero `frontier/` code touched; genuine independent computation).
-- **Planted Legitimate Control `L2-2` (Independent recomputation cross-checked against committed JSON):** `test_b9999_planted.py` computes the twenty-seven companion room counts independently using its own matrix rank routine, loads `frontier/B9999_planted/out.json` to verify SHA-256 and key-by-key agreement `assert computed_rooms == recorded["rooms"]`, and imports zero code from `frontier/`.
+- **Planted Legitimate Control `L2-2` (Independent recomputation cross-checked against committed JSON):** `test_b9999_planted.py` computes the twenty-seven companion room counts independently using its own matrix rank routine, loads frontier/B9999_planted/out.json to verify SHA-256 and key-by-key agreement `assert computed_rooms == recorded["rooms"]`, and imports zero code from `frontier/`.
   - **Expected result:** **PASSED** (artifact read is paired with genuine independent computation, and zero producer code is imported or executed).
 
 ---
