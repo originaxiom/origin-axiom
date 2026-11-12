@@ -18,8 +18,8 @@
 | … NEGATIVE | 383 |
 | … OPEN | 97 |
 | … RETRACTED | 12 |
-| register points | 830 |
-| … QUEUED | 301 |
+| register points | 833 |
+| … QUEUED | 304 |
 | … LEAD | 4 |
 | … OWNER | 0 |
 | … DONE | 513 |
@@ -53,6 +53,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p THE OWNER'S DIRECTION ENTERED: MAIN ON THE FRONTIER, THE RECORD-KEEPING HANDED TO THE BUILDER; REVIEW 80'S FOUR FILES ARE IN (P-831, P-832, P-833) (2026-11-12)
 - S306p REVIEW 80: TWO FILES OF FOUR ARE IN AND ALL 43 FINDINGS HOLD; THE OTHER TWO READERS HAVE STARTED (P-830) (2026-11-12)
 - S306p REVIEW 79'S ENTRY SAID MORE THAN WAS DONE: TEN CHANGED ARCS WERE ON NO CARD, AND ARE GIVEN TO READERS NOW (P-830) (2026-11-12)
 - S306p THE OWNER'S DIRECTION ON THE ORDER OF WORK ENTERED: THE MATHEMATICS FIRST, EVERY SESSION ON A PACKAGE (P-829) (2026-11-12)
@@ -60,11 +61,10 @@
 - S306p REVIEW 80 OPENED: FOUR CARDS OUT; MAIN LANDS NOTHING ELSE UNTIL IT IS ENTERED (P-824) (2026-11-12)
 - S306p B1881'S LOCK TESTED BY A SESSION THAT DID NOT WRITE IT: 17 OF 23 PLANTED ERRORS CAUGHT, AND THE SIX THAT PASSED CLOSED (B1897; P-822) (2026-11-12)
 - S306p THE THIRD ENFORCEMENT SERIES VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (B1896; WP-0.7); WHAT STILL PASSES (P-820); AN OLD DEBT PAID (P-154) (2026-11-12)
-- S306p THE MENDS OF B1881 READ BY A SESSION THAT DID NOT WRITE THEM: FOUR FINDINGS, ALL HELD; WHAT ITS SECOND CONVENTION IS (B1895; P-818, P-819) (2026-11-12)
 
 ## The latest campaign line
 
-LATEST (2026-11-12, S306p: REVIEW 80: TWO FILES OF FOUR ARE IN AND ALL 43 FINDINGS HOLD; THE OTHER TWO READERS HAVE STARTED (P-830).** The web seat's seven and agy-002's thirty-six all hold on main's own reproduction (recounts, planted errors in a scratch checkout, constructed cases given to the checks' own functions); main's share is mended and held for the review's landing, and eighteen are the builder's. The other two readers have their cards: agy-exp, and the SM seat, which had pushed nothing since 02:45 and started at midday (its e8eecb787); the entry waits for their two files. Six more arcs that changed in other files only go to agy-002. Three mathematics arcs are worked and wait for…
+LATEST (2026-11-12, S306p: THE OWNER'S DIRECTION ENTERED: MAIN ON THE FRONTIER, THE RECORD-KEEPING HANDED TO THE BUILDER; REVIEW 80'S FOUR FILES ARE IN (P-831, P-832, P-833).** Main works the frontier mathematics; the record-keeping is built by the builder as patch series from one folder of main's drafts (`docs/handoffs/MAIN_TO_BUILDER_2026-11-12/`), read cold by agy-002, and landed by main after its own check. Review 80: 100 findings in four files, every quotation found by machine; the first 43 held and are mended here; of the other 57 main has checked 37 in full, all held, and mended twelve; the entry, the arc and the mends that are left are the builder's first series, and the review is o…
 
 ## Completeness (nothing skipped silently)
 

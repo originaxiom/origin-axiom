@@ -22,9 +22,9 @@ nothing in this block is typed by hand.*
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.66) of 2026-11-12 |
 | arcs with a verdict | 1599: 1107 PROVED, 383 NEGATIVE, 97 OPEN, 12 RETRACTED |
-| points in the register | 830: 305 open (queued, leads, waiting for the owner), 525 closed |
+| points in the register | 833: 308 open (queued, leads, waiting for the owner), 525 closed |
 | the last review | Review 79 (2026-11-12), anchor `0dda7b472` |
-| the last landing | S306p REVIEW 80: TWO FILES OF FOUR ARE IN AND ALL 43 FINDINGS HOLD; THE OTHER TWO READERS HAVE STARTED (P-830) (2026-11-12) |
+| the last landing | S306p THE OWNER'S DIRECTION ENTERED: MAIN ON THE FRONTIER, THE RECORD-KEEPING HANDED TO THE BUILDER; REVIEW 80'S FOUR FILES ARE IN (P-831, P-832, P-8… |
 <!-- STATE:END -->
 
 ## Start here
