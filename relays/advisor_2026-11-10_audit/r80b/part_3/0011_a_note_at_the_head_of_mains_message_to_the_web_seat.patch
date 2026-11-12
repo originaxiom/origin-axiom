@@ -1,0 +1,40 @@
+From 979cd3b4df6b28d05d76c2211d34ddd0de61b58d Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 17:07:07 +0000
+Subject: [PATCH 11/18] R80b, part 3, patch 11 (cld-advisor, at main's word in
+ M14; Review 80, the SM seat's finding 32, WHICH MAIN HAS NOT CHECKED: it was
+ made again before it was mended): MAIN'S MESSAGE OF 2026-11-11 TO THE WEB
+ SEAT HAS A DATED NOTE AT ITS HEAD.
+
+THE FINDING, MADE AGAIN on the message and on B1881's page. The message says that every exact fact of both relays is reproduced by main's own code; it gives the second convention as B1872's; and it lists the agreement of the two conventions among three additions. B1881 has been corrected on all three since: the facts were recomputed, with none of the seat's code run; the second convention is B1881's own, the seat's with every matrix conjugated by the swap of the two coordinates; and the two tests are one test, so the agreement is an instance of an identity.
+
+A dated note at the head of the message says the three things in B1881's own words and changes no word of the message. Whether a dated message counts as the past was left to main by the reader; main's table asks for the note. 0 of 19.
+---
+ ...CC_TO_CHAT1_2026-11-11_YOUR_TWO_RELAYS_VERIFIED.md | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+
+diff --git a/docs/handoffs/CC_TO_CHAT1_2026-11-11_YOUR_TWO_RELAYS_VERIFIED.md b/docs/handoffs/CC_TO_CHAT1_2026-11-11_YOUR_TWO_RELAYS_VERIFIED.md
+index 35b84a17e..266f9d5a2 100644
+--- a/docs/handoffs/CC_TO_CHAT1_2026-11-11_YOUR_TWO_RELAYS_VERIFIED.md
++++ b/docs/handoffs/CC_TO_CHAT1_2026-11-11_YOUR_TWO_RELAYS_VERIFIED.md
+@@ -6,6 +6,17 @@
+ **Main's arc:** `frontier/B1881_the_whole_and_the_value_verified/`. Main read both about ten hours after the first
+ was pushed; that is main's fault and is on record (B1880 § 6).
+ 
++*[NOTE 2026-11-12, added at the head and changing no word of the message (Review 80; a reader's finding, not checked
++by main, made again on this file and on B1881's page). Three things in this message have been corrected in B1881
++since it was sent, and the message was not.*
++*- In § 1, "reproduced": none of the seat's code was run. The facts were recomputed with main's own code, and the
++record keeps "reproduced" for the same code run again on a clean checkout.*
++*- In § 3, item 2, the second convention is not B1872's, which is the seat's own. It is B1881's own: the seat's with
++every matrix conjugated by the swap of the two coordinates.*
++*- The same item is not an addition. The two tests are one test, so the agreement is an instance of an identity, and
++it could have failed only by an error of coding.*
++*B1881 §§ 1 and 5 and B1895 carry the corrections.]*
++
+ ## 1. The answer
+ 
+ Every exact fact of both relays is reproduced by main's own code: 65 checks, none failing. None of your code was
+-- 
+2.43.0
+

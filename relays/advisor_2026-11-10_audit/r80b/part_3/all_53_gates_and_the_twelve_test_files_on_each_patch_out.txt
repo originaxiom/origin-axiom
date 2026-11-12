@@ -1,0 +1,41 @@
+ALL 53 GATES AND THE TWELVE TEST FILES THE PART CHANGES, ON A CLEAN CHECKOUT OF EACH PATCH OF R80b, PART 3 (2026-11-12)
+
+Built on main's 10fbbc1c2 with R80a and parts 1 and 2. Each gate is called from the checkout's own scripts/gates/gates.py.
+The commit in brackets is this seat's; main's will differ.
+
+patch 1 (0092e8d77): 53 gates, 53 pass | the twelve test files the part changes: 74 passed, 1 skipped in 25.94s
+patch 2 (a8f8fe34f): 53 gates, 53 pass | the twelve test files the part changes: 74 passed, 1 skipped in 25.01s
+patch 3 (f5d68de11): 53 gates, 53 pass | the twelve test files the part changes: 75 passed, 1 skipped in 30.02s
+patch 4 (30c9204c8): 53 gates, 53 pass | the twelve test files the part changes: 75 passed, 1 skipped in 30.55s
+patch 5 (9ad54aedb): 53 gates, 53 pass | the twelve test files the part changes: 75 passed, 1 skipped in 28.62s
+patch 6 (139526703): 53 gates, 53 pass | the twelve test files the part changes: 75 passed, 1 skipped in 29.79s
+patch 7 (92ecea572): 53 gates, 53 pass | the twelve test files the part changes: 75 passed, 1 skipped in 31.08s
+patch 8 (3c613d311): 53 gates, 53 pass | the twelve test files the part changes: 75 passed, 1 skipped in 31.74s
+patch 9 (a84f457b0): 53 gates, 53 pass | the twelve test files the part changes: 76 passed, 1 skipped in 28.19s
+patch 10 (1d0b8934b): 53 gates, 53 pass | the twelve test files the part changes: 76 passed, 1 skipped in 30.61s
+patch 11 (979cd3b4d): 53 gates, 53 pass | the twelve test files the part changes: 76 passed, 1 skipped in 28.12s
+patch 12 (ae28b8513): 53 gates, 52 pass; not passing: review-fires | the twelve test files the part changes: 77 passed, 1 skipped in 28.60s
+patch 13 (3f9c03bfb): 53 gates, 52 pass; not passing: review-fires | the twelve test files the part changes: 78 passed, 1 skipped in 30.57s
+patch 14 (0c721efb4): 53 gates, 52 pass; not passing: review-fires | the twelve test files the part changes: 79 passed, 1 skipped in 27.16s
+patch 15 (9fda2fbd7): 53 gates, 52 pass; not passing: review-fires | the twelve test files the part changes: 80 passed, 1 skipped in 28.95s
+patch 16 (1003f84f1): 53 gates, 52 pass; not passing: review-fires | the twelve test files the part changes: 81 passed, 1 skipped in 28.48s
+patch 17 (c2e62d03f): 53 gates, 52 pass; not passing: review-fires | the twelve test files the part changes: 81 passed, 1 skipped in 31.33s
+patch 18 (59898b32d): 53 gates, 52 pass; not passing: review-fires | the twelve test files the part changes: 81 passed, 1 skipped in 31.77s
+
+THE ONE GATE THAT DOES NOT PASS, from patch 12: the count of landings since the review's anchor, c40446392. On this seat's
+chain each patch is a commit, and the count reaches 40 at this part's twelfth patch; on main's line, which has one commit
+more, at its eleventh. It is a count and not a fault of a patch.
+
+The twelve test files:
+  frontier/B1882_the_v1_card_run_on_main/verification/test_b1882_the_v1_card_run_on_main.py
+  frontier/B1884_what_level_a_ground_names_verified/verification/test_b1884_what_level_a_ground_names_verified.py
+  frontier/B1891_the_foundation_at_version_1_66/verification/test_b1891_the_foundation_at_version_1_66.py
+  frontier/B1893_the_second_enforcement_series_verified_and_landed/verification/test_b1893_the_second_enforcement_series_verified_and_landed.py
+  frontier/B1894_review_79_the_second_round/verification/test_b1894_review_79_the_second_round.py
+  frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/test_b1898_review_80.py
+  tests/test_b1028_freedom_ledger.py
+  tests/test_b1641_w46_on_main_and_the_two_objects.py
+  tests/test_b448.py
+  tests/test_b734_m004_congruence.py
+  tests/test_b862_global_form.py
+  tests/test_b874_ladder.py

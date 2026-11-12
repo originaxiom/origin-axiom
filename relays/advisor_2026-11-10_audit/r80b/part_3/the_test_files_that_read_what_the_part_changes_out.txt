@@ -1,0 +1,119 @@
+THE 100 TEST FILES THAT READ A PAGE, A LEDGER OR AN ARC THAT R80b, PART 3 CHANGES, IN ONE PROCESS (2026-11-12)
+
+On the commit before the part (part 2's last patch):
+  FAILED frontier/B1849_the_leads_confirmed_one_by_one/verification/test_b1849_the_leads_confirmed_one_by_one.py::test_the_cyclic_texture_check_reproduces
+  FAILED frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py::test_the_generating_pair_check_reproduces
+  FAILED tests/test_b1425_determinism.py::test_the_papers_retraction_count_matches_the_index
+  3 failed, 666 passed, 4 skipped in 436.19s (0:07:16)
+
+On the last patch of the part:
+  FAILED frontier/B1849_the_leads_confirmed_one_by_one/verification/test_b1849_the_leads_confirmed_one_by_one.py::test_the_cyclic_texture_check_reproduces
+  FAILED frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py::test_the_generating_pair_check_reproduces
+  FAILED tests/test_b1425_determinism.py::test_the_papers_retraction_count_matches_the_index
+  3 failed, 670 passed, 4 skipped in 446.23s (0:07:26)
+
+The same three fail on both. Each fails at main's head: R80a's note, section 9. The four tests more are in files of
+this list; three of the seven test functions the part adds are in files the list does not hold, and are run on each
+patch with the twelve test files the part changes.
+
+The files:
+  frontier/B1647_review_63_the_field_window/verification/test_b1647_review_63.py
+  frontier/B1831_review_74_the_decadal_review/verification/test_b1831_review_74.py
+  frontier/B1833_the_brainstorms_reread/verification/test_b1833_the_brainstorms_reread.py
+  frontier/B1844_review_75_the_decadal_review/verification/test_b1844_review_75.py
+  frontier/B1848_review_76_the_decadal_review/verification/test_b1848_review_76.py
+  frontier/B1849_the_leads_confirmed_one_by_one/verification/test_b1849_the_leads_confirmed_one_by_one.py
+  frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py
+  frontier/B1851_the_chiral_premise_relocated_verified/verification/test_b1851_the_chiral_premise_relocated_verified.py
+  frontier/B1859_the_door_set_is_one_and_four/verification/test_b1859_the_door_set_is_one_and_four.py
+  frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py
+  frontier/B1870_the_audits_backlog_reproduced_on_main/verification/test_b1870_the_audits_backlog_reproduced_on_main.py
+  frontier/B1873_the_programme_read_by_a_non_author/verification/test_b1873_the_programme_read_by_a_non_author.py
+  frontier/B1877_review_78_the_decadal_review/verification/test_b1877_review_78.py
+  frontier/B1878_the_goal_as_ruled_in_the_governing_documents/verification/test_b1878_the_goal_as_ruled.py
+  frontier/B1880_the_third_and_fourth_re_audits_answered/verification/test_b1880_the_third_and_fourth_re_audits_answered.py
+  frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py
+  frontier/B1889_the_seats_digested/verification/test_b1889_the_seats_digested.py
+  frontier/B1894_review_79_the_second_round/verification/test_b1894_review_79_the_second_round.py
+  frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/verification/test_b1895_the_mends_of_b1881_read.py
+  frontier/B1896_the_third_enforcement_series_verified_and_landed/verification/test_b1896_the_third_enforcement_series_verified_and_landed.py
+  frontier/B1897_b1881s_lock_tested_by_a_session_that_did_not_write_it/verification/test_b1897_b1881s_lock_tested_by_a_session_that_did_not_write_it.py
+  tests/test_a_gate_reads_all_it_is_about.py
+  tests/test_append_only_history.py
+  tests/test_arrival_phrases.py
+  tests/test_artifact_hashes.py
+  tests/test_b1010_consolidation_loss.py
+  tests/test_b1017_recount.py
+  tests/test_b1028_freedom_ledger.py
+  tests/test_b1034_l154.py
+  tests/test_b1176_record_surface_wave.py
+  tests/test_b1177_instrument_bundle.py
+  tests/test_b1181_amphichirality_closure.py
+  tests/test_b1218_open_claim_sweep.py
+  tests/test_b1219_reverse_sweep.py
+  tests/test_b1237_physics_seat_harvest.py
+  tests/test_b1241_master_identification_priced.py
+  tests/test_b1264_h5_census.py
+  tests/test_b1290_index_formula.py
+  tests/test_b1298_the_lift_fork.py
+  tests/test_b1299_the_period_2_duality.py
+  tests/test_b1302_the_sibling_m202.py
+  tests/test_b1307_the_harvest_gate.py
+  tests/test_b1326_retracted_claims_do_not_speak.py
+  tests/test_b1341_findings_hits_show_verdict.py
+  tests/test_b1422_foundations_reread.py
+  tests/test_b1425_determinism.py
+  tests/test_b1426_every_lane_is_watched.py
+  tests/test_b1453_sm_join_arcs_harvested.py
+  tests/test_b1457_audit_lane_harvest.py
+  tests/test_b1460_genesis_v1_5.py
+  tests/test_b1462_seats_harvested.py
+  tests/test_b1467_seats_evening.py
+  tests/test_b1469_sep16_rowed.py
+  tests/test_b1478_web_seat_harvest.py
+  tests/test_b1619_the_codex_lanes_rowed.py
+  tests/test_b1641_w46_on_main_and_the_two_objects.py
+  tests/test_b1655_main_audits_its_negatives.py
+  tests/test_b1700_the_higgs_end_data_is_the_unit.py
+  tests/test_b1754_genesis_v1_58.py
+  tests/test_b1797_genesis_v1_59.py
+  tests/test_b1819_the_rigid_censuss_smoothness_in_tau.py
+  tests/test_b448.py
+  tests/test_b471_harvest.py
+  tests/test_b734_m004_congruence.py
+  tests/test_b799_doors.py
+  tests/test_b817_wave2.py
+  tests/test_b827_progresslog_recovery.py
+  tests/test_b862_global_form.py
+  tests/test_b874_ladder.py
+  tests/test_b892_smt.py
+  tests/test_b892_walls_on_the_line.py
+  tests/test_b942_l113.py
+  tests/test_b948_relay.py
+  tests/test_b957_l124.py
+  tests/test_b961_frame.py
+  tests/test_b965_scope_audit.py
+  tests/test_b967_retraction_sweep.py
+  tests/test_b981_two_ended.py
+  tests/test_context_recovery_card.py
+  tests/test_doc_facts.py
+  tests/test_e21_group_naming_guard.py
+  tests/test_gate_failing_paths.py
+  tests/test_gates_are_a_function_of_the_commit.py
+  tests/test_genesis_gate.py
+  tests/test_harvest_debt_gate.py
+  tests/test_harvest_scheduled_counter.py
+  tests/test_no_hardcoded_paths.py
+  tests/test_nothing_leaves_a_ledger.py
+  tests/test_p3_verification_package.py
+  tests/test_point_debt_gate.py
+  tests/test_public_surface_scan.py
+  tests/test_readme_front_door.py
+  tests/test_relay_debt_gate.py
+  tests/test_review_tools.py
+  tests/test_seal_immutable.py
+  tests/test_seat_listener.py
+  tests/test_stale_absence_lock.py
+  tests/test_the_programme_so_far.py
+  tests/test_topic_sweep_register.py
+  tests/test_workdesk_builds.py

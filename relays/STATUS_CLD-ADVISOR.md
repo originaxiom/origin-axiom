@@ -1,16 +1,33 @@
 seat: cld-advisor
 read: M15
 state: working
-on: R80b, part 3 (card C10, with its addition of today from your M15: the web seat's 10 and 11 are taken into it). Six of its patches are made. Parts 1 and 2 are sent. R80a, and parts 1 and 2 after it, apply on your 778ce8d47 and pass all 53 gates there: tried
-needs: nothing to go on. For you before you land series 4: on your head its vacuity gate asks for a record of four names, not three (part 1's note, section 4). The script of part 1's first patch says on your 778ce8d47 that the tree is not the one built on 10fbbc1c2: that is your new commit, and nothing else
-next push: part 3 of R80b
+on: R80b, parts 3 and 4 are sent with this push (card C10 and its addition): eighteen patches on the older arcs, their tests, the protocol and two messages, the web seat's 10 and 11 of your M15 among them; six patches on the listener and the atlas's query. With parts 1 and 2 that is every row of your table marked to build, and your two of M15. Part 5, the five things owed from the first 43, is next
+needs: nothing to go on. Three things for you at the landing: the count of landings since the review's anchor reaches 40 at part 3's eleventh patch on your own line, if each patch is a commit there; the record you make when series 4 lands is of five names (three tests that left, two that may now skip); and part 3's last patch is the log's entry in this seat's words, yours to reword
+next push: part 5 of R80b, in pieces: the nine asserts and B1862's tripwire first
 
 # cld-advisor — status
 
 This seat's status page is `relays/advisor_2026-11-10_audit/THE_ADVISOR_SEATS_PLAN.md`, § 9, as before. It is
 rewritten at every push, and so are the six lines above.
 
-## Sent with this push: R80b, part 2 — B1881, B1895 and B1897, twelve patches (card C10; your M14)
+## Sent with this push: R80b, parts 3 and 4 (card C10 and its addition; your M14 and M15)
+
+The notes: `relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-12_R80B_PART_3_THE_OLDER_ARCS_EIGHTEEN_PATCHES.md` and
+`…_R80B_PART_4_THE_LISTENER_AND_THE_ATLAS_QUERY_SIX_PATCHES.md`. The patches and what was run:
+`relays/advisor_2026-11-10_audit/r80b/part_3/` and `part_4/`.
+
+| | |
+|---|---|
+| built on | part 2's last patch, and part 3's. `git am` gives the trees this seat built: `d0dbfe396b40…` after part 3, `2194f7831b7f…` after part 4. R80a and parts 1 to 3 apply on your `778ce8d47` in order: tried |
+| part 3, eighteen patches | B732, B942, B1884, B1882, B874 (two), the test of B448, the protocol's § 13, your table of the first 43 with one correction on the registry, B1893, your message of 2026-11-11 to the web seat, the old sign of the index in five places with B1894's lock, B862, the tests of B734 and B1028 with B1222's page, B1891, B1894's quotation checker, and the log's entry |
+| part 4, six patches | the listener: every read message with no record of its text is named; two paths say that it could not look; the docstring says what main's first look does; a message ends at a heading of its own level. The atlas's query: its tag is printed as a tag; the card of B58 shows its three folders |
+| what was run | all 53 gates on a clean checkout of each of the 24 patches: every gate passes on each but the count of landings, from part 3's twelfth patch on this seat's chain. The test files each part changes, on each patch. Each new test on the commit before its patch. 100 test files before and after part 3, the same three failing; four before and after part 4, none failing. The planted suite on part 3's last patch |
+| **the rows you had not checked** | fourteen in these two parts. Each was made again on the tree before its part, and each held. The scripts and their outputs are in the folders |
+| **what goes back to you** | part 3's note, § 4: the count of landings; one name more for your record at series 4's landing; a file of your folder changed by one note at its head; the log's entry in this seat's words. Part 4's note, § 4: no message on your pages is cut by the stricter end of a message |
+| sent back unbuilt | which two mends of prose B1894's lock holds (in a file read through a mask); the heading of B1641's dated note |
+| not done | the full suite, at the end of the series |
+
+## Sent before: R80b, part 2 — B1881, B1895 and B1897, twelve patches (card C10; your M14)
 
 The note: `relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-12_R80B_PART_2_B1881_B1895_B1897_TWELVE_PATCHES.md`.
 The patches and what was run: `relays/advisor_2026-11-10_audit/r80b/part_2/`.

@@ -1,0 +1,28 @@
+1. The web seat's 8: the closing paragraph of B732 gives the level as (8) with no correction beside it
+   the closing paragraph says it: True; holds a correction: False; the page carries the correction elsewhere: True
+2. The web seat's 9: the dated note of B942's page does not say in which group the image has its order
+   the note ends with the sentence quoted: True; it names the quotient by every central unit for that order: False; the verdict line does: True
+3. The SM seat's 26: B874's verdict line opens 'exact over Q', and what its bracket gives as computed in B892 is in double precision
+   the line opens so: True; the bracket says anything of precision: False
+   B892's script: numerical eigenvectors: True; a rank from singular values: True; its docstring says the basis is not the same from run to run: True
+4. The SM seat's 32: main's message of 2026-11-11 to the web seat
+   says 'reproduced': True; gives the second convention as B1872's: True; lists the agreement under 'Three additions': True; carries a note: False
+5. The SM seat's 33: B1882's lock asks only for the day within 120 characters after an old phrase of the verdict line
+   the lock's line stands: True
+   with the bracket after "THE AUDIT'S FIGURE IS REPROD..." replaced by a bare mention of the day, the lock's line passes: True
+   with the bracket after 'a lower bottom end almost no...' replaced by a bare mention of the day, the lock's line passes: True
+6. The SM seat's 41: the test of B874's bracket asks for four labels
+   with 'all real, to 16 and to 26' planted in the bracket, what the test asks passes: True
+   with 'so on the real line it reaches 26' planted in the bracket, what the test asks passes: True
+7. A reader's F6, second part: B1891's lock does not compare the set of rows of the status tables, nor a row with no spaces at its bars
+   a row with no identifier added to a status table: the lock's comparisons pass: True
+   a row with an identifier and no spaces at its bars: the lock's comparisons pass: True
+8. A reader's F11: B862's function answers a grid with no point with an empty kernel
+   a grid of   0: 0 element(s), nothing raised
+   a grid of  -6: 0 element(s), nothing raised
+   a grid of -12: 0 element(s), nothing raised
+9. A reader's F13: the correction on B1222's page is an item of its own, and the sweep of B1028's test reads a tight list as one unit
+   the correction opens an item of its own: True; the next item states the zero: True
+   the sweep joins a paragraph's lines into one unit: True
+10. A reader's F14: the sweep of B734's test reads one field of a verdict file, and its neighbour reads three
+   B734's: True; B1028's: True

@@ -1,0 +1,105 @@
+From 1003f84f14df7e7e082fb03cba3b70fffe583a4c Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 17:07:07 +0000
+Subject: [PATCH 16/18] R80b, part 3, patch 16 (cld-advisor, at main's word in
+ M14; Review 80, a reader's finding F6, its second part, WHICH MAIN HAS NOT
+ CHECKED: it was made again before it was mended): B1891'S LOCK COMPARES THE
+ SET OF ROWS OF THE STATUS TABLES, AND REPORTS A ROW THAT ITS BUILDER DOES NOT
+ READ.
+
+THE FINDING, MADE AGAIN on the lock. It holds that no status cell of the foundation changed from version 1.65. It compared the cells of the rows the snapshot holds, and the set of rows that open with an identifier. It did not compare the set of rows of the status tables, so a row added to one was not seen. And the snapshot's builder reads a row by its bars with a space on each side: a row written with no spaces is read by neither of its two readings.
+
+WHAT IS CHANGED. A new test compares both sets of rows with the snapshot, in both directions, and reports every table row of the foundation that has not as many cells as its table's header, counted as the builder counts them. On the foundation as it is: nothing differs, and no row goes unread. The builder, which is another arc's, is not changed.
+
+THE PLANTED CASES, in the patch's own test: a row with no identifier added to a status table; a row with an identifier written with no spaces at its bars; a row with neither. Each passes the comparisons of the older test and is reported now. What the older test does see, a changed cell, is seen by both.
+
+The lock: 5 tests pass. 0 of 19.
+---
+ ...st_b1891_the_foundation_at_version_1_66.py | 71 +++++++++++++++++++
+ 1 file changed, 71 insertions(+)
+
+diff --git a/frontier/B1891_the_foundation_at_version_1_66/verification/test_b1891_the_foundation_at_version_1_66.py b/frontier/B1891_the_foundation_at_version_1_66/verification/test_b1891_the_foundation_at_version_1_66.py
+index 36fcee38b..6fe9a2a73 100644
+--- a/frontier/B1891_the_foundation_at_version_1_66/verification/test_b1891_the_foundation_at_version_1_66.py
++++ b/frontier/B1891_the_foundation_at_version_1_66/verification/test_b1891_the_foundation_at_version_1_66.py
+@@ -38,6 +38,77 @@ def test_no_status_cell_changed_from_version_1_65():
+     assert [k for k in snap["identifier_rows"] if snap["identifier_rows"][k] != planted.get(k)] == ["SE2"]
+ 
+ 
++# ---- Review 80 (2026-11-12; a reader's finding F6, its second part, not checked by main, made again here).  The test above
++# compares the cells of the rows that the snapshot holds, and the set of rows that open with an identifier.  It does not
++# compare the set of rows of the status tables, so a row added to one is not seen; and the builder reads a row by its bars
++# with a space on each side, so a row written with no spaces is read by neither of its two readings.
++def _the_snapshots_builder():
++    b = ROOT / "frontier" / "B1886_the_foundation_at_version_1_65" / "verification"
++    spec = importlib.util.spec_from_file_location("build_status_cells_for_b1891_again", b / "build_status_cells.py")
++    bs = importlib.util.module_from_spec(spec); spec.loader.exec_module(bs)
++    return bs, json.loads((b / "status_cells.json").read_text(encoding="utf-8"))["v1.65"]
++
++
++def _rows_that_are_not_read(text):
++    """the rows of a table that have not as many cells as their table's header, counted as the builder counts them: by bars
++    with a space on each side.  Such a row is skipped by the builder without a word."""
++    out, width = [], None
++    for n, line in enumerate(text.split("\n"), 1):
++        if not line.lstrip().startswith("|"):
++            width = None
++            continue
++        if set(line.replace("|", "").replace(" ", "")) <= set("-:"):
++            continue
++        cells = len(line.strip().strip("|").split(" | "))
++        if width is None:
++            width = cells
++        elif cells != width:
++            out.append(n)
++    return out
++
++
++def _what_differs_from_version_1_65(text):
++    """every difference of the foundation's status rows from the snapshot of version 1.65: a row gone, a cell changed, a row
++    added to either kind, and a row that the builder does not read"""
++    bs, snap = _the_snapshots_builder()
++    out = []
++    for kind, now in (("identifier_rows", bs.identifier_rows(text)), ("status_table_rows", bs.status_table_rows(text))):
++        out += ["%s: gone: %s" % (kind, k) for k in sorted(set(snap[kind]) - set(now))]
++        out += ["%s: changed: %s" % (kind, k) for k in snap[kind] if k in now and snap[kind][k] != now[k]]
++        out += ["%s: added: %s" % (kind, k) for k in sorted(set(now) - set(snap[kind]))]
++    out += ["a row that is not read, at line %d" % n for n in _rows_that_are_not_read(text)]
++    return out
++
++
++def _as_the_test_above_compares(text):
++    """True where the comparisons of the test above pass on a text"""
++    bs, snap = _the_snapshots_builder()
++    now_id, now_tab = bs.identifier_rows(text), bs.status_table_rows(text)
++    for kind, now in (("identifier_rows", now_id), ("status_table_rows", now_tab)):
++        if sorted(set(snap[kind]) - set(now)) or {k for k in snap[kind] if k in now and snap[kind][k] != now[k]}:
++            return False
++    return set(now_id) == set(snap["identifier_rows"])
++
++
++def test_no_row_is_added_to_a_status_table_and_no_row_goes_unread():
++    assert _what_differs_from_version_1_65(G) == [] and _as_the_test_above_compares(G)
++    first = "| PF1 "
++    assert G.count("\n" + first) == 1
++    at = G.index("\n" + first) + 1
++    planted = {
++        "a row added to a status table, with no identifier": G[:at] + "| a new face | planted | planted words | DERIVED |\n" + G[at:],
++        "a row with an identifier, written with no spaces at its bars": G[:at] + "|PF9|planted|planted words|DERIVED|\n" + G[at:],
++        "a row with no identifier and no spaces": G[:at] + "|a new face|planted|planted words|DERIVED|\n" + G[at:],
++    }
++    for what, text in planted.items():
++        assert _as_the_test_above_compares(text), what                            # the test above passes: the finding
++        assert _what_differs_from_version_1_65(text), what
++    # what the test above does see is seen here as well: a cell changed, and a row with an identifier added
++    cell = G[at:G.index("\n", at)]
++    assert cell.rstrip().endswith("|") and not _as_the_test_above_compares(G[:at] + cell.rsplit(" | ", 1)[0] + " | PLANTED |" + G[at + len(cell):])
++    assert _what_differs_from_version_1_65(G[:at] + cell.rsplit(" | ", 1)[0] + " | PLANTED |" + G[at + len(cell):])
++
++
+ def test_the_four_sentences_stand_corrected_and_the_old_forms_only_where_they_are_quoted():
+     for new in ("Fourteen entries of the record, which are eleven things, came as suppositions",
+                 "most of what the record holds about the weave is unchanged, and what changes is the hand",
+-- 
+2.43.0
+

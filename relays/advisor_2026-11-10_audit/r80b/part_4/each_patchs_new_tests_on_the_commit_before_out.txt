@@ -1,0 +1,46 @@
+THE TESTS THAT THE PATCHES OF R80b, PART 4 ADD, EACH RUN ON THE COMMIT BEFORE ITS PATCH (2026-11-12)
+
+The test file is as the patch leaves it; everything else is as it was on the commit before. Each of its six patches adds a test function.
+A test that fails here fails for want of the mend. A test that passes here tests a reading that lives in the test file
+itself, and carries its planted cases: what stood before passes them, what stands now reports them.
+
+==== patch 1 of the part: 915587119 -- THE LISTENER NAMES EVERY MESSAGE THAT WAS READ AND HAS NO RECORD OF ITS TEXT, WHETHER OR NOT A NEW ONE CAME.
+     its 1 tests, on the commit before (59898b32d):
+        E   AssertionError: assert ('holds no record of the text of M1 to M1' in 'YOUR PAGE ON MAIN HAS CHANGED (docs/seats/x.md, main at 786bc4116).\nMessages of main you have not read: M2. Newest first:\n\n### M2 — a day — a subject\n\n
+        tests/test_seat_listener.py:194: AssertionError: assert ('holds no record of the text of M1 to M1' in 'YOUR PAGE ON MAIN HAS CHANGED (docs/seats/x.md, main at 786bc4116).\nMessages of main you have not read: M2. Newest first:\n\n#
+     FAILED tests/test_seat_listener.py::test_every_read_message_with_no_record_of_its_text_is_named_whether_or_not_a_new_one_came
+     1 failed in 0.60s
+
+==== patch 2 of the part: f5f01d85c -- TWO PATHS ON WHICH THE LISTENER COULD NOT LOOK SAY SO.
+     its 1 tests, on the commit before (915587119):
+        E   AssertionError: ({'blob': 'x', 'read': 'two'}, '0/-home-user-origin-axiom/d284369a-531e-518f-82d9-d0b6a8e89435/scratchpad/r80b_am/scri...ms") or {}
+              ValueError: invalid literal for int() with base 10: \'two\'
+             +  where 1 = CompletedProcess(args=['/usr/local/bin/python3', '<a path under the scratch folder>'blob': 'x', 'read': 'two'}, '0/-home-user-origin-axiom/d284369a-531e-518f-82d9-d0b6a8e89435/scratchpad/r80b_am/scri...ms") or {}
+     FAILED tests/test_seat_listener.py::test_a_memory_that_holds_no_number_and_a_git_that_does_not_answer_are_said_as_they_are
+     1 failed in 0.51s
+
+==== patch 3 of the part: cc622d3c5 -- THE LISTENER'S DOCSTRING SAYS WHAT MAIN'S FIRST LOOK DOES.
+     its 1 tests, on the commit before (f5f01d85c):
+     E   AssertionError: assert ('On its FIRST LOOK' in 'The listener: how a seat hears main, and how main hears the seats, with nobody relaying by hand. A SEAT runs, in its ... 2 it could not look (no repository, n
+     <the checkout>/tests/test_seat_listener.py:258: AssertionError: assert ('On its FIRST LOOK' in 'The listener: how a seat hears main
+     FAILED tests/test_seat_listener.py::test_the_listeners_docstring_says_what_mains_first_look_does
+     1 failed in 0.37s
+
+==== patch 4 of the part: 0a4bdd54b -- A MESSAGE ENDS AT A HEADING OF ITS OWN LEVEL THAT IS NOT A MESSAGE.
+     its 1 tests, on the commit before (cc622d3c5):
+        E   AssertionError: assert ('text two' in '### M2 — a day — two\n\ntext two\n\n### What stands between the messages\n\nnot a message\n' and 'not a message' not in '### M2 — a ... a message\n'
+        tests/test_seat_listener.py:271: AssertionError: assert ('text two' in '### M2 — a day — two\n\ntext two\n\n### What stands between the messages\n\nnot a message\n' and 'not a message' not in '### M2 — a ... a message\n'
+     FAILED tests/test_seat_listener.py::test_a_message_ends_at_a_heading_of_its_own_level_that_is_not_a_message
+     1 failed in 0.17s
+
+==== patch 5 of the part: a3cd74673 -- THE ATLAS'S QUERY PRINTS ITS TAG AS A TAG, IN THE FOUR PLACES WHERE IT WAS STILL PRINTED AS A STATUS.
+     its 1 tests, on the commit before (0a4bdd54b):
+     FAILED tests/test_atlas.py::test_the_atlas_tag_is_printed_as_a_tag_and_never_as_a_status
+     1 failed in 3.82s
+
+==== patch 6 of the part: d16d37ec3 -- THE CARD OF AN ARC ID THAT SEVERAL FOLDERS CARRY SHOWS EVERY FOLDER.
+     its 1 tests, on the commit before (a3cd74673):
+        E   KeyError: 'verdicts_by_folder'
+        tests/test_atlas.py:149: KeyError: 'verdicts_by_folder'
+     FAILED tests/test_atlas.py::test_the_card_of_an_id_that_several_folders_carry_shows_every_folder
+     1 failed in 3.70s

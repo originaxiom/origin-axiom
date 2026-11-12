@@ -1,0 +1,61 @@
+From 92ecea57231302a3ccf62f913573b58c45e86fc2 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 17:07:07 +0000
+Subject: [PATCH 07/18] R80b, part 3, patch 7 (cld-advisor, at main's word in
+ M14; Review 80, the web seat's finding 10 of its second addition, given by
+ main in M15 and checked by main): THE TEST OF B448 ASSERTS THE LIST OF
+ DEGREES AT PERIOD 5, AND TWO LOOPS THAT NEVER RAN ARE GONE.
+
+WHAT STOOD. The assert that main mended for the web seat's first finding sat in a loop over the factors of degree 2 at period 5. There are none: computed here by the test's own function, the factors are t and the quintic. So the assert tested nothing, with its constant or without it. Negated, or replaced by a failing assert, the test passed. The loop below it had the same guard.
+
+WHAT IS CHANGED, as main asks. The test asserts that the degrees are [1, 5], and that no factor has degree 2. The two loops stand in a dated note, line for line.
+
+THE PLANTED CASES, run on the test before and after: before, the test passes with the mended assert negated and with a failing assert in its place; after, it fails with a quadratic factor put into the list, and with the list of degrees denied.
+
+The test file: 3 pass. 0 of 19.
+---
+ tests/test_b448.py | 28 ++++++++++++++++++----------
+ 1 file changed, 18 insertions(+), 10 deletions(-)
+
+diff --git a/tests/test_b448.py b/tests/test_b448.py
+index f1fb0223a..b3142c324 100644
+--- a/tests/test_b448.py
++++ b/tests/test_b448.py
+@@ -44,16 +44,24 @@ def test_orbit_tower_fields():
+     q = quintics[0]
+     assert sp.expand(q - (t**5 + t**4 + t**2 + 3*t + 1)) == 0
+     assert sp.discriminant(q, t) == 7**2 * 17**2
+-    # no quadratic factor with discriminant of squarefree part +5 anywhere at period 5
+-    for f in f5:
+-        if sp.degree(f, t) == 2:
+-            d = sp.discriminant(f, t)
+-            # [CORRECTED 2026-11-12 (Review 80, the web seat's finding 1): this assert ended in `or True`, which made it unable to fail; the constant is gone and the statement holds]
+-            assert sp.Integer(d).is_negative or abs(int(d)) % 5 != 0
+-    # and the golden field is absent: no factor field Q(sqrt(5))
+-    for f in f5:
+-        if sp.degree(f, t) == 2:
+-            assert sp.discriminant(f, t) != 5
++    # CORRECTED 2026-11-12, a second time (Review 80; the web seat's finding 10 of its second addition, checked by main).  Two
++    # loops stood here, over the period-5 factors of degree 2:
++    #     # no quadratic factor with discriminant of squarefree part +5 anywhere at period 5
++    #     for f in f5:
++    #         if sp.degree(f, t) == 2:
++    #             d = sp.discriminant(f, t)
++    #             # [CORRECTED 2026-11-12 (Review 80, the web seat's finding 1): this assert ended in `or True`, which made it unable to fail; the constant is gone and the statement holds]
++    #             assert sp.Integer(d).is_negative or abs(int(d)) % 5 != 0
++    #     # and the golden field is absent: no factor field Q(sqrt(5))
++    #     for f in f5:
++    #         if sp.degree(f, t) == 2:
++    #             assert sp.discriminant(f, t) != 5
++    # At period 5 there is no factor of degree 2: the factors are t and the quintic.  Neither loop was ever entered, so the
++    # mended assert tested nothing, with its constant or without it: negated, or replaced by `assert False`, the test passed.
++    # What the two loops were written to say is said by the list of degrees: no quadratic factor at period 5, so none whose
++    # field is Q(sqrt5).
++    assert sorted(int(sp.degree(f, t)) for f in f5) == [1, 5]
++    assert sp.Integer(1) * t in f5 and not [f for f in f5 if sp.degree(f, t) == 2]
+ 
+ 
+ def test_period4_orbit_closed_form():
+-- 
+2.43.0
+

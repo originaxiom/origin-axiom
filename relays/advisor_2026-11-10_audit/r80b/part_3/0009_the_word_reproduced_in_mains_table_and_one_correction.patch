@@ -1,0 +1,171 @@
+From a84f457b0dde81dacab730b073327cbe7393d667 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 17:07:07 +0000
+Subject: [PATCH 09/18] R80b, part 3, patch 9 (cld-advisor, at main's word in
+ M14; Review 80, the web seat's finding 11 of its second addition, given by
+ main in M15 and checked by main): MAIN'S TABLE OF THE FIRST 43 AND ONE
+ CORRECTION SAY THAT "REPRODUCED" IN THEM IS MAIN'S OWN CHECK.
+
+WHAT STOOD. The table's header says that two of four files are in, and that each row was reproduced by main; its two tables have a column headed as main's reproduction. The correction for the web seat's third finding, on the registry of retracted phrases, says that main reproduced it. All four files were in when the table was committed, and what main did was a check of its own.
+
+WHAT IS CHANGED. One dated note at the head of the table, in main's folder and in the arc B1898, which holds it: it says the two things, and that the words below stay as written. A second dated note under the correction on the registry.
+
+THE TABLE WAS HELD BYTE FOR BYTE in B1898, by its hash. The hash is of the table with its note now. A new test holds that under the note the table is the file main wrote, by the hash of main's own file. Planted in it: a cell changed under the note, and a paragraph slipped in after the note; each is reported. The arc's page says what changed.
+
+The lock of B1898: 7 tests pass. The reviewer's page is made again. If R80a lands changed, this patch is built again on it. 0 of 19.
+---
+ docs/RETRACTED_PHRASES.md                     |  5 +++
+ .../review80/ANSWERS_the_first_43.md          |  7 ++++
+ docs/views/REVIEWER.md                        |  4 +--
+ .../ANSWERS_the_first_43.md                   |  7 ++++
+ .../FINDINGS.md                               |  4 +++
+ .../verification/as_main_wrote_them.json      |  2 +-
+ .../verification/test_b1898_review_80.py      | 33 ++++++++++++++++++-
+ 7 files changed, 58 insertions(+), 4 deletions(-)
+
+diff --git a/docs/RETRACTED_PHRASES.md b/docs/RETRACTED_PHRASES.md
+index 69b19d6e8..49af4cd22 100644
+--- a/docs/RETRACTED_PHRASES.md
++++ b/docs/RETRACTED_PHRASES.md
+@@ -228,6 +228,11 @@ is not reported. Main reproduced it: a planted row on a new page is reported, an
+ register is not. Two of the held files are ledgers that grow. The rule that would hold a line is with the builder of
+ the checks.]*
+ 
++*[CORRECTED 2026-11-12, a second time (Review 80, the web seat's finding 11 of its second addition, checked by main):
++"Main reproduced it" in the correction above is main's own check, by planted rows of its own. It is not the protocol's
++"reproduced", which § 12 keeps for the same code run again on a clean checkout. The correction stays as it was
++written.]*
++
+ | scoped or withdrawn phrase | why | the current statement |
+ |---|---|---|
+ | the fraction of letters deep in the cusp is (k+1)/2^k at every length, so the unit of end data is not dynamical (B1629, GENESIS v1.38–v1.39) | (k+1)/2^k is the limit, within 2.4% at n = 10; "not dynamical" was computed only for the uniform measure on threads (the audit lane's questions) | GENESIS v1.44's FK10 note quotes the quantified statement; the owner's tagging of the unit stands (B1648) |
+diff --git a/docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/ANSWERS_the_first_43.md b/docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/ANSWERS_the_first_43.md
+index 54b8a3404..6b2350618 100644
+--- a/docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/ANSWERS_the_first_43.md
++++ b/docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/ANSWERS_the_first_43.md
+@@ -1,5 +1,12 @@
+ # Review 80: every finding of the readers, and what main did with it
+ 
++*[CORRECTED 2026-11-12, after it was written (Review 80; the web seat's finding 11 of its second addition, checked
++by main). The note is the building session's; below it the file is as main wrote it. Two things. The header says
++"DRAFT: two of four files are in": all four were in when the file was committed. And "reproduced" and "main's
++reproduction", in the header and in the headings of the two tables, are main's own check of a finding, by a recount,
++by planted errors of its own or by a constructed case. They are not the label "reproduced" of the protocol's § 12,
++which is kept for the same code run again on a clean checkout. The words stay as they were written.]*
++
+ *Main, 2026-11-12 (DRAFT: two of four files are in). Each row was reproduced by main before a word was changed: by a
+ recount from git or from the file, by planted errors of main's own in a scratch checkout, or by giving the function
+ itself a constructed case. W is the web seat's, A is agy-002's. "Held" means main found what the reader found.
+diff --git a/docs/views/REVIEWER.md b/docs/views/REVIEWER.md
+index 8e883c7e6..a2a4b7cfc 100644
+--- a/docs/views/REVIEWER.md
++++ b/docs/views/REVIEWER.md
+@@ -20,7 +20,7 @@ result, not the debt.
+ | | |
+ |---|---|
+ | research arcs with findings | **1600** |
+-| words of findings prose | **1,418,304** |
++| words of findings prose | **1,418,369** |
+ | test lock files referenced | **944** |
+ | arcs carrying an authored verdict | **1600** (100.0 %) |
+ | recorded closures | **859** (692 classified, 167 routed-only) |
+@@ -65,7 +65,7 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
+ 
+ One of each disposition, so the ledger's vocabulary can be checked against real arcs.
+ 
+-**PROVED — `B1898`** (2237 words, 0 locks)  
++**PROVED — `B1898`** (2302 words, 0 locks)  
+ REVIEW 80: 100 FINDINGS ON MAIN'S WORK SINCE REVIEW 79, in four readers' files and one dated addition, every quotation but the addition's two found by machine at the commit read (7 of 7, 36 of 36, 50 of 50, 14 of 14). MAIN CHECKED 80 OF THEM IN FULL AND EVERY ONE HELD; it checked 3 more in part; 17 have been looked at by nobody but their reader. The first 43 are mended on main or with the builder of the enforcement package (16 whole rows). Of the other 57, 16 are mended or noted on main and 41 WAIT TO BE BUILT. One plant of main's own passes the lock it was written against (B1885's note on the grid's digits). The window is 26 commits and 7 added arcs; the law map and the theorem registry have the rows they had. No reader was tested against planted faults. 0 of 19.  
+ `B1898_review_80_one_hundred_findings_and_what_main_checked/FINDINGS.md`
+ 
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/ANSWERS_the_first_43.md b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/ANSWERS_the_first_43.md
+index 54b8a3404..6b2350618 100644
+--- a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/ANSWERS_the_first_43.md
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/ANSWERS_the_first_43.md
+@@ -1,5 +1,12 @@
+ # Review 80: every finding of the readers, and what main did with it
+ 
++*[CORRECTED 2026-11-12, after it was written (Review 80; the web seat's finding 11 of its second addition, checked
++by main). The note is the building session's; below it the file is as main wrote it. Two things. The header says
++"DRAFT: two of four files are in": all four were in when the file was committed. And "reproduced" and "main's
++reproduction", in the header and in the headings of the two tables, are main's own check of a finding, by a recount,
++by planted errors of its own or by a constructed case. They are not the label "reproduced" of the protocol's § 12,
++which is kept for the same code run again on a clean checkout. The words stay as they were written.]*
++
+ *Main, 2026-11-12 (DRAFT: two of four files are in). Each row was reproduced by main before a word was changed: by a
+ recount from git or from the file, by planted errors of main's own in a scratch checkout, or by giving the function
+ itself a constructed case. W is the web seat's, A is agy-002's. "Held" means main found what the reader found.
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/FINDINGS.md b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/FINDINGS.md
+index 930d28f7a..fc768e14e 100644
+--- a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/FINDINGS.md
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/FINDINGS.md
+@@ -166,6 +166,10 @@ object.
+ 
+ - **This arc mends nothing.** A finding that waits is said to wait. The mends are the series R80b.
+ - **The first table is headed as a draft** written when two of the four files were in. It stands as main wrote it.
++  [CHANGED 2026-11-12 (Review 80; a reader's finding of its second addition, checked by main): the table has one
++  dated note at its head since that day. It says that all four files were in when the table was committed, and
++  that "reproduced" in it is main's own check and not the protocol's label. No word below the note is changed, and
++  the lock holds that.]
+ - **The dated addition of the web seat** has no check of its quotations in main's folder, and none was written for
+   this arc.
+ - **The full suite on a fresh clone** was not run for this arc by the review's tool. What was run on the patch that
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/as_main_wrote_them.json b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/as_main_wrote_them.json
+index b0c5233b1..507ebc857 100644
+--- a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/as_main_wrote_them.json
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/as_main_wrote_them.json
+@@ -1,5 +1,5 @@
+ {
+- "ANSWERS_the_first_43.md": "3f695c3045d46fe4a9cb31ba381b8bfede178282aac8958f26bed51a60d7eb22",
++ "ANSWERS_the_first_43.md": "eb71f796bcdfc53c370ff3c50f2bc1ba58666cef9e97798cc0da0796ba6ec29b",
+  "STATUS_OF_THE_57.md": "30f388d87b590425f324b476c3e26d3fea24776596f5b8c7cc3533a97346354c",
+  "verification/checks/b1895_probes.json": "630ee7fc52a6ad55e81076d1397f24afcaadc03aef5cc19b4fd7e7983492a1f4",
+  "verification/checks/b1895_probes.py": "ceade5b315a647b5b11ce32d55f855ae32c9a0805a286e45e104d24afde864cf",
+diff --git a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/test_b1898_review_80.py b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/test_b1898_review_80.py
+index 64401a47a..9f15c309e 100644
+--- a/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/test_b1898_review_80.py
++++ b/frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/test_b1898_review_80.py
+@@ -41,8 +41,39 @@ def _have(commit):
+     return subprocess.run(["git", "-C", str(ROOT), "cat-file", "-e", commit + "^{commit}"], capture_output=True).returncode == 0
+ 
+ 
++_THE_FIRST_TABLE_AS_MAIN_WROTE_IT = "3f695c3045d46fe4a9cb31ba381b8bfede178282aac8958f26bed51a60d7eb22"
++_THE_NOTE_AT_ITS_HEAD = "*[CORRECTED 2026-11-12, after it was written (Review 80; the web seat's finding 11 of its second addition, checked\nby main)."
++
++
++def _under_its_note(text):
++    """the first table without the dated note at its head: the title, then everything after the note's paragraph"""
++    title = "# Review 80: every finding of the readers, and what main did with it\n\n"
++    if not text.startswith(title + _THE_NOTE_AT_ITS_HEAD):
++        return text
++    rest = text[len(title):]
++    return title + rest[rest.index("]*\n\n") + len("]*\n\n"):]
++
++
++def test_the_first_table_is_as_main_wrote_it_under_one_dated_note():
++    """Added 2026-11-12 (Review 80; the web seat's finding 11 of its second addition, checked by main).  The first table said
++    "reproduced" for main's own checks and was headed as a draft with two of four files in.  A dated note at its head says so
++    and changes no word below it.  Held here: without that note the file is main's, by the hash of main's own file; and the
++    note says the two things.  Planted: a word changed under the note, and a second paragraph slipped in after the note."""
++    text = (ARC / "ANSWERS_the_first_43.md").read_text(encoding="utf-8")
++    sha = lambda t: hashlib.sha256(t.encode("utf-8")).hexdigest()
++    assert text.count(_THE_NOTE_AT_ITS_HEAD) == 1 and sha(_under_its_note(text)) == _THE_FIRST_TABLE_AS_MAIN_WROTE_IT
++    note = text[text.index(_THE_NOTE_AT_ITS_HEAD):text.index("]*\n\n") + 2]
++    assert "all four were in when the file was committed" in note and "They are not the label \"reproduced\" of the protocol's § 12" in note
++    changed = text.replace("| W1 |", "| W1 [changed] |", 1)
++    assert changed != text and sha(_under_its_note(changed)) != _THE_FIRST_TABLE_AS_MAIN_WROTE_IT
++    slipped = text.replace("]*\n\n", "]*\n\nA second paragraph, not main's.\n\n", 1)
++    assert sha(_under_its_note(slipped)) != _THE_FIRST_TABLE_AS_MAIN_WROTE_IT
++
++
+ def test_mains_files_are_as_main_wrote_them():
+-    """the two tables and every check, by hash.  The hashes are of main's own files in its folder of 2026-11-12."""
++    """the two tables and every check, by hash.  The hashes are of main's own files in its folder of 2026-11-12.
++    CHANGED 2026-11-12 (Review 80): the first table has one dated note at its head since that day, in the folder and here;
++    its hash is of the file with the note, and the test above holds that under the note it is the file main wrote."""
+     names = ["ANSWERS_the_first_43.md", "STATUS_OF_THE_57.md"] + sorted("verification/checks/" + p.name for p in (HERE / "checks").iterdir())
+     assert names == sorted(HELD, key=lambda n: (not n.endswith(".md"), n)) and len(names) == 26
+     for name in names:
+-- 
+2.43.0
+

@@ -1,0 +1,15 @@
+ALL 53 GATES, THE LISTENER'S TESTS AND THE ATLAS'S TESTS, ON A CLEAN CHECKOUT OF EACH PATCH OF R80b, PART 4 (2026-11-12)
+
+Built on part 3's last patch. Each gate is called from the checkout's own scripts/gates/gates.py. The commit in brackets is
+this seat's; main's will differ.
+
+patch 1 (915587119): 53 gates, 52 pass; not passing: review-fires | the listener's tests and the atlas's tests: 22 passed in 11.07s
+patch 2 (f5f01d85c): 53 gates, 52 pass; not passing: review-fires | the listener's tests and the atlas's tests: 23 passed in 11.30s
+patch 3 (cc622d3c5): 53 gates, 52 pass; not passing: review-fires | the listener's tests and the atlas's tests: 24 passed in 11.28s
+patch 4 (0a4bdd54b): 53 gates, 52 pass; not passing: review-fires | the listener's tests and the atlas's tests: 25 passed in 11.67s
+patch 5 (a3cd74673): 53 gates, 52 pass; not passing: review-fires | the listener's tests and the atlas's tests: 26 passed in 11.06s
+patch 6 (d16d37ec3): 53 gates, 52 pass; not passing: review-fires | the listener's tests and the atlas's tests: 27 passed in 11.20s
+
+THE ONE GATE THAT DOES NOT PASS is the count of landings since the review's anchor, which passed 40 inside part 3 (its note,
+section 4). It is a count and not a fault of a patch. Before the part the two test files hold 21 tests: 8 of the listener
+and 13 of the atlas. After it they hold 27.

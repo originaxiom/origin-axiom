@@ -1,0 +1,8 @@
+BEFORE THE PATCH
+  as it is:                                         1 passed, 2 deselected
+  the mended assert negated:                        1 passed, 2 deselected
+  the mended assert replaced by `assert False`:     1 passed, 2 deselected
+AFTER THE PATCH
+  as it is:                                         1 passed, 2 deselected
+  a factor t**2 - t - 1 put into the list:          1 failed, 2 deselected
+  the list of degrees denied:                       1 failed, 2 deselected

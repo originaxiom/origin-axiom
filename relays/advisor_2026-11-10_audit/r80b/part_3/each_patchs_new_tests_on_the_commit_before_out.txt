@@ -1,0 +1,45 @@
+THE TESTS THAT THE PATCHES OF R80b, PART 3 ADD, EACH RUN ON THE COMMIT BEFORE ITS PATCH (2026-11-12)
+
+The test file is as the patch leaves it; everything else is as it was on the commit before. Seven of its eighteen patches add a test function. The others change a test that stands, or a page; their planted cases are
+in the test itself.
+A test that fails here fails for want of the mend. A test that passes here tests a reading that lives in the test file
+itself, and carries its planted cases: what stood before passes them, what stands now reports them.
+
+==== patch 3 of the part: f5d68de11 -- TWO SENTENCES OF B1884 SAY NO MORE THAN ITS TABLE AND ITS PAGE.
+     its 1 tests, on the commit before (a8f8fe34f):
+     FAILED frontier/B1884_what_level_a_ground_names_verified/verification/test_b1884_what_level_a_ground_names_verified.py::test_the_verdict_line_does_not_leave_the_column_convention_as_mains_own
+     1 failed in 0.25s
+
+==== patch 9 of the part: a84f457b0 -- MAIN'S TABLE OF THE FIRST 43 AND ONE CORRECTION SAY THAT "REPRODUCED" IN THEM IS MAIN'S OWN CHECK.
+     its 1 tests, on the commit before (3c613d311):
+     FAILED frontier/B1898_review_80_one_hundred_findings_and_what_main_checked/verification/test_b1898_review_80.py::test_the_first_table_is_as_main_wrote_it_under_one_dated_note
+     1 failed in 0.24s
+
+==== patch 12 of the part: ae28b8513 -- THE OLD SIGN OF THE INDEX FOR A UNIT ON ONE LINE IS CORRECTED WHERE IT STILL STOOD, AND B1894'S LOCK LOOKS FOR
+     its 1 tests, on the commit before (979cd3b4d):
+        E   AssertionError: CHANGELOG.md
+        frontier/B1894_review_79_the_second_round/verification/test_b1894_review_79_the_second_round.py:105: AssertionError: CHANGELOG.md
+     FAILED frontier/B1894_review_79_the_second_round/verification/test_b1894_review_79_the_second_round.py::test_the_old_sign_stands_corrected_in_its_other_wordings
+     1 failed in 0.29s
+
+==== patch 13 of the part: 3f9c03bfb -- B862'S SCRIPT REFUSES A GRID WITH NO POINT.
+     its 1 tests, on the commit before (ae28b8513):
+        E   AssertionError: a grid of 0 was answered with a kernel of 0 elements
+        tests/test_b862_global_form.py:44: AssertionError: a grid of 0 was answered with a kernel of 0 elements
+     FAILED tests/test_b862_global_form.py::test_a_grid_with_no_point_is_refused_and_not_answered_with_an_empty_kernel
+     1 failed in 0.15s
+
+==== patch 14 of the part: 0c721efb4 -- THE SWEEP OF B734'S TEST READS A VERDICT FILE'S SCOPE AND NOTE AS WELL AS ITS LINE.
+     its 1 tests, on the commit before (3f9c03bfb):
+     PASSED tests/test_b734_m004_congruence.py::test_the_sweep_reads_a_verdict_files_scope_and_note_as_well_as_its_line
+     1 passed in 0.14s
+
+==== patch 15 of the part: 9fda2fbd7 -- EACH ITEM OF A LIST IS A UNIT OF ITS OWN IN THE SWEEP OF B1028'S TEST, AND B1222'S CORRECTION STANDS IN THE IT
+     its 1 tests, on the commit before (0c721efb4):
+     FAILED tests/test_b1028_freedom_ledger.py::test_a_correction_in_one_item_of_a_list_does_not_excuse_the_zero_in_another
+     1 failed in 0.16s
+
+==== patch 16 of the part: 1003f84f1 -- B1891'S LOCK COMPARES THE SET OF ROWS OF THE STATUS TABLES, AND REPORTS A ROW THAT ITS BUILDER DOES NOT READ.
+     its 1 tests, on the commit before (9fda2fbd7):
+     PASSED frontier/B1891_the_foundation_at_version_1_66/verification/test_b1891_the_foundation_at_version_1_66.py::test_no_row_is_added_to_a_status_table_and_no_row_goes_unread
+     1 passed in 0.23s

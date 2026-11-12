@@ -1,0 +1,20 @@
+1. The SM seat's 37: two paths on which the listener could not look
+   a memory with 'two' as what was read: status 1; ends with an error of the language: True; says it could not look: False
+   a memory with None as what was read: status 1; ends with an error of the language: True; says it could not look: False
+   a git that does not answer while the page is looked for: status 2, and the listener says: 'main has no page docs/seats/x.md'
+2. The SM seat's 38: the docstring and main's first look
+   main's first look: status 0; prints FIRST LOOK: True
+   the docstring names the first look: False; its line on --once: '--once look once: status 0 if there is something new, 3 if there is not'
+3. The SM seat's 39: the atlas's tag printed as a status
+   B57's verdict: PROVED; revive B57 prints: 'revive B57 [dead]  -- "general m splitting"'
+   the meeting points print: '  B497   s=25 [banked] two_ends+ob'
+   the context card's tally: "  corpus: 1596 frontier probes; status {'open': 106, 'banked': 1064, '"
+   the obstacle oracle: "obstacle 'particle_dict': 201 banked probes touched it"
+   the gap finder: 'under-resolved obstacle-types (few banked resolutions -> open frontier):'
+4. The SM seat's 40: the card of B58
+   the folder B58_phaseA             verdict NEGATIVE
+   the folder B58_sl4_tower_test     verdict RETRACTED
+   the folder B58_stage1             verdict NEGATIVE
+   the card's head: 'B58 [NEGATIVE]  -- "stage1"'
+   the folders the card names: ['frontier/B58_phaseA']
+   the card holds the word RETRACTED: False

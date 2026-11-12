@@ -1,0 +1,58 @@
+From 1395267035c4e772bb1e3320392287ceb4e10327 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 17:07:07 +0000
+Subject: [PATCH 06/18] R80b, part 3, patch 6 (cld-advisor, at main's word in
+ M14; Review 80, the SM seat's finding 41, WHICH MAIN HAS NOT CHECKED: it was
+ made again before it was mended): THE TEST OF B874'S BRACKET HOLDS WHAT
+ STANDS UNDER ITS LABELS.
+
+THE FINDING, MADE AGAIN on the test. It asks for four labels in the bracket of B874's verdict line. It does not ask what stands under them: the reader planted two false statements in the bracket and both passed.
+
+WHAT IS CHANGED. What main computed is held to the sentence as B892's own kept check W3 states it, and that check must hold in B892's kept run. What is the seat's relay is held word for word, and must stand under the relay's label.
+
+THE PLANTED CASES, in the patch's own test: the reader's two, "all real, to 16 and to 26" and a real line that reaches 26. Each leaves the four labels standing and is reported.
+
+The test of B874: 9 pass. 0 of 19.
+---
+ tests/test_b874_ladder.py | 27 +++++++++++++++++++++++++++
+ 1 file changed, 27 insertions(+)
+
+diff --git a/tests/test_b874_ladder.py b/tests/test_b874_ladder.py
+index bbf819203..91912d05f 100644
+--- a/tests/test_b874_ladder.py
++++ b/tests/test_b874_ladder.py
+@@ -69,4 +69,31 @@ def test_the_verdict_line_scopes_its_ladder_and_says_where_each_statement_comes_
+     assert line.count(old) == 1
+     after = line[line.index(old):]
+     assert "SCOPED 2026-11-12" in after[:400] and "COMPUTED ON MAIN (B892)" in after and "BY THE AUDIT SEAT'S RELAY" in after and "locks not imported" in after
++    # ADDED 2026-11-12 (Review 80; the SM seat's finding 41, not checked by main, made again here).  The line above asks for
++    # four labels.  It does not ask what stands under them: a reader planted two false statements in the bracket and both
++    # passed.  What main computed is held to B892's own kept check, and what is the seat's relay is held word for word.
++    assert _what_the_bracket_says(after) == []
++    for false, where in (("all real, to 16 and to 26", "all imaginary, to 14 and to 18"), ("so on the real line it reaches 26", "so on the real line it is 12 at every point but the plane stratum's")):
++        planted = after.replace(where, false)
++        assert planted != after and "COMPUTED ON MAIN (B892)" in planted and "BY THE AUDIT SEAT'S RELAY" in planted      # the four labels stand
++        assert _what_the_bracket_says(planted), false
++
++
++def _what_the_bracket_says(after):
++    """what is wrong in the scope bracket of B874's verdict line, as a list: its two parts against their sources"""
++    import json, pathlib
++    out = []
++    main_part = "COMPUTED ON MAIN (B892): on the line through a wall point the nullity jumps at four points, all imaginary, to 14 and to 18, so on the real line it is 12 at every point but the plane stratum's."
++    if main_part not in after:
++        out.append("what main computed is not stated as B892's check W3 states it")
++    b892 = json.loads((pathlib.Path(__file__).resolve().parents[1] / "frontier" / "B892_second_measurement" / "verification" / "walls_on_the_line.json").read_text(encoding="utf-8"))
++    w3 = [k for k in b892 if k.startswith("W3 the walls at finite t are four, all purely imaginary: nullity 14 at a conjugate pair and nullity 18 at another; so on the real line the nullity is 12 at every point but pure x16")]
++    if len(w3) != 1 or b892[w3[0]] is not True:
++        out.append("B892's kept run does not hold the check W3")
++    relay = "over the algebraic closure the strata from a wall point are {12, 14, 16, 18, 20, 26}, the 26 being attained at four points, and over the reals {12, 16, 18}, with 30 and 46 degenerately."
++    if relay not in after or after.index(relay) < after.index("BY THE AUDIT SEAT'S RELAY"):
++        out.append("the seat's strata are not as the relay gave them, or do not stand under the relay's label")
++    if after.index("COMPUTED ON MAIN (B892)") > after.index("BY THE AUDIT SEAT'S RELAY") or main_part in after[after.index("BY THE AUDIT SEAT'S RELAY"):]:
++        out.append("what main computed stands under the relay's label")
++    return out
+ 
+-- 
+2.43.0
+

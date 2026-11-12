@@ -1,0 +1,100 @@
+From 915587119df497c3a4c0a62e3a246769129ade7d Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 17:07:07 +0000
+Subject: [PATCH 1/6] R80b, part 4, patch 1 (cld-advisor, at main's word in
+ M14; Review 80, the SM seat's finding 36 and the first part of a reader's
+ F12, both checked by main on the code): THE LISTENER NAMES EVERY MESSAGE THAT
+ WAS READ AND HAS NO RECORD OF ITS TEXT, WHETHER OR NOT A NEW ONE CAME.
+
+WHAT STOOD. A seat's listener shows again a message that main has changed in place, by comparing a record of its text. Where its memory held no record at all and nothing was new, it said so (Review 79's second round). Two cases were still lost. With such a memory and a new message together, the new message was shown, nothing was said of the old ones, and all were stored as read. And a memory that holds a record for some of the messages read and not for others said nothing of the others.
+
+WHAT IS CHANGED. Every message that was read and has no record of its text is named, whether or not a new one came, and the seat is told to read it on the page again. The old condition stands in a dated note.
+
+THE TEST plants both cases in a small repository, and a twin: with a record for every message, a change elsewhere on the page names none. With the listener of the commit before, the test fails on the first case. The file's eight older tests pass. 0 of 19.
+---
+ scripts/seats/listen.py     | 21 +++++++++++++++------
+ tests/test_seat_listener.py | 36 ++++++++++++++++++++++++++++++++++++
+ 2 files changed, 51 insertions(+), 6 deletions(-)
+
+diff --git a/scripts/seats/listen.py b/scripts/seats/listen.py
+index 571148e2b..9de502aad 100644
+--- a/scripts/seats/listen.py
++++ b/scripts/seats/listen.py
+@@ -154,12 +154,21 @@ def look_seat(seat, cwd, remote, peek):
+     if amended:
+         out.append("Messages you had read that main has CHANGED since: %s. As they stand now:\n" % ", ".join("M%d" % n for n in sorted(amended)))
+         out += [amended[n] for n in sorted(amended, reverse=True)]
+-    if not new and not amended and read and not sums:
+-        # CORRECTED 2026-11-12 (Review 79's second round): a memory written before this listener kept the messages' text has
+-        # nothing to compare with.  It used to say "No new message" and then store the new text, so that a message main had
+-        # changed in place was lost for good.
+-        out.append("No new message. This listener's memory was written by an older version and holds no record of the text of the "
+-                   "messages you had read, so it cannot tell whether main has changed one of them: read M1 to M%d on the page again." % read)
++    # CORRECTED 2026-11-12 (Review 79's second round): a memory written before this listener kept the messages' text has
++    # nothing to compare with.  It used to say "No new message" and then store the new text, so that a message main had
++    # changed in place was lost for good.
++    # CORRECTED 2026-11-12, a second time (Review 80; found by two readings of that mend).  The mend spoke only when nothing
++    # was new and the memory held no record at all:
++    #     if not new and not amended and read and not sums:
++    # Two cases were still lost.  With such a memory and a new message together, the new message was shown, nothing was said
++    # of the old ones, and all were stored as read.  And a memory that holds a record for some of the messages read and not
++    # for others said nothing of the others.  Every message that was read and has no record of its text is named now,
++    # whether or not a new one came.
++    unknown = sorted(n for n in ms if n <= read and str(n) not in sums)
++    if unknown:
++        which = "M1 to M%d" % read if unknown == list(range(1, read + 1)) else ", ".join("M%d" % n for n in unknown)
++        out.append(("" if new or amended else "No new message. ") + "This listener's memory holds no record of the text of %s, which you had "
++                   "read, so it cannot tell whether main has changed one of them: read %s on the page again." % (which, which))
+     elif not new and not amended:
+         out.append("No new message: main changed the page elsewhere (your cards, or what it waits for). Read the page.")
+     remembered = json.dumps({"blob": blob, "read": max([read] + list(ms)), "sums": {str(n): _sum(t) for n, t in ms.items()}})
+diff --git a/tests/test_seat_listener.py b/tests/test_seat_listener.py
+index cf523ebbd..aa9280bd2 100644
+--- a/tests/test_seat_listener.py
++++ b/tests/test_seat_listener.py
+@@ -174,6 +174,42 @@ def test_an_amended_message_is_shown_a_fenced_heading_is_not_a_heading_and_a_dam
+     assert r.returncode == 2 and "memory cannot be read" in r.stderr
+ 
+ 
++def test_every_read_message_with_no_record_of_its_text_is_named_whether_or_not_a_new_one_came(tmp_path):
++    """Review 80, from two readings of the listener as mended at Review 79's second round.  Two cases in which a message
++    changed in place was still lost: a memory with no record of any text, a new message and an amendment together; and a
++    memory that holds a record for one message read and none for another."""
++    import importlib.util
++    spec = importlib.util.spec_from_file_location("listen_for_test4", LISTEN); L = importlib.util.module_from_spec(spec); spec.loader.exec_module(L)
++    # 1. an old memory, a new message and an amendment of an old one, in one commit of main
++    origin, clone = _origin_and_clone(tmp_path)
++    r = _listen(clone, "--seat", "x"); assert r.returncode == 0
++    mem = pathlib.Path(L.memory(str(clone))) / "x.json"
++    state = json.loads(mem.read_text(encoding="utf-8"))
++    mem.write_text(json.dumps({"blob": state["blob"], "read": state["read"]}), encoding="utf-8")     # as the older listener wrote it
++    p = origin / "docs" / "seats" / "x.md"
++    p.write_text(_page(1, 2).replace("the text of message 1", "the text of message 1, AMENDED"), encoding="utf-8")
++    _git(origin, "commit", "-q", "-a", "-m", "main adds a message and amends the one the seat has read")
++    r = _listen(clone, "--seat", "x")
++    assert r.returncode == 0 and "the text of message 2" in r.stdout                              # the new one is shown
++    assert "holds no record of the text of M1 to M1" in r.stdout and "read M1 to M1 on the page again" in r.stdout
++    assert "No new message" not in r.stdout                                                       # and it is not called nothing new
++    assert _listen(clone, "--seat", "x").returncode == 3
++    # 2. a memory with a record for M2 and none for M1: M1 is named, M2 is not
++    state = json.loads(mem.read_text(encoding="utf-8"))
++    assert set(state["sums"]) == {"1", "2"}
++    del state["sums"]["1"]
++    mem.write_text(json.dumps(state), encoding="utf-8")
++    p.write_text(p.read_text(encoding="utf-8").replace("nothing yet", "your card"), encoding="utf-8")
++    _git(origin, "commit", "-q", "-a", "-m", "main changes the page elsewhere")
++    r = _listen(clone, "--seat", "x")
++    assert r.returncode == 0 and "holds no record of the text of M1, which you had read" in r.stdout and "M2" not in r.stdout
++    # a twin: with a record for both, the same change of the page names no message
++    p.write_text(p.read_text(encoding="utf-8").replace("your card", "your two cards"), encoding="utf-8")
++    _git(origin, "commit", "-q", "-a", "-m", "main changes the page elsewhere again")
++    r = _listen(clone, "--seat", "x")
++    assert r.returncode == 0 and "holds no record" not in r.stdout and "main changed the page elsewhere" in r.stdout
++
++
+ def test_fences_are_read_by_the_rule_an_old_memory_is_said_and_a_failed_listing_is_not_an_empty_one(tmp_path, monkeypatch):
+     """Review 79's second round, from a reading of the mended listener on another family of model.  Three things: any line that
+     began with three backticks or tildes opened or closed a block, so a line of prose that began with a span of code swallowed
+-- 
+2.43.0
+

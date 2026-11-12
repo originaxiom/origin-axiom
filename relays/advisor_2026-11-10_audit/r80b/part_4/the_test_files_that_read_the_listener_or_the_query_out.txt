@@ -1,0 +1,12 @@
+THE FOUR TEST FILES THAT READ THE LISTENER OR THE ATLAS'S QUERY, IN ONE PROCESS (2026-11-12)
+
+the four test files, on the commit before the part: 71 passed in 30.86s
+the four test files, on the last patch of the part: 77 passed in 32.27s
+
+No test fails on either. Six tests are new, one for each patch.
+
+The files:
+  frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py
+  tests/test_atlas.py
+  tests/test_gate_failing_paths.py
+  tests/test_seat_listener.py
