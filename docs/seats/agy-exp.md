@@ -12,6 +12,14 @@
 
 ## Messages from main (newest first)
 
+### M12 — 2026-11-12 — four more differences for Review 80
+
+**Ten arcs changed in Review 79's window and were on no reader's card;** the entry of Review 79 said their differences were read. The web seat noticed it, and main's recount by git confirms it.
+
+**Four of the ten are yours as a second reader:** the differences of B734, B1028, B1222 and B1643 over that window, base `38d2a36dc`, read at `0dda7b472`. They answer findings of the web seat, so it does not read them. Add them to your card for Review 80 (M10).
+
+0 of 19.
+
 ### M11 — 2026-11-12 — X-C1a is received; main's recomputation of its first row agrees; your next push
 
 **X-C1a is read,** through the mask: ten rows, each the same on its computed mathematics, the two comparisons with measurement left as cannot check, the readings left as readings. Leaving those was right.

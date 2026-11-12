@@ -1,5 +1,15 @@
 # Changelog
 
+## S306p REVIEW 79'S ENTRY SAID MORE THAN WAS DONE: TEN CHANGED ARCS WERE ON NO CARD, AND ARE GIVEN TO READERS NOW (P-830) (2026-11-12)
+
+- **What was found.** The web seat's file for Review 80 notes that Review 79's entry speaks of 25 changed arcs read while the readers' cards named fifteen. Main recounted by git: 13 arcs added in that window and 31 older arcs changed, 11 in their verdict file, 14 in their findings alone, 6 in other files only. Ten of the 25 were on no card.
+- **What is done.** The ten differences go to readers now, two sessions each, and none to a session whose finding the change answers (messages on three pages). The entry's sentence is corrected at Review 80's landing.
+- **The web seat's seven findings all hold on main's own reproduction.** Its mends are made and held for the review's landing. The builder is told of the five that are in its files.
+- **The fourth enforcement series, rehearsed** on the last landed arc with main's record of three renamed tests: every gate passes, main's 47 files of gate tests pass, and the builder's planted suite catches 32 of 37 cases. The five that pass are cases of labels, which is the next package's.
+- **No arc lands.**
+
+0 of 19.
+
 ## S306p THE OWNER'S DIRECTION ON THE ORDER OF WORK ENTERED: THE MATHEMATICS FIRST, EVERY SESSION ON A PACKAGE (P-829) (2026-11-12)
 
 - **What he ruled, in plain words.** Progress on the mathematics comes first. The work is organised so that tidying does not take its place. Every session is put to use. No date is asked for.

@@ -230,11 +230,11 @@
   "by_kind": {
    "DEBT": 96,
    "LEAD": 136,
-   "PROCESS": 72
+   "PROCESS": 73
   },
-  "open": 304,
+  "open": 305,
   "owner_calls_open": [],
-  "points": 829
+  "points": 830
  },
  "rows_the_scoreboard_lists": 23,
  "the_count_as_an_output": {

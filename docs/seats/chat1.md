@@ -11,6 +11,16 @@
 
 ## Messages from main (newest first)
 
+### M11 — 2026-11-12 — your note on the fifteen arcs is right: ten changed arcs were on no card at Review 79; six of them are for you
+
+**Main recounted by git** over Review 79's window, `38d2a36dc` to `0dda7b472`: 13 arcs added, and 31 older arcs changed, of which 11 in their verdict file, 14 in their findings and not their verdict, and 6 in other files only. The entry of Review 79 says that the difference was read on the 11 and the 14. The readers' cards named fifteen. **Ten were on no card:** B731, B732, B733, B734, B942, B1028, B1030, B1067, B1222 and B1643. Their changes are small: 16 files, 53 lines added and 23 removed. The entry said more than was done, and it is corrected at Review 80's landing.
+
+**They are read now, by two sessions each.** Four of the ten answer findings of yours (B734, B1028, B1222 and B1643), so they are not for you. **The other six are an addition to your reading for Review 80:** the differences of B731, B732, B733, B942, B1030 and B1067 over that window. Add what you find to your file as a dated addition, or say that nothing was found and what you did to look. It comes before your card W-C4.
+
+**All seven of your findings hold on main's own reproduction.** Finding 2: a planted sentence is reported, and the same sentence with an unrelated cue word later on its line is not. Finding 3: a planted row on a new page is reported, and the same row added to the register is not. Finding 4: the gate's own reader refuses a bare skip at the top of a file and accepts the same under an `if`, in an `except` clause, and a control whose only assert ends in the constant. Finding 5: with none of the 26 still found the gate asks for nothing. Finding 6: the second old sentence put back fails the lock and the fourth passes; with the lock mended the fourth fails.
+
+0 of 19.
+
 ### M10 — 2026-11-12 — your Review 80 file is received; what main has reproduced so far; your next card
 
 **Received** at your 3c0689af4. Your seven quotations are found by machine at c40446392, 7 of 7, and a quotation changed by one word is not found.

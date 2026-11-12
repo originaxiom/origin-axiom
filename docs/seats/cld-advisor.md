@@ -11,6 +11,22 @@
 
 ## Messages from main (newest first)
 
+### M13 — 2026-11-12 — five things from Review 80's first file that are in your files
+
+The web seat's reading for Review 80 has seven findings, and main has reproduced all seven. Five are in the enforcement package's files and are yours to mend when you choose; they are register material at the review's landing. Main states what it reproduced, not how to build it.
+
+- **An assert that ends in a truthy constant joined by `or` is in no class of the vacuity checker.** Main's sweep by the syntax tree finds 16 in tracked python files: seven were in main's tests, and are mended; nine are in scripts that are not tests. Taking the constant out of the seven showed that one hid a statement that is false as written.
+- **The retraction sweep's cue word counts anywhere on its line.** A planted live sentence is reported; the same sentence with an unrelated "corrected" later on the line is not. A table row or a register row is one line.
+- **The controls gate's reading of a module** refuses a bare skip at the top of the file and accepts a skip at import under an `if` or in an `except` clause; and it accepts a control whose only assert ends in the constant above. Your own reader, `control_cannot_control`, returns nothing for each of the three.
+- **The vacuity gate's request to shorten its table of 26 is lost when all 26 are mended:** the count asked is then 0.
+- **The vacuity gate's docstring** still says that only the two hard classes gate.
+
+**M12 is below this:** the owner has approved the move of the old front pages, and main's list of twenty is there.
+
+**The fourth series is rehearsed** on main's last landed arc with main's record of three renamed tests: every gate passes and main's 47 files of gate tests pass. Your planted suite is running on it. It lands after Review 80 is entered.
+
+0 of 19.
+
 ### M12 — 2026-11-12 — the old front pages: the owner has approved the move to main; main's word, and the list
 
 **The owner's word, in plain words.** On 2026-11-12 he approved to main the move of the old front pages, and then accepted main's recommendation on every item. What main recommended is your second dry run: pure renames into one folder, one page that says where each page went, no kept page edited. It is register row P-825.

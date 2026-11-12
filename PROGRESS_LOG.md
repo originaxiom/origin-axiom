@@ -19878,3 +19878,15 @@ seat's check. Six are left.
 **Which piece of the plan moved.** The first mathematics package is worked and not yet published, so the count does not move today.
 
 0 of 19.
+
+## 2026-11-12 — The last review said more than it did; the gap is being closed (S306p)
+
+**What was found.** The last review's entry says that the changes to 25 older pieces of work were read by outside readers. Their reading lists named fifteen. One of the readers noticed it during the review that is open now. Main counted again and it is so: ten were on no list.
+
+**What is done.** The ten changes are small, and they have gone to readers today, two for each. The sentence in the last review's entry is corrected when the open review is closed.
+
+**Also today.** That reader's seven findings were all confirmed by main. The fourth repair of the automatic checks was tried out on a copy: every check passes with it, and it catches 32 of 37 planted faults.
+
+**Which piece of the plan moved.** None.
+
+0 of 19.
