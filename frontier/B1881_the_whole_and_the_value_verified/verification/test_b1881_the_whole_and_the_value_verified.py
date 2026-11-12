@@ -6,7 +6,9 @@ recomputed from scratch, by other code than the script's); the arc claiming more
 ADDED 2026-11-12, after a second reading of Review 79's mends by a session that did not write them.  That reading found that this
 lock held two of the nine mends and that the other seven could be undone with every test passing.  The five tests at the end hold
 them: what the second convention is, computed on all 120 matrices with a mark for which the statement fails; that no check of the
-script is passed a constant, with two planted lines the scan must report; the three counts of run sequences by a second method;
+script is passed a constant, with three planted lines the scan must report [CORRECTED 2026-11-12 (Review 80; the SM seat's
+finding 31): this read "two planted lines"; the test plants three and asserts three, and did so when this was written]; the
+three counts of run sequences by a second method;
 the short-gap figure in exact arithmetic; and that each correction stands in the paragraph of the sentence it corrects.
 
 ADDED 2026-11-12, a second time, after the same session planted 23 errors against the lock as it then stood: 17 were caught and
@@ -282,7 +284,12 @@ def _constant_checks(src):
 
 def test_no_check_of_the_script_is_passed_a_constant():
     """Review 79 found two checks that were passed the literal True and counted among the 65.  Both are computed now, and until
-    this test nothing held that.  The scan is shown to report two planted lines."""
+    this test nothing held that.  The scan is shown to report three planted lines: a check passed the literal True, a check
+    passed a name bound once to a constant, and a result assigned a constant.  A fourth line, a check of something computed,
+    is not reported.
+
+    CORRECTED 2026-11-12 (Review 80; the SM seat's finding 31): the last sentence read "The scan is shown to report two planted
+    lines."  Three are planted and three are asserted, below."""
     src = (HERE / "whole_and_value_on_main.py").read_text(encoding="utf-8")
     found, calls = _constant_checks(src)
     assert found == [], found
