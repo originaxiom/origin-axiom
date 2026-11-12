@@ -13,13 +13,13 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1595 |
-| … PROVED | 1103 |
+| arcs with a verdict file | 1596 |
+| … PROVED | 1104 |
 | … NEGATIVE | 383 |
 | … OPEN | 97 |
 | … RETRACTED | 12 |
-| register points | 816 |
-| … QUEUED | 287 |
+| register points | 817 |
+| … QUEUED | 288 |
 | … LEAD | 4 |
 | … OWNER | 4 |
 | … DONE | 509 |
@@ -31,6 +31,7 @@
 
 | arc | verdict | claim |
 |---|---|---|
+| B1894 | PROVED | REVIEW 79, THE SECOND ROUND: THE FOUR READERS READ MAIN'S ANSWERS, AND 35 FINDINGS ON THEM ALL HELD, 34 in full and one in part; they are 30 distinct faults. Of main's 99 answers the readers report 76 right and complete… |
 | B1893 | PROVED | THE SECOND PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7), BUILT BY THE ADVISOR SEAT, VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED: six patches under one rule read from history, that after an anchor commit what a ledg… |
 | B1892 | PROVED | REVIEW 79, READ BY SESSIONS THAT BUILT NONE OF IT (the owner's ruling P-805): 99 FINDINGS ON MAIN'S WORK OF TWO DAYS, ALL 99 HELD ON MAIN'S OWN REPRODUCTION, one in all but one detail; they are 88 distinct faults, of wh… |
 | B1891 | PROVED | THE FOUNDATION AT VERSION 1.66: FOUR CORRECTIONS FROM REVIEW 79, NO ITEM ADDED AND NO STATUS CELL CHANGED. The advisor seat's sort counts fourteen entries, which are eleven things, as suppositions, where the foundation… |
@@ -39,10 +40,9 @@
 | B1888 | PROVED | THE REPOSITORY'S PUBLIC FORM, SCRUTINISED BY MAIN AT THE OWNER'S WORD (a measurement of the record and main's judgement on the advisor seat's three-part proposal; no data file opened): BY ITS CODE THE CANDIDATE USES AT… |
 | B1887 | PROVED | THE WEB SEAT'S CHECK OF THE AGY LANE'S LOOP, VERIFIED ON MAIN BY ANOTHER ROUTE (thread facts about single histories and their bundles, and one classical fact about root lattices; data-free; 35 checks, none failing; for… |
 | B1886 | PROVED | THE FOUNDATION AT VERSION 1.65 (P-767's second landing): the owner's statements of 2026-11-10 and 2026-11-11 entered in GENESIS.md under the working rule of 2026-11-11, by which a ruling sets a goal, a standard, an orde… |
-| B1885 | PROVED | THE WEB SEAT'S CARD ON THE GOLDEN STATE, VERIFIED ON MAIN CELL BY CELL (a weave object, conditional on stated choices; data-free; 30 digits; 31 checks [32 before 2026-11-12: one was a check over an empty list and is no… |
+| B1885 | PROVED | THE WEB SEAT'S CARD ON THE GOLDEN STATE, VERIFIED ON MAIN CELL BY CELL (a weave object, conditional on stated choices; data-free; 30 digits, and 18 for the grid and the two checks made on it [added 2026-11-12, Review 79… |
 | B1884 | PROVED | THE WEB SEAT'S SEALED CARD ON WHAT LEVEL A GROUND NAMES, VERIFIED ON MAIN (a thread result on the ground; integers; 17 checks, none failing; for the foundation's entry on the ground, P-767): the tick F, add and exchange… |
 | B1883 | PROVED | WHERE WE STAND: HOW FAR THE RECORD IS FROM THE FINAL READING, AS ONE GENERATED PAGE (an instrument, at the owner's question of 2026-11-11, 'how far are we from ... 100% ready for the final reading? the dynamic scoreboar… |
-| B1882 | PROVED | THE V1 CARD, RUN ON MAIN AND READ ONCE (the audit's finding that the nulls behind the six's rarities have an unpriced window in the height of the modulus; the advisor seat's sealed card, the deciding count run by main o… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p REVIEW 79, THE SECOND ROUND: THE READERS READ MAIN'S ANSWERS; 35 FINDINGS, ALL HELD; A SIGN IN THE MATHEMATICS CORRECTED (B1894; P-817) (2026-11-12)
 - S306p THE SECOND ENFORCEMENT SERIES VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (B1893; WP-0.7); ONE CASE THE RULE DOES NOT SEE (P-816); THE SUITE ON A FRESH CLONE AT THE REVIEW'S HEAD; SEVEN DELIVE…
 - S306p REVIEW 79, READ IN FULL BY FOUR SESSIONS THAT BUILT NONE OF IT: 99 FINDINGS, ALL HELD; THE FOUNDATION AT VERSION 1.66 (B1891, B1892; harvest rows 1716 to 1721; P-811 to P-815) (2026-11-12)
 - S306p THREE DRAFTS KEPT OUTSIDE THE REPOSITORY, DECLINED WHEN THE DAY CHANGED (P-317, P-384, P-555) (2026-11-12)
@@ -63,11 +64,10 @@
 - S306p REVIEW 79 OPENED UNDER THE OWNER'S RULING (P-805); THE FIVE SESSIONS' FIRST DELIVERIES REGISTERED; TWO FINDINGS OF A SECOND DERIVATION CHECKED ON MAIN AND ENTERED (WP-0.8, WP-0.4; P-802, P-803,…
 - S306p THREE RULINGS OF THE OWNER, APPLIED: HIS MESSAGES ARE PRIVATE; A CHECK IS NAMED BY ITS METHOD AND NEVER BY A SESSION; THE DISTILLED REPOSITORY IS PUBLIC AND STAYS ON THE LIST (P-796, P-797, P-7…
 - S306p THE FIRST PATCH SERIES FOR ENFORCEMENT, VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (WP-0.7; B1890); THE FINDING E7 FIXED AND ACCEPTED (WP-0.8); TWO SEATS NAME THEMSELVES (2026-11-11)
-- S306p THE SEATS' PAGES, THE CARD AND THE LISTENER: MAIN DIRECTS THE SEATS AND NOBODY RELAYS BY HAND (the owner's ruling; P-795, with P-794, P-796, P-797) (2026-11-11)
 
 ## The latest campaign line
 
-LATEST (2026-11-12, S306p: THE SECOND ENFORCEMENT SERIES VERIFIED AND LANDED (B1893; WP-0.7); ONE CASE THE RULE DOES NOT SEE (P-816).** Six patches of the advisor seat's under one rule read from history: after an anchor commit nothing leaves a ledger and no ceiling rises without a change named in the gates' own file. All thirteen of main's unseen cases are caught, one by accident. Reading the patches, main found and then ran one case the rule misses: a ceiling that falls and later rises back to its value at the anchor rises with no record, so each identification that is earned makes room for an unearned one; it goes to the seat. The seat's planted suite catches 19 of 32 on main now, where i…
+LATEST (2026-11-12, S306p: REVIEW 79, THE SECOND ROUND (B1894): THE READERS READ MAIN'S ANSWERS; 35 FINDINGS, ALL HELD; A SIGN CORRECTED.** Of main's 99 answers the four readers report 76 right and complete, 11 not complete, one not mended as said and 11 with the builder of the gates. Their 35 findings on the mends are 30 distinct faults, each reproduced by main and mended, one sent to the builder. One is a sign in the mathematics: main's correction on the cusp's unit gave the four-dimensional index of the chiral three the sign of the Euler characteristic on the base, +3 where the arc's sealed table has −3; corrected in four places and held by a lock. Fourteen are corrections that had not r…
 
 ## Completeness (nothing skipped silently)
 

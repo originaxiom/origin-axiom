@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1595** |
-| words of findings prose | **1,403,296** |
+| research arcs with findings | **1596** |
+| words of findings prose | **1,405,830** |
 | test lock files referenced | **942** |
-| arcs carrying an authored verdict | **1595** (100.0 %) |
+| arcs carrying an authored verdict | **1596** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1103 |
+| PROVED | 1104 |
 | NEGATIVE | 383 |
 | OPEN | 97 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1893`** (2281 words, 1 locks)  
-THE SECOND PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7), BUILT BY THE ADVISOR SEAT, VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED: six patches under one rule read from history, that after an anchor commit what a ledger has held it still holds and a ceiling stands no higher, unless the change is named in the gates' own file with its date and what became of it (the registry of retracted phrases, the law map by the bold title of a row, the chain's links, the identification ledger and its baseline, the lock files, the attribution table's ceilings; the anchor pinned in the lock). ALL THIRTEEN OF MAIN'S UNSEEN CASES ARE CAUGHT, twelve by a gate that looks for the fault and one by accident, locks marked to skip being caught only because their files are hashed. Each patch's lock fails on the commit before it in the numbers the seat gave; the series' lock passes (22); 53 gates pass on the end of the series. ONE THING THE RULE DOES NOT SEE, FOUND BY MAIN READING THE PATCHES AND THEN RUN: a ceiling is held to its value at the anchor, so one that falls and later rises back to that value rises with no record, and each identification that is earned makes room for an unearned one to enter unseen; the control, the same rise with no fall before it, is refused. It is the seat's to close. 0 of 19.  
-`B1893_the_second_enforcement_series_verified_and_landed/FINDINGS.md`
+**PROVED — `B1894`** (1729 words, 1 locks)  
+REVIEW 79, THE SECOND ROUND: THE FOUR READERS READ MAIN'S ANSWERS, AND 35 FINDINGS ON THEM ALL HELD, 34 in full and one in part; they are 30 distinct faults. Of main's 99 answers the readers report 76 right and complete, 11 not complete, one not mended as main had said and 11 with the builder of the gates. ONE FINDING IS A SIGN IN THE MATHEMATICS: main's correction of 2026-11-11 on the cusp's unit and three scope notes written from it gave the four-dimensional index of the chiral three the sign of the Euler characteristic on the base, +3 where the arc's own sealed table has -3 for the uniform unit at an empty Lambda+; corrected in the four places, each keeping what it said, with a lock that holds minus that Euler characteristic to the sealed table. Fourteen of the 35 are corrections that had not reached a verdict line, a row of the law map, the plan or a second section of the same page; the rest are a line of a lock that could not fail by precedence, a guard not carried to a function's new parameter, a listener that read fences loosely, a lock that held one kind of status row on the live foundation, and the tripwire for old sentences, which caught 5 of 23 new planted errors and is made to ask for the correction in the old form's own paragraph, row or item, with what a list of spellings cannot do said and held as an open fixture. The plan, a living page, no longer quotes the owner. One finding is in the gates' file and goes to its builder. 0 of 19.  
+`B1894_review_79_the_second_round/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  

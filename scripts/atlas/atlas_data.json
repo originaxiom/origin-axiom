@@ -11688,7 +11688,7 @@
     "V4"
    ],
    "obstacle": "units_scale",
-   "obstacle_conf": 4,
+   "obstacle_conf": 5,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -16365,7 +16365,7 @@
     "V1"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 8,
+   "obstacle_conf": 10,
    "status": "open",
    "domain": "dynamics"
   },
@@ -16547,6 +16547,17 @@
    "obstacle": null,
    "obstacle_conf": 0,
    "status": "banked",
+   "domain": "dynamics"
+  },
+  "B1894": {
+   "slug": "review 79 the second round",
+   "motifs": [],
+   "refs": [
+    "B874"
+   ],
+   "obstacle": "units_scale",
+   "obstacle_conf": 5,
+   "status": "open",
    "domain": "dynamics"
   },
   "B189": {
