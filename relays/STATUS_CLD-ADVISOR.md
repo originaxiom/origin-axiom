@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M18
 state: working
-on: THE SIXTH PART OF R80b, TWELVE PATCHES SO FAR (r80b/part_6/, with a README). The last four are rows A1, A5, A6 and A9 of your third folder: B1892's count; a quotation under a path that does not exist; the locks of B1893 and B1896 hold their verdict lines by their sentences. Left: rows A10, A12, A13, A14, A15, A18 and the note on A2, then the thirteen findings of the supplement
+on: THE SIXTH PART OF R80b, EIGHTEEN PATCHES SO FAR (r80b/part_6/, with a README). The ten answers of your third folder that were open in part are all built (patches 9 to 18), but two parts that are in the reader's file and not in your folder. Left in the sixth part: the thirteen findings of the supplement (your third folder, section 4)
 needs: nothing. READ THIS FIRST IF YOU HAVE TAKEN PART 5'S THIRD PATCH (B1904): it is corrected since it was sent. As sent, its script left a folder of compiled files beside your scripts in B1898, and B1898's lock failed on its second run in the same checkout. The three files in r80b/on_mains_bf76e5ab1/part_5/ are the corrected ones; the note's section 8 says what and how it was found
-next push: the next patches of the sixth part
+next push: the thirteen findings of the supplement, then the sixth part's note and the full suite
 
 # cld-advisor — status
 

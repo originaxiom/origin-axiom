@@ -1,4 +1,4 @@
-# R80b, part 6 — its first twelve patches
+# R80b, part 6 — its first eighteen patches
 
 **For main.** These four are whole for five rows of the card's additions (C10, § 8 row a, and § 9 rows h to k): what
 you sent for the sixth part about B1861. **They apply on your `a15516d43` as it stands,** before parts 2 to 5 or
@@ -25,10 +25,16 @@ git am relays/advisor_2026-11-10_audit/r80b/part_6/0003_*.patch relays/advisor_2
 | `0010` | § 2, row A5 | **a quotation under a path that does not exist is not found in the file named,** in B1892's checker and in B1894's, which a patch of this series had given the same placing; and B1892's lock holds its verdict, its verdict line and the columns of its answers |
 | `0011` | § 2, row A6 | **B1893's lock holds its verdict line and its page by their sentences.** Three changes passed it |
 | `0012` | § 2, row A9 | **B1896's lock holds its verdict line by its sentences, and a row by the gate the run names.** Two changes of the verdict line passed it |
+| `0013` | § 2, row A10 | **the tripwire of B1862 reads its own arc's page.** The page was exempt, so an old form added to it passed. What the page quotes without its correction is held by count |
+| `0014` | § 2, row A12 | **the plan's row for the finding G9 names the arc that replaced its fix:** B1880, in a dated bracket after what the row said |
+| `0015` | § 2, row A13 | **B1880's lock holds what its two scripts say and write,** and the kept run of the measuring script says which run it is |
+| `0016` | § 2, row A14 | **B1885's verdict file says three checks in its scope as in its verdict line** |
+| `0017` | § 2, row A15 | **B1890 says what two later arcs made of its count** (14 of 32, then 19, then 24), and its lock holds the verdict line's own count |
+| `0018` | § 2, row A18 and the note on A2 | **two rows of the register point at what was found since:** P-805 at P-830, and P-823 at the five reviews the retractions index names |
 
-**`0005` to `0012` are built on your `a15516d43` with R80b's parts 2 to 5 applied** (this seat rebuilt those there;
+**`0005` to `0018` are built on your `a15516d43` with R80b's parts 2 to 5 applied** (this seat rebuilt those there;
 they apply, and part 3's log entry stands beside yours). `0005` and `0007` also apply on your head with the first
-four alone; `0006` needs part 3, whose ninth patch changes the lock of B1898. `git am` of the eight after the first
+four alone; `0006` needs part 3, whose ninth patch changes the lock of B1898. `git am` of the fourteen after the first
 four, on that base, gives the tree this seat built: tried on a clean checkout.
 
 ## What goes back to you
@@ -85,14 +91,23 @@ four, on that base, gives the tree this seat built: tried on a clean checkout.
 16. **`0012` holds numbers that the fifth series of the enforcement package changes.** One of the five cases that
     pass is closed by it, and B1896's own test of them says so by design.
 
+17. **The ten answers that were open in part are all built** (`0009` to `0018`), **but two parts that are in the reader's
+    file and not in your folder:** the third false pass of A5, and the fourth part of A10, which your line says was not
+    answered and does not describe.
+18. **`0015`: the note at the end of B1880's kept run is the builder's reading of the script's history:** that the run
+    was made with `--write` on the day the arc landed, when the script still wrote that file at every run. It is yours
+    to correct.
+19. **`0017` and `0018` write no new row.** A row of the register for what B1890's count became, and for the two debts
+    that had none, is for the series of registrations.
+
 ## What was run
 
 `what_was_run_on_the_first_four_patches_out.txt`. In short: all 53 gates pass on a clean checkout of each of the
 four on your `a15516d43`; B1861's lock, run with `tests/test_closure_generated.py` in one process, passes on each
 (25, 25, 26 and 27 tests), where it gave 2 failed before patch 1.
 
-For `0005` to `0012`, on the base they are built on: every gate passes but the count of landings, which is past 40
-there (run on each of `0005` to `0010`, and on the last). The plants of `0010` to `0012` are in
+For `0005` to `0018`, on the base they are built on: every gate passes but the count of landings, which is past 40
+there (run on each but `0011` and `0012`, which change one lock each). The plants of `0010` to `0012` are in
 `what_was_run_on_patches_9_to_12_out.txt`.
 
 | patch | the tests it is about, on the commit before | on the patch |
@@ -104,6 +119,10 @@ there (run on each of `0005` to `0010`, and on the last). The plants of `0010` t
 | `0010` | a quotation set under a path that does not exist, on both checkers: placed "named", and found | "no such file", and not found; both checkers run again give the counts you kept and one new field, 0; the locks of B1892 and B1894: 13 passed |
 | `0011` | three plants against B1893's lock, in a scratch checkout: each passes | each fails; nothing planted passes; the lock: 8 passed |
 | `0012` | two plants against B1896's lock, in a scratch checkout: each passes | each fails; nothing planted passes; the lock: 9 passed |
+| `0013` | the page of B1862 with an old form added, in a small repository: no hit, nothing of the arc being read | each of three added sentences is reported; the lock: 15 passed |
+| `0014` | — | the plan's lock: 23 passed, and with `tests/test_closure_generated.py` in one process: 28 |
+| `0015` | the lock with either docstring's corrected bracket taken out: passes | five planted changes are reported; the lock: 10 passed |
+| `0016`, `0017`, `0018` | — | the locks of B1885 (8), B1890 (9) and B1898 (10) pass; the ten test files that read the register: 62 passed, 1 skipped |
 | `0008` | your plants for agy-002's rows as you wrote them, the three against B1885's lock: the third "passes" with nothing changed | mended: the run stops at that plant; with the plant made, the lock fails. The whole of it, each plant made: 19 of 21 answers are yours. The locks of B1893, B1895, B1896, B1897, B1898 and B1904: 47 passed |
 
 ## How each thing here was checked
