@@ -13,13 +13,13 @@ So the patch is given in two steps, and no file here holds a passage:
 
 It applies the diff to the index and the working tree, runs the arc's script, stages GENESIS.md and prints the tree.  On
 main's bf76e5ab1 with R80b's parts 1 to 4 and the first two patches of part 5 the tree is
-7a674e178904bc88483373534ee44ace154d8144; the script says whether it is.  It commits nothing: the message is 0003_message.txt, beside this file.
+4ec0c47a3b3bb0d5c3dd2c267e79d73df55ac302; the script says whether it is.  It commits nothing: the message is 0003_message.txt, beside this file.
 """
 import pathlib, subprocess, sys
 
 HERE = pathlib.Path(__file__).resolve().parent
 root = pathlib.Path(sys.argv[1]).resolve()
-EXPECTED = "7a674e178904bc88483373534ee44ace154d8144"
+EXPECTED = "4ec0c47a3b3bb0d5c3dd2c267e79d73df55ac302"
 
 
 def run(*args):

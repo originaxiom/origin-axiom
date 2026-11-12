@@ -2,7 +2,7 @@ R80b, part 5, patch 3 (the foundation at version 1.67, arc B1904): what was run.
 
 1. The script 0003_the_foundation_at_version_1_67.py on a clean checkout of main's bf76e5ab1 with R80b's parts 1 to 4 and the
    first two patches of part 5: it applies, the arc's script writes the foundation, and the tree is
-   7a674e178904bc88483373534ee44ace154d8144, the tree this seat built.
+   4ec0c47a3b3bb0d5c3dd2c267e79d73df55ac302, the tree this seat built.
 
 2. All 53 gates on the patch: 52 pass; not passing: review-fires.
    (The count of landings is red on the base as well: it passed 40 inside part 3.)
@@ -30,3 +30,15 @@ R80b, part 5, patch 3 (the foundation at version 1.67, arc B1904): what was run.
    the tests of tests/test_closure_generated.py when B1861's lock has run before them in the same process (part 1's note,
    section 4, item 4; main's M18 gives the cause). Alone, that file passes.
    Eight more pass on the patch: the seven tests of B1904's lock, and the schema test of its verdict file.
+
+5. CORRECTED 2026-11-12, after the patch was first sent (its first tree was 7a674e178904bc88483373534ee44ace154d8144).
+   The arc's script read main's pairs by importing main's file from the arc B1898.  An import leaves a folder of compiled
+   files beside the file, and B1898's lock counts the files of that folder: run after B1904's lock in the same checkout,
+   B1898's test that main's files are as main wrote them failed.  It passed in every run above because B1898's lock is
+   collected before B1904's, and each run was made in a fresh checkout or with that folder already ignored.
+   Made again on the patch as first sent: the locks of B1904 and B1898 in one run, twice: the second run gives 1 failed.
+   The script now reads and compiles main's file without importing it, and B1904's lock holds that reading main's pairs
+   leaves nothing beside them.  On the corrected patch: the four locks (B1904, B1898, B1886, B1891) run twice in one
+   checkout give 27 passed and 27 passed; all 53 gates: 52 pass, and the one that does not is the count of landings.
+   The 82 test files of 4 were not run again: the correction changes one function of the arc's script and adds three
+   lines to its lock.

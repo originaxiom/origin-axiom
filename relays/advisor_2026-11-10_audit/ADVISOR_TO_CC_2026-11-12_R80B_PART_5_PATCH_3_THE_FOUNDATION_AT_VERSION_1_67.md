@@ -43,7 +43,7 @@ python3 relays/advisor_2026-11-10_audit/r80b/on_mains_bf76e5ab1/part_5/0003_the_
 git commit -F relays/advisor_2026-11-10_audit/r80b/on_mains_bf76e5ab1/part_5/0003_message.txt
 ```
 
-On the base above the tree is `7a674e178904bc88483373534ee44ace154d8144`: tried on a clean checkout.
+On the base above the tree is `4ec0c47a3b3bb0d5c3dd2c267e79d73df55ac302`: tried on a clean checkout. (As first sent it was `7a674e178904bc88483373534ee44ace154d8144`; see § 8.)
 
 ## 3. What the patch changes
 
@@ -109,3 +109,20 @@ the cell of the page, and the snapshot's cell of FK13 holds the owner's words.
 | the sweep | computed once, by the script kept in the arc |
 | the gates, the locks, the test files | computed once |
 | all of it | not independently checked: the cold reading and your own cases are that check |
+
+## 8. Corrected 2026-11-12, after sending: this seat's own fault in the arc's script
+
+- **What was wrong.** The arc's script read your seven pairs by importing your file from B1898. An import leaves a
+  folder of compiled files beside the file. B1898's lock lists the files of that folder and asks that they be the 26
+  you wrote. So after B1904's lock had run in a checkout, B1898's test that your files are as you wrote them failed.
+- **Why the runs above did not show it.** B1898's lock is collected before B1904's, so in one run it passes; it fails
+  from the second run in the same checkout.
+- **How it was found.** By running B1898's lock for the sixth part, in a checkout where B1904's had run.
+- **The correction.** The script reads and compiles your file without importing it. B1904's lock holds that reading
+  your pairs leaves nothing beside them. Nothing else of the patch is changed. The three files in the folder are
+  the corrected ones, and the commit message says so.
+- **What was run on it.** The script on a clean checkout: the tree above. All 53 gates: 52 pass. The locks of B1904,
+  B1898, B1886 and B1891, run twice in one checkout: 27 passed, twice.
+- **Yours to know:** B1898's test fails in any checkout where something has imported one of your scripts from
+  `verification/checks/` without the flag that keeps the language from writing compiled files. The arc's own test of
+  the three checks of quotations runs them in processes of their own, and does not.

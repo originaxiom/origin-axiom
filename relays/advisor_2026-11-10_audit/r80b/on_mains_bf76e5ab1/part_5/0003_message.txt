@@ -42,4 +42,11 @@ foundation that arcs keep as they received them, which are dated records and are
 The closure map is built again against the new foundation: its pins check. The generated pages are made
 again by main's generators.
 
+CORRECTED 2026-11-12, AFTER THIS PATCH WAS FIRST SENT, by the session that built it. The arc's script read
+main's pairs by importing main's file. An import leaves a folder of compiled files beside the file, in the
+arc B1898, whose lock counts the files of that folder: B1898's lock passed on its first run and failed on
+every run after this arc's lock had run in the same checkout. The script now reads and compiles main's file
+without importing it, and the lock holds that reading main's pairs leaves nothing beside them. Nothing else
+of the patch is changed.
+
 Not checked by main. The plain words are main's and are not reworded.

@@ -533,10 +533,10 @@ index 000000000..dfb1413a2
 +files of another kind that hold a passage as it was: 0
 diff --git a/frontier/B1904_the_foundation_at_version_1_67/verification/test_b1904_the_foundation_at_version_1_67.py b/frontier/B1904_the_foundation_at_version_1_67/verification/test_b1904_the_foundation_at_version_1_67.py
 new file mode 100644
-index 000000000..128ba91ae
+index 000000000..be2c0aec1
 --- /dev/null
 +++ b/frontier/B1904_the_foundation_at_version_1_67/verification/test_b1904_the_foundation_at_version_1_67.py
-@@ -0,0 +1,174 @@
+@@ -0,0 +1,177 @@
 +"""B1904 lock -- the foundation at version 1.67.
 +
 +What could fail: the version or its log entry missing or out of order; a passage in which the owner was quoted standing
@@ -594,7 +594,10 @@ index 000000000..128ba91ae
 +def test_the_seven_passages_are_in_plain_words():
 +    """main's seven pairs, read from main's own file: the passage that quoted the owner stands nowhere, and its plain words
 +    stand once and hold no quotation mark"""
++    beside_mains = _writer().MAINS.parent / "__pycache__"
++    there = beside_mains.exists()
 +    m = _writer().mains()
++    assert beside_mains.exists() == there, "reading main's pairs left a folder beside main's files, which the lock of B1898 counts"
 +    assert len(m.EDITS) == 7
 +    for number, (old, new) in enumerate(m.EDITS, 1):
 +        assert G.count(old) == 0, "passage %d stands in the foundation as it was" % number
@@ -713,10 +716,10 @@ index 000000000..128ba91ae
 +    assert v["id"] == "B1904" and set(v["scope"]) == {"frame", "object", "reach", "hypotheses"} and v["claim_one_line"].endswith("0 of 19.")
 diff --git a/frontier/B1904_the_foundation_at_version_1_67/verification/write_version_1_67.py b/frontier/B1904_the_foundation_at_version_1_67/verification/write_version_1_67.py
 new file mode 100644
-index 000000000..8da7081e5
+index 000000000..8bdc20473
 --- /dev/null
 +++ b/frontier/B1904_the_foundation_at_version_1_67/verification/write_version_1_67.py
-@@ -0,0 +1,68 @@
+@@ -0,0 +1,73 @@
 +#!/usr/bin/env python3
 +"""B1904 -- the foundation at version 1.67, written by main's script of Review 80 with four corrections.
 +
@@ -737,9 +740,9 @@ index 000000000..8da7081e5
 +    python3 write_version_1_67.py            # checks that every passage is there once, and writes nothing
 +    python3 write_version_1_67.py --write    # writes GENESIS.md
 +"""
-+import importlib.util
 +import pathlib
 +import sys
++import types
 +
 +HERE = pathlib.Path(__file__).resolve().parent
 +ROOT = HERE.parents[2]
@@ -752,8 +755,13 @@ index 000000000..8da7081e5
 +
 +
 +def mains():
-+    spec = importlib.util.spec_from_file_location("mains_genesis_v1_67", MAINS)
-+    m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)          # its last block runs only when it is the program
++    """main's script as a module, its last block not run (that block runs only when the script is the program).  It is read
++    and compiled here, and not imported: an import leaves a folder of compiled files beside it, in the arc B1898, whose lock
++    counts the files of that folder.  (Corrected 2026-11-12, after this arc was first sent: it was imported, and B1898's
++    lock failed on its second run in a checkout where this arc's lock had run.)"""
++    m = types.ModuleType("mains_genesis_v1_67")
++    m.__file__ = str(MAINS)
++    exec(compile(MAINS.read_text(encoding="utf-8"), str(MAINS), "exec"), m.__dict__)
 +    return m
 +
 +

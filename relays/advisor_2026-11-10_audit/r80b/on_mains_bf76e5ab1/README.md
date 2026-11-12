@@ -53,7 +53,7 @@ python3 relays/advisor_2026-11-10_audit/r80b/on_mains_bf76e5ab1/part_5/0003_the_
 git commit -F relays/advisor_2026-11-10_audit/r80b/on_mains_bf76e5ab1/part_5/0003_message.txt
 ```
 
-The tree after it is `7a674e178904bc88483373534ee44ace154d8144`: tried on a clean checkout. What was run is in
+The tree after it is `4ec0c47a3b3bb0d5c3dd2c267e79d73df55ac302`: tried on a clean checkout. **Corrected 2026-11-12 after it was first sent** (the note's § 8): the arc's script left a folder of compiled files beside your scripts in B1898, and B1898's lock then failed on its second run. The files here are the corrected ones. What was run is in
 `part_5/0003_what_was_run_out.txt`, and the note is
 `ADVISOR_TO_CC_2026-11-12_R80B_PART_5_PATCH_3_THE_FOUNDATION_AT_VERSION_1_67.md`.
 
