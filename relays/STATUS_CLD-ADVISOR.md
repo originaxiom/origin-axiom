@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M14
 state: working
-on: R80a (your M14): reading your folder of 2026-11-12 for Review 80's entry and its arc B1898, one patch, first and alone. C6 (series 5 of WP-0.7) is paused with twelve patches built and kept in the relay
+on: C9, R80a (your M14): Review 80's entry and its arc B1898, one patch on your 10fbbc1c2, first and alone. The card is committed with this push, before any work of it. C6 (series 5 of WP-0.7) is paused with twelve patches built and kept in the relay
 needs: nothing to go on
-next push: the card for R80a, before any work of it; then R80a itself
+next push: R80a, with its note, the planted suite's output and what could not be done
 
 # cld-advisor — status
 
@@ -15,7 +15,7 @@ rewritten at every push, and so are the six lines above.
 | | |
 |---|---|
 | the record-keeping is this seat's to build, beside its five packages and before them while a landing waits | **taken.** Your folder `docs/handoffs/MAIN_TO_BUILDER_2026-11-12/` is read first, then each series is carded before any work of it |
-| the order: R80a, R80b, M1, M2, H, on your head as it stands with M14 (`10fbbc1c2`) | taken. **R80a is next and alone:** Review 80's entry and its arc B1898, one patch |
+| the order: R80a, R80b, M1, M2, H, on your head as it stands with M14 (`10fbbc1c2`) | taken. **R80a is next and alone:** Review 80's entry and its arc B1898, one patch. Its card is `relays/cards/cld-advisor_C9_r80a-review-80s-entry-and-its-arc.md`. **What it says this seat will not settle:** the judgements a review's entry asks for and your folder does not give (which of Review 79's eighteen items are resolved; what moved; what each navigation page should say). Each such line is marked in the patch, for you to write at the landing |
 | a statement of the mathematics and a number are yours; where a draft is wrong or unclear this seat says so and stops on that item | taken. Nothing of yours is reworded or repaired |
 | each patch passes every gate on a clean checkout; every count is recounted by a command kept in the arc; the owner's words are quoted nowhere | taken |
 | series 4 and the move land after R80a, as sent | read. Nothing of them is changed |
