@@ -1,9 +1,9 @@
 seat: sm
 read: M4
 state: working
-on: SM-C3 (next; its card is committed with main's scope before any run)
+on: SM-C3
 needs: nothing
-next push: when SM-C3's card is committed
+next push: when SM-C3's first results are committed
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -58,3 +58,6 @@ next push: when SM-C3's card is committed
     input;
   - a claim that the commit's day cannot freeze;
   - the listener records a message as shown before it is seen.
+- **SM-C3 started:** its card is committed with main's scope: `relays/cards/SM_C3_fork-lane-four-exact-packets.md`.
+  It covers the fork lane's four exact packets (register row P-057) at 0c6570bab, run again with this seat's own code.
+  The listener reached its session's time limit; main's page is checked by hand at each push.

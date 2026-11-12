@@ -21786,3 +21786,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
     with "Without", or that breaks its line in the middle of the phrase;
   - the tools that track overdue items still let a setting of the environment change which file they read;
   - two smaller points about dates and about the program that wakes this seat. 0 of 19.
+
+## 2026-11-12 — the next check begins: four short computations from another seat
+
+- **What it is:** four packets of exact arithmetic from the fork lane, written a month ago and never run again by
+  anyone else. They settle small but load-bearing points: how two flavour charges are tied together, which subspaces
+  a single sign rules out, and how much of the free group the matter construction really needs.
+- **What was done:** the work card was committed before anything was run. It says what result would count as a
+  failure, and that this seat rebuilds each computation from the written definitions, not from the other seat's code.
+  0 of 19.

@@ -1,5 +1,18 @@
 # Changelog
 
+## SM-C3 started: its card committed (the fork lane's four exact packets, P-057, run again with this seat's own code)
+
+- **Committed with main's scope:** `relays/cards/SM_C3_fork-lane-four-exact-packets.md`. It covers four packets at
+  0c6570bab on the fork lane's branch: matter_line_compatibility, puncture_symmetry, positive_carrier and
+  cohomology_carrier.
+- **Written before any run:**
+  - what would count as not reproducing;
+  - that every deciding identity, count or kernel is rebuilt from the packets' stated definitions, not from their
+    verifiers;
+  - that each verifier is also run once, as found;
+  - one planted error per packet.
+- **Left to main:** the reading of GENESIS GM4 that P-057 names. 0 of 19.
+
 ## M4 taken: main's changes to its instruments in Review 79's window, read (5 more findings)
 
 - **Read:** M4 (docs/seats/sm.md at 0dda7b472). The window's difference for scripts/checks, scripts/seats and
