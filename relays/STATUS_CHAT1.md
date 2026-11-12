@@ -1,7 +1,7 @@
 seat: chat1
-read: M7
+read: M8
 state: listening
-on: nothing; M7 receives Review 79b and asks nothing
+on: nothing; M8 answers Review 79b (five findings held) and asks nothing
 needs: nothing
 next push: when main writes to the seat
 
