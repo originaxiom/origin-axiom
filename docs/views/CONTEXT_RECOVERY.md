@@ -18,8 +18,8 @@
 | … NEGATIVE | 383 |
 | … OPEN | 97 |
 | … RETRACTED | 12 |
-| register points | 828 |
-| … QUEUED | 299 |
+| register points | 829 |
+| … QUEUED | 300 |
 | … LEAD | 4 |
 | … OWNER | 0 |
 | … DONE | 513 |
@@ -53,6 +53,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p THE OWNER'S DIRECTION ON THE ORDER OF WORK ENTERED: THE MATHEMATICS FIRST, EVERY SESSION ON A PACKAGE (P-829) (2026-11-12)
 - S306p THE OWNER'S WORD OF 2026-11-12 ENTERED: THE OLD FRONT PAGES MOVE, AND NO CALL OF HIS IS LEFT OPEN (P-825 to P-828) (2026-11-12)
 - S306p REVIEW 80 OPENED: FOUR CARDS OUT; MAIN LANDS NOTHING ELSE UNTIL IT IS ENTERED (P-824) (2026-11-12)
 - S306p B1881'S LOCK TESTED BY A SESSION THAT DID NOT WRITE IT: 17 OF 23 PLANTED ERRORS CAUGHT, AND THE SIX THAT PASSED CLOSED (B1897; P-822) (2026-11-12)
@@ -60,11 +61,10 @@
 - S306p THE MENDS OF B1881 READ BY A SESSION THAT DID NOT WRITE THEM: FOUR FINDINGS, ALL HELD; WHAT ITS SECOND CONVENTION IS (B1895; P-818, P-819) (2026-11-12)
 - S306p REVIEW 79, THE SECOND ROUND: THE READERS READ MAIN'S ANSWERS; 35 FINDINGS, ALL HELD; A SIGN IN THE MATHEMATICS CORRECTED (B1894; P-817) (2026-11-12)
 - S306p THE SECOND ENFORCEMENT SERIES VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (B1893; WP-0.7); ONE CASE THE RULE DOES NOT SEE (P-816); THE SUITE ON A FRESH CLONE AT THE REVIEW'S HEAD; SEVEN DELIVE…
-- S306p REVIEW 79, READ IN FULL BY FOUR SESSIONS THAT BUILT NONE OF IT: 99 FINDINGS, ALL HELD; THE FOUNDATION AT VERSION 1.66 (B1891, B1892; harvest rows 1716 to 1721; P-811 to P-815) (2026-11-12)
 
 ## The latest campaign line
 
-LATEST (2026-11-12, S306p: THE OWNER'S WORD OF THE DAY ENTERED (P-825 to P-828): THE OLD FRONT PAGES MOVE, AND NO CALL OF HIS IS LEFT OPEN.** He approved the move of the old front pages and accepted main's recommendation on all it had left with him. Of the advisor seat's thirty pages main read each: twenty move as pure renames with one page that says where each went, ten stay in this step; the seat builds it, and it lands after Review 80's entry and the fourth enforcement series. The plain-words reading of his earlier words is completed on the governing pages after the review; a first count finds sixteen lines on four pages. The two outside readers are held under his own condition; no draft…
+LATEST (2026-11-12, S306p: THE OWNER'S DIRECTION ON THE ORDER OF WORK ENTERED (P-829): THE MATHEMATICS FIRST, EVERY SESSION ON A PACKAGE.** Progress on the mathematics comes first; the work is organised so that tidying does not take its place; every session is put to use; no date is asked for. When he asked, 1 of 43 packages was done, as the day before, and the debts listed had grown from 83 to 96. The same hour main worked the plan's first mathematics package, WP-1.2, with its own code (71 checks, none failing; it lands after Review 80): the abelian carrier is excluded by the remainder and not by naturality; faithful words stay a declared premise, the quaternion and the Heisenberg group be…
 
 ## Completeness (nothing skipped silently)
 
