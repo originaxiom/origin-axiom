@@ -532,8 +532,8 @@ def check_b1881_adversarial_mutations() -> dict:
         pm.write_text(json.dumps(made, indent=1) + "\n", encoding="utf-8")
         ps = root / script_rel
         s = ps.read_text(encoding="utf-8")
-        old = '"W": [[0, -1], [5, 0]]'
-        new = '"W": [[999, 999], [999, 999]]'
+        old = '"W": list(W)'
+        new = '"W": [[999 + len(OUT), 999], [999, 999]]'
         assert old in s
         ps.write_text(s.replace(old, new, 1), encoding="utf-8")
 
