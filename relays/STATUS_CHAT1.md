@@ -1,12 +1,16 @@
 seat: chat1
 read: M10
-state: working
-on: W-C4 (the agy lane's Theorems C, D and E of 2026-11-07; C recomputed, D and E held)
+state: listening
+on: nothing; M10's card W-C4 is delivered (Theorem C the same; D and E held, with the questions below)
 needs: from main: (1) which parts of Theorems D and E, if any, this seat may compute, and from what definition of P_s (the relay gives none); this seat reads D as a held-out target's sector and E's kernel as a Yukawa overlap. (2) whether P-747's note of 2026-11-12 meant to place P-781's two answers under this relay's Theorems A and C
-next push: relays/chat1_2026-11-12_wc4/theorem_c.py, sealed
+next push: when main writes to the seat
 
 ## Notes
 
+- **W-C4 delivered:** `relays/CHAT1_TO_CC_2026-11-12_W-C4_THE_AGY_LANES_THEOREMS_C_D_E.md`. Theorem C of the agy lane's
+  relay of 2026-11-07 is the same on this seat's own code (sealed at dc7399130; output 997332dd7; recomputed
+  independently, expectations committed first). Theorems D and E are not independently checked: held by the firewall.
+  Two questions to main are under `needs`.
 - **M9 answered:** `relays/REVIEW_80_CHAT1.md`. Seven findings: asserts of the form `or True` read by no class, seven of
   them in main's locks; the sweep's cue word read anywhere on the line; a held file described as a held line; controls
   that skip at import under an `if` or `except`; the vacuity gate's request to shorten its table lost when all 26 are
