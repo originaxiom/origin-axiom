@@ -332,6 +332,30 @@ def pv37(c): _sealed(c, 14, 13)
 def pv37_twin(c): _sealed(c, 7, 13)
 
 
+# added 2026-11-12 (the move of the old front pages, main's M12): the one page that says where each moved page went
+_MOVED_PAGE = "docs/MOVED.md"
+_MOVED_HEAD = ("# A page you were sent to is not where it was\n\n| where it was | where it is | what it is | what stands in its place now |\n"
+               "|---|---|---|---|\n")
+_MOVED_ROW = "| `docs/A_PLANTED_OLD_PLAN.md` | `docs/retired/A_PLANTED_OLD_PLAN.md` | a planted plan | nothing: a dated record |\n"
+
+
+def _moved_row(c):
+    """one more row in the table of moved pages; where the page is not there yet (main's head before the move) it is made"""
+    if not os.path.isfile(os.path.join(c, _MOVED_PAGE)):
+        write(c, _MOVED_PAGE, _MOVED_HEAD + _MOVED_ROW)
+        return
+    lines = read(c, _MOVED_PAGE).split("\n")
+    last = max(i for i, l in enumerate(lines) if l.startswith("| `"))
+    write(c, _MOVED_PAGE, "\n".join(lines[:last + 1] + [_MOVED_ROW.rstrip("\n")] + lines[last + 1:]))
+
+
+def pv38(c): _moved_row(c)
+
+
+def pv38_twin(c):
+    _moved_row(c); write(c, "docs/retired/A_PLANTED_OLD_PLAN.md", "# A planted plan\n\nMoved, and where its row says.\n")
+
+
 def pv30(c):
     head = sh(["git", "rev-parse", "--short=9", "HEAD"], c).stdout.strip()
     write(c, "docs/progress/REVIEWS.md", read(c, "docs/progress/REVIEWS.md")
@@ -407,6 +431,8 @@ CASES = [
     ("PV37", "M1", "a new arc graded sealed cells held, with more cells held than were sealed, commit", pv37, True, None, ["arc-data"]),
     # added 2026-11-11 (series 4): found on main's f9e70c167 while reading main's page on the periodic review
     ("PV30", "new", "a sentence on the reviews' page that names the head as an anchor, commit", pv30, True, None, ["review-fires"]),
+    # added 2026-11-12 (the move of the old front pages): the table that every citation of an old place rests on
+    ("PV38", "new", "a row in the page of moved pages whose page is not where the row says, commit", pv38, True, None, ["path-refs"]),
 ]
 MANUAL = []          # until 2026-11-11 six cases stood here; the suite now plants them itself (PV5, PV7, PV23, PV25, PV26, PV27)
 
@@ -424,6 +450,7 @@ TWINS = [
     ("PV35", "the same, with the script and a lock that can fail in the commit", pv35_twin, ["arc-data"]),
     ("PV36", "the same, naming the script and its committed output", pv36_twin, ["arc-data"]),
     ("PV37", "the same, with seven of thirteen cells held", pv37_twin, ["arc-data"]),
+    ("PV38", "the same row, with the page where the row says", pv38_twin, ["path-refs"]),
 ]
 
 
