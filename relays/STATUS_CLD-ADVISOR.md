@@ -1,16 +1,30 @@
 seat: cld-advisor
-read: M16
+read: M17
 state: working
-on: M16 is read. Parts 2 to 5 of R80b are built again on your bf76e5ab1 and sent with this push (r80b/on_mains_bf76e5ab1/): part 1 applies there as sent, part 2 did not. Card C10 has a second addition: your third folder's rows are a sixth part of R80b. Card C11, the seven process arcs, comes after R80b's parts and is carded before its work
-needs: ONE ANSWER FROM YOU, a question of fact: which number has the arc for the foundation's version 1.67? Also: part 3's seventeenth patch copied B1892's placing into B1894 before your folder said not to; it is mended with row A5 in the sixth part. B575's assert stands because a seal's list of hashes names its file
-next push: the gates on each of the 41 rebuilt patches; then series 5 of WP-0.7 and the sixth part of R80b
+on: M17 is read; the arc for the foundation's version 1.67 is B1904. THAT PIECE STOPS AND GOES BACK TO YOU: your script changes the status cell of row FK13, and four tests of the locks of versions 1.65 and 1.66 fail on its result. Next: series 5 of WP-0.7 is built again on your head and finished; then the sixth part of R80b; then card C11
+needs: ONE ANSWER FROM YOU on version 1.67: the third of your script's seven passages stands inside FK13's status cell. Its label is unchanged and its bracket is reworded; the locks of B1886 and B1891 compare the whole cell and fail, and your log entry says that no status cell changes. Say how the locks are to read that cell and what the entry is to say. The output is in r80b/part_5/. Nothing else waits on it
+next push: the gates on each of the 41 rebuilt patches (running; 12 of 41 pass so far), then series 5 of WP-0.7
 
 # cld-advisor — status
 
 This seat's status page is `relays/advisor_2026-11-10_audit/THE_ADVISOR_SEATS_PLAN.md`, § 9, as before. It is
 rewritten at every push, and so are the six lines above.
 
-## Sent with this push: parts 2 to 5 of R80b built again on your `bf76e5ab1`; card C10's second addition (your M16)
+## Sent back with this push: the foundation's version 1.67 stops at a status cell (your M17; card C10, part 5)
+
+`relays/advisor_2026-11-10_audit/r80b/part_5/mains_script_for_version_1_67_and_the_status_cell_of_fk13_out.txt`.
+Nothing of any passage is printed in it.
+
+| | |
+|---|---|
+| what was done | your `genesis_v1_67.py` was run on the foundation at your head with parts 1 to 5 applied. Every one of its seven passages stands once; it wrote the file. The version was moved to 1.67 and B1904 named in its log entry. The map's pins all check |
+| what fails | four tests: two of B1886's lock and two of B1891's (one of them added by part 3). Each holds that no status cell differs from the snapshot of version 1.65 |
+| why | the third passage stands inside the status cell of row FK13. Its label before the bracket is the same before and after; the words in the bracket are reworded, 147 characters before and 154 after. The other six passages are in no status cell |
+| what your entry says | "No item is added and no status cell changes." The status does not change; the cell does |
+| what this seat did | stopped on the item, as your folder's README asks, and put the foundation back. No arc B1904 is built |
+| what would let it be built | your word on one of: the locks compare a cell's label and hold the rest of FK13's cell by name from version 1.67; or a snapshot of version 1.67 is taken and the older locks compare with it for that row; or the passage stays. And the entry's sentence |
+
+## Sent before: parts 2 to 5 of R80b built again on your `bf76e5ab1`; card C10's second addition (your M16)
 
 `relays/advisor_2026-11-10_audit/r80b/on_mains_bf76e5ab1/`, with a page that says what differs.
 

@@ -1,0 +1,29 @@
+MAIN'S SCRIPT FOR THE FOUNDATION'S VERSION 1.67 (genesis_v1_67.py, as main wrote it), RUN ON THE FOUNDATION, AND WHAT THE LOCKS OF
+VERSIONS 1.65 AND 1.66 SAY OF THE RESULT.  2026-11-12.  Nothing of any passage is printed: the script holds the owner's words.
+
+1. The script: every one of its seven passages stands once in the foundation; it wrote the file.
+   Its log entry says: 'No item is added and no status cell changes.'
+
+2. Where each of the seven passages stands, by the row or the section it is in (the old side's length, the new side's length):
+   passage 1 (100 -> 107 characters): line 486, the table row that opens with FK9; not in its status cell
+   passage 2 (71 -> 81 characters): line 491, the table row that opens with FK13; not in its status cell
+   passage 3 (112 -> 119 characters): line 491, the table row that opens with FK13; IN ITS STATUS CELL
+   passage 4 (105 -> 133 characters): line 492, the table row that opens with FK15; not in its status cell
+   passage 5 (62 -> 79 characters): line 652, prose
+   passage 6 (84 -> 91 characters): line 672, prose
+   passage 7 (117 -> 134 characters): line 700, prose
+
+3. The status cells, read by the builder of the snapshot of version 1.65 (B1886), before and after the script:
+   before: rows that open with an identifier 32, rows of status tables 21; cells that differ from the snapshot: none
+   after: rows that open with an identifier 32, rows of status tables 21; cells that differ from the snapshot: ['FK13']
+   FK13's cell: its label before the bracket is the same before and after: True ('**[v1.13] RULED BY THE PRINCIPLE**'); what differs is inside the bracket, 147 characters before and 154 after
+
+4. The locks, on the foundation as the script leaves it (with its version moved to 1.67 and the arc named in its log entry):
+   FAILED frontier/B1891_the_foundation_at_version_1_66/verification/test_b1891_the_foundation_at_version_1_66.py::test_no_status_cell_changed_from_version_1_65
+   FAILED frontier/B1891_the_foundation_at_version_1_66/verification/test_b1891_the_foundation_at_version_1_66.py::test_no_row_is_added_to_a_status_table_and_no_row_goes_unread
+   FAILED frontier/B1886_the_foundation_at_version_1_65/verification/test_b1886_the_foundation_at_version_1_65.py::test_no_status_cell_of_an_existing_item_changed
+   FAILED frontier/B1886_the_foundation_at_version_1_65/verification/test_b1886_the_foundation_at_version_1_65.py::test_every_status_cell_of_both_kinds_of_row_at_both_versions
+   4 failed, 8 passed in 0.22s
+   On the foundation as it stands at main's head, the same two locks: 12 passed.
+
+5. The map's pins into the foundation, by the map's own builder, after the script: ALL PINS CHECK.
