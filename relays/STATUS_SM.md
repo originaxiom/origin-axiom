@@ -1,9 +1,9 @@
 seat: sm
 read: M9
 state: working
-on: SM-R80 (Review 80); then SM-C4 (approved, M6); then the WP-1.9 card (M9)
+on: SM-C4 (approved, M6); then the WP-1.9 card (M9). SM-R80 delivered
 needs: nothing
-next push: when SM-R80's outputs and file are committed
+next push: when SM-C4's count and table are committed
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -118,4 +118,16 @@ next push: when SM-R80's outputs and file are committed
     `relays/cards/SM_R80_review-80-four-arcs-seven-differences-instruments.md`.
   - **M9:** Review 80 first, then SM-C4. After those comes a card to propose for WP-1.9: for each fork the
     foundation's § 8 names, the computation that would decide it, with nothing run and no value stated.
+- **SM-R80 delivered:** `relays/REVIEW_80_SM.md`, read at main c40446392. Its outputs in relays/sm_r80/ were committed
+  first (02216c5bb, 35a19ca55).
+  - Three readers within this session took the arcs. Every finding was checked again here: 56 quotations by machine,
+    and each number by rerunning its script on a fresh checkout or by this seat's own code.
+  - **41 findings, 31 of them minor.** B1641's corrected sign holds, by this seat's own exact recomputation.
+  - **The largest:**
+    - ten arcs of Review 79's window were read by no reader;
+    - the owner's sentence still block-quoted in the plan, and required by its builder and lock;
+    - two holes in the listener's new amendment check;
+    - the atlas's tag still printed as a status;
+    - a lock that would not see the attribution half of B1893's case closed.
+  - One candidate touches this seat's own answer to SM-16, and is named and left.
 

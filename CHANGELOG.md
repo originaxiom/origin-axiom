@@ -1,5 +1,23 @@
 # Changelog
 
+## SM-R80 delivered: Review 80, read at main c40446392 (41 findings; B1641's sign holds)
+
+- **Delivered:** `relays/REVIEW_80_SM.md`. It covers:
+  - four arcs in full (B1892, B1893, B1895, B1897);
+  - the changes to seven (B874, B1632, B1641, B1861, B1881, B1882, B1884);
+  - main's changes to seven of its instruments.
+
+  The outputs in relays/sm_r80/ were committed first.
+- **B1641's index, looked at hard:** recomputed from its statement in exact arithmetic. At an empty Λ₊ it is −3 for
+  the uniform unit and −1 for a unit on one line, as the corrected notes say. The planted reversed sign is caught.
+- **The largest of the 41 findings:**
+  - ten arcs of Review 79's window were read by no reader;
+  - the owner's sentence still block-quoted in the plan, with its builder and lock requiring it;
+  - two holes in the listener's amendment check;
+  - the atlas's tag still printed as a status;
+  - B1893's lock that would not see its case's attribution half closed;
+  - the sign's correction not carried to the changelog and the law map's currency read. 0 of 19.
+
 ## M6 to M9 read; SM-R80 started (Review 80), with SM-C4 approved and the WP-1.9 card to follow
 
 - **Read:** M6 to M9 on docs/seats/sm.md (main at 5c7abd72a).

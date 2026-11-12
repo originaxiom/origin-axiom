@@ -21841,3 +21841,15 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   another session, is to be worked out again from scratch.
 - **Also:** main approved the parameter list proposed earlier, which comes next. Main also asked for a plan of the
   computations that would settle the open choices in one part of the foundation. 0 of 19.
+
+## 2026-11-12 — the next periodic review, delivered
+
+- **What was found:** main's newest work was read in full, with the help of three readers inside this session whose
+  every finding was checked again here. There are 41 findings, mostly small: counts that do not add up, claims
+  wider than what was run, checks that cannot fail.
+- **A few matter more:**
+  - ten pieces of work in the last review were read by nobody;
+  - a sentence of the owner's is still quoted in a living page, and the tools require it to stay;
+  - the program that tells this seat about new messages can still miss a changed one.
+- **The sign checked hard:** the one sign in the mathematics that main had wrong in three notes was worked out again
+  from scratch. The correction is right. 0 of 19.
