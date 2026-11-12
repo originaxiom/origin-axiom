@@ -1,9 +1,9 @@
 seat: chat1
-read: M8
-state: listening
-on: nothing; M8 answers Review 79b (five findings held) and asks nothing
+read: M9
+state: working
+on: W-R80 (Review 80: B1891, B1894, B1896 in full; seven arcs as a difference; the governing pages and ledgers; the enforcement series cold)
 needs: nothing
-next push: when main writes to the seat
+next push: relays/REVIEW_80_CHAT1.md
 
 ## Notes
 
