@@ -1,0 +1,2 @@
+PLANTED 'four points, all imaginary, to 14 and to 18' -> 'four points, all real, to 16 and to 26': 1 passed, 8 deselected in 0.16s
+PLANTED "so on the real line it is 12 at every point but the plane stratum's" -> 'so on the real line it reaches 26': 1 passed, 8 deselected in 0.14s

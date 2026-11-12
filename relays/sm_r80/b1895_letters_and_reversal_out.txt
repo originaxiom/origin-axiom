@@ -1,0 +1,10 @@
+L^T == R: True  R^T == L: True  JLJ == L^T: True  JRJ == R^T: True
+second word == seat letters each transposed, order kept: 1332 of 1332
+mark (1, 1) : seat test differs between a sequence and its reversal on 362 of 1332
+mark (1, 0) : seat test differs between a sequence and its reversal on 358 of 1332
+mark (0, 1) : seat test differs between a sequence and its reversal on 358 of 1332
+mark (1, 4) : seat test differs between a sequence and its reversal on 362 of 1332
+mark (1, 3) : seat test differs between a sequence and its reversal on 0 of 1332
+mark (1, 2) : seat test differs between a sequence and its reversal on 0 of 1332
+apex of [6,1,1,1]: 3.65148371670 equals 2 sqrt30/3: True
+percent above own value of (6): 0.924528

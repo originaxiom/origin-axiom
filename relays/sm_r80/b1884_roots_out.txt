@@ -1,0 +1,5 @@
+N in 2..200 by number of roots: {0: 173, 1: 1, 2: 25}
+levels with 0 roots, first ten: [2, 3, 4, 6, 7, 8, 9, 10, 12, 13]
+levels with 1 root: [5]
+levels with 2 roots, first twelve: [11, 19, 29, 31, 41, 55, 59, 61, 71, 79, 89, 95]
+roots at 209: [15, 81, 129, 195]  at 25: []

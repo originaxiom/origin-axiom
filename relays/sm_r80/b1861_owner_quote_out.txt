@@ -1,0 +1,3 @@
+block quote at PROGRAMME.md line 978, preceded by: ' the 11 then relayed. The owner answered main on 2026-11-10:'
+builder refusals with the owner's sentence removed: ['rulings are marked confirmed with no date or no words of the owner']
+lock's page assertion passes on the committed page: True

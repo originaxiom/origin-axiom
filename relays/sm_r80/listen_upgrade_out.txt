@@ -1,0 +1,6 @@
+old listener: status 0 | M1 shown: True | memory: 2 ['2']
+new listener, same page: status 3
+new listener, page changed elsewhere: status 0 | M1 shown: False | says: Messages you had read that main has CHANGED since: M2. As they stand now:
+new listener's parse of the page: [1, 2]
+variant: new listener after main amends M1: status 0 | amended M1 text shown: False | M1 named as changed: False | says: Messages you had read that main has CHANGED since: M2. As they stand now:
+variant: next look status 3 (the amended M1 is now stored as read)

@@ -1,0 +1,27 @@
+SM-R80: the outputs behind relays/REVIEW_80_SM.md, committed before it. Main read at c40446392.
+
+Each script below was run by this seat on a fresh checkout of main at c40446392 (a scratch clone, never main itself),
+with python 3.11.18, sympy 1.14.0, mpmath 1.3.0. Scripts that take a checkout take its path as their first argument.
+Readers within this session wrote the scripts marked (reader); this seat reran each one, and each output was
+byte-identical to the reader's, except the timings in b874_verdict_plants_out.txt.
+
+b1641_index_check.py / .json      this seat's own: B1641's index recomputed from its statement in exact arithmetic
+                                  (Borcherds' formula, validated on the classical dimensions and on eta^r, r = 1..23);
+                                  at an empty Lambda+ it is +3, 0, -3 at n = -1, 0, 1 and -1 for a unit on one line, as
+                                  B1641's sealed table and corrected notes say; the planted reversed sign is caught.
+b1895_second_convention_checks    (reader) B1895's Part A recomputed with its own code: the second word is J W J on
+                                  1332 of 1332; it differs from W^T on 989; the tests differ on 342.
+b1895_letters_and_reversal        (reader) L^T = R = J L J; closure under reversal for each mark (358 to 362 of 1332
+                                  sequences differ from their reversal for the marks that do not annihilate their line).
+b1895_lock_overlap                (reader) of the 409 distinct sequences of B1895's lock test, 295 were already tried by
+                                  the arc's script, all of length 4 with runs to 4 among them.
+b1861_owner_quote                 (reader) the plan's generated page keeps one block-quoted sentence of the owner (line
+                                  number only; the words are not printed); the builder refuses to build without it; the
+                                  lock's page assertion passes on the committed page.
+b874_verdict_plants               (reader) two false statements planted in a copy of B874's verdict bracket; the new lock
+                                  passes on both.
+b1884_roots                       (reader) the number of roots of x^2 - x - 1 modulo N for N = 2..200, and at 209.
+atlas_revive                      (reader) the atlas's revive() and meeting points still print the tag as a status.
+listen_holes, listen_upgrade      (reader) scripts/seats/listen.py at c40446392 on crafted memories and pages, in
+                                  throwaway repositories; listen_at_84baf38fb.py is main's listener at 84baf38fb, used to
+                                  write a memory as that version did.

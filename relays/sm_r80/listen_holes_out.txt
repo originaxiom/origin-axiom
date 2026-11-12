@@ -1,0 +1,7 @@
+H1 status 0 | shows M2: True | says M1 changed or that it cannot tell: False | shows the amended text: False
+H1 next look status 3 (3 = nothing new): the amendment of M1 is now stored as read
+H2 status 0 | M1's text shown: False | first line of what is printed after the head: No new message: main changed the page elsewhere (your cards, or what it waits for). Read t
+H3 memory {"blob": null, "read": "two"} -> rc 1; stderr last line: ValueError: invalid literal for int() with base 10: 'two'
+H3 memory {"blob": null, "read": 1, "sums": ["x"]} -> rc 0; stderr last line: 
+H3 memory {"blob": null, "read": null} -> rc 1; stderr last line: TypeError: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+H4 (2, 'main has no page docs/seats/x.md')

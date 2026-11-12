@@ -1,0 +1,22 @@
+SL2 mod 5 size 120
+sequences 1332
+matrices reached 120 all of SL2: True
+A1 word equality second == J W J on all: True
+annihilated by (1,3): [(1, 3)] own line? True
+(2,1) in line of (1,3)? True J(2,1) = (1, 2)
+A2 swapped word != transposed word on 989 ; tests differ on 342
+   actual second word != W^T on 989
+ground ((1, 1), (1, 2)) symmetric True swap ((2, 1), (1, 1)) second ground R.L ((2, 1), (1, 1))
+row (1,3)*ground (4, 2)
+line (0, 1) self-annihilating False A4 120 row=col-of-transpose 120 recipe(swapped mark on swapped matrix) agree 88
+line (1, 0) self-annihilating False A4 120 row=col-of-transpose 120 recipe(swapped mark on swapped matrix) agree 88
+line (1, 1) self-annihilating False A4 120 row=col-of-transpose 120 recipe(swapped mark on swapped matrix) agree 88
+line (1, 2) self-annihilating True A4 120 row=col-of-transpose 120 recipe(swapped mark on swapped matrix) agree 120
+line (1, 3) self-annihilating True A4 120 row=col-of-transpose 120 recipe(swapped mark on swapped matrix) agree 120
+line (1, 4) self-annihilating False A4 120 row=col-of-transpose 120 recipe(swapped mark on swapped matrix) agree 88
+lines S keeps (rows): [(1, 2), (1, 3)]  (columns): [(1, 2), (1, 3)]
+A5 120
+A7 second word on reversed == J W^T J on all: True
+   odd length 3: second word on reversed == J W^T J: 9 of 216 ; == W^T: 216
+E12 total 47988 agree 47988 differ vs reversed 0 differ vs rotated 8366
+J L J == R: True

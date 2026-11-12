@@ -1,0 +1,9 @@
+arc_card : B57 [PROVED]  -- "general m splitting"
+revive   : revive B57 [dead]  -- "general m splitting"
+arc_card : B59 [PROVED]  -- "sl4 factorization"
+revive   : revive B59 [dead]  -- "sl4 factorization"
+arc_card : B60 [PROVED]  -- "sln tower"
+revive   : revive B60 [dead]  -- "sln tower"
+meet     :   B497   s=25 [banked] two_ends+object=dynamics+physics_bridge+quantum_meeting+symplectic_casimir  (
+card     :   corpus: 1595 frontier probes; status {'open': 104, 'banked': 1065, 'dead': 388, 'dormant': 38}
+obstacle : obstacle 'source_free': 2 banked probes touched it
