@@ -64,3 +64,7 @@ def test_the_arc_says_what_it_is_and_what_it_is_not():
     assert v["id"] == "B1897" and v["verdict"] == "PROVED" and v["instrument"] is True and v["claim_one_line"].endswith("0 of 19.")
     assert set(v["scope"]) == {"frame", "object", "reach", "hypotheses"} and v["scope"]["reach"] in ("single", "class", "general")
     assert "17 OF 23 PLANTED ERRORS CAUGHT" in v["claim_one_line"] and "the lock catches 24 of 24, the control passing" in v["claim_one_line"]
+    # ADDED 2026-11-12 (Review 80; a reader's finding F8): the verdict line is published on the verdict ledger and names no
+    # session; the file's citation of the seat says who planted, and so does the page
+    assert "agy-" not in v["claim_one_line"] and "a session that did not write it then planted 23 of its own" in v["claim_one_line"]
+    assert any(c.startswith("agy-002: ") for c in v["cites_seat"]) and "**The verdict line does not name the reader.**" in PAGE

@@ -155,6 +155,10 @@ its 23 were caught and six passed. The six are closed in B1897. The sentence abo
 ## Disclosed
 
 - **Main wrote the mends that were read, the new mends, and this page.**
+- **The verdict line does not name the reader.** [CHANGED 2026-11-12 (Review 80; a reader's finding, checked by
+  main): the line named the session whose reading this arc answers. A verdict line is published on the verdict
+  ledger. It now says "a session that did not write them". Who it was is on this page, in its opening, and in the
+  verdict file's citation of the seat.]
 - **The reader is of another family of model than main.** Its file was read through main's mask, and its quotations
   were checked by a script that reads the file and prints nothing of it.
 - **Everything in § 3 and § 4 is computed once.** Main had computed each number at the keyboard before the arc's

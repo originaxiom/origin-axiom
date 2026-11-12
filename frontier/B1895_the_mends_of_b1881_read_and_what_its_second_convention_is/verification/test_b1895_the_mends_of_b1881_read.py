@@ -178,5 +178,9 @@ def test_the_arc_says_what_it_is_and_what_it_is_not():
     v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
     assert v["id"] == "B1895" and v["verdict"] == "PROVED" and v["claim_one_line"].endswith("0 of 19.") and set(v["scope"]) == {"frame", "object", "reach", "hypotheses"}
     assert v["scope"]["reach"] in ("single", "class", "general") and "level 5" in v["scope"]["hypotheses"]
+    # ADDED 2026-11-12 (Review 80; a reader's finding F8): the verdict line is published on the verdict ledger and names no
+    # session; the file's citation of the seat says who read, and so does the page
+    assert "agy-" not in v["claim_one_line"] and "by a session that did not write them" in v["claim_one_line"]
+    assert any(c.startswith("agy-002: ") for c in v["cites_seat"]) and "**The verdict line does not name the reader.**" in PAGE
     led = (ROOT / "docs" / "HARVEST_LEDGER.md").read_text(encoding="utf-8")
     assert "c67f84c1" in led and "B1895" in led

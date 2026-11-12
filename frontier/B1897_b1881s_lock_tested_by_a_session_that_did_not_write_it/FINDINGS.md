@@ -95,6 +95,10 @@ the two locks of 2026-11-11 (B1892 § 7) and the tripwire (B1894 § 4).
 ## Disclosed
 
 - **Main wrote the lock that was tested, its mends, and this page.**
+- **The verdict line does not name the reader.** [CHANGED 2026-11-12 (Review 80; a reader's finding, checked by
+  main): the line named the session that planted the 23 errors. A verdict line is published on the verdict ledger.
+  It now says "a session that did not write it". Who it was is on this page, in its opening, and in the verdict
+  file's citation of the seat.]
 - **The reader is of another family of model than main.** Its report was read through main's mask, and its quotations
   were checked by a script that reads the file and prints nothing of it.
 - **The six plants here are main's reconstructions,** written after reading the reader's report.
