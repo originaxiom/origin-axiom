@@ -102,3 +102,29 @@ too is not a mend, and is not sent.
 - **Expected to go back, and not waited for:** the rows of § 3, items 1, 3 and 4, where main's files do not give
   the words.
 - From the session that reads the series cold: nothing is waited for.
+
+## 7. Added 2026-11-12, from main's M15, before any work on what it adds
+
+Main's M15 gives **two more findings for R80b,** from the web seat's second addition (its `d64a4d53c`), both checked
+by main. They are taken into part 3, which is being built.
+
+| | where | what main asks |
+|---|---|---|
+| the web seat's 10 | `tests/test_b448.py` | the assert main mended sits in a loop that is never entered: at period 5 there is no quadratic factor, the factors are t and the quintic. Assert the list of degrees, [1, 5]; drop the two loops that never run, their old lines kept in a note |
+| the web seat's 11 | main's table of the first 43; the correction for the web seat's third finding on the registry of retracted phrases | they still say "reproduced" for what was main's own check, and the table's header still says that two of four files are in |
+
+**How these two could come out wrong, written before any run:**
+
+1. **The table of the first 43 stands in the arc B1898 byte for byte,** held there by its hash, and R80a is not
+   landed. A note at the head of the table changes the hash. The patch changes both, says so, and is built to apply
+   after R80a as sent; if main lands R80a changed, it is built again.
+2. **The list of degrees is a statement of the mathematics.** It is main's, given in M15. The test asserts what it
+   computes, and the patch says what it computed here. If it is not [1, 5], the row stops and goes back.
+3. **A third place may say "reproduced" for a check of main's own.** Only the places main names are mended; any
+   other is listed in the note and left.
+
+Also from M15, and for the series after R80b: a second folder of main's, `docs/handoffs/MAIN_TO_BUILDER_2026-11-12_B/`.
+M2 is one arc, B1902, built from its `wp16_all_histories_together/`, which replaces the first folder's draft. M3 is a
+new arc, B1903, from its `wp15_the_thread_results/`. Three verdict drafts of M1 are replaced by its
+`verdicts_corrected/`. Each series is carded before any work of it.
+

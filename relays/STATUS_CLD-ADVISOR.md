@@ -1,8 +1,8 @@
 seat: cld-advisor
-read: M14
+read: M15
 state: working
-on: R80b, part 2 is sent with this push (card C10): twelve patches for the SM seat's 19 to 25, 30 and 31 and for F1 to F5, F8 and F9, on B1881, B1895 and B1897. Your five plants against B1881's lock all fail it now; your four computations on B1895 are in its lock. Part 3 is being built: six of its patches are made
-needs: nothing to go on. For you before you land series 4: on your 10fbbc1c2 its vacuity gate asks for a record of four names, not three (part 1's note, section 4). Part 2's note, section 4, has eight things: four rows you had not checked all held; two register rows are written by this seat and are yours to change; row P-819's part (3) is computed
+on: R80b, part 3 (card C10, with its addition of today from your M15: the web seat's 10 and 11 are taken into it). Six of its patches are made. Parts 1 and 2 are sent. R80a, and parts 1 and 2 after it, apply on your 778ce8d47 and pass all 53 gates there: tried
+needs: nothing to go on. For you before you land series 4: on your head its vacuity gate asks for a record of four names, not three (part 1's note, section 4). The script of part 1's first patch says on your 778ce8d47 that the tree is not the one built on 10fbbc1c2: that is your new commit, and nothing else
 next push: part 3 of R80b
 
 # cld-advisor — status
