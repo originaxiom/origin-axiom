@@ -1,0 +1,186 @@
+{
+  "all_planted_controls_fired": true,
+  "card": "X-C1b-postrun",
+  "checks": {
+    "923": {
+      "fixed_points_LR": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          2
+        ]
+      ],
+      "fixed_points_LR_P_negI": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          2
+        ]
+      ],
+      "groebner_basis_lex": [
+        "x - z",
+        "y - z",
+        "z**2 - 2*z"
+      ],
+      "groebner_matches_stated_basis": true,
+      "pc_923_fired": true,
+      "puncture_traces_kappa": {
+        "(0, 0, 0)": -2,
+        "(2, 2, 2)": 2
+      },
+      "result": "the same"
+    },
+    "924_I1": {
+      "active_members": [
+        {
+          "c_abt_mod4": [
+            2,
+            0,
+            2
+          ],
+          "count_W1_L2": [
+            -1,
+            -1
+          ],
+          "tuple_A": [
+            0,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "c_abt_mod4": [
+            0,
+            2,
+            2
+          ],
+          "count_W1_L2": [
+            -1,
+            -1
+          ],
+          "tuple_A": [
+            0,
+            2,
+            1,
+            1
+          ]
+        }
+      ],
+      "kappa1_character_count": 8,
+      "pc_924_fired": true,
+      "result": "the same"
+    },
+    "925_F3_congruence": {
+      "fibre_only_orders_Q8_V4": [
+        8,
+        4
+      ],
+      "pc_925_fired": true,
+      "result": "the same",
+      "thread_congruence_orders_2T_A4": {
+        "+LLLR": {
+          "lift_count": 2,
+          "psl2_order": 12,
+          "sl2_order": 24
+        },
+        "+LR": {
+          "lift_count": 2,
+          "psl2_order": 12,
+          "sl2_order": 24
+        },
+        "-LLLR": {
+          "lift_count": 2,
+          "psl2_order": 12,
+          "sl2_order": 24
+        },
+        "-LR": {
+          "lift_count": 2,
+          "psl2_order": 12,
+          "sl2_order": 24
+        }
+      }
+    },
+    "929_W15_extensions": {
+      "pc_929_fired": true,
+      "primes_checked": {
+        "20089": {
+          "hist": {
+            "0": 60,
+            "1": 60
+          },
+          "per_state": {
+            "+LLRLRR": {
+              "0": 36
+            },
+            "+LR": {
+              "1": 36
+            },
+            "-LLRLRR": {
+              "0": 24
+            },
+            "-LR": {
+              "1": 24
+            }
+          },
+          "total": 120
+        },
+        "50329": {
+          "hist": {
+            "0": 60,
+            "1": 60
+          },
+          "per_state": {
+            "+LLRLRR": {
+              "0": 36
+            },
+            "+LR": {
+              "1": 36
+            },
+            "-LLRLRR": {
+              "0": 24
+            },
+            "-LR": {
+              "1": 24
+            }
+          },
+          "total": 120
+        },
+        "90073": {
+          "hist": {
+            "0": 60,
+            "1": 60
+          },
+          "per_state": {
+            "+LLRLRR": {
+              "0": 36
+            },
+            "+LR": {
+              "1": 36
+            },
+            "-LLRLRR": {
+              "0": 24
+            },
+            "-LR": {
+              "1": 24
+            }
+          },
+          "total": 120
+        }
+      },
+      "result": "the same"
+    }
+  },
+  "elapsed_seconds": 11.103,
+  "seat": "agy-exp"
+}
