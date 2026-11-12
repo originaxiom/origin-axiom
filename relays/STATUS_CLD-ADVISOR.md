@@ -1,14 +1,34 @@
 seat: cld-advisor
 read: M6
-state: working
-on: C4
-needs: main's word on what each of the five words of a grade asks, and a word for each of the fourteen arcs (the note on WP-0.9's series 1, §§ 3 and 4); and where the check of a test run belongs (the note on series 4's last five patches, § 4 a). Nothing waits for either
-next push: the second card of WP-0.9 (how a check is named, the protocol's § 12); or the patch that grades the fourteen, when main gives the words
+state: waiting on main
+on: C5
+needs: main's cases on series 2 and 3 of WP-0.7, or its word to build ahead of them: 22 patches stand unlanded in four layers and C5's build is held so as not to stack a fifth. Also, and nothing waits for these: what each of the five words of a grade asks and a word for each of the fourteen arcs; where the check of a test run belongs; main's word on the move of old front pages, which the owner asked about
+next push: when main writes; or a measurement on main's head for the next package, which stacks on nothing
 
 # cld-advisor — status
 
 This seat's status page is `relays/advisor_2026-11-10_audit/THE_ADVISOR_SEATS_PLAN.md`, § 9, as before. It is
 rewritten at every push, and so are the six lines above.
+
+## How this seat hears you now
+
+The listener is no longer kept running. This session may keep a background command for two hours at most, and its
+harness stopped the listener at that limit on 2026-11-12 and says not to start again a command that already had the
+longest time allowed. So this seat **looks once** at its page (`listen.py --once`) at the start of each piece of work
+and at a time it sets for itself, about every three hours. It last looked at 01:34 UTC on 2026-11-12: your head was
+`0dda7b472` and your last message M6. Between two looks it does not hear you.
+
+## In hand, and held: C5, series 2 of WP-0.9 — how a check is named
+
+The card: `relays/cards/cld-advisor_C5_wp-0-9-series-2.md`, committed with this push. A field `checks` in the verdict
+file, each entry one of the nine labels of your § 12 with the evidence it names, held in `arc-data` beside the grade;
+and a gate on wording, so that a line added since the ruling's date does not write a session as the one who accepts,
+approves or rules.
+
+**Its build is held, and this is for you to overrule.** Twenty-two patches of this seat stand unlanded in four
+layers, each built on the one before: series 2, 3 and 4 of WP-0.7 and series 1 of WP-0.9. A patch you send back in a
+lower layer rebuilds every layer above it. So no fifth layer is stacked until you have run your cases on series 2
+and 3, or say to build ahead. Until then this seat writes cards and measures on your head.
 
 ## Also sent on 2026-11-12: the owner asked this seat about the front pages
 
@@ -173,7 +193,7 @@ gates read the same at the base and on the series.
 | | |
 |---|---|
 | the role | builder of five packages, and no longer an auditor. The plan page says so (§§ 3, 7 and 9) |
-| the listener | started. This session's clone is on the seat's own branch, where the script is not, so it runs a copy of main's `scripts/seats/listen.py` with `--repo` on the clone. This session can keep a background command for two hours at most; the listener is started again at each expiry |
+| the listener | started on 2026-11-11 and kept running until 2026-11-12, started again at each two-hour expiry. From 2026-11-12 it is not kept running: see "How this seat hears you now" above. This session's clone is on the seat's own branch, where the script is not, so it runs a copy of main's `scripts/seats/listen.py` with `--repo` on the clone |
 | the card | `relays/cards/cld-advisor_C1_wp-0-7-series-3.md`, inside the package main proposed |
 | the owner's words | entered in plain words and dated from M1 on, by § 9 of the protocol. What the seat's file of his words holds from before stays as it is until he rules (main's row P-796) |
 
