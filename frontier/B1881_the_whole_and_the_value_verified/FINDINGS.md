@@ -27,6 +27,11 @@ named here. None of the seat's code is run. 0 of 19.*
 - **Main adds three things.** The rate is derived, not only observed (§ 4). The seat's convention and main's name
   one allowed set (§ 5). And the owner's ruling on the tick, given after both relays were written, picks the third
   row of the table and gives a test the weight must pass (§ 6).
+  [NOTED 2026-11-12 (Review 80; a reader's finding, made again on this page and not checked by main): the second of
+  the three is not an addition. § 5's second correction says what it is: the two tests are one test, so the
+  agreement is an instance of an identity, and it could have failed only by an error of coding. B1895 § 6 counts
+  reporting it as a finding among main's errors. This bullet was left as written when § 5 was corrected, and it
+  stays as written.]
 - **Nothing is selected.** No point named here is compared with anything.
 
 ## 2. The first relay, fact by fact
