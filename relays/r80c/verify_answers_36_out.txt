@@ -1,0 +1,26 @@
+=== 1. PROSE, COUNT, AND LEDGER MENDS AT 10fbbc1c2 (A1..A4, A7..A8, A10..A14, A16..A23) ===
+  A1: B1892 §5 sum fixed to 53+43+3=99, RESIDUAL FOUND: B1892 §1 line 10 (added in 5fa8ac1d5) states stale 'the first reader has 52 findings'!
+  A2: B1892 FINDINGS/arc_verdict + REVIEWS.md + P-830 mended (minor residual: P-805 still says 'every arc of the window read in full' without P-830 note).
+  A3: B1892 20 generated-only / 0 session-page-only commits mended with old words kept: CLOSED.
+  A4: 25 of 43 carried to all 4 surfaces (B1892 FINDINGS, arc_verdict, POINT_REGISTER #88, VERDICT_LEDGER): CLOSED.
+  A7: CLOSED. A8: B1896 prose mended; NOTE: 'the 68 registered as a debt' is in STATUS_OF_THE_57.md ('Owed from the first 43'), not yet a P-row in POINT_REGISTER.md.
+  A9 (P-806 part): P-806 updated to 24 of 32: CLOSED (lock part checked in Section 2).
+  A12 (prose part): B1878 FINDINGS & arc_verdict mended; RESIDUAL: PROGRAMME.md row G9 col 7 still states unmended 'B1878: ... on the first-parent line ... 695 commits pass' without B1880.
+  A13: Both B1880 script docstrings corrected; RESIDUAL: test_b1880 still leaves both docstrings unlocked.
+  A14 (JSON & check-artifact part): DEFECT FOUND: B1885/arc_verdict.json scope.hypotheses STILL says 'the two checks made on it' contradicting claim_one_line ('the three checks made on it'), AND plants_agy002.json records 'the lock': 'passes' due to a stale regex no-op in plants_agy002.py!
+  A16 & A17: CLOSED. A18: RETRACTIONS.md note + B997/B1859 row added; RESIDUAL: RETRACTIONS.md cites P-823 for Reviews 75-77 and window arc-by-arc reading, but P-823 in POINT_REGISTER.md was not updated to mention Reviews 75-77 or standalone non-review corrections.
+  A19, A20, A21, A22, A23: ALL FIVE CLOSED cleanly with old words kept.
+
+=== 2. SCRATCH-WORKTREE PYTEST VERIFICATION OF LOCK MENDS AND SURVIVING PLANTS (A5, A6, A9, A10, A12, A14, A15) ===
+  A5 (B1892): STILL OPEN IN PART -> clean=PASS; verdict='NEGATIVE'+wiped ANSWERS.md+emptied answers.json sublists STILL PASSES (5 passed in 68.26s (0:01:08)); and quote_check.placed() on nonexistent 'frontier/B1881_NONEXISTENT_TYPO/FINDINGS.md' matches B1892/FINDINGS.md and returns 'named'!
+  A6 (B1893): STILL OPEN IN PART -> verdict='NEGATIVE' now FAILS; but deleting 10 case rows (U11, U12.a, U12.c, U13..U19) from FINDINGS.md + 'ZERO OF MAIN\'S UNSEEN CASES ARE CAUGHT' in claim_one_line STILL PASSES (7 passed in 5.96s)!
+  A9 (B1896): STILL OPEN IN PART -> runner deletion & 'Five are not caught' now FAIL; but '0 OF MAIN\'S 22 UNSEEN CASES ARE CAUGHT' in claim_one_line + false AR3/AR4 gate names in FINDINGS.md STILL PASSES full test_b1896 (8 passed in 47.19s)!
+  A10 (B1862 parts 3 & 4): STILL OPEN -> unmarked E5 old-form paragraph in SKELETON.md passes BOTH test_b892_walls_on_the_line (4 passed, 2 skipped in 1.30s) AND test_b1862 (13 passed in 75.91s (0:01:15)), and 'FORCES Z6'->'FORCES Z3' in B862/arc_verdict.json still passes test_b1862 (dropped from ANSWERS & STATUS_OF_THE_57)!
+  A12 (B1878 lock + CTL-R80C-BASE-C404): broken JSON passed on c40446392 and FAILS on 10fbbc1c2; note removal FAILS on 10fbbc1c2: LOCK CLOSED.
+  A14 (B1885 lock): real strip of 18-digit note FAILS test_b1885 (confirming plants_agy002.py's 'passes' was a stale-regex no-op; scope.hypotheses still stale at 'two checks').
+  A15 (B1890 lock): all 3 lock plants (invalid arc_verdict.json, shrunk READS_HISTORY, disabled empty refusal) now FAIL test_b1890: LOCK CLOSED.
+
+=== 3. HANDOFF COVERAGE CHECK FOR A24..A36 (ROWS 41..53 IN builder_rows_probe*.py/.json) ===
+  A24..A36: all 13 rows open with the builder by design; 8 of the 13 rows (A28, A29, A30, A31, A32, A34, A35, A36) have sub-cases in REVIEW_80_AGY-002.md absent from main's builder_rows_probe scripts — itemized so builder patches must close full rows, not just main's single-case probes.
+
+ALL A2-R80c (M15 ANSWERS_the_first_43.md) CHECKS AND CONTROLS COMPLETED.
