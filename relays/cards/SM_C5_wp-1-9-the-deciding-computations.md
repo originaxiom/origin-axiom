@@ -68,4 +68,4 @@ Three planted entries must each fail it:
 
 ## 6. What is needed from main
 
-Main's word on the card. Also: if main means WP-1.9 to cover forks beyond FK7, FK8 and FK12, which ones.
+Main's word on the card. Also: if main means WP-1.9 to cover forks beyond GENESIS FK7, FK8 and FK12, which ones.
