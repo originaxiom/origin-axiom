@@ -1,0 +1,1461 @@
+{
+  "card": "X-C1b",
+  "elapsed_seconds": 1455.525,
+  "negative_controls": {
+    "C1b_1": {
+      "fired": true,
+      "mismatches_true": 0,
+      "mismatches_wrong_diff": 120,
+      "mismatches_wrong_sign": 66
+    },
+    "C1b_2": {
+      "cusp_trivial_nonzero_index_count": 72,
+      "fired": true,
+      "triv_doublet_h0_r1": [
+        2,
+        2
+      ]
+    },
+    "C1b_3": {
+      "LLR_ideal_norm": 8,
+      "LR_ideal_norm": 3,
+      "fired": true
+    },
+    "all_controls_fired": true
+  },
+  "rows": {
+    "923": {
+      "commits": [
+        "6e5f5f2e3"
+      ],
+      "fixed_points_LR": [
+        [
+          -1,
+          2,
+          -1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          2
+        ]
+      ],
+      "fixed_points_LR_P_negI": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          2
+        ]
+      ],
+      "pf1_exclusion_of_222": "reading (not independently checked)",
+      "puncture_traces_kappa": {
+        "(-1, 2, -1)": 2,
+        "(0, 0, 0)": -2,
+        "(2, 2, 2)": 2
+      },
+      "result": "differs",
+      "row": 923
+    },
+    "924": {
+      "I1_m135_counts": [
+        [
+          -1,
+          -2
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          1,
+          -4
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          1,
+          -4
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          1,
+          -4
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          1,
+          -4
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -1,
+          -2
+        ]
+      ],
+      "I2_ok": true,
+      "chiral_twins": [
+        "-LR",
+        "+LLLR",
+        "-LLLLLR",
+        "+LLLRLR",
+        "-LLLRRR",
+        "-LLRLRR"
+      ],
+      "commits": [
+        "c9d03b925",
+        "80a263a36"
+      ],
+      "population_per_route": 432,
+      "pre_seal_controls_and_I3_all_zero": true,
+      "prereg_sha256": "556910b631c715867352057dad3401a50b41e949c077bdcf9ef58178f0c20e69",
+      "result": "differs",
+      "row": 924,
+      "vector_like_twins": [
+        "+LR",
+        "-LLLR",
+        "+LLLLLR",
+        "-LLLRLR",
+        "+LLLRRR",
+        "+LLRLRR"
+      ]
+    },
+    "925": {
+      "commits": [
+        "94aa48ea8"
+      ],
+      "plus_LLLR_a4_hyperbolic_members": 0,
+      "plus_LLLR_tick3_spin_eigenspace_dims": [
+        3,
+        3
+      ],
+      "psl2_f3_order_A4": 4,
+      "result": "differs",
+      "row": 925,
+      "sl2_f3_order_2T": 8,
+      "traces_mod_3": [
+        0,
+        0,
+        0
+      ]
+    },
+    "926": {
+      "all_counts_zero": true,
+      "commits": [
+        "09217e78a"
+      ],
+      "result": "the same",
+      "route_1_readings": 432,
+      "route_2_readings": 432,
+      "row": 926,
+      "t2_intermediate_cohomology_ok": true,
+      "total_sealed_readings": 864,
+      "w11_pow96_checked": 1516,
+      "w11_pow96_ok": true,
+      "w11_tick_powers_checked": 144,
+      "w11_tick_powers_ok": true
+    },
+    "927": {
+      "active_n_zero_and_h1_eq_r1_eq_h0T": true,
+      "active_readings": 736,
+      "commits": [
+        "3a01ae3aa"
+      ],
+      "control_readings": 992,
+      "controls_h1_zero": true,
+      "result": "the same",
+      "row": 927,
+      "state_tick_pairs": 44
+    },
+    "928": {
+      "all_census_and_law_checks_ok": true,
+      "census": {
+        "+LLLLLR": {
+          "distinct_slopes": 35,
+          "generation_shaped": 720,
+          "lifted": 240,
+          "nuc_same_sign": 48,
+          "orb_hist": {
+            "3": 720
+          },
+          "ordG": 320,
+          "parity_firings": 0,
+          "parity_slope_class_size": 3,
+          "pos_neg": [
+            360,
+            360
+          ]
+        },
+        "+LLLR": {
+          "distinct_slopes": 13,
+          "generation_shaped": 72,
+          "lifted": 0,
+          "nuc_same_sign": 24,
+          "orb_hist": {
+            "3": 72
+          },
+          "ordG": 108,
+          "parity_firings": 0,
+          "parity_slope_class_size": 3,
+          "pos_neg": [
+            36,
+            36
+          ]
+        },
+        "+LLLRLR": {
+          "distinct_slopes": 217,
+          "generation_shaped": 144,
+          "lifted": 72,
+          "nuc_same_sign": 0,
+          "orb_hist": {
+            "3": 144
+          },
+          "ordG": 2156,
+          "parity_firings": 0,
+          "parity_slope_class_size": 3,
+          "pos_neg": [
+            72,
+            72
+          ]
+        },
+        "+LLLRRR": {
+          "distinct_slopes": 115,
+          "generation_shaped": 1584,
+          "lifted": 288,
+          "nuc_same_sign": 1296,
+          "orb_hist": {
+            "3": 1584
+          },
+          "ordG": 1296,
+          "parity_firings": 0,
+          "parity_slope_class_size": 67,
+          "pos_neg": [
+            792,
+            792
+          ]
+        },
+        "+LLRLRR": {
+          "distinct_slopes": 553,
+          "generation_shaped": 0,
+          "lifted": 0,
+          "nuc_same_sign": 0,
+          "orb_hist": {},
+          "ordG": 3328,
+          "parity_firings": 0,
+          "parity_slope_class_size": 15,
+          "pos_neg": [
+            0,
+            0
+          ]
+        },
+        "+LR": {
+          "distinct_slopes": 3,
+          "generation_shaped": 48,
+          "lifted": 0,
+          "nuc_same_sign": 48,
+          "orb_hist": {
+            "3": 48
+          },
+          "ordG": 16,
+          "parity_firings": 0,
+          "parity_slope_class_size": 3,
+          "pos_neg": [
+            24,
+            24
+          ]
+        },
+        "-LLLLLR": {
+          "distinct_slopes": 41,
+          "generation_shaped": 360,
+          "lifted": 0,
+          "nuc_same_sign": 96,
+          "orb_hist": {
+            "3": 360
+          },
+          "ordG": 324,
+          "parity_firings": 0,
+          "parity_slope_class_size": 3,
+          "pos_neg": [
+            180,
+            180
+          ]
+        },
+        "-LLLR": {
+          "distinct_slopes": 18,
+          "generation_shaped": 48,
+          "lifted": 0,
+          "nuc_same_sign": 48,
+          "orb_hist": {
+            "3": 48
+          },
+          "ordG": 112,
+          "parity_firings": 0,
+          "parity_slope_class_size": 3,
+          "pos_neg": [
+            24,
+            24
+          ]
+        },
+        "-LLLRLR": {
+          "distinct_slopes": 198,
+          "generation_shaped": 2776,
+          "lifted": 1216,
+          "nuc_same_sign": 1744,
+          "orb_hist": {
+            "1": 16,
+            "3": 2760
+          },
+          "ordG": 2160,
+          "parity_firings": 0,
+          "parity_slope_class_size": 3,
+          "pos_neg": [
+            1388,
+            1388
+          ]
+        },
+        "-LLLRRR": {
+          "distinct_slopes": 139,
+          "generation_shaped": 720,
+          "lifted": 408,
+          "nuc_same_sign": 0,
+          "orb_hist": {
+            "3": 720
+          },
+          "ordG": 1300,
+          "parity_firings": 0,
+          "parity_slope_class_size": 3,
+          "pos_neg": [
+            360,
+            360
+          ]
+        },
+        "-LLRLRR": {
+          "distinct_slopes": 555,
+          "generation_shaped": 0,
+          "lifted": 0,
+          "nuc_same_sign": 0,
+          "orb_hist": {},
+          "ordG": 3332,
+          "parity_firings": 0,
+          "parity_slope_class_size": 3,
+          "pos_neg": [
+            0,
+            0
+          ]
+        },
+        "-LR": {
+          "distinct_slopes": 5,
+          "generation_shaped": 96,
+          "lifted": 0,
+          "nuc_same_sign": 0,
+          "orb_hist": {
+            "3": 96
+          },
+          "ordG": 20,
+          "parity_firings": 0,
+          "parity_slope_class_size": 3,
+          "pos_neg": [
+            48,
+            48
+          ]
+        }
+      },
+      "commits": [
+        "f92faba59"
+      ],
+      "engine_mismatches": {
+        "+LLLR": 0,
+        "+LLRLRR": 0,
+        "+LR": 0,
+        "-LLLR": 0,
+        "-LR": 0
+      },
+      "result": "the same",
+      "row": 928
+    },
+    "929": {
+      "commits": [
+        "d2b8dc5b2"
+      ],
+      "prediction_test_F_CI": {
+        "+LLLLLLLR": {
+          "gen": 480,
+          "orbits": {
+            "3": 480
+          }
+        },
+        "+LLLLLRRR": {
+          "gen": 3064,
+          "orbits": {
+            "1": 16,
+            "3": 3048
+          }
+        },
+        "-LLLLLLLR": {
+          "gen": 336,
+          "orbits": {
+            "3": 336
+          }
+        },
+        "-LLLLLRRR": {
+          "gen": 336,
+          "orbits": {
+            "3": 336
+          }
+        }
+      },
+      "result": "differs",
+      "row": 929,
+      "theorem_H": {
+        "commutant_dim": 2,
+        "det_T_eighths": {
+          "L": [
+            1,
+            5
+          ],
+          "R": [
+            3,
+            7
+          ],
+          "sign": [
+            2,
+            6
+          ]
+        },
+        "group_order_moves": 96,
+        "group_order_with_swap": 192,
+        "hand_rule_326_of_326": true,
+        "tick3_scalar_32_of_32": true
+      },
+      "weave_extensions": {
+        "mod16_silent_states": [
+          "+LLLLLRRR",
+          "+LLRLRR",
+          "-LLLLLRRR",
+          "-LLRLRR"
+        ],
+        "part_a_360_readings": {
+          "0": 60,
+          "1": 300
+        },
+        "part_b_alt_primes_ok": false,
+        "part_c_150_readings_len8": {
+          "0": 15,
+          "1": 135
+        }
+      },
+      "weaves_five_tick3": {
+        "+LLLLLR": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "+LLLR": [
+          [
+            1,
+            3
+          ]
+        ],
+        "+LLLRLR": [
+          [
+            1,
+            3
+          ]
+        ],
+        "+LLLRRR": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "+LLRLRR": [
+          [
+            0,
+            0
+          ]
+        ],
+        "+LR": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "-LLLLLR": [
+          [
+            1,
+            3
+          ]
+        ],
+        "-LLLR": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "-LLLRLR": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "-LLLRRR": [
+          [
+            1,
+            3
+          ]
+        ],
+        "-LLRLRR": [
+          [
+            0,
+            0
+          ]
+        ],
+        "-LR": [
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    },
+    "930": {
+      "LLLLLLRR_residue_degree_3_norm_64": true,
+      "LLLLRRRR_norm_1024": true,
+      "b1604_chi_zero_and_e1_equivalence": true,
+      "commits": [
+        "ebd5f9fc4"
+      ],
+      "even_ideal_norm_histogram": {
+        "1024": 1,
+        "4": 8,
+        "64": 5,
+        "8": 7
+      },
+      "even_trace_count": 21,
+      "geometries": [
+        {
+          "degree_K": 2,
+          "ideal_norm": 3,
+          "odd_trace": true,
+          "prime_factors": [
+            {
+              "exponent": 1,
+              "p": 3,
+              "residue_degree": 1,
+              "vals": [
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "trace": 3,
+          "word": "LR"
+        },
+        {
+          "degree_K": 4,
+          "ideal_norm": 8,
+          "odd_trace": false,
+          "prime_factors": [
+            {
+              "exponent": 3,
+              "p": 2,
+              "residue_degree": 1,
+              "vals": [
+                4,
+                3,
+                3
+              ]
+            }
+          ],
+          "trace": 4,
+          "word": "LLR"
+        },
+        {
+          "degree_K": 4,
+          "ideal_norm": 3,
+          "odd_trace": true,
+          "prime_factors": [
+            {
+              "exponent": 1,
+              "p": 3,
+              "residue_degree": 1,
+              "vals": [
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "trace": 5,
+          "word": "LLLR"
+        },
+        {
+          "degree_K": 8,
+          "ideal_norm": 64,
+          "odd_trace": false,
+          "prime_factors": [
+            {
+              "exponent": 6,
+              "p": 2,
+              "residue_degree": 1,
+              "vals": [
+                6,
+                6,
+                8
+              ]
+            }
+          ],
+          "trace": 6,
+          "word": "LLRR"
+        },
+        {
+          "degree_K": 6,
+          "ideal_norm": 4,
+          "odd_trace": false,
+          "prime_factors": [
+            {
+              "exponent": 2,
+              "p": 2,
+              "residue_degree": 1,
+              "vals": [
+                4,
+                2,
+                2
+              ]
+            }
+          ],
+          "trace": 6,
+          "word": "LLLLR"
+        },
+        {
+          "degree_K": 8,
+          "ideal_norm": 8,
+          "odd_trace": false,
+          "prime_factors": [
+            {
+              "exponent": 3,
+              "p": 2,
+              "residue_degree": 1,
+              "vals": [
+                3,
+                4,
+                3
+              ]
+            }
+          ],
+          "trace": 8,
+          "word": "LLLRR"
+        },
+        {
+          "degree_K": 8,
+          "ideal_norm": 4,
+          "odd_trace": false,
+          "prime_factors": [
+            {
+              "exponent": 2,
+              "p": 2,
+              "residue_degree": 1,
+              "vals": [
+                2,
+                2,
+                6
+              ]
+            }
+          ],
+          "trace": 10,
+          "word": "LLRLR"
+        },
+        {
+          "degree_K": 6,
+          "ideal_norm": 3,
+          "odd_trace": true,
+          "prime_factors": [
+            {
+              "exponent": 1,
+              "p": 3,
+              "residue_degree": 1,
+              "vals": [
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "trace": 7,
+          "word": "LLLLLR"
+        },
+        {
+          "degree_K": 12,
+          "ideal_norm": 64,
+          "odd_trace": false,
+          "prime_factors": [
+            {
+              "exponent": 6,
+              "p": 2,
+              "residue_degree": 1,
+              "vals": [
+                8,
+                6,
+                6
+              ]
+            }
+          ],
+          "trace": 10,
+          "word": "LLLLRR"
+        },
+        {
+          "degree_K": 8,
+          "ideal_norm": 3,
+          "odd_trace": true,
+          "prime_factors": [
+            {
+              "exponent": 1,
+              "p": 3,
+              "residue_degree": 1,
+              "vals": [
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "trace": 13,
+          "word": "LLLRLR"
+        },
+        {
+          "degree_K": 8,
+          "ideal_norm": 3,
+          "odd_trace": true,
+          "prime_factors": [
+            {
+              "exponent": 1,
+              "p": 3,
+              "residue_degree": 1,
+              "vals": [
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "trace": 11,
+          "word": "LLLRRR"
+        },
+        {
+          "degree_K": 14,
+          "ideal_norm": 3,
+          "odd_trace": true,
+          "prime_factors": [
+            {
+              "exponent": 1,
+              "p": 3,
+              "residue_degree": 1,
+              "vals": [
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "trace": 15,
+          "word": "LLRLRR"
+        },
+        {
+          "degree_K": 8,
+          "ideal_norm": 8,
+          "odd_trace": false,
+          "prime_factors": [
+            {
+              "exponent": 3,
+              "p": 2,
+              "residue_degree": 1,
+              "vals": [
+                4,
+                3,
+                3
+              ]
+            }
+          ],
+          "trace": 8,
+          "word": "LLLLLLR"
+        },
+        {
+          "degree_K": 12,
+          "ideal_norm": 8,
+          "odd_trace": false,
+          "prime_factors": [
+            {
+              "exponent": 3,
+              "p": 2,
+              "residue_degree": 1,
+              "vals": [
+                3,
+                4,
+                3
+              ]
+            }
+          ],
+          "trace": 12,
+          "word": "LLLLLRR"
+        },
+        {
+          "degree_K": 12,
+          "ideal_norm": 8,
+          "odd_trace": false,
+          "prime_factors": [
+            {
+              "exponent": 3,
+              "p": 2,
+              "residue_degree": 1,
+              "vals": [
+                3,
+                3,
+                4
+              ]
+            }
+          ],
+          "trace": 16,
+          "word": "LLLLRLR"
+        },
+        {
+          "degree_K": 12,
+          "ideal_norm": 4,
+          "odd_trace": false,
+          "prime_factors": [
+            {
+              "exponent": 2,
+              "p": 2,
+              "residue_degree": 1,
+              "vals": [
+                4,
+                2,
+                2
+              ]
+            }
+          ],
+          "trace": 14,
+          "word": "LLLLRRR"
+        },
+        {
+          "degree_K": 14,
+          "ideal_norm": 4,
+          "odd_trace": false,
+          "prime_factors": [
+            {
+              "exponent": 2,
+              "p": 2,
+              "residue_degree": 1,
+              "vals": [
+                2,
+                4,
+                2
+              ]
+            }
+          ],
+          "trace": 18,
+          "word": "LLLRLLR"
+        },
+        {
+          "degree_K": 20,
+          "ideal_norm": 8,
+          "odd_trace": false,
+          "prime_factors": [
+            {
+              "exponent": 3,
+              "p": 2,
+              "residue_degree": 1,
+              "vals": [
+                3,
+                3,
+                4
+              ]
+            }
+          ],
+          "trace": 20,
+          "word": "LLLRLRR"
+        },
+        {
+          "degree_K": 20,
+          "ideal_norm": 8,
+          "odd_trace": false,
+          "prime_factors": [
+            {
+              "exponent": 3,
+              "p": 2,
+              "residue_degree": 1,
+              "vals": [
+                4,
+                3,
+                3
+              ]
+            }
+          ],
+          "trace": 20,
+          "word": "LLLRRLR"
+        },
+        {
+          "degree_K": 12,
+          "ideal_norm": 4,
+          "odd_trace": false,
+          "prime_factors": [
+            {
+              "exponent": 2,
+              "p": 2,
+              "residue_degree": 1,
+              "vals": [
+                6,
+                2,
+                2
+              ]
+            }
+          ],
+          "trace": 22,
+          "word": "LLRLLRR"
+        },
+        {
+          "degree_K": 14,
+          "ideal_norm": 4,
+          "odd_trace": false,
+          "prime_factors": [
+            {
+              "exponent": 2,
+              "p": 2,
+              "residue_degree": 1,
+              "vals": [
+                2,
+                6,
+                2
+              ]
+            }
+          ],
+          "trace": 26,
+          "word": "LLRLRLR"
+        },
+        {
+          "degree_K": 8,
+          "ideal_norm": 3,
+          "odd_trace": true,
+          "prime_factors": [
+            {
+              "exponent": 1,
+              "p": 3,
+              "residue_degree": 1,
+              "vals": [
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "trace": 9,
+          "word": "LLLLLLLR"
+        },
+        {
+          "degree_K": 16,
+          "ideal_norm": 64,
+          "odd_trace": false,
+          "prime_factors": [
+            {
+              "exponent": 2,
+              "p": 2,
+              "residue_degree": 3,
+              "vals": [
+                2,
+                2,
+                4
+              ]
+            }
+          ],
+          "trace": 14,
+          "word": "LLLLLLRR"
+        },
+        {
+          "degree_K": 12,
+          "ideal_norm": 3,
+          "odd_trace": true,
+          "prime_factors": [
+            {
+              "exponent": 1,
+              "p": 3,
+              "residue_degree": 1,
+              "vals": [
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "trace": 19,
+          "word": "LLLLLRLR"
+        },
+        {
+          "degree_K": 12,
+          "ideal_norm": 3,
+          "odd_trace": true,
+          "prime_factors": [
+            {
+              "exponent": 1,
+              "p": 3,
+              "residue_degree": 1,
+              "vals": [
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "trace": 17,
+          "word": "LLLLLRRR"
+        },
+        {
+          "degree_K": 20,
+          "ideal_norm": 64,
+          "odd_trace": false,
+          "prime_factors": [
+            {
+              "exponent": 6,
+              "p": 2,
+              "residue_degree": 1,
+              "vals": [
+                6,
+                8,
+                6
+              ]
+            }
+          ],
+          "trace": 22,
+          "word": "LLLLRLLR"
+        },
+        {
+          "degree_K": 24,
+          "ideal_norm": 3,
+          "odd_trace": true,
+          "prime_factors": [
+            {
+              "exponent": 1,
+              "p": 3,
+              "residue_degree": 1,
+              "vals": [
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "trace": 25,
+          "word": "LLLLRLRR"
+        },
+        {
+          "degree_K": 24,
+          "ideal_norm": 3,
+          "odd_trace": true,
+          "prime_factors": [
+            {
+              "exponent": 1,
+              "p": 3,
+              "residue_degree": 1,
+              "vals": [
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "trace": 25,
+          "word": "LLLLRRLR"
+        },
+        {
+          "degree_K": 16,
+          "ideal_norm": 1024,
+          "odd_trace": false,
+          "prime_factors": [
+            {
+              "exponent": 10,
+              "p": 2,
+              "residue_degree": 1,
+              "vals": [
+                10,
+                10,
+                12
+              ]
+            }
+          ],
+          "trace": 18,
+          "word": "LLLLRRRR"
+        },
+        {
+          "degree_K": 28,
+          "ideal_norm": 3,
+          "odd_trace": true,
+          "prime_factors": [
+            {
+              "exponent": 1,
+              "p": 3,
+              "residue_degree": 1,
+              "vals": [
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "trace": 29,
+          "word": "LLLRLLRR"
+        },
+        {
+          "degree_K": 14,
+          "ideal_norm": 4,
+          "odd_trace": false,
+          "prime_factors": [
+            {
+              "exponent": 2,
+              "p": 2,
+              "residue_degree": 1,
+              "vals": [
+                2,
+                4,
+                2
+              ]
+            }
+          ],
+          "trace": 34,
+          "word": "LLLRLRLR"
+        },
+        {
+          "degree_K": 26,
+          "ideal_norm": 3,
+          "odd_trace": true,
+          "prime_factors": [
+            {
+              "exponent": 1,
+              "p": 3,
+              "residue_degree": 1,
+              "vals": [
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "trace": 27,
+          "word": "LLLRLRRR"
+        },
+        {
+          "degree_K": 28,
+          "ideal_norm": 3,
+          "odd_trace": true,
+          "prime_factors": [
+            {
+              "exponent": 1,
+              "p": 3,
+              "residue_degree": 1,
+              "vals": [
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "trace": 29,
+          "word": "LLLRRLLR"
+        },
+        {
+          "degree_K": 12,
+          "ideal_norm": 4,
+          "odd_trace": false,
+          "prime_factors": [
+            {
+              "exponent": 2,
+              "p": 2,
+              "residue_degree": 1,
+              "vals": [
+                2,
+                4,
+                2
+              ]
+            }
+          ],
+          "trace": 30,
+          "word": "LLLRRLRR"
+        },
+        {
+          "degree_K": 12,
+          "ideal_norm": 3,
+          "odd_trace": true,
+          "prime_factors": [
+            {
+              "exponent": 1,
+              "p": 3,
+              "residue_degree": 1,
+              "vals": [
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "trace": 37,
+          "word": "LLRLLRLR"
+        },
+        {
+          "degree_K": 38,
+          "ideal_norm": 3,
+          "odd_trace": true,
+          "prime_factors": [
+            {
+              "exponent": 1,
+              "p": 3,
+              "residue_degree": 1,
+              "vals": [
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "trace": 39,
+          "word": "LLRLRLRR"
+        },
+        {
+          "degree_K": 24,
+          "ideal_norm": 64,
+          "odd_trace": false,
+          "prime_factors": [
+            {
+              "exponent": 6,
+              "p": 2,
+              "residue_degree": 1,
+              "vals": [
+                6,
+                8,
+                6
+              ]
+            }
+          ],
+          "trace": 38,
+          "word": "LLRLRRLR"
+        }
+      ],
+      "odd_all_norm3_f1_e1_vals111": true,
+      "odd_trace_count": 16,
+      "result": "the same",
+      "row": 930,
+      "total_geometries": 37
+    },
+    "931": {
+      "commits": [
+        "57e99a1d4"
+      ],
+      "projective_line_histograms": {
+        "73": {
+          "+LLLLLR": {
+            "(0, 1)": 2,
+            "(1, 1)": 72
+          },
+          "+LLLLLRLR": {
+            "(0, 1)": 2,
+            "(1, 1)": 72
+          },
+          "+LLLRLRRR": {
+            "(0, 1)": 2,
+            "(1, 1)": 72
+          },
+          "+LLLRRR": {
+            "(0, 1)": 2,
+            "(1, 1)": 72
+          },
+          "+LLRLRLRR": {
+            "(0, 1)": 2,
+            "(1, 1)": 72
+          },
+          "+LR": {
+            "(0, 1)": 2,
+            "(1, 1)": 72
+          },
+          "-LLLLLLLR": {
+            "(0, 1)": 2,
+            "(1, 1)": 72
+          },
+          "-LLLLRLRR": {
+            "(0, 1)": 2,
+            "(1, 1)": 72
+          },
+          "-LLLLRRLR": {
+            "(0, 1)": 2,
+            "(1, 1)": 72
+          },
+          "-LLLR": {
+            "(0, 1)": 2,
+            "(1, 1)": 72
+          },
+          "-LLLRLLRR": {
+            "(0, 1)": 2,
+            "(1, 1)": 72
+          },
+          "-LLLRLR": {
+            "(0, 1)": 2,
+            "(1, 1)": 72
+          },
+          "-LLLRRLLR": {
+            "(0, 1)": 2,
+            "(1, 1)": 72
+          },
+          "-LLRLLRLR": {
+            "(0, 1)": 2,
+            "(1, 1)": 72
+          }
+        },
+        "97": {
+          "+LLLLLR": {
+            "(0, 1)": 2,
+            "(1, 1)": 96
+          },
+          "+LLLLLRLR": {
+            "(0, 1)": 2,
+            "(1, 1)": 96
+          },
+          "+LLLRLRRR": {
+            "(0, 1)": 2,
+            "(1, 1)": 96
+          },
+          "+LLLRRR": {
+            "(0, 1)": 2,
+            "(1, 1)": 96
+          },
+          "+LLRLRLRR": {
+            "(0, 1)": 2,
+            "(1, 1)": 96
+          },
+          "+LR": {
+            "(0, 1)": 2,
+            "(1, 1)": 96
+          },
+          "-LLLLLLLR": {
+            "(0, 1)": 2,
+            "(1, 1)": 96
+          },
+          "-LLLLRLRR": {
+            "(0, 1)": 2,
+            "(1, 1)": 96
+          },
+          "-LLLLRRLR": {
+            "(0, 1)": 2,
+            "(1, 1)": 96
+          },
+          "-LLLR": {
+            "(0, 1)": 2,
+            "(1, 1)": 96
+          },
+          "-LLLRLLRR": {
+            "(0, 1)": 2,
+            "(1, 1)": 96
+          },
+          "-LLLRLR": {
+            "(0, 1)": 2,
+            "(1, 1)": 96
+          },
+          "-LLLRRLLR": {
+            "(0, 1)": 2,
+            "(1, 1)": 96
+          },
+          "-LLRLLRLR": {
+            "(0, 1)": 2,
+            "(1, 1)": 96
+          }
+        }
+      },
+      "result": "the same",
+      "row": 931,
+      "w17_carriers_14_read_1_1": true,
+      "w17_chiral_14_read_0_1": true,
+      "w17_mod16_4_read_0_0": true,
+      "w17_total_readings": 480,
+      "w18_carrier_singlets_11_01_01_ok": true,
+      "w18_chiral_0_2_and_0_9_ok": true,
+      "w18_mod16_0_0_ok": true,
+      "w18_projective_line_scan_p73_p97_all_14_have_2_special": true,
+      "w18_route_b_all_checked_readings": 540,
+      "w18_route_b_canonical_readings": 72,
+      "w18_routes_a_and_b_agree": true
+    },
+    "934": {
+      "a4_order": 12,
+      "commits": [
+        "240d3ddf2"
+      ],
+      "heterotic_orbifold_literature_analogy": "reading (not independently checked)",
+      "klein_four_normal_and_cycled_transitively_by_Z3": true,
+      "klein_four_order": 4,
+      "nontrivial_twisted_elements_2_sq_minus_1": 3,
+      "result": "the same",
+      "row": 934
+    }
+  },
+  "seat": "agy-exp"
+}
