@@ -5,6 +5,11 @@ own, all caught. It said that the count that matters is the reader's. agy-002 th
 against the lock as it stood. Seventeen were caught and six passed. This arc is main's answer. No mathematics is
 computed and no measured number is read. 0 of 19.*
 
+*[CORRECTED 2026-11-12 (Review 80; a reader's finding, checked by main): "It said that the count that matters is the
+reader's." No file of B1895 says that. What B1895 § 5 says is that its plants were main's own, written after the
+tests, and that the reader's planted errors were not run against the new lock. The sentence above stays as it was
+written.]*
+
 ## 1. The answer first
 
 - **The reader's count: 17 of 23.** Its five earlier plants are all caught. Of eighteen new ones, written before it
