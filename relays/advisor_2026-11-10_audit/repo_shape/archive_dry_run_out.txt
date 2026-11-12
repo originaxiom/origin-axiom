@@ -1,0 +1,19 @@
+the example set: 30 front pages that no code names and that last changed before 2026-10-01
+left where they are, because a list of hashes names them: 0 []
+gates before the move: 53 of 53 pass
+
+moved: 30 pages into docs/archive/
+citations rewritten: 266, in 112 files
+citations left as they were, in an append-only log: 43, in 2 file(s) (CHANGELOG.md, PROGRESS_LOG.md)
+citations left as they were, in a file a list of hashes names: 1, in 1 file(s) (GOVERNANCE.md)
+citations left as they were, in a sealed file: 3, in 3 file(s) (frontier/B1305_the_cloud_156_178/DESIGN_B.md, frontier/B565_gauge_behavior_campaign/PREREGISTRATION.md, frontier/B770_closure_census/PREREGISTRATION.md)
+generated pages that changed when the views were built again: 0 []
+
+gates after the move: 51 of 53 pass
+   TURNED RED: path-refs: 13 unresolved path citation(s): CHANGELOG.md -> docs/AUDIT_2026-07-05.md; CHANGELOG.md -> docs/CLOSURE_2026-07-11.md; CHANGELOG.md -> docs/DERIVATION_RECORD.md; CHANGELOG.md -> docs/FRESH_EYES_2026-09.md; CHANGELOG.md -> docs/PUBLICATION_CAMPAIGN.md
+   TURNED RED: review-fires: 50 merges since the last review (>= 40): the review FIRES -- run it (scripts/review/review_tools.py), or the owner waives it by date in docs/progress/REVIEW_WAIVER.md
+
+---- then, with one rule added to the path checker in the scratch tree (a citation of docs/NAME.md resolves where docs/archive/NAME.md stands):
+52 of 53 gates pass; path-refs: ok (6497 citations resolve)
+not passing: review-fires, 50 merges since the last review -- main's own count of landings, which the dry run's commit took from 49 to 50
+pages directly under docs/: 134 before, 106 after; at the root: 17 before, 15 after; in docs/archive/: 30

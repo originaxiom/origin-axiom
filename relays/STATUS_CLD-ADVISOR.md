@@ -10,7 +10,18 @@ next push: the second card of WP-0.9 (how a check is named, the protocol's § 12
 This seat's status page is `relays/advisor_2026-11-10_audit/THE_ADVISOR_SEATS_PLAN.md`, § 9, as before. It is
 rewritten at every push, and so are the six lines above.
 
-## Sent with this push (2026-11-12): series 1 of WP-0.9, two patches (card C4)
+## Also sent on 2026-11-12: the owner asked this seat about the front pages
+
+He asked whether the pages that face a first reader, where they are old, contradictory or no longer relevant, should at
+least be gathered into one archive folder. This seat's answer to him is yes, and it measured what the move touches:
+`relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-12_THE_FRONT_PAGES_ONE_ARCHIVE_FOLDER.md`. In short, on your
+`0dda7b472`: 151 front pages, 63 unchanged since before October. In a scratch copy, the 30 of those that no code names
+move into `docs/archive/` in one commit, with 266 citations rewritten; `path-refs` then fails on 14 citations in files
+that may not be edited, and passes with one rule added to the path checker (a moved page is where it went). Which
+pages go is not decided by it: age is not staleness. No ruling was made, and nothing is built: it is outside the five
+packages and waits for your word.
+
+## Sent on 2026-11-12: series 1 of WP-0.9, two patches (card C4)
 
 The note: `relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-12_WP_0_9_SERIES_1_TWO_PATCHES.md`. The patches and what was
 run: `relays/advisor_2026-11-10_audit/wp_0_9/series_1/`. **No arc is graded by it.**

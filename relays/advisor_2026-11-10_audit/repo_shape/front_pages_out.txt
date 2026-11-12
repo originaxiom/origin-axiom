@@ -1,0 +1,47 @@
+the pages a first reader meets, at 0dda7b472 (2026-11-12): 151  (17 at the root, 134 directly under docs/)
+that say in their first twelve lines what they are (generated, current, superseded, historical...): 48
+last changed before 2026-10-01: 63;  in October: 29;  in November: 59
+
+WHO NAMES A PAGE BY ITS PATH (a move must change every one of these, in the same commit)
+  A. named by code -- a script, a test or the gates reads or cites the path:  108 pages  (33 of them last changed before October)
+  B. named by other pages only:                                              43 pages  (30 before October); 529 citations in all
+  C. named by nothing:                                                       0 pages  (0 before October)
+
+PAGES BY THE JOB THEIR NAME GIVES (a name can give more than one)
+  status / state / where we stand            5 pages, 2 last changed before October
+  plan / roadmap / next                     15 pages, 7 last changed before October
+  claim / result / verdict                   7 pages, 1 last changed before October
+  start / read me / guide / index / map     12 pages, 4 last changed before October
+  ledger / register / log                   22 pages, 2 last changed before October
+
+THE PAGES OF B AND C LAST CHANGED BEFORE OCTOBER (candidates to read first; the script does not say they are out of date)
+  2026-07-03 AUDIT_REPORT.md                                      named by 10 page(s), 16 time(s); says: historical
+  2026-07-03 docs/RECONTEXT_AUDIT_AND_MASTERPLAN_2026-07.md       named by 7 page(s), 7 time(s); says: historical
+  2026-07-03 docs/SESSION3_SYNTHESIS.md                           named by 11 page(s), 13 time(s); says: historical
+  2026-07-04 docs/RECOGNITION.md                                  named by 8 page(s), 9 time(s)
+  2026-07-05 docs/AUDIT_2026-07-05.md                             named by 11 page(s), 13 time(s)
+  2026-07-12 docs/CLOSURE_2026-07-11.md                           named by 15 page(s), 16 time(s)
+  2026-07-12 docs/CODEX_AUDIT_RESPONSE_2026-07-12.md              named by 3 page(s), 3 time(s); says: status:
+  2026-07-12 docs/CRYSTALLIZATION_2026-07-09.md                   named by 4 page(s), 4 time(s)
+  2026-07-12 docs/REBASE_2026-07-12.md                            named by 5 page(s), 5 time(s)
+  2026-07-13 docs/LITERATURE_GAUGE_SM_2026-07-13.md               named by 7 page(s), 7 time(s)
+  2026-07-23 docs/CLOSURE_PROGRAM.md                              named by 5 page(s), 53 time(s)
+  2026-07-24 docs/PHASE1_WRAP.md                                  named by 5 page(s), 7 time(s)
+  2026-07-29 docs/LISTENING_PROTOCOL.md                           named by 8 page(s), 11 time(s)
+  2026-08-06 docs/COMMS_PROTOCOL.md                               named by 5 page(s), 8 time(s)
+  2026-08-09 docs/ROADMAP_TOE.md                                  named by 7 page(s), 8 time(s); says: superseded
+  2026-08-10 docs/THE_CAMPAIGN.md                                 named by 9 page(s), 11 time(s)
+  2026-08-12 docs/THE_PATTERN_MEDITATION.md                       named by 2 page(s), 3 time(s)
+  2026-08-29 docs/PARAMETER_CLOSURE_MASTERPLAN.md                 named by 2 page(s), 2 time(s)
+  2026-08-30 docs/PUBLICATION_CAMPAIGN.md                         named by 5 page(s), 6 time(s)
+  2026-08-31 docs/THE_PATTERN_MEDITATION_2.md                     named by 4 page(s), 4 time(s)
+  2026-08-31 docs/THE_WITHHOLDING_TAXONOMY.md                     named by 5 page(s), 5 time(s)
+  2026-09-02 docs/CLOSURE_2026-07-05.md                           named by 6 page(s), 8 time(s)
+  2026-09-02 docs/THE_LAMBDA_POSITION.md                          named by 9 page(s), 9 time(s)
+  2026-09-05 docs/DERIVATION_RECORD.md                            named by 3 page(s), 3 time(s)
+  2026-09-05 docs/STRATEGY_2026-09-05.md                          named by 6 page(s), 7 time(s)
+  2026-09-09 docs/BANKING_PROTOCOL.md                             named by 9 page(s), 12 time(s)
+  2026-09-12 docs/THE_ROLES_ACCOUNTING.md                         named by 1 page(s), 2 time(s); says: status:
+  2026-09-16 docs/FRESH_EYES_2026-09.md                           named by 20 page(s), 20 time(s)
+  2026-09-17 ARCHITECTURE.md                                      named by 17 page(s), 27 time(s)
+  2026-09-18 docs/SUBMISSION_CAMPAIGN.md                          named by 5 page(s), 13 time(s)

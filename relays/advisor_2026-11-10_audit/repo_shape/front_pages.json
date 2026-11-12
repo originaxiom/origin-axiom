@@ -1,0 +1,1361 @@
+[
+ {
+  "page": "ARCHITECTURE.md",
+  "last changed": "2026-09-17",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 27,
+  "pages that name it": 17
+ },
+ {
+  "page": "AUDIT_REPORT.md",
+  "last changed": "2026-07-03",
+  "says": "historical",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 16,
+  "pages that name it": 10
+ },
+ {
+  "page": "CC3_TO_CC_2026-07-22_p3_complete.md",
+  "last changed": "2026-07-23",
+  "says": "",
+  "named by code": 2,
+  "files of code": 2,
+  "named by pages": 7,
+  "pages that name it": 7
+ },
+ {
+  "page": "CC_TO_ALL_SEATS_2026-09-06_ARC_NUMBER_RESERVATION.md",
+  "last changed": "2026-09-06",
+  "says": "",
+  "named by code": 1,
+  "files of code": 1,
+  "named by pages": 6,
+  "pages that name it": 6
+ },
+ {
+  "page": "CC_TO_FC_2026-09-06_THE_QUESTION_MOVED_TO_YOUR_CUSP.md",
+  "last changed": "2026-09-06",
+  "says": "",
+  "named by code": 1,
+  "files of code": 1,
+  "named by pages": 1,
+  "pages that name it": 1
+ },
+ {
+  "page": "CHANGELOG.md",
+  "last changed": "2026-11-12",
+  "says": "",
+  "named by code": 19,
+  "files of code": 15,
+  "named by pages": 201,
+  "pages that name it": 69
+ },
+ {
+  "page": "CLAIMS.md",
+  "last changed": "2026-11-11",
+  "says": "",
+  "named by code": 519,
+  "files of code": 419,
+  "named by pages": 1859,
+  "pages that name it": 850
+ },
+ {
+  "page": "GENESIS.md",
+  "last changed": "2026-11-11",
+  "says": "",
+  "named by code": 480,
+  "files of code": 311,
+  "named by pages": 445,
+  "pages that name it": 71
+ },
+ {
+  "page": "GOVERNANCE.md",
+  "last changed": "2026-11-11",
+  "says": "status:",
+  "named by code": 47,
+  "files of code": 32,
+  "named by pages": 278,
+  "pages that name it": 178
+ },
+ {
+  "page": "METHOD.md",
+  "last changed": "2026-07-01",
+  "says": "",
+  "named by code": 2,
+  "files of code": 2,
+  "named by pages": 44,
+  "pages that name it": 28
+ },
+ {
+  "page": "PROGRESS_LOG.md",
+  "last changed": "2026-11-12",
+  "says": "",
+  "named by code": 36,
+  "files of code": 16,
+  "named by pages": 300,
+  "pages that name it": 88
+ },
+ {
+  "page": "PROVENANCE.md",
+  "last changed": "2026-07-23",
+  "says": "",
+  "named by code": 3,
+  "files of code": 3,
+  "named by pages": 61,
+  "pages that name it": 37
+ },
+ {
+  "page": "README.md",
+  "last changed": "2026-11-12",
+  "says": "",
+  "named by code": 66,
+  "files of code": 40,
+  "named by pages": 188,
+  "pages that name it": 46
+ },
+ {
+  "page": "REPRODUCIBILITY.md",
+  "last changed": "2026-10-23",
+  "says": "",
+  "named by code": 10,
+  "files of code": 9,
+  "named by pages": 98,
+  "pages that name it": 49
+ },
+ {
+  "page": "ROADMAP.md",
+  "last changed": "2026-11-11",
+  "says": "currency",
+  "named by code": 19,
+  "files of code": 15,
+  "named by pages": 70,
+  "pages that name it": 33
+ },
+ {
+  "page": "TERMINOLOGY.md",
+  "last changed": "2026-11-11",
+  "says": "",
+  "named by code": 28,
+  "files of code": 20,
+  "named by pages": 192,
+  "pages that name it": 77
+ },
+ {
+  "page": "WORKING_RULES.md",
+  "last changed": "2026-11-11",
+  "says": "currency",
+  "named by code": 20,
+  "files of code": 17,
+  "named by pages": 168,
+  "pages that name it": 70
+ },
+ {
+  "page": "docs/ARCHIVE.md",
+  "last changed": "2026-05-22",
+  "says": "retired",
+  "named by code": 2,
+  "files of code": 1,
+  "named by pages": 29,
+  "pages that name it": 22
+ },
+ {
+  "page": "docs/ARTIFACT_HASHES_BROKEN.md",
+  "last changed": "2026-11-11",
+  "says": "generated",
+  "named by code": 4,
+  "files of code": 2,
+  "named by pages": 6,
+  "pages that name it": 6
+ },
+ {
+  "page": "docs/AUDIT_2026-07-05.md",
+  "last changed": "2026-07-05",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 13,
+  "pages that name it": 11
+ },
+ {
+  "page": "docs/BANKING_PROTOCOL.md",
+  "last changed": "2026-09-09",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 12,
+  "pages that name it": 9
+ },
+ {
+  "page": "docs/CAMPAIGN_STATUS.md",
+  "last changed": "2026-11-12",
+  "says": "currency",
+  "named by code": 21,
+  "files of code": 17,
+  "named by pages": 324,
+  "pages that name it": 81
+ },
+ {
+  "page": "docs/CLOSURE_2026-07-05.md",
+  "last changed": "2026-09-02",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 8,
+  "pages that name it": 6
+ },
+ {
+  "page": "docs/CLOSURE_2026-07-11.md",
+  "last changed": "2026-07-12",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 16,
+  "pages that name it": 15
+ },
+ {
+  "page": "docs/CLOSURE_MASTERPLAN.md",
+  "last changed": "2026-07-24",
+  "says": "",
+  "named by code": 2,
+  "files of code": 2,
+  "named by pages": 11,
+  "pages that name it": 9
+ },
+ {
+  "page": "docs/CLOSURE_PROGRAM.md",
+  "last changed": "2026-07-23",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 53,
+  "pages that name it": 5
+ },
+ {
+  "page": "docs/CLOUD_ALIAS_TABLE.md",
+  "last changed": "2026-09-06",
+  "says": "",
+  "named by code": 1,
+  "files of code": 1,
+  "named by pages": 54,
+  "pages that name it": 29
+ },
+ {
+  "page": "docs/CODEX_AUDIT_RESPONSE_2026-07-12.md",
+  "last changed": "2026-07-12",
+  "says": "status:",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 3,
+  "pages that name it": 3
+ },
+ {
+  "page": "docs/COMMS_PROTOCOL.md",
+  "last changed": "2026-08-06",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 8,
+  "pages that name it": 5
+ },
+ {
+  "page": "docs/COMPUTE_THE_PROGRAM.md",
+  "last changed": "2026-11-04",
+  "says": "frozen",
+  "named by code": 3,
+  "files of code": 2,
+  "named by pages": 20,
+  "pages that name it": 14
+ },
+ {
+  "page": "docs/CONSISTENCY_CAMPAIGN.md",
+  "last changed": "2026-08-31",
+  "says": "",
+  "named by code": 1,
+  "files of code": 1,
+  "named by pages": 8,
+  "pages that name it": 8
+ },
+ {
+  "page": "docs/COSMOLOGY_LEDGER.md",
+  "last changed": "2026-11-05",
+  "says": "",
+  "named by code": 1,
+  "files of code": 1,
+  "named by pages": 34,
+  "pages that name it": 30
+ },
+ {
+  "page": "docs/CROSSING_REQUIREMENTS.md",
+  "last changed": "2026-08-20",
+  "says": "currency",
+  "named by code": 6,
+  "files of code": 5,
+  "named by pages": 22,
+  "pages that name it": 11
+ },
+ {
+  "page": "docs/CROSS_SESSION_2026-06-11_disposition.md",
+  "last changed": "2026-07-03",
+  "says": "historical",
+  "named by code": 1,
+  "files of code": 1,
+  "named by pages": 14,
+  "pages that name it": 12
+ },
+ {
+  "page": "docs/CRYSTALLIZATION_2026-07-09.md",
+  "last changed": "2026-07-12",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 4,
+  "pages that name it": 4
+ },
+ {
+  "page": "docs/DERIVATION_RECORD.md",
+  "last changed": "2026-09-05",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 3,
+  "pages that name it": 3
+ },
+ {
+  "page": "docs/EARLY_RECORD_INDEX.md",
+  "last changed": "2026-11-06",
+  "says": "generated",
+  "named by code": 5,
+  "files of code": 3,
+  "named by pages": 75,
+  "pages that name it": 75
+ },
+ {
+  "page": "docs/EDGE_PREREG_SPEC.md",
+  "last changed": "2026-08-21",
+  "says": "",
+  "named by code": 7,
+  "files of code": 5,
+  "named by pages": 31,
+  "pages that name it": 21
+ },
+ {
+  "page": "docs/EDGE_PREREG_SPEC_ADDENDUM_B8146.md",
+  "last changed": "2026-08-27",
+  "says": "",
+  "named by code": 5,
+  "files of code": 2,
+  "named by pages": 12,
+  "pages that name it": 8
+ },
+ {
+  "page": "docs/ERROR_LEDGER.md",
+  "last changed": "2026-11-11",
+  "says": "",
+  "named by code": 10,
+  "files of code": 8,
+  "named by pages": 110,
+  "pages that name it": 57
+ },
+ {
+  "page": "docs/FALSIFIER_REGISTER.md",
+  "last changed": "2026-11-11",
+  "says": "",
+  "named by code": 9,
+  "files of code": 8,
+  "named by pages": 60,
+  "pages that name it": 29
+ },
+ {
+  "page": "docs/FIELD_EXPLORATION_REPORT.md",
+  "last changed": "2026-08-18",
+  "says": "currency",
+  "named by code": 1,
+  "files of code": 1,
+  "named by pages": 4,
+  "pages that name it": 4
+ },
+ {
+  "page": "docs/FRAMING_LEDGER.md",
+  "last changed": "2026-11-03",
+  "says": "",
+  "named by code": 3,
+  "files of code": 2,
+  "named by pages": 99,
+  "pages that name it": 24
+ },
+ {
+  "page": "docs/FRESH_EYES_2026-09.md",
+  "last changed": "2026-09-16",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 20,
+  "pages that name it": 20
+ },
+ {
+  "page": "docs/GRAND_COMPUTATION_LEDGER.md",
+  "last changed": "2026-09-15",
+  "says": "",
+  "named by code": 10,
+  "files of code": 8,
+  "named by pages": 37,
+  "pages that name it": 26
+ },
+ {
+  "page": "docs/GRAND_COMPUTATION_v0.md",
+  "last changed": "2026-08-31",
+  "says": "",
+  "named by code": 4,
+  "files of code": 3,
+  "named by pages": 44,
+  "pages that name it": 36
+ },
+ {
+  "page": "docs/GUT_REQUIREMENTS_LEDGER.md",
+  "last changed": "2026-11-11",
+  "says": "status:",
+  "named by code": 14,
+  "files of code": 11,
+  "named by pages": 51,
+  "pages that name it": 31
+ },
+ {
+  "page": "docs/HARVEST_LEDGER.md",
+  "last changed": "2026-11-12",
+  "says": "superseded",
+  "named by code": 31,
+  "files of code": 20,
+  "named by pages": 244,
+  "pages that name it": 93
+ },
+ {
+  "page": "docs/HINT_LEDGER.md",
+  "last changed": "2026-09-17",
+  "says": "",
+  "named by code": 8,
+  "files of code": 8,
+  "named by pages": 224,
+  "pages that name it": 52
+ },
+ {
+  "page": "docs/IDENTIFICATION_LEDGER.md",
+  "last changed": "2026-11-03",
+  "says": "",
+  "named by code": 13,
+  "files of code": 10,
+  "named by pages": 65,
+  "pages that name it": 48
+ },
+ {
+  "page": "docs/INDEX.md",
+  "last changed": "2026-10-30",
+  "says": "currency",
+  "named by code": 3,
+  "files of code": 3,
+  "named by pages": 28,
+  "pages that name it": 15
+ },
+ {
+  "page": "docs/INPUT_COMPLETENESS_LEDGER.md",
+  "last changed": "2026-10-30",
+  "says": "",
+  "named by code": 1,
+  "files of code": 1,
+  "named by pages": 40,
+  "pages that name it": 33
+ },
+ {
+  "page": "docs/KIND_TABLE.md",
+  "last changed": "2026-11-10",
+  "says": "living document",
+  "named by code": 12,
+  "files of code": 8,
+  "named by pages": 61,
+  "pages that name it": 40
+ },
+ {
+  "page": "docs/LAW_MAP.md",
+  "last changed": "2026-11-11",
+  "says": "",
+  "named by code": 51,
+  "files of code": 36,
+  "named by pages": 263,
+  "pages that name it": 111
+ },
+ {
+  "page": "docs/LEAD_REGISTER.md",
+  "last changed": "2026-11-11",
+  "says": "",
+  "named by code": 12,
+  "files of code": 11,
+  "named by pages": 69,
+  "pages that name it": 15
+ },
+ {
+  "page": "docs/LISTENER_MAP_SPEC.md",
+  "last changed": "2026-09-13",
+  "says": "status:",
+  "named by code": 7,
+  "files of code": 3,
+  "named by pages": 33,
+  "pages that name it": 27
+ },
+ {
+  "page": "docs/LISTENING_PROTOCOL.md",
+  "last changed": "2026-07-29",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 11,
+  "pages that name it": 8
+ },
+ {
+  "page": "docs/LITERATURE_CONTEXT_2026-07-15.md",
+  "last changed": "2026-11-10",
+  "says": "",
+  "named by code": 1,
+  "files of code": 1,
+  "named by pages": 5,
+  "pages that name it": 5
+ },
+ {
+  "page": "docs/LITERATURE_GAUGE_SM_2026-07-13.md",
+  "last changed": "2026-07-13",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 7,
+  "pages that name it": 7
+ },
+ {
+  "page": "docs/LITERATURE_SWEEP2_2026-07-13.md",
+  "last changed": "2026-07-13",
+  "says": "",
+  "named by code": 5,
+  "files of code": 4,
+  "named by pages": 16,
+  "pages that name it": 8
+ },
+ {
+  "page": "docs/LOOK_LEDGER.md",
+  "last changed": "2026-11-11",
+  "says": "",
+  "named by code": 8,
+  "files of code": 7,
+  "named by pages": 65,
+  "pages that name it": 38
+ },
+ {
+  "page": "docs/MAINS_PLAN.md",
+  "last changed": "2026-11-03",
+  "says": "",
+  "named by code": 3,
+  "files of code": 2,
+  "named by pages": 38,
+  "pages that name it": 23
+ },
+ {
+  "page": "docs/MAIN_GOAL.md",
+  "last changed": "2026-10-30",
+  "says": "currency",
+  "named by code": 7,
+  "files of code": 5,
+  "named by pages": 36,
+  "pages that name it": 23
+ },
+ {
+  "page": "docs/MASTERPLAN.md",
+  "last changed": "2026-11-11",
+  "says": "currency",
+  "named by code": 10,
+  "files of code": 10,
+  "named by pages": 32,
+  "pages that name it": 10
+ },
+ {
+  "page": "docs/NOVELTY_AUDIT.md",
+  "last changed": "2026-09-14",
+  "says": "",
+  "named by code": 1,
+  "files of code": 1,
+  "named by pages": 41,
+  "pages that name it": 24
+ },
+ {
+  "page": "docs/NOVELTY_SWEEP_LEDGER.md",
+  "last changed": "2026-11-10",
+  "says": "",
+  "named by code": 2,
+  "files of code": 2,
+  "named by pages": 56,
+  "pages that name it": 22
+ },
+ {
+  "page": "docs/OPEN_ITEMS_2026-09-05.md",
+  "last changed": "2026-09-05",
+  "says": "",
+  "named by code": 1,
+  "files of code": 1,
+  "named by pages": 12,
+  "pages that name it": 9
+ },
+ {
+  "page": "docs/OPEN_LEADS.md",
+  "last changed": "2026-11-11",
+  "says": "currency",
+  "named by code": 78,
+  "files of code": 47,
+  "named by pages": 822,
+  "pages that name it": 209
+ },
+ {
+  "page": "docs/OPEN_PROBLEMS.md",
+  "last changed": "2026-11-11",
+  "says": "retired",
+  "named by code": 20,
+  "files of code": 16,
+  "named by pages": 140,
+  "pages that name it": 115
+ },
+ {
+  "page": "docs/PARAMETER_CLOSURE_MASTERPLAN.md",
+  "last changed": "2026-08-29",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 2,
+  "pages that name it": 2
+ },
+ {
+  "page": "docs/PHASE1_WRAP.md",
+  "last changed": "2026-07-24",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 7,
+  "pages that name it": 5
+ },
+ {
+  "page": "docs/POINT_REGISTER.md",
+  "last changed": "2026-11-12",
+  "says": "",
+  "named by code": 25,
+  "files of code": 20,
+  "named by pages": 303,
+  "pages that name it": 45
+ },
+ {
+  "page": "docs/PRACTICES.md",
+  "last changed": "2026-11-11",
+  "says": "",
+  "named by code": 6,
+  "files of code": 2,
+  "named by pages": 90,
+  "pages that name it": 42
+ },
+ {
+  "page": "docs/PRICED_DOORS.md",
+  "last changed": "2026-11-11",
+  "says": "",
+  "named by code": 9,
+  "files of code": 9,
+  "named by pages": 42,
+  "pages that name it": 11
+ },
+ {
+  "page": "docs/PRIOR_ART_DOSSIER_ENTRANCE_AND_EXIT.md",
+  "last changed": "2026-11-10",
+  "says": "",
+  "named by code": 1,
+  "files of code": 1,
+  "named by pages": 12,
+  "pages that name it": 11
+ },
+ {
+  "page": "docs/PUBLICATION_CAMPAIGN.md",
+  "last changed": "2026-08-30",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 6,
+  "pages that name it": 5
+ },
+ {
+  "page": "docs/README_HISTORY.md",
+  "last changed": "2026-10-30",
+  "says": "archived",
+  "named by code": 15,
+  "files of code": 6,
+  "named by pages": 5,
+  "pages that name it": 3
+ },
+ {
+  "page": "docs/REBASE_2026-07-12.md",
+  "last changed": "2026-07-12",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 5,
+  "pages that name it": 5
+ },
+ {
+  "page": "docs/REBASE_2026-07-16.md",
+  "last changed": "2026-07-16",
+  "says": "",
+  "named by code": 1,
+  "files of code": 1,
+  "named by pages": 9,
+  "pages that name it": 5
+ },
+ {
+  "page": "docs/RECOGNITION.md",
+  "last changed": "2026-07-04",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 9,
+  "pages that name it": 8
+ },
+ {
+  "page": "docs/RECONTEXT_AUDIT_AND_MASTERPLAN_2026-07.md",
+  "last changed": "2026-07-03",
+  "says": "historical",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 7,
+  "pages that name it": 7
+ },
+ {
+  "page": "docs/RECURRENCE_ATLAS.md",
+  "last changed": "2026-10-15",
+  "says": "generated",
+  "named by code": 3,
+  "files of code": 2,
+  "named by pages": 12,
+  "pages that name it": 10
+ },
+ {
+  "page": "docs/RELAY_LEDGER.md",
+  "last changed": "2026-11-12",
+  "says": "",
+  "named by code": 18,
+  "files of code": 14,
+  "named by pages": 134,
+  "pages that name it": 62
+ },
+ {
+  "page": "docs/REPRESENTATION_TRIAGE.md",
+  "last changed": "2026-11-04",
+  "says": "",
+  "named by code": 3,
+  "files of code": 3,
+  "named by pages": 16,
+  "pages that name it": 11
+ },
+ {
+  "page": "docs/RETRACTED_PHRASES.md",
+  "last changed": "2026-11-10",
+  "says": "",
+  "named by code": 3,
+  "files of code": 3,
+  "named by pages": 28,
+  "pages that name it": 23
+ },
+ {
+  "page": "docs/RETRACTIONS.md",
+  "last changed": "2026-11-04",
+  "says": "superseded",
+  "named by code": 19,
+  "files of code": 12,
+  "named by pages": 37,
+  "pages that name it": 24
+ },
+ {
+  "page": "docs/ROADMAP.md",
+  "last changed": "2026-09-02",
+  "says": "",
+  "named by code": 4,
+  "files of code": 2,
+  "named by pages": 54,
+  "pages that name it": 16
+ },
+ {
+  "page": "docs/ROADMAP_TOE.md",
+  "last changed": "2026-08-09",
+  "says": "superseded",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 8,
+  "pages that name it": 7
+ },
+ {
+  "page": "docs/SEAL_LEDGER.md",
+  "last changed": "2026-11-12",
+  "says": "generated",
+  "named by code": 20,
+  "files of code": 9,
+  "named by pages": 103,
+  "pages that name it": 66
+ },
+ {
+  "page": "docs/SEAL_ORDER_UNSHOWN.md",
+  "last changed": "2026-11-10",
+  "says": "currency",
+  "named by code": 2,
+  "files of code": 1,
+  "named by pages": 6,
+  "pages that name it": 5
+ },
+ {
+  "page": "docs/SEAT_REGISTER.md",
+  "last changed": "2026-11-11",
+  "says": "frozen",
+  "named by code": 1,
+  "files of code": 1,
+  "named by pages": 28,
+  "pages that name it": 23
+ },
+ {
+  "page": "docs/SESSION3_SYNTHESIS.md",
+  "last changed": "2026-07-03",
+  "says": "historical",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 13,
+  "pages that name it": 11
+ },
+ {
+  "page": "docs/SM_SEAT_ALIAS_TABLE.md",
+  "last changed": "2026-10-02",
+  "says": "",
+  "named by code": 1,
+  "files of code": 1,
+  "named by pages": 29,
+  "pages that name it": 19
+ },
+ {
+  "page": "docs/SM_SPECIFICATION_LEDGER.md",
+  "last changed": "2026-11-11",
+  "says": "status:",
+  "named by code": 9,
+  "files of code": 8,
+  "named by pages": 44,
+  "pages that name it": 32
+ },
+ {
+  "page": "docs/SPECIALIST_SEND_QUEUE.md",
+  "last changed": "2026-09-12",
+  "says": "status:",
+  "named by code": 3,
+  "files of code": 3,
+  "named by pages": 21,
+  "pages that name it": 18
+ },
+ {
+  "page": "docs/STRATEGIC_SYNTHESIS.md",
+  "last changed": "2026-10-03",
+  "says": "historical",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 55,
+  "pages that name it": 31
+ },
+ {
+  "page": "docs/STRATEGY_2026-09-05.md",
+  "last changed": "2026-09-05",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 7,
+  "pages that name it": 6
+ },
+ {
+  "page": "docs/STRUCTURE_TO_NATURE_MASTERPLAN.md",
+  "last changed": "2026-08-18",
+  "says": "",
+  "named by code": 2,
+  "files of code": 2,
+  "named by pages": 7,
+  "pages that name it": 6
+ },
+ {
+  "page": "docs/SUBMISSION_CAMPAIGN.md",
+  "last changed": "2026-09-18",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 13,
+  "pages that name it": 5
+ },
+ {
+  "page": "docs/THEOREM_LEDGER.md",
+  "last changed": "2026-10-27",
+  "says": "",
+  "named by code": 29,
+  "files of code": 21,
+  "named by pages": 267,
+  "pages that name it": 132
+ },
+ {
+  "page": "docs/THEOREM_REGISTRY.md",
+  "last changed": "2026-11-11",
+  "says": "",
+  "named by code": 16,
+  "files of code": 15,
+  "named by pages": 76,
+  "pages that name it": 44
+ },
+ {
+  "page": "docs/THE_BANG_PROGRAMME.md",
+  "last changed": "2026-11-06",
+  "says": "",
+  "named by code": 1,
+  "files of code": 1,
+  "named by pages": 18,
+  "pages that name it": 10
+ },
+ {
+  "page": "docs/THE_BAR.md",
+  "last changed": "2026-11-05",
+  "says": "generated",
+  "named by code": 10,
+  "files of code": 7,
+  "named by pages": 366,
+  "pages that name it": 84
+ },
+ {
+  "page": "docs/THE_CAMPAIGN.md",
+  "last changed": "2026-08-10",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 11,
+  "pages that name it": 9
+ },
+ {
+  "page": "docs/THE_CHAIN_STATUS.md",
+  "last changed": "2026-11-10",
+  "says": "currency",
+  "named by code": 2,
+  "files of code": 2,
+  "named by pages": 32,
+  "pages that name it": 20
+ },
+ {
+  "page": "docs/THE_CLAIM.md",
+  "last changed": "2026-11-11",
+  "says": "",
+  "named by code": 20,
+  "files of code": 14,
+  "named by pages": 324,
+  "pages that name it": 93
+ },
+ {
+  "page": "docs/THE_CLOCK_AND_THE_NEXT_ATTACK_2026-10-29.md",
+  "last changed": "2026-10-29",
+  "says": "currency",
+  "named by code": 3,
+  "files of code": 1,
+  "named by pages": 28,
+  "pages that name it": 10
+ },
+ {
+  "page": "docs/THE_COMPLETION_MAP.md",
+  "last changed": "2026-10-28",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 14,
+  "pages that name it": 10
+ },
+ {
+  "page": "docs/THE_COUNT_2026-11-06.md",
+  "last changed": "2026-11-06",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 15,
+  "pages that name it": 14
+ },
+ {
+  "page": "docs/THE_CROSSINGS_CENSUS_2026-10-13.md",
+  "last changed": "2026-11-11",
+  "says": "",
+  "named by code": 2,
+  "files of code": 2,
+  "named by pages": 3,
+  "pages that name it": 3
+ },
+ {
+  "page": "docs/THE_CROSSING_2026-10-07.md",
+  "last changed": "2026-10-07",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 23,
+  "pages that name it": 19
+ },
+ {
+  "page": "docs/THE_DERIVED_STRUCTURE_FOR_REVIEW.md",
+  "last changed": "2026-10-15",
+  "says": "",
+  "named by code": 1,
+  "files of code": 1,
+  "named by pages": 16,
+  "pages that name it": 16
+ },
+ {
+  "page": "docs/THE_END_TO_END_CHAIN.md",
+  "last changed": "2026-10-02",
+  "says": "",
+  "named by code": 5,
+  "files of code": 4,
+  "named by pages": 107,
+  "pages that name it": 84
+ },
+ {
+  "page": "docs/THE_FIFTH_FORCE_QUESTION_2026-10-06.md",
+  "last changed": "2026-10-06",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 6,
+  "pages that name it": 6
+ },
+ {
+  "page": "docs/THE_FINAL_ACTS_BAR_2026-10-29.md",
+  "last changed": "2026-11-05",
+  "says": "",
+  "named by code": 1,
+  "files of code": 1,
+  "named by pages": 18,
+  "pages that name it": 13
+ },
+ {
+  "page": "docs/THE_FINAL_ATTACK_2026-10-29.md",
+  "last changed": "2026-11-11",
+  "says": "",
+  "named by code": 3,
+  "files of code": 3,
+  "named by pages": 30,
+  "pages that name it": 14
+ },
+ {
+  "page": "docs/THE_FORCED_AND_THE_FREE.md",
+  "last changed": "2026-09-17",
+  "says": "currency",
+  "named by code": 4,
+  "files of code": 1,
+  "named by pages": 24,
+  "pages that name it": 16
+ },
+ {
+  "page": "docs/THE_FOUNDATION_LOCK_PLAN.md",
+  "last changed": "2026-10-03",
+  "says": "generated",
+  "named by code": 1,
+  "files of code": 1,
+  "named by pages": 9,
+  "pages that name it": 8
+ },
+ {
+  "page": "docs/THE_FOUR_FORCES.md",
+  "last changed": "2026-10-06",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 10,
+  "pages that name it": 8
+ },
+ {
+  "page": "docs/THE_FRAMEWORK.md",
+  "last changed": "2026-11-11",
+  "says": "",
+  "named by code": 32,
+  "files of code": 16,
+  "named by pages": 180,
+  "pages that name it": 94
+ },
+ {
+  "page": "docs/THE_GENERATION_LANE_AUDITED_2026-10-07.md",
+  "last changed": "2026-10-07",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 16,
+  "pages that name it": 14
+ },
+ {
+  "page": "docs/THE_INTEGRATION_CENSUS_2026-10-13.md",
+  "last changed": "2026-10-13",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 6,
+  "pages that name it": 3
+ },
+ {
+  "page": "docs/THE_LADDER.md",
+  "last changed": "2026-10-22",
+  "says": "",
+  "named by code": 11,
+  "files of code": 8,
+  "named by pages": 38,
+  "pages that name it": 22
+ },
+ {
+  "page": "docs/THE_LAMBDA_POSITION.md",
+  "last changed": "2026-09-02",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 9,
+  "pages that name it": 9
+ },
+ {
+  "page": "docs/THE_PATTERN_MEDITATION.md",
+  "last changed": "2026-08-12",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 3,
+  "pages that name it": 2
+ },
+ {
+  "page": "docs/THE_PATTERN_MEDITATION_2.md",
+  "last changed": "2026-08-31",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 4,
+  "pages that name it": 4
+ },
+ {
+  "page": "docs/THE_PATTERN_MEDITATION_3.md",
+  "last changed": "2026-10-28",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 13,
+  "pages that name it": 6
+ },
+ {
+  "page": "docs/THE_PRICE_OF_THE_NINETEEN.md",
+  "last changed": "2026-10-20",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 5,
+  "pages that name it": 4
+ },
+ {
+  "page": "docs/THE_PROGRAMME_SO_FAR.md",
+  "last changed": "2026-11-11",
+  "says": "",
+  "named by code": 2,
+  "files of code": 2,
+  "named by pages": 33,
+  "pages that name it": 10
+ },
+ {
+  "page": "docs/THE_REMAINING_MATH.md",
+  "last changed": "2026-08-29",
+  "says": "",
+  "named by code": 1,
+  "files of code": 1,
+  "named by pages": 15,
+  "pages that name it": 13
+ },
+ {
+  "page": "docs/THE_REREAD_2026-10-06.md",
+  "last changed": "2026-10-06",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 22,
+  "pages that name it": 17
+ },
+ {
+  "page": "docs/THE_ROAD.md",
+  "last changed": "2026-08-30",
+  "says": "",
+  "named by code": 4,
+  "files of code": 4,
+  "named by pages": 11,
+  "pages that name it": 5
+ },
+ {
+  "page": "docs/THE_ROLES_ACCOUNTING.md",
+  "last changed": "2026-09-12",
+  "says": "status:",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 2,
+  "pages that name it": 1
+ },
+ {
+  "page": "docs/THE_SCALE_CARD_DESIGN_P722.md",
+  "last changed": "2026-11-10",
+  "says": "",
+  "named by code": 1,
+  "files of code": 1,
+  "named by pages": 18,
+  "pages that name it": 7
+ },
+ {
+  "page": "docs/THE_SM_VERDICT.md",
+  "last changed": "2026-10-22",
+  "says": "currency",
+  "named by code": 16,
+  "files of code": 15,
+  "named by pages": 76,
+  "pages that name it": 47
+ },
+ {
+  "page": "docs/THE_STATE_2026-09-06.md",
+  "last changed": "2026-09-15",
+  "says": "",
+  "named by code": 2,
+  "files of code": 2,
+  "named by pages": 4,
+  "pages that name it": 3
+ },
+ {
+  "page": "docs/THE_TAU_READOUT_RULE.md",
+  "last changed": "2026-11-11",
+  "says": "",
+  "named by code": 3,
+  "files of code": 2,
+  "named by pages": 30,
+  "pages that name it": 12
+ },
+ {
+  "page": "docs/THE_TOOLS_AND_THE_DESK_2026-10-29.md",
+  "last changed": "2026-10-30",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 6,
+  "pages that name it": 4
+ },
+ {
+  "page": "docs/THE_TOWERS.md",
+  "last changed": "2026-10-30",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 26,
+  "pages that name it": 17
+ },
+ {
+  "page": "docs/THE_WEAVE.md",
+  "last changed": "2026-11-06",
+  "says": "",
+  "named by code": 13,
+  "files of code": 8,
+  "named by pages": 129,
+  "pages that name it": 84
+ },
+ {
+  "page": "docs/THE_WHY_CAMPAIGN.md",
+  "last changed": "2026-08-31",
+  "says": "",
+  "named by code": 1,
+  "files of code": 1,
+  "named by pages": 12,
+  "pages that name it": 6
+ },
+ {
+  "page": "docs/THE_WITHHOLDING_TAXONOMY.md",
+  "last changed": "2026-08-31",
+  "says": "",
+  "named by code": 0,
+  "files of code": 0,
+  "named by pages": 5,
+  "pages that name it": 5
+ },
+ {
+  "page": "docs/THREE_GENERATIONS_RESEARCHED.md",
+  "last changed": "2026-10-07",
+  "says": "archived",
+  "named by code": 1,
+  "files of code": 1,
+  "named by pages": 51,
+  "pages that name it": 50
+ },
+ {
+  "page": "docs/TOE_REQUIREMENTS_LEDGER.md",
+  "last changed": "2026-10-06",
+  "says": "",
+  "named by code": 20,
+  "files of code": 6,
+  "named by pages": 54,
+  "pages that name it": 27
+ },
+ {
+  "page": "docs/TOOLBOX.md",
+  "last changed": "2026-08-13",
+  "says": "currency",
+  "named by code": 4,
+  "files of code": 3,
+  "named by pages": 18,
+  "pages that name it": 12
+ },
+ {
+  "page": "docs/TOOLBOX_LIVE.md",
+  "last changed": "2026-11-11",
+  "says": "historical",
+  "named by code": 4,
+  "files of code": 3,
+  "named by pages": 12,
+  "pages that name it": 9
+ },
+ {
+  "page": "docs/TOTAL_INPUTS_SCOREBOARD.md",
+  "last changed": "2026-11-06",
+  "says": "generated",
+  "named by code": 10,
+  "files of code": 6,
+  "named by pages": 63,
+  "pages that name it": 11
+ },
+ {
+  "page": "docs/TRACE_SELECTOR_THEOREM.md",
+  "last changed": "2026-05-29",
+  "says": "status:",
+  "named by code": 3,
+  "files of code": 2,
+  "named by pages": 24,
+  "pages that name it": 19
+ },
+ {
+  "page": "docs/UNIFIED_STATE.md",
+  "last changed": "2026-08-21",
+  "says": "historical",
+  "named by code": 1,
+  "files of code": 1,
+  "named by pages": 11,
+  "pages that name it": 9
+ },
+ {
+  "page": "docs/UNIQUENESS_THEOREM.md",
+  "last changed": "2026-10-02",
+  "says": "status:",
+  "named by code": 7,
+  "files of code": 6,
+  "named by pages": 134,
+  "pages that name it": 110
+ },
+ {
+  "page": "docs/WHAT_WOULD_COUNT.md",
+  "last changed": "2026-11-11",
+  "says": "",
+  "named by code": 15,
+  "files of code": 7,
+  "named by pages": 61,
+  "pages that name it": 35
+ }
+]
