@@ -1,0 +1,32 @@
+R80b, part 5, patch 3 (the foundation at version 1.67, arc B1904): what was run.
+
+1. The script 0003_the_foundation_at_version_1_67.py on a clean checkout of main's bf76e5ab1 with R80b's parts 1 to 4 and the
+   first two patches of part 5: it applies, the arc's script writes the foundation, and the tree is
+   7a674e178904bc88483373534ee44ace154d8144, the tree this seat built.
+
+2. All 53 gates on the patch: 52 pass; not passing: review-fires.
+   (The count of landings is red on the base as well: it passed 40 inside part 3.)
+
+3. The locks of B1886, B1891 and B1904 on the patch: 19 passed (7, 5 and 7).
+
+4. The 82 test files that read the foundation, the closure map, the plan, the page of where we stand or the atlas's data,
+   in one process, before the patch (81 files: the new lock is not there) and on it:
+   ==== on the commit before the patch (part 5's second patch):
+   =================================== FAILURES ===================================
+   =========================== short test summary info ============================
+   FAILED frontier/B1866_the_agy_lanes_join_relay_scrutinised/verification/test_b1866_the_agy_lanes_join_relay_scrutinised.py::test_the_scrutiny_reproduces
+   FAILED tests/test_closure_generated.py::test_the_gate_is_green_on_this_repository
+   FAILED tests/test_closure_generated.py::test_a_stale_programme_is_refused_in_every_clone
+   3 failed, 1979 passed in 201.26s (0:03:21)
+   ==== on the patch:
+   =================================== FAILURES ===================================
+   =========================== short test summary info ============================
+   FAILED frontier/B1866_the_agy_lanes_join_relay_scrutinised/verification/test_b1866_the_agy_lanes_join_relay_scrutinised.py::test_the_scrutiny_reproduces
+   FAILED tests/test_closure_generated.py::test_the_gate_is_green_on_this_repository
+   FAILED tests/test_closure_generated.py::test_a_stale_programme_is_refused_in_every_clone
+   3 failed, 1987 passed in 170.91s (0:02:50)
+
+   The same three fail before and on the patch. One compares a printed signed zero (B1866; R80a's note, section 9). Two are
+   the tests of tests/test_closure_generated.py when B1861's lock has run before them in the same process (part 1's note,
+   section 4, item 4; main's M18 gives the cause). Alone, that file passes.
+   Eight more pass on the patch: the seven tests of B1904's lock, and the schema test of its verdict file.

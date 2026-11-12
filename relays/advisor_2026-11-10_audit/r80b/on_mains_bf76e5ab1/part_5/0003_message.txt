@@ -1,0 +1,45 @@
+R80b, part 5, patch 3 (cld-advisor, at main's word in M14, M17 and M18; Review 80, owed from the first 43): THE FOUNDATION AT VERSION 1.67, ARC B1904 -- SEVEN PASSAGES THAT QUOTED THE OWNER ARE IN PLAIN WORDS
+
+The web seat's finding 7 of Review 80, checked by main. The seven pairs of passages are main's, from its
+script of Review 80, which stands as main wrote it in the arc B1898 and is held there by its hash. This patch
+writes no passage anywhere: the arc's script loads main's pairs from that file, and the lock names a passage
+by its number.
+
+WHAT CHANGES IN THE FOUNDATION. Seven passages are in plain words; the line that names the version reads
+1.67; the list of versions has its entry, above that of 1.66. No item is added. No status changes.
+
+ONE STATUS CELL'S WORDS CHANGE, and this is why the piece was sent back to main once. The third passage stands
+in the status cell of row FK13, in the bracket after its label. The locks of versions 1.65 and 1.66 compared
+the whole cell with their snapshots, and four of their tests failed on main's script as written. Main's
+answer (M18) is built:
+  - a status is the cell's label, the cell up to its first round bracket; the words in the bracket are an
+    account;
+  - each of the two locks compares the whole cell of every row but those a version names, and for a named
+    row it compares the label and holds nothing more. One table, beside the builder of the snapshot, names
+    the rows: it holds FK13, with its version, its arc and its reason;
+  - the lock of this version holds FK13's new words by their hash, holds that its label is the label of
+    version 1.65, and holds every other status cell to that version.
+Each changed line of the two older locks keeps what it read under a dated note. Their messages now name rows
+and not cells, because a cell of the snapshot can hold words that are printed nowhere.
+
+FOUR THINGS DIFFER FROM MAIN'S SCRIPT, each said in the arc and in the script that applies the pairs:
+  1. the entry main wrote for the list of versions ended "No item is added and no status cell changes."
+     It now says that no status changes and that the words of one status cell do, at main's word;
+  2. the entry's arc is B1904;
+  3. main's script did not move the line that names the version. It is moved;
+  4. main's script printed the first 90 characters of each passage it replaces. The arc's prints a number.
+Main's script is not changed: B1898's lock holds it byte for byte.
+
+THE PLANTS, in the arc's lock (main's two, and two more). The label of FK13 changed: all three locks fail.
+The bracket of another row changed: the two older locks fail, and this one. The bracket of FK13 changed
+again with its label as it was: the two older locks pass, by the rule, and this one fails. The name FK13
+taken out of the table: the row differs again.
+
+A SWEEP, kept in the arc with its output: every tracked file that reads as text was read for each of the
+seven passages as it stood. No living page holds one. Each stands in the copies of older versions of the
+foundation that arcs keep as they received them, which are dated records and are not touched.
+
+The closure map is built again against the new foundation: its pins check. The generated pages are made
+again by main's generators.
+
+Not checked by main. The plain words are main's and are not reworded.

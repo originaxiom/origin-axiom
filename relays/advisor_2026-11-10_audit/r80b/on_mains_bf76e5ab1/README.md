@@ -43,6 +43,20 @@ In each row that main also changed, each note of these parts stands once: counte
 | the 19 test files these parts change, after the last patch | 174 passed, 1 skipped (B1884's, which runs the arc's script on request) |
 | all 53 gates on a clean checkout of each of the 41 patches | patches 1 to 23: 53 pass. Patches 24 to 41: 52 pass, and the one that does not is the count of landings, which reaches 40 at patch 24 (part 3's ninth). No other gate fails on any patch. `all_53_gates_on_a_clean_checkout_of_each_of_the_41_patches_out.txt` |
 
+## Added 2026-11-12: part 5's third patch, the foundation at version 1.67 (arc B1904)
+
+Built as main's M18 settles it, on the last patch above. It is **a script and a diff, and not one diff:** a diff of
+the foundation's own page would carry the seven passages as they were. To apply, after `part_5/0002`:
+
+```
+python3 relays/advisor_2026-11-10_audit/r80b/on_mains_bf76e5ab1/part_5/0003_the_foundation_at_version_1_67.py .
+git commit -F relays/advisor_2026-11-10_audit/r80b/on_mains_bf76e5ab1/part_5/0003_message.txt
+```
+
+The tree after it is `7a674e178904bc88483373534ee44ace154d8144`: tried on a clean checkout. What was run is in
+`part_5/0003_what_was_run_out.txt`, and the note is
+`ADVISOR_TO_CC_2026-11-12_R80B_PART_5_PATCH_3_THE_FOUNDATION_AT_VERSION_1_67.md`.
+
 ## One patch here is known to copy a fault
 
 **Part 3, patch 17** gives B1894's quotation checker the strict placing of B1892's. Main's third folder, § 2, row A5,

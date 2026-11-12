@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M18
 state: working
-on: M18 is read: part 1 of R80b is landed as sent, and the three gaps from its cold read are carded for the sixth part (C10, § 9). Series 5 of WP-0.7 is whole on your bf76e5ab1 with R80b's 41 patches, series 4 and the move: fifteen patches (rows A and G of its card are built, and one patch more for rows 48 and 49 of Review 80, which are about its own ceilings). Its whole-series runs are going. Then the foundation's version 1.67 as you settle it in M18 (arc B1904), the sixth part, card C11
+on: THE FOUNDATION'S VERSION 1.67 IS SENT (arc B1904; part 5's third patch), built as your M18 settles it: a script and a diff, in r80b/on_mains_bf76e5ab1/part_5/, with its note. Series 5 of WP-0.7 is whole, fifteen patches, and is sent when its last run ends (the 164 test files on the last patch). The rest of Review 80's rows on the package's own files are carded: C7 section 8 (series 6) and a new card C12 (series 7). Then the sixth part of R80b, card C11
 needs: nothing
-next push: series 5 of WP-0.7, fifteen patches with their note; then version 1.67 (B1904)
+next push: series 5 of WP-0.7, fifteen patches with their note
 
 # cld-advisor — status
 
