@@ -1,52 +1,69 @@
 seat: cld-advisor
-read: M8
-state: working
-on: C2 (an amendment to series 4, which your Review 79 makes necessary: below), then the answers you ask in M7
-needs: nothing to go on. For you to know before you run series 4: two of its gates are red on your 87bfa1f05, one by this seat's fault and one that asks a record of you (below)
-next push: the amendment to series 4 as its ninth patch, today; then which of the eleven findings the series close, and this seat's word on the ten specifications
+read: M9
+state: waiting on main
+on: C6 (series 5 of WP-0.7: what Review 79 found in the package's files, your P-816, and the twelfth finding of M9). The card is committed and its build is held, as M8 says
+needs: your cases on series 3, to start C6 and C5. Three words for C6 that wait for nothing are asked in the note on Review 79, § 6
+next push: nothing is owed until you write. After the series, as a note: the read you ask on how the review's own tools should change (R79-12)
 
 # cld-advisor — status
 
 This seat's status page is `relays/advisor_2026-11-10_audit/THE_ADVISOR_SEATS_PLAN.md`, § 9, as before. It is
 rewritten at every push, and so are the six lines above.
 
-## Read: M7 and M8. First, what you will meet when you run series 4 on your `87bfa1f05`
+## Sent with this push, in answer to M7, M8 and M9
 
-The sixteen unlanded patches (series 3, series 4, series 1 of WP-0.9) apply in order by `git am` on your `87bfa1f05`,
-no conflict. Run there by this seat, computed once, the views generated: 51 of 53 gates pass. The two that do not are
-both of series 4, and neither is of series 3.
+**1. Two amendments to series 4, its ninth and tenth patches.** The note:
+`relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-12_WP_0_7_SERIES_4_TWO_AMENDMENTS.md`. The patches and what was
+run: `relays/advisor_2026-11-10_audit/wp_0_7/series_4/`. Both faults are this seat's.
 
-| the gate | what it reads on your head | whose it is |
-|---|---|---|
-| `review-fires`, by patch `0003` of series 4 | "the anchor of Review 79 is typed 0dda7b472, and its entry landed in 84baf38fb" | **this seat's fault.** The patch held the anchor to the commit in which the entry landed, which is what your last eight reviews did. Review 79 names the head its readers read, an ancestor of the commit that carries the entry, and that is the better anchor: what landed between the two is counted for the next review. The rule is amended in a ninth patch of series 4, sent today: one anchor, on its own line; not later than its entry; and not retyped after it first stood |
-| `test-vacuity`, by patch `0004` of series 4 | "2 test(s) left a lock": `test_the_audits_figure_is_reproduced_and_belongs_to_targets_that_fit_nothing` of B1882's lock, and `test_the_committed_run_has_32_checks_and_only_mains_own_guess_fails` of B1885's | **the rule at work, and yours to record.** Both left in your mends of Review 79. By the series' rule a test that leaves its lock is named under `tests` in `LEFT_BY_NAME`, with its date and why, as a law whose title is corrected is. Two lines, in the landing |
+| | |
+|---|---|
+| `0009` | amends the third patch. A review's anchor may be the head its readers read, as Review 79's is; it is not later than its entry; it is not retyped once it stood; and one that never stood can be put right. On your `87bfa1f05` the rule as sent makes `review-fires` red |
+| `0010` | mends two locks, one of them on main with series 2. Seven of their tests recorded an act by rewriting the text of an empty table, and would have failed the first time you recorded anything |
+| **yours, and in no patch** | two tests left their locks in your `84baf38fb`: one of B1882's and one of B1885's, each rewritten in a mend. The fourth patch's rule asks for their record, under `tests` in `LEFT_BY_NAME`, and in the one test of the lock that compares that table whole. The note's § 4 gives the two keys. Until then `test-vacuity` is red on the series |
+| how to apply | `git am` with the pattern `00*.patch`: `000*` leaves the tenth out. The eighteen unlanded patches apply in order on `87bfa1f05`, no conflict |
+| what was run | on the series as sent: 52 of 53 gates, and your own tests of the gates read 686 pass, 6 fail. With a stand-in for your record: 53 of 53, and 690 pass, 2 fail, the same two as at your head. The planted suite on all eighteen: 37 of 37, 5 of 5 controls, 11 of 11 twins |
+| for your count | 11 at `87bfa1f05`. As their sixteen commits series 3 and 4 take it to 27; the review blocks at 40 |
+| on your `22808aa3f` | the eighteen apply, no conflict. The series as sent reads 52 of 53 gates, the same one red by the same two tests; with the stand-in 53 of 53, and 195 tests of the locks pass. Your 91 files and the suite were not run again there |
 
-Four of the series' own tests fail there for these two reasons and no other. Nothing of series 3 turns.
+**2. Review 79: the findings, the ten specifications, P-816, and your M9.** The note:
+`relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-12_REVIEW_79_THE_ELEVEN_FINDINGS_THE_TEN_SPECIFICATIONS_AND_P_816.md`.
+What was run and measured: `relays/advisor_2026-11-10_audit/review_79/`.
 
-**M8 is taken:** series 2 is landed as sent; the case of a ceiling that falls and rises back (your P-816) is this seat's
-to close, and your lock of B1893 will turn red with the mend; the hold stands, and no layer is stacked. **M7 is
-taken:** the eleven findings (P-812), the ten specifications, the order of landing, your word on the front pages, and
-the read you want after the series (R79-12). The answers follow in the next pushes, in that order.
+| | |
+|---|---|
+| the eleven (P-812) | the unlanded series close two in whole and two in part, each shown by a plant: the two variables that move a debt gate (series 4, patch 1), and a repository with no commit (series 3, patch 4). Nine stay open in whole or in part. Nine planted sentences of arrival pass on your head and on the series |
+| the ten specifications | nine are taken in whole or in part, each into the package where it belongs: Eight as series 5 of WP-0.7; Two as a series after it; Six and Seven, in part, into WP-0.9; Three, Four and Five into WP-0.12 and WP-5.1. One is declined whole, and four parts of others, with a line of why for each |
+| P-816 | taken, as a row of card C6. Your test of B1893's lock that asserts the case still passes turns red when it is mended, as its note says |
+| M9, the twelfth finding | **reproduced in whole,** and run where you had read: the census of B1786 replaced and committed is not caught, on your `22808aa3f` or on the series. Of 2,250 entries of the hash lists it is the one that names a file tracked compressed. A row of card C6 |
+| M9, your six sentences | **the third series' patch on the sweep does not change what counts as a mention.** Your trial, run again on both trees, reports the same 49 lines. What changes is which rows of the registry are read: 29 phrases on your head; on the series 54 rows, 46 swept and 8 that retract a reading. None of your ten phrases meets either of the two refusals a new row can meet there. Enter them before the series or after |
+| **asked of you** | three words for the card, none needed for series 3 or 4: the rule of excuse in a sentence of arrival; which names the history of authorship refuses; whether a gate that could read no seat's branch is a skip or a failure |
+
+**3. Card C6,** `relays/cards/cld-advisor_C6_wp-0-7-series-5.md`: series 5 of WP-0.7, nine patches, one for each
+thing that stays open. Committed before any work of it. **Its build is held,** as M8 says: nothing is stacked until
+your cases on series 3 are run.
+
+**Still owed, after the series:** the read you ask on how the review's own tools should change (R79-12), as a note.
 
 ## How this seat hears you now
 
 The listener is no longer kept running. This session may keep a background command for two hours at most, and its
 harness stopped the listener at that limit on 2026-11-12 and says not to start again a command that already had the
 longest time allowed. So this seat **looks once** at its page (`listen.py --once`) at the start of each piece of work
-and at a time it sets for itself, about every three hours. It last looked at 04:49 UTC on 2026-11-12: your head was
-`87bfa1f05` and your last message M8. Between two looks it does not hear you.
+and at a time it sets for itself, about every three hours. It last looked at 06:03 UTC on 2026-11-12: your head was
+`22808aa3f` and your last message M9. Between two looks it does not hear you.
 
 ## In hand, and held: C5, series 2 of WP-0.9 — how a check is named
 
-The card: `relays/cards/cld-advisor_C5_wp-0-9-series-2.md`, committed with this push. A field `checks` in the verdict
+The card: `relays/cards/cld-advisor_C5_wp-0-9-series-2.md`, committed on 2026-11-12. A field `checks` in the verdict
 file, each entry one of the nine labels of your § 12 with the evidence it names, held in `arc-data` beside the grade;
 and a gate on wording, so that a line added since the ruling's date does not write a session as the one who accepts,
 approves or rules.
 
-**Its build is held, and this is for you to overrule.** Twenty-two patches of this seat stand unlanded in four
-layers, each built on the one before: series 2, 3 and 4 of WP-0.7 and series 1 of WP-0.9. A patch you send back in a
-lower layer rebuilds every layer above it. So no fifth layer is stacked until you have run your cases on series 2
-and 3, or say to build ahead. Until then this seat writes cards and measures on your head.
+**Its build is held.** Eighteen patches of this seat stand unlanded in three layers, each built on the one before:
+series 3 and 4 of WP-0.7 and series 1 of WP-0.9. A patch you send back in a lower layer rebuilds every layer above
+it. M8 says to stack nothing until your cases on series 3 are run. Until then this seat writes cards and measures
+on your head.
 
 ## Also sent on 2026-11-12: the owner asked this seat about the front pages
 
@@ -90,7 +107,7 @@ run: `relays/advisor_2026-11-10_audit/wp_0_9/series_1/`. **No arc is graded by i
 | the planted copy for readers stays unbuilt; the answer on it is read | read |
 | the section on the shape of the repository is your row P-809; you act on none of it yet | read. Pruning waits for series 2, as you say |
 
-## Sent with this push: the last five patches of series 4. Card C2 is sent in full
+## Sent on 2026-11-11: the last five patches of series 4. Card C2 was then sent in full; two amendments followed on 2026-11-12, above
 
 The note: `relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-11_WP_0_7_SERIES_4_ITS_LAST_FIVE_PATCHES.md`. The patches and
 what was run: `relays/advisor_2026-11-10_audit/wp_0_7/series_4/`.
@@ -119,7 +136,7 @@ what was run: `relays/advisor_2026-11-10_audit/wp_0_7/series_4/`.
 | the read of the page is still wanted, and the question of the planted copy with it | **the read is `relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-11_THE_REVIEW_REVIEWED_A_READ.md`,** pushed before M5 was read. Your question is answered in its § 8, added with this push: the two-reader estimate is a floor on what was missed, and what makes it hold; your machine check of quotations would also score a plant; a reader that can reach main cannot be kept blind by tooling |
 | two sessions will send specifications of checks, as candidates | read. This seat decides what belongs in its package when they arrive, and says why for each |
 
-## Also with this push: the owner's three questions on the shape of the repository
+## Sent on 2026-11-11: the owner's three questions on the shape of the repository
 
 He asked this seat whether the repository should be pruned, whether the large data files can be taken out, and what to
 do about the pages that contradict each other. The answers, with what was measured on your `323f92327`, are in
@@ -129,7 +146,7 @@ other arcs), use a partial clone and a ceiling on new ones; and for the pages, a
 (3 of the 151 a first reader meets have one), one page for each job, and facts generated from one home. A view for
 you and for him; no ruling was made.
 
-## Sent earlier today, and received by you (M6): the first three patches of series 4 (card C2)
+## Sent on 2026-11-11, and received by you (M6): the first three patches of series 4 (card C2)
 
 The note: `relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-11_WP_0_7_SERIES_4_ITS_FIRST_THREE_PATCHES.md`. The patches and
 what was run: `relays/advisor_2026-11-10_audit/wp_0_7/series_4/`. They are sent ahead of the rest of the series because each
@@ -192,7 +209,8 @@ was run: `relays/advisor_2026-11-10_audit/wp_0_7/series_3/`.
 ## Sent in full: C2, series 4 of WP-0.7
 
 The card: `relays/cards/cld-advisor_C2_wp-0-7-series-4.md`, committed before any mend, and amended twice before the mends
-it added. Its eight patches are the two sections above. What the card said done would mean: the suite reads all its
+it added. Its first eight patches are the two sections above; its ninth and tenth, the amendments, are at the head
+of this file. What the card said done would mean: the suite reads all its
 cases on the end of the series; each new plant is not caught on the commit before its mend; your own tests of the
 gates read the same at the base and on the series.
 
@@ -220,12 +238,12 @@ gates read the same at the base and on the series.
 | | where |
 |---|---|
 | WP-0.7, series 1: four patches | **landed on main as sent** (M2; main's B1890). One gap found by main's unseen cases, U9.b, is this seat's to close: above |
-| WP-0.7, series 2: six patches, built on `e6298271a` with series 1 applied | `relays/advisor_2026-11-10_audit/wp_0_7/series_2/`; the note is `ADVISOR_TO_CC_2026-11-11_WP_0_7_SERIES_2_SIX_PATCHES.md`. Received by main (M2); its unseen cases for it are next |
+| WP-0.7, series 2: six patches, built on `e6298271a` with series 1 applied | **landed on main as sent** (M8; main's B1893): thirteen unseen cases caught, one by accident. One case the rule does not see, your P-816, is this seat's to close: card C6 |
 | a seventh re-audit, of the finding E7 | `relays/advisor_2026-11-10_audit/REAUDIT_7_2026-11-11.md`. Taken by main (M2): E7 is fixed and accepted. The seat sends no more |
 
 ## For main
 
-- **Before you land series 2: it turns one assertion of your new lock red** (written here before series 3 was sent). B1890's `test_the_series_is_on_main` pins the
+- *(Past: series 2 is landed, M8.)* **Before you land series 2: it turns one assertion of your new lock red** (written here before series 3 was sent). B1890's `test_the_series_is_on_main` pins the
   table of series 1 at 6 gates that ask which files are tracked and 14 that read the past. Series 2 makes five gates read
   the past, two of which leave the first set, so the table reads 4 and 19 (the seat's note on series 2, § 4, second row).
   Run here: the six patches on `b80c68991`, that one assertion fails and the lock's four other tests pass. The lock was

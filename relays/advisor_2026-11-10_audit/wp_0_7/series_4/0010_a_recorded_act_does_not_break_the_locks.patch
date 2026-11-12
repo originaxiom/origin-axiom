@@ -1,0 +1,290 @@
+From 7e9261c505968c6816d6a1353e850d6d5ffdc0cf Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 05:19:55 +0000
+Subject: [PATCH 10/10] WP-0.7, enforcement (cld-advisor's series 4, patch 10;
+ built on 87bfa1f05 with series 3 and the first nine patches of series 4
+ applied): A RECORDED ACT DOES NOT BREAK THE LOCKS. The rule of series 2, and
+ the fourth patch of this series, ask main to record an act by name in the
+ gates: what left a ledger in LEFT_BY_NAME, what rose in RAISED_BY_NAME. Seven
+ tests of two locks record such an act in a small repository of their own.
+ They planted it by rewriting the text of an empty table, so they held only
+ while nothing was named on this repository: the first act main recorded would
+ have failed each of the seven, for no fault of a gate. Found on 2026-11-12,
+ when main first had an act to record: two tests left their locks in the mends
+ of Review 79, and the fourth patch's rule asks for their record. The fault is
+ the seat's, and part of it is in the lock of series 2, which is on main. THE
+ MEND is in the two locks only; no gate and no checker is changed. The table
+ is found by the statement that binds it, in the syntax tree, and the entry is
+ added on the line after it, to whatever the table holds. AND A RECORDED ACT
+ IS SAID IN THE LOCK ONCE. The two tests that compare a table whole with what
+ the lock knows of it stay as they are: they are where main says what it
+ records, in the same commit. Three more tests read this repository, one for
+ the two pages, one for the locks, one for the tests of the locks; each also
+ held the gate's note to be empty, so that one recorded act would have had to
+ be said in two or three tests. They now hold what they are about: nothing has
+ left without a record, and a note stands only where the table holds a record
+ for that ledger. No test is taken out or renamed, and each change carries a
+ dated note. The test that compares LEFT_BY_NAME keeps the name it had on the
+ day the table was empty: a test that is renamed has left its lock. What the
+ patch does not do: it records nothing. The two tests that left are main's to
+ record; until they are, the vacuity gate and two tests of these locks are red
+ on main's head, by the rule and not by this fault. The lock: one test added
+ to tests/test_nothing_leaves_a_ledger.py and one to
+ tests/test_a_gate_reads_all_it_is_about.py, which run the seven on a copy of
+ the gates in which each table already holds an act, written over several
+ lines as main would write one. Added to the two locks as they stood on the
+ commit before, both fail: seven of the seven tests that record an act fail
+ there, each on its count of an empty table. Tested against planted errors, 7
+ of 7; computed once. 0 of 19.
+
+---
+ tests/test_a_gate_reads_all_it_is_about.py |  47 ++++++++-
+ tests/test_nothing_leaves_a_ledger.py      | 111 +++++++++++++++++++--
+ 2 files changed, 144 insertions(+), 14 deletions(-)
+
+diff --git a/tests/test_a_gate_reads_all_it_is_about.py b/tests/test_a_gate_reads_all_it_is_about.py
+index 58392dad9..74866dbaf 100644
+--- a/tests/test_a_gate_reads_all_it_is_about.py
++++ b/tests/test_a_gate_reads_all_it_is_about.py
+@@ -7,6 +7,7 @@ in its sentence what it did not read, and holds by name what stood on the day th
+ 
+ Each test makes the situation in a small repository of its own, which holds this repository's gates and checkers and a few
+ pages, and runs the gate there.  Nothing in the environment moves a gate."""
++import ast
+ import importlib.util
+ import json
+ import pathlib
+@@ -477,6 +478,15 @@ def test_a_control_that_cannot_control_is_refused_in_every_form(tmp_path):
+         assert words in detail, (name, detail)
+ 
+ 
++def _the_statement_that_binds(src, table):
++    """the one statement at the top level of the gates that binds `table`, written plainly or with an annotation"""
++    binds = [n for n in ast.parse(src).body
++             if (isinstance(n, ast.Assign) and [getattr(t, "id", None) for t in n.targets] == [table])
++             or (isinstance(n, ast.AnnAssign) and getattr(n.target, "id", None) == table)]
++    assert len(binds) == 1, "%s is bound %d time(s) at the top level of the gates; this lock adds a record after the one statement that binds it" % (table, len(binds))
++    return binds[0]
++
++
+ def test_a_control_pointed_at_another_test_has_left_the_register(tmp_path):
+     """the rule of series 2, for the register of controls: a gate pointed at another test, however honest that test looks, is
+     a row that left.  It needs a recorded act."""
+@@ -487,17 +497,48 @@ def test_a_control_pointed_at_another_test_has_left_the_register(tmp_path):
+     ok, detail = _gate(repo, "gate-controls")
+     assert ok is False, "a gate's control was pointed at another test with no record, and the controls gate passed: " + detail
+     assert "1 control(s) left tests/GATE_CONTROLS.json" in detail and "framing -> tests/test_controls.py" in detail
+-    # the recorded act
++    # the recorded act: an entry added to the table, whatever it already holds.  (2026-11-12, series 4, patch 10: until then
++    # it was planted by rewriting the text of an empty table, which held only while nothing was named on this repository.)
+     p = repo / "scripts" / "gates" / "gates.py"
+     src = p.read_text(encoding="utf-8")
+-    assert src.count("LEFT_BY_NAME = {}") == 1
+     key = "framing -> tests/test_controls.py::test_the_gate_fails_on_a_planted_case"
+-    p.write_text(src.replace("LEFT_BY_NAME = {}", "LEFT_BY_NAME = {%r: {%r: %r}}" % ("tests/GATE_CONTROLS.json", key, "2026-11-12 -- replaced by a control that plants the case in a file")), encoding="utf-8")
++    lines = src.splitlines(keepends=True)
++    lines.insert(_the_statement_that_binds(src, "LEFT_BY_NAME").end_lineno,
++                 "LEFT_BY_NAME = {**LEFT_BY_NAME, 'tests/GATE_CONTROLS.json': {**LEFT_BY_NAME.get('tests/GATE_CONTROLS.json', {}), %r: %r}}\n"
++                 % (key, "2026-11-12 -- replaced by a control that plants the case in a file"))
++    p.write_text("".join(lines), encoding="utf-8")
+     _commit(repo, "the act recorded")
+     ok, detail = _gate(repo, "gate-controls")
+     assert ok is True and "1 control(s) left by name" in detail, detail
+ 
+ 
++def test_the_record_of_a_control_that_left_is_planted_whatever_the_table_already_holds(tmp_path, monkeypatch):
++    """Series 4, patch 10 (2026-11-12).  The test above planted its record by rewriting the text of an empty table, so the
++    first act main recorded would have failed it, for no fault of a gate.  Here it is run on a copy of the gates in which
++    the table already holds an act, written as main would write one."""
++    recorded = tmp_path / "gates_in_which_an_act_is_recorded"
++    skip = shutil.ignore_patterns("__pycache__", "*.pyc")
++    for part in ("gates", "checks"):
++        shutil.copytree(ROOT / "scripts" / part, recorded / "scripts" / part, ignore=skip)
++    p = recorded / "scripts" / "gates" / "gates.py"
++    src = p.read_text(encoding="utf-8")
++    bound = _the_statement_that_binds(src, "LEFT_BY_NAME")
++    lines = src.splitlines(keepends=True)
++    lines[bound.lineno - 1:bound.end_lineno] = [
++        'LEFT_BY_NAME = {\n'
++        '    "tests": {      # a test that left its lock: the date, what became of it, and why\n'
++        '        "frontier/B9_an_arc/verification/test_b9_an_arc.py::test_that_was_rewritten":\n'
++        '            "2026-11-12 -- the claim it locked was corrected; it was rewritten as two tests",\n'
++        '    },\n'
++        '}\n']
++    p.write_text("".join(lines), encoding="utf-8")
++    monkeypatch.setitem(globals(), "ROOT", recorded)
++    assert list(_gates().LEFT_BY_NAME) == ["tests"]                                        # the copy is what it is said to be
++    room = tmp_path / "its_room"
++    room.mkdir()
++    test_a_control_pointed_at_another_test_has_left_the_register(room)
++
++
+ def test_on_this_repository_every_control_is_read_and_none_is_refused():
+     g = _gates()
+     ok, detail = g.GATES["gate-controls"]()
+diff --git a/tests/test_nothing_leaves_a_ledger.py b/tests/test_nothing_leaves_a_ledger.py
+index 44fa717cc..fd144e37f 100644
+--- a/tests/test_nothing_leaves_a_ledger.py
++++ b/tests/test_nothing_leaves_a_ledger.py
+@@ -8,6 +8,7 @@ ledger has held it still holds, unless it is named with its date and what became
+ Each test makes the situation in a small repository of its own, which holds this repository's gates and checkers and a
+ page of a few rows, and runs the gate there.  The anchor is passed to the gate as an argument; nothing in the environment
+ moves a gate."""
++import ast
+ import importlib.util
+ import json
+ import pathlib
+@@ -73,12 +74,32 @@ def _gate(repo, name, anchor):
+     return ok, detail
+ 
+ 
+-def _name_in_the_gate(repo, path, key, record):
+-    """the recorded act: an entry in the small repository's LEFT_BY_NAME, as main would write one"""
++def _the_statement_that_binds(src, table):
++    """the one statement at the top level of the gates that binds `table`, written plainly or with an annotation"""
++    binds = [n for n in ast.parse(src).body
++             if (isinstance(n, ast.Assign) and [getattr(t, "id", None) for t in n.targets] == [table])
++             or (isinstance(n, ast.AnnAssign) and getattr(n.target, "id", None) == table)]
++    assert len(binds) == 1, "%s is bound %d time(s) at the top level of the gates; this lock adds a record after the one statement that binds it" % (table, len(binds))
++    return binds[0]
++
++
++def _record_in_the_gate(repo, table, path, key, record):
++    """the recorded act: an entry added to `table` in the small repository's gates, whatever the table already holds.  The
++    statement that binds the table is found in the syntax tree, and the entry is added on the line after it, before
++    anything reads the table.  (2026-11-12, series 4, patch 10.  Until then the entry was planted by rewriting the text of
++    an empty table, which held only while nothing was named on this repository.)"""
+     p = repo / "scripts" / "gates" / "gates.py"
+     src = p.read_text(encoding="utf-8")
+-    assert src.count("LEFT_BY_NAME = {}") == 1
+-    p.write_text(src.replace("LEFT_BY_NAME = {}", "LEFT_BY_NAME = {%r: {%r: %r}}" % (path, key, record)), encoding="utf-8")
++    at = _the_statement_that_binds(src, table).end_lineno
++    lines = src.splitlines(keepends=True)
++    assert lines[at - 1].endswith("\n")
++    lines.insert(at, "%s = {**%s, %r: {**%s.get(%r, {}), %r: %r}}\n" % (table, table, path, table, path, key, record))
++    p.write_text("".join(lines), encoding="utf-8")
++
++
++def _name_in_the_gate(repo, path, key, record):
++    """the recorded act: an entry in the small repository's LEFT_BY_NAME"""
++    _record_in_the_gate(repo, "LEFT_BY_NAME", path, key, record)
+ 
+ 
+ # ---- the rule itself, on a page of three rows ----------------------------------------------------------------------------
+@@ -236,7 +257,9 @@ def test_on_main_the_two_pages_hold_everything_they_held_at_the_anchor():
+     for path, keys in ((g.LAW_MAP, g._law_titles), (g.CHAIN, g._chain_links)):
+         text = (ROOT / path).read_text(encoding="utf-8")
+         assert len(keys(text)) == len(set(keys(text))) > 50, path                      # each row and each link has a name of its own
+-        assert g.left_the_ledger(path, keys, text) == (None, ""), path
++        problem, note = g.left_the_ledger(path, keys, text)
++        assert problem is None, problem
++        assert note == "" or g.LEFT_BY_NAME.get(path), (path, note)                    # see _SAID_ONCE, at the end of this file
+ 
+ 
+ # ---- PV10: the identification register and its baseline -----------------------------------------------------------------
+@@ -376,7 +399,9 @@ def test_a_lock_gone_from_the_disk_or_from_the_index_has_left_before_any_commit_
+ 
+ def test_on_main_no_lock_has_left_since_the_anchor():
+     g = _gates()
+-    assert g.locks_that_left() == (None, "")
++    problem, note = g.locks_that_left()
++    assert problem is None, problem
++    assert note == "" or g.LEFT_BY_NAME.get("locks"), note                             # see _SAID_ONCE, at the end of this file
+ 
+ 
+ 
+@@ -410,10 +435,7 @@ def test_a_test_that_may_now_skip_passes_only_by_a_recorded_act(tmp_path):
+     ok, detail = _gate(repo, "test-vacuity", anchor)
+     assert ok is False, "a test of a lock was given a skipif mark with no record, and the vacuity gate passed: " + detail
+     assert "tests/test_one.py::test_one" in detail
+-    p = repo / "scripts" / "gates" / "gates.py"
+-    src = p.read_text(encoding="utf-8")
+-    assert src.count("RAISED_BY_NAME = {}") == 1
+-    p.write_text(src.replace("RAISED_BY_NAME = {}", "RAISED_BY_NAME = {'skips': {'tests/test_one.py::test_one': '2026-11-12 -- it needs a package the review machine lacks'}}"), encoding="utf-8")
++    _record_in_the_gate(repo, "RAISED_BY_NAME", "skips", "tests/test_one.py::test_one", "2026-11-12 -- it needs a package the review machine lacks")
+     _commit(repo, "the act recorded")
+     ok, detail = _gate(repo, "test-vacuity", anchor)
+     assert ok is True and "1 test(s) left a lock or may now skip, by name" in detail, detail
+@@ -459,7 +481,8 @@ def test_a_lock_added_after_the_anchor_is_held_to_what_it_was_when_it_was_added(
+ def test_on_this_repository_no_test_has_been_switched_off_since_the_anchor():
+     g = _gates()
+     problem, note = getattr(g, "tests_switched_off", lambda: ("the gates do not look for a test that is switched off", ""))()
+-    assert problem is None and note == "", (problem, note)
++    assert problem is None, problem
++    assert note == "" or g.LEFT_BY_NAME.get("tests") or g.RAISED_BY_NAME.get("skips"), note      # see _SAID_ONCE, at the end of this file
+ 
+ # ---- PV19: a ceiling the same commit could raise ------------------------------------------------------------------------
+ def test_a_baseline_count_raised_with_the_tokens_it_allows_turns_the_attribution_gate_red(monkeypatch):
+@@ -517,3 +540,69 @@ def test_the_attribution_baseline_is_read_as_it_was_at_the_anchor(tmp_path):
+     finally:
+         g._load_attr_baseline = real
+     assert g.attribution_baseline_rise() == (None, ""), "on main the baseline stands no higher than at the anchor"
++
++
++# ---- a recorded act does not break this lock (series 4, patch 10; found on 2026-11-12, when main first had an act to record) ----
++# Six tests of this lock record an act in a small repository's gates.  They planted it by rewriting the text of an empty
++# table, so they held only while nothing was named: the first act main recorded would have failed each of them, for no
++# fault of a gate.  The table is now found by the statement that binds it, and the entry is added to whatever it holds.
++#
++# _SAID_ONCE.  AN ACT RECORDED IN THE GATES IS SAID IN THIS LOCK ONCE.  The two tests that compare a table whole with what
++# this lock knows of it are the place: test_the_rule_reads_main_from_its_anchor_and_nothing_is_named_yet holds LEFT_BY_NAME,
++# and test_a_ceiling_may_fall_freely_and_rises_only_by_name holds RAISED_BY_NAME.  Whoever records an act changes the table
++# written there, in the same commit.  (The first of the two keeps the name it had on the day the table was empty: a test
++# that is renamed has left its lock.)  Three more tests read this repository, one for the two pages, one for the locks and
++# one for the tests of the locks.  Until 2026-11-12 each also held the gate's note to be empty, so one recorded act would
++# have had to be said in two or three tests.  They now hold what they are about: nothing has left without a record, and
++# the gate writes a note only where the table holds a record for that ledger.
++_AS_MAIN_WOULD_WRITE_IT = {     # the table -> the statement that binds it, with one act recorded over several lines
++    "LEFT_BY_NAME": ('LEFT_BY_NAME = {\n'
++                     '    "tests": {      # a test that left its lock: the date, what became of it, and why\n'
++                     '        "frontier/B9_an_arc/verification/test_b9_an_arc.py::test_that_was_rewritten":\n'
++                     '            "2026-11-12 -- the claim it locked was corrected; it was rewritten as two tests",\n'
++                     '    },\n'
++                     '}\n'),
++    "RAISED_BY_NAME": ('RAISED_BY_NAME = {\n'
++                       '    "skips": {"frontier/B9_an_arc/verification/test_b9_an_arc.py::test_that_is_slow": "2026-11-12 -- moved to the slow lane"},\n'
++                       '}\n'),
++}
++
++
++def _gates_in_which_acts_are_recorded(tmp_path):
++    """a copy of this repository's gates and checkers in which each of the two tables already holds one act, written as
++    main would write it; returned as the root the tests of this lock copy their gates from"""
++    root = tmp_path / "gates_in_which_acts_are_recorded"
++    skip = shutil.ignore_patterns("__pycache__", "*.pyc")
++    for part in ("gates", "checks"):
++        shutil.copytree(ROOT / "scripts" / part, root / "scripts" / part, ignore=skip)
++    p = root / "scripts" / "gates" / "gates.py"
++    src = p.read_text(encoding="utf-8")
++    lines = src.splitlines(keepends=True)
++    binds = {table: _the_statement_that_binds(src, table) for table in _AS_MAIN_WOULD_WRITE_IT}
++    for table, node in sorted(binds.items(), key=lambda b: -b[1].lineno):
++        lines[node.lineno - 1:node.end_lineno] = [_AS_MAIN_WOULD_WRITE_IT[table]]
++    p.write_text("".join(lines), encoding="utf-8")
++    return root
++
++
++def test_the_tests_that_record_an_act_run_whatever_the_tables_already_hold(tmp_path, monkeypatch):
++    recorded = _gates_in_which_acts_are_recorded(tmp_path)
++    spec = importlib.util.spec_from_file_location("gates_in_which_acts_are_recorded", recorded / "scripts" / "gates" / "gates.py")
++    g = importlib.util.module_from_spec(spec)
++    spec.loader.exec_module(g)
++    assert list(g.LEFT_BY_NAME) == ["tests"] and list(g.RAISED_BY_NAME) == ["skips"]      # the copy is what it is said to be
++    monkeypatch.setitem(globals(), "ROOT", recorded)
++    broken = {}
++    for n, test in enumerate((test_a_phrase_that_leaves_the_registry_turns_the_sweep_red_unless_it_is_named,
++                              test_one_law_or_one_link_removed_turns_its_gate_red_unless_it_is_named,
++                              test_a_row_that_leaves_the_identification_ledger_turns_the_gate_red_unless_it_is_named,
++                              test_one_lock_deleted_turns_the_gate_red_unless_its_retirement_is_recorded,
++                              test_a_test_that_may_now_skip_passes_only_by_a_recorded_act,
++                              test_a_test_function_that_leaves_its_lock_has_left)):
++        room = tmp_path / ("its_room_%d" % n)
++        room.mkdir()
++        try:
++            test(room)
++        except AssertionError as why:
++            broken[test.__name__] = (str(why).splitlines() or ["an assert with no message"])[0][:200]
++    assert not broken, "with an act already recorded in the gates, %d of the 6 tests that record one fail: %s" % (len(broken), broken)
+-- 
+2.43.0
+

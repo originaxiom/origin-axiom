@@ -1,0 +1,69 @@
+main's head: 87bfa1f05      the series: cbe850adb
+
+1. THE QUOTED LINE: does it still stand?
+
+   finding                  file                               main's head  the series  
+   R79-SM-44; row 25        scripts/gates/gates.py             stands       stands      
+   R79-SM-45                scripts/gates/gates.py             stands       stands      
+   R79-SM-46; row 20 (a)    scripts/checks/harvest_debt.py     stands       stands      
+   R79-SM-46; row 21        scripts/checks/point_debt.py       stands       stands      
+   R79-SM-47                scripts/checks/relay_debt.py       stands       stands      
+   row 10 (a)               scripts/gates/gates.py             stands       stands      
+   row 20 (b)               scripts/checks/harvest_debt.py     stands       stands      
+   row 20 (c)               scripts/checks/harvest_debt.py     stands       stands      
+   row 22                   scripts/checks/harvest_debt.py     stands       stands      
+   row 23                   scripts/gates/gates.py             stands       stands      
+   row 24                   scripts/gates/gates.py             stands       stands      
+   main's head  --first-parent in: commit_day_problems yes; hash_lists_immutable_problems yes; hash_lists_by_content_problems yes.  attribution_history_problems reads the author's name (%an) yes, and the committer or an address (%cn, %ae, %ce) no
+   the series   --first-parent in: commit_day_problems yes; hash_lists_immutable_problems yes; hash_lists_by_content_problems yes.  attribution_history_problems reads the author's name (%an) yes, and the committer or an address (%cn, %ae, %ce) no
+
+2. THE PLANTS FOR WHAT THE SERIES CLOSE
+
+   (a) R79-SM-46, rows 20 (a) and 21: a variable of the environment moves a debt gate
+       OA_POINT_REGISTER: the register without its last 150 lines.   OA_HARVEST_PIN_OVERRIDE: agy002=944c2987b
+       main's head  point-debt    MOVED BY THE VARIABLE
+            without: True point-debt: 816 points, 291 open -- 92 debts (oldest 30 days), 135 leads, 64 process; next debt P-355
+            with:    False point-debt: 666 points, 204 open -- 73 debts (oldest 30 days), 89 leads, 42 process; next debt P-355 |   owner calls open (3): P-081, P-082, P-253 |  
+       main's head  harvest-debt  MOVED BY THE VARIABLE
+            without: True ok within the 21 days -- UNREAD: chat1 +1 commit(s) past its pin, agy002 +3 commit(s) past its pin (read them at this landing)
+            with:    True ok within the 21 days -- UNREAD: chat1 +1 commit(s) past its pin (read them at this landing)
+       the series   point-debt    the same sentence with and without the variable
+       the series   harvest-debt  the same sentence with and without the variable
+
+   (b) row 10, its third part: a repository that holds no commit
+       main's head  0 of 53 gates say that the repository holds no commit.  A debt gate, which asks the commit's day, says:
+            refused: cannot verify the commit's day: ea41e6fc9, the commit the rule is read from, is not in this clone (shallow or partial)
+       the series   24 of 53 gates say that the repository holds no commit.  A debt gate, which asks the commit's day, says:
+            refused: this repository holds no commit, or a commit with no file in it. This gate reads the history, and git has nothing to say here, whatever stands in the folder. A g
+
+3. THE PLANTS FOR WHAT THE SERIES DO NOT TOUCH
+
+   (a) R79-SM-44, R79-SM-45 and row 25: a sentence of arrival, as each reader planted it
+       main's head
+            CAUGHT       the control: the bare sentence             The Standard Model is derived.
+            passes       R79-SM-44                                  Without a single free parameter, the Standard Model is derived.
+            passes       R79-SM-44                                  No longer a hope: the Standard Model is derived.
+            passes       R79-SM-44                                  Not only the gauge group: the standard model is derived.
+            passes       R79-SM-45, a word inside                   As of this arc the Standard Model is now derived.
+            passes       R79-SM-45, a line break inside             As of this arc the Standard Model<line break>is derived.
+            passes       row 25                                     Without question, the Standard Model is derived.
+            passes       row 25                                     There is no doubt: all nineteen are derived.
+            passes       row 25                                     After years of aimless search, the Standard Model is derived.
+            passes       row 25, "claim" cut to "aim" at the 160th  deed indeed indeed again again that the Standard Model is derived.
+            CAUGHT       the same sentence, one letter longer       eed indeed indeed indeed again that the Standard Model is derived.
+       the series
+            CAUGHT       the control: the bare sentence             The Standard Model is derived.
+            passes       R79-SM-44                                  Without a single free parameter, the Standard Model is derived.
+            passes       R79-SM-44                                  No longer a hope: the Standard Model is derived.
+            passes       R79-SM-44                                  Not only the gauge group: the standard model is derived.
+            passes       R79-SM-45, a word inside                   As of this arc the Standard Model is now derived.
+            passes       R79-SM-45, a line break inside             As of this arc the Standard Model<line break>is derived.
+            passes       row 25                                     Without question, the Standard Model is derived.
+            passes       row 25                                     There is no doubt: all nineteen are derived.
+            passes       row 25                                     After years of aimless search, the Standard Model is derived.
+            passes       row 25, "claim" cut to "aim" at the 160th  deed indeed indeed again again that the Standard Model is derived.
+            CAUGHT       the same sentence, one letter longer       eed indeed indeed indeed again that the Standard Model is derived.
+
+   (b) row 24, its third part: a passing sentence that holds the word "skipped"
+       main's head  the runner prints: SKIP  closure-generated: every generated page compared with its builder; skipped in part: no seat's branch in 
+       the series   the runner prints: SKIP  closure-generated: every generated page compared with its builder; skipped in part: no seat's branch in 

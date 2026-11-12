@@ -1,0 +1,12 @@
+main's trial, as its output says: 29 phrases registered, 10 added, 49 lines reported
+the phrases read from that output: 10
+
+main's head
+   phrases the sweep reads from the registry: 29;   lines it reports today: 0
+   with the ten added: 49 lines reported, 49 of them for the ten
+
+the series
+   phrases the sweep reads from the registry: 46;   lines it reports today: 0
+   with the ten added: 49 lines reported, 49 of them for the ten
+
+the lines reported for the ten: the same on both trees: YES

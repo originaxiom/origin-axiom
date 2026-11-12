@@ -1,0 +1,17 @@
+main's head: 87bfa1f05
+
+THE ARRIVAL GATE, on the pages it reads and does not exempt
+   a phrase of arrival stands 7 time(s); 4 of them are excused by a word in their own sentence
+   the word that excuses, as the pattern first meets it: no (2), goal (1), 0 of 19 (1)
+
+THE DAY, after ea41e6fc9
+   commits on main's own line: 38;   reachable from the head: 38;   on a side line: 0
+   on main's own line, the commit's own day differs from the day of its time in UTC: 3
+   reachable commits whose time is before a parent's: 0;   whose own day is before a parent's own day: 0
+   of those before a parent's time, on a side line: 0
+
+THE HASH LISTS, by a first pattern of their names: 205 tracked
+   commits after 76a4ff388 that touch one: 1 on main's own line, 0 more on a side line
+
+THE RUNNER'S LINE: a passing sentence that holds one of these prints SKIP, or prints whole: 'skipped', 'unavailable', 'no review anchor', 'by name'
+   gates that pass on this checkout and are printed SKIP: 0

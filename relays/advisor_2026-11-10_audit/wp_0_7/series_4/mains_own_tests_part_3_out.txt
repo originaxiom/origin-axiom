@@ -1,0 +1,33 @@
+main's own tests of the gates, the checkers, the views and the verdict files' data, and this seat's locks: the files that name one of them.
+91 files in all; each tree is given the ones it holds.  Run by:  python3 -B -m pytest -q -p no:cacheprovider -p no:randomly -rf --tb=no FILES
+The two runs on the series were made at the same time, each in a checkout of its own; the run at main's head an hour before, beside two others.
+
+==== at main's 87bfa1f05
+     87 of the 91 files; 2 failed, 604 passed, 12 skipped in 457.09s (0:07:37)
+     fails: frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py::test_the_generating_pair_check_reproduces
+     fails: tests/test_b1449_silent_receipts.py::test_the_decisive_test_of_b469_reproduces_with_the_fix_live
+
+==== on the series as sent: series 3 and the ten patches of series 4 on 87bfa1f05 by git am, with the views generated and nothing recorded (242d8dbe0, local and not sent)
+     90 of the 91 files; 6 failed, 686 passed, 12 skipped, 1 warning in 588.54s (0:09:48)
+     fails: frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py::test_the_generating_pair_check_reproduces
+     fails: tests/test_a_gate_reads_all_it_is_about.py::test_the_tests_that_pin_a_printed_float_are_held_by_name
+     fails: tests/test_b1449_silent_receipts.py::test_the_decisive_test_of_b469_reproduces_with_the_fix_live
+     fails: tests/test_b887_gate_audit.py::test_all_twenty_gates_pass_now
+     fails: tests/test_nothing_leaves_a_ledger.py::test_on_this_repository_no_test_has_been_switched_off_since_the_anchor
+     fails: tests/test_repo_gates.py::test_all_gates_pass
+
+==== the same, with the two tests that left their locks recorded by a stand-in for main's record and said once in the lock (f09432842, local and not sent)
+     90 of the 91 files; 2 failed, 690 passed, 12 skipped, 1 warning in 591.94s (0:09:51)
+     fails: frontier/B1850_the_open_leads_and_the_backlog_confirmed/verification/test_b1850_the_open_leads_and_the_backlog_confirmed.py::test_the_generating_pair_check_reproduces
+     fails: tests/test_b1449_silent_receipts.py::test_the_decisive_test_of_b469_reproduces_with_the_fix_live
+
+The two that fail on all three are among the fifteen that the series' seventh patch holds by name: a lock that compares, as text, a float
+that a process printed.  They fail on this machine at main's head too.
+The four more that fail on the series as sent fail by the fourth patch's rule: two tests left their locks in main's 84baf38fb, and no act is
+recorded.  Two of the four are tests of this seat's locks; the other two are main's tests that every gate passes.
+
+==== main's three locks that are newer than the list of 91 (B1891's, B1892's and B1893's), and tests/test_seat_listener.py
+     at main's 87bfa1f05:                22 passed
+     on the series as sent (242d8dbe0):  22 passed
+     with the stand-in (f09432842):      22 passed
+     B1893's lock loads this seat's lock of series 2 and uses seven of its names; the tenth patch changes none of the seven.

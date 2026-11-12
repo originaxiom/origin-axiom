@@ -1,0 +1,19 @@
+main's head: 87bfa1f05
+
+THE LOCKS: 1595 files, of which 1476 are an arc's (in its folder, or tests/test_b<number>...)
+   specification Six and the second check of the other session (a lock does not import or run its producer):
+        219 of 1476 arc locks: starts a process
+        398 of 1476 arc locks: loads or executes code by a path or a name
+        219 of 1476 arc locks: puts a folder on the import path
+        774 of 1476 arc locks: names a committed output
+        727 of 1476 arc locks do none of the first three; 0 could not be parsed
+   specification Six, its third part (a lock does not skip): 154 test(s) or module(s) in 118 of the 1595 lock files can skip or are marked to,
+      by the reader of series 4's fourth patch, which holds what stood at its anchor and refuses a new one
+
+THE PRODUCERS: 1786 scripts in the arcs' verification folders that are not locks, 1786 parsed
+   specification Two and the first check of the other session (a claim is not a typed True or a typed zero):
+         10 dictionary entries in 9 scripts: a key that reads as a claim, and a value that is the literal True or the literal 0
+
+THE ARCS' PAGES
+   specification Seven, its first part (a correction travels to the verdict file):
+         39 FINDINGS.md carry a dated mark of correction in brackets; in 27 of them the arc's verdict file carries none

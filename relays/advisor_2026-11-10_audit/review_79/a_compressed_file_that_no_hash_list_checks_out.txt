@@ -1,0 +1,11 @@
+main's head: 22808aa3f
+
+1. THE MEASURE
+   entries of the hash lists: 2250;   that name no tracked file: 231
+   of those, entries whose named file is tracked in a compressed form (.gz, .bz2, .xz): 1
+      frontier/B1786_the_slope_principle_out_of_sample/verification/census.jsonl.sha256 names census.jsonl; tracked: frontier/B1786_the_slope_principle_out_of_sample/verification/census.jsonl.gz
+         the listed hash is the hash of what the compressed file holds: YES
+
+2. THE PLANT: the content of frontier/B1786_the_slope_principle_out_of_sample/verification/census.jsonl.gz is replaced, and committed
+   main's head  before: passes;   after: passes   -> NOT CAUGHT
+   the series   before: passes;   after: passes   -> NOT CAUGHT

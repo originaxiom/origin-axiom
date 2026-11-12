@@ -1,0 +1,45 @@
+==== patch 9: e80d25f3d -- AN AMENDMENT TO THE SERIES' THIRD PATCH -- A REVIEW'S ANCHOR MAY BE THE HEAD ITS READERS READ, AND IT IS NOT RETYPED
+     the whole lock as the patch leaves it, on the commit before (30f11f1c3): main's 87bfa1f05 with series 3 and the first eight patches of series 4
+
+     E   AssertionError: ['the anchor of Review 79 is typed 0dda7b472, and its entry landed in 84baf38fb: the anchor is the commit in which the review landed, and it moves only when a review lands']
+     E   AssertionError: a review's anchor names the head its readers read, an ancestor of the commit that carries the entry, and the gate reads: the anchor of Review 79 is typed ec55f32bd, and its entry landed in 8391ef957: the anchor is the commit in which the review landed, and it moves only when a review lands
+     E   AssertionError: the anchor of the last review was retyped to a later commit after it first stood, and the gate reads: 1 merges since the last review (fires at 40)
+     E   AssertionError: the anchor of Review 79 is typed deadbeef1, and its entry landed in 8e1a348be: the anchor is the commit in which the review landed, and it moves only when a review lands
+     PASSED tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py::test_the_count_is_taken_from_the_commit_in_which_the_review_landed
+     PASSED tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py::test_a_sentence_that_names_the_head_as_an_anchor_does_not_move_the_count
+     PASSED tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py::test_a_second_anchor_on_a_line_of_its_own_does_not_move_it_either
+     PASSED tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py::test_the_typed_anchor_cannot_be_changed_to_a_later_commit
+     PASSED tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py::test_a_review_that_lands_moves_the_anchor
+     PASSED tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py::test_an_anchor_that_is_no_commit_of_this_history_is_refused
+     FAILED tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py::test_on_this_repository_the_last_reviews_anchor_is_the_commit_it_landed_in
+     FAILED tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py::test_an_anchor_that_names_the_head_the_review_read_is_taken
+     FAILED tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py::test_an_anchor_is_not_retyped_after_it_first_stood
+     FAILED tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py::test_an_anchor_that_was_first_typed_wrongly_can_be_put_right
+     4 failed, 6 passed in 7.86s
+
+     The fourth of the four that fail, the test of the way out, fails there at its first step: the rule as sent does not say of a mistyped
+     anchor that it names no commit.  On the amendment as first built (d5c3b5f5b, local and not sent) the same test fails where it is meant to:
+        E   AssertionError: an anchor that named no commit was put right, and the gate reads: the anchor of Review 79 was typed deadbeef1 when it
+            first stood, and is typed 50bc34c6c now: an anchor is not retyped; it moves only when a review lands
+        1 failed, 9 passed
+     That run is not reproducible from what is sent: the first build is not in the series.
+
+
+==== patch 10: 7e9261c50 -- A RECORDED ACT DOES NOT BREAK THE LOCKS
+     This patch mends two locks, and its two tests stand in those locks: on the commit before, the locks as the patch leaves them hold the mend.
+     So the form that shows the fault is made by the_tenth_patchs_two_tests_on_the_locks_as_they_stood.py, beside this file: each lock as it stood,
+     with the patch's new tests added and nothing else of the patch.  Its output, unedited:
+
+     the commit before: e80d25f3d    the patch: 7e9261c50
+     files the patch changes: tests/test_a_gate_reads_all_it_is_about.py, tests/test_nothing_leaves_a_ledger.py
+     tests/test_nothing_leaves_a_ledger.py: as it stood, with 4 name(s) of the patch added: _the_statement_that_binds, _AS_MAIN_WOULD_WRITE_IT, _gates_in_which_acts_are_recorded, test_the_tests_that_record_an_act_run_whatever_the_tables_already_hold
+     tests/test_a_gate_reads_all_it_is_about.py: as it stood, with 2 name(s) of the patch added: _the_statement_that_binds, test_the_record_of_a_control_that_left_is_planted_whatever_the_table_already_holds
+     
+     E   AssertionError: with an act already recorded in the gates, 6 of the 6 tests that record one fail: {'test_a_phrase_that_leaves_the_registry_turns_the_sweep_red_unless_it_is_named': 'assert 0 == 1', 'test_one_law_or_one_link_removed_turns_its_gate_red_unless_it_is_named': 'assert 0 == 1', 'test_a_row_that_leaves_the_identification_ledger_turns_the_gate_red_unless_it_is_named': 'assert 0 == 1', 'test_one_lock_deleted_turns_the_gate_red_unless_its_retirement_is_recorded': 'assert 0 == 1', 'test_a_test_that_may_now_skip_passes_only_by_a_recorded_act': 'assert 0 == 1', 'test_a_test_function_that_leaves_its_lock_has_left': 'assert 0 == 1'}
+     E   assert not {'test_a_phrase_that_leaves_the_registry_turns_the_sweep_red_unless_it_is_named': 'assert 0 == 1', 'test_one_law_or_on...': 'assert 0 == 1', 'test_one_lock_deleted_turns_the_gate_red_unless_its_retirement_is_recorded': 'assert 0 == 1', ...}
+     E   assert 0 == 1
+     E    +  where 0 = <built-in method count of str object at 0x24046f10>('LEFT_BY_NAME = {}')
+     E    +    where <built-in method count of str object at 0x24046f10> = '"""Automated repository gates (GOVERNANCE §11, instituted 2026-07-03).\n\nEach gate is a fast, deterministic check of...        print("  " + sb.stdout.strip().splitlines()[-1] + " (docs/TOTAL_INPUTS_SCOREBOARD.md)")\n    sys.exit(worst)\n'.count
+     FAILED tests/test_nothing_leaves_a_ledger.py::test_the_tests_that_record_an_act_run_whatever_the_tables_already_hold
+     FAILED tests/test_a_gate_reads_all_it_is_about.py::test_the_record_of_a_control_that_left_is_planted_whatever_the_table_already_holds
+     2 failed in 3.26s

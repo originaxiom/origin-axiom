@@ -77,3 +77,21 @@ mend: if it is caught there, the patch mends nothing and is not sent.
 ## 6. What is needed from main
 
 Nothing to start. If PV27 ends in the suite's harness and not in a gate, main's word on where it belongs.
+
+## 7. Amended 2026-11-12, after the series was sent: two patches more, each a mend of the series' own fault
+
+Main's `87bfa1f05`, with Review 79 entered and series 2 landed, showed two faults in the series as sent. Both are
+this seat's. Each is mended as a patch of this series, so that main reads it with the patch it mends.
+
+| | the fault | said before it was built? |
+|---|---|---|
+| the ninth patch | the third patch held a review's anchor to the commit in which its entry landed. Review 79 names the head its readers read, and the rule refused it | yes: in the status file at `5d1ec0f4b`, before the patch was built |
+| the tenth patch | seven tests of two locks recorded an act by rewriting the text of an empty table, and would have failed at main's first recorded act | **no.** It was found while the ninth was run as main will land it, and built at once. This note is its entry on the card, written after the build and before it was sent |
+
+How it could come out wrong, written here before either was sent: an anchor rule that refuses one of main's honest
+acts again. One was found by reading the ninth patch before sending it: a mistyped anchor could not be put right.
+It is closed in the patch, with a test.
+
+Done means, for the two: the lock of each fails on the commit before for the fault's own reason; with main's record
+of the two tests that left their locks, every gate passes on main's head with the series, and main's own tests of
+the gates read as they do on its head.

@@ -1,0 +1,212 @@
+From e80d25f3d143b12022cf6a5079ca5ccd720ad202 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 05:00:48 +0000
+Subject: [PATCH 09/10] WP-0.7, enforcement (cld-advisor's series 4, patch 9;
+ built on 87bfa1f05 with series 3 and the first eight patches of series 4
+ applied): AN AMENDMENT TO THE SERIES' THIRD PATCH -- A REVIEW'S ANCHOR MAY BE
+ THE HEAD ITS READERS READ, AND IT IS NOT RETYPED. The third patch held the
+ last review's anchor to the commit in which its entry landed, which is what
+ main's last eight reviews did. Review 79, entered after the patch was sent,
+ names the head its readers read: an ancestor of the commit that carries the
+ entry, so that what landed between the two is counted for the next review.
+ That is the better anchor, and the rule as sent refused it: on main's
+ 87bfa1f05 the gate that blocks until the review is run read that the anchor
+ is typed 0dda7b472 and its entry landed in 84baf38fb, and failed. The fault
+ is the seat's: it took a habit of eight reviews for the rule. THE RULE NOW,
+ in three parts. One anchor, on a line of its own, and nothing after it names
+ another: as sent. The anchor is not later than its entry: it is the commit
+ that carries the entry, or an ancestor of it. And the anchor is what it was
+ when it first stood: the first commit in which the entry named an anchor is
+ read from history, and a later change of that line is refused, to a later
+ commit or to an earlier one. So a sentence that names the head still moves
+ nothing; an anchor retyped to the entry's own commit, which would take the
+ landings in between out of the count, is refused; and a review that lands
+ moves the anchor, as before. AND THERE IS A WAY OUT OF A MISTAKE: an anchor
+ that names no commit, or a commit later than its entry, never stood, since
+ the gate is red on it; putting it right is not a retyping. As the amendment
+ was first built it refused that correction too, and nothing main could type
+ would have made the gate pass again; the seat found it by reading its own
+ rule before sending it. No test of the third patch's lock is taken out or
+ renamed; its file keeps its name, with a dated note; one sentence of the gate
+ is reworded and still says where the entry landed. What it does not reach, as
+ before: a whole entry that is made up and landed as a review is landed. What
+ it does not reach, besides: an anchor that stood and was the wrong ancestor
+ stays until the next review lands. The lock: four tests added to
+ tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py. On the commit
+ before, on main's 87bfa1f05, with the lock as this patch leaves it: four fail
+ and six pass. The test that reads this repository fails because the gate
+ refuses Review 79's own anchor; one because the gate refuses an anchor that
+ names the head the review read; one because an anchor retyped after it stood
+ passes; and the test of the way out fails at its first step, because the rule
+ as sent does not say of a mistyped anchor that it names no commit. On the
+ amendment as first built, which was not sent, that test fails where it is
+ meant to: the anchor put right is refused as a retyping. Tested against
+ planted errors; computed once. 0 of 19.
+
+---
+ scripts/gates/gates.py                        | 46 +++++++++-
+ ...views_anchor_is_the_commit_it_landed_in.py | 84 ++++++++++++++++++-
+ 2 files changed, 126 insertions(+), 4 deletions(-)
+
+diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
+index 4976a898f..d03e23fd9 100644
+--- a/scripts/gates/gates.py
++++ b/scripts/gates/gates.py
+@@ -3071,12 +3071,52 @@ def review_anchor_problems(text=None):
+     landed = out.split()[-1] if rc == 0 and out.split() else None
+     if landed is None:
+         return [f"cannot verify: the commit in which the entry of Review {n} landed is not in this history"]
+-    if not landed.startswith(own_line[0]):
+-        return [f"the anchor of Review {n} is typed {own_line[0][:9]}, and its entry landed in {landed[:9]}: the anchor is the commit "
+-                "in which the review landed, and it moves only when a review lands"]
++    # AMENDED 2026-11-12 (the series' ninth patch).  As first sent, the anchor had to BE the commit in which the entry landed,
++    # as in main's last eight reviews.  Review 79 names the head its readers read, an ancestor of the commit that carries the
++    # entry, so that what landed between the two is counted for the next review; the rule as sent refused it.  The anchor is
++    # now held to two things: it is not later than its entry, and it is what it was when it first stood.  An anchor that names
++    # no commit, or a later commit, never stood: the gate is red on it, and putting it right is not a retyping.
++    typed = own_line[0]
++    rc, full = _git("rev-parse", "--verify", "--quiet", typed + "^{commit}")
++    full = full.strip()
++    if rc != 0 or not full:
++        return [f"the anchor of Review {n} is typed {typed[:9]}, which is no commit of this history"]
++    if full != landed and _git("merge-base", "--is-ancestor", full, landed)[0] != 0:
++        return [f"the anchor of Review {n} is typed {typed[:9]}, and its entry landed in {landed[:9]}: an anchor is the head the "
++                "review read or the commit that carries its entry, and never a later one"]
++    first = _anchor_as_first_stood(n, landed)
++    if first is None:
++        return [f"cannot verify: the commit in which the anchor of Review {n} first stood is not in this history"]
++    if first[1] != full:
++        return [f"the anchor of Review {n} was typed {first[0][:9]} when it first stood, and is typed {typed[:9]} now: an anchor is "
++                "not retyped; it moves only when a review lands"]
+     return []
+ 
+ 
++def _anchor_as_first_stood(n, landed):
++    """(as typed, the commit it names): the first anchor of Review `n` that STOOD, read along main's own line from the commit
++    in which the entry landed; None where that cannot be read.  An anchor stands where it names a commit that is the
++    entry's own or an ancestor of it.  One that names no commit, or a later commit, never stood: the gate was red on it,
++    and putting it right is not a retyping."""
++    rc, out = _git("rev-list", "--first-parent", "--reverse", "HEAD", "--", REVIEWS)
++    commits = out.split() if rc == 0 else []
++    if landed not in commits:
++        return None
++    for c in commits[commits.index(landed):]:
++        rc, page = _git("show", f"{c}:{REVIEWS}")
++        if rc != 0:
++            return None
++        at = [m.start() for m in re.finditer(r"^# Review %d " % n, page, re.M)]
++        if not at:
++            continue
++        for typed in re.findall(r"^\*\*anchor-commit: `([0-9a-f]{7,40})`\*\*[ \t]*$", page[at[-1]:], re.M)[:1]:
++            rc, full = _git("rev-parse", "--verify", "--quiet", typed + "^{commit}")
++            full = full.strip()
++            if rc == 0 and full and (full == landed or _git("merge-base", "--is-ancestor", full, landed)[0] == 0):
++                return typed, full
++    return None
++
++
+ def gate_review_fires(_merges=None):
+     """GOVERNANCE §15 (amendment 2026-10-03, R58-1 item 1): past twice its period (REVIEW_HARD merges on main's
+     first-parent line since the last anchor) the decadal review is not a report but a block, unless the owner has
+diff --git a/tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py b/tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py
+index 537214b5f..34a308b92 100644
+--- a/tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py
++++ b/tests/test_the_reviews_anchor_is_the_commit_it_landed_in.py
+@@ -6,7 +6,14 @@ is run passed.  The anchor is now held to the review's own entry and to history:
+ the commit in which the entry landed.
+ 
+ Each test makes the situation in a small repository of its own, which holds this repository's gates and checkers and a
+-reviews' page written as main writes it: the entry in one commit, its anchor in the next."""
++reviews' page written as main writes it: the entry in one commit, its anchor in the next.
++
++AMENDED 2026-11-12 (the series' ninth patch).  As first sent, the rule held the anchor to the commit in which the entry
++landed, which is what main's last eight reviews did.  Review 79 names the head its readers read, an ancestor of the commit
++that carries its entry: what landed between the two is then counted for the next review, and that is the better anchor.
++The rule as first sent refused it.  It is now: one anchor, on a line of its own; not later than its entry; and not retyped
++after it first stood.  An anchor that names no commit, or a later one, never stood, and can be put right.  The file keeps
++its name; the tests added for the amendment are the last four."""
+ import importlib.util
+ import json
+ import pathlib
+@@ -137,3 +144,78 @@ def test_on_this_repository_the_last_reviews_anchor_is_the_commit_it_landed_in()
+     problems = getattr(g, "review_anchor_problems", lambda: ["the gates do not hold the anchor to its review"])()
+     assert problems == [], problems
+     assert g.ANCHOR_RULE_FROM == 78
++
++
++# ---- the amendment of 2026-11-12: an anchor may be the head the review read, and is not retyped ---------------------------
++def _land_a_review_of_what_was_read(repo, n, page):
++    """as main landed Review 79: the readers read a head; landings follow; then one commit carries the entry and its anchor,
++    which names the head that was read"""
++    read = _git(repo, "rev-parse", "--short=9", "HEAD")
++    for i in range(2):
++        _commit(repo, "a landing while the review is read", {"frontier/B9%d_an_arc/FINDINGS.md" % i: "an arc\n"})
++    page = page + "\n" + _entry(n) + "\n**anchor-commit: `%s`**\n" % read
++    carried = _commit(repo, "Review %d, with its anchor" % n, {PAGE: page})
++    return page, read, carried
++
++
++def test_an_anchor_that_names_the_head_the_review_read_is_taken(tmp_path):
++    repo, page, landed78 = _repo(tmp_path)
++    page, read, carried = _land_a_review_of_what_was_read(repo, 79, page)
++    ok, detail = _review_fires(repo)
++    assert ok is True, "a review's anchor names the head its readers read, an ancestor of the commit that carries the entry, and the gate reads: " + detail
++    assert detail.startswith("3 merges since the last review"), detail          # the two landings and the entry's own commit are counted for the next review
++
++
++def test_an_anchor_is_not_retyped_after_it_first_stood(tmp_path):
++    repo, page, landed78 = _repo(tmp_path)
++    page, read, carried = _land_a_review_of_what_was_read(repo, 79, page)
++    # retyped to the commit that carries the entry: not later than the entry, and two landings fewer to review
++    _commit(repo, "the anchor retyped", {PAGE: page.replace("`%s`" % read, "`%s`" % carried)})
++    ok, detail = _review_fires(repo)
++    assert ok is False, "the anchor of the last review was retyped to a later commit after it first stood, and the gate reads: " + detail
++    assert "when it first stood" in detail and read in detail
++    # retyped to an earlier commit: refused as well, an anchor moves only when a review lands
++    _commit(repo, "the anchor retyped again", {PAGE: page.replace("`%s`" % read, "`%s`" % landed78)})
++    ok, detail = _review_fires(repo)
++    assert ok is False and "when it first stood" in detail, detail
++
++
++def test_an_anchor_that_is_no_commit_of_this_history_is_refused(tmp_path):
++    repo, page, landed78 = _repo(tmp_path)
++    _commit(repo, "Review 79 with an anchor that is no commit", {PAGE: page + "\n" + _entry(79) + "\n**anchor-commit: `deadbeef1`**\n"})
++    ok, detail = _review_fires(repo)
++    assert ok is False and "deadbeef1" in detail, detail
++
++
++def test_an_anchor_that_was_first_typed_wrongly_can_be_put_right(tmp_path):
++    """the way out.  An anchor that names no commit, or a commit later than its entry, never stood: the gate was red on it.
++    Putting it right is not a retyping.  (Found by the seat before the amendment was sent: as first built, the rule refused
++    the correction as well, and nothing main could type would have made the gate pass again.)"""
++    repo, page, landed78 = _repo(tmp_path / "a")
++    read = _git(repo, "rev-parse", "--short=9", "HEAD")
++    wrong = page + "\n" + _entry(79) + "\n**anchor-commit: `deadbeef1`**\n"
++    _commit(repo, "Review 79, its anchor mistyped", {PAGE: wrong})
++    ok, detail = _review_fires(repo)
++    assert ok is False and "no commit of this history" in detail, detail
++    _commit(repo, "the anchor put right", {PAGE: wrong.replace("`deadbeef1`", "`%s`" % read)})
++    ok, detail = _review_fires(repo)
++    assert ok is True, "an anchor that named no commit was put right, and the gate reads: " + detail
++    assert detail.startswith("2 merges since the last review"), detail                 # the entry's commit, and the correction
++    # once it stands it is not retyped: here to the commit that carries the entry
++    carried = _git(repo, "rev-parse", "--short=9", "HEAD~1")
++    _commit(repo, "the anchor retyped", {PAGE: wrong.replace("`deadbeef1`", "`%s`" % carried)})
++    ok, detail = _review_fires(repo)
++    assert ok is False and "when it first stood" in detail and read in detail, detail
++
++    # the same for an anchor first typed to a commit later than its entry
++    repo, page, landed78 = _repo(tmp_path / "b")
++    entry_only = page + "\n" + _entry(79)
++    carried = _commit(repo, "Review 79, with no anchor yet", {PAGE: entry_only})
++    later = _commit(repo, "a landing", {"frontier/B7_an_arc/FINDINGS.md": "an arc\n"})
++    _commit(repo, "the anchor, typed to the landing after the entry", {PAGE: entry_only + "\n**anchor-commit: `%s`**\n" % later})
++    ok, detail = _review_fires(repo)
++    assert ok is False and "never a later one" in detail, detail
++    _commit(repo, "the anchor put right", {PAGE: entry_only + "\n**anchor-commit: `%s`**\n" % carried})
++    ok, detail = _review_fires(repo)
++    assert ok is True, "an anchor that named a commit later than its entry was put right, and the gate reads: " + detail
++    assert detail.startswith("3 merges since the last review"), detail                 # the landing, the wrong anchor, the correction
+-- 
+2.43.0
+

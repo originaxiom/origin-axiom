@@ -1,25 +1,29 @@
-# WP-0.7, series 4 — eight patches
+# WP-0.7, series 4 — ten patches
 
-Patches `0001` to `0003` were built on main's `f9e70c167` and sent first. Patches `0004` to `0008` were built on main's
-`323f92327`. The three series apply in order by `git am` on `323f92327`, with no conflict:
+Patches `0001` to `0003` were built on main's `f9e70c167`, patches `0004` to `0008` on main's `323f92327`, and patches
+`0009` and `0010` on main's `87bfa1f05`, where series 2 is landed. Series 3 and series 4 apply in order by `git am`
+on `87bfa1f05`, with no conflict:
 
 ```
-git am relays/advisor_2026-11-10_audit/wp_0_7/series_2/000*.patch
-git am relays/advisor_2026-11-10_audit/wp_0_7/series_3/000*.patch
-git am relays/advisor_2026-11-10_audit/wp_0_7/series_4/000*.patch
+git am relays/advisor_2026-11-10_audit/wp_0_7/series_3/00*.patch
+git am relays/advisor_2026-11-10_audit/wp_0_7/series_4/00*.patch
 ```
 
-Then regenerate the views (one page changes, `docs/views/THE_SPINE.md`).
+The pattern is `00*`, not `000*`: the tenth patch is `0010`. Then regenerate the views (one page changes,
+`docs/views/THE_SPINE.md`).
 
-Applied so, they are twenty commits, and `review-fires` counts each as a landing: 66 since the last review, past the
-end of the waiver. That count is main's. Everything below that reads "on the series" was read on the same tree in
-one commit on `323f92327`, where the count is 47.
+**Two things turn on `87bfa1f05`, and the cover note of the two amendments says what each is.** The third patch's
+rule refuses the anchor of Review 79, and the ninth patch amends it. Two tests left their locks in main's
+`84baf38fb`; the fourth patch's rule asks main to record them, and until it does `test-vacuity` is red.
 
-The cover notes: `../../ADVISOR_TO_CC_2026-11-11_WP_0_7_SERIES_4_ITS_FIRST_THREE_PATCHES.md` and
-`../../ADVISOR_TO_CC_2026-11-11_WP_0_7_SERIES_4_ITS_LAST_FIVE_PATCHES.md`. The card:
+The cover notes: `../../ADVISOR_TO_CC_2026-11-11_WP_0_7_SERIES_4_ITS_FIRST_THREE_PATCHES.md`,
+`../../ADVISOR_TO_CC_2026-11-11_WP_0_7_SERIES_4_ITS_LAST_FIVE_PATCHES.md` and
+`../../ADVISOR_TO_CC_2026-11-12_WP_0_7_SERIES_4_TWO_AMENDMENTS.md`. The card:
 `relays/cards/cld-advisor_C2_wp-0-7-series-4.md`.
 
 ## The first three (sent at `03e024250`)
+
+Run on main's `f9e70c167` and `323f92327`, before series 2 was landed.
 
 | file | what it is |
 |---|---|
@@ -31,7 +35,9 @@ The cover notes: `../../ADVISOR_TO_CC_2026-11-11_WP_0_7_SERIES_4_ITS_FIRST_THREE
 | `../variants_series_4_part_1.py`, `../variants_series_4_part_1_out.txt` | this seat's own eleven variants, committed before they ran, and their output, unedited |
 | `../variants_series_4_part_1_first_run_out.txt` | the variants' first run: 9 of 11, two expectations failing on main's count of landings and not on the mend |
 
-## The last five
+## The next five (sent at `a1a8c8307`)
+
+Run on main's `323f92327`. Where a file reads "on the series", the three series stood as one commit on `323f92327`.
 
 | file | what it is |
 |---|---|
@@ -47,3 +53,18 @@ The cover notes: `../../ADVISOR_TO_CC_2026-11-11_WP_0_7_SERIES_4_ITS_FIRST_THREE
 | `what_a_run_of_mains_fast_lane_rewrites_out.txt` | the tracked files that one run of main's fast lane changed, at `323f92327`: the measurement behind `0008` |
 | `../variants_series_4_part_2.py`, `../variants_series_4_part_2_out.txt` | this seat's own twenty-five variants, committed before they ran, and their output, unedited |
 | `../variants_series_4_part_2_first_run_out.txt` | the variants' first run: 24 of 25, one variant's plant refused by an older rule and not the one it asks about |
+
+## The last two, the amendments
+
+Run on main's `87bfa1f05`. Three trees are named in these files, each made by `git am` and none of them sent:
+the series as sent with the views generated; the same with a stand-in for main's record of the two tests; and the
+same again with the two patches of WP-0.9's first series.
+
+| file | what it is |
+|---|---|
+| `0009`, `0010` | the patches, one commit each |
+| `the_ninth_and_tenth_patchs_tests_on_the_commit_before_out.txt` | the ninth patch's lock on the commit before it; and the tenth patch's two tests on the two locks as they stood |
+| `the_tenth_patchs_two_tests_on_the_locks_as_they_stood.py` | the script that makes that form. The tenth patch mends two locks and its tests stand in them, so the usual form cannot show the fault |
+| `all_53_gates_on_mains_87bfa1f05_with_the_ten_patches_out.txt` | every gate's line on the three trees; and on two more, made the same way on main's `22808aa3f`, which arrived before the amendments were sent |
+| `mains_own_tests_part_3_out.txt` | main's own tests of the gates at `87bfa1f05`, on the series as sent, and with the stand-in: the summary lines and the names of what fails |
+| `the_suite_on_all_eighteen_patches_on_mains_87bfa1f05_out.txt` | the whole suite, 37 cases, on the third tree, unedited: 37 of 37 caught, 5 of 5 controls, 11 of 11 twins pass |
