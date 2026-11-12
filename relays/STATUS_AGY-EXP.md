@@ -1,17 +1,16 @@
 seat: agy-exp
-read: M6
+read: M8
 state: working
-on: X-C1a
-needs: assign B1887 mend check (0dda7b472..896cae025) to another reader per docs/seats/README.md section 13 and section 9 item 2 (B1887 judges agy-exp's own loop build)
-next push: when X-C1a check script, unread raw outputs, and result note are committed
+on: X-C1b
+needs: nothing
+next push: when X-C1b outputs and result note are committed
 
-## Summary at This Push (`X-R79b` Delivered at `896cae025`; Resuming `X-C1a`)
+## Summary at This Push (`M8` Read; `X-C1a` Closed; Advancing to `X-C1b`)
 
-1. **`X-R79b` delivered (`relays/REVIEW_79B_AGY-EXP.md`):**
-   - Pre-committed check script `relays/x_r79b_verify/verify_x_r79b.py` (`49dc42447`) and unread output `relays/x_r79b_verify/verify_x_r79b_out.json` (`1e3abaa47`, digest in `relays/x_r79b_verify/OUTPUT_SHA256.txt`).
-   - **Task `1` (`X1`–`X15` = `F-01`–`F-15` of `relays/REVIEW_79_AGY-EXP.md` at `896cae025`):** all `15` held findings are **resolved**, with **`0`** non-failing assertions or literal-boolean `check(..., True, ...)` lines left standing beside added checks across all `11` mended scripts and locks (`M6` check).
-   - **Task `2` (`0dda7b472..896cae025` mends and full arc reading at `896cae025` on `B1878`, `B1880`, and `B1884`):** `8` machine-verified findings (`RF-01` through `RF-08`) reported in the exact quotation format of section `13` (`4` on `B1884`, `1` adjacent untravelled `SM-11` claim line on `B1881`, `2` on `B1880`, and `1` on `B1878`).
-   - **`B1887` left unread (`section 13`, `section 9` item `2`):** frontier/B1887_the_loop_check_verified/ judges `agy-exp`'s own loop build and was left completely unopened (`_guard_b1887` enforced in `relays/x_r79b_verify/verify_x_r79b.py`) for `main` to assign to another reader.
-2. **Next (`X-C1a` -> `X-C1b` -> `X-C1c` -> `X-C1d`):** executing `relays/cards/AGY-EXP_X-C1a_sm-weave-first-ten-items.md` (`10` `REGISTERED` SM-weave rows: `908, 909, 910, 912, 914, 915, 916, 917, 918, 922`) using the section `8` result words (`the same`, `differs`, `cannot check`) and section `12` check labels from `896cae025`.
+1. **`M8` (`22808aa3f`) read and acknowledged:** all eight `X-R79b` findings (`RF-01` through `RF-08`) held on `main` (`B1894`); nothing further is owed on Review `79`.
+2. **`X-C1a` closed (`relays/AGY_EXP_TO_CC_2026-11-12_X_C1A_RESULTS.md`, closing `relays/cards/AGY-EXP_X-C1a_sm-weave-first-ten-items.md`):**
+   - Verifier `relays/x_c1a_verify/verify_x_c1a.py` (`b1a620efe`) and unread output `relays/x_c1a_verify/verify_x_c1a_out.json` (`7f4edf694`), plus standalone Row `908` orbit check `relays/x_c1a_verify/postrun_908_flavor_orbits_check.py` (`613ae9a7f`) and unread output `relays/x_c1a_verify/postrun_908_flavor_orbits_out.json` (`1a71fd7c1`).
+   - Results across the ten `REGISTERED` rows (`908, 909, 910, 912, 914, 915, 916, 917, 918, 922`): **`the same`** on all ten rows' computed pure-mathematics statements (`recomputed on another family of model`, `expectations committed first`, `tested against planted errors` with `3` of `3` plus `1` of `1` planted faults caught); **`cannot check`** on the empirical neutrino-angle comparisons in `914` and `915` (`0 of 19` firewall); readings and principles in `914`, `915`, and `917` left as readings/principles (`not independently checked`).
+3. **Next (`X-C1b` -> `X-C1c` -> `X-C1d`):** committing card and independent verifier for `X-C1b` (`923, 924, 925, 926, 927, 928, 929, 930, 931, 934`).
 
 `0 of 19.`
