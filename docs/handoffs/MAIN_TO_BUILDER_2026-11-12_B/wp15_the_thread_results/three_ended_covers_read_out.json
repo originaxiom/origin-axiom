@@ -1,0 +1,80 @@
+{
+ "by state": {
+  "b++LLLLLLR": {
+   "order 4 -1 0": 12,
+   "sign -1 -1": 6
+  },
+  "b++LLLLLLRR": {
+   "order 4 0 -1": 24
+  },
+  "b++LLLR": {
+   "order 4 -1 0": 6,
+   "sign -1 -1": 3
+  },
+  "b++LLLRR": {
+   "order 4 0 -1": 12
+  },
+  "b+-LLLLLR": {
+   "order 4 -1 0": 6,
+   "sign -1 -1": 3
+  },
+  "b+-LLLLRR": {
+   "order 4 0 -1": 24
+  },
+  "b+-LLR": {
+   "order 4 -1 0": 12,
+   "sign -1 -1": 6,
+   "order 4 0 0": 12,
+   "order 4 0 -1": 12
+  },
+  "b+-LLRLR": {},
+  "b++LLLRRR": {},
+  "b++LLLLRRR": {}
+ },
+ "covers": {
+  "b++LLLR": 1,
+  "b+-LLR": 1,
+  "b++LLLRR": 1,
+  "b+-LLRLR": 1,
+  "b+-LLLLLR": 1,
+  "b+-LLLLRR": 1,
+  "b++LLLRRR": 4,
+  "b++LLLLLLR": 1,
+  "b++LLLLRRR": 1,
+  "b++LLLLLLRR": 1
+ },
+ "members": 138,
+ "checks": [
+  {
+   "check": "thirteen covers on ten states: one each, and four on +LLLRRR",
+   "holds": true,
+   "detail": "{'b++LLLR': 1, 'b+-LLR': 1, 'b++LLLRR': 1, 'b+-LLRLR': 1, 'b+-LLLLLR': 1, 'b+-LLLLRR': 1, 'b++LLLRRR': 4, 'b++LLLLLLR': 1, 'b++LLLLRRR': 1, 'b++LLLLLLRR': 1}"
+  },
+  {
+   "check": "every member orbit has its reading",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "state by state the seat's table of members by kind and reading",
+   "holds": true,
+   "detail": "[]"
+  },
+  {
+   "check": "138 members; 18 at sign characters, every one reading (-1, -1); no member of order four reads (-1, -1)",
+   "holds": true,
+   "detail": "138"
+  },
+  {
+   "check": "each member has one interior class (n = 1), and the extension is a representation at every reading",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "two covers carry exactly three members reading (-1, -1): +LLLR's and -LLLLLR's",
+   "holds": true,
+   "detail": ""
+  }
+ ],
+ "failing": []
+}

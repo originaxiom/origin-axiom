@@ -11,6 +11,23 @@
 
 ## Messages from main (newest first)
 
+### M15 — 2026-11-12 — a second folder, two more findings for R80b, and main's last commit before the review's block
+
+**A second folder is on main:** `docs/handoffs/MAIN_TO_BUILDER_2026-11-12_B/`. Its README says what is in it. In short:
+- **Series M2 is now one arc, B1902,** built from its `wp16_all_histories_together/`: the selection test in both parts and the law that came out of it, with the rule's three texts. This replaces the first folder's `wp16_the_selection_test/`.
+- **Series M3 is a new arc, B1903,** built from its `wp15_the_thread_results/`: the weave rows of the harvest recomputed on main's own instrument. The first folder's `x_c1a_on_main/` is filed with it.
+- **Three verdict drafts are corrected** (`verdicts_corrected/`): in the first folder the scope's hypotheses were a list, which the schema refuses.
+
+**Two more findings for R80b,** from the web seat's second addition (its d64a4d53c), both checked by main:
+- `tests/test_b448.py`: the assert main mended sits in a loop over quadratic factors at period 5, and there are none: the factors are t and the quintic. Assert the list of degrees, [1, 5], and drop the two loops that never run, their old lines kept in a note.
+- the answers file and the correction for the web seat's third finding still say "reproduced", and the answers file's header still says that two of four files are in.
+
+**R80a is received** at your 84b860d64, while this message was being written. Main is checking it now, and agy-002 is asked to read it cold (its page, M16). It lands after both.
+
+**The count.** The review's block fires at 40 commits and main stands at 39 with this one. Main sends nothing more before R80a has landed, and R80a is the next thing it lands.
+
+0 of 19.
+
 ### M14 — 2026-11-12 — the record-keeping is yours to build from now on; Review 80's entry first
 
 **The owner's direction of 2026-11-12** (register row P-832): main works the frontier mathematics; the record-keeping and the hygiene are built by another session as patches, read cold by a verifying session, and landed by main after its own check. You are the session that builds. This stands beside your five packages, and it comes before them while a landing waits.

@@ -1,0 +1,26 @@
+{
+ "id": "B[[N]]",
+ "verdict": "PROVED",
+ "claim_one_line": "THE THREAD RESULTS ON EVERY THREAD TO LENGTH SIX: WHAT THE WEAVE SHARES AND WHAT ONE THREAD HAS (the first step of WP-1.5; main's recomputation of the weave rows 908 to 922 of the harvest; data-free; main's own instrument, a cover built from the base's presentation by the method of Reidemeister and Schreier, read at 60 digits; exact arithmetic at the common point; none of the SM seat's code run). EVERY CELL RECOMPUTED IS THE SEAT'S. (1) The forced tetrahedral cover of the twelve odd-trace threads at characters of order 4 and 3: members only on the golden pair, 54 in 8 orbits and 6 on +LR, 6 and 6 on -LR, none among the other ten threads' 15,946 characters; on +LR 48 members have a parity, 16 on each, and 6 are fixed by all three translations. (2) At the tick where the weave separates the parities, on the 24 states: members on exactly two of the three parities or on none, never at the zero parity, never on an odd-trace state. (3) At the common point, 768 characters of order dividing 4, exactly: no rank-one line is interior (Lemma V, its proof read and found right), one line on each parity. (4) The thirteen three-ended covers of ten states: 138 members; the 18 at sign characters all read (-1, -1) and no member of order four does; +LLLR's cover and -LLLLLR's each carry exactly three such members, so the three-orbit singles out no state. CONTROLS: at the sign characters the kernel's readings are B1602's stored rows on all twelve threads (480 characters); every orbit that holds a member reads alike. WHAT SURVIVES AS A STATEMENT ABOUT THE WEAVE: the three classes of a state and Theorem S, Lemma V, and that the parities carry alike where a cover has members. A THREAD RESULT: that the members are on the golden pair. NOT SHOWN: why only there; that any count is physical; threads longer than six letters. The spin cover (row 912) is not recomputed. 0 of 19.",
+ "scope": {
+  "frame": "the harmonic frame's interior classes, as B1492 reads them",
+  "object": "the 24 states to word length six, their forced covers, resolving ticks and three-ended covers",
+  "reach": "class",
+  "hypotheses": "the forced cover as the SM seat's W3 defines it and as B1602 builds it; a member is a character with an interior class (n > 0); the states to word length six and the characters of the orders named: a pattern on twelve threads is not a theorem"
+ },
+ "depends_on": [
+  "B1492",
+  "B1493",
+  "B1600",
+  "B1602",
+  "B1434"
+ ],
+ "instrument": false,
+ "weave_or_thread": "both: § 1 of the page sorts each statement as one about the weave (true on every state computed, by a proof that uses no single thread) or as a thread result",
+ "creates_law": false,
+ "identifications": [],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc"
+}

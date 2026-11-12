@@ -1,0 +1,36 @@
+{
+ "threads": 2536,
+ "kinds": {
+  "a 3-cycle": 1102,
+  "a transposition": 898,
+  "the identity": 536
+ },
+ "checks": [
+  {
+   "check": "z^3 + z^-3 squares to 2 in the ring, so it is sqrt 2",
+   "holds": true,
+   "detail": "[0, 1, 0, 1, 0, -1, 0, 0]"
+  },
+  {
+   "check": "the threads to length 14 by their act on the three parities, a 3-cycle exactly at odd trace",
+   "holds": true,
+   "detail": "2536 threads: {'a 3-cycle': 1102, 'a transposition': 898, 'the identity': 536}"
+  },
+  {
+   "check": "for every odd-trace thread the factor is 1 - det T(w) u^(3|w|), with det T(w) = (-1)^|w| exp(i pi (#L - #R) / 4)",
+   "holds": true,
+   "detail": "1102 odd-trace threads"
+  },
+  {
+   "check": "the product over the two letters and every thread is 1 - sqrt2 u + u^2 + sqrt2 u^3, to order 14, exactly",
+   "holds": true,
+   "detail": "the first five coefficients: [[1, 0, 0, 0, 0, 0, 0, 0], [0, -1, 0, -1, 0, 1, 0, 0], [1, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 1, 0, -1, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0]]"
+  },
+  {
+   "check": "planted: with the threads of length 2 left out the product is another series",
+   "holds": true,
+   "detail": ""
+  }
+ ],
+ "failing": []
+}

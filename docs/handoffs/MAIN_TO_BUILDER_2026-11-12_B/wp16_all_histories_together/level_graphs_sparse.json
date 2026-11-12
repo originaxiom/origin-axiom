@@ -1,0 +1,794 @@
+{
+ "14": {
+  "vertices": 336,
+  "largest in modulus below 3": 2.655442,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 0.0,
+  "the dense computation agrees": true
+ },
+ "15": {
+  "vertices": 480,
+  "largest in modulus below 3": -2.90628,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   -2.90628
+  ],
+  "seconds": 0.2,
+  "the dense computation agrees": true
+ },
+ "24": {
+  "vertices": 1536,
+  "largest in modulus below 3": 2.828427,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 0.5,
+  "the dense computation agrees": true
+ },
+ "29": {
+  "vertices": 4060,
+  "largest in modulus below 3": -2.848186,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   -2.848186
+  ],
+  "seconds": 2.2,
+  "the dense computation agrees": true
+ },
+ "30": {
+  "vertices": 2880,
+  "largest in modulus below 3": -2.90628,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.90628,
+   -2.90628
+  ],
+  "seconds": 1.0,
+  "the dense computation agrees": true
+ },
+ "32": {
+  "vertices": 4096,
+  "largest in modulus below 3": 2.797933,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 2.2,
+  "the dense computation agrees": true
+ },
+ "16": {
+  "vertices": 512,
+  "largest in modulus below 3": 2.797933,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 0.2,
+  "the dense computation agrees": true
+ },
+ "17": {
+  "vertices": 816,
+  "largest in modulus below 3": -2.745309,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 0.4,
+  "the dense computation agrees": true
+ },
+ "18": {
+  "vertices": 648,
+  "largest in modulus below 3": -2.732051,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 0.2,
+  "the dense computation agrees": true
+ },
+ "19": {
+  "vertices": 1140,
+  "largest in modulus below 3": -2.806005,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 0.5,
+  "the dense computation agrees": true
+ },
+ "20": {
+  "vertices": 960,
+  "largest in modulus below 3": -2.802517,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 0.4,
+  "the dense computation agrees": true
+ },
+ "21": {
+  "vertices": 1344,
+  "largest in modulus below 3": -2.800169,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 0.6,
+  "the dense computation agrees": true
+ },
+ "22": {
+  "vertices": 1320,
+  "largest in modulus below 3": -2.751184,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 0.4,
+  "the dense computation agrees": true
+ },
+ "23": {
+  "vertices": 2024,
+  "largest in modulus below 3": -2.821418,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 1.6,
+  "the dense computation agrees": true
+ },
+ "25": {
+  "vertices": 2500,
+  "largest in modulus below 3": -2.827091,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 1.6,
+  "the dense computation agrees": true
+ },
+ "26": {
+  "vertices": 2184,
+  "largest in modulus below 3": 2.825573,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 0.9,
+  "the dense computation agrees": true
+ },
+ "27": {
+  "vertices": 2916,
+  "largest in modulus below 3": 2.791288,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 1.2,
+  "the dense computation agrees": true
+ },
+ "28": {
+  "vertices": 2688,
+  "largest in modulus below 3": -2.749118,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 0.9,
+  "the dense computation agrees": true
+ },
+ "31": {
+  "vertices": 4960,
+  "largest in modulus below 3": -2.819719,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 1.1,
+  "the dense computation agrees": true
+ },
+ "33": {
+  "vertices": 5280,
+  "largest in modulus below 3": 2.824051,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 2.5
+ },
+ "34": {
+  "vertices": 4896,
+  "largest in modulus below 3": -2.859219,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.859219,
+   -2.859219
+  ],
+  "seconds": 1.6
+ },
+ "35": {
+  "vertices": 6720,
+  "largest in modulus below 3": -2.799401,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 3.7
+ },
+ "36": {
+  "vertices": 5184,
+  "largest in modulus below 3": 2.802517,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 1.5
+ },
+ "37": {
+  "vertices": 8436,
+  "largest in modulus below 3": -2.867419,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   -2.867419,
+   2.829232
+  ],
+  "seconds": 3.6
+ },
+ "38": {
+  "vertices": 6840,
+  "largest in modulus below 3": -2.806005,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 2.6
+ },
+ "39": {
+  "vertices": 8736,
+  "largest in modulus below 3": 2.825573,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 4.9
+ },
+ "40": {
+  "vertices": 7680,
+  "largest in modulus below 3": -2.90628,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.90628,
+   -2.90628
+  ],
+  "seconds": 2.6
+ },
+ "41": {
+  "vertices": 11480,
+  "largest in modulus below 3": 2.819135,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 7.7
+ },
+ "42": {
+  "vertices": 8064,
+  "largest in modulus below 3": 2.811842,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 4.5
+ },
+ "43": {
+  "vertices": 13244,
+  "largest in modulus below 3": 2.833835,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.833835,
+   -2.830768
+  ],
+  "seconds": 8.6
+ },
+ "44": {
+  "vertices": 10560,
+  "largest in modulus below 3": -2.802365,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 4.5
+ },
+ "45": {
+  "vertices": 12960,
+  "largest in modulus below 3": -2.90628,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   -2.90628,
+   -2.856721,
+   2.831842
+  ],
+  "seconds": 6.7
+ },
+ "46": {
+  "vertices": 12144,
+  "largest in modulus below 3": -2.821418,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 2.8
+ },
+ "47": {
+  "vertices": 17296,
+  "largest in modulus below 3": -2.831763,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   -2.831763
+  ],
+  "seconds": 13.9
+ },
+ "48": {
+  "vertices": 12288,
+  "largest in modulus below 3": -2.931852,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.931852,
+   -2.931852
+  ],
+  "seconds": 3.8
+ },
+ "49": {
+  "vertices": 19208,
+  "largest in modulus below 3": -2.828,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 10.4
+ },
+ "50": {
+  "vertices": 15000,
+  "largest in modulus below 3": 2.827091,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 2.9
+ },
+ "51": {
+  "vertices": 19584,
+  "largest in modulus below 3": 2.853855,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.853855
+  ],
+  "seconds": 19.0
+ },
+ "52": {
+  "vertices": 17472,
+  "largest in modulus below 3": 2.879176,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.879176,
+   -2.879176
+  ],
+  "seconds": 3.8
+ },
+ "53": {
+  "vertices": 24804,
+  "largest in modulus below 3": -2.834806,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   -2.834806
+  ],
+  "seconds": 15.2
+ },
+ "54": {
+  "vertices": 17496,
+  "largest in modulus below 3": 2.817664,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 7.1
+ },
+ "55": {
+  "vertices": 26400,
+  "largest in modulus below 3": -2.831323,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   -2.831323
+  ],
+  "seconds": 9.4
+ },
+ "56": {
+  "vertices": 21504,
+  "largest in modulus below 3": -2.858367,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.858367,
+   -2.858367
+  ],
+  "seconds": 3.3
+ },
+ "57": {
+  "vertices": 27360,
+  "largest in modulus below 3": 2.825162,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 8.4
+ },
+ "58": {
+  "vertices": 24360,
+  "largest in modulus below 3": 2.848186,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.848186,
+   -2.848186
+  ],
+  "seconds": 3.0
+ },
+ "59": {
+  "vertices": 34220,
+  "largest in modulus below 3": 2.841696,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.841696
+  ],
+  "seconds": 8.7
+ },
+ "60": {
+  "vertices": 23040,
+  "largest in modulus below 3": -2.90628,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.90628,
+   -2.90628
+  ],
+  "seconds": 3.2
+ },
+ "61": {
+  "vertices": 37820,
+  "largest in modulus below 3": -2.832708,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   -2.832708
+  ],
+  "seconds": 12.5
+ },
+ "62": {
+  "vertices": 29760,
+  "largest in modulus below 3": -2.819719,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 8.4
+ },
+ "63": {
+  "vertices": 36288,
+  "largest in modulus below 3": -2.874047,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   -2.874047,
+   2.841262
+  ],
+  "seconds": 12.7
+ },
+ "64": {
+  "vertices": 32768,
+  "largest in modulus below 3": -2.811203,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 14.8
+ },
+ "65": {
+  "vertices": 43680,
+  "largest in modulus below 3": 2.874857,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.874857,
+   -2.854131,
+   -2.838526
+  ],
+  "seconds": 13.8
+ },
+ "66": {
+  "vertices": 31680,
+  "largest in modulus below 3": 2.827678,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 12.0
+ },
+ "67": {
+  "vertices": 50116,
+  "largest in modulus below 3": 2.83611,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.83611
+  ],
+  "seconds": 22.6
+ },
+ "68": {
+  "vertices": 39168,
+  "largest in modulus below 3": -2.859219,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.859219,
+   -2.859219,
+   -2.846599,
+   2.846599
+  ],
+  "seconds": 9.0
+ },
+ "69": {
+  "vertices": 48576,
+  "largest in modulus below 3": 2.828528,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.828528
+  ],
+  "seconds": 16.5
+ },
+ "70": {
+  "vertices": 40320,
+  "largest in modulus below 3": 2.850864,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.850864,
+   -2.850864
+  ],
+  "seconds": 14.1
+ },
+ "71": {
+  "vertices": 59640,
+  "largest in modulus below 3": 2.839794,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.839794
+  ],
+  "seconds": 31.8
+ },
+ "72": {
+  "vertices": 41472,
+  "largest in modulus below 3": 2.849687,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.849687,
+   -2.849687,
+   2.840954,
+   -2.840954
+  ],
+  "seconds": 7.4
+ },
+ "73": {
+  "vertices": 64824,
+  "largest in modulus below 3": 2.868146,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.868146,
+   -2.834839
+  ],
+  "seconds": 22.8
+ },
+ "74": {
+  "vertices": 50616,
+  "largest in modulus below 3": -2.867419,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.867419,
+   -2.867419,
+   -2.829232,
+   2.829232
+  ],
+  "seconds": 14.0
+ },
+ "75": {
+  "vertices": 60000,
+  "largest in modulus below 3": -2.90628,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   -2.90628,
+   2.849744
+  ],
+  "seconds": 19.3
+ },
+ "76": {
+  "vertices": 54720,
+  "largest in modulus below 3": -2.82382,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 10.1
+ },
+ "77": {
+  "vertices": 73920,
+  "largest in modulus below 3": 2.84105,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.84105,
+   -2.839707,
+   -2.835306
+  ],
+  "seconds": 26.2
+ },
+ "78": {
+  "vertices": 52416,
+  "largest in modulus below 3": -2.825573,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 20.5
+ },
+ "79": {
+  "vertices": 82160,
+  "largest in modulus below 3": -2.826264,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 18.9
+ },
+ "80": {
+  "vertices": 61440,
+  "largest in modulus below 3": -2.90628,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.90628,
+   -2.90628,
+   2.884527,
+   -2.884527
+  ],
+  "seconds": 12.3
+ },
+ "81": {
+  "vertices": 78732,
+  "largest in modulus below 3": -2.832169,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   -2.832169
+  ],
+  "seconds": 37.1
+ },
+ "82": {
+  "vertices": 68880,
+  "largest in modulus below 3": -2.842508,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.842508,
+   -2.842508
+  ],
+  "seconds": 11.9
+ },
+ "83": {
+  "vertices": 95284,
+  "largest in modulus below 3": 2.82583,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 37.7
+ },
+ "84": {
+  "vertices": 64512,
+  "largest in modulus below 3": -2.882696,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.882696,
+   -2.882696
+  ],
+  "seconds": 18.4
+ },
+ "85": {
+  "vertices": 97920,
+  "largest in modulus below 3": -2.864096,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   -2.864096,
+   2.835471,
+   2.829442,
+   -2.829252
+  ],
+  "seconds": 34.9
+ },
+ "86": {
+  "vertices": 79464,
+  "largest in modulus below 3": -2.833835,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.833835,
+   -2.833835,
+   2.830768,
+   -2.830768
+  ],
+  "seconds": 10.9
+ },
+ "87": {
+  "vertices": 97440,
+  "largest in modulus below 3": -2.861583,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   -2.861583,
+   -2.848186,
+   2.841405
+  ],
+  "seconds": 73.4
+ },
+ "88": {
+  "vertices": 84480,
+  "largest in modulus below 3": 2.829669,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.829669,
+   -2.829669
+  ],
+  "seconds": 61.6
+ },
+ "89": {
+  "vertices": 117480,
+  "largest in modulus below 3": 2.843231,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.843231,
+   2.836879,
+   -2.834763
+  ],
+  "seconds": 111.3
+ },
+ "90": {
+  "vertices": 77760,
+  "largest in modulus below 3": -2.90628,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.90628,
+   -2.90628,
+   2.856721,
+   -2.856721,
+   2.831842,
+   -2.831842
+  ],
+  "seconds": 30.2
+ },
+ "91": {
+  "vertices": 122304,
+  "largest in modulus below 3": -2.843159,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   -2.843159,
+   2.838488,
+   2.833254,
+   -2.830538
+  ],
+  "seconds": 73.2
+ },
+ "92": {
+  "vertices": 97152,
+  "largest in modulus below 3": -2.828447,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.828447,
+   -2.828447
+  ],
+  "seconds": 42.9
+ },
+ "93": {
+  "vertices": 119040,
+  "largest in modulus below 3": 2.822808,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 72.8
+ },
+ "94": {
+  "vertices": 103776,
+  "largest in modulus below 3": -2.831763,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.831763,
+   -2.831763
+  ],
+  "seconds": 33.7
+ },
+ "95": {
+  "vertices": 136800,
+  "largest in modulus below 3": 2.842426,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.842426,
+   2.839904
+  ],
+  "seconds": 105.2
+ },
+ "96": {
+  "vertices": 98304,
+  "largest in modulus below 3": 2.931852,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.931852,
+   -2.931852,
+   2.851534,
+   -2.851534,
+   2.846007,
+   -2.846007,
+   2.836929,
+   -2.836929
+  ],
+  "seconds": 30.0
+ },
+ "97": {
+  "vertices": 152096,
+  "largest in modulus below 3": 2.862969,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.862969,
+   -2.839811,
+   -2.835488
+  ],
+  "seconds": 100.9
+ },
+ "98": {
+  "vertices": 115248,
+  "largest in modulus below 3": 2.828,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 34.7
+ },
+ "99": {
+  "vertices": 142560,
+  "largest in modulus below 3": 2.878536,
+  "within 2 sqrt 2": false,
+  "beyond the bound": [
+   2.878536,
+   2.844044,
+   -2.838531,
+   -2.834916
+  ],
+  "seconds": 68.0
+ },
+ "100": {
+  "vertices": 120000,
+  "largest in modulus below 3": -2.827091,
+  "within 2 sqrt 2": true,
+  "beyond the bound": [],
+  "seconds": 39.8
+ }
+}

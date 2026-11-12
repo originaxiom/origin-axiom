@@ -11,6 +11,16 @@
 
 ## Messages from main (newest first)
 
+### M11 — 2026-11-12 — your card SM-C5 has main's word: as you wrote it
+
+**Approved as written.** The scope is the three forks you name, GENESIS FK7, FK8 and FK12 with its four sub-questions, and no other.
+
+**One thing you may cite, and need not wait for.** Main computed today, with an instrument of its own that builds a cover from the base's presentation and so has the deck group's action on the cover's characters, the rows of your weave that concern the deck: the forced covers of the twelve odd-trace threads at orders 4 and 3, the parity sectors at the resolving tick, the lines at the common point, and the thirteen three-ended covers. Every cell is yours. The drafts are in `docs/handoffs/MAIN_TO_BUILDER_2026-11-12_B/wp15_the_thread_results/` and will be an arc once the builder has assembled it. For FK7 an entry may name them as on main's side, not yet landed.
+
+**SM-C4 is received** and not yet read by main.
+
+0 of 19.
+
 ### M10 — 2026-11-12 — your Review 80 file and SM-C4 are received; where your 41 findings stand
 
 **Received** at your 62f545ec3: 41 findings, 50 quotations, every one found by machine at `c40446392` in a file its finding names or in its arc.

@@ -1,0 +1,1152 @@
+{"state": "b++LLR", "tick": 2, "class": "parity 1", "k": 0, "sigma": [0, 1, 0], "e": [0, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 1", "k": 1, "sigma": [0, 1, 0], "e": [0, 12, 2], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 1", "k": 2, "sigma": [0, 1, 0], "e": [0, 12, 4], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 1", "k": 3, "sigma": [0, 1, 0], "e": [0, 12, 6], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 1", "k": 4, "sigma": [0, 1, 0], "e": [0, 12, 8], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 1", "k": 5, "sigma": [0, 1, 0], "e": [0, 12, 10], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 1", "k": 6, "sigma": [0, 1, 0], "e": [0, 12, 12], "a1": 2, "r1": 1, "n": 1, "t0": [1]}
+{"state": "b++LLR", "tick": 2, "class": "parity 1", "k": 7, "sigma": [0, 1, 0], "e": [0, 12, 14], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 1", "k": 8, "sigma": [0, 1, 0], "e": [0, 12, 16], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 1", "k": 9, "sigma": [0, 1, 0], "e": [0, 12, 18], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 1", "k": 10, "sigma": [0, 1, 0], "e": [0, 12, 20], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 1", "k": 11, "sigma": [0, 1, 0], "e": [0, 12, 22], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 2", "k": 0, "sigma": [1, 0, 0], "e": [12, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 2", "k": 1, "sigma": [1, 0, 0], "e": [12, 0, 2], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 2", "k": 2, "sigma": [1, 0, 0], "e": [12, 0, 4], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 2", "k": 3, "sigma": [1, 0, 0], "e": [12, 0, 6], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 2", "k": 4, "sigma": [1, 0, 0], "e": [12, 0, 8], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 2", "k": 5, "sigma": [1, 0, 0], "e": [12, 0, 10], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 2", "k": 6, "sigma": [1, 0, 0], "e": [12, 0, 12], "a1": 2, "r1": 1, "n": 1, "t0": [1]}
+{"state": "b++LLR", "tick": 2, "class": "parity 2", "k": 7, "sigma": [1, 0, 0], "e": [12, 0, 14], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 2", "k": 8, "sigma": [1, 0, 0], "e": [12, 0, 16], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 2", "k": 9, "sigma": [1, 0, 0], "e": [12, 0, 18], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 2", "k": 10, "sigma": [1, 0, 0], "e": [12, 0, 20], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 2", "k": 11, "sigma": [1, 0, 0], "e": [12, 0, 22], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 3", "k": 0, "sigma": [1, 1, 0], "e": [12, 12, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLR", "tick": 2, "class": "parity 3", "k": 1, "sigma": [1, 1, 0], "e": [12, 12, 2], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 3", "k": 2, "sigma": [1, 1, 0], "e": [12, 12, 4], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 3", "k": 3, "sigma": [1, 1, 0], "e": [12, 12, 6], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 3", "k": 4, "sigma": [1, 1, 0], "e": [12, 12, 8], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 3", "k": 5, "sigma": [1, 1, 0], "e": [12, 12, 10], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 3", "k": 6, "sigma": [1, 1, 0], "e": [12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 3", "k": 7, "sigma": [1, 1, 0], "e": [12, 12, 14], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 3", "k": 8, "sigma": [1, 1, 0], "e": [12, 12, 16], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 3", "k": 9, "sigma": [1, 1, 0], "e": [12, 12, 18], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 3", "k": 10, "sigma": [1, 1, 0], "e": [12, 12, 20], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "parity 3", "k": 11, "sigma": [1, 1, 0], "e": [12, 12, 22], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "zero", "k": 0, "sigma": [0, 0, 0], "e": [0, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLR", "tick": 2, "class": "zero", "k": 1, "sigma": [0, 0, 0], "e": [0, 0, 2], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "zero", "k": 2, "sigma": [0, 0, 0], "e": [0, 0, 4], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "zero", "k": 3, "sigma": [0, 0, 0], "e": [0, 0, 6], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "zero", "k": 4, "sigma": [0, 0, 0], "e": [0, 0, 8], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "zero", "k": 5, "sigma": [0, 0, 0], "e": [0, 0, 10], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "zero", "k": 6, "sigma": [0, 0, 0], "e": [0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "zero", "k": 7, "sigma": [0, 0, 0], "e": [0, 0, 14], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "zero", "k": 8, "sigma": [0, 0, 0], "e": [0, 0, 16], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "zero", "k": 9, "sigma": [0, 0, 0], "e": [0, 0, 18], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "zero", "k": 10, "sigma": [0, 0, 0], "e": [0, 0, 20], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLR", "tick": 2, "class": "zero", "k": 11, "sigma": [0, 0, 0], "e": [0, 0, 22], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 1", "k": 0, "sigma": [0, 0, 1], "e": [0, 0, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 1", "k": 1, "sigma": [0, 0, 1], "e": [0, 2, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 1", "k": 2, "sigma": [0, 0, 1], "e": [0, 4, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 1", "k": 3, "sigma": [0, 0, 1], "e": [0, 6, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 1", "k": 4, "sigma": [0, 0, 1], "e": [0, 8, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 1", "k": 5, "sigma": [0, 0, 1], "e": [0, 10, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 1", "k": 6, "sigma": [0, 0, 1], "e": [0, 12, 12], "a1": 1, "r1": 0, "n": 1, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 1", "k": 7, "sigma": [0, 0, 1], "e": [0, 14, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 1", "k": 8, "sigma": [0, 0, 1], "e": [0, 16, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 1", "k": 9, "sigma": [0, 0, 1], "e": [0, 18, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 1", "k": 10, "sigma": [0, 0, 1], "e": [0, 20, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 1", "k": 11, "sigma": [0, 0, 1], "e": [0, 22, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 2", "k": 0, "sigma": [1, 0, 0], "e": [12, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 2", "k": 1, "sigma": [1, 0, 0], "e": [12, 2, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 2", "k": 2, "sigma": [1, 0, 0], "e": [12, 4, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 2", "k": 3, "sigma": [1, 0, 0], "e": [12, 6, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 2", "k": 4, "sigma": [1, 0, 0], "e": [12, 8, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 2", "k": 5, "sigma": [1, 0, 0], "e": [12, 10, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 2", "k": 6, "sigma": [1, 0, 0], "e": [12, 12, 0], "a1": 1, "r1": 0, "n": 1, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 2", "k": 7, "sigma": [1, 0, 0], "e": [12, 14, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 2", "k": 8, "sigma": [1, 0, 0], "e": [12, 16, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 2", "k": 9, "sigma": [1, 0, 0], "e": [12, 18, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 2", "k": 10, "sigma": [1, 0, 0], "e": [12, 20, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 2", "k": 11, "sigma": [1, 0, 0], "e": [12, 22, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 3", "k": 0, "sigma": [1, 0, 1], "e": [12, 0, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 3", "k": 1, "sigma": [1, 0, 1], "e": [12, 2, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 3", "k": 2, "sigma": [1, 0, 1], "e": [12, 4, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 3", "k": 3, "sigma": [1, 0, 1], "e": [12, 6, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 3", "k": 4, "sigma": [1, 0, 1], "e": [12, 8, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 3", "k": 5, "sigma": [1, 0, 1], "e": [12, 10, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 3", "k": 6, "sigma": [1, 0, 1], "e": [12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 3", "k": 7, "sigma": [1, 0, 1], "e": [12, 14, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 3", "k": 8, "sigma": [1, 0, 1], "e": [12, 16, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 3", "k": 9, "sigma": [1, 0, 1], "e": [12, 18, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 3", "k": 10, "sigma": [1, 0, 1], "e": [12, 20, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "parity 3", "k": 11, "sigma": [1, 0, 1], "e": [12, 22, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "zero", "k": 0, "sigma": [0, 0, 0], "e": [0, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLRR", "tick": 1, "class": "zero", "k": 1, "sigma": [0, 0, 0], "e": [0, 2, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "zero", "k": 2, "sigma": [0, 0, 0], "e": [0, 4, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "zero", "k": 3, "sigma": [0, 0, 0], "e": [0, 6, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "zero", "k": 4, "sigma": [0, 0, 0], "e": [0, 8, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "zero", "k": 5, "sigma": [0, 0, 0], "e": [0, 10, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "zero", "k": 6, "sigma": [0, 0, 0], "e": [0, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "zero", "k": 7, "sigma": [0, 0, 0], "e": [0, 14, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "zero", "k": 8, "sigma": [0, 0, 0], "e": [0, 16, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "zero", "k": 9, "sigma": [0, 0, 0], "e": [0, 18, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "zero", "k": 10, "sigma": [0, 0, 0], "e": [0, 20, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRR", "tick": 1, "class": "zero", "k": 11, "sigma": [0, 0, 0], "e": [0, 22, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 1", "k": 0, "sigma": [0, 0, 1, 1], "e": [0, 0, 12, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LR", "tick": 3, "class": "parity 1", "k": 1, "sigma": [0, 0, 1, 1], "e": [0, 2, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 1", "k": 2, "sigma": [0, 0, 1, 1], "e": [0, 4, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 1", "k": 3, "sigma": [0, 0, 1, 1], "e": [0, 6, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 1", "k": 4, "sigma": [0, 0, 1, 1], "e": [0, 8, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 1", "k": 5, "sigma": [0, 0, 1, 1], "e": [0, 10, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 1", "k": 6, "sigma": [0, 0, 1, 1], "e": [0, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 1", "k": 7, "sigma": [0, 0, 1, 1], "e": [0, 14, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 1", "k": 8, "sigma": [0, 0, 1, 1], "e": [0, 16, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 1", "k": 9, "sigma": [0, 0, 1, 1], "e": [0, 18, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 1", "k": 10, "sigma": [0, 0, 1, 1], "e": [0, 20, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 1", "k": 11, "sigma": [0, 0, 1, 1], "e": [0, 22, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 2", "k": 0, "sigma": [1, 0, 0, 1], "e": [12, 0, 0, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LR", "tick": 3, "class": "parity 2", "k": 1, "sigma": [1, 0, 0, 1], "e": [12, 2, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 2", "k": 2, "sigma": [1, 0, 0, 1], "e": [12, 4, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 2", "k": 3, "sigma": [1, 0, 0, 1], "e": [12, 6, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 2", "k": 4, "sigma": [1, 0, 0, 1], "e": [12, 8, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 2", "k": 5, "sigma": [1, 0, 0, 1], "e": [12, 10, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 2", "k": 6, "sigma": [1, 0, 0, 1], "e": [12, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 2", "k": 7, "sigma": [1, 0, 0, 1], "e": [12, 14, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 2", "k": 8, "sigma": [1, 0, 0, 1], "e": [12, 16, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 2", "k": 9, "sigma": [1, 0, 0, 1], "e": [12, 18, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 2", "k": 10, "sigma": [1, 0, 0, 1], "e": [12, 20, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 2", "k": 11, "sigma": [1, 0, 0, 1], "e": [12, 22, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 3", "k": 0, "sigma": [1, 0, 1, 0], "e": [12, 0, 12, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LR", "tick": 3, "class": "parity 3", "k": 1, "sigma": [1, 0, 1, 0], "e": [12, 2, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 3", "k": 2, "sigma": [1, 0, 1, 0], "e": [12, 4, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 3", "k": 3, "sigma": [1, 0, 1, 0], "e": [12, 6, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 3", "k": 4, "sigma": [1, 0, 1, 0], "e": [12, 8, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 3", "k": 5, "sigma": [1, 0, 1, 0], "e": [12, 10, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 3", "k": 6, "sigma": [1, 0, 1, 0], "e": [12, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 3", "k": 7, "sigma": [1, 0, 1, 0], "e": [12, 14, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 3", "k": 8, "sigma": [1, 0, 1, 0], "e": [12, 16, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 3", "k": 9, "sigma": [1, 0, 1, 0], "e": [12, 18, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 3", "k": 10, "sigma": [1, 0, 1, 0], "e": [12, 20, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "parity 3", "k": 11, "sigma": [1, 0, 1, 0], "e": [12, 22, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "zero", "k": 0, "sigma": [0, 0, 0, 0], "e": [0, 0, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LR", "tick": 3, "class": "zero", "k": 1, "sigma": [0, 0, 0, 0], "e": [0, 2, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "zero", "k": 2, "sigma": [0, 0, 0, 0], "e": [0, 4, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "zero", "k": 3, "sigma": [0, 0, 0, 0], "e": [0, 6, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "zero", "k": 4, "sigma": [0, 0, 0, 0], "e": [0, 8, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "zero", "k": 5, "sigma": [0, 0, 0, 0], "e": [0, 10, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "zero", "k": 6, "sigma": [0, 0, 0, 0], "e": [0, 12, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "zero", "k": 7, "sigma": [0, 0, 0, 0], "e": [0, 14, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "zero", "k": 8, "sigma": [0, 0, 0, 0], "e": [0, 16, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "zero", "k": 9, "sigma": [0, 0, 0, 0], "e": [0, 18, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "zero", "k": 10, "sigma": [0, 0, 0, 0], "e": [0, 20, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LR", "tick": 3, "class": "zero", "k": 11, "sigma": [0, 0, 0, 0], "e": [0, 22, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 1", "k": 0, "sigma": [0, 0, 1, 1], "e": [0, 0, 12, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LR", "tick": 3, "class": "parity 1", "k": 1, "sigma": [0, 0, 1, 1], "e": [0, 2, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 1", "k": 2, "sigma": [0, 0, 1, 1], "e": [0, 4, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 1", "k": 3, "sigma": [0, 0, 1, 1], "e": [0, 6, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 1", "k": 4, "sigma": [0, 0, 1, 1], "e": [0, 8, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 1", "k": 5, "sigma": [0, 0, 1, 1], "e": [0, 10, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 1", "k": 6, "sigma": [0, 0, 1, 1], "e": [0, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 1", "k": 7, "sigma": [0, 0, 1, 1], "e": [0, 14, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 1", "k": 8, "sigma": [0, 0, 1, 1], "e": [0, 16, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 1", "k": 9, "sigma": [0, 0, 1, 1], "e": [0, 18, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 1", "k": 10, "sigma": [0, 0, 1, 1], "e": [0, 20, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 1", "k": 11, "sigma": [0, 0, 1, 1], "e": [0, 22, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 2", "k": 0, "sigma": [1, 0, 0, 1], "e": [12, 0, 0, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LR", "tick": 3, "class": "parity 2", "k": 1, "sigma": [1, 0, 0, 1], "e": [12, 2, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 2", "k": 2, "sigma": [1, 0, 0, 1], "e": [12, 4, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 2", "k": 3, "sigma": [1, 0, 0, 1], "e": [12, 6, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 2", "k": 4, "sigma": [1, 0, 0, 1], "e": [12, 8, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 2", "k": 5, "sigma": [1, 0, 0, 1], "e": [12, 10, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 2", "k": 6, "sigma": [1, 0, 0, 1], "e": [12, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 2", "k": 7, "sigma": [1, 0, 0, 1], "e": [12, 14, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 2", "k": 8, "sigma": [1, 0, 0, 1], "e": [12, 16, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 2", "k": 9, "sigma": [1, 0, 0, 1], "e": [12, 18, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 2", "k": 10, "sigma": [1, 0, 0, 1], "e": [12, 20, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 2", "k": 11, "sigma": [1, 0, 0, 1], "e": [12, 22, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 3", "k": 0, "sigma": [1, 0, 1, 0], "e": [12, 0, 12, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LR", "tick": 3, "class": "parity 3", "k": 1, "sigma": [1, 0, 1, 0], "e": [12, 2, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 3", "k": 2, "sigma": [1, 0, 1, 0], "e": [12, 4, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 3", "k": 3, "sigma": [1, 0, 1, 0], "e": [12, 6, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 3", "k": 4, "sigma": [1, 0, 1, 0], "e": [12, 8, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 3", "k": 5, "sigma": [1, 0, 1, 0], "e": [12, 10, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 3", "k": 6, "sigma": [1, 0, 1, 0], "e": [12, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 3", "k": 7, "sigma": [1, 0, 1, 0], "e": [12, 14, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 3", "k": 8, "sigma": [1, 0, 1, 0], "e": [12, 16, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 3", "k": 9, "sigma": [1, 0, 1, 0], "e": [12, 18, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 3", "k": 10, "sigma": [1, 0, 1, 0], "e": [12, 20, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "parity 3", "k": 11, "sigma": [1, 0, 1, 0], "e": [12, 22, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "zero", "k": 0, "sigma": [0, 0, 0, 0], "e": [0, 0, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LR", "tick": 3, "class": "zero", "k": 1, "sigma": [0, 0, 0, 0], "e": [0, 2, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "zero", "k": 2, "sigma": [0, 0, 0, 0], "e": [0, 4, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "zero", "k": 3, "sigma": [0, 0, 0, 0], "e": [0, 6, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "zero", "k": 4, "sigma": [0, 0, 0, 0], "e": [0, 8, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "zero", "k": 5, "sigma": [0, 0, 0, 0], "e": [0, 10, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "zero", "k": 6, "sigma": [0, 0, 0, 0], "e": [0, 12, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "zero", "k": 7, "sigma": [0, 0, 0, 0], "e": [0, 14, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "zero", "k": 8, "sigma": [0, 0, 0, 0], "e": [0, 16, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "zero", "k": 9, "sigma": [0, 0, 0, 0], "e": [0, 18, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "zero", "k": 10, "sigma": [0, 0, 0, 0], "e": [0, 20, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LR", "tick": 3, "class": "zero", "k": 11, "sigma": [0, 0, 0, 0], "e": [0, 22, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 1", "k": 0, "sigma": [0, 1, 0], "e": [0, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 1", "k": 1, "sigma": [0, 1, 0], "e": [0, 12, 2], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 1", "k": 2, "sigma": [0, 1, 0], "e": [0, 12, 4], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 1", "k": 3, "sigma": [0, 1, 0], "e": [0, 12, 6], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 1", "k": 4, "sigma": [0, 1, 0], "e": [0, 12, 8], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 1", "k": 5, "sigma": [0, 1, 0], "e": [0, 12, 10], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 1", "k": 6, "sigma": [0, 1, 0], "e": [0, 12, 12], "a1": 2, "r1": 1, "n": 1, "t0": [1]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 1", "k": 7, "sigma": [0, 1, 0], "e": [0, 12, 14], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 1", "k": 8, "sigma": [0, 1, 0], "e": [0, 12, 16], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 1", "k": 9, "sigma": [0, 1, 0], "e": [0, 12, 18], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 1", "k": 10, "sigma": [0, 1, 0], "e": [0, 12, 20], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 1", "k": 11, "sigma": [0, 1, 0], "e": [0, 12, 22], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 2", "k": 0, "sigma": [1, 0, 0], "e": [12, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 2", "k": 1, "sigma": [1, 0, 0], "e": [12, 0, 2], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 2", "k": 2, "sigma": [1, 0, 0], "e": [12, 0, 4], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 2", "k": 3, "sigma": [1, 0, 0], "e": [12, 0, 6], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 2", "k": 4, "sigma": [1, 0, 0], "e": [12, 0, 8], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 2", "k": 5, "sigma": [1, 0, 0], "e": [12, 0, 10], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 2", "k": 6, "sigma": [1, 0, 0], "e": [12, 0, 12], "a1": 2, "r1": 1, "n": 1, "t0": [1]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 2", "k": 7, "sigma": [1, 0, 0], "e": [12, 0, 14], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 2", "k": 8, "sigma": [1, 0, 0], "e": [12, 0, 16], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 2", "k": 9, "sigma": [1, 0, 0], "e": [12, 0, 18], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 2", "k": 10, "sigma": [1, 0, 0], "e": [12, 0, 20], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 2", "k": 11, "sigma": [1, 0, 0], "e": [12, 0, 22], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 3", "k": 0, "sigma": [1, 1, 0], "e": [12, 12, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 3", "k": 1, "sigma": [1, 1, 0], "e": [12, 12, 2], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 3", "k": 2, "sigma": [1, 1, 0], "e": [12, 12, 4], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 3", "k": 3, "sigma": [1, 1, 0], "e": [12, 12, 6], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 3", "k": 4, "sigma": [1, 1, 0], "e": [12, 12, 8], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 3", "k": 5, "sigma": [1, 1, 0], "e": [12, 12, 10], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 3", "k": 6, "sigma": [1, 1, 0], "e": [12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 3", "k": 7, "sigma": [1, 1, 0], "e": [12, 12, 14], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 3", "k": 8, "sigma": [1, 1, 0], "e": [12, 12, 16], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 3", "k": 9, "sigma": [1, 1, 0], "e": [12, 12, 18], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 3", "k": 10, "sigma": [1, 1, 0], "e": [12, 12, 20], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "parity 3", "k": 11, "sigma": [1, 1, 0], "e": [12, 12, 22], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "zero", "k": 0, "sigma": [0, 0, 0], "e": [0, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLR", "tick": 2, "class": "zero", "k": 1, "sigma": [0, 0, 0], "e": [0, 0, 2], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "zero", "k": 2, "sigma": [0, 0, 0], "e": [0, 0, 4], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "zero", "k": 3, "sigma": [0, 0, 0], "e": [0, 0, 6], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "zero", "k": 4, "sigma": [0, 0, 0], "e": [0, 0, 8], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "zero", "k": 5, "sigma": [0, 0, 0], "e": [0, 0, 10], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "zero", "k": 6, "sigma": [0, 0, 0], "e": [0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "zero", "k": 7, "sigma": [0, 0, 0], "e": [0, 0, 14], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "zero", "k": 8, "sigma": [0, 0, 0], "e": [0, 0, 16], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "zero", "k": 9, "sigma": [0, 0, 0], "e": [0, 0, 18], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "zero", "k": 10, "sigma": [0, 0, 0], "e": [0, 0, 20], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLR", "tick": 2, "class": "zero", "k": 11, "sigma": [0, 0, 0], "e": [0, 0, 22], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 1", "k": 0, "sigma": [0, 1, 0, 1], "e": [0, 12, 0, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 1", "k": 1, "sigma": [0, 1, 0, 1], "e": [0, 12, 2, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 1", "k": 2, "sigma": [0, 1, 0, 1], "e": [0, 12, 4, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 1", "k": 3, "sigma": [0, 1, 0, 1], "e": [0, 12, 6, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 1", "k": 4, "sigma": [0, 1, 0, 1], "e": [0, 12, 8, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 1", "k": 5, "sigma": [0, 1, 0, 1], "e": [0, 12, 10, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 1", "k": 6, "sigma": [0, 1, 0, 1], "e": [0, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 1", "k": 7, "sigma": [0, 1, 0, 1], "e": [0, 12, 14, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 1", "k": 8, "sigma": [0, 1, 0, 1], "e": [0, 12, 16, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 1", "k": 9, "sigma": [0, 1, 0, 1], "e": [0, 12, 18, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 1", "k": 10, "sigma": [0, 1, 0, 1], "e": [0, 12, 20, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 1", "k": 11, "sigma": [0, 1, 0, 1], "e": [0, 12, 22, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 2", "k": 0, "sigma": [1, 0, 0, 1], "e": [12, 0, 0, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 2", "k": 1, "sigma": [1, 0, 0, 1], "e": [12, 0, 2, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 2", "k": 2, "sigma": [1, 0, 0, 1], "e": [12, 0, 4, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 2", "k": 3, "sigma": [1, 0, 0, 1], "e": [12, 0, 6, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 2", "k": 4, "sigma": [1, 0, 0, 1], "e": [12, 0, 8, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 2", "k": 5, "sigma": [1, 0, 0, 1], "e": [12, 0, 10, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 2", "k": 6, "sigma": [1, 0, 0, 1], "e": [12, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 2", "k": 7, "sigma": [1, 0, 0, 1], "e": [12, 0, 14, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 2", "k": 8, "sigma": [1, 0, 0, 1], "e": [12, 0, 16, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 2", "k": 9, "sigma": [1, 0, 0, 1], "e": [12, 0, 18, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 2", "k": 10, "sigma": [1, 0, 0, 1], "e": [12, 0, 20, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 2", "k": 11, "sigma": [1, 0, 0, 1], "e": [12, 0, 22, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 3", "k": 0, "sigma": [1, 1, 0, 0], "e": [12, 12, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 3", "k": 1, "sigma": [1, 1, 0, 0], "e": [12, 12, 2, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 3", "k": 2, "sigma": [1, 1, 0, 0], "e": [12, 12, 4, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 3", "k": 3, "sigma": [1, 1, 0, 0], "e": [12, 12, 6, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 3", "k": 4, "sigma": [1, 1, 0, 0], "e": [12, 12, 8, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 3", "k": 5, "sigma": [1, 1, 0, 0], "e": [12, 12, 10, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 3", "k": 6, "sigma": [1, 1, 0, 0], "e": [12, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 3", "k": 7, "sigma": [1, 1, 0, 0], "e": [12, 12, 14, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 3", "k": 8, "sigma": [1, 1, 0, 0], "e": [12, 12, 16, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 3", "k": 9, "sigma": [1, 1, 0, 0], "e": [12, 12, 18, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 3", "k": 10, "sigma": [1, 1, 0, 0], "e": [12, 12, 20, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "parity 3", "k": 11, "sigma": [1, 1, 0, 0], "e": [12, 12, 22, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "zero", "k": 0, "sigma": [0, 0, 0, 0], "e": [0, 0, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLLR", "tick": 3, "class": "zero", "k": 1, "sigma": [0, 0, 0, 0], "e": [0, 0, 2, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "zero", "k": 2, "sigma": [0, 0, 0, 0], "e": [0, 0, 4, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "zero", "k": 3, "sigma": [0, 0, 0, 0], "e": [0, 0, 6, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "zero", "k": 4, "sigma": [0, 0, 0, 0], "e": [0, 0, 8, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "zero", "k": 5, "sigma": [0, 0, 0, 0], "e": [0, 0, 10, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "zero", "k": 6, "sigma": [0, 0, 0, 0], "e": [0, 0, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "zero", "k": 7, "sigma": [0, 0, 0, 0], "e": [0, 0, 14, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "zero", "k": 8, "sigma": [0, 0, 0, 0], "e": [0, 0, 16, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "zero", "k": 9, "sigma": [0, 0, 0, 0], "e": [0, 0, 18, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "zero", "k": 10, "sigma": [0, 0, 0, 0], "e": [0, 0, 20, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLR", "tick": 3, "class": "zero", "k": 11, "sigma": [0, 0, 0, 0], "e": [0, 0, 22, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 1", "k": 0, "sigma": [0, 1, 0, 1], "e": [0, 12, 0, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 1", "k": 1, "sigma": [0, 1, 0, 1], "e": [0, 12, 2, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 1", "k": 2, "sigma": [0, 1, 0, 1], "e": [0, 12, 4, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 1", "k": 3, "sigma": [0, 1, 0, 1], "e": [0, 12, 6, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 1", "k": 4, "sigma": [0, 1, 0, 1], "e": [0, 12, 8, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 1", "k": 5, "sigma": [0, 1, 0, 1], "e": [0, 12, 10, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 1", "k": 6, "sigma": [0, 1, 0, 1], "e": [0, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 1", "k": 7, "sigma": [0, 1, 0, 1], "e": [0, 12, 14, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 1", "k": 8, "sigma": [0, 1, 0, 1], "e": [0, 12, 16, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 1", "k": 9, "sigma": [0, 1, 0, 1], "e": [0, 12, 18, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 1", "k": 10, "sigma": [0, 1, 0, 1], "e": [0, 12, 20, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 1", "k": 11, "sigma": [0, 1, 0, 1], "e": [0, 12, 22, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 2", "k": 0, "sigma": [1, 0, 0, 1], "e": [12, 0, 0, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 2", "k": 1, "sigma": [1, 0, 0, 1], "e": [12, 0, 2, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 2", "k": 2, "sigma": [1, 0, 0, 1], "e": [12, 0, 4, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 2", "k": 3, "sigma": [1, 0, 0, 1], "e": [12, 0, 6, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 2", "k": 4, "sigma": [1, 0, 0, 1], "e": [12, 0, 8, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 2", "k": 5, "sigma": [1, 0, 0, 1], "e": [12, 0, 10, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 2", "k": 6, "sigma": [1, 0, 0, 1], "e": [12, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 2", "k": 7, "sigma": [1, 0, 0, 1], "e": [12, 0, 14, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 2", "k": 8, "sigma": [1, 0, 0, 1], "e": [12, 0, 16, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 2", "k": 9, "sigma": [1, 0, 0, 1], "e": [12, 0, 18, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 2", "k": 10, "sigma": [1, 0, 0, 1], "e": [12, 0, 20, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 2", "k": 11, "sigma": [1, 0, 0, 1], "e": [12, 0, 22, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 3", "k": 0, "sigma": [1, 1, 0, 0], "e": [12, 12, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 3", "k": 1, "sigma": [1, 1, 0, 0], "e": [12, 12, 2, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 3", "k": 2, "sigma": [1, 1, 0, 0], "e": [12, 12, 4, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 3", "k": 3, "sigma": [1, 1, 0, 0], "e": [12, 12, 6, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 3", "k": 4, "sigma": [1, 1, 0, 0], "e": [12, 12, 8, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 3", "k": 5, "sigma": [1, 1, 0, 0], "e": [12, 12, 10, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 3", "k": 6, "sigma": [1, 1, 0, 0], "e": [12, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 3", "k": 7, "sigma": [1, 1, 0, 0], "e": [12, 12, 14, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 3", "k": 8, "sigma": [1, 1, 0, 0], "e": [12, 12, 16, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 3", "k": 9, "sigma": [1, 1, 0, 0], "e": [12, 12, 18, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 3", "k": 10, "sigma": [1, 1, 0, 0], "e": [12, 12, 20, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "parity 3", "k": 11, "sigma": [1, 1, 0, 0], "e": [12, 12, 22, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "zero", "k": 0, "sigma": [0, 0, 0, 0], "e": [0, 0, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLLR", "tick": 3, "class": "zero", "k": 1, "sigma": [0, 0, 0, 0], "e": [0, 0, 2, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "zero", "k": 2, "sigma": [0, 0, 0, 0], "e": [0, 0, 4, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "zero", "k": 3, "sigma": [0, 0, 0, 0], "e": [0, 0, 6, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "zero", "k": 4, "sigma": [0, 0, 0, 0], "e": [0, 0, 8, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "zero", "k": 5, "sigma": [0, 0, 0, 0], "e": [0, 0, 10, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "zero", "k": 6, "sigma": [0, 0, 0, 0], "e": [0, 0, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "zero", "k": 7, "sigma": [0, 0, 0, 0], "e": [0, 0, 14, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "zero", "k": 8, "sigma": [0, 0, 0, 0], "e": [0, 0, 16, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "zero", "k": 9, "sigma": [0, 0, 0, 0], "e": [0, 0, 18, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "zero", "k": 10, "sigma": [0, 0, 0, 0], "e": [0, 0, 20, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLR", "tick": 3, "class": "zero", "k": 11, "sigma": [0, 0, 0, 0], "e": [0, 0, 22, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 1", "k": 0, "sigma": [0, 0, 1], "e": [0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 1", "k": 1, "sigma": [0, 0, 1], "e": [0, 2, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 1", "k": 2, "sigma": [0, 0, 1], "e": [0, 4, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 1", "k": 3, "sigma": [0, 0, 1], "e": [0, 6, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 1", "k": 4, "sigma": [0, 0, 1], "e": [0, 8, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 1", "k": 5, "sigma": [0, 0, 1], "e": [0, 10, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 1", "k": 6, "sigma": [0, 0, 1], "e": [0, 12, 12], "a1": 2, "r1": 1, "n": 1, "t0": [1]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 1", "k": 7, "sigma": [0, 0, 1], "e": [0, 14, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 1", "k": 8, "sigma": [0, 0, 1], "e": [0, 16, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 1", "k": 9, "sigma": [0, 0, 1], "e": [0, 18, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 1", "k": 10, "sigma": [0, 0, 1], "e": [0, 20, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 1", "k": 11, "sigma": [0, 0, 1], "e": [0, 22, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 2", "k": 0, "sigma": [1, 0, 0], "e": [12, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 2", "k": 1, "sigma": [1, 0, 0], "e": [12, 2, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 2", "k": 2, "sigma": [1, 0, 0], "e": [12, 4, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 2", "k": 3, "sigma": [1, 0, 0], "e": [12, 6, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 2", "k": 4, "sigma": [1, 0, 0], "e": [12, 8, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 2", "k": 5, "sigma": [1, 0, 0], "e": [12, 10, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 2", "k": 6, "sigma": [1, 0, 0], "e": [12, 12, 0], "a1": 2, "r1": 1, "n": 1, "t0": [1]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 2", "k": 7, "sigma": [1, 0, 0], "e": [12, 14, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 2", "k": 8, "sigma": [1, 0, 0], "e": [12, 16, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 2", "k": 9, "sigma": [1, 0, 0], "e": [12, 18, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 2", "k": 10, "sigma": [1, 0, 0], "e": [12, 20, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 2", "k": 11, "sigma": [1, 0, 0], "e": [12, 22, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 3", "k": 0, "sigma": [1, 0, 1], "e": [12, 0, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 3", "k": 1, "sigma": [1, 0, 1], "e": [12, 2, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 3", "k": 2, "sigma": [1, 0, 1], "e": [12, 4, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 3", "k": 3, "sigma": [1, 0, 1], "e": [12, 6, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 3", "k": 4, "sigma": [1, 0, 1], "e": [12, 8, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 3", "k": 5, "sigma": [1, 0, 1], "e": [12, 10, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 3", "k": 6, "sigma": [1, 0, 1], "e": [12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 3", "k": 7, "sigma": [1, 0, 1], "e": [12, 14, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 3", "k": 8, "sigma": [1, 0, 1], "e": [12, 16, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 3", "k": 9, "sigma": [1, 0, 1], "e": [12, 18, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 3", "k": 10, "sigma": [1, 0, 1], "e": [12, 20, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "parity 3", "k": 11, "sigma": [1, 0, 1], "e": [12, 22, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "zero", "k": 0, "sigma": [0, 0, 0], "e": [0, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLRR", "tick": 1, "class": "zero", "k": 1, "sigma": [0, 0, 0], "e": [0, 2, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "zero", "k": 2, "sigma": [0, 0, 0], "e": [0, 4, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "zero", "k": 3, "sigma": [0, 0, 0], "e": [0, 6, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "zero", "k": 4, "sigma": [0, 0, 0], "e": [0, 8, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "zero", "k": 5, "sigma": [0, 0, 0], "e": [0, 10, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "zero", "k": 6, "sigma": [0, 0, 0], "e": [0, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "zero", "k": 7, "sigma": [0, 0, 0], "e": [0, 14, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "zero", "k": 8, "sigma": [0, 0, 0], "e": [0, 16, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "zero", "k": 9, "sigma": [0, 0, 0], "e": [0, 18, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "zero", "k": 10, "sigma": [0, 0, 0], "e": [0, 20, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRR", "tick": 1, "class": "zero", "k": 11, "sigma": [0, 0, 0], "e": [0, 22, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 1", "k": 0, "sigma": [0, 1, 0], "e": [0, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 1", "k": 1, "sigma": [0, 1, 0], "e": [0, 12, 2], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 1", "k": 2, "sigma": [0, 1, 0], "e": [0, 12, 4], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 1", "k": 3, "sigma": [0, 1, 0], "e": [0, 12, 6], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 1", "k": 4, "sigma": [0, 1, 0], "e": [0, 12, 8], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 1", "k": 5, "sigma": [0, 1, 0], "e": [0, 12, 10], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 1", "k": 6, "sigma": [0, 1, 0], "e": [0, 12, 12], "a1": 2, "r1": 1, "n": 1, "t0": [1]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 1", "k": 7, "sigma": [0, 1, 0], "e": [0, 12, 14], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 1", "k": 8, "sigma": [0, 1, 0], "e": [0, 12, 16], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 1", "k": 9, "sigma": [0, 1, 0], "e": [0, 12, 18], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 1", "k": 10, "sigma": [0, 1, 0], "e": [0, 12, 20], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 1", "k": 11, "sigma": [0, 1, 0], "e": [0, 12, 22], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 2", "k": 0, "sigma": [1, 0, 0], "e": [12, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 2", "k": 1, "sigma": [1, 0, 0], "e": [12, 0, 2], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 2", "k": 2, "sigma": [1, 0, 0], "e": [12, 0, 4], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 2", "k": 3, "sigma": [1, 0, 0], "e": [12, 0, 6], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 2", "k": 4, "sigma": [1, 0, 0], "e": [12, 0, 8], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 2", "k": 5, "sigma": [1, 0, 0], "e": [12, 0, 10], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 2", "k": 6, "sigma": [1, 0, 0], "e": [12, 0, 12], "a1": 2, "r1": 1, "n": 1, "t0": [1]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 2", "k": 7, "sigma": [1, 0, 0], "e": [12, 0, 14], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 2", "k": 8, "sigma": [1, 0, 0], "e": [12, 0, 16], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 2", "k": 9, "sigma": [1, 0, 0], "e": [12, 0, 18], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 2", "k": 10, "sigma": [1, 0, 0], "e": [12, 0, 20], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 2", "k": 11, "sigma": [1, 0, 0], "e": [12, 0, 22], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 3", "k": 0, "sigma": [1, 1, 0], "e": [12, 12, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 3", "k": 1, "sigma": [1, 1, 0], "e": [12, 12, 2], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 3", "k": 2, "sigma": [1, 1, 0], "e": [12, 12, 4], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 3", "k": 3, "sigma": [1, 1, 0], "e": [12, 12, 6], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 3", "k": 4, "sigma": [1, 1, 0], "e": [12, 12, 8], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 3", "k": 5, "sigma": [1, 1, 0], "e": [12, 12, 10], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 3", "k": 6, "sigma": [1, 1, 0], "e": [12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 3", "k": 7, "sigma": [1, 1, 0], "e": [12, 12, 14], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 3", "k": 8, "sigma": [1, 1, 0], "e": [12, 12, 16], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 3", "k": 9, "sigma": [1, 1, 0], "e": [12, 12, 18], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 3", "k": 10, "sigma": [1, 1, 0], "e": [12, 12, 20], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "parity 3", "k": 11, "sigma": [1, 1, 0], "e": [12, 12, 22], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "zero", "k": 0, "sigma": [0, 0, 0], "e": [0, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLLLR", "tick": 2, "class": "zero", "k": 1, "sigma": [0, 0, 0], "e": [0, 0, 2], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "zero", "k": 2, "sigma": [0, 0, 0], "e": [0, 0, 4], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "zero", "k": 3, "sigma": [0, 0, 0], "e": [0, 0, 6], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "zero", "k": 4, "sigma": [0, 0, 0], "e": [0, 0, 8], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "zero", "k": 5, "sigma": [0, 0, 0], "e": [0, 0, 10], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "zero", "k": 6, "sigma": [0, 0, 0], "e": [0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "zero", "k": 7, "sigma": [0, 0, 0], "e": [0, 0, 14], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "zero", "k": 8, "sigma": [0, 0, 0], "e": [0, 0, 16], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "zero", "k": 9, "sigma": [0, 0, 0], "e": [0, 0, 18], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "zero", "k": 10, "sigma": [0, 0, 0], "e": [0, 0, 20], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLR", "tick": 2, "class": "zero", "k": 11, "sigma": [0, 0, 0], "e": [0, 0, 22], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 1", "k": 0, "sigma": [0, 1, 0], "e": [0, 12, 0], "a1": 2, "r1": 1, "n": 1, "t0": [1]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 1", "k": 1, "sigma": [0, 1, 0], "e": [0, 12, 2], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 1", "k": 2, "sigma": [0, 1, 0], "e": [0, 12, 4], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 1", "k": 3, "sigma": [0, 1, 0], "e": [0, 12, 6], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 1", "k": 4, "sigma": [0, 1, 0], "e": [0, 12, 8], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 1", "k": 5, "sigma": [0, 1, 0], "e": [0, 12, 10], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 1", "k": 6, "sigma": [0, 1, 0], "e": [0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 1", "k": 7, "sigma": [0, 1, 0], "e": [0, 12, 14], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 1", "k": 8, "sigma": [0, 1, 0], "e": [0, 12, 16], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 1", "k": 9, "sigma": [0, 1, 0], "e": [0, 12, 18], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 1", "k": 10, "sigma": [0, 1, 0], "e": [0, 12, 20], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 1", "k": 11, "sigma": [0, 1, 0], "e": [0, 12, 22], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 2", "k": 0, "sigma": [1, 0, 0], "e": [12, 0, 0], "a1": 2, "r1": 1, "n": 1, "t0": [1]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 2", "k": 1, "sigma": [1, 0, 0], "e": [12, 0, 2], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 2", "k": 2, "sigma": [1, 0, 0], "e": [12, 0, 4], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 2", "k": 3, "sigma": [1, 0, 0], "e": [12, 0, 6], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 2", "k": 4, "sigma": [1, 0, 0], "e": [12, 0, 8], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 2", "k": 5, "sigma": [1, 0, 0], "e": [12, 0, 10], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 2", "k": 6, "sigma": [1, 0, 0], "e": [12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 2", "k": 7, "sigma": [1, 0, 0], "e": [12, 0, 14], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 2", "k": 8, "sigma": [1, 0, 0], "e": [12, 0, 16], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 2", "k": 9, "sigma": [1, 0, 0], "e": [12, 0, 18], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 2", "k": 10, "sigma": [1, 0, 0], "e": [12, 0, 20], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 2", "k": 11, "sigma": [1, 0, 0], "e": [12, 0, 22], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 3", "k": 0, "sigma": [1, 1, 0], "e": [12, 12, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 3", "k": 1, "sigma": [1, 1, 0], "e": [12, 12, 2], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 3", "k": 2, "sigma": [1, 1, 0], "e": [12, 12, 4], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 3", "k": 3, "sigma": [1, 1, 0], "e": [12, 12, 6], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 3", "k": 4, "sigma": [1, 1, 0], "e": [12, 12, 8], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 3", "k": 5, "sigma": [1, 1, 0], "e": [12, 12, 10], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 3", "k": 6, "sigma": [1, 1, 0], "e": [12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 3", "k": 7, "sigma": [1, 1, 0], "e": [12, 12, 14], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 3", "k": 8, "sigma": [1, 1, 0], "e": [12, 12, 16], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 3", "k": 9, "sigma": [1, 1, 0], "e": [12, 12, 18], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 3", "k": 10, "sigma": [1, 1, 0], "e": [12, 12, 20], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "parity 3", "k": 11, "sigma": [1, 1, 0], "e": [12, 12, 22], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "zero", "k": 0, "sigma": [0, 0, 0], "e": [0, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLLLR", "tick": 2, "class": "zero", "k": 1, "sigma": [0, 0, 0], "e": [0, 0, 2], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "zero", "k": 2, "sigma": [0, 0, 0], "e": [0, 0, 4], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "zero", "k": 3, "sigma": [0, 0, 0], "e": [0, 0, 6], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "zero", "k": 4, "sigma": [0, 0, 0], "e": [0, 0, 8], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "zero", "k": 5, "sigma": [0, 0, 0], "e": [0, 0, 10], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "zero", "k": 6, "sigma": [0, 0, 0], "e": [0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "zero", "k": 7, "sigma": [0, 0, 0], "e": [0, 0, 14], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "zero", "k": 8, "sigma": [0, 0, 0], "e": [0, 0, 16], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "zero", "k": 9, "sigma": [0, 0, 0], "e": [0, 0, 18], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "zero", "k": 10, "sigma": [0, 0, 0], "e": [0, 0, 20], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLR", "tick": 2, "class": "zero", "k": 11, "sigma": [0, 0, 0], "e": [0, 0, 22], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 1", "k": 0, "sigma": [0, 1, 1, 0, 1], "e": [0, 12, 12, 0, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 1", "k": 1, "sigma": [0, 1, 1, 0, 1], "e": [0, 12, 12, 2, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 1", "k": 2, "sigma": [0, 1, 1, 0, 1], "e": [0, 12, 12, 4, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 1", "k": 3, "sigma": [0, 1, 1, 0, 1], "e": [0, 12, 12, 6, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 1", "k": 4, "sigma": [0, 1, 1, 0, 1], "e": [0, 12, 12, 8, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 1", "k": 5, "sigma": [0, 1, 1, 0, 1], "e": [0, 12, 12, 10, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 1", "k": 6, "sigma": [0, 1, 1, 0, 1], "e": [0, 12, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 1", "k": 7, "sigma": [0, 1, 1, 0, 1], "e": [0, 12, 12, 14, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 1", "k": 8, "sigma": [0, 1, 1, 0, 1], "e": [0, 12, 12, 16, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 1", "k": 9, "sigma": [0, 1, 1, 0, 1], "e": [0, 12, 12, 18, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 1", "k": 10, "sigma": [0, 1, 1, 0, 1], "e": [0, 12, 12, 20, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 1", "k": 11, "sigma": [0, 1, 1, 0, 1], "e": [0, 12, 12, 22, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 2", "k": 0, "sigma": [1, 0, 1, 0, 0], "e": [12, 0, 12, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 2", "k": 1, "sigma": [1, 0, 1, 0, 0], "e": [12, 0, 12, 2, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 2", "k": 2, "sigma": [1, 0, 1, 0, 0], "e": [12, 0, 12, 4, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 2", "k": 3, "sigma": [1, 0, 1, 0, 0], "e": [12, 0, 12, 6, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 2", "k": 4, "sigma": [1, 0, 1, 0, 0], "e": [12, 0, 12, 8, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 2", "k": 5, "sigma": [1, 0, 1, 0, 0], "e": [12, 0, 12, 10, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 2", "k": 6, "sigma": [1, 0, 1, 0, 0], "e": [12, 0, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 2", "k": 7, "sigma": [1, 0, 1, 0, 0], "e": [12, 0, 12, 14, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 2", "k": 8, "sigma": [1, 0, 1, 0, 0], "e": [12, 0, 12, 16, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 2", "k": 9, "sigma": [1, 0, 1, 0, 0], "e": [12, 0, 12, 18, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 2", "k": 10, "sigma": [1, 0, 1, 0, 0], "e": [12, 0, 12, 20, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 2", "k": 11, "sigma": [1, 0, 1, 0, 0], "e": [12, 0, 12, 22, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 3", "k": 0, "sigma": [1, 1, 0, 0, 1], "e": [12, 12, 0, 0, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 3", "k": 1, "sigma": [1, 1, 0, 0, 1], "e": [12, 12, 0, 2, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 3", "k": 2, "sigma": [1, 1, 0, 0, 1], "e": [12, 12, 0, 4, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 3", "k": 3, "sigma": [1, 1, 0, 0, 1], "e": [12, 12, 0, 6, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 3", "k": 4, "sigma": [1, 1, 0, 0, 1], "e": [12, 12, 0, 8, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 3", "k": 5, "sigma": [1, 1, 0, 0, 1], "e": [12, 12, 0, 10, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 3", "k": 6, "sigma": [1, 1, 0, 0, 1], "e": [12, 12, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 3", "k": 7, "sigma": [1, 1, 0, 0, 1], "e": [12, 12, 0, 14, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 3", "k": 8, "sigma": [1, 1, 0, 0, 1], "e": [12, 12, 0, 16, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 3", "k": 9, "sigma": [1, 1, 0, 0, 1], "e": [12, 12, 0, 18, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 3", "k": 10, "sigma": [1, 1, 0, 0, 1], "e": [12, 12, 0, 20, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "parity 3", "k": 11, "sigma": [1, 1, 0, 0, 1], "e": [12, 12, 0, 22, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "zero", "k": 0, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLLRR", "tick": 2, "class": "zero", "k": 1, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 2, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "zero", "k": 2, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 4, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "zero", "k": 3, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 6, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "zero", "k": 4, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 8, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "zero", "k": 5, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 10, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "zero", "k": 6, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "zero", "k": 7, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 14, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "zero", "k": 8, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 16, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "zero", "k": 9, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 18, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "zero", "k": 10, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 20, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRR", "tick": 2, "class": "zero", "k": 11, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 22, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 1", "k": 0, "sigma": [0, 1, 1, 0, 1], "e": [0, 12, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 1", "k": 1, "sigma": [0, 1, 1, 0, 1], "e": [0, 12, 12, 2, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 1", "k": 2, "sigma": [0, 1, 1, 0, 1], "e": [0, 12, 12, 4, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 1", "k": 3, "sigma": [0, 1, 1, 0, 1], "e": [0, 12, 12, 6, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 1", "k": 4, "sigma": [0, 1, 1, 0, 1], "e": [0, 12, 12, 8, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 1", "k": 5, "sigma": [0, 1, 1, 0, 1], "e": [0, 12, 12, 10, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 1", "k": 6, "sigma": [0, 1, 1, 0, 1], "e": [0, 12, 12, 12, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 1", "k": 7, "sigma": [0, 1, 1, 0, 1], "e": [0, 12, 12, 14, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 1", "k": 8, "sigma": [0, 1, 1, 0, 1], "e": [0, 12, 12, 16, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 1", "k": 9, "sigma": [0, 1, 1, 0, 1], "e": [0, 12, 12, 18, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 1", "k": 10, "sigma": [0, 1, 1, 0, 1], "e": [0, 12, 12, 20, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 1", "k": 11, "sigma": [0, 1, 1, 0, 1], "e": [0, 12, 12, 22, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 2", "k": 0, "sigma": [1, 0, 1, 0, 0], "e": [12, 0, 12, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 2", "k": 1, "sigma": [1, 0, 1, 0, 0], "e": [12, 0, 12, 2, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 2", "k": 2, "sigma": [1, 0, 1, 0, 0], "e": [12, 0, 12, 4, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 2", "k": 3, "sigma": [1, 0, 1, 0, 0], "e": [12, 0, 12, 6, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 2", "k": 4, "sigma": [1, 0, 1, 0, 0], "e": [12, 0, 12, 8, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 2", "k": 5, "sigma": [1, 0, 1, 0, 0], "e": [12, 0, 12, 10, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 2", "k": 6, "sigma": [1, 0, 1, 0, 0], "e": [12, 0, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 2", "k": 7, "sigma": [1, 0, 1, 0, 0], "e": [12, 0, 12, 14, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 2", "k": 8, "sigma": [1, 0, 1, 0, 0], "e": [12, 0, 12, 16, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 2", "k": 9, "sigma": [1, 0, 1, 0, 0], "e": [12, 0, 12, 18, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 2", "k": 10, "sigma": [1, 0, 1, 0, 0], "e": [12, 0, 12, 20, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 2", "k": 11, "sigma": [1, 0, 1, 0, 0], "e": [12, 0, 12, 22, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 3", "k": 0, "sigma": [1, 1, 0, 0, 1], "e": [12, 12, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 3", "k": 1, "sigma": [1, 1, 0, 0, 1], "e": [12, 12, 0, 2, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 3", "k": 2, "sigma": [1, 1, 0, 0, 1], "e": [12, 12, 0, 4, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 3", "k": 3, "sigma": [1, 1, 0, 0, 1], "e": [12, 12, 0, 6, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 3", "k": 4, "sigma": [1, 1, 0, 0, 1], "e": [12, 12, 0, 8, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 3", "k": 5, "sigma": [1, 1, 0, 0, 1], "e": [12, 12, 0, 10, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 3", "k": 6, "sigma": [1, 1, 0, 0, 1], "e": [12, 12, 0, 12, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 3", "k": 7, "sigma": [1, 1, 0, 0, 1], "e": [12, 12, 0, 14, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 3", "k": 8, "sigma": [1, 1, 0, 0, 1], "e": [12, 12, 0, 16, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 3", "k": 9, "sigma": [1, 1, 0, 0, 1], "e": [12, 12, 0, 18, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 3", "k": 10, "sigma": [1, 1, 0, 0, 1], "e": [12, 12, 0, 20, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "parity 3", "k": 11, "sigma": [1, 1, 0, 0, 1], "e": [12, 12, 0, 22, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "zero", "k": 0, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLLRR", "tick": 2, "class": "zero", "k": 1, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 2, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "zero", "k": 2, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 4, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "zero", "k": 3, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 6, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "zero", "k": 4, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 8, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "zero", "k": 5, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 10, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "zero", "k": 6, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "zero", "k": 7, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 14, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "zero", "k": 8, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 16, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "zero", "k": 9, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 18, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "zero", "k": 10, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 20, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRR", "tick": 2, "class": "zero", "k": 11, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 22, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 1", "k": 0, "sigma": [0, 1, 0, 1, 0], "e": [0, 12, 0, 12, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 1", "k": 1, "sigma": [0, 1, 0, 1, 0], "e": [0, 12, 0, 12, 2], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 1", "k": 2, "sigma": [0, 1, 0, 1, 0], "e": [0, 12, 0, 12, 4], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 1", "k": 3, "sigma": [0, 1, 0, 1, 0], "e": [0, 12, 0, 12, 6], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 1", "k": 4, "sigma": [0, 1, 0, 1, 0], "e": [0, 12, 0, 12, 8], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 1", "k": 5, "sigma": [0, 1, 0, 1, 0], "e": [0, 12, 0, 12, 10], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 1", "k": 6, "sigma": [0, 1, 0, 1, 0], "e": [0, 12, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 1", "k": 7, "sigma": [0, 1, 0, 1, 0], "e": [0, 12, 0, 12, 14], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 1", "k": 8, "sigma": [0, 1, 0, 1, 0], "e": [0, 12, 0, 12, 16], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 1", "k": 9, "sigma": [0, 1, 0, 1, 0], "e": [0, 12, 0, 12, 18], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 1", "k": 10, "sigma": [0, 1, 0, 1, 0], "e": [0, 12, 0, 12, 20], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 1", "k": 11, "sigma": [0, 1, 0, 1, 0], "e": [0, 12, 0, 12, 22], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 2", "k": 0, "sigma": [1, 0, 1, 1, 0], "e": [12, 0, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 2", "k": 1, "sigma": [1, 0, 1, 1, 0], "e": [12, 0, 12, 12, 2], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 2", "k": 2, "sigma": [1, 0, 1, 1, 0], "e": [12, 0, 12, 12, 4], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 2", "k": 3, "sigma": [1, 0, 1, 1, 0], "e": [12, 0, 12, 12, 6], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 2", "k": 4, "sigma": [1, 0, 1, 1, 0], "e": [12, 0, 12, 12, 8], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 2", "k": 5, "sigma": [1, 0, 1, 1, 0], "e": [12, 0, 12, 12, 10], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 2", "k": 6, "sigma": [1, 0, 1, 1, 0], "e": [12, 0, 12, 12, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 2", "k": 7, "sigma": [1, 0, 1, 1, 0], "e": [12, 0, 12, 12, 14], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 2", "k": 8, "sigma": [1, 0, 1, 1, 0], "e": [12, 0, 12, 12, 16], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 2", "k": 9, "sigma": [1, 0, 1, 1, 0], "e": [12, 0, 12, 12, 18], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 2", "k": 10, "sigma": [1, 0, 1, 1, 0], "e": [12, 0, 12, 12, 20], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 2", "k": 11, "sigma": [1, 0, 1, 1, 0], "e": [12, 0, 12, 12, 22], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 3", "k": 0, "sigma": [1, 1, 1, 0, 0], "e": [12, 12, 12, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 3", "k": 1, "sigma": [1, 1, 1, 0, 0], "e": [12, 12, 12, 0, 2], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 3", "k": 2, "sigma": [1, 1, 1, 0, 0], "e": [12, 12, 12, 0, 4], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 3", "k": 3, "sigma": [1, 1, 1, 0, 0], "e": [12, 12, 12, 0, 6], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 3", "k": 4, "sigma": [1, 1, 1, 0, 0], "e": [12, 12, 12, 0, 8], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 3", "k": 5, "sigma": [1, 1, 1, 0, 0], "e": [12, 12, 12, 0, 10], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 3", "k": 6, "sigma": [1, 1, 1, 0, 0], "e": [12, 12, 12, 0, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 3", "k": 7, "sigma": [1, 1, 1, 0, 0], "e": [12, 12, 12, 0, 14], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 3", "k": 8, "sigma": [1, 1, 1, 0, 0], "e": [12, 12, 12, 0, 16], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 3", "k": 9, "sigma": [1, 1, 1, 0, 0], "e": [12, 12, 12, 0, 18], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 3", "k": 10, "sigma": [1, 1, 1, 0, 0], "e": [12, 12, 12, 0, 20], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "parity 3", "k": 11, "sigma": [1, 1, 1, 0, 0], "e": [12, 12, 12, 0, 22], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "zero", "k": 0, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLRLR", "tick": 2, "class": "zero", "k": 1, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 0, 2], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "zero", "k": 2, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 0, 4], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "zero", "k": 3, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 0, 6], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "zero", "k": 4, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 0, 8], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "zero", "k": 5, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 0, 10], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "zero", "k": 6, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "zero", "k": 7, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 0, 14], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "zero", "k": 8, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 0, 16], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "zero", "k": 9, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 0, 18], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "zero", "k": 10, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 0, 20], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLR", "tick": 2, "class": "zero", "k": 11, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 0, 22], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 1", "k": 0, "sigma": [0, 1, 0, 0, 1], "e": [0, 12, 0, 0, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 1", "k": 1, "sigma": [0, 1, 0, 0, 1], "e": [0, 12, 0, 2, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 1", "k": 2, "sigma": [0, 1, 0, 0, 1], "e": [0, 12, 0, 4, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 1", "k": 3, "sigma": [0, 1, 0, 0, 1], "e": [0, 12, 0, 6, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 1", "k": 4, "sigma": [0, 1, 0, 0, 1], "e": [0, 12, 0, 8, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 1", "k": 5, "sigma": [0, 1, 0, 0, 1], "e": [0, 12, 0, 10, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 1", "k": 6, "sigma": [0, 1, 0, 0, 1], "e": [0, 12, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 1", "k": 7, "sigma": [0, 1, 0, 0, 1], "e": [0, 12, 0, 14, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 1", "k": 8, "sigma": [0, 1, 0, 0, 1], "e": [0, 12, 0, 16, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 1", "k": 9, "sigma": [0, 1, 0, 0, 1], "e": [0, 12, 0, 18, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 1", "k": 10, "sigma": [0, 1, 0, 0, 1], "e": [0, 12, 0, 20, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 1", "k": 11, "sigma": [0, 1, 0, 0, 1], "e": [0, 12, 0, 22, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 2", "k": 0, "sigma": [1, 0, 1, 0, 1], "e": [12, 0, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 2", "k": 1, "sigma": [1, 0, 1, 0, 1], "e": [12, 0, 12, 2, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 2", "k": 2, "sigma": [1, 0, 1, 0, 1], "e": [12, 0, 12, 4, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 2", "k": 3, "sigma": [1, 0, 1, 0, 1], "e": [12, 0, 12, 6, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 2", "k": 4, "sigma": [1, 0, 1, 0, 1], "e": [12, 0, 12, 8, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 2", "k": 5, "sigma": [1, 0, 1, 0, 1], "e": [12, 0, 12, 10, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 2", "k": 6, "sigma": [1, 0, 1, 0, 1], "e": [12, 0, 12, 12, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 2", "k": 7, "sigma": [1, 0, 1, 0, 1], "e": [12, 0, 12, 14, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 2", "k": 8, "sigma": [1, 0, 1, 0, 1], "e": [12, 0, 12, 16, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 2", "k": 9, "sigma": [1, 0, 1, 0, 1], "e": [12, 0, 12, 18, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 2", "k": 10, "sigma": [1, 0, 1, 0, 1], "e": [12, 0, 12, 20, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 2", "k": 11, "sigma": [1, 0, 1, 0, 1], "e": [12, 0, 12, 22, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 3", "k": 0, "sigma": [1, 1, 1, 0, 0], "e": [12, 12, 12, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 3", "k": 1, "sigma": [1, 1, 1, 0, 0], "e": [12, 12, 12, 2, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 3", "k": 2, "sigma": [1, 1, 1, 0, 0], "e": [12, 12, 12, 4, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 3", "k": 3, "sigma": [1, 1, 1, 0, 0], "e": [12, 12, 12, 6, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 3", "k": 4, "sigma": [1, 1, 1, 0, 0], "e": [12, 12, 12, 8, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 3", "k": 5, "sigma": [1, 1, 1, 0, 0], "e": [12, 12, 12, 10, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 3", "k": 6, "sigma": [1, 1, 1, 0, 0], "e": [12, 12, 12, 12, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 3", "k": 7, "sigma": [1, 1, 1, 0, 0], "e": [12, 12, 12, 14, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 3", "k": 8, "sigma": [1, 1, 1, 0, 0], "e": [12, 12, 12, 16, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 3", "k": 9, "sigma": [1, 1, 1, 0, 0], "e": [12, 12, 12, 18, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 3", "k": 10, "sigma": [1, 1, 1, 0, 0], "e": [12, 12, 12, 20, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "parity 3", "k": 11, "sigma": [1, 1, 1, 0, 0], "e": [12, 12, 12, 22, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "zero", "k": 0, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLRLR", "tick": 2, "class": "zero", "k": 1, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 2, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "zero", "k": 2, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 4, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "zero", "k": 3, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 6, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "zero", "k": 4, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 8, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "zero", "k": 5, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 10, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "zero", "k": 6, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "zero", "k": 7, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 14, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "zero", "k": 8, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 16, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "zero", "k": 9, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 18, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "zero", "k": 10, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 20, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLR", "tick": 2, "class": "zero", "k": 11, "sigma": [0, 0, 0, 0, 0], "e": [0, 0, 0, 22, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 1", "k": 0, "sigma": [0, 1, 0, 1], "e": [0, 12, 0, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 1", "k": 1, "sigma": [0, 1, 0, 1], "e": [0, 12, 2, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 1", "k": 2, "sigma": [0, 1, 0, 1], "e": [0, 12, 4, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 1", "k": 3, "sigma": [0, 1, 0, 1], "e": [0, 12, 6, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 1", "k": 4, "sigma": [0, 1, 0, 1], "e": [0, 12, 8, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 1", "k": 5, "sigma": [0, 1, 0, 1], "e": [0, 12, 10, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 1", "k": 6, "sigma": [0, 1, 0, 1], "e": [0, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 1", "k": 7, "sigma": [0, 1, 0, 1], "e": [0, 12, 14, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 1", "k": 8, "sigma": [0, 1, 0, 1], "e": [0, 12, 16, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 1", "k": 9, "sigma": [0, 1, 0, 1], "e": [0, 12, 18, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 1", "k": 10, "sigma": [0, 1, 0, 1], "e": [0, 12, 20, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 1", "k": 11, "sigma": [0, 1, 0, 1], "e": [0, 12, 22, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 2", "k": 0, "sigma": [1, 0, 0, 1], "e": [12, 0, 0, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 2", "k": 1, "sigma": [1, 0, 0, 1], "e": [12, 0, 2, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 2", "k": 2, "sigma": [1, 0, 0, 1], "e": [12, 0, 4, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 2", "k": 3, "sigma": [1, 0, 0, 1], "e": [12, 0, 6, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 2", "k": 4, "sigma": [1, 0, 0, 1], "e": [12, 0, 8, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 2", "k": 5, "sigma": [1, 0, 0, 1], "e": [12, 0, 10, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 2", "k": 6, "sigma": [1, 0, 0, 1], "e": [12, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 2", "k": 7, "sigma": [1, 0, 0, 1], "e": [12, 0, 14, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 2", "k": 8, "sigma": [1, 0, 0, 1], "e": [12, 0, 16, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 2", "k": 9, "sigma": [1, 0, 0, 1], "e": [12, 0, 18, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 2", "k": 10, "sigma": [1, 0, 0, 1], "e": [12, 0, 20, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 2", "k": 11, "sigma": [1, 0, 0, 1], "e": [12, 0, 22, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 3", "k": 0, "sigma": [1, 1, 0, 0], "e": [12, 12, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 3", "k": 1, "sigma": [1, 1, 0, 0], "e": [12, 12, 2, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 3", "k": 2, "sigma": [1, 1, 0, 0], "e": [12, 12, 4, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 3", "k": 3, "sigma": [1, 1, 0, 0], "e": [12, 12, 6, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 3", "k": 4, "sigma": [1, 1, 0, 0], "e": [12, 12, 8, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 3", "k": 5, "sigma": [1, 1, 0, 0], "e": [12, 12, 10, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 3", "k": 6, "sigma": [1, 1, 0, 0], "e": [12, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 3", "k": 7, "sigma": [1, 1, 0, 0], "e": [12, 12, 14, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 3", "k": 8, "sigma": [1, 1, 0, 0], "e": [12, 12, 16, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 3", "k": 9, "sigma": [1, 1, 0, 0], "e": [12, 12, 18, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 3", "k": 10, "sigma": [1, 1, 0, 0], "e": [12, 12, 20, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "parity 3", "k": 11, "sigma": [1, 1, 0, 0], "e": [12, 12, 22, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "zero", "k": 0, "sigma": [0, 0, 0, 0], "e": [0, 0, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLLLLR", "tick": 3, "class": "zero", "k": 1, "sigma": [0, 0, 0, 0], "e": [0, 0, 2, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "zero", "k": 2, "sigma": [0, 0, 0, 0], "e": [0, 0, 4, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "zero", "k": 3, "sigma": [0, 0, 0, 0], "e": [0, 0, 6, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "zero", "k": 4, "sigma": [0, 0, 0, 0], "e": [0, 0, 8, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "zero", "k": 5, "sigma": [0, 0, 0, 0], "e": [0, 0, 10, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "zero", "k": 6, "sigma": [0, 0, 0, 0], "e": [0, 0, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "zero", "k": 7, "sigma": [0, 0, 0, 0], "e": [0, 0, 14, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "zero", "k": 8, "sigma": [0, 0, 0, 0], "e": [0, 0, 16, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "zero", "k": 9, "sigma": [0, 0, 0, 0], "e": [0, 0, 18, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "zero", "k": 10, "sigma": [0, 0, 0, 0], "e": [0, 0, 20, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLLR", "tick": 3, "class": "zero", "k": 11, "sigma": [0, 0, 0, 0], "e": [0, 0, 22, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 1", "k": 0, "sigma": [0, 1, 0, 1], "e": [0, 12, 0, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 1", "k": 1, "sigma": [0, 1, 0, 1], "e": [0, 12, 2, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 1", "k": 2, "sigma": [0, 1, 0, 1], "e": [0, 12, 4, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 1", "k": 3, "sigma": [0, 1, 0, 1], "e": [0, 12, 6, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 1", "k": 4, "sigma": [0, 1, 0, 1], "e": [0, 12, 8, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 1", "k": 5, "sigma": [0, 1, 0, 1], "e": [0, 12, 10, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 1", "k": 6, "sigma": [0, 1, 0, 1], "e": [0, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 1", "k": 7, "sigma": [0, 1, 0, 1], "e": [0, 12, 14, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 1", "k": 8, "sigma": [0, 1, 0, 1], "e": [0, 12, 16, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 1", "k": 9, "sigma": [0, 1, 0, 1], "e": [0, 12, 18, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 1", "k": 10, "sigma": [0, 1, 0, 1], "e": [0, 12, 20, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 1", "k": 11, "sigma": [0, 1, 0, 1], "e": [0, 12, 22, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 2", "k": 0, "sigma": [1, 0, 0, 1], "e": [12, 0, 0, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 2", "k": 1, "sigma": [1, 0, 0, 1], "e": [12, 0, 2, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 2", "k": 2, "sigma": [1, 0, 0, 1], "e": [12, 0, 4, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 2", "k": 3, "sigma": [1, 0, 0, 1], "e": [12, 0, 6, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 2", "k": 4, "sigma": [1, 0, 0, 1], "e": [12, 0, 8, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 2", "k": 5, "sigma": [1, 0, 0, 1], "e": [12, 0, 10, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 2", "k": 6, "sigma": [1, 0, 0, 1], "e": [12, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 2", "k": 7, "sigma": [1, 0, 0, 1], "e": [12, 0, 14, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 2", "k": 8, "sigma": [1, 0, 0, 1], "e": [12, 0, 16, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 2", "k": 9, "sigma": [1, 0, 0, 1], "e": [12, 0, 18, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 2", "k": 10, "sigma": [1, 0, 0, 1], "e": [12, 0, 20, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 2", "k": 11, "sigma": [1, 0, 0, 1], "e": [12, 0, 22, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 3", "k": 0, "sigma": [1, 1, 0, 0], "e": [12, 12, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 3", "k": 1, "sigma": [1, 1, 0, 0], "e": [12, 12, 2, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 3", "k": 2, "sigma": [1, 1, 0, 0], "e": [12, 12, 4, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 3", "k": 3, "sigma": [1, 1, 0, 0], "e": [12, 12, 6, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 3", "k": 4, "sigma": [1, 1, 0, 0], "e": [12, 12, 8, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 3", "k": 5, "sigma": [1, 1, 0, 0], "e": [12, 12, 10, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 3", "k": 6, "sigma": [1, 1, 0, 0], "e": [12, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 3", "k": 7, "sigma": [1, 1, 0, 0], "e": [12, 12, 14, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 3", "k": 8, "sigma": [1, 1, 0, 0], "e": [12, 12, 16, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 3", "k": 9, "sigma": [1, 1, 0, 0], "e": [12, 12, 18, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 3", "k": 10, "sigma": [1, 1, 0, 0], "e": [12, 12, 20, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "parity 3", "k": 11, "sigma": [1, 1, 0, 0], "e": [12, 12, 22, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "zero", "k": 0, "sigma": [0, 0, 0, 0], "e": [0, 0, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "zero", "k": 1, "sigma": [0, 0, 0, 0], "e": [0, 0, 2, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "zero", "k": 2, "sigma": [0, 0, 0, 0], "e": [0, 0, 4, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "zero", "k": 3, "sigma": [0, 0, 0, 0], "e": [0, 0, 6, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "zero", "k": 4, "sigma": [0, 0, 0, 0], "e": [0, 0, 8, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "zero", "k": 5, "sigma": [0, 0, 0, 0], "e": [0, 0, 10, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "zero", "k": 6, "sigma": [0, 0, 0, 0], "e": [0, 0, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "zero", "k": 7, "sigma": [0, 0, 0, 0], "e": [0, 0, 14, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "zero", "k": 8, "sigma": [0, 0, 0, 0], "e": [0, 0, 16, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "zero", "k": 9, "sigma": [0, 0, 0, 0], "e": [0, 0, 18, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "zero", "k": 10, "sigma": [0, 0, 0, 0], "e": [0, 0, 20, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLLR", "tick": 3, "class": "zero", "k": 11, "sigma": [0, 0, 0, 0], "e": [0, 0, 22, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 1", "k": 0, "sigma": [0, 0, 1], "e": [0, 0, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 1", "k": 1, "sigma": [0, 0, 1], "e": [0, 2, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 1", "k": 2, "sigma": [0, 0, 1], "e": [0, 4, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 1", "k": 3, "sigma": [0, 0, 1], "e": [0, 6, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 1", "k": 4, "sigma": [0, 0, 1], "e": [0, 8, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 1", "k": 5, "sigma": [0, 0, 1], "e": [0, 10, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 1", "k": 6, "sigma": [0, 0, 1], "e": [0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 1", "k": 7, "sigma": [0, 0, 1], "e": [0, 14, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 1", "k": 8, "sigma": [0, 0, 1], "e": [0, 16, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 1", "k": 9, "sigma": [0, 0, 1], "e": [0, 18, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 1", "k": 10, "sigma": [0, 0, 1], "e": [0, 20, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 1", "k": 11, "sigma": [0, 0, 1], "e": [0, 22, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 2", "k": 0, "sigma": [1, 0, 0], "e": [12, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 2", "k": 1, "sigma": [1, 0, 0], "e": [12, 2, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 2", "k": 2, "sigma": [1, 0, 0], "e": [12, 4, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 2", "k": 3, "sigma": [1, 0, 0], "e": [12, 6, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 2", "k": 4, "sigma": [1, 0, 0], "e": [12, 8, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 2", "k": 5, "sigma": [1, 0, 0], "e": [12, 10, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 2", "k": 6, "sigma": [1, 0, 0], "e": [12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 2", "k": 7, "sigma": [1, 0, 0], "e": [12, 14, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 2", "k": 8, "sigma": [1, 0, 0], "e": [12, 16, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 2", "k": 9, "sigma": [1, 0, 0], "e": [12, 18, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 2", "k": 10, "sigma": [1, 0, 0], "e": [12, 20, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 2", "k": 11, "sigma": [1, 0, 0], "e": [12, 22, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 3", "k": 0, "sigma": [1, 0, 1], "e": [12, 0, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 3", "k": 1, "sigma": [1, 0, 1], "e": [12, 2, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 3", "k": 2, "sigma": [1, 0, 1], "e": [12, 4, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 3", "k": 3, "sigma": [1, 0, 1], "e": [12, 6, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 3", "k": 4, "sigma": [1, 0, 1], "e": [12, 8, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 3", "k": 5, "sigma": [1, 0, 1], "e": [12, 10, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 3", "k": 6, "sigma": [1, 0, 1], "e": [12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 3", "k": 7, "sigma": [1, 0, 1], "e": [12, 14, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 3", "k": 8, "sigma": [1, 0, 1], "e": [12, 16, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 3", "k": 9, "sigma": [1, 0, 1], "e": [12, 18, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 3", "k": 10, "sigma": [1, 0, 1], "e": [12, 20, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "parity 3", "k": 11, "sigma": [1, 0, 1], "e": [12, 22, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "zero", "k": 0, "sigma": [0, 0, 0], "e": [0, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLLLRR", "tick": 1, "class": "zero", "k": 1, "sigma": [0, 0, 0], "e": [0, 2, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "zero", "k": 2, "sigma": [0, 0, 0], "e": [0, 4, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "zero", "k": 3, "sigma": [0, 0, 0], "e": [0, 6, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "zero", "k": 4, "sigma": [0, 0, 0], "e": [0, 8, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "zero", "k": 5, "sigma": [0, 0, 0], "e": [0, 10, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "zero", "k": 6, "sigma": [0, 0, 0], "e": [0, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "zero", "k": 7, "sigma": [0, 0, 0], "e": [0, 14, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "zero", "k": 8, "sigma": [0, 0, 0], "e": [0, 16, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "zero", "k": 9, "sigma": [0, 0, 0], "e": [0, 18, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "zero", "k": 10, "sigma": [0, 0, 0], "e": [0, 20, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLLRR", "tick": 1, "class": "zero", "k": 11, "sigma": [0, 0, 0], "e": [0, 22, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 1", "k": 0, "sigma": [0, 0, 1], "e": [0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 1", "k": 1, "sigma": [0, 0, 1], "e": [0, 2, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 1", "k": 2, "sigma": [0, 0, 1], "e": [0, 4, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 1", "k": 3, "sigma": [0, 0, 1], "e": [0, 6, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 1", "k": 4, "sigma": [0, 0, 1], "e": [0, 8, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 1", "k": 5, "sigma": [0, 0, 1], "e": [0, 10, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 1", "k": 6, "sigma": [0, 0, 1], "e": [0, 12, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 1", "k": 7, "sigma": [0, 0, 1], "e": [0, 14, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 1", "k": 8, "sigma": [0, 0, 1], "e": [0, 16, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 1", "k": 9, "sigma": [0, 0, 1], "e": [0, 18, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 1", "k": 10, "sigma": [0, 0, 1], "e": [0, 20, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 1", "k": 11, "sigma": [0, 0, 1], "e": [0, 22, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 2", "k": 0, "sigma": [1, 0, 0], "e": [12, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 2", "k": 1, "sigma": [1, 0, 0], "e": [12, 2, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 2", "k": 2, "sigma": [1, 0, 0], "e": [12, 4, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 2", "k": 3, "sigma": [1, 0, 0], "e": [12, 6, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 2", "k": 4, "sigma": [1, 0, 0], "e": [12, 8, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 2", "k": 5, "sigma": [1, 0, 0], "e": [12, 10, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 2", "k": 6, "sigma": [1, 0, 0], "e": [12, 12, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 2", "k": 7, "sigma": [1, 0, 0], "e": [12, 14, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 2", "k": 8, "sigma": [1, 0, 0], "e": [12, 16, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 2", "k": 9, "sigma": [1, 0, 0], "e": [12, 18, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 2", "k": 10, "sigma": [1, 0, 0], "e": [12, 20, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 2", "k": 11, "sigma": [1, 0, 0], "e": [12, 22, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 3", "k": 0, "sigma": [1, 0, 1], "e": [12, 0, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 3", "k": 1, "sigma": [1, 0, 1], "e": [12, 2, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 3", "k": 2, "sigma": [1, 0, 1], "e": [12, 4, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 3", "k": 3, "sigma": [1, 0, 1], "e": [12, 6, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 3", "k": 4, "sigma": [1, 0, 1], "e": [12, 8, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 3", "k": 5, "sigma": [1, 0, 1], "e": [12, 10, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 3", "k": 6, "sigma": [1, 0, 1], "e": [12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 3", "k": 7, "sigma": [1, 0, 1], "e": [12, 14, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 3", "k": 8, "sigma": [1, 0, 1], "e": [12, 16, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 3", "k": 9, "sigma": [1, 0, 1], "e": [12, 18, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 3", "k": 10, "sigma": [1, 0, 1], "e": [12, 20, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "parity 3", "k": 11, "sigma": [1, 0, 1], "e": [12, 22, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "zero", "k": 0, "sigma": [0, 0, 0], "e": [0, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "zero", "k": 1, "sigma": [0, 0, 0], "e": [0, 2, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "zero", "k": 2, "sigma": [0, 0, 0], "e": [0, 4, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "zero", "k": 3, "sigma": [0, 0, 0], "e": [0, 6, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "zero", "k": 4, "sigma": [0, 0, 0], "e": [0, 8, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "zero", "k": 5, "sigma": [0, 0, 0], "e": [0, 10, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "zero", "k": 6, "sigma": [0, 0, 0], "e": [0, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "zero", "k": 7, "sigma": [0, 0, 0], "e": [0, 14, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "zero", "k": 8, "sigma": [0, 0, 0], "e": [0, 16, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "zero", "k": 9, "sigma": [0, 0, 0], "e": [0, 18, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "zero", "k": 10, "sigma": [0, 0, 0], "e": [0, 20, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLLRR", "tick": 1, "class": "zero", "k": 11, "sigma": [0, 0, 0], "e": [0, 22, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 1", "k": 0, "sigma": [0, 1, 0, 1, 0, 1, 1], "e": [0, 12, 0, 12, 0, 12, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 1", "k": 1, "sigma": [0, 1, 0, 1, 0, 1, 1], "e": [0, 12, 2, 12, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 1", "k": 2, "sigma": [0, 1, 0, 1, 0, 1, 1], "e": [0, 12, 4, 12, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 1", "k": 3, "sigma": [0, 1, 0, 1, 0, 1, 1], "e": [0, 12, 6, 12, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 1", "k": 4, "sigma": [0, 1, 0, 1, 0, 1, 1], "e": [0, 12, 8, 12, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 1", "k": 5, "sigma": [0, 1, 0, 1, 0, 1, 1], "e": [0, 12, 10, 12, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 1", "k": 6, "sigma": [0, 1, 0, 1, 0, 1, 1], "e": [0, 12, 12, 12, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 1", "k": 7, "sigma": [0, 1, 0, 1, 0, 1, 1], "e": [0, 12, 14, 12, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 1", "k": 8, "sigma": [0, 1, 0, 1, 0, 1, 1], "e": [0, 12, 16, 12, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 1", "k": 9, "sigma": [0, 1, 0, 1, 0, 1, 1], "e": [0, 12, 18, 12, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 1", "k": 10, "sigma": [0, 1, 0, 1, 0, 1, 1], "e": [0, 12, 20, 12, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 1", "k": 11, "sigma": [0, 1, 0, 1, 0, 1, 1], "e": [0, 12, 22, 12, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 2", "k": 0, "sigma": [1, 0, 0, 1, 1, 0, 1], "e": [12, 0, 0, 12, 12, 0, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 2", "k": 1, "sigma": [1, 0, 0, 1, 1, 0, 1], "e": [12, 0, 2, 12, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 2", "k": 2, "sigma": [1, 0, 0, 1, 1, 0, 1], "e": [12, 0, 4, 12, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 2", "k": 3, "sigma": [1, 0, 0, 1, 1, 0, 1], "e": [12, 0, 6, 12, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 2", "k": 4, "sigma": [1, 0, 0, 1, 1, 0, 1], "e": [12, 0, 8, 12, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 2", "k": 5, "sigma": [1, 0, 0, 1, 1, 0, 1], "e": [12, 0, 10, 12, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 2", "k": 6, "sigma": [1, 0, 0, 1, 1, 0, 1], "e": [12, 0, 12, 12, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 2", "k": 7, "sigma": [1, 0, 0, 1, 1, 0, 1], "e": [12, 0, 14, 12, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 2", "k": 8, "sigma": [1, 0, 0, 1, 1, 0, 1], "e": [12, 0, 16, 12, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 2", "k": 9, "sigma": [1, 0, 0, 1, 1, 0, 1], "e": [12, 0, 18, 12, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 2", "k": 10, "sigma": [1, 0, 0, 1, 1, 0, 1], "e": [12, 0, 20, 12, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 2", "k": 11, "sigma": [1, 0, 0, 1, 1, 0, 1], "e": [12, 0, 22, 12, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 3", "k": 0, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 0, 0, 12, 12, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 3", "k": 1, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 2, 0, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 3", "k": 2, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 4, 0, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 3", "k": 3, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 6, 0, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 3", "k": 4, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 8, 0, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 3", "k": 5, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 10, 0, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 3", "k": 6, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 12, 0, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 3", "k": 7, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 14, 0, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 3", "k": 8, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 16, 0, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 3", "k": 9, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 18, 0, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 3", "k": 10, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 20, 0, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "parity 3", "k": 11, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 22, 0, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "zero", "k": 0, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 0, 0, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLLRLR", "tick": 3, "class": "zero", "k": 1, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 2, 0, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "zero", "k": 2, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 4, 0, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "zero", "k": 3, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 6, 0, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "zero", "k": 4, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 8, 0, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "zero", "k": 5, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 10, 0, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "zero", "k": 6, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 12, 0, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "zero", "k": 7, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 14, 0, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "zero", "k": 8, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 16, 0, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "zero", "k": 9, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 18, 0, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "zero", "k": 10, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 20, 0, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRLR", "tick": 3, "class": "zero", "k": 11, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 22, 0, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 1", "k": 0, "sigma": [0, 1, 0, 1, 1, 1, 0], "e": [0, 12, 0, 12, 12, 12, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 1", "k": 1, "sigma": [0, 1, 0, 1, 1, 1, 0], "e": [0, 12, 2, 12, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 1", "k": 2, "sigma": [0, 1, 0, 1, 1, 1, 0], "e": [0, 12, 4, 12, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 1", "k": 3, "sigma": [0, 1, 0, 1, 1, 1, 0], "e": [0, 12, 6, 12, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 1", "k": 4, "sigma": [0, 1, 0, 1, 1, 1, 0], "e": [0, 12, 8, 12, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 1", "k": 5, "sigma": [0, 1, 0, 1, 1, 1, 0], "e": [0, 12, 10, 12, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 1", "k": 6, "sigma": [0, 1, 0, 1, 1, 1, 0], "e": [0, 12, 12, 12, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 1", "k": 7, "sigma": [0, 1, 0, 1, 1, 1, 0], "e": [0, 12, 14, 12, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 1", "k": 8, "sigma": [0, 1, 0, 1, 1, 1, 0], "e": [0, 12, 16, 12, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 1", "k": 9, "sigma": [0, 1, 0, 1, 1, 1, 0], "e": [0, 12, 18, 12, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 1", "k": 10, "sigma": [0, 1, 0, 1, 1, 1, 0], "e": [0, 12, 20, 12, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 1", "k": 11, "sigma": [0, 1, 0, 1, 1, 1, 0], "e": [0, 12, 22, 12, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 2", "k": 0, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 0, 0, 12, 12, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 2", "k": 1, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 2, 0, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 2", "k": 2, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 4, 0, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 2", "k": 3, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 6, 0, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 2", "k": 4, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 8, 0, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 2", "k": 5, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 10, 0, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 2", "k": 6, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 12, 0, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 2", "k": 7, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 14, 0, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 2", "k": 8, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 16, 0, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 2", "k": 9, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 18, 0, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 2", "k": 10, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 20, 0, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 2", "k": 11, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 22, 0, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 3", "k": 0, "sigma": [1, 1, 0, 1, 0, 0, 1], "e": [12, 12, 0, 12, 0, 0, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 3", "k": 1, "sigma": [1, 1, 0, 1, 0, 0, 1], "e": [12, 12, 2, 12, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 3", "k": 2, "sigma": [1, 1, 0, 1, 0, 0, 1], "e": [12, 12, 4, 12, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 3", "k": 3, "sigma": [1, 1, 0, 1, 0, 0, 1], "e": [12, 12, 6, 12, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 3", "k": 4, "sigma": [1, 1, 0, 1, 0, 0, 1], "e": [12, 12, 8, 12, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 3", "k": 5, "sigma": [1, 1, 0, 1, 0, 0, 1], "e": [12, 12, 10, 12, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 3", "k": 6, "sigma": [1, 1, 0, 1, 0, 0, 1], "e": [12, 12, 12, 12, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 3", "k": 7, "sigma": [1, 1, 0, 1, 0, 0, 1], "e": [12, 12, 14, 12, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 3", "k": 8, "sigma": [1, 1, 0, 1, 0, 0, 1], "e": [12, 12, 16, 12, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 3", "k": 9, "sigma": [1, 1, 0, 1, 0, 0, 1], "e": [12, 12, 18, 12, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 3", "k": 10, "sigma": [1, 1, 0, 1, 0, 0, 1], "e": [12, 12, 20, 12, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "parity 3", "k": 11, "sigma": [1, 1, 0, 1, 0, 0, 1], "e": [12, 12, 22, 12, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "zero", "k": 0, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 0, 0, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "zero", "k": 1, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 2, 0, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "zero", "k": 2, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 4, 0, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "zero", "k": 3, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 6, 0, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "zero", "k": 4, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 8, 0, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "zero", "k": 5, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 10, 0, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "zero", "k": 6, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 12, 0, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "zero", "k": 7, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 14, 0, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "zero", "k": 8, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 16, 0, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "zero", "k": 9, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 18, 0, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "zero", "k": 10, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 20, 0, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRLR", "tick": 3, "class": "zero", "k": 11, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 22, 0, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 1", "k": 0, "sigma": [0, 1, 1, 0, 0, 1, 1], "e": [0, 12, 12, 0, 0, 12, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 1", "k": 1, "sigma": [0, 1, 1, 0, 0, 1, 1], "e": [0, 12, 12, 2, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 1", "k": 2, "sigma": [0, 1, 1, 0, 0, 1, 1], "e": [0, 12, 12, 4, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 1", "k": 3, "sigma": [0, 1, 1, 0, 0, 1, 1], "e": [0, 12, 12, 6, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 1", "k": 4, "sigma": [0, 1, 1, 0, 0, 1, 1], "e": [0, 12, 12, 8, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 1", "k": 5, "sigma": [0, 1, 1, 0, 0, 1, 1], "e": [0, 12, 12, 10, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 1", "k": 6, "sigma": [0, 1, 1, 0, 0, 1, 1], "e": [0, 12, 12, 12, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 1", "k": 7, "sigma": [0, 1, 1, 0, 0, 1, 1], "e": [0, 12, 12, 14, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 1", "k": 8, "sigma": [0, 1, 1, 0, 0, 1, 1], "e": [0, 12, 12, 16, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 1", "k": 9, "sigma": [0, 1, 1, 0, 0, 1, 1], "e": [0, 12, 12, 18, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 1", "k": 10, "sigma": [0, 1, 1, 0, 0, 1, 1], "e": [0, 12, 12, 20, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 1", "k": 11, "sigma": [0, 1, 1, 0, 0, 1, 1], "e": [0, 12, 12, 22, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 2", "k": 0, "sigma": [1, 0, 1, 0, 1, 0, 1], "e": [12, 0, 12, 0, 12, 0, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 2", "k": 1, "sigma": [1, 0, 1, 0, 1, 0, 1], "e": [12, 0, 12, 2, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 2", "k": 2, "sigma": [1, 0, 1, 0, 1, 0, 1], "e": [12, 0, 12, 4, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 2", "k": 3, "sigma": [1, 0, 1, 0, 1, 0, 1], "e": [12, 0, 12, 6, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 2", "k": 4, "sigma": [1, 0, 1, 0, 1, 0, 1], "e": [12, 0, 12, 8, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 2", "k": 5, "sigma": [1, 0, 1, 0, 1, 0, 1], "e": [12, 0, 12, 10, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 2", "k": 6, "sigma": [1, 0, 1, 0, 1, 0, 1], "e": [12, 0, 12, 12, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 2", "k": 7, "sigma": [1, 0, 1, 0, 1, 0, 1], "e": [12, 0, 12, 14, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 2", "k": 8, "sigma": [1, 0, 1, 0, 1, 0, 1], "e": [12, 0, 12, 16, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 2", "k": 9, "sigma": [1, 0, 1, 0, 1, 0, 1], "e": [12, 0, 12, 18, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 2", "k": 10, "sigma": [1, 0, 1, 0, 1, 0, 1], "e": [12, 0, 12, 20, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 2", "k": 11, "sigma": [1, 0, 1, 0, 1, 0, 1], "e": [12, 0, 12, 22, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 3", "k": 0, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 0, 0, 12, 12, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 3", "k": 1, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 0, 2, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 3", "k": 2, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 0, 4, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 3", "k": 3, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 0, 6, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 3", "k": 4, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 0, 8, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 3", "k": 5, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 0, 10, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 3", "k": 6, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 0, 12, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 3", "k": 7, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 0, 14, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 3", "k": 8, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 0, 16, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 3", "k": 9, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 0, 18, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 3", "k": 10, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 0, 20, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "parity 3", "k": 11, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 0, 22, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "zero", "k": 0, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 0, 0, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLLRRR", "tick": 3, "class": "zero", "k": 1, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 2, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "zero", "k": 2, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 4, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "zero", "k": 3, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 6, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "zero", "k": 4, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 8, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "zero", "k": 5, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 10, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "zero", "k": 6, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 12, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "zero", "k": 7, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 14, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "zero", "k": 8, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 16, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "zero", "k": 9, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 18, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "zero", "k": 10, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 20, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLLRRR", "tick": 3, "class": "zero", "k": 11, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 22, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 1", "k": 0, "sigma": [0, 1, 1, 0, 0, 1, 1], "e": [0, 12, 12, 0, 0, 12, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 1", "k": 1, "sigma": [0, 1, 1, 0, 0, 1, 1], "e": [0, 12, 12, 2, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 1", "k": 2, "sigma": [0, 1, 1, 0, 0, 1, 1], "e": [0, 12, 12, 4, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 1", "k": 3, "sigma": [0, 1, 1, 0, 0, 1, 1], "e": [0, 12, 12, 6, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 1", "k": 4, "sigma": [0, 1, 1, 0, 0, 1, 1], "e": [0, 12, 12, 8, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 1", "k": 5, "sigma": [0, 1, 1, 0, 0, 1, 1], "e": [0, 12, 12, 10, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 1", "k": 6, "sigma": [0, 1, 1, 0, 0, 1, 1], "e": [0, 12, 12, 12, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 1", "k": 7, "sigma": [0, 1, 1, 0, 0, 1, 1], "e": [0, 12, 12, 14, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 1", "k": 8, "sigma": [0, 1, 1, 0, 0, 1, 1], "e": [0, 12, 12, 16, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 1", "k": 9, "sigma": [0, 1, 1, 0, 0, 1, 1], "e": [0, 12, 12, 18, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 1", "k": 10, "sigma": [0, 1, 1, 0, 0, 1, 1], "e": [0, 12, 12, 20, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 1", "k": 11, "sigma": [0, 1, 1, 0, 0, 1, 1], "e": [0, 12, 12, 22, 0, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 2", "k": 0, "sigma": [1, 0, 1, 0, 1, 0, 1], "e": [12, 0, 12, 0, 12, 0, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 2", "k": 1, "sigma": [1, 0, 1, 0, 1, 0, 1], "e": [12, 0, 12, 2, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 2", "k": 2, "sigma": [1, 0, 1, 0, 1, 0, 1], "e": [12, 0, 12, 4, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 2", "k": 3, "sigma": [1, 0, 1, 0, 1, 0, 1], "e": [12, 0, 12, 6, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 2", "k": 4, "sigma": [1, 0, 1, 0, 1, 0, 1], "e": [12, 0, 12, 8, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 2", "k": 5, "sigma": [1, 0, 1, 0, 1, 0, 1], "e": [12, 0, 12, 10, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 2", "k": 6, "sigma": [1, 0, 1, 0, 1, 0, 1], "e": [12, 0, 12, 12, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 2", "k": 7, "sigma": [1, 0, 1, 0, 1, 0, 1], "e": [12, 0, 12, 14, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 2", "k": 8, "sigma": [1, 0, 1, 0, 1, 0, 1], "e": [12, 0, 12, 16, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 2", "k": 9, "sigma": [1, 0, 1, 0, 1, 0, 1], "e": [12, 0, 12, 18, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 2", "k": 10, "sigma": [1, 0, 1, 0, 1, 0, 1], "e": [12, 0, 12, 20, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 2", "k": 11, "sigma": [1, 0, 1, 0, 1, 0, 1], "e": [12, 0, 12, 22, 12, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 3", "k": 0, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 0, 0, 12, 12, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 3", "k": 1, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 0, 2, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 3", "k": 2, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 0, 4, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 3", "k": 3, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 0, 6, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 3", "k": 4, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 0, 8, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 3", "k": 5, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 0, 10, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 3", "k": 6, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 0, 12, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 3", "k": 7, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 0, 14, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 3", "k": 8, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 0, 16, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 3", "k": 9, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 0, 18, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 3", "k": 10, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 0, 20, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "parity 3", "k": 11, "sigma": [1, 1, 0, 0, 1, 1, 0], "e": [12, 12, 0, 22, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "zero", "k": 0, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 0, 0, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "zero", "k": 1, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 2, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "zero", "k": 2, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 4, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "zero", "k": 3, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 6, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "zero", "k": 4, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 8, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "zero", "k": 5, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 10, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "zero", "k": 6, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 12, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "zero", "k": 7, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 14, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "zero", "k": 8, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 16, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "zero", "k": 9, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 18, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "zero", "k": 10, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 20, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLLRRR", "tick": 3, "class": "zero", "k": 11, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 22, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 1", "k": 0, "sigma": [0, 1, 1, 0, 1, 1, 0], "e": [0, 12, 12, 0, 12, 12, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 1", "k": 1, "sigma": [0, 1, 1, 0, 1, 1, 0], "e": [0, 12, 12, 2, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 1", "k": 2, "sigma": [0, 1, 1, 0, 1, 1, 0], "e": [0, 12, 12, 4, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 1", "k": 3, "sigma": [0, 1, 1, 0, 1, 1, 0], "e": [0, 12, 12, 6, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 1", "k": 4, "sigma": [0, 1, 1, 0, 1, 1, 0], "e": [0, 12, 12, 8, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 1", "k": 5, "sigma": [0, 1, 1, 0, 1, 1, 0], "e": [0, 12, 12, 10, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 1", "k": 6, "sigma": [0, 1, 1, 0, 1, 1, 0], "e": [0, 12, 12, 12, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 1", "k": 7, "sigma": [0, 1, 1, 0, 1, 1, 0], "e": [0, 12, 12, 14, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 1", "k": 8, "sigma": [0, 1, 1, 0, 1, 1, 0], "e": [0, 12, 12, 16, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 1", "k": 9, "sigma": [0, 1, 1, 0, 1, 1, 0], "e": [0, 12, 12, 18, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 1", "k": 10, "sigma": [0, 1, 1, 0, 1, 1, 0], "e": [0, 12, 12, 20, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 1", "k": 11, "sigma": [0, 1, 1, 0, 1, 1, 0], "e": [0, 12, 12, 22, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 2", "k": 0, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 0, 0, 12, 12, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 2", "k": 1, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 0, 2, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 2", "k": 2, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 0, 4, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 2", "k": 3, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 0, 6, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 2", "k": 4, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 0, 8, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 2", "k": 5, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 0, 10, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 2", "k": 6, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 0, 12, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 2", "k": 7, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 0, 14, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 2", "k": 8, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 0, 16, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 2", "k": 9, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 0, 18, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 2", "k": 10, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 0, 20, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 2", "k": 11, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 0, 22, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 3", "k": 0, "sigma": [1, 1, 1, 0, 0, 0, 1], "e": [12, 12, 12, 0, 0, 0, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 3", "k": 1, "sigma": [1, 1, 1, 0, 0, 0, 1], "e": [12, 12, 12, 2, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 3", "k": 2, "sigma": [1, 1, 1, 0, 0, 0, 1], "e": [12, 12, 12, 4, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 3", "k": 3, "sigma": [1, 1, 1, 0, 0, 0, 1], "e": [12, 12, 12, 6, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 3", "k": 4, "sigma": [1, 1, 1, 0, 0, 0, 1], "e": [12, 12, 12, 8, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 3", "k": 5, "sigma": [1, 1, 1, 0, 0, 0, 1], "e": [12, 12, 12, 10, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 3", "k": 6, "sigma": [1, 1, 1, 0, 0, 0, 1], "e": [12, 12, 12, 12, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 3", "k": 7, "sigma": [1, 1, 1, 0, 0, 0, 1], "e": [12, 12, 12, 14, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 3", "k": 8, "sigma": [1, 1, 1, 0, 0, 0, 1], "e": [12, 12, 12, 16, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 3", "k": 9, "sigma": [1, 1, 1, 0, 0, 0, 1], "e": [12, 12, 12, 18, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 3", "k": 10, "sigma": [1, 1, 1, 0, 0, 0, 1], "e": [12, 12, 12, 20, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "parity 3", "k": 11, "sigma": [1, 1, 1, 0, 0, 0, 1], "e": [12, 12, 12, 22, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "zero", "k": 0, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 0, 0, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b++LLRLRR", "tick": 3, "class": "zero", "k": 1, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 2, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "zero", "k": 2, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 4, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "zero", "k": 3, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 6, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "zero", "k": 4, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 8, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "zero", "k": 5, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 10, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "zero", "k": 6, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 12, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "zero", "k": 7, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 14, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "zero", "k": 8, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 16, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "zero", "k": 9, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 18, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "zero", "k": 10, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 20, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b++LLRLRR", "tick": 3, "class": "zero", "k": 11, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 22, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 1", "k": 0, "sigma": [0, 1, 1, 0, 1, 1, 0], "e": [0, 12, 12, 0, 12, 12, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 1", "k": 1, "sigma": [0, 1, 1, 0, 1, 1, 0], "e": [0, 12, 12, 2, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 1", "k": 2, "sigma": [0, 1, 1, 0, 1, 1, 0], "e": [0, 12, 12, 4, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 1", "k": 3, "sigma": [0, 1, 1, 0, 1, 1, 0], "e": [0, 12, 12, 6, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 1", "k": 4, "sigma": [0, 1, 1, 0, 1, 1, 0], "e": [0, 12, 12, 8, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 1", "k": 5, "sigma": [0, 1, 1, 0, 1, 1, 0], "e": [0, 12, 12, 10, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 1", "k": 6, "sigma": [0, 1, 1, 0, 1, 1, 0], "e": [0, 12, 12, 12, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 1", "k": 7, "sigma": [0, 1, 1, 0, 1, 1, 0], "e": [0, 12, 12, 14, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 1", "k": 8, "sigma": [0, 1, 1, 0, 1, 1, 0], "e": [0, 12, 12, 16, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 1", "k": 9, "sigma": [0, 1, 1, 0, 1, 1, 0], "e": [0, 12, 12, 18, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 1", "k": 10, "sigma": [0, 1, 1, 0, 1, 1, 0], "e": [0, 12, 12, 20, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 1", "k": 11, "sigma": [0, 1, 1, 0, 1, 1, 0], "e": [0, 12, 12, 22, 12, 12, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 2", "k": 0, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 0, 0, 12, 12, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 2", "k": 1, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 0, 2, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 2", "k": 2, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 0, 4, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 2", "k": 3, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 0, 6, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 2", "k": 4, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 0, 8, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 2", "k": 5, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 0, 10, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 2", "k": 6, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 0, 12, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 2", "k": 7, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 0, 14, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 2", "k": 8, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 0, 16, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 2", "k": 9, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 0, 18, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 2", "k": 10, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 0, 20, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 2", "k": 11, "sigma": [1, 0, 0, 0, 1, 1, 1], "e": [12, 0, 0, 22, 12, 12, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 3", "k": 0, "sigma": [1, 1, 1, 0, 0, 0, 1], "e": [12, 12, 12, 0, 0, 0, 12], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 3", "k": 1, "sigma": [1, 1, 1, 0, 0, 0, 1], "e": [12, 12, 12, 2, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 3", "k": 2, "sigma": [1, 1, 1, 0, 0, 0, 1], "e": [12, 12, 12, 4, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 3", "k": 3, "sigma": [1, 1, 1, 0, 0, 0, 1], "e": [12, 12, 12, 6, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 3", "k": 4, "sigma": [1, 1, 1, 0, 0, 0, 1], "e": [12, 12, 12, 8, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 3", "k": 5, "sigma": [1, 1, 1, 0, 0, 0, 1], "e": [12, 12, 12, 10, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 3", "k": 6, "sigma": [1, 1, 1, 0, 0, 0, 1], "e": [12, 12, 12, 12, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 3", "k": 7, "sigma": [1, 1, 1, 0, 0, 0, 1], "e": [12, 12, 12, 14, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 3", "k": 8, "sigma": [1, 1, 1, 0, 0, 0, 1], "e": [12, 12, 12, 16, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 3", "k": 9, "sigma": [1, 1, 1, 0, 0, 0, 1], "e": [12, 12, 12, 18, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 3", "k": 10, "sigma": [1, 1, 1, 0, 0, 0, 1], "e": [12, 12, 12, 20, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "parity 3", "k": 11, "sigma": [1, 1, 1, 0, 0, 0, 1], "e": [12, 12, 12, 22, 0, 0, 12], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "zero", "k": 0, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 0, 0, 0, 0], "a1": 1, "r1": 1, "n": 0, "t0": [1]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "zero", "k": 1, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 2, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "zero", "k": 2, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 4, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "zero", "k": 3, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 6, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "zero", "k": 4, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 8, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "zero", "k": 5, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 10, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "zero", "k": 6, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 12, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "zero", "k": 7, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 14, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "zero", "k": 8, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 16, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "zero", "k": 9, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 18, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "zero", "k": 10, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 20, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}
+{"state": "b+-LLRLRR", "tick": 3, "class": "zero", "k": 11, "sigma": [0, 0, 0, 0, 0, 0, 0], "e": [0, 0, 0, 22, 0, 0, 0], "a1": 0, "r1": 0, "n": 0, "t0": [0]}

@@ -1,0 +1,20 @@
+level  2:  2 new sectors;  2 are their own mirror;  0 have a mirror twin (dimensions []); in every twin pair the mirror is the complex conjugate: True
+level  3:  6 new sectors;  2 are their own mirror;  4 have a mirror twin (dimensions [1, 1, 2, 2]); in every twin pair the mirror is the complex conjugate: True
+level  4:  7 new sectors;  3 are their own mirror;  4 have a mirror twin (dimensions [1, 1, 3, 3]); in every twin pair the mirror is the complex conjugate: True
+level  5:  8 new sectors;  8 are their own mirror;  0 have a mirror twin (dimensions []); in every twin pair the mirror is the complex conjugate: True
+level  6: 12 new sectors;  4 are their own mirror;  8 have a mirror twin (dimensions [1, 1, 2, 2, 2, 2, 4, 4]); in every twin pair the mirror is the complex conjugate: True
+level  7: 10 new sectors;  6 are their own mirror;  4 have a mirror twin (dimensions [3, 3, 4, 4]); in every twin pair the mirror is the complex conjugate: True
+level  8: 20 new sectors;  8 are their own mirror; 12 have a mirror twin (dimensions [2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 6, 6]); in every twin pair the mirror is the complex conjugate: True
+level  9: 18 new sectors;  6 are their own mirror; 12 have a mirror twin (dimensions [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]); in every twin pair the mirror is the complex conjugate: True
+level 10: 16 new sectors; 16 are their own mirror;  0 have a mirror twin (dimensions []); in every twin pair the mirror is the complex conjugate: True
+level 11: 14 new sectors; 10 are their own mirror;  4 have a mirror twin (dimensions [5, 5, 6, 6]); in every twin pair the mirror is the complex conjugate: True
+level 12: 42 new sectors;  6 are their own mirror; 36 have a mirror twin (dimensions [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 9, 9]); in every twin pair the mirror is the complex conjugate: True
+level 13: 16 new sectors; 16 are their own mirror;  0 have a mirror twin (dimensions []); in every twin pair the mirror is the complex conjugate: True
+ok    at a prime level every sector is its own mirror exactly when -1 is a square modulo the level (2, 5, 13); at 3, 7, 11 there are mirror twins  [{2: (True, 0), 3: (False, 4), 5: (True, 0), 7: (False, 4), 11: (False, 4), 13: (True, 0)}]
+ok    wherever a sector has a mirror twin, the twin is its complex conjugate
+ok    more: on EVERY sector the mirror image is the complex conjugate (a sector is its own mirror exactly when its character is real), so on the sectors the swap of the two letters and complex conjugation are one and the same permutation  [171 sectors]
+ok    the fundamental doublet of level 3 and both doublets of level 5 are their own mirror; the two other doublets of level 3 are twins
+ok    planted: with no swap every sector is its own mirror
+
+5 checks, 0 failing
+RC=0

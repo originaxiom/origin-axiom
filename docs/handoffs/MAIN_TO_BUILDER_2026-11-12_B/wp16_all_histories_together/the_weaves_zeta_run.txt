@@ -1,0 +1,30 @@
+ok    Z1: S^2 = -1, U^3 = 1, L = S U, R = -S U^-1, in integers
+ok    Z1: every positive word to length 10 is, up to the central sign, the alternating word S U^e S U^e ... (e = +1 for L, -1 for R); the sign is (-1)^(number of R)  [2046 words]
+ok    Z2: Amitsur's identity for (L, R) to order 10: det(1 - u(L + R)) is the product over Lyndon words of det(1 - u^|w| w)  [226 Lyndon words; the left side begins [1, -4, 3, 0, 0, 0]]
+ok    Z2: the same for a pair of integer 3 by 3 matrices that have nothing to do with the moves, to order 8  [71 Lyndon words]
+ok    planted: with one Lyndon word left out of the product the identity fails
+ok    Z3: det(1 - u(L + R)) = (1 - u)(1 - 3u)
+ok    Z3: the product over threads of (1 - tr(w) u^|w| + u^2|w|) is (1 - 3u) / (1 - u)^3, to order 14  [2536 threads to length 14; of length 2, 3, 4: traces [[3], [4, 4], [5, 5, 6]]]
+   level  2:    2 vertices; largest eigenvalue below 3 in modulus 0.000000 (2 sqrt 2 = 2.828427): within; two-coloured: True ; even sectors' rates [0.5]
+   level  3:    4 vertices; largest eigenvalue below 3 in modulus 1.000000 (2 sqrt 2 = 2.828427): within; two-coloured: False; even sectors' rates [0.5, 0.707107]
+   level  4:    8 vertices; largest eigenvalue below 3 in modulus 1.000000 (2 sqrt 2 = 2.828427): within; two-coloured: True ; even sectors' rates [0.5, 0.707107]
+   level  5:   20 vertices; largest eigenvalue below 3 in modulus 2.236068 (2 sqrt 2 = 2.828427): within; two-coloured: False; even sectors' rates [0.707107]
+   level  6:   24 vertices; largest eigenvalue below 3 in modulus 2.000000 (2 sqrt 2 = 2.828427): within; two-coloured: True ; even sectors' rates [0.5, 0.707107]
+   level  7:   56 vertices; largest eigenvalue below 3 in modulus 2.561553 (2 sqrt 2 = 2.828427): within; two-coloured: False; even sectors' rates [0.707107]
+   level  8:   64 vertices; largest eigenvalue below 3 in modulus 2.414214 (2 sqrt 2 = 2.828427): within; two-coloured: True ; even sectors' rates [0.5, 0.707107]
+   level  9:  108 vertices; largest eigenvalue below 3 in modulus 2.732051 (2 sqrt 2 = 2.828427): within; two-coloured: False; even sectors' rates [0.5, 0.707107]
+   level 10:  120 vertices; largest eigenvalue below 3 in modulus 2.618034 (2 sqrt 2 = 2.828427): within; two-coloured: True ; even sectors' rates [0.5, 0.707107]
+   level 11:  220 vertices; largest eigenvalue below 3 in modulus 2.732051 (2 sqrt 2 = 2.828427): within; two-coloured: False; even sectors' rates [0.707107]
+   level 12:  192 vertices; largest eigenvalue below 3 in modulus 2.561553 (2 sqrt 2 = 2.828427): within; two-coloured: True ; even sectors' rates [0.5, 0.707107]
+   level 13:  364 vertices; largest eigenvalue below 3 in modulus 2.825573 (2 sqrt 2 = 2.828427): within; two-coloured: False; even sectors' rates [0.707107]
+ok    Z4, even: at every level from 2 to 13 the three-valent graph obeys Ramanujan's bound  [{2: 0.0, 3: np.float64(1.0), 4: np.float64(1.0), 5: np.float64(2.236068), 6: np.float64(2.0), 7: np.float64(2.561553), 8: np.float64(2.414214), 9: np.float64(2.732051), 10: np.float64(2.618034), 11: np.float64(2.732051), 12: np.float64(2.561553), 13: np.float64(2.825573)}]
+ok    Z4, even: and every even sector's rate is one the graph's spectrum predicts: 1/sqrt 2, or 1/2
+ok    Z4: the graph is two-coloured exactly at the even levels, where the sector that never cancels lives (the parity of the number of moves)
+ok    Z4, odd: no odd sector cancels slower than sqrt 3 / 2  [the slowest: 0.866025404; 86 odd sectors]
+ok    Z4, odd: thirteen sectors cancel at exactly sqrt 3 / 2: the two-dimensional ones of levels 3, 4, 5, 6, 8, 10 and four characters of level 12  [[(3, 2), (4, 2), (5, 2), (5, 2), (6, 2), (8, 2), (8, 2), (10, 2), (10, 2), (12, 1), (12, 1), (12, 1), (12, 1)]]
+ok    Z4, odd: in every odd sector where U fixes no vector the rate is sqrt 3 / 2 (the theorem), and those sectors are exactly the thirteen  [13 odd sectors where U fixes no vector]
+ok    Z4, even: every even sector of dimension above 1 has a vector that U fixes (so each is seen by the level's graph) but for those at rate 1/2  [80 even sectors; 5 with no vector U fixes, all at rate 1/2: True]
+ok    planted: with one edge of the level-7 graph moved, its largest eigenvalue below 3 is no longer the true graph's  [3.011919 against 2.561553]
+
+15 checks, 0 failing
+RC=0

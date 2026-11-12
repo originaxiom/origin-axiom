@@ -1,0 +1,16 @@
+states with a three-ended cover, to 12 ends and 8 letters: 10: [('b+-LLR', 6), ('b++LLLR', 3), ('b++LLLRR', 6), ('b+-LLRLR', 12), ('b+-LLLLLR', 9), ('b+-LLLLRR', 12), ('b++LLLRRR', 9), ('b++LLLLLLR', 6), ('b++LLLLRRR', 12), ('b++LLLLLLRR', 12)]
+b+-LLR        cover 0 of ends  6:  4 generators,  128 characters in  28 orbits; members  42; readings of the interior classes {('order 4', -1, 0): 12, ('sign', -1, -1): 6, ('order 4', 0, 0): 12, ('order 4', 0, -1): 12}  (795s)
+b++LLLR       cover 0 of ends  3:  4 generators,   64 characters in  14 orbits; members   9; readings of the interior classes {('order 4', -1, 0): 6, ('sign', -1, -1): 3}  (0s)
+b++LLLRR      cover 0 of ends  6:  4 generators,  128 characters in  28 orbits; members  12; readings of the interior classes {('order 4', 0, -1): 12}  (266s)
+b+-LLRLR      cover 0 of ends 12:  4 generators,  256 characters in  52 orbits; members   0; readings of the interior classes {}  (122s)
+b+-LLLLLR     cover 0 of ends  9:  4 generators,   64 characters in  14 orbits; members   9; readings of the interior classes {('order 4', -1, 0): 6, ('sign', -1, -1): 3}  (280s)
+b+-LLLLRR     cover 0 of ends 12:  5 generators,  256 characters in  56 orbits; members  24; readings of the interior classes {('order 4', 0, -1): 24}  (680s)
+b++LLLRRR     cover 0 of ends  9:  4 generators,   64 characters in  14 orbits; members   0; readings of the interior classes {}  (27s)
+b++LLLRRR     cover 1 of ends  9:  4 generators,   64 characters in  14 orbits; members   0; readings of the interior classes {}  (21s)
+b++LLLRRR     cover 2 of ends  9:  4 generators,   64 characters in  14 orbits; members   0; readings of the interior classes {}  (21s)
+b++LLLRRR     cover 3 of ends  9:  4 generators,   64 characters in  14 orbits; members   0; readings of the interior classes {}  (19s)
+b++LLLLLLR    cover 0 of ends  6:  4 generators,  128 characters in  28 orbits; members  18; readings of the interior classes {('order 4', -1, 0): 12, ('sign', -1, -1): 6}  (220s)
+b++LLLLRRR    cover 0 of ends 12:  4 generators,  256 characters in  52 orbits; members   0; readings of the interior classes {}  (53s)
+b++LLLLLLRR   cover 0 of ends 12:  5 generators,  256 characters in  56 orbits; members  24; readings of the interior classes {('order 4', 0, -1): 24}  (339s)
+covers: 13
+RC=0

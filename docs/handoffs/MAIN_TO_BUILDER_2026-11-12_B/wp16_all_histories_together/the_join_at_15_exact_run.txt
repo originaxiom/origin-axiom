@@ -1,0 +1,13 @@
+ok    sqrt5 = z + z^-1 - z^2 - z^-2 squares to 5 in Q(t)
+ok    E1: in each of the three doublets the braid relation holds and S^2 = U^3 = -1
+ok    E1: each join satisfies the braid relation with S^2 = U^3 = +1 (an even sector)
+ok    E2: for a = z the characteristic polynomial of L3 x L5 + R3 x R5 is x^4 + 2(phi - 1)x^3 + (4 - 3 phi)x^2 + 4(phi - 1)x + 4, exactly  [['1', '-2*t**7 + 2*t**3 - 2*t**2', '3*t**7 - 3*t**3 + 3*t**2 + 1']]
+ok    E3: for a = z^2 it is the conjugate under sqrt5 -> -sqrt5
+ok    E2: that quartic is (x^2 + (1/phi + sqrt2 phi) x + 2)(x^2 + (1/phi - sqrt2 phi) x + 2)
+ok    E2: the first factor has real roots: (1/phi + sqrt2 phi)^2 - 8 = phi + 2 sqrt2 - 4 > 0; the second has not: (1/phi - sqrt2 phi)^2 - 8 < 0  [phi + 2 sqrt2 - 4 = 0.446461113496]
+ok    E3: for the twin both factors have complex roots: (1/phi' +- sqrt2 phi')^2 < 8 with phi' = (1 - sqrt5)/2
+ok    the rate of the sector: (s + sqrt(s^2 - 8)) / 4 with s = 1/phi + sqrt2 phi  [0.89361426415284576130; s = 2.9062796000206320386]
+ok    planted: with a fifth root in place of the cube root the polynomial is another one
+
+10 checks, 0 failing
+RC=0

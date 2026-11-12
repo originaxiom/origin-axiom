@@ -1,0 +1,349 @@
+{
+ "rows": {
+  "b++LR": {
+   "tick": 3,
+   "characters of order dividing 4": 64,
+   "by (h1, trivial on the cusp, rank of the restriction, n)": {
+    "(1, True, 1, 0)": 16,
+    "(0, False, 0, 0)": 48
+   },
+   "lines on each non-zero parity": [
+    1,
+    1,
+    1
+   ]
+  },
+  "b+-LR": {
+   "tick": 3,
+   "characters of order dividing 4": 16,
+   "by (h1, trivial on the cusp, rank of the restriction, n)": {
+    "(1, True, 1, 0)": 4,
+    "(0, False, 0, 0)": 12
+   },
+   "lines on each non-zero parity": [
+    1,
+    1,
+    1
+   ]
+  },
+  "b++LLR": {
+   "tick": 2,
+   "characters of order dividing 4": 16,
+   "by (h1, trivial on the cusp, rank of the restriction, n)": {
+    "(1, True, 1, 0)": 4,
+    "(0, False, 0, 0)": 12
+   },
+   "lines on each non-zero parity": [
+    1,
+    1,
+    1
+   ]
+  },
+  "b+-LLR": {
+   "tick": 2,
+   "characters of order dividing 4": 16,
+   "by (h1, trivial on the cusp, rank of the restriction, n)": {
+    "(1, True, 1, 0)": 4,
+    "(0, False, 0, 0)": 12
+   },
+   "lines on each non-zero parity": [
+    1,
+    1,
+    1
+   ]
+  },
+  "b++LLLR": {
+   "tick": 3,
+   "characters of order dividing 4": 16,
+   "by (h1, trivial on the cusp, rank of the restriction, n)": {
+    "(1, True, 1, 0)": 4,
+    "(0, False, 0, 0)": 12
+   },
+   "lines on each non-zero parity": [
+    1,
+    1,
+    1
+   ]
+  },
+  "b+-LLLR": {
+   "tick": 3,
+   "characters of order dividing 4": 64,
+   "by (h1, trivial on the cusp, rank of the restriction, n)": {
+    "(1, True, 1, 0)": 16,
+    "(0, False, 0, 0)": 48
+   },
+   "lines on each non-zero parity": [
+    1,
+    1,
+    1
+   ]
+  },
+  "b++LLRR": {
+   "tick": 1,
+   "characters of order dividing 4": 16,
+   "by (h1, trivial on the cusp, rank of the restriction, n)": {
+    "(1, True, 1, 0)": 4,
+    "(0, False, 0, 0)": 12
+   },
+   "lines on each non-zero parity": [
+    1,
+    1,
+    1
+   ]
+  },
+  "b+-LLRR": {
+   "tick": 1,
+   "characters of order dividing 4": 32,
+   "by (h1, trivial on the cusp, rank of the restriction, n)": {
+    "(1, True, 1, 0)": 8,
+    "(0, False, 0, 0)": 24
+   },
+   "lines on each non-zero parity": [
+    1,
+    1,
+    1
+   ]
+  },
+  "b++LLLLR": {
+   "tick": 2,
+   "characters of order dividing 4": 32,
+   "by (h1, trivial on the cusp, rank of the restriction, n)": {
+    "(1, True, 1, 0)": 8,
+    "(0, False, 0, 0)": 24
+   },
+   "lines on each non-zero parity": [
+    1,
+    1,
+    1
+   ]
+  },
+  "b+-LLLLR": {
+   "tick": 2,
+   "characters of order dividing 4": 32,
+   "by (h1, trivial on the cusp, rank of the restriction, n)": {
+    "(1, True, 1, 0)": 8,
+    "(0, False, 0, 0)": 24
+   },
+   "lines on each non-zero parity": [
+    1,
+    1,
+    1
+   ]
+  },
+  "b++LLLRR": {
+   "tick": 2,
+   "characters of order dividing 4": 16,
+   "by (h1, trivial on the cusp, rank of the restriction, n)": {
+    "(1, True, 1, 0)": 4,
+    "(0, False, 0, 0)": 12
+   },
+   "lines on each non-zero parity": [
+    1,
+    1,
+    1
+   ]
+  },
+  "b+-LLLRR": {
+   "tick": 2,
+   "characters of order dividing 4": 16,
+   "by (h1, trivial on the cusp, rank of the restriction, n)": {
+    "(1, True, 1, 0)": 4,
+    "(0, False, 0, 0)": 12
+   },
+   "lines on each non-zero parity": [
+    1,
+    1,
+    1
+   ]
+  },
+  "b++LLRLR": {
+   "tick": 2,
+   "characters of order dividing 4": 32,
+   "by (h1, trivial on the cusp, rank of the restriction, n)": {
+    "(1, True, 1, 0)": 8,
+    "(0, False, 0, 0)": 24
+   },
+   "lines on each non-zero parity": [
+    1,
+    1,
+    1
+   ]
+  },
+  "b+-LLRLR": {
+   "tick": 2,
+   "characters of order dividing 4": 32,
+   "by (h1, trivial on the cusp, rank of the restriction, n)": {
+    "(1, True, 1, 0)": 8,
+    "(0, False, 0, 0)": 24
+   },
+   "lines on each non-zero parity": [
+    1,
+    1,
+    1
+   ]
+  },
+  "b++LLLLLR": {
+   "tick": 3,
+   "characters of order dividing 4": 64,
+   "by (h1, trivial on the cusp, rank of the restriction, n)": {
+    "(1, True, 1, 0)": 16,
+    "(0, False, 0, 0)": 48
+   },
+   "lines on each non-zero parity": [
+    1,
+    1,
+    1
+   ]
+  },
+  "b+-LLLLLR": {
+   "tick": 3,
+   "characters of order dividing 4": 16,
+   "by (h1, trivial on the cusp, rank of the restriction, n)": {
+    "(1, True, 1, 0)": 4,
+    "(0, False, 0, 0)": 12
+   },
+   "lines on each non-zero parity": [
+    1,
+    1,
+    1
+   ]
+  },
+  "b++LLLLRR": {
+   "tick": 1,
+   "characters of order dividing 4": 32,
+   "by (h1, trivial on the cusp, rank of the restriction, n)": {
+    "(1, True, 1, 0)": 8,
+    "(0, False, 0, 0)": 24
+   },
+   "lines on each non-zero parity": [
+    1,
+    1,
+    1
+   ]
+  },
+  "b+-LLLLRR": {
+   "tick": 1,
+   "characters of order dividing 4": 16,
+   "by (h1, trivial on the cusp, rank of the restriction, n)": {
+    "(1, True, 1, 0)": 4,
+    "(0, False, 0, 0)": 12
+   },
+   "lines on each non-zero parity": [
+    1,
+    1,
+    1
+   ]
+  },
+  "b++LLLRLR": {
+   "tick": 3,
+   "characters of order dividing 4": 16,
+   "by (h1, trivial on the cusp, rank of the restriction, n)": {
+    "(1, True, 1, 0)": 4,
+    "(0, False, 0, 0)": 12
+   },
+   "lines on each non-zero parity": [
+    1,
+    1,
+    1
+   ]
+  },
+  "b+-LLLRLR": {
+   "tick": 3,
+   "characters of order dividing 4": 64,
+   "by (h1, trivial on the cusp, rank of the restriction, n)": {
+    "(1, True, 1, 0)": 16,
+    "(0, False, 0, 0)": 48
+   },
+   "lines on each non-zero parity": [
+    1,
+    1,
+    1
+   ]
+  },
+  "b++LLLRRR": {
+   "tick": 3,
+   "characters of order dividing 4": 64,
+   "by (h1, trivial on the cusp, rank of the restriction, n)": {
+    "(1, True, 1, 0)": 16,
+    "(0, False, 0, 0)": 48
+   },
+   "lines on each non-zero parity": [
+    1,
+    1,
+    1
+   ]
+  },
+  "b+-LLLRRR": {
+   "tick": 3,
+   "characters of order dividing 4": 16,
+   "by (h1, trivial on the cusp, rank of the restriction, n)": {
+    "(1, True, 1, 0)": 4,
+    "(0, False, 0, 0)": 12
+   },
+   "lines on each non-zero parity": [
+    1,
+    1,
+    1
+   ]
+  },
+  "b++LLRLRR": {
+   "tick": 3,
+   "characters of order dividing 4": 64,
+   "by (h1, trivial on the cusp, rank of the restriction, n)": {
+    "(1, True, 1, 0)": 16,
+    "(0, False, 0, 0)": 48
+   },
+   "lines on each non-zero parity": [
+    1,
+    1,
+    1
+   ]
+  },
+  "b+-LLRLRR": {
+   "tick": 3,
+   "characters of order dividing 4": 16,
+   "by (h1, trivial on the cusp, rank of the restriction, n)": {
+    "(1, True, 1, 0)": 4,
+    "(0, False, 0, 0)": 12
+   },
+   "lines on each non-zero parity": [
+    1,
+    1,
+    1
+   ]
+  }
+ },
+ "checks": [
+  {
+   "check": "the characters of order dividing 4 on the 24 ticks number 768, the seat's count",
+   "holds": true,
+   "detail": "768"
+  },
+  {
+   "check": "LEMMA V on every one of them: h1 is 0 or 1",
+   "holds": true,
+   "detail": "the largest h1: 1"
+  },
+  {
+   "check": "and where h1 = 1 the character is trivial on the cusp and the class restricts to it injectively",
+   "holds": true,
+   "detail": "192 lines; 0 that fail"
+  },
+  {
+   "check": "so none is interior: n = 0 for every character",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "each of the three non-zero parities carries exactly one line among the sign characters, on every state: 72 lines",
+   "holds": true,
+   "detail": "72"
+  },
+  {
+   "check": "planted: with the relators dropped (a free group) a line has h1 above 1, so the instrument can see it",
+   "holds": true,
+   "detail": "h1 = 2 on 3 generators"
+  }
+ ],
+ "failing": []
+}

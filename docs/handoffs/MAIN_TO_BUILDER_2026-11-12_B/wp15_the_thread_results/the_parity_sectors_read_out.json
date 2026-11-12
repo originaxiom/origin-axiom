@@ -1,0 +1,272 @@
+{
+ "table": {
+  "b++LLLLLR": {
+   "tick": 3,
+   "parities with a member": 0,
+   "one member on each of them": true,
+   "at k (kappa = zeta_12^k)": [],
+   "structures": [],
+   "as the seat's table": true
+  },
+  "b++LLLLR": {
+   "tick": 2,
+   "parities with a member": 2,
+   "one member on each of them": true,
+   "at k (kappa = zeta_12^k)": [
+    6
+   ],
+   "structures": [
+    [
+     2,
+     1,
+     1
+    ]
+   ],
+   "as the seat's table": true
+  },
+  "b++LLLLRR": {
+   "tick": 1,
+   "parities with a member": 0,
+   "one member on each of them": true,
+   "at k (kappa = zeta_12^k)": [],
+   "structures": [],
+   "as the seat's table": true
+  },
+  "b++LLLR": {
+   "tick": 3,
+   "parities with a member": 0,
+   "one member on each of them": true,
+   "at k (kappa = zeta_12^k)": [],
+   "structures": [],
+   "as the seat's table": true
+  },
+  "b++LLLRLR": {
+   "tick": 3,
+   "parities with a member": 0,
+   "one member on each of them": true,
+   "at k (kappa = zeta_12^k)": [],
+   "structures": [],
+   "as the seat's table": true
+  },
+  "b++LLLRR": {
+   "tick": 2,
+   "parities with a member": 0,
+   "one member on each of them": true,
+   "at k (kappa = zeta_12^k)": [],
+   "structures": [],
+   "as the seat's table": true
+  },
+  "b++LLLRRR": {
+   "tick": 3,
+   "parities with a member": 0,
+   "one member on each of them": true,
+   "at k (kappa = zeta_12^k)": [],
+   "structures": [],
+   "as the seat's table": true
+  },
+  "b++LLR": {
+   "tick": 2,
+   "parities with a member": 2,
+   "one member on each of them": true,
+   "at k (kappa = zeta_12^k)": [
+    6
+   ],
+   "structures": [
+    [
+     2,
+     1,
+     1
+    ]
+   ],
+   "as the seat's table": true
+  },
+  "b++LLRLR": {
+   "tick": 2,
+   "parities with a member": 0,
+   "one member on each of them": true,
+   "at k (kappa = zeta_12^k)": [],
+   "structures": [],
+   "as the seat's table": true
+  },
+  "b++LLRLRR": {
+   "tick": 3,
+   "parities with a member": 0,
+   "one member on each of them": true,
+   "at k (kappa = zeta_12^k)": [],
+   "structures": [],
+   "as the seat's table": true
+  },
+  "b++LLRR": {
+   "tick": 1,
+   "parities with a member": 2,
+   "one member on each of them": true,
+   "at k (kappa = zeta_12^k)": [
+    6
+   ],
+   "structures": [
+    [
+     1,
+     0,
+     1
+    ]
+   ],
+   "as the seat's table": true
+  },
+  "b++LR": {
+   "tick": 3,
+   "parities with a member": 0,
+   "one member on each of them": true,
+   "at k (kappa = zeta_12^k)": [],
+   "structures": [],
+   "as the seat's table": true
+  },
+  "b+-LLLLLR": {
+   "tick": 3,
+   "parities with a member": 0,
+   "one member on each of them": true,
+   "at k (kappa = zeta_12^k)": [],
+   "structures": [],
+   "as the seat's table": true
+  },
+  "b+-LLLLR": {
+   "tick": 2,
+   "parities with a member": 2,
+   "one member on each of them": true,
+   "at k (kappa = zeta_12^k)": [
+    0
+   ],
+   "structures": [
+    [
+     2,
+     1,
+     1
+    ]
+   ],
+   "as the seat's table": true
+  },
+  "b+-LLLLRR": {
+   "tick": 1,
+   "parities with a member": 0,
+   "one member on each of them": true,
+   "at k (kappa = zeta_12^k)": [],
+   "structures": [],
+   "as the seat's table": true
+  },
+  "b+-LLLR": {
+   "tick": 3,
+   "parities with a member": 0,
+   "one member on each of them": true,
+   "at k (kappa = zeta_12^k)": [],
+   "structures": [],
+   "as the seat's table": true
+  },
+  "b+-LLLRLR": {
+   "tick": 3,
+   "parities with a member": 0,
+   "one member on each of them": true,
+   "at k (kappa = zeta_12^k)": [],
+   "structures": [],
+   "as the seat's table": true
+  },
+  "b+-LLLRR": {
+   "tick": 2,
+   "parities with a member": 0,
+   "one member on each of them": true,
+   "at k (kappa = zeta_12^k)": [],
+   "structures": [],
+   "as the seat's table": true
+  },
+  "b+-LLLRRR": {
+   "tick": 3,
+   "parities with a member": 0,
+   "one member on each of them": true,
+   "at k (kappa = zeta_12^k)": [],
+   "structures": [],
+   "as the seat's table": true
+  },
+  "b+-LLR": {
+   "tick": 2,
+   "parities with a member": 2,
+   "one member on each of them": true,
+   "at k (kappa = zeta_12^k)": [
+    6
+   ],
+   "structures": [
+    [
+     2,
+     1,
+     1
+    ]
+   ],
+   "as the seat's table": true
+  },
+  "b+-LLRLR": {
+   "tick": 2,
+   "parities with a member": 0,
+   "one member on each of them": true,
+   "at k (kappa = zeta_12^k)": [],
+   "structures": [],
+   "as the seat's table": true
+  },
+  "b+-LLRLRR": {
+   "tick": 3,
+   "parities with a member": 0,
+   "one member on each of them": true,
+   "at k (kappa = zeta_12^k)": [],
+   "structures": [],
+   "as the seat's table": true
+  },
+  "b+-LLRR": {
+   "tick": 1,
+   "parities with a member": 2,
+   "one member on each of them": true,
+   "at k (kappa = zeta_12^k)": [
+    6
+   ],
+   "structures": [
+    [
+     2,
+     1,
+     1
+    ]
+   ],
+   "as the seat's table": true
+  },
+  "b+-LR": {
+   "tick": 3,
+   "parities with a member": 0,
+   "one member on each of them": true,
+   "at k (kappa = zeta_12^k)": [],
+   "structures": [],
+   "as the seat's table": true
+  }
+ },
+ "checks": [
+  {
+   "check": "all 24 states read, 48 characters each, twelve in each of the four classes",
+   "holds": true,
+   "detail": "24"
+  },
+  {
+   "check": "state by state the seat's table: the tick, the number of parities that carry a member, and the structure where the table gives one",
+   "holds": true,
+   "detail": "[]"
+  },
+  {
+   "check": "no member at the zero parity on any state",
+   "holds": true,
+   "detail": "0"
+  },
+  {
+   "check": "members stand on two parities or on none, never on one and never on all three",
+   "holds": true,
+   "detail": "[0, 2]"
+  },
+  {
+   "check": "no odd-trace state carries a member at its third tick",
+   "holds": true,
+   "detail": ""
+  }
+ ],
+ "failing": []
+}

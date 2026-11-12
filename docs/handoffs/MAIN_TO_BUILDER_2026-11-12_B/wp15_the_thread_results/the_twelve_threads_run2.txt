@@ -1,0 +1,40 @@
+b++LR        order dividing 4:  1024 characters in   76 orbits; generators of the cover's group 13
+b++LR        order dividing 3:    81 characters in    9 orbits; generators of the cover's group 13
+b+-LR        order dividing 4:   256 characters in   26 orbits; generators of the cover's group 13
+b+-LR        order dividing 3:    81 characters in    9 orbits; generators of the cover's group 13
+b++LLLR      order dividing 4:   256 characters in   26 orbits; generators of the cover's group 13
+b++LLLR      order dividing 3:   729 characters in   51 orbits; generators of the cover's group 13
+b+-LLLR      order dividing 4:  1024 characters in   76 orbits; generators of the cover's group 13
+b+-LLLR      order dividing 3:    81 characters in    9 orbits; generators of the cover's group 13
+b++LLLLLR    order dividing 4:  4096 characters in  220 orbits; generators of the cover's group 13
+b++LLLLLR    order dividing 3:    81 characters in    9 orbits; generators of the cover's group 13
+b+-LLLLLR    order dividing 4:   256 characters in   26 orbits; generators of the cover's group 13
+b+-LLLLLR    order dividing 3:   729 characters in   51 orbits; generators of the cover's group 13
+b++LLLRLR    order dividing 4:   256 characters in   26 orbits; generators of the cover's group 10
+b++LLLRLR    order dividing 3:    81 characters in    9 orbits; generators of the cover's group 10
+b+-LLLRLR    order dividing 4:  1024 characters in   76 orbits; generators of the cover's group 12
+b+-LLLRLR    order dividing 3:   729 characters in   51 orbits; generators of the cover's group 12
+b++LLLRRR    order dividing 4:  1024 characters in   76 orbits; generators of the cover's group 9
+b++LLLRRR    order dividing 3:   729 characters in   69 orbits; generators of the cover's group 9
+b+-LLLRRR    order dividing 4:   256 characters in   26 orbits; generators of the cover's group 10
+b+-LLLRRR    order dividing 3:    81 characters in    9 orbits; generators of the cover's group 10
+b++LLRLRR    order dividing 4:  4096 characters in  220 orbits; generators of the cover's group 14
+b++LLRLRR    order dividing 3:    81 characters in    9 orbits; generators of the cover's group 14
+b+-LLRLRR    order dividing 4:   256 characters in   26 orbits; generators of the cover's group 14
+b+-LLRLRR    order dividing 3:    81 characters in    9 orbits; generators of the cover's group 14
+606 representatives to read (588 already read)
+    50/606  b+-LLLRLR    d=4  (h1, r1, n) = (1, 1, 0)  16s
+   100/606  b+-LLLRLR    d=4  (h1, r1, n) = (0, 0, 0)  19s
+   150/606  b+-LLLRLR    d=3  (h1, r1, n) = (0, 0, 0)  20s
+   200/606  b++LLLRRR    d=4  (h1, r1, n) = (0, 0, 0)  12s
+   250/606  b++LLLRRR    d=3  (h1, r1, n) = (1, 1, 0)  13s
+   300/606  b++LLLRRR    d=3  (h1, r1, n) = (0, 0, 0)  12s
+   350/606  b++LLRLRR    d=4  (h1, r1, n) = (0, 0, 0)  34s
+   400/606  b++LLRLRR    d=4  (h1, r1, n) = (1, 1, 0)  32s
+   450/606  b++LLRLRR    d=4  (h1, r1, n) = (0, 0, 0)  38s
+   500/606  b++LLRLRR    d=4  (h1, r1, n) = (0, 0, 0)  39s
+   550/606  b++LLRLRR    d=4  (h1, r1, n) = (0, 0, 0)  44s
+   600/606  b+-LLRLRR    d=3  (h1, r1, n) = (0, 0, 0)  27s
+64 more characters to read: the orbits of the members, in full
+done
+RC=0

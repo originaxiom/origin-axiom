@@ -1,0 +1,320 @@
+{
+ "complete": [
+  "b++LR",
+  "b+-LR",
+  "b++LLLR",
+  "b+-LLLR",
+  "b++LLLLLR",
+  "b+-LLLLLR",
+  "b++LLLRLR",
+  "b+-LLLRLR",
+  "b++LLLRRR",
+  "b+-LLLRRR",
+  "b++LLRLRR",
+  "b+-LLRLRR"
+ ],
+ "table": {
+  "b++LR": {
+   "4": {
+    "characters": 1024,
+    "complete": true,
+    "members": 54,
+    "orbits of the deck group among the members": 8,
+    "structures of the members": {
+     "(3, 2, 1)": 24,
+     "(4, 0, 4)": 6,
+     "(1, 0, 1)": 24
+    },
+    "member orbits read in full": true,
+    "and they read alike": true
+   },
+   "3": {
+    "characters": 81,
+    "complete": true,
+    "members": 6,
+    "orbits of the deck group among the members": 1,
+    "structures of the members": {
+     "(2, 0, 2)": 6
+    },
+    "member orbits read in full": true,
+    "and they read alike": true
+   }
+  },
+  "b+-LR": {
+   "4": {
+    "characters": 256,
+    "complete": true,
+    "members": 6,
+    "orbits of the deck group among the members": 1,
+    "structures of the members": {
+     "(4, 0, 4)": 6
+    },
+    "member orbits read in full": true,
+    "and they read alike": true
+   },
+   "3": {
+    "characters": 81,
+    "complete": true,
+    "members": 6,
+    "orbits of the deck group among the members": 1,
+    "structures of the members": {
+     "(2, 0, 2)": 6
+    },
+    "member orbits read in full": true,
+    "and they read alike": true
+   }
+  },
+  "b++LLLR": {
+   "4": {
+    "characters": 256,
+    "complete": true,
+    "members": 0,
+    "orbits of the deck group among the members": 0,
+    "structures of the members": {},
+    "member orbits read in full": true,
+    "and they read alike": true
+   },
+   "3": {
+    "characters": 729,
+    "complete": true,
+    "members": 0,
+    "orbits of the deck group among the members": 0,
+    "structures of the members": {},
+    "member orbits read in full": true,
+    "and they read alike": true
+   }
+  },
+  "b+-LLLR": {
+   "4": {
+    "characters": 1024,
+    "complete": true,
+    "members": 0,
+    "orbits of the deck group among the members": 0,
+    "structures of the members": {},
+    "member orbits read in full": true,
+    "and they read alike": true
+   },
+   "3": {
+    "characters": 81,
+    "complete": true,
+    "members": 0,
+    "orbits of the deck group among the members": 0,
+    "structures of the members": {},
+    "member orbits read in full": true,
+    "and they read alike": true
+   }
+  },
+  "b++LLLLLR": {
+   "4": {
+    "characters": 4096,
+    "complete": true,
+    "members": 0,
+    "orbits of the deck group among the members": 0,
+    "structures of the members": {},
+    "member orbits read in full": true,
+    "and they read alike": true
+   },
+   "3": {
+    "characters": 81,
+    "complete": true,
+    "members": 0,
+    "orbits of the deck group among the members": 0,
+    "structures of the members": {},
+    "member orbits read in full": true,
+    "and they read alike": true
+   }
+  },
+  "b+-LLLLLR": {
+   "4": {
+    "characters": 256,
+    "complete": true,
+    "members": 0,
+    "orbits of the deck group among the members": 0,
+    "structures of the members": {},
+    "member orbits read in full": true,
+    "and they read alike": true
+   },
+   "3": {
+    "characters": 729,
+    "complete": true,
+    "members": 0,
+    "orbits of the deck group among the members": 0,
+    "structures of the members": {},
+    "member orbits read in full": true,
+    "and they read alike": true
+   }
+  },
+  "b++LLLRLR": {
+   "4": {
+    "characters": 256,
+    "complete": true,
+    "members": 0,
+    "orbits of the deck group among the members": 0,
+    "structures of the members": {},
+    "member orbits read in full": true,
+    "and they read alike": true
+   },
+   "3": {
+    "characters": 81,
+    "complete": true,
+    "members": 0,
+    "orbits of the deck group among the members": 0,
+    "structures of the members": {},
+    "member orbits read in full": true,
+    "and they read alike": true
+   }
+  },
+  "b+-LLLRLR": {
+   "4": {
+    "characters": 1024,
+    "complete": true,
+    "members": 0,
+    "orbits of the deck group among the members": 0,
+    "structures of the members": {},
+    "member orbits read in full": true,
+    "and they read alike": true
+   },
+   "3": {
+    "characters": 729,
+    "complete": true,
+    "members": 0,
+    "orbits of the deck group among the members": 0,
+    "structures of the members": {},
+    "member orbits read in full": true,
+    "and they read alike": true
+   }
+  },
+  "b++LLLRRR": {
+   "4": {
+    "characters": 1024,
+    "complete": true,
+    "members": 0,
+    "orbits of the deck group among the members": 0,
+    "structures of the members": {},
+    "member orbits read in full": true,
+    "and they read alike": true
+   },
+   "3": {
+    "characters": 729,
+    "complete": true,
+    "members": 0,
+    "orbits of the deck group among the members": 0,
+    "structures of the members": {},
+    "member orbits read in full": true,
+    "and they read alike": true
+   }
+  },
+  "b+-LLLRRR": {
+   "4": {
+    "characters": 256,
+    "complete": true,
+    "members": 0,
+    "orbits of the deck group among the members": 0,
+    "structures of the members": {},
+    "member orbits read in full": true,
+    "and they read alike": true
+   },
+   "3": {
+    "characters": 81,
+    "complete": true,
+    "members": 0,
+    "orbits of the deck group among the members": 0,
+    "structures of the members": {},
+    "member orbits read in full": true,
+    "and they read alike": true
+   }
+  },
+  "b++LLRLRR": {
+   "4": {
+    "characters": 4096,
+    "complete": true,
+    "members": 0,
+    "orbits of the deck group among the members": 0,
+    "structures of the members": {},
+    "member orbits read in full": true,
+    "and they read alike": true
+   },
+   "3": {
+    "characters": 81,
+    "complete": true,
+    "members": 0,
+    "orbits of the deck group among the members": 0,
+    "structures of the members": {},
+    "member orbits read in full": true,
+    "and they read alike": true
+   }
+  },
+  "b+-LLRLRR": {
+   "4": {
+    "characters": 256,
+    "complete": true,
+    "members": 0,
+    "orbits of the deck group among the members": 0,
+    "structures of the members": {},
+    "member orbits read in full": true,
+    "and they read alike": true
+   },
+   "3": {
+    "characters": 81,
+    "complete": true,
+    "members": 0,
+    "orbits of the deck group among the members": 0,
+    "structures of the members": {},
+    "member orbits read in full": true,
+    "and they read alike": true
+   }
+  }
+ },
+ "parities": {
+  "b++LR": {
+   "kinds": {
+    "fixed by one translation": 24,
+    "fixed by all three translations": 6,
+    "on an edge (two punctures)": 24
+   },
+   "members on each parity": [
+    16,
+    16,
+    16
+   ]
+  },
+  "b+-LR": {
+   "kinds": {
+    "fixed by one translation": 6
+   },
+   "members on each parity": [
+    2,
+    2,
+    2
+   ]
+  }
+ },
+ "checks": [
+  {
+   "check": "the seat's table: characters, members and orbits at order 4, characters and members at order 3, on every thread that is complete",
+   "holds": true,
+   "detail": "12 of 12 threads complete; agreeing: 12; differing: []"
+  },
+  {
+   "check": "members appear only on +LR and -LR among the threads that are complete",
+   "holds": true,
+   "detail": "['b++LR', 'b+-LR']"
+  },
+  {
+   "check": "CONTROL: at the sign characters the readings are B1602's stored rows, as a multiset, on every complete thread",
+   "holds": true,
+   "detail": "480 sign characters on 12 threads"
+  },
+  {
+   "check": "CONTROL: every orbit that holds a member was read in full and reads alike",
+   "holds": true,
+   "detail": "[('b++LR', 4, True, True), ('b++LR', 3, True, True), ('b+-LR', 4, True, True), ('b+-LR', 3, True, True)]"
+  },
+  {
+   "check": "on +LR: 48 members have a parity, 16 on each, and 6 are fixed by all three translations (the seat's B1550 and W6)",
+   "holds": true,
+   "detail": "{'kinds': {'fixed by one translation': 24, 'fixed by all three translations': 6, 'on an edge (two punctures)': 24}, 'members on each parity': [16, 16, 16]}"
+  }
+ ],
+ "failing": []
+}

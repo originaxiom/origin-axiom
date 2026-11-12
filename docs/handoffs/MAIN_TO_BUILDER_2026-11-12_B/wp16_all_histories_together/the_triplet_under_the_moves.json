@@ -1,0 +1,130 @@
+{
+ "the record's triplet T (B1610's matrices)": {
+  "eigenvalues of the averaged move": [
+   [
+    0.50933598,
+    0.554941051
+   ],
+   [
+    0.50933598,
+    -0.554941051
+   ],
+   [
+    -0.311565178,
+    0.0
+   ]
+  ],
+  "their moduli": [
+   0.753248107,
+   0.753248107,
+   0.311565178
+  ],
+  "rate": 0.753248107,
+  "with the inverse moves": [
+   0.707106781,
+   -0.353553391,
+   0.353553391
+  ],
+  "braid relation holds": true,
+  "S^2, S^4": [
+   "scalar 1j",
+   "scalar (-1+0j)"
+  ]
+ },
+ "the three theta constants, classical": {
+  "eigenvalues of the averaged move": [
+   [
+    0.707106781,
+    -0.0
+   ],
+   [
+    -0.5,
+    -0.0
+   ],
+   [
+    0.5,
+    0.0
+   ]
+  ],
+  "their moduli": [
+   0.707106781,
+   0.5,
+   0.5
+  ],
+  "rate": 0.707106781,
+  "with the inverse moves": [
+   0.905645682,
+   -0.552092292,
+   0.353553391
+  ],
+  "braid relation holds": true,
+  "S^2, S^4": [
+   "scalar 1j",
+   "scalar (-1+0j)"
+  ]
+ },
+ "the same with the other lift of R (-R)": {
+  "eigenvalues of the averaged move": [
+   [
+    0.764744877,
+    0.213331198
+   ],
+   [
+    -0.764744877,
+    0.213331198
+   ],
+   [
+    -0.0,
+    0.280444385
+   ]
+  ],
+  "their moduli": [
+   0.793942647,
+   0.793942647,
+   0.280444385
+  ],
+  "rate": 0.793942647,
+  "with the inverse moves": [
+   0.790569415,
+   -0.790569415,
+   -0.0
+  ],
+  "braid relation holds": false,
+  "S^2, S^4": [
+   "scalar 1j",
+   "scalar (-1+0j)"
+  ]
+ },
+ "the record's triplet with -R": {
+  "eigenvalues of the averaged move": [
+   [
+    -0.554941051,
+    -0.50933598
+   ],
+   [
+    0.554941051,
+    -0.50933598
+   ],
+   [
+    0.0,
+    0.311565178
+   ]
+  ],
+  "their moduli": [
+   0.753248107,
+   0.753248107,
+   0.311565178
+  ],
+  "rate": 0.753248107,
+  "with the inverse moves": [
+   -0.612372436,
+   0.612372436,
+   0.0
+  ],
+  "braid relation holds": false,
+  "S^2, S^4": [
+   "scalar 1j",
+   "scalar (-1+0j)"
+  ]
+ }
+}

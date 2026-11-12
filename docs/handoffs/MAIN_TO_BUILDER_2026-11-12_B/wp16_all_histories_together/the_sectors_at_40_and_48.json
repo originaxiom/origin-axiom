@@ -1,0 +1,23 @@
+{
+ "40": {
+  "vertices": 7680,
+  "the eigenvalue": 2.906279600020663,
+  "its multiplicity among those found": 4,
+  "central element 9 (-1 mod 5, +1 mod 8): trace": -4.0,
+  "central element 31 (-1 mod 8, +1 mod 5): trace": -4.0
+ },
+ "48": {
+  "vertices": 12288,
+  "the eigenvalue": -2.9318516525781817,
+  "its multiplicity among those found": 6,
+  "central element 17 (-1 mod 3, +1 mod 16): trace": 6.0,
+  "central element 31 (-1 mod 16, +1 mod 3): trace": 6.0
+ },
+ "15": {
+  "vertices": 480,
+  "the eigenvalue": -2.9062796000206377,
+  "its multiplicity among those found": 4,
+  "central element 11 (-1 mod 3, +1 mod 5): trace": -4.0,
+  "central element 4 (-1 mod 5, +1 mod 3): trace": -4.0
+ }
+}

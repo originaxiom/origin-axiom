@@ -1,0 +1,311 @@
+{
+ "checks": [
+  {
+   "check": "Z1: S^2 = -1, U^3 = 1, L = S U, R = -S U^-1, in integers",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "Z1: every positive word to length 10 is, up to the central sign, the alternating word S U^e S U^e ... (e = +1 for L, -1 for R); the sign is (-1)^(number of R)",
+   "holds": true,
+   "detail": "2046 words"
+  },
+  {
+   "check": "Z2: Amitsur's identity for (L, R) to order 10: det(1 - u(L + R)) is the product over Lyndon words of det(1 - u^|w| w)",
+   "holds": true,
+   "detail": "226 Lyndon words; the left side begins [1, -4, 3, 0, 0, 0]"
+  },
+  {
+   "check": "Z2: the same for a pair of integer 3 by 3 matrices that have nothing to do with the moves, to order 8",
+   "holds": true,
+   "detail": "71 Lyndon words"
+  },
+  {
+   "check": "planted: with one Lyndon word left out of the product the identity fails",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "Z3: det(1 - u(L + R)) = (1 - u)(1 - 3u)",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "Z3: the product over threads of (1 - tr(w) u^|w| + u^2|w|) is (1 - 3u) / (1 - u)^3, to order 14",
+   "holds": true,
+   "detail": "2536 threads to length 14; of length 2, 3, 4: traces [[3], [4, 4], [5, 5, 6]]"
+  },
+  {
+   "check": "Z4, even: at every level from 2 to 13 the three-valent graph obeys Ramanujan's bound",
+   "holds": true,
+   "detail": "{2: 0.0, 3: np.float64(1.0), 4: np.float64(1.0), 5: np.float64(2.236068), 6: np.float64(2.0), 7: np.float64(2.561553), 8: np.float64(2.414214), 9: np.float64(2.732051), 10: np.float64(2.618034), 11: np.float64(2.732051), 12: np.float64(2.561553), 13: np.float64(2.825573)}"
+  },
+  {
+   "check": "Z4, even: and every even sector's rate is one the graph's spectrum predicts: 1/sqrt 2, or 1/2",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "Z4: the graph is two-coloured exactly at the even levels, where the sector that never cancels lives (the parity of the number of moves)",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "Z4, odd: no odd sector cancels slower than sqrt 3 / 2",
+   "holds": true,
+   "detail": "the slowest: 0.866025404; 86 odd sectors"
+  },
+  {
+   "check": "Z4, odd: thirteen sectors cancel at exactly sqrt 3 / 2: the two-dimensional ones of levels 3, 4, 5, 6, 8, 10 and four characters of level 12",
+   "holds": true,
+   "detail": "[(3, 2), (4, 2), (5, 2), (5, 2), (6, 2), (8, 2), (8, 2), (10, 2), (10, 2), (12, 1), (12, 1), (12, 1), (12, 1)]"
+  },
+  {
+   "check": "Z4, odd: in every odd sector where U fixes no vector the rate is sqrt 3 / 2 (the theorem), and those sectors are exactly the thirteen",
+   "holds": true,
+   "detail": "13 odd sectors where U fixes no vector"
+  },
+  {
+   "check": "Z4, even: every even sector of dimension above 1 has a vector that U fixes (so each is seen by the level's graph) but for those at rate 1/2",
+   "holds": true,
+   "detail": "80 even sectors; 5 with no vector U fixes, all at rate 1/2: True"
+  },
+  {
+   "check": "planted: with one edge of the level-7 graph moved, its largest eigenvalue below 3 is no longer the true graph's",
+   "holds": true,
+   "detail": "3.011919 against 2.561553"
+  }
+ ],
+ "failing": [],
+ "levels": {
+  "2": {
+   "order of PSL": 6,
+   "vertices": 2,
+   "largest eigenvalue in modulus below 3": 0.0,
+   "within 2 sqrt 2": true,
+   "two-coloured (an eigenvalue -3)": true,
+   "rates of the even sectors": [
+    0.5
+   ],
+   "predicted from the graph": [
+    0.5
+   ]
+  },
+  "3": {
+   "order of PSL": 12,
+   "vertices": 4,
+   "largest eigenvalue in modulus below 3": 1.0,
+   "within 2 sqrt 2": true,
+   "two-coloured (an eigenvalue -3)": false,
+   "rates of the even sectors": [
+    0.5,
+    0.707107
+   ],
+   "predicted from the graph": [
+    0.5,
+    0.707107
+   ]
+  },
+  "4": {
+   "order of PSL": 24,
+   "vertices": 8,
+   "largest eigenvalue in modulus below 3": 1.0,
+   "within 2 sqrt 2": true,
+   "two-coloured (an eigenvalue -3)": true,
+   "rates of the even sectors": [
+    0.5,
+    0.707107
+   ],
+   "predicted from the graph": [
+    0.5,
+    0.707107
+   ]
+  },
+  "5": {
+   "order of PSL": 60,
+   "vertices": 20,
+   "largest eigenvalue in modulus below 3": 2.236068,
+   "within 2 sqrt 2": true,
+   "two-coloured (an eigenvalue -3)": false,
+   "rates of the even sectors": [
+    0.707107
+   ],
+   "predicted from the graph": [
+    0.5,
+    0.707107
+   ]
+  },
+  "6": {
+   "order of PSL": 72,
+   "vertices": 24,
+   "largest eigenvalue in modulus below 3": 2.0,
+   "within 2 sqrt 2": true,
+   "two-coloured (an eigenvalue -3)": true,
+   "rates of the even sectors": [
+    0.5,
+    0.707107
+   ],
+   "predicted from the graph": [
+    0.5,
+    0.707107
+   ]
+  },
+  "7": {
+   "order of PSL": 168,
+   "vertices": 56,
+   "largest eigenvalue in modulus below 3": 2.561553,
+   "within 2 sqrt 2": true,
+   "two-coloured (an eigenvalue -3)": false,
+   "rates of the even sectors": [
+    0.707107
+   ],
+   "predicted from the graph": [
+    0.5,
+    0.707107
+   ]
+  },
+  "8": {
+   "order of PSL": 192,
+   "vertices": 64,
+   "largest eigenvalue in modulus below 3": 2.414214,
+   "within 2 sqrt 2": true,
+   "two-coloured (an eigenvalue -3)": true,
+   "rates of the even sectors": [
+    0.5,
+    0.707107
+   ],
+   "predicted from the graph": [
+    0.5,
+    0.707107
+   ]
+  },
+  "9": {
+   "order of PSL": 324,
+   "vertices": 108,
+   "largest eigenvalue in modulus below 3": 2.732051,
+   "within 2 sqrt 2": true,
+   "two-coloured (an eigenvalue -3)": false,
+   "rates of the even sectors": [
+    0.5,
+    0.707107
+   ],
+   "predicted from the graph": [
+    0.5,
+    0.707107
+   ]
+  },
+  "10": {
+   "order of PSL": 360,
+   "vertices": 120,
+   "largest eigenvalue in modulus below 3": 2.618034,
+   "within 2 sqrt 2": true,
+   "two-coloured (an eigenvalue -3)": true,
+   "rates of the even sectors": [
+    0.5,
+    0.707107
+   ],
+   "predicted from the graph": [
+    0.5,
+    0.707107
+   ]
+  },
+  "11": {
+   "order of PSL": 660,
+   "vertices": 220,
+   "largest eigenvalue in modulus below 3": 2.732051,
+   "within 2 sqrt 2": true,
+   "two-coloured (an eigenvalue -3)": false,
+   "rates of the even sectors": [
+    0.707107
+   ],
+   "predicted from the graph": [
+    0.5,
+    0.707107
+   ]
+  },
+  "12": {
+   "order of PSL": 576,
+   "vertices": 192,
+   "largest eigenvalue in modulus below 3": 2.561553,
+   "within 2 sqrt 2": true,
+   "two-coloured (an eigenvalue -3)": true,
+   "rates of the even sectors": [
+    0.5,
+    0.707107
+   ],
+   "predicted from the graph": [
+    0.5,
+    0.707107
+   ]
+  },
+  "13": {
+   "order of PSL": 1092,
+   "vertices": 364,
+   "largest eigenvalue in modulus below 3": 2.825573,
+   "within 2 sqrt 2": true,
+   "two-coloured (an eigenvalue -3)": false,
+   "rates of the even sectors": [
+    0.707107
+   ],
+   "predicted from the graph": [
+    0.5,
+    0.707107
+   ]
+  }
+ },
+ "odd sectors at sqrt 3 / 2": [
+  [
+   3,
+   2
+  ],
+  [
+   4,
+   2
+  ],
+  [
+   5,
+   2
+  ],
+  [
+   5,
+   2
+  ],
+  [
+   6,
+   2
+  ],
+  [
+   8,
+   2
+  ],
+  [
+   8,
+   2
+  ],
+  [
+   10,
+   2
+  ],
+  [
+   10,
+   2
+  ],
+  [
+   12,
+   1
+  ],
+  [
+   12,
+   1
+  ],
+  [
+   12,
+   1
+  ],
+  [
+   12,
+   1
+  ]
+ ],
+ "threads to length 14": 2536
+}

@@ -1,0 +1,20 @@
+ok    B1 on the record's triplet: S^2 = U^3 = i, and the singular values of the averaged move are cos 15, cos 45, cos 75 degrees  [singular values [0.96592583, 0.70710678, 0.25881905]; rate 0.753248107; |det| 0.176776695 (sqrt2 / 8 = 0.176776695)]
+ok    B1 on the three theta constants, classical: S^2 = U^3 = i, and the singular values of the averaged move are cos 15, cos 45, cos 75 degrees  [singular values [0.96592583, 0.70710678, 0.25881905]; rate 0.707106781; |det| 0.176776695 (sqrt2 / 8 = 0.176776695)]
+level 3: 3 two-dimensional odd sectors; traces of U: [np.complex128(-0.5-0.866025j), np.complex128(-0.5+0.866025j), np.complex128(1-0j)]; their own rates: [0.5, 0.5, 0.866025]
+level 5: 2 two-dimensional odd sectors; traces of L: [np.complex128(0.618034+0j), np.complex128(-1.618034+0j)]; their own rates: [0.866025, 0.866025]
+   level-3 doublet with tr U = (-0.5-0.866j)  x  level-5 doublet with tr L = +0.618034 :  moduli [0.707106781, 0.707106781, 0.5, 0.5]
+   level-3 doublet with tr U = (-0.5-0.866j)  x  level-5 doublet with tr L = -1.618034 :  moduli [0.707106781, 0.707106781, 0.5, 0.5]
+   level-3 doublet with tr U = (-0.5+0.866j)  x  level-5 doublet with tr L = +0.618034 :  moduli [0.707106781, 0.707106781, 0.5, 0.5]
+   level-3 doublet with tr U = (-0.5+0.866j)  x  level-5 doublet with tr L = -1.618034 :  moduli [0.707106781, 0.707106781, 0.5, 0.5]
+   level-3 doublet with tr U = (1-0j)  x  level-5 doublet with tr L = +0.618034 :  moduli [0.893614264, 0.707106781, 0.707106781, 0.559525536]
+   level-3 doublet with tr U = (1-0j)  x  level-5 doublet with tr L = -1.618034 :  moduli [0.707106781, 0.707106781, 0.707106781, 0.707106781]
+the slowest of the six: rate 0.893614264; the graph's eigenvalue -2.9062796 gives 0.893614264; agree: True
+its two real eigenvalues multiply to 0.000000000 (the law says 1/2) and add to 0.000000000 (the law says half the graph's eigenvalue: -1.453139800)
+ok    B1 on the five two-dimensional odd sectors of levels 3 and 5: c = -1, and the singular values are U's cosines  [{'level 3, doublet 0': [0.8660254, 0.0], 'level 3, doublet 1': [0.8660254, 0.0], 'level 3, doublet 2': [0.8660254, 0.8660254], 'level 5, doublet 0': [0.8660254, 0.8660254], 'level 5, doublet 1': [0.8660254, 0.8660254]}]
+ok    B1 on their six joins: c = +1, and the singular values are 1 and 1/2 in the numbers U's fixed vectors give  [{'join 0 x 0': ([1.0, 0.5, 0.5, 0.5], 0.707106781), 'join 0 x 1': ([1.0, 0.5, 0.5, 0.5], 0.707106781), 'join 1 x 0': ([1.0, 0.5, 0.5, 0.5], 0.707106781), 'join 1 x 1': ([1.0, 0.5, 0.5, 0.5], 0.707106781), 'join 2 x 0': ([1.0, 1.0, 0.5, 0.5], 0.893614264), 'join 2 x 1': ([1.0, 1.0, 0.5, 0.5], 0.707106781)}]
+ok    the triplet, exactly: det(x - (T_L + T_R)) = x^3 - sqrt2 x^2 + x + sqrt2 (from the monomial form of B1866's lock, which has the spectrum of B1610's matrices)  [x**3 - sqrt(2)*x**2 + x + sqrt(2)]
+ok    the three theta constants, exactly: det(x - (L + R)) = (x - sqrt2)(x - 1)(x + 1)
+ok    with x = sqrt2 y the triplet's polynomial is 2y^3 - 2y^2 + y + 1, irreducible over the rationals, of discriminant -152  [discriminant -152]
+ok    planted: with R replaced by its inverse the law's hypothesis fails or its singular values are not U's cosines  [{'S^2 = U^3 is a scalar': False, 'c': None, 'singular values': [1.0, 0.5, 0.5], "cosines of half U's arguments": [1.0, 0.5, 0.5], 'agree': False, 'rate': 0.707106781, '|det|': 0.25}]
+
+8 checks, 0 failing

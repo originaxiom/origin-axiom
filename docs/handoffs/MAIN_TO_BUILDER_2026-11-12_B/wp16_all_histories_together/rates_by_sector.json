@@ -1,0 +1,3055 @@
+{
+ "levels": {
+  "2": {
+   "order": 6,
+   "classes": 3,
+   "sectors": [
+    {
+     "dimension": 1,
+     "level": 1,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 1.0,
+     "top eigenvalue": [
+      1.0,
+      0.0
+     ],
+     "rate, with the inverse moves": 1.0
+    },
+    {
+     "dimension": 2,
+     "level": 2,
+     "sign on -1": 1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.5,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 1,
+     "level": 2,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 1.0,
+     "top eigenvalue": [
+      -1.0,
+      0.0
+     ],
+     "rate, with the inverse moves": 1.0
+    }
+   ]
+  },
+  "3": {
+   "order": 24,
+   "classes": 7,
+   "sectors": [
+    {
+     "dimension": 1,
+     "level": 1,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 1.0,
+     "top eigenvalue": [
+      1.0,
+      0.0
+     ],
+     "rate, with the inverse moves": 1.0
+    },
+    {
+     "dimension": 2,
+     "level": 3,
+     "sign on -1": -1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.866025404,
+     "top eigenvalue": [
+      -0.5,
+      -0.707106781
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 3,
+     "level": 3,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.25,
+      -0.661437828
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 1,
+     "level": 3,
+     "sign on -1": 1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 1,
+     "level": 3,
+     "sign on -1": 1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.5,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 2,
+     "level": 3,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.683012702
+    },
+    {
+     "dimension": 2,
+     "level": 3,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.683012702
+    }
+   ]
+  },
+  "4": {
+   "order": 48,
+   "classes": 10,
+   "sectors": [
+    {
+     "dimension": 1,
+     "level": 2,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 1.0,
+     "top eigenvalue": [
+      -1.0,
+      0.0
+     ],
+     "rate, with the inverse moves": 1.0
+    },
+    {
+     "dimension": 3,
+     "level": 4,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.25,
+      0.661437828
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 1,
+     "level": 1,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 1.0,
+     "top eigenvalue": [
+      1.0,
+      0.0
+     ],
+     "rate, with the inverse moves": 1.0
+    },
+    {
+     "dimension": 3,
+     "level": 4,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.707106781
+    },
+    {
+     "dimension": 3,
+     "level": 4,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.707106781
+    },
+    {
+     "dimension": 2,
+     "level": 4,
+     "sign on -1": -1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.866025404,
+     "top eigenvalue": [
+      -0.0,
+      -0.866025404
+     ],
+     "rate, with the inverse moves": 0.0
+    },
+    {
+     "dimension": 3,
+     "level": 4,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.25,
+      0.661437828
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 1,
+     "level": 4,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.0,
+     "top eigenvalue": [
+      0.0,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.0
+    },
+    {
+     "dimension": 1,
+     "level": 4,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.0,
+     "top eigenvalue": [
+      -0.0,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.0
+    },
+    {
+     "dimension": 2,
+     "level": 2,
+     "sign on -1": 1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.5,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.5
+    }
+   ]
+  },
+  "5": {
+   "order": 120,
+   "classes": 9,
+   "sectors": [
+    {
+     "dimension": 2,
+     "level": 5,
+     "sign on -1": -1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.866025404,
+     "top eigenvalue": [
+      -0.809016994,
+      -0.309016994
+     ],
+     "rate, with the inverse moves": 0.809016994
+    },
+    {
+     "dimension": 4,
+     "level": 5,
+     "sign on -1": 1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.0,
+      -0.707106781
+     ],
+     "rate, with the inverse moves": 0.75
+    },
+    {
+     "dimension": 5,
+     "level": 5,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.25,
+      0.661437828
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 4,
+     "level": 5,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.5,
+      0.5
+     ],
+     "rate, with the inverse moves": 0.603553391
+    },
+    {
+     "dimension": 1,
+     "level": 1,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 1.0,
+     "top eigenvalue": [
+      1.0,
+      0.0
+     ],
+     "rate, with the inverse moves": 1.0
+    },
+    {
+     "dimension": 3,
+     "level": 5,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.559016994,
+      -0.433012702
+     ],
+     "rate, with the inverse moves": 0.809016994
+    },
+    {
+     "dimension": 2,
+     "level": 5,
+     "sign on -1": -1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.866025404,
+     "top eigenvalue": [
+      0.309016994,
+      -0.809016994
+     ],
+     "rate, with the inverse moves": 0.309016994
+    },
+    {
+     "dimension": 6,
+     "level": 5,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.725802981
+    },
+    {
+     "dimension": 3,
+     "level": 5,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.559016994,
+      0.433012702
+     ],
+     "rate, with the inverse moves": 0.809016994
+    }
+   ]
+  },
+  "6": {
+   "order": 144,
+   "classes": 21,
+   "sectors": [
+    {
+     "dimension": 1,
+     "level": 1,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 1.0,
+     "top eigenvalue": [
+      1.0,
+      0.0
+     ],
+     "rate, with the inverse moves": 1.0
+    },
+    {
+     "dimension": 1,
+     "level": 6,
+     "sign on -1": 1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 1,
+     "level": 6,
+     "sign on -1": 1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 1,
+     "level": 3,
+     "sign on -1": 1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.5,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 1,
+     "level": 3,
+     "sign on -1": 1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.5,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 2,
+     "level": 6,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.0,
+      0.707106781
+     ],
+     "rate, with the inverse moves": 0.25
+    },
+    {
+     "dimension": 2,
+     "level": 6,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.0,
+      0.707106781
+     ],
+     "rate, with the inverse moves": 0.25
+    },
+    {
+     "dimension": 1,
+     "level": 2,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 1.0,
+     "top eigenvalue": [
+      -1.0,
+      0.0
+     ],
+     "rate, with the inverse moves": 1.0
+    },
+    {
+     "dimension": 2,
+     "level": 6,
+     "sign on -1": -1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.866025404,
+     "top eigenvalue": [
+      0.5,
+      0.707106781
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 4,
+     "level": 6,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.761368719
+    },
+    {
+     "dimension": 4,
+     "level": 6,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.761368719
+    },
+    {
+     "dimension": 2,
+     "level": 6,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.683012702
+    },
+    {
+     "dimension": 2,
+     "level": 6,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.683012702
+    },
+    {
+     "dimension": 2,
+     "level": 3,
+     "sign on -1": -1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.866025404,
+     "top eigenvalue": [
+      -0.5,
+      0.707106781
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 6,
+     "level": 6,
+     "sign on -1": 1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.5,
+      0.5
+     ],
+     "rate, with the inverse moves": 0.75
+    },
+    {
+     "dimension": 2,
+     "level": 3,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.683012702
+    },
+    {
+     "dimension": 2,
+     "level": 3,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.683012702
+    },
+    {
+     "dimension": 3,
+     "level": 6,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.25,
+      0.661437828
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 4,
+     "level": 6,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.0,
+      -0.707106781
+     ],
+     "rate, with the inverse moves": 0.25
+    },
+    {
+     "dimension": 3,
+     "level": 3,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.25,
+      0.661437828
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 2,
+     "level": 2,
+     "sign on -1": 1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.5
+    }
+   ]
+  },
+  "7": {
+   "order": 336,
+   "classes": 11,
+   "sectors": [
+    {
+     "dimension": 3,
+     "level": 7,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.5,
+      -0.5
+     ],
+     "rate, with the inverse moves": 0.75
+    },
+    {
+     "dimension": 3,
+     "level": 7,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.5,
+      -0.5
+     ],
+     "rate, with the inverse moves": 0.75
+    },
+    {
+     "dimension": 7,
+     "level": 7,
+     "sign on -1": 1,
+     "vectors U fixes": 3,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.0,
+      -0.707106781
+     ],
+     "rate, with the inverse moves": 0.890388203
+    },
+    {
+     "dimension": 1,
+     "level": 1,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 1.0,
+     "top eigenvalue": [
+      1.0,
+      0.0
+     ],
+     "rate, with the inverse moves": 1.0
+    },
+    {
+     "dimension": 8,
+     "level": 7,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.658037006,
+     "top eigenvalue": [
+      -0.46530243,
+      0.46530243
+     ],
+     "rate, with the inverse moves": 0.76284356
+    },
+    {
+     "dimension": 6,
+     "level": 7,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.790153883,
+     "top eigenvalue": [
+      -0.7549474,
+      -0.233232892
+     ],
+     "rate, with the inverse moves": 0.796971106
+    },
+    {
+     "dimension": 8,
+     "level": 7,
+     "sign on -1": 1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.103553391,
+      0.699483163
+     ],
+     "rate, with the inverse moves": 0.853553391
+    },
+    {
+     "dimension": 4,
+     "level": 7,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.732029206
+    },
+    {
+     "dimension": 4,
+     "level": 7,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.732029206
+    },
+    {
+     "dimension": 6,
+     "level": 7,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.787676633,
+     "top eigenvalue": [
+      -0.167291921,
+      0.769706367
+     ],
+     "rate, with the inverse moves": 0.577932267
+    },
+    {
+     "dimension": 6,
+     "level": 7,
+     "sign on -1": 1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.353553391,
+      -0.612372436
+     ],
+     "rate, with the inverse moves": 0.603553391
+    }
+   ]
+  },
+  "8": {
+   "order": 384,
+   "classes": 30,
+   "sectors": [
+    {
+     "dimension": 1,
+     "level": 2,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 1.0,
+     "top eigenvalue": [
+      -1.0,
+      0.0
+     ],
+     "rate, with the inverse moves": 1.0
+    },
+    {
+     "dimension": 1,
+     "level": 1,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 1.0,
+     "top eigenvalue": [
+      1.0,
+      0.0
+     ],
+     "rate, with the inverse moves": 1.0
+    },
+    {
+     "dimension": 2,
+     "level": 8,
+     "sign on -1": 1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 2,
+     "level": 8,
+     "sign on -1": 1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 1,
+     "level": 4,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.0,
+     "top eigenvalue": [
+      0.0,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.0
+    },
+    {
+     "dimension": 1,
+     "level": 4,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.0,
+     "top eigenvalue": [
+      0.0,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.0
+    },
+    {
+     "dimension": 2,
+     "level": 2,
+     "sign on -1": 1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 3,
+     "level": 4,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.25,
+      -0.661437828
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 3,
+     "level": 8,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.500000002,
+     "top eigenvalue": [
+      0.500000002,
+      1.4e-08
+     ],
+     "rate, with the inverse moves": 0.809016994
+    },
+    {
+     "dimension": 3,
+     "level": 8,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.500000014,
+     "top eigenvalue": [
+      0.500000014,
+      3e-09
+     ],
+     "rate, with the inverse moves": 0.809016994
+    },
+    {
+     "dimension": 3,
+     "level": 8,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.25,
+      0.661437828
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 3,
+     "level": 8,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.25,
+      -0.661437828
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 4,
+     "level": 8,
+     "sign on -1": 1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.433012702,
+      0.559016994
+     ],
+     "rate, with the inverse moves": 0.683012702
+    },
+    {
+     "dimension": 2,
+     "level": 8,
+     "sign on -1": -1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.866025404,
+     "top eigenvalue": [
+      0.707106781,
+      -0.5
+     ],
+     "rate, with the inverse moves": 0.707106781
+    },
+    {
+     "dimension": 4,
+     "level": 8,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.0,
+      -0.5
+     ],
+     "rate, with the inverse moves": 0.353553391
+    },
+    {
+     "dimension": 2,
+     "level": 4,
+     "sign on -1": -1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.866025404,
+     "top eigenvalue": [
+      0.0,
+      0.866025404
+     ],
+     "rate, with the inverse moves": 0.0
+    },
+    {
+     "dimension": 3,
+     "level": 4,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.707106781
+    },
+    {
+     "dimension": 3,
+     "level": 4,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.707106781
+    },
+    {
+     "dimension": 6,
+     "level": 8,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.0,
+      -0.5
+     ],
+     "rate, with the inverse moves": 0.742816731
+    },
+    {
+     "dimension": 6,
+     "level": 8,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.0,
+      0.5
+     ],
+     "rate, with the inverse moves": 0.742816731
+    },
+    {
+     "dimension": 3,
+     "level": 8,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.25,
+      -0.661437828
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 3,
+     "level": 8,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.25,
+      0.661437828
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 3,
+     "level": 8,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.500000012,
+     "top eigenvalue": [
+      -0.500000012,
+      -8e-09
+     ],
+     "rate, with the inverse moves": 0.809016994
+    },
+    {
+     "dimension": 3,
+     "level": 8,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.500000002,
+     "top eigenvalue": [
+      -0.500000002,
+      1.9e-08
+     ],
+     "rate, with the inverse moves": 0.809016994
+    },
+    {
+     "dimension": 3,
+     "level": 4,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.25,
+      -0.661437828
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 6,
+     "level": 8,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.747674391,
+     "top eigenvalue": [
+      0.393075689,
+      -0.636009825
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 6,
+     "level": 8,
+     "sign on -1": 1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.603553391,
+      -0.36840644
+     ],
+     "rate, with the inverse moves": 0.853553391
+    },
+    {
+     "dimension": 6,
+     "level": 8,
+     "sign on -1": 1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.603553391,
+      0.36840644
+     ],
+     "rate, with the inverse moves": 0.853553391
+    },
+    {
+     "dimension": 6,
+     "level": 8,
+     "sign on -1": 1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.559016994,
+      -0.433012702
+     ],
+     "rate, with the inverse moves": 0.809016994
+    },
+    {
+     "dimension": 2,
+     "level": 8,
+     "sign on -1": -1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.866025404,
+     "top eigenvalue": [
+      -0.707106781,
+      -0.5
+     ],
+     "rate, with the inverse moves": 0.707106781
+    }
+   ]
+  },
+  "9": {
+   "order": 648,
+   "classes": 25,
+   "sectors": [
+    {
+     "dimension": 1,
+     "level": 1,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 1.0,
+     "top eigenvalue": [
+      1.0,
+      0.0
+     ],
+     "rate, with the inverse moves": 1.0
+    },
+    {
+     "dimension": 4,
+     "level": 9,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.25,
+      0.433012702
+     ],
+     "rate, with the inverse moves": 0.623876914
+    },
+    {
+     "dimension": 4,
+     "level": 9,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.25,
+      -0.433012702
+     ],
+     "rate, with the inverse moves": 0.623876914
+    },
+    {
+     "dimension": 1,
+     "level": 3,
+     "sign on -1": 1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 1,
+     "level": 3,
+     "sign on -1": 1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 4,
+     "level": 9,
+     "sign on -1": 1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.575693909,
+      0.410580714
+     ],
+     "rate, with the inverse moves": 0.825693909
+    },
+    {
+     "dimension": 4,
+     "level": 9,
+     "sign on -1": 1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.325693909,
+      0.627633235
+     ],
+     "rate, with the inverse moves": 0.825693909
+    },
+    {
+     "dimension": 4,
+     "level": 9,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.787371537,
+     "top eigenvalue": [
+      -0.787371537,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.833061625
+    },
+    {
+     "dimension": 4,
+     "level": 9,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.787371537,
+     "top eigenvalue": [
+      -0.787371537,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.833061625
+    },
+    {
+     "dimension": 2,
+     "level": 3,
+     "sign on -1": -1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.866025404,
+     "top eigenvalue": [
+      -0.5,
+      -0.707106781
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 4,
+     "level": 9,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.5,
+      -0.5
+     ],
+     "rate, with the inverse moves": 0.75
+    },
+    {
+     "dimension": 4,
+     "level": 9,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.5,
+      0.5
+     ],
+     "rate, with the inverse moves": 0.75
+    },
+    {
+     "dimension": 4,
+     "level": 9,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.25,
+      0.661437828
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 4,
+     "level": 9,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.25,
+      0.661437828
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 4,
+     "level": 9,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.500000002,
+     "top eigenvalue": [
+      0.500000002,
+      8e-09
+     ],
+     "rate, with the inverse moves": 0.821642697
+    },
+    {
+     "dimension": 4,
+     "level": 9,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.500000004,
+     "top eigenvalue": [
+      0.500000004,
+      1.8e-08
+     ],
+     "rate, with the inverse moves": 0.821642697
+    },
+    {
+     "dimension": 3,
+     "level": 3,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.25,
+      0.661437828
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 2,
+     "level": 3,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.683012702
+    },
+    {
+     "dimension": 2,
+     "level": 3,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.683012702
+    },
+    {
+     "dimension": 6,
+     "level": 9,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.808604345,
+     "top eigenvalue": [
+      0.620319605,
+      -0.518695069
+     ],
+     "rate, with the inverse moves": 0.725484552
+    },
+    {
+     "dimension": 12,
+     "level": 9,
+     "sign on -1": 1,
+     "vectors U fixes": 4,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.25,
+      0.661437828
+     ],
+     "rate, with the inverse moves": 0.878534232
+    },
+    {
+     "dimension": 6,
+     "level": 9,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.770773716,
+     "top eigenvalue": [
+      0.271325862,
+      0.721439116
+     ],
+     "rate, with the inverse moves": 0.567302458
+    },
+    {
+     "dimension": 12,
+     "level": 9,
+     "sign on -1": -1,
+     "vectors U fixes": 4,
+     "rate, moves L and R": 0.719533362,
+     "top eigenvalue": [
+      -0.192080504,
+      0.693421473
+     ],
+     "rate, with the inverse moves": 0.749161248
+    },
+    {
+     "dimension": 6,
+     "level": 9,
+     "sign on -1": 1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.0,
+      0.707106781
+     ],
+     "rate, with the inverse moves": 0.75
+    },
+    {
+     "dimension": 6,
+     "level": 9,
+     "sign on -1": 1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.683012702,
+      0.183012702
+     ],
+     "rate, with the inverse moves": 0.933012702
+    }
+   ]
+  },
+  "10": {
+   "order": 720,
+   "classes": 27,
+   "sectors": [
+    {
+     "dimension": 1,
+     "level": 1,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 1.0,
+     "top eigenvalue": [
+      1.0,
+      0.0
+     ],
+     "rate, with the inverse moves": 1.0
+    },
+    {
+     "dimension": 2,
+     "level": 5,
+     "sign on -1": -1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.866025404,
+     "top eigenvalue": [
+      0.309016994,
+      -0.809016994
+     ],
+     "rate, with the inverse moves": 0.309016994
+    },
+    {
+     "dimension": 4,
+     "level": 10,
+     "sign on -1": 1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.0,
+      0.707106781
+     ],
+     "rate, with the inverse moves": 0.75
+    },
+    {
+     "dimension": 3,
+     "level": 10,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.559016994,
+      0.433012702
+     ],
+     "rate, with the inverse moves": 0.809016994
+    },
+    {
+     "dimension": 2,
+     "level": 5,
+     "sign on -1": -1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.866025404,
+     "top eigenvalue": [
+      -0.809016994,
+      0.309016994
+     ],
+     "rate, with the inverse moves": 0.809016994
+    },
+    {
+     "dimension": 3,
+     "level": 5,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.559016994,
+      0.433012702
+     ],
+     "rate, with the inverse moves": 0.809016994
+    },
+    {
+     "dimension": 2,
+     "level": 10,
+     "sign on -1": -1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.866025404,
+     "top eigenvalue": [
+      0.809016994,
+      0.309016994
+     ],
+     "rate, with the inverse moves": 0.809016994
+    },
+    {
+     "dimension": 4,
+     "level": 5,
+     "sign on -1": 1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.5,
+      0.5
+     ],
+     "rate, with the inverse moves": 0.75
+    },
+    {
+     "dimension": 4,
+     "level": 5,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.5,
+      -0.5
+     ],
+     "rate, with the inverse moves": 0.603553391
+    },
+    {
+     "dimension": 4,
+     "level": 10,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.309016994,
+     "top eigenvalue": [
+      -0.0,
+      -0.309016994
+     ],
+     "rate, with the inverse moves": 0.404508497
+    },
+    {
+     "dimension": 2,
+     "level": 2,
+     "sign on -1": 1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 5,
+     "level": 5,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.25,
+      -0.661437828
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 3,
+     "level": 10,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.559016994,
+      -0.433012702
+     ],
+     "rate, with the inverse moves": 0.809016994
+    },
+    {
+     "dimension": 5,
+     "level": 10,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.25,
+      0.661437828
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 2,
+     "level": 10,
+     "sign on -1": -1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.866025404,
+     "top eigenvalue": [
+      -0.309016994,
+      0.809016994
+     ],
+     "rate, with the inverse moves": 0.309016994
+    },
+    {
+     "dimension": 4,
+     "level": 10,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.5,
+      0.5
+     ],
+     "rate, with the inverse moves": 0.603553391
+    },
+    {
+     "dimension": 8,
+     "level": 10,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.742800728,
+     "top eigenvalue": [
+      -0.451506573,
+      0.589826021
+     ],
+     "rate, with the inverse moves": 0.572061403
+    },
+    {
+     "dimension": 6,
+     "level": 5,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.725802981
+    },
+    {
+     "dimension": 6,
+     "level": 10,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.0,
+      0.5
+     ],
+     "rate, with the inverse moves": 0.725802981
+    },
+    {
+     "dimension": 6,
+     "level": 10,
+     "sign on -1": 1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.095491503,
+      0.700629269
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 1,
+     "level": 2,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 1.0,
+     "top eigenvalue": [
+      -1.0,
+      0.0
+     ],
+     "rate, with the inverse moves": 1.0
+    },
+    {
+     "dimension": 3,
+     "level": 5,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.559016994,
+      -0.433012702
+     ],
+     "rate, with the inverse moves": 0.809016994
+    },
+    {
+     "dimension": 8,
+     "level": 10,
+     "sign on -1": 1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.25,
+      -0.661437828
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 12,
+     "level": 10,
+     "sign on -1": -1,
+     "vectors U fixes": 4,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.433012702,
+      -0.25
+     ],
+     "rate, with the inverse moves": 0.779141352
+    },
+    {
+     "dimension": 6,
+     "level": 10,
+     "sign on -1": 1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.654508497,
+      0.267616567
+     ],
+     "rate, with the inverse moves": 0.904508497
+    },
+    {
+     "dimension": 10,
+     "level": 10,
+     "sign on -1": 1,
+     "vectors U fixes": 4,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.325693909,
+      0.627633235
+     ],
+     "rate, with the inverse moves": 0.825693909
+    },
+    {
+     "dimension": 4,
+     "level": 10,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.809016994,
+     "top eigenvalue": [
+      0.0,
+      0.809016994
+     ],
+     "rate, with the inverse moves": 0.154508497
+    }
+   ]
+  },
+  "11": {
+   "order": 1320,
+   "classes": 15,
+   "sectors": [
+    {
+     "dimension": 1,
+     "level": 1,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 1.0,
+     "top eigenvalue": [
+      1.0,
+      0.0
+     ],
+     "rate, with the inverse moves": 1.0
+    },
+    {
+     "dimension": 6,
+     "level": 11,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.760689853,
+     "top eigenvalue": [
+      -0.760689853,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.823711913
+    },
+    {
+     "dimension": 6,
+     "level": 11,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.760689853,
+     "top eigenvalue": [
+      -0.760689853,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.823711913
+    },
+    {
+     "dimension": 10,
+     "level": 11,
+     "sign on -1": 1,
+     "vectors U fixes": 4,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.281508125,
+      -0.648654897
+     ],
+     "rate, with the inverse moves": 0.793831937
+    },
+    {
+     "dimension": 10,
+     "level": 11,
+     "sign on -1": -1,
+     "vectors U fixes": 4,
+     "rate, moves L and R": 0.746529826,
+     "top eigenvalue": [
+      -0.58001904,
+      0.469983717
+     ],
+     "rate, with the inverse moves": 0.700976873
+    },
+    {
+     "dimension": 10,
+     "level": 11,
+     "sign on -1": 1,
+     "vectors U fixes": 4,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.683012702,
+      -0.183012702
+     ],
+     "rate, with the inverse moves": 0.933012702
+    },
+    {
+     "dimension": 12,
+     "level": 11,
+     "sign on -1": 1,
+     "vectors U fixes": 4,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.62430301,
+      -0.332032757
+     ],
+     "rate, with the inverse moves": 0.87430301
+    },
+    {
+     "dimension": 5,
+     "level": 11,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.0,
+      -0.707106781
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 5,
+     "level": 11,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.0,
+      0.707106781
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 12,
+     "level": 11,
+     "sign on -1": 1,
+     "vectors U fixes": 4,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.154508497,
+      -0.690019655
+     ],
+     "rate, with the inverse moves": 0.904508497
+    },
+    {
+     "dimension": 10,
+     "level": 11,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.776901568,
+     "top eigenvalue": [
+      0.582530281,
+      0.514037468
+     ],
+     "rate, with the inverse moves": 0.785334029
+    },
+    {
+     "dimension": 11,
+     "level": 11,
+     "sign on -1": 1,
+     "vectors U fixes": 3,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.25,
+      0.661437828
+     ],
+     "rate, with the inverse moves": 0.75
+    },
+    {
+     "dimension": 12,
+     "level": 11,
+     "sign on -1": -1,
+     "vectors U fixes": 4,
+     "rate, moves L and R": 0.723685263,
+     "top eigenvalue": [
+      -0.364338937,
+      -0.625281936
+     ],
+     "rate, with the inverse moves": 0.809016994
+    },
+    {
+     "dimension": 12,
+     "level": 11,
+     "sign on -1": -1,
+     "vectors U fixes": 4,
+     "rate, moves L and R": 0.739040477,
+     "top eigenvalue": [
+      0.216192918,
+      0.706711716
+     ],
+     "rate, with the inverse moves": 0.749049085
+    },
+    {
+     "dimension": 10,
+     "level": 11,
+     "sign on -1": -1,
+     "vectors U fixes": 4,
+     "rate, moves L and R": 0.714471757,
+     "top eigenvalue": [
+      -0.164624503,
+      -0.695247197
+     ],
+     "rate, with the inverse moves": 0.74411033
+    }
+   ]
+  },
+  "12": {
+   "order": 1152,
+   "classes": 70,
+   "sectors": [
+    {
+     "dimension": 1,
+     "level": 3,
+     "sign on -1": 1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 1,
+     "level": 3,
+     "sign on -1": 1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.5,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 1,
+     "level": 6,
+     "sign on -1": 1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 1,
+     "level": 6,
+     "sign on -1": 1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 2,
+     "level": 6,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.5,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.683012702
+    },
+    {
+     "dimension": 2,
+     "level": 6,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.683012702
+    },
+    {
+     "dimension": 1,
+     "level": 12,
+     "sign on -1": -1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.866025404,
+     "top eigenvalue": [
+      0.866025404,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.866025404
+    },
+    {
+     "dimension": 1,
+     "level": 12,
+     "sign on -1": -1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.866025404,
+     "top eigenvalue": [
+      0.866025404,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.866025404
+    },
+    {
+     "dimension": 1,
+     "level": 12,
+     "sign on -1": -1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.866025404,
+     "top eigenvalue": [
+      -0.866025404,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.866025404
+    },
+    {
+     "dimension": 1,
+     "level": 12,
+     "sign on -1": -1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.866025404,
+     "top eigenvalue": [
+      -0.866025404,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.866025404
+    },
+    {
+     "dimension": 1,
+     "level": 1,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 1.0,
+     "top eigenvalue": [
+      1.0,
+      0.0
+     ],
+     "rate, with the inverse moves": 1.0
+    },
+    {
+     "dimension": 2,
+     "level": 6,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.0,
+      0.707106781
+     ],
+     "rate, with the inverse moves": 0.25
+    },
+    {
+     "dimension": 2,
+     "level": 6,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.0,
+      0.707106781
+     ],
+     "rate, with the inverse moves": 0.25
+    },
+    {
+     "dimension": 2,
+     "level": 6,
+     "sign on -1": -1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.866025404,
+     "top eigenvalue": [
+      0.5,
+      -0.707106781
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 1,
+     "level": 2,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 1.0,
+     "top eigenvalue": [
+      -1.0,
+      0.0
+     ],
+     "rate, with the inverse moves": 1.0
+    },
+    {
+     "dimension": 3,
+     "level": 12,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.5,
+      -0.5
+     ],
+     "rate, with the inverse moves": 0.75
+    },
+    {
+     "dimension": 3,
+     "level": 12,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.5,
+      0.5
+     ],
+     "rate, with the inverse moves": 0.75
+    },
+    {
+     "dimension": 2,
+     "level": 12,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.433012702,
+      0.559016994
+     ],
+     "rate, with the inverse moves": 0.683012702
+    },
+    {
+     "dimension": 2,
+     "level": 12,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.433012702,
+      -0.559016994
+     ],
+     "rate, with the inverse moves": 0.683012702
+    },
+    {
+     "dimension": 3,
+     "level": 6,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.25,
+      -0.661437828
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 3,
+     "level": 12,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.5,
+      0.5
+     ],
+     "rate, with the inverse moves": 0.75
+    },
+    {
+     "dimension": 3,
+     "level": 12,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.5,
+      0.5
+     ],
+     "rate, with the inverse moves": 0.75
+    },
+    {
+     "dimension": 2,
+     "level": 12,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 9e-09,
+     "top eigenvalue": [
+      -3e-09,
+      8e-09
+     ],
+     "rate, with the inverse moves": 0.433012702
+    },
+    {
+     "dimension": 2,
+     "level": 12,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 8e-09,
+     "top eigenvalue": [
+      -7e-09,
+      2e-09
+     ],
+     "rate, with the inverse moves": 0.433012702
+    },
+    {
+     "dimension": 3,
+     "level": 4,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.707106781
+    },
+    {
+     "dimension": 3,
+     "level": 4,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.707106781
+    },
+    {
+     "dimension": 3,
+     "level": 12,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.433012702,
+      0.559016994
+     ],
+     "rate, with the inverse moves": 0.63108445
+    },
+    {
+     "dimension": 3,
+     "level": 12,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.433012702,
+      -0.559016994
+     ],
+     "rate, with the inverse moves": 0.63108445
+    },
+    {
+     "dimension": 2,
+     "level": 2,
+     "sign on -1": 1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 1,
+     "level": 4,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.0,
+     "top eigenvalue": [
+      -0.0,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.0
+    },
+    {
+     "dimension": 1,
+     "level": 4,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.0,
+     "top eigenvalue": [
+      -0.0,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.0
+    },
+    {
+     "dimension": 2,
+     "level": 3,
+     "sign on -1": -1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.866025404,
+     "top eigenvalue": [
+      -0.5,
+      0.707106781
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 2,
+     "level": 4,
+     "sign on -1": -1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.866025404,
+     "top eigenvalue": [
+      0.0,
+      -0.866025404
+     ],
+     "rate, with the inverse moves": 0.0
+    },
+    {
+     "dimension": 2,
+     "level": 12,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.433012702,
+      0.559016994
+     ],
+     "rate, with the inverse moves": 0.683012702
+    },
+    {
+     "dimension": 2,
+     "level": 12,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.433012702,
+      -0.559016994
+     ],
+     "rate, with the inverse moves": 0.683012702
+    },
+    {
+     "dimension": 4,
+     "level": 6,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.761368719
+    },
+    {
+     "dimension": 4,
+     "level": 6,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.761368719
+    },
+    {
+     "dimension": 3,
+     "level": 12,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.433012702,
+      -0.559016994
+     ],
+     "rate, with the inverse moves": 0.63108445
+    },
+    {
+     "dimension": 3,
+     "level": 12,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.433012702,
+      -0.559016994
+     ],
+     "rate, with the inverse moves": 0.63108445
+    },
+    {
+     "dimension": 3,
+     "level": 12,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.0,
+      -0.5
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 3,
+     "level": 12,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.0,
+      -0.5
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 3,
+     "level": 3,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.25,
+      0.661437828
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 6,
+     "level": 12,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.559016994,
+      -0.433012702
+     ],
+     "rate, with the inverse moves": 0.661437828
+    },
+    {
+     "dimension": 4,
+     "level": 12,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.0,
+      0.707106781
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 4,
+     "level": 12,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.0,
+      0.707106781
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 2,
+     "level": 12,
+     "sign on -1": 1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 2,
+     "level": 12,
+     "sign on -1": 1,
+     "vectors U fixes": 0,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.5,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 9,
+     "level": 12,
+     "sign on -1": 1,
+     "vectors U fixes": 3,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.0,
+      -0.707106781
+     ],
+     "rate, with the inverse moves": 0.890388203
+    },
+    {
+     "dimension": 4,
+     "level": 12,
+     "sign on -1": 1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.612372436,
+      -0.353553391
+     ],
+     "rate, with the inverse moves": 0.862372436
+    },
+    {
+     "dimension": 6,
+     "level": 12,
+     "sign on -1": 1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.198071748,
+      0.678798632
+     ],
+     "rate, with the inverse moves": 0.88108445
+    },
+    {
+     "dimension": 6,
+     "level": 12,
+     "sign on -1": 1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.198071748,
+      0.678798632
+     ],
+     "rate, with the inverse moves": 0.88108445
+    },
+    {
+     "dimension": 6,
+     "level": 12,
+     "sign on -1": 1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.353553391,
+      -0.612372436
+     ],
+     "rate, with the inverse moves": 0.603553391
+    },
+    {
+     "dimension": 6,
+     "level": 12,
+     "sign on -1": 1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.353553391,
+      0.612372436
+     ],
+     "rate, with the inverse moves": 0.603553391
+    },
+    {
+     "dimension": 9,
+     "level": 12,
+     "sign on -1": 1,
+     "vectors U fixes": 3,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.0,
+      0.707106781
+     ],
+     "rate, with the inverse moves": 0.890388203
+    },
+    {
+     "dimension": 6,
+     "level": 12,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.806896721,
+     "top eigenvalue": [
+      0.709094307,
+      -0.385055298
+     ],
+     "rate, with the inverse moves": 0.75
+    },
+    {
+     "dimension": 9,
+     "level": 12,
+     "sign on -1": -1,
+     "vectors U fixes": 3,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.0,
+      0.5
+     ],
+     "rate, with the inverse moves": 0.781505033
+    },
+    {
+     "dimension": 9,
+     "level": 12,
+     "sign on -1": -1,
+     "vectors U fixes": 3,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      -0.5,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.781505033
+    },
+    {
+     "dimension": 6,
+     "level": 12,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.25,
+      0.661437828
+     ],
+     "rate, with the inverse moves": 0.785589264
+    },
+    {
+     "dimension": 6,
+     "level": 12,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.25,
+      -0.661437828
+     ],
+     "rate, with the inverse moves": 0.785589264
+    },
+    {
+     "dimension": 2,
+     "level": 3,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.683012702
+    },
+    {
+     "dimension": 2,
+     "level": 3,
+     "sign on -1": -1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      0.0
+     ],
+     "rate, with the inverse moves": 0.683012702
+    },
+    {
+     "dimension": 3,
+     "level": 4,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.25,
+      -0.661437828
+     ],
+     "rate, with the inverse moves": 0.5
+    },
+    {
+     "dimension": 6,
+     "level": 6,
+     "sign on -1": 1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.5,
+      0.5
+     ],
+     "rate, with the inverse moves": 0.75
+    },
+    {
+     "dimension": 6,
+     "level": 12,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.25,
+      -0.661437828
+     ],
+     "rate, with the inverse moves": 0.785589264
+    },
+    {
+     "dimension": 6,
+     "level": 12,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.25,
+      0.661437828
+     ],
+     "rate, with the inverse moves": 0.785589264
+    },
+    {
+     "dimension": 6,
+     "level": 12,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.806896721,
+     "top eigenvalue": [
+      -0.709094307,
+      -0.385055298
+     ],
+     "rate, with the inverse moves": 0.75
+    },
+    {
+     "dimension": 4,
+     "level": 6,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.0,
+      0.707106781
+     ],
+     "rate, with the inverse moves": 0.25
+    },
+    {
+     "dimension": 6,
+     "level": 12,
+     "sign on -1": 1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.198071748,
+      -0.678798632
+     ],
+     "rate, with the inverse moves": 0.88108445
+    },
+    {
+     "dimension": 6,
+     "level": 12,
+     "sign on -1": 1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.63108445,
+      0.318955196
+     ],
+     "rate, with the inverse moves": 0.88108445
+    },
+    {
+     "dimension": 3,
+     "level": 4,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.25,
+      -0.661437828
+     ],
+     "rate, with the inverse moves": 0.5
+    }
+   ]
+  },
+  "13": {
+   "order": 2184,
+   "classes": 17,
+   "sectors": [
+    {
+     "dimension": 12,
+     "level": 13,
+     "sign on -1": 1,
+     "vectors U fixes": 4,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.635381691,
+      0.310306473
+     ],
+     "rate, with the inverse moves": 0.885381691
+    },
+    {
+     "dimension": 6,
+     "level": 13,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.828525954,
+     "top eigenvalue": [
+      -0.031484932,
+      0.827927506
+     ],
+     "rate, with the inverse moves": 0.743759084
+    },
+    {
+     "dimension": 14,
+     "level": 13,
+     "sign on -1": -1,
+     "vectors U fixes": 6,
+     "rate, moves L and R": 0.5,
+     "top eigenvalue": [
+      0.5,
+      -0.0
+     ],
+     "rate, with the inverse moves": 0.763494939
+    },
+    {
+     "dimension": 7,
+     "level": 13,
+     "sign on -1": 1,
+     "vectors U fixes": 3,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.575693909,
+      0.410580714
+     ],
+     "rate, with the inverse moves": 0.95639328
+    },
+    {
+     "dimension": 12,
+     "level": 13,
+     "sign on -1": 1,
+     "vectors U fixes": 4,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.619590508,
+      0.340745656
+     ],
+     "rate, with the inverse moves": 0.869590508
+    },
+    {
+     "dimension": 14,
+     "level": 13,
+     "sign on -1": 1,
+     "vectors U fixes": 4,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.25,
+      0.661437828
+     ],
+     "rate, with the inverse moves": 0.878534232
+    },
+    {
+     "dimension": 12,
+     "level": 13,
+     "sign on -1": 1,
+     "vectors U fixes": 4,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.625956993,
+      0.328904002
+     ],
+     "rate, with the inverse moves": 0.875956993
+    },
+    {
+     "dimension": 14,
+     "level": 13,
+     "sign on -1": -1,
+     "vectors U fixes": 4,
+     "rate, moves L and R": 0.719533362,
+     "top eigenvalue": [
+      0.693421473,
+      -0.192080504
+     ],
+     "rate, with the inverse moves": 0.815392579
+    },
+    {
+     "dimension": 12,
+     "level": 13,
+     "sign on -1": -1,
+     "vectors U fixes": 4,
+     "rate, moves L and R": 0.793560345,
+     "top eigenvalue": [
+      0.2272479,
+      0.760326517
+     ],
+     "rate, with the inverse moves": 0.679282829
+    },
+    {
+     "dimension": 12,
+     "level": 13,
+     "sign on -1": -1,
+     "vectors U fixes": 4,
+     "rate, moves L and R": 0.783240461,
+     "top eigenvalue": [
+      -0.255077905,
+      -0.740540938
+     ],
+     "rate, with the inverse moves": 0.77701193
+    },
+    {
+     "dimension": 6,
+     "level": 13,
+     "sign on -1": -1,
+     "vectors U fixes": 2,
+     "rate, moves L and R": 0.763961846,
+     "top eigenvalue": [
+      -0.750676279,
+      -0.141854948
+     ],
+     "rate, with the inverse moves": 0.825693909
+    },
+    {
+     "dimension": 12,
+     "level": 13,
+     "sign on -1": -1,
+     "vectors U fixes": 4,
+     "rate, moves L and R": 0.766060386,
+     "top eigenvalue": [
+      0.561533174,
+      0.521084454
+     ],
+     "rate, with the inverse moves": 0.751767069
+    },
+    {
+     "dimension": 7,
+     "level": 13,
+     "sign on -1": 1,
+     "vectors U fixes": 3,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.325693909,
+      0.627633235
+     ],
+     "rate, with the inverse moves": 0.893420283
+    },
+    {
+     "dimension": 14,
+     "level": 13,
+     "sign on -1": -1,
+     "vectors U fixes": 4,
+     "rate, moves L and R": 0.719533362,
+     "top eigenvalue": [
+      -0.693421473,
+      0.192080504
+     ],
+     "rate, with the inverse moves": 0.7917011
+    },
+    {
+     "dimension": 14,
+     "level": 13,
+     "sign on -1": 1,
+     "vectors U fixes": 4,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      -0.303579936,
+      0.638622911
+     ],
+     "rate, with the inverse moves": 0.918782718
+    },
+    {
+     "dimension": 13,
+     "level": 13,
+     "sign on -1": 1,
+     "vectors U fixes": 5,
+     "rate, moves L and R": 0.707106781,
+     "top eigenvalue": [
+      0.575693909,
+      0.410580714
+     ],
+     "rate, with the inverse moves": 0.825693909
+    },
+    {
+     "dimension": 1,
+     "level": 1,
+     "sign on -1": 1,
+     "vectors U fixes": 1,
+     "rate, moves L and R": 1.0,
+     "top eigenvalue": [
+      1.0,
+      0.0
+     ],
+     "rate, with the inverse moves": 1.0
+    }
+   ]
+  }
+ },
+ "checks": [
+  {
+   "check": "control: at level 5 the averaged move on the whole group has second modulus sqrt 3 / 2, eight times, as B1868 has it",
+   "holds": true,
+   "detail": "0.866025404, 8 times"
+  },
+  {
+   "check": "control: the trivial sector never cancels, for both sets of moves",
+   "holds": true,
+   "detail": "12 levels"
+  },
+  {
+   "check": "control: the eleven non-trivial characters of the abelian quotient Z/12 have rates |cos(2 pi k / 12)|",
+   "holds": true,
+   "detail": "[0.0, 0.0, 0.5, 0.5, 0.5, 0.5, 0.866025, 0.866025, 0.866025, 0.866025, 1.0]"
+  },
+  {
+   "check": "what never cancels, besides the trivial sector: one sector, of dimension 1, at level 2",
+   "holds": true,
+   "detail": "[(2, 1)]"
+  },
+  {
+   "check": "the same sector never cancels with the inverse moves added, and no other",
+   "holds": true,
+   "detail": "[(2, 1)]"
+  },
+  {
+   "check": "planted: with R replaced by L every sector has rate 1 (the instrument does not manufacture cancelling)",
+   "holds": true,
+   "detail": "5 sectors"
+  },
+  {
+   "check": "every rate was computed twice, on two independent bases, and the two agree; none exceeds 1",
+   "holds": true,
+   "detail": "0 draws thrown away and redone: []"
+  }
+ ],
+ "draws thrown away": [],
+ "failing": []
+}

@@ -1,0 +1,160 @@
+{
+ "14": {
+  "vertices": 336,
+  "largest eigenvalue in modulus below 3": 2.655442,
+  "within 2 sqrt 2": true,
+  "eigenvalues beyond the bound": [],
+  "how many beyond, with multiplicity": 0,
+  "two-coloured": true
+ },
+ "15": {
+  "vertices": 480,
+  "largest eigenvalue in modulus below 3": 2.90628,
+  "within 2 sqrt 2": false,
+  "eigenvalues beyond the bound": [
+   2.90628
+  ],
+  "how many beyond, with multiplicity": 4,
+  "two-coloured": false
+ },
+ "16": {
+  "vertices": 512,
+  "largest eigenvalue in modulus below 3": 2.797933,
+  "within 2 sqrt 2": true,
+  "eigenvalues beyond the bound": [],
+  "how many beyond, with multiplicity": 0,
+  "two-coloured": true
+ },
+ "17": {
+  "vertices": 816,
+  "largest eigenvalue in modulus below 3": 2.745309,
+  "within 2 sqrt 2": true,
+  "eigenvalues beyond the bound": [],
+  "how many beyond, with multiplicity": 0,
+  "two-coloured": false
+ },
+ "18": {
+  "vertices": 648,
+  "largest eigenvalue in modulus below 3": 2.732051,
+  "within 2 sqrt 2": true,
+  "eigenvalues beyond the bound": [],
+  "how many beyond, with multiplicity": 0,
+  "two-coloured": true
+ },
+ "19": {
+  "vertices": 1140,
+  "largest eigenvalue in modulus below 3": 2.806005,
+  "within 2 sqrt 2": true,
+  "eigenvalues beyond the bound": [],
+  "how many beyond, with multiplicity": 0,
+  "two-coloured": false
+ },
+ "20": {
+  "vertices": 960,
+  "largest eigenvalue in modulus below 3": 2.802517,
+  "within 2 sqrt 2": true,
+  "eigenvalues beyond the bound": [],
+  "how many beyond, with multiplicity": 0,
+  "two-coloured": true
+ },
+ "21": {
+  "vertices": 1344,
+  "largest eigenvalue in modulus below 3": 2.800169,
+  "within 2 sqrt 2": true,
+  "eigenvalues beyond the bound": [],
+  "how many beyond, with multiplicity": 0,
+  "two-coloured": false
+ },
+ "22": {
+  "vertices": 1320,
+  "largest eigenvalue in modulus below 3": 2.751184,
+  "within 2 sqrt 2": true,
+  "eigenvalues beyond the bound": [],
+  "how many beyond, with multiplicity": 0,
+  "two-coloured": true
+ },
+ "23": {
+  "vertices": 2024,
+  "largest eigenvalue in modulus below 3": 2.821418,
+  "within 2 sqrt 2": true,
+  "eigenvalues beyond the bound": [],
+  "how many beyond, with multiplicity": 0,
+  "two-coloured": false
+ },
+ "24": {
+  "vertices": 1536,
+  "largest eigenvalue in modulus below 3": 2.828427,
+  "within 2 sqrt 2": true,
+  "eigenvalues beyond the bound": [],
+  "how many beyond, with multiplicity": 0,
+  "two-coloured": true
+ },
+ "25": {
+  "vertices": 2500,
+  "largest eigenvalue in modulus below 3": 2.827091,
+  "within 2 sqrt 2": true,
+  "eigenvalues beyond the bound": [],
+  "how many beyond, with multiplicity": 0,
+  "two-coloured": false
+ },
+ "26": {
+  "vertices": 2184,
+  "largest eigenvalue in modulus below 3": 2.825573,
+  "within 2 sqrt 2": true,
+  "eigenvalues beyond the bound": [],
+  "how many beyond, with multiplicity": 0,
+  "two-coloured": true
+ },
+ "27": {
+  "vertices": 2916,
+  "largest eigenvalue in modulus below 3": 2.791288,
+  "within 2 sqrt 2": true,
+  "eigenvalues beyond the bound": [],
+  "how many beyond, with multiplicity": 0,
+  "two-coloured": false
+ },
+ "28": {
+  "vertices": 2688,
+  "largest eigenvalue in modulus below 3": 2.749118,
+  "within 2 sqrt 2": true,
+  "eigenvalues beyond the bound": [],
+  "how many beyond, with multiplicity": 0,
+  "two-coloured": true
+ },
+ "29": {
+  "vertices": 4060,
+  "largest eigenvalue in modulus below 3": 2.848186,
+  "within 2 sqrt 2": false,
+  "eigenvalues beyond the bound": [
+   2.848186
+  ],
+  "how many beyond, with multiplicity": 28,
+  "two-coloured": false
+ },
+ "30": {
+  "vertices": 2880,
+  "largest eigenvalue in modulus below 3": 2.90628,
+  "within 2 sqrt 2": false,
+  "eigenvalues beyond the bound": [
+   2.90628
+  ],
+  "how many beyond, with multiplicity": 8,
+  "two-coloured": true
+ },
+ "31": {
+  "vertices": 4960,
+  "largest eigenvalue in modulus below 3": 2.819719,
+  "within 2 sqrt 2": true,
+  "eigenvalues beyond the bound": [],
+  "how many beyond, with multiplicity": 0,
+  "two-coloured": false
+ },
+ "32": {
+  "vertices": 4096,
+  "largest eigenvalue in modulus below 3": 2.797933,
+  "within 2 sqrt 2": true,
+  "eigenvalues beyond the bound": [],
+  "how many beyond, with multiplicity": 0,
+  "two-coloured": true
+ }
+}

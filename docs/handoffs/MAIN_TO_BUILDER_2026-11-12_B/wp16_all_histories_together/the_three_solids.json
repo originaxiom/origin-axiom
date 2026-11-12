@@ -1,0 +1,27 @@
+{
+ "3": {
+  "vertices": 4,
+  "edges": 6,
+  "no double edge and no loop": true,
+  "is": "the tetrahedron",
+  "isomorphic": true
+ },
+ "4": {
+  "vertices": 8,
+  "edges": 12,
+  "no double edge and no loop": true,
+  "is": "the cube",
+  "isomorphic": true
+ },
+ "5": {
+  "vertices": 20,
+  "edges": 30,
+  "no double edge and no loop": true,
+  "is": "the dodecahedron",
+  "isomorphic": true
+ },
+ "controls": {
+  "level 6 is none of the three": true,
+  "level 5 is not the Desargues graph": true
+ }
+}

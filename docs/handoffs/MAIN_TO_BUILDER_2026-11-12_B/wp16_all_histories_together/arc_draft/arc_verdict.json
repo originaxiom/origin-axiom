@@ -1,0 +1,26 @@
+{
+ "id": "B[[N]]",
+ "verdict": "PROVED",
+ "claim_one_line": "ALL HISTORIES TOGETHER: A PRODUCT OVER THREADS, AND THE LAW OF THE RATES AT WHICH SECTORS CANCEL (a first exact object for WP-1.6; data-free; exact arithmetic for the identities and the level-15 value, double precision with every rate computed twice for 171 sectors of levels 2 to 13 and for the graphs of levels 2 to 100; nothing is given a physical meaning). (1) THE SUM OVER HISTORIES IS A PRODUCT OVER THREADS: in any sector the generating function of the sum over all histories is det(1 - u(L + R))^-1, and by Amitsur's identity it is a product with one factor for each thread and each of the two letters; in the defining representation the product over threads of 1 - tr(w) u^|w| + u^2|w| is (1 - 3u)/(1 - u)^3, checked on 2,536 threads. (2) THE TWO MOVES TOGETHER ARE A WALK THAT DOES NOT TURN BACK on the three-valent graph of the level: the tetrahedron, the cube and the dodecahedron at levels 3, 4, 5. (3) THE LAW, proved: L and R^-1 are braid generators and L + R = U^-1 (1 + U^-1) S, so the averaged move's singular values are the cosines of half the arguments of U's eigenvalues; an even sector cancels at exactly 1/sqrt 2 or 1/2 unless the level's graph has an eigenvalue beyond 2 sqrt 2 in it; an odd sector cancels no slower than sqrt 3 / 2, and at exactly that where the element of order three fixes no vector. COMPUTED: to level 13 the only sector that never cancels besides the trivial one is the parity of the number of moves; 75 even sectors are at 1/sqrt 2 and 9 at 1/2; thirteen odd sectors are at sqrt 3 / 2 and no other is slower. (4) THE FIRST SECTOR BEYOND THE BOUND IS AT LEVEL 15: the join of level 3's fundamental doublet with the level-5 doublet in which L has trace 1/phi; the sum of the two moves in it has characteristic polynomial (x^2 + (1/phi + sqrt2 phi) x + 2)(x^2 + (1/phi - sqrt2 phi) x + 2), exactly, so its rate is 0.893614 and it is beyond the bound because phi > sqrt 2; its twin under sqrt5 -> -sqrt5 stays at 1/sqrt 2. On the ladder taken at once (level 60) it is the only one, with its twist by the parity; it is not the slowest of all levels: to level 100 the graph is beyond the bound at 48 levels and the largest eigenvalue below 3 is 2.931852, at level 48. (5) THE RECORD'S TRIPLET, a module of the double cover: det(x - (T_L + T_R)) = x^3 - sqrt2 x^2 + x + sqrt2, exactly; it cancels at 0.753248. NOT SHOWN: that any rate is a mass or a coupling; any selection: the slowest sector changes when the inverse moves are counted as separate histories and with the range of levels. 0 of 19.",
+ "scope": {
+  "frame": "none",
+  "object": "the sum over all positive words in the two moves, in the unitary sectors of SL(2, Z/N) for N = 2 to 13, in the three-valent graphs of levels 2 to 100, and in the record's triplet",
+  "reach": "general",
+  "hypotheses": "each history is counted once, as a positive word in L and R (the record's normal form for positive words; the foundation's fork on the moves is not derived here); a sector is an irreducible unitary module of a finite quotient of the moves' group, or of the three-strand braid group"
+ },
+ "depends_on": [
+  "B1868",
+  "B1867",
+  "B1869",
+  "B1610",
+  "B1866"
+ ],
+ "instrument": false,
+ "weave_or_thread": "weave (the sum over every history, in every sector; no thread is chosen)",
+ "creates_law": false,
+ "identifications": [],
+ "rests_on_seat": [],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc"
+}

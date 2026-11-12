@@ -1,0 +1,1424 @@
+{
+ "levels": {
+  "2": [
+   {
+    "dimension": 2,
+    "sign on -1": 1,
+    "level": 2,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 1,
+    "sign on -1": 1,
+    "level": 2,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   }
+  ],
+  "3": [
+   {
+    "dimension": 1,
+    "sign on -1": 1,
+    "level": 3,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 1,
+    "sign on -1": 1,
+    "level": 3,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 2,
+    "sign on -1": -1,
+    "level": 3,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 2,
+    "sign on -1": -1,
+    "level": 3,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 3,
+    "sign on -1": 1,
+    "level": 3,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 2,
+    "sign on -1": -1,
+    "level": 3,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   }
+  ],
+  "4": [
+   {
+    "dimension": 1,
+    "sign on -1": -1,
+    "level": 4,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 1,
+    "sign on -1": -1,
+    "level": 4,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 2,
+    "sign on -1": -1,
+    "level": 4,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 3,
+    "sign on -1": 1,
+    "level": 4,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 3,
+    "sign on -1": -1,
+    "level": 4,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 3,
+    "sign on -1": -1,
+    "level": 4,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 3,
+    "sign on -1": 1,
+    "level": 4,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   }
+  ],
+  "5": [
+   {
+    "dimension": 2,
+    "sign on -1": -1,
+    "level": 5,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 5,
+    "sign on -1": 1,
+    "level": 5,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 4,
+    "sign on -1": -1,
+    "level": 5,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 3,
+    "sign on -1": 1,
+    "level": 5,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 4,
+    "sign on -1": 1,
+    "level": 5,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 2,
+    "sign on -1": -1,
+    "level": 5,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": -1,
+    "level": 5,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 3,
+    "sign on -1": 1,
+    "level": 5,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   }
+  ],
+  "6": [
+   {
+    "dimension": 1,
+    "sign on -1": 1,
+    "level": 6,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 1,
+    "sign on -1": 1,
+    "level": 6,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 4,
+    "sign on -1": -1,
+    "level": 6,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 4,
+    "sign on -1": -1,
+    "level": 6,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 2,
+    "sign on -1": -1,
+    "level": 6,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 3,
+    "sign on -1": 1,
+    "level": 6,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 4,
+    "sign on -1": -1,
+    "level": 6,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": 1,
+    "level": 6,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 2,
+    "sign on -1": 1,
+    "level": 6,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 2,
+    "sign on -1": 1,
+    "level": 6,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 2,
+    "sign on -1": -1,
+    "level": 6,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 2,
+    "sign on -1": -1,
+    "level": 6,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   }
+  ],
+  "7": [
+   {
+    "dimension": 3,
+    "sign on -1": 1,
+    "level": 7,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 3,
+    "sign on -1": 1,
+    "level": 7,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": -1,
+    "level": 7,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 7,
+    "sign on -1": 1,
+    "level": 7,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 4,
+    "sign on -1": -1,
+    "level": 7,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 4,
+    "sign on -1": -1,
+    "level": 7,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 8,
+    "sign on -1": -1,
+    "level": 7,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": 1,
+    "level": 7,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 8,
+    "sign on -1": 1,
+    "level": 7,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": -1,
+    "level": 7,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   }
+  ],
+  "8": [
+   {
+    "dimension": 3,
+    "sign on -1": 1,
+    "level": 8,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 3,
+    "sign on -1": 1,
+    "level": 8,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 3,
+    "sign on -1": -1,
+    "level": 8,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 3,
+    "sign on -1": -1,
+    "level": 8,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 2,
+    "sign on -1": 1,
+    "level": 8,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 2,
+    "sign on -1": 1,
+    "level": 8,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 2,
+    "sign on -1": -1,
+    "level": 8,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 3,
+    "sign on -1": 1,
+    "level": 8,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 3,
+    "sign on -1": 1,
+    "level": 8,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 3,
+    "sign on -1": -1,
+    "level": 8,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 3,
+    "sign on -1": -1,
+    "level": 8,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 4,
+    "sign on -1": -1,
+    "level": 8,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": 1,
+    "level": 8,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": -1,
+    "level": 8,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 4,
+    "sign on -1": 1,
+    "level": 8,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 2,
+    "sign on -1": -1,
+    "level": 8,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": 1,
+    "level": 8,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": -1,
+    "level": 8,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": -1,
+    "level": 8,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": 1,
+    "level": 8,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   }
+  ],
+  "9": [
+   {
+    "dimension": 4,
+    "sign on -1": -1,
+    "level": 9,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 4,
+    "sign on -1": -1,
+    "level": 9,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": 1,
+    "level": 9,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 4,
+    "sign on -1": -1,
+    "level": 9,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 4,
+    "sign on -1": -1,
+    "level": 9,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 4,
+    "sign on -1": 1,
+    "level": 9,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 4,
+    "sign on -1": 1,
+    "level": 9,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 4,
+    "sign on -1": 1,
+    "level": 9,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 4,
+    "sign on -1": 1,
+    "level": 9,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": 1,
+    "level": 9,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": -1,
+    "level": 9,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 4,
+    "sign on -1": -1,
+    "level": 9,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 4,
+    "sign on -1": -1,
+    "level": 9,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 12,
+    "sign on -1": -1,
+    "level": 9,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 12,
+    "sign on -1": 1,
+    "level": 9,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": -1,
+    "level": 9,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 4,
+    "sign on -1": 1,
+    "level": 9,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 4,
+    "sign on -1": 1,
+    "level": 9,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   }
+  ],
+  "10": [
+   {
+    "dimension": 3,
+    "sign on -1": 1,
+    "level": 10,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 4,
+    "sign on -1": -1,
+    "level": 10,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 3,
+    "sign on -1": 1,
+    "level": 10,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 2,
+    "sign on -1": -1,
+    "level": 10,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 4,
+    "sign on -1": -1,
+    "level": 10,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": -1,
+    "level": 10,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 5,
+    "sign on -1": 1,
+    "level": 10,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 4,
+    "sign on -1": 1,
+    "level": 10,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 10,
+    "sign on -1": 1,
+    "level": 10,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 2,
+    "sign on -1": -1,
+    "level": 10,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 8,
+    "sign on -1": -1,
+    "level": 10,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": 1,
+    "level": 10,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 8,
+    "sign on -1": 1,
+    "level": 10,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": 1,
+    "level": 10,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 4,
+    "sign on -1": -1,
+    "level": 10,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 12,
+    "sign on -1": -1,
+    "level": 10,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   }
+  ],
+  "11": [
+   {
+    "dimension": 6,
+    "sign on -1": -1,
+    "level": 11,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": -1,
+    "level": 11,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 11,
+    "sign on -1": 1,
+    "level": 11,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 10,
+    "sign on -1": 1,
+    "level": 11,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 12,
+    "sign on -1": 1,
+    "level": 11,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 10,
+    "sign on -1": -1,
+    "level": 11,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 12,
+    "sign on -1": -1,
+    "level": 11,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 12,
+    "sign on -1": -1,
+    "level": 11,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 5,
+    "sign on -1": 1,
+    "level": 11,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 5,
+    "sign on -1": 1,
+    "level": 11,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 10,
+    "sign on -1": -1,
+    "level": 11,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 10,
+    "sign on -1": 1,
+    "level": 11,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 12,
+    "sign on -1": 1,
+    "level": 11,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 10,
+    "sign on -1": -1,
+    "level": 11,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   }
+  ],
+  "12": [
+   {
+    "dimension": 1,
+    "sign on -1": -1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 1,
+    "sign on -1": -1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 1,
+    "sign on -1": -1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 1,
+    "sign on -1": -1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 3,
+    "sign on -1": -1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 3,
+    "sign on -1": -1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 2,
+    "sign on -1": 1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 2,
+    "sign on -1": 1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 3,
+    "sign on -1": 1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 3,
+    "sign on -1": 1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 2,
+    "sign on -1": -1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 2,
+    "sign on -1": -1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 3,
+    "sign on -1": -1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 3,
+    "sign on -1": -1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 3,
+    "sign on -1": 1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 3,
+    "sign on -1": 1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 2,
+    "sign on -1": 1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 2,
+    "sign on -1": 1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 3,
+    "sign on -1": -1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 3,
+    "sign on -1": -1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 2,
+    "sign on -1": 1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 2,
+    "sign on -1": 1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": -1,
+    "level": 12,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": 1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": 1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": 1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": 1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": -1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": -1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 4,
+    "sign on -1": 1,
+    "level": 12,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": 1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": 1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 4,
+    "sign on -1": 1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 4,
+    "sign on -1": 1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 9,
+    "sign on -1": -1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 9,
+    "sign on -1": -1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": -1,
+    "level": 12,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 9,
+    "sign on -1": 1,
+    "level": 12,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": -1,
+    "level": 12,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 9,
+    "sign on -1": 1,
+    "level": 12,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": -1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": -1,
+    "level": 12,
+    "its own mirror": false,
+    "its own conjugate": false,
+    "the mirror is the conjugate": true
+   }
+  ],
+  "13": [
+   {
+    "dimension": 12,
+    "sign on -1": 1,
+    "level": 13,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 7,
+    "sign on -1": 1,
+    "level": 13,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 14,
+    "sign on -1": -1,
+    "level": 13,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 12,
+    "sign on -1": -1,
+    "level": 13,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 14,
+    "sign on -1": -1,
+    "level": 13,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 12,
+    "sign on -1": -1,
+    "level": 13,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 13,
+    "sign on -1": 1,
+    "level": 13,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": -1,
+    "level": 13,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 7,
+    "sign on -1": 1,
+    "level": 13,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 6,
+    "sign on -1": -1,
+    "level": 13,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 12,
+    "sign on -1": -1,
+    "level": 13,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 14,
+    "sign on -1": 1,
+    "level": 13,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 12,
+    "sign on -1": 1,
+    "level": 13,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 12,
+    "sign on -1": 1,
+    "level": 13,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 14,
+    "sign on -1": 1,
+    "level": 13,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   },
+   {
+    "dimension": 14,
+    "sign on -1": -1,
+    "level": 13,
+    "its own mirror": true,
+    "its own conjugate": true,
+    "the mirror is the conjugate": true
+   }
+  ]
+ },
+ "checks": [
+  {
+   "check": "at a prime level every sector is its own mirror exactly when -1 is a square modulo the level (2, 5, 13); at 3, 7, 11 there are mirror twins",
+   "holds": true,
+   "detail": "{2: (True, 0), 3: (False, 4), 5: (True, 0), 7: (False, 4), 11: (False, 4), 13: (True, 0)}"
+  },
+  {
+   "check": "wherever a sector has a mirror twin, the twin is its complex conjugate",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "more: on EVERY sector the mirror image is the complex conjugate (a sector is its own mirror exactly when its character is real), so on the sectors the swap of the two letters and complex conjugation are one and the same permutation",
+   "holds": true,
+   "detail": "171 sectors"
+  },
+  {
+   "check": "the fundamental doublet of level 3 and both doublets of level 5 are their own mirror; the two other doublets of level 3 are twins",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "planted: with no swap every sector is its own mirror",
+   "holds": true,
+   "detail": ""
+  }
+ ],
+ "failing": []
+}

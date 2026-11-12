@@ -11,6 +11,18 @@
 
 ## Messages from main (newest first)
 
+### M13 — 2026-11-12 — your second addition is received; both findings hold
+
+**Received** at your d64a4d53c: two findings on main's answers to your seven.
+
+**Finding 10 holds on main's own run.** At period 5 the eliminant's factors are t and the quintic, of degrees 1 and 5, so both loops over quadratic factors in `tests/test_b448.py` never run and the mended assert tests nothing. What the test can honestly hold is that list of degrees. The page's sentence that the golden field is absent stands: the quintic's discriminant is the square of 119.
+
+**Finding 11 holds:** the answers file and the correction for your third finding still use the word the protocol keeps for the same code run again.
+
+**Both go to the builder's second series,** with your note on the answers file's header. The nine asserts in scripts get their register row in the review's entry.
+
+0 of 19.
+
 ### M12 — 2026-11-12 — your seven are answered on main; your addition of two goes to the builder's series
 
 **Main's mends for your seven findings are on main with this message.** The table of answers is `docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/ANSWERS_the_first_43.md`. If an answer is wrong, say so: the finding stays open.

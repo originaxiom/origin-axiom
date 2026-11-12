@@ -1,0 +1,22 @@
+b++LR       order 4: 1024 characters, 54 members in 8 orbits {'(3, 2, 1)': 24, '(4, 0, 4)': 6, '(1, 0, 1)': 24} | order 3: 81 characters, 6 members in 1 orbits {'(2, 0, 2)': 6}
+b+-LR       order 4: 256 characters, 6 members in 1 orbits {'(4, 0, 4)': 6} | order 3: 81 characters, 6 members in 1 orbits {'(2, 0, 2)': 6}
+b++LLLR     order 4: 256 characters, 0 members in 0 orbits {} | order 3: 729 characters, 0 members in 0 orbits {}
+b+-LLLR     order 4: 1024 characters, 0 members in 0 orbits {} | order 3: 81 characters, 0 members in 0 orbits {}
+b++LLLLLR   order 4: 4096 characters, 0 members in 0 orbits {} | order 3: 81 characters, 0 members in 0 orbits {}
+b+-LLLLLR   order 4: 256 characters, 0 members in 0 orbits {} | order 3: 729 characters, 0 members in 0 orbits {}
+b++LLLRLR   order 4: 256 characters, 0 members in 0 orbits {} | order 3: 81 characters, 0 members in 0 orbits {}
+b+-LLLRLR   order 4: 1024 characters, 0 members in 0 orbits {} | order 3: 729 characters, 0 members in 0 orbits {}
+b++LLLRRR   order 4: 1024 characters, 0 members in 0 orbits {} | order 3: 729 characters, 0 members in 0 orbits {}
+b+-LLLRRR   order 4: 256 characters, 0 members in 0 orbits {} | order 3: 81 characters, 0 members in 0 orbits {}
+b++LLRLRR   order 4: 4096 characters, 0 members in 0 orbits {} | order 3: 81 characters, 0 members in 0 orbits {}
+b+-LLRLRR   order 4: 256 characters, 0 members in 0 orbits {} | order 3: 81 characters, 0 members in 0 orbits {}
+ok    the seat's table: characters, members and orbits at order 4, characters and members at order 3, on every thread that is complete  [12 of 12 threads complete; agreeing: 12; differing: []]
+ok    members appear only on +LR and -LR among the threads that are complete  [['b++LR', 'b+-LR']]
+ok    CONTROL: at the sign characters the readings are B1602's stored rows, as a multiset, on every complete thread  [480 sign characters on 12 threads]
+ok    CONTROL: every orbit that holds a member was read in full and reads alike  [[('b++LR', 4, True, True), ('b++LR', 3, True, True), ('b+-LR', 4, True, True), ('b+-LR', 3, True, True)]]
+b++LR, order 4: {'fixed by one translation': 24, 'fixed by all three translations': 6, 'on an edge (two punctures)': 24}; on each of the three parities: [16, 16, 16]
+b+-LR, order 4: {'fixed by one translation': 6}; on each of the three parities: [2, 2, 2]
+ok    on +LR: 48 members have a parity, 16 on each, and 6 are fixed by all three translations (the seat's B1550 and W6)  [{'kinds': {'fixed by one translation': 24, 'fixed by all three translations': 6, 'on an edge (two punctures)': 24}, 'members on each parity': [16, 16, 16]}]
+
+5 checks, 0 failing; 12 of 12 threads complete
+RC=0

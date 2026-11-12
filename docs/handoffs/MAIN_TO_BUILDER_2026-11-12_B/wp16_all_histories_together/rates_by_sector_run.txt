@@ -1,0 +1,205 @@
+
+level 2: the group has 6 elements and 3 sectors, 2 of them new at this level
+   dimension  1  sign +   rate 1.000000   with the inverse moves 1.000000
+   dimension  2  sign +   rate 0.500000   with the inverse moves 0.500000
+
+level 3: the group has 24 elements and 7 sectors, 6 of them new at this level
+   dimension  2  sign -   rate 0.866025   with the inverse moves 0.500000
+   dimension  3  sign +   rate 0.707107   with the inverse moves 0.500000
+   dimension  1  sign +   rate 0.500000   with the inverse moves 0.500000
+   dimension  1  sign +   rate 0.500000   with the inverse moves 0.500000
+   dimension  2  sign -   rate 0.500000   with the inverse moves 0.683013
+   dimension  2  sign -   rate 0.500000   with the inverse moves 0.683013
+
+level 4: the group has 48 elements and 10 sectors, 7 of them new at this level
+   dimension  2  sign -   rate 0.866025   with the inverse moves 0.000000
+   dimension  3  sign +   rate 0.707107   with the inverse moves 0.500000
+   dimension  3  sign +   rate 0.707107   with the inverse moves 0.500000
+   dimension  3  sign -   rate 0.500000   with the inverse moves 0.707107
+   dimension  3  sign -   rate 0.500000   with the inverse moves 0.707107
+   dimension  1  sign -   rate 0.000000   with the inverse moves 0.000000
+   dimension  1  sign -   rate 0.000000   with the inverse moves 0.000000
+
+level 5: the group has 120 elements and 9 sectors, 8 of them new at this level
+   dimension  2  sign -   rate 0.866025   with the inverse moves 0.809017
+   dimension  2  sign -   rate 0.866025   with the inverse moves 0.309017
+   dimension  4  sign +   rate 0.707107   with the inverse moves 0.750000
+   dimension  5  sign +   rate 0.707107   with the inverse moves 0.500000
+   dimension  4  sign -   rate 0.707107   with the inverse moves 0.603553
+   dimension  3  sign +   rate 0.707107   with the inverse moves 0.809017
+   dimension  3  sign +   rate 0.707107   with the inverse moves 0.809017
+   dimension  6  sign -   rate 0.500000   with the inverse moves 0.725803
+ok    control: at level 5 the averaged move on the whole group has second modulus sqrt 3 / 2, eight times, as B1868 has it  [0.866025404, 8 times]
+
+level 6: the group has 144 elements and 21 sectors, 12 of them new at this level
+   dimension  2  sign -   rate 0.866025   with the inverse moves 0.500000
+   dimension  2  sign +   rate 0.707107   with the inverse moves 0.250000
+   dimension  2  sign +   rate 0.707107   with the inverse moves 0.250000
+   dimension  6  sign +   rate 0.707107   with the inverse moves 0.750000
+   dimension  3  sign +   rate 0.707107   with the inverse moves 0.500000
+   dimension  4  sign -   rate 0.707107   with the inverse moves 0.250000
+   dimension  1  sign +   rate 0.500000   with the inverse moves 0.500000
+   dimension  1  sign +   rate 0.500000   with the inverse moves 0.500000
+   dimension  4  sign -   rate 0.500000   with the inverse moves 0.761369
+   dimension  4  sign -   rate 0.500000   with the inverse moves 0.761369
+   dimension  2  sign -   rate 0.500000   with the inverse moves 0.683013
+   dimension  2  sign -   rate 0.500000   with the inverse moves 0.683013
+
+level 7: the group has 336 elements and 11 sectors, 10 of them new at this level
+   dimension  6  sign -   rate 0.790154   with the inverse moves 0.796971
+   dimension  6  sign -   rate 0.787677   with the inverse moves 0.577932
+   dimension  3  sign +   rate 0.707107   with the inverse moves 0.750000
+   dimension  3  sign +   rate 0.707107   with the inverse moves 0.750000
+   dimension  7  sign +   rate 0.707107   with the inverse moves 0.890388
+   dimension  8  sign +   rate 0.707107   with the inverse moves 0.853553
+   dimension  6  sign +   rate 0.707107   with the inverse moves 0.603553
+   dimension  8  sign -   rate 0.658037   with the inverse moves 0.762844
+   dimension  4  sign -   rate 0.500000   with the inverse moves 0.732029
+   dimension  4  sign -   rate 0.500000   with the inverse moves 0.732029
+
+level 8: the group has 384 elements and 30 sectors, 20 of them new at this level
+   dimension  2  sign -   rate 0.866025   with the inverse moves 0.707107
+   dimension  2  sign -   rate 0.866025   with the inverse moves 0.707107
+   dimension  6  sign -   rate 0.747674   with the inverse moves 0.500000
+   dimension  3  sign +   rate 0.707107   with the inverse moves 0.500000
+   dimension  3  sign +   rate 0.707107   with the inverse moves 0.500000
+   dimension  4  sign +   rate 0.707107   with the inverse moves 0.683013
+   dimension  3  sign +   rate 0.707107   with the inverse moves 0.500000
+   dimension  3  sign +   rate 0.707107   with the inverse moves 0.500000
+   dimension  6  sign +   rate 0.707107   with the inverse moves 0.853553
+   dimension  6  sign +   rate 0.707107   with the inverse moves 0.853553
+   dimension  6  sign +   rate 0.707107   with the inverse moves 0.809017
+   dimension  3  sign -   rate 0.500000   with the inverse moves 0.809017
+   dimension  3  sign -   rate 0.500000   with the inverse moves 0.809017
+   dimension  3  sign -   rate 0.500000   with the inverse moves 0.809017
+   dimension  3  sign -   rate 0.500000   with the inverse moves 0.809017
+   dimension  2  sign +   rate 0.500000   with the inverse moves 0.500000
+   dimension  2  sign +   rate 0.500000   with the inverse moves 0.500000
+   dimension  4  sign -   rate 0.500000   with the inverse moves 0.353553
+   dimension  6  sign -   rate 0.500000   with the inverse moves 0.742817
+   dimension  6  sign -   rate 0.500000   with the inverse moves 0.742817
+
+level 9: the group has 648 elements and 25 sectors, 18 of them new at this level
+   dimension  6  sign -   rate 0.808604   with the inverse moves 0.725485
+   dimension  4  sign -   rate 0.787372   with the inverse moves 0.833062
+   dimension  4  sign -   rate 0.787372   with the inverse moves 0.833062
+   dimension  6  sign -   rate 0.770774   with the inverse moves 0.567302
+   dimension 12  sign -   rate 0.719533   with the inverse moves 0.749161
+   dimension  4  sign +   rate 0.707107   with the inverse moves 0.825694
+   dimension  4  sign +   rate 0.707107   with the inverse moves 0.825694
+   dimension  4  sign +   rate 0.707107   with the inverse moves 0.750000
+   dimension  4  sign +   rate 0.707107   with the inverse moves 0.750000
+   dimension  4  sign +   rate 0.707107   with the inverse moves 0.500000
+   dimension  4  sign +   rate 0.707107   with the inverse moves 0.500000
+   dimension 12  sign +   rate 0.707107   with the inverse moves 0.878534
+   dimension  6  sign +   rate 0.707107   with the inverse moves 0.750000
+   dimension  6  sign +   rate 0.707107   with the inverse moves 0.933013
+   dimension  4  sign -   rate 0.500000   with the inverse moves 0.821643
+   dimension  4  sign -   rate 0.500000   with the inverse moves 0.821643
+   dimension  4  sign -   rate 0.500000   with the inverse moves 0.623877
+   dimension  4  sign -   rate 0.500000   with the inverse moves 0.623877
+
+level 10: the group has 720 elements and 27 sectors, 16 of them new at this level
+   dimension  2  sign -   rate 0.866025   with the inverse moves 0.809017
+   dimension  2  sign -   rate 0.866025   with the inverse moves 0.309017
+   dimension  4  sign -   rate 0.809017   with the inverse moves 0.154508
+   dimension  8  sign -   rate 0.742801   with the inverse moves 0.572061
+   dimension  4  sign +   rate 0.707107   with the inverse moves 0.750000
+   dimension  3  sign +   rate 0.707107   with the inverse moves 0.809017
+   dimension  3  sign +   rate 0.707107   with the inverse moves 0.809017
+   dimension  5  sign +   rate 0.707107   with the inverse moves 0.500000
+   dimension  4  sign -   rate 0.707107   with the inverse moves 0.603553
+   dimension  6  sign +   rate 0.707107   with the inverse moves 0.500000
+   dimension  8  sign +   rate 0.707107   with the inverse moves 0.500000
+   dimension  6  sign +   rate 0.707107   with the inverse moves 0.904508
+   dimension 10  sign +   rate 0.707107   with the inverse moves 0.825694
+   dimension  6  sign -   rate 0.500000   with the inverse moves 0.725803
+   dimension 12  sign -   rate 0.500000   with the inverse moves 0.779141
+   dimension  4  sign -   rate 0.309017   with the inverse moves 0.404508
+
+level 11: the group has 1320 elements and 15 sectors, 14 of them new at this level
+   dimension 10  sign -   rate 0.776902   with the inverse moves 0.785334
+   dimension  6  sign -   rate 0.760690   with the inverse moves 0.823712
+   dimension  6  sign -   rate 0.760690   with the inverse moves 0.823712
+   dimension 10  sign -   rate 0.746530   with the inverse moves 0.700977
+   dimension 12  sign -   rate 0.739040   with the inverse moves 0.749049
+   dimension 12  sign -   rate 0.723685   with the inverse moves 0.809017
+   dimension 10  sign -   rate 0.714472   with the inverse moves 0.744110
+   dimension 10  sign +   rate 0.707107   with the inverse moves 0.793832
+   dimension 10  sign +   rate 0.707107   with the inverse moves 0.933013
+   dimension 12  sign +   rate 0.707107   with the inverse moves 0.874303
+   dimension  5  sign +   rate 0.707107   with the inverse moves 0.500000
+   dimension  5  sign +   rate 0.707107   with the inverse moves 0.500000
+   dimension 12  sign +   rate 0.707107   with the inverse moves 0.904508
+   dimension 11  sign +   rate 0.707107   with the inverse moves 0.750000
+
+level 12: the group has 1152 elements and 70 sectors, 42 of them new at this level
+   dimension  1  sign -   rate 0.866025   with the inverse moves 0.866025
+   dimension  1  sign -   rate 0.866025   with the inverse moves 0.866025
+   dimension  1  sign -   rate 0.866025   with the inverse moves 0.866025
+   dimension  1  sign -   rate 0.866025   with the inverse moves 0.866025
+   dimension  6  sign -   rate 0.806897   with the inverse moves 0.750000
+   dimension  6  sign -   rate 0.806897   with the inverse moves 0.750000
+   dimension  3  sign +   rate 0.707107   with the inverse moves 0.750000
+   dimension  3  sign +   rate 0.707107   with the inverse moves 0.750000
+   dimension  2  sign +   rate 0.707107   with the inverse moves 0.683013
+   dimension  2  sign +   rate 0.707107   with the inverse moves 0.683013
+   dimension  3  sign +   rate 0.707107   with the inverse moves 0.750000
+   dimension  3  sign +   rate 0.707107   with the inverse moves 0.750000
+   dimension  3  sign -   rate 0.707107   with the inverse moves 0.631084
+   dimension  3  sign -   rate 0.707107   with the inverse moves 0.631084
+   dimension  2  sign +   rate 0.707107   with the inverse moves 0.683013
+   dimension  2  sign +   rate 0.707107   with the inverse moves 0.683013
+   dimension  3  sign -   rate 0.707107   with the inverse moves 0.631084
+   dimension  3  sign -   rate 0.707107   with the inverse moves 0.631084
+   dimension  6  sign -   rate 0.707107   with the inverse moves 0.661438
+   dimension  4  sign +   rate 0.707107   with the inverse moves 0.500000
+   dimension  4  sign +   rate 0.707107   with the inverse moves 0.500000
+   dimension  9  sign +   rate 0.707107   with the inverse moves 0.890388
+   dimension  4  sign +   rate 0.707107   with the inverse moves 0.862372
+   dimension  6  sign +   rate 0.707107   with the inverse moves 0.881084
+   dimension  6  sign +   rate 0.707107   with the inverse moves 0.881084
+   dimension  6  sign +   rate 0.707107   with the inverse moves 0.603553
+   dimension  6  sign +   rate 0.707107   with the inverse moves 0.603553
+   dimension  9  sign +   rate 0.707107   with the inverse moves 0.890388
+   dimension  6  sign -   rate 0.707107   with the inverse moves 0.785589
+   dimension  6  sign -   rate 0.707107   with the inverse moves 0.785589
+   dimension  6  sign -   rate 0.707107   with the inverse moves 0.785589
+   dimension  6  sign -   rate 0.707107   with the inverse moves 0.785589
+   dimension  6  sign +   rate 0.707107   with the inverse moves 0.881084
+   dimension  6  sign +   rate 0.707107   with the inverse moves 0.881084
+   dimension  3  sign -   rate 0.500000   with the inverse moves 0.500000
+   dimension  3  sign -   rate 0.500000   with the inverse moves 0.500000
+   dimension  2  sign +   rate 0.500000   with the inverse moves 0.500000
+   dimension  2  sign +   rate 0.500000   with the inverse moves 0.500000
+   dimension  9  sign -   rate 0.500000   with the inverse moves 0.781505
+   dimension  9  sign -   rate 0.500000   with the inverse moves 0.781505
+   dimension  2  sign -   rate 0.000000   with the inverse moves 0.433013
+   dimension  2  sign -   rate 0.000000   with the inverse moves 0.433013
+
+level 13: the group has 2184 elements and 17 sectors, 16 of them new at this level
+   dimension  6  sign -   rate 0.828526   with the inverse moves 0.743759
+   dimension 12  sign -   rate 0.793560   with the inverse moves 0.679283
+   dimension 12  sign -   rate 0.783240   with the inverse moves 0.777012
+   dimension 12  sign -   rate 0.766060   with the inverse moves 0.751767
+   dimension  6  sign -   rate 0.763962   with the inverse moves 0.825694
+   dimension 14  sign -   rate 0.719533   with the inverse moves 0.815393
+   dimension 14  sign -   rate 0.719533   with the inverse moves 0.791701
+   dimension 12  sign +   rate 0.707107   with the inverse moves 0.885382
+   dimension  7  sign +   rate 0.707107   with the inverse moves 0.956393
+   dimension 12  sign +   rate 0.707107   with the inverse moves 0.869591
+   dimension 14  sign +   rate 0.707107   with the inverse moves 0.878534
+   dimension 12  sign +   rate 0.707107   with the inverse moves 0.875957
+   dimension  7  sign +   rate 0.707107   with the inverse moves 0.893420
+   dimension 14  sign +   rate 0.707107   with the inverse moves 0.918783
+   dimension 13  sign +   rate 0.707107   with the inverse moves 0.825694
+   dimension 14  sign -   rate 0.500000   with the inverse moves 0.763495
+ok    control: the trivial sector never cancels, for both sets of moves  [12 levels]
+ok    control: the eleven non-trivial characters of the abelian quotient Z/12 have rates |cos(2 pi k / 12)|  [[0.0, 0.0, 0.5, 0.5, 0.5, 0.5, 0.866025, 0.866025, 0.866025, 0.866025, 1.0]]
+ok    what never cancels, besides the trivial sector: one sector, of dimension 1, at level 2  [[(2, 1)]]
+ok    the same sector never cancels with the inverse moves added, and no other  [[(2, 1)]]
+ok    planted: with R replaced by L every sector has rate 1 (the instrument does not manufacture cancelling)  [5 sectors]
+ok    every rate was computed twice, on two independent bases, and the two agree; none exceeds 1  [0 draws thrown away and redone: []]
+
+7 checks, 0 failing
+RC=0

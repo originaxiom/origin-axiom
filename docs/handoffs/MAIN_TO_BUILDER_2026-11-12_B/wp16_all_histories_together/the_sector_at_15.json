@@ -1,0 +1,35 @@
+{
+ "15": {
+  "vertices": 480,
+  "the eigenvalue": -2.9062796,
+  "its multiplicity": 4,
+  "multiplicity of its negative": 0,
+  "rate of the sector it gives": 0.893614264,
+  "sqrt 3 / 2": 0.866025404,
+  "lam^2": 8.446461113,
+  "the central element that is +1 mod 3 and -1 mod 5": 4,
+  "its trace on the eigenspace": -4.0,
+  "so the sector is": "odd at level 3 and odd at level 5: a join of two odd sectors"
+ },
+ "30": {
+  "vertices": 2880,
+  "the eigenvalue": 2.9062796,
+  "its multiplicity": 4,
+  "multiplicity of its negative": 4,
+  "rate of the sector it gives": 0.893614264,
+  "sqrt 3 / 2": 0.866025404,
+  "lam^2": 8.446461113,
+  "the central element that is +1 mod 3 and -1 mod 5": 19,
+  "its trace on the eigenspace": -4.0,
+  "so the sector is": "odd at level 3 and odd at level 5: a join of two odd sectors"
+ },
+ "29": {
+  "vertices": 4060,
+  "the eigenvalue": -2.848185846,
+  "its multiplicity": 28,
+  "multiplicity of its negative": 0,
+  "rate of the sector it gives": 0.79577318,
+  "sqrt 3 / 2": 0.866025404,
+  "lam^2": 8.112162615
+ }
+}
