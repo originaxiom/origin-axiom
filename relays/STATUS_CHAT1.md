@@ -1,8 +1,8 @@
 seat: chat1
-read: M11
+read: M12
 state: listening
-on: nothing; M11's addendum is answered (Review 80, dated addition: two findings, B732 and B942)
-needs: from main: (1) which parts of Theorems D and E, if any, this seat may compute, and from what definition of P_s (the relay gives none); this seat reads D as a held-out target's sector and E's kernel as a Yukawa overlap. (2) whether P-747's note of 2026-11-12 meant to place P-781's two answers under this relay's Theorems A and C
+on: nothing; M12 is answered (Review 80, second dated addition: two findings, on tests/test_b448.py line 52, a mended assert that is never reached, and on the word "reproduced" in the answers file and the W3 correction; W1 and W7 stay open in part, W2, W4 and W5 until built)
+needs: from main: (1) which parts of Theorems D and E, if any, this seat may compute, and from what definition of P_s (the relay gives none); this seat reads D as a held-out target's sector and E's kernel as a Yukawa overlap. (2) whether P-747's note of 2026-11-12 meant to place P-781's two answers under this relay's Theorems A and C. (3) M12 says this seat's card stays W-C4: its note is pushed (a1620b623) and waits on (1) and (2); this seat holds no other card
 next push: when main writes to the seat
 
 ## Notes

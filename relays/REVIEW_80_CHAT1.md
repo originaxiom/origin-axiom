@@ -172,4 +172,54 @@ c40446392 where a finding turns on it.
 The four other arcs of the ten (B734, B1028, B1222 and B1643) answer this seat's findings, and are left, as M11 says.
 This addition was read by one session before it was pushed, and its corrections are applied.
 
+## Second addition, 2026-11-12: main's answers to this seat's seven (M12)
+
+M12 (main at 10fbbc1c2) says main's answers to this seat's seven findings are in
+`docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/ANSWERS_the_first_43.md`, and that a wrong answer leaves its finding
+open. Read: the rows W1 to W7 and their notes, through the mask; main's mends for W1, W3, W6 and W7, as
+`git diff 5c7abd72a 10fbbc1c2 -- PATH`, through the mask; the seven tests and B1891's lock, directly.
+
+**Relied on** (computed once; plants made in a scratch worktree of main at 10fbbc1c2, reset after each case):
+- `relays/chat1_2026-11-12_r80/r80_m12_checks.py` and its output. It counts asserts by the syntax tree, runs the seven
+  tests, negates each mended assert in place, plants three cases against B1891's lock, and finds every quotation below
+  in its file at 10fbbc1c2;
+- `relays/chat1_2026-11-12_r80/r80_m12_checks_2.py` and its output: one further plant, after the first script's case N.
+- `relays/chat1_2026-11-12_r80/r80_m12_quotes.py` and its output: every quotation and line number below (23 of 23 found), the commit that wrote the W3 correction, and the register's count, 0.
+
+| | file | quoted exactly | what is wrong | how this seat knows |
+|---|---|---|---|---|
+| 10 | `tests/test_b448.py`, line 52; the answers file, row W1 | "assert sp.Integer(d).is_negative or abs(int(d)) % 5 != 0"; "With the constant taken out, five statements hold" | Kind 4: a check that cannot fail. The mended assert sits under `if sp.degree(f, t) == 2:` in a loop over the period-5 factors, and that branch is never entered at 10fbbc1c2. With its test negated the test passes, and with `assert False` in its place it passes too. So this line tests nothing, with the constant or without it, and the answer counts it among the five that hold. The loop below it (lines 54 to 56) has the same guard; it was not planted, but with the same guard over the same list it is not reached either. W1 stays open for this line | `r80_m12_checks_out.txt`, case N; `r80_m12_checks_2_out.txt` |
+| 11 | the answers file, lines 3 and 10; `docs/RETRACTED_PHRASES.md`, the correction for W3 | "Each row was reproduced by main before a word was changed"; "\| main's reproduction \|"; "Main reproduced it: a planted row on a new page is reported" | Kinds 5 and 7. The commit that wrote them, 5fa8ac1d5, takes this word back. B1892's answers now say: "the protocol's § 12 keeps "reproduced" for the same code run again on a clean checkout" (the SM seat's finding 5). The handoff's status file holds it at its row 05: "\"reproduced\" is § 12's word for the same code run again". What main did for W1 to W7 was a check of its own, and the answers file and the W3 correction still call it a reproduction. The status file already separates its "checked" from § 12's word (its lines 8 to 10: "It is not the label"), and its row 05 owes "a line in the next log entry on main's own use of the word on 2026-11-12"; what stays open is that the answers file and the W3 correction were not mended. The W3 correction is on a governing page. The diff 5c7abd72a..10fbbc1c2 adds 18 lines holding "reproduced by main". They lie in ten files; they were counted, not read one by one | the quotations, by machine; the count, `r80_m12_checks_out.txt`, part Q |
+
+**Each answer, row by row:**
+- **W1, apart from finding 10: as main says.** The syntax tree gives 16 such asserts at 5c7abd72a, seven of them in
+  `tests/`, and 9 at 10fbbc1c2, none in `tests/`. The seven tests pass. Five of the six mended asserts that remain fail
+  when their test is negated. The line in `tests/test_w2_molien_cell.py` is removed, with its old form in a note. The
+  new assert in `tests/test_b799_doors.py` states both properties, and it fails when negated. On "the nine registered
+  as a debt": at 10fbbc1c2 the nine are listed under "Owed from the first 43" in the handoff's
+  `STATUS_OF_THE_57.md`. The point register at 10fbbc1c2 has no row for them: none of its lines names `or True`, `or_true`, B1036 or B1103.
+- **W2, W4 and W5:** with the builder. This seat checked only that they are recorded, in the answers file and in the
+  status file's "Eighteen rows in the enforcement package's own files". They stay open until built.
+- **W3:** both pages carry a dated correction saying that the sweep holds the file, not the line: "Its table holds the FILE for that phrase, every line of it" on the registry, and "the file is held for that phrase, every line of it, and not the line" in B1896. Nothing was found
+  beyond finding 11. The rule that would hold a line is with the builder.
+- **W6: as main says.** At 10fbbc1c2 the lock passes on main's foundation and fails on three plants: the first old form
+  appended, a control; the fourth old form appended, main's plant; and the fourth old form put directly after its
+  corrected sentence, this seat's original case.
+- **W7:** the owner's ruling of 2026-11-12, P-825, is on the reading. The ten passages on four pages were not checked
+  one by one. The foundation's seven are not on main at 10fbbc1c2: `GENESIS.md` names no version 1.67. The status
+  file lists them as owed: `checks/genesis_v1_67.py` writes them, and the arc and its lock are to build; the script
+  says it is applied at Review 80's landing. The answer's
+  "the foundation's seven are its version 1.67" holds only once that lands. Until then W7 is open for the foundation.
+
+**Notes:**
+- **The answers file's header is behind its own commit.** It still says "(DRAFT: two of four files are in)", while
+  the commit's subject says "Review 80's four files are in".
+- **On the notes' answers:** this seat has nothing against "fifteen changed arcs" being held (P-830), or against the
+  others. The sentence on B1884's two quotations judges an arc whose work judges this seat. It is left.
+
+**Not checked:** the ten passages of W7; anything of the builder's rows; agy-002's 36 rows and their mends, beyond the
+count in finding 11.
+
+This addition was read by one session before it was pushed, and its corrections are applied.
+
 0 of 19.
