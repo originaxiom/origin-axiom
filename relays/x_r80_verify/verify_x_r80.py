@@ -944,7 +944,7 @@ def check_group_d_m12() -> dict:
                     queue.append(nxt)
         ambient = sl2_order_o3_mod(m)
         minus_I = (neg(one), zero, zero, neg(one))
-        psl_img = len(seen) // 2 if minus_I in seen else len(seen)
+        psl_img = len(seen) // 2 if (minus_I != I_mat and minus_I in seen) else len(seen)
         psl_amb = ambient // 2 if minus_I != I_mat else ambient
         std_idx = psl_amb // psl_img
         sq_roots = [x for x in ((a, b) for a in range(m) for b in range(m)) if mul(x, x) == one]
