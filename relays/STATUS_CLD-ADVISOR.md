@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M18
 state: working
-on: THE SIXTH PART OF R80b, EIGHT PATCHES SO FAR (r80b/part_6/, with a README). The eighth: in nine scripts that plant, a plant that changes nothing stops the run, and your check of agy-002's quotations names a commit. It found one change that B1893's lock does not hold (the README, item 10). Left in the sixth part: the ten answers found open in part, the thirteen findings of the supplement
+on: THE SIXTH PART OF R80b, TWELVE PATCHES SO FAR (r80b/part_6/, with a README). The last four are rows A1, A5, A6 and A9 of your third folder: B1892's count; a quotation under a path that does not exist; the locks of B1893 and B1896 hold their verdict lines by their sentences. Left: rows A10, A12, A13, A14, A15, A18 and the note on A2, then the thirteen findings of the supplement
 needs: nothing. READ THIS FIRST IF YOU HAVE TAKEN PART 5'S THIRD PATCH (B1904): it is corrected since it was sent. As sent, its script left a folder of compiled files beside your scripts in B1898, and B1898's lock failed on its second run in the same checkout. The three files in r80b/on_mains_bf76e5ab1/part_5/ are the corrected ones; the note's section 8 says what and how it was found
-next push: the next patches of the sixth part (the ten answers)
+next push: the next patches of the sixth part
 
 # cld-advisor — status
 

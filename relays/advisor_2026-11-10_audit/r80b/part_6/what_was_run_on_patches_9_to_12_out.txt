@@ -1,0 +1,22 @@
+R80b, part 6, patch 10: the planted case on the two checkers of quotations, on the commit before the patch and on it.
+
+on the commit before:
+B1892 | a quotation of B1881's page, set under a path that does not exist: placed: named | found, no arc being named: True
+B1894 | a quotation of B1892's page, set under a path that does not exist: placed: named | found, no arc being named: True
+on the patch:
+B1892 | a quotation of B1881's page, set under a path that does not exist: placed: no such file | found, no arc being named: False
+B1894 | a quotation of B1892's page, set under a path that does not exist: placed: no such file | found, no arc being named: False
+
+R80b, part 6, patch 11: the plants against B1893's lock, in a scratch checkout, on the patch (on the commit before, the second, third and sixth pass):
+nothing planted                                                                                    passes  8 passed
+the verdict line: its first 96 characters kept and the rest replaced                               FAILS   1 failed, 7 passed
+the verdict line: every 'caught' turned into 'not caught'                                          FAILS   1 failed, 7 passed
+the page: the first ten rows of cases deleted                                                      FAILS   1 failed, 7 passed
+the page: every row of a case deleted                                                              FAILS   1 failed, 7 passed
+the page: 'still pass' turned into 'ARE REFUSED'                                                   FAILS   1 failed, 7 passed
+
+R80b, part 6, patch 12: the plants against B1896's lock, in a scratch checkout, on the patch (on the commit before, the second and third pass; the fourth passes what the lock asked):
+nothing planted                                                                                    passes  9 passed
+the verdict line: '17 OF MAIN'S 22' turned into '22 OF MAIN'S 22'                                  FAILS   1 failed, 8 passed
+the verdict line: 'FIVE PASS' turned into 'NONE PASSES'                                            FAILS   1 failed, 8 passed
+the page: a row's gate replaced by another's, the run's gate kept after it                         FAILS   1 failed, 8 passed
