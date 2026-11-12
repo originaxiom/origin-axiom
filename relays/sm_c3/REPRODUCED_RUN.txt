@@ -1,0 +1,10 @@
+The same code run again, on a clean checkout (protocol § 12, label: reproduced).
+Checkout: a fresh worktree of this branch at 9c77f2f53, nothing else in it. Each script was run once from its
+folder, writing to a separate output path; each second output is compared byte for byte with the committed one.
+Environment: python 3.11.18, sympy 1.14.0.
+
+c3_matter_line.py exit=0 stderr_bytes=0 second_output_sha256=2f35f903faf848c4d37f7a17effd7afd0b134f7473925b7cecb794504275c6bd byte-identical
+c3_puncture.py exit=0 stderr_bytes=0 second_output_sha256=0a7639043f77eab2c549d45236cfb21c3c10a8cf0fe33bd524af2050dd031499 byte-identical
+c3_positive_carrier.py exit=0 stderr_bytes=0 second_output_sha256=b4851d984248b53715a547421b4f673c1dde6b0d6780047753401b447b1ace66 byte-identical
+c3_cohomology_carrier.py exit=0 stderr_bytes=0 second_output_sha256=17807e8b6c6718b638d76e1fb72a03c5c2cdbfb1e5ac4ae7ff37be1bb06bd269 byte-identical
+run_lane_verifiers.py exit=0 every field but the run times identical to the committed lane_verifiers.json: True
