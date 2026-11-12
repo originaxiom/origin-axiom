@@ -1,0 +1,9 @@
+nothing: the lock as it stood                                                                       PASSES EVERY TEST
+the single runs' check passed the literal True again                   SM-13, X7                    PASSES EVERY TEST
+the mirror's check passed the literal True again                       SM-13, X7                    PASSES EVERY TEST
+the bound 0.9 to 1 dropped from the script's check                     SM-14                        PASSES EVERY TEST
+every correction bracket deleted from the page                         SM-11, SM-12, SM-16, SM-17   PASSES EVERY TEST
+the bullet on the three checks deleted from the page                   SM-13, SM-14, SM-15          PASSES EVERY TEST
+one cusp width changed in the run's file: what the lock did hold       SM-15, X8                    caught: test_the_two_quotients_recomputed
+
+undone with every test passing: 5 of 5 | the lock as it stood passes: True | what it did hold is caught: True

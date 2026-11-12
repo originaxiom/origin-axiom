@@ -1,0 +1,13 @@
+{
+ "the reader's commit": "c67f84c11",
+ "the commit of main read": "87bfa1f05",
+ "quotations": 4,
+ "found": 4,
+ "files named": [
+  "FINDINGS.md",
+  "arc_verdict.json",
+  "test_b1881_the_whole_and_the_value_verified.py",
+  "whole_and_value_on_main.py"
+ ],
+ "control: the first quotation altered by one character is reported missing": true
+}

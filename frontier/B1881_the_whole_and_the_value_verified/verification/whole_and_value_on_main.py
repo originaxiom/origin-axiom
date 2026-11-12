@@ -6,7 +6,9 @@
 Data-free.  Part A is integers, exact algebra and numerics at 50 digits on classical objects (the two level-5 quotients and
 their symmetries).  Part B is the record's flat-fibre instrument (B1857) on run sequences, in exact continued fractions.  No
 value of tau on record is read, none is compared, and no frame is evaluated at any point named here.  Nothing of the seat's
-code is run or imported; its printed numbers are typed below only as the things to be reproduced.
+code is run or imported; its printed numbers are typed below only as the things to be recomputed.
+[CORRECTED 2026-11-12, found by a second reading of Review 79's mends: this header said 'reproduced' here and at E10.  The record
+keeps that word for the same code run again; none of the seat's code was run, so every number here is recomputed.]
 
 EXPECTATIONS, WRITTEN BEFORE THE FIRST RUN (each says how it could fail)
  E1  The quotients.  Rows (alpha, b) mod 5, a move g acting by u -> u g^-1, the mark v = (1, 3).  The moves keeping +-v have
@@ -36,7 +38,7 @@ EXPECTATIONS, WRITTEN BEFORE THE FIRST RUN (each says how it could fail)
  E9  The instrument.  H_i = (r_i + x_i + y_i)/2, the same number as B1875's sqrt(tr^2 - 4)/(2 c_i).  Own values:
      (6) 3.618034, (11) 6.118034, (2,1,2,1,2) 1.723607; a run of n has own value (n-1)/2 + sqrt5/2 exactly in the limit
      (by hand: n/2 + 1/phi); the runs 6, 11, 16, 21, 26 keep the line and 7 does not.
- E10 Copies and mixtures: every number the relay prints is reproduced to its printed digits.  The rate is DERIVED, not only
+ E10 Copies and mixtures: every number the relay prints is recomputed to its printed digits.  The rate is DERIVED, not only
      observed: one golden period is the map x -> 1/(1 + 1/(1 + x)), whose derivative at its fixed point 1/phi is phi^-4.
      So the distance falls by a factor tending to phi^4 = 6.854102 per period.  Fails if the ratios tend elsewhere.
  E11 The short-gap facts: (6) with one period reads 3.6515; (6)_1(6)_2 reads 3.6371, below it; A = (2,1,1,4,4) and
@@ -48,6 +50,13 @@ EXPECTATIONS, WRITTEN BEFORE THE FIRST RUN (each says how it could fail)
  E12 Main's own question, not the seat's: is 'keeps the line' the same set of run sequences in the seat's convention
      (rows, v = (1,3), the ground [[1,1],[1,2]]) and in B1872's (columns, v = (1,2), the ground [[2,1],[1,1]])?  Not
      predicted.  It decides whether the two arcs speak of one allowed set.
+     [CORRECTED 2026-11-12, twice.  At Review 79: the second convention is not B1872's, whose run prints the seat's, rows.  It
+     is this arc's own.  At the second reading of that mend: it is not the transpose either, as the mend said.  The seat's
+     ground is symmetric, so its transpose is itself.  The second convention is the seat's with every matrix conjugated by
+     the swap of the two coordinates, the order of the letters kept, read on the column (1,2).  That column is the swap of
+     (2,1), the column the row (1,3) annihilates mod 5.  A row is kept by a matrix exactly when the column it annihilates
+     is, so the two tests are one test on every matrix of determinant 1 mod 5, and the agreement asked for here could fail
+     only by an error of coding.  The arc's lock computes this on all 120 matrices, with a mark for which it fails.]
 """
 import itertools
 import json
@@ -291,7 +300,8 @@ def part_a():
     check("E5 the twin exchange fixes s = +-i, over the two elliptic points t = -11 -+ 2i", {complex(sp.N(x)) for x in fix["the twin exchange"]} == {1j, -1j}
           and {str(sp.simplify(tt(x))) for x in fix["the twin exchange"]} == {"-11 - 2*I", "-11 + 2*I"})
     over = {k: {str(sp.nsimplify(sp.simplify(tt(x)))) for x in v} for k, v in fix.items()}
-    check("E5 W fixes the two twins over one of t = +-5 sqrt5, and W with the twin exchange the two over the other", {frozenset(over["W"]), frozenset(over["W with the twin exchange"])} == {frozenset({"5*sqrt(5)"}), frozenset({"-5*sqrt(5)"})}, over)
+    check("E5 W fixes the two twins over one of t = +-5 sqrt5, and W with the twin exchange the two over the other", {frozenset(over["W"]), frozenset(over["W with the twin exchange"])} == {frozenset({"5*sqrt(5)"}), frozenset({"-5*sqrt(5)"})},
+          {k: sorted(v) for k, v in over.items()})     # sorted 2026-11-12: a set was printed here, in an order that changed from run to run
     # the group of order 8 on the six points: orbits and stabilisers
     maps = {"d": lambda x: -1 / x, "W": lambda x: (beta * x + 1) / (x - beta), "m": lambda x: sp.conjugate(x)}
     def key(x):
@@ -456,7 +466,9 @@ def keeps_line_seat(runs):
 
 
 def keeps_line_main(runs):
-    """B1872's convention: L = [[1,1],[0,1]], R = [[1,0],[1,1]], columns, v = (1,2)"""
+    """this arc's second convention: L = [[1,1],[0,1]], R = [[1,0],[1,1]], columns, v = (1,2).
+    [CORRECTED 2026-11-12: this read "B1872's convention".  B1872 writes the seat's, rows.  These letters are the seat's
+    conjugated by the swap of the two coordinates; see the note at E12 in the header.]"""
     Wd = I2
     for k, r in enumerate(runs):
         Wd = mul(Wd, (1, r % 5, 0, 1) if k % 2 == 0 else (1, 0, r % 5, 1))
@@ -597,7 +609,16 @@ def part_b():
             if n % 2 == 0:
                 lows.append(max(heights(list(seq))))
     floor = min(lows)
-    check("the least apex over every cyclic run sequence of even length to 6 with runs to 5 is the ground's own, sqrt5/2 (%d sequences)" % len(lows), abs(floor - mp.sqrt(5) / 2) < mp.mpf(10) ** -100, mp.nstr(floor, 10))
+    # CORRECTED 2026-11-12, found by a second reading of Review 79's mends: this label read "over every cyclic run sequence ...
+    # (16275 sequences)".  16275 is the number of sequences as written.  The page was corrected at Review 79 and this label,
+    # which the run and its file print, was not.  The counts up to rotation are computed here and not typed.
+    seqs = [seq for n in (2, 4, 6) for seq in itertools.product(range(1, 6), repeat=n)]
+    by_all = len({min(seq[i:] + seq[:i] for i in range(len(seq))) for seq in seqs})
+    by_even = len({min(seq[i:] + seq[:i] for i in range(0, len(seq), 2)) for seq in seqs})
+    RES["B_counts"] = {"sequences_as_written": len(lows), "up_to_every_rotation": by_all, "up_to_rotations_that_keep_the_letters": by_even}
+    check("the least apex over every run sequence of length 2, 4, 6 with runs to 5, each read as a cycle, is the ground's own, sqrt5/2 "
+          "(%d sequences as written; %d up to rotation; %d up to the rotations that keep which letter a run is)" % (len(lows), by_all, by_even),
+          len(seqs) == len(lows) and abs(floor - mp.sqrt(5) / 2) < mp.mpf(10) ** -100, mp.nstr(floor, 10))
     # CORRECTED 2026-11-12 (Review 79): this check was passed the literal True, pointing at E9.  It is computed here.
     single = [max(heights(closed((5 * m + 1,), 60))) for m in range(1, 6)]
     single_ok = all(abs(v - (mp.mpf(5 * m) / 2 + mp.sqrt(5) / 2)) < mp.mpf(10) ** -40 for m, v in zip(range(1, 6), single)) and all(x < y for x, y in zip(single, single[1:]))
@@ -621,9 +642,14 @@ def part_b():
     RES["B_numbers"] = {"own": {k: mp.nstr(v, 12) for k, v in own.items()}, "copies_of_6_distances": six2, "rate": mp.nstr(rates[("(6)", 2)], 10), "four_ln_phi": mp.nstr(4 * mp.log(phi), 10),
                         "step_ratios": [mp.nstr(x, 7) for x in steps], "phi4": mp.nstr(phi ** 4, 10), "A_then_B_apex_by_gap": gaps,
                         "conventions": {"agree": agree, "differ": disagree, "differ_against_reversed": rev, "differ_against_rotated": rot, "first_difference": list(first) if first else None}}
-    RES["E12 the two conventions name one allowed set (as written, reversed, or rotated by one run)"] = (disagree == 0 or rev == 0 or rot == 0)
-    P("   [%s] E12 the two conventions name one allowed set, as written (%d differ), reversed (%d) or rotated by one run (%d)" % (
-        "ok" if RES["E12 the two conventions name one allowed set (as written, reversed, or rotated by one run)"] else "NOT SO", disagree, rev, rot))
+    # CORRECTED 2026-11-12 (main's own re-reading while mending the label above): this check passed if ANY of the three readings
+    # agreed (disagree == 0 or rev == 0 or rot == 0), which is weaker than the page's sentence.  It asks now for what the page
+    # says: no difference as written and none on the reversed sequence.  The rotated reading differs and is printed.
+    name = "E12 the two conventions name one allowed set: no sequence differs as written, and none on the reversed sequence"
+    RES[name] = (disagree == 0 and rev == 0 and agree == 6 ** 2 + 6 ** 4 + 6 ** 6)
+    if not RES[name]:
+        FAILS.append(name)
+    P("   [%s] %s (as written %d differ of %d; reversed %d; rotated by one run %d)" % ("ok" if RES[name] else "FAILS", name, disagree, agree + disagree, rev, rot))
 
 
 if __name__ == "__main__":

@@ -33,8 +33,8 @@ seat's, 2A agy-002's, 2X agy-exp's. The readers read main at `896cae025`.*
 | 2A12 | B874 | main's scope bracket gave a seat's strata as if main had computed them | the bracket says which part is computed on main and which is the seat's relay, whose locks are not imported; a lock reads it |
 | 2A13 | B1861 | the cut of a sentence dropped a whole word that fitted, emptied a sentence that opened with a space, and had no lock | mended, with a lock |
 | 2X1 | B1884 | the verdict line still said "two at 11, 19, 29 and on" | corrected |
-| 2X2 | B1884 | "B1872's convention" for the columns, in four places; B1872 writes rows | corrected on the page and in the script; its outputs are regenerated |
-| 2X3 | B1881 | the verdict line the same | corrected |
+| 2X2 | B1884 | "B1872's convention" for the columns, in four places; B1872 writes rows | corrected on the page and in the script; its outputs are regenerated. ADDED 2026-11-12: that correction named the columns a transpose, which is wrong; corrected again in B1895 |
+| 2X3 | B1881 | the verdict line the same | corrected. ADDED 2026-11-12: the correction carried the same wrong word, a transpose; corrected again in B1895 |
 | 2X4 | B1884 | "the expectations were written before the run": one commit holds the header, the script, its outputs and the page | corrected: computed once |
 | 2X5 | B1884 | "is reproduced" left standing in a second place and in the script | corrected; outputs regenerated |
 | 2X6 | B1880 | a script's header not changed when its outputs were put behind a flag | corrected |

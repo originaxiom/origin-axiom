@@ -1,0 +1,61 @@
+{
+ "the group has 120 matrices and the 1332 run sequences of length 2 and 4 with runs to 6 reach all of them": true,
+ "A1 B1881's first test is 'the row v is kept by the seat's word W', on every sequence": true,
+ "A1 B1881's second test is 'the column (1,2) is kept by J W J', the same word conjugated by the swap, on every sequence": true,
+ "A2 the seat's ground is symmetric: its transpose is itself, and the second ground is its conjugate by the swap and another matrix": true,
+ "A2 the swapped word is not the transposed word: they differ on 989 of the 1332 sequences, and the two tests they give differ on 342": true,
+ "A3 the row v = (1, 3) annihilates one line of columns, and it is the line of v itself": true,
+ "A3 the second mark is the swap of that column: J (2,1) = (1,2), and it is another line than the mark's": true,
+ "A4 a row is kept by a matrix exactly when the column it annihilates is kept: 120 of 120 for each of the six lines": true,
+ "A5 so the row test on W is the column test on J W J: 120 of 120": true,
+ "A6 the lines that annihilate themselves are two, the mark's and the second mark's; for each of the other four the same recipe gives another test": true,
+ "A7 on the reversed sequence the second word is the transpose of W conjugated by the swap; a row is kept by W exactly when the same column is kept by its transpose, for every line": true,
+ "A_numbers": {
+  "sequences": 1332,
+  "matrices": 120,
+  "swapped_word_differs_from_transposed": 989,
+  "tests_differ": 342,
+  "row_and_annihilated_column": {
+   "(0, 1)": 120,
+   "(1, 0)": 120,
+   "(1, 1)": 120,
+   "(1, 2)": 120,
+   "(1, 3)": 120,
+   "(1, 4)": 120
+  },
+  "row_test_equals_column_test_on_swapped": 120,
+  "controls": {
+   "(0, 1)": 88,
+   "(1, 0)": 88,
+   "(1, 1)": 88,
+   "(1, 4)": 88
+  },
+  "lines_that_annihilate_themselves": [
+   [
+    1,
+    2
+   ],
+   [
+    1,
+    3
+   ]
+  ]
+ },
+ "B1 at every run of the 2061 sequences tried (length 2 and 4 with runs to 6, length 6 with runs to 3), 1/(a + 1) < x < 1/a for the next run a": true,
+ "B2 the 3 all-ones sequences read sqrt5/2, to 1e-45": true,
+ "B2 every other sequence reads above 4/3, and sqrt5/2 is below 4/3": true,
+ "B2 every sequence with a run of 3 or more reads above 3/2": true,
+ "B3 the least among the others, in the range tried, is sqrt2, at the sequences of twos": true,
+ "B_numbers": {
+  "sequences": 2061,
+  "all_ones": 3,
+  "others": 2058,
+  "least_among_the_others": "1.41421356237",
+  "at": [
+   2,
+   2
+  ],
+  "with_a_run_of_three_or_more": 1977,
+  "least_of_those": "1.80277563773"
+ }
+}

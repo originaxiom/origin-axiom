@@ -18,7 +18,10 @@ EXPECTATIONS, WRITTEN BEFORE THE RUN (each says how it could fail)
      det(g + I) = s, so no own line exactly when s = 1.
  G5  Main's own question: in the column convention (the ground [[2,1],[1,1]], the mark (1,2)) the same counts hold.  [Corrected
      2026-11-12: this read "in B1872's convention"; B1872 writes rows, the ground ((1,1),(1,2)) and the mark (1,3).  The columns are
-     the transpose, which B1881 used.]
+     the transpose, which B1881 used.  CORRECTED AGAIN the same day, found by a second reading of that mend: they are not the
+     transpose.  The row ground is symmetric, so its transpose is itself.  The column convention is the row convention with every
+     matrix conjugated by the swap of the two coordinates, the order of the letters kept, and the mark's column (1,2) is the swap
+     of (2,1), the column that the row (1,3) annihilates modulo 5.  B1881's lock computes that the two tests are one test.]
 """
 import itertools
 import json
@@ -139,8 +142,10 @@ def main():
     Fm = mul(Lm, SW); LRm = mul(Lm, Rm)
     col = lambda g, v, n: ((g[0] * v[0] + g[1] * v[1]) % n, (g[2] * v[0] + g[3] * v[1]) % n)
     keptc = lambda g, n: [v for v in primitive(n) if col(g, v, n) in (v, ((-v[0]) % n, (-v[1]) % n))]
-    check("G5 in the column convention, the transpose of B1872's rows: the ground [[2,1],[1,1]] keeps (1,2) up to sign at N = 5, four vectors there and none at another N to 60; its tick keeps none",
-          mul(Fm, Fm) == LRm and col(LRm, (1, 2), 5) == (4, 3) and {n: len(keptc(LRm, n)) for n in range(2, 61) if keptc(LRm, n)} == {5: 4} and not any(keptc(Fm, n) for n in range(2, 61)),
+    # CORRECTED 2026-11-12: this label read "the transpose of B1872's rows".  The swap is checked here on the four matrices used.
+    swapped = lambda g: mul(mul(SW, g), SW)
+    check("G5 in the column convention, the row convention with every matrix conjugated by the swap of the coordinates: the ground [[2,1],[1,1]] keeps (1,2) up to sign at N = 5, four vectors there and none at another N to 60; its tick keeps none",
+          (swapped(L), swapped(R), swapped(F), swapped(LR)) == (Lm, Rm, Fm, LRm) and LRm != (LR[0], LR[2], LR[1], LR[3]) and mul(Fm, Fm) == LRm and col(LRm, (1, 2), 5) == (4, 3) and {n: len(keptc(LRm, n)) for n in range(2, 61) if keptc(LRm, n)} == {5: 4} and not any(keptc(Fm, n) for n in range(2, 61)),
           (Fm, LRm))
     # the seat's table of the other root histories (reported there, not predicted): one line as a set, and vectors up to sign
     table = {}

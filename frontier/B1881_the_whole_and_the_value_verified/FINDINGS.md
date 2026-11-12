@@ -8,7 +8,9 @@ named here. None of the seat's code is run. 0 of 19.*
 
 ## 1. The answer first
 
-- **Every exact fact of both relays is reproduced by main's own code:** 65 checks, none failing.
+- **Every exact fact of both relays is recomputed by main's own code:** 65 checks, none failing. [CORRECTED
+  2026-11-12, found by a second reading of Review 79's mends: this read "is reproduced". The record keeps that word
+  for the same code run again on a clean checkout (`docs/seats/README.md` § 12). None of the seat's code was run.]
 - **The first relay's statement holds, and it is elementary:** a function unchanged by a group of symmetries is
   greatest on a set the group carries to itself. So it is greatest at one point only where every symmetry fixes
   that point. Symmetry says where a single place can be. It does not put one there.
@@ -78,7 +80,10 @@ backward. Main computed it from exact integer matrices, and checked it against t
 
 - **A least, and no greatest.** Over all 16,275 run sequences of even length to 6 with runs to 5 [CORRECTED
   2026-11-12 (Review 79): this read "cyclic run sequences". 16,275 = 5² + 5⁴ + 5⁶ counts sequences; up to rotation
-  they are 2,815. The least is the same either way], the least
+  they are 2,815. The least is the same either way. ADDED the same day, found by a second reading of this mend: the
+  script's label for this check kept the old words, and so did the run and its file. The label is corrected and
+  the script computes the counts: 16,275 as written, 2,815 up to rotation, and 5,575 up to the rotations that keep
+  which letter a run is], the least
   apex is the ground's own, √5/2. The own values of the allowed single runs are 5m/2 + √5/2 for the run of 5m + 1,
   and grow without bound.
 - **So if the whole is read by its greatest, there is no outcome in this instrument.** That is the record's own
@@ -104,6 +109,26 @@ ground [[2, 1], [1, 1]]. [CORRECTED 2026-11-12 (Review 79): that is not B1872's 
 seat's: rows, the line ±(1, 3) with its twin ±(2, 1), and the ground ((1, 1), (1, 2)). The second convention tested
 here, columns with the mark (1, 2) and the ground [[2, 1], [1, 1]], is its transpose and is this arc's own; the
 script's docstring carries the same wrong name. The conclusion, one allowed set in both, is not touched.] Main did not know beforehand whether "keeps the line" names the same run sequences in both.
+
+> **CORRECTED 2026-11-12, a second time,** found by a second reading of the note above by a session that did not
+> write it. The note calls the second convention the transpose of the seat's. It is not the transpose.
+>
+> - **What it is.** The seat's convention with every matrix conjugated by the swap of the two coordinates, the order
+>   of the letters kept, and read on columns. The seat's ground is symmetric, so its transpose is itself. The second
+>   ground, [[2, 1], [1, 1]], is the seat's conjugated by the swap.
+> - **Its mark.** The row (1, 3) annihilates the column (2, 1) modulo 5, and (2, 1) lies on the mark's own line. The
+>   second mark, the column (1, 2), is the swap of (2, 1).
+> - **So the two tests are one test.** A row is kept by a matrix exactly when the column it annihilates is kept. The
+>   lock computes this on all 120 matrices of determinant 1 modulo 5, for each of the six lines. With a mark that
+>   does not annihilate its own line the same recipe gives another test: for (1, 1) the two agree on 88 of the 120.
+> - **What that changes.** The agreement on 47,988 sequences is an instance of an identity. It could have failed only
+>   by an error of coding, and it shows nothing more than that the two functions are coded as described. Main did
+>   not see this when it asked the question, and the sentence before this note stays as it was written.
+> - **The agreement on the reversed sequence** is where a transpose does enter. A row is kept by a matrix exactly
+>   when the same vector, as a column, is kept by its transpose, for any mark. The second convention's word on the
+>   reversed sequence is the transpose of the seat's word, conjugated by the swap.
+> - **Corrected with it:** the docstring of the script's second function, which still named B1872, and the script's
+>   header.
 
 - On all 47,988 run sequences of length 2, 4 and 6 with runs to 6, the two agree, with no exception.
 - They also agree when one is read on the reversed sequence. So the allowed set is closed under reversal.
@@ -191,6 +216,13 @@ formulation, a day old and unread by any other seat.
   mended earlier and said to ask what the relay says, asked for main's own figure; it now asks for both. And the
   lock said it recomputed the index, the cusp widths and the elliptic points, and recomputed the index alone; it
   recomputes all three now.
+- **Those mends were read on 2026-11-12 by a session that did not write them, and four things were found.** The
+  word transpose (§ 5). "Reproduced" for what was recomputed, in § 1 and in the verdict line. The script's label
+  for the least apex, which the mend of the page had not reached (§ 3). And that the lock held two of the nine mends
+  and nothing held the other seven. All four are corrected, and the lock holds each.
+- **Main found two more while mending those.** The check on the two conventions passed if any one of three readings
+  agreed; it asks now for the two that § 5 states. And one line of the run printed a set, in an order that changed
+  from run to run; it is sorted, and the run is the same file at every run.
 
 ## Reproduce
 

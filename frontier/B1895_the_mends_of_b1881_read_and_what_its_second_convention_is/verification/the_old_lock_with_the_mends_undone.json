@@ -1,0 +1,47 @@
+{
+ "the commit read": "87bfa1f05",
+ "tests in the lock at that commit": 5,
+ "plants": [
+  {
+   "undone": "nothing: the lock as it stood",
+   "the mends it belongs to": "",
+   "tests failing": []
+  },
+  {
+   "undone": "the single runs' check passed the literal True again",
+   "the mends it belongs to": "SM-13, X7",
+   "tests failing": []
+  },
+  {
+   "undone": "the mirror's check passed the literal True again",
+   "the mends it belongs to": "SM-13, X7",
+   "tests failing": []
+  },
+  {
+   "undone": "the bound 0.9 to 1 dropped from the script's check",
+   "the mends it belongs to": "SM-14",
+   "tests failing": []
+  },
+  {
+   "undone": "every correction bracket deleted from the page",
+   "the mends it belongs to": "SM-11, SM-12, SM-16, SM-17",
+   "tests failing": []
+  },
+  {
+   "undone": "the bullet on the three checks deleted from the page",
+   "the mends it belongs to": "SM-13, SM-14, SM-15",
+   "tests failing": []
+  },
+  {
+   "undone": "one cusp width changed in the run's file: what the lock did hold",
+   "the mends it belongs to": "SM-15, X8",
+   "tests failing": [
+    "test_the_two_quotients_recomputed"
+   ]
+  }
+ ],
+ "undone with every test passing": 5,
+ "of": 5,
+ "the lock as it stood passes": true,
+ "what it did hold is caught": true
+}

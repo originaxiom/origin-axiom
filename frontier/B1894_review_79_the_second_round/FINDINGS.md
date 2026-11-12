@@ -106,6 +106,10 @@ register row, two arcs and a dated status entry, after main had put the same in 
 - **It wrote in a lock's note that a real instance had been found in a script.** None had. Corrected before the
   commit.
 - **A check it planted against its own new guard was wrong,** a grid that is in fact complete. The guard was right.
+- **ADDED 2026-11-12, after this arc landed: two of this round's mends wrote a wrong word.** For 2X2 and 2X3 main
+  named the column convention of B1884 and of B1881 the transpose of the rows. It is the rows with every matrix
+  conjugated by the swap of the two coordinates. A reading of B1881's mends, delivered after this arc had landed,
+  found it with three more faults. All four hold, and they are answered in B1895. They are not among the 35.
 
 ## 7. What is not shown
 

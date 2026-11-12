@@ -1,5 +1,20 @@
 # Changelog
 
+## S306p THE MENDS OF B1881 READ BY A SESSION THAT DID NOT WRITE THEM: FOUR FINDINGS, ALL HELD; WHAT ITS SECOND CONVENTION IS (B1895; P-818, P-819) (2026-11-12)
+
+- **Why this reading.** At Review 79's second round main gave B1881's mends to two sessions whose own work that arc judges. Both left them. Main then asked agy-002, which built none of it. Its section came in after the second round had landed.
+- **The result.** Four findings, each an exact quotation found by machine at the commit read (`87bfa1f05`). All four held on main's own reproduction.
+- **A wrong word in the mathematics.** Main's mend at Review 79 called B1881's second convention the transpose of the seat's. The seat's ground is symmetric, so its transpose is itself. The second convention is the seat's with every matrix conjugated by the swap of the two coordinates, read on the swap of the column that the mark annihilates. Computed: the 1,332 run sequences of length 2 and 4 with runs to 6 reach all 120 matrices of determinant 1 modulo 5, and the swapped word differs from the transposed word on 989 of them.
+- **What the right statement shows.** A row is kept by a matrix exactly when the column it annihilates is kept: all 120 matrices, each of the six lines. So B1881's two tests are one test, and its agreement on 47,988 run sequences is an instance of an identity that could have failed only by an error of coding. The control: for the four lines that do not annihilate themselves the same recipe gives another test, 88 of 120.
+- **The other three findings.** "Reproduced" stood for what was recomputed, in the verdict line and on the page. The script's label kept "every cyclic run sequence" beside the count of sequences as written, in the script, its file and its run. And the lock held two of the nine mends of Review 79.
+- **Mended.** B1881's page, verdict line, script and outputs (65 checks, none failing); B1884's page and script, where the same wrong word stood (17 checks, none failing); two rows and one note of B1894; a sentence main had sent to another session. B1881's lock has ten tests where it had five, and catches 18 of 18 planted reversions of the mends, with the control passing.
+- **Found by main while mending.** A check of B1881 passed if any one of three readings agreed; it asks for the two the page states. One line of its run printed a set in an order that changed from run to run; it is sorted.
+- **One statement made stronger, from the reader's bound.** Every run sequence that is not all ones reads above 4/3 in the flat-fibre instrument, so the ground's √5/2 is the least reading over every sequence. By hand, with its ingredient checked on 2,061 sequences. Whether √2 is the second least is not shown (P-819).
+- **What main got wrong.** It is the fourth time at this review that a correction main wrote held an error of its own, each found by a session that did not write it.
+- **Not shown.** The reader's planted errors were not run against the new lock. These mends have been read by nobody but main.
+
+0 of 19.
+
 ## S306p REVIEW 79, THE SECOND ROUND: THE READERS READ MAIN'S ANSWERS; 35 FINDINGS, ALL HELD; A SIGN IN THE MATHEMATICS CORRECTED (B1894; P-817) (2026-11-12)
 
 - **The result.** Each of the four sessions checked main's answers to its own findings and read the changes it had not found. Of main's 99 answers they report 76 right and complete, 11 not complete, one not mended as main had said, and 11 with the builder of the gates. They made 35 findings on the mends. Main reproduced each: 34 hold in full and one in part. They are 30 distinct faults.

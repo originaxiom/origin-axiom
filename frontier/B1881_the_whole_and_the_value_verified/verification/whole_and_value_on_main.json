@@ -115,7 +115,12 @@
  "E11 A = (2,1,1,4,4) and B = (2,1,2,4,4) keep the line; own values 2.418183 and 2.423508": true,
  "E11 the apex can sit at the shallower departure: in A_1 B_2 it is in A at 2.425956; in A_2 B_3, A_4 B_5, A_8 B_9 it is in B": true,
  "E11 and for every gap from 2 to 12 it is in B (the referee's statement)": true,
- "the least apex over every cyclic run sequence of even length to 6 with runs to 5 is the ground's own, sqrt5/2 (16275 sequences)": true,
+ "B_counts": {
+  "sequences_as_written": 16275,
+  "up_to_every_rotation": 2815,
+  "up_to_rotations_that_keep_the_letters": 5575
+ },
+ "the least apex over every run sequence of length 2, 4, 6 with runs to 5, each read as a cycle, is the ground's own, sqrt5/2 (16275 sequences as written; 2815 up to rotation; 5575 up to the rotations that keep which letter a run is)": true,
  "the own values of the allowed single runs increase without bound: 5m/2 + sqrt5/2 for the run of 5m + 1": true,
  "B_numbers": {
   "own": {
@@ -163,5 +168,5 @@
    "first_difference": null
   }
  },
- "E12 the two conventions name one allowed set (as written, reversed, or rotated by one run)": true
+ "E12 the two conventions name one allowed set: no sequence differs as written, and none on the reversed sequence": true
 }

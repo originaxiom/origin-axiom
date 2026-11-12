@@ -1,0 +1,21 @@
+control: nothing planted                                                                     passes  
+the single runs' check passed the literal True again                                         CAUGHT  no_check_of_the_script_is_passed_a_constant
+the mirror's check passed the literal True again                                             CAUGHT  no_check_of_the_script_is_passed_a_constant
+a name bound to True passed to a check                                                       CAUGHT  no_check_of_the_script_is_passed_a_constant
+the bound 0.9 to 1 dropped from the script's check                                           CAUGHT  the_short_gap_figure_in_exact_arithmetic
+every [CORRECTED] bracket and the bullet deleted from the page                               CAUGHT  each_correction_stands_with_the_sentence_it_corrects, the_three_counts_of_run_sequences_by_a_second_method
+the bullet 'Three checks did not check what they said' deleted                               CAUGHT  each_correction_stands_with_the_sentence_it_corrects
+the second note on the transpose deleted                                                     CAUGHT  each_correction_stands_with_the_sentence_it_corrects, the_second_convention_is_the_first_conjugated_by_the_swap_and_the_two_tests_are_one_test
+the verdict line says 'reproduced' again                                                     CAUGHT  each_correction_stands_with_the_sentence_it_corrects
+the verdict line keeps 'the transpose' with its second correction removed                    CAUGHT  each_correction_stands_with_the_sentence_it_corrects
+the old label 'cyclic run sequence (16275 sequences)' back in the run and its file           CAUGHT  the_three_counts_of_run_sequences_by_a_second_method
+one count changed in the run's file                                                          CAUGHT  the_three_counts_of_run_sequences_by_a_second_method
+the check on the two conventions passes on any of three again                                CAUGHT  each_correction_stands_with_the_sentence_it_corrects
+the docstring names B1872 again                                                              CAUGHT  each_correction_stands_with_the_sentence_it_corrects
+the script's second mark moved to the mark's own column                                      CAUGHT  the_second_convention_is_the_first_conjugated_by_the_swap_and_the_two_tests_are_one_test
+the script's second word made the transpose (letters in reversed order)                      CAUGHT  the_second_convention_is_the_first_conjugated_by_the_swap_and_the_two_tests_are_one_test
+the page says 104 of 120 for the control                                                     CAUGHT  the_second_convention_is_the_first_conjugated_by_the_swap_and_the_two_tests_are_one_test
+the page says 0.93 percent                                                                   CAUGHT  the_short_gap_figure_in_exact_arithmetic
+the page says 'is reproduced' again, the bracket removed                                     CAUGHT  each_correction_stands_with_the_sentence_it_corrects
+
+control passes: True | planted reversions caught: 18 of 18

@@ -19770,3 +19770,22 @@ seat's check. Six are left.
 
 0 of 19.
 
+## 2026-11-12 — One more reading of main's corrections, and a wrong word in them (S306p)
+
+**What was asked.** One of the arcs corrected at the review checks the work of two of the reading sessions, so those two could not read its corrections. A third session, which had no part in it, was asked to. It found four faults, and all four are real.
+
+**The one that touches the mathematics.** The arc compares two ways of writing the same test, one with rows and one with columns. In a correction main had written that the second way is the "transpose" of the first. That is the wrong word. The second way is the first with the two coordinates swapped. The session showed it in one line: the matrix in question is symmetric, so its transpose is itself, and that is not the matrix the second way uses.
+
+**What the right word shows.** With the right description it is plain that the two tests are the same test, always. Main checked this on all 120 matrices that can occur. The arc had reported, as something it had found, that the two tests agree on every one of 47,988 cases. They had to agree. The check could only have failed if the code had been wrong. The arc now says so.
+
+**The other three faults.** A word that the record keeps for "the same code run again" was used for "computed again with other code". A label inside a script still carried a count the page had already corrected. And the automatic check on the arc guarded two of the nine corrections; the other seven could have been undone without anything failing. All are mended. Main then undid each correction in a scratch copy, eighteen ways, and the check now fails every time.
+
+**One thing gained.** The session also gave a short argument that the lowest reading of the instrument is the ground's own, over every sequence and not only the ones tried. Main worked it through by hand and checked its one ingredient by computer.
+
+**What it shows.** This is the fourth time at this review that a correction written by main carried an error of its own. Each was found by a session that had not written it.
+
+**What is not done.** These new corrections have again been read only by main.
+
+**Which piece of the plan moved.** The clean-up of errors in the mathematics and of checks that cannot fail. No package closed.
+
+0 of 19.

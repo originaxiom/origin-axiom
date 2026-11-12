@@ -56,7 +56,7 @@ three, and one names none.
 
 ## 3. What main adds
 
-- **The same counts in the column convention** (the ground [[2, 1], [1, 1]], the mark (1, 2)) [CORRECTED 2026-11-12 (Review 79's second round): this read "in B1872's convention". B1872 writes rows, the ground ((1, 1), (1, 2)) and the mark (1, 3), which is the seat's convention; the columns are the transpose that B1881 used. B1881's page was corrected at Review 79 and this arc, its script and its verdict line were not]: the ground keeps
+- **The same counts in the column convention** (the ground [[2, 1], [1, 1]], the mark (1, 2)) [CORRECTED 2026-11-12 (Review 79's second round): this read "in B1872's convention". B1872 writes rows, the ground ((1, 1), (1, 2)) and the mark (1, 3), which is the seat's convention; the columns are the transpose that B1881 used. B1881's page was corrected at Review 79 and this arc, its script and its verdict line were not. CORRECTED AGAIN the same day, found by a second reading of that note by a session that did not write it: the columns are not the transpose. The row ground is symmetric, so its transpose is itself. The column convention is the row convention with every matrix conjugated by the swap of the two coordinates, and its mark, the column (1, 2), is the swap of (2, 1), the column that the row (1, 3) annihilates modulo 5. B1881's lock computes on all 120 matrices of determinant 1 modulo 5 that the two tests are one test. The script's label is corrected and its outputs are regenerated]: the ground keeps
   four vectors up to sign at N = 5 and none at another N to 60, and its tick keeps none.
 - **The brute-force form of P4** to N = 40: the same two matrices and no other.
 

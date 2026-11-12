@@ -65,6 +65,37 @@ def test_two_and_no_more_holds_to_200_and_not_beyond():
     assert "four at 209 = 11 × 19" in f and "holds to 200, the range computed" in f
 
 
+def test_the_column_convention_is_the_swap_of_the_coordinates_and_not_a_transpose():
+    """Added 2026-11-12, from a second reading of a mend of Review 79's second round.  That mend named the column convention the
+    transpose of the rows.  The row ground is symmetric, so its transpose is itself; the column ground is the row ground conjugated
+    by the swap of the two coordinates, and so are the letters and the tick.  Fails if the ground were not symmetric, or if the
+    script's label, its run or the page still called the columns a transpose without the correction."""
+    swap = lambda g: m.mul(m.mul(m.SW, g), m.SW)
+    tr = lambda g: (g[0], g[2], g[1], g[3])
+    assert tr(m.LR) == m.LR and swap(m.LR) == (2, 1, 1, 1) and swap(m.LR) != tr(m.LR)
+    assert swap(m.L) == (1, 1, 0, 1) == m.R and swap(m.R) == (1, 0, 1, 1) == m.L and swap(m.F) == (1, 1, 1, 0)
+    assert m.mul(swap(m.F), swap(m.F)) == swap(m.LR)
+    col = lambda g, v: ((g[0] * v[0] + g[1] * v[1]) % 5, (g[2] * v[0] + g[3] * v[1]) % 5)
+    # the marks, computed from the script's own objects and not typed: the four rows the row ground keeps up to sign, the columns
+    # they all annihilate, and the four columns the swapped ground keeps up to sign.  The swap carries the second set to the third.
+    marks = m.kept_up_to_sign(m.LR, 5)
+    annihilated = [u for u in m.primitive(5) if all((v[0] * u[0] + v[1] * u[1]) % 5 == 0 for v in marks)]
+    kept_columns = [u for u in m.primitive(5) if col(swap(m.LR), u) in (u, ((-u[0]) % 5, (-u[1]) % 5))]
+    assert len(marks) == len(annihilated) == len(kept_columns) == 4 and (1, 3) in marks and (1, 2) in kept_columns
+    assert sorted(annihilated) == sorted(marks)                                           # the mark's line is its own annihilator
+    assert sorted(col(m.SW, u) for u in annihilated) == sorted(kept_columns)
+    assert sorted(kept_columns) != sorted(marks)                                          # and the columns kept are another line
+    keys = [k for k in RES if k.startswith("G5 ")]
+    assert len(keys) == 1 and "the row convention with every matrix conjugated by the swap of the coordinates" in keys[0] and RES[keys[0]] is True
+    run = (HERE / "ground_level_on_main_run.txt").read_text(encoding="utf-8")
+    assert "transpose" not in keys[0] and "the transpose of B1872's rows" not in run
+    f = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
+    para = [b_ for b_ in f.split("\n\n") if "the columns are the transpose that B1881 used" in b_]
+    assert len(para) == 1 and "the columns are not the transpose" in para[0] and "conjugated by the swap" in para[0]
+    src = (HERE / "ground_level_on_main.py").read_text(encoding="utf-8")
+    assert "CORRECTED AGAIN the same day" in src and src.count("the transpose of B1872's rows") == 1          # once, in the note that says what it read
+
+
 import os as _os
 
 import pytest as _pytest

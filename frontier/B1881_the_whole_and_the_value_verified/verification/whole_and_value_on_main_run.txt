@@ -41,7 +41,7 @@ A5. the coordinate s of the quotient of one twin, and the three pairs (R3, R4, Q
    fixed by W with the twin exchange: [-5*sqrt(5)*sqrt(110*sqrt(5) + 250)/4 - 11/2 + 5*sqrt(5)/2 + 11*sqrt(110*sqrt(5) + 250)/4, -11*sqrt(110*sqrt(5) + 250)/4 - 11/2 + 5*sqrt(5)/2 + 5*sqrt(5)*sqrt(110*sqrt(5) + 250)/4], at t = ['-5*sqrt(5)']
    [ok] E5 the three holomorphic involutions have two fixed points each, six in all, no point common to two
    [ok] E5 the twin exchange fixes s = +-i, over the two elliptic points t = -11 -+ 2i
-   [ok] E5 W fixes the two twins over one of t = +-5 sqrt5, and W with the twin exchange the two over the other -- {'the twin exchange': {'-11 - 2*I', '-11 + 2*I'}, 'W': {'5*sqrt(5)'}, 'W with the twin exchange': {'-5*sqrt(5)'}}
+   [ok] E5 W fixes the two twins over one of t = +-5 sqrt5, and W with the twin exchange the two over the other -- {'the twin exchange': ['-11 + 2*I', '-11 - 2*I'], 'W': ['5*sqrt(5)'], 'W with the twin exchange': ['-5*sqrt(5)']}
    [ok] E5 the twin exchange, W and the mirror generate a group of order 8 on the sphere -- 8
    orbits of the six points: sizes [2, 2, 2]; stabiliser orders [4, 4, 4, 4, 4, 4]
    [ok] E5 the six points fall into exactly three pairs, each point with a stabiliser of order 4; no point is fixed by the whole group
@@ -122,11 +122,11 @@ B5. short gaps (the seat's checks after its review)
    [ok] E11 the apex can sit at the shallower departure: in A_1 B_2 it is in A at 2.425956; in A_2 B_3, A_4 B_5, A_8 B_9 it is in B
    [ok] E11 and for every gap from 2 to 12 it is in B (the referee's statement) -- ABBBBBBBBBBB
 B6. no greatest, and a least
-   [ok] the least apex over every cyclic run sequence of even length to 6 with runs to 5 is the ground's own, sqrt5/2 (16275 sequences) -- 1.118033989
+   [ok] the least apex over every run sequence of length 2, 4, 6 with runs to 5, each read as a cycle, is the ground's own, sqrt5/2 (16275 sequences as written; 2815 up to rotation; 5575 up to the rotations that keep which letter a run is) -- 1.118033989
    [ok] the own values of the allowed single runs increase without bound: 5m/2 + sqrt5/2 for the run of 5m + 1 -- computed for m = 1..5, to 1e-40; the formula is unbounded in m
 B7. main's own question: one allowed set in the two conventions?
    run sequences of length 2, 4, 6 with runs to 6: the two conventions agree on 47988 and differ on 0 (first: None)
    against main's convention read on the REVERSED sequence they differ on 0; on the sequence ROTATED by one run, on 8366
-   [ok] E12 the two conventions name one allowed set, as written (0 differ), reversed (0) or rotated by one run (8366)
+   [ok] E12 the two conventions name one allowed set: no sequence differs as written, and none on the reversed sequence (as written 0 differ of 47988; reversed 0; rotated by one run 8366)
 
 CHECKS: 65, FAILING: 0
