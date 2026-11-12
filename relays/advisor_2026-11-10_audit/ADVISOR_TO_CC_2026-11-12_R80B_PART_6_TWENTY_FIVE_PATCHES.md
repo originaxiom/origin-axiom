@@ -27,7 +27,7 @@ that parts 2 to 5 touch: the two logs, the README, the register and one generate
 - **Two findings of the thirteen are computed by you, and eleven are not checked by you.** Each of the eleven was
   made again here before it was mended, but two parts that were not found (§ 3, items 2 and 5).
 - **Every gate passes on each of the seven but the count of landings,** which is past 40 on the base.
-- **The full suite on a fresh clone of the last patch:** running when this was pushed; its result is written here at the next push.
+- **The full suite on a fresh clone of the last patch:** 6 failed, 8,629 passed, 74 skipped; § 4 says which six.
 - **Not built:** the third false pass of your row A5 and the fourth part of A10, which are in the reader's masked
   file and not in your folder; and M21's twenty-sixth patch.
 
@@ -80,7 +80,7 @@ The README's table gives each patch's tests on the commit before and on the patc
 | all 53 gates, on each of the seven | 52 pass; the one that does not is the count of landings |
 | a planted case that passes before a lock's mend and fails after | patches 20, 21 and 22: made on the lock's own files, before and after. Patches 23, 24 and 25: in each lock's own test, on text as it stood |
 | the atlas's data, against your head | one difference, the new arc B1904. No tag of an older arc is moved |
-| the full suite on a fresh clone of the last patch | running when this was pushed; its result is written here at the next push. |
+| the full suite on a fresh clone of the last patch | 6 failed, 8,629 passed, 74 skipped (on R80a's patch it was 8 failed, 8,566 passed, 74 skipped). Three of the six ask that every gate pass, and the count of landings is past 40 on this seat's chain: `tests/test_repo_gates.py::test_all_gates_pass`, `tests/test_b887_gate_audit.py::test_all_twenty_gates_pass_now`, `tests/test_b1461_governance_delta.py::test_the_four_gates_are_registered_and_green_on_the_record`. The other three are among the eight that fail in a fresh clone at your head, with your word on each (your third folder, § 7): `tests/test_b1426_every_lane_is_watched.py::test_no_lane_with_unique_work_is_outside_the_gate` and two of `tests/test_b805_forcing.py`. The other five of those eight pass now: the paper's count (patch 5) and the four locks that compared a printed number as text (patch 7). The clone was of the commit whose tree is `76431787f6e7bb730cb4b6be7bd46a4628fc6fb1`. |
 
 ## 5. What could not be done
 

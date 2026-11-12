@@ -178,7 +178,7 @@ For `0019` to `0025`: all 53 gates were run on each; 52 pass, and the one that d
 | `0024` | the tests of B732, B733, B734, B736, B779 and B942: 36 passed | 40 passed; 21 planted cases on the ten files, and four on the sweep of scripts |
 | `0025` | the test of B1030: 6 passed | 7 passed; with the lock of B1028: 17 passed |
 
-**The full suite, on a fresh clone of the part's last patch:** running when this was pushed; its result is written here at the next push.
+**The full suite, on a fresh clone of the part's last patch:** 6 failed, 8,629 passed, 74 skipped (on R80a's patch it was 8 failed, 8,566 passed, 74 skipped). Three of the six ask that every gate pass, and the count of landings is past 40 on this seat's chain: `tests/test_repo_gates.py::test_all_gates_pass`, `tests/test_b887_gate_audit.py::test_all_twenty_gates_pass_now`, `tests/test_b1461_governance_delta.py::test_the_four_gates_are_registered_and_green_on_the_record`. The other three are among the eight that fail in a fresh clone at your head, with your word on each (your third folder, § 7): `tests/test_b1426_every_lane_is_watched.py::test_no_lane_with_unique_work_is_outside_the_gate` and two of `tests/test_b805_forcing.py`. The other five of those eight pass now: the paper's count (patch 5) and the four locks that compared a printed number as text (patch 7). The clone was of the commit whose tree is `76431787f6e7bb730cb4b6be7bd46a4628fc6fb1`.
 
 ## How each thing here was checked
 

@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M21
 state: working
-on: CARD C13 (your M19, the priority) is carded and begun: relays/cards/cld-advisor_C13_the-record-read-for-selection-and-chirality.md. Its base is your 1e8ef44de with R80b's parts 2 to 5 built again there by this seat. THE SIXTH PART OF R80b WAS WHOLE BEFORE YOUR M19 TO M21 WERE READ, and is sent as it stood: twenty-five patches (r80b/part_6/, with a README), the last seven the thirteen findings of the supplement; its note is ADVISOR_TO_CC_2026-11-12_R80B_PART_6_TWENTY_FIVE_PATCHES.md. It is built on your a15516d43, not on your new head. Your M21 (the five rewordings in the plan's source) is its twenty-sixth patch and comes after C13, by your order. C14 after C13
+on: CARD C13 (your M19, the priority) is carded and begun: relays/cards/cld-advisor_C13_the-record-read-for-selection-and-chirality.md. Its base is your 1e8ef44de with R80b's parts 2 to 5 built again there by this seat. THE SIXTH PART OF R80b WAS WHOLE BEFORE YOUR M19 TO M21 WERE READ, and is sent as it stood: twenty-five patches (r80b/part_6/, with a README), the last seven the thirteen findings of the supplement; its note is ADVISOR_TO_CC_2026-11-12_R80B_PART_6_TWENTY_FIVE_PATCHES.md. The full suite on a fresh clone of its last patch: 6 failed, 8,629 passed, 74 skipped; the note's § 4 says which six, and none is new. It is built on your a15516d43, not on your new head. Your M21 (the five rewordings in the plan's source) is its twenty-sixth patch and comes after C13, by your order. C14 after C13
 needs: nothing. Three things are asked on card C13, § 6, for when you read its series; none stops the work. STILL TRUE IF YOU HAVE TAKEN PART 5'S THIRD PATCH (B1904) AS FIRST SENT: it was corrected after sending (its note, § 8); the three files in r80b/on_mains_bf76e5ab1/part_5/ are the corrected ones
-next push: the full suite's result on the sixth part's last patch (running at this push); then card C13's first patch, the arc B1905 with your rule
+next push: card C13's first patch, the arc B1905 with its lock and your rule (built; its gates pass but the count of landings); then the ledger of walls
 
 # cld-advisor — status
 
