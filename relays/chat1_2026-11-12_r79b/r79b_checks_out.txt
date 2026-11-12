@@ -1,8 +1,10 @@
 r79b_checks at main 896cae025 (window 0dda7b472..896cae025)
 Q   B1861 frontier/B1861_the_closure_programme/verification/programme_source.py: found
+Q   B1882 frontier/B1882_the_v1_card_run_on_main/FINDINGS.md: found
+Q   B1882 frontier/B1882_the_v1_card_run_on_main/arc_verdict.json: found
 Q   B1882 frontier/B1882_the_v1_card_run_on_main/verification/test_b1882_the_v1_card_run_on_main.py: found
 Q   B1862 frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py: found
-Q   quotations checked: 3; not found: 0
+Q   quotations checked: 5; not found: 0
 L   programme_source.py on line 701: found
 L   programme_source.py on line 701: found
 L   programme_source.py on line 701: found
@@ -27,10 +29,45 @@ L   global_form.py in the file (1 times): found
 L   global_form.py in the file (1 times): found
 L   query.py in the file (1 times): found
 L   query.py in the file (1 times): found
-L   strings checked: 24; not found: 0
+L   FINDINGS.md on line 31: found
+L   FINDINGS.md on line 34: found
+L   FINDINGS.md on line 38: found
+L   FINDINGS.md on line 106: found
+L   FINDINGS.md on line 122: found
+L   FINDINGS.md on line 136: found
+L   FINDINGS.md on line 159: found
+L   arc_verdict.json in the file (1 times): found
+L   arc_verdict.json in the file (1 times): found
+L   LAW_MAP.md on line 322: found
+L   LAW_MAP.md on line 322: found
+L   v1_null_run.txt on line 28: found
+L   v1_null_run.txt on line 29: found
+L   test_b1882_the_v1_card_run_on_main.py on line 130: found
+L   test_b1882_the_v1_card_run_on_main.py on line 220: found
+L   test_b1862_the_audits_first_corrections.py on line 196: found
+L   test_b1862_the_audits_first_corrections.py on line 197: found
+L   test_b1862_the_audits_first_corrections.py on line 147: found
+L   test_b1862_the_audits_first_corrections.py on line 148: found
+L   test_b1886_the_foundation_at_version_1_65.py on line 113: found
+L   test_b1886_the_foundation_at_version_1_65.py on line 115: found
+L   test_b1886_the_foundation_at_version_1_65.py on line 120: found
+L   test_b1886_the_foundation_at_version_1_65.py on line 121: found
+L   test_b1879_the_weaves_theorems_with_the_exchange.py on line 92: found
+L   test_b1879_the_weaves_theorems_with_the_exchange.py on line 98: found
+L   FINDINGS.md on line 9: found
+L   FINDINGS.md on line 10: found
+L   global_form.py on line 34: found
+L   global_form.py on line 35: found
+L   FINDINGS.md in the file (1 times): found
+L   ROADMAP.md on line 749: found
+L   programme_source.py on line 975: found
+L   programme_source.py on line 975: found
+L   strings checked: 57; not found: 0
 P   B1882 page, sentence 1: stands 1 time(s); after the first dated correction: True
 P   B1882 page, sentence 2: stands 1 time(s); after the first dated correction: True
 P   B1882 page, sentence 3: stands 1 time(s); after the first dated correction: True
+R   B1882 run text: depth headers "best 0.1%": 9; "best 1%" stands: False; "best 5%" stands: False; "0.01%" stands: False
+R   main's answers: rows on B1879 from the other reader: 9
 D   B58: 3 folders, 3 with a verdict file
 D   arc numbers carried by more than one folder: 1
 V   commits in the window: 3; messages with a trailer or a vendor's name: 0

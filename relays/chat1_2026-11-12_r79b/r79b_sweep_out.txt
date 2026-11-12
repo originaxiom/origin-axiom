@@ -1,0 +1,90 @@
+sweep at main 896cae025: 16576 tracked text files read
+W1       "at less than a tenth of it": 2 place(s) in 2 file(s)
+           frontier/B1882_the_v1_card_run_on_main/FINDINGS.md  correction near: yes
+           frontier/B1882_the_v1_card_run_on_main/verification/test_b1882_the_v1_card_run_on_main.py  correction near: yes
+W1       "1.5 to 2 times": 1 place(s) in 1 file(s)
+           frontier/B1882_the_v1_card_run_on_main/FINDINGS.md  correction near: yes
+W1/W7    "bottom end would add almost none": 3 place(s) in 3 file(s)
+           frontier/B1726_the_two_ingredients_replicated/FINDINGS.md  correction near: yes
+           frontier/B1753_the_six_on_the_five_ality_lines/FINDINGS.md  correction near: yes
+           frontier/B1882_the_v1_card_run_on_main/FINDINGS.md  correction near: NO
+W1/W7    "a lower bottom end almost none": 5 place(s) in 5 file(s)
+           CHANGELOG.md  correction near: NO
+           docs/LAW_MAP.md  correction near: yes
+           docs/handoffs/CC_TO_ADVISOR_2026-11-11_YOUR_V1_CARD_READ.md  correction near: NO
+           docs/views/VERDICT_LEDGER.md  correction near: yes
+           frontier/B1882_the_v1_card_run_on_main/arc_verdict.json  correction near: yes
+W1/W7    "almost nothing at the bottom": 3 place(s) in 3 file(s)
+           frontier/B1861_the_closure_programme/PROGRAMME.json  correction near: NO
+           frontier/B1861_the_closure_programme/PROGRAMME.md  correction near: NO
+           frontier/B1861_the_closure_programme/verification/programme_source.py  correction near: NO
+W2       "waits on a computation, at the owner's word": 11 place(s) in 11 file(s)
+           ROADMAP.md  correction near: yes
+           docs/CAMPAIGN_STATUS.md  correction near: yes
+           docs/LEAD_REGISTER.md  correction near: yes
+           docs/MASTERPLAN.md  correction near: yes
+           docs/OPEN_LEADS.md  correction near: yes
+           docs/OPEN_PROBLEMS.md  correction near: yes
+           docs/POINT_REGISTER.md  correction near: yes
+           docs/PRICED_DOORS.md  correction near: yes
+           frontier/B1861_the_closure_programme/PROGRAMME.json  correction near: NO
+           frontier/B1861_the_closure_programme/PROGRAMME.md  correction near: NO
+           frontier/B1861_the_closure_programme/verification/programme_source.py  correction near: NO
+W3       "compares them all with the committed v1.64": 1 place(s) in 1 file(s)
+           frontier/B1886_the_foundation_at_version_1_65/FINDINGS.md  correction near: yes
+W4       "this checkout does not hold the commit of version 1.64": 0 place(s) in 0 file(s)
+W5       "longer than the true one and not shorter": 3 place(s) in 3 file(s)
+           frontier/B1888_the_public_form_scrutinised/FINDINGS.md  correction near: yes
+           frontier/B1888_the_public_form_scrutinised/verification/candidate_chain.py  correction near: yes
+           frontier/B1892_review_79_read_by_those_who_did_not_build_it/ANSWERS.md  correction near: yes
+W6       "never touches the measured values": 3 place(s) in 3 file(s)
+           frontier/B1888_the_public_form_scrutinised/FINDINGS.md  correction near: yes
+           frontier/B1892_review_79_read_by_those_who_did_not_build_it/ANSWERS.md  correction near: yes
+           frontier/B1892_review_79_read_by_those_who_did_not_build_it/FINDINGS.md  correction near: NO
+W7       "would add almost none (0.06)": 1 place(s) in 1 file(s)
+           frontier/B1726_the_two_ingredients_replicated/FINDINGS.md  correction near: yes
+W8       "the last layer is below its neighbour": 14 place(s) in 12 file(s)
+           CHANGELOG.md  correction near: NO
+           docs/CAMPAIGN_STATUS.md  correction near: NO
+           docs/handoffs/CC_TO_ADVISOR_2026-11-11_YOUR_V1_CARD_READ.md  correction near: NO
+           docs/views/VERDICT_LEDGER.md  correction near: yes
+           frontier/B1726_the_two_ingredients_replicated/FINDINGS.md  correction near: yes
+           frontier/B1753_the_six_on_the_five_ality_lines/FINDINGS.md  correction near: yes
+           frontier/B1861_the_closure_programme/PROGRAMME.json  correction near: NO
+           frontier/B1861_the_closure_programme/PROGRAMME.md  correction near: NO
+           frontier/B1861_the_closure_programme/verification/programme_source.py  correction near: NO
+           frontier/B1882_the_v1_card_run_on_main/FINDINGS.md  correction near: NO
+           frontier/B1882_the_v1_card_run_on_main/FINDINGS.md  correction near: yes
+           frontier/B1882_the_v1_card_run_on_main/arc_verdict.json  correction near: yes
+           frontier/B1892_review_79_read_by_those_who_did_not_build_it/ANSWERS.md  correction near: yes
+           frontier/B1892_review_79_read_by_those_who_did_not_build_it/ANSWERS.md  correction near: yes
+W9       "Eleven entries of the record came as suppositions": 1 place(s) in 1 file(s)
+           frontier/B1891_the_foundation_at_version_1_66/FINDINGS.md  correction near: yes
+W10      "16 statements of what he means, which are his to make; 11": 0 place(s) in 0 file(s)
+B1882 1  "the audit's figure is reproduced": 10 place(s) in 9 file(s)
+           docs/handoffs/CC_TO_ADVISOR_2026-11-11_YOUR_V1_CARD_READ.md  correction near: NO
+           docs/views/VERDICT_LEDGER.md  correction near: yes
+           frontier/B1861_the_closure_programme/PROGRAMME.json  correction near: NO
+           frontier/B1861_the_closure_programme/PROGRAMME.md  correction near: NO
+           frontier/B1861_the_closure_programme/verification/programme_source.py  correction near: NO
+           frontier/B1882_the_v1_card_run_on_main/FINDINGS.md  correction near: yes
+           frontier/B1882_the_v1_card_run_on_main/FINDINGS.md  correction near: NO
+           frontier/B1882_the_v1_card_run_on_main/arc_verdict.json  correction near: yes
+           frontier/B1882_the_v1_card_run_on_main/card/PREREGISTRATION.md  correction near: NO
+           frontier/B1892_review_79_read_by_those_who_did_not_build_it/ANSWERS.md  correction near: yes
+B1882 2  "targets that fit nothing": 15 place(s) in 13 file(s)
+           CHANGELOG.md  correction near: NO
+           PROGRESS_LOG.md  correction near: NO
+           docs/CAMPAIGN_STATUS.md  correction near: NO
+           docs/RELAY_LEDGER.md  correction near: NO
+           docs/views/VERDICT_LEDGER.md  correction near: yes
+           frontier/B1726_the_two_ingredients_replicated/FINDINGS.md  correction near: yes
+           frontier/B1861_the_closure_programme/PROGRAMME.json  correction near: NO
+           frontier/B1861_the_closure_programme/PROGRAMME.md  correction near: NO
+           frontier/B1861_the_closure_programme/verification/programme_source.py  correction near: NO
+           frontier/B1882_the_v1_card_run_on_main/FINDINGS.md  correction near: yes
+           frontier/B1882_the_v1_card_run_on_main/FINDINGS.md  correction near: NO
+           frontier/B1882_the_v1_card_run_on_main/arc_verdict.json  correction near: yes
+           frontier/B1882_the_v1_card_run_on_main/verification/test_b1882_the_v1_card_run_on_main.py  correction near: NO
+           frontier/B1882_the_v1_card_run_on_main/verification/test_b1882_the_v1_card_run_on_main.py  correction near: yes
+           frontier/B1892_review_79_read_by_those_who_did_not_build_it/ANSWERS.md  correction near: yes

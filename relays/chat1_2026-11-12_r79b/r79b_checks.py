@@ -5,6 +5,7 @@ before the file.  Computed once; nothing here was sealed in advance.  Main at 89
   Q   every quotation in the findings table of the review file, as an exact substring of its file at 896cae025 (git show).
   L   the further strings the review names, each in its file at 896cae025, with the line it is said to stand on.
   P   B1882's page: each of the three corrected sentences stands once, after the first dated correction (booleans only).
+  R   B1882's run text: which depths it prints; main's answers: how many rows the other reader has on B1879.
   D   arc numbers that more than one folder under frontier/ carries, and how many of those folders have a verdict file.
   V   main's vendor pattern (imported from scripts/gates/gates.py, _VENDOR_RE; the names are not spelled here) and the
       co-author trailer (a line that begins "Co-Authored-By:"): hits in the messages of the window's commits and in the
@@ -51,6 +52,13 @@ L62 = 'frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_a
 L79 = 'frontier/B1879_the_weaves_theorems_with_the_exchange/verification/test_b1879_the_weaves_theorems_with_the_exchange.py'
 GF = 'frontier/B862_global_form/global_form.py'
 QY = 'scripts/atlas/query.py'
+FB = 'frontier/B1882_the_v1_card_run_on_main/FINDINGS.md'
+VB = 'frontier/B1882_the_v1_card_run_on_main/arc_verdict.json'
+RUN = 'frontier/B1882_the_v1_card_run_on_main/card/v1_null_run.txt'
+LM = 'docs/LAW_MAP.md'
+L86 = 'frontier/B1886_the_foundation_at_version_1_65/verification/test_b1886_the_foundation_at_version_1_65.py'
+F79 = 'frontier/B1879_the_weaves_theorems_with_the_exchange/FINDINGS.md'
+F26 = 'frontier/B1726_the_two_ingredients_replicated/FINDINGS.md'
 STRINGS = [
     (PS, 701, 'U("V'), (PS, 701, 'the audit\'s figure is reproduced'), (PS, 701, 'belongs to targets that fit nothing'),
     (PS, 701, 'below its neighbour'), (PS, 701, 'almost nothing at the bottom'),
@@ -66,6 +74,26 @@ STRINGS = [
     (L79, None, '"is not among the\\n  thirteen"'),
     (GF, None, 'the grid of sixths is complete'), (GF, None, 'assert grid % 6 == 0'), (GF, None, 'charges[0] * q'),
     (QY, None, 'for h in hits[:1]:'), (QY, None, 'return dict(probe=arc_id, status=p["status"]'),
+    # added after the read of this file before it was pushed
+    (FB, 31, "Nothing of the audit's was reproduced."), (FB, 34, '"Fit nothing" was not measured'),
+    (FB, 38, "The two ranges were the seat's menu alone."), (FB, 106, 'is reproduced'),
+    (FB, 122, 'So the pile-up belongs to the targets that fit nothing,'), (FB, 136, 'bottom end would add almost none.'),
+    (FB, 159, "the audit's figure is reproduced | yes"),
+    (VB, None, 'a lower bottom end almost none'), (VB, None, "[CORRECTED 2026-11-12 (Review 79): 'below its neighbour'"),
+    (LM, 322, 'a lower bottom end almost none'), (LM, 322, 'B1882'),
+    (RUN, 28, 'N1 wf|cov'), (RUN, 29, 'ratio 0.18'),
+    (L82, 130, '"reproduced" below is the card\'s own field'),
+    (L82, 220, 'the sentences that were wrong stand once each, inside the dated correction'),
+    (L62, 196, 'E3_CORRECTION = (_PLUS'), (L62, 197, '|a parity gap in'),
+    (L62, 147, 'charges=(-1, 1)'), (L62, 148, 'kernel_exact(12, charges=(-4, 6))'),
+    (L86, 113, '(29, 19)'), (L86, 115, 'changed = {k: (a[kind][k], b[kind].get(k))'),
+    (L86, 120, 'planted = dict(b["identifier_rows"], GM5c="DERIVED")'), (L86, 121, 'planted.get(k)} == {"GM5c"}'),
+    (L79, 92, 'weave_with_the_exchange.py'), (L79, 98, 'timeout=1800'),
+    (F79, 9, 'and ten'), (F79, 10, 'things in it were wrong or wider than what was computed'),
+    (GF, 34, '`grid` may be any'), (GF, 35, 'multiple of 6 (a finer grid must find nothing more)'),
+    (F26, None, "is the seat's menu; under the covariant and free menus it is"),
+    ('ROADMAP.md', 749, 'VIEW REFRESH — 2026-11-12 (Review 79)'),
+    (PS, 975, '[Was PRESSED'), (PS, 975, "waits on a computation, at the owner's word (P-769)"),
 ]
 
 
@@ -92,6 +120,16 @@ def p():
                              'was reproduced on main in B1870'), 1):
         print('P   B1882 page, sentence %d: stands %d time(s); after the first dated correction: %s'
               % (i, page.count(old), page.find(old) > c >= 0))
+
+
+def r():
+    run = show(RUN)
+    print('R   B1882 run text: depth headers "best 0.1%%": %d; "best 1%%" stands: %s; "best 5%%" stands: %s; '
+          '"0.01%%" stands: %s' % (run.count('best 0.1% of 1000000 targets'), 'best 1%' in run, 'best 5%' in run,
+                                  '0.01%' in run))
+    ans = show('frontier/B1892_review_79_read_by_those_who_did_not_build_it/ANSWERS.md')
+    print('R   main\'s answers: rows on B1879 from the other reader: %d'
+          % len(re.findall(r'(?m)^\| SM-\d+ \| B1879 ', ans)))
 
 
 def d():
@@ -132,5 +170,6 @@ if __name__ == '__main__':
     q()
     l()
     p()
+    r()
     d()
     v()
