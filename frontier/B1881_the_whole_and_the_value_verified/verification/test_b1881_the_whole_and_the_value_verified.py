@@ -397,14 +397,79 @@ def _run_the_script_in_a_copy(tmp_path, seed):
     return (work / "whole_and_value_on_main_run.txt").read_bytes(), (work / "whole_and_value_on_main.json").read_bytes()
 
 
+def _made_with():
+    import mpmath
+    return {"python": "%d.%d" % sys.version_info[:2], "mpmath": mpmath.__version__, "sympy": sp.__version__}
+
+
+def _to_eight_digits(text):
+    """a transcript with every decimal number given to eight significant digits: what must be the same under any version"""
+    return [re.sub(r"\d+\.\d+(?:[eE][-+]?\d+)?", lambda m: "%.8g" % float(m.group(0)), line) for line in text.split("\n")]
+
+
 def test_the_committed_run_is_what_the_script_gives_today(tmp_path):
     """The lock read three things of the committed run file: its last line, that no check fails, and that one old label is gone.
     A plant edited the file elsewhere and passed.  Here the script is run, twice, with two seeds of the hash, in a folder of its
-    own, and both of its outputs must be the committed files byte for byte.  About twenty seconds."""
+    own.  About twenty seconds.
+
+    WHERE THE LIBRARIES ARE THE ONES THE COMMITTED RUN WAS MADE WITH (a file beside the run records them), both outputs must be
+    the committed files byte for byte.  The script's numbers are printed by arithmetic at a fixed number of digits and by exact
+    algebra, not by the machine's floats, so the bytes do not depend on the machine; they can depend on the version of a
+    library.  WHERE A VERSION DIFFERS the test does not skip and holds less: the same lines in the same order with every
+    decimal number to eight digits, and the same checks, each holding, with the same counts.  A lock that compares as text
+    what a process printed passes where it was written and can fail elsewhere: that is the class the enforcement package's
+    fourth series names, and this test was of it for two hours."""
+    made = json.loads((HERE / "whole_and_value_on_main_made_with.json").read_text(encoding="utf-8"))
+    same = made == _made_with()
+    run0 = (HERE / "whole_and_value_on_main_run.txt").read_bytes()
+    data0 = (HERE / "whole_and_value_on_main.json").read_bytes()
     for seed in (1, 2):
         run, data = _run_the_script_in_a_copy(tmp_path, seed)
-        assert run == (HERE / "whole_and_value_on_main_run.txt").read_bytes(), "the run file is not what the script gives (seed %d)" % seed
-        assert data == (HERE / "whole_and_value_on_main.json").read_bytes(), "the json is not what the script gives (seed %d)" % seed
+        if same:
+            assert run == run0, "the run file is not what the script gives (seed %d)" % seed
+            assert data == data0, "the json is not what the script gives (seed %d)" % seed
+        else:
+            _held_under_another_version(run, data, run0, data0, seed)
+
+
+def _held_under_another_version(run, data, run0, data0, seed):
+    assert _to_eight_digits(run.decode("utf-8")) == _to_eight_digits(run0.decode("utf-8")), "the run differs by more than a last digit (seed %d)" % seed
+    new, old = json.loads(data), json.loads(data0)
+    assert list(new) == list(old), "the checks are not the same, or not in the same order (seed %d)" % seed
+    assert all(new[k] == old[k] for k in old if isinstance(old[k], bool)) and new["B_counts"] == old["B_counts"]
+
+
+def test_what_is_held_under_another_version_can_fail_and_lets_a_last_digit_be():
+    """The weaker comparison is not run on this machine by the test above, where the versions are the run's own.  Here it is run
+    on the committed files themselves and on three changed copies: a last digit, which it lets be; a label, and a set printed
+    where a list was, which it refuses."""
+    run0 = (HERE / "whole_and_value_on_main_run.txt").read_bytes()
+    data0 = (HERE / "whole_and_value_on_main.json").read_bytes()
+    _held_under_another_version(run0, data0, run0, data0, 0)
+    text = run0.decode("utf-8")
+    assert "1.118033989" in text and "(16275 sequences as written; 2815 up to rotation;" in text and "['-11 + 2*I', '-11 - 2*I']" in text
+    _held_under_another_version(text.replace("1.118033989", "1.118033988").encode("utf-8"), data0, run0, data0, 0)       # a last digit
+    for old, new in (("(16275 sequences as written; 2815 up to rotation;", "(16275 sequences; 2815 up to rotation;"),
+                     ("['-11 + 2*I', '-11 - 2*I']", "{'-11 - 2*I', '-11 + 2*I'}"), ("1.118033989", "1.118133989")):
+        changed = text.replace(old, new).encode("utf-8")
+        assert changed != run0
+        try:
+            _held_under_another_version(changed, data0, run0, data0, 0)
+        except AssertionError:
+            continue
+        raise AssertionError("the weaker comparison let this through: %s" % new)
+    flipped = json.loads(data0)
+    first = next(k for k, v in flipped.items() if isinstance(v, bool))
+    flipped[first] = not flipped[first]
+    try:
+        _held_under_another_version(run0, json.dumps(flipped).encode("utf-8"), run0, data0, 0)
+    except AssertionError:
+        pass
+    else:
+        raise AssertionError("the weaker comparison let a failing check through")
+    # and the file that says which versions made the run is the script's own, written at every run
+    made = json.loads((HERE / "whole_and_value_on_main_made_with.json").read_text(encoding="utf-8"))
+    assert set(made) == {"python", "mpmath", "sympy"} and "whole_and_value_on_main_made_with.json" in (HERE / "whole_and_value_on_main.py").read_text(encoding="utf-8")
 
 
 _PINNED_CONDITIONS = {      # the label a check begins with -> its condition, and what it prints beside it, as the script has them

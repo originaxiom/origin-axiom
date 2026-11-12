@@ -30,7 +30,8 @@
   {
    "plant": "of the six that passed: the committed run file edited where the lock did not read it",
    "tests failing": [
-    "test_the_committed_run_is_what_the_script_gives_today"
+    "test_the_committed_run_is_what_the_script_gives_today",
+    "test_what_is_held_under_another_version_can_fail_and_lets_a_last_digit_be"
    ]
   },
   {
@@ -114,7 +115,8 @@
    "plant": "of B1895's eighteen: the old label 'cyclic run sequence (16275 sequences)' back in the run and its file",
    "tests failing": [
     "test_the_committed_run_is_what_the_script_gives_today",
-    "test_the_three_counts_of_run_sequences_by_a_second_method"
+    "test_the_three_counts_of_run_sequences_by_a_second_method",
+    "test_what_is_held_under_another_version_can_fail_and_lets_a_last_digit_be"
    ]
   },
   {

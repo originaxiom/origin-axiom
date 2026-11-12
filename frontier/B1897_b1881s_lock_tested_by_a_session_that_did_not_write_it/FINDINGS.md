@@ -25,7 +25,7 @@ computed and no measured number is read. 0 of 19.*
 | 1 | a new paragraph on the page that states the withdrawn claim, that the second ground is the transpose of the first | the lock looked for the old sentence's eight words | every paragraph of the page that holds the word is held, and there are three of them; a fourth fails |
 | 2 | the docstring of the script's second function given the withdrawn word | the lock read the script's header, not the function | the function's own docstring is read, and every line of the script that holds the word |
 | 3 | the script's three counts of run sequences typed in place of computed | the lock read the committed file, where the numbers are the same; its scan for constants saw a constant and not a table of constants | the scan sees a table, a list or a tuple of constants; the three counts are held to the expressions that compute them |
-| 4 | the committed run file edited: the old label's count put back, and a sorted list printed as a set again | the lock read three things of that file | the script is run, twice, in a folder of its own, and both of its outputs must be the committed files byte for byte |
+| 4 | the committed run file edited: the old label's count put back, and a sorted list printed as a set again | the lock read three things of that file | the script is run, twice, in a folder of its own, and both of its outputs must be the committed files: byte for byte under the library versions that made the run, and to eight digits with the same checks under others (§ 3) |
 | 5 | a clause that is not a literal and is always true, joined by `or` to the two conditions that were once the literal True | the scan looks for constants | the two conditions are held word for word, and what each rests on is held: a conjunction over what was computed |
 | 6 | the sorting of a printed set undone | nothing read it | the printed detail is held word for word; and the two runs of row 4 use two seeds of the hash |
 
@@ -36,8 +36,21 @@ computed and no measured number is read. 0 of 19.*
 
 ## 3. What the lock costs now
 
-The lock runs the arc's script twice. On main's machine the lock takes about 25 seconds, where it took two.
+The lock runs the arc's script twice. On main's machine the lock takes about 20 seconds, where it took two.
 The script takes ten seconds and reads no other arc's output.
+
+**What the byte comparison rests on, found before this arc was pushed.** The first form of the new test compared
+bytes and nothing else. The enforcement package's fourth series, which main was reading the same hour, names that
+class: a lock that compares as text what a process printed passes where it was written and can fail elsewhere.
+
+- **The machine does not decide these bytes.** The script's numbers are printed by arithmetic at a fixed number of
+  digits and by exact algebra, not by the machine's floats.
+- **The versions of two libraries can.** The repository asks for a least version of one of them and pins neither.
+- **So the script now writes which versions made its run,** in a small file beside it. Under those versions the lock
+  asks for the bytes. Under others it does not skip and asks for less: the same lines in the same order with every
+  decimal number to eight digits, and the same checks, each holding, with the same counts.
+- **The weaker comparison is tested where it is not run:** it lets a last digit be, and refuses a changed label, a
+  set printed where a list was, a changed fourth decimal and a failing check.
 
 ## 4. What this says about main's locks
 
@@ -77,6 +90,8 @@ the two locks of 2026-11-11 (B1892 § 7) and the tripwire (B1894 § 4).
 - **The reader is of another family of model than main.** Its report was read through main's mask, and its quotations
   were checked by a script that reads the file and prints nothing of it.
 - **The six plants here are main's reconstructions,** written after reading the reader's report.
+- **The new test was changed once after it was first written,** as § 3 says, and the planted run was made again on
+  the lock as it now stands.
 
 ## Reproduce
 

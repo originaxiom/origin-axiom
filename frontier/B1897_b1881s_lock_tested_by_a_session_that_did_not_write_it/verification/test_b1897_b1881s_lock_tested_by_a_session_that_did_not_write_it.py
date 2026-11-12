@@ -39,6 +39,10 @@ def test_the_four_tests_are_in_the_lock_and_the_lock_says_why():
     assert "ADDED 2026-11-12, a second time" in LOCK and "WHAT THIS CANNOT HOLD: the claim restated without the word" in LOCK
     # the first of the four runs the script: the lock holds the run file to what the script gives, not to three of its lines
     assert "_run_the_script_in_a_copy(tmp_path, seed)" in LOCK and "for seed in (1, 2):" in LOCK
+    # bytes under the versions that made the run, less under others, and the weaker comparison is itself tested
+    assert "_held_under_another_version(run, data, run0, data0, seed)" in LOCK and "\ndef test_what_is_held_under_another_version_can_fail_and_lets_a_last_digit_be(" in LOCK
+    made = json.loads((ROOT / "frontier" / "B1881_the_whole_and_the_value_verified" / "verification" / "whole_and_value_on_main_made_with.json").read_text(encoding="utf-8"))
+    assert set(made) == {"python", "mpmath", "sympy"} and "**So the script now writes which versions made its run,**" in PAGE
 
 
 def test_the_readers_count_and_its_quotations():

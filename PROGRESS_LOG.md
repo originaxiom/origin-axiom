@@ -19827,3 +19827,7 @@ seat's check. Six are left.
 **Which piece of the plan moved.** The clean-up of checks that cannot fail. No package closed.
 
 0 of 19.
+
+**A note added the same hour.** The entry above says the check compares the script's output byte for byte with what is saved. That was changed before it was published. Comparing bytes alone would have made the check fail on a machine with another version of the two libraries the script uses, although nothing in the result had changed. The script now writes down which versions produced the saved output. With those versions the check asks for the bytes. With others it asks for the same lines, the same checks and the same numbers to eight digits. Main noticed this while reading the next repair of the automatic checks, which names exactly that kind of fragile check.
+
+0 of 19.

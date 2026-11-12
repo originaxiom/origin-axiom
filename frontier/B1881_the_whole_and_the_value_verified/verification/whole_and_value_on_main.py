@@ -660,3 +660,8 @@ if __name__ == "__main__":
     P("CHECKS: %d, FAILING: %d%s" % (n, len(FAILS), (" -- " + "; ".join(FAILS)) if FAILS else ""))
     (HERE / "whole_and_value_on_main.json").write_text(json.dumps({k: (v if isinstance(v, (bool, dict, list, str, int)) else str(v)) for k, v in RES.items()}, indent=1, default=str) + "\n", encoding="utf-8")
     (HERE / "whole_and_value_on_main_run.txt").write_text("\n".join(OUT) + "\n", encoding="utf-8")
+    # ADDED 2026-11-12: which versions made this run.  The lock compares a fresh run with the committed files byte for byte only
+    # where the versions are these; another version of a library may print an expression or a last digit otherwise.
+    import sys as _sys
+    (HERE / "whole_and_value_on_main_made_with.json").write_text(json.dumps(
+        {"python": "%d.%d" % _sys.version_info[:2], "mpmath": mp.__version__, "sympy": sp.__version__}, indent=1) + "\n", encoding="utf-8")
