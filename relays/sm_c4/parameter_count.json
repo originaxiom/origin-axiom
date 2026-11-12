@@ -1,0 +1,56 @@
+{
+ "generations": 3,
+ "gauge_couplings": 3,
+ "vacuum_angles": 1,
+ "higgs_potential": 2,
+ "flavour": {
+  "massless neutrinos": {
+   "moduli": 12,
+   "phases": 1,
+   "total": 13,
+   "all": 19
+  },
+  "Dirac neutrinos": {
+   "moduli": 18,
+   "phases": 2,
+   "total": 20,
+   "all": 26
+  },
+  "Majorana neutrinos": {
+   "moduli": 18,
+   "phases": 4,
+   "total": 22,
+   "all": 28
+  }
+ },
+ "checks": {
+  "massless: 13 flavour parameters, 19 in all": true,
+  "Dirac: 7 more than massless (26 in all)": true,
+  "Majorana: 9 more than massless (28 in all)": true,
+  "moduli = masses + angles and phases = CP phases, in each sector": true
+ },
+ "by_kind_the_table_must_match": {
+  "massless neutrinos": {
+   "masses": 9,
+   "mixing angles": 3,
+   "CP phases": 1
+  },
+  "Dirac neutrinos": {
+   "masses": 12,
+   "mixing angles": 6,
+   "CP phases": 2
+  },
+  "Majorana neutrinos": {
+   "masses": 12,
+   "mixing angles": 6,
+   "CP phases": 4
+  }
+ },
+ "PLANTED_one_flavour_factor_omitted": {
+  "moduli": 15,
+  "phases": 7,
+  "total": 22
+ },
+ "PLANTED_caught": true,
+ "all_hold": true
+}
