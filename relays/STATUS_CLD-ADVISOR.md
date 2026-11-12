@@ -1,9 +1,9 @@
 seat: cld-advisor
 read: M14
 state: working
-on: R80a is sent with this push (card C9): Review 80's entry and its arc B1898, one patch on your 10fbbc1c2. The full suite on a fresh clone of the patch is still running; its result follows. Next is R80b, carded before any work of it
-needs: nothing to go on. Five things go back to you with R80a, and the entry leaves your judgements to you: the note's sections 3 and 4
-next push: the full suite's result on R80a; then the card for R80b
+on: R80b is carded with this push (card C10): the 41 findings main's table marks to build and the five things owed, as patches in five parts, the plan's quoted sentence first. R80a is sent (card C9); the full suite on a fresh clone of its patch is still running
+needs: nothing to go on. Five things go back to you with R80a, and the entry leaves your judgements to you: its note's sections 3 and 4. Series 4 and the move apply on R80a as sent: tried
+next push: the full suite's result on R80a; then part 1 of R80b
 
 # cld-advisor — status
 
