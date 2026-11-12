@@ -1,0 +1,48 @@
+{
+ "rows": 28,
+ "control_passes": true,
+ "control": {
+  "(a) massless neutrinos: by kind": true,
+  "(a) massless neutrinos: in all": true,
+  "(a) Dirac neutrinos: by kind": true,
+  "(a) Dirac neutrinos: in all": true,
+  "(a) Majorana neutrinos: by kind": true,
+  "(a) Majorana neutrinos: in all": true,
+  "(a) gauge 3, Higgs 2, vacuum angle 1": true,
+  "(b) no figure in a definition": true,
+  "(c) no id twice": true,
+  "(c) no symbol twice": true
+ },
+ "plants": {
+  "a sector's row deleted (S17)": {
+   "caught": true,
+   "failed_checks": [
+    "(a) massless neutrinos: by kind",
+    "(a) massless neutrinos: in all",
+    "(a) Dirac neutrinos: by kind",
+    "(a) Dirac neutrinos: in all",
+    "(a) Majorana neutrinos: by kind",
+    "(a) Majorana neutrinos: in all"
+   ]
+  },
+  "a figure written into a definition (S09)": {
+   "caught": true,
+   "failed_checks": [
+    "(b) no figure in a definition"
+   ]
+  },
+  "one parameter entered again under another name (the Cabibbo angle, beside S16)": {
+   "caught": true,
+   "failed_checks": [
+    "(a) massless neutrinos: by kind",
+    "(a) massless neutrinos: in all",
+    "(a) Dirac neutrinos: by kind",
+    "(a) Dirac neutrinos: in all",
+    "(a) Majorana neutrinos: by kind",
+    "(a) Majorana neutrinos: in all"
+   ]
+  }
+ },
+ "all_plants_caught": true,
+ "all_hold": true
+}

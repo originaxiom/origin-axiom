@@ -21853,3 +21853,12 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
   - the program that tells this seat about new messages can still miss a changed one.
 - **The sign checked hard:** the one sign in the mathematics that main had wrong in three notes was worked out again
   from scratch. The correction is right. 0 of 19.
+
+## 2026-11-12 — the list of what is still free, written
+
+- **What it is:** one table naming every free number of the Standard Model, and the neutrinos' numbers beside them.
+  For each it gives what kind of number it is, how it must be defined before anyone can quote it, and what the
+  project's record says about it so far. It has no values.
+- **What it shows:** the project counts the same nineteen numbers as the textbook, in other coordinates. It uses mass
+  ratios where the textbook uses masses, and it has no neutrino entries. So any claim of progress has to be read in
+  the project's own coordinates. 0 of 19.

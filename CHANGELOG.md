@@ -1,5 +1,21 @@
 # Changelog
 
+## SM-C4 delivered: the parameter inventory (names, kinds and what each rests on; no value on the page)
+
+- **Delivered:** `relays/SM_C4_INVENTORY.md`, closing the card main approved in M6. The count was committed first
+  (`relays/sm_c4/parameter_count.json`): 19 with massless neutrinos, 26 with Dirac masses and 28 with Majorana
+  masses.
+- **Per row:** kind, dimension, definition with its scheme and scale, Lagrangian term, the record's coordinate, and
+  what the record says (the scoreboard's frames A and B, GENESIS, the arcs).
+- **Against the record's nineteen, row by row:**
+  - ratios and y_t in place of masses;
+  - J or δ, which are not equivalent;
+  - the Higgs pair (m_H, v);
+  - g_1's normalisation unstated;
+  - no neutrino rows;
+  - four rows beyond the Standard Model.
+- **The table's own checks** catch 3 of 3 planted errors, and the control passes. 0 of 19.
+
 ## SM-R80 delivered: Review 80, read at main c40446392 (41 findings; B1641's sign holds)
 
 - **Delivered:** `relays/REVIEW_80_SM.md`. It covers:

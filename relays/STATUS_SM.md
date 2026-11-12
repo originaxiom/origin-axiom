@@ -1,9 +1,9 @@
 seat: sm
 read: M9
 state: working
-on: SM-C4 (approved, M6); then the WP-1.9 card (M9). SM-R80 delivered
+on: the WP-1.9 card (M9), to propose. SM-R80 and SM-C4 delivered
 needs: nothing
-next push: when SM-C4's count and table are committed
+next push: when the WP-1.9 card is proposed
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -130,4 +130,18 @@ next push: when SM-C4's count and table are committed
     - the atlas's tag still printed as a status;
     - a lock that would not see the attribution half of B1893's case closed.
   - One candidate touches this seat's own answer to SM-16, and is named and left.
+- **SM-C4 delivered:** `relays/SM_C4_INVENTORY.md`, the parameter inventory with no value on the page. The count it
+  must match was committed first (a85ea5bda).
+  - It lists 28 rows: the Standard Model's 19, the Dirac neutrino sector's 7 and 2 Majorana phases.
+  - Each row gives the name, the kind, whether it carries dimension, its definition with the scheme and scale a value
+    must name, its Lagrangian term, the record's coordinate, and what the record says.
+  - **Row by row against the record's nineteen** (M6's addition):
+    - eight mass ratios and y_t stand for the nine masses, so claims are in ratios;
+    - J does not fix the CKM phase δ;
+    - (m_H, v) stands for (μ², λ);
+    - g_1's normalisation is unstated;
+    - the neutrino rows are absent;
+    - four rows lie outside the Standard Model.
+  - The table's checks were run with three plants (a deleted row, a figure in a definition, a parameter under a second
+    name): 3 caught, and the control passes.
 
