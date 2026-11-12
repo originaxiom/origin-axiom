@@ -1,0 +1,643 @@
+{
+  "card": "X-C1d",
+  "elapsed_seconds": 151.144,
+  "negative_controls": {
+    "C1d_1": {
+      "E6_P_no_three_under_B_and_S": true,
+      "E6_trivial_reaches_three_under_N": true,
+      "fired": true
+    },
+    "C1d_2": {
+      "fired": true
+    },
+    "C1d_3": {
+      "fired": true,
+      "left_right_overlap_change": 0.5369863758117613,
+      "mixed_plane_closure": -1
+    },
+    "all_controls_fired": true
+  },
+  "own_x_c1b_helpers_sha256": "47ad188ce8a1932600ff559a41ae8538f729361f4dd13b6a68cd211682d49431",
+  "own_x_c1c_helpers_sha256": "5a7815124ba71e72d36f5ef3b493a30aba4cf791aa4be7e288273b5066666f75",
+  "rows": {
+    "951": {
+      "census": [
+        "D+P",
+        "D+chi0^3",
+        "D^2+chi0",
+        "P+chi0^2",
+        "chi0^5"
+      ],
+      "commits": [
+        "8d659f56b"
+      ],
+      "never_three": true,
+      "p6": {
+        "diagonal_in_bulk_commutant": true,
+        "ok": true,
+        "permutation_lift_intertwines": true,
+        "plane_kept_by_bulk_commutant": false,
+        "plane_kept_by_permutation_lift": true
+      },
+      "readings": "the frame F-HE (a hypothesis) and the reading that three needs W in the 10-sector: not independently checked",
+      "result": "the same",
+      "row": 951,
+      "table": {
+        "D+P": {
+          "block": [
+            1,
+            3
+          ],
+          "free_local": [
+            1
+          ],
+          "free_natural": [
+            1,
+            4
+          ],
+          "n10_natural": [
+            -1,
+            1,
+            2,
+            4
+          ],
+          "n5b_natural": [
+            -3,
+            -2,
+            0,
+            1,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        "D+chi0^3": {
+          "block": [
+            1,
+            3
+          ],
+          "free_local": [
+            1
+          ],
+          "free_natural": [
+            1
+          ],
+          "n10_natural": [
+            -1,
+            1,
+            2,
+            4
+          ],
+          "n5b_natural": [
+            -3,
+            1,
+            3,
+            7
+          ]
+        },
+        "D^2+chi0": {
+          "block": [
+            2,
+            2
+          ],
+          "free_local": [
+            -2,
+            2
+          ],
+          "free_natural": [
+            -2,
+            2
+          ],
+          "n10_natural": [
+            -2,
+            -1,
+            2,
+            3
+          ],
+          "n5b_natural": [
+            -2,
+            1,
+            2,
+            4,
+            5,
+            8
+          ]
+        },
+        "P+chi0^2": {
+          "block": [
+            0,
+            0
+          ],
+          "free_local": [
+            0
+          ],
+          "free_natural": [
+            0
+          ],
+          "n10_natural": [
+            0,
+            2,
+            3,
+            5
+          ],
+          "n5b_natural": [
+            0,
+            1,
+            9,
+            10
+          ]
+        },
+        "chi0^5": {
+          "block": [
+            0,
+            0
+          ],
+          "free_local": [
+            0
+          ],
+          "free_natural": [
+            0
+          ],
+          "n10_natural": [
+            0,
+            5
+          ],
+          "n5b_natural": [
+            0,
+            10
+          ]
+        }
+      },
+      "weave_five_cured_at_one_or_four": true
+    },
+    "952": {
+      "centraliser_dim": 136,
+      "chi248_branch": 24,
+      "chi248_roots": 24,
+      "commits": [
+        "aa642bdc8"
+      ],
+      "minus_one_dimension": 112,
+      "minus_one_pieces_agree": true,
+      "orthogonal_roots": 8,
+      "readings": "the contemplation's points 1-5 and the riddle: readings (not independently checked)",
+      "result": "the same",
+      "row": 952,
+      "same_element_of_E8": true,
+      "weak_A1_orthogonal_to_SU6": true
+    },
+    "953": {
+      "commits": [
+        "bc4ea1303"
+      ],
+      "frames": {
+        "3": {
+          "D+chi0": {
+            "B": [
+              1
+            ],
+            "N": [
+              -1,
+              0,
+              1,
+              2
+            ],
+            "S": [
+              -1,
+              1
+            ]
+          },
+          "P": {
+            "B": [
+              0
+            ],
+            "N": [
+              0,
+              3
+            ],
+            "S": [
+              0
+            ]
+          },
+          "chi0^3": {
+            "B": [
+              0
+            ],
+            "N": [
+              0,
+              3
+            ],
+            "S": [
+              0
+            ]
+          }
+        },
+        "4": {
+          "D+chi0^2": {
+            "B": [
+              1
+            ],
+            "N": [
+              -1,
+              1,
+              3
+            ],
+            "S": [
+              -1,
+              1
+            ]
+          },
+          "D^2": {
+            "B": [
+              2
+            ],
+            "N": [
+              -2,
+              2
+            ],
+            "S": [
+              -2,
+              2
+            ]
+          },
+          "P+chi0": {
+            "B": [
+              0
+            ],
+            "N": [
+              0,
+              1,
+              3,
+              4
+            ],
+            "S": [
+              0
+            ]
+          },
+          "chi0^4": {
+            "B": [
+              0
+            ],
+            "N": [
+              0,
+              4
+            ],
+            "S": [
+              0
+            ]
+          }
+        }
+      },
+      "naive_law_holds": {
+        "B": false,
+        "N": false,
+        "S": false
+      },
+      "readings": "the withdrawal of point 2 and the frames as hypotheses: readings (not independently checked)",
+      "result": "the same",
+      "row": 953,
+      "su5_anomaly_free": {
+        "B": {
+          "D+P": [],
+          "D+chi0^3": [],
+          "D^2+chi0": [
+            2
+          ],
+          "P+chi0^2": [
+            0
+          ],
+          "chi0^5": [
+            0
+          ]
+        },
+        "N": {
+          "D+P": [
+            1,
+            4
+          ],
+          "D+chi0^3": [
+            1
+          ],
+          "D^2+chi0": [
+            -2,
+            2
+          ],
+          "P+chi0^2": [
+            0
+          ],
+          "chi0^5": [
+            0
+          ]
+        },
+        "S": {
+          "D+P": [],
+          "D+chi0^3": [],
+          "D^2+chi0": [
+            -2,
+            2
+          ],
+          "P+chi0^2": [
+            0
+          ],
+          "chi0^5": [
+            0
+          ]
+        }
+      },
+      "su5_as_read_out": true,
+      "t2_as_read_out": true,
+      "t3_naive_law_fails_everywhere": true,
+      "t4_spinor_rule_counts_doublets": true,
+      "t5": {
+        "W_N": [
+          -3,
+          3
+        ],
+        "W_S": [
+          -3,
+          3
+        ],
+        "W_plus_D_N": [
+          -4,
+          4
+        ],
+        "W_plus_D_S": [
+          -4,
+          4
+        ],
+        "W_plus_D_pieces": [
+          8
+        ],
+        "ok": true
+      },
+      "t6_ok": true,
+      "t6_sources": {
+        "rank3:P": [
+          "P(dim 3)"
+        ],
+        "rank3:chi0^3": [
+          "chi0(dim 3)"
+        ],
+        "rank4:D+chi0^2": [
+          "D(dim 2)",
+          "chi0(dim 2)"
+        ],
+        "rank4:P+chi0": [
+          "P(dim 3)"
+        ]
+      }
+    },
+    "954": {
+      "commits": [
+        "35d16dff2"
+      ],
+      "no_three_under_B_and_S_while_E6_P_is_zero_free": true,
+      "note": "the rule's word 'vacuous' holds in one direction only, as the read-out itself disclosed",
+      "result": "the same",
+      "row": 954,
+      "t1_census_as_ruled": true,
+      "tables_as_ruled": true
+    },
+    "955": {
+      "error": "ValueError(\"could not convert string to float: '-3.43719769963701048411140800903414594905394336164888632893982 e-66'\")",
+      "result": "verifier error"
+    },
+    "956": {
+      "error": "ValueError(\"could not convert string to float: '-3.43719769963701048411140800903414594905394336164888632893982 e-66'\")",
+      "result": "verifier error"
+    },
+    "957": {
+      "T_irreducible_so_form_unique_by_Schur": true,
+      "V_dim": 6,
+      "columns": [
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.5,
+          0.5
+        ],
+        [
+          0.166666667,
+          0.166666667,
+          0.666666667
+        ],
+        [
+          0.25,
+          0.25,
+          0.5
+        ],
+        [
+          0.333333333,
+          0.333333333,
+          0.333333333
+        ]
+      ],
+      "columns_as_named": true,
+      "commits": [
+        "eb4e97801"
+      ],
+      "eigenbases": 11,
+      "eigenlines": 9,
+      "elements_three_distinct_eigenvalues": 56,
+      "full_patterns": 6,
+      "haar_below_1e-12": true,
+      "haar_max_change": 8.881784197001252e-16,
+      "named_cells": {
+        "L_vs_R": [
+          2.7564940831785953e-32,
+          0.25,
+          0.2500000000000001,
+          0.2500000000000001,
+          0.2500000000000002,
+          0.4999999999999999,
+          0.4999999999999999,
+          0.5000000000000001,
+          0.5000000000000001
+        ],
+        "L_vs_RL": [
+          0.04465819873852047,
+          0.044658198738520484,
+          0.33333333333333304,
+          0.3333333333333334,
+          0.3333333333333334,
+          0.3333333333333337,
+          0.3333333333333337,
+          0.6220084679281457,
+          0.6220084679281462
+        ],
+        "RL_vs_RRL_line": [
+          0.16666666666666652,
+          0.16666666666666666,
+          0.6666666666666663
+        ],
+        "RL_vs_RR_RinvLL": [
+          3.674674333890846e-31,
+          0.16666666666666644,
+          0.1666666666666668,
+          0.33333333333333304,
+          0.3333333333333334,
+          0.3333333333333334,
+          0.4999999999999996,
+          0.5000000000000009,
+          0.6666666666666672
+        ],
+        "RL_vs_RR_line": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      },
+      "named_cells_ok": true,
+      "order_T": 96,
+      "order_V": 96,
+      "patterns_as_named": true,
+      "product_order_free": true,
+      "readings": "the comparison with data: cannot check (0 of 19); the cup-product construction itself: not independently checked (fixed up to scale by Schur)",
+      "result": "the same",
+      "row": 957,
+      "split_two_triplets": true
+    },
+    "958": {
+      "c1_lambda2_equals_4_c1": true,
+      "cartan_A4": true,
+      "commits": [
+        "2abff008c"
+      ],
+      "holds_both_centres": true,
+      "kernel_of_character_3_2_connected": true,
+      "meets_SU5_b_in": 5,
+      "orthogonal_roots": 20,
+      "readings": "step 4 (gapped cusp, winding, magnetic family, the common point's twist): readings, apart from the degree identity",
+      "result": "the same",
+      "row": 958,
+      "simple_roots": 4
+    },
+    "959": {
+      "T_and_T_bar_conjugate": true,
+      "cells": {
+        "adjoint": [
+          3,
+          3,
+          0
+        ],
+        "chi0": [
+          2,
+          0,
+          2
+        ],
+        "chi1": [
+          1,
+          1,
+          0
+        ],
+        "chi1_rho": [
+          2,
+          0,
+          2
+        ],
+        "chi2": [
+          1,
+          1,
+          0
+        ],
+        "chi2_rho": [
+          2,
+          0,
+          2
+        ],
+        "chi3": [
+          1,
+          1,
+          0
+        ],
+        "chi3_rho": [
+          2,
+          0,
+          2
+        ],
+        "rho_Q": [
+          2,
+          0,
+          2
+        ]
+      },
+      "cells_ok": true,
+      "commits": [
+        "94350d689"
+      ],
+      "cos_delta_formula": true,
+      "haar_and_J_ok": true,
+      "haar_worst_change": 1.9984014443252818e-15,
+      "identity_worst_at_50_digits_log10": -50.700245869612964,
+      "joint_fixed_points": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          2
+        ]
+      ],
+      "measured_angle_evaluation": "cannot check (0 of 19)",
+      "odd_classes": {
+        "L": [
+          0,
+          1
+        ],
+        "P": [
+          1,
+          1
+        ],
+        "R": [
+          0,
+          1
+        ]
+      },
+      "odd_ok": true,
+      "odd_rank_F2": 2,
+      "readings": "the forward prediction's numbers and its comparison with data: cannot check (0 of 19); the absolute phases of chi_T fixed by W21's lift signs: not independently checked",
+      "result": "the same",
+      "row": 959,
+      "tm1_column_on_test_points": true,
+      "tm1_sum_rule": true,
+      "triplet_characters_up_to_lift_sign_and_T_choice": true
+    },
+    "960": {
+      "Z_charges_1_m4_6_2_m3": true,
+      "Z_is_plus_6Y": true,
+      "Z_over_Y": "6",
+      "arithmetic_ok": true,
+      "charges_equal_6Y_of_pieces": true,
+      "commits": [
+        "431c0517f"
+      ],
+      "differing_clause": "the words 'which is -6Y' (with the standard hypercharge Z = +6Y)",
+      "index_arithmetic_ok": true,
+      "indices": {
+        "L": "-6*n",
+        "Q": "6*n",
+        "d_bar": "6*n",
+        "e_bar": "6*n",
+        "u_bar": "-12*n"
+      },
+      "leptoquark_charges": [
+        -5,
+        5
+      ],
+      "multiplet_sums_zero": true,
+      "readings": "the saddle, its stability and the reading that hypercharge flux splits multiplets: not independently checked",
+      "relay_sign_minus_6Y_holds": false,
+      "result": "differs",
+      "row": 960
+    }
+  },
+  "seat": "agy-exp"
+}
