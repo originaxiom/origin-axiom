@@ -415,7 +415,7 @@ def verify_task1_x1_to_x15() -> dict[str, object]:
     x11_ok = (
         b1888_json["namers_in_tree"] == 51
         and "In the whole tree 51 do" in b1888_findings_flat
-        and "in the whole tree, 51" in b1888_findings_flat
+        and "in the archive 51 scripts name the file" in b1888_findings_flat
         and "51 scripts of the whole tree" in b1888_verdict["claim_one_line"]
         and 'RES["namers_in_tree"]' in b1888_test
     )
