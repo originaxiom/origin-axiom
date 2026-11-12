@@ -1,0 +1,291 @@
+{
+  "b1221": {
+    "adj_infinite_and_grid_counts": {
+      "12": 72,
+      "24": 144,
+      "60": 360,
+      "120": 720
+    },
+    "c27_order": 6,
+    "g10_order": 6,
+    "g16_order": 6,
+    "ints_order": 18,
+    "lock_baseline_pass": true,
+    "lock_fails_on_planted_mutations": {
+      "adj_frozen_at_72": true,
+      "c27_perturbed": true,
+      "findings_correction_removed": true
+    },
+    "post_p797_commits_touching_findings": [
+      "57f604898 S306p REVIEW 79 OPENED UNDER THE OWNER'S RULING (P-805); THE FIVE SESSIONS' FIRST DELIVERIES REGISTERED; TWO FINDINGS OF A SECOND DERIVATION CHECKED ON MAIN AND ENTERED (WP-0.8, WP-0.4). THE RULING: the owner ruled that the choices main had left with him (the three of the page on the review, and whether the block is waived further) are each settled by what best protects the project's integrity. MAIN SETTLES THEM SO: every arc of the review's window is read in full and nothing is sampled; two sessions that built none of it read each arc, neither seeing the other's findings before its own are pushed; main reads nothing of its own as a reviewer, answers every finding after reproducing it, and closes nothing on a reader's word; Review 79 runs now, before any more mathematics is banked; the waiver is not extended, main withdrawing its recommendation of a longer one, which was for convenience. REVIEW 79 IS OPEN: thirteen arcs, all main's (B1878 to B1890); the four verifying sessions have their reading cards on their pages; the rules for a reader are a new section of the seats' protocol (what is read, eight kinds of fault to look for, a finding as an exact quotation that main checks by machine, what could not be checked said arc by arc, no arc about a session's own work read by that session, a reading gives findings and not a label); the table of who reads what is a dated section of the page on the review; one session also tests the locks of five corrections that have had one re-audit each against errors it plants; the two corrections of this landing are read by the session that found them and by another. NOT DONE IN THIS REVIEW, AND SAID: the test against planted faults, main having found no way to give the readers a planted copy without putting false statements where a stranger could take them for the project's, nor to stop a reader comparing the copy with main, so that what two readers find in common stands in its place as a first estimate, biased towards flattering the readers; the seven new mechanical checks; the trigger that counts work. The template, the tools and the trigger are changed after the review, in an arc of their own, with the advisor seat's read. THE DELIVERIES, REGISTERED AND NOT RE-TYPED (harvest rows 1707 to 1711; five pins moved; seven relays rowed): the SM seat closed its two cards, thirty items of the physical lane's reproduced by its account with its own code, rerun on a clean checkout and tested against the errors it planted, one comparison with a measured value held by the firewall; the web seat delivered its three cards and restated their results in the protocol's labels, the level of the finding E2 recomputed by a third route, and pushed the output of its sealed card, which main has not read; agy-002 derived three headline results again from their statements and listed what each leaves unsaid; agy-exp closed its card on three derivations of the web seat and split its next into four pushes; the advisor seat sent its third patch series with the mend of the gap main's unseen case found in the first. For each, main's own recomputation of what decides is owed. TWO FINDINGS OF agy-002's, CHECKED ON MAIN AND ENTERED: (1) B1221's control row, adjoint-only content 72, is the size of a twelve-point grid, six times the grid at any size, and not the order of a kernel, which is infinite; the counts that matter are the same at three grid sizes; corrected under the table, with a lock that fails if the grid's size is taken for a count again. (2) The record writes the cusp's twist as one integer; the cusp has three lines with distinct exponents, and by main's own formula a unit on one line gives index one and the three is a unit that is the same on all three lines; a dated note in B1641, a lock, and the foundation's sentence owed to its next version (P-802, a debt of the package on false or stale statements in the foundation). A sentence the session attributes to the foundation is not in main's record, and it is asked where it read it. Its other unsaid inputs, fifteen in all, are P-803, to be judged for the count of inputs. WHAT THE WEB SEAT FOUND IN MAIN'S OWN CORRECTIONS, REPRODUCED ON MAIN AND MENDED (P-804): (1) six pages stated the freedom ledger's zero in a paragraph with no correction in it, main's lock having asked only that the correction stand somewhere in the same file and having read line by line for other words than the walk's own; main's own read-out by paragraph finds the seat's seven statements at the lines it gave and three more (the same list item in the crossings census and in B1643's findings, and B1222's verdict line, once the lock read the arcs' verdict lines by their real key); the correction now stands beside each of the ten, in nine files, and the lock asks for it beside the statement, by paragraph and by table row, reads the walk's own words, the .tex pages, every arc's verdict line and the programme's page, and holds the shapes as fixtures. (2) The lock on the knot group's level reads the five root pages and four more spellings, so that five of the six shapes the seat's planted errors showed are seen; it still accepts the correction anywhere in the file, where asking for it beside each statement would touch twenty units in twelve files, and still lists the programme's page as a record: both owed, and said in the lock. (3) B1675's sentence, 718 of 758, is corrected from the arc's own output, in which every one of the 758 keeps a class in the first block, 718 a line and 40 all three; the old sentence is kept in a dated bracket and a lock reads the counts from the output. The seat is asked to run its planted cases against both locks again. THE SECOND PATCH SERIES FOR ENFORCEMENT: all thirteen of main's unseen cases are caught, the two on the attribution baseline run again under the repository's author with an empty commit as a control, and one caught by accident, a test made to skip being caught only because its file is hashed; its patches are not yet read line by line and it is not landed. TWO CARDS OF THE agy FAMILY'S SESSIONS FOR CHECKS OF A GATE'S KIND ARE AMENDED: wanted as specifications with planted cases and not as patches, main running no code of that family's branches. A lock of the programme's reading that pinned a live count, the debts joined to nothing, typed and edited four times in two days, asserts instead that the run's three counts agree. The paper's manifest is rebuilt for the changed findings. This landing advanced WP-0.8 and WP-0.4 and closed no package. 0 of 19."
+    ]
+  },
+  "b1641": {
+    "dim_at_minus1_0_0_true_vs_raw_sum": {
+      "max_0_sum_m": 0,
+      "sum_m": -1
+    },
+    "lock_classical_get_fallback_weights": [
+      6,
+      8,
+      10,
+      12,
+      14,
+      16
+    ],
+    "lock_literal_tautologies_found": [
+      "len({1, 3, 7}) == 3"
+    ],
+    "negative_sum_triples_in_grid": 10,
+    "post_p797_commits_touching_findings": [
+      "f8b5e6769 S306p THE ADVISOR SEAT'S READ OF THE REVIEW TAKEN INTO REVIEW 79 (P-806); TWO MORE DELIVERIES REGISTERED (harvest rows 1712, 1713; P-807). THE READ, asked by main at the owner's ruling and read in full: (1) the review's block can be switched off from the environment, one variable kept for the gate's own failing-path test making the blocking gate read no landings; REPRODUCED by main on its own head, 46 landings read as none; no such variable was set in any run of main's. (2) One sentence on the reviews' page moves the anchor, the count being taken from the last anchor named anywhere on that page and no gate tying an anchor to a review's entry; read by main in the gate's code, not run. (3) An arc that was changed and not added is in no pool: ten in this window by the seat's count, one of them a verdict changed from proved to open; REPRODUCED by main's own command, which adds an eleventh that main changed since. (4) The sample's draw is known while the window is open. (5) A change that belongs to no arc has no reader: ten instruments and governing pages in this window; REPRODUCED. WHAT IT SHOWS WRONG IN MAIN'S PAGE, entered there under its own heading: a gate's control is counted by its name, and with every gate made unable to fail 16 of 53 controls still pass; the mechanical layer is called a function of the commit and three of its checks read the sessions' branches; the catch rate counts what was caught of what was planted and not what was reported and was not there; a broken seal is an instrument's to catch and not a reader's; the rule that sorts a commit as work is itself an instrument. REVIEW 79 IS WIDENED: the eleven arcs whose verdict file changed and the fourteen whose findings changed are read, six of them already read twice in the re-audits and in the web seat's check of two corrections, the rest by the web seat and agy-exp as the window's difference; the governing pages are read by the web seat and agy-002 with the two arcs that carried them; main's own changes to the checkers, the gates' file and the listener are read by agy-002 and the SM seat; the entry will print the environment it ran in, carry the instruments' count against planted errors from the advisor seat's suite run by main on a fresh clone, and count for each reader the findings that held and those that did not. The four sessions' cards are amended on their pages; the protocol says how a change that is not an arc is read. THE TWO WAYS TO SWITCH THE BLOCK OFF ARE P-806, a debt of the enforcement package: the first three patches of the seat's fourth series close them, and main has not read or verified them; the series land in order, the second, the third, then these, after Review 79's entry, the waiver not being extended. MAIN'S WORD ON THE NINETEEN ROWS of the registry of retracted phrases is given as the seat proposed: seventeen swept, the two readings not, by name. WHAT THE SEAT SAW ON MAIN'S PAGES ON THE WAY, in its note on its third series, is P-808, a debt of the package on checks that cannot fail and not yet reproduced: sixteen of 53 controls of the gates do not depend on their gate's answer, three tests cannot fail, a page of the paper shows a withdrawn sentence with no correction, and five smaller things. THE WEB SEAT'S TWO DELIVERIES: its sealed card on the golden state, by a scan and not a proof, computed once with expectations committed first and no second computation in the record, registered with main's own computation owed (the two values it names are spectral parameters whose settlement the card asked for, and nothing of the owner's hold applies); and its cold read of the three-part public structure, read in full (P-807): where a stranger would not believe it, two conditions that are missing, and a map of what is known, giving for each mathematical step its source and what is claimed as new, which the certificate wants as well. THE FULL SUITE ON A FRESH CLONE, RUN FOR THE REVIEW AT 323f92327: 15 FAILED, 8,422 PASSED, 72 SKIPPED (P-810), and twelve of the fifteen are main's own of this window. Eleven are one fault: every verdict file main landed from B1880 to B1890 carried a scope with two keys the schema does not have, where it asks for the reach and the hypotheses; the schema's test refuses them, and no landing ran it, main running the locks an entry touches and no gate running this one. MENDED: the eleven scopes carry the schema's four parts, with every word of what they said kept in the hypotheses, and 1,595 verdict files pass. One was a harvest row of this evening that did not name three notes: mended. One fails by construction while a waiver of the review is live, and stands until the review's entry is anchored. Two are standing. That a verdict file breaking the schema could be pushed eleven times is the point: the schema's test is not a gate, and that is owed. The readers of those arcs are told nothing of other readers' findings by this mend, which an instrument found. AN ERROR OF MAIN'S OWN, CORRECTED: the landing before this one said that the foundation did not say that the unit at the cusp must be the same on its three lines, and that the foundation's sentence was owed to its next version. That was wrong. The foundation's row FK10 has had the three units since its version 1.59 (2026-10-28; B1796, P-288), a unit on one line giving one and the uniform unit three, with uniform end data named as one of four links of the unit, none derived; and B1796 computed those dimensions on main. What lagged was B1641, which wrote one integer, and the map's two nodes for the unit and the chiral three: B1641's note now says what was wrong in it and keeps it, the two nodes say that the unit is uniform and cite the foundation's row and B1796, the lock reads B1796's computed dimensions, and P-802 is corrected and closed. Main had entered a second derivation's finding as new without sweeping the foundation; the session that raised it found the row within the hour, withdrew a sentence it had attributed to the foundation as its own paraphrase, and the fault is counted in Review 79 as a finding against main that held. THE FIRST READING FOR REVIEW 79 IS IN (harvest row 1714): the web seat's, on six arcs, with B1889 left as an arc that judges its work and given to agy-002; main writes nothing of its content on its pages and mends nothing in those arcs until the second reader of each has delivered, so that no reader learns from main what another found (the protocol says so now). Its planted cases, run again at main's head, find the lock on the knot group's level catching ten of eleven where it caught five and the lock on the freedom ledger's zero eleven of thirteen where it caught five of ten (P-804). The rule for when two readers' findings are the same is written on the review's page before a second reader's file was opened. THE ADVISOR SEAT'S VIEW ON THE SHAPE OF THE REPOSITORY, on three things the owner asked it (pruning, the large data files, the pages that disagree), is read in full and is P-809; it goes to the public form, and the owner has ruled nothing on it to main. This landing advanced no package. 0 of 19.",
+      "57f604898 S306p REVIEW 79 OPENED UNDER THE OWNER'S RULING (P-805); THE FIVE SESSIONS' FIRST DELIVERIES REGISTERED; TWO FINDINGS OF A SECOND DERIVATION CHECKED ON MAIN AND ENTERED (WP-0.8, WP-0.4). THE RULING: the owner ruled that the choices main had left with him (the three of the page on the review, and whether the block is waived further) are each settled by what best protects the project's integrity. MAIN SETTLES THEM SO: every arc of the review's window is read in full and nothing is sampled; two sessions that built none of it read each arc, neither seeing the other's findings before its own are pushed; main reads nothing of its own as a reviewer, answers every finding after reproducing it, and closes nothing on a reader's word; Review 79 runs now, before any more mathematics is banked; the waiver is not extended, main withdrawing its recommendation of a longer one, which was for convenience. REVIEW 79 IS OPEN: thirteen arcs, all main's (B1878 to B1890); the four verifying sessions have their reading cards on their pages; the rules for a reader are a new section of the seats' protocol (what is read, eight kinds of fault to look for, a finding as an exact quotation that main checks by machine, what could not be checked said arc by arc, no arc about a session's own work read by that session, a reading gives findings and not a label); the table of who reads what is a dated section of the page on the review; one session also tests the locks of five corrections that have had one re-audit each against errors it plants; the two corrections of this landing are read by the session that found them and by another. NOT DONE IN THIS REVIEW, AND SAID: the test against planted faults, main having found no way to give the readers a planted copy without putting false statements where a stranger could take them for the project's, nor to stop a reader comparing the copy with main, so that what two readers find in common stands in its place as a first estimate, biased towards flattering the readers; the seven new mechanical checks; the trigger that counts work. The template, the tools and the trigger are changed after the review, in an arc of their own, with the advisor seat's read. THE DELIVERIES, REGISTERED AND NOT RE-TYPED (harvest rows 1707 to 1711; five pins moved; seven relays rowed): the SM seat closed its two cards, thirty items of the physical lane's reproduced by its account with its own code, rerun on a clean checkout and tested against the errors it planted, one comparison with a measured value held by the firewall; the web seat delivered its three cards and restated their results in the protocol's labels, the level of the finding E2 recomputed by a third route, and pushed the output of its sealed card, which main has not read; agy-002 derived three headline results again from their statements and listed what each leaves unsaid; agy-exp closed its card on three derivations of the web seat and split its next into four pushes; the advisor seat sent its third patch series with the mend of the gap main's unseen case found in the first. For each, main's own recomputation of what decides is owed. TWO FINDINGS OF agy-002's, CHECKED ON MAIN AND ENTERED: (1) B1221's control row, adjoint-only content 72, is the size of a twelve-point grid, six times the grid at any size, and not the order of a kernel, which is infinite; the counts that matter are the same at three grid sizes; corrected under the table, with a lock that fails if the grid's size is taken for a count again. (2) The record writes the cusp's twist as one integer; the cusp has three lines with distinct exponents, and by main's own formula a unit on one line gives index one and the three is a unit that is the same on all three lines; a dated note in B1641, a lock, and the foundation's sentence owed to its next version (P-802, a debt of the package on false or stale statements in the foundation). A sentence the session attributes to the foundation is not in main's record, and it is asked where it read it. Its other unsaid inputs, fifteen in all, are P-803, to be judged for the count of inputs. WHAT THE WEB SEAT FOUND IN MAIN'S OWN CORRECTIONS, REPRODUCED ON MAIN AND MENDED (P-804): (1) six pages stated the freedom ledger's zero in a paragraph with no correction in it, main's lock having asked only that the correction stand somewhere in the same file and having read line by line for other words than the walk's own; main's own read-out by paragraph finds the seat's seven statements at the lines it gave and three more (the same list item in the crossings census and in B1643's findings, and B1222's verdict line, once the lock read the arcs' verdict lines by their real key); the correction now stands beside each of the ten, in nine files, and the lock asks for it beside the statement, by paragraph and by table row, reads the walk's own words, the .tex pages, every arc's verdict line and the programme's page, and holds the shapes as fixtures. (2) The lock on the knot group's level reads the five root pages and four more spellings, so that five of the six shapes the seat's planted errors showed are seen; it still accepts the correction anywhere in the file, where asking for it beside each statement would touch twenty units in twelve files, and still lists the programme's page as a record: both owed, and said in the lock. (3) B1675's sentence, 718 of 758, is corrected from the arc's own output, in which every one of the 758 keeps a class in the first block, 718 a line and 40 all three; the old sentence is kept in a dated bracket and a lock reads the counts from the output. The seat is asked to run its planted cases against both locks again. THE SECOND PATCH SERIES FOR ENFORCEMENT: all thirteen of main's unseen cases are caught, the two on the attribution baseline run again under the repository's author with an empty commit as a control, and one caught by accident, a test made to skip being caught only because its file is hashed; its patches are not yet read line by line and it is not landed. TWO CARDS OF THE agy FAMILY'S SESSIONS FOR CHECKS OF A GATE'S KIND ARE AMENDED: wanted as specifications with planted cases and not as patches, main running no code of that family's branches. A lock of the programme's reading that pinned a live count, the debts joined to nothing, typed and edited four times in two days, asserts instead that the run's three counts agree. The paper's manifest is rebuilt for the changed findings. This landing advanced WP-0.8 and WP-0.4 and closed no package. 0 of 19."
+    ],
+    "triples_count": 64
+  },
+  "b1879": {
+    "all_odd_run_histories_1_cusp_nonorientable": true,
+    "commutant_dims": [
+      2,
+      1
+    ],
+    "fixed_characters_m12": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        2
+      ]
+    ],
+    "fixed_characters_single_tick": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        2
+      ]
+    ],
+    "group_orders": [
+      96,
+      192,
+      192
+    ],
+    "haar_unitary_invariance_below_1e12": true,
+    "odd_run_histories_to_7_letters": 22,
+    "plain_fs_6d_two_lifts": [
+      -1,
+      1
+    ],
+    "run_triples_in_12_letters": 165,
+    "twisted_fs_triplet": [
+      1,
+      1
+    ]
+  },
+  "b1881": {
+    "golden_period_derivative_is_phi_minus_4": true,
+    "literal_asserts_in_lock": [
+      {
+        "expr": "Fr(1) + Fr(12, 12) - 0 - 0 - Fr(4, 2) == 0 and Fr(1) + Fr(6, 12) - Fr(2, 4) - 0 - Fr(2, 2) == 0",
+        "lineno": 58
+      }
+    ],
+    "literal_true_checks_in_script": [
+      {
+        "label": "'E3 (Q5) the mirror normalises the group: [[a,b],[5c,d]] -> [[a,-b],[-5c,d]]'",
+        "lineno": 230
+      },
+      {
+        "label": "'the own values of the allowed single runs increase without bound: 5m/2 + sqrt5/2 for the run of 5m + 1'",
+        "lineno": 591
+      }
+    ],
+    "mirror_normalises_verified_symbolically": true,
+    "quotient_line": {
+      "cusp_widths": [
+        1,
+        5
+      ],
+      "e2": 2,
+      "e3": 0,
+      "genus": 0,
+      "index": 6
+    },
+    "quotient_pm": {
+      "cusp_widths": [
+        1,
+        1,
+        5,
+        5
+      ],
+      "e2": 0,
+      "e3": 0,
+      "genus": 0,
+      "index": 12
+    },
+    "reversed_disagreements": 0,
+    "two_convention_sequences_checked": 47988
+  },
+  "b1885": {
+    "ast_w2_load_count": 0,
+    "ast_w2_store_count": 1,
+    "automorphy_check_below_1e25": true,
+    "literal_asserts_in_lock": [
+      {
+        "expr": "Fraction(1, 5) + Fraction(1, 20) == Fraction(1, 2) ** 2",
+        "lineno": 76
+      },
+      {
+        "expr": "Fraction(2, 5) ** 2 + Fraction(1, 5) ** 2 == Fraction(1, 5) and (Fraction(2, 5) - Fraction(1, 2)) ** 2 + Fraction(1, 5) ** 2 == Fraction(1, 20)",
+        "lineno": 77
+      }
+    ],
+    "p17_forced_elliptic_count_in_run_txt": 0,
+    "total_boolean_checks_in_json": 32,
+    "w1_and_w2_vanish_below_1e30": true
+  },
+  "b1888": {
+    "candidate_chain_json_namers_in_tree": 51,
+    "independent_py_grep_count_at_head": 51,
+    "prose_states_50_in_findings_and_verdict": true
+  },
+  "b1890": {
+    "clock_stage_in_reproduce_block": false,
+    "clock_u15c_stub_says": "2027-12-16 2027-12-16 2027-12-16",
+    "dates_u15c_stub_says": "2027-12-16 2027-12-16 2026-11-11",
+    "has_14_passed_in_other_checks_run_txt": false,
+    "run_unseen_writes_combined_json": false,
+    "stages_in_unseen_cases_run_json": [
+      "clock",
+      "dates",
+      "export",
+      "shallow"
+    ]
+  },
+  "b892_and_b874": {
+    "b874_arc_verdict_unchanged_in_window": true,
+    "cubic_discriminant_positive": true,
+    "cubic_irreducible_over_Q": true,
+    "real_root_count": 3,
+    "real_root_signs": [
+      -1,
+      1,
+      1
+    ]
+  },
+  "card": "X-R79",
+  "finding_quotes": {
+    "F-01": {
+      "arc": "B1221",
+      "mask_safe_quote": true,
+      "path": "frontier/B1221_global_form_path_independence/arc_verdict.json",
+      "verbatim_match_at_0dda7b472": true
+    },
+    "F-02": {
+      "arc": "B1221",
+      "mask_safe_quote": true,
+      "path": "frontier/B1221_global_form_path_independence/FINDINGS.md",
+      "verbatim_match_at_0dda7b472": true
+    },
+    "F-03": {
+      "arc": "B1641",
+      "mask_safe_quote": true,
+      "path": "frontier/B1641_w46_on_main_and_the_two_objects/FINDINGS.md",
+      "verbatim_match_at_0dda7b472": true
+    },
+    "F-04": {
+      "arc": "B1641",
+      "mask_safe_quote": true,
+      "path": "frontier/B1641_w46_on_main_and_the_two_objects/arc_verdict.json",
+      "verbatim_match_at_0dda7b472": true
+    },
+    "F-05": {
+      "arc": "B1641",
+      "mask_safe_quote": true,
+      "path": "frontier/B1641_w46_on_main_and_the_two_objects/FINDINGS.md",
+      "verbatim_match_at_0dda7b472": true
+    },
+    "F-06": {
+      "arc": "B1641",
+      "mask_safe_quote": true,
+      "path": "tests/test_b1641_w46_on_main_and_the_two_objects.py",
+      "verbatim_match_at_0dda7b472": true
+    },
+    "F-07": {
+      "arc": "B1881",
+      "mask_safe_quote": true,
+      "path": "frontier/B1881_the_whole_and_the_value_verified/verification/whole_and_value_on_main.py",
+      "verbatim_match_at_0dda7b472": true
+    },
+    "F-08": {
+      "arc": "B1881",
+      "mask_safe_quote": true,
+      "path": "frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py",
+      "verbatim_match_at_0dda7b472": true
+    },
+    "F-09": {
+      "arc": "B1885",
+      "mask_safe_quote": true,
+      "path": "frontier/B1885_the_golden_state_on_the_whole_verified/verification/golden_state_on_main.py",
+      "verbatim_match_at_0dda7b472": true
+    },
+    "F-10": {
+      "arc": "B1885",
+      "mask_safe_quote": true,
+      "path": "frontier/B1885_the_golden_state_on_the_whole_verified/verification/golden_state_on_main.py",
+      "verbatim_match_at_0dda7b472": true
+    },
+    "F-11": {
+      "arc": "B1888",
+      "mask_safe_quote": true,
+      "path": "frontier/B1888_the_public_form_scrutinised/FINDINGS.md",
+      "verbatim_match_at_0dda7b472": true
+    },
+    "F-12": {
+      "arc": "B1890",
+      "mask_safe_quote": true,
+      "path": "frontier/B1890_the_first_enforcement_series_verified_and_landed/FINDINGS.md",
+      "verbatim_match_at_0dda7b472": true
+    },
+    "F-13": {
+      "arc": "B1890",
+      "mask_safe_quote": true,
+      "path": "frontier/B1890_the_first_enforcement_series_verified_and_landed/FINDINGS.md",
+      "verbatim_match_at_0dda7b472": true
+    },
+    "F-14": {
+      "arc": "B874",
+      "mask_safe_quote": true,
+      "path": "frontier/B874_measurement_ladder/arc_verdict.json",
+      "verbatim_match_at_0dda7b472": true
+    },
+    "F-15": {
+      "arc": "B1861",
+      "mask_safe_quote": true,
+      "path": "frontier/B1861_the_closure_programme/PROGRAMME.md",
+      "verbatim_match_at_0dda7b472": true
+    }
+  },
+  "negative_controls": {
+    "control_1_1char_tamper_rejected": true,
+    "control_1_exact_accepted": true,
+    "control_2_ast_tautologies_flagged": [
+      true,
+      true,
+      true
+    ],
+    "control_2_dynamic_mutation_distinguishes": true,
+    "control_2_live_call_spared": true,
+    "pinned_main": "0dda7b4725f613dbef273edafcd3fca73ccb245c"
+  },
+  "pinned_main": "0dda7b4725f613dbef273edafcd3fca73ccb245c",
+  "window_base": "38d2a36dc"
+}
