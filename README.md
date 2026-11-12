@@ -20,11 +20,11 @@ nothing in this block is typed by hand.*
 | | |
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
-| the foundations | `GENESIS.md` (v1.65) of 2026-11-11 |
-| arcs with a verdict | 1592: 1100 PROVED, 383 NEGATIVE, 97 OPEN, 12 RETRACTED |
-| points in the register | 810: 289 open (queued, leads, waiting for the owner), 521 closed |
-| the last review | Review 78 (2026-11-11), anchor `38d2a36dc` |
-| the last landing | S306p THREE DRAFTS KEPT OUTSIDE THE REPOSITORY, DECLINED WHEN THE DAY CHANGED (P-317, P-384, P-555) (2026-11-12) |
+| the foundations | `GENESIS.md` (v1.66) of 2026-11-12 |
+| arcs with a verdict | 1594: 1102 PROVED, 383 NEGATIVE, 97 OPEN, 12 RETRACTED |
+| points in the register | 815: 294 open (queued, leads, waiting for the owner), 521 closed |
+| the last review | Review 79 (2026-11-12), anchor `0dda7b472` |
+| the last landing | S306p REVIEW 79, READ IN FULL BY FOUR SESSIONS THAT BUILT NONE OF IT: 99 FINDINGS, ALL HELD; THE FOUNDATION AT VERSION 1.66 (B1891, B1892; harvest ro… |
 <!-- STATE:END -->
 
 ## Start here

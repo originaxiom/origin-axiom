@@ -11687,8 +11687,8 @@
     "V2",
     "V4"
    ],
-   "obstacle": "cancellation",
-   "obstacle_conf": 3,
+   "obstacle": "units_scale",
+   "obstacle_conf": 4,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -16273,8 +16273,8 @@
     "B497"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 11,
-   "status": "banked",
+   "obstacle_conf": 12,
+   "status": "dead",
    "domain": "topology"
   },
   "B187": {
@@ -16365,7 +16365,7 @@
     "V1"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 7,
+   "obstacle_conf": 8,
    "status": "open",
    "domain": "dynamics"
   },
@@ -16395,7 +16395,7 @@
     "P4"
    ],
    "obstacle": "observable",
-   "obstacle_conf": 4,
+   "obstacle_conf": 5,
    "status": "banked",
    "domain": "topology"
   },
@@ -16450,7 +16450,7 @@
     "H15"
    ],
    "obstacle": "spacetime_3p1",
-   "obstacle_conf": 2,
+   "obstacle_conf": 4,
    "status": "banked",
    "domain": "arithmetic"
   },
@@ -16467,7 +16467,7 @@
     "B734"
    ],
    "obstacle": "measure",
-   "obstacle_conf": 19,
+   "obstacle_conf": 22,
    "status": "open",
    "domain": "dynamics"
   },
@@ -16516,6 +16516,29 @@
    "obstacle_conf": 0,
    "status": "banked",
    "domain": "dynamics"
+  },
+  "B1891": {
+   "slug": "the foundation at version 1 66",
+   "motifs": [
+    "closing"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 3,
+   "status": "open",
+   "domain": "topology"
+  },
+  "B1892": {
+   "slug": "review 79 read by those who did not build it",
+   "motifs": [
+    "figure_eight",
+    "firewall"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 4,
+   "status": "banked",
+   "domain": "topology"
   },
   "B189": {
    "slug": "omega causal dimension",

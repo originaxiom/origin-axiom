@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1592** |
-| words of findings prose | **1,394,880** |
+| research arcs with findings | **1594** |
+| words of findings prose | **1,401,015** |
 | test lock files referenced | **941** |
-| arcs carrying an authored verdict | **1592** (100.0 %) |
+| arcs carrying an authored verdict | **1594** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1100 |
+| PROVED | 1102 |
 | NEGATIVE | 383 |
 | OPEN | 97 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1890`** (1464 words, 0 locks)  
-THE FIRST PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7), BUILT BY THE ADVISOR SEAT, VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED: four patches under the rule that a gate is a function of the commit (a gate that needs git is refused where there is none; a gate that reads the past is refused on a shallow clone; a gate's day is the commit's and not the clock's; a commit dated before its parent is not trusted for its day). EIGHT OF MAIN'S NINE UNSEEN CASES HOLD: on an export with an empty .git directory all 20 gates of the table are refused, the five gates the seat's own list of ten did not name among them; with the five date variables set 400 days on and 30 days back, and with the system's date stubbed 400 days on, no gate of 53 changes its line; at depth 1, at depth 50 and on a full clone cut by a hand-written shallow file, all 14 gates that read the past are refused. ONE DOES NOT HOLD: a folder initialised as a repository with no commit is read as a full clone, and nine gates that have nothing to look at pass there; it is the seat's to close in a later series. Each patch's lock fails on the commit before it in the numbers the seat gave (7 of 7, 2, 4, 2); the series' lock passes (14); main's 47 test files that name a gate pass once the views are generated; 53 gates pass. Not run: the whole suite on a fresh clone, and the seat's planted suite, whose 11 of 21 is the seat's count.  
-`B1890_the_first_enforcement_series_verified_and_landed/FINDINGS.md`
+**PROVED — `B1892`** (2205 words, 0 locks)  
+REVIEW 79, READ BY SESSIONS THAT BUILT NONE OF IT (the owner's ruling P-805): 99 FINDINGS ON MAIN'S WORK OF TWO DAYS, ALL 99 HELD ON MAIN'S OWN REPRODUCTION, one in all but one detail; they are 88 distinct faults, of which ten were found by two readers, so one reading misses most of what is there: in one arc one reader found ten faults and the other none. Every arc of the window was read in full, all but one by two sessions, the governing pages and main's changes to its instruments with them; every quotation, 111 of 111, was found by machine at the commit read. Main mended what was its to mend, each with the old words kept and a lock that can fail where a check had been too weak, and sent eleven faults in the enforcement package's files to its builder. The instruments: main's gates catch 14 of 32 planted cases on the reviewed commit; the locks on five corrections caught 25 of 44 errors planted against them; the full suite on a fresh clone failed 15 tests, 12 of them main's own of this window. The review's block can still be switched off in two ways, and no reader was tested against planted faults. 0 of 19.  
+`B1892_review_79_read_by_those_who_did_not_build_it/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  
