@@ -16572,6 +16572,18 @@
    "status": "dead",
    "domain": "arithmetic"
   },
+  "B1896": {
+   "slug": "the third enforcement series verified and landed",
+   "motifs": [],
+   "refs": [
+    "B730",
+    "B887"
+   ],
+   "obstacle": "bridge_construction",
+   "obstacle_conf": 2,
+   "status": "dead",
+   "domain": "dynamics"
+  },
   "B189": {
    "slug": "omega causal dimension",
    "motifs": [

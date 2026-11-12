@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1597** |
-| words of findings prose | **1,408,910** |
-| test lock files referenced | **942** |
-| arcs carrying an authored verdict | **1597** (100.0 %) |
+| research arcs with findings | **1598** |
+| words of findings prose | **1,412,517** |
+| test lock files referenced | **944** |
+| arcs carrying an authored verdict | **1598** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1105 |
+| PROVED | 1106 |
 | NEGATIVE | 383 |
 | OPEN | 97 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1895`** (2299 words, 0 locks)  
-THE MENDS OF B1881 READ BY A SESSION THAT DID NOT WRITE THEM: FOUR FINDINGS, ALL HELD, AND WHAT THE ARC'S SECOND CONVENTION IS (agy-002's reading of main at 87bfa1f05, 4 of 4 quotations found by machine; data-free, integers modulo 5 and the record's flat-fibre instrument; 16 checks, none failing; computed once; nothing compared with a measured number). THE WRONG WORD: main's mend at Review 79 called B1881's second convention the transpose of the seat's; the seat's ground is symmetric, so its transpose is itself. WHAT IT IS: the seat's convention with every matrix conjugated by the swap of the two coordinates, the order of the letters kept (the 1,332 run sequences of length 2 and 4 with runs to 6 reach all 120 matrices of determinant 1 mod 5; the swapped word differs from the transposed word on 989 of them), read on the column (1,2), which is the swap of (2,1), the column the row (1,3) annihilates; and (2,1) lies on the mark's own line. THE IDENTITY: a row is kept by a matrix exactly when the column it annihilates is kept (all 120 matrices, each of the six lines), so the two tests are one test on every matrix and the agreement B1881 reported on 47,988 run sequences is an instance of an identity that could have failed only by an error of coding; for a mark that does not annihilate its own line the same recipe gives another test (88 of 120 for each of the four such lines); on the reversed sequence the second word is the transpose of the seat's word conjugated by the swap. THE OTHER THREE FINDINGS are of the record: 'reproduced' for what was recomputed, in the verdict line and the page; a label of the script that a correction of the page had not reached; a lock that held two of nine mends. All mended; B1881's lock, now ten tests, catches 18 of 18 planted reversions with the control passing; B1881 keeps 65 checks, none failing, and B1884, where the same wrong word stood, 17. ONE STATEMENT MADE STRONGER, from the reader's bound, re-derived by hand: every run sequence that is not all ones reads above 4/3 in this instrument, so the ground's sqrt5/2 is the least reading over every sequence and only the ground has it; the ingredient checked on 2,061 sequences; the least among the others in the range tried is sqrt2, and whether that is the second least over all is not shown. It is the fourth time at Review 79 that a correction main wrote held an error of its own, each found by a session that did not write it. 0 of 19.  
-`B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/FINDINGS.md`
+**PROVED — `B1896`** (3607 words, 3 locks)  
+THE THIRD PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7; the advisor seat's; six patches under one rule: a gate reads all it is about, counts what it does not read, refuses what it cannot read, and holds by name what stood) VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED AS SENT. 17 OF MAIN'S 22 UNSEEN CASES ARE CAUGHT, each by the gate that looks for the fault (the controls' register pointed elsewhere, four forms; a retracted phrase in a .tex file and in capitals; a banned phrase over two lines, in .rst and .html, with a double and a no-break space, in a root .txt; a proven row with no lock, three forms; four tests in which no assert can fail), and the gap main's case found in the first series is closed: a repository with no commit is refused by all 24 gates that read the tree or the history. FIVE PASS: a retracted phrase with a line break in its middle, the sweep choosing its phrases on the flattened file and then searching line by line; a test whose only assert calls a builtin on literals, in tests/ and in an arc's own lock, where the seat's note says its class stops; an only assert under a condition that is never true; a test whose whole body expects an exception from a literal expression. OF FIVE CASES MAIN WROTE AFTER READING THE PATCHES THREE PASS: a row of the claims page's locked tables that cites a folder named like a test file; a pair of names bound to literals in one line and compared; a name bound twice to one literal. None is opened by the series, each passing without it; all go to the seat (P-820), with a request that the five tables of what is held by name grow only by a recorded act. WHAT THE SEAT SAID OF ITS PATCHES IS WHAT MAIN FOUND: each patch's lock fails on the commit before it in the seat's numbers (6, 5, 4, 2, 8, 4); the three locks of the series pass on its end (72); all 53 gates pass there with the views generated; main's own 47 test files that name a gate pass (385, 3 skipped); the planted suite of 32 cases, run by main, catches 24, where the end of the second series caught 19, with its controls 5 of 5. One test failed once in one run of fifty and was not seen again in three reruns; its cause is not known. MAIN'S WORD ON THE NINETEEN UNQUOTED ROWS OF THE REGISTRY OF RETRACTED PHRASES, which the seat asked for: its proposal as sent, the stricter option, seventeen swept and two held by name as readings; the registry's two notes rewritten, each keeping what it said; an old debt paid (P-154): the sweep reads 54 rows, 46 swept and 8 that take back a reading. MENDED BY MAIN AT THE LANDING: B1632's claim line leads with the correction it had carried at its end, and the row of the paper's page that showed its first words carries it; the seat's table of standing lines shortened by that line, to eleven; a test of B1890 whose name still said the gap was there renamed. 0 of 19.  
+`B1896_the_third_enforcement_series_verified_and_landed/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  
