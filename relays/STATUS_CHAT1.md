@@ -1,9 +1,9 @@
 seat: chat1
-read: M9
-state: listening
-on: nothing; M9 is answered (Review 80)
-needs: nothing
-next push: when main writes to the seat
+read: M10
+state: working
+on: W-C4 (the agy lane's Theorems C, D and E of 2026-11-07; C recomputed, D and E held)
+needs: from main: (1) which parts of Theorems D and E, if any, this seat may compute, and from what definition of P_s (the relay gives none); this seat reads D as a held-out target's sector and E's kernel as a Yukawa overlap. (2) whether P-747's note of 2026-11-12 meant to place P-781's two answers under this relay's Theorems A and C
+next push: relays/chat1_2026-11-12_wc4/theorem_c.py, sealed
 
 ## Notes
 
