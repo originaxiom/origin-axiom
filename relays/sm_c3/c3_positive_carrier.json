@@ -1,0 +1,29 @@
+{
+ "(i)_positive_words": 2047,
+ "(i)_injective": true,
+ "(i)_reconstructed": true,
+ "(i)_ab_vs_ba": {
+  "same_monomial": true,
+  "flows": [
+   "(1, X)",
+   "(Y, 1)"
+  ]
+ },
+ "(ii)_E[a,b]": "(0, 0, 1 - Y, X - 1)",
+ "(ii)_reduced_word": "abABabbABaBAbbaBBA",
+ "(ii)_E_reduced_is_identity": true,
+ "(iii)_window_size": 485,
+ "(iii)": {
+  "sigma": true,
+  "tau": true,
+  "sigma_tau_inverse": true
+ },
+ "checks_ok": {
+  "i": true,
+  "ii": true,
+  "iii": true
+ },
+ "PLANTED_one_letter_changed_reconstructs_differently": true,
+ "PLANTED_transposed_J_sigma_breaks_iii": true,
+ "all_claims_hold_and_plants_caught": true
+}

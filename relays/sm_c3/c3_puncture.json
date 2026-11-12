@@ -1,0 +1,56 @@
+{
+ "(a)_squares": true,
+ "(b)_commutant_dim": 2,
+ "(b)_P2_P4_span_it": true,
+ "(c)_projectors": [
+  [
+   0,
+   0
+  ],
+  [
+   0,
+   1
+  ],
+  [
+   1,
+   0
+  ],
+  [
+   1,
+   1
+  ]
+ ],
+ "(d)_stabiliser_dims": {
+  "V2": 1,
+  "V4": 1
+ },
+ "(e)": {
+  "unitary": true,
+  "order_two": true,
+  "D_is_F_X": true,
+  "det_X": 1,
+  "block12_of_[D,P2]": "Matrix([[2/3, 0], [0, 2/3]])",
+  "commutant_with_D_dim": 1,
+  "indices": [
+   -3,
+   3
+  ]
+ },
+ "(f)": {
+  "L_t_null": true,
+  "L_t_invariant": true,
+  "Gamma_L_t=L_-t": true,
+  "real_graph_B=2t_u^dag_u'": true
+ },
+ "checks_ok": {
+  "a": true,
+  "b": true,
+  "c": true,
+  "d": true,
+  "e": true,
+  "f": true
+ },
+ "PLANTED_scalar_phase_commutant_dim": 2,
+ "PLANTED_caught": true,
+ "all_claims_hold_and_plants_caught": true
+}

@@ -1,0 +1,149 @@
+{
+ "word_lengths": {
+  "c": 4,
+  "r": 20,
+  "t": 84,
+  "t2": 84,
+  "t3": 88
+ },
+ "freely_reduced": {
+  "r": "abABaabABAbaaBAA",
+  "t": "abABaabABAbaBaabABAbaaBAbAABabaBAAbaBaabAABabaBAAbaBAA"
+ },
+ "(a)": {
+  "A2=B2=-I": true,
+  "AB=-BA": true,
+  "order": 8,
+  "derived_group": [
+   "Matrix([[-1, 0], [0, -1]])",
+   "Matrix([[1, 0], [0, 1]])"
+  ]
+ },
+ "(b-d)_doublets": {
+  "twist10": {
+   "dim_H1_F": 2,
+   "rho(c)=-I": true,
+   "z(c)=(A+I)v": true,
+   "z(aca^-1)=A z(c)": true,
+   "z(r)": "Matrix([[4*v1, 4*v2]])",
+   "z(r)=4v": true,
+   "rho(r)=I_so_coboundaries_vanish_on_r": true,
+   "z(t)=0_all_cocycles": true,
+   "rho(t)=I": true
+  },
+  "twist01": {
+   "dim_H1_F": 2,
+   "rho(c)=-I": true,
+   "z(c)=(A+I)v": true,
+   "z(aca^-1)=A z(c)": true,
+   "z(r)": "Matrix([[4*v1, 4*v2]])",
+   "z(r)=4v": true,
+   "rho(r)=I_so_coboundaries_vanish_on_r": true,
+   "z(t)=0_all_cocycles": true,
+   "rho(t)=I": true
+  },
+  "twist11": {
+   "dim_H1_F": 2,
+   "rho(c)=-I": true,
+   "z(c)=(A+I)v": true,
+   "z(aca^-1)=A z(c)": true,
+   "z(r)": "Matrix([[4*v1, 4*v2]])",
+   "z(r)=4v": true,
+   "rho(r)=I_so_coboundaries_vanish_on_r": true,
+   "z(t)=0_all_cocycles": true,
+   "rho(t)=I": true
+  }
+ },
+ "(b)_total_H1_F_three_twists": 6,
+ "(e)_sign_characters": {
+  "twist10": {
+   "dim_H1_F": 1,
+   "z(r)=0_all": true,
+   "dim_H1_G1": 0
+  },
+  "twist01": {
+   "dim_H1_F": 1,
+   "z(r)=0_all": true,
+   "dim_H1_G1": 0
+  },
+  "twist11": {
+   "dim_H1_F": 1,
+   "z(r)=0_all": true,
+   "dim_H1_G1": 0
+  }
+ },
+ "(f)": {
+  "E(r)=1": true,
+  "E(t)=1": true,
+  "E(ab)!=E(ba)": true
+ },
+ "(g)_derived_length_3_doublets": {
+  "twist10": {
+   "[(0,A),(v,I)]=((A-I)v,I)": true,
+   "A-I_invertible": true,
+   "[(0,A),(0,B)]=(0,-I)": true,
+   "[(0,-I),(v,I)]=(-2v,I)": true,
+   "translations_commute": true
+  },
+  "twist01": {
+   "[(0,A),(v,I)]=((A-I)v,I)": true,
+   "A-I_invertible": true,
+   "[(0,A),(0,B)]=(0,-I)": true,
+   "[(0,-I),(v,I)]=(-2v,I)": true,
+   "translations_commute": true
+  },
+  "twist11": {
+   "[(0,A),(v,I)]=((A-I)v,I)": true,
+   "A-I_invertible": true,
+   "[(0,A),(0,B)]=(0,-I)": true,
+   "[(0,-I),(v,I)]=(-2v,I)": true,
+   "translations_commute": true
+  }
+ },
+ "(g)_derived_length_2_signs": {
+  "twist10": {
+   "commutator_is_translation": true,
+   "translations_commute": true
+  },
+  "twist01": {
+   "commutator_is_translation": true,
+   "translations_commute": true
+  },
+  "twist11": {
+   "commutator_is_translation": true,
+   "translations_commute": true
+  }
+ },
+ "checks_ok": {
+  "a": true,
+  "b-d": true,
+  "e": true,
+  "f": true,
+  "g": true
+ },
+ "H1_table_from_(b)-(g)": {
+  "doublet_per_parity": {
+   "G2": 0,
+   "G3": 2,
+   "F2": 2
+  },
+  "sign": {
+   "G1": 0,
+   "G2": 1,
+   "F2": 1
+  }
+ },
+ "PLANTED_p1_B_transposed_is_a_twist_no_change": {
+  "z(r)=4v": true,
+  "dim_H1_F": 2,
+  "B^T=-B": true
+ },
+ "PLANTED_p2_B_trivial": {
+  "z(r)": "Matrix([[0, 0]])",
+  "z(r)=4v": false,
+  "image_abelian": true,
+  "dim_H1_G2_by_(g)": 2
+ },
+ "PLANTED_p2_caught": true,
+ "all_claims_hold_and_plants_caught": true
+}

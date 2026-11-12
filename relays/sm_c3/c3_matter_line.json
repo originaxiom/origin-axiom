@@ -1,0 +1,61 @@
+{
+ "(a)_UtJU=detU_J": true,
+ "(b)_commutator_scales_by_det": true,
+ "(c)_W_scales_by_det": true,
+ "(d)": {
+  "det1_unitary": {
+   "unitary": true,
+   "det": "1",
+   "W_ratio": "1",
+   "kinetic_sum_kept": true,
+   "commutator_norm_kept": true
+  },
+  "deti_unitary": {
+   "unitary": true,
+   "det": "I",
+   "W_ratio": "I",
+   "kinetic_sum_kept": true,
+   "commutator_norm_kept": true
+  },
+  "det1_nonunitary": {
+   "unitary": false,
+   "det": "1",
+   "W_ratio": "1",
+   "kinetic_sum_kept": false,
+   "commutator_norm_kept": true
+  }
+ },
+ "(e)_defect": "Matrix([[0, alpha + beta], [-alpha - beta, 0]])",
+ "(f)": {
+  "covariant_with_compensator": true,
+  "fails_without": true,
+  "product_has_no_residual_phase": true
+ },
+ "(g)": {
+  "same_line_det_curvature": "2*F",
+  "opposite_twist": "0",
+  "modular_common_twist": "-12*I*dA*n"
+ },
+ "(h)": {
+  "ad_Z_is_a_derivation": true,
+  "scalar_defect_is_-c[X,Y]": true,
+  "scalar_automorphism_u": [
+   "0",
+   "1"
+  ],
+  "[Z,X]=2X,[Z,Y]=-2Y": true
+ },
+ "checks_ok": {
+  "a": true,
+  "b": true,
+  "c": true,
+  "d": true,
+  "e": true,
+  "f": true,
+  "g": true,
+  "h": true
+ },
+ "PLANTED_same_charges_(a,a)_defect": "Matrix([[0, 2*alpha], [-2*alpha, 0]])",
+ "PLANTED_caught": true,
+ "all_claims_hold_and_plants_caught": true
+}
