@@ -1,0 +1,286 @@
+{
+  "all_planted_caught": true,
+  "card": "X-C1d",
+  "elapsed_seconds": 4230.915,
+  "error": null,
+  "parse_control": {
+    "patched_parser_reads_it": true,
+    "sealed_parser_fails_on_spacing": true
+  },
+  "patched_functions": {
+    "_mpc": {
+      "identical_otherwise": true,
+      "replacements": 2
+    },
+    "q3_names": {
+      "identical_otherwise": true,
+      "replacements": 7
+    }
+  },
+  "planted_faults_caught": {
+    "PC_names_537": true,
+    "PC_q1_private_one": true,
+    "PC_register_carries_hand": true,
+    "PC_threads_odd_1_0_1": true
+  },
+  "postrun_rows": [
+    "955",
+    "956"
+  ],
+  "rows": {
+    "955": {
+      "census_identifications": {
+        "b++LR": [
+          "m004(0,0)",
+          "4_1(0,0)",
+          "K2_1(0,0)",
+          "K4a1(0,0)",
+          "otet02_00001(0,0)"
+        ],
+        "b+-LR": [
+          "m003(0,0)",
+          "otet02_00000(0,0)"
+        ]
+      },
+      "census_identifications_ok": true,
+      "commits": [
+        "1915fe928",
+        "ddd62c4ee"
+      ],
+      "founding_rule_identities": true,
+      "hand_table_from_Q8_blocks": true,
+      "note": "the script commit ddd62c4ee is recorded as a seal only; its code was neither read nor run",
+      "odd_trace_prediction_1_1_2": true,
+      "result": "the same",
+      "row": 955
+    },
+    "956": {
+      "commits": [
+        "47a86fa8b"
+      ],
+      "q1": {
+        "all_decided_and_1_1_0_at_120_digits": true,
+        "log10_largest_zero_relative_singular_value_120": -117.5261114838804,
+        "log10_smallest_genuine_relative_singular_value_120": -34.98415456264319,
+        "m004_control": true,
+        "ok": true,
+        "sixty_digit_band_undecided_states_in_own_matrices": 3,
+        "sixty_digit_decided_all_1_1_0": true,
+        "sixty_digit_undecided_blocks": {
+          "3": 3
+        },
+        "sixty_digit_undecided_word_lengths": {
+          "12": 3
+        },
+        "states": 758
+      },
+      "q2": {
+        "fiber_dim_n_2_3_4": [
+          0,
+          4,
+          6
+        ],
+        "joint_zero": true,
+        "ok": true,
+        "single_moves_ok": true,
+        "table": {
+          "1": {
+            "dim": 3,
+            "h1": 3,
+            "joint_LR": [
+              0,
+              0
+            ],
+            "joint_all": [
+              0,
+              0
+            ],
+            "private": 0,
+            "q8_multiplicities": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "single_moves_h1_private": {
+              "L": [
+                1,
+                0
+              ],
+              "N": [
+                3,
+                0
+              ],
+              "P": [
+                2,
+                0
+              ],
+              "R": [
+                1,
+                0
+              ]
+            },
+            "visible": 3
+          },
+          "2": {
+            "dim": 5,
+            "h1": 7,
+            "joint_LR": [
+              0,
+              0
+            ],
+            "joint_all": [
+              0,
+              0
+            ],
+            "private": 4,
+            "q8_multiplicities": [
+              2,
+              1,
+              1,
+              1
+            ],
+            "single_moves_h1_private": {
+              "L": [
+                1,
+                1
+              ],
+              "N": [
+                3,
+                0
+              ],
+              "P": [
+                3,
+                2
+              ],
+              "R": [
+                1,
+                1
+              ]
+            },
+            "visible": 3
+          },
+          "3": {
+            "dim": 7,
+            "h1": 8,
+            "joint_LR": [
+              0,
+              0
+            ],
+            "joint_all": [
+              0,
+              0
+            ],
+            "private": 2,
+            "q8_multiplicities": [
+              1,
+              2,
+              2,
+              2
+            ],
+            "single_moves_h1_private": {
+              "L": [
+                1,
+                0
+              ],
+              "N": [
+                6,
+                0
+              ],
+              "P": [
+                4,
+                1
+              ],
+              "R": [
+                1,
+                0
+              ]
+            },
+            "visible": 6
+          }
+        },
+        "table_ok": true,
+        "threads": {
+          "even": {
+            "(1, 0, 1)": 136,
+            "(1, 1, 2)": 124,
+            "(1, 2, 3)": 132,
+            "(3, 3, 6)": 40
+          },
+          "odd": {
+            "(1, 1, 2)": 326
+          },
+          "primes": [
+            1000033,
+            1000037
+          ],
+          "primes_agree": true,
+          "threads_keeping_a_private_state": 0
+        },
+        "threads_ok": true
+      },
+      "q3": {
+        "census_identifications_ok": true,
+        "coincidences": 222,
+        "coincidences_equal_reversal_pairs": true,
+        "identify": {
+          "b++LR": [
+            "m004(0,0)",
+            "4_1(0,0)",
+            "K2_1(0,0)",
+            "K4a1(0,0)",
+            "otet02_00001(0,0)"
+          ],
+          "b+-LR": [
+            "m003(0,0)",
+            "otet02_00000(0,0)"
+          ]
+        },
+        "isometry_undecided": 0,
+        "m003_shape_hexagonal": true,
+        "m004_shape_2sqrt3_i": true,
+        "max_coincidence_size": 2,
+        "names": 536,
+        "pm_pairs": 379,
+        "pm_same_volume": true,
+        "pm_separated_by_name": true,
+        "reversal_pairs": 222,
+        "reversal_pairs_isometric": true,
+        "states": 758
+      },
+      "q3_ok": true,
+      "q5": {
+        "C_flips_cyclic_order": true,
+        "C_rev_is_inner_times_C_sigma": true,
+        "C_sigma_is_P_sigma_P": true,
+        "determinants": {
+          "C_rev": -1,
+          "C_sigma": -1,
+          "rev": -1,
+          "sigma": -1
+        },
+        "h1_actions_differ_under_C": {
+          "1": true,
+          "2": true,
+          "3": true
+        },
+        "h1_actions_equal_sigma_rev": {
+          "1": true,
+          "2": true,
+          "3": true
+        },
+        "lift_class_flipped_by_C": true,
+        "lift_class_mod_Q8_same_for_rev": true,
+        "lifts_differ_by_rho_a_inverse": true,
+        "ok": true,
+        "rev_is_inner_times_sigma": true,
+        "same_cyclic_order_sigma_rev": true,
+        "sigma_P_is_a_transvection": true
+      },
+      "readings": "Q4 (assembled from the record) and Q6's reading of the observer layer: not independently checked",
+      "result": "the same",
+      "row": 956
+    }
+  },
+  "sealed_script_sha256": "4082d350f9fe0f4a6588956d098a792819fb948718a69d2c05d0cb225ebfb6e0"
+}
