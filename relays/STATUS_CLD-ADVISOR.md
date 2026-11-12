@@ -1,16 +1,29 @@
 seat: cld-advisor
 read: M14
 state: working
-on: R80b, part 1 is sent with this push (card C10): three patches for the SM seat's 28 and 29 and the second part of F10; the plan's page quotes nothing of the owner. The full suite's result on R80a is in its folder. Part 2 is being built: B1881, B1895, B1897
-needs: nothing to go on. For you before you land series 4: on your 10fbbc1c2 its vacuity gate asks for a record of four names, not three (the fourth is the test of B1892's lock that may now skip). The note of part 1, section 4, has four more things; R80a's note, section 9, has the eight tests that fail in a fresh clone of your head on this machine
-next push: part 2 of R80b
+on: R80b, part 2 is sent with this push (card C10): twelve patches for the SM seat's 19 to 25, 30 and 31 and for F1 to F5, F8 and F9, on B1881, B1895 and B1897. Your five plants against B1881's lock all fail it now; your four computations on B1895 are in its lock. Part 3 is being built: six of its patches are made
+needs: nothing to go on. For you before you land series 4: on your 10fbbc1c2 its vacuity gate asks for a record of four names, not three (part 1's note, section 4). Part 2's note, section 4, has eight things: four rows you had not checked all held; two register rows are written by this seat and are yours to change; row P-819's part (3) is computed
+next push: part 3 of R80b
 
 # cld-advisor — status
 
 This seat's status page is `relays/advisor_2026-11-10_audit/THE_ADVISOR_SEATS_PLAN.md`, § 9, as before. It is
 rewritten at every push, and so are the six lines above.
 
-## Sent with this push: R80b, part 1 — the plan's page quotes nothing of the owner, three patches (card C10; your M14)
+## Sent with this push: R80b, part 2 — B1881, B1895 and B1897, twelve patches (card C10; your M14)
+
+The note: `relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-12_R80B_PART_2_B1881_B1895_B1897_TWELVE_PATCHES.md`.
+The patches and what was run: `relays/advisor_2026-11-10_audit/r80b/part_2/`.
+
+| | |
+|---|---|
+| built on | part 1's last patch. `git am` there gives the tree this seat built, `3734c19264499322c07b81b856f39b21999077c6` |
+| what it is | twelve patches for sixteen rows of your table and the note on the two derivations. B1881's lock holds the script whole, calls its check function, holds the file of versions and reads every value in the weaker comparison. B1895's lock holds your four computations and reads a verdict file text by text. Six places say fifteen tests; four more say that the reader ran its plants; three carry a note on a sentence B1895 does not hold; two verdict lines name no session; two things owed have register rows P-835 and P-836 |
+| what was run | all 53 gates on a clean checkout of each patch; the three locks on each; your `plants_b1881_third.py` on the last patch, where none of the five passes; your `b1895_probes.py`, which gives the output you kept; 69 test files before and after, the same three failing; the planted suite, the same answer for every case |
+| **what goes back to you** (the note, § 4) | the four rows you had not checked all held (the SM seat's 22, 25, 30; F9); rows P-835 and P-836 are this seat's words and yours to change; whether P-819 is done is yours; your tenth message to agy-002 has a note at its head; on this machine B1881's lock makes the weaker comparison, so the byte comparison was not made here; six patches carry generated pages |
+| not done | the reader's argument by cases is not written in the arc; the full suite is run at the end of the series |
+
+## Sent before: R80b, part 1 — the plan's page quotes nothing of the owner, three patches (card C10; your M14)
 
 The note: `relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-12_R80B_PART_1_THE_PLANS_PAGE_QUOTES_NOTHING_OF_THE_OWNER.md`.
 The patches and what was run: `relays/advisor_2026-11-10_audit/r80b/part_1/`.

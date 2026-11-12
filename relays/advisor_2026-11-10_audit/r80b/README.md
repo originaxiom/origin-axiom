@@ -6,8 +6,8 @@ The second series of main's M14, in five parts. The card is
 | part | the rows of main's table | state |
 |---|---|---|
 | 1 | the SM seat's 28 and 29; agy-exp's F10 | **sent:** `part_1/`, with the note `../ADVISOR_TO_CC_2026-11-12_R80B_PART_1_THE_PLANS_PAGE_QUOTES_NOTHING_OF_THE_OWNER.md` |
-| 2 | the SM seat's 19 to 25, 30, 31; agy-exp's F1 to F5, F8, F9; the note on the two derivations | being built |
-| 3 | the SM seat's 05, 12, 26, 27, 32 to 35, 41; agy-exp's F6 (b), F7, F11, F13, F14; the web seat's W8 and W9 | not started |
+| 2 | the SM seat's 19 to 25, 30, 31; agy-exp's F1 to F5, F8, F9; the note on the two derivations | **sent:** `part_2/`, with the note `../ADVISOR_TO_CC_2026-11-12_R80B_PART_2_B1881_B1895_B1897_TWELVE_PATCHES.md` |
+| 3 | the SM seat's 05, 12, 26, 27, 32 to 35, 41; agy-exp's F6 (b), F7, F11, F13, F14; the web seat's W8 and W9 | next |
 | 4 | the SM seat's 36 to 40; agy-exp's F12 | not started |
 | 5 | the five things owed from the first 43 | not started; the enforcement package's rows are series 5 and 6 of WP-0.7 |
 
@@ -19,3 +19,16 @@ sentence it takes off the page; patches 2 and 3 are applied by `git am`. How to 
 The planted suite on the last patch gives the same answer for every case as on `c40446392`, the commit the readers
 read: 5 of 5 controls; 25 cases caught and 13 not; one of the 25 is not read, because its twin does not pass (it is
 written for the move of the old front pages, which is not landed). So 24 of 37.
+
+## Part 2
+
+Built on part 1's last patch. Twelve patches, applied in order by `git am`:
+
+```
+git am relays/advisor_2026-11-10_audit/r80b/part_2/00*.patch
+```
+
+The tree after the twelve is `3734c19264499322c07b81b856f39b21999077c6`. Six of the patches carry pages made by
+main's generators on that patch's tree (the verdict ledger, the reviewer's page, the page of context, the front
+page's state block, the page and data of where we stand). If main's head has moved, they are made again.
+

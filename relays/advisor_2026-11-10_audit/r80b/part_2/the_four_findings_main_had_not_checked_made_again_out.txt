@@ -1,0 +1,17 @@
+1. The SM seat's 22: B1895's lock says its sequences are ones the arc's script did not try
+   the lock's sequences, as its test lists them: 415, distinct 409; the script's: 2061
+   of the distinct ones, tried by the script: 295; new: 114 (of length 2 with a run of 7 to 12: 108; of length 8 and 10: 6)
+   the lock's sentence stands: True
+2. The SM seat's 25: two things owed with no open row
+   P-822 reads DONE; its cell of what was done ends: ...h P-820. The reader is asked to run its 23 again
+   B1897 section 5 still asks it: True
+   B1897 section 4 states the debt: True
+   open register rows that carry that debt: none
+3. The SM seat's 30: the first section of B1881 lists the agreement of the two conventions as a thing main adds
+   the bullet names it: True; it has a bracket: False
+   section 5 calls the agreement an instance of an identity: True
+   B1895 section 6 counts it among main's errors: True
+4. A reader's F9: B1895's lock reads a verdict file as one block
+   the lock reads a json file as one block: True
+   B1881's verdict file as it is: holds the old words 1 time(s); reported: False
+   with the old words a second time, uncorrected, in another field: holds them 2 times; reported: False

@@ -1,0 +1,19 @@
+ALL 53 GATES AND THE LOCKS OF B1881, B1895 AND B1897 ON A CLEAN CHECKOUT OF EACH PATCH OF R80b, PART 2 (2026-11-12)
+
+Built on main's 10fbbc1c2 with the patch of R80a and the three patches of part 1. Each gate is called from the checkout's
+own scripts/gates/gates.py. The commit in brackets is this seat's; main's will differ.
+
+patch 1 (79f7598aa): 53 gates, 53 pass  | the lock of B1881: 16 passed in 12.69s | of B1895: 7 passed in 0.75s | of B1897: 4 passed in 0.19s
+patch 2 (bcc89d62c): 53 gates, 53 pass  | the lock of B1881: 17 passed in 12.01s | of B1895: 7 passed in 0.88s | of B1897: 4 passed in 0.19s
+patch 3 (4ff8ad7b6): 53 gates, 53 pass  | the lock of B1881: 17 passed in 11.91s | of B1895: 7 passed in 0.87s | of B1897: 4 passed in 0.17s
+patch 4 (f36978472): 53 gates, 53 pass  | the lock of B1881: 17 passed in 11.72s | of B1895: 7 passed in 0.90s | of B1897: 4 passed in 0.18s
+patch 5 (1009d9078): 53 gates, 53 pass  | the lock of B1881: 17 passed in 12.13s | of B1895: 7 passed in 0.99s | of B1897: 4 passed in 0.19s
+patch 6 (4af418434): 53 gates, 53 pass  | the lock of B1881: 17 passed in 12.65s | of B1895: 7 passed in 0.93s | of B1897: 4 passed in 0.18s
+patch 7 (f255c749b): 53 gates, 53 pass  | the lock of B1881: 17 passed in 12.45s | of B1895: 7 passed in 1.03s | of B1897: 4 passed in 0.18s
+patch 8 (82dd78e19): 53 gates, 53 pass  | the lock of B1881: 17 passed in 12.97s | of B1895: 7 passed in 0.76s | of B1897: 4 passed in 0.17s
+patch 9 (9e27b44f8): 53 gates, 53 pass  | the lock of B1881: 17 passed in 13.87s | of B1895: 7 passed in 0.85s | of B1897: 4 passed in 0.19s
+patch 10 (28852c113): 53 gates, 53 pass  | the lock of B1881: 17 passed in 12.47s | of B1895: 10 passed in 1.51s | of B1897: 4 passed in 0.19s
+patch 11 (8ec142501): 53 gates, 53 pass  | the lock of B1881: 17 passed in 12.03s | of B1895: 11 passed in 1.45s | of B1897: 4 passed in 0.19s
+patch 12 (74cf5eef4): 53 gates, 53 pass  | the lock of B1881: 17 passed in 11.72s | of B1895: 11 passed in 1.42s | of B1897: 4 passed in 0.17s
+
+The commit before the part (part 1's last patch): the lock of B1881 15 passed, of B1895 7 passed, of B1897 4 passed.

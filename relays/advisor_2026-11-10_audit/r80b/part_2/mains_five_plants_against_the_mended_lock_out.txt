@@ -1,0 +1,21 @@
+MAIN'S OWN SCRIPT OF PLANTS (plants_b1881_third.py, as main wrote it; the arc B1898 keeps it), RUN ON THE LAST PATCH OF R80b, PART 2
+
+nothing planted                                                                                  PASSES     17 passed in 12.23s  (13s)
+the control: single_ok replaced by the literal True (a plant B1895's lock holds)                 CATCHES IT 4 failed, 13 passed in 11.61s  (12s)
+F1: the two mended conditions taken over empty lists                                             CATCHES IT 1 failed, 16 passed in 11.30s  (12s)
+F2: check() made to ignore what it is passed                                                     CATCHES IT 2 failed, 15 passed in 11.58s  (12s)
+F3: an unpinned check made unable to fail by an 'or' on a length that is never 0                 CATCHES IT 1 failed, 16 passed in 11.31s  (12s)
+F4: no sequence read: the least typed, the two counts typed behind the pinned beginning          CATCHES IT 1 failed, 16 passed in 7.22s  (8s)
+F5: the made-with file given another version, and a number of part A changed in the script       CATCHES IT 3 failed, 14 passed in 0.55s  (1s)
+the two controls behave: True; of the five plants, the lock passes: 0
+
+The same script on main's 10fbbc1c2, before any patch, as run for R80a (the same answers as the output main kept):
+
+nothing planted                                                                                  PASSES     15 passed in 18.03s  (18s)
+the control: single_ok replaced by the literal True (a plant B1895's lock holds)                 CATCHES IT 3 failed, 12 passed in 12.17s  (13s)
+F1: the two mended conditions taken over empty lists                                             PASSES     15 passed in 11.14s  (12s)
+F2: check() made to ignore what it is passed                                                     PASSES     15 passed in 11.27s  (12s)
+F3: an unpinned check made unable to fail by an 'or' on a length that is never 0                 PASSES     15 passed in 11.47s  (12s)
+F4: no sequence read: the least typed, the two counts typed behind the pinned beginning          PASSES     15 passed in 6.23s  (7s)
+F5: the made-with file given another version, and a number of part A changed in the script       PASSES     15 passed in 11.23s  (12s)
+the two controls behave: True; of the five plants, the lock passes: 5
