@@ -77,8 +77,13 @@ def test_the_owners_rulings_at_the_review_are_recorded_in_the_owners_words():
     assert "| DONE |" in rows["P-771"] and "'Yes, admit it (Recommended)'" in rows["P-771"] and "'Yes, all three (Recommended)'" in rows["P-771"]
     assert "| DONE |" in rows["P-774"] and "'The act itself (Recommended)'" in rows["P-774"] and "'Whole agrees (Recommended)'" in rows["P-774"]
     assert "| DONE |" in rows["P-697"] and "WAS NOT SENT" in rows["P-697"]
+    # [CHANGED 2026-11-12.  This test held the three rows to the disposition OWNER, which is where they stood at the review.
+    #  The owner's later word (register row P-825) moved all three, and a lock of a review holds what the review recorded,
+    #  not where a live row stands today.  What is held now: the confirmation of 2026-11-11 stays in each row, and the row
+    #  that moved says that it moved and when.]
     for n in ("P-081", "P-082", "P-253"):
-        assert "| OWNER |" in rows[n] and "2026-11-11, the owner confirmed in a dialog" in rows[n], n
+        assert "2026-11-11, the owner confirmed in a dialog" in rows[n], n
+        assert "| OWNER |" in rows[n] or ("row P-825" in rows[n] and "UNTIL 2026-11-12 THE ROW READ, as a call of the owner's" in rows[n]), n
     assert (ROOT / "docs" / "handoffs" / "CC_TO_AGY_2026-11-11_YOUR_THREE_COMPLIANCE_POINTS_ARE_MENDED.md").is_file()
     prog = json.loads(_arc("B1861", "PROGRAMME.json"))
     assert sorted(prog["confirmed_later"]) == ["no rule picks a next thing", "the ledger, cancelling, interaction", "the tick is an act", "what exists is what survives"]

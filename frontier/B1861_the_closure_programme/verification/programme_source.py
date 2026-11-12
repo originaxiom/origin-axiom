@@ -319,6 +319,8 @@ DEBT_TO_WP = {
     "P-817": "WP-0.3",   # the tripwire for old, corrected sentences caught 5 of 23 new planted errors; the sentences are not in the registry of retracted phrases
     "P-820": "WP-0.7",   # what still passes after the third enforcement series: six shapes run by main, and the tables of what is held by name
     "P-821": "WP-0.3",   # by the builder's count 27 verdict files carry no mark of a correction their findings page carries
+    "P-253": "WP-0.6",   # eight results that many synthesis pages name: each is owed its place in the map or the reason it has none
+    "P-827": "WP-0.1",   # two statements on governing pages put in question by the reading of the old front pages
 }
 
 # ---------------------------------------------------------------- the certificate

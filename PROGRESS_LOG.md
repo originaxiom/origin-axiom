@@ -19845,3 +19845,19 @@ seat's check. Six are left.
 **Which piece of the plan moved.** None. This is the rule that keeps the record read by someone other than its writer.
 
 0 of 19.
+
+## 2026-11-12 — The owner's decisions of this morning are entered (S306p)
+
+**What he decided.** The old front pages may be moved. For everything else that had been left with him, he accepted what main recommended.
+
+**The old front pages.** Thirty pages at the front of the repository had not changed since before October. Main read the opening of each one and looked at who points to it. Twenty are old plans, reports and campaign pages. They will move into one folder, unchanged, with one new page that says where each one went. Ten stay for now, most of them because a page that is in force still sends its readers to them. The advisor seat builds the move, main checks it, and it is published after the review that is open now.
+
+**His earlier messages.** Pages that are rewritten at every version will say what he ruled and when, and will not quote him. Older records keep their text. Main had reported this as finished. It was not: by a first count sixteen quotations remain on four such pages. They are changed after the review.
+
+**His four open decisions are closed.** Writing to two outside readers stays on hold until a result passes the second level of confirmation. No new draft of the paper is opened before the mathematics is complete. The licence is decided when the result is sealed, after legal advice. Eight older results that the paper's chain does not mention are now main's to place in the map.
+
+**What the reading turned up.** A list of sixteen questions from September, thirteen still marked open, that the register of open points never took in. And two sentences in the governing pages that may be out of date.
+
+**Which piece of the plan moved.** None. Two debts were added to the list.
+
+0 of 19.

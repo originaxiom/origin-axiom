@@ -1,5 +1,18 @@
 # Changelog
 
+## S306p THE OWNER'S WORD OF 2026-11-12 ENTERED: THE OLD FRONT PAGES MOVE, AND NO CALL OF HIS IS LEFT OPEN (P-825 to P-828) (2026-11-12)
+
+- **What he ruled, in plain words.** He approved the move of the old front pages, and accepted main's recommendation on every item that main had left with him.
+- **The move** is his way and the advisor seat's second dry run: pure renames into one folder, one page that says where each page went, one line on the front page's table and no other edit of a kept page. Main read the seat's thirty. Twenty move. Ten stay in this step, nine because a current page still names each as the place of something in force, one because it is a ledger. The seat builds it as a patch (its page, M12). It lands after Review 80's entry and the fourth enforcement series.
+- **His earlier words on governing pages.** Main's reading is approved and is completed at the first landing after the review: a governing page quotes nothing he said, and the past keeps what it wrote. Main had reported this as done. It was done only for what was written on the day of his ruling, and for the plan. A first count finds sixteen lines on four pages.
+- **The four calls.** The two outside readers are held under his own condition and are no longer listed (P-081, P-082). No draft follows the ninth before the seal, and the eight arcs absent from the paper's chain are main's debt (P-253): by declared dependencies two are named by the map or the programme, four lie beneath a named arc, and two are named by nothing. The licence is decided at the seal, after legal advice, and none is added before (P-787).
+- **What the reading found beside the list.** A register of sixteen questions, thirteen marked open, unchanged since September and absent from the point register (P-826). Two statements on governing pages put in question: the working rules' binding order of work, and the terminology page's gate that compares structure and never value (P-827, a debt).
+- **A lock changed.** B1877's lock held three rows to the disposition OWNER. It now holds what the review recorded, and not where a live row stands today.
+- **A wrong label found and mended (P-828).** In the register's ranked list fourteen debts of 2026-11-11 and 2026-11-12 stood under the heading of the advisor seat's second re-audit of 2026-11-10, and the closure map printed that as their class; the two added today would have joined them. The list has three headings more, by day, and the map is built again.
+- **The one exception to P-824,** said there: the owner's word is entered the day it is given. No arc and no instrument lands.
+
+0 of 19.
+
 ## S306p REVIEW 80 OPENED: FOUR CARDS OUT; MAIN LANDS NOTHING ELSE UNTIL IT IS ENTERED (P-824) (2026-11-12)
 
 - **Why now.** 26 landings stand since the anchor of Review 79. A review is due at 20 and the push is blocked at 40. It is not waived. The fourth enforcement series alone is twelve commits.

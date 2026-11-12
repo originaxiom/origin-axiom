@@ -21,9 +21,9 @@
   "status": "NOT STARTED"
  },
  "map": {
-  "debts": 94,
-  "debts_joined_to_nothing": 77,
-  "nodes": 286,
+  "debts": 96,
+  "debts_joined_to_nothing": 79,
+  "nodes": 288,
   "nodes_that_need_a_path": 134
  },
  "milestones": [
@@ -157,6 +157,11 @@
     "A green full suite on a fresh clone"
    ],
    [
+    "WP-0.6",
+    "STARTED",
+    "The map kept current and complete"
+   ],
+   [
     "WP-0.7",
     "STARTED",
     "Enforcement that enforces"
@@ -180,12 +185,13 @@
    "WP-0.3",
    "WP-0.4",
    "WP-0.5",
+   "WP-0.6",
    "WP-0.7",
    "WP-0.8",
    "WP-0.9"
   ],
   "not_started": 2,
-  "started": 8
+  "started": 9
  },
  "put_in_by_hand": {
   "by_kind": {
@@ -222,19 +228,13 @@
  "ready_for_the_final_reading": false,
  "register": {
   "by_kind": {
-   "DEBT": 94,
+   "DEBT": 96,
    "LEAD": 136,
-   "OWNER": 4,
-   "PROCESS": 66
+   "PROCESS": 71
   },
-  "open": 300,
-  "owner_calls_open": [
-   "P-081",
-   "P-082",
-   "P-253",
-   "P-787"
-  ],
-  "points": 824
+  "open": 303,
+  "owner_calls_open": [],
+  "points": 828
  },
  "rows_the_scoreboard_lists": 23,
  "the_count_as_an_output": {

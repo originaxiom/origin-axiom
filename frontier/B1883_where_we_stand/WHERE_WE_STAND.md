@@ -7,7 +7,7 @@ data file and the point register.*
 
 ## 1. In one line
 
-**Ready for the final reading: NO.** 0 of 19 values earned. The sealed card (WP-5.3) is NOT STARTED; of the 10 packages it must wait on, 0 are done, 8 started and 2 not started.
+**Ready for the final reading: NO.** 0 of 19 values earned. The sealed card (WP-5.3) is NOT STARTED; of the 11 packages it must wait on, 0 are done, 9 started and 2 not started.
 
 The final reading is a sealed set of predictions set beside measurement. It happens once, after everything below.
 
@@ -30,6 +30,7 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 | WP-0.3 | Checks that cannot fail, instruments and seal claims | STARTED |
 | WP-0.4 | Unverified premises and seat results under banked results | STARTED |
 | WP-0.5 | A green full suite on a fresh clone | STARTED |
+| WP-0.6 | The map kept current and complete | STARTED |
 | WP-0.7 | Enforcement that enforces | STARTED |
 | WP-0.8 | Errors in the mathematics or its code | STARTED |
 | WP-0.9 | Labels as strong as the content | NOT STARTED |
@@ -56,8 +57,8 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 | C5 | The pre-comparison seal and independent challenge | 4 | 0 | 1 | 3 |
 | C6 | Dimensional calibration and empirical comparison | 1 | 0 | 0 | 1 |
 
-- **The map:** 286 nodes, of which 134 still need a path to a result.
-- **Debts on the map:** 94, of which 77 are joined to no node yet.
+- **The map:** 288 nodes, of which 134 still need a path to a result.
+- **Debts on the map:** 96, of which 79 are joined to no node yet.
 
 ## 4. What is still put in by hand
 
@@ -86,12 +87,8 @@ The final reading is a sealed set of predictions set beside measurement. It happ
 
 ## 6. The record's own list
 
-- **824 points registered, 300 open:** 136 lead, 94 debt, 66 process, 4 owner.
-- **Calls that are the owner's to make (4):**
-  - P-081: the reply to the outside reader, approached carefully so the contact is not lost: in his own context (one of his videos as the opening), short, honest…
-  - P-082: a second outside reader, later, approached in his own context (relating to his videos), after the first correspondence
-  - P-253: the chain gap's top entries (Review 67's R66-3, declined there because the chain is the frozen paper's spine): B1098, B959, B1100, B952, B1086, B1000,…
-  - P-787: THE PUBLIC FORM OF THE REPOSITORY: THIS ONE, OR A DISTILLED ONE WITH THIS AS THE ARCHIVE (the owner to the advisor seat, 2026-11-11, asking for a deep…
+- **828 points registered, 303 open:** 136 lead, 96 debt, 71 process.
+- **Calls that are the owner's to make (0):**
 
 ## 7. What this page does not know
 

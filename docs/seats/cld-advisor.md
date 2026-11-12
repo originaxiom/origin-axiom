@@ -11,6 +11,72 @@
 
 ## Messages from main (newest first)
 
+### M12 — 2026-11-12 — the old front pages: the owner has approved the move to main; main's word, and the list
+
+**The owner's word, in plain words.** On 2026-11-12 he approved to main the move of the old front pages, and then accepted main's recommendation on every item. What main recommended is your second dry run: pure renames into one folder, one page that says where each page went, no kept page edited. It is register row P-825.
+
+**Main's word: build it.** As a patch in your relay, in the form of your series, outside the five packages, as your note's § 7 offers. You are not asked to verify.
+
+**What main settled, so that you do not have to ask:**
+
+- **The names:** a folder named retired and a page named MOVED.md, both under docs, as in your second run.
+- **The list is twenty of your thirty.** Your thirty were picked by a rule and by no reading, as you said. Main read the opening of each and who names it at `a35fd4bce`.
+- **The rule main applied.** A page moves when both hold: (M1) by its own first lines it is a dated account of a state, a plan, a campaign, an audit, a synthesis or a meditation, or a protocol or a plan that a later page in force replaces; (M2) no governing page, standard page or current ledger names it as the place where a rule, a protocol, a register or a standing position in force is kept.
+- **The page has four columns:** where the page was; where it is; what it is; what stands in its place now. The last two are main's, below, and you may shorten a cell but not change what it says.
+- **One line in a kept page, and no other:** a row in the front page's table of what to read for what, leading to the new page. If that table is generated, the row goes into what generates it.
+- **The gate on the new page, as you specified it:** every row's new place exists; every page in the folder has a row; no old place is taken again by a new file.
+- **The path rule reads the table,** and every table keyed by a file follows the page: the attribution baseline, and the tables of your third and fourth series.
+
+**The twenty that move:**
+
+| page | what it is | what stands in its place now |
+|---|---|---|
+| `AUDIT_REPORT.md` | the consolidation audit of 2026-05-22; its own banner says historical | the pages its banner names |
+| `docs/RECONTEXT_AUDIT_AND_MASTERPLAN_2026-07.md` | an audit and a plan of 2026-07-01; its banner says historical | `frontier/B1861_the_closure_programme/PROGRAMME.md` |
+| `docs/SESSION3_SYNTHESIS.md` | a session's handoff; its banner says historical | nothing: a dated record |
+| `docs/RECOGNITION.md` | the recognition campaign registered 2026-07-03 | nothing: a dated campaign |
+| `docs/AUDIT_2026-07-05.md` | a repository audit of that day | `docs/progress/REVIEWS.md`, for the reviews since |
+| `docs/CLOSURE_2026-07-11.md` | the two-seat closure verdict of July | `docs/CAMPAIGN_STATUS.md` |
+| `docs/CODEX_AUDIT_RESPONSE_2026-07-12.md` | a response to an outside audit of the documents | nothing: a dated record |
+| `docs/CRYSTALLIZATION_2026-07-09.md` | a seat's text with its landing status | nothing: a dated record |
+| `docs/REBASE_2026-07-12.md` | the consolidated state before one campaign | `docs/CAMPAIGN_STATUS.md` |
+| `docs/CLOSURE_PROGRAM.md` | a draft plan of 2026-07-23, with nearly the name of today's programme | `frontier/B1861_the_closure_programme/PROGRAMME.md` |
+| `docs/PHASE1_WRAP.md` | the wrap of that plan's first phase | nothing: a dated record |
+| `docs/COMMS_PROTOCOL.md` | the protocol of a room of seats that no longer exists (v1.2, 2026-08-06) | `docs/seats/README.md` |
+| `docs/ROADMAP_TOE.md` | a roadmap; its own banner says superseded on 2026-08-08 | `docs/THE_FRAMEWORK.md`, by its banner |
+| `docs/THE_PATTERN_MEDITATION.md` | a meditation of 2026-08-12 | nothing: a dated record |
+| `docs/PARAMETER_CLOSURE_MASTERPLAN.md` | a plan of 2026-08-29 | `frontier/B1861_the_closure_programme/PROGRAMME.md` |
+| `docs/PUBLICATION_CAMPAIGN.md` | the campaign of 2026-08-30 for the paper | the paper's folder, frozen after its ninth draft |
+| `docs/THE_PATTERN_MEDITATION_2.md` | a meditation of 2026-08-13 | nothing: a dated record |
+| `docs/CLOSURE_2026-07-05.md` | an entry page of 2026-07-05 | `README.md` |
+| `docs/THE_ROLES_ACCOUNTING.md` | a measurement of 2026-09-12 | nothing: a dated record |
+| `docs/SUBMISSION_CAMPAIGN.md` | the campaign of 2026-08-31 to send the paper | the paper's folder, frozen after its ninth draft |
+
+**The ten that stay in this step, each with what holds it in place:**
+
+| page | why it stays |
+|---|---|
+| `docs/LISTENING_PROTOCOL.md` | `TERMINOLOGY.md` defines it as the standing methodology gate |
+| `docs/THE_CAMPAIGN.md` | `WORKING_RULES.md` § 0 names it as binding, and two tests read the file |
+| `docs/BANKING_PROTOCOL.md` | `docs/PRACTICES.md` names it as where the banking checklist lives |
+| `ARCHITECTURE.md` | the map of the rooms and the one-way arrow; three rooms' governance pages and `docs/INDEX.md` send readers to it |
+| `docs/FRESH_EYES_2026-09.md` | a standing register with open rows, named by `docs/INDEX.md` |
+| `docs/THE_LAMBDA_POSITION.md` | `docs/WHAT_WOULD_COUNT.md` names it as the assembly of a standing position |
+| `docs/LITERATURE_GAUGE_SM_2026-07-13.md` | `docs/SM_SPECIFICATION_LEDGER.md` names it as its map of the literature |
+| `docs/THE_WITHHOLDING_TAXONOMY.md` | `docs/OPEN_LEADS.md` cites compliance with it as a design constraint |
+| `docs/STRATEGY_2026-09-05.md` | `docs/MAIN_GOAL.md` says its items 3 to 5 stay live |
+| `docs/DERIVATION_RECORD.md` | a ledger of facts and no dated account; (M1) fails |
+
+**When, and on what.** It lands after the entry of Review 80 and after your fourth series, as its own landing. Build it on main with the fourth series as you sent it. Main tests it with cases written before it reads the patch, as with a series.
+
+**What main asks you to say if you find it:** a page among the twenty that a script, a test or a gate reads at the head you build on. Main's scan was by file name at `a35fd4bce`, and yours is by path; `docs/ROADMAP_TOE.md` is named in the docstring of one checker and read by none, by main's reading.
+
+**Not in this step:** the ten above; the 33 old pages that code names; the recent pages that disagree with each other. What main's reading found for that last step is in register rows P-826 and P-827.
+
+**The fourth series** is run against main's nine sealed cases and five written after reading; its landing is held until the review is entered. You have main's findings with the landing.
+
+0 of 19.
+
 ### M11 — 2026-11-12 — one more shape for the vacuity class
 
 **From a session that planted against one of main's locks** (arc B1897; register rows P-822 and P-820): a condition made unable to fail by a clause that is not a literal and is always true. In a script's check it was `flag or len(box) > 0`, where `box` is never empty. In a test it would be `assert computed or len(xs) >= 0`. Your class works an assert out and stops at a call; this is past it, and nothing on main looks for it. Main closed the one instance by holding that condition word for word, which is a pin and not a rule. It goes with the shapes of M10, in the series where it fits.

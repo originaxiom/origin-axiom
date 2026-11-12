@@ -5198,6 +5198,30 @@
   "weave_or_thread": "n/a"
  },
  {
+  "id": "P:253",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "eight results that many synthesis pages name are absent from the paper's chain; two are named by the map or the programme, four lie beneath a named arc and two are named by nothing: each is owed its place in the map, or the reason it has none.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-253 — "
+   ]
+  ],
+  "rows": [
+   "P-253"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 95,
+  "debt_class": "added on 2026-11-12 with the owner's word of that day (P-825)",
+  "rows_live": {
+   "P-253": "QUEUED"
+  },
+  "weave_or_thread": "n/a"
+ },
+ {
   "id": "P:262",
   "layer": "15 debts",
   "kind": "debt",
@@ -6631,7 +6655,7 @@
   "arcs": [],
   "note": "",
   "rank": 81,
-  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "debt_class": "added on 2026-11-11 (S306p)",
   "rows_live": {
    "P-777": "QUEUED"
   },
@@ -6655,7 +6679,7 @@
   "arcs": [],
   "note": "",
   "rank": 82,
-  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "debt_class": "added on 2026-11-11 (S306p)",
   "rows_live": {
    "P-781": "QUEUED"
   },
@@ -6679,7 +6703,7 @@
   "arcs": [],
   "note": "",
   "rank": 83,
-  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "debt_class": "added on 2026-11-11 (S306p)",
   "rows_live": {
    "P-786": "QUEUED"
   },
@@ -6703,7 +6727,7 @@
   "arcs": [],
   "note": "",
   "rank": 84,
-  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "debt_class": "added on 2026-11-11 (S306p)",
   "rows_live": {
    "P-804": "QUEUED"
   },
@@ -6727,7 +6751,7 @@
   "arcs": [],
   "note": "",
   "rank": 85,
-  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "debt_class": "added on 2026-11-11 (S306p)",
   "rows_live": {
    "P-806": "QUEUED"
   },
@@ -6751,7 +6775,7 @@
   "arcs": [],
   "note": "",
   "rank": 86,
-  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "debt_class": "added on 2026-11-11 (S306p)",
   "rows_live": {
    "P-808": "QUEUED"
   },
@@ -6775,7 +6799,7 @@
   "arcs": [],
   "note": "",
   "rank": 87,
-  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "debt_class": "added on 2026-11-11 (S306p)",
   "rows_live": {
    "P-810": "QUEUED"
   },
@@ -6799,7 +6823,7 @@
   "arcs": [],
   "note": "",
   "rank": 88,
-  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "debt_class": "added on 2026-11-12 (S306p)",
   "rows_live": {
    "P-811": "QUEUED"
   },
@@ -6823,7 +6847,7 @@
   "arcs": [],
   "note": "",
   "rank": 89,
-  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "debt_class": "added on 2026-11-12 (S306p)",
   "rows_live": {
    "P-812": "QUEUED"
   },
@@ -6847,7 +6871,7 @@
   "arcs": [],
   "note": "",
   "rank": 90,
-  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "debt_class": "added on 2026-11-12 (S306p)",
   "rows_live": {
    "P-813": "QUEUED"
   },
@@ -6871,7 +6895,7 @@
   "arcs": [],
   "note": "",
   "rank": 91,
-  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "debt_class": "added on 2026-11-12 (S306p)",
   "rows_live": {
    "P-816": "QUEUED"
   },
@@ -6895,7 +6919,7 @@
   "arcs": [],
   "note": "",
   "rank": 92,
-  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "debt_class": "added on 2026-11-12 (S306p)",
   "rows_live": {
    "P-817": "QUEUED"
   },
@@ -6919,7 +6943,7 @@
   "arcs": [],
   "note": "",
   "rank": 93,
-  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "debt_class": "added on 2026-11-12 (S306p)",
   "rows_live": {
    "P-820": "QUEUED"
   },
@@ -6943,9 +6967,33 @@
   "arcs": [],
   "note": "",
   "rank": 94,
-  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "debt_class": "added on 2026-11-12 (S306p)",
   "rows_live": {
    "P-821": "QUEUED"
+  },
+  "weave_or_thread": "n/a"
+ },
+ {
+  "id": "P:827",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "the working rules name the ladder's campaign of August as the binding order of work, and the terminology page names a gate that compares structure and never value: each is owed a reading against the closure programme and the bar.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-827 — "
+   ]
+  ],
+  "rows": [
+   "P-827"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 96,
+  "debt_class": "added on 2026-11-12 with the owner's word of that day (P-825)",
+  "rows_live": {
+   "P-827": "QUEUED"
   },
   "weave_or_thread": "n/a"
  }

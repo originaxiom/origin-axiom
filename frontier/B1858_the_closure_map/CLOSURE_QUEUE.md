@@ -219,7 +219,7 @@
 | P-739 | QUEUED | THE TUBE'S τ BEYOND k = 1, ON MAIN |
 | P-744 | QUEUED | THE READ-OUT BY A STATE ON THE HYPERBOLIC METRIC |
 
-## The register's open debts, by class (94)
+## The register's open debts, by class (96)
 
 | class | debts | the first by load |
 |---|---|---|
@@ -231,4 +231,7 @@
 | added at S305 (the closure prepared) | 3 | P-688: the confirmation cards (P-585, P-638) cannot be sealed the day B1839 passes without the frozen-row instrument at the exact end, the PMNS card's owed c |
 | added at S306k (the web seat's open-book relay) | 1 | P-733: B1010's consolidation list cites B132's 'm = 1 uniquely coherent', computed under a same-handed convention whose m = 1 word is not LR. |
 | added at S306o (the advisor seat's audit, 2026-11-10) | 1 | P-757: the gates, seals and locks under every banked result: 24 of the audit's 27 planted violations pass undetected on main, the two it grades critical amon |
-| added at S306o (the advisor seat's second re-audit, 2026-11-10) | 16 | P-772: what the seals do not yet protect: the scripts a seal hashed, a rule under another name or one folder deeper, a rule committed after its record; a wai |
+| added at S306o (the advisor seat's second re-audit, 2026-11-10) | 2 | P-772: what the seals do not yet protect: the scripts a seal hashed, a rule under another name or one folder deeper, a rule committed after its record; a wai |
+| added on 2026-11-11 (S306p) | 7 | P-777: 342 entries of lists of hashed files under other names do not verify and are frozen as found, not read: what each list records is owed, family by fami |
+| added on 2026-11-12 (S306p) | 7 | P-811: the locks on five of the audit's corrections caught 25 of 44 errors planted against them, and the front door's lookup of one arc showed 218 proved arc |
+| added on 2026-11-12 with the owner's word of that day (P-825) | 2 | P-253: eight results that many synthesis pages name are absent from the paper's chain; two are named by the map or the programme, four lie beneath a named ar |
