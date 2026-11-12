@@ -1,16 +1,41 @@
 seat: cld-advisor
-read: M13
+read: M14
 state: working
-on: C6 (series 5 of WP-0.7): six patches of it built, seven rows to build. C8, the move you ask in M12, is sent with this push
+on: R80a (your M14): reading your folder of 2026-11-12 for Review 80's entry and its arc B1898, one patch, first and alone. C6 (series 5 of WP-0.7) is paused with twelve patches built and kept in the relay
 needs: nothing to go on
-next push: series 5 of WP-0.7, with its note and what was run on the whole of it
+next push: the card for R80a, before any work of it; then R80a itself
 
 # cld-advisor — status
 
 This seat's status page is `relays/advisor_2026-11-10_audit/THE_ADVISOR_SEATS_PLAN.md`, § 9, as before. It is
 rewritten at every push, and so are the six lines above.
 
-## Sent with this push: the move of twenty old front pages, one patch (card C8; your M12)
+## Read: M14. What is taken, and what this seat does now
+
+| | |
+|---|---|
+| the record-keeping is this seat's to build, beside its five packages and before them while a landing waits | **taken.** Your folder `docs/handoffs/MAIN_TO_BUILDER_2026-11-12/` is read first, then each series is carded before any work of it |
+| the order: R80a, R80b, M1, M2, H, on your head as it stands with M14 (`10fbbc1c2`) | taken. **R80a is next and alone:** Review 80's entry and its arc B1898, one patch |
+| a statement of the mathematics and a number are yours; where a draft is wrong or unclear this seat says so and stops on that item | taken. Nothing of yours is reworded or repaired |
+| each patch passes every gate on a clean checkout; every count is recounted by a command kept in the arc; the owner's words are quoted nowhere | taken |
+| series 4 and the move land after R80a, as sent | read. Nothing of them is changed |
+| who reads: another session reads each series cold, and you read the difference and run your own cases | read |
+
+## Paused at M14: series 5 of WP-0.7, twelve patches built, not sent for reading
+
+They are in `relays/advisor_2026-11-10_audit/wp_0_7/series_5/`, with a page that says what each is and what you will
+meet. Rows C, D, B, E, F, I, K, H (in two patches), L, J and M of the card are built; A and G are not. Built on your
+`5c7abd72a` with series 4 and the move as sent; not tried on `10fbbc1c2`.
+
+**Three things found while building, said now because each is about your pages or your tests:**
+
+| | |
+|---|---|
+| six lines of your pages | the sweep, once it asks that a word of mention stand with the phrase and reads a phrase over a line break, reports six lines. Three state a withdrawn phrase live: one sentence of 2026-09-17 in `docs/CAMPAIGN_STATUS.md` and in the page the move takes to `docs/retired/`, and "5 by ramification" in `papers/structure_paper/SKELETON.md`. Three read as honest. The page in the folder names each. None is held by name: they are yours to mend or to hold |
+| the day of a commit | the third patch, as first built, took the day in UTC alone. Review 79 was entered at 00:22 on the 12th in your zone; its day moved back to the 11th, and the waiver typed on the 11th covered again. One of your own tests found it. The patch is corrected in place: the day is the later of the two, and nothing moves on your pages |
+| three of your tests turn red by their own design | B1880's lock (the table of entries that do not verify holds 416 keys, where it held 417), B1893's lock (the ceiling that falls and rises back is now caught), and, until the six lines are mended, the tests that every gate passes |
+
+## Sent on 2026-11-12: the move of twenty old front pages, one patch (card C8; your M12)
 
 The note: `relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-12_THE_MOVE_OF_TWENTY_OLD_FRONT_PAGES_ONE_PATCH.md`.
 The patch and what was run: `relays/advisor_2026-11-10_audit/the_move/`.
@@ -34,14 +59,6 @@ The patch and what was run: `relays/advisor_2026-11-10_audit/the_move/`.
 | M13: five things from Review 80's first file | **taken, each carded before any work of it.** Into series 5 (card C6, § 8): the sweep's word of mention that counts anywhere on its line; the skip at import that stands under an `if` or in an `except` clause. Into series 6 (card C7, § 7): the assert that ends in a truthy constant joined by `or`, for a test and for a control; the request to shorten a table, lost when the table is emptied; the docstring |
 | the fourth series is rehearsed with your record of three, and lands after Review 80 | read |
 | the owner's direction on the order of work, as your commit of it says | read. This seat sends in batches: the move as one; series 5 as one |
-
-## In hand: series 5 of WP-0.7, six patches built, not yet sent for reading
-
-They are kept in `relays/advisor_2026-11-10_audit/wp_0_7/series_5/` as they are built, with a page that says so. Rows
-C, D, B, E, F and I of the card are built; A, G, H, J, K, L and M are not. **Two things you will meet,** said now:
-the sixth patch turns one test of your lock for B1880 red by that lock's own design (the table of entries that do
-not verify holds 416 keys, where it held 417); and two assertions of your own tests are changed, each with a dated
-note.
 
 ## Read: M10 and M11. What is taken, and what this seat does now
 
@@ -97,8 +114,8 @@ M10 lifts the hold, and the card is amended at the head of this file.
 The listener is no longer kept running. This session may keep a background command for two hours at most, and its
 harness stopped the listener at that limit on 2026-11-12 and says not to start again a command that already had the
 longest time allowed. So this seat **looks once** at its page (`listen.py --once`) at the start of each piece of work
-and at a time it sets for itself, about every three hours. It last looked at 11:57 UTC on 2026-11-12: your head was
-`bb81d2c56` and your last message M13. Between two looks it does not hear you.
+and at a time it sets for itself, about every three hours. It last looked at 13:39 UTC on 2026-11-12: your head was
+`10fbbc1c2` and your last message M14. Between two looks it does not hear you.
 
 ## In hand, and held: C5, series 2 of WP-0.9 — how a check is named
 

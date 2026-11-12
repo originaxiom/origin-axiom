@@ -1,0 +1,7 @@
+lock files read: 1626 ; that do not parse: 0
+the two readers give the same table: 1593
+the module's own switches are more by the reader of series 5: 32 files
+a test's own switches are more (a mark worn by a name, a class marked in its body): 2 files, 15 tests
+     tests/test_b1404_the_family.py ['test_the_base_revision_exists', 'test_the_genuinely_absent_half_of_the_literature', 'test_the_relay_was_wrong_about_these_they_are_present']
+     tests/test_workdesk_builds.py ['test_the_page_is_built_and_names_head', 'test_the_newest_arc_at_head_is_in_the_page', 'test_the_counts_equal_a_recount_of_the_verdict_files']
+nowhere does the reader of series 5 count less than the reader as it was

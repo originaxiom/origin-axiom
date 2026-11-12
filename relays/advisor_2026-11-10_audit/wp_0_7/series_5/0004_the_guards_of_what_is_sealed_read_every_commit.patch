@@ -1,35 +1,35 @@
-From 249444585c2b27c5b70d6762f2feed094aaf2dce Mon Sep 17 00:00:00 2001
+From 76003876884a46116739cda5da8f9a698a2c8178 Mon Sep 17 00:00:00 2001
 From: originaxiom <originaxiom@users.noreply.github.com>
-Date: Thu, 12 Nov 2026 09:48:14 +0000
-Subject: [PATCH 4/6] WP-0.7, enforcement (cld-advisor's series 5, patch 4;
- built on a35fd4bce with the ten patches of series 4 and the first three of
- series 5 applied): THE GUARDS OF WHAT IS SEALED READ EVERY COMMIT (Review 79,
- the second reader's row 23). Three guards hold that a sealed file, a list of
- hashed files under its usual name, and a list under any other name, does not
- change after it is added. Each read main's own line only. A branch that adds
- such a file, changes it, and is then merged shows the file on main's line as
- added, and the change was read by nothing. And the third guard read the file
- as it stood before a change as text: a list whose bytes are not text raised
- an error in place of an answer. THE MEND: the three guards share one reader
- of every commit that the head reaches and their root does not. A commit with
- one parent is read beside it, all such commits in one call, as before. A
- MERGE IS READ FOR WHAT IT CHANGES ITSELF: a path is the merge's own change
- only where its state in the merge is the state in none of its parents. What a
- merge brings from a branch was changed on that branch and is read there, so a
- change that is waived by name is not counted again at the merge; and what a
- branch from before a seal lacks is no deletion. The file as it stood is read
- as bytes. The messages are word for word what they were, and on main the
- three sentences are the same: no commit after any of the three roots stands
- on another line today. What it does not reach: a file that is added on a
- branch already changed, in one commit, is added; the guards hold what stood
- in a commit. The lock: three tests added to
- tests/test_gates_are_a_function_of_the_commit.py. On the commit before, two
- fail: a sealed file and two lists changed on a branch before the merge are
- read by nothing, and a list whose bytes are not text raises an error. The
- third holds on both sides, and is the control of the reading of merges: a
- merge that rewrites a list in its own commit is refused, and a merge that
- brings in a branch from before the seals is not. Tested against planted
- errors; computed once. 0 of 19.
+Date: Thu, 12 Nov 2026 13:12:17 +0000
+Subject: [PATCH 04/12] WP-0.7, enforcement (cld-advisor's series 5, patch 4;
+ built on 5c7abd72a with the ten patches of series 4, the move of the old
+ front pages and the first three of series 5 applied): THE GUARDS OF WHAT IS
+ SEALED READ EVERY COMMIT (Review 79, the second reader's row 23). Three
+ guards hold that a sealed file, a list of hashed files under its usual name,
+ and a list under any other name, does not change after it is added. Each read
+ main's own line only. A branch that adds such a file, changes it, and is then
+ merged shows the file on main's line as added, and the change was read by
+ nothing. And the third guard read the file as it stood before a change as
+ text: a list whose bytes are not text raised an error in place of an answer.
+ THE MEND: the three guards share one reader of every commit that the head
+ reaches and their root does not. A commit with one parent is read beside it,
+ all such commits in one call, as before. A MERGE IS READ FOR WHAT IT CHANGES
+ ITSELF: a path is the merge's own change only where its state in the merge is
+ the state in none of its parents. What a merge brings from a branch was
+ changed on that branch and is read there, so a change that is waived by name
+ is not counted again at the merge; and what a branch from before a seal lacks
+ is no deletion. The file as it stood is read as bytes. The messages are word
+ for word what they were, and on main the three sentences are the same: no
+ commit after any of the three roots stands on another line today. What it
+ does not reach: a file that is added on a branch already changed, in one
+ commit, is added; the guards hold what stood in a commit. The lock: three
+ tests added to tests/test_gates_are_a_function_of_the_commit.py. On the
+ commit before, two fail: a sealed file and two lists changed on a branch
+ before the merge are read by nothing, and a list whose bytes are not text
+ raises an error. The third holds on both sides, and is the control of the
+ reading of merges: a merge that rewrites a list in its own commit is refused,
+ and a merge that brings in a branch from before the seals is not. Tested
+ against planted errors; computed once. 0 of 19.
 
 ---
  scripts/gates/gates.py                        | 132 ++++++++++--------
@@ -37,10 +37,10 @@ Subject: [PATCH 4/6] WP-0.7, enforcement (cld-advisor's series 5, patch 4;
  2 files changed, 170 insertions(+), 57 deletions(-)
 
 diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
-index 00eadef33..426f5a818 100644
+index 4f39ba93c..27a1de24f 100644
 --- a/scripts/gates/gates.py
 +++ b/scripts/gates/gates.py
-@@ -2016,9 +2016,56 @@ SEAL_IMMUTABLE_FROM = "76a4ff388b719a15af955e6acd3b99ec676d42a0"     # the rule
+@@ -2053,9 +2053,56 @@ SEAL_IMMUTABLE_FROM = "76a4ff388b719a15af955e6acd3b99ec676d42a0"     # the rule
  SEAL_IMMUTABLE_WAIVED = {}                                             # (full sha, path) -> the owner's reason
  
  
@@ -99,7 +99,7 @@ index 00eadef33..426f5a818 100644
      def git(*a):
          return subprocess.run(["git", "-C", str(repo), *a], capture_output=True, text=True, timeout=120)
      if git("rev-parse", "--git-dir").returncode != 0:
-@@ -2027,21 +2074,10 @@ def seal_immutable_problems(repo, root, waived=(), limit=5):
+@@ -2064,21 +2111,10 @@ def seal_immutable_problems(repo, root, waived=(), limit=5):
          return [f"cannot verify: the rule's first commit {root[:9]} is not in this clone (shallow or partial)"], 0
      if git("merge-base", "--is-ancestor", root, "HEAD").returncode != 0:
          return [f"cannot verify: HEAD does not descend from the rule's first commit {root[:9]}"], 0
@@ -125,7 +125,7 @@ index 00eadef33..426f5a818 100644
  
  
  def gate_seal_immutable():
-@@ -2251,62 +2287,44 @@ def _history_guards(git, root, what):
+@@ -2288,62 +2324,44 @@ def _history_guards(git, root, what):
  
  
  def hash_lists_immutable_problems(repo, root, waived=(), limit=5):
@@ -211,10 +211,10 @@ index 00eadef33..426f5a818 100644
  
  
 diff --git a/tests/test_gates_are_a_function_of_the_commit.py b/tests/test_gates_are_a_function_of_the_commit.py
-index 887ecaff1..95caf8759 100644
+index b70c8caa0..6a2b2b1ae 100644
 --- a/tests/test_gates_are_a_function_of_the_commit.py
 +++ b/tests/test_gates_are_a_function_of_the_commit.py
-@@ -793,3 +793,98 @@ def test_a_commit_dated_before_any_of_its_parents_is_refused_wherever_it_stands(
+@@ -820,3 +820,98 @@ def test_a_commit_dated_before_any_of_its_parents_is_refused_wherever_it_stands(
      merged = merge("late", t0 + 600)
      bad = g.commit_day_problems(repo, root, limit=9)
      assert any(merged[:9] in b and late[:9] in b for b in bad), "a merge was dated before the branch it merges, and the guard reads: %r" % (bad,)

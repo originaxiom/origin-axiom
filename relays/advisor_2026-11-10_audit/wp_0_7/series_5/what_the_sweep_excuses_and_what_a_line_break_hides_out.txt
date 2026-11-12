@@ -1,0 +1,45 @@
+phrases swept: 46
+excused by a word in the phrase's own cell or sentence: 50
+excused by a word elsewhere on the line: 11 in 7 files
+
+  docs/CAMPAIGN_STATUS.md:751  [failed once under the load of a 146-file run]  cue: 'withdraw'
+     **LATEST (2026-09-17, S19 THE REFEREE'S DEFECTS, EVERY ONE VERIFIED AND FIXED: an outside referee re-derived about fifty claims on a clean machine using none of this repository's code, found everything checkable correct, and found five defects -- the worst being that the SHIPPED VERIFICATION PACKAGE COULD NOT PASS ON A CLEAN CHECKOUT, because the census evidence four locks read by name was excluded by a blanket gitignore rule, and those are the locks for the one row of this paper that had to be withdrawn; and the p
+
+  docs/CAMPAIGN_STATUS.md:933  [83 of 83]  cue: 'orientation-blind'
+     orientation-blind** — this repo's own REPRODUCIBILITY.md:73 says so — and B1181's "83 of 83", B1186's census field
+
+  docs/CAMPAIGN_STATUS.md:3639  [the generation count is forced at three]  cue: 'REFUTED'
+     > **THE RIGID GEOMETRY IS REAL — AND IT IS NOT A GENERATION COUNT (B1253, 2026-09-05; this arc's own headline REFUTED).** Asked to reflect the session into the repo so nothing misleads, the sweep caught **this seat's own claim from twenty minutes earlier**. Draft: *"the generation count is forced at three."* **Dead:** `docs/OPEN_PROBLEMS.md` §C closed the multiplicity→count route on **2026-08-30** via **B324** (the candidates were g-conjugates sharing one character), and **all 15 sixteen-blocks here lie in a SINGLE
+
+  docs/THE_WEAVE.md:508  [explains W72's rank 3]  cue: 'withdraw'
+     - This explains W72's rank 3 (an overlap) against B1649's zero (a point). *(Audited 2026-10-15, B1655: withdrawn by B1653's own S129 correction — W72's lift is the two-point mechanism carried in τ, not a fibre profile, and where R is a matter mode the τ-integral cannot lift the zero.)* C begins at the Higgs's profile (P-151).
+
+  docs/retired/SUBMISSION_CAMPAIGN.md:214  [failed once under the load of a 146-file run]  cue: 'withdraw'
+     Relayed 2026-09-17. The referee's method is the one this project asks for: about fifty quantitative claims re-derived from the manuscript's prose on a clean machine, with no code or data from here. Everything checkable came out correct -- the census counts cell by cell including the tie list, 66 of 87 covers chiral by two orientation-aware tests, the content census to two contents and four rays, the square-root uniqueness with twelve controls, Koide at 0.89 sigma, the volume as an L-value to sixty decimal places wh
+
+  frontier/B948_relay_ssb_sweep/FINDINGS.md:11  [measurement = the β=1 SSB]  cue: 'retract'
+     "measurement = the β=1 SSB" — **retracted by L113/B942 and later refuted by B957** —
+
+  frontier/B962_vev_scout/FINDINGS.md:10  [stops one step short]  cue: 'scope error'
+     > 1. **"the 27-VEV route provably stops one step short"** — a **scope error**. True only for
+
+  frontier/B962_vev_scout/FINDINGS.md:13  [the object does not supply a VEV]  cue: 'false'
+     > 2. **"the object does not supply a VEV"** — **false**. An adjoint VEV's unbroken group *is*
+
+  frontier/B962_vev_scout/FINDINGS.md:59  [stops one step short]  cue: 'scope error'
+     written this said "the VEV route provably stops one step short" — a **scope error retracted
+
+  papers/P3_THE_PAPER/SPEC.md:306  [83 of 83]  cue: 'WITHDRAW'
+     obstruction holds **83 of 83** family-wide *[2026-09-02, B1235: WITHDRAWN — the family is 38/112 amphichiral by the proper test; the mirror-isometry count was orientation-blind. The family-wide clause must be rebuilt on the 38; m004's own theorem stands]*; *"exhaustive"* is now **quantified** ($16\times22$,
+
+  tests/test_b1655_main_audits_its_negatives.py:74  [zero modes give no flavour structure by themselves. Their re]  cue: 'retract'
+     "zero modes give no flavour structure by themselves. Their residue coupling"):  # retracted phrases, quoted to lock or bracket them
+
+in the flattened file and on no single line: 7
+  docs/STRUCTURE_TO_NATURE_MASTERPLAN.md  [5 by ramification]
+  docs/THEOREM_LEDGER.md  [5 by ramification]
+  docs/THE_WEAVE.md  [every mass spectrum, under every tensor and weight, is one value apart and two equal]
+  frontier/B1423_the_door_and_the_gates/FINDINGS.md  [the generation count is forced at three]
+  frontier/B1640_the_frame_audit/FINDINGS.md  [every coupling is degenerate at ω]
+  outside_bench/memos/CLOCKS_INVENTORY.md  [measurement = the β=1 SSB]
+  papers/structure_paper/SKELETON.md  [5 by ramification]

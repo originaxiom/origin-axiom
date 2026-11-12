@@ -1,0 +1,203 @@
+From 38186a694d7500496f5734c1cf0a296b40e6e354 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 13:32:58 +0000
+Subject: [PATCH 11/12] WP-0.7, enforcement (cld-advisor's series 5, patch 11;
+ built on 5c7abd72a with the ten patches of series 4, the move of the old
+ front pages and the first ten of series 5 applied): A WITHDRAWN PHRASE IS
+ READ ACROSS A LINE BREAK (main's unseen case U17.b for series 3; its B1896,
+ register row P-820). The sweep chose its phrases from the file flattened
+ whole, where a line break is a space, and then looked for each of them line
+ by line. A phrase broken over two lines was among the phrases looked for and
+ was found on neither line. THE MEND: a phrase is read across a line break
+ inside a block of text: consecutive lines that are not empty and are not rows
+ of a table. At the start of a line the marker that continues a comment or a
+ quotation is passed over, so a phrase broken over two lines of a comment in a
+ script, or of a quoted paragraph, is read as well. Such a phrase is a mention
+ where a word of mention stands on one of the lines the phrase stands on,
+ within the same 200 characters. It is reported at the line on which it
+ begins. ON MAIN'S 5c7abd72a eight registered phrases stand over a line break.
+ Four stand with a word of mention on their lines and are mentions, as a
+ reader takes them. FOUR TURN RED, AND THEY ARE MAIN'S TO MEND OR TO HOLD.
+ papers/structure_paper/SKELETON.md, line 289: '5 by ramification', stated
+ live in the skeleton of a paper; the registry withdrew it on 2026-08-18.
+ docs/OPEN_LEADS.md, line 1017: 'stops one step short', said of 27 VEVs, which
+ is the scope the registry leaves standing; the sentence does not carry the
+ words the sweep knows that scope by. docs/THE_WEAVE.md, line 292: the
+ sentence of B1630 on every mass spectrum, with its note of scope two lines
+ below it. frontier/B1640_the_frame_audit/FINDINGS.md, line 29: the audit that
+ corrected a sentence of B1635 quotes that sentence. The first reads to this
+ seat as a live use and the other three as honest; it judges none of them, and
+ none is held by name in this patch. With the two lines of the tenth patch,
+ six lines of main's are red on the series until main mends or holds them. The
+ sweep takes 6 seconds on this machine where it took 5.5 before this series.
+ WHAT IT DOES NOT REACH: a phrase broken by a hyphen at the end of a line, or
+ by markup that stands inside it; a phrase split between two items of a list,
+ or by an empty line. The lock: one test added to
+ tests/test_a_gate_reads_all_it_is_about.py. On the commit before it fails:
+ the phrase broken over two lines passes the sweep. Tested against planted
+ errors; reproduced, main's case; computed once. 0 of 19.
+
+---
+ scripts/checks/retraction_sweep.py         | 84 +++++++++++++++++++---
+ tests/test_a_gate_reads_all_it_is_about.py | 25 +++++++
+ 2 files changed, 101 insertions(+), 8 deletions(-)
+
+diff --git a/scripts/checks/retraction_sweep.py b/scripts/checks/retraction_sweep.py
+index 1049c2f60..29984909a 100644
+--- a/scripts/checks/retraction_sweep.py
++++ b/scripts/checks/retraction_sweep.py
+@@ -261,7 +261,16 @@ STANDS_AS_FOUND = {        # (file, phrase) -> what the instance is
+ # a table, each with the word in its own cell; of the other 41, 39 have it within 150 characters, and two have it 776
+ # characters away.  Those two are one sentence in two pages, and it states the withdrawn reading live.  The sweep reports
+ # them from this patch on, and they are main's to mend.
++#
++# WHAT A LINE BREAK HID (series 5; main's unseen case U17.b for series 3).  The phrases were chosen from the file flattened
++# whole and then looked for line by line, so a phrase broken over two lines was found on neither.  A phrase is now read
++# across a line break inside a block of text: consecutive lines that are not empty and are not rows of a table.  At the
++# start of a line the marker that continues a comment or a quotation is passed over.  Such a phrase is a mention where the
++# word stands on one of the lines the phrase stands on, within the same distance.  It is reported at the line on which it
++# begins.  On main's 5c7abd72a four phrases stood so, each with no such word, and the sweep reports them from this patch on.
+ MENTION_WITHIN = 200
++_LEAD = re.compile(r"^[ \t]*(?:#+|>+|%+|//+|\*+(?=\s))[ \t]*")           # '# ', '> ', '% ', '// ', ' * ' at the start of a line
++_GAP = r" (?:(?:#+|>+|%+|//+|\*+(?= )) ?)*"                              # between two words of a flattened file: a space, and such markers
+ 
+ 
+ def _cues_on(line, flat):
+@@ -284,9 +293,52 @@ def _with_a_mention(flat, start, end, cues, row):
+     return bool(cues) if row else any(max(0, cs - end, start - ce) <= MENTION_WITHIN for cs, ce in cues)
+ 
+ 
++def _over_a_line_break(lines, flats, live):
++    """(the line it begins on, the phrase) for every phrase of `live` that stands over a line break and with no word of
++    mention.  `lines` are the file's lines as written, `flats` the same lines flattened."""
++    out, block = [], []
++
++    def read(block):
++        if len(block) < 2:
++            return
++        pieces, starts, at = [], [], 0
++        for n, line in block:
++            piece = _LEAD.sub("", flats[n - 1].strip())
++            starts.append(at)
++            pieces.append(piece)
++            at += len(piece) + 1
++        text = " ".join(pieces)
++        for phrase, rx in live:
++            for m in rx.finditer(text):
++                first = max(i for i, s0 in enumerate(starts) if s0 <= m.start())
++                last = max(i for i, s0 in enumerate(starts) if s0 <= m.end() - 1)
++                if first == last:
++                    continue                                          # on one line: read there
++                a, b = starts[first], starts[last] + len(pieces[last])
++                cues = [(a + cs, a + ce) for cs, ce in ((c.start(), c.end()) for c in MENTION_CUES.finditer(text[a:b]))]
++                for i in range(first, last + 1):
++                    raw = block[i][1]
++                    if "~~" in raw:
++                        cues += [(starts[i] + k, starts[i] + k) for k in (len(_LEAD.sub("", _flatten(raw[:x.start()]).strip())) for x in re.finditer("~~", raw))]
++                if not _with_a_mention(text, m.start(), m.end(), cues, False):
++                    out.append((block[first][0], phrase))
++
++    for n, line in enumerate(lines, 1):
++        if not line.strip() or line.lstrip().startswith("|"):
++            read(block)
++            block = []
++        else:
++            block.append((n, line))
++    read(block)
++    return out
++
++
+ def sweep_all():
+     """(the live uses of a registered phrase that nothing allows, the standing instances that were met)"""
+-    phrases = [(p, re.compile(re.escape(p), re.I)) for p in _phrases()]
++    phrases = [(p, re.compile(re.escape(p), re.I), p.lower(), sorted(set(p.lower().split()), key=len, reverse=True)) for p in _phrases()]
++    # with each phrase: its longest word, its words, and the phrase as it reads where a marker stands between two of its words
++    phrases = [(p, rx, low, words[0] if words else low, words, re.compile(_GAP.join(re.escape(w) for w in low.split())))
++               for p, rx, low, words in phrases]
+     violations, met = [], set()
+     if not phrases:
+         return violations, met
+@@ -304,21 +356,37 @@ def sweep_all():
+         # and keep only the phrases whose text appears in it at all. Before this the sweep ran every
+         # phrase's regex against every line of every tracked file and took minutes once the executables
+         # were included -- and a gate slow enough to skip is a gate that gets skipped.
++        # (Series 5: a phrase broken over two lines of a comment or a quotation is not in the flattened file, where the
++        # marker at the start of the second line stands in its middle.  Where every word of a phrase is in the file and
++        # the phrase is not, it is looked for once more as it reads with such a marker between two of its words.  That
++        # can only add a phrase to those looked for: where each stands is read from the lines.)
+         flat_body = _flatten(body).lower()
+-        live = [(phrase, rx) for phrase, rx in phrases if phrase.lower() in flat_body]
+-        if not live:
++        near = [x for x in phrases if x[3] in flat_body]                # the longest word of the phrase is in the file
++        if not near:
++            continue
++        live = [(phrase, rx, low) for phrase, rx, low, _longest, _words, _loose in near if low in flat_body]
++        broken = [(phrase, rx, low) for phrase, rx, low, _longest, words, loose in near
++                  if low not in flat_body and all(w in flat_body for w in words) and loose.search(flat_body)]
++        if not live and not broken:
+             continue
+-        found = []                                                    # (line, phrase), in the order they stand
+-        for n, line in enumerate(body.split("\n"), 1):
+-            flat = _flatten(line)
+-            hits = [(phrase, m) for phrase, rx in live for m in rx.finditer(flat)]
++        lines = body.split("\n")
++        flats = [_flatten(line) for line in lines]
++        found, on_a_line = [], {}                                     # (line, phrase), in the order they stand; phrase -> how often on one line
++        for n, line in enumerate(lines, 1):
++            flat = flats[n - 1]
++            hits = [(phrase, m) for phrase, rx, _low in live for m in rx.finditer(flat)]
+             if not hits:
+                 continue
+             cues, row = _cues_on(line, flat), line.lstrip().startswith("|")
+             for phrase, m in hits:
++                on_a_line[phrase] = on_a_line.get(phrase, 0) + 1
+                 if not _with_a_mention(flat, m.start(), m.end(), cues, row) and (n, phrase) not in found:
+                     found.append((n, phrase))
+-        for n, phrase in found:
++        # a phrase that stands in the flattened file more often than on single lines stands somewhere over a line break
++        over = [(phrase, rx) for phrase, rx, low in live if flat_body.count(low) > on_a_line.get(phrase, 0)] + [(phrase, rx) for phrase, rx, _low in broken]
++        if over:
++            found += [f for f in _over_a_line_break(lines, flats, over) if f not in found]
++        for n, phrase in sorted(found, key=lambda f: f[0]):
+             if (rel, phrase) in STANDS_AS_FOUND:
+                 met.add((rel, phrase))
+             else:
+diff --git a/tests/test_a_gate_reads_all_it_is_about.py b/tests/test_a_gate_reads_all_it_is_about.py
+index b54c856f0..bfeabba0b 100644
+--- a/tests/test_a_gate_reads_all_it_is_about.py
++++ b/tests/test_a_gate_reads_all_it_is_about.py
+@@ -470,6 +470,31 @@ def test_a_word_of_mention_far_from_the_phrase_does_not_excuse_it(tmp_path):
+         assert ok is True, (name, detail)
+ 
+ 
++# ---- series 5: a withdrawn phrase is read across a line break (main's unseen case U17.b for series 3) -----------------
++# The sweep chose its phrases from the file flattened whole and then looked for them line by line: a phrase broken over
++# two lines was found on neither.
++def test_a_withdrawn_phrase_broken_over_lines_is_found(tmp_path):
++    """U17.b: the phrase with a line break in its middle"""
++    for name, text in (("two", "We find that the lamp is\nalways green, as before.\n"),
++                       ("three", "We find that the lamp\nis always\ngreen, as before.\n"),
++                       ("indented", "- we find that the lamp is\n  always green, as before\n"),
++                       ("quoted", "> We find that the lamp is\n> always green, as before.\n")):
++        repo = _sweep_repo(tmp_path, name, _REG_HEAD, {"docs/PAGE.md": "# A page\n\n" + text})
++        ok, detail = _gate(repo, "retraction-sweep")
++        assert ok is False, "a withdrawn phrase broken over lines (%s) passed the sweep: %s" % (name, detail)
++        assert "docs/PAGE.md:3" in detail, detail                                   # reported at the line on which it begins
++    repo = _sweep_repo(tmp_path, "code", _REG_HEAD, {"tools/a_script.py": "X = 1\n# we find that the lamp is always\n# green, as before\n"})
++    ok, detail = _gate(repo, "retraction-sweep")
++    assert ok is False and "tools/a_script.py:2" in detail, "the phrase broken over two lines of a comment passed the sweep: " + detail
++    # the twins: a mention broken over lines; and two paragraphs that only read as the phrase when the page is flattened whole
++    for name, text in (("mention", "It was formerly said that the lamp is\nalways green, and it is not.\n"),
++                       ("paragraphs", "We lit the lamp is\n\nalways green was the paint.\n"),
++                       ("rows", "| a | b |\n|---|---|\n| the lamp is |\n| always green |\n")):
++        repo = _sweep_repo(tmp_path, name, _REG_HEAD, {"docs/PAGE.md": "# A page\n\n" + text})
++        ok, detail = _gate(repo, "retraction-sweep")
++        assert ok is True, (name, detail)
++
++
+ # ---- PV16: the controls gate checked that a control's name is defined, and nothing of the control ----------------------
+ _CONTROL_OK = ("def test_the_gate_fails_on_a_planted_case():\n    answers = sorted([False, True])\n    assert answers[0] is False\n")
+ 
+-- 
+2.43.0
+

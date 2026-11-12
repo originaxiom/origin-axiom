@@ -1,39 +1,39 @@
-From 3a995c3edecd3135bbef8b30e87e008a7ad72836 Mon Sep 17 00:00:00 2001
+From cad4a60d9ec119dfadab3562288921ac945534c0 Mon Sep 17 00:00:00 2001
 From: originaxiom <originaxiom@users.noreply.github.com>
-Date: Thu, 12 Nov 2026 09:34:53 +0000
-Subject: [PATCH 2/6] WP-0.7, enforcement (cld-advisor's series 5, patch 2;
- built on a35fd4bce with the ten patches of series 4 and the first patch of
- series 5 applied): A SEAT'S BRANCH IS FOUND BY A NAME THAT FITS ONE BRANCH,
- AND A HARVEST GATE THAT COULD READ NO BRANCH FAILS AND SAYS SO (Review 79,
- the second reader's row 22; main's word in M10; and what the seat found on
- the way to the failure of M10). Four things. ONE: the checker found a seat's
- branch by the last part of its name and, of two that fit, took the shorter
- without a word, so a second seat's branch of the same last name would have
- been read in place of the first. A name that fits more than one branch is now
- refused, and the branches that fit are named. TWO: where a seat has no pin in
- the ledger's table, or its pin does not resolve in the clone, its entry was
- left with neither a head nor a reason, and the report raised an error of a
- missing key in place of the checker's own line. The seat is now given its
- reason and the report prints it. THREE: in a clone that holds no seat's
- branch the checker reads none, finds nothing wrong among none and ends with
- status 0, and the gate said that no seat's branch is past its pin. The gate
- is now refused there with its reason, as it is on a shallow clone: that is
- main's word, and the stricter option. FOUR: a failing checker's reason stood
- after one line for each seat, and the gate's answer was cut before it; the
- reason now comes first. And where the gate read some branches and not others
- it passes, and its sentence counts those it did not read and names the first
- three: a gate says what it did not read. Where every branch is read the
- sentence is word for word the one main's own test holds. On this clone the
- sentence now ends: 1 seat(s) not read in this clone, the one whose remote is
- not configured here. What it does not reach: a branch that is in the clone
- and is not the seat's; a clone that holds an old copy of a seat's branch
- reads that copy. The lock: four tests added to
- tests/test_gates_are_a_function_of_the_commit.py, each on a small repository
- with a remote of its own. On the commit before, all four fail: a name that
- fits two branches ends with status 0; a pin that does not resolve raises the
- error of a missing key; a clone with no seat's branch passes; and the
- sentence counts nothing it did not read. Tested against planted errors, 4 of
- 4; computed once. 0 of 19.
+Date: Thu, 12 Nov 2026 13:12:17 +0000
+Subject: [PATCH 02/12] WP-0.7, enforcement (cld-advisor's series 5, patch 2;
+ built on 5c7abd72a with the ten patches of series 4, the move of the old
+ front pages and the first patch of series 5 applied): A SEAT'S BRANCH IS
+ FOUND BY A NAME THAT FITS ONE BRANCH, AND A HARVEST GATE THAT COULD READ NO
+ BRANCH FAILS AND SAYS SO (Review 79, the second reader's row 22; main's word
+ in M10; and what the seat found on the way to the failure of M10). Four
+ things. ONE: the checker found a seat's branch by the last part of its name
+ and, of two that fit, took the shorter without a word, so a second seat's
+ branch of the same last name would have been read in place of the first. A
+ name that fits more than one branch is now refused, and the branches that fit
+ are named. TWO: where a seat has no pin in the ledger's table, or its pin
+ does not resolve in the clone, its entry was left with neither a head nor a
+ reason, and the report raised an error of a missing key in place of the
+ checker's own line. The seat is now given its reason and the report prints
+ it. THREE: in a clone that holds no seat's branch the checker reads none,
+ finds nothing wrong among none and ends with status 0, and the gate said that
+ no seat's branch is past its pin. The gate is now refused there with its
+ reason, as it is on a shallow clone: that is main's word, and the stricter
+ option. FOUR: a failing checker's reason stood after one line for each seat,
+ and the gate's answer was cut before it; the reason now comes first. And
+ where the gate read some branches and not others it passes, and its sentence
+ counts those it did not read and names the first three: a gate says what it
+ did not read. Where every branch is read the sentence is word for word the
+ one main's own test holds. On this clone the sentence now ends: 1 seat(s) not
+ read in this clone, the one whose remote is not configured here. What it does
+ not reach: a branch that is in the clone and is not the seat's; a clone that
+ holds an old copy of a seat's branch reads that copy. The lock: four tests
+ added to tests/test_gates_are_a_function_of_the_commit.py, each on a small
+ repository with a remote of its own. On the commit before, all four fail: a
+ name that fits two branches ends with status 0; a pin that does not resolve
+ raises the error of a missing key; a clone with no seat's branch passes; and
+ the sentence counts nothing it did not read. Tested against planted errors, 4
+ of 4; computed once. 0 of 19.
 
 ---
  scripts/checks/harvest_debt.py                | 32 ++++++++--
@@ -113,10 +113,10 @@ index 7dc35b8a8..5af4b75eb 100644
                f"NEW unrowed {len(s['new_unrowed'])} rowed {len(s['new_rowed'])} | backlog {len(s['backlog'])} | stale {len(s['stale_rows'])} | "
                f"relays unrowed {len(s['relays_unrowed'])}/{s['relays_on_branch']} (named on main without a row: {len(s.get('relays_unrowed_named_on_main', []))}) | scheduled rows {s.get('scheduled_rows', 0)}"
 diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
-index d03e23fd9..746e0df77 100644
+index 2c4e2217a..87f88fc38 100644
 --- a/scripts/gates/gates.py
 +++ b/scripts/gates/gates.py
-@@ -2661,9 +2661,34 @@ def gate_retraction_debt():
+@@ -2684,9 +2684,34 @@ def gate_retraction_debt():
  def gate_harvest_debt():
      """B1307 -- every seat branch is READ within 21 days of a push; the harvest ledger is reconciled against each seat's own index
      (MASTERPLAN v3.1 section 1a rule 3). Plain mode = instrument integrity + ageing; `review-due` runs it --strict."""
@@ -153,7 +153,7 @@ index d03e23fd9..746e0df77 100644
      # A seat whose branch has moved past its pin is not a failure for 21 days, and the gate said a bare "ok" meanwhile: on
      # 2026-11-11 the advisor seat's third re-audit sat fetched and unread for eight hours while main landed twice (B1880).  The
      # sentence now names every seat past its pin, and the runner prints it at every push.
-@@ -2671,12 +2696,17 @@ def gate_harvest_debt():
+@@ -2694,12 +2719,17 @@ def gate_harvest_debt():
  
  
  def harvest_sentence(tool_output):

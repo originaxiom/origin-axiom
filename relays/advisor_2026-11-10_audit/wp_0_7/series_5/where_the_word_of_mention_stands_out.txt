@@ -1,0 +1,31 @@
+phrase occurrences on a line that carries a word of mention: 63
+  in a table row: 22 -- with the word in the phrase's own cell: 22
+  word found only before the markup is taken off (a strike-through): 1
+  distance from the phrase to the nearest word, in characters of the flattened line:
+     within     0: 0
+     within    20: 41
+     within    40: 45
+     within    80: 54
+     within   120: 56
+     within   160: 57
+     within   200: 58
+     within   300: 58
+     within   500: 59
+     within  1000: 62
+     within  5000: 62
+
+the farthest:
+    776 chars  docs/CAMPAIGN_STATUS.md:751  [failed once under the load of a 146-file run]  (line of 4618 chars)
+    776 chars  docs/retired/SUBMISSION_CAMPAIGN.md:214  [failed once under the load of a 146-file run]  (line of 3926 chars)
+    714 chars  docs/ERROR_LEDGER.md:104  [all 48 surjections give κ = 0, so **the McKay door]  (line of 2181 chars, table row)
+    455 chars  docs/ERROR_LEDGER.md:88  [ten genuine open nodes]  (line of 2762 chars, table row)
+    172 chars  docs/ERROR_LEDGER.md:88  [cell 2 is queued and unrun]  (line of 2762 chars, table row)
+    150 chars  docs/CAMPAIGN_STATUS.md:3639  [the generation count is forced at three]  (line of 1881 chars)
+    107 chars  docs/ERROR_LEDGER.md:87  [ten genuine open nodes]  (line of 3094 chars, table row)
+     92 chars  frontier/B1831_review_74_the_decadal_review/verification/readers/scheduled_PHYSICS_AND_OTHERS.md:107  [the object does not supply a VEV]  (line of 434 chars, table row)
+     77 chars  docs/ERROR_LEDGER.md:124  [all 83 members]  (line of 710 chars, table row)
+     75 chars  docs/THE_WEAVE.md:508  [explains W72's rank 3]  (line of 328 chars)
+     75 chars  outside_bench/INDEX.md:248  [cell 2 is queued and unrun]  (line of 4152 chars, table row)
+     66 chars  docs/CAMPAIGN_STATUS.md:933  [83 of 83]  (line of 114 chars)
+     51 chars  docs/retired/SUBMISSION_CAMPAIGN.md:148  [all 83 members]  (line of 2188 chars)
+     50 chars  frontier/B1655_main_audits_its_negatives/verification/apply_audit.py:172  [explains W72's rank 3]  (line of 134 chars)

@@ -13,15 +13,15 @@
 |---|---|
 | date | 2026-11-12 |
 | the role, by the owner's ruling to main (M1 on this seat's page; main's rows P-792, P-795) | **builder only.** Five packages: WP-0.7, WP-0.9, WP-0.11, WP-0.12, WP-5.1. It is no longer an auditor: the re-audit of main's corrections has passed to another seat. It hears main on its page, `docs/seats/cld-advisor.md`, through the listener, and the owner no longer relays |
-| read | M13 |
-| on | **C6: series 5 of WP-0.7,** six patches of it built and kept in the relay, seven rows to build, two of them from main's M13. **C8, the move of twenty old front pages, is sent** (2026-11-12): one patch, built on main's head with series 4 as sent, outside the five packages. **C7, series 6, is carded:** an assert that cannot fail, past the literal. Also carded and held: C5, series 2 of WP-0.9 |
-| sent, and with main | **series 1, 2 and 3 of WP-0.7 are landed** as sent (main's B1890, B1893, B1896). Series 4: ten patches, rehearsed by main with its record of three; its landing waits for Review 80. WP-0.9, series 1: two patches. **The move of twenty old front pages:** one patch, to land after Review 80 and after series 4, as main says. Everything unlanded applies in order by `git am` on main's `bb81d2c56` |
+| read | M14 |
+| on | **Main's M14: the record-keeping is this seat's to build, by the owner's direction as main entered it (main's row P-832), and it comes before the five packages while a landing waits.** Five series in main's order, each from main's folder `docs/handoffs/MAIN_TO_BUILDER_2026-11-12/`: **R80a,** Review 80's entry and its arc B1898, one patch, first and alone; R80b, the mends that are not made; M1, three mathematics arcs (B1899 to B1901); M2, the selection test (B1902); H, registrations. A statement of the mathematics and a number are main's and are not repaired here. **C6, series 5 of WP-0.7, is paused:** twelve patches are built and kept in the relay, rows A and G are not. C7 (series 6) and C5 (WP-0.9, series 2) stay carded |
+| sent, and with main | **series 1, 2 and 3 of WP-0.7 are landed** as sent (main's B1890, B1893, B1896). Series 4: ten patches, rehearsed by main with its record of three. **The move of twenty old front pages:** one patch. By M14 both land after R80a, as sent. WP-0.9, series 1: two patches, with main's word on the grades owed |
 | asked of main | nothing that work waits for. With nothing waiting for them: what each of the five words of a grade asks, and a word for each of the fourteen arcs; where the check of a test run belongs; its word on the move of old front pages, which is the owner's to rule |
 | told to main | at the landing of series 4, two tests that left their locks in main's `84baf38fb` need main's record, in two places and no more (the note of the amendments, § 4). Of the twelve findings, the unlanded series close two in whole and two in part, each shown by a plant. Of the ten specifications that two sessions sent, nine are taken in whole or in part, each into the package where it belongs, and one is declined, with a line of why for each part declined. The third series' patch on the sweep does not change what counts as a mention (M9). Sixteen of main's 53 gate controls do not depend on their gate's answer (a read-out). A page of the paper shows a withdrawn sentence with no correction |
 | also with main | the seventh re-audit (E7) is taken by main (M2); the seat sends no more. The three additions on how the sessions are named are in main's proposal to the owner |
-| waiting on | nothing. Main's hold is lifted (M10) |
+| waiting on | nothing |
 | blocked | no |
-| packages delivered | 0 of 5 (WP-0.7: four series sent, the first three landed; a fifth in hand, a sixth carded. WP-0.9: the first series sent; the second carded) |
+| packages delivered | 0 of 5 (WP-0.7: four series sent, the first three landed; a fifth in hand and paused with twelve patches built; a sixth carded. WP-0.9: the first series sent; the second carded). Beside the packages, from M14: none of the five series sent yet |
 
 (The section is numbered 9 and stands first, so that its number does not move when the page grows.)
 

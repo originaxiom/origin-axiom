@@ -1,34 +1,35 @@
-From c35908fcb84694086ab4b7f6ceb9f1ff8ad9fe10 Mon Sep 17 00:00:00 2001
+From 86195e41d0a32e63a57fcb7e85eca2fa6fed0f1e Mon Sep 17 00:00:00 2001
 From: originaxiom <originaxiom@users.noreply.github.com>
-Date: Thu, 12 Nov 2026 09:30:07 +0000
-Subject: [PATCH 1/6] WP-0.7, enforcement (cld-advisor's series 5, patch 1;
- built on a35fd4bce with the ten patches of series 4 applied): A DEBT CHECKER
- READS NO CLOCK, AND NO ZONE OF THE MACHINE (Review 79, the second reader's
- row 20, its second and third parts; the failure main saw once, M10). The
- harvest checker timed its own run and printed the time at the end of its
- first line. When the checker fails, its gate gives that line back as its
- answer, so a failing harvest gate gave another answer at every run. A test of
- the first series' lock asks each debt gate three times and compares; it
- failed once on main's machine and said the day had moved the gate. It was the
- duration: reproduced by the seat, ten failures of ten where the harvest gate
- fails, none where it passes, with worktrees added and removed or without. And
- the checker turned a commit's time into a day in the zone of the machine it
- runs on, so a seat's item could be aged on one machine and not on another, on
- the same commit. THE MEND: the run is not timed, and no line of the report
- carries a duration; a commit's time is turned into a day in UTC. The lock's
- test that no gate and no checker reads the wall clock now refuses a duration
- too, and a call that makes a date of a time without naming its zone; until
- now it let a duration be timed, with a dated note of why that changes. The
- test of the day asks once more with the first day, and says so where a gate
- gives two answers with the day unchanged. What it does not reach: the passing
- sentence of the harvest gate names how far each seat's branch is past its pin
- in the clone, and a fetch between two runs moves it; that is the clone and
- not the commit, and is as it was. The lock: three tests added to
- tests/test_gates_are_a_function_of_the_commit.py. On the commit before, two
- fail: the checker's line ends with how long it ran, and a note made at half
- past eleven at night is aged where the machine's zone is behind and not where
- it is ahead. The third reads this repository and passes wherever no debt gate
- fails. Tested against planted errors; reproduced; computed once. 0 of 19.
+Date: Thu, 12 Nov 2026 13:12:17 +0000
+Subject: [PATCH 01/12] WP-0.7, enforcement (cld-advisor's series 5, patch 1;
+ built on 5c7abd72a with the ten patches of series 4 and the move of the old
+ front pages applied): A DEBT CHECKER READS NO CLOCK, AND NO ZONE OF THE
+ MACHINE (Review 79, the second reader's row 20, its second and third parts;
+ the failure main saw once, M10). The harvest checker timed its own run and
+ printed the time at the end of its first line. When the checker fails, its
+ gate gives that line back as its answer, so a failing harvest gate gave
+ another answer at every run. A test of the first series' lock asks each debt
+ gate three times and compares; it failed once on main's machine and said the
+ day had moved the gate. It was the duration: reproduced by the seat, ten
+ failures of ten where the harvest gate fails, none where it passes, with
+ worktrees added and removed or without. And the checker turned a commit's
+ time into a day in the zone of the machine it runs on, so a seat's item could
+ be aged on one machine and not on another, on the same commit. THE MEND: the
+ run is not timed, and no line of the report carries a duration; a commit's
+ time is turned into a day in UTC. The lock's test that no gate and no checker
+ reads the wall clock now refuses a duration too, and a call that makes a date
+ of a time without naming its zone; until now it let a duration be timed, with
+ a dated note of why that changes. The test of the day asks once more with the
+ first day, and says so where a gate gives two answers with the day unchanged.
+ What it does not reach: the passing sentence of the harvest gate names how
+ far each seat's branch is past its pin in the clone, and a fetch between two
+ runs moves it; that is the clone and not the commit, and is as it was. The
+ lock: three tests added to tests/test_gates_are_a_function_of_the_commit.py.
+ On the commit before, two fail: the checker's line ends with how long it ran,
+ and a note made at half past eleven at night is aged where the machine's zone
+ is behind and not where it is ahead. The third reads this repository and
+ passes wherever no debt gate fails. Tested against planted errors;
+ reproduced; computed once. 0 of 19.
 
 ---
  scripts/checks/harvest_debt.py                |  11 +-

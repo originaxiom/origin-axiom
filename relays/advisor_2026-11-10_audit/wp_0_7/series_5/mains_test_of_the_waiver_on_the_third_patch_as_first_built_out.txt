@@ -1,0 +1,7 @@
+E   assert True is False
+E    +  where True = <function review_waiver_covers at 0x7fbcbbfe3f60>(40, "# Review waiver (GOVERNANCE §15, amendment 2026-10-03; gate `review-fires`, B1461)\n\nPast twice its period — 40 merg...the seats at once; the decadal review, Review 79, is main's next piece of work after that push, before anything else\n", since='2026-11-11')
+E    +    where <function review_waiver_covers at 0x7fbcbbfe3f60> = gates.review_waiver_covers
+E    +    and   '2026-11-11' = <function review_anchor_date at 0x7fbcbc2e4040>()
+E    +      where <function review_anchor_date at 0x7fbcbc2e4040> = gates.review_anchor_date
+FAILED tests/test_b1461_governance_delta.py::test_the_waiver_file_exists_with_the_grammar_and_no_live_waiver
+1 failed, 8 deselected in 0.21s

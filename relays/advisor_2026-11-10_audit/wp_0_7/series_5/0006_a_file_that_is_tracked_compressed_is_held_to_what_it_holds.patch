@@ -1,39 +1,39 @@
-From 6fc08f83f34b75debe10b0d9a75f5a8adf1498ba Mon Sep 17 00:00:00 2001
+From c1af11a71f43caf87c1cfb2199917ca484984b8b Mon Sep 17 00:00:00 2001
 From: originaxiom <originaxiom@users.noreply.github.com>
-Date: Thu, 12 Nov 2026 10:07:17 +0000
-Subject: [PATCH 6/6] WP-0.7, enforcement (cld-advisor's series 5, patch 6;
- built on a35fd4bce with the ten patches of series 4 and the first five of
- series 5 applied): A FILE THAT IS TRACKED COMPRESSED IS HELD TO WHAT IT HOLDS
- (main's M9, from the second round of Review 79; register row P-812). The
- census of B1786 is tracked compressed. Its list records the hash of the
- content, under the name the content has when it is unpacked. No tracked file
- has that name, so the entry stood as one that names no tracked file, frozen
- in that state, and the compressed file could be replaced unseen. Planted by
- the seat as main wrote it, on main's 22808aa3f and on the series: the content
- replaced and committed, the gate passes. THE MEND: where a list names no
- tracked file, and one file is tracked under that name with a suffix of
- compression, the entry is held to what that file holds. The gate unpacks it
- as it reads and hashes what comes out; the same content packed again with
- other bytes verifies; a file that cannot be unpacked as its name says, or
- that unpacks to more than a bound, is not hashed in part and fails the gate,
- which does not hang. Of the 2,250 entries on main one is of this kind, and it
- verifies: 1,830 verify where 1,829 did. Its key is taken out of the table of
- entries that do not verify, in this patch, and the table's pinned hash is
- changed with it: the table may only shorten, and it holds 416. THIS TURNS ONE
- TEST OF MAIN'S LOCK FOR B1880 RED, BY THAT LOCK'S OWN DESIGN: it holds the
- table to 417 keys and to the hash recorded in the arc's own file, so that the
- lock is told when the table moves. The arc's record and its lock are main's
- to change at the landing: 416 keys, and the hash that this patch pins in the
- gates. One line of main's test of the gate in tests/ held the table to 417
- keys as well; it now holds it to 416, with a dated note. The gate takes seven
- tenths of a second longer on this machine: the census unpacks to 127
- megabytes. What it does not reach: a compressed file that no list names; an
- archive of several files. The lock: three tests added to
- tests/test_a_gate_reads_all_it_is_about.py, for three kinds of compression.
- On the commit before, all three fail: the content replaced passes the gate, a
- file that cannot be unpacked passes it, and on this repository no entry reads
- the compressed file. Tested against planted errors; reproduced, the part main
- had run; computed once. 0 of 19.
+Date: Thu, 12 Nov 2026 13:12:17 +0000
+Subject: [PATCH 06/12] WP-0.7, enforcement (cld-advisor's series 5, patch 6;
+ built on 5c7abd72a with the ten patches of series 4, the move of the old
+ front pages and the first five of series 5 applied): A FILE THAT IS TRACKED
+ COMPRESSED IS HELD TO WHAT IT HOLDS (main's M9, from the second round of
+ Review 79; register row P-812). The census of B1786 is tracked compressed.
+ Its list records the hash of the content, under the name the content has when
+ it is unpacked. No tracked file has that name, so the entry stood as one that
+ names no tracked file, frozen in that state, and the compressed file could be
+ replaced unseen. Planted by the seat as main wrote it, on main's 22808aa3f
+ and on the series: the content replaced and committed, the gate passes. THE
+ MEND: where a list names no tracked file, and one file is tracked under that
+ name with a suffix of compression, the entry is held to what that file holds.
+ The gate unpacks it as it reads and hashes what comes out; the same content
+ packed again with other bytes verifies; a file that cannot be unpacked as its
+ name says, or that unpacks to more than a bound, is not hashed in part and
+ fails the gate, which does not hang. Of the 2,250 entries on main one is of
+ this kind, and it verifies: 1,830 verify where 1,829 did. Its key is taken
+ out of the table of entries that do not verify, in this patch, and the
+ table's pinned hash is changed with it: the table may only shorten, and it
+ holds 416. THIS TURNS ONE TEST OF MAIN'S LOCK FOR B1880 RED, BY THAT LOCK'S
+ OWN DESIGN: it holds the table to 417 keys and to the hash recorded in the
+ arc's own file, so that the lock is told when the table moves. The arc's
+ record and its lock are main's to change at the landing: 416 keys, and the
+ hash that this patch pins in the gates. One line of main's test of the gate
+ in tests/ held the table to 417 keys as well; it now holds it to 416, with a
+ dated note. The gate takes seven tenths of a second longer on this machine:
+ the census unpacks to 127 megabytes. What it does not reach: a compressed
+ file that no list names; an archive of several files. The lock: three tests
+ added to tests/test_a_gate_reads_all_it_is_about.py, for three kinds of
+ compression. On the commit before, all three fail: the content replaced
+ passes the gate, a file that cannot be unpacked passes it, and on this
+ repository no entry reads the compressed file. Tested against planted errors;
+ reproduced, the part main had run; computed once. 0 of 19.
 
 ---
  scripts/gates/gates.py                     | 43 +++++++++++++-
@@ -43,10 +43,10 @@ Subject: [PATCH 6/6] WP-0.7, enforcement (cld-advisor's series 5, patch 6;
  4 files changed, 113 insertions(+), 4 deletions(-)
 
 diff --git a/scripts/gates/gates.py b/scripts/gates/gates.py
-index 6fff61597..54afb315c 100644
+index 523510e9b..0300d14db 100644
 --- a/scripts/gates/gates.py
 +++ b/scripts/gates/gates.py
-@@ -2186,7 +2186,8 @@ HASH_LIST_MIN_SHARE = 0.25                 # measured 2026-11-11: every list on
+@@ -2223,7 +2223,8 @@ HASH_LIST_MIN_SHARE = 0.25                 # measured 2026-11-11: every list on
  HASH_LIST_MAX_BYTES = 2_000_000
  HASH_LISTS_BY_CONTENT_FROM = "3e25c8ec3d0bbe99b969206d28b408ebde140942"     # the rule for lists under other names is read in history from this commit on (2026-11-11)
  HASH_LISTS_FROZEN_FILE = "scripts/gates/hash_lists_frozen.json"
@@ -56,7 +56,7 @@ index 6fff61597..54afb315c 100644
  HASH_LIST_RESOLVED = {                     # key -> the tracked file the entry is declared to mean, where its name could be read as more than one
      "e47b80624906": "frontier/B688_eisenstein_campaign/GOVERNANCE.md",       # the arc's own copy of the page as it stood, beside its list; not the living page at the root
      "e637319e4a92": "frontier/B936_cohomology_reading/results.json",         # the arc's own results, beside its list; not the file of the same name at the root
-@@ -2205,6 +2206,35 @@ def is_hash_list(name, text):
+@@ -2242,6 +2243,35 @@ def is_hash_list(name, text):
      return n >= 1 and n >= HASH_LIST_MIN_SHARE * len(lines)
  
  
@@ -92,7 +92,7 @@ index 6fff61597..54afb315c 100644
  def hash_list_state(repo=None, _resolved=None):
      """Every entry of every tracked list of hashed files under `repo`, whatever the list is called: a list of
      (key, list path, file or name, state, signature), or None where the tracked files cannot be listed.  state is VERIFIES,
-@@ -2255,6 +2285,17 @@ def hash_list_state(repo=None, _resolved=None):
+@@ -2292,6 +2322,17 @@ def hash_list_state(repo=None, _resolved=None):
                  if c in tracked and c not in cands:
                      cands.append(c)
              if not cands:
