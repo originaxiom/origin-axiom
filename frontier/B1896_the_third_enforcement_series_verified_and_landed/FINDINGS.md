@@ -41,7 +41,7 @@ sentence; what it cannot read it refuses; and what stood on the day the rule cam
 | 2 | a proven row whose evidence said that it had no lock passed the claims gate | each row of the claims page's two locked tables cites a lock, and the lock holds a test |
 | 3 | a test whose only assert was `assert 1 != 2` passed the vacuity gate | a test in which no assert can fail is refused; the arcs' own locks are read, which the gate had never read |
 | 4 | a folder made a repository with no commit was read as a full clone (main's unseen case of the first series) | two more words for a repository in which git has nothing to say of the tree; every gate of the two tables is refused on either |
-| 5 | two phrases from the registry's unquoted rows, pasted into the front page, passed the sweep | every row of the registry is accounted for; a row in no shape the reader knows fails the gate; where a newly read phrase already stood, the line is held by name |
+| 5 | two phrases from the registry's unquoted rows, pasted into the front page, passed the sweep | every row of the registry is accounted for; a row in no shape the reader knows fails the gate; where a newly read phrase already stood, the line is held by name [CORRECTED 2026-11-12 (Review 80): the file is held for that phrase, every line of it, and not the line] |
 | 6 | every control pointed at a skipped test that asserted nothing, and the controls gate passed | a control is read: not kept from running by a mark, able to fail; and a control does not leave the register without a recorded act |
 
 What the series holds by name on main's pages, as found: one file, one row, 26 tests, two rows and twelve lines. Main
@@ -91,7 +91,7 @@ fourth series is read.
 | case | why it passes | did the seat's note say so |
 |---|---|---|
 | U17.b | the sweep flattens the whole file to see which phrases are in it, and then looks for each phrase line by line. A phrase over two lines is seen by the first step and found by the second on no line | no |
-| U24.a, U24.g | the class is decided by working the assert out, and it stops at a call | yes: its § 7 b, with three tests on main's pages that are of this shape |
+| U24.a, U24.g | the class is decided by working the assert out, and it stops at a call | yes: its § 7 b, with three tests on main's pages that are of this shape [CORRECTED 2026-11-12 (Review 80; found by a reading on another family of model and reproduced by main): three is far too few. The reader counts nine by its own shape. Main's scan by the syntax tree finds 92 tests in the tests' folder that read no name from outside themselves but a few pure builtins; 24 of them are held by name as found, and 68 are not] |
 | U24.d | an assert that would fail if it were reached is not in the class; this one is never reached | in part: its § 6 d names `assert False` under an `if`, not a condition that is never true |
 | U24.f | the test holds no assert, and a block that expects an exception counts as one | no |
 
@@ -140,7 +140,9 @@ lines. One case came from the reading, and four more were written to see where t
 
 ## 6. Main's word on the nineteen rows, and the seat's choices
 
-The sweep read 29 of the registry's 48 phrases. Nineteen rows, in three tables, hold their phrase unquoted, and the
+The sweep read 29 of the registry's 46 phrases [CORRECTED 2026-11-12 (Review 80; found by a reading on another family of model and reproduced by main): this read "48 phrases". The registry has 54 rows: 46 phrases, and
+8 rows that take back a reading. Of the nineteen unquoted rows seventeen are phrases and two are readings; the other
+six readings are in the quoted tables]. Nineteen rows, in three tables, hold their phrase unquoted, and the
 registry's own note called nine of them descriptive and not swept. The seat asked main which rows are swept.
 
 - **Main's word: the seat's proposal, as sent.** Seventeen rows are swept. Two say in their own words that they take

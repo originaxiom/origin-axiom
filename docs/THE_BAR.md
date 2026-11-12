@@ -53,7 +53,7 @@ A **positive** reads: frame F, on state s (at level k, with end condition e), sh
    - Then Bonferroni over every look the claim's arc made, min(1, m p): every frame, level, end condition and variant examined
      (INPUT_COMPLETENESS row 7; CROSSING_REQUIREMENTS R7). Šidák is allowed only with a stated dependence theorem. The exact joint
      law of the looks under the census's own law is also allowed. (B1518 used Šidák; B1524, C5.)
-   - **[2026-10-27, the owner's ruling on P-389: "Adopt main's version".] A declared menu is one look only when its
+   - **[2026-10-27, the owner's ruling on P-389: main's version is adopted. In plain words since 2026-11-12 (register rows P-796 and P-825): this quoted the option he chose.] A declared menu is one look only when its
      calibration repeats it.** A menu fixed before the run counts as one look only when its calibration takes the same
      menu's minimum for every random target, as B1741's measure does — then the menu is priced inside r; every variant
      examined outside that calibration counts. This clarifies the rule above without widening it. With the audit lane's

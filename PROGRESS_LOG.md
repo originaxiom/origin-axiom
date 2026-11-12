@@ -19906,3 +19906,17 @@ seat's check. Six are left.
 **Which piece of the plan moved.** None is published yet.
 
 0 of 19.
+
+## 2026-11-12 — Main goes back to the mathematics, and the record-keeping is handed over (S306p)
+
+**What the owner directed.** Main is to work the frontier mathematics. The record-keeping and the clean-up are to be done by other sessions.
+
+**How it is set up.** One session builds the record-keeping as patches. A second reads each patch cold. Main checks the result and publishes it. Main's drafts and checks of the day are in one folder for the builder, with a table of what main has checked and what it has not.
+
+**The open review.** All four readers have filed: a hundred faults in all. Main checked the first forty-three and mended them; they are published now. Of the other fifty-seven it has checked thirty-seven, all real, and mended twelve. The rest, and the review's closing entry, go to the builder.
+
+**The owner's question on selection, and a test of main's answer.** He asked whether the programme has been expecting the wrong thing when it looks for what the mathematics selects. Main answered that a rule with the symmetries of the whole cannot pick one member, and that a number needs a weight the law does not hold. He asked for a test at once. Two parts were run. Looking back, every earlier pick of a "least" history turns out to be a whole mirror pair or its own mirror: 88 of 88. Looking forward, main let every move act and compound, and measured how fast each sector cancels. One thing never cancels, whichever moves are counted: whether the number of moves is even or odd. But which sector lasts longest changes when the set of moves is changed, so main's own idea, that rates would select without any choice, failed the test main had set for it.
+
+**Which piece of the plan moved.** None is published yet. Three first steps and the selection test wait for the review's entry.
+
+0 of 19.

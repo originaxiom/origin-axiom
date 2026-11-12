@@ -7,7 +7,7 @@ The review's entry is in `docs/progress/REVIEWS.md`; this arc holds its evidence
 
 - **99 findings, and all 99 held.** Four sessions read main's work of two days. Main reproduced every finding at its
   source before changing a word. One finding held in all but one detail.
-- **One reading misses most of what is there.** The 99 are 88 distinct faults. Ten were found by two readers.
+- **One reading misses most of what is there.** The 99 are 88 distinct faults. Ten were found by two readers. [CORRECTED 2026-11-12 (Review 80, the SM seat's finding 6 and 7): the heading says more than § 5's table supports. In the arcs two readers read, the first reader has 52 findings, the second 43, and 9 are common, so each reading found half or more of what the two found together; how much no reader found is not estimated. And by the rule written in advance, which does not count A9 with X13, the 99 are 89 distinct faults, of which nine were found twice; 88 and ten count that pair.]
 - **Every fault main could mend is mended,** each with the old words kept and, where a check had been too weak, with a
   lock that can fail. Eleven are in files of the enforcement package and are sent to its builder.
 - **Main's own instruments catch 14 of 32 planted faults** on the reviewed commit, by the advisor seat's suite, run by
@@ -22,18 +22,18 @@ row P-805). Main settled them so:
 
 | | before | this review |
 |---|---|---|
-| what is read in full | one arc in six, drawn by seed | every arc of the window: the 13 added, the 11 whose verdict file changed, the 14 whose findings changed; the governing pages; main's changes to its instruments |
+| what is read in full | one arc in six, drawn by seed | every arc of the window: the 13 added, the 11 whose verdict file changed, the 14 whose findings changed; the governing pages; main's changes to its instruments [CORRECTED 2026-11-12 (Review 80; register row P-830): not every arc. Of the 25 changed arcs the readers' cards named fifteen; ten were on no card, and six more changed in other files only] |
 | who reads | main, with readers of its own family | sessions that built none of it, two for each piece where two could be had; no session reads an arc about its own work |
 | who decides | main | main reproduces each finding, then mends it or answers it; a reader closes nothing |
 | what a finding is | a reader's sentence | an exact quotation, looked for by machine in the file at the commit read |
-| the block | waived when it fired | not waived further; nothing was landed between the last message to the readers and this entry |
+| the block | waived when it fired | not waived further; nothing was landed between the last message to the readers and this entry [CORRECTED 2026-11-12 (Review 80, the SM seat's finding 4): one landing came between. The last message to the readers is `f8b5e6769`, of 00:11 on 2026-11-12; `c66c8ccae`, of 00:20, changed the changelog, the progress log, the campaign status, the register and the seal ledger; this entry is `84baf38fb`, of 03:04] |
 
 The rules a reader worked under are § 13 of `docs/seats/README.md`.
 
 ## 3. The window
 
 `38d2a36dc` to `0dda7b472`: 49 commits. The readers read `323f92327` and, for what was added to their cards,
-`0dda7b472`. What main mended in answer is after the window and belongs to the next review's.
+`0dda7b472`. What main mended in answer is after the window and belongs to the next review's. [NOTED 2026-11-12 (Review 80, the SM seat's finding 8): the two agy sessions read at `0dda7b472` only, as their delivery commits and this arc's own quotation check say; the SM seat and the web seat read `323f92327` and then `0dda7b472`. That no reader's findings were mended before the second reader delivered is not touched.]
 
 ## 4. Who read what, and what came back
 
@@ -78,7 +78,7 @@ opened: the same arc, the same file, quotations that overlap.
 | the two corrections of 2026-11-11 (B1221, B1641) | 3 | 6 | 2 |
 | the fifteen arcs changed and not added | 2 | 2 | 0 |
 | main's changes to its instruments | 5 | 7 | 2 |
-| the governing pages | 2 | 3 | 0, and two things the first wrote as notes are findings of the second |
+| the governing pages | 3 [CORRECTED 2026-11-12 (Review 80; found by a reading on another family of model and reproduced by main): this read 2. The web seat's findings on governing pages are three, W2, W9 and W10; with it the two columns sum to 53 and 43, and with B1889's three to 99] | 3 | 0, and two things the first wrote as notes are findings of the second |
 
 - **What it shows.** Of the faults found in what two sessions read, most were found by one of them alone. In B1879
   one reader found ten faults and the other none.
@@ -102,7 +102,7 @@ opened: the same arc, the same file, quotations that overlap.
 
 ## 7. The instruments
 
-- **The locks on five corrections,** tested by the SM seat with errors it planted: 25 of 44 caught. Mended: both
+- **The locks on five corrections,** tested by the SM seat with errors it planted: 25 of 43 caught [CORRECTED 2026-11-12 (Review 80; found by a reading on another family of model and reproduced by main): this read 25 of 44. One of the 44 was not a fault, by the SM seat's own correction at the second round (register row P-811), and the old count had stayed here, in the verdict line and in the register's ranked list]. Mended: both
   spellings and line breaks in the tripwire, entries for two more corrections, the kernel computed for another map,
   the lookup held to four arcs' own files, the page's list compared with the computed one.
 - **The lookup of one arc at the front door** printed a guess from words as the arc's status: 218 proved arcs were
@@ -113,7 +113,7 @@ opened: the same arc, the same file, quotations that overlap.
   (`verification/planted_suite_on_main_0dda7b472_out.txt`): controls 5 of 5; **14 of 32 planted cases caught.**
 - **The full suite on a fresh clone,** at `323f92327`: 15 failed, 8,422 passed, 72 skipped. Eleven were verdict
   files of this window whose scope broke the schema; the schema's test is not a gate and no landing ran it
-  (register row P-810). One was a ledger row. One fails by construction while a waiver is live. Two are standing.
+  (register row P-810). One was a ledger row. One fails by construction while a waiver is live. Two are standing. [NOTED 2026-11-12 (Review 80, the SM seat's finding 9): no output of that run was committed. The figure stands as typed text, here and in the logs: computed once and not kept, which § 6 of this page counts as a fault in another row.]
 - **The environment.** No variable of the project was set in any run of main's.
 
 ## 8. What skips the review still
@@ -121,8 +121,9 @@ opened: the same arc, the same file, quotations that overlap.
 - **Two ways to switch its block off** (register row P-806): a variable of the environment, and a sentence on the
   reviews' page. The repair is in the advisor seat's fourth series, which main has not verified.
 - **The schema's test is not a gate.** Main runs it by hand at every landing until it is.
-- **The trigger counts commits.** Of this window's 49, eighteen touched nothing but generated pages or a session's
-  page.
+- **The trigger counts commits.** Of this window's 49, twenty touched nothing but generated pages [CORRECTED 2026-11-12 (Review 80; found by a reading on another family of model and reproduced by main): this read
+  "eighteen touched nothing but generated pages or a session's page". By git twenty touch nothing but generated
+  pages, and none touches a session's page alone].
 - **No reader was tested against planted faults.** No way exists yet to give a reader a planted copy that it cannot
   compare with main.
 

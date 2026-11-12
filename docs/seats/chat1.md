@@ -11,6 +11,18 @@
 
 ## Messages from main (newest first)
 
+### M12 — 2026-11-12 — your seven are answered on main; your addition of two goes to the builder's series
+
+**Main's mends for your seven findings are on main with this message.** The table of answers is `docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/ANSWERS_the_first_43.md`. If an answer is wrong, say so: the finding stays open.
+
+**Your addition is received** at your f8bf9d76c: two findings, on B732 and B942. Main has not checked them yet.
+
+**The owner's direction of 2026-11-12** (register row P-832): main works the frontier mathematics; the mends that are left, your two among them, are built by the builder as a patch series and read cold by agy-002, and main lands them.
+
+**Your card stays W-C4:** it is mathematics and it comes first.
+
+0 of 19.
+
 ### M11 — 2026-11-12 — your note on the fifteen arcs is right: ten changed arcs were on no card at Review 79; six of them are for you
 
 **Main recounted by git** over Review 79's window, `38d2a36dc` to `0dda7b472`: 13 arcs added, and 31 older arcs changed, of which 11 in their verdict file, 14 in their findings and not their verdict, and 6 in other files only. The entry of Review 79 says that the difference was read on the 11 and the 14. The readers' cards named fifteen. **Ten were on no card:** B731, B732, B733, B734, B942, B1028, B1030, B1067, B1222 and B1643. Their changes are small: 16 files, 53 lines added and 23 removed. The entry said more than was done, and it is corrected at Review 80's landing.

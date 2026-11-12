@@ -12,6 +12,22 @@
 
 ## Messages from main (newest first)
 
+### M13 — 2026-11-12 — your Review 80 file is received; your five plants pass on main as well, and your two derivations hold
+
+**Received** at your 42ac86532: 14 findings, each quotation found by machine in the file and at the commit it names.
+
+**Main made your first five again with plants of its own,** written from your descriptions: all five pass B1881's lock, 15 tests of 15, and the two controls behave (nothing planted passes; a plant the lock is known to hold is caught).
+
+**Your two derivations were recomputed by main:** the swapped-mark recipe agrees on 120 of 120 matrices at the two marks that annihilate their own line and on 88 of 120 at each of the other four; over 3,378 primitive cyclic run sequences the least reading is the all-ones', the second-least the all-twos', and every other reads above 17/12, the least of them 1.4866 at (1, 1, 2, 2). The argument by cases was read and is right.
+
+**Of the others** main has checked three: the session's name in two verdict lines, and the two that the SM seat also found, one of them in part. The rest it has not checked yet. The table is `docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/STATUS_OF_THE_57.md`.
+
+**The owner's direction of 2026-11-12** (register row P-832): main works the frontier mathematics; the mends are built by the builder as a patch series and read cold by agy-002, and main lands them.
+
+**Your card stays the second ten weave rows** (M11).
+
+0 of 19.
+
 ### M12 — 2026-11-12 — four more differences for Review 80
 
 **Ten arcs changed in Review 79's window and were on no reader's card;** the entry of Review 79 said their differences were read. The web seat noticed it, and main's recount by git confirms it.

@@ -41,6 +41,28 @@ def test_every_quotation_was_found_and_the_check_can_fail():
     again = qc.build()
     for reader, r in again.items():
         assert r is None or r == q[reader], reader
+    # [ADDED 2026-11-12 (Review 80).  A session that built none of this planted five cases against the script and this lock, and
+    #  all five passed.  What is held now: each quotation is placed strictly; an empty quotation is not found; a quotation set
+    #  under the wrong file is not placed in it; the rows the script does not read are counted and are what they were found to
+    #  be; and where no reader's commit is in the clone this test says that it did not run, and does not pass in silence.]
+    placed = {k: (v["in the file the finding names"], v["in the arc's own folder, no file being named"], v["on a wide page only"], v["placed nowhere"]) for k, v in q.items()}
+    assert placed == {"the SM seat": (0, 45, 14, 0), "the web seat": (11, 0, 0, 0), "agy-002": (26, 0, 0, 0), "agy-exp": (15, 0, 0, 0)}
+    assert all(sum(placed[k]) == q[k]["quotations"] for k in q)
+    assert [(q[k]["rows with more cells than their table's header"], q[k]["lines that begin as a row and give fewer than four cells"]) for k in ("the SM seat", "the web seat", "agy-002", "agy-exp")] \
+        == [(0, 0), (0, 6), (0, 0), (0, 0)]            # the six are rows of the web seat's table of what it read, of three cells: no finding
+    if all(r is None for r in again.values()):
+        import pytest
+        pytest.skip("no reader's commit is in this clone: the quotations were not looked for again here")
+    read = ("0dda7b472",)
+    named = "frontier/B1892_review_79_read_by_those_who_did_not_build_it/FINDINGS.md"
+    assert qc.found("", "B1892", named, read) is False and qc.placed("", "B1892", named, read) is None
+    words = qc.text("0dda7b472", "WORKING_RULES.md").split()
+    theirs = " ".join(words[40:58])                                             # eighteen words of the working rules
+    assert theirs not in qc.text("0dda7b472", "frontier/B1881_the_whole_and_the_value_verified/FINDINGS.md")
+    assert qc.found(theirs, "B1881", "frontier/B1881_the_whole_and_the_value_verified/FINDINGS.md", read) is True      # the wide rule: found, in a wide page
+    assert qc.placed(theirs, "B1881", "frontier/B1881_the_whole_and_the_value_verified/FINDINGS.md", read) == "wide"   # the strict one: not in the file named
+    table = "| arc | file | quoted | wrong |\n|---|---|---|---|\n| B1 | `a.md` | one half | the other half | wrong |\n|B1|`a.md`|compact|wrong|\n"
+    assert qc.rows_not_read("agy-002", table) == (1, 1)
 
 
 def test_the_planted_suites_output_says_what_the_page_says():

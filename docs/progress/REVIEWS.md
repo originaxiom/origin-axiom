@@ -8797,13 +8797,18 @@ Review 78's eleven items: one resolved, ten carried, each with its reason in tha
 ## 1b. The branches
 
 20 branches not merged, every one registered as a lane. Four moved in the window: the web seat's, the SM seat's, the
-advisor seat's, and a new one, agy-002's, registered when it appeared.
+advisor seat's, and a new one, agy-002's, registered when it appeared. *[CORRECTED 2026-11-12 (Review 80; found by a reading on another family of model and reproduced by main): six, of five sessions. By the ledger's
+pin rows at both ends of the window three lanes moved (the web seat's, the SM seat's, the advisor seat's) and three were
+newly registered: two branches of agy-002 and one of agy-exp.]*
 
 ## 2. What this review read, and what it can certify
 
 - **Read in full, by a session that did not build it:** the 13 arcs added in the window (B1878 to B1890); the
   window's difference on the 11 arcs whose verdict file changed and the 14 whose findings changed; the governing
-  pages; main's own changes to its checkers, its gates' file and the listener.
+  pages; main's own changes to its checkers, its gates' file and the listener. *[CORRECTED 2026-11-12 (Review 80; the
+  web seat's note, main's recount by git; register row P-830): the readers' cards named fifteen of these 25. Ten were
+  on no card (B731, B732, B733, B734, B942, B1028, B1030, B1067, B1222, B1643), and six more arcs changed in other files
+  only and were looked at by nobody (B736, B779, B1858, B1867, B1870, B1873). The ten are read at Review 80.]*
 - **By two sessions:** twelve of the thirteen added arcs (B1878 to B1888 and B1890), the two corrections main made
   on 2026-11-11, the governing pages and the instruments. The fourth reader delivered last, on the commit the others
   read; nothing of their findings had been pushed or written on a page.
@@ -8825,7 +8830,7 @@ gate controls: 53 registered failing-path tests; unregistered: none. A control i
 
 ## 3. What moved
 
-- **The law map gained three rows and the theorem registry one.** Two rows were scoped at this review: the index of
+- **The law map gained three rows and the theorem registry one.** *[CORRECTED 2026-11-12 (Review 80; found by a reading on another family of model and reproduced by main): neither gained a row. The law map has 329 rows and the theorem registry 229 at both ends of the window; three rows of the one and one of the other were edited in place. The count came from a tool that counts added table lines and does not subtract removed ones.]* Two rows were scoped at this review: the index of
   the chiral three is stated for a unit that is uniform on the cusp's three lines.
 - **The foundation is at version 1.66:** four sentences corrected, no item added, no status changed.
 - **Nothing moved towards the goal.** 0 of 19; 1 of 43 packages done. The window went to how the record is kept and
@@ -8834,7 +8839,7 @@ gate controls: 53 registered failing-path tests; unregistered: none. A control i
 
 ## 4. Errors, by class
 
-No new class entered the ledger in the window; two instances of known classes did. The 88 faults of this review fall
+No new class entered the ledger in the window; two instances of known classes did. *[CORRECTED 2026-11-12 (Review 80; found by a reading on another family of model and reproduced by main): two rows of the ledger's table were edited in place, and twelve instances were added as a list at its end.]* The 88 faults of this review fall
 into five kinds, which the arc's § 6 lists with examples:
 
 | kind | the standing rule that should have caught it |
@@ -8851,7 +8856,7 @@ parse, and a label stronger than its evidence.
 ## 5. Provenance
 
 - **Phrases that pretend outside verification:** none in 6,647 added lines.
-- **Papers:** not touched in the window, beyond a rebuilt manifest.
+- **Papers:** not touched in the window, beyond a rebuilt manifest. *[CORRECTED 2026-11-12 (Review 80; found by a reading on another family of model and reproduced by main): three pages under the papers' folder changed in the window besides the manifest: the paper's list of claim candidates, and two pages of one candidate paper.]*
 - **New words:** none that the terminology page lacks. The page gained the words for a session and for how a check is
   named.
 - **The owner is not quoted:** checked by machine against main's private log. Of the lines added since his ruling,

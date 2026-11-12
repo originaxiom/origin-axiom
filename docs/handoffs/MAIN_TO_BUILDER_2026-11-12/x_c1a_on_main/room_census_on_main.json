@@ -1,0 +1,757 @@
+{
+ "primes": [
+  1000000007,
+  2147483647
+ ],
+ "states": [
+  {
+   "state": "+LR",
+   "ends": 1,
+   "generators": 2,
+   "relators": 1,
+   "sign characters": 2,
+   "n(1)": 0,
+   "room histogram": {
+    "0": 2
+   },
+   "(m_A, h1, r1, n): characters": {
+    "[0, 0, 0, 0]": 1,
+    "[1, 1, 1, 0]": 1
+   },
+   "largest min(n, m_A)": 0,
+   "largest room": 0,
+   "largest m_A at a room of three or more": null,
+   "largest room at three or more trivial ends": null
+  },
+  {
+   "state": "-LR",
+   "ends": 5,
+   "generators": 5,
+   "relators": 4,
+   "sign characters": 32,
+   "n(1)": 0,
+   "room histogram": {
+    "0": 32
+   },
+   "(m_A, h1, r1, n): characters": {
+    "[0, 0, 0, 0]": 6,
+    "[1, 1, 1, 0]": 15,
+    "[2, 2, 2, 0]": 10,
+    "[5, 5, 5, 0]": 1
+   },
+   "largest min(n, m_A)": 0,
+   "largest room": 0,
+   "largest m_A at a room of three or more": null,
+   "largest room at three or more trivial ends": 0
+  },
+  {
+   "state": "+LLR",
+   "ends": 2,
+   "generators": 2,
+   "relators": 1,
+   "sign characters": 4,
+   "n(1)": 0,
+   "room histogram": {
+    "0": 4
+   },
+   "(m_A, h1, r1, n): characters": {
+    "[0, 0, 0, 0]": 1,
+    "[1, 1, 1, 0]": 2,
+    "[2, 2, 2, 0]": 1
+   },
+   "largest min(n, m_A)": 0,
+   "largest room": 0,
+   "largest m_A at a room of three or more": null,
+   "largest room at three or more trivial ends": null
+  },
+  {
+   "state": "-LLR",
+   "ends": 6,
+   "generators": 6,
+   "relators": 5,
+   "sign characters": 64,
+   "n(1)": 0,
+   "room histogram": {
+    "0": 61,
+    "1": 3
+   },
+   "(m_A, h1, r1, n): characters": {
+    "[0, 0, 0, 0]": 7,
+    "[0, 1, 0, 1]": 3,
+    "[1, 1, 1, 0]": 24,
+    "[2, 2, 2, 0]": 21,
+    "[3, 3, 3, 0]": 8,
+    "[6, 6, 6, 0]": 1
+   },
+   "largest min(n, m_A)": 0,
+   "largest room": 1,
+   "largest m_A at a room of three or more": null,
+   "largest room at three or more trivial ends": 0
+  },
+  {
+   "state": "+LLLR",
+   "ends": 3,
+   "generators": 3,
+   "relators": 2,
+   "sign characters": 8,
+   "n(1)": 0,
+   "room histogram": {
+    "0": 8
+   },
+   "(m_A, h1, r1, n): characters": {
+    "[0, 0, 0, 0]": 4,
+    "[1, 1, 1, 0]": 3,
+    "[3, 3, 3, 0]": 1
+   },
+   "largest min(n, m_A)": 0,
+   "largest room": 0,
+   "largest m_A at a room of three or more": null,
+   "largest room at three or more trivial ends": 0
+  },
+  {
+   "state": "-LLLR",
+   "ends": 7,
+   "generators": 7,
+   "relators": 6,
+   "sign characters": 128,
+   "n(1)": 0,
+   "room histogram": {
+    "0": 114,
+    "1": 14
+   },
+   "(m_A, h1, r1, n): characters": {
+    "[0, 0, 0, 0]": 8,
+    "[0, 1, 0, 1]": 7,
+    "[1, 1, 1, 0]": 35,
+    "[1, 2, 1, 1]": 7,
+    "[2, 2, 2, 0]": 42,
+    "[3, 3, 3, 0]": 21,
+    "[4, 4, 4, 0]": 7,
+    "[7, 7, 7, 0]": 1
+   },
+   "largest min(n, m_A)": 1,
+   "largest room": 1,
+   "largest m_A at a room of three or more": null,
+   "largest room at three or more trivial ends": 0
+  },
+  {
+   "state": "+LLRR",
+   "ends": 4,
+   "generators": 4,
+   "relators": 3,
+   "sign characters": 16,
+   "n(1)": 0,
+   "room histogram": {
+    "0": 16
+   },
+   "(m_A, h1, r1, n): characters": {
+    "[0, 0, 0, 0]": 9,
+    "[2, 2, 2, 0]": 6,
+    "[4, 4, 4, 0]": 1
+   },
+   "largest min(n, m_A)": 0,
+   "largest room": 0,
+   "largest m_A at a room of three or more": null,
+   "largest room at three or more trivial ends": 0
+  },
+  {
+   "state": "-LLRR",
+   "ends": 8,
+   "generators": 8,
+   "relators": 7,
+   "sign characters": 256,
+   "n(1)": 0,
+   "room histogram": {
+    "0": 248,
+    "2": 8
+   },
+   "(m_A, h1, r1, n): characters": {
+    "[0, 0, 0, 0]": 37,
+    "[0, 2, 0, 2]": 8,
+    "[2, 2, 2, 0]": 168,
+    "[4, 4, 4, 0]": 42,
+    "[8, 8, 8, 0]": 1
+   },
+   "largest min(n, m_A)": 0,
+   "largest room": 2,
+   "largest m_A at a room of three or more": null,
+   "largest room at three or more trivial ends": 0
+  },
+  {
+   "state": "+LLLLR",
+   "ends": 4,
+   "generators": 4,
+   "relators": 3,
+   "sign characters": 16,
+   "n(1)": 0,
+   "room histogram": {
+    "0": 16
+   },
+   "(m_A, h1, r1, n): characters": {
+    "[0, 0, 0, 0]": 5,
+    "[1, 1, 1, 0]": 8,
+    "[2, 2, 2, 0]": 2,
+    "[4, 4, 4, 0]": 1
+   },
+   "largest min(n, m_A)": 0,
+   "largest room": 0,
+   "largest m_A at a room of three or more": null,
+   "largest room at three or more trivial ends": 0
+  },
+  {
+   "state": "-LLLLR",
+   "ends": 8,
+   "generators": 8,
+   "relators": 7,
+   "sign characters": 256,
+   "n(1)": 0,
+   "room histogram": {
+    "0": 208,
+    "1": 48
+   },
+   "(m_A, h1, r1, n): characters": {
+    "[0, 0, 0, 0]": 9,
+    "[0, 1, 0, 1]": 12,
+    "[1, 1, 1, 0]": 48,
+    "[1, 2, 1, 1]": 24,
+    "[2, 2, 2, 0]": 76,
+    "[2, 3, 2, 1]": 12,
+    "[3, 3, 3, 0]": 48,
+    "[4, 4, 4, 0]": 18,
+    "[5, 5, 5, 0]": 8,
+    "[8, 8, 8, 0]": 1
+   },
+   "largest min(n, m_A)": 1,
+   "largest room": 1,
+   "largest m_A at a room of three or more": null,
+   "largest room at three or more trivial ends": 0
+  },
+  {
+   "state": "+LLLRR",
+   "ends": 6,
+   "generators": 6,
+   "relators": 5,
+   "sign characters": 64,
+   "n(1)": 0,
+   "room histogram": {
+    "0": 64
+   },
+   "(m_A, h1, r1, n): characters": {
+    "[0, 0, 0, 0]": 10,
+    "[1, 1, 1, 0]": 24,
+    "[2, 2, 2, 0]": 21,
+    "[3, 3, 3, 0]": 8,
+    "[6, 6, 6, 0]": 1
+   },
+   "largest min(n, m_A)": 0,
+   "largest room": 0,
+   "largest m_A at a room of three or more": null,
+   "largest room at three or more trivial ends": 0
+  },
+  {
+   "state": "-LLLRR",
+   "ends": 10,
+   "generators": 10,
+   "relators": 9,
+   "sign characters": 1024,
+   "n(1)": 0,
+   "room histogram": {
+    "0": 929,
+    "1": 70,
+    "2": 25
+   },
+   "(m_A, h1, r1, n): characters": {
+    "[0, 0, 0, 0]": 46,
+    "[0, 1, 0, 1]": 10,
+    "[0, 2, 0, 2]": 20,
+    "[1, 1, 1, 0]": 160,
+    "[2, 2, 2, 0]": 200,
+    "[2, 3, 2, 1]": 60,
+    "[2, 4, 2, 2]": 5,
+    "[3, 3, 3, 0]": 320,
+    "[4, 4, 4, 0]": 140,
+    "[5, 5, 5, 0]": 32,
+    "[6, 6, 6, 0]": 30,
+    "[10, 10, 10, 0]": 1
+   },
+   "largest min(n, m_A)": 2,
+   "largest room": 2,
+   "largest m_A at a room of three or more": null,
+   "largest room at three or more trivial ends": 0
+  },
+  {
+   "state": "+LLRLR",
+   "ends": 8,
+   "generators": 8,
+   "relators": 7,
+   "sign characters": 256,
+   "n(1)": 0,
+   "room histogram": {
+    "0": 236,
+    "1": 20
+   },
+   "(m_A, h1, r1, n): characters": {
+    "[0, 0, 0, 0]": 17,
+    "[0, 1, 0, 1]": 4,
+    "[1, 1, 1, 0]": 56,
+    "[1, 2, 1, 1]": 16,
+    "[2, 2, 2, 0]": 88,
+    "[3, 3, 3, 0]": 48,
+    "[4, 4, 4, 0]": 18,
+    "[5, 5, 5, 0]": 8,
+    "[8, 8, 8, 0]": 1
+   },
+   "largest min(n, m_A)": 1,
+   "largest room": 1,
+   "largest m_A at a room of three or more": null,
+   "largest room at three or more trivial ends": 0
+  },
+  {
+   "state": "-LLRLR",
+   "ends": 12,
+   "generators": 12,
+   "relators": 11,
+   "sign characters": 4096,
+   "n(1)": 0,
+   "room histogram": {
+    "0": 3608,
+    "1": 411,
+    "2": 59,
+    "3": 18
+   },
+   "(m_A, h1, r1, n): characters": {
+    "[0, 0, 0, 0]": 37,
+    "[0, 1, 0, 1]": 81,
+    "[0, 2, 0, 2]": 16,
+    "[0, 3, 0, 3]": 6,
+    "[1, 1, 1, 0]": 432,
+    "[1, 2, 1, 1]": 72,
+    "[1, 3, 1, 2]": 12,
+    "[1, 4, 1, 3]": 12,
+    "[2, 2, 2, 0]": 744,
+    "[2, 3, 2, 1]": 132,
+    "[2, 4, 2, 2]": 24,
+    "[3, 3, 3, 0]": 928,
+    "[3, 4, 3, 1]": 108,
+    "[3, 5, 3, 2]": 4,
+    "[4, 4, 4, 0]": 852,
+    "[4, 5, 4, 1]": 18,
+    "[4, 6, 4, 2]": 3,
+    "[5, 5, 5, 0]": 432,
+    "[6, 6, 6, 0]": 116,
+    "[7, 7, 7, 0]": 48,
+    "[8, 8, 8, 0]": 18,
+    "[12, 12, 12, 0]": 1
+   },
+   "largest min(n, m_A)": 2,
+   "largest room": 3,
+   "largest m_A at a room of three or more": 1,
+   "largest room at three or more trivial ends": 2
+  },
+  {
+   "state": "+LLLLLR",
+   "ends": 5,
+   "generators": 5,
+   "relators": 4,
+   "sign characters": 32,
+   "n(1)": 0,
+   "room histogram": {
+    "0": 32
+   },
+   "(m_A, h1, r1, n): characters": {
+    "[0, 0, 0, 0]": 6,
+    "[1, 1, 1, 0]": 15,
+    "[2, 2, 2, 0]": 10,
+    "[5, 5, 5, 0]": 1
+   },
+   "largest min(n, m_A)": 0,
+   "largest room": 0,
+   "largest m_A at a room of three or more": null,
+   "largest room at three or more trivial ends": 0
+  },
+  {
+   "state": "-LLLLLR",
+   "ends": 9,
+   "generators": 9,
+   "relators": 8,
+   "sign characters": 512,
+   "n(1)": 0,
+   "room histogram": {
+    "0": 374,
+    "1": 135,
+    "2": 3
+   },
+   "(m_A, h1, r1, n): characters": {
+    "[0, 0, 0, 0]": 10,
+    "[0, 1, 0, 1]": 18,
+    "[0, 2, 0, 2]": 3,
+    "[1, 1, 1, 0]": 63,
+    "[1, 2, 1, 1]": 54,
+    "[2, 2, 2, 0]": 126,
+    "[2, 3, 2, 1]": 45,
+    "[3, 3, 3, 0]": 102,
+    "[3, 4, 3, 1]": 18,
+    "[4, 4, 4, 0]": 45,
+    "[5, 5, 5, 0]": 18,
+    "[6, 6, 6, 0]": 9,
+    "[9, 9, 9, 0]": 1
+   },
+   "largest min(n, m_A)": 1,
+   "largest room": 2,
+   "largest m_A at a room of three or more": null,
+   "largest room at three or more trivial ends": 1
+  },
+  {
+   "state": "+LLLLRR",
+   "ends": 8,
+   "generators": 8,
+   "relators": 7,
+   "sign characters": 256,
+   "n(1)": 0,
+   "room histogram": {
+    "0": 251,
+    "2": 5
+   },
+   "(m_A, h1, r1, n): characters": {
+    "[0, 0, 0, 0]": 40,
+    "[0, 2, 0, 2]": 5,
+    "[2, 2, 2, 0]": 168,
+    "[4, 4, 4, 0]": 42,
+    "[8, 8, 8, 0]": 1
+   },
+   "largest min(n, m_A)": 0,
+   "largest room": 2,
+   "largest m_A at a room of three or more": null,
+   "largest room at three or more trivial ends": 0
+  },
+  {
+   "state": "-LLLLRR",
+   "ends": 12,
+   "generators": 12,
+   "relators": 11,
+   "sign characters": 4096,
+   "n(1)": 0,
+   "room histogram": {
+    "0": 3481,
+    "1": 423,
+    "2": 183,
+    "4": 9
+   },
+   "(m_A, h1, r1, n): characters": {
+    "[0, 0, 0, 0]": 177,
+    "[0, 1, 0, 1]": 15,
+    "[0, 2, 0, 2]": 72,
+    "[0, 4, 0, 4]": 9,
+    "[2, 2, 2, 0]": 1488,
+    "[2, 3, 2, 1]": 240,
+    "[2, 4, 2, 2]": 96,
+    "[4, 4, 4, 0]": 1536,
+    "[4, 5, 4, 1]": 168,
+    "[4, 6, 4, 2]": 15,
+    "[6, 6, 6, 0]": 240,
+    "[8, 8, 8, 0]": 39,
+    "[12, 12, 12, 0]": 1
+   },
+   "largest min(n, m_A)": 2,
+   "largest room": 4,
+   "largest m_A at a room of three or more": 0,
+   "largest room at three or more trivial ends": 2
+  },
+  {
+   "state": "+LLLRLR",
+   "ends": 11,
+   "generators": 11,
+   "relators": 10,
+   "sign characters": 2048,
+   "n(1)": 0,
+   "room histogram": {
+    "0": 1850,
+    "1": 187,
+    "2": 11
+   },
+   "(m_A, h1, r1, n): characters": {
+    "[0, 0, 0, 0]": 56,
+    "[0, 1, 0, 1]": 33,
+    "[0, 2, 0, 2]": 11,
+    "[1, 1, 1, 0]": 242,
+    "[1, 2, 1, 1]": 66,
+    "[2, 2, 2, 0]": 440,
+    "[2, 3, 2, 1]": 44,
+    "[3, 3, 3, 0]": 517,
+    "[3, 4, 3, 1]": 44,
+    "[4, 4, 4, 0]": 396,
+    "[5, 5, 5, 0]": 132,
+    "[6, 6, 6, 0]": 44,
+    "[7, 7, 7, 0]": 22,
+    "[11, 11, 11, 0]": 1
+   },
+   "largest min(n, m_A)": 1,
+   "largest room": 2,
+   "largest m_A at a room of three or more": null,
+   "largest room at three or more trivial ends": 1
+  },
+  {
+   "state": "+LLLRRR",
+   "ends": 9,
+   "generators": 9,
+   "relators": 8,
+   "sign characters": 512,
+   "n(1)": 0,
+   "room histogram": {
+    "0": 497,
+    "1": 9,
+    "2": 6
+   },
+   "(m_A, h1, r1, n): characters": {
+    "[0, 0, 0, 0]": 34,
+    "[0, 2, 0, 2]": 6,
+    "[1, 1, 1, 0]": 108,
+    "[1, 2, 1, 1]": 9,
+    "[2, 2, 2, 0]": 144,
+    "[3, 3, 3, 0]": 120,
+    "[4, 4, 4, 0]": 72,
+    "[5, 5, 5, 0]": 18,
+    "[9, 9, 9, 0]": 1
+   },
+   "largest min(n, m_A)": 1,
+   "largest room": 2,
+   "largest m_A at a room of three or more": null,
+   "largest room at three or more trivial ends": 0
+  },
+  {
+   "state": "+LLLLLLR",
+   "ends": 6,
+   "generators": 6,
+   "relators": 5,
+   "sign characters": 64,
+   "n(1)": 0,
+   "room histogram": {
+    "0": 61,
+    "1": 3
+   },
+   "(m_A, h1, r1, n): characters": {
+    "[0, 0, 0, 0]": 7,
+    "[0, 1, 0, 1]": 3,
+    "[1, 1, 1, 0]": 24,
+    "[2, 2, 2, 0]": 21,
+    "[3, 3, 3, 0]": 8,
+    "[6, 6, 6, 0]": 1
+   },
+   "largest min(n, m_A)": 0,
+   "largest room": 1,
+   "largest m_A at a room of three or more": null,
+   "largest room at three or more trivial ends": 0
+  },
+  {
+   "state": "-LLLLLLR",
+   "ends": 10,
+   "generators": 10,
+   "relators": 9,
+   "sign characters": 1024,
+   "n(1)": 0,
+   "room histogram": {
+    "0": 664,
+    "1": 340,
+    "2": 20
+   },
+   "(m_A, h1, r1, n): characters": {
+    "[0, 0, 0, 0]": 11,
+    "[0, 1, 0, 1]": 25,
+    "[0, 2, 0, 2]": 10,
+    "[1, 1, 1, 0]": 80,
+    "[1, 2, 1, 1]": 100,
+    "[1, 3, 1, 2]": 10,
+    "[2, 2, 2, 0]": 195,
+    "[2, 3, 2, 1]": 120,
+    "[3, 3, 3, 0]": 200,
+    "[3, 4, 3, 1]": 70,
+    "[4, 4, 4, 0]": 105,
+    "[4, 5, 4, 1]": 25,
+    "[5, 5, 5, 0]": 42,
+    "[6, 6, 6, 0]": 20,
+    "[7, 7, 7, 0]": 10,
+    "[10, 10, 10, 0]": 1
+   },
+   "largest min(n, m_A)": 1,
+   "largest room": 2,
+   "largest m_A at a room of three or more": null,
+   "largest room at three or more trivial ends": 1
+  },
+  {
+   "state": "+LLLLLRR",
+   "ends": 10,
+   "generators": 10,
+   "relators": 9,
+   "sign characters": 1024,
+   "n(1)": 0,
+   "room histogram": {
+    "0": 939,
+    "1": 60,
+    "2": 25
+   },
+   "(m_A, h1, r1, n): characters": {
+    "[0, 0, 0, 0]": 56,
+    "[0, 2, 0, 2]": 20,
+    "[1, 1, 1, 0]": 160,
+    "[2, 2, 2, 0]": 200,
+    "[2, 3, 2, 1]": 60,
+    "[2, 4, 2, 2]": 5,
+    "[3, 3, 3, 0]": 320,
+    "[4, 4, 4, 0]": 140,
+    "[5, 5, 5, 0]": 32,
+    "[6, 6, 6, 0]": 30,
+    "[10, 10, 10, 0]": 1
+   },
+   "largest min(n, m_A)": 2,
+   "largest room": 2,
+   "largest m_A at a room of three or more": null,
+   "largest room at three or more trivial ends": 0
+  },
+  {
+   "state": "+LLLLRRR",
+   "ends": 12,
+   "generators": 12,
+   "relators": 11,
+   "sign characters": 4096,
+   "n(1)": 0,
+   "room histogram": {
+    "0": 3659,
+    "1": 366,
+    "2": 59,
+    "3": 12
+   },
+   "(m_A, h1, r1, n): characters": {
+    "[0, 0, 0, 0]": 88,
+    "[0, 1, 0, 1]": 36,
+    "[0, 2, 0, 2]": 16,
+    "[1, 1, 1, 0]": 432,
+    "[1, 2, 1, 1]": 72,
+    "[1, 3, 1, 2]": 12,
+    "[1, 4, 1, 3]": 12,
+    "[2, 2, 2, 0]": 744,
+    "[2, 3, 2, 1]": 132,
+    "[2, 4, 2, 2]": 24,
+    "[3, 3, 3, 0]": 928,
+    "[3, 4, 3, 1]": 108,
+    "[3, 5, 3, 2]": 4,
+    "[4, 4, 4, 0]": 852,
+    "[4, 5, 4, 1]": 18,
+    "[4, 6, 4, 2]": 3,
+    "[5, 5, 5, 0]": 432,
+    "[6, 6, 6, 0]": 116,
+    "[7, 7, 7, 0]": 48,
+    "[8, 8, 8, 0]": 18,
+    "[12, 12, 12, 0]": 1
+   },
+   "largest min(n, m_A)": 2,
+   "largest room": 3,
+   "largest m_A at a room of three or more": 1,
+   "largest room at three or more trivial ends": 2
+  },
+  {
+   "state": "+LLLLLLLR",
+   "ends": 7,
+   "generators": 7,
+   "relators": 6,
+   "sign characters": 128,
+   "n(1)": 0,
+   "room histogram": {
+    "0": 114,
+    "1": 14
+   },
+   "(m_A, h1, r1, n): characters": {
+    "[0, 0, 0, 0]": 8,
+    "[0, 1, 0, 1]": 7,
+    "[1, 1, 1, 0]": 35,
+    "[1, 2, 1, 1]": 7,
+    "[2, 2, 2, 0]": 42,
+    "[3, 3, 3, 0]": 21,
+    "[4, 4, 4, 0]": 7,
+    "[7, 7, 7, 0]": 1
+   },
+   "largest min(n, m_A)": 1,
+   "largest room": 1,
+   "largest m_A at a room of three or more": null,
+   "largest room at three or more trivial ends": 0
+  },
+  {
+   "state": "-LLLLLLLR",
+   "ends": 11,
+   "generators": 11,
+   "relators": 10,
+   "sign characters": 2048,
+   "n(1)": 0,
+   "room histogram": {
+    "0": 1168,
+    "1": 792,
+    "2": 88
+   },
+   "(m_A, h1, r1, n): characters": {
+    "[0, 0, 0, 0]": 12,
+    "[0, 1, 0, 1]": 33,
+    "[0, 2, 0, 2]": 22,
+    "[1, 1, 1, 0]": 99,
+    "[1, 2, 1, 1]": 165,
+    "[1, 3, 1, 2]": 44,
+    "[2, 2, 2, 0]": 286,
+    "[2, 3, 2, 1]": 264,
+    "[2, 4, 2, 2]": 22,
+    "[3, 3, 3, 0]": 363,
+    "[3, 4, 3, 1]": 198,
+    "[4, 4, 4, 0]": 231,
+    "[4, 5, 4, 1]": 99,
+    "[5, 5, 5, 0]": 99,
+    "[5, 6, 5, 1]": 33,
+    "[6, 6, 6, 0]": 44,
+    "[7, 7, 7, 0]": 22,
+    "[8, 8, 8, 0]": 11,
+    "[11, 11, 11, 0]": 1
+   },
+   "largest min(n, m_A)": 2,
+   "largest room": 2,
+   "largest m_A at a room of three or more": null,
+   "largest room at three or more trivial ends": 1
+  },
+  {
+   "state": "+LLLLLLRR",
+   "ends": 12,
+   "generators": 12,
+   "relators": 11,
+   "sign characters": 4096,
+   "n(1)": 0,
+   "room histogram": {
+    "0": 3496,
+    "1": 408,
+    "2": 183,
+    "4": 9
+   },
+   "(m_A, h1, r1, n): characters": {
+    "[0, 0, 0, 0]": 192,
+    "[0, 2, 0, 2]": 72,
+    "[0, 4, 0, 4]": 9,
+    "[2, 2, 2, 0]": 1488,
+    "[2, 3, 2, 1]": 240,
+    "[2, 4, 2, 2]": 96,
+    "[4, 4, 4, 0]": 1536,
+    "[4, 5, 4, 1]": 168,
+    "[4, 6, 4, 2]": 15,
+    "[6, 6, 6, 0]": 240,
+    "[8, 8, 8, 0]": 39,
+    "[12, 12, 12, 0]": 1
+   },
+   "largest min(n, m_A)": 2,
+   "largest room": 4,
+   "largest m_A at a room of three or more": 0,
+   "largest room at three or more trivial ends": 2
+  }
+ ],
+ "sign characters in all": 26158,
+ "companions by name": {
+  "+LLLR": true,
+  "-LR": true
+ },
+ "n(1) = 0 on every companion": true,
+ "every character with a room of three or more is trivial on at most one end": true,
+ "every character trivial on three or more ends has a room of at most two": true,
+ "largest room on any companion": 4
+}

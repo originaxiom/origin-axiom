@@ -113,3 +113,23 @@ def test_the_arc_says_what_it_did_not_do():
     v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
     assert v["id"] == "B1893" and set(v["scope"]) == {"frame", "object", "reach", "hypotheses"} and v["scope"]["reach"] in ("single", "class", "general")
     assert v["claim_one_line"].endswith("0 of 19.")
+
+
+# ------------------------------------------------------------------------------------------------ added 2026-11-12 (Review 80)
+# A session that built none of this planted against the lock.  The verdict changed to another word passed, and so did a
+# verdict line made to open with other words.  And four of the cases marked caught name no gate in the run file, so that
+# the lock asked of them only that some gate other than the attribution gate had failed.  The gates of the committed run
+# are held for those four, and among them the gate that looks for the fault.
+
+def test_the_verdict_and_the_gates_of_the_four_cases_that_name_none_are_held():
+    v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
+    assert v["verdict"] == "PROVED" and v["claim_one_line"].startswith("THE SECOND PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7), BUILT BY THE ADVISOR SEAT, VERIFIED")
+    want = {"U12.a": (["path-refs", "test-vacuity"], "test-vacuity"),
+            "U12.b": (["artifact-hashes"], "artifact-hashes"),
+            "U12.c": (["chain-locks", "law-map-provenance", "path-refs", "test-vacuity"], "test-vacuity"),
+            "U13.a": (["inputs-scoreboard", "law-map-provenance", "representation-sweep"], "law-map-provenance")}
+    none_named = sorted(k for k in CASES if RUN[k].get("named gate") is None and RUN[k]["CAUGHT"] is True)
+    assert none_named == sorted(want), none_named
+    for k, (gates, the_one) in want.items():
+        other = sorted(x for x in RUN[k]["gates newly failing"] if x != "attribution")
+        assert other == gates and the_one in other, (k, other)

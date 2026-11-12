@@ -1,0 +1,23 @@
+{
+ "id": "B[[N]]",
+ "verdict": "PROVED",
+ "claim_one_line": "WHAT EXCLUDES THE ABELIAN CARRIER, WHAT IT DOES NOT EXCLUDE, WHICH SURFACE IS LEFT, AND THE PRIME OF ONE SECTOR (WP-1.2's first step; main's own code, exact arithmetic, 71 checks, none failing; pays register row P-321 and answers P-280). (A) The abelian quotient of the free group on two records commutes with every move, so naturality cannot prefer the free group to it; the audit lane's objection R57 stands. (B) What excludes the abelian carrier is the remainder: through it [a, b] is the identity and its trace is +2, and GM1's input gives the quaternion point, where the trace is -2. The four record moves keep the class of [a, b]; the swap and the tick send it to the class of its inverse. (C) The remainder does NOT give faithful words: the quaternion point factors through the quaternion group and through the integral Heisenberg group, where [a, b] is kept and every triple commutator is lost; faithful words stay a declared premise. (D) Given faithful words and a compact surface on which the moves act, the once-punctured torus is forced: of the four surfaces with that fundamental group it alone has every boundary curve null in homology, and under the moves only the zero class has a finite orbit. (E) In the Heisenberg sector of prime dimension p the commutator is the scalar zeta^k; the swap and the tick send it to zeta^-k; so one sector is carried to itself at p = 2 alone, and a sector with its conjugate at every p (checked at 2, 3, 5, 7, 11, 13; a one-line argument for every prime). NOT SHOWN: faithful words or the surface category from anything weaker; that the weave carries one sector and not a conjugate pair; the rest of the agy lane's note, whose statements these are and whose code main did not run. The foundation is not changed in this arc. 0 of 19.",
+ "scope": {
+  "frame": "none",
+  "object": "the free group on two records, its abelian, quaternion and Heisenberg quotients, the four compact surfaces with that fundamental group, and the Heisenberg sectors of prime dimension",
+  "reach": "general",
+  "hypotheses": [
+   "GM1 in its form of version 1.50 (a non-trivial common character)",
+   "faithful words, for statement D",
+   "the surface category, for statement D",
+   "the moves that reverse orientation act, for statement E"
+  ]
+ },
+ "depends_on": [
+  "B1679",
+  "B1680",
+  "B1682",
+  "B1867"
+ ],
+ "instrument": false
+}

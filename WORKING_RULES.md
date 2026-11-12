@@ -34,8 +34,10 @@ closure.
 
 **THE OWNER'S STANDING EPISTEMIC RULE (binding; added to the repo 2026-08-10 by B1009).**
 
-> *"Anything you say we don't have, or doesn't give us what we want, is either in the repo, or
-> needs to be meditated upon and figured out."*
+> *Whatever main says the programme does not have, or does not give what is wanted, is either in the repository
+> already or has to be thought through and worked out.*
+>
+> [In plain words since 2026-11-12 (the owner's ruling of 2026-11-11 on his messages; register rows P-796 and P-825): this passage quoted him. The rule is unchanged.]
 
 **"We lack X" is a HYPOTHESIS REQUIRING A SEARCH, never a conclusion.** Before writing it: grep the
 **code** (not claim lines), read `FINDINGS.md` **bodies**, and find **the script that produced** a
@@ -277,7 +279,7 @@ our own in a single session. When tempted to glue, classify instead.
 
 ## Rule (2026-09-02, the owner's instruction of 2026-09-01 — adopted): THE ABSENCE RULE
 
-The owner, verbatim: **"one important rule: before you conclude we dont have something, swipe the repo first."**
+The owner's rule: **before concluding that the record lacks something, sweep the repository first.** [In plain words since 2026-11-12 (the owner's ruling of 2026-11-11 on his messages; register rows P-796 and P-825): this line quoted him. The rule is unchanged.]
 
 **"We don't have X" is a universal statement over a population. It may be asserted only after that population has
 been enumerated — every remote head, filenames AND content, and deleted-in-history — and the sentence must cite the
@@ -371,7 +373,7 @@ because we cant bet our whole project against some possible errors bugs or mista
 
 ## Rule (2026-10-07, after the owner's audit question — adopted): A COUNT SAYS WHERE IT CAME FROM, AND NOTHING IS BUILT ON A RESULT ONE SEAT HAS READ
 
-The owner, 2026-10-07: "the programme now is all about those three generations and we depend on proper computing."
+The owner, 2026-10-07: the programme is now about the three generations, and it depends on computing properly. [In plain words since 2026-11-12 (the owner's ruling of 2026-11-11 on his messages; register rows P-796 and P-825): this line quoted him. The rule is unchanged.]
 
 1. **A count carries its decomposition.** Every reading of a class index on a manifold with cusps reports the terms of
    the identity it rests on — the cusps on which the character is trivial, the cusps on which the class dies, the
@@ -457,7 +459,9 @@ none had answered.
 **Enforced by:** the gate `doc-facts` (rule 5's key facts; S241). Rules 1–4, and rule 5's classification and declared
 surfaces, are MANUAL until P-417's steps 1, 2, 4 and 5 build their gates. They are registered in `docs/PRACTICES.md`.
 
-## THE BRAINSTORM RULES (the owner's ruling of 2026-11-04 on P-659, after B1833: "i aprove all your recomendations")
+## THE BRAINSTORM RULES (the owner's ruling of 2026-11-04 on P-659, after B1833: he approved all of main's recommendations)
+
+*[In plain words since 2026-11-12 (the owner's ruling of 2026-11-11 on his messages; register rows P-796 and P-825): this heading quoted him. The rule is unchanged.]*
 
 B1833 measured that leads are lost after they are written down: they never come due, reviews rank them and carry none,
 merged items die with their host, drafts stay in the audit room, and retired frames strand their ideas. Seven rules:

@@ -233,5 +233,5 @@
 | added at S306o (the advisor seat's audit, 2026-11-10) | 1 | P-757: the gates, seals and locks under every banked result: 24 of the audit's 27 planted violations pass undetected on main, the two it grades critical amon |
 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | 2 | P-772: what the seals do not yet protect: the scripts a seal hashed, a rule under another name or one folder deeper, a rule committed after its record; a wai |
 | added on 2026-11-11 (S306p) | 7 | P-777: 342 entries of lists of hashed files under other names do not verify and are frozen as found, not read: what each list records is owed, family by fami |
-| added on 2026-11-12 (S306p) | 7 | P-811: the locks on five of the audit's corrections caught 25 of 44 errors planted against them, and the front door's lookup of one arc showed 218 proved arc |
+| added on 2026-11-12 (S306p) | 7 | P-811: the locks on five of the audit's corrections caught 25 of 43 errors planted against them, and the front door's lookup of one arc showed 218 proved arc |
 | added on 2026-11-12 with the owner's word of that day (P-825) | 2 | P-253: eight results that many synthesis pages name are absent from the paper's chain; two are named by the map or the programme, four lie beneath a named ar |

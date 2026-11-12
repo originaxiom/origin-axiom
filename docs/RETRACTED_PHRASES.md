@@ -222,6 +222,12 @@ row, in an arc's original title, in an addendum or a ledger row that quotes what
 sent, that line is held by name in the sweep's own table, by its file and its phrase, and the phrase is swept in
 every other file. The paragraph above says what was so until then.]*
 
+*[CORRECTED 2026-11-12 (Review 80, the web seat's finding 3): "that line is held by name" says more than the sweep
+does. Its table holds the FILE for that phrase, every line of it: a second line of the same file that states the phrase
+is not reported. Main reproduced it: a planted row on a new page is reported, and the same row added to the point
+register is not. Two of the held files are ledgers that grow. The rule that would hold a line is with the builder of
+the checks.]*
+
 | scoped or withdrawn phrase | why | the current statement |
 |---|---|---|
 | the fraction of letters deep in the cusp is (k+1)/2^k at every length, so the unit of end data is not dynamical (B1629, GENESIS v1.38–v1.39) | (k+1)/2^k is the limit, within 2.4% at n = 10; "not dynamical" was computed only for the uniform measure on threads (the audit lane's questions) | GENESIS v1.44's FK10 note quotes the quantified statement; the owner's tagging of the unit stands (B1648) |
@@ -246,6 +252,10 @@ received copies of GENESIS, which are records and are not edited.
 every row of this registry. Its sentence says how many rows it read, how many it swept and how many it did not. Two
 rows of the tables above take back a reading and not a sentence; they are held by name in the sweep's own table and
 are not swept. A row in no shape the sweep knows fails the gate. The paragraph above says what was so until then.]
+
+*[CORRECTED 2026-11-12 (Review 80; found by a reading on another family of model and reproduced by main): "Two rows of the tables above take back a reading" counts too few. Eight rows
+do. Two of them are unquoted and are held by name in the sweep's table; the other six stand in the quoted tables, where
+the sweep reads what follows the quotation and takes the row for a reading.]*
 
 | retracted phrase | arc, date | why, and the current statement |
 |---|---|---|

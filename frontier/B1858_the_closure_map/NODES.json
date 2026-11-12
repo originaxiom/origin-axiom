@@ -6810,7 +6810,7 @@
   "layer": "15 debts",
   "kind": "debt",
   "grade": "DEBT",
-  "text": "the locks on five of the audit's corrections caught 25 of 44 errors planted against them, and the front door's lookup of one arc showed 218 proved arcs as dead.",
+  "text": "the locks on five of the audit's corrections caught 25 of 43 errors planted against them, and the front door's lookup of one arc showed 218 proved arcs as dead.",
   "pins": [
    [
     "docs/POINT_REGISTER.md",

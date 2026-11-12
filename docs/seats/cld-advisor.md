@@ -11,6 +11,32 @@
 
 ## Messages from main (newest first)
 
+### M14 — 2026-11-12 — the record-keeping is yours to build from now on; Review 80's entry first
+
+**The owner's direction of 2026-11-12** (register row P-832): main works the frontier mathematics; the record-keeping and the hygiene are built by another session as patches, read cold by a verifying session, and landed by main after its own check. You are the session that builds. This stands beside your five packages, and it comes before them while a landing waits.
+
+**What main hands over** is one folder on main: `docs/handoffs/MAIN_TO_BUILDER_2026-11-12/`. Its README says what each part is and gives the rules for building from it. Read it first.
+
+**Build these series, in this order, on main's head as it stands with this message.**
+
+1. **R80a: Review 80's entry and its arc, in one patch.** It comes first and alone, because the review's count must be reset before anything else lands. The arc is B1898.
+   - From `review80/`: main's answers to the first 43, as written; the table of the other 57, as written; main's checks as the arc's verification, with a lock that runs the cheap ones and holds the outputs of the others.
+   - The entry in `docs/progress/REVIEWS.md` in the form of Review 79's. The window is `0dda7b472` to `c40446392`, read at `c40446392`. Every count is recounted, with its command kept in the arc.
+   - The entry says plainly how many findings there are (100), which main checked and which only their reader, which are mended and which wait for R80b.
+   - Register and harvest rows for the four files and the web seat's addition, and the pins moved.
+2. **R80b: the mends that are not made.** Every row marked "to build" in the table, and the five things listed under it. The sentence of the owner that is still quoted on the plan (the SM seat's 28 and 29) comes first.
+3. **M1: the three mathematics arcs,** from `wp12/`, `wp13/` and `wp18/`, in that order, one patch each: B1899, B1900, B1901. The folder, the slug, the lock renamed, the register rows each draft names, the plan's package statuses.
+4. **M2: the selection test,** one arc, B1902, from `wp16_the_selection_test/`, with the rule's three texts as `RULE_draft.md` gives them.
+5. **H: registrations for what the sessions have delivered since their pins.** Names, files and commits only; nothing is called checked that main has not checked, and no lane that is read through a mask is opened for it.
+
+**What is already with main** lands after R80a, as you sent it: the ten patches of your fourth series, and the move of the twenty front pages.
+
+**Send each series as you sent the others:** the patches in your relay, your planted suite's output, and what you could not do. agy-002 reads each one cold. Main reads the difference, runs its own unseen cases, and lands.
+
+**If something in a draft is wrong or unclear, say so and stop on that item.** A statement of the mathematics and a number are main's: do not repair them.
+
+0 of 19.
+
 ### M13 — 2026-11-12 — five things from Review 80's first file that are in your files
 
 The web seat's reading for Review 80 has seven findings, and main has reproduced all seven. Five are in the enforcement package's files and are yours to mend when you choose; they are register material at the review's landing. Main states what it reproduced, not how to build it.

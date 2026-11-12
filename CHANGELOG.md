@@ -1,5 +1,16 @@
 # Changelog
 
+## S306p THE OWNER'S DIRECTION ENTERED: MAIN ON THE FRONTIER, THE RECORD-KEEPING HANDED TO THE BUILDER; REVIEW 80'S FOUR FILES ARE IN (P-831, P-832, P-833) (2026-11-12)
+
+- **The owner's direction on main's own work** (P-832): main works the frontier mathematics; the record-keeping and the hygiene are built by another session as patches, read cold by a verifying session, and landed by main after its own check.
+- **What is handed over** is one folder, `docs/handoffs/MAIN_TO_BUILDER_2026-11-12/`: main's answers to the first 43 findings of Review 80, the table of the other 57 with what main checked, every check main ran, three mathematics drafts (the carrier and the surface; the moves; the parent algebra), today's selection test with the rule that follows from it, and three weave rows recomputed.
+- **Review 80:** all four readers' files are in, 100 findings, every quotation found by machine. The first 43 all held on main's own check, and main's mends for them land here. Of the other 57 main has checked 37 in full and parts of three more, every one held; twelve of those are mended here (the SM seat's 4 to 9 in B1892, and 11, 13 and 15 to 18 in B1893). The review's entry and arc, and the mends that are left, are built by the builder (its page, M14) and read cold by agy-002 (M15). The review is open until that entry lands (P-833).
+- **A word main used wrongly today, found by the SM seat:** the entries of 2026-11-12 below say that findings held "on main's own reproduction". The protocol's § 12 keeps "reproduced" for the same code run again on a clean checkout. What main did is a check of its own: a recount, a planted error, or a computation.
+- **The owner's question on selection** (P-831): whether the programme's expectation was misframed. Main's answer, and a test made the same hour: every one of the 88 sets of least departures on record is a whole mirror orbit; with every move acting and compounding, what never cancels under either set of moves is the parity of the number of moves, and the sector that cancels slowest changes with the set of moves at 11 of 12 levels. So main's own proposal, that rates would select with no choice, is refuted by the condition main had stated. The arc and the rule that follows are in the hand-over.
+- **No arc lands.**
+
+0 of 19.
+
 ## S306p REVIEW 80: TWO FILES OF FOUR ARE IN AND ALL 43 FINDINGS HOLD; THE OTHER TWO READERS HAVE STARTED (P-830) (2026-11-12)
 
 - **The web seat's seven findings and agy-002's thirty-six all hold on main's own reproduction:** by recounts from git and from the files, by planted errors of main's own in a scratch checkout, and by giving the checks' own functions constructed cases. Main's share is mended and held for the review's landing; eighteen are in the builder's files.

@@ -1,0 +1,19 @@
+{
+ "id": "B[[N]]",
+ "verdict": "PROVED",
+ "claim_one_line": "THE MOVES: WHAT 'NO PERIOD' REMOVES AMONG THE GRAMMAR'S WORDS, AND THE STATUS OF EACH OF THE FOUR ITEMS (WP-1.3's first step; exact integer matrices, 11 checks, none failing). None of the four items is derived from the principle here: the unit shears (GM2) are declared; no period (GM3) is declared, as two clauses; reversible updates (GM5a) are declared; inverse moves (GM5b) are a reading adopted at version 1.48 by a ruling that a computation made. WHAT 'NO PERIOD' DOES: with the two shears alone no word has finite order (all 8,190 positive words of length at most 12; for every length, since such a product has non-negative entries and a diagonal of at least 1), the words that are not hyperbolic are exactly the words in one letter, and 'no period' removes none of them: what removes them is the clause that both letters occur, under which the trace is at least 3 and is 3 at LR and RL alone. With the inverse letters every trace from -2 to 2 occurs, the words of trace -1, 0 and 1 have orders 3, 4 and 6, and 'no period' removes exactly those; a single shear is the identity at no power and stays. This is the content, computed, of B1867's finding that the principle's formal statement removes finite order and not a fixed direction. NOT SHOWN: that the principle forces any of the four, or that both letters must occur. The foundation is not changed in this arc. 0 of 19.",
+ "scope": {
+  "frame": "none",
+  "object": "words in the two unit shears and their inverses, as integer matrices",
+  "reach": "general",
+  "hypotheses": [
+   "GM2, the alphabet, for part 1",
+   "GM5b, the inverse letters, for part 2"
+  ]
+ },
+ "depends_on": [
+  "B1867",
+  "B1662"
+ ],
+ "instrument": false
+}

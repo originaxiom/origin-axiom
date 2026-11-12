@@ -41,7 +41,7 @@ full and ran none of its code.
 | G5, nothing greater on a grid | holds; grid's top 0.99991 of the peak | 99 × 205 points of the strip | none above; top 0.99974 |
 | the coefficients c(11), c(19) | −1.11318395792, −0.171571737965 | c(11) from main's product | −1.11318395792 |
 
-- **Main's precision is 30 digits and the seat's is 40.** The agreements are to main's precision.
+- **Main's precision is 30 digits and the seat's is 40.** The agreements are to main's precision. [CORRECTED 2026-11-12 (Review 80; found by a reading on another family of model and reproduced by main): the grid is made at 18 digits, and three checks are made on it: A4, A5 and H5. The verdict line was given this note at Review 79's second round, with "two checks"; this page was not.]
 - **Two of G3's four zeros test nothing,** as the seat says: on x = 0 and x = ½ every term of a sine series
   vanishes. Main's run prints exactly 0 there. [CORRECTED 2026-11-12 (Review 79): on x = 0 only. On x = ½ the check is a
   threshold: the series is very small there and not exactly 0, and the run prints no value.]

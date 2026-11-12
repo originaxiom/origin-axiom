@@ -1,0 +1,85 @@
+{
+ "checks": [
+  {
+   "check": "the linear part of L at the origin is (x, y, z) -> (x, z, -y)",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "the linear part of R at the origin is (x, y, z) -> (z, y, -x)",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "each is a quarter turn: of order 4 and determinant 1, dL fixing the first axis and dR the second",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "the two quarter turns generate a group of order 24, all of determinant 1",
+   "holds": true,
+   "detail": "{'order': 24, 'determinants': {1: 24}, 'element orders': {1: 1, 2: 9, 3: 8, 4: 6}, 'rotations (determinant 1)': 24, '-1 in the group': False}"
+  },
+  {
+   "check": "its elements have the orders of the rotations of a cube: 1, 9, 8, 6 of orders 1, 2, 3, 4",
+   "holds": true,
+   "detail": "{1: 1, 2: 9, 3: 8, 4: 6}"
+  },
+  {
+   "check": "it is the group of signed permutation matrices of determinant 1",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "with the sign it has order 48, half of each determinant, and -1 is in it",
+   "holds": true,
+   "detail": "{'order': 48, 'determinants': {-1: 24, 1: 24}, 'element orders': {1: 1, 2: 19, 3: 8, 4: 12, 6: 8}, 'rotations (determinant 1)': 24, '-1 in the group': True}"
+  },
+  {
+   "check": "-1 is not in the group of the two moves alone",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "the seat's first block gives the same five facts for the group with the sign",
+   "holds": true,
+   "detail": "{'order': True, 'determinants': True, 'element orders': True, 'rotations (determinant 1)': True, '-1 in the group': True}"
+  },
+  {
+   "check": "planted: with the second move replaced by the identity the group has order 4",
+   "holds": true,
+   "detail": ""
+  }
+ ],
+ "failing": [],
+ "the rotations": {
+  "order": 24,
+  "determinants": {
+   "1": 24
+  },
+  "element orders": {
+   "1": 1,
+   "2": 9,
+   "3": 8,
+   "4": 6
+  },
+  "rotations (determinant 1)": 24,
+  "-1 in the group": false
+ },
+ "with the sign": {
+  "order": 48,
+  "determinants": {
+   "-1": 24,
+   "1": 24
+  },
+  "element orders": {
+   "1": 1,
+   "2": 19,
+   "3": 8,
+   "4": 12,
+   "6": 8
+  },
+  "rotations (determinant 1)": 24,
+  "-1 in the group": true
+ }
+}

@@ -87,3 +87,29 @@ def test_the_page_quotes_the_sealed_file_and_says_what_was_not_run():
     # ADDED 2026-11-12 (Review 79): the page's row "14 pass" had no run behind it in this file.  The run is the file's last section now.
     last = other.split("ADDED 2026-11-12 (REVIEW 79)")
     assert len(last) == 2 and "tests/test_gates_are_a_function_of_the_commit.py" in last[1] and "\n14 passed in" in last[1] and "failed" not in last[1]
+
+
+# ------------------------------------------------------------------------------------------------ added 2026-11-12 (Review 80)
+# A session that built none of this planted against the lock.  The table of gates that read history shrunk to two names
+# passed; the refusal of an empty checkout switched off passed; the verdict file made unreadable passed.
+
+def test_the_gates_that_read_history_on_the_day_of_the_first_series_still_do():
+    g = _gates()
+    first = {"append-only", "artifact-hashes", "attribution", "closure-generated", "harvest-debt", "lead-debt", "log-changelog-paired", "point-debt",
+             "relay-debt", "review-fires", "seal-immutable", "seal-order-unshown", "views-fresh", "views-generated"}
+    assert first <= g.READS_HISTORY, sorted(first - g.READS_HISTORY)
+
+
+def test_a_gate_that_reads_git_is_refused_where_the_checkout_is_empty(monkeypatch):
+    g = _gates()
+    monkeypatch.setattr(g, "checkout_state", lambda *a, **k: "empty")
+    for name, what in (("path-refs", "which files are tracked"), ("append-only", "the history")):
+        ok, why = g._refusing(name, lambda: (True, "ok"))()
+        assert ok is False and why == g.REFUSED_EMPTY % what, (name, why)
+    monkeypatch.setattr(g, "checkout_state", lambda *a, **k: "full")              # the control: where the checkout is whole the gate is asked
+    assert g._refusing("path-refs", lambda: (True, "ok"))() == (True, "ok")
+
+
+def test_the_verdict_file_is_read():
+    v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
+    assert v["id"] == "B1890" and v["verdict"] == "PROVED" and v["claim_one_line"].startswith("THE FIRST")

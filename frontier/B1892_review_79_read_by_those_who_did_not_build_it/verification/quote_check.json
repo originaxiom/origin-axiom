@@ -3,21 +3,45 @@
   "its commit": "4d0a46b93",
   "quotations": 59,
   "found": 59,
+  "in the file the finding names": 0,
+  "in the arc's own folder, no file being named": 45,
+  "on a wide page only": 14,
+  "placed nowhere": 0,
+  "rows with more cells than their table's header": 0,
+  "lines that begin as a row and give fewer than four cells": 0,
   "control: the first quotation altered by one character is reported missing": true
  },
  "the web seat": {
   "its commit": "0455e766c",
   "quotations": 11,
-  "found": 11
+  "found": 11,
+  "in the file the finding names": 11,
+  "in the arc's own folder, no file being named": 0,
+  "on a wide page only": 0,
+  "placed nowhere": 0,
+  "rows with more cells than their table's header": 0,
+  "lines that begin as a row and give fewer than four cells": 6
  },
  "agy-002": {
   "its commit": "7af2a8670",
   "quotations": 26,
-  "found": 26
+  "found": 26,
+  "in the file the finding names": 26,
+  "in the arc's own folder, no file being named": 0,
+  "on a wide page only": 0,
+  "placed nowhere": 0,
+  "rows with more cells than their table's header": 0,
+  "lines that begin as a row and give fewer than four cells": 0
  },
  "agy-exp": {
   "its commit": "18634218e",
   "quotations": 15,
-  "found": 15
+  "found": 15,
+  "in the file the finding names": 15,
+  "in the arc's own folder, no file being named": 0,
+  "on a wide page only": 0,
+  "placed nowhere": 0,
+  "rows with more cells than their table's header": 0,
+  "lines that begin as a row and give fewer than four cells": 0
  }
 }

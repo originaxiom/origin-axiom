@@ -69,7 +69,8 @@ def test_the_forced_counts_and_the_value_sets():
     assert sorted(M.labels) == sorted(
         ["-1", "-1/phi", "-2", "-phi", "0", "1", "1/phi", "2", "phi"])
     # five absolute tones = |t/2| over that set:
-    assert {"0", "1/2", "1/(2phi)", "phi/2", "1"} <= set(M.tone_labels) | {"0"} or True
+    # [CORRECTED 2026-11-12 (Review 80, the web seat's finding 1): this assert ended in `or True`, which made it unable to fail; the constant is gone and the statement holds]
+    assert {"0", "1/2", "1/(2phi)", "phi/2", "1"} <= set(M.tone_labels) | {"0"}
     # the mirror value set carries the quarter family:
     assert {"1/4", "phi/4", "1/(4phi)"} <= {s.lstrip("-") for s in M.mir_labels}
 

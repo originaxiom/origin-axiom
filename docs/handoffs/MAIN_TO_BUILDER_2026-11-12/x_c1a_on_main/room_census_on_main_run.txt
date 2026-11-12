@@ -1,0 +1,32 @@
+states with at most 12 ends: 27
++LR        ends  1  characters     2  n(1) 0  rooms {'0': 2}  largest min(n, m_A) 0
+-LR        ends  5  characters    32  n(1) 0  rooms {'0': 32}  largest min(n, m_A) 0
++LLR       ends  2  characters     4  n(1) 0  rooms {'0': 4}  largest min(n, m_A) 0
+-LLR       ends  6  characters    64  n(1) 0  rooms {'0': 61, '1': 3}  largest min(n, m_A) 0
++LLLR      ends  3  characters     8  n(1) 0  rooms {'0': 8}  largest min(n, m_A) 0
+-LLLR      ends  7  characters   128  n(1) 0  rooms {'0': 114, '1': 14}  largest min(n, m_A) 1
++LLRR      ends  4  characters    16  n(1) 0  rooms {'0': 16}  largest min(n, m_A) 0
+-LLRR      ends  8  characters   256  n(1) 0  rooms {'0': 248, '2': 8}  largest min(n, m_A) 0
++LLLLR     ends  4  characters    16  n(1) 0  rooms {'0': 16}  largest min(n, m_A) 0
+-LLLLR     ends  8  characters   256  n(1) 0  rooms {'0': 208, '1': 48}  largest min(n, m_A) 1
++LLLRR     ends  6  characters    64  n(1) 0  rooms {'0': 64}  largest min(n, m_A) 0
+-LLLRR     ends 10  characters  1024  n(1) 0  rooms {'0': 929, '1': 70, '2': 25}  largest min(n, m_A) 2
++LLRLR     ends  8  characters   256  n(1) 0  rooms {'0': 236, '1': 20}  largest min(n, m_A) 1
+-LLRLR     ends 12  characters  4096  n(1) 0  rooms {'0': 3608, '1': 411, '2': 59, '3': 18}  largest min(n, m_A) 2
++LLLLLR    ends  5  characters    32  n(1) 0  rooms {'0': 32}  largest min(n, m_A) 0
+-LLLLLR    ends  9  characters   512  n(1) 0  rooms {'0': 374, '1': 135, '2': 3}  largest min(n, m_A) 1
++LLLLRR    ends  8  characters   256  n(1) 0  rooms {'0': 251, '2': 5}  largest min(n, m_A) 0
+-LLLLRR    ends 12  characters  4096  n(1) 0  rooms {'0': 3481, '1': 423, '2': 183, '4': 9}  largest min(n, m_A) 2
++LLLRLR    ends 11  characters  2048  n(1) 0  rooms {'0': 1850, '1': 187, '2': 11}  largest min(n, m_A) 1
++LLLRRR    ends  9  characters   512  n(1) 0  rooms {'0': 497, '1': 9, '2': 6}  largest min(n, m_A) 1
++LLLLLLR   ends  6  characters    64  n(1) 0  rooms {'0': 61, '1': 3}  largest min(n, m_A) 0
+-LLLLLLR   ends 10  characters  1024  n(1) 0  rooms {'0': 664, '1': 340, '2': 20}  largest min(n, m_A) 1
++LLLLLRR   ends 10  characters  1024  n(1) 0  rooms {'0': 939, '1': 60, '2': 25}  largest min(n, m_A) 2
++LLLLRRR   ends 12  characters  4096  n(1) 0  rooms {'0': 3659, '1': 366, '2': 59, '3': 12}  largest min(n, m_A) 2
++LLLLLLLR  ends  7  characters   128  n(1) 0  rooms {'0': 114, '1': 14}  largest min(n, m_A) 1
+-LLLLLLLR  ends 11  characters  2048  n(1) 0  rooms {'0': 1168, '1': 792, '2': 88}  largest min(n, m_A) 2
++LLLLLLRR  ends 12  characters  4096  n(1) 0  rooms {'0': 3496, '1': 408, '2': 183, '4': 9}  largest min(n, m_A) 2
+the companion of +LLLR is L8a15: True
+the companion of -LR is o10_150729: True
+sign characters in all: 26158 | n(1) = 0 everywhere: True | largest room: 4
+room of three or more only with at most one trivial end: True | three or more trivial ends only with room at most two: True

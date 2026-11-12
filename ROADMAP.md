@@ -672,7 +672,7 @@ stage in the twisted frame and tested it once against data.**
 - **One Higgs fits the five non-electron mass ratios on none of W59's lines** in any reading of the up sector (B1660,
   NEGATIVE as sealed, a scoreboard). The miss is W94's down/lepton quantity. A second Higgs makes the ratios fittable,
   so its test must be blind.
-- **The owner's question "are we sure?"** was answered no, firewalled (P-179). Then the owner ruled, on main's
+- **The owner's question, whether the record was sure of it,** [in plain words since 2026-11-12; register rows P-796 and P-825] was answered no, firewalled (P-179). Then the owner ruled, on main's
   recommendation, that the pull-back acts on the records (B1662, GENESIS v1.48, next).
 - Review 64 found a lock stale since S133 (B1421) that the selective landing suites had missed, and two failures that
   occur only in parallel (R64-10, R64-11).

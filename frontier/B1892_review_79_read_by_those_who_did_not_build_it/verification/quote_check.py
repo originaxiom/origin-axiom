@@ -13,6 +13,14 @@ The agy family's two files are read by this script and printed by it nowhere: ma
 
 Where a reader's commit is not in the clone, that reader's count is reported as not checked here, and the committed result stands
 for it.
+
+[CHANGED 2026-11-12 (Review 80; found by a reading on another family of model, which planted five cases against this script and
+its lock, all five passing).  The rule above is WIDE: a quotation counts as found when it stands in any file of the finding's
+arc or in one of eighteen wide pages, so a quotation set under the wrong file passed.  The wide count is kept, since the
+committed result was made by it, and beside it each quotation is now placed STRICTLY: in the file its finding names; or, where
+the reader's file names no file, in the arc's own folder; or on a wide page only.  An empty quotation is no longer found.  The
+rows of a reader's table that this script does not read are counted: a row with more cells than its table's header (a pipe
+inside a cell), and a line that begins as a row and gives fewer than four cells.]
 """
 import json
 import pathlib
@@ -73,6 +81,8 @@ def quotations(reader, page):
 
 def found(q, arc, named, commits):
     q = " ".join(q.split())
+    if not q:
+        return False                                  # an empty quotation is in every file; it is a quotation of nothing
     for commit in commits:
         rc, ls = git("ls-tree", "-r", "--name-only", commit)
         files = ls.split("\n")
@@ -82,6 +92,46 @@ def found(q, arc, named, commits):
         if any(q in text(commit, f) for f in pool):
             return True
     return False
+
+
+def placed(q, arc, named, commits):
+    """where the quotation stands, strictly: 'named' (in the file the finding names, or one of that name where the path is not at
+    the commit), 'arc' (the reader names no file: in the arc's own folder), 'wide' (on a wide page only), or None"""
+    q = " ".join(q.split())
+    if not q:
+        return None
+    wide = False
+    for commit in commits:
+        files = git("ls-tree", "-r", "--name-only", commit)[1].split("\n")
+        if named:
+            cand = [named] if named in files else [f for f in files if f.endswith(named.split("/")[-1])]
+            if any(q in text(commit, f) for f in cand):
+                return "named"
+        elif arc != "window" and any(q in text(commit, f) for f in files if f.startswith("frontier/%s_" % arc)):
+            return "arc"
+        wide = wide or any(q in text(commit, f) for f in WIDE if f in files)
+    return "wide" if wide else None
+
+
+def rows_not_read(reader, page):
+    """the lines of a reader's table that quotations() does not read as it should: (more cells than the header, fewer than four)"""
+    if reader in ("the SM seat", "agy-exp"):
+        return (0, 0)                                 # their files are not tables
+    more = few = 0; ncol = None; lines = page.split("\n")
+    for i, line in enumerate(lines):
+        if not line.startswith("|"):
+            ncol = None; continue
+        c = [x.strip() for x in line.strip().strip("|").split(" | ")]
+        if i + 1 < len(lines) and set(lines[i + 1].strip()) <= set("|-: ") and lines[i + 1].strip():
+            ncol = len(c); continue
+        if set(line.strip()) <= set("|-: "):
+            continue
+        if re.match(r"\|\s*(B\d+|window)\s*\|", line):
+            if len(c) < 4:
+                few += 1
+            elif ncol is not None and len(c) > ncol:
+                more += 1
+    return (more, few)
 
 
 def build():
@@ -94,6 +144,11 @@ def build():
         qs = quotations(reader, page)
         hits = [found(q, arc, named, read) for arc, named, q in qs]
         res[reader] = {"its commit": commit, "quotations": len(qs), "found": sum(hits)}
+        where = [placed(q, arc, named, read) for arc, named, q in qs]
+        more, few = rows_not_read(reader, page)
+        res[reader].update({"in the file the finding names": where.count("named"), "in the arc's own folder, no file being named": where.count("arc"),
+                            "on a wide page only": where.count("wide"), "placed nowhere": where.count(None),
+                            "rows with more cells than their table's header": more, "lines that begin as a row and give fewer than four cells": few})
         if reader == "the SM seat" and qs:
             arc, named, q = qs[0]
             res[reader]["control: the first quotation altered by one character is reported missing"] = not found(q[:-1] + ("x" if q[-1] != "x" else "y"), arc, named, read)

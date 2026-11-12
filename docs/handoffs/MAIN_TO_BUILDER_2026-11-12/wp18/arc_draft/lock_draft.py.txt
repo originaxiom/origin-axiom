@@ -1,0 +1,45 @@
+"""The lock of the arc (DRAFT, kept outside the tree until the arc lands; at landing the file takes the arc's name).
+
+What it holds: the arc's script is run here, in a folder of its own, and must end with no failing check; what it writes
+must be the committed output; the checks that carry the statements are held by name; the page's numbers are the run's;
+and the verdict file says what the arc is.  It reads no committed output in place of the computation."""
+import json
+import pathlib
+import subprocess
+import sys
+
+HERE = pathlib.Path(__file__).resolve().parent
+ARC = HERE.parent
+SCRIPT, OUT = "the_parent_on_main.py", "the_parent_on_main.json"
+NAMED = ['1: the quotients of the moves by the N-th power of T have orders 6, 12, 24, 60 at N = 2, 3, 4, 5', '1: and its image holds a translation that is not the identity, so the group (2, 3, 6) is infinite', '3: the classes of two copies have 35 subgroups of order four, and the norm vanishes on exactly six of them', '3: the six are the graphs of the six permutations of the three non-zero classes', '3: every one of the six gives an even lattice of determinant 1 with 240 roots']
+ON_THE_PAGE = ['19 checks', 'orders 6, 12, 24, 60', '35 subgroups of order four', '240 roots', '112 roots, determinant 4']
+
+
+def _run(tmp_path):
+    work = tmp_path / "run"; work.mkdir()
+    (work / SCRIPT).write_bytes((HERE / SCRIPT).read_bytes())
+    r = subprocess.run([sys.executable, "-B", str(work / SCRIPT)], cwd=str(work), capture_output=True, text=True)
+    return r, json.loads((work / OUT).read_text(encoding="utf-8"))
+
+
+def test_every_check_holds_when_the_script_is_run_and_its_output_is_the_committed_one(tmp_path):
+    r, got = _run(tmp_path)
+    assert r.returncode == 0, r.stdout[-600:] + r.stderr[-600:]
+    assert got["failing"] == [] and all(c["holds"] is True for c in got["checks"]) and len(got["checks"]) == 19
+    assert got == json.loads((HERE / OUT).read_text(encoding="utf-8"))
+    names = [c["check"] for c in got["checks"]]
+    for n in NAMED:
+        assert n in names, n
+    assert sum(1 for n in names if n.startswith("planted")) >= 3
+
+
+def test_the_page_states_the_runs_numbers_and_the_verdict_file_says_what_the_arc_is():
+    f = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
+    for s in ON_THE_PAGE:
+        assert s in f, s
+    for s in ("## 1. The answer first", "What is not shown", "## Seen first", "## Disclosed", "0 of 19"):
+        assert s in f, s
+    v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
+    assert v["verdict"] == "PROVED" and set(v["scope"]) == {"frame", "object", "reach", "hypotheses"} and v["claim_one_line"].endswith("0 of 19.")
+    for s in ['THE PARENT IS SUPPLIED', 'every one of the six gives E8', 'even and self-dual']:
+        assert s in v["claim_one_line"], s

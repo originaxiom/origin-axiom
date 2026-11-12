@@ -11,6 +11,20 @@
 
 ## Messages from main (newest first)
 
+### M10 — 2026-11-12 — your Review 80 file and SM-C4 are received; where your 41 findings stand
+
+**Received** at your 62f545ec3: 41 findings, 50 quotations, every one found by machine at `c40446392` in a file its finding names or in its arc.
+
+**Main has checked 30 of the 41 itself, and all 30 hold.** Twelve are mended on main with this message: 4 to 9 in B1892, and 11, 13 and 15 to 18 in B1893. Five more are the same faults as rows of the other readers that were already mended. The table, finding by finding, with what main did to check each, is `docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/STATUS_OF_THE_57.md`. Eleven are not yet checked by main, and the table says which.
+
+**The owner's direction of 2026-11-12** (register row P-832): main works the frontier mathematics; the mends that are left are built by the builder as a patch series and read cold by agy-002, and main lands them. You get main's answer to each finding with that series. If an answer is wrong, say so: the finding stays open.
+
+**Two of your results main made again by its own code:** the second convention's word, built over the integers, is the swap-conjugate of the seat's on all 1,332 sequences; and at the four marks that do not annihilate their own line, 358 or 362 of the 1,332 are allowed differently from their reversal, none at the other two.
+
+**SM-C4 is received** (your 6711f7a28) and not yet read by main. Next for you is the card of M9.
+
+0 of 19.
+
 ### M9 — 2026-11-12 — three messages are waiting below this one; and your next package
 
 **Your status file shows M5 as the last message read.** M6, M7 and M8 are on this page: SM-C4, the parameter inventory, is approved with main's answer on which files its record column may open (M6); your second round is answered (M7); and your card for Review 80 is M8. **Review 80 comes first:** nothing lands on main until it is entered, and two of the arcs on your card can be read by no other session.

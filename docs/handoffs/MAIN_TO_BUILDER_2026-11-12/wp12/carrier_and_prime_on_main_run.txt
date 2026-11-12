@@ -1,0 +1,73 @@
+ok    a -> ab is an automorphism
+ok    a -> ba is an automorphism
+ok    b -> ba is an automorphism
+ok    b -> ab is an automorphism
+ok    the swap (a, b) -> (b, a) is an automorphism
+ok    the tick (a, b) -> (ab, a) is an automorphism
+ok    A: the abelian quotient commutes with a -> ab  [1456 words to length 6]
+ok    A: the abelian quotient commutes with a -> ba  [1456 words to length 6]
+ok    A: the abelian quotient commutes with b -> ba  [1456 words to length 6]
+ok    A: the abelian quotient commutes with b -> ab  [1456 words to length 6]
+ok    A: the abelian quotient commutes with the swap (a, b) -> (b, a)  [1456 words to length 6]
+ok    A: the abelian quotient commutes with the tick (a, b) -> (ab, a)  [1456 words to length 6]
+ok    B: [a, b] is the identity in Z^2
+ok    B: a -> ab keeps the class of [a, b]
+ok    B: a -> ba keeps the class of [a, b]
+ok    B: b -> ba keeps the class of [a, b]
+ok    B: b -> ab keeps the class of [a, b]
+ok    B: the swap (a, b) -> (b, a) sends [a, b] to the class of its inverse
+ok    B: the tick (a, b) -> (ab, a) sends [a, b] to the class of its inverse
+ok    B: the classes to length 8 that the four record moves keep are powers of [a, b]  [4 classes kept, lengths [4, 8]]
+ok    C: at the quaternion point the three traces are 0, 0, 0
+ok    C: at the quaternion point tr[a, b] = -2
+ok    C: Fricke's polynomial gives -2 at (0, 0, 0) and +2 at the trivial point (2, 2, 2)
+ok    C: Fricke's polynomial agrees with the matrices at the quaternion point and at a faithful pair
+ok    C: at the quaternion point every triple commutator is the identity
+ok    C: through a commuting pair tr[a, b] = +2  [32 pairs, a control of the reader: for any commuting pair [a, b] maps to the identity]
+ok    C: in the Heisenberg group [a, b] is not the identity
+ok    C: in the Heisenberg group every triple commutator is the identity
+ok    C: every word to length 8 that is trivial in the Heisenberg group is trivial at the quaternion point  [64 such words]
+ok    C: in a faithful copy of F_2 the triple commutator [[a, b], a] is not the identity
+ok    C: no reduced word to length 8 is trivial in that copy
+ok    D: four compact surfaces have a free fundamental group of rank two  [[('orientable', 0, 3), ('orientable', 1, 1), ('non-orientable', 1, 2), ('non-orientable', 2, 1)]]
+ok    D: every boundary curve is in the commutator subgroup on one surface only, the once-punctured torus  [[('orientable', 1, 1)]]
+ok    D: each list of boundary curves satisfies its surface's relation
+ok    D: the homology class of a boundary curve has a finite orbit under the moves only when it is zero  [non(1, 2) (-2, -1): 127 then 8191; non(1, 2) (0, 1): 64 then 4096; non(2, 1) (-2, -2): 127 then 8191; ori(0, 3) (-1, -1): 127 then 8191; ori(0, 3) (0, 1): 64 then 4096; ori(0, 3) (1, 0): 64 then 4096; ori(1, 1) (0, 0): 1 then 1]
+ok    E: at p = 2 the commutator is a scalar zeta^k with k not 0  [k = 1]
+ok    E: at p = 2 the four record moves keep the scalar
+ok    E: at p = 2 the swap and the tick send zeta^k to zeta^-k
+ok    E: at p = 2 one sector is carried to itself by the swap and the tick: yes
+ok    E: at p = 2 the sector and its conjugate together are carried to themselves
+ok    E: at p = 3 the commutator is a scalar zeta^k with k not 0  [k = 2]
+ok    E: at p = 3 the four record moves keep the scalar
+ok    E: at p = 3 the swap and the tick send zeta^k to zeta^-k
+ok    E: at p = 3 one sector is carried to itself by the swap and the tick: no
+ok    E: at p = 3 the sector and its conjugate together are carried to themselves
+ok    E: at p = 5 the commutator is a scalar zeta^k with k not 0  [k = 4]
+ok    E: at p = 5 the four record moves keep the scalar
+ok    E: at p = 5 the swap and the tick send zeta^k to zeta^-k
+ok    E: at p = 5 one sector is carried to itself by the swap and the tick: no
+ok    E: at p = 5 the sector and its conjugate together are carried to themselves
+ok    E: at p = 7 the commutator is a scalar zeta^k with k not 0  [k = 6]
+ok    E: at p = 7 the four record moves keep the scalar
+ok    E: at p = 7 the swap and the tick send zeta^k to zeta^-k
+ok    E: at p = 7 one sector is carried to itself by the swap and the tick: no
+ok    E: at p = 7 the sector and its conjugate together are carried to themselves
+ok    E: at p = 11 the commutator is a scalar zeta^k with k not 0  [k = 10]
+ok    E: at p = 11 the four record moves keep the scalar
+ok    E: at p = 11 the swap and the tick send zeta^k to zeta^-k
+ok    E: at p = 11 one sector is carried to itself by the swap and the tick: no
+ok    E: at p = 11 the sector and its conjugate together are carried to themselves
+ok    E: at p = 13 the commutator is a scalar zeta^k with k not 0  [k = 12]
+ok    E: at p = 13 the four record moves keep the scalar
+ok    E: at p = 13 the swap and the tick send zeta^k to zeta^-k
+ok    E: at p = 13 one sector is carried to itself by the swap and the tick: no
+ok    E: at p = 13 the sector and its conjugate together are carried to themselves
+ok    planted: a pair that is not a basis is refused
+ok    planted: a changed boundary word breaks the surface's relation
+ok    planted: [b, a] is not in the class of [a, b]
+ok    planted: asked about the record moves alone, the sector at 3 is kept: the verdict comes from the swap and the tick
+ok    planted: in the Heisenberg group a and b do not commute
+ok    planted: a planted commutator as the Klein bottle's boundary is counted: the census reads the words it is given
+
+71 checks, 0 failing

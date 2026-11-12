@@ -67,3 +67,16 @@ def test_the_gates_and_the_findings():
     f = _read("frontier", "B1878_the_goal_as_ruled_in_the_governing_documents", "FINDINGS.md")
     for s in ("The repo sweep:", "**The ceiling did not move.**", "**Which file governs was main's choice.**", "It is a\n  tripwire for the plain cases"):
         assert s in f, s
+
+
+# ------------------------------------------------------------------------------------------------ added 2026-11-12 (Review 80)
+# A session that built none of this planted against the lock: the dated note removed from the page passed, and the verdict
+# file made unreadable passed.
+
+def test_the_verdict_and_the_dated_notes_are_held():
+    arc = pathlib.Path(__file__).resolve().parents[1]
+    v = json.loads((arc / "arc_verdict.json").read_text(encoding="utf-8"))
+    assert v["id"] == "B1878" and v["verdict"] == "PROVED"
+    assert "[NOTE 2026-11-12 (Review 80" in v["claim_one_line"] and "replaced the same day by B1880, five of them" in v["claim_one_line"]
+    f = (arc / "FINDINGS.md").read_text(encoding="utf-8")
+    assert "> **NOTE 2026-11-12 (Review 79's second round" in f and "> **CORRECTED 2026-11-12 (Review 80" in f and "Five, not" in f

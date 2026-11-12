@@ -19,7 +19,10 @@ def test_artifacts_present_and_step_iii_locked():
 
 def test_decisive_identities_exact():
     phi = (1 + sp.sqrt(5)) / 2
-    assert sp.expand(1/(2 - phi) - phi**2) != 0 or True
+    # [REMOVED 2026-11-12 (Review 80, the web seat's finding 1): a line here read
+    #      assert sp.expand(1/(2 - phi) - phi**2) != 0 or True
+    #  The constant made it unable to fail.  Without it the line passes only because expand() does not reduce the
+    #  expression, which is zero: it said nothing of the mathematics.  The identity is the assert below.]
     assert sp.expand((1/(2 - phi) - phi**2).rewrite(sp.sqrt)) == 0 or         sp.simplify(1/(2 - phi) - phi**2) == 0
     assert sp.expand(phi**2 - (1 - phi)**2 - sp.sqrt(5)) == 0
     assert sp.simplify(2*sp.cos(sp.pi/5) - phi) == 0

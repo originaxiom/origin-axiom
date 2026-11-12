@@ -63,6 +63,11 @@ the constitution and `CLAIMS.md` already says it is governed by it, so this is t
 > below `docs/` and `papers/` were not read, and the three frozen lines were held by count. B1880 replaced all four.
 > This page did not say so, and its verdict file names no later arc. What the gates do today is B1880's page and the
 > gates' own file.
+>
+> **CORRECTED 2026-11-12 (Review 80; found by a reading on another family of model and reproduced by main).** Five, not
+> four. This section also says that the commit messages are read on the first-parent line. A commit that arrives by a
+> merge is not on that line and was not read; B1880 replaced that rule as well, and the gate reads every commit
+> reachable from the head. The verdict line carries a note of this from today.
 
 | planted | result |
 |---|---|

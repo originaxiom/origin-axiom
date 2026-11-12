@@ -18,10 +18,10 @@ run. Nothing in the mathematics is touched. 0 of 19.*
 - **It is the seat's to close in a later series,** as the gap of the first series was. Without the series the same
   thing passes, and more besides: the series narrows the hole and does not open it.
 - **What the seat said of its own patches is what main found.** Each patch's lock fails on the commit before it, in
-  the numbers the seat gave.
+  the numbers the seat gave. [CORRECTED 2026-11-12 (Review 80, the SM seat's finding 11): five of the six. The sixth patch's lock was not run by main on the commit before it: the patch adds one assertion that holds there as well, as this arc's own run file says.]
 - **The planted suite,** run by main on the end of the series: controls 5 of 5; 19 of 32 planted cases caught, where
-  main's head before the series caught 14. The five the series set out to close are caught. The thirteen that still
-  pass are for the series after it.
+  main's head before the series caught 14. [NOTED 2026-11-12 (Review 80, the SM seat's finding 16): the suite's output names the commit `f6e89032a`, which is not on main: it is main's scratch commit of the series applied to its anchor, made to run the suite and not kept. The 14 is B1892's run at `0dda7b472`; the gates' file is the same at that commit and at the series' anchor.] The five the series set out to close are caught. The thirteen that still
+  pass are for the series after it. [CORRECTED 2026-11-12 (Review 80, the SM seat's finding 15): for later series. The series after this one is the third; this page puts one of the mends in the fourth, and register row P-806 puts two more there.]
 
 ## 2. What the series does
 
@@ -62,11 +62,11 @@ series is read.
 | U11.a | the registry of retracted phrases cut to its header: the file is there and has no rows | retraction-sweep |
 | U11.b | the last ten rows of the registry deleted and one of the ten phrases pasted into the README | retraction-sweep |
 | U12.a | every lock under an arc's own folder deleted (the seat's case deletes those in `tests/`): 65 files | test-vacuity |
-| U12.b | every lock in `tests/` kept and marked to skip: the tests exist and never run. 1,407 files | **artifact-hashes only: by accident** |
+| U12.b | every lock in `tests/` kept and marked to skip: the tests exist and never run. 1,407 files | **artifact-hashes only: by accident** [NOTED 2026-11-12 (Review 80, the SM seat's finding 18): 1,407 is the number of files named test_b*.py that the runner marked. By the series' own definition a lock in tests/ is any test_*.py there, 1,537 files at the series' anchor `e6298271a`; the case as run departs from its wording in this too. No conclusion changes] |
 | U12.c | twenty locks renamed to a name the suite does not collect | test-vacuity, chain-locks, law-map-provenance |
 | U13.a | every second row of the law map deleted: 162 of 324 | law-map-provenance |
 | U13.b | the theorem ledger cut after its first link | chain-locks |
-| U13.c | the identification ledger cut to its header, with the baseline left as it is | identification-register |
+| U13.c | the identification ledger cut to its header, with the baseline left as it is | identification-register [NOTED 2026-11-12 (Review 80, the SM seat's finding 13): the message committed for this case comes from a check that is older than the series ("declares ..., no ledger row"). The case is caught without the series; nothing committed shows the series' own rule firing on it, so it is not one of those caught by a gate that looks for the fault] |
 
 - **The one caught by accident.** No gate looks for a lock that is switched off. The hash gate failed because the
   files it hashes had changed. A lock that no hash list names could be made to skip unseen. The seat has since sent
@@ -103,7 +103,7 @@ Main read all six patches, 1,147 lines. Two things:
 | the series applied by `git am` on main's head `896cae025` | six commits, no conflict |
 | each patch's lock, run on the commit before the patch | patch 1: all 5 fail. Patch 2: 4 fail, 5 pass. Patch 3: 5 fail, 9 pass. Patch 4: 5 fail, 14 pass. Patch 5: 3 fail, 19 pass. These are the seat's numbers. Patch 6's was not run: its one assertion holds before it as well |
 | the series' own lock on the end of the series | 22 pass |
-| all 53 gates on the end of the series, views generated | 53 pass; one generated page changes |
+| all 53 gates on the end of the series, views generated | 53 pass; one generated page changes [NOTED 2026-11-12 (Review 80, the SM seat's finding 17): no committed output holds "one generated page changes", nor the fresh clone's figure of § 6, nor the 324 law titles and 57 links of the next row but one; a reader's recount agrees with 324 and 57. Evidence not kept, not a wrong number] |
 | main's own tests that name a gate or a debt checker, 47 files, views generated | 382 pass, 3 skipped, 0 fail |
 | nothing has left main's own ledgers since the anchor, by the series' rule | 324 law titles, 57 links, every lock file and every phrase are still there; no ceiling stands higher |
 
@@ -121,7 +121,7 @@ Main read all six patches, 1,147 lines. Two things:
 ## 7. What is not shown
 
 - **The whole suite on a fresh clone** was not run on the series. It was run on main's head before it, at
-  `896cae025`: 2 failed, 8,454 passed, 73 skipped, the two being the standing ones (register row P-239).
+  `896cae025`: 2 failed, 8,454 passed, 73 skipped, the two being the standing ones (register row P-239). [NOTED 2026-11-12 (Review 80, the SM seat's finding 17): no output of this run was committed.]
 - **Main's unseen cases were run on the series as built on an earlier head of main.** The patches have not changed
   since: the seat's folder was last changed at the commit main read then. They were not run again on today's head.
 - **Patch 6's lock was not run on the commit before it.**

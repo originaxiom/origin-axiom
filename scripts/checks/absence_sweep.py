@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-"""ABSENCE SWEEP -- the instrument behind THE ABSENCE RULE (WORKING_RULES, 2026-09-02; owner's words:
-"before you conclude we dont have something, swipe the repo first").
+"""ABSENCE SWEEP -- the instrument behind THE ABSENCE RULE (WORKING_RULES, 2026-09-02; the owner's rule: before
+concluding that the record lacks something, sweep the repository first).
+[In plain words since 2026-11-12 (register rows P-796 and P-825): this docstring quoted him.]
 
 THE FAILURE CLASS (ERROR_LEDGER E54, ABSENCE-WITHOUT-SWEEP). "We don't have X" is a universal statement
 over a population -- every branch head, filenames AND file contents, files deleted in history, and the

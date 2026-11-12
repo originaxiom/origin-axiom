@@ -130,3 +130,30 @@ def test_the_arc_says_what_it_is_and_is_not():
     v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
     assert v["id"] == "B1885" and v["claim_one_line"].endswith("0 of 19.") and v["weave_or_thread"].startswith("weave")
     assert "selects nothing" in v["claim_one_line"] and "not main's design" in v["claim_one_line"]
+
+
+# ------------------------------------------------------------------------------------------------ added 2026-11-12 (Review 80)
+# A session that built none of this planted against the lock.  The verdict changed to another word passed; the note on the
+# grid's precision taken out of the verdict line passed; and the peak was held to two negative second derivatives with no
+# determinant.  Each is held now.
+
+def test_the_verdict_and_the_note_on_the_grids_precision_are_held():
+    import re
+    v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
+    assert v["verdict"] == "PROVED"
+    assert "18 for the grid and the three checks made on it, A4, A5 and H5" in v["claim_one_line"]
+    f = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
+    assert "the grid is made at 18 digits, and three checks are made on it: A4, A5 and H5" in f
+    # the three are the script's: the checks it makes on the grid's values, after the precision is put back to 30
+    src = (HERE / "golden_state_on_main.py").read_text(encoding="utf-8")
+    a = src.index("mp.mp.dps = 18"); b = src.index("mp.mp.dps = 30", a); c = src.index("H6 main's point", b)
+    assert re.findall(r'check\("(A4|A5|H5) ', src[b:c]) == ["A4", "A5", "H5"]
+
+
+def test_the_peak_is_a_maximum_by_the_determinant_as_well():
+    x0, y0 = mp.mpf(RES["level_5"]["z_star"][0]), mp.mpf(RES["level_5"]["z_star"][1])
+    with mp.workdps(20):
+        F5 = m.Field(5); f = m.Form(F5, 300)
+        hxx = mp.diff(lambda x: f(mp.mpc(x, y0)) ** 2, x0, 2); hyy = mp.diff(lambda y: f(mp.mpc(x0, y)) ** 2, y0, 2)
+        hxy = mp.diff(lambda x, y: f(mp.mpc(x, y)) ** 2, (x0, y0), (1, 1))
+        assert hxx < 0 and hxx * hyy - hxy ** 2 > 0

@@ -1,0 +1,81 @@
+"""The lock of the arc on the carrier, the surface and the prime of one sector (WP-1.2's first step).
+
+DRAFT, kept outside the tree until the arc lands: at landing ARC is the arc's folder and the file takes the arc's name.
+
+What it holds: the arc's script is run here, in this process, and every one of its checks must hold; the checks that
+carry the five statements are held by name; the numbers on the page are the run's; and the four ways the reading could
+have been wrong are still among the planted checks.  It reads no committed output in place of the computation.
+"""
+import importlib.util
+import json
+import pathlib
+import re
+
+HERE = pathlib.Path(__file__).resolve().parent
+ARC = HERE.parent
+
+
+def _run():
+    spec = importlib.util.spec_from_file_location("carrier_and_prime_on_main", HERE / "carrier_and_prime_on_main.py")
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    m.CHECKS.clear(); m.FAILS.clear()
+    m.part_A_and_B(); m.part_C(); m.part_D(); E = m.part_E(); m.planted()
+    return m, E
+
+
+M, E = _run()
+BY_NAME = {c["check"]: c for c in M.CHECKS}
+
+
+def test_every_check_of_the_script_holds_when_it_is_run_here():
+    assert M.FAILS == [] and len(M.CHECKS) == len(BY_NAME) >= 71
+    assert all(c["holds"] is True for c in M.CHECKS)
+
+
+def test_the_five_statements_are_among_the_checks_by_name():
+    for name in ("A: the abelian quotient commutes with the tick (a, b) -> (ab, a)",
+                 "B: [a, b] is the identity in Z^2",
+                 "B: the swap (a, b) -> (b, a) sends [a, b] to the class of its inverse",
+                 "B: the classes to length 8 that the four record moves keep are powers of [a, b]",
+                 "C: at the quaternion point tr[a, b] = -2",
+                 "C: in the Heisenberg group [a, b] is not the identity",
+                 "C: in the Heisenberg group every triple commutator is the identity",
+                 "C: every word to length 8 that is trivial in the Heisenberg group is trivial at the quaternion point",
+                 "C: in a faithful copy of F_2 the triple commutator [[a, b], a] is not the identity",
+                 "D: every boundary curve is in the commutator subgroup on one surface only, the once-punctured torus",
+                 "D: the homology class of a boundary curve has a finite orbit under the moves only when it is zero"):
+        assert BY_NAME[name]["holds"] is True, name
+
+
+def test_the_prime_of_one_sector_is_two_and_the_pair_is_kept_at_every_prime():
+    primes = sorted(E)
+    assert primes == [2, 3, 5, 7, 11, 13]
+    for p in primes:
+        k = E[p]["the commutator is zeta to the"]
+        assert k % p != 0
+        after = E[p]["after each move"]
+        assert all(after[n] == k for n in M.PRESERVING)
+        assert all(after[n] == (-k) % p for n in M.REVERSING)
+        assert M.one_sector_kept(p, M.REVERSING) == (p == 2)
+
+
+def test_the_reading_can_fail_in_the_four_ways_that_were_planted():
+    planted = {k[len("planted: "):]: v for k, v in BY_NAME.items() if k.startswith("planted: ")}
+    assert len(planted) == 6 and all(v["holds"] for v in planted.values())
+    assert not M.is_automorphism({"a": M.W("aa"), "b": M.B})
+    assert M.one_sector_kept(3, M.PRESERVING) and not M.one_sector_kept(3, M.REVERSING)
+    assert M.cyc(M.comm(M.B, M.A)) != M.cyc(M.K)
+
+
+def test_the_numbers_on_the_page_are_the_runs():
+    f = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
+    assert "%d checks" % len(M.CHECKS) in f
+    words6 = sum(1 for _ in M.words(6))
+    assert "{:,} reduced words of length at most 6".format(words6) in f
+    killed = BY_NAME["C: every word to length 8 that is trivial in the Heisenberg group is trivial at the quaternion point"]["detail"]
+    assert re.match(r"(\d+) such words", killed) and "(%s of them)" % killed.split()[0] in f
+    kept = BY_NAME["B: the classes to length 8 that the four record moves keep are powers of [a, b]"]["detail"]
+    assert kept == "4 classes kept, lengths [4, 8]" and "four classes, of lengths 4 and 8" in f
+    v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
+    assert set(v["scope"]) == {"frame", "object", "reach", "hypotheses"} and v["claim_one_line"].endswith("0 of 19.")

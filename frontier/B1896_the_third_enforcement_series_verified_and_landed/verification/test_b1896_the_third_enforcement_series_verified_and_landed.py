@@ -200,3 +200,17 @@ def test_the_arc_says_what_it_is_and_what_it_is_not():
             except UnicodeDecodeError:
                 continue
             assert not any(b in plain for b in banned), p.name
+
+
+# ------------------------------------------------------------------------------------------------ added 2026-11-12 (Review 80)
+# A session that built none of this planted against the lock.  "Five are not caught" turned into "None is not caught"
+# passed; a verdict line made to open with other words passed; either of the two runners deleted passed.
+
+def test_the_headline_the_verdict_and_the_two_runners_are_held():
+    v = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))
+    assert v["verdict"] == "PROVED" and v["claim_one_line"].startswith("THE THIRD PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7; the advisor seat's; six patches under one rule:")
+    assert "- **17 of main's 22 unseen cases are caught, each by the gate that looks for the fault.**" in F
+    assert "- **Five are not caught.**" in F
+    assert len(PASS_UNSEEN) == 5 and len(CASES) == 22 and all(RUN[k]["CAUGHT BY SOME GATE"] is False for k in PASS_UNSEEN)     # the five are the run's
+    for name in ("run_unseen_s3.py", "after_reading_s3.py"):
+        assert (HERE / name).is_file(), name

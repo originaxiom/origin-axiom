@@ -1,0 +1,108 @@
+{
+ "checks": [
+  {
+   "check": "1: the quotients of the moves by the N-th power of T have orders 6, 12, 24, 60 at N = 2, 3, 4, 5",
+   "holds": true,
+   "detail": "{2: 6, 3: 12, 4: 24, 5: 60}"
+  },
+  {
+   "check": "1: these are the orders of PSL(2, Z/N)",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "1: at N = 6 there is a representation by motions of the plane: S of order 2, ST of order 3, T of order 6",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "1: and its image holds a translation that is not the identity, so the group (2, 3, 6) is infinite",
+   "holds": true,
+   "detail": "((1, 0), (1, -1))"
+  },
+  {
+   "check": "1: the lifts SL(2, Z/N) at N = 3, 4, 5 have the orders 24, 48, 120 of 2T, 2O, 2I",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "2: the diagram of E8 holds those of E7 and E6 as connected pieces",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "2: and E7 holds E6, while neither holds E8",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "3: the 24 roots of D4 are the same when every integer vector with coordinates from -2 to 2 is listed",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "3: D4 has 24 roots and four classes, the three non-zero ones of norm 1",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "3: the classes of D4 form a group of order four: v + s is in the class of c",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "3: the classes of two copies have 35 subgroups of order four, and the norm vanishes on exactly six of them",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "3: the six are the graphs of the six permutations of the three non-zero classes",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "3: every one of the six gives an even lattice of determinant 1 with 240 roots",
+   "holds": true,
+   "detail": "{'roots': 240, 'even': True, 'determinant': Fraction(1, 1)}"
+  },
+  {
+   "check": "3: two copies alone have 48 roots and determinant 16; with the diagonal vector class, 112 roots and determinant 4",
+   "holds": true,
+   "detail": "({'roots': 48, 'even': True, 'determinant': Fraction(16, 1)}, {'roots': 112, 'even': True, 'determinant': Fraction(4, 1)})"
+  },
+  {
+   "check": "3: the lane's chain is the identity permutation: its lattice has the 112 integer roots and 128 with half-integer coordinates",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "3: a class of norm 1 added to the whole makes it odd: the vector class of D8 does not glue",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "planted: a subgroup of order four on which the norm does not vanish gives a lattice that is not even",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "planted: at N = 6 the enumeration of cosets does not close within 3,000, as it must not for an infinite group",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "planted: the diagram of D8 does not hold that of E8",
+   "holds": true,
+   "detail": ""
+  }
+ ],
+ "failing": [],
+ "orders of the triangle groups": {
+  "2": 6,
+  "3": 12,
+  "4": 24,
+  "5": 60
+ },
+ "subgroups of order four": 35,
+ "on which the norm vanishes": 6
+}

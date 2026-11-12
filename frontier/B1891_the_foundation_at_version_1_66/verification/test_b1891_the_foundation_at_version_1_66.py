@@ -45,9 +45,13 @@ def test_the_four_sentences_stand_corrected_and_the_old_forms_only_where_they_ar
                 "among the histories of at most five letters that are not a power of a shorter one it is the only one that does"):
         assert new in FLAT, new
     assert "the two fixed characters, the walk's measure and the absence of a fixed modulus stand" not in FLAT      # the sentence itself is gone ("the walk's measure" is said elsewhere, of the walk)
-    for old in ("Eleven entries", "every statement the record holds about the weave is unchanged except the hand"):
+    # [CHANGED 2026-11-12 (Review 80, the web seat's finding 6): the fourth sentence's old form was not looked for, and the
+    #  old sentence put back beside the new one passed.  It is looked for now.  It is not kept in the foundation, so it need
+    #  not be found; where it is found it must be a quotation beside its correction, like the others.]
+    for old, kept in (("Eleven entries", True), ("every statement the record holds about the weave is unchanged except the hand", True),
+                      ("is the only history of at most five letters that does", False)):
         places = [m.start() for m in re.finditer(re.escape(old), FLAT)]
-        assert places, old                                                  # each old form is kept, quoted, where it is corrected
+        assert places or not kept, old                                      # the first two old forms are kept, quoted, where they are corrected
         for k in places:
             assert re.search(r"\[v1\.66|This read|v1\.66 ·", FLAT[max(0, k - 400):k + 60]), (old, FLAT[max(0, k - 120):k + 60])
     assert '("A condition to derive")' not in G                              # the quotation of the owner is in plain words

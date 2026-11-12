@@ -1,0 +1,21 @@
+{
+ "id": "B[[N]]",
+ "verdict": "PROVED",
+ "claim_one_line": "THE PARENT ALGEBRA: WHAT THE LADDER'S RULE GIVES, WHAT THE LATTICE GLUE GIVES, AND WHAT EACH IS GIVEN (WP-1.8's first step; exact arithmetic, 19 checks, none failing). THE PARENT IS SUPPLIED: nothing here derives E8 from the register, and neither route on the record claims to. (1) THE LADDER: the moves' quotients by the N-th power of T have orders 6, 12, 24, 60 at N = 2, 3, 4, 5 and the quotient at 6 is infinite (a representation by motions of the plane with a translation in its image); the lifts at 3, 4, 5 have orders 24, 48, 120; the diagram of E8 holds those of E7 and E6, so E8 is the one of the three that holds every rung's; that one algebra must hold them all is the rule's clause, adopted by a ruling. (2) THE GLUE, the agy lane's chain read through the mask and computed again from its statement: two copies of D4 (48 roots, determinant 16), with the diagonal vector class D8 (112, 4), with the spinor class an even lattice of determinant 1 with 240 roots. MAIN ADDS: the glue is not one more choice. The subgroups of order four of the classes of two copies are 35; the norm vanishes on six, the graphs of the six permutations of D4's three non-zero classes; and every one of the six gives E8. WHAT IS GIVEN is therefore three things: the lattice D4 for the register (the lane's premise, not verified on main), two copies of it, and that the whole be even and self-dual. NOT SHOWN: any of those three; the embedding or the fields. The package's outcome is 'the parent, declared'. The foundation is not changed in this arc. 0 of 19.",
+ "scope": {
+  "frame": "none",
+  "object": "the triangle groups (2, 3, N), the diagrams of E6, E7, E8, and the even overlattices of two copies of D4",
+  "reach": "general",
+  "hypotheses": [
+   "the ladder's rule R1 of the foundation, as adopted",
+   "the lattice D4 for the register, the agy lane's premise"
+  ]
+ },
+ "depends_on": [
+  "B1752",
+  "B1754",
+  "B997",
+  "B1859"
+ ],
+ "instrument": false
+}

@@ -1,4 +1,6 @@
 """B1880 -- the seven files under lists with other names whose sealed content was on main and has changed since: what changed.
+[CORRECTED 2026-11-12 (Review 80; found by a reading on another family of model): nine files are read, the seven of class A and
+the two of class B; and with --write the result is written beside this script.]
 
 A mechanical reading, not a judgement by eye: each file is compared with the version that had the recorded hash, after the
 substitutions that a path repair and the attribution rule's redaction make.  If the two are then equal, nothing but a path or

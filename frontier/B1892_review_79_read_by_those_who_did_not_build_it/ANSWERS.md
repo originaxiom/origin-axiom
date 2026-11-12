@@ -1,6 +1,6 @@
 # Review 79: every finding of the readers, and what main did with it
 
-*Main, 2026-11-12. Each row was reproduced by main at its source before a word was changed. W is the web seat's, SM the SM seat's,
+*Main, 2026-11-12. Each row was reproduced by main at its source before a word was changed. [CORRECTED 2026-11-12 (Review 80, the SM seat's finding 5): the protocol's § 12 keeps "reproduced" for the same code run again on a clean checkout, with the second output as its evidence. What main did for each row is a check of its own: a recount, a planted error, or a constructed case. "Held" means that main found what the reader found.] W is the web seat's, SM the SM seat's,
 A is agy-002's, X is agy-exp's. "Held" means main found what the reader found.*
 
 | | where | what was found | what main did |
@@ -108,7 +108,7 @@ A is agy-002's, X is agy-exp's. "Held" means main found what the reader found.*
 **99 findings; 99 held,** one of them (A6) in all but one detail. **Reported by two readers,** by the rule written before a second
 reader's file was opened (the same arc, the same file, quotations that overlap): W3 and W4 with A6; SM-40 with A7 and A8; SM-44 with
 A25; SM-46 with A20 and A21; A11 with X1; A13 with X4; SM-13 with X7; SM-35 with X9. One more is the same fault quoted at other
-lines, which the rule does not count: A9 with X13. So the 99 are 88 distinct faults, of which ten were found twice. Two more things
+lines, which the rule does not count: A9 with X13. So the 99 are 88 distinct faults, of which ten were found twice. [CORRECTED 2026-11-12 (Review 80, the SM seat's finding 7): by the rule as written, which does not count that pair, the 99 are 89 distinct faults, of which nine were found twice. 88 and ten count it.] Two more things
 the web seat wrote as notes are agy-002's A17 and A18.
 
 **Sent on to the builder of the enforcement package and not mended by main** (its files): SM-44 to SM-47, A10, A20 to A25.

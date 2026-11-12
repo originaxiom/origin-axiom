@@ -1,0 +1,55 @@
+[
+ {
+  "plant": "nothing planted",
+  "tests that fail": [],
+  "the lock": "PASSES",
+  "last line": "15 passed in 41.85s",
+  "seconds": 43
+ },
+ {
+  "plant": "the control: single_ok replaced by the literal True (a plant B1895's lock holds)",
+  "tests that fail": [
+   "test_no_check_of_the_script_is_passed_a_constant",
+   "test_the_conditions_of_the_mended_checks_are_the_ones_that_were_mended",
+   "test_the_script_computes_what_it_says_it_computes"
+  ],
+  "the lock": "CATCHES IT",
+  "last line": "3 failed, 12 passed in 40.73s",
+  "seconds": 42
+ },
+ {
+  "plant": "F1: the two mended conditions taken over empty lists",
+  "tests that fail": [],
+  "the lock": "PASSES",
+  "last line": "15 passed in 40.08s",
+  "seconds": 42
+ },
+ {
+  "plant": "F2: check() made to ignore what it is passed",
+  "tests that fail": [],
+  "the lock": "PASSES",
+  "last line": "15 passed in 42.57s",
+  "seconds": 44
+ },
+ {
+  "plant": "F3: an unpinned check made unable to fail by an 'or' on a length that is never 0",
+  "tests that fail": [],
+  "the lock": "PASSES",
+  "last line": "15 passed in 47.74s",
+  "seconds": 49
+ },
+ {
+  "plant": "F4: no sequence read: the least typed, the two counts typed behind the pinned beginning",
+  "tests that fail": [],
+  "the lock": "PASSES",
+  "last line": "15 passed in 30.76s",
+  "seconds": 32
+ },
+ {
+  "plant": "F5: the made-with file given another version, and a number of part A changed in the script",
+  "tests that fail": [],
+  "the lock": "PASSES",
+  "last line": "15 passed in 43.63s",
+  "seconds": 45
+ }
+]

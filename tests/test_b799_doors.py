@@ -45,7 +45,11 @@ def test_b332_deck_element_is_hyperbolic_and_det_A_minus_I_is_minus_one():
     assert sp.simplify(d["A_eigenvals"][1] - (1 + sp.sqrt(5)) / 2) == 0
     # THE DISCRIMINATION: finite order cannot equal hyperbolic
     assert d["g_order"] == 3 and d["A_is_hyperbolic"]
-    assert d["g_is_elliptic"] != d["A_is_hyperbolic"] or True   # elliptic xor hyperbolic
+    # [CORRECTED 2026-11-12 (Review 80, the web seat's finding 1): this line read
+    #      assert d["g_is_elliptic"] != d["A_is_hyperbolic"] or True   # elliptic xor hyperbolic
+    #  The constant made it unable to fail, and without the constant it FAILS: it asks that exactly one of the two
+    #  properties hold, and both hold, of two different elements.  What the arc means is stated here and in the next assert.]
+    assert d["g_is_elliptic"] is True and d["A_is_hyperbolic"] is True   # g is elliptic and A is hyperbolic: they cannot be one element
     assert not (d["g_is_elliptic"] and d["A_is_hyperbolic"] and d["g"] == sp.Matrix(
         [[1, 1], [1, 0]]))
 

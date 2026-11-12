@@ -7,7 +7,10 @@ writes the table that the mended gate holds every frozen entry to.  [Corrected 2
 header was not changed when the outputs were put behind --keep-outputs; it said that the table is written at every run.]
 
     python3 -B measure_all_hash_lists.py                  # measure and print; nothing is written anywhere
-    python3 -B measure_all_hash_lists.py --keep-outputs   # also write all_hash_lists.json and all_hash_lists_run.txt in this folder
+    python3 -B measure_all_hash_lists.py --keep-outputs   # also write all_hash_lists.json and measure_all_hash_lists_run.txt in this folder
+    [CORRECTED 2026-11-12 (Review 80; found by a reading on another family of model): the line above named all_hash_lists_run.txt,
+    a file this script has never written.  And --write, below, writes the frozen list alone: the folder's two outputs are
+    written only with --keep-outputs.]
     python3 -B measure_all_hash_lists.py --write    # also write scripts/gates/hash_lists_frozen.json
 
 Nothing here reads a measured value of physics; it reads file names, hashes and the commit graph.

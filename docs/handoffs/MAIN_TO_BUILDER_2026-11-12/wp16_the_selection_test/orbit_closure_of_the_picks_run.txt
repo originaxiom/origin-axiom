@@ -1,0 +1,49 @@
+golden: 262144 departures enumerated
+silver: 589824 departures enumerated
+bronze: 802816 departures enumerated
+88 sets of least departures; closed under reversal: 88; not closed: 0
+   golden  level 11           the line                         by letters        2 departures: 1 mirror pairs, 0 their own mirror
+   golden  level 11           whole level, any sign by level   by extra letters  7 departures: 3 mirror pairs, 1 their own mirror
+   golden  level 3            whole level, any sign by level   by extra letters 15 departures: 6 mirror pairs, 3 their own mirror
+   golden  level 4            whole level, any sign by level   by extra letters 56 departures: 22 mirror pairs, 12 their own mirror
+   golden  level 7            whole level, any sign by level   by extra letters  5 departures: 1 mirror pairs, 3 their own mirror
+   golden  levels 4 and 5     whole level, any sign by level   by letters        2 departures: 1 mirror pairs, 0 their own mirror
+   golden  levels 4 and 5     whole level, any sign by level   by extra letters 20 departures: 8 mirror pairs, 4 their own mirror
+   golden  the own level 5    whole level, any sign by level   by extra letters 16 departures: 6 mirror pairs, 4 their own mirror
+   golden  level 11           whole level, one sign for all    by extra letters  7 departures: 3 mirror pairs, 1 their own mirror
+   golden  level 3            whole level, one sign for all    by extra letters 15 departures: 6 mirror pairs, 3 their own mirror
+   golden  level 4            whole level, one sign for all    by extra letters 56 departures: 22 mirror pairs, 12 their own mirror
+   golden  level 7            whole level, one sign for all    by extra letters  5 departures: 1 mirror pairs, 3 their own mirror
+   golden  levels 2, 3, 4, 5  whole level, one sign for all    by letters        2 departures: 1 mirror pairs, 0 their own mirror
+   golden  levels 2, 3, 4, 5  whole level, one sign for all    by extra letters  2 departures: 1 mirror pairs, 0 their own mirror
+   golden  levels 4 and 5     whole level, one sign for all    by letters        4 departures: 2 mirror pairs, 0 their own mirror
+   golden  levels 4 and 5     whole level, one sign for all    by extra letters 14 departures: 6 mirror pairs, 2 their own mirror
+   golden  the own level 5    whole level, one sign for all    by extra letters 16 departures: 6 mirror pairs, 4 their own mirror
+   golden  level 11           whole level, sign +              by extra letters  4 departures: 2 mirror pairs, 0 their own mirror
+   golden  level 3            whole level, sign +              by extra letters 15 departures: 6 mirror pairs, 3 their own mirror
+   golden  level 4            whole level, sign +              by extra letters 28 departures: 8 mirror pairs, 12 their own mirror
+   golden  level 7            whole level, sign +              by extra letters  4 departures: 1 mirror pairs, 2 their own mirror
+   golden  levels 2, 3, 4, 5  whole level, sign +              by letters        2 departures: 1 mirror pairs, 0 their own mirror
+   golden  levels 2, 3, 4, 5  whole level, sign +              by extra letters  2 departures: 1 mirror pairs, 0 their own mirror
+   golden  levels 4 and 5     whole level, sign +              by letters        2 departures: 1 mirror pairs, 0 their own mirror
+   golden  levels 4 and 5     whole level, sign +              by extra letters 16 departures: 8 mirror pairs, 0 their own mirror
+   golden  the own level 5    whole level, sign +              by extra letters 15 departures: 6 mirror pairs, 3 their own mirror
+   silver  levels 2, 4, 8     the line                         by extra letters  6 departures: 2 mirror pairs, 2 their own mirror
+   silver  the own level 8    the line                         by extra letters  6 departures: 2 mirror pairs, 2 their own mirror
+   silver  levels 2, 4, 8     whole level, any sign by level   by letters        4 departures: 1 mirror pairs, 2 their own mirror
+   silver  levels 2, 4, 8     whole level, any sign by level   by extra letters 122 departures: 58 mirror pairs, 6 their own mirror
+   silver  the own level 8    whole level, any sign by level   by letters        4 departures: 1 mirror pairs, 2 their own mirror
+   silver  the own level 8    whole level, any sign by level   by extra letters 122 departures: 58 mirror pairs, 6 their own mirror
+   silver  levels 2, 4, 8     whole level, one sign for all    by letters        4 departures: 1 mirror pairs, 2 their own mirror
+   silver  levels 2, 4, 8     whole level, one sign for all    by extra letters 122 departures: 58 mirror pairs, 6 their own mirror
+   silver  the own level 8    whole level, one sign for all    by letters        4 departures: 1 mirror pairs, 2 their own mirror
+   silver  the own level 8    whole level, one sign for all    by extra letters 122 departures: 58 mirror pairs, 6 their own mirror
+   silver  levels 2, 4, 8     whole level, sign +              by extra letters 94 departures: 47 mirror pairs, 0 their own mirror
+   silver  the own level 8    whole level, sign +              by extra letters 94 departures: 47 mirror pairs, 0 their own mirror
+   bronze  the own level 13   the line                         by extra letters  3 departures: 1 mirror pairs, 1 their own mirror
+   bronze  the own level 13   whole level, any sign by level   by letters        5 departures: 2 mirror pairs, 1 their own mirror
+   bronze  the own level 13   whole level, one sign for all    by letters        5 departures: 2 mirror pairs, 1 their own mirror
+   bronze  the own level 13   whole level, sign +              by letters        4 departures: 2 mirror pairs, 0 their own mirror
+sets with one departure (each its own mirror): 27
+planted: one member of a mirror pair removed from a least set -> closed under reversal: False (must be False)
+RC=0

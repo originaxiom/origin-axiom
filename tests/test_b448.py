@@ -48,7 +48,8 @@ def test_orbit_tower_fields():
     for f in f5:
         if sp.degree(f, t) == 2:
             d = sp.discriminant(f, t)
-            assert sp.Integer(d).is_negative or abs(int(d)) % 5 != 0 or True
+            # [CORRECTED 2026-11-12 (Review 80, the web seat's finding 1): this assert ended in `or True`, which made it unable to fail; the constant is gone and the statement holds]
+            assert sp.Integer(d).is_negative or abs(int(d)) % 5 != 0
     # and the golden field is absent: no factor field Q(sqrt(5))
     for f in f5:
         if sp.degree(f, t) == 2:

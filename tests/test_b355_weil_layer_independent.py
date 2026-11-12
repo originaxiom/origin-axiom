@@ -48,7 +48,8 @@ def test_trace_layer_matches_cross_session():
 def test_weil_divisibility_operator_level():
     for (N, m), (mat_triv, op_triv) in weil_divisibility().items():
         assert mat_triv == op_triv                  # rho(A_m)=1 iff A_m=I mod N (iff N|m componentwise)
-        assert op_triv == (m % N == 0 if N in (3, 5) else m % 15 == 0) or N == 15 and m == 15 or True
+        # [CORRECTED 2026-11-12 (Review 80, the web seat's finding 1): this assert ended in `or True`, which made it unable to fail; the constant is gone and the statement holds]
+        assert op_triv == (m % N == 0 if N in (3, 5) else m % 15 == 0) or N == 15 and m == 15
     d = weil_divisibility()
     assert d[(15, 15)] == (True, True) and d[(15, 3)] == (False, False)   # seed-15 seam-level prediction
     assert d[(3, 3)] == (True, True) and d[(5, 5)] == (True, True)

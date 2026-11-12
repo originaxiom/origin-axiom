@@ -112,7 +112,9 @@ def test_the_two_spin_rows_are_registered_unearned_and_the_baseline_was_raised_b
 
 def test_the_absence_rule_and_its_instrument():
     w = (ROOT / "WORKING_RULES.md").read_text(encoding="utf-8")
-    assert "THE ABSENCE RULE" in w and "swipe the repo first" in w   # the owner's words, verbatim
+    # [CHANGED 2026-11-12 (register rows P-796 and P-825): this line held the owner's sentence word for word.  The working rules
+    #  give his rule in plain words now, and the rule is what is held.]
+    assert "THE ABSENCE RULE" in w and "before concluding that the record lacks something, sweep the repository first" in w
     r = subprocess.run([sys.executable, str(ROOT / "scripts" / "checks" / "absence_sweep.py"), "--selftest"],
                        capture_output=True, text=True, cwd=str(ROOT))
     assert r.returncode == 0, r.stdout + r.stderr

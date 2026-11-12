@@ -127,8 +127,9 @@ things:
 ## 9. What is fixed for every seat
 
 1. **The firewall.** No held-out target is computed, and nothing is compared with a measured value, outside a sealed
-   card that main has approved under the owner's hold. If a check can be made only by such a comparison, the result
-   is: cannot check, with the comparison named.
+   card of main's under the owner's hold. If a check can be made only by such a comparison, the result
+   is: cannot check, with the comparison named. *[Reworded 2026-11-12 (Review 80, the web seat's note): this read "a
+   sealed card that main has approved", beside § 12's "No session accepts, approves or rules". The rule is unchanged.]*
 2. **No verdict on your own build.**
 3. **Nothing changes on main before main has recomputed it.** You write to your own branch only.
 4. **No question of fact is put to the owner.** A question for him goes to main.

@@ -98,10 +98,11 @@ class TestTombL255:
             for r in roots:
                 simp = sp.nsimplify(r, [sp.sqrt(5)])
                 num, den = sp.fraction(simp)
+                # [CORRECTED 2026-11-12 (Review 80, the web seat's finding 1): this assert ended in `or True`, which made it unable to fail; the constant is gone and the statement holds]
                 assert all(
                     c.is_rational or c == sp.sqrt(5) or c == -sp.sqrt(5)
                     for c in num.as_coefficients_dict()
-                ) or True  # eigenvalues are in Q(sqrt5)
+                )  # eigenvalues are in Q(sqrt5)
 
     def test_tower_dimensions(self):
         def mu_fn(n, d):

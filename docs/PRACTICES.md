@@ -750,7 +750,7 @@ ranked leads become action items (the review template); M6 every open OWNER row 
 land or are declined within 7 days (rule 9); M7 a retired frame's ideas translated or declined, and a fit-capacity frame
 card needs the owner's word to become the main line (MANUAL).
 
-**Why it exists.** The owner, 2026-11-04: "i feel like most important leads from brainstorms keeps getting forgotten".
+**Why it exists.** The owner said on 2026-11-04 that the most important leads from the brainstorms kept being forgotten. [In plain words since 2026-11-12 (the owner's ruling of 2026-11-11 on his messages; register rows P-796 and P-825): this line quoted him.]
 B1833 measured about 65 ideas with no carrier and twelve mechanisms of loss; the owner adopted all seven rules.
 
 ## Every open lead and every arc left OPEN is aged, on a ratchet — GATED (`lead-debt`)
@@ -1138,7 +1138,9 @@ sources are read here. First applications on main: B1477 (the longitude's trace 
 field content). Enforcement: MANUAL — the SM seat validates a `load_bearing` field in its verdict files; main has not
 adopted the field.
 
-## A computation is archived at the landing that reports it — MANUAL (adopted 2026-10-07, S65; the owner: "lose no important computation")
+## A computation is archived at the landing that reports it — MANUAL (adopted 2026-10-07, S65; the owner's instruction that no important computation be lost)
+
+*[In plain words since 2026-11-12 (the owner's ruling of 2026-11-11 on his messages; register rows P-796 and P-825): this heading quoted him. The rule is unchanged.]*
 
 **What happened.** On 2026-10-06 main reproduced sm:B1541 row for row and told the SM seat so in a tracked relay; the
 380 rows themselves stayed in a session's scratch folder. The same day an unsealed check of B1477's residue at a longer
@@ -1152,7 +1154,9 @@ grade (sealed, post-seal, unsealed). An exploratory check that is worth one sent
 reproduces it. Before a landing, list the session's scratch folder and ask of each recent file whether a tracked
 sentence rests on it.
 
-## A count says where it came from, and a seat's result is built on only once verified — GATED (`seat-positive-verified`); the rest MANUAL (adopted 2026-10-07, B1487; the owner: "we depend on proper computing")
+## A count says where it came from, and a seat's result is built on only once verified — GATED (`seat-positive-verified`); the rest MANUAL (adopted 2026-10-07, B1487; the owner's statement that the programme depends on computing properly)
+
+*[In plain words since 2026-11-12 (the owner's ruling of 2026-11-11 on his messages; register rows P-796 and P-825): this heading quoted him. The rule is unchanged.]*
 
 **What happened.** The only generation-shaped reading at a hyperbolic point on any lane (sm:B1530, 2026-10-03) was read
 by one seat for four days while three further arcs on that lane built on it; main's second route (B1485) came only when
@@ -1424,7 +1428,8 @@ Three practices came out of the field stage's last window. Each answers a slip t
     carries its page and sentence, or its file's hash as found. GATED for the two gates mended here; the other
     baselines that are counts are listed under the audit's finding G14.
 14. **One channel to the owner, and a question of fact is never put to him** (WORKING_RULES.md, the rule of
-    2026-11-11; the owner to main: "fix this once for all … you are main"). A ruling sets a goal, a standard, an order
+    2026-11-11; the owner asked main to settle it for good, main being the one seat that puts questions to him [in plain
+    words since 2026-11-12; register rows P-796 and P-825: this quoted him]). A ruling sets a goal, a standard, an order
     of work, or says what he means. What the mathematics can decide is computed. What nothing can decide is a tagged
     postulate of main's, counted as an input. Only main puts questions to the owner, once, with the standing ruling
     quoted. It replaces practice 8's confirmation step: main enters what he said to a seat, lists it in its next

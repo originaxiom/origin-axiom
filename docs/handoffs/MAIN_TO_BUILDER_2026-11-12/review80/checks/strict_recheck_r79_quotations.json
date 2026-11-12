@@ -1,0 +1,55 @@
+{
+ "readers": {
+  "the SM seat": {
+   "quotations": 59,
+   "found by the old rule": 59,
+   "in the file the finding names": 0,
+   "in the arc's own folder (no file named)": 45,
+   "in a wide page only": 14,
+   "the named file is not at the commit": 0,
+   "empty quotations": 0,
+   "found nowhere, strictly": 0
+  },
+  "the web seat": {
+   "quotations": 11,
+   "found by the old rule": 11,
+   "in the file the finding names": 11,
+   "in the arc's own folder (no file named)": 0,
+   "in a wide page only": 0,
+   "the named file is not at the commit": 0,
+   "empty quotations": 0,
+   "found nowhere, strictly": 0,
+   "lines that begin as a row and are not read": 6
+  },
+  "agy-002": {
+   "quotations": 26,
+   "found by the old rule": 26,
+   "in the file the finding names": 26,
+   "in the arc's own folder (no file named)": 0,
+   "in a wide page only": 0,
+   "the named file is not at the commit": 0,
+   "empty quotations": 0,
+   "found nowhere, strictly": 0,
+   "lines that begin as a row and are not read": 0
+  },
+  "agy-exp": {
+   "quotations": 15,
+   "found by the old rule": 15,
+   "in the file the finding names": 15,
+   "in the arc's own folder (no file named)": 0,
+   "in a wide page only": 0,
+   "the named file is not at the commit": 0,
+   "empty quotations": 0,
+   "found nowhere, strictly": 0
+  }
+ },
+ "all": {
+  "quotations": 111,
+  "found by the old rule": 111,
+  "in the file the finding names": 52,
+  "in the arc's own folder (no file named)": 45,
+  "in a wide page only": 14,
+  "found nowhere, strictly": 0,
+  "empty quotations": 0
+ }
+}

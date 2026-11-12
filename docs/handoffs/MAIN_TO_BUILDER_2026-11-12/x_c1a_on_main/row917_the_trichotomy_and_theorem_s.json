@@ -1,0 +1,127 @@
+{
+ "checks": [
+  {
+   "check": "1: on every integer matrix of determinant +-1 with entries from -4 to 4 the class mod 2 is a 3-cycle exactly at odd trace",
+   "holds": true,
+   "detail": "360 matrices"
+  },
+  {
+   "check": "2: main's list has 758 states to length 12, both signs",
+   "holds": true,
+   "detail": "758"
+  },
+  {
+   "check": "2: the class is a 3-cycle exactly at odd trace on every state",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "2: at tick n the class is that of the n-th power: an odd-trace state is the identity mod 2 at ticks 3 and 6 and a 3-cycle at 1, 2, 4, 5",
+   "holds": true,
+   "detail": "24 states to length 6"
+  },
+  {
+   "check": "3: 164 states are the identity mod 2",
+   "holds": true,
+   "detail": "164"
+  },
+  {
+   "check": "3: on each of them the normaliser acts on the three parities through a group of order at most 2",
+   "holds": true,
+   "detail": "{2: 54, 1: 110}"
+  },
+  {
+   "check": "3: so never one orbit of three",
+   "holds": true,
+   "detail": "{'1+2': 54, '1+1+1': 110}"
+  },
+  {
+   "check": "the seat's count of states and of each class are main's",
+   "holds": true,
+   "detail": "{'a 3-cycle mod 2: one orbit': 326, 'an involution mod 2: a line and a pair': 268, 'identity mod 2: three lines': 164}"
+  },
+  {
+   "check": "the seat's table by word length is main's",
+   "holds": true,
+   "detail": ""
+  },
+  {
+   "check": "the seat's ticks of the states to length 6 are main's",
+   "holds": true,
+   "detail": "24 states"
+  },
+  {
+   "check": "the seat's orbits of the symmetries on the 164 are main's",
+   "holds": true,
+   "detail": "{'1+2': 54, '1+1+1': 110}"
+  },
+  {
+   "check": "planted: the cube of LR is the identity mod 2 and its centraliser holds a 3-cycle, so a word that is a power would break the theorem",
+   "holds": true,
+   "detail": "the image has 6 elements"
+  },
+  {
+   "check": "planted: the matrix ((1, 1), (1, 0)) has odd trace and is a 3-cycle; ((1, 2), (0, 1)) has even trace and is the identity",
+   "holds": true,
+   "detail": ""
+  }
+ ],
+ "failing": [],
+ "states": 758,
+ "by kind": {
+  "a 3-cycle": 326,
+  "an involution": 268,
+  "the identity": 164
+ },
+ "by word length": {
+  "2": {
+   "a 3-cycle mod 2: one orbit": 2
+  },
+  "3": {
+   "an involution mod 2: a line and a pair": 2
+  },
+  "4": {
+   "a 3-cycle mod 2: one orbit": 2,
+   "identity mod 2: three lines": 2
+  },
+  "5": {
+   "an involution mod 2: a line and a pair": 6
+  },
+  "6": {
+   "a 3-cycle mod 2: one orbit": 8,
+   "identity mod 2: three lines": 2
+  },
+  "7": {
+   "an involution mod 2: a line and a pair": 18
+  },
+  "8": {
+   "a 3-cycle mod 2: one orbit": 20,
+   "identity mod 2: three lines": 12
+  },
+  "9": {
+   "an involution mod 2: a line and a pair": 56
+  },
+  "10": {
+   "a 3-cycle mod 2: one orbit": 70,
+   "identity mod 2: three lines": 32
+  },
+  "11": {
+   "an involution mod 2: a line and a pair": 186
+  },
+  "12": {
+   "a 3-cycle mod 2: one orbit": 224,
+   "identity mod 2: three lines": 116
+  }
+ },
+ "the identity mod 2": 164,
+ "orbits of the normaliser on the three parities": {
+  "1+2": 54,
+  "1+1+1": 110
+ },
+ "sizes of its image": {
+  "2": 54,
+  "1": 110
+ },
+ "states with an inverting element found": 92,
+ "matrices of part 1": 360
+}
