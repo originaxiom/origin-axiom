@@ -65,6 +65,8 @@ class: a lock that compares as text what a process printed passes where it was w
 - **A lock that reads a committed output holds the output.** It does not hold that the script still computes it, nor
   that the run file is what the script prints. B1881's lock now holds both, by running the script. Most of main's
   locks do not, and the ones whose scripts take minutes cannot in the default lane.
+  [ADDED 2026-11-12 (Review 80; a reader's finding, not checked by main): this is a debt of the whole record and it
+  had no register row. It is row P-835.]
 - **A scan for one shape of a check that cannot fail is passed by the next shape.** The scan here looked for
   constants; a clause that is always true and is not a constant passed. The mended conditions are now held word for
   word, which is a pin and not a rule. The rule is the enforcement package's, and this shape goes to its builder with
@@ -74,6 +76,8 @@ class: a lock that compares as text what a process printed passes where it was w
 ## 5. What is not shown
 
 - **The reader's own 23 against the new lock.** It is asked to run them.
+  [ADDED 2026-11-12 (Review 80; a reader's finding, not checked by main): this was still owed while register row
+  P-822 read DONE. The reader has since run them and filed its report, which main has not read. It is row P-836.]
 - **That other arcs' locks hold what this one now holds.** They were not tested this way. Review 79 found the same
   kinds of gap in other locks, and no reader has planted against them since they were mended.
 - **The claim restated without the word** (§ 1).
