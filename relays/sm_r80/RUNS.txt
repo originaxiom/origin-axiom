@@ -25,3 +25,15 @@ atlas_revive                      (reader) the atlas's revive() and meeting poin
 listen_holes, listen_upgrade      (reader) scripts/seats/listen.py at c40446392 on crafted memories and pages, in
                                   throwaway repositories; listen_at_84baf38fb.py is main's listener at 84baf38fb, used to
                                   write a memory as that version did.
+
+Added with the second commit of outputs:
+r80_counts.py / .json             this seat's own: Review 79's window (25 arcs changed and not added, which seat pages name
+                                  them), B1892's § 5 table (52 + 43 + 3 = 98), the window's generated-only commits (18, 19,
+                                  20 at three ends), the order of f8b5e6769, c66c8ccae and 84baf38fb, B1893's planted-suite
+                                  commit (not an object here) and the locks in tests/ (1,537; 1,407 named test_b*), and
+                                  B1881's lock's tests at five commits (5, 10, 14, 15, 15). Run from this repository.
+lock_b_half_demo                  (reader) B1893's gates and lock with a mend that reads the baseline along its history: the
+                                  fall-and-rise plant is then seen, and the lock's first assertion of the pair still holds.
+                                  Takes a checkout of c40446392 as its argument.
+quote_check_r80.py / .json        this seat's own: the 56 quotations of the review's findings, found at c40446392; the
+                                  altered control reported missing.

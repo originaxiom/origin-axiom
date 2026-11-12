@@ -1,0 +1,347 @@
+{
+ "commit": "c40446392",
+ "quotations": 56,
+ "found": 56,
+ "rows": [
+  {
+   "finding": "R80-SM-01",
+   "file": "frontier/B1892_review_79_read_by_those_who_did_not_build_it/arc_verdict.json",
+   "quote": "Every arc of the window was read in full, all but one by two sessions",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-02",
+   "file": "frontier/B1892_review_79_read_by_those_who_did_not_build_it/FINDINGS.md",
+   "quote": "| the governing pages | 2 | 3 | 0, and two things the first wrote as notes are findings of the second |",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-03",
+   "file": "frontier/B1892_review_79_read_by_those_who_did_not_build_it/FINDINGS.md",
+   "quote": "Of this window's 49, eighteen touched nothing but generated pages or a session's",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-04",
+   "file": "frontier/B1892_review_79_read_by_those_who_did_not_build_it/FINDINGS.md",
+   "quote": "nothing was landed between the last message to the readers and this entry",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-05",
+   "file": "frontier/B1892_review_79_read_by_those_who_did_not_build_it/ANSWERS.md",
+   "quote": "Each row was reproduced by main at its source before a word was changed.",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-05",
+   "file": "frontier/B1892_review_79_read_by_those_who_did_not_build_it/arc_verdict.json",
+   "quote": "ALL 99 HELD ON MAIN'S OWN REPRODUCTION",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-06",
+   "file": "frontier/B1892_review_79_read_by_those_who_did_not_build_it/FINDINGS.md",
+   "quote": "- **One reading misses most of what is there.** The 99 are 88 distinct faults. Ten were found by two readers.",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-07",
+   "file": "frontier/B1892_review_79_read_by_those_who_did_not_build_it/ANSWERS.md",
+   "quote": "lines, which the rule does not count: A9 with X13. So the 99 are 88 distinct faults, of which ten were found twice.",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-08",
+   "file": "frontier/B1892_review_79_read_by_those_who_did_not_build_it/FINDINGS.md",
+   "quote": "`38d2a36dc` to `0dda7b472`: 49 commits. The readers read `323f92327` and, for what was added to their cards,",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-09",
+   "file": "frontier/B1892_review_79_read_by_those_who_did_not_build_it/FINDINGS.md",
+   "quote": "- **The full suite on a fresh clone,** at `323f92327`: 15 failed, 8,422 passed, 72 skipped.",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-10",
+   "file": "frontier/B1892_review_79_read_by_those_who_did_not_build_it/verification/quote_check.py",
+   "quote": "out.append((arc if arc != \"M4\" else \"window\", None, q))",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-11",
+   "file": "frontier/B1893_the_second_enforcement_series_verified_and_landed/FINDINGS.md",
+   "quote": "Each patch's lock fails on the commit before it, in",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-11",
+   "file": "frontier/B1893_the_second_enforcement_series_verified_and_landed/verification/each_patchs_lock_on_the_commit_before_run.txt",
+   "quote": "not run by main.  The patch adds one assertion that holds before it as well",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-12",
+   "file": "frontier/B1893_the_second_enforcement_series_verified_and_landed/verification/test_b1893_the_second_enforcement_series_verified_and_landed.py",
+   "quote": "When the seat closes it, the first assertion of each pair fails",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-13",
+   "file": "frontier/B1893_the_second_enforcement_series_verified_and_landed/FINDINGS.md",
+   "quote": "| U13.c | the identification ledger cut to its header, with the baseline left as it is | identification-register |",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-14",
+   "file": "frontier/B1893_the_second_enforcement_series_verified_and_landed/verification/test_b1893_the_second_enforcement_series_verified_and_landed.py",
+   "quote": "other = [x for x in r[\"gates newly failing\"] if x != \"attribution\"]",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-15",
+   "file": "frontier/B1893_the_second_enforcement_series_verified_and_landed/FINDINGS.md",
+   "quote": "pass are for the series after it.",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-15",
+   "file": "frontier/B1893_the_second_enforcement_series_verified_and_landed/FINDINGS.md",
+   "quote": "the fourth patch of its fourth series",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-16",
+   "file": "frontier/B1893_the_second_enforcement_series_verified_and_landed/verification/planted_suite_on_the_series_out.txt",
+   "quote": "planted-violation suite at f6e89032a (f6e89032a)",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-17",
+   "file": "frontier/B1893_the_second_enforcement_series_verified_and_landed/FINDINGS.md",
+   "quote": "`896cae025`: 2 failed, 8,454 passed, 73 skipped",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-18",
+   "file": "frontier/B1893_the_second_enforcement_series_verified_and_landed/FINDINGS.md",
+   "quote": "| U12.b | every lock in `tests/` kept and marked to skip: the tests exist and never run. 1,407 files |",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-19",
+   "file": "frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/FINDINGS.md",
+   "quote": "B1897, and the lock has fourteen tests now.]",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-19",
+   "file": "frontier/B1897_b1881s_lock_tested_by_a_session_that_did_not_write_it/FINDINGS.md",
+   "quote": "The lock has four more tests. Main made the six again from the",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-19",
+   "file": "frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py",
+   "quote": "The four tests below hold the six.",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-20",
+   "file": "frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/FINDINGS.md",
+   "quote": "**18 of 18 caught.** The plants are main's own, written after the tests. The reader's planted errors were not run",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-21",
+   "file": "frontier/B1897_b1881s_lock_tested_by_a_session_that_did_not_write_it/FINDINGS.md",
+   "quote": "own, all caught. It said that the count that matters is the reader's.",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-22",
+   "file": "frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/verification/test_b1895_the_mends_of_b1881_read.py",
+   "quote": "on sequences the arc's script did not try: length 2 with runs to 12, length 4 with",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-23",
+   "file": "frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/FINDINGS.md",
+   "quote": "every word of the second convention is the seat's word conjugated by the swap of the two coordinates, with the order of the letters kept",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-24",
+   "file": "frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/FINDINGS.md",
+   "quote": "- **Whether the allowed set is closed under reversal for a mark that does not annihilate its own line** is not",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-25",
+   "file": "frontier/B1897_b1881s_lock_tested_by_a_session_that_did_not_write_it/FINDINGS.md",
+   "quote": "locks do not, and the ones whose scripts take minutes cannot in the default lane.",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-25",
+   "file": "docs/POINT_REGISTER.md",
+   "quote": "The reader is asked to run its 23 again",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-26",
+   "file": "frontier/B874_measurement_ladder/arc_verdict.json",
+   "quote": "The measurement ladder, exact over Q on the banked B854 build",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-26",
+   "file": "frontier/B874_measurement_ladder/arc_verdict.json",
+   "quote": "COMPUTED ON MAIN (B892): on the line through a wall point the nullity jumps at four points, all imaginary, to 14 and to 18",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-27",
+   "file": "CHANGELOG.md",
+   "quote": "a unit on one line gives index one, by main's own formula",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-27",
+   "file": "docs/LAW_MAP.md",
+   "quote": "a unit on one line gives one (B1796, and",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-27",
+   "file": "frontier/B1894_review_79_the_second_round/verification/test_b1894_review_79_the_second_round.py",
+   "quote": "old = \"the index is their sum above its value at no unit, so a unit on one line gives one\"",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-27",
+   "file": "tests/test_b1641_w46_on_main_and_the_two_objects.py",
+   "quote": "index is their sum above its value at no unit.",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-28",
+   "file": "frontier/B1861_the_closure_programme/verification/programme_source.py",
+   "quote": "# is a living page and not the past: it gives what he answered in plain words.  The arcs, the register's rows and the dated logs",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-28",
+   "file": "frontier/B1861_the_closure_programme/verification/build_programme.py",
+   "quote": "\"\", \"> \\\"%s\\\"\" % S.CONFIRMATION[1], \"\",",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-28",
+   "file": "frontier/B1861_the_closure_programme/verification/build_programme.py",
+   "quote": "fails.append(\"rulings are marked confirmed with no date or no words of the owner\")",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-28",
+   "file": "frontier/B1861_the_closure_programme/verification/programme_source.py",
+   "quote": "verbatim",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-29",
+   "file": "frontier/B1861_the_closure_programme/verification/test_b1861_the_closure_programme.py",
+   "quote": "assert \"the option the owner chose, in main's label\" in page and \"NOT CONFIRMED: the owner, \\\"\" not in page",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-30",
+   "file": "frontier/B1881_the_whole_and_the_value_verified/FINDINGS.md",
+   "quote": "- **Main adds three things.** The rate is derived, not only observed (§ 4). The seat's convention and main's name",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-31",
+   "file": "frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py",
+   "quote": "script is passed a constant, with two planted lines the scan must report;",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-32",
+   "file": "docs/handoffs/CC_TO_CHAT1_2026-11-11_YOUR_TWO_RELAYS_VERIFIED.md",
+   "quote": "Every exact fact of both relays is reproduced by main's own code: 65 checks, none failing.",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-33",
+   "file": "frontier/B1882_the_v1_card_run_on_main/verification/test_b1882_the_v1_card_run_on_main.py",
+   "quote": "assert \"2026-11-12\" in line[i:i + len(old) + 120], old",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-34",
+   "file": "frontier/B1884_what_level_a_ground_names_verified/FINDINGS.md",
+   "quote": "LR keeps exactly one point at N = 5, and two at other levels.]",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-35",
+   "file": "frontier/B1884_what_level_a_ground_names_verified/arc_verdict.json",
+   "quote": "The same counts hold in main's own convention.",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-36",
+   "file": "scripts/seats/listen.py",
+   "quote": "if not new and not amended and read and not sums:",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-36",
+   "file": "scripts/seats/listen.py",
+   "quote": "amended = {n: t for n, t in ms.items() if n <= read and str(n) in sums and sums[str(n)] != _sum(t)}",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-37",
+   "file": "scripts/seats/listen.py",
+   "quote": "read, sums = int(state.get(\"read\", 0)), state.get(\"sums\") or {}",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-37",
+   "file": "scripts/seats/listen.py",
+   "quote": "return 2, \"main has no page %s\" % path, None",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-38",
+   "file": "scripts/seats/listen.py",
+   "quote": "It fetches every branch and exits when one that is not main has moved, appeared or gone, printing the names and the",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-39",
+   "file": "scripts/atlas/query.py",
+   "quote": "text = [f\"revive {probe_id} [{p['status']}]  -- \\\"{p['slug']}\\\"\",",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-40",
+   "file": "scripts/atlas/query.py",
+   "quote": "text = [f\"{arc_id} [{head}]  -- \\\"{p['slug']}\\\"\",",
+   "found": true
+  },
+  {
+   "finding": "R80-SM-41",
+   "file": "tests/test_b874_ladder.py",
+   "quote": "assert \"SCOPED 2026-11-12\" in after[:400] and \"COMPUTED ON MAIN (B892)\" in after",
+   "found": true
+  }
+ ],
+ "control": {
+  "altered": "Every arc of the window was read in full, all but one by two sessionX",
+  "reported_missing": true
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "review79_window": {
+  "added": 13,
+  "changed_not_added": 25,
+  "verdict_changed": 11,
+  "findings_only": 14,
+  "named_on_no_seat_page": [
+   "B1030",
+   "B1067",
+   "B731",
+   "B732",
+   "B733",
+   "B734",
+   "B942"
+  ],
+  "named_but_lines_shown": {
+   "B1028": {
+    "chat1": [],
+    "agy-exp": [],
+    "agy-002": [
+     "**The guardrail instruments you offered** (the four cheats that slipped past your prototype, the pattern of a typed zero that main mended in B1028, the ban on i"
+    ],
+    "sm": []
+   },
+   "B1222": {
+    "chat1": [
+     "- **The six paragraphs.** Main's own read-out by paragraph finds your seven statements at the lines you gave, and three more: the same list item in the crossing"
+    ],
+    "agy-exp": [],
+    "agy-002": [],
+    "sm": []
+   },
+   "B1643": {
+    "chat1": [
+     "- **The six paragraphs.** Main's own read-out by paragraph finds your seven statements at the lines you gave, and three more: the same list item in the crossing"
+    ],
+    "agy-exp": [],
+    "agy-002": [],
+    "sm": []
+   }
+  }
+ },
+ "b1892_table5": {
+  "rows": 16,
+  "first_reader_column": 52,
+  "second_reader_column": 43,
+  "with_B1889s_three": 98
+ },
+ "generated_only_commits": {
+  "57f604898": {
+   "commits": 45,
+   "only_generated": 18
+  },
+  "323f92327": {
+   "commits": 46,
+   "only_generated": 19
+  },
+  "0dda7b472": {
+   "commits": 49,
+   "only_generated": 20
+  }
+ },
+ "b1892_order": {
+  "last_message_f8b5e6769": "2026-11-12 00:11:54 +0100",
+  "landing_c66c8ccae": "2026-11-12 00:20:21 +0100",
+  "entry_84baf38fb": "2026-11-12 03:04:24 +0100",
+  "in_that_order": true,
+  "c66c8ccae_files": [
+   "CHANGELOG.md",
+   "PROGRESS_LOG.md",
+   "docs/CAMPAIGN_STATUS.md",
+   "docs/POINT_REGISTER.md",
+   "docs/SEAL_LEDGER.md"
+  ]
+ },
+ "b1893": {
+  "f6e89032a_is_an_object_here": false,
+  "tests_test_py_recursive_at_e6298271a": 1537,
+  "tests_test_b_py_top_level_at_e6298271a": 1407
+ },
+ "b1881_lock_tests": {
+  "87bfa1f05": 5,
+  "a36a28ac6": 10,
+  "738be0e5f": 14,
+  "644d5b40f": 15,
+  "c40446392": 15
+ }
+}
