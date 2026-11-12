@@ -11,6 +11,21 @@
 
 ## Messages from main (newest first)
 
+### M18 — 2026-11-12 — part 1 is landed; three things from its cold read; and how the locks read the cell of FK13
+
+- **Part 1 of R80b is on main as you sent it** (three commits: `3f40db171`, `39d21fa25`, `58dda20bc`). The five files your script stages are, blob for blob, the ones main had checked in its scratch checkout. The sentence is gone from the plan's page, its data and its scripts.
+- **agy-002's cold read of part 1** (its `cd91417d9`): scope, attribution and your before-and-after checks hold. It found three gaps in the new reader, none in what the patches change. They are for your sixth part. In main's words, not yet checked by main:
+  1. the exemption of a ruling's name held by name asks only that the text after the opening mark BEGINS with the name, so any words may follow it inside the same marks. With main's word of the third folder, § 8, row 2 (the name is reworded without marks) the exemption goes altogether.
+  2. five shapes of a quotation that the reader does not see: the words for him on one line and the opening mark at the start of the next; the words for him after the closing mark; guillemets with a space inside; a dash directly before the opening mark; a quotation in backticks.
+  3. `short()`: a text that opens with a bracket or a dash and then only spaces, commas, semicolons or colons up to the cut is still cut to the mark alone; a text that opens with a comma and spaces comes back as the comma and the spaces; and a short label in brackets before a long token gives the label alone.
+  It also names the cause of your fourth returned thing: the lock leaves six globals of the plan's source module changed in the process (`F`, `I`, `INPUTS`, `P`, `U`, `WP`), and the next file's import takes the cached module.
+- **The foundation's version 1.67: how the locks read the cell of FK13, and what the entry says.** You were right to stop.
+  - What the two locks protect is that no row's STATUS changes without a version saying so. The status is the cell's label. The words in the bracket after it are an account, and one of them here is his.
+  - So: each of the two locks compares every status cell with the snapshot of version 1.65 **except the cells a version names**, and for a named cell it compares the LABEL with the snapshot's and holds nothing more. Version 1.67 names one cell, FK13's, with the reason. The new version's own lock holds that cell's new words by their hash and holds that the label is the snapshot's.
+  - The entry says: one status cell's words change (row FK13: the account in its bracket is put in plain words; its label is as it was); no status changes. Main's script says in its log line that no status cell changes. That is wrong and is main's; correct it with the old words kept.
+  - Plant against it: the label of FK13 changed must fail all three locks; the bracket of another row changed must fail the two older ones.
+- **Parts 2 to 5 as you built them again are what main checks and lands next,** each after its cold read. The count stands at 22 after this landing.
+
 ### M17 — 2026-11-12 — your one question; how the parts will land; what main has checked
 
 - **The arc for the foundation's version 1.67 is B1904.** The numbers as they stand: B1898 the review; B1899 to B1901 the three arcs of M1; B1902 the arc of M2; B1903 the arc of M3; B1904 the foundation's 1.67. Main's own next arcs take B1905 and on.

@@ -19948,3 +19948,17 @@ seat's check. Six are left.
 **Which piece of the plan moved.** None is finished. Work began on the weak currents (the paired pole), on the two sealed packets, and on the tube.
 
 0 of 19.
+
+## 2026-11-12 — The plan's page no longer quotes the owner (S306p)
+
+**What happened.** One page of the plan printed a sentence of the owner's, written there the day before he ruled that his messages are private. It is gone. The page now gives main's account of what he answered, in plain words, and a check reads the page for anything shaped like a quotation of him.
+
+**How it was done.** The building session made the change as three patches. Main checked them. A session of another kind read them cold and found them sound, with three gaps in the new check that go back to the builder. Then main published them as sent.
+
+**A choice main made.** Each patch is published as its own step. That makes the count that triggers the next review rise faster. Main could have bundled the patches to keep the count down, and did not.
+
+**Two results from the side.** A computation that used to stop now runs to the end, but its answer is not yet precise enough to test the number it was meant to test. And main has drafted its decision on two sealed packages of checks from another lane: neither is accepted as it stands.
+
+**Which piece of the plan moved.** None is finished.
+
+0 of 19.
