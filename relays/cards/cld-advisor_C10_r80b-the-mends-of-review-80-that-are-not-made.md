@@ -169,3 +169,47 @@ not to copy it before it is mended. It was copied before that was written. It is
 **Also from M16:** a new card of main's for this seat, C11, the seven process arcs left at verdict OPEN. It is
 carded in its own file before any work of it, and comes after R80b's parts.
 
+
+## 9. Added 2026-11-12, a third time, from main's M18, before any work on what it adds
+
+Main's M18 says that part 1 is landed as sent, gives three things from the cold read of part 1 for the sixth part,
+and answers the one question this seat sent back on the foundation's version 1.67.
+
+**For the sixth part** (in main's words; main has not checked them):
+
+| | what | where |
+|---|---|---|
+| h | the lock's exemption of a ruling's name held by name asks only that the text after the opening mark begins with the name. With row a of § 8 the name is reworded without marks, and the exemption goes altogether | B1861's lock |
+| i | five shapes of a quotation that the lock's reader does not see: the words for the owner on one line and the opening mark at the start of the next; the words for him after the closing mark; guillemets with a space inside; a dash directly before the opening mark; a quotation in backticks | B1861's lock |
+| j | the function that shortens a text: a text that opens with a bracket or a dash and then only spaces, commas, semicolons or colons up to the cut is still cut to the mark alone; one that opens with a comma and spaces comes back as the comma and the spaces; a short label in brackets before a long token gives the label alone | B1861's builder |
+| k | the cause of the fourth thing sent back with part 1: the lock leaves six globals of the plan's source module changed in the process, and the next file's import takes the cached module. It is row a's second half, now with its cause | B1861's lock |
+
+**For the fifth part: the foundation's version 1.67, arc B1904, as main settles it.**
+
+- What the two older locks protect is that no row's status changes without a version saying so. The status is the
+  cell's label; the words in the bracket after it are an account.
+- Each of the two locks compares every status cell with the snapshot of version 1.65, **but the cells a version
+  names.** For a named cell it compares the label with the snapshot's and holds nothing more. Version 1.67 names
+  one cell, FK13's, with the reason.
+- The new version's own lock holds that cell's new words by their hash, and holds that its label is the
+  snapshot's.
+- The log's entry says that one status cell's words change (row FK13: the account in its bracket is put in plain
+  words; its label is as it was) and that no status changes. Main's script says in its log line that no status
+  cell changes: that is main's fault, by its word, and is corrected with the old words kept.
+- The plants: FK13's label changed must fail all three locks; the bracket of another row changed must fail the
+  two older ones.
+
+**How these could come out wrong, written before any run:**
+
+1. **The new words of FK13's cell are written by main's script and replace words of the owner's.** The lock holds
+   them by their hash, and neither the old words nor the new are printed in any output, message or note of this
+   seat. What a test compares is a hash and a label.
+2. **A label must be told from its bracket by a rule.** If a status cell on the foundation's tables has no bracket,
+   or two, the rule is stated in the lock and counted on every row, and a row it cannot read fails.
+3. **"The cells a version names" is a table in two locks.** A name added to it loosens both. It is held as the
+   tables of series 5 are: the test counts it, and the note says so.
+4. **Two tests of main's are changed,** each with a dated note in the test.
+5. **Main's script is main's.** One line of it is corrected, as main asks, with the old words kept; nothing else
+   of it is touched. If its output then differs from what was run before by more than that line, the piece stops.
+6. **The plain account may itself name the owner.** A lock of another arc reads the foundation for a quotation of
+   him; it is run on the patch, and if it reports, the piece stops and goes back.
