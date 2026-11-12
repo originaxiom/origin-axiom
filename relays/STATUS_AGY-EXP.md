@@ -1,15 +1,16 @@
 seat: agy-exp
-read: M12
+read: M13
 state: working
-on: X-C1b
+on: X-C1c
 needs: nothing
-next push: relays/AGY-EXP_X-C1b_SM_WEAVE_SECOND_TEN.md (after relays/x_c1b_verify/ script and unread output commits), then X-C1c and X-C1d
+next push: relays/AGY_EXP_TO_CC_2026-11-12_X_C1C_RESULTS.md (after relays/cards/AGY-EXP_X-C1c_sm-weave-third-ten-items.md and relays/x_c1c_verify/ script and unread output commits), then X-C1d
 
-## Summary at This Push (`X-R80` Review 80 Delivered; Resuming `X-C1b`)
+## Summary at This Push (`X-C1b` Closed; Advancing to `X-C1c`)
 
-1. **`X-R80` (`M10` at `a35fd4bce`, `M11` at `7640b8d24`, `M12` at `5c7abd72a`) delivered in `relays/REVIEW_80_AGY-EXP.md`:**
-   - Card `relays/cards/AGY-EXP_X-R80_review-80-reading.md` (`17aa8ae48`), sealed standalone verification script `relays/x_r80_verify/verify_x_r80.py` (`b1c5cf085`, with pre-output source-spelling fixes on `686556faf` -> `c3461a951` -> `6c7b74afd` -> `b1c5cf085` disclosed in § 1b), and unread raw output commit `relays/x_r80_verify/verify_x_r80_out.json` (`5e3f7a79b`).
-   - Covered all twenty-six targets across Groups A, B, C, and D (`c40446392` and `0dda7b472`), derived both `B1895` mathematical claims from statements alone (plus the strict second-least reading $\sqrt{2}$ across all positive-integer cyclic sequences via the $17/12$ mixed-$\{1, 2\}$ bound), verified five live adversarial bypasses (`F-R80-1` through `F-R80-5`) passing all fifteen `pytest` tests of `B1881`'s twice-rebuilt lock at `c40446392`, and reported findings `F-R80-1` through `F-R80-14` with machine-verified verbatim quotations while recusing on `B1894` `2X1`–`2X8`, `B1889` `agy`-family sections, `B1885` `agy`-lane prose, and `0 of 19`.
-2. **Next up (`M11`):** resuming `X-C1b` (`relays/cards/AGY-EXP_X-C1b_sm-weave-second-ten-items.md`, rows `923, 924, 925, 926, 927, 928, 929, 930, 931, 934`), followed by `X-C1c` and `X-C1d`.
+1. **Read `M13` (`10fbbc1c2`):** acknowledged receipt of `relays/REVIEW_80_AGY-EXP.md`, main's independent reproduction of all five `B1881` lock bypasses and both `B1895` derivations, and owner direction `P-832`.
+2. **`X-C1b` (`923`–`934`) delivered in `relays/AGY_EXP_TO_CC_2026-11-12_X_C1B_RESULTS.md`:**
+   - Card `relays/cards/AGY-EXP_X-C1b_sm-weave-second-ten-items.md` (`94ac51183`), primary verifier `relays/x_c1b_verify/verify_x_c1b.py` (`3a4db80cb`, pre-output sixty-four-bit modular overflow guard on `7b49e3e22` disclosed in section `2`), unread primary output `relays/x_c1b_verify/verify_x_c1b_out.json` (`915624ba3`), standalone post-run verifier `relays/x_c1b_verify/postrun_923_924_925_929_check.py` (`ee8ac8ba7`), and unread post-run output `relays/x_c1b_verify/postrun_923_924_925_929_out.json` (`d3a2252f9`).
+   - All ten rows (`923`, `924`, `925`, `926`, `927`, `928`, `929`, `930`, `931`, `934`) come out `the same` on all computed pure-mathematics claims (`3` of `3` plus `4` of `4` planted errors caught), with interpretive readings (`923` `PF1`, `929` `FK11`, `934` heterotic orbifold analogy) left as readings (`not independently checked`).
+3. **Next up:** `X-C1c` (`938, 941, 943, 944, 945, 946, 947, 948, 949, 950`), followed by `X-C1d` (`951`–`960`).
 
 `0 of 19.`
