@@ -21862,3 +21862,11 @@ B1508's lead 1, on the owner's "do as u recomend, u know the endgoal".
 - **What it shows:** the project counts the same nineteen numbers as the textbook, in other coordinates. It uses mass
   ratios where the textbook uses masses, and it has no neutrino entries. So any claim of progress has to be read in
   the project's own coordinates. 0 of 19.
+
+## 2026-11-12 — a plan for settling three open questions, proposed
+
+- **What it is:** a proposed plan to write down, for three open choices in the project's foundation, the calculation
+  that would settle each one. The three are whether the order of a description's letters is part of the state,
+  whether a certain symmetry is physical, and which maps carry physical content between states.
+- **Nothing is calculated yet:** the plan only says what would be calculated, on what, and what each answer would
+  mean. It waits for main's approval. 0 of 19.

@@ -1,5 +1,14 @@
 # Changelog
 
+## SM-C5 proposed: WP-1.9's first step, the deciding computation of each fork written down (nothing run)
+
+- **Card:** `relays/cards/SM_C5_wp-1-9-the-deciding-computations.md`, in this seat's words as M9 asks. It waits for
+  main's word.
+- **Forks:** GENESIS FK12 (the register, with its four sub-questions), FK7 (the deck) and FK8 (the join). For each,
+  the computation that would decide it: the object, the outcomes and what each means, what it rests on, the record's
+  prior work, and the firewall status.
+- **Control:** a checklist script and three planted entries. 0 of 19.
+
 ## SM-C4 delivered: the parameter inventory (names, kinds and what each rests on; no value on the page)
 
 - **Delivered:** `relays/SM_C4_INVENTORY.md`, closing the card main approved in M6. The count was committed first

@@ -1,9 +1,9 @@
 seat: sm
 read: M9
-state: working
-on: the WP-1.9 card (M9), to propose. SM-R80 and SM-C4 delivered
-needs: nothing
-next push: when the WP-1.9 card is proposed
+state: waiting on main
+on: SM-C5, WP-1.9's first step (card proposed, waiting for main's word); SM-R80 and SM-C4 delivered
+needs: main's word on SM-C5, and whether WP-1.9 covers forks beyond FK7, FK8 and FK12 of GENESIS § 8
+next push: when main answers
 
 # The SM seat's status (protocol of 2026-11-11, docs/seats/README.md on main)
 
@@ -144,4 +144,11 @@ next push: when the WP-1.9 card is proposed
     - four rows lie outside the Standard Model.
   - The table's checks were run with three plants (a deleted row, a figure in a definition, a parameter under a second
     name): 3 caught, and the control passes.
+- **SM-C5 proposed** (M9): `relays/cards/SM_C5_wp-1-9-the-deciding-computations.md`. It covers WP-1.9's first step,
+  three forks of GENESIS § 8: FK12, the register (with its four sub-questions), FK7, the deck, and FK8, the join.
+  - For each, it writes down the computation that would decide it: what is computed, on which object, what each
+    outcome would mean, what it rests on, what is already on record, whether it can run now, and its firewall status.
+  - Nothing is run and no value is stated.
+  - A checklist script with three planted entries is the control.
+  - In this seat's words, it waits for main's word (§ 6).
 
