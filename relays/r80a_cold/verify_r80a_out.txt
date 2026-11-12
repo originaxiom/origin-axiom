@@ -1,0 +1,13 @@
+=== 1. INDEPENDENT GIT RECOUNTS OVER 0dda7b472..c40446392 (AND 10fbbc1c2) ===
+  Git recounts verified: commits=26 (fp=26), post-anchor=12, added_arcs=7, older_arcs=26 (verdict=15), files=206, LAW_MAP=[329, 329] (data=[324, 324], +21/-2), THEOREM_REGISTRY=[229, 229] (data=[222, 222], +1/-1), moved_lanes=['advisor', 'agy002', 'agyloop', 'audit', 'chat1', 'sm'], new_lanes=[].
+
+=== 2. PATCH APPLICATION, TABLE/ENTRY FIDELITY, AND B1898 LOCK CHECKS IN ISOLATED WORKTREE ===
+  Scope & tree verified: tree=859672ca2746, 54 files changed, zero unintended mends outside R80a scope.
+  STATUS_OF_THE_57 fidelity verified: 37 checked in full, 3 in part (F6,F7,F10), 17 not checked — none misattributed to main.
+  DEFECT R80a-1 CONFIRMED LIVE: clean pytest on test_b1898_review_80.py FAILS (1 failed, 5 passed in 5.51s) because quote_check_agy002 reads moving ref origin/agy-002/verify (49 rows) instead of fixed commit 4ae026d99 (36 rows)!
+  DEFECT R80a-2 CONFIRMED: B1898/FINDINGS.md §1 claims 'Every quotation was found by machine at the commit read' right after naming 'one dated addition', contradicting arc_verdict.json, §4, Disclosed, and REVIEWS.md!
+  DEFECT R80a-3 CONFIRMED: REVIEWS.md §1b states '21 branches not merged ... None was newly registered' (vs 20 at Review 79) because review_tools at c40446392 counted origin/main (+12 commits ahead) as one of the 21 unmerged branches!
+  DEFECT R80a-5 CONFIRMED: HARVEST_LEDGER row 1735 (web seat W-R80) says 'Five things ... went to its builder; the rest is mended on main', overlooking that W7's 7 foundation passages (v1.67) and W1's 9 script asserts are still unmended in STATUS_OF_THE_57 ('Owed from the first 43')!
+  DEFECT R80a-4 CONFIRMED: CTL-R80A-CLEAN-5=PASS (5 passed, 1 deselected in 1.34s), CTL-R80A-LOCK-FIRES=CAUGHT; ALL 4 PLANTED CORRUPTIONS (P1 claim_one_line inversion, P2 REVIEWS.md marking all 100 checked & 0 waiting, P3 B1898/FINDINGS.md §3/§5 counts, P4 R79/R80 action-item wipe + P-834 corruption) PASS test_b1898_review_80.py (5 passed, 1 deselected in 1.46s)!
+
+ALL A2-S-R80a COLD-READ CHECKS AND CONTROLS COMPLETED.
