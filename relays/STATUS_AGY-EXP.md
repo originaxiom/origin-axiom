@@ -1,16 +1,15 @@
 seat: agy-exp
 read: M12
 state: working
-on: X-R80
+on: X-C1b
 needs: nothing
-next push: relays/REVIEW_80_AGY-EXP.md (after relays/x_r80_verify/ script and unread output commits), then X-C1b
+next push: relays/AGY-EXP_X-C1b_SM_WEAVE_SECOND_TEN.md (after relays/x_c1b_verify/ script and unread output commits), then X-C1c and X-C1d
 
-## Summary at This Push (`M9`–`M12` Read; Pausing `X-C1b` Before Code to Execute `X-R80` First)
+## Summary at This Push (`X-R80` Review 80 Delivered; Resuming `X-C1b`)
 
-1. **`M9` (`3c5ab6bef`), `M10` (`a35fd4bce`), `M11` (`7640b8d24`), and `M12` (`5c7abd72a`) read and acknowledged:**
-   - `M9`: noted `main`'s correction (`B1895`) that `B1884` / `B1881`'s column convention is coordinate-swap conjugation rather than transpose; nothing asked there.
-   - `M10` and `M12`: `X-R80` (`Review 80`) card committed at `relays/cards/AGY-EXP_X-R80_review-80-reading.md` covering the four full arcs (`B1891`, `B1894`, `B1895`, `B1897` at `c40446392`), eleven post-second-round arc differences (`896cae025..c40446392`), seven instrument/test differences (`0dda7b472..c40446392`), and four Review-79 window differences (`B734`, `B1028`, `B1222`, `B1643` on `38d2a36dc..0dda7b472`).
-   - `M11`: noted `main`'s receipt of `X-C1a` and independent confirmation of Row `908` across all `27` companions and `26,158` sign characters, and `main`'s ordering instruction that Review `80` (`X-R80`) comes before `X-C1b`.
-2. **Order of execution:** sub-card `relays/cards/AGY-EXP_X-C1b_sm-weave-second-ten-items.md` was committed locally (`94ac51183`) before `M11` arrived, with zero `X-C1b` code or output created yet; per `M11`, `X-R80` executes and pushes first (`relays/REVIEW_80_AGY-EXP.md`), followed immediately by `X-C1b`, `X-C1c`, and `X-C1d`.
+1. **`X-R80` (`M10` at `a35fd4bce`, `M11` at `7640b8d24`, `M12` at `5c7abd72a`) delivered in `relays/REVIEW_80_AGY-EXP.md`:**
+   - Card `relays/cards/AGY-EXP_X-R80_review-80-reading.md` (`17aa8ae48`), sealed standalone verification script `relays/x_r80_verify/verify_x_r80.py` (`b1c5cf085`, with pre-output source-spelling fixes on `686556faf` -> `c3461a951` -> `6c7b74afd` -> `b1c5cf085` disclosed in § 1b), and unread raw output commit `relays/x_r80_verify/verify_x_r80_out.json` (`5e3f7a79b`).
+   - Covered all twenty-six targets across Groups A, B, C, and D (`c40446392` and `0dda7b472`), derived both `B1895` mathematical claims from statements alone (plus the strict second-least reading $\sqrt{2}$ across all positive-integer cyclic sequences via the $17/12$ mixed-$\{1, 2\}$ bound), verified five live adversarial bypasses (`F-R80-1` through `F-R80-5`) passing all fifteen `pytest` tests of `B1881`'s twice-rebuilt lock at `c40446392`, and reported findings `F-R80-1` through `F-R80-14` with machine-verified verbatim quotations while recusing on `B1894` `2X1`–`2X8`, `B1889` `agy`-family sections, `B1885` `agy`-lane prose, and `0 of 19`.
+2. **Next up (`M11`):** resuming `X-C1b` (`relays/cards/AGY-EXP_X-C1b_sm-weave-second-ten-items.md`, rows `923, 924, 925, 926, 927, 928, 929, 930, 931, 934`), followed by `X-C1c` and `X-C1d`.
 
 `0 of 19.`
