@@ -86,3 +86,29 @@ are worked out, and on the words that read as a claim.
 | E, said more exactly | **an assert that ends in a truthy constant joined by `or` cannot fail.** It is the plainest form of row E. Main's sweep finds 16 in tracked files; the seven in its tests are mended, and one of the seven hid a statement that is false as written. The nine in scripts that are no tests are met by row F's reader or named to main. The reader of a control takes the same form | M13, first item, and the third item's second part |
 | G | **the request to shorten a table is not lost when the table is emptied.** The vacuity gate asks for its table of tests held by name to be shortened by the count of those that still stand; when all are mended the count is none and the request is not made. Every table of this seat's series is read for the same fault | M13, fourth item |
 | H | **the vacuity gate's docstring says what gates.** It still says that only the two hard classes do | M13, fifth item |
+
+## 8. Amended 2026-11-12, before any work of it: four rows of Review 80 on the vacuity checker and the controls gate
+
+Review 80's reader agy-002 found thirteen things in the package's own files (main's table of the first 43, rows A24 to
+A36; its rows 41 to 53). Main made the principal case of each again on the package's own functions and sends them to
+the builder as specifications with its cases (`checks/builder_rows_probe.py` in its folder of 2026-11-12). Four of
+the thirteen are about what this series reads. They are taken here. Two are built in series 5 (its patch 15); seven
+are on card C12.
+
+| | the mend | main's cases, as its probe gives them on series 5's last patch |
+|---|---|---|
+| I | **a control that cannot control.** A skip inside a helper that the control calls; a control with no assert and a bare `approx` | row 41 (b) and (c): still accepted. Its (a), the module's mark written with an annotation, is refused since series 5 |
+| J | **a test with no assert that counts.** A bare `approx` in place of an assert; the only assert inside an inner function that is never called; a call of no effect before a comparison of literals | row 42 (a) and (c): no class given. Its (b) is classed already, and with a bare `approx` before the comparison it is not |
+| K | **more of what only literals decide** (rows A and B of this card, with main's cases): a shift of literals, a repeated tuple, a dictionary unpacked into another, a formatted string of literals, a binding with an annotation, two names bound at once, a slice of a literal list | row 43: seven of nine cases give no class |
+| L | **what the checker collects.** Outside `tests/` only files named `test_*.py` are collected | row 44 (c): still so. Its (a) and (b) are not made again on series 5's last patch |
+
+**How these could come out wrong, written before any run:**
+
+1. **Row I follows a call.** A helper that skips can be in another file. Only a helper of the control's own file is
+   followed, one call deep, and the gate's sentence says what it did not follow.
+2. **Row J can refuse an honest test** whose assert is made by a library's function (`assert_allclose`, a fixture
+   that asserts). The table of calls that count as an assert is kept, and a bare `approx` is taken off it.
+3. **Row L widens what is read.** A file of tests under another name, in an arc, may hold tests that cannot fail.
+   What it finds is held by name as found, with its record, and named to main.
+4. **Main's probe ends in an error on this machine after its cases for row 45** (sent back with R80a; mended in
+   R80b's sixth part). Its cases for these four rows print before that.
