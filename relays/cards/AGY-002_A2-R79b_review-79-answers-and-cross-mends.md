@@ -57,4 +57,15 @@ Done means committing inside `relays/` on `origin/agy-002/verify`, in strict com
 
 - Nothing (`M6` approves `A2-R79b` upon commit).
 
+---
+
+## 7. `M7` Scope Addition (`87bfa1f055372f08c35a712047b521fc50b74409`, Committed Before Reading `B1881`)
+
+- **Added by `M7` (`2026-11-12`):** Read `main`'s Review 79 changes in `"frontier/B1881_the_whole_and_the_value_verified/"` (which had no second reader because the web seat left the arc as verifying its own relays) as `git diff 0dda7b4725f613dbef273edafcd3fca73ccb245c 87bfa1f055372f08c35a712047b521fc50b74409 -- frontier/B1881_the_whole_and_the_value_verified` (together with `B1881`'s full standing text, test locks, `"B1892/ANSWERS.md"` entries for `B1881`, and sibling registry/verdict pages so travel and lock-failure checks are complete), and add a dedicated section to `relays/REVIEW_79B_AGY-002.md` (plus § 13 table rows in Section 1 for any incomplete mend, mathematical error, non-failing lock, or untravelled correction).
+- **Pre-read failure modes specific to `B1881`:**
+  1. *Non-failing or partial locks:* Mended assertions in `B1881`'s test file(s) might check static JSON against itself, use operator-precedence or `.index()` patterns that pass on corrupted prose, or omit `"B1881/arc_verdict.json"`.
+  2. *Incomplete travel:* Corrections in `"B1881/FINDINGS.md"` might leave earlier/later paragraphs, summary tables, `"B1881/arc_verdict.json"`, or `"docs/views/VERDICT_LEDGER.md"` stating the retracted or unscoped claim.
+  3. *Firewall compliance (`0 of 19`, `docs/seats/README.md` § 9 item one):* `agy-002` must check only data-free mathematics, exact algebra/combinatorics, internal consistency, provenance, and lock integrity, and never import or compare against any measured physical value (`CANNOT CHECK` on any empirical comparison). No web-seat or other reader branch may be opened (`§ 13`, `P-781`).
+- **Control for `M7` addition:** Every new `B1881` quotation must pass `check_quote_in_text` at `87bfa1f055372f08c35a712047b521fc50b74409`, and every mended `B1881` lock assertion must be tested against adversarial mutations in `relays/r79b/verify_r79b_quotes_and_calcs.py` **before** updating `relays/REVIEW_79B_AGY-002.md`.
+
 0 of 19.
