@@ -1,0 +1,38 @@
+r79b_checks at main 896cae025 (window 0dda7b472..896cae025)
+Q   B1861 frontier/B1861_the_closure_programme/verification/programme_source.py: found
+Q   B1882 frontier/B1882_the_v1_card_run_on_main/verification/test_b1882_the_v1_card_run_on_main.py: found
+Q   B1862 frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py: found
+Q   quotations checked: 3; not found: 0
+L   programme_source.py on line 701: found
+L   programme_source.py on line 701: found
+L   programme_source.py on line 701: found
+L   programme_source.py on line 701: found
+L   programme_source.py on line 701: found
+L   PROGRAMME.md on line 954: found
+L   PROGRAMME.md on line 954: found
+L   PROGRAMME.md on line 954: found
+L   test_b1882_the_v1_card_run_on_main.py on line 222: found
+L   test_b1862_the_audits_first_corrections.py on line 189: found
+L   test_b1862_the_audits_first_corrections.py on line 194: found
+L   test_b1862_the_audits_first_corrections.py on line 194: found
+L   test_b1862_the_audits_first_corrections.py on line 203: found
+L   test_b1862_the_audits_first_corrections.py on line 203: found
+L   test_b1862_the_audits_first_corrections.py in the file (1 times): found
+L   test_b1862_the_audits_first_corrections.py in the file (2 times): found
+L   test_b1862_the_audits_first_corrections.py in the file (1 times): found
+L   test_b1862_the_audits_first_corrections.py in the file (1 times): found
+L   test_b1879_the_weaves_theorems_with_the_exchange.py in the file (1 times): found
+L   global_form.py in the file (2 times): found
+L   global_form.py in the file (1 times): found
+L   global_form.py in the file (1 times): found
+L   query.py in the file (1 times): found
+L   query.py in the file (1 times): found
+L   strings checked: 24; not found: 0
+P   B1882 page, sentence 1: stands 1 time(s); after the first dated correction: True
+P   B1882 page, sentence 2: stands 1 time(s); after the first dated correction: True
+P   B1882 page, sentence 3: stands 1 time(s); after the first dated correction: True
+D   B58: 3 folders, 3 with a verdict file
+D   arc numbers carried by more than one folder: 1
+V   commits in the window: 3; messages with a trailer or a vendor's name: 0
+V   added lines in the window with a trailer or a vendor's name: 0, in no file
+V   this seat's files with a vendor's name: none

@@ -1,0 +1,4 @@
+docs/p1.md     reported as corrected: True
+docs/p2.md     reported as corrected: True
+docs/p3.md     reported as corrected: True
+docs/good.md   reported as corrected: True
