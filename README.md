@@ -24,7 +24,7 @@ nothing in this block is typed by hand.*
 | arcs with a verdict | 1600: 1108 PROVED, 383 NEGATIVE, 97 OPEN, 12 RETRACTED |
 | points in the register | 834: 309 open (queued, leads, waiting for the owner), 525 closed |
 | the last review | Review 80 (2026-11-12), anchor `c40446392` |
-| the last landing | S306p REVIEW 80'S ENTRY IS LANDED AS THE BUILDER SENT IT, AND MAIN MENDS SEVEN THINGS IN IT THAT ITS OWN CHECK AND A COLD READING FOUND; THE FIVE ITE… |
+| the last landing | S306p THE PLAN'S PAGE QUOTES NOTHING OF THE OWNER: PART 1 OF THE BUILDER'S SECOND SERIES IS LANDED, THREE PATCHES, AFTER MAIN'S CHECK AND A COLD READ… |
 <!-- STATE:END -->
 
 ## Start here
