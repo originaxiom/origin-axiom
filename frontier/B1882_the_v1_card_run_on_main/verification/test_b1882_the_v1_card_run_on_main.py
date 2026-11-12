@@ -5,6 +5,7 @@ record together with their reading; a reading that does not follow from its coun
 than the cells read (a rarity re-read, a comparison made, or the margin left out)."""
 import hashlib
 import json
+import re
 import math
 import pathlib
 import subprocess
@@ -218,6 +219,31 @@ def test_the_pages_numbers_are_the_runs():
     x = end("N2", "wf|free", "best 1%", "top")
     assert "{:,} against a line at {:,.2f}, a ratio of {:.3f}".format(x["lost"], float(2 * share(x) * x["n"]), float(ratio(x))) in page
     # the sentences that were wrong stand once each, inside the dated correction
+    # CORRECTED 2026-11-12 (Review 79's second round; found by two readings).  The line that stood here read
+    # `assert A and B or old == "..."`, which Python takes as `(A and B) or C`: for the third sentence C was true and the line
+    # could not fail.  And it asked only that the first correction banner stand somewhere before the sentence.  Now each old
+    # sentence must stand exactly once, and that once inside a block that opens with a dated correction.
+    raw = (ARC / "FINDINGS.md").read_text(encoding="utf-8")                        # with its line breaks: a block ends at an empty line
+    blocks = [" ".join(b.split()) for b in re.split(r"\n\s*\n", raw)]
+
+    def _inside_a_correction(sentence):
+        holds = [b for b in blocks if sentence in b]
+        if len(holds) != 1 or holds[0].count(sentence) != 1:
+            return False
+        b = holds[0]
+        return bool(re.search(r"CORRECTED 20\d\d-\d\d-\d\d", b[:b.index(sentence)]))
     for old in ("Those are targets that fit nothing.", "At the bottom end, at less than a tenth of it.", "was reproduced on main in B1870"):
-        assert page.count(old) == 1 and page.index("CORRECTED 2026-11-12 (Review 79") < page.index(old) or old == "was reproduced on main in B1870", old
+        assert _inside_a_correction(old), old
+    assert not _inside_a_correction("ALL THREE DECISIVE CELLS") and not _inside_a_correction("no such sentence on the page")     # the check can fail
+    # and the statements the second round found still standing each carry their correction in the same block or the next
+    for old in ('"20% at the top edge" is reproduced', "A random target that fits nothing has its least bad row somewhere", "So the pile-up belongs to the targets that fit nothing",
+                "bottom end would add almost none", "the finding as main reproduced it"):
+        at = [n for n, b in enumerate(blocks) if old in b]
+        assert at, old
+        for n in at:
+            assert "CORRECTED 2026-11-12" in " ".join(blocks[n:n + 2]), old
+    line = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))["claim_one_line"]
+    for old in ("THE AUDIT'S FIGURE IS REPRODUCED AND IS NOT ABOUT RARITY", "a lower bottom end almost none"):
+        i = line.index(old)
+        assert "2026-11-12" in line[i:i + len(old) + 120], old
     assert "left open there" in page and "\"OPEN, not checked\"" in page

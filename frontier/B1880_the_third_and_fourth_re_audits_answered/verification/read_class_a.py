@@ -9,6 +9,7 @@ import importlib.util
 import json
 import pathlib
 import re
+import sys
 import subprocess
 
 ROOT = pathlib.Path(__file__).resolve().parents[3]
@@ -65,7 +66,11 @@ def main():
         P("so in none of them did a line of mathematics, a threshold or a datum change: a local path was made relative, or a name was redacted.")
     else:
         P("NOT ALL EQUAL: the files that differ beyond a path or a redacted name are to be read by hand.")
-    (HERE / "read_class_a_run.txt").write_text("\n".join(out) + "\n", encoding="utf-8")
+    # CORRECTED 2026-11-12 (Review 79's second round).  This line wrote the tracked run file at every call, and the arc's lock
+    # calls main() at every test run: a run of the suite rewrote a tracked file, with lines of git's log in it that move when
+    # any of the nine files is touched.  It is written only when asked for now.
+    if "--write" in sys.argv:
+        (HERE / "read_class_a_run.txt").write_text("\n".join(out) + "\n", encoding="utf-8")
     return equal == len(rows)
 
 

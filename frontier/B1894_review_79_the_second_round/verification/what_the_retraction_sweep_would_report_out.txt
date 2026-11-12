@@ -1,0 +1,62 @@
+WHAT THE RECORD'S RETRACTION SWEEP WOULD REPORT IF THE AUDIT'S CORRECTED SENTENCES WERE REGISTERED AS RETRACTED PHRASES
+(a trial by main, 2026-11-12: the registry is not changed; the phrases are added in memory and the sweep is run as it stands)
+phrases registered today: 29; added for the trial: 10; lines the sweep would report: 49 (and of the phrases registered today: 0)
+   15  invisible to every state
+    7  invisibility to every state
+    6  21 distinct eigenvalues
+    6  only at N = 5
+    5  set of semisimple elements contains a maximal torus
+    3  no non-abelian continuous symmetry commuting with the holonomy
+    2  invisible to all states
+    2  no real nullity-14 point exists there
+    2  fixes a point only at N = 5
+    1  twenty-one distinct eigenvalues
+   TERMINOLOGY.md:1064 -> invisible to every state
+   docs/GUT_REQUIREMENTS_LEDGER.md:71 -> set of semisimple elements contains a maximal torus
+   docs/handoffs/CC_TO_ADVISOR_2026-11-10_THE_AUDIT_TAKEN_UP.md:44 -> invisible to every state
+   frontier/B1856_charge_or_symmetry_at_five_verified/FINDINGS.md:17 -> invisible to every state
+   frontier/B1856_charge_or_symmetry_at_five_verified/FINDINGS.md:24 -> invisible to every state
+   frontier/B1856_charge_or_symmetry_at_five_verified/FINDINGS.md:33 -> invisible to every state
+   frontier/B1856_charge_or_symmetry_at_five_verified/verification/parity_split.py:3 -> invisible to every state
+   frontier/B1856_charge_or_symmetry_at_five_verified/verification/parity_split.py:6 -> invisible to every state
+   frontier/B1861_the_closure_programme/FINDINGS.md:199 -> 21 distinct eigenvalues
+   frontier/B1861_the_closure_programme/verification/programme_source.py:419 -> invisible to every state
+   frontier/B1861_the_closure_programme/verification/programme_source.py:595 -> invisible to every state
+   frontier/B1862_the_audits_first_corrections/FINDINGS.md:12 -> 21 distinct eigenvalues
+   frontier/B1862_the_audits_first_corrections/FINDINGS.md:13 -> invisible to every state
+   frontier/B1862_the_audits_first_corrections/FINDINGS.md:39 -> invisible to every state
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:203 -> invisible to every state
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:217 -> invisible to all states
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:234 -> set of semisimple elements contains a maximal torus
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:236 -> no non-abelian continuous symmetry commuting with the holonomy
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:240 -> only at N = 5
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:314 -> set of semisimple elements contains a maximal torus
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:329 -> invisible to every state
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:331 -> invisibility to every state
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:332 -> invisibility to every state
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:333 -> invisibility to every state
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:334 -> 21 distinct eigenvalues
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:335 -> no real nullity-14 point exists there
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:337 -> 21 distinct eigenvalues
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:356 -> invisibility to every state
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:357 -> invisible to all states
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:358 -> invisibility to every state
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:359 -> 21 distinct eigenvalues
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:360 -> twenty-one distinct eigenvalues
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:361 -> no real nullity-14 point exists there
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:363 -> fixes a point only at N = 5
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:363 -> only at N = 5
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:364 -> only at N = 5
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:365 -> only at N = 5
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:366 -> 21 distinct eigenvalues
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:367 -> invisible to every state
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:370 -> invisibility to every state
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:371 -> fixes a point only at N = 5
+   frontier/B1862_the_audits_first_corrections/verification/test_b1862_the_audits_first_corrections.py:371 -> only at N = 5
+   frontier/B1877_review_78_the_decadal_review/verification/readers/reader_READ_IN_FULL.md:223 -> set of semisimple elements contains a maximal torus
+   frontier/B1877_review_78_the_decadal_review/verification/readers/reader_READ_IN_FULL.md:224 -> set of semisimple elements contains a maximal torus
+   frontier/B1877_review_78_the_decadal_review/verification/readers/reader_READ_IN_FULL.md:232 -> invisible to every state
+   frontier/B1877_review_78_the_decadal_review/verification/readers/reader_READ_IN_FULL.md:234 -> invisibility to every state
+   frontier/B1877_review_78_the_decadal_review/verification/readers/reader_READ_IN_FULL.md:238 -> no non-abelian continuous symmetry commuting with the holonomy
+   frontier/B666_leads_campaign/cellW35/b666w35_bronze.py:31 -> only at N = 5
+   frontier/B854_centralizer_exact/FINDINGS.md:17 -> no non-abelian continuous symmetry commuting with the holonomy

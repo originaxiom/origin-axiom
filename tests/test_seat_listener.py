@@ -4,6 +4,7 @@ What could fail: a seat not told of a new message; a seat told twice of the same
 has not changed; main not told that a seat's branch moved; the listener touching the working tree or HEAD; or a listener
 that cannot look saying nothing new instead of saying that it could not look."""
 import importlib.util
+import json
 import pathlib
 import subprocess
 import sys
@@ -171,3 +172,46 @@ def test_an_amended_message_is_shown_a_fenced_heading_is_not_a_heading_and_a_dam
     mem.write_text("{ this is not json", encoding="utf-8")
     r = _listen(clone, "--seat", "x")
     assert r.returncode == 2 and "memory cannot be read" in r.stderr
+
+
+def test_fences_are_read_by_the_rule_an_old_memory_is_said_and_a_failed_listing_is_not_an_empty_one(tmp_path, monkeypatch):
+    """Review 79's second round, from a reading of the mended listener on another family of model.  Three things: any line that
+    began with three backticks or tildes opened or closed a block, so a line of prose that began with a span of code swallowed
+    every older message; a memory written before the listener kept the messages' text said "No new message" when main had
+    changed one in place, and then stored the new text; and main's side read the list of branches whatever git returned."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("listen_for_test3", LISTEN); L = importlib.util.module_from_spec(spec); spec.loader.exec_module(L)
+    head = "## Messages from main (newest first)\n\n"
+    tail = "\n\n### M1 — a day — plain\n\ntext one\n\n## What main is waiting for from you\n\n- nothing\n"
+    # a block fenced with tildes that quotes one fenced with backticks, with a '#' line inside
+    page = head + "### M2 — a day — tildes\n\n~~~\n```\n# a comment\n```\n## not a heading\n~~~\n\nafter the block." + tail
+    ms = L.messages(page)
+    assert sorted(ms) == [1, 2] and "after the block." in ms[2] and "not a heading" in ms[2] and "text one" in ms[1]
+    # a line of prose that begins with a span of code is not a fence: the older message below it is still there
+    page = head + "### M2 — a day — a span\n\n```git status``` shows it.\n\nthen stop." + tail
+    ms = L.messages(page)
+    assert sorted(ms) == [1, 2] and "then stop." in ms[2] and "text one" in ms[1]
+    # a longer fence is not closed by a shorter one, nor by one with text after it
+    page = head + "### M2 — a day — long\n\n````\n```\n# inside\n``` not a close\n````\n\nout." + tail
+    ms = L.messages(page)
+    assert sorted(ms) == [1, 2] and "out." in ms[2] and "# inside" in ms[2]
+    # an old memory: the page's blob and the number read, and no record of the messages' text
+    origin, clone = _origin_and_clone(tmp_path)
+    r = _listen(clone, "--seat", "x"); assert r.returncode == 0
+    mem = pathlib.Path(L.memory(str(clone))) / "x.json"
+    state = json.loads(mem.read_text(encoding="utf-8")); assert "sums" in state
+    mem.write_text(json.dumps({"blob": state["blob"], "read": state["read"]}), encoding="utf-8")     # as the older listener wrote it
+    p = origin / "docs" / "seats" / "x.md"
+    p.write_text(p.read_text(encoding="utf-8").replace("the text of message 1", "the text of message 1, AMENDED"), encoding="utf-8")
+    _git(origin, "commit", "-q", "-a", "-m", "main amends a message the seat has read")
+    r = _listen(clone, "--seat", "x")
+    assert r.returncode == 0 and "holds no record of the text" in r.stdout and "read M1 to M" in r.stdout
+    # main's side: a listing that fails is said, and the memory of the branches is kept
+    r = _listen(clone, "--main"); assert r.returncode in (0, 3)
+    main_mem = pathlib.Path(L.memory(str(clone))) / "main.json"
+    before = main_mem.read_text(encoding="utf-8") if main_mem.is_file() else None
+    real = L.git
+    monkeypatch.setattr(L, "git", lambda *a, **k: (124, "", "git for-each-ref did not answer") if a and a[0] == "for-each-ref" else real(*a, **k))
+    status, text, remember = L.look_main(str(clone), "origin", False)
+    assert status == 2 and "could not be listed" in text and remember is None
+    assert (main_mem.read_text(encoding="utf-8") if main_mem.is_file() else None) == before

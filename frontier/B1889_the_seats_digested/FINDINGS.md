@@ -98,14 +98,14 @@ Each card says what the record shows. "Recomputed" means main ran its own code o
 | | |
 |---|---|
 | sent | 32 items since 2026-10-27, on four branches |
-| recomputed by main | parts of ten rows, on the mathematics that uses no value |
+| recomputed by main | parts of ten rows, on the mathematics that uses no value [CORRECTED 2026-11-12 (Review 79's second round): no file of this arc lists the ten. The number was main's count on reading the lane's 32 rows. By leading words the generated table gives the lane 4 rows that open with a recomputation] |
 | how main reads it | through the mask only. Its code is never run by main |
 | doing now | a loop in four phases on its fourth branch; four theorems that use no data, stated for main to check (row 1696; P-781) |
 
 - **What it has shown.** Speed and width, on another family of model than main's. Where its mathematics uses no
   value and main checked it, a good part held and was banked with credit: rows 1558, 1563, 1581, 1582, 1604, 1621,
   and row 1643, where ten of its claims were verified and none found wrong.
-- **Where it has been wrong.** Fourteen of its rows carry a refutation, a decline or a correction by main. Early
+- **Where it has been wrong.** Fourteen of its rows carry a refutation, a decline or a correction by main. [CORRECTED 2026-11-12 (Review 79's second round): no file of this arc lists the fourteen either. A search of the 32 dispositions for such words finds thirteen rows, some of which name the failure of something else; so neither number can be held to a file, and main gives none.] Early
   fits made after the fact were presented as selections (rows 1406, 1511). Later theorems were not proofs (rows
   1539, 1571), contradicted the record (row 1604), or were refuted (rows 1560, 1562, 1568).
 - **The firewall.** It looked at held-out targets twice (rows 1539, 1547) and ran one unsealed evaluation, which it

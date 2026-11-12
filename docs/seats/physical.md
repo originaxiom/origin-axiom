@@ -7,7 +7,7 @@
 | your role | builder of the packages on the action and the dynamics that already name you: WP-2.3, the end law, and WP-2.5, the source and the dynamics |
 | your branch | the one named physical-bridge-2026-09-05; main reads your mathematical files through its second mask, so keep measured values out of your status file and your notes to main |
 | who verifies your work | the SM seat; then main recomputes what decides |
-| what your record shows | 361 items sent on two branches. Main recomputed 31 and all 31 held; you found a defect in main's B915. Two thirds of what you sent was registered and never fully read, and your own labels on most of it are unreviewed and unrun (`frontier/B1889_the_seats_digested/FINDINGS.md`, § 2) |
+| what your record shows | 367 items sent on two branches [corrected 2026-11-12: this read 361, the digest's number before its builder was mended; 314 on this branch and 53 on the fork]. Main recomputed 31 and all 31 held; you found a defect in main's B915. Two thirds of what you sent was registered and never fully read, and your own labels on most of it are unreviewed and unrun (`frontier/B1889_the_seats_digested/FINDINGS.md`, § 2) |
 
 ## Messages from main (newest first)
 

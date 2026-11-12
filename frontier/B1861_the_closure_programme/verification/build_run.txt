@@ -1,10 +1,10 @@
 written: PROGRAMME.md, PROGRAMME.json
 {
- "map_nodes": 284,
+ "map_nodes": 285,
  "nodes_needing_a_path": 134,
  "nodes_assigned": 134,
  "conditional_results": 19,
- "debts": 92,
+ "debts": 93,
  "packages": 43,
  "packages_by_obligation": {
   "C0": 12,
@@ -71,7 +71,7 @@ written: PROGRAMME.md, PROGRAMME.json
  "forcing_arguments_one_clause_short": 3,
  "findings_that_bear_on_the_repository_as_a_whole": 34,
  "findings_that_name_arcs_nodes_or_pages_only": 39,
- "debts_on_the_map_joined_to_nothing": 75,
+ "debts_on_the_map_joined_to_nothing": 76,
  "packages_the_sealed_card_must_wait_on_for_that": [
   "WP-0.1",
   "WP-0.11",

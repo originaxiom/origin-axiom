@@ -15,7 +15,7 @@ THE WEB SEAT'S CARD ON WHAT LEVEL A GROUND NAMES, ON MAIN
    [ok] G4 those with det(g - I) and det(g + I) both units (no line of their own at any level) are exactly the tick and its other side -- [(0, 1, 1, 1), (1, 1, 1, 0)]
    [ok] G4 by hand, on all 87: det(g - I) = -trace and det(g + I) = trace
    [ok] G4 and by brute force to N = 40: the same two keep no vector up to sign -- 2
-   [ok] G5 in B1872's convention: the ground [[2,1],[1,1]] keeps (1,2) up to sign at N = 5, four vectors there and none at another N to 60; its tick keeps none -- ((1, 1, 1, 0), (2, 1, 1, 1))
+   [ok] G5 in the column convention, the transpose of B1872's rows: the ground [[2,1],[1,1]] keeps (1,2) up to sign at N = 5, four vectors there and none at another N to 60; its tick keeps none -- ((1, 1, 1, 0), (2, 1, 1, 1))
    L2R   trace 4, discriminant 12: exactly one line kept at N = [2, 3, 6]; a vector kept up to sign at N = [2, 3, 6]
    LR2   trace 4, discriminant 12: exactly one line kept at N = [2, 3, 6]; a vector kept up to sign at N = [2, 3, 6]
    L3R   trace 5, discriminant 21: exactly one line kept at N = [3, 7, 21]; a vector kept up to sign at N = [3, 7]
@@ -23,6 +23,6 @@ THE WEB SEAT'S CARD ON WHAT LEVEL A GROUND NAMES, ON MAIN
    L4R   trace 6, discriminant 32: exactly one line kept at N = [2]; a vector kept up to sign at N = [2, 4, 8]
    LR4   trace 6, discriminant 32: exactly one line kept at N = [2]; a vector kept up to sign at N = [2, 4, 8]
    L2R2  trace 6, discriminant 32: exactly one line kept at N = none; a vector kept up to sign at N = [2, 4]
-   [ok] the seat's table of the seven other root histories (reported there, not predicted) is reproduced to N = 60 -- {'L2R': ([2, 3, 6], [2, 3, 6]), 'LR2': ([2, 3, 6], [2, 3, 6]), 'L3R': ([3, 7, 21], [3, 7]), 'LR3': ([3, 7, 21], [3, 7]), 'L4R': ([2], [2, 4, 8]), 'LR4': ([2], [2, 4, 8]), 'L2R2': ([], [2, 4])}
+   [ok] the seat's table of the seven other root histories (reported there, not predicted) is recomputed to N = 60, the same -- {'L2R': ([2, 3, 6], [2, 3, 6]), 'LR2': ([2, 3, 6], [2, 3, 6]), 'L3R': ([3, 7, 21], [3, 7]), 'LR3': ([3, 7, 21], [3, 7]), 'L4R': ([2], [2, 4, 8]), 'LR4': ([2], [2, 4, 8]), 'L2R2': ([], [2, 4])}
 
 CHECKS: 17, FAILING: 0

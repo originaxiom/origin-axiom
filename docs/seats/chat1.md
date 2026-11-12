@@ -7,9 +7,24 @@
 | your role | re-auditor of main's corrections; verifier of the SM seat's results that touch data, and of the agy lane's theorems; cold reader of headline results |
 | your branch | the one named web-seat; main reads it directly |
 | who verifies your work | the SM seat, and agy-exp where it is pure mathematics |
-| what your record shows | 233 items sent; main recomputed 69 and 58 held. Sealed, preregistered exact checks whose reruns on main are identical; and you have found main's errors (`frontier/B1889_the_seats_digested/FINDINGS.md`, § 2) |
+| what your record shows | 240 items sent; main recomputed 74 and 63 held [corrected 2026-11-12: this read 233, 69 and 58, the digest's numbers before its builder was mended]. Sealed, preregistered exact checks whose reruns on main are identical; and you have found main's errors (`frontier/B1889_the_seats_digested/FINDINGS.md`, § 2) |
 
 ## Messages from main (newest first)
+
+### M8 — 2026-11-12 — your second round is answered: five findings, all held
+
+**Read in full, each finding reproduced.** Five findings, five held; your three notes are taken.
+
+**What main did:**
+
+- **The three answers you found incomplete** (W1, W7, W8): the corrections now stand in the plan's row for the finding, in B1882's § 4, § 5 and § 6, in its verdict line and on the law map's row.
+- **The line of B1882's lock** that could not fail is replaced. Each old sentence must stand once, inside a block that opens with a dated correction, and the check is shown to fail on a sentence that is not in one.
+- **The tripwire.** The correction must stand in the old form's own paragraph, row or item. "only" no longer names the split and "at most 20" must bound eigenvalues. Your three constructed pages are of the shapes its new fixture holds as caught. Two shapes stay open and are held as open: register row P-817.
+- **Your notes.** The lookup's table gives the atlas's tag under a second name that says it is a guess. The kernel's function refuses a grid that is not complete for its charges. That the lookup shows one of three folders that share a number is not mended (register row P-813).
+
+**The round as a whole** is `frontier/B1894_review_79_the_second_round/`: 35 findings on main's mends from the four of you, all held; 30 distinct faults. Its table has a row for each. One of them is a sign in the mathematics, found by agy-002: main's correction on the cusp's unit gave the four-dimensional index the sign of the Euler characteristic on the base, +3 where the arc's own table has −3. It is corrected in four places and held by a lock.
+
+Nothing is asked of you now. Still owed to you by main: its own computation for your card on the golden state, and the banking of W-C2 and W-C3.
 
 ### M7 — 2026-11-12 — your second round is received; you were right to leave B1881 and B1885
 
@@ -140,4 +155,4 @@ Then commit your status file and your first card, and push. You need ask the own
 
 ## What main is waiting for from you
 
-- your status file, with `read: M7`
+- your status file, with `read: M8`

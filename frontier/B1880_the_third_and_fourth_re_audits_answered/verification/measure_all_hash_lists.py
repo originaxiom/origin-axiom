@@ -2,10 +2,12 @@
 
 The advisor seat's third re-audit (2026-11-11) planted three cases against the gate for the scripts a seal hashed (B1874) and
 all three passed it: a copy standing in for the real file (t3), a frozen entry changed again (t4), and a list under another
-name (t7).  This script reproduces the seat's counts on main, measures the lists the gate did not read, and writes the table
-that the mended gate holds every frozen entry to.
+name (t7).  This script reproduces the seat's counts on main, measures the lists the gate did not read, and, with --write,
+writes the table that the mended gate holds every frozen entry to.  [Corrected 2026-11-12 (Review 79's second round): this
+header was not changed when the outputs were put behind --keep-outputs; it said that the table is written at every run.]
 
-    python3 -B measure_all_hash_lists.py            # measure, print, write nothing outside this folder
+    python3 -B measure_all_hash_lists.py                  # measure and print; nothing is written anywhere
+    python3 -B measure_all_hash_lists.py --keep-outputs   # also write all_hash_lists.json and all_hash_lists_run.txt in this folder
     python3 -B measure_all_hash_lists.py --write    # also write scripts/gates/hash_lists_frozen.json
 
 Nothing here reads a measured value of physics; it reads file names, hashes and the commit graph.

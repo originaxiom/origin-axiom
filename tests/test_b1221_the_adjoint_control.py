@@ -38,3 +38,15 @@ def test_the_correction_stands_under_the_table_and_the_row_is_kept():
     assert "| adjoint-only content | 72 |" in f
     for s in ("CORRECTED 2026-11-11", "is not the order of a kernel", "which is infinite", "with 24 points it prints 144 and with 60 it prints 360"):
         assert s in f, s
+
+
+def test_the_verdict_line_carries_the_correction_beside_the_row_it_corrects():
+    """Added 2026-11-12 (Review 79's second round).  The verdict line was corrected at Review 79 and no lock read it: put back
+    as it was, every test passed."""
+    import json
+    line = json.loads((ARC / "arc_verdict.json").read_text(encoding="utf-8"))["claim_one_line"]
+    old = "adjoint-only content gives 72"
+    assert line.count(old) == 1
+    after = line[line.index(old) + len(old):][:420]
+    assert "CORRECTED" in after and "not a kernel's order" in after and "infinite" in after
+

@@ -631,11 +631,15 @@ def short(s, n=110):
     """A sentence cut for a table cell, at a word's end, and marked as cut.  CORRECTED 2026-11-12 (Review 79; found by a reading
     of this builder's page): the cell was the first n characters and no more, so a sentence could end in the middle of a word
     with nothing to say that it went on, and a condition stated after the cut was dropped unseen."""
-    s = str(s)
+    s = str(s).strip()
     if len(s) <= n:
         return s
-    head = s[:n]
-    return (head[:head.rfind(" ")] if " " in head else head).rstrip(" ,;:") + " […]"
+    # CORRECTED 2026-11-12 (Review 79's second round; found by a reading on another family of model): where the cut fell just
+    # after a whole word, that word was dropped; and a sentence that opened with a space came back as the mark alone.
+    head = s[:n + 1]                                   # one character more: a space there means the last word is whole
+    cut = head.rfind(" ")
+    head = head[:cut] if cut > 0 else s[:n]
+    return head.rstrip(" ,;:") + " […]"
 
 
 def render(B):
@@ -836,19 +840,20 @@ def render(B):
           "main's standing rule for a relayed ruling. Main asked about the %d then relayed. The owner answered main on %s:" % (len(S.CONFIRMED), S.CONFIRMATION[0]),
           "", "> \"%s\"" % S.CONFIRMATION[1], "",
           "So %d are confirmed, and main's opinion on each, which the owner asked for, is in the table. %d were relayed after main had" % (len(S.CONFIRMED), len(S.NOT_CONFIRMED)),
-          "asked. Asked about those, the owner did not confirm them (the words are in the table): main treats them as no ruling and",
+          "asked. Asked about those, the owner did not confirm them (what he answered is in the table, in plain words): main treats them as no ruling and",
           "acts on neither. %d more sentences, recorded by the seat later and marked by it as relayed, were asked of the owner once; the" % len(S.CONFIRMED_LATER),
           "owner answered each in a dialog with main, and the question and the chosen answer are in the table. %d are still asked." % (len(S.RULINGS) - len(S.CONFIRMED) - len(S.CONFIRMED_LATER) - len(S.NOT_CONFIRMED)),
           "A confirmed ruling is carried out in its packages, in landings of its own; this page changes no governing document.", "",
           "| ruling | in the seat's words | state | packages | main's opinion |", "|---|---|---|---|---|"]
     for name, q, ps in S.RULINGS:
-        L.append("| %s | \"%s\" | %s | %s | %s |" % (name, cell(q), "CONFIRMED" if name in S.CONFIRMED else "CONFIRMED %s: asked \"%s\", the owner chose \"%s\"" % S.CONFIRMED_LATER[name] if name in S.CONFIRMED_LATER else "NOT CONFIRMED: the owner, \"%s\"" % S.NOT_CONFIRMED[name] if name in S.NOT_CONFIRMED else "ASKED",
+        L.append("| %s | \"%s\" | %s | %s | %s |" % (name, cell(q), "CONFIRMED" if name in S.CONFIRMED else "CONFIRMED %s: asked \"%s\", the owner chose main's option: %s" % S.CONFIRMED_LATER[name] if name in S.CONFIRMED_LATER else "NOT CONFIRMED: %s" % S.NOT_CONFIRMED[name] if name in S.NOT_CONFIRMED else "ASKED",
                                                  ", ".join(ps), cell(S.OPINION.get(name, "")) or "—"))
-    L += ["", "**Rulings given to main directly** (no seat relayed them; each is the owner's answer to a question main put, with main's",
-          "recommendation marked in the answer's own label):", "",
-          "| ruling | the question, as put | the owner's answer | date | packages | what it means on main |", "|---|---|---|---|---|---|"]
+    L += ["", "**Rulings given to main directly** (no seat relayed them; each is the owner's choice among options main put to him. The",
+          "question and the option's label are main's words; where main recommended an option its label says so. Nothing the owner",
+          "said is quoted: register row P-796):", "",
+          "| ruling | the question, as main put it | the option the owner chose, in main's label | date | packages | what it means on main |", "|---|---|---|---|---|---|"]
     for name, asked_, answer_, date_, ps, means_ in S.DIRECT_RULINGS:
-        L.append("| %s | \"%s\" | \"%s\" | %s | %s | %s |" % (name, cell(asked_), cell(answer_), date_, ", ".join(ps), cell(means_)))
+        L.append("| %s | \"%s\" | %s | %s | %s | %s |" % (name, cell(asked_), cell(answer_), date_, ", ".join(ps), cell(means_)))
     L.append("")
     return "\n".join(L) + "\n"
 

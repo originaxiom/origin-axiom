@@ -57,6 +57,13 @@ the constitution and `CLAIMS.md` already says it is governed by it, so this is t
 - Three old lines are frozen, and the count may only shrink: a plan of 2026-07-24, a dated state page, and the
   owner's question of 2026-08-09, quoted.
 
+> **NOTE 2026-11-12 (Review 79's second round; found by a reading on another family of model).** The rules of this
+> section are the gates as this arc landed them. The same day, B1880 planted cases against them and four of the
+> rules did not hold: a denial was taken from inside another word, an excuse was taken from another sentence, folders
+> below `docs/` and `papers/` were not read, and the three frozen lines were held by count. B1880 replaced all four.
+> This page did not say so, and its verdict file names no later arc. What the gates do today is B1880's page and the
+> gates' own file.
+
 | planted | result |
 |---|---|
 | the audit's own case: "the Standard Model is derived" added to the front page | refused |

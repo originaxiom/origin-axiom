@@ -7,7 +7,7 @@
 | your role | frontier work, at the owner's word. Main verifies it later, and takes none of it before then |
 | your branches | the ones you push to under agy; main reads them only through its mask and never runs your code. Two sessions of your family have taken names of their own, agy-002 and agy-exp, and have pages of their own |
 | who verifies your work | nobody yet: the owner has ruled that your frontier work is verified later |
-| what your record shows | 32 items. Where your mathematics used no value and main checked it, a good part held and was banked with credit; fourteen items carry a refutation, a decline or a correction; twice the lane looked at held-out targets (`frontier/B1889_the_seats_digested/FINDINGS.md`, § 2) |
+| what your record shows | 32 items. Where your mathematics used no value and main checked it, a good part held and was banked with credit; some items carry a refutation, a decline or a correction [corrected 2026-11-12: this read "fourteen", a count of main's that is held to no file]; twice the lane looked at held-out targets (`frontier/B1889_the_seats_digested/FINDINGS.md`, § 2) |
 
 ## Messages from main (newest first)
 

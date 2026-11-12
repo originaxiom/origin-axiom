@@ -797,3 +797,30 @@ Wilson-line difference, is where a data-free derivation would have to come from.
   law "everything allowed happens" leaves open (B1813, B1815).
 - **What this does not supply.** Any of the nineteen, still. No value is derived, none is predicted, and the parent
   algebra, the anomalies of the joined spectrum and gravity in 3+1 have no owner.
+
+## Currency note — 2026-11-12, through B1894 (the tick, all histories together, the exchange; two rounds of reading; the sign of the three)
+
+*Added at B1894's landing (the doc-currency gate: this ledger lagged 31 arcs). The window is B1864–B1894, read against
+this ledger's rows. Most of its arcs are about how the record is kept and checked, and add nothing here.*
+
+- **Still none of the nineteen.** No value is derived and none is predicted. 0 of 19.
+- **The chiral three: its condition said, and its sign corrected.** The record's table gives the four-dimensional
+  index for a unit that is the same on the cusp's three lines. A unit on one line gives size one, not three (B1796;
+  the foundation's row FK10). At an empty Λ₊ the index is minus the Euler characteristic of the triplet's forms on
+  the base: −3 for the uniform unit, by B1641's sealed table. A note of main's had written +3; two rounds of reading
+  by other sessions found that and two earlier slips in the same note (B1892, B1894). The three stays conditional,
+  as it was: given Λ and the unit, and the uniform unit is not derived.
+- **Chirality.** Nothing on main selects a hand, still. With the exchange of the two records added to the moves, the
+  triplet and its conjugate are one irreducible piece of dimension six (B1871, B1879).
+- **The modulus.** Under the count of moves no value of the modulus holds weight (B1868).
+- **All histories together.** "Together" is defined, as the joint action on the allowed set (B1872). A single state
+  is not kept when histories are composed (B1875). What is read out on the whole is not yet stated (register row
+  P-776); one candidate state on the whole is verified cell by cell and is conditional on stated choices (B1885).
+- **The level.** The tick has its level, 5, by its discriminant, and by no rule of an own line (B1884).
+- **The register-to-field join.** Ten claims of the agy lane's relay are verified by main's own computation and none
+  is found wrong (B1866). Nothing of the two packages it bears on is banked.
+- **How far the statements can be trusted.** Everything main landed in two days was read in full by four sessions
+  that built none of it, twice: 99 findings and then 35 on main's answers, all of which held. No result fell. Several
+  statements were narrowed to what was computed, and the gates catch 19 of 32 planted faults (B1892, B1893, B1894).
+- **What this does not supply.** Any of the nineteen, still.
+

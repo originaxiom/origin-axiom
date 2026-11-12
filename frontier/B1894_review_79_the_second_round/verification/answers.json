@@ -1,0 +1,121 @@
+{
+ "findings": 35,
+ "by reader": {
+  "the web seat": 5,
+  "the SM seat": 9,
+  "agy-002": 13,
+  "agy-exp": 8
+ },
+ "held in full": 34,
+ "reproduced in part": [
+  "2A1"
+ ],
+ "found by more than one reader": [
+  [
+   "2W3",
+   "2A8",
+   "2A9"
+  ],
+  [
+   "2W4",
+   "2A7"
+  ],
+  [
+   "2W5",
+   "2SM-05",
+   "2SM-08"
+  ]
+ ],
+ "distinct faults": 30,
+ "sent on to the builder of the enforcement package": [
+  "2A1"
+ ],
+ "entries of a reader's file that are not findings of fault": [
+  "2SM-09",
+  "2SM-11"
+ ],
+ "ids": [
+  "2W1",
+  "2W2",
+  "2W3",
+  "2W4",
+  "2W5",
+  "2SM-01",
+  "2SM-02",
+  "2SM-03",
+  "2SM-04",
+  "2SM-05",
+  "2SM-06",
+  "2SM-07",
+  "2SM-08",
+  "2SM-10",
+  "2A1",
+  "2A2",
+  "2A3",
+  "2A4",
+  "2A5",
+  "2A6",
+  "2A7",
+  "2A8",
+  "2A9",
+  "2A10",
+  "2A11",
+  "2A12",
+  "2A13",
+  "2X1",
+  "2X2",
+  "2X3",
+  "2X4",
+  "2X5",
+  "2X6",
+  "2X7",
+  "2X8"
+ ],
+ "a correction that did not travel": [
+  "2W1",
+  "2W2",
+  "2W3",
+  "2SM-01",
+  "2SM-10",
+  "2A5",
+  "2A8",
+  "2A9",
+  "2X1",
+  "2X2",
+  "2X3",
+  "2X5",
+  "2X6",
+  "2X8"
+ ],
+ "the readers' check of main's 99 answers": {
+  "the web seat": {
+   "checked": 10,
+   "right and complete": 7,
+   "not complete": 3
+  },
+  "the SM seat": {
+   "checked": 48,
+   "right and complete": 42,
+   "not complete": 1,
+   "not mended, as main had said": 1,
+   "with the builder": 4
+  },
+  "agy-002": {
+   "checked": 26,
+   "right and complete": 12,
+   "not complete": 7,
+   "with the builder": 7
+  },
+  "agy-exp": {
+   "checked": 15,
+   "right and complete": 15
+  }
+ },
+ "the tripwire against planted errors, by the SM seat": {
+  "the first round's errors that were faults": 43,
+  "caught at the first round": 25,
+  "caught after Review 79's mend": 40,
+  "new errors": 23,
+  "new errors caught": 5
+ }
+}

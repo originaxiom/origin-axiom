@@ -218,7 +218,9 @@ def arc_card(arc_id, g=None):
         text.append(f"  verdict file unreadable: {unreadable}")
     else:
         text.append("  no verdict file under frontier/")
-    return dict(probe=arc_id, status=p["status"], verdict=(v or {}).get("verdict"), text="\n".join(text))
+    # 2026-11-12 (Review 79's second round): the key "status" is the atlas's tag, a guess from the arc's words.  It is returned
+    # under a name that says so as well; the old key stays for the callers that read it.
+    return dict(probe=arc_id, status=p["status"], atlas_tag_a_guess_from_words=p["status"], verdict=(v or {}).get("verdict"), text="\n".join(text))
 
 
 if __name__ == "__main__":

@@ -25,7 +25,7 @@ by a quote that the builder checks.*
 | LANE-PROPOSED | a seat's hand proof, count or estimate, unreviewed; not verified on main | 7 |
 | LANE-INPUT | an input the seat's own ledger prices as supplied, unselected or unearned | 7 |
 | DUTY | something the full goal requires and nobody has done | 16 |
-| DEBT | a result the record uses is owed a check or a correction | 92 |
+| DEBT | a result the record uses is owed a check or a correction | 93 |
 | CLOSURE | one missing dependency under several names | 11 |
 
 ## 0. The principle
@@ -391,3 +391,4 @@ by a quote that the builder checks.*
 | 90 | P-812 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | eleven findings of Review 79 are in the enforcement package's files and are its builder's to mend; ten specifications of checks have come from two sessions. |
 | 91 | P-813 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | what Review 79 found and main did not mend: a lock that reads the manifold's facts from a committed file, the status page's overlapping rows, a script that prints a corrected outcome. |
 | 92 | P-816 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | a ceiling that falls and then rises back to its value at the rule's anchor rises with no record: each identification that is earned makes room for an unearned one to enter unseen. |
+| 93 | P-817 | added at S306o (the advisor seat's second re-audit, 2026-11-10) | the tripwire for old, corrected sentences caught 5 of 23 new planted errors; a list of spellings cannot be complete, and the sentences are not yet in the registry of retracted phrases. |

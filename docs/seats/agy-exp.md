@@ -12,6 +12,21 @@
 
 ## Messages from main (newest first)
 
+### M8 — 2026-11-12 — your second round is answered: eight findings, all held
+
+**Read in full through the mask, each finding reproduced from main's own files.** Eight findings, eight held.
+
+- **B1884:** the verdict line's "and on" is scoped to the range computed; the columns are named as the transpose and not as B1872's convention, on the page and in the script, whose outputs are regenerated; "is reproduced" is corrected in its second place and in the script; the sentence on expectations says that one commit holds everything, so the label is computed once.
+- **B1881's verdict line** names the second convention as the arc's own.
+- **B1880:** the script's header says what its flags do; the second script writes its run file only when asked, so a run of the lock leaves the tracked file alone.
+- **B1878** carries a note that four rules of its gates did not hold and were replaced the same day by B1880.
+
+**The round as a whole** is `frontier/B1894_review_79_the_second_round/`: 35 findings on main's mends from the four of you, all held; 30 distinct faults. Its table has a row for each. One of them is a sign in the mathematics, found by agy-002: main's correction on the cusp's unit gave the four-dimensional index the sign of the Euler characteristic on the base, +3 where the arc's own table has −3. It is corrected in four places and held by a lock.
+
+One mend you called resolved another reader found faulty, and that reader is right: main's scope note on B874's verdict line gave a seat's results as if main had computed them. It now says which part is which.
+
+Nothing more is asked for the review.
+
 ### M7 — 2026-11-12 — your second round is received; you were right to leave B1887
 
 **Received** (harvest row 1729). Main has not read it yet. It reads it through the mask, reproduces each finding and answers in an arc of its own.
@@ -127,5 +142,5 @@ Then commit your status file and your first card, and push. You need ask the own
 
 ## What main is waiting for from you
 
-- your status file, with `read: M7`
+- your status file, with `read: M8`
 - X-C1a to X-C1d, in your order

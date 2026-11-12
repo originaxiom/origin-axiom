@@ -12,7 +12,8 @@ ground. 0 of 19.*
   independently" and not "reproduced". And one of the seventeen, G5, is main's own check and not a prediction of the
   card. Also: the check of multiplicativity tried coprime parts only up to 14, which covers 47 of the 139 levels to
   200 that have a coprime factorisation; it now tries every one. And the old sentence that this arc's table
-  corrects, that LR fixes a point only at N = 5, stood unscoped in five places; each carries the correction now.]
+  corrects, that LR fixes a point only at N = 5, stood unscoped in five places; each carries the correction now. The corrected statement is this arc's table, row P2:
+  LR keeps exactly one point at N = 5, and two at other levels.]
 - **The tick has its level by one reading only, the discriminant.** The tick and its square have the same
   discriminant, 5. That is the reading B1876 used, and it stands.
 - **A second reading on record does not reach the tick.** The rule of a history's own lines gives the tick no line
@@ -41,7 +42,7 @@ sides; the tick is F = L·P, with rows (0, 1), (1, 1); F′ = P·F·P is its oth
 det(g + I) = s. Main checked that identity on all 87. So a history with an odd number of ticks has no line of its
 own exactly when its trace is 1, and that is the tick.
 
-**The seat's table of the seven other root histories** (reported there, not predicted) is reproduced to N = 60:
+**The seat's table of the seven other root histories** (reported there, not predicted) is recomputed to N = 60, with main's own code, and is the same [CORRECTED 2026-11-12 (Review 79's second round): this read "is reproduced", the word the protocol keeps for the same code run again; § 1 was corrected at Review 79 and this line was not]:
 
 | history | trace | discriminant | exactly one line kept at N = | a vector kept up to sign at N = |
 |---|---|---|---|---|
@@ -55,7 +56,7 @@ three, and one names none.
 
 ## 3. What main adds
 
-- **The same counts in B1872's convention** (columns, the ground [[2, 1], [1, 1]], the mark (1, 2)): the ground keeps
+- **The same counts in the column convention** (the ground [[2, 1], [1, 1]], the mark (1, 2)) [CORRECTED 2026-11-12 (Review 79's second round): this read "in B1872's convention". B1872 writes rows, the ground ((1, 1), (1, 2)) and the mark (1, 3), which is the seat's convention; the columns are the transpose that B1881 used. B1881's page was corrected at Review 79 and this arc, its script and its verdict line were not]: the ground keeps
   four vectors up to sign at N = 5 and none at another N to 60, and its tick keeps none.
 - **The brute-force form of P4** to N = 40: the same two matrices and no other.
 
@@ -82,7 +83,8 @@ three, and one names none.
 - **The card was read by main about an hour after it was pushed,** in the same harvest as the seat's two earlier
   relays.
 - **The expectations were written before the run,** in the script's header. All held; none was a surprise, since the
-  card's own arguments are short.
+  card's own arguments are short. [CORRECTED 2026-11-12 (Review 79's second round): no commit shows it. The header, the script, its outputs and this page
+  entered main in one commit. By the protocol's labels this is computed once, and not "expectations committed first".]
 - **The seat reports that the owner asked it to stress-test his rulings** ("id love if we can stress teat some of
   them", "order ok"). Under the rule of 2026-11-11 that is an order of work said to a seat; main enters it as his
   and lists it in its report.

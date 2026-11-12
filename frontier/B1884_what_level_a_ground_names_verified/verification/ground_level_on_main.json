@@ -14,8 +14,8 @@
  "G4 those with det(g - I) and det(g + I) both units (no line of their own at any level) are exactly the tick and its other side": true,
  "G4 by hand, on all 87: det(g - I) = -trace and det(g + I) = trace": true,
  "G4 and by brute force to N = 40: the same two keep no vector up to sign": true,
- "G5 in B1872's convention: the ground [[2,1],[1,1]] keeps (1,2) up to sign at N = 5, four vectors there and none at another N to 60; its tick keeps none": true,
- "the seat's table of the seven other root histories (reported there, not predicted) is reproduced to N = 60": true,
+ "G5 in the column convention, the transpose of B1872's rows: the ground [[2,1],[1,1]] keeps (1,2) up to sign at N = 5, four vectors there and none at another N to 60; its tick keeps none": true,
+ "the seat's table of the seven other root histories (reported there, not predicted) is recomputed to N = 60, the same": true,
  "numbers": {
   "levels_with_a_line_kept": [
    5,

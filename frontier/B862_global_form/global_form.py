@@ -14,6 +14,7 @@ direction diag(2,2,2,-3,-3)/6 made explicit. Kernel = {(A,B,a): both blocks = 1}
 Mathematics scope. Nothing reaches CLAIMS.md; Gate 5 untouched.
 """
 import json
+import math
 import os
 
 from fractions import Fraction as Fr
@@ -36,8 +37,19 @@ def kernel_exact(grid=6, charges=(-2, 3)):
 
     `charges` (added 2026-11-12, Review 79) are the two exponents of the map, -2 and 3 for this one. They are a parameter so
     that a lock can run the same enumeration on another map and see another kernel: a function that returned six typed
-    triples would pass every test of its values, and a planted one did."""
-    assert grid % 6 == 0
+    triples would pass every test of its values, and a planted one did.
+
+    CORRECTED 2026-11-12 (Review 79's second round; found by two readings).  With the charges a parameter, "any multiple of 6"
+    is true of (-2, 3) alone, and the guard still asked only for a multiple of 6.  For charges (c1, c2) a kernel element has
+    c1 q in (1/3)Z and c2 q in (1/2)Z, so q lies in (1/g)Z with g = gcd(3|c1|, 2|c2|): 6 for (-2, 3), 1 for (-1, 1), 12 for
+    (-4, 6).  A grid that is not a multiple of g would return a part of the kernel without a word.  It is refused now, and so
+    are two zero charges, for which every a is in the kernel and no grid is complete."""
+    c1, c2 = charges
+    if c1 == 0 and c2 == 0:
+        raise ValueError("both charges are zero: every a is in the kernel, which is infinite, and no grid is complete")
+    need = math.gcd(3 * abs(c1), 2 * abs(c2))
+    if grid % need:
+        raise ValueError("a grid of %d is not complete for the charges %r: an element of the kernel has a in (1/%d) of a turn" % (grid, charges, need))
     ker = []
     for al in (Fr(0), Fr(1, 3), Fr(2, 3)):
         for be in (Fr(0), Fr(1, 2)):

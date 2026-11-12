@@ -19752,3 +19752,21 @@ seat's check. Six are left.
 
 0 of 19.
 
+## 2026-11-12 — The readers checked main's corrections, and found more (S306p)
+
+**What was asked.** At the review four sessions had found 99 faults and main had corrected them. Nobody but main had read the corrections. So each session was asked to check main's answer to what it had found, and to read the corrections it had not prompted. All four answered within two hours.
+
+**What they found.** Three quarters of main's corrections were right and complete. Eleven were not complete: the old sentence had been corrected on one page and still stood on another. And the sessions found 35 new faults in the corrections themselves. Main looked each one up, and every one was real.
+
+**The one that touches the mathematics.** Among the corrections was a note about the number three in the record's count of families. In that note main had written a plus sign where the record's own computed table has a minus sign. The size of the number was right; its sign, and what it was the sign of, were not. A session of another kind of model caught it. It is corrected in the four places where it stood, and an automatic check now compares it with the computed table.
+
+**The check that looks for old sentences.** One automatic check searches the record for sentences that were corrected and may still stand somewhere uncorrected. A session planted 23 new test errors against it, and it caught 5. It has been made stricter. It cannot be made complete this way, because it is a list of wordings, and that is now said in the check itself. The record has a better instrument for the same job, and moving these sentences to it is entered as work owed.
+
+**What it shows.** Corrections made in a hurry carry errors of their own, and main does not find them. The chain of corrections about the number three has needed three passes by other sessions so far.
+
+**What is not done.** This round's corrections have again been read only by main.
+
+**Which piece of the plan moved.** The clean-up of stale statements, of checks that cannot fail, and of errors in the mathematics. No package closed.
+
+0 of 19.
+

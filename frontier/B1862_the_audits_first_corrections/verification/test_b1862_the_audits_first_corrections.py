@@ -3,6 +3,7 @@ corrected line stands."""
 import importlib.util
 import json
 import pathlib
+import re
 import subprocess
 import sys
 from fractions import Fraction
@@ -155,6 +156,21 @@ def test_e6_the_kernel_is_computed_from_the_map():
     assert res["kernel_sixth_root_indices"] == g.kernel_elements() and int(res["kernel_order"]) == len(ker) == 6
     assert "Z6" in res["global_form"]
     assert "Dated note, 2026-11-10 (B1862" in (F / "B862_global_form" / "FINDINGS.md").read_text(encoding="utf-8")
+    # ADDED 2026-11-12 (Review 79's second round).  (4) The grid's guard: with the charges a parameter the function asked only
+    # for a multiple of 6, and a coarser grid than the kernel needs returned part of it.  It refuses now.
+    import pytest as _pytest
+    for bad in ((6, (-4, 6)), (4, (-2, 3)), (12, (0, 0))):
+        with _pytest.raises(ValueError):
+            g.kernel_exact(bad[0], charges=bad[1])
+    assert len(g.kernel_exact(1, charges=(-1, 1))) == 1 and len(g.kernel_exact(30, charges=(5, 3))) == len(g.kernel_exact(60, charges=(5, 3)))
+    # (5) The arc's own statements of the kernel are held to the computed order: its page said "exactly Z6" and its verdict
+    # line "/Z6", and either could be changed to Z3 with every line above still passing.
+    n = len(ker)
+    sub = str(n).translate(str.maketrans("0123456789", "₀₁₂₃₄₅₆₇₈₉"))
+    page = (F / "B862_global_form" / "FINDINGS.md").read_text(encoding="utf-8")
+    assert re.findall(r"\*\*exactly ℤ([₀-₉]+)\*\*", page) == [sub] and re.findall(r"U\(1\)\]/ℤ([₀-₉]+)", page) and set(re.findall(r"U\(1\)\]/ℤ([₀-₉]+)", page)) == {sub}
+    line = json.loads((F / "B862_global_form" / "arc_verdict.json").read_text(encoding="utf-8"))["claim_one_line"]
+    assert re.findall(r"U\(1\)\]/Z(\d+)", line) == [str(n)] and "order %d" % n in line
 
 
 def test_e8_the_negative_is_scoped_to_the_embedding_computed():
@@ -191,43 +207,85 @@ def test_the_lock_path_gate_fires_in_a_clean_checkout():
 #   - the old forms of E13 and E5 had no entry                              -> they have one each.
 # NOT CHANGED, and said: docs/views/ is generated from the verdict lines, which are read; PROGRESS_LOG.md is append-only, so an
 # old entry of it cannot carry a correction and it is not read.
-_SPLIT = r"(?:only|E\s*[=≡]\s*[-−]\s*[I1]\b|parity)"
+# TIGHTENED 2026-11-12 (Review 79's second round).  Two sessions planted against the widened tripwire again, one with 23 new
+# cases of which it caught 5.  What they showed is one shape: an entry matched one spelling, and ANY of its marker words
+# standing near the old form counted as its correction.  Changed:
+#   - the correction must stand in the SAME UNIT as the old form: its paragraph, its table row or its list item (a JSON file,
+#     whose long strings are single lines, is one unit and keeps the distance in characters);
+#   - the bare word "only" no longer names E3's split, "at most 20" must bound eigenvalues, and a mention of the instrument's
+#     file is no longer E5's correction;
+#   - more spellings: the count in words, "invisible to all states", the sentence of B1884 in its short and reordered forms
+#     and with Z/NZ;
+#   - papers/ and the .py files under the folders read are read.  On main this found no old form standing without its correction
+#     in a script; in papers/ it found one sentence, E5's, which is true there (see below).
+# NOT CLOSED, AND SAID: a rewording outside the spellings listed; an old sentence with the marker phrase added to it, which still
+# asserts what it asserted; PROGRESS_LOG.md, which is append-only.  A list of spellings cannot be complete.  The record's own
+# instrument for a withdrawn sentence is the registry of retracted phrases and its sweep, which reads line by line; entering
+# these sentences there needs the lines on which they stand without a cue to be mended first, some fifty by a trial of
+# 2026-11-12, many of them this lock's own fixtures, and is register row P-817.
+# E5 IS OF ANOTHER KIND, AND ITS ENTRY SAYS SO NOW: the sentence is true.  What the audit corrected is how it was known: the scan
+# that was cited never refined.  Where the sentence is held to the computation by its own lock it needs no correction beside it:
+# that is papers/structure_paper/SKELETON.md, held by tests/test_b892_walls_on_the_line.py.
+_SPLIT = r"(?:E\s*[=≡]\s*[-−]\s*[I1]\b|have\s+[-−]\s*I\b|[-−]I\b|parity)"
 _PLUS = r"E\s*[=≡]\s*\+\s*[I1]\b"
 E3_CORRECTION = (_PLUS + r".{0,500}?" + _SPLIT + "|" + _SPLIT + r".{0,500}?" + _PLUS
-                 + r"|a parity gap in|is the sign \+|E\s*≡\s*I mod 5: a scalar everywhere")          # the last three: the finding's own title, the programme's reading of it, and the true statement about the run of 6
+                 + r"|a parity gap in|is the sign \+|E\s*≡\s*I mod 5: a scalar everywhere|only under a parity superselection rule")   # the finding's own title, the programme's reading of it, the true statement about the run of 6, and the condition B1856 itself names
 OLD_FORMS = (
-    # (the old form, as a regular expression; what must stand beside it; which finding)
+    # (the old form, as a regular expression; what must stand in the same unit; which finding)
     (r"set of semisimple elements contains a maximal torus", r"COMMUT", "E4"),
-    (r"invisib(?:ility|le) to every state", E3_CORRECTION, "E3"),
+    (r"invisib(?:ility|le) to (?:every|all|each|any) states?", E3_CORRECTION, "E3"),
     (r"no non-abelian continuous symmetry commuting with the holonomy", r"PRINCIPAL", "E8"),
-    (r"21 distinct eigenvalues", r"\b20 distinct|at most 20|\(20; B1862\)|where 20 is the most possible|corrected 2026-11-10 \(B1862", "E13"),
-    (r"no real nullity-14 point exists there", r"the audit's finding E5|refinement never ran|walls_on_the_line", "E5"),
+    (r"(?:21|twenty[- ]one) distinct eigenvalues", r"\b20 distinct|at most 20 (?:distinct|eigenvalues|of them|are possible)|\(20; B1862\)|where 20 is the most possible|corrected 2026-11-10 \(B1862", "E13"),
+    (r"no real nullity[- ]14 point exists there|no real point of nullity[- ]14 (?:exists )?there", r"the audit's finding E5|refinement never ran", "E5"),
     # Review 79: a sentence of B1853 that B1884's table corrects, found standing unscoped in five places
-    (r"(?:fixes a point of|fixed points on) P[¹^1]{1,2}\((?:ℤ|Z)/N\) only at N = 5", r"exactly one point at N = 5", "B1884"),
+    (r"(?:fix(?:es)?|fixed) (?:a )?points? (?:of |on )?(?:P[¹^1]{1,2}\((?:ℤ|Z)/N(?:ℤ|Z)?\) )?only at N = 5|only at N = 5 does (?:LR|it|the ground) fix", r"exactly one point at N = 5", "B1884"),
 )
 ROOT_PAGES = ("README.md", "ROADMAP.md", "GENESIS.md", "CLAIMS.md", "GOVERNANCE.md", "TERMINOLOGY.md", "WORKING_RULES.md", "CHANGELOG.md")
 NOT_READ = ("docs/views/",            # generated from the verdict lines, which are read here
             "docs/progress/",         # the log's archives are history and are not edited
             "frontier/B1862_the_audits_first_corrections/",      # this arc quotes the old forms to correct them
+            "frontier/B1892_review_79_read_by_those_who_did_not_build_it/", "frontier/B1894_",      # the review's arcs quote what the readers found
             "/verification/readers/")                            # a reader's report quotes what it found
-BEFORE, AFTER = 400, 900            # how near "beside" is, in characters of the joined text
+HELD_BY_ITS_OWN_LOCK = {("papers/structure_paper/SKELETON.md", "E5")}      # the sentence is true there and held to the computation
+BEFORE, AFTER = 400, 900            # how near "beside" is within one unit, in characters
+
+
+def _units(text, rel):
+    """the blocks a correction must share with the old form: a paragraph, one row of a table, one item of a list with the lines
+    that continue it.  A JSON file is one block."""
+    import re
+    if rel.endswith(".json"):
+        return [" ".join(text.split())]
+    out = []
+    for block in re.split(r"\n\s*\n", text):
+        cur = []
+        for line in block.split("\n"):
+            if re.match(r"\s*(?:\||[-*] |\d+\. )", line) and cur:
+                out.append(" ".join(" ".join(cur).split())); cur = []
+            cur.append(line)
+        if cur:
+            out.append(" ".join(" ".join(cur).split()))
+    return out
 
 
 def _hits(root=ROOT):
     import re
     out = []
-    files = subprocess.run(["git", "-C", str(root), "ls-files", "frontier", "docs", *ROOT_PAGES], capture_output=True, text=True, check=True).stdout.split("\n")
+    files = subprocess.run(["git", "-C", str(root), "ls-files", "frontier", "docs", "papers", *ROOT_PAGES], capture_output=True, text=True, check=True).stdout.split("\n")
     for rel in files:
-        if not rel.endswith((".md", ".json", ".tex", ".txt")) or any(x in rel for x in NOT_READ):
+        if not rel.endswith((".md", ".json", ".tex", ".txt", ".py")) or any(x in rel for x in NOT_READ):
             continue
         try:
-            text = " ".join((root / rel).read_text(encoding="utf-8").split())
+            text = (root / rel).read_text(encoding="utf-8")
         except (OSError, UnicodeDecodeError):
             continue
-        for old, marker, fid in OLD_FORMS:
-            for m in re.finditer(old, text, re.I):
-                near = text[max(0, m.start() - BEFORE):m.end() + AFTER]
-                out.append((rel, fid, bool(re.search(marker, near, re.I))))
+        for unit in _units(text, rel):
+            for old, marker, fid in OLD_FORMS:
+                if (rel, fid) in HELD_BY_ITS_OWN_LOCK:
+                    continue
+                for m in re.finditer(old, unit, re.I):
+                    near = unit[max(0, m.start() - BEFORE):m.end() + AFTER]
+                    out.append((rel, fid, bool(re.search(marker, near, re.I))))
     return out
 
 
@@ -282,3 +340,46 @@ def test_the_tripwire_sees_the_shapes_a_planted_test_showed_it_missed(tmp_path):
     got = {rel: ok for rel, _, ok in _hits(tmp_path)}
     assert got == {"docs/paraphrase.md": False, "docs/broken.md": False, "docs/unrelated.md": False, "frontier/run.txt": False, "CHANGELOG.md": False,
                    "docs/count.md": False, "docs/scan.md": False, "docs/good.md": True, "docs/good_count.md": True}, got
+
+
+def test_the_tripwire_and_the_shapes_of_the_second_round(tmp_path):
+    """Review 79's second round: two sessions planted against the widened tripwire again.  These are the shapes they described,
+    written here by main from their descriptions; their own plants are on their branches.  Each must be reported as an old
+    form with no correction, and the two controls as corrected.  The last two are the shapes that are NOT closed: they are
+    asserted as they are, so that whoever closes them changes this test."""
+    def git(*a):
+        r = subprocess.run(["git", "-C", str(tmp_path), "-c", "user.name=t", "-c", "user.email=t@example.invalid", *a], capture_output=True, text=True)
+        assert r.returncode == 0, r.stderr
+    git("init", "-q")
+    for d in ("docs", "frontier/B9_x/verification", "papers/p"):
+        (tmp_path / d).mkdir(parents=True)
+    put = lambda rel, s: (tmp_path / rel).write_text(s + "\n", encoding="utf-8")
+    put("docs/spoof_only.md", "The charge is invisibility to every state. Elsewhere, E = +I only names a unit test.")
+    put("docs/other_words.md", "At five a departure is invisible to all states.")
+    put("docs/other_paragraph.md", "The charge is invisibility to every state.\n\nIn another matter one has E = +I on the even block and E = −I on the odd, by parity.")
+    put("docs/bound.md", "B567 found 21 distinct eigenvalues at level 165. A different lattice has at most 20 roots.")
+    put("docs/words.md", "B567 found twenty-one distinct eigenvalues at level 165.")
+    put("docs/instrument.md", "On the real line no real nullity-14 point exists there (see walls_on_the_line.json).")
+    put("docs/reworded.md", "There is no real point of nullity 14 there.")
+    put("docs/short.md", "LR fixes a point only at N = 5.")
+    put("docs/reordered.md", "Only at N = 5 does LR fix a point of P¹(ℤ/N).")
+    put("docs/znz.md", "LR fixes a point of P¹(ℤ/Nℤ) only at N = 5.")
+    put("papers/p/paper.md", "B567 found 21 distinct eigenvalues at level 165.")
+    put("frontier/B9_x/verification/script.py", '"""The charge premise: a departure is invisible to every state."""')
+    put("docs/good_row.md", "| the charge | invisibility to every state [corrected: E = +I only; with E = −I it holds only under parity] |\n| another row | E = +I |")
+    put("docs/good_level.md", "This read: LR fixes a point only at N = 5. Corrected: LR keeps exactly one point at N = 5 and two at 11.")
+    put("docs/table.md", "| the charge | invisibility to every state |\n| another row | E = +I on the even block, E = −I on the odd, by parity |")
+    put("docs/appended.md", "LR fixes a point only at N = 5, exactly one point at N = 5.")
+    put("docs/far_reworded.md", "No state can see a departure at five.")
+    git("add", "-A")
+    got = {}
+    for rel, _, ok in _hits(tmp_path):
+        got[rel] = got.get(rel, True) and ok
+    caught = ("docs/spoof_only.md", "docs/other_words.md", "docs/other_paragraph.md", "docs/bound.md", "docs/words.md", "docs/instrument.md", "docs/reworded.md",
+              "docs/short.md", "docs/reordered.md", "docs/znz.md", "papers/p/paper.md", "frontier/B9_x/verification/script.py", "docs/table.md")
+    for rel in caught:
+        assert got.get(rel) is False, rel
+    assert got["docs/good_row.md"] is True and got["docs/good_level.md"] is True
+    # NOT CLOSED, as the lock's own note says: the marker phrase added to a sentence that still asserts the old claim is taken for
+    # its correction, and a rewording outside the spellings listed is not found at all.
+    assert got["docs/appended.md"] is True and "docs/far_reworded.md" not in got

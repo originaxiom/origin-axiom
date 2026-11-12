@@ -1,0 +1,33 @@
+{
+ "id": "B1894",
+ "verdict": "PROVED",
+ "instrument": false,
+ "creates_law": false,
+ "identifications": [],
+ "depends_on": [
+  "B1892",
+  "B1641",
+  "B1796",
+  "B1862",
+  "B1882",
+  "B1884"
+ ],
+ "rests_on_seat": [],
+ "cites_seat": [
+  "the web seat: relays/REVIEW_79B_CHAT1.md @ 1588ed722, five findings and three notes, each reproduced by main",
+  "the SM seat: relays/REVIEW_79B_SM.md @ 52b484c70, nine findings, its planted errors run again and 23 new ones, each finding reproduced by main",
+  "agy-002: relays/REVIEW_79B_AGY-002.md @ c68aabbd7, thirteen findings, read by main through its mask, each reproduced by main, one in part",
+  "agy-exp: relays/REVIEW_79B_AGY-EXP.md @ 0e9644320, eight findings, read by main through its mask, each reproduced by main"
+ ],
+ "supersedes": null,
+ "superseded_by": null,
+ "authored_by": "cc",
+ "scope": {
+  "frame": "the record's own arcs, pages and instruments as main changed them in answer to Review 79 (0dda7b472 to 896cae025)",
+  "object": "main's answers to the 99 findings of Review 79 and the files it changed for them",
+  "reach": "general",
+  "hypotheses": "every finding is an exact quotation found by machine and reproduced by main, one of them in part; the readers' planted errors were not run against the tripwire's new form; three arcs were left by sessions whose own work they judge, so two of them were read only by the sessions that had found their faults; what main mended in this round has been read by nobody but main"
+ },
+ "claim_one_line": "REVIEW 79, THE SECOND ROUND: THE FOUR READERS READ MAIN'S ANSWERS, AND 35 FINDINGS ON THEM ALL HELD, 34 in full and one in part; they are 30 distinct faults. Of main's 99 answers the readers report 76 right and complete, 11 not complete, one not mended as main had said and 11 with the builder of the gates. ONE FINDING IS A SIGN IN THE MATHEMATICS: main's correction of 2026-11-11 on the cusp's unit and three scope notes written from it gave the four-dimensional index of the chiral three the sign of the Euler characteristic on the base, +3 where the arc's own sealed table has -3 for the uniform unit at an empty Lambda+; corrected in the four places, each keeping what it said, with a lock that holds minus that Euler characteristic to the sealed table. Fourteen of the 35 are corrections that had not reached a verdict line, a row of the law map, the plan or a second section of the same page; the rest are a line of a lock that could not fail by precedence, a guard not carried to a function's new parameter, a listener that read fences loosely, a lock that held one kind of status row on the live foundation, and the tripwire for old sentences, which caught 5 of 23 new planted errors and is made to ask for the correction in the old form's own paragraph, row or item, with what a list of spellings cannot do said and held as an open fixture. The plan, a living page, no longer quotes the owner. One finding is in the gates' file and goes to its builder. 0 of 19.",
+ "weave_or_thread": "neither (a process arc; the one statement of mathematics it corrects is B1641's, about the weave's triplet, conditional as before)"
+}

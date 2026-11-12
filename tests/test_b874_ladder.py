@@ -57,3 +57,16 @@ def test_addendum_no_26_stratum_step2_not_retired():
     assert all(r["joint_x14"] == 12 and r["joint_x22"] == 12 for r in JOINT["rows"])
     assert "closes negatively for the object's 2t-charge system" in _F
     assert "the ranking is not retired by charge measurement" in _F
+
+
+def test_the_verdict_line_scopes_its_ladder_and_says_where_each_statement_comes_from():
+    """Added 2026-11-12 (Review 79's second round).  The verdict line called the ladder complete; the arc's own page had amended
+    it twice.  The scope stands beside the old words now, and it says which part main computed and which is a seat's relay."""
+    import json, pathlib
+    arc = pathlib.Path(__file__).resolve().parents[1] / "frontier" / "B874_measurement_ladder"
+    line = json.loads((arc / "arc_verdict.json").read_text(encoding="utf-8"))["claim_one_line"]
+    old = "the complete ladder is {78, 46, 30, 12}"
+    assert line.count(old) == 1
+    after = line[line.index(old):]
+    assert "SCOPED 2026-11-12" in after[:400] and "COMPUTED ON MAIN (B892)" in after and "BY THE AUDIT SEAT'S RELAY" in after and "locks not imported" in after
+

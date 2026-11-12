@@ -659,3 +659,21 @@ def test_the_findings_live_counts_are_the_builders():
     f = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
     assert "> " + bp.live_line(B["stats"]) + "\n" in f
     assert f.count("LIVE: ") == 1
+
+
+def test_a_sentence_cut_for_a_cell_ends_at_a_word_and_says_that_it_is_cut():
+    """Added 2026-11-12 (Review 79's second round).  The cut had no lock.  What could fail: a whole word dropped where the cut
+    falls just after it; a sentence returned as the mark alone; a cut in the middle of a word; a short sentence changed."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("bp_short", HERE / "build_programme.py"); bp = importlib.util.module_from_spec(spec); spec.loader.exec_module(bp)
+    assert bp.short("a short sentence") == "a short sentence"
+    s = "x" * 100 + " exactword" + " trailing words that go on"
+    assert bp.short(s, 110) == "x" * 100 + " exactword […]"                     # the word that ends at the cut is kept
+    assert bp.short(" " + "y" * 200, 110) == "y" * 110 + " […]"                  # a leading space does not empty it
+    assert bp.short("one two three four five six", 12) == "one two […]"         # never in the middle of a word
+    for text in ("Given the unit, the chiral three is an index on the weave's own surface; the three lines carry a vector of units",) * 1:
+        out = bp.short(text, 60)
+        assert out.endswith(" […]") and text.startswith(out[:-4]) and text[len(out) - 4] == " "
+    page = (ARC / "PROGRAMME.md").read_text(encoding="utf-8")
+    assert "the option the owner chose, in main's label" in page and "NOT CONFIRMED: the owner, \"" not in page
+

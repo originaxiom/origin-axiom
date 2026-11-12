@@ -6900,5 +6900,29 @@
    "P-816": "QUEUED"
   },
   "weave_or_thread": "n/a"
+ },
+ {
+  "id": "P:817",
+  "layer": "15 debts",
+  "kind": "debt",
+  "grade": "DEBT",
+  "text": "the tripwire for old, corrected sentences caught 5 of 23 new planted errors; a list of spellings cannot be complete, and the sentences are not yet in the registry of retracted phrases.",
+  "pins": [
+   [
+    "docs/POINT_REGISTER.md",
+    ". P-817 — "
+   ]
+  ],
+  "rows": [
+   "P-817"
+  ],
+  "arcs": [],
+  "note": "",
+  "rank": 93,
+  "debt_class": "added at S306o (the advisor seat's second re-audit, 2026-11-10)",
+  "rows_live": {
+   "P-817": "QUEUED"
+  },
+  "weave_or_thread": "n/a"
  }
 ]

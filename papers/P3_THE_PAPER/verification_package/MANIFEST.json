@@ -1,6 +1,6 @@
 {
  "paper": "papers/P3_THE_PAPER/main.tex",
- "built": "2026-11-12T04:00:58Z",
+ "built": "2026-11-12T05:11:46Z",
  "environment": {
   "python": "3.12.1",
   "platform": "macOS-15.1-x86_64-i386-64bit",
@@ -9,10 +9,10 @@
   "mpmath": "1.3.0",
   "numpy": "2.4.0",
   "flint": "0.9.0",
-  "git_head": "1a3a9c9bf",
+  "git_head": "87bfa1f05",
   "git_tree_clean": false,
-  "git_head_published": false,
-  "git_commits": 4191,
+  "git_head_published": true,
+  "git_commits": 4193,
   "git_shallow": false
  },
  "claims": [
@@ -2509,6 +2509,7 @@
      ],
      "locks": [
       "tests/test_b1758_c25_block12_pencil_regenerated.py",
+      "tests/test_b874_ladder.py",
       "tests/test_b892_smt.py",
       "tests/test_b892_walls_on_the_line.py",
       "tests/test_b946_handoff6.py"
@@ -2803,7 +2804,7 @@
   "claims": 67,
   "records": 95,
   "seals": 21,
-  "locks": 160,
+  "locks": 161,
   "records_with_a_primary_lock": 95
  }
 }

@@ -74,12 +74,23 @@ def memory(cwd):
 
 def _fenced(page):
     """the spans of the page that lie inside a fenced block, where a line that begins with # is not a heading"""
-    spans, start = [], None
-    for m in re.finditer(r"^(```|~~~)", page, re.M):
-        if start is None:
-            start = m.start()
-        else:
-            spans.append((start, m.end())); start = None
+    # CORRECTED 2026-11-12 (Review 79's second round; found by a reading on another family of model).  Any line that began
+    # with three backticks or three tildes used to open or close a block.  So a block fenced with tildes that quoted one
+    # fenced with backticks was closed early, and a line of prose that began with a span of code in three backticks opened a
+    # block that never closed: every older message below it was dropped without a word.  A block now opens on a line that is a
+    # fence and nothing else but its label (a backtick fence's label holds no backtick), and closes on a fence of the same
+    # character, at least as long, with nothing after it.
+    spans, start, char, size, at = [], None, None, 0, 0
+    for line in page.split("\n"):
+        m = re.match(r"^ {0,3}(`{3,}|~{3,})(.*)$", line)
+        if m:
+            fence, rest = m.group(1), m.group(2)
+            if start is None:
+                if not (fence[0] == "`" and "`" in rest):
+                    start, char, size = at, fence[0], len(fence)
+            elif fence[0] == char and len(fence) >= size and not rest.strip():
+                spans.append((start, at + len(line))); start = None
+        at += len(line) + 1
     if start is not None:
         spans.append((start, len(page)))
     return spans
@@ -143,7 +154,13 @@ def look_seat(seat, cwd, remote, peek):
     if amended:
         out.append("Messages you had read that main has CHANGED since: %s. As they stand now:\n" % ", ".join("M%d" % n for n in sorted(amended)))
         out += [amended[n] for n in sorted(amended, reverse=True)]
-    if not new and not amended:
+    if not new and not amended and read and not sums:
+        # CORRECTED 2026-11-12 (Review 79's second round): a memory written before this listener kept the messages' text has
+        # nothing to compare with.  It used to say "No new message" and then store the new text, so that a message main had
+        # changed in place was lost for good.
+        out.append("No new message. This listener's memory was written by an older version and holds no record of the text of the "
+                   "messages you had read, so it cannot tell whether main has changed one of them: read M1 to M%d on the page again." % read)
+    elif not new and not amended:
         out.append("No new message: main changed the page elsewhere (your cards, or what it waits for). Read the page.")
     remembered = json.dumps({"blob": blob, "read": max([read] + list(ms)), "sums": {str(n): _sum(t) for n, t in ms.items()}})
     return 0, "\n".join(out), (None if peek else (lambda: state_file.write_text(remembered, encoding="utf-8")))
@@ -156,7 +173,11 @@ def look_main(cwd, remote, peek):
     rc, _, err = git("fetch", "--quiet", "--prune", remote, cwd=cwd)
     if rc != 0:
         return 2, "the fetch failed: " + (err.splitlines()[-1] if err else ""), None
-    rc, out, _ = git("for-each-ref", "--format=%(refname:short) %(objectname:short=9)", "refs/remotes/%s" % remote, cwd=cwd)
+    rc, out, err = git("for-each-ref", "--format=%(refname:short) %(objectname:short=9)", "refs/remotes/%s" % remote, cwd=cwd)
+    if rc != 0:
+        # CORRECTED 2026-11-12 (Review 79's second round): the answer was read whatever git returned.  When the command timed
+        # out the list was empty, every branch was reported as gone, and the memory was emptied.
+        return 2, "the branches could not be listed" + (": " + err.splitlines()[-1] if err else " (git returned %d)" % rc), None
     heads = {}
     for line in out.splitlines():
         name, sha = line.split()

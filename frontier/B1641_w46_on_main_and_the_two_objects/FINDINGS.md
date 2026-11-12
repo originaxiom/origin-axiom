@@ -110,6 +110,16 @@ land.
 > derivation's finding without first sweeping the foundation for the three-component form. The session whose
 > derivation raised the point found the row within the hour. The three sentences are marked below and kept.
 
+> **CORRECTED 2026-11-12, a second time (Review 79's second round; found by a reading on another family of model).
+> The bullets below write "the index" for two different things, and give the four-dimensional index the wrong sign.**
+> What rises by one for each unit on a line is the Euler characteristic of the triplet's weight-3/2 forms, on the
+> base; its value at no unit is 0, and for (1, 1, 1) it is 3, the dimension B1796 computed. The four-dimensional
+> index of this arc's table takes that term with a minus sign and adds the term of Λ₊: in the sealed script it is
+> minus the triplet's Euler characteristic plus the sum over the pieces of Λ₊, and the table gives +3, 0, −3 at
+> n = −1, 0, 1 for an empty Λ₊. So at an empty Λ₊ the same unit on all three lines gives the index −3, and a unit on
+> one line gives −1. Their sizes are what the bullets state; the signs are not. For unequal units the term of Λ₊ is
+> not computed. The bullets are kept as written.
+
 *Raised by a second derivation of the chiral three from its statement alone, on another family of model (harvest row
 1709; read through the mask; its code not run). Checked by main on its own formula and its own committed numbers.
 [Reworded 2026-11-12 (Review 79): this line named the session; register row P-797.]*

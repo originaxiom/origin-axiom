@@ -34,7 +34,11 @@ def identifier_rows(text):
             continue
         cells = [c.strip() for c in line.strip().strip("|").split(" | ")]
         ident = m.group(1)
-        out.setdefault(ident, cells[3] if ident.startswith("PF") else cells[2])
+        cell = cells[3] if ident.startswith("PF") else cells[2]
+        # CORRECTED 2026-11-12 (Review 79's second round): a second row with the same identifier was dropped without a word.
+        if ident in out and out[ident] != cell:
+            raise ValueError("two rows open with %s and their status cells differ: %r and %r" % (ident, out[ident][:60], cell[:60]))
+        out.setdefault(ident, cell)
     return out
 
 
@@ -56,8 +60,18 @@ def status_table_rows(text):
             continue
         if rule or idx >= len(cells):
             continue
-        out[header + " :: " + cells[0]] = cells[idx]
+        key = header + " :: " + cells[0]
+        # CORRECTED 2026-11-12 (Review 79's second round): a second row with the same first cell overwrote the first.
+        if key in out and out[key] != cells[idx]:
+            raise ValueError("two rows of one table open with the same cell and their status cells differ: %r" % key[:120])
+        out[key] = cells[idx]
     return out
+
+
+def unspaced_table_lines(text):
+    """table lines whose cells are not parted by ' | ': this reader would take such a line for one cell.  The foundation has
+    none; the lock asserts it, so that a table written the other way is seen (Review 79's second round)."""
+    return [l for l in text.split("\n") if l.lstrip().startswith("|") and l.count("|") >= 3 and " | " not in l and not set(l.replace("|", "").replace(" ", "")) <= set("-:")]
 
 
 def snapshot(commit):

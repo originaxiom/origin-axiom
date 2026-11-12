@@ -1,0 +1,25 @@
+{
+ "the SM seat": {
+  "its commit": "52b484c70",
+  "quotations": 14,
+  "found": 12,
+  "of its own first file, found there": 2,
+  "found nowhere": 0,
+  "control: the first quotation altered by one character is reported missing": true
+ },
+ "the web seat": {
+  "its commit": "1588ed722",
+  "quotations": 5,
+  "found": 5
+ },
+ "agy-002": {
+  "its commit": "c68aabbd7",
+  "quotations": 13,
+  "found": 13
+ },
+ "agy-exp": {
+  "its commit": "0e9644320",
+  "quotations": 8,
+  "found": 8
+ }
+}

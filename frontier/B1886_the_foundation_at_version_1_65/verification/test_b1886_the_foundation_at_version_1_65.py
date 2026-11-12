@@ -28,6 +28,7 @@ def _rows(text):
         out.setdefault(ident, status)
     return out
 
+IDENT_FIRST = re.compile(r"(?:PF\d|GM\d[a-d]?|SE\d|T-ROOT|FK\d+|GAP\d)\b")
 
 def test_the_version_and_its_log_entry():
     # 2026-11-12: the header named this version while it was the last; a later version keeps this arc's entry and moves the header on
@@ -124,4 +125,22 @@ def test_every_status_cell_of_both_kinds_of_row_at_both_versions():
     rebuilt = bs.build()
     assert rebuilt is None or rebuilt == S
     assert bs.identifier_rows(G) == _rows(G)                                                  # the builder's reading of a row is this lock's
+    # ADDED 2026-11-12 (Review 79's second round; found by two readings).  The lines above compare two stored snapshots.  The
+    # LIVE foundation was held to v1.64 for the rows that open with an identifier only: a status changed in one of its other
+    # tables passed every line of this lock.  Both kinds are now held on the live page.  A later version that changes a status
+    # cell on purpose names the row here, with its arc.
+    CHANGED_SINCE = {}                                              # row key -> the arc that changed its status cell; empty at version 1.66
+    live = bs.status_table_rows(G)
+    moved = {key: (cell, live.get(key)) for key, cell in a["status_table_rows"].items() if live.get(key) != cell and key not in CHANGED_SINCE}
+    assert moved == {}, moved
+    live_ident = bs.identifier_rows(G)
+    assert {key for key, cell in a["identifier_rows"].items() if live_ident.get(key) != cell and key not in CHANGED_SINCE} == set()
+    assert bs.unspaced_table_lines(G) == []
+    # that these can fail: a status changed in a table without identifiers, and a table written without spaces
+    row = next(key for key in a["status_table_rows"] if not IDENT_FIRST.match(key.split(" :: ")[1]))
+    cell = a["status_table_rows"][row]
+    planted = G.replace("| %s |" % cell, "| DERIVED |", 1) if ("| %s |" % cell) in G else None
+    if planted is not None and planted != G:
+        assert bs.status_table_rows(planted) != live
+    assert bs.unspaced_table_lines("|a|b|c|\n|---|---|---|\n|x|OPEN|z|") == ["|a|b|c|", "|x|OPEN|z|"]
 

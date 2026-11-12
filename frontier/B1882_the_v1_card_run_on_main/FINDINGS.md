@@ -105,6 +105,8 @@ Not decisive by the card. Printed here because the same rule reads them differen
 
 **The figure.** "20% at the top edge" is reproduced: 20.6% of all targets of the first null have their best row in
 the top layer (20.4% on the 20 seeds the sealed cells used), and 17.6% for the second null under the worst factor.
+[CORRECTED 2026-11-12 (Review 79's second round): nothing of the audit's was reproduced, as the correction under § 1 says of the same words there. Its figure had
+no tracked source and named no null. What was computed is a share that falls in a window written beforehand.]
 
 **The caution:** set an end layer beside its neighbours, not only beside the average row. Shares of best rows by
 layer at the top, as multiples of the rows' share, third from the end, second, last:
@@ -117,9 +119,12 @@ layer at the top, as multiples of the rows' share, third from the end, second, l
 
 - **Among all targets the last layer stands far above its neighbours.** That is a pile-up at the edge, and it is the
   audit's figure. A random target that fits nothing has its least bad row somewhere, and often at an end.
+  [CORRECTED 2026-11-12 (Review 79's second round): "fits nothing" was not measured. The card prints no value of a fit.]
 - **Among the well-fitted it does not.** The last layer is below the one before it in all three cells. The density
   of well-fitted targets rises with height and peaks one or two layers inside the window.
 - **So the pile-up belongs to the targets that fit nothing,** which is what the card's page said in advance.
+  [CORRECTED 2026-11-12 (Review 79's second round): not measured; the correction under § 1, point 2. What the table shows is that the pile-up is in all
+  targets taken together and is not in the best 0.1% under the seat's menu.]
 - For the first null, removing the third layer from the top costs 151 of the tail and removing the last costs 109.
 
 ## 5. What main records for finding V1
@@ -134,6 +139,11 @@ show:
 > alone (B1882), a higher top end would add well-fitted targets about 1.5 times as fast as it adds rows for the
 > first null, and about 2 times as fast for the second, under its covariant and free menus a little more; a lower
 > bottom end would add almost none.*
+>
+> [CORRECTED 2026-11-12 (Review 79's second round): the last clause is for the seat's menu, under which the bottom end reads 0.06 to 0.08 of the average rate.
+> Under the first null's covariant menu it reads 0.18, and over the nine cells 0.04 to 0.18. The dated notes of B1726
+> and B1753 carry this beside the sentence since Review 79; this section, the verdict line and the law map's row did
+> not.]
 
 | what | where it stands |
 |---|---|
@@ -156,7 +166,7 @@ null, main runs it.
 
 | | expectation, written before the run | outcome |
 |---|---|---|
-| M1, main, 55% | the audit's figure is reproduced | yes |
+| M1, main, 55% | the audit's figure is reproduced [the expectation's own words, written before the run; see the note under the table] | yes |
 | M2, main, 30/50/20 for A/B/C | first null, worst factor | B |
 | M3, main, 25/50/25 | second null, χ² | B, by less than one target |
 | M4, main, 25/50/25 | second null, worst factor | B, by three targets |
@@ -165,6 +175,9 @@ null, main runs it.
 | the seat, 70% | its own finding is reduced or withdrawn for these two nulls | reduced |
 
 Main leaned a little further towards A than the seat did. The decisive cells went the seat's way, narrowly.
+
+[CORRECTED 2026-11-12 (Review 79's second round), on row M1: what came out is that a share of 20.6% falls in the window written beforehand. Nothing of the audit's
+was reproduced: the correction under § 1, point 1.]
 
 ## 7. What is not shown
 
@@ -190,8 +203,8 @@ the finding itself was read on main in B1870 before the card existed, and left o
 - `VERDICT topic-sweep /window in the height|window in Im|unpriced window|end of the window|top layer|edge of the window|pile-up/ (full text): 5 of 1633 arcs on main match (PROVED 5); 0 register rows match (none)`
 - `VERDICT topic-sweep /random targets|random hierarchies|specificity null|well-fitted/ (full text): 32 of 1633 arcs on main match (NEGATIVE 17, PROVED 15); 22 register rows match (DONE 18, QUEUED 4)`
  On record and used: B1726 and B1753
-(the two nulls and their sealed generators), B1741 (the mass table's loader), B1870 (the finding as main reproduced
-it: the audit's figure had no tracked source).
+(the two nulls and their sealed generators), B1741 (the mass table's loader), B1870 (where main took up the finding; it was not reproduced there: the audit's figure had no tracked source).
+[CORRECTED 2026-11-12 (Review 79's second round): this read "the finding as main reproduced it".]
 
 Literature: none bears on it. The interval is the exact binomial one (Clopper and Pearson, 1934).
 

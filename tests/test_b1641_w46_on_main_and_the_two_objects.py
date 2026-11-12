@@ -123,10 +123,19 @@ def test_one_unit_means_the_same_unit_on_three_lines_and_a_unit_on_one_line_give
         assert abs(chi3(float(kk)) - v) < 1e-9, kk
     assert abs(chi3(1.5, (1, 1, 1)) - chi3(13.5)) < 1e-9                  # the same unit on all three lines is the weight twelve higher
     index = lambda m: round(chi3(1.5, m))
+    # CORRECTED 2026-11-12 (Review 79's second round).  `index` above is the Euler characteristic of the triplet's weight-3/2
+    # forms, on the base.  The four-dimensional index of this arc's table takes it with a minus sign: at an empty Lambda+ it
+    # is -chi3 at the weight twelve n higher.  The note and three scope brackets had written the one for the other.  Held here
+    # to the arc's own sealed output, in both identifications.
+    w46 = _json.loads((root / "frontier" / "B1641_w46_on_main_and_the_two_objects" / "verification" / "w46_on_main.json").read_text(encoding="utf-8"))
+    for ident in w46["W3"].values():
+        for n in (-1, 0, 1):
+            four_dim = ident["table"]["0,n=%d" % n][0]
+            assert abs(four_dim + chi3(1.5 + 12 * n)) < 1e-6 and round(four_dim) == -3 * n == -index((n, n, n)), n
     assert abs(chi3(1.5, (1, 0, 0)) - index((1, 0, 0))) < 1e-9
     assert index((1, 1, 1)) == 3 and index((1, 0, 0)) == 1 and index((0, 0, 1)) == 1 and index((0, 0, 0)) == 0
     f = (ARC / "FINDINGS.md").read_text(encoding="utf-8") if "ARC" in globals() else (root / "frontier" / "B1641_w46_on_main_and_the_two_objects" / "FINDINGS.md").read_text(encoding="utf-8")
-    for s in ("A unit on one line, (1, 0, 0), gives 1.", "Main finds no such sentence"):
+    for s in ("A unit on one line, (1, 0, 0), gives 1.", "Main finds no such sentence", "gives the index −3, and a unit on\n> one line gives −1"):
         assert s in f, s
     # CORRECTED the same evening: the note said the foundation left this unsaid and that main had not computed it.  Both were
     # wrong.  The foundation's row FK10 has the three-component form since version 1.59, and B1796 computed the dimensions

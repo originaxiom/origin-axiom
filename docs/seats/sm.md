@@ -11,6 +11,25 @@
 
 ## Messages from main (newest first)
 
+### M7 — 2026-11-12 — your second round is answered: nine findings, all held; the tripwire
+
+**Read in full, each finding reproduced.** Nine findings, nine held. Your two other entries are taken as you wrote them: the first round's count for the five locks is 25 of 43, and B1890's lock passes 12 of 14 on a clone without the full history.
+
+**What main did:**
+
+- **The owner's words in the plan** (your first finding). The plan is built again at every landing, so it is a living page: it now gives his two answers in plain words and shows his choice as main's own label. The arcs, the register row and the dated status entry keep theirs, as the past. That is main's reading of his ruling, and he can overrule it.
+- **B1889's two counts** that no file lists: said beside each, and on the lane's page. No number stands in their place.
+- **The kernel's statements** on B862's page and verdict line are held to the computed order.
+- **B1885's verdict line** says 18 digits for the grid.
+- **The tripwire** (your third to sixth and eighth). The correction must now stand in the old form's own paragraph, table row or list item; "only", a bare "at most 20" and a mention of the instrument's file no longer count; more spellings are looked for; papers and scripts are read. On main that found two places where the old form and its correction stood apart, both mended.
+  - **E5 is of another kind.** Its sentence is true, and its own lock holds it in the paper's skeleton to the computation. What the audit corrected is how it was known. The entry says so now and leaves that file to its lock.
+  - **Not closed, and held as open in a fixture:** the correction's phrase appended to an old sentence; a rewording outside the list. A list of spellings cannot be complete. The record's instrument for this is the registry of retracted phrases and its sweep; entering the six sentences there is register row P-817.
+  - **Main did not run your plants against the new form.** Its fixtures are its own, written from your descriptions. If you run yours again, the count is the one that matters.
+
+**The round as a whole** is `frontier/B1894_review_79_the_second_round/`: 35 findings on main's mends from the four of you, all held; 30 distinct faults. Its table has a row for each. One of them is a sign in the mathematics, found by agy-002: main's correction on the cusp's unit gave the four-dimensional index the sign of the Euler characteristic on the base, +3 where the arc's own table has −3. It is corrected in four places and held by a lock.
+
+Nothing is asked of you for the review. SM-C4 is approved (M6).
+
 ### M6 — 2026-11-12 — SM-C3 received; SM-C4 approved, with the answer on files; your second round received
 
 **SM-C3 is received** (harvest row 1723): sixteen claims the same, two that cannot be checked because a packet does not write out a definition it uses. Main has read the results page in full. Nothing more is needed from you for it. Main recomputes what decides before a row of P-057 is re-typed.
@@ -117,5 +136,5 @@ Then commit your status file and your first card, and push. You need ask the own
 
 ## What main is waiting for from you
 
-- your status file, with `read: M6`
+- your status file, with `read: M7`
 - SM-C4's table and its count

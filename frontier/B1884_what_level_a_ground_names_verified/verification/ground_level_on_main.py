@@ -16,7 +16,9 @@ EXPECTATIONS, WRITTEN BEFORE THE RUN (each says how it could fail)
  G4  Of the non-negative integer matrices of determinant -1 with entries to 8 (the seat counts 87), those with no line of
      their own at any level are exactly F and F'.  By hand: for determinant -1 and trace s, det(g - I) = -s and
      det(g + I) = s, so no own line exactly when s = 1.
- G5  Main's own question: in B1872's convention (columns, the ground [[2,1],[1,1]], the mark (1,2)) the same counts hold.
+ G5  Main's own question: in the column convention (the ground [[2,1],[1,1]], the mark (1,2)) the same counts hold.  [Corrected
+     2026-11-12: this read "in B1872's convention"; B1872 writes rows, the ground ((1,1),(1,2)) and the mark (1,3).  The columns are
+     the transpose, which B1881 used.]
 """
 import itertools
 import json
@@ -137,7 +139,7 @@ def main():
     Fm = mul(Lm, SW); LRm = mul(Lm, Rm)
     col = lambda g, v, n: ((g[0] * v[0] + g[1] * v[1]) % n, (g[2] * v[0] + g[3] * v[1]) % n)
     keptc = lambda g, n: [v for v in primitive(n) if col(g, v, n) in (v, ((-v[0]) % n, (-v[1]) % n))]
-    check("G5 in B1872's convention: the ground [[2,1],[1,1]] keeps (1,2) up to sign at N = 5, four vectors there and none at another N to 60; its tick keeps none",
+    check("G5 in the column convention, the transpose of B1872's rows: the ground [[2,1],[1,1]] keeps (1,2) up to sign at N = 5, four vectors there and none at another N to 60; its tick keeps none",
           mul(Fm, Fm) == LRm and col(LRm, (1, 2), 5) == (4, 3) and {n: len(keptc(LRm, n)) for n in range(2, 61) if keptc(LRm, n)} == {5: 4} and not any(keptc(Fm, n) for n in range(2, 61)),
           (Fm, LRm))
     # the seat's table of the other root histories (reported there, not predicted): one line as a set, and vectors up to sign
@@ -152,7 +154,7 @@ def main():
             name, table[name]["trace"], table[name]["discriminant"], table[name]["exactly_one_line_at"] or "none", table[name]["a_vector_up_to_sign_at"]))
     want = {"L2R": ([2, 3, 6], [2, 3, 6]), "LR2": ([2, 3, 6], [2, 3, 6]), "L3R": ([3, 7, 21], [3, 7]), "LR3": ([3, 7, 21], [3, 7]),
             "L4R": ([2], [2, 4, 8]), "LR4": ([2], [2, 4, 8]), "L2R2": ([], [2, 4])}
-    check("the seat's table of the seven other root histories (reported there, not predicted) is reproduced to N = 60",
+    check("the seat's table of the seven other root histories (reported there, not predicted) is recomputed to N = 60, the same",
           all((table[k]["exactly_one_line_at"], table[k]["a_vector_up_to_sign_at"]) == want[k] for k in want), {k: (table[k]["exactly_one_line_at"], table[k]["a_vector_up_to_sign_at"]) for k in table})
     n = sum(1 for v in RES.values() if isinstance(v, bool)); bad = [k for k, v in RES.items() if v is False]
     P_(""); P_("CHECKS: %d, FAILING: %d%s" % (n, len(bad), (" -- " + "; ".join(bad)) if bad else ""))
