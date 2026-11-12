@@ -9,6 +9,7 @@ import copy
 import importlib.util
 import json
 import pathlib
+import re
 
 import pytest
 
@@ -676,6 +677,95 @@ def test_a_sentence_cut_for_a_cell_ends_at_a_word_and_says_that_it_is_cut():
     for text in ("Given the unit, the chiral three is an index on the weave's own surface; the three lines carry a vector of units",) * 1:
         out = bp.short(text, 60)
         assert out.endswith(" […]") and text.startswith(out[:-4]) and text[len(out) - 4] == " "
+    # MOVED 2026-11-12 (Review 80; the SM seat's finding 29).  Two lines stood here:
+    #     page = (ARC / "PROGRAMME.md").read_text(encoding="utf-8")
+    #     assert "the option the owner chose, in main's label" in page and "NOT CONFIRMED: the owner, \"" not in page
+    # They looked for one phrase and forbade one spelling, and passed while the page held a block quotation of the owner.
+    # What is asked of the page is now `what_the_plans_page_quotes`, below, with its own test.
+
+
+# Review 80 (2026-11-12; the SM seat's finding 29).  The page gives what the owner answered in plain words and quotes nothing he
+# said (register row P-796).  The lock asked for less: one phrase present, one spelling absent.  This reads the page by shape.
+_OPENS = "\"“‘«'"
+_AN_OPENING_MARK = re.compile(r"(?:(?<=[\s:,;(\[])|^)[%s](?=\S)" % re.escape(_OPENS))
+_A_WORD_FOR_THE_OWNER = re.compile(r"\b(?:[Oo]wner|[Hh]e|[Hh]is|[Hh]im)\b")
+_A_BLOCK = re.compile(r"^\s*(?:[-*+]\s+|\d+\.\s+)?>|<\s*(?:blockquote|q)\b", re.I)
+WITHIN = 120
+# What this reader found on the page the day it was written, 2026-11-12, and did not mend: a ruling of 2026-10-08 that the
+# page names by three words in single marks, in two places (the package WP-1.4 and its row in section 9).  Whether a ruling's
+# name in marks is a quotation of the owner is main's to say; it went back to main with this patch.  The list shortens
+# freely.  It grows only with a line here that says who entered the name and why.
+HELD_BY_NAME = {"even ticks observed": 2}
+
+
+def the_owners_answers_in_plain_words():
+    """what the source keeps of each answer of the owner: main's account, or the label of the option he chose"""
+    return ([S.CONFIRMATION[1]] + list(S.NOT_CONFIRMED.values()) + [v[2] for v in S.CONFIRMED_LATER.values()]
+            + [r[2] for r in S.DIRECT_RULINGS])
+
+
+def what_the_plans_page_quotes(page, accounts=None, held=None):
+    """Every place where the plan's page could be quoting the owner, as (line number, what it is).  Three shapes:
+      1. a block quotation.  The page has none of its own, so a line that opens with '>' is one, and so is the HTML for one;
+      2. a quotation mark that OPENS with a word for the owner in the 120 characters before it, in the same cell.  A mark
+         that closes a quotation of another's words (a sentence of a seat that names the owner) is not one: it follows a
+         letter.  A phrase of HELD_BY_NAME is not reported, up to the number of places the table gives it;
+      3. an account that the source keeps in plain words, printed inside quotation marks, which would present it as his.
+    What it cannot see: his words given with no mark at all, or set in italics.  A reader sees those; this does not."""
+    accounts = the_owners_answers_in_plain_words() if accounts is None else accounts
+    left = dict(HELD_BY_NAME if held is None else held)
+    out = []
+    for n, line in enumerate(page.split("\n"), 1):
+        if _A_BLOCK.search(line):
+            out.append((n, "a block quotation"))
+        for cell in line.split("|"):
+            for m in _AN_OPENING_MARK.finditer(cell):
+                if not _A_WORD_FOR_THE_OWNER.search(cell[max(0, m.start() - WITHIN):m.start()]):
+                    continue
+                name = next((k for k in left if cell[m.end():].startswith(k)), None)
+                if name and left[name] > 0:
+                    left[name] -= 1
+                    continue
+                out.append((n, "a quotation opens after a word for the owner"))
+        for a in accounts:
+            if a and any(o + a in line for o in _OPENS):
+                out.append((n, "an account kept in plain words is printed in quotation marks"))
+    return out
+
+
+def _as_the_lock_asked_before(page):
+    return "the option the owner chose, in main's label" in page and "NOT CONFIRMED: the owner, \"" not in page
+
+
+def test_the_plans_page_quotes_nothing_of_the_owner():
+    """The planted pages below each pass what the lock asked before 2026-11-12, and each is reported now.  The first is the
+    page as it stood until that day: the builder printed the owner's answer as a block quotation, and the lock passed."""
     page = (ARC / "PROGRAMME.md").read_text(encoding="utf-8")
-    assert "the option the owner chose, in main's label" in page and "NOT CONFIRMED: the owner, \"" not in page
+    assert what_the_plans_page_quotes(page) == []
+    # the two places held by name are there to be held: with the table empty they are reported, and a third is reported
+    assert [w for _, w in what_the_plans_page_quotes(page, held={})] == ["a quotation opens after a word for the owner"] * 2
+    assert len(what_the_plans_page_quotes(page + "\nThe owner's ruling ('even ticks observed') once more.\n")) == 1
+    assert "the option the owner chose, in main's label" in page                # the column that says whose words a label is
+    at = "The owner answered main on %s." % S.CONFIRMATION[0]
+    assert page.count(at) == 1
+    words = "planted words that stand for an answer"
+    plants = {
+        "a block quotation, as the builder printed it": page.replace(at, at + "\n\n> \"%s\"\n" % words),
+        "a block quotation with no mark in it": page.replace(at, at + "\n\n> %s\n" % words),
+        "a block quotation inside a list": page.replace(at, at + "\n\n- > %s\n" % words),
+        "the HTML for one": page.replace(at, at + "\n\n<blockquote>%s</blockquote>\n" % words),
+        "another spelling than the one forbidden": page.replace("NOT CONFIRMED: asked, the owner", "NOT CONFIRMED: the owner: \"%s\"; asked, the owner" % words, 1),
+        "typographic marks": page.replace(at, at + " The owner said “%s”." % words),
+        "single marks": page.replace(at, at + " He answered: '%s'." % words),
+        "an account in plain words, printed as his": page.replace(S.CONFIRMATION[1], "\"%s\"" % S.CONFIRMATION[1], 1),
+    }
+    for what, planted_page in plants.items():
+        assert planted_page != page, what
+        assert _as_the_lock_asked_before(planted_page), what                     # the lock as it was passes every one
+        assert what_the_plans_page_quotes(planted_page), what
+    # twins that must stay quiet: a seat's sentence that names the owner, quoted in its cell; a possessive; a question of main's
+    for quiet in ("| the weave discipline | \"the owner agreed to the five proposals\" | CONFIRMED |",
+                  "the owner's rulings, and main's opinion on each",
+                  "CONFIRMED 2026-11-11: asked \"Is the tick an act?\", the owner chose main's option: Yes, admit it (Recommended)"):
+        assert what_the_plans_page_quotes(quiet) == [], quiet
 
