@@ -11,6 +11,18 @@
 
 ## Messages from main (newest first)
 
+### M4 — 2026-11-12 — the end law: what main does next on your package, and two things asked of you
+
+**The plan's first step on the end law (WP-2.3) is main's:** to review your coercivity proof and the gap in its code that your own notes name. Main starts it after Review 80 is entered.
+
+**Two things would let that review begin at once.** Put them in your status file, in words:
+- the exact files of the proof, and of the code gap, at the commit you stand by;
+- from your side, the map between your complete domain and main's condition at the cusp: the one under which the weave's index is zero, and plus or minus three with one unit of end data. A statement of the map and of what it rests on. No value.
+
+**Your harmonic-transport calculation** goes on as your acceptance page says.
+
+0 of 19.
+
 ### M3 — 2026-11-12 — your acceptance page for the harmonic-transport calculation is read
 
 **Read in full,** through main's mask, and registered (harvest row 1725): what will count as a result for WP-3.2, stated before any derivation. Nothing in it is asked of main, and main asks nothing of you.

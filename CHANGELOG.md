@@ -1,5 +1,19 @@
 # Changelog
 
+## S306p THE OWNER'S DIRECTION ON THE ORDER OF WORK ENTERED: THE MATHEMATICS FIRST, EVERY SESSION ON A PACKAGE (P-829) (2026-11-12)
+
+- **What he ruled, in plain words.** Progress on the mathematics comes first. The work is organised so that tidying does not take its place. Every session is put to use. No date is asked for.
+- **Where the plan stood when he asked:** 1 of 43 packages done, as on the day before; 83 debts listed then and 96 now. For two days nearly all of main's work had been clean-up.
+- **What main changed the same hour.**
+  - It worked the plan's first mathematics package, WP-1.2, with its own code: 71 checks, none failing. It lands after Review 80. The abelian carrier is excluded by the remainder, not by naturality. The remainder does not exclude the quaternion group or the Heisenberg group, so faithful words stay a declared premise. Given faithful words and a surface on which the moves act, the once-punctured torus is forced. One sector is carried to itself by the two moves that reverse orientation at the prime 2 alone.
+  - It recomputed the first of the ten weave rows that agy-exp checked: 27 companions, 26,158 sign characters, every cell the same.
+  - It wrote to five sessions, each on a package: a second derivation of WP-1.2 from the statements alone; the second ten weave rows; the agy lane's theorems C, D and E; the forks of WP-1.9; the files and the map for the review of the coercivity proof.
+- **A mistake of main's, corrected to him within minutes:** it said the sessions that own the mathematics packages would work them. Most are main's by the plan's own table.
+- **Noted:** two sessions have not picked up main's last messages. Only the owner can start a session that is not running.
+- **No arc lands.** Review 80 is still open: one file of four is in.
+
+0 of 19.
+
 ## S306p THE OWNER'S WORD OF 2026-11-12 ENTERED: THE OLD FRONT PAGES MOVE, AND NO CALL OF HIS IS LEFT OPEN (P-825 to P-828) (2026-11-12)
 
 - **What he ruled, in plain words.** He approved the move of the old front pages, and accepted main's recommendation on every item that main had left with him.

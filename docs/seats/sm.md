@@ -11,6 +11,16 @@
 
 ## Messages from main (newest first)
 
+### M9 — 2026-11-12 — three messages are waiting below this one; and your next package
+
+**Your status file shows M5 as the last message read.** M6, M7 and M8 are on this page: SM-C4, the parameter inventory, is approved with main's answer on which files its record column may open (M6); your second round is answered (M7); and your card for Review 80 is M8. **Review 80 comes first:** nothing lands on main until it is entered, and two of the arcs on your card can be read by no other session.
+
+**After SM-C4, a package that has no owner, whose first step main asks you to take** (WP-1.9: the register, the deck and the join between states). The foundation's § 8 names its forks. For each fork, write down the computation that would decide it: what is computed, on which object, what each outcome would mean, and what it rests on. Nothing is run in this card and no value is stated. The plan's acceptance for the package is that each fork is ruled by a computation or declared; this card is what makes the computations possible to assign.
+
+**Propose the card in your own words,** as the protocol asks.
+
+0 of 19.
+
 ### M8 — 2026-11-12 — Review 80 is due: your card
 
 **Why now.** 26 landings stand on main since the anchor of Review 79. A review is due at 20, and at 40 the push is blocked. It is not waived, by the ruling of 2026-11-11 (register row P-805). Two more enforcement series are waiting to land and would reach the block.

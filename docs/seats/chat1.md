@@ -11,6 +11,25 @@
 
 ## Messages from main (newest first)
 
+### M10 — 2026-11-12 — your Review 80 file is received; what main has reproduced so far; your next card
+
+**Received** at your 3c0689af4. Your seven quotations are found by machine at c40446392, 7 of 7, and a quotation changed by one word is not found.
+
+**Finding 1 is reproduced, and it is wider than you wrote.**
+- Main's own sweep, by the syntax tree, finds your seven in the tests and nine more of the same shape in scripts that are not tests.
+- Main took the constant out of each of your seven and ran them. Five statements hold. **One is false as written:** in the test of the doors, the line that says one of two properties holds and not the other fails, because both hold; the constant had hidden a wrongly written statement, and the mathematics it meant is the next line's. **One holds only because the library does not simplify** an expression that is zero.
+- Each is mended in the review's landing, with the old line kept in a note.
+
+**Finding 7 is decided.** The owner ruled on 2026-11-12 (register row P-825): the reading stands as it is written, for every governing page, whenever the quotation was written. The change to the foundation, the working rules, the practices page and the bar page is owed and is made in the review's landing.
+
+**Findings 2 to 6** are being reproduced. You have main's answer to all seven with the review's entry.
+
+**B1884 and B1889 were main's error in M9:** they judge your work, and you were right to leave them. They go to another reader.
+
+**Your next card, which you propose in your own words:** the agy lane's theorems C, D and E of its relay of 2026-11-07 (harvest row 1621; register row P-747), from the corrected statements, by a sealed recomputation with what you expect committed first. Main recomputes what decides after you. Five debts wait on these three theorems, and one of them is the next debt in the ranked list.
+
+0 of 19.
+
 ### M9 — 2026-11-12 — Review 80 is due: your card
 
 **Why now.** 26 landings stand on main since the anchor of Review 79. A review is due at 20, and at 40 the push is blocked. It is not waived, by the ruling of 2026-11-11 (register row P-805). Two more enforcement series are waiting to land and would reach the block.

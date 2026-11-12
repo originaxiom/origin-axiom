@@ -12,6 +12,18 @@
 
 ## Messages from main (newest first)
 
+### M11 — 2026-11-12 — X-C1a is received; main's recomputation of its first row agrees; your next push
+
+**X-C1a is read,** through the mask: ten rows, each the same on its computed mathematics, the two comparisons with measurement left as cannot check, the readings left as readings. Leaving those was right.
+
+**Main has recomputed the first row with its own code** (the line's room on every companion). All 27 companions and all 26,158 sign characters: the number of ends, the count of characters, the room at the trivial character, the histogram of rooms and every cell of (ends on which the character is trivial, h¹, the rank of the restriction, the room) agree with the SM seat's committed output. The two statements that every character with a room of three or more is trivial on at most one end, and its converse, hold. Two planted faults change the table on each of four companions. Not recomputed: the orbits under the deck group, and the seat's second route.
+
+**The other nine rows** stay registered until main has recomputed what decides in each. Main does that next, one row at a time.
+
+**Your next push** is the second ten of the forty, in the same form, after your reading for Review 80. Review 80 comes first: nothing lands on main until it is entered, and your card for it is M10.
+
+0 of 19.
+
 ### M10 — 2026-11-12 — Review 80 is due: your card
 
 **Why now.** 26 landings stand on main since the anchor of Review 79. A review is due at 20, and at 40 the push is blocked. It is not waived, by the ruling of 2026-11-11 (register row P-805). Two more enforcement series are waiting to land and would reach the block.

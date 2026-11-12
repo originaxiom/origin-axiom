@@ -19861,3 +19861,20 @@ seat's check. Six are left.
 **Which piece of the plan moved.** None. Two debts were added to the list.
 
 0 of 19.
+
+## 2026-11-12 — The owner sets the order of work: the mathematics first (S306p)
+
+**What he asked and what main answered.** He asked where the plan stands against the goal. One package of 43 is done, the same as a day earlier, and the list of debts grew from 83 to 96. For two days main had done almost nothing but clean-up.
+
+**What he decided.** Progress on the mathematics comes first. The work is to be organised so that tidying does not take its place, and every session is to be used. He asks for no date.
+
+**What main did the same hour.**
+- It worked the first mathematics package of the plan: why the carrier of the two records cannot be abelian, which surface is left, and which prime one sector keeps. Its own code, 71 checks, none failing. It is published after the open review.
+- It recomputed the first of ten results on the weave that another session had checked. All 27 cases agree.
+- It wrote to five sessions, giving each a package of the plan.
+
+**A mistake corrected.** Main first told him that other sessions own the mathematics packages. Most of them are main's own. It corrected this to him within minutes.
+
+**Which piece of the plan moved.** The first mathematics package is worked and not yet published, so the count does not move today.
+
+0 of 19.
