@@ -1,0 +1,22 @@
+W-C4, Theorem C: relay at 82d9d14af; sympy 1.14.0
+C(i)    elements: 81; orbit sizes seen: [1, 2]; size 1 exactly when b = 0: True
+C(ii)a  K-span of the words of length <= 4 in x, y: dimension 4
+C(ii)a  a word W with W x W^-1 = y (x, y; X, Y their inverses): xYXy
+C(ii)a  commutant of V + V + V: K-dimension 9
+C(ii)a  control, V + V: K-dimension 4
+C(ii)a  control, V + Vbar: K-dimension 2; the trace of xy is real: False
+C(ii)a  chi(x) differs from chibar(x): True; commutant of V_diag + V_diag + V_diag: K-dimension 18
+C(ii)b  image of SL(2, Z) mod 2: order 6; abelian: False; orbit of a nonzero class: 3 of the 3 nonzero classes
+C(ii)c  solutions for the dimensions allowed by the counts: 1; the permutation character less the trivial one has integer values and norm 1: True
+C(ii)c  the relay's line read: yes
+C(ii)c  the prime, under the root        numbers read: 1; agrees
+C(ii)c  the residue field                numbers read: 2; agrees
+C(ii)c  the degree of SL                 numbers read: 1; agrees
+C(ii)c  the binary group's name, nT      numbers read: 1; agrees
+C(ii)c  the order                        numbers read: 1; agrees
+C(ii)c  the number of irreducibles       numbers read: 1; agrees
+C(ii)c  the dimensions                   numbers read: 1; agrees
+C(ii)c  the characters' dimension        numbers read: 1; agrees
+C(ii)c  the doublets' dimension          numbers read: 1; agrees
+C(ii)c  the triplet's dimension          numbers read: 1; agrees
+C(ii)c  the sign under the root as the relay writes it is a minus: True
