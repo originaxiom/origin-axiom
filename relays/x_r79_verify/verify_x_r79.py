@@ -880,7 +880,13 @@ def verify_b1885() -> dict:
     p17_vacuous_line = [
         l.strip() for l in gs_run.splitlines() if "level 17: f vanishes at every elliptic point where the character forces it" in l
     ]
-    assert p17_vacuous_line == ["[ok] level 17: f vanishes at every elliptic point where the character forces it -- 0"]
+    # Because check(..., detail=len(forced)) tests `if detail`, detail=0 is falsy and omits "-- 0" on p=17!
+    assert legendre(-1, 17) == 1 and legendre(-3, 17) == -1
+    # On Gamma_0(17), e_2 = 1 + (-1/17) = 2 (neither forced since (-1/17) = +1) and e_3 = 1 + (-3/17) = 0, so forced is empty!
+    e2_17 = sum(1 for x in range(17) if (x * x + 1) % 17 == 0)
+    e3_17 = sum(1 for x in range(17) if (x * x + x + 1) % 17 == 0)
+    assert e2_17 == 2 and e3_17 == 0
+    assert p17_vacuous_line == ["[ok] level 17: f vanishes at every elliptic point where the character forces it"]
 
     lock_src = git_show(
         f"{PINNED_MAIN}:frontier/B1885_the_golden_state_on_the_whole_verified/verification/test_b1885_the_golden_state_on_the_whole_verified.py"
