@@ -185,6 +185,10 @@ def run_precommitted_controls() -> dict[str, object]:
 # 1. Task 1: Independent Audit of Main's Answers & Mends on X1..X15 (F-01..F-15)
 # ---------------------------------------------------------------------------
 
+def unquote_flat(text: str) -> str:
+    return " ".join(re.sub(r"(?m)^>\s*", "", text).split())
+
+
 def verify_task1_x1_to_x15() -> dict[str, object]:
     # First, run the AST standing-tautology / non-failing check scan across EVERY test & script touched for X1..X15
     mended_code_paths = [
@@ -223,12 +227,12 @@ def verify_task1_x1_to_x15() -> dict[str, object]:
         and "72 is six times the twelve-point grid, 144 at 24 points and 360 at 60" in b1221_verdict["claim_one_line"]
         and "infinite" in b1221_verdict["claim_one_line"]
     )
-    b1221_findings_flat = " ".join(b1221_findings.split())
+    b1221_findings_flat = unquote_flat(b1221_findings)
     x2_ok = (
         "agy-002" not in b1221_findings
         and "agy-002" not in b1221_test
         and "recomputed on another family of model, harvest row 1709" in b1221_findings_flat
-        and "harvest row 1709" in " ".join(b1221_test.split())
+        and "harvest row 1709" in unquote_flat(b1221_test)
     )
     assert x1_ok and x2_ok
 
@@ -285,7 +289,7 @@ def verify_task1_x1_to_x15() -> dict[str, object]:
         assert abs(chi3_indep(float(kk)) - val) < 1e-9
     assert [round(chi3_indep(1.5, m)) for m in ((0, 0, 0), (1, 0, 0), (0, 1, 0), (0, 0, 1), (1, 1, 1))] == [0, 1, 1, 1, 3]
 
-    b1641_findings_flat = " ".join(b1641_findings.split())
+    b1641_findings_flat = unquote_flat(b1641_findings)
     x3_ok = (
         "max(0, m_P + m_M + m_N) on every vector computed" in b1641_findings_flat
         and "negative on ten of the 64 vectors" in b1641_findings_flat
@@ -416,7 +420,7 @@ def verify_task1_x1_to_x15() -> dict[str, object]:
 
     # X12 & X13 (B1890)
     b1890_findings = git_show(PINNED_MAIN, "frontier/B1890_the_first_enforcement_series_verified_and_landed/FINDINGS.md")
-    b1890_findings_flat = " ".join(b1890_findings.split())
+    b1890_findings_flat = unquote_flat(b1890_findings)
     b1890_verdict = json.loads(git_show(PINNED_MAIN, "frontier/B1890_the_first_enforcement_series_verified_and_landed/arc_verdict.json"))
     b1890_other = git_show(PINNED_MAIN, "frontier/B1890_the_first_enforcement_series_verified_and_landed/verification/other_checks_run.txt")
     b1890_test = git_show(PINNED_MAIN, "frontier/B1890_the_first_enforcement_series_verified_and_landed/verification/test_b1890_the_first_enforcement_series_verified_and_landed.py")
