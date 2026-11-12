@@ -88,7 +88,16 @@ uniqueness with arithmetic 13. An extremum is in none of the eight most frequent
 - That the classes are right arc by arc: one reader each, not checked by a second.
 - That nothing outside the 636 bears on the two questions: the sweep read verdict lines and titles.
 - Whether the one success of a consistency condition on a continuum (the hypercharge, B1160, as B1204 reads it) has
-  a counterpart for the hand. It is a question, not a claim.
+  a counterpart for the hand. **Read before it was asked as new (the rule of § 5):** the record holds failable
+  conditions that touch the hand, and at the object's symmetric points each of them forbids it. B1674: if the moves
+  act on the fermions as a symmetry, the mixed anomaly with colour vanishes exactly when they act on left- and
+  right-handed quarks alike, and the one with the weak group never vanishes (binding if that group is gauged). B1296:
+  under the theta-equivariance, every face of the chamber is vector-like or anomalous in the colour cubic, never
+  chiral and anomaly-free. B1340: the one coefficient that can fail is the cubic of a direction that is not the same
+  for every family. B864: hypercharge is the one abelian direction that can be gauged over chiral matter. So the
+  question is not whether such a condition exists. It is which symmetry has to be absent for a hand to be allowed,
+  and whether its absence follows from the object or is chosen (B1298 prices the road without the equivariance at
+  the lift, I-28).
 
 ## 5. What follows for the record
 
@@ -99,9 +108,10 @@ uniqueness with arithmetic 13. An extremum is in none of the eight most frequent
    what is proved impossible, what was tried by which kind and how it ended; printed by the topic sweep before an arc
    on that wall is opened; and a gate on a verdict line that claims a selection.
 3. **The rows of this sweep** (`verification/rows.json.txt`) are the ledger's first content.
-4. **A question for the mathematics, and no more than a question:** whether a consistency condition that can fail
-   exists for the hand, as the anomaly conditions were for the hypercharge. It is asked of the paired current pole
-   (register row P-749 (e)) first.
+4. **A question for the mathematics, as the record leaves it (§ 4):** the failable conditions on record forbid a hand
+   at the object's symmetric points. Which symmetry must be absent for a hand to be allowed, and does its absence
+   follow from the object? It is asked of the paired current pole (register row P-749 (e)) first: there the left and
+   right currents are equal at one supplied background.
 
 ## Seen first
 

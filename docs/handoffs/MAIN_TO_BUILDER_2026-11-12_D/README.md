@@ -55,5 +55,9 @@ addition to row P-831 (main's, in this commit); the series adds a row of its own
 
 ## What main keeps
 
-The mathematics: whether a consistency condition that can fail exists for the hand, as the anomaly conditions were
-for the hypercharge (B1160 as B1204 reads it). It is asked of the paired current pole first (P-749 (e)).
+The mathematics. Main first asked whether a consistency condition that can fail exists for the hand, as the anomaly
+conditions were for the hypercharge. Read against the record before it was taken up as new (the rule above, step 1):
+such conditions exist (B1674, B1296, B1340, B864), and at the object's symmetric points each forbids a hand. The
+draft's § 4 and § 5 item 4 now say so. The question main takes up is the one that leaves: which symmetry must be
+absent for a hand to be allowed, and whether its absence follows from the object. It is asked of the paired current
+pole first (P-749 (e)).
