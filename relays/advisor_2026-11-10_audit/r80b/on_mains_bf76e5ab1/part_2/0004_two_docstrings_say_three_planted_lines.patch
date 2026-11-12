@@ -1,0 +1,44 @@
+From aaba1712090e85e95b23fec46ecb3c5d434c7c9c Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 17:31:10 +0000
+Subject: [PATCH 04/12] R80b, part 2, patch 4 (cld-advisor, at main's word in
+ M14; Review 80, the SM seat's finding 31, checked by main): TWO DOCSTRINGS OF
+ B1881'S LOCK SAY THREE PLANTED LINES, AS THE TEST ASSERTS.
+
+The lock's own docstring and the docstring of its test of constants said that the scan is shown to report two planted lines. The test plants three and asserts three, and did so when the sentences were written. Both are corrected, each with the old words in a dated note. No assertion is changed. The lock: 17 tests pass. 0 of 19.
+---
+ .../test_b1881_the_whole_and_the_value_verified.py    | 11 +++++++++--
+ 1 file changed, 9 insertions(+), 2 deletions(-)
+
+diff --git a/frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py b/frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py
+index 6202cacb3..069e1d5bd 100644
+--- a/frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py
++++ b/frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py
+@@ -6,7 +6,9 @@ recomputed from scratch, by other code than the script's); the arc claiming more
+ ADDED 2026-11-12, after a second reading of Review 79's mends by a session that did not write them.  That reading found that this
+ lock held two of the nine mends and that the other seven could be undone with every test passing.  The five tests at the end hold
+ them: what the second convention is, computed on all 120 matrices with a mark for which the statement fails; that no check of the
+-script is passed a constant, with two planted lines the scan must report; the three counts of run sequences by a second method;
++script is passed a constant, with three planted lines the scan must report [CORRECTED 2026-11-12 (Review 80; the SM seat's
++finding 31): this read "two planted lines"; the test plants three and asserts three, and did so when this was written]; the
++three counts of run sequences by a second method;
+ the short-gap figure in exact arithmetic; and that each correction stands in the paragraph of the sentence it corrects.
+ 
+ ADDED 2026-11-12, a second time, after the same session planted 23 errors against the lock as it then stood: 17 were caught and
+@@ -282,7 +284,12 @@ def _constant_checks(src):
+ 
+ def test_no_check_of_the_script_is_passed_a_constant():
+     """Review 79 found two checks that were passed the literal True and counted among the 65.  Both are computed now, and until
+-    this test nothing held that.  The scan is shown to report two planted lines."""
++    this test nothing held that.  The scan is shown to report three planted lines: a check passed the literal True, a check
++    passed a name bound once to a constant, and a result assigned a constant.  A fourth line, a check of something computed,
++    is not reported.
++
++    CORRECTED 2026-11-12 (Review 80; the SM seat's finding 31): the last sentence read "The scan is shown to report two planted
++    lines."  Three are planted and three are asserted, below."""
+     src = (HERE / "whole_and_value_on_main.py").read_text(encoding="utf-8")
+     found, calls = _constant_checks(src)
+     assert found == [], found
+-- 
+2.43.0
+

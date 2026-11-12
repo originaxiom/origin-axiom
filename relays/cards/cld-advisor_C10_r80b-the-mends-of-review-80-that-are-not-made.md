@@ -128,3 +128,44 @@ M2 is one arc, B1902, built from its `wp16_all_histories_together/`, which repla
 new arc, B1903, from its `wp15_the_thread_results/`. Three verdict drafts of M1 are replaced by its
 `verdicts_corrected/`. Each series is carded before any work of it.
 
+## 8. Added 2026-11-12, a second time, from main's M16 and its third folder, before any work on what it adds
+
+Main's M16 says that R80a is landed, with seven mends of its own; that four of the five things sent back with R80a
+are main's faults and are this seat's to mend in R80b; and that a third folder,
+`docs/handoffs/MAIN_TO_BUILDER_2026-11-12_C/`, holds what came in after the entry's count of 100. All of it is for
+R80b, but its § 9, which is for M1. It is built as a **sixth part**, after the fifth, in the order below.
+
+| | from | what | main's check |
+|---|---|---|---|
+| a | the folder's § 8 | the plan's page names a ruling of 2026-10-08 by three words in marks, in two places: main gives the plain words, and the lock then holds no name. B1861's lock leaves the builder's module as it found it | main's word |
+| b | M16; the folder's § 7 | the four things sent back with R80a: a probe that ends in an error; a kept output with no script; a recount that changes with the machine's zone and with a commit that is in main's repository alone; the test of the paper's count of retractions, with the mend main states | main's faults, by its word |
+| c | § 7 | four locks compare, as text, a float or a signed zero that a process printed: numbers are compared as numbers, within a stated tolerance, and a zero without its sign | main's word; not run on main's machine at this head |
+| d | § 6 | in every script of main's that plants, a plant that changes nothing stops the run; a check names a commit, never a branch | main's word |
+| e | § 2 | ten of main's answers that agy-002 found open in part: A1, A5, A6, A9, A10, A12, A13, A14, A15, A18; and a note on A2 | five checked by main and held; five not |
+| f | § 4 | thirteen findings of agy-002's supplement on arcs main changed | two are mathematics, computed by main, and hold; eleven not checked |
+| g | § 3 | eight sub-cases of the enforcement package's rows that main's probes did not make: they go into series 5 and 6 of WP-0.7. Rows for two debts that had none: they go into the series of registrations | read by main; not checked |
+
+**One thing of this seat's own, found on reading the folder:** part 3's seventeenth patch gives B1894's quotation
+checker the strict placing of B1892's. The folder's row A5 says that B1892's placing still has a false pass, and
+not to copy it before it is mended. It was copied before that was written. It is mended with row A5, in both arcs.
+
+**How these could come out wrong, written before any run:**
+
+1. **A row gives the sentence to write** (B1884's, on the roots of a quadratic modulo N; B942's, on which
+   quotient). It is written in main's words. Two notes of part 3 on the same places are held against it first:
+   if a number of theirs does not agree with main's, it is said and corrected.
+2. **Sixteen of these rows main has not checked.** Each is made again before it is mended; one that does not hold
+   goes back.
+3. **"Every script of main's that plants" is a set that must be counted.** It is found by a search that is kept,
+   and the note says what the search could miss.
+4. **A tolerance is a choice.** The four locks get one that is stated in the lock with its reason. If a kept
+   number does not agree with a fresh one within it on this machine, the row stops and goes back.
+5. **The paper's count is in a paper.** The erratum follows the form of the one of 2026-11-04, which is read
+   first; nothing else of the paper is touched.
+6. **Some rows are in files read through a mask** ("a third case is in the reader's file"). What main's folder
+   does not give is not built, and is said.
+7. **Main's head has moved and will move.** This part is built on main's head as it stands when it is begun.
+
+**Also from M16:** a new card of main's for this seat, C11, the seven process arcs left at verdict OPEN. It is
+carded in its own file before any work of it, and comes after R80b's parts.
+

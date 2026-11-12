@@ -1,0 +1,154 @@
+From fb7aeea732f1594029a25fc3d9abcd46d0ff1d22 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 17:32:15 +0000
+Subject: [PATCH 12/12] R80b, part 2, patch 12 (cld-advisor, at main's word in
+ M14; Review 80, the SM seat's finding 25, WHICH MAIN HAS NOT CHECKED: it was
+ made again on the register before it was mended): TWO THINGS OWED HAVE A
+ REGISTER ROW.
+
+THE FINDING, MADE AGAIN. B1897's fourth section states a debt of the whole record, that most of main's locks hold a committed output and not the script that made it, and no row carried it. Register row P-822 read DONE while its last sentence, that the reader is asked to run its 23 plants again, was still owed.
+
+WHAT IS CHANGED. Row P-835 for the first, in B1897's own sentences. Row P-836 for the second: the reader has since run them and filed its report (harvest row 1741), which main has not read; and the lock has changed again since, by this series. A dated note in B1897's two sections and in row P-822 points at them. The floor of the register's count is 836. Each row's queue is main's to change; what is not assessed is said in the row.
+
+The front page's state block, the page and data of where we stand, the reviewer's page and the page of context are made again by main's generators. All 53 gates pass. 0 of 19.
+---
+ README.md                                                   | 2 +-
+ docs/POINT_REGISTER.md                                      | 4 +++-
+ docs/views/CONTEXT_RECOVERY.md                              | 4 ++--
+ docs/views/REVIEWER.md                                      | 2 +-
+ frontier/B1883_where_we_stand/WHERE_WE_STAND.json           | 6 +++---
+ frontier/B1883_where_we_stand/WHERE_WE_STAND.md             | 2 +-
+ .../FINDINGS.md                                             | 4 ++++
+ scripts/checks/point_debt.py                                | 2 +-
+ 8 files changed, 16 insertions(+), 10 deletions(-)
+
+diff --git a/README.md b/README.md
+index 4c6616066..19136f5db 100644
+--- a/README.md
++++ b/README.md
+@@ -22,7 +22,7 @@ nothing in this block is typed by hand.*
+ | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
+ | the foundations | `GENESIS.md` (v1.66) of 2026-11-12 |
+ | arcs with a verdict | 1600: 1108 PROVED, 383 NEGATIVE, 97 OPEN, 12 RETRACTED |
+-| points in the register | 834: 309 open (queued, leads, waiting for the owner), 525 closed |
++| points in the register | 836: 311 open (queued, leads, waiting for the owner), 525 closed |
+ | the last review | Review 80 (2026-11-12), anchor `c40446392` |
+ | the last landing | S306p REVIEW 80'S ENTRY IS LANDED AS THE BUILDER SENT IT, AND MAIN MENDS SEVEN THINGS IN IT THAT ITS OWN CHECK AND A COLD READING FOUND; THE FIVE ITE… |
+ <!-- STATE:END -->
+diff --git a/docs/POINT_REGISTER.md b/docs/POINT_REGISTER.md
+index f7d503003..c302bc10b 100644
+--- a/docs/POINT_REGISTER.md
++++ b/docs/POINT_REGISTER.md
+@@ -1030,7 +1030,7 @@ patterns referee (the three lenses of 2026-10-13, summarised in `docs/THE_INTEGR
+ | P-819 | 2026-11-12 | SE, MA | WHAT B1895 LEAVES UNCOMPUTED ABOUT THE LEAST READING AND THE TWO CONVENTIONS (B1895 § 7; the bound is agy-002's, harvest row 1730): (1) every run sequence that is not all ones reads above 4/3 in the flat-fibre instrument, by hand; the least among the others in the range tried is sqrt2 at the sequences of twos, and whether that is the second least reading over every sequence is not shown; (2) the identity that makes the two conventions one test is computed at level 5 and argued by hand for any level; (3) whether the allowed set is closed under reversal for a mark that does not annihilate its own line is not computed | QUEUED | [LEAD] Q4: small and exact, each a few lines of integers. (1) would say how far above the ground the next reading lies, which is a statement about one instrument on a chosen clock and places nothing; (2) and (3) are checks of the argument at another level and with another mark. Taken up when the read-out on the whole is worked on again (P-776). NOTE 2026-11-12 (Review 80; two readers' findings, each checked by main with a computation of its own, kept in B1898 and now in B1895's lock): (3) IS COMPUTED, and the answer is no: for each of the four marks that do not annihilate their own line, 358 or 362 of the 1,332 run sequences of length 2 and 4 with runs to 6 are allowed differently from their reversal; for the two that do, none. Of (1): over 3,378 primitive cyclic run sequences the second least reading is the all-twos', sqrt2, and every other reads above 17/12; a reader's argument by cases for every sequence was read by main and is right, and is not written in an arc. (2) stands as it was. Whether the row is done is main's | 2026-11-12 |
+ | P-820 | 2026-11-12 | MA, SE | WHAT STILL PASSES THE GATES AFTER THE THIRD ENFORCEMENT SERIES (main's 22 unseen cases, five of which pass; five cases main wrote after reading the patches, three of which pass; the seat's own note, §§ 6 and 7; B1896 §§ 3, 4 and 6): (1) a retracted phrase with a line break in its middle: the sweep flattens the whole file to choose its phrases and then searches line by line; (2) a test whose only assert calls a builtin on literals, in tests/ and in an arc's own lock, the limit the seat names, with three such tests on main's pages (P-808, item 2); (3) a test whose only assert stands under a condition that is never true; (4) a test whose whole body is a block that expects an exception from a literal expression; (5) a name bound in a tuple assignment, or bound twice to one literal, and then compared; (6) a row of the claims page's locked tables that cites a folder named like a test file: the gate asks whether the path exists and, only of a file, whether it holds a test; (7) the five tables of what is held by name as found can grow in the commit that adds what they excuse, the lock changing with them and nothing refusing it; (8) the seat's stated limits that had no row: a control skipped at run time by a helper or a fixture; a second instance of a held phrase in the file that holds it; a file above 5 MB or not text; a tree that is partly tracked; and the framing gate walks its folders, so that on a tree with untracked files its sentence is the tree's and not the commit's | QUEUED | [DEBT] Q2: RUN by main: (1) to (6) each planted and committed in a scratch checkout of main with the series applied, every gate run, all passing; (7) and (8) read in the patches and in the seat's note. None is opened by the series: each passes without it. B1896's lock holds (1) to (6) as passing, on small repositories made with the series' own helpers, so that a mend must tell it. NEXT: the builder's, in the series where each fits (its page, main's tenth message); for (7) main asks for the rule of the second series, a table that shortens freely and grows only by a recorded act ADDED 2026-11-12 (B1897; register row P-822): one more shape, found by a session that planted against one of main's locks: a condition made unable to fail by a clause that is not a literal and is always true, a length compared with zero and joined by `or`. The vacuity class works an assert out and stops at a call; this is past it. Sent to the builder on its page | 2026-11-12 |
+ | P-821 | 2026-11-12 | SE | CORRECTIONS THAT A FINDINGS PAGE CARRIES AND ITS VERDICT FILE DOES NOT (the advisor seat's note on Review 79, § 3, on the seventh specification of agy-002; harvest row 1732): by the seat's first rough reader of forms, 39 findings pages carry a dated mark of correction in brackets, and in 27 of them the arc's verdict file carries none. The seat will build the check, two files of one arc, in its package on labels, and hold the 27 by name as found; each is main's to mend. It is the fault Review 79 found most often, a correction that did not travel, counted across the record | QUEUED | [DEBT] Q2: NOT RECOUNTED by main: the 39 and the 27 are the seat's, computed once by a reader of forms that judges no arc. NEXT: main recounts with its own reader, reads each of the pages, and for each either carries the correction to the verdict line, keeping what the line said, or says why the line does not need it; then the views are regenerated. The verdict lines are what the front door and the paper's pages show | 2026-11-12 |
+-| P-822 | 2026-11-12 | SE | SIX PLANTED ERRORS THAT PASSED B1881'S LOCK AS MAIN HAD REBUILT IT (agy-002's 23 plants against the lock at main's 3c5ab6bef, the eighteen new ones committed before it opened the lock; harvest row 1733): 17 caught and six passing, where main's own eighteen had all been caught. The six leave a mended sentence or number in place and defeat what holds it: a new paragraph that states the withdrawn claim; a function's docstring given the withdrawn word; counts typed in place of computed; the committed run file edited where the lock did not read it; a clause that is always true and is not a literal, joined to two conditions; the sorting of a printed set undone | DONE | B1897: each of the six read against the lock, made again by main from the reader's descriptions and run. Four tests added to B1881's lock: it runs the script twice in a folder of its own and holds both outputs to the committed files, byte for byte under the library versions that made the run and to eight digits with the same checks under others; the mended conditions and one printed detail are held word for word; its scan sees a table of constants and the counts are held to the expressions that compute them; the function's docstring, and every line and paragraph that holds the withdrawn word. With B1895's eighteen the lock catches 24 of 24, the control passing. NOT CLOSED, and said in the lock: a withdrawn claim restated without its word (P-817). The shape of a clause that is always true goes to the builder of the gates with P-820. The reader is asked to run its 23 again. NOTE 2026-11-12 (Review 80; a reader's finding, checked by main): five tests were added to the lock, not four. It had fifteen when B1897 was pushed (644d5b40f): four hold the six, and the fifth tests the weaker comparison where it is not run | 2026-11-12 |
++| P-822 | 2026-11-12 | SE | SIX PLANTED ERRORS THAT PASSED B1881'S LOCK AS MAIN HAD REBUILT IT (agy-002's 23 plants against the lock at main's 3c5ab6bef, the eighteen new ones committed before it opened the lock; harvest row 1733): 17 caught and six passing, where main's own eighteen had all been caught. The six leave a mended sentence or number in place and defeat what holds it: a new paragraph that states the withdrawn claim; a function's docstring given the withdrawn word; counts typed in place of computed; the committed run file edited where the lock did not read it; a clause that is always true and is not a literal, joined to two conditions; the sorting of a printed set undone | DONE | B1897: each of the six read against the lock, made again by main from the reader's descriptions and run. Four tests added to B1881's lock: it runs the script twice in a folder of its own and holds both outputs to the committed files, byte for byte under the library versions that made the run and to eight digits with the same checks under others; the mended conditions and one printed detail are held word for word; its scan sees a table of constants and the counts are held to the expressions that compute them; the function's docstring, and every line and paragraph that holds the withdrawn word. With B1895's eighteen the lock catches 24 of 24, the control passing. NOT CLOSED, and said in the lock: a withdrawn claim restated without its word (P-817). The shape of a clause that is always true goes to the builder of the gates with P-820. The reader is asked to run its 23 again. NOTE 2026-11-12 (Review 80; a reader's finding, checked by main): five tests were added to the lock, not four. It had fifteen when B1897 was pushed (644d5b40f): four hold the six, and the fifth tests the weaker comparison where it is not run. NOTE 2026-11-12 (Review 80; a reader's finding, not checked by main): this row reads DONE while its last sentence, that the reader is asked to run its 23 again, was still owed. That is row P-836; the debt that B1897 § 4 states is row P-835 | 2026-11-12 |
+ | P-823 | 2026-11-12 | MA | THE RETRACTIONS INDEX HAD NO ROW FOR 61 ARCS (found by the doc-currency gate at B1897): its rule, that a correction adds its row in the landing that banks it, lapsed again after B1836, as it had after B1716 (caught then at B1802). In the window main corrected more of its own banked statements than in any other: the audit's findings, Review 78, Review 79 and its second round | QUEUED | [PROCESS] Q3: CAUGHT UP IN PART at B1897's landing: no arc of the window is retracted or superseded (computed); thirteen rows for statements of mathematics, each read at its source; four index rows that point to the tables which hold the reviews' corrections row by row. OWED: (1) the reviews' corrections read one by one for those that change a statement a reader of an old page could act on, each given a row of its own; (2) a check that fails when a landing carries a dated mark of correction and no row here, so that the rule is held by a gate and not by memory: to the builder of the gates as a specification, with P-821, which is the same fault seen from the verdict files | 2026-11-12 |
+ | P-824 | 2026-11-12 | MA | REVIEW 80 IS DUE AND IS OPENED: 26 landings stand since the anchor of Review 79, a review being due at 20 and the push blocked at 40; it is not waived (P-805). The window is 0dda7b472 to c40446392: seven arcs added (B1891 to B1897), nineteen arcs that main changed after the head the second round read, the governing pages and ledgers, main's own instruments, and the two enforcement series as they landed. Four cards on the readers' pages (SM-R80, W-R80, A2-R80, X-R80): each arc that was added goes to two sessions that built none of it, one of main's family of model and one of another; each of main's changes goes to two sessions whose finding it does not answer; no session is given an arc that judges its own work | QUEUED | [PROCESS] Q1: the cards are out. MAIN LANDS NOTHING UNTIL THE REVIEW IS ENTERED but what the review itself needs: the fourth enforcement series is verified meanwhile and its landing is held. OWED: main reproduces each finding at its source, mends it or answers it, closes nothing on a reader's word; the entry with its three core lines; the suite on a fresh clone at the head that carries the entry. NOT DONE at this review either: no reader is tested against planted faults (Review 79's action item R79-12) ADDED 2026-11-12, THE SAME MORNING: ONE EXCEPTION, SAID HERE SO THAT IT IS NOT SILENT. The owner's word to main is entered the day it is given, by this register's own rule, and it was (rows P-825 to P-828, with a message on the builder's page and a test of B1877 that had held three rows to the disposition OWNER). It lands no arc and no instrument. The count of landings since the anchor rose by two for it ADDED 2026-11-12 (the landing of Review 80's entry): the review is entered, with its three core lines; its arc is B1898. What this row gives as owed and is not done stands in row P-834: 17 findings have been looked at by nobody but their reader, and the suite on a fresh clone of the head that carries the entry is not run | 2026-11-12 |
+ | P-825 | 2026-11-12 | OW | THE OWNER'S WORD TO MAIN OF 2026-11-12 ON WHAT MAIN HAD LEFT WITH HIM, in three messages, entered in plain words: (a) he approved the move of the old front pages; (b) he asked what main's item on his earlier words on living pages was, and that the four calls listed as his (P-081, P-082, P-253, P-787) be settled; (c) after main's answer, which said for each item what main would do, he accepted main's recommendation on every one of them | QUEUED | [PROCESS] Q1: WHAT IS SETTLED, each a matter of order, of standard or of the public form, and none a fact of the mathematics. (1) THE MOVE, his way and as the advisor seat's second dry run made it: pure renames into one folder, one page that says where each page went, and no kept page edited but for one line on the front page's table that leads to that page. MAIN SETTLED the names (a folder named retired and a page named MOVED.md, both under docs, the word archive being taken here by the register of dead ideas) and the list: of the seat's thirty, picked by a rule and by no reading, main read the opening of each and who names it; TWENTY MOVE, and TEN STAY in this step, nine because a governing page, a standard page or a current ledger names each as the place of something in force, and one because it is a ledger and no dated account. The rule and both lists are on the builder's page (M12). The seat builds it as a patch; main tests it with cases written before it reads the patch; it lands after Review 80's entry and the fourth enforcement series. NOT IN THIS STEP: the 33 old pages that code names, and the recent pages that disagree with each other (P-826, P-827). (2) HIS EARLIER WORDS ON LIVING PAGES: main's reading (P-796) is approved and is completed: a governing page quotes nothing he said, whenever it was written; arcs, register rows and dated log entries keep what they wrote. OWED at the first landing after the review's entry: each such line says what he ruled and when, with its register row where there is one, and the count is made again by reading (a first count is in P-796). (3) THE TWO OUTSIDE READERS (P-081, P-082): held under his own condition and no longer listed as open calls. (4) THE NEXT DRAFT (P-253): none before the mathematics is complete and a card is sealed; what is written then is the statement of the light repository; the reading of the eight arcs is main's debt. (5) THE LICENCE (P-787): decided at the seal, after legal advice; none is added before. AFTER THIS NO ROW HAS THE DISPOSITION OWNER. Main tells him at each report what is open of (1) and (2) | 2026-11-12 |
+@@ -1043,3 +1043,5 @@ patterns referee (the three lenses of 2026-10-13, summarised in `docs/THE_INTEGR
+ | P-832 | 2026-11-12 | OW | THE OWNER'S DIRECTION OF 2026-11-12 ON MAIN'S OWN WORK, entered in plain words: main works the frontier mathematics; the record-keeping and the hygiene are given to other sessions | QUEUED | [PROCESS] Q1: WHAT MAIN CHANGED THE SAME HOUR. (1) MAIN STOPS MENDING REVIEW FINDINGS ITSELF. Of the 57 findings that came after its first 43 it had checked 37 in full and parts of 3 more, and mended twelve; the table is in the hand-over folder. (2) THE BUILDER BUILDS, as patch series from one folder of main's drafts and checks (`docs/handoffs/MAIN_TO_BUILDER_2026-11-12/`; its page, M14): Review 80's entry and arc first, then the mends that are not made, the three mathematics arcs, the selection test, and registrations of what the sessions delivered. (3) A VERIFYING SESSION READS EACH SERIES COLD before it lands (agy-002, M15). (4) MAIN KEEPS the final check, its own unseen cases, and the push. (5) A statement of the mathematics and a number stay main's: the builder does not repair them. The four verifying sessions keep their mathematics cards first | 2026-11-12 |
+ | P-833 | 2026-11-12 | MA | REVIEW 80, WHERE IT STANDS WHEN ITS RECORD-KEEPING IS HANDED OVER: four readers' files are in, 100 findings (the web seat 7 and 2 more, agy-002 36, the SM seat 41, agy-exp 14), every quotation found by machine at the commit read. The first 43 all held on main's own check and are mended on main. Of the other 57 main has checked 37 itself in full (30 of the SM seat's, 7 of agy-exp's and parts of 3 more, none of the web seat's two; and agy-exp's two derivations recomputed), every one held, and twelve are mended; 20 are checked in full by their reader only | QUEUED | [PROCESS] Q1: the review's entry and arc (B1898) and the mends that are not made are built by the builder as series R80a and R80b (P-832), read cold by agy-002, and landed by main. Until R80a lands the review is open and its count stands at 38 of 40: nothing else lands before it. What is owed is listed in `docs/handoffs/MAIN_TO_BUILDER_2026-11-12/review80/STATUS_OF_THE_57.md` ADDED 2026-11-12 (the landing of R80a): the entry is Review 80's on the reviews' page and its arc is B1898. The mends that are not made are row P-834 (1) | 2026-11-12 |
+ | P-834 | 2026-11-12 | MA | REVIEW 80 IS ENTERED (B1898), built as a patch by the building session from main's tables and checks (P-832): 100 findings; main checked 80 in full and all 80 held, and 3 in part; 17 have been looked at by nobody but their reader. WHAT THE ENTRY LEAVES OPEN: (1) the 41 findings that the table of the 57 gives as to build, and the five things owed from the first 43; (2) what the builder sent back with the entry: one plant of main's own that passes B1885's lock, a check that ends in an error, a kept output whose script is not in the folder, a recount that changes with the machine's zone; (3) five carried items at their third carry with no disposition, which the gate on a carried item's age does not see; (4) the full suite on a fresh clone of the head that carries the entry; (5) the lines the entry gives as not assessed: what each reader in fact read, the kinds the findings fall into, whether a new pair of words needs an entry, promotions, held-out targets | QUEUED | [PROCESS] Q1: (1) is the series R80b (Review 80's action item R80-19); (2) is R80-20, (3) is R80-21 and (4) is R80-22, each main's at the landing or after it; (5) is main's to write on the entry ADDED 2026-11-12 at the landing: (2) the first of the four is answered: the plant changed nothing, and made properly it is caught; the lock and row A14 stand; the other three are main's faults and go to the builder's second series. (3) MAIN'S CHOICE, the stricter: none of the five is waived or declined; the rule of 2026-10-03 is not met for them at this landing; main starts no other package before each is resolved or declined on the evidence of the work (their state is in the changelog's entry of this landing). (4) not run yet. Main's own check and a cold reading (agy-002) found seven things in the entry and its arc, all mended at the landing with the old words kept; the arc's lock now holds the numbers by their sentences. After the count of 100: two more findings of the web seat, ten of main's answers to agy-002 open in part, and 13 findings of agy-002's supplement, all in a third folder for the builder. | 2026-11-12 |
++| P-835 | 2026-11-12 | SE | MOST OF MAIN'S LOCKS HOLD A COMMITTED OUTPUT AND NOT THE SCRIPT THAT MADE IT (B1897 § 4 states it as a debt of the whole record, and no row carried it: a reader's finding at Review 80, made again by the building session and not checked by main): a lock that reads a committed output holds the output; it does not hold that the script still computes it, nor that the run file is what the script prints. B1881's lock holds both, by running its script twice. The locks whose scripts take minutes cannot do so in the default lane | QUEUED | [PROCESS] Q1: entered from B1897's own sentences so that the debt has a row. Not assessed here: how many locks there are of this kind, which of them can run their script, and what holds the others. The queue is main's to change | 2026-11-12 |
++| P-836 | 2026-11-12 | SE | THE READER'S OWN 23 PLANTS AGAINST B1881'S LOCK AS IT NOW STANDS: ASKED FOR, DELIVERED, AND NOT READ BY MAIN (B1897 § 5 and the last sentence of P-822, which is DONE while that sentence was still owed: a reader's finding at Review 80, made again by the building session and not checked by main). The reader has since run them at `c40446392` and filed its report (harvest row 1741, registered by file name and not read) | QUEUED | [PROCESS] Q1: main reads the report through its mask and answers on the reader's page. Since the report the lock has changed again: the mends of Review 80 hold the script whole, call its check function, and compare every value of its data file (the series R80b, part 2), so the count the report gives is of the lock as it stood at `c40446392`. The queue is main's to change | 2026-11-12 |
+diff --git a/docs/views/CONTEXT_RECOVERY.md b/docs/views/CONTEXT_RECOVERY.md
+index 787a5b089..ccbbe48df 100644
+--- a/docs/views/CONTEXT_RECOVERY.md
++++ b/docs/views/CONTEXT_RECOVERY.md
+@@ -18,8 +18,8 @@
+ | … NEGATIVE | 383 |
+ | … OPEN | 97 |
+ | … RETRACTED | 12 |
+-| register points | 834 |
+-| … QUEUED | 305 |
++| register points | 836 |
++| … QUEUED | 307 |
+ | … LEAD | 4 |
+ | … OWNER | 0 |
+ | … DONE | 513 |
+diff --git a/docs/views/REVIEWER.md b/docs/views/REVIEWER.md
+index 975f3aa51..fe99c1f06 100644
+--- a/docs/views/REVIEWER.md
++++ b/docs/views/REVIEWER.md
+@@ -20,7 +20,7 @@ result, not the debt.
+ | | |
+ |---|---|
+ | research arcs with findings | **1600** |
+-| words of findings prose | **1,418,496** |
++| words of findings prose | **1,418,565** |
+ | test lock files referenced | **944** |
+ | arcs carrying an authored verdict | **1600** (100.0 %) |
+ | recorded closures | **859** (692 classified, 167 routed-only) |
+diff --git a/frontier/B1883_where_we_stand/WHERE_WE_STAND.json b/frontier/B1883_where_we_stand/WHERE_WE_STAND.json
+index ff021deaa..b3faeea8e 100644
+--- a/frontier/B1883_where_we_stand/WHERE_WE_STAND.json
++++ b/frontier/B1883_where_we_stand/WHERE_WE_STAND.json
+@@ -230,11 +230,11 @@
+   "by_kind": {
+    "DEBT": 96,
+    "LEAD": 137,
+-   "PROCESS": 76
++   "PROCESS": 78
+   },
+-  "open": 309,
++  "open": 311,
+   "owner_calls_open": [],
+-  "points": 834
++  "points": 836
+  },
+  "rows_the_scoreboard_lists": 23,
+  "the_count_as_an_output": {
+diff --git a/frontier/B1883_where_we_stand/WHERE_WE_STAND.md b/frontier/B1883_where_we_stand/WHERE_WE_STAND.md
+index b6a551824..f5fb6ad66 100644
+--- a/frontier/B1883_where_we_stand/WHERE_WE_STAND.md
++++ b/frontier/B1883_where_we_stand/WHERE_WE_STAND.md
+@@ -87,7 +87,7 @@ The final reading is a sealed set of predictions set beside measurement. It happ
+ 
+ ## 6. The record's own list
+ 
+-- **834 points registered, 309 open:** 137 lead, 96 debt, 76 process.
++- **836 points registered, 311 open:** 137 lead, 96 debt, 78 process.
+ - **Calls that are the owner's to make (0):**
+ 
+ ## 7. What this page does not know
+diff --git a/frontier/B1897_b1881s_lock_tested_by_a_session_that_did_not_write_it/FINDINGS.md b/frontier/B1897_b1881s_lock_tested_by_a_session_that_did_not_write_it/FINDINGS.md
+index 2c79f3669..5425b3fd2 100644
+--- a/frontier/B1897_b1881s_lock_tested_by_a_session_that_did_not_write_it/FINDINGS.md
++++ b/frontier/B1897_b1881s_lock_tested_by_a_session_that_did_not_write_it/FINDINGS.md
+@@ -65,6 +65,8 @@ class: a lock that compares as text what a process printed passes where it was w
+ - **A lock that reads a committed output holds the output.** It does not hold that the script still computes it, nor
+   that the run file is what the script prints. B1881's lock now holds both, by running the script. Most of main's
+   locks do not, and the ones whose scripts take minutes cannot in the default lane.
++  [ADDED 2026-11-12 (Review 80; a reader's finding, not checked by main): this is a debt of the whole record and it
++  had no register row. It is row P-835.]
+ - **A scan for one shape of a check that cannot fail is passed by the next shape.** The scan here looked for
+   constants; a clause that is always true and is not a constant passed. The mended conditions are now held word for
+   word, which is a pin and not a rule. The rule is the enforcement package's, and this shape goes to its builder with
+@@ -74,6 +76,8 @@ class: a lock that compares as text what a process printed passes where it was w
+ ## 5. What is not shown
+ 
+ - **The reader's own 23 against the new lock.** It is asked to run them.
++  [ADDED 2026-11-12 (Review 80; a reader's finding, not checked by main): this was still owed while register row
++  P-822 read DONE. The reader has since run them and filed its report, which main has not read. It is row P-836.]
+ - **That other arcs' locks hold what this one now holds.** They were not tested this way. Review 79 found the same
+   kinds of gap in other locks, and no reader has planted against them since they were mended.
+ - **The claim restated without the word** (§ 1).
+diff --git a/scripts/checks/point_debt.py b/scripts/checks/point_debt.py
+index 9db027170..6fa27a312 100644
+--- a/scripts/checks/point_debt.py
++++ b/scripts/checks/point_debt.py
+@@ -52,7 +52,7 @@ import sys
+ ROOT = pathlib.Path(__file__).resolve().parents[2]
+ REGISTER = ROOT / "docs" / "POINT_REGISTER.md"
+ LEADS = ROOT / "docs" / "OPEN_LEADS.md"
+-FLOOR = 834
++FLOOR = 836
+ STALE_DAYS = 21
+ M1_START = datetime.date(2026, 11, 4)   # the owner's ruling on P-659: direction leads and drafts age from here
+ DRAFT_DAYS = 7
+-- 
+2.43.0
+

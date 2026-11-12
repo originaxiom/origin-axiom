@@ -1,0 +1,197 @@
+From 0e2e7529742961f7f10641a3502220bed5fe3592 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 17:31:40 +0000
+Subject: [PATCH 10/12] R80b, part 2, patch 10 (cld-advisor, at main's word in
+ M14; Review 80, the SM seat's findings 22, 23 and 24 and a reader's two
+ derivations; main checked 23 and 24 and the derivations with a computation of
+ its own, and did not check 22): FOUR THINGS SAID OF B1895 ARE COMPUTED IN ITS
+ LOCK, AND NOTED ON ITS PAGE.
+
+THE COMPUTATIONS ARE MAIN'S (the arc B1898 keeps the script and its output). Run again here it gives the same output. They are placed in the lock, so that each note of the page is held to a computation.
+
+1. ROW A1 (finding 23). The statement is true and was not what was computed: the script and the lock compared the outcome of two tests and built no word of the second convention. The lock builds it, letter by letter over the integers: it is the seat's word conjugated by the swap on 1,332 of 1,332 sequences. A control with the letters exchanged differs.
+2. REVERSAL (finding 24). The seventh section left it as not computed. For each of the four marks that do not annihilate their own line, 358 or 362 of the 1,332 sequences are allowed differently from their reversal; for the two that do, none.
+3. THE SECOND LEAST READING (the second derivation). Over 3,378 primitive cyclic run sequences the least reading is the all-ones', the second least the all-twos', and every other reads above 17/12, the least of them 1.4866 at (1, 1, 2, 2). The reader's argument by cases for every sequence was read by main; it is not written in the arc and the lock does not hold it. The first derivation is the page's rows A5 and A6.
+4. THE LOCK'S OWN SENTENCE (finding 22, not checked by main; counted in the test). It said its sequences were ones the arc's script did not try. Of its 409 distinct sequences 295 were tried; 114 are new.
+
+NOTED, each with the sentence before it kept: under the table of the third section; twice in the seventh section; in the lock's docstring; in register row P-819, where (3) is computed and (1) has main's computation. Whether that row is done is main's. No number is this seat's: each is main's, or is counted by the test.
+
+The locks of B1881, B1895 and B1897 pass: 17, 10 and 4 tests. 0 of 19.
+---
+ docs/POINT_REGISTER.md                        |  2 +-
+ docs/views/REVIEWER.md                        |  2 +-
+ .../FINDINGS.md                               | 16 ++++
+ .../test_b1895_the_mends_of_b1881_read.py     | 84 ++++++++++++++++++-
+ 4 files changed, 101 insertions(+), 3 deletions(-)
+
+diff --git a/docs/POINT_REGISTER.md b/docs/POINT_REGISTER.md
+index b34300935..f7d503003 100644
+--- a/docs/POINT_REGISTER.md
++++ b/docs/POINT_REGISTER.md
+@@ -1027,7 +1027,7 @@ patterns referee (the three lenses of 2026-10-13, summarised in `docs/THE_INTEGR
+ | P-816 | 2026-11-12 | MA | A CEILING THAT FALLS AND THEN RISES BACK TO ITS VALUE AT THE RULE'S ANCHOR RISES WITH NO RECORD (found by main reading the third and fifth patches of the second enforcement series, then run; B1893 § 4). The series holds the identification baseline, and each entry of the attribution table, to its value at the anchor. Neither reads the values in between. So when a debt is paid and the ceiling is lowered, as it should be, a later commit can raise it back and use the room: for the identifications, each one that is earned lets a new unearned one enter unseen | QUEUED | [DEBT] Q1: RUN by main in small repositories made with the series' own helpers: the baseline falls from 1 to 0 as a row is earned, a new unearned row enters with the baseline moved back to 1, and the gate says ok; the control, the same rise with no fall before it, is refused. The same for the attribution table. Without the series the same passes, and more: the series narrows the hole. PASSED to the builder of the enforcement package on its page; what would close it is the rule read along the history, every upward step since the anchor needing its record. B1893's lock asserts that the case still passes, so that the mend must tell it | 2026-11-12 |
+ | P-817 | 2026-11-12 | SE, MA | THE TRIPWIRE FOR OLD, CORRECTED SENTENCES CANNOT BE MADE COMPLETE BY ADDING SPELLINGS, AND THE RECORD'S OWN INSTRUMENT FOR IT IS NOT USED (Review 79's second round, B1894 § 4; harvest rows 1726, 1727). Planted against a second time, the lock of B1862 caught 5 of 23 new errors: an entry matched one spelling, and any marker word near the old form counted as its correction. Made stricter at this landing, it still passes an old sentence with the correction's phrase appended, and any rewording outside its list | QUEUED | [DEBT] Q2: MENDED AS FAR AS A LIST GOES (B1894): the correction must stand in the old form's own paragraph, row or item; three loose marker words no longer count; more spellings; papers and scripts are read; the two open shapes are held as fixtures that say they are open. OWED: the six sentences entered in the registry of retracted phrases, so that the record's sweep, which reads every tracked page line by line and is a gate, holds them. A trial with the registry unchanged shows some fifty lines that would then be reported, many of them the lock's own fixtures: each is mended or the lock's file is exempted by name first. And the readers' planted errors run against the stricter form, by the readers | 2026-11-12 |
+ | P-818 | 2026-11-12 | SE | FOUR FAULTS IN MAIN'S MENDS OF B1881, FOUND BY A SESSION THAT DID NOT WRITE THEM (agy-002's reading of main at 87bfa1f05; harvest row 1730): (1) the mend of Review 79 called the arc's second convention the transpose of the seat's, and the seat's ground is symmetric; the same word in B1884 and in two answers of the second round; the script's second function still named B1872; (2) 'reproduced' for what was recomputed, in the verdict line and on the page; (3) the script's label for the least apex kept 'every cyclic run sequence' beside the count of sequences as written, in the script, its file and its run; (4) the lock held two of the nine mends | DONE | B1895 (PROVED): all four held and are mended. The second convention is the seat's with every matrix conjugated by the swap of the two coordinates, read on the swap of the column the mark annihilates; a row is kept by a matrix exactly when the column it annihilates is kept, on all 120 matrices of determinant 1 mod 5 and each of the six lines, so the two tests are one test and B1881's agreement on 47,988 sequences is an instance of an identity. B1881: 65 checks, none failing; its lock has ten tests and catches 18 of 18 planted reversions. B1884: 17 checks, none failing. Main found two more faults of its own while mending. It is the fourth time at Review 79 that a correction main wrote held an error of its own | 2026-11-12 |
+-| P-819 | 2026-11-12 | SE, MA | WHAT B1895 LEAVES UNCOMPUTED ABOUT THE LEAST READING AND THE TWO CONVENTIONS (B1895 § 7; the bound is agy-002's, harvest row 1730): (1) every run sequence that is not all ones reads above 4/3 in the flat-fibre instrument, by hand; the least among the others in the range tried is sqrt2 at the sequences of twos, and whether that is the second least reading over every sequence is not shown; (2) the identity that makes the two conventions one test is computed at level 5 and argued by hand for any level; (3) whether the allowed set is closed under reversal for a mark that does not annihilate its own line is not computed | QUEUED | [LEAD] Q4: small and exact, each a few lines of integers. (1) would say how far above the ground the next reading lies, which is a statement about one instrument on a chosen clock and places nothing; (2) and (3) are checks of the argument at another level and with another mark. Taken up when the read-out on the whole is worked on again (P-776) | 2026-11-12 |
++| P-819 | 2026-11-12 | SE, MA | WHAT B1895 LEAVES UNCOMPUTED ABOUT THE LEAST READING AND THE TWO CONVENTIONS (B1895 § 7; the bound is agy-002's, harvest row 1730): (1) every run sequence that is not all ones reads above 4/3 in the flat-fibre instrument, by hand; the least among the others in the range tried is sqrt2 at the sequences of twos, and whether that is the second least reading over every sequence is not shown; (2) the identity that makes the two conventions one test is computed at level 5 and argued by hand for any level; (3) whether the allowed set is closed under reversal for a mark that does not annihilate its own line is not computed | QUEUED | [LEAD] Q4: small and exact, each a few lines of integers. (1) would say how far above the ground the next reading lies, which is a statement about one instrument on a chosen clock and places nothing; (2) and (3) are checks of the argument at another level and with another mark. Taken up when the read-out on the whole is worked on again (P-776). NOTE 2026-11-12 (Review 80; two readers' findings, each checked by main with a computation of its own, kept in B1898 and now in B1895's lock): (3) IS COMPUTED, and the answer is no: for each of the four marks that do not annihilate their own line, 358 or 362 of the 1,332 run sequences of length 2 and 4 with runs to 6 are allowed differently from their reversal; for the two that do, none. Of (1): over 3,378 primitive cyclic run sequences the second least reading is the all-twos', sqrt2, and every other reads above 17/12; a reader's argument by cases for every sequence was read by main and is right, and is not written in an arc. (2) stands as it was. Whether the row is done is main's | 2026-11-12 |
+ | P-820 | 2026-11-12 | MA, SE | WHAT STILL PASSES THE GATES AFTER THE THIRD ENFORCEMENT SERIES (main's 22 unseen cases, five of which pass; five cases main wrote after reading the patches, three of which pass; the seat's own note, §§ 6 and 7; B1896 §§ 3, 4 and 6): (1) a retracted phrase with a line break in its middle: the sweep flattens the whole file to choose its phrases and then searches line by line; (2) a test whose only assert calls a builtin on literals, in tests/ and in an arc's own lock, the limit the seat names, with three such tests on main's pages (P-808, item 2); (3) a test whose only assert stands under a condition that is never true; (4) a test whose whole body is a block that expects an exception from a literal expression; (5) a name bound in a tuple assignment, or bound twice to one literal, and then compared; (6) a row of the claims page's locked tables that cites a folder named like a test file: the gate asks whether the path exists and, only of a file, whether it holds a test; (7) the five tables of what is held by name as found can grow in the commit that adds what they excuse, the lock changing with them and nothing refusing it; (8) the seat's stated limits that had no row: a control skipped at run time by a helper or a fixture; a second instance of a held phrase in the file that holds it; a file above 5 MB or not text; a tree that is partly tracked; and the framing gate walks its folders, so that on a tree with untracked files its sentence is the tree's and not the commit's | QUEUED | [DEBT] Q2: RUN by main: (1) to (6) each planted and committed in a scratch checkout of main with the series applied, every gate run, all passing; (7) and (8) read in the patches and in the seat's note. None is opened by the series: each passes without it. B1896's lock holds (1) to (6) as passing, on small repositories made with the series' own helpers, so that a mend must tell it. NEXT: the builder's, in the series where each fits (its page, main's tenth message); for (7) main asks for the rule of the second series, a table that shortens freely and grows only by a recorded act ADDED 2026-11-12 (B1897; register row P-822): one more shape, found by a session that planted against one of main's locks: a condition made unable to fail by a clause that is not a literal and is always true, a length compared with zero and joined by `or`. The vacuity class works an assert out and stops at a call; this is past it. Sent to the builder on its page | 2026-11-12 |
+ | P-821 | 2026-11-12 | SE | CORRECTIONS THAT A FINDINGS PAGE CARRIES AND ITS VERDICT FILE DOES NOT (the advisor seat's note on Review 79, § 3, on the seventh specification of agy-002; harvest row 1732): by the seat's first rough reader of forms, 39 findings pages carry a dated mark of correction in brackets, and in 27 of them the arc's verdict file carries none. The seat will build the check, two files of one arc, in its package on labels, and hold the 27 by name as found; each is main's to mend. It is the fault Review 79 found most often, a correction that did not travel, counted across the record | QUEUED | [DEBT] Q2: NOT RECOUNTED by main: the 39 and the 27 are the seat's, computed once by a reader of forms that judges no arc. NEXT: main recounts with its own reader, reads each of the pages, and for each either carries the correction to the verdict line, keeping what the line said, or says why the line does not need it; then the views are regenerated. The verdict lines are what the front door and the paper's pages show | 2026-11-12 |
+ | P-822 | 2026-11-12 | SE | SIX PLANTED ERRORS THAT PASSED B1881'S LOCK AS MAIN HAD REBUILT IT (agy-002's 23 plants against the lock at main's 3c5ab6bef, the eighteen new ones committed before it opened the lock; harvest row 1733): 17 caught and six passing, where main's own eighteen had all been caught. The six leave a mended sentence or number in place and defeat what holds it: a new paragraph that states the withdrawn claim; a function's docstring given the withdrawn word; counts typed in place of computed; the committed run file edited where the lock did not read it; a clause that is always true and is not a literal, joined to two conditions; the sorting of a printed set undone | DONE | B1897: each of the six read against the lock, made again by main from the reader's descriptions and run. Four tests added to B1881's lock: it runs the script twice in a folder of its own and holds both outputs to the committed files, byte for byte under the library versions that made the run and to eight digits with the same checks under others; the mended conditions and one printed detail are held word for word; its scan sees a table of constants and the counts are held to the expressions that compute them; the function's docstring, and every line and paragraph that holds the withdrawn word. With B1895's eighteen the lock catches 24 of 24, the control passing. NOT CLOSED, and said in the lock: a withdrawn claim restated without its word (P-817). The shape of a clause that is always true goes to the builder of the gates with P-820. The reader is asked to run its 23 again. NOTE 2026-11-12 (Review 80; a reader's finding, checked by main): five tests were added to the lock, not four. It had fifteen when B1897 was pushed (644d5b40f): four hold the six, and the fifth tests the weaker comparison where it is not run | 2026-11-12 |
+diff --git a/docs/views/REVIEWER.md b/docs/views/REVIEWER.md
+index 94777f8dc..975f3aa51 100644
+--- a/docs/views/REVIEWER.md
++++ b/docs/views/REVIEWER.md
+@@ -20,7 +20,7 @@ result, not the debt.
+ | | |
+ |---|---|
+ | research arcs with findings | **1600** |
+-| words of findings prose | **1,418,202** |
++| words of findings prose | **1,418,496** |
+ | test lock files referenced | **944** |
+ | arcs carrying an authored verdict | **1600** (100.0 %) |
+ | recorded closures | **859** (692 classified, 167 routed-only) |
+diff --git a/frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/FINDINGS.md b/frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/FINDINGS.md
+index b33003ffb..98bf081ce 100644
+--- a/frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/FINDINGS.md
++++ b/frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/FINDINGS.md
+@@ -61,6 +61,11 @@ same run sequences in both.
+ | A6 | a control. Two lines annihilate themselves, the mark's and the second mark's. For each of the other four, "the swapped mark on the swapped matrix" is another test | they agree on 88 of the 120 |
+ | A7 | on the reversed sequence the second word is the transpose of the seat's word, conjugated by the swap. A row is kept by a matrix exactly when the same vector, as a column, is kept by its transpose | every sequence; every line |
+ 
++- **On row A1** [NOTED 2026-11-12 (Review 80; a reader's finding, checked by main with a computation of its own)].
++  The statement of the row is true, and it is not what was computed. The arc's script and its lock compare the
++  outcome of the two tests; no word of the second convention was built. Main has since built it, letter by letter
++  over the integers: it equals the seat's word conjugated by the swap on 1,332 of the 1,332 sequences. The lock now
++  builds it.
+ - **Why A4 holds, by hand.** Let the row v annihilate the column u, and let the matrix W keep u. Then (vW)u = v(Wu) is
+   zero, so vW annihilates u as well. The rows that annihilate u are one line, so vW is on the line of v. The converse
+   is the same argument.
+@@ -137,7 +142,18 @@ its 23 were caught and six passed. The six are closed in B1897. The sentence abo
+   run, came with the change made before B1897's push (`644d5b40f`), and this note was not changed with it.]
+ - **Whether the allowed set is closed under reversal for a mark that does not annihilate its own line** is not
+   computed. B1881's statement is about its own mark.
++  [COMPUTED 2026-11-12 (Review 80; a reader's finding, checked by main with a computation of its own): it is not
++  closed. For each of the four marks that do not annihilate their own line, 358 or 362 of the 1,332 run sequences
++  of length 2 and 4 with runs to 6 are allowed differently from their reversal; for the two that do, none. The
++  lock computes it. The sentence above stays as it was written.]
+ - **The second least reading over every sequence** is not shown (§ 4).
++  [NOTED 2026-11-12 (Review 80; two derivations of a reader, both recomputed by main). The first: the swapped-mark
++  recipe agrees on 120 of 120 matrices at the two marks that annihilate their own line, and on 88 of 120 at each
++  of the other four. That is rows A5 and A6. The second: over 3,378 primitive cyclic run sequences the least
++  reading is the all-ones' (√5/2), the second least the all-twos' (√2), and every other reads above 17/12, the
++  least of them 1.4866 at (1, 1, 2, 2). The reader's argument by cases, for every sequence, was read by main and
++  is right; it is in the reader's file and is not written here. The lock holds the computation, not the argument.
++  The sentence above, and § 4's last bullet, stay as they were written.]
+ 
+ ## Seen first
+ 
+diff --git a/frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/verification/test_b1895_the_mends_of_b1881_read.py b/frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/verification/test_b1895_the_mends_of_b1881_read.py
+index 4afbd89fa..6f3d911f9 100644
+--- a/frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/verification/test_b1895_the_mends_of_b1881_read.py
++++ b/frontier/B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/verification/test_b1895_the_mends_of_b1881_read.py
+@@ -86,12 +86,22 @@ def test_the_two_tests_are_one_test_recomputed_with_the_lines_that_s_keeps():
+ 
+ def test_the_bound_on_the_least_reading_recomputed():
+     """The ingredient and the three statements, on sequences the arc's script did not try: length 2 with runs to 12, length 4 with
+-    runs to 4, and the all-twos and one-two sequences to length 10."""
++    runs to 4, and the all-twos and one-two sequences to length 10.
++
++    CORRECTED 2026-11-12 (Review 80; a reader's finding, not checked by main; counted here, below): most of these sequences the
++    arc's script did try.  Of the 409 distinct sequences of this test, 295 are among the script's 2,061 (length 2 and 4 with runs
++    to 6, length 6 with runs to 3): every one of length 4, the 36 of length 2 with runs to 6, and three of length 6.  114 are
++    new: the 108 of length 2 with a run of 7 to 12, and six of length 8 and 10.  The first sentence stays as it was written."""
+     S = _b1881_script()
+     mp.mp.dps = 40
+     s5 = mp.sqrt(5) / 2
+     seqs = [q for q in itertools.product(range(1, 13), repeat=2)] + [q for q in itertools.product(range(1, 5), repeat=4)]
+     seqs += [(2,) * n for n in (2, 4, 6, 8, 10)] + [(2,) + (1,) * (n - 1) for n in (2, 4, 6, 8, 10)] + [(1,) * n for n in (2, 4, 6, 8, 10)]
++    tried_by_the_script = {q for n, top in ((2, 6), (4, 6), (6, 3)) for q in itertools.product(range(1, top + 1), repeat=n)}
++    distinct = set(seqs)
++    assert len(tried_by_the_script) == RES["B_numbers"]["sequences"] == 2061
++    assert (len(distinct), len(distinct & tried_by_the_script), len(distinct - tried_by_the_script)) == (409, 295, 114)
++    assert sum(1 for q in distinct - tried_by_the_script if len(q) == 2 and max(q) >= 7) == 108
+     seen_ground = seen_other = 0
+     for q in seqs:
+         n = len(q)
+@@ -110,6 +120,78 @@ def test_the_bound_on_the_least_reading_recomputed():
+     assert "every run sequence that is not all ones reads above 4/3" in PAGE and "Whether √2 is the second least\n  reading over every sequence is not shown" in PAGE
+ 
+ 
++# ---- Review 80 (2026-11-12).  Four things the readers' files say of this arc, each computed by main with code of its own (the
++# arc B1898 keeps it: verification/checks/b1895_probes.py, with its output).  They are computed again here, by that code
++# placed in the lock, so that the notes of that day on the page are held to a computation.
++def _word(seq, a, b):
++    """the word of a run sequence over the integers: the first letter for runs at even places, the second for the others"""
++    mul = lambda A, B: (A[0] * B[0] + A[1] * B[2], A[0] * B[1] + A[1] * B[3], A[2] * B[0] + A[3] * B[2], A[2] * B[1] + A[3] * B[3])
++    W = (1, 0, 0, 1)
++    for k, r in enumerate(seq):
++        for _ in range(r):
++            W = mul(W, a if k % 2 == 0 else b)
++    return W
++
++
++_SEAT = ((1, 0, 1, 1), (1, 1, 0, 1))          # the seat's letters, on rows
++_SECOND = ((1, 1, 0, 1), (1, 0, 1, 1))        # the second convention's letters, on columns
++_SEQS = [seq for n in (2, 4) for seq in itertools.product(range(1, 7), repeat=n)]
++_LINE = lambda w: min(((k * w[0]) % 5, (k * w[1]) % 5) for k in (1, 2, 3, 4))
++_LINES = sorted({_LINE((a, b)) for a in range(5) for b in range(5) if (a, b) != (0, 0)})
++_OWN = lambda v: (v[0] * v[0] + v[1] * v[1]) % 5 == 0                            # the mark annihilates its own line
++
++
++def test_the_second_conventions_word_is_built_and_is_the_seats_conjugated_by_the_swap():
++    """Row A1 of the page says that every word of the second convention is the seat's word conjugated by the swap.  The arc's
++    script and this lock compared the outcome of the two tests, and built no word of the second convention.  Here it is built,
++    letter by letter over the integers, on the 1,332 sequences of the row.  A control: with the letters of the second
++    convention exchanged the two words differ, so the comparison can fail."""
++    mul = lambda A, B: (A[0] * B[0] + A[1] * B[2], A[0] * B[1] + A[1] * B[3], A[2] * B[0] + A[3] * B[2], A[2] * B[1] + A[3] * B[3])
++    J = (0, 1, 1, 0)
++    conj = lambda W: mul(mul(J, W), J)
++    assert len(_SEQS) == 1332 == RES["A_numbers"]["sequences"]
++    assert sum(1 for seq in _SEQS if _word(seq, *_SECOND) == conj(_word(seq, *_SEAT))) == 1332
++    assert sum(1 for seq in _SEQS if _word(seq, _SECOND[1], _SECOND[0]) == conj(_word(seq, *_SEAT))) < 1332        # the control
++    assert "it equals the seat's word conjugated by the swap on 1,332 of the 1,332 sequences" in PAGE
++
++
++def test_the_allowed_set_is_not_closed_under_reversal_for_a_mark_that_does_not_annihilate_its_own_line():
++    """Section 7 left this as not computed.  It is: for each mark, the sequences that are allowed differently from their
++    reversal.  None for the two marks that annihilate their own line; 358 or 362 of the 1,332 for each of the other four."""
++    m5 = lambda A: tuple(x % 5 for x in A)
++    row = lambda v, g: ((v[0] * g[0] + v[1] * g[2]) % 5, (v[0] * g[1] + v[1] * g[3]) % 5)
++    kept = lambda v, g: _LINE(row(v, g)) == _LINE(v)
++    differ = {v: sum(1 for seq in _SEQS if kept(v, m5(_word(seq, *_SEAT))) != kept(v, m5(_word(tuple(reversed(seq)), *_SEAT)))) for v in _LINES}
++    assert [v for v in _LINES if _OWN(v)] == [(1, 2), (1, 3)]
++    assert differ == {(0, 1): 358, (1, 0): 358, (1, 1): 362, (1, 2): 0, (1, 3): 0, (1, 4): 362}
++    assert "358 or 362 of the 1,332 run sequences" in PAGE and "for the two that do, none" in PAGE
++
++
++def test_the_second_least_reading_is_the_all_twos_over_the_cyclic_sequences_that_were_read():
++    """Section 4 says that whether the all-twos' reading is the second least over every sequence is not shown.  A reader gave an
++    argument by cases, which main read; that argument is not written in this arc and is not what this test holds.  What it
++    holds is main's computation: over the primitive cyclic run sequences of length 1 to 10 and 12, with the runs each length
++    is given below, the least reading is the all-ones', the second least the all-twos', and every other reads above 17/12."""
++    S = _b1881_script()
++    mp.mp.dps = 50
++    canon = lambda seq: min(tuple(seq[i:] + seq[:i]) for i in range(len(seq)))
++    cyc = set()
++    for n, top in ((1, 9), (2, 9), (3, 7), (4, 6), (5, 5), (6, 4), (7, 3), (8, 3), (9, 2), (10, 2), (12, 2)):
++        for seq in itertools.product(range(1, top + 1), repeat=n):
++            cyc.add(canon(seq))
++    primitive = lambda seq: not any(len(seq) % d == 0 and seq == seq[:d] * (len(seq) // d) for d in range(1, len(seq)))
++    prim = sorted(c for c in cyc if primitive(c))
++    read = {c: max(S.heights(list(c) if len(c) % 2 == 0 else list(c) * 2)) for c in prim}       # the reading takes an even length
++    assert len(prim) == 3378
++    assert abs(read[(1,)] - mp.sqrt(5) / 2) < mp.mpf(10) ** -40 and abs(read[(2,)] - mp.sqrt(2)) < mp.mpf(10) ** -40
++    others = {c: h for c, h in read.items() if c not in ((1,), (2,))}
++    low = min(others.values())
++    assert low > mp.mpf(17) / 12 > mp.sqrt(2) and [c for c, h in others.items() if h == low] == [(1, 1, 2, 2)]
++    assert mp.nstr(low, 5) == "1.4866"
++    flat = " ".join(PAGE.split())                                              # the page's sentences, whatever line they break on
++    assert "over 3,378 primitive cyclic run sequences" in flat and "the least of them 1.4866 at (1, 1, 2, 2)" in flat
++
++
+ def test_the_quotations_and_the_planted_reversions():
+     q = json.loads((HERE / "quote_check.json").read_text(encoding="utf-8"))
+     assert q["quotations"] == q["found"] == 4 and q["control: the first quotation altered by one character is reported missing"] is True
+-- 
+2.43.0
+

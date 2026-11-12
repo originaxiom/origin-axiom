@@ -1,0 +1,68 @@
+From 0b82830ea708ccf2025b1f13ac6031f508edca01 Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 17:31:00 +0000
+Subject: [PATCH 02/12] R80b, part 2, patch 2 (cld-advisor, at main's word in
+ M14; Review 80, a reader's finding F2, checked by main with a plant of its
+ own that passes): THE SCRIPT'S CHECK FUNCTION IS CALLED, AND MUST RECORD A
+ FALSE THING AS FAILING.
+
+WHAT STOOD. Main's plant gives the script's own function for a check a signature under which it ignores what it is passed. Every check then reads as holding. The lock passed.
+
+WHAT IS CHANGED. A test loads the script's definitions, calls the function with a false thing and with a true thing, and asks that the result, the table of results, the list of failures and the printed line each say so.
+
+THE PLANTED CASES, in the patch's own test: main's plant and two more ways to the same end (the result typed as holding; the printed line typed as ok). The function of each planted script is called and is reported. The digest of the patch before this one sees the same changes; this sees what they do.
+
+The lock: 17 tests pass. 0 of 19.
+---
+ ..._b1881_the_whole_and_the_value_verified.py | 35 +++++++++++++++++++
+ 1 file changed, 35 insertions(+)
+
+diff --git a/frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py b/frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py
+index 60d37aecb..8bd19b194 100644
+--- a/frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py
++++ b/frontier/B1881_the_whole_and_the_value_verified/verification/test_b1881_the_whole_and_the_value_verified.py
+@@ -609,6 +609,41 @@ def test_the_script_is_the_one_this_lock_was_written_against():
+     assert not _as_the_lock_read_the_scripts_text_before(_planted(src, [('for the run of 5m + 1", single_ok,', 'for the run of 5m + 1", True,')]))
+ 
+ 
++# ---- Review 80 (2026-11-12): a reader's finding F2, made again by main's plant.  The script's own function for a check was
++# given a signature under which it ignores what it is passed: every check then reads as holding, and the 65 are 65 holding.
++# The digest above sees the change.  This sees what the change does: the function is called, and must record a failure.
++def _check_records_what_it_is_passed(mod):
++    """True where the script's check() records a false thing as failing and a true thing as holding, in all three places"""
++    mod.OUT.clear(); mod.RES.clear(); mod.FAILS.clear()
++    a = mod.check("planted by the lock: a false thing", False, "the detail")
++    b = mod.check("planted by the lock: a true thing", 1 == 1)
++    return (a is False and b is True and mod.RES == {"planted by the lock: a false thing": False, "planted by the lock: a true thing": True}
++            and mod.FAILS == ["planted by the lock: a false thing"] and len(mod.OUT) == 2
++            and mod.OUT[0].startswith("   [FAILS] planted by the lock: a false thing -- the detail") and mod.OUT[1].startswith("   [ok] planted by the lock: a true thing"))
++
++
++def _a_module_of(src, name):
++    import types
++    mod = types.ModuleType(name)
++    mod.__file__ = str(HERE / "whole_and_value_on_main.py")
++    exec(compile(src, mod.__file__, "exec"), mod.__dict__)                     # definitions only: the run is under __main__
++    return mod
++
++
++def test_a_check_of_the_script_fails_when_it_is_passed_a_false_thing(capsys):
++    src = (HERE / "whole_and_value_on_main.py").read_text(encoding="utf-8")
++    assert _check_records_what_it_is_passed(_a_module_of(src, "b1881_script_as_it_is"))
++    # main's plant, and two more ways to the same end: the function then records a false thing as holding, or not at all
++    for old, new in _PLANTS_OF_REVIEW_80["F2: check() made to ignore what it is passed"] + [
++            ("    RES[name] = bool(ok)\n    if not ok:\n        FAILS.append(name)", "    RES[name] = True\n    if not ok and False:\n        FAILS.append(name)"),
++            ('"ok" if ok else "FAILS"', '"ok"')]:
++        assert src.count(old) == 1, old
++        assert not _check_records_what_it_is_passed(_a_module_of(src.replace(old, new), "b1881_script_planted")), new
++    capsys.readouterr()                                                        # what the planted checks printed is not this test's output
++    # and the committed run was made by 65 calls that could fail: its json holds no check under a planted name
++    assert not any(k.startswith("planted by the lock") for k in RES)
++
++
+ def test_the_withdrawn_word_stands_only_where_it_is_taken_back():
+     """Two plants: the docstring of the script's second function given the withdrawn word, where the lock read the header; and
+     a new paragraph on the page that states the withdrawn claim in other words than the old sentence.  Held here: the function's
+-- 
+2.43.0
+

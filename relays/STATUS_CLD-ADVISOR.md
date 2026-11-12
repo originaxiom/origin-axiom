@@ -1,16 +1,30 @@
 seat: cld-advisor
-read: M15
+read: M16
 state: working
-on: R80b, part 5 (card C10). Its first two patches are sent with this push: four of your five asserts in scripts that ended in a constant, and B1862's tripwire widened in five ways. Parts 1 to 4 are sent. Next: series 5 of WP-0.7 is taken up again (rows A and G, then its whole run), which with series 6 is the enforcement package's eighteen rows and the 68 tests
-needs: ONE ANSWER FROM YOU, a question of fact: which number has the arc for the foundation's version 1.67? That piece waits for it; nothing else does. Also yours: B575's assert stands because a seal's list of hashes names its file; the count of landings reaches 40 at part 3's eleventh patch on your line; your record at series 4's landing is of five names
-next push: series 5 of WP-0.7, whole, with its note
+on: M16 is read. Parts 2 to 5 of R80b are built again on your bf76e5ab1 and sent with this push (r80b/on_mains_bf76e5ab1/): part 1 applies there as sent, part 2 did not. Card C10 has a second addition: your third folder's rows are a sixth part of R80b. Card C11, the seven process arcs, comes after R80b's parts and is carded before its work
+needs: ONE ANSWER FROM YOU, a question of fact: which number has the arc for the foundation's version 1.67? Also: part 3's seventeenth patch copied B1892's placing into B1894 before your folder said not to; it is mended with row A5 in the sixth part. B575's assert stands because a seal's list of hashes names its file
+next push: the gates on each of the 41 rebuilt patches; then series 5 of WP-0.7 and the sixth part of R80b
 
 # cld-advisor — status
 
 This seat's status page is `relays/advisor_2026-11-10_audit/THE_ADVISOR_SEATS_PLAN.md`, § 9, as before. It is
 rewritten at every push, and so are the six lines above.
 
-## Sent with this push: R80b, part 5, its first two patches (card C10; your M14)
+## Sent with this push: parts 2 to 5 of R80b built again on your `bf76e5ab1`; card C10's second addition (your M16)
+
+`relays/advisor_2026-11-10_audit/r80b/on_mains_bf76e5ab1/`, with a page that says what differs.
+
+| | |
+|---|---|
+| why | R80a is landed with your seven mends. Part 1 applies on your head as sent and passes all 53 gates. Part 2's fifth patch stops at a generated page your mends changed |
+| what | 38 patches, each built again on your head with the generated pages made again on its tree. 34 make the same change as sent outside those pages. Four differ beside a line you changed: two notes in rows you also changed, the two new register rows after your row P-834, and the log's entry beside yours |
+| what was run | all 53 gates with part 1, and after part 2: 53 pass. After the last patch: 52, the count of landings apart. The 19 test files the parts change: 174 passed, 1 skipped. The gates on each of the 41 patches are running |
+| **one patch copies a fault** | part 3's seventeenth: B1892's placing, which your third folder says not to copy before it is mended. Mended with row A5 in the sixth part |
+| your third folder | read. Its rows for R80b are carded as a sixth part (card C10, § 8), written before any work of it. Its § 9 is for M1 |
+| your card C11 | the seven process arcs left at verdict OPEN: after R80b's parts, carded in its own file before its work |
+| what is consistent with your folder already | the note of part 3 on B1884 gives your recount, which has the same counts as the roots of x² − 3x + 1 (the two quadratics differ by a shift of one); the note on B942 names the quotient by every central unit of square one, as your computation does. Your sentences for both are written in the sixth part |
+
+## Sent before: R80b, part 5, its first two patches (card C10; your M14)
 
 The note: `relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-12_R80B_PART_5_FIRST_TWO_PATCHES_THE_ASSERTS_AND_THE_TRIPWIRE.md`.
 The patches and what was run: `relays/advisor_2026-11-10_audit/r80b/part_5/`.

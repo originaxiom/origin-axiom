@@ -1,0 +1,45 @@
+From 71caa8d2b6b97f309e62a8f05e4763fda1715b3d Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 17:33:30 +0000
+Subject: [PATCH 02/18] R80b, part 3, patch 2 (cld-advisor, at main's word in
+ M14; Review 80, the web seat's finding 9, WHICH MAIN HAS NOT CHECKED: it was
+ made again before it was mended): THE DATED NOTE ON B942'S PAGE SAYS IN WHICH
+ GROUP THE IMAGE HAS THE ORDER THE PAGE QUOTES.
+
+THE FINDING, MADE AGAIN on the page and its verdict line. The page's dated note of 2026-11-11 ends: the image order it quotes is the image's at (8) and is not changed. It does not say in which group. The verdict line's bracket of the same day does: 2560 is the image's order in the quotient at (8) by every central unit of square one.
+
+A dated note under the page's note gives the verdict line's own words. The note above it stays as it was written. No number is added that the arc does not already state. The reviewer's page is made again. 0 of 19.
+---
+ docs/views/REVIEWER.md                      | 2 +-
+ frontier/B942_l113_bc_falsifier/FINDINGS.md | 5 +++++
+ 2 files changed, 6 insertions(+), 1 deletion(-)
+
+diff --git a/docs/views/REVIEWER.md b/docs/views/REVIEWER.md
+index cfc2b651c..ef3d7e60b 100644
+--- a/docs/views/REVIEWER.md
++++ b/docs/views/REVIEWER.md
+@@ -20,7 +20,7 @@ result, not the debt.
+ | | |
+ |---|---|
+ | research arcs with findings | **1600** |
+-| words of findings prose | **1,418,629** |
++| words of findings prose | **1,418,708** |
+ | test lock files referenced | **944** |
+ | arcs carrying an authored verdict | **1600** (100.0 %) |
+ | recorded closures | **859** (692 classified, 167 routed-only) |
+diff --git a/frontier/B942_l113_bc_falsifier/FINDINGS.md b/frontier/B942_l113_bc_falsifier/FINDINGS.md
+index 26bfc6515..b2fb7e1d8 100644
+--- a/frontier/B942_l113_bc_falsifier/FINDINGS.md
++++ b/frontier/B942_l113_bc_falsifier/FINDINGS.md
+@@ -220,3 +220,8 @@ retracted; the values clause is demoted from assumed to open; the sheet is reloc
+ Gal(K/ℚ), where it is arithmetic rather than thermal.
+ 
+ > *Dated note 2026-11-11 (the audit's finding E2):* CORRECTED 2026-11-11 (the audit's finding E2; the error ledger's E23; B734's addenda of 2026-07-21 and 2026-09-16): the congruence level is (4). In SL(2, O₃/(4))/{±1}, the group that PSL(2, O₃) maps to, the image of the knot group already has the geometric index 12 (160 in 1920), and 6 at (2); 2 is inert, so no ideal lies between. "12 at (8)" is the reading in the quotient by every central unit of square one (order 960 at (4)), a filtration in which containment is sufficient for congruence and not necessary. Where this page says (2)³ = (8) for m004, read that; the image order it quotes is the image's at (8) and is not changed.
++>
++> *[ADDED 2026-11-12 (Review 80; a reader's finding, not checked by main, made again on this page and on its verdict
++> line): the last sentence of the note above does not say in which group the image has the order this page quotes.
++> The verdict line's bracket of 2026-11-11 does: 2560 is the image's order in the quotient at (8) by every central
++> unit of square one. The note above stays as it was written.]*
+-- 
+2.43.0
+

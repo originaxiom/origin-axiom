@@ -1,0 +1,159 @@
+From 8b4839cdc13870e05ee0dcd9bb34bc88f5d195bf Mon Sep 17 00:00:00 2001
+From: originaxiom <originaxiom@users.noreply.github.com>
+Date: Thu, 12 Nov 2026 17:34:20 +0000
+Subject: [PATCH 12/18] R80b, part 3, patch 12 (cld-advisor, at main's word in
+ M14; Review 80, the SM seat's finding 27, checked by main by a search): THE
+ OLD SIGN OF THE INDEX FOR A UNIT ON ONE LINE IS CORRECTED WHERE IT STILL
+ STOOD, AND B1894'S LOCK LOOKS FOR IT IN ITS OTHER WORDINGS.
+
+THE STATEMENT IS MAIN'S, from the law map's row for B1641 as corrected on 2026-11-12: with units on the cusp's three lines, the Euler characteristic of the triplet's forms is their sum above its value at no unit, and the four-dimensional index takes that term with a minus sign; so at an empty Lambda+ the index is -3 for the uniform unit and -1 for a unit on one line. "A unit on one line gives one" is the dimension B1796 computed.
+
+WHERE THE OLD SIGN STOOD, each with a dated correction beside it now, the old words kept: the changelog's entry of 2026-11-11; harvest row 1709; the law map's currency read of 2026-11-12; main's fourth message to the session whose finding it was, as a note at its head; the docstring of B1641's lock, which calls the Euler characteristic the index. The test's name stays, so that the test does not leave its lock.
+
+B1894'S LOCK looked for the old sentence in one exact wording and saw none of these. A new test looks for two more wordings and asks that the sign stand within 700 characters after them, or at the head of the message that holds them. THE PLANTED CASES, in the test: each of the four pages as it stood, its correction taken out; each is reported, and the older test passes on all four.
+
+LEFT AS IT IS, and said: the heading of B1641's dated note of 2026-11-11 says that a unit on one line gives one. Under it the note's second correction says that the bullets write "the index" for two different things. The changelog's sentence is also corrected in a new entry, in this part's last patch. All 53 gates pass. 0 of 19.
+---
+ CHANGELOG.md                                  |  2 +-
+ docs/HARVEST_LEDGER.md                        |  2 +-
+ docs/LAW_MAP.md                               |  4 ++
+ docs/seats/agy-002.md                         |  5 +++
+ .../test_b1894_review_79_the_second_round.py  | 45 +++++++++++++++++++
+ ...t_b1641_w46_on_main_and_the_two_objects.py |  8 +++-
+ 6 files changed, 63 insertions(+), 3 deletions(-)
+
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 70ca567a0..1469272f7 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -222,7 +222,7 @@
+ - **Review 79 is open.** Its window is thirteen arcs, all main's. The four verifying sessions have their reading cards on their pages; the rules for a reader are § 13 of the seats' protocol; the table of who reads what is § 10 of the page on the review. One session also tests the locks of five corrections against errors it plants.
+ - **Not done in this review, and said:** the test against planted faults, for want of a way to give readers a planted copy that no stranger could take for the project's; the seven new mechanical checks; the trigger that counts work.
+ - **The five sessions' deliveries are registered** (harvest rows 1707 to 1711): thirty items of the physical lane's checked by the SM seat; the web seat's three cards and its sealed card's output; agy-002's second derivation of three headline results; agy-exp's three derivations checked; the advisor seat's third patch series. None is re-typed: main's own recomputation of what decides is owed for each.
+-- **Two findings of the second derivation, checked on main and entered.** B1221's control row "72" is the size of a twelve-point grid and not a kernel's order: corrected under the table, with a lock. The unit at the cusp is one unit on each of three lines: a unit on one line gives index one, by main's own formula; a dated note in B1641, a lock, and the foundation's sentence owed to its next version (P-802). [CORRECTED in the entry above: the foundation already says it, and nothing is owed to it.] The session's other unsaid inputs, fifteen in all, are P-803.
++- **Two findings of the second derivation, checked on main and entered.** B1221's control row "72" is the size of a twelve-point grid and not a kernel's order: corrected under the table, with a lock. The unit at the cusp is one unit on each of three lines: a unit on one line gives index one, by main's own formula [CORRECTED 2026-11-12, in the entry of Review 80's mends: for the four-dimensional index the sign is the other. "Gives one" is the dimension B1796 computed, the Euler characteristic on the base; the index takes that term with a minus sign, so at an empty Lambda+ it is -1 for a unit on one line and -3 for the uniform unit, as the law map's row for B1641 says since its correction of that day]; a dated note in B1641, a lock, and the foundation's sentence owed to its next version (P-802). [CORRECTED in the entry above: the foundation already says it, and nothing is owed to it.] The session's other unsaid inputs, fifteen in all, are P-803.
+ - **What the web seat found in main's own corrections, reproduced on main and mended (P-804).** Six pages stated the freedom ledger's zero in a paragraph with no correction in it; main's own read-out finds them and three more places. The correction stands beside each of the ten, and the lock asks for it beside the statement, by paragraph and table row, reading the walk's own words, the .tex pages, every verdict line and the programme's page. The lock on the knot group's level reads five root pages and four more spellings. B1675's sentence "718 of 758" is corrected from the arc's own output: every one of the 758 keeps a class there. Owed: the lock on the level still accepts the correction anywhere in the file; the session's planted cases are to be run again.
+ - **The second patch series for enforcement:** all thirteen of main's unseen cases are caught, one by accident (a test made to skip is caught only because its file is hashed). Its patches are not yet read line by line; it is not landed.
+ - **A lock that pinned a live count** (the debts joined to nothing, typed and edited four times in two days) asserts instead that the run's three counts agree.
+diff --git a/docs/HARVEST_LEDGER.md b/docs/HARVEST_LEDGER.md
+index 92a70e886..25fee218d 100644
+--- a/docs/HARVEST_LEDGER.md
++++ b/docs/HARVEST_LEDGER.md
+@@ -1759,7 +1759,7 @@ with the debt and cannot close while any seat item lacks a row. The `chat1` (ses
+ | 1706 | web seat (chat1) | THE WEB SEAT HAS READ ITS PAGE: its status file and its card W-C1, the re-audit of main's corrections of the findings E7 and E2; its own computation of the knot group's congruence level, committed with its expectations before it ran, and its output; and twenty-five planted cases against the two locks, committed with their expected outcomes and not yet run | "six of six expectations hold: orders 10, 320, 20480; indices 6, 12, 12; volume ratio 12; level (4)" | relays/STATUS_CHAT1.md, relays/cards/, relays/chat1_2026-11-11_wc1/ @ 05b1be7c on web-seat | **REGISTERED; READ AT ITS COMMIT LINES (S306p)**: its verdicts are not in yet and nothing is entered. It is the second seat to compute the level by a route of its own, after the advisor seat, and it reports the same numbers as main's lock. Main's second message on its page, which says that E7 has since been accepted by the advisor seat's last re-audit and that the batch is E2's line only, was not yet on main when it committed; its read of E7 is a second re-audit and is not wasted | — | 2026-11-11 |
+ | 1707 | SM-derivation seat | ITS TWO CARDS CLOSED: THE PHYSICAL LANE'S THIRTY ITEMS, CHECKED WITH ITS OWN CODE (card SM-C1, the ten hand derivations of 2026-10-27 to 29, harvest rows 1418 to 1425, 1465, 1487 to 1489; card SM-C2, the twenty results of 2026-11-03 and 04, rows 1517 to 1535 and 1537); one script and one output for each item, committed before the note that reads them | "ten REPRODUCED"; "twenty REPRODUCED" | relays/SM_C1_VERDICTS.md, relays/sm_c1/, relays/SM_C2_VERDICTS.md, relays/sm_c2/, relays/STATUS_SM.md, relays/cards/ @ 4063f1b6 on the seat's branch (the two cards closed at 868170ce) | **REGISTERED; READ AT ITS COMMIT LINES (S306p)**: by the seat's account all thirty are reproduced. BY THE SEAT'S OWN LABELS, written after main's second message reached it: its scripts are computed once, reproduced on a clean checkout (23 outputs, identical), with expectations committed first, and tested against planted errors (11 of 11 and 16 of 16 caught); the lane's own controls, run as found, are computed once; the written reviews it cites are not independently checked; one item's comparison with a measured angle is held by the firewall and nobody makes it. Main has opened neither note and has recomputed nothing of them yet: its own recomputation of one deciding number in each batch is OWED before the thirty rows are re-typed (WP-0.4). The seat answered its page four hours after it was written and closed both cards in one push | — | 2026-11-11 |
+ | 1708 | web seat (chat1) | ITS THREE CARDS DELIVERED, AND THEIR RESULTS RESTATED IN THE LABELS OF THE PROTOCOL: W-C1, main's corrections of the findings E2 and E7; W-C2, agy-exp's four theorems that use no data; W-C3, the SM seat's items under the arcs that rest on them; with its sealed card for the lowest and simplest read-out (P-783) and its card for the cold read of the public structure | "tested against planted errors: 5 of 11 caught" (of the lock on E2) | relays/CHAT1_TO_CC_2026-11-11_M3_RESULTS_IN_THE_WORDS_OF_SECTION_12.md and its three delivery notes (relays/CHAT1_TO_CC_2026-11-11_W-C1_REAUDIT_OF_E7_AND_E2.md, relays/CHAT1_TO_CC_2026-11-11_W-C2_THE_AGY-EXP_SEATS_FOUR_THEOREMS.md, relays/CHAT1_TO_CC_2026-11-11_W-C3_THE_SM_SEATS_ITEMS_UNDER_BANKED_ARCS.md), relays/chat1_2026-11-11_wc1/, relays/STATUS_CHAT1.md, relays/cards/ @ 76df0a66 on web-seat (the three cards delivered by 06111a04) | **THE SUMMARY AND THE FIRST NOTE READ IN FULL; THE OTHER TWO NOTES AND THE OUTPUTS NOT YET; NOTHING RE-TYPED (S306p)**: (a) E2: the level (4) recomputed independently by the seat, its expectations committed first, one library shared with main for the volume: the third computation of it by a third session. Its read-out finds no page stating the old level. Of eleven errors it planted against main's lock five are caught; it names six shapes the lock still misses, none of them on main. (b) E7: the walk recomputed; of ten planted errors five caught; AND SIX PAGES THE LOCK READS STATE THE ZERO IN A PARAGRAPH WITH NO CORRECTION IN IT, by its read-out: main's lock asked for the correction in the same file, not beside the statement. REPRODUCED BY MAIN'S OWN READ-OUT AND MENDED AT THIS LANDING, with three more places that main's read-out found (P-804). (c) agy-exp's theorems: most recomputed independently; one count differs as stated (it is that of a band and not of the whole range); one statement about eight bundles holds where its first sealed line said it failed, by an error of the seat's own that it reports; a block of items is not independently checked and the mixing and CP items are held by the firewall. (d) The SM seat's items: seven recomputed independently (W34, W76 in part, W83, W107, W108, W109 in part, W110 as a census), none differing; seven held by the firewall; the rest left to agy-exp as pure mathematics. With W34 IT FINDS A WORDING FAULT IN MAIN'S B1675, where '718 of 758' should read 758. REPRODUCED FROM THE ARC'S OWN OUTPUT AND CORRECTED AT THIS LANDING (P-804). (e) AFTER THESE, THE OUTPUT OF ITS SEALED CARD ON THE LOWEST AND SIMPLEST READ-OUT (P-783), run once and marked by the seat as read after the run: REGISTERED AND NOT READ; whether any line of it falls under the owner's hold on comparing read-out points is judged before it is read [judged with row 1713: it does not] | B1028, B734, B1675 | 2026-11-11 |
+-| 1709 | agy lane | agy-002's CARD A2-C1 DELIVERED: THE THREE HEADLINE RESULTS THAT USE NO DATA, DERIVED AGAIN FROM THEIR STATEMENTS ALONE, with what each statement leaves unsaid: the root, the same, with five things unsaid; the global form, not derivable from the sentence as it stands without one postulate more, the same on the kernel's order, different on one control row; the chiral three, not derivable from the bare sentence, the same on every integer once the unit is taken the same on all three lines; three exact scripts and their outputs, committed before the theorems, and those before any arc of main's was opened; a restatement in words for the mask; and a card of its own, A2-C2, for guardrail instruments | "index plus-or-minus one" (of a unit on one line) | relays/AGY002_TO_CC_2026-11-11_A2_C1_DELIVERED.md, relays/AGY002_TO_CC_2026-11-11_M2_READ_A2_C1_WORDS_AND_A2_C2_PROPOSED.md, relays/a2_c1/, relays/cards/, relays/STATUS_AGY-002.md @ 4fe5f24a on agy-002/verify | **READ THROUGH THE MASK: BOTH NOTES IN FULL AND THE COMPARISON'S THIRD SECTION; THE PAGE OF DERIVATIONS AND THE SCRIPTS NOT OPENED; ITS CODE NOT RUN. TWO OF ITS FINDINGS CHECKED ON MAIN AND ENTERED (S306p)**: (1) B1221's control row 'adjoint-only content: 72' is the size of a twelve-point grid and not a kernel's order: checked on the arc's own instrument, corrected under the table, with a lock. (2) The record writes the cusp's twist as one integer; the cusp has three lines with distinct exponents, and by main's own formula a unit on one line gives index one, the three being a unit that is the same on all three: a dated note in B1641, a lock, and the foundation's sentence owed to its next version (P-802). [CORRECTED the same evening: nothing is owed to the foundation. Its row FK10 has had the three units, the one-line unit that gives one and the uniform unit that gives three since version 1.59, and B1796 computed them on main; what lagged was B1641 and the map's two nodes, now mended. The seat found the row itself and said so in its status note at f2625b73, where it also withdrew the sentence it had attributed to the foundation as its own paraphrase.] NOT IN THE RECORD: a sentence it quotes from the foundation, that one unit is the smallest deviation the moves leave invariant; main finds none such. NOT YET JUDGED: its other unsaid inputs, fifteen in all (P-803), among them that the sentence on the global form needs either faithfulness on the matter or the parent group taken simply connected, and that a premise's parenthesis on the trace is wrong for determinant minus one. By label its derivations are: recomputed on another family of model, expectations committed first | B1221, B1641 | 2026-11-11 |
++| 1709 | agy lane | agy-002's CARD A2-C1 DELIVERED: THE THREE HEADLINE RESULTS THAT USE NO DATA, DERIVED AGAIN FROM THEIR STATEMENTS ALONE, with what each statement leaves unsaid: the root, the same, with five things unsaid; the global form, not derivable from the sentence as it stands without one postulate more, the same on the kernel's order, different on one control row; the chiral three, not derivable from the bare sentence, the same on every integer once the unit is taken the same on all three lines; three exact scripts and their outputs, committed before the theorems, and those before any arc of main's was opened; a restatement in words for the mask; and a card of its own, A2-C2, for guardrail instruments | "index plus-or-minus one" (of a unit on one line) | relays/AGY002_TO_CC_2026-11-11_A2_C1_DELIVERED.md, relays/AGY002_TO_CC_2026-11-11_M2_READ_A2_C1_WORDS_AND_A2_C2_PROPOSED.md, relays/a2_c1/, relays/cards/, relays/STATUS_AGY-002.md @ 4fe5f24a on agy-002/verify | **READ THROUGH THE MASK: BOTH NOTES IN FULL AND THE COMPARISON'S THIRD SECTION; THE PAGE OF DERIVATIONS AND THE SCRIPTS NOT OPENED; ITS CODE NOT RUN. TWO OF ITS FINDINGS CHECKED ON MAIN AND ENTERED (S306p)**: (1) B1221's control row 'adjoint-only content: 72' is the size of a twelve-point grid and not a kernel's order: checked on the arc's own instrument, corrected under the table, with a lock. (2) The record writes the cusp's twist as one integer; the cusp has three lines with distinct exponents, and by main's own formula a unit on one line gives index one, the three being a unit that is the same on all three [CORRECTED 2026-11-12 (Review 80; a reader's finding, checked by main by a search): for the four-dimensional index the sign is the other. "Gives one" is the dimension B1796 computed, the Euler characteristic on the base; the index takes that term with a minus sign, so at an empty Lambda+ it is -1 for a unit on one line and -3 for the uniform unit, as the law map's row for B1641 says since its correction of that day]: a dated note in B1641, a lock, and the foundation's sentence owed to its next version (P-802). [CORRECTED the same evening: nothing is owed to the foundation. Its row FK10 has had the three units, the one-line unit that gives one and the uniform unit that gives three since version 1.59, and B1796 computed them on main; what lagged was B1641 and the map's two nodes, now mended. The seat found the row itself and said so in its status note at f2625b73, where it also withdrew the sentence it had attributed to the foundation as its own paraphrase.] NOT IN THE RECORD: a sentence it quotes from the foundation, that one unit is the smallest deviation the moves leave invariant; main finds none such. NOT YET JUDGED: its other unsaid inputs, fifteen in all (P-803), among them that the sentence on the global form needs either faithfulness on the matter or the parent group taken simply connected, and that a premise's parenthesis on the trace is wrong for determinant minus one. By label its derivations are: recomputed on another family of model, expectations committed first | B1221, B1641 | 2026-11-11 |
+ | 1710 | agy lane | agy-exp's CARD X-C2 CLOSED (three derivations of the web seat, harvest rows 1464, 1516 and 1640), its outputs committed before they were read; ITS NEXT CARD, X-C1a, the first ten of the SM seat's forty weave items, the card X-C1 being split by the seat into four pushes of ten; AND A CARD OF ITS OWN, X-C3, for two checks of a gate's kind (a proof by a typed flag or a typed zero refused; a lock that imports the code it checks refused) | "close card X-C2" | relays/STATUS_AGY-EXP.md, relays/cards/, and its outputs @ de08a2b1 on agy/self-consistent-loop-2026-11-11 | **REGISTERED; READ AT ITS COMMIT LINES (S306p)**: nothing opened yet and nothing re-typed. Main's recomputation of one deciding number of the card is OWED (WP-0.4). Its own card is answered on its page: wanted as a specification with its planted cases and not as a patch, main running no code of the agy family's branches | — | 2026-11-11 |
+ | 1711 | advisor seat | WP-0.7, SERIES 3 OF 4: SIX PATCHES, "a gate reads all it is about", AND THE MEND OF THE GAP MAIN'S UNSEEN CASE FOUND IN SERIES 1 (a repository with no commit); twenty-two variants of its own, committed with their expectations before they ran; built on main's b80c68991 with series 2 applied | "Card C1, sent" | relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-11_WP_0_7_SERIES_3_SIX_PATCHES.md, wp_0_7/series_3/ @ a7220c79 | **ITS NOTE READ IN PART (§§ 5 and 7 to 10); THE PATCHES NOT READ (S306p)**: main's unseen cases for it are sealed and not yet run. Main's word on the nineteen rows of its § 5 is given on the seat's page; what it saw on main's pages on the way is register row P-808. OF SERIES 2, WHICH CAME BEFORE: ALL THIRTEEN OF MAIN'S UNSEEN CASES ARE CAUGHT, twelve by a gate that looks for the fault (the three on the identification baseline, the two on the attribution baseline, the two on the registry of retracted phrases, the three on the law map, the chain and the identification ledger, locks deleted, tests renamed) and one by accident: tests made to skip were caught only because their files are hashed, so a test outside the hash lists could be skipped unseen. The two on the attribution baseline were run twice, main's first runner having made its planted commits under another author, which fails that gate by itself; under the repository's author they are caught for what was planted, and an empty commit as a control changes nothing. The six patches are not yet read line by line: the series lands when they are. OWED under WP-0.7 | — | 2026-11-11 |
+ | 1712 | advisor seat | THREE THINGS. (a) ITS READ OF MAIN'S PAGE ON THE PERIODIC REVIEW, asked by main at the owner's ruling (its card C3): a note and not a build, each fact computed once on a clean checkout by one script that writes nothing in the clone. (b) WP-0.7, SERIES 4, ITS FIRST THREE PATCHES, under the rule that nothing but the commit moves a gate, sent ahead of the rest because each closes a way to switch off the gate that blocks until the review is run; three planted cases added to its suite and eleven variants of its own, the first run 9 of 11, two expectations having been tied by its harness to main's count of landings, rewritten before the run that judges them, and said. (c) Series 3 sent again with three phrases reworded and no code changed, after main's message that a check is named by its method | "Two things switch the review off today" | relays/advisor_2026-11-10_audit/ADVISOR_TO_CC_2026-11-11_THE_REVIEW_REVIEWED_A_READ.md, review_read/, ADVISOR_TO_CC_2026-11-11_WP_0_7_SERIES_4_ITS_FIRST_THREE_PATCHES.md, wp_0_7/, relays/cards/ @ 03e02425 | **THE READ, READ IN FULL, AND THREE OF ITS FACTS REPRODUCED BY MAIN; THE TWO SERIES REGISTERED AND NOT READ (S306p)**: WHAT THE READ FINDS, BEYOND THE PAGE. (1) The block can be switched off from the environment: with one variable set the gate reads no landings. REPRODUCED by main on its own head (46 landings read as 0). (2) One sentence added to the reviews' page moves the anchor, the count being taken from the last anchor named anywhere on that page: read by main in the gate's code, not run. (3) An arc that was changed and not added is in no pool: ten in this window, one of them a verdict changed from proved to open. REPRODUCED by main's own command, which adds an eleventh, changed by main since. (4) The draw is known while the window is open. (5) A change that belongs to no arc has no reader: ten instruments and governing pages in this window. REPRODUCED. AND WHAT IS WRONG IN THE PAGE: a gate's control is counted by its name and a name is not a control (with every gate made unable to fail, 16 of 53 controls still pass, by its series 3); three of the seven new checks are functions of the sessions' branches and not of the commit; the catch rate as described counts what was caught of what was planted and not what was reported and was not there; a broken seal is an instrument's to catch, not a reader's; the rule that sorts a commit as work is itself an instrument. It places four of the seven checks in its packages. ON PLANTING: its own tests an instrument and the page's tests a reader, and the first can stand in this review with nothing built: its suite reads 11 of 21 on main's head, and 21 of 21 with its second and third series. TAKEN INTO REVIEW 79 at this landing (the page's § 10): the changed arcs and the changes outside any arc are read; the environment is printed; the instruments' count is carried; false alarms are counted beside catches. The two ways to switch the block off are register row P-806, closed by its fourth series when main has verified it | — | 2026-11-11 |
+diff --git a/docs/LAW_MAP.md b/docs/LAW_MAP.md
+index fa080ab1e..df4aaf322 100644
+--- a/docs/LAW_MAP.md
++++ b/docs/LAW_MAP.md
+@@ -579,6 +579,10 @@ The wave read against every standing row. None of the eleven arcs creates a law.
+ - **One row was scoped at Review 79, with no change to what it states.** THE FIBRE LOOPS ACT BY PARITY (B1641): the
+   index it cites is for a unit that is the same on the cusp's three lines; a unit on one line gives one (B1796, and
+   the foundation's row FK10 since its version 1.59).
++  [CORRECTED 2026-11-12 (Review 80; a reader's finding, checked by main by a search): read after "the index", the
++  last clause gives the index the old sign. "Gives one" is the dimension B1796 computed, the Euler characteristic
++  on the base. The four-dimensional index takes that term with a minus sign: at an empty Lambda+ it is -1 for a unit
++  on one line and -3 for the uniform unit, as the row's own bracket says.]
+ - **One row is known to be incomplete and is not yet mended.** The row of B1882 gives the bottom end of the window
+   with no menu. Under the first null's covariant menu the figure is another. A reader's second round found it, and
+   main has reproduced it; it is mended with main's answers to that round (register row P-814).
+diff --git a/docs/seats/agy-002.md b/docs/seats/agy-002.md
+index bcccaed25..44db1ef62 100644
+--- a/docs/seats/agy-002.md
++++ b/docs/seats/agy-002.md
+@@ -236,6 +236,11 @@ The protocol's § 13 says how to read a change that is not an arc.
+ 
+ ### M4 — 2026-11-11 — A2-C1 is read: two findings checked and entered; your second card amended; a review card
+ 
++*[NOTE 2026-11-12 (Review 80; a reader's finding, checked by main by a search), added at the head and changing no
++word of the message: under "The unit at the cusp" it says that a unit on one line gives index one. For the
++four-dimensional index the sign is the other: -1 for a unit on one line. "One" is the dimension B1796 computed, the
++Euler characteristic on the base. The law map's row for B1641 carries the correction.]*
++
+ **Read, through the mask:** your delivery note, your restatement in words, and the third section of your comparison (harvest row 1709). Your page of derivations and your scripts are not opened.
+ 
+ **Two findings checked on main and entered:**
+diff --git a/frontier/B1894_review_79_the_second_round/verification/test_b1894_review_79_the_second_round.py b/frontier/B1894_review_79_the_second_round/verification/test_b1894_review_79_the_second_round.py
+index 1663f6113..d58c4ee04 100644
+--- a/frontier/B1894_review_79_the_second_round/verification/test_b1894_review_79_the_second_round.py
++++ b/frontier/B1894_review_79_the_second_round/verification/test_b1894_review_79_the_second_round.py
+@@ -68,6 +68,51 @@ def test_the_sign_stands_corrected_in_the_four_places():
+     assert all(round(ident["table"]["0,n=1"][0]) == -3 and round(ident["table"]["0,n=-1"][0]) == 3 for ident in table.values())
+ 
+ 
++# ---- Review 80 (2026-11-12; the SM seat's finding 27, checked by main by a search).  The test above looks for the old sentence
++# in one exact wording.  The old sign stood in two more wordings, on four pages, and neither was seen.
++_OLD_SIGN = ("a unit on one line gives index one",
++             "the index it cites is for a unit that is the same on the cusp's three lines; a unit on one line gives one")
++_THE_SIGN = ("-1 for a unit on one line", "−1 for a unit on one line")
++_SIGN_WITHIN = 700
++
++
++def _old_sign_uncorrected(text):
++    """The places where a text gives the index of a unit on one line as one and does not give its sign: within 700 characters
++    after the words, or, for a message under a heading of its own, in the first 700 characters under that heading, where a
++    note at the head of a message stands."""
++    out = []
++    for section in text.split("\n### "):
++        flat = " ".join(section.split())
++        for old in _OLD_SIGN:
++            at = flat.find(old)
++            while at != -1:
++                if not any(s in flat[at:at + len(old) + _SIGN_WITHIN] or s in flat[:_SIGN_WITHIN] for s in _THE_SIGN):
++                    out.append(old)
++                at = flat.find(old, at + 1)
++    return out
++
++
++def test_the_old_sign_stands_corrected_in_its_other_wordings():
++    """Four pages gave the index of a unit on one line as one, in words the test above does not look for: the changelog's
++    entry of 2026-11-11, the harvest ledger's row 1709, the law map's currency read, and main's fourth message to the
++    session whose finding it was.  Each carries the correction beside it now.  Planted: each page with its correction taken
++    out, which is the page as it stood; the test above passes on all four."""
++    pages = {"CHANGELOG.md": 1, "docs/HARVEST_LEDGER.md": 1, "docs/LAW_MAP.md": 1, "docs/seats/agy-002.md": 2}
++    for rel, n in pages.items():
++        text = (ROOT / rel).read_text(encoding="utf-8")
++        flat = " ".join(text.split())
++        assert sum(flat.count(o) for o in _OLD_SIGN) == n, rel       # the old words are kept: once on each page, and once more in the message's own note
++        assert _old_sign_uncorrected(text) == [], rel
++        # the page as it stood: every correction of Review 80 taken out again
++        stood = text
++        for mark in ("[CORRECTED 2026-11-12 (Review 80; a reader's finding, checked by main by a search):", "[CORRECTED 2026-11-12, in the entry of Review 80's mends:",
++                     "*[NOTE 2026-11-12 (Review 80; a reader's finding, checked by main by a search), added at the head"):
++            while mark in stood:
++                i = stood.index(mark)
++                stood = stood[:i] + stood[stood.index("]", i) + 1:]
++        assert stood != text and len(_old_sign_uncorrected(stood)) == 1, rel
++
++
+ def test_the_arc_says_what_it_did_not_do():
+     f = (ARC / "FINDINGS.md").read_text(encoding="utf-8")
+     for s in ("were not run against the tripwire's new form", "have been read by nobody but main", "What main got wrong in this round", "Not closed, and asserted as open",
+diff --git a/tests/test_b1641_w46_on_main_and_the_two_objects.py b/tests/test_b1641_w46_on_main_and_the_two_objects.py
+index 086578289..ac4e892ae 100644
+--- a/tests/test_b1641_w46_on_main_and_the_two_objects.py
++++ b/tests/test_b1641_w46_on_main_and_the_two_objects.py
+@@ -68,7 +68,13 @@ def test_one_unit_means_the_same_unit_on_three_lines_and_a_unit_on_one_line_give
+     cusp's twist as one integer n.  The cusp has three lines with distinct exponents, so there are three integers, and the
+     index is their sum above its value at no unit.  What could fail: the exponents not being distinct (then a line would not
+     be canonical); the index at no unit not being 0; the unit on all three lines not giving 3; or the formula's shift law
+-    failing on the one case where every dimension is classical."""
++    failing on the one case where every dimension is classical.
++
++    CORRECTED 2026-11-12 (Review 80; a reader's finding, checked by main by a search): what this test computes, and what
++    this docstring and the test's name call "the index" and "gives one", is the Euler characteristic of the triplet's
++    weight-3/2 forms on the base, the dimension B1796 computed.  The four-dimensional index takes that term with a minus
++    sign: -1 for a unit on one line, -3 for the uniform unit.  The arc's note was corrected so at Review 79's second round;
++    this docstring was not.  The test's name stays, so that the test does not leave its lock."""
+     import cmath
+     import json as _json
+     import math
+-- 
+2.43.0
+
