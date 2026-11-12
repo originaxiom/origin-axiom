@@ -9,6 +9,8 @@ Computed once; nothing here was sealed in advance.  Main at c40446392; the windo
   R   the seven asserts of the form `... or True` (code_probe.py, S): whether any register row or the error ledger names
       their files; and the 53 controls of tests/GATE_CONTROLS.json: how many sit in a module that may skip itself at import
       under an `if`, a `try` or a `with`.
+  W   Review 79's window by git: commits, arcs added, arcs whose verdict or findings changed, and those on no reader's
+      card; and the arcs added in this window.
   V   main's vendor pattern (imported from scripts/gates/gates.py, _VENDOR_RE; the names are not spelled here) and the
       co-author trailer: hits in the messages of the window's commits and in its added lines; the pattern alone in this
       seat's review file and scripts.  Counts and paths only.
@@ -76,7 +78,10 @@ STRINGS = [
     (F91, 20, 'is the only history of at most five letters that does'),
     (F94, 94, 'is a living page and quotes nothing he said'),
     (F91, 32, 'The foundation still quotes the owner elsewhere.'),
-    (PR, 1014, 'they are counted and left'),
+    (PR, 1014, 'they are counted and left, the ruling leaving what was written before it'),
+    (PR, 1018, 'any marker word near the old form counted as its correction'),
+    (EL, 236, 'an assertion ending in "or True"'),
+    (F96, 160, 'the vacuity class is decided by working the assert out and stops at a call'),
     (PR, 1021, 'a retracted phrase with a line break in its middle'),
     (PR, 1021, 'a second instance of a held phrase in the file that holds it'),
     (PR, 1021, 'a control skipped at run time by a helper or a fixture'),
@@ -142,6 +147,32 @@ def r():
     print('R   controls in a module that may skip itself at import under an if, a try or a with: %d of %d' % (n, len(reg)))
 
 
+def w():
+    st = git('diff', '--name-status', '38d2a36dc', BASE, '--', 'frontier/')
+    added, ver, fin = set(), set(), set()
+    for line in st.splitlines():
+        kind, path = line.split('\t')[0], line.split('\t')[-1]
+        m = re.match(r'frontier/(B\d+)_[^/]*/(arc_verdict\.json|FINDINGS\.md)$', path)
+        if not m:
+            continue
+        arc, f = m.groups()
+        if kind == 'A' and f == 'arc_verdict.json':
+            added.add(arc)
+        elif kind == 'M':
+            (ver if f == 'arc_verdict.json' else fin).add(arc)
+    ver, fin = ver - added, fin - added
+    cards = {'B874', 'B892', 'B1221', 'B1486', 'B1494', 'B1499', 'B1641', 'B1675', 'B1726', 'B1753', 'B1853', 'B1861',
+             'B1872', 'B1874', 'B1877'}
+    key = lambda x: int(x[1:])
+    print('W   Review 79 window: commits %s; added arcs %d; verdict changed %d; findings changed %d (%d of them alone); '
+          'changed arcs in all %d; on no card\'s list: %s'
+          % (git('rev-list', '--count', '38d2a36dc..' + BASE).strip(), len(added), len(ver), len(fin), len(fin - ver),
+             len(ver | fin), sorted((ver | fin) - cards, key=key)))
+    print('W   this window: arcs added %s' % sorted(x for x in re.findall(r'frontier/(B\d+)_[^/]*/arc_verdict\.json',
+          '\n'.join(l.split('\t')[-1] for l in git('diff', '--name-status', BASE, REV, '--', 'frontier/').splitlines()
+                     if l.startswith('A')))))
+
+
 def v():
     spec = importlib.util.spec_from_file_location('gates_r80v', os.path.join(MAIN, GT))
     g = importlib.util.module_from_spec(spec)
@@ -169,4 +200,5 @@ if __name__ == '__main__':
     l()
     c()
     r()
+    w()
     v()

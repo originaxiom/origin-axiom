@@ -23,6 +23,9 @@ L   FINDINGS.md line 20: found
 L   FINDINGS.md line 94: found
 L   FINDINGS.md line 32: found
 L   POINT_REGISTER.md line 1014: found
+L   POINT_REGISTER.md line 1018: found
+L   ERROR_LEDGER.md line 236: found
+L   FINDINGS.md line 160: found
 L   POINT_REGISTER.md line 1021: found
 L   POINT_REGISTER.md line 1021: found
 L   POINT_REGISTER.md line 1021: found
@@ -32,13 +35,15 @@ L   arc_verdict.json in the file: found
 L   test_r28_10_stabilizations.py line 104: found
 L   global_form.py in the file: found
 L   RETRACTIONS.md in the file: found
-L   strings checked: 25; not found: 0
+L   strings checked: 28; not found: 0
 C   held by name: FRAMING_EXEMPT 5 (one added in the window), CITES_NO_LOCK_AS_FOUND 1, CANNOT_FAIL_AS_FOUND 26, NOT_SWEPT_BY_NAME 2, STANDS_AS_FOUND 11
 C   gates that read git: 24 (4 tracked, 20 history); controls registered: 53
 C   B1894 rows: 35; by reader {'W': 5, 'SM-': 9, 'A': 13, 'X': 8}
 C   B1892: findings 99; groups 10; distinct by the groups 88; stated 88
 R   the seven files named in the register or the error ledger: none
 R   controls in a module that may skip itself at import under an if, a try or a with: 0 of 53
+W   Review 79 window: commits 49; added arcs 13; verdict changed 11; findings changed 24 (14 of them alone); changed arcs in all 25; on no card's list: ['B731', 'B732', 'B733', 'B734', 'B942', 'B1028', 'B1030', 'B1067', 'B1222', 'B1643']
+W   this window: arcs added ['B1891', 'B1892', 'B1893', 'B1894', 'B1895', 'B1896', 'B1897']
 V   commits in the window: 26; messages with a trailer or a vendor's name: 0
 V   added lines in the window with a trailer or a vendor's name: 0, in no file
 V   this seat's files with a vendor's name: none
