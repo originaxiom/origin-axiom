@@ -12,8 +12,14 @@ the short-gap figure in exact arithmetic; and that each correction stands in the
 ADDED 2026-11-12, a second time, after the same session planted 23 errors against the lock as it then stood: 17 were caught and
 six passed.  The four tests at the end hold the six: the committed run is what the script gives today, by running it; the
 conditions of the mended checks, word for word; that the script computes the counts it prints; and where the withdrawn word
-stands.  One thing they cannot hold is said in the last of them."""
+stands.  One thing they cannot hold is said in the last of them.
+
+ADDED 2026-11-12, a third time (Review 80), after a reader weakened the script five ways with its output unchanged and every
+test passing; main made each again by a plant of its own.  The lock had read the script's text in places: two conditions,
+the beginning of two expressions, the shape of one kind of `or`.  A weakening anywhere else passed.  The test after those
+holds the script whole, by the digest of its bytes, so that any change to it is a change in two places."""
 import ast
+import hashlib
 import importlib.util
 import itertools
 import json
@@ -483,8 +489,14 @@ def test_the_conditions_of_the_mended_checks_are_the_ones_that_were_mended():
     """Two plants: a clause that is not a literal and is always true, joined by `or` to the two conditions that were once the
     literal True; and the sorting of a printed set undone.  The scan for constants sees neither.  The conditions and the printed
     detail of the mended checks are held here word for word, so that a change to one is a change in two places; and what the
-    two conditions rest on is held as well: each is a conjunction over something computed."""
-    src = (HERE / "whole_and_value_on_main.py").read_text(encoding="utf-8")
+    two conditions rest on is held as well: each is a conjunction over something computed.
+
+    CHANGED 2026-11-12 (Review 80): the body is the function below, word for word, so that it can be given a planted text.
+    It returns how many checks of the script it read."""
+    assert _the_mended_conditions_are_held((HERE / "whole_and_value_on_main.py").read_text(encoding="utf-8")) >= 60
+
+
+def _the_mended_conditions_are_held(src):
     tree = ast.parse(src)
     calls = [n for n in ast.walk(tree) if isinstance(n, ast.Call) and isinstance(n.func, ast.Name) and n.func.id == "check" and isinstance(n.args[0], ast.Constant)]
     for start, (cond, detail) in _PINNED_CONDITIONS.items():
@@ -504,17 +516,23 @@ def test_the_conditions_of_the_mended_checks_are_the_ones_that_were_mended():
     for name in ("mirror_ok", "single_ok"):
         binds = [n for n in ast.walk(tree) if isinstance(n, ast.Assign) and len(n.targets) == 1 and isinstance(n.targets[0], ast.Name) and n.targets[0].id == name]
         assert len(binds) == 1 and "all(" in ast.get_source_segment(src, binds[0].value), name
+    return len(calls)
 
 
 def test_the_script_computes_what_it_says_it_computes():
     """A plant typed the three counts of run sequences in place of the comprehensions that compute them; the lock read the
     committed file, where the numbers are the same, and its scan saw a constant and not a table of constants.  The scan now
-    sees a table, a list or a tuple whose every entry is a constant, and the three counts are held to what they are built from."""
-    src = (HERE / "whole_and_value_on_main.py").read_text(encoding="utf-8")
-    found, calls = _constant_checks(src)
-    assert found == [] and calls >= 60
+    sees a table, a list or a tuple whose every entry is a constant, and the three counts are held to what they are built from.
+
+    CHANGED 2026-11-12 (Review 80): the reading of the script's text is the function below, word for word."""
     planted = 'RES["counts"] = {"a": 16275, "b": 2815}\nn = 5\nRES["more"] = [1, n]\nRES["fine"] = {"a": len(xs)}\n'
     assert _constant_checks(planted)[0] == [1, 3]
+    assert _the_counts_are_built((HERE / "whole_and_value_on_main.py").read_text(encoding="utf-8")) == ["len(lows)", "by_all", "by_even"]
+
+
+def _the_counts_are_built(src):
+    found, calls = _constant_checks(src)
+    assert found == [] and calls >= 60
     tree = ast.parse(src)
     counts = [n for n in ast.walk(tree) if isinstance(n, ast.Assign) and isinstance(n.targets[0], ast.Subscript) and isinstance(n.targets[0].slice, ast.Constant) and n.targets[0].slice.value == "B_counts"]
     assert len(counts) == 1 and isinstance(counts[0].value, ast.Dict)
@@ -523,6 +541,72 @@ def test_the_script_computes_what_it_says_it_computes():
     for name in ("by_all", "by_even"):
         binds = [n for n in ast.walk(tree) if isinstance(n, ast.Assign) and len(n.targets) == 1 and isinstance(n.targets[0], ast.Name) and n.targets[0].id == name]
         assert len(binds) == 1 and ast.get_source_segment(src, binds[0].value).startswith("len({min(seq[i:] + seq[:i] for i in range("), name
+    return names
+
+
+# ---- Review 80 (2026-11-12): a reader's findings F1, F3 and F4, each made again by main with a plant of its own (the arc B1898
+# keeps them, verification/checks/plants_b1881_third.py).  Each weakens the script so that a check cannot fail, or so that
+# nothing is read, and leaves what the script prints as it was.  The run compared with the committed files is then the same,
+# and the second methods agree with it.  Only a reading of the script's text can see such a change, and the lock read it in
+# places.  It is now held whole.
+_THE_SCRIPT_AS_HELD = "b0210f3eb312cabf130dc84b33f23ecf5a4b4e10a53abded3173c6630386c4ca"      # sha256 of whole_and_value_on_main.py
+
+
+def _as_the_lock_read_the_scripts_text_before(src):
+    """every reading of the script's text that this lock made before it held the script whole: True where each passes"""
+    try:
+        found, calls = _constant_checks(src)
+        assert found == [] and calls >= 60 and src.count("this check was passed the literal True") == 2
+        _the_mended_conditions_are_held(src)
+        _the_counts_are_built(src)
+    except AssertionError:
+        return False
+    return True
+
+
+_PLANTS_OF_REVIEW_80 = {      # main's plants, as main wrote them: (the text that stands in the script, what the plant puts there)
+    "F1: the two mended conditions taken over empty lists": [
+        ("mirror_ok = all(_conj_by_mirror(a, b, c5, d) == [[a, -b], [-c5, d]] and (-c5) % 5 == 0 and a * d - (-b) * (-c5) == 1 for a, b, c5, d in box)", "mirror_ok = all([])"),
+        ("single_ok = all(abs(v - (mp.mpf(5 * m) / 2 + mp.sqrt(5) / 2)) < mp.mpf(10) ** -40 for m, v in zip(range(1, 6), single)) and all(x < y for x, y in zip(single, single[1:]))", "single_ok = all([])")],
+    "F2: check() made to ignore what it is passed": [
+        ('def check(name, ok, detail=""):', 'def check(name, _ignored_ok, detail="", ok=True):')],
+    "F3: an unpinned check made unable to fail by an 'or' on a length that is never 0": [
+        ("          len(seqs) == len(lows) and abs(floor - mp.sqrt(5) / 2) < mp.mpf(10) ** -100, mp.nstr(floor, 10))",
+         "          (False and (len(seqs) == len(lows) and abs(floor - mp.sqrt(5) / 2) < mp.mpf(10) ** -100)) or len(OUT) >= 1, mp.nstr(floor, 10))")],
+    "F4: no sequence read: the least typed, the two counts typed behind the pinned beginning": [
+        ("                lows.append(max(heights(list(seq))))", "                lows.append(mp.sqrt(5) / 2)"),
+        ("    by_all = len({min(seq[i:] + seq[:i] for i in range(len(seq))) for seq in seqs})", "    by_all = len({min(seq[i:] + seq[:i] for i in range(len(seq))) for seq in []}) or %d" % RES["B_counts"]["up_to_every_rotation"]),
+        ("    by_even = len({min(seq[i:] + seq[:i] for i in range(0, len(seq), 2)) for seq in seqs})", "    by_even = len({min(seq[i:] + seq[:i] for i in range(0, len(seq), 2)) for seq in []}) or %d" % RES["B_counts"]["up_to_rotations_that_keep_the_letters"])],
+    "F5, its half in the script: a number of part A changed": [
+        ('"W": list(W),', '"W": [[100 + len(OUT), 101], [102, 103]],')],
+}
+
+
+def _planted(src, pairs):
+    for old, new in pairs:
+        assert src.count(old) == 1, old[:60]
+        src = src.replace(old, new)
+    return src
+
+
+def test_the_script_is_the_one_this_lock_was_written_against():
+    """The script is held by the digest of its bytes.  A change to it, a comment included, fails here until the digest above is
+    changed as well: say in this lock's docstring what changed and why.
+
+    What could fail: any of main's five plants, or any other change to the script.  Each plant is put to the readings of the
+    script's text that the lock made before: every one passes them, which is the finding; and every one changes the digest.
+    WHAT THIS CANNOT HOLD: a change made to the script and to the digest together.  That is two places, and a reader of the
+    difference sees both."""
+    raw = (HERE / "whole_and_value_on_main.py").read_bytes()
+    assert hashlib.sha256(raw).hexdigest() == _THE_SCRIPT_AS_HELD, "the script is not the one this lock was written against"
+    src = raw.decode("utf-8")
+    assert _as_the_lock_read_the_scripts_text_before(src)
+    for what, pairs in _PLANTS_OF_REVIEW_80.items():
+        planted = _planted(src, pairs)
+        assert _as_the_lock_read_the_scripts_text_before(planted), what           # the readings of before pass: the finding
+        assert hashlib.sha256(planted.encode("utf-8")).hexdigest() != _THE_SCRIPT_AS_HELD, what
+    # the readings of before are not blind to everything: a plant that B1895's lock holds is refused by them
+    assert not _as_the_lock_read_the_scripts_text_before(_planted(src, [('for the run of 5m + 1", single_ok,', 'for the run of 5m + 1", True,')]))
 
 
 def test_the_withdrawn_word_stands_only_where_it_is_taken_back():
