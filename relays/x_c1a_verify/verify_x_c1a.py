@@ -426,65 +426,44 @@ def _eval_fricke_c(word: str, xv: complex, yv: complex, zv: complex) -> tuple[co
 
 
 def _find_markov_roots(word: str) -> list[tuple[complex, complex, complex]]:
+    """Exhaustive deterministic enumeration of all non-real Fricke-Markov fixed points via lexicographic Groebner basis."""
     if word in _ROOTS_CACHE:
         return _ROOTS_CACHE[word]
+    xs, ys, zs = sp.symbols("x y z")
+    A_, B_, C_ = xs, ys, zs
+    for ch in word:
+        if ch == "L":
+            A_, B_, C_ = C_, B_, sp.expand(B_ * C_ - A_)
+        else:
+            A_, B_, C_ = A_, C_, sp.expand(A_ * C_ - B_)
+    gb = sp.groebner([A_ - xs, B_ - ys, xs**2 + ys**2 + zs**2 - xs * ys * zs, C_ - zs], xs, ys, zs, order="lex")
+    exprs = list(gb.exprs)
+    pz = sp.Poly(exprs[-1], zs).sqf_part()
+    y_polys = [e for e in exprs[:-1] if xs not in e.free_symbols and ys in e.free_symbols]
     roots: list[tuple[complex, complex, complex]] = []
-
-    def add_rt(a: complex, b: complex, c: complex) -> None:
-        if abs(a.imag) + abs(b.imag) + abs(c.imag) < 1e-6:
-            return
-        if not any(abs(a - rx) + abs(b - ry) + abs(c - rz) < 1e-6 for rx, ry, rz in roots):
-            roots.append((a, b, c))
-
-    for k in range(1, 900):
-        r1 = 0.4 * (30.0 ** ((k * 0.6180339887498949) % 1.0))
-        th1 = 2 * math.pi * ((k * 0.3819660112501051) % 1.0)
-        r2 = 0.4 * (30.0 ** ((k * 0.7548776662466927) % 1.0))
-        th2 = 2 * math.pi * ((k * 0.5698402909980532) % 1.0)
-        yv, zv = cmath.rect(r1, th1), cmath.rect(r2, th2)
-        disc = cmath.sqrt((yv * zv) ** 2 - 4 * (yv * yv + zv * zv))
-        xv = (yv * zv + (disc if k % 2 == 0 else -disc)) / 2
-        ok = True
-        for _ in range(50):
-            try:
-                f0, f1, f2, _ = _eval_fricke_c(word, xv, yv, zv)
-                err = abs(f0) + abs(f1) + abs(f2)
-                if err < 1e-12:
-                    break
-                if err > 1e60:
-                    ok = False
-                    break
-                eps = 1e-8 * max(1.0, abs(xv), abs(yv), abs(zv))
-                d0x = _eval_fricke_c(word, xv + eps, yv, zv)[:3]
-                d0y = _eval_fricke_c(word, xv, yv + eps, zv)[:3]
-                d0z = _eval_fricke_c(word, xv, yv, zv + eps)[:3]
-                J = [[(d0x[i] - [f0, f1, f2][i]) / eps, (d0y[i] - [f0, f1, f2][i]) / eps, (d0z[i] - [f0, f1, f2][i]) / eps] for i in range(3)]
-                detJ = (
-                    J[0][0] * (J[1][1] * J[2][2] - J[1][2] * J[2][1])
-                    - J[0][1] * (J[1][0] * J[2][2] - J[1][2] * J[2][0])
-                    + J[0][2] * (J[1][0] * J[2][1] - J[1][1] * J[2][0])
-                )
-                if abs(detJ) < 1e-25:
-                    ok = False
-                    break
-                rhs = [-f0, -f1, -f2]
-                dx = (rhs[0] * (J[1][1] * J[2][2] - J[1][2] * J[2][1]) - J[0][1] * (rhs[1] * J[2][2] - J[1][2] * rhs[2]) + J[0][2] * (rhs[1] * J[2][1] - J[1][1] * rhs[2])) / detJ
-                dy = (J[0][0] * (rhs[1] * J[2][2] - J[1][2] * rhs[2]) - rhs[0] * (J[1][0] * J[2][2] - J[1][2] * rhs[2]) + J[0][2] * (J[1][0] * rhs[2] - rhs[1] * J[2][0])) / detJ
-                dz = (J[0][0] * (J[1][1] * rhs[2] - rhs[1] * J[2][1]) - J[0][1] * (J[1][0] * rhs[2] - rhs[1] * J[2][0]) + rhs[0] * (J[1][0] * J[2][1] - J[1][1] * J[2][0])) / detJ
-                sn = max(abs(dx), abs(dy), abs(dz))
-                sc = 1.0 if sn <= 5.0 else 5.0 / sn
-                xv += sc * dx
-                yv += sc * dy
-                zv += sc * dz
-            except ZeroDivisionError:
-                ok = False
-                break
-        if not ok:
+    for zr in pz.nroots(n=35, maxsteps=300):
+        if abs(complex(zr)) < 1e-7:
             continue
-        f0, f1, f2, f3 = _eval_fricke_c(word, xv, yv, zv)
-        if abs(f0) + abs(f1) + abs(f2) + abs(f3) < 1e-9 and abs(zv) > 1e-5:
-            add_rt(xv, yv, zv)
-            add_rt(xv.conjugate(), yv.conjugate(), zv.conjugate())
+        y_cands = []
+        for yp in y_polys:
+            ev_y = yp.evalf(35, subs={zs: zr})
+            if ys in ev_y.free_symbols:
+                py_sub = sp.Poly(ev_y, ys)
+                if abs(complex(py_sub.LC())) > 1e-7:
+                    y_cands.append((py_sub.degree(), py_sub))
+        y_cands.sort(key=lambda t: t[0])
+        py_sub = y_cands[0][1]
+        for yr in py_sub.nroots(n=35, maxsteps=300):
+            yc, zc = complex(yr), complex(zr)
+            disc = cmath.sqrt((yc * zc) ** 2 - 4.0 * (yc * yc + zc * zc))
+            for xc in ((yc * zc + disc) / 2.0, (yc * zc - disc) / 2.0):
+                if abs(xc.imag) + abs(yc.imag) + abs(zc.imag) < 1e-6:
+                    continue
+                f0, f1, f2, f3 = _eval_fricke_c(word, xc, yc, zc)
+                scale = max(1.0, abs(xc) ** len(word), abs(yc) ** len(word), abs(zc) ** len(word))
+                if (abs(f0) + abs(f1) + abs(f2) + abs(f3)) / scale < 1e-4:
+                    if not any(abs(xc - rx) + abs(yc - ry) + abs(zc - rz) < 1e-4 for rx, ry, rz in roots):
+                        roots.append((xc, yc, zc))
     _ROOTS_CACHE[word] = roots
     return roots
 
