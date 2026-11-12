@@ -28,7 +28,7 @@ import sympy as sp
 from sympy.matrices.normalforms import smith_normal_decomp
 
 HERE = pathlib.Path(__file__).resolve().parent
-mp.mp.dps = 140
+mp.mp.dps = 200
 gmpy2.get_context().precision = 400  # >120 decimal digits in C-compiled GNU MPFR/MPC
 
 GMMat = list[list[gmpy2.mpc]]
@@ -545,7 +545,8 @@ def _solve_T_mp(A: mp.matrix, B: mp.matrix, pa: mp.matrix, pb: mp.matrix) -> mp.
         res = max(abs(sum(Sys[r, c] * vec[c] for c in range(4))) for r in range(8))
         if res < best_res:
             best_res, best_t = res, vec
-    if best_t is None or best_res > mp.mpf("1e-110"):
+    sys_scale = max(mp.mpf(1), max(abs(Sys[r, c]) for r in range(8) for c in range(4)))
+    if best_t is None or best_res > mp.mpf("1e-130") * sys_scale:
         return None
     T0 = mp.matrix([[best_t[0], best_t[1]], [best_t[2], best_t[3]]])
     detT = T0[0, 0] * T0[1, 1] - T0[0, 1] * T0[1, 0]
@@ -564,7 +565,7 @@ def get_holonomy(sign: str, word: str) -> dict[str, object]:
         xv, yv, zv = mp.mpc(rx), mp.mpc(ry), mp.mpc(rz)
 
         def ev_jet(xx: mp.mpc, yy: mp.mpc, zz: mp.mpc) -> tuple[list[mp.mpc], mp.matrix]:
-            # Exact analytic Jacobian via 1st-order jet (val, dx, dy, dz) at 140 digits
+            # Exact analytic Jacobian via 1st-order jet (val, dx, dy, dz) at 200 digits
             z0 = mp.mpc(0)
             one = mp.mpc(1)
             A_ = (xx, one, z0, z0)
@@ -604,9 +605,9 @@ def get_holonomy(sign: str, word: str) -> dict[str, object]:
             return f_vec, J_mat
 
         ok = True
-        for _ in range(30):
+        for _ in range(35):
             f0, J = ev_jet(xv, yv, zv)
-            if max(abs(t) for t in f0) < mp.mpf("1e-128"):
+            if max(abs(t) for t in f0) < mp.mpf("1e-185"):
                 break
             try:
                 delta = mp.lu_solve(J, mp.matrix([[-f0[0]], [-f0[1]], [-f0[2]]]))
@@ -617,7 +618,7 @@ def get_holonomy(sign: str, word: str) -> dict[str, object]:
             yv += delta[1]
             zv += delta[2]
         f_chk, _ = ev_jet(xv, yv, zv)
-        if not ok or max(abs(t) for t in f_chk) > mp.mpf("1e-120"):
+        if not ok or max(abs(t) for t in f_chk) > mp.mpf("1e-175"):
             continue
 
         A = mp.matrix([[xv, 1], [-1, 0]])
@@ -644,7 +645,7 @@ def get_holonomy(sign: str, word: str) -> dict[str, object]:
         Pinv = mp.inverse(Pmat)
         ell_u, tp_u = Pinv * ell * Pmat, Pinv * tp * Pmat
         st = 1 if mp.re(tp_u[0, 0] + tp_u[1, 1]) > 0 else -1
-        if abs(tp_u[1, 0]) > mp.mpf("1e-90") or abs(tp_u[0, 0] - st) > mp.mpf("1e-90"):
+        if abs(tp_u[1, 0]) > mp.mpf("1e-140") or abs(tp_u[0, 0] - st) > mp.mpf("1e-140"):
             continue
         tau = (st * tp_u[0, 1]) / (sl * ell_u[0, 1])
         if abs(abs(float(mp.im(tau))) - abs(sh.imag)) < 1e-7:
@@ -672,22 +673,17 @@ def get_holonomy(sign: str, word: str) -> dict[str, object]:
 
 
 def get_tick_holonomy_gm4(base_sign: str, base_word: str, k_tick: int) -> tuple[str, str, dict[str, GMMat], dict[str, GMMat]]:
-    """Holonomy of (eps * word)^k at 120 digits using the base fibre's (A_mp, B_mp) without long-word precision loss."""
+    """Holonomy of (eps * word)^k at 120 digits using the base fibre's 200-digit (A_mp, B_mp) and exact word evaluation."""
     tick_sign = "+" if (base_sign == "+" or k_tick % 2 == 0) else "-"
     tick_word = base_word * k_tick
     base_hol = get_holonomy(base_sign, base_word)
     A: mp.matrix = base_hol["A_mp"]
     B: mp.matrix = base_hol["B_mp"]
-
-    pa, pb = A, B
-    for _ in range(k_tick):
-        for ch in reversed(base_word):
-            if ch == "L":
-                pa, pb = pa * pb, pb
-            else:
-                pa, pb = pa, pb * pa
-        if base_sign == "-":
-            pa, pb = sl2_inv_mp(pa), sl2_inv_mp(pb)
+    abt0 = {"a": A, "b": B}
+    abt0_inv = {"a": base_hol["abt_inv_mp"]["a"], "b": base_hol["abt_inv_mp"]["b"]}
+    img_tk = auto_words(tick_sign, tick_word)
+    pa = eval_word_sl2_mp(img_tk["a"], abt0, abt0_inv)
+    pb = eval_word_sl2_mp(img_tk["b"], abt0, abt0_inv)
 
     Tk = _solve_T_mp(A, B, pa, pb)
     assert Tk is not None
@@ -2163,41 +2159,52 @@ def verify_row_917() -> dict[str, object]:
 def verify_row_918() -> dict[str, object]:
     """Row 918 (@ 7bd8eeed0, W8 / Lemma V): frame at common quaternion point rho_Q across all 24 states to length 6."""
     st6 = genesis_states(6)
-    I_sp = sp.I
     par_lines_read = 0
     par_lines_all_h1_one_cusp_triv_n_zero = True
     ord4_chars_read = 0
     ord4_interior_members = 0
 
-    def exact_line_q_i(sign: str, word: str, ch: dict[str, sp.Expr]) -> tuple[int, bool, int]:
-        img = auto_words(sign, word)
-        rels = ["taT" + inv_w(img["a"]), "tbT" + inv_w(img["b"])]
-        per = ("abAB", "t" if sign == "+" else "abt")
+    def gmul(u: tuple[int, int], v: tuple[int, int]) -> tuple[int, int]:
+        return (u[0] * v[0] - u[1] * v[1], u[0] * v[1] + u[1] * v[0])
 
-        def val(w: str) -> sp.Expr:
-            v = sp.Integer(1)
+    def gconj(u: tuple[int, int]) -> tuple[int, int]:
+        return (u[0], -u[1])
+
+    def to_sp(u: tuple[int, int]) -> sp.Expr:
+        return sp.Integer(u[0]) + sp.Integer(u[1]) * sp.I
+
+    def exact_line_q_i(rels: list[str], per: tuple[str, str], ch: dict[str, tuple[int, int]]) -> tuple[int, bool, int]:
+        ch_inv = {k: gconj(v) for k, v in ch.items()}
+
+        def val(w: str) -> tuple[int, int]:
+            v = (1, 0)
             for c in w:
-                v *= ch[c] if c in "abt" else 1 / ch[c.lower()]
-            return sp.simplify(v)
+                v = gmul(v, ch[c] if c in "abt" else ch_inv[c.lower()])
+            return v
 
-        if not all(val(r) == 1 for r in rels):
+        if not all(val(r) == (1, 0) for r in rels):
             return -1, False, -1
 
         def fx(w: str, g: str) -> sp.Expr:
-            tot, pref = sp.Integer(0), sp.Integer(1)
+            tot_r, tot_i = 0, 0
+            pr_r, pr_i = 1, 0
+            cgi_r, cgi_i = ch_inv[g]
             for c in w:
                 if c == g:
-                    tot += pref
+                    tot_r += pr_r
+                    tot_i += pr_i
                 elif c == g.upper():
-                    tot -= pref / ch[g]
-                pref *= ch[c] if c in "abt" else 1 / ch[c.lower()]
-            return sp.expand(tot)
+                    tot_r -= pr_r * cgi_r - pr_i * cgi_i
+                    tot_i -= pr_r * cgi_i + pr_i * cgi_r
+                u_r, u_i = ch[c] if c in "abt" else ch_inv[c.lower()]
+                pr_r, pr_i = pr_r * u_r - pr_i * u_i, pr_r * u_i + pr_i * u_r
+            return to_sp((tot_r, tot_i))
 
         F = sp.Matrix([[fx(r, g) for g in "abt"] for r in rels])
         Z = F.nullspace()
-        triv = all(sp.simplify(ch[g] - 1) == 0 for g in "abt")
+        triv = all(ch[g] == (1, 0) for g in "abt")
         h1 = len(Z) - (0 if triv else 1)
-        ctriv = all(val(w) == 1 for w in per)
+        ctriv = all(val(w) == (1, 0) for w in per)
         if h1 == 0:
             return 0, ctriv, 0
         if not ctriv:
@@ -2212,12 +2219,15 @@ def verify_row_918() -> dict[str, object]:
         k_res = 1 if np.array_equal(M2, I2) else (2 if np.array_equal((M2 @ M2) % 2, I2) else 3)
         tsgn = "+" if (sw[0] == "+" or k_res % 2 == 0) else "-"
         twrd = sw[1:] * k_res
+        img_tk = auto_words(tsgn, twrd)
+        rels_tk = ["taT" + inv_w(img_tk["a"]), "tbT" + inv_w(img_tk["b"])]
+        per_tk = ("abAB", "t" if tsgn == "+" else "abt")
 
         # (1) Three non-zero parity lines at their unique live sign kappa in {+1, -1}
         for pa, pb in ((1, 0), (0, 1), (1, 1)):
             live = []
-            for kap in (sp.Integer(1), sp.Integer(-1)):
-                h1, ctriv, n = exact_line_q_i(tsgn, twrd, {"a": sp.Integer(-1 if pa else 1), "b": sp.Integer(-1 if pb else 1), "t": kap})
+            for kap in ((1, 0), (-1, 0)):
+                h1, ctriv, n = exact_line_q_i(rels_tk, per_tk, {"a": (-1 if pa else 1, 0), "b": (-1 if pb else 1, 0), "t": kap})
                 if h1 > 0:
                     live.append((h1, ctriv, n))
             assert len(live) == 1
@@ -2226,9 +2236,9 @@ def verify_row_918() -> dict[str, object]:
                 par_lines_all_h1_one_cusp_triv_n_zero = False
 
         # (2) All characters of order dividing 4 on the tick group
-        vals4 = [sp.Integer(1), I_sp, sp.Integer(-1), -I_sp]
+        vals4 = [(1, 0), (0, 1), (-1, 0), (0, -1)]
         for ca, cb, ct in itertools.product(vals4, repeat=3):
-            h1, _, n = exact_line_q_i(tsgn, twrd, {"a": ca, "b": cb, "t": ct})
+            h1, _, n = exact_line_q_i(rels_tk, per_tk, {"a": ca, "b": cb, "t": ct})
             if h1 >= 0:
                 ord4_chars_read += 1
                 if n > 0:
