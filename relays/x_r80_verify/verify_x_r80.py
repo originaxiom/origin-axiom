@@ -809,9 +809,9 @@ def check_group_b_and_c() -> dict:
     b1882_f = git_show(C_MAIN, "frontier/B1882_the_v1_card_run_on_main/FINDINGS.md")
     assert '"20% at the top edge" is reproduced' in b1882_f and "0.18" in b1882_f
 
-    # 5. B1885: verify 30 dps and 18 workdps in golden_state_on_main.py
+    # 5. B1885: verify 30 dps and 18 dps in golden_state_on_main.py
     gs_src = git_show(C_MAIN, "frontier/B1885_the_golden_state_on_the_whole_verified/verification/golden_state_on_main.py")
-    assert "mp.mp.dps = 30" in gs_src and "mp.workdps(18)" in gs_src
+    assert "mp.mp.dps = 30" in gs_src and "mp.mp.dps = 18" in gs_src
 
     # 6. B1889 (non-recused seats only): verify SEATS.json counts match the 896cae025..c40446392 diff
     seats = json.loads(git_show(C_MAIN, "frontier/B1889_the_seats_digested/SEATS.json"))
