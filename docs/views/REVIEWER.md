@@ -19,10 +19,10 @@ result, not the debt.
 
 | | |
 |---|---|
-| research arcs with findings | **1596** |
-| words of findings prose | **1,405,830** |
+| research arcs with findings | **1597** |
+| words of findings prose | **1,408,910** |
 | test lock files referenced | **942** |
-| arcs carrying an authored verdict | **1596** (100.0 %) |
+| arcs carrying an authored verdict | **1597** (100.0 %) |
 | recorded closures | **859** (692 classified, 167 routed-only) |
 
 **Read `COVERAGE.md` before drawing conclusions from any other view.** The verdict ledger
@@ -33,7 +33,7 @@ and those are a lower bound on the corpus's negatives, not a census.
 
 | verdict | arcs |
 |---|---|
-| PROVED | 1104 |
+| PROVED | 1105 |
 | NEGATIVE | 383 |
 | OPEN | 97 |
 | RETRACTED | 12 |
@@ -65,9 +65,9 @@ arithmetic, 5 shown to rest on locks in other arcs (each lock re-run, not truste
 
 One of each disposition, so the ledger's vocabulary can be checked against real arcs.
 
-**PROVED — `B1894`** (1729 words, 1 locks)  
-REVIEW 79, THE SECOND ROUND: THE FOUR READERS READ MAIN'S ANSWERS, AND 35 FINDINGS ON THEM ALL HELD, 34 in full and one in part; they are 30 distinct faults. Of main's 99 answers the readers report 76 right and complete, 11 not complete, one not mended as main had said and 11 with the builder of the gates. ONE FINDING IS A SIGN IN THE MATHEMATICS: main's correction of 2026-11-11 on the cusp's unit and three scope notes written from it gave the four-dimensional index of the chiral three the sign of the Euler characteristic on the base, +3 where the arc's own sealed table has -3 for the uniform unit at an empty Lambda+; corrected in the four places, each keeping what it said, with a lock that holds minus that Euler characteristic to the sealed table. Fourteen of the 35 are corrections that had not reached a verdict line, a row of the law map, the plan or a second section of the same page; the rest are a line of a lock that could not fail by precedence, a guard not carried to a function's new parameter, a listener that read fences loosely, a lock that held one kind of status row on the live foundation, and the tripwire for old sentences, which caught 5 of 23 new planted errors and is made to ask for the correction in the old form's own paragraph, row or item, with what a list of spellings cannot do said and held as an open fixture. The plan, a living page, no longer quotes the owner. One finding is in the gates' file and goes to its builder. 0 of 19.  
-`B1894_review_79_the_second_round/FINDINGS.md`
+**PROVED — `B1895`** (2299 words, 0 locks)  
+THE MENDS OF B1881 READ BY A SESSION THAT DID NOT WRITE THEM: FOUR FINDINGS, ALL HELD, AND WHAT THE ARC'S SECOND CONVENTION IS (agy-002's reading of main at 87bfa1f05, 4 of 4 quotations found by machine; data-free, integers modulo 5 and the record's flat-fibre instrument; 16 checks, none failing; computed once; nothing compared with a measured number). THE WRONG WORD: main's mend at Review 79 called B1881's second convention the transpose of the seat's; the seat's ground is symmetric, so its transpose is itself. WHAT IT IS: the seat's convention with every matrix conjugated by the swap of the two coordinates, the order of the letters kept (the 1,332 run sequences of length 2 and 4 with runs to 6 reach all 120 matrices of determinant 1 mod 5; the swapped word differs from the transposed word on 989 of them), read on the column (1,2), which is the swap of (2,1), the column the row (1,3) annihilates; and (2,1) lies on the mark's own line. THE IDENTITY: a row is kept by a matrix exactly when the column it annihilates is kept (all 120 matrices, each of the six lines), so the two tests are one test on every matrix and the agreement B1881 reported on 47,988 run sequences is an instance of an identity that could have failed only by an error of coding; for a mark that does not annihilate its own line the same recipe gives another test (88 of 120 for each of the four such lines); on the reversed sequence the second word is the transpose of the seat's word conjugated by the swap. THE OTHER THREE FINDINGS are of the record: 'reproduced' for what was recomputed, in the verdict line and the page; a label of the script that a correction of the page had not reached; a lock that held two of nine mends. All mended; B1881's lock, now ten tests, catches 18 of 18 planted reversions with the control passing; B1881 keeps 65 checks, none failing, and B1884, where the same wrong word stood, 17. ONE STATEMENT MADE STRONGER, from the reader's bound, re-derived by hand: every run sequence that is not all ones reads above 4/3 in this instrument, so the ground's sqrt5/2 is the least reading over every sequence and only the ground has it; the ingredient checked on 2,061 sequences; the least among the others in the range tried is sqrt2, and whether that is the second least over all is not shown. It is the fourth time at Review 79 that a correction main wrote held an error of its own, each found by a session that did not write it. 0 of 19.  
+`B1895_the_mends_of_b1881_read_and_what_its_second_convention_is/FINDINGS.md`
 
 **NEGATIVE — `B1839`** (965 words, 0 locks)  
 THE END CARD (P-421's decider; sealed c70b356f0; output committed unread at 1d218f158): with the end the exact horoball norm at one free level L_max + delta, the six reach chi2_six 4.61 (P1 holds; best row apex 162, (2/5, 4/5), delta 0.15, (S~, S, S), c 3.76) but 2.43% of random hierarchies do as well once the level is priced (r97.5 2.46% > 1%): D FAILS -- NEGATIVE as sealed. The free level's look-elsewhere costs the screen; the small-cut ansatz is retired from the candidate; with B1841 passing, the joint rule fixed before either look froze the candidate at B1841's principled entry E4 (0.025 from this card's free optimum), and its confirmation is held by the owner (P-709) because the row is carried by SU(5) structure, not the frame's values (P-706). 0 of 19.  

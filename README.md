@@ -21,10 +21,10 @@ nothing in this block is typed by hand.*
 |---|---|
 | Standard-Model parameters derived | **0 of 19** (`docs/MAIN_GOAL.md`) |
 | the foundations | `GENESIS.md` (v1.66) of 2026-11-12 |
-| arcs with a verdict | 1596: 1104 PROVED, 383 NEGATIVE, 97 OPEN, 12 RETRACTED |
-| points in the register | 817: 296 open (queued, leads, waiting for the owner), 521 closed |
+| arcs with a verdict | 1597: 1105 PROVED, 383 NEGATIVE, 97 OPEN, 12 RETRACTED |
+| points in the register | 819: 297 open (queued, leads, waiting for the owner), 522 closed |
 | the last review | Review 79 (2026-11-12), anchor `0dda7b472` |
-| the last landing | S306p REVIEW 79, THE SECOND ROUND: THE READERS READ MAIN'S ANSWERS; 35 FINDINGS, ALL HELD; A SIGN IN THE MATHEMATICS CORRECTED (B1894; P-817) (2026-1… |
+| the last landing | S306p THE MENDS OF B1881 READ BY A SESSION THAT DID NOT WRITE THEM: FOUR FINDINGS, ALL HELD; WHAT ITS SECOND CONVENTION IS (B1895; P-818, P-819) (202… |
 <!-- STATE:END -->
 
 ## Start here

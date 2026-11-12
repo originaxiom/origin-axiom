@@ -13,24 +13,25 @@
 
 | what | count |
 |---|---|
-| arcs with a verdict file | 1596 |
-| … PROVED | 1104 |
+| arcs with a verdict file | 1597 |
+| … PROVED | 1105 |
 | … NEGATIVE | 383 |
 | … OPEN | 97 |
 | … RETRACTED | 12 |
-| register points | 817 |
-| … QUEUED | 288 |
+| register points | 819 |
+| … QUEUED | 289 |
 | … LEAD | 4 |
 | … OWNER | 4 |
-| … DONE | 509 |
+| … DONE | 510 |
 | … DECLINED | 12 |
-| harvest rows (the last number) | 1729 |
+| harvest rows (the last number) | 1730 |
 | the Standard Model's 19 derived | 0 |
 
 ## The newest arcs
 
 | arc | verdict | claim |
 |---|---|---|
+| B1895 | PROVED | THE MENDS OF B1881 READ BY A SESSION THAT DID NOT WRITE THEM: FOUR FINDINGS, ALL HELD, AND WHAT THE ARC'S SECOND CONVENTION IS (agy-002's reading of main at 87bfa1f05, 4 of 4 quotations found by machine; data-free, inte… |
 | B1894 | PROVED | REVIEW 79, THE SECOND ROUND: THE FOUR READERS READ MAIN'S ANSWERS, AND 35 FINDINGS ON THEM ALL HELD, 34 in full and one in part; they are 30 distinct faults. Of main's 99 answers the readers report 76 right and complete… |
 | B1893 | PROVED | THE SECOND PATCH SERIES OF THE ENFORCEMENT PACKAGE (WP-0.7), BUILT BY THE ADVISOR SEAT, VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED: six patches under one rule read from history, that after an anchor commit what a ledg… |
 | B1892 | PROVED | REVIEW 79, READ BY SESSIONS THAT BUILT NONE OF IT (the owner's ruling P-805): 99 FINDINGS ON MAIN'S WORK OF TWO DAYS, ALL 99 HELD ON MAIN'S OWN REPRODUCTION, one in all but one detail; they are 88 distinct faults, of wh… |
@@ -42,7 +43,6 @@
 | B1886 | PROVED | THE FOUNDATION AT VERSION 1.65 (P-767's second landing): the owner's statements of 2026-11-10 and 2026-11-11 entered in GENESIS.md under the working rule of 2026-11-11, by which a ruling sets a goal, a standard, an orde… |
 | B1885 | PROVED | THE WEB SEAT'S CARD ON THE GOLDEN STATE, VERIFIED ON MAIN CELL BY CELL (a weave object, conditional on stated choices; data-free; 30 digits, and 18 for the grid and the two checks made on it [added 2026-11-12, Review 79… |
 | B1884 | PROVED | THE WEB SEAT'S SEALED CARD ON WHAT LEVEL A GROUND NAMES, VERIFIED ON MAIN (a thread result on the ground; integers; 17 checks, none failing; for the foundation's entry on the ground, P-767): the tick F, add and exchange… |
-| B1883 | PROVED | WHERE WE STAND: HOW FAR THE RECORD IS FROM THE FINAL READING, AS ONE GENERATED PAGE (an instrument, at the owner's question of 2026-11-11, 'how far are we from ... 100% ready for the final reading? the dynamic scoreboar… |
 
 ## Waiting for the owner (register rows with disposition OWNER)
 
@@ -56,6 +56,7 @@
 
 ## The last landings (CHANGELOG)
 
+- S306p THE MENDS OF B1881 READ BY A SESSION THAT DID NOT WRITE THEM: FOUR FINDINGS, ALL HELD; WHAT ITS SECOND CONVENTION IS (B1895; P-818, P-819) (2026-11-12)
 - S306p REVIEW 79, THE SECOND ROUND: THE READERS READ MAIN'S ANSWERS; 35 FINDINGS, ALL HELD; A SIGN IN THE MATHEMATICS CORRECTED (B1894; P-817) (2026-11-12)
 - S306p THE SECOND ENFORCEMENT SERIES VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (B1893; WP-0.7); ONE CASE THE RULE DOES NOT SEE (P-816); THE SUITE ON A FRESH CLONE AT THE REVIEW'S HEAD; SEVEN DELIVE…
 - S306p REVIEW 79, READ IN FULL BY FOUR SESSIONS THAT BUILT NONE OF IT: 99 FINDINGS, ALL HELD; THE FOUNDATION AT VERSION 1.66 (B1891, B1892; harvest rows 1716 to 1721; P-811 to P-815) (2026-11-12)
@@ -63,11 +64,10 @@
 - S306p THE ADVISOR SEAT'S READ OF THE REVIEW TAKEN INTO REVIEW 79 (P-806); TWO MORE DELIVERIES REGISTERED (harvest rows 1712, 1713; P-807) (2026-11-11)
 - S306p REVIEW 79 OPENED UNDER THE OWNER'S RULING (P-805); THE FIVE SESSIONS' FIRST DELIVERIES REGISTERED; TWO FINDINGS OF A SECOND DERIVATION CHECKED ON MAIN AND ENTERED (WP-0.8, WP-0.4; P-802, P-803,…
 - S306p THREE RULINGS OF THE OWNER, APPLIED: HIS MESSAGES ARE PRIVATE; A CHECK IS NAMED BY ITS METHOD AND NEVER BY A SESSION; THE DISTILLED REPOSITORY IS PUBLIC AND STAYS ON THE LIST (P-796, P-797, P-7…
-- S306p THE FIRST PATCH SERIES FOR ENFORCEMENT, VERIFIED WITH MAIN'S UNSEEN CASES AND LANDED (WP-0.7; B1890); THE FINDING E7 FIXED AND ACCEPTED (WP-0.8); TWO SEATS NAME THEMSELVES (2026-11-11)
 
 ## The latest campaign line
 
-LATEST (2026-11-12, S306p: REVIEW 79, THE SECOND ROUND (B1894): THE READERS READ MAIN'S ANSWERS; 35 FINDINGS, ALL HELD; A SIGN CORRECTED.** Of main's 99 answers the four readers report 76 right and complete, 11 not complete, one not mended as said and 11 with the builder of the gates. Their 35 findings on the mends are 30 distinct faults, each reproduced by main and mended, one sent to the builder. One is a sign in the mathematics: main's correction on the cusp's unit gave the four-dimensional index of the chiral three the sign of the Euler characteristic on the base, +3 where the arc's sealed table has −3; corrected in four places and held by a lock. Fourteen are corrections that had not r…
+LATEST (2026-11-12, S306p: THE MENDS OF B1881 READ BY A SESSION THAT DID NOT WRITE THEM (B1895): FOUR FINDINGS, ALL HELD; WHAT ITS SECOND CONVENTION IS.** agy-002 read main's mends of B1881, which two other sessions had rightly left. Four findings, each reproduced by main. One is a wrong word in the mathematics: main had called the arc's second convention the transpose of the seat's. It is the seat's with every matrix conjugated by the swap of the two coordinates, and the two tests of "keeps the line" are one test on every matrix of determinant 1 modulo 5 (120 of 120; 88 of 120 for the control). So B1881's agreement on 47,988 sequences is an instance of an identity. The other three: "reprod…
 
 ## Completeness (nothing skipped silently)
 

@@ -16560,6 +16560,18 @@
    "status": "open",
    "domain": "dynamics"
   },
+  "B1895": {
+   "slug": "the mends of b1881 read and what its second convention is",
+   "motifs": [
+    "golden",
+    "amphichiral_cp"
+   ],
+   "refs": [],
+   "obstacle": "measure",
+   "obstacle_conf": 1,
+   "status": "dead",
+   "domain": "arithmetic"
+  },
   "B189": {
    "slug": "omega causal dimension",
    "motifs": [
