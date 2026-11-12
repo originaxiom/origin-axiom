@@ -1,0 +1,55 @@
+=== STATEMENT A: ABELIANIZATION F_2 -> Z^2 AND THE SIX MOVES ===
+  R1_a_to_ab: Aut(F_2)=True, induced GL_2(Z) matrix=((1, 0), (1, 1)), det=1
+  R2_a_to_ba: Aut(F_2)=True, induced GL_2(Z) matrix=((1, 0), (1, 1)), det=1
+  R3_b_to_ba: Aut(F_2)=True, induced GL_2(Z) matrix=((1, 1), (0, 1)), det=1
+  R4_b_to_ab: Aut(F_2)=True, induced GL_2(Z) matrix=((1, 1), (0, 1)), det=1
+  SWAP: Aut(F_2)=True, induced GL_2(Z) matrix=((0, 1), (1, 0)), det=-1
+  TICK: Aut(F_2)=True, induced GL_2(Z) matrix=((1, 1), (1, 0)), det=-1
+  Verified on all 13121 reduced words of length <= 8: ab(phi(w)) == M_phi * ab(w).
+  Note: 6 distinct F_2 automorphisms collapse to 4 distinct GL_2(Z) matrices (R1==R2, R3==R4).
+
+=== STATEMENT B: [a, b] CONJUGACY AND CONJUGACY CLASSES OF LENGTH <= 8 ===
+  [a, b] = abAB, ab([a, b]) = (0, 0), conj_rep([a,b]) = ABab != conj_rep([a,b]^-1) = AbaB
+  R1_a_to_ab([a, b]) = abAB = (1) * [a,b] * (1)
+  R2_a_to_ba([a, b]) = babABB = (b) * [a,b] * (B)
+  R3_b_to_ba([a, b]) = abAB = (1) * [a,b] * (1)
+  R4_b_to_ab([a, b]) = aabABA = (a) * [a,b] * (A)
+  SWAP([a, b]) = baBA = (1) * [a,b]^-1 * (1)
+  TICK([a, b]) = abaBAA = (a) * [a,b]^-1 * (A)
+  Total reduced words of length 0..8: 13121; distinct F_2 conjugacy classes touched: 1387
+  Classes kept by all 4 record moves (0 <= len <= 8): 5 -> ['', 'ABab', 'ABabABab', 'AbaB', 'AbaBAbaB']
+  Classes kept by all 4 record moves (1 <= len <= 8): 4 -> ['ABab', 'ABabABab', 'AbaB', 'AbaBAbaB']
+  Lengths of R2^n([a,b]) for n=0..4: [4, 6, 8, 10, 12] (escapes length <= 8 at n=3, confirming conjugacy classes in F_2 are meant).
+  Collective vs individual check: classes whose ('R1_a_to_ab', 'R2_a_to_ba', 'R3_b_to_ba', 'R4_b_to_ab')-orbit stays in length <= 8 all have orbit size 1 -> 5 classes.
+  CTL-WP12-CONJ PASS: under {R1, R2} alone, 87 classes are kept (including 'b' and its powers).
+
+=== STATEMENT C: Q_8, INTEGRAL HEISENBERG U_3(Z), AND SANOV GROUP ===
+  Point 1 (Q_8): tr(a)=tr(b)=tr(ab)=0, [a,b]=-I_2, all 4 triple commutators == I_2: VERIFIED.
+  Point 2 (U_3(Z)): [a,b] = I +- E_13 != I_3, all 4 triple commutators == I_3: VERIFIED.
+  Trivial reduced words of length 0..8 at Point 2 (U_3(Z)) by length: {k: len(v) for k, v in triv_u3_by_len.items()} = {0: 1, 8: 64}
+    Sample length-8 words in gamma_3(F_2) = ker(F_2 -> U_3(Z)): ['aabABBAb', 'aaBAbbAB', 'abaBAbAB', 'abAAbaBB', 'abAbaBAB', 'abABaBAb'] (e.g. [[a,B],b] = aBAbabAB)
+  Trivial reduced words of length 0..8 at Point 1 (Q_8) by length: {0: 1, 4: 36, 6: 216, 8: 2268} (total 2521; strict superset of U_3(Z)'s 65).
+    Sample words trivial in Q_8 and NON-trivial in U_3(Z): ['aaaa', 'aabb', 'aaBB', 'abaB', 'abAb', 'abba', 'aBab', 'aBAB']
+  Subset check: ALL 65 reduced words of length <= 8 trivial in U_3(Z) are trivial in Q_8: True.
+  Trivial reduced words of length 0..8 at Point 3 (Sanov): [''] (empty word of length 0 IS trivial; 0 non-empty words trivial).
+  Point 3 (Sanov) [[a,b], a] = (-335, 1552, -128, 593) != I_2.
+  CTL-WP12-HEIS PASS: ker(F_2 -> U_3(Z)) independent of generator order; 0 trivial words at lengths 1..7 and 9, 64 at length 8 (minimum non-empty length of gamma_3(F_2)!), and 288 at length 10 (including [[a,b],a]=abABabaBAA); ALL also trivial in Q_8.
+
+=== STATEMENT D: SURFACES WITH pi_1 ~= F_2 AND Z^2 ORBITS ===
+  Compact connected surfaces with b >= 1 and chi = -1: orientable (g,b)=[(0, 3), (1, 1)], non-orientable (c,b)=[(1, 2), (2, 1)] -> total 4 == 4.
+  Sigma_1_1 (torus, 1 boundary): boundary H_1(S;Z) classes = [(0, 0)] -> all in [pi_1, pi_1]: True
+  Sigma_0_3 (sphere, 3 boundaries): boundary H_1(S;Z) classes = [(1, 0), (0, 1), (-1, -1)] -> all in [pi_1, pi_1]: False
+  N_1_2 (RP^2, 2 boundaries: a^2 b c = 1 => c = B A^2): boundary H_1(S;Z) classes = [(0, 1), (-2, -1)] -> all in [pi_1, pi_1]: False
+  N_2_1 (Klein bottle, 1 boundary: a^2 b^2): boundary H_1(S;Z) classes = [(2, 2)] -> all in [pi_1, pi_1]: False
+  Forward semigroup <T1, T2>_+ orbit has size >= 40 (and algebraically infinite) for every non-zero (x,y) in [-6,6]^2.
+  Unstated edge cases verified: empty set {} is finite and invariant in Z^2; over Z/2Z homology, {(1,0),(0,1),(1,1)} is finite, non-zero, and invariant.
+
+=== STATEMENT E: CLOCK-AND-SHIFT REPRESENTATIONS OF PRIME DIMENSION p ===
+  Unstated primitivity check: at zeta = 1, [a, b] = I_p = zeta^0 (k = 0), falsifying 'k not zero' unless zeta is a primitive p-th root of unity.
+  p=2: [a,b] = zeta^(p-1) * I_2 (k = -1 mod 2 != 0); 4 record moves keep zeta^-1; swap & tick give zeta^+1; zeta^-1 == zeta^+1: True
+  p=3: [a,b] = zeta^(p-1) * I_3 (k = -1 mod 3 != 0); 4 record moves keep zeta^-1; swap & tick give zeta^+1; zeta^-1 == zeta^+1: False
+  p=5: [a,b] = zeta^(p-1) * I_5 (k = -1 mod 5 != 0); 4 record moves keep zeta^-1; swap & tick give zeta^+1; zeta^-1 == zeta^+1: False
+  CTL-WP12-P2-TICK PASS (p=2 linear F_2-rep): A^2=+I_2, (AB)^2=-I_2; GL_2 intertwiner for SWAP exists (det=-2), GL_2 intertwiner for TICK is None (and on rho(+)conj(rho) is None), GL_2 intertwiner for R1 is None (3 D_4 spin sectors permuted; only Statement C's Q_8 sector (-I,-I) is fixed by all 6 moves as a linear F_2-rep!).
+  Odd primes p=3,5,7 linear F_2-rep check: (AB)^p = +I_p and discrete-Gaussian intertwiner D_1*A*D_1^-1 = AB verified; at p=3 all 4 record GL_3 intertwiners and SWAP/TICK GL_6 intertwiners on rho(+)conj(rho) verified!
+
+ALL A2-C3 (WP-1.2) DERIVATIONS AND CONTROLS PASSED.
